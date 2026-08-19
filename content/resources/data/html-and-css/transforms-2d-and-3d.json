@@ -13,9 +13,9 @@
     "keywords": "css transforms, translate rotate scale, transform 3d, perspective css, preserve-3d, backface-visibility, flip card css, css cube 3d, transform-origin, tilt effect"
   },
   "content": {
-    "what": "<h2>What Are CSS Transforms?</h2><p>CSS transforms let you <strong>move, rotate, scale, and skew</strong> elements without affecting the document layout. Unlike changing <code>width</code>, <code>height</code>, or <code>left</code>, transforms run on the GPU and do not trigger layout recalculations. That is what makes them so fast and smooth.</p><p>There are two flavors of transforms:</p><ol><li><strong>2D transforms</strong> — move, rotate, scale, and skew on a flat plane (X and Y axes)</li><li><strong>3D transforms</strong> — add depth (Z axis), perspective, and 3D rotation</li></ol><pre><code>.card {\n  transform: translate(50px, 20px) rotate(15deg) scale(1.2);\n}</code></pre><p>That single line moves the card 50px right and 20px down, rotates it 15 degrees, and makes it 20% larger — all in one GPU-accelerated operation.</p>",
-    "why": "<h2>Why Learn Transforms?</h2><h3>1. The Fastest Way to Animate</h3><p>Transforms are the gold standard for performance. When you animate width or top, the browser recalculates the layout every frame. When you animate transform, the browser just tells the GPU 'move this layer by N pixels'. It is dramatically faster.</p><h3>2. They Are Non-Destructive</h3><p>A transform visually moves, scales, or rotates an element but does NOT change its position in the document flow. Surrounding elements do not shift. This lets you animate things without breaking your layout.</p><h3>3. 3D Effects Without WebGL</h3><p>Want a flipping card, a rotating cube, a tilt-on-hover button, or a parallax effect? CSS 3D transforms can do all of these with just a few lines of code. No JavaScript, no WebGL, no libraries.</p><h3>4. Every Modern Website Uses Them</h3><p>Hover lifts, card flips, image zooms, scale-in modals, rotation icons, parallax effects — all built with transforms. Master this chapter and you unlock a huge part of modern web animation.</p>",
-    "explanation": "<h2>Detailed Explanation</h2><h3>1. translate() - Move an Element</h3><p>Shifts the element by X and Y pixels without affecting layout:</p><pre><code>transform: translate(50px, 20px);   /* right 50, down 20 */\ntransform: translateX(100px);        /* only horizontal */\ntransform: translateY(-30px);        /* only vertical (negative = up) */\ntransform: translate(50%, 50%);      /* percentages relative to element's OWN size */</code></pre><p>The percentage trick is a classic centering technique: <code>translate(-50%, -50%)</code> moves the element half its own width and height back, perfectly centering it.</p><h3>2. rotate() - Spin an Element</h3><pre><code>transform: rotate(45deg);    /* clockwise 45 degrees */\ntransform: rotate(-90deg);   /* counter-clockwise 90 degrees */\ntransform: rotate(1turn);    /* one full rotation */\ntransform: rotate(180deg);   /* upside down */</code></pre><h3>3. scale() - Grow or Shrink</h3><pre><code>transform: scale(1.5);       /* 150% of original size */\ntransform: scale(0.5);       /* 50% of original size */\ntransform: scale(1.2, 0.8);  /* wider horizontally, shorter vertically */\ntransform: scaleX(2);        /* double width only */\ntransform: scaleY(0);        /* collapse vertically (invisible) */</code></pre><h3>4. skew() - Slant an Element</h3><pre><code>transform: skew(20deg, 10deg);   /* slant both X and Y */\ntransform: skewX(20deg);          /* slant horizontally */\ntransform: skewY(-10deg);         /* slant vertically */</code></pre><p>Skew is less common but useful for italic-like effects and geometric designs.</p><h3>5. transform-origin - The Pivot Point</h3><p>By default, all transforms happen around the element's CENTER. You can change that:</p><pre><code>transform-origin: top left;         /* transform from top-left corner */\ntransform-origin: bottom center;    /* from bottom center */\ntransform-origin: 0 100%;           /* from top-right */\ntransform-origin: 50px 50px;        /* specific pixel coordinates */</code></pre><p>When you rotate around a corner instead of the center, the element swings like a door. When you scale from a corner, it grows in one direction only.</p><h3>6. Multiple Transforms - Order Matters!</h3><p>You can apply multiple transforms in a single declaration, separated by spaces:</p><pre><code>transform: translate(100px, 0) rotate(45deg);\n/* First translate 100px right, THEN rotate 45 degrees around new position */\n\ntransform: rotate(45deg) translate(100px, 0);\n/* First rotate 45 degrees, THEN translate 100px in the ROTATED coordinate system */</code></pre><p><strong>The order matters</strong>. Transforms apply right-to-left but visually we often think left-to-right. Experiment with swapping order to see the difference.</p><h3>7. 3D Transforms - Adding the Z Axis</h3><pre><code>transform: translateZ(50px);   /* pull forward (toward viewer) */\ntransform: translateZ(-50px);  /* push backward (away from viewer) */\ntransform: rotateX(45deg);     /* tilt forward/backward */\ntransform: rotateY(45deg);     /* turn left/right (like a door) */\ntransform: rotateZ(45deg);     /* same as rotate() — around the Z axis */</code></pre><h3>8. perspective - Making 3D Look Real</h3><p>Without perspective, 3D transforms look flat. <code>perspective</code> sets the distance between the viewer and the element, creating depth:</p><pre><code>.scene {\n  perspective: 800px;\n  /* The smaller the value, the more extreme the 3D effect */\n}\n.scene .card {\n  transform: rotateY(45deg);\n}</code></pre><p>Perspective goes on the PARENT of the 3D element. Without it, rotateY just looks like horizontal scaling.</p><h3>9. transform-style: preserve-3d</h3><p>For nested 3D transforms (like the faces of a cube), you need this on the parent:</p><pre><code>.cube {\n  transform-style: preserve-3d;\n}</code></pre><p>Without it, child elements collapse into the parent's flat plane.</p><h3>10. backface-visibility - Hide the Back</h3><p>When you flip an element 180 degrees, you see its mirrored back face. Often you want to hide that:</p><pre><code>.card-face {\n  backface-visibility: hidden;\n}</code></pre><p>This is essential for flip cards — otherwise you see the back of the front face when it is flipped.</p>",
+    "what": "<h2>What Are CSS Transforms?</h2><p>CSS transforms let you <strong>move, rotate, scale, and skew</strong> elements without affecting the document layout. Unlike changing <code>width</code>, <code>height</code>, or <code>left</code>, transforms run on the GPU and do not trigger layout recalculations. That is what makes them so fast and smooth.</p><p>There are two flavors of transforms:</p><ol><li><strong>2D transforms</strong>, move, rotate, scale, and skew on a flat plane (X and Y axes)</li><li><strong>3D transforms</strong>, add depth (Z axis), perspective, and 3D rotation</li></ol><pre><code>.card {\n  transform: translate(50px, 20px) rotate(15deg) scale(1.2);\n}</code></pre><p>That single line moves the card 50px right and 20px down, rotates it 15 degrees, and makes it 20% larger, all in one GPU-accelerated operation.</p>",
+    "why": "<h2>Why Learn Transforms?</h2><h3>1. The Fastest Way to Animate</h3><p>Transforms are the gold standard for performance. When you animate width or top, the browser recalculates the layout every frame. When you animate transform, the browser just tells the GPU 'move this layer by N pixels'. It is dramatically faster.</p><h3>2. They Are Non-Destructive</h3><p>A transform visually moves, scales, or rotates an element but does NOT change its position in the document flow. Surrounding elements do not shift. This lets you animate things without breaking your layout.</p><h3>3. 3D Effects Without WebGL</h3><p>Want a flipping card, a rotating cube, a tilt-on-hover button, or a parallax effect? CSS 3D transforms can do all of these with just a few lines of code. No JavaScript, no WebGL, no libraries.</p><h3>4. Every Modern Website Uses Them</h3><p>Hover lifts, card flips, image zooms, scale-in modals, rotation icons, parallax effects, all built with transforms. Master this chapter and you unlock a huge part of modern web animation.</p>",
+    "explanation": "<h2>Detailed Explanation</h2><h3>1. translate() - Move an Element</h3><p>Shifts the element by X and Y pixels without affecting layout:</p><pre><code>transform: translate(50px, 20px);   /* right 50, down 20 */\ntransform: translateX(100px);        /* only horizontal */\ntransform: translateY(-30px);        /* only vertical (negative = up) */\ntransform: translate(50%, 50%);      /* percentages relative to element's OWN size */</code></pre><p>The percentage trick is a classic centering technique: <code>translate(-50%, -50%)</code> moves the element half its own width and height back, perfectly centering it.</p><h3>2. rotate() - Spin an Element</h3><pre><code>transform: rotate(45deg);    /* clockwise 45 degrees */\ntransform: rotate(-90deg);   /* counter-clockwise 90 degrees */\ntransform: rotate(1turn);    /* one full rotation */\ntransform: rotate(180deg);   /* upside down */</code></pre><h3>3. scale() - Grow or Shrink</h3><pre><code>transform: scale(1.5);       /* 150% of original size */\ntransform: scale(0.5);       /* 50% of original size */\ntransform: scale(1.2, 0.8);  /* wider horizontally, shorter vertically */\ntransform: scaleX(2);        /* double width only */\ntransform: scaleY(0);        /* collapse vertically (invisible) */</code></pre><h3>4. skew() - Slant an Element</h3><pre><code>transform: skew(20deg, 10deg);   /* slant both X and Y */\ntransform: skewX(20deg);          /* slant horizontally */\ntransform: skewY(-10deg);         /* slant vertically */</code></pre><p>Skew is less common but useful for italic-like effects and geometric designs.</p><h3>5. transform-origin - The Pivot Point</h3><p>By default, all transforms happen around the element's CENTER. You can change that:</p><pre><code>transform-origin: top left;         /* transform from top-left corner */\ntransform-origin: bottom center;    /* from bottom center */\ntransform-origin: 0 100%;           /* from top-right */\ntransform-origin: 50px 50px;        /* specific pixel coordinates */</code></pre><p>When you rotate around a corner instead of the center, the element swings like a door. When you scale from a corner, it grows in one direction only.</p><h3>6. Multiple Transforms - Order Matters!</h3><p>You can apply multiple transforms in a single declaration, separated by spaces:</p><pre><code>transform: translate(100px, 0) rotate(45deg);\n/* First translate 100px right, THEN rotate 45 degrees around new position */\n\ntransform: rotate(45deg) translate(100px, 0);\n/* First rotate 45 degrees, THEN translate 100px in the ROTATED coordinate system */</code></pre><p><strong>The order matters</strong>. Transforms apply right-to-left but visually we often think left-to-right. Experiment with swapping order to see the difference.</p><h3>7. 3D Transforms - Adding the Z Axis</h3><pre><code>transform: translateZ(50px);   /* pull forward (toward viewer) */\ntransform: translateZ(-50px);  /* push backward (away from viewer) */\ntransform: rotateX(45deg);     /* tilt forward/backward */\ntransform: rotateY(45deg);     /* turn left/right (like a door) */\ntransform: rotateZ(45deg);     /* same as rotate(), around the Z axis */</code></pre><h3>8. perspective - Making 3D Look Real</h3><p>Without perspective, 3D transforms look flat. <code>perspective</code> sets the distance between the viewer and the element, creating depth:</p><pre><code>.scene {\n  perspective: 800px;\n  /* The smaller the value, the more extreme the 3D effect */\n}\n.scene .card {\n  transform: rotateY(45deg);\n}</code></pre><p>Perspective goes on the PARENT of the 3D element. Without it, rotateY just looks like horizontal scaling.</p><h3>9. transform-style: preserve-3d</h3><p>For nested 3D transforms (like the faces of a cube), you need this on the parent:</p><pre><code>.cube {\n  transform-style: preserve-3d;\n}</code></pre><p>Without it, child elements collapse into the parent's flat plane.</p><h3>10. backface-visibility - Hide the Back</h3><p>When you flip an element 180 degrees, you see its mirrored back face. Often you want to hide that:</p><pre><code>.card-face {\n  backface-visibility: hidden;\n}</code></pre><p>This is essential for flip cards, otherwise you see the back of the front face when it is flipped.</p>",
     "codeExamples": [
       {
         "title": "Classic Flip Card",
@@ -70,14 +70,14 @@
     "commonMistakes": [
       {
         "title": "Forgetting perspective on the Parent",
-        "wrongCode": ".card {\n  transform: rotateY(45deg);\n}\n/* Looks flat — no 3D depth */",
+        "wrongCode": ".card {\n  transform: rotateY(45deg);\n}\n/* Looks flat, no 3D depth */",
         "error": "Without perspective, 3D rotations look like 2D scaling. rotateY(45deg) just visually compresses the element horizontally because the viewer has no depth reference.",
         "correctCode": ".parent {\n  perspective: 1000px;\n}\n.parent .card {\n  transform: rotateY(45deg);\n}",
         "explanation": "Perspective MUST be on a parent element (or use <code>transform: perspective(1000px) rotateY(...)</code> inline). It tells the browser how far the viewer is from the 3D scene, enabling depth illusion."
       },
       {
         "title": "Order of Multiple Transforms",
-        "wrongCode": "transform: rotate(45deg) translate(100px);\n/* Translation happens in the ROTATED coordinate system — so the element moves diagonally, not right */",
+        "wrongCode": "transform: rotate(45deg) translate(100px);\n/* Translation happens in the ROTATED coordinate system, so the element moves diagonally, not right */",
         "error": "Transforms apply in order. After rotating, the coordinate system is rotated too. A subsequent translate moves along the rotated axis, not the original one.",
         "correctCode": "/* To move right AND rotate: */\ntransform: translate(100px) rotate(45deg);\n/* OR if you want rotation first: */\ntransform: rotate(45deg);\ntransform-origin: 100px center;",
         "explanation": "Think of transforms right-to-left in their effect. Translating first then rotating moves the element and then spins it in place. Rotating first then translating moves the element along a rotated axis."
@@ -85,7 +85,7 @@
       {
         "title": "Forgetting backface-visibility on Flip Cards",
         "wrongCode": ".front, .back {\n  position: absolute;\n  /* Missing backface-visibility: hidden */\n}\n.back { transform: rotateY(180deg); }\n.card.flipped { transform: rotateY(180deg); }",
-        "error": "When the card rotates, you can see the back of the front face overlapping the back face — a mirrored, backwards version of the front content.",
+        "error": "When the card rotates, you can see the back of the front face overlapping the back face, a mirrored, backwards version of the front content.",
         "correctCode": ".front, .back {\n  position: absolute;\n  backface-visibility: hidden;\n}",
         "explanation": "<code>backface-visibility: hidden</code> tells the browser to not render the reverse side of each face. Essential for flip cards and any 3D element where you only want one side visible at a time."
       },
@@ -219,7 +219,7 @@
         "difficulty": "Hard",
         "question": "Why is transforming an element faster than changing its top/left?",
         "hint": "Think about the browser rendering pipeline.",
-        "answer": "Changing top/left triggers LAYOUT recalculation every frame (the browser has to recompute positions of surrounding elements). Transform runs on the GPU and only requires a COMPOSITE step — much faster.",
+        "answer": "Changing top/left triggers LAYOUT recalculation every frame (the browser has to recompute positions of surrounding elements). Transform runs on the GPU and only requires a COMPOSITE step, much faster.",
         "explanation": "Modern browsers have a rendering pipeline: layout, paint, composite. Transform skips layout and paint, going straight to composite on the GPU. This is why transforms feel smooth even on complex pages."
       },
       {
@@ -237,7 +237,7 @@
         "difficulty": "Hard",
         "question": "What is the difference between <code>rotate()</code> and <code>rotateZ()</code>?",
         "hint": "Both rotate around the Z axis.",
-        "answer": "They are IDENTICAL. <code>rotate()</code> is shorthand for <code>rotateZ()</code> — rotation around the Z axis (which appears as flat 2D rotation from the viewer's perspective).",
+        "answer": "They are IDENTICAL. <code>rotate()</code> is shorthand for <code>rotateZ()</code>, rotation around the Z axis (which appears as flat 2D rotation from the viewer's perspective).",
         "explanation": "In 3D space, 2D rotation is actually rotation around the Z axis (the axis pointing toward the viewer). rotate() and rotateZ() do the same thing."
       },
       {
@@ -246,7 +246,7 @@
         "difficulty": "Hard",
         "question": "Why can you animate transform but not background-image between two images?",
         "hint": "Interpolation requires numeric values.",
-        "answer": "Transform values are numeric (pixels, degrees, scale factors) and can be smoothly interpolated. Background-image URLs are discrete strings — the browser cannot blend two image files together.",
+        "answer": "Transform values are numeric (pixels, degrees, scale factors) and can be smoothly interpolated. Background-image URLs are discrete strings, the browser cannot blend two image files together.",
         "explanation": "For image cross-fades, stack two images with absolute positioning and animate their opacity instead of trying to transition the image URL."
       }
     ],
@@ -276,7 +276,7 @@
         "question": "Why do CSS transforms not affect surrounding elements?",
         "hint": "Transform is visual-only.",
         "answer": "Transforms are visual-only operations. They do not change the element's original box in the document flow. Surrounding elements lay out as if the transform did not happen.",
-        "explanation": "This is a feature — you can move and rotate elements freely without breaking the layout. Contrast with changing margin or position, which DO shift other elements."
+        "explanation": "This is a feature. You can move and rotate elements freely without breaking the layout. Contrast with changing margin or position, which DO shift other elements."
       },
       {
         "id": "mx-4",
@@ -382,7 +382,7 @@
         "type": "output-prediction",
         "difficulty": "Easy",
         "question": "Can you animate CSS transforms?",
-        "hint": "Yes — that is their main purpose.",
+        "hint": "Yes. That is their main purpose.",
         "answer": "Yes. Transforms are fully animatable with both transitions and @keyframes, and they are the most performant things you can animate in CSS.",
         "explanation": "Animating transform is the foundation of smooth web animation. Pair it with opacity for elegant entrance and exit effects."
       },
@@ -409,7 +409,7 @@
         "type": "output-prediction",
         "difficulty": "Hard",
         "question": "Can you combine 2D and 3D transforms in one declaration?",
-        "hint": "Yes — and it is common.",
+        "hint": "Yes, and it is common.",
         "answer": "Yes. Example: <code>transform: rotateY(45deg) scale(1.1) translateZ(30px)</code>. Mixing 2D and 3D functions is allowed and commonly used for interactive effects.",
         "explanation": "When you mix them, the browser treats the whole thing as 3D (needs perspective on the parent or as the first transform function)."
       },
@@ -573,7 +573,7 @@
         "question": "Which is different: <code>rotate(45deg)</code> or <code>rotateZ(45deg)</code>?",
         "options": {
           "A": "rotate is 2D, rotateZ is 3D",
-          "B": "They are identical — rotate() is shorthand for rotateZ()",
+          "B": "They are identical, rotate() is shorthand for rotateZ()",
           "C": "rotate works in both, rotateZ only in 3D",
           "D": "rotateZ requires perspective"
         },

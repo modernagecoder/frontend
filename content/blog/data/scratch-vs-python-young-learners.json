@@ -56,11 +56,11 @@
         "type": "callout",
         "calloutType": "info",
         "title": "Quick Decision Guide",
-        "text": "Ages 8-10 or new to coding? → Start with Scratch<br>Ages 11+ with typing skills? → Python is appropriate<br>Not sure? → Start with Scratch—it never hurts, and the transition to Python is smoother"
+        "text": "Ages 8-10 or new to coding? → Start with Scratch<br>Ages 11+ with typing skills? → Python is appropriate<br>Not sure? → Start with Scratch. It never hurts, and the transition to Python is smoother"
       },
       {
         "type": "paragraph",
-        "text": "Spoiler alert: for many kids, the answer isn't 'either/or'—it's 'both, in the right order.' Let's dive in."
+        "text": "Spoiler alert: for many kids, the answer isn't 'either/or'. It's 'both, in the right order.' Let's dive in."
       },
       {
         "type": "heading",
@@ -157,7 +157,7 @@
       },
       {
         "type": "paragraph",
-        "text": "Scratch is a visual programming language developed by MIT's Lifelong Kindergarten group specifically for children. Instead of typing code, kids drag and drop colorful blocks that snap together like puzzle pieces. Each block represents a programming concept—move, turn, repeat, if-then, and so on."
+        "text": "Scratch is a visual programming language developed by MIT's Lifelong Kindergarten group specifically for children. Instead of typing code, kids drag and drop colorful blocks that snap together like puzzle pieces. Each block represents a programming concept, move, turn, repeat, if-then, and so on."
       },
       {
         "type": "heading",
@@ -169,7 +169,7 @@
         "style": "unordered",
         "items": [
           "<strong>No typing required:</strong> Kids who can't type fluently can still code complex programs",
-          "<strong>No syntax errors:</strong> Blocks only fit together in valid ways—impossible to make typos",
+          "<strong>No syntax errors:</strong> Blocks only fit together in valid ways, impossible to make typos",
           "<strong>Immediate visual feedback:</strong> See characters move and animations play instantly",
           "<strong>Creative focus:</strong> Build games, stories, and animations from day one",
           "<strong>Huge community:</strong> 100+ million users, 900+ million shared projects to explore and remix",
@@ -183,7 +183,7 @@
       },
       {
         "type": "paragraph",
-        "text": "Here's how a simple game loop looks in Scratch—visual blocks that snap together:"
+        "text": "Here's how a simple game loop looks in Scratch, visual blocks that snap together:"
       },
       {
         "type": "callout",
@@ -212,7 +212,7 @@
         "type": "callout",
         "calloutType": "success",
         "title": "Real Scratch Success Story",
-        "text": "A 10-year-old student created a Scratch game called 'Geometry Dash Clone' that received over 50,000 plays. She learned loops, collision detection, and level design—all concepts that transferred directly when she started Python at 12."
+        "text": "A 10-year-old student created a Scratch game called 'Geometry Dash Clone' that received over 50,000 plays. She learned loops, collision detection, and level design, all concepts that transferred directly when she started Python at 12."
       },
       {
         "type": "heading",
@@ -222,7 +222,7 @@
       },
       {
         "type": "paragraph",
-        "text": "Python is a professional programming language used by companies like Google, Netflix, Instagram, and NASA. But don't let that intimidate you—it's also one of the most beginner-friendly text-based languages, which is why it's increasingly taught to children and teens."
+        "text": "Python is a professional programming language used by companies like Google, Netflix, Instagram, and NASA. But don't let that intimidate you. It's also one of the most beginner-friendly text-based languages, which is why it's increasingly taught to children and teens."
       },
       {
         "type": "heading",
@@ -233,7 +233,7 @@
         "type": "list",
         "style": "unordered",
         "items": [
-          "<strong>Readable syntax:</strong> Code looks almost like English—easy to read and understand",
+          "<strong>Readable syntax:</strong> Code looks almost like English, easy to read and understand",
           "<strong>Real-world relevance:</strong> Used in actual jobs across every industry",
           "<strong>Incredibly versatile:</strong> Web development, data science, AI, games, automation, robotics",
           "<strong>Massive ecosystem:</strong> Libraries for almost anything you want to build",
@@ -248,7 +248,7 @@
       },
       {
         "type": "paragraph",
-        "text": "Here's a simple Python program—notice how readable it is:"
+        "text": "Here's a simple Python program, notice how readable it is:"
       },
       {
         "type": "code",
@@ -339,7 +339,7 @@
       },
       {
         "type": "paragraph",
-        "text": "<strong>Scratch:</strong> Kids can create their first project in 5-10 minutes. No frustrating syntax errors. Concepts are visual and intuitive. The learning curve is almost flat—immediate success builds confidence."
+        "text": "<strong>Scratch:</strong> Kids can create their first project in 5-10 minutes. No frustrating syntax errors. Concepts are visual and intuitive. The learning curve is almost flat, immediate success builds confidence."
       },
       {
         "type": "paragraph",
@@ -378,7 +378,7 @@
       },
       {
         "type": "paragraph",
-        "text": "Same concept, same logic—just different ways of expressing it. Kids who learn the Scratch version first understand what the Python version does immediately."
+        "text": "Same concept, same logic, just different ways of expressing it. Kids who learn the Scratch version first understand what the Python version does immediately."
       },
       {
         "type": "heading",
@@ -419,7 +419,7 @@
       },
       {
         "type": "paragraph",
-        "text": "<strong>Scratch:</strong> Not used professionally. However, the concepts (loops, conditionals, variables, functions) are universal and transfer to any language. Think of it as learning to ride a bike with training wheels—you're still learning to balance."
+        "text": "<strong>Scratch:</strong> Not used professionally. However, the concepts (loops, conditionals, variables, functions) are universal and transfer to any language. Think of it as learning to ride a bike with training wheels. You're still learning to balance."
       },
       {
         "type": "paragraph",
@@ -562,12 +562,12 @@
       },
       {
         "type": "paragraph",
-        "text": "For most children, the best approach isn't choosing one or the other—it's learning both in sequence. Here's a detailed timeline:"
+        "text": "For most children, the best approach isn't choosing one or the other. It's learning both in sequence. Here's a detailed timeline:"
       },
       {
         "type": "heading",
         "level": 3,
-        "text": "Phase 1: Foundation (Ages 5-7) — 6-12 months"
+        "text": "Phase 1: Foundation (Ages 5-7): 6-12 months"
       },
       {
         "type": "list",
@@ -583,7 +583,7 @@
       {
         "type": "heading",
         "level": 3,
-        "text": "Phase 2: Core Skills (Ages 8-10) — 12-18 months"
+        "text": "Phase 2: Core Skills (Ages 8-10): 12-18 months"
       },
       {
         "type": "list",
@@ -599,7 +599,7 @@
       {
         "type": "heading",
         "level": 3,
-        "text": "Phase 3: Transition (Ages 11-12) — 3-6 months"
+        "text": "Phase 3: Transition (Ages 11-12): 3-6 months"
       },
       {
         "type": "list",
@@ -615,7 +615,7 @@
       {
         "type": "heading",
         "level": 3,
-        "text": "Phase 4: Proficiency (Ages 13-14) — Ongoing"
+        "text": "Phase 4: Proficiency (Ages 13-14): Ongoing"
       },
       {
         "type": "list",
@@ -763,7 +763,7 @@
       },
       {
         "type": "paragraph",
-        "text": "Scratch IS real coding—it teaches real programming concepts. The visual interface is a feature, not a limitation. MIT designed it this way intentionally based on decades of research on how children learn."
+        "text": "Scratch IS real coding. It teaches real programming concepts. The visual interface is a feature, not a limitation. MIT designed it this way intentionally based on decades of research on how children learn."
       },
       {
         "type": "heading",
@@ -785,7 +785,7 @@
       },
       {
         "type": "paragraph",
-        "text": "Python is popular in AI and data science, so some parents push it regardless of their child's readiness. But a frustrated 8-year-old learning Python won't become an AI engineer—they'll become someone who hates coding."
+        "text": "Python is popular in AI and data science, so some parents push it regardless of their child's readiness. But a frustrated 8-year-old learning Python won't become an AI engineer, they'll become someone who hates coding."
       },
       {
         "type": "heading",
@@ -819,7 +819,7 @@
           },
           {
             "title": "Will learning Scratch make Python harder because of different syntax?",
-            "content": "No, the opposite is true. Scratch builds conceptual understanding that makes Python syntax easier to learn. Kids aren't learning new concepts in Python—just new ways to express familiar ones. Studies show Scratch-first learners pick up Python faster."
+            "content": "No, the opposite is true. Scratch builds conceptual understanding that makes Python syntax easier to learn. Kids aren't learning new concepts in Python, just new ways to express familiar ones. Studies show Scratch-first learners pick up Python faster."
           },
           {
             "title": "My child is 14 and has never coded. Should they start with Scratch?",
@@ -843,7 +843,7 @@
           },
           {
             "title": "Is Python too hard for a 10-year-old?",
-            "content": "For most 10-year-olds, yes—Python's syntax errors and abstract nature can be frustrating. However, exceptionally motivated 10-year-olds with strong typing skills and patient temperaments can succeed with good instruction. When in doubt, start with Scratch."
+            "content": "For most 10-year-olds, yes: Python's syntax errors and abstract nature can be frustrating. However, exceptionally motivated 10-year-olds with strong typing skills and patient temperaments can succeed with good instruction. When in doubt, start with Scratch."
           },
           {
             "title": "What about JavaScript instead of Python?",
@@ -867,7 +867,7 @@
       },
       {
         "type": "paragraph",
-        "text": "Scratch and Python aren't competitors—they're partners in your child's coding journey. Scratch provides the perfect on-ramp: visual, engaging, and frustration-free. Python provides the highway: powerful, professional, and limitless in potential."
+        "text": "Scratch and Python aren't competitors. They're partners in your child's coding journey. Scratch provides the perfect on-ramp: visual, engaging, and frustration-free. Python provides the highway: powerful, professional, and limitless in potential."
       },
       {
         "type": "paragraph",
@@ -879,7 +879,7 @@
       },
       {
         "type": "paragraph",
-        "text": "The most important thing isn't which language you choose—it's that your child starts coding, stays engaged, and keeps learning. Whether they begin with colorful blocks or lines of text, they're building skills that will serve them for a lifetime."
+        "text": "The most important thing isn't which language you choose. It's that your child starts coding, stays engaged, and keeps learning. Whether they begin with colorful blocks or lines of text, they're building skills that will serve them for a lifetime."
       },
       {
         "type": "callout",

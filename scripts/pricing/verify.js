@@ -92,7 +92,7 @@ function checkScripts(rel, html) {
 
     // The data file's tag must carry a content-hash version. Without it,
     // sw.js (cache-first) plus the HTTP cache keep serving a RETURNING
-    // visitor the previous deploy's prices — they would see and be charged
+    // visitor the previous deploy's prices. They would see and be charged
     // old amounts after a price change. apply stamps this automatically.
     const dataTag = html.match(/src="\/js\/pricing-data\.generated\.js(\?v=[A-Za-z0-9]+)?"/);
     if (dataTag && !dataTag[1]) {
@@ -117,7 +117,7 @@ const COMPETITOR_CUE = /kumon|mathnasium|juni|cuemath|outschool|tynker|whitehat|
  * $40/$100/$150 months after the worldwide ladder replaced them.
  */
 // Every amount the config currently sells, as digit strings. A figure is only
-// "retired" if it is not in here — the owner is free to bring an old number
+// "retired" if it is not in here, the owner is free to bring an old number
 // back (2026-08-04: ₹9,999 returned as both the premium 1-on-1 and the camp
 // fee, and the hardcoded tripwires false-flagged the owner's own new prices).
 let CURRENT_AMOUNTS = null;
@@ -168,12 +168,12 @@ function checkRetiredFigures(rel, html, config) {
         while ((rm = retiredG.exec(pair[1])) !== null) {
             if (isCurrentFigure(rm[0], config)) continue;
             fail(rel, pair[0] + ' quotes a retired price ("' + rm[0] + '"): "' +
-                pair[1].slice(0, 90) + '..." — see pricing/pricing.config.jsonc for the real ones.');
+                pair[1].slice(0, 90) + '...". See pricing/pricing.config.jsonc for the real ones.');
             break;
         }
     });
 
-    // Bare price fields in structured data ("highPrice": "4999") — the shape
+    // Bare price fields in structured data ("highPrice": "4999"), the shape
     // that hid retired figures on 40 locality pages and /pricing itself,
     // because the formatted-figure regex above cannot see plain digits.
     // Figures that are currently sold (4999 became the 1-on-1 rate on
@@ -185,7 +185,7 @@ function checkRetiredFigures(rel, html, config) {
         while ((b = bare.exec(m[1])) !== null) {
             if (isCurrentFigure(b[1], config)) continue;
             fail(rel, 'structured data publishes the retired figure ' + b[1] +
-                ' in a price field. The stamper never writes this — the block is ' +
+                ' in a price field. The stamper never writes this, the block is ' +
                 'unanchored or hand-edited; give its <script> tag a data-price-scope.');
         }
     }
@@ -193,7 +193,7 @@ function checkRetiredFigures(rel, html, config) {
     // Visible text. 2,499 has no current use at all; 7,500/8,500 died on
     // 2026-08-10 when the 1-on-1 rate moved to ₹4,999. 9,999 and 4,999 are
     // listed but currently live (agents 1-on-1 + camp fee, and the standard
-    // 1-on-1 rate) — isCurrentFigure spares them for as long as the config
+    // 1-on-1 rate), isCurrentFigure spares them for as long as the config
     // sells them, and the tripwires re-arm on their own the day it stops.
     // "$40 a month" was the retired flat group price ($40/hour is a
     // competitor rate and stays legal).
@@ -255,8 +255,7 @@ function checkFile(rel, config) {
 
         const shownDigits = digits(shown);
         const expectDigits = String(expectAmount);
-        // Numeric comparison: a derived $12.50 must equal the computed 12.5 —
-        // string equality failed on trailing-zero formatting alone.
+        // Numeric comparison: a derived $12.50 must equal the computed 12.5, // string equality failed on trailing-zero formatting alone.
         if (Number(shownDigits) !== Number(expectDigits)) {
             fail(rel, 'shows "' + shown.trim().slice(0, 60) + '" for ' + key +
                 ' but the config says ' + expectDigits + '. Run: npm run pricing:apply');
@@ -323,7 +322,7 @@ function checkFile(rel, config) {
             const visible = seenVisible[scope.split('.')[0] + '.' + region] &&
                 seenVisible[scope.split('.')[0] + '.' + region][tier];
             if (visible && visible !== String(r.amount)) {
-                fail(rel, 'VISIBLE/SCHEMA MISMATCH — page shows ' + visible +
+                fail(rel, 'VISIBLE/SCHEMA MISMATCH, page shows ' + visible +
                     ' for ' + scope + '.' + tier + ' but tells Google ' + priceM[1]);
             }
         }
@@ -346,7 +345,7 @@ function checkPaymentCode() {
         const src = fs.readFileSync(full, 'utf8');
         const hits = [];
         src.split('\n').forEach(function (line, i) {
-            // A comment citing a price is documentation — explaining why a rule
+            // A comment citing a price is documentation, explaining why a rule
             // exists, or recording a bug that was fixed. Only executable code
             // can charge anyone the wrong amount.
             if (/^\s*(\/\/|\*|\/\*)/.test(line)) return;
@@ -365,7 +364,7 @@ function checkPaymentCode() {
 
 /**
  * The eight holiday-camp pages: every currency-prefixed figure on them must
- * BE the camp fee from the config — apply's syncCampPages rewrites them all,
+ * BE the camp fee from the config, apply's syncCampPages rewrites them all,
  * and this is what makes that page-wide rewrite safe. A stray unrelated
  * price added to a camp page fails here instead of getting silently
  * clobbered on the next apply.
@@ -398,7 +397,7 @@ function checkCampFigures(config) {
 
 /**
  * School pages quote the in-school bootcamp fee as "<name> Bootcamp/Programme
- * is ₹X/month" — X must be plans.school.india.group (apply's syncSchoolPages
+ * is ₹X/month": X must be plans.school.india.group (apply's syncSchoolPages
  * writes it; this proves it).
  */
 function checkSchoolFigures(config) {
@@ -421,14 +420,13 @@ function checkSchoolFigures(config) {
 }
 
 /**
- * courses-config.json is the file the payment modal charges from — the one
+ * courses-config.json is the file the payment modal charges from, the one
  * place where a wrong number bills a real customer. Three rules:
  *   1. defaultPricing must equal the coding India table.
  *   2. A real course whose resolved India prices differ from the defaults
  *      must have its own entry. This is exactly how every maths course once
- *      showed ₹8,500 on the page while Razorpay charged the coding ₹7,500 —
- *      the entry simply did not exist, so the modal fell back silently.
- *   3. Every entry — including orphans left over from renamed courses — must
+ *      showed ₹8,500 on the page while Razorpay charged the coding ₹7,500, *      the entry simply did not exist, so the modal fell back silently.
+ *   3. Every entry, including orphans left over from renamed courses, must
  *      match the config. No retired figure may survive in a file the
  *      browser downloads to decide a charge.
  */
@@ -482,7 +480,7 @@ function checkCoursesConfig(config) {
             const entry = pricing[t];
             const want = (prices[t] === undefined) ? null : prices[t];
             if (want === null) {
-                if (entry) fail(rel, slug + '.' + t + ' still exists but the tier is not sold — ' +
+                if (entry) fail(rel, slug + '.' + t + ' still exists but the tier is not sold, ' +
                     'Razorpay could be handed ' + entry.amount + '.');
                 return;
             }
@@ -505,7 +503,7 @@ function checkCoursesConfig(config) {
  * Refuse to report success on an empty run.
  *
  * walk() returns [] for a directory that does not exist, so without this a
- * fresh clone — or a build that runs verify before generate:all — would check
+ * fresh clone, or a build that runs verify before generate:all, would check
  * nothing, accumulate no failures, and print a tick. content/courses/generated
  * is gitignored, which makes that scenario ordinary rather than exotic. A
  * verifier that cannot fail is worse than none, because it launders confidence.
@@ -514,7 +512,7 @@ function checkCoursesConfig(config) {
  * The .md twins must agree with the pages they are derived from.
  *
  * 391 of them carry a price, they are git-tracked, and they are what AI
- * crawlers read — yet every check in this file looked only at HTML, so a twin
+ * crawlers read, yet every check in this file looked only at HTML, so a twin
  * whose price disagreed with its parent could ship unnoticed. That gap is how
  * 132 twins came to be published carrying retired $40/$100/$150 figures after
  * generate:static-md ran before pricing:apply.
@@ -612,7 +610,7 @@ function main() {
     assertCoverage();
 
     console.log('');
-    console.log('  ' + pagesWithPrices + ' page(s) show a price — all load the currency scripts');
+    console.log('  ' + pagesWithPrices + ' page(s) show a price, all load the currency scripts');
     console.log('  ' + filesChecked + ' page(s) carry price anchors');
     console.log('  ' + anchorsChecked + ' visible price(s) checked against the config');
     console.log('  ' + schemaChecked + ' structured-data offer(s) checked');

@@ -268,7 +268,7 @@ console.log("Hello");
 console.log("JavaScript");
 ```
 
-*Hint:* Lines starting with // are comments — they do not execute.
+*Hint:* Lines starting with // are comments. They do not execute.
 
 **Answer:** `Hello`
 `JavaScript`
@@ -325,7 +325,7 @@ console.log("End");
 
 **Answer:** `Start` appears in the console. Then the alert popup shows. After the user clicks OK, `End` appears in the console.
 
-`alert()` is **blocking** — it pauses all JavaScript execution until the user clicks OK. So `"Start"` is logged, then the alert appears and everything freezes. Only after clicking OK does `"End"` get logged. This blocking behavior is why alert should not be used in production websites.
+`alert()` is **blocking**. It pauses all JavaScript execution until the user clicks OK. So `"Start"` is logged, then the alert appears and everything freezes. Only after clicking OK does `"End"` get logged. This blocking behavior is why alert should not be used in production websites.
 
 ### Q20. [Hard] Write an HTML page with a button. When clicked, use console.time and console.timeEnd to measure how long it takes to concatenate the string 'x' to itself 100000 times, and log the final string length.
 
@@ -445,7 +445,7 @@ console.log(Number("abc"));
 `NaN`
 `NaN`
 
-`parseInt("42px")` reads digits from the start and stops at 'p', returning `42`. `parseInt("abc")` finds no digits at the start, returning `NaN`. `Number("42px")` requires the ENTIRE string to be a valid number — since 'px' is not numeric, it returns `NaN`. `Number("abc")` is also `NaN`.
+`parseInt("42px")` reads digits from the start and stops at 'p', returning `42`. `parseInt("abc")` finds no digits at the start, returning `NaN`. `Number("42px")` requires the ENTIRE string to be a valid number, since 'px' is not numeric, it returns `NaN`. `Number("abc")` is also `NaN`.
 
 ### Q7. [Medium] Ananya wrote this HTML file but the browser shows the JavaScript code as text on the page instead of running it. Find the bug:
 

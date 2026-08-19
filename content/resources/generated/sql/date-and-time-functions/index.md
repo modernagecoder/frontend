@@ -15,7 +15,7 @@ keywords: ["sql date functions", "mysql date_format", "sql datediff", "timestamp
 
 ## What Are Date and Time Functions?
 
-Dates in SQL are not just strings. MySQL stores them as structured values that understand the calendar — leap years, daylight saving time, the last day of February, the number of days between two dates. Date and time functions are the set of built-in functions MySQL ships to read the current moment, extract parts from a date, shift dates forward or backward, and format them for display.
+Dates in SQL are not just strings. MySQL stores them as structured values that understand the calendar, leap years, daylight saving time, the last day of February, the number of days between two dates. Date and time functions are the set of built-in functions MySQL ships to read the current moment, extract parts from a date, shift dates forward or backward, and format them for display.
 
 Once orders, signups, payments, and attendance records land in a database, almost every business question is a date question. *"How many orders did we get last week?" "Which customers haven't logged in for 30 days?" "Give me revenue grouped by month for the last year."* Each of these needs a date function.
 
@@ -51,7 +51,7 @@ created_at   TIMESTAMP        -- shown as IST, stored as UTC
 
 ### 1. Every Business Report Is a Date Query
 
-Open any analytics dashboard — Flipkart seller panel, Zomato restaurant dashboard, a school's fee dashboard — and more than half the numbers are grouped by day, week, or month. *Sales today vs yesterday. Week-over-week growth. Active users in the last 30 days.* Without fluent date functions, you cannot even start writing these queries.
+Open any analytics dashboard, Flipkart seller panel, Zomato restaurant dashboard, a school's fee dashboard, and more than half the numbers are grouped by day, week, or month. *Sales today vs yesterday. Week-over-week growth. Active users in the last 30 days.* Without fluent date functions, you cannot even start writing these queries.
 
 ### 2. Filtering Is the #1 Use Case
 
@@ -67,7 +67,7 @@ When Modern Age Coders launches a course at 7 PM IST, the database server might 
 
 ### 5. Interview Favorites Are Date-Heavy
 
-"Find customers whose orders are at least 30 days apart", "Get month-over-month growth", "List employees with more than 2 years tenure" — these questions depend entirely on DATEDIFF, TIMESTAMPDIFF, and DATE_ADD. They appear in almost every data analyst interview.
+"Find customers whose orders are at least 30 days apart", "Get month-over-month growth", "List employees with more than 2 years tenure", these questions depend entirely on DATEDIFF, TIMESTAMPDIFF, and DATE_ADD. They appear in almost every data analyst interview.
 
 ## Detailed Explanation
 
@@ -83,7 +83,7 @@ SELECT
   CURRENT_TIMESTAMP AS also_now;   -- same as NOW()
 ```
 
-`NOW()` returns a DATETIME (date + time). `CURDATE()` returns only the DATE. `CURTIME()` returns only the TIME. All three read from the MySQL server clock, not the client. `NOW()` within a single query always returns the same value even if the query runs for minutes — use `SYSDATE()` if you actually want the clock to re-read.
+`NOW()` returns a DATETIME (date + time). `CURDATE()` returns only the DATE. `CURTIME()` returns only the TIME. All three read from the MySQL server clock, not the client. `NOW()` within a single query always returns the same value even if the query runs for minutes. Use `SYSDATE()` if you actually want the clock to re-read.
 
 ### 2. DATEDIFF vs TIMESTAMPDIFF
 
@@ -115,9 +115,9 @@ SELECT CURDATE() + INTERVAL 30 DAY;               -- 2026-05-16
 SELECT CURDATE() - INTERVAL 90 DAY;               -- 2026-01-16
 ```
 
-Supported intervals: `SECOND, MINUTE, HOUR, DAY, WEEK, MONTH, QUARTER, YEAR`. Month math respects calendar length — adding 1 month to Jan 31 gives Feb 28 (or 29 in a leap year), not Mar 3.
+Supported intervals: `SECOND, MINUTE, HOUR, DAY, WEEK, MONTH, QUARTER, YEAR`. Month math respects calendar length, adding 1 month to Jan 31 gives Feb 28 (or 29 in a leap year), not Mar 3.
 
-### 4. DATE_FORMAT — Display Dates the Way You Want
+### 4. DATE_FORMAT: Display Dates the Way You Want
 
 Databases store dates in ISO format (`2026-04-16`). When you need to show a date as *"16th April, 2026"* or *"Thu 16 Apr 2:23 PM"*, use `DATE_FORMAT` with these codes:
 
@@ -159,9 +159,9 @@ SELECT DAYOFYEAR('2026-04-16');   -- 106
 
 **Warning on DAYOFWEEK**: MySQL numbers Sunday as 1, Saturday as 7. Most of the world considers Monday the start of the week. Use `WEEKDAY()` instead, which numbers Monday=0, Sunday=6.
 
-### 6. STR_TO_DATE — Parsing Strings Into Dates
+### 6. STR_TO_DATE: Parsing Strings Into Dates
 
-When data arrives as a string (CSV uploads, API responses), you have to convert it. STR_TO_DATE is the inverse of DATE_FORMAT — same format codes, different direction:
+When data arrives as a string (CSV uploads, API responses), you have to convert it. STR_TO_DATE is the inverse of DATE_FORMAT, same format codes, different direction:
 
 ```
 SELECT STR_TO_DATE('16-04-2026', '%d-%m-%Y');
@@ -216,13 +216,13 @@ SELECT CONVERT_TZ(NOW(), @@session.time_zone, '+00:00');
 -- NOW in UTC
 ```
 
-### 9. DATE vs DATETIME vs TIMESTAMP — The Decision
+### 9. DATE vs DATETIME vs TIMESTAMP: The Decision
 
 This is a common interview question. Pick based on what the column represents:
 
-- **DATE** — only the calendar day matters. Date of birth, holiday date, invoice date.
-- **DATETIME** — a specific moment that should never change with time zones. Scheduled webinar at 7 PM IST *as displayed to the user*.
-- **TIMESTAMP** — audit-style fields like `created_at` and `updated_at` that represent a point in universal time. Stored as UTC internally, converted to the session TZ on read. Range limit: 1970 to 2038 (TIMESTAMP is 4 bytes).
+- **DATE**, only the calendar day matters. Date of birth, holiday date, invoice date.
+- **DATETIME**, a specific moment that should never change with time zones. Scheduled webinar at 7 PM IST *as displayed to the user*.
+- **TIMESTAMP**, audit-style fields like `created_at` and `updated_at` that represent a point in universal time. Stored as UTC internally, converted to the session TZ on read. Range limit: 1970 to 2038 (TIMESTAMP is 4 bytes).
 
 ```
 CREATE TABLE orders (
@@ -283,7 +283,7 @@ SELECT
   DAYNAME(CURDATE()) AS today_weekday;
 ```
 
-`NOW()` returns a full DATETIME, `CURDATE()` only the date, `CURTIME()` only the time. `UNIX_TIMESTAMP()` gives you seconds since 1970-01-01 UTC — useful for APIs. `DAYNAME(CURDATE())` converts today's date into the weekday name.
+`NOW()` returns a full DATETIME, `CURDATE()` only the date, `CURTIME()` only the time. `UNIX_TIMESTAMP()` gives you seconds since 1970-01-01 UTC, useful for APIs. `DAYNAME(CURDATE())` converts today's date into the weekday name.
 
 **Output:**
 
@@ -357,7 +357,7 @@ SELECT name,
 FROM students;
 ```
 
-`TIMESTAMPDIFF(YEAR, dob, CURDATE())` is the correct way to compute age. It returns whole years and correctly handles the day-of-year boundary — Arjun is still 15 because his birthday is tomorrow. Using `DATEDIFF/365` would give wrong results because of leap years.
+`TIMESTAMPDIFF(YEAR, dob, CURDATE())` is the correct way to compute age. It returns whole years and correctly handles the day-of-year boundary: Arjun is still 15 because his birthday is tomorrow. Using `DATEDIFF/365` would give wrong results because of leap years.
 
 **Output:**
 
@@ -399,7 +399,7 @@ GROUP BY month
 ORDER BY month;
 ```
 
-`DATE_FORMAT(sold_at, '%Y-%m')` flattens every sale into its month bucket (like '2026-03'). GROUP BY then aggregates per month. Sorting alphabetically works here because the ISO format sorts chronologically — never use '%d/%m/%Y' for GROUP BY, it will sort wrong.
+`DATE_FORMAT(sold_at, '%Y-%m')` flattens every sale into its month bucket (like '2026-03'). GROUP BY then aggregates per month. Sorting alphabetically works here because the ISO format sorts chronologically, never use '%d/%m/%Y' for GROUP BY, it will sort wrong.
 
 **Output:**
 
@@ -439,7 +439,7 @@ SELECT id,
 FROM raw_upload;
 ```
 
-`STR_TO_DATE` takes a string and a format pattern (same codes as DATE_FORMAT) and returns a proper DATE. Use CASE to pick the right format per row. If the format does not match, STR_TO_DATE returns NULL — always check for NULLs after bulk conversion.
+`STR_TO_DATE` takes a string and a format pattern (same codes as DATE_FORMAT) and returns a proper DATE. Use CASE to pick the right format per row. If the format does not match, STR_TO_DATE returns NULL, always check for NULLs after bulk conversion.
 
 **Output:**
 
@@ -544,7 +544,7 @@ SELECT
   DATE_ADD(LAST_DAY('2026-04-16'), INTERVAL 1 DAY) AS first_of_next_month;
 ```
 
-`LAST_DAY` is handy for month-end reports. Adding 1 day to LAST_DAY gives the first day of the next month — use that trick for monthly cron windows. Note the two day-of-week functions: `DAYOFWEEK` starts at Sunday, `WEEKDAY` starts at Monday. Prefer WEEKDAY for ISO-style reporting.
+`LAST_DAY` is handy for month-end reports. Adding 1 day to LAST_DAY gives the first day of the next month. Use that trick for monthly cron windows. Note the two day-of-week functions: `DAYOFWEEK` starts at Sunday, `WEEKDAY` starts at Monday. Prefer WEEKDAY for ISO-style reporting.
 
 **Output:**
 
@@ -651,7 +651,7 @@ SELECT * FROM bad_orders ORDER BY date;
 -- but also before '05-01-2026', which is wrong chronologically.
 ```
 
-No SQL error, but every date operation gives wrong results — sorts, ranges, DATEDIFF, DATE_ADD all fail because there is no date semantics.
+No SQL error, but every date operation gives wrong results, sorts, ranges, DATEDIFF, DATE_ADD all fail because there is no date semantics.
 
 **Correct:**
 
@@ -677,7 +677,7 @@ INSERT INTO logs VALUES (NOW());
 -- Old values look 5h30 off, but they are just stored as raw strings.
 ```
 
-No error, but data is silently wrong after any server time zone change. DATETIME is 'just a clock reading' — MySQL does not know which time zone it was recorded in.
+No error, but data is silently wrong after any server time zone change. DATETIME is 'just a clock reading': MySQL does not know which time zone it was recorded in.
 
 **Correct:**
 
@@ -695,15 +695,15 @@ For timestamps that represent 'a real moment in time' (created_at, updated_at, l
 ## Summary
 
 - Use NOW() for current datetime, CURDATE() for today's date, CURTIME() for current time. NOW() stays constant within a single statement; SYSDATE() re-reads the clock.
-- DATEDIFF returns the difference in whole days only. TIMESTAMPDIFF(unit, a, b) is flexible — use it for age (YEAR), tenure (MONTH), and hour-level gaps.
+- DATEDIFF returns the difference in whole days only. TIMESTAMPDIFF(unit, a, b) is flexible. Use it for age (YEAR), tenure (MONTH), and hour-level gaps.
 - Never add days with plain arithmetic. Use DATE_ADD(date, INTERVAL 7 DAY) or the shorthand date + INTERVAL 7 DAY. Supported units: SECOND, MINUTE, HOUR, DAY, WEEK, MONTH, QUARTER, YEAR.
 - DATE_FORMAT(date, pattern) converts a date to a display string using format codes (%Y, %m, %d, %H, %i, %M, %W, etc.). For GROUP BY, always use sortable patterns like '%Y-%m'.
 - STR_TO_DATE is the inverse: it parses a string into a DATE using the same format codes. Returns NULL on mismatch, so always check after bulk imports.
 - EXTRACT(unit FROM date) is the portable way to get a date part. YEAR(), MONTH(), DAY(), HOUR() are the MySQL shortcuts. DAYOFWEEK starts at Sunday=1; WEEKDAY starts at Monday=0.
-- LAST_DAY(date) returns the last day of the month. DATE_ADD(LAST_DAY(d), INTERVAL 1 DAY) gives the first day of the next month — handy for monthly windows.
+- LAST_DAY(date) returns the last day of the month. DATE_ADD(LAST_DAY(d), INTERVAL 1 DAY) gives the first day of the next month, handy for monthly windows.
 - Wrapping an indexed date column in a function (YEAR(col)) prevents index usage. Rewrite as a range: col >= '2026-01-01' AND col < '2027-01-01'.
 - Store dates in DATE/DATETIME/TIMESTAMP, never VARCHAR. VARCHAR breaks sorting, arithmetic, and indexing.
-- DATE is just a calendar day (DOB, invoice date). DATETIME is a wall-clock moment with no time zone awareness. TIMESTAMP is UTC internally with session-TZ conversion on read — use it for created_at, updated_at, and any audit field.
+- DATE is just a calendar day (DOB, invoice date). DATETIME is a wall-clock moment with no time zone awareness. TIMESTAMP is UTC internally with session-TZ conversion on read. Use it for created_at, updated_at, and any audit field.
 
 ## Related Topics
 

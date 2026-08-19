@@ -19,11 +19,11 @@ id | name         | city      | marks
 2  | Priya Iyer   | Bengaluru | 92
 ```
 
-*Hint:* A row is a horizontal entry — one complete record.
+*Hint:* A row is a horizontal entry, one complete record.
 
 **Answer:** A row is one complete record. For example, `(1, 'Aarav Sharma', 'Mumbai', 87)` is a single row representing one student.
 
-In a table, each **row** (also called a record or tuple) holds the data for one entity — here, one student. Each **column** holds one type of attribute about all entities. The table above has 2 rows and 4 columns.
+In a table, each **row** (also called a record or tuple) holds the data for one entity, here, one student. Each **column** holds one type of attribute about all entities. The table above has 2 rows and 4 columns.
 
 ### Q2. [Easy] What does SQL stand for?
 
@@ -53,7 +53,7 @@ MySQL and PostgreSQL are free and open source. SQLite is free and embedded insid
 
 *Hint:* It needs to be embedded, file-based, and zero-configuration.
 
-**Answer:** `SQLite`. It is a tiny, file-based, zero-configuration database that ships embedded in the app itself — no separate server needed.
+**Answer:** `SQLite`. It is a tiny, file-based, zero-configuration database that ships embedded in the app itself, no separate server needed.
 
 SQLite stores the entire database in a single file on the device. It powers WhatsApp's chat history, Android contacts, iOS notes, and most mobile apps. It is the most-installed database in the world (every smartphone has it).
 
@@ -69,7 +69,7 @@ Memory aid: DDL changes structure (CREATE/ALTER/DROP), DML changes data (SELECT/
 
 *Hint:* Think about how it works under the hood, not just what it does to data.
 
-**Answer:** `TRUNCATE` is a **DDL** command. Even though it removes data, internally it drops and recreates the table — a structural operation. This is also why it is faster than DELETE and (in most databases) cannot be rolled back.
+**Answer:** `TRUNCATE` is a **DDL** command. Even though it removes data, internally it drops and recreates the table, a structural operation. This is also why it is faster than DELETE and (in most databases) cannot be rolled back.
 
 DELETE works row by row through the transaction log, which is why it can be rolled back. TRUNCATE bypasses the row-by-row logging by dropping the table and recreating an empty one with the same schema. Faster, but harder to undo. This is a classic interview trick question.
 
@@ -93,7 +93,7 @@ A **primary key** is a column (or combination of columns) whose values uniquely 
 
 *Hint:* Think transactions vs flexibility.
 
-**Answer:** **SQL preferred:** a banking app — you need ACID transactions so a money transfer is atomic. **NoSQL preferred:** storing user-generated content like Instagram posts where each post can have wildly different fields (text, photo, reel, story), or a real-time leaderboard that needs millisecond reads (Redis).
+**Answer:** **SQL preferred:** a banking app. You need ACID transactions so a money transfer is atomic. **NoSQL preferred:** storing user-generated content like Instagram posts where each post can have wildly different fields (text, photo, reel, story), or a real-time leaderboard that needs millisecond reads (Redis).
 
 Choose SQL when consistency and structured relationships matter (banking, orders, billing). Choose NoSQL when schema flexibility, horizontal scale, or specialized data shapes (graphs, time series, key-value cache) matter more than joins and transactions.
 
@@ -115,7 +115,7 @@ Without standardization, each vendor would speak its own language and switching 
 
 ### Q13. [Easy] Are SQL keywords like SELECT case-sensitive in MySQL?
 
-*Hint:* Try writing select vs SELECT — both work.
+*Hint:* Try writing select vs SELECT. Both work.
 
 **Answer:** No. **SQL keywords are case-insensitive.** `SELECT`, `select`, and `SeLeCt` all work the same way. Convention is UPPERCASE for keywords for readability.
 
@@ -143,13 +143,13 @@ What category does this command belong to: `UPDATE employees SET salary = 80000 
 
 **Answer:** **DML** (Data Manipulation Language).
 
-`UPDATE` modifies existing data in rows. The structure of the employees table is unchanged — only the data inside it changes. DML commands are SELECT, INSERT, UPDATE, DELETE.
+`UPDATE` modifies existing data in rows. The structure of the employees table is unchanged, only the data inside it changes. DML commands are SELECT, INSERT, UPDATE, DELETE.
 
 ### Q16. [Medium] List two real-world scenarios where ACID transactions are critical.
 
 *Hint:* Money and inventory.
 
-**Answer:** 1. **Bank transfer** — debit from sender and credit to receiver must both succeed or both fail. 2. **E-commerce checkout** — reducing stock count and creating an order record must happen together.
+**Answer:** 1. **Bank transfer**, debit from sender and credit to receiver must both succeed or both fail. 2. **E-commerce checkout**, reducing stock count and creating an order record must happen together.
 
 ACID stands for Atomicity, Consistency, Isolation, Durability. SQL databases provide strong ACID guarantees. NoSQL databases often weaken these for performance, which is why money-related systems almost always use SQL (or a NoSQL DB with strict ACID mode like MongoDB transactions).
 
@@ -159,21 +159,21 @@ ACID stands for Atomicity, Consistency, Isolation, Durability. SQL databases pro
 
 **Answer:** Use `DELETE` when (1) you only want to remove specific rows that match a WHERE condition, or (2) you want the operation to be transactional and reversible with ROLLBACK. `TRUNCATE` always wipes the entire table.
 
-TRUNCATE is faster but a sledgehammer — it cannot be filtered, it resets AUTO_INCREMENT, and cannot easily be rolled back. DELETE is slower but precise (you can target individual rows) and fully transactional.
+TRUNCATE is faster but a sledgehammer. It cannot be filtered, it resets AUTO_INCREMENT, and cannot easily be rolled back. DELETE is slower but precise (you can target individual rows) and fully transactional.
 
 ### Q18. [Hard] If a friend says "NoSQL is faster than SQL, so we should use NoSQL for our banking startup", how would you respond?
 
 *Hint:* Speed alone is not the only criterion.
 
-**Answer:** Pure speed is irrelevant if you lose money. Banking needs strict ACID guarantees so transfers are atomic and balances are always consistent — historically a SQL strength. NoSQL is faster for some workloads (key-value reads) but typically sacrifices consistency. Use PostgreSQL or MySQL for the core ledger; you can use Redis (NoSQL) on top for caching read-only data like user profiles.
+**Answer:** Pure speed is irrelevant if you lose money. Banking needs strict ACID guarantees so transfers are atomic and balances are always consistent, historically a SQL strength. NoSQL is faster for some workloads (key-value reads) but typically sacrifices consistency. Use PostgreSQL or MySQL for the core ledger; you can use Redis (NoSQL) on top for caching read-only data like user profiles.
 
 This is a real architectural conversation. Most fintechs (Razorpay, PhonePe, Stripe) run their core ledger on PostgreSQL precisely because SQL's ACID guarantees prevent the kinds of bugs that lose customer money. NoSQL is added later for scale-out caches, search, and analytics.
 
-### Q19. [Hard] Why is the relational model called "relational" — what is being related to what?
+### Q19. [Hard] Why is the relational model called "relational": what is being related to what?
 
 *Hint:* It is not just about relationships between tables.
 
-**Answer:** The word *relation* in mathematics means a set of tuples with the same set of attributes — which is exactly what a table is. So a single table IS a "relation". The name "relational" refers to this mathematical structure, not (only) to relationships between tables.
+**Answer:** The word *relation* in mathematics means a set of tuples with the same set of attributes, which is exactly what a table is. So a single table IS a "relation". The name "relational" refers to this mathematical structure, not (only) to relationships between tables.
 
 Common misconception: students think "relational" means "tables related via foreign keys". The mathematical truth is that each table itself is a relation (a relation between values across columns). Relationships between tables are an additional feature built on top of that foundation.
 
@@ -208,7 +208,7 @@ order_id | customer  | amount
 
 **Answer:** 3 rows and 3 columns.
 
-The header row is not counted as a data row — it just labels the columns. So we have 3 data rows (order 5001, 5002, 5003) and 3 columns (order_id, customer, amount).
+The header row is not counted as a data row. It just labels the columns. So we have 3 data rows (order 5001, 5002, 5003) and 3 columns (order_id, customer, amount).
 
 ### Q3. [Medium] Your team needs a database for a small WordPress blog. Which DBMS would you pick and why?
 
@@ -222,7 +222,7 @@ PostgreSQL is technically more powerful but WordPress's plugins and themes assum
 
 *Hint:* Cassandra is a wide-column NoSQL database.
 
-**Answer:** **False.** Some NoSQL databases (Cassandra, HBase) do use a row-and-column model, just with a more flexible schema. NoSQL only means "not exclusively SQL" — it is a broad category that includes documents (MongoDB), key-value (Redis), wide columns (Cassandra), and graphs (Neo4j).
+**Answer:** **False.** Some NoSQL databases (Cassandra, HBase) do use a row-and-column model, just with a more flexible schema. NoSQL only means "not exclusively SQL". It is a broad category that includes documents (MongoDB), key-value (Redis), wide columns (Cassandra), and graphs (Neo4j).
 
 The term NoSQL is misleading. It really means "non-relational" or "not only SQL". Cassandra has tables, rows, and columns but adds flexibility per row. Calling all NoSQL databases "document databases" is a common student mistake.
 
@@ -242,11 +242,11 @@ In modern DevOps, permissions are often managed declaratively through tools like
 
 Typical workflow: write a SQL query that joins, filters, and aggregates 100M rows down to 50K, then load that into a pandas DataFrame and apply scikit-learn. Trying to do step one in pandas would be slow or impossible because of memory limits.
 
-### Q7. [Hard] Imagine your manager says "let's use Excel as our customer database — we have only 50,000 customers". Give three reasons against this.
+### Q7. [Hard] Imagine your manager says "let's use Excel as our customer database: we have only 50,000 customers". Give three reasons against this.
 
 *Hint:* Concurrency, integrity, scale.
 
-**Answer:** 1. **Concurrency:** only one person can edit at a time without conflicts. 2. **Data integrity:** nothing prevents typos like "Mumbi" vs "Mumbai" or duplicate customer entries — no constraints. 3. **Scale and performance:** Excel slows dramatically beyond ~100K rows; SQL handles tens of millions easily. Plus, Excel has no transactions — if your laptop crashes mid-edit, you may lose data.
+**Answer:** 1. **Concurrency:** only one person can edit at a time without conflicts. 2. **Data integrity:** nothing prevents typos like "Mumbi" vs "Mumbai" or duplicate customer entries, no constraints. 3. **Scale and performance:** Excel slows dramatically beyond ~100K rows; SQL handles tens of millions easily. Plus, Excel has no transactions, if your laptop crashes mid-edit, you may lose data.
 
 Excel is fine for small, single-user, throwaway analysis. The moment you have multiple users, growing data, or a need for queries like "give me all customers in Mumbai who ordered more than 5000 in the last month", you need a real database.
 
@@ -264,13 +264,13 @@ Whether SELECT is DML or DQL is a textbook-by-textbook debate. The pragmatic rul
 
 **Answer:** PostgreSQL is more SQL-standard compliant, supports richer data types (JSON, arrays, full-text search built in), has more powerful window functions, better support for advanced indexing (GIN, GIST, BRIN), and stronger ACID guarantees by default. Many modern startups (Stripe, Instagram in early days, Heroku) chose PostgreSQL for these reasons.
 
-MySQL is simpler, has wider hosting support, and is faster for read-heavy web workloads. PostgreSQL has deeper features for analytics, complex queries, and modern data types. Both are excellent — the choice often comes down to team familiarity.
+MySQL is simpler, has wider hosting support, and is faster for read-heavy web workloads. PostgreSQL has deeper features for analytics, complex queries, and modern data types. Both are excellent, the choice often comes down to team familiarity.
 
 ### Q10. [Medium] What are the three things a DBMS does that you would otherwise have to handle yourself?
 
 *Hint:* Storage, multi-user, recovery.
 
-**Answer:** 1. **Persistent storage** — efficiently organizing data on disk so it survives restarts. 2. **Concurrency control** — letting many users read/write simultaneously without corruption. 3. **Crash recovery** — restoring the database to a consistent state after a power failure or crash. Bonus: indexing, query optimization, security, and backups.
+**Answer:** 1. **Persistent storage**, efficiently organizing data on disk so it survives restarts. 2. **Concurrency control**, letting many users read/write simultaneously without corruption. 3. **Crash recovery**, restoring the database to a consistent state after a power failure or crash. Bonus: indexing, query optimization, security, and backups.
 
 If you stored data in a plain text file, you would have to write all this logic yourself. The DBMS gives you decades of engineering for free. That is why we pay (or use free DBMSes) instead of writing data layers from scratch.
 
@@ -278,7 +278,7 @@ If you stored data in a plain text file, you would have to write all this logic 
 
 *Hint:* Network, memory, and human readability.
 
-**Answer:** Three reasons: (1) it transfers all 1M rows over the network, which is slow; (2) it loads them into the client (Workbench, app) which may run out of memory; (3) you almost never *need* all the data — better to filter with WHERE and pick only the columns you need.
+**Answer:** Three reasons: (1) it transfers all 1M rows over the network, which is slow; (2) it loads them into the client (Workbench, app) which may run out of memory; (3) you almost never *need* all the data, better to filter with WHERE and pick only the columns you need.
 
 `SELECT *` is fine for a 5-row test table but is considered bad practice in production code. Always specify the exact columns and use WHERE/LIMIT to reduce data movement. Junior developers losing performance reviews over this is a recurring story.
 
@@ -286,7 +286,7 @@ If you stored data in a plain text file, you would have to write all this logic 
 
 *Hint:* Recall how TRUNCATE works internally.
 
-**Answer:** Because TRUNCATE drops the table and recreates it as an empty new table — and a new table starts AUTO_INCREMENT from 1. DELETE just removes rows without touching the table metadata, so the next inserted row continues from the previous AUTO_INCREMENT value.
+**Answer:** Because TRUNCATE drops the table and recreates it as an empty new table, and a new table starts AUTO_INCREMENT from 1. DELETE just removes rows without touching the table metadata, so the next inserted row continues from the previous AUTO_INCREMENT value.
 
 Practical implication: if you have inserted 50 rows and then DELETE all of them, the next insert will get id = 51. If you TRUNCATE instead, the next insert will get id = 1. This matters when the IDs are exposed to users (you don't want gaps or sudden resets).
 
@@ -310,7 +310,7 @@ Practical implication: if you have inserted 50 rows and then DELETE all of them,
 
 ### Q5. [Easy] Which command is used to permanently save a transaction?
 
-**B is correct.** COMMIT permanently saves all changes made in the current transaction. ROLLBACK does the opposite — undoes changes since the last COMMIT.
+**B is correct.** COMMIT permanently saves all changes made in the current transaction. ROLLBACK does the opposite, undoes changes since the last COMMIT.
 
 ### Q6. [Easy] Which database typically powers mobile apps as an embedded database?
 
@@ -333,7 +333,7 @@ id | name         | city
 
 ### Q9. [Medium] TRUNCATE is classified as which category of SQL command?
 
-**B is correct.** Despite removing data, TRUNCATE is DDL because it works by dropping and recreating the table internally — a structural change. This is a popular interview trick question.
+**B is correct.** Despite removing data, TRUNCATE is DDL because it works by dropping and recreating the table internally, a structural change. This is a popular interview trick question.
 
 ### Q10. [Medium] Which of the following commands is used to remove a permission from a user?
 
@@ -353,7 +353,7 @@ id | name         | city
 
 ### Q14. [Medium] Which is FALSE about SQL?
 
-**D is FALSE and therefore the correct answer.** SQL works with virtually every relational database — MySQL, PostgreSQL, SQL Server, Oracle, SQLite, and even cloud warehouses like BigQuery and Snowflake.
+**D is FALSE and therefore the correct answer.** SQL works with virtually every relational database: MySQL, PostgreSQL, SQL Server, Oracle, SQLite, and even cloud warehouses like BigQuery and Snowflake.
 
 ### Q15. [Hard] You execute these statements:
 
@@ -384,7 +384,7 @@ How many rows will be in orders after this?
 
 **C is correct.** PostgreSQL has best-in-class support for JSON/JSONB, native arrays, GIN/GIST indexing, and is free. MySQL has JSON support but PostgreSQL is generally considered stronger for these features. Oracle is paid. SQLite is too lightweight for serious production use.
 
-### Q20. [Hard] Match the correct pairs: 1) DDL — CREATE, 2) DML — UPDATE, 3) DCL — REVOKE, 4) TCL — ROLLBACK. Which option correctly describes them all?
+### Q20. [Hard] Match the correct pairs: 1) DDL: CREATE, 2) DML: UPDATE, 3) DCL: REVOKE, 4) TCL: ROLLBACK. Which option correctly describes them all?
 
 **D is correct.** CREATE = DDL (structure), UPDATE = DML (data), REVOKE = DCL (permissions), ROLLBACK = TCL (transactions). All four pairs are correctly matched.
 
@@ -403,7 +403,7 @@ For each of these commands, write a one-line comment above stating its category 
 **Sample input:**
 
 ```
-(No input — write annotated SQL)
+(No input, write annotated SQL)
 ```
 
 **Sample output:**
@@ -577,7 +577,7 @@ Design the names of three tables and 3-4 columns each for a college library syst
 
 **Constraints:**
 
-- Use SQL comments to explain. Do not write actual queries — just the design.
+- Use SQL comments to explain. Do not write actual queries, just the design.
 
 **Sample input:**
 
@@ -648,7 +648,7 @@ List of corrected statements with explanations.
 --     It uses its own query language (BSON-based), not SQL.
 --
 -- (3) TRUE. TRUNCATE is DDL because it drops and recreates the table
---     internally — a structural change.
+--     internally, a structural change.
 --
 -- (4) TRUE. Oracle (1979) was the first commercial SQL database,
 --     beating IBM's own System R to market.

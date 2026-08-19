@@ -1,5 +1,5 @@
 /**
- * hover-prefetch.js — Prefetches internal links on hover.
+ * hover-prefetch.js: Prefetches internal links on hover.
  * Phase 3 Performance.
  *
  * When the user hovers an internal link, we inject a <link rel="prefetch">

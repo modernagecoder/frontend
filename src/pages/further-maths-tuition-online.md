@@ -1,22 +1,22 @@
 ---
-title: "Further Maths Tuition Online · 1:1 A-Level Further Mathematics — Modern Age Coders"
-description: "Live 1:1 online Further Maths tuition for A-Level (Edexcel, AQA, OCR). Complex numbers, matrices, proof by induction, polar coordinates and further mechanics, stats and decision — taught from the ideas up. Same tutor, UK time. Priced for your country."
+title: "Further Maths Tuition Online · 1:1 A-Level Further Mathematics | Modern Age Coders"
+description: "Live 1:1 online Further Maths tuition for A-Level (Edexcel, AQA, OCR). Complex numbers, matrices, proof by induction, polar coordinates and further mechanics, stats and decision, taught from the ideas up. Same tutor, UK time. Priced for your country."
 canonical: https://learn.modernagecoders.com/further-maths-tuition-online
 source: src/pages/further-maths-tuition-online.html
 ---
-> Live 1:1 online Further Maths tuition for A-Level (Edexcel, AQA, OCR). Complex numbers, matrices, proof by induction, polar coordinates and further mechanics, stats and decision — taught from the ideas up. Same tutor, UK time. Priced for your country.
+> Live 1:1 online Further Maths tuition for A-Level (Edexcel, AQA, OCR). Complex numbers, matrices, proof by induction, polar coordinates and further mechanics, stats and decision, taught from the ideas up. Same tutor, UK time. Priced for your country.
 
 Why Further Maths trips up able students
 
 ## It's rarely the whole subject. It's usually one abstract idea that never became intuitive.
 
-Further Maths is taken by strong, motivated students — and they still hit walls, which surprises everyone. The reason is that the subject is fast and deeply abstract: complex numbers, matrices and proof by induction arrive quickly and are often taught as procedures to apply, not ideas to picture.
+Further Maths is taken by strong, motivated students, and they still hit walls, which surprises everyone. The reason is that the subject is fast and deeply abstract: complex numbers, matrices and proof by induction arrive quickly and are often taught as procedures to apply, not ideas to picture.
 
-So a capable student can manipulate complex numbers algebraically yet have no mental image of what they *are* — and the moment a question needs that intuition, they stall.
+So a capable student can manipulate complex numbers algebraically yet have no mental image of what they *are*, and the moment a question needs that intuition, they stall.
 
 Because Further Maths is sat alongside A-Level Maths, any wobble gets amplified by the sheer volume and pace. Past-paper grinding can paper over it, but the gap resurfaces on the unfamiliar questions.
 
-We fix the root. We make each abstract idea genuinely intuitive — what a complex number does geometrically, what a matrix transformation looks like — so the algebra finally has meaning behind it, and the harder problems become approachable.
+We fix the root. We make each abstract idea genuinely intuitive, what a complex number does geometrically, what a matrix transformation looks like, so the algebra finally has meaning behind it, and the harder problems become approachable.
 
 How we teach
 
@@ -26,11 +26,11 @@ Worked to your board and your chosen options.
 
 ### Find the idea that didn't land
 
-Usually one or two — complex numbers, matrices, induction. We rebuild those from a picture, not a procedure.
+Usually one or two, complex numbers, matrices, induction. We rebuild those from a picture, not a procedure.
 
 ### Give every concept a meaning
 
-A complex number as a rotation and scaling, a matrix as a transformation, induction as a chain of dominoes — intuition that the algebra then expresses.
+A complex number as a rotation and scaling, a matrix as a transformation, induction as a chain of dominoes, intuition that the algebra then expresses.
 
 ### Build fluency for the volume
 
@@ -42,17 +42,17 @@ The top-mark and STEP-style questions reward genuine reasoning, which we coach d
 
 See it for yourself
 
-## Complex numbers — why multiplying by i is a 90° rotation.
+## Complex numbers: why multiplying by i is a 90° rotation.
 
 Worked example · core pure
 
-**What gets memorised:** "i is the square root of −1, and i² = −1." Students compute with it correctly but have no picture of what a complex number is — so Argand diagrams, modulus-argument form and De Moivre's theorem feel like disconnected rules.
+**What gets memorised:** "i is the square root of −1, and i² = −1." Students compute with it correctly but have no picture of what a complex number is, so Argand diagrams, modulus-argument form and De Moivre's theorem feel like disconnected rules.
 
 **How we do it.** Plot numbers on a plane: real part across, imaginary part up. Now watch what multiplying by i does to the number 1, which sits at the point (1, 0):
 
-1 → ×i → i (the point (0, 1) — a quarter-turn anticlockwise)i → ×i → i² = −1 (the point (−1, 0) — another quarter-turn)−1 → ×i → −i (then back to 1)so multiplying by i = rotating 90° about the origin
+1 → ×i → i (the point (0, 1), a quarter-turn anticlockwise)i → ×i → i² = −1 (the point (−1, 0), another quarter-turn)−1 → ×i → −i (then back to 1)so multiplying by i = rotating 90° about the origin
 
-Suddenly i² = −1 isn't a strange rule — two 90° turns make a 180° turn, which flips 1 to −1. From this single picture, the modulus is a length, the argument is an angle, multiplication adds angles, and De Moivre's theorem becomes obvious. The entire complex-numbers module unlocks from one idea: these are points you can rotate. That intuition is exactly what carries students through the hardest Further Maths questions and into university.
+Suddenly i² = −1 isn't a strange rule, two 90° turns make a 180° turn, which flips 1 to −1. From this single picture, the modulus is a length, the argument is an angle, multiplication adds angles, and De Moivre's theorem becomes obvious. The entire complex-numbers module unlocks from one idea: these are points you can rotate. That intuition is exactly what carries students through the hardest Further Maths questions and into university.
 
 Why a coding school teaches Further Maths
 
@@ -64,13 +64,13 @@ The matrix transformations in Further Maths are exactly what drives computer gra
 
 ### Proof by induction
 
-Induction is the mathematical twin of a loop and of recursive reasoning in code — the same "it works for the next case" logic.
+Induction is the mathematical twin of a loop and of recursive reasoning in code, the same "it works for the next case" logic.
 
 ### Abstraction as a tool
 
-Complex numbers and abstract structures show that the right abstraction makes hard problems easy — the core lesson of good software design too.
+Complex numbers and abstract structures show that the right abstraction makes hard problems easy, the core lesson of good software design too.
 
-We're Modern Age Coders, and Further Maths is where school maths meets the foundations of computing — graphics, cryptography, signal processing, AI. The visual, structural thinking we teach for programming is exactly what makes this content click, and our students carry it straight into competitive STEM degrees.
+We're Modern Age Coders, and Further Maths is where school maths meets the foundations of computing, graphics, cryptography, signal processing, AI. The visual, structural thinking we teach for programming is exactly what makes this content click, and our students carry it straight into competitive STEM degrees.
 
 What we cover
 
@@ -80,11 +80,11 @@ Taught to your board and your exact combination of options.
 
 ### Complex numbers
 
-Argand diagrams, modulus-argument form, De Moivre's theorem, roots of unity and loci — taught from the geometry up.
+Argand diagrams, modulus-argument form, De Moivre's theorem, roots of unity and loci, taught from the geometry up.
 
 ### Matrices & transformations
 
-Matrix algebra, determinants and inverses, transformations of the plane, and solving systems — with the visual meaning.
+Matrix algebra, determinants and inverses, transformations of the plane, and solving systems, with the visual meaning.
 
 ### Proof & series
 
@@ -96,7 +96,7 @@ Hyperbolic functions, further integration, polar coordinates, and volumes of rev
 
 ### Optional applied modules
 
-Further mechanics, further statistics and decision maths — whichever your school offers.
+Further mechanics, further statistics and decision maths, whichever your school offers.
 
 ### STEP & admissions
 
@@ -104,11 +104,11 @@ STEP and MAT-style problem solving for students applying to the most competitive
 
 Who this is for
 
-## The right fit — and an honest word on what to expect.
+## The right fit: and an honest word on what to expect.
 
 **This fits** the Further Maths student stuck on one or two abstract topics, the strong student aiming for an A* in both maths A-Levels, and the applicant targeting a top maths, engineering, physics or computer science degree. AS Further Maths students are welcome too.
 
-**What's realistic.** When the abstract idea finally becomes intuitive, progress is often fast — but the volume of Further Maths means consistent work matters. We'll set an honest target around your options and timeline, and never promise a guaranteed grade.
+**What's realistic.** When the abstract idea finally becomes intuitive, progress is often fast, but the volume of Further Maths means consistent work matters. We'll set an honest target around your options and timeline, and never promise a guaranteed grade.
 
 ### What we won't do
 
@@ -167,7 +167,7 @@ Who teaches you
 
 ## Tutors who genuinely love this material.
 
-Further Maths needs a tutor with real mathematical depth — someone who can show you what a matrix transformation *does*, not just how to multiply one. Ours have that, plus precise knowledge of how each board's harder papers are marked, and the patience to rebuild an abstract idea from scratch.
+Further Maths needs a tutor with real mathematical depth, someone who can show you what a matrix transformation *does*, not just how to multiply one. Ours have that, plus precise knowledge of how each board's harder papers are marked, and the patience to rebuild an abstract idea from scratch.
 
 You keep the same tutor through the year, so they know your options, your weak topics and your target, and aim every lesson there.
 
@@ -189,7 +189,7 @@ An honest comparison
 | STEP/MAT coaching | Yes | Rarely | Rarely |
 | Monthly price | Free–£20 | £40–70/hr |
 
-Many general tutors don't teach Further Maths confidently. Ours specialise in it — and in making its hardest ideas feel obvious.
+Many general tutors don't teach Further Maths confidently. Ours specialise in it, and in making its hardest ideas feel obvious.
 
 Common questions
 
@@ -197,11 +197,11 @@ Common questions
 
 What does A-Level Further Maths cover?
 
-Core pure — complex numbers, matrices, proof by induction, polar coordinates, hyperbolic functions, further calculus — plus optional further mechanics, statistics and decision maths.
+Core pure, complex numbers, matrices, proof by induction, polar coordinates, hyperbolic functions, further calculus, plus optional further mechanics, statistics and decision maths.
 
 Is Further Maths much harder than A-Level Maths?
 
-More abstract and faster, and sat alongside A-Level Maths. Most who struggle are stuck on one topic — often complex numbers or matrices — which we make intuitive.
+More abstract and faster, and sat alongside A-Level Maths. Most who struggle are stuck on one topic, often complex numbers or matrices, which we make intuitive.
 
 Which exam boards do you cover?
 
@@ -209,31 +209,31 @@ Edexcel, AQA and OCR (including OCR MEI), to your specification and chosen optio
 
 Do you also help with the main A-Level Maths alongside it?
 
-Yes — the two reinforce each other. See our [A-Level Maths](/a-level-maths-tuition-online) page if that's your main need.
+Yes, the two reinforce each other. See our [A-Level Maths](/a-level-maths-tuition-online) page if that's your main need.
 
 How much does it cost?
 
-USD 150 per month for private 1:1 — eight live lessons, two each week. Small-group option USD 100 per month. No contract; cancel any time.
+USD 150 per month for private 1:1, eight live lessons, two each week. Small-group option USD 100 per month. No contract; cancel any time.
 
 Is there a free trial?
 
-Yes — the first lesson is free, no card needed.
+Yes, the first lesson is free, no card needed.
 
 Will I keep the same tutor?
 
-Yes — one tutor who knows your options and target.
+Yes, one tutor who knows your options and target.
 
 Can you prepare me for STEP, MAT or top university maths?
 
-Yes — STEP and MAT-style problem solving alongside the A-Level content.
+Yes, STEP and MAT-style problem solving alongside the A-Level content.
 
 Are lessons live?
 
-Yes — live, one-to-one, with a shared whiteboard, which matters where the working is long.
+Yes, live, one-to-one, with a shared whiteboard, which matters where the working is long.
 
 I'm doing AS Further Maths only. Can you help?
 
-Yes — AS and full A-Level, built around your modules and timeline.
+Yes: AS and full A-Level, built around your modules and timeline.
 
 When should I start?
 
@@ -241,11 +241,11 @@ Early in Year 12 is ideal because content builds quickly, but we help at any sta
 
 Do lessons fit around college and exam season?
 
-Yes — evening and weekend slots in UK time, ramping up around exams.
+Yes, evening and weekend slots in UK time, ramping up around exams.
 
 ## Book a free Further Maths trial lesson.
 
-Tell us your board, your options and the topic that's lost you. We'll show you how we'd make it intuitive — and you decide from there. No card needed.
+Tell us your board, your options and the topic that's lost you. We'll show you how we'd make it intuitive. And you decide from there. No card needed.
 
 [See the full course](/courses/college-mathematics-complete-masterclass)Keep exploring
 
@@ -259,7 +259,7 @@ Real student projects
 
 Every one is a real, live project shipped by a Modern Age Coders student. Explore more in [Student Labs](/student-labs).
 
-[![Pracy — Coding Practice & Quiz Platform](/images/projects/pracy.webp)Web AppPracy — Coding Practice & Quiz PlatformAn all-in-one coding-practice site with interactive challenges, quizzes and score tracking across multiple languages to strengthen logic and problem-solving.by RohanOpen the live project ↗](https://astounding-flan-f18e08.netlify.app/)[![Word Counter Website](/images/projects/wordcounter.webp)ToolWord Counter WebsiteA simple yet powerful tool that counts words, sentences and paragraphs from user input with instant, real-time results and a clean responsive interface.by VanshOpen the live project ↗](https://vanshagarwalwordcounter-sys.github.io/WordCounter/)[![Life Span Tracker](/images/projects/lifespan.webp)ToolLife Span TrackerAn interactive web tool that calculates expected lifespan, shows days, months and years lived, and visualises remaining time to motivate better habits.by ManayOpen the live project ↗](https://lifespantracker.netlify.app/)
+[![Pracy, Coding Practice & Quiz Platform](/images/projects/pracy.webp)Web AppPracy, Coding Practice & Quiz PlatformAn all-in-one coding-practice site with interactive challenges, quizzes and score tracking across multiple languages to strengthen logic and problem-solving.by RohanOpen the live project ↗](https://astounding-flan-f18e08.netlify.app/)[![Word Counter Website](/images/projects/wordcounter.webp)ToolWord Counter WebsiteA simple yet powerful tool that counts words, sentences and paragraphs from user input with instant, real-time results and a clean responsive interface.by VanshOpen the live project ↗](https://vanshagarwalwordcounter-sys.github.io/WordCounter/)[![Life Span Tracker](/images/projects/lifespan.webp)ToolLife Span TrackerAn interactive web tool that calculates expected lifespan, shows days, months and years lived, and visualises remaining time to motivate better habits.by ManayOpen the live project ↗](https://lifespantracker.netlify.app/)
 
 ---
 

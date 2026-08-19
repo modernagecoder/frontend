@@ -25,13 +25,13 @@ const name = "Aarav"; // a variable that cannot change
 var score = 100;      // the old way (avoid in modern JS)
 ```
 
-A **data type** tells JavaScript what kind of value is stored in a variable. Is it a number? A piece of text? A true/false value? JavaScript has **7 primitive data types** and one complex type (object). Understanding types is critical because JavaScript handles different types differently — and sometimes in surprising ways.
+A **data type** tells JavaScript what kind of value is stored in a variable. Is it a number? A piece of text? A true/false value? JavaScript has **7 primitive data types** and one complex type (object). Understanding types is critical because JavaScript handles different types differently, and sometimes in surprising ways.
 
 ## Why Do Variables and Data Types Matter?
 
 ### 1. Every Program Needs to Store Data
 
-Whether you are building a calculator, a game, or a form — you need to store information: the user's name, the current score, the number of lives left. Variables make this possible. Without variables, your program would have no memory.
+Whether you are building a calculator, a game, or a form. You need to store information: the user's name, the current score, the number of lives left. Variables make this possible. Without variables, your program would have no memory.
 
 ### 2. let vs const vs var: Getting It Wrong Causes Bugs
 
@@ -49,7 +49,7 @@ Questions about `typeof null`, `NaN === NaN`, the difference between `==` and `=
 
 ### 1. Declaring Variables: let, const, var
 
-#### let — Use for Values That Change
+#### let: Use for Values That Change
 
 `let` declares a variable whose value can be reassigned later. Use `let` when the value will change, like a counter, a score, or user input.
 
@@ -59,18 +59,18 @@ score = 10;    // OK: let allows reassignment
 score = 20;    // OK: can change as many times as needed
 ```
 
-#### const — Use for Values That Stay the Same
+#### const: Use for Values That Stay the Same
 
-`const` declares a **constant** — a variable that cannot be reassigned after it is created. Use `const` for values that should never change, like configuration settings, mathematical constants, or DOM element references.
+`const` declares a **constant**, a variable that cannot be reassigned after it is created. Use `const` for values that should never change, like configuration settings, mathematical constants, or DOM element references.
 
 ```
 const PI = 3.14159;
 PI = 3;        // ERROR: Assignment to constant variable
 ```
 
-**Important:** `const` prevents reassignment, not mutation. If a `const` holds an object or array, you can still change the contents — you just cannot point the variable to a completely different object.
+**Important:** `const` prevents reassignment, not mutation. If a `const` holds an object or array, you can still change the contents. You just cannot point the variable to a completely different object.
 
-#### var — The Old Way (Avoid It)
+#### var: The Old Way (Avoid It)
 
 `var` was the only way to declare variables before ES6 (2015). It still works, but it has two problems: it is **function-scoped** (not block-scoped like `let` and `const`), and it is **hoisted** (the declaration is moved to the top of the function). Both of these behaviors lead to bugs. In modern JavaScript, always prefer `let` and `const`.
 
@@ -234,7 +234,7 @@ console.log(x);  // 10 (var leaked!)
 // console.log(y);  // ReferenceError: y is not defined
 ```
 
-`let` allows reassignment. `const` blocks reassignment but allows mutation of objects and arrays. `var` is function-scoped, meaning it leaks out of `if/for` blocks — this is why `let` and `const` were introduced as replacements.
+`let` allows reassignment. `const` blocks reassignment but allows mutation of objects and arrays. `var` is function-scoped, meaning it leaks out of `if/for` blocks. This is why `let` and `const` were introduced as replacements.
 
 **Output:**
 
@@ -377,7 +377,7 @@ console.log(Number.isNaN(NaN));    // true
 console.log(Number.isNaN("hello")); // false (strict, no conversion)
 ```
 
-`NaN` is the only JavaScript value not equal to itself. `typeof NaN` returns `"number"` because NaN is technically a special IEEE 754 float value. The global `isNaN()` converts the argument first (so `isNaN("hello")` is true because `Number("hello")` is NaN). `Number.isNaN()` is stricter — it only returns true for the actual NaN value.
+`NaN` is the only JavaScript value not equal to itself. `typeof NaN` returns `"number"` because NaN is technically a special IEEE 754 float value. The global `isNaN()` converts the argument first (so `isNaN("hello")` is true because `Number("hello")` is NaN). `Number.isNaN()` is stricter. It only returns true for the actual NaN value.
 
 **Output:**
 

@@ -99,7 +99,7 @@ The footer tag wraps the bottom part of a page. `&copy;` is the HTML entity for 
 
 **Answer:** ``
 
-`` is for content that is tangentially related — sidebars, pull quotes, related links. Removing it should not break the main content.
+`` is for content that is tangentially related, sidebars, pull quotes, related links. Removing it should not break the main content.
 
 ### Q9. [Easy] What is wrong with this HTML?
 
@@ -115,7 +115,7 @@ Copyright
 
 **Answer:** The site header should be OUTSIDE the main tag, not inside. main is only for the unique content.
 
-The site-wide header (logo, nav) is not part of the main content — it is navigation. Put `` as a sibling of ``, not inside it. Fixed: header → main → footer as siblings.
+The site-wide header (logo, nav) is not part of the main content. It is navigation. Put `` as a sibling of ``, not inside it. Fixed: header → main → footer as siblings.
 
 ### Q10. [Easy] Wrap this navigation list in a proper semantic tag:
 
@@ -294,7 +294,7 @@ Also, the title div should be an h1 (a heading). The posts div becomes main, eac
 
 **Answer:** No. Use  only for images that are meaningful content (illustrations, diagrams, photos with captions). Decorative images like logos and icons do not need figure.
 
-Figure adds semantic weight — it says this image is content, not decoration. Using it everywhere dilutes its meaning.
+Figure adds semantic weight. It says this image is content, not decoration. Using it everywhere dilutes its meaning.
 
 ### Q21. [Hard] Build a complete semantic HTML page for a blog with: a site header (logo + nav), main area with 2 blog articles (each with own header and footer), an aside for related posts, and a site footer.
 
@@ -344,7 +344,7 @@ Full semantic blog page: site header (with nav), main containing articles and as
 
 *Hint:* Screen readers announce things and let users navigate.
 
-**Answer:** Screen readers can announce landmarks (header, nav, main, footer) and let users jump between them. Users can list all headings, skip to main, or find the nav — none of which works with plain divs.
+**Answer:** Screen readers can announce landmarks (header, nav, main, footer) and let users jump between them. Users can list all headings, skip to main, or find the nav, none of which works with plain divs.
 
 Semantic HTML creates an outline of the page that screen readers use for navigation. Blind users depend on this to use the web efficiently.
 
@@ -372,7 +372,7 @@ main should contain only the unique page content. The site header and nav go as 
 
 **Answer:** Yes, absolutely. An  can have its own  containing the article's title, author, and publish date. This is separate from the page's main header.
 
-Header is not limited to the page top — it represents the introduction of whatever contains it. A page has a page header, an article has an article header. Both are valid.
+Header is not limited to the page top. It represents the introduction of whatever contains it. A page has a page header, an article has an article header. Both are valid.
 
 ## Mixed Questions
 
@@ -514,7 +514,7 @@ Figure wraps the image and caption. figcaption holds the caption text.
 
 *Hint:* Not for any address - only contact info.
 
-**Answer:** It holds contact information for the nearest article or for the whole page — email, phone, or author name.
+**Answer:** It holds contact information for the nearest article or for the whole page, email, phone, or author name.
 
 Address is specifically for contact info of the author of the page or article. It is NOT for random postal addresses that are just part of content.
 
@@ -581,7 +581,7 @@ Each div has a clear semantic meaning. Replacing them gives the page meaning wit
 
 ### Q4. [Easy] Which tag is for content related to but separate from the main content (like a sidebar)?
 
-**C is correct.** `` is for tangentially related content — sidebars, pull quotes, related links.
+**C is correct.** `` is for tangentially related content, sidebars, pull quotes, related links.
 
 ### Q5. [Easy] What tag should wrap an image with a caption?
 
@@ -633,7 +633,7 @@ Each div has a clear semantic meaning. Replacing them gives the page meaning wit
 
 ### Q17. [Medium] Which semantic tag is best for the author and publish date of a blog post?
 
-**B is correct.** The article's own `` is the right place for its title, author, and publish date — the intro info for that article.
+**B is correct.** The article's own `` is the right place for its title, author, and publish date, the intro info for that article.
 
 ### Q18. [Medium] Which tag pair is used to add a caption to an image?
 
@@ -649,11 +649,11 @@ Each div has a clear semantic meaning. Replacing them gives the page meaning wit
 
 ### Q21. [Hard] Which of these is the BEST use case for the  tag?
 
-**B is correct.** `` is for content that is related to the main content but not essential — a related posts sidebar fits perfectly. Navigation is for ``.
+**B is correct.** `` is for content that is related to the main content but not essential, a related posts sidebar fits perfectly. Navigation is for ``.
 
 ### Q22. [Hard] An  can only exist once per page. True or false?
 
-**B is correct.** You can have unlimited `` tags on a page. Blog homepages often have many articles — one for each post. Only `` has the one-per-page rule.
+**B is correct.** You can have unlimited `` tags on a page. Blog homepages often have many articles, one for each post. Only `` has the one-per-page rule.
 
 ### Q23. [Hard] Which statement about semantic HTML is FALSE?
 

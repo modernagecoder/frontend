@@ -15,7 +15,7 @@ keywords: ["sql self join", "mysql self join", "employee manager sql", "multi-ta
 
 ## What Are Self Joins and Multi-Table Joins?
 
-A **self join** is a JOIN where a table is joined with itself. This sounds strange — why join a table with itself? Because many real-world relationships live inside a single table. An employee's manager is also an employee. A reply on a forum references the parent post, which is also a post. A folder has a parent folder. To fetch both ends of the relationship in one query, we alias the same table twice.
+A **self join** is a JOIN where a table is joined with itself. This sounds strange, why join a table with itself? Because many real-world relationships live inside a single table. An employee's manager is also an employee. A reply on a forum references the parent post, which is also a post. A folder has a parent folder. To fetch both ends of the relationship in one query, we alias the same table twice.
 
 A **multi-table join** chains three or more tables together in a single query. Real applications rarely answer a question using only two tables. A sales report needs customers, orders, and order_items. A student transcript needs students, enrollments, courses, and grades. JOIN is associative: you stack them left-to-right.
 
@@ -73,7 +73,7 @@ Org charts, category trees, threaded comments, file systems, geographical region
 
 ### 2. Real Queries Always Touch Multiple Tables
 
-A well-normalized database has many narrow tables. A 'show me top 10 products sold in Bengaluru in March' query easily touches 4 tables: customers, orders, order_items, products. You cannot avoid multi-table JOINs by writing simpler queries — you must master them.
+A well-normalized database has many narrow tables. A 'show me top 10 products sold in Bengaluru in March' query easily touches 4 tables: customers, orders, order_items, products. You cannot avoid multi-table JOINs by writing simpler queries. You must master them.
 
 ### 3. Self Join Is a Famous Interview Topic
 
@@ -85,7 +85,7 @@ Logically, (a JOIN b) JOIN c equals a JOIN (b JOIN c). But the optimizer picks a
 
 ## Detailed Explanation
 
-### 1. Self Join Basics — Alias the Same Table Twice
+### 1. Self Join Basics: Alias the Same Table Twice
 
 You cannot join a table with itself unless each reference has a distinct alias, because otherwise column names would be ambiguous.
 
@@ -138,7 +138,7 @@ Result:
 
 The logic: join each employee to the row of their manager. Compare salaries. The CEO (no manager_id) is excluded by the INNER JOIN, which is correct because the CEO has no manager to compare to.
 
-### 3. Going Beyond Two Levels — Preview of Recursive CTEs
+### 3. Going Beyond Two Levels: Preview of Recursive CTEs
 
 Self join gives one level of hierarchy. To list all ancestors (manager's manager's manager) without knowing the depth, you need a **recursive CTE** (covered in the CTE chapter):
 
@@ -199,7 +199,7 @@ ORDER BY revenue DESC;
 
 **Performance**: yes, it can matter. The optimizer picks an execution plan based on row counts and indexes. Usually it gets this right. For complex queries with 5+ tables, you might inspect `EXPLAIN` output and consider hints. Beginners should trust the optimizer and write the most readable order.
 
-### 7. Implicit (Old-Style) Joins — Avoid
+### 7. Implicit (Old-Style) Joins: Avoid
 
 Before SQL-92 formalized JOIN syntax, people wrote:
 
@@ -212,13 +212,13 @@ WHERE c.id = o.customer_id;
 
 Why avoid? Three reasons:
 
-1. Forget the WHERE and you get a cartesian product — millions of rows on a production DB.
+1. Forget the WHERE and you get a cartesian product, millions of rows on a production DB.
 2. LEFT/RIGHT/FULL OUTER JOIN cannot be expressed in this syntax.
 3. Join condition and filter condition get mixed in WHERE, making intent unclear.
 
 Always use explicit `JOIN ... ON ...`. Some style guides even fail builds that use comma-joins.
 
-### 8. NATURAL JOIN — Risky, Avoid
+### 8. NATURAL JOIN: Risky, Avoid
 
 NATURAL JOIN automatically joins on all columns with the same name in both tables:
 
@@ -242,7 +242,7 @@ JOIN employees e2
 -- The id < id trick avoids duplicates (A,B) and (B,A) and self-pairs (A,A)
 ```
 
-### 10. Multi-Table Join Pitfalls — Cartesian Blowup
+### 10. Multi-Table Join Pitfalls: Cartesian Blowup
 
 A missing JOIN condition in a multi-table query silently blows up the row count. 1000 customers x 1000 orders x 1000 items = 1 billion rows. Always verify row counts after writing multi-table queries during development. Add `SELECT COUNT(*)` as a sanity check. Use `LIMIT 10` while testing.
 
@@ -585,7 +585,7 @@ NATURAL JOIN joins on every column with the same name. When schemas evolve and a
 - NATURAL JOIN is dangerous because it silently joins on every same-named column. New columns accidentally break queries. Always use explicit ON.
 - The `e1.id < e2.id` trick in a self join produces unique unordered pairs, avoiding both duplicates and self-pairs.
 - Four-table joins (customers -> orders -> order_items -> products) are the skeleton of most business reports. Aggregate at the top of the chain.
-- Always sanity-check multi-table queries with `SELECT COUNT(*)` during development — a missing ON clause quickly produces millions of spurious rows.
+- Always sanity-check multi-table queries with `SELECT COUNT(*)` during development, a missing ON clause quickly produces millions of spurious rows.
 
 ## Related Topics
 

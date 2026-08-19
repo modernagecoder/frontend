@@ -10,7 +10,7 @@ source: src/pages/coding-classes-for-la-martiniere-boys-kolkata.html
 
 # Coding & Maths Classes for La Martiniere Boys
 
-Live online classes in Python, Java, AI, Web Development & ICSE Mathematics — designed around your La Martiniere for Boys schedule. Small batches. Expert instructors. Real projects.
+Live online classes in Python, Java, AI, Web Development & ICSE Mathematics, designed around your La Martiniere for Boys schedule. Small batches. Expert instructors. Real projects.
 
  💻 10,000+ Students Taught  ⭐ 4.9/5 Parent Rating  🏅 ICSE Aligned  🤖 AI-Powered Learning 🚀 Book Free Demo Class📚 Browse Courses
 
@@ -22,19 +22,19 @@ Helping students from one of Kolkata's most prestigious schools gain a competiti
 
 ### A 188-Year Legacy of Academic Excellence
 
-Founded in 1836 by Major General Claude Martin, La Martiniere for Boys stands as one of India's oldest and most respected educational institutions. Located on Dr. U.N. Brahmachari Street in the heart of Kolkata's Loudon Street area, the school has produced generations of leaders, engineers, doctors, and entrepreneurs. Today, in an era where technology shapes every industry, La Martiniere students need more than just traditional academic excellence — they need computational thinking and programming skills to maintain the competitive edge that the school's legacy demands. Our coding classes are designed with this heritage in mind, building on the strong analytical foundation that La Martiniere for Boys is renowned for cultivating in its students.
+Founded in 1836 by Major General Claude Martin, La Martiniere for Boys stands as one of India's oldest and most respected educational institutions. Located on Dr. U.N. Brahmachari Street in the heart of Kolkata's Loudon Street area, the school has produced generations of leaders, engineers, doctors, and entrepreneurs. Today, in an era where technology shapes every industry, La Martiniere students need more than just traditional academic excellence. They need computational thinking and programming skills to maintain the competitive edge that the school's legacy demands. Our coding classes are designed with this heritage in mind, building on the strong analytical foundation that La Martiniere for Boys is renowned for cultivating in its students.
 
 ### Navigating ICSE Academic Pressure with Smart Skills
 
-La Martiniere for Boys follows the ICSE board, known for its comprehensive and demanding curriculum. Students face rigorous semester assessments, project work, and ultimately the high-stakes ICSE board examinations. Our coding courses directly complement the ICSE Computer Applications syllabus — covering Python programming, Java fundamentals, data structures, and algorithmic thinking that students encounter in their school curriculum. Rather than adding burden, learning to code strengthens the logical reasoning and problem-solving abilities that help La Martiniere Boys excel across all subjects, from Mathematics to Physics. Our after-school evening batches and weekend sessions are specifically timed so students near Park Street and Loudon Street can learn without disrupting their packed academic schedules.
+La Martiniere for Boys follows the ICSE board, known for its comprehensive and demanding curriculum. Students face rigorous semester assessments, project work, and ultimately the high-stakes ICSE board examinations. Our coding courses directly complement the ICSE Computer Applications syllabus, covering Python programming, Java fundamentals, data structures, and algorithmic thinking that students encounter in their school curriculum. Rather than adding burden, learning to code strengthens the logical reasoning and problem-solving abilities that help La Martiniere Boys excel across all subjects, from Mathematics to Physics. Our after-school evening batches and weekend sessions are specifically timed so students near Park Street and Loudon Street can learn without disrupting their packed academic schedules.
 
 ### Coding + Maths: The Competitive Exam Advantage
 
-La Martiniere for Boys consistently produces top engineering and medical aspirants. Students preparing for IIT-JEE, WBJEE, BITSAT, and other competitive entrance examinations benefit enormously from computational thinking skills that coding develops naturally. When a student learns to write algorithms in Python, they are simultaneously strengthening the mathematical reasoning that JEE and WBJEE questions test. Our combined coding and maths curriculum gives La Martiniere Boys a distinct advantage — they approach calculus, coordinate geometry, and probability with the structured thinking of a programmer, not just a textbook student. Parents in the Park Street and central Kolkata area have found that their children's overall academic performance improves significantly when coding and maths are learned together, with marks in ICSE Computer Applications and Mathematics both showing measurable improvement.
+La Martiniere for Boys consistently produces top engineering and medical aspirants. Students preparing for IIT-JEE, WBJEE, BITSAT, and other competitive entrance examinations benefit enormously from computational thinking skills that coding develops naturally. When a student learns to write algorithms in Python, they are simultaneously strengthening the mathematical reasoning that JEE and WBJEE questions test. Our combined coding and maths curriculum gives La Martiniere Boys a distinct advantage. They approach calculus, coordinate geometry, and probability with the structured thinking of a programmer, not just a textbook student. Parents in the Park Street and central Kolkata area have found that their children's overall academic performance improves significantly when coding and maths are learned together, with marks in ICSE Computer Applications and Mathematics both showing measurable improvement.
 
 ### Flexible Batches for Busy La Martiniere Schedules
 
-We understand that La Martiniere for Boys students have demanding days filled with school, sports, extracurricular activities, and private tuitions. That is exactly why we offer evening batches from 4 PM to 8 PM on weekdays and full-day options on Saturdays and Sundays. Our live online format means your child connects from home near Park Street, Rawdon Street, or anywhere in Kolkata — no commuting through traffic. Each session is recorded, so if a student misses a class due to school exams or events, they can catch up at their own pace. This flexibility is why families from the Loudon Street and Camac Street neighbourhood trust Modern Age Coders to supplement their children's education without adding unnecessary stress to an already rigorous ICSE academic calendar.
+We understand that La Martiniere for Boys students have demanding days filled with school, sports, extracurricular activities, and private tuitions. That is exactly why we offer evening batches from 4 PM to 8 PM on weekdays and full-day options on Saturdays and Sundays. Our live online format means your child connects from home near Park Street, Rawdon Street, or anywhere in Kolkata, no commuting through traffic. Each session is recorded, so if a student misses a class due to school exams or events, they can catch up at their own pace. This flexibility is why families from the Loudon Street and Camac Street neighbourhood trust Modern Age Coders to supplement their children's education without adding unnecessary stress to an already rigorous ICSE academic calendar.
 
 ## Coding Courses for La Martiniere Boys Students (Ages 6-12)
 
@@ -66,7 +66,7 @@ La Martiniere Boys learn to create real websites with HTML and CSS. Build person
 
 ### Python for Young Coders
 
-Start text-based coding with Python — directly aligned with the ICSE Computer Applications syllabus at La Martiniere for Boys. Build games, solve mathematical puzzles, and develop real programming skills.
+Start text-based coding with Python, directly aligned with the ICSE Computer Applications syllabus at La Martiniere for Boys. Build games, solve mathematical puzzles, and develop real programming skills.
 
 - ✓ Python Fundamentals & Variables
 - ✓ ICSE-Aligned Problem Solving
@@ -83,7 +83,7 @@ Advanced programming courses that complement ICSE Computer Applications, prepare
 
 ### Python Programming
 
-Master Python — the language used by Google, Netflix, and NASA. Directly supports ICSE Computer Applications at La Martiniere for Boys and builds the computational thinking needed for JEE and WBJEE.
+Master Python, the language used by Google, Netflix, and NASA. Directly supports ICSE Computer Applications at La Martiniere for Boys and builds the computational thinking needed for JEE and WBJEE.
 
 - ✓ Python Fundamentals & OOP
 - ✓ Data Structures & Algorithms
@@ -94,7 +94,7 @@ Master Python — the language used by Google, Netflix, and NASA. Directly suppo
 
 ### Java Programming
 
-Master Java — a core language in the ICSE Computer Applications syllabus. Perfect for La Martiniere Boys preparing for board exams and targeting engineering colleges like IIT, Jadavpur University, and IIEST.
+Master Java, a core language in the ICSE Computer Applications syllabus. Perfect for La Martiniere Boys preparing for board exams and targeting engineering colleges like IIT, Jadavpur University, and IIEST.
 
 - ✓ Core Java & OOP Concepts
 - ✓ Data Structures in Java
@@ -105,7 +105,7 @@ Master Java — a core language in the ICSE Computer Applications syllabus. Perf
 
 ### Full Stack Web Development
 
-Build complete websites and web applications from scratch. La Martiniere Boys learn HTML, CSS, JavaScript, and React — skills that top engineering colleges and tech companies actively seek.
+Build complete websites and web applications from scratch. La Martiniere Boys learn HTML, CSS, JavaScript, and React, skills that top engineering colleges and tech companies actively seek.
 
 - ✓ HTML, CSS, JavaScript
 - ✓ React Framework
@@ -116,7 +116,7 @@ Build complete websites and web applications from scratch. La Martiniere Boys le
 
 ### AI & Machine Learning
 
-Explore artificial intelligence and machine learning with Python. La Martiniere Boys build real AI models and gain exposure to the technology driving the future — a powerful differentiator for college applications.
+Explore artificial intelligence and machine learning with Python. La Martiniere Boys build real AI models and gain exposure to the technology driving the future, a powerful differentiator for college applications.
 
 - ✓ Python for AI
 - ✓ Machine Learning Basics
@@ -169,7 +169,7 @@ Max 5-8 students per batch ensures personalized attention for every learner
 
 ### Real Projects
 
-Build games, apps, websites & AI chatbots — not just theory, real deployable projects
+Build games, apps, websites & AI chatbots, not just theory, real deployable projects
 
 📅
 
@@ -181,7 +181,7 @@ After-school & weekend slots designed around your La Martiniere Boys timetable
 
 ## Epic Courses for Future Tech Leaders
 
-From beginner Scratch programming to advanced AI and competitive exam preparation — we have the perfect course for every La Martiniere Boys student.
+From beginner Scratch programming to advanced AI and competitive exam preparation. We have the perfect course for every La Martiniere Boys student.
 
 🐍
 
@@ -257,7 +257,7 @@ Read more reviews on our [Wall of Love](/love).
 
 ## We Also Teach Students from La Martiniere for Girls
 
-Families from both La Martiniere for Boys and La Martiniere for Girls trust Modern Age Coders for their children's tech education. Our ICSE-aligned coding and maths curriculum is designed for all La Martiniere students — with **girls-only batches** also available for La Martiniere Girls families who prefer them. Students from Kolkata's top schools learn with us.
+Families from both La Martiniere for Boys and La Martiniere for Girls trust Modern Age Coders for their children's tech education. Our ICSE-aligned coding and maths curriculum is designed for all La Martiniere students, with **girls-only batches** also available for La Martiniere Girls families who prefer them. Students from Kolkata's top schools learn with us.
 
 [Explore La Martiniere Girls Page →](/coding-classes-for-la-martiniere-girls-kolkata)🎓 Courses by Category
 
@@ -271,7 +271,7 @@ Whether your son is in Class 1 or Class 12, we have a structured learning path t
 
 Ages 6-10 • Visual Block-Based Coding
 
-[🎨 Scratch Programming  Create games, animations & interactive stories with drag-and-drop blocks](/courses/kids-coding-blocks-masterclass)[📱 App Development for Kids  Build real mobile apps using visual tools — perfect for young creators](/courses/kids-complete-app-development-masterclass)[🌐 Web Design for Kids  Create colourful websites with HTML & CSS from day one](/courses/kids-web-design-masterclass)💻
+[🎨 Scratch Programming  Create games, animations & interactive stories with drag-and-drop blocks](/courses/kids-coding-blocks-masterclass)[📱 App Development for Kids  Build real mobile apps using visual tools, perfect for young creators](/courses/kids-complete-app-development-masterclass)[🌐 Web Design for Kids  Create colourful websites with HTML & CSS from day one](/courses/kids-web-design-masterclass)💻
 
 ### For Teens (Classes 6-10)
 
@@ -293,7 +293,7 @@ All Classes • ICSE • JEE • Olympiads
 
 ## Group Classes or 1-on-1 Personalized?
 
-Every La Martiniere Boys student learns differently. Choose the format that fits your son's learning style, schedule, and goals — both options come with the same expert instruction.
+Every La Martiniere Boys student learns differently. Choose the format that fits your son's learning style, schedule, and goals. Both options come with the same expert instruction.
 
 Most Popular👥
 
@@ -318,7 +318,7 @@ Dedicated instructor, custom pace
 
 ₹2999/month
 
-- ✓ 1 Student Only — Full Attention
+- ✓ 1 Student Only: Full Attention
 - ✓ 3 Live Classes per Week
 - ✓ Custom Learning Pace & Plan
 - ✓ Flexible Schedule (You Choose)
@@ -333,11 +333,11 @@ Finding the right **coding classes near Park Street, Kolkata** for your La Marti
 
 Our curriculum covers the full spectrum of technology education: from **Scratch programming for Classes 1-5** to **Python and Java for Classes 6-10** to **AI, Machine Learning, and Full Stack Web Development for Classes 11-12**. Every course is mapped to the ICSE Computer Applications syllabus, giving your son a direct academic advantage while building career-ready skills that go far beyond the textbook. We also offer comprehensive **ICSE Mathematics, Olympiad preparation (IMO, PRMO, RMO), and JEE/WBJEE maths** coaching.
 
-What sets us apart from other **online coding classes in Kolkata** is our small batch size of just 5-8 students, ensuring every La Martiniere Boys student receives personalized attention. Our after-school evening batches (4 PM – 8 PM) and weekend sessions are specifically designed around the demanding La Martiniere schedule. Every class is recorded so your son never falls behind, even during exam season. We also offer **1-on-1 personalized classes** for families who prefer dedicated instruction with a custom learning plan.
+What sets us apart from other **online coding classes in Kolkata** is our small batch size of just 5-8 students, ensuring every La Martiniere Boys student receives personalized attention. Our after-school evening batches (4 PM: 8 PM) and weekend sessions are specifically designed around the demanding La Martiniere schedule. Every class is recorded so your son never falls behind, even during exam season. We also offer **1-on-1 personalized classes** for families who prefer dedicated instruction with a custom learning plan.
 
 We are proud to be trusted by families from both [La Martiniere for Girls](/coding-classes-for-la-martiniere-girls-kolkata) and La Martiniere for Boys. Our instructors are experienced professionals who understand the ICSE system and know how to make coding engaging, challenging, and fun. With 10,000+ students taught, a 4.9/5 parent rating, and completion certificates that add genuine value to school portfolios and college applications, Modern Age Coders is the trusted choice for **La Martiniere Boys coding education in Kolkata**.
 
-Whether your son wants to learn **Python programming**, build **AI-powered applications**, create **full-stack websites**, or excel in **ICSE Mathematics** and competitive exams — we have the right course, the right instructor, and the right schedule. Book a **free demo class** today and see why La Martiniere families choose Modern Age Coders.
+Whether your son wants to learn **Python programming**, build **AI-powered applications**, create **full-stack websites**, or excel in **ICSE Mathematics** and competitive exams. We have the right course, the right instructor, and the right schedule. Book a **free demo class** today and see why La Martiniere families choose Modern Age Coders.
 
 ## Affordable Coding & Maths Classes for La Martiniere Boys
 
@@ -373,9 +373,9 @@ Get Started
 
 Not sure which plan is right? Book a free demo and we'll help you decide. No obligation, no pressure.
 
-## Book a Free Demo Class — La Martiniere Boys Students
+## Book a Free Demo Class: La Martiniere Boys Students
 
-Experience our coding and maths classes firsthand — absolutely free. Tell us about your child and we'll schedule a personalized demo session. No obligation, no pressure.
+Experience our coding and maths classes firsthand, absolutely free. Tell us about your child and we'll schedule a personalized demo session. No obligation, no pressure.
 
 Or reach us directly:
 
@@ -425,7 +425,7 @@ Yes! We run intensive coding camps during summer vacation (April-May) and Durga 
 
 +
 
-Our Python and Java courses directly cover topics from the ICSE Computer Applications syllabus including variables, loops, arrays, functions, strings, and object-oriented programming. La Martiniere Boys students who learn coding with us consistently score higher in their Computer Applications exams because they develop deeper understanding beyond textbook knowledge. They practice writing actual programs, debugging code, and solving real problems — skills that give them a clear advantage in both practical and theoretical ICSE assessments.
+Our Python and Java courses directly cover topics from the ICSE Computer Applications syllabus including variables, loops, arrays, functions, strings, and object-oriented programming. La Martiniere Boys students who learn coding with us consistently score higher in their Computer Applications exams because they develop deeper understanding beyond textbook knowledge. They practice writing actual programs, debugging code, and solving real problems, skills that give them a clear advantage in both practical and theoretical ICSE assessments.
 
 ### Do you provide certificates?
 

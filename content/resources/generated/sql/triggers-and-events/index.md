@@ -46,7 +46,7 @@ If your app writes to the `employees` table from six different services, auditin
 
 ### 2. Automatic Timestamps and Denormalised Counts
 
-A `posts` table needs `updated_at` set on every UPDATE. A `categories` table stores a `post_count` so your homepage query is O(1). Both are textbook trigger use cases — the database maintains invariants as the data changes.
+A `posts` table needs `updated_at` set on every UPDATE. A `categories` table stores a `post_count` so your homepage query is O(1). Both are textbook trigger use cases, the database maintains invariants as the data changes.
 
 ### 3. Validation Beyond CHECK Constraints
 
@@ -54,7 +54,7 @@ CHECK constraints handle simple per-column rules. Cross-row, cross-table, or con
 
 ### 4. Scheduled Housekeeping Without cron
 
-Events run inside the database, so they survive application deploys, do not need a separate cron host, and write to the same connection pool. For database-internal chores — archiving, cache refresh, stats recomputation — an event is simpler than an external scheduler.
+Events run inside the database, so they survive application deploys, do not need a separate cron host, and write to the same connection pool. For database-internal chores, archiving, cache refresh, stats recomputation, an event is simpler than an external scheduler.
 
 ### 5. Periodic Aggregation for Dashboards
 
@@ -146,7 +146,7 @@ END$$
 DELIMITER ;
 ```
 
-Now *every* salary change — from any service, any DBA, any migration — produces an audit row. The application cannot forget to log it, because the log is a consequence of the UPDATE, not a separate action.
+Now *every* salary change, from any service, any DBA, any migration, produces an audit row. The application cannot forget to log it, because the log is a consequence of the UPDATE, not a separate action.
 
 ### 5. Validation Using SIGNAL
 
@@ -171,7 +171,7 @@ INSERT INTO employees(name, salary) VALUES ('Aarav', -100);
 
 ### 6. Auto-Timestamp Triggers
 
-MySQL supports `DEFAULT CURRENT_TIMESTAMP` and `ON UPDATE CURRENT_TIMESTAMP` on TIMESTAMP/DATETIME columns, which covers most cases without a trigger. Use a trigger when you need conditional timestamping — for example, only stamp `last_edited_at` when specific columns change.
+MySQL supports `DEFAULT CURRENT_TIMESTAMP` and `ON UPDATE CURRENT_TIMESTAMP` on TIMESTAMP/DATETIME columns, which covers most cases without a trigger. Use a trigger when you need conditional timestamping, for example, only stamp `last_edited_at` when specific columns change.
 
 ```
 DELIMITER $$
@@ -217,7 +217,7 @@ END$$
 DELIMITER ;
 ```
 
-The three triggers keep the count correct through inserts, deletes, and re-categorisations. Yes, it is more code than computing `COUNT(*)` on demand — but it turns a homepage query from scanning millions of posts into reading a single column.
+The three triggers keep the count correct through inserts, deletes, and re-categorisations. Yes, it is more code than computing `COUNT(*)` on demand, but it turns a homepage query from scanning millions of posts into reading a single column.
 
 ### 8. SHOW TRIGGERS and DROP TRIGGER
 
@@ -297,7 +297,7 @@ SELECT @@event_scheduler;
 
 ### 13. Events vs External cron
 
-AspectMySQL EventExternal cronLocationInside the databaseOn a separate hostReplicationReplicates to replicas (or SKIP on replicas if duplicate)Runs wherever cron runsMonitoringLimited — check last_executed in information_schemaFull logging, alertingFailure handlingSilent — errors go to MySQL error logEmail, Slack, PagerDutyVersion controlSchema migrationsCrontab file in git
+AspectMySQL EventExternal cronLocationInside the databaseOn a separate hostReplicationReplicates to replicas (or SKIP on replicas if duplicate)Runs wherever cron runsMonitoringLimited, check last_executed in information_schemaFull logging, alertingFailure handlingSilent, errors go to MySQL error logEmail, Slack, PagerDutyVersion controlSchema migrationsCrontab file in git
 
 The pragmatic rule: use events for simple database-internal chores. For anything that needs robust monitoring, alerting, or coordination across multiple databases, use a real scheduler.
 
@@ -342,7 +342,7 @@ UPDATE employees SET salary = 60000 WHERE id = 2;  -- same salary, no audit
 SELECT * FROM salary_audit;
 ```
 
-The AFTER UPDATE trigger fires for every row touched by an UPDATE. We compare NEW.salary to OLD.salary so the trigger only writes audit rows when the salary actually changed — a common optimisation (UPDATE statements that set a column to the same value are a real source of noise).
+The AFTER UPDATE trigger fires for every row touched by an UPDATE. We compare NEW.salary to OLD.salary so the trigger only writes audit rows when the salary actually changed, a common optimisation (UPDATE statements that set a column to the same value are a real source of noise).
 
 **Output:**
 
@@ -456,7 +456,7 @@ DELETE FROM posts WHERE title = 'Priya on pasta';
 SELECT * FROM categories;
 ```
 
-Three triggers keep `categories.post_count` consistent. Inserting a Tech post increments Tech. Moving Rohan's post from Tech to Food decrements Tech and increments Food. Deleting Priya's post decrements Food. Without these, every page-load would have to `SELECT COUNT(*) FROM posts GROUP BY category_id` — expensive at scale.
+Three triggers keep `categories.post_count` consistent. Inserting a Tech post increments Tech. Moving Rohan's post from Tech to Food decrements Tech and increments Food. Deleting Priya's post decrements Food. Without these, every page-load would have to `SELECT COUNT(*) FROM posts GROUP BY category_id`, expensive at scale.
 
 **Output:**
 
@@ -502,7 +502,7 @@ UPDATE invoices SET amount = 5500 WHERE id = 1001;
 UPDATE invoices SET amount = 8000 WHERE id = 1002;
 ```
 
-Business rule: once an invoice is LOCKED, its amount cannot change (status changes are still permitted — e.g. LOCKED -> PAID). The BEFORE UPDATE trigger compares OLD.status and the amount field. If both conditions hit, SIGNAL aborts the UPDATE and the row stays untouched.
+Business rule: once an invoice is LOCKED, its amount cannot change (status changes are still permitted, e.g. LOCKED -> PAID). The BEFORE UPDATE trigger compares OLD.status and the amount field. If both conditions hit, SIGNAL aborts the UPDATE and the row stays untouched.
 
 **Output:**
 
@@ -644,7 +644,7 @@ UNION ALL
 SELECT 'history',        id, name FROM employees_history;
 ```
 
-The AFTER DELETE trigger copies the old row into a history table the moment it is deleted from the live table. This is the "soft delete without bloat" pattern — the live table stays lean, but you retain a full audit trail in a separate archive table that can be moved to cheaper storage.
+The AFTER DELETE trigger copies the old row into a history table the moment it is deleted from the live table. This is the "soft delete without bloat" pattern, the live table stays lean, but you retain a full audit trail in a separate archive table that can be moved to cheaper storage.
 
 **Output:**
 
@@ -682,7 +682,7 @@ FOR EACH ROW
 SET NEW.email = LOWER(NEW.email);
 ```
 
-AFTER triggers see the row after it has been written. You can read NEW but not modify it — the row is already on disk. To normalise or default values, use BEFORE. This is the most common confusion for people new to triggers.
+AFTER triggers see the row after it has been written. You can read NEW but not modify it, the row is already on disk. To normalise or default values, use BEFORE. This is the most common confusion for people new to triggers.
 
 ### Referring to OLD in an INSERT Trigger
 
@@ -721,7 +721,7 @@ DO DELETE FROM sessions WHERE last_active < NOW() - INTERVAL 30 DAY;
 -- SHOW PROCESSLIST has no 'event_scheduler' user.
 ```
 
-No error — the event is created but silently never executes.
+No error, the event is created but silently never executes.
 
 **Correct:**
 
@@ -772,7 +772,7 @@ FOR EACH ROW
 SET NEW.body = CONCAT('verified: ', NEW.body);
 ```
 
-A trigger cannot modify the same table that caused it to fire — MySQL blocks this to prevent infinite loops. If you need to enrich the row being inserted, do it in a BEFORE trigger by modifying NEW. Side effects on related tables are fine.
+A trigger cannot modify the same table that caused it to fire: MySQL blocks this to prevent infinite loops. If you need to enrich the row being inserted, do it in a BEFORE trigger by modifying NEW. Side effects on related tables are fine.
 
 ### Trigger That Assumes Statement-Level Fire
 
@@ -789,7 +789,7 @@ INSERT INTO ops_queue(msg) VALUES ('new alerts arrived');
 -- ops_queue gets THREE rows, not one.
 ```
 
-No error — but ops_queue fills up faster than expected.
+No error, but ops_queue fills up faster than expected.
 
 **Correct:**
 
@@ -815,7 +815,7 @@ MySQL only supports row-level triggers (FOR EACH ROW). Oracle-style statement-le
 
 ## Summary
 
-- A trigger is automatic SQL that runs in response to an INSERT, UPDATE, or DELETE on a specific table. It can fire BEFORE or AFTER the change. Triggers are row-level in MySQL — they fire once per affected row.
+- A trigger is automatic SQL that runs in response to an INSERT, UPDATE, or DELETE on a specific table. It can fire BEFORE or AFTER the change. Triggers are row-level in MySQL. They fire once per affected row.
 - Use BEFORE triggers to validate input and modify NEW (normalise, default, reject via SIGNAL). Use AFTER triggers to log, maintain counters, or cascade non-critical updates to other tables.
 - NEW refers to the incoming row (available in INSERT and UPDATE). OLD refers to the previous row (available in UPDATE and DELETE). AFTER triggers see NEW as read-only; BEFORE triggers can assign to NEW.
 - SIGNAL SQLSTATE '45000' SET MESSAGE_TEXT = '...' in a BEFORE trigger aborts the triggering statement and returns the error to the caller. This is how you enforce cross-row business rules that CHECK constraints cannot express.

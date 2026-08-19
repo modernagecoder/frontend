@@ -1,26 +1,26 @@
 ---
-title: "Maths Tutor in Dubai · 1:1 Online Maths Tuition, Every Curriculum — Modern Age Coders"
-description: "Looking for a maths tutor in Dubai? Live 1:1 online maths tuition for British, American, IB and CBSE schools across Dubai — no traffic, no driving. We teach the reasoning, not rote. Mentors in Gulf Standard Time. USD 150/month, 8 classes. Book a free trial."
+title: "Maths Tutor in Dubai · 1:1 Online Maths Tuition, Every Curriculum | Modern Age Coders"
+description: "Looking for a maths tutor in Dubai? Live 1:1 online maths tuition for British, American, IB and CBSE schools across Dubai, no traffic, no driving. We teach the reasoning, not rote. Mentors in Gulf Standard Time. USD 150/month, 8 classes. Book a free trial."
 canonical: https://learn.modernagecoders.com/maths-tutor-in-dubai
 source: src/pages/maths-tutor-in-dubai.html
 ---
-> Looking for a maths tutor in Dubai? Live 1:1 online maths tuition for British, American, IB and CBSE schools across Dubai — no traffic, no driving. We teach the reasoning, not rote. Mentors in Gulf Standard Time. USD 150/month, 8 classes. Book a free trial.
+> Looking for a maths tutor in Dubai? Live 1:1 online maths tuition for British, American, IB and CBSE schools across Dubai, no traffic, no driving. We teach the reasoning, not rote. Mentors in Gulf Standard Time. USD 150/month, 8 classes. Book a free trial.
 
 In short
 
-**Modern Age Coders is an online maths tutor serving all of Dubai** — Marina, Downtown, JLT, Jumeirah, Arabian Ranches, Mirdif and every other area — with live one-to-one lessons for British, American, IB and CBSE schools, all ages.
+**Modern Age Coders is an online maths tutor serving all of Dubai**, Marina, Downtown, JLT, Jumeirah, Arabian Ranches, Mirdif and every other area, with live one-to-one lessons for British, American, IB and CBSE schools, all ages.
 
-You skip Dubai traffic entirely, keep the same tutor each week, and pay **USD 150 per month** for eight 1:1 lessons — typically well below in-person centre rates. Lessons run in Gulf Standard Time and the first lesson is free.
+You skip Dubai traffic entirely, keep the same tutor each week, and pay **USD 150 per month** for eight 1:1 lessons, typically well below in-person centre rates. Lessons run in Gulf Standard Time and the first lesson is free.
 
 Why finding a maths tutor in Dubai is harder than it should be
 
-## The right tutor, the right curriculum, and a sensible commute — pick three is hard.
+## The right tutor, the right curriculum, and a sensible commute: pick three is hard.
 
-Dubai parents face a specific puzzle. You need a tutor who knows your child's exact curriculum, who's genuinely good, and who's reachable without a 60-minute drive each way through Sheikh Zayed Road traffic. In practice you usually compromise on one — settling for a nearby tutor who doesn't quite fit the syllabus, or a great one who's an exhausting commute away.
+Dubai parents face a specific puzzle. You need a tutor who knows your child's exact curriculum, who's genuinely good, and who's reachable without a 60-minute drive each way through Sheikh Zayed Road traffic. In practice you usually compromise on one, settling for a nearby tutor who doesn't quite fit the syllabus, or a great one who's an exhausting commute away.
 
 Centre-based tutoring adds its own friction: fixed timings, group rooms, and premium Dubai rates.
 
-Online, one-to-one tuition dissolves the compromise. Because location no longer matters, we match your child to the best-fit tutor for their curriculum and personality, anywhere — and the lesson happens at your kitchen table, not after a drive.
+Online, one-to-one tuition dissolves the compromise. Because location no longer matters, we match your child to the best-fit tutor for their curriculum and personality, anywhere, and the lesson happens at your kitchen table, not after a drive.
 
 What you keep is everything that makes tutoring work: a real, live teacher, a shared whiteboard, full attention on your child, and a consistent relationship week to week.
 
@@ -40,7 +40,7 @@ We find the earlier idea that's actually missing, rather than just drilling this
 
 ### Teach the reasoning
 
-Every method becomes something your child can rebuild and explain — maths that survives an unfamiliar exam question.
+Every method becomes something your child can rebuild and explain, maths that survives an unfamiliar exam question.
 
 ### Build fluency & exam skill
 
@@ -48,21 +48,21 @@ Then we add the speed and exam technique their specific curriculum rewards.
 
 See it for yourself
 
-## Percentages & the 5% VAT — one idea, every question.
+## Percentages & the 5% VAT: one idea, every question.
 
 Worked example · everyday maths, UAE context
 
-**Where students get stuck:** percentages feel like a bag of separate rules — "add VAT", "find the original price", "percentage off". Each gets memorised on its own and mixed up under pressure.
+**Where students get stuck:** percentages feel like a bag of separate rules, "add VAT", "find the original price", "percentage off". Each gets memorised on its own and mixed up under pressure.
 
 **How we teach it.** A percent just means "per hundred", so the UAE's 5% VAT is simply ×0.05, and a price *including* VAT is the original ×1.05. One idea handles every direction:
 
-price before VAT = AED 200add 5% VAT: 200 × 1.05 = **AED 210**a receipt shows AED 210 including VAT — what was the price before? 210 ÷ 1.05 = **AED 200**(undo the ×1.05)
+price before VAT = AED 200add 5% VAT: 200 × 1.05 = **AED 210**a receipt shows AED 210 including VAT, what was the price before? 210 ÷ 1.05 = **AED 200**(undo the ×1.05)
 
-There's no separate trick for "adding VAT" versus "removing VAT" — it's one operation (×1.05) and its reverse (÷1.05). A student who sees this can handle tax, discounts, tips and interest, because they're all the same move. That's the difference our teaching makes: not more rules, but the one idea underneath them.
+There's no separate trick for "adding VAT" versus "removing VAT". It's one operation (×1.05) and its reverse (÷1.05). A student who sees this can handle tax, discounts, tips and interest, because they're all the same move. That's the difference our teaching makes: not more rules, but the one idea underneath them.
 
 Why a coding school tutors maths in Dubai
 
-## Dubai is betting on an AI economy — the reasoning starts with maths.
+## Dubai is betting on an AI economy: the reasoning starts with maths.
 
 ### Break problems down
 
@@ -70,13 +70,13 @@ Decomposition powers both a maths solution and a piece of software. We teach it 
 
 ### Find the structure
 
-Seeing the pattern is what turns a hard problem into a simple one — in maths and in code alike.
+Seeing the pattern is what turns a hard problem into a simple one, in maths and in code alike.
 
 ### Check your reasoning
 
 Verifying your own thinking is the habit that separates confident students from anxious ones.
 
-We're Modern Age Coders, built around real coding and AI. In a city investing heavily in technology and a future-ready workforce, students who learn maths as genuine reasoning — not memorised recipes — are the ones who'll thrive in what comes next.
+We're Modern Age Coders, built around real coding and AI. In a city investing heavily in technology and a future-ready workforce, students who learn maths as genuine reasoning, not memorised recipes, are the ones who'll thrive in what comes next.
 
 What we cover in Dubai
 
@@ -90,7 +90,7 @@ Primary maths, KS3, [GCSE](/gcse-maths-tutor-uae) and [A-Level](/a-level-maths-t
 
 ### IB schools
 
-[IB Maths AA and AI](/ib-maths-tutor-uae), SL and HL, plus MYP — a major part of Dubai's school landscape.
+[IB Maths AA and AI](/ib-maths-tutor-uae), SL and HL, plus MYP, a major part of Dubai's school landscape.
 
 ### American-curriculum schools
 
@@ -106,13 +106,13 @@ From [primary kids](/maths-tuition-for-kids-uae) and [teens](/maths-tuition-for-
 
 ### Every Dubai area
 
-Marina, Downtown, JLT, Jumeirah, Arabian Ranches, Mirdif, Dubai Hills, Business Bay — online, no commute.
+Marina, Downtown, JLT, Jumeirah, Arabian Ranches, Mirdif, Dubai Hills, Business Bay, online, no commute.
 
 Who this is for
 
-## The right fit — and an honest word on what to expect.
+## The right fit: and an honest word on what to expect.
 
-**This fits** any Dubai family who wants curriculum-matched, one-to-one maths help without the commute — a child slipping at school, one aiming for top grades or a competitive university, or a family that's moved between systems.
+**This fits** any Dubai family who wants curriculum-matched, one-to-one maths help without the commute, a child slipping at school, one aiming for top grades or a competitive university, or a family that's moved between systems.
 
 **What's realistic.** Most parents notice their child stops dreading maths within a few weeks; grade gains track a term of steady twice-weekly work. We'll be honest about your timeline rather than overpromise.
 
@@ -129,7 +129,7 @@ How lessons work
 
 ### 1:1, live
 
-One student, one tutor, real-time video with a shared whiteboard — from home, no driving.
+One student, one tutor, real-time video with a shared whiteboard, from home, no driving.
 
 ### 8 lessons a month
 
@@ -173,7 +173,7 @@ Who teaches your child
 
 ## Tutors matched to your child, not your postcode.
 
-Because we're online, your child isn't limited to whichever tutor happens to live nearby in Dubai. We match them with the best-fit mentor for their curriculum and personality — someone who knows the syllabus deeply and has the patience to explain it as many ways as it takes.
+Because we're online, your child isn't limited to whichever tutor happens to live nearby in Dubai. We match them with the best-fit mentor for their curriculum and personality, someone who knows the syllabus deeply and has the patience to explain it as many ways as it takes.
 
 The same tutor stays week to week, so trust and momentum build instead of restarting with a new face.
 
@@ -203,27 +203,27 @@ Questions Dubai families ask
 
 Do you offer maths tutors for Dubai schools?
 
-Yes — for Dubai's British, American, IB and Indian (CBSE/ICSE) curriculum schools, teaching to each child's exact syllabus, online and one-to-one in Gulf Standard Time.
+Yes, for Dubai's British, American, IB and Indian (CBSE/ICSE) curriculum schools, teaching to each child's exact syllabus, online and one-to-one in Gulf Standard Time.
 
 Is online tutoring as good as an in-person tutor in Dubai?
 
-For most families it's better — no traffic, learning in a familiar space, a shared online whiteboard, and access to the best-matched tutor rather than only those nearby.
+For most families it's better, no traffic, learning in a familiar space, a shared online whiteboard, and access to the best-matched tutor rather than only those nearby.
 
 Which areas of Dubai do you cover?
 
-Every area — Marina, Downtown, JLT, Jumeirah, Arabian Ranches, Mirdif, Dubai Hills, Business Bay and beyond — because lessons are online.
+Every area: Marina, Downtown, JLT, Jumeirah, Arabian Ranches, Mirdif, Dubai Hills, Business Bay and beyond, because lessons are online.
 
 How much does a maths tutor in Dubai cost?
 
-USD 150/month for 1:1 — eight live lessons, two a week — typically well below in-person centre rates. Small-group option USD 100/month. No contract.
+USD 150/month for 1:1, eight live lessons, two a week, typically well below in-person centre rates. Small-group option USD 100/month. No contract.
 
 Is the first lesson free?
 
-Yes — the first lesson is free, no card needed.
+Yes, the first lesson is free, no card needed.
 
 Will my child have the same tutor every time?
 
-Yes — one matched tutor, kept week to week.
+Yes, one matched tutor, kept week to week.
 
 What times are lessons available in Dubai?
 
@@ -231,11 +231,11 @@ After-school, evening and weekend slots in Gulf Standard Time (UTC+4).
 
 Do you cover all ages and levels in Dubai?
 
-Yes — primary through GCSE, A-Level, IB, CBSE and SAT, to college and adults, placed by understanding.
+Yes, primary through GCSE, A-Level, IB, CBSE and SAT, to college and adults, placed by understanding.
 
 ## Book a free maths trial lesson in Dubai.
 
-Tell us your child's school and curriculum. We'll match a tutor, show you how we teach, and you decide — all without leaving home. No card needed.
+Tell us your child's school and curriculum. We'll match a tutor, show you how we teach, and you decide, all without leaving home. No card needed.
 
 [All UAE maths tuition](/online-maths-tuition-uae)Keep exploring
 
@@ -249,7 +249,7 @@ Real student projects
 
 Every one is a real, live project shipped by a Modern Age Coders student. Explore more in [Student Labs](/student-labs).
 
-[![Doodle Dash — 30-Second Drawing Challenge](/images/projects/doodledash.webp)GameDoodle Dash — 30-Second Drawing ChallengePick a difficulty, get a prompt, and you have exactly 30 seconds to draw it — then an AI judge scores how close you got. Three modes from easy objects to chaotic scenes. Shubh vibe-coded it idea-first, wiring real AI image grading into a fast, addictive drawing game.by ShubhOpen the live project ↗](https://doodledashmaster.lovable.app)[![BookDesk — AI Book Summaries & Quizzes](/images/projects/bookdesk.webp)AI & MLBookDesk — AI Book Summaries & QuizzesType in any book name and author, and BookDesk pulls together the book's details, a clear summary and a custom quiz to test what you've learned — a genuinely useful study companion. Anika built it as a full-stack AI application, powered by Google Gemini with a live database behind it.by AnikaOpen the live project ↗](https://bookdesk1.netlify.app)[![HairSync — AI Hairstyle Try-On](/images/projects/hairsync.webp)AI & MLHairSync — AI Hairstyle Try-OnUpload a clear photo and try on any hairstyle before you commit — wolf cuts, curtain bangs, fades, braids and dozens of trending looks, rendered onto your own face by AI in seconds. Kriti vibe-coded this virtual try-on studio from a single idea into a working app.by KritiOpen the live project ↗](https://hairsync.lovable.app)
+[![Doodle Dash, 30-Second Drawing Challenge](/images/projects/doodledash.webp)GameDoodle Dash, 30-Second Drawing ChallengePick a difficulty, get a prompt, and you have exactly 30 seconds to draw it, then an AI judge scores how close you got. Three modes from easy objects to chaotic scenes. Shubh vibe-coded it idea-first, wiring real AI image grading into a fast, addictive drawing game.by ShubhOpen the live project ↗](https://doodledashmaster.lovable.app)[![BookDesk, AI Book Summaries & Quizzes](/images/projects/bookdesk.webp)AI & MLBookDesk, AI Book Summaries & QuizzesType in any book name and author, and BookDesk pulls together the book's details, a clear summary and a custom quiz to test what you've learned, a genuinely useful study companion. Anika built it as a full-stack AI application, powered by Google Gemini with a live database behind it.by AnikaOpen the live project ↗](https://bookdesk1.netlify.app)[![HairSync, AI Hairstyle Try-On](/images/projects/hairsync.webp)AI & MLHairSync, AI Hairstyle Try-OnUpload a clear photo and try on any hairstyle before you commit, wolf cuts, curtain bangs, fades, braids and dozens of trending looks, rendered onto your own face by AI in seconds. Kriti vibe-coded this virtual try-on studio from a single idea into a working app.by KritiOpen the live project ↗](https://hairsync.lovable.app)
 
 Parent & student voices
 
@@ -273,7 +273,7 @@ Student*
 
 ★★★★★
 
-> “Very good classes. Don't worry about coding—they teach the best, especially Shivam sir.”
+> “Very good classes. Don't worry about coding. They teach the best, especially Shivam sir.”
 
 *SShaarav Wadhwa
 Student*

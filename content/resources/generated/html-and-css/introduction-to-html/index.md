@@ -15,9 +15,9 @@ keywords: ["what is html", "html introduction", "html for beginners", "first htm
 
 ## What Is HTML?
 
-**HTML** stands for **HyperText Markup Language**. It is the language that every web page in the world is built with. Open any website — Google, YouTube, Wikipedia, your school website — and behind the pretty pictures and buttons, there is HTML telling the browser what to show.
+**HTML** stands for **HyperText Markup Language**. It is the language that every web page in the world is built with. Open any website, Google, YouTube, Wikipedia, your school website, and behind the pretty pictures and buttons, there is HTML telling the browser what to show.
 
-The word *HyperText* just means text with links (you can click a word and jump to another page). The word *Markup* means we mark the text with special labels called **tags** to tell the browser what each piece of content is — this is a heading, this is a paragraph, this is an image, this is a link.
+The word *HyperText* just means text with links (you can click a word and jump to another page). The word *Markup* means we mark the text with special labels called **tags** to tell the browser what each piece of content is. This is a heading, this is a paragraph, this is an image, this is a link.
 
 ### HTML Is Not a Programming Language
 
@@ -25,7 +25,7 @@ This surprises many beginners. HTML is a **markup language**, not a programming 
 
 ### The Three Layers of the Web
 
-LayerRoleAnalogy`HTML`Structure — the content and its meaningThe skeleton (bones) of a body`CSS`Style — how things lookThe skin, hair, and clothes`JavaScript`Behavior — making things move and reactThe movement and muscles
+LayerRoleAnalogy`HTML`Structure, the content and its meaningThe skeleton (bones) of a body`CSS`Style, how things lookThe skin, hair, and clothes`JavaScript`Behavior, making things move and reactThe movement and muscles
 
 Every modern web page uses all three. HTML is where you start. Once you know HTML, CSS and JavaScript become much easier.
 
@@ -35,7 +35,7 @@ HTML is the foundation of the entire web. Here is why learning HTML first is the
 
 ### 1. It Is Everywhere
 
-Every single web page you visit — from your favourite game site to a news article — is built with HTML. If you can read HTML, you can peek inside any website and understand how it is built. Right-click any web page and choose **View Page Source** to see the HTML that powers it.
+Every single web page you visit, from your favourite game site to a news article, is built with HTML. If you can read HTML, you can peek inside any website and understand how it is built. Right-click any web page and choose **View Page Source** to see the HTML that powers it.
 
 ### 2. It Is Super Beginner Friendly
 
@@ -43,7 +43,7 @@ HTML does not need to be installed. You do not need a compiler, no strange setup
 
 ### 3. You See Your Work Instantly
 
-Type a tag, save the file, refresh the browser — boom, you see the result. No waiting, no errors like in other languages. This fast feedback loop makes HTML perfect for learners aged 10-18 who want to build things and see them come alive.
+Type a tag, save the file, refresh the browser, boom, you see the result. No waiting, no errors like in other languages. This fast feedback loop makes HTML perfect for learners aged 10-18 who want to build things and see them come alive.
 
 ### 4. It Is the Gateway to Everything Else
 
@@ -57,35 +57,35 @@ With just HTML (and a little CSS later), you can build a personal profile page, 
 
 ### A Tiny Bit of History
 
-HTML was invented by **Tim Berners-Lee** in 1991 at CERN (a giant physics lab in Europe). He wanted scientists around the world to share documents that linked to each other. He created three things that became the World Wide Web: the first web server, the first web browser, and HTML. The very first web page ever made is still online — it is just plain text with a few links.
+HTML was invented by **Tim Berners-Lee** in 1991 at CERN (a giant physics lab in Europe). He wanted scientists around the world to share documents that linked to each other. He created three things that became the World Wide Web: the first web server, the first web browser, and HTML. The very first web page ever made is still online. It is just plain text with a few links.
 
 Over the years HTML has grown. The version we use today is **HTML5**, released in 2014. HTML5 added support for audio, video, canvas drawings, and much more. When you write HTML today, you are writing HTML5.
 
 ### Tags and Elements
 
-HTML uses **tags** to label content. A tag looks like this: ``. Most tags come in pairs — an opening tag and a closing tag. The closing tag has a forward slash:
+HTML uses **tags** to label content. A tag looks like this: ``. Most tags come in pairs, an opening tag and a closing tag. The closing tag has a forward slash:
 
 - `This is a paragraph.`
 - `This is a heading.`
 
-The opening tag, the closing tag, and everything in between together form an **element**. So `Hello` is one element — a paragraph element containing the word Hello.
+The opening tag, the closing tag, and everything in between together form an **element**. So `Hello` is one element, a paragraph element containing the word Hello.
 
 ### Self-Closing (Void) Tags
 
 Some tags do not have content inside them, so they do not need a closing tag. These are called **void** or **self-closing** tags. Examples:
 
-- `` — shows an image
-- `` — a line break
-- `` — a horizontal line
-- `` — an input box
+- ``, shows an image
+- ``, a line break
+- ``, a horizontal line
+- ``, an input box
 
 ### Attributes
 
-Tags can have **attributes** — extra information written inside the opening tag. Attributes come in `name="value"` pairs. For example:
+Tags can have **attributes**, extra information written inside the opening tag. Attributes come in `name="value"` pairs. For example:
 
 `Go to Google`
 
-Here `` is the anchor (link) tag and `href` is an attribute that tells the browser where to go when clicked. Attributes work like settings on a tag — they customise how it behaves.
+Here `` is the anchor (link) tag and `href` is an attribute that tells the browser where to go when clicked. Attributes work like settings on a tag. They customise how it behaves.
 
 ### How the Browser Reads HTML
 
@@ -98,14 +98,14 @@ Follow these steps to build your first web page:
 1. Open any text editor (Notepad on Windows, TextEdit on Mac, or VS Code if you have it)
 2. Type the HTML code from Example 1 below
 3. Save the file as `index.html` (make sure it ends with `.html`, not `.txt`)
-4. Double-click the file — your default browser opens and shows your page
+4. Double-click the file. Your default browser opens and shows your page
 5. To edit, open the file in your text editor, change something, save, and refresh the browser
 
-Congratulations — you are now a web developer. Seriously. Every professional started right here.
+Congratulations. You are now a web developer. Seriously. Every professional started right here.
 
 ### HTML Is Forgiving
 
-Unlike programming languages that crash on the smallest mistake, HTML is very forgiving. If you misspell a tag, the browser usually just ignores it. If you forget a closing tag, the browser often fixes it for you. This makes HTML perfect for learning — you will not get scary error messages when you are just starting out.
+Unlike programming languages that crash on the smallest mistake, HTML is very forgiving. If you misspell a tag, the browser usually just ignores it. If you forget a closing tag, the browser often fixes it for you. This makes HTML perfect for learning. You will not get scary error messages when you are just starting out.
 
 ## Code Examples
 
@@ -179,7 +179,7 @@ A web page titled 'Priya's Profile' with a big name heading, a subtitle, and sec
 </html>
 ```
 
-This example shows three self-closing tags. `` displays an image — the `src` attribute is the image address and `alt` is text shown if the image fails to load (also read by screen readers). `` draws a horizontal line across the page. `` creates a line break inside a paragraph. None of these tags have a closing tag because they do not wrap content.
+This example shows three self-closing tags. `` displays an image, the `src` attribute is the image address and `alt` is text shown if the image fails to load (also read by screen readers). `` draws a horizontal line across the page. `` creates a line break inside a paragraph. None of these tags have a closing tag because they do not wrap content.
 
 **Output:**
 
@@ -241,7 +241,7 @@ A heading and three blue underlined links that users can click to visit the site
 </html>
 ```
 
-HTML has two kinds of lists. `` is an ordered (numbered) list — browsers automatically number each item 1, 2, 3. `` is an unordered (bullet) list. Inside both, each item goes inside `` (list item) tags. This shows how HTML tags can be nested neatly inside each other.
+HTML has two kinds of lists. `` is an ordered (numbered) list, browsers automatically number each item 1, 2, 3. `` is an unordered (bullet) list. Inside both, each item goes inside `` (list item) tags. This shows how HTML tags can be nested neatly inside each other.
 
 **Output:**
 
@@ -249,7 +249,7 @@ HTML has two kinds of lists. `` is an ordered (numbered) list — browsers autom
 A numbered list of weekend tasks and a bulleted list of favourite snacks.
 ```
 
-### Mini Fan Page — Everything Together
+### Mini Fan Page: Everything Together
 
 ```html
 <!DOCTYPE html>
@@ -274,7 +274,7 @@ A numbered list of weekend tasks and a bulleted list of favourite snacks.
 </html>
 ```
 
-This example combines everything you learned so far: headings, paragraphs, an image, a list, a horizontal line, and a link. This is a real mini web page you can actually build in five minutes. Save it, open it, and show your family — you just made your first fan page with only HTML.
+This example combines everything you learned so far: headings, paragraphs, an image, a list, a horizontal line, and a link. This is a real mini web page you can actually build in five minutes. Save it, open it, and show your family. You just made your first fan page with only HTML.
 
 **Output:**
 
@@ -320,7 +320,7 @@ The alt text becomes only 'My' because the space ends the value. The browser get
 <img src="cat.jpg" alt="My cat">
 ```
 
-Attribute values that contain spaces or special characters must be wrapped in quotes. Without quotes, the browser thinks the first word is the value and the rest are extra attributes. Always put quotes around attribute values — it is a simple habit that prevents many bugs.
+Attribute values that contain spaces or special characters must be wrapped in quotes. Without quotes, the browser thinks the first word is the value and the rest are extra attributes. Always put quotes around attribute values. It is a simple habit that prevents many bugs.
 
 ### Writing Content Outside the Body Tag
 
@@ -353,7 +353,7 @@ The heading might still show, but it is incorrect HTML and will cause problems w
 </html>
 ```
 
-All visible content — headings, paragraphs, images, links, lists — must go inside ``, not inside ``. The `` is only for metadata like the page title, character encoding, and links to CSS files. Visible content in the head section is a common beginner mistake.
+All visible content, headings, paragraphs, images, links, lists, must go inside ``, not inside ``. The `` is only for metadata like the page title, character encoding, and links to CSS files. Visible content in the head section is a common beginner mistake.
 
 ### Misspelling Tag Names
 
@@ -373,7 +373,7 @@ The browser does not recognise `` or ``, so it treats them as plain unknown text
 <p>This is text.</p>
 ```
 
-HTML has a fixed set of valid tag names. The most common mistakes are typos like `hedading` instead of `heading` (or actually `h1`), `paragarph` instead of `p`, and `imge` instead of `img`. Always double-check spelling. Valid heading tags are `h1`, `h2`, `h3`, `h4`, `h5`, `h6` — and the paragraph tag is just `p`.
+HTML has a fixed set of valid tag names. The most common mistakes are typos like `hedading` instead of `heading` (or actually `h1`), `paragarph` instead of `p`, and `imge` instead of `img`. Always double-check spelling. Valid heading tags are `h1`, `h2`, `h3`, `h4`, `h5`, `h6`, and the paragraph tag is just `p`.
 
 ### Saving File Without the .html Extension
 
@@ -397,7 +397,7 @@ The file extension tells the computer what kind of file it is. A browser only op
 ## Summary
 
 - HTML stands for HyperText Markup Language and is the foundation of every web page on the internet.
-- HTML is a markup language, not a programming language — it describes structure and content but does not make decisions or calculations.
+- HTML is a markup language, not a programming language. It describes structure and content but does not make decisions or calculations.
 - The web uses three layers: HTML for structure, CSS for style, and JavaScript for behavior. Together they make modern web pages.
 - Tim Berners-Lee invented HTML in 1991. The version used today is HTML5, released in 2014.
 - HTML uses tags to label content. Most tags come in pairs: an opening tag like  and a closing tag like 
@@ -408,7 +408,7 @@ The file extension tells the computer what kind of file it is. A browser only op
 - Attributes add extra information to tags. They look like name="value" pairs, for example href="https://google.com" on an anchor tag.
 - To create a web page, write HTML in any text editor, save with a .html extension, and double-click to open in a browser.
 - Every HTML file should have a <!DOCTYPE html> at the top and an  element containing a  (metadata) and a  (visible content).
-- HTML is forgiving — small mistakes usually do not crash the page, which makes it perfect for beginners to experiment and learn by doing.
+- HTML is forgiving, small mistakes usually do not crash the page, which makes it perfect for beginners to experiment and learn by doing.
 
 ## Related Topics
 

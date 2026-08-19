@@ -160,7 +160,7 @@
           "Add \"change y by -5\" in forever loop to make it fall",
           "When y < -180 (bottom), reset: \"go to x: (pick random -200 to 200) y: 180\"",
           "Create basket sprite controlled by arrow keys: \"when [right arrow] pressed, change x by 10\"",
-          "Use \"if touching [basket]\" to detect catches—\"change score by 1\" and reset object position",
+          "Use \"if touching [basket]\" to detect catches, \"change score by 1\" and reset object position",
           "Show score variable on screen"
         ]
       },
@@ -1406,7 +1406,7 @@
       },
       {
         "type": "paragraph",
-        "text": "<strong>Plan before coding:</strong> Sketch your project on paper. List features you want. Break into small steps. Start with simplest version—add complexity later."
+        "text": "<strong>Plan before coding:</strong> Sketch your project on paper. List features you want. Break into small steps. Start with simplest version, add complexity later."
       },
       {
         "type": "paragraph",
@@ -1466,7 +1466,7 @@
       },
       {
         "type": "paragraph",
-        "text": "<strong>Transition to text-based coding:</strong> When Scratch feels limiting, explore Python or JavaScript. Scratch concepts transfer directly—loops, variables, conditionals work the same. Many tutorials help make this transition smoothly."
+        "text": "<strong>Transition to text-based coding:</strong> When Scratch feels limiting, explore Python or JavaScript. Scratch concepts transfer directly, loops, variables, conditionals work the same. Many tutorials help make this transition smoothly."
       },
       {
         "type": "paragraph",
@@ -1485,7 +1485,7 @@
       },
       {
         "type": "paragraph",
-        "text": "Start with simple animations like dancing sprites or greeting cards that teach basic sequencing, events, and loops without overwhelming complexity. Progress to catching games or virtual pets that introduce variables and conditionals. Avoid starting with complex games like platformers—master fundamentals through projects completable in one or two sessions first."
+        "text": "Start with simple animations like dancing sprites or greeting cards that teach basic sequencing, events, and loops without overwhelming complexity. Progress to catching games or virtual pets that introduce variables and conditionals. Avoid starting with complex games like platformers, master fundamentals through projects completable in one or two sessions first."
       },
       {
         "type": "heading",
@@ -1530,7 +1530,7 @@
       },
       {
         "type": "paragraph",
-        "text": "Start with beginner projects even if your child has coding experience elsewhere—Scratch's unique blocks and features take time to master. Progress to intermediate and advanced projects as skills develop, always prioritizing completed projects over partially-built complex ones."
+        "text": "Start with beginner projects even if your child has coding experience elsewhere: Scratch's unique blocks and features take time to master. Progress to intermediate and advanced projects as skills develop, always prioritizing completed projects over partially-built complex ones."
       },
       {
         "type": "paragraph",
@@ -1557,17 +1557,17 @@
       {
         "type": "heading",
         "level": 2,
-        "text": "Once Your Child Outgrows Scratch — Try These Programs",
+        "text": "Once Your Child Outgrows Scratch: Try These Programs",
         "id": "related-programs"
       },
       {
         "type": "list",
         "style": "unordered",
         "items": [
-          "<strong><a href=\"/python-and-ai-classes-for-kids-teens\">Python &amp; AI Classes for Kids and Teens</a></strong> — The natural next step after Scratch. Live online programs for ages 8 to 18, project-based.",
-          "<strong><a href=\"/coding-classes-for-girls\">Coding Classes for Girls</a></strong> — Princess &amp; Queen Coders inclusive batches with female mentors and a supportive learning environment.",
-          "<strong><a href=\"/java-programming-for-kids-teens\">Java Programming for Kids &amp; Teens</a></strong> — Master Java step by step from variables to OOP and real apps.",
-          "<strong><a href=\"/ai-ml-course-for-teens\">AI &amp; Machine Learning Course for Teens</a></strong> — Build chatbots, image recognition systems, and real AI projects."
+          "<strong><a href=\"/python-and-ai-classes-for-kids-teens\">Python &amp; AI Classes for Kids and Teens</a></strong>: The natural next step after Scratch. Live online programs for ages 8 to 18, project-based.",
+          "<strong><a href=\"/coding-classes-for-girls\">Coding Classes for Girls</a></strong>: Princess &amp; Queen Coders inclusive batches with female mentors and a supportive learning environment.",
+          "<strong><a href=\"/java-programming-for-kids-teens\">Java Programming for Kids &amp; Teens</a></strong>: Master Java step by step from variables to OOP and real apps.",
+          "<strong><a href=\"/ai-ml-course-for-teens\">AI &amp; Machine Learning Course for Teens</a></strong>: Build chatbots, image recognition systems, and real AI projects."
         ]
       }
     ]

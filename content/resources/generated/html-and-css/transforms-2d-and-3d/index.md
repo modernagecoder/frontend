@@ -19,8 +19,8 @@ CSS transforms let you **move, rotate, scale, and skew** elements without affect
 
 There are two flavors of transforms:
 
-1. **2D transforms** — move, rotate, scale, and skew on a flat plane (X and Y axes)
-2. **3D transforms** — add depth (Z axis), perspective, and 3D rotation
+1. **2D transforms**, move, rotate, scale, and skew on a flat plane (X and Y axes)
+2. **3D transforms**, add depth (Z axis), perspective, and 3D rotation
 
 ```
 .card {
@@ -28,7 +28,7 @@ There are two flavors of transforms:
 }
 ```
 
-That single line moves the card 50px right and 20px down, rotates it 15 degrees, and makes it 20% larger — all in one GPU-accelerated operation.
+That single line moves the card 50px right and 20px down, rotates it 15 degrees, and makes it 20% larger, all in one GPU-accelerated operation.
 
 ## Why Learn Transforms?
 
@@ -46,7 +46,7 @@ Want a flipping card, a rotating cube, a tilt-on-hover button, or a parallax eff
 
 ### 4. Every Modern Website Uses Them
 
-Hover lifts, card flips, image zooms, scale-in modals, rotation icons, parallax effects — all built with transforms. Master this chapter and you unlock a huge part of modern web animation.
+Hover lifts, card flips, image zooms, scale-in modals, rotation icons, parallax effects, all built with transforms. Master this chapter and you unlock a huge part of modern web animation.
 
 ## Detailed Explanation
 
@@ -126,7 +126,7 @@ transform: translateZ(50px);   /* pull forward (toward viewer) */
 transform: translateZ(-50px);  /* push backward (away from viewer) */
 transform: rotateX(45deg);     /* tilt forward/backward */
 transform: rotateY(45deg);     /* turn left/right (like a door) */
-transform: rotateZ(45deg);     /* same as rotate() — around the Z axis */
+transform: rotateZ(45deg);     /* same as rotate(), around the Z axis */
 ```
 
 ### 8. perspective - Making 3D Look Real
@@ -167,7 +167,7 @@ When you flip an element 180 degrees, you see its mirrored back face. Often you 
 }
 ```
 
-This is essential for flip cards — otherwise you see the back of the front face when it is flipped.
+This is essential for flip cards, otherwise you see the back of the front face when it is flipped.
 
 ## Code Examples
 
@@ -607,7 +607,7 @@ A pink 'LIVE' badge with two rings continuously rippling outward.
 .card {
   transform: rotateY(45deg);
 }
-/* Looks flat — no 3D depth */
+/* Looks flat, no 3D depth */
 ```
 
 Without perspective, 3D rotations look like 2D scaling. rotateY(45deg) just visually compresses the element horizontally because the viewer has no depth reference.
@@ -631,7 +631,7 @@ Perspective MUST be on a parent element (or use `transform: perspective(1000px) 
 
 ```
 transform: rotate(45deg) translate(100px);
-/* Translation happens in the ROTATED coordinate system — so the element moves diagonally, not right */
+/* Translation happens in the ROTATED coordinate system, so the element moves diagonally, not right */
 ```
 
 Transforms apply in order. After rotating, the coordinate system is rotated too. A subsequent translate moves along the rotated axis, not the original one.
@@ -661,7 +661,7 @@ Think of transforms right-to-left in their effect. Translating first then rotati
 .card.flipped { transform: rotateY(180deg); }
 ```
 
-When the card rotates, you can see the back of the front face overlapping the back face — a mirrored, backwards version of the front content.
+When the card rotates, you can see the back of the front face overlapping the back face, a mirrored, backwards version of the front content.
 
 **Correct:**
 

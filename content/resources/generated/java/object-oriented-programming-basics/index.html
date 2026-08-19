@@ -17,7 +17,7 @@
     <!-- SEO Meta Tags -->
     <meta name="description" content="Learn classes, objects, constructors, this keyword, and the fundamentals of object-oriented programming.">
     <!-- meta keywords intentionally not emitted: Google has ignored it since 2009 and Bing
-         treats it as a SPAM SIGNAL — and Bing is the index ChatGPT/Copilot answer from.
+         treats it as a SPAM SIGNAL, and Bing is the index ChatGPT/Copilot answer from.
          See scripts/strip-meta-keywords.py. -->
     <meta name="author" content="Modern Age Coders">
     <meta name="robots" content="index, follow">
@@ -119,7 +119,7 @@
         "name": "Adding a Return Type to a Constructor",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Constructors must NOT have a return type — not even <code>void</code>. If you add <code>void</code> before the class name, Java treats it as a regular method that happens to have the same name as the class. The actual constructor (the compiler-generated default) initializes <code>name</code> to null."
+          "text": "Constructors must NOT have a return type, not even <code>void</code>. If you add <code>void</code> before the class name, Java treats it as a regular method that happens to have the same name as the class. The actual constructor (the compiler-generated default) initializes <code>name</code> to null."
         }
       },
       {
@@ -210,12 +210,12 @@
 
             <section id="what" class="content-section">
                 <h2>What Is It?</h2>
-                <h2>What Is Object-Oriented Programming (OOP)?</h2><p><strong>Object-Oriented Programming</strong> is a programming paradigm that organizes code around <strong>objects</strong> rather than functions and procedures. An object is a self-contained entity that combines data (fields/attributes) and behavior (methods) into a single unit. In Java, everything revolves around classes and objects — Java is one of the most purely object-oriented languages in widespread use.</p><p>OOP is built on <strong>four pillars</strong>:</p><p><strong>1. Encapsulation:</strong> Bundling data and methods together, and restricting direct access to internal data. This is achieved through access modifiers (private, public, protected).</p><p><strong>2. Inheritance:</strong> A class can inherit fields and methods from another class, promoting code reuse and establishing IS-A relationships.</p><p><strong>3. Polymorphism:</strong> The same method name can behave differently depending on the object type. This includes method overloading (compile-time) and method overriding (runtime).</p><p><strong>4. Abstraction:</strong> Hiding complex implementation details behind simple interfaces. Users interact with what an object does, not how it does it.</p><p>This chapter focuses on the foundation: <strong>classes, objects, and constructors</strong>. These are the building blocks upon which all four pillars stand.</p><h3>Class vs Object</h3><p>A <strong>class</strong> is a blueprint or template that defines the structure (fields) and behavior (methods) of a type. An <strong>object</strong> is a specific instance of a class, occupying memory at runtime.</p><p>Analogy: A class is like an architectural blueprint for a house. An object is an actual house built from that blueprint. You can build many houses (objects) from the same blueprint (class), each with different paint colors and furniture (field values).</p>
+                <h2>What Is Object-Oriented Programming (OOP)?</h2><p><strong>Object-Oriented Programming</strong> is a programming paradigm that organizes code around <strong>objects</strong> rather than functions and procedures. An object is a self-contained entity that combines data (fields/attributes) and behavior (methods) into a single unit. In Java, everything revolves around classes and objects: Java is one of the most purely object-oriented languages in widespread use.</p><p>OOP is built on <strong>four pillars</strong>:</p><p><strong>1. Encapsulation:</strong> Bundling data and methods together, and restricting direct access to internal data. This is achieved through access modifiers (private, public, protected).</p><p><strong>2. Inheritance:</strong> A class can inherit fields and methods from another class, promoting code reuse and establishing IS-A relationships.</p><p><strong>3. Polymorphism:</strong> The same method name can behave differently depending on the object type. This includes method overloading (compile-time) and method overriding (runtime).</p><p><strong>4. Abstraction:</strong> Hiding complex implementation details behind simple interfaces. Users interact with what an object does, not how it does it.</p><p>This chapter focuses on the foundation: <strong>classes, objects, and constructors</strong>. These are the building blocks upon which all four pillars stand.</p><h3>Class vs Object</h3><p>A <strong>class</strong> is a blueprint or template that defines the structure (fields) and behavior (methods) of a type. An <strong>object</strong> is a specific instance of a class, occupying memory at runtime.</p><p>Analogy: A class is like an architectural blueprint for a house. An object is an actual house built from that blueprint. You can build many houses (objects) from the same blueprint (class), each with different paint colors and furniture (field values).</p>
             </section>
 
             <section id="why" class="content-section">
                 <h2>Why Does It Matter?</h2>
-                <h2>Why Are Classes, Objects, and Constructors Important?</h2><p>Understanding classes and objects is not optional in Java — it is the language itself. Every line of Java code you write exists inside a class. Every data structure, every library, every framework is built with classes and objects.</p><h3>1. Java Is Object-Oriented by Design</h3><p>Unlike Python or JavaScript where OOP is one of several paradigms, Java enforces OOP. You cannot write a standalone function outside a class. Even the <code>main</code> method must be inside a class. Understanding classes is understanding Java.</p><h3>2. Real-World Modeling</h3><p>OOP maps naturally to real-world entities. A <code>Student</code> class has fields like <code>name</code>, <code>rollNo</code>, and <code>marks</code>, and methods like <code>calculateGrade()</code>. A <code>BankAccount</code> class has <code>balance</code> and methods like <code>deposit()</code> and <code>withdraw()</code>. This modeling makes code intuitive and maintainable.</p><h3>3. Constructors Control Object Initialization</h3><p>Constructors ensure that every object starts in a valid state. Without constructors, you would need to manually set each field after creating an object, risking incomplete or invalid objects. Constructor overloading provides flexible ways to initialize objects.</p><h3>4. The this Keyword Resolves Ambiguity</h3><p>When constructor parameters have the same name as instance variables, <code>this</code> distinguishes between them. Understanding <code>this</code> is essential for writing clean constructors, implementing method chaining, and avoiding common bugs.</p><h3>5. Static Members Are Interview Staples</h3><p>Understanding when to use <code>static</code> versus instance members, how static methods behave, and why <code>main</code> is static are questions asked in every Java interview and university exam.</p>
+                <h2>Why Are Classes, Objects, and Constructors Important?</h2><p>Understanding classes and objects is not optional in Java. It is the language itself. Every line of Java code you write exists inside a class. Every data structure, every library, every framework is built with classes and objects.</p><h3>1. Java Is Object-Oriented by Design</h3><p>Unlike Python or JavaScript where OOP is one of several paradigms, Java enforces OOP. You cannot write a standalone function outside a class. Even the <code>main</code> method must be inside a class. Understanding classes is understanding Java.</p><h3>2. Real-World Modeling</h3><p>OOP maps naturally to real-world entities. A <code>Student</code> class has fields like <code>name</code>, <code>rollNo</code>, and <code>marks</code>, and methods like <code>calculateGrade()</code>. A <code>BankAccount</code> class has <code>balance</code> and methods like <code>deposit()</code> and <code>withdraw()</code>. This modeling makes code intuitive and maintainable.</p><h3>3. Constructors Control Object Initialization</h3><p>Constructors ensure that every object starts in a valid state. Without constructors, you would need to manually set each field after creating an object, risking incomplete or invalid objects. Constructor overloading provides flexible ways to initialize objects.</p><h3>4. The this Keyword Resolves Ambiguity</h3><p>When constructor parameters have the same name as instance variables, <code>this</code> distinguishes between them. Understanding <code>this</code> is essential for writing clean constructors, implementing method chaining, and avoiding common bugs.</p><h3>5. Static Members Are Interview Staples</h3><p>Understanding when to use <code>static</code> versus instance members, how static methods behave, and why <code>main</code> is static are questions asked in every Java interview and university exam.</p>
             </section>
 
             <section id="explanation" class="content-section">
@@ -329,7 +329,7 @@ public class Main {
 }</code></pre><div class="code-example-explanation">The <code>Student</code> class defines three fields and one method. Two objects <code>s1</code> and <code>s2</code> are created using <code>new</code>. Each has its own copy of <code>name</code>, <code>rollNo</code>, and <code>marks</code>. Changing one object's fields does not affect the other. The <code>displayInfo()</code> method accesses the current object's fields.</div><div class="code-example-output">Aarav (Roll: 101) - Marks: 92.5
 Priya (Roll: 102) - Marks: 88.0
 Aarav and Priya are different objects</div></div>
-<div class="code-example"><div class="code-example-title">Constructors — Default, Parameterized, and Copy</div><pre><code class="language-python">class Book {
+<div class="code-example"><div class="code-example-title">Constructors: Default, Parameterized, and Copy</div><pre><code class="language-python">class Book {
     String title;
     String author;
     double price;
@@ -393,13 +393,13 @@ b3 price: 499.0</div></div>
         System.out.println(&quot;Full constructor called&quot;);
     }
 
-    // Constructor with name only — chains to full constructor
+    // Constructor with name only, chains to full constructor
     Employee(String name) {
         this(name, &quot;General&quot;, 30000.0);
         System.out.println(&quot;Name-only constructor called&quot;);
     }
 
-    // Default constructor — chains to name-only constructor
+    // Default constructor, chains to name-only constructor
     Employee() {
         this(&quot;New Employee&quot;);
         System.out.println(&quot;Default constructor called&quot;);
@@ -429,11 +429,11 @@ New Employee | General | Rs.30000.0
 --- Creating e2 ---
 Full constructor called
 Kavitha | Engineering | Rs.75000.0</div></div>
-<div class="code-example"><div class="code-example-title">The this Keyword — All Uses</div><pre><code class="language-python">class Counter {
+<div class="code-example"><div class="code-example-title">The this Keyword: All Uses</div><pre><code class="language-python">class Counter {
     int value;
 
     Counter(int value) {
-        this.value = value; // this.variable — distinguishes field from parameter
+        this.value = value; // this.variable, distinguishes field from parameter
     }
 
     // Method returns this for chaining
@@ -481,7 +481,7 @@ Value: 9</div></div>
         System.out.println(name + &quot; (Total students: &quot; + count + &quot;)&quot;);
     }
 
-    // Static method — does not need an object
+    // Static method, does not need an object
     static int getCount() {
         // Cannot use &#39;this&#39; or access &#39;name&#39; here
         return count;
@@ -500,7 +500,7 @@ public class Main {
         s2.display();
         System.out.println(&quot;Total: &quot; + Student.getCount());
     }
-}</code></pre><div class="code-example-explanation">The static variable <code>count</code> is shared across all Student objects — there is only one copy regardless of how many objects exist. The static block runs once when the class is first loaded. The static method <code>getCount()</code> can be called using the class name without any object. It cannot access <code>this</code> or instance variables like <code>name</code>.</div><div class="code-example-output">Static block: Student class loaded
+}</code></pre><div class="code-example-explanation">The static variable <code>count</code> is shared across all Student objects. There is only one copy regardless of how many objects exist. The static block runs once when the class is first loaded. The static method <code>getCount()</code> can be called using the class name without any object. It cannot access <code>this</code> or instance variables like <code>name</code>.</div><div class="code-example-output">Static block: Student class loaded
 Before creating objects: 0
 Aarav (Total students: 3)
 Priya (Total students: 3)
@@ -508,12 +508,12 @@ Total: 3</div></div>
 <div class="code-example"><div class="code-example-title">Instance Initializer Block and Execution Order</div><pre><code class="language-python">class Demo {
     String name;
 
-    // Static block — runs once when class loads
+    // Static block, runs once when class loads
     static {
         System.out.println(&quot;1. Static block&quot;);
     }
 
-    // Instance initializer block — runs for every object
+    // Instance initializer block, runs for every object
     {
         System.out.println(&quot;2. Instance initializer block&quot;);
     }
@@ -590,10 +590,10 @@ Top student: Student{name=&#39;Meera&#39;, rollNo=201, marks=95.5}</div></div>
 }</code></pre></div><div class="error-message">No compilation error, but Student(String name) is treated as a regular method named &quot;Student&quot;, not a constructor. The default no-arg constructor is used instead, leaving name as null.</div><div class="correct-code"><pre><code class="language-python">class Student {
     String name;
 
-    Student(String name) { // No return type — this IS a constructor
+    Student(String name) { // No return type. This IS a constructor
         this.name = name;
     }
-}</code></pre></div><div class="mistake-explanation">Constructors must NOT have a return type — not even <code>void</code>. If you add <code>void</code> before the class name, Java treats it as a regular method that happens to have the same name as the class. The actual constructor (the compiler-generated default) initializes <code>name</code> to null.</div>
+}</code></pre></div><div class="mistake-explanation">Constructors must NOT have a return type, not even <code>void</code>. If you add <code>void</code> before the class name, Java treats it as a regular method that happens to have the same name as the class. The actual constructor (the compiler-generated default) initializes <code>name</code> to null.</div>
             </div>
 <div class="mistake-card">
                 <h3>Forgetting this When Parameter Names Shadow Fields</h3>
@@ -602,7 +602,7 @@ Top student: Student{name=&#39;Meera&#39;, rollNo=201, marks=95.5}</div></div>
     int rollNo;
 
     Student(String name, int rollNo) {
-        name = name;       // Assigns parameter to itself — field is still null!
+        name = name;       // Assigns parameter to itself, field is still null!
         rollNo = rollNo;   // Same problem
     }
 }</code></pre></div><div class="error-message">No compilation error, but the fields remain at their default values (null, 0) because the parameters shadow the fields.</div><div class="correct-code"><pre><code class="language-python">class Student {
@@ -704,7 +704,7 @@ Student s2 = new Student(&quot;Aarav&quot;);</code></pre></div><div class="mista
 <li>Static variables are shared among all objects of a class (one copy per class). Static methods belong to the class and can be called without an object. Static methods cannot access instance variables or use this.</li>
 <li>Execution order: static blocks (once, when class loads) -&gt; instance initializer blocks (every object creation) -&gt; constructor body.</li>
 <li>Override toString() to provide a meaningful string representation of your objects. It is called automatically by println() and string concatenation.</li>
-<li>A copy constructor takes another object of the same class and duplicates its values. Java does not provide one automatically — you must write it yourself.</li>
+<li>A copy constructor takes another object of the same class and duplicates its values. Java does not provide one automatically. You must write it yourself.</li>
 <li>Every class in Java implicitly extends the Object class, inheriting methods like toString(), equals(), and hashCode().</li></ul></div>
             </section>
 

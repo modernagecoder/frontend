@@ -81,7 +81,7 @@ Column names in a UNION come from the first query. Use aliases there to control 
 
 INTERSECT returns rows present in both sets. Users 2 and 3 are in both lists.
 
-### Q9. [Medium] Same data — what does active EXCEPT purchased return?
+### Q9. [Medium] Same data: what does active EXCEPT purchased return?
 
 *Hint:* In active, not in purchased.
 
@@ -201,7 +201,7 @@ Fix by adding a NULL placeholder: `SELECT id, NULL FROM t2`.
 
 *Hint:* NOT EXISTS or LEFT JOIN.
 
-**Answer:** `NOT EXISTS or LEFT JOIN + IS NULL — MySQL 5.7 lacks EXCEPT.`
+**Answer:** `NOT EXISTS or LEFT JOIN + IS NULL: MySQL 5.7 lacks EXCEPT.`
 
 EXCEPT is only available in MySQL 8.0.31+. Until then, use the equivalent JOIN or NOT EXISTS patterns.
 
@@ -228,7 +228,7 @@ UNION ALL
 SELECT name, email, 'UK' FROM customers_uk;
 ```
 
-Constant string columns label each branch. Use UNION ALL to keep duplicates if a person is registered in both countries — that is useful information.
+Constant string columns label each branch. Use UNION ALL to keep duplicates if a person is registered in both countries. That is useful information.
 
 ### Q8. [Medium] Given 3 yearly sales tables, write a query that returns total amount per year.
 
@@ -259,7 +259,7 @@ In those cases, prefer UNION ALL for performance. UNION's deduplication is waste
 
 *Hint:* Set semantics.
 
-**Answer:** `Because UNION treats the combined result as one set. Per-branch ordering would be meaningless — the final order is determined at the end. To order within a branch, wrap it in parentheses with LIMIT: (SELECT ... ORDER BY ... LIMIT N) UNION (SELECT ...).`
+**Answer:** `Because UNION treats the combined result as one set. Per-branch ordering would be meaningless, the final order is determined at the end. To order within a branch, wrap it in parentheses with LIMIT: (SELECT ... ORDER BY ... LIMIT N) UNION (SELECT ...).`
 
 SQL enforces this because ORDER BY alone without LIMIT is not meaningful within a set operation.
 

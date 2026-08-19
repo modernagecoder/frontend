@@ -1,22 +1,22 @@
 ---
 title: "Data Analytics Course | Learn Data Analysis, SQL & Dashboards"
-description: "Data analytics course — turn data into decisions. Excel, SQL, Python (pandas), visualization and dashboards, plus analytical thinking for real business insight. Live, hands-on, small batches. Free demo."
+description: "Data analytics course, turn data into decisions. Excel, SQL, Python (pandas), visualization and dashboards, plus analytical thinking for real business insight. Live, hands-on, small batches. Free demo."
 canonical: https://learn.modernagecoders.com/data-analytics-course
 source: src/pages/data-analytics-course.html
 ---
-> Data analytics course — turn data into decisions. Excel, SQL, Python (pandas), visualization and dashboards, plus analytical thinking for real business insight. Live, hands-on, small batches. Free demo.
+> Data analytics course, turn data into decisions. Excel, SQL, Python (pandas), visualization and dashboards, plus analytical thinking for real business insight. Live, hands-on, small batches. Free demo.
 
 Data Analytics • **turn data into decisions**
 
 # Data Analytics Course
 
-Data is everywhere — analysts who can read it get hired. Learn SQL, Python with pandas, visualization and dashboards, and the analytical thinking that turns raw numbers into business decisions. Practical, hands-on, and built on real datasets, live with a mentor.
+Data is everywhere, analysts who can read it get hired. Learn SQL, Python with pandas, visualization and dashboards, and the analytical thinking that turns raw numbers into business decisions. Practical, hands-on, and built on real datasets, live with a mentor.
 
 Book a Free DemoSee the Roadmap**SQL**Query any data**5–8**Students per batch**pandas**Analyse in Python**Live**Mentor-led
 
 ## Quick answer
 
-**Modern Age Coders' Data Analytics Course teaches you to turn data into decisions.** You'll learn spreadsheets, SQL for querying data, Python with pandas for analysis, and data visualization and dashboards — plus the analytical thinking that turns numbers into business insight. Everything is hands-on on realistic datasets. Classes are live in small batches of 5–8 with a mentor, group plans start at ₹1,499/month, and a free demo comes first.
+**Modern Age Coders' Data Analytics Course teaches you to turn data into decisions.** You'll learn spreadsheets, SQL for querying data, Python with pandas for analysis, and data visualization and dashboards, plus the analytical thinking that turns numbers into business insight. Everything is hands-on on realistic datasets. Classes are live in small batches of 5–8 with a mentor, group plans start at ₹1,499/month, and a free demo comes first.
 
 Start Today
 
@@ -36,11 +36,11 @@ From querying raw data to insights leaders act on.
 
 ### SQL & Spreadsheets
 
-Query databases with SQL and work confidently in spreadsheets — the everyday tools of every data analyst.
+Query databases with SQL and work confidently in spreadsheets, the everyday tools of every data analyst.
 
 ### Python & pandas
 
-Clean, transform and analyse data at scale in Python with pandas — far beyond what spreadsheets can do.
+Clean, transform and analyse data at scale in Python with pandas, far beyond what spreadsheets can do.
 
 ### Visualization & Insight
 
@@ -88,7 +88,7 @@ Why This Course
 
 ## Why Data Analytics Is a Smart Career Bet
 
-Every team — marketing, finance, product, operations — now runs on data, and **analysts who can answer questions with it are in demand across every industry**. It's also one of the most accessible entry points into a data career.
+Every team, marketing, finance, product, operations, now runs on data, and **analysts who can answer questions with it are in demand across every industry**. It's also one of the most accessible entry points into a data career.
 
 ### Practical, employable skills fast
 
@@ -151,11 +151,11 @@ Yug RathoreStudent★★★★★
 
 Shradha SarafParent of Mivaan★★★★★
 
-"I'm truly grateful for my experience at Modern Age Coders! The teaching approach of my legendary teachers—Shivam Sir, Mihir Sir and Sonu Sir—is extraordinary. They were not only my teachers but also mentors and friendly figures. The fee is remarkably reasonable and the perks are mind-blowing—one-on-one doubt solving, mentoring, and regular tests. The most impressive part was working on real-world projects."
+"I'm truly grateful for my experience at Modern Age Coders! The teaching approach of my legendary teachers, Shivam Sir, Mihir Sir and Sonu Sir, is extraordinary. They were not only my teachers but also mentors and friendly figures. The fee is remarkably reasonable and the perks are mind-blowing, one-on-one doubt solving, mentoring, and regular tests. The most impressive part was working on real-world projects."
 
 Krishnam BhatterFormer Student
 
-## Turn data into decisions — and a career
+## Turn data into decisions: and a career
 
 Book a free demo and analyse real data with a mentor before you spend a rupee.
 
@@ -167,7 +167,7 @@ Good To Know
 
 What does the Data Analytics Course cover?+
 
-It covers SQL & Spreadsheets, Python & pandas, Visualization & Insight. Data is everywhere — analysts who can read it get hired. Learn SQL, Python with pandas, visualization and dashboards, and the analytical thinking that turns raw numbers into business decisions. Practical, hands-on, and built on real datasets, live with a mentor.
+It covers SQL & Spreadsheets, Python & pandas, Visualization & Insight. Data is everywhere, analysts who can read it get hired. Learn SQL, Python with pandas, visualization and dashboards, and the analytical thinking that turns raw numbers into business decisions. Practical, hands-on, and built on real datasets, live with a mentor.
 
 Who is this course for?+
 
@@ -175,11 +175,11 @@ It's designed for college students, working professionals and serious teens who 
 
 Do I need prior experience to join?+
 
-No heavy prerequisites — we start from the right point for you and build up. Some Python helps for the more advanced topics, and if you're new we cover what you need. The free demo lets us assess your level first.
+No heavy prerequisites. We start from the right point for you and build up. Some Python helps for the more advanced topics, and if you're new we cover what you need. The free demo lets us assess your level first.
 
 Will I work on real, hands-on projects?+
 
-Yes. Every topic is hands-on in Python/Colab and you build real, mentor-reviewed work — not just theory — so you finish with practical skill and something to show.
+Yes. Every topic is hands-on in Python/Colab and you build real, mentor-reviewed work, not just theory, so you finish with practical skill and something to show.
 
 How much does the course cost?+
 

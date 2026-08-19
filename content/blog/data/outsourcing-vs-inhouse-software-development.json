@@ -46,7 +46,7 @@
       },
       {
         "type": "paragraph",
-        "text": "You've decided your business needs custom software—maybe a mobile app, a web platform, or internal tools to streamline operations. Now comes the critical question: who's going to build it?"
+        "text": "You've decided your business needs custom software, maybe a mobile app, a web platform, or internal tools to streamline operations. Now comes the critical question: who's going to build it?"
       },
       {
         "type": "paragraph",
@@ -54,7 +54,7 @@
       },
       {
         "type": "paragraph",
-        "text": "There's no universally correct answer—the right choice depends on your specific situation. This guide breaks down both options honestly so you can make an informed decision."
+        "text": "There's no universally correct answer, the right choice depends on your specific situation. This guide breaks down both options honestly so you can make an informed decision."
       },
       {
         "type": "heading",
@@ -180,7 +180,7 @@
       },
       {
         "type": "paragraph",
-        "text": "Outsourcing isn't just about cutting costs—though that's often part of it. It offers strategic advantages that make sense for many businesses."
+        "text": "Outsourcing isn't just about cutting costs, though that's often part of it. It offers strategic advantages that make sense for many businesses."
       },
       {
         "type": "heading",
@@ -198,7 +198,7 @@
       },
       {
         "type": "paragraph",
-        "text": "Building an in-house team takes months—recruiting, interviewing, onboarding. An outsourcing partner can start immediately with an established team. For time-sensitive projects, this speed advantage is crucial."
+        "text": "Building an in-house team takes months, recruiting, interviewing, onboarding. An outsourcing partner can start immediately with an established team. For time-sensitive projects, this speed advantage is crucial."
       },
       {
         "type": "heading",
@@ -211,7 +211,7 @@
       },
       {
         "type": "paragraph",
-        "text": "Offshore outsourcing can reduce costs further—developers in India, Eastern Europe, or Southeast Asia often cost 50-70% less than equivalent talent in the US or Western Europe."
+        "text": "Offshore outsourcing can reduce costs further, developers in India, Eastern Europe, or Southeast Asia often cost 50-70% less than equivalent talent in the US or Western Europe."
       },
       {
         "type": "heading",
@@ -306,7 +306,7 @@
       },
       {
         "type": "paragraph",
-        "text": "For a full-time equivalent (2,000 hours/year), outsourcing to an Indian agency costs ₹30-80 lakhs/year—more expensive than in-house. But you're paying for a team, not just one developer, and you're not committed long-term."
+        "text": "For a full-time equivalent (2,000 hours/year), outsourcing to an Indian agency costs ₹30-80 lakhs/year, more expensive than in-house. But you're paying for a team, not just one developer, and you're not committed long-term."
       },
       {
         "type": "callout",
@@ -528,7 +528,7 @@
       },
       {
         "type": "paragraph",
-        "text": "The quality debate is nuanced. Neither option is inherently better—it depends on execution."
+        "text": "The quality debate is nuanced. Neither option is inherently better. It depends on execution."
       },
       {
         "type": "heading",
@@ -667,7 +667,7 @@
       },
       {
         "type": "paragraph",
-        "text": "The data shows in-house has slight advantages in success rate and quality, while outsourcing performs better on budget adherence. The differences aren't dramatic—execution matters more than the choice itself."
+        "text": "The data shows in-house has slight advantages in success rate and quality, while outsourcing performs better on budget adherence. The differences aren't dramatic, execution matters more than the choice itself."
       },
       {
         "type": "heading",
@@ -872,7 +872,7 @@
       },
       {
         "type": "paragraph",
-        "text": "Managing developers requires technical understanding. If you have a CTO or technical co-founder, in-house is manageable. If you're non-technical, outsourcing to a trusted partner might be safer. <strong>Alternative:</strong> Hire one senior technical person in-house to manage an outsourced team—a hybrid approach."
+        "text": "Managing developers requires technical understanding. If you have a CTO or technical co-founder, in-house is manageable. If you're non-technical, outsourcing to a trusted partner might be safer. <strong>Alternative:</strong> Hire one senior technical person in-house to manage an outsourced team, a hybrid approach."
       },
       {
         "type": "heading",
@@ -897,7 +897,7 @@
       },
       {
         "type": "paragraph",
-        "text": "Many successful companies don't choose one or the other—they combine both strategically:"
+        "text": "Many successful companies don't choose one or the other. They combine both strategically:"
       },
       {
         "type": "heading",
@@ -951,7 +951,7 @@
         "type": "list",
         "style": "unordered",
         "items": [
-          "Check references thoroughly—talk to past clients",
+          "Check references thoroughly, talk to past clients",
           "Review their portfolio for similar projects",
           "Start with a small pilot project before committing",
           "Evaluate communication quality during the sales process",
@@ -970,7 +970,7 @@
           "Define requirements clearly before starting",
           "Use agile methodologies with regular check-ins",
           "Establish clear communication channels and expectations",
-          "Review work frequently—don't wait until the end",
+          "Review work frequently, don't wait until the end",
           "Document everything for knowledge transfer"
         ]
       },
@@ -1012,7 +1012,7 @@
           "Use technical assessments, not just interviews",
           "Hire for culture fit and learning ability, not just current skills",
           "Consider remote hiring to access broader talent pools",
-          "Don't rush—bad hires are expensive"
+          "Don't rush, bad hires are expensive"
         ]
       },
       {
@@ -1024,7 +1024,7 @@
         "type": "list",
         "style": "unordered",
         "items": [
-          "Pay competitively—developers know their market value",
+          "Pay competitively, developers know their market value",
           "Provide growth opportunities and interesting work",
           "Create a positive engineering culture",
           "Invest in tools and infrastructure",
@@ -1061,15 +1061,15 @@
           },
           {
             "title": "How do I manage an outsourced team in a different time zone?",
-            "content": "Time zone management requires intentional strategies: (1) Establish 2-3 hours of overlap for real-time communication—schedule daily standups during this window, (2) Use asynchronous communication for everything else—detailed written updates, recorded video demos, comprehensive documentation, (3) Choose partners with reasonable overlap—India to US East Coast (10.5 hours) is manageable; India to US West Coast (13.5 hours) is harder, (4) Rotate meeting times occasionally so the burden isn't always on one side, (5) Use tools like Loom for async video updates. Many companies find 5-6 hours time difference ideal—enough overlap for real-time collaboration but also 24-hour development cycles."
+            "content": "Time zone management requires intentional strategies: (1) Establish 2-3 hours of overlap for real-time communication, schedule daily standups during this window, (2) Use asynchronous communication for everything else, detailed written updates, recorded video demos, comprehensive documentation, (3) Choose partners with reasonable overlap: India to US East Coast (10.5 hours) is manageable; India to US West Coast (13.5 hours) is harder, (4) Rotate meeting times occasionally so the burden isn't always on one side, (5) Use tools like Loom for async video updates. Many companies find 5-6 hours time difference ideal, enough overlap for real-time collaboration but also 24-hour development cycles."
           },
           {
             "title": "What if my outsourcing partner delivers poor quality?",
-            "content": "Prevention is better than cure: (1) Start with a small pilot project (₹2-5 lakhs) before committing to large contracts, (2) Include specific quality standards in your contract with measurable criteria, (3) Implement milestone-based payments—never pay everything upfront, (4) Review work weekly, not just at the end, (5) Use automated testing and code quality tools. If quality is poor despite this: (1) Document specific issues clearly, (2) Give them one chance to fix with a deadline, (3) If no improvement, invoke termination clauses and switch partners. Don't fall for sunk cost fallacy—it's better to lose ₹5 lakhs and switch than waste ₹20 lakhs on a bad partner."
+            "content": "Prevention is better than cure: (1) Start with a small pilot project (₹2-5 lakhs) before committing to large contracts, (2) Include specific quality standards in your contract with measurable criteria, (3) Implement milestone-based payments, never pay everything upfront, (4) Review work weekly, not just at the end, (5) Use automated testing and code quality tools. If quality is poor despite this: (1) Document specific issues clearly, (2) Give them one chance to fix with a deadline, (3) If no improvement, invoke termination clauses and switch partners. Don't fall for sunk cost fallacy. It's better to lose ₹5 lakhs and switch than waste ₹20 lakhs on a bad partner."
           },
           {
             "title": "How many in-house developers do I need to start?",
-            "content": "It depends on your project scope, but here's a general guide: <strong>Minimum viable team: 2-3 developers</strong> (one creates key-person risk). <strong>Small product: 3-5 developers</strong> (1 senior, 2-4 mid-level). <strong>Medium product: 6-10 developers</strong> (1-2 senior, 4-6 mid-level, 2-3 junior). <strong>Large product: 10+ developers</strong> (organized into specialized teams). Start small and grow based on actual needs, not projections. It's easier to hire more than to lay off. Consider the 'two pizza rule'—if you can't feed the team with two pizzas, it's too large and needs to be split into smaller teams."
+            "content": "It depends on your project scope, but here's a general guide: <strong>Minimum viable team: 2-3 developers</strong> (one creates key-person risk). <strong>Small product: 3-5 developers</strong> (1 senior, 2-4 mid-level). <strong>Medium product: 6-10 developers</strong> (1-2 senior, 4-6 mid-level, 2-3 junior). <strong>Large product: 10+ developers</strong> (organized into specialized teams). Start small and grow based on actual needs, not projections. It's easier to hire more than to lay off. Consider the 'two pizza rule', if you can't feed the team with two pizzas, it's too large and needs to be split into smaller teams."
           },
           {
             "title": "Is offshore outsourcing worth the cost savings?",
@@ -1077,15 +1077,15 @@
           },
           {
             "title": "What's the best way to evaluate outsourcing partners?",
-            "content": "Use this systematic evaluation process: (1) <strong>Portfolio review:</strong> Look for projects similar to yours in complexity and domain, (2) <strong>Reference checks:</strong> Talk to 3-5 past clients, ask about communication, quality, and how they handled problems, (3) <strong>Technical assessment:</strong> Give them a small paid test project (₹50,000-2 lakhs) to evaluate their work, (4) <strong>Communication evaluation:</strong> How responsive are they during sales? That's how they'll be during the project, (5) <strong>Process review:</strong> Do they follow agile/scrum? How do they handle changes? What's their testing process? (6) <strong>Team transparency:</strong> Will you know who's working on your project? Can you interview them? (7) <strong>Contract terms:</strong> Are IP rights clear? What are payment terms? What happens if you're not satisfied? Don't choose based on price alone—the cheapest option is rarely the best value."
+            "content": "Use this systematic evaluation process: (1) <strong>Portfolio review:</strong> Look for projects similar to yours in complexity and domain, (2) <strong>Reference checks:</strong> Talk to 3-5 past clients, ask about communication, quality, and how they handled problems, (3) <strong>Technical assessment:</strong> Give them a small paid test project (₹50,000-2 lakhs) to evaluate their work, (4) <strong>Communication evaluation:</strong> How responsive are they during sales? That's how they'll be during the project, (5) <strong>Process review:</strong> Do they follow agile/scrum? How do they handle changes? What's their testing process? (6) <strong>Team transparency:</strong> Will you know who's working on your project? Can you interview them? (7) <strong>Contract terms:</strong> Are IP rights clear? What are payment terms? What happens if you're not satisfied? Don't choose based on price alone, the cheapest option is rarely the best value."
           },
           {
             "title": "How do I protect my intellectual property when outsourcing?",
-            "content": "IP protection requires multiple layers: (1) <strong>Legal protection:</strong> Include clear IP assignment clauses in contracts—all code, designs, and documentation belong to you upon payment, (2) <strong>NDA:</strong> Have all team members sign non-disclosure agreements, (3) <strong>Code access:</strong> Get continuous access to code repositories, don't wait until project end, (4) <strong>Escrow agreements:</strong> For critical systems, use code escrow services, (5) <strong>Segmentation:</strong> Don't give one partner access to your entire system—segment work when possible, (6) <strong>Audit rights:</strong> Include rights to audit their security practices. <strong>Reality check:</strong> Perfect IP protection is impossible. Focus on choosing trustworthy partners with reputation to protect. Established agencies value their reputation more than stealing your code."
+            "content": "IP protection requires multiple layers: (1) <strong>Legal protection:</strong> Include clear IP assignment clauses in contracts, all code, designs, and documentation belong to you upon payment, (2) <strong>NDA:</strong> Have all team members sign non-disclosure agreements, (3) <strong>Code access:</strong> Get continuous access to code repositories, don't wait until project end, (4) <strong>Escrow agreements:</strong> For critical systems, use code escrow services, (5) <strong>Segmentation:</strong> Don't give one partner access to your entire system, segment work when possible, (6) <strong>Audit rights:</strong> Include rights to audit their security practices. <strong>Reality check:</strong> Perfect IP protection is impossible. Focus on choosing trustworthy partners with reputation to protect. Established agencies value their reputation more than stealing your code."
           },
           {
             "title": "Should I hire a project manager for my outsourced team?",
-            "content": "For projects over ₹20 lakhs or lasting more than 6 months, yes—having dedicated project management is worth it. <strong>Options:</strong> (1) <strong>Use the agency's PM:</strong> Included in most agency contracts, but they work for the agency, not you, (2) <strong>Hire your own PM:</strong> ₹6-12 lakhs/year for someone who represents your interests, (3) <strong>Hire a technical PM/CTO:</strong> ₹15-30 lakhs/year for someone who can also evaluate code quality. <strong>What they do:</strong> Define requirements, manage scope, coordinate communication, review deliverables, handle issues, ensure quality. <strong>ROI:</strong> Good project management typically saves 2-3x its cost by preventing miscommunication, scope creep, and quality issues. For smaller projects (<₹20 lakhs), you can manage it yourself with good tools and processes."
+            "content": "For projects over ₹20 lakhs or lasting more than 6 months, yes, having dedicated project management is worth it. <strong>Options:</strong> (1) <strong>Use the agency's PM:</strong> Included in most agency contracts, but they work for the agency, not you, (2) <strong>Hire your own PM:</strong> ₹6-12 lakhs/year for someone who represents your interests, (3) <strong>Hire a technical PM/CTO:</strong> ₹15-30 lakhs/year for someone who can also evaluate code quality. <strong>What they do:</strong> Define requirements, manage scope, coordinate communication, review deliverables, handle issues, ensure quality. <strong>ROI:</strong> Good project management typically saves 2-3x its cost by preventing miscommunication, scope creep, and quality issues. For smaller projects (<₹20 lakhs), you can manage it yourself with good tools and processes."
           }
         ]
       },
@@ -1100,7 +1100,7 @@
       },
       {
         "type": "paragraph",
-        "text": "For many businesses, the answer isn't purely one or the other—it's a thoughtful combination that leverages the strengths of both approaches. Start with what makes sense now, but design for flexibility to evolve as your needs change."
+        "text": "For many businesses, the answer isn't purely one or the other. It's a thoughtful combination that leverages the strengths of both approaches. Start with what makes sense now, but design for flexibility to evolve as your needs change."
       },
       {
         "type": "paragraph",
@@ -1110,7 +1110,7 @@
         "type": "callout",
         "calloutType": "success",
         "title": "Make Informed Decisions",
-        "text": "Understanding technology helps you make better decisions about building it—whether in-house or outsourced. Technical literacy is a business advantage."
+        "text": "Understanding technology helps you make better decisions about building it, whether in-house or outsourced. Technical literacy is a business advantage."
       },
       {
         "type": "button",

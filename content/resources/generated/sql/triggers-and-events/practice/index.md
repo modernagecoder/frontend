@@ -15,7 +15,7 @@ category: "SQL"
 
 *Hint:* Think about when the row is written.
 
-**Answer:** BEFORE fires before the row is written to disk, allowing you to inspect and modify NEW. AFTER fires once the row has been written — NEW is read-only. Use BEFORE for validation and defaulting; AFTER for logging and cascading changes to other tables.
+**Answer:** BEFORE fires before the row is written to disk, allowing you to inspect and modify NEW. AFTER fires once the row has been written: NEW is read-only. Use BEFORE for validation and defaulting; AFTER for logging and cascading changes to other tables.
 
 You cannot change NEW in an AFTER trigger because the row is already persisted. Trying to do so gives ERROR 1362.
 
@@ -54,7 +54,7 @@ Symmetric rule: INSERT triggers have NEW only; DELETE triggers have OLD only; UP
 
 **Answer:** A named, time-based task stored inside the database. It runs on the event-scheduler thread, not in response to any row change. Used for daily cleanup, archival, hourly cache refresh, and similar chores.
 
-Events are the database equivalent of cron — they fire on a schedule, not on a data change.
+Events are the database equivalent of cron. They fire on a schedule, not on a data change.
 
 ### Q6. [Easy] What enables the event scheduler?
 
@@ -89,7 +89,7 @@ A multi-row INSERT fires the trigger once per row. The counter increments three 
 
 **Answer:** Because allowing it would invite infinite recursion: the trigger fires on UPDATE, modifies a row, which fires the trigger again. MySQL's default is to block any trigger that would re-trigger itself, raising ERROR 1442.
 
-If you need to mutate the triggering row itself, do it in a BEFORE trigger by assigning to NEW — that does not re-fire.
+If you need to mutate the triggering row itself, do it in a BEFORE trigger by assigning to NEW. That does not re-fire.
 
 ### Q9. [Medium] When would you prefer a column default (DEFAULT CURRENT_TIMESTAMP) over a BEFORE INSERT trigger?
 
@@ -132,7 +132,7 @@ It is the MySQL mechanism for 'reject this operation with a business-rule error'
 
 *Hint:* Compare to Oracle/PostgreSQL statement triggers.
 
-**Answer:** MySQL does not support statement-level triggers — those fire once per statement regardless of rows affected. Every MySQL trigger fires once per affected row. If you need statement-level behaviour, you must emulate it using session variables or call logic from application code.
+**Answer:** MySQL does not support statement-level triggers, those fire once per statement regardless of rows affected. Every MySQL trigger fires once per affected row. If you need statement-level behaviour, you must emulate it using session variables or call logic from application code.
 
 This matters for performance: a bulk UPDATE that touches a million rows fires the trigger a million times.
 
@@ -148,7 +148,7 @@ Without FOLLOWS/PRECEDES, dropping and recreating one trigger can silently chang
 
 *Hint:* Row-based replicates row changes; statement-based replays the SQL.
 
-**Answer:** Under row-based replication (the recommended setting), trigger side effects on the master are captured as row changes in the binary log and applied on the replica *without* re-running the trigger. Under statement-based replication, the replica re-executes the original statement, and its triggers fire independently — dangerous if any trigger is non-deterministic.
+**Answer:** Under row-based replication (the recommended setting), trigger side effects on the master are captured as row changes in the binary log and applied on the replica *without* re-running the trigger. Under statement-based replication, the replica re-executes the original statement, and its triggers fire independently, dangerous if any trigger is non-deterministic.
 
 This is why MySQL forces you to declare DETERMINISTIC on functions and why row-based replication is the modern default.
 
@@ -156,7 +156,7 @@ This is why MySQL forces you to declare DETERMINISTIC on functions and why row-b
 
 *Hint:* Think overlap.
 
-**Answer:** By default MySQL will not queue overlapping invocations — if the previous run is still executing when the next fire time comes, the new invocation is skipped silently. You can confirm by inspecting `information_schema.EVENTS.LAST_EXECUTED`. In practice, either make the job idempotent, run it less often, or use `ON COMPLETION PRESERVE` and redesign.
+**Answer:** By default MySQL will not queue overlapping invocations, if the previous run is still executing when the next fire time comes, the new invocation is skipped silently. You can confirm by inspecting `information_schema.EVENTS.LAST_EXECUTED`. In practice, either make the job idempotent, run it less often, or use `ON COMPLETION PRESERVE` and redesign.
 
 The event scheduler uses a single worker per event. Long-running events can fall behind schedule. Monitor LAST_EXECUTED and alert when it lags.
 
@@ -164,9 +164,9 @@ The event scheduler uses a single worker per event. Long-running events can fall
 
 *Hint:* Think about transactionality and external side effects.
 
-**Answer:** Don't. Triggers run inside the INSERT transaction. Email is an external side effect — if the trigger succeeds but the transaction later rolls back, you've emailed someone who was never created. The right pattern is to INSERT a row into a `notifications_outbox` table from the trigger; a separate worker reads the outbox and sends emails. The outbox insert is rolled back if the transaction fails.
+**Answer:** Don't. Triggers run inside the INSERT transaction. Email is an external side effect, if the trigger succeeds but the transaction later rolls back, you've emailed someone who was never created. The right pattern is to INSERT a row into a `notifications_outbox` table from the trigger; a separate worker reads the outbox and sends emails. The outbox insert is rolled back if the transaction fails.
 
-The 'transactional outbox' pattern. External services must never be called from inside a DB transaction — only after commit.
+The 'transactional outbox' pattern. External services must never be called from inside a DB transaction, only after commit.
 
 ### Q17. [Hard] How can you inspect the last execution time of an event?
 
@@ -221,7 +221,7 @@ The BEFORE trigger multiplies NEW.x by 2 before the row is written, so the store
 
 *Hint:* Think about rollback.
 
-**Answer:** Triggers run inside the transaction. If the surrounding transaction rolls back after the trigger fired, a direct email has already been sent — you cannot un-email someone. The outbox row, however, is rolled back with the rest of the transaction, keeping data and side effects in lockstep. A separate worker reads committed outbox rows and sends mail.
+**Answer:** Triggers run inside the transaction. If the surrounding transaction rolls back after the trigger fired, a direct email has already been sent. You cannot un-email someone. The outbox row, however, is rolled back with the rest of the transaction, keeping data and side effects in lockstep. A separate worker reads committed outbox rows and sends mail.
 
 This pattern is the dominant production approach for reliable event emission from transactional systems.
 
@@ -229,7 +229,7 @@ This pattern is the dominant production approach for reliable event emission fro
 
 *Hint:* Filter by table name.
 
-**Answer:** All triggers in database `shop` whose table name matches the LIKE pattern 'emp%' — e.g. triggers on `employees` and `employee_salaries`. Each row shows Trigger, Event, Table, Statement, Timing (BEFORE/AFTER), Created, and more.
+**Answer:** All triggers in database `shop` whose table name matches the LIKE pattern 'emp%', e.g. triggers on `employees` and `employee_salaries`. Each row shows Trigger, Event, Table, Statement, Timing (BEFORE/AFTER), Created, and more.
 
 LIKE filters by table name, not by trigger name. To filter by trigger name, query information_schema.TRIGGERS directly.
 
@@ -237,7 +237,7 @@ LIKE filters by table name, not by trigger name. To filter by trigger name, quer
 
 *Hint:* Think location and monitoring.
 
-**Answer:** Prefer events when the task is entirely database-internal and simple (nightly DELETE of old rows) — no extra infrastructure. Prefer cron (or Airflow) when you need robust retries, alerting on failure, orchestration across multiple databases, or logs outside the MySQL error log.
+**Answer:** Prefer events when the task is entirely database-internal and simple (nightly DELETE of old rows), no extra infrastructure. Prefer cron (or Airflow) when you need robust retries, alerting on failure, orchestration across multiple databases, or logs outside the MySQL error log.
 
 Events are low-ops. External schedulers are high-ops but give you real observability.
 
@@ -269,7 +269,7 @@ Useful for migrations scheduled to run during a maintenance window.
 
 *Hint:* Validate before logging.
 
-**Answer:** `verify_ins` must fire first — you do not want to log rows that will be rejected. Make verify_ins a BEFORE INSERT trigger (it raises SIGNAL on invalid rows) and log_ins an AFTER INSERT trigger. If both must be AFTER INSERT, use the FOLLOWS clause: `CREATE TRIGGER log_ins AFTER INSERT ON t FOR EACH ROW FOLLOWS verify_ins ...`.
+**Answer:** `verify_ins` must fire first. You do not want to log rows that will be rejected. Make verify_ins a BEFORE INSERT trigger (it raises SIGNAL on invalid rows) and log_ins an AFTER INSERT trigger. If both must be AFTER INSERT, use the FOLLOWS clause: `CREATE TRIGGER log_ins AFTER INSERT ON t FOR EACH ROW FOLLOWS verify_ins ...`.
 
 BEFORE always runs before AFTER. Within the same timing, use FOLLOWS/PRECEDES for explicit ordering.
 
@@ -298,7 +298,7 @@ SIGNAL in a BEFORE trigger aborts the statement. The proposed NEW row never hits
 
 *Hint:* Think about storms.
 
-**Answer:** If the server was down for 6 hours and the event runs every minute, queuing would fire 360 invocations the moment the server came back — a stampede. MySQL's policy of "skip missed runs and continue from the next scheduled time" is safer: the job runs at the next natural tick.
+**Answer:** If the server was down for 6 hours and the event runs every minute, queuing would fire 360 invocations the moment the server came back, a stampede. MySQL's policy of "skip missed runs and continue from the next scheduled time" is safer: the job runs at the next natural tick.
 
 If you need catch-up behaviour, store the last-processed timestamp in a table and process up to NOW() on each fire.
 
@@ -306,23 +306,23 @@ If you need catch-up behaviour, store the last-processed timestamp in a table an
 
 *Hint:* Think depth and hidden behaviour.
 
-**Answer:** It is technically safe (no recursion on the same table) but a maintainability smell. The first developer to read the codebase will see an INSERT into orders and have no idea three tables change as a consequence. Document trigger chains explicitly, or — better — move the cascade into a stored procedure the application calls deliberately.
+**Answer:** It is technically safe (no recursion on the same table) but a maintainability smell. The first developer to read the codebase will see an INSERT into orders and have no idea three tables change as a consequence. Document trigger chains explicitly, or, better, move the cascade into a stored procedure the application calls deliberately.
 
 Triggers are powerful but invisible. The more you chain them, the harder the system is to debug.
 
-### Q13. [Hard] ALTER EVENT rebuild_daily DISABLE; — what happens next Monday at the scheduled time?
+### Q13. [Hard] ALTER EVENT rebuild_daily DISABLE;: what happens next Monday at the scheduled time?
 
 *Hint:* Disabled events do not fire.
 
 **Answer:** Nothing. The event remains in the database (visible in SHOW EVENTS with Status = DISABLED) but the scheduler skips it. Re-enable with `ALTER EVENT rebuild_daily ENABLE`.
 
-DISABLE is the right knob for 'pause this for a while' during maintenance — safer than DROP + recreate.
+DISABLE is the right knob for 'pause this for a while' during maintenance, safer than DROP + recreate.
 
 ### Q14. [Hard] Your audit trigger is slow under bulk loads. Name two optimisations.
 
 *Hint:* Batching and narrow scope.
 
-**Answer:** (1) Only log rows that actually changed: `IF NEW.col <> OLD.col THEN ... END IF;` — no-op UPDATEs produce no audit rows. (2) Push trigger-generated rows into a simple staging table (no indexes), and batch-move them to the main audit table from a nightly event. This trades immediate-visibility for lower write amplification.
+**Answer:** (1) Only log rows that actually changed: `IF NEW.col <> OLD.col THEN ... END IF;`, no-op UPDATEs produce no audit rows. (2) Push trigger-generated rows into a simple staging table (no indexes), and batch-move them to the main audit table from a nightly event. This trades immediate-visibility for lower write amplification.
 
 The write-amplification problem is real: one USER UPDATE becomes one audit INSERT. Indexed audit tables can double total write cost.
 
@@ -394,7 +394,7 @@ Multiple triggers are useful when different concerns (normalisation, validation,
 
 **Answer:** B
 
-**B is correct.** IF EXISTS makes migrations idempotent — no error if the trigger was already dropped.
+**B is correct.** IF EXISTS makes migrations idempotent, no error if the trigger was already dropped.
 
 ### Q11. [Medium] Which schedule clause makes an event fire every day at 2 a.m. starting next Monday?
 
@@ -406,7 +406,7 @@ Multiple triggers are useful when different concerns (normalisation, validation,
 
 **Answer:** A
 
-**A is correct.** The default is NOT PRESERVE — the event is dropped once done. PRESERVE keeps it with Status = DISABLED for audit.
+**A is correct.** The default is NOT PRESERVE, the event is dropped once done. PRESERVE keeps it with Status = DISABLED for audit.
 
 ### Q13. [Hard] You have two AFTER INSERT triggers on the same table. What determines their firing order?
 
@@ -424,7 +424,7 @@ Multiple triggers are useful when different concerns (normalisation, validation,
 
 **Answer:** B
 
-**B is correct.** MySQL does not run overlapping instances of the same event. Long-running events can fall behind — monitor LAST_EXECUTED.
+**B is correct.** MySQL does not run overlapping instances of the same event. Long-running events can fall behind, monitor LAST_EXECUTED.
 
 ### Q16. [Hard] Which is TRUE about triggers under row-based replication?
 
@@ -657,7 +657,7 @@ Create an event that runs every day at 03:00 and deletes rows from `customers` w
 **Sample input:**
 
 ```
-(No input — event runs on schedule.)
+(No input, event runs on schedule.)
 ```
 
 **Sample output:**

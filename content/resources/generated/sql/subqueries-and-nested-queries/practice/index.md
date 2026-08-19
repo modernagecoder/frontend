@@ -31,7 +31,7 @@ The `=` operator expects a scalar. To compare against multiple values, use IN.
 
 *Hint:* Based on whether the subquery has rows.
 
-**Answer:** `TRUE if the subquery produces at least one row, FALSE otherwise. Row contents do not matter — it only checks existence.`
+**Answer:** `TRUE if the subquery produces at least one row, FALSE otherwise. Row contents do not matter. It only checks existence.`
 
 Convention: write `SELECT 1 FROM ...` in EXISTS subqueries because the SELECT list is ignored.
 
@@ -355,7 +355,7 @@ For each employee, count the distinct salaries >= theirs in the same department.
 
 **Answer:** B
 
-**B is correct.** EXISTS is a boolean test — it only checks whether the subquery produced any rows; the contents are ignored.
+**B is correct.** EXISTS is a boolean test. It only checks whether the subquery produced any rows; the contents are ignored.
 
 ### Q3. [Easy] Which operator is equivalent to `= ANY`?
 
@@ -407,7 +407,7 @@ SELECT name FROM employees WHERE salary > ALL (SELECT salary FROM employees WHER
 
 **Answer:** B
 
-**B is correct.** DISTINCT removes duplicate salaries, ORDER BY DESC puts highest first, OFFSET 1 skips the first, LIMIT 1 takes one — the 2nd highest distinct salary. A is invalid (aggregate with aggregate).
+**B is correct.** DISTINCT removes duplicate salaries, ORDER BY DESC puts highest first, OFFSET 1 skips the first, LIMIT 1 takes one, the 2nd highest distinct salary. A is invalid (aggregate with aggregate).
 
 ### Q11. [Medium] What does a subquery in the SELECT list typically do?
 

@@ -9,14 +9,14 @@
  * That was wrong at the root: 547 is the GOOGLE REVIEW count, not the student
  * count. Restating reviews as students is the exact error brand-facts.json rule 4
  * exists to stop, and because this script fans out across the geographic pages it
- * is where most of the site's "500+" claims actually came from — including the
+ * is where most of the site's "500+" claims actually came from, including the
  * hero strip cloned onto 131 city pages.
  *
  * The org-wide count now comes from scripts/brand-facts.json (10,000+). Never
  * hard-code it here again; a number written in a fan-out script becomes a
  * site-wide claim the moment someone re-runs it.
  *
- * The per-city de-fabrication rules below are unchanged and still correct — the
+ * The per-city de-fabrication rules below are unchanged and still correct, the
  * only thing that was wrong was the number they replaced the fabrications with.
  *
  * Only touches keyword-anchored enrollment phrases with a 3-4 digit count,
@@ -95,7 +95,7 @@ console.log(`Files ${DRY ? 'that would change' : 'changed'}: ${filesChanged}`);
 for (const r of RULES) console.log(`  ${r.name.padEnd(18)} ${ruleCounts[r.name] || 0} replacements`);
 if (DRY) {
   for (const r of RULES) {
-    console.log(`\n── ${r.name} — unique transformations (max 10) ──`);
+    console.log(`\n── ${r.name}, unique transformations (max 10) ──`);
     [...(samples[r.name] || [])].slice(0, 10).forEach((s) => console.log('  ' + s));
   }
 }

@@ -15,7 +15,7 @@ keywords: ["sql window functions", "row_number", "rank vs dense_rank", "partitio
 
 ## What Are Window Functions?
 
-Window functions are the single most powerful feature of modern SQL. They compute a value for each row using a *window* of other rows — without collapsing the result set the way GROUP BY does. That difference is everything.
+Window functions are the single most powerful feature of modern SQL. They compute a value for each row using a *window* of other rows, without collapsing the result set the way GROUP BY does. That difference is everything.
 
 ```
 -- GROUP BY: one row per department, details lost
@@ -27,7 +27,7 @@ SELECT name, dept, salary,
 FROM employees;
 ```
 
-Notice the `OVER (PARTITION BY dept)` clause — that's the window. It tells MySQL: "for each row, compute AVG(salary) over the window of rows sharing its dept value." You keep the row-level detail *and* get aggregate context on the same row.
+Notice the `OVER (PARTITION BY dept)` clause. That's the window. It tells MySQL: "for each row, compute AVG(salary) over the window of rows sharing its dept value." You keep the row-level detail *and* get aggregate context on the same row.
 
 Once you know window functions, you will reach for them for:
 
@@ -46,7 +46,7 @@ Pre-window-functions SQL had to compute "current salary minus previous salary pe
 
 ### 2. Interview Favorites Live Here
 
-Nth highest salary, top 3 products per category, first and last order per customer, running totals, month-over-month growth, cumulative percentages, median — these are the classic SQL interview questions. All of them have elegant window-function solutions.
+Nth highest salary, top 3 products per category, first and last order per customer, running totals, month-over-month growth, cumulative percentages, median, these are the classic SQL interview questions. All of them have elegant window-function solutions.
 
 ### 3. Analytics Dashboards Need Row + Aggregate Together
 
@@ -58,7 +58,7 @@ Questions like "how many days since the previous order per customer?" are natura
 
 ### 5. Modern SQL Is Window-Function-Heavy
 
-Data engineering code you will write at any job — ETL for analytics, cohort analysis, attribution windows, session sequencing — is full of window functions. If you can't write them fluently, your SQL ceiling is low.
+Data engineering code you will write at any job, ETL for analytics, cohort analysis, attribution windows, session sequencing, is full of window functions. If you can't write them fluently, your SQL ceiling is low.
 
 ## Detailed Explanation
 
@@ -74,9 +74,9 @@ function_name() OVER (
 
 Three optional parts inside OVER():
 
-- **PARTITION BY** — split rows into groups. The function restarts at each partition boundary. No PARTITION BY means one single partition = the whole result set.
-- **ORDER BY** — order rows within each partition. Required for ranking functions and for cumulative computations.
-- **Frame clause** — a sub-window within the partition. Controls running totals, moving averages, etc.
+- **PARTITION BY**, split rows into groups. The function restarts at each partition boundary. No PARTITION BY means one single partition = the whole result set.
+- **ORDER BY**, order rows within each partition. Required for ranking functions and for cumulative computations.
+- **Frame clause**, a sub-window within the partition. Controls running totals, moving averages, etc.
 
 ### 2. Ranking Functions: ROW_NUMBER, RANK, DENSE_RANK
 
@@ -99,11 +99,11 @@ FROM employees;
 
 **When to use which:**
 
-- `ROW_NUMBER` — pick exactly N rows (pagination, top-3 with tiebreak). Always returns unique 1, 2, 3, ...
-- `RANK` — competition ranking. 1st, 1st, 3rd (Olympic medals: two gold, no silver).
-- `DENSE_RANK` — nth-distinct ranking. "Find the 3rd highest DISTINCT salary." No gaps.
+- `ROW_NUMBER`. Pick exactly N rows (pagination, top-3 with tiebreak). Always returns unique 1, 2, 3, ...
+- `RANK`, competition ranking. 1st, 1st, 3rd (Olympic medals: two gold, no silver).
+- `DENSE_RANK`, nth-distinct ranking. "Find the 3rd highest DISTINCT salary." No gaps.
 
-### 3. PARTITION BY — The Game Changer
+### 3. PARTITION BY: The Game Changer
 
 ```
 -- Top salary per department
@@ -123,7 +123,7 @@ WHERE rn = 1;
 
 "Top N per group" is the #1 window function interview question. The pattern is always: rank within partition, then filter on the rank in an outer query.
 
-### 4. LAG and LEAD — Previous and Next Row
+### 4. LAG and LEAD: Previous and Next Row
 
 ```
 LAG(column, offset, default)  OVER (PARTITION BY ... ORDER BY ...)
@@ -169,7 +169,7 @@ FROM sales;
 
 Any aggregate (SUM, AVG, COUNT, MIN, MAX) becomes a window function by adding OVER(). Combined with a frame clause, it computes cumulatively.
 
-### 7. The Frame Clause — ROWS vs RANGE
+### 7. The Frame Clause: ROWS vs RANGE
 
 ```
 -- Generic frame syntax
@@ -399,7 +399,7 @@ FROM sales
 ORDER BY sale_date;
 ```
 
-The first SUM OVER uses a frame from partition start to the current row — that's the running total. The second SUM OVER with NO clauses means 'sum over the entire result set' — the grand total. Dividing row amount by grand total gives per-day share of total. Two windows on the same query, no self-join.
+The first SUM OVER uses a frame from partition start to the current row. That's the running total. The second SUM OVER with NO clauses means 'sum over the entire result set', the grand total. Dividing row amount by grand total gives per-day share of total. Two windows on the same query, no self-join.
 
 **Output:**
 
@@ -417,7 +417,7 @@ The first SUM OVER uses a frame from partition start to the current row — that
 +------------+--------+---------------+--------------------+
 ```
 
-### LAG — Days Since Customer's Previous Order
+### LAG: Days Since Customer's Previous Order
 
 ```sql
 CREATE TABLE orders (
@@ -447,7 +447,7 @@ FROM orders
 ORDER BY customer_id, order_date;
 ```
 
-LAG looks back one row within the partition. For the first order of each customer, there is no previous row, so LAG returns NULL — which makes DATEDIFF also NULL. This is the canonical pattern for 'inter-event time' analysis.
+LAG looks back one row within the partition. For the first order of each customer, there is no previous row, so LAG returns NULL, which makes DATEDIFF also NULL. This is the canonical pattern for 'inter-event time' analysis.
 
 **Output:**
 
@@ -585,7 +585,7 @@ FROM orders
 ORDER BY customer_id, order_date;
 ```
 
-FIRST_VALUE works correctly with the default frame because the default frame starts at UNBOUNDED PRECEDING. But LAST_VALUE needs the explicit frame extending to UNBOUNDED FOLLOWING — without it, LAST_VALUE would return the current row's value, not the partition's last value. This is the most common window-function bug.
+FIRST_VALUE works correctly with the default frame because the default frame starts at UNBOUNDED PRECEDING. But LAST_VALUE needs the explicit frame extending to UNBOUNDED FOLLOWING, without it, LAST_VALUE would return the current row's value, not the partition's last value. This is the most common window-function bug.
 
 **Output:**
 
@@ -659,7 +659,7 @@ WHERE rnk <= 3;
 
 Window functions are computed AFTER WHERE. To filter on a window result, compute it in a subquery or CTE and apply WHERE in the outer query. This pattern is so common it's worth memorizing.
 
-### Forgetting PARTITION BY — Global Ranking When Per-Group Was Meant
+### Forgetting PARTITION BY: Global Ranking When Per-Group Was Meant
 
 **Wrong:**
 
@@ -694,7 +694,7 @@ SELECT salary FROM (
   FROM employees
 ) t WHERE rnk = 3;
 -- If top 2 salaries tie, RANK goes 1,1,3,... and this 'works'.
--- But if 3 salaries tie at top, RANK goes 1,1,1,4 — rnk=3 returns nothing.
+-- But if 3 salaries tie at top, RANK goes 1,1,1,4, rnk=3 returns nothing.
 ```
 
 No SQL error, but the query returns wrong or empty results depending on how ties break.
@@ -709,7 +709,7 @@ SELECT DISTINCT salary FROM (
 ) t WHERE rnk = 3;
 ```
 
-RANK skips numbers after ties, so rnk=3 might not exist. DENSE_RANK does not skip — rnk=3 always means 'the 3rd distinct value'. For 'Nth highest distinct salary', DENSE_RANK is correct. For 'top N rows including ties', RANK is correct.
+RANK skips numbers after ties, so rnk=3 might not exist. DENSE_RANK does not skip, rnk=3 always means 'the 3rd distinct value'. For 'Nth highest distinct salary', DENSE_RANK is correct. For 'top N rows including ties', RANK is correct.
 
 ### Mixing PARTITION BY Columns Incorrectly
 
@@ -748,7 +748,7 @@ Without PARTITION BY customer_id, the running total accumulates across all custo
 - LAG(col, offset, default) returns the previous row's value within the partition. LEAD does the same for the next row. Both are essential for time-series and sequential analysis.
 - Running totals use SUM/AVG with OVER(ORDER BY ... ROWS UNBOUNDED PRECEDING). Moving averages use ROWS BETWEEN N PRECEDING AND CURRENT ROW.
 - ROWS counts physical rows; RANGE counts by value. Prefer ROWS unless you specifically need value-based windows.
-- LAST_VALUE needs an explicit frame (ROWS BETWEEN UNBOUNDED PRECEDING AND UNBOUNDED FOLLOWING) — the default frame ends at CURRENT ROW, which makes LAST_VALUE return the current row's value.
+- LAST_VALUE needs an explicit frame (ROWS BETWEEN UNBOUNDED PRECEDING AND UNBOUNDED FOLLOWING), the default frame ends at CURRENT ROW, which makes LAST_VALUE return the current row's value.
 - Window functions cannot appear in WHERE, GROUP BY, or HAVING. To filter on a window result, compute it in a subquery/CTE and filter in the outer query.
 - Classic interview patterns: top N per group (ROW_NUMBER or DENSE_RANK with PARTITION BY), Nth highest salary (DENSE_RANK), month-over-month growth (LAG on monthly aggregate), running totals, moving averages, gaps and islands analysis.
 

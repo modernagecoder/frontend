@@ -77,7 +77,7 @@
       },
       {
         "type": "paragraph",
-        "text": "Text files are the simplest—just plain, unformatted text. No colors, no fonts, no special formatting."
+        "text": "Text files are the simplest, just plain, unformatted text. No colors, no fonts, no special formatting."
       },
       {
         "type": "paragraph",
@@ -413,7 +413,7 @@
       },
       {
         "type": "paragraph",
-        "text": "Python handles many file types, each requiring its own approach. Start with text files—they're simplest. Move to CSV and JSON for structured data. Excel and PDF require libraries but are manageable with practice."
+        "text": "Python handles many file types, each requiring its own approach. Start with text files. They're simplest. Move to CSV and JSON for structured data. Excel and PDF require libraries but are manageable with practice."
       },
       {
         "type": "paragraph",

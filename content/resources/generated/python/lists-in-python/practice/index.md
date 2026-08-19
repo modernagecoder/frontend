@@ -419,7 +419,7 @@ print(nums)
 
 **Answer:** `[1, 3, 5, 6]`
 
-This is a common bug. After removing 2 (index 1), 4 moves to index 2 and 3 moves to index 1. The iterator advances to index 2, which is now 4 (it was 3 before the removal). 4 is removed. Then 5 is at index 2, 6 at index 3. The iterator goes to index 3 (6), but 5 was already visited. 6 is even but by this point the loop ends at the wrong time. The result is [1, 3, 5, 6] — 6 survives.
+This is a common bug. After removing 2 (index 1), 4 moves to index 2 and 3 moves to index 1. The iterator advances to index 2, which is now 4 (it was 3 before the removal). 4 is removed. Then 5 is at index 2, 6 at index 3. The iterator goes to index 3 (6), but 5 was already visited. 6 is even but by this point the loop ends at the wrong time. The result is [1, 3, 5, 6]: 6 survives.
 
 ### Q9. [Hard] What is the output?
 

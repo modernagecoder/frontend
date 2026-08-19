@@ -1,14 +1,14 @@
 ---
 title: "Book a Free Coding Demo Class | Try Coding & Maths Live | Modern Age Coders"
-description: "Book your FREE coding demo class — available worldwide. Live 1-on-1 session for kids (6+), teens, college students & adults. Try Python, Scratch, Web Development or Maths tutoring. No commitment required!"
+description: "Book your FREE coding demo class, available worldwide. Live 1-on-1 session for kids (6+), teens, college students & adults. Try Python, Scratch, Web Development or Maths tutoring. No commitment required!"
 canonical: https://learn.modernagecoders.com/book-demo
 source: src/pages/book-demo.html
 ---
-> Book your FREE coding demo class — available worldwide. Live 1-on-1 session for kids (6+), teens, college students & adults. Try Python, Scratch, Web Development or Maths tutoring. No commitment required!
+> Book your FREE coding demo class, available worldwide. Live 1-on-1 session for kids (6+), teens, college students & adults. Try Python, Scratch, Web Development or Maths tutoring. No commitment required!
 
 # Book Your FREE Demo Class
 
-Experience our world-class teaching before you commit. Try a live 1-on-1 session with our expert instructors — absolutely free, no strings attached.
+Experience our world-class teaching before you commit. Try a live 1-on-1 session with our expert instructors, absolutely free, no strings attached.
 
 Live demos are typically scheduled within 48 hours, because our mentors spend most of the day teaching live classes. If you would rather see us teach right now, watch a full recorded class: free and unedited, just a quick Google sign-in. Some classes are in English, some in Hindi, and the libraries are updated frequently. Watch end to end, like you are in the class, on a computer or laptop for the clearest experience.
 
@@ -38,7 +38,7 @@ Experience our interactive teaching methodology firsthand.
 
 #### Q&A Session
 
-Ask anything — about courses, schedules, or our approach.
+Ask anything, about courses, schedules, or our approach.
 
 #### Customized Curriculum Preview
 
@@ -72,7 +72,7 @@ ArithmeticAlgebraGeometryTrigonometryCalculusStatistics Class 1 to College Level
 
 ## What Parents & Students Say
 
-Real, unedited reviews from our families on Google — rated 4.9★ across 547+ reviews.
+Real, unedited reviews from our families on Google, rated 4.9★ across 547+ reviews.
 
 S
 
@@ -114,11 +114,11 @@ Yes, instantly. We keep two open libraries of full, real, unedited class recordi
 
 No. Live demos are typically scheduled within 48 hours because our mentors teach live for most of the day, but our free open recording libraries are available right now. Watch a full class today, and if it answers everything, you can enrol straight away without waiting for the demo.
 
-Yes! Our demo class is 100% free with no hidden charges. Experience our teaching methodology, meet your instructor, and see if we're the right fit — all at zero cost to you.
+Yes! Our demo class is 100% free with no hidden charges. Experience our teaching methodology, meet your instructor, and see if we're the right fit, all at zero cost to you.
 
 Demo classes typically last 30-45 minutes. This gives you enough time to experience our teaching style, understand our curriculum, and ask any questions you may have.
 
-We teach students of all ages — kids as young as 6, teenagers, college students, and even working professionals looking to upskill. Our curriculum is customized for each age group and skill level.
+We teach students of all ages, kids as young as 6, teenagers, college students, and even working professionals looking to upskill. Our curriculum is customized for each age group and skill level.
 
 Just a computer/laptop with a stable internet connection and a browser. We'll send you a meeting link before the class. No special software installation needed for the demo!
 

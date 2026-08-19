@@ -148,7 +148,7 @@ Student*
 
 ★★★★★
 
-> “My son has been attending this coding class for the past couple of months, and I've been genuinely impressed with both his progress and enthusiasm. The instructors are incredibly patient and knowledgeable. What stands out most is how excited my son is before every class—he looks forward to learning, problem-solving, and sharing what he's built. I've noticed a big boost in his confidence!”
+> “My son has been attending this coding class for the past couple of months, and I've been genuinely impressed with both his progress and enthusiasm. The instructors are incredibly patient and knowledgeable. What stands out most is how excited my son is before every class. He looks forward to learning, problem-solving, and sharing what he's built. I've noticed a big boost in his confidence!”
 
 *PPoonam Rathore
 Parent*

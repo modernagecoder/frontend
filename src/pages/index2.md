@@ -1,20 +1,20 @@
 ---
 title: "Modern Age Coders - Online Coding & Maths Classes for All Ages | Learn Worldwide"
-description: "Online coding and maths classes for ages 6-67 — learn from anywhere in the world. Live 1-on-1 sessions in Python, Scratch, AI, Web Dev & Mathematics. Expert instructors, hands-on projects. Book a free demo today!"
+description: "Online coding and maths classes for ages 6-67. Learn from anywhere in the world. Live 1-on-1 sessions in Python, Scratch, AI, Web Dev & Mathematics. Expert instructors, hands-on projects. Book a free demo today!"
 canonical: https://learn.modernagecoders.com/
 source: src/pages/index2.html
 ---
-> Online coding and maths classes for ages 6-67 — learn from anywhere in the world. Live 1-on-1 sessions in Python, Scratch, AI, Web Dev & Mathematics. Expert instructors, hands-on projects. Book a free demo today!
+> Online coding and maths classes for ages 6-67. Learn from anywhere in the world. Live 1-on-1 sessions in Python, Scratch, AI, Web Dev & Mathematics. Expert instructors, hands-on projects. Book a free demo today!
 
 Live online classes · ages 6 to 67 · 25+ countries · rated 4.9/5
 
 # Maths Code Made for Each Other.
 
-Live, expert-led coding & maths classes for ages 6 to 67 — small batches, real projects, and a mentor who actually knows your name. See the difference in one free class.
+Live, expert-led coding & maths classes for ages 6 to 67, small batches, real projects, and a mentor who actually knows your name. See the difference in one free class.
 
 [Book a Free Demo Class](/contact)
 
-Free 45-minute class — no credit card, no commitment. Pick a time that suits you.
+Free 45-minute class, no credit card, no commitment. Pick a time that suits you.
 
 **4.9/5** from 247+ parents**10,000+** students taught · 25+ countries[or browse all courses](/courses)
 
@@ -44,7 +44,7 @@ No forms to puzzle over, no pressure. Here is exactly what happens from the mome
 
 [Book a Free Demo Class](/contact)
 
-Free 45-minute class — no credit card, cancel anytime.
+Free 45-minute class, no credit card, cancel anytime.
 
 The world's first of its kind
 
@@ -56,13 +56,13 @@ Coding tracks
 
 ## Coding Curriculum
 
-From first blocks to production code — a path for every age and stage.
+From first blocks to production code, a path for every age and stage.
 
 ![Kids Coding Blocks Masterclass course](/images/kids-coding.webp)
 
 ### Kids Coding
 
-A complete journey into the world of coding — from basics to advanced. Kids learn block coding, game design, animations, and web app development in a fun and interactive way.
+A complete journey into the world of coding, from basics to advanced. Kids learn block coding, game design, animations, and web app development in a fun and interactive way.
 
 [Start Learning](/courses/kids-coding-blocks-masterclass)![Web Design for Kids Course](/images/html-css-kids.webp)
 
@@ -74,17 +74,17 @@ Create your own colorful websites with HTML and CSS. Build fun projects and shar
 
 ### Java Programming
 
-Master one of the world’s most powerful programming languages! Teens will learn the core concepts of Java — from variables, loops, and functions to object-oriented programming — and build real-world applications step by step.
+Master one of the world’s most powerful programming languages! Teens will learn the core concepts of Java, from variables, loops, and functions to object-oriented programming, and build real-world applications step by step.
 
 [View Path](/courses/java-programming-masterclass-for-teens)![AI & Machine Learning Course](/images/ai-ml-teens.webp)
 
 ### AI & Machine Learning
 
-Step into the world of Artificial Intelligence and Machine Learning! Teens will explore how computers learn, make predictions, and create smart solutions — from image recognition to chatbots — using Python and real-world datasets.
+Step into the world of Artificial Intelligence and Machine Learning! Teens will explore how computers learn, make predictions, and create smart solutions, from image recognition to chatbots, using Python and real-world datasets.
 
 [Explore AI](/courses/ai-ml-masterclass-teens)![IP & CS Class 11 12 CBSE ICSE Course](/images/ip-cs-class-11-12.webp)
 
-### IP & CS — Class 11 & 12
+### IP & CS: Class 11 & 12
 
 Complete Computer Science & Informatics Practices course for Class 11 & 12. Separate CBSE (Python) & ICSE (Java) batches. 100% syllabus coverage, practical file, project guidance & board exam mastery.
 
@@ -162,9 +162,9 @@ A special coding batch for all the young princesses who dream big! Learn to crea
 
 [Join Us](/courses/princess-coders-complete-coding-masterclass)[View All Courses](/courses/coding/girls)Maths tracks
 
-## Online Maths Tuition — From School to Advanced
+## Online Maths Tuition: From School to Advanced
 
-Concept-first teaching that builds genuine number sense and reasoning — at every level.
+Concept-first teaching that builds genuine number sense and reasoning, at every level.
 
 ![Elementary Mathematics Course](/images/elementary-maths.webp)
 
@@ -230,7 +230,7 @@ Learn statistics, probability, machine learning mathematics, and data science fu
 
 ## Affordable Plans, High-Quality Knowledge
 
-Simple monthly plans, no hidden fees, cancel anytime — so anyone can learn to code and master real maths. Start with a free demo before you pay.
+Simple monthly plans, no hidden fees, cancel anytime, so anyone can learn to code and master real maths. Start with a free demo before you pay.
 
 ### Group Classes
 
@@ -388,7 +388,7 @@ Get started
 
 ## Try Coding and Maths
 
-Tell us what you want to learn and we'll set up your free demo class — usually within 48 hours. No credit card, no commitment.
+Tell us what you want to learn and we'll set up your free demo class, usually within 48 hours. No credit card, no commitment.
 
 Compare
 
@@ -490,7 +490,7 @@ An intelligent tool that instantly counts the number of words, sentences, paragr
 
 ### Our Certificates are earned, never given
 
-Upon completing any learning path, you'll receive a Certificate of Completion. It's more than a document—it's a testament to your dedication and a powerful asset for your career.
+Upon completing any learning path, you'll receive a Certificate of Completion. It's more than a document. It's a testament to your dedication and a powerful asset for your career.
 
 - Verifiable Credentials
 - Sharable on LinkedIn
@@ -508,7 +508,7 @@ Mother of Dhairya
 
 ★★★★★
 
-> My child Dhairya, is really enjoying the Modern Age Coder IT classes. This is his first online class, and he eagerly looks forward to it. I can see his improvement, and I believe he will grow even more interested in the subject in the future. I also appreciate the teachers—they are very cooperative and listen to our suggestions. They try to apply them in class, which is very helpful. Overall, I am very happy with the class.
+> My child Dhairya, is really enjoying the Modern Age Coder IT classes. This is his first online class, and he eagerly looks forward to it. I can see his improvement, and I believe he will grow even more interested in the subject in the future. I also appreciate the teachers. They are very cooperative and listen to our suggestions. They try to apply them in class, which is very helpful. Overall, I am very happy with the class.
 
 ![Parent avatar](https://lh3.googleusercontent.com/a/ACg8ocJIAjSLzhCVztgwnB-2n5ToRxFsWq9iqBTHGgbC_Sl8gGRPEg=s45-c-rp-mo-br100)
 
@@ -694,13 +694,13 @@ Our courses are designed for students aged 6–67, with different difficulty lev
 
 +
 
-We offer a range of Coding and Maths courses tailored to different age groups and skill levels — from beginners to advanced. Our curriculum includes programming, computational thinking, and maths modules; check our website for the full course list and details on company-collaboration projects.
+We offer a range of Coding and Maths courses tailored to different age groups and skill levels, from beginners to advanced. Our curriculum includes programming, computational thinking, and maths modules; check our website for the full course list and details on company-collaboration projects.
 
 ### What programming languages do you teach?
 
 +
 
-We teach languages and tools most useful for students’ learning paths and industry relevance — including Python, JavaScript, Java, HTML, CSS, and block-based platforms like Scratch. Our courses pair Coding with Maths concepts where appropriate, and selected modules align with company project needs.
+We teach languages and tools most useful for students’ learning paths and industry relevance, including Python, JavaScript, Java, HTML, CSS, and block-based platforms like Scratch. Our courses pair Coding with Maths concepts where appropriate, and selected modules align with company project needs.
 
 ### Are classes live or pre-recorded?
 

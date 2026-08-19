@@ -75,7 +75,7 @@ body.gazette {
     font-size: 17px;
     line-height: 1.55;
     min-height: 100vh;
-    /* Newsprint grain — two stacked dot patterns */
+    /* Newsprint grain, two stacked dot patterns */
     background-image:
         radial-gradient(rgba(0, 0, 0, 0.045) 1px, transparent 1.4px),
         radial-gradient(rgba(0, 0, 0, 0.025) 1px, transparent 1.4px);
@@ -727,7 +727,7 @@ body.gazette {
 }
 
 /* =========================================================
-   SECTION: CERTIFICATES — Earned, Not Given
+   SECTION: CERTIFICATES: Earned, Not Given
    ========================================================= */
 .gz-certs__grid {
     display: grid;
@@ -817,7 +817,7 @@ body.gazette {
 }
 
 /* =========================================================
-   SECTION: READING ROOM — blog teasers
+   SECTION: READING ROOM, blog teasers
    ========================================================= */
 .gz-reading__grid {
     display: grid;
@@ -1884,7 +1884,7 @@ body.gazette {
 }
 
 /* =========================================================
-   PRINT — actually look like newspaper print on paper
+   PRINT, actually look like newspaper print on paper
    ========================================================= */
 @media print {
     .gz-nav,

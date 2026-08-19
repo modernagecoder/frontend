@@ -1,12 +1,12 @@
 /**
- * base.css — Body, typography, and document defaults
+ * base.css: Body, typography, and document defaults
  * Phase 1 CSS Architecture Overhaul
  */
 
 @layer base {
 
     /* ============================================================
-       BODY — Canvas for the entire site
+       BODY: Canvas for the entire site
        ============================================================ */
     body {
         font-family: var(--font-body);
@@ -20,7 +20,7 @@
         padding: env(safe-area-inset-top) env(safe-area-inset-right) env(safe-area-inset-bottom) env(safe-area-inset-left);
     }
 
-    /* Ambient background — replaces canvas animation for much better perf.
+    /* Ambient background, replaces canvas animation for much better perf.
        Subtle mesh of overlapping radial gradients creates organic depth. */
     body::before {
         content: '';
@@ -130,7 +130,7 @@
     }
 
     /* ============================================================
-       LINKS — base styling, components override as needed
+       LINKS, base styling, components override as needed
        ============================================================ */
     a {
         color: var(--color-primary-light);
@@ -142,7 +142,7 @@
         color: var(--color-primary);
     }
 
-    /* Accessible focus — visible for keyboard users only */
+    /* Accessible focus, visible for keyboard users only */
     :focus-visible {
         outline: 2px solid var(--color-primary);
         outline-offset: 3px;
@@ -267,7 +267,7 @@
     }
 
     /* ============================================================
-       SCROLLBAR — branded, subtle
+       SCROLLBAR, branded, subtle
        ============================================================ */
     * {
         scrollbar-width: thin;
@@ -297,7 +297,7 @@
     }
 
     /* ============================================================
-       SKIP LINK — accessibility
+       SKIP LINK, accessibility
        ============================================================ */
     .skip-link {
         position: absolute;

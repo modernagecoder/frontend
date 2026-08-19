@@ -1,5 +1,5 @@
 ---
-title: "Common Entrance Maths Tuition · 1:1 ISEB 13+ & 11+ Maths — Modern Age Coders"
+title: "Common Entrance Maths Tuition · 1:1 ISEB 13+ & 11+ Maths | Modern Age Coders"
 description: "Live 1:1 online Common Entrance maths tuition for ISEB 13+ and 11+ exams to independent senior schools. We build real understanding across calculator and non-calculator papers, with scholarship-level stretch where needed. Same tutor, UK time. Priced for your country."
 canonical: https://learn.modernagecoders.com/common-entrance-maths-tuition
 source: src/pages/common-entrance-maths-tuition.html
@@ -8,15 +8,15 @@ source: src/pages/common-entrance-maths-tuition.html
 
 Why Common Entrance is its own challenge
 
-## CE maths is broader and deeper than school maths at the same age — and it shows.
+## CE maths is broader and deeper than school maths at the same age: and it shows.
 
-Common Entrance maths, especially at 13+ Level 3 and scholarship, is pitched well above the national curriculum for the same age. It expects fluent technique *and* the confidence to work through long, multi-step problems that don't announce their method — the kind of question that rewards a child who can think, not just recall.
+Common Entrance maths, especially at 13+ Level 3 and scholarship, is pitched well above the national curriculum for the same age. It expects fluent technique *and* the confidence to work through long, multi-step problems that don't announce their method, the kind of question that rewards a child who can think, not just recall.
 
 A capable child who's only ever been drilled on standard questions can freeze when a CE problem winds through several steps.
 
 Prep schools prepare well, but a class can't always give each child the depth, pace or individual attention that the harder levels and scholarship papers demand.
 
-That's where one-to-one work fits. We build genuine understanding and multi-step problem-solving, target the exact level and schools your child is aiming for, and add scholarship-level stretch where it's wanted — so your child meets the paper with composure.
+That's where one-to-one work fits. We build genuine understanding and multi-step problem-solving, target the exact level and schools your child is aiming for, and add scholarship-level stretch where it's wanted, so your child meets the paper with composure.
 
 How we teach
 
@@ -26,11 +26,11 @@ Tailored to your child's CE level and target senior schools.
 
 ### Secure the technique
 
-Fluent arithmetic, fractions, ratio and algebra across calculator and non-calculator work — the foundation every CE question assumes.
+Fluent arithmetic, fractions, ratio and algebra across calculator and non-calculator work, the foundation every CE question assumes.
 
 ### Teach multi-step problem-solving
 
-How to read a long problem, plan the steps, and work through without losing the thread — the heart of the CE papers.
+How to read a long problem, plan the steps, and work through without losing the thread, the heart of the CE papers.
 
 ### Pitch to the right level
 
@@ -42,7 +42,7 @@ Past papers at the correct level, with calculator and non-calculator practice an
 
 See it for yourself
 
-## A 13+ multi-step problem — broken into clear steps.
+## A 13+ multi-step problem: broken into clear steps.
 
 Worked example · 13+ problem solving
 
@@ -52,7 +52,7 @@ Worked example · 13+ problem solving
 
 flour per person = 450 ÷ 6 = 75g → for 10 = 750gshe has 700g → needs 750 − 700 = **50g more flour**milk per person = 300 ÷ 6 = 50ml → for 10 = **500ml milk**
 
-The whole problem becomes simple once you see the move — "find one person's share, then scale" — and tackle each part in order rather than all at once. We teach children to slow down, plan the route, and label each step, so a long CE question stops being intimidating and becomes a series of small, calm calculations. That composure under a multi-step problem is exactly what Common Entrance, and a strong start at senior school, rewards.
+The whole problem becomes simple once you see the move, "find one person's share, then scale", and tackle each part in order rather than all at once. We teach children to slow down, plan the route, and label each step, so a long CE question stops being intimidating and becomes a series of small, calm calculations. That composure under a multi-step problem is exactly what Common Entrance, and a strong start at senior school, rewards.
 
 Why a coding school teaches Common Entrance maths
 
@@ -64,13 +64,13 @@ A coder maps the steps before writing a line. A CE problem-solver maps the steps
 
 ### Break into sub-problems
 
-Long questions yield to decomposition — solving "flour" and "milk" separately — just as software is built from small parts.
+Long questions yield to decomposition, solving "flour" and "milk" separately, just as software is built from small parts.
 
 ### Check each step
 
 Verifying a sub-answer before moving on catches errors early, in maths and in code alike.
 
-We're Modern Age Coders, and the structured, plan-it-out thinking we teach young programmers is precisely what the harder Common Entrance and scholarship problems reward. Children who learn this don't just pass — they arrive at senior school thinking like genuine problem-solvers.
+We're Modern Age Coders, and the structured, plan-it-out thinking we teach young programmers is precisely what the harder Common Entrance and scholarship problems reward. Children who learn this don't just pass. They arrive at senior school thinking like genuine problem-solvers.
 
 What we cover
 
@@ -80,11 +80,11 @@ Across the CE levels, calculator and non-calculator, tailored to your target sch
 
 ### Number & calculation
 
-Fluent four operations, fractions, decimals, percentages, factors and primes — fast and accurate, with and without a calculator.
+Fluent four operations, fractions, decimals, percentages, factors and primes, fast and accurate, with and without a calculator.
 
 ### Ratio, proportion & rates
 
-Sharing, scaling and recipe-style problems — a CE favourite — taught with a clear, reliable method.
+Sharing, scaling and recipe-style problems, a CE favourite, taught with a clear, reliable method.
 
 ### Algebra
 
@@ -104,11 +104,11 @@ Multi-step problems, scholarship-style questions, and the calculator/non-calcula
 
 Who this is for
 
-## The right fit — and an honest word on what to expect.
+## The right fit: and an honest word on what to expect.
 
 **This fits** the prep-school child preparing for 13+ or 11+ Common Entrance, the child aiming at a competitive senior school or a maths scholarship, and the able child who needs depth and multi-step problem-solving rather than more routine practice. We tailor to your child's level and target schools.
 
-**What's realistic.** Genuine depth — the kind that performs on the day and beyond — builds over months of steady, calm work. Independent entry is competitive, so we never guarantee a place or award; we promise genuinely strong maths and a composed, capable problem-solver.
+**What's realistic.** Genuine depth, the kind that performs on the day and beyond, builds over months of steady, calm work. Independent entry is competitive, so we never guarantee a place or award; we promise genuinely strong maths and a composed, capable problem-solver.
 
 ### What we won't do
 
@@ -167,7 +167,7 @@ Who teaches your child
 
 ## Tutors who know the standard and keep it calm.
 
-Common Entrance, especially at scholarship level, demands a tutor who genuinely understands the depth expected — and who can stretch a bright child without piling on pressure. Ours combine real mathematical strength with warmth for this age group, building ambition and composure together.
+Common Entrance, especially at scholarship level, demands a tutor who genuinely understands the depth expected, and who can stretch a bright child without piling on pressure. Ours combine real mathematical strength with warmth for this age group, building ambition and composure together.
 
 The same tutor stays to the exam, knows your target schools and required level, and aims each lesson at exactly the problem types your child still finds hard.
 
@@ -189,7 +189,7 @@ An honest comparison
 | Same tutor to the exam | Yes | N/A | Often |
 | Monthly price | £15–35 | £35–60/hr |
 
-Past-paper packs are useful practice and we use them — but only on top of the depth and problem-solving the harder CE and scholarship papers actually test.
+Past-paper packs are useful practice and we use them, but only on top of the depth and problem-solving the harder CE and scholarship papers actually test.
 
 Questions parents ask
 
@@ -201,7 +201,7 @@ The ISEB exam many independent senior schools use for entry at 11+ or 13+. The 1
 
 Do you cover 13+ and 11+ Common Entrance?
 
-Yes, both — tailored to your child's exam and target senior schools.
+Yes, both, tailored to your child's exam and target senior schools.
 
 Which CE level should my child sit?
 
@@ -209,19 +209,19 @@ Usually guided by the prep and target school. We can assess and advise, and prep
 
 Can you prepare for maths scholarships?
 
-Yes — by building genuine problem-solving depth, not just drilling past papers.
+Yes, by building genuine problem-solving depth, not just drilling past papers.
 
 How much does it cost?
 
-USD 150 per month for private 1:1 — eight live lessons, two each week. Small-group option USD 100 per month. No contract; cancel any time.
+USD 150 per month for private 1:1, eight live lessons, two each week. Small-group option USD 100 per month. No contract; cancel any time.
 
 Is there a free trial?
 
-Yes — the first lesson is free, no card needed.
+Yes, the first lesson is free, no card needed.
 
 Will my child keep the same tutor?
 
-Yes — one tutor to the exam who knows your target schools.
+Yes, one tutor to the exam who knows your target schools.
 
 How does this fit with my child's prep school?
 
@@ -229,7 +229,7 @@ We complement the school, focusing 1:1 on the hardest areas and adding depth or 
 
 Are lessons live?
 
-Yes — live, one-to-one, with a shared whiteboard, ideal for multi-step problems.
+Yes, live, one-to-one, with a shared whiteboard, ideal for multi-step problems.
 
 When should we start?
 
@@ -237,7 +237,7 @@ A year or more before the exam allows calm, thorough preparation, especially for
 
 Does this strengthen general school maths too?
 
-Yes — CE maths is broad and demanding, so preparing for it genuinely strengthens overall maths.
+Yes: CE maths is broad and demanding, so preparing for it genuinely strengthens overall maths.
 
 What time slots are available?
 
@@ -259,7 +259,7 @@ Real student projects
 
 Every one is a real, live project shipped by a Modern Age Coders student. Explore more in [Student Labs](/student-labs).
 
-[![The Beautiful Mind](/images/projects/mindgame.webp)GameThe Beautiful MindA scientifically designed focus and brain-strength game with 15 progressive levels — testing attention, control and mental endurance with real-time progress tracking and leaderboards.by Modern Age CodersOpen the live project ↗](https://mind.modernagecoders.com)[![Misti — AI Chatbot for Maths & Coding](/images/projects/misti.webp)AI & MLMisti — AI Chatbot for Maths & CodingAn intelligent AI-powered chatbot that helps students solve maths and coding questions with deep, step-by-step explanations using advanced Python AI frameworks and LLM APIs.by HarshitOpen the live project ↗](https://misti.modernagecoders.com)[![Babu — 90 Second Maths Challenge](/images/projects/babu.webp)GameBabu — 90 Second Maths ChallengeAn exciting 90-second maths challenge with random problems under time pressure, and a dynamic leaderboard powered by Firebase/MongoDB with real-time score updates.by Modern Age CodersOpen the live project ↗](https://babu.modernagecoders.com)
+[![The Beautiful Mind](/images/projects/mindgame.webp)GameThe Beautiful MindA scientifically designed focus and brain-strength game with 15 progressive levels, testing attention, control and mental endurance with real-time progress tracking and leaderboards.by Modern Age CodersOpen the live project ↗](https://mind.modernagecoders.com)[![Misti, AI Chatbot for Maths & Coding](/images/projects/misti.webp)AI & MLMisti, AI Chatbot for Maths & CodingAn intelligent AI-powered chatbot that helps students solve maths and coding questions with deep, step-by-step explanations using advanced Python AI frameworks and LLM APIs.by HarshitOpen the live project ↗](https://misti.modernagecoders.com)[![Babu, 90 Second Maths Challenge](/images/projects/babu.webp)GameBabu, 90 Second Maths ChallengeAn exciting 90-second maths challenge with random problems under time pressure, and a dynamic leaderboard powered by Firebase/MongoDB with real-time score updates.by Modern Age CodersOpen the live project ↗](https://babu.modernagecoders.com)
 
 ---
 

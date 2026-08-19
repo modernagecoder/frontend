@@ -1,22 +1,22 @@
 ---
 title: "Computer Vision Course | Learn Image AI & CNNs in Python"
-description: "Computer vision course — learn how AI sees. Image classification, convolutional neural networks (CNNs), object detection and OpenCV in Python. Build vision models hands-on. Live, small batches. Free demo."
+description: "Computer vision course. Learn how AI sees. Image classification, convolutional neural networks (CNNs), object detection and OpenCV in Python. Build vision models hands-on. Live, small batches. Free demo."
 canonical: https://learn.modernagecoders.com/computer-vision-course
 source: src/pages/computer-vision-course.html
 ---
-> Computer vision course — learn how AI sees. Image classification, convolutional neural networks (CNNs), object detection and OpenCV in Python. Build vision models hands-on. Live, small batches. Free demo.
+> Computer vision course. Learn how AI sees. Image classification, convolutional neural networks (CNNs), object detection and OpenCV in Python. Build vision models hands-on. Live, small batches. Free demo.
 
 Computer Vision • **AI that sees**
 
 # Computer Vision Course
 
-Give machines sight. Learn how images become data, how convolutional neural networks classify them, and how object detection finds things in a scene — using Python and OpenCV. Build real computer-vision models, hands-on and live with a mentor.
+Give machines sight. Learn how images become data, how convolutional neural networks classify them, and how object detection finds things in a scene, using Python and OpenCV. Build real computer-vision models, hands-on and live with a mentor.
 
 Book a Free DemoSee the Roadmap**CNN**How AI sees**5–8**Students per batch**OpenCV**Hands-on vision**Live**Mentor-led
 
 ## Quick answer
 
-**Modern Age Coders' Computer Vision Course teaches you to build AI that sees, in Python.** You'll learn how images become data, use OpenCV, build convolutional neural networks (CNNs) for image classification, and explore object detection with pretrained models — all hands-on with real images. Classes are live in small batches of 5–8 with a mentor, group plans start at ₹1,499/month, and a free demo comes first.
+**Modern Age Coders' Computer Vision Course teaches you to build AI that sees, in Python.** You'll learn how images become data, use OpenCV, build convolutional neural networks (CNNs) for image classification, and explore object detection with pretrained models, all hands-on with real images. Classes are live in small batches of 5–8 with a mentor, group plans start at ₹1,499/month, and a free demo comes first.
 
 Start Today
 
@@ -32,7 +32,7 @@ What You'll Learn
 
 ## Teach Machines to See
 
-From pixels to predictions — build real vision models step by step.
+From pixels to predictions, build real vision models step by step.
 
 ### Images as Data & OpenCV
 
@@ -40,7 +40,7 @@ How images are represented as numbers and how to load, transform and work with t
 
 ### CNNs
 
-Convolutional neural networks — the architecture that powers image recognition — built and trained to classify images.
+Convolutional neural networks, the architecture that powers image recognition, built and trained to classify images.
 
 ### Object Detection
 
@@ -88,11 +88,11 @@ Why This Course
 
 ## Why Computer Vision Is Everywhere
 
-Face unlock, medical scans, self-driving cars, quality inspection, AR filters — **computer vision is one of AI's most visible and valuable fields**. Learning it opens doors across industries, and it's genuinely fun to watch a model recognise what it sees.
+Face unlock, medical scans, self-driving cars, quality inspection, AR filters, **computer vision is one of AI's most visible and valuable fields**. Learning it opens doors across industries, and it's genuinely fun to watch a model recognise what it sees.
 
 ### CNNs demystified
 
-Convolutions sound intimidating but the idea — detecting simple features then combining them — is intuitive. We build that intuition, then you train CNNs on real images and watch them learn.
+Convolutions sound intimidating but the idea, detecting simple features then combining them, is intuitive. We build that intuition, then you train CNNs on real images and watch them learn.
 
 ### Built on neural network foundations
 
@@ -167,7 +167,7 @@ Good To Know
 
 What does the Computer Vision Course cover?+
 
-It covers Images as Data & OpenCV, CNNs, Object Detection. Give machines sight. Learn how images become data, how convolutional neural networks classify them, and how object detection finds things in a scene — using Python and OpenCV. Build real computer-vision models, hands-on and live with a mentor.
+It covers Images as Data & OpenCV, CNNs, Object Detection. Give machines sight. Learn how images become data, how convolutional neural networks classify them, and how object detection finds things in a scene, using Python and OpenCV. Build real computer-vision models, hands-on and live with a mentor.
 
 Who is this course for?+
 
@@ -175,11 +175,11 @@ It's designed for college students, working professionals and serious teens who 
 
 Do I need prior experience to join?+
 
-No heavy prerequisites — we start from the right point for you and build up. Some Python helps for the more advanced topics, and if you're new we cover what you need. The free demo lets us assess your level first.
+No heavy prerequisites. We start from the right point for you and build up. Some Python helps for the more advanced topics, and if you're new we cover what you need. The free demo lets us assess your level first.
 
 Will I work on real, hands-on projects?+
 
-Yes. Every topic is hands-on in Python/Colab and you build real, mentor-reviewed work — not just theory — so you finish with practical skill and something to show.
+Yes. Every topic is hands-on in Python/Colab and you build real, mentor-reviewed work, not just theory, so you finish with practical skill and something to show.
 
 How much does the course cost?+
 

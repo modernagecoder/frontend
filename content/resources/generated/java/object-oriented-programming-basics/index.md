@@ -15,7 +15,7 @@ keywords: ["java classes and objects", "java constructor", "java OOP basics", "t
 
 ## What Is Object-Oriented Programming (OOP)?
 
-**Object-Oriented Programming** is a programming paradigm that organizes code around **objects** rather than functions and procedures. An object is a self-contained entity that combines data (fields/attributes) and behavior (methods) into a single unit. In Java, everything revolves around classes and objects — Java is one of the most purely object-oriented languages in widespread use.
+**Object-Oriented Programming** is a programming paradigm that organizes code around **objects** rather than functions and procedures. An object is a self-contained entity that combines data (fields/attributes) and behavior (methods) into a single unit. In Java, everything revolves around classes and objects: Java is one of the most purely object-oriented languages in widespread use.
 
 OOP is built on **four pillars**:
 
@@ -37,7 +37,7 @@ Analogy: A class is like an architectural blueprint for a house. An object is an
 
 ## Why Are Classes, Objects, and Constructors Important?
 
-Understanding classes and objects is not optional in Java — it is the language itself. Every line of Java code you write exists inside a class. Every data structure, every library, every framework is built with classes and objects.
+Understanding classes and objects is not optional in Java. It is the language itself. Every line of Java code you write exists inside a class. Every data structure, every library, every framework is built with classes and objects.
 
 ### 1. Java Is Object-Oriented by Design
 
@@ -286,7 +286,7 @@ Priya (Roll: 102) - Marks: 88.0
 Aarav and Priya are different objects
 ```
 
-### Constructors — Default, Parameterized, and Copy
+### Constructors: Default, Parameterized, and Copy
 
 ```java
 class Book {
@@ -366,13 +366,13 @@ class Employee {
         System.out.println("Full constructor called");
     }
 
-    // Constructor with name only — chains to full constructor
+    // Constructor with name only, chains to full constructor
     Employee(String name) {
         this(name, "General", 30000.0);
         System.out.println("Name-only constructor called");
     }
 
-    // Default constructor — chains to name-only constructor
+    // Default constructor, chains to name-only constructor
     Employee() {
         this("New Employee");
         System.out.println("Default constructor called");
@@ -412,14 +412,14 @@ Full constructor called
 Kavitha | Engineering | Rs.75000.0
 ```
 
-### The this Keyword — All Uses
+### The this Keyword: All Uses
 
 ```java
 class Counter {
     int value;
 
     Counter(int value) {
-        this.value = value; // this.variable — distinguishes field from parameter
+        this.value = value; // this.variable, distinguishes field from parameter
     }
 
     // Method returns this for chaining
@@ -480,7 +480,7 @@ class Student {
         System.out.println(name + " (Total students: " + count + ")");
     }
 
-    // Static method — does not need an object
+    // Static method, does not need an object
     static int getCount() {
         // Cannot use 'this' or access 'name' here
         return count;
@@ -502,7 +502,7 @@ public class Main {
 }
 ```
 
-The static variable `count` is shared across all Student objects — there is only one copy regardless of how many objects exist. The static block runs once when the class is first loaded. The static method `getCount()` can be called using the class name without any object. It cannot access `this` or instance variables like `name`.
+The static variable `count` is shared across all Student objects. There is only one copy regardless of how many objects exist. The static block runs once when the class is first loaded. The static method `getCount()` can be called using the class name without any object. It cannot access `this` or instance variables like `name`.
 
 **Output:**
 
@@ -520,12 +520,12 @@ Total: 3
 class Demo {
     String name;
 
-    // Static block — runs once when class loads
+    // Static block, runs once when class loads
     static {
         System.out.println("1. Static block");
     }
 
-    // Instance initializer block — runs for every object
+    // Instance initializer block, runs for every object
     {
         System.out.println("2. Instance initializer block");
     }
@@ -634,13 +634,13 @@ No compilation error, but Student(String name) is treated as a regular method na
 class Student {
     String name;
 
-    Student(String name) { // No return type — this IS a constructor
+    Student(String name) { // No return type. This IS a constructor
         this.name = name;
     }
 }
 ```
 
-Constructors must NOT have a return type — not even `void`. If you add `void` before the class name, Java treats it as a regular method that happens to have the same name as the class. The actual constructor (the compiler-generated default) initializes `name` to null.
+Constructors must NOT have a return type, not even `void`. If you add `void` before the class name, Java treats it as a regular method that happens to have the same name as the class. The actual constructor (the compiler-generated default) initializes `name` to null.
 
 ### Forgetting this When Parameter Names Shadow Fields
 
@@ -652,7 +652,7 @@ class Student {
     int rollNo;
 
     Student(String name, int rollNo) {
-        name = name;       // Assigns parameter to itself — field is still null!
+        name = name;       // Assigns parameter to itself, field is still null!
         rollNo = rollNo;   // Same problem
     }
 }
@@ -805,7 +805,7 @@ When using `this()` to chain constructors, it must be the very first statement i
 - Static variables are shared among all objects of a class (one copy per class). Static methods belong to the class and can be called without an object. Static methods cannot access instance variables or use this.
 - Execution order: static blocks (once, when class loads) -> instance initializer blocks (every object creation) -> constructor body.
 - Override toString() to provide a meaningful string representation of your objects. It is called automatically by println() and string concatenation.
-- A copy constructor takes another object of the same class and duplicates its values. Java does not provide one automatically — you must write it yourself.
+- A copy constructor takes another object of the same class and duplicates its values. Java does not provide one automatically. You must write it yourself.
 - Every class in Java implicitly extends the Object class, inheriting methods like toString(), equals(), and hashCode().
 
 ## Related Topics

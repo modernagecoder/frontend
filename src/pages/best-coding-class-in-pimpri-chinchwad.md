@@ -10,7 +10,7 @@ Live online · serving Pimpri Chinchwad
 
 # Coding classes in Pimpri Chinchwad, built to actually stick.
 
-Real programming for kids, teens and college students in Pimpri Chinchwad — from **Pimpri to Chinchwad, Akurdi to Nigdi / Pradhikaran**. Small live batches, a mentor who knows your child's name, and projects they can open and show you.
+Real programming for kids, teens and college students in Pimpri Chinchwad, from **Pimpri to Chinchwad, Akurdi to Nigdi / Pradhikaran**. Small live batches, a mentor who knows your child's name, and projects they can open and show you.
 
 Book a free demo class[Ask on WhatsApp](https://wa.me/919123366161?text=Hi,%20I'm%20interested%20in%20coding%20classes%20in%20Pimpri%20Chinchwad)★★★★★ **4.9/5****10,000+** students across India**5–8** students per batchFirst class is **free**Pimpri ChinchwadEnrollingAreasPimpri, Chinchwad, Akurdi, Nigdi / Pradhikaran, Wakad / Tathawade & all of Pimpri ChinchwadBoardsMaharashtra SSC/HSC · CBSE · ICSE · IGCSEAges**6–12** kids · **13–18** teens · college & adultsFormatLive online · 1-hour classes · 5–8 per batchTimingAfter-school & weekend slots · ISTProofRecorded sessions · completion certificate · real projectslive online across Pimpri ChinchwadFREE DEMO OPEN
 
@@ -20,13 +20,13 @@ Book a free demo class[Ask on WhatsApp](https://wa.me/919123366161?text=Hi,%20I'
 
 ## Where in Pimpri Chinchwad we teach
 
-Every class is live online, so your child learns from home — no travel across the city, same small batch either way.
+Every class is live online, so your child learns from home, no travel across the city, same small batch either way.
 
 PimpriChinchwadAkurdiNigdi / PradhikaranWakad / TathawadeRavet / Punawale / KiwalePimple Saudagar / Pimple GuravBhosari / MIDCMoshi / Chikhali / TalawadeSangvi / DapodiNear Hinjewadi**Also teaching families near Pimpri Chinchwad**[Akola](/best-coding-class-in-akola) · [Amravati](/best-coding-class-in-amravati) · [Aurangabad](/best-coding-class-in-aurangabad) · [Kolhapur](/best-coding-class-in-kolhapur) · [Latur](/best-coding-class-in-latur) · [Mumbai](/best-coding-class-in-mumbai) · [every city in Maharashtra →](/coding-classes-in-maharashtra)
 
 ## Why Pimpri Chinchwad families start here
 
-From Pimpri and Chinchwad to Akurdi and Nigdi / Pradhikaran, families across Pimpri Chinchwad are choosing live online coding classes that go beyond a certificate. We build for real skills — the kind that hold up in an interview or a first internship.
+From Pimpri and Chinchwad to Akurdi and Nigdi / Pradhikaran, families across Pimpri Chinchwad are choosing live online coding classes that go beyond a certificate. We build for real skills, the kind that hold up in an interview or a first internship.
 
 Pimpri-Chinchwad is a twin city with its own municipal corporation, distinct from Pune, and its official portal calls it a prominent industrial region of Maharashtra. That industry has a specific origin: development began in 1954 with Hindustan Antibiotics, described as India's first pharmaceutical company, and grew into an automobile hub home to Tata Motors, Bajaj Auto and Force Motors. Pimpri Chinchwad College of Engineering has run in Nigdi since 1999, affiliated to Savitribai Phule Pune University. Schools follow the Maharashtra state board, and engineering admission is MHT-CET through the state's centralised process.
 
@@ -36,29 +36,29 @@ Ages 8–12
 
 ## Coding for kids in Pimpri Chinchwad
 
-Most popular![Kids coding with Scratch — best coding class for kids in Pimpri-Chinchwad](/images/kids-coding.webp)
+Most popular![Kids coding with Scratch, best coding class for kids in Pimpri-Chinchwad](/images/kids-coding.webp)
 
 ### Kids Coding with Scratch
 
-Where a PCMC child should begin. Kids snap colourful blocks together to make real games, animations and interactive stories — all logic, no typing to slow them down. Zero experience required.
+Where a PCMC child should begin. Kids snap colourful blocks together to make real games, animations and interactive stories, all logic, no typing to slow them down. Zero experience required.
 
 - Game development basics
 - Animation & interactive stories
 - Logic building & problem solving
 - 10+ projects to show off
 
-[View course](/courses/kids-coding-blocks-masterclass)Creative![Web design for kids — HTML CSS course in Pimpri-Chinchwad](/images/html-css-kids.webp)
+[View course](/courses/kids-coding-blocks-masterclass)Creative![Web design for kids: HTML CSS course in Pimpri-Chinchwad](/images/html-css-kids.webp)
 
 ### Web Design for Kids
 
-A child builds their first bright little website in HTML & CSS and shares the live link with the whole family. The moment "I just watch stuff online" becomes "look what I built" — a real confidence jump.
+A child builds their first bright little website in HTML & CSS and shares the live link with the whole family. The moment "I just watch stuff online" becomes "look what I built", a real confidence jump.
 
 - HTML basics & structure
 - CSS styling & colours
 - Fun, real web projects
 - A personal portfolio page
 
-[View course](/courses/kids-ai-web-development-course)Next step![Python for kids — programming course in Pimpri-Chinchwad](/images/python-kids.webp)
+[View course](/courses/kids-ai-web-development-course)Next step![Python for kids, programming course in Pimpri-Chinchwad](/images/python-kids.webp)
 
 ### Python for Young Coders
 
@@ -73,18 +73,18 @@ The leap from blocks to real typed code, in the language the Hinjewadi IT firms 
 
 ## Coding for teens in Pimpri Chinchwad
 
-In demand![Python programming for teens — best coding institute in Pimpri-Chinchwad](/images/python-teens.webp)
+In demand![Python programming for teens, best coding institute in Pimpri-Chinchwad](/images/python-teens.webp)
 
 ### Python Programming
 
-The language every recruiter wants — and the one humming across the Hinjewadi corridor next door. A natural first choice for teens, taking them from their opening script to genuine projects without a wasted step.
+The language every recruiter wants, and the one humming across the Hinjewadi corridor next door. A natural first choice for teens, taking them from their opening script to genuine projects without a wasted step.
 
 - Python fundamentals & OOP
 - Data structures & algorithms
 - Automation & scripting
 - Real-world projects
 
-[View course](/courses/python-complete-masterclass-teens)Career![Java programming for teens — best coding class in Pimpri-Chinchwad](/images/java-teens.webp)
+[View course](/courses/python-complete-masterclass-teens)Career![Java programming for teens, best coding class in Pimpri-Chinchwad](/images/java-teens.webp)
 
 ### Java Programming
 
@@ -95,18 +95,18 @@ Java underpins ICSE/CBSE Computer Science and the enterprise stacks at the Hinje
 - Intro to Android app building
 - Board-aligned practice
 
-[View course](/courses/java-programming-masterclass-for-teens)Build![Web development for teens — programming classes in Pimpri-Chinchwad](/images/web-dev-teens.webp)
+[View course](/courses/java-programming-masterclass-for-teens)Build![Web development for teens, programming classes in Pimpri-Chinchwad](/images/web-dev-teens.webp)
 
 ### Full-Stack Web Development
 
-Take a website from a blank file to a live, deployed product using HTML, CSS, JavaScript and React — precisely what the start-ups and product teams around Wakad and Hinjewadi are hiring for.
+Take a website from a blank file to a live, deployed product using HTML, CSS, JavaScript and React, precisely what the start-ups and product teams around Wakad and Hinjewadi are hiring for.
 
 - HTML, CSS, JavaScript
 - React framework
 - Backend with Node.js
 - Live portfolio projects
 
-[View course](/courses/web-development-masterclass-teens)Future![AI and machine learning for teens — coding course in Pimpri-Chinchwad](/images/ai-ml-teens.webp)
+[View course](/courses/web-development-masterclass-teens)Future![AI and machine learning for teens, coding course in Pimpri-Chinchwad](/images/ai-ml-teens.webp)
 
 ### AI & Machine Learning
 
@@ -121,7 +121,7 @@ With the Hinjewadi corridor turning into a serious AI and data hub, machine lear
 
 ## For Pimpri Chinchwad college students
 
-Placements![Data structures and algorithms course — Pimpri-Chinchwad placements](/images/python-teens.webp)
+Placements![Data structures and algorithms course: Pimpri-Chinchwad placements](/images/python-teens.webp)
 
 ### Data Structures & Algorithms
 
@@ -132,7 +132,7 @@ The bedrock every PCMC and Pune campus placement is decided on. Work through 200
 - 200+ LeetCode-style problems
 - Mock interviews & CP
 
-[View course](/courses/coding/college)Internships![Full stack web development course — Pimpri-Chinchwad](/images/web-dev-teens.webp)
+[View course](/courses/coding/college)Internships![Full stack web development course: Pimpri-Chinchwad](/images/web-dev-teens.webp)
 
 ### Full-Stack Web Development
 
@@ -143,11 +143,11 @@ Build and deploy full applications on the MERN stack, complete with Git workflow
 - Git, CI/CD & cloud deploy
 - Capstone portfolio project
 
-[View course](/courses/coding/college)Data![AI and data science course — Pimpri-Chinchwad](/images/ai-ml-teens.webp)
+[View course](/courses/coding/college)Data![AI and data science course: Pimpri-Chinchwad](/images/ai-ml-teens.webp)
 
 ### AI & Data Science
 
-Python, machine learning and real data analysis — built for the analytics and AI roles multiplying across Hinjewadi, Pune's GCCs and the data teams inside PCMC's manufacturing giants. Includes Kaggle-style projects.
+Python, machine learning and real data analysis, built for the analytics and AI roles multiplying across Hinjewadi, Pune's GCCs and the data teams inside PCMC's manufacturing giants. Includes Kaggle-style projects.
 
 - Python for data science & ML
 - Pandas, NumPy & visualisation
@@ -158,23 +158,23 @@ Python, machine learning and real data analysis — built for the analytics and 
 
 ## Mathematics classes in Pimpri Chinchwad
 
-![Elementary mathematics — maths classes in Pimpri-Chinchwad](/images/elementary-maths.webp)
+![Elementary mathematics, maths classes in Pimpri-Chinchwad](/images/elementary-maths.webp)
 
 ### Elementary Mathematics
 
-Rock-solid foundations in numbers, operations, fractions, geometry and word problems for grades 1–5 — aligned to the SSC, CBSE & ICSE schools across Pimpri-Chinchwad.
+Rock-solid foundations in numbers, operations, fractions, geometry and word problems for grades 1–5, aligned to the SSC, CBSE & ICSE schools across Pimpri-Chinchwad.
 
-[View course](/courses/elementary-mathematics-complete-masterclass)![High school mathematics — maths tuition in Pimpri-Chinchwad](/images/high-school-maths.webp)
+[View course](/courses/elementary-mathematics-complete-masterclass)![High school mathematics, maths tuition in Pimpri-Chinchwad](/images/high-school-maths.webp)
 
 ### High School Mathematics
 
-Algebra, geometry, trigonometry, pre-calculus and calculus for grades 9–12 — board-aligned and built to give PCMC's MHT-CET and JEE aspirants a genuine head start.
+Algebra, geometry, trigonometry, pre-calculus and calculus for grades 9–12, board-aligned and built to give PCMC's MHT-CET and JEE aspirants a genuine head start.
 
-[View course](/courses/complete-high-school-mathematics-mastery)Olympiad![Olympiad mathematics — competition prep in Pimpri-Chinchwad](/images/olympiad-competition-maths.webp)
+[View course](/courses/complete-high-school-mathematics-mastery)Olympiad![Olympiad mathematics, competition prep in Pimpri-Chinchwad](/images/olympiad-competition-maths.webp)
 
 ### Olympiad & Competition Math
 
-Advanced problem-solving for IMO, PRMO, RMO and NTSE — for PCMC's sharpest young mathematicians who want to push well beyond the school syllabus.
+Advanced problem-solving for IMO, PRMO, RMO and NTSE, for PCMC's sharpest young mathematicians who want to push well beyond the school syllabus.
 
 - 2 live classes per week
 - Small batch (5–8 students)
@@ -191,7 +191,7 @@ Live
 
 ### A real mentor, live
 
-Every class is taught live by an instructor with industry experience — questions get answered the moment they come up.
+Every class is taught live by an instructor with industry experience, questions get answered the moment they come up.
 
 Small
 
@@ -203,7 +203,7 @@ Build
 
 ### Project every module
 
-Kids don't just watch — they build games, websites and apps they can open, use and show you.
+Kids don't just watch. They build games, websites and apps they can open, use and show you.
 
 Track
 
@@ -213,7 +213,7 @@ Missed a class? Watch the recording. Every learner earns a completion certificat
 
 ## Simple, honest pricing
 
-1-hour live classes: 2 a week in Group and Mini Batch, 1 a week in 1-on-1. Start with a free demo — pay only when you're sure it's right for your child.
+1-hour live classes: 2 a week in Group and Mini Batch, 1 a week in 1-on-1. Start with a free demo, pay only when you're sure it's right for your child.
 
 Group₹1,499/month
 
@@ -244,23 +244,23 @@ Book a free demoPersonal 1-on-1₹4,999/month
 
 Start free
 
-International families pay flat USD rates — the prices above update automatically. Ask us anything on your free demo.
+International families pay flat USD rates, the prices above update automatically. Ask us anything on your free demo.
 
 ## What students actually build
 
-Not screenshots of a syllabus — real, live projects from Modern Age Coders learners and labs. Click through and use them.
+Not screenshots of a syllabus, real, live projects from Modern Age Coders learners and labs. Click through and use them.
 
-[![The Beautiful Mind](/images/projects/mindgame.webp) GameThe Beautiful MindA scientifically designed focus and brain-strength game with 15 progressive levels — testing attention, control and mental endurance with real-time progress tracking and leaderboards. Built by Modern Age Coders · React, FirebaseOpen the live project ↗](https://mind.modernagecoders.com)[![Babu — 90 Second Maths Challenge](/images/projects/babu.webp) GameBabu — 90 Second Maths ChallengeAn exciting 90-second maths challenge with random problems under time pressure, and a dynamic leaderboard powered by Firebase/MongoDB with real-time score updates. Built by Modern Age Coders · JavaScript, FirebaseOpen the live project ↗](https://babu.modernagecoders.com)[![LumenFX — AR/VR Photo Effects Studio](/images/projects/lumenfx.webp) Web AppLumenFX — AR/VR Photo Effects StudioUpload a photo and transform it with cinematic filters, AR face effects and the wildest trending edits — the same looks blowing up on TikTok, Reels and Snap, with 240+ one-tap presets. Raayan vibe-coded the whole studio from an idea: prompted the concept, then built the effects engine and gallery UI by hand. Built by Raayan · Vibe Coding, AR / VROpen the live project ↗](https://arvrbadestweb.lovable.app)[See more student projects →](/student-labs)
+[![The Beautiful Mind](/images/projects/mindgame.webp) GameThe Beautiful MindA scientifically designed focus and brain-strength game with 15 progressive levels, testing attention, control and mental endurance with real-time progress tracking and leaderboards. Built by Modern Age Coders · React, FirebaseOpen the live project ↗](https://mind.modernagecoders.com)[![Babu, 90 Second Maths Challenge](/images/projects/babu.webp) GameBabu, 90 Second Maths ChallengeAn exciting 90-second maths challenge with random problems under time pressure, and a dynamic leaderboard powered by Firebase/MongoDB with real-time score updates. Built by Modern Age Coders · JavaScript, FirebaseOpen the live project ↗](https://babu.modernagecoders.com)[![LumenFX, AR/VR Photo Effects Studio](/images/projects/lumenfx.webp) Web AppLumenFX, AR/VR Photo Effects StudioUpload a photo and transform it with cinematic filters, AR face effects and the wildest trending edits, the same looks blowing up on TikTok, Reels and Snap, with 240+ one-tap presets. Raayan vibe-coded the whole studio from an idea: prompted the concept, then built the effects engine and gallery UI by hand. Built by Raayan · Vibe Coding, AR / VROpen the live project ↗](https://arvrbadestweb.lovable.app)[See more student projects →](/student-labs)
 
 ## What families say
 
-Verified Google reviews from Modern Age Coders families across India. We don't invent testimonials — these are real people, real words.
+Verified Google reviews from Modern Age Coders families across India. We don't invent testimonials, these are real people, real words.
 
 ★★★★★
 
 "My son has been attending this coding class for the past couple of months, and I've been genuinely impressed with both his progress and enthusiasm."
 
-The instructors are incredibly patient and knowledgeable. What stands out most is how excited my son is before every class—he looks forward to learning, problem-solving, and sharing what he's built. I've noticed a big boost in his confidence!
+The instructors are incredibly patient and knowledgeable. What stands out most is how excited my son is before every class. He looks forward to learning, problem-solving, and sharing what he's built. I've noticed a big boost in his confidence!
 
 PRPoonam RathoreParent★★★★★
 
@@ -298,7 +298,7 @@ SGSonu GoyalParent
 
 Tell us a little about your child and what they'd like to learn. We'll set up a free, no-pressure demo and help you pick the right starting point.
 
-- A real live class — not a sales call
+- A real live class, not a sales call
 - Meet the mentor before you decide
 - We reply within 48 hours (IST)
 
@@ -308,9 +308,9 @@ Prefer to talk now? Call [9123366161](tel:+919123366161) or [WhatsApp us](https:
 
 Takes under a minute.
 
-## Coding classes in Pimpri Chinchwad — FAQs
+## Coding classes in Pimpri Chinchwad: FAQs
 
-Which is the best coding class in Pimpri-Chinchwad for kids?Modern Age Coders runs PCMC's top-rated live online coding classes for kids aged 6-12. Children begin with Scratch (games, animation, logic) and progress to Python, in small batches of 5-8, taught by industry instructors. We cover the whole twin-city belt — Pimpri, Chinchwad, Akurdi, Nigdi, Pradhikaran, Wakad, Ravet, Bhosari and Pimple Saudagar, right up to the Hinjewadi corridor.Are the classes online or offline, and do you cover Wakad, Ravet and the Hinjewadi side?All classes are live and online, so we reach every part of Pimpri-Chinchwad equally — Pimpri, Chinchwad, Akurdi, Nigdi, Pradhikaran, Wakad, Ravet, Tathawade, Bhosari MIDC and Pimple Saudagar, plus families working in the Hinjewadi IT park. Your child joins the same expert teacher from home, with no traffic on the Mumbai-Pune highway or the daily Hinjewadi jam. Every session is two-way and hands-on: the teacher and your child write code together on a shared screen, and a recording is saved afterwards for revision.How much do coding classes cost in Pimpri-Chinchwad?Group classes (5-8 students) start at Rs.1499/month for 2 live classes a week. Mini Batch (3-4 students) is Rs.2,999/month, and personalised 1-on-1 mentoring is Rs.4,999/month. Every new student gets a free demo class first, and there are no hidden charges.Will coding help with MHT-CET, JEE and the SSC/CBSE board exams?Yes. Maharashtra students sit MHT-CET and JEE, and coding builds the very logical reasoning, decomposition and problem-solving those exams reward. It also supports SSC, CBSE and ICSE Computer Science, Informatics Practices and the new NEP-2020 AI modules. Our Python and Java tracks line up with what is taught at schools like Vibgyor, City Pride, Pawar Public, Sanskriti, DAV and St Ursula.What's the best age to start coding?Age 8 is ideal to begin with visual, block-based coding (Scratch). For text-based languages like Python and Java, 12-13 onwards works best. We run separate tracks for kids (6-12), teens (13-18) and college or working learners (18+), so the starting point always matches the child.What equipment does my child need?Just a laptop or desktop and a stable internet connection — both common in PCMC households. A computer (rather than a tablet) is best for hands-on practice. Minimum: Windows 10 / macOS, 4GB RAM, broadband. All the software we use is free, and our team helps with setup before the first class.Do you prepare Pimpri-Chinchwad college students for placements?Yes. Our college track is placement-focused: 200+ DSA problems, mock interviews, a MERN full-stack build and an AI/Data-Science portfolio. It is designed for students from PCCOE, D Y Patil Akurdi, JSPM and PCET who are targeting the IT companies in Hinjewadi (Infosys, Wipro, TCS, Cognizant) as well as engineering roles at PCMC's automotive giants like Tata Motors and Bajaj Auto.What are the class timings? Do you have weekend batches?Weekday batches run 4 PM-8 PM (after school) and weekend batches 9 AM-6 PM (Sat & Sun). PCMC kids juggle school, classes and activities, so we work around your schedule. Classes are an hour long, twice a week.Do you teach coding to Maharashtra board students in Pimpri-Chinchwad?Yes. Pimpri-Chinchwad schools run the Maharashtra state board, along with CBSE and ICSE, and our classes fit around any of them. We teach the programming itself, Python or Java, so the school computer paper stops being something your child only reads about.Can Pimpri Chinchwad College of Engineering students join your programming courses?Yes. PCCOE has run in Nigdi since 1999 under Savitribai Phule Pune University, so the fundamentals are well covered. In a city built on manufacturing, what recruiters look at is built work, and that is the college track: real Python, Java, full-stack or AI/ML, carried to something that runs.
+Which is the best coding class in Pimpri-Chinchwad for kids?Modern Age Coders runs PCMC's top-rated live online coding classes for kids aged 6-12. Children begin with Scratch (games, animation, logic) and progress to Python, in small batches of 5-8, taught by industry instructors. We cover the whole twin-city belt: Pimpri, Chinchwad, Akurdi, Nigdi, Pradhikaran, Wakad, Ravet, Bhosari and Pimple Saudagar, right up to the Hinjewadi corridor.Are the classes online or offline, and do you cover Wakad, Ravet and the Hinjewadi side?All classes are live and online, so we reach every part of Pimpri-Chinchwad equally: Pimpri, Chinchwad, Akurdi, Nigdi, Pradhikaran, Wakad, Ravet, Tathawade, Bhosari MIDC and Pimple Saudagar, plus families working in the Hinjewadi IT park. Your child joins the same expert teacher from home, with no traffic on the Mumbai-Pune highway or the daily Hinjewadi jam. Every session is two-way and hands-on: the teacher and your child write code together on a shared screen, and a recording is saved afterwards for revision.How much do coding classes cost in Pimpri-Chinchwad?Group classes (5-8 students) start at Rs.1499/month for 2 live classes a week. Mini Batch (3-4 students) is Rs.2,999/month, and personalised 1-on-1 mentoring is Rs.4,999/month. Every new student gets a free demo class first, and there are no hidden charges.Will coding help with MHT-CET, JEE and the SSC/CBSE board exams?Yes. Maharashtra students sit MHT-CET and JEE, and coding builds the very logical reasoning, decomposition and problem-solving those exams reward. It also supports SSC, CBSE and ICSE Computer Science, Informatics Practices and the new NEP-2020 AI modules. Our Python and Java tracks line up with what is taught at schools like Vibgyor, City Pride, Pawar Public, Sanskriti, DAV and St Ursula.What's the best age to start coding?Age 8 is ideal to begin with visual, block-based coding (Scratch). For text-based languages like Python and Java, 12-13 onwards works best. We run separate tracks for kids (6-12), teens (13-18) and college or working learners (18+), so the starting point always matches the child.What equipment does my child need?Just a laptop or desktop and a stable internet connection. Both common in PCMC households. A computer (rather than a tablet) is best for hands-on practice. Minimum: Windows 10 / macOS, 4GB RAM, broadband. All the software we use is free, and our team helps with setup before the first class.Do you prepare Pimpri-Chinchwad college students for placements?Yes. Our college track is placement-focused: 200+ DSA problems, mock interviews, a MERN full-stack build and an AI/Data-Science portfolio. It is designed for students from PCCOE, D Y Patil Akurdi, JSPM and PCET who are targeting the IT companies in Hinjewadi (Infosys, Wipro, TCS, Cognizant) as well as engineering roles at PCMC's automotive giants like Tata Motors and Bajaj Auto.What are the class timings? Do you have weekend batches?Weekday batches run 4 PM-8 PM (after school) and weekend batches 9 AM-6 PM (Sat & Sun). PCMC kids juggle school, classes and activities, so we work around your schedule. Classes are an hour long, twice a week.Do you teach coding to Maharashtra board students in Pimpri-Chinchwad?Yes. Pimpri-Chinchwad schools run the Maharashtra state board, along with CBSE and ICSE, and our classes fit around any of them. We teach the programming itself, Python or Java, so the school computer paper stops being something your child only reads about.Can Pimpri Chinchwad College of Engineering students join your programming courses?Yes. PCCOE has run in Nigdi since 1999 under Savitribai Phule Pune University, so the fundamentals are well covered. In a city built on manufacturing, what recruiters look at is built work, and that is the college track: real Python, Java, full-stack or AI/ML, carried to something that runs.
 
 ## Ready to start your child's coding journey in Pimpri Chinchwad?
 

@@ -1,32 +1,32 @@
 ---
-title: "DSA Course — Build Your Logic with Data Structures & Algorithms | Modern Age Coders"
-description: "A live, in-depth Data Structures & Algorithms (DSA) course for college students and Class 11–12. Build real problem-solving logic from first principles — arrays to dynamic programming and graphs. New batch starts Sunday 12 July, every Sunday 4:30 PM, ₹1499/month, runs until you master DSA. Prerequisite: basic coding in any language."
+title: "DSA Course: Build Your Logic with Data Structures & Algorithms | Modern Age Coders"
+description: "A live, in-depth Data Structures & Algorithms (DSA) course for college students and Class 11–12. Build real problem-solving logic from first principles, arrays to dynamic programming and graphs. New batch starts Sunday 12 July, every Sunday 4:30 PM, ₹1499/month, runs until you master DSA. Prerequisite: basic coding in any language."
 canonical: https://learn.modernagecoders.com/data-structures-and-algorithms-course
 source: src/pages/data-structures-and-algorithms-course.html
 ---
-> A live, in-depth Data Structures & Algorithms (DSA) course for college students and Class 11–12. Build real problem-solving logic from first principles — arrays to dynamic programming and graphs. New batch starts Sunday 12 July, every Sunday 4:30 PM, ₹1499/month, runs until you master DSA. Prerequisite: basic coding in any language.
+> A live, in-depth Data Structures & Algorithms (DSA) course for college students and Class 11–12. Build real problem-solving logic from first principles, arrays to dynamic programming and graphs. New batch starts Sunday 12 July, every Sunday 4:30 PM, ₹1499/month, runs until you master DSA. Prerequisite: basic coding in any language.
 
 live cohort · starts 12 July
 
 # Build your logic. Master DSA.
 
-A live, genuinely in-depth Data Structures & Algorithms course that teaches you to **think** — not memorise. From complexity analysis and arrays all the way to graphs and dynamic programming, built from first principles for college students and Class 11–12.
+A live, genuinely in-depth Data Structures & Algorithms course that teaches you to **think**, not memorise. From complexity analysis and arrays all the way to graphs and dynamic programming, built from first principles for college students and Class 11–12.
 
 🗓 Starts **Sun 12 July****₹1499** / monthLive · **Sundays 4:30 PM**College & **Class 11–12**Runs **until you finish DSA**Register now →[Book a free demo](/book-demo)
 
-Prerequisite: you know basic coding in *any* language (C, C++, Java or Python). Start early — start faster.
+Prerequisite: you know basic coding in *any* language (C, C++, Java or Python). Start early. Start faster.
 
 Logic-first, not roteLive dry-runs on the boardDoubt-solving every classPlacement & interview readyLanguage-agnosticwhy DSA matters
 
 ## The skill that turns a coder into a problem-solver
 
-Anyone can learn syntax. DSA is where you learn to break a hard, unseen problem into a plan and an efficient solution — the single most valuable, most tested skill in computer science.
+Anyone can learn syntax. DSA is where you learn to break a hard, unseen problem into a plan and an efficient solution, the single most valuable, most tested skill in computer science.
 
 🧠
 
 ### Build real logic
 
-Stop guessing. Learn the patterns — two pointers, recursion, sliding window, dynamic programming — that let you reason your way to any solution.
+Stop guessing. Learn the patterns, two pointers, recursion, sliding window, dynamic programming, that let you reason your way to any solution.
 
 💼
 
@@ -38,14 +38,14 @@ DSA is the core of every technical interview at product companies. Master it and
 
 ### Start early, start faster
 
-The earlier you build these foundations — in Class 11–12 or early college — the further ahead you are. Compounding skill beats last-minute cramming.
+The earlier you build these foundations, in Class 11–12 or early college, the further ahead you are. Compounding skill beats last-minute cramming.
 
 who it's for · prerequisites
 
 ## Is this DSA course right for you?
 
-- ✓**You know basic coding in any one language.** C, C++, Java or Python — it doesn't matter which. DSA is language-agnostic; the logic transfers everywhere.
-- ✓**Your core concepts are strong.** Variables, loops, conditionals, functions and arrays feel comfortable — your fundamentals are solid.
+- ✓**You know basic coding in any one language.** C, C++, Java or Python. It doesn't matter which. DSA is language-agnostic; the logic transfers everywhere.
+- ✓**Your core concepts are strong.** Variables, loops, conditionals, functions and arrays feel comfortable. Your fundamentals are solid.
 - ✓**Your logic is clear.** You enjoy figuring things out and want to get genuinely good at solving problems, not just copying answers.
 - ✓**You're in college, or Class 11 or 12.** The ideal time to start. Motivated learners with strong fundamentals are welcome too.
 
@@ -57,7 +57,7 @@ That's exactly what a free demo class is for. We'll quickly check where your fun
 
 ## We don't hand you answers. We grow the instinct.
 
-Every topic is taught the same way — start from the obvious-but-slow idea, feel why it hurts, then discover the insight that makes it fast. Here's a tiny taste with one classic problem.
+Every topic is taught the same way. Start from the obvious-but-slow idea, feel why it hurts, then discover the insight that makes it fast. Here's a tiny taste with one classic problem.
 
 The problem:given an array, find two numbers that add up to a target.“…easy, right? Let's see.”Step 1 · first instinct
 
@@ -87,9 +87,9 @@ for i, num in a:
   seen[num] = i
 ```
 
-O(n)one clean pass ✓That leap — from brute force to insight — is **the logic we train**, on every single topic. Do it a hundred times and it stops being magic and becomes how you think.the full syllabus
+O(n)one clean pass ✓That leap, from brute force to insight, is **the logic we train**, on every single topic. Do it a hundred times and it stops being magic and becomes how you think.the full syllabus
 
-## Everything in DSA — covered in depth
+## Everything in DSA: covered in depth
 
 This is the complete map. We go module by module, dry-run every idea by hand, and never skip the hard parts. The course runs as long as it takes for you to truly master each one.
 
@@ -103,7 +103,7 @@ Big-OTime/SpaceProblem framingMODULE 01 · LINEAR
 
 ### Arrays & Strings
 
-Traversals, in-place tricks, prefix sums, two pointers and sliding window — the patterns behind a huge share of all interview problems.
+Traversals, in-place tricks, prefix sums, two pointers and sliding window, the patterns behind a huge share of all interview problems.
 
 Two pointersSliding windowPrefix sumsMODULE 02 · SEARCH/SORT
 
@@ -113,7 +113,7 @@ Binary search (and binary search on the answer), merge sort, quick sort, and the
 
 Binary searchMerge / QuickO(n log n)MODULE 03 · HASHING
 
-### Hashing — Maps & Sets
+### Hashing: Maps & Sets
 
 Hash maps, hash sets, frequency counting and the lookups that turn O(n²) brute force into clean O(n) solutions.
 
@@ -151,7 +151,7 @@ Prefix treeAutocompleteString matchMODULE 09 · GRAPHS
 
 ### Graphs
 
-Representations, BFS & DFS, topological sort, shortest paths (Dijkstra), union-find / DSU and minimum spanning trees — the big leagues.
+Representations, BFS & DFS, topological sort, shortest paths (Dijkstra), union-find / DSU and minimum spanning trees, the big leagues.
 
 BFS / DFSDijkstraUnion-FindTopo sortMODULE 10 · RECURSION
 
@@ -163,7 +163,7 @@ BacktrackingSubsets/PermsN-QueensMODULE 11 · GREEDY + DP
 
 ### Greedy & Dynamic Programming
 
-Greedy proofs and the full DP ladder — 1D/2D, knapsack, LIS, and DP on grids, strings and trees. The hardest, highest-leverage topic, taught patiently.
+Greedy proofs and the full DP ladder: 1D/2D, knapsack, LIS, and DP on grids, strings and trees. The hardest, highest-leverage topic, taught patiently.
 
 KnapsackLISDP on treesGreedy
 
@@ -177,13 +177,13 @@ how the class works
 
 ### Live every Sunday
 
-One focused live class each Sunday at 4:30 PM — interactive, with cameras-on dry-runs on the board.
+One focused live class each Sunday at 4:30 PM, interactive, with cameras-on dry-runs on the board.
 
 02
 
 ### Logic first
 
-We derive each idea from scratch, dry-run it by hand, then code it — so you understand *why*, not just what.
+We derive each idea from scratch, dry-run it by hand, then code it, so you understand *why*, not just what.
 
 03
 
@@ -199,7 +199,7 @@ No artificial deadline. The course continues month after month until the whole D
 
 your first four Sundays
 
-## What the journey looks like — from day one
+## What the journey looks like: from day one
 
 Real dates, real momentum. Here's exactly how your first month unfolds.
 
@@ -222,14 +222,14 @@ Sun
 
 #### Sliding Window & Prefix Sums
 
-Turn nested loops into single passes — the moment brute force starts giving way to insight.
+Turn nested loops into single passes, the moment brute force starts giving way to insight.
 
 Sun
 2 Aug
 
 #### Binary Search (and on the answer)
 
-Not just searching a sorted array — searching the space of possible answers. A real level-up.
+Not just searching a sorted array, searching the space of possible answers. A real level-up.
 
 …and onward through the whole map, at a depth that sticks ↝
 
@@ -273,7 +273,7 @@ Pay month to month. Continue for as long as you need to master the full syllabus
 - The complete DSA syllabus, in depth
 - Problem sheets + live doubt-solving
 - Language-agnostic (C++ / Java / Python / C)
-- Runs until you complete DSA — no rushing
+- Runs until you complete DSA, no rushing
 
 **Start early, start faster.** The sooner you begin, the bigger your head start when placements and contests arrive.✅
 
@@ -285,13 +285,13 @@ We've opened WhatsApp with your details. Send that message and our team will con
 
 ## DSA course FAQ
 
-When does the course start?The new batch starts on **Sunday, 12 July at 4:30 PM IST**, then runs live every Sunday at the same time. Register early to lock your seat — batch sizes are kept small.What is the prerequisite for this course?You should know basic core coding in any one language — C, C++, Java or Python. You don't need to be an expert; if your logic is clear and your fundamentals (variables, loops, conditionals, functions, arrays) are strong, you're ready. DSA is language-agnostic, so any language works.Who is this course best suited for?It's ideal for college students and learners in Class 11 or 12 who already know basic coding and want to build serious problem-solving logic for placements, coding interviews and competitive programming. Motivated learners with strong fundamentals are also welcome.How much does it cost?The fee is ₹1499 per month, paid month to month. The course continues until you've completed and mastered the entire DSA syllabus.How long does the course last?There's no rushed end date. DSA is deep, so this runs as a long-term, month-by-month journey — from complexity analysis all the way to dynamic programming and graphs. We cover everything in depth and never skip the hard parts.Which programming language do you use?A language-agnostic, logic-first approach — follow along in C++, Java, Python or C. The focus is the thinking, patterns and data structures themselves, which transfer to any language.Will it help with placements and interviews?Yes. DSA is the core of technical interviews at product companies and of competitive programming. By building logic from first principles and practising patterns like two pointers, sliding window, recursion, backtracking and dynamic programming, you become ready to solve unseen problems under pressure.How do I register?Fill in the registration form above, or message us on WhatsApp at +91 9123366161. You can also book a free demo class first to make sure it's the right fit before you enrol.🗓 Batch starts Sunday, 12 July · 4:30 PM ISTyour logic, leveled up
+When does the course start?The new batch starts on **Sunday, 12 July at 4:30 PM IST**, then runs live every Sunday at the same time. Register early to lock your seat, batch sizes are kept small.What is the prerequisite for this course?You should know basic core coding in any one language: C, C++, Java or Python. You don't need to be an expert; if your logic is clear and your fundamentals (variables, loops, conditionals, functions, arrays) are strong, you're ready. DSA is language-agnostic, so any language works.Who is this course best suited for?It's ideal for college students and learners in Class 11 or 12 who already know basic coding and want to build serious problem-solving logic for placements, coding interviews and competitive programming. Motivated learners with strong fundamentals are also welcome.How much does it cost?The fee is ₹1499 per month, paid month to month. The course continues until you've completed and mastered the entire DSA syllabus.How long does the course last?There's no rushed end date. DSA is deep, so this runs as a long-term, month-by-month journey, from complexity analysis all the way to dynamic programming and graphs. We cover everything in depth and never skip the hard parts.Which programming language do you use?A language-agnostic, logic-first approach, follow along in C++, Java, Python or C. The focus is the thinking, patterns and data structures themselves, which transfer to any language.Will it help with placements and interviews?Yes. DSA is the core of technical interviews at product companies and of competitive programming. By building logic from first principles and practising patterns like two pointers, sliding window, recursion, backtracking and dynamic programming, you become ready to solve unseen problems under pressure.How do I register?Fill in the registration form above, or message us on WhatsApp at +91 9123366161. You can also book a free demo class first to make sure it's the right fit before you enrol.🗓 Batch starts Sunday, 12 July · 4:30 PM ISTyour logic, leveled up
 
 ## Start early. Start faster.
 
-Build the problem-solving foundation that pays off for the rest of your coding life — one focused Sunday at a time.
+Build the problem-solving foundation that pays off for the rest of your coding life, one focused Sunday at a time.
 
-Reserve your seat — ₹1499/month[Book a free demo](/book-demo)
+Reserve your seat, ₹1499/month[Book a free demo](/book-demo)
 
 Parent & student voices
 

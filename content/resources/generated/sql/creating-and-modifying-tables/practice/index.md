@@ -69,7 +69,7 @@ Both are valid MySQL syntax. `RENAME TABLE` is preferred for its clarity and bec
 
 *Hint:* Rows, table, WHERE clause.
 
-**Answer:** **DELETE** removes specific rows matching a WHERE clause (transactional). **TRUNCATE** removes ALL rows quickly and resets AUTO_INCREMENT, but keeps the table. **DROP** removes the entire table — structure and data — permanently.
+**Answer:** **DELETE** removes specific rows matching a WHERE clause (transactional). **TRUNCATE** removes ALL rows quickly and resets AUTO_INCREMENT, but keeps the table. **DROP** removes the entire table, structure and data, permanently.
 
 DELETE = surgeon, TRUNCATE = bulldozer, DROP = dynamite. This one-liner answer is the safe interview response.
 
@@ -100,7 +100,7 @@ CTAS copies columns and data. For a 4-row table, this is instant. For a 10M-row 
 CREATE TABLE employees_template LIKE employees;
 ```
 
-`CREATE TABLE new LIKE old` is the full schema clone — indexes, PKs, and defaults all come across. The new table starts empty. If you also want the data, follow up with `INSERT INTO employees_template SELECT * FROM employees;`.
+`CREATE TABLE new LIKE old` is the full schema clone, indexes, PKs, and defaults all come across. The new table starts empty. If you also want the data, follow up with `INSERT INTO employees_template SELECT * FROM employees;`.
 
 ### Q10. [Medium] Write ALTER to add a named UNIQUE constraint `uq_email` on the `email` column of employees.
 
@@ -123,7 +123,7 @@ ALTER TABLE employees
     FOREIGN KEY (manager_id) REFERENCES employees(emp_id);
 ```
 
-This is an example of a self-referencing foreign key — the table refers to itself. Used when an employee's manager is also an employee in the same table. Chapter 12 covers self joins.
+This is an example of a self-referencing foreign key, the table refers to itself. Used when an employee's manager is also an employee in the same table. Chapter 12 covers self joins.
 
 ### Q12. [Medium] Write a single ALTER statement that adds a `bonus DECIMAL(10,2) DEFAULT 0` column AND drops the `hire_date` column in one shot.
 
@@ -143,13 +143,13 @@ Combining changes into one ALTER is faster than two separate statements because 
 
 **Answer:** **1**. TRUNCATE resets the AUTO_INCREMENT counter to its initial value (default 1).
 
-Contrast with DELETE, which keeps the counter. After DELETE + INSERT, the new id would be 11. This is a frequent interview gotcha — know both behaviors.
+Contrast with DELETE, which keeps the counter. After DELETE + INSERT, the new id would be 11. This is a frequent interview gotcha, know both behaviors.
 
 ### Q14. [Medium] Is DELETE transactional (rollback-able) in MySQL? What about TRUNCATE?
 
 *Hint:* Think DDL vs DML.
 
-**Answer:** **DELETE** is DML and fully transactional — wrap it in START TRANSACTION ... ROLLBACK to undo. **TRUNCATE** is DDL with an implicit COMMIT — it cannot be rolled back in most databases including MySQL.
+**Answer:** **DELETE** is DML and fully transactional, wrap it in START TRANSACTION ... ROLLBACK to undo. **TRUNCATE** is DDL with an implicit COMMIT, it cannot be rolled back in most databases including MySQL.
 
 If you absolutely need to remove all rows but keep the option to undo, use DELETE inside a transaction. If you want speed and don't need rollback, use TRUNCATE.
 
@@ -187,7 +187,7 @@ SELECT * FROM employees WHERE salary > 80000;
 SELECT COUNT(*) AS total_top FROM top_earners;
 ```
 
-Temporary tables are scoped to your session — no other user can see them. They drop automatically on disconnect. Useful for staging intermediate results without polluting the main schema.
+Temporary tables are scoped to your session, no other user can see them. They drop automatically on disconnect. Useful for staging intermediate results without polluting the main schema.
 
 ### Q17. [Hard] Why might an ALTER TABLE on a 100M-row table be dangerous in production?
 
@@ -195,7 +195,7 @@ Temporary tables are scoped to your session — no other user can see them. They
 
 **Answer:** Many ALTERs require a full table rebuild, which locks the table (or at least blocks writes) for minutes to hours. On a busy production DB, this means your app hangs or errors for the duration. Modern MySQL 8.0 supports online DDL for many cases (ADD INDEX, ADD COLUMN) but not all.
 
-Professional teams use tools like `pt-online-schema-change` (Percona) or `gh-ost` (GitHub) to perform schema changes without locking — they build a shadow table, sync changes, and atomically swap. Critical for zero-downtime deploys.
+Professional teams use tools like `pt-online-schema-change` (Percona) or `gh-ost` (GitHub) to perform schema changes without locking. They build a shadow table, sync changes, and atomically swap. Critical for zero-downtime deploys.
 
 ### Q18. [Hard] Write a robust "reset" script for a `test_orders` table. It should: drop the table if it exists, create it fresh with an AUTO_INCREMENT PK, customer VARCHAR(50) required, amount DECIMAL(10,2) positive, and insert three sample rows.
 
@@ -291,7 +291,7 @@ ALTER TABLE employees
     MODIFY COLUMN dept VARCHAR(30) NOT NULL;
 ```
 
-Note: you must repeat the original type (VARCHAR(30)) when using MODIFY, even if only the nullability is changing. If any existing row has NULL in dept, the ALTER fails — you must first UPDATE those rows to a valid value.
+Note: you must repeat the original type (VARCHAR(30)) when using MODIFY, even if only the nullability is changing. If any existing row has NULL in dept, the ALTER fails. You must first UPDATE those rows to a valid value.
 
 ### Q5. [Medium] After running these statements, how many rows are in the table?
 
@@ -342,13 +342,13 @@ CREATE TABLE products (
 );
 ```
 
-First run works. Second run fails because "Database exists" and "Table already exists". IF NOT EXISTS and DROP IF EXISTS make the script idempotent — runnable any number of times.
+First run works. Second run fails because "Database exists" and "Table already exists". IF NOT EXISTS and DROP IF EXISTS make the script idempotent, runnable any number of times.
 
 ### Q8. [Hard] Why is TRUNCATE categorized as DDL even though conceptually it only removes data?
 
 *Hint:* Internal implementation.
 
-**Answer:** TRUNCATE works by dropping and recreating the table internally — a structural operation. That is DDL behavior. Side effects: it resets AUTO_INCREMENT, implicitly commits, cannot be rolled back in most databases, and doesn't fire row-level triggers.
+**Answer:** TRUNCATE works by dropping and recreating the table internally, a structural operation. That is DDL behavior. Side effects: it resets AUTO_INCREMENT, implicitly commits, cannot be rolled back in most databases, and doesn't fire row-level triggers.
 
 If TRUNCATE were pure DML, it would use the transaction log and support rollback like DELETE. Instead, it trades rollback-ability for speed by taking a DDL shortcut. Know both behaviors; interviewers love this question.
 
@@ -390,7 +390,7 @@ CREATE TABLE employees_2026_q1 LIKE employees;
 INSERT INTO employees_2026_q1 SELECT * FROM employees;
 ```
 
-`CREATE TABLE LIKE` clones the full schema (columns, indexes, PKs, AUTO_INCREMENT). Then INSERT ... SELECT copies all rows. This is the proper way to make a true schema + data clone — unlike CTAS which skips indexes.
+`CREATE TABLE LIKE` clones the full schema (columns, indexes, PKs, AUTO_INCREMENT). Then INSERT ... SELECT copies all rows. This is the proper way to make a true schema + data clone, unlike CTAS which skips indexes.
 
 ### Q12. [Hard] Why does MySQL usually lock a table during ALTER TABLE, and how is this handled in modern versions?
 
@@ -448,7 +448,7 @@ Check `ALGORITHM=INPLACE, LOCK=NONE` clauses in ALTER statements for explicit co
 
 ### Q12. [Medium] Which ALTER makes the `name` column NOT NULL (it was previously nullable)?
 
-**B is correct.** MODIFY COLUMN takes the full new definition of the column. You must repeat the type even if only the nullability changes. Fails if existing rows have NULL — update them first.
+**B is correct.** MODIFY COLUMN takes the full new definition of the column. You must repeat the type even if only the nullability changes. Fails if existing rows have NULL, update them first.
 
 ### Q13. [Medium] What does `CREATE TEMPORARY TABLE` do?
 
@@ -456,7 +456,7 @@ Check `ALGORITHM=INPLACE, LOCK=NONE` clauses in ALTER statements for explicit co
 
 ### Q14. [Medium] Which is NOT a valid reason to prefer TRUNCATE over DELETE?
 
-**C is correct (it is NOT a valid reason).** TRUNCATE cannot be rolled back in most databases including MySQL — this is a reason AGAINST TRUNCATE, not for it. A, B, and D are all genuine reasons to pick TRUNCATE.
+**C is correct (it is NOT a valid reason).** TRUNCATE cannot be rolled back in most databases including MySQL. This is a reason AGAINST TRUNCATE, not for it. A, B, and D are all genuine reasons to pick TRUNCATE.
 
 ### Q15. [Hard] You run: `CREATE TABLE t2 LIKE t1;` followed by `INSERT INTO t2 SELECT * FROM t1;`. What does t2 have that CTAS would have missed?
 

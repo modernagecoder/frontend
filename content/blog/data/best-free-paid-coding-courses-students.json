@@ -46,11 +46,11 @@
       },
       {
         "type": "paragraph",
-        "text": "With thousands of coding courses available online, finding the right one can feel like searching for a needle in a haystack. Should you go for a free course or invest in a paid program? Which platform actually delivers results? And most importantly—which course will help you land that internship, build real projects, and kickstart your tech career?"
+        "text": "With thousands of coding courses available online, finding the right one can feel like searching for a needle in a haystack. Should you go for a free course or invest in a paid program? Which platform actually delivers results? And most importantly, which course will help you land that internship, build real projects, and kickstart your tech career?"
       },
       {
         "type": "paragraph",
-        "text": "We've spent months researching, comparing, and gathering feedback from hundreds of students to create this comprehensive guide. Whether you're a complete beginner or looking to level up your skills, this guide breaks down the best free and paid coding courses for students—with real pricing data, honest reviews, and clear learning paths."
+        "text": "We've spent months researching, comparing, and gathering feedback from hundreds of students to create this comprehensive guide. Whether you're a complete beginner or looking to level up your skills, this guide breaks down the best free and paid coding courses for students, with real pricing data, honest reviews, and clear learning paths."
       },
       {
         "type": "callout",
@@ -66,7 +66,7 @@
       },
       {
         "type": "paragraph",
-        "text": "Before diving into specific courses, let's understand what you actually get with free versus paid options. This isn't just about money—it's about the learning experience, support systems, and outcomes. Understanding these differences will help you make a decision that aligns with your goals and circumstances."
+        "text": "Before diving into specific courses, let's understand what you actually get with free versus paid options. This isn't just about money. It's about the learning experience, support systems, and outcomes. Understanding these differences will help you make a decision that aligns with your goals and circumstances."
       },
       {
         "type": "table",
@@ -137,7 +137,7 @@
         "type": "callout",
         "calloutType": "tip",
         "title": "The Real Question to Ask",
-        "text": "Don't ask 'free or paid?' Ask 'what do I want to achieve and by when?' If you're exploring coding as a hobby, free courses work great. If you're serious about a tech career within 6-12 months, investing in quality education pays off exponentially—often returning 10-50x your investment in first-year salary."
+        "text": "Don't ask 'free or paid?' Ask 'what do I want to achieve and by when?' If you're exploring coding as a hobby, free courses work great. If you're serious about a tech career within 6-12 months, investing in quality education pays off exponentially, often returning 10-50x your investment in first-year salary."
       },
       {
         "type": "heading",
@@ -188,7 +188,7 @@
       {
         "type": "heading",
         "level": 3,
-        "text": "1. freeCodeCamp — Best Overall Free Resource"
+        "text": "1. freeCodeCamp: Best Overall Free Resource"
       },
       {
         "type": "paragraph",
@@ -253,7 +253,7 @@
       {
         "type": "heading",
         "level": 3,
-        "text": "2. CS50 by Harvard (edX) — Best for Computer Science Fundamentals"
+        "text": "2. CS50 by Harvard (edX): Best for Computer Science Fundamentals"
       },
       {
         "type": "paragraph",
@@ -292,7 +292,7 @@
           ],
           [
             "Difficulty",
-            "Challenging—designed for Harvard students"
+            "Challenging, designed for Harvard students"
           ],
           [
             "Prerequisites",
@@ -304,7 +304,7 @@
         "type": "callout",
         "calloutType": "success",
         "title": "Student Review: Arjun M., BCA Student",
-        "text": "\"CS50 changed how I think about programming. The problem sets are tough—I spent 15+ hours on some of them—but that struggle taught me more than any other course. The production quality is Netflix-level. Warning: it's not for the faint-hearted!\" ⭐⭐⭐⭐⭐"
+        "text": "\"CS50 changed how I think about programming. The problem sets are tough, I spent 15+ hours on some of them, but that struggle taught me more than any other course. The production quality is Netflix-level. Warning: it's not for the faint-hearted!\" ⭐⭐⭐⭐⭐"
       },
       {
         "type": "list",
@@ -318,11 +318,11 @@
       {
         "type": "heading",
         "level": 3,
-        "text": "3. The Odin Project — Best for Full-Stack Development"
+        "text": "3. The Odin Project: Best for Full-Stack Development"
       },
       {
         "type": "paragraph",
-        "text": "The Odin Project offers a full-stack curriculum that's project-based and community-driven. Unlike video-heavy courses, it teaches you to learn like a real developer—reading documentation, solving problems, and building real applications from day one. It's completely free and open-source."
+        "text": "The Odin Project offers a full-stack curriculum that's project-based and community-driven. Unlike video-heavy courses, it teaches you to learn like a real developer, reading documentation, solving problems, and building real applications from day one. It's completely free and open-source."
       },
       {
         "type": "table",
@@ -369,7 +369,7 @@
         "type": "callout",
         "calloutType": "success",
         "title": "Student Review: Rahul K., Self-Taught Developer",
-        "text": "\"The Odin Project taught me how to actually be a developer, not just follow tutorials. The projects are real—I built a full e-commerce site, a social media clone, and more. No hand-holding, which was frustrating at first but made me a much better problem-solver.\" ⭐⭐⭐⭐⭐"
+        "text": "\"The Odin Project taught me how to actually be a developer, not just follow tutorials. The projects are real: I built a full e-commerce site, a social media clone, and more. No hand-holding, which was frustrating at first but made me a much better problem-solver.\" ⭐⭐⭐⭐⭐"
       },
       {
         "type": "list",
@@ -383,7 +383,7 @@
       {
         "type": "heading",
         "level": 3,
-        "text": "4. Codecademy Free Tier — Best for Absolute Beginners"
+        "text": "4. Codecademy Free Tier: Best for Absolute Beginners"
       },
       {
         "type": "paragraph",
@@ -448,7 +448,7 @@
       {
         "type": "heading",
         "level": 3,
-        "text": "5. Khan Academy — Best for Young Learners"
+        "text": "5. Khan Academy: Best for Young Learners"
       },
       {
         "type": "paragraph",
@@ -580,7 +580,7 @@
       {
         "type": "heading",
         "level": 3,
-        "text": "1. Modern Age Coders — Best for Indian Students"
+        "text": "1. Modern Age Coders: Best for Indian Students"
       },
       {
         "type": "paragraph",
@@ -657,11 +657,11 @@
       {
         "type": "heading",
         "level": 3,
-        "text": "2. Coursera — Best for University-Level Learning"
+        "text": "2. Coursera: Best for University-Level Learning"
       },
       {
         "type": "paragraph",
-        "text": "Coursera partners with top universities like Stanford, Google, and IBM to offer professional certificates and specializations. While courses are paid, students can apply for financial aid to access content for free—a feature many students don't know about."
+        "text": "Coursera partners with top universities like Stanford, Google, and IBM to offer professional certificates and specializations. While courses are paid, students can apply for financial aid to access content for free, a feature many students don't know about."
       },
       {
         "type": "table",
@@ -708,7 +708,7 @@
         "type": "callout",
         "calloutType": "success",
         "title": "Student Review: Meera T., MCA Student",
-        "text": "\"I completed the Google Data Analytics Certificate with financial aid (paid ₹0!). The content was excellent and the certificate helped me land interviews. The peer assignments were hit-or-miss, but overall great value. Apply for financial aid—it's easy and usually approved!\" ⭐⭐⭐⭐"
+        "text": "\"I completed the Google Data Analytics Certificate with financial aid (paid ₹0!). The content was excellent and the certificate helped me land interviews. The peer assignments were hit-or-miss, but overall great value. Apply for financial aid. It's easy and usually approved!\" ⭐⭐⭐⭐"
       },
       {
         "type": "callout",
@@ -728,7 +728,7 @@
       {
         "type": "heading",
         "level": 3,
-        "text": "3. Udemy — Best Budget Option"
+        "text": "3. Udemy: Best Budget Option"
       },
       {
         "type": "paragraph",
@@ -767,7 +767,7 @@
           ],
           [
             "Course Quality",
-            "Varies widely—check reviews carefully"
+            "Varies widely. Check reviews carefully"
           ],
           [
             "Refund Policy",
@@ -779,7 +779,7 @@
         "type": "callout",
         "calloutType": "success",
         "title": "Student Review: Vikram S., Engineering Student",
-        "text": "\"I bought Angela Yu's '100 Days of Code' Python course for ₹449 during a sale. Best investment ever! 60+ hours of content, real projects, and her teaching style is amazing. Just make sure to buy during sales—never pay full price on Udemy.\" ⭐⭐⭐⭐⭐"
+        "text": "\"I bought Angela Yu's '100 Days of Code' Python course for ₹449 during a sale. Best investment ever! 60+ hours of content, real projects, and her teaching style is amazing. Just make sure to buy during sales, never pay full price on Udemy.\" ⭐⭐⭐⭐⭐"
       },
       {
         "type": "callout",
@@ -851,7 +851,7 @@
       {
         "type": "heading",
         "level": 3,
-        "text": "4. Codecademy Pro — Best Interactive Platform"
+        "text": "4. Codecademy Pro: Best Interactive Platform"
       },
       {
         "type": "paragraph",
@@ -902,7 +902,7 @@
         "type": "callout",
         "calloutType": "success",
         "title": "Student Review: Ananya K., BCA Student",
-        "text": "\"The Full-Stack Engineer path on Codecademy Pro was perfect for me. I learn better by doing than watching videos. The career path gave me clear direction—I knew exactly what to learn next. Completed it in 8 months alongside college.\" ⭐⭐⭐⭐"
+        "text": "\"The Full-Stack Engineer path on Codecademy Pro was perfect for me. I learn better by doing than watching videos. The career path gave me clear direction: I knew exactly what to learn next. Completed it in 8 months alongside college.\" ⭐⭐⭐⭐"
       },
       {
         "type": "list",
@@ -916,7 +916,7 @@
       {
         "type": "heading",
         "level": 3,
-        "text": "5. Scaler Academy — Best for Placement-Focused Learning"
+        "text": "5. Scaler Academy: Best for Placement-Focused Learning"
       },
       {
         "type": "paragraph",
@@ -1386,7 +1386,7 @@
       },
       {
         "type": "paragraph",
-        "text": "Free isn't always better. Sometimes a ₹10,000 course saves you 6 months of struggling with free resources. Calculate the value of your time—if a paid course gets you job-ready 3 months faster, that's potentially ₹1-2 lakhs in earlier salary."
+        "text": "Free isn't always better. Sometimes a ₹10,000 course saves you 6 months of struggling with free resources. Calculate the value of your time, if a paid course gets you job-ready 3 months faster, that's potentially ₹1-2 lakhs in earlier salary."
       },
       {
         "type": "heading",
@@ -1436,7 +1436,7 @@
       },
       {
         "type": "paragraph",
-        "text": "Here are real stories from students who used online courses to transform their careers. These aren't cherry-picked exceptions—they represent achievable outcomes with consistent effort."
+        "text": "Here are real stories from students who used online courses to transform their careers. These aren't cherry-picked exceptions. They represent achievable outcomes with consistent effort."
       },
       {
         "type": "callout",
@@ -1448,13 +1448,13 @@
         "type": "callout",
         "calloutType": "success",
         "title": "Arjun's Story: Career Switch at 28",
-        "text": "\"I was working in sales, earning ₹4 LPA, feeling stuck. Invested in Scaler Academy (took a loan). It was intense—15 hours/week for 9 months. But I got placed at a product company at ₹18 LPA. The ROI was incredible, but it required serious commitment.\""
+        "text": "\"I was working in sales, earning ₹4 LPA, feeling stuck. Invested in Scaler Academy (took a loan). It was intense: 15 hours/week for 9 months. But I got placed at a product company at ₹18 LPA. The ROI was incredible, but it required serious commitment.\""
       },
       {
         "type": "callout",
         "calloutType": "success",
         "title": "Sneha's Story: College Student to Intern",
-        "text": "\"In my 2nd year of B.Tech, I completed CS50 and The Odin Project—both free. Built 5 projects, put them on GitHub. Got an internship at a startup in my 3rd year. Proof that free resources work if you're disciplined. Total cost: ₹0.\""
+        "text": "\"In my 2nd year of B.Tech, I completed CS50 and The Odin Project. Both free. Built 5 projects, put them on GitHub. Got an internship at a startup in my 3rd year. Proof that free resources work if you're disciplined. Total cost: ₹0.\""
       },
       {
         "type": "callout",
@@ -1477,15 +1477,15 @@
           },
           {
             "title": "How much should I spend on coding courses?",
-            "content": "There's no fixed amount—it depends on your goals and timeline. Start with free resources to confirm your interest. If you're serious about a tech career, investing ₹10,000-25,000 in quality courses can accelerate your learning significantly. Think of it as an investment: even ₹20,000 spent on the right course can lead to a ₹5-10 LPA job within a year—that's 25-50x return."
+            "content": "There's no fixed amount. It depends on your goals and timeline. Start with free resources to confirm your interest. If you're serious about a tech career, investing ₹10,000-25,000 in quality courses can accelerate your learning significantly. Think of it as an investment: even ₹20,000 spent on the right course can lead to a ₹5-10 LPA job within a year. That's 25-50x return."
           },
           {
             "title": "Which programming language should I learn first?",
-            "content": "Python is the most beginner-friendly and versatile choice. It's used in web development, data science, AI, automation, and more. JavaScript is another great option if you're specifically interested in web development. Avoid starting with C++ or Java unless your college curriculum requires it—they have steeper learning curves."
+            "content": "Python is the most beginner-friendly and versatile choice. It's used in web development, data science, AI, automation, and more. JavaScript is another great option if you're specifically interested in web development. Avoid starting with C++ or Java unless your college curriculum requires it. They have steeper learning curves."
           },
           {
             "title": "How long does it take to learn coding?",
-            "content": "Basic proficiency: 3-6 months of consistent practice (1-2 hours daily). Job-ready skills: 6-12 months with structured learning. Mastery: 2-3 years of professional experience. The key is consistent daily practice—30 minutes every day beats 5 hours on weekends."
+            "content": "Basic proficiency: 3-6 months of consistent practice (1-2 hours daily). Job-ready skills: 6-12 months with structured learning. Mastery: 2-3 years of professional experience. The key is consistent daily practice: 30 minutes every day beats 5 hours on weekends."
           },
           {
             "title": "Do certificates from online courses matter to employers?",
@@ -1493,7 +1493,7 @@
           },
           {
             "title": "Should I learn from multiple platforms simultaneously?",
-            "content": "No—this is a common mistake. Focus on one primary learning resource at a time. Jumping between platforms creates gaps in knowledge and slows progress. Complete one course fully before starting another. You can use supplementary resources (like documentation or YouTube) for specific topics, but your main curriculum should be singular."
+            "content": "No. This is a common mistake. Focus on one primary learning resource at a time. Jumping between platforms creates gaps in knowledge and slows progress. Complete one course fully before starting another. You can use supplementary resources (like documentation or YouTube) for specific topics, but your main curriculum should be singular."
           },
           {
             "title": "Is Coursera financial aid really free?",
@@ -1505,11 +1505,11 @@
           },
           {
             "title": "Are bootcamps worth the high cost?",
-            "content": "Bootcamps like Scaler (₹2.5-3.5 lakhs) can be worth it for the right person—typically working professionals or final-year students who need intensive, placement-focused training. However, for college students with time, more affordable options can achieve similar results with more effort. Calculate the ROI: if a bootcamp helps you land a job 6 months faster at ₹15 LPA vs ₹8 LPA, the investment pays off."
+            "content": "Bootcamps like Scaler (₹2.5-3.5 lakhs) can be worth it for the right person, typically working professionals or final-year students who need intensive, placement-focused training. However, for college students with time, more affordable options can achieve similar results with more effort. Calculate the ROI: if a bootcamp helps you land a job 6 months faster at ₹15 LPA vs ₹8 LPA, the investment pays off."
           },
           {
             "title": "How do I know if a course is outdated?",
-            "content": "Check: 1) When was it last updated? (Should be within 12-18 months), 2) What version of technologies does it teach? (e.g., React 18 vs React 16), 3) Read recent reviews—students will mention if content is outdated, 4) Check if the instructor is active and responding to questions. Avoid courses that haven't been updated in 2+ years."
+            "content": "Check: 1) When was it last updated? (Should be within 12-18 months), 2) What version of technologies does it teach? (e.g., React 18 vs React 16), 3) Read recent reviews, students will mention if content is outdated, 4) Check if the instructor is active and responding to questions. Avoid courses that haven't been updated in 2+ years."
           }
         ]
       },
@@ -1534,14 +1534,14 @@
           "<strong>Assess your situation:</strong> Be honest about your time, budget, and learning style",
           "<strong>Define your goal:</strong> What do you want to achieve and by when?",
           "<strong>Pick ONE course:</strong> Based on the recommendations above, choose your primary learning resource",
-          "<strong>Commit to completion:</strong> Set a schedule and stick to it—consistency beats intensity",
+          "<strong>Commit to completion:</strong> Set a schedule and stick to it, consistency beats intensity",
           "<strong>Build projects:</strong> Apply what you learn by building real things",
           "<strong>Join a community:</strong> Connect with other learners for support and accountability"
         ]
       },
       {
         "type": "paragraph",
-        "text": "Remember: the coding journey is a marathon, not a sprint. The students who succeed aren't necessarily the smartest—they're the most consistent. Start today, stay consistent, and your future self will thank you."
+        "text": "Remember: the coding journey is a marathon, not a sprint. The students who succeed aren't necessarily the smartest. They're the most consistent. Start today, stay consistent, and your future self will thank you."
       },
       {
         "type": "callout",

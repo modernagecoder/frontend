@@ -6,7 +6,7 @@ source: src/pages/coding-vs-programming.html
 ---
 > Coding is typing syntax. Programming is thinking. Learn the real difference between coding and programming, and how Modern Age Coders builds genuine programming ability, problem-solving and engineering judgment in Python, Java, C++, DSA and AI. Live small-batch classes, ages 10 to 65. Free demo.
 
-FIG. 00 — A DEFINITION
+FIG. 00: A DEFINITION
 
 # Coding is typing. Programming is thinking.
 
@@ -22,27 +22,27 @@ Rated 4.9 across 547 Google reviews
 
 *Shivam Khemka, Founder of Modern Age Coders*
 
-FIG. 01 — THE SPLIT
+FIG. 01: THE SPLIT
 
 ## The coder and the programmer, drawn to scale.
 
 Same keyboard, same language, two different jobs. The coder works at the surface of the syntax. The programmer works at the level of the problem. Read the spec sheet across six dimensions, left to right.
 
-A — THE SURFACE
+A: THE SURFACE
 
 ### Coder
 
-B — THE STRUCTURE
+B: THE STRUCTURE
 
 ### Programmer
 
-Goal**Make the code run.** Get output on the screen and move on.GOALGoal**Solve the actual problem.** Output is just the proof it was solved correctly.Unit of workA line, a snippet, a function copied from a search result.UNIT OF WORKUnit of workA design: data structures, control flow, and the relationships between parts.Optimises forGetting it working now.OPTIMISES FOROptimises forCorrectness, readability, and cost as the input grows.When stuckPastes the error somewhere and tries the first fix that appears.WHEN STUCKWhen stuckForms a hypothesis, isolates the cause, and reasons to the root.OutputSomething that works once, on the example that was tried.OUTPUTOutputSomething that works, can be explained, and can be changed safely later.Time horizonThis task, this hour.TIME HORIZONTime horizonThe next person who reads it, including yourself in six months.FIG. 01 — CODER (A) vs PROGRAMMER (B)SCALE 1:1 | REV. A | NOT TO BE COPIED, ONLY UNDERSTOODFIG. 02 — THE OMISSION
+Goal**Make the code run.** Get output on the screen and move on.GOALGoal**Solve the actual problem.** Output is just the proof it was solved correctly.Unit of workA line, a snippet, a function copied from a search result.UNIT OF WORKUnit of workA design: data structures, control flow, and the relationships between parts.Optimises forGetting it working now.OPTIMISES FOROptimises forCorrectness, readability, and cost as the input grows.When stuckPastes the error somewhere and tries the first fix that appears.WHEN STUCKWhen stuckForms a hypothesis, isolates the cause, and reasons to the root.OutputSomething that works once, on the example that was tried.OUTPUTOutputSomething that works, can be explained, and can be changed safely later.Time horizonThis task, this hour.TIME HORIZONTime horizonThe next person who reads it, including yourself in six months.FIG. 01, CODER (A) vs PROGRAMMER (B)SCALE 1:1 | REV. A | NOT TO BE COPIED, ONLY UNDERSTOODFIG. 02, THE OMISSION
 
 ## What most classes teach, and what they quietly skip.
 
 The popular promise is "code in thirty days". It works as a promise because typing is the easy part to teach and the easy part to demo. The hard part, the part that turns a coder into a programmer, is usually left out. Here is the line we draw.
 
-COLUMN A — COMMONLY TAUGHT
+COLUMN A: COMMONLY TAUGHT
 
 ### The how
 
@@ -53,7 +53,7 @@ COLUMN A — COMMONLY TAUGHT
 - Errors fixed by trial and error, not understanding.
 - A certificate at the end and a sense of momentum.
 
-COLUMN B — WHAT WE ADD
+COLUMN B: WHAT WE ADD
 
 ### The why and the under-the-hood
 
@@ -68,7 +68,7 @@ Take a simple example. A coder learns that a Python list has an in check and a d
 
 This is why our classes spend real time on things a tutorial rushes past: how data is laid out, why recursion and iteration trade off the way they do, what actually happens when you import a module, how a request travels across the web, and where the maths hides inside machine learning. We are unapologetically depth-first. If you want the fuller version of this philosophy, see how we built [real coding classes](/real-coding-classes) around teaching what other classes ignore.
 
-FIG. 03 — THE METHOD
+FIG. 03: THE METHOD
 
 ## How we develop programming ability, step by ordered step.
 
@@ -110,7 +110,7 @@ We slow you down on purpose at the start of a problem so you speed up everywhere
 
 There is rarely one right answer, only better and worse fits. Faster but heavier on memory, simpler but harder to extend, exact but slow. We train you to weigh these openly and explain why you chose what you chose. That judgement is engineering, and it is the ability employers and exams are really testing.
 
-FIG. 04 — THE PATHWAYS
+FIG. 04: THE PATHWAYS
 
 ## From coder to programmer, the courses that get you there.
 
@@ -118,7 +118,7 @@ Each of these is a live, small-batch course built around thinking, not memorisat
 
 SPEC-A1![Python Masterclass course thumbnail](/images/python-college.webp)
 
-### Python Masterclass — Zero to Advanced
+### Python Masterclass: Zero to Advanced
 
 Go from syntax to real fluency: data structures, internals, and the design habits that make Python code clean and fast.
 
@@ -152,7 +152,7 @@ Object-oriented design done properly: model real systems, write code that scales
 
 Direct AI coding tools like a programmer, not a passenger: judge their output, fix what they miss, and stay in command.
 
-[View course →](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals)[Book a free demo](/book-demo)[Browse all courses](/course-atlas)FIG. 05 — THE AUDIENCE
+[View course →](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals)[Book a free demo](/book-demo)[Browse all courses](/course-atlas)FIG. 05: THE AUDIENCE
 
 ## Who this is for.
 
@@ -176,11 +176,11 @@ PROFILE 03
 
 Exams and interviews test reasoning, not recall. We train the thinking that makes problem-solving rounds, coding tests and viva questions feel familiar instead of frightening.
 
-FIG. 06 — QUERIES
+FIG. 06: QUERIES
 
 ## Frequently asked questions.
 
-Q1Is coding the same as programming?Not quite. In everyday speech people use the words interchangeably, but they describe different parts of the same job. Coding is the act of writing source code in a language a computer understands. Programming is the wider discipline of analysing a problem, designing a solution, choosing the right structures and trade-offs, and then expressing that solution as code that is correct, readable and maintainable. Coding is one step inside programming. You can code without really programming, and good programmers spend far more time thinking than typing.Q2Do I need maths to become a programmer?You do not need advanced maths to start, and most everyday programming relies on clear logical thinking rather than heavy mathematics. That said, mathematics sharpens the exact reasoning programming depends on: logic, sets, counting, and a feel for how cost grows as inputs grow. For specific fields the maths matters more, such as algorithms and complexity, graphics, cryptography, and especially AI and machine learning. We teach the maths you actually need, when you need it, alongside the code rather than as a separate hurdle.Q3I already know Python syntax — is this for me?Yes, and you are exactly the person who tends to benefit most. Knowing syntax means you can read and write Python, but it does not guarantee you can design a clean solution, choose the right data structure, debug methodically, or reason about why one approach is faster than another. Our classes start from where you are and push into the part most self-taught coders skip: problem decomposition, data structures and algorithms, reading other people's code, and defending your design choices. Many of our strongest students arrive already able to type code and leave able to truly engineer it.Q4What ages do you teach?We teach learners from age 6 to 67, and this page is aimed at the 10 to 65 range where genuine programming ability is the goal. Younger teens build foundations through problem solving and structured projects, college students prepare for placements and serious software work, and working adults reskill or deepen existing experience. Every batch is grouped by age and level so the pace and examples fit the learner.Q5Are classes live or recorded?All classes are live and instructor-led, taught in small batches so you can ask questions, get your code reviewed in real time, and be challenged when you reach for a shortcut. Programming ability grows through feedback and being stuck in front of someone who can guide you, which pre-recorded video cannot provide. You can revisit concepts with your mentor, and projects are checked and discussed rather than auto-graded.Q6How does the free demo work?Book a free demo class and you will join a live session with one of our instructors, matched to your age and current level. You will work through a real problem, not a sales pitch, so you can see how we teach thinking rather than memorisation. After the demo we suggest a learning path and the courses that fit your goals. There is no obligation to continue, and the demo is genuinely free.Q7Is it still worth learning to code now that AI can write code?Yes, arguably more than ever, but only if you learn to program rather than just to code. AI tools can generate syntax quickly, so typing code is no longer the scarce skill. What stays valuable is exactly what this page is about: understanding the problem, judging whether the AI's output is correct, designing systems, weighing trade-offs and debugging when things break. People who only copied code now compete with a machine that copies faster; people who can think like a programmer use these tools as a force multiplier. That is why we build genuine programming ability, not just AI-assisted typing.FIG. 07 — NEXT STEP
+Q1Is coding the same as programming?Not quite. In everyday speech people use the words interchangeably, but they describe different parts of the same job. Coding is the act of writing source code in a language a computer understands. Programming is the wider discipline of analysing a problem, designing a solution, choosing the right structures and trade-offs, and then expressing that solution as code that is correct, readable and maintainable. Coding is one step inside programming. You can code without really programming, and good programmers spend far more time thinking than typing.Q2Do I need maths to become a programmer?You do not need advanced maths to start, and most everyday programming relies on clear logical thinking rather than heavy mathematics. That said, mathematics sharpens the exact reasoning programming depends on: logic, sets, counting, and a feel for how cost grows as inputs grow. For specific fields the maths matters more, such as algorithms and complexity, graphics, cryptography, and especially AI and machine learning. We teach the maths you actually need, when you need it, alongside the code rather than as a separate hurdle.Q3I already know Python syntax, is this for me?Yes, and you are exactly the person who tends to benefit most. Knowing syntax means you can read and write Python, but it does not guarantee you can design a clean solution, choose the right data structure, debug methodically, or reason about why one approach is faster than another. Our classes start from where you are and push into the part most self-taught coders skip: problem decomposition, data structures and algorithms, reading other people's code, and defending your design choices. Many of our strongest students arrive already able to type code and leave able to truly engineer it.Q4What ages do you teach?We teach learners from age 6 to 67, and this page is aimed at the 10 to 65 range where genuine programming ability is the goal. Younger teens build foundations through problem solving and structured projects, college students prepare for placements and serious software work, and working adults reskill or deepen existing experience. Every batch is grouped by age and level so the pace and examples fit the learner.Q5Are classes live or recorded?All classes are live and instructor-led, taught in small batches so you can ask questions, get your code reviewed in real time, and be challenged when you reach for a shortcut. Programming ability grows through feedback and being stuck in front of someone who can guide you, which pre-recorded video cannot provide. You can revisit concepts with your mentor, and projects are checked and discussed rather than auto-graded.Q6How does the free demo work?Book a free demo class and you will join a live session with one of our instructors, matched to your age and current level. You will work through a real problem, not a sales pitch, so you can see how we teach thinking rather than memorisation. After the demo we suggest a learning path and the courses that fit your goals. There is no obligation to continue, and the demo is genuinely free.Q7Is it still worth learning to code now that AI can write code?Yes, arguably more than ever, but only if you learn to program rather than just to code. AI tools can generate syntax quickly, so typing code is no longer the scarce skill. What stays valuable is exactly what this page is about: understanding the problem, judging whether the AI's output is correct, designing systems, weighing trade-offs and debugging when things break. People who only copied code now compete with a machine that copies faster; people who can think like a programmer use these tools as a force multiplier. That is why we build genuine programming ability, not just AI-assisted typing.FIG. 07: NEXT STEP
 
 ## Stop typing code. Start thinking like a programmer.
 
@@ -194,7 +194,7 @@ Real student projects
 
 Every one is a real, live project shipped by a Modern Age Coders student. Explore more in [Student Labs](/student-labs).
 
-[![Babu — 90 Second Maths Challenge](/images/projects/babu.webp)GameBabu — 90 Second Maths ChallengeAn exciting 90-second maths challenge with random problems under time pressure, and a dynamic leaderboard powered by Firebase/MongoDB with real-time score updates.by Modern Age CodersOpen the live project ↗](https://babu.modernagecoders.com)[![NutriLife — AI Nutrition Coach](/images/projects/nutrilife.webp)AI & MLNutriLife — AI Nutrition CoachSnap a photo of any meal and NutriLife instantly names every food, then breaks down the calories, macros, vitamins and minerals — powered by AI. Bhavya vibe-coded it from a single idea: shaped the app in prompts, then wired up the AI food-recognition, daily tracking and smart coaching by hand.by BhavyaOpen the live project ↗](https://nutrilife-bhavya.lovable.app)[![GuardianX — AI Bodyguard for the Internet](/images/projects/guardianx.webp)AI & MLGuardianX — AI Bodyguard for the InternetPaste any suspicious link or message and GuardianX returns an instant AI verdict before you become a victim — plus a link scanner, safety score, breach check and live scam alerts built for India. Vibe-coded from idea to working product through prompts, then refined until it genuinely understands how phishing and scams work.by VivaanOpen the live project ↗](https://guardianx-cybersaver.lovable.app)
+[![Babu, 90 Second Maths Challenge](/images/projects/babu.webp)GameBabu, 90 Second Maths ChallengeAn exciting 90-second maths challenge with random problems under time pressure, and a dynamic leaderboard powered by Firebase/MongoDB with real-time score updates.by Modern Age CodersOpen the live project ↗](https://babu.modernagecoders.com)[![NutriLife, AI Nutrition Coach](/images/projects/nutrilife.webp)AI & MLNutriLife, AI Nutrition CoachSnap a photo of any meal and NutriLife instantly names every food, then breaks down the calories, macros, vitamins and minerals, powered by AI. Bhavya vibe-coded it from a single idea: shaped the app in prompts, then wired up the AI food-recognition, daily tracking and smart coaching by hand.by BhavyaOpen the live project ↗](https://nutrilife-bhavya.lovable.app)[![GuardianX, AI Bodyguard for the Internet](/images/projects/guardianx.webp)AI & MLGuardianX, AI Bodyguard for the InternetPaste any suspicious link or message and GuardianX returns an instant AI verdict before you become a victim, plus a link scanner, safety score, breach check and live scam alerts built for India. Vibe-coded from idea to working product through prompts, then refined until it genuinely understands how phishing and scams work.by VivaanOpen the live project ↗](https://guardianx-cybersaver.lovable.app)
 
 Parent & student voices
 

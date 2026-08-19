@@ -17,7 +17,7 @@
     <!-- SEO Meta Tags -->
     <meta name="description" content="51+ practice questions on Subqueries (Nested Queries) and EXISTS in SQL. Easy, medium, and hard questions with hints, answers, and coding challenges.">
     <!-- meta keywords intentionally not emitted: Google has ignored it since 2009 and Bing
-         treats it as a SPAM SIGNAL — and Bing is the index ChatGPT/Copilot answer from.
+         treats it as a SPAM SIGNAL, and Bing is the index ChatGPT/Copilot answer from.
          See scripts/strip-meta-keywords.py. -->
     <meta name="author" content="Modern Age Coders">
     <meta name="robots" content="index, follow">
@@ -138,7 +138,7 @@
                 <span class="badge badge-intermediate">Intermediate</span>
                 <span class="badge badge-questions">51 Questions</span>
             </div>
-            <h1 class="resource-title">Practice Questions &mdash; Subqueries (Nested Queries) and EXISTS</h1>
+            <h1 class="resource-title">Practice Questions: Subqueries (Nested Queries) and EXISTS</h1>
             <a href="/resources/sql/subqueries-and-nested-queries" class="notes-link">&larr; Back to Notes</a>
         </div><!-- /resource-header -->
 
@@ -172,7 +172,7 @@
 <div class="question-card">
                 <div class="question-number">Question 3</div>
                 <span class="question-difficulty easy">Easy</span>
-                <div class="question-text">What does EXISTS return?</div><button type="button" class="collapsible-toggle" data-target="hint-ts-3" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-3">Based on whether the subquery has rows.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-3" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-3"><code>TRUE if the subquery produces at least one row, FALSE otherwise. Row contents do not matter — it only checks existence.</code></div></div>
+                <div class="question-text">What does EXISTS return?</div><button type="button" class="collapsible-toggle" data-target="hint-ts-3" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-3">Based on whether the subquery has rows.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-3" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-3"><code>TRUE if the subquery produces at least one row, FALSE otherwise. Row contents do not matter. It only checks existence.</code></div></div>
 <div class="question-card">
                 <div class="question-number">Question 4</div>
                 <span class="question-difficulty easy">Easy</span>
@@ -336,7 +336,7 @@ WHERE 2 = (
 <div class="question-card">
                 <div class="question-number">MCQ 2</div>
                 <div class="question-text">What does EXISTS return?</div>
-                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> The matching rows from the subquery</li><li><span class="mcq-option-label">B.</span> TRUE if the subquery has at least one row; FALSE otherwise</li><li><span class="mcq-option-label">C.</span> The count of rows</li><li><span class="mcq-option-label">D.</span> NULL if no rows</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-2" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-2"><strong>Answer: B</strong><br><strong>B is correct.</strong> EXISTS is a boolean test — it only checks whether the subquery produced any rows; the contents are ignored.</div></div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> The matching rows from the subquery</li><li><span class="mcq-option-label">B.</span> TRUE if the subquery has at least one row; FALSE otherwise</li><li><span class="mcq-option-label">C.</span> The count of rows</li><li><span class="mcq-option-label">D.</span> NULL if no rows</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-2" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-2"><strong>Answer: B</strong><br><strong>B is correct.</strong> EXISTS is a boolean test. It only checks whether the subquery produced any rows; the contents are ignored.</div></div>
 <div class="question-card">
                 <div class="question-number">MCQ 3</div>
                 <div class="question-text">Which operator is equivalent to <code>= ANY</code>?</div>
@@ -368,7 +368,7 @@ WHERE 2 = (
 <div class="question-card">
                 <div class="question-number">MCQ 10</div>
                 <div class="question-text">Which query finds the 2nd highest distinct salary?</div>
-                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> SELECT MAX(salary) FROM employees WHERE salary &lt; MAX(salary)</li><li><span class="mcq-option-label">B.</span> SELECT DISTINCT salary FROM employees ORDER BY salary DESC LIMIT 1 OFFSET 1</li><li><span class="mcq-option-label">C.</span> SELECT MAX(salary) FROM employees</li><li><span class="mcq-option-label">D.</span> SELECT MIN(salary) FROM employees</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-10" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-10"><strong>Answer: B</strong><br><strong>B is correct.</strong> DISTINCT removes duplicate salaries, ORDER BY DESC puts highest first, OFFSET 1 skips the first, LIMIT 1 takes one — the 2nd highest distinct salary. A is invalid (aggregate with aggregate).</div></div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> SELECT MAX(salary) FROM employees WHERE salary &lt; MAX(salary)</li><li><span class="mcq-option-label">B.</span> SELECT DISTINCT salary FROM employees ORDER BY salary DESC LIMIT 1 OFFSET 1</li><li><span class="mcq-option-label">C.</span> SELECT MAX(salary) FROM employees</li><li><span class="mcq-option-label">D.</span> SELECT MIN(salary) FROM employees</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-10" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-10"><strong>Answer: B</strong><br><strong>B is correct.</strong> DISTINCT removes duplicate salaries, ORDER BY DESC puts highest first, OFFSET 1 skips the first, LIMIT 1 takes one, the 2nd highest distinct salary. A is invalid (aggregate with aggregate).</div></div>
 <div class="question-card">
                 <div class="question-number">MCQ 11</div>
                 <div class="question-text">What does a subquery in the SELECT list typically do?</div>

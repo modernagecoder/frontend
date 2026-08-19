@@ -179,7 +179,7 @@
       },
       {
         "type": "paragraph",
-        "text": "Before we start coding, you'll need to install Python on your computer. Visit <a href='https://python.org' target='_blank' rel='noopener'>python.org</a> and download the latest version (Python 3.11 or newer). The installation is straightforward—just follow the installer prompts and make sure to check the box that says 'Add Python to PATH' during installation."
+        "text": "Before we start coding, you'll need to install Python on your computer. Visit <a href='https://python.org' target='_blank' rel='noopener'>python.org</a> and download the latest version (Python 3.11 or newer). The installation is straightforward, just follow the installer prompts and make sure to check the box that says 'Add Python to PATH' during installation."
       },
       {
         "type": "paragraph",
@@ -294,7 +294,7 @@
         "type": "callout",
         "calloutType": "success",
         "title": "Milestone Achieved!",
-        "text": "You now understand variables, data types, and basic operations—the foundation of all Python programs. These concepts appear in every program you'll ever write!"
+        "text": "You now understand variables, data types, and basic operations, the foundation of all Python programs. These concepts appear in every program you'll ever write!"
       },
       {
         "type": "heading",
@@ -370,7 +370,7 @@
       },
       {
         "type": "paragraph",
-        "text": "Loops are one of the most powerful features in programming. They let you repeat code without writing it multiple times, making your programs efficient and scalable. Imagine having to write 'print' 100 times versus using a loop—that's the power we're talking about!"
+        "text": "Loops are one of the most powerful features in programming. They let you repeat code without writing it multiple times, making your programs efficient and scalable. Imagine having to write 'print' 100 times versus using a loop. That's the power we're talking about!"
       },
       {
         "type": "paragraph",
@@ -402,7 +402,7 @@
         "type": "callout",
         "calloutType": "success",
         "title": "Milestone Achieved!",
-        "text": "You've mastered conditionals and loops—the core control flow structures! With these, you can build programs that make decisions and repeat actions, which covers 80% of programming logic."
+        "text": "You've mastered conditionals and loops, the core control flow structures! With these, you can build programs that make decisions and repeat actions, which covers 80% of programming logic."
       },
       {
         "type": "heading",
@@ -412,7 +412,7 @@
       },
       {
         "type": "paragraph",
-        "text": "Lists are like containers that can hold multiple items in a specific order. Think of them as a shopping list or a playlist—they keep track of multiple values under one variable name. Lists are one of Python's most versatile data structures."
+        "text": "Lists are like containers that can hold multiple items in a specific order. Think of them as a shopping list or a playlist. They keep track of multiple values under one variable name. Lists are one of Python's most versatile data structures."
       },
       {
         "type": "paragraph",
@@ -465,7 +465,7 @@
       },
       {
         "type": "paragraph",
-        "text": "Functions are reusable blocks of code that perform specific tasks. They help you organize code, avoid repetition, and make your programs more maintainable. Think of functions as recipes—you define them once and use them whenever needed!"
+        "text": "Functions are reusable blocks of code that perform specific tasks. They help you organize code, avoid repetition, and make your programs more maintainable. Think of functions as recipes. You define them once and use them whenever needed!"
       },
       {
         "type": "heading",
@@ -510,7 +510,7 @@
         "type": "callout",
         "calloutType": "success",
         "title": "Milestone Achieved!",
-        "text": "You've learned functions—one of the most important concepts in programming! Functions let you write modular, reusable code that's easier to test and maintain."
+        "text": "You've learned functions, one of the most important concepts in programming! Functions let you write modular, reusable code that's easier to test and maintain."
       },
       {
         "type": "quote",
@@ -628,7 +628,7 @@
         "type": "callout",
         "calloutType": "success",
         "title": "Final Milestone!",
-        "text": "Congratulations! You've completed the Python basics tutorial. You now know variables, operators, conditionals, loops, lists, dictionaries, functions, error handling, and modules—everything you need to build real programs!"
+        "text": "Congratulations! You've completed the Python basics tutorial. You now know variables, operators, conditionals, loops, lists, dictionaries, functions, error handling, and modules, everything you need to build real programs!"
       },
       {
         "type": "heading",
@@ -685,7 +685,7 @@
         "items": [
           {
             "title": "How long does it take to learn Python for beginners?",
-            "content": "Most beginners can grasp Python basics in 4-8 weeks with consistent practice (1-2 hours daily). However, becoming proficient takes 3-6 months of regular coding. The key is daily practice—even 30 minutes a day is better than cramming on weekends. Start with simple programs and gradually increase complexity."
+            "content": "Most beginners can grasp Python basics in 4-8 weeks with consistent practice (1-2 hours daily). However, becoming proficient takes 3-6 months of regular coding. The key is daily practice, even 30 minutes a day is better than cramming on weekends. Start with simple programs and gradually increase complexity."
           },
           {
             "title": "Do I need to know math to learn Python?",
@@ -693,7 +693,7 @@
           },
           {
             "title": "What's the best way to practice Python?",
-            "content": "Build projects! Start with simple programs like calculators, to-do lists, or games. Use platforms like HackerRank, LeetCode, or Codewars for coding challenges. Most importantly, code every day—consistency beats intensity. Try to solve real problems you encounter in daily life with Python."
+            "content": "Build projects! Start with simple programs like calculators, to-do lists, or games. Use platforms like HackerRank, LeetCode, or Codewars for coding challenges. Most importantly, code every day, consistency beats intensity. Try to solve real problems you encounter in daily life with Python."
           },
           {
             "title": "Should I learn Python 2 or Python 3?",
@@ -709,7 +709,7 @@
           },
           {
             "title": "What should I learn after Python basics?",
-            "content": "After mastering basics, explore: Object-Oriented Programming (OOP), file handling, APIs and web scraping, web frameworks (Flask/Django), data analysis (Pandas, NumPy), databases (SQL), version control (Git), and testing. Choose based on your interests—web development, data science, or automation."
+            "content": "After mastering basics, explore: Object-Oriented Programming (OOP), file handling, APIs and web scraping, web frameworks (Flask/Django), data analysis (Pandas, NumPy), databases (SQL), version control (Git), and testing. Choose based on your interests, web development, data science, or automation."
           }
         ]
       },
@@ -739,7 +739,7 @@
       },
       {
         "type": "paragraph",
-        "text": "Remember, the best way to learn Python programming is by doing. Write code every day, even if it's just for 15 minutes. Don't be afraid to make mistakes—they're your best teachers! Every expert programmer started exactly where you are now. The difference is they kept practicing and building."
+        "text": "Remember, the best way to learn Python programming is by doing. Write code every day, even if it's just for 15 minutes. Don't be afraid to make mistakes. They're your best teachers! Every expert programmer started exactly where you are now. The difference is they kept practicing and building."
       },
       {
         "type": "paragraph",

@@ -31,7 +31,7 @@ Once you have grouped rows, you often want to filter the groups themselves. "Sho
 
 ### 1. Every Summary Report Uses GROUP BY
 
-"Revenue per country," "Orders per month," "Active users per day," "Enrollments per course" — all GROUP BY queries. Business intelligence is 80% GROUP BY.
+"Revenue per country," "Orders per month," "Active users per day," "Enrollments per course", all GROUP BY queries. Business intelligence is 80% GROUP BY.
 
 ### 2. It's Where SQL Gets Powerful
 
@@ -43,7 +43,7 @@ Simple SELECT and WHERE queries are useful but limited. GROUP BY unlocks real an
 
 ### 4. Clause Order Misunderstandings Kill Careers
 
-Using an alias in WHERE, putting HAVING before GROUP BY, referencing an aggregate in WHERE — these are career-limiting mistakes in interviews. This chapter nails down the exact order.
+Using an alias in WHERE, putting HAVING before GROUP BY, referencing an aggregate in WHERE, these are career-limiting mistakes in interviews. This chapter nails down the exact order.
 
 ### 5. Every Interview Tests This
 
@@ -94,7 +94,7 @@ FROM sales
 GROUP BY region;
 ```
 
-Rows with the same `region` are collapsed into one group. `SUM(amount)` sums the amounts within each group. Result has 4 rows — one per region.
+Rows with the same `region` are collapsed into one group. `SUM(amount)` sums the amounts within each group. Result has 4 rows, one per region.
 
 ### 2. The Rule: Non-Aggregated Columns MUST Be in GROUP BY
 
@@ -106,10 +106,10 @@ SELECT region, SUM(amount) FROM sales GROUP BY region;
 
 -- BAD SQL (but MySQL may allow in lenient mode)
 SELECT region, salesperson, SUM(amount) FROM sales GROUP BY region;
--- salesperson isn't aggregated and isn't in GROUP BY — what should MySQL return?
+-- salesperson isn't aggregated and isn't in GROUP BY, what should MySQL return?
 ```
 
-MySQL's default strict mode (ONLY_FULL_GROUP_BY, since 5.7) throws an error. Old lenient mode silently picked an arbitrary value — a dangerous bug. **Always follow the rule.**
+MySQL's default strict mode (ONLY_FULL_GROUP_BY, since 5.7) throws an error. Old lenient mode silently picked an arbitrary value, a dangerous bug. **Always follow the rule.**
 
 ### 3. GROUP BY Multiple Columns
 
@@ -124,7 +124,7 @@ GROUP BY region, product;
 
 Groups are unique `(region, product)` pairs. North-Laptop, North-Phone, South-Laptop, etc.
 
-### 4. HAVING — Filtering Groups
+### 4. HAVING: Filtering Groups
 
 `HAVING` applies AFTER grouping. You can use aggregates in HAVING:
 
@@ -138,7 +138,7 @@ HAVING SUM(amount) > 100000;
 
 First, GROUP BY creates region groups with their sums. Then HAVING keeps only groups where the sum exceeds 100000.
 
-### 5. WHERE vs HAVING — The Critical Distinction
+### 5. WHERE vs HAVING: The Critical Distinction
 
 **WHERE filters rows BEFORE aggregation. HAVING filters groups AFTER.**
 
@@ -153,7 +153,7 @@ HAVING SUM(amount) > 100000;  -- filter groups: keep only big laptop regions
 
 WHERE trims the input. HAVING trims the groups. Different jobs, different clauses.
 
-### 6. Order of Clauses — Syntax vs Logic
+### 6. Order of Clauses: Syntax vs Logic
 
 **Syntactic order** (how you write it):
 
@@ -169,13 +169,13 @@ LIMIT n;
 
 **Logical execution order** (how SQL actually runs it):
 
-1. **FROM** — identify the table
-2. **WHERE** — filter rows
-3. **GROUP BY** — form groups
-4. **HAVING** — filter groups
-5. **SELECT** — compute selected columns and aggregates
-6. **ORDER BY** — sort
-7. **LIMIT** — trim to N
+1. **FROM**, identify the table
+2. **WHERE**, filter rows
+3. **GROUP BY**, form groups
+4. **HAVING**, filter groups
+5. **SELECT**, compute selected columns and aggregates
+6. **ORDER BY**, sort
+7. **LIMIT**, trim to N
 
 Two consequences:
 
@@ -225,7 +225,7 @@ GROUP BY region;
 
 Gives a complete per-region summary in one query.
 
-### 10. WITH ROLLUP — Adding Subtotals
+### 10. WITH ROLLUP: Adding Subtotals
 
 MySQL's `WITH ROLLUP` adds grand total (and subtotals for multi-column GROUP BY):
 
@@ -269,7 +269,7 @@ HAVING COUNT(*) > 2;
 
 ## Code Examples
 
-### Basic GROUP BY — Sales Per Region
+### Basic GROUP BY: Sales Per Region
 
 ```sql
 SELECT region, SUM(amount) AS total_sales
@@ -317,7 +317,7 @@ West    Laptop   2            127000
 West    Phone    1            26000
 ```
 
-### HAVING — Filter Groups by Aggregate
+### HAVING: Filter Groups by Aggregate
 
 ```sql
 -- Regions with total sales above 150000
@@ -338,7 +338,7 @@ South   160000.00
 West    153000.00
 ```
 
-### WHERE vs HAVING — Both in One Query
+### WHERE vs HAVING: Both in One Query
 
 ```sql
 -- For Laptop sales only, regions with total laptop revenue > 100000
@@ -349,7 +349,7 @@ GROUP BY region
 HAVING SUM(amount) > 100000; -- filter groups
 ```
 
-WHERE trims rows first (only Laptop sales — 7 rows). Then GROUP BY creates region groups. Then HAVING keeps groups with laptop revenue > 100000. North (55000+60000 = 115000), South (58000+57000 = 115000), West (65000+62000 = 127000) pass. East has only 1 laptop sale of 54000 and is excluded.
+WHERE trims rows first (only Laptop sales: 7 rows). Then GROUP BY creates region groups. Then HAVING keeps groups with laptop revenue > 100000. North (55000+60000 = 115000), South (58000+57000 = 115000), West (65000+62000 = 127000) pass. East has only 1 laptop sale of 54000 and is excluded.
 
 **Output:**
 
@@ -516,7 +516,7 @@ FROM sales
 GROUP BY region;
 ```
 
-In strict mode: ERROR 1055 (42000): Expression #2 of SELECT list is not in GROUP BY clause... In lenient mode: arbitrary salesperson value returned per region — silently wrong.
+In strict mode: ERROR 1055 (42000): Expression #2 of SELECT list is not in GROUP BY clause... In lenient mode: arbitrary salesperson value returned per region, silently wrong.
 
 **Correct:**
 
@@ -528,7 +528,7 @@ SELECT region, SUM(amount) FROM sales GROUP BY region;
 SELECT region, salesperson, SUM(amount) FROM sales GROUP BY region, salesperson;
 ```
 
-Every column in SELECT must either be in GROUP BY or inside an aggregate. MySQL's default strict mode enforces this. Picking an arbitrary value is a silent bug — you get 'some salesperson' for each region with no indication which.
+Every column in SELECT must either be in GROUP BY or inside an aggregate. MySQL's default strict mode enforces this. Picking an arbitrary value is a silent bug. You get 'some salesperson' for each region with no indication which.
 
 ### Confusing Clause Order
 
@@ -553,7 +553,7 @@ GROUP BY region
 HAVING SUM(amount) > 100000;
 ```
 
-The syntactic order is fixed: SELECT, FROM, WHERE, GROUP BY, HAVING, ORDER BY, LIMIT. You cannot reorder. Memorize this — the logical execution order differs, but the syntax order is rigid.
+The syntactic order is fixed: SELECT, FROM, WHERE, GROUP BY, HAVING, ORDER BY, LIMIT. You cannot reorder. Memorize this, the logical execution order differs, but the syntax order is rigid.
 
 ### Using WHERE Alias
 
@@ -623,7 +623,7 @@ Plain GROUP BY cannot return 'top N per group.' LIMIT applies to the whole resul
 - Logical execution order: FROM → WHERE → GROUP BY → HAVING → SELECT → ORDER BY → LIMIT. Aggregates and aliases are created in SELECT.
 - WHERE cannot reference aggregates or SELECT aliases (they don't exist yet). HAVING and ORDER BY can (MySQL/PostgreSQL differ slightly).
 - WITH ROLLUP (MySQL) adds subtotals and a grand total row where grouped columns are NULL. Useful for executive reports.
-- GROUP BY alone cannot return 'top N per group.' That pattern needs window functions (ROW_NUMBER, RANK) — covered in chapter 18.
+- GROUP BY alone cannot return 'top N per group.' That pattern needs window functions (ROW_NUMBER, RANK), covered in chapter 18.
 
 ## Related Topics
 

@@ -108,7 +108,7 @@ Print("Hello")
 
 **Answer:** NameError: name Print is not defined
 
-Python is case-sensitive. print() is valid but Print() is not — Python treats them as different names. Always use lowercase print().
+Python is case-sensitive. print() is valid but Print() is not: Python treats them as different names. Always use lowercase print().
 
 ### Q8. [Medium] What is the output?
 
@@ -169,7 +169,7 @@ True and False = False (both must be True). True or False = True (at least one T
 print("My name is Priya.")
 ```
 
-The print() function outputs whatever text you place inside the parentheses and quotes. You can replace 'Priya' with any name. The text inside the quotes is called a 'string' — you will learn more about strings in later chapters.
+The print() function outputs whatever text you place inside the parentheses and quotes. You can replace 'Priya' with any name. The text inside the quotes is called a 'string'. You will learn more about strings in later chapters.
 
 ### Q12. [Medium] Write a program that prints numbers from 1 to 5, each on a new line.
 
@@ -248,13 +248,13 @@ Pto
 
 **Answer:** Companies choose Python because **developer productivity is often more important than program execution speed**. Python allows developers to write code faster, read it more easily, and maintain it with less effort. For tasks where speed is critical, Python can use C/C++ extensions or specialized libraries like NumPy that run computationally intensive parts in compiled code.
 
-While Python code runs slower than C++ code, the difference rarely matters for most applications (web servers, data processing scripts, automation). Developer time is expensive — a task that takes 2 days in C++ might take 2 hours in Python. Additionally, Python's rich ecosystem of optimized libraries (NumPy, TensorFlow) handles performance-critical operations in compiled code under the hood, giving you the best of both worlds.
+While Python code runs slower than C++ code, the difference rarely matters for most applications (web servers, data processing scripts, automation). Developer time is expensive, a task that takes 2 days in C++ might take 2 hours in Python. Additionally, Python's rich ecosystem of optimized libraries (NumPy, TensorFlow) handles performance-critical operations in compiled code under the hood, giving you the best of both worlds.
 
 ### Q18. [Hard] What was the ABC language, and how did it influence the creation of Python?
 
 *Hint:* Guido van Rossum worked on ABC before Python. Think about what ABC did well and where it fell short.
 
-**Answer:** ABC was a programming language developed at CWI in the Netherlands. It was designed to be easy to teach and use. Guido van Rossum worked on the ABC project and was inspired by its simplicity and readability. However, ABC had limitations — it was not **extensible** (you could not add new features easily) and was not suitable for real-world tasks. Python was created to keep ABC's readability while adding the flexibility and power needed for practical programming.
+**Answer:** ABC was a programming language developed at CWI in the Netherlands. It was designed to be easy to teach and use. Guido van Rossum worked on the ABC project and was inspired by its simplicity and readability. However, ABC had limitations. It was not **extensible** (you could not add new features easily) and was not suitable for real-world tasks. Python was created to keep ABC's readability while adding the flexibility and power needed for practical programming.
 
 Understanding Python's origins helps explain its design philosophy. Python inherited ABC's focus on clean syntax and readability but added features like modules, exceptions, and the ability to interface with other languages (like C). This combination of simplicity and power is what made Python successful where ABC was not.
 
@@ -262,7 +262,7 @@ Understanding Python's origins helps explain its design philosophy. Python inher
 
 *Hint:* Think about cost, community, and who is responsible for fixing bugs.
 
-**Answer:** **Open-source software** is software whose source code is publicly available for anyone to view, use, modify, and distribute. **Advantages:** (1) It is free to use, removing financial barriers, and (2) a large community of developers can contribute to improving it, finding bugs, and adding features. **Potential disadvantage:** There is no single company responsible for guaranteed support — if you encounter a problem, you rely on the community for help rather than a dedicated support team.
+**Answer:** **Open-source software** is software whose source code is publicly available for anyone to view, use, modify, and distribute. **Advantages:** (1) It is free to use, removing financial barriers, and (2) a large community of developers can contribute to improving it, finding bugs, and adding features. **Potential disadvantage:** There is no single company responsible for guaranteed support, if you encounter a problem, you rely on the community for help rather than a dedicated support team.
 
 Open-source software like Python, Linux, and Firefox has transformed the technology industry. The community-driven development model often produces high-quality software because thousands of developers review and improve the code. However, for businesses that need guaranteed support and service-level agreements, open-source can be a concern, which is why companies like Red Hat offer paid support for open-source products.
 
@@ -272,7 +272,7 @@ Open-source software like Python, Linux, and Firefox has transformed the technol
 
 *Hint:* Think about how easy it is to read, how much setup is needed, and how quickly you can see results.
 
-**Answer:** A beginner-friendly language has: (1) **Simple, readable syntax** that looks like natural language, (2) **Minimal setup** required to write and run your first program, (3) **Quick feedback** — you can see results immediately, (4) **Good error messages** that help you understand what went wrong, and (5) **Large community** with plenty of tutorials and help available.
+**Answer:** A beginner-friendly language has: (1) **Simple, readable syntax** that looks like natural language, (2) **Minimal setup** required to write and run your first program, (3) **Quick feedback**. You can see results immediately, (4) **Good error messages** that help you understand what went wrong, and (5) **Large community** with plenty of tutorials and help available.
 
 Python meets all of these criteria, which is why it is consistently recommended as the best first programming language. A language that requires you to write 10 lines of boilerplate code, understand complex concepts like memory management, and wait through a compilation step before seeing any output is much harder for beginners.
 
@@ -288,7 +288,7 @@ Django follows the 'batteries included' philosophy, providing a complete set of 
 
 *Hint:* The Python code is very close to the English instruction.
 
-**Answer:** In plain English, you might say: "Print the text Hello World on the screen." In Python, you write: `print("Hello, World!")`. The Python code is remarkably close to the English instruction — it uses the word **print** and puts the text in quotes. This closeness to natural language is what makes Python a "high-level" language.
+**Answer:** In plain English, you might say: "Print the text Hello World on the screen." In Python, you write: `print("Hello, World!")`. The Python code is remarkably close to the English instruction. It uses the word **print** and puts the text in quotes. This closeness to natural language is what makes Python a "high-level" language.
 
 This comparison illustrates why Python is considered readable. High-level languages aim to be as close to human thinking as possible. The closer the code is to natural language, the easier it is to learn, read, write, and debug. This is a deliberate design choice by Guido van Rossum.
 
@@ -298,13 +298,13 @@ This comparison illustrates why Python is considered readable. High-level langua
 
 **Answer:** A programming language is a **set of rules and instructions** that allows humans to communicate with computers. Just like we use natural languages (English, Hindi) to communicate with each other, we use programming languages to tell computers what tasks to perform.
 
-Computers only understand machine language (binary — 0s and 1s), which is extremely difficult for humans to write. Programming languages act as a bridge, allowing us to write instructions in a more human-readable form, which are then translated into machine language by interpreters or compilers.
+Computers only understand machine language (binary: 0s and 1s), which is extremely difficult for humans to write. Programming languages act as a bridge, allowing us to write instructions in a more human-readable form, which are then translated into machine language by interpreters or compilers.
 
 ### Q5. [Medium] Name three Python libraries and the fields they are used in.
 
 *Hint:* Think about data analysis, machine learning, and game development.
 
-**Answer:** (Any three) **pandas** — data science and data analysis, **TensorFlow** — artificial intelligence and deep learning, **Pygame** — game development, **NumPy** — scientific computing and mathematics, **Django** — web development, **Flask** — web development, **Matplotlib** — data visualization.
+**Answer:** (Any three) **pandas**, data science and data analysis, **TensorFlow**, artificial intelligence and deep learning, **Pygame**, game development, **NumPy**, scientific computing and mathematics, **Django**, web development, **Flask**, web development, **Matplotlib**, data visualization.
 
 Python's power comes largely from its ecosystem of libraries (also called packages or modules). A library is a collection of pre-written code that you can use in your programs. Instead of writing everything from scratch, you import a library and use its functions. This saves enormous amounts of time and effort.
 
@@ -328,7 +328,7 @@ While you can write Python code in any text editor, an IDE makes the experience 
 
 *Hint:* Think about what happens after learning the basics. Can you build real projects with Scratch?
 
-**Answer:** While Scratch and Logo are excellent for introducing very young children to programming concepts, they are **limited in what you can build** with them. Python is beginner-friendly AND powerful enough for professional use. You can start learning with simple print statements and eventually build real websites, data analysis tools, AI models, and professional software — all in the same language.
+**Answer:** While Scratch and Logo are excellent for introducing very young children to programming concepts, they are **limited in what you can build** with them. Python is beginner-friendly AND powerful enough for professional use. You can start learning with simple print statements and eventually build real websites, data analysis tools, AI models, and professional software, all in the same language.
 
 Scratch uses visual blocks and is great for ages 6-10, but you cannot build a website or analyze data with it. Logo is mainly for drawing. Python bridges the gap between 'learning languages' and 'professional languages'. The skills you learn in Python transfer directly to real-world jobs and projects, making the time investment worthwhile.
 
@@ -342,7 +342,7 @@ print(12 * 15)
 
 Output: 180
 
-You can put mathematical expressions directly inside the print() function. Python evaluates the expression first (12 * 15 = 180) and then prints the result. Notice that we do NOT put quotes around 12 * 15 — if we did, Python would print the text '12 * 15' instead of calculating the answer.
+You can put mathematical expressions directly inside the print() function. Python evaluates the expression first (12 * 15 = 180) and then prints the result. Notice that we do NOT put quotes around 12 * 15, if we did, Python would print the text '12 * 15' instead of calculating the answer.
 
 ### Q10. [Medium] What would happen if Python were a compiled language instead of an interpreted language? How would the development process change?
 
@@ -412,7 +412,7 @@ D. Machine language
 
 **Answer:** B
 
-**B is correct.** Python is an interpreted language — the interpreter reads and executes code one line at a time. A compiled language (like C++) requires the entire code to be converted to machine code before execution. Assembly language is a low-level language that uses mnemonics. Machine language is binary code (0s and 1s) that the CPU directly executes.
+**B is correct.** Python is an interpreted language, the interpreter reads and executes code one line at a time. A compiled language (like C++) requires the entire code to be converted to machine code before execution. Assembly language is a low-level language that uses mnemonics. Machine language is binary code (0s and 1s) that the CPU directly executes.
 
 ### Q5. [Easy] Which of the following is the correct way to print "Hello" in Python 3?
 
@@ -478,7 +478,7 @@ D. It runs at a higher speed than other languages
 
 **Answer:** B
 
-**B is correct.** High-level means the language is closer to human language (English) and abstracts away the complex details of the hardware. Option A is wrong — Python runs on any computer. Option C is wrong — 'high-level' is a classification, not a quality ranking. Option D is wrong — high-level languages are often slower than low-level languages because of the abstraction.
+**B is correct.** High-level means the language is closer to human language (English) and abstracts away the complex details of the hardware. Option A is wrong, Python runs on any computer. Option C is wrong, 'high-level' is a classification, not a quality ranking. Option D is wrong, high-level languages are often slower than low-level languages because of the abstraction.
 
 ### Q11. [Medium] Which company's backend is built entirely using Python's Django framework?
 
@@ -500,7 +500,7 @@ D. Python automatically fixes the error
 
 **Answer:** B
 
-**B is correct.** Since Python is interpreted (line by line), lines 1-4 execute normally, and the program stops at line 5 when the error is encountered. Option A describes compiler behavior (where no lines run if there is an error). Option C is wrong — Python does not skip errors. Option D is wrong — Python reports errors but does not fix them automatically.
+**B is correct.** Since Python is interpreted (line by line), lines 1-4 execute normally, and the program stops at line 5 when the error is encountered. Option A describes compiler behavior (where no lines run if there is an error). Option C is wrong, Python does not skip errors. Option D is wrong, Python reports errors but does not fix them automatically.
 
 ### Q13. [Medium] Which of the following is a Python library used for data analysis?
 
@@ -533,7 +533,7 @@ D. January 1, 2022
 
 **Answer:** C
 
-**C is correct.** Python 2 reached its end of life on January 1, 2020. After this date, Python 2 no longer receives any updates, security patches, or bug fixes. The other dates are incorrect — the end-of-life was originally planned for 2015 but was extended to 2020.
+**C is correct.** Python 2 reached its end of life on January 1, 2020. After this date, Python 2 no longer receives any updates, security patches, or bug fixes. The other dates are incorrect, the end-of-life was originally planned for 2015 but was extended to 2020.
 
 ### Q16. [Hard] Why does Python use an interpreter instead of a compiler?
 
@@ -544,7 +544,7 @@ D. Because Python code is too complex for a compiler
 
 **Answer:** C
 
-**C is correct.** Python uses an interpreter because it allows developers to test code quickly, see results line by line, and use the interactive REPL. Option A is wrong — compilers existed long before Python. Option B is wrong — compiled code typically runs faster, not slower. Option D is wrong — Python code is simpler than most compiled languages.
+**C is correct.** Python uses an interpreter because it allows developers to test code quickly, see results line by line, and use the interactive REPL. Option A is wrong, compilers existed long before Python. Option B is wrong, compiled code typically runs faster, not slower. Option D is wrong: Python code is simpler than most compiled languages.
 
 ### Q17. [Hard] Which of the following statements about Python is FALSE?
 
@@ -555,7 +555,7 @@ D. Python was created by Guido van Rossum
 
 **Answer:** C
 
-**C is the FALSE statement and therefore the correct answer.** Python is an interpreted language — it does NOT need to be compiled before running. The interpreter executes code line by line. Options A, B, and D are all true statements about Python.
+**C is the FALSE statement and therefore the correct answer.** Python is an interpreted language. It does NOT need to be compiled before running. The interpreter executes code line by line. Options A, B, and D are all true statements about Python.
 
 ### Q18. [Hard] What is the output of typing 2 ** 10 in the Python REPL?
 
@@ -588,7 +588,7 @@ D. It will show a SyntaxError
 
 **Answer:** C
 
-**C is correct.** Python is case-sensitive, so `Print` and `print` are different names. Since `Print` (with capital P) is not defined anywhere, Python raises a `NameError: name 'Print' is not defined`. Option A is wrong because the capital P matters. Option B is wrong — Python does not auto-correct case. Option D is wrong — it is a NameError, not a SyntaxError.
+**C is correct.** Python is case-sensitive, so `Print` and `print` are different names. Since `Print` (with capital P) is not defined anywhere, Python raises a `NameError: name 'Print' is not defined`. Option A is wrong because the capital P matters. Option B is wrong, Python does not auto-correct case. Option D is wrong, it is a NameError, not a SyntaxError.
 
 ### Q21. [Hard] Which of the following is NOT a feature that Python inherited from the ABC language?
 
@@ -714,7 +714,7 @@ print("Like a diamond in the sky.")
 
 **Difficulty:** Medium
 
-Use Python as a calculator to solve the following expression and print the result: (25 + 17) * 3. Do NOT calculate the answer yourself — let Python do the math.
+Use Python as a calculator to solve the following expression and print the result: (25 + 17) * 3. Do NOT calculate the answer yourself, let Python do the math.
 
 **Constraints:**
 
@@ -858,7 +858,7 @@ Write a Python program that prints the first 5 lines of the multiplication table
 
 **Constraints:**
 
-- Use print() with mathematical expressions. Do not calculate the answers yourself — let Python compute 7*1, 7*2, etc. You have not learned string formatting yet, so use separate print statements.
+- Use print() with mathematical expressions. Do not calculate the answers yourself, let Python compute 7*1, 7*2, etc. You have not learned string formatting yet, so use separate print statements.
 
 **Sample input:**
 

@@ -33,7 +33,7 @@ Without input, your programs can only work with pre-written values. A calculator
 
 ### 2. The Critical Rule: input() Always Returns a String
 
-This is the single most important fact in this chapter. No matter what the user types — a number, a decimal, even `True` — the `input()` function **always returns a string**. If the user types `25`, Python stores it as `"25"`. If you try to do `"25" + "10"`, you get `"2510"` (string concatenation), not `35` (addition). This is why type conversion is not optional — it is mandatory whenever you need to do math with user input.
+This is the single most important fact in this chapter. No matter what the user types, a number, a decimal, even `True`, the `input()` function **always returns a string**. If the user types `25`, Python stores it as `"25"`. If you try to do `"25" + "10"`, you get `"2510"` (string concatenation), not `35` (addition). This is why type conversion is not optional. It is mandatory whenever you need to do math with user input.
 
 ### 3. Preventing Errors in Your Programs
 
@@ -63,10 +63,10 @@ When Python executes this line, it prints `Enter your name: ` on the screen and 
 
 #### Key Facts About input()
 
-- It **always returns a string** — this is the most important thing to remember.
+- It **always returns a string**. This is the most important thing to remember.
 - The prompt message is optional. `input()` with no argument still works; it just shows a blank cursor.
 - The program **pauses** until the user presses Enter.
-- The trailing newline (when the user presses Enter) is **stripped automatically** — it is not included in the returned string.
+- The trailing newline (when the user presses Enter) is **stripped automatically**. It is not included in the returned string.
 - If you add a space at the end of the prompt (`"Enter name: "`), the cursor appears right after the colon, which looks cleaner.
 
 ### 2. Why input() Returns a String
@@ -99,7 +99,7 @@ The `float()` function converts a value to a floating-point number:
 - **Integers:** `float(42)` gives `42.0`
 - **Booleans:** `float(True)` gives `1.0`
 
-`float()` is more flexible than `int()` — it can handle strings with or without decimal points.
+`float()` is more flexible than `int()`. It can handle strings with or without decimal points.
 
 #### str() - Converting to String
 
@@ -126,10 +126,10 @@ This is called **nesting** function calls. Python evaluates from the inside out:
 
 If you try to convert a value that does not make sense for the target type, Python raises a `ValueError`:
 
-- `int("hello")` — ValueError ("hello" is not a number)
-- `int("3.14")` — ValueError (contains a decimal point; int cannot handle this directly)
-- `int("")` — ValueError (empty string)
-- `float("abc")` — ValueError ("abc" is not a number)
+- `int("hello")`, ValueError ("hello" is not a number)
+- `int("3.14")`, ValueError (contains a decimal point; int cannot handle this directly)
+- `int("")`, ValueError (empty string)
+- `float("abc")`, ValueError ("abc" is not a number)
 
 You will learn how to handle these errors gracefully using `try-except` in a later chapter. For now, always make sure the user enters valid data.
 

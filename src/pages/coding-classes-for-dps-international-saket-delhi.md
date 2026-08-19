@@ -10,21 +10,21 @@ Exclusive for DPS Saket, South Delhi
 
 # Coding & Maths Classes for DPS Saket Students
 
-Live online classes in Python, Java, AI, Web Development & IGCSE Mathematics — designed around your DPS Saket schedule. Small batches. Expert instructors. Real projects.
+Live online classes in Python, Java, AI, Web Development & IGCSE Mathematics, designed around your DPS Saket schedule. Small batches. Expert instructors. Real projects.
 
- 10,000+ Students Taught  4.9/5 Parent Rating  IGCSE / Cambridge Aligned  AI-Powered Learning [See How We Teach — Live Classes](/how-we-teach)Book a Free Live Class
+ 10,000+ Students Taught  4.9/5 Parent Rating  IGCSE / Cambridge Aligned  AI-Powered Learning [See How We Teach: Live Classes](/how-we-teach)Book a Free Live Class
 
 ✔ 100% live online classes • Watch real lessons free • No commitment
 
-## Coding & Maths for DPS International Saket Students — At a Glance
+## Coding & Maths for DPS International Saket Students: At a Glance
 
-Modern Age Coders runs **live online coding and mathematics classes built specifically for students of DPS International, Saket, New Delhi** — precisely mapped to the [CBSE](/coding-for-cbse-students) curriculum DPS International Saket follows. Students learn Python, AI/ML, Java and web development plus [CBSE board, JEE-foundation & Olympiad mathematics](/online-maths-tuition). Ultra-small batches of 4–6 (or 1-on-1), every class recorded. Fees start at ₹1,499/month and every family begins with a free demo class. [See exactly how we teach →](/how-we-teach)
+Modern Age Coders runs **live online coding and mathematics classes built specifically for students of DPS International, Saket, New Delhi**, precisely mapped to the [CBSE](/coding-for-cbse-students) curriculum DPS International Saket follows. Students learn Python, AI/ML, Java and web development plus [CBSE board, JEE-foundation & Olympiad mathematics](/online-maths-tuition). Ultra-small batches of 4–6 (or 1-on-1), every class recorded. Fees start at ₹1,499/month and every family begins with a free demo class. [See exactly how we teach →](/how-we-teach)
 
 BoardCBSE + JEE FoundationSubjectsPython, AI/ML, Java, Web Dev, Scratch + MathsBatch Size4–6 students (or 1-on-1)TimingsWeekdays 4–8 PM · Weekends 9 AM–6 PMFeesFrom ₹1,499/month · Free demo classFormat100% live online · Every class recorded
 
 ## How We Teach DPS International Saket Students
 
-No marketing fluff — watch a real class before you decide. Our open [teaching demo library](/how-we-teach) shows exactly how we explain every concept, topic by topic and age by age. No sign-up, no payment.
+No marketing fluff. Watch a real class before you decide. Our open [teaching demo library](/how-we-teach) shows exactly how we explain every concept, topic by topic and age by age. No sign-up, no payment.
 
 ### Live, Never Recorded-Only
 
@@ -32,19 +32,19 @@ Real-time teaching in batches of just 4–6, so every DPS International Saket st
 
 ### Mapped to the CBSE Board
 
-Every lesson is tied to a real [CBSE](/coding-for-cbse-students) outcome and synced to the school's exam calendar — so class time always converts into board marks.
+Every lesson is tied to a real [CBSE](/coding-for-cbse-students) outcome and synced to the school's exam calendar, so class time always converts into board marks.
 
 ### Project-First, Not Slides
 
-Students build real Python apps, AI projects and websites from week one. Concepts stick because they're applied — and the projects become a portfolio for university applications.
+Students build real Python apps, AI projects and websites from week one. Concepts stick because they're applied, and the projects become a portfolio for university applications.
 
 ### Recorded + 1:1 Doubt Support
 
 Every class is recorded, so a school commitment never means lost learning. Dedicated doubt-clearing and 1:1 mentor time keep every student on track between sessions.
 
-### Don't take our word for it — watch a class
+### Don't take our word for it: watch a class
 
-See real recordings of how we teach Python, AI, fractions, algebra and calculus — organised by topic and age, completely free.
+See real recordings of how we teach Python, AI, fractions, algebra and calculus, organised by topic and age, completely free.
 
 [Watch Free Class Recordings](/how-we-teach)
 
@@ -98,7 +98,7 @@ DPS Saket learn to create real websites with HTML and CSS. Build personal web pa
 
 ### Python for Young Coders
 
-Start text-based coding with Python — directly aligned with the IGCSE / Cambridge Computer Science syllabus at DPS Saket. Build games, solve mathematical puzzles, and develop real programming skills.
+Start text-based coding with Python, directly aligned with the IGCSE / Cambridge Computer Science syllabus at DPS Saket. Build games, solve mathematical puzzles, and develop real programming skills.
 
 - ✓ Python Fundamentals & Variables
 - ✓ IGCSE-aligned Problem Solving
@@ -115,7 +115,7 @@ Advanced programming courses that complement IGCSE / Cambridge Computer Science,
 
 ### Python Programming
 
-Master Python — the language used by Google, Netflix, and NASA. Directly supports IGCSE / Cambridge Computer Science at DPS Saket and builds the computational thinking needed for JEE and JEE Advanced.
+Master Python, the language used by Google, Netflix, and NASA. Directly supports IGCSE / Cambridge Computer Science at DPS Saket and builds the computational thinking needed for JEE and JEE Advanced.
 
 - ✓ Python Fundamentals & OOP
 - ✓ Data Structures & Algorithms
@@ -126,7 +126,7 @@ Master Python — the language used by Google, Netflix, and NASA. Directly suppo
 
 ### Java Programming
 
-Master Java — a core language in the IGCSE / Cambridge Computer Science syllabus. Perfect for DPS Saket preparing for board exams and targeting engineering colleges like IIT, IIT Delhi, DTU, and NSIT.
+Master Java, a core language in the IGCSE / Cambridge Computer Science syllabus. Perfect for DPS Saket preparing for board exams and targeting engineering colleges like IIT, IIT Delhi, DTU, and NSIT.
 
 - ✓ Core Java & OOP Concepts
 - ✓ Data Structures in Java
@@ -137,7 +137,7 @@ Master Java — a core language in the IGCSE / Cambridge Computer Science syllab
 
 ### Full Stack Web Development
 
-Build complete websites and web applications from scratch. DPS Saket learn HTML, CSS, JavaScript, and React — skills that top engineering colleges and tech companies actively seek.
+Build complete websites and web applications from scratch. DPS Saket learn HTML, CSS, JavaScript, and React, skills that top engineering colleges and tech companies actively seek.
 
 - ✓ HTML, CSS, JavaScript
 - ✓ React Framework
@@ -148,7 +148,7 @@ Build complete websites and web applications from scratch. DPS Saket learn HTML,
 
 ### AI & Machine Learning
 
-Explore artificial intelligence and machine learning with Python. DPS Saket build real AI models and gain exposure to the technology driving the future — a powerful differentiator for college applications.
+Explore artificial intelligence and machine learning with Python. DPS Saket build real AI models and gain exposure to the technology driving the future, a powerful differentiator for college applications.
 
 - ✓ Python for AI
 - ✓ Machine Learning Basics
@@ -195,7 +195,7 @@ Max 5-8 students per batch ensures personalized attention for every learner
 
 ### Real Projects
 
-Build games, apps, websites & AI chatbots — not just theory, real deployable projects
+Build games, apps, websites & AI chatbots, not just theory, real deployable projects
 
 ### Flexi Schedule
 
@@ -205,7 +205,7 @@ Curriculum
 
 ## Epic Courses for Future Tech Leaders
 
-From beginner Scratch programming to advanced AI and competitive exam preparation — we have the perfect course for every DPS Saket student.
+From beginner Scratch programming to advanced AI and competitive exam preparation. We have the perfect course for every DPS Saket student.
 
 ### Python Programming
 
@@ -279,7 +279,7 @@ Trusted by DPS Schools Across Delhi
 
 ## We Also Teach Students from DPS Vasant Kunj
 
-Families from both DPS Saket and DPS Vasant Kunj trust Modern Age Coders for their children's tech education. Our IGCSE-aligned coding and maths curriculum is designed for all DPS Saket students — with **separate batches** also available for DPS Vasant Kunj families who prefer them. Students from Delhi's top schools learn with us.
+Families from both DPS Saket and DPS Vasant Kunj trust Modern Age Coders for their children's tech education. Our IGCSE-aligned coding and maths curriculum is designed for all DPS Saket students, with **separate batches** also available for DPS Vasant Kunj families who prefer them. Students from Delhi's top schools learn with us.
 
 [Explore DPS Vasant Kunj Page →](/coding-classes-for-la-martiniere-girls-New Delhi)Courses by Category
 
@@ -291,7 +291,7 @@ Whether your child is in Class 1 or Class 12, we have a structured learning path
 
 Ages 6-10 • Visual Block-Based Coding
 
-[Scratch Programming  Create games, animations & interactive stories with drag-and-drop blocks](/courses/kids-coding-blocks-masterclass)[App Development for Kids  Build real mobile apps using visual tools — perfect for young creators](/courses/kids-complete-app-development-masterclass)[Web Design for Kids  Create colourful websites with HTML & CSS from day one](/courses/kids-web-design-masterclass)
+[Scratch Programming  Create games, animations & interactive stories with drag-and-drop blocks](/courses/kids-coding-blocks-masterclass)[App Development for Kids  Build real mobile apps using visual tools, perfect for young creators](/courses/kids-complete-app-development-masterclass)[Web Design for Kids  Create colourful websites with HTML & CSS from day one](/courses/kids-web-design-masterclass)
 
 ### For Teens (Classes 6-10)
 
@@ -313,7 +313,7 @@ All Classes • IGCSE / Cambridge • JEE • Olympiads
 
 ## Group Classes or 1-on-1 Personalized?
 
-Every DPS Saket student learns differently. Choose the format that fits your child's learning style, schedule, and goals — both options come with the same expert instruction.
+Every DPS Saket student learns differently. Choose the format that fits your child's learning style, schedule, and goals. Both options come with the same expert instruction.
 
 Most Popular
 
@@ -338,7 +338,7 @@ Dedicated instructor, custom pace
 
 ₹2999/month
 
-- ✓ 1 Student Only — Full Attention
+- ✓ 1 Student Only: Full Attention
 - ✓ 3 Live Classes per Week
 - ✓ Custom Learning Pace & Plan
 - ✓ Flexible Schedule (You Choose)
@@ -391,9 +391,9 @@ Get Started
 
 Not sure which plan is right? Book a free demo and we'll help you decide. No obligation, no pressure.
 
-## Book a Free Demo Class — DPS Saket Students
+## Book a Free Demo Class: DPS Saket Students
 
-Experience our coding and maths classes firsthand — absolutely free. Tell us about your child and we'll schedule a personalized demo session. No obligation, no pressure.
+Experience our coding and maths classes firsthand, absolutely free. Tell us about your child and we'll schedule a personalized demo session. No obligation, no pressure.
 
 Or reach us directly:
 
@@ -443,7 +443,7 @@ Yes! We run intensive coding camps during summer vacation (April-May) and Diwali
 
 +
 
-Our Python and Java courses directly cover topics from the IGCSE / Cambridge Computer Science syllabus including variables, loops, arrays, functions, strings, and object-oriented programming. DPS Saket students who learn coding with us consistently score higher in their Computer Applications exams because they develop deeper understanding beyond textbook knowledge. They practice writing actual programs, debugging code, and solving real problems — skills that give them a clear advantage in both practical and theoretical IGCSE / Cambridge assessments.
+Our Python and Java courses directly cover topics from the IGCSE / Cambridge Computer Science syllabus including variables, loops, arrays, functions, strings, and object-oriented programming. DPS Saket students who learn coding with us consistently score higher in their Computer Applications exams because they develop deeper understanding beyond textbook knowledge. They practice writing actual programs, debugging code, and solving real problems, skills that give them a clear advantage in both practical and theoretical IGCSE / Cambridge assessments.
 
 ### Do you provide certificates?
 
@@ -455,7 +455,7 @@ Yes, every student receives a completion certificate after finishing their codin
 
 +
 
-Yes — and we encourage it. Visit our free [How We Teach demo library](/how-we-teach) to watch real, full-length class recordings for both coding and maths, organised by topic and age. There is no sign-up and no payment, so you can see our exact teaching style before booking your child's free demo class.
+Yes. And we encourage it. Visit our free [How We Teach demo library](/how-we-teach) to watch real, full-length class recordings for both coding and maths, organised by topic and age. There is no sign-up and no payment, so you can see our exact teaching style before booking your child's free demo class.
 
 ## Explore More
 

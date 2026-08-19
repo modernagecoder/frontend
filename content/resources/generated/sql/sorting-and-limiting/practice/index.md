@@ -41,7 +41,7 @@ Top 5 by price: iPhone 15 (79999), Laptop (65000), Samsung TV (45999), Running S
 SELECT DISTINCT category FROM products;
 ```
 
-Returns 3 rows: Electronics, Grocery, Sports. The order depends on MySQL — add ORDER BY for deterministic order.
+Returns 3 rows: Electronics, Grocery, Sports. The order depends on MySQL, add ORDER BY for deterministic order.
 
 ### Q4. [Easy] Count how many unique cities the products are from.
 
@@ -180,7 +180,7 @@ Sports products: Running Shoes (Bengaluru), Cricket Bat (Mumbai), Yoga Mat (Pune
 
 *Hint:* Direction of sorting.
 
-**Answer:** `ASC` means **ascending** — smallest first, largest last. This is the default. `DESC` means **descending** — largest first, smallest last. For strings, ASC is alphabetical (A to Z), DESC is reverse (Z to A). For dates, ASC is oldest first, DESC is newest first.
+**Answer:** `ASC` means **ascending**, smallest first, largest last. This is the default. `DESC` means **descending**, largest first, smallest last. For strings, ASC is alphabetical (A to Z), DESC is reverse (Z to A). For dates, ASC is oldest first, DESC is newest first.
 
 You can mix both in multi-column sort: `ORDER BY category ASC, price DESC`. Default is ASC, so omitting gives ascending order.
 
@@ -196,7 +196,7 @@ In MySQL, without ORDER BY, results are usually returned in insertion or index o
 
 *Hint:* What each counts.
 
-**Answer:** `COUNT(*)` counts all rows in the result, including NULLs. `COUNT(column)` counts rows where *column* is NOT NULL — NULLs are skipped. `COUNT(DISTINCT column)` counts unique non-NULL values — duplicates and NULLs are excluded.
+**Answer:** `COUNT(*)` counts all rows in the result, including NULLs. `COUNT(column)` counts rows where *column* is NOT NULL, NULLs are skipped. `COUNT(DISTINCT column)` counts unique non-NULL values, duplicates and NULLs are excluded.
 
 Example: if column has values [1, 2, 2, NULL, NULL], COUNT(*) = 5, COUNT(column) = 3, COUNT(DISTINCT column) = 2. This distinction is critical in interviews.
 
@@ -240,9 +240,9 @@ Products with price > 1000: iPhone, Samsung TV, Running Shoes, Cricket Bat, Head
 
 *Hint:* Think about what MySQL has to do for OFFSET.
 
-**Answer:** OFFSET requires MySQL to scan and discard every row up to the offset position. So OFFSET 99990 scans 99,990 rows just to throw them away. This is O(n). Fix: use **keyset pagination** — remember the last id/value from the previous page and use `WHERE id > last_seen_id ORDER BY id LIMIT n`. This is O(log n) with an index and stays fast regardless of page depth.
+**Answer:** OFFSET requires MySQL to scan and discard every row up to the offset position. So OFFSET 99990 scans 99,990 rows just to throw them away. This is O(n). Fix: use **keyset pagination**, remember the last id/value from the previous page and use `WHERE id > last_seen_id ORDER BY id LIMIT n`. This is O(log n) with an index and stays fast regardless of page depth.
 
-This is why Twitter/Instagram use infinite-scroll IDs (the 'since_id' pattern) instead of page numbers — keyset pagination scales to billions of rows.
+This is why Twitter/Instagram use infinite-scroll IDs (the 'since_id' pattern) instead of page numbers, keyset pagination scales to billions of rows.
 
 ### Q22. [Hard] What does this return (from employees table)?
 
@@ -322,7 +322,7 @@ Bread at 45.00 is the cheapest.
 SELECT COUNT(*) FROM products;
 ```
 
-Returns 12 — our total number of products.
+Returns 12. Our total number of products.
 
 ### Q4. [Easy] Find all distinct prices (in case of duplicates).
 
@@ -354,7 +354,7 @@ LIMIT 0 returns no rows. Useful when you only want to inspect the column structu
 SELECT DISTINCT city FROM products ORDER BY city;
 ```
 
-Bengaluru, Delhi, Mumbai, Pune — alphabetically. 4 rows.
+Bengaluru, Delhi, Mumbai, Pune, alphabetically. 4 rows.
 
 ### Q7. [Easy] What is the first product returned?
 
@@ -366,7 +366,7 @@ SELECT name FROM products ORDER BY stock DESC LIMIT 1;
 
 **Answer:** `Soap`
 
-Soap has stock 800 — the highest. Milk has 500, Bread 300, Rice 200, Football 150, Running Shoes 120, etc.
+Soap has stock 800, the highest. Milk has 500, Bread 300, Rice 200, Football 150, Running Shoes 120, etc.
 
 ### Q8. [Medium] Get the 3 most expensive Electronics.
 
@@ -513,7 +513,7 @@ ORDER BY city ASC, category DESC;
 
 Lists unique pairs. Bengaluru (Sports, Grocery, Electronics), Delhi (Grocery, Electronics), Mumbai (Sports, Electronics), Pune (Sports, Grocery). Note DESC puts Sports before Grocery before Electronics within each city.
 
-### Q20. [Hard] Find the 3 cheapest products in each category using LIMIT (hint: you cannot do it with a single LIMIT — but write a query for just Grocery).
+### Q20. [Hard] Find the 3 cheapest products in each category using LIMIT (hint: you cannot do it with a single LIMIT: but write a query for just Grocery).
 
 *Hint:* For a single category, use WHERE + ORDER BY + LIMIT.
 
@@ -525,7 +525,7 @@ ORDER BY price ASC
 LIMIT 3;
 ```
 
-3 cheapest Grocery: Bread (45), Soap (60), Milk 1L (68). To do it across all categories, you need window functions (ROW_NUMBER with PARTITION BY) — covered in chapter 18.
+3 cheapest Grocery: Bread (45), Soap (60), Milk 1L (68). To do it across all categories, you need window functions (ROW_NUMBER with PARTITION BY), covered in chapter 18.
 
 ### Q21. [Hard] What does this return?
 
@@ -540,7 +540,7 @@ FROM products;
 
 COUNT(*) = 12 total products. COUNT(DISTINCT category) = 3 (Electronics, Grocery, Sports). COUNT(DISTINCT city) = 4 (Mumbai, Delhi, Bengaluru, Pune).
 
-### Q22. [Hard] Return the top 3 cities by the number of products they have. (Hint: you'll need GROUP BY — preview of chapter 10.)
+### Q22. [Hard] Return the top 3 cities by the number of products they have. (Hint: you'll need GROUP BY: preview of chapter 10.)
 
 *Hint:* GROUP BY city, COUNT(*), ORDER BY count DESC.
 
@@ -551,7 +551,7 @@ ORDER BY num_products DESC
 LIMIT 3;
 ```
 
-This previews GROUP BY (chapter 10). Mumbai has 4 (iPhone, Cricket Bat, Headphones, Football), Delhi 3, Bengaluru 3, Pune 2. Top 3: Mumbai, Delhi, Bengaluru (or Bengaluru, Delhi — tie).
+This previews GROUP BY (chapter 10). Mumbai has 4 (iPhone, Cricket Bat, Headphones, Football), Delhi 3, Bengaluru 3, Pune 2. Top 3: Mumbai, Delhi, Bengaluru (or Bengaluru, Delhi, tie).
 
 ### Q23. [Hard] Return the 5th to 8th most expensive products (like items on page 2 with 4 per page).
 
@@ -688,7 +688,7 @@ D. [object Object]
 
 **Answer:** B
 
-**B is correct.** Without ORDER BY, the database can return rows in any order (depends on storage, indexes, optimizer). LIMIT just grabs the first n of whatever that order is — unpredictable and risky.
+**B is correct.** Without ORDER BY, the database can return rows in any order (depends on storage, indexes, optimizer). LIMIT just grabs the first n of whatever that order is, unpredictable and risky.
 
 ### Q11. [Medium] Which is equivalent to LIMIT 10 OFFSET 5 in MySQL?
 
@@ -699,7 +699,7 @@ D. [object Object]
 
 **Answer:** B
 
-**B is correct.** MySQL's two-argument form is `LIMIT offset, count`. So `LIMIT 5, 10` means offset 5, limit 10 — same as `LIMIT 10 OFFSET 5`. This confuses everyone — prefer the OFFSET keyword.
+**B is correct.** MySQL's two-argument form is `LIMIT offset, count`. So `LIMIT 5, 10` means offset 5, limit 10, same as `LIMIT 10 OFFSET 5`. This confuses everyone, prefer the OFFSET keyword.
 
 ### Q12. [Medium] To get the 3rd highest distinct salary, which works?
 
@@ -743,7 +743,7 @@ D. [object Object]
 
 **Answer:** C
 
-**C is correct.** COUNT(DISTINCT) excludes NULL and counts unique values. Unique non-NULL values: 100, 200, 300 — that's 3.
+**C is correct.** COUNT(DISTINCT) excludes NULL and counts unique values. Unique non-NULL values: 100, 200, 300. That's 3.
 
 ### Q16. [Hard] For a products table sorted by price DESC with LIMIT 5 OFFSET 3, which rows are returned?
 
@@ -798,7 +798,7 @@ D. [object Object]
 
 **Answer:** B
 
-**B is correct.** DISTINCT handles ties — if two people have the same salary, they count as one rank. Without DISTINCT, the result depends on which duplicate is returned. Option A would fail for a table with duplicate salaries in the top 5.
+**B is correct.** DISTINCT handles ties, if two people have the same salary, they count as one rank. Without DISTINCT, the result depends on which duplicate is returned. Option A would fail for a table with duplicate salaries in the top 5.
 
 ## Coding Challenges
 
@@ -1019,7 +1019,7 @@ UNION
 (SELECT name, price, city FROM products WHERE city = 'Delhi' ORDER BY price DESC LIMIT 1);
 ```
 
-### Challenge 8. Nth Highest — Parameterized Pattern
+### Challenge 8. Nth Highest: Parameterized Pattern
 
 **Difficulty:** Hard
 

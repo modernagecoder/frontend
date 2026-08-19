@@ -17,7 +17,7 @@
     <!-- SEO Meta Tags -->
     <meta name="description" content="Make decisions in your code. Build interactive features that respond differently based on user input.">
     <!-- meta keywords intentionally not emitted: Google has ignored it since 2009 and Bing
-         treats it as a SPAM SIGNAL — and Bing is the index ChatGPT/Copilot answer from.
+         treats it as a SPAM SIGNAL, and Bing is the index ChatGPT/Copilot answer from.
          See scripts/strip-meta-keywords.py. -->
     <meta name="author" content="Modern Age Coders">
     <meta name="robots" content="index, follow">
@@ -143,7 +143,7 @@
         "name": "Using if Without Curly Braces (Risky)",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Without curly braces <code>{}</code>, only the very next statement belongs to the <code>if</code>. The second <code>console.log</code> is not inside the if — it always runs. Always use curly braces, even for single-line if statements."
+          "text": "Without curly braces <code>{}</code>, only the very next statement belongs to the <code>if</code>. The second <code>console.log</code> is not inside the if. It always runs. Always use curly braces, even for single-line if statements."
         }
       },
       {
@@ -210,19 +210,19 @@
 
             <section id="what" class="content-section">
                 <h2>What Is It?</h2>
-                <h2>What Are Conditional Statements?</h2><p>A <strong>conditional statement</strong> lets your program make decisions. Instead of running every line of code from top to bottom, conditionals let your program choose which code to run based on whether a condition is true or false.</p><p>Think of it like a crossroad: if it is raining, you take an umbrella. If it is sunny, you wear sunglasses. Your program does the same thing — it checks a condition and takes a different action depending on the result.</p><p>JavaScript has three main conditional structures:</p><ul><li><code>if / else if / else</code> — for most decision-making</li><li><code>switch</code> — for checking a variable against many specific values</li><li><code>? :</code> (ternary) — for simple inline conditions</li></ul>
+                <h2>What Are Conditional Statements?</h2><p>A <strong>conditional statement</strong> lets your program make decisions. Instead of running every line of code from top to bottom, conditionals let your program choose which code to run based on whether a condition is true or false.</p><p>Think of it like a crossroad: if it is raining, you take an umbrella. If it is sunny, you wear sunglasses. Your program does the same thing. It checks a condition and takes a different action depending on the result.</p><p>JavaScript has three main conditional structures:</p><ul><li><code>if / else if / else</code>, for most decision-making</li><li><code>switch</code>, for checking a variable against many specific values</li><li><code>? :</code> (ternary), for simple inline conditions</li></ul>
             </section>
 
             <section id="why" class="content-section">
                 <h2>Why Does It Matter?</h2>
-                <h2>Why Are Conditionals Important?</h2><h3>1. Every Interactive Feature Needs Conditions</h3><p>When you build a form, you check: is the email valid? Is the password strong enough? When you build a game, you check: did the player score? Did they lose all lives? Conditionals are the foundation of all interactivity.</p><h3>2. User Input Is Unpredictable</h3><p>Users will type anything into your forms — empty strings, negative numbers, special characters. Conditionals let you handle every possible case and give appropriate feedback.</p><h3>3. The DOM Comes Alive with Conditions</h3><p>Want to show or hide an element? Change a color based on a value? Display different messages for different users? All of these require conditional logic combined with DOM manipulation — and that is what makes web pages feel alive.</p><h3>4. It Is the Gateway to Loops</h3><p>Loops (the next chapter) use conditions to decide when to stop repeating. Without understanding conditionals first, loops will not make sense.</p>
+                <h2>Why Are Conditionals Important?</h2><h3>1. Every Interactive Feature Needs Conditions</h3><p>When you build a form, you check: is the email valid? Is the password strong enough? When you build a game, you check: did the player score? Did they lose all lives? Conditionals are the foundation of all interactivity.</p><h3>2. User Input Is Unpredictable</h3><p>Users will type anything into your forms, empty strings, negative numbers, special characters. Conditionals let you handle every possible case and give appropriate feedback.</p><h3>3. The DOM Comes Alive with Conditions</h3><p>Want to show or hide an element? Change a color based on a value? Display different messages for different users? All of these require conditional logic combined with DOM manipulation, and that is what makes web pages feel alive.</p><h3>4. It Is the Gateway to Loops</h3><p>Loops (the next chapter) use conditions to decide when to stop repeating. Without understanding conditionals first, loops will not make sense.</p>
             </section>
 
             <section id="explanation" class="content-section">
                 <h2>Detailed Explanation</h2>
                 <h2>Detailed Explanation</h2><h3>1. The if Statement</h3><p>The simplest conditional. If the condition is true, run the code block. If false, skip it.</p><pre><code>if (condition) {
   // code runs only if condition is true
-}</code></pre><p>The condition can be any expression that evaluates to a truthy or falsy value. It does not have to be strictly <code>true</code> or <code>false</code> — any truthy value will enter the if block.</p><h3>2. if-else</h3><p>Adds an alternative path when the condition is false.</p><pre><code>if (condition) {
+}</code></pre><p>The condition can be any expression that evaluates to a truthy or falsy value. It does not have to be strictly <code>true</code> or <code>false</code>, any truthy value will enter the if block.</p><h3>2. if-else</h3><p>Adds an alternative path when the condition is false.</p><pre><code>if (condition) {
   // runs if condition is true
 } else {
   // runs if condition is false
@@ -234,7 +234,7 @@
   // runs if both above are false AND condition3 is true
 } else {
   // runs if ALL conditions are false
-}</code></pre><p>Important: once a condition matches, the remaining else-if and else blocks are skipped entirely. Order matters — put the most specific conditions first.</p><h3>4. Nested if Statements</h3><p>You can put an if inside another if to check conditions in stages.</p><pre><code>if (isLoggedIn) {
+}</code></pre><p>Important: once a condition matches, the remaining else-if and else blocks are skipped entirely. Order matters, put the most specific conditions first.</p><h3>4. Nested if Statements</h3><p>You can put an if inside another if to check conditions in stages.</p><pre><code>if (isLoggedIn) {
   if (isAdmin) {
     // show admin dashboard
   } else {
@@ -251,7 +251,7 @@
     break;
   default:
     // code if no case matches
-}</code></pre><h4>Key Rules:</h4><ul><li><code>break</code> is essential. Without it, execution "falls through" to the next case.</li><li><code>default</code> is like the <code>else</code> — it runs when no case matches.</li><li>Switch uses <code>===</code> (strict comparison), not <code>==</code>.</li><li>You can intentionally omit <code>break</code> for fall-through behavior (grouping cases).</li></ul><h4>Fall-Through (Grouping Cases)</h4><p>Sometimes you want multiple cases to run the same code. Omitting <code>break</code> lets execution fall through:</p><pre><code>switch (day) {
+}</code></pre><h4>Key Rules:</h4><ul><li><code>break</code> is essential. Without it, execution "falls through" to the next case.</li><li><code>default</code> is like the <code>else</code>. It runs when no case matches.</li><li>Switch uses <code>===</code> (strict comparison), not <code>==</code>.</li><li>You can intentionally omit <code>break</code> for fall-through behavior (grouping cases).</li></ul><h4>Fall-Through (Grouping Cases)</h4><p>Sometimes you want multiple cases to run the same code. Omitting <code>break</code> lets execution fall through:</p><pre><code>switch (day) {
   case "Saturday":
   case "Sunday":
     console.log("Weekend!");
@@ -292,7 +292,7 @@ if (marks &gt;= 90) {
 } else {
   grade = &quot;F&quot;;
 }
-console.log(`Marks: ${marks}, Grade: ${grade}`);</code></pre><div class="code-example-explanation">The first <code>if</code> checks if marks are at least 40. The if-else provides two paths. The else-if chain checks conditions in order — since 78 is not >= 90 and not >= 80, but it IS >= 70, the grade is "C". The remaining else-if and else are skipped.</div><div class="code-example-output">Passed!
+console.log(`Marks: ${marks}, Grade: ${grade}`);</code></pre><div class="code-example-explanation">The first <code>if</code> checks if marks are at least 40. The if-else provides two paths. The else-if chain checks conditions in order, since 78 is not >= 90 and not >= 80, but it IS >= 70, the grade is "C". The remaining else-if and else are skipped.</div><div class="code-example-output">Passed!
 Keep working hard.
 Marks: 78, Grade: C</div></div>
 <div class="code-example"><div class="code-example-title">Interactive Grade Calculator on a Web Page</div><pre><code class="language-python">&lt;!DOCTYPE html&gt;
@@ -338,7 +338,7 @@ Marks: 78, Grade: C</div></div>
     }
   &lt;/script&gt;
 &lt;/body&gt;
-&lt;/html&gt;</code></pre><div class="code-example-explanation">This is a practical project. The function reads the input, validates it (catches invalid values like -5 or 150), then uses else-if to assign a grade. Each grade gets a different color using <code>style.color</code>. This combines conditionals with DOM manipulation — the core of interactive web development.</div><div class="code-example-output">Entering 85 shows: &#39;85 marks = Grade B&#39; in blue.
+&lt;/html&gt;</code></pre><div class="code-example-explanation">This is a practical project. The function reads the input, validates it (catches invalid values like -5 or 150), then uses else-if to assign a grade. Each grade gets a different color using <code>style.color</code>. This combines conditionals with DOM manipulation, the core of interactive web development.</div><div class="code-example-output">Entering 85 shows: &#39;85 marks = Grade B&#39; in blue.
 Entering 150 shows: &#39;Invalid! Enter 0-100.&#39; in red.</div></div>
 <div class="code-example"><div class="code-example-title">switch Statement with Days of the Week</div><pre><code class="language-python">let day = new Date().toLocaleDateString(&quot;en-US&quot;, { weekday: &quot;long&quot; });
 console.log(`Today is ${day}`);
@@ -451,7 +451,7 @@ if (getDayType(today) === &quot;weekend&quot;) {
   console.log(&quot;No school today!&quot;);
 } else {
   console.log(&quot;Time for school.&quot;);
-}</code></pre><div class="code-example-explanation">Using <code>return</code> inside a function means you do not need <code>break</code> — return exits the function immediately. <code>day.toLowerCase()</code> makes the comparison case-insensitive ("Monday", "MONDAY", "monday" all work). Fall-through groups weekdays together and weekend days together.</div><div class="code-example-output">weekday
+}</code></pre><div class="code-example-explanation">Using <code>return</code> inside a function means you do not need <code>break</code>, return exits the function immediately. <code>day.toLowerCase()</code> makes the comparison case-insensitive ("Monday", "MONDAY", "monday" all work). Fall-through groups weekdays together and weekend days together.</div><div class="code-example-output">weekday
 weekend
 invalid day
 No school today!</div></div>
@@ -550,7 +550,7 @@ if (score &gt;= 90)
 if (score &gt;= 90) {
   console.log(&quot;Grade A&quot;);
   console.log(&quot;Excellent!&quot;);
-}</code></pre></div><div class="mistake-explanation">Without curly braces <code>{}</code>, only the very next statement belongs to the <code>if</code>. The second <code>console.log</code> is not inside the if — it always runs. Always use curly braces, even for single-line if statements.</div>
+}</code></pre></div><div class="mistake-explanation">Without curly braces <code>{}</code>, only the very next statement belongs to the <code>if</code>. The second <code>console.log</code> is not inside the if. It always runs. Always use curly braces, even for single-line if statements.</div>
             </div>
 <div class="mistake-card">
                 <h3>switch with Type Mismatch</h3>

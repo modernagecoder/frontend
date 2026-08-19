@@ -17,7 +17,7 @@
     <!-- SEO Meta Tags -->
     <meta name="description" content="Learn the latest CSS: container queries, subgrid, clamp() for fluid typography, :has() parent selector, aspect-ratio.">
     <!-- meta keywords intentionally not emitted: Google has ignored it since 2009 and Bing
-         treats it as a SPAM SIGNAL — and Bing is the index ChatGPT/Copilot answer from.
+         treats it as a SPAM SIGNAL, and Bing is the index ChatGPT/Copilot answer from.
          See scripts/strip-meta-keywords.py. -->
     <meta name="author" content="Modern Age Coders">
     <meta name="robots" content="index, follow">
@@ -207,7 +207,7 @@
 
             <section id="why" class="content-section">
                 <h2>Why Does It Matter?</h2>
-                <h2>Why Learn Modern CSS?</h2><h3>1. Less JavaScript, Smaller Bundles</h3><p>Container queries replace resize-observer code. <code>:has()</code> replaces 'add class on click' logic. <code>scroll-snap</code> replaces carousel libraries. Every feature in this chapter removes code you would otherwise have to write and maintain in JavaScript.</p><h3>2. Truly Component-Based Responsive Design</h3><p>Media queries respond to the viewport — but a card in a sidebar does not know about the viewport. It knows about its sidebar. Container queries let components respond to THEIR container, so the same card looks right whether it is in a wide hero or a narrow column. This is the missing piece for component-driven design systems.</p><h3>3. Fluid Interfaces with Zero Breakpoints</h3><p><code>clamp(min, preferred, max)</code> gives you fluid typography and spacing that scales smoothly from mobile to desktop without any breakpoints. Aarav's whole site uses <code>font-size: clamp(16px, 2vw, 24px)</code> and looks perfect at every size.</p><h3>4. Better Accessibility Out of the Box</h3><p><code>:focus-visible</code> gets focus rings right without JavaScript. Logical properties work correctly in right-to-left languages like Arabic and Hebrew. <code>aspect-ratio</code> prevents layout shift when images load. Modern CSS bakes accessibility into the platform.</p><h3>5. Beautiful Typography for Free</h3><p><code>text-wrap: balance</code> automatically rebalances a heading so it does not end with a single orphan word. <code>text-wrap: pretty</code> improves long paragraphs. One property, beautiful output, no manual line breaks.</p>
+                <h2>Why Learn Modern CSS?</h2><h3>1. Less JavaScript, Smaller Bundles</h3><p>Container queries replace resize-observer code. <code>:has()</code> replaces 'add class on click' logic. <code>scroll-snap</code> replaces carousel libraries. Every feature in this chapter removes code you would otherwise have to write and maintain in JavaScript.</p><h3>2. Truly Component-Based Responsive Design</h3><p>Media queries respond to the viewport, but a card in a sidebar does not know about the viewport. It knows about its sidebar. Container queries let components respond to THEIR container, so the same card looks right whether it is in a wide hero or a narrow column. This is the missing piece for component-driven design systems.</p><h3>3. Fluid Interfaces with Zero Breakpoints</h3><p><code>clamp(min, preferred, max)</code> gives you fluid typography and spacing that scales smoothly from mobile to desktop without any breakpoints. Aarav's whole site uses <code>font-size: clamp(16px, 2vw, 24px)</code> and looks perfect at every size.</p><h3>4. Better Accessibility Out of the Box</h3><p><code>:focus-visible</code> gets focus rings right without JavaScript. Logical properties work correctly in right-to-left languages like Arabic and Hebrew. <code>aspect-ratio</code> prevents layout shift when images load. Modern CSS bakes accessibility into the platform.</p><h3>5. Beautiful Typography for Free</h3><p><code>text-wrap: balance</code> automatically rebalances a heading so it does not end with a single orphan word. <code>text-wrap: pretty</code> improves long paragraphs. One property, beautiful output, no manual line breaks.</p>
             </section>
 
             <section id="explanation" class="content-section">
@@ -227,7 +227,7 @@
     grid-template-columns: 120px 1fr;
     gap: 16px;
   }
-}</code></pre><p>When the <code>.sidebar</code> becomes at least 400px wide, the card inside it switches from stacked to a horizontal layout. The viewport is irrelevant — it is the container that matters.</p><p><strong>container-type values:</strong></p><ul><li><code>inline-size</code> - queries based on width (most common)</li><li><code>size</code> - queries based on both width and height</li><li><code>normal</code> - not a container (default)</li></ul><h3>2. Subgrid</h3><p>Normally, nested grids have their own independent tracks. <code>grid-template-columns: subgrid</code> makes the child grid use the parent's tracks instead. This solves the classic problem of aligning items across cards.</p><pre><code>.cards {
+}</code></pre><p>When the <code>.sidebar</code> becomes at least 400px wide, the card inside it switches from stacked to a horizontal layout. The viewport is irrelevant. It is the container that matters.</p><p><strong>container-type values:</strong></p><ul><li><code>inline-size</code> - queries based on width (most common)</li><li><code>size</code> - queries based on both width and height</li><li><code>normal</code> - not a container (default)</li></ul><h3>2. Subgrid</h3><p>Normally, nested grids have their own independent tracks. <code>grid-template-columns: subgrid</code> makes the child grid use the parent's tracks instead. This solves the classic problem of aligning items across cards.</p><pre><code>.cards {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 20px;
@@ -274,7 +274,7 @@ label:has(:checked) {
 /* Dim the body when a modal is open */
 body:has(.modal[open]) {
   overflow: hidden;
-}</code></pre><p>Hundreds of patterns that used to require JavaScript are now one CSS rule.</p><h3>6. Logical Properties</h3><p>CSS had <code>margin-left</code> and <code>margin-right</code> — but what is 'left' in Arabic, which reads right-to-left? Logical properties use 'inline' (the reading direction) and 'block' (the flow direction) instead.</p><pre><code>.card {
+}</code></pre><p>Hundreds of patterns that used to require JavaScript are now one CSS rule.</p><h3>6. Logical Properties</h3><p>CSS had <code>margin-left</code> and <code>margin-right</code>, but what is 'left' in Arabic, which reads right-to-left? Logical properties use 'inline' (the reading direction) and 'block' (the flow direction) instead.</p><pre><code>.card {
   margin-inline: 24px;       /* left + right (or right + left in RTL) */
   margin-block: 16px;        /* top + bottom */
   padding-inline-start: 12px; /* left in LTR, right in RTL */
@@ -393,7 +393,7 @@ p {
     &lt;/div&gt;
   &lt;/div&gt;
 &lt;/body&gt;
-&lt;/html&gt;</code></pre><div class="code-example-explanation">Each <code>.column</code> is marked as a container with <code>container-type: inline-size</code>. The <code>.card</code> inside has a default vertical layout, but when its container is at least 380px wide, a container query switches it to a horizontal layout. The SAME card, the SAME CSS — but it adapts to its container, not the viewport.</div><div class="code-example-output">Two cards side by side. The narrow left card stacks the image above the text. The wider right card places the image beside the text, even though both use the exact same markup and CSS classes.</div></div>
+&lt;/html&gt;</code></pre><div class="code-example-explanation">Each <code>.column</code> is marked as a container with <code>container-type: inline-size</code>. The <code>.card</code> inside has a default vertical layout, but when its container is at least 380px wide, a container query switches it to a horizontal layout. The SAME card, the SAME CSS, but it adapts to its container, not the viewport.</div><div class="code-example-output">Two cards side by side. The narrow left card stacks the image above the text. The wider right card places the image beside the text, even though both use the exact same markup and CSS classes.</div></div>
 <div class="code-example"><div class="code-example-title">Fluid Typography with clamp()</div><pre><code class="language-python">&lt;!DOCTYPE html&gt;
 &lt;html&gt;
 &lt;head&gt;
@@ -445,7 +445,7 @@ p {
     &lt;a href=&quot;#&quot; class=&quot;cta&quot;&gt;See How It Works&lt;/a&gt;
   &lt;/section&gt;
 &lt;/body&gt;
-&lt;/html&gt;</code></pre><div class="code-example-explanation">Every size on the page — padding, font size, margin — uses <code>clamp(min, preferred, max)</code>. On a phone, values stay at the minimum. On a desktop, they reach the maximum. In between, they scale linearly with the viewport. Zero media queries. <code>text-wrap: balance</code> on the heading distributes the words evenly.</div><div class="code-example-output">A beautiful hero with a large gradient heading, subtitle, and call-to-action button. Resizing the browser smoothly scales everything from phone to desktop sizes without any sudden jumps.</div></div>
+&lt;/html&gt;</code></pre><div class="code-example-explanation">Every size on the page, padding, font size, margin, uses <code>clamp(min, preferred, max)</code>. On a phone, values stay at the minimum. On a desktop, they reach the maximum. In between, they scale linearly with the viewport. Zero media queries. <code>text-wrap: balance</code> on the heading distributes the words evenly.</div><div class="code-example-output">A beautiful hero with a large gradient heading, subtitle, and call-to-action button. Resizing the browser smoothly scales everything from phone to desktop sizes without any sudden jumps.</div></div>
 <div class="code-example"><div class="code-example-title">:has() to Disable Submit on Invalid Form</div><pre><code class="language-python">&lt;!DOCTYPE html&gt;
 &lt;html&gt;
 &lt;head&gt;
@@ -507,7 +507,7 @@ p {
     &lt;p class=&quot;status&quot;&gt;&lt;/p&gt;
   &lt;/form&gt;
 &lt;/body&gt;
-&lt;/html&gt;</code></pre><div class="code-example-explanation"><code>:has()</code> walks up from any invalid input to the form and styles the form (red border, disabled button, warning message). When every input is valid, <code>form:has(input:valid):not(:has(input:invalid))</code> matches and the form turns green. Pure CSS reactive form state — something that used to need JavaScript.</div><div class="code-example-output">A signup form that turns pink/red while any field is invalid and green once all fields are valid. The submit button is disabled while invalid, and a status message updates automatically.</div></div>
+&lt;/html&gt;</code></pre><div class="code-example-explanation"><code>:has()</code> walks up from any invalid input to the form and styles the form (red border, disabled button, warning message). When every input is valid, <code>form:has(input:valid):not(:has(input:invalid))</code> matches and the form turns green. Pure CSS reactive form state, something that used to need JavaScript.</div><div class="code-example-output">A signup form that turns pink/red while any field is invalid and green once all fields are valid. The submit button is disabled while invalid, and a status message updates automatically.</div></div>
 <div class="code-example"><div class="code-example-title">CSS-Only Carousel with scroll-snap</div><pre><code class="language-python">&lt;!DOCTYPE html&gt;
 &lt;html&gt;
 &lt;head&gt;
@@ -722,7 +722,7 @@ p {
   font-size: clamp(5vw, 32px, 60px);
   /* Arguments in wrong order!
      The first is min, second is preferred, third is max */
-}</code></pre></div><div class="error-message">The argument order is wrong. &lt;code&gt;clamp(min, preferred, max)&lt;/code&gt; — first is the lower bound, second is the fluid value, third is the upper bound.</div><div class="correct-code"><pre><code class="language-python">h1 {
+}</code></pre></div><div class="error-message">The argument order is wrong. &lt;code&gt;clamp(min, preferred, max)&lt;/code&gt;, first is the lower bound, second is the fluid value, third is the upper bound.</div><div class="correct-code"><pre><code class="language-python">h1 {
   font-size: clamp(32px, 5vw, 60px);
   /* Min 32px, prefers 5vw, max 60px */
 }</code></pre></div><div class="mistake-explanation">Memorize: <code>clamp(min, preferred, max)</code>. The preferred value is the one that scales with the viewport (like <code>5vw</code>), and it is clamped between the min and max. Getting the order wrong often 'works' but at unexpected sizes.</div>

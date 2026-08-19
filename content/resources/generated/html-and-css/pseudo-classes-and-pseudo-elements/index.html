@@ -17,7 +17,7 @@
     <!-- SEO Meta Tags -->
     <meta name="description" content="Master :hover, :focus, :nth-child, :not, ::before, ::after, and create creative effects without extra HTML.">
     <!-- meta keywords intentionally not emitted: Google has ignored it since 2009 and Bing
-         treats it as a SPAM SIGNAL — and Bing is the index ChatGPT/Copilot answer from.
+         treats it as a SPAM SIGNAL, and Bing is the index ChatGPT/Copilot answer from.
          See scripts/strip-meta-keywords.py. -->
     <meta name="author" content="Modern Age Coders">
     <meta name="robots" content="index, follow">
@@ -202,9 +202,9 @@
 
             <section id="what" class="content-section">
                 <h2>What Is It?</h2>
-                <h2>What Are Pseudo-classes and Pseudo-elements?</h2><p>Pseudo-classes and pseudo-elements are two of the most powerful features in CSS. They let you style elements based on state, position, or relationship — and even insert content that does not exist in the HTML.</p><h3>Pseudo-classes (single colon)</h3><p>A <strong>pseudo-class</strong> selects an element based on a state or position. Examples: <code>:hover</code> (when the user points at it), <code>:focus</code> (when it is keyboard-focused), <code>:nth-child(2n)</code> (when it is the even-numbered child), <code>:checked</code> (when a checkbox is ticked).</p><pre><code>button:hover { background: purple; }
+                <h2>What Are Pseudo-classes and Pseudo-elements?</h2><p>Pseudo-classes and pseudo-elements are two of the most powerful features in CSS. They let you style elements based on state, position, or relationship, and even insert content that does not exist in the HTML.</p><h3>Pseudo-classes (single colon)</h3><p>A <strong>pseudo-class</strong> selects an element based on a state or position. Examples: <code>:hover</code> (when the user points at it), <code>:focus</code> (when it is keyboard-focused), <code>:nth-child(2n)</code> (when it is the even-numbered child), <code>:checked</code> (when a checkbox is ticked).</p><pre><code>button:hover { background: purple; }
 input:focus { outline: 2px solid cyan; }
-li:nth-child(odd) { background: #f1f5f9; }</code></pre><h3>Pseudo-elements (double colon)</h3><p>A <strong>pseudo-element</strong> targets a part of an element — or injects a 'fake' element. Examples: <code>::before</code> and <code>::after</code> inject content, <code>::first-letter</code> targets the first character, <code>::selection</code> styles selected text, <code>::placeholder</code> styles the placeholder inside inputs.</p><pre><code>.card::before {
+li:nth-child(odd) { background: #f1f5f9; }</code></pre><h3>Pseudo-elements (double colon)</h3><p>A <strong>pseudo-element</strong> targets a part of an element, or injects a 'fake' element. Examples: <code>::before</code> and <code>::after</code> inject content, <code>::first-letter</code> targets the first character, <code>::selection</code> styles selected text, <code>::placeholder</code> styles the placeholder inside inputs.</p><pre><code>.card::before {
   content: 'NEW';
   background: red;
   color: white;
@@ -214,7 +214,7 @@ li:nth-child(odd) { background: #f1f5f9; }</code></pre><h3>Pseudo-elements (doub
 
             <section id="why" class="content-section">
                 <h2>Why Does It Matter?</h2>
-                <h2>Why Learn Pseudo-classes and Pseudo-elements?</h2><h3>1. Interactivity Without JavaScript</h3><p>Hover effects, focus rings, checked states, form validation styling — all handled with CSS. No JavaScript, no event listeners, no bundle size. <code>:hover</code>, <code>:focus</code>, <code>:valid</code>, and <code>:invalid</code> handle the majority of interactive UI in a browser.</p><h3>2. Less HTML, More Creativity</h3><p>Need a decorative corner on a card? A tooltip arrow? A quote mark before a blockquote? A ribbon banner? None of these need extra HTML elements. <code>::before</code> and <code>::after</code> let you inject the content purely from CSS, keeping your HTML clean and semantic.</p><h3>3. Pattern-Based Styling</h3><p>Style every other row of a table, every third item in a grid, or only the last element of a list — without adding class names. <code>:nth-child()</code> is like a tiny query language for DOM position. Anika styled her entire homework table in 3 lines of CSS.</p><h3>4. Modern Selectors Unlock New Patterns</h3><p>Newer pseudo-classes like <code>:is()</code>, <code>:where()</code>, and especially <code>:has()</code> (the parent selector) let you write cleaner CSS and style elements based on what they contain. Things that used to require JavaScript now work with a single selector.</p><h3>5. Accessibility for Free</h3><p><code>:focus-visible</code> shows focus rings only for keyboard users, not mouse clicks. <code>:hover</code> does nothing on touch devices, so you never punish mobile users. Semantic pseudo-classes make your site work well for every input device.</p>
+                <h2>Why Learn Pseudo-classes and Pseudo-elements?</h2><h3>1. Interactivity Without JavaScript</h3><p>Hover effects, focus rings, checked states, form validation styling, all handled with CSS. No JavaScript, no event listeners, no bundle size. <code>:hover</code>, <code>:focus</code>, <code>:valid</code>, and <code>:invalid</code> handle the majority of interactive UI in a browser.</p><h3>2. Less HTML, More Creativity</h3><p>Need a decorative corner on a card? A tooltip arrow? A quote mark before a blockquote? A ribbon banner? None of these need extra HTML elements. <code>::before</code> and <code>::after</code> let you inject the content purely from CSS, keeping your HTML clean and semantic.</p><h3>3. Pattern-Based Styling</h3><p>Style every other row of a table, every third item in a grid, or only the last element of a list, without adding class names. <code>:nth-child()</code> is like a tiny query language for DOM position. Anika styled her entire homework table in 3 lines of CSS.</p><h3>4. Modern Selectors Unlock New Patterns</h3><p>Newer pseudo-classes like <code>:is()</code>, <code>:where()</code>, and especially <code>:has()</code> (the parent selector) let you write cleaner CSS and style elements based on what they contain. Things that used to require JavaScript now work with a single selector.</p><h3>5. Accessibility for Free</h3><p><code>:focus-visible</code> shows focus rings only for keyboard users, not mouse clicks. <code>:hover</code> does nothing on touch devices, so you never punish mobile users. Semantic pseudo-classes make your site work well for every input device.</p>
             </section>
 
             <section id="explanation" class="content-section">
@@ -285,7 +285,7 @@ blockquote::after  { content: '"'; font-size: 64px; color: #a855f7; }
 p::first-line   { font-weight: bold; }
 ::selection     { background: #a855f7; color: white; }
 ::placeholder   { color: #94a3b8; font-style: italic; }
-li::marker      { color: #7c3aed; font-size: 1.2em; }</code></pre><p><code>::selection</code> styles the highlighted text when a user selects anything. <code>::placeholder</code> styles the hint text inside form inputs. <code>::marker</code> targets the bullet or number of a list item — you can finally color bullets without extra markup.</p><h3>9. Creative Patterns</h3><pre><code>/* Ribbon on a card */
+li::marker      { color: #7c3aed; font-size: 1.2em; }</code></pre><p><code>::selection</code> styles the highlighted text when a user selects anything. <code>::placeholder</code> styles the hint text inside form inputs. <code>::marker</code> targets the bullet or number of a list item. You can finally color bullets without extra markup.</p><h3>9. Creative Patterns</h3><pre><code>/* Ribbon on a card */
 .card::before {
   content: 'SALE';
   position: absolute; top: 12px; right: -28px;
@@ -309,7 +309,7 @@ li::marker      { color: #7c3aed; font-size: 1.2em; }</code></pre><p><code>::sel
 .nav a:hover::after {
   transform: scaleX(1);
   transform-origin: left;
-}</code></pre><p>No extra HTML, no JavaScript — just a sliding underline that knows which direction to grow from.</p>
+}</code></pre><p>No extra HTML, no JavaScript, just a sliding underline that knows which direction to grow from.</p>
             </section>
 
             <section id="code-examples" class="content-section">
@@ -555,7 +555,7 @@ li::marker      { color: #7c3aed; font-size: 1.2em; }</code></pre><p><code>::sel
     &lt;button type=&quot;submit&quot;&gt;Create Account&lt;/button&gt;
   &lt;/form&gt;
 &lt;/body&gt;
-&lt;/html&gt;</code></pre><div class="code-example-explanation">Inputs get a green border when valid and a red border when invalid — but only once the user has started typing (<code>:not(:placeholder-shown)</code>). The <code>form:has(input:invalid) button</code> rule disables the submit button whenever any input is invalid. All validation styling is pure CSS — no JavaScript.</div><div class="code-example-output">A clean signup form. As you type, fields turn green when valid and red when invalid. The submit button is disabled until every field is valid.</div></div>
+&lt;/html&gt;</code></pre><div class="code-example-explanation">Inputs get a green border when valid and a red border when invalid, but only once the user has started typing (<code>:not(:placeholder-shown)</code>). The <code>form:has(input:invalid) button</code> rule disables the submit button whenever any input is invalid. All validation styling is pure CSS, no JavaScript.</div><div class="code-example-output">A clean signup form. As you type, fields turn green when valid and red when invalid. The submit button is disabled until every field is valid.</div></div>
 <div class="code-example"><div class="code-example-title">Ribbon and Badge Effects with ::before</div><pre><code class="language-python">&lt;!DOCTYPE html&gt;
 &lt;html&gt;
 &lt;head&gt;
@@ -620,7 +620,7 @@ li::marker      { color: #7c3aed; font-size: 1.2em; }</code></pre><p><code>::sel
     &lt;span class=&quot;price&quot;&gt;Rs 899&lt;/span&gt;
   &lt;/div&gt;
 &lt;/body&gt;
-&lt;/html&gt;</code></pre><div class="code-example-explanation"><code>.product.sale::before</code> injects a rotated red ribbon in the corner. <code>.product.new::after</code> injects a pill-shaped gradient badge in the top-left. The third card uses both classes and shows both decorations at once. No extra markup — just pseudo-elements.</div><div class="code-example-output">Three product cards. The first has a diagonal red SALE ribbon in the top-right corner. The second has a purple-pink NEW badge in the top-left. The third has both decorations at the same time.</div></div>
+&lt;/html&gt;</code></pre><div class="code-example-explanation"><code>.product.sale::before</code> injects a rotated red ribbon in the corner. <code>.product.new::after</code> injects a pill-shaped gradient badge in the top-left. The third card uses both classes and shows both decorations at once. No extra markup, just pseudo-elements.</div><div class="code-example-output">Three product cards. The first has a diagonal red SALE ribbon in the top-right corner. The second has a purple-pink NEW badge in the top-left. The third has both decorations at the same time.</div></div>
             </section>
 
             <section id="common-mistakes" class="content-section">
@@ -682,8 +682,8 @@ button:focus-visible {
 <li>Form validation styling is free: &lt;code&gt;:valid&lt;/code&gt;, &lt;code&gt;:invalid&lt;/code&gt;, &lt;code&gt;:required&lt;/code&gt;, and &lt;code&gt;:placeholder-shown&lt;/code&gt; let you show live feedback as the user types. Combine &lt;code&gt;:not(:placeholder-shown)&lt;/code&gt; with &lt;code&gt;:invalid&lt;/code&gt; to only show red after the user has started typing.</li>
 <li>&lt;code&gt;:nth-child(an+b)&lt;/code&gt; is a tiny query language: &lt;code&gt;odd&lt;/code&gt;, &lt;code&gt;even&lt;/code&gt;, &lt;code&gt;2n&lt;/code&gt;, &lt;code&gt;3n+1&lt;/code&gt;, etc. Use it for zebra stripes, grid patterns, and highlighting specific items without extra classes.</li>
 <li>&lt;code&gt;:not()&lt;/code&gt; excludes, &lt;code&gt;:is()&lt;/code&gt; groups selectors without rewriting them, and &lt;code&gt;:where()&lt;/code&gt; is like &lt;code&gt;:is()&lt;/code&gt; but with zero specificity (useful for base styles that are easy to override).</li>
-<li>&lt;code&gt;:has()&lt;/code&gt; is the parent selector — finally. Style an element based on what it contains: &lt;code&gt;form:has(:invalid) button&lt;/code&gt;, &lt;code&gt;.card:has(img)&lt;/code&gt;, &lt;code&gt;label:has(input:checked)&lt;/code&gt;. This used to require JavaScript.</li>
-<li>&lt;code&gt;::before&lt;/code&gt; and &lt;code&gt;::after&lt;/code&gt; require a &lt;code&gt;content&lt;/code&gt; property to render. Even &lt;code&gt;content: &#39;&#39;&lt;/code&gt; is enough for a pure decoration. They can read attributes with &lt;code&gt;content: attr(data-tip)&lt;/code&gt; — perfect for tooltips.</li>
+<li>&lt;code&gt;:has()&lt;/code&gt; is the parent selector, finally. Style an element based on what it contains: &lt;code&gt;form:has(:invalid) button&lt;/code&gt;, &lt;code&gt;.card:has(img)&lt;/code&gt;, &lt;code&gt;label:has(input:checked)&lt;/code&gt;. This used to require JavaScript.</li>
+<li>&lt;code&gt;::before&lt;/code&gt; and &lt;code&gt;::after&lt;/code&gt; require a &lt;code&gt;content&lt;/code&gt; property to render. Even &lt;code&gt;content: &#39;&#39;&lt;/code&gt; is enough for a pure decoration. They can read attributes with &lt;code&gt;content: attr(data-tip)&lt;/code&gt;, perfect for tooltips.</li>
 <li>&lt;code&gt;::first-letter&lt;/code&gt; and &lt;code&gt;::first-line&lt;/code&gt; style the first character or line of a paragraph (drop caps, magazine styling). &lt;code&gt;::selection&lt;/code&gt; styles highlighted text. &lt;code&gt;::placeholder&lt;/code&gt; styles form placeholders. &lt;code&gt;::marker&lt;/code&gt; styles list bullets or numbers.</li>
 <li>Creative patterns are mostly pseudo-elements: ribbons, badges, tooltips, sliding underlines, quote marks, custom bullets, decorative lines. All without adding a single extra HTML element.</li></ul></div>
             </section>

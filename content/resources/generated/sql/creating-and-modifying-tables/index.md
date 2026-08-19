@@ -17,14 +17,14 @@ keywords: ["create table mysql", "alter table add column", "alter table drop col
 
 Real-world databases evolve. A table you designed last sprint will need a new column next sprint, an index the sprint after that, and a rename six months later when the product team decides "users" should be called "members". This chapter is the toolbox for all of those schema changes.
 
-The commands covered here are collectively called **DDL** (Data Definition Language) — they define and change structure:
+The commands covered here are collectively called **DDL** (Data Definition Language), they define and change structure:
 
-- `CREATE TABLE` — make a new table
-- `ALTER TABLE` — add/drop/rename columns, add constraints, rename the table
-- `DROP TABLE` — permanently delete a table and all its data
-- `TRUNCATE TABLE` — delete every row (keep the table)
-- `CREATE TABLE AS SELECT` — copy another table's rows into a new one
-- `CREATE TEMPORARY TABLE` — a table that disappears when your session ends
+- `CREATE TABLE`, make a new table
+- `ALTER TABLE`, add/drop/rename columns, add constraints, rename the table
+- `DROP TABLE`, permanently delete a table and all its data
+- `TRUNCATE TABLE`, delete every row (keep the table)
+- `CREATE TABLE AS SELECT`, copy another table's rows into a new one
+- `CREATE TEMPORARY TABLE`, a table that disappears when your session ends
 
 ### The Sample Schema for This Chapter
 
@@ -34,7 +34,7 @@ employeesemp_id INT PKname VARCHAR(50)department VARCHAR(30)salary DECIMAL(10,2)
 
 ### 1. Every Project Has Migrations
 
-A **migration** is a SQL script that evolves your schema from one version to another. Frameworks like Django, Laravel, Rails, and Flyway generate migrations automatically, but you still have to read and write ALTER TABLE statements. Knowing DDL fluently lets you review migrations before they hit production — and stops junior teammates from committing scripts that would drop a column used by reporting.
+A **migration** is a SQL script that evolves your schema from one version to another. Frameworks like Django, Laravel, Rails, and Flyway generate migrations automatically, but you still have to read and write ALTER TABLE statements. Knowing DDL fluently lets you review migrations before they hit production, and stops junior teammates from committing scripts that would drop a column used by reporting.
 
 ### 2. DROP vs TRUNCATE vs DELETE Is a Classic Interview Question
 
@@ -46,11 +46,11 @@ An `ALTER TABLE orders DROP COLUMN amount` on a 500GB table can lock the table f
 
 ### 4. Making Scripts Re-Runnable (IF EXISTS / IF NOT EXISTS)
 
-A script that errors on second run is a bug. Using `IF NOT EXISTS` on CREATE and `IF EXISTS` on DROP makes scripts idempotent — safe to run any number of times. This is basic hygiene every backend engineer is expected to know.
+A script that errors on second run is a bug. Using `IF NOT EXISTS` on CREATE and `IF EXISTS` on DROP makes scripts idempotent, safe to run any number of times. This is basic hygiene every backend engineer is expected to know.
 
 ## Detailed Explanation
 
-### 1. CREATE TABLE — Full Syntax
+### 1. CREATE TABLE: Full Syntax
 
 A CREATE TABLE statement has three parts:
 
@@ -79,7 +79,7 @@ CREATE TABLE IF NOT EXISTS employees (...);
 
 If the table already exists, CREATE becomes a no-op (with a warning) instead of an error. Always use this in seed scripts.
 
-### 2. ALTER TABLE — The Swiss Army Knife
+### 2. ALTER TABLE: The Swiss Army Knife
 
 #### Add a Column
 
@@ -166,9 +166,9 @@ DROP TABLETRUNCATE TABLEDELETE FROMCategoryDDLDDLDMLWhat it removesTable + data 
 
 Mental model:
 
-- **DELETE** is a surgeon — precise, transactional, slow. Use when you want to remove specific rows.
-- **TRUNCATE** is a bulldozer — wipes everything fast, resets counters. Use when you want to empty a whole table quickly.
-- **DROP** is dynamite — removes the entire table. Use when the table should not exist anymore.
+- **DELETE** is a surgeon, precise, transactional, slow. Use when you want to remove specific rows.
+- **TRUNCATE** is a bulldozer, wipes everything fast, resets counters. Use when you want to empty a whole table quickly.
+- **DROP** is dynamite, removes the entire table. Use when the table should not exist anymore.
 
 ### 4. CREATE TABLE AS SELECT (CTAS)
 
@@ -181,7 +181,7 @@ CREATE TABLE high_earners AS
 SELECT * FROM employees WHERE salary > 80000;
 ```
 
-CTAS is handy for quick backups or subset copies. **Caveat:** indexes, constraints, and AUTO_INCREMENT are NOT copied by default — only columns and data. To duplicate the full schema including indexes, use `CREATE TABLE new_tbl LIKE old_tbl;` followed by an INSERT.
+CTAS is handy for quick backups or subset copies. **Caveat:** indexes, constraints, and AUTO_INCREMENT are NOT copied by default, only columns and data. To duplicate the full schema including indexes, use `CREATE TABLE new_tbl LIKE old_tbl;` followed by an INSERT.
 
 ### 5. TEMPORARY TABLE
 
@@ -247,7 +247,7 @@ Records: 4  Duplicates: 0  Warnings: 0
 +--------+-------------+----------------+------------+----------+------------+
 ```
 
-### ALTER TABLE — Adding, Dropping, Modifying, Renaming Columns
+### ALTER TABLE: Adding, Dropping, Modifying, Renaming Columns
 
 ```sql
 -- Add a phone column after name
@@ -265,7 +265,7 @@ ALTER TABLE employees DROP COLUMN phone;
 DESCRIBE employees;
 ```
 
-Four common alterations. ADD COLUMN ... AFTER places the new column at a specific position. MODIFY changes the type or constraints of an existing column. RENAME COLUMN (MySQL 8.0+) changes the name without touching the type. DROP COLUMN permanently removes a column — irreversible without a backup.
+Four common alterations. ADD COLUMN ... AFTER places the new column at a specific position. MODIFY changes the type or constraints of an existing column. RENAME COLUMN (MySQL 8.0+) changes the name without touching the type. DROP COLUMN permanently removes a column, irreversible without a backup.
 
 **Output:**
 
@@ -291,7 +291,7 @@ Records: 0  Duplicates: 0  Warnings: 0
 +-----------+---------------+------+-----+---------+----------------+
 ```
 
-### DELETE vs TRUNCATE vs DROP — Side-by-Side Demo
+### DELETE vs TRUNCATE vs DROP: Side-by-Side Demo
 
 ```sql
 -- Setup: fresh employees with 4 rows (see earlier INSERT)
@@ -361,7 +361,7 @@ DROP TABLE IF EXISTS employees_backup;
 CREATE TABLE employees_backup AS
 SELECT * FROM employees;
 
--- Partial backup — just IT employees
+-- Partial backup, just IT employees
 DROP TABLE IF EXISTS employees_it;
 CREATE TABLE employees_it AS
 SELECT emp_id, name, salary
@@ -371,7 +371,7 @@ WHERE dept = 'IT';
 SELECT * FROM employees_it;
 ```
 
-CTAS (Create Table As Select) is a quick way to make a backup or a filtered subset. The new table inherits the column names and types from the SELECT's result, but NOT the indexes, primary keys, or AUTO_INCREMENT attributes — those must be added separately if needed.
+CTAS (Create Table As Select) is a quick way to make a backup or a filtered subset. The new table inherits the column names and types from the SELECT's result, but NOT the indexes, primary keys, or AUTO_INCREMENT attributes, those must be added separately if needed.
 
 **Output:**
 
@@ -418,7 +418,7 @@ DESCRIBE departments;
 ALTER TABLE departments DROP CHECK chk_budget;
 ```
 
-You can add constraints to an existing table at any time via ALTER. Naming constraints (`pk_dept`, `uq_dept_name`, `chk_budget`) is a good habit — it makes them referenceable for DROP later. Unnamed constraints get auto-generated names like `departments_chk_1`.
+You can add constraints to an existing table at any time via ALTER. Naming constraints (`pk_dept`, `uq_dept_name`, `chk_budget`) is a good habit. It makes them referenceable for DROP later. Unnamed constraints get auto-generated names like `departments_chk_1`.
 
 **Output:**
 
@@ -442,7 +442,7 @@ Records: 0  Duplicates: 0  Warnings: 0
 Query OK, 0 rows affected (0.01 sec)
 ```
 
-### TEMPORARY TABLE — Session-Scoped Scratchpad
+### TEMPORARY TABLE: Session-Scoped Scratchpad
 
 ```sql
 -- Create a temp table visible only to this session
@@ -456,7 +456,7 @@ SELECT * FROM top_performers;
 
 SELECT COUNT(*) AS n FROM top_performers;
 
--- It disappears automatically when we DISCONNECT — no DROP needed.
+-- It disappears automatically when we DISCONNECT, no DROP needed.
 -- If you log out and log back in: Table 'top_performers' doesn't exist.
 ```
 
@@ -505,7 +505,7 @@ TRUNCATE TABLE employees;
 DELETE FROM employees WHERE dept = 'IT';
 ```
 
-DROP removes the entire table — structure, indexes, constraints, everything. Truly destructive. TRUNCATE keeps the table and just empties it. DELETE with WHERE is precise. Confusing DROP with TRUNCATE is a classic late-night production incident. Always double-check which one you're typing.
+DROP removes the entire table, structure, indexes, constraints, everything. Truly destructive. TRUNCATE keeps the table and just empties it. DELETE with WHERE is precise. Confusing DROP with TRUNCATE is a classic late-night production incident. Always double-check which one you're typing.
 
 ### Forgetting the COLUMN Keyword in ALTER
 
@@ -526,7 +526,7 @@ ALTER TABLE employees DROP COLUMN phone;
 ALTER TABLE employees MODIFY COLUMN name VARCHAR(80);
 ```
 
-Standard SQL requires the word `COLUMN`. MySQL allows omitting it but it's a bad habit — your queries won't port to PostgreSQL, and reviewers may flag it. Be explicit: `ADD COLUMN`, `DROP COLUMN`, `MODIFY COLUMN`, `RENAME COLUMN`.
+Standard SQL requires the word `COLUMN`. MySQL allows omitting it but it's a bad habit. Your queries won't port to PostgreSQL, and reviewers may flag it. Be explicit: `ADD COLUMN`, `DROP COLUMN`, `MODIFY COLUMN`, `RENAME COLUMN`.
 
 ### Expecting CREATE TABLE AS SELECT to Copy Constraints
 
@@ -537,7 +537,7 @@ CREATE TABLE backup AS SELECT * FROM employees;
 -- Assuming backup has the same PRIMARY KEY and AUTO_INCREMENT as employees
 ```
 
-backup has NO primary key, no AUTO_INCREMENT, no indexes, no FKs — just columns and data.
+backup has NO primary key, no AUTO_INCREMENT, no indexes, no FKs, just columns and data.
 
 **Correct:**
 
@@ -547,7 +547,7 @@ CREATE TABLE backup LIKE employees;   -- copies schema (constraints, indexes)
 INSERT INTO backup SELECT * FROM employees;  -- then copy data
 ```
 
-`CREATE TABLE AS SELECT` is quick but lossy — only columns and data come across. Use `CREATE TABLE new_name LIKE old_name` to clone the schema with all constraints and indexes, then `INSERT ... SELECT` to copy rows.
+`CREATE TABLE AS SELECT` is quick but lossy, only columns and data come across. Use `CREATE TABLE new_name LIKE old_name` to clone the schema with all constraints and indexes, then `INSERT ... SELECT` to copy rows.
 
 ### Dropping a Table Referenced by a FOREIGN KEY
 
@@ -577,7 +577,7 @@ DROP TABLE employees;
 SET FOREIGN_KEY_CHECKS = 1;
 ```
 
-Foreign keys protect you from deleting parent data that children depend on. If the error appears, either drop the children first or remove the FK constraint. The `SET FOREIGN_KEY_CHECKS = 0` trick is common in dev but dangerous in production — it can leave orphan rows once you re-enable checks.
+Foreign keys protect you from deleting parent data that children depend on. If the error appears, either drop the children first or remove the FK constraint. The `SET FOREIGN_KEY_CHECKS = 0` trick is common in dev but dangerous in production. It can leave orphan rows once you re-enable checks.
 
 ## Summary
 

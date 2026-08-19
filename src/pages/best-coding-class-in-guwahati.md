@@ -10,7 +10,7 @@ Live online · serving Guwahati
 
 # Coding classes in Guwahati, built to actually stick.
 
-Real programming for kids, teens and college students in Guwahati — from **GS Road to Paltan Bazaar, Fancy Bazaar to Dispur**. Small live batches, a mentor who knows your child's name, and projects they can open and show you.
+Real programming for kids, teens and college students in Guwahati, from **GS Road to Paltan Bazaar, Fancy Bazaar to Dispur**. Small live batches, a mentor who knows your child's name, and projects they can open and show you.
 
 Book a free demo class[Ask on WhatsApp](https://wa.me/919123366161?text=Hi,%20I'm%20interested%20in%20coding%20classes%20in%20Guwahati)★★★★★ **4.9/5****10,000+** students across India**5–8** students per batchFirst class is **free**GuwahatiEnrollingAreasGS Road, Paltan Bazaar, Fancy Bazaar, Dispur, Chandmari & all of GuwahatiBoardsSEBA / AHSEC · CBSE · ICSE · IGCSEAges**6–12** kids · **13–18** teens · college & adultsFormatLive online · 1-hour classes · 5–8 per batchTimingAfter-school & weekend slots · ISTProofRecorded sessions · completion certificate · real projectslive online across GuwahatiFREE DEMO OPEN
 
@@ -20,13 +20,13 @@ Book a free demo class[Ask on WhatsApp](https://wa.me/919123366161?text=Hi,%20I'
 
 ## Where in Guwahati we teach
 
-Every class is live online, so your child learns from home — no travel across the city, same small batch either way.
+Every class is live online, so your child learns from home, no travel across the city, same small batch either way.
 
 GS RoadPaltan BazaarFancy BazaarDispurChandmariZoo RoadGaneshguriSix MileHatigaonNarengi
 
 ## Why Guwahati families start here
 
-From GS Road and Paltan Bazaar to Fancy Bazaar and Dispur, families across Guwahati are choosing live online coding classes that go beyond a certificate. We build for real skills — the kind that hold up in an interview or a first internship.
+From GS Road and Paltan Bazaar to Fancy Bazaar and Dispur, families across Guwahati are choosing live online coding classes that go beyond a certificate. We build for real skills, the kind that hold up in an interview or a first internship.
 
 Guwahati has been the education gateway of the Northeast for over a century. When Cotton College opened here on 27 May 1901, Assam was, in the college's own record, the only British province in India without a college of its own, and Guwahati was judged the most suitable place for one. That college is now Cotton University. The Assam government today describes the city as the seat of power in the state and the node that connects six other Northeastern states. The engineering name families aim at most, IIT Guwahati, sits a little apart: its campus spreads over 285 hectares on the north bank of the Brahmaputra.
 
@@ -52,7 +52,7 @@ Create colorful websites with HTML and CSS. Guwahati kids learn to build their o
 
 ### Python for Young Coders
 
-Start text-based coding with Python — the world's most popular programming language. Create games, solve puzzles, and bring ideas to life with real programming skills.
+Start text-based coding with Python, the world's most popular programming language. Create games, solve puzzles, and bring ideas to life with real programming skills.
 
 [View course](/courses/python-ai-kids-masterclass)Ages 13–18
 
@@ -62,25 +62,25 @@ In demand![Python Programming for Teens in Guwahati](/images/python-teens.webp)
 
 ### Python Programming
 
-Master Python — the language behind L&T's automation systems and GSFC's data analytics in Guwahati's industrial corridor.
+Master Python, the language behind L&T's automation systems and GSFC's data analytics in Guwahati's industrial corridor.
 
 [View course](/courses/python-complete-masterclass-teens)Career![Java Programming for Teens in Guwahati](/images/java-teens.webp)
 
 ### Java Programming
 
-Master Java — used by TCS, Infosys, and Guwahati's growing tech sector. Build Android apps and enterprise software.
+Master Java, used by TCS, Infosys, and Guwahati's growing tech sector. Build Android apps and enterprise software.
 
 [View course](/courses/java-programming-masterclass-for-teens)Build![Web Development for Teens in Guwahati](/images/web-dev-teens.webp)
 
 ### Full Stack Web Development
 
-Build complete websites and web apps — skills that Guwahati's growing startup ecosystem actively demands.
+Build complete websites and web apps, skills that Guwahati's growing startup ecosystem actively demands.
 
 [View course](/courses/web-development-masterclass-teens)Future![AI Machine Learning for Teens in Guwahati](/images/ai-ml-teens.webp)
 
 ### AI & Machine Learning
 
-Explore artificial intelligence and machine learning — the technology reshaping India's fastest-growing technology and data science sectors.
+Explore artificial intelligence and machine learning, the technology reshaping India's fastest-growing technology and data science sectors.
 
 [View course](/courses/ai-ml-masterclass-teens)College & 18+
 
@@ -136,7 +136,7 @@ Live
 
 ### A real mentor, live
 
-Every class is taught live by an instructor with industry experience — questions get answered the moment they come up.
+Every class is taught live by an instructor with industry experience, questions get answered the moment they come up.
 
 Small
 
@@ -148,7 +148,7 @@ Build
 
 ### Project every module
 
-Kids don't just watch — they build games, websites and apps they can open, use and show you.
+Kids don't just watch. They build games, websites and apps they can open, use and show you.
 
 Track
 
@@ -158,7 +158,7 @@ Missed a class? Watch the recording. Every learner earns a completion certificat
 
 ## Simple, honest pricing
 
-1-hour live classes: 2 a week in Group and Mini Batch, 1 a week in 1-on-1. Start with a free demo — pay only when you're sure it's right for your child.
+1-hour live classes: 2 a week in Group and Mini Batch, 1 a week in 1-on-1. Start with a free demo, pay only when you're sure it's right for your child.
 
 Group₹1,499/month
 
@@ -189,17 +189,17 @@ Book a free demoPersonal 1-on-1₹4,999/month
 
 Start free
 
-International families pay flat USD rates — the prices above update automatically. Ask us anything on your free demo.
+International families pay flat USD rates, the prices above update automatically. Ask us anything on your free demo.
 
 ## What students actually build
 
-Not screenshots of a syllabus — real, live projects from Modern Age Coders learners and labs. Click through and use them.
+Not screenshots of a syllabus, real, live projects from Modern Age Coders learners and labs. Click through and use them.
 
-[![Simon Game](/images/projects/simongame.webp) GameSimon GameA fun memory-based game where players repeat colour and sound sequences. Each level adds a new challenge — brain-boosting for kids learning logic and focus. Built by Yashaswi · HTML, CSSOpen the live project ↗](http://yashaswi-2017.my.canva.site)[![SkyCast — Weather Forecast App](/images/projects/skycast.webp) Web AppSkyCast — Weather Forecast AppAn interactive weather forecasting site with real-time updates for any location — temperature, humidity, wind speed and conditions in a clean, responsive interface. Built by Krish · JavaScript, APIOpen the live project ↗](https://krish-shroff.github.io/AuraWeatherTech/)[![Palm Arcana — Summon the Elements](/images/projects/superpawer.webp) GamePalm Arcana — Summon the ElementsOpen your palms to the webcam and computer vision turns your gestures into real magic — the left palm throws a fireball, the right crackles with lightning. A wild blend of hand-tracking AI, creative coding and pure imagination, vibe-coded into a playable browser experience. Built by Aarush · Vibe Coding, Computer VisionOpen the live project ↗](https://superpawer.netlify.app)[See more student projects →](/student-labs)
+[![Simon Game](/images/projects/simongame.webp) GameSimon GameA fun memory-based game where players repeat colour and sound sequences. Each level adds a new challenge, brain-boosting for kids learning logic and focus. Built by Yashaswi · HTML, CSSOpen the live project ↗](http://yashaswi-2017.my.canva.site)[![SkyCast, Weather Forecast App](/images/projects/skycast.webp) Web AppSkyCast, Weather Forecast AppAn interactive weather forecasting site with real-time updates for any location, temperature, humidity, wind speed and conditions in a clean, responsive interface. Built by Krish · JavaScript, APIOpen the live project ↗](https://krish-shroff.github.io/AuraWeatherTech/)[![Palm Arcana, Summon the Elements](/images/projects/superpawer.webp) GamePalm Arcana, Summon the ElementsOpen your palms to the webcam and computer vision turns your gestures into real magic, the left palm throws a fireball, the right crackles with lightning. A wild blend of hand-tracking AI, creative coding and pure imagination, vibe-coded into a playable browser experience. Built by Aarush · Vibe Coding, Computer VisionOpen the live project ↗](https://superpawer.netlify.app)[See more student projects →](/student-labs)
 
 ## What families say
 
-Verified Google reviews from Modern Age Coders families across India. We don't invent testimonials — these are real people, real words.
+Verified Google reviews from Modern Age Coders families across India. We don't invent testimonials, these are real people, real words.
 
 ★★★★★
 
@@ -243,7 +243,7 @@ PDPragyen DiwanParent
 
 Tell us a little about your child and what they'd like to learn. We'll set up a free, no-pressure demo and help you pick the right starting point.
 
-- A real live class — not a sales call
+- A real live class, not a sales call
 - Meet the mentor before you decide
 - We reply within 48 hours (IST)
 
@@ -253,7 +253,7 @@ Prefer to talk now? Call [9123366161](tel:+919123366161) or [WhatsApp us](https:
 
 Takes under a minute.
 
-## Coding classes in Guwahati — FAQs
+## Coding classes in Guwahati: FAQs
 
 What is the best coding class in Guwahati for kids?Modern Age Coders offers the best coding classes in Guwahati for kids aged 6-12. Our courses include Scratch programming, game development, and creative coding with expert instructors. We serve all Guwahati areas including GS Road, Dispur, Chandmari, and Six Mile, and Manjalpur.Do you offer online coding classes in Guwahati?Yes, we offer live online coding classes for students across Guwahati including GS Road, Dispur, Chandmari, and Six Mile, Beltola, Ganeshguri, and all other areas. Our online classes are interactive with small batch sizes of 5-8 students.Do you offer coding classes for Assam Board (SEBA/AHSEC) (Assam Board) students in Guwahati?Yes, our curriculum supports both Assam Board (Assam Board (SEBA/AHSEC)) and CBSE students in Guwahati. We align our coding and maths courses with Assam Board (SEBA/AHSEC) requirements to complement school education.How much do coding classes cost in Guwahati?Our group coding classes start at Rs.1499/month with 2 classes per week. Mini Batch (3-4 students) is Rs.2,999/month. Personalized 1-on-1 classes are Rs.4,999/month. We offer a free demo class before enrollment.Can IIT Guwahati students join your programming courses?Absolutely! We offer college-level courses in Data Structures & Algorithms, Full Stack Web Development, and AI/Data Science perfect for IIT Guwahati and Gauhati University students preparing for placements.Is the medium of instruction English for Guwahati students?Our instructors are comfortable teaching in Hindi and English. Yes! All classes are in English with Hindi support. Guwahati students feel comfortable in our friendly, bilingual learning environment.What areas in Guwahati do you serve?We serve all areas of Guwahati through our online classes including GS Road, Dispur, Chandmari, and Six Mile, Ulubari, Panbazar, Lalganesh, Hatigaon, Narengi, Satgaon, Basistha, and more.How are your coding classes different from other institutes in Guwahati?We focus on project-based learning where students build real games, websites, and apps. Our small batch sizes (5-8 students), recorded sessions, expert instructors, and affordable pricing set us apart. We also support Assam Board, CBSE, and Assam Board (SEBA) preparation.Which board runs schools in Guwahati now, SEBA or the new one?Both names point at the same body now. Assam merged its two boards: the Class 10 board, SEBA, became Division I of the new Assam State School Education Board, and the Classes 11 and 12 council, AHSEC, became Division II. CBSE and ICSE schools operate in Guwahati as well. Our classes fit around whichever your child sits, because we teach the programming itself rather than a second run at the school computer paper.Can IIT Guwahati or Cotton University students join your programming courses?Yes. IIT Guwahati was the sixth IIT, set up in 1994, and Cotton University traces back to 1901, so the theory is in good hands locally. For engineering admission, Assam runs its own Combined Entrance Examination for state college seats, separate from JEE Main. What the college track adds is built work: Python, Java, full-stack or AI/ML, carried through to something that actually runs.
 

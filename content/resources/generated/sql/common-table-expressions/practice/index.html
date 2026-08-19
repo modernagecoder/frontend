@@ -17,7 +17,7 @@
     <!-- SEO Meta Tags -->
     <meta name="description" content="60+ practice questions on Common Table Expressions (CTEs) and Recursive Queries in SQL. Easy, medium, and hard questions with hints, answers, and coding challenges.">
     <!-- meta keywords intentionally not emitted: Google has ignored it since 2009 and Bing
-         treats it as a SPAM SIGNAL — and Bing is the index ChatGPT/Copilot answer from.
+         treats it as a SPAM SIGNAL, and Bing is the index ChatGPT/Copilot answer from.
          See scripts/strip-meta-keywords.py. -->
     <meta name="author" content="Modern Age Coders">
     <meta name="robots" content="index, follow">
@@ -138,7 +138,7 @@
                 <span class="badge badge-advanced">Advanced</span>
                 <span class="badge badge-questions">60 Questions</span>
             </div>
-            <h1 class="resource-title">Practice Questions &mdash; Common Table Expressions (CTEs) and Recursive Queries</h1>
+            <h1 class="resource-title">Practice Questions: Common Table Expressions (CTEs) and Recursive Queries</h1>
             <a href="/resources/sql/common-table-expressions" class="notes-link">&larr; Back to Notes</a>
         </div><!-- /resource-header -->
 
@@ -190,7 +190,7 @@ SELECT * FROM n;</code></pre></div><button type="button" class="collapsible-togg
                 <span class="question-difficulty medium">Medium</span>
                 <div class="question-text">Is this legal?<br><pre><code>WITH a AS (SELECT 1 AS x),
      b AS (SELECT x + 1 FROM a)
-SELECT * FROM b;</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-6" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-6">Later CTEs can see earlier CTEs.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-6" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-6">Yes — b references a, returns <code>2</code>.</div></div>
+SELECT * FROM b;</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-6" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-6">Later CTEs can see earlier CTEs.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-6" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-6">Yes, b references a, returns <code>2</code>.</div></div>
 <div class="question-card">
                 <div class="question-number">Question 7</div>
                 <span class="question-difficulty medium">Medium</span>
@@ -218,7 +218,7 @@ SELECT COUNT(*) FROM paid WHERE t > 1000;</code></pre></div><button type="button
 <div class="question-card">
                 <div class="question-number">Question 12</div>
                 <span class="question-difficulty medium">Medium</span>
-                <div class="question-text">Can you reference a CTE after the statement that declares it?</div><button type="button" class="collapsible-toggle" data-target="hint-ts-12" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-12">Scope.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-12" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-12">No — a CTE exists only for the duration of the statement that declares it. For cross-statement reuse, create a VIEW (persistent) or a TEMPORARY TABLE (session-scoped).</div></div>
+                <div class="question-text">Can you reference a CTE after the statement that declares it?</div><button type="button" class="collapsible-toggle" data-target="hint-ts-12" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-12">Scope.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-12" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-12">No, a CTE exists only for the duration of the statement that declares it. For cross-statement reuse, create a VIEW (persistent) or a TEMPORARY TABLE (session-scoped).</div></div>
 <div class="question-card">
                 <div class="question-number">Question 13</div>
                 <span class="question-difficulty hard">Hard</span>
@@ -331,7 +331,7 @@ SELECT COUNT(*) FROM r;</code></pre></div><button type="button" class="collapsib
 <div class="question-card">
                 <div class="question-number">Question 4</div>
                 <span class="question-difficulty medium">Medium</span>
-                <div class="question-text">Given a CTE returning 5 rows, and you reference it 3 times in the outer query, how many times does MySQL evaluate it?</div><button type="button" class="collapsible-toggle" data-target="hint-mx-4" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-4">The optimizer decides — may be once or multiple times.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-4" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-4">It depends — MySQL may inline the CTE (evaluating once per reference) or materialize it (evaluate once, reuse). MySQL 8.0 generally inlines non-recursive CTEs.</div></div>
+                <div class="question-text">Given a CTE returning 5 rows, and you reference it 3 times in the outer query, how many times does MySQL evaluate it?</div><button type="button" class="collapsible-toggle" data-target="hint-mx-4" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-4">The optimizer decides, may be once or multiple times.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-4" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-4">It depends: MySQL may inline the CTE (evaluating once per reference) or materialize it (evaluate once, reuse). MySQL 8.0 generally inlines non-recursive CTEs.</div></div>
 <div class="question-card">
                 <div class="question-number">Question 5</div>
                 <span class="question-difficulty medium">Medium</span>
@@ -382,7 +382,7 @@ LIMIT 3;</code></pre></div></div>
 <div class="question-card">
                 <div class="question-number">Question 9</div>
                 <span class="question-difficulty medium">Medium</span>
-                <div class="question-text">Why is UNION ALL required (not UNION) in recursive CTEs?</div><button type="button" class="collapsible-toggle" data-target="hint-mx-9" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-9">Performance and correctness.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-9" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-9">UNION removes duplicates, which would require checking every new row against the entire accumulated set — very expensive. UNION ALL blindly appends, which is O(1) per row. Also, correctness: deduplication could prematurely drop rows if duplicates are meaningful (e.g., counting paths).</div></div>
+                <div class="question-text">Why is UNION ALL required (not UNION) in recursive CTEs?</div><button type="button" class="collapsible-toggle" data-target="hint-mx-9" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-9">Performance and correctness.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-9" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-9">UNION removes duplicates, which would require checking every new row against the entire accumulated set, very expensive. UNION ALL blindly appends, which is O(1) per row. Also, correctness: deduplication could prematurely drop rows if duplicates are meaningful (e.g., counting paths).</div></div>
 <div class="question-card">
                 <div class="question-number">Question 10</div>
                 <span class="question-difficulty hard">Hard</span>
@@ -431,7 +431,7 @@ LIMIT 3;</code></pre></div></div>
 <div class="question-card">
                 <div class="question-number">MCQ 10</div>
                 <div class="question-text">What is silently truncated when column types mismatch between anchor and recursive member?</div>
-                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Integer values</li><li><span class="mcq-option-label">B.</span> Strings (sized by the anchor)</li><li><span class="mcq-option-label">C.</span> Dates</li><li><span class="mcq-option-label">D.</span> Nothing — MySQL errors</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-10" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-10"><strong>Answer: B</strong><br><strong>B is correct.</strong> The anchor determines string lengths. If the recursive member generates longer strings, they are truncated without warning. CAST in the anchor to a generous size.</div></div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Integer values</li><li><span class="mcq-option-label">B.</span> Strings (sized by the anchor)</li><li><span class="mcq-option-label">C.</span> Dates</li><li><span class="mcq-option-label">D.</span> Nothing: MySQL errors</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-10" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-10"><strong>Answer: B</strong><br><strong>B is correct.</strong> The anchor determines string lengths. If the recursive member generates longer strings, they are truncated without warning. CAST in the anchor to a generous size.</div></div>
 <div class="question-card">
                 <div class="question-number">MCQ 11</div>
                 <div class="question-text">Which of these is NOT a valid use case for a recursive CTE?</div>
@@ -439,7 +439,7 @@ LIMIT 3;</code></pre></div></div>
 <div class="question-card">
                 <div class="question-number">MCQ 12</div>
                 <div class="question-text">What's the practical difference between a CTE and a derived table (subquery in FROM)?</div>
-                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> None — they are identical</li><li><span class="mcq-option-label">B.</span> CTE can be referenced multiple times and supports recursion</li><li><span class="mcq-option-label">C.</span> CTE is persisted</li><li><span class="mcq-option-label">D.</span> CTE uses a different syntax only</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-12" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-12"><strong>Answer: B</strong><br><strong>B is correct.</strong> Derived tables can only be used once where declared. CTEs can be referenced any number of times in the same statement and enable recursion.</div></div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> None. They are identical</li><li><span class="mcq-option-label">B.</span> CTE can be referenced multiple times and supports recursion</li><li><span class="mcq-option-label">C.</span> CTE is persisted</li><li><span class="mcq-option-label">D.</span> CTE uses a different syntax only</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-12" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-12"><strong>Answer: B</strong><br><strong>B is correct.</strong> Derived tables can only be used once where declared. CTEs can be referenced any number of times in the same statement and enable recursion.</div></div>
 <div class="question-card">
                 <div class="question-number">MCQ 13</div>
                 <div class="question-text">How does MySQL 8.0 typically execute a non-recursive CTE?</div>
@@ -451,7 +451,7 @@ LIMIT 3;</code></pre></div></div>
 <div class="question-card">
                 <div class="question-number">MCQ 15</div>
                 <div class="question-text">What is the correct way to traverse a 5-level deep tree if cte_max_recursion_depth is set to 3?</div>
-                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Rewrite the query</li><li><span class="mcq-option-label">B.</span> Increase cte_max_recursion_depth to at least 5</li><li><span class="mcq-option-label">C.</span> Use UNION instead of UNION ALL</li><li><span class="mcq-option-label">D.</span> It&#39;s impossible</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-15" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-15"><strong>Answer: B</strong><br><strong>B is correct.</strong> Raise the limit: <code>SET @@cte_max_recursion_depth = 100;</code>. Verify termination logic is correct first — raising the limit on a runaway query just delays the error.</div></div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Rewrite the query</li><li><span class="mcq-option-label">B.</span> Increase cte_max_recursion_depth to at least 5</li><li><span class="mcq-option-label">C.</span> Use UNION instead of UNION ALL</li><li><span class="mcq-option-label">D.</span> It&#39;s impossible</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-15" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-15"><strong>Answer: B</strong><br><strong>B is correct.</strong> Raise the limit: <code>SET @@cte_max_recursion_depth = 100;</code>. Verify termination logic is correct first, raising the limit on a runaway query just delays the error.</div></div>
 <div class="question-card">
                 <div class="question-number">MCQ 16</div>
                 <div class="question-text">Which statement types can use a CTE?</div>
@@ -463,7 +463,7 @@ LIMIT 3;</code></pre></div></div>
 <div class="question-card">
                 <div class="question-number">MCQ 18</div>
                 <div class="question-text">Why can a WITH block NOT be used on its own (without a following SELECT/INSERT/UPDATE/DELETE)?</div>
-                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> CTEs must be consumed — they define a result only within a larger statement</li><li><span class="mcq-option-label">B.</span> It&#39;s a syntax quirk of MySQL</li><li><span class="mcq-option-label">C.</span> They can be, but it&#39;s uncommon</li><li><span class="mcq-option-label">D.</span> Because of backward compatibility</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-18" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-18"><strong>Answer: A</strong><br><strong>A is correct.</strong> A CTE is a named subquery. Without an outer statement to use the CTE, it has no purpose. MySQL raises a syntax error.</div></div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> CTEs must be consumed. They define a result only within a larger statement</li><li><span class="mcq-option-label">B.</span> It&#39;s a syntax quirk of MySQL</li><li><span class="mcq-option-label">C.</span> They can be, but it&#39;s uncommon</li><li><span class="mcq-option-label">D.</span> Because of backward compatibility</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-18" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-18"><strong>Answer: A</strong><br><strong>A is correct.</strong> A CTE is a named subquery. Without an outer statement to use the CTE, it has no purpose. MySQL raises a syntax error.</div></div>
 <div class="question-card">
                 <div class="question-number">MCQ 19</div>
                 <div class="question-text">In <code>WITH t AS (SELECT 1 AS x) SELECT x FROM t</code>, what is returned?</div>

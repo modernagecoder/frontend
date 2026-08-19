@@ -11,11 +11,11 @@
  * including 68 .md twins.
  *
  * The fix, per file:
- *   _redirects   — everything after the catch-all line moves wholesale to just
+ *   _redirects, everything after the catch-all line moves wholesale to just
  *                  above it (comments travel with their rules); the catch-all
  *                  becomes the true last rule. Exact duplicate rule lines are
  *                  dropped (first occurrence wins, same as Netlify semantics).
- *   netlify.toml — [[redirects]] blocks after the catch-all block are extracted
+ *   netlify.toml, [[redirects]] blocks after the catch-all block are extracted
  *                  and re-inserted above it. Non-redirect sections ([[headers]]
  *                  etc.) stay exactly where they are. Exact duplicate blocks are
  *                  dropped file-wide.

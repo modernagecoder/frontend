@@ -15,7 +15,7 @@ keywords: ["python strings", "string methods python", "string slicing python", "
 
 ## What Are Strings in Python?
 
-A **string** is a sequence of characters enclosed in quotes. Characters can be letters, digits, symbols, spaces, or even special characters like newline. In Python, strings are one of the most commonly used data types because almost every program deals with text in some form — names, messages, file paths, user input, and more.
+A **string** is a sequence of characters enclosed in quotes. Characters can be letters, digits, symbols, spaces, or even special characters like newline. In Python, strings are one of the most commonly used data types because almost every program deals with text in some form, names, messages, file paths, user input, and more.
 
 Python treats strings as **sequences**, which means each character has a position (index), and you can access individual characters, extract substrings, and iterate over them just like you would with a list of items.
 
@@ -23,11 +23,11 @@ Python treats strings as **sequences**, which means each character has a positio
 
 Python allows you to create strings using three different types of quotes:
 
-**1. Single quotes:** `'Hello'` — Most common for short strings.
+**1. Single quotes:** `'Hello'`, Most common for short strings.
 
-**2. Double quotes:** `"Hello"` — Identical to single quotes. Useful when the string itself contains a single quote, like `"Aarav's book"`.
+**2. Double quotes:** `"Hello"`, Identical to single quotes. Useful when the string itself contains a single quote, like `"Aarav's book"`.
 
-**3. Triple quotes:** `'''Hello'''` or `"""Hello"""` — Used for multi-line strings or strings that span several lines. Also used for docstrings (documentation strings in functions).
+**3. Triple quotes:** `'''Hello'''` or `"""Hello"""`: Used for multi-line strings or strings that span several lines. Also used for docstrings (documentation strings in functions).
 
 Single and double quotes are interchangeable in Python. There is no difference in the resulting string. The choice is purely about readability and avoiding escape characters.
 

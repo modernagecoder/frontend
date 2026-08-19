@@ -1,5 +1,5 @@
 ---
-title: "Coding for Class 12 — Board CS, College-Ready Portfolio, DSA & Competitive Programming | Modern Age Coders"
+title: "Coding for Class 12: Board CS, College-Ready Portfolio, DSA & Competitive Programming | Modern Age Coders"
 description: "Coding for Class 12 board students. CBSE/ICSE CS and IP alignment, one serious portfolio project, DSA, competitive programming and first-year college head start."
 canonical: https://learn.modernagecoders.com/coding-for-class-12
 source: src/pages/coding-for-class-12.html
@@ -8,7 +8,7 @@ source: src/pages/coding-for-class-12.html
 
 For parents of Class 12 students · Board + college
 
-# Coding for Class 12 — board, portfolio, college-ready.
+# Coding for Class 12: board, portfolio, college-ready.
 
 Class 12 is the last structured year before college. Our programme keeps CBSE/ICSE CS/IP marks safe, finishes a serious portfolio piece, and sharpens DSA/CP for college CS entry. 1 hour live, 1:1 or small group.
 
@@ -18,7 +18,7 @@ Class 12 is the last structured year before college. Our programme keeps CBSE/IC
 
 The right courses for Class 12 protect board marks and produce one clean portfolio piece. These are those.
 
-[Board ![CBSE ICSE CS Class 11 12 course](/images/python-teens.webp)   CBSE/ICSE CS 11–12 Board-aligned Python + Java — full syllabus, sample papers. BoardCS View course →](/courses/cbse-icse-computer-science-class-11-12-python-java-complete-course)[IP ![CBSE IP Class 11 12](/images/ip-cs-class-11-12.webp)   CBSE IP 11–12 Python, Pandas, SQL — the exact tools Informatics Practices tests. IP View course →](/courses/cbse-informatics-practices-ip-class-11-12-python-pandas-sql-complete-course)[Full Stack ![Full stack web development for teens](/images/web-dev-teens.webp)   Full Stack Web Dev HTML, CSS, JS, Node, databases — ship a real deployed web app. WebNode View course →](/courses/full-stack-web-development-teens-masterclass)[AI/ML ![AI and ML for teens](/images/ai-ml-teens.webp)   AI & ML Masterclass Pandas, sklearn, neural net intro — real AI projects, real data. AIML View course →](/courses/ai-ml-masterclass-teens)[DSA ![DSA masterclass for teens](/images/problem-solving-teens.webp)   DSA & Problem Solving Arrays, strings, trees, DP — core of every CS interview. DSA View course →](/courses/problem-solving-dsa-masterclass-teens)[C++ ![C++ for teens](/images/cpp-teens.webp)   C++ Programming STL, pointers, OOP — the CP and JEE Advanced prep language. C++CP View course →](/courses/cpp-programming-masterclass-for-teens)[CP ![Competitive programming masterclass](/images/competitive-programming-teens.webp)   Competitive Programming Codeforces/CodeChef rating climb — algorithms that win contests. CP View course →](/courses/competitive-programming-masterclass)[React ![React for teens](/images/react-teens.webp)   React.js Masterclass Build component-based web apps with the modern product stack. React View course →](/courses/react-for-teens-complete-masterclass)
+[Board ![CBSE ICSE CS Class 11 12 course](/images/python-teens.webp)   CBSE/ICSE CS 11–12 Board-aligned Python + Java, full syllabus, sample papers. BoardCS View course →](/courses/cbse-icse-computer-science-class-11-12-python-java-complete-course)[IP ![CBSE IP Class 11 12](/images/ip-cs-class-11-12.webp)   CBSE IP 11–12 Python, Pandas, SQL, the exact tools Informatics Practices tests. IP View course →](/courses/cbse-informatics-practices-ip-class-11-12-python-pandas-sql-complete-course)[Full Stack ![Full stack web development for teens](/images/web-dev-teens.webp)   Full Stack Web Dev HTML, CSS, JS, Node, databases, ship a real deployed web app. WebNode View course →](/courses/full-stack-web-development-teens-masterclass)[AI/ML ![AI and ML for teens](/images/ai-ml-teens.webp)   AI & ML Masterclass Pandas, sklearn, neural net intro, real AI projects, real data. AIML View course →](/courses/ai-ml-masterclass-teens)[DSA ![DSA masterclass for teens](/images/problem-solving-teens.webp)   DSA & Problem Solving Arrays, strings, trees, DP, core of every CS interview. DSA View course →](/courses/problem-solving-dsa-masterclass-teens)[C++ ![C++ for teens](/images/cpp-teens.webp)   C++ Programming STL, pointers, OOP, the CP and JEE Advanced prep language. C++CP View course →](/courses/cpp-programming-masterclass-for-teens)[CP ![Competitive programming masterclass](/images/competitive-programming-teens.webp)   Competitive Programming Codeforces/CodeChef rating climb, algorithms that win contests. CP View course →](/courses/competitive-programming-masterclass)[React ![React for teens](/images/react-teens.webp)   React.js Masterclass Build component-based web apps with the modern product stack. React View course →](/courses/react-for-teens-complete-masterclass)
 
 ### Already has a strong portfolio?
 
@@ -30,7 +30,7 @@ Looking for more? Browse the full [courses catalogue →](/courses)
 
 Why this level, specifically
 
-## Seventeen is the year to land cleanly — not cram.
+## Seventeen is the year to land cleanly: not cram.
 
 Class 12 students are often told to pause everything for boards. Result: zero portfolio, average marks. A calm, consistent 1 to 2 hours a week of real coding delivers better outcomes on both fronts.
 
@@ -44,7 +44,7 @@ We align sessions to the school's syllabus calendar. Chapters covered a week ahe
 
 ### One serious portfolio piece
 
-Admissions officers remember the one serious project. We finish one clean deployed piece with a writeup — not ten half-finished demos.
+Admissions officers remember the one serious project. We finish one clean deployed piece with a writeup, not ten half-finished demos.
 
 03 / DSA head start
 
@@ -96,7 +96,7 @@ Three merged PRs through the year to a real project. Not vanity commits.
 
 ossprThe curriculum path
 
-## Four quarters across Class 12 — exam aware.
+## Four quarters across Class 12: exam aware.
 
 Matches the school calendar. Pauses for pre-boards and boards. Everything else steady.
 
@@ -130,7 +130,7 @@ Q4 · Apr–Jun · College head start
 
 ### Pre-college sprint
 
-After boards — OS basics, DBMS basics, more DSA. Walks into BTech/BCA confident.
+After boards: OS basics, DBMS basics, more DSA. Walks into BTech/BCA confident.
 
 - os
 - dbms
@@ -145,12 +145,12 @@ Option A
 
 ### Live 1-on-1 Online Class
 
-One teacher, one learner, the full 1 hour. The teacher adapts pace in real time — slowing down on tricky concepts, speeding up where your child is already fluent. Best for focused learners, specific exam prep, or fastest progress.
+One teacher, one learner, the full 1 hour. The teacher adapts pace in real time, slowing down on tricky concepts, speeding up where your child is already fluent. Best for focused learners, specific exam prep, or fastest progress.
 
 - 1 teacher, 1 student, 1 hour per session
 - Pace fully adjusted to your child
 - Focused help on school projects and exams
-- Flexible timing — you pick the slots
+- Flexible timing. You pick the slots
 - Every class recorded and shared with parents
 
 **₹4,999**/ month · 4 sessionsOption B
@@ -161,7 +161,7 @@ One teacher, one learner, the full 1 hour. The teacher adapts pace in real time 
 
 - Small groups of 4 to 6 similar-level learners
 - 1 hour live session, 2 sessions per week
-- Peer project reviews — students present to each other
+- Peer project reviews, students present to each other
 - Fixed schedule, same classmates each week
 - Class recording and parent progress report
 
@@ -198,11 +198,11 @@ I am truly grateful for my experience at Modern Age Coders. My teachers were not
 
 KKrishnam BhatterFormer studentCommon questions from parents
 
-## Before you book the demo — answered honestly.
+## Before you book the demo: answered honestly.
 
 Short, plain answers. If your question isn't here, tap the callback button at the top and a human will get back to you the same day.
 
-Is Class 12 too risky for a coding class?Only if it is the wrong one. Ours is built for Class 12: fewer, deeper sessions, scheduled around exam calendars, full pause during pre-boards and boards.CBSE Class 12 CS paper?Directly aligned. Our teachers follow the NCERT CS syllabus week by week. Most students finish with 90+ in CS/IP.ICSE/ISC Class 12 CS?Yes. Java + OOP + data structures alignment. Sample papers, code review, viva prep included.JEE / CUET prep conflict?Schedule is flexible. JEE Advanced students usually 1 class/week; lighter load 2. Designed to supplement, not compete.Can a Class 12 student really finish a portfolio project?One serious project, not ten. Start Term 1, ship by Term 2, before pre-boards. Parents are often surprised how doable this is with a clear plan.100 DSA problems realistic?At 3 problems a week with guidance — yes. Confidence and foundation for first-year BTech.Help with college applications?We don't write essays. We help frame the technical portfolio — GitHub cleanup, project writeups, which projects to feature. Often moves the needle.Gap-year student?Welcome. Gap-year students often make the fastest progress — 3 to 4 sessions a week. We design a 6–9 month intensive.Book a free 1 hour demo class
+Is Class 12 too risky for a coding class?Only if it is the wrong one. Ours is built for Class 12: fewer, deeper sessions, scheduled around exam calendars, full pause during pre-boards and boards.CBSE Class 12 CS paper?Directly aligned. Our teachers follow the NCERT CS syllabus week by week. Most students finish with 90+ in CS/IP.ICSE/ISC Class 12 CS?Yes. Java + OOP + data structures alignment. Sample papers, code review, viva prep included.JEE / CUET prep conflict?Schedule is flexible. JEE Advanced students usually 1 class/week; lighter load 2. Designed to supplement, not compete.Can a Class 12 student really finish a portfolio project?One serious project, not ten. Start Term 1, ship by Term 2, before pre-boards. Parents are often surprised how doable this is with a clear plan.100 DSA problems realistic?At 3 problems a week with guidance, yes. Confidence and foundation for first-year BTech.Help with college applications?We don't write essays. We help frame the technical portfolio: GitHub cleanup, project writeups, which projects to feature. Often moves the needle.Gap-year student?Welcome. Gap-year students often make the fastest progress: 3 to 4 sessions a week. We design a 6–9 month intensive.Book a free 1 hour demo class
 
 ### Try one session. Decide after.
 

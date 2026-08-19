@@ -16,11 +16,11 @@ Modern Age Coders runs premium, 100% live online coding and mathematics classes 
 
 ## At a glance
 
-Format**100% live online**, real-time with a teacher — not pre-recorded videoBatch sizeGroup of 6-8, mini batch of 3-4, or fully 1-on-1Ages**6 to 67** — kids, teens, college students and working adultsSubjectsCoding (Python, Java, AI/ML, Scratch, DSA, web) and Mathematics (Grade 1 to college + Olympiad)BoardsICSE (Java/BlueJ), CBSE (Python), ISC and WBBSE — all supportedFeesFrom ₹1,499/month group, ₹2,999/month mini batch, ₹4,999/month 1-on-1Free demoYes — one free, no-commitment live demo class before you decideServingBally, Belur, Belur Math, Bally Halt, Liluah, Nischinda, Dewangazi, Bally Ghoshpara and the wider GT Road beltLIVE ONLINE · PREMIUM QUALITY
+Format**100% live online**, real-time with a teacher, not pre-recorded videoBatch sizeGroup of 6-8, mini batch of 3-4, or fully 1-on-1Ages**6 to 67**, kids, teens, college students and working adultsSubjectsCoding (Python, Java, AI/ML, Scratch, DSA, web) and Mathematics (Grade 1 to college + Olympiad)BoardsICSE (Java/BlueJ), CBSE (Python), ISC and WBBSE, all supportedFeesFrom ₹1,499/month group, ₹2,999/month mini batch, ₹4,999/month 1-on-1Free demoYes, one free, no-commitment live demo class before you decideServingBally, Belur, Belur Math, Bally Halt, Liluah, Nischinda, Dewangazi, Bally Ghoshpara and the wider GT Road beltLIVE ONLINE · PREMIUM QUALITY
 
-## Live online, premium teaching — for a Bally household
+## Live online, premium teaching: for a Bally household
 
-Every class at Modern Age Coders is delivered live online by a full-time engineer or maths graduate to a small batch — so a Bally student gets the same premium, project-based teaching as any top Kolkata centre, without crossing Bally Bridge or the Hooghly. Nothing here is pre-recorded; your child speaks, asks and codes in real time, every single class.
+Every class at Modern Age Coders is delivered live online by a full-time engineer or maths graduate to a small batch, so a Bally student gets the same premium, project-based teaching as any top Kolkata centre, without crossing Bally Bridge or the Hooghly. Nothing here is pre-recorded; your child speaks, asks and codes in real time, every single class.
 
 ### Genuinely Live, Never a Recording
 
@@ -36,11 +36,11 @@ Classes are led by full-time software engineers and mathematics graduates, not p
 
 ### Project-Based From Day One
 
-Children build real, working things — games, trackers, calculators and data tools — instead of only copying syntax. Projects double as board practical files and portfolio pieces. Bally students have built everything from a Belur Math timing tool to a GT Road fare app.
+Children build real, working things, games, trackers, calculators and data tools, instead of only copying syntax. Projects double as board practical files and portfolio pieces. Bally students have built everything from a Belur Math timing tool to a GT Road fare app.
 
 ### The Commute Disappears
 
-No GT Road bottleneck, no Bally Bridge or Nivedita Setu choke, no ferry across to Dakshineswar for evening coaching. Your child finishes school, has a snack and is coding from home — saving roughly 90 minutes of round-trip travel every class day. That time goes back into study and rest.
+No GT Road bottleneck, no Bally Bridge or Nivedita Setu choke, no ferry across to Dakshineswar for evening coaching. Your child finishes school, has a snack and is coding from home, saving roughly 90 minutes of round-trip travel every class day. That time goes back into study and rest.
 
 ### Premium Quality at a Bally Price
 
@@ -78,7 +78,7 @@ MOST IN-DEMAND
 
 ### [Python & AI for Kids and Teens](/python-and-ai-classes-for-kids-teens)
 
-Python is the language behind modern AI, data science and automation, and it is the gentlest serious language for a young coder to start with. Our Bally students move from their first line of Python to building real tools — exactly the kind of project a Class 11 learner near Dewangazi More used to log GT Road air-quality data. It is also the core language for the CBSE Computer Science syllabus at KV Belur and Adamas.
+Python is the language behind modern AI, data science and automation, and it is the gentlest serious language for a young coder to start with. Our Bally students move from their first line of Python to building real tools, exactly the kind of project a Class 11 learner near Dewangazi More used to log GT Road air-quality data. It is also the core language for the CBSE Computer Science syllabus at KV Belur and Adamas.
 
 **You'll learn:** Variables, loops, functions and AI basics. **You'll build:** games, calculators and real data-visualisation projects.
 
@@ -86,7 +86,7 @@ ICSE ESSENTIAL
 
 ### [Java Programming for ICSE Students](/java-programming-for-icse-students)
 
-Java with BlueJ is the official Computer Applications language for ICSE schools across the Liluah-Belur belt — Don Bosco Liluah, St. Denis and M.C. Kejriwal. We teach the exact board syllabus, the practical file format and the board-style program patterns examiners expect. A Class 10 student here even built a Belur Math aarti and ferry-timing console program as a board practical.
+Java with BlueJ is the official Computer Applications language for ICSE schools across the Liluah-Belur belt: Don Bosco Liluah, St. Denis and M.C. Kejriwal. We teach the exact board syllabus, the practical file format and the board-style program patterns examiners expect. A Class 10 student here even built a Belur Math aarti and ferry-timing console program as a board practical.
 
 **You'll learn:** Java syntax, classes and full OOP. **You'll build:** board-ready BlueJ programs and a complete practical file.
 
@@ -110,11 +110,11 @@ LIVE ONLINE · THE NEIGHBOURHOOD
 
 ## Bally: a town that respects precise, careful work
 
-Bally has always been a town that respects hard, precise work. Strung along Grand Trunk Road between Howrah and the Hooghly belt, its jute mills, engineering workshops and colony families built a culture of discipline and skill long before software arrived. That same spirit of precision now channels naturally into coding — where one wrong character breaks a program and one careful fix makes it run. Bally children take to it because their families already value getting things exactly right.
+Bally has always been a town that respects hard, precise work. Strung along Grand Trunk Road between Howrah and the Hooghly belt, its jute mills, engineering workshops and colony families built a culture of discipline and skill long before software arrived. That same spirit of precision now channels naturally into coding, where one wrong character breaks a program and one careful fix makes it run. Bally children take to it because their families already value getting things exactly right.
 
-This is also a deeply rooted, riverside Bengali town. Belur Math and the Ramakrishna Mission anchor its cultural life; the ghats, Bally Halt station, Dewangazi More and the daily rhythm of Bally-to-Dakshineswar ferries are part of every family's week. Parents here are conservative in lifestyle but quietly ambitious for their children — they want real IT and engineering futures, taught with discipline and proven results, not flashy branding. Live online classes fit that life: the child stays home, safe and studying, while learning the same skills as any South Kolkata student.
+This is also a deeply rooted, riverside Bengali town. Belur Math and the Ramakrishna Mission anchor its cultural life; the ghats, Bally Halt station, Dewangazi More and the daily rhythm of Bally-to-Dakshineswar ferries are part of every family's week. Parents here are conservative in lifestyle but quietly ambitious for their children. They want real IT and engineering futures, taught with discipline and proven results, not flashy branding. Live online classes fit that life: the child stays home, safe and studying, while learning the same skills as any South Kolkata student.
 
-And the commute is the real story. Reaching a Kolkata or central-Howrah coaching centre from Bally means crawling through GT Road bottlenecks and the chronic Bally Bridge and Nivedita Setu choke, or crossing the river toward Dakshineswar — easily 75 to 90 minutes round trip on an evening. We delete that entirely. School ends, a snack is had, and the child is coding from home with no road and no river to cross. The saved time goes back into practice, rest and family.
+And the commute is the real story. Reaching a Kolkata or central-Howrah coaching centre from Bally means crawling through GT Road bottlenecks and the chronic Bally Bridge and Nivedita Setu choke, or crossing the river toward Dakshineswar, easily 75 to 90 minutes round trip on an evening. We delete that entirely. School ends, a snack is had, and the child is coding from home with no road and no river to cross. The saved time goes back into practice, rest and family.
 
 PROJECT 01
 
@@ -134,19 +134,19 @@ PROJECT 03
 
 A Class 8 learner's Scratch app that maps a walking order for popular Bally and Liluah Puja pandals, so families cover the most pandals before the evening crowd, shared with neighbours during Pujo.
 
-"No more dragging him across Bally Bridge after school for tuition — he learns from home and we can see he is actually building things."
+"No more dragging him across Bally Bridge after school for tuition. He learns from home and we can see he is actually building things."
 
-BA Bally parentparaphrased — read more on our [Wall of Love](/love)LIVE ONLINE · AREAS SERVED
+BA Bally parentparaphrased, read more on our [Wall of Love](/love)LIVE ONLINE · AREAS SERVED
 
 ## Areas & pin codes we teach across
 
 ### Pin codes
 
-We serve students across pin codes **711201, 711202, 711203, 711204, 711205, 711227 and 711101** — the full Bally, Belur and Liluah belt.
+We serve students across pin codes **711201, 711202, 711203, 711204, 711205, 711227 and 711101**, the full Bally, Belur and Liluah belt.
 
 BallyBelurBelur MathBally HaltBally GhoshparaNischindaBally NimtalaBally KhalDewangaziBally JagachaGT Road BallyBally Bridge areaLiluah edgeDakshineswar approachHindmotor side
 
-Live anywhere near Bally or Belur? If you have a laptop and an internet connection, you are already in our classroom — no travel required.
+Live anywhere near Bally or Belur? If you have a laptop and an internet connection, you are already in our classroom, no travel required.
 
 LIVE ONLINE · WEEKLY SCHEDULE
 
@@ -160,7 +160,7 @@ LIVE ONLINE · WEEKLY SCHEDULE
 | Night | 8:30 PM - 10:00 PM | College, DSA, working adults | Tue / Thu / Sat |
 | Weekend Intensive | 10:00 AM - 12:00 PM | Camps, projects, 1-on-1 catch-up | Sat / Sun |
 
-Slots are flexible — we fix a timetable around your child's school hours and tuition load. [Book a demo](/book-demo) to lock a slot.
+Slots are flexible. We fix a timetable around your child's school hours and tuition load. [Book a demo](/book-demo) to lock a slot.
 
 LIVE ONLINE · HONEST COMPARISON
 
@@ -168,10 +168,10 @@ LIVE ONLINE · HONEST COMPARISON
 
 ### Where live online wins
 
-- No GT Road traffic, no Bally Bridge or Nivedita Setu choke, no river crossing — roughly 90 minutes saved every class day.
+- No GT Road traffic, no Bally Bridge or Nivedita Setu choke, no river crossing, roughly 90 minutes saved every class day.
 - Small live batches of 6-8 mean more teacher attention than a packed local coaching room.
 - Taught by full-time engineers and maths graduates, not whoever is available locally.
-- Your child stays home — safe, supervised and studying — which conservative Bally families value.
+- Your child stays home, safe, supervised and studying, which conservative Bally families value.
 - Every class is screen-shared and interactive, so doubts are solved live, not left for next week.
 - Recordings of your own class are available for revision, on top of the live teaching.
 - Premium, project-based teaching at Bally-friendly fees from ₹1,499 a month.
@@ -183,7 +183,7 @@ LIVE ONLINE · HONEST COMPARISON
 - Households with no reliable laptop or internet connection will struggle with any online format.
 - A student who needs constant physical supervision may do better with an in-person minder present.
 
-For genuine, structured coding and maths skills, live online wins on quality, attention and time saved — which is why Bally families are choosing it. [Book a free demo](/book-demo) and judge for yourself.
+For genuine, structured coding and maths skills, live online wins on quality, attention and time saved, which is why Bally families are choosing it. [Book a free demo](/book-demo) and judge for yourself.
 
 LIVE ONLINE · GETTING STARTED
 
@@ -227,11 +227,11 @@ LIVE ONLINE · FAQ
 
 ## Frequently asked questions
 
-Yes. Our [Java for ICSE Students](/java-programming-for-icse-students) course covers the full ICSE Java/BlueJ Computer Applications syllabus, including board-style practical files and the exact program patterns examiners expect. Students from Don Bosco Liluah, St. Denis and M.C. Kejriwal are taught to their own board's requirements.Absolutely. Our teachers explain concepts in simple, clear language and do not assume strong prior English, and group batches start at just ₹1,499 a month. Coding is a skill any disciplined WBBSE student can learn well. See [pricing](/pricing) for all options.Yes — every class is live and online, taught in real time by a teacher. Your child learns from home with no Bally Bridge, no Nivedita Setu choke and no river crossing, saving around 90 minutes per class day. Nothing is pre-recorded.Yes. Our [Coding Classes for Girls](/coding-classes-for-girls) (Princess Coders and Queen Coders) are dedicated girls-only batches across age groups, designed for families who prefer that environment for their daughters. The curriculum is identical in quality to all other batches.Yes. Our [Class 11-12 Computer Science course](/courses/cbse-icse-computer-science-class-11-12-python-java-complete-course) covers the full CBSE Python-based CS and IP syllabus — theory, practicals and projects. We prepare students for both the written board papers and the practical examination.Group classes (max 6-8) start at ₹1,499 a month, mini batches (3-4 students) at ₹2,999 a month, and fully personalised 1-on-1 classes at ₹4,999 a month. See the [pricing page](/pricing) for full details. There are no hidden charges.We support ICSE (Java/BlueJ), CBSE (Python), ISC and WBBSE. Our teaching is board-aware, so the syllabus and exam style are matched to your child's actual school. We cover both [Java](/java-programming-for-kids-teens) and [Python](/python-and-ai-classes-for-kids-teens) board tracks.We teach students from age 6 to 67 — kids, teens, college students and working adults. Young beginners can start with [Scratch and kids coding](/courses/coding/kids), and adults can take [Java for adults](/java-classes-for-adults) or [AI/ML for professionals](/ai-and-machine-learning-for-working-professionals).Every live class is recorded, so your child can catch up on any missed session before the next class. For 1-on-1 students we can also reschedule the slot. No lesson is ever lost.A laptop or desktop with a stable internet connection works best, as the children write and run real code on screen. A reasonably modern tablet can work for younger Scratch learners. We will confirm the right setup during your free demo.Classes are taught in clear, simple English, and teachers are comfortable explaining concepts in a Hindi or Bengali-friendly way when a younger or WBBSE student needs it. The goal is understanding, not jargon.It is 100% live. Every class is taught in real time by a full-time engineer or maths graduate to a small batch, so your child can ask questions and clear doubts on the spot. We never replace live teaching with pre-recorded videos.Yes. Our certificate-track courses, such as the [Java Certification Course](/java-certification-course) and [AI/ML Certification Course](/ai-ml-certification-course), award a certificate backed by assessed projects, so it reflects real, demonstrated skill.Yes. We offer [online maths tuition](/online-maths-tuition) from Grade 1 through Class 12 and into college, for all boards, including Olympiad preparation (IOQM, RMO, IMO). Many Bally families enrol for both coding and maths together.Just [book a free demo class](/book-demo) — it is genuinely free and carries no commitment. Your child attends a real live class, you see the teaching quality for yourself, and only then do you decide. You can also reach us on WhatsApp at [+91 91233 66161](https://wa.me/919123366161).
+Yes. Our [Java for ICSE Students](/java-programming-for-icse-students) course covers the full ICSE Java/BlueJ Computer Applications syllabus, including board-style practical files and the exact program patterns examiners expect. Students from Don Bosco Liluah, St. Denis and M.C. Kejriwal are taught to their own board's requirements.Absolutely. Our teachers explain concepts in simple, clear language and do not assume strong prior English, and group batches start at just ₹1,499 a month. Coding is a skill any disciplined WBBSE student can learn well. See [pricing](/pricing) for all options.Yes, every class is live and online, taught in real time by a teacher. Your child learns from home with no Bally Bridge, no Nivedita Setu choke and no river crossing, saving around 90 minutes per class day. Nothing is pre-recorded.Yes. Our [Coding Classes for Girls](/coding-classes-for-girls) (Princess Coders and Queen Coders) are dedicated girls-only batches across age groups, designed for families who prefer that environment for their daughters. The curriculum is identical in quality to all other batches.Yes. Our [Class 11-12 Computer Science course](/courses/cbse-icse-computer-science-class-11-12-python-java-complete-course) covers the full CBSE Python-based CS and IP syllabus, theory, practicals and projects. We prepare students for both the written board papers and the practical examination.Group classes (max 6-8) start at ₹1,499 a month, mini batches (3-4 students) at ₹2,999 a month, and fully personalised 1-on-1 classes at ₹4,999 a month. See the [pricing page](/pricing) for full details. There are no hidden charges.We support ICSE (Java/BlueJ), CBSE (Python), ISC and WBBSE. Our teaching is board-aware, so the syllabus and exam style are matched to your child's actual school. We cover both [Java](/java-programming-for-kids-teens) and [Python](/python-and-ai-classes-for-kids-teens) board tracks.We teach students from age 6 to 67, kids, teens, college students and working adults. Young beginners can start with [Scratch and kids coding](/courses/coding/kids), and adults can take [Java for adults](/java-classes-for-adults) or [AI/ML for professionals](/ai-and-machine-learning-for-working-professionals).Every live class is recorded, so your child can catch up on any missed session before the next class. For 1-on-1 students we can also reschedule the slot. No lesson is ever lost.A laptop or desktop with a stable internet connection works best, as the children write and run real code on screen. A reasonably modern tablet can work for younger Scratch learners. We will confirm the right setup during your free demo.Classes are taught in clear, simple English, and teachers are comfortable explaining concepts in a Hindi or Bengali-friendly way when a younger or WBBSE student needs it. The goal is understanding, not jargon.It is 100% live. Every class is taught in real time by a full-time engineer or maths graduate to a small batch, so your child can ask questions and clear doubts on the spot. We never replace live teaching with pre-recorded videos.Yes. Our certificate-track courses, such as the [Java Certification Course](/java-certification-course) and [AI/ML Certification Course](/ai-ml-certification-course), award a certificate backed by assessed projects, so it reflects real, demonstrated skill.Yes. We offer [online maths tuition](/online-maths-tuition) from Grade 1 through Class 12 and into college, for all boards, including Olympiad preparation (IOQM, RMO, IMO). Many Bally families enrol for both coding and maths together.Just [book a free demo class](/book-demo). It is genuinely free and carries no commitment. Your child attends a real live class, you see the teaching quality for yourself, and only then do you decide. You can also reach us on WhatsApp at [+91 91233 66161](https://wa.me/919123366161).
 
 ## Bally's next coder or mathematician is at home right now.
 
-Premium, live online, project-based coding and maths — small batches, engineer-led, no Bally Bridge traffic. Start with one free class.
+Premium, live online, project-based coding and maths, small batches, engineer-led, no Bally Bridge traffic. Start with one free class.
 
 [Book a Free Demo Class](/book-demo)[Explore Courses](/courses)[+91 91233 66161](https://wa.me/919123366161)LIVE ONLINE · NEARBY AREAS
 
@@ -269,7 +269,7 @@ REAL STUDENT PROJECTS
 
 ## What our students actually build
 
-[![NutriLife — AI Nutrition Coach](/images/projects/nutrilife.webp)AI & MLNutriLife — AI Nutrition CoachSnap a photo of any meal and NutriLife instantly names every food, then breaks down the calories, macros, vitamins and minerals — powered by AI. Bhavya vibe-coded it from a single idea: shaped the app in prompts, then wired up the AI food-recognition, daily tracking and smart coaching by hand.by BhavyaOpen the live project ↗](https://nutrilife-bhavya.lovable.app)[![GuardianX — AI Bodyguard for the Internet](/images/projects/guardianx.webp)AI & MLGuardianX — AI Bodyguard for the InternetPaste any suspicious link or message and GuardianX returns an instant AI verdict before you become a victim — plus a link scanner, safety score, breach check and live scam alerts built for India. Vibe-coded from idea to working product through prompts, then refined until it genuinely understands how phishing and scams work.by VivaanOpen the live project ↗](https://guardianx-cybersaver.lovable.app)[![Palm Arcana — Summon the Elements](/images/projects/superpawer.webp)GamePalm Arcana — Summon the ElementsOpen your palms to the webcam and computer vision turns your gestures into real magic — the left palm throws a fireball, the right crackles with lightning. A wild blend of hand-tracking AI, creative coding and pure imagination, vibe-coded into a playable browser experience.by AarushOpen the live project ↗](https://superpawer.netlify.app)
+[![NutriLife, AI Nutrition Coach](/images/projects/nutrilife.webp)AI & MLNutriLife, AI Nutrition CoachSnap a photo of any meal and NutriLife instantly names every food, then breaks down the calories, macros, vitamins and minerals, powered by AI. Bhavya vibe-coded it from a single idea: shaped the app in prompts, then wired up the AI food-recognition, daily tracking and smart coaching by hand.by BhavyaOpen the live project ↗](https://nutrilife-bhavya.lovable.app)[![GuardianX, AI Bodyguard for the Internet](/images/projects/guardianx.webp)AI & MLGuardianX, AI Bodyguard for the InternetPaste any suspicious link or message and GuardianX returns an instant AI verdict before you become a victim, plus a link scanner, safety score, breach check and live scam alerts built for India. Vibe-coded from idea to working product through prompts, then refined until it genuinely understands how phishing and scams work.by VivaanOpen the live project ↗](https://guardianx-cybersaver.lovable.app)[![Palm Arcana, Summon the Elements](/images/projects/superpawer.webp)GamePalm Arcana, Summon the ElementsOpen your palms to the webcam and computer vision turns your gestures into real magic, the left palm throws a fireball, the right crackles with lightning. A wild blend of hand-tracking AI, creative coding and pure imagination, vibe-coded into a playable browser experience.by AarushOpen the live project ↗](https://superpawer.netlify.app)
 
 Every one is a real, live project by a student. See more in [Student Labs](/student-labs).
 

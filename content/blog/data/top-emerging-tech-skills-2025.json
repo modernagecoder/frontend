@@ -48,7 +48,7 @@
       },
       {
         "type": "paragraph",
-        "text": "The tech skills that got you here won't necessarily get you where you want to go. The industry evolves constantly, and 2025 marks a particularly significant shift. AI has moved from hype to practical application. Cloud has become the default infrastructure. Low-code is democratizing development. According to the <strong>World Economic Forum's Future of Jobs Report 2024</strong>, 44% of workers' skills will be disrupted in the next five years—making strategic upskilling more critical than ever."
+        "text": "The tech skills that got you here won't necessarily get you where you want to go. The industry evolves constantly, and 2025 marks a particularly significant shift. AI has moved from hype to practical application. Cloud has become the default infrastructure. Low-code is democratizing development. According to the <strong>World Economic Forum's Future of Jobs Report 2024</strong>, 44% of workers' skills will be disrupted in the next five years, making strategic upskilling more critical than ever."
       },
       {
         "type": "paragraph",
@@ -56,7 +56,7 @@
       },
       {
         "type": "paragraph",
-        "text": "This guide covers the most important emerging tech skills for 2025—not just what they are, but why they matter, the market demand data behind them, realistic learning timelines, and insights from industry experts who are shaping the future."
+        "text": "This guide covers the most important emerging tech skills for 2025, not just what they are, but why they matter, the market demand data behind them, realistic learning timelines, and insights from industry experts who are shaping the future."
       },
       {
         "type": "callout",
@@ -223,7 +223,7 @@
       },
       {
         "type": "paragraph",
-        "text": "AI isn't just for researchers anymore. It's becoming a practical tool that professionals across industries need to understand and leverage. The release of ChatGPT in late 2022 marked an inflection point—AI moved from specialized applications to mainstream productivity tools that everyone uses."
+        "text": "AI isn't just for researchers anymore. It's becoming a practical tool that professionals across industries need to understand and leverage. The release of ChatGPT in late 2022 marked an inflection point: AI moved from specialized applications to mainstream productivity tools that everyone uses."
       },
       {
         "type": "quote",
@@ -345,7 +345,7 @@
         "type": "callout",
         "calloutType": "tip",
         "title": "Start Here",
-        "text": "You don't need to become an AI researcher. Start with AI literacy and prompt engineering—skills that enhance any role. These take just 4-6 weeks and immediately boost your productivity. Deepen into ML if you want to specialize."
+        "text": "You don't need to become an AI researcher. Start with AI literacy and prompt engineering, skills that enhance any role. These take just 4-6 weeks and immediately boost your productivity. Deepen into ML if you want to specialize."
       },
       {
         "type": "heading",
@@ -359,7 +359,7 @@
       },
       {
         "type": "quote",
-        "text": "Cloud computing is not just about technology—it's about business transformation. Organizations that master cloud will outpace their competitors in agility, innovation, and cost efficiency.",
+        "text": "Cloud computing is not just about technology. It's about business transformation. Organizations that master cloud will outpace their competitors in agility, innovation, and cost efficiency.",
         "author": "Werner Vogels, CTO of Amazon Web Services"
       },
       {
@@ -477,7 +477,7 @@
         "type": "callout",
         "calloutType": "info",
         "title": "Platform Choice Strategy",
-        "text": "AWS has 32% market share (largest), Azure has 23% (fastest growing in enterprises), Google Cloud has 10% (strongest in AI/ML). Pick based on your target employers—check job postings in your area. Concepts transfer across platforms."
+        "text": "AWS has 32% market share (largest), Azure has 23% (fastest growing in enterprises), Google Cloud has 10% (strongest in AI/ML). Pick based on your target employers. Check job postings in your area. Concepts transfer across platforms."
       },
       {
         "type": "heading",
@@ -491,7 +491,7 @@
       },
       {
         "type": "quote",
-        "text": "Low-code is not about replacing developers—it's about empowering everyone to solve problems with technology. The best solutions come when business experts can directly translate their knowledge into applications.",
+        "text": "Low-code is not about replacing developers. It's about empowering everyone to solve problems with technology. The best solutions come when business experts can directly translate their knowledge into applications.",
         "author": "Charles Lamanna, CVP of Business Applications at Microsoft"
       },
       {
@@ -610,7 +610,7 @@
         "type": "callout",
         "calloutType": "info",
         "title": "Low-Code Doesn't Replace Coding",
-        "text": "Low-code complements traditional development—it doesn't replace it. Complex applications still need custom code. But knowing both gives you flexibility. The sweet spot: use low-code for 80% of simple applications, custom code for the 20% that need it."
+        "text": "Low-code complements traditional development. It doesn't replace it. Complex applications still need custom code. But knowing both gives you flexibility. The sweet spot: use low-code for 80% of simple applications, custom code for the 20% that need it."
       },
       {
         "type": "button",
@@ -744,7 +744,7 @@
       },
       {
         "type": "quote",
-        "text": "Cybersecurity is no longer just an IT problem—it's a business survival issue. Every organization needs security professionals, and the shortage is only getting worse. This is one of the most stable, high-paying career paths in tech.",
+        "text": "Cybersecurity is no longer just an IT problem. It's a business survival issue. Every organization needs security professionals, and the shortage is only getting worse. This is one of the most stable, high-paying career paths in tech.",
         "author": "Kevin Mandia, CEO of Mandiant (Google Cloud)"
       },
       {
@@ -846,7 +846,7 @@
         "type": "callout",
         "calloutType": "warning",
         "title": "Entry Path Tip",
-        "text": "Cybersecurity is easier to enter with a foundation in IT or development. Start with CompTIA Security+ if you're new to security. If you're already in tech, focus on security aspects of your current role first—secure coding, cloud security, or DevSecOps."
+        "text": "Cybersecurity is easier to enter with a foundation in IT or development. Start with CompTIA Security+ if you're new to security. If you're already in tech, focus on security aspects of your current role first, secure coding, cloud security, or DevSecOps."
       },
       {
         "type": "heading",
@@ -970,7 +970,7 @@
       },
       {
         "type": "quote",
-        "text": "APIs are the digital equivalent of electrical outlets—they're the standard interface that lets everything connect. Every modern application is really a collection of APIs working together. Understanding APIs is understanding how software works today.",
+        "text": "APIs are the digital equivalent of electrical outlets. They're the standard interface that lets everything connect. Every modern application is really a collection of APIs working together. Understanding APIs is understanding how software works today.",
         "author": "Kin Lane, The API Evangelist"
       },
       {
@@ -1064,7 +1064,7 @@
       },
       {
         "type": "paragraph",
-        "text": "You can't learn everything. Here's how to prioritize based on your current situation and goals. The key is to be strategic—focus on skills that compound and open doors to multiple opportunities."
+        "text": "You can't learn everything. Here's how to prioritize based on your current situation and goals. The key is to be strategic, focus on skills that compound and open doors to multiple opportunities."
       },
       {
         "type": "heading",
@@ -1144,12 +1144,12 @@
       },
       {
         "type": "quote",
-        "text": "The future belongs to those who can combine domain expertise with technical skills. A marketer who can code, a doctor who understands AI, a lawyer who can analyze data—these hybrid professionals will lead their industries.",
+        "text": "The future belongs to those who can combine domain expertise with technical skills. A marketer who can code, a doctor who understands AI, a lawyer who can analyze data, these hybrid professionals will lead their industries.",
         "author": "Sundar Pichai, CEO of Google and Alphabet"
       },
       {
         "type": "quote",
-        "text": "Don't just learn to code—learn to think computationally. The specific languages and tools will change, but the ability to break down problems, think systematically, and automate solutions will always be valuable.",
+        "text": "Don't just learn to code. Learn to think computationally. The specific languages and tools will change, but the ability to break down problems, think systematically, and automate solutions will always be valuable.",
         "author": "Reshma Saujani, Founder of Girls Who Code"
       },
       {
@@ -1179,7 +1179,7 @@
         "items": [
           {
             "title": "Will AI replace programmers?",
-            "content": "AI is changing programming, not eliminating it. AI tools make programmers more productive, but humans are still needed to design systems, solve complex problems, and ensure AI outputs are correct. According to GitHub's 2024 survey, developers using AI tools are 55% more productive—but they're still developers. Learning to work with AI makes you more valuable, not obsolete."
+            "content": "AI is changing programming, not eliminating it. AI tools make programmers more productive, but humans are still needed to design systems, solve complex problems, and ensure AI outputs are correct. According to GitHub's 2024 survey, developers using AI tools are 55% more productive, but they're still developers. Learning to work with AI makes you more valuable, not obsolete."
           },
           {
             "title": "Should I learn cloud before or after programming?",
@@ -1187,11 +1187,11 @@
           },
           {
             "title": "Is low-code a threat to developer jobs?",
-            "content": "Low-code handles simple applications, freeing developers for complex work. It's a tool that complements development, not a replacement. Gartner predicts low-code will handle 70% of new applications by 2025—but the remaining 30% (complex, custom applications) still needs traditional developers. Developers who understand both are most versatile."
+            "content": "Low-code handles simple applications, freeing developers for complex work. It's a tool that complements development, not a replacement. Gartner predicts low-code will handle 70% of new applications by 2025, but the remaining 30% (complex, custom applications) still needs traditional developers. Developers who understand both are most versatile."
           },
           {
             "title": "Which cloud platform should I learn?",
-            "content": "AWS has the largest market share (32%), making it a safe default. Azure is strong in enterprises using Microsoft (23% share, fastest growing). Google Cloud is growing in AI/ML (10% share). Pick based on your target employers—check job postings in your area. Concepts transfer across platforms, so starting with any major platform is fine."
+            "content": "AWS has the largest market share (32%), making it a safe default. Azure is strong in enterprises using Microsoft (23% share, fastest growing). Google Cloud is growing in AI/ML (10% share). Pick based on your target employers. Check job postings in your area. Concepts transfer across platforms, so starting with any major platform is fine."
           },
           {
             "title": "How do I stay current with rapidly changing technology?",
@@ -1199,7 +1199,7 @@
           },
           {
             "title": "How long does it take to become job-ready in tech?",
-            "content": "For career changers: 9-15 months of dedicated learning (10-15 hours/week) to reach entry-level positions. For upskilling professionals: 3-6 months to add a significant new skill. For students: 12-18 months of focused learning alongside studies. The key is consistency—regular practice beats intensive cramming."
+            "content": "For career changers: 9-15 months of dedicated learning (10-15 hours/week) to reach entry-level positions. For upskilling professionals: 3-6 months to add a significant new skill. For students: 12-18 months of focused learning alongside studies. The key is consistency, regular practice beats intensive cramming."
           },
           {
             "title": "Are certifications worth it?",
@@ -1207,7 +1207,7 @@
           },
           {
             "title": "What's the best way to learn these skills?",
-            "content": "Combine structured learning (courses, certifications) with hands-on projects. The 70-20-10 rule works well: 70% learning by doing (projects), 20% learning from others (mentors, communities), 10% formal training (courses). Build real projects that solve actual problems—this creates portfolio pieces and deepens understanding."
+            "content": "Combine structured learning (courses, certifications) with hands-on projects. The 70-20-10 rule works well: 70% learning by doing (projects), 20% learning from others (mentors, communities), 10% formal training (courses). Build real projects that solve actual problems. This creates portfolio pieces and deepens understanding."
           }
         ]
       },
@@ -1218,7 +1218,7 @@
       },
       {
         "type": "paragraph",
-        "text": "The tech skills landscape in 2025 is defined by AI integration, cloud-native development, and the democratization of software creation through low-code. These aren't passing trends—they're fundamental shifts in how technology is built and used. The market data is clear: professionals with these skills command significant salary premiums and have access to millions of unfilled positions globally."
+        "text": "The tech skills landscape in 2025 is defined by AI integration, cloud-native development, and the democratization of software creation through low-code. These aren't passing trends. They're fundamental shifts in how technology is built and used. The market data is clear: professionals with these skills command significant salary premiums and have access to millions of unfilled positions globally."
       },
       {
         "type": "paragraph",
@@ -1226,13 +1226,13 @@
       },
       {
         "type": "paragraph",
-        "text": "Start with one skill, build proficiency, then expand. Use the learning timelines in this guide to set realistic expectations. The best time to start learning was yesterday. The second best time is now. In 12-18 months, you could be in a completely different place professionally—with higher earning potential, more career options, and skills that will remain valuable for decades."
+        "text": "Start with one skill, build proficiency, then expand. Use the learning timelines in this guide to set realistic expectations. The best time to start learning was yesterday. The second best time is now. In 12-18 months, you could be in a completely different place professionally, with higher earning potential, more career options, and skills that will remain valuable for decades."
       },
       {
         "type": "callout",
         "calloutType": "success",
         "title": "Future-Proof Your Career",
-        "text": "The tech skills you build today shape your opportunities tomorrow. With 3.5 million AI positions and 3.4 million cybersecurity roles unfilled globally, the opportunity has never been greater. Start learning the skills that will define the future—your future self will thank you."
+        "text": "The tech skills you build today shape your opportunities tomorrow. With 3.5 million AI positions and 3.4 million cybersecurity roles unfilled globally, the opportunity has never been greater. Start learning the skills that will define the future. Your future self will thank you."
       },
       {
         "type": "button",

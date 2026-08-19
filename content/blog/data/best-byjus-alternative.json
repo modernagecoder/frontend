@@ -142,15 +142,15 @@
         "type": "list",
         "style": "unordered",
         "items": [
-          "<strong>Live classes with real teachers</strong> — Not just recorded videos. Your child should be able to ask questions and get answers in real time.",
-          "<strong>1-on-1 or small group format</strong> — Batch sizes of 20-50 are just school classrooms on a screen. Look for 1-on-1 or groups of 3-5 students maximum.",
-          "<strong>Coding + Maths together</strong> — These subjects reinforce each other. A platform that offers both saves money and produces deeper learning.",
-          "<strong>Age-appropriate curriculum</strong> — A 6-year-old and a 16-year-old need completely different approaches. The platform should have separate tracks.",
-          "<strong>Transparent pricing</strong> — No hidden fees, no multi-year lock-ins, no EMI pressure. Monthly plans with the freedom to cancel anytime.",
-          "<strong>Real projects and portfolios</strong> — The child should be building things, not just answering MCQs. Look for project-based learning with shareable outcomes.",
-          "<strong>Qualified instructors</strong> — Professional teachers with real subject expertise, not college students reading from scripts.",
-          "<strong>Global curriculum</strong> — Especially important if you want education that is relevant beyond Indian board exams.",
-          "<strong>Free trial or demo</strong> — Any confident platform will let your child try a real class before you pay anything."
+          "<strong>Live classes with real teachers</strong>: Not just recorded videos. Your child should be able to ask questions and get answers in real time.",
+          "<strong>1-on-1 or small group format</strong>: Batch sizes of 20-50 are just school classrooms on a screen. Look for 1-on-1 or groups of 3-5 students maximum.",
+          "<strong>Coding + Maths together</strong>: These subjects reinforce each other. A platform that offers both saves money and produces deeper learning.",
+          "<strong>Age-appropriate curriculum</strong>: A 6-year-old and a 16-year-old need completely different approaches. The platform should have separate tracks.",
+          "<strong>Transparent pricing</strong>: No hidden fees, no multi-year lock-ins, no EMI pressure. Monthly plans with the freedom to cancel anytime.",
+          "<strong>Real projects and portfolios</strong>: The child should be building things, not just answering MCQs. Look for project-based learning with shareable outcomes.",
+          "<strong>Qualified instructors</strong>: Professional teachers with real subject expertise, not college students reading from scripts.",
+          "<strong>Global curriculum</strong>: Especially important if you want education that is relevant beyond Indian board exams.",
+          "<strong>Free trial or demo</strong>: Any confident platform will let your child try a real class before you pay anything."
         ]
       },
       {
@@ -172,7 +172,7 @@
       {
         "type": "heading",
         "level": 3,
-        "text": "1. Modern Age Coders — Best Overall Alternative"
+        "text": "1. Modern Age Coders: Best Overall Alternative"
       },
       {
         "type": "paragraph",
@@ -186,8 +186,8 @@
           "<strong>Subjects:</strong> Coding (Scratch, Python, JavaScript, Java, HTML/CSS, C++) + Mathematics (Class 1-12, college, advanced)",
           "<strong>Special programs:</strong> Code Queens (girls-only batches with female mentors), AI/ML course, game development, app development",
           "<strong>Tools taught:</strong> Pygame, Roblox Studio, MIT App Inventor, ChatGPT, Teachable Machine, Canva, Figma, p5.js",
-          "<strong>Pricing:</strong> Rs 1,499/month (group) | Rs 2,999/month (1-on-1) — no contracts, cancel anytime",
-          "<strong>Free demo:</strong> Yes, full class with a real instructor — <a href='/book-demo'>book here</a>",
+          "<strong>Pricing:</strong> Rs 1,499/month (group) | Rs 2,999/month (1-on-1), no contracts, cancel anytime",
+          "<strong>Free demo:</strong> Yes, full class with a real instructor, <a href='/book-demo'>book here</a>",
           "<strong>Best for:</strong> Parents who want coding + maths in one place, with live expert instruction at an affordable price"
         ]
       },
@@ -447,7 +447,7 @@
       {
         "type": "heading",
         "level": 2,
-        "text": "Live Classes vs Recorded Videos — Why It Matters",
+        "text": "Live Classes vs Recorded Videos: Why It Matters",
         "id": "live-vs-recorded"
       },
       {
@@ -472,11 +472,11 @@
         "type": "list",
         "style": "unordered",
         "items": [
-          "<strong>Instant doubt resolution</strong> — When a child is stuck on a concept, they can ask immediately instead of rewinding a video and hoping to figure it out alone.",
-          "<strong>Adaptive pacing</strong> — A live teacher notices when a child is bored (moving too slow) or confused (moving too fast) and adjusts in real time.",
-          "<strong>Accountability</strong> — Having a scheduled class with a teacher who knows your child's name creates structure and motivation that self-paced content cannot match.",
-          "<strong>Social-emotional learning</strong> — Children learn confidence, communication, and persistence through interaction with a mentor, not by watching a screen.",
-          "<strong>Real debugging skills</strong> — In coding, half the learning happens when something breaks. A live teacher guides the child through finding and fixing errors, which is how real developers work."
+          "<strong>Instant doubt resolution</strong>: When a child is stuck on a concept, they can ask immediately instead of rewinding a video and hoping to figure it out alone.",
+          "<strong>Adaptive pacing</strong>: A live teacher notices when a child is bored (moving too slow) or confused (moving too fast) and adjusts in real time.",
+          "<strong>Accountability</strong>: Having a scheduled class with a teacher who knows your child's name creates structure and motivation that self-paced content cannot match.",
+          "<strong>Social-emotional learning</strong>: Children learn confidence, communication, and persistence through interaction with a mentor, not by watching a screen.",
+          "<strong>Real debugging skills</strong>: In coding, half the learning happens when something breaks. A live teacher guides the child through finding and fixing errors, which is how real developers work."
         ]
       },
       {
@@ -486,7 +486,7 @@
       {
         "type": "heading",
         "level": 2,
-        "text": "The Coding + Maths Advantage — Why This Combo Matters",
+        "text": "The Coding + Maths Advantage: Why This Combo Matters",
         "id": "coding-maths-advantage"
       },
       {
@@ -501,20 +501,20 @@
         "type": "list",
         "style": "unordered",
         "items": [
-          "<strong>Loops and sequences</strong> — A Python for loop is a mathematical sequence. When a child writes <code>for i in range(1, 11)</code>, they are exploring number patterns.",
-          "<strong>Game coordinates</strong> — Building a game in Scratch or Pygame requires understanding the X-Y coordinate system, which is coordinate geometry from Class 8-9.",
-          "<strong>Variables and algebra</strong> — Every variable in code is an algebraic concept. <code>score = score + 10</code> is literally an algebraic expression.",
-          "<strong>Angles and shapes</strong> — Drawing with Turtle graphics teaches angles, degrees, and geometric properties hands-on.",
-          "<strong>Logic and proofs</strong> — If-else conditions in code are logical statements. Debugging a program is essentially constructing a logical proof of correctness.",
-          "<strong>Data and statistics</strong> — Working with lists, averages, and data visualization in Python maps directly to statistics curriculum.",
-          "<strong>Probability</strong> — Building dice games or random event generators teaches probability through code."
+          "<strong>Loops and sequences</strong>: A Python for loop is a mathematical sequence. When a child writes <code>for i in range(1, 11)</code>, they are exploring number patterns.",
+          "<strong>Game coordinates</strong>: Building a game in Scratch or Pygame requires understanding the X-Y coordinate system, which is coordinate geometry from Class 8-9.",
+          "<strong>Variables and algebra</strong>: Every variable in code is an algebraic concept. <code>score = score + 10</code> is literally an algebraic expression.",
+          "<strong>Angles and shapes</strong>: Drawing with Turtle graphics teaches angles, degrees, and geometric properties hands-on.",
+          "<strong>Logic and proofs</strong>: If-else conditions in code are logical statements. Debugging a program is essentially constructing a logical proof of correctness.",
+          "<strong>Data and statistics</strong>: Working with lists, averages, and data visualization in Python maps directly to statistics curriculum.",
+          "<strong>Probability</strong>: Building dice games or random event generators teaches probability through code."
         ]
       },
       {
         "type": "image",
         "url": "https://ik.imagekit.io/ysmxsdgmw4/blogs/blog-images/Byjus%20Alternative/pricing-comparison-infographic.png",
         "alt": "Infographic showing how coding concepts like loops, variables, and coordinates map directly to mathematical concepts like sequences, algebra, and geometry",
-        "caption": "Coding and maths are two sides of the same coin — learning them together multiplies the benefit"
+        "caption": "Coding and maths are two sides of the same coin, learning them together multiplies the benefit"
       },
       {
         "type": "paragraph",
@@ -523,7 +523,7 @@
       {
         "type": "heading",
         "level": 2,
-        "text": "Pricing Comparison — What You Actually Pay",
+        "text": "Pricing Comparison: What You Actually Pay",
         "id": "pricing-comparison"
       },
       {
@@ -541,8 +541,8 @@
         "items": [
           "Annual packages range from Rs 30,000 to Rs 1,50,000 depending on the grade and program",
           "Tablet bundles with EMI options can push total cost to Rs 70,000-1,00,000+",
-          "Refund policies have been a major source of complaints — many parents report difficulty getting money back",
-          "No coding included — if you want coding, you pay separately for WhiteHat Jr (same parent company)",
+          "Refund policies have been a major source of complaints, many parents report difficulty getting money back",
+          "No coding included, if you want coding, you pay separately for WhiteHat Jr (same parent company)",
           "<strong>Effective monthly cost: Rs 4,000 - Rs 12,000+ depending on program</strong>"
         ]
       },
@@ -559,9 +559,9 @@
           "Mini Batch (3-4 students): <strong>Rs 2,999 per month</strong>",
           "1-on-1 personalized classes: <strong>Rs 4,999 per month</strong>",
           "Both coding AND maths included in the same subscription",
-          "No contracts, no lock-in — cancel anytime with zero penalties",
+          "No contracts, no lock-in, cancel anytime with zero penalties",
           "No tablet purchases, no EMI traps, no hidden fees",
-          "Free demo class with a real instructor before you pay anything — <a href='/book-demo'>book yours here</a>"
+          "Free demo class with a real instructor before you pay anything, <a href='/book-demo'>book yours here</a>"
         ]
       },
       {
@@ -619,7 +619,7 @@
       {
         "type": "heading",
         "level": 3,
-        "text": "Ages 6 to 65 — A Platform for the Whole Family"
+        "text": "Ages 6 to 65: A Platform for the Whole Family"
       },
       {
         "type": "paragraph",
@@ -628,7 +628,7 @@
       {
         "type": "heading",
         "level": 3,
-        "text": "Code Queens — Girls-Only Program"
+        "text": "Code Queens: Girls-Only Program"
       },
       {
         "type": "paragraph",

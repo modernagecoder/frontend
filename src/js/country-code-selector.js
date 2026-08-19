@@ -282,7 +282,7 @@
 
   // Multiple countries share dial codes (+1 = US/Canada/Caribbean, +7 = RU/KZ,
   // +44 = GB/Guernsey/Jersey/Isle of Man, etc). When the user types a bare
-  // shared code we pick the largest market by default — they can still open
+  // shared code we pick the largest market by default. They can still open
   // the picker to override.
   var DIAL_PREFERRED_ISO = { '1': 'US', '7': 'RU', '44': 'GB', '61': 'AU', '212': 'MA', '262': 'RE', '590': 'GP', '599': 'CW' };
 
@@ -321,7 +321,7 @@
       '.mac-cc-wrap{position:relative;display:flex;align-items:stretch;width:100%;gap:0;}',
       '.mac-cc-wrap > input[type="tel"]{flex:1;min-width:0;border-top-left-radius:0!important;border-bottom-left-radius:0!important;border-left:0!important;}',
 
-      // Trigger button — picks up surrounding border color via currentColor and
+      // Trigger button, picks up surrounding border color via currentColor and
       // matches the input height via align-self:stretch + align-items:center.
       '.mac-cc-btn{display:inline-flex;align-items:center;align-self:stretch;gap:8px;border:1px solid currentColor;border-right:0;background:transparent;color:inherit;font:inherit;cursor:pointer;padding:0 12px;border-radius:8px 0 0 8px;min-width:104px;min-height:44px;line-height:1.2;outline:none;white-space:nowrap;opacity:.95;transition:background .15s ease,opacity .15s ease;-webkit-tap-highlight-color:transparent;touch-action:manipulation;}',
       '.mac-cc-btn:hover,.mac-cc-btn:focus-visible{opacity:1;background:rgba(168,85,247,.08);}',
@@ -330,7 +330,7 @@
       '.mac-cc-btn .mac-cc-dial{font-weight:600;font-size:.95em;}',
       '.mac-cc-btn .mac-cc-caret{margin-left:auto;width:10px;height:10px;flex-shrink:0;opacity:.7;}',
 
-      // The custom dropdown — fixed positioned so it always escapes overflow.
+      // The custom dropdown, fixed positioned so it always escapes overflow.
       '.mac-cc-pop{position:fixed;z-index:2147483647;width:360px;max-width:calc(100vw - 24px);background:var(--mac-cc-pop-bg,#fff);color:var(--mac-cc-pop-fg,#0f172a);border:1px solid var(--mac-cc-pop-border,rgba(15,23,42,.12));border-radius:12px;box-shadow:0 24px 48px rgba(15,23,42,.18),0 4px 12px rgba(15,23,42,.08);overflow:hidden;display:flex;flex-direction:column;animation:mac-cc-fade .14s ease-out;}',
       '@keyframes mac-cc-fade{from{opacity:0;transform:translateY(-6px);}to{opacity:1;transform:translateY(0);}}',
       '.mac-cc-pop[hidden]{display:none;}',
@@ -380,7 +380,7 @@
       '}',
       '@keyframes mac-cc-sheet{from{transform:translateY(100%);}to{transform:translateY(0);}}',
 
-      // Body scroll lock — JS sets position:fixed + saved scroll offset. We
+      // Body scroll lock: JS sets position:fixed + saved scroll offset. We
       // also clamp overflow as a belt-and-braces measure for non-iOS browsers.
       // Critically we do NOT touch touch-action here: scroll inside the
       // popover relies on default touch behaviour to feel native.
@@ -398,7 +398,7 @@
   }
 
   // Rough light/dark detection by looking at the closest container's
-  // computed background color — keeps the popover legible on dark themes.
+  // computed background color, keeps the popover legible on dark themes.
   function isDarkContext(node) {
     var el = node;
     while (el && el !== document.documentElement) {
@@ -407,7 +407,7 @@
         var m = bg.match(/rgba?\(([^)]+)\)/);
         if (m) {
           var parts = m[1].split(',').map(function (s) { return parseFloat(s); });
-          // If alpha is < 0.2 keep walking up — it's effectively transparent.
+          // If alpha is < 0.2 keep walking up. It's effectively transparent.
           if (parts.length === 4 && parts[3] < 0.2) {
             el = el.parentElement;
             continue;
@@ -465,7 +465,7 @@
     // Build every country row exactly once and stash references for filtering.
     var frag = document.createDocumentFragment();
 
-    // Popular section — pinned at the top.
+    // Popular section, pinned at the top.
     for (var p = 0; p < POPULAR.length; p++) {
       var pc = getCountryByIso(POPULAR[p]);
       if (!pc) continue;
@@ -495,7 +495,7 @@
 
     list.appendChild(frag);
 
-    // Single delegated click handler — far cheaper than 240+ listeners.
+    // Single delegated click handler, far cheaper than 240+ listeners.
     list.addEventListener('click', function (e) {
       var btn = e.target.closest && e.target.closest('.mac-cc-item');
       if (!btn || !list.contains(btn)) return;
@@ -517,7 +517,7 @@
     var input = popover.querySelector('.mac-cc-search input');
 
     // Debounce filtering with rAF so we coalesce rapid keystrokes into one
-    // paint — keeps the UI buttery on low-end Android.
+    // paint, keeps the UI buttery on low-end Android.
     var pendingFrame = null;
     input.addEventListener('input', function () {
       if (pendingFrame) cancelAnimationFrame(pendingFrame);
@@ -764,7 +764,7 @@
       list.style.scrollBehavior = prevBehavior;
     }
 
-    // Don't auto-focus the search on mobile — the keyboard would shove the
+    // Don't auto-focus the search on mobile, the keyboard would shove the
     // sheet around. Users can tap into the input if they want to type.
     if (!mobile) setTimeout(function () { input.focus(); }, 0);
   }
@@ -846,8 +846,7 @@
     }
     // countryName is what admin renders as the human-readable label. Without
     // this hidden sibling, FormData-style forms (corporate-training-form.js,
-    // business-solutions.html) would post the dial+iso but not the name —
-    // admin would then fall back to the bare ISO code like "SG" instead of
+    // business-solutions.html) would post the dial+iso but not the name, // admin would then fall back to the bare ISO code like "SG" instead of
     // "Singapore".
     if (!name) {
       name = document.createElement('input');
@@ -884,7 +883,7 @@
       input.setAttribute('maxlength', '15');
     }
 
-    // Same trick for `pattern` — many city pages hardcode pattern="[0-9]{10}".
+    // Same trick for `pattern`, many city pages hardcode pattern="[0-9]{10}".
     if (input.dataset.macCcOriginalPattern === undefined) {
       input.dataset.macCcOriginalPattern = input.getAttribute('pattern') || '';
     }
@@ -957,7 +956,7 @@
     // box (instead of clicking the flag dropdown) silently submit India + the
     // typed digits, which is the original "admin always shows India" bug.
     // After detection we strip the dial prefix from the input so the stored
-    // contact value contains only the local digits — the country code lives
+    // contact value contains only the local digits, the country code lives
     // in its own field.
     function autoDetectFromInput() {
       var v = input.value || '';
@@ -1013,7 +1012,7 @@
   var PHONE_ENDPOINT_RE = /\/api\/(contact|callback|business[-_]?solution|corporate[-_]?training|payment|enrollment|book[-_]?demo|inquiry|leads?)\b/i;
   var PHONE_FIELD_KEYS = ['contact', 'phone', 'mobile', 'customerPhone', 'customer_phone', 'whatsapp'];
 
-  // The tel input the user most recently touched — either by typing in it,
+  // The tel input the user most recently touched, either by typing in it,
   // focusing it, or picking a country from its dropdown. We prefer this over
   // "first tel on page" so pages with both a navbar callback widget and a
   // contact form pick the RIGHT country at submit time.
@@ -1072,7 +1071,7 @@
     }
 
     // 5) Fall back to the first tel input on the page that's NOT in the
-    //    navbar callback widget — the nav widget defaults to India and would
+    //    navbar callback widget, the nav widget defaults to India and would
     //    drown out the actual form's choice.
     var tels = document.querySelectorAll('input[type="tel"]');
     for (var i = 0; i < tels.length; i++) {
@@ -1088,7 +1087,7 @@
     return null;
   }
 
-  // Watch every form on the page — when a form submits, stamp it as the
+  // Watch every form on the page, when a form submits, stamp it as the
   // "recent submitter" so the fetch hook can resolve back to its tel input.
   document.addEventListener('submit', function (e) {
     var form = e.target;
@@ -1148,7 +1147,7 @@
   // but Norway, Denmark, Singapore and Hong Kong are eight, the UAE is nine,
   // and China is eleven. Every enquiry form on this site used to test
   // /^[0-9]{10}$/ before submitting, so a parent in Dubai or Oslo could not
-  // send an enquiry at all — the form refused before any request was made.
+  // send an enquiry at all, the form refused before any request was made.
   //
   // Lengths below are national significant numbers, excluding the country
   // dial code. Anything not listed falls back to the ITU-E.164 range of 7 to
@@ -1195,7 +1194,7 @@
    * Only digits are counted, so spaces, dashes and brackets are fine. People
    * routinely paste a full international number into a field that already has
    * a country selector next to it, so a leading country code is stripped and
-   * retried rather than counted twice — "+971 50 123 4567" for the UAE is the
+   * retried rather than counted twice, "+971 50 123 4567" for the UAE is the
    * same number as "501234567" and must not be refused.
    */
   function isValidPhone(value, iso) {

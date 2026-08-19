@@ -15,9 +15,9 @@ keywords: ["python hello world", "first python program", "python print function"
 
 ## What Is Your First Python Program?
 
-Every programmer's journey begins with a simple task: making the computer display a message on the screen. In Python, you do this using the **print() function**. The `print()` function is the most basic and most frequently used tool in Python — it takes whatever you give it and displays it as text on the screen.
+Every programmer's journey begins with a simple task: making the computer display a message on the screen. In Python, you do this using the **print() function**. The `print()` function is the most basic and most frequently used tool in Python. It takes whatever you give it and displays it as text on the screen.
 
-In this chapter, you will learn everything about the `print()` function: how to print text (strings), how to print numbers, how to print multiple items on one line, how to use special characters like newline and tab, and how to control the output format using the `sep` and `end` parameters. You will also learn about **comments** — notes that you write in your code for humans to read, which Python completely ignores.
+In this chapter, you will learn everything about the `print()` function: how to print text (strings), how to print numbers, how to print multiple items on one line, how to use special characters like newline and tab, and how to control the output format using the `sep` and `end` parameters. You will also learn about **comments**, notes that you write in your code for humans to read, which Python completely ignores.
 
 ### What You Will Learn
 
@@ -47,7 +47,7 @@ When your program is not working correctly, the first thing experienced programm
 
 Learning `print()` thoroughly introduces you to several important programming concepts:
 
-- **Functions:** `print()` is a function — it has a name, takes arguments (inputs), and performs an action.
+- **Functions:** `print()` is a function. It has a name, takes arguments (inputs), and performs an action.
 - **Strings:** Text inside quotes is called a string. You will work with strings in every program you ever write.
 - **Parameters:** The `sep` and `end` parameters teach you how functions can have optional settings that change their behavior.
 - **Escape sequences:** Special character combinations like `\n` introduce the concept of encoding special characters.
@@ -70,11 +70,11 @@ You can pass one or more values to `print()`, and it will display them. After pr
 
 ### Printing Strings (Text)
 
-A **string** is a sequence of characters (letters, numbers, symbols, spaces) enclosed in quotes. In Python, you can use either **single quotes** (`'...'`) or **double quotes** (`"..."`) — both work exactly the same way.
+A **string** is a sequence of characters (letters, numbers, symbols, spaces) enclosed in quotes. In Python, you can use either **single quotes** (`'...'`) or **double quotes** (`"..."`). Both work exactly the same way.
 
 ```
 print("Hello, World!")    # Using double quotes
-print('Hello, World!')    # Using single quotes — same output
+print('Hello, World!')    # Using single quotes, same output
 ```
 
 Both produce the exact same output: `Hello, World!`
@@ -122,7 +122,7 @@ Score: 95 out of 100
 
 ### Escape Characters
 
-Sometimes you need to include special characters in a string that you cannot type directly. Python uses the **backslash** (`\`) as an **escape character** — it tells Python that the character after the backslash has a special meaning.
+Sometimes you need to include special characters in a string that you cannot type directly. Python uses the **backslash** (`\`) as an **escape character**. It tells Python that the character after the backslash has a special meaning.
 
 #### Common Escape Characters
 
@@ -130,7 +130,7 @@ Escape SequenceMeaningExample`\n`New line (moves to next line)`print("Hello\nWor
 
 #### Why Do We Need Escape Characters?
 
-Consider this problem: you want to print `She said "Hello"`. If you write `print("She said "Hello"")`, Python gets confused because it sees the second `"` and thinks the string has ended. The escape character `\"` tells Python: "This is not the end of the string — this is a literal double quote character that I want to print."
+Consider this problem: you want to print `She said "Hello"`. If you write `print("She said "Hello"")`, Python gets confused because it sees the second `"` and thinks the string has ended. The escape character `\"` tells Python: "This is not the end of the string. This is a literal double quote character that I want to print."
 
 ### The sep Parameter
 
@@ -146,7 +146,7 @@ print("one", "two", "three", sep="\n")   # Prints each on a new line
 
 ### The end Parameter
 
-By default, every `print()` call ends with a **newline character** — this is why each `print()` starts its output on a new line. The `end` parameter lets you change what comes at the end:
+By default, every `print()` call ends with a **newline character**. This is why each `print()` starts its output on a new line. The `end` parameter lets you change what comes at the end:
 
 ```
 # Default behavior (end="\n"):
@@ -166,14 +166,14 @@ The `end` parameter is useful when you want to print multiple things on the same
 
 ### Comments in Python
 
-Comments are notes written inside your code that Python **completely ignores**. They exist only for humans — to explain what the code does, why a certain approach was chosen, or to temporarily disable a line of code.
+Comments are notes written inside your code that Python **completely ignores**. They exist only for humans, to explain what the code does, why a certain approach was chosen, or to temporarily disable a line of code.
 
 #### Single-Line Comments (#)
 
 Use the hash symbol (`#`) to write a comment. Everything after `#` on that line is ignored by Python:
 
 ```
-# This is a comment — Python ignores this line
+# This is a comment: Python ignores this line
 print("Hello")  # This is an inline comment
 
 # The next line calculates the sum
@@ -194,7 +194,7 @@ it is not assigned to any variable, it is ignored.
 print("Hello, World!")
 ```
 
-Technically, triple-quoted strings are not "true" comments — they are strings that are not assigned to anything, so Python evaluates them but discards the result. However, they are commonly used as multi-line comments by Python developers.
+Technically, triple-quoted strings are not "true" comments. They are strings that are not assigned to anything, so Python evaluates them but discards the result. However, they are commonly used as multi-line comments by Python developers.
 
 #### Why Write Comments?
 
@@ -207,7 +207,7 @@ Technically, triple-quoted strings are not "true" comments — they are strings 
 In the previous chapter, you learned how to create and run `.py` files. Here is the complete workflow again:
 
 1. Open your code editor (IDLE, VS Code, etc.).
-2. Write your program — for example, multiple `print()` statements.
+2. Write your program, for example, multiple `print()` statements.
 3. Save the file with a `.py` extension (e.g., `greetings.py`).
 4. Run the file (F5 in IDLE, or `python greetings.py` in the terminal).
 
@@ -269,7 +269,7 @@ print(50)           # This is a number
 print("50")         # This is text (a string)
 ```
 
-You can print numbers directly without quotes. Python evaluates mathematical expressions first and then prints the result. Notice that division (`/`) always produces a decimal result (9.0, not 9). Also notice the difference between `print(50)` (a number) and `print("50")` (a string) — they look the same in output but are different types internally.
+You can print numbers directly without quotes. Python evaluates mathematical expressions first and then prints the result. Notice that division (`/`) always produces a decimal result (9.0, not 9). Also notice the difference between `print(50)` (a number) and `print("50")` (a string). They look the same in output but are different types internally.
 
 **Output:**
 
@@ -410,7 +410,7 @@ for multi-line comments.
 print("Program complete!")
 ```
 
-Single-line comments use `#`. Everything after `#` on that line is ignored. Inline comments come after code on the same line. Multi-line comments use triple quotes (`'''...'''` or `"""..."""`). Commenting out code (putting `#` before it) is a common debugging technique — it disables the line without deleting it.
+Single-line comments use `#`. Everything after `#` on that line is ignored. Inline comments come after code on the same line. Multi-line comments use triple quotes (`'''...'''` or `"""..."""`). Commenting out code (putting `#` before it) is a common debugging technique. It disables the line without deleting it.
 
 **Output:**
 
@@ -558,7 +558,7 @@ print("Hello\nWorld")
 print("Name\tAge")
 ```
 
-Escape characters use a **backslash** (`\`), not a forward slash (`/`). `\n` is a newline, but `/n` is just the characters '/' and 'n' printed literally. This mistake does not cause an error — the program runs, but the output is not what you expected. Always use the backslash: `\n`, `\t`, `\\`.
+Escape characters use a **backslash** (`\`), not a forward slash (`/`). `\n` is a newline, but `/n` is just the characters '/' and 'n' printed literally. This mistake does not cause an error, the program runs, but the output is not what you expected. Always use the backslash: `\n`, `\t`, `\\`.
 
 ### Incorrect sep and end Syntax
 
@@ -603,12 +603,12 @@ print("C:\\new_folder\\test")
 print(r"C:\new_folder\test")
 ```
 
-When Python sees `\n` inside a string, it interprets it as a newline character, and `\t` as a tab — even if you intended them as part of a file path. To print a literal backslash, use `\\` (double backslash). Alternatively, prefix the string with `r` to make it a "raw string" where backslashes are treated literally: `r"C:\new_folder\test"`.
+When Python sees `\n` inside a string, it interprets it as a newline character, and `\t` as a tab, even if you intended them as part of a file path. To print a literal backslash, use `\\` (double backslash). Alternatively, prefix the string with `r` to make it a "raw string" where backslashes are treated literally: `r"C:\new_folder\test"`.
 
 ## Summary
 
 - The print() function displays output on the screen. It is the most commonly used function in Python.
-- Strings (text) must be enclosed in quotes — either single quotes ('...') or double quotes ("..."). Both work identically.
+- Strings (text) must be enclosed in quotes, either single quotes ('...') or double quotes ("..."). Both work identically.
 - Numbers can be printed without quotes. Mathematical expressions inside print() are evaluated before printing.
 - Multiple values can be printed in one print() call by separating them with commas. Python adds a space between each value by default.
 - Escape characters use a backslash: \n (newline), \t (tab), \\ (literal backslash), \" (double quote), \' (single quote).

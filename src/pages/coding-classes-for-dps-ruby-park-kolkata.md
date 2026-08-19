@@ -10,21 +10,21 @@ Exclusive for DPS Ruby Park Students, Kolkata
 
 # Coding & Maths Classes for DPS Ruby Park Students
 
-Live online classes in Python, Java, AI, Web Development & CBSE Mathematics — designed around your DPS Ruby Park Students schedule. Small batches. Expert instructors. Real projects.
+Live online classes in Python, Java, AI, Web Development & CBSE Mathematics, designed around your DPS Ruby Park Students schedule. Small batches. Expert instructors. Real projects.
 
- 10,000+ Students Taught  4.9/5 Parent Rating  CBSE Aligned  AI-Powered Learning [See How We Teach — Live Classes](/how-we-teach)Book a Free Live Class
+ 10,000+ Students Taught  4.9/5 Parent Rating  CBSE Aligned  AI-Powered Learning [See How We Teach: Live Classes](/how-we-teach)Book a Free Live Class
 
 ✔ 100% live online classes • Watch real lessons free • No commitment
 
-## Coding & Maths for DPS Ruby Park Students — At a Glance
+## Coding & Maths for DPS Ruby Park Students: At a Glance
 
-Modern Age Coders runs **live online coding and mathematics classes built specifically for students of Delhi Public School Ruby Park, Kolkata** — precisely mapped to the [CBSE](/coding-for-cbse-students) curriculum DPS Ruby Park follows. Students learn Python, AI/ML, Java and web development plus [CBSE board, JEE-foundation & Olympiad mathematics](/online-maths-tuition). Ultra-small batches of 4–6 (or 1-on-1), every class recorded. Fees start at ₹1,499/month and every family begins with a free demo class. [See exactly how we teach →](/how-we-teach)
+Modern Age Coders runs **live online coding and mathematics classes built specifically for students of Delhi Public School Ruby Park, Kolkata**, precisely mapped to the [CBSE](/coding-for-cbse-students) curriculum DPS Ruby Park follows. Students learn Python, AI/ML, Java and web development plus [CBSE board, JEE-foundation & Olympiad mathematics](/online-maths-tuition). Ultra-small batches of 4–6 (or 1-on-1), every class recorded. Fees start at ₹1,499/month and every family begins with a free demo class. [See exactly how we teach →](/how-we-teach)
 
 BoardCBSE + JEE FoundationSubjectsPython, AI/ML, Java, Web Dev, Scratch + MathsBatch Size4–6 students (or 1-on-1)TimingsWeekdays 4–8 PM · Weekends 9 AM–6 PMFeesFrom ₹1,499/month · Free demo classFormat100% live online · Every class recorded
 
 ## How We Teach DPS Ruby Park Students
 
-No marketing fluff — watch a real class before you decide. Our open [teaching demo library](/how-we-teach) shows exactly how we explain every concept, topic by topic and age by age. No sign-up, no payment.
+No marketing fluff. Watch a real class before you decide. Our open [teaching demo library](/how-we-teach) shows exactly how we explain every concept, topic by topic and age by age. No sign-up, no payment.
 
 ### Live, Never Recorded-Only
 
@@ -32,19 +32,19 @@ Real-time teaching in batches of just 4–6, so every DPS Ruby Park student can 
 
 ### Mapped to the CBSE Board
 
-Every lesson is tied to a real [CBSE](/coding-for-cbse-students) outcome and synced to the school's exam calendar — so class time always converts into board marks.
+Every lesson is tied to a real [CBSE](/coding-for-cbse-students) outcome and synced to the school's exam calendar, so class time always converts into board marks.
 
 ### Project-First, Not Slides
 
-Students build real Python apps, AI projects and websites from week one. Concepts stick because they're applied — and the projects become a portfolio for university applications.
+Students build real Python apps, AI projects and websites from week one. Concepts stick because they're applied, and the projects become a portfolio for university applications.
 
 ### Recorded + 1:1 Doubt Support
 
 Every class is recorded, so a school commitment never means lost learning. Dedicated doubt-clearing and 1:1 mentor time keep every student on track between sessions.
 
-### Don't take our word for it — watch a class
+### Don't take our word for it: watch a class
 
-See real recordings of how we teach Python, AI, fractions, algebra and calculus — organised by topic and age, completely free.
+See real recordings of how we teach Python, AI, fractions, algebra and calculus, organised by topic and age, completely free.
 
 [Watch Free Class Recordings](/how-we-teach)
 
@@ -54,19 +54,19 @@ Helping students from one of Kolkata's most prestigious schools gain a competiti
 
 ### Kolkata's Premier CBSE School
 
-Established in 2003, DPS Ruby Park Students was the first Delhi Public School in Kolkata. Located in the prominent Kasba/Ruby area, the school has rapidly become a powerhouse of academic excellence. With alumni making their mark at institutions like MIT and top global tech companies, the school focuses heavily on competitive success. In today's technology-driven world, DPS Ruby Park Students students need more than just traditional academic excellence — they need computational thinking and real-world programming skills to stay ahead. Our coding classes build on the strong CBSE analytical foundation that the school cultivates in its students.
+Established in 2003, DPS Ruby Park Students was the first Delhi Public School in Kolkata. Located in the prominent Kasba/Ruby area, the school has rapidly become a powerhouse of academic excellence. With alumni making their mark at institutions like MIT and top global tech companies, the school focuses heavily on competitive success. In today's technology-driven world, DPS Ruby Park Students students need more than just traditional academic excellence. They need computational thinking and real-world programming skills to stay ahead. Our coding classes build on the strong CBSE analytical foundation that the school cultivates in its students.
 
 ### Navigating CBSE Academic Pressure with Smart Skills
 
-DPS Ruby Park Students follows the CBSE Board, known for its comprehensive and demanding curriculum. Students face rigorous semester assessments, project work, and ultimately the high-stakes CBSE Board examinations. Our coding courses directly complement the CBSE Computer Science syllabus — covering Python programming, Java fundamentals, data structures, and algorithmic thinking that students encounter in their school curriculum. Rather than adding burden, learning to code strengthens the logical reasoning and problem-solving abilities that help DPS Ruby Park Students excel across all subjects, from Mathematics to Physics. Our after-school evening batches and weekend sessions are specifically timed so students near Ruby Park and Kasba can learn without disrupting their packed academic schedules.
+DPS Ruby Park Students follows the CBSE Board, known for its comprehensive and demanding curriculum. Students face rigorous semester assessments, project work, and ultimately the high-stakes CBSE Board examinations. Our coding courses directly complement the CBSE Computer Science syllabus, covering Python programming, Java fundamentals, data structures, and algorithmic thinking that students encounter in their school curriculum. Rather than adding burden, learning to code strengthens the logical reasoning and problem-solving abilities that help DPS Ruby Park Students excel across all subjects, from Mathematics to Physics. Our after-school evening batches and weekend sessions are specifically timed so students near Ruby Park and Kasba can learn without disrupting their packed academic schedules.
 
 ### Coding + Maths: The Competitive Exam Advantage
 
-DPS Ruby Park Students consistently produces top engineering and medical aspirants. Students preparing for IIT-JEE, WBJEE, BITSAT, and other competitive entrance examinations benefit enormously from computational thinking skills that coding develops naturally. When a student learns to write algorithms in Python, they are simultaneously strengthening the mathematical reasoning that JEE and WBJEE questions test. Our combined coding and maths curriculum gives DPS Ruby Park Students a distinct advantage — they approach calculus, coordinate geometry, and probability with the structured thinking of a programmer, not just a textbook student. Parents in the Ruby Park and central Kolkata area have found that their children's overall academic performance improves significantly when coding and maths are learned together, with marks in CBSE Computer Science and Mathematics both showing measurable improvement.
+DPS Ruby Park Students consistently produces top engineering and medical aspirants. Students preparing for IIT-JEE, WBJEE, BITSAT, and other competitive entrance examinations benefit enormously from computational thinking skills that coding develops naturally. When a student learns to write algorithms in Python, they are simultaneously strengthening the mathematical reasoning that JEE and WBJEE questions test. Our combined coding and maths curriculum gives DPS Ruby Park Students a distinct advantage. They approach calculus, coordinate geometry, and probability with the structured thinking of a programmer, not just a textbook student. Parents in the Ruby Park and central Kolkata area have found that their children's overall academic performance improves significantly when coding and maths are learned together, with marks in CBSE Computer Science and Mathematics both showing measurable improvement.
 
 ### Flexible Batches for Busy DPS Ruby Park Students Schedules
 
-We understand that DPS Ruby Park Students students have demanding days filled with school, sports, extracurricular activities, and private tuitions. That is exactly why we offer evening batches from 4 PM to 8 PM on weekdays and full-day options on Saturdays and Sundays. Our live online format means your child connects from home near Ruby Park, Rawdon Street, or anywhere in Kolkata — no commuting through traffic. Each session is recorded, so if a student misses a class due to school exams or events, they can catch up at their own pace. This flexibility is why families from the Kasba and Camac Street neighbourhood trust Modern Age Coders to supplement their children's education without adding unnecessary stress to an already rigorous CBSE academic calendar.
+We understand that DPS Ruby Park Students students have demanding days filled with school, sports, extracurricular activities, and private tuitions. That is exactly why we offer evening batches from 4 PM to 8 PM on weekdays and full-day options on Saturdays and Sundays. Our live online format means your child connects from home near Ruby Park, Rawdon Street, or anywhere in Kolkata, no commuting through traffic. Each session is recorded, so if a student misses a class due to school exams or events, they can catch up at their own pace. This flexibility is why families from the Kasba and Camac Street neighbourhood trust Modern Age Coders to supplement their children's education without adding unnecessary stress to an already rigorous CBSE academic calendar.
 
 ## Coding Courses for DPS Ruby Park Students Students (Ages 6-12)
 
@@ -98,7 +98,7 @@ DPS Ruby Park Students learn to create real websites with HTML and CSS. Build pe
 
 ### Python for Young Coders
 
-Start text-based coding with Python — directly aligned with the CBSE Computer Science syllabus at DPS Ruby Park Students. Build games, solve mathematical puzzles, and develop real programming skills.
+Start text-based coding with Python, directly aligned with the CBSE Computer Science syllabus at DPS Ruby Park Students. Build games, solve mathematical puzzles, and develop real programming skills.
 
 - ✓ Python Fundamentals & Variables
 - ✓ CBSE-aligned Problem Solving
@@ -115,7 +115,7 @@ Advanced programming courses that complement CBSE Computer Science, prepare for 
 
 ### Python Programming
 
-Master Python — the language used by Google, Netflix, and NASA. Directly supports CBSE Computer Science at DPS Ruby Park Students and builds the computational thinking needed for JEE and WBJEE.
+Master Python, the language used by Google, Netflix, and NASA. Directly supports CBSE Computer Science at DPS Ruby Park Students and builds the computational thinking needed for JEE and WBJEE.
 
 - ✓ Python Fundamentals & OOP
 - ✓ Data Structures & Algorithms
@@ -126,7 +126,7 @@ Master Python — the language used by Google, Netflix, and NASA. Directly suppo
 
 ### Java Programming
 
-Master Java — a core language in the CBSE Computer Science syllabus. Perfect for DPS Ruby Park Students preparing for board exams and targeting engineering colleges like IIT, IIT, NITs, and Jadavpur University.
+Master Java, a core language in the CBSE Computer Science syllabus. Perfect for DPS Ruby Park Students preparing for board exams and targeting engineering colleges like IIT, IIT, NITs, and Jadavpur University.
 
 - ✓ Core Java & OOP Concepts
 - ✓ Data Structures in Java
@@ -137,7 +137,7 @@ Master Java — a core language in the CBSE Computer Science syllabus. Perfect f
 
 ### Full Stack Web Development
 
-Build complete websites and web applications from scratch. DPS Ruby Park Students learn HTML, CSS, JavaScript, and React — skills that top engineering colleges and tech companies actively seek.
+Build complete websites and web applications from scratch. DPS Ruby Park Students learn HTML, CSS, JavaScript, and React, skills that top engineering colleges and tech companies actively seek.
 
 - ✓ HTML, CSS, JavaScript
 - ✓ React Framework
@@ -148,7 +148,7 @@ Build complete websites and web applications from scratch. DPS Ruby Park Student
 
 ### AI & Machine Learning
 
-Explore artificial intelligence and machine learning with Python. DPS Ruby Park Students build real AI models and gain exposure to the technology driving the future — a powerful differentiator for college applications.
+Explore artificial intelligence and machine learning with Python. DPS Ruby Park Students build real AI models and gain exposure to the technology driving the future, a powerful differentiator for college applications.
 
 - ✓ Python for AI
 - ✓ Machine Learning Basics
@@ -195,7 +195,7 @@ Max 5-8 students per batch ensures personalized attention for every learner
 
 ### Real Projects
 
-Build games, apps, websites & AI chatbots — not just theory, real deployable projects
+Build games, apps, websites & AI chatbots, not just theory, real deployable projects
 
 ### Flexi Schedule
 
@@ -205,7 +205,7 @@ Curriculum
 
 ## Epic Courses for Future Tech Leaders
 
-From beginner Scratch programming to advanced AI and competitive exam preparation — we have the perfect course for every DPS Ruby Park Students student.
+From beginner Scratch programming to advanced AI and competitive exam preparation. We have the perfect course for every DPS Ruby Park Students student.
 
 ### Python Programming
 
@@ -279,7 +279,7 @@ Trusted by DPS Schools Across Kolkata
 
 ## We Also Teach Students from DPS New Town
 
-Families from both DPS Ruby Park Students and DPS New Town trust Modern Age Coders for their children's tech education. Our CBSE-aligned coding and maths curriculum is designed for all DPS Ruby Park Students students — with **girls-only batches** also available for DPS New Town families who prefer them. Students from Kolkata's top schools learn with us.
+Families from both DPS Ruby Park Students and DPS New Town trust Modern Age Coders for their children's tech education. Our CBSE-aligned coding and maths curriculum is designed for all DPS Ruby Park Students students, with **girls-only batches** also available for DPS New Town families who prefer them. Students from Kolkata's top schools learn with us.
 
 [Explore DPS New Town Page →](/coding-classes-for-dps-new-town-kolkata)Courses by Category
 
@@ -291,7 +291,7 @@ Whether your child is in Class 1 or Class 12, we have a structured learning path
 
 Ages 6-10 • Visual Block-Based Coding
 
-[Scratch Programming  Create games, animations & interactive stories with drag-and-drop blocks](/courses/kids-coding-blocks-masterclass)[App Development for Kids  Build real mobile apps using visual tools — perfect for young creators](/courses/kids-complete-app-development-masterclass)[Web Design for Kids  Create colourful websites with HTML & CSS from day one](/courses/kids-web-design-masterclass)
+[Scratch Programming  Create games, animations & interactive stories with drag-and-drop blocks](/courses/kids-coding-blocks-masterclass)[App Development for Kids  Build real mobile apps using visual tools, perfect for young creators](/courses/kids-complete-app-development-masterclass)[Web Design for Kids  Create colourful websites with HTML & CSS from day one](/courses/kids-web-design-masterclass)
 
 ### For Teens (Classes 6-10)
 
@@ -313,7 +313,7 @@ All Classes • CBSE • JEE • Olympiads
 
 ## Group Classes or 1-on-1 Personalized?
 
-Every DPS Ruby Park Students student learns differently. Choose the format that fits your child's learning style, schedule, and goals — both options come with the same expert instruction.
+Every DPS Ruby Park Students student learns differently. Choose the format that fits your child's learning style, schedule, and goals. Both options come with the same expert instruction.
 
 Most Popular
 
@@ -338,7 +338,7 @@ Dedicated instructor, custom pace
 
 ₹2999/month
 
-- ✓ 1 Student Only — Full Attention
+- ✓ 1 Student Only: Full Attention
 - ✓ 3 Live Classes per Week
 - ✓ Custom Learning Pace & Plan
 - ✓ Flexible Schedule (You Choose)
@@ -353,11 +353,11 @@ Finding the right **coding classes near Ruby Park, Kolkata** for your DPS Ruby P
 
 Our curriculum covers the full spectrum of technology education: from **Scratch programming for Classes 1-5** to **Python and Java for Classes 6-10** to **AI, Machine Learning, and Full Stack Web Development for Classes 11-12**. Every course is mapped to the CBSE Computer Science syllabus, giving your child a direct academic advantage while building career-ready skills that go far beyond the textbook. We also offer comprehensive **CBSE Mathematics, Olympiad preparation (IMO, PRMO, RMO), and JEE/WBJEE maths** coaching.
 
-What sets us apart from other **online coding classes in Kolkata** is our small batch size of just 5-8 students, ensuring every DPS Ruby Park Students student receives personalized attention. Our after-school evening batches (4 PM – 8 PM) and weekend sessions are specifically designed around the demanding DPS Ruby Park Students schedule. Every class is recorded so your child never falls behind, even during exam season. We also offer **1-on-1 personalized classes** for families who prefer dedicated instruction with a custom learning plan.
+What sets us apart from other **online coding classes in Kolkata** is our small batch size of just 5-8 students, ensuring every DPS Ruby Park Students student receives personalized attention. Our after-school evening batches (4 PM: 8 PM) and weekend sessions are specifically designed around the demanding DPS Ruby Park Students schedule. Every class is recorded so your child never falls behind, even during exam season. We also offer **1-on-1 personalized classes** for families who prefer dedicated instruction with a custom learning plan.
 
 We are proud to be trusted by families from both [DPS New Town](/coding-classes-for-dps-new-town-kolkata) and DPS Ruby Park Students. Our instructors are experienced professionals who understand the CBSE system and know how to make coding engaging, challenging, and fun. With 10,000+ students taught, a 4.9/5 parent rating, and completion certificates that add genuine value to school portfolios and college applications, Modern Age Coders is the trusted choice for **DPS Ruby Park Students coding education in Kolkata**.
 
-Whether your child wants to learn **Python programming**, build **AI-powered applications**, create **full-stack websites**, or excel in **CBSE Mathematics** and competitive exams — we have the right course, the right instructor, and the right schedule. Book a **free demo class** today and see why DPS Ruby Park Students families choose Modern Age Coders.
+Whether your child wants to learn **Python programming**, build **AI-powered applications**, create **full-stack websites**, or excel in **CBSE Mathematics** and competitive exams. We have the right course, the right instructor, and the right schedule. Book a **free demo class** today and see why DPS Ruby Park Students families choose Modern Age Coders.
 
 ## Affordable Coding & Maths Classes for DPS Ruby Park Students
 
@@ -393,9 +393,9 @@ Get Started
 
 Not sure which plan is right? Book a free demo and we'll help you decide. No obligation, no pressure.
 
-## Book a Free Demo Class — DPS Ruby Park Students Students
+## Book a Free Demo Class: DPS Ruby Park Students Students
 
-Experience our coding and maths classes firsthand — absolutely free. Tell us about your child and we'll schedule a personalized demo session. No obligation, no pressure.
+Experience our coding and maths classes firsthand, absolutely free. Tell us about your child and we'll schedule a personalized demo session. No obligation, no pressure.
 
 Or reach us directly:
 
@@ -445,7 +445,7 @@ Yes! We run intensive coding camps during summer vacation (April-May) and Durga 
 
 +
 
-Our Python and Java courses directly cover topics from the CBSE Computer Science syllabus including variables, loops, arrays, functions, strings, and object-oriented programming. DPS Ruby Park Students students who learn coding with us consistently score higher in their Computer Applications exams because they develop deeper understanding beyond textbook knowledge. They practice writing actual programs, debugging code, and solving real problems — skills that give them a clear advantage in both practical and theoretical CBSE assessments.
+Our Python and Java courses directly cover topics from the CBSE Computer Science syllabus including variables, loops, arrays, functions, strings, and object-oriented programming. DPS Ruby Park Students students who learn coding with us consistently score higher in their Computer Applications exams because they develop deeper understanding beyond textbook knowledge. They practice writing actual programs, debugging code, and solving real problems, skills that give them a clear advantage in both practical and theoretical CBSE assessments.
 
 ### Do you provide certificates?
 

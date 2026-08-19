@@ -44,7 +44,7 @@ SELECT id, name, hire_date FROM employees
 WHERE hire_date BETWEEN '2025-03-01' AND '2025-03-31';
 ```
 
-BETWEEN is inclusive on both ends. Avoid YEAR(hire_date)=2025 AND MONTH(hire_date)=3 on large tables — it prevents index use on hire_date.
+BETWEEN is inclusive on both ends. Avoid YEAR(hire_date)=2025 AND MONTH(hire_date)=3 on large tables. It prevents index use on hire_date.
 
 ### Q4. [Easy] Find duplicate emails in the users table along with their count.
 
@@ -131,7 +131,7 @@ WHERE rn <= 2
 ORDER BY dept, rn;
 ```
 
-ROW_NUMBER breaks ties arbitrarily — exactly 2 rows per dept. Use DENSE_RANK if ties should all be included.
+ROW_NUMBER breaks ties arbitrarily, exactly 2 rows per dept. Use DENSE_RANK if ties should all be included.
 
 ### Q10. [Medium] For each order, show the total and the percentage it contributes to the grand total.
 
@@ -158,7 +158,7 @@ GROUP BY o.customer_id
 HAVING COUNT(DISTINCT p.category_id) > 3;
 ```
 
-COUNT(DISTINCT category_id) counts unique categories. HAVING applies the threshold. DISTINCT is essential — without it, a customer with many orders in the same category would pass.
+COUNT(DISTINCT category_id) counts unique categories. HAVING applies the threshold. DISTINCT is essential, without it, a customer with many orders in the same category would pass.
 
 ### Q12. [Hard] For each user, find the longest gap (in days) between consecutive login_dates.
 
@@ -402,7 +402,7 @@ FROM orders
 GROUP BY customer_id;
 ```
 
-Conditional SUM — a common pattern when counting under a condition. Works for any predicate expressible in CASE.
+Conditional SUM, a common pattern when counting under a condition. Works for any predicate expressible in CASE.
 
 ### Q11. [Hard] For each user, find the time (in minutes) between their first and second login.
 
@@ -479,7 +479,7 @@ SELECT name, salary,
 FROM employees;
 ```
 
-AVG(salary) OVER () is the company average on every row — no collapsing. Perfect for 'me vs average' comparisons.
+AVG(salary) OVER () is the company average on every row, no collapsing. Perfect for 'me vs average' comparisons.
 
 ### Q16. [Hard] Identify employees whose salary is higher than the average salary of every other department.
 
@@ -502,7 +502,7 @@ WHERE salary > ALL (
 
 **Answer:** B
 
-**B is correct.** DENSE_RANK assigns the same rank to tied salaries and does not skip — ideal for 'Nth distinct'.
+**B is correct.** DENSE_RANK assigns the same rank to tied salaries and does not skip, ideal for 'Nth distinct'.
 
 ### Q2. [Easy] Which clause filters groups in a GROUP BY query?
 
@@ -526,7 +526,7 @@ WHERE salary > ALL (
 
 **Answer:** B
 
-**B is correct.** An empty window is the whole result set — SUM over the whole set, placed on every row.
+**B is correct.** An empty window is the whole result set: SUM over the whole set, placed on every row.
 
 ### Q6. [Medium] Which window function breaks ties arbitrarily (no two rows share a rank)?
 
@@ -556,7 +556,7 @@ WHERE salary > ALL (
 
 **Answer:** B
 
-**B is correct.** Correlation = row-by-row dependency. Powerful but potentially slow — measure before using on large tables.
+**B is correct.** Correlation = row-by-row dependency. Powerful but potentially slow, measure before using on large tables.
 
 ### Q11. [Medium] Which is TRUE about GROUP_CONCAT?
 

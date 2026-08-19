@@ -1,5 +1,5 @@
 /**
- * CORE.CSS — Auto-generated bundle
+ * CORE.CSS: Auto-generated bundle
  *
  * DO NOT EDIT DIRECTLY.
  * Edit the source files in src/css/ and run `npm run build:core-css`.
@@ -21,8 +21,8 @@
 /* ============================================================ */
 
 /**
- * tokens.css — Single source of truth for all design tokens.
- * Modern Age Coders — Phase 1 CSS Architecture Overhaul
+ * tokens.css, Single source of truth for all design tokens.
+ * Modern Age Coders, Phase 1 CSS Architecture Overhaul
  *
  * DO NOT redefine :root in any other file. All tokens live here.
  * Cascade layer order is declared in layers.css (loaded first),
@@ -31,7 +31,7 @@
 
 :root {
     /* ============================================================
-       COLOR — RAW PALETTE
+       COLOR: RAW PALETTE
        ============================================================ */
     --color-primary: #a855f7;
     --color-primary-light: #c084fc;
@@ -53,7 +53,7 @@
     --color-blue: #3b82f6;
 
     /* ============================================================
-       COLOR — SEMANTIC ROLES
+       COLOR: SEMANTIC ROLES
        ============================================================ */
     --color-surface: #000002;
     --color-surface-raised: #08080f;
@@ -81,7 +81,7 @@
     --text-muted: var(--color-text-muted);
 
     /* ============================================================
-       GLOW — Colored shadows for depth and brand lighting
+       GLOW: Colored shadows for depth and brand lighting
        ============================================================ */
     --glow-primary: rgba(168, 85, 247, 0.5);
     --glow-primary-soft: rgba(168, 85, 247, 0.18);
@@ -136,7 +136,7 @@
     --girls-warm-bg: rgba(251, 207, 232, 0.1);
 
     /* ============================================================
-       GRADIENTS — Multi-stop for organic depth
+       GRADIENTS: Multi-stop for organic depth
        ============================================================ */
     --gradient-primary: linear-gradient(135deg, #7c3aed 0%, #a855f7 50%, #c084fc 100%);
     --gradient-primary-soft: linear-gradient(135deg, #a855f7 0%, #c084fc 100%);
@@ -191,7 +191,7 @@
     --leading-relaxed: 1.65;
     --leading-loose: 1.8;
 
-    /* Letter spacing — optical adjustments by role */
+    /* Letter spacing, optical adjustments by role */
     --tracking-tighter: -0.04em;
     --tracking-tight: -0.025em;
     --tracking-normal: 0;
@@ -208,7 +208,7 @@
     --weight-black: 900;
 
     /* ============================================================
-       SPACING — 4px base grid
+       SPACING: 4px base grid
        ============================================================ */
     --space-0: 0;
     --space-px: 1px;
@@ -286,7 +286,7 @@
     --border-radius-2xl: var(--radius-2xl);
 
     /* ============================================================
-       SHADOWS — Consolidated from 86 ad-hoc values
+       SHADOWS: Consolidated from 86 ad-hoc values
        ============================================================ */
     --shadow-xs: 0 1px 2px rgba(0, 0, 0, 0.15);
     --shadow-sm: 0 2px 8px rgba(0, 0, 0, 0.2);
@@ -314,7 +314,7 @@
     --shadow-btn-warm: 0 4px 20px rgba(245, 158, 11, 0.35);
     --shadow-btn-warm-hover: 0 10px 32px rgba(245, 158, 11, 0.5);
 
-    /* Focus shadow — accessible focus ring */
+    /* Focus shadow, accessible focus ring */
     --shadow-focus: 0 0 0 3px rgba(168, 85, 247, 0.3);
     --shadow-focus-error: 0 0 0 3px rgba(239, 68, 68, 0.3);
 
@@ -334,7 +334,7 @@
     --animation-duration-normal: var(--duration-normal);
     --animation-duration-slow: var(--duration-slow);
 
-    /* Easing curves — semantic rather than mathematical names */
+    /* Easing curves, semantic rather than mathematical names */
     --ease-linear: linear;
     --ease-out: cubic-bezier(0.25, 0.46, 0.45, 0.94);
     --ease-in-out: cubic-bezier(0.4, 0, 0.2, 1);
@@ -371,7 +371,7 @@
    ============================================================ */
 @media (prefers-color-scheme: light) {
     :root {
-        /* Keep the dark aesthetic regardless — it's the brand identity.
+        /* Keep the dark aesthetic regardless. It's the brand identity.
            If explicit light mode is ever needed, override here. */
     }
 }
@@ -394,7 +394,7 @@
 /* ============================================================ */
 
 /**
- * reset.css — Modern CSS reset
+ * reset.css: Modern CSS reset
  * Phase 1 CSS Architecture Overhaul
  *
  * Replaces scattered resets across style.css, course.css, pricing.css, best-coding-class.css.
@@ -489,13 +489,13 @@
         padding: 0;
     }
 
-    /* Anchor defaults — actual styling lives in base.css */
+    /* Anchor defaults, actual styling lives in base.css */
     a {
         color: inherit;
         text-decoration: none;
     }
 
-    /* Selection — brand purple */
+    /* Selection, brand purple */
     ::selection {
         background: var(--color-primary);
         color: #fff;
@@ -506,7 +506,7 @@
         color: #fff;
     }
 
-    /* Respect user's motion preferences — single authoritative rule */
+    /* Respect user's motion preferences, single authoritative rule */
     @media (prefers-reduced-motion: reduce) {
 
         *,
@@ -526,14 +526,14 @@
 /* ============================================================ */
 
 /**
- * base.css — Body, typography, and document defaults
+ * base.css: Body, typography, and document defaults
  * Phase 1 CSS Architecture Overhaul
  */
 
 @layer base {
 
     /* ============================================================
-       BODY — Canvas for the entire site
+       BODY: Canvas for the entire site
        ============================================================ */
     body {
         font-family: var(--font-body);
@@ -547,7 +547,7 @@
         padding: env(safe-area-inset-top) env(safe-area-inset-right) env(safe-area-inset-bottom) env(safe-area-inset-left);
     }
 
-    /* Ambient background — replaces canvas animation for much better perf.
+    /* Ambient background, replaces canvas animation for much better perf.
        Subtle mesh of overlapping radial gradients creates organic depth. */
     body::before {
         content: '';
@@ -657,7 +657,7 @@
     }
 
     /* ============================================================
-       LINKS — base styling, components override as needed
+       LINKS, base styling, components override as needed
        ============================================================ */
     a {
         color: var(--color-primary-light);
@@ -669,7 +669,7 @@
         color: var(--color-primary);
     }
 
-    /* Accessible focus — visible for keyboard users only */
+    /* Accessible focus, visible for keyboard users only */
     :focus-visible {
         outline: 2px solid var(--color-primary);
         outline-offset: 3px;
@@ -794,7 +794,7 @@
     }
 
     /* ============================================================
-       SCROLLBAR — branded, subtle
+       SCROLLBAR, branded, subtle
        ============================================================ */
     * {
         scrollbar-width: thin;
@@ -824,7 +824,7 @@
     }
 
     /* ============================================================
-       SKIP LINK — accessibility
+       SKIP LINK, accessibility
        ============================================================ */
     .skip-link {
         position: absolute;
@@ -879,7 +879,7 @@
 /* ============================================================ */
 
 /**
- * layout.css — Container, section, grid systems
+ * layout.css: Container, section, grid systems
  * Phase 1 CSS Architecture Overhaul
  */
 
@@ -912,7 +912,7 @@
     }
 
     /* ============================================================
-       SECTIONS — vertical rhythm
+       SECTIONS, vertical rhythm
        ============================================================ */
     .l-section {
         position: relative;
@@ -962,7 +962,7 @@
         grid-template-columns: repeat(4, minmax(0, 1fr));
     }
 
-    /* Responsive auto-fill grid — the workhorse for card layouts */
+    /* Responsive auto-fill grid, the workhorse for card layouts */
     .l-grid--auto {
         grid-template-columns: repeat(auto-fill, minmax(min(320px, 100%), 1fr));
     }
@@ -999,7 +999,7 @@
     }
 
     /* ============================================================
-       FLEX HELPERS (minimal — prefer grid for layout)
+       FLEX HELPERS (minimal, prefer grid for layout)
        ============================================================ */
     .l-flex {
         display: flex;
@@ -1036,7 +1036,7 @@
     }
 
     /* ============================================================
-       STACK — vertical spacing rhythm
+       STACK, vertical spacing rhythm
        ============================================================ */
     .l-stack>*+* {
         margin-top: var(--space-4);
@@ -1055,7 +1055,7 @@
     }
 
     /* ============================================================
-       SECTION HEADER — title + subtitle pattern
+       SECTION HEADER, title + subtitle pattern
        ============================================================ */
     .l-section-header {
         text-align: center;
@@ -1078,7 +1078,7 @@
     }
 
     /* ============================================================
-       SCROLL REVEAL — base state for sections animated in on scroll
+       SCROLL REVEAL, base state for sections animated in on scroll
        The JS in mainbundle.js adds .is-visible when the element
        enters the viewport.
        ============================================================ */
@@ -1096,7 +1096,7 @@
         transform: translateY(0);
     }
 
-    /* Staggered children — each child animates 80ms after the previous */
+    /* Staggered children, each child animates 80ms after the previous */
     .l-reveal.is-visible>*:nth-child(1) {
         transition-delay: 0ms;
     }
@@ -1122,7 +1122,7 @@
     }
 
     /* ============================================================
-       ASPECT RATIOS — kills force-image-size.css hacks
+       ASPECT RATIOS, kills force-image-size.css hacks
        ============================================================ */
     .l-aspect-square {
         aspect-ratio: 1 / 1;
@@ -1156,7 +1156,7 @@
 /* ============================================================ */
 
 /**
- * components.css — Unified component library
+ * components.css: Unified component library
  * Phase 1 CSS Architecture Overhaul
  *
  * All components use a "c-" prefix to avoid conflicts with existing CSS.
@@ -1197,7 +1197,7 @@
         overflow: hidden;
     }
 
-    /* Shimmer overlay on hover — premium feel */
+    /* Shimmer overlay on hover, premium feel */
     .c-btn::before {
         content: '';
         position: absolute;
@@ -1314,7 +1314,7 @@
         width: 100%;
     }
 
-    /* Touch devices — no hover lift, use active scale */
+    /* Touch devices, no hover lift, use active scale */
     @media (hover: none) and (pointer: coarse) {
         .c-btn:hover {
             transform: none;
@@ -1327,7 +1327,7 @@
     }
 
     /* ============================================================
-       CARDS — Single unified system, replaces 6 competing files
+       CARDS: Single unified system, replaces 6 competing files
        ============================================================ */
     .c-card {
         position: relative;
@@ -1347,7 +1347,7 @@
             background var(--duration-normal) var(--ease-out);
     }
 
-    /* Top accent line — invisible at rest, glows on hover */
+    /* Top accent line, invisible at rest, glows on hover */
     .c-card::before {
         content: '';
         position: absolute;
@@ -1377,7 +1377,7 @@
         opacity: 1;
     }
 
-    /* --- Card image — responsive aspect ratio, zoom on hover --- */
+    /* --- Card image, responsive aspect ratio, zoom on hover --- */
     .c-card__image {
         position: relative;
         aspect-ratio: 16 / 10;
@@ -1617,7 +1617,7 @@
         font-weight: var(--weight-regular);
     }
 
-    /* Touch devices — softer hover */
+    /* Touch devices, softer hover */
     @media (hover: none) and (pointer: coarse) {
         .c-card:hover {
             transform: none;
@@ -1751,7 +1751,7 @@
     }
 
     /* ============================================================
-       BADGES — small status indicators
+       BADGES, small status indicators
        ============================================================ */
     .c-badge {
         display: inline-flex;
@@ -1779,7 +1779,7 @@
     }
 
     /* ============================================================
-       SECTION TITLE — gradient text
+       SECTION TITLE, gradient text
        ============================================================ */
     .c-section-title {
         font-family: var(--font-display);
@@ -1817,7 +1817,7 @@
     }
 
     /* ============================================================
-       MODAL — accessible dialog
+       MODAL, accessible dialog
        ============================================================ */
     .c-modal-backdrop {
         position: fixed;
@@ -1877,7 +1877,7 @@
     }
 
     /* ============================================================
-       STAT — number + label pattern
+       STAT, number + label pattern
        ============================================================ */
     .c-stat {
         display: flex;
@@ -1933,7 +1933,7 @@
 /* ============================================================ */
 
 /**
- * utilities.css — Helper classes
+ * utilities.css: Helper classes
  * Phase 1 CSS Architecture Overhaul
  */
 
@@ -2011,7 +2011,7 @@
     }
 
     /* ============================================================
-       GRADIENT TEXT — branded headlines
+       GRADIENT TEXT, branded headlines
        ============================================================ */
     .u-gradient-text,
     .u-gradient-text-primary {
@@ -2086,7 +2086,7 @@
     }
 
     /* ============================================================
-       MARGIN / PADDING HELPERS — only the most-used
+       MARGIN / PADDING HELPERS, only the most-used
        ============================================================ */
     .u-m-0 {
         margin: 0;
@@ -2158,7 +2158,7 @@
     }
 
     /* ============================================================
-       NOISE TEXTURE — the anti-AI-aesthetic overlay
+       NOISE TEXTURE, the anti-AI-aesthetic overlay
        Apply to any container to add film-grain depth.
        ============================================================ */
     .u-noise {

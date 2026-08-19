@@ -1,5 +1,5 @@
 ---
-title: "Welcome to Modern Age Coders — Payment Successful"
+title: "Welcome to Modern Age Coders: Payment Successful"
 description: "Your payment was successful. Contact 9123366161 on WhatsApp or call to confirm your class timings and schedule."
 source: src/pages/welcome.html
 ---
@@ -11,13 +11,11 @@ source: src/pages/welcome.html
 
 You're officially enrolled. We're excited to have you with us.
 
-Important — Please Read
+Important: Please Read
 
 Please contact +91 91233 66161 on **WhatsApp** or **call** to confirm **your class timings and schedule**. Share your **full name, the course you enrolled in,** and your **preferred time slot** so our team can get you set up right away.
 
-[WhatsApp Us](https://wa.me/919123366161)[Call 91233 66161](tel:+919123366161)Order ID—Amount Paid—
-
-### What happens next?
+[WhatsApp Us](https://wa.me/919123366161)[Call 91233 66161](tel:+919123366161)Order ID, Amount Paid, ### What happens next?
 
 1. Reach out on WhatsApp or call **+91 91233 66161** to confirm your class timings.
 2. You'll receive your batch details, class link, and onboarding kit.

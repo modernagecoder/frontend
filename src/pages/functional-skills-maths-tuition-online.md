@@ -1,20 +1,20 @@
 ---
-title: "Functional Skills Maths Tuition Online · 1:1 Entry 3, Level 1 & Level 2 — Modern Age Coders"
-description: "Live 1:1 online Functional Skills maths tuition for Entry Level 3, Level 1 and Level 2. We teach the real, everyday maths the exam tests — money, measures, data — for apprenticeships, college and work. Patient, no judgment. Same tutor, UK time. Priced for your country."
+title: "Functional Skills Maths Tuition Online · 1:1 Entry 3, Level 1 & Level 2 | Modern Age Coders"
+description: "Live 1:1 online Functional Skills maths tuition for Entry Level 3, Level 1 and Level 2. We teach the real, everyday maths the exam tests, money, measures, data, for apprenticeships, college and work. Patient, no judgment. Same tutor, UK time. Priced for your country."
 canonical: https://learn.modernagecoders.com/functional-skills-maths-tuition-online
 source: src/pages/functional-skills-maths-tuition-online.html
 ---
-> Live 1:1 online Functional Skills maths tuition for Entry Level 3, Level 1 and Level 2. We teach the real, everyday maths the exam tests — money, measures, data — for apprenticeships, college and work. Patient, no judgment. Same tutor, UK time. Priced for your country.
+> Live 1:1 online Functional Skills maths tuition for Entry Level 3, Level 1 and Level 2. We teach the real, everyday maths the exam tests, money, measures, data, for apprenticeships, college and work. Patient, no judgment. Same tutor, UK time. Priced for your country.
 
 Why Functional Skills can feel like a barrier
 
-## You need the qualification for a real goal — and the maths got in the way years ago.
+## You need the qualification for a real goal: and the maths got in the way years ago.
 
-Most people come to Functional Skills maths because something they want — an apprenticeship, a college place, a job, a career step — requires it, usually at Level 2. And for many, maths is the one thing standing between them and that goal, because it went wrong at school and was never fixed.
+Most people come to Functional Skills maths because something they want, an apprenticeship, a college place, a job, a career step, requires it, usually at Level 2. And for many, maths is the one thing standing between them and that goal, because it went wrong at school and was never fixed.
 
 That makes it feel high-stakes and stressful, which is exactly the wrong frame of mind for learning maths.
 
-The good news is that Functional Skills maths is *practical* — it's about using numbers in real situations like budgets, measurements and timetables, not abstract algebra. That's far more learnable for an adult than school maths ever felt, when it's taught well and patiently.
+The good news is that Functional Skills maths is *practical*. It's about using numbers in real situations like budgets, measurements and timetables, not abstract algebra. That's far more learnable for an adult than school maths ever felt, when it's taught well and patiently.
 
 We teach it one to one, from wherever you are, in plain terms, on the everyday situations the exam actually uses. The qualification becomes reachable, and the dread fades fast.
 
@@ -34,7 +34,7 @@ Money, measures, time and data taught on the everyday situations the exam uses, 
 
 ### Fill the gaps patiently
 
-We rebuild whatever's shaky from school — fractions, percentages, division — without judgment and at your pace.
+We rebuild whatever's shaky from school, fractions, percentages, division, without judgment and at your pace.
 
 ### Practise real exam papers
 
@@ -42,17 +42,17 @@ We work through Functional Skills sample assessments so the format and question 
 
 See it for yourself
 
-## A real Level 2 task — a budget worked out calmly.
+## A real Level 2 task: a budget worked out calmly.
 
 Worked example · Level 2 everyday maths
 
-**The question:** "You earn £1,800 a month. Rent is 35% of it, bills are £240, and you want to save £150. How much is left for everything else?" It looks like a lot at once — which is where people panic.
+**The question:** "You earn £1,800 a month. Rent is 35% of it, bills are £240, and you want to save £150. How much is left for everything else?" It looks like a lot at once, which is where people panic.
 
 **How we teach it.** Functional Skills is about handling a real situation one clear step at a time. We list what comes out, work each bit, then subtract from the total:
 
 rent = 35% of 1800 = 0.35 × 1800 = £630bills = £240savings = £150total out = 630 + 240 + 150 = £1,020left over = 1800 − 1020 = **£780**
 
-There's no abstract algebra — just "work out each amount, add them up, take them away from what you started with." The only real skill is the percentage (35% = 0.35), and once that clicks, every money question on the exam works the same way. We teach you to break a busy question into calm steps like this, which is exactly what Functional Skills rewards — and a skill you'll use for the rest of your life, long after you've passed.
+There's no abstract algebra, just "work out each amount, add them up, take them away from what you started with." The only real skill is the percentage (35% = 0.35), and once that clicks, every money question on the exam works the same way. We teach you to break a busy question into calm steps like this, which is exactly what Functional Skills rewards, and a skill you'll use for the rest of your life, long after you've passed.
 
 Why a coding school teaches Functional Skills
 
@@ -64,27 +64,27 @@ Breaking a busy problem into calm steps is the heart of both Functional Skills a
 
 ### Reason from the rule
 
-Knowing why 35% means × 0.35 — not just memorising it — is the same logic that lets a coder trust their work.
+Knowing why 35% means × 0.35, not just memorising it, is the same logic that lets a coder trust their work.
 
 ### Check it makes sense
 
 "Could £780 be left from £1,800 after those costs?" A quick sanity check catches mistakes at work and in the exam.
 
-We're Modern Age Coders, and we teach adults to code as well as to compute. The plain, step-by-step reasoning behind Functional Skills is the same reasoning behind data, spreadsheets and basic programming — which is why many of our Functional Skills learners discover they're more capable with numbers and technology than they ever believed.
+We're Modern Age Coders, and we teach adults to code as well as to compute. The plain, step-by-step reasoning behind Functional Skills is the same reasoning behind data, spreadsheets and basic programming, which is why many of our Functional Skills learners discover they're more capable with numbers and technology than they ever believed.
 
 What we cover
 
 ## Everything the Functional Skills maths exam tests.
 
-Across Entry Level 3, Level 1 and Level 2 — pitched to the level you need.
+Across Entry Level 3, Level 1 and Level 2, pitched to the level you need.
 
 ### Number & calculation
 
-The four operations, fractions, decimals, percentages and ratio — the everyday number skills the exam is built on.
+The four operations, fractions, decimals, percentages and ratio, the everyday number skills the exam is built on.
 
 ### Money & financial maths
 
-Budgets, wages, bills, discounts and best-value comparisons — the questions that appear again and again.
+Budgets, wages, bills, discounts and best-value comparisons, the questions that appear again and again.
 
 ### Measures, shape & space
 
@@ -104,11 +104,11 @@ The structure of your awarding body's papers, the question style, and how to sho
 
 Who this is for
 
-## The right fit — and an honest word on what to expect.
+## The right fit: and an honest word on what to expect.
 
 **This fits** the apprentice who needs Level 2 to complete their qualification, the adult returning to college, the career-changer who needs a maths certificate, and anyone for whom maths has been a barrier to a real opportunity. Entry 3 and Level 1 learners are just as welcome as Level 2.
 
-**What's realistic.** Confidence usually returns within a few lessons as the practical approach clicks. Being ready to pass tracks your starting level and the level you need — often a few months of steady work for Level 2. We'll give you an honest timeline, not a sales pitch.
+**What's realistic.** Confidence usually returns within a few lessons as the practical approach clicks. Being ready to pass tracks your starting level and the level you need, often a few months of steady work for Level 2. We'll give you an honest timeline, not a sales pitch.
 
 ### What we won't do
 
@@ -167,13 +167,11 @@ Who teaches you
 
 ## Tutors chosen for patience first.
 
-Teaching an adult who needs Functional Skills for a real goal — and who may carry years of maths anxiety — takes a particular kind of teacher: one who never rushes, never judges, and genuinely believes you can do this. We hire for exactly that and check it. A tutor who makes a learner feel small doesn't last here.
+Teaching an adult who needs Functional Skills for a real goal, and who may carry years of maths anxiety, takes a particular kind of teacher: one who never rushes, never judges, and genuinely believes you can do this. We hire for exactly that and check it. A tutor who makes a learner feel small doesn't last here.
 
 You keep the same tutor, who learns your goal, your level and your deadline, and keeps the whole thing calm and on track.
 
-"I needed Level 2 to finish my apprenticeship and had failed it twice. My tutor taught it through real work situations — it finally made sense, and I passed."
-
-— Apprentice, age 24, Leeds
+"I needed Level 2 to finish my apprenticeship and had failed it twice. My tutor taught it through real work situations, it finally made sense, and I passed.", Apprentice, age 24, Leeds
 
 An honest comparison
 
@@ -203,21 +201,21 @@ Which level do I need?
 
 Often Level 2. We check your requirement, assess where you are, and build up through Entry 3 and Level 1 if needed.
 
-Functional Skills or GCSE resit — which is better for me?
+Functional Skills or GCSE resit, which is better for me?
 
 Depends on what your employer or college accepts. Functional Skills is more practical and often quicker; GCSE is broader. We'll talk it through honestly. See our [adult maths classes](/online-maths-classes-for-adults-in-uk).
 
 I've been out of education a long time. Is that a problem?
 
-Not at all — most of our Functional Skills learners are returning adults. We start wherever you are and never make you feel behind.
+Not at all. Most of our Functional Skills learners are returning adults. We start wherever you are and never make you feel behind.
 
 How much does it cost?
 
-USD 150 per month for private 1:1 — eight live lessons, two each week. Small-group option USD 100 per month. No contract; cancel any time.
+USD 150 per month for private 1:1, eight live lessons, two each week. Small-group option USD 100 per month. No contract; cancel any time.
 
 Is there a free trial?
 
-Yes — the first lesson is free, no card needed.
+Yes, the first lesson is free, no card needed.
 
 Do you provide the exam, or just the teaching?
 
@@ -225,15 +223,15 @@ We provide the teaching and preparation; the exam is booked through an approved 
 
 Will I have the same tutor?
 
-Yes — one tutor who learns your goal, level and deadline.
+Yes, one tutor who learns your goal, level and deadline.
 
 I have maths anxiety. Will this be hard?
 
-The one-to-one setting helps — no class, no being put on the spot. Most people relax within a couple of lessons.
+The one-to-one setting helps, no class, no being put on the spot. Most people relax within a couple of lessons.
 
 Are lessons live?
 
-Yes — live, one-to-one, with a shared whiteboard.
+Yes, live, one-to-one, with a shared whiteboard.
 
 When can I have lessons? I work full time.
 
@@ -259,7 +257,7 @@ Real student projects
 
 Every one is a real, live project shipped by a Modern Age Coders student. Explore more in [Student Labs](/student-labs).
 
-[![HairSync — AI Hairstyle Try-On](/images/projects/hairsync.webp)AI & MLHairSync — AI Hairstyle Try-OnUpload a clear photo and try on any hairstyle before you commit — wolf cuts, curtain bangs, fades, braids and dozens of trending looks, rendered onto your own face by AI in seconds. Kriti vibe-coded this virtual try-on studio from a single idea into a working app.by KritiOpen the live project ↗](https://hairsync.lovable.app)[![SkyCast — Weather Forecast App](/images/projects/skycast.webp)Web AppSkyCast — Weather Forecast AppAn interactive weather forecasting site with real-time updates for any location — temperature, humidity, wind speed and conditions in a clean, responsive interface.by KrishOpen the live project ↗](https://krish-shroff.github.io/AuraWeatherTech/)[![HugSelle — AI Smile Generator](/images/projects/hugselle.webp)AI & MLHugSelle — AI Smile GeneratorA heartwarming AI-powered web app that detects your mood and generates uplifting quotes and visuals to make you smile — a creative blend of technology and positivity.by AnuragOpen the live project ↗](https://hugselle.modernagecoders.com)
+[![HairSync, AI Hairstyle Try-On](/images/projects/hairsync.webp)AI & MLHairSync, AI Hairstyle Try-OnUpload a clear photo and try on any hairstyle before you commit, wolf cuts, curtain bangs, fades, braids and dozens of trending looks, rendered onto your own face by AI in seconds. Kriti vibe-coded this virtual try-on studio from a single idea into a working app.by KritiOpen the live project ↗](https://hairsync.lovable.app)[![SkyCast, Weather Forecast App](/images/projects/skycast.webp)Web AppSkyCast, Weather Forecast AppAn interactive weather forecasting site with real-time updates for any location, temperature, humidity, wind speed and conditions in a clean, responsive interface.by KrishOpen the live project ↗](https://krish-shroff.github.io/AuraWeatherTech/)[![HugSelle, AI Smile Generator](/images/projects/hugselle.webp)AI & MLHugSelle, AI Smile GeneratorA heartwarming AI-powered web app that detects your mood and generates uplifting quotes and visuals to make you smile, a creative blend of technology and positivity.by AnuragOpen the live project ↗](https://hugselle.modernagecoders.com)
 
 Parent & student voices
 

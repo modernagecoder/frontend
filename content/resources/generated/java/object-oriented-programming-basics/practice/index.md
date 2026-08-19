@@ -405,7 +405,7 @@ Both `println(r)` and string concatenation `"Room: " + r` call `r.toString()`. T
 
 **Answer:** When you define a parameterized constructor, you are declaring that objects of this class **require certain data to be initialized properly**. If Java still provided a default no-arg constructor, it would allow creating objects without the required data, potentially leaving the object in an invalid state. Java respects your intent by not adding a default constructor.
 
-For example, if a `DatabaseConnection` class requires a URL in its constructor, allowing a no-arg constructor would create a connection object with no URL — an invalid state. If you truly want both options, you can define both constructors explicitly.
+For example, if a `DatabaseConnection` class requires a URL in its constructor, allowing a no-arg constructor would create a connection object with no URL, an invalid state. If you truly want both options, you can define both constructors explicitly.
 
 ### Q7. [Hard] What is the output?
 
@@ -470,7 +470,7 @@ Config.showConfig();
 `production on port 8080`
 `production on port 8080`
 
-The first call to `Config.showConfig()` triggers class loading, which executes the static block (once). Then showConfig() prints the config. The second call does NOT re-execute the static block — it just calls showConfig() again.
+The first call to `Config.showConfig()` triggers class loading, which executes the static block (once). Then showConfig() prints the config. The second call does NOT re-execute the static block. It just calls showConfig() again.
 
 ### Q9. [Hard] Explain the difference between a static variable and an instance variable in terms of memory and lifetime.
 
@@ -502,7 +502,7 @@ D. undefined
 
 **Answer:** C
 
-**C is correct.** The default value for any reference type (including String) is `null`. Empty string (A) is not the default — null means no object exists.
+**C is correct.** The default value for any reference type (including String) is `null`. Empty string (A) is not the default, null means no object exists.
 
 ### Q3. [Easy] A constructor is different from a regular method because:
 
@@ -535,7 +535,7 @@ D. The constructor
 
 **Answer:** B
 
-**B is correct.** `this` refers to the current object — the instance on which the method or constructor was called. It is not the class itself (A), not the parent class (C — that would be `super`), and not the constructor (D).
+**B is correct.** `this` refers to the current object, the instance on which the method or constructor was called. It is not the class itself (A), not the parent class (C, that would be `super`), and not the constructor (D).
 
 ### Q6. [Medium] How many times does a static block execute?
 
@@ -590,12 +590,12 @@ D. Runtime error other than NPE
 
 **Answer:** B
 
-**B is correct.** Static methods are resolved based on the declared type, not the object. Even though `s` is null, the compiler uses the type `Student` to resolve `staticMethod()`. The null reference is never dereferenced. However, this is bad practice — call static methods using the class name.
+**B is correct.** Static methods are resolved based on the declared type, not the object. Even though `s` is null, the compiler uses the type `Student` to resolve `staticMethod()`. The null reference is never dereferenced. However, this is bad practice. Call static methods using the class name.
 
 ### Q11. [Hard] What is the result of this() and super() both being in the same constructor?
 
 A. Both execute in order
-B. Compilation error — only one can be the first statement
+B. Compilation error, only one can be the first statement
 C. this() runs first, then super()
 D. super() runs first, then this()
 

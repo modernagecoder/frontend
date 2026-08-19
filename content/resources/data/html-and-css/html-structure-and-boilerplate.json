@@ -13,9 +13,9 @@
     "keywords": "html boilerplate, html structure, doctype html, html head body, meta viewport, meta charset, html5 template, html page structure, html comments, html nesting"
   },
   "content": {
-    "what": "<h2>What Is an HTML Boilerplate?</h2><p>A <strong>boilerplate</strong> is the standard skeleton code that every HTML page needs to start with. Think of it like the pre-printed lines on a notebook page — before you can write your story, the lines need to be there. Before you can write any HTML content, you need the boilerplate.</p><p>This boilerplate tells the browser three important things: (1) which version of HTML you are using, (2) what language the page is in, (3) how the page should look on phones. Without the boilerplate, the browser has to guess, and it often guesses wrong.</p><h3>The Standard HTML5 Boilerplate</h3><p>Here is what every modern HTML page starts with:</p><pre><code>&lt;!DOCTYPE html&gt;\n&lt;html lang=\"en\"&gt;\n&lt;head&gt;\n  &lt;meta charset=\"UTF-8\"&gt;\n  &lt;meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\"&gt;\n  &lt;title&gt;Page Title&lt;/title&gt;\n&lt;/head&gt;\n&lt;body&gt;\n  &lt;!-- Your content goes here --&gt;\n&lt;/body&gt;\n&lt;/html&gt;</code></pre><p>Every professional web page uses some version of this. Memorise it. Type it out by hand a few times. Soon it will feel natural.</p>",
-    "why": "<h2>Why Does Every Page Need a Boilerplate?</h2><p>You might wonder — why can I not just write some <code>&lt;p&gt;</code> tags and call it a day? Here are the five big reasons.</p><h3>1. Tells the Browser What Version of HTML You Use</h3><p>Over the years, there have been many versions of HTML: HTML 3, HTML 4, XHTML, HTML5. Each works slightly differently. The <code>&lt;!DOCTYPE html&gt;</code> declaration at the top tells the browser 'render this in modern HTML5 mode'. Without it, some browsers fall back to 'quirks mode', which is an ancient weird rendering from the 1990s that can break your layout.</p><h3>2. Sets the Language for Accessibility and SEO</h3><p>The <code>lang=\"en\"</code> attribute on the <code>&lt;html&gt;</code> tag tells screen readers to pronounce words in English, helps browsers offer translation to other languages, and helps search engines show your page to the right audience.</p><h3>3. Handles Special Characters Correctly</h3><p>Without <code>&lt;meta charset=\"UTF-8\"&gt;</code>, characters like 'e', 'n', 'a', or emoji may show as weird garbled symbols. UTF-8 is the universal encoding that handles every language in the world — English, Hindi, Tamil, Chinese, Arabic, everything.</p><h3>4. Makes Your Page Look Right on Phones</h3><p>The viewport meta tag is critical. Without it, your web page will look tiny and zoomed out on a phone, like you are looking at a desktop site through a keyhole. With it, the page fits the screen nicely. More than half of all web browsing happens on phones, so this is not optional.</p><h3>5. Separates Metadata From Content</h3><p>The <code>&lt;head&gt;</code> is for information <em>about</em> the page (title, language, styles). The <code>&lt;body&gt;</code> is for the actual visible content. This separation keeps your code organised and works better with browsers, screen readers, and search engines.</p>",
-    "explanation": "<h2>Detailed Explanation</h2><h3>1. <!DOCTYPE html></h3><p>This is always the very first line. No spaces above it, nothing before it. It tells the browser 'this is an HTML5 document'. In older versions of HTML (like HTML 4), the DOCTYPE was a long, complicated URL. In HTML5, it is just <code>&lt;!DOCTYPE html&gt;</code> — short and simple.</p><p>If you skip the DOCTYPE, browsers may render your page in 'quirks mode', which emulates ancient buggy behaviour from the 1990s. Your CSS might break, your layout might look wrong. Always include it.</p><h3>2. The <html> Element</h3><p>The <code>&lt;html&gt;</code> element wraps everything else. Inside it are two main children: <code>&lt;head&gt;</code> and <code>&lt;body&gt;</code>. It usually has a <code>lang</code> attribute to set the page's language:</p><ul><li><code>lang=\"en\"</code> for English</li><li><code>lang=\"hi\"</code> for Hindi</li><li><code>lang=\"ta\"</code> for Tamil</li><li><code>lang=\"fr\"</code> for French</li></ul><h3>3. The <head> Element</h3><p>The <code>&lt;head&gt;</code> contains <strong>metadata</strong> — information about the page that is not shown on the page itself. Things that go inside head:</p><ul><li><code>&lt;title&gt;</code> — the text shown on the browser tab</li><li><code>&lt;meta charset=\"UTF-8\"&gt;</code> — the character encoding</li><li><code>&lt;meta name=\"viewport\" ...&gt;</code> — mobile settings</li><li><code>&lt;meta name=\"description\" content=\"...\"&gt;</code> — description for search engines</li><li><code>&lt;link rel=\"stylesheet\" href=\"style.css\"&gt;</code> — link to CSS file</li><li><code>&lt;script src=\"main.js\"&gt;&lt;/script&gt;</code> — link to JavaScript file</li></ul><p>Nothing in the head is displayed as visible content (except the title, which appears on the browser tab, not on the page itself).</p><h3>4. The <title> Element</h3><p>The title is shown:</p><ul><li>On the browser tab at the top of the window</li><li>When you bookmark the page</li><li>In Google search results as the clickable blue link</li><li>When you share the page on social media</li></ul><p>Write a clear, descriptive title. 'My Page' is boring. 'Priya's Art Portfolio - Paintings, Sketches, and Drawings' is better.</p><h3>5. The meta charset Tag</h3><p><code>&lt;meta charset=\"UTF-8\"&gt;</code> should be one of the first things in your head. It tells the browser how to decode the bytes of your file into characters. UTF-8 is the universal standard and supports every language. Without it, special characters might show as gibberish.</p><h3>6. The Viewport Meta Tag</h3><p><code>&lt;meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\"&gt;</code></p><p>This is the most important tag for mobile. Here is what it does:</p><ul><li><strong>width=device-width</strong> — make the page as wide as the phone's screen</li><li><strong>initial-scale=1.0</strong> — do not zoom in or out when the page loads</li></ul><p>Without this tag, phones assume your page is a desktop site and show it zoomed out. Users see tiny text and have to pinch to zoom. With this tag, the page fits the phone naturally.</p><h3>7. The <body> Element</h3><p>Everything the user sees goes inside <code>&lt;body&gt;</code> — headings, paragraphs, images, videos, buttons, forms, everything. Think of it as the stage where the show happens.</p><h3>8. Comments</h3><p>HTML comments are notes for yourself or other developers. The browser ignores them:</p><p><code>&lt;!-- This is a comment. It is invisible on the page. --&gt;</code></p><p>Use comments to explain tricky parts, mark sections of your HTML, or temporarily hide code you are testing. Never write private information in comments because anyone can see them by viewing the page source.</p><h3>9. Nesting Rules</h3><p>HTML elements can be nested inside each other, but the rules are strict:</p><ul><li><strong>Proper:</strong> <code>&lt;p&gt;&lt;strong&gt;Bold text&lt;/strong&gt;&lt;/p&gt;</code></li><li><strong>Wrong:</strong> <code>&lt;p&gt;&lt;strong&gt;Bold text&lt;/p&gt;&lt;/strong&gt;</code></li></ul><p>Think of nesting like brackets in maths: <code>[{()}]</code>. Each opening bracket must be closed in the reverse order it was opened. Same with HTML tags.</p><h3>10. Indentation Best Practices</h3><p>HTML does not care about spaces or tabs — you can write everything on one line and it still works. But good developers indent their code so it is easy to read. Every time you nest an element, indent it by 2 spaces. Compare:</p><p><strong>Hard to read:</strong><br><code>&lt;ul&gt;&lt;li&gt;Apple&lt;/li&gt;&lt;li&gt;Mango&lt;/li&gt;&lt;/ul&gt;</code></p><p><strong>Easy to read:</strong></p><pre><code>&lt;ul&gt;\n  &lt;li&gt;Apple&lt;/li&gt;\n  &lt;li&gt;Mango&lt;/li&gt;\n&lt;/ul&gt;</code></pre>",
+    "what": "<h2>What Is an HTML Boilerplate?</h2><p>A <strong>boilerplate</strong> is the standard skeleton code that every HTML page needs to start with. Think of it like the pre-printed lines on a notebook page, before you can write your story, the lines need to be there. Before you can write any HTML content, you need the boilerplate.</p><p>This boilerplate tells the browser three important things: (1) which version of HTML you are using, (2) what language the page is in, (3) how the page should look on phones. Without the boilerplate, the browser has to guess, and it often guesses wrong.</p><h3>The Standard HTML5 Boilerplate</h3><p>Here is what every modern HTML page starts with:</p><pre><code>&lt;!DOCTYPE html&gt;\n&lt;html lang=\"en\"&gt;\n&lt;head&gt;\n  &lt;meta charset=\"UTF-8\"&gt;\n  &lt;meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\"&gt;\n  &lt;title&gt;Page Title&lt;/title&gt;\n&lt;/head&gt;\n&lt;body&gt;\n  &lt;!-- Your content goes here --&gt;\n&lt;/body&gt;\n&lt;/html&gt;</code></pre><p>Every professional web page uses some version of this. Memorise it. Type it out by hand a few times. Soon it will feel natural.</p>",
+    "why": "<h2>Why Does Every Page Need a Boilerplate?</h2><p>You might wonder, why can I not just write some <code>&lt;p&gt;</code> tags and call it a day? Here are the five big reasons.</p><h3>1. Tells the Browser What Version of HTML You Use</h3><p>Over the years, there have been many versions of HTML: HTML 3, HTML 4, XHTML, HTML5. Each works slightly differently. The <code>&lt;!DOCTYPE html&gt;</code> declaration at the top tells the browser 'render this in modern HTML5 mode'. Without it, some browsers fall back to 'quirks mode', which is an ancient weird rendering from the 1990s that can break your layout.</p><h3>2. Sets the Language for Accessibility and SEO</h3><p>The <code>lang=\"en\"</code> attribute on the <code>&lt;html&gt;</code> tag tells screen readers to pronounce words in English, helps browsers offer translation to other languages, and helps search engines show your page to the right audience.</p><h3>3. Handles Special Characters Correctly</h3><p>Without <code>&lt;meta charset=\"UTF-8\"&gt;</code>, characters like 'e', 'n', 'a', or emoji may show as weird garbled symbols. UTF-8 is the universal encoding that handles every language in the world: English, Hindi, Tamil, Chinese, Arabic, everything.</p><h3>4. Makes Your Page Look Right on Phones</h3><p>The viewport meta tag is critical. Without it, your web page will look tiny and zoomed out on a phone, like you are looking at a desktop site through a keyhole. With it, the page fits the screen nicely. More than half of all web browsing happens on phones, so this is not optional.</p><h3>5. Separates Metadata From Content</h3><p>The <code>&lt;head&gt;</code> is for information <em>about</em> the page (title, language, styles). The <code>&lt;body&gt;</code> is for the actual visible content. This separation keeps your code organised and works better with browsers, screen readers, and search engines.</p>",
+    "explanation": "<h2>Detailed Explanation</h2><h3>1. <!DOCTYPE html></h3><p>This is always the very first line. No spaces above it, nothing before it. It tells the browser 'this is an HTML5 document'. In older versions of HTML (like HTML 4), the DOCTYPE was a long, complicated URL. In HTML5, it is just <code>&lt;!DOCTYPE html&gt;</code>, short and simple.</p><p>If you skip the DOCTYPE, browsers may render your page in 'quirks mode', which emulates ancient buggy behaviour from the 1990s. Your CSS might break, your layout might look wrong. Always include it.</p><h3>2. The <html> Element</h3><p>The <code>&lt;html&gt;</code> element wraps everything else. Inside it are two main children: <code>&lt;head&gt;</code> and <code>&lt;body&gt;</code>. It usually has a <code>lang</code> attribute to set the page's language:</p><ul><li><code>lang=\"en\"</code> for English</li><li><code>lang=\"hi\"</code> for Hindi</li><li><code>lang=\"ta\"</code> for Tamil</li><li><code>lang=\"fr\"</code> for French</li></ul><h3>3. The <head> Element</h3><p>The <code>&lt;head&gt;</code> contains <strong>metadata</strong>, information about the page that is not shown on the page itself. Things that go inside head:</p><ul><li><code>&lt;title&gt;</code>, the text shown on the browser tab</li><li><code>&lt;meta charset=\"UTF-8\"&gt;</code>, the character encoding</li><li><code>&lt;meta name=\"viewport\" ...&gt;</code>, mobile settings</li><li><code>&lt;meta name=\"description\" content=\"...\"&gt;</code>, description for search engines</li><li><code>&lt;link rel=\"stylesheet\" href=\"style.css\"&gt;</code>, link to CSS file</li><li><code>&lt;script src=\"main.js\"&gt;&lt;/script&gt;</code>, link to JavaScript file</li></ul><p>Nothing in the head is displayed as visible content (except the title, which appears on the browser tab, not on the page itself).</p><h3>4. The <title> Element</h3><p>The title is shown:</p><ul><li>On the browser tab at the top of the window</li><li>When you bookmark the page</li><li>In Google search results as the clickable blue link</li><li>When you share the page on social media</li></ul><p>Write a clear, descriptive title. 'My Page' is boring. 'Priya's Art Portfolio - Paintings, Sketches, and Drawings' is better.</p><h3>5. The meta charset Tag</h3><p><code>&lt;meta charset=\"UTF-8\"&gt;</code> should be one of the first things in your head. It tells the browser how to decode the bytes of your file into characters. UTF-8 is the universal standard and supports every language. Without it, special characters might show as gibberish.</p><h3>6. The Viewport Meta Tag</h3><p><code>&lt;meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\"&gt;</code></p><p>This is the most important tag for mobile. Here is what it does:</p><ul><li><strong>width=device-width</strong>, make the page as wide as the phone's screen</li><li><strong>initial-scale=1.0</strong>, do not zoom in or out when the page loads</li></ul><p>Without this tag, phones assume your page is a desktop site and show it zoomed out. Users see tiny text and have to pinch to zoom. With this tag, the page fits the phone naturally.</p><h3>7. The <body> Element</h3><p>Everything the user sees goes inside <code>&lt;body&gt;</code>, headings, paragraphs, images, videos, buttons, forms, everything. Think of it as the stage where the show happens.</p><h3>8. Comments</h3><p>HTML comments are notes for yourself or other developers. The browser ignores them:</p><p><code>&lt;!-- This is a comment. It is invisible on the page. --&gt;</code></p><p>Use comments to explain tricky parts, mark sections of your HTML, or temporarily hide code you are testing. Never write private information in comments because anyone can see them by viewing the page source.</p><h3>9. Nesting Rules</h3><p>HTML elements can be nested inside each other, but the rules are strict:</p><ul><li><strong>Proper:</strong> <code>&lt;p&gt;&lt;strong&gt;Bold text&lt;/strong&gt;&lt;/p&gt;</code></li><li><strong>Wrong:</strong> <code>&lt;p&gt;&lt;strong&gt;Bold text&lt;/p&gt;&lt;/strong&gt;</code></li></ul><p>Think of nesting like brackets in maths: <code>[{()}]</code>. Each opening bracket must be closed in the reverse order it was opened. Same with HTML tags.</p><h3>10. Indentation Best Practices</h3><p>HTML does not care about spaces or tabs. You can write everything on one line and it still works. But good developers indent their code so it is easy to read. Every time you nest an element, indent it by 2 spaces. Compare:</p><p><strong>Hard to read:</strong><br><code>&lt;ul&gt;&lt;li&gt;Apple&lt;/li&gt;&lt;li&gt;Mango&lt;/li&gt;&lt;/ul&gt;</code></p><p><strong>Easy to read:</strong></p><pre><code>&lt;ul&gt;\n  &lt;li&gt;Apple&lt;/li&gt;\n  &lt;li&gt;Mango&lt;/li&gt;\n&lt;/ul&gt;</code></pre>",
     "codeExamples": [
       {
         "title": "The Complete HTML5 Boilerplate",
@@ -28,7 +28,7 @@
         "title": "A Page With Comments and Proper Structure",
         "code": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n  <meta charset=\"UTF-8\">\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n  <title>About Aarav</title>\n</head>\n<body>\n  <!-- Main heading section -->\n  <h1>About Aarav</h1>\n  <p>Hi, I am Aarav. I am learning HTML.</p>\n\n  <!-- Hobbies section -->\n  <h2>My Hobbies</h2>\n  <ul>\n    <li>Cricket</li>\n    <li>Painting</li>\n    <li>Reading</li>\n  </ul>\n\n  <!-- Footer note -->\n  <!-- TODO: add a contact form here later -->\n</body>\n</html>",
         "language": "html",
-        "explanation": "This page uses HTML comments to label different sections. The browser does not show comments — they are only visible when you view the page source. Comments help you and other developers understand what each part of the code does. Notice the 'TODO' comment reminding yourself to add a contact form later. This is a professional habit.",
+        "explanation": "This page uses HTML comments to label different sections. The browser does not show comments. They are only visible when you view the page source. Comments help you and other developers understand what each part of the code does. Notice the 'TODO' comment reminding yourself to add a contact form later. This is a professional habit.",
         "output": "A page with 'About Aarav' as the heading, an intro paragraph, a 'My Hobbies' sub-heading, and a bulleted list of three hobbies. Comments are not visible."
       },
       {
@@ -42,21 +42,21 @@
         "title": "Viewport Meta Tag Demo",
         "code": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n  <meta charset=\"UTF-8\">\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n  <title>Mobile Friendly Page</title>\n</head>\n<body>\n  <h1>Mobile Friendly</h1>\n  <p>Because of the viewport meta tag, this page fits your phone screen nicely. Try resizing your browser window or opening this page on your phone.</p>\n  <p>Without the viewport tag, phones would show this page tiny and zoomed out.</p>\n</body>\n</html>",
         "language": "html",
-        "explanation": "Save this and open it on your phone (or use your browser's mobile preview with F12). The text will be readable at phone size. Now try removing the viewport meta tag and reload — the text will look tiny and you will have to pinch to zoom. This tag is what makes your page mobile-friendly.",
+        "explanation": "Save this and open it on your phone (or use your browser's mobile preview with F12). The text will be readable at phone size. Now try removing the viewport meta tag and reload, the text will look tiny and you will have to pinch to zoom. This tag is what makes your page mobile-friendly.",
         "output": "A page that looks normal on desktop and also looks proper on phone screens."
       },
       {
         "title": "Using Description and Keywords Meta Tags",
         "code": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n  <meta charset=\"UTF-8\">\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n  <meta name=\"description\" content=\"A beginner-friendly guide to learning HTML and CSS by Priya Sharma.\">\n  <meta name=\"author\" content=\"Priya Sharma\">\n  <title>Learn HTML with Priya</title>\n</head>\n<body>\n  <h1>Welcome to My HTML Guide</h1>\n  <p>This page teaches you the basics of HTML in a simple, fun way.</p>\n</body>\n</html>",
         "language": "html",
-        "explanation": "The <code>description</code> meta tag appears in Google search results below the blue link — it is your chance to tell users what the page is about. The <code>author</code> meta tag credits the creator. These are invisible on the page itself but very important for SEO (Search Engine Optimisation).",
+        "explanation": "The <code>description</code> meta tag appears in Google search results below the blue link. It is your chance to tell users what the page is about. The <code>author</code> meta tag credits the creator. These are invisible on the page itself but very important for SEO (Search Engine Optimisation).",
         "output": "A simple page with a welcome heading and paragraph. The description appears in Google search results."
       },
       {
         "title": "Nested Elements with Proper Indentation",
         "code": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n  <meta charset=\"UTF-8\">\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n  <title>Menu</title>\n</head>\n<body>\n  <h1>Cafe Menu</h1>\n  <h2>Drinks</h2>\n  <ul>\n    <li>\n      Hot Drinks\n      <ul>\n        <li>Coffee</li>\n        <li>Masala Chai</li>\n      </ul>\n    </li>\n    <li>\n      Cold Drinks\n      <ul>\n        <li>Mango Lassi</li>\n        <li>Lemon Soda</li>\n      </ul>\n    </li>\n  </ul>\n</body>\n</html>",
         "language": "html",
-        "explanation": "This example shows nested lists. A <code>&lt;ul&gt;</code> is placed inside an <code>&lt;li&gt;</code> to create a sub-list. Notice the clean indentation — every time something is nested inside something else, it is indented by two spaces. This makes the code much easier to read. The browser shows indented sub-lists automatically.",
+        "explanation": "This example shows nested lists. A <code>&lt;ul&gt;</code> is placed inside an <code>&lt;li&gt;</code> to create a sub-list. Notice the clean indentation, every time something is nested inside something else, it is indented by two spaces. This makes the code much easier to read. The browser shows indented sub-lists automatically.",
         "output": "A menu with a 'Drinks' heading and a bulleted list that has 'Hot Drinks' with a sub-list (Coffee, Masala Chai) and 'Cold Drinks' with a sub-list (Mango Lassi, Lemon Soda)."
       }
     ],
@@ -66,21 +66,21 @@
         "wrongCode": "<html>\n<head>\n  <title>My Page</title>\n</head>\n<body>\n  <h1>Hello</h1>\n</body>\n</html>",
         "error": "The browser may fall into 'quirks mode', causing CSS to behave strangely and layouts to break in unpredictable ways.",
         "correctCode": "<!DOCTYPE html>\n<html>\n<head>\n  <title>My Page</title>\n</head>\n<body>\n  <h1>Hello</h1>\n</body>\n</html>",
-        "explanation": "The <code>&lt;!DOCTYPE html&gt;</code> must be the very first line of every HTML page — no spaces or comments before it. It tells the browser to use modern HTML5 rendering. Without it, you get unpredictable behaviour, especially when you start adding CSS."
+        "explanation": "The <code>&lt;!DOCTYPE html&gt;</code> must be the very first line of every HTML page, no spaces or comments before it. It tells the browser to use modern HTML5 rendering. Without it, you get unpredictable behaviour, especially when you start adding CSS."
       },
       {
         "title": "Wrong Meta Viewport Tag Syntax",
         "wrongCode": "<meta name=\"viewport\" content=\"width=device, scale=1\">",
         "error": "The page may still look zoomed out on phones because the viewport values are wrong.",
         "correctCode": "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">",
-        "explanation": "The viewport tag has a specific syntax. The width must be <code>device-width</code> (with a hyphen), and the scale attribute is <code>initial-scale</code>, not just <code>scale</code>. Memorise this tag exactly. Copy-paste is fine — even professionals do it."
+        "explanation": "The viewport tag has a specific syntax. The width must be <code>device-width</code> (with a hyphen), and the scale attribute is <code>initial-scale</code>, not just <code>scale</code>. Memorise this tag exactly. Copy-paste is fine, even professionals do it."
       },
       {
         "title": "Writing Visible Content Inside the Head",
         "wrongCode": "<!DOCTYPE html>\n<html>\n<head>\n  <title>My Page</title>\n  <h1>Welcome</h1>\n  <p>This is wrong.</p>\n</head>\n<body>\n</body>\n</html>",
         "error": "The browser may still show the heading and paragraph, but it is invalid HTML and causes issues with CSS, JavaScript, and screen readers.",
         "correctCode": "<!DOCTYPE html>\n<html>\n<head>\n  <title>My Page</title>\n</head>\n<body>\n  <h1>Welcome</h1>\n  <p>This is correct.</p>\n</body>\n</html>",
-        "explanation": "The <code>&lt;head&gt;</code> is only for metadata — title, meta tags, links to CSS, links to scripts. All visible content (headings, paragraphs, images, lists, etc.) must go inside <code>&lt;body&gt;</code>. Mixing them causes invalid HTML and breaks many tools that read your page."
+        "explanation": "The <code>&lt;head&gt;</code> is only for metadata, title, meta tags, links to CSS, links to scripts. All visible content (headings, paragraphs, images, lists, etc.) must go inside <code>&lt;body&gt;</code>. Mixing them causes invalid HTML and breaks many tools that read your page."
       },
       {
         "title": "Wrong Nesting Order",
@@ -94,21 +94,21 @@
         "wrongCode": "<!- This is a comment ->",
         "error": "The comment is not recognized and shows as plain text on the page.",
         "correctCode": "<!-- This is a comment -->",
-        "explanation": "HTML comments start with <code>&lt;!--</code> (with two dashes) and end with <code>--&gt;</code> (with two dashes). One dash is wrong. Also, comments cannot contain two dashes in a row inside them — avoid writing <code>--</code> inside a comment."
+        "explanation": "HTML comments start with <code>&lt;!--</code> (with two dashes) and end with <code>--&gt;</code> (with two dashes). One dash is wrong. Also, comments cannot contain two dashes in a row inside them, avoid writing <code>--</code> inside a comment."
       }
     ],
     "summary": [
       "The HTML boilerplate is the standard skeleton every web page needs: DOCTYPE, html, head, body.",
       "<!DOCTYPE html> must be the very first line. It tells the browser to use modern HTML5 rendering instead of old quirks mode.",
       "The <html lang=\"en\"> attribute sets the page language, which helps screen readers, translators, and search engines.",
-      "The <head> contains metadata — information about the page that is not visible on the page itself.",
+      "The <head> contains metadata, information about the page that is not visible on the page itself.",
       "The <title> tag sets the text shown on the browser tab and in search results. It goes inside the head.",
       "<meta charset=\"UTF-8\"> ensures special characters and emoji render correctly. It should be near the top of the head.",
       "The viewport meta tag <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\"> makes your page look right on phones.",
-      "The <body> contains everything the user sees — headings, paragraphs, images, links, lists, and more.",
+      "The <body> contains everything the user sees, headings, paragraphs, images, links, lists, and more.",
       "HTML comments use <!-- and --> and are invisible on the page. Use them to label sections and leave notes for yourself.",
       "Indent nested elements by 2 spaces to make your code easy to read. HTML does not require indentation, but it is a professional habit.",
-      "Close tags in the reverse order you opened them — just like closing brackets in mathematics."
+      "Close tags in the reverse order you opened them, just like closing brackets in mathematics."
     ]
   },
   "relatedTopics": ["introduction-to-html", "headings-paragraphs-and-text"],
@@ -156,7 +156,7 @@
         "type": "output-prediction",
         "difficulty": "Easy",
         "question": "Where does the text inside the <code>&lt;title&gt;</code> tag appear?",
-        "hint": "Not on the page itself — look higher.",
+        "hint": "Not on the page itself, look higher.",
         "answer": "On the browser tab at the top of the window, in bookmarks, and in search engine results.",
         "explanation": "The <code>&lt;title&gt;</code> is displayed on the browser tab, not on the page itself. It also appears when you bookmark the page, share it on social media, or see it in Google search results."
       },
@@ -192,9 +192,9 @@
         "type": "output-prediction",
         "difficulty": "Easy",
         "question": "Which tag should contain the visible content of the page?",
-        "hint": "Not head — the other one.",
+        "hint": "Not head, the other one.",
         "answer": "<code>&lt;body&gt;</code>",
-        "explanation": "All visible content — headings, paragraphs, images, links, lists — goes inside the <code>&lt;body&gt;</code> element. The <code>&lt;head&gt;</code> is only for metadata that is not displayed on the page itself."
+        "explanation": "All visible content, headings, paragraphs, images, links, lists, goes inside the <code>&lt;body&gt;</code> element. The <code>&lt;head&gt;</code> is only for metadata that is not displayed on the page itself."
       },
       {
         "id": "ts-10",
@@ -239,7 +239,7 @@
         "question": "Which of these should go inside the head and which inside the body: <code>&lt;title&gt;</code>, <code>&lt;h1&gt;</code>, <code>&lt;meta&gt;</code>, <code>&lt;p&gt;</code>?",
         "hint": "Metadata vs visible content.",
         "answer": "Inside head: <code>&lt;title&gt;</code> and <code>&lt;meta&gt;</code>. Inside body: <code>&lt;h1&gt;</code> and <code>&lt;p&gt;</code>.",
-        "explanation": "The head holds metadata — information about the page that is not shown on the page. The body holds visible content. <code>&lt;title&gt;</code> shows on the browser tab (technically not 'on the page'), so it belongs in head."
+        "explanation": "The head holds metadata, information about the page that is not shown on the page. The body holds visible content. <code>&lt;title&gt;</code> shows on the browser tab (technically not 'on the page'), so it belongs in head."
       },
       {
         "id": "ts-15",
@@ -320,7 +320,7 @@
         "question": "What is the difference between these two pieces of code visually?<br><pre><code>&lt;ul&gt;&lt;li&gt;A&lt;/li&gt;&lt;li&gt;B&lt;/li&gt;&lt;/ul&gt;</code></pre>vs<pre><code>&lt;ul&gt;\n  &lt;li&gt;A&lt;/li&gt;\n  &lt;li&gt;B&lt;/li&gt;\n&lt;/ul&gt;</code></pre>",
         "hint": "Think about how the browser renders whitespace in HTML source.",
         "answer": "There is no visual difference. Both render as a bulleted list with two items. HTML ignores extra whitespace in the source code.",
-        "explanation": "HTML collapses whitespace when rendering — multiple spaces, tabs, and newlines in the source become a single space (or nothing) on the page. Indentation is only for readability, not for layout."
+        "explanation": "HTML collapses whitespace when rendering, multiple spaces, tabs, and newlines in the source become a single space (or nothing) on the page. Indentation is only for readability, not for layout."
       },
       {
         "id": "ts-24",
@@ -376,7 +376,7 @@
         "question": "Where does <meta charset=\"UTF-8\"> go?",
         "hint": "It is metadata.",
         "answer": "Inside the <code>&lt;head&gt;</code> section.",
-        "explanation": "All meta tags go inside the head. They are metadata — information about the page that is not visible on the page itself."
+        "explanation": "All meta tags go inside the head. They are metadata, information about the page that is not visible on the page itself."
       },
       {
         "id": "mx-5",
@@ -392,7 +392,7 @@
         "type": "find-the-bug",
         "difficulty": "Medium",
         "question": "Fix this wrong nesting:<br><pre><code>&lt;ul&gt;\n  &lt;p&gt;&lt;li&gt;Apple&lt;/li&gt;&lt;/p&gt;\n  &lt;p&gt;&lt;li&gt;Mango&lt;/li&gt;&lt;/p&gt;\n&lt;/ul&gt;</code></pre>",
-        "hint": "Paragraphs should not be inside a list — and list items should be direct children of the list.",
+        "hint": "Paragraphs should not be inside a list, and list items should be direct children of the list.",
         "answer": "<pre><code>&lt;ul&gt;\n  &lt;li&gt;Apple&lt;/li&gt;\n  &lt;li&gt;Mango&lt;/li&gt;\n&lt;/ul&gt;</code></pre>",
         "explanation": "List items (<code>&lt;li&gt;</code>) must be direct children of <code>&lt;ul&gt;</code> or <code>&lt;ol&gt;</code>. Wrapping them in paragraphs is invalid HTML."
       },
@@ -412,7 +412,7 @@
         "question": "Write an HTML boilerplate that includes a comment explaining what each meta tag does.",
         "hint": "Add a comment above each meta tag.",
         "answer": "<pre><code>&lt;!DOCTYPE html&gt;\n&lt;html lang=\"en\"&gt;\n&lt;head&gt;\n  &lt;!-- Character encoding for all languages --&gt;\n  &lt;meta charset=\"UTF-8\"&gt;\n  &lt;!-- Make the page mobile friendly --&gt;\n  &lt;meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\"&gt;\n  &lt;title&gt;Documented Page&lt;/title&gt;\n&lt;/head&gt;\n&lt;body&gt;\n&lt;/body&gt;\n&lt;/html&gt;</code></pre>",
-        "explanation": "Adding comments like this is useful when you are learning — it helps you remember what each tag does. You can remove them later for cleaner production code."
+        "explanation": "Adding comments like this is useful when you are learning. It helps you remember what each tag does. You can remove them later for cleaner production code."
       },
       {
         "id": "mx-9",
@@ -448,7 +448,7 @@
         "question": "Why is this HTML broken?<br><pre><code>&lt;!DOCTYPE html&gt;\n&lt;html lang=\"en\"&gt;\n&lt;head&gt;\n  &lt;meta charset=\"UTF-8\"&gt;\n  &lt;title&gt;&lt;h1&gt;Hi&lt;/h1&gt;&lt;/title&gt;\n&lt;/head&gt;\n&lt;body&gt;\n&lt;/body&gt;\n&lt;/html&gt;</code></pre>",
         "hint": "What kind of content belongs inside <title>?",
         "answer": "The <code>&lt;title&gt;</code> tag only accepts plain text, not other HTML tags. Remove the <code>&lt;h1&gt;</code> from inside the title. Correct version: <code>&lt;title&gt;Hi&lt;/title&gt;</code>.",
-        "explanation": "The title element is unusual — it only contains text, not other tags. Browsers do not render HTML tags inside title. Always use plain text in title."
+        "explanation": "The title element is unusual. It only contains text, not other tags. Browsers do not render HTML tags inside title. Always use plain text in title."
       },
       {
         "id": "mx-13",
@@ -503,7 +503,7 @@
           "D": "<main>"
         },
         "correct": "B",
-        "explanation": "<strong>B is correct.</strong> The <code>&lt;body&gt;</code> element contains everything the user sees — headings, paragraphs, images, and more."
+        "explanation": "<strong>B is correct.</strong> The <code>&lt;body&gt;</code> element contains everything the user sees, headings, paragraphs, images, and more."
       },
       {
         "id": "mcq-3",
@@ -601,7 +601,7 @@
         "difficulty": "Medium",
         "question": "What is wrong with <meta charset=\"UTF8\">?",
         "options": {
-          "A": "Nothing — it is correct",
+          "A": "Nothing. It is correct",
           "B": "UTF8 should be UTF-8 with a hyphen",
           "C": "Should be charset-type instead of charset",
           "D": "Quotes are not needed"
@@ -633,7 +633,7 @@
           "D": "It speeds up the page"
         },
         "correct": "C",
-        "explanation": "<strong>C is correct.</strong> Indentation is purely for readability. HTML ignores whitespace, so indentation has no effect on how the page looks — but it makes your code much easier to understand."
+        "explanation": "<strong>C is correct.</strong> Indentation is purely for readability. HTML ignores whitespace, so indentation has no effect on how the page looks, but it makes your code much easier to understand."
       },
       {
         "id": "mcq-13",
@@ -659,7 +659,7 @@
           "D": "To make the page faster"
         },
         "correct": "B",
-        "explanation": "<strong>B is correct.</strong> Comments are for developers, not users. Never store private information in comments — anyone can view the page source."
+        "explanation": "<strong>B is correct.</strong> Comments are for developers, not users. Never store private information in comments, anyone can view the page source."
       },
       {
         "id": "mcq-15",
@@ -724,7 +724,7 @@
           "D": "Only attribute names are case-sensitive"
         },
         "correct": "C",
-        "explanation": "<strong>C is correct.</strong> HTML tags are case-insensitive — <code>&lt;P&gt;</code> and <code>&lt;p&gt;</code> both work. However, lowercase is the standard modern practice."
+        "explanation": "<strong>C is correct.</strong> HTML tags are case-insensitive, <code>&lt;P&gt;</code> and <code>&lt;p&gt;</code> both work. However, lowercase is the standard modern practice."
       },
       {
         "id": "mcq-20",
@@ -750,14 +750,14 @@
         "expectedOutput": "A page with proper structure: DOCTYPE, html (with lang), head (with charset, viewport, title), and body (with h1).",
         "constraints": "Must include DOCTYPE, lang attribute, meta charset, meta viewport, title, and a single h1.",
         "solution": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n  <meta charset=\"UTF-8\">\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n  <title>My Clean Page</title>\n</head>\n<body>\n  <h1>Clean and proper</h1>\n</body>\n</html>",
-        "explanation": "This is the minimum valid HTML5 boilerplate. Memorise this structure — you will use it on every single HTML file you ever write.",
+        "explanation": "This is the minimum valid HTML5 boilerplate. Memorise this structure. You will use it on every single HTML file you ever write.",
         "alternativeSolution": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n  <meta charset=\"UTF-8\">\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n  <title>My Clean Page</title>\n</head>\n<body>\n  <h1>Clean and proper</h1>\n</body>\n</html>"
       },
       {
         "id": "cc-2",
         "title": "Commented Sections",
         "difficulty": "Easy",
-        "question": "Build an HTML page with three sections in the body — Introduction, Hobbies, Contact — each labelled with an HTML comment above the section's h2 heading.",
+        "question": "Build an HTML page with three sections in the body, Introduction, Hobbies, Contact, each labelled with an HTML comment above the section's h2 heading.",
         "expectedInput": "(No input required)",
         "expectedOutput": "A page with three h2 sections, each preceded by a comment like <!-- Introduction -->.",
         "constraints": "Include DOCTYPE, proper head, and three h2 sections with comments.",
@@ -798,7 +798,7 @@
         "expectedOutput": "A fully corrected HTML boilerplate with all five issues fixed.",
         "constraints": "Fix DOCTYPE, lang, charset, title closing, and content placement. Also add viewport meta.",
         "solution": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n  <meta charset=\"UTF-8\">\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n  <title>Test</title>\n</head>\n<body>\n  <h1>Hello</h1>\n</body>\n</html>",
-        "explanation": "Fixes: (1) DOCTYPE needs the exclamation mark, (2) lang attribute needs quotes, (3) charset should be UTF-8 with hyphen and in quotes, (4) title was missing its closing tag, (5) h1 was inside head — moved to body. Also added the missing viewport meta tag and closing </html>.",
+        "explanation": "Fixes: (1) DOCTYPE needs the exclamation mark, (2) lang attribute needs quotes, (3) charset should be UTF-8 with hyphen and in quotes, (4) title was missing its closing tag, (5) h1 was inside head, moved to body. Also added the missing viewport meta tag and closing </html>.",
         "alternativeSolution": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n  <meta charset=\"UTF-8\">\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n  <title>Test</title>\n</head>\n<body>\n  <h1>Hello</h1>\n</body>\n</html>"
       },
       {
@@ -810,7 +810,7 @@
         "expectedOutput": "A menu page with a nested bulleted list showing categories and items.",
         "constraints": "Proper nesting and indentation required. Include full boilerplate.",
         "solution": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n  <meta charset=\"UTF-8\">\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n  <title>Menu</title>\n</head>\n<body>\n  <h1>Our Menu</h1>\n  <ul>\n    <li>\n      Snacks\n      <ul>\n        <li>Samosa</li>\n        <li>Vada Pav</li>\n      </ul>\n    </li>\n    <li>\n      Drinks\n      <ul>\n        <li>Masala Chai</li>\n        <li>Mango Lassi</li>\n      </ul>\n    </li>\n  </ul>\n</body>\n</html>",
-        "explanation": "Nested lists use a <code>&lt;ul&gt;</code> inside an <code>&lt;li&gt;</code>. The browser automatically indents the sub-list. Notice how each nesting level is indented by 2 spaces — this makes the code much easier to read.",
+        "explanation": "Nested lists use a <code>&lt;ul&gt;</code> inside an <code>&lt;li&gt;</code>. The browser automatically indents the sub-list. Notice how each nesting level is indented by 2 spaces. This makes the code much easier to read.",
         "alternativeSolution": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n  <meta charset=\"UTF-8\">\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n  <title>Menu</title>\n</head>\n<body>\n  <h1>Menu</h1>\n  <ul>\n    <li>Snacks</li>\n    <ul>\n      <li>Samosa</li>\n      <li>Vada Pav</li>\n    </ul>\n    <li>Drinks</li>\n    <ul>\n      <li>Chai</li>\n      <li>Lassi</li>\n    </ul>\n  </ul>\n</body>\n</html>"
       },
       {

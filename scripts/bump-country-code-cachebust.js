@@ -19,7 +19,7 @@ const SEARCH_DIRS = [
   path.join(FRONTEND_ROOT, 'content'),
 ];
 
-// Matches: src="/js/country-code-selector.js" — with or without an existing ?v=...
+// Matches: src="/js/country-code-selector.js", with or without an existing ?v=...
 const PATTERN = /src=("|')\/js\/country-code-selector\.js(?:\?v=[^"']*)?\1/g;
 const REPLACEMENT = `src="/js/country-code-selector.js?v=${VERSION}"`;
 

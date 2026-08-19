@@ -33,7 +33,7 @@ Transitions need THREE things:
 }
 ```
 
-That is it. Four lines of CSS give you a beautifully smooth color change on hover — no JavaScript required.
+That is it. Four lines of CSS give you a beautifully smooth color change on hover, no JavaScript required.
 
 ## Why Learn Transitions and Hover Effects?
 
@@ -47,7 +47,7 @@ Transitions are pure CSS. The browser handles everything: smoothness, timing, pe
 
 ### 3. They Make Changes Feel Natural
 
-Instant changes are jarring. When a button suddenly becomes pink, our brain registers 'something glitched'. When it smoothly transitions, our brain registers 'I did that — it responded to me'. Transitions create trust between the user and the interface.
+Instant changes are jarring. When a button suddenly becomes pink, our brain registers 'something glitched'. When it smoothly transitions, our brain registers 'I did that. It responded to me'. Transitions create trust between the user and the interface.
 
 ### 4. Essential for Job Portfolios
 
@@ -135,7 +135,7 @@ Notice we transition both background and transform, but they can have different 
 
 ### 5. Creative Hover Effects
 
-**Lift on hover** — classic card effect:
+**Lift on hover**, classic card effect:
 
 ```
 .card {
@@ -195,7 +195,7 @@ Always add `cursor: pointer` to interactive elements that are not native buttons
 
 Not all CSS properties can be animated. A few important ones that CANNOT:
 
-- `display` (block, none, flex, etc.) — discrete values
+- `display` (block, none, flex, etc.), discrete values
 - `height: auto` (you need a fixed height or use max-height)
 - `font-family`
 - `content` (inside pseudo-elements)
@@ -212,7 +212,7 @@ For complex animations, tell the browser what will animate so it can optimize:
 }
 ```
 
-Use sparingly — overuse hurts performance. Only add will-change to elements with heavy animations.
+Use sparingly, overuse hurts performance. Only add will-change to elements with heavy animations.
 
 ## Code Examples
 
@@ -593,7 +593,7 @@ Five dark icon squares in a row. Hovering each lifts it, rotates slightly, and r
 </html>
 ```
 
-This is how to animate a show/hide effect correctly. Since `display: none` CANNOT be transitioned, we use `opacity` and `visibility` together. The modal also scales up with a springy cubic-bezier. JavaScript only toggles a class — all the animation is pure CSS.
+This is how to animate a show/hide effect correctly. Since `display: none` CANNOT be transitioned, we use `opacity` and `visibility` together. The modal also scales up with a springy cubic-bezier. JavaScript only toggles a class, all the animation is pure CSS.
 
 **Output:**
 
@@ -675,7 +675,7 @@ A dark menu where hovering an item slides a gradient bar down from the top and s
 .modal.open {
   display: block;
 }
-/* The transition does nothing — element appears instantly */
+/* The transition does nothing, element appears instantly */
 ```
 
 display cannot be animated with CSS transitions. It is a discrete property with no intermediate values. The element appears and disappears instantly.
@@ -709,7 +709,7 @@ Use `opacity` for the fade effect and `visibility` to remove the element from ac
 /* Transition only works when hovering IN, not OUT */
 ```
 
-The transition is defined on :hover. It applies when hovering in (going from default to hover), but not when hovering out (going back to default) — so the hover-in is smooth but the hover-out is instant.
+The transition is defined on :hover. It applies when hovering in (going from default to hover), but not when hovering out (going back to default), so the hover-in is smooth but the hover-out is instant.
 
 **Correct:**
 
@@ -723,7 +723,7 @@ The transition is defined on :hover. It applies when hovering in (going from def
 }
 ```
 
-Always put the `transition` property on the base (default) state, not inside :hover. That way it applies in both directions — hovering in AND hovering out.
+Always put the `transition` property on the base (default) state, not inside :hover. That way it applies in both directions, hovering in AND hovering out.
 
 ### Transitioning height: auto
 
@@ -737,7 +737,7 @@ Always put the `transition` property on the base (default) state, not inside :ho
 .panel.open {
   height: auto;
 }
-/* The transition fails — auto cannot be animated */
+/* The transition fails, auto cannot be animated */
 ```
 
 The browser cannot animate to `auto` because it does not know the target pixel value in advance. The panel just snaps open.
@@ -765,7 +765,7 @@ Use `max-height` with a value larger than the actual content. Since max-height c
 .card {
   transition: all 0.3s;
 }
-/* Every property animates — including unintended ones */
+/* Every property animates, including unintended ones */
 ```
 
 Using `all` can create surprising animations when other properties change (for example, adding a class also animates its margin or padding). It is also slightly less performant.
@@ -787,7 +787,7 @@ Be explicit about which properties transition. It is both more performant and mo
 - The shorthand `transition: property duration timing-function delay` combines all four properties into one declaration.
 - Common timing functions: `ease` (default), `linear`, `ease-in`, `ease-out`, `ease-in-out`, and custom `cubic-bezier()`. Use `ease-out` for elements entering and `ease-in-out` for toggles.
 - You can transition multiple properties by listing them separated by commas: `transition: background 0.3s, transform 0.5s, box-shadow 0.4s`.
-- The `:hover` pseudo-class combined with transitions creates smooth hover effects for buttons, cards, images, and links — with zero JavaScript.
+- The `:hover` pseudo-class combined with transitions creates smooth hover effects for buttons, cards, images, and links, with zero JavaScript.
 - Always add `cursor: pointer` to clickable custom elements (cards, divs with onclick) so users know they can click them.
 - Properties that CANNOT be transitioned: `display`, `height: auto`, `font-family`, `content`. For fade effects use `opacity` and `visibility` together.
 - For expanding panels, use `max-height` (not `height: auto`) with a value larger than the expected content.

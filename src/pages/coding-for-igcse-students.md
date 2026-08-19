@@ -1,16 +1,16 @@
 ---
-title: "Coding for IGCSE Students — Cambridge CS 0478, 0984, ICT & Python | Modern Age Coders"
-description: "Cambridge IGCSE coding classes. CS 0478 / 0984, ICT 0417, Python programming, pseudocode, flowcharts — aligned to the IGCSE syllabus. 1 hour live classes."
+title: "Coding for IGCSE Students: Cambridge CS 0478, 0984, ICT & Python | Modern Age Coders"
+description: "Cambridge IGCSE coding classes. CS 0478 / 0984, ICT 0417, Python programming, pseudocode, flowcharts, aligned to the IGCSE syllabus. 1 hour live classes."
 canonical: https://learn.modernagecoders.com/coding-for-igcse-students
 source: src/pages/coding-for-igcse-students.html
 ---
-> Cambridge IGCSE coding classes. CS 0478 / 0984, ICT 0417, Python programming, pseudocode, flowcharts — aligned to the IGCSE syllabus. 1 hour live classes.
+> Cambridge IGCSE coding classes. CS 0478 / 0984, ICT 0417, Python programming, pseudocode, flowcharts, aligned to the IGCSE syllabus. 1 hour live classes.
 
 For IGCSE parents · Cambridge syllabus
 
-# Coding for IGCSE Students — Cambridge CS, done properly.
+# Coding for IGCSE Students: Cambridge CS, done properly.
 
-Cambridge IGCSE CS 0478 / 0984 is strict about theory and pseudocode. Our 1 hour live classes follow the Cambridge syllabus line by line — Paper 1 theory, Paper 2 practical problem-solving, plus real Python projects so it all sticks.
+Cambridge IGCSE CS 0478 / 0984 is strict about theory and pseudocode. Our 1 hour live classes follow the Cambridge syllabus line by line: Paper 1 theory, Paper 2 practical problem-solving, plus real Python projects so it all sticks.
 
 [Book a free demo class](/book-demo)See the curriculum**1,900+**IGCSE students with us**4.9 / 5**Parent rating · 210+ reviews**1 hour**Live class, 1:1 or group**Cambridge**Full syllabus alignmentIGCSECambridgeCS 0478/0984PseudocodePaper 2 readyCourses matched for this level
 
@@ -18,7 +18,7 @@ Cambridge IGCSE CS 0478 / 0984 is strict about theory and pseudocode. Our 1 hour
 
 These are the courses our IGCSE students take. Python is the practical language; pseudocode and theory are taught in parallel to the Cambridge pattern.
 
-[Python ![Python masterclass for teens](/images/python-teens.webp)   Python Masterclass Zero to confident — functions, OOP, files, real mini-apps. PythonOOP View course →](/courses/python-complete-masterclass-teens)[Full Stack ![Full stack for teens](/images/web-dev-teens.webp)   Full Stack Web Dev HTML, CSS, JS, Node — ship a real deployed web app. WebNode View course →](/courses/full-stack-web-development-teens-masterclass)[AI/ML ![AI ML for teens](/images/ai-ml-teens.webp)   AI & ML Masterclass Pandas, sklearn, neural nets — real AI projects, real data. AI View course →](/courses/ai-ml-masterclass-teens)[DSA ![DSA for teens](/images/problem-solving-teens.webp)   DSA & Problem Solving Arrays, strings, trees, DP — the CS interview foundation. DSA View course →](/courses/problem-solving-dsa-masterclass-teens)[App Dev ![App development for teens](/images/app-dev-teens.webp)   App Development Flutter + Firebase — build and publish real mobile apps. Flutter View course →](/courses/complete-app-development-masterclass-for-teens)[React ![React for teens](/images/react-teens.webp)   React.js Masterclass Component-based web apps with the modern product stack. React View course →](/courses/react-for-teens-complete-masterclass)[Web ![HTML CSS for kids](/images/html-css-kids.webp)   Build Your First Website HTML + CSS basics — hosted personal page. HTML View course →](/courses/kids-ai-web-development-course)[AI ![AI tools for teens](/images/ai-tools-kids.webp)   AI Tools for Teens (13+) Teachable Machine + simple classifiers — hands-on AI. AI View course →](/courses/teens-ai-tools-mastery-course)
+[Python ![Python masterclass for teens](/images/python-teens.webp)   Python Masterclass Zero to confident, functions, OOP, files, real mini-apps. PythonOOP View course →](/courses/python-complete-masterclass-teens)[Full Stack ![Full stack for teens](/images/web-dev-teens.webp)   Full Stack Web Dev HTML, CSS, JS, Node, ship a real deployed web app. WebNode View course →](/courses/full-stack-web-development-teens-masterclass)[AI/ML ![AI ML for teens](/images/ai-ml-teens.webp)   AI & ML Masterclass Pandas, sklearn, neural nets, real AI projects, real data. AI View course →](/courses/ai-ml-masterclass-teens)[DSA ![DSA for teens](/images/problem-solving-teens.webp)   DSA & Problem Solving Arrays, strings, trees, DP, the CS interview foundation. DSA View course →](/courses/problem-solving-dsa-masterclass-teens)[App Dev ![App development for teens](/images/app-dev-teens.webp)   App Development Flutter + Firebase, build and publish real mobile apps. Flutter View course →](/courses/complete-app-development-masterclass-for-teens)[React ![React for teens](/images/react-teens.webp)   React.js Masterclass Component-based web apps with the modern product stack. React View course →](/courses/react-for-teens-complete-masterclass)[Web ![HTML CSS for kids](/images/html-css-kids.webp)   Build Your First Website HTML + CSS basics, hosted personal page. HTML View course →](/courses/kids-ai-web-development-course)[AI ![AI tools for teens](/images/ai-tools-kids.webp)   AI Tools for Teens (13+) Teachable Machine + simple classifiers, hands-on AI. AI View course →](/courses/teens-ai-tools-mastery-course)
 
 ### Already strong on Python basics?
 
@@ -30,7 +30,7 @@ Looking for more? Browse the full [courses catalogue →](/courses)
 
 Why this level, specifically
 
-## IGCSE is Cambridge — not Indian — pattern.
+## IGCSE is Cambridge: not Indian: pattern.
 
 Cambridge tests structured understanding: pseudocode, flowcharts, trace tables, ethical implications. A student who can only code in Python but cannot pseudocode loses serious marks. We cover both.
 
@@ -38,7 +38,7 @@ Cambridge tests structured understanding: pseudocode, flowcharts, trace tables, 
 
 ### Theory is real marks
 
-Paper 1 is 50% of the grade and is pure theory — data representation, networks, security. We do not skip it. Most coaching classes do.
+Paper 1 is 50% of the grade and is pure theory, data representation, networks, security. We do not skip it. Most coaching classes do.
 
 02 / Paper 2
 
@@ -50,7 +50,7 @@ Paper 2 Section B requires pseudocode/flowchart. A student who writes Python flu
 
 ### Cambridge cares about impact
 
-IGCSE CS has structured questions about ethical, environmental and legal issues around computing. We teach these properly — not as afterthought.
+IGCSE CS has structured questions about ethical, environmental and legal issues around computing. We teach these properly, not as afterthought.
 
 Projects, not lectures
 
@@ -62,7 +62,7 @@ Paper 2
 
 ### Pseudocode Library
 
-All 20 standard pseudocode patterns — linear search, bubble sort, count, validate. Memorised through practice.
+All 20 standard pseudocode patterns, linear search, bubble sort, count, validate. Memorised through practice.
 
 pseudocodePaper 2
 
@@ -74,7 +74,7 @@ tracePython
 
 ### Input Validation App
 
-A Python app that validates user input — the exact pattern Cambridge asks.
+A Python app that validates user input, the exact pattern Cambridge asks.
 
 validationData
 
@@ -92,7 +92,7 @@ pre-releaseBeyond
 
 ### Real Deployed Web App
 
-One portfolio piece beyond syllabus — deployed Python Flask or full-stack site.
+One portfolio piece beyond syllabus, deployed Python Flask or full-stack site.
 
 portfolioThe curriculum path
 
@@ -104,7 +104,7 @@ Year 10 · Foundations
 
 ### Python basics + Paper 1 start
 
-Data types, conditions, loops, functions in Python. Paper 1 topics begun — data representation, basic networks.
+Data types, conditions, loops, functions in Python. Paper 1 topics begun, data representation, basic networks.
 
 - python
 - paper 1
@@ -122,7 +122,7 @@ Year 11 · Paper 1 complete
 
 ### Theory finished
 
-Remaining Paper 1 topics — security, ethics, impact. Practice papers graded weekly.
+Remaining Paper 1 topics, security, ethics, impact. Practice papers graded weekly.
 
 - theory
 - ethics
@@ -146,12 +146,12 @@ Option A
 
 ### Live 1-on-1 Online Class
 
-One teacher, one learner, the full 1 hour. The teacher adapts pace in real time — slowing down on tricky concepts, speeding up where your child is already fluent. Best for focused learners, specific exam prep, or fastest progress.
+One teacher, one learner, the full 1 hour. The teacher adapts pace in real time, slowing down on tricky concepts, speeding up where your child is already fluent. Best for focused learners, specific exam prep, or fastest progress.
 
 - 1 teacher, 1 student, 1 hour per session
 - Pace fully adjusted to your child
 - Focused help on school projects and exams
-- Flexible timing — you pick the slots
+- Flexible timing. You pick the slots
 - Every class recorded and shared with parents
 
 **₹4,999**/ month · 4 sessionsOption B
@@ -162,13 +162,13 @@ One teacher, one learner, the full 1 hour. The teacher adapts pace in real time 
 
 - Small groups of 4 to 6 similar-level learners
 - 1 hour live session, 2 sessions per week
-- Peer project reviews — students present to each other
+- Peer project reviews, students present to each other
 - Fixed schedule, same classmates each week
 - Class recording and parent progress report
 
 **₹1,499**/ month · 8 sessionsLevel comparison
 
-## IGCSE vs CBSE vs ICSE — coding side.
+## IGCSE vs CBSE vs ICSE: coding side.
 
 What each board really expects.
 
@@ -199,11 +199,11 @@ I am truly grateful for my experience at Modern Age Coders. My teachers were not
 
 KKrishnam BhatterFormer studentCommon questions from parents
 
-## Before you book the demo — answered honestly.
+## Before you book the demo: answered honestly.
 
 Short, plain answers. If your question isn't here, tap the callback button at the top and a human will get back to you the same day.
 
-Do you cover both CS 0478 and 0984?Yes. 0478 is the older syllabus still used in many schools; 0984 is the newer variant. Both covered — teacher checks which the school follows.What about IGCSE ICT 0417?Yes. ICT 0417 includes practical skills (spreadsheets, databases, word processing) plus theory. Covered fully.Is IGCSE CS harder than CBSE CS?Different — not harder overall. IGCSE has more theory breadth and strict pseudocode; CBSE has more programming depth. We cover both when students move between systems.Do you help with pre-release material?Yes. Cambridge publishes pre-release material before the exam. We use it for dedicated sessions once available.Can a CBSE/ICSE student prepare for IGCSE through you?Yes, especially for transfers. We have IGCSE-only teachers for exactly these students.Do you teach pseudocode formally?Yes — separately from Python. Pseudocode is its own module because Cambridge tests it explicitly.Past papers practice?Yes. Full mark scheme walkthroughs for both Paper 1 and Paper 2, with examiner report commentary where relevant.Free demo for IGCSE?Yes. One full 1 hour live class with an IGCSE-aware teacher. Refund in 2 weeks if fit is off.Book a free 1 hour demo class
+Do you cover both CS 0478 and 0984?Yes. 0478 is the older syllabus still used in many schools; 0984 is the newer variant. Both covered, teacher checks which the school follows.What about IGCSE ICT 0417?Yes. ICT 0417 includes practical skills (spreadsheets, databases, word processing) plus theory. Covered fully.Is IGCSE CS harder than CBSE CS?Different, not harder overall. IGCSE has more theory breadth and strict pseudocode; CBSE has more programming depth. We cover both when students move between systems.Do you help with pre-release material?Yes. Cambridge publishes pre-release material before the exam. We use it for dedicated sessions once available.Can a CBSE/ICSE student prepare for IGCSE through you?Yes, especially for transfers. We have IGCSE-only teachers for exactly these students.Do you teach pseudocode formally?Yes, separately from Python. Pseudocode is its own module because Cambridge tests it explicitly.Past papers practice?Yes. Full mark scheme walkthroughs for both Paper 1 and Paper 2, with examiner report commentary where relevant.Free demo for IGCSE?Yes. One full 1 hour live class with an IGCSE-aware teacher. Refund in 2 weeks if fit is off.Book a free 1 hour demo class
 
 ### Try one session. Decide after.
 

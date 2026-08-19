@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 /**
  * generate-sitemap-html.js
- * Builds /sitemap.html — the permanent, human-readable "Site Ledger" view of
+ * Builds /sitemap.html, the permanent, human-readable "Site Ledger" view of
  * sitemap.xml. Runs in generate:all so it always matches the XML. Unlike the
  * XSLT view on sitemap.xml itself, this is plain HTML and never depends on
  * browser XSLT support (which browsers are removing in late 2026).
@@ -12,7 +12,7 @@ const path = require('path');
 const ROOT = path.join(__dirname, '..');
 const XML = path.join(ROOT, 'sitemap.xml');
 // Resources live in their own sitemap (rewritten to /sitemap-resources.xml). Crawlers read
-// both via robots.txt, so the human view must too — otherwise the 358 resource pages are
+// both via robots.txt, so the human view must too, otherwise the 358 resource pages are
 // invisible to anyone browsing /sitemap.
 const RESOURCES_XML = path.join(ROOT, 'content', 'resources', 'generated', 'sitemap-entries.xml');
 const CSS = path.join(ROOT, 'src', 'css', 'site-ledger.css');
@@ -84,7 +84,7 @@ SECTIONS.forEach((s) =>
 // integrity: partition must cover every url exactly once
 const grouped = SECTIONS.reduce((n, s) => n + groups[s.id].length, 0);
 if (grouped !== urls.length) {
-  console.error(`FATAL: partition mismatch — ${grouped} grouped vs ${urls.length} urls`);
+  console.error(`FATAL: partition mismatch, ${grouped} grouped vs ${urls.length} urls`);
   process.exit(1);
 }
 
@@ -101,8 +101,8 @@ function row(u, i) {
   const img = u.images
     ? ` <span class="imgchip">img${u.images > 1 ? ' ' + u.images : ''}</span>`
     : '';
-  const upd = u.lastmod ? `<span class="upd">${esc(u.lastmod)}</span>` : '<span class="dash">&mdash;</span>';
-  const freq = u.changefreq ? `<span class="freq">${esc(u.changefreq)}</span>` : '<span class="dash">&mdash;</span>';
+  const upd = u.lastmod ? `<span class="upd">${esc(u.lastmod)}</span>` : '<span class="dash">, </span>';
+  const freq = u.changefreq ? `<span class="freq">${esc(u.changefreq)}</span>` : '<span class="dash">, </span>';
   return `<tr data-path="${esc(path.toLowerCase())}">
   <td class="col-no">${i + 1}</td>
   <td class="page"><a href="${esc(u.loc)}">${esc(path)}</a>${img}</td>
@@ -142,8 +142,8 @@ const html = `<!doctype html>
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Site Map — All ${urls.length} Pages | Modern Age Coders</title>
-<meta name="description" content="Browse every page on Modern Age Coders in one place — courses, city coding classes, maths tutoring, blog posts and more.">
+<title>Site Map: All ${urls.length} Pages | Modern Age Coders</title>
+<meta name="description" content="Browse every page on Modern Age Coders in one place, courses, city coding classes, maths tutoring, blog posts and more.">
 <meta name="robots" content="noindex, follow">
 <link rel="canonical" href="${SITE}/sitemap">
 <link rel="preconnect" href="https://fonts.googleapis.com">

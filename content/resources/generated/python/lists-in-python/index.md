@@ -15,7 +15,7 @@ keywords: ["python list", "list methods python", "list comprehension python", "p
 
 ## What Are Lists in Python?
 
-A **list** is an ordered, mutable collection of items. Unlike strings (which hold only characters), lists can hold items of any data type — integers, floats, strings, booleans, and even other lists. Lists are defined using square brackets `[]` with items separated by commas.
+A **list** is an ordered, mutable collection of items. Unlike strings (which hold only characters), lists can hold items of any data type, integers, floats, strings, booleans, and even other lists. Lists are defined using square brackets `[]` with items separated by commas.
 
 Lists are one of the four built-in collection data types in Python (along with tuples, sets, and dictionaries). They are by far the most commonly used because of their flexibility: you can add, remove, modify, and rearrange items freely.
 
@@ -40,7 +40,7 @@ Lists are the workhorse data structure of Python. Here is why mastering lists is
 
 ### 1. Storing Collections of Related Data
 
-Whenever you have multiple items that belong together — student marks, product prices, employee names — you store them in a list. Without lists, you would need a separate variable for each item, which is impractical when dealing with hundreds or thousands of values.
+Whenever you have multiple items that belong together, student marks, product prices, employee names, you store them in a list. Without lists, you would need a separate variable for each item, which is impractical when dealing with hundreds or thousands of values.
 
 ### 2. Dynamic Size
 
@@ -48,7 +48,7 @@ Unlike arrays in many other languages, Python lists grow and shrink automaticall
 
 ### 3. Mutability Enables In-Place Modification
 
-Lists are **mutable**, meaning you can change their contents without creating a new list. You can update a specific element, sort the list, or reverse it — all in place. This is a key difference from strings and tuples, which are immutable.
+Lists are **mutable**, meaning you can change their contents without creating a new list. You can update a specific element, sort the list, or reverse it, all in place. This is a key difference from strings and tuples, which are immutable.
 
 ### 4. Foundation for Advanced Data Structures
 

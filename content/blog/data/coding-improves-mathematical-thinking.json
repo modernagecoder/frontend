@@ -61,7 +61,7 @@
       },
       {
         "type": "paragraph",
-        "text": "The connection between coding and mathematical thinking runs deep. When children learn to code, they're not just learning to make computers do things—they're developing the exact mental muscles that make math click. Let's explore how this works and why it matters for your child."
+        "text": "The connection between coding and mathematical thinking runs deep. When children learn to code, they're not just learning to make computers do things. They're developing the exact mental muscles that make math click. Let's explore how this works and why it matters for your child."
       },
       {
         "type": "heading",
@@ -83,7 +83,7 @@
         "style": "unordered",
         "items": [
           "<strong>MIT Study (2022):</strong> Students who used Scratch for one year showed 23% improvement in mathematical problem-solving compared to control groups",
-          "<strong>Stanford Research (2023):</strong> Children who learned coding demonstrated significantly stronger pattern recognition—a core mathematical skill—within 6 months",
+          "<strong>Stanford Research (2023):</strong> Children who learned coding demonstrated significantly stronger pattern recognition, a core mathematical skill, within 6 months",
           "<strong>University of Chicago (2021):</strong> Coding education improved students' ability to work with variables and abstract symbols by 31%",
           "<strong>European Commission Report (2023):</strong> Countries with mandatory coding education show 12-18% higher PISA math scores",
           "<strong>Journal of Educational Psychology (2023):</strong> Meta-analysis of 46 studies confirmed coding improves math performance by 15-20% on average"
@@ -93,7 +93,7 @@
         "type": "callout",
         "calloutType": "success",
         "title": "The Bottom Line",
-        "text": "The research is clear: coding doesn't just correlate with better math skills—it actively develops them. The skills transfer because coding and mathematics share fundamental thinking patterns."
+        "text": "The research is clear: coding doesn't just correlate with better math skills. It actively develops them. The skills transfer because coding and mathematics share fundamental thinking patterns."
       },
       {
         "type": "heading",
@@ -107,7 +107,7 @@
       },
       {
         "type": "paragraph",
-        "text": "Every program a child writes involves mathematical concepts—they just don't look like traditional math problems:"
+        "text": "Every program a child writes involves mathematical concepts. They just don't look like traditional math problems:"
       },
       {
         "type": "table",
@@ -260,7 +260,7 @@
       },
       {
         "type": "paragraph",
-        "text": "<strong>Research Finding:</strong> A 2023 study found that students who coded regularly made 28% fewer careless errors in math tests compared to non-coding peers. The debugging mindset—carefully checking each step—transfers directly to checking math work."
+        "text": "<strong>Research Finding:</strong> A 2023 study found that students who coded regularly made 28% fewer careless errors in math tests compared to non-coding peers. The debugging mindset, carefully checking each step, transfers directly to checking math work."
       },
       {
         "type": "heading",
@@ -269,7 +269,7 @@
       },
       {
         "type": "paragraph",
-        "text": "Many coding projects involve positioning objects on screen, which directly develops spatial reasoning—a critical skill for geometry and higher mathematics."
+        "text": "Many coding projects involve positioning objects on screen, which directly develops spatial reasoning, a critical skill for geometry and higher mathematics."
       },
       {
         "type": "paragraph",
@@ -287,7 +287,7 @@
       },
       {
         "type": "paragraph",
-        "text": "Even simple coding projects involve working with data—tracking scores, counting items, calculating averages. This builds intuition for statistics and data analysis."
+        "text": "Even simple coding projects involve working with data, tracking scores, counting items, calculating averages. This builds intuition for statistics and data analysis."
       },
       {
         "type": "paragraph",
@@ -400,7 +400,7 @@
         "type": "callout",
         "calloutType": "success",
         "title": "The Discovery Moment",
-        "text": "When kids realize that to draw any regular polygon they just need to turn (360 ÷ number of sides) degrees, they've discovered a mathematical principle through experimentation—not memorization. This understanding sticks!"
+        "text": "When kids realize that to draw any regular polygon they just need to turn (360 ÷ number of sides) degrees, they've discovered a mathematical principle through experimentation, not memorization. This understanding sticks!"
       },
       {
         "type": "heading",
@@ -449,7 +449,7 @@
       },
       {
         "type": "paragraph",
-        "text": "Kids think they're making games, animations, or apps. The mathematical thinking happens without the label—and without the associated anxiety. By the time they realize they've been doing math all along, they've already proven to themselves they can do it."
+        "text": "Kids think they're making games, animations, or apps. The mathematical thinking happens without the label, and without the associated anxiety. By the time they realize they've been doing math all along, they've already proven to themselves they can do it."
       },
       {
         "type": "callout",
@@ -468,7 +468,7 @@
       },
       {
         "type": "paragraph",
-        "text": "This normalizes mistakes and removes the fear of being wrong. Kids become more willing to try, experiment, and learn from errors—exactly the mindset needed for mathematical growth."
+        "text": "This normalizes mistakes and removes the fear of being wrong. Kids become more willing to try, experiment, and learn from errors, exactly the mindset needed for mathematical growth."
       },
       {
         "type": "heading",
@@ -496,7 +496,7 @@
         "type": "callout",
         "calloutType": "success",
         "title": "Parent Testimonial",
-        "text": "\"My daughter used to cry over math homework. After six months of coding classes, she started seeing patterns in her math problems and actually enjoys solving them now. She told me, 'Mom, math is just like debugging—you find what's wrong and fix it!' The change has been remarkable.\" — Priya, parent of 10-year-old"
+        "text": "\"My daughter used to cry over math homework. After six months of coding classes, she started seeing patterns in her math problems and actually enjoys solving them now. She told me, 'Mom, math is just like debugging, you find what's wrong and fix it!' The change has been remarkable.\", Priya, parent of 10-year-old"
       },
       {
         "type": "heading",
@@ -602,7 +602,7 @@
       },
       {
         "type": "paragraph",
-        "text": "When your child is coding, occasionally point out the math: 'Hey, you just used coordinates—that's the same thing you'll learn in geometry!' or 'That loop you made? That's multiplication!' This helps them see how their coding skills connect to school math."
+        "text": "When your child is coding, occasionally point out the math: 'Hey, you just used coordinates. That's the same thing you'll learn in geometry!' or 'That loop you made? That's multiplication!' This helps them see how their coding skills connect to school math."
       },
       {
         "type": "callout",
@@ -641,7 +641,7 @@
         "type": "callout",
         "calloutType": "tip",
         "title": "Pro Tip",
-        "text": "Ask your child to explain their code to you. Teaching others reinforces understanding and helps them articulate the logical and mathematical thinking behind their programs. You don't need to understand the code—just ask questions!"
+        "text": "Ask your child to explain their code to you. Teaching others reinforces understanding and helps them articulate the logical and mathematical thinking behind their programs. You don't need to understand the code, just ask questions!"
       },
       {
         "type": "heading",
@@ -706,7 +706,7 @@
       },
       {
         "type": "paragraph",
-        "text": "The key is consistency and enjoyment. When coding is fun, kids stick with it—and the mathematical benefits accumulate over time."
+        "text": "The key is consistency and enjoyment. When coding is fun, kids stick with it, and the mathematical benefits accumulate over time."
       },
       {
         "type": "button",
@@ -733,11 +733,11 @@
           },
           {
             "title": "At what age should my child start coding to benefit their math skills?",
-            "content": "Children can start with visual coding tools as young as 5-6 years old. The earlier they start, the more time they have to develop computational thinking before encountering challenging math concepts in school. However, it's never too late—teens also see significant benefits."
+            "content": "Children can start with visual coding tools as young as 5-6 years old. The earlier they start, the more time they have to develop computational thinking before encountering challenging math concepts in school. However, it's never too late, teens also see significant benefits."
           },
           {
             "title": "Will coding replace the need for traditional math education?",
-            "content": "No, coding complements math education—it doesn't replace it. Children still need formal math instruction for concepts like fractions, algebra, and geometry. But coding provides a practical, engaging way to reinforce and apply these concepts, making them stick better."
+            "content": "No, coding complements math education. It doesn't replace it. Children still need formal math instruction for concepts like fractions, algebra, and geometry. But coding provides a practical, engaging way to reinforce and apply these concepts, making them stick better."
           },
           {
             "title": "How much time should my child spend coding to see math benefits?",
@@ -761,7 +761,7 @@
           },
           {
             "title": "What if my child is already good at math? Will coding still help?",
-            "content": "Yes! For math-strong kids, coding provides a way to apply their skills creatively and see math in action. It also develops computational thinking—a distinct skill that complements mathematical ability. Many mathematically gifted children find coding deeply satisfying because it lets them build things with their skills."
+            "content": "Yes! For math-strong kids, coding provides a way to apply their skills creatively and see math in action. It also develops computational thinking, a distinct skill that complements mathematical ability. Many mathematically gifted children find coding deeply satisfying because it lets them build things with their skills."
           },
           {
             "title": "Should I hire a tutor or use online resources?",
@@ -769,7 +769,7 @@
           },
           {
             "title": "How long until I see improvements in my child's math performance?",
-            "content": "Most parents and teachers report noticeable changes within 3-6 months of regular coding practice. Problem-solving approaches often improve first, followed by reduced math anxiety, then improved test performance. The benefits compound over time—a year of coding can make a significant difference."
+            "content": "Most parents and teachers report noticeable changes within 3-6 months of regular coding practice. Problem-solving approaches often improve first, followed by reduced math anxiety, then improved test performance. The benefits compound over time, a year of coding can make a significant difference."
           },
           {
             "title": "Is there research proving coding improves math, or is this just theory?",
@@ -785,11 +785,11 @@
       },
       {
         "type": "paragraph",
-        "text": "The connection between coding and mathematical thinking is powerful and well-documented. When children learn to code, they're not just preparing for tech careers—they're building the mental muscles that make mathematics click."
+        "text": "The connection between coding and mathematical thinking is powerful and well-documented. When children learn to code, they're not just preparing for tech careers. They're building the mental muscles that make mathematics click."
       },
       {
         "type": "paragraph",
-        "text": "Problem decomposition, pattern recognition, logical reasoning, abstract thinking, precision, spatial reasoning, and data thinking—these skills transfer directly from coding to math class and beyond. And because coding is engaging and creative, children develop these skills without the anxiety that often accompanies traditional math instruction."
+        "text": "Problem decomposition, pattern recognition, logical reasoning, abstract thinking, precision, spatial reasoning, and data thinking, these skills transfer directly from coding to math class and beyond. And because coding is engaging and creative, children develop these skills without the anxiety that often accompanies traditional math instruction."
       },
       {
         "type": "paragraph",
@@ -799,7 +799,7 @@
         "type": "callout",
         "calloutType": "success",
         "title": "Ready to Begin?",
-        "text": "Help your child develop stronger mathematical thinking through the power of coding. The skills they build today will serve them for a lifetime—in math class and far beyond."
+        "text": "Help your child develop stronger mathematical thinking through the power of coding. The skills they build today will serve them for a lifetime, in math class and far beyond."
       },
       {
         "type": "button",

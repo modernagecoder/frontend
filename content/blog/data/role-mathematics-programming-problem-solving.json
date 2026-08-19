@@ -54,7 +54,7 @@
       },
       {
         "type": "paragraph",
-        "text": "Let's explore the real relationship between math and programming—what matters, what doesn't, and how to develop the mathematical thinking that makes great developers."
+        "text": "Let's explore the real relationship between math and programming, what matters, what doesn't, and how to develop the mathematical thinking that makes great developers."
       },
       {
         "type": "heading",
@@ -75,9 +75,9 @@
         "type": "list",
         "style": "unordered",
         "items": [
-          "<strong>Arithmetic:</strong> Addition, subtraction, multiplication, division—you use these constantly",
+          "<strong>Arithmetic:</strong> Addition, subtraction, multiplication, division. You use these constantly",
           "<strong>Basic algebra:</strong> Working with variables, simple equations, order of operations",
-          "<strong>Boolean logic:</strong> AND, OR, NOT—the foundation of all programming conditions",
+          "<strong>Boolean logic:</strong> AND, OR, NOT, the foundation of all programming conditions",
           "<strong>Percentages and ratios:</strong> Calculations, scaling, proportions",
           "<strong>Basic statistics:</strong> Averages, counts, simple aggregations"
         ]
@@ -99,7 +99,7 @@
           "<strong>Exponents:</strong> Growth rates, complexity analysis",
           "<strong>Combinatorics:</strong> Counting problems, permutations, combinations",
           "<strong>Recursion:</strong> Mathematical induction, recursive definitions",
-          "<strong>Graph theory basics:</strong> Nodes, edges, paths—for network and relationship problems"
+          "<strong>Graph theory basics:</strong> Nodes, edges, paths, for network and relationship problems"
         ]
       },
       {
@@ -111,8 +111,8 @@
         "type": "list",
         "style": "unordered",
         "items": [
-          "<strong>Linear algebra:</strong> Vectors, matrices, transformations—essential for ML",
-          "<strong>Calculus:</strong> Derivatives, gradients—for optimization and neural networks",
+          "<strong>Linear algebra:</strong> Vectors, matrices, transformations, essential for ML",
+          "<strong>Calculus:</strong> Derivatives, gradients, for optimization and neural networks",
           "<strong>Probability and statistics:</strong> Distributions, hypothesis testing, Bayesian thinking",
           "<strong>Optimization:</strong> Finding minima/maxima, gradient descent"
         ]
@@ -136,7 +136,7 @@
         "type": "callout",
         "calloutType": "info",
         "title": "The 80/20 Rule",
-        "text": "80% of programming jobs require only basic math. The remaining 20%—specialized fields like ML, graphics, and scientific computing—require deeper mathematical knowledge. Know which category your goals fall into."
+        "text": "80% of programming jobs require only basic math. The remaining 20%, specialized fields like ML, graphics, and scientific computing, require deeper mathematical knowledge. Know which category your goals fall into."
       },
       {
         "type": "heading",
@@ -171,7 +171,7 @@
       },
       {
         "type": "paragraph",
-        "text": "These skills don't require knowing calculus. They require practice in structured thinking—which programming itself develops."
+        "text": "These skills don't require knowing calculus. They require practice in structured thinking, which programming itself develops."
       },
       {
         "type": "heading",
@@ -214,7 +214,7 @@
       },
       {
         "type": "paragraph",
-        "text": "In algebra, x represents an unknown value. In programming, variables work the same way—they're containers for values that can change. Every time you write <code>x = 10</code>, you're applying algebraic thinking."
+        "text": "In algebra, x represents an unknown value. In programming, variables work the same way. They're containers for values that can change. Every time you write <code>x = 10</code>, you're applying algebraic thinking."
       },
       {
         "type": "code",
@@ -223,7 +223,7 @@
       },
       {
         "type": "paragraph",
-        "text": "<strong>Practical Application:</strong> When calculating discounts in an e-commerce app, you're using algebra. If <code>final_price = original_price * (1 - discount_rate)</code>, you're applying the same algebraic manipulation you learned in school—but now it's calculating real prices for real customers."
+        "text": "<strong>Practical Application:</strong> When calculating discounts in an e-commerce app, you're using algebra. If <code>final_price = original_price * (1 - discount_rate)</code>, you're applying the same algebraic manipulation you learned in school, but now it's calculating real prices for real customers."
       },
       {
         "type": "heading",
@@ -250,7 +250,7 @@
       },
       {
         "type": "paragraph",
-        "text": "Every if-statement, every condition, every filter uses Boolean logic—the math of true and false."
+        "text": "Every if-statement, every condition, every filter uses Boolean logic, the math of true and false."
       },
       {
         "type": "code",
@@ -287,7 +287,7 @@
       },
       {
         "type": "paragraph",
-        "text": "<strong>Practical Application:</strong> Calculating compound interest, generating pagination numbers, creating animation frames—all use sequences. When Netflix shows \"Episodes 1-10 of 50,\" that's sequence math in action."
+        "text": "<strong>Practical Application:</strong> Calculating compound interest, generating pagination numbers, creating animation frames, all use sequences. When Netflix shows \"Episodes 1-10 of 50,\" that's sequence math in action."
       },
       {
         "type": "heading",
@@ -296,7 +296,7 @@
       },
       {
         "type": "paragraph",
-        "text": "The modulo operator (%) is modular arithmetic—finding remainders after division. It's surprisingly useful in programming."
+        "text": "The modulo operator (%) is modular arithmetic, finding remainders after division. It's surprisingly useful in programming."
       },
       {
         "type": "code",
@@ -305,7 +305,7 @@
       },
       {
         "type": "paragraph",
-        "text": "<strong>Practical Application:</strong> Creating circular carousels, implementing round-robin scheduling, generating repeating patterns, hash table indexing—modular arithmetic powers these everyday programming tasks."
+        "text": "<strong>Practical Application:</strong> Creating circular carousels, implementing round-robin scheduling, generating repeating patterns, hash table indexing, modular arithmetic powers these everyday programming tasks."
       },
       {
         "type": "heading",
@@ -323,7 +323,7 @@
       },
       {
         "type": "paragraph",
-        "text": "<strong>Practical Application:</strong> Analyzing algorithm performance, calculating compound interest in fintech apps, implementing audio processing, understanding viral growth in social media analytics—logarithms and exponentials are everywhere in real applications."
+        "text": "<strong>Practical Application:</strong> Analyzing algorithm performance, calculating compound interest in fintech apps, implementing audio processing, understanding viral growth in social media analytics, logarithms and exponentials are everywhere in real applications."
       },
       {
         "type": "callout",
@@ -376,7 +376,7 @@
       },
       {
         "type": "paragraph",
-        "text": "Is this problem similar to one you've solved before? Can you adapt a known solution? Pattern recognition—central to both math and programming—lets you leverage past learning."
+        "text": "Is this problem similar to one you've solved before? Can you adapt a known solution? Pattern recognition, central to both math and programming, lets you leverage past learning."
       },
       {
         "type": "heading",
@@ -422,7 +422,7 @@
       },
       {
         "type": "paragraph",
-        "text": "Yes, you'll need to study math—specifically linear algebra, calculus, and statistics. You can learn these alongside programming, but you'll need them eventually."
+        "text": "Yes, you'll need to study math, specifically linear algebra, calculus, and statistics. You can learn these alongside programming, but you'll need them eventually."
       },
       {
         "type": "heading",
@@ -606,7 +606,7 @@
       },
       {
         "type": "paragraph",
-        "text": "If you want to strengthen logical reasoning, studying mathematical proofs is excellent training. You don't need to become a mathematician—just exposure to rigorous logical argument helps."
+        "text": "If you want to strengthen logical reasoning, studying mathematical proofs is excellent training. You don't need to become a mathematician, just exposure to rigorous logical argument helps."
       },
       {
         "type": "heading",
@@ -645,7 +645,7 @@
       },
       {
         "type": "paragraph",
-        "text": "Social networks are literally graphs—nodes (users) connected by edges (relationships):"
+        "text": "Social networks are literally graphs, nodes (users) connected by edges (relationships):"
       },
       {
         "type": "list",
@@ -722,7 +722,7 @@
         "type": "callout",
         "calloutType": "success",
         "title": "The Pattern",
-        "text": "Notice the pattern? Every major application category uses math—but the specific math varies. Choose your path, then learn the math that path requires. You don't need to know everything; you need to know what matters for your goals."
+        "text": "Notice the pattern? Every major application category uses math, but the specific math varies. Choose your path, then learn the math that path requires. You don't need to know everything; you need to know what matters for your goals."
       },
       {
         "type": "heading",
@@ -735,11 +735,11 @@
         "items": [
           {
             "title": "I was bad at math in school. Can I still learn to code?",
-            "content": "Absolutely. Many successful programmers weren't math stars. Programming often makes mathematical concepts clearer because you see them in action. Start coding—you might find you understand math better through programming than you did in school."
+            "content": "Absolutely. Many successful programmers weren't math stars. Programming often makes mathematical concepts clearer because you see them in action. Start coding. You might find you understand math better through programming than you did in school."
           },
           {
             "title": "Should I study math before learning to program?",
-            "content": "For most programming paths, no. Start coding now. Learn math concepts as you need them. The exception is if you're specifically targeting data science or ML—then parallel math study helps."
+            "content": "For most programming paths, no. Start coding now. Learn math concepts as you need them. The exception is if you're specifically targeting data science or ML, then parallel math study helps."
           },
           {
             "title": "What's the minimum math needed for a programming job?",
@@ -770,7 +770,7 @@
       },
       {
         "type": "paragraph",
-        "text": "Mathematics and programming share deep connections—not in the sense that you need calculus to build websites, but in the way both disciplines develop structured, logical thinking."
+        "text": "Mathematics and programming share deep connections, not in the sense that you need calculus to build websites, but in the way both disciplines develop structured, logical thinking."
       },
       {
         "type": "paragraph",

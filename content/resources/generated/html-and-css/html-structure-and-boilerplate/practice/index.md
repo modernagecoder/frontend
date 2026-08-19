@@ -64,7 +64,7 @@ Every HTML page should have a `` inside ``. Without it, the browser tab shows th
 
 ### Q5. [Easy] Where does the text inside the `` tag appear?
 
-*Hint:* Not on the page itself — look higher.
+*Hint:* Not on the page itself, look higher.
 
 **Answer:** On the browser tab at the top of the window, in bookmarks, and in search engine results.
 
@@ -111,11 +111,11 @@ HTML comments need exactly two dashes on each side: `<!--` to open and `-->` to 
 
 ### Q9. [Easy] Which tag should contain the visible content of the page?
 
-*Hint:* Not head — the other one.
+*Hint:* Not head, the other one.
 
 **Answer:** ``
 
-All visible content — headings, paragraphs, images, links, lists — goes inside the `` element. The `` is only for metadata that is not displayed on the page itself.
+All visible content, headings, paragraphs, images, links, lists, goes inside the `` element. The `` is only for metadata that is not displayed on the page itself.
 
 ### Q10. [Easy] Add an HTML comment above a heading that says 'This is the main title'.
 
@@ -174,7 +174,7 @@ For a Hindi page, use `lang="hi"` on the html tag. The meta charset UTF-8 is imp
 
 **Answer:** Inside head: `` and ``. Inside body: `` and ``.
 
-The head holds metadata — information about the page that is not shown on the page. The body holds visible content. `` shows on the browser tab (technically not 'on the page'), so it belongs in head.
+The head holds metadata, information about the page that is not shown on the page. The body holds visible content. `` shows on the browser tab (technically not 'on the page'), so it belongs in head.
 
 ### Q15. [Medium] Rohan wrote this boilerplate but something is wrong. Fix it:
 
@@ -334,7 +334,7 @@ vs
 
 **Answer:** There is no visual difference. Both render as a bulleted list with two items. HTML ignores extra whitespace in the source code.
 
-HTML collapses whitespace when rendering — multiple spaces, tabs, and newlines in the source become a single space (or nothing) on the page. Indentation is only for readability, not for layout.
+HTML collapses whitespace when rendering, multiple spaces, tabs, and newlines in the source become a single space (or nothing) on the page. Indentation is only for readability, not for layout.
 
 ### Q24. [Hard] This boilerplate has three problems. Find them all:
 
@@ -416,7 +416,7 @@ Technically browsers may still render this, but a proper HTML page needs a DOCTY
 
 **Answer:** Inside the `` section.
 
-All meta tags go inside the head. They are metadata — information about the page that is not visible on the page itself.
+All meta tags go inside the head. They are metadata, information about the page that is not visible on the page itself.
 
 ### Q5. [Easy] Write an HTML page with a title 'Bakery' and body containing a heading 'Welcome to our Bakery'.
 
@@ -445,7 +445,7 @@ Standard boilerplate with 'Bakery' as the title (shown on browser tab) and 'Welc
 
 ```
 
-*Hint:* Paragraphs should not be inside a list — and list items should be direct children of the list.
+*Hint:* Paragraphs should not be inside a list, and list items should be direct children of the list.
 
 **Answer:** ```
 
@@ -479,7 +479,7 @@ The charset tag must appear very early because the browser needs to know the cha
 
 ```
 
-Adding comments like this is useful when you are learning — it helps you remember what each tag does. You can remove them later for cleaner production code.
+Adding comments like this is useful when you are learning. It helps you remember what each tag does. You can remove them later for cleaner production code.
 
 ### Q9. [Medium] What is wrong with this HTML?
 
@@ -542,7 +542,7 @@ The title in the head is what shows on the browser tab and in search results. Th
 
 **Answer:** The `` tag only accepts plain text, not other HTML tags. Remove the `` from inside the title. Correct version: `Hi`.
 
-The title element is unusual — it only contains text, not other tags. Browsers do not render HTML tags inside title. Always use plain text in title.
+The title element is unusual. It only contains text, not other tags. Browsers do not render HTML tags inside title. Always use plain text in title.
 
 ### Q13. [Hard] Build a complete HTML page with all the following: DOCTYPE, html with lang, head containing charset, viewport, description, author, title, and body containing a section-header comment and an h1 with 'Complete Page'.
 
@@ -599,7 +599,7 @@ Modern browsers try hard to fix broken HTML automatically. However, you should a
 
 ### Q2. [Easy] Which tag contains the visible content of the page?
 
-**B is correct.** The `` element contains everything the user sees — headings, paragraphs, images, and more.
+**B is correct.** The `` element contains everything the user sees, headings, paragraphs, images, and more.
 
 ### Q3. [Easy] Where does the  tag go?
 
@@ -639,7 +639,7 @@ Modern browsers try hard to fix broken HTML automatically. However, you should a
 
 ### Q12. [Medium] Why should you indent nested HTML?
 
-**C is correct.** Indentation is purely for readability. HTML ignores whitespace, so indentation has no effect on how the page looks — but it makes your code much easier to understand.
+**C is correct.** Indentation is purely for readability. HTML ignores whitespace, so indentation has no effect on how the page looks, but it makes your code much easier to understand.
 
 ### Q13. [Medium] Which meta tag helps search engines show a preview?
 
@@ -647,7 +647,7 @@ Modern browsers try hard to fix broken HTML automatically. However, you should a
 
 ### Q14. [Medium] Where should comments be used in HTML?
 
-**B is correct.** Comments are for developers, not users. Never store private information in comments — anyone can view the page source.
+**B is correct.** Comments are for developers, not users. Never store private information in comments, anyone can view the page source.
 
 ### Q15. [Hard] Without the DOCTYPE, what happens?
 
@@ -667,7 +667,7 @@ Modern browsers try hard to fix broken HTML automatically. However, you should a
 
 ### Q19. [Hard] Is HTML case-sensitive for tag names?
 
-**C is correct.** HTML tags are case-insensitive — `` and `` both work. However, lowercase is the standard modern practice.
+**C is correct.** HTML tags are case-insensitive, `` and `` both work. However, lowercase is the standard modern practice.
 
 ### Q20. [Hard] What happens if you put content directly inside  but outside both head and body?
 
@@ -699,7 +699,7 @@ Modern browsers try hard to fix broken HTML automatically. However, you should a
 </html>
 ```
 
-This is the minimum valid HTML5 boilerplate. Memorise this structure — you will use it on every single HTML file you ever write.
+This is the minimum valid HTML5 boilerplate. Memorise this structure. You will use it on every single HTML file you ever write.
 
 ### Challenge 2. Commented Sections
 
@@ -817,7 +817,7 @@ The description meta tag appears in search engine results below the blue link. T
 </html>
 ```
 
-Fixes: (1) DOCTYPE needs the exclamation mark, (2) lang attribute needs quotes, (3) charset should be UTF-8 with hyphen and in quotes, (4) title was missing its closing tag, (5) h1 was inside head — moved to body. Also added the missing viewport meta tag and closing .
+Fixes: (1) DOCTYPE needs the exclamation mark, (2) lang attribute needs quotes, (3) charset should be UTF-8 with hyphen and in quotes, (4) title was missing its closing tag, (5) h1 was inside head, moved to body. Also added the missing viewport meta tag and closing .
 
 ### Challenge 6. Nested Structure Page
 
@@ -859,7 +859,7 @@ Fixes: (1) DOCTYPE needs the exclamation mark, (2) lang attribute needs quotes, 
 </html>
 ```
 
-Nested lists use a `` inside an ``. The browser automatically indents the sub-list. Notice how each nesting level is indented by 2 spaces — this makes the code much easier to read.
+Nested lists use a `` inside an ``. The browser automatically indents the sub-list. Notice how each nesting level is indented by 2 spaces. This makes the code much easier to read.
 
 ### Challenge 7. Complete Blog Post Template
 

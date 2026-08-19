@@ -49,7 +49,7 @@ A dark mode toggle used to require duplicating every style rule. With variables,
 
 ### 3. Design Systems and Tokens
 
-Professional design systems (Material, Tailwind, Radix, Shopify Polaris) are built on design tokens — named values for colors, spacing, typography, shadows, and radii. CSS variables are the browser-native way to implement tokens. Every modern framework uses them.
+Professional design systems (Material, Tailwind, Radix, Shopify Polaris) are built on design tokens, named values for colors, spacing, typography, shadows, and radii. CSS variables are the browser-native way to implement tokens. Every modern framework uses them.
 
 ### 4. JavaScript Integration
 

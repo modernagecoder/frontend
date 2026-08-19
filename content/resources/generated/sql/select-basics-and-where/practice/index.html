@@ -17,7 +17,7 @@
     <!-- SEO Meta Tags -->
     <meta name="description" content="60+ practice questions on SELECT Queries and the WHERE Clause in SQL. Easy, medium, and hard questions with hints, answers, and coding challenges.">
     <!-- meta keywords intentionally not emitted: Google has ignored it since 2009 and Bing
-         treats it as a SPAM SIGNAL — and Bing is the index ChatGPT/Copilot answer from.
+         treats it as a SPAM SIGNAL, and Bing is the index ChatGPT/Copilot answer from.
          See scripts/strip-meta-keywords.py. -->
     <meta name="author" content="Modern Age Coders">
     <meta name="robots" content="index, follow">
@@ -138,7 +138,7 @@
                 <span class="badge badge-beginner">Beginner</span>
                 <span class="badge badge-questions">60 Questions</span>
             </div>
-            <h1 class="resource-title">Practice Questions &mdash; SELECT Queries and the WHERE Clause</h1>
+            <h1 class="resource-title">Practice Questions: SELECT Queries and the WHERE Clause</h1>
             <a href="/resources/sql/select-basics-and-where" class="notes-link">&larr; Back to Notes</a>
         </div><!-- /resource-header -->
 
@@ -520,7 +520,7 @@ WHERE NOT (department = 'HR' AND salary < 50000);</code></pre></div></div>
 <div class="question-card">
                 <div class="question-number">MCQ 18</div>
                 <div class="question-text">Which statement is TRUE about the SQL = operator?</div>
-                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> It works the same as == in Python</li><li><span class="mcq-option-label">B.</span> It is used for both assignment (in UPDATE) and equality comparison (in WHERE)</li><li><span class="mcq-option-label">C.</span> It cannot be used with string values</li><li><span class="mcq-option-label">D.</span> It is case-sensitive for strings in all databases</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-18" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-18"><strong>Answer: B</strong><br><strong>B is correct.</strong> SQL's = means assignment in UPDATE statements (<code>SET salary = 60000</code>) and equality in WHERE (<code>WHERE salary = 60000</code>). Context distinguishes the two. String case-sensitivity depends on column collation — MySQL is case-insensitive by default.</div></div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> It works the same as == in Python</li><li><span class="mcq-option-label">B.</span> It is used for both assignment (in UPDATE) and equality comparison (in WHERE)</li><li><span class="mcq-option-label">C.</span> It cannot be used with string values</li><li><span class="mcq-option-label">D.</span> It is case-sensitive for strings in all databases</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-18" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-18"><strong>Answer: B</strong><br><strong>B is correct.</strong> SQL's = means assignment in UPDATE statements (<code>SET salary = 60000</code>) and equality in WHERE (<code>WHERE salary = 60000</code>). Context distinguishes the two. String case-sensitivity depends on column collation: MySQL is case-insensitive by default.</div></div>
 <div class="question-card">
                 <div class="question-number">MCQ 19</div>
                 <div class="question-text">What does NOT (A AND B) equal according to De Morgan's law?</div>
@@ -590,7 +590,7 @@ WHERE department IN (&#39;IT&#39;, &#39;Finance&#39;, &#39;Marketing&#39;)
                     <div class="challenge-io-value">employees table.</div>
                 </div><div class="challenge-io">
                     <div class="challenge-io-label">Sample Output</div>
-                    <div class="challenge-io-value">9 rows — everyone except Ishita Kumar (HR, 47000).</div>
+                    <div class="challenge-io-value">9 rows. Everyone except Ishita Kumar (HR, 47000).</div>
                 </div><div class="challenge-constraints">Use NOT with parentheses. The condition should exclude (department = &#39;HR&#39; AND salary &lt; 50000).</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-4" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-4"><pre><code class="language-python">SELECT *
 FROM employees
 WHERE NOT (department = &#39;HR&#39; AND salary &lt; 50000);</code></pre></div></div>
@@ -632,7 +632,7 @@ WHERE department = &#39;Marketing&#39;
                     <div class="challenge-io-value">employees table.</div>
                 </div><div class="challenge-io">
                     <div class="challenge-io-label">Sample Output</div>
-                    <div class="challenge-io-value">3 rows — Aarav (id 1), Ananya (id 4), Diya (id 10).</div>
+                    <div class="challenge-io-value">3 rows: Aarav (id 1), Ananya (id 4), Diya (id 10).</div>
                 </div><div class="challenge-constraints">Use IN on the name column.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-7" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-7"><pre><code class="language-python">SELECT *
 FROM employees
 WHERE name IN (&#39;Aarav Sharma&#39;, &#39;Ananya Singh&#39;, &#39;Diya Nair&#39;);</code></pre></div></div>

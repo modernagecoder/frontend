@@ -1,6 +1,6 @@
 /**
  * Patch every page that builds a `contact: phone` JSON body manually so the
- * country picker's choice is included in the request body directly — no
+ * country picker's choice is included in the request body directly, no
  * reliance on the global fetch hook.
  *
  * Looks for the pattern (with any indentation):

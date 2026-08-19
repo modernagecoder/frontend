@@ -17,7 +17,7 @@
     <!-- SEO Meta Tags -->
     <meta name="description" content="Define methods with parameters and return types, understand method overloading, pass-by-value, and varargs.">
     <!-- meta keywords intentionally not emitted: Google has ignored it since 2009 and Bing
-         treats it as a SPAM SIGNAL — and Bing is the index ChatGPT/Copilot answer from.
+         treats it as a SPAM SIGNAL, and Bing is the index ChatGPT/Copilot answer from.
          See scripts/strip-meta-keywords.py. -->
     <meta name="author" content="Modern Age Coders">
     <meta name="robots" content="index, follow">
@@ -148,7 +148,7 @@
       },
       {
         "@type": "Question",
-        "name": "Infinite Recursion — Missing or Unreachable Base Case",
+        "name": "Infinite Recursion: Missing or Unreachable Base Case",
         "acceptedAnswer": {
           "@type": "Answer",
           "text": "Without a base case, the method calls itself indefinitely. Each call adds a frame to the call stack until the stack runs out of space, causing a <code>StackOverflowError</code>. Every recursive method must have a base case, and the recursive call must move toward it."
@@ -210,25 +210,25 @@
 
             <section id="what" class="content-section">
                 <h2>What Is It?</h2>
-                <h2>What Are Methods in Java?</h2><p>A <strong>method</strong> in Java is a block of code that performs a specific task, has a name, and can be called (invoked) whenever that task needs to be performed. Methods are the Java equivalent of what other languages call "functions" — but in Java, every method must belong to a class because Java is a purely object-oriented language.</p><p>Methods allow you to break a large program into smaller, manageable, reusable pieces. Instead of writing the same logic multiple times, you write it once in a method and call it wherever needed. This is the foundation of the <strong>DRY principle</strong> (Don't Repeat Yourself).</p><h3>Method Syntax</h3><p>A Java method has the following structure:</p><pre><code>accessModifier returnType methodName(parameterList) {
+                <h2>What Are Methods in Java?</h2><p>A <strong>method</strong> in Java is a block of code that performs a specific task, has a name, and can be called (invoked) whenever that task needs to be performed. Methods are the Java equivalent of what other languages call "functions", but in Java, every method must belong to a class because Java is a purely object-oriented language.</p><p>Methods allow you to break a large program into smaller, manageable, reusable pieces. Instead of writing the same logic multiple times, you write it once in a method and call it wherever needed. This is the foundation of the <strong>DRY principle</strong> (Don't Repeat Yourself).</p><h3>Method Syntax</h3><p>A Java method has the following structure:</p><pre><code>accessModifier returnType methodName(parameterList) {
     // method body
     return value; // if returnType is not void
-}</code></pre><p><strong>Access Modifier:</strong> Controls visibility — <code>public</code>, <code>private</code>, <code>protected</code>, or default (no modifier). Determines which classes can call this method.</p><p><strong>Return Type:</strong> The data type of the value the method returns. Use <code>void</code> if the method does not return any value.</p><p><strong>Method Name:</strong> A meaningful name following camelCase convention — <code>calculateArea</code>, <code>findMax</code>, <code>printDetails</code>.</p><p><strong>Parameter List:</strong> Zero or more parameters (inputs) the method accepts, each with a type and name. Parameters are separated by commas.</p>
+}</code></pre><p><strong>Access Modifier:</strong> Controls visibility, <code>public</code>, <code>private</code>, <code>protected</code>, or default (no modifier). Determines which classes can call this method.</p><p><strong>Return Type:</strong> The data type of the value the method returns. Use <code>void</code> if the method does not return any value.</p><p><strong>Method Name:</strong> A meaningful name following camelCase convention, <code>calculateArea</code>, <code>findMax</code>, <code>printDetails</code>.</p><p><strong>Parameter List:</strong> Zero or more parameters (inputs) the method accepts, each with a type and name. Parameters are separated by commas.</p>
             </section>
 
             <section id="why" class="content-section">
                 <h2>Why Does It Matter?</h2>
-                <h2>Why Are Methods Important?</h2><p>Methods are the fundamental building blocks of any Java application. Understanding them is essential for writing clean, efficient, and maintainable code.</p><h3>1. Code Reusability</h3><p>Write once, call many times. A method to calculate the area of a circle can be called from anywhere in your program with different radius values. Without methods, you would duplicate the formula everywhere it is needed, and changing it would require updates in every location.</p><h3>2. Abstraction and Readability</h3><p>Well-named methods make code self-documenting. <code>validateEmail(email)</code> is immediately understandable without reading the implementation. Complex logic hidden behind a clear method name makes the calling code easier to read, understand, and maintain.</p><h3>3. Method Overloading — Compile-Time Polymorphism</h3><p>Java allows multiple methods with the same name but different parameter lists. This is <strong>method overloading</strong>, a form of compile-time polymorphism. The compiler decides which version to call based on the arguments. <code>System.out.println()</code> itself is overloaded — it works with int, double, String, char, boolean, and more.</p><h3>4. Recursion Solves Complex Problems Elegantly</h3><p>Recursion — a method calling itself — is the natural solution for problems with self-similar structure: tree traversals, divide-and-conquer algorithms, backtracking, and mathematical sequences. Understanding recursion is critical for placement interviews and competitive programming.</p><h3>5. Foundation for OOP</h3><p>Every class behavior is defined through methods. Constructors, getters, setters, overridden methods, static utility methods — all are method variations. Without understanding methods, you cannot progress to classes, inheritance, or polymorphism.</p>
+                <h2>Why Are Methods Important?</h2><p>Methods are the fundamental building blocks of any Java application. Understanding them is essential for writing clean, efficient, and maintainable code.</p><h3>1. Code Reusability</h3><p>Write once, call many times. A method to calculate the area of a circle can be called from anywhere in your program with different radius values. Without methods, you would duplicate the formula everywhere it is needed, and changing it would require updates in every location.</p><h3>2. Abstraction and Readability</h3><p>Well-named methods make code self-documenting. <code>validateEmail(email)</code> is immediately understandable without reading the implementation. Complex logic hidden behind a clear method name makes the calling code easier to read, understand, and maintain.</p><h3>3. Method Overloading: Compile-Time Polymorphism</h3><p>Java allows multiple methods with the same name but different parameter lists. This is <strong>method overloading</strong>, a form of compile-time polymorphism. The compiler decides which version to call based on the arguments. <code>System.out.println()</code> itself is overloaded. It works with int, double, String, char, boolean, and more.</p><h3>4. Recursion Solves Complex Problems Elegantly</h3><p>Recursion, a method calling itself, is the natural solution for problems with self-similar structure: tree traversals, divide-and-conquer algorithms, backtracking, and mathematical sequences. Understanding recursion is critical for placement interviews and competitive programming.</p><h3>5. Foundation for OOP</h3><p>Every class behavior is defined through methods. Constructors, getters, setters, overridden methods, static utility methods, all are method variations. Without understanding methods, you cannot progress to classes, inheritance, or polymorphism.</p>
             </section>
 
             <section id="explanation" class="content-section">
                 <h2>Detailed Explanation</h2>
-                <h2>Detailed Explanation</h2><h3>1. void vs Return Methods</h3><p>A <code>void</code> method performs an action but does not return a value. A non-void method must return a value of the declared type using the <code>return</code> statement.</p><pre><code>// void method — performs action, returns nothing
+                <h2>Detailed Explanation</h2><h3>1. void vs Return Methods</h3><p>A <code>void</code> method performs an action but does not return a value. A non-void method must return a value of the declared type using the <code>return</code> statement.</p><pre><code>// void method, performs action, returns nothing
 void greet(String name) {
     System.out.println("Hello, " + name);
 }
 
-// return method — computes and returns a value
+// return method , computes and returns a value
 int add(int a, int b) {
     return a + b;
 }</code></pre><p>Once a <code>return</code> statement is executed, the method terminates immediately. Code after <code>return</code> is unreachable and causes a compilation error.</p><h3>2. Method Overloading</h3><p>Method overloading means having multiple methods with the <strong>same name</strong> but <strong>different parameter lists</strong> in the same class. The compiler determines which method to call based on the number, types, and order of arguments at compile time.</p><p>Valid overloading depends on the parameter list:</p><p>- Different number of parameters: <code>add(int a, int b)</code> and <code>add(int a, int b, int c)</code></p><p>- Different parameter types: <code>add(int a, int b)</code> and <code>add(double a, double b)</code></p><p>- Different parameter order: <code>display(String s, int n)</code> and <code>display(int n, String s)</code></p><p>Overloading is NOT determined by return type alone. You cannot have two methods that differ only in return type.</p><h3>3. Pass-by-Value in Java</h3><p>Java is <strong>strictly pass-by-value</strong>. This is one of the most misunderstood concepts:</p><p><strong>For primitives:</strong> A copy of the value is passed. Changes to the parameter inside the method do not affect the original variable.</p><pre><code>void changeValue(int x) {
@@ -247,14 +247,14 @@ void reassign(StringBuilder sb) {
 
 StringBuilder name = new StringBuilder("Hello");
 changeName(name);
-System.out.println(name); // "Hello World" — object was modified
+System.out.println(name); // "Hello World", object was modified
 reassign(name);
-System.out.println(name); // Still "Hello World" — reference was not changed</code></pre><h3>4. Static Methods vs Instance Methods</h3><p><strong>Static methods</strong> belong to the class, not to any specific object. They are called using the class name: <code>Math.sqrt(25)</code>. They can only access other static members directly. They cannot use <code>this</code> keyword.</p><p><strong>Instance methods</strong> belong to objects. They are called on an object: <code>myString.length()</code>. They can access both static and instance members.</p><pre><code>class Calculator {
-    static int add(int a, int b) {   // static — called via Calculator.add()
+System.out.println(name); // Still "Hello World", reference was not changed</code></pre><h3>4. Static Methods vs Instance Methods</h3><p><strong>Static methods</strong> belong to the class, not to any specific object. They are called using the class name: <code>Math.sqrt(25)</code>. They can only access other static members directly. They cannot use <code>this</code> keyword.</p><p><strong>Instance methods</strong> belong to objects. They are called on an object: <code>myString.length()</code>. They can access both static and instance members.</p><pre><code>class Calculator {
+    static int add(int a, int b) {   // static, called via Calculator.add()
         return a + b;
     }
 
-    int multiply(int a, int b) {     // instance — called via obj.multiply()
+    int multiply(int a, int b) {     // instance, called via obj.multiply()
         return a * b;
     }
 }</code></pre><p>Static methods are used for utility functions that do not depend on object state: <code>Math.max()</code>, <code>Arrays.sort()</code>, <code>Collections.reverse()</code>.</p><h3>5. Varargs (Variable-Length Arguments)</h3><p>Java allows methods to accept a variable number of arguments using the <code>...</code> syntax. Internally, varargs are treated as an array.</p><pre><code>int sum(int... numbers) {
@@ -269,7 +269,7 @@ sum(1, 2);           // 3
 sum(1, 2, 3, 4, 5);  // 15
 sum();               // 0</code></pre><p>Rules: A method can have only one varargs parameter, and it must be the last parameter. <code>void example(String label, int... values)</code> is valid. <code>void example(int... values, String label)</code> is not.</p><h3>6. Method Chaining</h3><p>When a method returns the object itself (or another object), you can call another method on the returned value. This is method chaining.</p><pre><code>StringBuilder sb = new StringBuilder();
 sb.append("Hello").append(" ").append("World").reverse();
-// Each append() returns the same StringBuilder object</code></pre><h3>7. Recursion</h3><p>A recursive method calls itself with a modified argument, working toward a <strong>base case</strong> that stops the recursion. Every recursive solution needs: (1) A base case — the condition where recursion stops. (2) A recursive case — the method calls itself with a smaller problem.</p><pre><code>int factorial(int n) {
+// Each append() returns the same StringBuilder object</code></pre><h3>7. Recursion</h3><p>A recursive method calls itself with a modified argument, working toward a <strong>base case</strong> that stops the recursion. Every recursive solution needs: (1) A base case, the condition where recursion stops. (2) A recursive case, the method calls itself with a smaller problem.</p><pre><code>int factorial(int n) {
     if (n <= 1) return 1;           // base case
     return n * factorial(n - 1);    // recursive case
 }</code></pre><p>The call stack stores each method invocation. If the base case is missing or never reached, the stack overflows, throwing a <code>StackOverflowError</code>.</p>
@@ -277,8 +277,8 @@ sb.append("Hello").append(" ").append("World").reverse();
 
             <section id="code-examples" class="content-section">
                 <h2>Code Examples</h2>
-                <div class="code-example"><div class="code-example-title">Basic Method — void and Return Types</div><pre><code class="language-python">public class MethodBasics {
-    // void method — no return value
+                <div class="code-example"><div class="code-example-title">Basic Method, void and Return Types</div><pre><code class="language-python">public class MethodBasics {
+    // void method, no return value
     static void greet(String name) {
         System.out.println(&quot;Hello, &quot; + name + &quot;!&quot;);
     }
@@ -309,7 +309,7 @@ Sum: 30
 Is 7 even? false
 Is 8 even? true</div></div>
 <div class="code-example"><div class="code-example-title">Method Overloading</div><pre><code class="language-python">public class OverloadDemo {
-    // Overloaded add methods — same name, different parameters
+    // Overloaded add methods, same name, different parameters
     static int add(int a, int b) {
         System.out.print(&quot;int + int: &quot;);
         return a + b;
@@ -340,7 +340,7 @@ Is 8 even? true</div></div>
 double + double: 6.0
 int + int + int: 6
 String + String: Hello World</div></div>
-<div class="code-example"><div class="code-example-title">Pass-by-Value — Primitives vs Objects</div><pre><code class="language-python">public class PassByValue {
+<div class="code-example"><div class="code-example-title">Pass-by-Value: Primitives vs Objects</div><pre><code class="language-python">public class PassByValue {
     static void modifyPrimitive(int x) {
         x = 100;
         System.out.println(&quot;Inside method: x = &quot; + x);
@@ -372,7 +372,7 @@ String + String: Hello World</div></div>
         reassignArray(myArr);
         System.out.println(&quot;After reassign: myArr[0] = &quot; + myArr[0]);
     }
-}</code></pre><div class="code-example-explanation">For primitives, changes inside the method do not affect the caller — <code>num</code> stays 5. For objects (including arrays), the method receives a copy of the reference. Through this reference, it can modify the object's state (setting arr[0] to 999 affects the caller). However, reassigning the local reference to a new object (inside <code>reassignArray</code>) does NOT affect the caller's reference — <code>myArr</code> still points to the original array.</div><div class="code-example-output">Inside method: x = 100
+}</code></pre><div class="code-example-explanation">For primitives, changes inside the method do not affect the caller, <code>num</code> stays 5. For objects (including arrays), the method receives a copy of the reference. Through this reference, it can modify the object's state (setting arr[0] to 999 affects the caller). However, reassigning the local reference to a new object (inside <code>reassignArray</code>) does NOT affect the caller's reference, <code>myArr</code> still points to the original array.</div><div class="code-example-output">Inside method: x = 100
 After method: num = 5
 
 Inside method: arr[0] = 999
@@ -384,23 +384,23 @@ After reassign: myArr[0] = 999</div></div>
     int instanceVar = 10;
     static int staticVar = 20;
 
-    // Instance method — can access both static and instance members
+    // Instance method, can access both static and instance members
     void instanceMethod() {
         System.out.println(&quot;Instance var: &quot; + instanceVar);
         System.out.println(&quot;Static var: &quot; + staticVar);
     }
 
-    // Static method — can only access static members directly
+    // Static method, can only access static members directly
     static void staticMethod() {
         // System.out.println(instanceVar); // ERROR: cannot access instance var
         System.out.println(&quot;Static var: &quot; + staticVar);
     }
 
     public static void main(String[] args) {
-        // Static method — called using class name
+        // Static method, called using class name
         StaticVsInstance.staticMethod();
 
-        // Instance method — called on an object
+        // Instance method, called on an object
         StaticVsInstance obj = new StaticVsInstance();
         obj.instanceMethod();
 
@@ -411,8 +411,8 @@ After reassign: myArr[0] = 999</div></div>
 Instance var: 10
 Static var: 20
 Static var: 20</div></div>
-<div class="code-example"><div class="code-example-title">Varargs — Variable-Length Arguments</div><pre><code class="language-python">public class VarargsDemo {
-    // Varargs method — accepts 0 or more int arguments
+<div class="code-example"><div class="code-example-title">Varargs: Variable-Length Arguments</div><pre><code class="language-python">public class VarargsDemo {
+    // Varargs method, accepts 0 or more int arguments
     static int sum(int... numbers) {
         int total = 0;
         for (int n : numbers) {
@@ -443,7 +443,7 @@ Sum(1,2): 3
 Sum(1,2,3,4,5): 15
 Marks: 85 90 78 
 Empty: </div></div>
-<div class="code-example"><div class="code-example-title">Recursion — Factorial, Fibonacci, and Power</div><pre><code class="language-python">public class RecursionDemo {
+<div class="code-example"><div class="code-example-title">Recursion: Factorial, Fibonacci, and Power</div><pre><code class="language-python">public class RecursionDemo {
     // Factorial: n! = n * (n-1)!
     static long factorial(int n) {
         if (n &lt;= 1) return 1;               // base case
@@ -532,7 +532,7 @@ hello, java!</div></div>
 
 String name = &quot;Aarav&quot;;
 changeString(name);
-System.out.println(name); // Expected: &quot;Changed&quot;</code></pre></div><div class="error-message">No compilation error, but name is still &quot;Aarav&quot; — the reassignment inside the method does not affect the caller.</div><div class="correct-code"><pre><code class="language-python">// Java is pass-by-value. For objects, it passes a copy of the reference.
+System.out.println(name); // Expected: &quot;Changed&quot;</code></pre></div><div class="error-message">No compilation error, but name is still &quot;Aarav&quot;, the reassignment inside the method does not affect the caller.</div><div class="correct-code"><pre><code class="language-python">// Java is pass-by-value. For objects, it passes a copy of the reference.
 // To modify the caller&#39;s data, use a mutable object:
 static void changeName(StringBuilder sb) {
     sb.replace(0, sb.length(), &quot;Changed&quot;);
@@ -540,7 +540,7 @@ static void changeName(StringBuilder sb) {
 
 StringBuilder name = new StringBuilder(&quot;Aarav&quot;);
 changeName(name);
-System.out.println(name); // &quot;Changed&quot; — the object was modified</code></pre></div><div class="mistake-explanation">Java always passes by value. For object references, the value passed is a copy of the reference. Reassigning the parameter (<code>s = "Changed"</code>) only changes the local copy, not the caller's variable. To affect the caller, you must modify the object through the reference, not reassign the reference itself.</div>
+System.out.println(name); // &quot;Changed&quot;, the object was modified</code></pre></div><div class="mistake-explanation">Java always passes by value. For object references, the value passed is a copy of the reference. Reassigning the parameter (<code>s = "Changed"</code>) only changes the local copy, not the caller's variable. To affect the caller, you must modify the object through the reference, not reassign the reference itself.</div>
             </div>
 <div class="mistake-card">
                 <h3>Overloading Based Only on Return Type</h3>
@@ -579,12 +579,12 @@ static double getValue(double x) { return x; }</code></pre></div><div class="mis
 
     public static void main(String[] args) {
         MyClass obj = new MyClass();
-        obj.sayHello(); // Correct — called on an object
+        obj.sayHello(); // Correct, called on an object
     }
 }</code></pre></div><div class="mistake-explanation">The <code>main</code> method is static and does not have an object context. Instance methods require an object to operate on. To call an instance method from main, you must first create an object of the class. Alternatively, make the method static if it does not need instance state.</div>
             </div>
 <div class="mistake-card">
-                <h3>Infinite Recursion — Missing or Unreachable Base Case</h3>
+                <h3>Infinite Recursion: Missing or Unreachable Base Case</h3>
                 <div class="wrong-code"><pre><code class="language-python">static int factorial(int n) {
     return n * factorial(n - 1); // No base case!
 }</code></pre></div><div class="error-message">Exception in thread &quot;main&quot; java.lang.StackOverflowError</div><div class="correct-code"><pre><code class="language-python">static int factorial(int n) {

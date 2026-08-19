@@ -15,7 +15,7 @@ keywords: ["html boilerplate", "html structure", "doctype html", "html head body
 
 ## What Is an HTML Boilerplate?
 
-A **boilerplate** is the standard skeleton code that every HTML page needs to start with. Think of it like the pre-printed lines on a notebook page — before you can write your story, the lines need to be there. Before you can write any HTML content, you need the boilerplate.
+A **boilerplate** is the standard skeleton code that every HTML page needs to start with. Think of it like the pre-printed lines on a notebook page, before you can write your story, the lines need to be there. Before you can write any HTML content, you need the boilerplate.
 
 This boilerplate tells the browser three important things: (1) which version of HTML you are using, (2) what language the page is in, (3) how the page should look on phones. Without the boilerplate, the browser has to guess, and it often guesses wrong.
 
@@ -38,7 +38,7 @@ Every professional web page uses some version of this. Memorise it. Type it out 
 
 ## Why Does Every Page Need a Boilerplate?
 
-You might wonder — why can I not just write some `` tags and call it a day? Here are the five big reasons.
+You might wonder, why can I not just write some `` tags and call it a day? Here are the five big reasons.
 
 ### 1. Tells the Browser What Version of HTML You Use
 
@@ -50,7 +50,7 @@ The `lang="en"` attribute on the `` tag tells screen readers to pronounce words 
 
 ### 3. Handles Special Characters Correctly
 
-Without ``, characters like 'e', 'n', 'a', or emoji may show as weird garbled symbols. UTF-8 is the universal encoding that handles every language in the world — English, Hindi, Tamil, Chinese, Arabic, everything.
+Without ``, characters like 'e', 'n', 'a', or emoji may show as weird garbled symbols. UTF-8 is the universal encoding that handles every language in the world: English, Hindi, Tamil, Chinese, Arabic, everything.
 
 ### 4. Makes Your Page Look Right on Phones
 
@@ -64,7 +64,7 @@ The `` is for information *about* the page (title, language, styles). The `` is 
 
 ### 1. <!DOCTYPE html>
 
-This is always the very first line. No spaces above it, nothing before it. It tells the browser 'this is an HTML5 document'. In older versions of HTML (like HTML 4), the DOCTYPE was a long, complicated URL. In HTML5, it is just `<!DOCTYPE html>` — short and simple.
+This is always the very first line. No spaces above it, nothing before it. It tells the browser 'this is an HTML5 document'. In older versions of HTML (like HTML 4), the DOCTYPE was a long, complicated URL. In HTML5, it is just `<!DOCTYPE html>`, short and simple.
 
 If you skip the DOCTYPE, browsers may render your page in 'quirks mode', which emulates ancient buggy behaviour from the 1990s. Your CSS might break, your layout might look wrong. Always include it.
 
@@ -79,14 +79,14 @@ The `` element wraps everything else. Inside it are two main children: `` and ``
 
 ### 3. The  Element
 
-The `` contains **metadata** — information about the page that is not shown on the page itself. Things that go inside head:
+The `` contains **metadata**, information about the page that is not shown on the page itself. Things that go inside head:
 
-- `` — the text shown on the browser tab
-- `` — the character encoding
-- `` — mobile settings
-- `` — description for search engines
-- `` — link to CSS file
-- `` — link to JavaScript file
+- ``, the text shown on the browser tab
+- ``, the character encoding
+- ``, mobile settings
+- ``, description for search engines
+- ``, link to CSS file
+- ``, link to JavaScript file
 
 Nothing in the head is displayed as visible content (except the title, which appears on the browser tab, not on the page itself).
 
@@ -111,14 +111,14 @@ Write a clear, descriptive title. 'My Page' is boring. 'Priya's Art Portfolio - 
 
 This is the most important tag for mobile. Here is what it does:
 
-- **width=device-width** — make the page as wide as the phone's screen
-- **initial-scale=1.0** — do not zoom in or out when the page loads
+- **width=device-width**, make the page as wide as the phone's screen
+- **initial-scale=1.0**, do not zoom in or out when the page loads
 
 Without this tag, phones assume your page is a desktop site and show it zoomed out. Users see tiny text and have to pinch to zoom. With this tag, the page fits the phone naturally.
 
 ### 7. The  Element
 
-Everything the user sees goes inside `` — headings, paragraphs, images, videos, buttons, forms, everything. Think of it as the stage where the show happens.
+Everything the user sees goes inside ``, headings, paragraphs, images, videos, buttons, forms, everything. Think of it as the stage where the show happens.
 
 ### 8. Comments
 
@@ -139,7 +139,7 @@ Think of nesting like brackets in maths: `[{()}]`. Each opening bracket must be 
 
 ### 10. Indentation Best Practices
 
-HTML does not care about spaces or tabs — you can write everything on one line and it still works. But good developers indent their code so it is easy to read. Every time you nest an element, indent it by 2 spaces. Compare:
+HTML does not care about spaces or tabs. You can write everything on one line and it still works. But good developers indent their code so it is easy to read. Every time you nest an element, indent it by 2 spaces. Compare:
 
 **Hard to read:**
 `AppleMango`
@@ -209,7 +209,7 @@ A clean page with a big heading 'Hello, World!' and a paragraph below it. The br
 </html>
 ```
 
-This page uses HTML comments to label different sections. The browser does not show comments — they are only visible when you view the page source. Comments help you and other developers understand what each part of the code does. Notice the 'TODO' comment reminding yourself to add a contact form later. This is a professional habit.
+This page uses HTML comments to label different sections. The browser does not show comments. They are only visible when you view the page source. Comments help you and other developers understand what each part of the code does. Notice the 'TODO' comment reminding yourself to add a contact form later. This is a professional habit.
 
 **Output:**
 
@@ -266,7 +266,7 @@ A recipe page with the title, a paragraph where 'delicious' is bold and '30 minu
 </html>
 ```
 
-Save this and open it on your phone (or use your browser's mobile preview with F12). The text will be readable at phone size. Now try removing the viewport meta tag and reload — the text will look tiny and you will have to pinch to zoom. This tag is what makes your page mobile-friendly.
+Save this and open it on your phone (or use your browser's mobile preview with F12). The text will be readable at phone size. Now try removing the viewport meta tag and reload, the text will look tiny and you will have to pinch to zoom. This tag is what makes your page mobile-friendly.
 
 **Output:**
 
@@ -293,7 +293,7 @@ A page that looks normal on desktop and also looks proper on phone screens.
 </html>
 ```
 
-The `description` meta tag appears in Google search results below the blue link — it is your chance to tell users what the page is about. The `author` meta tag credits the creator. These are invisible on the page itself but very important for SEO (Search Engine Optimisation).
+The `description` meta tag appears in Google search results below the blue link. It is your chance to tell users what the page is about. The `author` meta tag credits the creator. These are invisible on the page itself but very important for SEO (Search Engine Optimisation).
 
 **Output:**
 
@@ -334,7 +334,7 @@ A simple page with a welcome heading and paragraph. The description appears in G
 </html>
 ```
 
-This example shows nested lists. A `` is placed inside an `` to create a sub-list. Notice the clean indentation — every time something is nested inside something else, it is indented by two spaces. This makes the code much easier to read. The browser shows indented sub-lists automatically.
+This example shows nested lists. A `` is placed inside an `` to create a sub-list. Notice the clean indentation, every time something is nested inside something else, it is indented by two spaces. This makes the code much easier to read. The browser shows indented sub-lists automatically.
 
 **Output:**
 
@@ -375,7 +375,7 @@ The browser may fall into 'quirks mode', causing CSS to behave strangely and lay
 </html>
 ```
 
-The `<!DOCTYPE html>` must be the very first line of every HTML page — no spaces or comments before it. It tells the browser to use modern HTML5 rendering. Without it, you get unpredictable behaviour, especially when you start adding CSS.
+The `<!DOCTYPE html>` must be the very first line of every HTML page, no spaces or comments before it. It tells the browser to use modern HTML5 rendering. Without it, you get unpredictable behaviour, especially when you start adding CSS.
 
 ### Wrong Meta Viewport Tag Syntax
 
@@ -393,7 +393,7 @@ The page may still look zoomed out on phones because the viewport values are wro
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 ```
 
-The viewport tag has a specific syntax. The width must be `device-width` (with a hyphen), and the scale attribute is `initial-scale`, not just `scale`. Memorise this tag exactly. Copy-paste is fine — even professionals do it.
+The viewport tag has a specific syntax. The width must be `device-width` (with a hyphen), and the scale attribute is `initial-scale`, not just `scale`. Memorise this tag exactly. Copy-paste is fine, even professionals do it.
 
 ### Writing Visible Content Inside the Head
 
@@ -429,7 +429,7 @@ The browser may still show the heading and paragraph, but it is invalid HTML and
 </html>
 ```
 
-The `` is only for metadata — title, meta tags, links to CSS, links to scripts. All visible content (headings, paragraphs, images, lists, etc.) must go inside ``. Mixing them causes invalid HTML and breaks many tools that read your page.
+The `` is only for metadata, title, meta tags, links to CSS, links to scripts. All visible content (headings, paragraphs, images, lists, etc.) must go inside ``. Mixing them causes invalid HTML and breaks many tools that read your page.
 
 ### Wrong Nesting Order
 
@@ -465,21 +465,21 @@ The comment is not recognized and shows as plain text on the page.
 <!-- This is a comment -->
 ```
 
-HTML comments start with `<!--` (with two dashes) and end with `-->` (with two dashes). One dash is wrong. Also, comments cannot contain two dashes in a row inside them — avoid writing `--` inside a comment.
+HTML comments start with `<!--` (with two dashes) and end with `-->` (with two dashes). One dash is wrong. Also, comments cannot contain two dashes in a row inside them, avoid writing `--` inside a comment.
 
 ## Summary
 
 - The HTML boilerplate is the standard skeleton every web page needs: DOCTYPE, html, head, body.
 - <!DOCTYPE html> must be the very first line. It tells the browser to use modern HTML5 rendering instead of old quirks mode.
 - The  attribute sets the page language, which helps screen readers, translators, and search engines.
-- The  contains metadata — information about the page that is not visible on the page itself.
+- The  contains metadata, information about the page that is not visible on the page itself.
 - The  tag sets the text shown on the browser tab and in search results. It goes inside the head.
 - ensures special characters and emoji render correctly. It should be near the top of the head.
 - The viewport meta tag  makes your page look right on phones.
-- The  contains everything the user sees — headings, paragraphs, images, links, lists, and more.
+- The  contains everything the user sees, headings, paragraphs, images, links, lists, and more.
 - HTML comments use <!-- and --> and are invisible on the page. Use them to label sections and leave notes for yourself.
 - Indent nested elements by 2 spaces to make your code easy to read. HTML does not require indentation, but it is a professional habit.
-- Close tags in the reverse order you opened them — just like closing brackets in mathematics.
+- Close tags in the reverse order you opened them, just like closing brackets in mathematics.
 
 ## Related Topics
 

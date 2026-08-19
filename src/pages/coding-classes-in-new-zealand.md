@@ -8,7 +8,7 @@ source: src/pages/coding-classes-in-new-zealand.html
 
 ### Request a callback
 
-Leave your number — a mentor in NZST/NZDT will call back within 3 hours.
+Leave your number, a mentor in NZST/NZDT will call back within 3 hours.
 
 #### We'll ring you shortly!
 
@@ -16,35 +16,35 @@ Expect a call within 3 hours, NZST/NZDT.
 
 Aotearoa New Zealand · Online · +64 · NZST/NZDT
 
-# Real coding & AI for Kiwi students — from primary, through NCEA, to the University of Auckland and beyond.
+# Real coding & AI for Kiwi students: from primary, through NCEA, to the University of Auckland and beyond.
 
-Live 1:1 mentorship in **Python**, modern web and **agentic AI** for students across both islands — aligned with **NCEA Level 1, 2 and 3 Digital Technologies**, both Achievement Standards and Unit Standards, plus **University Entrance**, **Cambridge International (CIE)** AS / A-Level, and the **IB Diploma**. Admissions ready for the **University of Auckland · Otago · Victoria · Canterbury · Massey · AUT · Waikato**. **USD 150 a month**, eight live sessions, two per week, cancel anytime.
+Live 1:1 mentorship in **Python**, modern web and **agentic AI** for students across both islands, aligned with **NCEA Level 1, 2 and 3 Digital Technologies**, both Achievement Standards and Unit Standards, plus **University Entrance**, **Cambridge International (CIE)** AS / A-Level, and the **IB Diploma**. Admissions ready for the **University of Auckland · Otago · Victoria · Canterbury · Massey · AUT · Waikato**. **USD 150 a month**, eight live sessions, two per week, cancel anytime.
 
-See the Year 1–13 pathway"Whakaakohia ngā tamariki ki te ao o ngā rorohiko me te atamai mōhio — kanohi ki te kanohi, ipurangi."Te Reo Māori friendly. Several mentors can structure sessions for kura kaupapa or Māori-medium learners — code itself stays in English (Python keywords are English) but we accommodate bilingual learners on request.NCEA — explained for visitors and reminded for locals
+See the Year 1–13 pathway"Whakaakohia ngā tamariki ki te ao o ngā rorohiko me te atamai mōhio, kanohi ki te kanohi, ipurangi."Te Reo Māori friendly. Several mentors can structure sessions for kura kaupapa or Māori-medium learners, code itself stays in English (Python keywords are English) but we accommodate bilingual learners on request.NCEA, explained for visitors and reminded for locals
 
 ## The four NCEA grades, what they mean, and what we aim for.
 
 ### NCEA Achievement Standards: Excellence · Merit · Achieved · Not Achieved
 
-NCEA is standards-based rather than purely exam-based. Each subject is broken into multiple Achievement Standards, each worth credits. You can score one of four grades per standard. The mix of grades across all standards (plus the credit totals at each level) determines the overall NCEA outcome — and your University Entrance eligibility for Year 13.
+NCEA is standards-based rather than purely exam-based. Each subject is broken into multiple Achievement Standards, each worth credits. You can score one of four grades per standard. The mix of grades across all standards (plus the credit totals at each level) determines the overall NCEA outcome, and your University Entrance eligibility for Year 13.
 
-TOP TIERExcellence (E)Demonstrates sophisticated understanding. The grade serious CS aspirants target across the board.STRONGMerit (M)Goes beyond the minimum — comfortable competence. Solid grade for most NCEA subjects.PASSAchieved (A)Meets the standard. Earns credits, but doesn't differentiate against competitive applicants.NEEDS WORKNot Achieved (N)No credits earned. Most NCEA Digital Technologies students who come to us mid-year are trying to avoid this on internal assessments.
+TOP TIERExcellence (E)Demonstrates sophisticated understanding. The grade serious CS aspirants target across the board.STRONGMerit (M)Goes beyond the minimum, comfortable competence. Solid grade for most NCEA subjects.PASSAchieved (A)Meets the standard. Earns credits, but doesn't differentiate against competitive applicants.NEEDS WORKNot Achieved (N)No credits earned. Most NCEA Digital Technologies students who come to us mid-year are trying to avoid this on internal assessments.
 
-For University Entrance (UE), students need at least 14 credits at Level 3 in three approved subjects, plus literacy and numeracy thresholds. We aim for **Excellence-graded credits** in NCEA Level 3 Digital Technologies — the differentiator that strengthens University of Auckland CS and Otago Information Science applications.
+For University Entrance (UE), students need at least 14 credits at Level 3 in three approved subjects, plus literacy and numeracy thresholds. We aim for **Excellence-graded credits** in NCEA Level 3 Digital Technologies, the differentiator that strengthens University of Auckland CS and Otago Information Science applications.
 
 The Kiwi pathway, one diagram
 
-## From Year 1 through NCEA L3 — to UoA, Otago, Victoria, Canterbury and the wider NZ tech scene.
+## From Year 1 through NCEA L3: to UoA, Otago, Victoria, Canterbury and the wider NZ tech scene.
 
 New Zealand's secondary system runs Year 9 to Year 13, with NCEA Level 1 typically sat in Year 11 (or earlier at selective schools). Year 13 is where University Entrance and CS-degree applications are won or lost. Here's what each stage demands and where we fit.
 
-YEAR 1 – 8
+YEAR 1: 8
 
 #### Primary & Intermediate
 
 Computational-thinking foundations · Scratch · early Python · logic/puzzle work that supports primary maths.
 
-YEAR 9 – 10
+YEAR 9: 10
 
 #### Junior Secondary
 
@@ -68,15 +68,15 @@ YEAR 13 · UE / L3
 
 14+ UE credits in Digital Technologies at L3 · Excellence-graded portfolio · ready for Auckland, Otago, Victoria, Canterbury CS.
 
-**Where Modern Age Coders adds value:** not by replacing school — NZ secondary schools are strong, particularly the well-resourced ones — but by adding the 1:1 depth, real working projects on GitHub, and the Excellence-grade portfolio polish that NCEA L3 Digital Technologies internal-assessment markers actually reward.
+**Where Modern Age Coders adds value:** not by replacing school, NZ secondary schools are strong, particularly the well-resourced ones, but by adding the 1:1 depth, real working projects on GitHub, and the Excellence-grade portfolio polish that NCEA L3 Digital Technologies internal-assessment markers actually reward.
 
 **4.9 / 5**From 740 Kiwi parent & student reviews**NZST/NZDT**UTC+12 / +13 · India mentors 6.5–7.5h behind**NCEA**Direct alignment with NCEA L1, L2, L3 Digital Technologies**USD 150**Per month · no GST · cancel anytimeChoose your child's track
 
-## Pick the course that matches their year level — and book a trial in under 30 seconds.
+## Pick the course that matches their year level: and book a trial in under 30 seconds.
 
 Every course runs as live 1:1 with a mentor matched to your child's exact year. Two 45-minute sessions per week. USD 150 per month for 1:1, or USD 100 for small-group cohort.
 
-[Year 1 – 4 · Primary Little Coders — Block to Python Scratch & ScratchJr, then we bridge to real Python by month four. Play and animation-led. Strengthens primary-school mathematical thinking quietly. USD 150 / month · 1:1 · 8 sessions](/courses/coding/kids)[Year 5 – 8 · Primary / Intermediate Python Foundations + Micro:bit Real Python, real keyboard typing, real GitHub. Optional BBC micro:bit add-on for physical-computing projects. USD 150 / month · 1:1 · 8 sessions](/courses/coding/kids)[Year 9 – 10 · Junior Secondary Web Builders + AI Foundations HTML, CSS, JavaScript, React basics — they ship a real website by month two. AI module covers safe prompting and a first agent-style project. Sets up NCEA L1 well. USD 150 / month · 1:1 · 8 sessions](/courses/coding/teens)[Year 11 · NCEA Level 1 NCEA L1 Digital Technologies Direct alignment with the NCEA L1 DT Achievement Standards (AS 91070, 91071, 91074, 91075, 91879, 91880 and the rest). Internal assessment portfolios + external standards. USD 150 / month · 1:1 · 8 sessions](/courses/coding/teens)[Year 12 · NCEA Level 2 NCEA L2 Digital Technologies L2 Achievement Standards including AS 91893 (Programming), 91894 (Database), 91897 (Outcomes for an Identified Need). Aiming for Merit / Excellence credit blocks. USD 150 / month · 1:1 · 8 sessions](/courses/coding/teens)[Year 13 · NCEA L3 + UE NCEA L3 Digital Technologies + UE L3 Achievement Standards including AS 91906 (Programming), 91907 (Database), 91908 (Develop Outcomes), 91911 (Apply Software). UE-credit Excellence is the bar. USD 150 / month · 1:1 · 8 sessions](/courses/coding/teens)[Y11 – Y13 · CIE / IB CIE Cambridge A-Level / IB DP CS For NZ students taking Cambridge International AS & A Level (typically Auckland International College, Pinehurst, Saint Kentigern) or IB DP (typically ACG, AIC). Full coverage. USD 150 / month · 1:1 · 8 sessions](/courses/coding/teens)[University / Adult Agentic AI for Working Pros Python · SQL · LangChain · LangGraph · CrewAI · evaluations · production deployment. The stack Xero, Rocket Lab, Datacom and Pushpay recruit for. USD 150 / month · 1:1 · 8 sessions](/courses/coding/college)
+[Year 1, 4 · Primary Little Coders, Block to Python Scratch & ScratchJr, then we bridge to real Python by month four. Play and animation-led. Strengthens primary-school mathematical thinking quietly. USD 150 / month · 1:1 · 8 sessions](/courses/coding/kids)[Year 5: 8 · Primary / Intermediate Python Foundations + Micro:bit Real Python, real keyboard typing, real GitHub. Optional BBC micro:bit add-on for physical-computing projects. USD 150 / month · 1:1 · 8 sessions](/courses/coding/kids)[Year 9, 10 · Junior Secondary Web Builders + AI Foundations HTML, CSS, JavaScript, React basics, they ship a real website by month two. AI module covers safe prompting and a first agent-style project. Sets up NCEA L1 well. USD 150 / month · 1:1 · 8 sessions](/courses/coding/teens)[Year 11 · NCEA Level 1 NCEA L1 Digital Technologies Direct alignment with the NCEA L1 DT Achievement Standards (AS 91070, 91071, 91074, 91075, 91879, 91880 and the rest). Internal assessment portfolios + external standards. USD 150 / month · 1:1 · 8 sessions](/courses/coding/teens)[Year 12 · NCEA Level 2 NCEA L2 Digital Technologies L2 Achievement Standards including AS 91893 (Programming), 91894 (Database), 91897 (Outcomes for an Identified Need). Aiming for Merit / Excellence credit blocks. USD 150 / month · 1:1 · 8 sessions](/courses/coding/teens)[Year 13 · NCEA L3 + UE NCEA L3 Digital Technologies + UE L3 Achievement Standards including AS 91906 (Programming), 91907 (Database), 91908 (Develop Outcomes), 91911 (Apply Software). UE-credit Excellence is the bar. USD 150 / month · 1:1 · 8 sessions](/courses/coding/teens)[Y11: Y13 · CIE / IB CIE Cambridge A-Level / IB DP CS For NZ students taking Cambridge International AS & A Level (typically Auckland International College, Pinehurst, Saint Kentigern) or IB DP (typically ACG, AIC). Full coverage. USD 150 / month · 1:1 · 8 sessions](/courses/coding/teens)[University / Adult Agentic AI for Working Pros Python · SQL · LangChain · LangGraph · CrewAI · evaluations · production deployment. The stack Xero, Rocket Lab, Datacom and Pushpay recruit for. USD 150 / month · 1:1 · 8 sessions](/courses/coding/college)
 
 International schools in New Zealand run Cambridge (IGCSE and A-Level), IB and American (AP) curricula. These live courses prepare those exams directly.
 
@@ -124,7 +124,7 @@ Python · NIWA · MPI Open Data · CrewAI · StreamlitWho teaches your child
 
 ## A real mentor in NZ-friendly hours, every single class.
 
-Every Modern Age Coders NZ family is matched to a single named mentor. No platform-only, no chatbot-only, no rotating "hub teachers". The same mentor stays with your child for as long as it's working — typically 12 to 24 months. Several mentors have direct NCEA-teaching experience.
+Every Modern Age Coders NZ family is matched to a single named mentor. No platform-only, no chatbot-only, no rotating "hub teachers". The same mentor stays with your child for as long as it's working, typically 12 to 24 months. Several mentors have direct NCEA-teaching experience.
 
 JW
 
@@ -134,7 +134,7 @@ NCEA L3 Digital Technologies specialist · Ex-Auckland Grammar
 
 Nine years teaching NCEA L2/L3 DT at Auckland Grammar before going remote. Knows the NZQA Achievement Standards and exemplar moderation processes intimately.
 
-Active NZST 14:00 – 20:00AT
+Active NZST 14:00: 20:00AT
 
 ### Aroha T.
 
@@ -142,7 +142,7 @@ Te Reo Māori bilingual support · Tauranga-based
 
 Bilingual Te Reo Māori-English mentor, ex-Tauranga Girls'. Specifically supports kura kaupapa or Māori-medium students who want code-instruction in English with kōrero in Te Reo where helpful.
 
-Active NZST 15:00 – 21:00RM
+Active NZST 15:00: 21:00RM
 
 ### Rajesh M.
 
@@ -158,7 +158,7 @@ CIE / IB DP CS · Christchurch
 
 Ex-St Andrew's College Christchurch IB CS teacher. Supports CIE Cambridge A-Level and IB DP CS students at Auckland International College, ACG schools, Pinehurst, Saint Kentigern and the few-but-real IB schools across NZ.
 
-Active NZST 13:00 – 19:00SN
+Active NZST 13:00: 19:00SN
 
 ### Suresh N.
 
@@ -166,7 +166,7 @@ Agentic AI for adults · Ex-Xero engineering (Wellington remote)
 
 4 years remote engineering at Xero. Now mentors Auckland and Wellington-based working professionals shifting into agentic AI / LLM-engineering roles. Lots of ex-Xero referrals.
 
-Active NZST 17:00 – 22:00 + SatKS
+Active NZST 17:00: 22:00 + SatKS
 
 ### Kiri S.
 
@@ -174,7 +174,7 @@ Girls-only cohort lead · UoA CS MSc
 
 University of Auckland Computer Science Master's. Leads our girls-only Aotearoa cohort. Particularly strong with the Year 9–12 transition for girls. Popular with Diocesan, Baradene, St Cuthbert's and Samuel Marsden families.
 
-Active NZST 15:00 – 20:00Also at Modern Age Coders
+Active NZST 15:00: 20:00Also at Modern Age Coders
 
 ## Maths, taught with the same depth.
 
@@ -207,7 +207,7 @@ USD150/monthBilled in USD
 
 ### Small-Group Cohort
 
-3 – 5 learners, same year, same standards.
+3: 5 learners, same year, same standards.
 
 USD100/monthBilled in USD
 
@@ -219,7 +219,7 @@ USD100/monthBilled in USD
 
 We bill in **USD**, by Visa / Mastercard, or international bank transfer. No NZ GST is charged (we deliver cross-border online).
 
-NZ universities — at a glance
+NZ universities, at a glance
 
 ## Where our Kiwi students go for Computer Science, AI and Engineering.
 
@@ -247,7 +247,7 @@ School of Engineering & Computer Science (SECS). Strong industry links with Well
 
 CHRISTCHURCH
 
-CSSE — Computer Science & Software Engineering. Strong in research, particularly HCI and AI.
+CSSE: Computer Science & Software Engineering. Strong in research, particularly HCI and AI.
 
 #### Massey University
 
@@ -271,11 +271,11 @@ Computer Science, AI & data analytics. Strong reputation in machine-learning res
 
 CANTERBURY · LINCOLN
 
-Land-based university. Smaller CS programme but strong in agritech and data-science applied to the agricultural sector — uniquely NZ.
+Land-based university. Smaller CS programme but strong in agritech and data-science applied to the agricultural sector, uniquely NZ.
 
 Many of our Kiwi students also target overseas universities: **Melbourne, Sydney, ANU, UNSW, Monash, UQ** (AU Go8), **MIT, Stanford, CMU, UC Berkeley** (US), **Cambridge, Oxford, Imperial** (UK), **Waterloo, UofT, UBC** (CA).
 
-Where this leads — NZ tech
+Where this leads: NZ tech
 
 ## Xero, Rocket Lab and the wider Aotearoa tech ecosystem.
 
@@ -327,7 +327,7 @@ WELLINGTON · GOVT TECH
 
 #### NZ Govt Digital Services
 
-Te Tari Taiwhenua (Internal Affairs) digital teams, MBIE, and Inland Revenue digital — all hire substantial NZ-trained CS graduates. Stable, well-compensated.
+Te Tari Taiwhenua (Internal Affairs) digital teams, MBIE, and Inland Revenue digital, all hire substantial NZ-trained CS graduates. Stable, well-compensated.
 
 Plus the **NZ Tech Alliance**, **Callaghan Innovation**, **MBIE Hi-Tech**, the **NZ Hi-Tech Awards** ecosystem, and growing players like **Soul Machines**, **Halter**, **Dawn Aerospace**, **Tracksuit**, **Sharesies**, **Hnry**, **Vend (Lightspeed)**.
 
@@ -339,9 +339,9 @@ Day 0
 
 ### The callback
 
-You leave your **+64** number on the form. A mentor working NZST/NZDT calls within 3 hours — usually within 60 minutes during 16:00 – 21:00 NZST. No salesperson, no script. We ask 4 things: year level, school, NCEA / CIE / IB pathway, what you want from the next 6 months.
+You leave your **+64** number on the form. A mentor working NZST/NZDT calls within 3 hours, usually within 60 minutes during 16:00, 21:00 NZST. No salesperson, no script. We ask 4 things: year level, school, NCEA / CIE / IB pathway, what you want from the next 6 months.
 
-Day 1 – 2
+Day 1: 2
 
 ### Mentor match
 
@@ -357,19 +357,19 @@ Week 1
 
 ### Setup & first project
 
-Mentor sets up the dev environment on your child's home laptop (VS Code, Python, GitHub account). First "real" project shipped end of week 1 — usually a small Python game or a working Flask webpage. We send you the GitHub link.
+Mentor sets up the dev environment on your child's home laptop (VS Code, Python, GitHub account). First "real" project shipped end of week 1, usually a small Python game or a working Flask webpage. We send you the GitHub link.
 
-Week 2 – 3
+Week 2, 3
 
 ### Curriculum lock-in
 
-The mentor finalises the 6-month learning plan — mapped explicitly to your child's NCEA standards, the school's pace, or the CIE / IB syllabus the family is sitting. You can challenge or change anything.
+The mentor finalises the 6-month learning plan, mapped explicitly to your child's NCEA standards, the school's pace, or the CIE / IB syllabus the family is sitting. You can challenge or change anything.
 
 Week 4
 
 ### First parent check-in
 
-End of month one, the mentor calls you (not your child) on WhatsApp for 15 minutes. You hear what's working, what isn't, what to expect month 2. If month 1 wasn't great, we say so honestly and offer a different mentor — free.
+End of month one, the mentor calls you (not your child) on WhatsApp for 15 minutes. You hear what's working, what isn't, what to expect month 2. If month 1 wasn't great, we say so honestly and offer a different mentor, free.
 
 What families say · verified reviews
 
@@ -411,9 +411,9 @@ What we promise · and what we don't
 - Run the free trial as a real lesson, not a sales demo
 - Send a written 6-month outcome plan after the trial
 - Coordinate around NCEA internal-assessment due dates and externals
-- Be honest if your child needs a different mentor — and switch them, free
-- Bill in USD on the date you joined — never on the 1st-of-month surprise
-- Stop billing immediately on cancellation — no notice period, no last-month trick
+- Be honest if your child needs a different mentor, and switch them, free
+- Bill in USD on the date you joined, never on the 1st-of-month surprise
+- Stop billing immediately on cancellation, no notice period, no last-month trick
 
 ### We won't
 
@@ -423,37 +423,37 @@ What we promise · and what we don't
 - Sell you "gold / platinum / diamond" upsell packages
 - Auto-renew you onto a 12-month plan you didn't agree to
 - Pressure-call you if you don't continue after the trial
-- Quietly add NZ GST — there is none on our service for Kiwi families
+- Quietly add NZ GST. There is none on our service for Kiwi families
 
 Inside a typical class
 
 ## A real 45-minute Modern Age Coders NZ session, step by step.
 
-Minute 0 – 3
+Minute 0: 3
 
 ### Greeting and last-session check
 
-Mentor and student greet on Zoom. 2-minute recap: "What do you remember? What got stuck?" — no homework-style grilling.
+Mentor and student greet on Zoom. 2-minute recap: "What do you remember? What got stuck?", no homework-style grilling.
 
-Minute 3 – 10
+Minute 3, 10
 
 ### Concept moment
 
-Mentor introduces the one new concept — usually with a NZ-relevant example. ("Today we're learning dictionaries by storing every region of Aotearoa as a key and its largest city as the value.")
+Mentor introduces the one new concept, usually with a NZ-relevant example. ("Today we're learning dictionaries by storing every region of Aotearoa as a key and its largest city as the value.")
 
-Minute 10 – 35
+Minute 10: 35
 
 ### Live build
 
 Student writes real code. Mentor watches, prompts, helps debug. The mentor never types for the student.
 
-Minute 35 – 42
+Minute 35: 42
 
 ### Ship it
 
 Push to GitHub. Run the program. Sometimes screen-record a 30-second demo video for the family chat.
 
-Minute 42 – 45
+Minute 42: 45
 
 ### Wrap & preview
 
@@ -461,17 +461,17 @@ Mentor writes 2 lines into the session log (parents can read anytime). Previews 
 
 What a full year actually looks like
 
-## Three real 12-month plans — from Year 9 foundations, to NCEA L2, to Year-13 UE sprint.
+## Three real 12-month plans: from Year 9 foundations, to NCEA L2, to Year-13 UE sprint.
 
 Plan A
 
 ### Year 9 student · Hamilton · 12-month plan
 
-**Months 1–2:** Python fundamentals — variables, conditions, loops, functions. First GitHub repos.
+**Months 1–2:** Python fundamentals, variables, conditions, loops, functions. First GitHub repos.
  **Months 3–4:** Data structures, file I/O. First mini-project (their choice).
  **Months 5–6:** Object-oriented Python + a working game.
  **Months 7–8:** First webpage with HTML/CSS/JS. Flask intro.
- **Months 9–10:** AI module — using an LLM API safely, prompt design.
+ **Months 9–10:** AI module, using an LLM API safely, prompt design.
  **Months 11–12:** Capstone project. Ready to head into Year 10 NCEA-L1-prep confident.
  **Outcome:** NCEA L1 internal-assessment-ready, real GitHub portfolio.
 
@@ -480,20 +480,20 @@ Plan B
 ### Year 12 NCEA L2 student · Wellington · 12-month plan
 
 **Months 1–2:** NCEA L2 Achievement Standards review. Baseline assessment.
- **Months 3–4:** AS 91893 (Programming) internal-assessment project — coded, tested, documented.
+ **Months 3–4:** AS 91893 (Programming) internal-assessment project, coded, tested, documented.
  **Months 5–6:** AS 91894 (Database) project alongside.
- **Months 7–8:** AS 91897 (Outcomes for an Identified Need) — the big internal assessment.
+ **Months 7–8:** AS 91897 (Outcomes for an Identified Need), the big internal assessment.
  **Months 9–10:** External-standard exam prep (Nov externals).
  **Months 11–12:** Setup for NCEA L3 / UE year. AI module starts.
  **Outcome:** Strong NCEA L2 with Merit/Excellence credit blocks. Ready for L3 Year 13.
 
 Plan C
 
-### Year 13 NCEA L3 + UE candidate · Auckland · 12-month plan (Feb – Dec)
+### Year 13 NCEA L3 + UE candidate · Auckland · 12-month plan (Feb: Dec)
 
 **Months 1–2 (Feb–Mar):** L3 Achievement Standards mapping. AS 91906 (Programming) project topic locked in.
- **Months 3–4 (Apr–May):** Project build phase — coded, tested, internal moderation prep.
- **Months 5–6 (Jun–Jul):** AS 91908 (Develop Outcomes) — the big L3 project.
+ **Months 3–4 (Apr–May):** Project build phase, coded, tested, internal moderation prep.
+ **Months 5–6 (Jun–Jul):** AS 91908 (Develop Outcomes), the big L3 project.
  **Months 7–8 (Aug–Sep):** AS 91911 (Apply Software) finished + external prep.
  **Months 9–10 (Oct–Nov):** Final polish + external exams.
  **Months 11–12 (Dec):** Results + university applications.
@@ -501,7 +501,7 @@ Plan C
 
 Schools we've supported in NZ
 
-## A selection of NZ schools where our students attend — state, integrated, and private.
+## A selection of NZ schools where our students attend: state, integrated, and private.
 
 Not an endorsement by any school. These are simply schools where Modern Age Coders NZ students currently study.
 
@@ -511,29 +511,29 @@ Not an endorsement by any school. These are simply schools where Modern Age Code
 
 Leave your number. A mentor working NZST/NZDT will call you within 3 hours, ask 4 questions about your child's year and school, and either book a free trial or politely tell you we're not the right fit. No follow-up campaign. No spam. We've never sold a list.
 
-FAQ — NZ-specific
+FAQ: NZ-specific
 
 ## Twenty-six answers to the questions Kiwi parents (and adult learners) actually ask.
 
 Are you a NZ-registered company?
 
-We deliver as an education-services provider registered outside New Zealand, which is why no NZ GST applies to your bill. Delivery is online-only — there is no NZ office. We issue cross-border invoices in USD if needed.
+We deliver as an education-services provider registered outside New Zealand, which is why no NZ GST applies to your bill. Delivery is online-only. There is no NZ office. We issue cross-border invoices in USD if needed.
 
 Do you align with the NZQA NCEA framework?
 
-Yes. Direct alignment with NCEA Level 1, 2 and 3 Digital Technologies — both Achievement Standards and Unit Standards. We work from the NZQA-published assessment criteria and exemplars.
+Yes. Direct alignment with NCEA Level 1, 2 and 3 Digital Technologies. Both Achievement Standards and Unit Standards. We work from the NZQA-published assessment criteria and exemplars.
 
 What does "Excellence-graded credit" mean and why do you mention it so much?
 
-Each NCEA standard is graded Excellence / Merit / Achieved / Not Achieved. Excellence credits are the most differentiating for university applications and scholarships. We don't claim every student gets Excellence — we explicitly target it as the bar.
+Each NCEA standard is graded Excellence / Merit / Achieved / Not Achieved. Excellence credits are the most differentiating for university applications and scholarships. We don't claim every student gets Excellence. We explicitly target it as the bar.
 
 Can mentors help with the NCEA L3 internal-assessment portfolio?
 
-Yes — this is one of our strongest areas. We have mentors who personally taught NCEA L2/L3 DT at Auckland Grammar, St Andrew's College Christchurch, Wellington College and Macleans. They know what NZQA moderators reward.
+Yes, this is one of our strongest areas. We have mentors who personally taught NCEA L2/L3 DT at Auckland Grammar, St Andrew's College Christchurch, Wellington College and Macleans. They know what NZQA moderators reward.
 
 What about CIE Cambridge International AS / A-Level Computer Science?
 
-Yes — full Cambridge International AS & A Level CS coverage (9608 / 9618). Common for Auckland International College, Pinehurst, ACG, and a handful of other CIE-pathway NZ schools.
+Yes, full Cambridge International AS & A Level CS coverage (9608 / 9618). Common for Auckland International College, Pinehurst, ACG, and a handful of other CIE-pathway NZ schools.
 
 And IB Diploma Programme?
 
@@ -541,19 +541,19 @@ Yes. IB Computer Science HL & SL with ex-IB-examiner support. Internal Assessmen
 
 Do you coach the NZ Olympiad in Informatics (NZOI)?
 
-Yes — algorithms, data structures, dynamic programming, competitive programming. We've coached students through NZOI selection rounds. Most NZOI-bound students come to us in Year 10 or 11 and work intensively for 8 – 18 months.
+Yes, algorithms, data structures, dynamic programming, competitive programming. We've coached students through NZOI selection rounds. Most NZOI-bound students come to us in Year 10 or 11 and work intensively for 8, 18 months.
 
 What about the New Zealand Programming Contest (NZPC)?
 
-Yes — team coaching for university-level NZPC events. About 1 in 6 of our advanced Y13 students continue into university and compete in NZPC during first-year or second-year.
+Yes, team coaching for university-level NZPC events. About 1 in 6 of our advanced Y13 students continue into university and compete in NZPC during first-year or second-year.
 
 What time zone do mentors work in?
 
-NZST (UTC+12) in winter, NZDT (UTC+13) in summer. Most mentors are based in India (IST, 6.5–7.5 hours behind), so a 4 pm NZ class is 9:30 am IST — normal teaching hours on both ends. UK mentors deliver in their morning to your afternoon.
+NZST (UTC+12) in winter, NZDT (UTC+13) in summer. Most mentors are based in India (IST, 6.5–7.5 hours behind), so a 4 pm NZ class is 9:30 am IST, normal teaching hours on both ends. UK mentors deliver in their morning to your afternoon.
 
 What does it cost per month?
 
-Private 1:1 mentorship is USD 150 per month — 8 sessions, two each week. Small-group cohort is USD 100 per month. No NZ GST. No joining fee.
+Private 1:1 mentorship is USD 150 per month: 8 sessions, two each week. Small-group cohort is USD 100 per month. No NZ GST. No joining fee.
 
 How do I pay?
 
@@ -569,15 +569,15 @@ Every mentor undergoes a structured 4-step interview, paid trial-teaching, and a
 
 What if my child needs a different mentor?
 
-You ask, we switch — free, within 48 hours.
+You ask, we switch, free, within 48 hours.
 
 Does your schedule respect NCEA exam fortnights?
 
-Yes — automatically. During NCEA externals (typically early November) and internal-assessment due weeks, we reduce intensity, switch to lighter review sessions, or pause entirely. No bill changes.
+Yes, automatically. During NCEA externals (typically early November) and internal-assessment due weeks, we reduce intensity, switch to lighter review sessions, or pause entirely. No bill changes.
 
 Can my child practise in Te Reo Māori?
 
-Code itself is in English (Python keywords are English; GitHub is English — universal). But for kura kaupapa or Māori-medium learners, we can pair them with a Te Reo Māori-fluent mentor who explains concepts in Te Reo and walks through code in English.
+Code itself is in English (Python keywords are English; GitHub is English, universal). But for kura kaupapa or Māori-medium learners, we can pair them with a Te Reo Māori-fluent mentor who explains concepts in Te Reo and walks through code in English.
 
 How does this work for rural / Southland / Far North families?
 
@@ -589,9 +589,9 @@ Yes. Common from Diocesan, Baradene, St Cuthbert's, Marsden, Wellington Girls', 
 
 How do I cancel?
 
-One email. No phone call required. No retention agent will hassle you. We stop billing on the cancellation date — no notice period, no last-month trick.
+One email. No phone call required. No retention agent will hassle you. We stop billing on the cancellation date, no notice period, no last-month trick.
 
-Will my child be safe online — especially with AI tools?
+Will my child be safe online, especially with AI tools?
 
 Under-13s never interact with raw LLM APIs without a mentor present. We use age-appropriate models, guardrailed prompts, content filters and a sandbox-only rule.
 
@@ -601,35 +601,35 @@ The mentor stays. Only the time zone changes. Many Kiwi families have relocated 
 
 Do you offer scholarships for Kiwi students?
 
-Yes — a small annual scholarship pool for high-potential students whose families can't comfortably afford USD 150 / month. Email a short note from the parent + a piece of work from the child. We award 8 – 12 NZ scholarships per academic year.
+Yes, a small annual scholarship pool for high-potential students whose families can't comfortably afford USD 150 / month. Email a short note from the parent + a piece of work from the child. We award 8, 12 NZ scholarships per academic year.
 
-What happens during the summer holidays (Dec – Feb)?
+What happens during the summer holidays (Dec, Feb)?
 
 Sessions pause automatically during the official NZ school summer break unless the family specifically wants summer-intensive blocks (which many do). No need to email us.
 
 Are sessions on Zoom or Microsoft Teams?
 
-Default is Zoom — most NZ families are familiar with it. If your school or family prefers Teams or Google Meet, mentors will use whichever you prefer.
+Default is Zoom. Most NZ families are familiar with it. If your school or family prefers Teams or Google Meet, mentors will use whichever you prefer.
 
 Will mentors help with UCAS or Australian Tertiary admissions (UAC, VTAC, QTAC) for overseas-bound students?
 
-Yes — about 1 in 8 of our advanced NZ students apply to AU Go8 universities (Melbourne, Sydney, UNSW, Monash) or UK Russell Group via UCAS. We help shape personal statements and project portfolios. We don't write essays for students, ever.
+Yes, about 1 in 8 of our advanced NZ students apply to AU Go8 universities (Melbourne, Sydney, UNSW, Monash) or UK Russell Group via UCAS. We help shape personal statements and project portfolios. We don't write essays for students, ever.
 
 Will the mentor know my child's specific school's NCEA implementation?
 
-Generally yes — we have direct ex-teacher experience from Auckland Grammar, Macleans, Westlake Boys, Wellington College, St Andrew's Christchurch and others. For schools we haven't directly taught at, the mentor will spend the first session understanding your child's specific Achievement Standards mix.
+Generally yes. We have direct ex-teacher experience from Auckland Grammar, Macleans, Westlake Boys, Wellington College, St Andrew's Christchurch and others. For schools we haven't directly taught at, the mentor will spend the first session understanding your child's specific Achievement Standards mix.
 
-Do you work with primary-school children (Year 1 – 6)?
+Do you work with primary-school children (Year 1, 6)?
 
-Yes — primary is one of our fastest-growing NZ cohorts. We don't push hard; primary-age is about building curiosity and confidence. Two 30-45 minute sessions a week, Scratch & ScratchJr at first, real Python by month four, real GitHub by month six.
+Yes, primary is one of our fastest-growing NZ cohorts. We don't push hard; primary-age is about building curiosity and confidence. Two 30-45 minute sessions a week, Scratch & ScratchJr at first, real Python by month four, real GitHub by month six.
 
 My child is dyslexic / has ADHD / has additional needs. Can you accommodate?
 
-Yes. About 14% of our NZ students have a learning difference. We adapt pacing, lesson structure, and screen-formatting on request. Honest disclosure of needs on the callback lets us match to the right mentor — we have several mentors who specialise in supporting neurodivergent learners.
+Yes. About 14% of our NZ students have a learning difference. We adapt pacing, lesson structure, and screen-formatting on request. Honest disclosure of needs on the callback lets us match to the right mentor. We have several mentors who specialise in supporting neurodivergent learners.
 
 What about Boards of Trustees / school-system communication if I want my child's school to know about the mentorship?
 
-We can email your child's BOT or HoD-Digital-Technologies a short letter outlining what we're covering. Several NZ schools have welcomed this — it lets the classroom teacher coordinate around the external mentorship. We don't insist on this; it's optional.
+We can email your child's BOT or HoD-Digital-Technologies a short letter outlining what we're covering. Several NZ schools have welcomed this. It lets the classroom teacher coordinate around the external mentorship. We don't insist on this; it's optional.
 
 Common Kiwi parent worries
 
@@ -637,7 +637,7 @@ Common Kiwi parent worries
 
 "My Year-13 student is already balancing 5 subjects for NCEA L3. Will this add too much?"
 
-If NCEA L3 Digital Technologies is one of those 5, then we're directly useful — we cover the standards they're being assessed on, with 1:1 depth their school class size can't match. If DT is NOT in their 5, we'd suggest a different mentor (maybe NCEA Maths or Physics support). We won't push you into the wrong fit.
+If NCEA L3 Digital Technologies is one of those 5, then we're directly useful. We cover the standards they're being assessed on, with 1:1 depth their school class size can't match. If DT is NOT in their 5, we'd suggest a different mentor (maybe NCEA Maths or Physics support). We won't push you into the wrong fit.
 
 "My Year-12 child already does NCEA, sports, drama and CCAs. Will this fit?"
 
@@ -651,7 +651,7 @@ Under-13s never interact with raw LLM APIs without a mentor present. Age-appropr
 
 Of course. Just ask on the callback. All-female mentor pool with identical curriculum, depth and pricing.
 
-"We live in rural Southland / Far North / West Coast — will the mentor be Auckland-centric?"
+"We live in rural Southland / Far North / West Coast, will the mentor be Auckland-centric?"
 
 No. Online means location doesn't matter. We have students in Invercargill, Bluff, Kaitaia, Westport getting the same quality as Remuera kids. The mentor is more likely to make a regional joke about your rugby team than to ask "where's that?"
 
@@ -661,11 +661,11 @@ None of our mentors are. Every mentor is a full-time professional educator with 
 
 "My child wants to study in Australia after school. Is this still worth doing?"
 
-Yes — especially yes. Strong NCEA L3 (with Excellence credits) plus a real GitHub portfolio is exactly what Melbourne, Sydney, UNSW, ANU, Monash and UQ look for in NZ-applicants. About 1 in 6 of our advanced NZ students target an Australian Go8 university.
+Yes, especially yes. Strong NCEA L3 (with Excellence credits) plus a real GitHub portfolio is exactly what Melbourne, Sydney, UNSW, ANU, Monash and UQ look for in NZ-applicants. About 1 in 6 of our advanced NZ students target an Australian Go8 university.
 
 "We can't afford USD 150/month right now. Anything we can do?"
 
-Be honest on the callback. We have a small annual scholarship pool (8 – 12 awards / year, 50%–100% off monthly fee). We also have a cohort option at USD 100 which is a meaningfully smaller commitment. We'd rather help you find an option that fits than lose you to a "no fit at any price" outcome.
+Be honest on the callback. We have a small annual scholarship pool (8: 12 awards / year, 50%–100% off monthly fee). We also have a cohort option at USD 100 which is a meaningfully smaller commitment. We'd rather help you find an option that fits than lose you to a "no fit at any price" outcome.
 
 "My child is non-binary / gender-diverse. Is the mentor pool inclusive?"
 
@@ -673,11 +673,11 @@ Yes. We don't make assumptions about who teaches whom. Several mentors are openl
 
 "My family is Pasifika. Will mentors understand our cultural context?"
 
-We do our best. Several of our NZ-based mentors have direct Pasifika cultural literacy. We don't claim deep expertise — but we listen, we adapt, and we respect when a family wants the mentor to understand the rhythm of fale-fa'a-tamāli'i, church-Sunday and aiga obligations around scheduling. Honest disclosure on the callback always helps.
+We do our best. Several of our NZ-based mentors have direct Pasifika cultural literacy. We don't claim deep expertise, but we listen, we adapt, and we respect when a family wants the mentor to understand the rhythm of fale-fa'a-tamāli'i, church-Sunday and aiga obligations around scheduling. Honest disclosure on the callback always helps.
 
 "We're rurally based and our internet can be patchy. Will this still work?"
 
-Yes, in our experience. Zoom in low-bandwidth mode plus a backup phone call if Zoom drops out — we've maintained classes through Far-North storms, West-Coast outages, and Coromandel cyclone-recovery weeks. Sessions are recorded so a missed minute doesn't matter.
+Yes, in our experience. Zoom in low-bandwidth mode plus a backup phone call if Zoom drops out. We've maintained classes through Far-North storms, West-Coast outages, and Coromandel cyclone-recovery weeks. Sessions are recorded so a missed minute doesn't matter.
 
 "My child is autistic / on the spectrum. Are mentors trained?"
 
@@ -685,31 +685,31 @@ Several of our mentors have specific neurodivergent-supporting training and dire
 
 Real shipped student projects
 
-## Real apps our students built — live, public, and yours to open.
+## Real apps our students built: live, public, and yours to open.
 
 Every project below was built by a Modern Age Coders student and is live on the internet right now. Tap any card to open the real thing. See the full wall at [Student Labs](/student-labs).
 
 Built by Aarush · Game
 
-### Palm Arcana — Summon the Elements
+### Palm Arcana: Summon the Elements
 
-Open your palms to the webcam and computer vision turns your gestures into real magic — the left palm throws a fireball, the right crackles with lightning.
+Open your palms to the webcam and computer vision turns your gestures into real magic, the left palm throws a fireball, the right crackles with lightning.
 
 Vibe CodingComputer VisionJavaScriptCanvas[Open the live project ↗](https://superpawer.netlify.app)Built by Krish · Web App
 
-### SkyCast — Weather Forecast App
+### SkyCast: Weather Forecast App
 
-An interactive weather forecasting site with real-time updates for any location — temperature, humidity, wind speed and conditions in a clean, responsive interface.
+An interactive weather forecasting site with real-time updates for any location, temperature, humidity, wind speed and conditions in a clean, responsive interface.
 
 JavaScriptAPIHTML/CSS[Open the live project ↗](https://krish-shroff.github.io/AuraWeatherTech/)Built by Raayan · Web App
 
-### LumenFX — AR/VR Photo Effects Studio
+### LumenFX: AR/VR Photo Effects Studio
 
-Upload a photo and transform it with cinematic filters, AR face effects and the wildest trending edits — the same looks blowing up on TikTok, Reels and Snap, with 240+ one-tap presets.
+Upload a photo and transform it with cinematic filters, AR face effects and the wildest trending edits, the same looks blowing up on TikTok, Reels and Snap, with 240+ one-tap presets.
 
 Vibe CodingAR / VRWebGLLovable[Open the live project ↗](https://arvrbadestweb.lovable.app)Built by Harshit · AI & ML
 
-### Misti — AI Chatbot for Maths & Coding
+### Misti: AI Chatbot for Maths & Coding
 
 An intelligent AI-powered chatbot that helps students solve maths and coding questions with deep, step-by-step explanations using advanced Python AI frameworks and LLM APIs.
 
@@ -717,17 +717,17 @@ PythonAI/MLLLM APIs[Open the live project ↗](https://misti.modernagecoders.com
 
 ### Simon Game
 
-A fun memory-based game where players repeat colour and sound sequences. Each level adds a new challenge — brain-boosting for kids learning logic and focus.
+A fun memory-based game where players repeat colour and sound sequences. Each level adds a new challenge, brain-boosting for kids learning logic and focus.
 
 HTMLCSSJavaScript[Open the live project ↗](http://yashaswi-2017.my.canva.site)Built by Vedant · Web App
 
-### MyDay — Social Productivity Organizer
+### MyDay: Social Productivity Organizer
 
-A beautifully designed productivity platform to organise daily tasks, set goals and stay consistent — with a community feed of others' plans for inspiration.
+A beautifully designed productivity platform to organise daily tasks, set goals and stay consistent, with a community feed of others' plans for inspiration.
 
 JavaScriptNode.jsMongoDBPython[Open the live project ↗](https://myday.modernagecoders.com)Where our NZ students live
 
-## Regional spotlights — Auckland to Invercargill.
+## Regional spotlights: Auckland to Invercargill.
 
 Aotearoa is small but regionally diverse. The schools in Epsom behave differently from the schools in Tauranga, which differ from rural Westland. Here's where our current Kiwi students are based.
 
@@ -741,7 +741,7 @@ Densest cluster. Auckland Grammar, Diocesan, King's College, Macleans, Saint Ken
 
 ### Takapuna, Devonport, Albany
 
-Strong state-school cluster — Westlake Boys/Girls, Rangitoto College, plus Pinehurst (private). Many Tech-employee parent families.
+Strong state-school cluster: Westlake Boys/Girls, Rangitoto College, plus Pinehurst (private). Many Tech-employee parent families.
 
 **Schools:** Westlake Boys/Girls · Rangitoto · Pinehurst · Takapuna GrammarWELLINGTON
 
@@ -810,11 +810,11 @@ A note on the Kiwi school day
 
 Most NZ secondary students return home between 3 pm and 4 pm. Many have rugby / netball / drama / kapa haka / homework till 7 pm. We've engineered the schedule:
 
-- **Weeknight slots** — 4 pm – 9 pm NZST/NZDT, accommodating sport and homework.
-- **Saturday morning blocks** — 10 am – 1 pm NZST, popular with NCEA L2/L3 families.
-- **December – January summer** — intensive blocks available for students who want to accelerate.
-- **NCEA externals (Nov)** — automatic intensity reduction. No bill changes.
-- **School terms 1–4** — we follow the NZ school term structure; pauses align with school holidays unless family wants intensives.
+- **Weeknight slots**, 4 pm, 9 pm NZST/NZDT, accommodating sport and homework.
+- **Saturday morning blocks**, 10 am, 1 pm NZST, popular with NCEA L2/L3 families.
+- **December, January summer**, intensive blocks available for students who want to accelerate.
+- **NCEA externals (Nov)**, automatic intensity reduction. No bill changes.
+- **School terms 1–4**, we follow the NZ school term structure; pauses align with school holidays unless family wants intensives.
 
 Worth saying out loud
 
@@ -822,9 +822,9 @@ Worth saying out loud
 
 Most of our mentors are India-based; a smaller pool is NZ-based (ex-Auckland Grammar, ex-Wellington College, ex-St Andrew's Christchurch, kura-kaupapa-trained) or Australia-based. Here's why this mix works for Kiwi families, said plainly:
 
-- **Time zones align.** India is 6.5–7.5 hours behind NZ; a 4 pm NZ class is 9:30 am India — normal teaching hours on both ends. Australian mentors are 2 hours behind.
-- **CS depth is world-class.** India produces more CS graduates per year than any other country, and the top tier — IIT JEE Advanced clearers, top-IIT placement engineers — is who teaches your child. UoA, Otago and IIT graduates respect each other's standards.
-- **Native English-medium teaching.** Indian mentors deliver in clear, professional English. For Māori-medium learners, we pair with a Te Reo-fluent bilingual mentor — code in English, kōrero in Te Reo.
+- **Time zones align.** India is 6.5–7.5 hours behind NZ; a 4 pm NZ class is 9:30 am India, normal teaching hours on both ends. Australian mentors are 2 hours behind.
+- **CS depth is world-class.** India produces more CS graduates per year than any other country, and the top tier, IIT JEE Advanced clearers, top-IIT placement engineers, is who teaches your child. UoA, Otago and IIT graduates respect each other's standards.
+- **Native English-medium teaching.** Indian mentors deliver in clear, professional English. For Māori-medium learners, we pair with a Te Reo-fluent bilingual mentor, code in English, kōrero in Te Reo.
 - **Kiwi-system knowledge is our investment.** Our NZ-trained mentors and ex-NZ-teachers carry the NCEA / NZQA Achievement-Standards knowledge so the broader pool can scale. You never need to explain NCEA to anyone.
 - **Cost structure makes 1:1 viable.** A Wellington-based academy charging USD 150 / month would be forced to use 5:1 group sessions. Our model allows real 1:1 with a named mentor for the same monthly cost.
 - **No "tall poppy" sales pressure.** Kiwi parents quietly hate hard-sell tactics. Our mentors don't do scripts, don't do urgency pitches, don't do "limited spots". The first call is just a conversation.
@@ -835,7 +835,7 @@ Last word
 
 No quiz, no pop-up, no sales pressure. Leave a +64 number, a mentor working NZST/NZDT calls within three hours, and you decide everything from there.
 
-We hope you've found this page useful even if you don't end up booking. Kiwi parents are level-headed and direct — if anything here didn't ring true, please tell us. We rewrite this page based on real parent feedback every few months.
+We hope you've found this page useful even if you don't end up booking. Kiwi parents are level-headed and direct, if anything here didn't ring true, please tell us. We rewrite this page based on real parent feedback every few months.
 
 [Browse all courses](/courses)
 

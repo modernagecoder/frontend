@@ -69,7 +69,7 @@ SELECT * FROM b;
 
 *Hint:* Later CTEs can see earlier CTEs.
 
-**Answer:** Yes — b references a, returns `2`.
+**Answer:** Yes, b references a, returns `2`.
 
 Multiple CTEs separated by commas. Each later CTE can reference earlier ones. Not the other way round: a cannot reference b.
 
@@ -125,7 +125,7 @@ For single-use subqueries, CTE and derived table are equivalent. For multi-step 
 
 *Hint:* Scope.
 
-**Answer:** No — a CTE exists only for the duration of the statement that declares it. For cross-statement reuse, create a VIEW (persistent) or a TEMPORARY TABLE (session-scoped).
+**Answer:** No, a CTE exists only for the duration of the statement that declares it. For cross-statement reuse, create a VIEW (persistent) or a TEMPORARY TABLE (session-scoped).
 
 This is the fundamental difference between CTEs and views. If you need the CTE twice, either redeclare it or promote it to a view.
 
@@ -295,7 +295,7 @@ SELECT COUNT(*) FROM r;
 
 **Answer:** `6`
 
-Values: 0, 2, 4, 6, 8, 10 — six rows.
+Values: 0, 2, 4, 6, 8, 10, six rows.
 
 ### Q3. [Medium] Can a CTE be referenced outside the statement that declares it?
 
@@ -307,9 +307,9 @@ Use a VIEW or TEMPORARY TABLE for cross-statement reuse.
 
 ### Q4. [Medium] Given a CTE returning 5 rows, and you reference it 3 times in the outer query, how many times does MySQL evaluate it?
 
-*Hint:* The optimizer decides — may be once or multiple times.
+*Hint:* The optimizer decides, may be once or multiple times.
 
-**Answer:** It depends — MySQL may inline the CTE (evaluating once per reference) or materialize it (evaluate once, reuse). MySQL 8.0 generally inlines non-recursive CTEs.
+**Answer:** It depends, MySQL may inline the CTE (evaluating once per reference) or materialize it (evaluate once, reuse). MySQL 8.0 generally inlines non-recursive CTEs.
 
 Logically, the semantics are 'compute once'. Physically, MySQL decides. For deterministic performance on expensive CTEs, benchmark with EXPLAIN and consider a TEMPORARY TABLE if repeated evaluation hurts.
 
@@ -386,7 +386,7 @@ Two CTEs keep the logic clean: per-customer totals and one row for the grand tot
 
 *Hint:* Performance and correctness.
 
-**Answer:** UNION removes duplicates, which would require checking every new row against the entire accumulated set — very expensive. UNION ALL blindly appends, which is O(1) per row. Also, correctness: deduplication could prematurely drop rows if duplicates are meaningful (e.g., counting paths).
+**Answer:** UNION removes duplicates, which would require checking every new row against the entire accumulated set, very expensive. UNION ALL blindly appends, which is O(1) per row. Also, correctness: deduplication could prematurely drop rows if duplicates are meaningful (e.g., counting paths).
 
 If you truly need deduplication in a recursive CTE, apply DISTINCT at the final SELECT, not inside the recursion.
 
@@ -563,7 +563,7 @@ D. [object Object]
 
 **Answer:** B
 
-**B is correct.** Raise the limit: `SET @@cte_max_recursion_depth = 100;`. Verify termination logic is correct first — raising the limit on a runaway query just delays the error.
+**B is correct.** Raise the limit: `SET @@cte_max_recursion_depth = 100;`. Verify termination logic is correct first, raising the limit on a runaway query just delays the error.
 
 ### Q16. [Easy] Which statement types can use a CTE?
 

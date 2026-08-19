@@ -1,14 +1,14 @@
 /**
  * The stamping engine: rewrites prices inside an HTML string.
  *
- * Two kinds of anchor, both of which must be present in the page already —
+ * Two kinds of anchor, both of which must be present in the page already, 
  * this engine never guesses which number is a price.
  *
  *   1. Visible text
  *        <span data-price="coding.india.group">₹1,499</span>
  *      The element's entire contents are replaced. Optional attributes:
  *        data-price-format  display (default) | amount | plain | full | split | symbol
- *        data-price-derive  perClass | perHour   — recalculated, never substituted
+ *        data-price-derive  perClass | perHour, recalculated, never substituted
  *
  *   2. Structured data for Google
  *        <script type="application/ld+json" data-price-scope="coding.india">
@@ -81,7 +81,7 @@ function renderVisible(key, format, deriveKind, config) {
     let amount = r.amount;
     if (deriveKind) {
         amount = cfgLib.derive(deriveKind, amount, config, key);
-        // Per-class figures are shown as whole units — ₹187, not ₹187.375.
+        // Per-class figures are shown as whole units, ₹187, not ₹187.375.
         amount = r.currency === 'INR' ? Math.round(amount) : Math.round(amount * 100) / 100;
     }
 
@@ -90,7 +90,7 @@ function renderVisible(key, format, deriveKind, config) {
         : config.display.periodLabels.monthly;
 
     if (format === 'split') {
-        // <span class="price-currency">₹</span>1499 — the shape used on the
+        // <span class="price-currency">₹</span>1499, the shape used on the
         // homepage and pricing page cards.
         return '<span class="price-currency">' + cfgLib.format(amount, r.currency, { style: 'symbol' }) + '</span>' +
             cfgLib.format(amount, r.currency, { style: 'plain' });
@@ -185,7 +185,7 @@ function stampJsonLd(html, config, report) {
             // The offer's OWN priceCurrency decides its region; the scope only
             // supplies the subject. Some India-facing pages publish INR and
             // USD offers inside one block, and resolving every offer against
-            // the scope's region turned a ₹1,499 INR offer into $149.99 USD —
+            // the scope's region turned a ₹1,499 INR offer into $149.99 USD, 
             // a fabricated dollar price on a rupee plan.
             const curM = offerText.match(/"priceCurrency"\s*:\s*"([^"]*)"/);
             const region = (curM && curM[1] === 'INR') ? 'india' : parts[1];

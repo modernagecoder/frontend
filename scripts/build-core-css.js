@@ -1,5 +1,5 @@
 /**
- * build-core-css.js — Merge the new architecture files into core.css
+ * build-core-css.js: Merge the new architecture files into core.css
  *
  * Phase 1 CSS Architecture Overhaul.
  * Outputs src/css/core.css which is the single file every page loads
@@ -13,7 +13,7 @@ const path = require('path');
 
 const cssDir = path.join(__dirname, '..', 'src', 'css');
 
-// Order matters — files cascade in this order.
+// Order matters, files cascade in this order.
 // @layer in tokens.css declares layer order, but physical order is still
 // used when a property isn't inside a layer.
 const files = [
@@ -26,7 +26,7 @@ const files = [
 ];
 
 let output = `/**
- * CORE.CSS — Auto-generated bundle
+ * CORE.CSS: Auto-generated bundle
  *
  * DO NOT EDIT DIRECTLY.
  * Edit the source files in src/css/ and run \`npm run build:core-css\`.

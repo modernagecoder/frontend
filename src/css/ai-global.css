@@ -1,5 +1,5 @@
 /* ============================================================================
-   ai-global.css — "The Build Log"
+   ai-global.css, "The Build Log"
    Shared identity for the global Build-AI cluster (20 market pages + hub).
 
    Prefix: ag-        Body class: ag-root ag-<iso>
@@ -7,7 +7,7 @@
 
    Design brief: a technical field notebook. Warm paper, ink text, hairline
    rules, monospace labels and numbers, a numbered spine running down the
-   protocol steps. No gradients, no glows, no scroll-reveal JS — every section
+   protocol steps. No gradients, no glows, no scroll-reveal JS, every section
    is visible with JavaScript disabled, which is deliberate for crawlers.
    ========================================================================= */
 

@@ -19,7 +19,7 @@ category: "SQL"
 SELECT COUNT(*) FROM orders;
 ```
 
-Returns 12 — all rows.
+Returns 12, all rows.
 
 ### Q2. [Easy] What is the total revenue (sum of all amounts)?
 
@@ -87,7 +87,7 @@ Delivered orders: ids 1,2,4,6,7,9,10,12. Sum: 2500+1800+3200+1200+6700+3800+8900
 SELECT COUNT(*) FROM orders WHERE status = 'Cancelled';
 ```
 
-ids 3 and 8 — 2 orders.
+ids 3 and 8: 2 orders.
 
 ### Q9. [Medium] What does this return?
 
@@ -135,7 +135,7 @@ A frequent interview question. If you want the total number of rows, always use 
 
 *Hint:* SQL standard behavior.
 
-**Answer:** Because there are no values to sum, SQL returns NULL — the logical 'unknown.' Returning 0 would be an assumption. If you want 0, use `COALESCE(SUM(col), 0)`. This convention also applies to MIN, MAX, and AVG: all-NULL input yields NULL output.
+**Answer:** Because there are no values to sum, SQL returns NULL, the logical 'unknown.' Returning 0 would be an assumption. If you want 0, use `COALESCE(SUM(col), 0)`. This convention also applies to MIN, MAX, and AVG: all-NULL input yields NULL output.
 
 Can surprise you when a filter returns 0 rows. Your SUM-based KPI suddenly shows NULL instead of 0, breaking charts or triggering alerts.
 
@@ -161,7 +161,7 @@ SELECT AVG(amount) FROM orders WHERE status = 'Delivered';
 
 Sum of delivered: 27600. Count: 8. Avg: 3450.00.
 
-### Q16. [Medium] Count how many orders each status type has (preview of GROUP BY — use conditional aggregation).
+### Q16. [Medium] Count how many orders each status type has (preview of GROUP BY: use conditional aggregation).
 
 *Hint:* SUM(CASE WHEN ...).
 
@@ -208,13 +208,13 @@ SELECT customer_name, amount FROM orders
 WHERE amount > (SELECT AVG(amount) FROM orders);
 ```
 
-Overall avg = 3708.33. Orders above: Rohan 5600, Vikram 4500, Karan 6700, Aditya 3800, Diya 8900. 5 rows. You CANNOT use WHERE amount > AVG(amount) directly — you need the subquery.
+Overall avg = 3708.33. Orders above: Rohan 5600, Vikram 4500, Karan 6700, Aditya 3800, Diya 8900. 5 rows. You CANNOT use WHERE amount > AVG(amount) directly. You need the subquery.
 
 ### Q20. [Hard] Why can't you use WHERE amount > AVG(amount) directly?
 
 *Hint:* Order of operations.
 
-**Answer:** Because WHERE runs BEFORE aggregation. When WHERE evaluates each row, AVG has not been computed yet — the aggregate needs all rows to finish first. SQL enforces a strict order: FROM → WHERE → GROUP BY → HAVING → SELECT → ORDER BY → LIMIT. Aggregates belong in SELECT or HAVING, not WHERE. To compare a row to an aggregate, use a subquery that computes the aggregate separately.
+**Answer:** Because WHERE runs BEFORE aggregation. When WHERE evaluates each row, AVG has not been computed yet, the aggregate needs all rows to finish first. SQL enforces a strict order: FROM → WHERE → GROUP BY → HAVING → SELECT → ORDER BY → LIMIT. Aggregates belong in SELECT or HAVING, not WHERE. To compare a row to an aggregate, use a subquery that computes the aggregate separately.
 
 This is a foundational concept. Understanding execution order prevents many SQL mistakes and is tested in every interview.
 
@@ -230,7 +230,7 @@ WHERE status = 'Delivered';
 
 **Answer:** `8, 6, 6`
 
-Delivered orders: 8 total. Of those, discount is NULL in 1 row (id 2). Wait let me check: delivered ids are 1,2,4,6,7,9,10,12. Their discounts: 100, NULL, 200, 50, 600, 300, 1000, 100. One NULL (id 2), so COUNT(discount) = 7. Distinct cities: Mumbai (1,4,7), Delhi (2,12), Chennai (6), Pune (9), Bengaluru (10) — 5 unique. Corrected: 8, 7, 5.
+Delivered orders: 8 total. Of those, discount is NULL in 1 row (id 2). Wait let me check: delivered ids are 1,2,4,6,7,9,10,12. Their discounts: 100, NULL, 200, 50, 600, 300, 1000, 100. One NULL (id 2), so COUNT(discount) = 7. Distinct cities: Mumbai (1,4,7), Delhi (2,12), Chennai (6), Pune (9), Bengaluru (10): 5 unique. Corrected: 8, 7, 5.
 
 ### Q22. [Hard] What was the average order amount in February 2026?
 
@@ -273,9 +273,9 @@ Gross: 44500. Total discount: 2850. Net: 41650. Without COALESCE, SUM(discount) 
 
 *Hint:* Logical execution order.
 
-**Answer:** Logical order: FROM → WHERE → GROUP BY → HAVING → SELECT (including aggregates) → ORDER BY → LIMIT. Aggregates are computed during the SELECT phase after WHERE has already filtered rows. This is why WHERE cannot reference aggregates — they do not exist yet. ORDER BY runs after aggregates, so it CAN reference aliases and aggregate results.
+**Answer:** Logical order: FROM → WHERE → GROUP BY → HAVING → SELECT (including aggregates) → ORDER BY → LIMIT. Aggregates are computed during the SELECT phase after WHERE has already filtered rows. This is why WHERE cannot reference aggregates. They do not exist yet. ORDER BY runs after aggregates, so it CAN reference aliases and aggregate results.
 
-Memorize this order. Almost every SQL quirk — where you can use an alias, why WHERE can't see aggregates, why ORDER BY can — comes from execution order.
+Memorize this order. Almost every SQL quirk, where you can use an alias, why WHERE can't see aggregates, why ORDER BY can, comes from execution order.
 
 ## Mixed Questions
 
@@ -325,7 +325,7 @@ SELECT AVG(amount) FROM orders;
 
 **Answer:** `3`
 
-Delivered, Cancelled, Pending — 3 unique statuses.
+Delivered, Cancelled, Pending: 3 unique statuses.
 
 ### Q6. [Easy] Count Mumbai orders.
 
@@ -603,7 +603,7 @@ D. [object Object]
 
 **Answer:** C
 
-**C is correct.** Both count all rows. Modern optimizers treat them the same. Old myth says COUNT(1) is faster — it is not. Use COUNT(*) — it's idiomatic SQL.
+**C is correct.** Both count all rows. Modern optimizers treat them the same. Old myth says COUNT(1) is faster, it is not. Use COUNT(*), it's idiomatic SQL.
 
 ### Q9. [Medium] For [10, 20, NULL], what does AVG(COALESCE(col, 0)) return?
 
@@ -680,7 +680,7 @@ D. [object Object]
 
 **Answer:** B
 
-**B is correct.** COUNT(*) = 5 all rows. COUNT(col) = 4 non-NULL. COUNT(DISTINCT col) = 3 unique non-NULL (100, 200, 300 — 200 is duplicate).
+**B is correct.** COUNT(*) = 5 all rows. COUNT(col) = 4 non-NULL. COUNT(DISTINCT col) = 3 unique non-NULL (100, 200, 300: 200 is duplicate).
 
 ### Q16. [Hard] A table has 1000 rows; half have NULL in the 'email' column. What does AVG(LENGTH(email)) compute?
 
@@ -735,7 +735,7 @@ D. [object Object]
 
 **Answer:** B
 
-**B is correct.** Aggregates always return exactly one row (without GROUP BY). With no matching rows, AVG returns NULL. COUNT(*) would be 0 — different behavior.
+**B is correct.** Aggregates always return exactly one row (without GROUP BY). With no matching rows, AVG returns NULL. COUNT(*) would be 0, different behavior.
 
 ## Coding Challenges
 
@@ -841,7 +841,7 @@ FROM orders;
 
 **Difficulty:** Medium
 
-Count how many orders are in each status using conditional aggregation — return columns 'delivered', 'cancelled', 'pending' in a single row.
+Count how many orders are in each status using conditional aggregation, return columns 'delivered', 'cancelled', 'pending' in a single row.
 
 **Constraints:**
 

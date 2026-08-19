@@ -68,7 +68,7 @@
       },
       {
         "type": "paragraph",
-        "text": "Age 7 marks a significant cognitive leap. Children's brains are developing abstract thinking abilities—they can understand concepts that aren't immediately visible or tangible. This makes programming logic suddenly accessible in ways it wasn't even six months earlier."
+        "text": "Age 7 marks a significant cognitive leap. Children's brains are developing abstract thinking abilities. They can understand concepts that aren't immediately visible or tangible. This makes programming logic suddenly accessible in ways it wasn't even six months earlier."
       },
       {
         "type": "paragraph",
@@ -88,7 +88,7 @@
       },
       {
         "type": "paragraph",
-        "text": "Ready for structured learning: Unlike age 6 where structure needs gentle introduction, most 7-year-olds are comfortable with classroom-style learning. They can follow curricula, complete assignments, and work toward defined goals—all beneficial for systematic coding education."
+        "text": "Ready for structured learning: Unlike age 6 where structure needs gentle introduction, most 7-year-olds are comfortable with classroom-style learning. They can follow curricula, complete assignments, and work toward defined goals, all beneficial for systematic coding education."
       },
       {
         "type": "heading",
@@ -121,7 +121,7 @@
       },
       {
         "type": "paragraph",
-        "text": "Nested loops: Introduction level only—a loop within a loop. For example, drawing a grid requires looping rows, and within each row, looping to create squares. Advanced 7-year-olds can handle simple nested loops."
+        "text": "Nested loops: Introduction level only, a loop within a loop. For example, drawing a grid requires looping rows, and within each row, looping to create squares. Advanced 7-year-olds can handle simple nested loops."
       },
       {
         "type": "paragraph",
@@ -134,7 +134,7 @@
       },
       {
         "type": "paragraph",
-        "text": "Conditional logic—if-then statements—lets programs make decisions. This is where coding becomes truly interactive rather than just sequential."
+        "text": "Conditional logic, if-then statements, lets programs make decisions. This is where coding becomes truly interactive rather than just sequential."
       },
       {
         "type": "paragraph",
@@ -209,7 +209,7 @@
       },
       {
         "type": "paragraph",
-        "text": "Debugging is where real learning happens. Seven-year-olds need to understand that bugs aren't failures—they're normal parts of programming."
+        "text": "Debugging is where real learning happens. Seven-year-olds need to understand that bugs aren't failures. They're normal parts of programming."
       },
       {
         "type": "paragraph",
@@ -225,7 +225,7 @@
       },
       {
         "type": "paragraph",
-        "text": "Learning from mistakes: Each bug teaches something. \"Oh, I put the jump command before the move command—that's why it didn't work.\" This iterative learning builds understanding."
+        "text": "Learning from mistakes: Each bug teaches something. \"Oh, I put the jump command before the move command. That's why it didn't work.\" This iterative learning builds understanding."
       },
       {
         "type": "heading",
@@ -254,7 +254,7 @@
       },
       {
         "type": "paragraph",
-        "text": "Why perfect for age 7: While designed for ages 8-16, capable 7-year-olds thrive with Scratch. It offers the ideal complexity level—challenging enough to build real skills, accessible enough to stay engaging."
+        "text": "Why perfect for age 7: While designed for ages 8-16, capable 7-year-olds thrive with Scratch. It offers the ideal complexity level, challenging enough to build real skills, accessible enough to stay engaging."
       },
       {
         "type": "paragraph",
@@ -262,7 +262,7 @@
       },
       {
         "type": "paragraph",
-        "text": "Massive project library: Browse millions of projects other kids created. This provides inspiration, shows what's possible, and allows \"remixing\"—copying someone's project and modifying it to learn how it works."
+        "text": "Massive project library: Browse millions of projects other kids created. This provides inspiration, shows what's possible, and allows \"remixing\", copying someone's project and modifying it to learn how it works."
       },
       {
         "type": "paragraph",
@@ -274,7 +274,7 @@
       },
       {
         "type": "paragraph",
-        "text": "Learning curve: Initial navigation takes 2-3 sessions to master. Then progression is steady. Scratch can engage kids for years—many continue using it through age 12-14."
+        "text": "Learning curve: Initial navigation takes 2-3 sessions to master. Then progression is steady. Scratch can engage kids for years, many continue using it through age 12-14."
       },
       {
         "type": "paragraph",
@@ -355,7 +355,7 @@
       },
       {
         "type": "paragraph",
-        "text": "Yes—Scratch is arguably the best coding platform for this exact age. Here's why it works so well:"
+        "text": "Yes: Scratch is arguably the best coding platform for this exact age. Here's why it works so well:"
       },
       {
         "type": "paragraph",
@@ -367,7 +367,7 @@
       },
       {
         "type": "paragraph",
-        "text": "Real programming concepts: Loops, conditions, variables, events, functions—everything in Scratch directly translates to professional programming languages later."
+        "text": "Real programming concepts: Loops, conditions, variables, events, functions, everything in Scratch directly translates to professional programming languages later."
       },
       {
         "type": "paragraph",
@@ -502,7 +502,7 @@
       },
       {
         "type": "paragraph",
-        "text": "Using loops appropriately without prompting or copying examples. They recognize, \"This action repeats—I should use a loop.\""
+        "text": "Using loops appropriately without prompting or copying examples. They recognize, \"This action repeats: I should use a loop.\""
       },
       {
         "type": "paragraph",
@@ -530,7 +530,7 @@
       },
       {
         "type": "paragraph",
-        "text": "Talking about coding concepts outside coding sessions. \"This pattern repeats—like a loop!\" during other activities."
+        "text": "Talking about coding concepts outside coding sessions. \"This pattern repeats, like a loop!\" during other activities."
       },
       {
         "type": "paragraph",
@@ -620,7 +620,7 @@
       },
       {
         "type": "paragraph",
-        "text": "Frequently frustrated: Check difficulty level—might be attempting projects beyond current skills. Increase support, simplify challenges temporarily, or work collaboratively until confidence rebuilds."
+        "text": "Frequently frustrated: Check difficulty level, might be attempting projects beyond current skills. Increase support, simplify challenges temporarily, or work collaboratively until confidence rebuilds."
       },
       {
         "type": "heading",
@@ -670,7 +670,7 @@
       },
       {
         "type": "paragraph",
-        "text": "Absolutely! Seven is an excellent starting age even without any prior coding exposure. No need to have started earlier—7-year-olds can build strong foundations from scratch."
+        "text": "Absolutely! Seven is an excellent starting age even without any prior coding exposure. No need to have started earlier: 7-year-olds can build strong foundations from scratch."
       },
       {
         "type": "heading",
@@ -727,7 +727,7 @@
       },
       {
         "type": "paragraph",
-        "text": "Start with high-success activities that build confidence. Celebrate every small achievement. Emphasize that everyone starts somewhere—even professional programmers once didn't know what loops were."
+        "text": "Start with high-success activities that build confidence. Celebrate every small achievement. Emphasize that everyone starts somewhere, even professional programmers once didn't know what loops were."
       },
       {
         "type": "heading",
@@ -764,7 +764,7 @@
       },
       {
         "type": "paragraph",
-        "text": "Frustration increasing despite debugging attempts. Attention wandering—looking around room, asking about other activities. Eyes rubbing or physical signs of fatigue. Completion of natural stopping point (finished project, completed level)."
+        "text": "Frustration increasing despite debugging attempts. Attention wandering, looking around room, asking about other activities. Eyes rubbing or physical signs of fatigue. Completion of natural stopping point (finished project, completed level)."
       },
       {
         "type": "heading",
@@ -782,7 +782,7 @@
       },
       {
         "type": "paragraph",
-        "text": "Summer offers opportunities for daily coding or longer sessions. School year requires balance with homework and activities—3-4 weekly sessions work well."
+        "text": "Summer offers opportunities for daily coding or longer sessions. School year requires balance with homework and activities: 3-4 weekly sessions work well."
       },
       {
         "type": "heading",
@@ -820,7 +820,7 @@
       },
       {
         "type": "paragraph",
-        "text": "Read error messages: When platforms provide error messages, teach kids to read them carefully. \"It says 'variable not defined'—that means we forgot to create that variable.\""
+        "text": "Read error messages: When platforms provide error messages, teach kids to read them carefully. \"It says 'variable not defined'. That means we forgot to create that variable.\""
       },
       {
         "type": "paragraph",
@@ -869,7 +869,7 @@
         "style": "unordered",
         "items": [
           "Ask what games/apps they enjoy, then recreate simplified versions.",
-          "Brainstorm together: list favorite activities, animals, stories—each can become project inspiration.",
+          "Brainstorm together: list favorite activities, animals, stories, each can become project inspiration.",
           "Browse project galleries for ideas (Scratch, Code.org).",
           "Start with tutorial, then modify: \"Let's make this maze game, but change it to a space theme.\""
         ]
@@ -945,7 +945,7 @@
       },
       {
         "type": "paragraph",
-        "text": "Focus on beginner programming concepts: loops (repetition), conditions (if-then logic), events (interactivity), variables (storing information), and debugging basics. They should learn through project-based activities—creating games, animations, and interactive stories. Scratch is ideal for this age, offering visual blocks with enough depth to learn real programming fundamentals while staying engaging and accessible."
+        "text": "Focus on beginner programming concepts: loops (repetition), conditions (if-then logic), events (interactivity), variables (storing information), and debugging basics. They should learn through project-based activities, creating games, animations, and interactive stories. Scratch is ideal for this age, offering visual blocks with enough depth to learn real programming fundamentals while staying engaging and accessible."
       },
       {
         "type": "heading",
@@ -963,7 +963,7 @@
       },
       {
         "type": "paragraph",
-        "text": "Yes! While designed for ages 8-16, capable 7-year-olds thrive with Scratch. It offers the right complexity level—visual blocks bridge to text-based coding, teaches real programming concepts, and provides years of growth potential. The massive community offers inspiration, and projects are shareable. It balances creative freedom with structured learning, making it ideal for developing both logical thinking and creative problem-solving at this critical age."
+        "text": "Yes! While designed for ages 8-16, capable 7-year-olds thrive with Scratch. It offers the right complexity level, visual blocks bridge to text-based coding, teaches real programming concepts, and provides years of growth potential. The massive community offers inspiration, and projects are shareable. It balances creative freedom with structured learning, making it ideal for developing both logical thinking and creative problem-solving at this critical age."
       },
       {
         "type": "heading",
@@ -972,7 +972,7 @@
       },
       {
         "type": "paragraph",
-        "text": "Absolutely! Seven is an excellent starting age even without prior coding experience. Their reading fluency, abstract thinking ability, and attention span make them ready for structured programming fundamentals. Start with beginner-friendly platforms like Scratch or Code.org's 2nd-grade courses. Expect 4-6 weeks for initial comfort with concepts, then steady progress. No need to have started younger—7-year-olds can build strong foundations from scratch and often catch up to earlier starters within 3-6 months."
+        "text": "Absolutely! Seven is an excellent starting age even without prior coding experience. Their reading fluency, abstract thinking ability, and attention span make them ready for structured programming fundamentals. Start with beginner-friendly platforms like Scratch or Code.org's 2nd-grade courses. Expect 4-6 weeks for initial comfort with concepts, then steady progress. No need to have started younger: 7-year-olds can build strong foundations from scratch and often catch up to earlier starters within 3-6 months."
       },
       {
         "type": "heading",
@@ -986,11 +986,11 @@
       },
       {
         "type": "paragraph",
-        "text": "Focus on core concepts—loops, conditions, events, and variables—through engaging, project-based learning. Scratch offers the ideal balance of visual accessibility with programming depth, making it the primary platform recommendation for this age. Supplement with Code.org's structured curriculum or Tynker's courses for variety and systematic progression."
+        "text": "Focus on core concepts, loops, conditions, events, and variables, through engaging, project-based learning. Scratch offers the ideal balance of visual accessibility with programming depth, making it the primary platform recommendation for this age. Supplement with Code.org's structured curriculum or Tynker's courses for variety and systematic progression."
       },
       {
         "type": "paragraph",
-        "text": "Understanding <a href='https://www.modernagecoders.com/blog/best-coding-languages-kids-ages-10-18' target='_blank' rel='noopener noreferrer'>best coding languages for kids ages 10-18</a> helps parents see the progression path—what comes after mastering Scratch fundamentals."
+        "text": "Understanding <a href='https://www.modernagecoders.com/blog/best-coding-languages-kids-ages-10-18' target='_blank' rel='noopener noreferrer'>best coding languages for kids ages 10-18</a> helps parents see the progression path, what comes after mastering Scratch fundamentals."
       },
       {
         "type": "paragraph",

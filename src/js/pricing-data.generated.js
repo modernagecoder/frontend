@@ -1,5 +1,5 @@
 /**
- * GENERATED FILE — DO NOT EDIT.
+ * GENERATED FILE: DO NOT EDIT.
  *
  * Written by scripts/pricing/apply.js from pricing/pricing.config.jsonc.
  * Any edit here is overwritten on the next build. Change the price in the

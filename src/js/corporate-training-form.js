@@ -159,7 +159,7 @@ document.addEventListener('DOMContentLoaded', function () {
     }
 
     // Phone number formatting (digits only). Cap length based on the
-    // country picked in the country-code dropdown — 10 for India, 15 elsewhere.
+    // country picked in the country-code dropdown: 10 for India, 15 elsewhere.
     var phoneInput = document.getElementById('phone');
     if (phoneInput) {
         phoneInput.addEventListener('input', function (e) {

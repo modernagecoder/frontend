@@ -17,7 +17,7 @@ keywords: ["sql select query", "sql where clause", "sql comparison operators", "
 
 The `SELECT` statement is the single most important command in SQL. Every query you will ever write as a data analyst, backend developer, or data scientist begins with `SELECT`. It is how you **retrieve** data from one or more tables in your database.
 
-Think of a table as a spreadsheet with rows and columns. The `SELECT` statement lets you say: "Show me these columns, from this table, for rows that match these conditions." That is it. Every complex query — even ones spanning ten tables with joins, subqueries, and window functions — is built on this foundation.
+Think of a table as a spreadsheet with rows and columns. The `SELECT` statement lets you say: "Show me these columns, from this table, for rows that match these conditions." That is it. Every complex query, even ones spanning ten tables with joins, subqueries, and window functions, is built on this foundation.
 
 ### The WHERE Clause
 
@@ -27,7 +27,7 @@ In this chapter you will learn how to pick specific columns, rename them using a
 
 ## Why Are SELECT and WHERE So Important?
 
-A senior data analyst at Flipkart might write 50 to 200 SQL queries in a single day. Out of those, 95% start with `SELECT` and include a `WHERE` clause. This is not an exaggeration — SELECT and WHERE are the bread and butter of data work.
+A senior data analyst at Flipkart might write 50 to 200 SQL queries in a single day. Out of those, 95% start with `SELECT` and include a `WHERE` clause. This is not an exaggeration: SELECT and WHERE are the bread and butter of data work.
 
 ### 1. Every Dashboard You See Uses SELECT
 
@@ -39,11 +39,11 @@ A production database at Zomato has billions of rows. Running `SELECT * FROM ord
 
 ### 3. Interview Non-Negotiable
 
-Every single SQL interview — whether for a data analyst role at Amazon, a backend developer role at a startup, or a business analyst role at a bank — will test SELECT and WHERE. Questions like "Find all employees in the IT department earning more than 60000 who joined after 2020" are standard. If you cannot answer these fluently, you cannot pass.
+Every single SQL interview, whether for a data analyst role at Amazon, a backend developer role at a startup, or a business analyst role at a bank, will test SELECT and WHERE. Questions like "Find all employees in the IT department earning more than 60000 who joined after 2020" are standard. If you cannot answer these fluently, you cannot pass.
 
 ### 4. Foundation for Everything Else
 
-JOINs, subqueries, window functions, CTEs — everything you will learn later builds on SELECT and WHERE. Weak foundation here means weak understanding of advanced topics.
+JOINs, subqueries, window functions, CTEs, everything you will learn later builds on SELECT and WHERE. Weak foundation here means weak understanding of advanced topics.
 
 ## Detailed Explanation
 
@@ -101,7 +101,7 @@ You can rename a column in your result using `AS`:
 SELECT name AS employee_name, salary AS monthly_pay FROM employees;
 ```
 
-The column in the database is still called `name`, but your result shows it as `employee_name`. The `AS` keyword is actually optional — `SELECT name employee_name FROM employees` works too — but always write `AS` explicitly. Skipping it causes bugs where missing commas make two columns look like an alias.
+The column in the database is still called `name`, but your result shows it as `employee_name`. The `AS` keyword is actually optional, `SELECT name employee_name FROM employees` works too, but always write `AS` explicitly. Skipping it causes bugs where missing commas make two columns look like an alias.
 
 ### 4. Comparison Operators in WHERE
 
@@ -199,7 +199,7 @@ SELECT name FROM employees WHERE salary BETWEEN 50000 AND 80000;
 SELECT name FROM employees WHERE salary >= 50000 AND salary <= 80000;
 ```
 
-**BETWEEN is inclusive on both ends.** `BETWEEN 50000 AND 80000` includes both 50000 and 80000. This catches beginners off guard — they assume exclusive ranges.
+**BETWEEN is inclusive on both ends.** `BETWEEN 50000 AND 80000` includes both 50000 and 80000. This catches beginners off guard. They assume exclusive ranges.
 
 `BETWEEN` works on numbers, dates, and even strings (alphabetically):
 
@@ -238,7 +238,7 @@ SELECT * FROM employees;
 SELECT name, salary FROM employees;
 ```
 
-The first query returns all 5 columns and all 10 rows. The second returns only 2 columns (name, salary) for all 10 rows. In production, always list columns explicitly — `SELECT *` is fine in the MySQL CLI for exploration but dangerous in application code because adding a new column silently changes the result shape.
+The first query returns all 5 columns and all 10 rows. The second returns only 2 columns (name, salary) for all 10 rows. In production, always list columns explicitly, `SELECT *` is fine in the MySQL CLI for exploration but dangerous in application code because adding a new column silently changes the result shape.
 
 **Output:**
 
@@ -271,7 +271,7 @@ FROM employees
 WHERE id <= 3;
 ```
 
-The `AS` keyword renames columns in the output only — the actual table structure is not modified. This is useful when you want friendlier headers in reports or when the original column names are cryptic (like `emp_sal_usd`). We limit to id <= 3 to keep the output short.
+The `AS` keyword renames columns in the output only, the actual table structure is not modified. This is useful when you want friendlier headers in reports or when the original column names are cryptic (like `emp_sal_usd`). We limit to id <= 3 to keep the output short.
 
 **Output:**
 
@@ -291,7 +291,7 @@ FROM employees
 WHERE salary > 70000;
 ```
 
-The WHERE clause filters rows. Only rows where salary is greater than 70000 are returned. Notice that 70000 itself is NOT included — use `>=` for inclusive. The comparison happens row by row: SQL checks each row and keeps only those where the condition evaluates to TRUE.
+The WHERE clause filters rows. Only rows where salary is greater than 70000 are returned. Notice that 70000 itself is NOT included. Use `>=` for inclusive. The comparison happens row by row: SQL checks each row and keeps only those where the condition evaluates to TRUE.
 
 **Output:**
 
@@ -372,7 +372,7 @@ FROM employees
 WHERE department NOT IN ('HR', 'Marketing');
 ```
 
-The IN operator is shorthand for multiple OR conditions. Query 1 returns 8 rows (all except the 2 HR employees — Priya and Ishita). Query 2 returns 6 rows (only IT and Finance employees). NOT IN is the inverse. Just remember the NULL caveat: if any value inside IN or NOT IN is NULL, behavior can be surprising.
+The IN operator is shorthand for multiple OR conditions. Query 1 returns 8 rows (all except the 2 HR employees: Priya and Ishita). Query 2 returns 6 rows (only IT and Finance employees). NOT IN is the inverse. Just remember the NULL caveat: if any value inside IN or NOT IN is NULL, behavior can be surprising.
 
 **Output:**
 
@@ -410,7 +410,7 @@ FROM employees
 WHERE join_date BETWEEN '2021-01-01' AND '2021-12-31';
 ```
 
-BETWEEN is inclusive on BOTH ends. Query 1 returns employees earning 50000 to 80000 inclusive — Priya at exactly 52000 is included, and Ananya at 68000 is included. Query 2 shows BETWEEN working on dates: employees who joined between Jan 1 and Dec 31, 2021 (both endpoints included).
+BETWEEN is inclusive on BOTH ends. Query 1 returns employees earning 50000 to 80000 inclusive: Priya at exactly 52000 is included, and Ananya at 68000 is included. Query 2 shows BETWEEN working on dates: employees who joined between Jan 1 and Dec 31, 2021 (both endpoints included).
 
 **Output:**
 
@@ -467,7 +467,7 @@ FROM employees
 WHERE salary < 50000 OR salary > 70000;
 ```
 
-The NOT operator inverts any boolean condition. `NOT (salary BETWEEN 50000 AND 70000)` means salary is either below 50000 or above 70000. Both queries return identical results. Use whichever reads more clearly — for this particular case the OR version is arguably cleaner.
+The NOT operator inverts any boolean condition. `NOT (salary BETWEEN 50000 AND 70000)` means salary is either below 50000 or above 70000. Both queries return identical results. Use whichever reads more clearly, for this particular case the OR version is arguably cleaner.
 
 **Output:**
 
@@ -521,7 +521,7 @@ SELECT name FROM employees
 WHERE (department = 'IT' OR department = 'HR') AND salary > 50000;
 ```
 
-SQL evaluates `AND` before `OR`, so the wrong query is interpreted as `department = 'IT' OR (department = 'HR' AND salary > 50000)`. Always use parentheses when mixing AND and OR — even when they seem redundant. This is a bug that passes code review unless you trace through a real row.
+SQL evaluates `AND` before `OR`, so the wrong query is interpreted as `department = 'IT' OR (department = 'HR' AND salary > 50000)`. Always use parentheses when mixing AND and OR, even when they seem redundant. This is a bug that passes code review unless you trace through a real row.
 
 ### Using Double Quotes for String Literals
 
@@ -552,7 +552,7 @@ SELECT name FROM employees
 WHERE department NOT IN ('IT', 'HR', NULL);
 ```
 
-No error, but returns ZERO rows — even for employees in Finance or Marketing!
+No error, but returns ZERO rows, even for employees in Finance or Marketing!
 
 **Correct:**
 
@@ -573,7 +573,7 @@ When NULL is in the NOT IN list, SQL evaluates `department != NULL` which is NUL
 SELECT name FROM employees WHERE salary BETWEEN 50000 AND 80000;
 ```
 
-No error, but includes 50000 and 80000 (Rohan expected those excluded). Priya at exactly 52000 is returned — which is fine — but if someone were at exactly 50000 or 80000, they would be included too.
+No error, but includes 50000 and 80000 (Rohan expected those excluded). Priya at exactly 52000 is returned, which is fine, but if someone were at exactly 50000 or 80000, they would be included too.
 
 **Correct:**
 
@@ -582,20 +582,20 @@ No error, but includes 50000 and 80000 (Rohan expected those excluded). Priya at
 SELECT name FROM employees WHERE salary > 50000 AND salary < 80000;
 ```
 
-`BETWEEN x AND y` is equivalent to `>= x AND <= y` — inclusive on BOTH ends. Many students assume one end is exclusive. When you want strict inequality, write the comparisons out explicitly. This matters most with date ranges and page-boundary values.
+`BETWEEN x AND y` is equivalent to `>= x AND <= y`, inclusive on BOTH ends. Many students assume one end is exclusive. When you want strict inequality, write the comparisons out explicitly. This matters most with date ranges and page-boundary values.
 
 ## Summary
 
 - SELECT retrieves data. The syntax is SELECT column_list FROM table_name WHERE conditions. Every SQL query starts here.
-- Use SELECT * for quick exploration only. In production code, always list columns explicitly — it is safer, faster, and self-documenting.
+- Use SELECT * for quick exploration only. In production code, always list columns explicitly. It is safer, faster, and self-documenting.
 - Rename columns with AS: SELECT name AS employee_name. Always include AS explicitly for readability, even though it is technically optional.
 - SQL uses single = for equality comparison (not ==). For inequality, both != and <> work. String literals use single quotes.
-- Combine conditions with AND (both true), OR (at least one true), NOT (invert). AND is evaluated before OR — use parentheses when mixing them.
+- Combine conditions with AND (both true), OR (at least one true), NOT (invert). AND is evaluated before OR. Use parentheses when mixing them.
 - IN (value1, value2, ...) is shorthand for multiple OR conditions. NOT IN is the inverse. Beware: NOT IN with any NULL in the list returns zero rows.
-- BETWEEN x AND y is inclusive on BOTH ends — equivalent to >= x AND <= y. Works on numbers, dates, and strings. Use > and < for strict ranges.
+- BETWEEN x AND y is inclusive on BOTH ends, equivalent to >= x AND <= y. Works on numbers, dates, and strings. Use > and < for strict ranges.
 - Date literals use single quotes in YYYY-MM-DD format: '2021-03-15'. Comparing dates uses the same operators as numbers.
 - A complete query reads top-down: which columns, which table, which rows (WHERE). You will write thousands of these in your career.
-- Golden rule: when mixing AND and OR, always use parentheses. Missing parentheses produce queries that parse fine but return wrong data — the worst kind of bug.
+- Golden rule: when mixing AND and OR, always use parentheses. Missing parentheses produce queries that parse fine but return wrong data, the worst kind of bug.
 
 ## Related Topics
 

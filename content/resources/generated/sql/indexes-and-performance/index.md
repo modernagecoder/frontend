@@ -30,17 +30,17 @@ CREATE INDEX idx_orders_customer ON orders(customer_id);
 SELECT * FROM orders WHERE customer_id = 12345;
 ```
 
-Indexes are the single biggest lever for query performance. They are also the single biggest source of silent performance bugs — the wrong index (or the absence of one) can slow a fast app by 1000x.
+Indexes are the single biggest lever for query performance. They are also the single biggest source of silent performance bugs, the wrong index (or the absence of one) can slow a fast app by 1000x.
 
 ### The B-Tree in 60 Seconds
 
-Almost every index in MySQL is a **B-Tree** — a balanced tree structure where each node holds sorted keys pointing to child nodes. Finding a value in a B-Tree of N rows takes about `log_100(N)` disk reads (because B-Trees are very wide). For a 100-million-row table, that's about 4 reads. That's how a properly indexed query returns in milliseconds even on huge tables.
+Almost every index in MySQL is a **B-Tree**, a balanced tree structure where each node holds sorted keys pointing to child nodes. Finding a value in a B-Tree of N rows takes about `log_100(N)` disk reads (because B-Trees are very wide). For a 100-million-row table, that's about 4 reads. That's how a properly indexed query returns in milliseconds even on huge tables.
 
 ## Why Indexes Matter
 
 ### 1. Orders-of-Magnitude Speedup
 
-A full scan of a 100M-row table takes minutes. An indexed lookup takes milliseconds. We are not talking about shaving 10% — we are talking about 10,000x improvements. This is literally the difference between a usable app and a broken one.
+A full scan of a 100M-row table takes minutes. An indexed lookup takes milliseconds. We are not talking about shaving 10%. We are talking about 10,000x improvements. This is literally the difference between a usable app and a broken one.
 
 ### 2. Every Real Query Is Indexed
 
@@ -52,7 +52,7 @@ Every INSERT, UPDATE, and DELETE on an indexed table has to update the index too
 
 ### 4. EXPLAIN Is a Superpower
 
-MySQL's `EXPLAIN` command shows exactly how the optimizer plans to run a query — which index it will use, how many rows it estimates, and whether it will fall back to a full scan. A developer who can read EXPLAIN plans can diagnose and fix slow queries in minutes. One who can't will copy-paste solutions from Stack Overflow and hope.
+MySQL's `EXPLAIN` command shows exactly how the optimizer plans to run a query, which index it will use, how many rows it estimates, and whether it will fall back to a full scan. A developer who can read EXPLAIN plans can diagnose and fix slow queries in minutes. One who can't will copy-paste solutions from Stack Overflow and hope.
 
 ### 5. Interview Questions Are Heavy on EXPLAIN
 
@@ -69,7 +69,7 @@ CREATE INDEX idx_users_email ON users(email);
 -- Composite index on multiple columns
 CREATE INDEX idx_orders_cust_date ON orders(customer_id, order_date);
 
--- Unique index — enforces uniqueness AND speeds up lookups
+-- Unique index, enforces uniqueness AND speeds up lookups
 CREATE UNIQUE INDEX idx_users_email ON users(email);
 
 -- Full-text index for text search
@@ -80,13 +80,13 @@ DROP INDEX idx_users_email ON users;
 ALTER TABLE users DROP INDEX idx_users_email;    -- same thing
 ```
 
-Naming convention: `idx__`. Use the same convention in every project — future you will thank you.
+Naming convention: `idx__`. Use the same convention in every project, future you will thank you.
 
 ### 2. Clustered vs Non-Clustered (Secondary) Indexes
 
-InnoDB (MySQL's default storage engine) always organizes the table itself as a B-Tree on the primary key. This is the **clustered index** — the data rows ARE the leaves of the PK's B-Tree. No separate storage.
+InnoDB (MySQL's default storage engine) always organizes the table itself as a B-Tree on the primary key. This is the **clustered index**, the data rows ARE the leaves of the PK's B-Tree. No separate storage.
 
-All other indexes are **secondary indexes**: separate B-Trees whose leaves contain the indexed column(s) plus the primary key value. To fetch additional columns, InnoDB uses the PK to look up the row in the clustered index — an extra step called **PK lookup**.
+All other indexes are **secondary indexes**: separate B-Trees whose leaves contain the indexed column(s) plus the primary key value. To fetch additional columns, InnoDB uses the PK to look up the row in the clustered index, an extra step called **PK lookup**.
 
 ```
 -- Consider:
@@ -111,14 +111,14 @@ SELECT * FROM orders WHERE customer_id = 99;
 
 A composite index on `(a, b, c)` stores entries sorted first by a, then by b within each a, then by c within each (a, b). This single index can serve queries filtering on:
 
-- `WHERE a = ?` — uses the index.
-- `WHERE a = ? AND b = ?` — uses the index.
-- `WHERE a = ? AND b = ? AND c = ?` — fully uses the index.
+- `WHERE a = ?`, uses the index.
+- `WHERE a = ? AND b = ?`, uses the index.
+- `WHERE a = ? AND b = ? AND c = ?`, fully uses the index.
 
 But NOT:
 
-- `WHERE b = ?` — cannot use. Missing the leftmost column 'a'.
-- `WHERE a = ? AND c = ?` — uses only the 'a' part of the index; 'c' is accessed by row-level filtering after.
+- `WHERE b = ?`, cannot use. Missing the leftmost column 'a'.
+- `WHERE a = ? AND c = ?`, uses only the 'a' part of the index; 'c' is accessed by row-level filtering after.
 
 ```
 -- Composite index for a common query pattern
@@ -141,7 +141,7 @@ SELECT * FROM orders WHERE order_date >= '2026-01-01';
 
 ### 4. Covering Indexes
 
-A covering index is one that contains ALL the columns the query needs, so MySQL doesn't need to go back to the table at all. The query plan will show `Using index` — the fastest possible access.
+A covering index is one that contains ALL the columns the query needs, so MySQL doesn't need to go back to the table at all. The query plan will show `Using index`, the fastest possible access.
 
 ```
 -- Index covers only customer_id
@@ -158,7 +158,7 @@ SELECT amount FROM orders WHERE customer_id = 99;
 -- EXPLAIN: 'Using index' -- blazing fast
 ```
 
-### 5. EXPLAIN — Reading the Query Plan
+### 5. EXPLAIN: Reading the Query Plan
 
 Put `EXPLAIN` before any SELECT and MySQL shows its execution plan without running the query:
 
@@ -168,15 +168,15 @@ EXPLAIN SELECT * FROM orders WHERE customer_id = 99;
 
 Key columns to understand:
 
-ColumnMeaning`type`Access method — see table below`possible_keys`Indexes the optimizer considered`key`Index actually chosen (NULL = none)`rows`Estimated rows to examine`Extra`'Using index' = covering, 'Using filesort' = sort in memory/disk
+ColumnMeaning`type`Access method. See table below`possible_keys`Indexes the optimizer considered`key`Index actually chosen (NULL = none)`rows`Estimated rows to examine`Extra`'Using index' = covering, 'Using filesort' = sort in memory/disk
 
-**The `type` column — best to worst:**
+**The `type` column, best to worst:**
 
-typeMeaningPerformance`const`At most 1 row (PK or unique index lookup)Best`eq_ref`PK/unique lookup per row (typical JOIN)Excellent`ref`Non-unique index lookupGood`range`Index range scan (BETWEEN, <, >)OK`index`Full index scanSlow`ALL`Full table scan — no index usedWorst
+typeMeaningPerformance`const`At most 1 row (PK or unique index lookup)Best`eq_ref`PK/unique lookup per row (typical JOIN)Excellent`ref`Non-unique index lookupGood`range`Index range scan (BETWEEN, <, >)OK`index`Full index scanSlow`ALL`Full table scan, no index usedWorst
 
 Rule: if `type = ALL` on a big table, you have an indexing problem.
 
-### 6. Sargable Predicates — The Number-One Rule
+### 6. Sargable Predicates: The Number-One Rule
 
 A sargable (Search ARGument ABLE) predicate is one the optimizer can use an index for. The fastest way to destroy sargability is to wrap the indexed column in a function:
 
@@ -205,13 +205,13 @@ SELECT * FROM users WHERE name LIKE '%aar%';  -- NOT sargable
 Indexes speed reads but slow writes. Every INSERT/UPDATE/DELETE on the table has to update every index. Guidelines:
 
 - Don't index tiny tables (< 1000 rows). Full scan is already fast.
-- Don't index low-cardinality columns alone (boolean flags, gender) — the B-Tree is barely more selective than a scan. Combine with another column in a composite index if useful.
+- Don't index low-cardinality columns alone (boolean flags, gender), the B-Tree is barely more selective than a scan. Combine with another column in a composite index if useful.
 - Don't over-index. Each index costs disk space and write speed. Review unused indexes periodically.
 - Don't index columns you rarely filter/join/sort on.
 
 ### 8. Cardinality
 
-Cardinality = number of distinct values in a column. High cardinality (emails, user IDs) makes great index candidates. Low cardinality (status = 'paid'/'pending'/'failed') is often not worth indexing on its own, unless the distribution is very skewed (e.g., 99% 'paid' and 1% 'failed' — an index on status is actually good for finding the failed rows).
+Cardinality = number of distinct values in a column. High cardinality (emails, user IDs) makes great index candidates. Low cardinality (status = 'paid'/'pending'/'failed') is often not worth indexing on its own, unless the distribution is very skewed (e.g., 99% 'paid' and 1% 'failed', an index on status is actually good for finding the failed rows).
 
 ```
 SHOW INDEX FROM orders;
@@ -270,9 +270,9 @@ SELECT * FROM orders WHERE status = 'pending';
 2. If `type = ALL`, add an index on the filter/join column.
 3. If the query has multiple WHERE conditions, consider a composite index. Order equality columns before range columns.
 4. If you're returning only a few columns, try a covering index (put those columns in the composite).
-5. Remove functions from indexed columns — rewrite as ranges.
+5. Remove functions from indexed columns, rewrite as ranges.
 6. Replace leading-wildcard LIKE with FULLTEXT or refactor the query.
-7. Check type mismatches — implicit conversion kills indexes.
+7. Check type mismatches, implicit conversion kills indexes.
 8. For big GROUP BY or ORDER BY queries, ensure the sort column is indexed (or included in a composite index).
 9. Run ANALYZE TABLE if statistics are stale.
 10. Measure before and after. Without timing, you're guessing.
@@ -353,7 +353,7 @@ EXPLAIN SELECT * FROM orders WHERE customer_id = 101;
 EXPLAIN SELECT * FROM orders WHERE order_date >= '2026-01-01';
 ```
 
-Query 1 and 2 use the composite index (possible_keys shows idx_orders_cust_date). Query 3 cannot — order_date is the SECOND column in the index, and without the leading customer_id, MySQL can't use the B-Tree. This is the leftmost prefix rule in action.
+Query 1 and 2 use the composite index (possible_keys shows idx_orders_cust_date). Query 3 cannot, order_date is the SECOND column in the index, and without the leading customer_id, MySQL can't use the B-Tree. This is the leftmost prefix rule in action.
 
 **Output:**
 
@@ -384,7 +384,7 @@ FROM orders WHERE customer_id = 101;
 -- Extra does NOT show 'Using index' -- PK lookup required.
 ```
 
-A covering index includes every column the query references. The 'Using index' note in EXPLAIN tells you the query was served entirely from the index — no row lookup, maximum speed. Add columns to a composite index strategically when a single query pattern is hot.
+A covering index includes every column the query references. The 'Using index' note in EXPLAIN tells you the query was served entirely from the index, no row lookup, maximum speed. Add columns to a composite index strategically when a single query pattern is hot.
 
 **Output:**
 
@@ -482,7 +482,7 @@ JOIN orders o ON o.customer_id = c.id
 WHERE c.id = 101;
 ```
 
-JOIN columns need indexes on the 'many' side. Without it, for each customer, MySQL scans ALL of orders (N*M behavior). With an index, each customer triggers a B-Tree lookup in orders — back to log N behavior.
+JOIN columns need indexes on the 'many' side. Without it, for each customer, MySQL scans ALL of orders (N*M behavior). With an index, each customer triggers a B-Tree lookup in orders, back to log N behavior.
 
 **Output:**
 
@@ -497,7 +497,7 @@ After index: JOIN access to orders = ref, key=idx_orders_customer
 SHOW INDEX FROM orders;
 ```
 
-Lists all indexes on the orders table. Key columns to look at:`Non_unique`: 0 = unique index, 1 = regular.`Key_name`: PRIMARY for PK, else your idx_* name.`Seq_in_index`: position in composite index (1 = leftmost).`Column_name`: the column indexed.`Cardinality`: estimated distinct values — higher is more selective.
+Lists all indexes on the orders table. Key columns to look at:`Non_unique`: 0 = unique index, 1 = regular.`Key_name`: PRIMARY for PK, else your idx_* name.`Seq_in_index`: position in composite index (1 = leftmost).`Column_name`: the column indexed.`Cardinality`: estimated distinct values, higher is more selective.
 
 **Output:**
 
@@ -545,7 +545,7 @@ LIMIT 10;
 -- different from the index. That's acceptable for a top-10 query.
 ```
 
-The thinking process: read EXPLAIN output, identify the red flag (type=ALL), check the WHERE clause, create a composite index covering the filter columns with equality column first. Even with the fix, GROUP BY + ORDER BY often need a temp table — that's normal for aggregation queries.
+The thinking process: read EXPLAIN output, identify the red flag (type=ALL), check the WHERE clause, create a composite index covering the filter columns with equality column first. Even with the fix, GROUP BY + ORDER BY often need a temp table. That's normal for aggregation queries.
 
 **Output:**
 
@@ -598,7 +598,7 @@ Each additional index costs disk, RAM (index pages cached in buffer pool), and w
 -- Common pattern: WHERE customer_id = ? AND order_date >= ?
 CREATE INDEX idx_bad ON orders(order_date, customer_id);  -- wrong order!
 -- A query WHERE customer_id = 101 AND order_date >= '2026-01-01' cannot
--- use this efficiently — order_date is the leading column.
+-- use this efficiently, order_date is the leading column.
 ```
 
 No SQL error, but queries with equality on customer_id cannot benefit from the leading 'order_date' column, leading to range scans over much more data than necessary.
@@ -646,7 +646,7 @@ CREATE INDEX idx_users_gender ON users(gender);
 -- Queries like WHERE gender = 'M' barely benefit.
 ```
 
-No error, but the index is nearly useless. A scan of half the table is barely faster than a scan of the whole table — often slower after counting the index B-Tree traversals.
+No error, but the index is nearly useless. A scan of half the table is barely faster than a scan of the whole table, often slower after counting the index B-Tree traversals.
 
 **Correct:**
 
@@ -667,7 +667,7 @@ Cardinality matters. B-Tree indexes excel when they can eliminate 90%+ of rows q
 -- Developer adds a column, writes new queries, deploys. No EXPLAIN.
 SELECT * FROM orders WHERE status = 'paid' AND amount > 5000;
 -- Works fine on the dev's 100-row test database.
--- Production has 50M rows — query times out.
+-- Production has 50M rows, query times out.
 ```
 
 Production outage because the query does a full scan on 50M rows without an index.
@@ -681,15 +681,15 @@ EXPLAIN SELECT * FROM orders WHERE status = 'paid' AND amount > 5000;
 CREATE INDEX idx_orders_status_amount ON orders(status, amount);
 ```
 
-EXPLAIN is cheap — running it on every new query takes 2 seconds. A production outage costs hours. Make EXPLAIN a habit for every non-trivial query you write.
+EXPLAIN is cheap, running it on every new query takes 2 seconds. A production outage costs hours. Make EXPLAIN a habit for every non-trivial query you write.
 
 ## Summary
 
 - An index is a separate B-Tree structure that stores sorted column values with pointers back to rows. It turns O(n) table scans into O(log n) lookups.
 - InnoDB organizes the whole table as a clustered B-Tree on the primary key. Secondary indexes store values + PK, so fetching extra columns requires a PK lookup.
-- Composite indexes on (a, b, c) follow the leftmost prefix rule: usable for queries filtering on a, (a, b), or (a, b, c) — but NOT b alone or (b, c).
+- Composite indexes on (a, b, c) follow the leftmost prefix rule: usable for queries filtering on a, (a, b), or (a, b, c), but NOT b alone or (b, c).
 - Put equality-filtered columns before range-filtered columns in composite indexes. Equality first, range last.
-- A covering index contains all columns the query needs. EXPLAIN shows 'Using index' — the fastest possible access since no row lookup is required.
+- A covering index contains all columns the query needs. EXPLAIN shows 'Using index', the fastest possible access since no row lookup is required.
 - Run EXPLAIN on every new query. type=ALL means full table scan and is usually a red flag on big tables. Aim for type=ref, range, or better.
 - Sargable predicates keep indexes alive. Wrapping an indexed column in a function (YEAR, UPPER, arithmetic) kills sargability and forces a full scan. Rewrite as ranges.
 - Leading-wildcard LIKE ('%foo') cannot use a B-Tree index. Use FULLTEXT indexes or prefix patterns ('foo%') instead.

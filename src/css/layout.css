@@ -1,5 +1,5 @@
 /**
- * layout.css — Container, section, grid systems
+ * layout.css: Container, section, grid systems
  * Phase 1 CSS Architecture Overhaul
  */
 
@@ -32,7 +32,7 @@
     }
 
     /* ============================================================
-       SECTIONS — vertical rhythm
+       SECTIONS, vertical rhythm
        ============================================================ */
     .l-section {
         position: relative;
@@ -82,7 +82,7 @@
         grid-template-columns: repeat(4, minmax(0, 1fr));
     }
 
-    /* Responsive auto-fill grid — the workhorse for card layouts */
+    /* Responsive auto-fill grid, the workhorse for card layouts */
     .l-grid--auto {
         grid-template-columns: repeat(auto-fill, minmax(min(320px, 100%), 1fr));
     }
@@ -119,7 +119,7 @@
     }
 
     /* ============================================================
-       FLEX HELPERS (minimal — prefer grid for layout)
+       FLEX HELPERS (minimal, prefer grid for layout)
        ============================================================ */
     .l-flex {
         display: flex;
@@ -156,7 +156,7 @@
     }
 
     /* ============================================================
-       STACK — vertical spacing rhythm
+       STACK, vertical spacing rhythm
        ============================================================ */
     .l-stack>*+* {
         margin-top: var(--space-4);
@@ -175,7 +175,7 @@
     }
 
     /* ============================================================
-       SECTION HEADER — title + subtitle pattern
+       SECTION HEADER, title + subtitle pattern
        ============================================================ */
     .l-section-header {
         text-align: center;
@@ -198,7 +198,7 @@
     }
 
     /* ============================================================
-       SCROLL REVEAL — base state for sections animated in on scroll
+       SCROLL REVEAL, base state for sections animated in on scroll
        The JS in mainbundle.js adds .is-visible when the element
        enters the viewport.
        ============================================================ */
@@ -216,7 +216,7 @@
         transform: translateY(0);
     }
 
-    /* Staggered children — each child animates 80ms after the previous */
+    /* Staggered children, each child animates 80ms after the previous */
     .l-reveal.is-visible>*:nth-child(1) {
         transition-delay: 0ms;
     }
@@ -242,7 +242,7 @@
     }
 
     /* ============================================================
-       ASPECT RATIOS — kills force-image-size.css hacks
+       ASPECT RATIOS, kills force-image-size.css hacks
        ============================================================ */
     .l-aspect-square {
         aspect-ratio: 1 / 1;

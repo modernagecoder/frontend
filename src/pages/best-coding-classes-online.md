@@ -18,7 +18,7 @@ Why Modern Age Coders
 
 ## The Numbers Behind Our Classes
 
-Real results from real students — not marketing copy.
+Real results from real students, not marketing copy.
 
 3000+
 
@@ -30,11 +30,11 @@ Average rating from 800+ verified parent and student reviews
 
 98%
 
-Student retention rate — students stay because they love it
+Student retention rate, students stay because they love it
 
 6
 
-Maximum students per batch — real 1-on-few personal attention
+Maximum students per batch, real 1-on-few personal attention
 
 30+
 
@@ -42,11 +42,11 @@ Online courses covering Python, AI, web dev, data science and more
 
 500+
 
-Real student projects deployed live — apps, websites, AI tools
+Real student projects deployed live, apps, websites, AI tools
 
 Why Choose Online
 
-## Online Classes — Zero Compromise on Quality
+## Online Classes: Zero Compromise on Quality
 
 Our online format isn't a fallback. It's deliberately designed to be better than any offline class.
 
@@ -62,17 +62,17 @@ Miss a class? Zoned out for 5 minutes? Re-watch the exact moment. Every session 
 
 Students from across India, UAE, UK, USA, Canada and Australia attend our classes. The best coding education shouldn't depend on your city's pin code.
 
-### Flexible Scheduling — Your Time
+### Flexible Scheduling: Your Time
 
-Morning, afternoon, evening or weekend — pick any slot that works. We reschedule without hassle. Your child's school schedule, extra-curricular and exams come first.
+Morning, afternoon, evening or weekend. Pick any slot that works. We reschedule without hassle. Your child's school schedule, extra-curricular and exams come first.
 
-### Live Coding — Not Pre-Recorded Videos
+### Live Coding: Not Pre-Recorded Videos
 
-Every class is live. Instructors code in real-time, students share screens, ask questions mid-class, and debug together. This is mentorship — not a YouTube tutorial.
+Every class is live. Instructors code in real-time, students share screens, ask questions mid-class, and debug together. This is mentorship, not a YouTube tutorial.
 
-### Project-Based — Real Portfolio Built
+### Project-Based: Real Portfolio Built
 
-Every student builds and deploys real projects — websites, apps, AI tools, games. By graduation they have a portfolio that actually gets noticed by colleges and employers.
+Every student builds and deploys real projects, websites, apps, AI tools, games. By graduation they have a portfolio that actually gets noticed by colleges and employers.
 
 ![Live online coding class at Modern Age Coders](/images/coding-community-vibes.webp)
 
@@ -82,81 +82,81 @@ Our Online Platform
 
 Our learning platform is built around one goal: making online coding feel better than offline. Every feature is designed to keep students engaged, supported, and progressing fast.
 
-- Live HD classes via Google Meet — no software installation needed
-- Personal dashboard — track progress, homework and project milestones
-- Class recordings uploaded within 2 hours — accessible anytime
-- WhatsApp doubt group — instructor answers questions between classes
-- Project submission and feedback portal — detailed review on every submission
+- Live HD classes via Google Meet, no software installation needed
+- Personal dashboard, track progress, homework and project milestones
+- Class recordings uploaded within 2 hours, accessible anytime
+- WhatsApp doubt group, instructor answers questions between classes
+- Project submission and feedback portal, detailed review on every submission
 - Monthly progress reports emailed directly to parents
 - Digital certificates issued on course completion
 - Access to our Misti AI assistant for 24/7 coding help
 
-See It in Action — Book Free Demo
+See It in Action: Book Free Demo
 
 Our Online Courses
 
 ## Every Course. Every Level. All Live Online.
 
-From your child's first "Hello World" to production-grade AI systems — we have the course for where they are and where they want to go.
+From your child's first "Hello World" to production-grade AI systems. We have the course for where they are and where they want to go.
 
 ![Block coding for kids online](/images/creative-coding-kids.webp)First Step
 
-### Block Coding & Scratch — Ages 6-9
+### Block Coding & Scratch: Ages 6-9
 
-The perfect introduction. No typing required. Kids build games and animations using visual puzzle blocks — and feel the magic of programming from day one.
+The perfect introduction. No typing required. Kids build games and animations using visual puzzle blocks, and feel the magic of programming from day one.
 
-- Scratch & Blockly — drag and drop coding
+- Scratch & Blockly, drag and drop coding
 - Build animated stories and mini games
 - Logical thinking and sequencing
 - Perfect as a first coding experience
 
 [View Course →](https://learn.modernagecoders.com/courses/kids-coding-blocks-masterclass)![Python for kids online class](/images/python-kids.webp)Most Popular
 
-### Python & AI for Kids — Ages 8-12
+### Python & AI for Kids: Ages 8-12
 
 The world's most loved beginner course. Kids learn Python through games, art projects, and mini-AI tools. Real code, real fun, real confidence.
 
 - Python fundamentals with fun, real examples
 - Build a calculator, quiz game & digital story
-- Intro to AI — teach a computer to recognise shapes
+- Intro to AI, teach a computer to recognise shapes
 - No prior experience needed
 
 [View Course →](https://learn.modernagecoders.com/courses/python-ai-kids-masterclass)![Computational thinking and AI for kids online](/images/ct-ai-kids.webp)WOW Factor
 
-### Computational Thinking & AI — Ages 8-13
+### Computational Thinking & AI: Ages 8-13
 
 Demystify artificial intelligence for your child. They'll build an image classifier, a smart chatbot, and understand how AI powers the world around them.
 
 - What is AI? How does it actually work?
-- Train a machine learning model — no PhD needed
+- Train a machine learning model, no PhD needed
 - Build a picture-recognising AI tool
-- Responsible AI — when should AI be used?
+- Responsible AI, when should AI be used?
 
 [View Course →](https://learn.modernagecoders.com/courses/cbse-computational-thinking-and-ai-course-for-kids-classes-3-to-8)![Python for teens online](/images/python-teens.webp)Core Skill
 
-### Complete Python — Ages 13-18
+### Complete Python: Ages 13-18
 
-Python is the gateway to AI, data science, and automation. Teens master it completely — from loops to object-oriented programming to real applications.
+Python is the gateway to AI, data science, and automation. Teens master it completely, from loops to object-oriented programming to real applications.
 
-- Python zero to advanced — complete mastery
+- Python zero to advanced, complete mastery
 - OOP, file handling, APIs and libraries
 - Build 5+ real projects with source code
 - Board exam and JEE CS preparation included
 
 [View Course →](https://learn.modernagecoders.com/courses/python-complete-masterclass-teens)![Web development for teens online](/images/web-dev-teens.webp)Build Things
 
-### Web Development — Ages 13-18
+### Web Development: Ages 13-18
 
-Design and build real websites from scratch. HTML, CSS, JavaScript — students publish their first website by month 2 and build a full portfolio site by graduation.
+Design and build real websites from scratch. HTML, CSS, JavaScript, students publish their first website by month 2 and build a full portfolio site by graduation.
 
 - HTML5, CSS3, JavaScript fundamentals
-- Responsive design — looks great on every device
+- Responsive design, looks great on every device
 - Build and publish a personal portfolio site
 - Introduction to React for modern web development
 
 [View Course →](https://learn.modernagecoders.com/courses/frontend-development-masterclass-for-teens)![AI ML for teens online](/images/ai-ml-teens.webp)Future Ready
 
-### AI & Machine Learning — Ages 13-18
+### AI & Machine Learning: Ages 13-18
 
 Go from Python basics to building real ML models. Students understand neural networks, train classifiers, and build AI tools they can show to colleges.
 
@@ -167,9 +167,9 @@ Go from Python basics to building real ML models. Students understand neural net
 
 [View Course →](https://learn.modernagecoders.com/courses/ai-ml-masterclass-teens)![Generative AI online course](/images/generative-ai-college.webp)Hottest Skill
 
-### Generative AI — Complete Masterclass
+### Generative AI: Complete Masterclass
 
-ChatGPT, DALL-E, LLMs, RAG, fine-tuning — master every aspect of generative AI and build production-grade tools using OpenAI, Hugging Face and LangChain.
+ChatGPT, DALL-E, LLMs, RAG, fine-tuning, master every aspect of generative AI and build production-grade tools using OpenAI, Hugging Face and LangChain.
 
 - How LLMs and diffusion models really work
 - Build a custom AI assistant and creative tool
@@ -178,9 +178,9 @@ ChatGPT, DALL-E, LLMs, RAG, fine-tuning — master every aspect of generative AI
 
 [View Course →](https://learn.modernagecoders.com/courses/complete-generative-ai-masterclass-college)![Full stack web development online](/images/full-stack-development-college.webp)Career Track
 
-### Full Stack Web Development — MERN
+### Full Stack Web Development: MERN
 
-The complete end-to-end web developer course. MongoDB, Express, React, Node — build and deploy full-stack apps that look like real products companies ship.
+The complete end-to-end web developer course. MongoDB, Express, React, Node, build and deploy full-stack apps that look like real products companies ship.
 
 - React.js frontend with modern hooks & state
 - Node.js + Express REST API development
@@ -191,9 +191,9 @@ The complete end-to-end web developer course. MongoDB, Express, React, Node — 
 
 ### Data Science & Machine Learning
 
-The complete data science career program. NumPy, Pandas, SQL, scikit-learn, TensorFlow — students graduate ready for data analyst and ML engineer roles.
+The complete data science career program. NumPy, Pandas, SQL, scikit-learn, TensorFlow, students graduate ready for data analyst and ML engineer roles.
 
-- Python for data science — complete stack
+- Python for data science, complete stack
 - Statistics, probability and ML theory
 - Real Kaggle datasets and competition training
 - SQL + data visualisation with Matplotlib & Seaborn
@@ -202,7 +202,7 @@ The complete data science career program. NumPy, Pandas, SQL, scikit-learn, Tens
 
 Your Learning Journey
 
-## From Zero to Job-Ready — Online, Step by Step
+## From Zero to Job-Ready: Online, Step by Step
 
 A clear, structured path from your very first class to a portfolio that gets you noticed.
 
@@ -214,27 +214,27 @@ Meet your instructor, see our teaching style live, ask any questions. Zero press
 
 Week 0 · 60 min · Completely Free2
 
-#### Foundation — Core Language Skills
+#### Foundation: Core Language Skills
 
 Learn the fundamentals of your chosen language (Python, JavaScript etc.) through structured live classes. Real syntax, real practice files, real feedback on every assignment.
 
 Months 1-2 · 8 live classes3
 
-#### Applied Skills — Build Your First Projects
+#### Applied Skills: Build Your First Projects
 
-Apply what you've learned to real mini-projects. Calculators, games, websites, data dashboards — tangible outputs you can show friends and family.
+Apply what you've learned to real mini-projects. Calculators, games, websites, data dashboards, tangible outputs you can show friends and family.
 
 Months 2-4 · 3+ real projects4
 
-#### Advanced Topics — Go Deeper
+#### Advanced Topics: Go Deeper
 
 Explore AI, data science, full-stack development or game dev based on your track. This is where most students have their "this is incredible" moment.
 
 Months 4-6 · Advanced curriculum5
 
-#### Capstone Project — Build Something Real
+#### Capstone Project: Build Something Real
 
-Every student graduates with a major capstone project deployed live on the internet — an app, a website, a data dashboard or an AI tool they built entirely themselves.
+Every student graduates with a major capstone project deployed live on the internet, an app, a website, a data dashboard or an AI tool they built entirely themselves.
 
 Month 6 · 1 live deployed project6
 
@@ -253,7 +253,7 @@ Before you decide, compare honestly. We think the numbers speak for themselves.
 | Feature | Modern Age Coders | YouTube / Udemy | Big Offline Centres |
 | --- | --- | --- | --- |
 | Live classes with real instructors | ✓ Always live | ✗ Pre-recorded | ✓ Live (30+ students) |
-| Batch size | Max 4-6 students | — | 20-40 students |
+| Batch size | Max 4-6 students |, | 20-40 students |
 | Recorded sessions to re-watch | ✓ Every class | ✓ Pre-made only | ✗ Usually not |
 | Real projects deployed live | ✓ Every student | ✗ No guidance | ✗ Rarely |
 | Learn from anywhere | ✓ Globally accessible | ✓ | ✗ Fixed location |
@@ -338,7 +338,7 @@ per month · 1 private class/week (4 a month)
 
 - **1 instructor : 1 student always**
 - Fully personalised curriculum
-- Flexible schedule — any time
+- Flexible schedule, any time
 - Faster pace, deeper coverage
 - Priority WhatsApp support
 - Monthly parent-mentor sync call
@@ -369,7 +369,7 @@ Common Questions
 
 Honest answers. No marketing spin.
 
-Are live online coding classes as effective as offline?+Yes — and in many ways more effective. Our batches of max 4-6 students means your child gets far more attention per class than any room of 20-30 at an offline centre. Recordings mean they can re-watch anything. WhatsApp support means help doesn't stop when the class ends. Our 98% retention rate and 4.9/5 rating from 800+ reviews back this up.What platform do you use for online classes?+We use Google Meet for live classes — no app downloads needed, works on any browser, laptop, or tablet. Students share their screen when working on code so the instructor can see exactly what they're typing and give real-time feedback. All recordings are shared via Google Drive within 2 hours of each class.What does my child need to attend online classes?+A laptop or desktop computer (Windows, Mac, or Chromebook), a stable internet connection (4 Mbps or above), and a headphone with a microphone. A tablet can work for younger students doing block coding. No special software is needed — everything runs in the browser for beginner courses.What age groups do you teach?+We teach coding from age 6 to 26+. Ages 6-9 start with Scratch and Blockly. Ages 8-12 move into Python basics and intro AI. Teens aged 13-18 have a full curriculum across Python, AI, web dev, data science and more. College students and adults have career-focused tracks for data science, full-stack and AI development.What if my child misses a class?+Every class is recorded and shared within 2 hours. If your child misses a session, they watch the recording and catch up before the next class. We also offer free makeup sessions for genuine absences. We understand school commitments, exams and travel — just give us a heads up and we'll sort it.Is there a free trial class before I pay?+Yes — every new student gets one completely free, full 60-minute demo class. You meet the instructor, your child writes real code, and you see our teaching method in action. No payment, no card required. Simply book below and we'll call you within 3 hours to schedule.Can students from outside India join?+Absolutely. We currently have students from UAE, UK, USA, Canada, Singapore, and Australia. All classes are live and scheduled according to your time zone. Pricing is in INR, making it extremely affordable for international families. Payments can be made via international cards or PayPal.
+Are live online coding classes as effective as offline?+Yes, and in many ways more effective. Our batches of max 4-6 students means your child gets far more attention per class than any room of 20-30 at an offline centre. Recordings mean they can re-watch anything. WhatsApp support means help doesn't stop when the class ends. Our 98% retention rate and 4.9/5 rating from 800+ reviews back this up.What platform do you use for online classes?+We use Google Meet for live classes, no app downloads needed, works on any browser, laptop, or tablet. Students share their screen when working on code so the instructor can see exactly what they're typing and give real-time feedback. All recordings are shared via Google Drive within 2 hours of each class.What does my child need to attend online classes?+A laptop or desktop computer (Windows, Mac, or Chromebook), a stable internet connection (4 Mbps or above), and a headphone with a microphone. A tablet can work for younger students doing block coding. No special software is needed, everything runs in the browser for beginner courses.What age groups do you teach?+We teach coding from age 6 to 26+. Ages 6-9 start with Scratch and Blockly. Ages 8-12 move into Python basics and intro AI. Teens aged 13-18 have a full curriculum across Python, AI, web dev, data science and more. College students and adults have career-focused tracks for data science, full-stack and AI development.What if my child misses a class?+Every class is recorded and shared within 2 hours. If your child misses a session, they watch the recording and catch up before the next class. We also offer free makeup sessions for genuine absences. We understand school commitments, exams and travel, just give us a heads up and we'll sort it.Is there a free trial class before I pay?+Yes, every new student gets one completely free, full 60-minute demo class. You meet the instructor, your child writes real code, and you see our teaching method in action. No payment, no card required. Simply book below and we'll call you within 3 hours to schedule.Can students from outside India join?+Absolutely. We currently have students from UAE, UK, USA, Canada, Singapore, and Australia. All classes are live and scheduled according to your time zone. Pricing is in INR, making it extremely affordable for international families. Payments can be made via international cards or PayPal.
 
 Book Your Free Demo
 
@@ -377,11 +377,11 @@ Book Your Free Demo
 
 Fill in this form and we'll call you within 3 hours to schedule your free 60-minute demo class with one of our instructors. No payment needed until you're ready to join.
 
-Demo slots fill up fast — book yours today.
+Demo slots fill up fast. Book yours today.
 
 - [+91 9123366161](tel:+919123366161)
 - [contact@modernagecoders.com](mailto:contact@modernagecoders.com)
-- Mon–Sun · 9 AM – 9 PM IST
+- Mon–Sun · 9 AM: 9 PM IST
 
 [WhatsApp Now](https://wa.me/919123366161?text=Hi, I want to book a free demo for online coding classes)[Contact Page →](/contact)
 
@@ -460,7 +460,7 @@ India's most trusted live online coding institute for kids, teens & adults.
 
 Find coding & maths classes tailored for your school or city
 
-### DPS Schools — All India
+### DPS Schools: All India
 
 [DPS Bangalore](/coding-classes-for-dps-bangalore)[DPS Dwarka](/coding-classes-for-dps-dwarka-new-delhi)[DPS Greater Noida](/coding-classes-for-dps-greater-noida)[DPS Gurgaon](/coding-classes-for-dps-gurgaon)[DPS Hyderabad](/coding-classes-for-dps-hyderabad)[DPS International Saket](/coding-classes-for-dps-international-saket-delhi)[DPS Navi Mumbai](/coding-classes-for-dps-navi-mumbai)[DPS New Town Kolkata](/coding-classes-for-dps-new-town-kolkata)[DPS Noida](/coding-classes-for-dps-noida)[DPS R.K. Puram](/coding-classes-for-dps-rk-puram-new-delhi)[DPS Rohini](/coding-classes-for-dps-rohini-new-delhi)[DPS Ruby Park Kolkata](/coding-classes-for-dps-ruby-park-kolkata)[DPS Vasant Kunj](/coding-classes-for-dps-vasant-kunj-new-delhi)
 

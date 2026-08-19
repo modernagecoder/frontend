@@ -44,7 +44,7 @@
       },
       {
         "type": "paragraph",
-        "text": "Figuring out if a given year is a leap year sounds incredibly simple until you actually sit down and try to code it. It is one of the most common beginner exercises—and a frequent technical interview question—because it tests your ability to use operators and combine multiple conditions without breaking your program's logic."
+        "text": "Figuring out if a given year is a leap year sounds incredibly simple until you actually sit down and try to code it. It is one of the most common beginner exercises, and a frequent technical interview question, because it tests your ability to use operators and combine multiple conditions without breaking your program's logic."
       },
       {
         "type": "paragraph",
@@ -112,7 +112,7 @@
       },
       {
         "type": "paragraph",
-        "text": "We can use Python's logical operators—<code>and</code> and <code>or</code>—to combine all three calendar rules into a single, clean line of code."
+        "text": "We can use Python's logical operators, <code>and</code> and <code>or</code>, to combine all three calendar rules into a single, clean line of code."
       },
       {
         "type": "code",

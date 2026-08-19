@@ -50,7 +50,7 @@
       },
       {
         "type": "paragraph",
-        "text": "These aren't random exercises—they're carefully chosen programs that build on each other, teaching you important concepts like loops, conditions, arrays, and methods. By the end, you'll have a solid foundation in Java programming."
+        "text": "These aren't random exercises. They're carefully chosen programs that build on each other, teaching you important concepts like loops, conditions, arrays, and methods. By the end, you'll have a solid foundation in Java programming."
       },
       {
         "type": "paragraph",
@@ -60,7 +60,7 @@
         "type": "callout",
         "calloutType": "info",
         "title": "Perfect for Beginners",
-        "text": "These programs are designed for school students (Classes 8-12) who are new to Java. No prior programming experience needed—we'll explain everything step by step!"
+        "text": "These programs are designed for school students (Classes 8-12) who are new to Java. No prior programming experience needed. We'll explain everything step by step!"
       },
       {
         "type": "heading",
@@ -99,7 +99,7 @@
       },
       {
         "type": "paragraph",
-        "text": "Let's start with the absolute basics—printing output to the screen. This is your first step into Java programming!"
+        "text": "Let's start with the absolute basics, printing output to the screen. This is your first step into Java programming!"
       },
       {
         "type": "heading",
@@ -219,7 +219,7 @@
       },
       {
         "type": "paragraph",
-        "text": "This program introduces you to conditional statements—making decisions in your code based on conditions."
+        "text": "This program introduces you to conditional statements, making decisions in your code based on conditions."
       },
       {
         "type": "heading",
@@ -273,7 +273,7 @@
       },
       {
         "type": "paragraph",
-        "text": "Learn to compare multiple values and find the maximum—a common programming task."
+        "text": "Learn to compare multiple values and find the maximum, a common programming task."
       },
       {
         "type": "heading",
@@ -333,7 +333,7 @@
       },
       {
         "type": "paragraph",
-        "text": "Your first loop! Learn to repeat actions automatically—one of the most powerful concepts in programming."
+        "text": "Your first loop! Learn to repeat actions automatically, one of the most powerful concepts in programming."
       },
       {
         "type": "heading",
@@ -394,7 +394,7 @@
       },
       {
         "type": "paragraph",
-        "text": "Prime numbers are special—they're only divisible by 1 and themselves. This program teaches you to check mathematical properties."
+        "text": "Prime numbers are special. They're only divisible by 1 and themselves. This program teaches you to check mathematical properties."
       },
       {
         "type": "heading",
@@ -448,7 +448,7 @@
       },
       {
         "type": "paragraph",
-        "text": "Learn to manipulate individual digits of a number—a fundamental skill for many programming problems."
+        "text": "Learn to manipulate individual digits of a number, a fundamental skill for many programming problems."
       },
       {
         "type": "heading",
@@ -563,7 +563,7 @@
       },
       {
         "type": "paragraph",
-        "text": "Pattern printing is fun and teaches you nested loops—loops inside loops!"
+        "text": "Pattern printing is fun and teaches you nested loops, loops inside loops!"
       },
       {
         "type": "heading",
@@ -677,7 +677,7 @@
         "type": "callout",
         "calloutType": "success",
         "title": "Congratulations!",
-        "text": "You've completed all 10 programs! You now know variables, loops, conditions, methods, recursion, and arrays—the building blocks of Java programming!"
+        "text": "You've completed all 10 programs! You now know variables, loops, conditions, methods, recursion, and arrays, the building blocks of Java programming!"
       },
       {
         "type": "button",
@@ -715,7 +715,7 @@
       },
       {
         "type": "paragraph",
-        "text": "Change values, modify conditions, add new features. See what happens when you break the code—that's how you learn!"
+        "text": "Change values, modify conditions, add new features. See what happens when you break the code. That's how you learn!"
       },
       {
         "type": "heading",
@@ -888,7 +888,7 @@
         "type": "callout",
         "calloutType": "success",
         "title": "Challenge Yourself",
-        "text": "Pick one project idea and build it this week! Combine multiple concepts you've learned. Don't worry about making it perfect—just start building!"
+        "text": "Pick one project idea and build it this week! Combine multiple concepts you've learned. Don't worry about making it perfect, just start building!"
       },
       {
         "type": "button",
@@ -919,11 +919,11 @@
           },
           {
             "title": "How long will it take to learn all 10 programs?",
-            "content": "If you practice 30-60 minutes daily, you can understand all 10 programs in 2-3 weeks. Take your time—understanding is more important than speed."
+            "content": "If you practice 30-60 minutes daily, you can understand all 10 programs in 2-3 weeks. Take your time, understanding is more important than speed."
           },
           {
             "title": "What if I get errors in my code?",
-            "content": "Errors are normal! Read the error message carefully—it tells you what's wrong and which line. Common issues: missing semicolons, typos, wrong brackets. Debug step by step."
+            "content": "Errors are normal! Read the error message carefully. It tells you what's wrong and which line. Common issues: missing semicolons, typos, wrong brackets. Debug step by step."
           },
           {
             "title": "Can I use these programs in my school exams?",
@@ -939,7 +939,7 @@
           },
           {
             "title": "How can I practice more?",
-            "content": "Modify these programs, create variations, solve problems on websites like HackerRank or Codingame (beginner sections), and most importantly—build your own small projects!"
+            "content": "Modify these programs, create variations, solve problems on websites like HackerRank or Codingame (beginner sections), and most importantly, build your own small projects!"
           }
         ]
       },
@@ -954,11 +954,11 @@
       },
       {
         "type": "paragraph",
-        "text": "These aren't just school exercises—they're building blocks for real programming. Every professional developer uses these concepts daily. The calculator you built? That's how real calculators work. The array operations? That's how apps manage data. The patterns? That's how graphics are created."
+        "text": "These aren't just school exercises. They're building blocks for real programming. Every professional developer uses these concepts daily. The calculator you built? That's how real calculators work. The array operations? That's how apps manage data. The patterns? That's how graphics are created."
       },
       {
         "type": "paragraph",
-        "text": "The difference between students who succeed in programming and those who struggle isn't talent—it's practice. The students who succeed are the ones who:"
+        "text": "The difference between students who succeed in programming and those who struggle isn't talent. It's practice. The students who succeed are the ones who:"
       },
       {
         "type": "list",
@@ -981,7 +981,7 @@
       },
       {
         "type": "paragraph",
-        "text": "Need more help? Want structured lessons with projects and mentorship? <a href='/courses'>Check out our Java courses for school students</a>. Or <a href='/contact'>reach out to us</a> with questions—we're here to help you succeed!"
+        "text": "Need more help? Want structured lessons with projects and mentorship? <a href='/courses'>Check out our Java courses for school students</a>. Or <a href='/contact'>reach out to us</a> with questions. We're here to help you succeed!"
       },
       {
         "type": "callout",

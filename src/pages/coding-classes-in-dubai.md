@@ -203,35 +203,35 @@ Mother of Ishan
 
 ## What our students actually build
 
-Every one of these is a real, live project shipped by a Modern Age Coders student — not a mockup. Explore more in our [Student Labs](/student-labs).
+Every one of these is a real, live project shipped by a Modern Age Coders student, not a mockup. Explore more in our [Student Labs](/student-labs).
 
-![GuardianX — AI Bodyguard for the Internet](/images/projects/guardianx.webp)
+![GuardianX, AI Bodyguard for the Internet](/images/projects/guardianx.webp)
 
 AI & ML
 
-### GuardianX — AI Bodyguard for the Internet
+### GuardianX: AI Bodyguard for the Internet
 
-Paste any suspicious link or message and GuardianX returns an instant AI verdict before you become a victim — plus a link scanner, safety score, breach check and live scam alerts built for India. Vibe-coded from idea to working product through prompts, then refined until it genuinely understands how phishing and scams work.
+Paste any suspicious link or message and GuardianX returns an instant AI verdict before you become a victim, plus a link scanner, safety score, breach check and live scam alerts built for India. Vibe-coded from idea to working product through prompts, then refined until it genuinely understands how phishing and scams work.
 
 by Vivaan · [Open the live project ↗](https://guardianx-cybersaver.lovable.app)
 
-![Palm Arcana — Summon the Elements](/images/projects/superpawer.webp)
+![Palm Arcana: Summon the Elements](/images/projects/superpawer.webp)
 
 Game
 
-### Palm Arcana — Summon the Elements
+### Palm Arcana: Summon the Elements
 
-Open your palms to the webcam and computer vision turns your gestures into real magic — the left palm throws a fireball, the right crackles with lightning. A wild blend of hand-tracking AI, creative coding and pure imagination, vibe-coded into a playable browser experience.
+Open your palms to the webcam and computer vision turns your gestures into real magic, the left palm throws a fireball, the right crackles with lightning. A wild blend of hand-tracking AI, creative coding and pure imagination, vibe-coded into a playable browser experience.
 
 by Aarush · [Open the live project ↗](https://superpawer.netlify.app)
 
-![LumenFX — AR/VR Photo Effects Studio](/images/projects/lumenfx.webp)
+![LumenFX: AR/VR Photo Effects Studio](/images/projects/lumenfx.webp)
 
 Web App
 
-### LumenFX — AR/VR Photo Effects Studio
+### LumenFX: AR/VR Photo Effects Studio
 
-Upload a photo and transform it with cinematic filters, AR face effects and the wildest trending edits — the same looks blowing up on TikTok, Reels and Snap, with 240+ one-tap presets. Raayan vibe-coded the whole studio from an idea: prompted the concept, then built the effects engine and gallery UI by hand.
+Upload a photo and transform it with cinematic filters, AR face effects and the wildest trending edits, the same looks blowing up on TikTok, Reels and Snap, with 240+ one-tap presets. Raayan vibe-coded the whole studio from an idea: prompted the concept, then built the effects engine and gallery UI by hand.
 
 by Raayan · [Open the live project ↗](https://arvrbadestweb.lovable.app)
 

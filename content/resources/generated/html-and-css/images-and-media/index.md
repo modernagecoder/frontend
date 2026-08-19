@@ -15,15 +15,15 @@ keywords: ["html images", "img tag", "alt text", "html video", "html audio", "fi
 
 ## What Are Images and Media in HTML?
 
-A web page with only text is boring. Images, videos, and audio are what make web pages come alive. A beautiful photograph, an instructional video, or a background music clip — all of these are added using HTML media tags.
+A web page with only text is boring. Images, videos, and audio are what make web pages come alive. A beautiful photograph, an instructional video, or a background music clip, all of these are added using HTML media tags.
 
 HTML gives you a handful of powerful tags to add media to your pages:
 
-- `` — for images
-- `` — for video files
-- `` — for music and sound
-- `` and `` — for images with captions
-- `` — for providing multiple formats to the browser
+- ``, for images
+- ``, for video files
+- ``, for music and sound
+- `` and ``, for images with captions
+- ``, for providing multiple formats to the browser
 
 All of these are self-closing or specialised tags that let your page show pictures and play media without needing any JavaScript.
 
@@ -31,15 +31,15 @@ All of these are self-closing or specialised tags that let your page show pictur
 
 ### 1. Humans Love Visuals
 
-Our brains process images 60,000 times faster than text. A single well-chosen photo can communicate more than a whole paragraph of words. When building a recipe page, a product page, or a blog — images make content instantly understandable and engaging.
+Our brains process images 60,000 times faster than text. A single well-chosen photo can communicate more than a whole paragraph of words. When building a recipe page, a product page, or a blog, images make content instantly understandable and engaging.
 
 ### 2. Accessibility Through Alt Text
 
-Every image should have alt text (alternative text) — a short description that screen readers read aloud for blind users. Alt text also appears if the image fails to load. Good alt text makes your website work for everyone.
+Every image should have alt text (alternative text), a short description that screen readers read aloud for blind users. Alt text also appears if the image fails to load. Good alt text makes your website work for everyone.
 
 ### 3. SEO Benefits
 
-Google cannot 'see' images directly — it reads alt text to understand what an image is about. Pages with descriptive alt text rank higher in image search results. So good alt text means more visitors.
+Google cannot 'see' images directly. It reads alt text to understand what an image is about. Pages with descriptive alt text rank higher in image search results. So good alt text means more visitors.
 
 ### 4. Native Video and Audio
 
@@ -55,8 +55,8 @@ Once you know image and media tags, you can build photo galleries, recipe sites 
 
 The `` tag is self-closing (no closing tag). It has two essential attributes:
 
-- `src` — the source (URL or path to the image file)
-- `alt` — alternative text describing the image
+- `src`, the source (URL or path to the image file)
+- `alt`, alternative text describing the image
 
 ```
 
@@ -66,13 +66,13 @@ The src can be a relative path (`cat.jpg`, `images/cat.jpg`) or a full URL (`htt
 
 ### Why alt Text Is Required
 
-The `alt` attribute is not optional — it is essential. Here is why:
+The `alt` attribute is not optional. It is essential. Here is why:
 
 1. **Accessibility:** Screen readers announce the alt text to blind users
 2. **SEO:** Google uses it to understand what your image shows
 3. **Fallback:** If the image fails to load (slow connection, broken URL), the browser shows the alt text instead
 
-Good alt text describes what the image shows, not just 'image' or 'picture'. For decorative images with no meaning, use `alt=""` (empty string) — this tells screen readers to skip it.
+Good alt text describes what the image shows, not just 'image' or 'picture'. For decorative images with no meaning, use `alt=""` (empty string). This tells screen readers to skip it.
 
 ### Width and Height Attributes
 
@@ -82,7 +82,7 @@ You can set the dimensions of an image with `width` and `height` attributes (in 
 
 ```
 
-Always set these attributes — they tell the browser how much space to reserve for the image before it loads, which prevents the page layout from jumping around.
+Always set these attributes. They tell the browser how much space to reserve for the image before it loads, which prevents the page layout from jumping around.
 
 ### figure and figcaption
 
@@ -109,14 +109,14 @@ The `` tag plays video files. Basic syntax:
 
 Common attributes:
 
-- `src` — path to the video file
-- `controls` — shows play/pause/volume controls
-- `width` and `height` — video player size
-- `autoplay` — starts playing automatically (use carefully)
-- `muted` — starts muted (required for autoplay in most browsers)
-- `loop` — replays when finished
-- `poster` — image shown before the video plays
-- `preload` — how much to preload (none/metadata/auto)
+- `src`, path to the video file
+- `controls`, shows play/pause/volume controls
+- `width` and `height`, video player size
+- `autoplay`, starts playing automatically (use carefully)
+- `muted`, starts muted (required for autoplay in most browsers)
+- `loop`, replays when finished
+- `poster`, image shown before the video plays
+- `preload`, how much to preload (none/metadata/auto)
 
 The text inside the `` tag is shown if the browser cannot play video (very old browsers).
 
@@ -170,12 +170,12 @@ This makes pages much faster, especially for image galleries. Use `loading="lazy
 
 For practice and projects, use free image sites that allow commercial use:
 
-- **Unsplash** (unsplash.com) — high-quality photos
-- **Pexels** (pexels.com) — free photos and videos
-- **Pixabay** (pixabay.com) — photos, illustrations, and videos
-- **placeholder.com** or **via.placeholder.com** — placeholder images while developing
+- **Unsplash** (unsplash.com), high-quality photos
+- **Pexels** (pexels.com), free photos and videos
+- **Pixabay** (pixabay.com), photos, illustrations, and videos
+- **placeholder.com** or **via.placeholder.com**, placeholder images while developing
 
-Never steal images from random websites — many are copyrighted. Always use images you have permission to use.
+Never steal images from random websites, many are copyrighted. Always use images you have permission to use.
 
 ## Code Examples
 
@@ -198,7 +198,7 @@ Never steal images from random websites — many are copyrighted. Always use ima
 </html>
 ```
 
-A basic image with all the essential attributes: `src` for the image URL, `alt` for the description (critical for accessibility and SEO), and `width`/`height` to reserve space on the page before the image loads. The placeholder URL shows a blank 400x300 rectangle — replace it with your real image path.
+A basic image with all the essential attributes: `src` for the image URL, `alt` for the description (critical for accessibility and SEO), and `width`/`height` to reserve space on the page before the image loads. The placeholder URL shows a blank 400x300 rectangle, replace it with your real image path.
 
 **Output:**
 
@@ -230,7 +230,7 @@ A page with a heading 'My Pet', a paragraph, a 400x300 image, and another paragr
 </html>
 ```
 
-The `` element groups an image with its caption. The `` is the caption text — it can be above or below the image. This is the semantic way to add captions to images. Screen readers understand the relationship between the image and caption.
+The `` element groups an image with its caption. The `` is the caption text. It can be above or below the image. This is the semantic way to add captions to images. Screen readers understand the relationship between the image and caption.
 
 **Output:**
 
@@ -275,7 +275,7 @@ A page with two image figures, each with a caption below it describing a famous 
 </html>
 ```
 
-A simple gallery with four images, each in its own figure with a caption. All images use `loading="lazy"` so they only load when scrolled into view — this makes the page load much faster. Every image has descriptive alt text for accessibility.
+A simple gallery with four images, each in its own figure with a caption. All images use `loading="lazy"` so they only load when scrolled into view. This makes the page load much faster. Every image has descriptive alt text for accessibility.
 
 **Output:**
 
@@ -305,7 +305,7 @@ A photo gallery page with four figures, each showing an image and a caption.
 </html>
 ```
 
-A video player with several best practices: `controls` shows play/pause/volume buttons. `poster` is the preview image shown before the video plays. Two `` tags provide MP4 and WebM formats — the browser picks whichever it supports. The text inside is fallback for very old browsers.
+A video player with several best practices: `controls` shows play/pause/volume buttons. `poster` is the preview image shown before the video plays. Two `` tags provide MP4 and WebM formats, the browser picks whichever it supports. The text inside is fallback for very old browsers.
 
 **Output:**
 
@@ -365,7 +365,7 @@ An audio player with play/pause controls and time slider, ready to play the song
 </html>
 ```
 
-This is how websites add hero-section background videos. `autoplay` starts the video automatically. `muted` is required for autoplay in most browsers (they block autoplay with sound). `loop` replays the video forever. `playsinline` prevents mobile devices from opening it fullscreen. Use this sparingly — autoplaying videos can be annoying.
+This is how websites add hero-section background videos. `autoplay` starts the video automatically. `muted` is required for autoplay in most browsers (they block autoplay with sound). `loop` replays the video forever. `playsinline` prevents mobile devices from opening it fullscreen. Use this sparingly, autoplaying videos can be annoying.
 
 **Output:**
 
@@ -419,7 +419,7 @@ Never use absolute file paths from your computer (like C:\ on Windows). Use rela
 <video src="movie.mp4" width="600"></video>
 ```
 
-The video shows but there are no play/pause buttons — users cannot control it.
+The video shows but there are no play/pause buttons, users cannot control it.
 
 **Correct:**
 
@@ -437,7 +437,7 @@ Without the `controls` attribute, the video has no visible interface. Add `contr
 <video src="movie.mp4" autoplay></video>
 ```
 
-Modern browsers block autoplay videos that have sound — the video does not play at all.
+Modern browsers block autoplay videos that have sound, the video does not play at all.
 
 **Correct:**
 
@@ -465,19 +465,19 @@ The image does not load for other users because they do not have that file.
 <img src="photos/cat.jpg" alt="Cat">
 ```
 
-Never use `file:///` URLs — they only work on your own computer. Either upload the image to a web server and use its URL, or keep it in your project folder and use a relative path.
+Never use `file:///` URLs. They only work on your own computer. Either upload the image to a web server and use its URL, or keep it in your project folder and use a relative path.
 
 ## Summary
 
 - The  tag displays images. It is self-closing and requires both src (image source) and alt (description).
-- Alt text is essential — it describes the image for screen readers, appears when the image fails to load, and helps SEO.
+- Alt text is essential. It describes the image for screen readers, appears when the image fails to load, and helps SEO.
 - Always set width and height attributes on images to prevent the page layout from jumping around while images load.
 - Wrap images with captions in  and use  for the caption text. This is the semantic way to add captions.
 - The  tag plays video files. Use the controls attribute to show play/pause buttons and poster to set a preview image.
 - The  tag plays sound files. It has the same controls, autoplay, muted, and loop attributes as video.
-- Use  tags inside  and  to provide multiple formats — the browser picks the first one it supports.
+- Use  tags inside  and  to provide multiple formats, the browser picks the first one it supports.
 - For autoplay to work in modern browsers, you must also add the muted attribute. Otherwise browsers block autoplay.
-- Use loading="lazy" on images below the fold to make your page load faster — images load only when about to scroll into view.
+- Use loading="lazy" on images below the fold to make your page load faster, images load only when about to scroll into view.
 - Get free images from Unsplash, Pexels, or Pixabay. Never steal copyrighted images from random websites.
 - Use relative paths like 'images/cat.jpg' for files in your project, or full URLs starting with https:// for external images.
 

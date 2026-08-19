@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 /**
  * Update the OLD India figures inside prose and schema text after the
- * 2026-08-01 price change — the first India price change ever, which is why
+ * 2026-08-01 price change, the first India price change ever, which is why
  * hundreds of hand-written sentences carry the previous numbers.
  *
  *   node scripts/pricing/sweep-india.js            report only
@@ -52,7 +52,7 @@ function pageSubject(file, html) {
 }
 
 function courseSubject(slug) {
-    // The shared resolver in lib/config.js — never a private regex. This
+    // The shared resolver in lib/config.js, never a private regex. This
     // file's own wider maths pattern once matched "igcse" and swept the
     // IGCSE Computer Science course to the maths ₹8,500 while its page
     // charged the coding price (fixed by hand 2026-08-03).

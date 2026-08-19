@@ -17,7 +17,7 @@
     <!-- SEO Meta Tags -->
     <meta name="description" content="62+ practice questions on Methods in Java in Java. Easy, medium, and hard questions with hints, answers, and coding challenges.">
     <!-- meta keywords intentionally not emitted: Google has ignored it since 2009 and Bing
-         treats it as a SPAM SIGNAL — and Bing is the index ChatGPT/Copilot answer from.
+         treats it as a SPAM SIGNAL, and Bing is the index ChatGPT/Copilot answer from.
          See scripts/strip-meta-keywords.py. -->
     <meta name="author" content="Modern Age Coders">
     <meta name="robots" content="index, follow">
@@ -138,7 +138,7 @@
                 <span class="badge badge-intermediate">Intermediate</span>
                 <span class="badge badge-questions">62 Questions</span>
             </div>
-            <h1 class="resource-title">Practice Questions &mdash; Methods in Java</h1>
+            <h1 class="resource-title">Practice Questions: Methods in Java</h1>
             <a href="/resources/java/methods-in-java" class="notes-link">&larr; Back to Notes</a>
         </div><!-- /resource-header -->
 
@@ -390,7 +390,7 @@ System.out.println(compute(6));</code></pre></div><button type="button" class="c
 <div class="question-card">
                 <div class="question-number">Question 7</div>
                 <span class="question-difficulty medium">Medium</span>
-                <div class="question-text">What is the difference between method overloading and method overriding?</div><button type="button" class="collapsible-toggle" data-target="hint-mx-7" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-7">One happens at compile time within a class. The other happens at runtime between classes.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-7" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-7"><strong>Overloading</strong> occurs within the same class — multiple methods with the same name but different parameter lists. Resolved at compile time. <strong>Overriding</strong> occurs in a subclass — a method with the same name and same parameter list as a parent class method. Resolved at runtime (dynamic dispatch).</div></div>
+                <div class="question-text">What is the difference between method overloading and method overriding?</div><button type="button" class="collapsible-toggle" data-target="hint-mx-7" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-7">One happens at compile time within a class. The other happens at runtime between classes.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-7" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-7"><strong>Overloading</strong> occurs within the same class, multiple methods with the same name but different parameter lists. Resolved at compile time. <strong>Overriding</strong> occurs in a subclass, a method with the same name and same parameter list as a parent class method. Resolved at runtime (dynamic dispatch).</div></div>
 <div class="question-card">
                 <div class="question-number">Question 8</div>
                 <span class="question-difficulty hard">Hard</span>
@@ -446,7 +446,7 @@ hanoi(3, 'A', 'C', 'B');</code></pre></div><button type="button" class="collapsi
                 <div class="question-text">What is the output of this code?<br><pre><code>static int add(int a, int b) { return a + b; }
 static double add(int a, int b) { return a + b; }
 </code></pre></div>
-                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> The int version is called when possible</li><li><span class="mcq-option-label">B.</span> The double version is called when possible</li><li><span class="mcq-option-label">C.</span> Compilation error — duplicate method</li><li><span class="mcq-option-label">D.</span> Runtime error</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-6" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-6"><strong>Answer: C</strong><br><strong>C is correct.</strong> These two methods have the same name and the same parameter list (int, int). They differ only in return type, which is not sufficient for overloading. The compiler reports a duplicate method error.</div></div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> The int version is called when possible</li><li><span class="mcq-option-label">B.</span> The double version is called when possible</li><li><span class="mcq-option-label">C.</span> Compilation error, duplicate method</li><li><span class="mcq-option-label">D.</span> Runtime error</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-6" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-6"><strong>Answer: C</strong><br><strong>C is correct.</strong> These two methods have the same name and the same parameter list (int, int). They differ only in return type, which is not sufficient for overloading. The compiler reports a duplicate method error.</div></div>
 <div class="question-card">
                 <div class="question-number">MCQ 7</div>
                 <div class="question-text">Where must a varargs parameter appear in a method's parameter list?</div>
@@ -461,7 +461,7 @@ static double add(int a, int b) { return a + b; }
 static void test(int a) { System.out.println("single"); }
 
 test(5);</code></pre></div>
-                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> varargs</li><li><span class="mcq-option-label">B.</span> single</li><li><span class="mcq-option-label">C.</span> Compilation error — ambiguous</li><li><span class="mcq-option-label">D.</span> Runtime error</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-9" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-9"><strong>Answer: B</strong><br><strong>B is correct.</strong> When a method call matches both a specific parameter and a varargs parameter, the specific parameter wins. <code>test(5)</code> matches <code>test(int a)</code> exactly, so "single" is printed. Varargs has lower priority in overload resolution.</div></div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> varargs</li><li><span class="mcq-option-label">B.</span> single</li><li><span class="mcq-option-label">C.</span> Compilation error, ambiguous</li><li><span class="mcq-option-label">D.</span> Runtime error</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-9" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-9"><strong>Answer: B</strong><br><strong>B is correct.</strong> When a method call matches both a specific parameter and a varargs parameter, the specific parameter wins. <code>test(5)</code> matches <code>test(int a)</code> exactly, so "single" is printed. Varargs has lower priority in overload resolution.</div></div>
 <div class="question-card">
                 <div class="question-number">MCQ 10</div>
                 <div class="question-text">Can a static method access instance variables directly?</div>

@@ -17,7 +17,7 @@
     <!-- SEO Meta Tags -->
     <meta name="description" content="55+ practice questions on JOINS - INNER, LEFT, RIGHT, FULL OUTER, CROSS in SQL. Easy, medium, and hard questions with hints, answers, and coding challenges.">
     <!-- meta keywords intentionally not emitted: Google has ignored it since 2009 and Bing
-         treats it as a SPAM SIGNAL — and Bing is the index ChatGPT/Copilot answer from.
+         treats it as a SPAM SIGNAL, and Bing is the index ChatGPT/Copilot answer from.
          See scripts/strip-meta-keywords.py. -->
     <meta name="author" content="Modern Age Coders">
     <meta name="robots" content="index, follow">
@@ -138,7 +138,7 @@
                 <span class="badge badge-intermediate">Intermediate</span>
                 <span class="badge badge-questions">55 Questions</span>
             </div>
-            <h1 class="resource-title">Practice Questions &mdash; JOINS - INNER, LEFT, RIGHT, FULL OUTER, CROSS</h1>
+            <h1 class="resource-title">Practice Questions: JOINS - INNER, LEFT, RIGHT, FULL OUTER, CROSS</h1>
             <a href="/resources/sql/joins-inner-and-outer" class="notes-link">&larr; Back to Notes</a>
         </div><!-- /resource-header -->
 
@@ -311,7 +311,7 @@ WHERE NOT EXISTS (
                 <span class="question-difficulty easy">Easy</span>
                 <div class="question-text">What does this query do?<br><pre><code>SELECT c.name, o.id
 FROM customers c, orders o
-WHERE c.id = o.customer_id;</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-5" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-5">This is the old implicit join syntax.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-5" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-5"><code>Same as INNER JOIN — returns matching customer/order pairs.</code></div></div>
+WHERE c.id = o.customer_id;</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-5" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-5">This is the old implicit join syntax.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-5" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-5"><code>Same as INNER JOIN, returns matching customer/order pairs.</code></div></div>
 <div class="question-card">
                 <div class="question-number">Question 6</div>
                 <span class="question-difficulty medium">Medium</span>
@@ -334,7 +334,7 @@ GROUP BY c.id, c.name;</code></pre></div></div>
 <div class="question-card">
                 <div class="question-number">Question 9</div>
                 <span class="question-difficulty medium">Medium</span>
-                <div class="question-text">What is the difference between ON and WHERE in a LEFT JOIN?</div><button type="button" class="collapsible-toggle" data-target="hint-mx-9" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-9">Think about when filtering happens.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-9" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-9"><code>ON filters during the join — unmatched rows from the left table are still kept (as NULL). WHERE filters after the join — it can drop those NULL rows, effectively turning LEFT JOIN into INNER JOIN.</code></div></div>
+                <div class="question-text">What is the difference between ON and WHERE in a LEFT JOIN?</div><button type="button" class="collapsible-toggle" data-target="hint-mx-9" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-9">Think about when filtering happens.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-9" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-9"><code>ON filters during the join, unmatched rows from the left table are still kept (as NULL). WHERE filters after the join, it can drop those NULL rows, effectively turning LEFT JOIN into INNER JOIN.</code></div></div>
 <div class="question-card">
                 <div class="question-number">Question 10</div>
                 <span class="question-difficulty medium">Medium</span>
@@ -380,7 +380,7 @@ LIMIT 1;</code></pre></div></div>
 <div class="question-card">
                 <div class="question-number">MCQ 6</div>
                 <div class="question-text">If INNER JOIN and JOIN are written, what is the difference in MySQL?</div>
-                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> INNER JOIN is slower</li><li><span class="mcq-option-label">B.</span> They are identical — INNER is optional</li><li><span class="mcq-option-label">C.</span> JOIN means CROSS JOIN</li><li><span class="mcq-option-label">D.</span> JOIN only works on 2 tables; INNER JOIN allows more</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-6" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-6"><strong>Answer: B</strong><br><strong>B is correct.</strong> In MySQL, JOIN and INNER JOIN are synonyms. INNER is optional. Use whichever feels clearer.</div></div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> INNER JOIN is slower</li><li><span class="mcq-option-label">B.</span> They are identical: INNER is optional</li><li><span class="mcq-option-label">C.</span> JOIN means CROSS JOIN</li><li><span class="mcq-option-label">D.</span> JOIN only works on 2 tables; INNER JOIN allows more</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-6" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-6"><strong>Answer: B</strong><br><strong>B is correct.</strong> In MySQL, JOIN and INNER JOIN are synonyms. INNER is optional. Use whichever feels clearer.</div></div>
 <div class="question-card">
                 <div class="question-number">MCQ 7</div>
                 <div class="question-text">After a LEFT JOIN, what do unmatched right-table columns contain?</div>
@@ -392,7 +392,7 @@ LIMIT 1;</code></pre></div></div>
 <div class="question-card">
                 <div class="question-number">MCQ 9</div>
                 <div class="question-text">Given 10 customers and 5 orders (all with valid customer_ids), how many rows does INNER JOIN return?</div>
-                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> 10</li><li><span class="mcq-option-label">B.</span> 5</li><li><span class="mcq-option-label">C.</span> 50</li><li><span class="mcq-option-label">D.</span> 15</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-9" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-9"><strong>Answer: B</strong><br><strong>B is correct.</strong> INNER JOIN returns one row per matching pair. If each of the 5 orders matches exactly one customer, the result is 5 rows (not 10 — unmatched customers are dropped).</div></div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> 10</li><li><span class="mcq-option-label">B.</span> 5</li><li><span class="mcq-option-label">C.</span> 50</li><li><span class="mcq-option-label">D.</span> 15</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-9" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-9"><strong>Answer: B</strong><br><strong>B is correct.</strong> INNER JOIN returns one row per matching pair. If each of the 5 orders matches exactly one customer, the result is 5 rows (not 10, unmatched customers are dropped).</div></div>
 <div class="question-card">
                 <div class="question-number">MCQ 10</div>
                 <div class="question-text">What happens when you filter a LEFT JOIN's right table in WHERE?</div>

@@ -17,7 +17,7 @@
     <!-- SEO Meta Tags -->
     <meta name="description" content="Master grid-template-columns, grid-template-rows, gap, grid-area, and build complex layouts with ease.">
     <!-- meta keywords intentionally not emitted: Google has ignored it since 2009 and Bing
-         treats it as a SPAM SIGNAL — and Bing is the index ChatGPT/Copilot answer from.
+         treats it as a SPAM SIGNAL, and Bing is the index ChatGPT/Copilot answer from.
          See scripts/strip-meta-keywords.py. -->
     <meta name="author" content="Modern Age Coders">
     <meta name="robots" content="index, follow">
@@ -212,7 +212,7 @@
 
             <section id="why" class="content-section">
                 <h2>Why Does It Matter?</h2>
-                <h2>Why Learn CSS Grid?</h2><h3>1. Real-World Layouts Are 2D</h3><p>Almost every modern website uses grid layouts: dashboards, photo galleries, magazine pages, product listings, admin panels, blog grids. Flexbox can only handle one dimension at a time. Grid handles both rows and columns, which matches how designers actually think about layouts.</p><h3>2. Responsive Without Media Queries</h3><p>One of the most magical things about Grid: with <code>repeat(auto-fit, minmax(250px, 1fr))</code>, you can build a fully responsive card layout that automatically adjusts from 1 column on mobile to 2, 3, 4, or more columns on larger screens — without writing a single media query. This is game-changing.</p><h3>3. Named Grid Areas Are Beautiful</h3><p>Grid lets you name areas of your layout (header, sidebar, main, footer) and then draw the layout visually with <code>grid-template-areas</code>. Your CSS actually looks like the layout it creates. Nothing else in CSS is that intuitive.</p><h3>4. Less HTML, Less CSS</h3><p>Layouts that used to require nested div wrappers, float hacks, or multiple Flexbox containers can now be done with a single grid parent. Less markup means faster pages and easier maintenance.</p>
+                <h2>Why Learn CSS Grid?</h2><h3>1. Real-World Layouts Are 2D</h3><p>Almost every modern website uses grid layouts: dashboards, photo galleries, magazine pages, product listings, admin panels, blog grids. Flexbox can only handle one dimension at a time. Grid handles both rows and columns, which matches how designers actually think about layouts.</p><h3>2. Responsive Without Media Queries</h3><p>One of the most magical things about Grid: with <code>repeat(auto-fit, minmax(250px, 1fr))</code>, you can build a fully responsive card layout that automatically adjusts from 1 column on mobile to 2, 3, 4, or more columns on larger screens, without writing a single media query. This is game-changing.</p><h3>3. Named Grid Areas Are Beautiful</h3><p>Grid lets you name areas of your layout (header, sidebar, main, footer) and then draw the layout visually with <code>grid-template-areas</code>. Your CSS actually looks like the layout it creates. Nothing else in CSS is that intuitive.</p><h3>4. Less HTML, Less CSS</h3><p>Layouts that used to require nested div wrappers, float hacks, or multiple Flexbox containers can now be done with a single grid parent. Less markup means faster pages and easier maintenance.</p>
             </section>
 
             <section id="explanation" class="content-section">
@@ -267,15 +267,15 @@ grid-template-columns: minmax(200px, 1fr) 3fr;
 .page header  { grid-area: header; }
 .page aside   { grid-area: sidebar; }
 .page main    { grid-area: main; }
-.page footer  { grid-area: footer; }</code></pre><p>Look at <code>grid-template-areas</code> — that string IS the layout. Header spans both columns, sidebar and main sit side by side, footer spans both columns. Beautiful.</p><h3>7. Alignment - justify and align</h3><pre><code>.container {
+.page footer  { grid-area: footer; }</code></pre><p>Look at <code>grid-template-areas</code>. That string IS the layout. Header spans both columns, sidebar and main sit side by side, footer spans both columns. Beautiful.</p><h3>7. Alignment - justify and align</h3><pre><code>.container {
   justify-items: center;   /* horizontal align inside cells */
   align-items: center;     /* vertical align inside cells */
   justify-content: center; /* horizontal align of the whole grid */
   align-content: center;   /* vertical align of the whole grid */
-}</code></pre><p>Shortcut: <code>place-items: center</code> sets both justify-items and align-items.</p><h3>8. Implicit vs Explicit Grid</h3><p>The grid you define with grid-template-columns/rows is the <em>explicit</em> grid. If you add more items than cells, the browser creates extra rows automatically — that is the <em>implicit</em> grid. Control implicit rows with <code>grid-auto-rows</code>:</p><pre><code>.container {
+}</code></pre><p>Shortcut: <code>place-items: center</code> sets both justify-items and align-items.</p><h3>8. Implicit vs Explicit Grid</h3><p>The grid you define with grid-template-columns/rows is the <em>explicit</em> grid. If you add more items than cells, the browser creates extra rows automatically. That is the <em>implicit</em> grid. Control implicit rows with <code>grid-auto-rows</code>:</p><pre><code>.container {
   grid-template-columns: repeat(3, 1fr);
   grid-auto-rows: 200px;   /* every auto-created row is 200px tall */
-}</code></pre><h3>9. Grid vs Flexbox - When to Use Which</h3><p><strong>Use Flexbox</strong> when: laying out items in a single row or column (navbars, button groups, centered content, form fields).</p><p><strong>Use Grid</strong> when: laying out items in two dimensions (dashboards, galleries, page layouts, magazine designs, any layout where rows AND columns matter).</p><p>They are not competitors — modern websites use both. Grid for the page layout, Flexbox inside each grid cell.</p>
+}</code></pre><h3>9. Grid vs Flexbox - When to Use Which</h3><p><strong>Use Flexbox</strong> when: laying out items in a single row or column (navbars, button groups, centered content, form fields).</p><p><strong>Use Grid</strong> when: laying out items in two dimensions (dashboards, galleries, page layouts, magazine designs, any layout where rows AND columns matter).</p><p>They are not competitors, modern websites use both. Grid for the page layout, Flexbox inside each grid cell.</p>
             </section>
 
             <section id="code-examples" class="content-section">
@@ -530,7 +530,7 @@ grid-template-columns: minmax(200px, 1fr) 3fr;
     &lt;div class=&quot;plan&quot;&gt;&lt;h2&gt;Team&lt;/h2&gt;&lt;div class=&quot;price&quot;&gt;Rs 2,499&lt;/div&gt;&lt;ul&gt;&lt;li&gt;25 students&lt;/li&gt;&lt;li&gt;Custom content&lt;/li&gt;&lt;li&gt;Dedicated mentor&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;
   &lt;/div&gt;
 &lt;/body&gt;
-&lt;/html&gt;</code></pre><div class="code-example-explanation">Three pricing plans in a grid. The middle 'popular' plan uses <code>grid-column: 1 / -1</code> on small screens to span the full width for easy reading, then switches back to auto and scales up on screens wider than 700px. <code>1 / -1</code> means from the first line to the last line — a great trick for full-width items.</div><div class="code-example-output">Three pricing cards that arrange in a row on desktop with the middle card highlighted and slightly larger. On narrow screens the popular plan spans full width.</div></div>
+&lt;/html&gt;</code></pre><div class="code-example-explanation">Three pricing plans in a grid. The middle 'popular' plan uses <code>grid-column: 1 / -1</code> on small screens to span the full width for easy reading, then switches back to auto and scales up on screens wider than 700px. <code>1 / -1</code> means from the first line to the last line, a great trick for full-width items.</div><div class="code-example-output">Three pricing cards that arrange in a row on desktop with the middle card highlighted and slightly larger. On narrow screens the popular plan spans full width.</div></div>
 <div class="code-example"><div class="code-example-title">Tic-Tac-Toe Board (Interactive)</div><pre><code class="language-python">&lt;!DOCTYPE html&gt;
 &lt;html&gt;
 &lt;head&gt;

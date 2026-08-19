@@ -17,7 +17,7 @@
     <!-- SEO Meta Tags -->
     <meta name="description" content="58+ practice questions on INSERT, UPDATE, DELETE - Manipulating Data in SQL. Easy, medium, and hard questions with hints, answers, and coding challenges.">
     <!-- meta keywords intentionally not emitted: Google has ignored it since 2009 and Bing
-         treats it as a SPAM SIGNAL — and Bing is the index ChatGPT/Copilot answer from.
+         treats it as a SPAM SIGNAL, and Bing is the index ChatGPT/Copilot answer from.
          See scripts/strip-meta-keywords.py. -->
     <meta name="author" content="Modern Age Coders">
     <meta name="robots" content="index, follow">
@@ -138,7 +138,7 @@
                 <span class="badge badge-beginner">Beginner</span>
                 <span class="badge badge-questions">58 Questions</span>
             </div>
-            <h1 class="resource-title">Practice Questions &mdash; INSERT, UPDATE, DELETE - Manipulating Data</h1>
+            <h1 class="resource-title">Practice Questions: INSERT, UPDATE, DELETE - Manipulating Data</h1>
             <a href="/resources/sql/insert-update-delete" class="notes-link">&larr; Back to Notes</a>
         </div><!-- /resource-header -->
 
@@ -236,7 +236,7 @@ ON DUPLICATE KEY UPDATE marks = VALUES(marks);</code></pre></div></div>
 <div class="question-card">
                 <div class="question-number">Question 15</div>
                 <span class="question-difficulty medium">Medium</span>
-                <div class="question-text">What is the main risk of using REPLACE INTO?</div><button type="button" class="collapsible-toggle" data-target="hint-ts-15" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-15">Columns you don't mention.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-15" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-15">REPLACE internally DELETEs the existing row and INSERTs a new one. Any columns you don't specify are reset to their DEFAULT (or NULL) — so REPLACE can silently wipe data you forgot to list. It also resets AUTO_INCREMENT-generated fields, fires DELETE triggers, and can cascade FK deletes.</div></div>
+                <div class="question-text">What is the main risk of using REPLACE INTO?</div><button type="button" class="collapsible-toggle" data-target="hint-ts-15" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-15">Columns you don't mention.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-15" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-15">REPLACE internally DELETEs the existing row and INSERTs a new one. Any columns you don't specify are reset to their DEFAULT (or NULL), so REPLACE can silently wipe data you forgot to list. It also resets AUTO_INCREMENT-generated fields, fires DELETE triggers, and can cascade FK deletes.</div></div>
 <div class="question-card">
                 <div class="question-number">Question 16</div>
                 <span class="question-difficulty hard">Hard</span>
@@ -295,7 +295,7 @@ VALUES (10, 'Test User');</code></pre></div></div>
 <div class="question-card">
                 <div class="question-number">Question 3</div>
                 <span class="question-difficulty medium">Medium</span>
-                <div class="question-text">Spot the bug:<br><pre><code>UPDATE students SET marks = marks * 1.1 WHERE id > 0;</code></pre>The intent was to give a 10% bonus to everyone.</div><button type="button" class="collapsible-toggle" data-target="hint-mx-3" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-3">id > 0 probably matches everyone anyway.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-3" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-3">Not necessarily a bug — the WHERE <code>id &gt; 0</code> likely matches every row in a typical AUTO_INCREMENT table, so the intent is achieved. But it's a code smell: if you want "every row", be explicit. Use <code>WHERE 1=1</code> (clearly universal) or disable SQL_SAFE_UPDATES and drop the WHERE entirely.</div></div>
+                <div class="question-text">Spot the bug:<br><pre><code>UPDATE students SET marks = marks * 1.1 WHERE id > 0;</code></pre>The intent was to give a 10% bonus to everyone.</div><button type="button" class="collapsible-toggle" data-target="hint-mx-3" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-3">id > 0 probably matches everyone anyway.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-3" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-3">Not necessarily a bug, the WHERE <code>id &gt; 0</code> likely matches every row in a typical AUTO_INCREMENT table, so the intent is achieved. But it's a code smell: if you want "every row", be explicit. Use <code>WHERE 1=1</code> (clearly universal) or disable SQL_SAFE_UPDATES and drop the WHERE entirely.</div></div>
 <div class="question-card">
                 <div class="question-number">Question 4</div>
                 <span class="question-difficulty medium">Medium</span>
@@ -333,7 +333,7 @@ VALUES (1, 'Aarav Sharma', 'Mumbai', 87);</code></pre>(students already has id=1
 <div class="question-card">
                 <div class="question-number">Question 9</div>
                 <span class="question-difficulty hard">Hard</span>
-                <div class="question-text">You're building a likes counter for a post. Table: post_likes (post_id INT PK, likes INT NOT NULL DEFAULT 0). Write the SQL that runs when a user clicks Like — increment the count, or create a row with likes=1 if the post has no likes yet.</div><button type="button" class="collapsible-toggle" data-target="hint-mx-9" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-9">ON DUPLICATE KEY UPDATE.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-9" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-9"><pre><code>INSERT INTO post_likes (post_id, likes)
+                <div class="question-text">You're building a likes counter for a post. Table: post_likes (post_id INT PK, likes INT NOT NULL DEFAULT 0). Write the SQL that runs when a user clicks Like, increment the count, or create a row with likes=1 if the post has no likes yet.</div><button type="button" class="collapsible-toggle" data-target="hint-mx-9" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-9">ON DUPLICATE KEY UPDATE.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-9" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-9"><pre><code>INSERT INTO post_likes (post_id, likes)
 VALUES (?, 1)
 ON DUPLICATE KEY UPDATE likes = likes + 1;</code></pre></div></div>
 <div class="question-card">
@@ -402,7 +402,7 @@ SELECT * FROM students_copy;</code></pre></div></div>
 <div class="question-card">
                 <div class="question-number">MCQ 10</div>
                 <div class="question-text">After <code>DELETE FROM students;</code> on a 10-row table, what does SELECT COUNT(*) return?</div>
-                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> 10</li><li><span class="mcq-option-label">B.</span> 0</li><li><span class="mcq-option-label">C.</span> Error: table doesn&#39;t exist</li><li><span class="mcq-option-label">D.</span> Random</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-10" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-10"><strong>Answer: B</strong><br><strong>B is correct.</strong> All 10 rows are deleted. The table still exists (unlike DROP), so COUNT(*) returns 0 — an empty set.</div></div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> 10</li><li><span class="mcq-option-label">B.</span> 0</li><li><span class="mcq-option-label">C.</span> Error: table doesn&#39;t exist</li><li><span class="mcq-option-label">D.</span> Random</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-10" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-10"><strong>Answer: B</strong><br><strong>B is correct.</strong> All 10 rows are deleted. The table still exists (unlike DROP), so COUNT(*) returns 0, an empty set.</div></div>
 <div class="question-card">
                 <div class="question-number">MCQ 11</div>
                 <div class="question-text">Which is the recommended way to insert new rows into a table, copying data from another table?</div>
@@ -410,7 +410,7 @@ SELECT * FROM students_copy;</code></pre></div></div>
 <div class="question-card">
                 <div class="question-number">MCQ 12</div>
                 <div class="question-text">What does MySQL return when you run <code>UPDATE students SET marks = 100 WHERE id = 999;</code> but no row has id=999?</div>
-                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Error: row not found</li><li><span class="mcq-option-label">B.</span> Query OK, 0 rows affected</li><li><span class="mcq-option-label">C.</span> Creates a new row with id=999</li><li><span class="mcq-option-label">D.</span> Updates the first row instead</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-12" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-12"><strong>Answer: B</strong><br><strong>B is correct.</strong> UPDATE silently affects 0 rows when the WHERE matches nothing. No error. If you expected to update a row, check the output — "0 rows affected" means nothing happened.</div></div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Error: row not found</li><li><span class="mcq-option-label">B.</span> Query OK, 0 rows affected</li><li><span class="mcq-option-label">C.</span> Creates a new row with id=999</li><li><span class="mcq-option-label">D.</span> Updates the first row instead</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-12" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-12"><strong>Answer: B</strong><br><strong>B is correct.</strong> UPDATE silently affects 0 rows when the WHERE matches nothing. No error. If you expected to update a row, check the output, "0 rows affected" means nothing happened.</div></div>
 <div class="question-card">
                 <div class="question-number">MCQ 13</div>
                 <div class="question-text">Which is TRUE about REPLACE INTO?</div>
@@ -418,7 +418,7 @@ SELECT * FROM students_copy;</code></pre></div></div>
 <div class="question-card">
                 <div class="question-number">MCQ 14</div>
                 <div class="question-text">Which is an atomic "insert or increment counter" query?</div>
-                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> SELECT ... ; IF found THEN UPDATE; ELSE INSERT;</li><li><span class="mcq-option-label">B.</span> INSERT INTO counters VALUES (?, 1) ON DUPLICATE KEY UPDATE count = count + 1;</li><li><span class="mcq-option-label">C.</span> UPDATE counters SET count = count + 1 WHERE key = ?;</li><li><span class="mcq-option-label">D.</span> REPLACE INTO counters VALUES (?, 1);</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-14" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-14"><strong>Answer: B</strong><br><strong>B is correct.</strong> Atomic single-statement upsert/increment. Option A has a race condition (two users can both see no row and both INSERT). Option C fails if the row doesn't exist. Option D sets count to 1 every time — not an increment.</div></div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> SELECT ... ; IF found THEN UPDATE; ELSE INSERT;</li><li><span class="mcq-option-label">B.</span> INSERT INTO counters VALUES (?, 1) ON DUPLICATE KEY UPDATE count = count + 1;</li><li><span class="mcq-option-label">C.</span> UPDATE counters SET count = count + 1 WHERE key = ?;</li><li><span class="mcq-option-label">D.</span> REPLACE INTO counters VALUES (?, 1);</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-14" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-14"><strong>Answer: B</strong><br><strong>B is correct.</strong> Atomic single-statement upsert/increment. Option A has a race condition (two users can both see no row and both INSERT). Option C fails if the row doesn't exist. Option D sets count to 1 every time, not an increment.</div></div>
 <div class="question-card">
                 <div class="question-number">MCQ 15</div>
                 <div class="question-text">Why should you prefer explicit column lists in INSERT statements?</div>
@@ -596,7 +596,7 @@ SELECT * FROM employees_archive;</code></pre></div></div>
                 </div><div class="challenge-io">
                     <div class="challenge-io-label">Sample Output</div>
                     <div class="challenge-io-value">Preview shows affected rows. UPDATE runs. Post-check verifies. COMMIT finalizes.</div>
-                </div><div class="challenge-constraints">Use START TRANSACTION / COMMIT. Include comments explaining each step.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-6" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-6"><pre><code class="language-python">-- STEP 1: Preview — what rows will be affected?
+                </div><div class="challenge-constraints">Use START TRANSACTION / COMMIT. Include comments explaining each step.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-6" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-6"><pre><code class="language-python">-- STEP 1: Preview, what rows will be affected?
 SELECT id, name, city, marks
 FROM students
 WHERE city = &#39;Delhi&#39;;
@@ -611,7 +611,7 @@ SET city = &#39;New Delhi&#39;,
     marks = marks + 10
 WHERE city = &#39;Delhi&#39;;
 
--- STEP 4: Post-check — do the updated rows look right?
+-- STEP 4: Post-check, do the updated rows look right?
 SELECT id, name, city, marks
 FROM students
 WHERE city = &#39;New Delhi&#39;;
@@ -622,7 +622,7 @@ COMMIT;
 -- OR:
 -- ROLLBACK;
 
--- This workflow — preview, transaction, apply, verify, commit — is how
+-- This workflow, preview, transaction, apply, verify, commit, is how
 -- senior engineers handle production updates. Never skip the preview.
 -- Never skip the verify. If ANYTHING looks wrong, ROLLBACK.</code></pre></div></div>
         </section>

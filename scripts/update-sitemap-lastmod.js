@@ -1,10 +1,10 @@
 #!/usr/bin/env node
 /**
- * update-sitemap-lastmod.js — rewrite sitemap.xml <lastmod> values from the truth.
+ * update-sitemap-lastmod.js, rewrite sitemap.xml <lastmod> values from the truth.
  *
  * Why: Google honours <lastmod> only while it stays accurate. Once it catches the field
  * lying it stops trusting it for the whole site. sitemap.xml had 175 URLs frozen at
- * 2026-03-22 — including the homepage and all 131 city pages, every one of which was
+ * 2026-03-22, including the homepage and all 131 city pages, every one of which was
  * rebuilt months later. That forfeits recrawl priority exactly where we just invested.
  *
  * Truth, in order of preference per URL:
@@ -17,7 +17,7 @@
  *
  * lastmod must mean "the content changed", not "a file was touched". Mechanical sweeps
  * (relinking CTAs, stripping meta keywords, regenerating twins) touch hundreds of files
- * without changing what the page says — counting those would fake freshness just as badly
+ * without changing what the page says, counting those would fake freshness just as badly
  * as stamping today. Pass --ignore-commits to exclude them by commit-subject regex.
  *
  * Usage:
@@ -119,8 +119,8 @@ function trueDate(loc) {
   const urlPath = loc.replace(BASE, '') || '/';
 
   // Routes whose target isn't a tracked src/pages file, so git can't date them directly.
-  // The blog index is generated output (gitignored) — it changes when a post does.
-  // /love is a built React bundle — date it from the lovewall source.
+  // The blog index is generated output (gitignored), it changes when a post does.
+  // /love is a built React bundle, date it from the lovewall source.
   if (urlPath === '/blog' || urlPath === '/blog/') {
     const dates = [...blogs.values()].map((b) => b.date).filter(Boolean).sort();
     return dates.pop() || null;
@@ -189,7 +189,7 @@ xml = xml.replace(/<url>([\s\S]*?)<\/url>/g, (block) => {
 });
 
 // --- report -----------------------------------------------------------------
-console.log(`${APPLY ? 'Applying' : 'Dry run'} — sitemap.xml lastmod from git/content dates\n`);
+console.log(`${APPLY ? 'Applying' : 'Dry run'}, sitemap.xml lastmod from git/content dates\n`);
 if (PRUNE_RESOURCES) console.log(`  pruned /resources URLs (served by sitemap-resources.xml): ${pruned}`);
 console.log(`  already correct : ${same}`);
 console.log(`  updated         : ${changes.length}`);
@@ -206,7 +206,7 @@ if (top.length) {
   top.forEach(([k, n]) => console.log(`    ${String(n).padStart(4)}x  ${k}`));
 }
 if (unresolved.length) {
-  console.log('\n  unresolved (left untouched — no source file found):');
+  console.log('\n  unresolved (left untouched, no source file found):');
   unresolved.slice(0, 12).forEach((u) => console.log(`    ${u}`));
   if (unresolved.length > 12) console.log(`    …and ${unresolved.length - 12} more`);
 }
@@ -215,5 +215,5 @@ if (APPLY) {
   fs.writeFileSync(SITEMAP, xml, 'utf8');
   console.log('\n✓ sitemap.xml written.');
 } else {
-  console.log('\n(dry run — re-run with --apply to write)');
+  console.log('\n(dry run, re-run with --apply to write)');
 }

@@ -17,17 +17,17 @@ keywords: ["sql order by", "sql limit offset", "sql pagination", "sql distinct",
 
 In the previous chapter you learned to retrieve rows with `SELECT` and filter them with `WHERE`. But the rows came back in an unpredictable order, and you had no way to say "give me only the top 5" or "remove duplicates." This chapter fixes all three problems.
 
-### ORDER BY — Sorting
+### ORDER BY: Sorting
 
 `ORDER BY` sorts your result rows. You can sort ascending (`ASC`, the default) or descending (`DESC`), and by multiple columns (e.g., department first, then salary within each department).
 
-### LIMIT and OFFSET — Restricting Rows
+### LIMIT and OFFSET: Restricting Rows
 
-`LIMIT n` returns only the first `n` rows. Combined with `ORDER BY`, this gives you queries like "top 5 highest-paid employees." `OFFSET` skips rows — essential for pagination (page 1 shows rows 1-10, page 2 shows rows 11-20, etc.).
+`LIMIT n` returns only the first `n` rows. Combined with `ORDER BY`, this gives you queries like "top 5 highest-paid employees." `OFFSET` skips rows, essential for pagination (page 1 shows rows 1-10, page 2 shows rows 11-20, etc.).
 
-### DISTINCT — Removing Duplicates
+### DISTINCT: Removing Duplicates
 
-`SELECT DISTINCT` removes duplicate rows from the result. Useful when you want unique values — e.g., "which departments exist?" or "which cities have orders?". Combined with `COUNT()`, it tells you how many unique values exist.
+`SELECT DISTINCT` removes duplicate rows from the result. Useful when you want unique values, e.g., "which departments exist?" or "which cities have orders?". Combined with `COUNT()`, it tells you how many unique values exist.
 
 Together, these three features turn raw data into the kind of sorted, paginated, deduplicated results you actually use in dashboards, reports, and paginated lists.
 
@@ -35,7 +35,7 @@ Together, these three features turn raw data into the kind of sorted, paginated,
 
 ### 1. Every Dashboard Uses ORDER BY
 
-Look at any dashboard — top products by revenue, most recent orders, highest-rated restaurants. Every single one uses `ORDER BY` to present data in a meaningful order. Without sorting, data is just a random pile.
+Look at any dashboard, top products by revenue, most recent orders, highest-rated restaurants. Every single one uses `ORDER BY` to present data in a meaningful order. Without sorting, data is just a random pile.
 
 ### 2. LIMIT Makes Queries Fast
 
@@ -43,7 +43,7 @@ If you want the top 5 employees, you do NOT want the database to send you 10 mil
 
 ### 3. Pagination Is Everywhere
 
-Instagram feed, Amazon product listings, Gmail inbox — all paginated. Every pagination system on the internet uses SQL's `LIMIT` and `OFFSET` (or similar patterns). If you cannot write a pagination query, you cannot build a real web app.
+Instagram feed, Amazon product listings, Gmail inbox, all paginated. Every pagination system on the internet uses SQL's `LIMIT` and `OFFSET` (or similar patterns). If you cannot write a pagination query, you cannot build a real web app.
 
 ### 4. DISTINCT Answers "What Categories Exist?"
 
@@ -86,7 +86,7 @@ INSERT INTO products VALUES
 
 ### 1. ORDER BY Basics
 
-Syntax: `ORDER BY column [ASC|DESC]`. ASC (ascending, low to high) is the default — you can omit it.
+Syntax: `ORDER BY column [ASC|DESC]`. ASC (ascending, low to high) is the default. You can omit it.
 
 ```
 -- Sort products by price ascending
@@ -123,13 +123,13 @@ SELECT name, price, stock FROM products
 ORDER BY price * stock DESC;
 ```
 
-You can even sort by column position (1-indexed): `ORDER BY 2 DESC` sorts by the second column in SELECT. This is discouraged — it breaks when you reorder columns.
+You can even sort by column position (1-indexed): `ORDER BY 2 DESC` sorts by the second column in SELECT. This is discouraged. It breaks when you reorder columns.
 
 ### 4. NULL Handling in ORDER BY
 
 In MySQL, `NULL` is treated as the **smallest value**. So `ORDER BY col ASC` puts NULLs first, and `ORDER BY col DESC` puts NULLs last. PostgreSQL does the opposite by default. For portability, use `ORDER BY col IS NULL, col` to force NULLs to the end.
 
-### 5. LIMIT — Getting the First N Rows
+### 5. LIMIT: Getting the First N Rows
 
 `LIMIT n` returns the first n rows of the result. Usually paired with ORDER BY:
 
@@ -140,9 +140,9 @@ ORDER BY price DESC
 LIMIT 3;
 ```
 
-Without `ORDER BY`, the "first 3" is whatever rows the database returns first — unpredictable. Always pair LIMIT with ORDER BY for deterministic results.
+Without `ORDER BY`, the "first 3" is whatever rows the database returns first, unpredictable. Always pair LIMIT with ORDER BY for deterministic results.
 
-### 6. LIMIT with OFFSET — Pagination
+### 6. LIMIT with OFFSET: Pagination
 
 MySQL supports two equivalent syntaxes:
 
@@ -156,7 +156,7 @@ SELECT * FROM products ORDER BY id LIMIT 5 OFFSET 10;
 -- Same thing: skip 10, take 5
 ```
 
-The second form is clearer — use it. MySQL-only code often uses the first form; PostgreSQL only supports the second.
+The second form is clearer. Use it. MySQL-only code often uses the first form; PostgreSQL only supports the second.
 
 ### 7. Pagination Pattern
 
@@ -175,7 +175,7 @@ Formula: `OFFSET = (page_number - 1) * page_size`.
 
 At page 10000 with page size 10, MySQL has to scan 100,000 rows and throw away the first 99,990. This gets slower and slower. For deep pagination, use **keyset pagination**: `WHERE id > last_seen_id ORDER BY id LIMIT 10`. This is O(log n) with an index instead of O(n).
 
-### 8. DISTINCT — Unique Values
+### 8. DISTINCT: Unique Values
 
 `DISTINCT` removes duplicate rows from the result:
 
@@ -199,7 +199,7 @@ SELECT DISTINCT category, city FROM products ORDER BY category, city;
 -- Sports-Bengaluru, Sports-Mumbai, Sports-Pune
 ```
 
-### 9. COUNT(DISTINCT col) — How Many Unique Values
+### 9. COUNT(DISTINCT col): How Many Unique Values
 
 To count distinct values, wrap the column in COUNT:
 
@@ -227,7 +227,7 @@ ORDER BY columns
 LIMIT n OFFSET m;
 ```
 
-This is the syntactic order. The logical execution order is different (FROM → WHERE → SELECT → ORDER BY → LIMIT), which matters when you use aliases — more on this in the GROUP BY chapter.
+This is the syntactic order. The logical execution order is different (FROM → WHERE → SELECT → ORDER BY → LIMIT), which matters when you use aliases, more on this in the GROUP BY chapter.
 
 ## Code Examples
 
@@ -303,7 +303,7 @@ ORDER BY inventory_value DESC
 LIMIT 5;
 ```
 
-We compute `price * stock`, alias it as `inventory_value`, and sort by it. ORDER BY accepts expressions and aliases from SELECT — WHERE does not. iPhone has the highest value: 79999 * 25 = 1,999,975.
+We compute `price * stock`, alias it as `inventory_value`, and sort by it. ORDER BY accepts expressions and aliases from SELECT: WHERE does not. iPhone has the highest value: 79999 * 25 = 1,999,975.
 
 **Output:**
 
@@ -362,7 +362,7 @@ SELECT * FROM products ORDER BY id LIMIT 5 OFFSET 5;
 SELECT * FROM products ORDER BY id LIMIT 5 OFFSET 10;
 ```
 
-OFFSET skips rows, LIMIT takes rows. Formula: OFFSET = (page_number - 1) * page_size. Page 1: skip 0, take 5. Page 2: skip 5, take 5. Page 3: skip 10, take 5 but only 2 remain. MySQL alternate syntax `LIMIT 10, 5` means offset 10, limit 5 — watch the order.
+OFFSET skips rows, LIMIT takes rows. Formula: OFFSET = (page_number - 1) * page_size. Page 1: skip 0, take 5. Page 2: skip 5, take 5. Page 3: skip 10, take 5 but only 2 remain. MySQL alternate syntax `LIMIT 10, 5` means offset 10, limit 5. Watch the order.
 
 **Output:**
 
@@ -485,7 +485,7 @@ The most-asked SQL interview question ever. Sort salaries descending, use DISTIN
 ```
 salary
 92000
-(1 row — Rohan Gupta's salary)
+(1 row: Rohan Gupta's salary)
 ```
 
 ## Common Mistakes
@@ -499,7 +499,7 @@ salary
 SELECT * FROM products LIMIT 5;
 ```
 
-No error, but returns 5 arbitrary rows — not necessarily the most expensive. The database can return rows in any order when there is no ORDER BY.
+No error, but returns 5 arbitrary rows, not necessarily the most expensive. The database can return rows in any order when there is no ORDER BY.
 
 **Correct:**
 
@@ -509,7 +509,7 @@ ORDER BY price DESC
 LIMIT 5;
 ```
 
-LIMIT without ORDER BY is non-deterministic. The order depends on physical storage, indexes used, and query optimizer decisions — it may even change between runs. Whenever you use LIMIT, pair it with ORDER BY to guarantee which rows you get.
+LIMIT without ORDER BY is non-deterministic. The order depends on physical storage, indexes used, and query optimizer decisions. It may even change between runs. Whenever you use LIMIT, pair it with ORDER BY to guarantee which rows you get.
 
 ### Mixing Up MySQL's LIMIT a, b Syntax
 
@@ -520,7 +520,7 @@ LIMIT without ORDER BY is non-deterministic. The order depends on physical stora
 SELECT * FROM products LIMIT 10, 20;
 ```
 
-No error, but returns WRONG rows. LIMIT 10, 20 means offset 10, limit 20 — skip 10 rows, take 20. Not 10 rows starting at 20.
+No error, but returns WRONG rows. LIMIT 10, 20 means offset 10, limit 20, skip 10 rows, take 20. Not 10 rows starting at 20.
 
 **Correct:**
 
@@ -531,7 +531,7 @@ SELECT * FROM products LIMIT 20, 10;
 SELECT * FROM products LIMIT 10 OFFSET 20;
 ```
 
-MySQL's two-argument LIMIT is `LIMIT offset, count` (offset first, count second). This confuses everyone. Always use the `LIMIT count OFFSET offset` syntax — it is unambiguous and matches PostgreSQL.
+MySQL's two-argument LIMIT is `LIMIT offset, count` (offset first, count second). This confuses everyone. Always use the `LIMIT count OFFSET offset` syntax. It is unambiguous and matches PostgreSQL.
 
 ### DISTINCT Only On Some Columns
 
@@ -554,7 +554,7 @@ SELECT DISTINCT name FROM products;
 SELECT name, MAX(price) FROM products GROUP BY name;
 ```
 
-DISTINCT is row-level, not column-level. `SELECT DISTINCT name, price` returns unique (name, price) pairs. To get unique names with one price each, you need GROUP BY with an aggregate — covered in chapter 10.
+DISTINCT is row-level, not column-level. `SELECT DISTINCT name, price` returns unique (name, price) pairs. To get unique names with one price each, you need GROUP BY with an aggregate, covered in chapter 10.
 
 ### Deep OFFSET Getting Slow
 
@@ -577,7 +577,7 @@ ORDER BY id
 LIMIT 10;
 ```
 
-OFFSET is O(n) — it scans all skipped rows. For deep pagination in production (Instagram-style infinite scroll), use keyset pagination: `WHERE id > last_seen_id ORDER BY id LIMIT n`. This is O(log n) with an index.
+OFFSET is O(n). It scans all skipped rows. For deep pagination in production (Instagram-style infinite scroll), use keyset pagination: `WHERE id > last_seen_id ORDER BY id LIMIT n`. This is O(log n) with an index.
 
 ### ORDER BY in WHERE or DISTINCT in WHERE
 
@@ -608,14 +608,14 @@ Clauses have a strict order: SELECT, FROM, WHERE, GROUP BY, HAVING, ORDER BY, LI
 
 - ORDER BY sorts the result. ASC is ascending (default), DESC is descending. Without ORDER BY, row order is unpredictable.
 - Multi-column sort: ORDER BY col1, col2 sorts by col1, ties broken by col2. Each column can have its own ASC/DESC.
-- ORDER BY accepts column aliases from SELECT and computed expressions. WHERE does not — that is a key difference.
+- ORDER BY accepts column aliases from SELECT and computed expressions. WHERE does not. That is a key difference.
 - LIMIT n returns the first n rows. ALWAYS pair with ORDER BY to make the result deterministic.
-- MySQL two-syntaxes: LIMIT 10, 5 (offset 10, count 5) and LIMIT 5 OFFSET 10 (count 5, offset 10). Prefer the second — it's clear and portable.
+- MySQL two-syntaxes: LIMIT 10, 5 (offset 10, count 5) and LIMIT 5 OFFSET 10 (count 5, offset 10). Prefer the second. It's clear and portable.
 - Pagination formula: OFFSET = (page_number - 1) * page_size. Page 1 starts at offset 0.
 - Deep OFFSET is slow because MySQL scans and discards skipped rows. For production pagination, use keyset pagination with WHERE id > last_seen_id.
-- DISTINCT removes duplicate rows from the result. SELECT DISTINCT col1, col2 returns unique combinations of col1 and col2 — it applies row-wise, not column-wise.
+- DISTINCT removes duplicate rows from the result. SELECT DISTINCT col1, col2 returns unique combinations of col1 and col2. It applies row-wise, not column-wise.
 - COUNT(DISTINCT column) counts unique non-NULL values. Compare with COUNT(*) (all rows) and COUNT(column) (non-NULL rows).
-- Classic interview pattern — Nth highest salary: SELECT DISTINCT salary FROM table ORDER BY salary DESC LIMIT 1 OFFSET N-1.
+- Classic interview pattern: Nth highest salary: SELECT DISTINCT salary FROM table ORDER BY salary DESC LIMIT 1 OFFSET N-1.
 
 ## Related Topics
 

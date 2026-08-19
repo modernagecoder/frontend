@@ -1,7 +1,7 @@
 /* =====================================================================
-   Modern Age Coders — Homepage redesign  ·  "Ledger & Proof"
+   Modern Age Coders: Homepage redesign  ·  "Ledger & Proof"
    Editorial Premium · Amber + Ink on warm paper
-   Authored from scratch — does NOT depend on any prior stylesheet.
+   Authored from scratch, does NOT depend on any prior stylesheet.
    Display: Fraunces · Body/UI: Inter · Code/Numbers: JetBrains Mono
    ===================================================================== */
 
@@ -212,7 +212,7 @@ nav{width:100%}
   line-height:1.04;letter-spacing:-.03em;font-weight:600;
 }
 #hero-main-title .highlight-made{color:var(--amber);font-style:italic}
-/* "Ma" (Maths) + "de" (coDe) = "Made" — highlight them in the same amber
+/* "Ma" (Maths) + "de" (coDe) = "Made", highlight them in the same amber
    as the italic "Made" so the wordplay reads clearly. */
 #hero-main-title .highlight-ma,
 #hero-main-title .highlight-de{color:var(--amber);font-weight:700}
@@ -544,7 +544,7 @@ select{appearance:none;background-image:url("data:image/svg+xml,%3Csvg xmlns='ht
 .feature-item p{color:var(--muted);font-size:.92rem;line-height:1.6}
 
 /* =====================================================================
-   PYRAMID — coding & maths for everyone
+   PYRAMID, coding & maths for everyone
    ===================================================================== */
 .pyramid-container{display:flex;flex-direction:column;align-items:center;gap:.6rem;max-width:640px;margin:0 auto}
 .pyramid-level{
@@ -748,7 +748,7 @@ select{appearance:none;background-image:url("data:image/svg+xml,%3Csvg xmlns='ht
 .custom-how-grid p{color:var(--muted);margin:0;font-size:.9rem;line-height:1.55}
 
 /* =====================================================================
-   POPULAR COURSES — chips (markup rebuilt in HTML)
+   POPULAR COURSES, chips (markup rebuilt in HTML)
    ===================================================================== */
 .popular-courses-chips{text-align:center}
 .chips-wrap{display:flex;flex-wrap:wrap;justify-content:center;gap:.6rem;max-width:880px;margin:0 auto}
@@ -771,7 +771,7 @@ select{appearance:none;background-image:url("data:image/svg+xml,%3Csvg xmlns='ht
 .map-meta strong{color:var(--ink)}
 
 /* =====================================================================
-   DISCOVERY HUBS — find your programme (markup cleaned in HTML)
+   DISCOVERY HUBS, find your programme (markup cleaned in HTML)
    ===================================================================== */
 .discovery-hubs{background:var(--paper-2);border-top:1px solid var(--line)}
 .discovery-inner{max-width:1180px;margin:0 auto;padding:clamp(3rem,5vw,4rem) 1.5rem}

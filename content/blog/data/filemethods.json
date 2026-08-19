@@ -62,7 +62,7 @@
       },
       {
         "type": "paragraph",
-        "text": "When you open a file with <code>open()</code>, Python creates a file object. This object has built-in methods for reading, writing, and navigating through the file. Think of it like a book with a bookmark—the file has content, and the pointer is your bookmark showing where you currently are."
+        "text": "When you open a file with <code>open()</code>, Python creates a file object. This object has built-in methods for reading, writing, and navigating through the file. Think of it like a book with a bookmark, the file has content, and the pointer is your bookmark showing where you currently are."
       },
       {
         "type": "paragraph",
@@ -175,7 +175,7 @@
       },
       {
         "type": "paragraph",
-        "text": "Writes a string to the file. It doesn't automatically add newlines—you must add <code>\\n</code> manually."
+        "text": "Writes a string to the file. It doesn't automatically add newlines. You must add <code>\\n</code> manually."
       },
       {
         "type": "code",
@@ -370,7 +370,7 @@
       },
       {
         "type": "paragraph",
-        "text": "Files have useful attributes (not methods—no parentheses needed):"
+        "text": "Files have useful attributes (not methods, no parentheses needed):"
       },
       {
         "type": "code",
@@ -538,7 +538,7 @@
       },
       {
         "type": "paragraph",
-        "text": "<code>readline()</code> is memory-efficient for large files—it reads one line at a time. <code>readlines()</code> loads the entire file into memory."
+        "text": "<code>readline()</code> is memory-efficient for large files. It reads one line at a time. <code>readlines()</code> loads the entire file into memory."
       },
       {
         "type": "heading",
@@ -547,7 +547,7 @@
       },
       {
         "type": "paragraph",
-        "text": "Yes, but use the <code>with</code> statement instead—it closes automatically, even if errors occur."
+        "text": "Yes, but use the <code>with</code> statement instead. It closes automatically, even if errors occur."
       },
       {
         "type": "heading",

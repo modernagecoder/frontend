@@ -1,9 +1,9 @@
 /* =====================================================================
-   Modern Age Coders — Shared Editorial Theme  ·  "Ledger & Proof"
+   Modern Age Coders: Shared Editorial Theme  ·  "Ledger & Proof"
    Amber + Ink on warm paper. Display: Fraunces · UI: Inter · Code: JetBrains Mono
    Used by sub-pages (about / pricing / courses ...) to match the homepage.
    Apply to a page by adding class "editorial" to <body>.
-   Authored from scratch — depends on no legacy stylesheet.
+   Authored from scratch, depends on no legacy stylesheet.
    ===================================================================== */
 
 :root {
@@ -51,11 +51,11 @@ body.editorial{
 }
 body.editorial img{max-width:100%;height:auto;display:block}
 /* low-specificity so component link colors (.cta-button, .skip-link, .blog-button,
-   nav/footer links, etc.) win — a `body.editorial a` reset (0,1,2) silently turned
+   nav/footer links, etc.) win, a `body.editorial a` reset (0,1,2) silently turned
    every styled <a>-button's text to ink, making it blend into its background */
 a{color:inherit}
 /* bare element selectors (this file only loads on editorial pages) so that
-   component heading colors — amber footer headings, white CTA heading — win */
+   component heading colors, amber footer headings, white CTA heading, win */
 h1,h2,h3,h4{
   font-family:var(--font-display);font-weight:600;line-height:1.12;letter-spacing:-.02em;margin:0;color:var(--ink);
 }
@@ -76,7 +76,7 @@ body.editorial .section{width:100%;max-width:var(--container);margin-inline:auto
 body.editorial .section:not(.hero-section){opacity:.01;transform:translateY(20px);transition:opacity .7s cubic-bezier(.22,.61,.36,1),transform .7s cubic-bezier(.22,.61,.36,1)}
 body.editorial .section.animate-in{opacity:1;transform:none}
 
-/* ===== Answer capsule (Phase 4.1 GEO) — always visible, no reveal dependency ===== */
+/* ===== Answer capsule (Phase 4.1 GEO), always visible, no reveal dependency ===== */
 .answer-capsule-wrap{max-width:920px;margin:0 auto;padding:clamp(1.6rem,4vw,2.6rem) 1.5rem 0}
 .answer-capsule{background:var(--paper-2);border:1px solid var(--line);border-left:4px solid var(--amber);border-radius:14px;padding:clamp(1.4rem,3vw,2.2rem)}
 .answer-capsule-lede{font-family:var(--font-display);font-weight:500;font-size:clamp(1.1rem,2vw,1.42rem);line-height:1.5;color:var(--ink);margin:0 0 1rem}
@@ -111,12 +111,11 @@ body.editorial nav{width:100%}
 .dropdown-item:hover{background:var(--amber-tint);color:var(--amber)}
 .dropdown-item.highlight{color:var(--amber);font-weight:600}
 /* dashboard links (Mark Attendance / Class Recordings) carry old dark-theme inline
-   green/blue tints that read low-contrast on the light menu — normalise to amber */
+   green/blue tints that read low-contrast on the light menu, normalise to amber */
 body.editorial .dropdown-content a[style*="gradient"]{background:var(--amber-tint) !important;border:1px solid rgba(180,83,9,.2) !important;color:var(--amber-deep) !important;font-weight:600}
 body.editorial .dropdown-content a[style*="gradient"]:hover{background:var(--amber-tint-2) !important;color:var(--amber-deep) !important}
 .callback-nav-btn{flex-shrink:0}
-/* scoped with body.editorial (0,2,1) so the `color` beats body.editorial a{color:inherit} (0,1,2)
-   — otherwise the Login button gets dark text on its dark bg and looks like a black box */
+/* scoped with body.editorial (0,2,1) so the `color` beats body.editorial a{color:inherit} (0,1,2), otherwise the Login button gets dark text on its dark bg and looks like a black box */
 body.editorial .cta-button{display:inline-flex;align-items:center;justify-content:center;gap:.5rem;background:var(--ink);color:var(--paper);border:1px solid var(--ink);border-radius:10px;padding:.6rem 1.4rem;font-size:.9rem;font-weight:600;text-decoration:none;cursor:pointer;transition:background .2s,border-color .2s,color .2s,transform .2s}
 body.editorial .cta-button:hover{background:var(--amber);border-color:var(--amber);color:#fff;transform:translateY(-1px)}
 body.editorial .cta-button.primary{background:var(--amber);border-color:var(--amber);color:#fff}

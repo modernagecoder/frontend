@@ -1,28 +1,28 @@
 ---
 title: "AI Course for Beginners | Learn Artificial Intelligence from Zero"
-description: "AI course for absolute beginners. Live online classes that take you from zero to building your first AI model — no prior coding or maths needed. Plain-English, hands-on, small batches. Free demo."
+description: "AI course for absolute beginners. Live online classes that take you from zero to building your first AI model, no prior coding or maths needed. Plain-English, hands-on, small batches. Free demo."
 canonical: https://learn.modernagecoders.com/ai-course-for-beginners
 source: src/pages/ai-course-for-beginners.html
 ---
-> AI course for absolute beginners. Live online classes that take you from zero to building your first AI model — no prior coding or maths needed. Plain-English, hands-on, small batches. Free demo.
+> AI course for absolute beginners. Live online classes that take you from zero to building your first AI model, no prior coding or maths needed. Plain-English, hands-on, small batches. Free demo.
 
 AI for Beginners • **zero to your first model**
 
 # AI Course for Beginners
 
-Start artificial intelligence from absolute zero. No prior coding or heavy maths needed — just plain-English explanations and hands-on practice that take you all the way to building your first working AI model. Live, mentor-led, small-batch classes.
+Start artificial intelligence from absolute zero. No prior coding or heavy maths needed, just plain-English explanations and hands-on practice that take you all the way to building your first working AI model. Live, mentor-led, small-batch classes.
 
 Book a Free AI DemoSee the Roadmap**0→1**Zero to first model**5–8**Students per batch**Plain**English, no jargon**Live**Mentor-led classes
 
 ## Quick answer
 
-**Modern Age Coders' AI Course for Beginners takes you from absolute zero to building your first AI model.** You learn what artificial intelligence and machine learning actually are, how models learn from data, and the core ideas behind today's AI — all in plain English with no prior coding or maths required. Then you build and run a simple model yourself, hands-on. Classes are live in small batches of 5–8 with a mentor, group plans start at ₹1,499/month, and every learner gets a free demo first.
+**Modern Age Coders' AI Course for Beginners takes you from absolute zero to building your first AI model.** You learn what artificial intelligence and machine learning actually are, how models learn from data, and the core ideas behind today's AI, all in plain English with no prior coding or maths required. Then you build and run a simple model yourself, hands-on. Classes are live in small batches of 5–8 with a mentor, group plans start at ₹1,499/month, and every learner gets a free demo first.
 
 Start Today
 
 ## Book Your Free Beginner AI Demo
 
-Tell us where you're starting from and we'll arrange a free, no-obligation AI demo with a mentor. Absolute beginners welcome — no payment to try.
+Tell us where you're starting from and we'll arrange a free, no-obligation AI demo with a mentor. Absolute beginners welcome, no payment to try.
 
 Prefer to talk now? Reach us directly:
 
@@ -32,37 +32,37 @@ What You'll Learn
 
 ## AI, Made Understandable
 
-We turn the buzzwords into clear ideas you can actually use — and then build with.
+We turn the buzzwords into clear ideas you can actually use, and then build with.
 
 ### What AI Really Is
 
-Machine learning, models, training and data — the real concepts behind AI, explained simply with everyday examples, no jargon.
+Machine learning, models, training and data, the real concepts behind AI, explained simply with everyday examples, no jargon.
 
 ### Build Your First Model
 
-Write a few lines of friendly Python and watch a model learn from examples and make predictions — your first hands-on AI win.
+Write a few lines of friendly Python and watch a model learn from examples and make predictions. Your first hands-on AI win.
 
 ### Where AI Is Going
 
-How AI is used in real apps, chatbots and tools, and a clear path to go further — so you know what to learn next.
+How AI is used in real apps, chatbots and tools, and a clear path to go further, so you know what to learn next.
 
 The Roadmap
 
 ## Your Beginner Journey
 
-Four gentle stages — each ends with you understanding and doing more.
+Four gentle stages, each ends with you understanding and doing more.
 
 STAGE 01
 
 ### What Is AI?
 
-The big picture — AI vs ML, how machines 'learn', and where it's used, all in plain English.
+The big picture: AI vs ML, how machines 'learn', and where it's used, all in plain English.
 
 STAGE 02
 
 ### Python Basics
 
-Just enough friendly Python to give instructions to a computer — starting from zero.
+Just enough friendly Python to give instructions to a computer, starting from zero.
 
 STAGE 03
 
@@ -90,7 +90,7 @@ Why Start Here
 
 Most people think AI is only for maths geniuses or senior engineers. It isn't. The core ideas are surprisingly approachable when someone explains them clearly and lets you **try them with your own hands**. That's exactly what this course does.
 
-### No experience required — really
+### No experience required: really
 
 You don't need prior coding, statistics or a tech background. We start at zero, move at a pace that respects beginners, and a mentor is right there when you get stuck. If you can use a computer, you can start AI here.
 
@@ -157,7 +157,7 @@ Ritu KediaParent
 
 ## Your AI journey starts with one free class
 
-Book a free beginner demo — understand AI and build something real, with a mentor guiding you, before you pay anything.
+Book a free beginner demo, understand AI and build something real, with a mentor guiding you, before you pay anything.
 
 Book a Free AI Demo
 
@@ -167,7 +167,7 @@ Good To Know
 
 What does the AI Course for Beginners cover?+
 
-It covers What AI Really Is, Build Your First Model, Where AI Is Going. Start artificial intelligence from absolute zero. No prior coding or heavy maths needed — just plain-English explanations and hands-on practice that take you all the way to building your first working AI model. Live, mentor-led, small-batch classes.
+It covers What AI Really Is, Build Your First Model, Where AI Is Going. Start artificial intelligence from absolute zero. No prior coding or heavy maths needed, just plain-English explanations and hands-on practice that take you all the way to building your first working AI model. Live, mentor-led, small-batch classes.
 
 Who is this course for?+
 
@@ -175,11 +175,11 @@ It's designed for college students, working professionals and serious teens who 
 
 Do I need prior experience to join?+
 
-No heavy prerequisites — we start from the right point for you and build up. Some Python helps for the more advanced topics, and if you're new we cover what you need. The free demo lets us assess your level first.
+No heavy prerequisites. We start from the right point for you and build up. Some Python helps for the more advanced topics, and if you're new we cover what you need. The free demo lets us assess your level first.
 
 Will I work on real, hands-on projects?+
 
-Yes. Every topic is hands-on in Python/Colab and you build real, mentor-reviewed work — not just theory — so you finish with practical skill and something to show.
+Yes. Every topic is hands-on in Python/Colab and you build real, mentor-reviewed work, not just theory, so you finish with practical skill and something to show.
 
 How much does the course cost?+
 

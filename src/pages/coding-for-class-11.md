@@ -1,5 +1,5 @@
 ---
-title: "Coding for Class 11 — CS Stream, Python/Pandas, MERN, AI/ML & DSA in C++ | Modern Age Coders"
+title: "Coding for Class 11: CS Stream, Python/Pandas, MERN, AI/ML & DSA in C++ | Modern Age Coders"
 description: "Coding for Class 11 CS stream students. CBSE Class 11 CS + IP, ICSE Class 11, Python with Pandas, full-stack MERN, AI/ML with real datasets, DSA in C++ or Python."
 canonical: https://learn.modernagecoders.com/coding-for-class-11
 source: src/pages/coding-for-class-11.html
@@ -8,7 +8,7 @@ source: src/pages/coding-for-class-11.html
 
 For parents of Class 11 students · CS stream
 
-# Coding for Class 11 — stream-grade depth.
+# Coding for Class 11: stream-grade depth.
 
 Class 11 is where CS stops being optional for CS stream students. Our 1 hour live classes align with Class 11 CS / IP, build a serious MERN + AI portfolio, and start DSA at a level that matters for Class 12 and college CS entry.
 
@@ -18,7 +18,7 @@ Class 11 is where CS stops being optional for CS stream students. Our 1 hour liv
 
 These are the tracks that match a Class 11 student who has chosen CS. Real tools. Real depth.
 
-[Full Stack ![Full stack web development for teens](/images/web-dev-teens.webp)   Full Stack Web Dev HTML, CSS, JS, Node, databases — ship a real deployed web app. WebNode View course →](/courses/full-stack-web-development-teens-masterclass)[AI/ML ![AI and ML for teens](/images/ai-ml-teens.webp)   AI & ML Masterclass Pandas, sklearn, neural net intro — real AI projects, real data. AIML View course →](/courses/ai-ml-masterclass-teens)[DSA ![DSA masterclass for teens](/images/problem-solving-teens.webp)   DSA & Problem Solving Arrays, strings, trees, DP — core of every CS interview. DSA View course →](/courses/problem-solving-dsa-masterclass-teens)[C++ ![C++ for teens](/images/cpp-teens.webp)   C++ Programming STL, pointers, OOP — the CP and JEE Advanced prep language. C++CP View course →](/courses/cpp-programming-masterclass-for-teens)[Java ![Java for teens](/images/java-teens.webp)   Java Programming OOP in depth — strong for ICSE/CBSE CS and Android foundations. JavaBoard View course →](/courses/java-programming-masterclass-for-teens)[Board ![CBSE ICSE CS Class 11 12 course](/images/python-teens.webp)   CBSE/ICSE CS 11–12 Board-aligned Python + Java — full syllabus, sample papers. BoardCS View course →](/courses/cbse-icse-computer-science-class-11-12-python-java-complete-course)[IP ![CBSE IP Class 11 12](/images/ip-cs-class-11-12.webp)   CBSE IP 11–12 Python, Pandas, SQL — the exact tools Informatics Practices tests. IP View course →](/courses/cbse-informatics-practices-ip-class-11-12-python-pandas-sql-complete-course)[CP ![Competitive programming masterclass](/images/competitive-programming-teens.webp)   Competitive Programming Codeforces/CodeChef rating climb — algorithms that win contests. CP View course →](/courses/competitive-programming-masterclass)
+[Full Stack ![Full stack web development for teens](/images/web-dev-teens.webp)   Full Stack Web Dev HTML, CSS, JS, Node, databases, ship a real deployed web app. WebNode View course →](/courses/full-stack-web-development-teens-masterclass)[AI/ML ![AI and ML for teens](/images/ai-ml-teens.webp)   AI & ML Masterclass Pandas, sklearn, neural net intro, real AI projects, real data. AIML View course →](/courses/ai-ml-masterclass-teens)[DSA ![DSA masterclass for teens](/images/problem-solving-teens.webp)   DSA & Problem Solving Arrays, strings, trees, DP, core of every CS interview. DSA View course →](/courses/problem-solving-dsa-masterclass-teens)[C++ ![C++ for teens](/images/cpp-teens.webp)   C++ Programming STL, pointers, OOP, the CP and JEE Advanced prep language. C++CP View course →](/courses/cpp-programming-masterclass-for-teens)[Java ![Java for teens](/images/java-teens.webp)   Java Programming OOP in depth, strong for ICSE/CBSE CS and Android foundations. JavaBoard View course →](/courses/java-programming-masterclass-for-teens)[Board ![CBSE ICSE CS Class 11 12 course](/images/python-teens.webp)   CBSE/ICSE CS 11–12 Board-aligned Python + Java, full syllabus, sample papers. BoardCS View course →](/courses/cbse-icse-computer-science-class-11-12-python-java-complete-course)[IP ![CBSE IP Class 11 12](/images/ip-cs-class-11-12.webp)   CBSE IP 11–12 Python, Pandas, SQL, the exact tools Informatics Practices tests. IP View course →](/courses/cbse-informatics-practices-ip-class-11-12-python-pandas-sql-complete-course)[CP ![Competitive programming masterclass](/images/competitive-programming-teens.webp)   Competitive Programming Codeforces/CodeChef rating climb, algorithms that win contests. CP View course →](/courses/competitive-programming-masterclass)
 
 ### Already topping the school CS class?
 
@@ -32,7 +32,7 @@ Why this level, specifically
 
 ## Class 11 is when CS becomes a career decision.
 
-By Class 11, most students know whether they want computer science in college. The right programme turns that decision into evidence — a portfolio, a GitHub history, measurable skills.
+By Class 11, most students know whether they want computer science in college. The right programme turns that decision into evidence, a portfolio, a GitHub history, measurable skills.
 
 01 / Stream
 
@@ -104,7 +104,7 @@ Term 1 · Base fixed
 
 ### Python + Pandas solid
 
-Deep Python OOP and Pandas — mirrors CBSE IP and CS. School tests easy, real foundation in place.
+Deep Python OOP and Pandas, mirrors CBSE IP and CS. School tests easy, real foundation in place.
 
 - python
 - pandas
@@ -146,12 +146,12 @@ Option A
 
 ### Live 1-on-1 Online Class
 
-One teacher, one learner, the full 1 hour. The teacher adapts pace in real time — slowing down on tricky concepts, speeding up where your child is already fluent. Best for focused learners, specific exam prep, or fastest progress.
+One teacher, one learner, the full 1 hour. The teacher adapts pace in real time, slowing down on tricky concepts, speeding up where your child is already fluent. Best for focused learners, specific exam prep, or fastest progress.
 
 - 1 teacher, 1 student, 1 hour per session
 - Pace fully adjusted to your child
 - Focused help on school projects and exams
-- Flexible timing — you pick the slots
+- Flexible timing. You pick the slots
 - Every class recorded and shared with parents
 
 **₹4,999**/ month · 4 sessionsOption B
@@ -162,7 +162,7 @@ One teacher, one learner, the full 1 hour. The teacher adapts pace in real time 
 
 - Small groups of 4 to 6 similar-level learners
 - 1 hour live session, 2 sessions per week
-- Peer project reviews — students present to each other
+- Peer project reviews, students present to each other
 - Fixed schedule, same classmates each week
 - Class recording and parent progress report
 
@@ -199,11 +199,11 @@ The one step solution for my son. Modern Age Coders make learning coding so simp
 
 RRia MukherjeeParentCommon questions from parents
 
-## Before you book the demo — answered honestly.
+## Before you book the demo: answered honestly.
 
 Short, plain answers. If your question isn't here, tap the callback button at the top and a human will get back to you the same day.
 
-Does this match CBSE Class 11 CS?Yes. CBSE Class 11 CS (Python, boolean, number systems, emerging trends) covered weekly. NCERT book open during class.CBSE Class 11 Informatics Practices?Yes, fully. Pandas, matplotlib, SQL, HTML basics. Widely used by IP students who struggle with Pandas.ICSE / ISC Class 11?ICSE/ISC Class 11 CS is Java-heavy (OOP, arrays, strings, functions, recursion). Our Java track matches the ISC syllabus.DSA in C++ or Python at 16?Student's choice. C++ is gold for CP and JEE Advanced CS. Python works for portfolio-focused paths. Both fine for interviews.Weekly time?2 to 3 hours total — two 1-hour sessions plus ~1 hour homework. Fits alongside JEE/NEET/CUET prep.CBSE IP practical exam?Prepared. Sample datasets, likely patterns, viva rehearsal. Most IP students clear the practical comfortably.Hackathons at Class 11?Yes. Student hackathons are ideal. We guide scoping, team etiquette, submission.1-on-1 only or is group serious?Both serious. Group batches placed by level, not age — a strong Class 11 student is with other strong Class 11 students.Book a free 1 hour demo class
+Does this match CBSE Class 11 CS?Yes. CBSE Class 11 CS (Python, boolean, number systems, emerging trends) covered weekly. NCERT book open during class.CBSE Class 11 Informatics Practices?Yes, fully. Pandas, matplotlib, SQL, HTML basics. Widely used by IP students who struggle with Pandas.ICSE / ISC Class 11?ICSE/ISC Class 11 CS is Java-heavy (OOP, arrays, strings, functions, recursion). Our Java track matches the ISC syllabus.DSA in C++ or Python at 16?Student's choice. C++ is gold for CP and JEE Advanced CS. Python works for portfolio-focused paths. Both fine for interviews.Weekly time?2 to 3 hours total, two 1-hour sessions plus ~1 hour homework. Fits alongside JEE/NEET/CUET prep.CBSE IP practical exam?Prepared. Sample datasets, likely patterns, viva rehearsal. Most IP students clear the practical comfortably.Hackathons at Class 11?Yes. Student hackathons are ideal. We guide scoping, team etiquette, submission.1-on-1 only or is group serious?Both serious. Group batches placed by level, not age, a strong Class 11 student is with other strong Class 11 students.Book a free 1 hour demo class
 
 ### Try one session. Decide after.
 

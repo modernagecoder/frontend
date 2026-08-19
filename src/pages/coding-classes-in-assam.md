@@ -10,7 +10,7 @@ Assam • **Live Online Classes**
 
 # Coding Classes in Assam for Kids, Teens & Adults
 
-From Guwahati — the gateway to the Northeast — to Dibrugarh, Silchar and Jorhat, Modern Age Coders teaches Scratch, Python, Java, Web Development and AI through live, small-batch online classes. World-class tech education delivered to every corner of Assam, right at home.
+From Guwahati, the gateway to the Northeast, to Dibrugarh, Silchar and Jorhat, Modern Age Coders teaches Scratch, Python, Java, Web Development and AI through live, small-batch online classes. World-class tech education delivered to every corner of Assam, right at home.
 
 Book a Free Demo ClassExplore Courses**4.9/5**Parent rating**5–8**Students per batch**100%**Live & online**6–60+**Ages we teach
 
@@ -73,15 +73,15 @@ Most Requested in Assam
 
 ## Popular Coding Courses for Assam Students
 
-Hand-picked programmes parents and students in Assam ask for most — explore any of them or book a free demo to find the right fit.
+Hand-picked programmes parents and students in Assam ask for most, explore any of them or book a free demo to find the right fit.
 
-[Python & AIFor kids & teens — code + intelligence](/python-and-ai-classes-for-kids-teens)[AI & ML for TeensBuild real machine-learning projects](/ai-ml-course-for-teens)[Java ProgrammingStrong OOP foundations for teens](/java-programming-for-kids-teens)[Web DevelopmentHTML, CSS, JavaScript & live sites](/courses/coding/teens)[Scratch for KidsGames & animation, ages 6–10](/courses/coding/kids)[DSA & Full-StackPlacement-ready for college students](/courses/coding/college)[Coding for GirlsSupportive, confidence-building batches](/coding-classes-for-girls)[Summer Coding CampFast, fun project sprints](/summer-coding-camp)
+[Python & AIFor kids & teens, code + intelligence](/python-and-ai-classes-for-kids-teens)[AI & ML for TeensBuild real machine-learning projects](/ai-ml-course-for-teens)[Java ProgrammingStrong OOP foundations for teens](/java-programming-for-kids-teens)[Web DevelopmentHTML, CSS, JavaScript & live sites](/courses/coding/teens)[Scratch for KidsGames & animation, ages 6–10](/courses/coding/kids)[DSA & Full-StackPlacement-ready for college students](/courses/coding/college)[Coding for GirlsSupportive, confidence-building batches](/coding-classes-for-girls)[Summer Coding CampFast, fun project sprints](/summer-coding-camp)
 
 Across The State
 
 ## Coding Classes in Every Corner of Assam
 
-Because our classes are live and online, any student with a laptop and internet can join — whether you're in the capital or a district town. Explore our dedicated city page:
+Because our classes are live and online, any student with a laptop and internet can join, whether you're in the capital or a district town. Explore our dedicated city page:
 
 [Guwahati Assam's largest city and the Northeast's education, IT & commercial gateway. Coding in Guwahati →](/best-coding-class-in-guwahati)DibrugarhSilcharJorhatNagaonTinsukiaTezpurBongaigaonDhubriSivasagarGoalparaBarpetaNorth Lakhimpur
 
@@ -89,9 +89,9 @@ Why It Matters Here
 
 ## Why Coding Matters for Students in Assam
 
-Assam is the gateway to India's Northeast and its largest education hub. Guwahati is growing into a genuine IT and startup centre, IIT Guwahati is one of the country's top engineering institutes, and universities across the state are producing more tech-minded graduates every year. For Assamese families, coding is a skill that connects local talent to opportunities across India and the world — without anyone having to leave home.
+Assam is the gateway to India's Northeast and its largest education hub. Guwahati is growing into a genuine IT and startup centre, IIT Guwahati is one of the country's top engineering institutes, and universities across the state are producing more tech-minded graduates every year. For Assamese families, coding is a skill that connects local talent to opportunities across India and the world, without anyone having to leave home.
 
-The barrier has always been access to quality teachers, especially outside Guwahati. Modern Age Coders removes that barrier with **live, small-batch online classes** where a real instructor knows each student's pace, reviews their projects and keeps them building — in Dibrugarh, Silchar or any district.
+The barrier has always been access to quality teachers, especially outside Guwahati. Modern Age Coders removes that barrier with **live, small-batch online classes** where a real instructor knows each student's pace, reviews their projects and keeps them building, in Dibrugarh, Silchar or any district.
 
 ### Aligned with Assam's school boards
 
@@ -99,7 +99,7 @@ Our curriculum complements the **Board of Secondary Education Assam (SEBA/AHSEC)
 
 ### Learn in the language you're comfortable with
 
-Classes are taught in English, and instructors can explain concepts in **Assamese, Hindi or Bengali** when it helps a student understand faster. We focus on genuine understanding, not rote learning — and we run a dedicated [Coding for Girls](/coding-classes-for-girls) programme to bring more girls across Assam into tech.
+Classes are taught in English, and instructors can explain concepts in **Assamese, Hindi or Bengali** when it helps a student understand faster. We focus on genuine understanding, not rote learning. And we run a dedicated [Coding for Girls](/coding-classes-for-girls) programme to bring more girls across Assam into tech.
 
 The Difference
 
@@ -107,11 +107,11 @@ The Difference
 
 ### Small live batches (5–8)
 
-Every student gets real attention from the instructor. No pre-recorded videos pretending to be a class — these are live, two-way sessions.
+Every student gets real attention from the instructor. No pre-recorded videos pretending to be a class, these are live, two-way sessions.
 
 ### Project-based learning
 
-Students build real games, websites, apps and AI projects — work they can show in school portfolios and college applications.
+Students build real games, websites, apps and AI projects, work they can show in school portfolios and college applications.
 
 ### Recorded for revision
 
@@ -178,7 +178,7 @@ Parent & Student Voices
 
 Arush PoddarStudent★★★★★
 
-"Very good classes. Don't worry about coding—they teach the best, especially Shivam sir."
+"Very good classes. Don't worry about coding. They teach the best, especially Shivam sir."
 
 Shaarav WadhwaStudent★★★★★
 
@@ -188,7 +188,7 @@ Vansh AgarwalStudent
 
 ## Ready to start coding in Assam?
 
-Book a free demo class today — see how your child learns before you spend a rupee.
+Book a free demo class today. See how your child learns before you spend a rupee.
 
 Book a Free Demo Class
 

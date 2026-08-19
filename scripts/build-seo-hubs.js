@@ -170,7 +170,7 @@ function headHtml({ title, description, canonicalPath, keywords, intro, breadcru
     <title>${title}</title>
     <meta name="description" content="${description}">
     <!-- meta keywords intentionally not emitted: Google has ignored it since 2009 and
-         Bing treats it as a SPAM SIGNAL — and Bing is the index ChatGPT/Copilot answer from.
+         Bing treats it as a SPAM SIGNAL, and Bing is the index ChatGPT/Copilot answer from.
          See scripts/strip-meta-keywords.py. -->
     <meta name="author" content="Modern Age Coders">
     <link rel="canonical" href="${canonicalUrl}">
@@ -283,7 +283,7 @@ const FOOT = `<div id="footer-placeholder"></div>
 // ---------------------------------------------------------------------------
 
 function buildCityHub() {
-  const intro = "Live online coding and maths classes reaching every major city in India and beyond. Kids, teens and adults learn Scratch, Python, web development, AI and DSA from expert instructors — from anywhere. Find your city below, book a free demo, and join students from 25+ countries and 100+ schools across India.";
+  const intro = "Live online coding and maths classes reaching every major city in India and beyond. Kids, teens and adults learn Scratch, Python, web development, AI and DSA from expert instructors, from anywhere. Find your city below, book a free demo, and join students from 25+ countries and 100+ schools across India.";
   const head = headHtml({
     title: 'Coding Classes in India | 60+ Cities | Modern Age Coders',
     description: 'Live online coding classes for kids, teens and adults in 60+ Indian cities and neighbourhoods. Python, Scratch, Web Dev, AI and DSA. Rated 4.9/5. Book a free demo.',
@@ -303,7 +303,7 @@ function buildCityHub() {
 
   const mainGroup = renderGroup(
     'Pick your city',
-    'All 47 of our dedicated city pages — each with local school references, batch timings and demo sign-up. Classes are live online, so any of these work even if you are in a neighbouring town.',
+    'All 47 of our dedicated city pages, each with local school references, batch timings and demo sign-up. Classes are live online, so any of these work even if you are in a neighbouring town.',
     CITIES_MAIN.map(([slug, label]) => [`best-coding-class-in-${slug}`, `Best Coding Class in ${label}`]),
   );
 
@@ -381,7 +381,7 @@ function buildAgeHub() {
 
   const coding = renderGroup(
     'General coding by age',
-    'Our recommended starting curriculum for each age — from drag-and-drop Scratch for 8 year olds to full-stack projects for 17 year olds.',
+    'Our recommended starting curriculum for each age, from drag-and-drop Scratch for 8 year olds to full-stack projects for 17 year olds.',
     AGES_CODING,
   );
   const python = renderGroup(
@@ -469,7 +469,7 @@ function injectRelated(filePath, block) {
   }
 
   if (!inserted) {
-    console.warn(`  skip ${path.basename(filePath)} — no footer marker found`);
+    console.warn(`  skip ${path.basename(filePath)}, no footer marker found`);
     return false;
   }
 

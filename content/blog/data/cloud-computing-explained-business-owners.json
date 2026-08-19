@@ -54,7 +54,7 @@
       },
       {
         "type": "paragraph",
-        "text": "This guide explains cloud computing in plain English—what it is, why it matters, real cost comparisons, and how to migrate safely. No jargon. No unnecessary complexity. Just what you need to know to make informed decisions for your business."
+        "text": "This guide explains cloud computing in plain English, what it is, why it matters, real cost comparisons, and how to migrate safely. No jargon. No unnecessary complexity. Just what you need to know to make informed decisions for your business."
       },
       {
         "type": "paragraph",
@@ -84,7 +84,7 @@
       },
       {
         "type": "paragraph",
-        "text": "Cloud computing is the same concept applied to computer resources. Instead of buying and maintaining your own servers, storage, and software, you rent them from companies that specialize in this—and pay only for what you use."
+        "text": "Cloud computing is the same concept applied to computer resources. Instead of buying and maintaining your own servers, storage, and software, you rent them from companies that specialize in this, and pay only for what you use."
       },
       {
         "type": "callout",
@@ -99,7 +99,7 @@
       },
       {
         "type": "paragraph",
-        "text": "The cloud isn't floating in the sky. It's massive data centers—buildings full of computers—owned by companies like Amazon, Microsoft, and Google. These data centers are spread around the world, connected by the internet."
+        "text": "The cloud isn't floating in the sky. It's massive data centers, buildings full of computers, owned by companies like Amazon, Microsoft, and Google. These data centers are spread around the world, connected by the internet."
       },
       {
         "type": "paragraph",
@@ -135,13 +135,13 @@
       },
       {
         "type": "paragraph",
-        "text": "If you've used any of these, you've used cloud computing. It's not new or scary—it's how most software works today. The difference between consumer cloud services (like Netflix) and business cloud services is mainly about features, security, and support. The underlying concept is identical."
+        "text": "If you've used any of these, you've used cloud computing. It's not new or scary. It's how most software works today. The difference between consumer cloud services (like Netflix) and business cloud services is mainly about features, security, and support. The underlying concept is identical."
       },
       {
         "type": "callout",
         "calloutType": "info",
         "title": "You're Already a Cloud User",
-        "text": "Think about it: When you check Gmail on your phone, you're accessing data stored in Google's data centers. When you share a file via WhatsApp, it goes through cloud servers. You've been using cloud computing for years—business cloud services just add professional features and reliability."
+        "text": "Think about it: When you check Gmail on your phone, you're accessing data stored in Google's data centers. When you share a file via WhatsApp, it goes through cloud servers. You've been using cloud computing for years, business cloud services just add professional features and reliability."
       },
       {
         "type": "heading",
@@ -160,7 +160,7 @@
       },
       {
         "type": "paragraph",
-        "text": "<strong>What it is:</strong> Ready-to-use software you access through a web browser. No installation, no maintenance—just log in and use it. Think of it like renting a fully furnished apartment instead of buying furniture."
+        "text": "<strong>What it is:</strong> Ready-to-use software you access through a web browser. No installation, no maintenance, just log in and use it. Think of it like renting a fully furnished apartment instead of buying furniture."
       },
       {
         "type": "paragraph",
@@ -168,7 +168,7 @@
       },
       {
         "type": "paragraph",
-        "text": "<strong>For you:</strong> This is probably what you'll use most. It's the simplest form of cloud computing—just subscribe and start using. No technical knowledge required. If you can use a website, you can use SaaS."
+        "text": "<strong>For you:</strong> This is probably what you'll use most. It's the simplest form of cloud computing, just subscribe and start using. No technical knowledge required. If you can use a website, you can use SaaS."
       },
       {
         "type": "paragraph",
@@ -181,7 +181,7 @@
       },
       {
         "type": "paragraph",
-        "text": "<strong>What it is:</strong> Renting basic computing resources—servers, storage, networking. You build what you need on top of it. Like renting an empty warehouse and setting it up yourself."
+        "text": "<strong>What it is:</strong> Renting basic computing resources, servers, storage, networking. You build what you need on top of it. Like renting an empty warehouse and setting it up yourself."
       },
       {
         "type": "paragraph",
@@ -193,7 +193,7 @@
       },
       {
         "type": "paragraph",
-        "text": "<strong>When you'd use it:</strong> If you're building a custom mobile app, your developers might host it on AWS. If you need to process large amounts of data, you might rent computing power by the hour. Most business owners don't interact with IaaS directly—your technical team does."
+        "text": "<strong>When you'd use it:</strong> If you're building a custom mobile app, your developers might host it on AWS. If you need to process large amounts of data, you might rent computing power by the hour. Most business owners don't interact with IaaS directly. Your technical team does."
       },
       {
         "type": "heading",
@@ -226,7 +226,7 @@
       },
       {
         "type": "paragraph",
-        "text": "Cloud computing isn't just a tech trend—it offers real business benefits:"
+        "text": "Cloud computing isn't just a tech trend. It offers real business benefits:"
       },
       {
         "type": "heading",
@@ -235,7 +235,7 @@
       },
       {
         "type": "paragraph",
-        "text": "Traditional software meant buying servers, licenses, and hiring IT staff. Cloud services are subscription-based—pay monthly for what you use. No massive upfront investment. This is especially valuable for small businesses and startups."
+        "text": "Traditional software meant buying servers, licenses, and hiring IT staff. Cloud services are subscription-based, pay monthly for what you use. No massive upfront investment. This is especially valuable for small businesses and startups."
       },
       {
         "type": "paragraph",
@@ -252,7 +252,7 @@
       },
       {
         "type": "paragraph",
-        "text": "<strong>Real example:</strong> Your sales team is meeting a client. They can pull up the latest proposal, check inventory, and even process an order—all from their phone or laptop. No need to call the office or wait until they're back. The client gets immediate answers, and you close the deal faster."
+        "text": "<strong>Real example:</strong> Your sales team is meeting a client. They can pull up the latest proposal, check inventory, and even process an order, all from their phone or laptop. No need to call the office or wait until they're back. The client gets immediate answers, and you close the deal faster."
       },
       {
         "type": "heading",
@@ -274,7 +274,7 @@
       },
       {
         "type": "paragraph",
-        "text": "<strong>Real example:</strong> An e-commerce business sees 10x traffic during Diwali sales. With traditional servers, they'd need to buy capacity for peak demand—expensive hardware that sits mostly unused 11 months a year. With cloud hosting, they scale up for Diwali, handle the traffic surge, then scale back down. They only pay for what they actually use."
+        "text": "<strong>Real example:</strong> An e-commerce business sees 10x traffic during Diwali sales. With traditional servers, they'd need to buy capacity for peak demand, expensive hardware that sits mostly unused 11 months a year. With cloud hosting, they scale up for Diwali, handle the traffic surge, then scale back down. They only pay for what they actually use."
       },
       {
         "type": "heading",
@@ -497,7 +497,7 @@
       },
       {
         "type": "paragraph",
-        "text": "For most businesses, especially small to medium-sized ones, cloud computing offers better economics. The flexibility alone—paying for what you use, scaling up or down—makes it worth considering."
+        "text": "For most businesses, especially small to medium-sized ones, cloud computing offers better economics. The flexibility alone, paying for what you use, scaling up or down, makes it worth considering."
       },
       {
         "type": "button",
@@ -528,7 +528,7 @@
         "type": "list",
         "style": "unordered",
         "items": [
-          "<strong>Google Workspace:</strong> Gmail, Calendar, Meet, Chat—integrated suite",
+          "<strong>Google Workspace:</strong> Gmail, Calendar, Meet, Chat, integrated suite",
           "<strong>Microsoft 365:</strong> Outlook, Teams, familiar Office apps",
           "<strong>Slack:</strong> Team messaging and collaboration",
           "<strong>Zoom:</strong> Video conferencing"
@@ -682,7 +682,7 @@
       },
       {
         "type": "paragraph",
-        "text": "Move one function at a time—email first, then files, then accounting, etc. Good for: Risk-averse businesses, learning as you go (recommended for most)."
+        "text": "Move one function at a time, email first, then files, then accounting, etc. Good for: Risk-averse businesses, learning as you go (recommended for most)."
       },
       {
         "type": "callout",
@@ -778,7 +778,7 @@
       },
       {
         "type": "paragraph",
-        "text": "<strong>Solution:</strong> Enable two-factor authentication immediately. Set up proper access controls. Encrypt sensitive data. Use the security features your cloud provider offers—they're there for a reason."
+        "text": "<strong>Solution:</strong> Enable two-factor authentication immediately. Set up proper access controls. Encrypt sensitive data. Use the security features your cloud provider offers. They're there for a reason."
       },
       {
         "type": "callout",
@@ -808,7 +808,7 @@
       },
       {
         "type": "paragraph",
-        "text": "These timelines assume you're not rushing and are doing things properly. Faster is possible but increases risk. Slower is fine—there's no prize for speed."
+        "text": "These timelines assume you're not rushing and are doing things properly. Faster is possible but increases risk. Slower is fine. There's no prize for speed."
       },
       {
         "type": "heading",
@@ -863,7 +863,7 @@
       },
       {
         "type": "paragraph",
-        "text": "Search for cloud solutions to your specific problems. Read reviews. Ask other business owners what they use. Most cloud services offer free trials—use them."
+        "text": "Search for cloud solutions to your specific problems. Read reviews. Ask other business owners what they use. Most cloud services offer free trials. Use them."
       },
       {
         "type": "heading",
@@ -872,7 +872,7 @@
       },
       {
         "type": "paragraph",
-        "text": "Don't migrate everything at once. Pick one area—maybe email or file storage—and move that to the cloud. Learn from the experience before tackling more."
+        "text": "Don't migrate everything at once. Pick one area, maybe email or file storage, and move that to the cloud. Learn from the experience before tackling more."
       },
       {
         "type": "heading",
@@ -932,15 +932,15 @@
         "items": [
           {
             "title": "Is cloud computing only for big companies?",
-            "content": "No—cloud computing is actually ideal for small businesses. It eliminates the need for expensive IT infrastructure and staff. Small businesses can access enterprise-grade tools at affordable subscription prices. In fact, cloud computing levels the playing field, allowing small businesses to use the same tools as large enterprises."
+            "content": "No, cloud computing is actually ideal for small businesses. It eliminates the need for expensive IT infrastructure and staff. Small businesses can access enterprise-grade tools at affordable subscription prices. In fact, cloud computing levels the playing field, allowing small businesses to use the same tools as large enterprises."
           },
           {
             "title": "How much does cloud computing cost?",
-            "content": "It varies widely. Basic email and storage might cost ₹500-2,000 per user per month. Specialized business software ranges from ₹1,000 to ₹10,000+ per month. Most services offer tiered pricing based on features and users. For a 10-person business, expect ₹15,000-25,000/month total for email, storage, and basic business apps—far less than traditional IT infrastructure."
+            "content": "It varies widely. Basic email and storage might cost ₹500-2,000 per user per month. Specialized business software ranges from ₹1,000 to ₹10,000+ per month. Most services offer tiered pricing based on features and users. For a 10-person business, expect ₹15,000-25,000/month total for email, storage, and basic business apps, far less than traditional IT infrastructure."
           },
           {
             "title": "Can I use cloud services without technical knowledge?",
-            "content": "Absolutely. SaaS applications are designed for non-technical users. If you can use a web browser and email, you can use most cloud services. That's the whole point—technology that just works. Most services offer tutorials, help centers, and customer support to help you get started."
+            "content": "Absolutely. SaaS applications are designed for non-technical users. If you can use a web browser and email, you can use most cloud services. That's the whole point, technology that just works. Most services offer tutorials, help centers, and customer support to help you get started."
           },
           {
             "title": "What happens to my data if I cancel a cloud service?",
@@ -952,7 +952,7 @@
           },
           {
             "title": "How long does it take to migrate to the cloud?",
-            "content": "It depends on your complexity. Email migration for a small business might take 1-2 weeks. A complete phased migration could take 2-3 months. Don't rush—proper planning and testing prevent problems. Most businesses migrate one function at a time over several months, which minimizes disruption and allows teams to adapt gradually."
+            "content": "It depends on your complexity. Email migration for a small business might take 1-2 weeks. A complete phased migration could take 2-3 months. Don't rush, proper planning and testing prevent problems. Most businesses migrate one function at a time over several months, which minimizes disruption and allows teams to adapt gradually."
           },
           {
             "title": "What if I want to switch cloud providers later?",
@@ -960,7 +960,7 @@
           },
           {
             "title": "Do I need to hire IT staff for cloud services?",
-            "content": "For basic cloud services (email, file storage, standard business apps), you typically don't need dedicated IT staff. The cloud provider handles maintenance, updates, and infrastructure. However, as you grow or use more complex services, you might want someone to manage user accounts, permissions, and integrations—but this is far less demanding than managing traditional IT infrastructure."
+            "content": "For basic cloud services (email, file storage, standard business apps), you typically don't need dedicated IT staff. The cloud provider handles maintenance, updates, and infrastructure. However, as you grow or use more complex services, you might want someone to manage user accounts, permissions, and integrations, but this is far less demanding than managing traditional IT infrastructure."
           },
           {
             "title": "What happens if my internet goes down?",
@@ -1016,7 +1016,7 @@
       },
       {
         "type": "paragraph",
-        "text": "For most businesses—especially small to medium-sized ones—cloud computing offers compelling advantages. The flexibility, cost savings, and reduced complexity make it worth serious consideration."
+        "text": "For most businesses, especially small to medium-sized ones, cloud computing offers compelling advantages. The flexibility, cost savings, and reduced complexity make it worth serious consideration."
       },
       {
         "type": "heading",
@@ -1034,7 +1034,7 @@
         "items": [
           "<strong>Identify one pain point:</strong> What's your biggest IT frustration right now?",
           "<strong>Research cloud solutions:</strong> Find 2-3 services that address that pain point",
-          "<strong>Try free trials:</strong> Most services offer 14-30 day trials—use them",
+          "<strong>Try free trials:</strong> Most services offer 14-30 day trials. Use them",
           "<strong>Start small:</strong> Migrate one function, learn from it, then expand",
           "<strong>Document everything:</strong> Keep notes on what works and what doesn't",
           "<strong>Get help if needed:</strong> Consider consulting with IT professionals for complex migrations"
@@ -1055,7 +1055,7 @@
       },
       {
         "type": "paragraph",
-        "text": "For business owners, the cloud offers real benefits: lower costs (typically 50-70% savings in first year), flexibility to work from anywhere, automatic updates and backups, and enterprise-grade security. You don't need to understand the technical details—you just need to understand what problems you're solving and choose services that solve them."
+        "text": "For business owners, the cloud offers real benefits: lower costs (typically 50-70% savings in first year), flexibility to work from anywhere, automatic updates and backups, and enterprise-grade security. You don't need to understand the technical details. You just need to understand what problems you're solving and choose services that solve them."
       },
       {
         "type": "paragraph",
@@ -1063,7 +1063,7 @@
       },
       {
         "type": "paragraph",
-        "text": "Start small, learn as you go, and expand what works. The cloud isn't a destination—it's a tool. Use it to make your business more efficient, flexible, and competitive. And remember: you don't need to be a tech expert to make smart decisions about cloud computing. You just need to focus on your business needs and choose solutions that meet them."
+        "text": "Start small, learn as you go, and expand what works. The cloud isn't a destination. It's a tool. Use it to make your business more efficient, flexible, and competitive. And remember: you don't need to be a tech expert to make smart decisions about cloud computing. You just need to focus on your business needs and choose solutions that meet them."
       },
       {
         "type": "callout",

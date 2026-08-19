@@ -322,7 +322,7 @@ class BlogGenerator {
                     html += `<blockquote class="${section.className || ''}">\n`;
                     html += `  <p>${section.text}</p>\n`;
                     if (section.author) {
-                        html += `  <cite>— ${section.author}</cite>\n`;
+                        html += `  <cite>, ${section.author}</cite>\n`;
                     }
                     html += `</blockquote>\n`;
                     break;
@@ -610,7 +610,7 @@ class BlogGenerator {
         html = html.replace(/{{HERO_IMAGE_URL}}/g, blogData.hero.featuredImage.url);
         html = html.replace(/{{HERO_IMAGE_ALT}}/g, blogData.hero.featuredImage.alt);
 
-        // TL;DR / Quick Answer callout (Phase 4.2 — GEO answer capsule, sits under the H1)
+        // TL;DR / Quick Answer callout (Phase 4.2: GEO answer capsule, sits under the H1)
         const tldr = (blogData.meta.tldr || blogData.tldr || '').trim();
         const tldrHtml = tldr
             ? `<aside class="blog-tldr" aria-label="Quick answer">

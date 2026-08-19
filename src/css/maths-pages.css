@@ -1,5 +1,5 @@
 /* ============================================================
-   maths-pages.css — shared base for Modern Age Coders maths
+   maths-pages.css, shared base for Modern Age Coders maths
    landing pages. Theme-neutral. Each page sets a body theme
    class (e.g. .mp-sat) that overrides the --mp-* custom
    properties below to get a distinct palette + hero treatment.
@@ -739,7 +739,7 @@ ul, ol { color: var(--mp-ink-soft); }
 
 
 /* ============================================================
-   Tier 3 — International Maths Ladder page themes (2026-07-06)
+   Tier 3: International Maths Ladder page themes (2026-07-06)
    Same convention as above: each page's body class overrides
    the --mp-* tokens. Grades 3-5 use the friendlier Quicksand
    head font (like .mp-ks2); 6th up use the default head font.

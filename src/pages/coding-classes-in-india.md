@@ -22,13 +22,13 @@ National Coverage
 
 # Coding Classes Across India
 
-Live online coding and maths classes reaching every major city in India and beyond. Kids, teens and adults learn Scratch, Python, web development, AI and DSA from expert instructors — from anywhere. Find your city below, book a free demo, and join students from 25+ countries and 100+ schools across India.
+Live online coding and maths classes reaching every major city in India and beyond. Kids, teens and adults learn Scratch, Python, web development, AI and DSA from expert instructors, from anywhere. Find your city below, book a free demo, and join students from 25+ countries and 100+ schools across India.
 
 [Book a free demo →](/book-demo)
 
 ## Pick your city
 
-All 47 of our dedicated city pages — each with local school references, batch timings and demo sign-up. Classes are live online, so any of these work even if you are in a neighbouring town.
+All 47 of our dedicated city pages, each with local school references, batch timings and demo sign-up. Classes are live online, so any of these work even if you are in a neighbouring town.
 
 - [Best Coding Class in Agra](/best-coding-class-in-agra)
 - [Best Coding Class in Ahmedabad](/best-coding-class-in-ahmedabad)
@@ -133,7 +133,7 @@ We have a strong in-person community in Kolkata and Howrah with neighbourhood-sp
 
 ## Coding classes by state in India
 
-We run dedicated state landing pages across India — each one locally aware with its school boards, entrance exams, languages and a hub of nearby cities. Find yours below.
+We run dedicated state landing pages across India, each one locally aware with its school boards, entrance exams, languages and a hub of nearby cities. Find yours below.
 
 - [📍 Coding classes in Andhra Pradesh](/coding-classes-in-andhra-pradesh)
 - [📍 Coding classes in Assam](/coding-classes-in-assam)
@@ -159,7 +159,7 @@ We run dedicated state landing pages across India — each one locally aware wit
 
 ## Coding classes in other countries
 
-We also run dedicated landing pages for our families outside India. Every page is locally aware — exam boards, time zones, curriculum frameworks, and country-specific universities.
+We also run dedicated landing pages for our families outside India. Every page is locally aware, exam boards, time zones, curriculum frameworks, and country-specific universities.
 
 - [🇨🇭 Coding classes in Switzerland](/coding-classes-in-switzerland)
 - [🇩🇪 Coding classes in Germany](/coding-classes-in-germany)
@@ -175,7 +175,7 @@ We also run dedicated landing pages for our families outside India. Every page i
 
 ## Explore coding classes by topic & language
 
-Beyond your city, pick the track you want to learn. Each pillar links every level — kids to professionals — with small 4–8 student batches and real projects.
+Beyond your city, pick the track you want to learn. Each pillar links every level, kids to professionals, with small 4–8 student batches and real projects.
 
 - [AI & Machine Learning course in India](/best-ai-and-machine-learning-course-in-india)
 - [Java classes in India](/best-java-classes-in-india)
@@ -184,7 +184,7 @@ Beyond your city, pick the track you want to learn. Each pillar links every leve
 - [Online maths tuition](/online-maths-tuition)
 - [Coding classes for girls](/coding-classes-for-girls)
 - [Vibe Coding classes (AI-powered)](/vibe-coding-classes)
-- [Course Atlas — all 70+ courses](/course-atlas)
+- [Course Atlas, all 70+ courses](/course-atlas)
 
 ## Don't see your city or class? We still teach you.
 
@@ -194,7 +194,7 @@ All our classes are live, online and 1-on-1. Every student from anywhere in Indi
 
 ## Browse coding classes by state & city
 
-Live online coding and maths classes for kids, teens and adults across India — small 4–8 student batches, expert mentors, real projects. Choose your state, city or neighbourhood below.
+Live online coding and maths classes for kids, teens and adults across India, small 4–8 student batches, expert mentors, real projects. Choose your state, city or neighbourhood below.
 
 ### Coding classes by state
 

@@ -57,7 +57,7 @@ The `required` attribute stops the form from being submitted if the field is emp
 
 *Hint:* A box that can be ticked on or off.
 
-**Answer:** A checkbox — a square box users can tick. Lets them pick multiple options.
+**Answer:** A checkbox, a square box users can tick. Lets them pick multiple options.
 
 Checkboxes are for independent yes/no choices. Users can tick any number of them. Use `radio` when only one option should be picked.
 
@@ -238,7 +238,7 @@ Giving checkboxes the same name groups them on the server side. The server recei
 
 `type="tel"` opens the numeric keyboard on mobile. The pattern enforces 10 digits. The `title` is the error message.
 
-### Q21. [Medium] Rohan's password field looks broken — users see their passwords. Fix:
+### Q21. [Medium] Rohan's password field looks broken: users see their passwords. Fix:
 
 ```
 
@@ -258,7 +258,7 @@ Password fields must use `type="password"`, not `type="text"`. This hides the ch
 
 **Answer:** `type="file"` with `accept="image/*"`
 
-`type="file"` creates a file upload button. The `accept` attribute filters what files can be chosen — `image/*` limits to image files.
+`type="file"` creates a file upload button. The `accept` attribute filters what files can be chosen, `image/*` limits to image files.
 
 ### Q23. [Medium] Create a slider (range) input from 0 to 100 with default value 50 for volume.
 
@@ -439,7 +439,7 @@ Without the `for` attribute on the label (matching the input's id), there is no 
 
 ```
 
-HTML5 attributes handle all the validation for you — no JavaScript needed. The browser shows error messages automatically.
+HTML5 attributes handle all the validation for you, no JavaScript needed. The browser shows error messages automatically.
 
 ### Q7. [Medium] What is the difference between GET and POST methods?
 
@@ -561,7 +561,7 @@ Uses all major form elements: text, email, range slider, select dropdown, and te
 
 **Answer:** The input is invisible on the page but its value ('abc123') is sent to the server as token=abc123 when the form is submitted.
 
-Hidden inputs are useful for security tokens, user IDs, or version numbers — data the user should not see or change but that must reach the server.
+Hidden inputs are useful for security tokens, user IDs, or version numbers, data the user should not see or change but that must reach the server.
 
 ## Multiple Choice Questions
 
@@ -643,7 +643,7 @@ Hidden inputs are useful for security tokens, user IDs, or version numbers — d
 
 ### Q20. [Medium] What is the correct form attribute for file uploads to work?
 
-**C is correct.** Without `enctype="multipart/form-data"` on the form, file uploads do not work — the file gets dropped.
+**C is correct.** Without `enctype="multipart/form-data"` on the form, file uploads do not work, the file gets dropped.
 
 ### Q21. [Medium] What will this pattern validate?
 
@@ -663,7 +663,7 @@ Hidden inputs are useful for security tokens, user IDs, or version numbers — d
 
 ### Q25. [Hard] Which statement about type="email" is TRUE?
 
-**C is correct.** `type="email"` only validates the basic format — it cannot check if the email exists or belongs to the user. Real verification requires sending an email from the server.
+**C is correct.** `type="email"` only validates the basic format. It cannot check if the email exists or belongs to the user. Real verification requires sending an email from the server.
 
 ## Coding Challenges
 

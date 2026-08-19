@@ -1,18 +1,18 @@
 ---
-title: "KS3 Maths Tuition Online · 1:1 Year 7–9 Maths — Modern Age Coders"
-description: "Live 1:1 online KS3 maths tuition for Years 7–9. We build the algebra, ratio and reasoning foundations that decide GCSE success — taught for understanding, not rushed. National curriculum aligned. Same tutor, UK time. Priced for your country."
+title: "KS3 Maths Tuition Online · 1:1 Year 7–9 Maths | Modern Age Coders"
+description: "Live 1:1 online KS3 maths tuition for Years 7–9. We build the algebra, ratio and reasoning foundations that decide GCSE success, taught for understanding, not rushed. National curriculum aligned. Same tutor, UK time. Priced for your country."
 canonical: https://learn.modernagecoders.com/ks3-maths-tuition-online
 source: src/pages/ks3-maths-tuition-online.html
 ---
-> Live 1:1 online KS3 maths tuition for Years 7–9. We build the algebra, ratio and reasoning foundations that decide GCSE success — taught for understanding, not rushed. National curriculum aligned. Same tutor, UK time. Priced for your country.
+> Live 1:1 online KS3 maths tuition for Years 7–9. We build the algebra, ratio and reasoning foundations that decide GCSE success, taught for understanding, not rushed. National curriculum aligned. Same tutor, UK time. Priced for your country.
 
 Why KS3 is the quiet danger zone
 
-## No big exam means KS3 gaps go unnoticed — until GCSE exposes them.
+## No big exam means KS3 gaps go unnoticed: until GCSE exposes them.
 
 KS3 is where maths turns abstract: real algebra, negative numbers, formal ratio. It's a big jump from primary, and because there's no high-stakes exam at the end, a child who's quietly lost can drift for three years without anyone raising the alarm. They get by, hand in homework, and seem fine.
 
-Then GCSE arrives and assumes all of KS3 is rock-solid — and the gaps that were invisible at thirteen become a crisis at fifteen.
+Then GCSE arrives and assumes all of KS3 is rock-solid, and the gaps that were invisible at thirteen become a crisis at fifteen.
 
 The other trap is that KS3 maths is often taught as a checklist of topics to cover, with little time to make the abstraction genuinely click. A student can "do" algebra mechanically without understanding what a letter even means.
 
@@ -26,11 +26,11 @@ KS3 done properly is the best GCSE preparation there is.
 
 ### Check the primary foundations
 
-We make sure fractions, place value and times tables are solid — KS3 leans on them constantly, and hidden gaps surface here.
+We make sure fractions, place value and times tables are solid: KS3 leans on them constantly, and hidden gaps surface here.
 
 ### Make algebra mean something
 
-A letter as a box holding an unknown, an expression as a recipe — we give the abstraction a picture, so it isn't symbol-shuffling.
+A letter as a box holding an unknown, an expression as a recipe. We give the abstraction a picture, so it isn't symbol-shuffling.
 
 ### Teach reasoning, not just topics
 
@@ -46,13 +46,13 @@ See it for yourself
 
 Worked example · KS3 number
 
-**What gets memorised:** "two negatives make a positive." Students chant it, apply it, and have no idea why — so they misremember it, mix it up with adding negatives, and lose easy marks for years.
+**What gets memorised:** "two negatives make a positive." Students chant it, apply it, and have no idea why, so they misremember it, mix it up with adding negatives, and lose easy marks for years.
 
 **How we do it.** We show it as a pattern the numbers themselves insist on. Look at multiplying −3 by a list that counts down, and watch the answers:
 
 −3 × 2 = −6−3 × 1 = −3−3 × 0 = 0−3 × (−1) = ? each answer goes UP by 3...−3 × (−1) = +3−3 × (−2) = +6
 
-As the second number drops by one, the answer rises by 3 every time — a steady pattern. To keep that pattern unbroken past zero, −3 × (−1) *must* be +3. It isn't an arbitrary rule to memorise; it's the only answer that keeps the number system consistent. A student who sees this never again confuses the sign rules, and they've also met a powerful idea — that maths rules are forced by consistency, not invented — which is exactly the mindset GCSE and beyond reward.
+As the second number drops by one, the answer rises by 3 every time, a steady pattern. To keep that pattern unbroken past zero, −3 × (−1) *must* be +3. It isn't an arbitrary rule to memorise; it's the only answer that keeps the number system consistent. A student who sees this never again confuses the sign rules, and they've also met a powerful idea, that maths rules are forced by consistency, not invented, which is exactly the mindset GCSE and beyond reward.
 
 Why a coding school teaches KS3 maths
 
@@ -60,7 +60,7 @@ Why a coding school teaches KS3 maths
 
 ### Variables
 
-The letters that arrive in KS3 algebra are the same idea as variables in code — a name for a value that can change. Get one, get the other.
+The letters that arrive in KS3 algebra are the same idea as variables in code, a name for a value that can change. Get one, get the other.
 
 ### Rules from consistency
 
@@ -70,7 +70,7 @@ Seeing that "negative times negative" is forced by keeping a pattern is the same
 
 Multi-step KS3 problems train the ordered, break-it-down thinking at the heart of every program.
 
-We're Modern Age Coders. KS3 is the exact stage where the reasoning behind maths and the reasoning behind code converge — which is why students who learn KS3 maths properly often take to programming naturally, and why we teach both as one way of thinking.
+We're Modern Age Coders. KS3 is the exact stage where the reasoning behind maths and the reasoning behind code converge, which is why students who learn KS3 maths properly often take to programming naturally, and why we teach both as one way of thinking.
 
 What we cover
 
@@ -84,11 +84,11 @@ Negative numbers, fractions, decimals, percentages, indices and the fluency the 
 
 ### Algebra
 
-Expressions, substitution, solving equations, sequences and graphs — the heart of KS3 and the biggest part of GCSE.
+Expressions, substitution, solving equations, sequences and graphs, the heart of KS3 and the biggest part of GCSE.
 
 ### Ratio & proportion
 
-Ratio, proportion, rates and scaling — formalised in KS3 and heavily tested later.
+Ratio, proportion, rates and scaling, formalised in KS3 and heavily tested later.
 
 ### Geometry & measures
 
@@ -104,11 +104,11 @@ Connecting each topic to its GCSE form, plus the reasoning and problem-solving h
 
 Who this is for
 
-## The right fit — and an honest word on what to expect.
+## The right fit: and an honest word on what to expect.
 
 **This fits** the Year 7–9 student who's quietly lost since the jump from primary, the one coasting who'll hit trouble at GCSE, and the able student who needs proper stretch before GCSE rather than more of the same. We teach the whole range.
 
-**What's realistic.** KS3 is where steady work pays the biggest long-term dividend — the understanding built now makes GCSE dramatically easier. Confidence often returns within weeks; the deeper foundation builds over the KS3 years. We're honest that this is an investment in GCSE, not an overnight fix.
+**What's realistic.** KS3 is where steady work pays the biggest long-term dividend, the understanding built now makes GCSE dramatically easier. Confidence often returns within weeks; the deeper foundation builds over the KS3 years. We're honest that this is an investment in GCSE, not an overnight fix.
 
 ### What we won't do
 
@@ -167,7 +167,7 @@ Who teaches your child
 
 ## Tutors who make abstraction feel simple.
 
-The skill that matters most at KS3 is turning the abstract concrete — making "x" feel like a real, reasonable thing rather than a scary letter. Our tutors are chosen for exactly that, plus the patience to rebuild any primary gap without making a teenager feel behind.
+The skill that matters most at KS3 is turning the abstract concrete, making "x" feel like a real, reasonable thing rather than a scary letter. Our tutors are chosen for exactly that, plus the patience to rebuild any primary gap without making a teenager feel behind.
 
 The same tutor stays with your child, building steadily toward GCSE and always knowing which foundation still needs work.
 
@@ -189,7 +189,7 @@ An honest comparison
 | Same tutor each time | Yes | N/A | Often |
 | Monthly price | £5–10 | £28–45/hr |
 
-Homework apps help with the day's task. They won't notice your child has never really understood what a variable is — which is the gap that wrecks GCSE.
+Homework apps help with the day's task. They won't notice your child has never really understood what a variable is, which is the gap that wrecks GCSE.
 
 Questions parents ask
 
@@ -205,43 +205,43 @@ Because GCSE assumes KS3 is solid. The algebra, ratio and reasoning here are exa
 
 My child did well at primary but is struggling now. What changed?
 
-KS3 introduces real abstraction and a faster pace. A child who relied on memory can stall when maths demands reasoning — which we teach directly.
+KS3 introduces real abstraction and a faster pace. A child who relied on memory can stall when maths demands reasoning, which we teach directly.
 
 Is it aligned with the national curriculum?
 
-Yes — number, algebra, ratio and proportion, geometry, probability and statistics — and we can work from your child's school scheme of work.
+Yes, number, algebra, ratio and proportion, geometry, probability and statistics. And we can work from your child's school scheme of work.
 
 How much does it cost?
 
-USD 150 per month for private 1:1 — eight live lessons, two each week. Small-group option USD 100 per month. No contract; cancel any time.
+USD 150 per month for private 1:1, eight live lessons, two each week. Small-group option USD 100 per month. No contract; cancel any time.
 
 Is there a free trial?
 
-Yes — the first lesson is free, no card needed.
+Yes, the first lesson is free, no card needed.
 
 Will my child keep the same tutor?
 
-Yes — one tutor building steadily toward GCSE.
+Yes, one tutor building steadily toward GCSE.
 
 Are lessons live?
 
-Yes — live, one-to-one, with a shared whiteboard.
+Yes, live, one-to-one, with a shared whiteboard.
 
 Can you stretch an able KS3 student?
 
-Yes — deeper and faster, with GCSE-level ideas early and richer problem-solving.
+Yes, deeper and faster, with GCSE-level ideas early and richer problem-solving.
 
 Does this help with school tests and setting?
 
-Yes — stronger understanding shows up in assessments, though our real aim is the durable GCSE foundation.
+Yes, stronger understanding shows up in assessments, though our real aim is the durable GCSE foundation.
 
 Do lessons fit around school?
 
-Yes — after-school, evening and weekend slots in UK time.
+Yes, after-school, evening and weekend slots in UK time.
 
 Can we start mid-year?
 
-Yes — we start wherever your child is.
+Yes, we start wherever your child is.
 
 ## Book a free KS3 maths trial lesson.
 
@@ -259,7 +259,7 @@ Real student projects
 
 Every one is a real, live project shipped by a Modern Age Coders student. Explore more in [Student Labs](/student-labs).
 
-[![LumenFX — AR/VR Photo Effects Studio](/images/projects/lumenfx.webp)Web AppLumenFX — AR/VR Photo Effects StudioUpload a photo and transform it with cinematic filters, AR face effects and the wildest trending edits — the same looks blowing up on TikTok, Reels and Snap, with 240+ one-tap presets. Raayan vibe-coded the whole studio from an idea: prompted the concept, then built the effects engine and gallery UI by hand.by RaayanOpen the live project ↗](https://arvrbadestweb.lovable.app)[![Doodle Dash — 30-Second Drawing Challenge](/images/projects/doodledash.webp)GameDoodle Dash — 30-Second Drawing ChallengePick a difficulty, get a prompt, and you have exactly 30 seconds to draw it — then an AI judge scores how close you got. Three modes from easy objects to chaotic scenes. Shubh vibe-coded it idea-first, wiring real AI image grading into a fast, addictive drawing game.by ShubhOpen the live project ↗](https://doodledashmaster.lovable.app)[![BookDesk — AI Book Summaries & Quizzes](/images/projects/bookdesk.webp)AI & MLBookDesk — AI Book Summaries & QuizzesType in any book name and author, and BookDesk pulls together the book's details, a clear summary and a custom quiz to test what you've learned — a genuinely useful study companion. Anika built it as a full-stack AI application, powered by Google Gemini with a live database behind it.by AnikaOpen the live project ↗](https://bookdesk1.netlify.app)
+[![LumenFX, AR/VR Photo Effects Studio](/images/projects/lumenfx.webp)Web AppLumenFX, AR/VR Photo Effects StudioUpload a photo and transform it with cinematic filters, AR face effects and the wildest trending edits, the same looks blowing up on TikTok, Reels and Snap, with 240+ one-tap presets. Raayan vibe-coded the whole studio from an idea: prompted the concept, then built the effects engine and gallery UI by hand.by RaayanOpen the live project ↗](https://arvrbadestweb.lovable.app)[![Doodle Dash, 30-Second Drawing Challenge](/images/projects/doodledash.webp)GameDoodle Dash, 30-Second Drawing ChallengePick a difficulty, get a prompt, and you have exactly 30 seconds to draw it, then an AI judge scores how close you got. Three modes from easy objects to chaotic scenes. Shubh vibe-coded it idea-first, wiring real AI image grading into a fast, addictive drawing game.by ShubhOpen the live project ↗](https://doodledashmaster.lovable.app)[![BookDesk, AI Book Summaries & Quizzes](/images/projects/bookdesk.webp)AI & MLBookDesk, AI Book Summaries & QuizzesType in any book name and author, and BookDesk pulls together the book's details, a clear summary and a custom quiz to test what you've learned, a genuinely useful study companion. Anika built it as a full-stack AI application, powered by Google Gemini with a live database behind it.by AnikaOpen the live project ↗](https://bookdesk1.netlify.app)
 
 Parent & student voices
 

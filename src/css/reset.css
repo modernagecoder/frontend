@@ -1,5 +1,5 @@
 /**
- * reset.css — Modern CSS reset
+ * reset.css: Modern CSS reset
  * Phase 1 CSS Architecture Overhaul
  *
  * Replaces scattered resets across style.css, course.css, pricing.css, best-coding-class.css.
@@ -94,13 +94,13 @@
         padding: 0;
     }
 
-    /* Anchor defaults — actual styling lives in base.css */
+    /* Anchor defaults, actual styling lives in base.css */
     a {
         color: inherit;
         text-decoration: none;
     }
 
-    /* Selection — brand purple */
+    /* Selection, brand purple */
     ::selection {
         background: var(--color-primary);
         color: #fff;
@@ -111,7 +111,7 @@
         color: #fff;
     }
 
-    /* Respect user's motion preferences — single authoritative rule */
+    /* Respect user's motion preferences, single authoritative rule */
     @media (prefers-reduced-motion: reduce) {
 
         *,

@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 /**
- * Build marketing/whatsapp-agent-course-guide.md — the knowledge pack the
+ * Build marketing/whatsapp-agent-course-guide.md, the knowledge pack the
  * owner feeds to the WhatsApp AI agents.
  *
  * Everything is generated from the same sources the site itself uses, so the
@@ -28,7 +28,7 @@ function inr(course, tier) {
 }
 
 // Walk a curriculum section: phase title + description, then the titles of
-// nested month/week/module blocks (titles only — detail lives on the page).
+// nested month/week/module blocks (titles only, detail lives on the page).
 function sectionLines(sec, depth) {
     const lines = [];
     if (!sec || typeof sec !== 'object') return lines;
@@ -60,7 +60,7 @@ courses.sort((a, b) => (a.meta.category || '').localeCompare(b.meta.category || 
     a.meta.title.localeCompare(b.meta.title));
 
 const out = [];
-out.push('# Modern Age Coders — Course & Pricing Guide for WhatsApp Agents');
+out.push('# Modern Age Coders: Course & Pricing Guide for WhatsApp Agents');
 out.push('');
 out.push('_Generated ' + new Date().toISOString().slice(0, 10) + ' from the live pricing config. ' +
     'Regenerate with `node scripts/gen-whatsapp-agent-guide.js` after any change._');
@@ -68,19 +68,19 @@ out.push('');
 out.push('## How to use this guide (instructions for the AI agent)');
 out.push('');
 out.push('- Always share the course LINK when discussing a course; the page has the full, always-current details.');
-out.push('- When a parent or student asks about the CURRICULUM or PROJECTS, share the outline and project list from this guide for that course in detail, then the link for the complete week-by-week plan. Be transparent — parents should be able to check everything.');
-out.push('- PRICING RULES — follow exactly:');
-out.push('  - Quote ONLY the fee that applies to where the family lives. If they are in India, give the rupee fee; if they are anywhere else, give the dollar fee. Never say "the Indian price is X and the international price is Y" — one person gets one price: theirs.');
-out.push('  - Answer only the pricing question they asked. Do not volunteer other plans, other regions, or extra pricing commentary. If they ask "what does it cost", give the group fee and mention 1-on-1 exists if they want personal attention — nothing more.');
+out.push('- When a parent or student asks about the CURRICULUM or PROJECTS, share the outline and project list from this guide for that course in detail, then the link for the complete week-by-week plan. Be transparent, parents should be able to check everything.');
+out.push('- PRICING RULES, follow exactly:');
+out.push('  - Quote ONLY the fee that applies to where the family lives. If they are in India, give the rupee fee; if they are anywhere else, give the dollar fee. Never say "the Indian price is X and the international price is Y", one person gets one price: theirs.');
+out.push('  - Answer only the pricing question they asked. Do not volunteer other plans, other regions, or extra pricing commentary. If they ask "what does it cost", give the group fee and mention 1-on-1 exists if they want personal attention, nothing more.');
 out.push('  - Quote fees exactly as written here. Never invent discounts.');
-out.push('- Every course includes a FREE demo class first — always offer to book it (share ' + BASE + '/contact/ or take their phone number for a callback).');
+out.push('- Every course includes a FREE demo class first, always offer to book it (share ' + BASE + '/contact/ or take their phone number for a callback).');
 out.push('- Classes are LIVE with a real teacher (never recordings), for ages 6 to 67.');
-out.push('- CLASS FREQUENCY — differs by plan and region, do not blur them:');
+out.push('- CLASS FREQUENCY, differs by plan and region, do not blur them:');
 out.push('  - Group and Mini Batch: 2 classes a week, 8 a month.');
 out.push('  - 1-on-1 in India: 1 private class a week, 4 a month.');
 out.push('  - 1-on-1 outside India: 2 private classes a week, 8 a month.');
 out.push('');
-out.push('## Fee reference (internal — quote only the line that matches the asker)');
+out.push('## Fee reference (internal, quote only the line that matches the asker)');
 out.push('');
 out.push('| Plan | If the student is in India | If the student is outside India |');
 out.push('|---|---|---|');
@@ -164,7 +164,7 @@ courses.forEach(function (c) {
         const shown = projects.slice(0, 15);
         out.push('- Projects students build: ' + shown.join('; ') +
             (projects.length > shown.length
-                ? ' — plus ' + (projects.length - shown.length) + ' more on the course page'
+                ? ', plus ' + (projects.length - shown.length) + ' more on the course page'
                 : ''));
     }
 
@@ -181,11 +181,11 @@ out.push('## Quick answers for common parent questions');
 out.push('');
 out.push('- **Demo class**: free, no card needed, book at ' + BASE + '/contact/ or via callback.');
 out.push('- **Class format**: live online with a real teacher, 2 classes/week, small groups (max 10) or 1-on-1.');
-out.push('- **Ages**: 6 to 67 — kids (6-12), teens (13-18), college students and working professionals.');
+out.push('- **Ages**: 6 to 67, kids (6-12), teens (13-18), college students and working professionals.');
 out.push('- **Certificates**: yes, on course completion.');
 out.push('- **Full catalog page**: ' + BASE + '/courses · Course atlas: ' + BASE + '/course-atlas');
 out.push('- **Pricing page**: ' + BASE + '/pricing');
 out.push('');
 
 fs.writeFileSync(OUT, out.join('\n'));
-console.log('Wrote ' + OUT + ' — ' + courses.length + ' courses, ' + out.length + ' lines.');
+console.log('Wrote ' + OUT + ', ' + courses.length + ' courses, ' + out.length + ' lines.');

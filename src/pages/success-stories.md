@@ -10,7 +10,7 @@ source: src/pages/success-stories.html
 
 # Real students, real feedback
 
-Unfiltered words from the parents and students who learn with Modern Age Coders. Every review below is a real Google review — nothing scripted.
+Unfiltered words from the parents and students who learn with Modern Age Coders. Every review below is a real Google review, nothing scripted.
 
 4.9★Average rating547+Google reviews500+Projects built15+Countries
 
@@ -56,7 +56,7 @@ The coding + maths combination at work
 
 Verified Google review★★★★★
 
-My child Dhairya, is really enjoying the Modern Age Coder IT classes. This is his first online class, and he eagerly looks forward to it. I can see his improvement, and I believe he will grow even more interested in the subject in the future. I also appreciate the teachers—they are very cooperative and listen to our suggestions.
+My child Dhairya, is really enjoying the Modern Age Coder IT classes. This is his first online class, and he eagerly looks forward to it. I can see his improvement, and I believe he will grow even more interested in the subject in the future. I also appreciate the teachers. They are very cooperative and listen to our suggestions.
 
 SSonam OswalMother of DhairyaVerified Google review★★★★★
 
@@ -96,7 +96,7 @@ Three of the 21 live projects in Student Labs, built by the students you just re
 
 ## Ready to write your story?
 
-Book a free trial class and meet your mentor — no commitment, just a real lesson.
+Book a free trial class and meet your mentor, no commitment, just a real lesson.
 
 [Book a Free Demo](/book-demo)[Explore Courses](/courses)
 

@@ -57,11 +57,11 @@
       },
       {
         "type": "paragraph",
-        "text": "But here's the challenge: with hundreds of data science courses flooding the Indian market — from IIT executive programs to weekend bootcamps to self-paced YouTube playlists — how do you decide which one is actually worth your time and money? The wrong choice could cost you lakhs and months of effort with little to show for it. The right choice could launch a career that pays ₹8-40 LPA within the first few years."
+        "text": "But here's the challenge: with hundreds of data science courses flooding the Indian market, from IIT executive programs to weekend bootcamps to self-paced YouTube playlists, how do you decide which one is actually worth your time and money? The wrong choice could cost you lakhs and months of effort with little to show for it. The right choice could launch a career that pays ₹8-40 LPA within the first few years."
       },
       {
         "type": "paragraph",
-        "text": "This comprehensive guide cuts through the noise. We'll examine every major category of data science education available in India, compare them head-to-head on factors that actually matter (placement support, project experience, cost, flexibility), and give you a clear roadmap based on your current situation — whether you're a final-year B.Tech student, a working IT professional looking to upskill, or someone making a complete career pivot from a non-tech background."
+        "text": "This comprehensive guide cuts through the noise. We'll examine every major category of data science education available in India, compare them head-to-head on factors that actually matter (placement support, project experience, cost, flexibility), and give you a clear roadmap based on your current situation, whether you're a final-year B.Tech student, a working IT professional looking to upskill, or someone making a complete career pivot from a non-tech background."
       },
       {
         "type": "callout",
@@ -82,7 +82,7 @@
       },
       {
         "type": "paragraph",
-        "text": "The data science boom in India isn't hype — it's a structural shift driven by multiple converging forces. Understanding why this field is exploding helps you evaluate whether it's the right career move for you and what specific skills employers are actually paying for."
+        "text": "The data science boom in India isn't hype. It's a structural shift driven by multiple converging forces. Understanding why this field is exploding helps you evaluate whether it's the right career move for you and what specific skills employers are actually paying for."
       },
       {
         "type": "heading",
@@ -91,7 +91,7 @@
       },
       {
         "type": "paragraph",
-        "text": "India's digital economy has crossed the $500 billion mark in 2026. With over 900 million internet users, the country generates massive volumes of data every second — from UPI transactions (over 15 billion monthly) to e-commerce purchases, telehealth consultations, and EdTech interactions. Every one of these data points needs to be collected, cleaned, analyzed, and turned into business decisions. That's where data scientists come in."
+        "text": "India's digital economy has crossed the $500 billion mark in 2026. With over 900 million internet users, the country generates massive volumes of data every second, from UPI transactions (over 15 billion monthly) to e-commerce purchases, telehealth consultations, and EdTech interactions. Every one of these data points needs to be collected, cleaned, analyzed, and turned into business decisions. That's where data scientists come in."
       },
       {
         "type": "heading",
@@ -100,7 +100,7 @@
       },
       {
         "type": "paragraph",
-        "text": "The generative AI revolution hasn't replaced data scientists — it has made them more valuable. Companies across India are racing to build AI-powered products, and they need data scientists who understand how to prepare training data, fine-tune models, evaluate outputs, and deploy ML pipelines in production. The rise of tools like LangChain, vector databases, and RAG architectures has created entirely new roles that didn't exist two years ago, and data science skills are the foundation for all of them."
+        "text": "The generative AI revolution hasn't replaced data scientists. It has made them more valuable. Companies across India are racing to build AI-powered products, and they need data scientists who understand how to prepare training data, fine-tune models, evaluate outputs, and deploy ML pipelines in production. The rise of tools like LangChain, vector databases, and RAG architectures has created entirely new roles that didn't exist two years ago, and data science skills are the foundation for all of them."
       },
       {
         "type": "heading",
@@ -109,13 +109,13 @@
       },
       {
         "type": "paragraph",
-        "text": "The Indian government's push for data-driven governance — from Aadhaar analytics to smart city initiatives — has created significant public-sector demand. Meanwhile, every major enterprise, from Reliance to Tata to Infosys, has expanded their analytics and AI teams dramatically. Startups in fintech (Razorpay, PhonePe), healthtech (Practo, PharmEasy), and e-commerce (Flipkart, Meesho) are hiring data scientists at aggressive pace and premium salaries."
+        "text": "The Indian government's push for data-driven governance, from Aadhaar analytics to smart city initiatives, has created significant public-sector demand. Meanwhile, every major enterprise, from Reliance to Tata to Infosys, has expanded their analytics and AI teams dramatically. Startups in fintech (Razorpay, PhonePe), healthtech (Practo, PharmEasy), and e-commerce (Flipkart, Meesho) are hiring data scientists at aggressive pace and premium salaries."
       },
       {
         "type": "list",
         "style": "unordered",
         "items": [
-          "<strong>Fintech:</strong> Fraud detection, credit scoring, algorithmic trading, risk modeling — India's fintech sector alone needs 50,000+ data professionals by 2027",
+          "<strong>Fintech:</strong> Fraud detection, credit scoring, algorithmic trading, risk modeling: India's fintech sector alone needs 50,000+ data professionals by 2027",
           "<strong>Healthcare:</strong> Drug discovery, diagnostic imaging, patient outcome prediction, hospital operations optimization",
           "<strong>E-commerce:</strong> Recommendation engines, demand forecasting, pricing optimization, supply chain analytics",
           "<strong>Telecom:</strong> Network optimization, churn prediction, customer lifetime value modeling across 1.2 billion mobile connections",
@@ -131,7 +131,7 @@
       },
       {
         "type": "paragraph",
-        "text": "Let's talk numbers — because salary is often the primary motivator for choosing data science, and understanding the pay landscape helps you set realistic expectations and negotiate effectively. The data below reflects 2026 figures from Glassdoor India, AmbitionBox, and LinkedIn Salary Insights."
+        "text": "Let's talk numbers, because salary is often the primary motivator for choosing data science, and understanding the pay landscape helps you set realistic expectations and negotiate effectively. The data below reflects 2026 figures from Glassdoor India, AmbitionBox, and LinkedIn Salary Insights."
       },
       {
         "type": "image",
@@ -147,12 +147,12 @@
         "type": "list",
         "style": "unordered",
         "items": [
-          "<strong>Fresher / Data Analyst (0-1 year):</strong> ₹4.5-8 LPA — Entry roles at TCS, Wipro, Infosys, startups. Requires Python, SQL, Excel, basic statistics, and visualization (Power BI or Tableau)",
-          "<strong>Junior Data Scientist (1-3 years):</strong> ₹8-15 LPA — Mid-tier companies and product startups. Requires ML fundamentals, feature engineering, model deployment basics",
-          "<strong>Mid-Level Data Scientist (3-5 years):</strong> ₹15-25 LPA — Product companies, consulting firms, high-growth startups. Requires deep ML knowledge, NLP or computer vision specialization, cloud platforms",
-          "<strong>Senior Data Scientist (5-8 years):</strong> ₹25-40 LPA — FAANG, top product companies, fintech. Requires end-to-end ML systems, team leadership, business impact measurement",
-          "<strong>Principal / Lead Data Scientist (8+ years):</strong> ₹40-70+ LPA — Google, Microsoft, Amazon, Flipkart, PhonePe. Requires research contributions, architecture decisions, cross-functional leadership",
-          "<strong>Data Science Manager / Director:</strong> ₹50-1 Cr+ — Strategic leadership roles. Requires team building, stakeholder management, data strategy"
+          "<strong>Fresher / Data Analyst (0-1 year):</strong> ₹4.5-8 LPA: Entry roles at TCS, Wipro, Infosys, startups. Requires Python, SQL, Excel, basic statistics, and visualization (Power BI or Tableau)",
+          "<strong>Junior Data Scientist (1-3 years):</strong> ₹8-15 LPA: Mid-tier companies and product startups. Requires ML fundamentals, feature engineering, model deployment basics",
+          "<strong>Mid-Level Data Scientist (3-5 years):</strong> ₹15-25 LPA: Product companies, consulting firms, high-growth startups. Requires deep ML knowledge, NLP or computer vision specialization, cloud platforms",
+          "<strong>Senior Data Scientist (5-8 years):</strong> ₹25-40 LPA: FAANG, top product companies, fintech. Requires end-to-end ML systems, team leadership, business impact measurement",
+          "<strong>Principal / Lead Data Scientist (8+ years):</strong> ₹40-70+ LPA: Google, Microsoft, Amazon, Flipkart, PhonePe. Requires research contributions, architecture decisions, cross-functional leadership",
+          "<strong>Data Science Manager / Director:</strong> ₹50-1 Cr+: Strategic leadership roles. Requires team building, stakeholder management, data strategy"
         ]
       },
       {
@@ -196,7 +196,7 @@
       },
       {
         "type": "paragraph",
-        "text": "If you're starting from scratch, Modern Age Coders' <a href='/courses/python-programming-masterclass-zero-to-advanced-college'>Python Masterclass</a> is specifically designed to take you from zero to production-level Python proficiency with hands-on projects — exactly the kind of foundation you need before diving into data science libraries."
+        "text": "If you're starting from scratch, Modern Age Coders' <a href='/courses/python-programming-masterclass-zero-to-advanced-college'>Python Masterclass</a> is specifically designed to take you from zero to production-level Python proficiency with hands-on projects, exactly the kind of foundation you need before diving into data science libraries."
       },
       {
         "type": "heading",
@@ -232,7 +232,7 @@
       },
       {
         "type": "paragraph",
-        "text": "The ability to communicate findings visually is what separates good data scientists from great ones. Technical stakeholders want detailed charts; business leaders want clear dashboards with actionable insights. You need skills in: <strong>Matplotlib and Seaborn</strong> (Python-native plotting), <strong>Plotly</strong> (interactive visualizations), <strong>Tableau or Power BI</strong> (business intelligence dashboards), and the principles of effective data storytelling — choosing the right chart type, avoiding misleading visualizations, and structuring a data narrative."
+        "text": "The ability to communicate findings visually is what separates good data scientists from great ones. Technical stakeholders want detailed charts; business leaders want clear dashboards with actionable insights. You need skills in: <strong>Matplotlib and Seaborn</strong> (Python-native plotting), <strong>Plotly</strong> (interactive visualizations), <strong>Tableau or Power BI</strong> (business intelligence dashboards), and the principles of effective data storytelling, choosing the right chart type, avoiding misleading visualizations, and structuring a data narrative."
       },
       {
         "type": "heading",
@@ -256,7 +256,7 @@
         "type": "callout",
         "calloutType": "warning",
         "title": "The Skills Gap That Gets People Rejected",
-        "text": "The most common reason data science candidates fail interviews in India isn't a lack of ML knowledge — it's weak fundamentals. Poor Python coding skills, inability to write efficient SQL, shaky statistics understanding, and zero experience with real-world messy data. Focus on building strong foundations before chasing advanced topics like GenAI or reinforcement learning."
+        "text": "The most common reason data science candidates fail interviews in India isn't a lack of ML knowledge. It's weak fundamentals. Poor Python coding skills, inability to write efficient SQL, shaky statistics understanding, and zero experience with real-world messy data. Focus on building strong foundations before chasing advanced topics like GenAI or reinforcement learning."
       },
       {
         "type": "heading",
@@ -277,11 +277,11 @@
         "type": "list",
         "style": "unordered",
         "items": [
-          "<strong>Linear Algebra:</strong> Vectors, matrices, eigenvalues, matrix decomposition — the foundation of every ML algorithm from linear regression to neural networks. When you understand that a dataset is a matrix and model weights are vectors, everything clicks",
-          "<strong>Calculus:</strong> Derivatives, partial derivatives, gradients, chain rule — this is how models learn. Gradient descent, backpropagation, and optimization all require calculus. You don't need to prove theorems, but you need to understand the intuition",
-          "<strong>Probability and Statistics:</strong> Bayes' theorem, probability distributions, maximum likelihood estimation, hypothesis testing — the basis for all statistical inference and probabilistic models",
-          "<strong>Optimization:</strong> Convex optimization, gradient descent variants (SGD, Adam, RMSprop), constrained optimization — understanding how models find the best parameters",
-          "<strong>Discrete Mathematics:</strong> Graph theory, combinatorics, set theory — important for recommendation systems, network analysis, and algorithm design"
+          "<strong>Linear Algebra:</strong> Vectors, matrices, eigenvalues, matrix decomposition, the foundation of every ML algorithm from linear regression to neural networks. When you understand that a dataset is a matrix and model weights are vectors, everything clicks",
+          "<strong>Calculus:</strong> Derivatives, partial derivatives, gradients, chain rule. This is how models learn. Gradient descent, backpropagation, and optimization all require calculus. You don't need to prove theorems, but you need to understand the intuition",
+          "<strong>Probability and Statistics:</strong> Bayes' theorem, probability distributions, maximum likelihood estimation, hypothesis testing, the basis for all statistical inference and probabilistic models",
+          "<strong>Optimization:</strong> Convex optimization, gradient descent variants (SGD, Adam, RMSprop), constrained optimization, understanding how models find the best parameters",
+          "<strong>Discrete Mathematics:</strong> Graph theory, combinatorics, set theory, important for recommendation systems, network analysis, and algorithm design"
         ]
       },
       {
@@ -296,7 +296,7 @@
       },
       {
         "type": "paragraph",
-        "text": "Now for the main event — a detailed comparison of the best data science courses available in India in 2026. We've organized them by category and evaluated each on curriculum depth, practical projects, placement support, flexibility, and value for money."
+        "text": "Now for the main event, a detailed comparison of the best data science courses available in India in 2026. We've organized them by category and evaluated each on curriculum depth, practical projects, placement support, flexibility, and value for money."
       },
       {
         "type": "heading",
@@ -311,11 +311,11 @@
         "type": "list",
         "style": "unordered",
         "items": [
-          "<strong>IIT Madras — BS in Data Science and Applications:</strong> One of the most respected programs in India. Fully online, takes 3-4 years, costs approximately ₹3-4 lakhs total. Rigorous curriculum covering Python, statistics, ML, and databases. The IIT Madras brand carries significant weight with employers. Best for students who want a full degree and can commit to a multi-year program.",
-          "<strong>IIT Hyderabad — AI & ML Certificate (via TalentSprint):</strong> 9-month executive program costing ₹3.5-4 lakhs. Covers deep learning, NLP, computer vision, and deployment. Includes campus immersion. Good for working professionals, but the short duration limits depth on fundamentals.",
-          "<strong>IIM Bangalore — Data Science & AI Executive Program (via upGrad):</strong> 12-month program at ₹3-3.5 lakhs. Strong on business analytics and management perspective. Ideal if you want to move into analytics leadership rather than hands-on data science. Limited on coding depth.",
-          "<strong>IIT Delhi — Certificate in Data Science & ML (via Intellipaat):</strong> 12-month program at ₹3-4 lakhs. Good curriculum covering Python, ML, deep learning, and big data technologies. IIT Delhi brand is strong in North India.",
-          "<strong>ISI Kolkata — PG Diploma in Data Science:</strong> Highly rigorous on-campus program with extremely competitive admission. Arguably the strongest statistical foundation of any Indian program. Very limited seats."
+          "<strong>IIT Madras: BS in Data Science and Applications:</strong> One of the most respected programs in India. Fully online, takes 3-4 years, costs approximately ₹3-4 lakhs total. Rigorous curriculum covering Python, statistics, ML, and databases. The IIT Madras brand carries significant weight with employers. Best for students who want a full degree and can commit to a multi-year program.",
+          "<strong>IIT Hyderabad: AI & ML Certificate (via TalentSprint):</strong> 9-month executive program costing ₹3.5-4 lakhs. Covers deep learning, NLP, computer vision, and deployment. Includes campus immersion. Good for working professionals, but the short duration limits depth on fundamentals.",
+          "<strong>IIM Bangalore: Data Science & AI Executive Program (via upGrad):</strong> 12-month program at ₹3-3.5 lakhs. Strong on business analytics and management perspective. Ideal if you want to move into analytics leadership rather than hands-on data science. Limited on coding depth.",
+          "<strong>IIT Delhi: Certificate in Data Science & ML (via Intellipaat):</strong> 12-month program at ₹3-4 lakhs. Good curriculum covering Python, ML, deep learning, and big data technologies. IIT Delhi brand is strong in North India.",
+          "<strong>ISI Kolkata: PG Diploma in Data Science:</strong> Highly rigorous on-campus program with extremely competitive admission. Arguably the strongest statistical foundation of any Indian program. Very limited seats."
         ]
       },
       {
@@ -342,11 +342,11 @@
         "type": "list",
         "style": "unordered",
         "items": [
-          "<strong>Coursera — IBM Data Science Professional Certificate:</strong> 10-course series covering Python, SQL, data visualization, ML, and capstone projects. Costs ₹3,000-4,000/month (Coursera Plus). Self-paced, takes 6-10 months. Strong content but entirely pre-recorded with no live instruction or mentorship.",
-          "<strong>Coursera — Google Data Analytics Professional Certificate:</strong> 8 courses focused on analytics fundamentals with R and SQL. More entry-level than the IBM certificate. Good starting point for complete beginners. Costs ₹3,000-4,000/month.",
-          "<strong>Coursera — Andrew Ng's Machine Learning Specialization (Stanford):</strong> The gold standard for ML theory. Three courses covering supervised learning, unsupervised learning, and recommender systems. Excellent pedagogy but limited on practical deployment skills.",
-          "<strong>edX — MicroMasters in Statistics and Data Science (MIT):</strong> Extremely rigorous academic program covering probability, statistics, ML, and deep learning. Takes 1.5 years, costs approximately ₹80,000-1 lakh. Best for those who want academic depth.",
-          "<strong>Udacity — Data Scientist Nanodegree:</strong> Project-focused program with mentor reviews. Covers data engineering, ML, and recommendation systems. Costs approximately ₹60,000-80,000. Good projects but limited live support."
+          "<strong>Coursera: IBM Data Science Professional Certificate:</strong> 10-course series covering Python, SQL, data visualization, ML, and capstone projects. Costs ₹3,000-4,000/month (Coursera Plus). Self-paced, takes 6-10 months. Strong content but entirely pre-recorded with no live instruction or mentorship.",
+          "<strong>Coursera: Google Data Analytics Professional Certificate:</strong> 8 courses focused on analytics fundamentals with R and SQL. More entry-level than the IBM certificate. Good starting point for complete beginners. Costs ₹3,000-4,000/month.",
+          "<strong>Coursera: Andrew Ng's Machine Learning Specialization (Stanford):</strong> The gold standard for ML theory. Three courses covering supervised learning, unsupervised learning, and recommender systems. Excellent pedagogy but limited on practical deployment skills.",
+          "<strong>edX: MicroMasters in Statistics and Data Science (MIT):</strong> Extremely rigorous academic program covering probability, statistics, ML, and deep learning. Takes 1.5 years, costs approximately ₹80,000-1 lakh. Best for those who want academic depth.",
+          "<strong>Udacity: Data Scientist Nanodegree:</strong> Project-focused program with mentor reviews. Covers data engineering, ML, and recommendation systems. Costs approximately ₹60,000-80,000. Good projects but limited live support."
         ]
       },
       {
@@ -366,10 +366,10 @@
         "type": "list",
         "style": "unordered",
         "items": [
-          "<strong>upGrad — PG Diploma in Data Science (with IIIT Bangalore):</strong> 12-18 month program at ₹3-4 lakhs. Covers Python, ML, deep learning, NLP, big data. Includes industry projects and placement support. Strong brand but very expensive for what's essentially recorded content with periodic live sessions.",
-          "<strong>Scaler — Data Science & ML Program:</strong> 9-11 month program at ₹3-4 lakhs. Strong on DSA fundamentals and ML. Live classes with experienced instructors. Good peer community and placement support. However, large batch sizes (100+ students per batch) limit individual attention.",
-          "<strong>Analytics Vidhya — Blackbelt ML Program:</strong> 6-12 month program at ₹60,000-80,000. Focused on ML competitions and practical skills. Good community of data science enthusiasts. Less structured than formal programs.",
-          "<strong>Great Learning — PG Program in Data Science (with IIT Madras):</strong> 12-month program at ₹3-3.5 lakhs. IIT Madras branding with Great Learning's platform. Mixed reviews on teaching quality and placement outcomes."
+          "<strong>upGrad: PG Diploma in Data Science (with IIIT Bangalore):</strong> 12-18 month program at ₹3-4 lakhs. Covers Python, ML, deep learning, NLP, big data. Includes industry projects and placement support. Strong brand but very expensive for what's essentially recorded content with periodic live sessions.",
+          "<strong>Scaler: Data Science & ML Program:</strong> 9-11 month program at ₹3-4 lakhs. Strong on DSA fundamentals and ML. Live classes with experienced instructors. Good peer community and placement support. However, large batch sizes (100+ students per batch) limit individual attention.",
+          "<strong>Analytics Vidhya: Blackbelt ML Program:</strong> 6-12 month program at ₹60,000-80,000. Focused on ML competitions and practical skills. Good community of data science enthusiasts. Less structured than formal programs.",
+          "<strong>Great Learning: PG Program in Data Science (with IIT Madras):</strong> 12-month program at ₹3-3.5 lakhs. IIT Madras branding with Great Learning's platform. Mixed reviews on teaching quality and placement outcomes."
         ]
       },
       {
@@ -385,7 +385,7 @@
       },
       {
         "type": "paragraph",
-        "text": "This is the category that often gets overlooked but delivers the highest learning ROI — live, instructor-led programs with small batch sizes, real project experience, and personalized mentorship. This is where Modern Age Coders' approach stands out significantly."
+        "text": "This is the category that often gets overlooked but delivers the highest learning ROI, live, instructor-led programs with small batch sizes, real project experience, and personalized mentorship. This is where Modern Age Coders' approach stands out significantly."
       },
       {
         "type": "paragraph",
@@ -397,7 +397,7 @@
         "items": [
           "<strong>100% Live Classes:</strong> Every session is taught live by experienced instructors. You can ask questions in real-time, get immediate clarification on complex topics, and participate in live coding exercises. No pre-recorded videos disguised as 'live sessions'",
           "<strong>Small Batch Sizes:</strong> Unlike platforms with 200+ students per batch, smaller cohorts mean your instructor actually knows your name, understands your strengths and weaknesses, and can provide personalized feedback on your projects",
-          "<strong>Project-Based Curriculum:</strong> You don't just learn theory — you build real data science projects from scratch. EDA on real datasets, ML model development, dashboard creation, and end-to-end deployment. These projects become your portfolio",
+          "<strong>Project-Based Curriculum:</strong> You don't just learn theory. You build real data science projects from scratch. EDA on real datasets, ML model development, dashboard creation, and end-to-end deployment. These projects become your portfolio",
           "<strong>Strong Python Foundation:</strong> The curriculum ensures your Python programming skills are rock-solid before moving to data science libraries. Many students fail in data science not because ML is hard, but because their Python is weak",
           "<strong>Mathematics Integrated Naturally:</strong> Statistics and linear algebra concepts are taught alongside their practical applications, not as separate abstract modules",
           "<strong>Affordable Pricing:</strong> At a fraction of the cost of IIT executive programs or EdTech platforms charging ₹3-4 lakhs, you get more live instruction hours and more personal attention",
@@ -406,7 +406,7 @@
       },
       {
         "type": "paragraph",
-        "text": "For those who need to strengthen their Python programming before diving into data science, the <a href='/courses/python-programming-masterclass-zero-to-advanced-college'>Python Masterclass</a> provides a comprehensive foundation covering everything from basic syntax to advanced concepts like decorators, generators, file handling, and object-oriented programming — all the prerequisites you need."
+        "text": "For those who need to strengthen their Python programming before diving into data science, the <a href='/courses/python-programming-masterclass-zero-to-advanced-college'>Python Masterclass</a> provides a comprehensive foundation covering everything from basic syntax to advanced concepts like decorators, generators, file handling, and object-oriented programming, all the prerequisites you need."
       },
       {
         "type": "image",
@@ -421,7 +421,7 @@
       },
       {
         "type": "paragraph",
-        "text": "Python deserves its own section because it is the single most important technical skill for a data science career. It's not just 'one of the tools' — it's the primary language of the entire data science ecosystem. If your Python is weak, everything else will be 10x harder."
+        "text": "Python deserves its own section because it is the single most important technical skill for a data science career. It's not just 'one of the tools'. It's the primary language of the entire data science ecosystem. If your Python is weak, everything else will be 10x harder."
       },
       {
         "type": "heading",
@@ -432,11 +432,11 @@
         "type": "list",
         "style": "unordered",
         "items": [
-          "<strong>Library ecosystem:</strong> NumPy, Pandas, Scikit-learn, TensorFlow, PyTorch, Matplotlib, Seaborn, Plotly, Statsmodels, NLTK, SpaCy, Hugging Face — the entire ML/AI stack is Python-native",
+          "<strong>Library ecosystem:</strong> NumPy, Pandas, Scikit-learn, TensorFlow, PyTorch, Matplotlib, Seaborn, Plotly, Statsmodels, NLTK, SpaCy, Hugging Face, the entire ML/AI stack is Python-native",
           "<strong>Readability:</strong> Python's clean syntax makes it easier to focus on data science concepts rather than fighting with the language itself",
-          "<strong>Community:</strong> The largest data science community in the world uses Python. Every Stack Overflow answer, every Kaggle kernel, every tutorial — they're in Python",
+          "<strong>Community:</strong> The largest data science community in the world uses Python. Every Stack Overflow answer, every Kaggle kernel, every tutorial. They're in Python",
           "<strong>Industry standard:</strong> Over 90% of data science teams in India use Python as their primary language",
-          "<strong>Versatility:</strong> From data cleaning scripts to production ML APIs to web dashboards — Python does it all"
+          "<strong>Versatility:</strong> From data cleaning scripts to production ML APIs to web dashboards: Python does it all"
         ]
       },
       {
@@ -467,7 +467,7 @@
       },
       {
         "type": "paragraph",
-        "text": "This kind of end-to-end workflow — from loading raw data to deploying a trained model — is exactly what employers expect you to demonstrate in interviews. Modern Age Coders' <a href='/courses/python-programming-masterclass-zero-to-advanced-college'>Python Masterclass</a> builds this proficiency systematically through progressively complex real-world projects."
+        "text": "This kind of end-to-end workflow, from loading raw data to deploying a trained model, is exactly what employers expect you to demonstrate in interviews. Modern Age Coders' <a href='/courses/python-programming-masterclass-zero-to-advanced-college'>Python Masterclass</a> builds this proficiency systematically through progressively complex real-world projects."
       },
       {
         "type": "heading",
@@ -540,7 +540,7 @@
       },
       {
         "type": "paragraph",
-        "text": "<strong>What you do:</strong> Push the boundaries of what's possible with AI. Publish papers, develop novel algorithms, work on fundamental problems in ML/DL/NLP/CV. <strong>Skills needed:</strong> Mathematics (advanced — linear algebra, optimization, probability theory), Python, PyTorch, research methodology, academic writing. <strong>Salary range:</strong> ₹20-60+ LPA (research labs at Google, Microsoft, Meta pay ₹50-1 Cr+ for top researchers). <strong>Best for:</strong> People with strong mathematical aptitude who want to work on cutting-edge problems. Typically requires a Master's or PhD."
+        "text": "<strong>What you do:</strong> Push the boundaries of what's possible with AI. Publish papers, develop novel algorithms, work on fundamental problems in ML/DL/NLP/CV. <strong>Skills needed:</strong> Mathematics (advanced, linear algebra, optimization, probability theory), Python, PyTorch, research methodology, academic writing. <strong>Salary range:</strong> ₹20-60+ LPA (research labs at Google, Microsoft, Meta pay ₹50-1 Cr+ for top researchers). <strong>Best for:</strong> People with strong mathematical aptitude who want to work on cutting-edge problems. Typically requires a Master's or PhD."
       },
       {
         "type": "heading",
@@ -572,7 +572,7 @@
         "items": [
           "<strong>Exploratory Data Analysis (EDA) Project:</strong> Take a real-world dataset (Indian census data, IPL statistics, Zomato restaurant data, or stock market data) and perform thorough exploratory analysis. Show your ability to clean messy data, identify patterns, create compelling visualizations, and draw meaningful conclusions. This demonstrates your Pandas, visualization, and analytical thinking skills.",
           "<strong>Supervised Learning Project:</strong> Build a classification or regression model for a practical problem. Predict house prices in Indian cities, classify customer churn, detect fraudulent UPI transactions, or predict crop yields. Include proper train-test splits, cross-validation, feature engineering, model comparison, and clear documentation of your thought process.",
-          "<strong>NLP Project:</strong> Work with text data — sentiment analysis of product reviews, news article categorization, building a chatbot, or named entity recognition on Indian language text. NLP projects demonstrate you can work with unstructured data, which is increasingly important.",
+          "<strong>NLP Project:</strong> Work with text data, sentiment analysis of product reviews, news article categorization, building a chatbot, or named entity recognition on Indian language text. NLP projects demonstrate you can work with unstructured data, which is increasingly important.",
           "<strong>Dashboard / Data Application:</strong> Build an interactive dashboard or web application using Streamlit, Dash, or Flask. Deploy it on Heroku, Streamlit Cloud, or Railway. Show a live, working application that someone can actually use. This demonstrates end-to-end skills from data processing to user interface.",
           "<strong>End-to-End ML Pipeline:</strong> Build a complete machine learning pipeline with data ingestion, preprocessing, model training, evaluation, and deployment. Use MLflow for experiment tracking and Docker for containerization. This is the project that separates you from 90% of candidates who can only work in notebooks."
         ]
@@ -597,7 +597,7 @@
         "type": "callout",
         "calloutType": "tip",
         "title": "The India-Specific Portfolio Advantage",
-        "text": "Use Indian datasets and solve Indian problems in your portfolio. Analyzing UPI transaction patterns, predicting Indian stock market trends, working with Indian language NLP, or building solutions for Indian agricultural data shows domain relevance that international datasets don't. Indian hiring managers appreciate candidates who understand local data challenges — messy Aadhaar data, multilingual text, Indian address parsing, and similar real-world complexities."
+        "text": "Use Indian datasets and solve Indian problems in your portfolio. Analyzing UPI transaction patterns, predicting Indian stock market trends, working with Indian language NLP, or building solutions for Indian agricultural data shows domain relevance that international datasets don't. Indian hiring managers appreciate candidates who understand local data challenges, messy Aadhaar data, multilingual text, Indian address parsing, and similar real-world complexities."
       },
       {
         "type": "heading",
@@ -616,11 +616,11 @@
       },
       {
         "type": "paragraph",
-        "text": "You have more time than money, and you need skills that directly lead to your first job. <strong>Best approach:</strong> Start with a strong Python foundation, then take a structured, project-based data science course with live instruction and mentorship. Avoid spending ₹3-4 lakhs on IIT executive programs at this stage — that money is better invested later when you have work experience and the credential carries more weight. Focus on building a portfolio of 4-5 strong projects."
+        "text": "You have more time than money, and you need skills that directly lead to your first job. <strong>Best approach:</strong> Start with a strong Python foundation, then take a structured, project-based data science course with live instruction and mentorship. Avoid spending ₹3-4 lakhs on IIT executive programs at this stage. That money is better invested later when you have work experience and the credential carries more weight. Focus on building a portfolio of 4-5 strong projects."
       },
       {
         "type": "paragraph",
-        "text": "Modern Age Coders' <a href='/courses/data-science-complete-masterclass-college'>Data Science Masterclass</a> is specifically designed for college students — affordable, live classes, project-based, with strong Python fundamentals built in. Combined with the <a href='/courses/python-programming-masterclass-zero-to-advanced-college'>Python Masterclass</a>, you'll have a complete skill stack that employers value."
+        "text": "Modern Age Coders' <a href='/courses/data-science-complete-masterclass-college'>Data Science Masterclass</a> is specifically designed for college students, affordable, live classes, project-based, with strong Python fundamentals built in. Combined with the <a href='/courses/python-programming-masterclass-zero-to-advanced-college'>Python Masterclass</a>, you'll have a complete skill stack that employers value."
       },
       {
         "type": "heading",
@@ -629,7 +629,7 @@
       },
       {
         "type": "paragraph",
-        "text": "You have some programming experience but limited time. You need a structured program that works around your job. <strong>Best approach:</strong> Choose a program with weekend or evening live classes, strong placement support, and industry-relevant projects. Your existing tech background is an advantage — you don't need to start from scratch. Focus on statistical foundations, ML algorithms, and a specialization area (NLP, computer vision, or GenAI) that aligns with your career goals."
+        "text": "You have some programming experience but limited time. You need a structured program that works around your job. <strong>Best approach:</strong> Choose a program with weekend or evening live classes, strong placement support, and industry-relevant projects. Your existing tech background is an advantage. You don't need to start from scratch. Focus on statistical foundations, ML algorithms, and a specialization area (NLP, computer vision, or GenAI) that aligns with your career goals."
       },
       {
         "type": "heading",
@@ -638,7 +638,7 @@
       },
       {
         "type": "paragraph",
-        "text": "You need comprehensive coverage from fundamentals to advanced topics with extra support. <strong>Best approach:</strong> Start with a Python programming course to build your coding foundation. Then move to a data science program that doesn't assume prior programming experience. Avoid programs that rush through Python basics in 2 weeks — you need at least 6-8 weeks of dedicated Python learning before data science makes sense. Your domain expertise (finance, healthcare, marketing) is actually a secret weapon — data scientists who understand business context are rare and valued."
+        "text": "You need comprehensive coverage from fundamentals to advanced topics with extra support. <strong>Best approach:</strong> Start with a Python programming course to build your coding foundation. Then move to a data science program that doesn't assume prior programming experience. Avoid programs that rush through Python basics in 2 weeks. You need at least 6-8 weeks of dedicated Python learning before data science makes sense. Your domain expertise (finance, healthcare, marketing) is actually a secret weapon, data scientists who understand business context are rare and valued."
       },
       {
         "type": "heading",
@@ -707,7 +707,7 @@
       },
       {
         "type": "paragraph",
-        "text": "India's startup ecosystem employs data scientists across every domain — logistics (Delhivery, Dunzo), edtech (Unacademy, Physics Wallah), gaming (Dream11, MPL), social commerce (Meesho, ShareChat), and more. Startup roles typically offer: lower base salary but equity upside, faster career growth, broader responsibilities (you're often the entire data team), and the opportunity to build data infrastructure from scratch. If you want maximum learning velocity, startup data science roles are unmatched."
+        "text": "India's startup ecosystem employs data scientists across every domain, logistics (Delhivery, Dunzo), edtech (Unacademy, Physics Wallah), gaming (Dream11, MPL), social commerce (Meesho, ShareChat), and more. Startup roles typically offer: lower base salary but equity upside, faster career growth, broader responsibilities (you're often the entire data team), and the opportunity to build data infrastructure from scratch. If you want maximum learning velocity, startup data science roles are unmatched."
       },
       {
         "type": "heading",
@@ -764,7 +764,7 @@
       },
       {
         "type": "paragraph",
-        "text": "Learn NumPy (arrays, operations, broadcasting), Pandas (DataFrames, data manipulation, groupby, merge, pivot tables), and visualization (Matplotlib, Seaborn). Complete 2 full EDA projects on real Indian datasets. Start learning SQL in parallel — basic queries, joins, aggregations, subqueries."
+        "text": "Learn NumPy (arrays, operations, broadcasting), Pandas (DataFrames, data manipulation, groupby, merge, pivot tables), and visualization (Matplotlib, Seaborn). Complete 2 full EDA projects on real Indian datasets. Start learning SQL in parallel, basic queries, joins, aggregations, subqueries."
       },
       {
         "type": "heading",
@@ -815,7 +815,7 @@
       },
       {
         "type": "paragraph",
-        "text": "Absolutely yes. Many successful data scientists in India come from non-engineering backgrounds — commerce, economics, life sciences, and even arts. The key is to build a strong programming foundation first (spend extra time on Python) and leverage your domain expertise. A data scientist with a finance background who understands lending, risk, and markets is extremely valuable to fintech companies. Your non-tech perspective is an asset, not a liability."
+        "text": "Absolutely yes. Many successful data scientists in India come from non-engineering backgrounds, commerce, economics, life sciences, and even arts. The key is to build a strong programming foundation first (spend extra time on Python) and leverage your domain expertise. A data scientist with a finance background who understands lending, risk, and markets is extremely valuable to fintech companies. Your non-tech perspective is an asset, not a liability."
       },
       {
         "type": "heading",
@@ -824,7 +824,7 @@
       },
       {
         "type": "paragraph",
-        "text": "With consistent daily effort (2-3 hours), you can become job-ready for entry-level data analyst or junior data scientist roles in <strong>8-12 months</strong>. If you already have programming experience, you can compress this to 5-7 months. Full-time intensive learning can get you ready in 4-6 months. However, mastery is an ongoing journey — even experienced data scientists are constantly learning new techniques and tools."
+        "text": "With consistent daily effort (2-3 hours), you can become job-ready for entry-level data analyst or junior data scientist roles in <strong>8-12 months</strong>. If you already have programming experience, you can compress this to 5-7 months. Full-time intensive learning can get you ready in 4-6 months. However, mastery is an ongoing journey, even experienced data scientists are constantly learning new techniques and tools."
       },
       {
         "type": "heading",
@@ -833,7 +833,7 @@
       },
       {
         "type": "paragraph",
-        "text": "The entry-level data analyst market is competitive, but it's not oversaturated for skilled candidates. The problem is that many certificate holders lack practical skills — they can't write clean Python code, struggle with SQL, and have no real projects. If you build genuine skills with a strong portfolio, you'll stand out from 80% of applicants. The mid-level and senior data science market in India has more demand than supply, and that gap is widening."
+        "text": "The entry-level data analyst market is competitive, but it's not oversaturated for skilled candidates. The problem is that many certificate holders lack practical skills. They can't write clean Python code, struggle with SQL, and have no real projects. If you build genuine skills with a strong portfolio, you'll stand out from 80% of applicants. The mid-level and senior data science market in India has more demand than supply, and that gap is widening."
       },
       {
         "type": "heading",
@@ -842,7 +842,7 @@
       },
       {
         "type": "paragraph",
-        "text": "For most industry roles in India, no. A Bachelor's degree plus demonstrable skills (strong portfolio, relevant projects, good interview performance) is sufficient for 90% of data science jobs. A Master's degree helps for research-oriented roles, positions at top MNCs that use degree as a screening filter, and career progression to principal/staff level. If you're early in your career, invest in skills first — you can always pursue a Master's later when you have clearer career goals and potentially employer sponsorship."
+        "text": "For most industry roles in India, no. A Bachelor's degree plus demonstrable skills (strong portfolio, relevant projects, good interview performance) is sufficient for 90% of data science jobs. A Master's degree helps for research-oriented roles, positions at top MNCs that use degree as a screening filter, and career progression to principal/staff level. If you're early in your career, invest in skills first. You can always pursue a Master's later when you have clearer career goals and potentially employer sponsorship."
       },
       {
         "type": "heading",
@@ -851,7 +851,7 @@
       },
       {
         "type": "paragraph",
-        "text": "Data strongly favors live instruction. Self-paced courses have completion rates of 5-15%, while live instructor-led programs see 60-80% completion rates. The reasons are clear: accountability, real-time doubt resolution, personalized feedback, and peer motivation. Self-paced works well for experienced learners who need to fill specific skill gaps, but for building a comprehensive data science foundation, live instruction is significantly more effective. This is why Modern Age Coders' approach centers on 100% live classes — the learning outcomes are measurably better."
+        "text": "Data strongly favors live instruction. Self-paced courses have completion rates of 5-15%, while live instructor-led programs see 60-80% completion rates. The reasons are clear: accountability, real-time doubt resolution, personalized feedback, and peer motivation. Self-paced works well for experienced learners who need to fill specific skill gaps, but for building a comprehensive data science foundation, live instruction is significantly more effective. This is why Modern Age Coders' approach centers on 100% live classes, the learning outcomes are measurably better."
       },
       {
         "type": "heading",
@@ -868,7 +868,7 @@
         "style": "unordered",
         "items": [
           "<strong>Live, Interactive Classes:</strong> No pre-recorded videos. Every class is taught live with real-time Q&A, live coding, and collaborative problem-solving",
-          "<strong>Project-First Curriculum:</strong> You'll build real data science projects from week one — working with actual datasets, solving actual problems, building an actual portfolio",
+          "<strong>Project-First Curriculum:</strong> You'll build real data science projects from week one, working with actual datasets, solving actual problems, building an actual portfolio",
           "<strong>Strong Python + Mathematics Foundation:</strong> We don't rush through fundamentals. Our programs ensure your Python and statistics skills are rock-solid before moving to ML algorithms",
           "<strong>Expert Instructors:</strong> Our teachers are experienced data professionals who have worked on real-world data science problems, not just academic concepts",
           "<strong>Affordable and Accessible:</strong> Premium-quality data science education at a fraction of the cost of IIT programs or expensive EdTech platforms. We believe cost should never be a barrier to quality education",
@@ -884,9 +884,9 @@
         "type": "list",
         "style": "ordered",
         "items": [
-          "<a href='/courses/data-science-complete-masterclass-college'>Data Science Complete Masterclass</a> — Comprehensive data science program covering Python, statistics, ML, visualization, and deployment with live projects",
-          "<a href='/courses/python-programming-masterclass-zero-to-advanced-college'>Python Programming Masterclass</a> — Build the essential Python foundation for data science, from zero to advanced concepts",
-          "<a href='/courses/ai-ml-masterclass-complete-college'>AI/ML Masterclass</a> — Deep dive into artificial intelligence and machine learning with hands-on model building and deployment"
+          "<a href='/courses/data-science-complete-masterclass-college'>Data Science Complete Masterclass</a>: Comprehensive data science program covering Python, statistics, ML, visualization, and deployment with live projects",
+          "<a href='/courses/python-programming-masterclass-zero-to-advanced-college'>Python Programming Masterclass</a>: Build the essential Python foundation for data science, from zero to advanced concepts",
+          "<a href='/courses/ai-ml-masterclass-complete-college'>AI/ML Masterclass</a>: Deep dive into artificial intelligence and machine learning with hands-on model building and deployment"
         ]
       },
       {
@@ -901,17 +901,17 @@
       },
       {
         "type": "paragraph",
-        "text": "The best course for you depends on your situation — but no matter which path you choose, prioritize these three things: <strong>strong Python programming skills</strong>, <strong>solid statistical foundations</strong>, and <strong>a portfolio of real projects</strong>. These three elements will serve you regardless of which specific tools or techniques become trendy."
+        "text": "The best course for you depends on your situation, but no matter which path you choose, prioritize these three things: <strong>strong Python programming skills</strong>, <strong>solid statistical foundations</strong>, and <strong>a portfolio of real projects</strong>. These three elements will serve you regardless of which specific tools or techniques become trendy."
       },
       {
         "type": "paragraph",
-        "text": "If you're ready to start your data science journey with structured, live, project-based learning, <a href='/book-demo'>book a free demo class</a> with Modern Age Coders today. Our team will assess your current level, understand your career goals, and recommend the right learning path for you. No pressure, no sales pitch — just an honest conversation about how to get from where you are to where you want to be."
+        "text": "If you're ready to start your data science journey with structured, live, project-based learning, <a href='/book-demo'>book a free demo class</a> with Modern Age Coders today. Our team will assess your current level, understand your career goals, and recommend the right learning path for you. No pressure, no sales pitch, just an honest conversation about how to get from where you are to where you want to be."
       },
       {
         "type": "callout",
         "calloutType": "tip",
         "title": "Start Your Data Science Journey Today",
-        "text": "Don't wait for the 'perfect time' — the best time to start learning data science is right now. Every week you delay is a week your peers are getting ahead. <a href='/book-demo'>Book a free demo class</a> with Modern Age Coders and take the first step toward a data science career that could transform your future. Our live, project-based approach has helped hundreds of students and professionals launch successful data science careers."
+        "text": "Don't wait for the 'perfect time', the best time to start learning data science is right now. Every week you delay is a week your peers are getting ahead. <a href='/book-demo'>Book a free demo class</a> with Modern Age Coders and take the first step toward a data science career that could transform your future. Our live, project-based approach has helped hundreds of students and professionals launch successful data science careers."
       }
     ]
   },

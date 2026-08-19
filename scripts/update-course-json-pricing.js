@@ -1,6 +1,6 @@
 // One-shot: update per-course JSON data files to the 3-tier pricing structure.
 // Adds miniBatch, bumps personal from 2499 to 4999. Preserves existing lifetime values.
-// Idempotent — skips files that already have miniBatch.
+// Idempotent, skips files that already have miniBatch.
 
 const fs = require('fs');
 const path = require('path');
@@ -19,7 +19,7 @@ for (const f of files) {
 
   let parsed;
   try { parsed = JSON.parse(raw); } catch (e) {
-    reasons.push(`${f}: invalid JSON — ${e.message}`);
+    reasons.push(`${f}: invalid JSON, ${e.message}`);
     skipped++;
     continue;
   }
@@ -32,7 +32,7 @@ for (const f of files) {
   }
 
   if (price.miniBatch) {
-    reasons.push(`${f}: already has miniBatch — skipped`);
+    reasons.push(`${f}: already has miniBatch, skipped`);
     skipped++;
     continue;
   }
@@ -42,7 +42,7 @@ for (const f of files) {
     typeof oldPersonal === 'string' && /2[,]?499/.test(oldPersonal);
 
   if (!needsUpdate) {
-    reasons.push(`${f}: personal="${oldPersonal}" — not the 2499 pattern, skipped`);
+    reasons.push(`${f}: personal="${oldPersonal}", not the 2499 pattern, skipped`);
     skipped++;
     continue;
   }

@@ -21,13 +21,13 @@ Websites are full of lists and tables. The menu on a restaurant page is a list. 
 
 HTML has three kinds of lists, each for a different situation:
 
-- **Unordered lists** (``) — when the order does not matter. Shopping list, features of a product, tags on a blog post. Displayed with bullets.
-- **Ordered lists** (``) — when the order matters. Steps in a recipe, top 10 movies, instructions to assemble a chair. Displayed with numbers.
-- **Description lists** (``) — for pairs of terms and their definitions. A glossary, a FAQ, a dictionary.
+- **Unordered lists** (``), when the order does not matter. Shopping list, features of a product, tags on a blog post. Displayed with bullets.
+- **Ordered lists** (``), when the order matters. Steps in a recipe, top 10 movies, instructions to assemble a chair. Displayed with numbers.
+- **Description lists** (``), for pairs of terms and their definitions. A glossary, a FAQ, a dictionary.
 
 ### What Are Tables?
 
-A **table** is a grid of rows and columns. It is the right choice only when you have *real data* that belongs in rows and columns — student marks, cricket scores, train timings, a price comparison. Tables are NOT for laying out pages. That was done in the 1990s and it was a terrible idea. Today we use CSS (Flexbox and Grid) for layout.
+A **table** is a grid of rows and columns. It is the right choice only when you have *real data* that belongs in rows and columns, student marks, cricket scores, train timings, a price comparison. Tables are NOT for laying out pages. That was done in the 1990s and it was a terrible idea. Today we use CSS (Flexbox and Grid) for layout.
 
 ## Why Should You Learn Lists and Tables?
 
@@ -37,7 +37,7 @@ When you mark a shopping list as a ``, screen readers for blind users announce "
 
 ### 2. You Get Free Styling
 
-Browsers automatically add bullets to ``, numbers to ``, and borders to tables. You do not have to style them from scratch — they look decent even without CSS.
+Browsers automatically add bullets to ``, numbers to ``, and borders to tables. You do not have to style them from scratch. They look decent even without CSS.
 
 ### 3. Tables Are Still Everywhere
 
@@ -61,7 +61,7 @@ An unordered list uses the `` tag. Inside it, each item is wrapped in an `` (lis
 
 ```
 
-You can have as many `` items as you want. The order of items does not imply any ranking — the items are just related.
+You can have as many `` items as you want. The order of items does not imply any ranking, the items are just related.
 
 ### Ordered Lists
 
@@ -77,9 +77,9 @@ An ordered list uses ``. Each item is still an ``. Browsers automatically number
 
 #### Useful Attributes on 
 
-- **start** — starts counting from a different number. `` starts at 5.
-- **type** — changes the numbering style. `type="1"` (default), `type="A"` (A, B, C), `type="a"` (a, b, c), `type="I"` (I, II, III), `type="i"` (i, ii, iii).
-- **reversed** — counts backwards. Useful for a countdown like "Top 10" that starts at 10.
+- **start**, starts counting from a different number. `` starts at 5.
+- **type**, changes the numbering style. `type="1"` (default), `type="A"` (A, B, C), `type="a"` (a, b, c), `type="I"` (I, II, III), `type="i"` (i, ii, iii).
+- **reversed**, counts backwards. Useful for a countdown like "Top 10" that starts at 10.
 
 ### Description Lists
 
@@ -96,7 +96,7 @@ Description lists are for term-definition pairs. You use three tags: `` for the 
 
 ### Nested Lists
 
-You can put a list inside a list item. This creates a nested list — a list inside a list. Perfect for outlines, hierarchies, and nested menus. Always put the inner list *inside* an ``, not between list items.
+You can put a list inside a list item. This creates a nested list, a list inside a list. Perfect for outlines, hierarchies, and nested menus. Always put the inner list *inside* an ``, not between list items.
 
 ```
 
@@ -114,14 +114,14 @@ You can put a list inside a list item. This creates a nested list — a list ins
 
 Tables use several tags working together:
 
-- `` — wraps the entire table.
-- `` — table row. One per row.
-- `` — table header cell. Used in the header row. Browsers make these bold and centered.
-- `` — table data cell. Normal cells.
-- `` — wraps the header row(s).
-- `` — wraps the body rows.
-- `` — wraps the footer row(s), like totals.
-- `` — the title of the table. Place it right after ``.
+- ``, wraps the entire table.
+- ``, table row. One per row.
+- ``, table header cell. Used in the header row. Browsers make these bold and centered.
+- ``, table data cell. Normal cells.
+- ``, wraps the header row(s).
+- ``, wraps the body rows.
+- ``, wraps the footer row(s), like totals.
+- ``, the title of the table. Place it right after ``.
 
 ### colspan and rowspan
 
@@ -134,11 +134,11 @@ This cell is 3 rows tall
 
 ### Tables Are for Data, Not Layouts
 
-In the old days (1995-2005), people used tables to position things on a page — a header in one row, a sidebar and content in two cells of the next row, a footer in the third row. This was a disaster for accessibility, mobile phones, and maintenance. **Never use tables for layout.** Use CSS Flexbox or Grid instead. Tables are only for tabular data — rows and columns of related values.
+In the old days (1995-2005), people used tables to position things on a page, a header in one row, a sidebar and content in two cells of the next row, a footer in the third row. This was a disaster for accessibility, mobile phones, and maintenance. **Never use tables for layout.** Use CSS Flexbox or Grid instead. Tables are only for tabular data, rows and columns of related values.
 
 ### Styling Tables (Preview)
 
-By default, tables look plain — cells with no borders, no padding. A few CSS lines transform them. You will learn CSS properly in Chapter 9, but here is a preview of what makes tables look good: `border` on each cell, `border-collapse: collapse` on the table, `padding` inside cells, and alternating row colors for readability.
+By default, tables look plain, cells with no borders, no padding. A few CSS lines transform them. You will learn CSS properly in Chapter 9, but here is a preview of what makes tables look good: `border` on each cell, `border-collapse: collapse` on the table, `padding` inside cells, and alternating row colors for readability.
 
 ## Code Examples
 
@@ -163,7 +163,7 @@ By default, tables look plain — cells with no borders, no padding. A few CSS l
 </html>
 ```
 
-This is a classic unordered list. The `` tag creates the list, and each `` is one item. The browser automatically adds bullet points before each item. The items are not in any particular order — it does not matter whether you buy milk or bread first. Save this as `shopping.html` and open it in your browser.
+This is a classic unordered list. The `` tag creates the list, and each `` is one item. The browser automatically adds bullet points before each item. The items are not in any particular order. It does not matter whether you buy milk or bread first. Save this as `shopping.html` and open it in your browser.
 
 **Output:**
 
@@ -198,7 +198,7 @@ A page with the heading 'Aarav's Shopping List' and a bulleted list:
 </html>
 ```
 
-This uses `` because the order matters — you cannot pour the tea before boiling the water. Each step is in a ``. The browser automatically numbers them 1 through 5. If Priya adds a sixth step later, the numbering updates automatically.
+This uses `` because the order matters. You cannot pour the tea before boiling the water. Each step is in a ``. The browser automatically numbers them 1 through 5. If Priya adds a sixth step later, the numbering updates automatically.
 
 **Output:**
 
@@ -254,7 +254,7 @@ Priya's five-step recipe:
 </html>
 ```
 
-This demonstrates all three ordered list attributes. The `reversed` attribute counts from 5 down to 1 — perfect for a top-5 countdown. `start="5"` begins numbering at 5 instead of 1. `type="A"` uses capital letters A, B, C. `type="I"` uses Roman numerals I, II, III. Other valid types are `a`, `i`, and `1` (default).
+This demonstrates all three ordered list attributes. The `reversed` attribute counts from 5 down to 1, perfect for a top-5 countdown. `start="5"` begins numbering at 5 instead of 1. `type="A"` uses capital letters A, B, C. `type="I"` uses Roman numerals I, II, III. Other valid types are `a`, `i`, and `1` (default).
 
 **Output:**
 
@@ -334,7 +334,7 @@ A glossary where each term (HTML, CSS, JavaScript, Browser) appears on its own l
 </html>
 ```
 
-Nested lists let you create hierarchies. Notice that the inner `` is placed **inside** an outer ``, after its text. This is the correct way. Never place a `` directly between two `` tags — that is invalid HTML. You can nest as deeply as you want, but more than 3 levels usually becomes confusing.
+Nested lists let you create hierarchies. Notice that the inner `` is placed **inside** an outer ``, after its text. This is the correct way. Never place a `` directly between two `` tags. That is invalid HTML. You can nest as deeply as you want, but more than 3 levels usually becomes confusing.
 
 **Output:**
 
@@ -401,7 +401,7 @@ A menu with 3 top-level items (Starters, Main Course, Desserts), each with 3 nes
 </html>
 ```
 
-This is a complete data table showing three students and their marks in three subjects. The `` is the table title. `` holds the header row with `` cells (bold and centered by default). `` holds the data rows. `` holds the summary row (averages). A bit of CSS gives it borders, padding, and colored header and footer. Save as `marks.html` and open it — it works.
+This is a complete data table showing three students and their marks in three subjects. The `` is the table title. `` holds the header row with `` cells (bold and centered by default). `` holds the data rows. `` holds the summary row (averages). A bit of CSS gives it borders, padding, and colored header and footer. Save as `marks.html` and open it. It works.
 
 **Output:**
 
@@ -462,7 +462,7 @@ A table with a title at the top, a pink header row (Student, Maths, Science, Eng
 </html>
 ```
 
-This timetable demonstrates both `colspan` and `rowspan`. The 10:00 and 1:00 rows use `colspan="3"` because those events cover all three days. The Art period uses `rowspan="2"` because it lasts two hours. Notice that in the row following a `rowspan`, you do NOT write a `` for the cell that is already occupied — it is already there from the previous row.
+This timetable demonstrates both `colspan` and `rowspan`. The 10:00 and 1:00 rows use `colspan="3"` because those events cover all three days. The Art period uses `rowspan="2"` because it lasts two hours. Notice that in the row following a `rowspan`, you do NOT write a `` for the cell that is already occupied. It is already there from the previous row.
 
 **Output:**
 
@@ -631,7 +631,7 @@ No error, but wrong semantically. The order matters for instructions.
 </ol>
 ```
 
-Use `` whenever the order is important — instructions, steps, recipes, rankings. Use `` only when the items are truly interchangeable. For installation steps, step 3 must come after step 2, so it is an ordered list.
+Use `` whenever the order is important, instructions, steps, recipes, rankings. Use `` only when the items are truly interchangeable. For installation steps, step 3 must come after step 2, so it is an ordered list.
 
 ## Summary
 
@@ -642,7 +642,7 @@ Use `` whenever the order is important — instructions, steps, recipes, ranking
 - Tables use  as the wrapper,  for each row,  for header cells, and  for data cells.
 - Use  for the header row(s),  for the data rows, and  for summary or totals. Add a  right after  for the title.
 - colspan makes a cell span multiple columns, rowspan makes it span multiple rows. Remember to skip the covered cells in following rows.
-- Tables are for tabular data only. Never use tables for page layout — use CSS Flexbox or Grid instead. Tables for layout are bad for accessibility, mobile, and SEO.
+- Tables are for tabular data only. Never use tables for page layout. Use CSS Flexbox or Grid instead. Tables for layout are bad for accessibility, mobile, and SEO.
 - By default, browsers add bullets to , numbers to , and no borders to tables. A small amount of CSS makes them look great.
 
 ## Related Topics

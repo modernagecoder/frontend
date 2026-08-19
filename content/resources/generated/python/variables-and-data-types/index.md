@@ -29,12 +29,12 @@ Now, whenever you write `marks` in your program, Python knows you mean 95. If hi
 marks = 98
 ```
 
-A **data type** tells Python what kind of value is stored in a variable. Just like in real life — a school register stores names (text), roll numbers (whole numbers), heights (decimal numbers), and attendance (yes/no) — Python has different types for different kinds of data:
+A **data type** tells Python what kind of value is stored in a variable. Just like in real life, a school register stores names (text), roll numbers (whole numbers), heights (decimal numbers), and attendance (yes/no), Python has different types for different kinds of data:
 
-- **int** — integers (whole numbers like 42, -7, 0)
-- **float** — floating-point numbers (decimals like 3.14, -0.5, 98.6)
-- **str** — strings (text like "Hello", 'Aarav', "123")
-- **bool** — booleans (only two values: True or False)
+- **int**, integers (whole numbers like 42, -7, 0)
+- **float**, floating-point numbers (decimals like 3.14, -0.5, 98.6)
+- **str**, strings (text like "Hello", 'Aarav', "123")
+- **bool**, booleans (only two values: True or False)
 
 ### What You Will Learn
 
@@ -53,7 +53,7 @@ Variables and data types are the foundation of every program ever written. Witho
 
 ### 1. Programs Need to Remember Things
 
-Without variables, a program would forget everything immediately. Imagine a calculator that cannot remember the first number you typed while you are typing the second one. Variables let your program **store values** and use them later — for calculations, comparisons, display, and more.
+Without variables, a program would forget everything immediately. Imagine a calculator that cannot remember the first number you typed while you are typing the second one. Variables let your program **store values** and use them later, for calculations, comparisons, display, and more.
 
 ### 2. Data Types Prevent Errors
 
@@ -106,7 +106,7 @@ Python has strict rules about what you can and cannot name your variables:
 #### Rules (Must Follow)
 
 1. **Can contain**: letters (a-z, A-Z), digits (0-9), and underscores (_)
-2. **Must start with**: a letter or an underscore — **NOT a digit**
+2. **Must start with**: a letter or an underscore, **NOT a digit**
 3. **Cannot be**: a Python keyword (reserved word like `if`, `for`, `while`, `True`, `False`, `class`, `def`, `return`, etc.)
 4. **Case-sensitive**: `Name`, `name`, and `NAME` are three different variables
 5. **No spaces**: Use underscores instead (`student_name`, not `student name`)
@@ -141,7 +141,7 @@ for = 5                # 'for' is a Python keyword
 
 ### Data Type 1: int (Integers)
 
-An **integer** is a whole number — positive, negative, or zero — without any decimal point.
+An **integer** is a whole number, positive, negative, or zero, without any decimal point.
 
 ```
 marks = 95
@@ -197,7 +197,7 @@ empty = ""               # An empty string (zero characters)
 
 ### Data Type 4: bool (Booleans)
 
-A **boolean** has only two possible values: `True` or `False`. Notice the capital T and F — this is required in Python.
+A **boolean** has only two possible values: `True` or `False`. Notice the capital T and F. This is required in Python.
 
 ```
 is_student = True
@@ -237,7 +237,7 @@ The output `` means the value belongs to the `int` class. You will learn about c
 
 Sometimes you need to convert a value from one type to another. Python provides built-in functions for this:
 
-#### int() — Convert to Integer
+#### int(): Convert to Integer
 
 ```
 int("42")      # String to int: 42
@@ -246,9 +246,9 @@ int(True)      # Bool to int: 1
 int(False)     # Bool to int: 0
 ```
 
-**Warning:** `int("hello")` causes an error — you can only convert strings that contain valid numbers.
+**Warning:** `int("hello")` causes an error. You can only convert strings that contain valid numbers.
 
-#### float() — Convert to Float
+#### float(): Convert to Float
 
 ```
 float("3.14")   # String to float: 3.14
@@ -257,7 +257,7 @@ float("5")      # String to float: 5.0
 float(True)     # Bool to float: 1.0
 ```
 
-#### str() — Convert to String
+#### str(): Convert to String
 
 ```
 str(42)         # Int to string: "42"
@@ -267,7 +267,7 @@ str(True)       # Bool to string: "True"
 
 `str()` can convert anything to a string. It never fails.
 
-#### bool() — Convert to Boolean
+#### bool(): Convert to Boolean
 
 This function converts values to True or False. The rule is simple:
 
@@ -335,7 +335,7 @@ In **statically typed** languages like Java or C++, you must declare a variable'
 
 ### The id() Function
 
-Every object in Python has a unique identity — a number that identifies it in memory. The `id()` function returns this identity:
+Every object in Python has a unique identity, a number that identifies it in memory. The `id()` function returns this identity:
 
 ```
 x = 42
@@ -458,7 +458,7 @@ decimal = float(whole)
 print("Int:", whole, "| Float:", decimal)
 print()
 
-# Float to int (truncates — does NOT round!)
+# Float to int (truncates: does NOT round!)
 pi = 3.99
 truncated = int(pi)
 print("Float:", pi, "| Int:", truncated, "(truncated, not rounded!)")
@@ -502,7 +502,7 @@ bool('Hi'): True
 ### Multiple Assignment and Swapping
 
 ```python
-# Multiple assignment — assign different values in one line
+# Multiple assignment: assign different values in one line
 a, b, c = 10, 20, 30
 print("a =", a, "| b =", b, "| c =", c)
 
@@ -537,10 +537,10 @@ After swap:
 first = Apple | second = Mango
 ```
 
-### Dynamic Typing — Variables Can Change Type
+### Dynamic Typing: Variables Can Change Type
 
 ```python
-# Python is dynamically typed — the same variable can hold different types
+# Python is dynamically typed: the same variable can hold different types
 data = 42
 print("Value:", data, "| Type:", type(data))
 
@@ -584,10 +584,10 @@ print()
 x = 10
 print("x = 10 | id(x) =", id(x))
 x = 20
-print("x = 20 | id(x) =", id(x))  # Different id — new object
+print("x = 20 | id(x) =", id(x))  # Different id, new object
 ```
 
-Every value in Python is an object with a unique identity (memory address). The `id()` function reveals this. Python optimizes memory by reusing objects for small integers (-5 to 256) — so `a = 256` and `b = 256` point to the same object. When you reassign a variable, it points to a new object with a different id. This demonstrates that variables in Python are **references** (labels pointing to objects), not boxes that contain values.
+Every value in Python is an object with a unique identity (memory address). The `id()` function reveals this. Python optimizes memory by reusing objects for small integers (-5 to 256), so `a = 256` and `b = 256` point to the same object. When you reassign a variable, it points to a new object with a different id. This demonstrates that variables in Python are **references** (labels pointing to objects), not boxes that contain values.
 
 **Output:**
 
@@ -629,7 +629,7 @@ print("bool('0') =", bool("0"))       # True! (non-empty string)
 print("bool('False') =", bool("False"))  # True! (non-empty string)
 ```
 
-These edge cases are frequently tested. Key surprises: (1) `int(3.9)` gives 3, not 4 — it truncates, not rounds. (2) Regular division always returns a float, even for 10/2. (3) `bool(" ")` is True because a space is a character (the string is not empty). (4) `bool("0")` and `bool("False")` are both True because they are non-empty strings — bool() checks if the string is empty, not its content.
+These edge cases are frequently tested. Key surprises: (1) `int(3.9)` gives 3, not 4. It truncates, not rounds. (2) Regular division always returns a float, even for 10/2. (3) `bool(" ")` is True because a space is a character (the string is not empty). (4) `bool("0")` and `bool("False")` are both True because they are non-empty strings, bool() checks if the string is empty, not its content.
 
 **Output:**
 
@@ -767,7 +767,7 @@ print(round(3.7))  # 4 (rounded)
 print(round(3.2))  # 3 (rounded)
 ```
 
-The `int()` function does not round — it **truncates**, meaning it simply removes the decimal part. `int(3.9)` gives 3, not 4. For negative numbers, it truncates toward zero: `int(-3.7)` gives -3, not -4. If you need rounding, use the `round()` function instead.
+The `int()` function does not round. It **truncates**, meaning it simply removes the decimal part. `int(3.9)` gives 3, not 4. For negative numbers, it truncates toward zero: `int(-3.7)` gives -3, not -4. If you need rounding, use the `round()` function instead.
 
 ### Assuming bool('False') Is False
 
@@ -785,10 +785,10 @@ No error, but the output is True instead of False.
 
 ```
 # bool() checks if the string is EMPTY, not its content
-print(bool("False"))  # True — non-empty string
-print(bool(""))       # False — empty string
-print(bool("0"))      # True — non-empty string
-print(bool(0))        # False — zero integer
+print(bool("False"))  # True, non-empty string
+print(bool(""))       # False, empty string
+print(bool("0"))      # True, non-empty string
+print(bool(0))        # False, zero integer
 ```
 
 The `bool()` function converts to True or False based on simple rules: for strings, **empty string = False, any non-empty string = True**. It does NOT read the content of the string. So `bool("False")` is True because "False" is a non-empty string (it has 5 characters). Similarly, `bool("0")` is True because "0" is not empty.

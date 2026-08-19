@@ -1,16 +1,16 @@
 ---
-title: "Real Coding Classes — Learn How Code Actually Works, How to Think Like a Programmer & Build Real AI/ML Models | Modern Age Coders"
-description: "Live online coding classes with real depth and applied knowledge: learn how code actually works under the hood, how to think like a programmer, how to solve coding problems, and how to build real AI/ML models — Python internals, the maths behind machine learning, DSA, C++, Java & full-stack. Small batches, expert mentors, ages 13–65, 25+ countries. Rated 4.9/5. Free demo."
+title: "Real Coding Classes: Learn How Code Actually Works, How to Think Like a Programmer & Build Real AI/ML Models | Modern Age Coders"
+description: "Live online coding classes with real depth and applied knowledge: learn how code actually works under the hood, how to think like a programmer, how to solve coding problems, and how to build real AI/ML models: Python internals, the maths behind machine learning, DSA, C++, Java & full-stack. Small batches, expert mentors, ages 13–65, 25+ countries. Rated 4.9/5. Free demo."
 canonical: https://learn.modernagecoders.com/real-coding-classes
 source: src/pages/real-coding-classes.html
 ---
-> Live online coding classes with real depth and applied knowledge: learn how code actually works under the hood, how to think like a programmer, how to solve coding problems, and how to build real AI/ML models — Python internals, the maths behind machine learning, DSA, C++, Java & full-stack. Small batches, expert mentors, ages 13–65, 25+ countries. Rated 4.9/5. Free demo.
+> Live online coding classes with real depth and applied knowledge: learn how code actually works under the hood, how to think like a programmer, how to solve coding problems, and how to build real AI/ML models: Python internals, the maths behind machine learning, DSA, C++, Java & full-stack. Small batches, expert mentors, ages 13–65, 25+ countries. Rated 4.9/5. Free demo.
 
 The depth-first coding school
 
 # Real coding begins where tutorials end.
 
-Most courses teach you to *type* code. We teach you **how code actually works, how to think like a programmer, how to solve problems you've never seen — and how to build real software and AI/ML models**. Live classes, small batches, mentors who refuse to leave you at the surface.
+Most courses teach you to *type* code. We teach you **how code actually works, how to think like a programmer, how to solve problems you've never seen, and how to build real software and AI/ML models**. Live classes, small batches, mentors who refuse to leave you at the surface.
 
 Book a free demo classSee how deep we go ↓
 
@@ -19,7 +19,7 @@ Book a free demo classSee how deep we go ↓
 week-11/pipelines.py
 
 ```
-# Week 11 · Python Masterclass — lazy pipelines
+# Week 11 · Python Masterclass: lazy pipelines
 from collections.abc import Iterator
 
 def read_logs(path: str) -> Iterator[str]:
@@ -35,11 +35,11 @@ slow = sorted(errors_only(read_logs("app.log")),
 # Nothing is read until you iterate. That's the point.
 ```
 
-From an actual class — **this is the level our students write at**, and they can explain every line.
+From an actual class, **this is the level our students write at**, and they can explain every line.
 
 ## What are real coding classes?
 
-Real coding classes teach **how and why code works** — not just what to type. Modern Age Coders runs live, small-batch online classes built on four things most courses skip: **how things actually work** (Python internals, the mathematics behind AI and machine learning, memory in C++, how the web really runs), **how to think like a programmer**, **how to solve coding problems** you've never seen, and **how to build real models and software**. Students learn with expert mentors, build real projects every month, and finish able to explain — and defend — every line they write.
+Real coding classes teach **how and why code works**, not just what to type. Modern Age Coders runs live, small-batch online classes built on four things most courses skip: **how things actually work** (Python internals, the mathematics behind AI and machine learning, memory in C++, how the web really runs), **how to think like a programmer**, **how to solve coding problems** you've never seen, and **how to build real models and software**. Students learn with expert mentors, build real projects every month, and finish able to explain, and defend, every line they write.
 
 **Live only**No recorded-video courses**≤ 10 students**Per batch (or 1-on-1)**From ₹1,499/moFrom $100**Transparent pricing**Ages 13–65**Teens · college · professionals
 
@@ -47,15 +47,15 @@ Real coding classes teach **how and why code works** — not just what to type. 
 
 ## "Learn coding in 30 days" is why most people *can't code*.
 
-The internet is full of courses that hand you a certificate for watching videos and copying a to-do app. Then the first real problem arrives — a bug the tutorial never covered, an interview question with no template — and everything collapses. That gap has a name: **tutorial hell**. We built our entire school to be the way out of it.
+The internet is full of courses that hand you a certificate for watching videos and copying a to-do app. Then the first real problem arrives, a bug the tutorial never covered, an interview question with no template, and everything collapses. That gap has a name: **tutorial hell**. We built our entire school to be the way out of it.
 
 | A 30-day course teaches you… | A real course teaches you… |
 | --- | --- |
-| What a for-loop looks like. | How iteration actually works — **iterators, generators**, and why `range()` doesn't build a list. |
-| Call `model.fit()` and read the accuracy. | What **gradient descent** is doing to the loss surface — and when accuracy is lying to you. |
-| Copy a to-do app from a video. | Design your own app: **state, data flow, edge cases, deployment** — decisions, not dictation. |
-| Memorise "O(n) is fast, O(n²) is slow." | **Prove** why an algorithm is O(n log n) — and when constant factors matter more. |
-| Div soup that breaks on mobile. | How the browser **parses, lays out and paints** a page — so CSS stops being trial and error. |
+| What a for-loop looks like. | How iteration actually works, **iterators, generators**, and why `range()` doesn't build a list. |
+| Call `model.fit()` and read the accuracy. | What **gradient descent** is doing to the loss surface, and when accuracy is lying to you. |
+| Copy a to-do app from a video. | Design your own app: **state, data flow, edge cases, deployment**, decisions, not dictation. |
+| Memorise "O(n) is fast, O(n²) is slow." | **Prove** why an algorithm is O(n log n), and when constant factors matter more. |
+| Div soup that breaks on mobile. | How the browser **parses, lays out and paints** a page, so CSS stops being trial and error. |
 | A certificate PDF. | A **portfolio of working software** you can defend line by line in an interview. |
 
 ### Real depth, applied: *how things work, how to think, how to solve, how to build.*
@@ -64,31 +64,31 @@ REAL DEPTH / 01
 
 ### How things actually work
 
-Under every line of code, a machine is doing something specific. We open the hood: what Python does with your loop, what the browser does with your CSS, what gradient descent does with your data. When you know how it works, nothing is magic — and nothing can break you.
+Under every line of code, a machine is doing something specific. We open the hood: what Python does with your loop, what the browser does with your CSS, what gradient descent does with your data. When you know how it works, nothing is magic, and nothing can break you.
 
 REAL DEPTH / 02
 
 ### How to think like a programmer
 
-Decomposition, abstraction, naming, edge cases. We deliberately train the thinking habits — turning a vague problem into precise, testable steps — that outlive every framework and every syntax change.
+Decomposition, abstraction, naming, edge cases. We deliberately train the thinking habits, turning a vague problem into precise, testable steps, that outlive every framework and every syntax change.
 
 REAL DEPTH / 03
 
 ### How to solve coding problems
 
-Patterns over memorisation. You learn to recognise the shape of a problem — two pointers, graph, dynamic programming — reason about complexity, debug systematically, and get unstuck on problems you have never seen before.
+Patterns over memorisation. You learn to recognise the shape of a problem, two pointers, graph, dynamic programming, reason about complexity, debug systematically, and get unstuck on problems you have never seen before.
 
 REAL DEPTH / 04
 
 ### How to build real models & software
 
-Applied knowledge is the proof of depth. You train and deploy actual machine-learning models, ship full-stack apps, automate real workflows — and you can defend every decision you made along the way.
+Applied knowledge is the proof of depth. You train and deploy actual machine-learning models, ship full-stack apps, automate real workflows. And you can defend every decision you made along the way.
 
 § 02 · The depth map
 
 ## Exactly where most courses stop. Exactly where *we keep going*.
 
-Every track below starts from zero — beginners are welcome. The difference is the destination. The dashed line marks where a typical online course ends. The green levels are where our masterclasses continue.
+Every track below starts from zero, beginners are welcome. The difference is the destination. The dashed line marks where a typical online course ends. The green levels are where our masterclasses continue.
 
 ### Python
 
@@ -121,7 +121,7 @@ Interviews · CP
 - Arrays, strings, loops
 - Recursion, sorting, Big-O basics
 - Most courses stop here
-- Trees, graphs, heaps, hashing, dynamic programming — taught as patterns, not tricks
+- Trees, graphs, heaps, hashing, dynamic programming, taught as patterns, not tricks
 - Amortised analysis, timed contests, mock-interview drills at placement difficulty
 
 [DSA masterclass](/courses/data-structures-algorithms-masterclass-college) [Competitive programming](/courses/competitive-programming-masterclass-college) [DSA for teens](/courses/problem-solving-dsa-masterclass-teens)
@@ -181,7 +181,7 @@ Teens · Pro · New for 2026
 - Chatting with AI tools
 - Copy-pasting AI-generated code
 - Most courses stop here
-- Agentic workflows with Codex & Claude Code — prompts as specifications, reviewing AI diffs
+- Agentic workflows with Codex & Claude Code, prompts as specifications, reviewing AI diffs
 - Shipping real software with agents: tests, refactors, multi-file changes you can actually trust
 
 [For professionals](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals) [For teens](/courses/codex-and-claude-code-ai-coding-agents-course-for-teens)
@@ -190,12 +190,12 @@ Teens · Pro · New for 2026
 
 ## Real code from *real classes*.
 
-Not pseudo-code on a slide. These are the kinds of things our students write in class, with a mentor beside them — and then explain back, because being able to explain it is the test of actually knowing it.
+Not pseudo-code on a slide. These are the kinds of things our students write in class, with a mentor beside them, and then explain back, because being able to explain it is the test of actually knowing it.
 
 week-09/retry.py
 
 ```
-# Week 9 · Decorators — build your own @retry
+# Week 9 · Decorators: build your own @retry
 import functools, time
 
 def retry(times: int = 3, delay: float = 0.5):
@@ -213,10 +213,10 @@ def retry(times: int = 3, delay: float = 0.5):
     return wrap
 ```
 
-Python Masterclass, week 9 — **after this, decorators are no longer magic syntax.**week-06/descent.py
+Python Masterclass, week 9, **after this, decorators are no longer magic syntax.**week-06/descent.py
 
 ```
-# Week 6 · ML Masterclass — gradient descent, by hand
+# Week 6 · ML Masterclass: gradient descent, by hand
 import numpy as np
 
 def step(w, X, y, lr=0.01):
@@ -231,13 +231,13 @@ for epoch in range(200):
 # model.fit() is no longer a black box.
 ```
 
-AI/ML Masterclass, week 6 — **the maths first, the framework second.**
+AI/ML Masterclass, week 6, **the maths first, the framework second.**
 
 § 04 · The course index
 
 ## 70+ live courses. These go *deepest*.
 
-Every course below is live, mentor-led and project-based — from ₹1,499/month. Browse the complete catalog (including kids' foundations and mathematics) in [the Course Atlas](/course-atlas).
+Every course below is live, mentor-led and project-based, from ₹1,499/month. Browse the complete catalog (including kids' foundations and mathematics) in [the Course Atlas](/course-atlas).
 
 ### Languages & CS core
 
@@ -260,7 +260,7 @@ Every course below is live, mentor-led and project-based — from ₹1,499/month
 - [Natural Language Processing](/courses/natural-language-processing-course)From tokenisation to transformers
 - [Computer Vision](/courses/computer-vision-course)Images, convolutions, real models
 - [Large Language Models](/courses/large-language-models-course)How LLMs actually work
-- [Generative AI Masterclass](/courses/complete-generative-ai-masterclass-college)Build with — and beyond — GenAI
+- [Generative AI Masterclass](/courses/complete-generative-ai-masterclass-college)Build with, and beyond, GenAI
 - [Data Science Complete](/courses/data-science-complete-masterclass-college)Analysis, statistics, storytelling
 
 ### Engineering & careers
@@ -279,7 +279,7 @@ Every course below is live, mentor-led and project-based — from ₹1,499/month
 
 ## Depth needs a *human* on the other side.
 
-You cannot learn real engineering from a video that can't see your screen. Every part of our method exists to make depth stick — see the full breakdown on [how we teach](/how-we-teach).
+You cannot learn real engineering from a video that can't see your screen. Every part of our method exists to make depth stick. See the full breakdown on [how we teach](/how-we-teach).
 
 METHOD / 01
 
@@ -291,19 +291,19 @@ METHOD / 02
 
 ### Small batches, by design
 
-Up to 10 students per group, 3–4 in a mini batch, or fully 1-on-1. Deep questions need room to be asked — and answered properly.
+Up to 10 students per group, 3–4 in a mini batch, or fully 1-on-1. Deep questions need room to be asked, and answered properly.
 
 METHOD / 03
 
 ### Projects every month
 
-You design and ship working software monthly — apps, models, automations, games. The project is the exam, and the portfolio is the certificate that matters.
+You design and ship working software monthly, apps, models, automations, games. The project is the exam, and the portfolio is the certificate that matters.
 
 METHOD / 04
 
 ### Explain it back
 
-Our standard for "learned" is being able to explain the concept back — whiteboard-style — not just making the code run. If you can't explain it, we re-teach it.
+Our standard for "learned" is being able to explain the concept back, whiteboard-style, not just making the code run. If you can't explain it, we re-teach it.
 
 METHOD / 05
 
@@ -315,7 +315,7 @@ METHOD / 06
 
 ### Recordings, notes & certificate
 
-Every live class is recorded for revision, with structured notes. Finish the course and you earn a verifiable certificate — on top of the portfolio.
+Every live class is recorded for revision, with structured notes. Finish the course and you earn a verifiable certificate, on top of the portfolio.
 
 § 06 · Who this is for
 
@@ -341,19 +341,19 @@ Ages 13–18 · Teens
 
 ### Professionals moving into AI & engineering
 
-- AI/ML from the maths up — no hand-waving
+- AI/ML from the maths up, no hand-waving
 - AI-agent engineering with Codex & Claude Code
 - Automation, data and trading with real Python
 
 [Start with AI/ML Complete →](/courses/ai-ml-masterclass-complete-college)**An honest note**
 
-If you want a certificate by Friday, we are the wrong school — and we'd rather tell you now. Real understanding takes weeks of live classes and real projects. If you want to *actually be able to code* at the end, you're in the right place.
+If you want a certificate by Friday, we are the wrong school, and we'd rather tell you now. Real understanding takes weeks of live classes and real projects. If you want to *actually be able to code* at the end, you're in the right place.
 
 § 07 · The receipts
 
 ## Numbers we can *stand behind*.
 
-Every figure below is the same one we publish across our site and schema — no inflated marketing math.
+Every figure below is the same one we publish across our site and schema, no inflated marketing math.
 
 **10,000+**Students taught**4.9 / 5**Average rating · 500+ Google reviews**15+**Countries with active students**70+**Live courses in the catalog
 
@@ -422,19 +422,19 @@ Just you and the mentor
 
 Try a free demo
 
-**International students:** prices are shown in your own currency and adjusted for your country (use the toggle above). Full details on the [pricing page](/pricing). The first demo class is always free — no payment details required.
+**International students:** prices are shown in your own currency and adjusted for your country (use the toggle above). Full details on the [pricing page](/pricing). The first demo class is always free, no payment details required.
 
-**International pricing:** Group classes are $100 USD/month and 1-on-1 personal classes are $150 USD/month — same live mentors, same depth-first curriculum, scheduled for your time zone. Students in India pay in ₹ (use the toggle above). Full details on the [pricing page](/pricing). The first demo class is always free — no payment details required.
+**International pricing:** Group classes are $100 USD/month and 1-on-1 personal classes are $150 USD/month, same live mentors, same depth-first curriculum, scheduled for your time zone. Students in India pay in ₹ (use the toggle above). Full details on the [pricing page](/pricing). The first demo class is always free, no payment details required.
 
 § 09 · Start here
 
 ## Take one real class. *Free.*
 
-The fastest way to judge a school is to sit in its classroom. Book a free demo — a mentor will assess where you are, show you the depth-first method live, and recommend the right track. No payment details, no obligation.
+The fastest way to judge a school is to sit in its classroom. Book a free demo, a mentor will assess where you are, show you the depth-first method live, and recommend the right track. No payment details, no obligation.
 
 1. **Fill the form** (30 seconds).
 2. **We call you within 48 hours** to schedule.
-3. **Attend a live class** — then decide.
+3. **Attend a live class**, then decide.
 
 [📞 +91 91233 66161](tel:+919123366161)[WhatsApp us](https://wa.me/919123366161?text=Hi%2C%20I%20want%20to%20book%20a%20free%20demo%20for%20the%20real%20coding%20classes.)[Email us](mailto:contact@modernagecoders.com)
 
@@ -444,23 +444,23 @@ The fastest way to judge a school is to sit in its classroom. Book a free demo �
 
 What makes a coding class "real" instead of basic?
 
-A real coding class teaches how and why code works, not just what to type. At Modern Age Coders that means going past syntax into internals and first principles: how Python iterators and generators actually work, the linear algebra and gradient descent behind machine learning, how the browser parses and renders a page, how memory works in C++, and how to prove an algorithm's complexity. Every concept is taught live by a mentor and applied in projects you design yourself — so you can explain every line you write.
+A real coding class teaches how and why code works, not just what to type. At Modern Age Coders that means going past syntax into internals and first principles: how Python iterators and generators actually work, the linear algebra and gradient descent behind machine learning, how the browser parses and renders a page, how memory works in C++, and how to prove an algorithm's complexity. Every concept is taught live by a mentor and applied in projects you design yourself, so you can explain every line you write.
 
-Do you teach how to think like a programmer and how to solve problems — not just syntax?
+Do you teach how to think like a programmer and how to solve problems, not just syntax?
 
-Yes — that is the core of the school. Alongside every language we explicitly train computational thinking: decomposing vague problems into precise steps, recognising problem patterns (two pointers, graphs, dynamic programming), reasoning about complexity, and debugging systematically. And the knowledge is applied — you use it to build real software and train real machine-learning models, not just to pass quizzes.
+Yes, that is the core of the school. Alongside every language we explicitly train computational thinking: decomposing vague problems into precise steps, recognising problem patterns (two pointers, graphs, dynamic programming), reasoning about complexity, and debugging systematically. And the knowledge is applied. You use it to build real software and train real machine-learning models, not just to pass quizzes.
 
 Who are these classes for? Is there an age limit?
 
-Our depth-first tracks are built for three groups: teenagers (13–18) who are serious about computer science, college students preparing for placements and real engineering work, and working professionals moving into AI/ML, automation or software development. Modern Age Coders as a whole teaches ages 6 to 67 — younger learners start on our foundation tracks and graduate into these deeper courses when ready.
+Our depth-first tracks are built for three groups: teenagers (13–18) who are serious about computer science, college students preparing for placements and real engineering work, and working professionals moving into AI/ML, automation or software development. Modern Age Coders as a whole teaches ages 6 to 67, younger learners start on our foundation tracks and graduate into these deeper courses when ready.
 
 Do you really teach advanced topics like Python internals and transformers?
 
-Yes. The Python masterclass covers decorators, generators, context managers, typing, packaging, async IO and profiling. The AI/ML track starts with the mathematics — vectors, matrices, derivatives, gradient descent and loss functions — then builds neural networks from scratch before moving to TensorFlow, PyTorch, transformers, large language models and model deployment. The depth map on this page shows exactly where each track goes.
+Yes. The Python masterclass covers decorators, generators, context managers, typing, packaging, async IO and profiling. The AI/ML track starts with the mathematics, vectors, matrices, derivatives, gradient descent and loss functions, then builds neural networks from scratch before moving to TensorFlow, PyTorch, transformers, large language models and model deployment. The depth map on this page shows exactly where each track goes.
 
 How are the live classes structured?
 
-Every class is live — never recorded-video-only. You learn in a small batch (up to 10 students, or 3–4 in a mini batch, or fully 1-on-1), typically two classes per week. Each class mixes concept teaching, live coding together, and problem-solving. You get class recordings and notes afterwards, monthly projects, and mentors who follow up between classes.
+Every class is live, never recorded-video-only. You learn in a small batch (up to 10 students, or 3–4 in a mini batch, or fully 1-on-1), typically two classes per week. Each class mixes concept teaching, live coding together, and problem-solving. You get class recordings and notes afterwards, monthly projects, and mentors who follow up between classes.
 
 What do the classes cost?
 
@@ -468,11 +468,11 @@ Pricing is fully transparent: Group classes (up to 10 students) are ₹1,499 per
 
 Do you teach students outside India? What about time zones?
 
-Yes — students from 25+ countries learn with us, including the United States, United Kingdom, UAE, Singapore, Australia and Canada. Because every class is live and scheduled per batch, we match you to a batch (or 1-on-1 slot) that fits your time zone.
+Yes, students from 25+ countries learn with us, including the United States, United Kingdom, UAE, Singapore, Australia and Canada. Because every class is live and scheduled per batch, we match you to a batch (or 1-on-1 slot) that fits your time zone.
 
 Can a complete beginner join, or is this only for advanced students?
 
-Complete beginners are welcome. Depth-first does not mean advanced-only — it means we start from zero but refuse to stop at zero. You will begin with syntax and fundamentals like any course; the difference is that the track continues into the understanding most courses skip, at a pace your mentor adjusts to you.
+Complete beginners are welcome. Depth-first does not mean advanced-only. It means we start from zero but refuse to stop at zero. You will begin with syntax and fundamentals like any course; the difference is that the track continues into the understanding most courses skip, at a pace your mentor adjusts to you.
 
 Which programming languages and technologies do you teach?
 
@@ -480,7 +480,7 @@ Python (zero to advanced, plus AI automation), C++ (including competitive progra
 
 Do students build real projects?
 
-Yes — projects are the spine of every course. Students ship working software: full-stack web apps with authentication and databases, machine-learning models trained on real datasets, trading automations, games, and command-line tools. You design the project, write the code, debug it and deploy it — and you finish with a portfolio you can defend line by line.
+Yes, projects are the spine of every course. Students ship working software: full-stack web apps with authentication and databases, machine-learning models trained on real datasets, trading automations, games, and command-line tools. You design the project, write the code, debug it and deploy it. And you finish with a portfolio you can defend line by line.
 
 Do you prepare students for coding interviews and placements?
 
@@ -488,11 +488,11 @@ Yes. The [DSA](/courses/data-structures-algorithms-masterclass-college) and [Com
 
 Do I get a certificate?
 
-Yes — every completed course earns a verifiable certificate from Modern Age Coders. But we are honest about this: the portfolio of real projects you build matters far more to universities and employers than any PDF. We make sure you leave with both.
+Yes, every completed course earns a verifiable certificate from Modern Age Coders. But we are honest about this: the portfolio of real projects you build matters far more to universities and employers than any PDF. We make sure you leave with both.
 
 How do I start?
 
-Book a free demo class — no payment details required. Fill the form on this page, or call [+91 91233 66161](tel:+919123366161), or [WhatsApp us](https://wa.me/919123366161?text=Hi%2C%20I%20want%20to%20book%20a%20free%20demo%20for%20the%20real%20coding%20classes.). A mentor will assess where you are, recommend the right track and depth level, and you take a real class before deciding anything.
+Book a free demo class, no payment details required. Fill the form on this page, or call [+91 91233 66161](tel:+919123366161), or [WhatsApp us](https://wa.me/919123366161?text=Hi%2C%20I%20want%20to%20book%20a%20free%20demo%20for%20the%20real%20coding%20classes.). A mentor will assess where you are, recommend the right track and depth level, and you take a real class before deciding anything.
 
 Is it still worth learning to code deeply now that AI can generate code?
 
@@ -516,7 +516,7 @@ Real student projects
 
 Every one is a real, live project shipped by a Modern Age Coders student. Explore more in [Student Labs](/student-labs).
 
-[![GuardianX — AI Bodyguard for the Internet](/images/projects/guardianx.webp)AI & MLGuardianX — AI Bodyguard for the InternetPaste any suspicious link or message and GuardianX returns an instant AI verdict before you become a victim — plus a link scanner, safety score, breach check and live scam alerts built for India. Vibe-coded from idea to working product through prompts, then refined until it genuinely understands how phishing and scams work.by VivaanOpen the live project ↗](https://guardianx-cybersaver.lovable.app)[![Palm Arcana — Summon the Elements](/images/projects/superpawer.webp)GamePalm Arcana — Summon the ElementsOpen your palms to the webcam and computer vision turns your gestures into real magic — the left palm throws a fireball, the right crackles with lightning. A wild blend of hand-tracking AI, creative coding and pure imagination, vibe-coded into a playable browser experience.by AarushOpen the live project ↗](https://superpawer.netlify.app)[![LumenFX — AR/VR Photo Effects Studio](/images/projects/lumenfx.webp)Web AppLumenFX — AR/VR Photo Effects StudioUpload a photo and transform it with cinematic filters, AR face effects and the wildest trending edits — the same looks blowing up on TikTok, Reels and Snap, with 240+ one-tap presets. Raayan vibe-coded the whole studio from an idea: prompted the concept, then built the effects engine and gallery UI by hand.by RaayanOpen the live project ↗](https://arvrbadestweb.lovable.app)
+[![GuardianX, AI Bodyguard for the Internet](/images/projects/guardianx.webp)AI & MLGuardianX, AI Bodyguard for the InternetPaste any suspicious link or message and GuardianX returns an instant AI verdict before you become a victim, plus a link scanner, safety score, breach check and live scam alerts built for India. Vibe-coded from idea to working product through prompts, then refined until it genuinely understands how phishing and scams work.by VivaanOpen the live project ↗](https://guardianx-cybersaver.lovable.app)[![Palm Arcana, Summon the Elements](/images/projects/superpawer.webp)GamePalm Arcana, Summon the ElementsOpen your palms to the webcam and computer vision turns your gestures into real magic, the left palm throws a fireball, the right crackles with lightning. A wild blend of hand-tracking AI, creative coding and pure imagination, vibe-coded into a playable browser experience.by AarushOpen the live project ↗](https://superpawer.netlify.app)[![LumenFX, AR/VR Photo Effects Studio](/images/projects/lumenfx.webp)Web AppLumenFX, AR/VR Photo Effects StudioUpload a photo and transform it with cinematic filters, AR face effects and the wildest trending edits, the same looks blowing up on TikTok, Reels and Snap, with 240+ one-tap presets. Raayan vibe-coded the whole studio from an idea: prompted the concept, then built the effects engine and gallery UI by hand.by RaayanOpen the live project ↗](https://arvrbadestweb.lovable.app)
 
 ---
 

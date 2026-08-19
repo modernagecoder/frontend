@@ -17,7 +17,7 @@ keywords: ["python tuple", "tuple vs list python", "immutable sequences python",
 
 A **tuple** is an ordered, **immutable** sequence of items. Tuples look similar to lists but are defined using parentheses `()` instead of square brackets `[]`. Once a tuple is created, you cannot add, remove, or change its elements.
 
-Tuples can hold items of any data type — integers, strings, floats, booleans, and even other tuples or lists.
+Tuples can hold items of any data type, integers, strings, floats, booleans, and even other tuples or lists.
 
 ### Creating Tuples
 
@@ -34,7 +34,7 @@ The parentheses are actually optional in most cases. It is the **comma** that ma
 
 ### The Single-Element Tuple Gotcha
 
-This is one of the most common surprises for beginners. Writing `(5)` does NOT create a tuple — it is just the integer 5 in parentheses (like in a math expression). To create a single-element tuple, you must include a trailing comma: `(5,)`.
+This is one of the most common surprises for beginners. Writing `(5)` does NOT create a tuple. It is just the integer 5 in parentheses (like in a math expression). To create a single-element tuple, you must include a trailing comma: `(5,)`.
 
 ```
 not_a_tuple = (5)     # This is just the integer 5
@@ -581,7 +581,7 @@ Tuple immutability means you cannot reassign the references stored in the tuple 
 
 - Tuples are ordered, immutable sequences created with parentheses () or just commas. Once created, their elements cannot be changed, added, or removed.
 - A single-element tuple requires a trailing comma: (5,) is a tuple, (5) is just an integer. This is a very common gotcha.
-- Tuples support indexing, negative indexing, slicing, iteration, len(), and the 'in' operator — same read operations as lists.
+- Tuples support indexing, negative indexing, slicing, iteration, len(), and the 'in' operator, same read operations as lists.
 - Tuples have only two methods: count() and index(). They lack all modifying methods (append, remove, sort, etc.) because they are immutable.
 - Tuple packing (a, b = 10, 20) and unpacking (x, y = tuple_var) are powerful patterns. Variable swapping (a, b = b, a) uses this internally.
 - Tuples can be used as dictionary keys and set elements because they are hashable. Lists cannot because they are mutable.

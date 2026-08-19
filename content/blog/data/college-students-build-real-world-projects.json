@@ -49,7 +49,7 @@
       },
       {
         "type": "paragraph",
-        "text": "Here's a frustrating reality of tech hiring: companies want candidates with experience, but how do you get experience without a job? The answer is projects—real, functional applications that demonstrate you can actually build things, not just pass exams. According to a 2024 Stack Overflow survey, <strong>87% of hiring managers</strong> consider portfolio projects when evaluating entry-level candidates, often weighing them more heavily than GPA."
+        "text": "Here's a frustrating reality of tech hiring: companies want candidates with experience, but how do you get experience without a job? The answer is projects, real, functional applications that demonstrate you can actually build things, not just pass exams. According to a 2024 Stack Overflow survey, <strong>87% of hiring managers</strong> consider portfolio projects when evaluating entry-level candidates, often weighing them more heavily than GPA."
       },
       {
         "type": "paragraph",
@@ -57,7 +57,7 @@
       },
       {
         "type": "paragraph",
-        "text": "But you're also juggling classes, assignments, exams, and maybe a social life. How do you find time to build projects on top of everything else? This comprehensive guide will show you exactly how—with 50+ project ideas organized by difficulty, detailed GitHub strategies, portfolio optimization techniques, and a realistic approach to balancing it all."
+        "text": "But you're also juggling classes, assignments, exams, and maybe a social life. How do you find time to build projects on top of everything else? This comprehensive guide will show you exactly how, with 50+ project ideas organized by difficulty, detailed GitHub strategies, portfolio optimization techniques, and a realistic approach to balancing it all."
       },
       {
         "type": "callout",
@@ -73,7 +73,7 @@
       },
       {
         "type": "paragraph",
-        "text": "Before we dive into the how, let's understand the why. Projects aren't just nice-to-haves—they're increasingly essential for tech careers. In a competitive job market where thousands of graduates have similar degrees, projects are your differentiator."
+        "text": "Before we dive into the how, let's understand the why. Projects aren't just nice-to-haves. They're increasingly essential for tech careers. In a competitive job market where thousands of graduates have similar degrees, projects are your differentiator."
       },
       {
         "type": "heading",
@@ -95,7 +95,7 @@
         "type": "callout",
         "calloutType": "info",
         "title": "Hiring Manager Perspective",
-        "text": "\"When I'm hiring entry-level developers, I look at projects first. A candidate with a 7.5 GPA and three solid projects beats a 9.0 GPA with nothing to show. Projects tell me they can actually do the job.\" — Senior Engineering Manager at a Fortune 500 company"
+        "text": "\"When I'm hiring entry-level developers, I look at projects first. A candidate with a 7.5 GPA and three solid projects beats a 9.0 GPA with nothing to show. Projects tell me they can actually do the job.\": Senior Engineering Manager at a Fortune 500 company"
       },
       {
         "type": "heading",
@@ -228,7 +228,7 @@
         "type": "callout",
         "calloutType": "tip",
         "title": "Beginner Project Tip",
-        "text": "Don't just build these projects—add your own twist. A to-do app with categories, priorities, and due date reminders is more impressive than a basic list. Think about what features would make the app genuinely useful to you."
+        "text": "Don't just build these projects, add your own twist. A to-do app with categories, priorities, and due date reminders is more impressive than a basic list. Think about what features would make the app genuinely useful to you."
       },
       {
         "type": "heading",
@@ -452,10 +452,10 @@
         "type": "list",
         "style": "unordered",
         "items": [
-          "<strong>Professional profile photo:</strong> Use a clear, professional headshot—not a cartoon avatar or group photo",
+          "<strong>Professional profile photo:</strong> Use a clear, professional headshot, not a cartoon avatar or group photo",
           "<strong>Compelling bio:</strong> Include your role (e.g., 'CS Student at XYZ University'), interests, and what you're building",
           "<strong>Location and links:</strong> Add your city, portfolio website, and LinkedIn profile",
-          "<strong>Pinned repositories:</strong> Pin your 4-6 best projects—these are your highlights",
+          "<strong>Pinned repositories:</strong> Pin your 4-6 best projects, these are your highlights",
           "<strong>Profile README:</strong> Create a README.md in a repository named after your username for a custom profile page"
         ]
       },
@@ -596,7 +596,7 @@
       },
       {
         "type": "paragraph",
-        "text": "Each project on your portfolio should tell a story. Don't just list features—explain the journey:"
+        "text": "Each project on your portfolio should tell a story. Don't just list features, explain the journey:"
       },
       {
         "type": "list",
@@ -614,7 +614,7 @@
         "type": "callout",
         "calloutType": "tip",
         "title": "Portfolio Pro Tip",
-        "text": "Add a 'What I Learned' section to each project. This shows self-awareness and growth mindset—qualities employers love. Example: 'This project taught me the importance of database indexing. Initial queries took 3 seconds; after optimization, they took 50ms.'"
+        "text": "Add a 'What I Learned' section to each project. This shows self-awareness and growth mindset, qualities employers love. Example: 'This project taught me the importance of database indexing. Initial queries took 3 seconds; after optimization, they took 50ms.'"
       },
       {
         "type": "heading",
@@ -625,7 +625,7 @@
         "type": "list",
         "style": "unordered",
         "items": [
-          "<strong>Performance:</strong> Your portfolio should load fast—it's a reflection of your skills",
+          "<strong>Performance:</strong> Your portfolio should load fast. It's a reflection of your skills",
           "<strong>Mobile responsive:</strong> Many recruiters browse on phones; test on multiple devices",
           "<strong>Accessibility:</strong> Use semantic HTML, proper contrast, and keyboard navigation",
           "<strong>SEO basics:</strong> Proper meta tags, titles, and descriptions help you get found",
@@ -665,7 +665,7 @@
       },
       {
         "type": "paragraph",
-        "text": "One hour daily for a semester is about 100 hours—enough to build several solid projects. That's the equivalent of 12+ full workdays of focused coding."
+        "text": "One hour daily for a semester is about 100 hours, enough to build several solid projects. That's the equivalent of 12+ full workdays of focused coding."
       },
       {
         "type": "heading",
@@ -804,7 +804,7 @@
       },
       {
         "type": "paragraph",
-        "text": "A project that only runs on your laptop is incomplete. Deployment is a skill, and live projects are far more impressive than local ones. Services like Vercel, Netlify, and Railway make deployment free and easy—there's no excuse not to deploy."
+        "text": "A project that only runs on your laptop is incomplete. Deployment is a skill, and live projects are far more impressive than local ones. Services like Vercel, Netlify, and Railway make deployment free and easy. There's no excuse not to deploy."
       },
       {
         "type": "heading",
@@ -903,7 +903,7 @@
       },
       {
         "type": "quote",
-        "text": "My GitHub was empty until my second year. I started with small projects—a weather app, a to-do list, a portfolio. By graduation, I had 15 repositories and a green contribution graph. Interviewers always asked about my projects, and I had real stories to tell.",
+        "text": "My GitHub was empty until my second year. I started with small projects, a weather app, a to-do list, a portfolio. By graduation, I had 15 repositories and a green contribution graph. Interviewers always asked about my projects, and I had real stories to tell.",
         "author": "Rahul M., Frontend Developer at a product company"
       },
       {
@@ -921,7 +921,7 @@
           },
           {
             "title": "Should I build projects in technologies I'm learning or ones I already know?",
-            "content": "Both. Use familiar technologies to build impressive projects quickly—these become your portfolio highlights. Use new technologies in smaller projects to learn and demonstrate adaptability. Your portfolio should show both competence and learning ability."
+            "content": "Both. Use familiar technologies to build impressive projects quickly, these become your portfolio highlights. Use new technologies in smaller projects to learn and demonstrate adaptability. Your portfolio should show both competence and learning ability."
           },
           {
             "title": "What if my project idea already exists?",
@@ -929,7 +929,7 @@
           },
           {
             "title": "How do I come up with original project ideas?",
-            "content": "Look at problems in your daily life. What frustrates you? What could be automated? What tools do you wish existed? The best projects solve real problems you personally experience. Also, talk to friends and family about their pain points—you might find inspiration there."
+            "content": "Look at problems in your daily life. What frustrates you? What could be automated? What tools do you wish existed? The best projects solve real problems you personally experience. Also, talk to friends and family about their pain points. You might find inspiration there."
           },
           {
             "title": "Should I include college assignments in my portfolio?",
@@ -941,19 +941,19 @@
           },
           {
             "title": "What's the best tech stack for portfolio projects?",
-            "content": "There's no single 'best' stack—it depends on your career goals. For web development, React/Next.js with Node.js is popular. For data science, Python with Flask/FastAPI works well. Choose technologies that are in demand for your target roles and that you enjoy working with."
+            "content": "There's no single 'best' stack. It depends on your career goals. For web development, React/Next.js with Node.js is popular. For data science, Python with Flask/FastAPI works well. Choose technologies that are in demand for your target roles and that you enjoy working with."
           },
           {
             "title": "How do I balance project work with academics?",
-            "content": "Start small—even 30 minutes daily adds up. Align projects with coursework when possible. Use breaks strategically for bigger projects. Remember that projects are an investment in your career, not a distraction from it. Many employers value projects as much as grades."
+            "content": "Start small, even 30 minutes daily adds up. Align projects with coursework when possible. Use breaks strategically for bigger projects. Remember that projects are an investment in your career, not a distraction from it. Many employers value projects as much as grades."
           },
           {
             "title": "Should I contribute to open source or build my own projects?",
-            "content": "Both have value. Your own projects show you can build from scratch and make decisions. Open source contributions show you can work with existing codebases and collaborate. Ideally, do both—start with your own projects, then contribute to open source as you gain confidence."
+            "content": "Both have value. Your own projects show you can build from scratch and make decisions. Open source contributions show you can work with existing codebases and collaborate. Ideally, do both. Start with your own projects, then contribute to open source as you gain confidence."
           },
           {
             "title": "How do I make my projects stand out from others?",
-            "content": "Focus on polish and documentation. Add features that solve real problems. Include thoughtful design and good UX. Write excellent READMEs with screenshots and demos. Most importantly, be able to articulate why you built it and what you learned—that story is what makes you memorable."
+            "content": "Focus on polish and documentation. Add features that solve real problems. Include thoughtful design and good UX. Write excellent READMEs with screenshots and demos. Most importantly, be able to articulate why you built it and what you learned. That story is what makes you memorable."
           }
         ]
       },
@@ -980,17 +980,17 @@
       },
       {
         "type": "paragraph",
-        "text": "Start small, stay consistent, and focus on finishing. One completed project is worth more than five abandoned ones. Use your college resources, collaborate with peers, and don't wait for the 'perfect' idea—start building now."
+        "text": "Start small, stay consistent, and focus on finishing. One completed project is worth more than five abandoned ones. Use your college resources, collaborate with peers, and don't wait for the 'perfect' idea. Start building now."
       },
       {
         "type": "paragraph",
-        "text": "Your future self—the one landing great internships and job offers—will thank you for the projects you build today. The best time to start was yesterday. The second best time is now."
+        "text": "Your future self, the one landing great internships and job offers, will thank you for the projects you build today. The best time to start was yesterday. The second best time is now."
       },
       {
         "type": "callout",
         "calloutType": "success",
         "title": "Start Today",
-        "text": "Pick one project idea from this article. Set up a GitHub repository. Write the first line of code. The journey of a thousand projects begins with a single commit. Don't overthink it—just start."
+        "text": "Pick one project idea from this article. Set up a GitHub repository. Write the first line of code. The journey of a thousand projects begins with a single commit. Don't overthink it, just start."
       },
       {
         "type": "button",

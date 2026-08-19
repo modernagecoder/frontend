@@ -52,7 +52,7 @@ A frontend engineer writing a dashboard for Aarav does not care that `active_cus
 
 ### 2. Security via Column and Row Filtering
 
-You can grant a read-only analyst access to a view that exposes only five columns out of a 30-column `employees` table — no salary, no Aadhaar, no manager notes. The underlying table remains inaccessible. This is how production systems keep PII away from BI tools.
+You can grant a read-only analyst access to a view that exposes only five columns out of a 30-column `employees` table, no salary, no Aadhaar, no manager notes. The underlying table remains inaccessible. This is how production systems keep PII away from BI tools.
 
 ### 3. Atomic, Reusable Business Logic
 
@@ -274,7 +274,7 @@ END LOOP my_loop;
 
 ### 9. Cursors: Row-by-Row Processing
 
-A cursor lets you iterate over a result set one row at a time. Use them sparingly — a set-based UPDATE is usually 100x faster than a cursor loop. Cursors make sense when each row requires a distinct side effect (sending an email, calling another procedure).
+A cursor lets you iterate over a result set one row at a time. Use them sparingly, a set-based UPDATE is usually 100x faster than a cursor loop. Cursors make sense when each row requires a distinct side effect (sending an email, calling another procedure).
 
 ```
 DELIMITER $$
@@ -304,7 +304,7 @@ END$$
 DELIMITER ;
 ```
 
-The `CONTINUE HANDLER FOR NOT FOUND` sets the `done` flag when the cursor runs out of rows — this is the standard idiom.
+The `CONTINUE HANDLER FOR NOT FOUND` sets the `done` flag when the cursor runs out of rows. This is the standard idiom.
 
 ### 10. User-Defined Functions
 
@@ -354,7 +354,7 @@ DROP VIEW      IF EXISTS active_customers;
 
 ### 13. SQL SECURITY: DEFINER vs INVOKER
 
-By default a procedure runs with the privileges of the user who defined it (`SQL SECURITY DEFINER`). This lets you grant CALL permission to users who do not have direct access to the underlying tables — a common security pattern. Use `SQL SECURITY INVOKER` to run with the caller's privileges instead.
+By default a procedure runs with the privileges of the user who defined it (`SQL SECURITY DEFINER`). This lets you grant CALL permission to users who do not have direct access to the underlying tables, a common security pattern. Use `SQL SECURITY INVOKER` to run with the caller's privileges instead.
 
 ```
 CREATE PROCEDURE view_salary(IN emp_id INT)
@@ -442,7 +442,7 @@ VALUES (4, 500.00, 'WEST');
 SELECT * FROM west_orders;
 ```
 
-`WITH CHECK OPTION` tells MySQL that every INSERT/UPDATE through the view must produce a row that still passes the view's WHERE clause. Without it, you could insert an EAST row through `west_orders` — the row would land in the base table but disappear from the view, which almost always indicates a bug.
+`WITH CHECK OPTION` tells MySQL that every INSERT/UPDATE through the view must produce a row that still passes the view's WHERE clause. Without it, you could insert an EAST row through `west_orders`, the row would land in the base table but disappear from the view, which almost always indicates a bug.
 
 **Output:**
 
@@ -502,7 +502,7 @@ CALL transfer_money(101, 102, 1500.00);
 SELECT * FROM accounts;
 ```
 
-The procedure wraps debit + credit in a transaction. `SELECT ... FOR UPDATE` locks the source account so no concurrent transfer can cause an overdraft. If the balance is insufficient, `SIGNAL` raises a user-defined error — the exact mechanism applications catch. This is the textbook "atomic transfer" — it either fully succeeds or fully rolls back.
+The procedure wraps debit + credit in a transaction. `SELECT ... FOR UPDATE` locks the source account so no concurrent transfer can cause an overdraft. If the balance is insufficient, `SIGNAL` raises a user-defined error, the exact mechanism applications catch. This is the textbook "atomic transfer", it either fully succeeds or fully rolls back.
 
 **Output:**
 
@@ -624,7 +624,7 @@ SELECT name, price, gst_rate,
 FROM products;
 ```
 
-Because `gst` is a function, it can appear anywhere an expression can — SELECT list, WHERE, ORDER BY, HAVING. `DETERMINISTIC` tells MySQL that the function is a pure computation, which is required for binary-log-based replication and lets the optimiser cache calls.
+Because `gst` is a function, it can appear anywhere an expression can: SELECT list, WHERE, ORDER BY, HAVING. `DETERMINISTIC` tells MySQL that the function is a pure computation, which is required for binary-log-based replication and lets the optimiser cache calls.
 
 **Output:**
 
@@ -731,7 +731,7 @@ DELIMITER ;
 CALL greet();
 ```
 
-The MySQL client ends every statement on a semicolon. A procedure body has internal semicolons, so you must change the delimiter to something like `$$` for the duration of the CREATE statement and change it back afterwards. This is purely a client concern — the server does not care — but forgetting it is the single most common mistake.
+The MySQL client ends every statement on a semicolon. A procedure body has internal semicolons, so you must change the delimiter to something like `$$` for the duration of the CREATE statement and change it back afterwards. This is purely a client concern, the server does not care, but forgetting it is the single most common mistake.
 
 ### Trying to UPDATE a Non-Updatable View
 
@@ -793,7 +793,7 @@ END$$
 DELIMITER ;
 ```
 
-MySQL requires every `DECLARE` to appear at the top of its BEGIN...END block, before any executable statement. Nest a new BEGIN...END if you need to declare a variable later. Also note: user variables like `@x` do not need DECLARE — they are session-scoped. Only local variables (no `@`) require DECLARE.
+MySQL requires every `DECLARE` to appear at the top of its BEGIN...END block, before any executable statement. Nest a new BEGIN...END if you need to declare a variable later. Also note: user variables like `@x` do not need DECLARE. They are session-scoped. Only local variables (no `@`) require DECLARE.
 
 ### Cursor Without a NOT FOUND Handler (Infinite Loop or Error)
 
@@ -876,15 +876,15 @@ When binary logging is on (which it is on nearly every production server because
 
 ## Summary
 
-- A view is a named SELECT that behaves like a virtual table. It stores no rows — every query re-runs the underlying SELECT through view merging. Views hide complexity, expose only safe columns, and give BI tools a stable interface while the schema evolves.
+- A view is a named SELECT that behaves like a virtual table. It stores no rows, every query re-runs the underlying SELECT through view merging. Views hide complexity, expose only safe columns, and give BI tools a stable interface while the schema evolves.
 - Views are updatable (INSERT/UPDATE/DELETE pass through to the base table) only when MySQL can map each view row to one base-table row. Aggregation, DISTINCT, UNION, subqueries in SELECT, joins, and window functions all make a view read-only.
-- WITH CHECK OPTION forces every INSERT/UPDATE through the view to produce a row that still matches the view's WHERE clause. Without it, you can insert rows that immediately disappear from the view — almost always a bug.
+- WITH CHECK OPTION forces every INSERT/UPDATE through the view to produce a row that still matches the view's WHERE clause. Without it, you can insert rows that immediately disappear from the view, almost always a bug.
 - MySQL has no native materialized views. The standard workaround is a real table plus a stored procedure that rebuilds it, scheduled via an event (hourly, nightly). Trade freshness for read speed.
 - Stored procedures are named blocks of SQL with parameters (IN, OUT, INOUT), local variables (DECLARE), and control flow (IF, CASE, WHILE, REPEAT, LOOP). Call them with CALL proc_name(args). Define with DELIMITER $$ ... END$$ to survive internal semicolons.
 - IN passes values in, OUT returns a value to the caller (use @var to receive), INOUT does both. Use SELECT ... INTO to assign scalar query results into procedure variables.
-- Cursors iterate a result set row by row. Always pair a cursor with a CONTINUE HANDLER FOR NOT FOUND that sets a done flag, and LEAVE the loop when done = 1. Prefer set-based SQL whenever possible — cursors are 10-100x slower.
+- Cursors iterate a result set row by row. Always pair a cursor with a CONTINUE HANDLER FOR NOT FOUND that sets a done flag, and LEAVE the loop when done = 1. Prefer set-based SQL whenever possible, cursors are 10-100x slower.
 - Functions return exactly one value and are callable from any SELECT, WHERE, or ORDER BY. Procedures can return multiple result sets via OUT or inline SELECTs but must be invoked with CALL.
-- Binary logging (on by default in production) requires every function to declare DETERMINISTIC, NO SQL, READS SQL DATA, or MODIFIES SQL DATA. Label accurately — lying about determinism breaks replication.
+- Binary logging (on by default in production) requires every function to declare DETERMINISTIC, NO SQL, READS SQL DATA, or MODIFIES SQL DATA. Label accurately, lying about determinism breaks replication.
 - SQL SECURITY DEFINER (the default) runs procedures with the defining user's privileges, which is how you grant CALL access to users who cannot read the underlying tables directly. Use INVOKER when you want caller-based checks.
 
 ## Related Topics

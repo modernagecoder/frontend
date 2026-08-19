@@ -1,5 +1,5 @@
 ---
-title: "Hackathon 1.0 Guide (June 2026) — How It Worked, 3 Rounds, Rules & What to Build | Modern Age Coders"
+title: "Hackathon 1.0 Guide (June 2026): How It Worked, 3 Rounds, Rules & What to Build | Modern Age Coders"
 description: "The participant guide to Modern Age Coders Hackathon 1.0, held June 2026: how all 3 rounds worked (idea pitch, 48-hour build sprint, grand finale), what to build, submission rules, judging criteria, allowed AI tools, eligibility and prizes. That edition has finished; this guide stays up as the format reference."
 canonical: https://learn.modernagecoders.com/hackathon-guide
 source: src/pages/hackathon-guide.html
@@ -10,9 +10,9 @@ OverviewJourneyRoundsWhat to buildJudgingRulesFAQ[Event page](/hackathon)****Wha
 
 ## A build-anything hackathon to solve a real problem
 
-Modern Age Coders Hackathon 1.0 was a fully online, worldwide hackathon open to **everyone — any age, any country, any skill level**. It ran in June 2026 and has finished. Participants registered as individuals and could form a team of up to four once the build round began. This guide stays up as the reference for how the format works.
+Modern Age Coders Hackathon 1.0 was a fully online, worldwide hackathon open to **everyone, any age, any country, any skill level**. It ran in June 2026 and has finished. Participants registered as individuals and could form a team of up to four once the build round began. This guide stays up as the reference for how the format works.
 
-The single goal: **build a working solution to a real-life problem**. Not a copy of an existing app, not a slide deck — a real thing that works and helps real people. You'll move through three rounds, and the top 10 builders share a **₹30,000 prize pool**. You can use **any AI tool, agent or IDE** you like — we're looking for the world's best *builder*, not the fastest typist.
+The single goal: **build a working solution to a real-life problem**. Not a copy of an existing app, not a slide deck, a real thing that works and helps real people. You'll move through three rounds, and the top 10 builders share a **₹30,000 prize pool**. You can use **any AI tool, agent or IDE** you like. We're looking for the world's best *builder*, not the fastest typist.
 
 New to hackathons? Don't worry. This guide walks you through every single step.
 
@@ -32,23 +32,23 @@ Participants signed up individually and paid the entry fee (₹500 in India / $1
 
 #### Join your WhatsApp group
 
-Right after payment you'll be asked to create a WhatsApp group named **"Hackathon {Your Name}"** and add **+91 91233 66161**. **This is your lifeline** — every announcement, idea review, schedule and result is shared in your group.
+Right after payment you'll be asked to create a WhatsApp group named **"Hackathon {Your Name}"** and add **+91 91233 66161**. **This is your lifeline**, every announcement, idea review, schedule and result is shared in your group.
 
 3
 
-#### Round 1 — pitch your idea
+#### Round 1: pitch your idea
 
 Submit the real-life problem you'll solve and your plan (**7–8 June**). Our panel shortlists the strongest ideas to move forward.
 
 4
 
-#### Round 2 — build it (48 hours)
+#### Round 2: build it (48 hours)
 
 The clock starts. Build a working solution in 48 hours (**9–11 June**), solo or with your team, using any tools. Submit your project, demo video and code link.
 
 5
 
-#### Round 3 — demo live
+#### Round 3: demo live
 
 Finalists present their build live to the judges and answer questions (**12–13 June**).
 
@@ -56,7 +56,7 @@ Finalists present their build live to the judges and answer questions (**12–13
 
 #### Win
 
-Judges score every finalist, the **top 10 are announced**, and prizes + certificates go out. That's it — you're a Hackathon 1.0 builder.
+Judges score every finalist, the **top 10 are announced**, and prizes + certificates go out. That's it. You're a Hackathon 1.0 builder.
 
 ****The 3 rounds in detail
 
@@ -68,7 +68,7 @@ Round 1 · Screening7–8 June 2026 · Online
 
 ### Idea & Problem Pitch
 
-This round is about **what you'll build and why it matters** — not code yet. You pick a real-life problem and explain how you'll solve it. Our panel reviews every entry and shortlists the strongest, most impactful ideas to advance to the build round.
+This round is about **what you'll build and why it matters**, not code yet. You pick a real-life problem and explain how you'll solve it. Our panel reviews every entry and shortlists the strongest, most impactful ideas to advance to the build round.
 
 ##### What you do
 
@@ -96,7 +96,7 @@ This is the heart of the hackathon. The clock starts and you have **48 hours to 
 
 - Build a working prototype / MVP of your idea.
 - Collaborate with your team (up to 4 total).
-- Use any tools — AI assistants, agents, IDEs, no-code.
+- Use any tools: AI assistants, agents, IDEs, no-code.
 - Keep it focused: working > perfect.
 
 ##### What you submit
@@ -128,7 +128,7 @@ The finalists present. You'll **demo your build live to the judges**, walk them 
 - Lead with the problem, then the "wow" moment.
 - Be ready to explain your tech choices.
 
-**Tip:** tell a story — "here's the problem, here's how bad it is, watch my solution fix it". Judges remember stories, not feature lists.
+**Tip:** tell a story, "here's the problem, here's how bad it is, watch my solution fix it". Judges remember stories, not feature lists.
 
 ****What to build
 
@@ -162,7 +162,7 @@ A real problem that fits no box. Surprise us.
 
 ### What makes a strong project
 
-- **Real problem:** something people genuinely struggle with — not invented.
+- **Real problem:** something people genuinely struggle with, not invented.
 - **It works:** a judge can click/use it and see it do the job.
 - **Clear value:** in one sentence, who is helped and how.
 - **Focused:** one strong feature beats many broken ones.
@@ -171,34 +171,34 @@ A real problem that fits no box. Surprise us.
 
 ## Use anything to build
 
-This is an **AI-friendly hackathon**. Every AI tool, autonomous agent and AI-native IDE is allowed and encouraged: **Cursor, Windsurf, GitHub Copilot, Claude Code, ChatGPT, Gemini, v0, Bolt, Lovable, Replit Agent, Devin, Kiro, Antigravity** — and anything else. No-code and low-code tools are fine too. We want to find the best *builder*, by any means.
+This is an **AI-friendly hackathon**. Every AI tool, autonomous agent and AI-native IDE is allowed and encouraged: **Cursor, Windsurf, GitHub Copilot, Claude Code, ChatGPT, Gemini, v0, Bolt, Lovable, Replit Agent, Devin, Kiro, Antigravity**, and anything else. No-code and low-code tools are fine too. We want to find the best *builder*, by any means.
 
 A few fair-play expectations:
 
 - The **core build happens during Round 2** (the 48-hour sprint). Planning & design before is fine.
-- The project should be **your own work** — don't submit someone else's existing project as yours.
-- Be ready to **explain how it works** in Round 3. If you used AI to build it, that's great — just understand what you shipped.
+- The project should be **your own work**, don't submit someone else's existing project as yours.
+- Be ready to **explain how it works** in Round 3. If you used AI to build it, that's great, just understand what you shipped.
 - Respect licences and other people's data & privacy.
 
 ****Submission checklist
 
 ## What to hand in
 
-##### Round 1 — idea
+##### Round 1, idea
 
 - Problem statement (who + why).
 - Your solution & approach.
 - Planned tools/tech.
 - Solo or team names.
 
-##### Round 2 — build
+##### Round 2, build
 
 - Working project (live link / app).
 - 2–3 min demo video.
 - Code or build link (GitHub etc.).
 - Short description (3–5 lines).
 
-All submissions are made through the link shared in **your WhatsApp group**. Submit before each round's deadline — late entries can't be accepted because the schedule is tight.
+All submissions are made through the link shared in **your WhatsApp group**. Submit before each round's deadline, late entries can't be accepted because the schedule is tight.
 
 ****How you're scored
 
@@ -236,7 +236,7 @@ How clearly you pitch, demo and defend it in the finale.
 
 ### Who can join
 
-- **Anyone, worldwide** — any age, any country, any experience level.
+- **Anyone, worldwide**, any age, any country, any experience level.
 - You don't have to be a Modern Age Coders student.
 - **Registration is individual** (₹500 / $10). You can team up (up to 4) during the build round.
 
@@ -258,7 +258,7 @@ How clearly you pitch, demo and defend it in the finale.
 - Register multiple times to game prizes.
 - Spam or harass others in the group.
 
-Judges' decisions are final. Organisers may update the schedule if needed — any changes are announced in your WhatsApp group.
+Judges' decisions are final. Organisers may update the schedule if needed, any changes are announced in your WhatsApp group.
 
 ****The rewards
 
@@ -272,15 +272,15 @@ Rank 1₹6,000Rank 2₹5,000Rank 3₹4,000Rank 4₹3,000Rank 5₹2,000Rank 6₹2
 
 - **→ 6 June 2026:** Registrations were open (₹500 / $10).
 - **6 June 2026, 11:59 PM IST:** Registrations closed.
-- **7–8 June 2026:** Round 1 — idea & problem pitch; shortlist announced.
-- **9–11 June 2026:** Round 2 — 48-hour build sprint & submission.
-- **12–13 June 2026:** Round 3 — grand finale, live demos & winners.
+- **7–8 June 2026:** Round 1, idea & problem pitch; shortlist announced.
+- **9–11 June 2026:** Round 2, 48-hour build sprint & submission.
+- **12–13 June 2026:** Round 3, grand finale, live demos & winners.
 
 ****Questions
 
 ## Frequently asked
 
-What exactly do I have to do?Register → join your WhatsApp group → Round 1 (pitch a real problem) → Round 2 (build it in 48 hours) → Round 3 (demo live to judges). This guide explains each step above.Do I need to know how to code?Helpful, but not required. Any AI tool, agent, IDE or no-code tool is allowed — what matters is shipping a working solution to a real problem. Beginners are welcome and can win.Do I have to build the project during the hackathon?Yes — the core build happens during the Round 2 sprint (9–11 June). You can plan and design beforehand, but the working build is created during the event.Can I take part solo?Absolutely. Registration is individual. If you'd like to collaborate, you can form a team of up to 4 during the build round.Where do I submit my work?Through the link shared in your WhatsApp group for each round. Make sure you've created your group ("Hackathon {Your Name}") and added +91 91233 66161.What does it cost?₹500 for participants in India, $10 USD internationally — a one-time individual registration fee.How and when are winners announced?After the live finale on 12–13 June 2026. Judges score all finalists on impact, innovation, execution and presentation; the top 10 are announced and prizes + certificates are sent out.****Edition 1.0 · finished
+What exactly do I have to do?Register → join your WhatsApp group → Round 1 (pitch a real problem) → Round 2 (build it in 48 hours) → Round 3 (demo live to judges). This guide explains each step above.Do I need to know how to code?Helpful, but not required. Any AI tool, agent, IDE or no-code tool is allowed, what matters is shipping a working solution to a real problem. Beginners are welcome and can win.Do I have to build the project during the hackathon?Yes, the core build happens during the Round 2 sprint (9–11 June). You can plan and design beforehand, but the working build is created during the event.Can I take part solo?Absolutely. Registration is individual. If you'd like to collaborate, you can form a team of up to 4 during the build round.Where do I submit my work?Through the link shared in your WhatsApp group for each round. Make sure you've created your group ("Hackathon {Your Name}") and added +91 91233 66161.What does it cost?₹500 for participants in India, $10 USD internationally, a one-time individual registration fee.How and when are winners announced?After the live finale on 12–13 June 2026. Judges score all finalists on impact, innovation, execution and presentation; the top 10 are announced and prizes + certificates are sent out.****Edition 1.0 · finished
 
 ## Now you know how it worked. Want in on the next one?
 
@@ -296,7 +296,7 @@ Real student projects
 
 Every one is a real, live project shipped by a Modern Age Coders student. Explore more in [Student Labs](/student-labs).
 
-[![BookDesk — AI Book Summaries & Quizzes](/images/projects/bookdesk.webp)AI & MLBookDesk — AI Book Summaries & QuizzesType in any book name and author, and BookDesk pulls together the book's details, a clear summary and a custom quiz to test what you've learned — a genuinely useful study companion. Anika built it as a full-stack AI application, powered by Google Gemini with a live database behind it.by AnikaOpen the live project ↗](https://bookdesk1.netlify.app)[![HairSync — AI Hairstyle Try-On](/images/projects/hairsync.webp)AI & MLHairSync — AI Hairstyle Try-OnUpload a clear photo and try on any hairstyle before you commit — wolf cuts, curtain bangs, fades, braids and dozens of trending looks, rendered onto your own face by AI in seconds. Kriti vibe-coded this virtual try-on studio from a single idea into a working app.by KritiOpen the live project ↗](https://hairsync.lovable.app)[![SkyCast — Weather Forecast App](/images/projects/skycast.webp)Web AppSkyCast — Weather Forecast AppAn interactive weather forecasting site with real-time updates for any location — temperature, humidity, wind speed and conditions in a clean, responsive interface.by KrishOpen the live project ↗](https://krish-shroff.github.io/AuraWeatherTech/)
+[![BookDesk, AI Book Summaries & Quizzes](/images/projects/bookdesk.webp)AI & MLBookDesk, AI Book Summaries & QuizzesType in any book name and author, and BookDesk pulls together the book's details, a clear summary and a custom quiz to test what you've learned, a genuinely useful study companion. Anika built it as a full-stack AI application, powered by Google Gemini with a live database behind it.by AnikaOpen the live project ↗](https://bookdesk1.netlify.app)[![HairSync, AI Hairstyle Try-On](/images/projects/hairsync.webp)AI & MLHairSync, AI Hairstyle Try-OnUpload a clear photo and try on any hairstyle before you commit, wolf cuts, curtain bangs, fades, braids and dozens of trending looks, rendered onto your own face by AI in seconds. Kriti vibe-coded this virtual try-on studio from a single idea into a working app.by KritiOpen the live project ↗](https://hairsync.lovable.app)[![SkyCast, Weather Forecast App](/images/projects/skycast.webp)Web AppSkyCast, Weather Forecast AppAn interactive weather forecasting site with real-time updates for any location, temperature, humidity, wind speed and conditions in a clean, responsive interface.by KrishOpen the live project ↗](https://krish-shroff.github.io/AuraWeatherTech/)
 
 Parent & student voices
 

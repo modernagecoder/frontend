@@ -1,7 +1,7 @@
 /* =====================================================================
-   Courses catalog — editorial reskin  ·  "The Course Atlas"
+   Courses catalog, editorial reskin  ·  "The Course Atlas"
    Pairs with editorial-theme.css. Cards are JS-rendered (coursesData +
-   generateCourseCard) — this targets the generated classes; JS untouched.
+   generateCourseCard). This targets the generated classes; JS untouched.
    ===================================================================== */
 
 /* retire the purple particle canvas (graph-paper backdrop instead) */
@@ -91,7 +91,7 @@ body.editorial .compact-search input{border:none;background:none;outline:none;bo
 .course-card-minimal::before{content:"";display:block;height:3px;background:var(--amber);transform:scaleX(0);transform-origin:left;transition:transform .3s}
 .course-card-minimal:hover{transform:translateY(-5px);box-shadow:var(--shadow-md);border-color:rgba(180,83,9,.4)}
 .course-card-minimal:hover::before{transform:scaleX(1)}
-/* thumbnail — uniform 16:9 frame, cover-cropped so every card aligns */
+/* thumbnail, uniform 16:9 frame, cover-cropped so every card aligns */
 .course-image-container{display:block;aspect-ratio:16/9;overflow:hidden;background:var(--paper-2);border-bottom:1px solid var(--line)}
 .course-image{width:100%;height:100%;object-fit:cover;display:block;transition:transform .4s ease}
 .course-card-minimal:hover .course-image{transform:scale(1.04)}
@@ -106,7 +106,7 @@ body.editorial .compact-search input{border:none;background:none;outline:none;bo
 .start-learning-btn .btn-arrow{width:16px;height:16px;transition:transform .2s}
 .start-learning-btn:hover .btn-arrow{transform:translateX(3px)}
 
-/* hackathon cards — amber-accented, on-brand */
+/* hackathon cards, amber-accented, on-brand */
 .course-card-minimal.hackathon-card{border:1.5px solid var(--amber);box-shadow:0 24px 50px -30px rgba(180,83,9,.5)}
 .hackathon-card::before{display:none}
 .hackathon-ribbon{display:flex;align-items:center;justify-content:center;gap:.5rem;background:var(--amber);color:#fff;font-family:var(--font-mono);font-size:.72rem;font-weight:700;letter-spacing:.04em;padding:.5rem 1rem}

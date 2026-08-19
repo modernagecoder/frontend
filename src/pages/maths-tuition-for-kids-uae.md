@@ -1,22 +1,22 @@
 ---
-title: "Maths Tuition for Kids in the UAE · 1:1 Online Primary Maths — Modern Age Coders"
-description: "Live 1:1 online maths tuition for children in the UAE, ages 5–11, across British, American, IB and CBSE primary schools. We teach why the maths works — number sense, times tables, fractions — not rote. Gulf Standard Time. Priced for your country."
+title: "Maths Tuition for Kids in the UAE · 1:1 Online Primary Maths | Modern Age Coders"
+description: "Live 1:1 online maths tuition for children in the UAE, ages 5–11, across British, American, IB and CBSE primary schools. We teach why the maths works, number sense, times tables, fractions, not rote. Gulf Standard Time. Priced for your country."
 canonical: https://learn.modernagecoders.com/maths-tuition-for-kids-uae
 source: src/pages/maths-tuition-for-kids-uae.html
 ---
-> Live 1:1 online maths tuition for children in the UAE, ages 5–11, across British, American, IB and CBSE primary schools. We teach why the maths works — number sense, times tables, fractions — not rote. Gulf Standard Time. Priced for your country.
+> Live 1:1 online maths tuition for children in the UAE, ages 5–11, across British, American, IB and CBSE primary schools. We teach why the maths works, number sense, times tables, fractions, not rote. Gulf Standard Time. Priced for your country.
 
 In short
 
 **Modern Age Coders offers live one-to-one online maths tuition for children across the UAE, ages 5–11**, matched to their British, American, IB (PYP) or CBSE primary curriculum.
 
-We teach the reasoning behind the maths — number sense, times tables, fractions — so it sticks, with the same patient tutor each lesson. Pricing is **USD 150 per month** for eight 1:1 lessons, lessons run in Gulf Standard Time, and the first lesson is free.
+We teach the reasoning behind the maths, number sense, times tables, fractions, so it sticks, with the same patient tutor each lesson. Pricing is **USD 150 per month** for eight 1:1 lessons, lessons run in Gulf Standard Time, and the first lesson is free.
 
 Why so many UAE children stall in primary maths
 
-## Most children don't dislike maths — they dislike being hurried past the bit that would make it make sense.
+## Most children don't dislike maths: they dislike being hurried past the bit that would make it make sense.
 
-A child is shown a method for fractions, it works on the worksheet, and the class — large and fast-moving, as UAE classes often are — moves on. But the child has no idea what actually happened, so a year later the method collapses inside a bigger problem and takes their confidence with it.
+A child is shown a method for fractions, it works on the worksheet, and the class, large and fast-moving, as UAE classes often are, moves on. But the child has no idea what actually happened, so a year later the method collapses inside a bigger problem and takes their confidence with it.
 
 This is how a curious six-year-old slowly becomes a ten-year-old who announces they're "no good at maths". It's almost never true. What broke was the explanation, not the child.
 
@@ -44,7 +44,7 @@ A child who can say *why* in their own words truly owns the idea. We ask "how do
 
 ### Practise, then connect forward
 
-Once the reasoning is solid we build fluency, then show where the idea leads next — so nothing feels like a dead end.
+Once the reasoning is solid we build fluency, then show where the idea leads next, so nothing feels like a dead end.
 
 See it for yourself
 
@@ -52,13 +52,13 @@ See it for yourself
 
 Worked example · primary maths
 
-**What often happens:** a child learns 3 × 4 and 4 × 3 as two separate facts to memorise, doubling how much there is to learn — and panics when they remember one but not the other.
+**What often happens:** a child learns 3 × 4 and 4 × 3 as two separate facts to memorise, doubling how much there is to learn, and panics when they remember one but not the other.
 
-**How we do it.** We draw a grid of dots: 3 rows of 4. Then we simply look at the same grid sideways — now it's 4 rows of 3. The dots never moved; only the way we read them changed:
+**How we do it.** We draw a grid of dots: 3 rows of 4. Then we simply look at the same grid sideways, now it's 4 rows of 3. The dots never moved; only the way we read them changed:
 
 3 rows of 4: •••• / •••• / •••• = 12turn it sideways → 4 rows of 3: ••• / ••• / ••• / ••• = 12same dots, same total → 3 × 4 = 4 × 3 = **12**
 
-Once a child sees that multiplication is just "rows of dots" — and that turning the grid can't change how many dots there are — they realise every times-table fact comes with a free twin. That halves what they need to memorise and, more importantly, shows them maths has reasons. This is how we teach everything: not a fact to store, but a picture that makes the fact obvious.
+Once a child sees that multiplication is just "rows of dots", and that turning the grid can't change how many dots there are, they realise every times-table fact comes with a free twin. That halves what they need to memorise and, more importantly, shows them maths has reasons. This is how we teach everything: not a fact to store, but a picture that makes the fact obvious.
 
 Why a coding school teaches maths
 
@@ -76,17 +76,17 @@ Noticing that 3, 6, 9, 12 jumps by three is the same instinct that lets a coder 
 
 "Does this answer make sense?" is debugging. We teach children to test their thinking, not just trust the first number.
 
-We're Modern Age Coders. In a UAE building its future around technology and AI, a child who learns maths as reasoning — not recipes — is getting the head start that matters most. Maths is where that thinking begins.
+We're Modern Age Coders. In a UAE building its future around technology and AI, a child who learns maths as reasoning, not recipes, is getting the head start that matters most. Maths is where that thinking begins.
 
 What we cover
 
 ## The whole primary path, for every UAE curriculum.
 
-Matched to your child's school — British, American, IB PYP or CBSE — always taught for understanding.
+Matched to your child's school, British, American, IB PYP or CBSE, always taught for understanding.
 
 ### Number & place value
 
-Counting, reading and writing numbers, what each digit means, comparing and ordering — the bedrock for everything else.
+Counting, reading and writing numbers, what each digit means, comparing and ordering, the bedrock for everything else.
 
 ### The four operations
 
@@ -110,11 +110,11 @@ Staying calm with a hard question, showing working clearly, and treating a wrong
 
 Who this is for
 
-## The right fit — and an honest word on what to expect.
+## The right fit: and an honest word on what to expect.
 
 **This fits** the primary child who's bored and ahead, the one quietly slipping behind, the child anxious about maths, and any child who deserves better than another worksheet. We teach across the whole range and every UAE curriculum.
 
-**What changes, honestly.** In the first few weeks, parents most often notice their child stops dreading maths. Real fluency builds over a term of steady, twice-weekly lessons — not overnight. We won't promise a miracle in a fortnight, because understanding isn't built that way.
+**What changes, honestly.** In the first few weeks, parents most often notice their child stops dreading maths. Real fluency builds over a term of steady, twice-weekly lessons, not overnight. We won't promise a miracle in a fortnight, because understanding isn't built that way.
 
 ### What we won't do
 
@@ -175,7 +175,7 @@ Who teaches your child
 
 Everyone we take on has to know primary maths deeply enough to explain it three different ways, and stay genuinely kind when a child is stuck for the fourth time. We test for both, then match each family with a tutor who fits the child and their curriculum.
 
-Your child keeps the same tutor, so trust builds — and a child who trusts their tutor will say "I don't get it", which is where every breakthrough begins.
+Your child keeps the same tutor, so trust builds, and a child who trusts their tutor will say "I don't get it", which is where every breakthrough begins.
 
 "My child Dhairya is really enjoying the classes. This is his first online class, and he eagerly looks forward to it. I can see his improvement."
 
@@ -189,7 +189,7 @@ An honest comparison
 
 | What matters | Modern Age Coders | Maths apps | Tutoring centre |
 | --- | --- | --- | --- |
-| Teaches the reasoning | Always | Rarely — rewards taps | Varies |
+| Teaches the reasoning | Always | Rarely, rewards taps | Varies |
 | Matched to your curriculum | Yes | Generic | Sometimes |
 | Notices quiet confusion | Yes, live, 1:1 | No | Group-dependent |
 | Same tutor each time | Yes | N/A | Often rotates |
@@ -203,11 +203,11 @@ Questions UAE parents ask
 
 What ages is this maths tuition for?
 
-Children aged 5 to 11 — primary across the UAE's British, American, IB (PYP) and Indian (CBSE/ICSE) schools, placed by understanding.
+Children aged 5 to 11, primary across the UAE's British, American, IB (PYP) and Indian (CBSE/ICSE) schools, placed by understanding.
 
 Does it match my child's curriculum?
 
-Yes — British, American, IB PYP or CBSE, worked from their school's topics, always building the understanding underneath.
+Yes: British, American, IB PYP or CBSE, worked from their school's topics, always building the understanding underneath.
 
 My child says they don't like maths. Can this help?
 
@@ -215,15 +215,15 @@ This is the most common reason families come to us. Patient one-to-one attention
 
 How much does it cost?
 
-USD 150/month for 1:1 — eight live lessons, two a week. Small-group option USD 100/month. No contract.
+USD 150/month for 1:1, eight live lessons, two a week. Small-group option USD 100/month. No contract.
 
 Is the first lesson free?
 
-Yes — no card needed to book.
+Yes, no card needed to book.
 
 Will my child have the same tutor each time?
 
-Yes — one tutor, kept throughout, so trust builds.
+Yes, one tutor, kept throughout, so trust builds.
 
 Are lessons live or recorded?
 
@@ -249,7 +249,7 @@ Real student projects
 
 Every one is a real, live project shipped by a Modern Age Coders student. Explore more in [Student Labs](/student-labs).
 
-[![MyDay — Social Productivity Organizer](/images/projects/myday.webp)Web AppMyDay — Social Productivity OrganizerA beautifully designed productivity platform to organise daily tasks, set goals and stay consistent — with a community feed of others' plans for inspiration.by VedantOpen the live project ↗](https://myday.modernagecoders.com)[![FreshTrack — Food Expiry Tracker](/images/projects/fresh.webp)Web AppFreshTrack — Food Expiry TrackerA smart food-management system to track expiry dates — add, update and delete items while the app checks expiry automatically, online and offline.by TanishOpen the live project ↗](https://freshtrackpro.netlify.app/)[![Pracy — Coding Practice & Quiz Platform](/images/projects/pracy.webp)Web AppPracy — Coding Practice & Quiz PlatformAn all-in-one coding-practice site with interactive challenges, quizzes and score tracking across multiple languages to strengthen logic and problem-solving.by RohanOpen the live project ↗](https://astounding-flan-f18e08.netlify.app/)
+[![MyDay, Social Productivity Organizer](/images/projects/myday.webp)Web AppMyDay, Social Productivity OrganizerA beautifully designed productivity platform to organise daily tasks, set goals and stay consistent, with a community feed of others' plans for inspiration.by VedantOpen the live project ↗](https://myday.modernagecoders.com)[![FreshTrack, Food Expiry Tracker](/images/projects/fresh.webp)Web AppFreshTrack, Food Expiry TrackerA smart food-management system to track expiry dates, add, update and delete items while the app checks expiry automatically, online and offline.by TanishOpen the live project ↗](https://freshtrackpro.netlify.app/)[![Pracy, Coding Practice & Quiz Platform](/images/projects/pracy.webp)Web AppPracy, Coding Practice & Quiz PlatformAn all-in-one coding-practice site with interactive challenges, quizzes and score tracking across multiple languages to strengthen logic and problem-solving.by RohanOpen the live project ↗](https://astounding-flan-f18e08.netlify.app/)
 
 Parent & student voices
 
@@ -259,7 +259,7 @@ Real, verified reviews from Modern Age Coders families. Read hundreds more on ou
 
 ★★★★★
 
-> “Very good classes. Don't worry about coding—they teach the best, especially Shivam sir.”
+> “Very good classes. Don't worry about coding. They teach the best, especially Shivam sir.”
 
 *SShaarav Wadhwa
 Student*

@@ -38,7 +38,7 @@ print(type((5,)))
 **Answer:** ``
 ``
 
-`(5)` is just the integer 5 in parentheses — type is `int`. `(5,)` has a trailing comma, making it a single-element tuple — type is `tuple`.
+`(5)` is just the integer 5 in parentheses, type is `int`. `(5,)` has a trailing comma, making it a single-element tuple, type is `tuple`.
 
 ### Q3. [Easy] What is the output?
 
@@ -160,7 +160,7 @@ print("ab" in t)
 `False`
 `False`
 
-`"b" in t` is True because "b" is an element. `"d" in t` is False. `"ab" in t` is False because "ab" is not an element — the elements are individual strings "a", "b", "c". (Unlike strings, where "ab" in "abc" is True, tuple membership checks for exact element matches.)
+`"b" in t` is True because "b" is an element. `"d" in t` is False. `"ab" in t` is False because "ab" is not an element, the elements are individual strings "a", "b", "c". (Unlike strings, where "ab" in "abc" is True, tuple membership checks for exact element matches.)
 
 ### Q11. [Medium] What is the output?
 
@@ -342,7 +342,7 @@ First, `a, b, c = 10, 20, 30`. Then `c, a, b` evaluates to (30, 10, 20) using th
 
 *Hint:* Think about what property dictionary keys must have.
 
-**Answer:** Dictionary keys must be **hashable** (able to produce a fixed hash value). Tuples are hashable because they are immutable — their content never changes, so their hash value stays constant. Lists are mutable, meaning their content can change, which would invalidate their hash value. Python therefore prohibits using lists as dictionary keys.
+**Answer:** Dictionary keys must be **hashable** (able to produce a fixed hash value). Tuples are hashable because they are immutable, their content never changes, so their hash value stays constant. Lists are mutable, meaning their content can change, which would invalidate their hash value. Python therefore prohibits using lists as dictionary keys.
 
 A dictionary uses hash values to quickly locate keys. If a key's hash changed (because the key was modified), the dictionary would not be able to find it again. Immutable types (int, str, tuple) have stable hash values. Mutable types (list, dict, set) do not. Note: a tuple containing a list is also not hashable.
 
@@ -350,7 +350,7 @@ A dictionary uses hash values to quickly locate keys. If a key's hash changed (b
 
 *Hint:* Think about immutability, dictionary keys, and function return values.
 
-**Answer:** **1. Fixed data:** Coordinates (x, y), RGB colors (255, 128, 0), database records — data that should not change.
+**Answer:** **1. Fixed data:** Coordinates (x, y), RGB colors (255, 128, 0), database records, data that should not change.
 **2. Dictionary keys:** When you need a composite key like (row, col) or (first_name, last_name).
 **3. Function return values:** Functions that return multiple values use tuple packing (return a, b, c). The caller unpacks with x, y, z = func().
 

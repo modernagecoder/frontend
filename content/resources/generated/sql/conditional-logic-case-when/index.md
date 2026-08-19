@@ -15,13 +15,13 @@ keywords: ["sql case when", "sql if else", "sql conditional aggregation", "sql p
 
 ## What Is Conditional Logic in SQL?
 
-SQL is a declarative language — you describe *what* you want, not *how* to get it. But real reports rarely just 'return all rows'. You need to bucket numbers into grades, label statuses as green/yellow/red, show 'N/A' instead of NULL, or add an 'if revenue > target then 1 else 0' column for KPI dashboards. That is conditional logic in SQL.
+SQL is a declarative language. You describe *what* you want, not *how* to get it. But real reports rarely just 'return all rows'. You need to bucket numbers into grades, label statuses as green/yellow/red, show 'N/A' instead of NULL, or add an 'if revenue > target then 1 else 0' column for KPI dashboards. That is conditional logic in SQL.
 
 MySQL gives you three tools:
 
-- `CASE WHEN` — the SQL-standard, portable, multi-branch conditional. Works in SELECT, WHERE, ORDER BY, GROUP BY, HAVING.
-- `IF(condition, true_value, false_value)` — MySQL-specific shortcut for two branches.
-- `IFNULL(value, default)` and `NULLIF(a, b)` — tiny helpers for null handling.
+- `CASE WHEN`, the SQL-standard, portable, multi-branch conditional. Works in SELECT, WHERE, ORDER BY, GROUP BY, HAVING.
+- `IF(condition, true_value, false_value)`, MySQL-specific shortcut for two branches.
+- `IFNULL(value, default)` and `NULLIF(a, b)`, tiny helpers for null handling.
 
 ```
 -- Give each student a grade based on marks
@@ -42,11 +42,11 @@ This is the single most common analytical pattern in business reporting. Every d
 
 ### 1. Computed Columns Are Half of Every Report
 
-Raw tables store facts: a student's marks, an order's amount, an employee's salary. Dashboards do not show raw facts — they show *categories*. 'High / Mid / Low value customer', 'Pass / Fail', 'On-time / Delayed'. Every one of those is a CASE expression.
+Raw tables store facts: a student's marks, an order's amount, an employee's salary. Dashboards do not show raw facts. They show *categories*. 'High / Mid / Low value customer', 'Pass / Fail', 'On-time / Delayed'. Every one of those is a CASE expression.
 
 ### 2. Conditional Aggregation Builds Pivot Tables
 
-Want to count paid, pending, and failed orders in a single row? Or revenue split by category across columns? SQL does not have a native PIVOT in MySQL, but `SUM(CASE WHEN status='paid' THEN amount ELSE 0 END)` solves it in two lines. This pattern is worth memorizing — it appears in 40% of SQL interviews.
+Want to count paid, pending, and failed orders in a single row? Or revenue split by category across columns? SQL does not have a native PIVOT in MySQL, but `SUM(CASE WHEN status='paid' THEN amount ELSE 0 END)` solves it in two lines. This pattern is worth memorizing. It appears in 40% of SQL interviews.
 
 ### 3. Custom Sort Orders
 
@@ -88,7 +88,7 @@ FROM employees;
 
 Rules for searched CASE:
 
-- Conditions are tested top to bottom. The **first match wins** — order your WHEN clauses from most specific to most general.
+- Conditions are tested top to bottom. The **first match wins**, order your WHEN clauses from most specific to most general.
 - All THEN/ELSE values should return the same (or compatible) type. Mixing a string and a number works but returns a string.
 - The ELSE is optional. Omitting it and having no match returns NULL. Always include ELSE unless NULL is exactly what you want.
 
@@ -115,9 +115,9 @@ SELECT name, country,
 FROM customers;
 ```
 
-Simple CASE only supports equality. If you need >, <, BETWEEN, LIKE, IS NULL, use searched CASE. For NULL comparison the simple form fails silently — `CASE x WHEN NULL THEN ...` is always false.
+Simple CASE only supports equality. If you need >, <, BETWEEN, LIKE, IS NULL, use searched CASE. For NULL comparison the simple form fails silently, `CASE x WHEN NULL THEN ...` is always false.
 
-### 3. CASE in SELECT — Computed Columns
+### 3. CASE in SELECT: Computed Columns
 
 The bread-and-butter use case. A CASE in the SELECT list creates a new column per row:
 
@@ -137,7 +137,7 @@ SELECT id, amount,
 FROM orders;
 ```
 
-### 4. CASE in ORDER BY — Custom Sort Order
+### 4. CASE in ORDER BY: Custom Sort Order
 
 'Paid orders first, then pending, then failed' cannot be expressed with a single ORDER BY. A CASE assigning sort keys does the trick:
 
@@ -156,7 +156,7 @@ ORDER BY
 
 The FIELD() function does the same thing more compactly for string lists, but CASE is clearer and works for non-equality logic too.
 
-### 5. CASE in WHERE — Usually Avoidable
+### 5. CASE in WHERE: Usually Avoidable
 
 You *can* use CASE in WHERE, but it is almost always a sign the query should be rewritten with AND/OR. The rare valid case is when the comparison column itself depends on another column's value:
 
@@ -171,7 +171,7 @@ WHERE CASE type
 
 If you find yourself writing `WHERE CASE WHEN x THEN 1 ELSE 0 END = 1`, just write `WHERE x`.
 
-### 6. CASE in GROUP BY — Custom Bucketing
+### 6. CASE in GROUP BY: Custom Bucketing
 
 Group by a CASE expression to bucket rows on the fly:
 
@@ -189,7 +189,7 @@ GROUP BY age_group
 ORDER BY MIN(age);
 ```
 
-### 7. Conditional Aggregation — The Pivot Pattern
+### 7. Conditional Aggregation: The Pivot Pattern
 
 This is the most valuable pattern in the chapter. Build column-by-column pivots by wrapping CASE inside SUM or COUNT:
 
@@ -206,8 +206,8 @@ GROUP BY customer_id;
 
 Two tricks at play:
 
-- **SUM(CASE ... ELSE 0 END)** — 0 means "don't contribute", so only matching rows add up.
-- **COUNT(CASE WHEN cond THEN 1 END)** — no ELSE, so non-matching rows produce NULL, and COUNT skips NULLs. This counts only the matching rows.
+- **SUM(CASE ... ELSE 0 END)**: 0 means "don't contribute", so only matching rows add up.
+- **COUNT(CASE WHEN cond THEN 1 END)**, no ELSE, so non-matching rows produce NULL, and COUNT skips NULLs. This counts only the matching rows.
 
 ### 8. The IF Function (MySQL-specific)
 
@@ -220,7 +220,7 @@ SELECT name, salary,
 FROM employees;
 ```
 
-`IF(cond, t, f)` is equivalent to `CASE WHEN cond THEN t ELSE f END`. It is not SQL-standard — avoid it if portability matters (PostgreSQL does not have IF as an expression).
+`IF(cond, t, f)` is equivalent to `CASE WHEN cond THEN t ELSE f END`. It is not SQL-standard, avoid it if portability matters (PostgreSQL does not have IF as an expression).
 
 ### 9. IFNULL and COALESCE
 
@@ -235,7 +235,7 @@ FROM contacts;
 
 COALESCE is SQL-standard; IFNULL is MySQL-only. Prefer COALESCE for portability.
 
-### 10. NULLIF — The Anti-Divide-By-Zero Trick
+### 10. NULLIF: The Anti-Divide-By-Zero Trick
 
 `NULLIF(a, b)` returns NULL if `a = b`, else returns `a`. Classic use:
 
@@ -247,9 +247,9 @@ FROM orders
 GROUP BY customer_id;
 ```
 
-If `SUM(revenue)` is 0, NULLIF turns it into NULL, and division by NULL yields NULL — a safe, clean result. Without NULLIF, you'd get a divide-by-zero error or a silently ugly `NULL`.
+If `SUM(revenue)` is 0, NULLIF turns it into NULL, and division by NULL yields NULL, a safe, clean result. Without NULLIF, you'd get a divide-by-zero error or a silently ugly `NULL`.
 
-### 11. Putting It All Together — Grade Calculator
+### 11. Putting It All Together: Grade Calculator
 
 ```
 CREATE TABLE students (
@@ -279,7 +279,7 @@ SELECT name,
 FROM students;
 ```
 
-Note the first WHEN — it guards against nulls before the numeric comparisons so we never compare NULL to a number.
+Note the first WHEN. It guards against nulls before the numeric comparisons so we never compare NULL to a number.
 
 ## Code Examples
 
@@ -408,7 +408,7 @@ GROUP BY customer_id
 ORDER BY customer_id;
 ```
 
-The canonical pivot pattern. SUM with ELSE 0 adds only matching rows. COUNT without ELSE takes advantage of the fact that COUNT ignores NULLs — non-matching rows produce NULL and are skipped. Three status columns and two count columns, all from a single scan of the table.
+The canonical pivot pattern. SUM with ELSE 0 adds only matching rows. COUNT without ELSE takes advantage of the fact that COUNT ignores NULLs, non-matching rows produce NULL and are skipped. Three status columns and two count columns, all from a single scan of the table.
 
 **Output:**
 
@@ -482,7 +482,7 @@ SELECT name,
 FROM contacts;
 ```
 
-IFNULL handles one column. COALESCE handles a waterfall of fallbacks — returns the first non-NULL. The clean_email pattern is a gem: NULLIF turns empty strings into NULL, then COALESCE replaces with 'no email'. This is how you handle both missing and empty data in one expression.
+IFNULL handles one column. COALESCE handles a waterfall of fallbacks, returns the first non-NULL. The clean_email pattern is a gem: NULLIF turns empty strings into NULL, then COALESCE replaces with 'no email'. This is how you handle both missing and empty data in one expression.
 
 **Output:**
 
@@ -633,7 +633,7 @@ Order matters: check nulls first (so later comparisons are safe), then check the
 
 ## Common Mistakes
 
-### Forgetting ELSE — Getting Surprise NULLs
+### Forgetting ELSE: Getting Surprise NULLs
 
 **Wrong:**
 
@@ -663,7 +663,7 @@ FROM students;
 
 CASE without a matching WHEN and no ELSE returns NULL. Always provide an ELSE unless NULL is explicitly what you want. This bug is especially sneaky inside SUM(CASE ...) pivots where a missing ELSE 0 silently drops rows.
 
-### Simple CASE with NULL — Comparison Never Matches
+### Simple CASE with NULL: Comparison Never Matches
 
 **Wrong:**
 
@@ -693,7 +693,7 @@ FROM orders;
 
 Simple CASE uses equality (=), and NULL = NULL is NULL (not TRUE). For NULL checks you must use searched CASE with IS NULL. This is a classic trap.
 
-### Wrong WHEN Order — Later Conditions Never Match
+### Wrong WHEN Order: Later Conditions Never Match
 
 **Wrong:**
 
@@ -746,7 +746,7 @@ WHERE status = 'paid';
 
 If you find yourself writing `WHERE CASE ... END = 1`, you probably just wanted a boolean expression. Drop the CASE and write the condition directly. CASE in WHERE is only justified when the comparison column itself changes per row.
 
-### Missing SUM(...ELSE 0) in Pivot — Losing Rows
+### Missing SUM(...ELSE 0) in Pivot: Losing Rows
 
 **Wrong:**
 
@@ -772,19 +772,19 @@ FROM orders
 GROUP BY customer_id;
 ```
 
-Without ELSE 0 the CASE returns NULL for non-matching rows. SUM skips NULLs, which is fine — but if a customer has zero matching rows at all, SUM returns NULL (there's nothing to sum). Either add ELSE 0 or wrap the SUM in IFNULL.
+Without ELSE 0 the CASE returns NULL for non-matching rows. SUM skips NULLs, which is fine, but if a customer has zero matching rows at all, SUM returns NULL (there's nothing to sum). Either add ELSE 0 or wrap the SUM in IFNULL.
 
 ## Summary
 
 - Searched CASE (WHEN condition THEN value) is the portable, multi-branch conditional. Conditions are evaluated top-to-bottom and the first match wins.
-- Simple CASE (CASE expr WHEN value THEN ...) is a shortcut for equality checks against one expression. It cannot test NULL or range conditions — use searched CASE for those.
+- Simple CASE (CASE expr WHEN value THEN ...) is a shortcut for equality checks against one expression. It cannot test NULL or range conditions. Use searched CASE for those.
 - Always include ELSE unless NULL is the correct default. A CASE with no matching WHEN and no ELSE returns NULL, which silently breaks downstream logic.
 - Put the most restrictive WHEN first. If conditions overlap, later WHEN branches become unreachable dead code.
-- CASE works everywhere: SELECT (computed columns), ORDER BY (custom sort), GROUP BY (bucketing), HAVING (post-aggregation filter). Rarely needed in WHERE — use AND/OR directly.
-- Conditional aggregation — SUM(CASE WHEN cond THEN amount ELSE 0 END) — is the pivot-table pattern. It is the single most important query form for business dashboards and appears in most SQL interviews.
+- CASE works everywhere: SELECT (computed columns), ORDER BY (custom sort), GROUP BY (bucketing), HAVING (post-aggregation filter). Rarely needed in WHERE, use AND/OR directly.
+- Conditional aggregation, SUM(CASE WHEN cond THEN amount ELSE 0 END), is the pivot-table pattern. It is the single most important query form for business dashboards and appears in most SQL interviews.
 - COUNT(CASE WHEN cond THEN 1 END) counts only matching rows because COUNT skips NULLs. No ELSE needed.
-- IF(cond, t, f) is a 2-branch MySQL shortcut. It is NOT SQL-standard — avoid for portable code.
-- IFNULL(x, default) replaces NULL with a default (MySQL). COALESCE(a, b, c, ...) returns the first non-NULL and is SQL-standard — prefer it for portability.
+- IF(cond, t, f) is a 2-branch MySQL shortcut. It is NOT SQL-standard, avoid for portable code.
+- IFNULL(x, default) replaces NULL with a default (MySQL). COALESCE(a, b, c, ...) returns the first non-NULL and is SQL-standard, prefer it for portability.
 - NULLIF(a, b) returns NULL when a equals b. The classic use is NULLIF(denominator, 0) to make division safe in every SQL mode.
 
 ## Related Topics

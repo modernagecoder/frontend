@@ -33,7 +33,7 @@ This is why a view is called a *virtual* table. It has no storage cost (a few KB
 
 **Answer:** The MySQL client splits input on `;`. A procedure body contains internal semicolons, so we temporarily change the delimiter to `$$` so the client sends the whole CREATE PROCEDURE as one statement.
 
-It is a purely client-side concern — the server parses the statement as a whole. Without it, the client would send only the first inner statement and CREATE PROCEDURE would fail.
+It is a purely client-side concern, the server parses the statement as a whole. Without it, the client would send only the first inner statement and CREATE PROCEDURE would fail.
 
 ### Q4. [Easy] What does this procedure set `@r` to?
 
@@ -89,7 +89,7 @@ SELECT @out;
 
 *Hint:* Think about INSERTs through a filtered view.
 
-**Answer:** It prevents INSERTs or UPDATEs through the view that would produce rows which do not match the view's WHERE clause. Without it, an insert through `pune_customers` could write a row with city = 'Mumbai' — the row lands in the base table but never appears in the view.
+**Answer:** It prevents INSERTs or UPDATEs through the view that would produce rows which do not match the view's WHERE clause. Without it, an insert through `pune_customers` could write a row with city = 'Mumbai', the row lands in the base table but never appears in the view.
 
 This silent disappearance is almost always a bug. WITH CHECK OPTION turns it into a clean error.
 
@@ -121,15 +121,15 @@ This is the idiomatic way to detect end-of-cursor in MySQL. CONTINUE means execu
 
 *Hint:* Think about replication.
 
-**Answer:** With statement-based binary logging, the master replicates function calls as text, and the replica re-executes them. If the function is non-deterministic (uses NOW(), RAND()), the replica will produce a different result — the slave drifts. MySQL forces you to declare the function's behaviour so it (and the DBA) can reason about replication safety.
+**Answer:** With statement-based binary logging, the master replicates function calls as text, and the replica re-executes them. If the function is non-deterministic (uses NOW(), RAND()), the replica will produce a different result, the slave drifts. MySQL forces you to declare the function's behaviour so it (and the DBA) can reason about replication safety.
 
-DETERMINISTIC means same input always yields same output. NO SQL and READS SQL DATA promise not to mutate data. MODIFIES SQL DATA is a red flag — think hard before using it inside a function.
+DETERMINISTIC means same input always yields same output. NO SQL and READS SQL DATA promise not to mutate data. MODIFIES SQL DATA is a red flag, think hard before using it inside a function.
 
 ### Q12. [Hard] When would you materialise a view (fake materialisation in MySQL) instead of using a regular view?
 
 *Hint:* Think about read frequency vs write frequency vs freshness tolerance.
 
-**Answer:** When the underlying query is expensive (complex joins, aggregation over millions of rows), the view is queried far more often than the data changes, and users can tolerate some staleness. For example, a dashboard that shows daily totals can run off a table refreshed hourly — 60 minutes of lag is acceptable but 10 seconds of query time per page-load is not.
+**Answer:** When the underlying query is expensive (complex joins, aggregation over millions of rows), the view is queried far more often than the data changes, and users can tolerate some staleness. For example, a dashboard that shows daily totals can run off a table refreshed hourly: 60 minutes of lag is acceptable but 10 seconds of query time per page-load is not.
 
 Regular views pay the SELECT cost on every query. Materialised views shift the cost to a scheduled refresh, so the read path becomes an indexed table lookup.
 
@@ -156,7 +156,7 @@ DELIMITER ;
 
 **Answer:** The function reads from a table but has no data-characteristic clause. MySQL rejects it with ERROR 1418 when binary logging is on. Fix: add `READS SQL DATA` or `NOT DETERMINISTIC` (or both) between `RETURNS INT` and `BEGIN`.
 
-Also note the design is racy — concurrent calls can return the same id. In real code use AUTO_INCREMENT or a sequence table with proper locking.
+Also note the design is racy, concurrent calls can return the same id. In real code use AUTO_INCREMENT or a sequence table with proper locking.
 
 ### Q15. [Hard] Why is it usually faster to write a set-based UPDATE than a cursor loop that updates one row at a time?
 
@@ -164,7 +164,7 @@ Also note the design is racy — concurrent calls can return the same id. In rea
 
 **Answer:** A single UPDATE is planned once, executed once, and the storage engine can batch redo-log writes. A cursor loop executes N separate statements, each with its own locking, optimiser parsing, and log flush. For 100k rows, the cursor version can be 50-100x slower, especially when combined with an index update per row.
 
-Cursors are the right tool only when each row requires a logically distinct side effect that cannot be expressed in SQL — sending an email, calling an external API from a trigger, etc.
+Cursors are the right tool only when each row requires a logically distinct side effect that cannot be expressed in SQL, sending an email, calling an external API from a trigger, etc.
 
 ### Q16. [Hard] Explain the difference between a user variable (`@x`) and a local variable declared with `DECLARE`.
 
@@ -172,7 +172,7 @@ Cursors are the right tool only when each row requires a logically distinct side
 
 **Answer:** A user variable (`@x`) is session-scoped: it lives as long as the connection, is visible across procedures, and does not need DECLARE. A local variable (`DECLARE x INT`) is block-scoped: it exists only within the BEGIN...END where it was declared, cannot collide with other procedures, and does need DECLARE.
 
-Prefer local variables inside procedures — they prevent accidental bleeding of state between CALLs. Use `@x` to receive OUT parameters or to pass values between CALLs at the client level.
+Prefer local variables inside procedures. They prevent accidental bleeding of state between CALLs. Use `@x` to receive OUT parameters or to pass values between CALLs at the client level.
 
 ### Q17. [Hard] Can a trigger call a stored procedure? Can a function call a procedure?
 
@@ -286,7 +286,7 @@ END;
 
 **Answer:** (1) One network round trip instead of N, which matters when N is millions of rows. (2) The whole job runs in one transaction (or in explicit batches) inside the database, so partial failures are cleanly rolled back. (3) The business rule lives in one place; no two services can drift out of sync. (4) DBAs can tune and schedule it without touching the app.
 
-The trade-off is testing — stored procedures are harder to unit-test than application code. The rule of thumb: use procedures for data-heavy pipelines and keep user-facing business logic in the app.
+The trade-off is testing, stored procedures are harder to unit-test than application code. The rule of thumb: use procedures for data-heavy pipelines and keep user-facing business logic in the app.
 
 ### Q9. [Hard] What does `SELECT my_tax(1000, 18)` return given the function below?
 
@@ -312,7 +312,7 @@ END;
 
 *Hint:* Think about when MySQL checks view/procedure bodies.
 
-**Answer:** Both the view and the procedure keep their definitions, but calling them fails at runtime. SELECT from the view returns an error like "View references invalid table". The procedure runs until it hits a statement that uses the missing table, then errors. Neither is dropped automatically — you must recreate the base table or drop the view/procedure.
+**Answer:** Both the view and the procedure keep their definitions, but calling them fails at runtime. SELECT from the view returns an error like "View references invalid table". The procedure runs until it hits a statement that uses the missing table, then errors. Neither is dropped automatically. You must recreate the base table or drop the view/procedure.
 
 MySQL validates view and procedure bodies lazily, at call time. This is different from compiled languages where the reference would break at creation time.
 
@@ -320,7 +320,7 @@ MySQL validates view and procedure bodies lazily, at call time. This is differen
 
 *Hint:* Think indexes and view merging.
 
-**Answer:** Yes, if the underlying SELECT is cheap — e.g. a single-table filter on an indexed column. MySQL inlines (merges) the view into the calling query, and the planner uses the base-table index. Speed and freshness are at odds only when the underlying SELECT is expensive; that is when materialisation becomes tempting.
+**Answer:** Yes, if the underlying SELECT is cheap, e.g. a single-table filter on an indexed column. MySQL inlines (merges) the view into the calling query, and the planner uses the base-table index. Speed and freshness are at odds only when the underlying SELECT is expensive; that is when materialisation becomes tempting.
 
 Do not assume views are slow. A simple view on a well-indexed table adds zero overhead. The rule is: profile the underlying SELECT, not the view.
 
@@ -368,7 +368,7 @@ This is the standard idiom for "transactional procedure". Use `RESIGNAL` (withou
 
 *Hint:* Functions run inside SELECTs.
 
-**Answer:** Functions are evaluated inside SELECT statements, often once per row. An INSERT or UPDATE hidden in a function means a simple-looking `SELECT my_func(col) FROM t` is actually a bulk write — catastrophic for read replicas, caching, and reasoning. Most mature codebases forbid it.
+**Answer:** Functions are evaluated inside SELECT statements, often once per row. An INSERT or UPDATE hidden in a function means a simple-looking `SELECT my_func(col) FROM t` is actually a bulk write, catastrophic for read replicas, caching, and reasoning. Most mature codebases forbid it.
 
 The right pattern is to make side-effecting code a procedure (called intentionally) and keep functions pure.
 
@@ -422,7 +422,7 @@ The upshot: short-lived connections (e.g. serverless apps) do not benefit much f
 
 **Answer:** B
 
-**B is correct.** Without it, you could insert a row that would never appear in the view — usually a subtle bug.
+**B is correct.** Without it, you could insert a row that would never appear in the view, usually a subtle bug.
 
 ### Q8. [Medium] Inside a procedure, where must DECLARE statements appear?
 
@@ -476,13 +476,13 @@ The upshot: short-lived connections (e.g. serverless apps) do not benefit much f
 
 **Answer:** B
 
-**B is correct.** Functions run once per row inside a SELECT. An UPDATE inside the function means a seemingly read-only query silently writes N rows — a classic foot-gun.
+**B is correct.** Functions run once per row inside a SELECT. An UPDATE inside the function means a seemingly read-only query silently writes N rows, a classic foot-gun.
 
 ### Q17. [Hard] When is a cursor the right choice over a set-based SQL statement?
 
 **Answer:** B
 
-**B is correct.** Set-based SQL is faster for homogeneous updates. Cursors pay off only when per-row logic diverges — sending row-specific emails, calling different sub-procedures, etc.
+**B is correct.** Set-based SQL is faster for homogeneous updates. Cursors pay off only when per-row logic diverges, sending row-specific emails, calling different sub-procedures, etc.
 
 ### Q18. [Hard] Why does MySQL require a data-characteristic clause on functions when binary logging is on?
 

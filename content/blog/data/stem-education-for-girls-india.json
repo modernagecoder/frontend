@@ -57,7 +57,7 @@
       },
       {
         "type": "paragraph",
-        "text": "India stands at a pivotal crossroads. With the world's largest youth population and a booming technology sector, the country has an unprecedented opportunity to become a global leader in innovation. But there is a critical piece missing from this picture: <strong>girls and women are dramatically underrepresented in STEM fields</strong> — science, technology, engineering, and mathematics. Despite making up nearly half the population, women hold only about 14% of STEM positions in India. This isn't just a gender issue; it's an economic and societal challenge that affects the entire nation's potential."
+        "text": "India stands at a pivotal crossroads. With the world's largest youth population and a booming technology sector, the country has an unprecedented opportunity to become a global leader in innovation. But there is a critical piece missing from this picture: <strong>girls and women are dramatically underrepresented in STEM fields</strong>, science, technology, engineering, and mathematics. Despite making up nearly half the population, women hold only about 14% of STEM positions in India. This isn't just a gender issue; it's an economic and societal challenge that affects the entire nation's potential."
       },
       {
         "type": "paragraph",
@@ -91,14 +91,14 @@
           "<strong>Workforce Representation:</strong> Only about 14% of scientists, engineers, and technologists in India are women, according to data from the Department of Science and Technology (DST). In the IT sector specifically, women constitute roughly 36% of the workforce but hold less than 10% of leadership and senior technical positions.",
           "<strong>The Leaky Pipeline:</strong> A 2024 UNESCO report found that 40% of women who earn STEM degrees in India leave the workforce within the first 10 years of their careers due to societal pressures, lack of mentorship, and hostile work environments.",
           "<strong>Rural-Urban Divide:</strong> The gender gap is even more stark in rural India, where access to quality education, internet connectivity, and exposure to technology remain severe challenges. Girls in rural areas are 3 times less likely to pursue STEM subjects compared to their urban counterparts.",
-          "<strong>Early Math Confidence Gap:</strong> Research by the Annual Status of Education Report (ASER) consistently shows that by Grade 5, boys outperform girls in mathematics — not because of innate ability, but because of differential expectations and encouragement.",
+          "<strong>Early Math Confidence Gap:</strong> Research by the Annual Status of Education Report (ASER) consistently shows that by Grade 5, boys outperform girls in mathematics, not because of innate ability, but because of differential expectations and encouragement.",
           "<strong>Global Context:</strong> Globally, women earn only 35% of STEM degrees and hold 28% of research positions. India's numbers are even lower than the global average in most categories, underscoring the urgency of intervention."
         ]
       },
       {
         "type": "callout",
         "style": "info",
-        "text": "According to the World Economic Forum, closing the gender gap in STEM could add $700 billion to India's GDP by 2030. Investing in girls' STEM education is not just the right thing to do — it's an economic imperative."
+        "text": "According to the World Economic Forum, closing the gender gap in STEM could add $700 billion to India's GDP by 2030. Investing in girls' STEM education is not just the right thing to do. It's an economic imperative."
       },
       {
         "type": "heading",
@@ -159,7 +159,7 @@
       },
       {
         "type": "paragraph",
-        "text": "Traditional STEM education in India tends to be rote-learning focused, examination-driven, and disconnected from real-world applications. This approach fails to spark curiosity and creativity — qualities that are essential for deep engagement with STEM. Girls, who research shows respond particularly well to collaborative, project-based, and socially relevant learning, are disproportionately disengaged by these methods. A curriculum that emphasizes memorization over exploration does a disservice to all students, but especially to girls who might already be receiving less encouragement at home."
+        "text": "Traditional STEM education in India tends to be rote-learning focused, examination-driven, and disconnected from real-world applications. This approach fails to spark curiosity and creativity, qualities that are essential for deep engagement with STEM. Girls, who research shows respond particularly well to collaborative, project-based, and socially relevant learning, are disproportionately disengaged by these methods. A curriculum that emphasizes memorization over exploration does a disservice to all students, but especially to girls who might already be receiving less encouragement at home."
       },
       {
         "type": "heading",
@@ -169,7 +169,7 @@
       },
       {
         "type": "paragraph",
-        "text": "When girls are given early, consistent, and encouraging exposure to STEM subjects — especially coding and mathematics — the results are extraordinary. Research from around the world confirms that <strong>early intervention is the single most effective strategy</strong> for closing the gender gap in STEM."
+        "text": "When girls are given early, consistent, and encouraging exposure to STEM subjects, especially coding and mathematics, the results are extraordinary. Research from around the world confirms that <strong>early intervention is the single most effective strategy</strong> for closing the gender gap in STEM."
       },
       {
         "type": "image",
@@ -181,19 +181,19 @@
         "type": "list",
         "style": "unordered",
         "items": [
-          "<strong>Builds Unshakeable Confidence:</strong> When girls successfully write their first program, solve a complex maths puzzle, or build a working robot, they develop a powerful sense of \"I can do this.\" This confidence transfers to all areas of life — academic, social, and professional. Programs like <a href='/courses/princess-coders-complete-coding-masterclass'>Princess Coders</a> are specifically designed to create these confidence-building moments from age 6 onward.",
+          "<strong>Builds Unshakeable Confidence:</strong> When girls successfully write their first program, solve a complex maths puzzle, or build a working robot, they develop a powerful sense of \"I can do this.\" This confidence transfers to all areas of life, academic, social, and professional. Programs like <a href='/courses/princess-coders-complete-coding-masterclass'>Princess Coders</a> are specifically designed to create these confidence-building moments from age 6 onward.",
           "<strong>Develops Critical Thinking and Problem-Solving:</strong> Coding teaches girls to break complex problems into smaller, manageable steps (decomposition), find patterns (pattern recognition), focus on what matters (abstraction), and create step-by-step solutions (algorithmic thinking). These computational thinking skills are valuable in every career and life situation.",
           "<strong>Enhances Mathematical Ability:</strong> Coding and mathematics are deeply interconnected. Girls who learn to code often develop a stronger, more intuitive understanding of mathematical concepts like variables, functions, geometry, and logic. This creates a positive feedback loop where success in coding boosts math performance and vice versa.",
-          "<strong>Fosters Creativity and Innovation:</strong> Contrary to stereotypes, STEM is deeply creative. When girls code, they create — games, animations, apps, websites, art, and solutions to real-world problems. This creative dimension of STEM is particularly engaging for girls and helps dispel the myth that STEM is dry or uncreative.",
+          "<strong>Fosters Creativity and Innovation:</strong> Contrary to stereotypes, STEM is deeply creative. When girls code, they create, games, animations, apps, websites, art, and solutions to real-world problems. This creative dimension of STEM is particularly engaging for girls and helps dispel the myth that STEM is dry or uncreative.",
           "<strong>Prepares for Future Careers:</strong> By 2030, an estimated 75% of jobs will require STEM skills to some degree. Girls who develop these skills early have access to higher-paying, more fulfilling career paths in fields like artificial intelligence, data science, cybersecurity, biotechnology, space science, and more.",
-          "<strong>Builds Resilience and a Growth Mindset:</strong> Debugging code — finding and fixing errors — teaches girls that failure is not something to fear, but a natural and necessary part of learning. This growth mindset is one of the most valuable life skills a girl can develop.",
+          "<strong>Builds Resilience and a Growth Mindset:</strong> Debugging code, finding and fixing errors, teaches girls that failure is not something to fear, but a natural and necessary part of learning. This growth mindset is one of the most valuable life skills a girl can develop.",
           "<strong>Creates Community and Belonging:</strong> Girls-only STEM programs create safe spaces where girls can learn, experiment, make mistakes, and grow without the pressure of gender stereotypes. The friendships and peer networks formed in these programs provide lasting support and inspiration."
         ]
       },
       {
         "type": "callout",
         "style": "tip",
-        "text": "The ideal age to introduce girls to coding is between 6 and 8 years old — before societal stereotypes have a chance to erode their natural curiosity and confidence. <a href='/courses/princess-coders-complete-coding-masterclass'>Princess Coders</a> at Modern Age Coders is designed for exactly this age group."
+        "text": "The ideal age to introduce girls to coding is between 6 and 8 years old, before societal stereotypes have a chance to erode their natural curiosity and confidence. <a href='/courses/princess-coders-complete-coding-masterclass'>Princess Coders</a> at Modern Age Coders is designed for exactly this age group."
       },
       {
         "type": "heading",
@@ -203,7 +203,7 @@
       },
       {
         "type": "paragraph",
-        "text": "India has a rich but often overlooked history of brilliant women in STEM. These trailblazers overcame enormous obstacles to achieve extraordinary things, and their stories serve as powerful inspiration for the next generation of girls. Every girl needs to know that <strong>women who look like her have already reached the stars</strong> — both literally and figuratively."
+        "text": "India has a rich but often overlooked history of brilliant women in STEM. These trailblazers overcame enormous obstacles to achieve extraordinary things, and their stories serve as powerful inspiration for the next generation of girls. Every girl needs to know that <strong>women who look like her have already reached the stars</strong>. Both literally and figuratively."
       },
       {
         "type": "image",
@@ -214,7 +214,7 @@
       {
         "type": "heading",
         "level": 3,
-        "text": "Kalpana Chawla — First Indian-Origin Woman in Space"
+        "text": "Kalpana Chawla: First Indian-Origin Woman in Space"
       },
       {
         "type": "paragraph",
@@ -223,7 +223,7 @@
       {
         "type": "heading",
         "level": 3,
-        "text": "Tessy Thomas — India's Missile Woman"
+        "text": "Tessy Thomas: India's Missile Woman"
       },
       {
         "type": "paragraph",
@@ -232,16 +232,16 @@
       {
         "type": "heading",
         "level": 3,
-        "text": "Ritu Karidhal — The Rocket Woman of India"
+        "text": "Ritu Karidhal: The Rocket Woman of India"
       },
       {
         "type": "paragraph",
-        "text": "<strong>Ritu Karidhal</strong> served as the Mission Director of Chandrayaan-2, India's ambitious lunar exploration mission, and Deputy Operations Director for the Mars Orbiter Mission (Mangalyaan). Known as the \"Rocket Woman of India,\" she has been instrumental in some of ISRO's most complex and celebrated missions. Her work on Mangalyaan — which made India the first Asian nation to reach Mars orbit — proved to the world that Indian women can lead the most cutting-edge space missions on the planet."
+        "text": "<strong>Ritu Karidhal</strong> served as the Mission Director of Chandrayaan-2, India's ambitious lunar exploration mission, and Deputy Operations Director for the Mars Orbiter Mission (Mangalyaan). Known as the \"Rocket Woman of India,\" she has been instrumental in some of ISRO's most complex and celebrated missions. Her work on Mangalyaan, which made India the first Asian nation to reach Mars orbit, proved to the world that Indian women can lead the most cutting-edge space missions on the planet."
       },
       {
         "type": "heading",
         "level": 3,
-        "text": "Suneeta Mohanty — Leading AI and Technology Innovation"
+        "text": "Suneeta Mohanty: Leading AI and Technology Innovation"
       },
       {
         "type": "paragraph",
@@ -267,7 +267,7 @@
       {
         "type": "callout",
         "style": "info",
-        "text": "When girls see women like Kalpana Chawla, Tessy Thomas, and Ritu Karidhal succeeding in STEM, it rewires their perception of what is possible. Representation doesn't just inspire — it fundamentally changes what girls believe they can achieve."
+        "text": "When girls see women like Kalpana Chawla, Tessy Thomas, and Ritu Karidhal succeeding in STEM, it rewires their perception of what is possible. Representation doesn't just inspire. It fundamentally changes what girls believe they can achieve."
       },
       {
         "type": "heading",
@@ -282,7 +282,7 @@
       {
         "type": "heading",
         "level": 3,
-        "text": "Vigyan Jyoti — Igniting the Flame of Science"
+        "text": "Vigyan Jyoti: Igniting the Flame of Science"
       },
       {
         "type": "paragraph",
@@ -336,15 +336,15 @@
       },
       {
         "type": "paragraph",
-        "text": "Coding does not care about gender. A program written by a girl runs exactly the same as one written by a boy. The computer doesn't know or care who wrote the code — it only cares whether the logic is correct. This inherent meritocracy makes coding a uniquely empowering discipline for girls. When a girl writes a program that works, there is no ambiguity about her accomplishment. She created something real, functional, and valuable."
+        "text": "Coding does not care about gender. A program written by a girl runs exactly the same as one written by a boy. The computer doesn't know or care who wrote the code. It only cares whether the logic is correct. This inherent meritocracy makes coding a uniquely empowering discipline for girls. When a girl writes a program that works, there is no ambiguity about her accomplishment. She created something real, functional, and valuable."
       },
       {
         "type": "list",
         "style": "unordered",
         "items": [
-          "<strong>From Consumer to Creator:</strong> Most children consume technology — they watch videos, play games, and scroll social media. Coding transforms girls from passive consumers into active creators. They learn to build the apps, design the games, and create the websites that millions use.",
+          "<strong>From Consumer to Creator:</strong> Most children consume technology. They watch videos, play games, and scroll social media. Coding transforms girls from passive consumers into active creators. They learn to build the apps, design the games, and create the websites that millions use.",
           "<strong>Self-Expression and Voice:</strong> Coding gives girls a powerful medium for self-expression. They can create websites about causes they care about, build apps that solve problems in their communities, and use data visualization to tell stories that need to be heard.",
-          "<strong>Entrepreneurship and Independence:</strong> Coding skills open doors to freelancing, entrepreneurship, and remote work — careers that offer flexibility, financial independence, and the ability to work from anywhere. For girls in India, this can be transformative.",
+          "<strong>Entrepreneurship and Independence:</strong> Coding skills open doors to freelancing, entrepreneurship, and remote work, careers that offer flexibility, financial independence, and the ability to work from anywhere. For girls in India, this can be transformative.",
           "<strong>Global Opportunities:</strong> The tech industry is global. A girl who learns to code in Jaipur can work for a company in San Francisco, collaborate with a team in Berlin, or freelance for clients in Tokyo. Coding dissolves geographic and socioeconomic barriers."
         ]
       },
@@ -355,7 +355,7 @@
       },
       {
         "type": "paragraph",
-        "text": "Mathematics is the foundation upon which all STEM disciplines are built. For girls, developing strong mathematical skills early is critical — not just for academic success, but for building the logical reasoning, analytical thinking, and quantitative literacy that are essential in an increasingly data-driven world."
+        "text": "Mathematics is the foundation upon which all STEM disciplines are built. For girls, developing strong mathematical skills early is critical, not just for academic success, but for building the logical reasoning, analytical thinking, and quantitative literacy that are essential in an increasingly data-driven world."
       },
       {
         "type": "list",
@@ -374,7 +374,7 @@
       },
       {
         "type": "paragraph",
-        "text": "At <strong>Modern Age Coders</strong>, we believe that every girl deserves access to world-class STEM education delivered in an environment that celebrates and supports her. That's why we've developed three dedicated programs designed exclusively for girls at different stages of their learning journey. These aren't watered-down versions of our regular courses — they are specially crafted curricula that address the unique challenges girls face and leverage the unique strengths they bring to STEM."
+        "text": "At <strong>Modern Age Coders</strong>, we believe that every girl deserves access to world-class STEM education delivered in an environment that celebrates and supports her. That's why we've developed three dedicated programs designed exclusively for girls at different stages of their learning journey. These aren't watered-down versions of our regular courses. They are specially crafted curricula that address the unique challenges girls face and leverage the unique strengths they bring to STEM."
       },
       {
         "type": "image",
@@ -385,11 +385,11 @@
       {
         "type": "heading",
         "level": 3,
-        "text": "Princess Coders — Where Young Girls Fall in Love with Code (Ages 6-10)"
+        "text": "Princess Coders: Where Young Girls Fall in Love with Code (Ages 6-10)"
       },
       {
         "type": "paragraph",
-        "text": "<a href='/courses/princess-coders-complete-coding-masterclass'>Princess Coders</a> is our flagship program for young girls aged 6 to 10 who are just beginning their coding journey. The name is aspirational — every princess learns to rule her own kingdom, and in the digital age, that kingdom is built with code."
+        "text": "<a href='/courses/princess-coders-complete-coding-masterclass'>Princess Coders</a> is our flagship program for young girls aged 6 to 10 who are just beginning their coding journey. The name is aspirational, every princess learns to rule her own kingdom, and in the digital age, that kingdom is built with code."
       },
       {
         "type": "list",
@@ -397,18 +397,18 @@
         "items": [
           "<strong>Curriculum:</strong> Visual block-based coding (Scratch), creative animations, interactive stories, basic game design, introduction to computational thinking, and fundamental maths concepts woven throughout every lesson.",
           "<strong>Pedagogy:</strong> Project-based learning where girls create their own digital stories, animated characters, and simple games. Every project is designed to be personally meaningful and shareable, so girls experience the joy of creating something they're proud of.",
-          "<strong>Environment:</strong> All-girls classes with female instructors who serve as role models. The atmosphere is collaborative, supportive, and celebrates every achievement — no matter how small.",
-          "<strong>Outcomes:</strong> By the end of the program, girls have a portfolio of creative projects, a solid foundation in computational thinking, enhanced mathematical reasoning, and — most importantly — an unshakeable belief that \"I am a coder.\""
+          "<strong>Environment:</strong> All-girls classes with female instructors who serve as role models. The atmosphere is collaborative, supportive, and celebrates every achievement, no matter how small.",
+          "<strong>Outcomes:</strong> By the end of the program, girls have a portfolio of creative projects, a solid foundation in computational thinking, enhanced mathematical reasoning, and, most importantly, an unshakeable belief that \"I am a coder.\""
         ]
       },
       {
         "type": "heading",
         "level": 3,
-        "text": "Alpha Girls Elite Tech Mastery — Building Technical Depth (Ages 11-15)"
+        "text": "Alpha Girls Elite Tech Mastery: Building Technical Depth (Ages 11-15)"
       },
       {
         "type": "paragraph",
-        "text": "<a href='/courses/alpha-girls-elite-tech-mastery'>Alpha Girls Elite Tech Mastery</a> is designed for girls aged 11 to 15 who are ready to move beyond visual coding and into real-world programming. This is the critical age when many girls lose confidence in STEM — and Alpha Girls is specifically designed to make sure that doesn't happen."
+        "text": "<a href='/courses/alpha-girls-elite-tech-mastery'>Alpha Girls Elite Tech Mastery</a> is designed for girls aged 11 to 15 who are ready to move beyond visual coding and into real-world programming. This is the critical age when many girls lose confidence in STEM, and Alpha Girls is specifically designed to make sure that doesn't happen."
       },
       {
         "type": "list",
@@ -424,11 +424,11 @@
       {
         "type": "heading",
         "level": 3,
-        "text": "Queen Coders Advanced Tech Leadership — Leading the Future (Ages 16+)"
+        "text": "Queen Coders Advanced Tech Leadership: Leading the Future (Ages 16+)"
       },
       {
         "type": "paragraph",
-        "text": "<a href='/courses/queen-coders-advanced-tech-leadership'>Queen Coders Advanced Tech Leadership</a> is our most advanced program, designed for girls aged 16 and above who are ready to become technology leaders. Queens don't just write code — they architect systems, lead teams, and shape the future of technology."
+        "text": "<a href='/courses/queen-coders-advanced-tech-leadership'>Queen Coders Advanced Tech Leadership</a> is our most advanced program, designed for girls aged 16 and above who are ready to become technology leaders. Queens don't just write code. They architect systems, lead teams, and shape the future of technology."
       },
       {
         "type": "list",
@@ -557,7 +557,7 @@
           "<strong>Normalize Struggle:</strong> When your daughter finds a maths problem hard, don't rescue her immediately. Let her struggle, encourage her to keep trying, and celebrate the process of working through difficulty.",
           "<strong>Show Interest in Her STEM Work:</strong> Ask her to show you what she's coding. Play her games. Listen to her explain her projects. Your genuine interest tells her that her STEM work matters.",
           "<strong>Connect STEM to Her Interests:</strong> If she loves art, show her digital art and animation. If she loves animals, introduce her to wildlife biology and environmental data science. If she loves stories, help her create interactive narratives with code.",
-          "<strong>Challenge Gender Norms at Home:</strong> Let her see that fixing things, building things, and understanding how things work are for everyone — not just for boys or men."
+          "<strong>Challenge Gender Norms at Home:</strong> Let her see that fixing things, building things, and understanding how things work are for everyone, not just for boys or men."
         ]
       },
       {
@@ -585,30 +585,30 @@
       },
       {
         "type": "paragraph",
-        "text": "The proof that girls thrive in STEM when given the opportunity is not theoretical — it's visible in the extraordinary achievements of young women across India who are already making their mark. These stories demonstrate that the barriers are not about ability; they are about access and opportunity."
+        "text": "The proof that girls thrive in STEM when given the opportunity is not theoretical. It's visible in the extraordinary achievements of young women across India who are already making their mark. These stories demonstrate that the barriers are not about ability; they are about access and opportunity."
       },
       {
         "type": "image",
         "url": "https://ik.imagekit.io/ysmxsdgmw4/blogs/blog-images/STEM%20Education%20Girls/SuccessStoriesGirls.png",
         "alt": "Collage of young Indian girls succeeding in STEM competitions, hackathons, and coding projects",
-        "caption": "When given the opportunity, girls don't just participate in STEM — they excel"
+        "caption": "When given the opportunity, girls don't just participate in STEM. They excel"
       },
       {
         "type": "list",
         "style": "unordered",
         "items": [
           "<strong>Gitanjali Rao</strong> was named TIME Magazine's first-ever \"Kid of the Year\" at age 15 for her inventions, including a device that detects lead in water and an app that uses AI to detect cyberbullying. She is a passionate advocate for getting more girls into STEM.",
-          "<strong>Kavya Kopparapu</strong>, an Indian-American student, developed GlioVision — an AI tool that helps doctors determine the most effective treatment for brain cancer patients. She founded her own nonprofit to teach girls and underrepresented students about AI.",
+          "<strong>Kavya Kopparapu</strong>, an Indian-American student, developed GlioVision, an AI tool that helps doctors determine the most effective treatment for brain cancer patients. She founded her own nonprofit to teach girls and underrepresented students about AI.",
           "<strong>A 12-year-old from our Princess Coders program</strong> built a personal safety app for women as her final project. She presented it at a local tech event and was invited to speak about girls in coding at her school's annual day.",
           "<strong>An Alpha Girls student from Bangalore</strong> created a data visualization dashboard tracking air quality across Indian cities using Python and real-time APIs. Her project was featured in a national student innovation competition.",
-          "<strong>A Queen Coders graduate</strong> earned a scholarship to a top engineering college after showcasing her portfolio of projects — including a machine learning model that predicts crop diseases using satellite imagery — during her interview.",
+          "<strong>A Queen Coders graduate</strong> earned a scholarship to a top engineering college after showcasing her portfolio of projects, including a machine learning model that predicts crop diseases using satellite imagery, during her interview.",
           "<strong>Teams of girls from our programs</strong> have participated in national hackathons, winning prizes and recognition while demonstrating that all-girl teams can compete with and outperform mixed-gender teams."
         ]
       },
       {
         "type": "callout",
         "style": "info",
-        "text": "Every success story begins with a single step — a first line of code, a first solved equation, a first moment of \"I did it!\" Your daughter's success story could begin today. <a href='/book-demo'>Book a free demo</a> and let her experience the joy of coding."
+        "text": "Every success story begins with a single step, a first line of code, a first solved equation, a first moment of \"I did it!\" Your daughter's success story could begin today. <a href='/book-demo'>Book a free demo</a> and let her experience the joy of coding."
       },
       {
         "type": "heading",
@@ -618,7 +618,7 @@
       },
       {
         "type": "paragraph",
-        "text": "The rise of online learning has been a game-changer for girls' STEM education in India. Geography, commute safety concerns, and the lack of local resources are no longer barriers. A girl in a small town in Rajasthan can now access the same quality of STEM education as a girl in Mumbai or Bangalore — all from the safety and comfort of her home."
+        "text": "The rise of online learning has been a game-changer for girls' STEM education in India. Geography, commute safety concerns, and the lack of local resources are no longer barriers. A girl in a small town in Rajasthan can now access the same quality of STEM education as a girl in Mumbai or Bangalore, all from the safety and comfort of her home."
       },
       {
         "type": "heading",
@@ -639,7 +639,7 @@
       },
       {
         "type": "paragraph",
-        "text": "Modern Age Coders delivers all of its girls' programs — <a href='/courses/princess-coders-complete-coding-masterclass'>Princess Coders</a>, <a href='/courses/alpha-girls-elite-tech-mastery'>Alpha Girls</a>, and <a href='/courses/queen-coders-advanced-tech-leadership'>Queen Coders</a> — through live, interactive online classes. Every class is taught by an experienced instructor, features small batch sizes (typically 5-8 students) for personalized attention, and includes hands-on projects that girls build and share with pride."
+        "text": "Modern Age Coders delivers all of its girls' programs, <a href='/courses/princess-coders-complete-coding-masterclass'>Princess Coders</a>, <a href='/courses/alpha-girls-elite-tech-mastery'>Alpha Girls</a>, and <a href='/courses/queen-coders-advanced-tech-leadership'>Queen Coders</a>, through live, interactive online classes. Every class is taught by an experienced instructor, features small batch sizes (typically 5-8 students) for personalized attention, and includes hands-on projects that girls build and share with pride."
       },
       {
         "type": "heading",
@@ -657,7 +657,7 @@
         "items": [
           "<strong>Girls-Only or Gender-Inclusive?</strong> Research shows that girls, especially those new to STEM, often learn better and build more confidence in girls-only environments where they are free from gender-based comparison and stereotype threat. Look for programs that offer girls-only batches.",
           "<strong>Live Instruction vs. Self-Paced:</strong> For younger girls (ages 6-14), live instruction with a real teacher is significantly more effective than self-paced video courses. The interaction, feedback, and encouragement from a live instructor make all the difference.",
-          "<strong>Project-Based Curriculum:</strong> Avoid programs that focus solely on syntax and theory. The best programs are built around projects that girls create, customize, and share — making learning tangible and personally meaningful.",
+          "<strong>Project-Based Curriculum:</strong> Avoid programs that focus solely on syntax and theory. The best programs are built around projects that girls create, customize, and share, making learning tangible and personally meaningful.",
           "<strong>Qualified and Diverse Instructors:</strong> Check whether the program's instructors are experienced, trained, and ideally include women who can serve as role models.",
           "<strong>Small Class Sizes:</strong> Large batch sizes (20+ students) make it impossible for instructors to give personalized attention. Look for programs with 5-10 students per batch.",
           "<strong>Clear Learning Path:</strong> The program should have a clear, progressive curriculum that takes girls from beginner to advanced levels, with defined milestones and outcomes at each stage.",
@@ -678,7 +678,7 @@
       },
       {
         "type": "paragraph",
-        "text": "Want to give your daughter a taste of what coding feels like? Here is a simple Python project that girls in our programs love — a <strong>\"Women in STEM Quiz Game\"</strong> that celebrates famous Indian women scientists while teaching basic programming concepts."
+        "text": "Want to give your daughter a taste of what coding feels like? Here is a simple Python project that girls in our programs love, a <strong>\"Women in STEM Quiz Game\"</strong> that celebrates famous Indian women scientists while teaching basic programming concepts."
       },
       {
         "type": "code",
@@ -687,7 +687,7 @@
       },
       {
         "type": "paragraph",
-        "text": "This simple project teaches variables, conditional logic (if/else), user input, string formatting, and sequential programming — all while celebrating Indian women in STEM. Girls in our <a href='/courses/princess-coders-complete-coding-masterclass'>Princess Coders</a> and <a href='/courses/alpha-girls-elite-tech-mastery'>Alpha Girls</a> programs create projects like this and much more."
+        "text": "This simple project teaches variables, conditional logic (if/else), user input, string formatting, and sequential programming, all while celebrating Indian women in STEM. Girls in our <a href='/courses/princess-coders-complete-coding-masterclass'>Princess Coders</a> and <a href='/courses/alpha-girls-elite-tech-mastery'>Alpha Girls</a> programs create projects like this and much more."
       },
       {
         "type": "heading",
@@ -697,7 +697,7 @@
       },
       {
         "type": "paragraph",
-        "text": "The case for girls in STEM goes far beyond individual empowerment — though that alone would be reason enough. When more girls and women participate in STEM, the benefits ripple across all of society."
+        "text": "The case for girls in STEM goes far beyond individual empowerment, though that alone would be reason enough. When more girls and women participate in STEM, the benefits ripple across all of society."
       },
       {
         "type": "image",
@@ -711,8 +711,8 @@
         "items": [
           "<strong>Better Products and Solutions:</strong> Diverse teams build better products. When women are excluded from the design process, we get airbags that don't protect women, health apps that ignore menstrual health, and AI systems trained on biased data. Including women in STEM leads to solutions that work for everyone.",
           "<strong>Economic Growth:</strong> McKinsey estimates that advancing women's equality in India could add $770 billion to the country's GDP by 2025. Closing the STEM gender gap is a major part of that equation.",
-          "<strong>Innovation:</strong> Research from Harvard Business Review shows that diverse teams are more innovative, produce more patents, and generate higher revenue from new products. Gender diversity in STEM is not just fair — it's smart business.",
-          "<strong>National Security and Self-Reliance:</strong> As India pursues self-reliance (Atmanirbhar Bharat) in technology, defence, and space, it needs the full talent pool — not just half of it. Every girl excluded from STEM is talent that India cannot afford to waste.",
+          "<strong>Innovation:</strong> Research from Harvard Business Review shows that diverse teams are more innovative, produce more patents, and generate higher revenue from new products. Gender diversity in STEM is not just fair. It's smart business.",
+          "<strong>National Security and Self-Reliance:</strong> As India pursues self-reliance (Atmanirbhar Bharat) in technology, defence, and space, it needs the full talent pool, not just half of it. Every girl excluded from STEM is talent that India cannot afford to waste.",
           "<strong>Breaking Generational Cycles:</strong> When a girl succeeds in STEM, she becomes a role model for her siblings, her classmates, and eventually her own children. She breaks the cycle of gender-based limitation and creates a new cycle of ambition and achievement."
         ]
       },
@@ -747,7 +747,7 @@
       },
       {
         "type": "paragraph",
-        "text": "Research shows that girls, especially beginners, build confidence faster in same-gender learning environments. Girls-only programs eliminate stereotype threat, provide female role models, and create a supportive peer community. As girls gain confidence, they can thrive in any environment — but starting in a girls-only setting gives them the strongest foundation."
+        "text": "Research shows that girls, especially beginners, build confidence faster in same-gender learning environments. Girls-only programs eliminate stereotype threat, provide female role models, and create a supportive peer community. As girls gain confidence, they can thrive in any environment, but starting in a girls-only setting gives them the strongest foundation."
       },
       {
         "type": "heading",
@@ -775,20 +775,20 @@
       },
       {
         "type": "paragraph",
-        "text": "Every great journey begins with a single step. For your daughter, that step could be writing her first line of code, solving her first coding puzzle, or creating her first animated story. It could be the moment she realizes that she is not \"bad at maths\" — she just needed the right environment and encouragement. It could be the day she meets her first female coding mentor and thinks, \"I could do what she does.\""
+        "text": "Every great journey begins with a single step. For your daughter, that step could be writing her first line of code, solving her first coding puzzle, or creating her first animated story. It could be the moment she realizes that she is not \"bad at maths\". She just needed the right environment and encouragement. It could be the day she meets her first female coding mentor and thinks, \"I could do what she does.\""
       },
       {
         "type": "paragraph",
-        "text": "At <strong>Modern Age Coders</strong>, we have seen thousands of girls transform from hesitant beginners to confident coders, from \"I can't do maths\" to \"Watch what I built.\" Our <a href='/courses/princess-coders-complete-coding-masterclass'>Princess Coders</a>, <a href='/courses/alpha-girls-elite-tech-mastery'>Alpha Girls Elite Tech Mastery</a>, and <a href='/courses/queen-coders-advanced-tech-leadership'>Queen Coders Advanced Tech Leadership</a> programs are more than coding classes — they are launchpads for a lifetime of confidence, creativity, and achievement in STEM."
+        "text": "At <strong>Modern Age Coders</strong>, we have seen thousands of girls transform from hesitant beginners to confident coders, from \"I can't do maths\" to \"Watch what I built.\" Our <a href='/courses/princess-coders-complete-coding-masterclass'>Princess Coders</a>, <a href='/courses/alpha-girls-elite-tech-mastery'>Alpha Girls Elite Tech Mastery</a>, and <a href='/courses/queen-coders-advanced-tech-leadership'>Queen Coders Advanced Tech Leadership</a> programs are more than coding classes. They are launchpads for a lifetime of confidence, creativity, and achievement in STEM."
       },
       {
         "type": "paragraph",
-        "text": "The world needs your daughter's ideas, her creativity, her perspective, and her solutions. India's future in technology, science, and innovation depends on ensuring that every girl — regardless of where she lives, what her family earns, or what society tells her — has the opportunity to discover her potential in STEM."
+        "text": "The world needs your daughter's ideas, her creativity, her perspective, and her solutions. India's future in technology, science, and innovation depends on ensuring that every girl, regardless of where she lives, what her family earns, or what society tells her, has the opportunity to discover her potential in STEM."
       },
       {
         "type": "callout",
         "style": "tip",
-        "text": "Ready to give your daughter the gift of STEM confidence? <a href='/book-demo'>Book a free demo class</a> today and watch her eyes light up as she writes her first program. No prior experience needed — just curiosity and a willingness to try. Every Queen was once a Princess who decided to learn to code. Let her journey begin today."
+        "text": "Ready to give your daughter the gift of STEM confidence? <a href='/book-demo'>Book a free demo class</a> today and watch her eyes light up as she writes her first program. No prior experience needed, just curiosity and a willingness to try. Every Queen was once a Princess who decided to learn to code. Let her journey begin today."
       },
       {
         "type": "paragraph",

@@ -72,7 +72,7 @@
       "order": 9,
       "title": "KNN and Naive Bayes Classifiers",
       "difficulty": "Intermediate",
-      "description": "Learn K-Nearest Neighbors and Naive Bayes — simple but powerful algorithms for classification problems."
+      "description": "Learn K-Nearest Neighbors and Naive Bayes, simple but powerful algorithms for classification problems."
     },
     {
       "slug": "model-evaluation-and-tuning",
@@ -107,7 +107,7 @@
       "order": 14,
       "title": "Ensemble Methods - Boosting (XGBoost, LightGBM, CatBoost)",
       "difficulty": "Advanced",
-      "description": "Master gradient boosting, XGBoost, LightGBM, and CatBoost — the algorithms that win Kaggle competitions."
+      "description": "Master gradient boosting, XGBoost, LightGBM, and CatBoost, the algorithms that win Kaggle competitions."
     },
     {
       "slug": "introduction-to-neural-networks",

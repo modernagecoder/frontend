@@ -52,7 +52,7 @@
       },
       {
         "type": "paragraph",
-        "text": "Functions are one of the first real \"aha\" moments for anyone learning Python. Once you understand them, your code stops looking like a mess of random instructions and starts looking like something an actual developer wrote. In this guide, we'll break down what functions are, why they matter, and how they make you a better coder — whether you're 12 years old or just starting out."
+        "text": "Functions are one of the first real \"aha\" moments for anyone learning Python. Once you understand them, your code stops looking like a mess of random instructions and starts looking like something an actual developer wrote. In this guide, we'll break down what functions are, why they matter, and how they make you a better coder, whether you're 12 years old or just starting out."
       },
       {
         "type": "heading",
@@ -79,7 +79,7 @@
       },
       {
         "type": "paragraph",
-        "text": "Python has two types of functions. Built-in functions come pre-loaded — things like print(), len(), and input(). User-defined functions are ones you create yourself using the def keyword. According to the <a href='https://docs.python.org/3/tutorial/controlflow.html#defining-functions' target='_blank' rel='noopener noreferrer'>Python official documentation</a>, functions are one of the most fundamental tools for structuring any program, no matter the size."
+        "text": "Python has two types of functions. Built-in functions come pre-loaded, things like print(), len(), and input(). User-defined functions are ones you create yourself using the def keyword. According to the <a href='https://docs.python.org/3/tutorial/controlflow.html#defining-functions' target='_blank' rel='noopener noreferrer'>Python official documentation</a>, functions are one of the most fundamental tools for structuring any program, no matter the size."
       },
       {
         "type": "paragraph",
@@ -94,7 +94,7 @@
       {
         "type": "heading",
         "level": 3,
-        "text": "1. Reusability — Write Once, Use Anywhere"
+        "text": "1. Reusability: Write Once, Use Anywhere"
       },
       {
         "type": "paragraph",
@@ -102,7 +102,7 @@
       },
       {
         "type": "paragraph",
-        "text": "Think of it like a TV remote. You press the volume-up button once — you don't have to rewire the TV every time you want the sound louder. A function works the same way."
+        "text": "Think of it like a TV remote. You press the volume-up button once. You don't have to rewire the TV every time you want the sound louder. A function works the same way."
       },
       {
         "type": "code",
@@ -120,7 +120,7 @@
       },
       {
         "type": "paragraph",
-        "text": "When your program grows to 200 lines, reading it line by line becomes a nightmare. Functions fix this by breaking your code into named sections — each one doing a clear, specific job."
+        "text": "When your program grows to 200 lines, reading it line by line becomes a nightmare. Functions fix this by breaking your code into named sections, each one doing a clear, specific job."
       },
       {
         "type": "paragraph",
@@ -168,7 +168,7 @@
       },
       {
         "type": "paragraph",
-        "text": "Functions give your code structure. Think of them like chapters in a book — each chapter covers one topic, and together they tell the whole story."
+        "text": "Functions give your code structure. Think of them like chapters in a book, each chapter covers one topic, and together they tell the whole story."
       },
       {
         "type": "paragraph",
@@ -181,7 +181,7 @@
       {
         "type": "heading",
         "level": 3,
-        "text": "5. Saves Time and Reduces Repetition — The DRY Principle"
+        "text": "5. Saves Time and Reduces Repetition: The DRY Principle"
       },
       {
         "type": "paragraph",
@@ -220,21 +220,21 @@
       },
       {
         "type": "paragraph",
-        "text": "Functions make teamwork possible. Each person can work on different functions without breaking what others are building. As long as everyone knows what a function is supposed to do — its inputs and outputs — the team can work in parallel without stepping on each other's code."
+        "text": "Functions make teamwork possible. Each person can work on different functions without breaking what others are building. As long as everyone knows what a function is supposed to do, its inputs and outputs, the team can work in parallel without stepping on each other's code."
       },
       {
         "type": "paragraph",
-        "text": "This is how large apps are actually built — not in one giant file, but in dozens of focused, well-named functions and modules working together."
+        "text": "This is how large apps are actually built, not in one giant file, but in dozens of focused, well-named functions and modules working together."
       },
       {
         "type": "heading",
         "level": 2,
-        "text": "Built-in vs User-Defined Functions — What's the Difference?",
+        "text": "Built-in vs User-Defined Functions: What's the Difference?",
         "id": "builtin-vs-user-defined"
       },
       {
         "type": "paragraph",
-        "text": "Python comes loaded with built-in functions you can use right away — no setup needed."
+        "text": "Python comes loaded with built-in functions you can use right away, no setup needed."
       },
       {
         "type": "paragraph",
@@ -273,7 +273,7 @@
       },
       {
         "type": "paragraph",
-        "text": "As you build more complex functions, you'll also start working with numeric operations inside them. For example, when your function needs to divide numbers and return a whole number result, understanding how <a href='https://learn.modernagecoders.com/blog/what-is-floor-division-in-python' target='_blank' rel='noopener noreferrer'>floor division works in Python</a> becomes genuinely useful — especially when building game logic, pagination systems, or anything that deals with quantities."
+        "text": "As you build more complex functions, you'll also start working with numeric operations inside them. For example, when your function needs to divide numbers and return a whole number result, understanding how <a href='https://learn.modernagecoders.com/blog/what-is-floor-division-in-python' target='_blank' rel='noopener noreferrer'>floor division works in Python</a> becomes genuinely useful, especially when building game logic, pagination systems, or anything that deals with quantities."
       },
       {
         "type": "paragraph",
@@ -314,7 +314,7 @@
       },
       {
         "type": "paragraph",
-        "text": "<strong>Quiz app — checking answers:</strong>"
+        "text": "<strong>Quiz app, checking answers:</strong>"
       },
       {
         "type": "code",
@@ -332,7 +332,7 @@
       },
       {
         "type": "paragraph",
-        "text": "These are the kinds of <a href='https://learn.modernagecoders.com/blog/python-for-beginners' target='_blank' rel='noopener noreferrer'>Python projects for kids</a> that make learning stick. You're not just practicing syntax — you're building something real."
+        "text": "These are the kinds of <a href='https://learn.modernagecoders.com/blog/python-for-beginners' target='_blank' rel='noopener noreferrer'>Python projects for kids</a> that make learning stick. You're not just practicing syntax. You're building something real."
       },
       {
         "type": "heading",
@@ -346,19 +346,19 @@
       },
       {
         "type": "paragraph",
-        "text": "<strong>Forgetting return</strong> — Your function runs but gives back nothing. Use return when you need the result outside the function."
+        "text": "<strong>Forgetting return</strong>: Your function runs but gives back nothing. Use return when you need the result outside the function."
       },
       {
         "type": "paragraph",
-        "text": "<strong>Wrong indentation</strong> — Python uses indentation to know what's inside a function. One wrong space and your code breaks."
+        "text": "<strong>Wrong indentation</strong>: Python uses indentation to know what's inside a function. One wrong space and your code breaks."
       },
       {
         "type": "paragraph",
-        "text": "<strong>Calling before defining</strong> — If you call greet() before writing def greet():, Python won't know what you're referring to."
+        "text": "<strong>Calling before defining</strong>: If you call greet() before writing def greet():, Python won't know what you're referring to."
       },
       {
         "type": "paragraph",
-        "text": "<strong>Overloading one function</strong> — A function should do one thing well. If yours is handling five different tasks, split it into five smaller functions. Your future self will thank you."
+        "text": "<strong>Overloading one function</strong>: A function should do one thing well. If yours is handling five different tasks, split it into five smaller functions. Your future self will thank you."
       },
       {
         "type": "heading",
@@ -372,7 +372,7 @@
       },
       {
         "type": "paragraph",
-        "text": "The best part? You don't need to be an expert to start using them. Write one simple function today — even something that adds two numbers or prints a greeting. That first step will make everything else click faster."
+        "text": "The best part? You don't need to be an expert to start using them. Write one simple function today, even something that adds two numbers or prints a greeting. That first step will make everything else click faster."
       },
       {
         "type": "paragraph",
@@ -380,7 +380,7 @@
       },
       {
         "type": "paragraph",
-        "text": "If you're ready to go further, explore our <a href='https://learn.modernagecoders.com/courses/python-ai-kids-masterclass' target='_blank' rel='noopener noreferrer'>Python courses</a> designed for learners of all ages — from absolute beginners to teens building real apps."
+        "text": "If you're ready to go further, explore our <a href='https://learn.modernagecoders.com/courses/python-ai-kids-masterclass' target='_blank' rel='noopener noreferrer'>Python courses</a> designed for learners of all ages, from absolute beginners to teens building real apps."
       }
     ]
   },

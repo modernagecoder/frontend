@@ -10,7 +10,7 @@ Odisha • **Live Online Classes**
 
 # Coding Classes in Odisha for Kids, Teens & Adults
 
-From Bhubaneswar's Infocity and Cuttack to Rourkela, Sambalpur and Berhampur — Modern Age Coders teaches Scratch, Python, Java, Web Development and AI through live, small-batch online classes. Future-ready skills for a state quietly becoming an education and IT powerhouse.
+From Bhubaneswar's Infocity and Cuttack to Rourkela, Sambalpur and Berhampur: Modern Age Coders teaches Scratch, Python, Java, Web Development and AI through live, small-batch online classes. Future-ready skills for a state quietly becoming an education and IT powerhouse.
 
 Book a Free Demo ClassExplore Courses**4.9/5**Parent rating**5–8**Students per batch**100%**Live & online**6–60+**Ages we teach
 
@@ -73,17 +73,17 @@ Most Requested in Odisha
 
 ## Popular Coding Courses for Odisha Students
 
-Hand-picked programmes parents and students in Odisha ask for most — explore any of them or book a free demo to find the right fit.
+Hand-picked programmes parents and students in Odisha ask for most, explore any of them or book a free demo to find the right fit.
 
-[Python & AIFor kids & teens — code + intelligence](/python-and-ai-classes-for-kids-teens)[AI & ML for TeensBuild real machine-learning projects](/ai-ml-course-for-teens)[Java ProgrammingStrong OOP foundations for teens](/java-programming-for-kids-teens)[Web DevelopmentHTML, CSS, JavaScript & live sites](/courses/coding/teens)[Scratch for KidsGames & animation, ages 6–10](/courses/coding/kids)[DSA & Full-StackPlacement-ready for college students](/courses/coding/college)[Coding for GirlsSupportive, confidence-building batches](/coding-classes-for-girls)[Summer Coding CampFast, fun project sprints](/summer-coding-camp)
+[Python & AIFor kids & teens, code + intelligence](/python-and-ai-classes-for-kids-teens)[AI & ML for TeensBuild real machine-learning projects](/ai-ml-course-for-teens)[Java ProgrammingStrong OOP foundations for teens](/java-programming-for-kids-teens)[Web DevelopmentHTML, CSS, JavaScript & live sites](/courses/coding/teens)[Scratch for KidsGames & animation, ages 6–10](/courses/coding/kids)[DSA & Full-StackPlacement-ready for college students](/courses/coding/college)[Coding for GirlsSupportive, confidence-building batches](/coding-classes-for-girls)[Summer Coding CampFast, fun project sprints](/summer-coding-camp)
 
 Across The State
 
 ## Coding Classes in Every Corner of Odisha
 
-Because our classes are live and online, any student with a laptop and internet can join — whether you're in the capital or a district town. Explore our dedicated city page:
+Because our classes are live and online, any student with a laptop and internet can join, whether you're in the capital or a district town. Explore our dedicated city page:
 
-[Bhubaneswar Odisha's capital and IT hub — Infocity, KIIT and IIT Bhubaneswar. Coding in Bhubaneswar →](/best-coding-class-in-bhubaneswar)CuttackRourkelaSambalpurBerhampurPuriBalasoreBaripadaBhadrakJharsugudaAngulJeyporeDhenkanal
+[Bhubaneswar Odisha's capital and IT hub: Infocity, KIIT and IIT Bhubaneswar. Coding in Bhubaneswar →](/best-coding-class-in-bhubaneswar)CuttackRourkelaSambalpurBerhampurPuriBalasoreBaripadaBhadrakJharsugudaAngulJeyporeDhenkanal
 
 Why It Matters Here
 
@@ -91,7 +91,7 @@ Why It Matters Here
 
 Odisha is quietly becoming one of eastern India's education and technology centres. Bhubaneswar's Infocity hosts a growing cluster of IT companies, KIIT and IIT Bhubaneswar draw students from across the country, and NIT Rourkela is among India's most respected engineering institutes. For Odia families who deeply value education, coding is a natural way to turn that ambition into global opportunity.
 
-The challenge is access to modern, hands-on teaching beyond the capital. Modern Age Coders solves that with **live, small-batch online classes** where a real instructor knows each student's pace, reviews their projects and keeps them building — from Bhubaneswar to the smallest district town.
+The challenge is access to modern, hands-on teaching beyond the capital. Modern Age Coders solves that with **live, small-batch online classes** where a real instructor knows each student's pace, reviews their projects and keeps them building, from Bhubaneswar to the smallest district town.
 
 ### Aligned with Odisha's school boards
 
@@ -99,7 +99,7 @@ Our curriculum complements the **Board of Secondary Education Odisha (BSE/CHSE),
 
 ### Learn in the language you're comfortable with
 
-Classes are taught in English, and instructors can explain concepts in **Odia or Hindi** when it helps a student understand faster. We focus on genuine understanding, not rote learning — and we run a dedicated [Coding for Girls](/coding-classes-for-girls) programme to bring more girls across Odisha into tech.
+Classes are taught in English, and instructors can explain concepts in **Odia or Hindi** when it helps a student understand faster. We focus on genuine understanding, not rote learning. And we run a dedicated [Coding for Girls](/coding-classes-for-girls) programme to bring more girls across Odisha into tech.
 
 The Difference
 
@@ -107,11 +107,11 @@ The Difference
 
 ### Small live batches (5–8)
 
-Every student gets real attention from the instructor. No pre-recorded videos pretending to be a class — these are live, two-way sessions.
+Every student gets real attention from the instructor. No pre-recorded videos pretending to be a class, these are live, two-way sessions.
 
 ### Project-based learning
 
-Students build real games, websites, apps and AI projects — work they can show in school portfolios and college applications.
+Students build real games, websites, apps and AI projects, work they can show in school portfolios and college applications.
 
 ### Recorded for revision
 
@@ -182,13 +182,13 @@ Vineeta ShyamsukhaParent★★★★★
 
 Ritu KediaParent★★★★★
 
-"Very good classes. Don't worry about coding—they teach the best, especially Shivam sir."
+"Very good classes. Don't worry about coding. They teach the best, especially Shivam sir."
 
 Shaarav WadhwaStudent
 
 ## Ready to start coding in Odisha?
 
-Book a free demo class today — see how your child learns before you spend a rupee.
+Book a free demo class today. See how your child learns before you spend a rupee.
 
 Book a Free Demo Class
 

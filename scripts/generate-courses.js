@@ -130,7 +130,7 @@ class CourseGenerator {
             // Get course files.
             // Sorted: readdir order is filesystem-dependent (Windows returns names sorted,
             // Linux/Netlify returns inode order). Two JSONs can declare the same meta.slug,
-            // and whichever is written last wins — so an unsorted read means the build can
+            // and whichever is written last wins, so an unsorted read means the build can
             // publish a different title/price on Netlify than it does locally.
             const courseFiles = fs.readdirSync(this.dataDir)
                 .filter(f => f.endsWith('.json') && f !== 'courses-config.json')
@@ -318,7 +318,7 @@ class CourseGenerator {
      * @returns {string} HTML string for the week
      */
     generateWeekHTML(weekData, weekKey) {
-        // Some course data stores a week as a plain descriptive string —
+        // Some course data stores a week as a plain descriptive string, 
         // render it as the week's description instead of an empty shell.
         if (typeof weekData === 'string') {
             weekData = { title: '', description: weekData };
@@ -338,7 +338,7 @@ class CourseGenerator {
         const weekRange = weekNums.length > 1 ? `Weeks ${weekNums.join('-')}`
             : weekNums.length === 1 ? `Week ${weekNums[0]}` : '';
 
-        // Only collapse topics when there is a meaningful amount hidden —
+        // Only collapse topics when there is a meaningful amount hidden, 
         // a "Show 2 more" button is worse than just showing the two lines.
         const showMoreTopics = topics.length > 14;
         const visibleTopics = showMoreTopics ? topics.slice(0, 10) : topics;
@@ -634,7 +634,7 @@ class CourseGenerator {
     }
 
     /**
-     * Premium "agents" courses — the ones where students drive real, paid AI
+     * Premium "agents" courses, the ones where students drive real, paid AI
      * agent tooling live in class (Codex + Claude Code, AI Agents with
      * Copilot Studio). They price from the agents row of
      * pricing/pricing.config.jsonc instead of the coding row, so membership
@@ -667,7 +667,7 @@ class CourseGenerator {
      */
     priceSubjectFor(slug) {
         // Delegates to the pricing library so every script resolves a slug to
-        // the same subject — a second copy of this logic once disagreed and a
+        // the same subject, a second copy of this logic once disagreed and a
         // computer-science course got the maths price in its FAQ.
         return PRICING.courseSubject(slug);
     }
@@ -692,7 +692,7 @@ class CourseGenerator {
                 throw new Error(
                     `Course "${slug}" needs an India ${tier} price but ${subject}.india.${tier} ` +
                     `is null in pricing/pricing.config.jsonc. Set a price there, or stop ` +
-                    `rendering that tier — do not let a course page publish a plan with no price.`
+                    `rendering that tier, do not let a course page publish a plan with no price.`
                 );
             }
             out[tier] = PRICING.format(r.amount, r.currency, { style: 'plain' });
@@ -714,7 +714,7 @@ class CourseGenerator {
         const t = String(text).toLowerCase().replace(/[–—]/g, '-');
 
         // A stated weekly total wins. Anything following it in parentheses breaks that total
-        // down ("5-7 hours/week (2 live classes + self-practice)") — it is not extra work, so
+        // down ("5-7 hours/week (2 live classes + self-practice)"). It is not extra work, so
         // adding the class count here would overstate the commitment.
         const weekly = t.match(/(?:(\d+(?:\.\d+)?)\s*-\s*)?(\d+(?:\.\d+)?)\s*hours?\s*(?:\/\s*|per\s+)week/);
         if (weekly) return `PT${Math.round(parseFloat(weekly[2]))}H`;
@@ -763,7 +763,7 @@ class CourseGenerator {
             "educationalLevel": meta.level || "All Levels",
             "hasCourseInstance": {
                 "@type": "CourseInstance",
-                // "Online", not "online" — Google matches this against a case-sensitive
+                // "Online", not "online": Google matches this against a case-sensitive
                 // enum (Online | Onsite | Blended) and ignores the value otherwise.
                 "courseMode": "Online",
                 "instructor": {
@@ -775,7 +775,7 @@ class CourseGenerator {
 
         // A CourseInstance needs courseSchedule or courseWorkload, and Google expects
         // courseWorkload as an ISO 8601 duration. meta.commitment is human prose
-        // ("12-15 hours/week recommended"), which Google cannot parse — so the property
+        // ("12-15 hours/week recommended"), which Google cannot parse, so the property
         // was present but useless. Convert it; omit rather than guess when it cannot be read.
         const workload = this.isoWorkload(meta.commitment);
         if (workload) courseSchema.hasCourseInstance.courseWorkload = workload;
@@ -789,7 +789,7 @@ class CourseGenerator {
             };
         }
 
-        // Pricing offers — enforce standard 3-tier structure across all courses.
+        // Pricing offers, enforce standard 3-tier structure across all courses.
         // offers.category must be one of Google's four values: Free | Partially Free |
         // Subscription | Paid. It previously held the tier name ("Group Classes", "Mini
         // Batch", "Personalized 1-on-1"), which fails a *required* property and made every
@@ -864,23 +864,23 @@ class CourseGenerator {
             courseSchema.keywords = meta.keywords.join(', ');
         }
 
-        // about — subjects covered as Thing entities for AI agent topical matching
+        // about, subjects covered as Thing entities for AI agent topical matching
         if (Array.isArray(meta.keywords) && meta.keywords.length) {
             courseSchema.about = meta.keywords.slice(0, 10).map(k => ({ "@type": "Thing", "name": k }));
         }
 
-        // teaches — explicit skills/topics. Single most-cited Course property in AI recommendations.
+        // teaches, explicit skills/topics. Single most-cited Course property in AI recommendations.
         if (Array.isArray(meta.keywords) && meta.keywords.length) {
             courseSchema.teaches = meta.keywords.slice(0, 15);
         }
 
-        // audience — EducationalAudience derived from slug + category
+        // audience: EducationalAudience derived from slug + category
         const audience = this.deriveAudience(meta);
         if (audience) {
             courseSchema.audience = audience;
         }
 
-        // educationalCredentialAwarded — structured object, not just text
+        // educationalCredentialAwarded, structured object, not just text
         const certName = meta.certification || `Certificate of completion: ${meta.title || 'Course'}`;
         courseSchema.educationalCredentialAwarded = {
             "@type": "EducationalOccupationalCredential",
@@ -893,7 +893,7 @@ class CourseGenerator {
         courseSchema.learningResourceType = "Online Course";
         courseSchema.isAccessibleForFree = false;
 
-        // coursePrerequisites — derive from level (was previously set incorrectly to category)
+        // coursePrerequisites, derive from level (was previously set incorrectly to category)
         const level = (meta.level || '').toLowerCase();
         if (/beginner|absolute beginner|zero|no prior/.test(level)) {
             courseSchema.coursePrerequisites = "None, designed for complete beginners";
@@ -914,18 +914,18 @@ class CourseGenerator {
         // present, the multiple reviews are valid (fixes the GSC "Multiple reviews
         // without aggregateRating object" error).
         //
-        // DECISION CHECKPOINT — review by 2026-09-15 (Phase 1.6).
+        // DECISION CHECKPOINT, review by 2026-09-15 (Phase 1.6).
         // Known risk, accepted knowingly by the owner on 2026-07-01, recorded here so the
         // next person to read this code sees the trade-off rather than assuming it is fine:
         // this is ONE organisation-level rating (4.9/547, a real Google Business Profile
         // figure for the business as a whole) applied to 102 DIFFERENT Course items, with
         // the same 4 reviews cloned onto each. Google's guidance is that a review must be
         // about the specific item it is attached to. The likely outcome is silent
-        // suppression — no stars, markup ignored, no penalty; the bad outcome is a
+        // suppression, no stars, markup ignored, no penalty; the bad outcome is a
         // Review-snippet manual action that can cost rich-result eligibility site-wide.
         // ACTION: watch GSC → Enhancements → Review snippets weekly. If no course page is
         // showing stars by 2026-09-15, this block and courseSchema.review below are pure
-        // downside — delete both. The durable fix is per-course reviews (Phase 9.1): ask
+        // downside, delete both. The durable fix is per-course reviews (Phase 9.1): ask
         // each batch's parents to name the course in their Google review, then mark up only
         // the reviews that genuinely belong to that course.
         courseSchema.aggregateRating = {
@@ -1013,11 +1013,11 @@ class CourseGenerator {
 
         // Dates must describe the course content, not the build. This used to emit
         // new Date(), so every deploy told Google all 104 course pages had been published
-        // AND modified at that exact second — pure fake freshness, and Google treats a
+        // AND modified at that exact second, pure fake freshness, and Google treats a
         // dateModified that moves without the content moving as a low-trust signal.
         // Use the author-declared dates; when a course JSON has none, omit the fields
         // rather than invent them. (Backfilling meta.dateModified across the catalog is
-        // tracked as Phase 6.4 — only 6 of 103 courses declare a date today.)
+        // tracked as Phase 6.4, only 6 of 103 courses declare a date today.)
         const published = meta.date || meta.dateModified;
         const modified = meta.dateModified || meta.date;
         if (published) articleSchema.datePublished = published;
@@ -1052,8 +1052,8 @@ class CourseGenerator {
                 "addressCountry": "IN"
             },
             // Phase 8.1: link the Organization to the named human founder (Person entity
-            // canonically defined at /team#founder). This closes the E-E-A-T loop —
-            // Org -> founder Person -> LinkedIn sameAs — that lets Google/LLMs join the dots.
+            // canonically defined at /team#founder). This closes the E-E-A-T loop, 
+            // Org -> founder Person -> LinkedIn sameAs. That lets Google/LLMs join the dots.
             "founder": {
                 "@type": "Person",
                 "@id": "https://learn.modernagecoders.com/team#founder",
@@ -1164,7 +1164,7 @@ class CourseGenerator {
             html = html.replace(/[ \t]*<!-- TIER:(?:GROUP|MINIBATCH|INTL_GROUP) (?:START|END) -->\r?\n/g, '');
         }
 
-        // Pricing — site-wide standard 3-tier pricing, except the premium
+        // Pricing, site-wide standard 3-tier pricing, except the premium
         // agents courses (see getTierPrices / isPremiumAgentsCourse).
         // (Per-course JSON prices are otherwise ignored in favor of standard tiers.)
         const tierP = this.getTierPrices(meta.slug);
@@ -1188,7 +1188,7 @@ class CourseGenerator {
 
         // International list prices for the static card, from the config. These
         // were hardcoded $40/$100 in the template and post-edited by fragile
-        // regex swaps for maths/agents pages — which is how all 115 course
+        // regex swaps for maths/agents pages, which is how all 115 course
         // pages went on showing the retired flat rate to no-JS visitors after
         // the worldwide ladder replaced it.
         const intlPrices = PRICING.coursePrices(meta.slug).international;
@@ -1278,7 +1278,7 @@ class CourseGenerator {
         const curriculumHTML = this.generateCurriculumHTML(courseData);
         html = html.replace(/{{CURRICULUM_MODULES}}/g, curriculumHTML);
 
-        // Projects & Portfolio Tab — every box renders only when it has data
+        // Projects & Portfolio Tab, every box renders only when it has data
         // (no more "No information available" placeholder text on live pages).
         const resources = courseData.additional_learning_resources || {};
         const totalProjects = resources.total_projects_built || '50+ projects';
@@ -1357,7 +1357,7 @@ class CourseGenerator {
         html = html.replace(/{{WHY_THIS_COURSE}}/g, whyThisCourseHTML);
 
         // Inline curriculum JSON for client-side Download Curriculum PDF feature.
-        // Every '<' is escaped to < — prevents </script> breakout and is the
+        // Every '<' is escaped to <, prevents </script> breakout and is the
         // industry-standard JSON-in-HTML safety pattern.
         const curriculumPayload = this.buildCurriculumPayload(courseData);
         const curriculumJson = JSON.stringify(curriculumPayload).replace(/</g, '\\u003c');
@@ -1368,7 +1368,7 @@ class CourseGenerator {
         html = html.replace(/{{SUCCESS_METRICS}}/g, successMetricsHTML);
 
         // Maths courses: international (USD) pricing is higher than the flat
-        // coding rate — Group $100, 1-on-1 $150. Tag the page data-subject="maths"
+        // coding rate: Group $100, 1-on-1 $150. Tag the page data-subject="maths"
         // so international-pricing.js swaps the ₹ enrollment cards accordingly,
         // and update the static "International Students" FYI cards/modals to match.
         // Coding courses are untouched; Indian ₹ prices are identical either way.

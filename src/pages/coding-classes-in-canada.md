@@ -8,7 +8,7 @@ source: src/pages/coding-classes-in-canada.html
 
 ### Request a callback
 
-Leave your number — a mentor in your time zone calls back within 3 hours.
+Leave your number, a mentor in your time zone calls back within 3 hours.
 
 #### We'll ring you shortly!
 
@@ -16,17 +16,17 @@ Expect a call within 3 hours in your time zone.
 
 An **Online School** · Serving Canada from coast to coast to coast · +1 · EN · FR
 
-# Real coding & AI for Canadian students — *from Tofino to St. John's.*
+# Real coding & AI for Canadian students: *from Tofino to St. John's.*
 
-Live 1:1 mentorship in **Python**, modern web and **agentic AI** for Canadian kids, teens and adults — aligned with **Ontario**'s coding strand, **BC ADST**, **Québec ESS** & **CEGEP CS**, **Alberta CTF**, and the algorithmic depth University of Waterloo, UofT, UBC and McGill quietly expect. **USD 150 a month**, eight live sessions, two a week, cancel any time. Mentors work in **your time zone**.
+Live 1:1 mentorship in **Python**, modern web and **agentic AI** for Canadian kids, teens and adults, aligned with **Ontario**'s coding strand, **BC ADST**, **Québec ESS** & **CEGEP CS**, **Alberta CTF**, and the algorithmic depth University of Waterloo, UofT, UBC and McGill quietly expect. **USD 150 a month**, eight live sessions, two a week, cancel any time. Mentors work in **your time zone**.
 
-See all coursesMentors live in **6 Canadian time zones**Booking now · 09:00 – 21:00 local in each zone**PT** · UTC −8Vancouver · VictoriaAfter-school *15:30*, evening *18:00 – 20:00*, Sat morning**MT** · UTC −7Calgary · EdmontonAfter-school *16:00*, evening *18:30*, Sat morning**CT** · UTC −6Winnipeg · ReginaAfter-school *16:30*, evening *19:00*, weekend mornings**ET** · UTC −5Toronto · Ottawa · MontréalAfter-school *17:00*, evening *19:30*, every slot busy**AT** · UTC −4Halifax · CharlottetownAfter-school *16:30*, evening *19:00*, weekend mornings**NT** · UTC −3:30St. John's · NLAfter-school *17:30*, evening *20:00*, Sat morningParent rating4.9 / 5 · 547 reviewsAligned withOntario · BC · Québec · AlbertaTime zonesAll 6 — PT · MT · CT · ET · AT · NTCommitmentFree trial · cancel monthlyPick a course · start this week
+See all coursesMentors live in **6 Canadian time zones**Booking now · 09:00: 21:00 local in each zone**PT** · UTC −8Vancouver · VictoriaAfter-school *15:30*, evening *18:00, 20:00*, Sat morning**MT** · UTC −7Calgary · EdmontonAfter-school *16:00*, evening *18:30*, Sat morning**CT** · UTC −6Winnipeg · ReginaAfter-school *16:30*, evening *19:00*, weekend mornings**ET** · UTC −5Toronto · Ottawa · MontréalAfter-school *17:00*, evening *19:30*, every slot busy**AT** · UTC −4Halifax · CharlottetownAfter-school *16:30*, evening *19:00*, weekend mornings**NT** · UTC −3:30St. John's · NLAfter-school *17:30*, evening *20:00*, Sat morningParent rating4.9 / 5 · 547 reviewsAligned withOntario · BC · Québec · AlbertaTime zonesAll 6: PT · MT · CT · ET · AT · NTCommitmentFree trial · cancel monthlyPick a course · start this week
 
 ## Seven serious tracks. Same mentor every week. Real shipped projects.
 
 Each row below is a live course you can join this week. Click anywhere on the row to open the full course page.
 
-[Ages 6 – 12 · Elementary Coding for Kids — Scratch to real Python, gentle Canadian pace. For students from JK through Grade 6 across Ontario, BC, Québec, Alberta and the Maritimes. Starts in Scratch, switches to real Python by week 10, ships a tiny project a month. ScratchPythonGamesAI intro USD 150/ moOpen course →   Sample weekly slot · ET 17:00 Tue + 17:00 Thu  2 × 45 min · same mentor every week Recordings + parent note after every class Maps to Ontario coding strand & BC ADST](/courses/coding/kids)[Most chosen · Ages 13 – 18 · High school Coding & AI for Teens — Waterloo / UofT / UBC / McGill-aware. Real Python, JavaScript, Git, web apps and modern AI engineering on a 12-month arc. Coaches the Canadian Computing Competition (CCC) and Canadian Computing Olympiad (CCO). PythonJavaScriptWebGitCCC / CCO USD 150/ moOpen course →   A typical year // Year 1 plan, grade 10 student, Toronto Term 1 · Python deep + Git Term 2 · Web apps shipped to Vercel Term 3 · Modern AI: RAG + agents Summer · CCC + portfolio capstone](/courses/coding/teens)[New · Ages 13 – 18 · AI track AI & Agentic-AI — the way Cohere, Vector and Mila ship. Build real LLM apps end-to-end: prompts, retrieval, tool-calling agents, evals, deploy. The same patterns Canadian AI shops actually use in production. OpenAI APIClaude APIRAGAgentsLangGraph USD 150/ moOpen course →   First two months  **Week 1–2:** calling LLM APIs from Python **Week 3–4:** structured output & tools **Week 5–6:** RAG over your own notes **Week 7–8:** first deployed agent](/ai-ml-course-for-teens)[CEGEP · University · Adults Coding for CEGEP, university & career switch. For CEGEP CS students in Québec, Canadian undergrads at any university, and adults retraining into software / data / AI roles at Shopify, Wealthsimple, RBC, TD, Constellation Software, Cohere, Telus, etc. AlgorithmsSystem designCloudAI engineering USD 150/ moOpen course →   Common goals  CEGEP CS programme top-up & project supervision Waterloo / UofT / UBC CS prep for high school grads Career switch into a Toronto / Montréal / Vancouver SWE role Interview prep: DSA + system design](/courses/coding/college)[For girls · 8 – 22 Special For Girls — all-female mentor pairing. Same curriculum as every other track. All-female mentor pairing. Role models from the Toronto, Montréal and Vancouver tech scenes. Optional intro through Ladies Learning Code partner cohorts. PythonWebAIMentorship USD 150/ moOpen course →   Why it works  Same-mentor pairing for confidence and continuity Project briefs tuned to real-world impact Network of role-model alumnae across Canada](/courses/coding/girls)[Schools · Boards · Companies For Canadian schools & teams — bilingual cohorts available. For Canadian schools (independent, public, French-immersion), school boards, and companies upskilling staff. Cohorts of 6 – 30, tailored to your provincial framework, delivered on your hours. CohortCustom curriculumBilingualReports USD 100/ seat · groupTalk to us →   Recent partner profiles  Independent school in Greater Toronto Area — Grade 9 cohort Toronto District School Board — code club partner pilot French-immersion *polyvalente* in Montréal — bilingual format Calgary tech firm — adult upskilling cohort](/courses/coding/corporate)
+[Ages 6, 12 · Elementary Coding for Kids, Scratch to real Python, gentle Canadian pace. For students from JK through Grade 6 across Ontario, BC, Québec, Alberta and the Maritimes. Starts in Scratch, switches to real Python by week 10, ships a tiny project a month. ScratchPythonGamesAI intro USD 150/ moOpen course →   Sample weekly slot · ET 17:00 Tue + 17:00 Thu  2 × 45 min · same mentor every week Recordings + parent note after every class Maps to Ontario coding strand & BC ADST](/courses/coding/kids)[Most chosen · Ages 13, 18 · High school Coding & AI for Teens, Waterloo / UofT / UBC / McGill-aware. Real Python, JavaScript, Git, web apps and modern AI engineering on a 12-month arc. Coaches the Canadian Computing Competition (CCC) and Canadian Computing Olympiad (CCO). PythonJavaScriptWebGitCCC / CCO USD 150/ moOpen course →   A typical year // Year 1 plan, grade 10 student, Toronto Term 1 · Python deep + Git Term 2 · Web apps shipped to Vercel Term 3 · Modern AI: RAG + agents Summer · CCC + portfolio capstone](/courses/coding/teens)[New · Ages 13, 18 · AI track AI & Agentic-AI, the way Cohere, Vector and Mila ship. Build real LLM apps end-to-end: prompts, retrieval, tool-calling agents, evals, deploy. The same patterns Canadian AI shops actually use in production. OpenAI APIClaude APIRAGAgentsLangGraph USD 150/ moOpen course →   First two months  **Week 1–2:** calling LLM APIs from Python **Week 3–4:** structured output & tools **Week 5–6:** RAG over your own notes **Week 7–8:** first deployed agent](/ai-ml-course-for-teens)[CEGEP · University · Adults Coding for CEGEP, university & career switch. For CEGEP CS students in Québec, Canadian undergrads at any university, and adults retraining into software / data / AI roles at Shopify, Wealthsimple, RBC, TD, Constellation Software, Cohere, Telus, etc. AlgorithmsSystem designCloudAI engineering USD 150/ moOpen course →   Common goals  CEGEP CS programme top-up & project supervision Waterloo / UofT / UBC CS prep for high school grads Career switch into a Toronto / Montréal / Vancouver SWE role Interview prep: DSA + system design](/courses/coding/college)[For girls · 8, 22 Special For Girls, all-female mentor pairing. Same curriculum as every other track. All-female mentor pairing. Role models from the Toronto, Montréal and Vancouver tech scenes. Optional intro through Ladies Learning Code partner cohorts. PythonWebAIMentorship USD 150/ moOpen course →   Why it works  Same-mentor pairing for confidence and continuity Project briefs tuned to real-world impact Network of role-model alumnae across Canada](/courses/coding/girls)[Schools · Boards · Companies For Canadian schools & teams, bilingual cohorts available. For Canadian schools (independent, public, French-immersion), school boards, and companies upskilling staff. Cohorts of 6: 30, tailored to your provincial framework, delivered on your hours. CohortCustom curriculumBilingualReports USD 100/ seat · groupTalk to us →   Recent partner profiles  Independent school in Greater Toronto Area, Grade 9 cohort Toronto District School Board, code club partner pilot French-immersion *polyvalente* in Montréal, bilingual format Calgary tech firm, adult upskilling cohort](/courses/coding/corporate)
 
 Many Canadian students take AP for university credit, and international schools here also run IB and Cambridge curricula. These live courses prepare those exams directly.
 
@@ -34,11 +34,11 @@ Many Canadian students take AP for university credit, and international schools 
 
 ## Three cities. Three Turing Awards. One country.
 
-Modern AI was largely shaped from inside three Canadian universities. We respect that — and we teach the patterns those labs actually use.
+Modern AI was largely shaped from inside three Canadian universities. We respect that. And we teach the patterns those labs actually use.
 
 Vector InstituteToronto
 
-Geoffrey Hinton's home base. UofT, Vector, Cohere. Where modern deep learning was crystallised — and where Canada's AI commercialisation now lives.
+Geoffrey Hinton's home base. UofT, Vector, Cohere. Where modern deep learning was crystallised, and where Canada's AI commercialisation now lives.
 
 Mila · McGill / UdeMMontréal
 
@@ -56,7 +56,7 @@ Whether your child is in Ontario, BC, Alberta, Québec, the Maritimes or the ter
 
 Ontario ONCoding strand · Math curriculum 2020
 
-Ontario's largest cohort — Toronto, Mississauga, Ottawa, Hamilton, London. Mapped to the Grade 1–8 coding strand and high-school ICS courses.
+Ontario's largest cohort: Toronto, Mississauga, Ottawa, Hamilton, London. Mapped to the Grade 1–8 coding strand and high-school ICS courses.
 
 British Columbia BCADST · Applied Design, Skills & Technologies
 
@@ -130,45 +130,45 @@ Start atGrade 11 or CEGEP yr 1Ships projectsCapstone-styleTarget outcomeTop CS p
 
 For Canadian adults retraining into software, data or AI engineering roles. Built around how Toronto, Montréal, Vancouver and Ottawa employers actually hire.
 
-Start atAny age 22 – 65Ships projectsPortfolio-gradeTarget outcomeFirst SWE / AI job★ ★ ★ ★ ★
+Start atAny age 22: 65Ships projectsPortfolio-gradeTarget outcomeFirst SWE / AI job★ ★ ★ ★ ★
 
 > "My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative and listen to our suggestions."
 
 SOSonam OswalParent of DhairyaReal shipped student projects
 
-## Real apps our students built — live, public, and yours to open.
+## Real apps our students built: live, public, and yours to open.
 
 Every project below was built by a Modern Age Coders student and is live on the internet right now. Tap any card to open the real thing. See the full wall at [Student Labs](/student-labs).
 
 Built by Vivaan · AI & ML
 
-### GuardianX — AI Bodyguard for the Internet
+### GuardianX: AI Bodyguard for the Internet
 
-Paste any suspicious link or message and GuardianX returns an instant AI verdict before you become a victim — plus a link scanner, safety score, breach check and live scam alerts built for…
+Paste any suspicious link or message and GuardianX returns an instant AI verdict before you become a victim, plus a link scanner, safety score, breach check and live scam alerts built for…
 
 Vibe CodingAIReactLovable[Open the live project ↗](https://guardianx-cybersaver.lovable.app)Built by Modern Age Coders · Game
 
-### Babu — 90 Second Maths Challenge
+### Babu: 90 Second Maths Challenge
 
 An exciting 90-second maths challenge with random problems under time pressure, and a dynamic leaderboard powered by Firebase/MongoDB with real-time score updates.
 
 JavaScriptFirebaseMongoDB[Open the live project ↗](https://babu.modernagecoders.com)Built by Raayan · Web App
 
-### LumenFX — AR/VR Photo Effects Studio
+### LumenFX: AR/VR Photo Effects Studio
 
-Upload a photo and transform it with cinematic filters, AR face effects and the wildest trending edits — the same looks blowing up on TikTok, Reels and Snap, with 240+ one-tap presets.
+Upload a photo and transform it with cinematic filters, AR face effects and the wildest trending edits, the same looks blowing up on TikTok, Reels and Snap, with 240+ one-tap presets.
 
 Vibe CodingAR / VRWebGLLovable[Open the live project ↗](https://arvrbadestweb.lovable.app)Built by Vedant · Web App
 
-### MyDay — Social Productivity Organizer
+### MyDay: Social Productivity Organizer
 
-A beautifully designed productivity platform to organise daily tasks, set goals and stay consistent — with a community feed of others' plans for inspiration.
+A beautifully designed productivity platform to organise daily tasks, set goals and stay consistent, with a community feed of others' plans for inspiration.
 
 JavaScriptNode.jsMongoDBPython[Open the live project ↗](https://myday.modernagecoders.com)Built by Kriti · AI & ML
 
-### HairSync — AI Hairstyle Try-On
+### HairSync: AI Hairstyle Try-On
 
-Upload a clear photo and try on any hairstyle before you commit — wolf cuts, curtain bangs, fades, braids and dozens of trending looks, rendered onto your own face by AI in seconds.
+Upload a clear photo and try on any hairstyle before you commit, wolf cuts, curtain bangs, fades, braids and dozens of trending looks, rendered onto your own face by AI in seconds.
 
 Vibe CodingAI ImageVirtual Try-OnLovable[Open the live project ↗](https://hairsync.lovable.app)Built by Manay · Tool
 
@@ -210,7 +210,7 @@ KD
 
 ### The kids-first mentor
 
-Grade 1 – Grade 6
+Grade 1: Grade 6
 
 Patient, child-development-aware, calm pace. Bridges Scratch to real Python so even Grade 3 students leave able to write a working program.
 
@@ -242,7 +242,7 @@ Billed in USD · no joining fee
 
 - 8 live 1:1 sessions every month
 - 2 classes per week, your chosen time-zone slots
-- Same mentor every week — no rotation
+- Same mentor every week, no rotation
 - Custom curriculum mapped to your province
 - Class recordings & weekly parent / student note
 - WhatsApp / email support between classes
@@ -268,11 +268,11 @@ How we compare
 
 ## Honest side-by-side with what most Canadian families already tried.
 
-School coding clubs, Canadian online schools (Pinnguaq, Canada Learning Code), private tutors, free YouTube — they all have a place.
+School coding clubs, Canadian online schools (Pinnguaq, Canada Learning Code), private tutors, free YouTube. They all have a place.
 
-What mattersModern Age CodersSchool / Code clubCanadian online schoolsPrivate tutorSame 1:1 mentor weekly, all year✓ Yes— No~ Rotating✓ OftenReal coding (Python · JS · Git · deploy)✓ Week 1~ Depends~ Eventually~ Tutor-specificModern AI & agentic-AI✓ Built in— No~ Marketing— RareProvincial curriculum alignment✓ All provinces✓ Native~ Generic~ Tutor-specificCCC / CCO / Waterloo prep✓ Yes— No— No~ RareBilingual EN / FR support✓ Available✓ In QC~ Partial~ Tutor-specificMonthly costUSD 150 (1:1) / 100 (group)FreeCAD 250 – 500CAD 60 – 90 / hourWhere Canadian families learn with us
+What mattersModern Age CodersSchool / Code clubCanadian online schoolsPrivate tutorSame 1:1 mentor weekly, all year✓ Yes: No~ Rotating✓ OftenReal coding (Python · JS · Git · deploy)✓ Week 1~ Depends~ Eventually~ Tutor-specificModern AI & agentic-AI✓ Built in, No~ Marketing, RareProvincial curriculum alignment✓ All provinces✓ Native~ Generic~ Tutor-specificCCC / CCO / Waterloo prep✓ Yes, No, No~ RareBilingual EN / FR support✓ Available✓ In QC~ Partial~ Tutor-specificMonthly costUSD 150 (1:1) / 100 (group)FreeCAD 250, 500CAD 60, 90 / hourWhere Canadian families learn with us
 
-## Online classes — locally aware, time-zone native.
+## Online classes: locally aware, time-zone native.
 
 Six closer looks at the cities most of our Canadian families come from. Your city is supported even if it isn't listed.
 
@@ -334,11 +334,11 @@ A real 30-minute live lesson on your child's local slot. We tailor a learning pl
 
 Are mentors available in my Canadian time zone?
 
-Yes — all six. Mentors are live across PT, MT, CT, ET, AT and NT, covering Vancouver, Calgary, Winnipeg, Toronto, Halifax and St. John's. You pick two weekly slots in your own time zone; we never schedule you for a session at 1:00 AM your local time.
+Yes, all six. Mentors are live across PT, MT, CT, ET, AT and NT, covering Vancouver, Calgary, Winnipeg, Toronto, Halifax and St. John's. You pick two weekly slots in your own time zone; we never schedule you for a session at 1:00 AM your local time.
 
 Is the course aligned with my province's curriculum?
 
-Yes — we map to Ontario's coding strand, BC's ADST 6–9 and CS 11/12, Québec's ESS and CEGEP CS programmes, Alberta's CTF and CSE, Manitoba's ICT continuum, Saskatchewan's CS 20/30, Nova Scotia's K–8 coding mandate and CS 10/11/12, and the curricula in NB, NL, PE, YT, NT and NU. Tell us your province on the trial call and the mentor adapts the term plan accordingly.
+Yes. We map to Ontario's coding strand, BC's ADST 6–9 and CS 11/12, Québec's ESS and CEGEP CS programmes, Alberta's CTF and CSE, Manitoba's ICT continuum, Saskatchewan's CS 20/30, Nova Scotia's K–8 coding mandate and CS 10/11/12, and the curricula in NB, NL, PE, YT, NT and NU. Tell us your province on the trial call and the mentor adapts the term plan accordingly.
 
 Can you prepare for Waterloo, UofT, UBC, McGill or another Canadian CS programme?
 
@@ -350,15 +350,15 @@ Yes. Core lessons are delivered in clear English (the working language of code a
 
 What does it cost in Canadian dollars?
 
-Private 1:1 mentorship is **USD 150 per month** — 8 sessions, two per week. Small-group cohort is **USD 100 per month** on the same schedule. Billing is in USD; your bank applies the live CAD conversion.
+Private 1:1 mentorship is **USD 150 per month**: 8 sessions, two per week. Small-group cohort is **USD 100 per month** on the same schedule. Billing is in USD; your bank applies the live CAD conversion.
 
 Are classes paused over Canadian school holidays?
 
-You decide. Most Canadian families pause across Christmas / Hanukkah / Holiday break, March Break, and the summer if needed. Pause any month with one message to your mentor — no fee, no awkward conversation. Some families instead use breaks for a focused project sprint.
+You decide. Most Canadian families pause across Christmas / Hanukkah / Holiday break, March Break, and the summer if needed. Pause any month with one message to your mentor, no fee, no awkward conversation. Some families instead use breaks for a focused project sprint.
 
 Will my child learn real AI?
 
-Yes. Students build LLM-powered apps end-to-end — prompting, structured output, retrieval-augmented generation, tool-calling agents, evaluations and deployment. The same patterns shipped at Cohere (Toronto), Vector Institute, Mila (Montréal), Amii (Edmonton), Shopify, Wealthsimple and Telus AI.
+Yes. Students build LLM-powered apps end-to-end, prompting, structured output, retrieval-augmented generation, tool-calling agents, evaluations and deployment. The same patterns shipped at Cohere (Toronto), Vector Institute, Mila (Montréal), Amii (Edmonton), Shopify, Wealthsimple and Telus AI.
 
 How is AI safety handled for younger children?
 
@@ -378,11 +378,11 @@ Yes. We support students in French-immersion schools across Canada, the *polyval
 
 What's the cancellation policy?
 
-The first trial is always free. After that, you can cancel any time before the next monthly billing cycle — no fee, no contract. If a month has just renewed and you want to stop, contact us within 7 days and we'll refund the unused portion.
+The first trial is always free. After that, you can cancel any time before the next monthly billing cycle, no fee, no contract. If a month has just renewed and you want to stop, contact us within 7 days and we'll refund the unused portion.
 
 Inside your first month
 
-## Week by week — what actually happens for a Canadian family.
+## Week by week: what actually happens for a Canadian family.
 
 A typical first month for a Grade 7 Canadian student starting from zero. Pacing adapts up or down for younger or older learners across all 13 provinces and territories.
 
@@ -396,19 +396,19 @@ Free 30-minute trial lesson on Zoom in your local time zone. Mentor candidate me
 
 ### Foundations & computational thinking
 
-First two real sessions. Sequencing, decomposition, debugging — the joy of "the bug is mine to fix." Older students start in Python in VS Code; under-9s start in Scratch. Always real, no drag-and-drop blocks past age 9.
+First two real sessions. Sequencing, decomposition, debugging, the joy of "the bug is mine to fix." Older students start in Python in VS Code; under-9s start in Scratch. Always real, no drag-and-drop blocks past age 9.
 
 **Output:** a tiny program, your child's ownWeek 03
 
 ### Python on a real laptop
 
-VS Code installed, Python 3 running, terminal no longer scary. First original program — not from a tutorial — with input/output, variables, loops. Pushed to your child's first personal GitHub repository.
+VS Code installed, Python 3 running, terminal no longer scary. First original program, not from a tutorial, with input/output, variables, loops. Pushed to your child's first personal GitHub repository.
 
 **Output:** first GitHub commitWeek 04
 
 ### The first deploy
 
-End-of-month checkpoint: a small project chosen by the student — an NHL stats lookup, a Toronto-weather widget, a Whistler powder-day predictor, a CEGEP study quiz — shipped to GitHub Pages or Vercel. You receive a written progress note.
+End-of-month checkpoint: a small project chosen by the student, an NHL stats lookup, a Toronto-weather widget, a Whistler powder-day predictor, a CEGEP study quiz, shipped to GitHub Pages or Vercel. You receive a written progress note.
 
 **Output:** a live URL you can shareWhat families say
 
@@ -442,7 +442,7 @@ The teacher boosts students' confidence, keeps them updated with technology, and
 
 Honest commitments
 
-## What we'll always do — and what we'll never do.
+## What we'll always do: and what we'll never do.
 
 Canadian-honest. We'd rather lose your business than mis-sell our school.
 
@@ -472,37 +472,37 @@ Inside a typical class
 
 The honest version. This is what one 1:1 session looks like for a Grade-9 Canadian student in their third month with us.
 
-00:00 – 02:00
+00:00: 02:00
 
 #### Hi + warm-up
 
-Two minutes of "how was the week" — the human bit. Mentor scrolls back the chat history, cameras come on. Settles the student.
+Two minutes of "how was the week", the human bit. Mentor scrolls back the chat history, cameras come on. Settles the student.
 
-02:00 – 08:00
+02:00, 08:00
 
 #### Recap and tiny quiz
 
-A 6-minute recall test of last lesson. Not for marks — for the brain. The mentor watches for the lightbulb moments and the cobwebs.
+A 6-minute recall test of last lesson. Not for marks, for the brain. The mentor watches for the lightbulb moments and the cobwebs.
 
-08:00 – 18:00
+08:00, 18:00
 
 #### New concept + live coding
 
 Ten minutes of new material. Live-shared VS Code. Mentor types two lines, student types the next two. Wrong moves welcome. Errors read aloud.
 
-18:00 – 35:00
+18:00: 35:00
 
 #### Project work · the heart of the class
 
-The student leads. The mentor coaches. This is where the actual learning happens — feature shipped, bug fixed, function refactored. The mentor types nothing; only asks.
+The student leads. The mentor coaches. This is where the actual learning happens, feature shipped, bug fixed, function refactored. The mentor types nothing; only asks.
 
-35:00 – 42:00
+35:00, 42:00
 
 #### Code review & reflection
 
 Five minutes to look back. What's good? What could be cleaner? The student names one thing they're proud of. This bit matters more than it sounds.
 
-42:00 – 45:00
+42:00: 45:00
 
 #### Next steps + goodbye
 
@@ -512,15 +512,15 @@ Canadian schools we've supported
 
 ## A real cross-section of Canadian schools we've taught students from.
 
-We're not affiliated with any of these schools — we simply mentor the students who attend them. We know each school's pace, project culture and provincial curriculum rhythm.
+We're not affiliated with any of these schools. We simply mentor the students who attend them. We know each school's pace, project culture and provincial curriculum rhythm.
 
 UCC · TCS · CrescentToronto · GTA
 
-Upper Canada College, Trinity College School, Crescent School — independent boys' schools in the GTA. Strong CS departments and Waterloo / UofT pipelines.
+Upper Canada College, Trinity College School, Crescent School, independent boys' schools in the GTA. Strong CS departments and Waterloo / UofT pipelines.
 
 Branksome Hall · Havergal · BSSToronto
 
-Independent girls' schools in Toronto. Many of our students from here are aiming at Waterloo, McMaster or UofT CS — and we coach the Canadian Computing Competition with them.
+Independent girls' schools in Toronto. Many of our students from here are aiming at Waterloo, McMaster or UofT CS. And we coach the Canadian Computing Competition with them.
 
 Selwyn House · Sacré-Cœur · ECSMontréal
 
@@ -540,11 +540,11 @@ Independent school in Hamilton. McMaster CS is a natural pipeline; we coach Cana
 
 Toronto District School BoardToronto
 
-TDSB schools across Toronto — Marc Garneau CI, Earl Haig SS, Etobicoke School of the Arts, William Lyon Mackenzie CI. We supplement strong school CS departments with deeper 1:1 mentorship.
+TDSB schools across Toronto: Marc Garneau CI, Earl Haig SS, Etobicoke School of the Arts, William Lyon Mackenzie CI. We supplement strong school CS departments with deeper 1:1 mentorship.
 
 CEGEPs across QuébecQuébec
 
-Marianopolis, Vanier, Dawson, Champlain, John Abbott — CEGEP CS students often join us for the technical depth around their programme courses and project work.
+Marianopolis, Vanier, Dawson, Champlain, John Abbott: CEGEP CS students often join us for the technical depth around their programme courses and project work.
 
 More FAQ
 
@@ -552,7 +552,7 @@ More FAQ
 
 "Will the mentor coach Canadian Computing Competition (CCC) and the Canadian Computing Olympiad (CCO)?"
 
-Yes. We coach CCC Junior and Senior levels for students in Grade 9 – Grade 12, and CCO for students who advance. Many of our students cite CCC results in their Waterloo CS / Software Engineering applications.
+Yes. We coach CCC Junior and Senior levels for students in Grade 9: Grade 12, and CCO for students who advance. Many of our students cite CCC results in their Waterloo CS / Software Engineering applications.
 
 "Can the mentor help with the Waterloo Euclid contest or the AIF supplementary form?"
 
@@ -564,23 +564,23 @@ Yes. We have mentors comfortable in both languages, and many of our French-immer
 
 "Can the mentor help with university essays beyond CS programmes?"
 
-Mentors help with the technical sections of CS / engineering / data science applications. For non-technical essay coaching we usually point families at specialist services — we'd rather do one thing well than spread thin.
+Mentors help with the technical sections of CS / engineering / data science applications. For non-technical essay coaching we usually point families at specialist services, we'd rather do one thing well than spread thin.
 
 "Do you support Pinnguaq, Hour of Code or other Canadian initiatives?"
 
-We support all those initiatives in spirit — they're fantastic introductions to coding for Canadian kids. We pick up where they leave off: from "I tried Hour of Code at school" to "I have a real Python program on GitHub that I built with my mentor over six months."
+We support all those initiatives in spirit. They're fantastic introductions to coding for Canadian kids. We pick up where they leave off: from "I tried Hour of Code at school" to "I have a real Python program on GitHub that I built with my mentor over six months."
 
 "Can siblings split a 1:1 slot?"
 
-Yes — for siblings whose levels are close, we sometimes allow a shared 1:1 slot at a small discount. Otherwise, we recommend each child gets their own slot so neither is held back. About 1 in 12 of our Canadian families uses the sibling-shared option.
+Yes, for siblings whose levels are close, we sometimes allow a shared 1:1 slot at a small discount. Otherwise, we recommend each child gets their own slot so neither is held back. About 1 in 12 of our Canadian families uses the sibling-shared option.
 
 "What about during March Break and the Christmas / Holiday period?"
 
-You decide. Most Canadian families pause during the December holiday break and March Break. Some use March Break for a focused project sprint instead. Pause any month with one message to your mentor — no fee, no awkward conversation.
+You decide. Most Canadian families pause during the December holiday break and March Break. Some use March Break for a focused project sprint instead. Pause any month with one message to your mentor, no fee, no awkward conversation.
 
 "Can the mentor write a Common-App-style reference letter for US universities?"
 
-Yes — for Canadian students applying to American CS programmes via Common App, mentors are happy to write a short factual reference describing the projects shipped and skills observed. We've supported Canadian students going on to MIT, Stanford, CMU, Berkeley and Waterloo.
+Yes, for Canadian students applying to American CS programmes via Common App, mentors are happy to write a short factual reference describing the projects shipped and skills observed. We've supported Canadian students going on to MIT, Stanford, CMU, Berkeley and Waterloo.
 
 Common Canadian parent worries
 
@@ -590,7 +590,7 @@ The quiet ones. We'd rather just answer them in advance.
 
 "My child already has too much screen time. Won't this make it worse?"
 
-It's a fair worry. Our sessions are 45 minutes, twice a week — total 90 minutes — and most of that time the child is creating, not consuming. Mentors enforce screen-off breaks during the session. Many of our Canadian parents tell us their child actually *chooses* to spend less time on TikTok / YouTube Shorts after a few months. There's a qualitative difference between creating and scrolling.
+It's a fair worry. Our sessions are 45 minutes, twice a week, total 90 minutes, and most of that time the child is creating, not consuming. Mentors enforce screen-off breaks during the session. Many of our Canadian parents tell us their child actually *chooses* to spend less time on TikTok / YouTube Shorts after a few months. There's a qualitative difference between creating and scrolling.
 
 "Will my child learn fake 'kid Python' and not real programming?"
 
@@ -598,15 +598,15 @@ No. We start in Scratch for the youngest learners (Grade 1–3) and only as a br
 
 "What if my child loses interest after a month? Am I locked in?"
 
-No lock-in. You can cancel any month before the next billing cycle — no fee, no awkward conversation, no exit interview. If your child loses interest, we'd rather hear about it early and either pause for a few weeks or pivot the project track to something more exciting (game design, music programming, AI art) than have you grit your teeth through a year you paid for.
+No lock-in. You can cancel any month before the next billing cycle, no fee, no awkward conversation, no exit interview. If your child loses interest, we'd rather hear about it early and either pause for a few weeks or pivot the project track to something more exciting (game design, music programming, AI art) than have you grit your teeth through a year you paid for.
 
 "Is AI safe for my 9-year-old? I've read worrying things."
 
-Under-13s never operate raw LLM APIs against the open internet without a mentor present. We use age-appropriate models, guardrailed prompts, content filters and a "sandbox-only" rule for the youngest learners. The AI tools your child builds are educational and reviewable by you — you see every prompt and every output. We're stricter on this than most.
+Under-13s never operate raw LLM APIs against the open internet without a mentor present. We use age-appropriate models, guardrailed prompts, content filters and a "sandbox-only" rule for the youngest learners. The AI tools your child builds are educational and reviewable by you, you see every prompt and every output. We're stricter on this than most.
 
-"My child is shy — won't a 1:1 video lesson be too much?"
+"My child is shy, won't a 1:1 video lesson be too much?"
 
-Many of our most successful students started shy. The first lesson is structured around the code, not the camera — your child stares at VS Code, not at a stranger's face. Mentors are trained to give long pauses, no pressure, and let the screen do the talking. Most shy students are comfortable by lesson three — and several have ended up *more* confident at school presentations as a side effect.
+Many of our most successful students started shy. The first lesson is structured around the code, not the camera. Your child stares at VS Code, not at a stranger's face. Mentors are trained to give long pauses, no pressure, and let the screen do the talking. Most shy students are comfortable by lesson three, and several have ended up *more* confident at school presentations as a side effect.
 
 "Is this another bootcamp pretending to be a school?"
 
@@ -622,31 +622,31 @@ For monthly billing we use Stripe (Visa, Mastercard, Amex, Apple Pay, Google Pay
 
 "Can I claim this on Canadian taxes or via my employer's professional-development budget?"
 
-For minors: coding classes are not typically tax-deductible in Canada (unlike registered tuition). For adults: many of our adult learners get reimbursed through their employer's professional-development budget — we issue clean USD invoices that most Canadian HR / Finance teams accept without trouble.
+For minors: coding classes are not typically tax-deductible in Canada (unlike registered tuition). For adults: many of our adult learners get reimbursed through their employer's professional-development budget. We issue clean USD invoices that most Canadian HR / Finance teams accept without trouble.
 
 "Will my child get a certificate at the end?"
 
-Yes — we issue a Modern Age Coders certificate of completion at each curriculum milestone (typically every six months), signed by the mentor, listing the projects shipped and skills demonstrated. Useful for Waterloo / UofT / UBC application portfolios.
+Yes. We issue a Modern Age Coders certificate of completion at each curriculum milestone (typically every six months), signed by the mentor, listing the projects shipped and skills demonstrated. Useful for Waterloo / UofT / UBC application portfolios.
 
 "Can the mentor write a reference letter for OUAC / Common App applications?"
 
-Yes — for students who have been with us at least six months, mentors are happy to write a short factual reference describing the projects shipped and skills observed. Canadian students applying to OUAC / AIF / Common App often cite their mentor as evidence of independent technical work.
+Yes, for students who have been with us at least six months, mentors are happy to write a short factual reference describing the projects shipped and skills observed. Canadian students applying to OUAC / AIF / Common App often cite their mentor as evidence of independent technical work.
 
 "What if my child wants to focus on game development?"
 
 Game development *is* serious coding. We have mentors who lean specifically into Pygame, Phaser, Godot and Unity. The Python, JavaScript, system-design and algorithmic skills your child builds while making games transfer one-to-one to Waterloo CS applications or a job at a Canadian game studio (Bioware, Eidos-Montréal, Behaviour Interactive, Massive Entertainment).
 
-"Do you support kids in Northern Canada — Yukon, NWT, Nunavut?"
+"Do you support kids in Northern Canada: Yukon, NWT, Nunavut?"
 
 Yes. Our mentors work in your time zone, so a student in Whitehorse (PT), Yellowknife (MT) or Iqaluit (ET) all get sessions during their own waking hours. We've taught students as far north as the 60th parallel.
 
 "Do you support First Nations and Indigenous-led schools?"
 
-We've supported students from Indigenous-led schools in Saskatchewan, Manitoba and Ontario, and from Pinnguaq-adjacent contexts in Nunavut. Mentors adapt projects so they're meaningful — e.g. a Cree-language vocabulary trainer, a community newsletter web app. Reach out and we'll match accordingly.
+We've supported students from Indigenous-led schools in Saskatchewan, Manitoba and Ontario, and from Pinnguaq-adjacent contexts in Nunavut. Mentors adapt projects so they're meaningful, e.g. a Cree-language vocabulary trainer, a community newsletter web app. Reach out and we'll match accordingly.
 
 "Will the mentor coach for Hour of Code or local Canadian coding events?"
 
-Yes — many of our Canadian students use Hour of Code, Canada Learning Code workshops, Ladies Learning Code events and university-run coding contests (Hack the North, Waterloo CS hackathons, UBC nwHacks). Mentors help them prep and reflect afterwards.
+Yes, many of our Canadian students use Hour of Code, Canada Learning Code workshops, Ladies Learning Code events and university-run coding contests (Hack the North, Waterloo CS hackathons, UBC nwHacks). Mentors help them prep and reflect afterwards.
 
 "Can siblings share a 1:1 slot to save money?"
 
@@ -654,7 +654,7 @@ Yes, when their levels are close. Two siblings can share a 1:1 slot at a small d
 
 "Is there an option to gift this to a niece or nephew as a Christmas / birthday present?"
 
-Yes — we have a gift-month option. You pay for one to three months up front; the recipient gets an email with a friendly invitation; we set up the trial call when they're ready. Popular with grandparents and aunts/uncles in Canada.
+Yes. We have a gift-month option. You pay for one to three months up front; the recipient gets an email with a friendly invitation; we set up the trial call when they're ready. Popular with grandparents and aunts/uncles in Canada.
 
 "How does this compare to Lighthouse Labs or BrainStation bootcamps?"
 
@@ -666,7 +666,7 @@ Yes. Ontario SHSM-Computer-Studies students often use us for the technical-depth
 
 "Do you accept students from Canadian online and homeschool families?"
 
-Yes. We have a steady cohort of homeschooled Canadian families across Ontario, BC, Alberta and Atlantic Canada. The 1:1 mentorship model fits homeschool rhythms unusually well — same mentor every week, fully customised pace, all online.
+Yes. We have a steady cohort of homeschooled Canadian families across Ontario, BC, Alberta and Atlantic Canada. The 1:1 mentorship model fits homeschool rhythms unusually well, same mentor every week, fully customised pace, all online.
 
 "Will the mentor handle technical setup on a Chromebook / school-issued laptop?"
 
@@ -674,23 +674,23 @@ Yes. Many Canadian schools issue Chromebooks. We have a Chromebook-friendly setu
 
 "Can the mentor coach for university coding contests like nwHacks or Hack the North?"
 
-Yes — many of our Canadian university students use us specifically to prep for nwHacks (UBC), Hack the North (Waterloo), McHacks (McGill), Hack Western, UofTHacks and other Canadian university hackathons. We help with team formation, project ideation and last-mile shipping.
+Yes, many of our Canadian university students use us specifically to prep for nwHacks (UBC), Hack the North (Waterloo), McHacks (McGill), Hack Western, UofTHacks and other Canadian university hackathons. We help with team formation, project ideation and last-mile shipping.
 
 "Are there Canadian-specific scholarships you can help us apply for?"
 
-For CS / Engineering: yes — many Canadian universities and tech companies (Shopify, RBC, Telus, Cohere) run scholarships and bursaries that ask for a coding portfolio or demonstrated initiative. Mentors help students present their shipped projects in scholarship applications.
+For CS / Engineering: yes, many Canadian universities and tech companies (Shopify, RBC, Telus, Cohere) run scholarships and bursaries that ask for a coding portfolio or demonstrated initiative. Mentors help students present their shipped projects in scholarship applications.
 
 "Could the mentor speak French in class for our Québec / French-immersion family?"
 
-Yes — request bilingual mentor on the trial call. Core lessons stay in English (since the language of code is English) but the mentor will switch to French for explanations, parent summaries, and when concepts need to land in French first.
+Yes, request bilingual mentor on the trial call. Core lessons stay in English (since the language of code is English) but the mentor will switch to French for explanations, parent summaries, and when concepts need to land in French first.
 
 "Does the trial happen in our local time zone?"
 
-Yes — always. We schedule the trial in PT, MT, CT, ET, AT or NT depending on where you are. Mentors are live across all six Canadian time zones and we never make a student do their trial at 1 AM local.
+Yes, always. We schedule the trial in PT, MT, CT, ET, AT or NT depending on where you are. Mentors are live across all six Canadian time zones and we never make a student do their trial at 1 AM local.
 
 "How quickly do you respond between lessons?"
 
-Mentors aim to reply within one Canadian working day to written questions between classes — faster if there's a contest deadline or test approaching. For urgent setup problems before a class, WhatsApp tends to be the quickest channel.
+Mentors aim to reply within one Canadian working day to written questions between classes, faster if there's a contest deadline or test approaching. For urgent setup problems before a class, WhatsApp tends to be the quickest channel.
 
 "Will the mentor coach IB Computer Science alongside Canadian provincial curricula?"
 
@@ -698,11 +698,11 @@ Yes. Many of our Canadian students attend IB schools (Branksome Hall, UTS, Croft
 
 "Will I get a transcript or report I can use with my child's school?"
 
-Yes. Every six months we issue a written progress report — what was covered, what was shipped, what's next — that you can share with your child's homeroom teacher, Computing teacher, Specialist High Skills Major coordinator, or university-application advisor. Parents tell us it's surprisingly useful at conferences.
+Yes. Every six months we issue a written progress report, what was covered, what was shipped, what's next, that you can share with your child's homeroom teacher, Computing teacher, Specialist High Skills Major coordinator, or university-application advisor. Parents tell us it's surprisingly useful at conferences.
 
 "Do you have a referral or family-and-friends discount?"
 
-Yes. Refer another Canadian family and both of you get a free month on us once the referred family has completed two paid months. No code, no rules to remember — just tell us who referred you on your trial call.
+Yes. Refer another Canadian family and both of you get a free month on us once the referred family has completed two paid months. No code, no rules to remember, just tell us who referred you on your trial call.
 
 "How does this compare to local Canadian options like Real Programming 4 Kids or Tech-Mate?"
 

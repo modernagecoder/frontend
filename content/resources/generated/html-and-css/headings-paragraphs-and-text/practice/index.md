@@ -59,7 +59,7 @@ Hello
 
 **Answer:** Both say 'Hello', but h1 is displayed as a very large heading, and h3 is a medium-sized heading.
 
-Heading tags h1-h6 have different default font sizes — h1 is the largest, h6 is the smallest. Each level signifies a different level of importance.
+Heading tags h1-h6 have different default font sizes, h1 is the largest, h6 is the smallest. Each level signifies a different level of importance.
 
 ### Q5. [Easy] Rohan wanted to highlight a word. Why does this not work?
 
@@ -88,7 +88,7 @@ Water is H2O.
 
 **Answer:** A paragraph: 'Water is H2O.' with the '2' shown smaller and below the baseline.
 
-`` creates subscript text — smaller and positioned below the baseline. It is commonly used in chemical formulas like H2O.
+`` creates subscript text, smaller and positioned below the baseline. It is commonly used in chemical formulas like H2O.
 
 ### Q7. [Easy] What is the output?
 
@@ -101,7 +101,7 @@ The area of a square is x2.
 
 **Answer:** A paragraph: 'The area of a square is x2.' with the '2' shown smaller and above the baseline.
 
-`` creates superscript text — smaller and positioned above the baseline. It is commonly used in math expressions like x squared (x^2).
+`` creates superscript text, smaller and positioned above the baseline. It is commonly used in math expressions like x squared (x^2).
 
 ### Q8. [Easy] Write HTML for a paragraph that says 'Press Ctrl+S to save your work' where 'Ctrl' and 'S' are styled as keyboard keys.
 
@@ -128,7 +128,7 @@ Copyright &copy; 2026
 
 ```
 
-HTML entity codes must end with a semicolon. `&copy` (without semicolon) is invalid — use `&copy;` to display the copyright symbol.
+HTML entity codes must end with a semicolon. `&copy` (without semicolon) is invalid. Use `&copy;` to display the copyright symbol.
 
 ### Q10. [Easy] What does this render?
 
@@ -226,7 +226,7 @@ Hobbies
 Contact
 ```
 
-Only one `` should appear per page — it represents the main topic. Sub-sections should use ``, and sub-sub-sections should use ``, and so on.
+Only one `` should appear per page. It represents the main topic. Sub-sections should use ``, and sub-sub-sections should use ``, and so on.
 
 ### Q17. [Medium] What does this render?
 
@@ -474,7 +474,7 @@ What is wrong (or right)?
 
 **Answer:** Actually, this is valid HTML. Both orders work: `...` or `...`. The text will be small and bold.
 
-You can nest formatting tags freely — the order does not matter for the visual result. Both `strong` and `small` are inline tags and can be combined in either order.
+You can nest formatting tags freely, the order does not matter for the visual result. Both `strong` and `small` are inline tags and can be combined in either order.
 
 ### Q9. [Medium] What does this render visually?
 
@@ -486,7 +486,7 @@ You can nest formatting tags freely — the order does not matter for the visual
 
 *Hint:* Blockquotes are usually indented.
 
-**Answer:** An indented paragraph saying 'Never give up.' — usually with some left padding to visually separate it from regular paragraphs.
+**Answer:** An indented paragraph saying 'Never give up.', usually with some left padding to visually separate it from regular paragraphs.
 
 Browsers indent blockquotes by default to visually set them apart. This makes it clear that the content is quoted from another source.
 
@@ -501,7 +501,7 @@ Press Ctrl+C to copy, Ctrl+V to paste
 
 Each keyboard key is wrapped in its own `` tag so each key looks distinct and monospace.
 
-### Q11. [Medium] Ananya's text has weird spacing — she wants to force 5 spaces but they all collapse. Fix it:
+### Q11. [Medium] Ananya's text has weird spacing: she wants to force 5 spaces but they all collapse. Fix it:
 
 ```
 Hello     World
@@ -578,7 +578,7 @@ This combines all four tags: strong for product importance, del for the crossed-
 
 *Hint:* The entities are doing their job.
 
-**Answer:** A paragraph showing the literal text: '<strong>Hello</strong>' — not bold, just the tag characters shown as text.
+**Answer:** A paragraph showing the literal text: '<strong>Hello</strong>', not bold, just the tag characters shown as text.
 
 The entity codes `<` and `>` render as `<` and `>` respectively. So the browser shows the text as if it were typed, without interpreting it as an HTML tag.
 
@@ -917,7 +917,7 @@ Each key is wrapped in its own `` tag so it renders distinctly in monospace font
 </html>
 ```
 
-This is a comprehensive blog post using every major text formatting tag from this chapter. It is also a realistic structure you could actually publish. Notice how each tag serves a specific semantic purpose — not just visual style.
+This is a comprehensive blog post using every major text formatting tag from this chapter. It is also a realistic structure you could actually publish. Notice how each tag serves a specific semantic purpose, not just visual style.
 
 ---
 

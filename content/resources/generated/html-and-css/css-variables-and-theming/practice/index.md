@@ -457,7 +457,7 @@ Global variables (on `:root`) are best for design tokens used across the whole a
 
 **Answer:** C
 
-**C is correct.** CSS custom properties start with two dashes. `$` is Sass syntax and `@` is Less syntax — neither works in plain CSS.
+**C is correct.** CSS custom properties start with two dashes. `$` is Sass syntax and `@` is Less syntax, neither works in plain CSS.
 
 ### Q2. [Easy] How do you use a custom property in a CSS value?
 
@@ -493,7 +493,7 @@ Global variables (on `:root`) are best for design tokens used across the whole a
 
 **Answer:** B
 
-**B is correct.** CSS variables are live in the browser — they can be changed by JavaScript, by class toggles, by media queries. Sass variables are compiled away before the browser sees the CSS.
+**B is correct.** CSS variables are live in the browser. They can be changed by JavaScript, by class toggles, by media queries. Sass variables are compiled away before the browser sees the CSS.
 
 ### Q8. [Easy] Which of these is a valid CSS variable name?
 
@@ -529,7 +529,7 @@ Global variables (on `:root`) are best for design tokens used across the whole a
 
 **Answer:** B
 
-**B is correct.** Design tokens are named design decisions — like `color.primary` or `spacing.md`. CSS variables are the browser-native way to implement them.
+**B is correct.** Design tokens are named design decisions, like `color.primary` or `spacing.md`. CSS variables are the browser-native way to implement them.
 
 ### Q14. [Medium] Why might you define variables on a component (e.g., .card) instead of :root?
 

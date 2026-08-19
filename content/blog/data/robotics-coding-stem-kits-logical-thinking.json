@@ -158,7 +158,7 @@
         "items": [
           "<strong>Physical Feedback:</strong> When code controls something physical, mistakes and successes are immediately visible. The robot either moves correctly or it doesn't.",
           "<strong>Multi-Sensory Learning:</strong> Robotics engages sight, touch, and sound. This creates stronger neural connections and 40% better retention.",
-          "<strong>Real-World Complexity:</strong> Physical robots face friction, battery limits, and environmental obstacles—teaching kids that reality is messier than simulations.",
+          "<strong>Real-World Complexity:</strong> Physical robots face friction, battery limits, and environmental obstacles, teaching kids that reality is messier than simulations.",
           "<strong>Integrated Skills:</strong> Robotics naturally combines coding, engineering, physics, and mathematics in one project. Consider pairing robotics with our <a href='/courses/scratch-programming-complete-course'>Scratch programming course</a> for a complete learning experience."
         ]
       },
@@ -188,7 +188,7 @@
       },
       {
         "type": "paragraph",
-        "text": "Robots execute instructions in order. Kids learn that sequence matters—turn on the motor before trying to change its speed, check the sensor before making a decision."
+        "text": "Robots execute instructions in order. Kids learn that sequence matters, turn on the motor before trying to change its speed, check the sensor before making a decision."
       },
       {
         "type": "heading",
@@ -203,7 +203,7 @@
         "type": "callout",
         "calloutType": "tip",
         "title": "The Engineering Mindset",
-        "text": "Robotics teaches kids that failure isn't the end—it's information. Every failed attempt reveals something about the problem. This resilience is invaluable in any field."
+        "text": "Robotics teaches kids that failure isn't the end. It's information. Every failed attempt reveals something about the problem. This resilience is invaluable in any field."
       },
       {
         "type": "divider",
@@ -348,7 +348,7 @@
         "type": "callout",
         "calloutType": "success",
         "title": "Parent Review: mBot",
-        "text": "\"We bought the mBot for my 10-year-old and it's been incredible value. He started with block coding and now writes Python. The online community has endless project ideas. Best ₹8,000 we've spent on education.\" — Vikram, father of 10-year-old"
+        "text": "\"We bought the mBot for my 10-year-old and it's been incredible value. He started with block coding and now writes Python. The online community has endless project ideas. Best ₹8,000 we've spent on education.\": Vikram, father of 10-year-old"
       },
       {
         "type": "heading",
@@ -480,7 +480,7 @@
         "type": "callout",
         "calloutType": "info",
         "title": "Competition Benefits",
-        "text": "Students who participate in robotics competitions are 3x more likely to pursue STEM careers. Many competitions offer college scholarships—VEX alone awards over $30 million in scholarships annually."
+        "text": "Students who participate in robotics competitions are 3x more likely to pursue STEM careers. Many competitions offer college scholarships: VEX alone awards over $30 million in scholarships annually."
       },
       {
         "type": "heading",
@@ -541,7 +541,7 @@
           },
           {
             "title": "What if my child gets frustrated and wants to quit?",
-            "content": "Frustration is normal and part of learning. Help them break problems into smaller pieces. Celebrate small wins. If frustration persists, the kit might be too advanced—try something simpler to rebuild confidence."
+            "content": "Frustration is normal and part of learning. Help them break problems into smaller pieces. Celebrate small wins. If frustration persists, the kit might be too advanced. Try something simpler to rebuild confidence."
           },
           {
             "title": "Should we join a robotics club or learn at home?",
@@ -549,7 +549,7 @@
           },
           {
             "title": "How do robotics skills transfer to other areas?",
-            "content": "Robotics develops logical thinking, problem-solving, persistence, and systematic debugging—skills valuable in any field. The engineering mindset of iterating toward solutions transfers to academics, careers, and life challenges."
+            "content": "Robotics develops logical thinking, problem-solving, persistence, and systematic debugging, skills valuable in any field. The engineering mindset of iterating toward solutions transfers to academics, careers, and life challenges."
           }
         ]
       },
@@ -565,11 +565,11 @@
       },
       {
         "type": "paragraph",
-        "text": "Beyond coding skills, robotics develops logical thinking, problem-solving abilities, and the engineering mindset that serves children in any field they pursue. The patience to debug, the creativity to design solutions, the resilience to iterate—these skills transfer far beyond robotics."
+        "text": "Beyond coding skills, robotics develops logical thinking, problem-solving abilities, and the engineering mindset that serves children in any field they pursue. The patience to debug, the creativity to design solutions, the resilience to iterate, these skills transfer far beyond robotics."
       },
       {
         "type": "paragraph",
-        "text": "Whether your child starts with a simple screen-free robot or dives into Arduino projects, the journey of making physical things respond to code is transformative. It's not just learning—it's discovery, creation, and the joy of bringing ideas to life."
+        "text": "Whether your child starts with a simple screen-free robot or dives into Arduino projects, the journey of making physical things respond to code is transformative. It's not just learning. It's discovery, creation, and the joy of bringing ideas to life."
       },
       {
         "type": "callout",

@@ -15,7 +15,7 @@ keywords: ["sql string functions", "mysql string functions", "concat sql", "subs
 
 ## What Are SQL String Functions?
 
-String functions transform and extract information from text (VARCHAR, TEXT, CHAR) values. Real-world data is messy: names with extra spaces, inconsistent capitalization, phone numbers with random separators, emails in mixed case. Before you can report on it, you have to clean it — and clean SQL string functions are the way.
+String functions transform and extract information from text (VARCHAR, TEXT, CHAR) values. Real-world data is messy: names with extra spaces, inconsistent capitalization, phone numbers with random separators, emails in mixed case. Before you can report on it, you have to clean it, and clean SQL string functions are the way.
 
 MySQL ships dozens of string functions. This chapter covers the 20 or so that you will actually use every week as a data analyst or backend developer.
 
@@ -48,7 +48,7 @@ User-entered data is always messy. Even 'clean' data from APIs has quirks. Befor
 
 ### 2. Searching and Matching Depends on It
 
-Equality comparisons on VARCHAR are case-sensitive in many collations. Email validation, name matching, deduplication — all need LOWER() or TRIM() or both. If you do not normalize, 'Aarav Kumar' and 'aarav kumar' are different customers to SQL, which is wrong.
+Equality comparisons on VARCHAR are case-sensitive in many collations. Email validation, name matching, deduplication, all need LOWER() or TRIM() or both. If you do not normalize, 'Aarav Kumar' and 'aarav kumar' are different customers to SQL, which is wrong.
 
 ### 3. Reporting Requires Formatting
 
@@ -337,7 +337,7 @@ SELECT
 FROM customers;
 ```
 
-LOCATE('@', email) returns the position of '@' (1-based). SUBSTRING with start and length extracts the username before '@'. Starting from LOCATE('@', email) + 1 without a length gives everything after '@' — the domain. LOWER(domain) would normalize it.
+LOCATE('@', email) returns the position of '@' (1-based). SUBSTRING with start and length extracts the username before '@'. Starting from LOCATE('@', email) + 1 without a length gives everything after '@', the domain. LOWER(domain) would normalize it.
 
 **Output:**
 
@@ -516,7 +516,7 @@ Real-world duplicates often differ only in case: Aarav@GMAIL.com vs aarav@gmail.
 SELECT * FROM users WHERE LENGTH(username) BETWEEN 5 AND 15;
 ```
 
-No error, but the check is wrong for non-ASCII names. A 5-character Hindi username might be 15 bytes (stored as UTF-8), so it incorrectly appears within the range when it should be caught as too short — or vice versa.
+No error, but the check is wrong for non-ASCII names. A 5-character Hindi username might be 15 bytes (stored as UTF-8), so it incorrectly appears within the range when it should be caught as too short, or vice versa.
 
 **Correct:**
 
@@ -533,7 +533,7 @@ CHAR_LENGTH counts characters (what users see). LENGTH counts bytes (what storag
 ```
 -- middle_name is NULL for most people
 SELECT CONCAT(first_name, ' ', middle_name, ' ', last_name) FROM people;
--- Returns NULL whenever middle_name IS NULL — full name is lost
+-- Returns NULL whenever middle_name IS NULL, full name is lost
 ```
 
 No error, but the result is NULL for every person with a NULL middle name.
@@ -569,7 +569,7 @@ SELECT SUBSTRING('Bengaluru', 1, 5);  -- 'Benga'
 SELECT LEFT('Bengaluru', 5);
 ```
 
-MySQL's SUBSTRING is 1-indexed. Position 1 is the first character. Position 0 is undefined or treated as 'before the start'. Use LEFT(str, n) when you want a prefix — it is more readable.
+MySQL's SUBSTRING is 1-indexed. Position 1 is the first character. Position 0 is undefined or treated as 'before the start'. Use LEFT(str, n) when you want a prefix. It is more readable.
 
 ### Forgetting REPLACE Is Case-Sensitive
 
@@ -599,13 +599,13 @@ REPLACE does exact (case-sensitive) substring matching. For case-insensitive rep
 
 - CONCAT joins strings with no separator. CONCAT_WS takes a separator and safely skips NULL arguments. CONCAT returns NULL if any argument is NULL.
 - LENGTH returns bytes; CHAR_LENGTH returns characters. For user-facing validation and Unicode text, use CHAR_LENGTH.
-- UPPER and LOWER change case. MySQL has no INITCAP — proper case requires manual substring manipulation or a UDF.
+- UPPER and LOWER change case. MySQL has no INITCAP, proper case requires manual substring manipulation or a UDF.
 - SUBSTRING(str, start, length) is 1-indexed. LEFT(str, n) and RIGHT(str, n) are more readable for prefixes and suffixes.
 - TRIM removes whitespace; LTRIM and RTRIM remove from one side. TRIM with LEADING/TRAILING/BOTH and a specific character cleans other padding.
 - REPLACE is case-sensitive. For case-insensitive replacement in MySQL 8.0+, use REGEXP_REPLACE with the 'i' flag.
 - LOCATE, INSTR, POSITION all find a substring and return 1-based position (0 if not found). Combine with SUBSTRING to extract parts like email domains.
 - LPAD and RPAD add padding to make strings a fixed length. Common use: formatting IDs like '000042' or SKUs like 'PRD-000042'.
-- REVERSE and REPEAT are niche. FORMAT(n, d) formats a number with thousands separators and d decimals — returns a string.
+- REVERSE and REPEAT are niche. FORMAT(n, d) formats a number with thousands separators and d decimals, returns a string.
 - For cleaning data: TRIM then REPLACE to remove bad characters, LOWER for normalized comparison, CONCAT_WS for NULL-safe joining.
 
 ## Related Topics

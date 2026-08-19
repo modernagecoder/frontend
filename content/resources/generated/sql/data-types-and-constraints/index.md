@@ -1,6 +1,6 @@
 ---
 title: "SQL Data Types and Constraints - INT, VARCHAR, DATE, DECIMAL, PRIMARY KEY, FOREIGN KEY | Modern Age Coders"
-description: "Complete guide to MySQL data types — numeric (INT, BIGINT, DECIMAL), string (CHAR, VARCHAR, TEXT), date/time (DATE, DATETIME, TIMESTAMP), and ENUM. Learn constraints: NOT NULL, UNIQUE, PRIMARY KEY, FOREIGN KEY, CHECK, DEFAULT, AUTO_INCREMENT. 56 practice questions with real-world scenarios."
+description: "Complete guide to MySQL data types, numeric (INT, BIGINT, DECIMAL), string (CHAR, VARCHAR, TEXT), date/time (DATE, DATETIME, TIMESTAMP), and ENUM. Learn constraints: NOT NULL, UNIQUE, PRIMARY KEY, FOREIGN KEY, CHECK, DEFAULT, AUTO_INCREMENT. 56 practice questions with real-world scenarios."
 slug: data-types-and-constraints
 canonical: https://learn.modernagecoders.com/resources/sql/data-types-and-constraints/
 category: "SQL"
@@ -17,8 +17,8 @@ keywords: ["sql data types", "mysql data types", "int vs bigint", "varchar vs ch
 
 When you create a table, every column has two things attached to it: a **data type** and optionally one or more **constraints**.
 
-- A **data type** says what kind of values the column can hold — integers, strings, dates, etc. It controls storage size and valid operations.
-- A **constraint** is a rule that limits which values are allowed — no NULLs, no duplicates, values between 0 and 100, etc. Constraints protect your data from garbage getting in.
+- A **data type** says what kind of values the column can hold, integers, strings, dates, etc. It controls storage size and valid operations.
+- A **constraint** is a rule that limits which values are allowed, no NULLs, no duplicates, values between 0 and 100, etc. Constraints protect your data from garbage getting in.
 
 Picking the right data type and constraints is half of good database design. A column declared as `VARCHAR(500)` when 20 characters is the true max wastes memory and lets bad data slip in. A phone number stored as `INT` loses leading zeros and breaks for international numbers. A salary column without `NOT NULL` lets someone insert a rogue row with an empty salary that crashes your reports.
 
@@ -36,7 +36,7 @@ order_idstudent_idamountorder_date500111200.502026-04-01 14:30:0050022850.002026
 
 ## Why Types and Constraints Matter
 
-### 1. Data Integrity — Your Database Fights Bugs For You
+### 1. Data Integrity: Your Database Fights Bugs For You
 
 Without constraints, any bad row can sneak in: a student with no name, a duplicate email, a negative salary, a date of birth in the year 3000. Once the bad data is in, downstream reports break and customer support has to clean it up. With constraints, the database rejects the bad row at INSERT time. You fix the bug once (in the schema) instead of a hundred times (in every query).
 
@@ -50,7 +50,7 @@ Every row lookup, JOIN, and filter uses indexes. Indexes are built on primary ke
 
 ### 4. Interview-Favorite Topic
 
-"What is the difference between CHAR and VARCHAR?", "When would you use DECIMAL instead of FLOAT?", "What is the difference between a PRIMARY KEY and a UNIQUE constraint?", "Can a table have multiple UNIQUE constraints but only one PRIMARY KEY?" — these are asked in almost every SQL interview at Flipkart, Amazon, Zomato, and countless startups.
+"What is the difference between CHAR and VARCHAR?", "When would you use DECIMAL instead of FLOAT?", "What is the difference between a PRIMARY KEY and a UNIQUE constraint?", "Can a table have multiple UNIQUE constraints but only one PRIMARY KEY?", these are asked in almost every SQL interview at Flipkart, Amazon, Zomato, and countless startups.
 
 ## Detailed Explanation
 
@@ -58,9 +58,9 @@ Every row lookup, JOIN, and filter uses indexes. Indexes are built on primary ke
 
 TypeBytesRange (signed)Typical Use`TINYINT`1-128 to 127Flags, small status codes`SMALLINT`2-32,768 to 32,767Counts in small range`MEDIUMINT`3-8M to 8MRarely used`INT`4-2.1B to 2.1BIDs, counts (most common)`BIGINT`8-9.2 quintillion to 9.2 quintillionHuge counts, file sizes`DECIMAL(p, s)`variableexactMoney, precision math`FLOAT`4~7-digit precisionScientific, approx`DOUBLE`8~15-digit precisionScientific, approx
 
-#### DECIMAL vs FLOAT — Critical for Money
+#### DECIMAL vs FLOAT: Critical for Money
 
-`DECIMAL(10, 2)` means "up to 10 total digits, 2 after the decimal point" — so values from -99,999,999.99 to 99,999,999.99 stored EXACTLY. Use for money, accounting, tax calculations.
+`DECIMAL(10, 2)` means "up to 10 total digits, 2 after the decimal point", so values from -99,999,999.99 to 99,999,999.99 stored EXACTLY. Use for money, accounting, tax calculations.
 
 `FLOAT` and `DOUBLE` store values in binary floating-point, which cannot exactly represent 0.1 or 0.2. So `0.1 + 0.2 = 0.30000000000000004` in floats. Fine for physics simulations, fatal for a bank ledger where pennies must add up exactly.
 
@@ -70,7 +70,7 @@ TypeBytesRange (signed)Typical Use`TINYINT`1-128 to 127Flags, small status codes
 
 TypeStorageMaxWhen to Use`CHAR(n)`fixed n chars, padded255Fixed-length codes (country='IN', pincode, gender='M')`VARCHAR(n)`actual length + 1-2 bytes65,535Names, emails, anything variable`TEXT`up to 64KB65,535Blog posts, long notes`MEDIUMTEXT`up to 16MB~16MArticles, product descriptions`LONGTEXT`up to 4GB~4BBooks, huge logs
 
-#### CHAR vs VARCHAR — When to Use Which
+#### CHAR vs VARCHAR: When to Use Which
 
 Use `CHAR(n)` for columns where the value is always exactly n characters long: country codes (2 chars), UPI codes, MD5 hashes (32 chars), pin codes (6 chars in India). CHAR is slightly faster because the row has a fixed size.
 
@@ -86,20 +86,20 @@ New students often store phone numbers as `BIGINT`. This is wrong. Phone numbers
 
 TypeFormatRangeUse`DATE`YYYY-MM-DD1000-01-01 to 9999-12-31DOB, joining date`TIME`HH:MM:SS-838:59:59 to 838:59:59Durations, time of day`DATETIME`YYYY-MM-DD HH:MM:SS1000-01-01 to 9999-12-31Event timestamps`TIMESTAMP`YYYY-MM-DD HH:MM:SS1970-01-01 UTC to 2038-01-19 UTCRow creation, updates`YEAR`YYYY1901 to 2155Year-only columns
 
-#### DATETIME vs TIMESTAMP — The Difference
+#### DATETIME vs TIMESTAMP: The Difference
 
 Both look identical and store "date + time". The critical differences:
 
 - `DATETIME` stores the exact literal you give it. No time zone logic. Range is huge (1000 to 9999).
 - `TIMESTAMP` is stored internally in UTC and converted to the server's time zone on read. Range is limited: 1970 to 2038 (the Y2K38 problem).
 
-Use `TIMESTAMP` for `created_at` / `updated_at` columns because it automatically adjusts for server time zones. Use `DATETIME` for dates that must not shift with time zones — like a scheduled meeting time.
+Use `TIMESTAMP` for `created_at` / `updated_at` columns because it automatically adjusts for server time zones. Use `DATETIME` for dates that must not shift with time zones, like a scheduled meeting time.
 
 ### 4. Boolean
 
-MySQL has no true BOOLEAN type. Internally, `BOOLEAN` is an alias for `TINYINT(1)` — stored as 0 or 1. `TRUE` is 1, `FALSE` is 0. You can write `BOOLEAN` in your CREATE TABLE for clarity, but MySQL stores it as TINYINT.
+MySQL has no true BOOLEAN type. Internally, `BOOLEAN` is an alias for `TINYINT(1)`, stored as 0 or 1. `TRUE` is 1, `FALSE` is 0. You can write `BOOLEAN` in your CREATE TABLE for clarity, but MySQL stores it as TINYINT.
 
-### 5. ENUM — Fixed Set of Allowed Values
+### 5. ENUM: Fixed Set of Allowed Values
 
 ```
 gender ENUM('Male', 'Female', 'Other')
@@ -180,7 +180,7 @@ CREATE TABLE enrollments (
 );
 ```
 
-### 8. Choosing Data Types — Real Scenarios
+### 8. Choosing Data Types: Real Scenarios
 
 FieldGood ChoiceWhyStudent age`TINYINT UNSIGNED`Range 0-255 is plenty, 1 byteAadhaar number`CHAR(12)`Exactly 12 digits, keep leading zerosIndian phone`VARCHAR(15)`Allows +, spaces, country codeProfile bio`TEXT`Can be longProduct price`DECIMAL(10,2)`Exact moneyDate of birth`DATE`No time neededRow created timestamp`TIMESTAMP`Auto-converts time zonesIs active?`BOOLEAN`TINYINT(1) under the hoodUser role (admin/user/guest)`ENUM(...)`Fixed, tiny set
 
@@ -256,20 +256,20 @@ We name only the columns we want to supply values for. `student_id` auto-generat
 ### UNIQUE and NOT NULL Rejecting Bad Data
 
 ```sql
--- Attempt 1: duplicate email — should fail.
+-- Attempt 1: duplicate email, should fail.
 INSERT INTO students (name, email, dob)
 VALUES ('Ananya Reddy', 'aarav@college.edu', '2005-01-10');
 
--- Attempt 2: NULL name — should fail.
+-- Attempt 2: NULL name, should fail.
 INSERT INTO students (name, email, dob)
 VALUES (NULL, 'ananya@college.edu', '2005-01-10');
 
--- Attempt 3: valid row — should succeed.
+-- Attempt 3: valid row, should succeed.
 INSERT INTO students (name, email, dob)
 VALUES ('Ananya Reddy', 'ananya@college.edu', '2005-01-10');
 ```
 
-Attempt 1 violates the UNIQUE constraint on email. Attempt 2 violates NOT NULL on name. Attempt 3 obeys both rules and succeeds. This is exactly why constraints exist — the database catches bad data at write time so your reads are always clean.
+Attempt 1 violates the UNIQUE constraint on email. Attempt 2 violates NOT NULL on name. Attempt 3 obeys both rules and succeeds. This is exactly why constraints exist, the database catches bad data at write time so your reads are always clean.
 
 **Output:**
 
@@ -296,11 +296,11 @@ CREATE TABLE orders (
 -- Valid order (student_id=1 exists).
 INSERT INTO orders (student_id, amount) VALUES (1, 1200.50);
 
--- Invalid order — student_id=999 does not exist.
+-- Invalid order, student_id=999 does not exist.
 INSERT INTO orders (student_id, amount) VALUES (999, 500.00);
 ```
 
-The FOREIGN KEY clause says "every student_id in orders must match an existing student_id in students". Attempt to insert student_id=999 fails because there is no student with id 999. This prevents **orphan records** — orders referencing students who don't exist. The CHECK constraint further ensures amount is positive.
+The FOREIGN KEY clause says "every student_id in orders must match an existing student_id in students". Attempt to insert student_id=999 fails because there is no student with id 999. This prevents **orphan records**, orders referencing students who don't exist. The CHECK constraint further ensures amount is positive.
 
 **Output:**
 
@@ -312,7 +312,7 @@ Query OK, 1 row affected (0.01 sec)
 ERROR 1452 (23000): Cannot add or update a child row: a foreign key constraint fails (`school`.`orders`, CONSTRAINT `orders_ibfk_1` FOREIGN KEY (`student_id`) REFERENCES `students` (`student_id`))
 ```
 
-### Composite Primary Key — Enrollments
+### Composite Primary Key: Enrollments
 
 ```sql
 CREATE TABLE enrollments (
@@ -330,7 +330,7 @@ INSERT INTO enrollments (student_id, course_id, grade) VALUES
     (2, 101, 'A'),
     (2, 102, 'A');
 
--- Attempt to insert duplicate (1, 101) — fails.
+-- Attempt to insert duplicate (1, 101), fails.
 INSERT INTO enrollments (student_id, course_id, grade) VALUES (1, 101, 'C');
 ```
 
@@ -347,7 +347,7 @@ Records: 4  Duplicates: 0  Warnings: 0
 ERROR 1062 (23000): Duplicate entry '1-101' for key 'enrollments.PRIMARY'
 ```
 
-### DECIMAL vs FLOAT — Why Money Needs DECIMAL
+### DECIMAL vs FLOAT: Why Money Needs DECIMAL
 
 ```sql
 CREATE TABLE payments_decimal (amount DECIMAL(10,2));
@@ -362,7 +362,7 @@ SELECT SUM(amount) AS total_decimal FROM payments_decimal;
 SELECT SUM(amount) AS total_float FROM payments_float;
 ```
 
-With DECIMAL the sum is exactly 0.30 — what any accountant expects. With FLOAT the sum is 0.30000000447... due to binary floating-point rounding errors. On a real ledger with millions of transactions, these tiny errors add up and cause balance mismatches. **Always use DECIMAL for money.**
+With DECIMAL the sum is exactly 0.30, what any accountant expects. With FLOAT the sum is 0.30000000447... due to binary floating-point rounding errors. On a real ledger with millions of transactions, these tiny errors add up and cause balance mismatches. **Always use DECIMAL for money.**
 
 **Output:**
 
@@ -408,7 +408,7 @@ CREATE TABLE users (
 INSERT INTO users VALUES (1, '+91-9876543210');
 ```
 
-Phone numbers are not numbers in the arithmetic sense — you never add two phone numbers. They can have leading zeros, country codes, plus signs, spaces, hyphens. Store them as VARCHAR(15) or VARCHAR(20). The same rule applies to Aadhaar numbers, PIN codes with leading zeros, and credit card numbers.
+Phone numbers are not numbers in the arithmetic sense. You never add two phone numbers. They can have leading zeros, country codes, plus signs, spaces, hyphens. Store them as VARCHAR(15) or VARCHAR(20). The same rule applies to Aadhaar numbers, PIN codes with leading zeros, and credit card numbers.
 
 ### Using FLOAT for Money
 
@@ -478,7 +478,7 @@ CREATE TABLE enrollments (
 );
 ```
 
-UNIQUE on student_id alone means each student can appear only once — breaks the use case (a student takes many courses).
+UNIQUE on student_id alone means each student can appear only once, breaks the use case (a student takes many courses).
 
 **Correct:**
 
@@ -491,7 +491,7 @@ CREATE TABLE enrollments (
 );
 ```
 
-A UNIQUE on a single column means that column is unique by itself. UNIQUE on student_id AND UNIQUE on course_id means each student can appear only once AND each course can appear only once — not what we want. A **composite primary key on (student_id, course_id)** means the *pair* is unique, which is exactly the real-world rule.
+A UNIQUE on a single column means that column is unique by itself. UNIQUE on student_id AND UNIQUE on course_id means each student can appear only once AND each course can appear only once, not what we want. A **composite primary key on (student_id, course_id)** means the *pair* is unique, which is exactly the real-world rule.
 
 ## Summary
 

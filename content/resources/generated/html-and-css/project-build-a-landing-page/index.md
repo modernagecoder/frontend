@@ -580,7 +580,7 @@ A polished, responsive SaaS landing page with sticky navbar, hero with gradient 
 </html>
 ```
 
-A standalone hero section that you can drop into any project. Grid layout for two columns, clamp() for the fluid headline, gradient text with `-webkit-background-clip`, and a visual mockup built with nested grids. Responsive — collapses to one column on screens narrower than 900px.
+A standalone hero section that you can drop into any project. Grid layout for two columns, clamp() for the fluid headline, gradient text with `-webkit-background-clip`, and a visual mockup built with nested grids. Responsive, collapses to one column on screens narrower than 900px.
 
 **Output:**
 
@@ -639,7 +639,7 @@ The pricing section as a standalone piece. Three plans in a responsive grid. The
 **Output:**
 
 ```
-Three pricing cards. The middle one is slightly larger, has a purple-to-pink gradient background, a 'MOST POPULAR' ribbon on top, and a white button — clearly drawing the eye to the recommended plan.
+Three pricing cards. The middle one is slightly larger, has a purple-to-pink gradient background, a 'MOST POPULAR' ribbon on top, and a white button, clearly drawing the eye to the recommended plan.
 ```
 
 ### FAQ Accordion with Pure CSS
@@ -849,7 +849,7 @@ A 3-column feature grid (on desktop) with 6 cards. Each card has a unique gradie
 </html>
 ```
 
-Three testimonial cards. Each uses `::before` to render a giant decorative quote mark in the background. Avatars are built with CSS gradients and initials — no images needed. The grid uses auto-fit to wrap responsively.
+Three testimonial cards. Each uses `::before` to render a giant decorative quote mark in the background. Avatars are built with CSS gradients and initials, no images needed. The grid uses auto-fit to wrap responsively.
 
 **Output:**
 
@@ -867,7 +867,7 @@ Three cards with quotes from Aarav, Priya, and Ishita. Each has a big pale purpl
 .hero { width: 1200px; padding: 64px 200px; }
 ```
 
-On a 400px phone, the hero is 1200px wide — users scroll horizontally and miss the CTAs. Fixed widths never work for responsive design.
+On a 400px phone, the hero is 1200px wide, users scroll horizontally and miss the CTAs. Fixed widths never work for responsive design.
 
 **Correct:**
 
@@ -946,10 +946,10 @@ Define every important color as a CSS variable at the top of your stylesheet. Ch
 - Use semantic HTML: ``, ``, ``, ``. Each section should have a clear role for accessibility and SEO.
 - The navbar is a flexbox with `justify-content: space-between`: logo on the left, links in the middle, CTA on the right.
 - Hero sections are grids. Use `grid-template-columns: 1.1fr 1fr` for a two-column hero (text + visual), collapsing to one column on mobile with a media query or container query.
-- `clamp(min, preferred, max)` for fluid typography — your headlines stay readable at every screen size without any breakpoints.
-- Feature grids use `repeat(auto-fit, minmax(260px, 1fr))` — the magic line that wraps responsively from 1 to 4 columns with zero media queries.
+- `clamp(min, preferred, max)` for fluid typography. Your headlines stay readable at every screen size without any breakpoints.
+- Feature grids use `repeat(auto-fit, minmax(260px, 1fr))`, the magic line that wraps responsively from 1 to 4 columns with zero media queries.
 - For pricing, mark the recommended plan with a `.popular` class. Use `transform: scale(1.05)`, a gradient background, a bigger shadow, and a 'MOST POPULAR' ribbon via `::before`.
-- Build the FAQ with native `` and `` — zero JavaScript. Style the `[open]` state and use `::after` for a plus/minus icon.
+- Build the FAQ with native `` and ``, zero JavaScript. Style the `[open]` state and use `::after` for a plus/minus icon.
 - Testimonials are quote cards with a gradient avatar (CSS only, no images needed) and initials. Use `::before` to render a giant background quote mark.
 - Footers are grids of link columns. Usually 2fr 1fr 1fr 1fr on desktop, collapsing to 1fr or 1fr 1fr on mobile.
 - Use `backdrop-filter: blur()` plus a semi-transparent background for a modern 'frosted glass' sticky navbar.

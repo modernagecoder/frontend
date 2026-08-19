@@ -15,9 +15,9 @@ keywords: ["html headings", "h1 h6", "html paragraphs", "html text formatting", 
 
 ## What Are HTML Text Tags?
 
-Words are the heart of every web page. Whether it is a blog post, a school assignment, a news article, or a product description — text is what people come to read. HTML gives you a toolbox full of tags to mark up text so it has the right meaning and appearance.
+Words are the heart of every web page. Whether it is a blog post, a school assignment, a news article, or a product description, text is what people come to read. HTML gives you a toolbox full of tags to mark up text so it has the right meaning and appearance.
 
-In this chapter, you will learn how to create **headings** (big titles), **paragraphs** (blocks of text), **line breaks** and **horizontal rules** (visual separators), and use **formatting tags** like bold, italic, highlighted, subscript, superscript, and more. You will also learn about **entity codes** — special codes for characters like &copy; and  .
+In this chapter, you will learn how to create **headings** (big titles), **paragraphs** (blocks of text), **line breaks** and **horizontal rules** (visual separators), and use **formatting tags** like bold, italic, highlighted, subscript, superscript, and more. You will also learn about **entity codes**, special codes for characters like &copy; and  .
 
 ### Why Different Tags?
 
@@ -39,11 +39,11 @@ Blind users navigate the web with screen readers that announce headings. They ca
 
 ### 4. Semantic Meaning Over Visual Style
 
-HTML tags carry **meaning**. `` means 'this is important' — browsers show it as bold, but screen readers also emphasise it when reading aloud. `` means 'stress this word' — shown as italic, also emphasised verbally. Using meaningful tags makes your content work for everyone.
+HTML tags carry **meaning**. `` means 'this is important', browsers show it as bold, but screen readers also emphasise it when reading aloud. `` means 'stress this word', shown as italic, also emphasised verbally. Using meaningful tags makes your content work for everyone.
 
 ### 5. Professional Writing
 
-Any blog, documentation site, or online article uses these tags constantly. If you want to write for the web, you need to know them. Plus, they are easy to learn — you can master all the common ones in an hour.
+Any blog, documentation site, or online article uses these tags constantly. If you want to write for the web, you need to know them. Plus, they are easy to learn. You can master all the common ones in an hour.
 
 ## Detailed Explanation
 
@@ -51,20 +51,20 @@ Any blog, documentation site, or online article uses these tags constantly. If y
 
 HTML has six heading levels, from `` (most important) to `` (least important). Browsers give each level a smaller default size.
 
-- `` — The main title. Use only ONE h1 per page. This is what the page is about.
-- `` — Section titles. Use as many as needed.
-- `` — Sub-section titles inside h2 sections.
-- ``, ``, `` — Rarely used, only for very deep hierarchies.
+- ``, The main title. Use only ONE h1 per page. This is what the page is about.
+- ``, Section titles. Use as many as needed.
+- ``, Sub-section titles inside h2 sections.
+- ``, ``, ``, Rarely used, only for very deep hierarchies.
 
-**Important rule:** Only one `` per page is the best practice for SEO. Think of it like the title of a book — a book has only one title, not ten.
+**Important rule:** Only one `` per page is the best practice for SEO. Think of it like the title of a book, a book has only one title, not ten.
 
 ### Paragraphs: 
 
-The `` tag creates a paragraph. Browsers automatically add vertical space between paragraphs. Each `` should contain one complete thought or idea. Avoid putting too much text in a single paragraph — break it up for readability.
+The `` tag creates a paragraph. Browsers automatically add vertical space between paragraphs. Each `` should contain one complete thought or idea. Avoid putting too much text in a single paragraph, break it up for readability.
 
 ### Line Break: 
 
-The `` tag forces a line break without starting a new paragraph. It is self-closing (no closing tag needed). Use it sparingly — only when you really need a manual line break, like in a poem or an address.
+The `` tag forces a line break without starting a new paragraph. It is self-closing (no closing tag needed). Use it sparingly, only when you really need a manual line break, like in a poem or an address.
 
 ### Horizontal Rule: 
 
@@ -76,18 +76,18 @@ The `` tag draws a horizontal line across the page to visually separate sections
 
 HTML has many tags to format text:
 
-- `` — Important text (displays bold). Semantic.
-- `` — Stressed/emphasised text (displays italic). Semantic.
-- `` — Plain bold text (no extra meaning). Use `` instead for important content.
-- `` — Plain italic text. Use `` instead for stressed content.
-- `` — Highlighted text (yellow background by default).
-- `` — Smaller text, often used for fine print or side notes.
-- `` — Subscript (below the line), like H2O.
-- `` — Superscript (above the line), like x2.
-- `` — Deleted text (shown with strikethrough line).
-- `` — Inserted text (shown with underline).
-- `` — Computer code (shown in monospace font).
-- `` — Keyboard input (like 'Press Ctrl+C').
+- ``, Important text (displays bold). Semantic.
+- ``, Stressed/emphasised text (displays italic). Semantic.
+- ``, Plain bold text (no extra meaning). Use `` instead for important content.
+- ``, Plain italic text. Use `` instead for stressed content.
+- ``, Highlighted text (yellow background by default).
+- ``, Smaller text, often used for fine print or side notes.
+- ``, Subscript (below the line), like H2O.
+- ``, Superscript (above the line), like x2.
+- ``, Deleted text (shown with strikethrough line).
+- ``, Inserted text (shown with underline).
+- ``, Computer code (shown in monospace font).
+- ``, Keyboard input (like 'Press Ctrl+C').
 
 ### Blockquotes
 
@@ -99,7 +99,7 @@ Some characters are special in HTML because they are part of the syntax. To show
 
 CharacterEntity CodeUse Case<<Less-than sign>>Greater-than sign&&amp;Ampersand""Double quote&copy;&copy;Copyright symbol &nbsp;Non-breaking space&reg;&reg;Registered trademark&trade;&trade;Trademark
 
-` ` (non-breaking space) is especially useful — it creates a space that the browser will not collapse, and it prevents the text from wrapping at that point. For example, write `Dr. Priya` to keep 'Dr.' and 'Priya' on the same line.
+` ` (non-breaking space) is especially useful. It creates a space that the browser will not collapse, and it prevents the text from wrapping at that point. For example, write `Dr. Priya` to keep 'Dr.' and 'Priya' on the same line.
 
 ### How HTML Handles Whitespace
 
@@ -136,7 +136,7 @@ The browser shows: 'Hello World' (only one space, even though you typed many). M
 </html>
 ```
 
-This example shows all six heading levels. Save it and open in a browser — you will see the headings get progressively smaller from h1 to h6. Use h1 for the main page title (only one per page), h2 for major sections, and h3 for subsections. h4, h5, and h6 are rarely needed.
+This example shows all six heading levels. Save it and open in a browser. You will see the headings get progressively smaller from h1 to h6. Use h1 for the main page title (only one per page), h2 for major sections, and h3 for subsections. h4, h5, and h6 are rarely needed.
 
 **Output:**
 
@@ -327,7 +327,7 @@ The page has no clear main topic for SEO, and screen readers get confused about 
 <h2>Contact</h2>
 ```
 
-Every page should have only one `` — the main page title. Use `` for major sections. This helps search engines and screen readers understand that the h1 is the top-level topic.
+Every page should have only one ``, the main page title. Use `` for major sections. This helps search engines and screen readers understand that the h1 is the top-level topic.
 
 ### Using <br> for Paragraph Spacing
 
@@ -347,7 +347,7 @@ Invalid HTML structure. Browsers show extra spacing, but the text is not inside 
 <p>And more text.</p>
 ```
 
-Do not use multiple `` tags to create spacing between paragraphs. Use proper `` tags — browsers automatically add spacing between paragraphs. `` is only for forced line breaks inside a single paragraph (like in a poem or address).
+Do not use multiple `` tags to create spacing between paragraphs. Use proper `` tags, browsers automatically add spacing between paragraphs. `` is only for forced line breaks inside a single paragraph (like in a poem or address).
 
 ### Forgetting to Close Entity Codes
 
@@ -357,7 +357,7 @@ Do not use multiple `` tags to create spacing between paragraphs. Use proper `` 
 <p>Copyright &copy 2026</p>
 ```
 
-The copyright symbol may not render — the browser may show 'Copyright &copy 2026' as text.
+The copyright symbol may not render, the browser may show 'Copyright &copy 2026' as text.
 
 **Correct:**
 
@@ -402,21 +402,21 @@ The text looks the same, but screen readers do not emphasise the important word.
 <p><strong>Warning:</strong> read this <em>carefully</em>.</p>
 ```
 
-`` and `` only change the look. `` and `` carry semantic meaning — 'this is important' and 'stress this word'. Screen readers emphasise these when reading aloud. Always prefer `` and ``.
+`` and `` only change the look. `` and `` carry semantic meaning, 'this is important' and 'stress this word'. Screen readers emphasise these when reading aloud. Always prefer `` and ``.
 
 ## Summary
 
 - HTML has six heading levels from  (biggest, most important) to  (smallest, least important).
-- Use only ONE  per page — it represents the main topic of the page and is critical for SEO.
+- Use only ONE  per page. It represents the main topic of the page and is critical for SEO.
 - creates a paragraph. Browsers automatically add vertical space between paragraphs.
 - is a self-closing tag that forces a line break. Use it only when you need a manual break, like in a poem or address.
 - draws a horizontal line across the page to visually separate sections.
-- means 'important' and  means 'stressed' — these are semantic tags that screen readers understand. Prefer them over  and .
+- means 'important' and  means 'stressed', these are semantic tags that screen readers understand. Prefer them over  and .
 - highlights text with a yellow background.  shows fine print.  shows strikethrough.  shows underlined inserted text.
 - creates subscript (like H2O) and  creates superscript (like x squared).  shows computer code in monospace font.
-- is for quoting a block of text from another source — browsers indent it by default.
+- is for quoting a block of text from another source, browsers indent it by default.
 - HTML entity codes let you display special characters: &copy; for copyright,   for non-breaking space, < for less than, > for greater than, & for ampersand.
-- HTML collapses whitespace — multiple spaces, tabs, and newlines become a single space. Use   for forced spaces or CSS for layout spacing.
+- HTML collapses whitespace, multiple spaces, tabs, and newlines become a single space. Use   for forced spaces or CSS for layout spacing.
 
 ## Related Topics
 

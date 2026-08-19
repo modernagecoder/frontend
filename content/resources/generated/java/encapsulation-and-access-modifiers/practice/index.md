@@ -176,7 +176,7 @@ System.out.println(c.isDebugMode());
 **Answer:** `false`
 `true`
 
-The default value of a boolean field is `false`. After calling `setDebugMode(true)`, it becomes `true`. The getter uses `isDebugMode()` — the JavaBeans convention for boolean fields uses 'is' instead of 'get'.
+The default value of a boolean field is `false`. After calling `setDebugMode(true)`, it becomes `true`. The getter uses `isDebugMode()`, the JavaBeans convention for boolean fields uses 'is' instead of 'get'.
 
 ### Q8. [Hard] What is the output?
 
@@ -242,7 +242,7 @@ The auto-generated `toString()` produces "Point[x=3, y=4]". The getter is `x()` 
 
 ### Q1. [Easy] What is the difference between encapsulation and abstraction?
 
-*Hint:* Think about 'how' vs 'what' — hiding implementation vs hiding complexity.
+*Hint:* Think about 'how' vs 'what', hiding implementation vs hiding complexity.
 
 **Answer:** **Encapsulation** is about hiding the internal state of an object and controlling access through methods (data hiding). **Abstraction** is about hiding complex implementation details and exposing only the essential features (complexity hiding). Encapsulation answers 'how to protect data'. Abstraction answers 'what to show to the user'.
 
@@ -254,7 +254,7 @@ Example: A car's steering wheel is abstraction (you turn it without knowing the 
 
 **Answer:** `private`
 
-`private` restricts access to the declaring class only. No other class — not even subclasses or classes in the same package — can access private members directly. This is the recommended default for fields.
+`private` restricts access to the declaring class only. No other class, not even subclasses or classes in the same package, can access private members directly. This is the recommended default for fields.
 
 ### Q3. [Medium] What is the output?
 
@@ -329,7 +329,7 @@ The constructor applies `Math.abs()` to the input, converting -5 to 5. This vali
 
 *Hint:* Think about future changes, binary compatibility, and the ability to add logic later.
 
-**Answer:** Even without validation, getters/setters provide: (1) **Future-proofing** — you can add validation, logging, or computed values later without changing the public API. (2) **Read-only control** — you can omit setters for fields that should not change. (3) **Binary compatibility** — changing a public field to a method requires recompiling all dependent code. (4) **Framework compatibility** — many Java frameworks (Spring, Hibernate, Jackson) require JavaBeans conventions with getters/setters.
+**Answer:** Even without validation, getters/setters provide: (1) **Future-proofing**. You can add validation, logging, or computed values later without changing the public API. (2) **Read-only control**, you can omit setters for fields that should not change. (3) **Binary compatibility**, changing a public field to a method requires recompiling all dependent code. (4) **Framework compatibility**, many Java frameworks (Spring, Hibernate, Jackson) require JavaBeans conventions with getters/setters.
 
 The cost of writing getters/setters is minimal. The cost of refactoring a public field to a method when you realize you need validation or logging is significant, especially in a large codebase. Encapsulation is a one-time investment that protects against future maintenance pain.
 
@@ -371,7 +371,7 @@ System.out.println(c);
 `250 INR`
 `350 INR`
 
-Money is an immutable class (final class, private final fields, no setters). `add()` does not modify either operand — it returns a new Money object. a is still 100 INR, b is still 250 INR, and c is a new object with 350 INR.
+Money is an immutable class (final class, private final fields, no setters). `add()` does not modify either operand. It returns a new Money object. a is still 100 INR, b is still 250 INR, and c is a new object with 350 INR.
 
 ## Multiple Choice Questions
 
@@ -517,7 +517,7 @@ D. Destructor
 
 **Answer:** B
 
-**B is correct.** A getter (also called an accessor) returns the value of a private field. A setter (C) sets the value. A constructor (A) initializes an object. Java does not have destructors (D) — it uses garbage collection.
+**B is correct.** A getter (also called an accessor) returns the value of a private field. A setter (C) sets the value. A constructor (A) initializes an object. Java does not have destructors (D). It uses garbage collection.
 
 ## Coding Challenges
 
@@ -765,7 +765,7 @@ class SamePackageClass {
     void access() {
         Vehicle v = new Vehicle();
         System.out.println("Same package: " + v.publicField + ", " + v.protectedField + ", " + v.defaultField);
-        // v.privateField — NOT accessible
+        // v.privateField: NOT accessible
         System.out.println("private: NOT accessible from same package");
     }
 }

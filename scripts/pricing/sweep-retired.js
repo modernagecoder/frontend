@@ -14,8 +14,8 @@
  *     for each visitor's country. Numbers here are safe because they are
  *     owned by the config from now on.
  *
- *  2. FAQ SENTENCES that appear twice — once as visible text, once inside
- *     FAQPage JSON-LD "text" — are rewritten to identical NO-NUMBER wording
+ *  2. FAQ SENTENCES that appear twice, once as visible text, once inside
+ *     FAQPage JSON-LD "text", are rewritten to identical NO-NUMBER wording
  *     in both. A number inside schema text cannot be anchored, so any number
  *     placed there today is a lie waiting for the next price change; and
  *     Google expects the schema answer to match the visible one, so both
@@ -24,8 +24,8 @@
  *  3. USD OFFER BLOCKS get data-price-scope on their script tag, putting
  *     their price/priceCurrency under the stamper permanently.
  *
- *  4. BROKEN "USD 100 ( )" ARTIFACTS — empty parentheses left where a frozen
- *     AED/SAR conversion was stripped — are cleaned to no-number phrasing.
+ *  4. BROKEN "USD 100 ( )" ARTIFACTS, empty parentheses left where a frozen
+ *     AED/SAR conversion was stripped, are cleaned to no-number phrasing.
  *
  * Every transform is a specific regex for a shape that was enumerated by
  * grep first. Anything unmatched is left alone and stays catalogued in
@@ -84,7 +84,7 @@ const GULF_FAQ_SENTENCE =
 
 /**
  * The transforms. Each: name, test (which files it may touch), rx, replacement
- * (string or fn(subject)). Order matters — more specific first.
+ * (string or fn(subject)). Order matters, more specific first.
  */
 function transforms(subject) {
     const G = (o) => anchor(subject, 'group', o);
@@ -204,13 +204,13 @@ function transforms(subject) {
         // ── 4. broken "USD n ( )" artifacts ──
         {
             name: 'offer description USD 100 ( )',
-            rx: /USD 100 \( \) per month — 8 sessions?, 2 (?:each week|a week|per week)\.?/g,
-            to: 'Priced for each country — 8 sessions, 2 each week.'
+            rx: /USD 100 \( \) per month: 8 sessions?, 2 (?:each week|a week|per week)\.?/g,
+            to: 'Priced for each country, 8 sessions, 2 each week.'
         },
         {
             name: 'offer description USD 40 ( )',
-            rx: /USD 40 \( \) per month — 8 group sessions?, 2 (?:each week|a week|per week)\.?/g,
-            to: 'Priced for each country — 8 group sessions, 2 each week.'
+            rx: /USD 40 \( \) per month: 8 group sessions?, 2 (?:each week|a week|per week)\.?/g,
+            to: 'Priced for each country, 8 group sessions, 2 each week.'
         },
         // ── round 3: phrase-level residuals (surroundings vary per page) ──
         {
@@ -329,11 +329,11 @@ function transforms(subject) {
             // Offer descriptions still narrate the retired figures even after
             // the stamper corrects the machine-readable price two keys away.
             name: 'offer description USD n per month',
-            rx: /"description": "USD (?:40|100|150) per month\s*[—-]\s*([^"]*)"/g,
-            to: '"description": "Priced for each country — $1"'
+            rx: /"description": "USD (?:40|100|150) per month\s*[, -]\s*([^"]*)"/g,
+            to: '"description": "Priced for each country, $1"'
         },
         {
-            // "USD 150/mo." — the tripwire in verify caught these after the
+            // "USD 150/mo.", the tripwire in verify caught these after the
             // dollar-sign variant was swept: same tail, spelled with "USD".
             name: 'meta tail: USD n/mo or per month',
             rx: /\.?\s*USD (?:40|100|150)(?:\/mo(?:nth)?|\s?per month)[.,]?\s*(?:8 (?:classes|lessons|sessions)[.,]?\s*)?(?:Free tria?l\.?\s*)?">/g,

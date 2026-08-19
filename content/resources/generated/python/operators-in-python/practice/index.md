@@ -610,7 +610,7 @@ D. 6
 
 **Answer:** D
 
-**D is correct.** In Python, `^` is the bitwise XOR operator, NOT exponentiation. 5 in binary is `101`, 3 is `011`. XOR gives 1 where bits differ: `110` = 6. Option A (125) would be `5 ** 3` (exponentiation). Many students confuse `^` with power — that is a common trap.
+**D is correct.** In Python, `^` is the bitwise XOR operator, NOT exponentiation. 5 in binary is `101`, 3 is `011`. XOR gives 1 where bits differ: `110` = 6. Option A (125) would be `5 ** 3` (exponentiation). Many students confuse `^` with power. That is a common trap.
 
 ### Q15. [Hard] What is the output of: print(not False or True and False)?
 
@@ -665,7 +665,7 @@ D. <>
 
 **Answer:** C
 
-**C is correct.** `!=` is the "not equal to" comparison operator in Python. Option A (`=!`) is not valid — the order matters. Option B (`=>`) is not valid in Python (it is used in JavaScript for arrow functions). Option D (`<>`) was valid in Python 2 but is NOT valid in Python 3.
+**C is correct.** `!=` is the "not equal to" comparison operator in Python. Option A (`=!`) is not valid, the order matters. Option B (`=>`) is not valid in Python (it is used in JavaScript for arrow functions). Option D (`<>`) was valid in Python 2 but is NOT valid in Python 3.
 
 ### Q20. [Hard] What is the output of: print(False or not False and True)?
 

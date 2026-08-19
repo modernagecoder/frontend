@@ -22,7 +22,7 @@ print(city)
 
 Output: Mumbai
 
-The variable city is created and assigned the string value "Mumbai". When you print(city), Python looks up the value stored in the variable city and displays it. Notice you do NOT put quotes around the variable name in print — print(city) prints the VALUE, while print("city") would print the word 'city'.
+The variable city is created and assigned the string value "Mumbai". When you print(city), Python looks up the value stored in the variable city and displays it. Notice you do NOT put quotes around the variable name in print, print(city) prints the VALUE, while print("city") would print the word 'city'.
 
 ### Q2. [Easy] What are the four basic data types in Python?
 
@@ -46,7 +46,7 @@ The value 3.14 has a decimal point, making it a floating-point number. The type(
 
 **Answer:** Valid: **(a) my_name** and **(c) _count**. Invalid: (b) 2fast (starts with digit), (d) for (Python keyword), (e) student name (contains a space).
 
-my_name uses only letters and underscore — valid. _count starts with underscore — valid. 2fast starts with a digit — invalid. for is a reserved keyword used for loops — invalid. student name has a space — invalid (use student_name instead).
+my_name uses only letters and underscore, valid. _count starts with underscore, valid. 2fast starts with a digit, invalid. for is a reserved keyword used for loops, invalid. student name has a space, invalid (use student_name instead).
 
 ### Q5. [Easy] What is the output of:
 x = 5
@@ -54,7 +54,7 @@ print(type(x))
 x = "five"
 print(type(x))
 
-*Hint:* Python is dynamically typed — variables can change type.
+*Hint:* Python is dynamically typed, variables can change type.
 
 **Answer:** Output:
 
@@ -62,14 +62,14 @@ print(type(x))
 
 ```
 
-First, x is assigned the integer 5, so type(x) is int. Then x is reassigned the string "five", so type(x) becomes str. This demonstrates Python's dynamic typing — the same variable can hold different types at different times.
+First, x is assigned the integer 5, so type(x) is int. Then x is reassigned the string "five", so type(x) becomes str. This demonstrates Python's dynamic typing, the same variable can hold different types at different times.
 
 ### Q6. [Medium] What is the output of:
 print(int(7.9))
 print(int(7.1))
 print(int(-3.8))
 
-*Hint:* int() truncates — it removes the decimal part. It does NOT round.
+*Hint:* int() truncates. It removes the decimal part. It does NOT round.
 
 **Answer:** Output:
 
@@ -79,7 +79,7 @@ print(int(-3.8))
 -3
 ```
 
-int() truncates the decimal part (cuts it off): 7.9 becomes 7, 7.1 becomes 7. For negative numbers, int() truncates toward zero: -3.8 becomes -3 (not -4). This is a critical distinction — int() does NOT round.
+int() truncates the decimal part (cuts it off): 7.9 becomes 7, 7.1 becomes 7. For negative numbers, int() truncates toward zero: -3.8 becomes -3 (not -4). This is a critical distinction, int() does NOT round.
 
 ### Q7. [Medium] What is the output of:
 print(bool(""))
@@ -159,7 +159,7 @@ In Python, True equals 1 and False equals 0 when used in arithmetic. True + True
 
 *Hint:* One stores a value, the other checks a condition.
 
-**Answer:** `x = 5` is **assignment** — it stores the value 5 in the variable x. `x == 5` is **comparison** — it checks whether the current value of x is equal to 5 and returns True or False.
+**Answer:** `x = 5` is **assignment**, it stores the value 5 in the variable x. `x == 5` is **comparison**, it checks whether the current value of x is equal to 5 and returns True or False.
 
 This distinction is crucial in programming. The single = (assignment operator) changes the value of the variable. The double == (comparison operator) asks a question without changing anything. In the code 'if x == 5:', we are asking 'is x equal to 5?'. Writing 'if x = 5:' would be a SyntaxError because assignment is not allowed inside an if condition.
 
@@ -200,7 +200,7 @@ print(type(x))
 
 ```
 
-5 (no decimal) is an int. 5.0 (with decimal point) is a float. "5" (in quotes) is a str. True (capital T) is a bool. The variable x changes type each time — this is dynamic typing in action.
+5 (no decimal) is an int. 5.0 (with decimal point) is a float. "5" (in quotes) is a str. True (capital T) is a bool. The variable x changes type each time. This is dynamic typing in action.
 
 ### Q15. [Hard] What is the output of:
 print(bool("False"))
@@ -238,13 +238,13 @@ print(int(a) + int(b))
 30
 ```
 
-a and b are both strings. a + b concatenates them: "10" + "20" = "1020". int(a) + int(b) converts both to integers first: int("10") + int("20") = 10 + 20 = 30. This illustrates why knowing data types matters — the same + operator does very different things depending on the types.
+a and b are both strings. a + b concatenates them: "10" + "20" = "1020". int(a) + int(b) converts both to integers first: int("10") + int("20") = 10 + 20 = 30. This illustrates why knowing data types matters, the same + operator does very different things depending on the types.
 
 ### Q17. [Hard] Explain what dynamic typing means in Python. How is it different from static typing in Java?
 
 *Hint:* Think about whether you need to declare a variable's type before using it.
 
-**Answer:** In **dynamic typing** (Python), you do not declare a variable's type — Python infers it from the assigned value. A variable can change type: `x = 5` (int) then `x = "Hello"` (str) is valid. In **static typing** (Java), you must declare the type: `int x = 5;` and then `x = "Hello";` causes a compile error because x was declared as int.
+**Answer:** In **dynamic typing** (Python), you do not declare a variable's type: Python infers it from the assigned value. A variable can change type: `x = 5` (int) then `x = "Hello"` (str) is valid. In **static typing** (Java), you must declare the type: `int x = 5;` and then `x = "Hello";` causes a compile error because x was declared as int.
 
 Dynamic typing makes Python quicker to write and more flexible. Static typing catches type-related errors at compile time (before the program runs). Python's approach is great for learning and rapid development. Java's approach is better for large projects where type safety prevents certain bugs.
 
@@ -306,7 +306,7 @@ This program demonstrates all four data types working together: name is a string
 
 *Hint:* Think about what happens when a value needs to change, or when the same value is used in multiple places.
 
-**Answer:** We use variables because: (1) **Reusability** — use the same value in many places without retyping. (2) **Easy updates** — change the value once and it updates everywhere. (3) **Readability** — `total_marks` is more meaningful than `500`. (4) **Calculations** — you can perform operations on variables and store results.
+**Answer:** We use variables because: (1) **Reusability**, use the same value in many places without retyping. (2) **Easy updates**, change the value once and it updates everywhere. (3) **Readability**, `total_marks` is more meaningful than `500`. (4) **Calculations**, you can perform operations on variables and store results.
 
 Imagine a program that uses a student's name 20 times. If you type "Aarav Sharma" in 20 places and then need to change it to "Aarav S.", you must find and change all 20 occurrences. With a variable, you change it once: name = "Aarav S." and all 20 uses automatically reflect the new value.
 
@@ -324,7 +324,7 @@ print(int(age) + int(age))
 28
 ```
 
-age is the string "14" (not the number 14). String concatenation: "14" + "14" = "1414". Integer addition: int("14") + int("14") = 14 + 14 = 28. This clearly shows why data types matter — the same + operator does different things.
+age is the string "14" (not the number 14). String concatenation: "14" + "14" = "1414". Integer addition: int("14") + int("14") = 14 + 14 = 28. This clearly shows why data types matter, the same + operator does different things.
 
 ### Q4. [Medium] Meera writes this code and gets an error. What went wrong and how should she fix it?
 marks = 95
@@ -332,7 +332,7 @@ print("I scored " + marks + " marks")
 
 *Hint:* You cannot concatenate strings and integers with +.
 
-**Answer:** The error is `TypeError: can only concatenate str (not "int") to str`. The `+` operator cannot join a string with an integer. **Fix 1:** `print("I scored " + str(marks) + " marks")` — convert marks to string. **Fix 2:** `print("I scored", marks, "marks")` — use comma separation.
+**Answer:** The error is `TypeError: can only concatenate str (not "int") to str`. The `+` operator cannot join a string with an integer. **Fix 1:** `print("I scored " + str(marks) + " marks")`, convert marks to string. **Fix 2:** `print("I scored", marks, "marks")`, use comma separation.
 
 Python does not automatically convert integers to strings when using +. You must explicitly convert using str(). The comma method is simpler because print() handles the conversion automatically, but it adds spaces between values.
 
@@ -379,7 +379,7 @@ print(b)
 5
 ```
 
-When b = a is executed, b gets the value 5 (the current value of a). After that, a and b are independent. Changing a to 10 does not affect b. b still holds 5. This is because integers are immutable in Python — b = a creates a reference to the same object, but a = 10 makes a point to a new object.
+When b = a is executed, b gets the value 5 (the current value of a). After that, a and b are independent. Changing a to 10 does not affect b. b still holds 5. This is because integers are immutable in Python, b = a creates a reference to the same object, but a = 10 makes a point to a new object.
 
 ### Q8. [Hard] What happens when you run: int("hello")? What about int("3.14")?
 
@@ -387,7 +387,7 @@ When b = a is executed, b gets the value 5 (the current value of a). After that,
 
 **Answer:** `int("hello")` raises `ValueError: invalid literal for int() with base 10: 'hello'`. `int("3.14")` also raises `ValueError: invalid literal for int() with base 10: '3.14'`.
 
-int() can only convert strings that represent valid integers (like "42", "-7", "0"). It cannot convert "hello" because there are no digits. Surprisingly, it also cannot convert "3.14" directly — the decimal point makes it invalid for int(). To convert "3.14" to an integer, you must go through float first: int(float("3.14")) gives 3.
+int() can only convert strings that represent valid integers (like "42", "-7", "0"). It cannot convert "hello" because there are no digits. Surprisingly, it also cannot convert "3.14" directly, the decimal point makes it invalid for int(). To convert "3.14" to an integer, you must go through float first: int(float("3.14")) gives 3.
 
 ### Q9. [Hard] What is the output of:
 x = 10
@@ -432,7 +432,7 @@ Python evaluates the entire right side first: c is "Cherry", a is "Apple", b is 
 
 **Answer:** He gets `TypeError: 'int' object is not callable`. By writing `print = 5`, Arjun **overwrote the built-in print function** with the integer 5. Now `print` refers to the number 5, not the function. Calling `print("Hello")` is like calling `5("Hello")`, which makes no sense.
 
-Python allows you to use any name for variables, including names of built-in functions. But doing so 'shadows' the built-in function — your variable replaces it. This is a dangerous mistake. Never name variables: print, type, int, float, str, bool, list, input, len, etc. To recover, you can use del print to delete your variable and restore the built-in.
+Python allows you to use any name for variables, including names of built-in functions. But doing so 'shadows' the built-in function. Your variable replaces it. This is a dangerous mistake. Never name variables: print, type, int, float, str, bool, list, input, len, etc. To recover, you can use del print to delete your variable and restore the built-in.
 
 ### Q12. [Easy] What is the output of:
 print(type(True))
@@ -446,7 +446,7 @@ print(type(False))
 
 ```
 
-Both True and False are values of the bool (boolean) data type. Note the capital T in True and capital F in False — this is required. Writing true or false (lowercase) would cause a NameError.
+Both True and False are values of the bool (boolean) data type. Note the capital T in True and capital F in False. This is required. Writing true or false (lowercase) would cause a NameError.
 
 ## Multiple Choice Questions
 
@@ -481,7 +481,7 @@ D. 2nd_place
 
 **Answer:** D
 
-**D is correct.** Variable names cannot start with a digit. 2nd_place starts with '2', which is invalid. _name (starts with underscore — valid), student1 (digit at end — valid), and my_age (letters and underscore — valid) are all valid.
+**D is correct.** Variable names cannot start with a digit. 2nd_place starts with '2', which is invalid. _name (starts with underscore, valid), student1 (digit at end, valid), and my_age (letters and underscore, valid) are all valid.
 
 ### Q4. [Easy] What does type(42) return?
 
@@ -525,7 +525,7 @@ D. Error
 
 **Answer:** B
 
-**B is correct.** int() truncates (removes the decimal part) — it does NOT round. So int(3.9) gives 3, not 4. This is a very common misconception. If you want rounding, use round(3.9) which gives 4.
+**B is correct.** int() truncates (removes the decimal part). It does NOT round. So int(3.9) gives 3, not 4. This is a very common misconception. If you want rounding, use round(3.9) which gives 4.
 
 ### Q8. [Medium] What is the output of bool("")?
 
@@ -580,7 +580,7 @@ D. Type errors are caught before the program runs
 
 **Answer:** C
 
-**C is correct.** Dynamic typing means variables can change type: x = 5 (int) then x = "hello" (str) is valid. Option A describes static typing (Java). Option B is false — types can change. Option D describes compile-time type checking (static typing).
+**C is correct.** Dynamic typing means variables can change type: x = 5 (int) then x = "hello" (str) is valid. Option A describes static typing (Java). Option B is false, types can change. Option D describes compile-time type checking (static typing).
 
 ### Q13. [Hard] What is the output of bool("0")?
 
@@ -602,7 +602,7 @@ D. Error
 
 **Answer:** C
 
-**C is correct.** In arithmetic operations, True is treated as 1 and False as 0. So True + True = 1 + 1 = 2. Python does not concatenate booleans like strings — it performs numeric addition.
+**C is correct.** In arithmetic operations, True is treated as 1 and False as 0. So True + True = 1 + 1 = 2. Python does not concatenate booleans like strings. It performs numeric addition.
 
 ### Q15. [Hard] What happens when you run int("3.14")?
 
@@ -669,7 +669,7 @@ D. x = True
 A. 5
 B. 3
 C. 8
-D. Error — x cannot equal x + 3
+D. Error, x cannot equal x + 3
 
 **Answer:** C
 

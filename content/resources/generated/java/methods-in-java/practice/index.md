@@ -51,7 +51,7 @@ printStars(5);
 **Answer:** `***`
 `*****`
 
-`printStars(3)` prints 3 stars and a newline. `printStars(5)` prints 5 stars and a newline. The method is void — it does not return a value.
+`printStars(3)` prints 3 stars and a newline. `printStars(5)` prints 5 stars and a newline. The method is void. It does not return a value.
 
 ### Q3. [Easy] What is the output?
 
@@ -204,7 +204,7 @@ display(3.0, 5);
 **Answer:** `int, double`
 `double, int`
 
-`display(5, 3.0)`: 5 is int, 3.0 is double — matches `(int, double)`. `display(3.0, 5)`: 3.0 is double, 5 is int — matches `(double, int)`. The order of parameter types matters for overloading.
+`display(5, 3.0)`: 5 is int, 3.0 is double, matches `(int, double)`. `display(3.0, 5)`: 3.0 is double, 5 is int, matches `(double, int)`. The order of parameter types matters for overloading.
 
 ### Q10. [Hard] What is the output?
 
@@ -406,7 +406,7 @@ compute(5) = 5 + compute(3) = 5 + 3 + compute(1) = 5 + 3 + 1 + compute(-1) = 5 +
 
 *Hint:* One happens at compile time within a class. The other happens at runtime between classes.
 
-**Answer:** **Overloading** occurs within the same class — multiple methods with the same name but different parameter lists. Resolved at compile time. **Overriding** occurs in a subclass — a method with the same name and same parameter list as a parent class method. Resolved at runtime (dynamic dispatch).
+**Answer:** **Overloading** occurs within the same class, multiple methods with the same name but different parameter lists. Resolved at compile time. **Overriding** occurs in a subclass, a method with the same name and same parameter list as a parent class method. Resolved at runtime (dynamic dispatch).
 
 Overloading is compile-time polymorphism: the compiler picks the method based on argument types. Overriding is runtime polymorphism: the JVM picks the method based on the actual object type. Overloaded methods can have different return types. Overridden methods must have the same return type (or covariant).
 
@@ -528,7 +528,7 @@ static double add(int a, int b) { return a + b; }
 
 A. The int version is called when possible
 B. The double version is called when possible
-C. Compilation error — duplicate method
+C. Compilation error, duplicate method
 D. Runtime error
 
 **Answer:** C
@@ -568,7 +568,7 @@ test(5);
 
 A. varargs
 B. single
-C. Compilation error — ambiguous
+C. Compilation error, ambiguous
 D. Runtime error
 
 **Answer:** B

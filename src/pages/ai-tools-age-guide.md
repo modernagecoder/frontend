@@ -14,7 +14,7 @@ We teach AI to 13-18 year-olds, so we had to know which tools a 13-year-old is a
 
 ## Why so many AI tools ban children
 
-Most parents assume an AI tool bans under-13s because it is unsuitable. That is usually not the reason. Age floors in software terms track **contract law and data-protection liability** — COPPA in the US, GDPR Article 8 in Europe, and India's DPDP Act 2023 — not whether the tool is any good for a child. A minor cannot form a binding contract, so the safest thing a vendor can write is a high number.
+Most parents assume an AI tool bans under-13s because it is unsuitable. That is usually not the reason. Age floors in software terms track **contract law and data-protection liability**, COPPA in the US, GDPR Article 8 in Europe, and India's DPDP Act 2023, not whether the tool is any good for a child. A minor cannot form a binding contract, so the safest thing a vendor can write is a high number.
 
 That cuts both ways. Some genuinely careful tools ban under-16s for paperwork reasons. And some tools that look harmless bar under-18s while a tool with real adult content sits at 13. **You cannot tell from the marketing. You have to read the terms.** So we did.
 

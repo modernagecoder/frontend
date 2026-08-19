@@ -1,36 +1,36 @@
 ---
-title: "GCSE Maths Tuition Online · 1:1 AQA, Edexcel & OCR — Modern Age Coders"
-description: "Live 1:1 online GCSE maths tuition for AQA, Edexcel and OCR, foundation and higher tier. We teach why the maths works, then drill past papers and method marks — so grades 1–9 stop being a mystery. Same tutor, UK time. Priced for your country."
+title: "GCSE Maths Tuition Online · 1:1 AQA, Edexcel & OCR | Modern Age Coders"
+description: "Live 1:1 online GCSE maths tuition for AQA, Edexcel and OCR, foundation and higher tier. We teach why the maths works, then drill past papers and method marks, so grades 1–9 stop being a mystery. Same tutor, UK time. Priced for your country."
 canonical: https://learn.modernagecoders.com/gcse-maths-tuition-online
 source: src/pages/gcse-maths-tuition-online.html
 ---
-> Live 1:1 online GCSE maths tuition for AQA, Edexcel and OCR, foundation and higher tier. We teach why the maths works, then drill past papers and method marks — so grades 1–9 stop being a mystery. Same tutor, UK time. Priced for your country.
+> Live 1:1 online GCSE maths tuition for AQA, Edexcel and OCR, foundation and higher tier. We teach why the maths works, then drill past papers and method marks, so grades 1–9 stop being a mystery. Same tutor, UK time. Priced for your country.
 
 Why GCSE maths grades stall
 
 ## Covering every topic isn't the same as being able to use any of them under pressure.
 
-Schools cover the whole GCSE specification — they have to. But "covered" and "understood" are different things, and the exam knows it. The harder marks come from problem-solving questions that combine topics and look nothing like the textbook example, and a student who learned each topic as a separate procedure has no way in.
+Schools cover the whole GCSE specification. They have to. But "covered" and "understood" are different things, and the exam knows it. The harder marks come from problem-solving questions that combine topics and look nothing like the textbook example, and a student who learned each topic as a separate procedure has no way in.
 
 So a hard-working student revises everything, sits the mock, and still lands a 4 or 5, baffled about why.
 
-The other quiet grade-killer is method marks. Students lose marks they'd earned by not showing working, or by an old gap — a shaky bit of algebra or fractions — that surfaces inside a bigger question.
+The other quiet grade-killer is method marks. Students lose marks they'd earned by not showing working, or by an old gap, a shaky bit of algebra or fractions, that surfaces inside a bigger question.
 
 We fix all of it. We diagnose where the marks actually leak, repair the foundations the exam keeps testing, teach the reasoning the problem-solving questions need, and drill past-paper technique so the marks get banked.
 
 How we teach
 
-## Understanding, then exam technique — in that order.
+## Understanding, then exam technique: in that order.
 
 A grade plan built from your child's actual papers, not a generic revision list.
 
 ### Diagnose where marks leak
 
-We review a real paper and sort every lost mark into gap, method slip or timing — that map becomes the plan.
+We review a real paper and sort every lost mark into gap, method slip or timing. That map becomes the plan.
 
 ### Rebuild the recurring foundations
 
-Most lost marks trace back to a few weak areas — usually algebra, fractions or ratio. We make those automatic.
+Most lost marks trace back to a few weak areas, usually algebra, fractions or ratio. We make those automatic.
 
 ### Teach the problem-solving questions
 
@@ -42,17 +42,17 @@ We rehearse with your board's papers, training the working and timing that bank 
 
 See it for yourself
 
-## A higher-tier question — solved by reading, not panicking.
+## A higher-tier question: solved by reading, not panicking.
 
 Worked example · higher-tier algebra
 
-**The question:** "The product of two consecutive integers is 156. Find them." Students freeze because it doesn't look like the equations they practised — there's no x in sight.
+**The question:** "The product of two consecutive integers is 156. Find them." Students freeze because it doesn't look like the equations they practised. There's no x in sight.
 
 **How we do it.** The skill the exam is testing is turning words into algebra. "Two consecutive integers" means a number and the next one: n and n+1. "Product is 156" means multiply them and set equal to 156. Now it's a quadratic you can solve:
 
 n(n + 1) = 156n² + n − 156 = 0factorise: (n + 13)(n − 12) = 0so n = 12 (or −13) → the integers are **12 and 13**(check: 12 × 13 = 156 ✓)
 
-Nothing here is beyond the specification — the difficulty was purely translating the words into an equation, then recognising a quadratic. That translation skill is what separates a grade 5 from a grade 7, and it's exactly what we train: not more formulas, but the habit of turning an unfamiliar question into something you already know how to solve.
+Nothing here is beyond the specification, the difficulty was purely translating the words into an equation, then recognising a quadratic. That translation skill is what separates a grade 5 from a grade 7, and it's exactly what we train: not more formulas, but the habit of turning an unfamiliar question into something you already know how to solve.
 
 Why a coding school teaches GCSE maths
 
@@ -64,13 +64,13 @@ A coder turns a vague requirement into precise logic; a GCSE candidate turns wor
 
 ### Break it into steps
 
-Multi-mark questions yield to decomposition — the same move that turns a big program into small functions.
+Multi-mark questions yield to decomposition, the same move that turns a big program into small functions.
 
 ### Check your answer
 
 "Does 12 × 13 actually make 156?" is a debugging habit. We make checking automatic, so careless marks stop slipping away.
 
-We're Modern Age Coders. The reasoning that makes a strong programmer is the reasoning the toughest GCSE questions reward — which is why our students tend to handle the problem-solving parts that leave others stuck.
+We're Modern Age Coders. The reasoning that makes a strong programmer is the reasoning the toughest GCSE questions reward, which is why our students tend to handle the problem-solving parts that leave others stuck.
 
 What we cover
 
@@ -80,15 +80,15 @@ Mapped to your board, with the foundations rebuilt under each strand.
 
 ### Number
 
-Fractions, decimals, percentages, indices, standard form, surds and bounds — the bedrock the rest leans on.
+Fractions, decimals, percentages, indices, standard form, surds and bounds, the bedrock the rest leans on.
 
 ### Algebra
 
-Expressions, equations, simultaneous equations, quadratics, inequalities, sequences, graphs and functions — the biggest part of the exam.
+Expressions, equations, simultaneous equations, quadratics, inequalities, sequences, graphs and functions, the biggest part of the exam.
 
 ### Ratio & proportion
 
-Ratio, direct and inverse proportion, rates and compound measures — a top source of dropped marks.
+Ratio, direct and inverse proportion, rates and compound measures, a top source of dropped marks.
 
 ### Geometry & measures
 
@@ -104,11 +104,11 @@ Foundation and higher strategy, method marks, problem-solving questions, calcula
 
 Who this is for
 
-## The right fit — and an honest word on what to expect.
+## The right fit: and an honest word on what to expect.
 
 **This fits** the student aiming for a secure grade 4 pass, the one stuck at a 5 who can't see why, and the strong student chasing a grade 8 or 9. Adults resitting GCSE maths are welcome too. We meet the current level and target the next realistic grade.
 
-**What's realistic.** Real gains come from fixing the right gaps and practising between lessons, over a term or two — not from a fortnight of cramming. Your child's starting point, target and effort decide the result. We set an honest target and never quote a guaranteed grade, because no honest tutor can.
+**What's realistic.** Real gains come from fixing the right gaps and practising between lessons, over a term or two, not from a fortnight of cramming. Your child's starting point, target and effort decide the result. We set an honest target and never quote a guaranteed grade, because no honest tutor can.
 
 ### What we won't do
 
@@ -167,7 +167,7 @@ Who teaches your child
 
 ## Tutors who know the boards and the maths beneath them.
 
-Good GCSE coaching needs both a deep command of the maths and a precise knowledge of how each board marks. Our tutors have both — they can fix the algebra gap *and* tell your child the exact working a marker needs to award the method mark.
+Good GCSE coaching needs both a deep command of the maths and a precise knowledge of how each board marks. Our tutors have both. They can fix the algebra gap *and* tell your child the exact working a marker needs to award the method mark.
 
 The same tutor stays through to the exam, watching the grades and recurring mistakes, so the plan is always aimed at the marks still on the table.
 
@@ -199,33 +199,33 @@ Which exam boards do you cover?
 
 AQA, Edexcel and OCR, foundation and higher tier, working from your child's specification, scheme of work, mocks and homework.
 
-Foundation or higher tier — which is right?
+Foundation or higher tier, which is right?
 
 It depends on level and target grade (foundation 1–5, higher 4–9). We'll advise honestly after a diagnostic; sometimes a strong 5 on foundation beats scraping higher.
 
 Can you help my child reach a grade 7, 8 or 9?
 
-Yes — the top grades come from understanding plus problem-solving technique. We build both, with the result depending on starting point and effort.
+Yes, the top grades come from understanding plus problem-solving technique. We build both, with the result depending on starting point and effort.
 
 My child needs a grade 4 'pass'. Can you focus on that?
 
-Yes — we prioritise high-value foundation topics, fix the costly gaps, and drill technique so attainable marks are reliably banked.
+Yes. We prioritise high-value foundation topics, fix the costly gaps, and drill technique so attainable marks are reliably banked.
 
 How much does it cost?
 
-USD 150 per month for private 1:1 — eight live lessons, two each week. Small-group option USD 100 per month. No contract; cancel any time.
+USD 150 per month for private 1:1, eight live lessons, two each week. Small-group option USD 100 per month. No contract; cancel any time.
 
 Is there a free trial?
 
-Yes — the first lesson is free, no card needed. We diagnose where marks are being lost.
+Yes, the first lesson is free, no card needed. We diagnose where marks are being lost.
 
 Will my child keep the same tutor?
 
-Yes — one tutor tracking the specification, weak topics and mistakes through to the exam.
+Yes, one tutor tracking the specification, weak topics and mistakes through to the exam.
 
 Do you use past papers?
 
-Yes — your board's papers and mark schemes, with every lost mark reviewed as gap, method slip or timing.
+Yes, your board's papers and mark schemes, with every lost mark reviewed as gap, method slip or timing.
 
 When should we start before the exam?
 
@@ -233,15 +233,15 @@ The earlier the better, but we help at any stage. We'll be honest about what's a
 
 Are lessons live?
 
-Yes — live, one-to-one, with a shared whiteboard.
+Yes, live, one-to-one, with a shared whiteboard.
 
 Do you help adults resitting GCSE maths?
 
-Yes — see our [adult maths classes](/online-maths-classes-for-adults-in-uk) page for a route built around returning learners.
+Yes, see our [adult maths classes](/online-maths-classes-for-adults-in-uk) page for a route built around returning learners.
 
 Do lessons fit around school and revision?
 
-Yes — after-school, evening and weekend slots in UK time, ramping up around mocks and summer exams.
+Yes, after-school, evening and weekend slots in UK time, ramping up around mocks and summer exams.
 
 ## Book a free GCSE maths trial lesson.
 
@@ -259,7 +259,7 @@ Real student projects
 
 Every one is a real, live project shipped by a Modern Age Coders student. Explore more in [Student Labs](/student-labs).
 
-[![Palm Arcana — Summon the Elements](/images/projects/superpawer.webp)GamePalm Arcana — Summon the ElementsOpen your palms to the webcam and computer vision turns your gestures into real magic — the left palm throws a fireball, the right crackles with lightning. A wild blend of hand-tracking AI, creative coding and pure imagination, vibe-coded into a playable browser experience.by AarushOpen the live project ↗](https://superpawer.netlify.app)[![LumenFX — AR/VR Photo Effects Studio](/images/projects/lumenfx.webp)Web AppLumenFX — AR/VR Photo Effects StudioUpload a photo and transform it with cinematic filters, AR face effects and the wildest trending edits — the same looks blowing up on TikTok, Reels and Snap, with 240+ one-tap presets. Raayan vibe-coded the whole studio from an idea: prompted the concept, then built the effects engine and gallery UI by hand.by RaayanOpen the live project ↗](https://arvrbadestweb.lovable.app)[![Doodle Dash — 30-Second Drawing Challenge](/images/projects/doodledash.webp)GameDoodle Dash — 30-Second Drawing ChallengePick a difficulty, get a prompt, and you have exactly 30 seconds to draw it — then an AI judge scores how close you got. Three modes from easy objects to chaotic scenes. Shubh vibe-coded it idea-first, wiring real AI image grading into a fast, addictive drawing game.by ShubhOpen the live project ↗](https://doodledashmaster.lovable.app)
+[![Palm Arcana, Summon the Elements](/images/projects/superpawer.webp)GamePalm Arcana, Summon the ElementsOpen your palms to the webcam and computer vision turns your gestures into real magic, the left palm throws a fireball, the right crackles with lightning. A wild blend of hand-tracking AI, creative coding and pure imagination, vibe-coded into a playable browser experience.by AarushOpen the live project ↗](https://superpawer.netlify.app)[![LumenFX, AR/VR Photo Effects Studio](/images/projects/lumenfx.webp)Web AppLumenFX, AR/VR Photo Effects StudioUpload a photo and transform it with cinematic filters, AR face effects and the wildest trending edits, the same looks blowing up on TikTok, Reels and Snap, with 240+ one-tap presets. Raayan vibe-coded the whole studio from an idea: prompted the concept, then built the effects engine and gallery UI by hand.by RaayanOpen the live project ↗](https://arvrbadestweb.lovable.app)[![Doodle Dash, 30-Second Drawing Challenge](/images/projects/doodledash.webp)GameDoodle Dash, 30-Second Drawing ChallengePick a difficulty, get a prompt, and you have exactly 30 seconds to draw it, then an AI judge scores how close you got. Three modes from easy objects to chaotic scenes. Shubh vibe-coded it idea-first, wiring real AI image grading into a fast, addictive drawing game.by ShubhOpen the live project ↗](https://doodledashmaster.lovable.app)
 
 ---
 

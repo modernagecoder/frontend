@@ -152,14 +152,14 @@ Real, verified reviews from Modern Age Coders families. Read hundreds more on ou
 
 ★★★★★
 
-> “My son has been attending this coding class for the past couple of months, and I've been genuinely impressed with both his progress and enthusiasm. The instructors are incredibly patient and knowledgeable. What stands out most is how excited my son is before every class—he looks forward to learning, problem-solving, and sharing what he's built. I've noticed a big boost in his confidence!”
+> “My son has been attending this coding class for the past couple of months, and I've been genuinely impressed with both his progress and enthusiasm. The instructors are incredibly patient and knowledgeable. What stands out most is how excited my son is before every class. He looks forward to learning, problem-solving, and sharing what he's built. I've noticed a big boost in his confidence!”
 
 *PPoonam Rathore
 Parent*
 
 ★★★★★
 
-> “I'm truly grateful for my experience at Modern Age Coders! The teaching approach of my legendary teachers—Shivam Sir, Mihir Sir and Sonu Sir—is extraordinary. They were not only my teachers but also mentors and friendly figures. The fee is remarkably reasonable and the perks are mind-blowing—one-on-one doubt solving, mentoring, and regular tests. The most impressive part was working on real-world projects.”
+> “I'm truly grateful for my experience at Modern Age Coders! The teaching approach of my legendary teachers, Shivam Sir, Mihir Sir and Sonu Sir, is extraordinary. They were not only my teachers but also mentors and friendly figures. The fee is remarkably reasonable and the perks are mind-blowing, one-on-one doubt solving, mentoring, and regular tests. The most impressive part was working on real-world projects.”
 
 *KKrishnam Bhatter
 Former Student*

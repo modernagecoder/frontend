@@ -10,7 +10,7 @@ West Bengal • **Live Online Classes**
 
 # Coding Classes in West Bengal for Kids, Teens & Adults
 
-From Kolkata's Salt Lake Sector V tech hub to Howrah, Siliguri and Durgapur — Modern Age Coders teaches Scratch, Python, Java, Web Development and AI through live, small-batch online classes. Quality tech education for a state that has always valued learning.
+From Kolkata's Salt Lake Sector V tech hub to Howrah, Siliguri and Durgapur: Modern Age Coders teaches Scratch, Python, Java, Web Development and AI through live, small-batch online classes. Quality tech education for a state that has always valued learning.
 
 Book a Free Demo ClassExplore Courses**4.9/5**Parent rating**5–8**Students per batch**100%**Live & online**6–60+**Ages we teach
 
@@ -67,15 +67,15 @@ Most Requested in West Bengal
 
 ## Popular Coding Courses for West Bengal Students
 
-Hand-picked programmes parents and students in West Bengal ask for most — explore any of them or book a free demo to find the right fit.
+Hand-picked programmes parents and students in West Bengal ask for most, explore any of them or book a free demo to find the right fit.
 
-[Python & AIFor kids & teens — code + intelligence](/python-and-ai-classes-for-kids-teens)[AI & ML for TeensBuild real machine-learning projects](/ai-ml-course-for-teens)[Java ProgrammingStrong OOP foundations for teens](/java-programming-for-kids-teens)[Web DevelopmentHTML, CSS, JavaScript & live sites](/courses/coding/teens)[Scratch for KidsGames & animation, ages 6–10](/courses/coding/kids)[DSA & Full-StackPlacement-ready for college students](/courses/coding/college)[Coding for GirlsSupportive, confidence-building batches](/coding-classes-for-girls)[Summer Coding CampFast, fun project sprints](/summer-coding-camp)
+[Python & AIFor kids & teens, code + intelligence](/python-and-ai-classes-for-kids-teens)[AI & ML for TeensBuild real machine-learning projects](/ai-ml-course-for-teens)[Java ProgrammingStrong OOP foundations for teens](/java-programming-for-kids-teens)[Web DevelopmentHTML, CSS, JavaScript & live sites](/courses/coding/teens)[Scratch for KidsGames & animation, ages 6–10](/courses/coding/kids)[DSA & Full-StackPlacement-ready for college students](/courses/coding/college)[Coding for GirlsSupportive, confidence-building batches](/coding-classes-for-girls)[Summer Coding CampFast, fun project sprints](/summer-coding-camp)
 
 Across The State
 
 ## Coding Classes in Every Corner of West Bengal
 
-Because our classes are live and online, any student with a laptop and internet can join — whether you're in the capital or a district town. Explore our dedicated city page:
+Because our classes are live and online, any student with a laptop and internet can join, whether you're in the capital or a district town. Explore our dedicated city page:
 
 [Kolkata The City of Joy and eastern India's biggest IT, education and culture hub. Coding in Kolkata →](/best-coding-class-in-kolkata)HowrahSiliguriDurgapurAsansolKharagpurBardhamanDarjeelingMaldaHaldiaKalyaniJalpaiguriKrishnanagar
 
@@ -89,7 +89,7 @@ Modern Age Coders brings quality, personal teaching to students wherever they ar
 
 ### Aligned with West Bengal's school boards
 
-Our curriculum complements the **West Bengal Board (WBBSE/WBCHSE), CBSE and ICSE** — and Kolkata's strong ICSE network in particular. We strengthen the logical thinking and maths fundamentals that help across every subject, and our advanced maths track builds the base for **WBJEE and JEE**.
+Our curriculum complements the **West Bengal Board (WBBSE/WBCHSE), CBSE and ICSE**, and Kolkata's strong ICSE network in particular. We strengthen the logical thinking and maths fundamentals that help across every subject, and our advanced maths track builds the base for **WBJEE and JEE**.
 
 ### Learn in the language you're comfortable with
 
@@ -101,11 +101,11 @@ The Difference
 
 ### Small live batches (5–8)
 
-Every student gets real attention from the instructor. No pre-recorded videos pretending to be a class — these are live, two-way sessions.
+Every student gets real attention from the instructor. No pre-recorded videos pretending to be a class, these are live, two-way sessions.
 
 ### Project-based learning
 
-Students build real games, websites, apps and AI projects — work they can show in school portfolios and college applications.
+Students build real games, websites, apps and AI projects, work they can show in school portfolios and college applications.
 
 ### Recorded for revision
 
@@ -182,7 +182,7 @@ Sonam OswalParent of Dhairya
 
 ## Ready to start coding in West Bengal?
 
-Book a free demo class today — see how your child learns before you spend a rupee.
+Book a free demo class today. See how your child learns before you spend a rupee.
 
 Book a Free Demo Class
 

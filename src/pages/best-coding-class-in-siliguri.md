@@ -10,7 +10,7 @@ Live online · serving Siliguri
 
 # Coding classes in Siliguri, built to actually stick.
 
-Real programming for kids, teens and college students in Siliguri — from **Sevoke Road to Hakimpara, Pradhan Nagar to Hill Cart Road**. Small live batches, a mentor who knows your child's name, and projects they can open and show you.
+Real programming for kids, teens and college students in Siliguri, from **Sevoke Road to Hakimpara, Pradhan Nagar to Hill Cart Road**. Small live batches, a mentor who knows your child's name, and projects they can open and show you.
 
 Book a free demo class[Ask on WhatsApp](https://wa.me/919123366161?text=Hi,%20I'm%20interested%20in%20coding%20classes%20in%20Siliguri)★★★★★ **4.9/5****10,000+** students across India**5–8** students per batchFirst class is **free**SiliguriEnrollingAreasSevoke Road, Hakimpara, Pradhan Nagar, Hill Cart Road, Matigara & all of SiliguriBoardsWBBSE / WBCHSE · CBSE · ICSE · IGCSEAges**6–12** kids · **13–18** teens · college & adultsFormatLive online · 1-hour classes · 5–8 per batchTimingAfter-school & weekend slots · ISTProofRecorded sessions · completion certificate · real projectslive online across SiliguriFREE DEMO OPEN
 
@@ -20,13 +20,13 @@ Book a free demo class[Ask on WhatsApp](https://wa.me/919123366161?text=Hi,%20I'
 
 ## Where in Siliguri we teach
 
-Every class is live online, so your child learns from home — no travel across the city, same small batch either way.
+Every class is live online, so your child learns from home, no travel across the city, same small batch either way.
 
 Sevoke RoadHakimparaPradhan NagarHill Cart RoadMatigaraSalugaraBhakti NagarChampasariUttorayonDarjeeling / Kurseong / KalimpongSikkim / Jalpaiguri / North-East**Also teaching families near Siliguri**[Asansol](/best-coding-class-in-asansol) · [Durgapur](/best-coding-class-in-durgapur) · [Kharagpur](/best-coding-class-in-kharagpur) · [Kolkata](/best-coding-class-in-kolkata) · [every city in West Bengal →](/coding-classes-in-west-bengal)
 
 ## Why Siliguri families start here
 
-From Sevoke Road and Hakimpara to Pradhan Nagar and Hill Cart Road, families across Siliguri are choosing live online coding classes that go beyond a certificate. We build for real skills — the kind that hold up in an interview or a first internship.
+From Sevoke Road and Hakimpara to Pradhan Nagar and Hill Cart Road, families across Siliguri are choosing live online coding classes that go beyond a certificate. We build for real skills, the kind that hold up in an interview or a first internship.
 
 Siliguri is the neck through which the whole Northeast connects. The Government of India describes it as the gateway to North East India and the transit point for air, road and rail traffic to Nepal, Bhutan and Bangladesh, and its economy runs on what is called the four Ts: tea, timber, tourism and transport. It is the trading and student city for the whole north of Bengal. Schools follow the West Bengal boards, WBBSE for Class 10 and WBCHSE for Plus Two, and engineering admission runs through the state entrance, WBJEE.
 
@@ -36,18 +36,18 @@ Ages 8–12
 
 ## Coding for kids in Siliguri
 
-Most popular![Kids coding with Scratch — best coding class for kids in Siliguri](/images/kids-coding.webp)
+Most popular![Kids coding with Scratch, best coding class for kids in Siliguri](/images/kids-coding.webp)
 
 ### Kids Coding with Scratch
 
-The perfect first step for a Siliguri child. Drag-and-drop block coding to build real games, animations and interactive stories — pure logic, zero typing pressure. No prior experience needed.
+The perfect first step for a Siliguri child. Drag-and-drop block coding to build real games, animations and interactive stories, pure logic, zero typing pressure. No prior experience needed.
 
 - Game development basics
 - Animation & interactive stories
 - Logic building & problem solving
 - 10+ projects to show off
 
-[View course](/courses/kids-coding-blocks-masterclass)Creative![Web design for kids — HTML CSS course in Siliguri](/images/html-css-kids.webp)
+[View course](/courses/kids-coding-blocks-masterclass)Creative![Web design for kids: HTML CSS course in Siliguri](/images/html-css-kids.webp)
 
 ### Web Design for Kids
 
@@ -58,11 +58,11 @@ Kids build their very first colourful website with HTML & CSS, then share the li
 - Fun, real web projects
 - A personal portfolio page
 
-[View course](/courses/kids-ai-web-development-course)Next step![Python for kids — programming course in Siliguri](/images/python-kids.webp)
+[View course](/courses/kids-ai-web-development-course)Next step![Python for kids, programming course in Siliguri](/images/python-kids.webp)
 
 ### Python for Young Coders
 
-The jump to real, typed code — in the world's most popular language. Kids write Python to make games, solve puzzles and meet their first AI concepts — the same language the products on their phone are built with.
+The jump to real, typed code, in the world's most popular language. Kids write Python to make games, solve puzzles and meet their first AI concepts, the same language the products on their phone are built with.
 
 - Python fundamentals
 - Problem-solving skills
@@ -73,18 +73,18 @@ The jump to real, typed code — in the world's most popular language. Kids writ
 
 ## Coding for teens in Siliguri
 
-In demand![Python programming for teens — best coding institute in Siliguri](/images/python-teens.webp)
+In demand![Python programming for teens, best coding institute in Siliguri](/images/python-teens.webp)
 
 ### Python Programming
 
-The most in-demand language in the world — and the one powering the apps Siliguri's tea, tourism and trade businesses run on. The ideal start for teens, with a clean path from first script to real projects.
+The most in-demand language in the world, and the one powering the apps Siliguri's tea, tourism and trade businesses run on. The ideal start for teens, with a clean path from first script to real projects.
 
 - Python fundamentals & OOP
 - Data structures & algorithms
 - Automation & scripting
 - Real-world projects
 
-[View course](/courses/python-complete-masterclass-teens)Career![Java programming for teens — best coding class in Siliguri](/images/java-teens.webp)
+[View course](/courses/python-complete-masterclass-teens)Career![Java programming for teens, best coding class in Siliguri](/images/java-teens.webp)
 
 ### Java Programming
 
@@ -95,22 +95,22 @@ Java is the backbone of CBSE/ICSE Computer Science and the enterprise software t
 - Intro to Android app building
 - Board-aligned practice
 
-[View course](/courses/java-programming-masterclass-for-teens)Build![Web development for teens — programming classes in Siliguri](/images/web-dev-teens.webp)
+[View course](/courses/java-programming-masterclass-for-teens)Build![Web development for teens, programming classes in Siliguri](/images/web-dev-teens.webp)
 
 ### Full-Stack Web Development
 
-Build complete, deployed websites from scratch with HTML, CSS, JavaScript and React — and a teen in Siliguri can freelance or work remotely for clients anywhere the moment those skills are real.
+Build complete, deployed websites from scratch with HTML, CSS, JavaScript and React, and a teen in Siliguri can freelance or work remotely for clients anywhere the moment those skills are real.
 
 - HTML, CSS, JavaScript
 - React framework
 - Backend with Node.js
 - Live portfolio projects
 
-[View course](/courses/web-development-masterclass-teens)Future![AI and machine learning for teens — coding course in Siliguri](/images/ai-ml-teens.webp)
+[View course](/courses/web-development-masterclass-teens)Future![AI and machine learning for teens, coding course in Siliguri](/images/ai-ml-teens.webp)
 
 ### AI & Machine Learning
 
-AI is the great equaliser — it doesn't care whether you learn it in a metro or in the hills. Siliguri teens learn Python, train real models and understand how today's AI products are actually built.
+AI is the great equaliser. It doesn't care whether you learn it in a metro or in the hills. Siliguri teens learn Python, train real models and understand how today's AI products are actually built.
 
 - Python for AI
 - Machine learning basics
@@ -121,7 +121,7 @@ AI is the great equaliser — it doesn't care whether you learn it in a metro or
 
 ## For Siliguri college students
 
-Placements![Data structures and algorithms course — Siliguri placements](/images/python-teens.webp)
+Placements![Data structures and algorithms course: Siliguri placements](/images/python-teens.webp)
 
 ### Data Structures & Algorithms
 
@@ -132,22 +132,22 @@ The foundation every campus placement and online assessment is decided on. Maste
 - 200+ LeetCode-style problems
 - Mock interviews & CP
 
-[View course](/courses/coding/college)Internships![Full stack web development course — Siliguri](/images/web-dev-teens.webp)
+[View course](/courses/coding/college)Internships![Full stack web development course: Siliguri](/images/web-dev-teens.webp)
 
 ### Full-Stack Web Development
 
-A working MERN app on your GitHub speaks louder than any college name — and that is exactly the leveller North Bengal students need. Build full apps with Git, REST APIs and cloud deployment, and let the project do the talking in every interview.
+A working MERN app on your GitHub speaks louder than any college name, and that is exactly the leveller North Bengal students need. Build full apps with Git, REST APIs and cloud deployment, and let the project do the talking in every interview.
 
 - MERN (Mongo, Express, React, Node)
 - REST APIs & database design
 - Git, CI/CD & cloud deploy
 - Capstone portfolio project
 
-[View course](/courses/coding/college)Data![AI and data science course — Siliguri](/images/ai-ml-teens.webp)
+[View course](/courses/coding/college)Data![AI and data science course: Siliguri](/images/ai-ml-teens.webp)
 
 ### AI & Data Science
 
-Python, machine learning and real data analysis — built for the analytics and AI roles that are now overwhelmingly remote and hire on skill, not pin code. Includes Kaggle-style projects you can show any recruiter.
+Python, machine learning and real data analysis, built for the analytics and AI roles that are now overwhelmingly remote and hire on skill, not pin code. Includes Kaggle-style projects you can show any recruiter.
 
 - Python for data science & ML
 - Pandas, NumPy & visualisation
@@ -158,23 +158,23 @@ Python, machine learning and real data analysis — built for the analytics and 
 
 ## Mathematics classes in Siliguri
 
-![Elementary mathematics — maths classes in Siliguri](/images/elementary-maths.webp)
+![Elementary mathematics, maths classes in Siliguri](/images/elementary-maths.webp)
 
 ### Elementary Mathematics
 
-Rock-solid foundations in numbers, operations, fractions, geometry and word problems for grades 1–5 — aligned to CBSE & ICSE schools across Siliguri and North Bengal.
+Rock-solid foundations in numbers, operations, fractions, geometry and word problems for grades 1–5, aligned to CBSE & ICSE schools across Siliguri and North Bengal.
 
-[View course](/courses/elementary-mathematics-complete-masterclass)![High school mathematics — maths tuition in Siliguri](/images/high-school-maths.webp)
+[View course](/courses/elementary-mathematics-complete-masterclass)![High school mathematics, maths tuition in Siliguri](/images/high-school-maths.webp)
 
 ### High School Mathematics
 
-Algebra, geometry, trigonometry, pre-calculus and calculus for grades 9–12 — board-aligned and built to give Siliguri's WBJEE and JEE aspirants a genuine head start.
+Algebra, geometry, trigonometry, pre-calculus and calculus for grades 9–12, board-aligned and built to give Siliguri's WBJEE and JEE aspirants a genuine head start.
 
-[View course](/courses/complete-high-school-mathematics-mastery)Olympiad![Olympiad mathematics — competition prep in Siliguri](/images/olympiad-competition-maths.webp)
+[View course](/courses/complete-high-school-mathematics-mastery)Olympiad![Olympiad mathematics, competition prep in Siliguri](/images/olympiad-competition-maths.webp)
 
 ### Olympiad & Competition Math
 
-Advanced problem-solving for IMO, PRMO, RMO and NTSE — for North Bengal's sharpest young mathematicians who want to push well beyond the school syllabus.
+Advanced problem-solving for IMO, PRMO, RMO and NTSE, for North Bengal's sharpest young mathematicians who want to push well beyond the school syllabus.
 
 - 2 live classes per week
 - Small batch (5–8 students)
@@ -191,7 +191,7 @@ Live
 
 ### A real mentor, live
 
-Every class is taught live by an instructor with industry experience — questions get answered the moment they come up.
+Every class is taught live by an instructor with industry experience, questions get answered the moment they come up.
 
 Small
 
@@ -203,7 +203,7 @@ Build
 
 ### Project every module
 
-Kids don't just watch — they build games, websites and apps they can open, use and show you.
+Kids don't just watch. They build games, websites and apps they can open, use and show you.
 
 Track
 
@@ -213,7 +213,7 @@ Missed a class? Watch the recording. Every learner earns a completion certificat
 
 ## Simple, honest pricing
 
-1-hour live classes: 2 a week in Group and Mini Batch, 1 a week in 1-on-1. Start with a free demo — pay only when you're sure it's right for your child.
+1-hour live classes: 2 a week in Group and Mini Batch, 1 a week in 1-on-1. Start with a free demo, pay only when you're sure it's right for your child.
 
 Group₹1,499/month
 
@@ -244,17 +244,17 @@ Book a free demoPersonal 1-on-1₹4,999/month
 
 Start free
 
-International families pay flat USD rates — the prices above update automatically. Ask us anything on your free demo.
+International families pay flat USD rates, the prices above update automatically. Ask us anything on your free demo.
 
 ## What students actually build
 
-Not screenshots of a syllabus — real, live projects from Modern Age Coders learners and labs. Click through and use them.
+Not screenshots of a syllabus, real, live projects from Modern Age Coders learners and labs. Click through and use them.
 
-[![Misti — AI Chatbot for Maths & Coding](/images/projects/misti.webp) AI & MLMisti — AI Chatbot for Maths & CodingAn intelligent AI-powered chatbot that helps students solve maths and coding questions with deep, step-by-step explanations using advanced Python AI frameworks and LLM APIs. Built by Harshit · Python, AI/MLOpen the live project ↗](https://misti.modernagecoders.com)[![Image Slider Website](/images/projects/slider.webp) ToolImage Slider WebsiteA visually appealing site with a smooth image carousel — auto or manual navigation, responsive layout and beautiful transition effects. Built by Somraj · HTML, CSSOpen the live project ↗](https://robo23middle-stack.github.io/scenes/)[![SkyCast — Weather Forecast App](/images/projects/skycast.webp) Web AppSkyCast — Weather Forecast AppAn interactive weather forecasting site with real-time updates for any location — temperature, humidity, wind speed and conditions in a clean, responsive interface. Built by Krish · JavaScript, APIOpen the live project ↗](https://krish-shroff.github.io/AuraWeatherTech/)[See more student projects →](/student-labs)
+[![Misti, AI Chatbot for Maths & Coding](/images/projects/misti.webp) AI & MLMisti, AI Chatbot for Maths & CodingAn intelligent AI-powered chatbot that helps students solve maths and coding questions with deep, step-by-step explanations using advanced Python AI frameworks and LLM APIs. Built by Harshit · Python, AI/MLOpen the live project ↗](https://misti.modernagecoders.com)[![Image Slider Website](/images/projects/slider.webp) ToolImage Slider WebsiteA visually appealing site with a smooth image carousel, auto or manual navigation, responsive layout and beautiful transition effects. Built by Somraj · HTML, CSSOpen the live project ↗](https://robo23middle-stack.github.io/scenes/)[![SkyCast, Weather Forecast App](/images/projects/skycast.webp) Web AppSkyCast, Weather Forecast AppAn interactive weather forecasting site with real-time updates for any location, temperature, humidity, wind speed and conditions in a clean, responsive interface. Built by Krish · JavaScript, APIOpen the live project ↗](https://krish-shroff.github.io/AuraWeatherTech/)[See more student projects →](/student-labs)
 
 ## What families say
 
-Verified Google reviews from Modern Age Coders families across India. We don't invent testimonials — these are real people, real words.
+Verified Google reviews from Modern Age Coders families across India. We don't invent testimonials, these are real people, real words.
 
 ★★★★★
 
@@ -298,7 +298,7 @@ VSVineeta ShyamsukhaParent
 
 Tell us a little about your child and what they'd like to learn. We'll set up a free, no-pressure demo and help you pick the right starting point.
 
-- A real live class — not a sales call
+- A real live class, not a sales call
 - Meet the mentor before you decide
 - We reply within 48 hours (IST)
 
@@ -308,7 +308,7 @@ Prefer to talk now? Call [9123366161](tel:+919123366161) or [WhatsApp us](https:
 
 Takes under a minute.
 
-## Coding classes in Siliguri — FAQs
+## Coding classes in Siliguri: FAQs
 
 Which is the best coding class in Siliguri for kids?Modern Age Coders runs Siliguri's top-rated live online coding classes for kids aged 6-12. Children start with Scratch (games, animation, logic) and move to Python, in small batches of 5-8, taught by industry instructors. We reach families across Sevoke Road, Hakimpara, Pradhan Nagar, Hill Cart Road, Matigara and Salugara - and right across the hills, Sikkim and the North-East, where good offline options are scarce.Are the classes online or offline, and do you cover all of North Bengal?All classes are live and online, so we cover the whole region equally - Sevoke Road, Hakimpara, Pradhan Nagar, Hill Cart Road, Matigara, Salugara, Bhakti Nagar, Champasari and Uttorayon, as well as NJP, Jalpaiguri, the Darjeeling hills, Kurseong, Kalimpong and Gangtok in Sikkim. As the region's digital front-door, Siliguri families finally get a teacher of metro quality without anyone leaving home. Sessions are fully interactive with live coding, screen-sharing and recordings.How much do coding classes cost in Siliguri?Group classes (5-8 students) start at Rs.1,499/month for 2 live classes a week. Mini Batch (3-4 students) is Rs.2,999/month, and personalised 1-on-1 mentoring is Rs.4,999/month. The fee is the same whether you join from town or the hills. Every new student gets a free demo class first, and there are no hidden charges.Will coding help with WBJEE, JEE and the CBSE/ICSE board exams?Yes. Siliguri families are serious about WBJEE, JEE and the boards. Coding strengthens the exact logical reasoning, decomposition and problem-solving these exams reward, and it directly supports CBSE/ICSE Computer Science, Informatics Practices and the new NEP-2020 AI modules. Our Python and Java tracks line up with what's taught at Don Bosco, St Joseph's, Holy Child, DAV, G D Goenka and Techno India Group Public School.What's the best age to start coding?Age 8 is ideal to begin with visual, block-based coding (Scratch). For text-based languages like Python and Java, 12-13 onwards works best. We run separate tracks for kids (6-12), teens (13-18) and college/working learners (18+), so the starting point always matches the child.Do you prepare Siliguri & North Bengal college students for placements?Yes - our college track is placement-focused: 200+ DSA problems, mock interviews, a MERN full-stack build and an AI/Data-Science portfolio. It's designed for students from the University of North Bengal (NBU), Siliguri Institute of Technology (SIT) and colleges across the region who are targeting product companies, service companies and the remote-first roles that now hire on skill rather than location.What equipment does my child need?Just a laptop or desktop and a stable internet connection - now common across Siliguri and most of North Bengal. A computer (rather than a tablet) is best for hands-on practice. Minimum: Windows 10 / macOS, 4GB RAM, broadband. All the software we use is free, and our team helps with setup before the first class.What are the class timings? Do you have weekend batches?Yes. Weekday batches run 4 PM-8 PM (after school) and weekend batches 9 AM-6 PM (Sat & Sun). Siliguri children juggle school, tuitions and activities, so we work around your schedule. Classes are an hour long, twice a week.Do you teach coding to West Bengal board students in Siliguri?Yes. Siliguri schools run the West Bengal boards, WBBSE for the Class 10 Madhyamik and WBCHSE for Plus Two, along with CBSE and ICSE, and our classes fit around any of them. We teach the programming itself, Python or Java, so the school computer paper stops being a memory test.How does a Siliguri student get into engineering, and can college students join?West Bengal fills its engineering seats through its own state entrance, WBJEE, rather than JEE Main alone. College students anywhere in the north of Bengal are welcome on the college track: real Python, Java, full-stack or AI/ML work, built until it runs and can be shown to a recruiter.
 

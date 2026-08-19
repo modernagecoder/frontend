@@ -2,7 +2,7 @@
  * The parts of apply.js that other code needs to reuse.
  *
  * apply.js runs work as soon as it is required, so it cannot be imported by
- * tests. These two functions are the ones worth testing directly — they decide
+ * tests. These two functions are the ones worth testing directly. They decide
  * whether a page shows a price to a human, and whether it gets the scripts that
  * localise it. apply.js imports them from here rather than keeping a second
  * copy, so the behaviour tested is the behaviour that ships.
@@ -22,7 +22,7 @@ const PRICING_SCRIPTS = [
  * Does this page show a price to a human?
  *
  * Script and style blocks are stripped first, so a page is not judged by a
- * currency symbol buried in its own JavaScript — otherwise every page carrying
+ * currency symbol buried in its own JavaScript, otherwise every page carrying
  * the pricing code would look like a pricing page.
  */
 function showsAPrice(html) {
@@ -75,17 +75,17 @@ function ensureScripts(html, versions) {
 /**
  * Stamp a content-hash version onto every pricing script tag.
  *
- * WHY THIS EXISTS — the stale-price hole the audit proved:
+ * WHY THIS EXISTS, the stale-price hole the audit proved:
  * sw.js serves .js cache-first and _headers marked /*.js immutable for a
- * year, so after a price change a RETURNING visitor kept being shown — and
- * therefore charged — the old prices from window.MAC_PRICING, potentially
+ * year, so after a price change a RETURNING visitor kept being shown, and
+ * therefore charged, the old prices from window.MAC_PRICING, potentially
  * until the cache expired. The SW's background revalidation could not save
  * them, because the immutable HTTP cache satisfied the revalidation fetch too.
  *
  * A content hash in the URL ends that entirely: a changed file is a NEW URL,
  * which misses both the service-worker cache (keyed by URL) and the HTTP
  * cache, so the first page view after a deploy gets the new prices. An
- * unchanged file keeps its hash and stays cached — no cost to normal visits.
+ * unchanged file keeps its hash and stays cached, no cost to normal visits.
  *
  * Idempotent: an existing ?v= is rewritten, never doubled.
  */

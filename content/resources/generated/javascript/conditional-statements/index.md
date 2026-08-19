@@ -17,13 +17,13 @@ keywords: ["javascript if else", "javascript switch case", "javascript condition
 
 A **conditional statement** lets your program make decisions. Instead of running every line of code from top to bottom, conditionals let your program choose which code to run based on whether a condition is true or false.
 
-Think of it like a crossroad: if it is raining, you take an umbrella. If it is sunny, you wear sunglasses. Your program does the same thing — it checks a condition and takes a different action depending on the result.
+Think of it like a crossroad: if it is raining, you take an umbrella. If it is sunny, you wear sunglasses. Your program does the same thing. It checks a condition and takes a different action depending on the result.
 
 JavaScript has three main conditional structures:
 
-- `if / else if / else` — for most decision-making
-- `switch` — for checking a variable against many specific values
-- `? :` (ternary) — for simple inline conditions
+- `if / else if / else`, for most decision-making
+- `switch`, for checking a variable against many specific values
+- `? :` (ternary), for simple inline conditions
 
 ## Why Are Conditionals Important?
 
@@ -33,11 +33,11 @@ When you build a form, you check: is the email valid? Is the password strong eno
 
 ### 2. User Input Is Unpredictable
 
-Users will type anything into your forms — empty strings, negative numbers, special characters. Conditionals let you handle every possible case and give appropriate feedback.
+Users will type anything into your forms, empty strings, negative numbers, special characters. Conditionals let you handle every possible case and give appropriate feedback.
 
 ### 3. The DOM Comes Alive with Conditions
 
-Want to show or hide an element? Change a color based on a value? Display different messages for different users? All of these require conditional logic combined with DOM manipulation — and that is what makes web pages feel alive.
+Want to show or hide an element? Change a color based on a value? Display different messages for different users? All of these require conditional logic combined with DOM manipulation, and that is what makes web pages feel alive.
 
 ### 4. It Is the Gateway to Loops
 
@@ -55,7 +55,7 @@ if (condition) {
 }
 ```
 
-The condition can be any expression that evaluates to a truthy or falsy value. It does not have to be strictly `true` or `false` — any truthy value will enter the if block.
+The condition can be any expression that evaluates to a truthy or falsy value. It does not have to be strictly `true` or `false`, any truthy value will enter the if block.
 
 ### 2. if-else
 
@@ -85,7 +85,7 @@ if (condition1) {
 }
 ```
 
-Important: once a condition matches, the remaining else-if and else blocks are skipped entirely. Order matters — put the most specific conditions first.
+Important: once a condition matches, the remaining else-if and else blocks are skipped entirely. Order matters, put the most specific conditions first.
 
 ### 4. Nested if Statements
 
@@ -135,7 +135,7 @@ switch (expression) {
 #### Key Rules:
 
 - `break` is essential. Without it, execution "falls through" to the next case.
-- `default` is like the `else` — it runs when no case matches.
+- `default` is like the `else`. It runs when no case matches.
 - Switch uses `===` (strict comparison), not `==`.
 - You can intentionally omit `break` for fall-through behavior (grouping cases).
 
@@ -210,7 +210,7 @@ if (marks >= 90) {
 console.log(`Marks: ${marks}, Grade: ${grade}`);
 ```
 
-The first `if` checks if marks are at least 40. The if-else provides two paths. The else-if chain checks conditions in order — since 78 is not >= 90 and not >= 80, but it IS >= 70, the grade is "C". The remaining else-if and else are skipped.
+The first `if` checks if marks are at least 40. The if-else provides two paths. The else-if chain checks conditions in order, since 78 is not >= 90 and not >= 80, but it IS >= 70, the grade is "C". The remaining else-if and else are skipped.
 
 **Output:**
 
@@ -269,7 +269,7 @@ Marks: 78, Grade: C
 </html>
 ```
 
-This is a practical project. The function reads the input, validates it (catches invalid values like -5 or 150), then uses else-if to assign a grade. Each grade gets a different color using `style.color`. This combines conditionals with DOM manipulation — the core of interactive web development.
+This is a practical project. The function reads the input, validates it (catches invalid values like -5 or 150), then uses else-if to assign a grade. Each grade gets a different color using `style.color`. This combines conditionals with DOM manipulation, the core of interactive web development.
 
 **Output:**
 
@@ -434,7 +434,7 @@ if (getDayType(today) === "weekend") {
 }
 ```
 
-Using `return` inside a function means you do not need `break` — return exits the function immediately. `day.toLowerCase()` makes the comparison case-insensitive ("Monday", "MONDAY", "monday" all work). Fall-through groups weekdays together and weekend days together.
+Using `return` inside a function means you do not need `break`, return exits the function immediately. `day.toLowerCase()` makes the comparison case-insensitive ("Monday", "MONDAY", "monday" all work). Fall-through groups weekdays together and weekend days together.
 
 **Output:**
 
@@ -607,7 +607,7 @@ if (score >= 90) {
 }
 ```
 
-Without curly braces `{}`, only the very next statement belongs to the `if`. The second `console.log` is not inside the if — it always runs. Always use curly braces, even for single-line if statements.
+Without curly braces `{}`, only the very next statement belongs to the `if`. The second `console.log` is not inside the if. It always runs. Always use curly braces, even for single-line if statements.
 
 ### switch with Type Mismatch
 

@@ -8,99 +8,99 @@ source: src/pages/coding-classes-in-sweden.html
 
 ### Beställ uppringning
 
-Leave your number — a CET-hours mentor calls within 3 hours.
+Leave your number, a CET-hours mentor calls within 3 hours.
 
 #### Vi hör av oss snart!
 
-Expect a call within 3 hours, 09:00 – 21:00 CET.
+Expect a call within 3 hours, 09:00: 21:00 CET.
 
 Sverige · Online School · +46 · CET
 
-# Real coding & AI for Sweden — *built like Swedish engineering.*
+# Real coding & AI for Sweden: *built like Swedish engineering.*
 
-Live 1:1 mentorship in **Python**, modern web and **agentic AI** for Swedish kids, teens and adults — aligned with **Lgr 22** programmering, **Gymnasiet Teknik / Natur**, and the algorithmic depth **KTH**, **Chalmers**, **Lund** and **Uppsala** quietly assume. **USD 150 i månaden**, eight live sessions, two a week, no contract.
+Live 1:1 mentorship in **Python**, modern web and **agentic AI** for Swedish kids, teens and adults, aligned with **Lgr 22** programmering, **Gymnasiet Teknik / Natur**, and the algorithmic depth **KTH**, **Chalmers**, **Lund** and **Uppsala** quietly assume. **USD 150 i månaden**, eight live sessions, two a week, no contract.
 
-Se alla kurser4.9/5Average parent & learner rating8 / månLive 1:1 sessions, 2 each weekUSD 150per month · monthly cancelCETSame time zone as your GymnasiumParent rating4.9 / 5 · 547 reviewsAligned withLgr 22 · GymnasieprogramMentor hours09:00 – 21:00 CETRiskGratis demo · månadsvisVälj en kurs · börja den här veckan
+Se alla kurser4.9/5Average parent & learner rating8 / månLive 1:1 sessions, 2 each weekUSD 150per month · monthly cancelCETSame time zone as your GymnasiumParent rating4.9 / 5 · 547 reviewsAligned withLgr 22 · GymnasieprogramMentor hours09:00: 21:00 CETRiskGratis demo · månadsvisVälj en kurs · börja den här veckan
 
 ## Eight serious tracks. Same mentor every week. Real shipped projects.
 
 Click any row to open the full course page. Every track is live, 1:1 (or small-group) and runs on Swedish time.
 
-[01  Most chosen · Gymnasium-aware Coding & AI for Teens (13 – 18) — KTH / Chalmers / Lund ready Real Python, JavaScript, Git, web apps and modern AI engineering on a 12-month arc. Aligned with Teknikprogrammet & Naturvetenskapsprogrammet. Many of our students go on to KTH, Chalmers, Lund, Uppsala and Linköping informatics tracks.   USD 150/ mån Open →](/courses/coding/teens)[02  Grundskola · Ages 6 – 12 Coding for Kids — Scratch to real Python, gentle Swedish pace For students in årskurs 1–6 across Sverige. Starts in Scratch (or BBC micro:bit), switches to real Python by week 10, ships a tiny project a month. Mapped to the Lgr 22 programming strand in Matematik and Teknik.   USD 150/ mån Open →](/courses/coding/kids)[03  New · Ages 13 – 18 · AI track AI & Agentic-AI — the way Spotify, Klarna and Polestar actually ship Build real LLM apps end-to-end: prompts, retrieval, tool-calling agents, evals, deploy. The same patterns engineers ship at Stockholm and Gothenburg tech shops.   USD 150/ mån Open →](/ai-ml-course-for-teens)[04  KTH · Chalmers · Lund · Uppsala · Linköping University prep & high-school top-up For Swedish Gymnasium students aiming at KTH, Chalmers, Lund, Uppsala, Linköping, Stockholm University, Umeå or KI. Algorithmic depth, system design, AI engineering — the foundations Swedish universities quietly expect.   USD 150/ mån Open →](/courses/coding/college)[05  Vuxna · Career switch · Yrkesväxlare For Professionals — retraining into software, data & AI For Swedish adults aiming at SWE, data and AI engineer roles at Spotify, Klarna, King, Voi, Polestar, Zenseact, Truecaller, Tink, Volvo Cars and the rest of Sweden's tech sector. Builds a real portfolio.   USD 150/ mån Open →](/courses/coding/college)[06  For girls · Ages 8 – 22 Tjejer kodar — all-female mentor pairing Same curriculum, all-female mentor pairing. Role models from the Stockholm, Gothenburg and Malmö tech scenes. We have mentors with backgrounds at Klarna, King, Spotify and AI Sweden.   USD 150/ mån Open →](/courses/coding/girls)[07  Skolor · Företag · Teams For Swedish schools & companies — cohorts & AGs For Swedish skolor, friskolor, internationella skolor and companies upskilling staff. Cohorts of 6–30, tailored to your curriculum, on your hours.   USD 100/ plats · grupp Open →](/courses/coding/corporate)[08  Free · join · Hackathon Hackathon-program för svenska familjer Free monthly coding & AI hackathons for Swedish kids, teens and adults. Real prizes, real shipped projects. A friendly entry point to see how we teach.   Free Join next →](/courses)Why Swedish families pick us
+[01  Most chosen · Gymnasium-aware Coding & AI for Teens (13, 18), KTH / Chalmers / Lund ready Real Python, JavaScript, Git, web apps and modern AI engineering on a 12-month arc. Aligned with Teknikprogrammet & Naturvetenskapsprogrammet. Many of our students go on to KTH, Chalmers, Lund, Uppsala and Linköping informatics tracks.   USD 150/ mån Open →](/courses/coding/teens)[02  Grundskola · Ages 6, 12 Coding for Kids, Scratch to real Python, gentle Swedish pace For students in årskurs 1–6 across Sverige. Starts in Scratch (or BBC micro:bit), switches to real Python by week 10, ships a tiny project a month. Mapped to the Lgr 22 programming strand in Matematik and Teknik.   USD 150/ mån Open →](/courses/coding/kids)[03  New · Ages 13, 18 · AI track AI & Agentic-AI, the way Spotify, Klarna and Polestar actually ship Build real LLM apps end-to-end: prompts, retrieval, tool-calling agents, evals, deploy. The same patterns engineers ship at Stockholm and Gothenburg tech shops.   USD 150/ mån Open →](/ai-ml-course-for-teens)[04  KTH · Chalmers · Lund · Uppsala · Linköping University prep & high-school top-up For Swedish Gymnasium students aiming at KTH, Chalmers, Lund, Uppsala, Linköping, Stockholm University, Umeå or KI. Algorithmic depth, system design, AI engineering, the foundations Swedish universities quietly expect.   USD 150/ mån Open →](/courses/coding/college)[05  Vuxna · Career switch · Yrkesväxlare For Professionals, retraining into software, data & AI For Swedish adults aiming at SWE, data and AI engineer roles at Spotify, Klarna, King, Voi, Polestar, Zenseact, Truecaller, Tink, Volvo Cars and the rest of Sweden's tech sector. Builds a real portfolio.   USD 150/ mån Open →](/courses/coding/college)[06  For girls · Ages 8, 22 Tjejer kodar, all-female mentor pairing Same curriculum, all-female mentor pairing. Role models from the Stockholm, Gothenburg and Malmö tech scenes. We have mentors with backgrounds at Klarna, King, Spotify and AI Sweden.   USD 150/ mån Open →](/courses/coding/girls)[07  Skolor · Företag · Teams For Swedish schools & companies, cohorts & AGs For Swedish skolor, friskolor, internationella skolor and companies upskilling staff. Cohorts of 6–30, tailored to your curriculum, on your hours.   USD 100/ plats · grupp Open →](/courses/coding/corporate)[08  Free · join · Hackathon Hackathon-program för svenska familjer Free monthly coding & AI hackathons for Swedish kids, teens and adults. Real prizes, real shipped projects. A friendly entry point to see how we teach.   Free Join next →](/courses)Why Swedish families pick us
 
-## Six things we get right — Scandinavian-honest.
+## Six things we get right: Scandinavian-honest.
 
 We've taught coding to Swedish families in Stockholm, Göteborg, Malmö, Uppsala, Lund and Linköping. These are the answers our trial calls keep coming back to.
 
-### Real coding — never block-only
+### Real coding: never block-only
 
-Python, JavaScript, Git, the terminal and the cloud from week one. Younger learners do start in Scratch but graduate to Python within 8 – 12 weeks. Inga leksaker efter den första månaden.
+Python, JavaScript, Git, the terminal and the cloud from week one. Younger learners do start in Scratch but graduate to Python within 8: 12 weeks. Inga leksaker efter den första månaden.
 
 ### Aligned with Lgr 22 & Gymnasium
 
-We map weekly plans to your child's actual subject content — Matematik & Teknik in grundskola, then Teknikprogrammet or Naturvetenskapsprogrammet in gymnasiet, with Programmering 1/2 and project content drilled.
+We map weekly plans to your child's actual subject content: Matematik & Teknik in grundskola, then Teknikprogrammet or Naturvetenskapsprogrammet in gymnasiet, with Programmering 1/2 and project content drilled.
 
-### Modern AI — not "use ChatGPT"
+### Modern AI: not "use ChatGPT"
 
 Students build LLM apps with retrieval, tool calling, agents, evals and deployment. The same patterns engineers ship at Spotify, Klarna, King, Polestar, Zenseact, Voi, Tink and the WASP / AI Sweden ecosystem.
 
 ### CET-native scheduling
 
-Mentors work Central European Time, the same as every Swedish gymnasium. Slots run 09:00 – 21:00 CET — after-school, evening or weekend morning. No 1 AM lessons.
+Mentors work Central European Time, the same as every Swedish gymnasium. Slots run 09:00, 21:00 CET, after-school, evening or weekend morning. No 1 AM lessons.
 
 ### English-first, Swedish-friendly
 
-Classes are taught in clear, slow English — the working language of code and Swedish tech. Mentors switch to Swedish vocabulary on demand and adapt for younger learners or non-English-comfortable Föräldrar.
+Classes are taught in clear, slow English, the working language of code and Swedish tech. Mentors switch to Swedish vocabulary on demand and adapt for younger learners or non-English-comfortable Föräldrar.
 
 ### Same mentor every week
 
-One face, every lesson. Mentors stay with your child for the year unless you ask to switch — and you can switch at any time, månadsvis kündbar, no awkward conversation.
+One face, every lesson. Mentors stay with your child for the year unless you ask to switch. And you can switch at any time, månadsvis kündbar, no awkward conversation.
 
-### The world your child is graduating into — the Swedish tech economy.
+### The world your child is graduating into: the Swedish tech economy.
 
-Sweden punches far above its weight in software, gaming, fintech, mobility, fashion-tech and AI. Below are the companies that hire most of our adult learners — and many of our parents already work at one of them.
+Sweden punches far above its weight in software, gaming, fintech, mobility, fashion-tech and AI. Below are the companies that hire most of our adult learners, and many of our parents already work at one of them.
 
 SpotifyStockholmKlarnaStockholmKingStockholmMojangStockholmiZettleStockholmTruecallerStockholmVoiStockholmTinkStockholmNorthvoltStockholmPolestarGöteborgVolvo CarsGöteborgZenseactGöteborgAstraZenecaGöteborgEricssonStockholm / LinköpingSaabLinköpingMassive EntertainmentMalmöAxisLundTetra PakLundAI SwedenGöteborgRISESverigeWASPSverigeCurriculum · year by year
 
-## What your child learns at every age — mapped to Lgr 22 & gymnasiet.
+## What your child learns at every age: mapped to Lgr 22 & gymnasiet.
 
 Pick the row that matches your child's årskurs. Each one is a real chapter of learning, not a marketing milestone.
 
-Årskurs 1 – 3 · ages 7 – 9
+Årskurs 1, 3 · ages 7, 9
 
 ### The first taste
 
 Algoritmer, sekvenser, prediktion. The youngest learners start in ScratchJr / Scratch and BBC micro:bit, with very short screen time per session.
 
 - Computational thinking via stories
-- Scratch — first interactive scene
+- Scratch, first interactive scene
 - Counting + comparing in code
 - Output: a tiny animated story
 
-Årskurs 4 – 6 · ages 10 – 12
+Årskurs 4, 6 · ages 10, 12
 
 ### The bridge year
 
 Bridge from Scratch to real Python by month three. Mapped to Lgr 22 programmering in Matematik and Teknik.
 
-- Scratch — games, drawing, stories
+- Scratch, games, drawing, stories
 - Real Python by week 10
 - Variables, loops, functions, lists
 - First GitHub Pages site
 
-Årskurs 7 – 9 · ages 13 – 15
+Årskurs 7, 9 · ages 13, 15
 
 ### Real engineering begins
 
 This is where school programmering plateaus and home mentorship lifts the ceiling. Real Python, JavaScript, Git, deployed sites and intro AI.
 
-- Python (deep) — OOP, files, errors
-- HTML · CSS · JavaScript — sites
+- Python (deep), OOP, files, errors
+- HTML · CSS · JavaScript, sites
 - Git & GitHub workflow
-- First AI projects — chat tools, RAG intro
+- First AI projects, chat tools, RAG intro
 - Output: a deployed app per term
 
-Gymnasium · ages 16 – 19
+Gymnasium · ages 16, 19
 
 ### Teknik · Natur · Programmering 1/2
 
@@ -114,7 +114,7 @@ The deepest track. Full Python + JavaScript engineering, modern AI, algorithms a
 
 University-prep pathway
 
-## Sweden's top tech universities — we know what they look for.
+## Sweden's top tech universities: we know what they look for.
 
 Our advanced track gives your child the Python depth, algorithmic fluency and modern-AI portfolio that Swedish CS, data and engineering programmes increasingly expect.
 
@@ -140,7 +140,7 @@ Track: **Engineers' + Project coach**Stockholm · KI · SU
 
 ### Karolinska Institutet · SU
 
-For students aiming at bioinformatics, medical AI or computational biology — increasingly hot in Sweden. We adjust the project track towards healthcare-AI applications.
+For students aiming at bioinformatics, medical AI or computational biology, increasingly hot in Sweden. We adjust the project track towards healthcare-AI applications.
 
 Track: **AI · bio-AI angle**Umeå · Mid-Sweden · Luleå
 
@@ -150,13 +150,13 @@ Excellent CS / AI departments in Sweden's north. We support students aiming nort
 
 Track: **Engineers'**Career · adult
 
-### Skip the degree — for adults
+### Skip the degree: for adults
 
 For adult learners who want a job in Swedish tech without going back to university. Portfolio-first track aimed at Klarna, Spotify, Voi, Tink, Truecaller, Volvo Cars, Polestar, Ericsson.
 
 Track: **Career switch**Inside your first month
 
-## Week by week — what actually happens.
+## Week by week: what actually happens.
 
 A typical first month for a 12-year-old Swedish student starting from zero. Pacing adapts up or down for younger or older learners.
 
@@ -176,7 +176,7 @@ First two real sessions. Computational thinking, sequencing, the joy of "the bug
 
 ### Python on real laptop
 
-VS Code installed, Python 3 working, terminal not scary. First original program — not from a tutorial — with variables, input, output. Pushed to your child's first GitHub repo.
+VS Code installed, Python 3 working, terminal not scary. First original program, not from a tutorial, with variables, input, output. Pushed to your child's first GitHub repo.
 
 **Output:** first GitHub commitWeek 04
 
@@ -186,7 +186,7 @@ First end-of-month checkpoint: a small project chosen by the student, shipped to
 
 **Output:** a live URL you can shareHonest commitments
 
-## What we'll always do — and what we'll never do.
+## What we'll always do: and what we'll never do.
 
 Scandinavian directness. We'd rather lose your business than mis-sell our school.
 
@@ -212,7 +212,7 @@ Scandinavian directness. We'd rather lose your business than mis-sell our school
 
 Inside your first month
 
-## Week by week — what actually happens for a Swedish family.
+## Week by week: what actually happens for a Swedish family.
 
 A typical first month for a 12-year-old Swedish student starting from zero. Pacing adapts up or down for younger learners and accelerates significantly for older students.
 
@@ -226,19 +226,19 @@ Free 30-minute trial on Zoom. Your child meets the mentor candidate, mentor gets
 
 ### Foundations & computational thinking
 
-First two real sessions. Sequencing, decomposition, debugging — the joy of "the bug is mine to fix." For under-10s, this is in Scratch; for older students it's Python in VS Code. Real, no toys.
+First two real sessions. Sequencing, decomposition, debugging, the joy of "the bug is mine to fix." For under-10s, this is in Scratch; for older students it's Python in VS Code. Real, no toys.
 
 **Output:** a tiny interactive program, theirsWeek 03
 
 ### Python on a real laptop
 
-VS Code installed, Python 3 working, terminal no longer scary. First original program — not from a tutorial — with input, output, variables, loops. Pushed to your child's first personal GitHub repository.
+VS Code installed, Python 3 working, terminal no longer scary. First original program, not from a tutorial, with input, output, variables, loops. Pushed to your child's first personal GitHub repository.
 
 **Output:** first GitHub commitWeek 04
 
 ### The first deploy
 
-End-of-month checkpoint: a small project chosen by the student — a Swedish-themed quiz, a Stockholm-weather lookup, a Spotify playlist analyser — shipped to GitHub Pages or Vercel. You get a written progress note from the mentor.
+End-of-month checkpoint: a small project chosen by the student, a Swedish-themed quiz, a Stockholm-weather lookup, a Spotify playlist analyser, shipped to GitHub Pages or Vercel. You get a written progress note from the mentor.
 
 **Output:** a live URL you can shareInside a typical class
 
@@ -246,37 +246,37 @@ End-of-month checkpoint: a small project chosen by the student — a Swedish-the
 
 The honest version. This is what one 1:1 session looks like for a 13-year-old in their third month with us.
 
-00:00 – 02:00
+00:00: 02:00
 
 #### Hej + warm-up
 
-Two minutes of "how was the week" — the human bit. Mentor picks up where you left off, scrolls back the chat history, and the camera comes on for both.
+Two minutes of "how was the week", the human bit. Mentor picks up where you left off, scrolls back the chat history, and the camera comes on for both.
 
-02:00 – 08:00
+02:00: 08:00
 
 #### Recap and tiny quiz
 
-A 6-minute recall test of last lesson's idea. Not a test for marks — a test for the brain. The mentor watches for the lightbulb moments and the cobwebs.
+A 6-minute recall test of last lesson's idea. Not a test for marks, a test for the brain. The mentor watches for the lightbulb moments and the cobwebs.
 
-08:00 – 18:00
+08:00, 18:00
 
 #### New concept + live coding
 
 Ten minutes of new material. Live-shared VS Code via Zoom. Mentor types two lines, student types the next two. Wrong moves are welcomed. Errors get read out loud.
 
-18:00 – 35:00
+18:00: 35:00
 
 #### Project work · the heart of the class
 
-The student leads. The mentor coaches. This is where most of the actual learning happens — pushing a feature, fixing a bug, refactoring a function. The mentor types nothing; only asks.
+The student leads. The mentor coaches. This is where most of the actual learning happens, pushing a feature, fixing a bug, refactoring a function. The mentor types nothing; only asks.
 
-35:00 – 42:00
+35:00, 42:00
 
 #### Code review & reflection
 
 Five minutes to look back at what was written this session. What's good? What could be cleaner? The student names one thing they're proud of. This bit matters more than it sounds.
 
-42:00 – 45:00
+42:00: 45:00
 
 #### Next steps + heja-då
 
@@ -288,31 +288,31 @@ Mentor writes a 4-line note to the parent: what was covered, how the student fel
 
 SSShradha SarafParent of MivaanReal shipped student projects
 
-## Real apps our students built — live, public, and yours to open.
+## Real apps our students built: live, public, and yours to open.
 
 Every project below was built by a Modern Age Coders student and is live on the internet right now. Tap any card to open the real thing. See the full wall at [Student Labs](/student-labs).
 
 Built by Bhavya · AI & ML
 
-### NutriLife — AI Nutrition Coach
+### NutriLife: AI Nutrition Coach
 
-Snap a photo of any meal and NutriLife instantly names every food, then breaks down the calories, macros, vitamins and minerals — powered by AI.
+Snap a photo of any meal and NutriLife instantly names every food, then breaks down the calories, macros, vitamins and minerals, powered by AI.
 
 Vibe CodingAI VisionReactLovable[Open the live project ↗](https://nutrilife-bhavya.lovable.app)Built by Kritika · Game
 
-### Baby — Typing Speed Challenge
+### Baby: Typing Speed Challenge
 
 An engaging typing speed challenge where users test how fast and accurately they can type, with a live leaderboard connected to a MongoDB backend.
 
 JavaScriptNode.jsMongoDB[Open the live project ↗](https://baby.modernagecoders.com)Built by Isha · Web App
 
-### Moxo — Company Landing Page
+### Moxo: Company Landing Page
 
 A stunning modern landing page with smooth parallax scrolling, advanced GSAP animations and elegant section transitions that bring the brand to life.
 
 JavaScriptGSAPParallax[Open the live project ↗](https://moxo.modernagecoders.com)Built by Harshit · AI & ML
 
-### Misti — AI Chatbot for Maths & Coding
+### Misti: AI Chatbot for Maths & Coding
 
 An intelligent AI-powered chatbot that helps students solve maths and coding questions with deep, step-by-step explanations using advanced Python AI frameworks and LLM APIs.
 
@@ -320,17 +320,17 @@ PythonAI/MLLLM APIs[Open the live project ↗](https://misti.modernagecoders.com
 
 ### Simon Game
 
-A fun memory-based game where players repeat colour and sound sequences. Each level adds a new challenge — brain-boosting for kids learning logic and focus.
+A fun memory-based game where players repeat colour and sound sequences. Each level adds a new challenge, brain-boosting for kids learning logic and focus.
 
 HTMLCSSJavaScript[Open the live project ↗](http://yashaswi-2017.my.canva.site)Built by Somraj · Tool
 
 ### Image Slider Website
 
-A visually appealing site with a smooth image carousel — auto or manual navigation, responsive layout and beautiful transition effects.
+A visually appealing site with a smooth image carousel, auto or manual navigation, responsive layout and beautiful transition effects.
 
 HTMLCSSJavaScript[Open the live project ↗](https://robo23middle-stack.github.io/scenes/)Honest commitments
 
-## What we'll always do — and what we'll never do.
+## What we'll always do: and what we'll never do.
 
 Scandinavian directness. We'd rather lose your business than mis-sell our school.
 
@@ -418,7 +418,7 @@ KD
 
 ### The kids-first mentor
 
-Årskurs 1 – 6
+Årskurs 1: 6
 
 Patient, child-development-aware, calm pace. Bridges Scratch to real Python so even årskurs 3 learners leave able to write a working program.
 
@@ -436,7 +436,7 @@ Plain pricing · månadsvis
 
 ## USD 150 per month. Eight live sessions. No fine print.
 
-No registration fee, no annual lock-in, no surprise upsells. Pay in USD via Visa, Mastercard, Amex, Apple Pay, Google Pay or Swish-linked card — your bank handles any currency conversion.
+No registration fee, no annual lock-in, no surprise upsells. Pay in USD via Visa, Mastercard, Amex, Apple Pay, Google Pay or Swish-linked card. Your bank handles any currency conversion.
 
 1:1 private mentorship
 
@@ -450,7 +450,7 @@ Billed in USD · no joining fee
 
 - 8 live 1:1 sessions every month
 - 2 classes per week, your chosen CET slots
-- Same mentor every week — no rotation
+- Same mentor every week, no rotation
 - Custom curriculum mapped to Lgr 22 / gymnasiet
 - Class recordings & weekly Föräldrar-report
 - WhatsApp / e-mail support between classes
@@ -476,17 +476,17 @@ CET-native schedule
 
 ## Slots that fit a Swedish school day.
 
-You pick two slots per week. These are the windows most Swedish families choose — all CET. Additional slots open on request.
+You pick two slots per week. These are the windows most Swedish families choose, all CET. Additional slots open on request.
 
-Slot (CET)DaysBest forAvailability**15:30 – 16:30***efter skolan*Mån · Ons · FreÅrskurs 1 – 6Hög efterfrågan**17:00 – 18:00***after fritids / sport*Mån · Tis · TorÅrskurs 6 – 9Comfortable**18:00 – 19:00***kvällsslot*Tis · Ons · TorGymnasium · KTH/Chalmers prepComfortable**19:30 – 20:30***vuxen-kväll*Mån · Ons · TorAdult learners & uni studentsComfortable**09:00 – 10:00***helgmorgon*Lör & SönFamily-paced learners of any ageLimitedHow we compare
+Slot (CET)DaysBest forAvailability**15:30, 16:30***efter skolan*Mån · Ons · FreÅrskurs 1, 6Hög efterfrågan**17:00, 18:00***after fritids / sport*Mån · Tis · TorÅrskurs 6, 9Comfortable**18:00, 19:00***kvällsslot*Tis · Ons · TorGymnasium · KTH/Chalmers prepComfortable**19:30, 20:30***vuxen-kväll*Mån · Ons · TorAdult learners & uni studentsComfortable**09:00, 10:00***helgmorgon*Lör & SönFamily-paced learners of any ageLimitedHow we compare
 
 ## Honest side-by-side with what Swedish families already tried.
 
-School after-school clubs, private tutors (privatlärare), free YouTube, Swedish online coding schools — every option has a place.
+School after-school clubs, private tutors (privatlärare), free YouTube, Swedish online coding schools, every option has a place.
 
-What mattersModern Age CodersSchool / fritids clubPrivatlärareYouTube · free toolsSame 1:1 mentor weekly, all year✓ Yes— No✓ Often— NoReal coding (Python · JS · Git · deploy)✓ Week 1~ Mostly Scratch~ Tutor-specific~ Self-drivenModern AI & agentic-AI✓ Built in— No— Rare~ TutorialsLgr 22 / gymnasium alignment✓ Mapped✓ Native~ Tutor-specific— NoKTH / Chalmers / Lund prep✓ Yes— No~ Rare— NoBilingual EN / SV support✓ Available✓ Native✓ Native~ InconsistentMonthly costUSD 150 / 100FreeSEK 700 – 1 200 / hourFreeCancel / pause✓ Monthly~ Per termin✓ Hourly✓ FreeWhere Swedish families learn with us
+What mattersModern Age CodersSchool / fritids clubPrivatlärareYouTube · free toolsSame 1:1 mentor weekly, all year✓ Yes, No✓ Often, NoReal coding (Python · JS · Git · deploy)✓ Week 1~ Mostly Scratch~ Tutor-specific~ Self-drivenModern AI & agentic-AI✓ Built in, No, Rare~ TutorialsLgr 22 / gymnasium alignment✓ Mapped✓ Native~ Tutor-specific, NoKTH / Chalmers / Lund prep✓ Yes, No~ Rare: NoBilingual EN / SV support✓ Available✓ Native✓ Native~ InconsistentMonthly costUSD 150 / 100FreeSEK 700, 1 200 / hourFreeCancel / pause✓ Monthly~ Per termin✓ Hourly✓ FreeWhere Swedish families learn with us
 
-## Online classes — locally aware, Sweden-wide.
+## Online classes: locally aware, Sweden-wide.
 
 Six closer looks at the cities most of our Swedish families come from. Your stad is supported even if it's not listed.
 
@@ -548,7 +548,7 @@ A real 30-minute live lesson on your child's CET slot. We tailor a learning plan
 
 Är kurserna anpassade efter Lgr 22?
 
-Yes. Our K–9 track aligns with the programming strand introduced under Lgr 22 in Matematik and Teknik. For Gymnasium our advanced track maps to Teknikprogrammet and Naturvetenskapsprogrammet — including Programmering 1 / 2 and gymnasiearbete coaching.
+Yes. Our K–9 track aligns with the programming strand introduced under Lgr 22 in Matematik and Teknik. For Gymnasium our advanced track maps to Teknikprogrammet and Naturvetenskapsprogrammet, including Programmering 1 / 2 and gymnasiearbete coaching.
 
 Will it help my child get into KTH, Chalmers, Lund or Uppsala?
 
@@ -556,19 +556,19 @@ Yes. Our Gymnasium and university-prep tracks cover the algorithmic depth, Pytho
 
 Vad kostar det per månad?
 
-Private 1:1 mentorship is **USD 150 per month** — 8 sessions, 2 per week. Small-group cohort is **USD 100 per month**. Ingen registreringsavgift, ingen bindningstid, månadsvis uppsägning.
+Private 1:1 mentorship is **USD 150 per month**: 8 sessions, 2 per week. Small-group cohort is **USD 100 per month**. Ingen registreringsavgift, ingen bindningstid, månadsvis uppsägning.
 
 Are classes taught in English or Swedish?
 
-Classes are delivered in clear, slow English — the working language of code, AI and the Swedish tech industry. Mentors switch to Swedish vocabulary on demand and adapt for younger learners or non-English-comfortable Föräldrar.
+Classes are delivered in clear, slow English, the working language of code, AI and the Swedish tech industry. Mentors switch to Swedish vocabulary on demand and adapt for younger learners or non-English-comfortable Föräldrar.
 
 What time of day are classes?
 
-Mentors work CET. Slots cover 09:00 – 21:00 — after-school, evening or weekend morning. Most årskurs 6 – 9 families pick 17:00 or 18:00. Gymnasium families lean later (19:00–20:00). The youngest learners prefer Saturday morning.
+Mentors work CET. Slots cover 09:00, 21:00, after-school, evening or weekend morning. Most årskurs 6: 9 families pick 17:00 or 18:00. Gymnasium families lean later (19:00–20:00). The youngest learners prefer Saturday morning.
 
 Will my child build real AI, not just use ChatGPT?
 
-Real AI engineering. Students build LLM apps with structured output, retrieval, tool-calling agents, evaluations and deployment — the same patterns used at Spotify, Klarna, King, Polestar, Zenseact, Voi, Tink and the WASP / AI Sweden ecosystem.
+Real AI engineering. Students build LLM apps with structured output, retrieval, tool-calling agents, evaluations and deployment, the same patterns used at Spotify, Klarna, King, Polestar, Zenseact, Voi, Tink and the WASP / AI Sweden ecosystem.
 
 Are mentors used to Swedish friskolor and international schools?
 
@@ -580,7 +580,7 @@ Under-13s never operate LLM APIs against the open internet without a mentor pres
 
 Does the schedule pause for Swedish school holidays?
 
-You decide. Most Swedish families pause during Sportlovet, Påsklov, Sommarlov, Höstlov and Jullov — and just resume after. Others use breaks for a focused project sprint. Pause any month with one message to your mentor — no fee, no awkward conversation.
+You decide. Most Swedish families pause during Sportlovet, Påsklov, Sommarlov, Höstlov and Jullov, and just resume after. Others use breaks for a focused project sprint. Pause any month with one message to your mentor, no fee, no awkward conversation.
 
 Hur betalar man? Funkar svenska kort?
 
@@ -588,7 +588,7 @@ Yes. We accept Visa, Mastercard, Amex (all issued in Sweden), Apple Pay and Goog
 
 Can my child switch mentor if it's not the right fit?
 
-Yes — any time, for any reason. We re-match within a week and you keep the same monthly schedule. About 1 in 8 of our Swedish students switch once in the first three months. That's a feature, not a failure.
+Yes, any time, for any reason. We re-match within a week and you keep the same monthly schedule. About 1 in 8 of our Swedish students switch once in the first three months. That's a feature, not a failure.
 
 What devices do you teach with?
 
@@ -596,15 +596,15 @@ VS Code, the terminal, Git and GitHub, Python 3, Node, modern browsers and a dep
 
 Do you support gymnasiearbete coaching specifically?
 
-Yes — we coach gymnasiearbete projects across Teknik, Natur and Samhälls programs. Mentors help with topic scoping, technical implementation, written report structure, code-quality review and presentation rehearsal. Many of our gymnasium students use their gymnasiearbete as the first item in their KTH / Chalmers application portfolio.
+Yes. We coach gymnasiearbete projects across Teknik, Natur and Samhälls programs. Mentors help with topic scoping, technical implementation, written report structure, code-quality review and presentation rehearsal. Many of our gymnasium students use their gymnasiearbete as the first item in their KTH / Chalmers application portfolio.
 
 How does this compare to coding camps in Sverige like Hello World Kids or Sthlm Code Academy?
 
-Camps are a great taster — typically a week of intense, in-person, classroom-style coding aimed at exposure. We're the opposite shape: a year-round 1:1 online mentorship aimed at depth. Many of our families have done camps first; we tend to be the next step after the camp ends.
+Camps are a great taster, typically a week of intense, in-person, classroom-style coding aimed at exposure. We're the opposite shape: a year-round 1:1 online mentorship aimed at depth. Many of our families have done camps first; we tend to be the next step after the camp ends.
 
 Will the mentor speak Swedish to my child when needed?
 
-Yes. Our bilingual-comfortable mentors switch to Swedish vocabulary on demand — especially for younger children, for tricky concepts, and for parents joining the end-of-lesson summary. Code keywords stay in English (since the language itself is English) but explanations adapt to the student.
+Yes. Our bilingual-comfortable mentors switch to Swedish vocabulary on demand, especially for younger children, for tricky concepts, and for parents joining the end-of-lesson summary. Code keywords stay in English (since the language itself is English) but explanations adapt to the student.
 
 Can I sit in on my child's lessons?
 
@@ -616,7 +616,7 @@ Game development *is* serious coding. We have mentors who lean specifically into
 
 Is there a discount for siblings or for paying yearly?
 
-Yes — siblings sharing a 1:1 slot get a small discount (we typically pair them only when their levels are close, otherwise each progresses faster in their own slot). We don't usually do yearly upfront discounts because we want you to renew because the lessons are working, not because you're locked in. If you're paying for an unusually long stretch and want to discuss, just ask the mentor.
+Yes, siblings sharing a 1:1 slot get a small discount (we typically pair them only when their levels are close, otherwise each progresses faster in their own slot). We don't usually do yearly upfront discounts because we want you to renew because the lessons are working, not because you're locked in. If you're paying for an unusually long stretch and want to discuss, just ask the mentor.
 
 Do you provide invoices we can use for company reimbursement (vuxenutbildning)?
 
@@ -630,7 +630,7 @@ Schools we've supported
 
 ## A real cross-section of Swedish schools we've taught students from.
 
-We're not affiliated with any of these schools — we simply mentor the students who attend them, so we know each school's pace, project style and exam expectations.
+We're not affiliated with any of these schools. We simply mentor the students who attend them, so we know each school's pace, project style and exam expectations.
 
 Östra RealStockholm
 
@@ -638,7 +638,7 @@ Classical gymnasium in central Stockholm. Demanding Naturvetenskapsprogrammet an
 
 Norra RealStockholm
 
-Vasastan gymnasium with strong maths and science culture. Many of our Norra Real teens aim at KTH or Chalmers — we pair them with KTH-alum mentors when possible.
+Vasastan gymnasium with strong maths and science culture. Many of our Norra Real teens aim at KTH or Chalmers. We pair them with KTH-alum mentors when possible.
 
 HvitfeldtskaGöteborg
 
@@ -650,7 +650,7 @@ Lund's most historic gymnasium. Many of our Lund families want a smooth pathway 
 
 Internationella Engelska Skolan (IES)national
 
-IES Stockholm, Göteborg, Malmö, Uppsala, Hässelby, Eskilstuna — common with our families. Our English-first delivery sits naturally alongside the IES classroom experience.
+IES Stockholm, Göteborg, Malmö, Uppsala, Hässelby, Eskilstuna, common with our families. Our English-first delivery sits naturally alongside the IES classroom experience.
 
 Bladins International SchoolMalmö
 
@@ -672,7 +672,7 @@ These are the questions Swedish parents type into Google at 11pm before their tr
 
 "My child already has too much screen time. Won't this make it worse?"
 
-It's a fair worry. Our sessions are 45 minutes, twice a week — total 90 minutes per week — and most of that time the child is creating, not consuming. Mentors enforce screen-off breaks during the session. We genuinely believe deliberate, mentor-led screen time is qualitatively different from passive content time, and many of our Swedish parents tell us their child actually *chooses* to spend less time on TikTok after a few months.
+It's a fair worry. Our sessions are 45 minutes, twice a week, total 90 minutes per week, and most of that time the child is creating, not consuming. Mentors enforce screen-off breaks during the session. We genuinely believe deliberate, mentor-led screen time is qualitatively different from passive content time, and many of our Swedish parents tell us their child actually *chooses* to spend less time on TikTok after a few months.
 
 "Will my child learn fake 'kid Python' and not real programming?"
 
@@ -680,15 +680,15 @@ No. We start in Scratch for the youngest learners (årskurs 1–3) and only as a
 
 "What if my child loses interest after a month? Am I locked in?"
 
-No lock-in. You can cancel any month before the next billing cycle — no fee, no awkward conversation, no exit interview. If your child loses interest, we'd rather hear about it early and either pause for a few weeks or pivot the project track to something more exciting (game design, music programming, AI art) than have you grit your teeth through a year you paid for.
+No lock-in. You can cancel any month before the next billing cycle, no fee, no awkward conversation, no exit interview. If your child loses interest, we'd rather hear about it early and either pause for a few weeks or pivot the project track to something more exciting (game design, music programming, AI art) than have you grit your teeth through a year you paid for.
 
 "Is AI safe for my 9-year-old? I read scary things."
 
-Under-13s never interact with raw LLM APIs against the open internet without a mentor present. We use age-appropriate models with guardrailed prompts, content filters and a "sandbox-only" rule. The AI tools your child builds are educational and reviewable by you — you see every prompt and every output. We're stricter on this than most.
+Under-13s never interact with raw LLM APIs against the open internet without a mentor present. We use age-appropriate models with guardrailed prompts, content filters and a "sandbox-only" rule. The AI tools your child builds are educational and reviewable by you, you see every prompt and every output. We're stricter on this than most.
 
-"My child is shy — won't a 1:1 video lesson be too much?"
+"My child is shy, won't a 1:1 video lesson be too much?"
 
-Many of our most successful students started shy. The first lesson is structured around the code, not the camera — your child stares at VS Code, not at a stranger's face. Mentors are trained to give long pauses, no pressure, and let the screen do the talking. Most shy students are comfortable by lesson 3 — and several have ended up *more* confident at school presentations as a side effect.
+Many of our most successful students started shy. The first lesson is structured around the code, not the camera. Your child stares at VS Code, not at a stranger's face. Mentors are trained to give long pauses, no pressure, and let the screen do the talking. Most shy students are comfortable by lesson 3, and several have ended up *more* confident at school presentations as a side effect.
 
 "Is this just another bootcamp pretending to be a school?"
 

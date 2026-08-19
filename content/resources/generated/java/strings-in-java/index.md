@@ -23,9 +23,9 @@ Every Java program that prints output, reads user input, or processes text relie
 
 Java provides two primary ways to create strings:
 
-**1. String Literal:** `String name = "Aarav";` — Created using double quotes. Java stores this in a special memory area called the **String Pool**. If another variable is assigned the same literal, Java reuses the existing object from the pool instead of creating a new one. This is memory-efficient.
+**1. String Literal:** `String name = "Aarav";`: Created using double quotes. Java stores this in a special memory area called the **String Pool**. If another variable is assigned the same literal, Java reuses the existing object from the pool instead of creating a new one. This is memory-efficient.
 
-**2. Using the `new` keyword:** `String name = new String("Aarav");` — Explicitly creates a new String object on the heap, bypassing the String Pool. Even if an identical string exists in the pool, a new object is created. This is rarely needed in practice.
+**2. Using the `new` keyword:** `String name = new String("Aarav");`: Explicitly creates a new String object on the heap, bypassing the String Pool. Even if an identical string exists in the pool, a new object is created. This is rarely needed in practice.
 
 Unlike Python and JavaScript, Java does not support single quotes for strings. Single quotes in Java are reserved for the `char` data type: `char ch = 'A';`.
 
@@ -35,11 +35,11 @@ Strings are one of the most heavily tested topics in Java interviews and univers
 
 ### 1. Strings Are Everywhere in Java Applications
 
-Every `System.out.println()` call involves a string. Every `Scanner.nextLine()` returns a string. Configuration files, database queries, API endpoints, file paths, error messages — all are strings. You cannot write a meaningful Java program without manipulating strings.
+Every `System.out.println()` call involves a string. Every `Scanner.nextLine()` returns a string. Configuration files, database queries, API endpoints, file paths, error messages, all are strings. You cannot write a meaningful Java program without manipulating strings.
 
 ### 2. Immutability Is a Core Interview Concept
 
-Java strings are immutable — once created, their content cannot be changed. This single property leads to dozens of interview questions about the String Pool, memory management, thread safety, and why `StringBuilder` exists. Understanding immutability is understanding Java's design philosophy.
+Java strings are immutable, once created, their content cannot be changed. This single property leads to dozens of interview questions about the String Pool, memory management, thread safety, and why `StringBuilder` exists. Understanding immutability is understanding Java's design philosophy.
 
 ### 3. The == vs .equals() Trap
 
@@ -65,7 +65,7 @@ s.toUpperCase(); // Returns "HELLO" but s is still "Hello"
 s = s.toUpperCase(); // Now s points to the new "HELLO" object
 ```
 
-Why is this important? Immutability provides three key benefits: (1) **Thread safety** — multiple threads can share the same String without synchronization. (2) **Security** — strings used as class names, file paths, or network addresses cannot be altered after creation. (3) **Hashcode caching** — since the content never changes, the hashcode can be computed once and reused, making strings efficient as HashMap keys.
+Why is this important? Immutability provides three key benefits: (1) **Thread safety**, multiple threads can share the same String without synchronization. (2) **Security**, strings used as class names, file paths, or network addresses cannot be altered after creation. (3) **Hashcode caching**, since the content never changes, the hashcode can be computed once and reused, making strings efficient as HashMap keys.
 
 ### 2. The String Pool
 
@@ -74,15 +74,15 @@ Java maintains a special memory area called the **String Pool** (or String Inter
 ```
 String a = "Hello";
 String b = "Hello";
-System.out.println(a == b); // true — same object in the pool
+System.out.println(a == b); // true, same object in the pool
 ```
 
 When you use `new String("Hello")`, Java creates a new object on the heap regardless of whether "Hello" exists in the pool. The pool object is still created (for the literal), but the variable points to the heap object.
 
 ```
 String c = new String("Hello");
-System.out.println(a == c); // false — different objects
-System.out.println(a.equals(c)); // true — same content
+System.out.println(a == c); // false, different objects
+System.out.println(a.equals(c)); // true, same content
 ```
 
 The `intern()` method forces a string into the pool: `String d = c.intern();` After this, `a == d` would be `true`.
@@ -141,7 +141,7 @@ The String class provides over 60 methods. Here are the ones you must know:
 
 `String.valueOf(int i)` converts a primitive to a string. `toCharArray()` converts to a char array. `getBytes()` converts to a byte array.
 
-### 5. StringBuilder — Mutable Strings
+### 5. StringBuilder: Mutable Strings
 
 Since strings are immutable, repeated concatenation in a loop creates many temporary objects, leading to poor performance. `StringBuilder` solves this by providing a mutable character sequence.
 
@@ -155,7 +155,7 @@ String result = sb.toString();
 
 Key StringBuilder methods: `append()` adds text at the end. `insert(int offset, String str)` inserts text at a position. `delete(int start, int end)` removes characters. `reverse()` reverses the sequence. `toString()` converts back to a String.
 
-### 6. StringBuffer — Thread-Safe Mutable Strings
+### 6. StringBuffer: Thread-Safe Mutable Strings
 
 `StringBuffer` is identical to `StringBuilder` in functionality but all its methods are `synchronized`, making it thread-safe. The trade-off is slower performance due to synchronization overhead. Use `StringBuilder` in single-threaded contexts (which is most of the time) and `StringBuffer` only when multiple threads access the same mutable string.
 
@@ -182,13 +182,13 @@ Common format specifiers: `%s` for strings, `%d` for integers, `%f` for floating
 The `+` operator for string concatenation is convenient but has a hidden cost. In a loop, each `+` creates a new String object, copies the old content plus the new content, and discards the old object. For n iterations, this results in O(n^2) time complexity.
 
 ```
-// BAD: O(n^2) — creates n intermediate String objects
+// BAD: O(n^2), creates n intermediate String objects
 String result = "";
 for (int i = 0; i < 10000; i++) {
     result += i + ","; // new object every iteration
 }
 
-// GOOD: O(n) — single StringBuilder, no copying
+// GOOD: O(n), single StringBuilder, no copying
 StringBuilder sb = new StringBuilder();
 for (int i = 0; i < 10000; i++) {
     sb.append(i).append(",");
@@ -200,23 +200,23 @@ Note: The Java compiler optimizes simple concatenation like `"Hello" + name` usi
 
 ## Code Examples
 
-### String Creation — Literal vs new
+### String Creation: Literal vs new
 
 ```java
 public class StringCreation {
     public static void main(String[] args) {
-        // String literal — stored in String Pool
+        // String literal, stored in String Pool
         String s1 = "Hello";
         String s2 = "Hello";
 
-        // Using new — creates a new object on the heap
+        // Using new, creates a new object on the heap
         String s3 = new String("Hello");
 
         System.out.println(s1 == s2);       // true (same pool object)
         System.out.println(s1 == s3);       // false (different objects)
         System.out.println(s1.equals(s3));  // true (same content)
 
-        // intern() — moves heap string to the pool
+        // intern(), moves heap string to the pool
         String s4 = s3.intern();
         System.out.println(s1 == s4);       // true (same pool object)
     }
@@ -234,7 +234,7 @@ true
 true
 ```
 
-### String Comparison — == vs .equals() vs .compareTo()
+### String Comparison: == vs .equals() vs .compareTo()
 
 ```java
 public class StringComparison {
@@ -345,7 +345,7 @@ public class StringOperations {
             System.out.println(name);
         }
 
-        // String.join() — Java 8+
+        // String.join(): Java 8+
         String joined = String.join(" | ", names);
         System.out.println(joined);
 
@@ -380,7 +380,7 @@ true
 false
 ```
 
-### StringBuilder — Mutable String Operations
+### StringBuilder: Mutable String Operations
 
 ```java
 public class StringBuilderDemo {
@@ -447,7 +447,7 @@ public class StringFormatting {
         String info = String.format("Name: %s, Age: %d, GPA: %.2f", name, age, gpa);
         System.out.println(info);
 
-        // printf() — prints directly
+        // printf(), prints directly
         System.out.printf("%-15s %5d %8.2f%n", "Deepak", 21, 8.756);
         System.out.printf("%-15s %5d %8.2f%n", "Sneha", 20, 9.120);
         System.out.printf("%-15s %5d %8.2f%n", "Vikram", 22, 7.890);
@@ -476,14 +476,14 @@ Roll No: 00042
 100 is a String: true
 ```
 
-### String Concatenation Performance — Why StringBuilder Matters
+### String Concatenation Performance: Why StringBuilder Matters
 
 ```java
 public class ConcatPerformance {
     public static void main(String[] args) {
         int n = 50000;
 
-        // BAD: String concatenation in a loop — O(n^2)
+        // BAD: String concatenation in a loop: O(n^2)
         long start1 = System.currentTimeMillis();
         String bad = "";
         for (int i = 0; i < n; i++) {
@@ -492,7 +492,7 @@ public class ConcatPerformance {
         long time1 = System.currentTimeMillis() - start1;
         System.out.println("String + loop: " + time1 + " ms");
 
-        // GOOD: StringBuilder — O(n)
+        // GOOD: StringBuilder: O(n)
         long start2 = System.currentTimeMillis();
         StringBuilder good = new StringBuilder();
         for (int i = 0; i < n; i++) {
@@ -615,7 +615,7 @@ if (name != null) {
 } else {
     System.out.println("Name is not set");
 }
-// Or use a constant on the left: "Hello".equals(name) — safe even if name is null
+// Or use a constant on the left: "Hello".equals(name), safe even if name is null
 ```
 
 Calling any method on a `null` reference throws a `NullPointerException`. Always check for null before calling methods. A common defensive technique is to put the known non-null string on the left: `"expected".equals(name)` instead of `name.equals("expected")`.
@@ -652,7 +652,7 @@ String result = "";
 for (int i = 0; i < 10000; i++) {
     result += i + ",";
 }
-// Extremely slow — O(n^2) time, creates 10000 temporary objects
+// Extremely slow: O(n^2) time, creates 10000 temporary objects
 ```
 
 No compilation error, but severe performance degradation. Each += creates a new String object and copies all previous characters.
@@ -665,7 +665,7 @@ for (int i = 0; i < 10000; i++) {
     sb.append(i).append(",");
 }
 String result = sb.toString();
-// Fast — O(n) time, single mutable object
+// Fast: O(n) time, single mutable object
 ```
 
 The `+` operator in a loop causes Java to create a new String object on every iteration, copying the entire accumulated string plus the new part. For n iterations, the total character copies are approximately n^2/2. Use `StringBuilder` in loops to maintain a single mutable buffer that grows efficiently.
@@ -679,7 +679,7 @@ String name = "Sneha";
 System.out.println(name.length); // Compilation error
 ```
 
-error: cannot find symbol — symbol: variable length
+error: cannot find symbol, symbol: variable length
 
 **Correct:**
 

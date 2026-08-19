@@ -1,10 +1,10 @@
 /* ================================================================
-   contact.css — Unified styles for contact.html
+   contact.css: Unified styles for contact.html
    Modern Age Coders
    ================================================================ */
 
 /* ----------------------------------------------------------------
-   0. NAVBAR HEIGHT OFFSET — used by hero/main content
+   0. NAVBAR HEIGHT OFFSET, used by hero/main content
    ---------------------------------------------------------------- */
 :root {
     --navbar-height: 70px;
@@ -1767,7 +1767,7 @@ textarea.form-input {
 }
 
 /* ----------------------------------------------------------------
-   22. RESPONSIVE — Tablet (max-width: 900px)
+   22. RESPONSIVE: Tablet (max-width: 900px)
    ---------------------------------------------------------------- */
 @media (max-width: 900px) {
     .contact-grid {
@@ -1776,7 +1776,7 @@ textarea.form-input {
 }
 
 /* ----------------------------------------------------------------
-   23. RESPONSIVE — Mobile (max-width: 768px)
+   23. RESPONSIVE: Mobile (max-width: 768px)
    ---------------------------------------------------------------- */
 @media (max-width: 768px) {
 
@@ -2164,7 +2164,7 @@ textarea.form-input {
 }
 
 /* ----------------------------------------------------------------
-   24. RESPONSIVE — Small Mobile (max-width: 480px)
+   24. RESPONSIVE: Small Mobile (max-width: 480px)
    ---------------------------------------------------------------- */
 @media (max-width: 480px) {
     .contact-hero h1 {
@@ -2209,7 +2209,7 @@ textarea.form-input {
 }
 
 /* ----------------------------------------------------------------
-   25. RESPONSIVE — Extra small (max-width: 400px)
+   25. RESPONSIVE: Extra small (max-width: 400px)
    ---------------------------------------------------------------- */
 @media (max-width: 400px) {
 
@@ -2347,7 +2347,7 @@ textarea.form-input {
     border-radius: 10px;
 }
 
-/* Love nav link — pink accent */
+/* Love nav link, pink accent */
 .nav-link-love {
     color: #ec4899;
     font-weight: 600;

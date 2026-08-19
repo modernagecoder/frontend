@@ -1,36 +1,36 @@
 ---
-title: "11 Plus Maths Tuition Online · 1:1 GL & CEM 11+ Maths Prep — Modern Age Coders"
-description: "Live 1:1 online 11 Plus maths tuition for GL and CEM-style exams. We build real number fluency and problem-solving for grammar and independent school entry — not just past-paper drilling — with the timed-reasoning skills the 11+ rewards. Same tutor, UK time. Priced for your country."
+title: "11 Plus Maths Tuition Online · 1:1 GL & CEM 11+ Maths Prep | Modern Age Coders"
+description: "Live 1:1 online 11 Plus maths tuition for GL and CEM-style exams. We build real number fluency and problem-solving for grammar and independent school entry, not just past-paper drilling, with the timed-reasoning skills the 11+ rewards. Same tutor, UK time. Priced for your country."
 canonical: https://learn.modernagecoders.com/11-plus-maths-tuition
 source: src/pages/11-plus-maths-tuition.html
 ---
-> Live 1:1 online 11 Plus maths tuition for GL and CEM-style exams. We build real number fluency and problem-solving for grammar and independent school entry — not just past-paper drilling — with the timed-reasoning skills the 11+ rewards. Same tutor, UK time. Priced for your country.
+> Live 1:1 online 11 Plus maths tuition for GL and CEM-style exams. We build real number fluency and problem-solving for grammar and independent school entry, not just past-paper drilling, with the timed-reasoning skills the 11+ rewards. Same tutor, UK time. Priced for your country.
 
 Why 11+ prep often backfires
 
 ## Drilling past papers builds a child who panics the moment a question looks unfamiliar.
 
-The 11+ is competitive, so the instinct is to hammer past papers from Year 4. But the exam is specifically designed to reward flexible reasoning under time pressure — it dresses familiar maths in unfamiliar clothes. A child trained only to recognise the exact question types they've drilled freezes the moment the wording shifts.
+The 11+ is competitive, so the instinct is to hammer past papers from Year 4. But the exam is specifically designed to reward flexible reasoning under time pressure. It dresses familiar maths in unfamiliar clothes. A child trained only to recognise the exact question types they've drilled freezes the moment the wording shifts.
 
 Worse, relentless drilling drains the confidence and enjoyment that actually help a child think clearly in the exam room.
 
-What the 11+ really tests is whether a child can reason quickly and calmly with numbers — spotting the efficient route, drawing a problem out, checking an answer makes sense.
+What the 11+ really tests is whether a child can reason quickly and calmly with numbers, spotting the efficient route, drawing a problem out, checking an answer makes sense.
 
-So we build that. We grow genuine number fluency and problem-solving first, on a foundation of understanding, then add timed practice and exam strategy. The result is a child who stays composed when a question surprises them — which is exactly the child the 11+ is looking for.
+So we build that. We grow genuine number fluency and problem-solving first, on a foundation of understanding, then add timed practice and exam strategy. The result is a child who stays composed when a question surprises them, which is exactly the child the 11+ is looking for.
 
 How we teach
 
 ## Fluency and reasoning first, exam technique second.
 
-The order matters — technique only sticks on top of real understanding.
+The order matters, technique only sticks on top of real understanding.
 
 ### Build rock-solid number sense
 
-Quick, confident arithmetic and a real grasp of fractions, ratio and percentages — the toolkit every 11+ question draws on.
+Quick, confident arithmetic and a real grasp of fractions, ratio and percentages, the toolkit every 11+ question draws on.
 
 ### Teach problem-solving moves
 
-Drawing a problem, working backwards, spotting the efficient route — the flexible thinking the exam actually rewards.
+Drawing a problem, working backwards, spotting the efficient route, the flexible thinking the exam actually rewards.
 
 ### Add timing gently
 
@@ -42,7 +42,7 @@ GL, CEM or school-specific papers under realistic conditions, reviewing every mi
 
 See it for yourself
 
-## A tricky 11+ ratio problem — solved by drawing it out.
+## A tricky 11+ ratio problem: solved by drawing it out.
 
 Worked example · numerical reasoning
 
@@ -52,7 +52,7 @@ Worked example · numerical reasoning
 
 Amy: ▢▢▢ Ben: ▢▢▢▢▢Ben's extra parts = 5 − 3 = 2 parts = 12 sweetsso 1 part = 12 ÷ 2 = 6 sweetstotal parts = 3 + 5 = 8 → total = 8 × 6 = **48 sweets**
 
-No equation, no panic — just "draw the parts and find what one part is worth." That single habit cracks a huge family of 11+ ratio and proportion questions, however they're worded. We teach children a small kit of these reliable moves, so an unfamiliar question becomes "oh, I know how to start this" instead of a blank. That calm confidence is worth more marks on the day than any amount of frantic drilling.
+No equation, no panic, just "draw the parts and find what one part is worth." That single habit cracks a huge family of 11+ ratio and proportion questions, however they're worded. We teach children a small kit of these reliable moves, so an unfamiliar question becomes "oh, I know how to start this" instead of a blank. That calm confidence is worth more marks on the day than any amount of frantic drilling.
 
 Why a coding school teaches 11+ maths
 
@@ -64,13 +64,13 @@ Turning a wordy question into clear steps is the same skill that turns a task in
 
 ### Spot the pattern
 
-Seeing the structure inside a problem — the parts, the repeat, the rule — is what the 11+ reasoning sections test, and what coding sharpens.
+Seeing the structure inside a problem, the parts, the repeat, the rule, is what the 11+ reasoning sections test, and what coding sharpens.
 
 ### Check it makes sense
 
 "Is 48 a sensible answer?" is a debugging habit that saves careless marks under exam pressure.
 
-We're Modern Age Coders, and the clear, structured thinking we teach young programmers is precisely what the 11+ rewards. Children who learn maths this way don't just pass an exam — they carry a genuine problem-solving habit into secondary school and beyond.
+We're Modern Age Coders, and the clear, structured thinking we teach young programmers is precisely what the 11+ rewards. Children who learn maths this way don't just pass an exam. They carry a genuine problem-solving habit into secondary school and beyond.
 
 What we cover
 
@@ -84,7 +84,7 @@ Fast, accurate four operations, place value, factors and multiples, and the ment
 
 ### Fractions, decimals & percentages
 
-Confident work across all three and the links between them — a heavily tested 11+ area.
+Confident work across all three and the links between them, a heavily tested 11+ area.
 
 ### Ratio & proportion
 
@@ -104,11 +104,11 @@ Timed practice, when to skip and return, careful marking of answers, and staying
 
 Who this is for
 
-## The right fit — and an honest word on what to expect.
+## The right fit: and an honest word on what to expect.
 
 **This fits** the Year 4 or 5 child beginning 11+ preparation, the child who's been drilling but freezes on unfamiliar questions, and the able child who needs stretch and exam composure rather than more worksheets. We tailor to grammar or independent entry and your target schools.
 
-**What's realistic.** Real fluency and reasoning build over months of steady, calm work — that's the preparation that actually performs on the day. Selective entry is competitive, so we never guarantee a place; we guarantee genuinely well-taught maths and a confident, composed exam-taker.
+**What's realistic.** Real fluency and reasoning build over months of steady, calm work. That's the preparation that actually performs on the day. Selective entry is competitive, so we never guarantee a place; we guarantee genuinely well-taught maths and a confident, composed exam-taker.
 
 ### What we won't do
 
@@ -167,7 +167,7 @@ Who teaches your child
 
 ## Tutors who keep 11+ prep calm and effective.
 
-11+ preparation can become stressful fast, and a good tutor's first job is to keep it from doing so. Ours are chosen for genuine warmth with this age group as much as for sharp maths — they build confidence while they build skill, because a calm child performs and an anxious one doesn't.
+11+ preparation can become stressful fast, and a good tutor's first job is to keep it from doing so. Ours are chosen for genuine warmth with this age group as much as for sharp maths. They build confidence while they build skill, because a calm child performs and an anxious one doesn't.
 
 The same tutor stays to the exam, so they know exactly which question types still trip your child up and aim each lesson there.
 
@@ -189,7 +189,7 @@ An honest comparison
 | Strengthens school maths too | Yes | No | Sometimes |
 | Monthly price | £10–30 | £30–50/hr |
 
-Past-paper packs are a useful part of preparation, and we use them — but only on top of the reasoning and confidence that make a child perform when a question surprises them.
+Past-paper packs are a useful part of preparation, and we use them, but only on top of the reasoning and confidence that make a child perform when a question surprises them.
 
 Questions parents ask
 
@@ -197,7 +197,7 @@ Questions parents ask
 
 Do you prepare for GL and CEM-style 11+ exams?
 
-Yes — both GL Assessment and CEM-style maths and numerical reasoning, and individual school papers where set. Tailored to the exact exams your child is sitting.
+Yes. Both GL Assessment and CEM-style maths and numerical reasoning, and individual school papers where set. Tailored to the exact exams your child is sitting.
 
 When should we start 11+ maths prep?
 
@@ -209,31 +209,31 @@ Drilling alone produces brittle results. The 11+ rewards quick, flexible reasoni
 
 My child gets anxious about the timing. Can you help?
 
-Yes — we build speed gradually on a foundation of understanding and teach calm strategies, going at exactly your child's pace.
+Yes. We build speed gradually on a foundation of understanding and teach calm strategies, going at exactly your child's pace.
 
 How much does it cost?
 
-USD 150 per month for private 1:1 — eight live lessons, two each week. Small-group option USD 100 per month. No contract; cancel any time.
+USD 150 per month for private 1:1, eight live lessons, two each week. Small-group option USD 100 per month. No contract; cancel any time.
 
 Is there a free trial?
 
-Yes — the first lesson is free, no card needed. We assess your child and the exams they're targeting.
+Yes, the first lesson is free, no card needed. We assess your child and the exams they're targeting.
 
 Will my child keep the same tutor?
 
-Yes — one tutor to the exam who knows which question types still need work.
+Yes, one tutor to the exam who knows which question types still need work.
 
 Are lessons live?
 
-Yes — live, one-to-one, with a shared whiteboard.
+Yes, live, one-to-one, with a shared whiteboard.
 
 Does this also help with school maths?
 
-Yes — the fluency and reasoning strengthen KS2 school maths at the same time.
+Yes, the fluency and reasoning strengthen KS2 school maths at the same time.
 
 What if my child doesn't pass?
 
-We never guarantee a result — selective entry is competitive. We promise genuinely well-taught maths that leaves your child stronger and more confident whatever the outcome.
+We never guarantee a result, selective entry is competitive. We promise genuinely well-taught maths that leaves your child stronger and more confident whatever the outcome.
 
 Do you cover the non-verbal reasoning too?
 
@@ -259,7 +259,7 @@ Real student projects
 
 Every one is a real, live project shipped by a Modern Age Coders student. Explore more in [Student Labs](/student-labs).
 
-[![Misti — AI Chatbot for Maths & Coding](/images/projects/misti.webp)AI & MLMisti — AI Chatbot for Maths & CodingAn intelligent AI-powered chatbot that helps students solve maths and coding questions with deep, step-by-step explanations using advanced Python AI frameworks and LLM APIs.by HarshitOpen the live project ↗](https://misti.modernagecoders.com)[![Babu — 90 Second Maths Challenge](/images/projects/babu.webp)GameBabu — 90 Second Maths ChallengeAn exciting 90-second maths challenge with random problems under time pressure, and a dynamic leaderboard powered by Firebase/MongoDB with real-time score updates.by Modern Age CodersOpen the live project ↗](https://babu.modernagecoders.com)[![NutriLife — AI Nutrition Coach](/images/projects/nutrilife.webp)AI & MLNutriLife — AI Nutrition CoachSnap a photo of any meal and NutriLife instantly names every food, then breaks down the calories, macros, vitamins and minerals — powered by AI. Bhavya vibe-coded it from a single idea: shaped the app in prompts, then wired up the AI food-recognition, daily tracking and smart coaching by hand.by BhavyaOpen the live project ↗](https://nutrilife-bhavya.lovable.app)
+[![Misti, AI Chatbot for Maths & Coding](/images/projects/misti.webp)AI & MLMisti, AI Chatbot for Maths & CodingAn intelligent AI-powered chatbot that helps students solve maths and coding questions with deep, step-by-step explanations using advanced Python AI frameworks and LLM APIs.by HarshitOpen the live project ↗](https://misti.modernagecoders.com)[![Babu, 90 Second Maths Challenge](/images/projects/babu.webp)GameBabu, 90 Second Maths ChallengeAn exciting 90-second maths challenge with random problems under time pressure, and a dynamic leaderboard powered by Firebase/MongoDB with real-time score updates.by Modern Age CodersOpen the live project ↗](https://babu.modernagecoders.com)[![NutriLife, AI Nutrition Coach](/images/projects/nutrilife.webp)AI & MLNutriLife, AI Nutrition CoachSnap a photo of any meal and NutriLife instantly names every food, then breaks down the calories, macros, vitamins and minerals, powered by AI. Bhavya vibe-coded it from a single idea: shaped the app in prompts, then wired up the AI food-recognition, daily tracking and smart coaching by hand.by BhavyaOpen the live project ↗](https://nutrilife-bhavya.lovable.app)
 
 Parent & student voices
 
@@ -269,7 +269,7 @@ Real, verified reviews from Modern Age Coders families. Read hundreds more on ou
 
 ★★★★★
 
-> “I'm truly grateful for my experience at Modern Age Coders! The teaching approach of my legendary teachers—Shivam Sir, Mihir Sir and Sonu Sir—is extraordinary. They were not only my teachers but also mentors and friendly figures. The fee is remarkably reasonable and the perks are mind-blowing—one-on-one doubt solving, mentoring, and regular tests. The most impressive part was working on real-world projects.”
+> “I'm truly grateful for my experience at Modern Age Coders! The teaching approach of my legendary teachers, Shivam Sir, Mihir Sir and Sonu Sir, is extraordinary. They were not only my teachers but also mentors and friendly figures. The fee is remarkably reasonable and the perks are mind-blowing, one-on-one doubt solving, mentoring, and regular tests. The most impressive part was working on real-world projects.”
 
 *KKrishnam Bhatter
 Former Student*
@@ -283,7 +283,7 @@ Student*
 
 ★★★★★
 
-> “My son has been attending this coding class for the past couple of months, and I've been genuinely impressed with both his progress and enthusiasm. The instructors are incredibly patient and knowledgeable. What stands out most is how excited my son is before every class—he looks forward to learning, problem-solving, and sharing what he's built. I've noticed a big boost in his confidence!”
+> “My son has been attending this coding class for the past couple of months, and I've been genuinely impressed with both his progress and enthusiasm. The instructors are incredibly patient and knowledgeable. What stands out most is how excited my son is before every class. He looks forward to learning, problem-solving, and sharing what he's built. I've noticed a big boost in his confidence!”
 
 *PPoonam Rathore
 Parent*

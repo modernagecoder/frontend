@@ -187,7 +187,7 @@ print(a ** b)
 
 *Hint:* One fix involves reinstalling. The other involves manually editing system settings.
 
-**Answer:** The error occurs because the **Command Prompt cannot find the Python executable** — Python's folder is not listed in the system PATH variable. **Fix 1:** Uninstall Python completely, download the installer again, and reinstall while checking the 'Add python.exe to PATH' checkbox. **Fix 2:** Manually add Python's installation path to the PATH environment variable through System Properties > Environment Variables.
+**Answer:** The error occurs because the **Command Prompt cannot find the Python executable**: Python's folder is not listed in the system PATH variable. **Fix 1:** Uninstall Python completely, download the installer again, and reinstall while checking the 'Add python.exe to PATH' checkbox. **Fix 2:** Manually add Python's installation path to the PATH environment variable through System Properties > Environment Variables.
 
 When Priya types 'python', Windows searches through all folders listed in the PATH variable. Since Python's folder is not there, Windows cannot find the python.exe file and reports that the command is not recognized. The reinstallation method is simpler and recommended for beginners. The manual method requires navigating to Control Panel > System > Advanced System Settings > Environment Variables, finding the PATH variable, and adding Python's installation directory.
 
@@ -205,7 +205,7 @@ Terminal commands use spaces to separate different parts of a command. So 'pytho
 
 **Answer:** **IDLE advantages:** Pre-installed with Python, simple interface, good for beginners, lightweight. **IDLE disadvantages:** Basic features, no built-in terminal, no extensions, not used professionally. **VS Code advantages:** Professional-grade, powerful extensions, IntelliSense, built-in terminal, used by millions of developers. **VS Code disadvantages:** Requires separate download, needs Python extension, can feel overwhelming for absolute beginners.
 
-There is no single 'best' editor — it depends on your needs. IDLE is like training wheels on a bicycle: simple and perfect for getting started. VS Code is like a professional bicycle: more features and capabilities, but requires a bit more setup. Most learners start with IDLE for the first week or two and then switch to VS Code.
+There is no single 'best' editor. It depends on your needs. IDLE is like training wheels on a bicycle: simple and perfect for getting started. VS Code is like a professional bicycle: more features and capabilities, but requires a bit more setup. Most learners start with IDLE for the first week or two and then switch to VS Code.
 
 ### Q16. [Easy] Write a Python program that prints 'Python is installed!' and save it as a .py file. What command would you type in the terminal to run this file if it is named check.py?
 
@@ -231,9 +231,9 @@ On Linux and macOS, both Python 2 and Python 3 might coexist, so 'python3' is us
 
 *Hint:* An IDE is a text editor with many extra programming-specific features built in.
 
-**Answer:** A **text editor** (like Notepad) is a basic tool that lets you type and save text — it has no programming-specific features. An **IDE** provides programming features on top of text editing. Four additional features: (1) **Syntax highlighting** — colors code elements differently, (2) **Auto-completion** — suggests code as you type, (3) **Error detection** — highlights mistakes before you run the code, (4) **Built-in terminal** — lets you run code without leaving the editor. Other features include debugging tools, file navigation, version control integration, and code formatting.
+**Answer:** A **text editor** (like Notepad) is a basic tool that lets you type and save text. It has no programming-specific features. An **IDE** provides programming features on top of text editing. Four additional features: (1) **Syntax highlighting**, colors code elements differently, (2) **Auto-completion**, suggests code as you type, (3) **Error detection**, highlights mistakes before you run the code, (4) **Built-in terminal**, lets you run code without leaving the editor. Other features include debugging tools, file navigation, version control integration, and code formatting.
 
-Using Notepad to write Python code is like writing a school essay on a plain piece of paper — it works, but you have no spell-check, no grammar suggestions, and no formatting tools. An IDE is like using a word processor (Google Docs or MS Word) — it provides tools that make writing faster, catch mistakes early, and help you organize your work.
+Using Notepad to write Python code is like writing a school essay on a plain piece of paper. It works, but you have no spell-check, no grammar suggestions, and no formatting tools. An IDE is like using a word processor (Google Docs or MS Word). It provides tools that make writing faster, catch mistakes early, and help you organize your work.
 
 ## Mixed Questions
 
@@ -259,7 +259,7 @@ F5 is the shortcut for 'Run Module' in IDLE. When you press F5, IDLE first saves
 
 **Answer:** In **interactive mode** (IDLE Shell/REPL), the result of every expression is automatically displayed on screen. In **script mode** (.py files), expressions are evaluated but their results are **not displayed unless you use print()**. To see the output in a script file, Karan should write `print(5 + 3)`.
 
-This is a key difference between interactive and script mode. The Shell is designed for quick experimentation, so it shows results automatically. Script files are designed for full programs where you explicitly choose what to display using print(). Writing just '5 + 3' in a script is valid Python — it calculates 8 — but since you did not tell Python to print it, the result is calculated and immediately discarded.
+This is a key difference between interactive and script mode. The Shell is designed for quick experimentation, so it shows results automatically. Script files are designed for full programs where you explicitly choose what to display using print(). Writing just '5 + 3' in a script is valid Python, it calculates 8, but since you did not tell Python to print it, the result is calculated and immediately discarded.
 
 ### Q4. [Medium] What terminal command lists all files in the current folder on Windows?
 
@@ -309,9 +309,9 @@ The Python Launcher (py.exe) is installed on Windows alongside Python. It lets y
 
 *Hint:* The feature has two words: one is 'syntax' and the other describes making text visible.
 
-**Answer:** This feature is called **syntax highlighting**. IDLE uses different colors to distinguish different types of code elements: keywords (like `print`) are shown in purple/orange, strings (text in quotes) in green, comments in red, and regular code in black. It is useful because it helps you **visually identify errors** — for example, if you forget to close a string with a quote, the color of the text after the opening quote will be wrong, alerting you to the mistake.
+**Answer:** This feature is called **syntax highlighting**. IDLE uses different colors to distinguish different types of code elements: keywords (like `print`) are shown in purple/orange, strings (text in quotes) in green, comments in red, and regular code in black. It is useful because it helps you **visually identify errors**, for example, if you forget to close a string with a quote, the color of the text after the opening quote will be wrong, alerting you to the mistake.
 
-Syntax highlighting is one of the most important features of any code editor. It makes code much easier to read because your brain can quickly distinguish between keywords, variables, strings, and comments based on color. Without syntax highlighting, reading code is like reading a textbook with no headings, bold text, or formatting — technically possible, but much harder.
+Syntax highlighting is one of the most important features of any code editor. It makes code much easier to read because your brain can quickly distinguish between keywords, variables, strings, and comments based on color. Without syntax highlighting, reading code is like reading a textbook with no headings, bold text, or formatting, technically possible, but much harder.
 
 ### Q10. [Hard] Rohan sees two options during Python installation: 'Install Now' and 'Customize installation'. What is the difference, and which should a beginner choose?
 
@@ -517,7 +517,7 @@ D. VS Code provides IntelliSense (smart auto-completion)
 
 **Answer:** C
 
-**C is the invalid reason and therefore the correct answer.** No code editor, including VS Code, can run Python code without the Python interpreter being installed on the computer. VS Code is just an editor — it still needs the Python interpreter to execute Python code. Options A, B, and D are all valid advantages of VS Code over IDLE.
+**C is the invalid reason and therefore the correct answer.** No code editor, including VS Code, can run Python code without the Python interpreter being installed on the computer. VS Code is just an editor. It still needs the Python interpreter to execute Python code. Options A, B, and D are all valid advantages of VS Code over IDLE.
 
 ### Q17. [Hard] What does pip stand for?
 
@@ -528,7 +528,7 @@ D. Python Integrated Packages
 
 **Answer:** C
 
-**C is correct.** pip stands for 'pip installs packages' — it is a recursive acronym (the name refers to itself). While it is commonly described as a 'package installer for Python' (Option B is a common description but not what the acronym stands for), the official recursive name is 'pip installs packages'.
+**C is correct.** pip stands for 'pip installs packages'. It is a recursive acronym (the name refers to itself). While it is commonly described as a 'package installer for Python' (Option B is a common description but not what the acronym stands for), the official recursive name is 'pip installs packages'.
 
 ### Q18. [Hard] You type 'python --version' and see 'Python 3.12.3'. What does the '3' in '3.12.3' represent?
 
@@ -539,7 +539,7 @@ D. The build number
 
 **Answer:** A
 
-**A is correct.** Python uses semantic versioning: major.minor.micro. The first number (3) is the major version — a fundamental version of the language. The second number (12) is the minor version — a feature release within the major version. The third number (3) is the micro/patch version — bug fixes within the minor version. So Python 3.12.3 is major version 3, minor release 12, patch 3.
+**A is correct.** Python uses semantic versioning: major.minor.micro. The first number (3) is the major version, a fundamental version of the language. The second number (12) is the minor version, a feature release within the major version. The third number (3) is the micro/patch version, bug fixes within the minor version. So Python 3.12.3 is major version 3, minor release 12, patch 3.
 
 ### Q19. [Easy] How do you open a new file in IDLE to write a Python program?
 
@@ -561,7 +561,7 @@ D. clean
 
 **Answer:** B
 
-**B is correct.** On Windows, 'cls' (clear screen) clears the terminal. 'clear' (Option A) is the equivalent command on Linux and macOS — it does not work on Windows Command Prompt. 'reset' and 'clean' are not standard terminal commands for clearing the screen.
+**B is correct.** On Windows, 'cls' (clear screen) clears the terminal. 'clear' (Option A) is the equivalent command on Linux and macOS. It does not work on Windows Command Prompt. 'reset' and 'clean' are not standard terminal commands for clearing the screen.
 
 ## Coding Challenges
 

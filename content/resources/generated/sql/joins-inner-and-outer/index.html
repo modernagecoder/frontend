@@ -17,7 +17,7 @@
     <!-- SEO Meta Tags -->
     <meta name="description" content="Combine data from multiple tables with all join types. Understand when to use each with clear Venn diagrams.">
     <!-- meta keywords intentionally not emitted: Google has ignored it since 2009 and Bing
-         treats it as a SPAM SIGNAL — and Bing is the index ChatGPT/Copilot answer from.
+         treats it as a SPAM SIGNAL, and Bing is the index ChatGPT/Copilot answer from.
          See scripts/strip-meta-keywords.py. -->
     <meta name="author" content="Modern Age Coders">
     <meta name="robots" content="index, follow">
@@ -232,7 +232,7 @@ INSERT INTO orders VALUES
 
             <section id="why" class="content-section">
                 <h2>Why Does It Matter?</h2>
-                <h2>Why JOINs Matter</h2><h3>1. Normalization Forces You to Split Data</h3><p>Good database design means every piece of information is stored once. Customer addresses go in a customers table. Orders go in an orders table. Products in products. This prevents update anomalies and saves storage. But to answer a business question like "show me each order with the customer's name and city," you need JOINs to reassemble the data.</p><h3>2. JOINs Are the Single Most Asked Interview Topic</h3><p>Every SQL interview at Amazon, Flipkart, Zomato, Paytm, or any product company will include JOIN questions. "Customers with no orders," "most valuable customer," "employees earning more than their manager" — all JOIN questions. If you cannot write a LEFT JOIN WHERE NULL pattern without thinking, you are not interview-ready.</p><h3>3. The Wrong JOIN Silently Gives the Wrong Answer</h3><p>Unlike a syntax error which shouts at you, using an INNER JOIN when you needed a LEFT JOIN gives you a perfectly valid result that happens to be wrong. A report that says "you have 3 customers" when you actually have 5 (because 2 had no orders) is the kind of bug that gets shipped to production.</p><h3>4. JOINs Power Real Reporting</h3><p>Every dashboard you have ever seen — sales by region, active users by plan, top products by revenue — is built from JOINs. Data analysts live inside JOIN queries. Backend engineers write them into every API endpoint that returns more than one entity.</p>
+                <h2>Why JOINs Matter</h2><h3>1. Normalization Forces You to Split Data</h3><p>Good database design means every piece of information is stored once. Customer addresses go in a customers table. Orders go in an orders table. Products in products. This prevents update anomalies and saves storage. But to answer a business question like "show me each order with the customer's name and city," you need JOINs to reassemble the data.</p><h3>2. JOINs Are the Single Most Asked Interview Topic</h3><p>Every SQL interview at Amazon, Flipkart, Zomato, Paytm, or any product company will include JOIN questions. "Customers with no orders," "most valuable customer," "employees earning more than their manager", all JOIN questions. If you cannot write a LEFT JOIN WHERE NULL pattern without thinking, you are not interview-ready.</p><h3>3. The Wrong JOIN Silently Gives the Wrong Answer</h3><p>Unlike a syntax error which shouts at you, using an INNER JOIN when you needed a LEFT JOIN gives you a perfectly valid result that happens to be wrong. A report that says "you have 3 customers" when you actually have 5 (because 2 had no orders) is the kind of bug that gets shipped to production.</p><h3>4. JOINs Power Real Reporting</h3><p>Every dashboard you have ever seen, sales by region, active users by plan, top products by revenue, is built from JOINs. Data analysts live inside JOIN queries. Backend engineers write them into every API endpoint that returns more than one entity.</p>
             </section>
 
             <section id="explanation" class="content-section">
@@ -468,7 +468,7 @@ WHERE o.id IS NULL OR o.amount &lt; 1000;
                 <h3>Forgetting the ON Clause (Accidental CROSS JOIN)</h3>
                 <div class="wrong-code"><pre><code class="language-python">-- MySQL in older modes permits this
 SELECT c.name, o.amount
-FROM customers c, orders o;</code></pre></div><div class="error-message">No syntax error but the result has 5 * 5 = 25 rows — a cartesian product. With real data of millions of rows, this query would never finish.</div><div class="correct-code"><pre><code class="language-python">SELECT c.name, o.amount
+FROM customers c, orders o;</code></pre></div><div class="error-message">No syntax error but the result has 5 * 5 = 25 rows, a cartesian product. With real data of millions of rows, this query would never finish.</div><div class="correct-code"><pre><code class="language-python">SELECT c.name, o.amount
 FROM customers c
 JOIN orders o ON c.id = o.customer_id;</code></pre></div><div class="mistake-explanation">Comma-separated tables without a WHERE join condition produce a cartesian product. Always use explicit <code>JOIN ... ON</code> syntax. It is clearer, harder to break, and required by modern SQL style guides.</div>
             </div>
@@ -487,13 +487,13 @@ JOIN orders o ON c.id = o.customer_id;</code></pre></div><div class="mistake-exp
                 <div class="summary-box"><ul><li>INNER JOIN returns only rows with a match in both tables. The keyword INNER is optional in MySQL; JOIN alone means INNER JOIN.</li>
 <li>LEFT JOIN keeps all rows from the left table. Unmatched right rows become NULL. Use this for &#39;all X, even without Y&#39; reports.</li>
 <li>RIGHT JOIN keeps all rows from the right table. Most teams rewrite as LEFT JOIN by flipping the table order because it reads more naturally.</li>
-<li>FULL OUTER JOIN keeps all rows from both tables. MySQL does not support it natively — simulate with UNION of LEFT JOIN and RIGHT JOIN.</li>
+<li>FULL OUTER JOIN keeps all rows from both tables. MySQL does not support it natively, simulate with UNION of LEFT JOIN and RIGHT JOIN.</li>
 <li>CROSS JOIN returns the cartesian product: every row from A paired with every row from B. Dangerous at scale; use only with deliberate intent.</li>
-<li>ON accepts any boolean condition. USING (col) is shorthand when both tables have an identically named column — prefer ON for clarity.</li>
+<li>ON accepts any boolean condition. USING (col) is shorthand when both tables have an identically named column, prefer ON for clarity.</li>
 <li>To find rows with no match, use LEFT JOIN + WHERE right_primary_key IS NULL. This is the most asked JOIN interview pattern.</li>
 <li>Putting a right-table filter in WHERE after LEFT JOIN silently turns it into INNER JOIN. Put the filter in ON or check for IS NULL explicitly.</li>
 <li>Always alias tables (c, o) and qualify columns in JOIN queries. Unqualified ambiguous columns cause errors and hurt readability.</li>
-<li>COUNT(right_key) on a LEFT JOIN correctly returns 0 for unmatched rows because COUNT ignores NULLs — perfect for &#39;orders per customer&#39; reports.</li></ul></div>
+<li>COUNT(right_key) on a LEFT JOIN correctly returns 0 for unmatched rows because COUNT ignores NULLs, perfect for &#39;orders per customer&#39; reports.</li></ul></div>
             </section>
 
         </article>

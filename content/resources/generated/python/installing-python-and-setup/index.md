@@ -37,7 +37,7 @@ Many beginners skip the setup process or rush through it, and then spend hours t
 
 ### 1. Without Python Installed, Nothing Works
 
-Your computer does not come with Python pre-installed (on Windows). Even if you write perfect Python code, your computer cannot run it unless the Python interpreter is installed. It is like having a letter written in French but no one in the room speaks French — the message goes unread.
+Your computer does not come with Python pre-installed (on Windows). Even if you write perfect Python code, your computer cannot run it unless the Python interpreter is installed. It is like having a letter written in French but no one in the room speaks French, the message goes unread.
 
 ### 2. PATH Configuration Prevents Headaches
 
@@ -89,7 +89,7 @@ If you check the "Add to PATH" box during installation, the installer automatica
 
 If you already installed Python without checking the PATH box, you have two options:
 
-- **Option 1 (Recommended):** Uninstall Python, download the installer again, and reinstall — this time making sure to check the PATH box.
+- **Option 1 (Recommended):** Uninstall Python, download the installer again, and reinstall. This time making sure to check the PATH box.
 - **Option 2 (Advanced):** Manually add Python to PATH through System Environment Variables. This requires navigating to System Properties and editing the PATH variable.
 
 ### Step 3: Verifying Your Installation
@@ -101,7 +101,7 @@ After installation, you need to verify that Python is working correctly. Here is
 `python --version`
 3. You should see output like: `Python 3.12.3`
 
-If you see the version number, congratulations — Python is installed correctly. If you see an error message like `'python' is not recognized`, it means Python was not added to your PATH (go back to the installation step and check the PATH box).
+If you see the version number, congratulations: Python is installed correctly. If you see an error message like `'python' is not recognized`, it means Python was not added to your PATH (go back to the installation step and check the PATH box).
 
 #### Additional Verification
 
@@ -125,14 +125,14 @@ IDLE comes pre-installed with Python, so you already have it. IDLE stands for **
 
 1. Press the Windows key and type **IDLE**.
 2. Click on **"IDLE (Python 3.x)"** from the results.
-3. The **Python Shell** window opens. This is similar to the REPL — you can type Python commands and see results immediately.
+3. The **Python Shell** window opens. This is similar to the REPL. You can type Python commands and see results immediately.
 4. To write a full program, go to **File > New File**. This opens a new editor window where you can write multiple lines of code.
 5. After writing your code, save the file with **File > Save** (give it a `.py` extension).
 6. Run the file with **Run > Run Module** (or press **F5**).
 
 **Advantages of IDLE:**
 
-- Already installed — no extra download needed
+- Already installed, no extra download needed
 - Simple and not overwhelming for beginners
 - Syntax highlighting (colors different parts of your code)
 - Integrated Python Shell for quick testing
@@ -143,7 +143,7 @@ IDLE comes pre-installed with Python, so you already have it. IDLE stands for **
 - No advanced features like auto-complete or integrated terminal
 - Most professional developers do not use IDLE
 
-#### Option 2: Visual Studio Code (VS Code) — Recommended
+#### Option 2: Visual Studio Code (VS Code): Recommended
 
 VS Code is a free, powerful code editor made by Microsoft. It is the most popular code editor in the world and is used by millions of professional developers.
 
@@ -217,13 +217,13 @@ While running code from an IDE is convenient, knowing how to run Python from the
 
 #### Useful Terminal Commands
 
-- `python --version` — Check which version of Python is installed
-- `python` — Open the Python REPL (interactive mode)
-- `python filename.py` — Run a Python file
-- `cd foldername` — Navigate into a folder
-- `cd ..` — Go back to the parent folder
-- `dir` — List all files in the current folder (Windows)
-- `cls` — Clear the terminal screen (Windows)
+- `python --version`, Check which version of Python is installed
+- `python`, Open the Python REPL (interactive mode)
+- `python filename.py`, Run a Python file
+- `cd foldername`, Navigate into a folder
+- `cd ..`, Go back to the parent folder
+- `dir`, List all files in the current folder (Windows)
+- `cls`: Clear the terminal screen (Windows)
 
 ### Step 7: IDLE Walkthrough
 
@@ -231,14 +231,14 @@ Since IDLE comes built-in with Python, let us do a detailed walkthrough of how t
 
 #### The Shell Window
 
-When you first open IDLE, you see the **Shell window**. This is the interactive mode where you can type Python commands after the `>>>` prompt. It works exactly like the REPL you learned about in Chapter 1. Try typing `2 + 3` and press Enter — you should see `5` immediately.
+When you first open IDLE, you see the **Shell window**. This is the interactive mode where you can type Python commands after the `>>>` prompt. It works exactly like the REPL you learned about in Chapter 1. Try typing `2 + 3` and press Enter. You should see `5` immediately.
 
 #### The Editor Window
 
 For writing full programs (multiple lines of code that you want to save), use the Editor window:
 
 1. In IDLE, go to **File > New File**.
-2. A new blank window opens — this is the Editor.
+2. A new blank window opens. This is the Editor.
 3. Type your program here.
 4. Save it with **File > Save** (Ctrl + S).
 5. Run it with **Run > Run Module** (F5).
@@ -331,7 +331,7 @@ print("Favourite Subject: Computer Science")
 print("=======================")
 ```
 
-This program demonstrates a complete `.py` file with comments and multiple print statements. The file is named `my_info.py` — notice the `.py` extension, the lowercase letters, and the underscore instead of a space. Comments at the top explain what the program does.
+This program demonstrates a complete `.py` file with comments and multiple print statements. The file is named `my_info.py`, notice the `.py` extension, the lowercase letters, and the underscore instead of a space. Comments at the top explain what the program does.
 
 **Output:**
 
@@ -352,7 +352,7 @@ Favourite Subject: Computer Science
 # pip --version
 
 # If both work, your installation is correct.
-# pip is Python's package manager — it lets you install
+# pip is Python's package manager: it lets you install
 # additional libraries later.
 
 # You can also test Python works by running:
@@ -412,7 +412,7 @@ print("The result is:", result)
 print("This ran from a script file!")
 ```
 
-Python can be used in two modes. **Interactive mode** (the REPL or IDLE Shell) is great for testing small pieces of code — you type a line, see the result, type another line. **Script mode** is when you write a complete program in a `.py` file and run the entire file at once. For real programs, you will almost always use script mode.
+Python can be used in two modes. **Interactive mode** (the REPL or IDLE Shell) is great for testing small pieces of code. You type a line, see the result, type another line. **Script mode** is when you write a complete program in a `.py` file and run the entire file at once. For real programs, you will almost always use script mode.
 
 **Output:**
 

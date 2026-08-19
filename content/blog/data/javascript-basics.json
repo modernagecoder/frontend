@@ -44,7 +44,7 @@
       },
       {
         "type": "paragraph",
-        "text": "JavaScript is the programming language that brings websites to life. From interactive buttons to complex web applications, JavaScript is everywhere on the modern web. Think about the last website you visited—when you clicked a button, filled out a form, or saw an animation, that was JavaScript in action! In this comprehensive tutorial, we'll cover the essential basics you need to start your JavaScript journey, complete with practical web examples and real projects you can build today."
+        "text": "JavaScript is the programming language that brings websites to life. From interactive buttons to complex web applications, JavaScript is everywhere on the modern web. Think about the last website you visited, when you clicked a button, filled out a form, or saw an animation, that was JavaScript in action! In this comprehensive tutorial, we'll cover the essential basics you need to start your JavaScript journey, complete with practical web examples and real projects you can build today."
       },
       {
         "type": "paragraph",
@@ -62,7 +62,7 @@
       },
       {
         "type": "paragraph",
-        "text": "Here's what makes JavaScript special: it runs directly in your browser, which means you don't need to install anything to start coding. Every modern browser has a JavaScript engine built in. This makes it incredibly accessible for beginners—you can start writing JavaScript code right now using just your browser's developer console!"
+        "text": "Here's what makes JavaScript special: it runs directly in your browser, which means you don't need to install anything to start coding. Every modern browser has a JavaScript engine built in. This makes it incredibly accessible for beginners. You can start writing JavaScript code right now using just your browser's developer console!"
       },
       {
         "type": "paragraph",
@@ -78,7 +78,7 @@
         "type": "list",
         "style": "unordered",
         "items": [
-          "<strong>Universal Language:</strong> JavaScript runs on every device with a web browser—computers, phones, tablets, even smart TVs",
+          "<strong>Universal Language:</strong> JavaScript runs on every device with a web browser, computers, phones, tablets, even smart TVs",
           "<strong>Career Opportunities:</strong> JavaScript developers are in high demand, with average salaries ranging from $70,000 to $120,000+ annually",
           "<strong>Full-Stack Capability:</strong> With Node.js, you can use JavaScript for both front-end and back-end development",
           "<strong>Massive Ecosystem:</strong> Thousands of libraries and frameworks like React, Vue, and Angular make development faster",
@@ -150,7 +150,7 @@
       },
       {
         "type": "paragraph",
-        "text": "Variables are containers for storing data—think of them as labeled boxes where you can keep information. In JavaScript, you can declare variables using <code>let</code>, <code>const</code>, or <code>var</code>. Modern JavaScript developers primarily use <code>let</code> and <code>const</code> because they're more predictable and safer than the older <code>var</code>."
+        "text": "Variables are containers for storing data, think of them as labeled boxes where you can keep information. In JavaScript, you can declare variables using <code>let</code>, <code>const</code>, or <code>var</code>. Modern JavaScript developers primarily use <code>let</code> and <code>const</code> because they're more predictable and safer than the older <code>var</code>."
       },
       {
         "type": "code",
@@ -278,7 +278,7 @@
       },
       {
         "type": "paragraph",
-        "text": "Loops help you repeat actions without writing the same code multiple times. Imagine having to write 100 lines of similar code—exhausting, right? Loops let you write it once and repeat it as many times as needed. They're essential for processing lists, creating patterns, and automating repetitive tasks."
+        "text": "Loops help you repeat actions without writing the same code multiple times. Imagine having to write 100 lines of similar code, exhausting, right? Loops let you write it once and repeat it as many times as needed. They're essential for processing lists, creating patterns, and automating repetitive tasks."
       },
       {
         "type": "code",
@@ -303,7 +303,7 @@
       },
       {
         "type": "paragraph",
-        "text": "This example shows the power of loops in web development. Instead of manually writing five <code>&lt;li&gt;</code> tags, we use a loop to generate them automatically. If you add more languages to the array, they'll automatically appear on the page—no extra code needed!"
+        "text": "This example shows the power of loops in web development. Instead of manually writing five <code>&lt;li&gt;</code> tags, we use a loop to generate them automatically. If you add more languages to the array, they'll automatically appear on the page, no extra code needed!"
       },
       {
         "type": "divider",
@@ -317,7 +317,7 @@
       },
       {
         "type": "paragraph",
-        "text": "The Document Object Model (DOM) is how JavaScript interacts with HTML elements on your page. Think of it as a bridge between your JavaScript code and the visual elements users see. DOM manipulation is what makes websites truly interactive—it's how you respond to clicks, update content, show and hide elements, and create dynamic user experiences."
+        "text": "The Document Object Model (DOM) is how JavaScript interacts with HTML elements on your page. Think of it as a bridge between your JavaScript code and the visual elements users see. DOM manipulation is what makes websites truly interactive. It's how you respond to clicks, update content, show and hide elements, and create dynamic user experiences."
       },
       {
         "type": "paragraph",
@@ -542,7 +542,7 @@
         "type": "callout",
         "calloutType": "success",
         "title": "Project Learning Tip",
-        "text": "Don't just copy these projects—type them out yourself! Then modify them, break them, fix them, and add your own features. That's how you truly learn programming."
+        "text": "Don't just copy these projects, type them out yourself! Then modify them, break them, fix them, and add your own features. That's how you truly learn programming."
       },
       {
         "type": "heading",
@@ -565,7 +565,7 @@
       },
       {
         "type": "paragraph",
-        "text": "Each of these projects builds on the fundamentals you've learned. Start simple, get it working, then add features. The key is to build things that interest you—you'll learn faster when you're excited about what you're creating!"
+        "text": "Each of these projects builds on the fundamentals you've learned. Start simple, get it working, then add features. The key is to build things that interest you. You'll learn faster when you're excited about what you're creating!"
       },
       {
         "type": "paragraph",
@@ -634,7 +634,7 @@
       },
       {
         "type": "paragraph",
-        "text": "Every beginner makes mistakes—it's part of learning! Here are the most common JavaScript pitfalls and how to avoid them:"
+        "text": "Every beginner makes mistakes. It's part of learning! Here are the most common JavaScript pitfalls and how to avoid them:"
       },
       {
         "type": "list",
@@ -674,7 +674,7 @@
           },
           {
             "title": "What's the difference between JavaScript and Java?",
-            "content": "Despite similar names, they're completely different languages! JavaScript runs in web browsers and is used for web development. Java is a general-purpose language used for Android apps, enterprise software, and more. They're as different as 'car' and 'carpet'—just happen to share some letters!"
+            "content": "Despite similar names, they're completely different languages! JavaScript runs in web browsers and is used for web development. Java is a general-purpose language used for Android apps, enterprise software, and more. They're as different as 'car' and 'carpet', just happen to share some letters!"
           },
           {
             "title": "Can I learn JavaScript without a computer science degree?",
@@ -728,7 +728,7 @@
           "<strong>Practice daily:</strong> Spend 30-60 minutes coding every day, even if it's just small exercises",
           "<strong>Join coding challenges:</strong> Try platforms like CodeWars, HackerRank, or LeetCode for beginner problems",
           "<strong>Read other people's code:</strong> Look at JavaScript projects on GitHub to see how others solve problems",
-          "<strong>Debug intentionally:</strong> Break your code on purpose, then fix it—this builds problem-solving skills"
+          "<strong>Debug intentionally:</strong> Break your code on purpose, then fix it. This builds problem-solving skills"
         ]
       },
       {
@@ -814,7 +814,7 @@
         "items": [
           "<strong>Build projects you care about:</strong> You'll learn faster when you're excited about what you're building",
           "<strong>Don't get stuck in tutorial hell:</strong> After learning a concept, immediately apply it in your own project",
-          "<strong>Embrace errors:</strong> Every error is a learning opportunity. Read error messages carefully—they tell you what's wrong!",
+          "<strong>Embrace errors:</strong> Every error is a learning opportunity. Read error messages carefully. They tell you what's wrong!",
           "<strong>Join a community:</strong> Connect with other learners, ask questions, and share your progress",
           "<strong>Document your journey:</strong> Keep a coding journal or blog about what you learn",
           "<strong>Review regularly:</strong> Revisit concepts you learned weeks ago to reinforce your understanding",

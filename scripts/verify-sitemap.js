@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 /**
- * verify-sitemap.js — fail the build when content exists but isn't in sitemap.xml.
+ * verify-sitemap.js, fail the build when content exists but isn't in sitemap.xml.
  *
  * The blog/course generators never touch sitemap.xml, so every new post or course
  * has to be added by hand. That has silently failed 8 times (8 posts were live but
@@ -132,7 +132,7 @@ say(
 // Not fatal: generate-courses.js sorts its file list, so the winner is deterministic
 // and it prints which file won. Kept visible here so a collision can't be forgotten.
 warn(
-  'Duplicate course slugs (two JSONs, one URL — the last one alphabetically wins)',
+  'Duplicate course slugs (two JSONs, one URL, the last one alphabetically wins)',
   slugClashes.map(([slug, files]) => `${slug}  ←  ${files.join(' , ')}  (wins: ${files.slice().sort().pop()})`),
   'intentional? fine. Otherwise give each course its own slug.'
 );
@@ -143,4 +143,4 @@ if (problems.length) {
   console.error(`\nsitemap verification FAILED: ${problems.length} problem type(s).\n`);
   process.exit(1);
 }
-console.log('✓ sitemap verification passed — blog, courses and dates all consistent.\n');
+console.log('✓ sitemap verification passed, blog, courses and dates all consistent.\n');

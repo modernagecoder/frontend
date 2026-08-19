@@ -14,8 +14,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Inside Neural Networks — How Deep Learning Really Works, From Perceptron to Transformer | Modern Age Coders</title>
-    <meta name="description" content="The honest, mechanical deep dive into how neural networks learn. Perceptrons, multilayer networks, backpropagation derived by hand, CNNs, RNNs and transformers — explained without hiding the maths. By Modern Age Coders.">
+    <title>Inside Neural Networks: How Deep Learning Really Works, From Perceptron to Transformer | Modern Age Coders</title>
+    <meta name="description" content="The honest, mechanical deep dive into how neural networks learn. Perceptrons, multilayer networks, backpropagation derived by hand, CNNs, RNNs and transformers, explained without hiding the maths. By Modern Age Coders.">
     <meta name="author" content="Modern Age Coders">
     <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1">
     <link rel="canonical" href="https://learn.modernagecoders.com/inside-neural-networks">
@@ -25,7 +25,7 @@
 
     <meta property="og:type" content="article">
     <meta property="og:url" content="https://learn.modernagecoders.com/inside-neural-networks">
-    <meta property="og:title" content="Inside Neural Networks — Modern Age Coders">
+    <meta property="og:title" content="Inside Neural Networks | Modern Age Coders">
     <meta property="og:description" content="Perceptron to transformer, with the maths shown. The honest deep-learning deep dive.">
     <meta property="og:image" content="https://learn.modernagecoders.com/images/og-modern-age-coders.png">
     <meta property="og:site_name" content="Modern Age Coders">
@@ -50,7 +50,7 @@
     {
         "@context": "https://schema.org",
         "@type": "TechArticle",
-        "headline": "Inside Neural Networks — How Deep Learning Really Works",
+        "headline": "Inside Neural Networks: How Deep Learning Really Works",
         "description": "A long-form, mechanical explainer of neural networks from perceptron through transformer.",
         "author": { "@type": "Organization", "name": "Modern Age Coders" },
         "publisher": {
@@ -821,8 +821,8 @@
     <section class="nn-hero">
         <div class="nn-shell nn-hero-inner">
             <span class="nn-mark">A long deep-learning deep dive · 28 min read</span>
-            <h1 class="nn-h1">Inside <em>neural networks</em>. The architecture, the maths, the moment of learning — without hiding the <span class="formula">∂L/∂w</span>.</h1>
-            <p class="nn-sub">Every popular AI explainer either skips the maths or buries the intuition under it. This page does neither. We walk from a single artificial neuron, through how networks learn by gradient descent, derive backpropagation by hand, build up to CNNs, RNNs and transformers — keeping the equations visible but explaining each one the moment it appears.</p>
+            <h1 class="nn-h1">Inside <em>neural networks</em>. The architecture, the maths, the moment of learning: without hiding the <span class="formula">∂L/∂w</span>.</h1>
+            <p class="nn-sub">Every popular AI explainer either skips the maths or buries the intuition under it. This page does neither. We walk from a single artificial neuron, through how networks learn by gradient descent, derive backpropagation by hand, build up to CNNs, RNNs and transformers, keeping the equations visible but explaining each one the moment it appears.</p>
             <div class="nn-meta">
                 <div><strong>1957</strong><span>First perceptron (Rosenblatt)</span></div>
                 <div><strong>1986</strong><span>Backprop popularised</span></div>
@@ -836,20 +836,20 @@
     <section class="nn-strip">
         <div class="nn-shell">
             <div class="nn-strip-hd">
-                <p class="lead">Or — <em>train one alongside other learners.</em> Live cohorts, every age. One click in.</p>
+                <p class="lead">Or, <em>train one alongside other learners.</em> Live cohorts, every age. One click in.</p>
                 <a href="/courses" class="all">Browse all 60+ courses →</a>
             </div>
             <div class="nn-strip-grid">
                 <a class="nn-strip-card" href="/courses/python-ai-kids-masterclass">
                     <div class="age">Ages 8–12 · Kids</div>
                     <h3>Python &amp; AI <em>Kids</em></h3>
-                    <p>The kid-paced first chapter — solid Python, first-touch AI projects, real shipped work.</p>
+                    <p>The kid-paced first chapter, solid Python, first-touch AI projects, real shipped work.</p>
                     <div class="meta"><span>2 classes/week</span><span class="pr">₹1,499/mo</span></div>
                 </a>
                 <a class="nn-strip-card" href="/courses/ai-ml-masterclass-teens">
                     <div class="age">Ages 14–18 · Teens</div>
                     <h3>AI &amp; ML <em>Teens</em></h3>
-                    <p>This article taught at teen pace, in PyTorch, with peers — by week 12 you train a working CNN.</p>
+                    <p>This article taught at teen pace, in PyTorch, with peers, by week 12 you train a working CNN.</p>
                     <div class="meta"><span>2 classes/week</span><span class="pr">₹1,499/mo</span></div>
                 </a>
                 <a class="nn-strip-card" href="/courses/ai-ml-masterclass-complete-college">
@@ -874,7 +874,7 @@
             <div class="nn-toc-grid">
                 <a href="#c1"><span class="n">01</span>What is an artificial neuron?</a>
                 <a href="#c2"><span class="n">02</span>Multilayer networks</a>
-                <a href="#c3"><span class="n">03</span>Loss — how we measure wrongness</a>
+                <a href="#c3"><span class="n">03</span>Loss, how we measure wrongness</a>
                 <a href="#c4"><span class="n">04</span>Gradient descent, geometrically</a>
                 <a href="#c5"><span class="n">05</span>Backpropagation, derived</a>
                 <a href="#c6"><span class="n">06</span>Why depth matters</a>
@@ -904,7 +904,7 @@
                         <div class="out"><div>y · 0.84</div></div>
                     </div>
                 </div>
-                <p>Each input <em>x<sub>i</sub></em> is multiplied by a learned weight <em>w<sub>i</sub></em>. The products are summed. A learned bias <em>b</em> is added. The result is passed through an activation function — typically the ReLU, which simply returns the input if positive and zero otherwise. The output is one number.</p>
+                <p>Each input <em>x<sub>i</sub></em> is multiplied by a learned weight <em>w<sub>i</sub></em>. The products are summed. A learned bias <em>b</em> is added. The result is passed through an activation function, typically the ReLU, which simply returns the input if positive and zero otherwise. The output is one number.</p>
                 <div class="nn-equation">
                     y = f(w<sub>1</sub>x<sub>1</sub> + w<sub>2</sub>x<sub>2</sub> + w<sub>3</sub>x<sub>3</sub> + b)
                     <span class="eq-no">(1.1)</span>
@@ -918,10 +918,10 @@
 
             <article class="nn-chap" id="c2">
                 <div class="nn-chap-num">Chapter 02 · Networks</div>
-                <h2>Multilayer networks — <em>neurons in formation.</em></h2>
+                <h2>Multilayer networks: <em>neurons in formation.</em></h2>
                 <p>A single neuron cannot do much. The leap is to arrange many neurons into <strong>layers</strong>, and stack the layers. Each layer's outputs become the next layer's inputs. Information flows from the input layer, through one or more hidden layers, to the output layer.</p>
                 <div class="nn-figure">
-                    <div class="cap">Figure 2.1 · A 4-layer feedforward network — input, two hidden, output</div>
+                    <div class="cap">Figure 2.1 · A 4-layer feedforward network, input, two hidden, output</div>
                     <div class="nn-layers">
                         <div class="layer input">
                             <span class="lab">Input</span>
@@ -947,29 +947,29 @@
 
             <article class="nn-chap" id="c3">
                 <div class="nn-chap-num">Chapter 03 · Loss</div>
-                <h2>The <em>loss function</em> — how we measure wrong.</h2>
+                <h2>The <em>loss function</em>: how we measure wrong.</h2>
                 <p>Before the network can learn, we need a number that tells us how wrong it currently is. We call this the <strong>loss</strong>. The loss is small when the network's output matches the target and large when it does not. Learning is, mechanically, the process of <em>reducing the loss</em>.</p>
                 <p>For classification, the standard loss is <em>cross-entropy</em>. For regression, it is <em>mean squared error</em>. There are many others. They all share one property: they take the network's prediction and the true target and return a single non-negative number.</p>
                 <div class="nn-equation">
                     L = (y<sub>pred</sub> − y<sub>true</sub>)²
                     <span class="eq-no">(3.1)</span>
                 </div>
-                <p>The loss is, geometrically, a function in a very high-dimensional space — one dimension per parameter of the network. With ten million parameters, the loss is a function in a ten-million-dimensional space. We cannot visualise this. We can, however, find a direction that reduces the loss at any given point. That direction is the <strong>gradient</strong>.</p>
+                <p>The loss is, geometrically, a function in a very high-dimensional space, one dimension per parameter of the network. With ten million parameters, the loss is a function in a ten-million-dimensional space. We cannot visualise this. We can, however, find a direction that reduces the loss at any given point. That direction is the <strong>gradient</strong>.</p>
             </article>
 
             <article class="nn-chap" id="c4">
                 <div class="nn-chap-num">Chapter 04 · Gradient descent</div>
                 <h2>Gradient descent, <em>geometrically.</em></h2>
-                <p>Imagine the loss as a landscape — hills, valleys, ridges, in millions of dimensions. The network's current parameters place you somewhere on this landscape, at some altitude (the current loss). Learning is, mechanically, the process of <strong>walking downhill</strong>. At every step, look at the slope of the ground beneath you and take a small step in the steepest-downhill direction.</p>
+                <p>Imagine the loss as a landscape, hills, valleys, ridges, in millions of dimensions. The network's current parameters place you somewhere on this landscape, at some altitude (the current loss). Learning is, mechanically, the process of <strong>walking downhill</strong>. At every step, look at the slope of the ground beneath you and take a small step in the steepest-downhill direction.</p>
                 <div class="nn-equation">
                     w<sub>new</sub> = w<sub>old</sub> − η · ∂L/∂w
                     <span class="eq-no">(4.1)</span>
                 </div>
                 <p>The slope of the loss with respect to a single weight is its <em>partial derivative</em>: <em>∂L/∂w</em>. We subtract a small multiple (<em>η</em>, the <strong>learning rate</strong>) of this slope from the weight. This nudges the weight slightly in the direction that reduces the loss. Apply this update across every weight in the network, and the network has, technically, learned a little.</p>
-                <p>Do this once for each training example. Or, for efficiency, do it for a small batch of examples at once — this is <strong>stochastic gradient descent</strong>. Repeat for billions of batches. After enough steps, the parameters settle into a configuration where the loss is low. That configuration is, by definition, the trained model.</p>
+                <p>Do this once for each training example. Or, for efficiency, do it for a small batch of examples at once. This is <strong>stochastic gradient descent</strong>. Repeat for billions of batches. After enough steps, the parameters settle into a configuration where the loss is low. That configuration is, by definition, the trained model.</p>
                 <div class="nn-callout">
                     <strong>The single most surprising fact in this field</strong>
-                    Gradient descent works. Loss landscapes in millions of dimensions have, in principle, no reason to be navigable by simple downhill walking. They could be jagged and trap-filled. Empirically, they turn out to be remarkably smooth — full of broad valleys you can reach from many starting points. Why this is true is an open research question.
+                    Gradient descent works. Loss landscapes in millions of dimensions have, in principle, no reason to be navigable by simple downhill walking. They could be jagged and trap-filled. Empirically, they turn out to be remarkably smooth, full of broad valleys you can reach from many starting points. Why this is true is an open research question.
                 </div>
             </article>
 
@@ -982,8 +982,8 @@
                     ∂L/∂w<sub>j</sub> = ∂L/∂a<sub>L</sub> · ∂a<sub>L</sub>/∂a<sub>L−1</sub> · … · ∂a<sub>j+1</sub>/∂w<sub>j</sub>
                     <span class="eq-no">(5.1)</span>
                 </div>
-                <p>The product of derivatives, traced backward through the network's layers, is what gives the algorithm its name. The forward pass computes the loss; the backward pass computes the gradient of every parameter. PyTorch and TensorFlow do this for you with one line — <code>loss.backward()</code> — but underneath, it is just the chain rule applied a few million times.</p>
-                <div class="nn-code"><span class="com"># In PyTorch — the entire training step</span>
+                <p>The product of derivatives, traced backward through the network's layers, is what gives the algorithm its name. The forward pass computes the loss; the backward pass computes the gradient of every parameter. PyTorch and TensorFlow do this for you with one line, <code>loss.backward()</code>, but underneath, it is just the chain rule applied a few million times.</p>
+                <div class="nn-code"><span class="com"># In PyTorch, the entire training step</span>
 <span class="kw">for</span> x, y_true <span class="kw">in</span> dataloader:
     y_pred = model(x)            <span class="com"># forward pass</span>
     loss = criterion(y_pred, y_true)
@@ -995,25 +995,25 @@
 
             <article class="nn-chap" id="c6">
                 <div class="nn-chap-num">Chapter 06 · Depth</div>
-                <h2>Why <em>depth</em> matters — the compositionality argument.</h2>
+                <h2>Why <em>depth</em> matters: the compositionality argument.</h2>
                 <p>A two-layer network can technically approximate any function. So why are modern networks dozens or hundreds of layers deep? The answer is <em>compositionality</em>. Real-world data has hierarchical structure. An image is composed of objects, which are composed of parts, which are composed of edges, which are composed of pixels. Each layer of a deep network learns to detect features one step further up this hierarchy.</p>
-                <p>You can see this directly in trained image networks. The first layer learns edges. The second learns simple textures. The third learns shapes. The fourth learns parts of objects. The fifth learns whole objects. The same pattern shows up in language models — early layers track syntax, middle layers track semantics, later layers track high-level meaning and reasoning.</p>
+                <p>You can see this directly in trained image networks. The first layer learns edges. The second learns simple textures. The third learns shapes. The fourth learns parts of objects. The fifth learns whole objects. The same pattern shows up in language models, early layers track syntax, middle layers track semantics, later layers track high-level meaning and reasoning.</p>
                 <p>Depth is not magic. It is the architecture's way of saying: <strong>learning compositional structure is easier than learning everything at once.</strong></p>
             </article>
 
             <article class="nn-chap" id="c7">
                 <div class="nn-chap-num">Chapter 07 · CNN</div>
-                <h2>Convolutional networks — <em>seeing.</em></h2>
+                <h2>Convolutional networks: <em>seeing.</em></h2>
                 <p>For images, a fully connected layer is hopelessly wasteful. A 224 × 224 image has 50,176 pixels; the first hidden layer alone would have hundreds of millions of weights. We need an architecture that respects the structure of images: spatial locality, translation invariance, repeated features.</p>
-                <p>The solution, due to Yann LeCun in the 1980s, is the <strong>convolutional layer</strong>. Instead of every neuron looking at every pixel, each neuron looks at a small local patch (say, 3 × 3 pixels). The same small set of weights — called a <em>kernel</em> — is slid across the entire image, producing a "feature map" of where that kernel's pattern appears.</p>
+                <p>The solution, due to Yann LeCun in the 1980s, is the <strong>convolutional layer</strong>. Instead of every neuron looking at every pixel, each neuron looks at a small local patch (say, 3 × 3 pixels). The same small set of weights, called a <em>kernel</em>, is slid across the entire image, producing a "feature map" of where that kernel's pattern appears.</p>
                 <p>A CNN typically stacks many such convolutional layers. The first layer's kernels learn to detect edges. The second layer's kernels learn to detect combinations of edges (corners, textures). The third learns combinations of textures (parts). And so on, until the deepest layers respond to entire objects. This is exactly the compositional argument of Chapter 6, made concrete.</p>
-                <p>CNNs dominated computer vision from AlexNet in 2012 through 2020, when transformers — adapted from language to vision via the Vision Transformer (ViT) — began to overtake them on the largest scales. Both architectures remain in active use depending on data size and compute budget.</p>
+                <p>CNNs dominated computer vision from AlexNet in 2012 through 2020, when transformers, adapted from language to vision via the Vision Transformer (ViT), began to overtake them on the largest scales. Both architectures remain in active use depending on data size and compute budget.</p>
             </article>
 
             <article class="nn-chap" id="c8">
                 <div class="nn-chap-num">Chapter 08 · RNN</div>
                 <h2>RNNs and the <em>long-range problem.</em></h2>
-                <p>Sequences — text, speech, time series — pose a different challenge from images. They have order. They have variable length. A model needs to remember earlier parts of the sequence to make sense of later parts. The first solution was the <strong>recurrent neural network</strong>: a network whose hidden state at time <em>t</em> depends on its hidden state at time <em>t−1</em>.</p>
+                <p>Sequences, text, speech, time series, pose a different challenge from images. They have order. They have variable length. A model needs to remember earlier parts of the sequence to make sense of later parts. The first solution was the <strong>recurrent neural network</strong>: a network whose hidden state at time <em>t</em> depends on its hidden state at time <em>t−1</em>.</p>
                 <p>This worked, modestly, for short sequences. For long ones it failed for two reasons. First, gradients <em>vanish</em>: when you backpropagate through many time steps, repeated multiplication by small numbers makes the gradient effectively zero by the time it reaches the early steps. Second, RNN computation is inherently <em>sequential</em>: you cannot compute step <em>t</em> before computing step <em>t−1</em>. This made training painfully slow on modern hardware.</p>
                 <p>The LSTM (long short-term memory) of Hochreiter and Schmidhuber, 1997, partially solved the vanishing-gradient problem with an explicit memory cell. LSTMs ruled natural language processing through about 2017. Then they were replaced.</p>
             </article>
@@ -1022,13 +1022,13 @@
                 <div class="nn-chap-num">Chapter 09 · Transformer</div>
                 <h2>The transformer, and <em>what changed.</em></h2>
                 <p>The 2017 paper "Attention is All You Need" introduced an architecture with no recurrence and no convolutions. Just stacked layers of <strong>self-attention</strong>, in which every position in the sequence simultaneously looks at every other position and decides what to attend to. The attention mechanism is described in mechanical detail in our pillar page <a href="/how-ai-actually-works">How AI Actually Works</a> and implemented from scratch in <a href="/build-your-own-gpt-python">Build Your Own GPT</a>.</p>
-                <p>Two things changed for the transformer that did not change for any prior architecture. First — it parallelises perfectly across sequence positions, which means modern GPU hardware can be used at very high efficiency. Second — gradient flow is dramatically shorter, because every position can attend to every other in one step rather than propagating through many.</p>
+                <p>Two things changed for the transformer that did not change for any prior architecture. First. It parallelises perfectly across sequence positions, which means modern GPU hardware can be used at very high efficiency. Second, gradient flow is dramatically shorter, because every position can attend to every other in one step rather than propagating through many.</p>
                 <p>The result was the scaling era. Between 2017 and 2026, transformer models grew from millions of parameters to trillions. The same architecture. The same training objective. Wider, deeper, longer-context, more data. The capabilities at the other end stunned everyone, including the labs building them.</p>
                 <div class="nn-callout">
                     <strong>The whole field, on one line</strong>
                     Neural network = neuron → layer → network → trained by backpropagation → deepened to capture hierarchy → specialised by architecture (CNN for spatial, RNN/transformer for sequential). Every modern AI system you have heard of fits inside this sentence.
                 </div>
-                <p>If you have made it through this article, you now have the conceptual map of deep learning. The next two natural directions: <strong>code it</strong> — our <a href="/build-your-own-gpt-python">build your own GPT</a> walkthrough is exactly that. And <strong>place yourself on the path</strong> — our <a href="/ai-engineer-roadmap-2026">AI engineer roadmap</a> tells you what to do this month, this quarter, this year, until the engineer you want to be is the engineer in the mirror.</p>
+                <p>If you have made it through this article, you now have the conceptual map of deep learning. The next two natural directions: <strong>code it</strong>. Our <a href="/build-your-own-gpt-python">build your own GPT</a> walkthrough is exactly that. And <strong>place yourself on the path</strong>. Our <a href="/ai-engineer-roadmap-2026">AI engineer roadmap</a> tells you what to do this month, this quarter, this year, until the engineer you want to be is the engineer in the mirror.</p>
             </article>
 
         </div>
@@ -1039,7 +1039,7 @@
         <div class="nn-shell">
             <span class="nn-mark">Modern Age Coders cohorts · for every age</span>
             <h2>The courses where you <em>build</em> these networks.</h2>
-            <p class="lead">A neural networks paper is not the same as training a neural network. Below are the live MAC cohorts — at every age — where students implement perceptrons, train classifiers, build CNNs and write tiny transformers under mentor supervision.</p>
+            <p class="lead">A neural networks paper is not the same as training a neural network. Below are the live MAC cohorts, at every age, where students implement perceptrons, train classifiers, build CNNs and write tiny transformers under mentor supervision.</p>
 
             <div class="nn-band">
                 <div class="nn-band-hd">
@@ -1170,32 +1170,32 @@
 
             <details>
                 <summary>I am not strong at maths. Should I still try this?</summary>
-                <p>Yes. The maths you need for working deep learning is small — linear algebra basics, derivatives, the chain rule. Less than a single semester of high school calculus. Our <a href="/ai-engineer-roadmap-2026">roadmap's Stage 2</a> tells you exactly what to learn. Avoid the trap of "going back to maths" for six months — learn the precise subset alongside code.</p>
+                <p>Yes. The maths you need for working deep learning is small, linear algebra basics, derivatives, the chain rule. Less than a single semester of high school calculus. Our <a href="/ai-engineer-roadmap-2026">roadmap's Stage 2</a> tells you exactly what to learn. Avoid the trap of "going back to maths" for six months. Learn the precise subset alongside code.</p>
             </details>
 
             <details>
                 <summary>Do I need a GPU to learn this?</summary>
-                <p>No. Free Google Colab gives you a T4 GPU for several hours a day. That is enough to train every model in our coursework, including a small transformer. You will need your own GPU only if you start training models with millions of parameters for hours at a time — and that is well past the point where you should have already been hired.</p>
+                <p>No. Free Google Colab gives you a T4 GPU for several hours a day. That is enough to train every model in our coursework, including a small transformer. You will need your own GPU only if you start training models with millions of parameters for hours at a time, and that is well past the point where you should have already been hired.</p>
             </details>
 
             <details>
                 <summary>What is the right age to start neural networks?</summary>
-                <p>Conceptually, about age 12 — when a child can sit with an equation for ten minutes without losing patience. Practically — through code, with mentor supervision — age 14 is comfortable. We have had 13-year-olds train working MNIST classifiers in cohort. Younger than that, we focus on Python fluency and computational thinking; the neural networks come naturally a year or two later.</p>
+                <p>Conceptually, about age 12, when a child can sit with an equation for ten minutes without losing patience. Practically, through code, with mentor supervision, age 14 is comfortable. We have had 13-year-olds train working MNIST classifiers in cohort. Younger than that, we focus on Python fluency and computational thinking; the neural networks come naturally a year or two later.</p>
             </details>
 
             <details>
                 <summary>How is this different from learning from YouTube?</summary>
-                <p>YouTube is excellent for first exposure. It is not how anyone learns to actually do this. Deep learning intuition lives in the fingertips — built by typing every line of code yourself, breaking it, fixing it, debugging the tensor shape errors. Watching someone else type does not build that muscle. A cohort gives you a fixed cadence, mentor feedback on your code, and peers at the same stage. We see the gap every month between learners who watched and learners who built.</p>
+                <p>YouTube is excellent for first exposure. It is not how anyone learns to actually do this. Deep learning intuition lives in the fingertips, built by typing every line of code yourself, breaking it, fixing it, debugging the tensor shape errors. Watching someone else type does not build that muscle. A cohort gives you a fixed cadence, mentor feedback on your code, and peers at the same stage. We see the gap every month between learners who watched and learners who built.</p>
             </details>
 
             <details>
                 <summary>Will neural networks be replaced soon?</summary>
-                <p>Almost certainly not in the next decade. The architecture details will keep evolving — transformer variants, mixtures of experts, state-space models — but the broad family (differentiable function approximators trained by gradient descent) is the right primitive for the foreseeable future. Learning it now is not a bet on a fashion; it is a bet on the substrate.</p>
+                <p>Almost certainly not in the next decade. The architecture details will keep evolving, transformer variants, mixtures of experts, state-space models, but the broad family (differentiable function approximators trained by gradient descent) is the right primitive for the foreseeable future. Learning it now is not a bet on a fashion; it is a bet on the substrate.</p>
             </details>
 
             <details>
                 <summary>What is the difference between this page and "How AI Actually Works"?</summary>
-                <p>The two pillars pair. <a href="/how-ai-actually-works">How AI Actually Works</a> covers tokens, embeddings and the transformer at conceptual depth — what an LLM is. <strong>This page</strong> covers neural networks themselves at mechanical depth — how they learn. Read them together for the full picture. The <a href="/build-your-own-gpt-python">Build Your Own GPT</a> tutorial then turns both into running code.</p>
+                <p>The two pillars pair. <a href="/how-ai-actually-works">How AI Actually Works</a> covers tokens, embeddings and the transformer at conceptual depth, what an LLM is. <strong>This page</strong> covers neural networks themselves at mechanical depth, how they learn. Read them together for the full picture. The <a href="/build-your-own-gpt-python">Build Your Own GPT</a> tutorial then turns both into running code.</p>
             </details>
 
             <details>
@@ -1243,7 +1243,7 @@
 
 
 <style>
-/* real social proof — theme-adaptive: inherits this page's text colour + fonts */
+/* real social proof, theme-adaptive: inherits this page's text colour + fonts */
 .msu{margin:60px auto;max-width:1120px;padding:0 24px;color:inherit;box-sizing:border-box}
 .msu-kick{font-size:.72rem;letter-spacing:.18em;text-transform:uppercase;opacity:.55;font-weight:700;margin:0 0 9px}
 .msu-h{font-size:clamp(1.4rem,3.2vw,2.05rem);margin:0 0 8px;line-height:1.18;font-weight:800}
@@ -1270,8 +1270,8 @@
 .msu-more a{color:inherit;text-decoration:underline}
 @media(max-width:820px){.msu-grid,.msu-pgrid{grid-template-columns:1fr}}
 </style>
-<section class="msu" aria-label="Student projects"><p class="msu-kick">Real student projects</p><h2 class="msu-h">What our students actually build</h2><p class="msu-sub">Every one is a real, live project shipped by a Modern Age Coders student. Explore more in <a href="/student-labs" style="color:inherit">Student Labs</a>.</p><div class="msu-pgrid"><a class="msu-proj" href="https://misti.modernagecoders.com" target="_blank" rel="noopener"><span class="msu-shot"><img src="/images/projects/misti.webp" alt="Misti — AI Chatbot for Maths &amp; Coding" loading="lazy" width="800" height="500"></span><span class="msu-pb"><span class="msu-pc">AI &amp; ML</span><span class="msu-pt">Misti — AI Chatbot for Maths &amp; Coding</span><span class="msu-pd">An intelligent AI-powered chatbot that helps students solve maths and coding questions with deep, step-by-step explanations using advanced Python AI frameworks and LLM APIs.</span><span class="msu-pby">by Harshit</span><span class="msu-open">Open the live project &#8599;</span></span></a><a class="msu-proj" href="https://babu.modernagecoders.com" target="_blank" rel="noopener"><span class="msu-shot"><img src="/images/projects/babu.webp" alt="Babu — 90 Second Maths Challenge" loading="lazy" width="800" height="500"></span><span class="msu-pb"><span class="msu-pc">Game</span><span class="msu-pt">Babu — 90 Second Maths Challenge</span><span class="msu-pd">An exciting 90-second maths challenge with random problems under time pressure, and a dynamic leaderboard powered by Firebase/MongoDB with real-time score updates.</span><span class="msu-pby">by Modern Age Coders</span><span class="msu-open">Open the live project &#8599;</span></span></a><a class="msu-proj" href="https://nutrilife-bhavya.lovable.app" target="_blank" rel="noopener"><span class="msu-shot"><img src="/images/projects/nutrilife.webp" alt="NutriLife — AI Nutrition Coach" loading="lazy" width="800" height="500"></span><span class="msu-pb"><span class="msu-pc">AI &amp; ML</span><span class="msu-pt">NutriLife — AI Nutrition Coach</span><span class="msu-pd">Snap a photo of any meal and NutriLife instantly names every food, then breaks down the calories, macros, vitamins and minerals — powered by AI. Bhavya vibe-coded it from a single idea: shaped the app in prompts, then wired up the AI food-recognition, daily tracking and smart coaching by hand.</span><span class="msu-pby">by Bhavya</span><span class="msu-open">Open the live project &#8599;</span></span></a></div></section>
-<section class="msu" aria-label="Student and parent reviews"><p class="msu-kick">Parent &amp; student voices</p><h2 class="msu-h">What our families say</h2><p class="msu-sub">Real, verified reviews from Modern Age Coders families. Read hundreds more on our <a href="/love" style="color:inherit">Wall of Love</a>.</p><div class="msu-grid"><figure class="msu-card"><div class="msu-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div><blockquote class="msu-q">&ldquo;Very good classes. Don&#x27;t worry about coding—they teach the best, especially Shivam sir.&rdquo;</blockquote><figcaption class="msu-who"><span class="msu-av">S</span><span><span class="msu-nm">Shaarav Wadhwa</span><br><span class="msu-rl">Student</span></span></figcaption></figure><figure class="msu-card"><div class="msu-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div><blockquote class="msu-q">&ldquo;Mivaan enjoys the class. He understands the concepts and completes his tasks with excitement. He started taking interest in coding… truly amazing class.&rdquo;</blockquote><figcaption class="msu-who"><span class="msu-av">S</span><span><span class="msu-nm">Shradha Saraf</span><br><span class="msu-rl">Parent of Mivaan</span></span></figcaption></figure><figure class="msu-card"><div class="msu-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div><blockquote class="msu-q">&ldquo;One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development. Learning here has been a wonderful journey and still continuing.&rdquo;</blockquote><figcaption class="msu-who"><span class="msu-av">V</span><span><span class="msu-nm">Vansh Agarwal</span><br><span class="msu-rl">Student</span></span></figcaption></figure></div></section>
+<section class="msu" aria-label="Student projects"><p class="msu-kick">Real student projects</p><h2 class="msu-h">What our students actually build</h2><p class="msu-sub">Every one is a real, live project shipped by a Modern Age Coders student. Explore more in <a href="/student-labs" style="color:inherit">Student Labs</a>.</p><div class="msu-pgrid"><a class="msu-proj" href="https://misti.modernagecoders.com" target="_blank" rel="noopener"><span class="msu-shot"><img src="/images/projects/misti.webp" alt="Misti: AI Chatbot for Maths &amp; Coding" loading="lazy" width="800" height="500"></span><span class="msu-pb"><span class="msu-pc">AI &amp; ML</span><span class="msu-pt">Misti: AI Chatbot for Maths &amp; Coding</span><span class="msu-pd">An intelligent AI-powered chatbot that helps students solve maths and coding questions with deep, step-by-step explanations using advanced Python AI frameworks and LLM APIs.</span><span class="msu-pby">by Harshit</span><span class="msu-open">Open the live project &#8599;</span></span></a><a class="msu-proj" href="https://babu.modernagecoders.com" target="_blank" rel="noopener"><span class="msu-shot"><img src="/images/projects/babu.webp" alt="Babu: 90 Second Maths Challenge" loading="lazy" width="800" height="500"></span><span class="msu-pb"><span class="msu-pc">Game</span><span class="msu-pt">Babu: 90 Second Maths Challenge</span><span class="msu-pd">An exciting 90-second maths challenge with random problems under time pressure, and a dynamic leaderboard powered by Firebase/MongoDB with real-time score updates.</span><span class="msu-pby">by Modern Age Coders</span><span class="msu-open">Open the live project &#8599;</span></span></a><a class="msu-proj" href="https://nutrilife-bhavya.lovable.app" target="_blank" rel="noopener"><span class="msu-shot"><img src="/images/projects/nutrilife.webp" alt="NutriLife: AI Nutrition Coach" loading="lazy" width="800" height="500"></span><span class="msu-pb"><span class="msu-pc">AI &amp; ML</span><span class="msu-pt">NutriLife: AI Nutrition Coach</span><span class="msu-pd">Snap a photo of any meal and NutriLife instantly names every food, then breaks down the calories, macros, vitamins and minerals, powered by AI. Bhavya vibe-coded it from a single idea: shaped the app in prompts, then wired up the AI food-recognition, daily tracking and smart coaching by hand.</span><span class="msu-pby">by Bhavya</span><span class="msu-open">Open the live project &#8599;</span></span></a></div></section>
+<section class="msu" aria-label="Student and parent reviews"><p class="msu-kick">Parent &amp; student voices</p><h2 class="msu-h">What our families say</h2><p class="msu-sub">Real, verified reviews from Modern Age Coders families. Read hundreds more on our <a href="/love" style="color:inherit">Wall of Love</a>.</p><div class="msu-grid"><figure class="msu-card"><div class="msu-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div><blockquote class="msu-q">&ldquo;Very good classes. Don&#x27;t worry about coding. They teach the best, especially Shivam sir.&rdquo;</blockquote><figcaption class="msu-who"><span class="msu-av">S</span><span><span class="msu-nm">Shaarav Wadhwa</span><br><span class="msu-rl">Student</span></span></figcaption></figure><figure class="msu-card"><div class="msu-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div><blockquote class="msu-q">&ldquo;Mivaan enjoys the class. He understands the concepts and completes his tasks with excitement. He started taking interest in coding… truly amazing class.&rdquo;</blockquote><figcaption class="msu-who"><span class="msu-av">S</span><span><span class="msu-nm">Shradha Saraf</span><br><span class="msu-rl">Parent of Mivaan</span></span></figcaption></figure><figure class="msu-card"><div class="msu-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div><blockquote class="msu-q">&ldquo;One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development. Learning here has been a wonderful journey and still continuing.&rdquo;</blockquote><figcaption class="msu-who"><span class="msu-av">V</span><span><span class="msu-nm">Vansh Agarwal</span><br><span class="msu-rl">Student</span></span></figcaption></figure></div></section>
 </main>
 
 <div id="footer-placeholder"></div>

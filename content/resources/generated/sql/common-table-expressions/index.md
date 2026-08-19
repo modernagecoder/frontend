@@ -33,9 +33,9 @@ ORDER BY h.total DESC;
 
 You get three concrete benefits:
 
-- **Readability** — name each intermediate step. Complex reports read top-to-bottom like paragraphs instead of nested subquery soup.
-- **Reusability** — reference the same CTE multiple times in the same query. A derived table in FROM can only be used once without duplicating it.
-- **Recursion** — CTEs are the only way to express recursive logic in SQL. Employee hierarchies, bill-of-materials trees, number sequences, graph traversals — all need `WITH RECURSIVE`.
+- **Readability**, name each intermediate step. Complex reports read top-to-bottom like paragraphs instead of nested subquery soup.
+- **Reusability**, reference the same CTE multiple times in the same query. A derived table in FROM can only be used once without duplicating it.
+- **Recursion**: CTEs are the only way to express recursive logic in SQL. Employee hierarchies, bill-of-materials trees, number sequences, graph traversals, all need `WITH RECURSIVE`.
 
 **MySQL requirement:** CTEs are supported in MySQL 8.0+ and MariaDB 10.2+. Older versions need derived tables and correlated subqueries instead.
 
@@ -43,19 +43,19 @@ You get three concrete benefits:
 
 ### 1. Subqueries Don't Scale With Complexity
 
-For a 3-step calculation — aggregate, filter, rank — the subquery version has three levels of nesting, each indented further right. By step 4 you need a second monitor. CTEs flatten that: each step is one block at the top of the query.
+For a 3-step calculation, aggregate, filter, rank, the subquery version has three levels of nesting, each indented further right. By step 4 you need a second monitor. CTEs flatten that: each step is one block at the top of the query.
 
 ### 2. You Can Name Your Thinking
 
-Variables have names for a reason — so readers (including you in 6 months) know what they mean. CTEs give intermediate steps in a query proper names: `monthly_totals`, `top_customers`, `ranked_employees`. This alone pays for itself.
+Variables have names for a reason, so readers (including you in 6 months) know what they mean. CTEs give intermediate steps in a query proper names: `monthly_totals`, `top_customers`, `ranked_employees`. This alone pays for itself.
 
 ### 3. Referencing the Same Logic Twice
 
 Derived tables in FROM only exist for the length of their single reference. If you need the same computation in the JOIN and in the WHERE, you write it twice. A CTE is defined once and referenced any number of times. The optimizer may still compute it twice under the hood, but your code is DRY.
 
-### 4. Recursion — The Superpower
+### 4. Recursion: The Superpower
 
-Without `WITH RECURSIVE` there is no clean way to walk a tree in SQL. Employee reports-to graphs, comment threads, category trees, dependency chains — all map to recursive CTEs. Writing these by hand with UNION ALL and manual depth tracking is error-prone and unbounded.
+Without `WITH RECURSIVE` there is no clean way to walk a tree in SQL. Employee reports-to graphs, comment threads, category trees, dependency chains, all map to recursive CTEs. Writing these by hand with UNION ALL and manual depth tracking is error-prone and unbounded.
 
 ### 5. Interview Favorites
 
@@ -103,7 +103,7 @@ FROM growth
 ORDER BY month;
 ```
 
-Separate multiple CTEs with commas. Later CTEs can reference earlier ones (as shown — `growth` reads from `monthly_totals`), but not the other way around.
+Separate multiple CTEs with commas. Later CTEs can reference earlier ones (as shown, `growth` reads from `monthly_totals`), but not the other way around.
 
 ### 3. CTE vs Derived Table vs View
 
@@ -126,7 +126,7 @@ SELECT
 
 Without a CTE this would be three separate subqueries, each re-running the aggregation. With a CTE the logic is named once.
 
-### 5. Recursive CTEs — The Structure
+### 5. Recursive CTEs: The Structure
 
 ```
 WITH RECURSIVE cte_name AS (
@@ -148,8 +148,8 @@ SELECT * FROM cte_name;
 
 A recursive CTE has two parts separated by `UNION ALL`:
 
-1. **Anchor** — the seed. Runs once. Returns the starting row(s).
-2. **Recursive member** — runs repeatedly. Each iteration joins against the results of the previous iteration. Must have a termination condition that eventually returns zero rows, or MySQL aborts with a recursion limit error.
+1. **Anchor**, the seed. Runs once. Returns the starting row(s).
+2. **Recursive member**, runs repeatedly. Each iteration joins against the results of the previous iteration. Must have a termination condition that eventually returns zero rows, or MySQL aborts with a recursion limit error.
 
 MySQL's default recursion limit is 1000. Raise it with `SET @@cte_max_recursion_depth = 10000;` if you truly need more.
 
@@ -181,7 +181,7 @@ SELECT d FROM date_series;
 -- 30 rows: 2026-04-01 through 2026-04-30
 ```
 
-Extremely useful for filling in missing days in dashboards — LEFT JOIN the date series against your actual data to show zero for days with no activity.
+Extremely useful for filling in missing days in dashboards: LEFT JOIN the date series against your actual data to show zero for days with no activity.
 
 ### 8. Recursive CTE: Employee Hierarchy
 
@@ -243,7 +243,7 @@ Each row carries enough state (a, b) to compute the next. The recursive member s
 The #1 recursive-CTE mistake: no termination condition.
 
 ```
--- DO NOT RUN — infinite loop
+-- DO NOT RUN, infinite loop
 WITH RECURSIVE bomb AS (
   SELECT 1 AS n
   UNION ALL
@@ -252,7 +252,7 @@ WITH RECURSIVE bomb AS (
 SELECT * FROM bomb;
 ```
 
-This tries to generate infinite rows. MySQL saves you with the `cte_max_recursion_depth` limit (default 1000) and aborts. But always include an explicit termination clause — and test with a small bound first.
+This tries to generate infinite rows. MySQL saves you with the `cte_max_recursion_depth` limit (default 1000) and aborts. But always include an explicit termination clause, and test with a small bound first.
 
 ### 11. CTEs and Window Functions Together
 
@@ -278,7 +278,7 @@ FROM with_growth
 ORDER BY month;
 ```
 
-### 12. CTE vs Subquery — When to Choose Which
+### 12. CTE vs Subquery: When to Choose Which
 
 - Use a subquery for a tiny one-off filter: `WHERE id IN (SELECT ...)`
 - Use a CTE when the logic has 2+ steps or is used twice.
@@ -314,7 +314,7 @@ WHERE total_paid > 2000
 ORDER BY total_paid DESC;
 ```
 
-The CTE `paid_totals` names the intermediate aggregate. The main query then filters and sorts it. Without a CTE this would be a derived table in FROM — workable but less readable. Note how you can apply additional WHERE on the CTE just like on a table.
+The CTE `paid_totals` names the intermediate aggregate. The main query then filters and sorts it. Without a CTE this would be a derived table in FROM, workable but less readable. Note how you can apply additional WHERE on the CTE just like on a table.
 
 **Output:**
 
@@ -646,7 +646,7 @@ WITH RECURSIVE safe AS (
 SELECT * FROM safe;
 ```
 
-Always include an explicit termination condition. MySQL saves you with the recursion limit (default 1000) — but the query errors out instead of producing a result. For large ranges, you may need to raise `cte_max_recursion_depth`, but first verify your termination is correct with a small limit.
+Always include an explicit termination condition. MySQL saves you with the recursion limit (default 1000), but the query errors out instead of producing a result. For large ranges, you may need to raise `cte_max_recursion_depth`, but first verify your termination is correct with a small limit.
 
 ### Mismatched Column Types Between Anchor and Recursive Member
 
@@ -678,7 +678,7 @@ WITH RECURSIVE org AS (
 SELECT * FROM org;
 ```
 
-Column types and lengths must match between anchor and recursive member. For string columns, the anchor determines the max length — if the recursive concatenation grows the string beyond that, MySQL silently truncates. Always CAST explicitly in the anchor to set the column size.
+Column types and lengths must match between anchor and recursive member. For string columns, the anchor determines the max length, if the recursive concatenation grows the string beyond that, MySQL silently truncates. Always CAST explicitly in the anchor to set the column size.
 
 ### String Truncation in Recursive CTEs
 
@@ -710,7 +710,7 @@ WITH RECURSIVE org AS (
 SELECT * FROM org;
 ```
 
-Always CAST the anchor's string columns to a comfortably large CHAR/VARCHAR. The recursive member inherits the column definition from the anchor — if the anchor declares CHAR(20), all subsequent values are truncated to 20 characters even after CONCAT.
+Always CAST the anchor's string columns to a comfortably large CHAR/VARCHAR. The recursive member inherits the column definition from the anchor, if the anchor declares CHAR(20), all subsequent values are truncated to 20 characters even after CONCAT.
 
 ### Using a CTE Outside Its Scope
 
@@ -751,7 +751,7 @@ A CTE lives only for the duration of the statement that declares it. It is NOT a
 - Declare multiple CTEs separated by commas: WITH a AS (...), b AS (...). Later CTEs can reference earlier ones but not the other way around.
 - Recursive CTEs use WITH RECURSIVE and have two parts separated by UNION ALL: the anchor (seed rows) and the recursive member (references the CTE itself). Required for hierarchies, sequences, and graph traversals.
 - Every recursive CTE MUST have a termination condition in the recursive member. Without one, MySQL aborts after cte_max_recursion_depth iterations (default 1000).
-- For recursive CTEs, ensure column types and string lengths match between anchor and recursive member. CAST the anchor to set the right type and size — otherwise strings silently truncate.
+- For recursive CTEs, ensure column types and string lengths match between anchor and recursive member. CAST the anchor to set the right type and size, otherwise strings silently truncate.
 - Classic recursive-CTE patterns: number sequences (1 to N), date ranges (fill missing days), employee hierarchies (manager chain), Fibonacci, dependency trees, graph traversal.
 - CTEs combine beautifully with window functions: aggregate in one CTE, apply window functions in the next layer. This is the modern way to write analytics queries.
 - CTE vs view: CTEs are per-query; views are persistent database objects. Use a view when the same logic is shared across many queries. Use a CTE for one-query-local complexity.

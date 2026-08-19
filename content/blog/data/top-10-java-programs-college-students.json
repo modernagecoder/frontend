@@ -47,7 +47,7 @@
       },
       {
         "type": "paragraph",
-        "text": "If you're a college student studying Java, you've probably realized that knowing syntax isn't enough. Employers, interviewers, and professors expect you to solve real problems—the kind that test your logic, algorithms, and understanding of data structures."
+        "text": "If you're a college student studying Java, you've probably realized that knowing syntax isn't enough. Employers, interviewers, and professors expect you to solve real problems, the kind that test your logic, algorithms, and understanding of data structures."
       },
       {
         "type": "paragraph",
@@ -80,7 +80,7 @@
           "<strong>Interview Preparation:</strong> These patterns appear frequently in technical interviews at top companies",
           "<strong>Algorithm Mastery:</strong> Each program teaches fundamental algorithmic thinking",
           "<strong>Data Structure Practice:</strong> You'll work with arrays, lists, trees, graphs, and more",
-          "<strong>Problem-Solving Skills:</strong> These aren't just coding exercises—they're logic puzzles that sharpen your mind",
+          "<strong>Problem-Solving Skills:</strong> These aren't just coding exercises. They're logic puzzles that sharpen your mind",
           "<strong>Real-World Applications:</strong> Every program has practical use cases in actual software development"
         ]
       },
@@ -100,7 +100,7 @@
       },
       {
         "type": "paragraph",
-        "text": "Binary search is a fundamental algorithm that every programmer must know. It searches for an element in a sorted array in O(log n) time—much faster than linear search."
+        "text": "Binary search is a fundamental algorithm that every programmer must know. It searches for an element in a sorted array in O(log n) time, much faster than linear search."
       },
       {
         "type": "heading",
@@ -257,7 +257,7 @@
       },
       {
         "type": "paragraph",
-        "text": "This problem tests your understanding of recursion and backtracking—essential techniques for solving complex problems."
+        "text": "This problem tests your understanding of recursion and backtracking, essential techniques for solving complex problems."
       },
       {
         "type": "heading",
@@ -773,7 +773,7 @@
         "items": [
           {
             "title": "How long will it take to master all 10 programs?",
-            "content": "With consistent practice (1-2 hours daily), you can understand and implement all 10 in 2-3 weeks. True mastery—being able to code them from memory and explain them clearly—takes 1-2 months of regular practice."
+            "content": "With consistent practice (1-2 hours daily), you can understand and implement all 10 in 2-3 weeks. True mastery, being able to code them from memory and explain them clearly, takes 1-2 months of regular practice."
           },
           {
             "title": "Should I memorize these solutions?",
@@ -789,7 +789,7 @@
           },
           {
             "title": "Which programming language should I use for interviews?",
-            "content": "Java is excellent for interviews—it's widely accepted, has good library support, and forces you to think about data structures explicitly. Python is also popular for its conciseness. Choose what you're most comfortable with."
+            "content": "Java is excellent for interviews. It's widely accepted, has good library support, and forces you to think about data structures explicitly. Python is also popular for its conciseness. Choose what you're most comfortable with."
           },
           {
             "title": "How do I know if my solution is optimal?",
@@ -812,11 +812,11 @@
       },
       {
         "type": "paragraph",
-        "text": "These 10 Java programs represent the core of what every college student should master. They're not just coding exercises—they're fundamental patterns that appear repeatedly in real software development and technical interviews."
+        "text": "These 10 Java programs represent the core of what every college student should master. They're not just coding exercises. They're fundamental patterns that appear repeatedly in real software development and technical interviews."
       },
       {
         "type": "paragraph",
-        "text": "From binary search to LRU cache, from linked list reversal to tree serialization—each program teaches you something essential about algorithms, data structures, and problem-solving."
+        "text": "From binary search to LRU cache, from linked list reversal to tree serialization, each program teaches you something essential about algorithms, data structures, and problem-solving."
       },
       {
         "type": "paragraph",
@@ -840,7 +840,7 @@
       },
       {
         "type": "paragraph",
-        "text": "Remember: every expert programmer once struggled with these exact problems. The difference is they kept going. They debugged, they learned, they practiced—and eventually, they mastered them."
+        "text": "Remember: every expert programmer once struggled with these exact problems. The difference is they kept going. They debugged, they learned, they practiced, and eventually, they mastered them."
       },
       {
         "type": "paragraph",
@@ -848,13 +848,13 @@
       },
       {
         "type": "paragraph",
-        "text": "Need more guidance? <a href='/courses'>Check out our advanced Java courses</a> where we dive deeper into algorithms, data structures, and interview preparation. Or <a href='/contact'>reach out to us</a> with questions—we're here to help you succeed."
+        "text": "Need more guidance? <a href='/courses'>Check out our advanced Java courses</a> where we dive deeper into algorithms, data structures, and interview preparation. Or <a href='/contact'>reach out to us</a> with questions. We're here to help you succeed."
       },
       {
         "type": "callout",
         "calloutType": "success",
         "title": "Your Journey Starts Now",
-        "text": "These 10 programs are your roadmap to coding mastery. Don't just read them—code them, break them, fix them, and make them yours. That's how you become the developer companies fight to hire."
+        "text": "These 10 programs are your roadmap to coding mastery. Don't just read them, code them, break them, fix them, and make them yours. That's how you become the developer companies fight to hire."
       },
       {
         "type": "button",

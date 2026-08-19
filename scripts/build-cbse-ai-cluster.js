@@ -12,7 +12,7 @@
  * Self-contained (own CSS, no body.editorial, no scroll-reveal) so it cannot hit the opacity:0
  * blank-below-hero bug that needs /js/ux-enhancements.js. Brand stats are read from
  * scripts/brand-facts.json (never hand-typed). Each page carries an answer capsule + FAQPage +
- * BreadcrumbList + Article schema — the Phase 4 GEO anatomy.
+ * BreadcrumbList + Article schema, the Phase 4 GEO anatomy.
  */
 const fs = require('fs');
 const path = require('path');
@@ -24,7 +24,7 @@ const OUTDIR = path.join(ROOT, 'src', 'pages');
 const BASE = 'https://learn.modernagecoders.com';
 
 const esc = (s) => String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
-// esc for text that is ALREADY html (section bodies) — only need to neutralise nothing; trust the JSON author.
+// esc for text that is ALREADY html (section bodies), only need to neutralise nothing; trust the JSON author.
 const d = JSON.parse(fs.readFileSync(DATA, 'utf8'));
 const brand = JSON.parse(fs.readFileSync(BRAND, 'utf8'));
 const F = d.facts;

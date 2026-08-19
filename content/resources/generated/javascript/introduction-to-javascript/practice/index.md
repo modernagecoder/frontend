@@ -392,7 +392,7 @@ console.log(Boolean(" "));
 `true`
 `true`
 
-`0` is falsy, so `Boolean(0)` is `false`. Empty string `""` is falsy: `false`. But the string `"0"` is NOT empty — it has one character — so it is truthy: `true`. A space `" "` is also a non-empty string, so truthy: `true`. This catches many beginners.
+`0` is falsy, so `Boolean(0)` is `false`. Empty string `""` is falsy: `false`. But the string `"0"` is NOT empty, it has one character, so it is truthy: `true`. A space `" "` is also a non-empty string, so truthy: `true`. This catches many beginners.
 
 ### Q6. [Medium] Write a complete HTML page with a text input and a button. When the button is clicked, convert the text to uppercase and display it in a paragraph below the button.
 
@@ -471,7 +471,7 @@ console.log(isNaN("hello"));
 `false`
 `true`
 
-Despite its name, `typeof NaN` is `"number"`. This is because NaN is technically a special IEEE 754 floating-point value. `NaN === NaN` is `false` — NaN is the only value in JavaScript that is not equal to itself. `isNaN("hello")` tries to convert `"hello"` to a number (which gives NaN), then checks if it is NaN — result is `true`.
+Despite its name, `typeof NaN` is `"number"`. This is because NaN is technically a special IEEE 754 floating-point value. `NaN === NaN` is `false`: NaN is the only value in JavaScript that is not equal to itself. `isNaN("hello")` tries to convert `"hello"` to a number (which gives NaN), then checks if it is NaN, result is `true`.
 
 ### Q10. [Medium] Write JavaScript code that uses typeof to check and log the types of these values: 42, 'Rohan', true, null, undefined, [1,2,3].
 
@@ -537,7 +537,7 @@ A single `calc()` function takes the operator as a parameter. It reads both inpu
 
 ### Q1. [Easy] What does console.log() do in JavaScript?
 
-**B is correct.** `console.log()` prints output to the browser's Developer Console (accessible via F12). It does NOT display anything on the web page (A) — for that you would use `textContent` or `innerHTML`. It does not show a popup (C) — that is `alert()`. It does not write files (D).
+**B is correct.** `console.log()` prints output to the browser's Developer Console (accessible via F12). It does NOT display anything on the web page (A), for that you would use `textContent` or `innerHTML`. It does not show a popup (C), that is `alert()`. It does not write files (D).
 
 ### Q2. [Easy] What is the output of: console.log(typeof 'hello')?
 
@@ -561,7 +561,7 @@ A single `calc()` function takes the operator as a parameter. It reads both inpu
 
 ### Q7. [Medium] What is the output of: console.log('5' - 2)?
 
-**B is correct.** The `-` operator does not do string concatenation — it only works with numbers. JavaScript converts `'5'` to the number `5` and performs subtraction: `5 - 2 = 3`. This is different from `+` which would give `'52'`.
+**B is correct.** The `-` operator does not do string concatenation. It only works with numbers. JavaScript converts `'5'` to the number `5` and performs subtraction: `5 - 2 = 3`. This is different from `+` which would give `'52'`.
 
 ### Q8. [Medium] Where should you place the  tag for best practice?
 

@@ -17,7 +17,7 @@
     <!-- SEO Meta Tags -->
     <meta name="description" content="Create a stunning portfolio with smooth scrolling, hover effects, animations, dark mode, and full responsiveness.">
     <!-- meta keywords intentionally not emitted: Google has ignored it since 2009 and Bing
-         treats it as a SPAM SIGNAL — and Bing is the index ChatGPT/Copilot answer from.
+         treats it as a SPAM SIGNAL, and Bing is the index ChatGPT/Copilot answer from.
          See scripts/strip-meta-keywords.py. -->
     <meta name="author" content="Modern Age Coders">
     <meta name="robots" content="index, follow">
@@ -135,7 +135,7 @@
         "name": "Animating Too Many Properties at Once",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Prefer <code>transform</code>, <code>opacity</code>, and <code>filter</code> for animations — they are GPU-accelerated. Avoid animating <code>margin</code>, <code>width</code>, <code>height</code>, or <code>padding</code> because they force the browser to recalculate layout."
+          "text": "Prefer <code>transform</code>, <code>opacity</code>, and <code>filter</code> for animations. They are GPU-accelerated. Avoid animating <code>margin</code>, <code>width</code>, <code>height</code>, or <code>padding</code> because they force the browser to recalculate layout."
         }
       },
       {
@@ -202,7 +202,7 @@
 
             <section id="what" class="content-section">
                 <h2>What Is It?</h2>
-                <h2>What We Are Building</h2><p>This is the final project of the HTML and CSS track — a <strong>stunning animated portfolio website</strong> built entirely with HTML and CSS. One tiny sliver of JavaScript is used for the dark mode toggle (literally 3 lines), but everything visual — animations, hover effects, scroll reveals, glassmorphism, gradients — is pure CSS.</p><p>The portfolio includes:</p><ol><li><strong>Fixed navbar</strong> with smooth anchor scrolling</li><li><strong>Hero section</strong> with gradient text, animated background, and a pulsing CTA</li><li><strong>About section</strong> with a glowing avatar and bio</li><li><strong>Skills section</strong> with animated progress bars that fill on hover</li><li><strong>Projects grid</strong> with beautiful hover effects revealing project details</li><li><strong>Contact form</strong> with modern validation styling and <code>:has()</code></li><li><strong>Dark/light mode toggle</strong> using CSS variables + 3 lines of JS</li><li><strong>Scroll animations</strong> with <code>@keyframes</code> and <code>animation-delay</code></li><li><strong>Glassmorphism cards</strong> with backdrop-filter: blur()</li><li><strong>Gradient borders</strong> and neon glow effects</li><li><strong>Fully responsive</strong> from phone to desktop</li></ol><p>The portfolio belongs to 'Aarav Kulkarni' — a 16-year-old full-stack developer from Pune. His bio, projects, and skills tell a coherent story that you can easily customize with your own content.</p>
+                <h2>What We Are Building</h2><p>This is the final project of the HTML and CSS track, a <strong>stunning animated portfolio website</strong> built entirely with HTML and CSS. One tiny sliver of JavaScript is used for the dark mode toggle (literally 3 lines), but everything visual, animations, hover effects, scroll reveals, glassmorphism, gradients, is pure CSS.</p><p>The portfolio includes:</p><ol><li><strong>Fixed navbar</strong> with smooth anchor scrolling</li><li><strong>Hero section</strong> with gradient text, animated background, and a pulsing CTA</li><li><strong>About section</strong> with a glowing avatar and bio</li><li><strong>Skills section</strong> with animated progress bars that fill on hover</li><li><strong>Projects grid</strong> with beautiful hover effects revealing project details</li><li><strong>Contact form</strong> with modern validation styling and <code>:has()</code></li><li><strong>Dark/light mode toggle</strong> using CSS variables + 3 lines of JS</li><li><strong>Scroll animations</strong> with <code>@keyframes</code> and <code>animation-delay</code></li><li><strong>Glassmorphism cards</strong> with backdrop-filter: blur()</li><li><strong>Gradient borders</strong> and neon glow effects</li><li><strong>Fully responsive</strong> from phone to desktop</li></ol><p>The portfolio belongs to 'Aarav Kulkarni', a 16-year-old full-stack developer from Pune. His bio, projects, and skills tell a coherent story that you can easily customize with your own content.</p>
             </section>
 
             <section id="why" class="content-section">
@@ -318,7 +318,7 @@ body.light {
 .reveal:nth-child(3) { animation-delay: 0.3s; }
 @keyframes reveal {
   to { opacity: 1; transform: translateY(0); }
-}</code></pre><p>For true 'animate on scroll', you would use the Intersection Observer API (JavaScript). For a CSS-only effect, we simply animate everything on load with staggered delays — it still looks great.</p><p>Now let us see the ENTIRE animated portfolio in one complete, runnable file.</p>
+}</code></pre><p>For true 'animate on scroll', you would use the Intersection Observer API (JavaScript). For a CSS-only effect, we simply animate everything on load with staggered delays. It still looks great.</p><p>Now let us see the ENTIRE animated portfolio in one complete, runnable file.</p>
             </section>
 
             <section id="code-examples" class="content-section">
@@ -1098,7 +1098,7 @@ body.light {
   &lt;div class=&quot;card&quot;&gt;
     &lt;h1&gt;Kavya&#39;s Notes&lt;/h1&gt;
     &lt;p&gt;This entire page switches between dark and light mode with one CSS class toggle. Every color is a variable, and the body.light class overrides them. Try the button in the top-right corner.&lt;/p&gt;
-    &lt;p&gt;The transition on background and color makes the switch smooth. No external libraries, no complicated JavaScript — just three lines of JS and CSS variables.&lt;/p&gt;
+    &lt;p&gt;The transition on background and color makes the switch smooth. No external libraries, no complicated JavaScript, just three lines of JS and CSS variables.&lt;/p&gt;
   &lt;/div&gt;
   &lt;script&gt;
     const btn = document.getElementById(&#39;btn&#39;);
@@ -1154,7 +1154,7 @@ body.light {
   transform: scale(1.05);
   box-shadow: 0 20px 50px rgba(0,0,0,0.3);
   filter: brightness(1.1);
-}</code></pre></div><div class="mistake-explanation">Prefer <code>transform</code>, <code>opacity</code>, and <code>filter</code> for animations — they are GPU-accelerated. Avoid animating <code>margin</code>, <code>width</code>, <code>height</code>, or <code>padding</code> because they force the browser to recalculate layout.</div>
+}</code></pre></div><div class="mistake-explanation">Prefer <code>transform</code>, <code>opacity</code>, and <code>filter</code> for animations. They are GPU-accelerated. Avoid animating <code>margin</code>, <code>width</code>, <code>height</code>, or <code>padding</code> because they force the browser to recalculate layout.</div>
             </div>
 <div class="mistake-card">
                 <h3>Gradient Text Not Showing Because of Color</h3>
@@ -1185,7 +1185,7 @@ body.light {
 <li>Glassmorphism = semi-transparent background (&lt;code&gt;rgba(255,255,255,0.05)&lt;/code&gt;) + &lt;code&gt;backdrop-filter: blur(20px)&lt;/code&gt; + a thin border. Looks best against a colorful background.</li>
 <li>Use &lt;code&gt;:has()&lt;/code&gt; for a reactive contact form: &lt;code&gt;form:has(input:valid):not(:has(input:invalid))&lt;/code&gt; matches when every field is valid. Combine with &lt;code&gt;:not(:placeholder-shown)&lt;/code&gt; so empty fields do not show red immediately.</li>
 <li>Three lines of JavaScript is all you need for a persistent dark mode toggle: get the button, add a click listener, toggle a class on the body.</li>
-<li>For smooth performance, animate &lt;code&gt;transform&lt;/code&gt;, &lt;code&gt;opacity&lt;/code&gt;, and &lt;code&gt;filter&lt;/code&gt; — not &lt;code&gt;width&lt;/code&gt;, &lt;code&gt;height&lt;/code&gt;, &lt;code&gt;margin&lt;/code&gt;, or &lt;code&gt;padding&lt;/code&gt;. The first three are GPU-accelerated; the others force layout recalculation.</li>
+<li>For smooth performance, animate &lt;code&gt;transform&lt;/code&gt;, &lt;code&gt;opacity&lt;/code&gt;, and &lt;code&gt;filter&lt;/code&gt;, not &lt;code&gt;width&lt;/code&gt;, &lt;code&gt;height&lt;/code&gt;, &lt;code&gt;margin&lt;/code&gt;, or &lt;code&gt;padding&lt;/code&gt;. The first three are GPU-accelerated; the others force layout recalculation.</li>
 <li>Neon glow effect: &lt;code&gt;box-shadow: 0 0 20px rgba(168,85,247,0.5)&lt;/code&gt; or double/triple shadows for depth. Works great on skill bars, buttons, and avatars.</li></ul></div>
             </section>
 

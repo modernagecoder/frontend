@@ -10,13 +10,13 @@ Class 9–12 • **ICSE & ISC · BlueJ**
 
 # Java for ICSE & ISC Students Who Want to Truly Understand It
 
-Java is the official language of ICSE Class 9–10 Computer Applications and ISC Class 11–12 Computer Science. We teach it with BlueJ — the exact environment used in your syllabus — so students stop memorising programs and start writing their own. Better understanding, better marks, real confidence.
+Java is the official language of ICSE Class 9–10 Computer Applications and ISC Class 11–12 Computer Science. We teach it with BlueJ, the exact environment used in your syllabus, so students stop memorising programs and start writing their own. Better understanding, better marks, real confidence.
 
 Book a Free Demo ClassSee Syllabus Coverage**BlueJ**Board's environment**9–12**ICSE & ISC**5–8**Students per batch**4.9/5**Parent rating
 
 ## Quick answer
 
-**Modern Age Coders teaches Java with BlueJ to ICSE Class 9–10 and ISC Class 11–12 students, exactly aligned to the board syllabus.** Java is the official language of ICSE Computer Applications and ISC Computer Science, and our live small-batch classes cover every board topic — from data types, iteration and arrays to classes, constructors, inheritance and (for ISC) recursion and exception handling. The focus is concept clarity and writing original programs, so students score better and actually understand code. Group plans start at ₹1,499/month with a free demo first.
+**Modern Age Coders teaches Java with BlueJ to ICSE Class 9–10 and ISC Class 11–12 students, exactly aligned to the board syllabus.** Java is the official language of ICSE Computer Applications and ISC Computer Science, and our live small-batch classes cover every board topic, from data types, iteration and arrays to classes, constructors, inheritance and (for ISC) recursion and exception handling. The focus is concept clarity and writing original programs, so students score better and actually understand code. Group plans start at ₹1,499/month with a free demo first.
 
 Start Today
 
@@ -32,7 +32,7 @@ Board-Aligned
 
 ## Exactly What the ICSE & ISC Syllabus Needs
 
-We map our teaching to the official board topics — and go beyond memorising to genuine understanding.
+We map our teaching to the official board topics, and go beyond memorising to genuine understanding.
 
 ICSE · Class 9–10 · Computer Applications
 
@@ -66,11 +66,11 @@ Understanding, Not Mugging
 
 ### Write your own programs
 
-Students learn to build programs from a problem statement — the exact skill the board and practical exam test.
+Students learn to build programs from a problem statement, the exact skill the board and practical exam test.
 
 ### BlueJ environment
 
-We teach in BlueJ — the same IDE used in the syllabus — so there are no surprises in school or the practical.
+We teach in BlueJ, the same IDE used in the syllabus, so there are no surprises in school or the practical.
 
 ### Board-style practice
 
@@ -80,7 +80,7 @@ Explore More
 
 ## Related Java Courses
 
-Part of our full Java cluster — explore any or book a free demo.
+Part of our full Java cluster, explore any or book a free demo.
 
 [Best Java Classes in IndiaThe full Java course hub](/best-java-classes-in-india)[Java for TeensLogic, OOP & projects](/java-classes-for-teens)[Java OOP ConceptsMaster object thinking](/java-oops-concepts-course)[Java ProjectsBuild real programs](/java-projects-for-students)[Java for BeginnersStart from zero](/java-for-beginners)[Online Java ClassesHow live online works](/online-java-classes)[Python & AIFor teens too](/python-and-ai-classes-for-kids-teens)[Summer Coding CampFast project sprints](/summer-coding-camp)
 
@@ -92,11 +92,11 @@ Most ICSE and ISC students lose marks in the computer paper for one reason: they
 
 ### Confidence that shows in the exam
 
-When a student genuinely understands loops, arrays, strings and classes, they can solve any variation the board throws at them — and the practical exam stops being stressful. Our mentors teach the [OOP concepts](/java-oops-concepts-course) and logic behind the syllabus, then have students [build their own programs](/java-projects-for-students) until it's second nature.
+When a student genuinely understands loops, arrays, strings and classes, they can solve any variation the board throws at them, and the practical exam stops being stressful. Our mentors teach the [OOP concepts](/java-oops-concepts-course) and logic behind the syllabus, then have students [build their own programs](/java-projects-for-students) until it's second nature.
 
 ### A foundation for the future
 
-The Java a student learns for ICSE/ISC isn't just for the exam — it's the same language used in college placements, Android and backend development. Mastering it now gives a genuine head start. Teens can continue with our [Java for teens](/java-classes-for-teens) track, and the full path is on our [Java classes hub](/best-java-classes-in-india).
+The Java a student learns for ICSE/ISC isn't just for the exam. It's the same language used in college placements, Android and backend development. Mastering it now gives a genuine head start. Teens can continue with our [Java for teens](/java-classes-for-teens) track, and the full path is on our [Java classes hub](/best-java-classes-in-india).
 
 Simple Pricing
 
@@ -147,7 +147,7 @@ Parent & Student Voices
 
 Vineeta ShyamsukhaParent★★★★★
 
-"Very good classes. Don't worry about coding—they teach the best, especially Shivam sir."
+"Very good classes. Don't worry about coding. They teach the best, especially Shivam sir."
 
 Shaarav WadhwaStudent★★★★★
 
@@ -157,7 +157,7 @@ Arush PoddarStudent
 
 ## Help your child truly understand Java
 
-Book a free demo class today — see how board concepts finally click.
+Book a free demo class today. See how board concepts finally click.
 
 Book a Free Demo Class
 
@@ -171,7 +171,7 @@ Yes. Java is the official programming language of ICSE Class 9–10 Computer App
 
 Do you teach using BlueJ?+
 
-Yes. We teach Java in BlueJ — the same environment used in the ICSE/ISC syllabus and practical exams — so students are completely comfortable with the tools they'll use in school and board practicals.
+Yes. We teach Java in BlueJ, the same environment used in the ICSE/ISC syllabus and practical exams, so students are completely comfortable with the tools they'll use in school and board practicals.
 
 Which classes and board topics do you cover?+
 

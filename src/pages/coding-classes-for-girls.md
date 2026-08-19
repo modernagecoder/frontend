@@ -8,21 +8,21 @@ source: src/pages/coding-classes-for-girls.html
 
 India's Most Empowering Coding Program for Girls
 
-# Coding Classes for Girls — She Codes. She Builds. She Changes the World.
+# Coding Classes for Girls: She Codes. She Builds. She Changes the World.
 
-From Python to AI to full-stack apps — girls at Modern Age Coders don't just learn to code. They build confidence, find their voice in tech, and create things that matter. Small batches. Expert instructors. Zero judgment.
+From Python to AI to full-stack apps, girls at Modern Age Coders don't just learn to code. They build confidence, find their voice in tech, and create things that matter. Small batches. Expert instructors. Zero judgment.
 
-Book a Free Demo — Girls Coding Program[Call: 9123366161](tel:+919123366161)[WhatsApp Us](https://wa.me/919123366161?text=Hi, I'm interested in coding classes for girls)500+ Girls EnrolledRated 4.9/5 by ParentsCode Queens Exclusive BatchBatches: 4-6 Girls OnlyFree Demo Class
+Book a Free Demo: Girls Coding Program[Call: 9123366161](tel:+919123366161)[WhatsApp Us](https://wa.me/919123366161?text=Hi, I'm interested in coding classes for girls)500+ Girls EnrolledRated 4.9/5 by ParentsCode Queens Exclusive BatchBatches: 4-6 Girls OnlyFree Demo Class
 
 The Numbers That Matter
 
 ## Girls in Tech: The Gap We're Closing
 
-The gender gap in tech is real. But every girl who learns to code widens the door for the next one. Here's what's at stake — and what your daughter will gain.
+The gender gap in tech is real. But every girl who learns to code widens the door for the next one. Here's what's at stake, and what your daughter will gain.
 
 26%
 
-of software engineers globally are women — we need your daughter in that number
+of software engineers globally are women, we need your daughter in that number
 
 40%
 
@@ -30,7 +30,7 @@ higher average salary for women in tech vs. other sectors in India
 
 500+
 
-girls trained by Modern Age Coders since inception — with more joining every month
+girls trained by Modern Age Coders since inception, with more joining every month
 
 100%
 
@@ -40,7 +40,7 @@ Why It Matters
 
 ## Why Every Girl Should Learn to Code
 
-Coding isn't just a career skill. It's a superpower. And girls who code think differently — more creatively, more systematically, more confidently.
+Coding isn't just a career skill. It's a superpower. And girls who code think differently, more creatively, more systematically, more confidently.
 
 ### Confidence That Lasts a Lifetime
 
@@ -48,7 +48,7 @@ When a girl solves a hard coding problem, she learns she can tackle anything. Th
 
 ### Future-Proof Career Path
 
-AI, data science, product management, UX — every top career of the 2030s rewards coding fluency. Start now, lead the field later.
+AI, data science, product management, UX, every top career of the 2030s rewards coding fluency. Start now, lead the field later.
 
 ### Community of Fellow Coders
 
@@ -60,11 +60,11 @@ Girls who code win STEM scholarships, ace board exams, and get shortlisted for t
 
 ### Problem-Solving Mindset
 
-Coding trains the brain to break big problems into small, solvable steps. This logical thinking helps in every subject — from maths to science to economics.
+Coding trains the brain to break big problems into small, solvable steps. This logical thinking helps in every subject, from maths to science to economics.
 
 ### Build Anything She Imagines
 
-Apps, websites, AI tools, games — at Modern Age Coders, your daughter will turn her wildest ideas into actual working software. Creativity meets code.
+Apps, websites, AI tools, games, at Modern Age Coders, your daughter will turn her wildest ideas into actual working software. Creativity meets code.
 
 ![Girl learning to code in Princess Coders batch - Coding classes for girls aged 6-12](/images/princess-coders.webp)
 
@@ -72,14 +72,14 @@ For Ages 8–12
 
 ## Introducing Princess Coders
 
-The perfect first step into the world of coding. Princess Coders is built for young girls who are curious, creative, and ready to make their first programme — without any prior experience.
+The perfect first step into the world of coding. Princess Coders is built for young girls who are curious, creative, and ready to make their first programme, without any prior experience.
 
 We believe every girl deserves a confident start. Princess Coders makes learning feel like play, so your daughter builds real skills while genuinely enjoying every class.
 
 - Start with visual block coding and Scratch before transitioning to Python
-- Creative projects — animated stories, simple games, and digital art
-- Maximum 4-6 girls per batch — intimate, nurturing environment
-- No prior experience needed — we start from absolute zero
+- Creative projects, animated stories, simple games, and digital art
+- Maximum 4-6 girls per batch, intimate, nurturing environment
+- No prior experience needed. We start from absolute zero
 - Princess Coders completion certificate and badge on graduation
 - Builds a strong foundation for Code Queens at the next level
 
@@ -89,11 +89,11 @@ For Ages 13–18
 
 ## Introducing the Code Queens Batch
 
-A girls-only coding program designed from the ground up to be the most empowering place in tech. Small groups, expert instructors, no pressure — just pure growth and real skills.
+A girls-only coding program designed from the ground up to be the most empowering place in tech. Small groups, expert instructors, no pressure, just pure growth and real skills.
 
 Code Queens creates a space where questions are celebrated, mistakes are lessons, and every win is cheered loudly. Teens build portfolio-worthy projects and graduate ready for the best colleges.
 
-- Maximum 4-6 girls per batch — collaborative, focused atmosphere
+- Maximum 4-6 girls per batch, collaborative, focused atmosphere
 - Curriculum built around female icons in tech (Ada Lovelace, Grace Hopper, Reshma Saujani)
 - Advanced Python, AI, Web Dev and Data Science tracks
 - Special graduation ceremony with Code Queens certificate
@@ -108,13 +108,13 @@ For Ages 16+
 
 The highest tier of the Modern Age Coders girls program. She Coders Elite is built for ambitious, driven young women who want to go beyond the basics and master enterprise-level technology.
 
-This is not a starter program — it's a launchpad to top engineering colleges, global tech competitions, and real career opportunities. Every She Coders graduate leaves with an industry-ready portfolio.
+This is not a starter program. It's a launchpad to top engineering colleges, global tech competitions, and real career opportunities. Every She Coders graduate leaves with an industry-ready portfolio.
 
 - Deep-dive into AI, Machine Learning, Generative AI and Full-Stack Development
 - Real-world industry projects built from scratch and deployed live
 - Preparation for IIT-JEE CS, NIT, and top engineering college applications
 - Access to global women-in-tech hackathons and competitions
-- She Coders Elite certificate — recognised by hiring managers and admission panels
+- She Coders Elite certificate, recognised by hiring managers and admission panels
 - Direct pathway from Code Queens for graduates ready to advance further
 
 [Explore She Coders Elite Course](https://learn.modernagecoders.com/courses/alpha-girls-elite-tech-mastery)
@@ -123,11 +123,11 @@ Our Courses for Girls
 
 ## Every Skill. Every Age. Every Dream.
 
-All courses available in the Code Queens (girls-only) batch format or mixed-group batches — your choice.
+All courses available in the Code Queens (girls-only) batch format or mixed-group batches. Your choice.
 
 ![Girl learning Python programming online - beginner-friendly coding for girls](/images/python-kids.webp)Start Here
 
-### Python for Girls — Beginner to Pro
+### Python for Girls: Beginner to Pro
 
 The perfect first coding language. Girls aged 6-18 learn Python through creative storytelling, art projects, and real-world applications.
 
@@ -140,16 +140,16 @@ The perfect first coding language. Girls aged 6-18 learn Python through creative
 
 ### AI & Machine Learning for Girls
 
-Understand how AI works — and build your own AI tools! From image recognition to chatbots to recommendation systems. Demystify artificial intelligence.
+Understand how AI works, and build your own AI tools! From image recognition to chatbots to recommendation systems. Demystify artificial intelligence.
 
 - What is AI? How do algorithms learn?
 - Build an AI image classifier
 - Create a smart chatbot
-- AI ethics — building tech responsibly
+- AI ethics, building tech responsibly
 
 [View Course →](https://learn.modernagecoders.com/courses/ai-ml-masterclass-teens)![Girl learning data science and analytics in STEM coding program](/images/ai-ml-college.webp)Career-Ready
 
-### Data Science & AI — Girls Edition
+### Data Science & AI: Girls Edition
 
 Analyse real datasets about topics girls care about: climate, health, social media, music, sports. Build dashboards. Tell data stories. Change minds.
 
@@ -165,7 +165,7 @@ Analyse real datasets about topics girls care about: climate, health, social med
 Build your own beautiful websites from scratch. Design. Code. Publish. Make your mark on the internet with something uniquely yours.
 
 - HTML5, CSS3 & JavaScript fundamentals
-- Design principles — colour, typography, layout
+- Design principles, colour, typography, layout
 - Build & publish a personal portfolio site
 - Responsive design for mobile and desktop
 
@@ -184,7 +184,7 @@ Build dynamic, interactive web apps like Netflix, Instagram, or Swiggy clones. F
 
 ### Flutter App Development for Girls
 
-Build real cross-platform apps for Android and iOS with Flutter. Your ideas, on every phone, shared with the world — beautiful and fast.
+Build real cross-platform apps for Android and iOS with Flutter. Your ideas, on every phone, shared with the world, beautiful and fast.
 
 - Dart & Flutter fundamentals
 - Build a complete mobile app from scratch
@@ -193,9 +193,9 @@ Build real cross-platform apps for Android and iOS with Flutter. Your ideas, on 
 
 [View Course →](https://learn.modernagecoders.com/courses/complete-app-development-masterclass-college)![Girl exploring generative AI tools - STEM education for girls](/images/generative-ai-college.webp)Cutting Edge
 
-### Generative AI — Prompt to Product
+### Generative AI: Prompt to Product
 
-ChatGPT, DALL-E, Stable Diffusion — understand and build with the hottest AI tools. Create AI art, AI writers, AI assistants. Be the creator, not just the user.
+ChatGPT, DALL-E, Stable Diffusion, understand and build with the hottest AI tools. Create AI art, AI writers, AI assistants. Be the creator, not just the user.
 
 - How LLMs & image AI models work
 - Advanced prompt engineering
@@ -206,7 +206,7 @@ ChatGPT, DALL-E, Stable Diffusion — understand and build with the hottest AI t
 
 ### DSA & Problem Solving for Girls
 
-Prepare for IIT-JEE, competitive coding, and top tech company interviews. Master DSA in Python — the skill that separates average from exceptional.
+Prepare for IIT-JEE, competitive coding, and top tech company interviews. Master DSA in Python, the skill that separates average from exceptional.
 
 - Arrays, trees, graphs, dynamic programming
 - 100+ solved coding challenges
@@ -230,43 +230,43 @@ Real Work. Real Pride.
 
 ## What Our Girls Actually Build
 
-No toy exercises. Every student completes real projects she can show the world — and be proud of.
+No toy exercises. Every student completes real projects she can show the world, and be proud of.
 
 💌
 
 #### Digital Diary App
 
-A private, password-protected personal journal app with custom themes — built with Python and Tkinter.
+A private, password-protected personal journal app with custom themes, built with Python and Tkinter.
 
 Python · Month 2🌿
 
 #### Eco Awareness Website
 
-A beautiful multi-page website about climate change — designed, coded, and published live by students.
+A beautiful multi-page website about climate change, designed, coded, and published live by students.
 
 Web Dev · Month 3🤖
 
 #### AI Fashion Classifier
 
-An image recognition model that identifies clothing styles — trained on custom datasets with TensorFlow.
+An image recognition model that identifies clothing styles, trained on custom datasets with TensorFlow.
 
 AI/ML · Month 6📱
 
 #### Mental Wellness App
 
-A mood-tracking mobile app with journaling and breathing exercises — built and published on the Play Store.
+A mood-tracking mobile app with journaling and breathing exercises, built and published on the Play Store.
 
 App Dev · Month 5📊
 
 #### Social Media Data Story
 
-Analysed real Instagram/Twitter data to reveal trends about teen screen time — presented at school assembly.
+Analysed real Instagram/Twitter data to reveal trends about teen screen time, presented at school assembly.
 
 Data Science · Month 7✨
 
 #### AI Creative Writing Tool
 
-A generative AI tool that writes poetry, stories, and songs in different styles — powered by OpenAI API.
+A generative AI tool that writes poetry, stories, and songs in different styles, powered by OpenAI API.
 
 GenAI · Month 9
 
@@ -339,7 +339,7 @@ per month · 1 private class/week (4 a month)
 - **1 instructor : 1 student always**
 - Fully personalised curriculum
 - Female mentor option available
-- Flexible schedule — her time
+- Flexible schedule, her time
 - Faster progression pace
 - Monthly parent-mentor sync call
 - Code Queens certificate
@@ -354,7 +354,7 @@ Common Questions
 
 Honest answers. No fluff.
 
-Are coding classes really good for girls specifically?+Absolutely. Research consistently shows girls often outperform boys in coding when given the right support and environment. The key is removing social pressure and embracing a collaborative, encouraging atmosphere — exactly what we create. Many of India's top tech leaders are women who started coding in their teens.What are Princess Coders, Code Queens, and She Coders Elite?+These are our three dedicated girls programs at different levels. Princess Coders is for ages 8-12 — a beginner-friendly, fun introduction to coding. Code Queens is our advanced tech and leadership program for teens aged 13-18. She Coders Elite is the ultra-elite program for serious learners aged 16+ aiming for top colleges and tech careers. All run in small, supportive batches with expert instructors.My daughter is shy and scared of making mistakes. Will she fit in?+This is our most common concern — and it's exactly why our girls programs exist. We actively celebrate mistakes as learning moments. Instructors ask questions before giving answers. Every student is encouraged to share her work. By month 2, almost every student who joined nervously is the one explaining concepts to her batch-mates.What age can my daughter start?+We welcome girls from age 6 to 18+ (including college students). For ages 8-10, we start with Scratch and visual block coding via Princess Coders. From age 10+, we move into Python. Teens aged 13+ join Code Queens, while ambitious girls 16+ can apply for She Coders Elite.Will this help with school board exams and college applications?+Significantly. Girls who learn Python and AI at Modern Age Coders consistently score higher in Class 12 CS board exams. The portfolio of real projects (apps, websites, AI tools) they build also strengthens college applications for engineering, CS, and data science programs.Is there a free trial before committing?+Yes — all new students get a completely free, no-obligation demo class. Your daughter experiences the teaching style, meets the instructor, and gets to ask questions. Most girls join within 24 hours of the demo. No payment is required. Just book below!
+Are coding classes really good for girls specifically?+Absolutely. Research consistently shows girls often outperform boys in coding when given the right support and environment. The key is removing social pressure and embracing a collaborative, encouraging atmosphere, exactly what we create. Many of India's top tech leaders are women who started coding in their teens.What are Princess Coders, Code Queens, and She Coders Elite?+These are our three dedicated girls programs at different levels. Princess Coders is for ages 8-12, a beginner-friendly, fun introduction to coding. Code Queens is our advanced tech and leadership program for teens aged 13-18. She Coders Elite is the ultra-elite program for serious learners aged 16+ aiming for top colleges and tech careers. All run in small, supportive batches with expert instructors.My daughter is shy and scared of making mistakes. Will she fit in?+This is our most common concern, and it's exactly why our girls programs exist. We actively celebrate mistakes as learning moments. Instructors ask questions before giving answers. Every student is encouraged to share her work. By month 2, almost every student who joined nervously is the one explaining concepts to her batch-mates.What age can my daughter start?+We welcome girls from age 6 to 18+ (including college students). For ages 8-10, we start with Scratch and visual block coding via Princess Coders. From age 10+, we move into Python. Teens aged 13+ join Code Queens, while ambitious girls 16+ can apply for She Coders Elite.Will this help with school board exams and college applications?+Significantly. Girls who learn Python and AI at Modern Age Coders consistently score higher in Class 12 CS board exams. The portfolio of real projects (apps, websites, AI tools) they build also strengthens college applications for engineering, CS, and data science programs.Is there a free trial before committing?+Yes, all new students get a completely free, no-obligation demo class. Your daughter experiences the teaching style, meets the instructor, and gets to ask questions. Most girls join within 24 hours of the demo. No payment is required. Just book below!
 
 ## STEM Education for Girls in India: Closing the Gender Gap
 
@@ -374,11 +374,11 @@ Book Your Free Demo
 
 Fill in the form and we'll reach out within 3 hours to schedule your daughter's free demo class. Zero commitment until she's ready to join.
 
-⭐ Code Queens demo slots are limited — secure her spot now.
+⭐ Code Queens demo slots are limited, secure her spot now.
 
 - [+91 9123366161](tel:+919123366161)
 - [contact@modernagecoders.com](mailto:contact@modernagecoders.com)
-- Mon–Sun · 9 AM – 9 PM IST
+- Mon–Sun · 9 AM: 9 PM IST
 
 [WhatsApp Now](https://wa.me/919123366161?text=Hi, I want to book a free demo for coding classes for girls)[Contact Page →](/contact)
 
@@ -388,12 +388,12 @@ We'll call you within 3 hours to schedule
 
 ## Why Girls Should Learn Coding in 2026
 
-Globally, women make up only 28% of the tech workforce — but that number is growing fast as more girls start coding early. Our coding classes for girls create a safe, encouraging environment where young women build real-world skills in Python, AI, and web development. With students joining from the US, UK, UAE, Singapore, and across the globe, our all-girls batches with female mentors help every girl discover that she belongs in tech.
+Globally, women make up only 28% of the tech workforce, but that number is growing fast as more girls start coding early. Our coding classes for girls create a safe, encouraging environment where young women build real-world skills in Python, AI, and web development. With students joining from the US, UK, UAE, Singapore, and across the globe, our all-girls batches with female mentors help every girl discover that she belongs in tech.
 
-### STEM Education for Girls — What Makes Our Program Different
+### STEM Education for Girls: What Makes Our Program Different
 
 - ✓ All-girls batches with female mentors
-- ✓ Safe, supportive learning environment — worldwide
+- ✓ Safe, supportive learning environment, worldwide
 - ✓ Focus on Python, AI, and Web Development
 - ✓ Real projects: build apps, websites, and AI tools
 - ✓ Community of 500+ girls already learning with us

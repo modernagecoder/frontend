@@ -17,7 +17,7 @@
     <!-- SEO Meta Tags -->
     <meta name="description" content="Extend classes with inheritance, use super keyword, understand method overriding, and the Object class.">
     <!-- meta keywords intentionally not emitted: Google has ignored it since 2009 and Bing
-         treats it as a SPAM SIGNAL — and Bing is the index ChatGPT/Copilot answer from.
+         treats it as a SPAM SIGNAL, and Bing is the index ChatGPT/Copilot answer from.
          See scripts/strip-meta-keywords.py. -->
     <meta name="author" content="Modern Age Coders">
     <meta name="robots" content="index, follow">
@@ -276,7 +276,7 @@ class Dog extends Animal {
         super(name);          // calls Animal(name)
         this.breed = breed;
     }
-}</code></pre><h3>3. Method Overriding</h3><p>When a subclass provides its own implementation of a method that exists in the superclass (same name, same parameters, same or covariant return type), it is called <strong>method overriding</strong>.</p><p>Rules of method overriding:</p><p>1. The method name and parameter list must be identical.</p><p>2. The return type must be the same or a subtype (covariant return type).</p><p>3. The access modifier cannot be more restrictive (public in parent cannot become private in child).</p><p>4. The method cannot throw broader checked exceptions.</p><p>5. <code>static</code>, <code>final</code>, and <code>private</code> methods cannot be overridden.</p><p>6. The <code>@Override</code> annotation is optional but strongly recommended — it catches typos at compile time.</p><pre><code>class Shape {
+}</code></pre><h3>3. Method Overriding</h3><p>When a subclass provides its own implementation of a method that exists in the superclass (same name, same parameters, same or covariant return type), it is called <strong>method overriding</strong>.</p><p>Rules of method overriding:</p><p>1. The method name and parameter list must be identical.</p><p>2. The return type must be the same or a subtype (covariant return type).</p><p>3. The access modifier cannot be more restrictive (public in parent cannot become private in child).</p><p>4. The method cannot throw broader checked exceptions.</p><p>5. <code>static</code>, <code>final</code>, and <code>private</code> methods cannot be overridden.</p><p>6. The <code>@Override</code> annotation is optional but strongly recommended. It catches typos at compile time.</p><pre><code>class Shape {
     double area() {
         return 0;
     }
@@ -312,7 +312,7 @@ System.out.println(d instanceof Object); // true (everything IS-A Object)</code>
 }
 class Dog extends Animal {
     @Override
-    Dog create() {         // Returns Dog instead of Animal — valid!
+    Dog create() {         // Returns Dog instead of Animal, valid!
         return new Dog();
     }
 }</code></pre><p>This is useful because the overriding method can return a more specific type, avoiding the need for casts at the call site.</p><h3>8. Constructor Chaining in Inheritance</h3><p>When you create a subclass object, the superclass constructor runs first. If the superclass does not have a no-arg constructor, you must explicitly call <code>super(args)</code> in the subclass constructor.</p><p>The chain goes from the most specific class up to Object: Object constructor -> ... -> immediate superclass constructor -> current class constructor. This ensures every level of the hierarchy is properly initialized.</p>
@@ -320,7 +320,7 @@ class Dog extends Animal {
 
             <section id="code-examples" class="content-section">
                 <h2>Code Examples</h2>
-                <div class="code-example"><div class="code-example-title">Basic Inheritance — extends and Inheriting Members</div><pre><code class="language-python">class Animal {
+                <div class="code-example"><div class="code-example-title">Basic Inheritance, extends and Inheriting Members</div><pre><code class="language-python">class Animal {
     String name;
 
     Animal(String name) {
@@ -416,9 +416,9 @@ public class Main {
         s1.display();
         s2.display();
     }
-}</code></pre><div class="code-example-explanation">Both Circle and Rectangle override the <code>area()</code> method from Shape. When <code>display()</code> calls <code>area()</code>, the overridden version runs based on the actual object type — Circle's area for s1 and Rectangle's area for s2. This is runtime polymorphism. The <code>@Override</code> annotation ensures the compiler verifies the method signature matches the superclass.</div><div class="code-example-output">Red shape, area = 78.54
+}</code></pre><div class="code-example-explanation">Both Circle and Rectangle override the <code>area()</code> method from Shape. When <code>display()</code> calls <code>area()</code>, the overridden version runs based on the actual object type: Circle's area for s1 and Rectangle's area for s2. This is runtime polymorphism. The <code>@Override</code> annotation ensures the compiler verifies the method signature matches the superclass.</div><div class="code-example-output">Red shape, area = 78.54
 Blue shape, area = 24.00</div></div>
-<div class="code-example"><div class="code-example-title">The super Keyword — Variable, Method, and Constructor</div><pre><code class="language-python">class Employee {
+<div class="code-example"><div class="code-example-title">The super Keyword: Variable, Method, and Constructor</div><pre><code class="language-python">class Employee {
     String name;
     double baseSalary;
 
@@ -440,13 +440,13 @@ class Manager extends Employee {
     double bonus;
 
     Manager(String name, double baseSalary, double bonus) {
-        super(name, baseSalary);     // super() — calls Employee constructor
+        super(name, baseSalary);     // super(), calls Employee constructor
         this.bonus = bonus;
     }
 
     @Override
     double calculatePay() {
-        return super.calculatePay() + bonus; // super.method() — calls Employee&#39;s version
+        return super.calculatePay() + bonus; // super.method(), calls Employee&#39;s version
     }
 
     @Override
@@ -463,7 +463,7 @@ public class Main {
     }
 }</code></pre><div class="code-example-explanation"><code>super(name, baseSalary)</code> calls the Employee constructor to initialize inherited fields. <code>super.calculatePay()</code> calls Employee's version to get the base salary, then adds the bonus. <code>super.getDetails()</code> reuses the parent's implementation and extends it. This pattern avoids duplicating the base logic in the subclass.</div><div class="code-example-output">Kavitha | Base: 80000.0 | Bonus: 15000.0 | Total: 95000.0
 Pay: 95000.0</div></div>
-<div class="code-example"><div class="code-example-title">The final Keyword — Class, Method, and Variable</div><pre><code class="language-python">class Animal {
+<div class="code-example"><div class="code-example-title">The final Keyword: Class, Method, and Variable</div><pre><code class="language-python">class Animal {
     final void breathe() {
         System.out.println(&quot;Breathing air&quot;);
     }
@@ -482,7 +482,7 @@ class Dog extends Animal {
     }
 }
 
-// final class — cannot be extended
+// final class, cannot be extended
 final class Utility {
     static int add(int a, int b) { return a + b; }
 }
@@ -499,7 +499,7 @@ public class Main {
         System.out.println(&quot;MAX: &quot; + MAX);
         // MAX = 200; // ERROR: cannot assign to final variable
 
-        // final reference — object content can change, reference cannot
+        // final reference, object content can change, reference cannot
         final StringBuilder sb = new StringBuilder(&quot;Hello&quot;);
         sb.append(&quot; World&quot;);
         System.out.println(sb);
@@ -509,7 +509,7 @@ public class Main {
 Woof!
 MAX: 100
 Hello World</div></div>
-<div class="code-example"><div class="code-example-title">The Object Class — toString, equals, hashCode</div><pre><code class="language-python">class Student {
+<div class="code-example"><div class="code-example-title">The Object Class, toString, equals, hashCode</div><pre><code class="language-python">class Student {
     String name;
     int rollNo;
 
@@ -570,7 +570,7 @@ class Cat extends Animal {
 
 public class Main {
     static void handleAnimal(Animal a) {
-        a.eat(); // Always safe — eat() is in Animal
+        a.eat(); // Always safe, eat() is in Animal
 
         if (a instanceof Dog) {
             Dog d = (Dog) a;     // Safe downcast
@@ -719,7 +719,7 @@ Dog: Max (Unknown)</div></div>
 
 class Dog extends Animal {
     Dog() {
-        // Java inserts super() here — but Animal has no no-arg constructor!
+        // Java inserts super() here, but Animal has no no-arg constructor!
     }
 }</code></pre></div><div class="error-message">error: constructor Animal in class Animal cannot be applied to given types; required: String; found: no arguments</div><div class="correct-code"><pre><code class="language-python">class Dog extends Animal {
     Dog() {
@@ -811,7 +811,7 @@ class Dog extends Animal {
 
 Animal a = new Dog();
 a.makeSound();            // Calls Animal&#39;s version (not overridden!)
-// a.makeSound(&quot;Woof&quot;);  // ERROR: Animal does not have makeSound(String)</code></pre></div><div class="error-message">No compilation error, but the behavior is unexpected. Animal&#39;s makeSound() is not overridden — Dog has a different method with the same name but different parameters.</div><div class="correct-code"><pre><code class="language-python">class Dog extends Animal {
+// a.makeSound(&quot;Woof&quot;);  // ERROR: Animal does not have makeSound(String)</code></pre></div><div class="error-message">No compilation error, but the behavior is unexpected. Animal&#39;s makeSound() is not overridden: Dog has a different method with the same name but different parameters.</div><div class="correct-code"><pre><code class="language-python">class Dog extends Animal {
     @Override   // Use @Override to catch this mistake at compile time
     void makeSound() {
         System.out.println(&quot;Woof!&quot;);
@@ -826,8 +826,8 @@ a.makeSound(); // Now calls Dog&#39;s version: &quot;Woof!&quot;</code></pre></d
             <section id="summary" class="content-section">
                 <h2>Summary</h2>
                 <div class="summary-box"><ul><li>Inheritance allows a subclass to acquire fields and methods from a superclass using the extends keyword, establishing an IS-A relationship.</li>
-<li>Java supports single, multilevel, and hierarchical inheritance. Multiple inheritance with classes is NOT supported — use interfaces instead.</li>
-<li>The super keyword has three uses: super.variable (access hidden superclass field), super.method() (call overridden superclass method), and super() (call superclass constructor — must be the first statement).</li>
+<li>Java supports single, multilevel, and hierarchical inheritance. Multiple inheritance with classes is NOT supported. Use interfaces instead.</li>
+<li>The super keyword has three uses: super.variable (access hidden superclass field), super.method() (call overridden superclass method), and super() (call superclass constructor, must be the first statement).</li>
 <li>Method overriding provides a specialized implementation in the subclass with the same name and parameters as the superclass method. Use @Override annotation to let the compiler verify correctness.</li>
 <li>Overriding rules: same name and parameters, same or covariant return type, access cannot be more restrictive, cannot override static/final/private methods.</li>
 <li>The final keyword prevents modification: final class cannot be extended, final method cannot be overridden, final variable cannot be reassigned.</li>

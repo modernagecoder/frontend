@@ -48,15 +48,15 @@
       },
       {
         "type": "paragraph",
-        "text": "Artificial Intelligence is everywhere. It's in your phone's face recognition, Netflix recommendations, ChatGPT conversations, self-driving cars, and medical diagnoses. In 2024-2025, AI has exploded into mainstream consciousness with tools like ChatGPT, Gemini, Claude, and Midjourney transforming how we work, create, and learn. But what exactly is AI? How does it work? And most importantly—how can you learn it?"
+        "text": "Artificial Intelligence is everywhere. It's in your phone's face recognition, Netflix recommendations, ChatGPT conversations, self-driving cars, and medical diagnoses. In 2024-2025, AI has exploded into mainstream consciousness with tools like ChatGPT, Gemini, Claude, and Midjourney transforming how we work, create, and learn. But what exactly is AI? How does it work? And most importantly, how can you learn it?"
       },
       {
         "type": "paragraph",
-        "text": "If you're curious about AI but don't know where to start, you're in the right place. This comprehensive guide will answer all your questions: What is AI? Which programming languages should you learn? How deep should you go? What career paths exist? And most importantly—how do you actually get started? We'll also explore the ethical considerations that every AI practitioner needs to understand."
+        "text": "If you're curious about AI but don't know where to start, you're in the right place. This comprehensive guide will answer all your questions: What is AI? Which programming languages should you learn? How deep should you go? What career paths exist? And most importantly, how do you actually get started? We'll also explore the ethical considerations that every AI practitioner needs to understand."
       },
       {
         "type": "paragraph",
-        "text": "Whether you're a student, professional looking to switch careers, or just curious about the technology shaping our future—this guide is for you. The AI revolution isn't coming—it's already here. Companies are investing billions, new AI tools launch weekly, and the demand for AI skills has never been higher. Let's demystify AI together and prepare you for this exciting field."
+        "text": "Whether you're a student, professional looking to switch careers, or just curious about the technology shaping our future, this guide is for you. The AI revolution isn't coming, it's already here. Companies are investing billions, new AI tools launch weekly, and the demand for AI skills has never been higher. Let's demystify AI together and prepare you for this exciting field."
       },
       {
         "type": "callout",
@@ -72,11 +72,11 @@
       },
       {
         "type": "paragraph",
-        "text": "Let's start with the basics. Artificial Intelligence (AI) is the science of making computers do things that normally require human intelligence—like recognizing faces, understanding language, making decisions, or learning from experience."
+        "text": "Let's start with the basics. Artificial Intelligence (AI) is the science of making computers do things that normally require human intelligence, like recognizing faces, understanding language, making decisions, or learning from experience."
       },
       {
         "type": "paragraph",
-        "text": "Think of it this way: traditional programming is like giving a computer a recipe. You tell it exactly what to do, step by step. AI is different—you show the computer thousands of examples, and it figures out the pattern itself."
+        "text": "Think of it this way: traditional programming is like giving a computer a recipe. You tell it exactly what to do, step by step. AI is different. You show the computer thousands of examples, and it figures out the pattern itself."
       },
       {
         "type": "heading",
@@ -105,13 +105,13 @@
       },
       {
         "type": "paragraph",
-        "text": "All of these use AI. They learn from data, recognize patterns, and make decisions—without being explicitly programmed for every scenario."
+        "text": "All of these use AI. They learn from data, recognize patterns, and make decisions, without being explicitly programmed for every scenario."
       },
       {
         "type": "image",
         "url": "https://ik.imagekit.io/ysmxsdgmw4/articleimages/item_42_article.png",
         "alt": "Collage of everyday AI applications from smartphones to smart homes",
-        "caption": "AI is already part of your daily life—you just might not realize it"
+        "caption": "AI is already part of your daily life. You just might not realize it"
       },
       {
         "type": "heading",
@@ -121,7 +121,7 @@
       },
       {
         "type": "paragraph",
-        "text": "AI isn't just one thing—it's a family of related technologies. Here's how they fit together:"
+        "text": "AI isn't just one thing. It's a family of related technologies. Here's how they fit together:"
       },
       {
         "type": "heading",
@@ -156,7 +156,7 @@
       },
       {
         "type": "paragraph",
-        "text": "<strong>Example:</strong> Image recognition, language translation, ChatGPT—these all use deep learning because they need to understand complex, nuanced patterns."
+        "text": "<strong>Example:</strong> Image recognition, language translation, ChatGPT, these all use deep learning because they need to understand complex, nuanced patterns."
       },
       {
         "type": "heading",
@@ -165,7 +165,7 @@
       },
       {
         "type": "paragraph",
-        "text": "The newest buzzword! Generative AI creates new content—text, images, music, code. ChatGPT, DALL-E, Midjourney, and GitHub Copilot are all generative AI."
+        "text": "The newest buzzword! Generative AI creates new content, text, images, music, code. ChatGPT, DALL-E, Midjourney, and GitHub Copilot are all generative AI."
       },
       {
         "type": "callout",
@@ -221,7 +221,7 @@
       },
       {
         "type": "paragraph",
-        "text": "Once trained, the model can make predictions on new, real-world data. This is when it becomes useful—recognizing faces, recommending products, or generating text."
+        "text": "Once trained, the model can make predictions on new, real-world data. This is when it becomes useful, recognizing faces, recommending products, or generating text."
       },
       {
         "type": "callout",
@@ -256,11 +256,11 @@
         "type": "list",
         "style": "unordered",
         "items": [
-          "<strong>Easy to Learn:</strong> Simple, readable syntax—perfect for beginners",
-          "<strong>Massive Libraries:</strong> TensorFlow, PyTorch, scikit-learn, Keras—all the AI tools you need",
+          "<strong>Easy to Learn:</strong> Simple, readable syntax, perfect for beginners",
+          "<strong>Massive Libraries:</strong> TensorFlow, PyTorch, scikit-learn, Keras, all the AI tools you need",
           "<strong>Community Support:</strong> Millions of developers, tons of tutorials, active forums",
           "<strong>Industry Standard:</strong> Used by Google, Facebook, OpenAI, and virtually every AI company",
-          "<strong>Versatile:</strong> Works for data analysis, web development, automation—not just AI"
+          "<strong>Versatile:</strong> Works for data analysis, web development, automation, not just AI"
         ]
       },
       {
@@ -300,7 +300,7 @@
       },
       {
         "type": "paragraph",
-        "text": "Used when speed is crucial—robotics, game AI, embedded systems. More complex but faster execution."
+        "text": "Used when speed is crucial, robotics, game AI, embedded systems. More complex but faster execution."
       },
       {
         "type": "paragraph",
@@ -330,7 +330,7 @@
       },
       {
         "type": "paragraph",
-        "text": "Here's your step-by-step path from complete beginner to AI practitioner. This roadmap is realistic and proven—thousands have followed it successfully."
+        "text": "Here's your step-by-step path from complete beginner to AI practitioner. This roadmap is realistic and proven, thousands have followed it successfully."
       },
       {
         "type": "heading",
@@ -370,7 +370,7 @@
         "items": [
           "<strong>Linear Algebra:</strong> Vectors, matrices, matrix operations (sounds scary, but it's just organized numbers)",
           "<strong>Statistics & Probability:</strong> Mean, median, standard deviation, probability distributions",
-          "<strong>Calculus Basics:</strong> Derivatives (how things change)—needed for understanding how AI learns",
+          "<strong>Calculus Basics:</strong> Derivatives (how things change), needed for understanding how AI learns",
           "<strong>Don't Memorize:</strong> Understand concepts. Libraries handle the complex calculations"
         ]
       },
@@ -400,7 +400,7 @@
           "<strong>NumPy:</strong> Working with arrays and numerical data",
           "<strong>Pandas:</strong> Data manipulation and analysis (think Excel on steroids)",
           "<strong>Matplotlib & Seaborn:</strong> Data visualization (creating charts and graphs)",
-          "<strong>Data Cleaning:</strong> Real-world data is messy—learn to clean it",
+          "<strong>Data Cleaning:</strong> Real-world data is messy. Learn to clean it",
           "<strong>Exploratory Data Analysis:</strong> Understanding your data before building models"
         ]
       },
@@ -424,7 +424,7 @@
           "<strong>Supervised Learning:</strong> Classification (cat vs dog) and Regression (predicting prices)",
           "<strong>Unsupervised Learning:</strong> Clustering (grouping similar things) and Dimensionality Reduction",
           "<strong>Key Algorithms:</strong> Linear Regression, Logistic Regression, Decision Trees, Random Forests, K-Means",
-          "<strong>Model Evaluation:</strong> Accuracy, precision, recall, F1-score—how to measure if your model is good",
+          "<strong>Model Evaluation:</strong> Accuracy, precision, recall, F1-score, how to measure if your model is good",
           "<strong>Scikit-learn Library:</strong> The go-to library for traditional machine learning"
         ]
       },
@@ -622,7 +622,7 @@
       },
       {
         "type": "paragraph",
-        "text": "Here's your AI toolkit—the software you'll actually use:"
+        "text": "Here's your AI toolkit, the software you'll actually use:"
       },
       {
         "type": "heading",
@@ -829,7 +829,7 @@
       },
       {
         "type": "paragraph",
-        "text": "As you learn AI, it's crucial to understand the ethical implications. AI is powerful, and with great power comes great responsibility. Every AI practitioner—from beginners to experts—needs to consider these ethical dimensions."
+        "text": "As you learn AI, it's crucial to understand the ethical implications. AI is powerful, and with great power comes great responsibility. Every AI practitioner, from beginners to experts, needs to consider these ethical dimensions."
       },
       {
         "type": "heading",
@@ -887,7 +887,7 @@
       },
       {
         "type": "paragraph",
-        "text": "Many AI systems are 'black boxes'—they make decisions, but we can't easily understand why. This is problematic when AI affects people's lives:"
+        "text": "Many AI systems are 'black boxes'. They make decisions, but we can't easily understand why. This is problematic when AI affects people's lives:"
       },
       {
         "type": "list",
@@ -917,7 +917,7 @@
         "type": "list",
         "style": "unordered",
         "items": [
-          "<strong>Repetitive Tasks:</strong> Data entry, basic customer service, simple analysis—likely to be automated",
+          "<strong>Repetitive Tasks:</strong> Data entry, basic customer service, simple analysis, likely to be automated",
           "<strong>Creative Work:</strong> AI can assist but not replace human creativity and judgment",
           "<strong>New Opportunities:</strong> AI creates jobs in development, maintenance, ethics, and oversight",
           "<strong>Skill Shifts:</strong> Workers need retraining and upskilling to adapt"
@@ -959,7 +959,7 @@
       },
       {
         "type": "paragraph",
-        "text": "Generative AI can create convincing fake content—text, images, audio, video:"
+        "text": "Generative AI can create convincing fake content, text, images, audio, video:"
       },
       {
         "type": "list",
@@ -1005,7 +1005,7 @@
       },
       {
         "type": "paragraph",
-        "text": "Ethics isn't an afterthought—it should be integrated into every stage of AI development, from problem definition to deployment and monitoring. The most successful AI practitioners are those who build systems that are not just powerful, but also fair, transparent, and beneficial to society."
+        "text": "Ethics isn't an afterthought. It should be integrated into every stage of AI development, from problem definition to deployment and monitoring. The most successful AI practitioners are those who build systems that are not just powerful, but also fair, transparent, and beneficial to society."
       },
       {
         "type": "divider",
@@ -1111,7 +1111,7 @@
       },
       {
         "type": "paragraph",
-        "text": "<strong>Why this project:</strong> Introduces natural language processing (NLP) basics and classification—two fundamental AI skills. You'll understand how Gmail's spam filter works!"
+        "text": "<strong>Why this project:</strong> Introduces natural language processing (NLP) basics and classification, two fundamental AI skills. You'll understand how Gmail's spam filter works!"
       },
       {
         "type": "heading",
@@ -1338,51 +1338,51 @@
         "items": [
           {
             "title": "Do I need a computer science degree to learn AI?",
-            "content": "No! Many successful AI practitioners are self-taught or come from different backgrounds—physics, biology, economics, even art. What matters is your skills, projects, and ability to solve problems. A degree helps with job applications and provides structured learning, but it's not mandatory. Many companies now focus on skills and portfolio over degrees. Self-taught developers with strong GitHub profiles and project portfolios get hired regularly."
+            "content": "No! Many successful AI practitioners are self-taught or come from different backgrounds, physics, biology, economics, even art. What matters is your skills, projects, and ability to solve problems. A degree helps with job applications and provides structured learning, but it's not mandatory. Many companies now focus on skills and portfolio over degrees. Self-taught developers with strong GitHub profiles and project portfolios get hired regularly."
           },
           {
             "title": "How much math do I really need?",
-            "content": "For practical AI work (building applications, using libraries): high school math + basic linear algebra, statistics, and calculus concepts. You don't need to be a mathematician—libraries handle complex calculations. For AI research or building algorithms from scratch: more advanced math is needed (optimization, probability theory, linear algebra). Start with basics and learn more as needed. Don't let math fear stop you from starting—you can learn it alongside coding."
+            "content": "For practical AI work (building applications, using libraries): high school math + basic linear algebra, statistics, and calculus concepts. You don't need to be a mathematician, libraries handle complex calculations. For AI research or building algorithms from scratch: more advanced math is needed (optimization, probability theory, linear algebra). Start with basics and learn more as needed. Don't let math fear stop you from starting. You can learn it alongside coding."
           },
           {
             "title": "Can I learn AI while working full-time?",
-            "content": "Absolutely! Many people do. Dedicate 1-2 hours daily (early morning or evening). It'll take longer (18-24 months instead of 12), but it's totally doable. Consistency matters more than intensity. Use weekends for longer project sessions. Many successful AI engineers learned while working full-time. The key is sustainable, consistent effort—not burning out with 12-hour days."
+            "content": "Absolutely! Many people do. Dedicate 1-2 hours daily (early morning or evening). It'll take longer (18-24 months instead of 12), but it's totally doable. Consistency matters more than intensity. Use weekends for longer project sessions. Many successful AI engineers learned while working full-time. The key is sustainable, consistent effort, not burning out with 12-hour days."
           },
           {
             "title": "Should I learn TensorFlow or PyTorch?",
-            "content": "PyTorch is more beginner-friendly, has cleaner syntax, and is popular in research and education. TensorFlow is more common in production environments and has better deployment tools. Recommendation: Start with PyTorch for learning (easier to understand), then learn TensorFlow later if your job requires it. The concepts transfer easily—once you know one, learning the other takes just a few weeks. Don't overthink this choice; both are excellent."
+            "content": "PyTorch is more beginner-friendly, has cleaner syntax, and is popular in research and education. TensorFlow is more common in production environments and has better deployment tools. Recommendation: Start with PyTorch for learning (easier to understand), then learn TensorFlow later if your job requires it. The concepts transfer easily, once you know one, learning the other takes just a few weeks. Don't overthink this choice; both are excellent."
           },
           {
             "title": "Is AI going to take my job?",
-            "content": "AI will change jobs, not eliminate them entirely. It'll automate repetitive tasks (data entry, basic analysis, simple customer service) but create new opportunities (AI trainers, ethics specialists, AI-human collaboration roles). Jobs requiring creativity, emotional intelligence, complex problem-solving, and human judgment are safe. People who understand and work with AI will be in high demand. That's why learning it is smart—you'll be the one using AI, not being replaced by it. The real risk is not adapting."
+            "content": "AI will change jobs, not eliminate them entirely. It'll automate repetitive tasks (data entry, basic analysis, simple customer service) but create new opportunities (AI trainers, ethics specialists, AI-human collaboration roles). Jobs requiring creativity, emotional intelligence, complex problem-solving, and human judgment are safe. People who understand and work with AI will be in high demand. That's why learning it is smart. You'll be the one using AI, not being replaced by it. The real risk is not adapting."
           },
           {
             "title": "How long until I can get an AI job?",
-            "content": "With focused learning: 12-18 months to be job-ready for entry-level positions (ML Engineer, Junior Data Scientist). This assumes 1-2 hours daily study. Build a strong portfolio (4-6 substantial projects on GitHub), contribute to open source, network on LinkedIn and Twitter, and apply strategically. Some get jobs sooner (6-9 months if they already have programming experience), some take longer. Internships and freelance projects can accelerate the timeline. The job market for AI skills is strong—companies struggle to find qualified candidates."
+            "content": "With focused learning: 12-18 months to be job-ready for entry-level positions (ML Engineer, Junior Data Scientist). This assumes 1-2 hours daily study. Build a strong portfolio (4-6 substantial projects on GitHub), contribute to open source, network on LinkedIn and Twitter, and apply strategically. Some get jobs sooner (6-9 months if they already have programming experience), some take longer. Internships and freelance projects can accelerate the timeline. The job market for AI skills is strong, companies struggle to find qualified candidates."
           },
           {
             "title": "Do I need a powerful computer?",
-            "content": "For learning: No! Use Google Colab (free GPU access), Kaggle Notebooks (free GPU/TPU), or AWS/Google Cloud free tiers. A basic laptop (even 5 years old) is enough for learning. For serious projects or professional work: Eventually yes, but you can rent cloud GPUs (AWS, Google Cloud, Lambda Labs) for $0.50-$3/hour instead of buying expensive hardware ($2000-5000). Many professionals never buy their own GPU—they use cloud services. Start with free tools, upgrade only when necessary."
+            "content": "For learning: No! Use Google Colab (free GPU access), Kaggle Notebooks (free GPU/TPU), or AWS/Google Cloud free tiers. A basic laptop (even 5 years old) is enough for learning. For serious projects or professional work: Eventually yes, but you can rent cloud GPUs (AWS, Google Cloud, Lambda Labs) for $0.50-$3/hour instead of buying expensive hardware ($2000-5000). Many professionals never buy their own GPU. They use cloud services. Start with free tools, upgrade only when necessary."
           },
           {
             "title": "What's the difference between AI, ML, and Data Science?",
-            "content": "AI is the broad field (making computers intelligent). ML is a subset focused on learning from data. Data Science uses ML plus statistics and domain knowledge to extract insights and inform business decisions. Think of it as: AI = the goal, ML = the technique, Data Science = the application. There's significant overlap—many professionals do all three. Don't stress about labels; focus on learning skills. Job titles vary by company anyway."
+            "content": "AI is the broad field (making computers intelligent). ML is a subset focused on learning from data. Data Science uses ML plus statistics and domain knowledge to extract insights and inform business decisions. Think of it as: AI = the goal, ML = the technique, Data Science = the application. There's significant overlap, many professionals do all three. Don't stress about labels; focus on learning skills. Job titles vary by company anyway."
           },
           {
             "title": "Should I learn AI or web development first?",
-            "content": "If you're a complete beginner to programming: Start with web development (HTML, CSS, JavaScript) or Python basics. Get comfortable with programming concepts first (1-2 months). Then move to AI. If you already know programming basics: Jump straight into AI with Python. Web development and AI are different paths—choose based on your interests. That said, knowing both is valuable—many AI applications need web interfaces. Our <a href='/courses/full-stack-web-development-teens-masterclass'>Web Development course</a> and <a href='/courses/python-complete-masterclass-teens'>Python course</a> can help you start either path."
+            "content": "If you're a complete beginner to programming: Start with web development (HTML, CSS, JavaScript) or Python basics. Get comfortable with programming concepts first (1-2 months). Then move to AI. If you already know programming basics: Jump straight into AI with Python. Web development and AI are different paths, choose based on your interests. That said, knowing both is valuable, many AI applications need web interfaces. Our <a href='/courses/full-stack-web-development-teens-masterclass'>Web Development course</a> and <a href='/courses/python-complete-masterclass-teens'>Python course</a> can help you start either path."
           },
           {
             "title": "What's the difference between ChatGPT and traditional AI?",
-            "content": "ChatGPT is a Large Language Model (LLM)—a type of AI trained on massive text data to understand and generate human-like text. Traditional AI includes rule-based systems, classical ML algorithms (decision trees, linear regression), and earlier neural networks. LLMs like ChatGPT represent the latest evolution in AI—they're more flexible, understand context better, and can handle diverse tasks. However, traditional AI is still widely used for specific tasks where it's more efficient, interpretable, or accurate. Both have their place."
+            "content": "ChatGPT is a Large Language Model (LLM), a type of AI trained on massive text data to understand and generate human-like text. Traditional AI includes rule-based systems, classical ML algorithms (decision trees, linear regression), and earlier neural networks. LLMs like ChatGPT represent the latest evolution in AI. They're more flexible, understand context better, and can handle diverse tasks. However, traditional AI is still widely used for specific tasks where it's more efficient, interpretable, or accurate. Both have their place."
           },
           {
             "title": "Can I specialize in AI without learning to code?",
-            "content": "For using AI tools (ChatGPT, Midjourney): Yes, no coding needed. For AI strategy, product management, or ethics roles: Minimal coding, but understanding AI concepts is essential. For building AI systems (ML Engineer, Data Scientist, AI Researcher): Coding is absolutely necessary—it's the core skill. You can't build AI without programming, just like you can't build houses without construction skills. If you want to create AI (not just use it), embrace coding. Python is beginner-friendly—millions have learned it successfully."
+            "content": "For using AI tools (ChatGPT, Midjourney): Yes, no coding needed. For AI strategy, product management, or ethics roles: Minimal coding, but understanding AI concepts is essential. For building AI systems (ML Engineer, Data Scientist, AI Researcher): Coding is absolutely necessary. It's the core skill. You can't build AI without programming, just like you can't build houses without construction skills. If you want to create AI (not just use it), embrace coding. Python is beginner-friendly, millions have learned it successfully."
           },
           {
             "title": "Is 30/40/50 too old to learn AI?",
-            "content": "Absolutely not! Many successful AI practitioners started in their 30s, 40s, or even 50s. Your life experience, domain knowledge, and problem-solving skills are valuable assets. You might learn differently than 20-year-olds, but you bring maturity, focus, and real-world perspective. Age is not a barrier—motivation and consistency are what matter. Many companies value diverse age ranges for different perspectives. Start today, regardless of age. The best time to plant a tree was 20 years ago; the second best time is now."
+            "content": "Absolutely not! Many successful AI practitioners started in their 30s, 40s, or even 50s. Your life experience, domain knowledge, and problem-solving skills are valuable assets. You might learn differently than 20-year-olds, but you bring maturity, focus, and real-world perspective. Age is not a barrier, motivation and consistency are what matter. Many companies value diverse age ranges for different perspectives. Start today, regardless of age. The best time to plant a tree was 20 years ago; the second best time is now."
           }
         ]
       },
@@ -1400,21 +1400,21 @@
         "style": "unordered",
         "items": [
           "<strong>What AI is:</strong> Technology that enables computers to learn and make decisions",
-          "<strong>Types of AI:</strong> Machine Learning, Deep Learning, Generative AI—each building on the previous",
-          "<strong>Programming Language:</strong> Start with Python—it's the clear winner for AI",
+          "<strong>Types of AI:</strong> Machine Learning, Deep Learning, Generative AI, each building on the previous",
+          "<strong>Programming Language:</strong> Start with Python. It's the clear winner for AI",
           "<strong>Learning Path:</strong> Foundations → Math → Data Science → ML → Deep Learning → Specialization",
-          "<strong>How Deep:</strong> Depends on your goals—most should aim for Level 2 (AI Implementer)",
+          "<strong>How Deep:</strong> Depends on your goals. Most should aim for Level 2 (AI Implementer)",
           "<strong>Career Paths:</strong> ML Engineer, Data Scientist, AI Researcher, and many more",
           "<strong>Timeline:</strong> 12-18 months of consistent learning to become job-ready"
         ]
       },
       {
         "type": "paragraph",
-        "text": "Here's the truth: AI isn't magic, and it's not impossibly difficult. It's a skill you can learn, just like any other. Yes, it takes time. Yes, it requires effort. Yes, you'll struggle sometimes. But thousands of people from all backgrounds have learned AI—and you can too."
+        "text": "Here's the truth: AI isn't magic, and it's not impossibly difficult. It's a skill you can learn, just like any other. Yes, it takes time. Yes, it requires effort. Yes, you'll struggle sometimes. But thousands of people from all backgrounds have learned AI. And you can too."
       },
       {
         "type": "paragraph",
-        "text": "The AI revolution is happening right now. Companies are desperately looking for people with AI skills. New applications are being discovered daily. The opportunities are massive—but only for those who take action."
+        "text": "The AI revolution is happening right now. Companies are desperately looking for people with AI skills. New applications are being discovered daily. The opportunities are massive, but only for those who take action."
       },
       {
         "type": "paragraph",
@@ -1452,7 +1452,7 @@
         "type": "callout",
         "calloutType": "success",
         "title": "Your Next Step",
-        "text": "Close this article. Open a Python tutorial or sign up for a course. Write your first line of code today. That's how every AI expert started—with a single step. Take yours now."
+        "text": "Close this article. Open a Python tutorial or sign up for a course. Write your first line of code today. That's how every AI expert started, with a single step. Take yours now."
       },
       {
         "type": "button",

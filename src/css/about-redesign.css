@@ -1,5 +1,5 @@
 /* =====================================================================
-   About page — editorial reskin (pairs with editorial-theme.css)
+   About page, editorial reskin (pairs with editorial-theme.css)
    Keeps all content/markup; restyles to the "Ledger & Proof" system.
    ===================================================================== */
 
@@ -57,7 +57,7 @@
 .course-showcase-card::before{content:"";display:block;height:3px;background:var(--amber);transform:scaleX(0);transform-origin:left;transition:transform .3s}
 .course-showcase-card:hover{transform:translateY(-5px);box-shadow:var(--shadow-md);border-color:rgba(180,83,9,.4)}
 .course-showcase-card:hover::before{transform:scaleX(1)}
-/* the stock course thumbnails are loud kid-brand graphics — drop them for a
+/* the stock course thumbnails are loud kid-brand graphics, drop them for a
    serious, text-forward editorial card (alt text stays in DOM for SEO) */
 .course-img-wrapper{position:static;padding:1.5rem 1.5rem 0;text-align:center}
 body.editorial .course-img-wrapper img{display:none}
@@ -103,7 +103,7 @@ body.editorial .course-img-wrapper img{display:none}
 .faq-inner{width:100%}
 .faq-list{display:flex;flex-direction:column;gap:.8rem;margin-top:.5rem}
 .faq-item{background:var(--surface);border:1px solid var(--line);border-radius:12px;overflow:hidden;transition:border-color .2s}
-/* open state is keyed on .open only — the page's scroll-reveal also adds
+/* open state is keyed on .open only, the page's scroll-reveal also adds
    .active to every .faq-item, so we must NOT use .active here */
 .faq-item.open{border-color:rgba(180,83,9,.4)}
 .faq-question{width:100%;display:flex;align-items:center;justify-content:space-between;gap:1rem;background:none;border:none;cursor:pointer;text-align:left;padding:1.2rem 1.4rem;font-family:var(--font-display);font-weight:600;font-size:1.05rem;color:var(--ink)}

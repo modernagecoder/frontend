@@ -17,7 +17,7 @@
     <!-- SEO Meta Tags -->
     <meta name="description" content="Build websites that work on phones, tablets, and desktops. Mobile-first approach, breakpoints, and fluid layouts.">
     <!-- meta keywords intentionally not emitted: Google has ignored it since 2009 and Bing
-         treats it as a SPAM SIGNAL — and Bing is the index ChatGPT/Copilot answer from.
+         treats it as a SPAM SIGNAL, and Bing is the index ChatGPT/Copilot answer from.
          See scripts/strip-meta-keywords.py. -->
     <meta name="author" content="Modern Age Coders">
     <meta name="robots" content="index, follow">
@@ -202,7 +202,7 @@
 
             <section id="what" class="content-section">
                 <h2>What Is It?</h2>
-                <h2>What Is Responsive Design?</h2><p>Responsive design is the practice of building websites that look good and work well on ANY screen size — a 5-inch phone, a 10-inch tablet, a 15-inch laptop, a 27-inch desktop, even a 50-inch TV. Instead of building a separate website for each device, you build ONE site that adapts.</p><p>The three pillars of responsive design are:</p><ol><li><strong>Fluid layouts</strong> — using % and fr units so things stretch and shrink</li><li><strong>Flexible images</strong> — <code>max-width: 100%</code> so pictures never overflow</li><li><strong>Media queries</strong> — changing CSS based on screen width</li></ol><pre><code>/* Media query example */
+                <h2>What Is Responsive Design?</h2><p>Responsive design is the practice of building websites that look good and work well on ANY screen size, a 5-inch phone, a 10-inch tablet, a 15-inch laptop, a 27-inch desktop, even a 50-inch TV. Instead of building a separate website for each device, you build ONE site that adapts.</p><p>The three pillars of responsive design are:</p><ol><li><strong>Fluid layouts</strong>, using % and fr units so things stretch and shrink</li><li><strong>Flexible images</strong>, <code>max-width: 100%</code> so pictures never overflow</li><li><strong>Media queries</strong>, changing CSS based on screen width</li></ol><pre><code>/* Media query example */
 @media (min-width: 768px) {
   .grid {
     grid-template-columns: repeat(3, 1fr);
@@ -246,7 +246,7 @@
 /* Desktop and up */
 @media (min-width: 1024px) {
   .grid { grid-template-columns: repeat(4, 1fr); }
-}</code></pre><p><strong>Desktop-first</strong>: write base styles for desktop, then use <code>max-width</code> queries to override on smaller screens. This was common in the 2010s but is now considered backward. Mobile-first forces you to think mobile first, which usually leads to cleaner code.</p><h3>4. Common Breakpoints</h3><p>Breakpoints are the widths at which your layout changes. There is no 'one true' set, but these are widely used:</p><ul><li><strong>640px</strong> — large phone / phablet</li><li><strong>768px</strong> — tablet (also iPad portrait)</li><li><strong>1024px</strong> — small laptop / iPad landscape</li><li><strong>1280px</strong> — standard desktop</li><li><strong>1536px</strong> — large desktop</li></ul><p>Do not pick breakpoints based on specific devices. Pick them based on where YOUR layout breaks. If your cards start looking squished at 620px, add a breakpoint at 620px.</p><h3>5. Relative Units - Your Best Friends</h3><p>Fixed pixel sizes do not scale. Use relative units so your design adapts:</p><pre><code>font-size: 16px;     /* Absolute — always 16 pixels */
+}</code></pre><p><strong>Desktop-first</strong>: write base styles for desktop, then use <code>max-width</code> queries to override on smaller screens. This was common in the 2010s but is now considered backward. Mobile-first forces you to think mobile first, which usually leads to cleaner code.</p><h3>4. Common Breakpoints</h3><p>Breakpoints are the widths at which your layout changes. There is no 'one true' set, but these are widely used:</p><ul><li><strong>640px</strong>, large phone / phablet</li><li><strong>768px</strong>, tablet (also iPad portrait)</li><li><strong>1024px</strong>, small laptop / iPad landscape</li><li><strong>1280px</strong>, standard desktop</li><li><strong>1536px</strong>, large desktop</li></ul><p>Do not pick breakpoints based on specific devices. Pick them based on where YOUR layout breaks. If your cards start looking squished at 620px, add a breakpoint at 620px.</p><h3>5. Relative Units - Your Best Friends</h3><p>Fixed pixel sizes do not scale. Use relative units so your design adapts:</p><pre><code>font-size: 16px;     /* Absolute, always 16 pixels */
 font-size: 1rem;     /* Relative to root (html) font-size */
 font-size: 1.2em;    /* Relative to parent font-size */
 font-size: 50%;      /* Relative to parent */
@@ -539,7 +539,7 @@ font-size: 3vmax;    /* 3% of the LARGER viewport dimension */</code></pre><p><s
     &lt;p class=&quot;hint&quot;&gt;Tip: Change your OS theme to dark mode and reload. The page will switch automatically.&lt;/p&gt;
   &lt;/div&gt;
 &lt;/body&gt;
-&lt;/html&gt;</code></pre><div class="code-example-explanation"><code>@media (prefers-color-scheme: dark)</code> detects the user's OS theme preference. CSS variables get redefined inside that media query. The whole page switches themes automatically — no button, no JavaScript. This is the most elegant dark mode implementation possible.</div><div class="code-example-output">A page that displays in light mode or dark mode depending on your OS setting. No button needed.</div></div>
+&lt;/html&gt;</code></pre><div class="code-example-explanation"><code>@media (prefers-color-scheme: dark)</code> detects the user's OS theme preference. CSS variables get redefined inside that media query. The whole page switches themes automatically, no button, no JavaScript. This is the most elegant dark mode implementation possible.</div><div class="code-example-output">A page that displays in light mode or dark mode depending on your OS setting. No button needed.</div></div>
             </section>
 
             <section id="common-mistakes" class="content-section">
@@ -569,7 +569,7 @@ font-size: 3vmax;    /* 3% of the LARGER viewport dimension */</code></pre><p><s
 <div class="mistake-card">
                 <h3>Images That Overflow</h3>
                 <div class="wrong-code"><pre><code class="language-python">img {
-  /* No rules — uses natural pixel size */
+  /* No rules, uses natural pixel size */
 }
 /* A 2000px wide image breaks every mobile layout */</code></pre></div><div class="error-message">Images display at their native pixel size, which overflows narrow containers and causes horizontal scroll. The page becomes unusable on phones.</div><div class="correct-code"><pre><code class="language-python">img {
   max-width: 100%;
@@ -602,7 +602,7 @@ font-size: 3vmax;    /* 3% of the LARGER viewport dimension */</code></pre><p><s
 <li>Common breakpoints: 640px (phablet), 768px (tablet), 1024px (small laptop), 1280px (desktop). But pick breakpoints based on where YOUR content breaks, not specific devices.</li>
 <li>Use relative units: &lt;code&gt;rem&lt;/code&gt; for font sizes, &lt;code&gt;%&lt;/code&gt; and &lt;code&gt;fr&lt;/code&gt; for widths, &lt;code&gt;vw&lt;/code&gt;/&lt;code&gt;vh&lt;/code&gt; for viewport-relative sizes. Avoid fixed pixel sizes for layout dimensions.</li>
 <li>Fluid images: &lt;code&gt;img { max-width: 100%; height: auto; }&lt;/code&gt;. One rule that makes every image fit any container.</li>
-<li>&lt;code&gt;clamp(min, preferred, max)&lt;/code&gt; creates fluid typography that scales smoothly between limits — no breakpoints needed.</li>
+<li>&lt;code&gt;clamp(min, preferred, max)&lt;/code&gt; creates fluid typography that scales smoothly between limits, no breakpoints needed.</li>
 <li>Use &lt;code&gt;display: none&lt;/code&gt; and &lt;code&gt;display: block&lt;/code&gt; inside media queries to show and hide elements at different breakpoints (like swapping a desktop nav for a hamburger menu on mobile).</li>
 <li>&lt;code&gt;@media (prefers-color-scheme: dark)&lt;/code&gt; detects the user&#39;s OS theme for automatic dark mode.</li>
 <li>Always order min-width media queries from smallest to largest. The later rules override earlier ones, so the desktop rules must come last.</li></ul></div>

@@ -1,22 +1,22 @@
 ---
-title: "Geometry Tutoring Online (USA) · 1:1 High School Geometry & Proofs — Modern Age Coders"
-description: "Live 1:1 online geometry tutoring for US students. We teach proofs as plain logical reasoning — congruence, similarity, circles, coordinate geometry and trig — so the subject clicks instead of confusing. Mentors in every US time zone. Priced for your country."
+title: "Geometry Tutoring Online (USA) · 1:1 High School Geometry & Proofs | Modern Age Coders"
+description: "Live 1:1 online geometry tutoring for US students. We teach proofs as plain logical reasoning, congruence, similarity, circles, coordinate geometry and trig, so the subject clicks instead of confusing. Mentors in every US time zone. Priced for your country."
 canonical: https://learn.modernagecoders.com/geometry-tutoring-online-usa
 source: src/pages/geometry-tutoring-online-usa.html
 ---
-> Live 1:1 online geometry tutoring for US students. We teach proofs as plain logical reasoning — congruence, similarity, circles, coordinate geometry and trig — so the subject clicks instead of confusing. Mentors in every US time zone. Priced for your country.
+> Live 1:1 online geometry tutoring for US students. We teach proofs as plain logical reasoning, congruence, similarity, circles, coordinate geometry and trig, so the subject clicks instead of confusing. Mentors in every US time zone. Priced for your country.
 
 Why geometry feels like a different subject
 
 ## Algebra asks "what's the answer?" Geometry asks "how do you know?"
 
-A student can be perfectly good at algebra and still hit a wall in geometry, and it surprises everyone. The reason is that geometry changes the question. It's the first course that asks you to *prove* something must be true — to lay out a logical argument others can follow — instead of just computing a number.
+A student can be perfectly good at algebra and still hit a wall in geometry, and it surprises everyone. The reason is that geometry changes the question. It's the first course that asks you to *prove* something must be true, to lay out a logical argument others can follow, instead of just computing a number.
 
 Faced with a proof and no clear formula to apply, students who relied on procedures don't know where to begin, and decide they're "bad at proofs."
 
 The second hurdle is visual. Geometry buries the information you need inside a figure, and a student who can't read the diagram can't start the problem, however good their algebra is.
 
-We treat both directly. We teach proof as a plain chain of "if this, then that" steps anyone can build, and we train figure-reading live on a shared whiteboard — so the diagram starts handing over its secrets.
+We treat both directly. We teach proof as a plain chain of "if this, then that" steps anyone can build, and we train figure-reading live on a shared whiteboard, so the diagram starts handing over its secrets.
 
 How we teach
 
@@ -26,15 +26,15 @@ Demystify the two things that make geometry feel hard, and the rest follows.
 
 ### Reframe proof as a chain of reasons
 
-A proof is just statements, each justified by the one before — no different from explaining your reasoning out loud. We make that structure obvious.
+A proof is just statements, each justified by the one before, no different from explaining your reasoning out loud. We make that structure obvious.
 
 ### Master the toolkit of facts
 
-Congruence criteria, angle relationships, circle theorems — your child learns these as tools to reach for, knowing exactly when each one applies.
+Congruence criteria, angle relationships, circle theorems. Your child learns these as tools to reach for, knowing exactly when each one applies.
 
 ### Train reading the figure
 
-We practise extracting given information, marking diagrams, and adding the auxiliary line that cracks a problem open — live, together.
+We practise extracting given information, marking diagrams, and adding the auxiliary line that cracks a problem open, live, together.
 
 ### Connect to algebra and the real plane
 
@@ -42,7 +42,7 @@ Coordinate geometry and trigonometry tie geometry back to the algebra your child
 
 See it for yourself
 
-## A two-column proof — really just a chain of "if-then" steps.
+## A two-column proof: really just a chain of "if-then" steps.
 
 Worked example · proof reasoning
 
@@ -52,7 +52,7 @@ Worked example · proof reasoning
 
 Given: triangle ABC with AB = AC. Prove: ∠B = ∠C.1. draw the bisector from A to midpoint M of BC (construction)2. AB = AC (given)3. BM = CM (M is the midpoint)4. AM = AM (same segment)5. △ABM ≅ △ACM (SSS, from 2–4)6. ∠B = ∠C (matching parts of congruent triangles)
 
-Every line is just "this is true, and here's why." Once a student sees that a proof is a chain of small justified steps — not a magic ritual — the panic disappears, and they can build their own. This is the exact same skill as explaining why a piece of code is correct, which is no coincidence in how we teach it.
+Every line is just "this is true, and here's why." Once a student sees that a proof is a chain of small justified steps, not a magic ritual, the panic disappears, and they can build their own. This is the exact same skill as explaining why a piece of code is correct, which is no coincidence in how we teach it.
 
 Why a coding school teaches geometry
 
@@ -60,7 +60,7 @@ Why a coding school teaches geometry
 
 ### If-then logic
 
-A proof is a chain of conditionals — exactly the if-then logic at the heart of every program. Master one and the other feels familiar.
+A proof is a chain of conditionals, exactly the if-then logic at the heart of every program. Master one and the other feels familiar.
 
 ### Using what's given
 
@@ -68,9 +68,9 @@ A proof works only from stated facts; good code works only from its inputs. Both
 
 ### One sound step at a time
 
-Build a proof line by line, each justified, and you're debugging in advance — the same discipline that keeps a program correct.
+Build a proof line by line, each justified, and you're debugging in advance, the same discipline that keeps a program correct.
 
-We're Modern Age Coders. The logical reasoning at the core of geometry is the same reasoning that makes a strong programmer — which is why we treat proof not as a chore but as the most transferable thinking a student will learn in high school math.
+We're Modern Age Coders. The logical reasoning at the core of geometry is the same reasoning that makes a strong programmer, which is why we treat proof not as a chore but as the most transferable thinking a student will learn in high school math.
 
 What we cover
 
@@ -104,7 +104,7 @@ Areas and volumes of solids, the Pythagorean theorem, and the sine, cosine and t
 
 Who this is for
 
-## The right fit — and an honest word on what to expect.
+## The right fit: and an honest word on what to expect.
 
 **This fits** the student who was fine until proofs appeared, the one who can't "see" the figures, and the strong student who wants geometry to be a genuine strength before pre-calc. We diagnose which it is and teach accordingly.
 
@@ -167,7 +167,7 @@ Who teaches your child
 
 ## Mentors who make proofs feel like common sense.
 
-A good geometry teacher can take the dread out of a proof by showing it's just reasoning written carefully. Our mentors do that, and they're patient with the visualization struggle — drawing, re-drawing and marking figures until your child can do it themselves.
+A good geometry teacher can take the dread out of a proof by showing it's just reasoning written carefully. Our mentors do that, and they're patient with the visualization struggle, drawing, re-drawing and marking figures until your child can do it themselves.
 
 The same mentor stays through the course, so they know whether the next gap is logical or visual and aim each session at it.
 
@@ -189,7 +189,7 @@ An honest comparison
 | Works from your child's class | Yes | No | Sometimes |
 | Monthly price | $10–20 | $200–600+ |
 
-An app can give the answer to a geometry problem, but it can't teach your child to construct a proof — which is the entire skill the course is built to develop.
+An app can give the answer to a geometry problem, but it can't teach your child to construct a proof, which is the entire skill the course is built to develop.
 
 Common questions
 
@@ -197,11 +197,11 @@ Common questions
 
 My child is fine at algebra but lost in geometry. Why?
 
-Geometry asks you to build a logical argument, not just compute. A student strong at procedures can struggle to justify why something must be true — a learnable skill we coach directly.
+Geometry asks you to build a logical argument, not just compute. A student strong at procedures can struggle to justify why something must be true, a learnable skill we coach directly.
 
 Are proofs really necessary, or can we skip them?
 
-Proofs are the point of geometry — where students first learn rigorous reasoning that pays off everywhere later. We make them approachable rather than skipping them.
+Proofs are the point of geometry, where students first learn rigorous reasoning that pays off everywhere later. We make them approachable rather than skipping them.
 
 Which geometry topics do you cover?
 
@@ -209,27 +209,27 @@ Definitions and postulates, angles, congruence and similarity, triangle theorems
 
 How much does it cost?
 
-USD 150 per month for private 1:1 — eight live classes, two each week. Small-group option USD 100 per month. No contract; cancel any time.
+USD 150 per month for private 1:1, eight live classes, two each week. Small-group option USD 100 per month. No contract; cancel any time.
 
 Is there a free trial?
 
-Yes — the first session is free, no card needed. We see whether the trouble is proofs, computation or visualization.
+Yes, the first session is free, no card needed. We see whether the trouble is proofs, computation or visualization.
 
 Will my child keep the same tutor?
 
-Yes — one mentor through the course who works from your child's class and homework.
+Yes, one mentor through the course who works from your child's class and homework.
 
 My child struggles to 'see' the figures. Can you help?
 
-Yes — spatial visualization is trainable. We draw, mark and manipulate figures live on a shared whiteboard.
+Yes, spatial visualization is trainable. We draw, mark and manipulate figures live on a shared whiteboard.
 
 Does this help with SAT and ACT geometry?
 
-Yes — both tests include geometry (the ACT especially), and the reasoning transfers. See our [SAT Math](/sat-math-tutoring-online) and [ACT Math](/act-math-tutoring-online) pages.
+Yes. Both tests include geometry (the ACT especially), and the reasoning transfers. See our [SAT Math](/sat-math-tutoring-online) and [ACT Math](/act-math-tutoring-online) pages.
 
 Are sessions live?
 
-Yes — live, one-to-one, with a shared whiteboard, which matters more in geometry than almost any subject.
+Yes, live, one-to-one, with a shared whiteboard, which matters more in geometry than almost any subject.
 
 How soon will we see progress?
 
@@ -259,7 +259,7 @@ Real student projects
 
 Every one is a real, live project shipped by a Modern Age Coders student. Explore more in [Student Labs](/student-labs).
 
-[![Babu — 90 Second Maths Challenge](/images/projects/babu.webp)GameBabu — 90 Second Maths ChallengeAn exciting 90-second maths challenge with random problems under time pressure, and a dynamic leaderboard powered by Firebase/MongoDB with real-time score updates.by Modern Age CodersOpen the live project ↗](https://babu.modernagecoders.com)[![NutriLife — AI Nutrition Coach](/images/projects/nutrilife.webp)AI & MLNutriLife — AI Nutrition CoachSnap a photo of any meal and NutriLife instantly names every food, then breaks down the calories, macros, vitamins and minerals — powered by AI. Bhavya vibe-coded it from a single idea: shaped the app in prompts, then wired up the AI food-recognition, daily tracking and smart coaching by hand.by BhavyaOpen the live project ↗](https://nutrilife-bhavya.lovable.app)[![GuardianX — AI Bodyguard for the Internet](/images/projects/guardianx.webp)AI & MLGuardianX — AI Bodyguard for the InternetPaste any suspicious link or message and GuardianX returns an instant AI verdict before you become a victim — plus a link scanner, safety score, breach check and live scam alerts built for India. Vibe-coded from idea to working product through prompts, then refined until it genuinely understands how phishing and scams work.by VivaanOpen the live project ↗](https://guardianx-cybersaver.lovable.app)
+[![Babu, 90 Second Maths Challenge](/images/projects/babu.webp)GameBabu, 90 Second Maths ChallengeAn exciting 90-second maths challenge with random problems under time pressure, and a dynamic leaderboard powered by Firebase/MongoDB with real-time score updates.by Modern Age CodersOpen the live project ↗](https://babu.modernagecoders.com)[![NutriLife, AI Nutrition Coach](/images/projects/nutrilife.webp)AI & MLNutriLife, AI Nutrition CoachSnap a photo of any meal and NutriLife instantly names every food, then breaks down the calories, macros, vitamins and minerals, powered by AI. Bhavya vibe-coded it from a single idea: shaped the app in prompts, then wired up the AI food-recognition, daily tracking and smart coaching by hand.by BhavyaOpen the live project ↗](https://nutrilife-bhavya.lovable.app)[![GuardianX, AI Bodyguard for the Internet](/images/projects/guardianx.webp)AI & MLGuardianX, AI Bodyguard for the InternetPaste any suspicious link or message and GuardianX returns an instant AI verdict before you become a victim, plus a link scanner, safety score, breach check and live scam alerts built for India. Vibe-coded from idea to working product through prompts, then refined until it genuinely understands how phishing and scams work.by VivaanOpen the live project ↗](https://guardianx-cybersaver.lovable.app)
 
 ---
 

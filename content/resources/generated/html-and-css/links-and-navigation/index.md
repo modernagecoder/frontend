@@ -37,7 +37,7 @@ Every website has a menu, a footer, and buttons that take you somewhere. All of 
 
 ### 2. Linking to Other Pages Is Powerful
 
-You can send users to any web page in the world with a single link. Share your favourite YouTube video, your project on GitHub, or your photo on Instagram — all with one `` tag.
+You can send users to any web page in the world with a single link. Share your favourite YouTube video, your project on GitHub, or your photo on Instagram, all with one `` tag.
 
 ### 3. SEO Loves Good Links
 
@@ -73,7 +73,7 @@ Examples:
 
 ### Internal Links (Relative Paths)
 
-An **internal link** goes to another page within the same website. You use a **relative path** — a path relative to the current HTML file.
+An **internal link** goes to another page within the same website. You use a **relative path**, a path relative to the current HTML file.
 
 PathMeaning`about.html`A file in the same folder`./about.html`Same thing (explicit 'same folder')`../index.html`Go up one folder, then find index.html`pages/contact.html`Go into 'pages' folder, find contact.html`../../home.html`Go up two folders, find home.html
 
@@ -85,9 +85,9 @@ An **external link** goes to another website. You use a complete URL starting wi
 [Wikipedia](https://www.wikipedia.org)
 ```
 
-Always prefer `https://` over `http://` — it is the secure version.
+Always prefer `https://` over `http://`. It is the secure version.
 
-### target="_blank" — Opening Links in a New Tab
+### target="_blank": Opening Links in a New Tab
 
 By default, clicking a link replaces the current page. To open the link in a new browser tab (so users can come back to your page), use `target="_blank"`:
 
@@ -101,8 +101,8 @@ However, when you use `target="_blank"`, there is a security and performance iss
 [Google](https://www.google.com)
 ```
 
-**noopener** — prevents the new page from using `window.opener` to control the original page.
-**noreferrer** — does not send the referring URL to the new page (adds extra privacy).
+**noopener**, prevents the new page from using `window.opener` to control the original page.
+**noreferrer**, does not send the referring URL to the new page (adds extra privacy).
 
 ### Anchor Links (Same-Page Navigation)
 
@@ -170,7 +170,7 @@ The `title` attribute creates a tooltip that shows when users hover over the lin
 [About](about.html)
 ```
 
-Do not rely on this for important information — mobile users cannot see tooltips.
+Do not rely on this for important information, mobile users cannot see tooltips.
 
 ### Building a Navigation Menu
 
@@ -212,7 +212,7 @@ The `` tag is a semantic element that tells browsers and screen readers 'this is
 </html>
 ```
 
-This shows both kinds of links. Internal links use relative paths like `about.html` — they point to other files in the same folder. External links use full URLs starting with `https://`. Both types of links use the same `` tag.
+This shows both kinds of links. Internal links use relative paths like `about.html`. They point to other files in the same folder. External links use full URLs starting with `https://`. Both types of links use the same `` tag.
 
 **Output:**
 
@@ -400,7 +400,7 @@ A page with tooltips when hovering over links, and several examples of relative 
 <a>Click Me</a>
 ```
 
-The link is not clickable — it just appears as plain text (or blue underlined text that does nothing).
+The link is not clickable. It just appears as plain text (or blue underlined text that does nothing).
 
 **Correct:**
 
@@ -418,7 +418,7 @@ Every `` tag needs an `href` attribute to be a functioning link. Without it, the
 <a href="https://example.com" target="_blank">Example</a>
 ```
 
-Security and privacy vulnerability — the new tab can access window.opener and the referring URL is shared.
+Security and privacy vulnerability, the new tab can access window.opener and the referring URL is shared.
 
 **Correct:**
 
@@ -455,7 +455,7 @@ External links must start with `https://` (or `http://`). Without it, the browse
 <!-- But there is no element with id="contact-section" -->
 ```
 
-Clicking the link does nothing — there is no target to scroll to.
+Clicking the link does nothing. There is no target to scroll to.
 
 **Correct:**
 
@@ -464,7 +464,7 @@ Clicking the link does nothing — there is no target to scroll to.
 <h2 id="contact-section">Contact</h2>
 ```
 
-When using anchor links with `#`, you must have an element with a matching `id` attribute somewhere on the page. The ID in the href (after #) must match the id attribute exactly — case-sensitive.
+When using anchor links with `#`, you must have an element with a matching `id` attribute somewhere on the page. The ID in the href (after #) must match the id attribute exactly, case-sensitive.
 
 ### Wrong mailto Syntax
 
@@ -495,7 +495,7 @@ The correct protocol for email links is `mailto:` (with 'to' at the end), not `m
 - mailto: links open the user's email app with the address pre-filled. You can also pre-fill subject and body.
 - tel: links open the phone dialler on mobile devices. Include the country code starting with +.
 - The download attribute makes the browser download the file instead of opening it. You can also rename the file.
-- The title attribute creates a tooltip when users hover over the link — not visible on mobile, so do not rely on it for critical info.
+- The title attribute creates a tooltip when users hover over the link, not visible on mobile, so do not rely on it for critical info.
 - Navigation menus are usually wrapped in the  semantic element to tell browsers and screen readers 'this is navigation'.
 
 ## Related Topics

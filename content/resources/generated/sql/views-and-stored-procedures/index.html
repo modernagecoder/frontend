@@ -17,7 +17,7 @@
     <!-- SEO Meta Tags -->
     <meta name="description" content="Create reusable views, write stored procedures with parameters, loops, and user-defined functions.">
     <!-- meta keywords intentionally not emitted: Google has ignored it since 2009 and Bing
-         treats it as a SPAM SIGNAL — and Bing is the index ChatGPT/Copilot answer from.
+         treats it as a SPAM SIGNAL, and Bing is the index ChatGPT/Copilot answer from.
          See scripts/strip-meta-keywords.py. -->
     <meta name="author" content="Modern Age Coders">
     <meta name="robots" content="index, follow">
@@ -119,7 +119,7 @@
         "name": "Forgetting DELIMITER $ for Multi-Statement Bodies",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "The MySQL client ends every statement on a semicolon. A procedure body has internal semicolons, so you must change the delimiter to something like <code>$</code> for the duration of the CREATE statement and change it back afterwards. This is purely a client concern — the server does not care — but forgetting it is the single most common mistake."
+          "text": "The MySQL client ends every statement on a semicolon. A procedure body has internal semicolons, so you must change the delimiter to something like <code>$</code> for the duration of the CREATE statement and change it back afterwards. This is purely a client concern, the server does not care, but forgetting it is the single most common mistake."
         }
       },
       {
@@ -135,7 +135,7 @@
         "name": "Declaring Variables After Executable Statements",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "MySQL requires every <code>DECLARE</code> to appear at the top of its BEGIN...END block, before any executable statement. Nest a new BEGIN...END if you need to declare a variable later. Also note: user variables like <code>@x</code> do not need DECLARE — they are session-scoped. Only local variables (no <code>@</code>) require DECLARE."
+          "text": "MySQL requires every <code>DECLARE</code> to appear at the top of its BEGIN...END block, before any executable statement. Nest a new BEGIN...END if you need to declare a variable later. Also note: user variables like <code>@x</code> do not need DECLARE. They are session-scoped. Only local variables (no <code>@</code>) require DECLARE."
         }
       },
       {
@@ -236,7 +236,7 @@ CALL transfer_money(101, 102, 500.00);</code></pre><p>A view does not store rows
 
             <section id="why" class="content-section">
                 <h2>Why Does It Matter?</h2>
-                <h2>Why These Three Objects Matter</h2><h3>1. Hiding Schema Complexity from the Application</h3><p>A frontend engineer writing a dashboard for Aarav does not care that <code>active_customers</code> actually requires joining <code>customers</code>, <code>subscriptions</code>, and <code>user_flags</code> while filtering on three status columns. A view hides all that. The application writes <code>SELECT * FROM active_customers</code> and the schema behind the view is free to change.</p><h3>2. Security via Column and Row Filtering</h3><p>You can grant a read-only analyst access to a view that exposes only five columns out of a 30-column <code>employees</code> table — no salary, no Aadhaar, no manager notes. The underlying table remains inaccessible. This is how production systems keep PII away from BI tools.</p><h3>3. Atomic, Reusable Business Logic</h3><p>A money transfer is not one UPDATE; it is debit + credit + audit log + balance check, all inside a transaction. If this logic lives in the application, every service that transfers money must re-implement it (and eventually one of them will do it wrong). A stored procedure enforces the sequence in one place.</p><h3>4. Performance and Round Trips</h3><p>A procedure that runs ten queries incurs one network round trip. The same ten queries from an application server means ten TCP round trips. For bulk jobs (monthly billing, nightly reconciliation) this difference is measured in hours.</p><h3>5. Computed Columns Across the Database</h3><p>If Priya defines a function <code>gst_amount(price, state)</code>, every query in the warehouse can use it: <code>SELECT order_id, gst_amount(total, ship_state) FROM orders</code>. Tax logic lives in one place. When the rates change, one ALTER FUNCTION and every report is correct.</p>
+                <h2>Why These Three Objects Matter</h2><h3>1. Hiding Schema Complexity from the Application</h3><p>A frontend engineer writing a dashboard for Aarav does not care that <code>active_customers</code> actually requires joining <code>customers</code>, <code>subscriptions</code>, and <code>user_flags</code> while filtering on three status columns. A view hides all that. The application writes <code>SELECT * FROM active_customers</code> and the schema behind the view is free to change.</p><h3>2. Security via Column and Row Filtering</h3><p>You can grant a read-only analyst access to a view that exposes only five columns out of a 30-column <code>employees</code> table, no salary, no Aadhaar, no manager notes. The underlying table remains inaccessible. This is how production systems keep PII away from BI tools.</p><h3>3. Atomic, Reusable Business Logic</h3><p>A money transfer is not one UPDATE; it is debit + credit + audit log + balance check, all inside a transaction. If this logic lives in the application, every service that transfers money must re-implement it (and eventually one of them will do it wrong). A stored procedure enforces the sequence in one place.</p><h3>4. Performance and Round Trips</h3><p>A procedure that runs ten queries incurs one network round trip. The same ten queries from an application server means ten TCP round trips. For bulk jobs (monthly billing, nightly reconciliation) this difference is measured in hours.</p><h3>5. Computed Columns Across the Database</h3><p>If Priya defines a function <code>gst_amount(price, state)</code>, every query in the warehouse can use it: <code>SELECT order_id, gst_amount(total, ship_state) FROM orders</code>. Tax logic lives in one place. When the rates change, one ALTER FUNCTION and every report is correct.</p>
             </section>
 
             <section id="explanation" class="content-section">
@@ -379,7 +379,7 @@ END REPEAT;
 my_loop: LOOP
     SET i = i + 1;
     IF i > 10 THEN LEAVE my_loop; END IF;
-END LOOP my_loop;</code></pre><h3>9. Cursors: Row-by-Row Processing</h3><p>A cursor lets you iterate over a result set one row at a time. Use them sparingly — a set-based UPDATE is usually 100x faster than a cursor loop. Cursors make sense when each row requires a distinct side effect (sending an email, calling another procedure).</p><pre><code>DELIMITER $
+END LOOP my_loop;</code></pre><h3>9. Cursors: Row-by-Row Processing</h3><p>A cursor lets you iterate over a result set one row at a time. Use them sparingly, a set-based UPDATE is usually 100x faster than a cursor loop. Cursors make sense when each row requires a distinct side effect (sending an email, calling another procedure).</p><pre><code>DELIMITER $
 CREATE PROCEDURE give_raise_to_top_performers()
 BEGIN
     DECLARE done INT DEFAULT 0;
@@ -403,7 +403,7 @@ BEGIN
     END LOOP;
     CLOSE cur;
 END$
-DELIMITER ;</code></pre><p>The <code>CONTINUE HANDLER FOR NOT FOUND</code> sets the <code>done</code> flag when the cursor runs out of rows — this is the standard idiom.</p><h3>10. User-Defined Functions</h3><p>A function is like a procedure but returns exactly one value and can be called from a SELECT. Functions cannot modify data (in MySQL, they can, but it is strongly discouraged and requires <code>DETERMINISTIC</code> or <code>READS SQL DATA</code> qualifiers).</p><pre><code>DELIMITER $
+DELIMITER ;</code></pre><p>The <code>CONTINUE HANDLER FOR NOT FOUND</code> sets the <code>done</code> flag when the cursor runs out of rows. This is the standard idiom.</p><h3>10. User-Defined Functions</h3><p>A function is like a procedure but returns exactly one value and can be called from a SELECT. Functions cannot modify data (in MySQL, they can, but it is strongly discouraged and requires <code>DETERMINISTIC</code> or <code>READS SQL DATA</code> qualifiers).</p><pre><code>DELIMITER $
 CREATE FUNCTION gst(price DECIMAL(10,2), rate DECIMAL(5,2))
 RETURNS DECIMAL(10,2)
 DETERMINISTIC
@@ -424,7 +424,7 @@ DROP FUNCTION  IF EXISTS gst;
 DROP VIEW      IF EXISTS active_customers;
 
 -- You cannot ALTER a procedure's body; drop and recreate.
--- ALTER PROCEDURE only changes characteristics like SQL SECURITY.</code></pre><h3>13. SQL SECURITY: DEFINER vs INVOKER</h3><p>By default a procedure runs with the privileges of the user who defined it (<code>SQL SECURITY DEFINER</code>). This lets you grant CALL permission to users who do not have direct access to the underlying tables — a common security pattern. Use <code>SQL SECURITY INVOKER</code> to run with the caller's privileges instead.</p><pre><code>CREATE PROCEDURE view_salary(IN emp_id INT)
+-- ALTER PROCEDURE only changes characteristics like SQL SECURITY.</code></pre><h3>13. SQL SECURITY: DEFINER vs INVOKER</h3><p>By default a procedure runs with the privileges of the user who defined it (<code>SQL SECURITY DEFINER</code>). This lets you grant CALL permission to users who do not have direct access to the underlying tables, a common security pattern. Use <code>SQL SECURITY INVOKER</code> to run with the caller's privileges instead.</p><pre><code>CREATE PROCEDURE view_salary(IN emp_id INT)
 SQL SECURITY INVOKER
 BEGIN
     SELECT salary FROM employees WHERE id = emp_id;
@@ -490,7 +490,7 @@ INSERT INTO west_orders (customer_id, total, region)
 VALUES (4, 500.00, &#39;WEST&#39;);
 -- OK
 
-SELECT * FROM west_orders;</code></pre><div class="code-example-explanation"><code>WITH CHECK OPTION</code> tells MySQL that every INSERT/UPDATE through the view must produce a row that still passes the view's WHERE clause. Without it, you could insert an EAST row through <code>west_orders</code> — the row would land in the base table but disappear from the view, which almost always indicates a bug.</div><div class="code-example-output">ERROR 1369 (HY000): CHECK OPTION failed &#39;shop.west_orders&#39;
+SELECT * FROM west_orders;</code></pre><div class="code-example-explanation"><code>WITH CHECK OPTION</code> tells MySQL that every INSERT/UPDATE through the view must produce a row that still passes the view's WHERE clause. Without it, you could insert an EAST row through <code>west_orders</code>, the row would land in the base table but disappear from the view, which almost always indicates a bug.</div><div class="code-example-output">ERROR 1369 (HY000): CHECK OPTION failed &#39;shop.west_orders&#39;
 
 +----+-------------+---------+--------+
 | id | customer_id | total   | region |
@@ -537,7 +537,7 @@ END$
 DELIMITER ;
 
 CALL transfer_money(101, 102, 1500.00);
-SELECT * FROM accounts;</code></pre><div class="code-example-explanation">The procedure wraps debit + credit in a transaction. <code>SELECT ... FOR UPDATE</code> locks the source account so no concurrent transfer can cause an overdraft. If the balance is insufficient, <code>SIGNAL</code> raises a user-defined error — the exact mechanism applications catch. This is the textbook "atomic transfer" — it either fully succeeds or fully rolls back.</div><div class="code-example-output">+-----+--------+---------+
+SELECT * FROM accounts;</code></pre><div class="code-example-explanation">The procedure wraps debit + credit in a transaction. <code>SELECT ... FOR UPDATE</code> locks the source account so no concurrent transfer can cause an overdraft. If the balance is insufficient, <code>SIGNAL</code> raises a user-defined error, the exact mechanism applications catch. This is the textbook "atomic transfer", it either fully succeeds or fully rolls back.</div><div class="code-example-output">+-----+--------+---------+
 | id  | holder | balance |
 +-----+--------+---------+
 | 101 | Aarav  | 3500.00 |
@@ -620,7 +620,7 @@ DELIMITER ;
 SELECT name, price, gst_rate,
        gst(price, gst_rate) AS tax,
        price + gst(price, gst_rate) AS total
-FROM products;</code></pre><div class="code-example-explanation">Because <code>gst</code> is a function, it can appear anywhere an expression can — SELECT list, WHERE, ORDER BY, HAVING. <code>DETERMINISTIC</code> tells MySQL that the function is a pure computation, which is required for binary-log-based replication and lets the optimiser cache calls.</div><div class="code-example-output">+------------+---------+----------+--------+---------+
+FROM products;</code></pre><div class="code-example-explanation">Because <code>gst</code> is a function, it can appear anywhere an expression can: SELECT list, WHERE, ORDER BY, HAVING. <code>DETERMINISTIC</code> tells MySQL that the function is a pure computation, which is required for binary-log-based replication and lets the optimiser cache calls.</div><div class="code-example-output">+------------+---------+----------+--------+---------+
 | name       | price   | gst_rate | tax    | total   |
 +------------+---------+----------+--------+---------+
 | Notebook   |  120.00 |  5.00    |   6.00 |  126.00 |
@@ -695,7 +695,7 @@ END$
 
 DELIMITER ;
 
-CALL greet();</code></pre></div><div class="mistake-explanation">The MySQL client ends every statement on a semicolon. A procedure body has internal semicolons, so you must change the delimiter to something like <code>$</code> for the duration of the CREATE statement and change it back afterwards. This is purely a client concern — the server does not care — but forgetting it is the single most common mistake.</div>
+CALL greet();</code></pre></div><div class="mistake-explanation">The MySQL client ends every statement on a semicolon. A procedure body has internal semicolons, so you must change the delimiter to something like <code>$</code> for the duration of the CREATE statement and change it back afterwards. This is purely a client concern, the server does not care, but forgetting it is the single most common mistake.</div>
             </div>
 <div class="mistake-card">
                 <h3>Trying to UPDATE a Non-Updatable View</h3>
@@ -729,7 +729,7 @@ BEGIN
     SELECT COUNT(*) INTO i FROM employees;
     SET @x = i;
 END$
-DELIMITER ;</code></pre></div><div class="mistake-explanation">MySQL requires every <code>DECLARE</code> to appear at the top of its BEGIN...END block, before any executable statement. Nest a new BEGIN...END if you need to declare a variable later. Also note: user variables like <code>@x</code> do not need DECLARE — they are session-scoped. Only local variables (no <code>@</code>) require DECLARE.</div>
+DELIMITER ;</code></pre></div><div class="mistake-explanation">MySQL requires every <code>DECLARE</code> to appear at the top of its BEGIN...END block, before any executable statement. Nest a new BEGIN...END if you need to declare a variable later. Also note: user variables like <code>@x</code> do not need DECLARE. They are session-scoped. Only local variables (no <code>@</code>) require DECLARE.</div>
             </div>
 <div class="mistake-card">
                 <h3>Cursor Without a NOT FOUND Handler (Infinite Loop or Error)</h3>
@@ -786,15 +786,15 @@ DELIMITER ;</code></pre></div><div class="mistake-explanation">When binary loggi
 
             <section id="summary" class="content-section">
                 <h2>Summary</h2>
-                <div class="summary-box"><ul><li>A view is a named SELECT that behaves like a virtual table. It stores no rows — every query re-runs the underlying SELECT through view merging. Views hide complexity, expose only safe columns, and give BI tools a stable interface while the schema evolves.</li>
+                <div class="summary-box"><ul><li>A view is a named SELECT that behaves like a virtual table. It stores no rows, every query re-runs the underlying SELECT through view merging. Views hide complexity, expose only safe columns, and give BI tools a stable interface while the schema evolves.</li>
 <li>Views are updatable (INSERT/UPDATE/DELETE pass through to the base table) only when MySQL can map each view row to one base-table row. Aggregation, DISTINCT, UNION, subqueries in SELECT, joins, and window functions all make a view read-only.</li>
-<li>WITH CHECK OPTION forces every INSERT/UPDATE through the view to produce a row that still matches the view&#39;s WHERE clause. Without it, you can insert rows that immediately disappear from the view — almost always a bug.</li>
+<li>WITH CHECK OPTION forces every INSERT/UPDATE through the view to produce a row that still matches the view&#39;s WHERE clause. Without it, you can insert rows that immediately disappear from the view, almost always a bug.</li>
 <li>MySQL has no native materialized views. The standard workaround is a real table plus a stored procedure that rebuilds it, scheduled via an event (hourly, nightly). Trade freshness for read speed.</li>
 <li>Stored procedures are named blocks of SQL with parameters (IN, OUT, INOUT), local variables (DECLARE), and control flow (IF, CASE, WHILE, REPEAT, LOOP). Call them with CALL proc_name(args). Define with DELIMITER $ ... END$ to survive internal semicolons.</li>
 <li>IN passes values in, OUT returns a value to the caller (use @var to receive), INOUT does both. Use SELECT ... INTO to assign scalar query results into procedure variables.</li>
-<li>Cursors iterate a result set row by row. Always pair a cursor with a CONTINUE HANDLER FOR NOT FOUND that sets a done flag, and LEAVE the loop when done = 1. Prefer set-based SQL whenever possible — cursors are 10-100x slower.</li>
+<li>Cursors iterate a result set row by row. Always pair a cursor with a CONTINUE HANDLER FOR NOT FOUND that sets a done flag, and LEAVE the loop when done = 1. Prefer set-based SQL whenever possible, cursors are 10-100x slower.</li>
 <li>Functions return exactly one value and are callable from any SELECT, WHERE, or ORDER BY. Procedures can return multiple result sets via OUT or inline SELECTs but must be invoked with CALL.</li>
-<li>Binary logging (on by default in production) requires every function to declare DETERMINISTIC, NO SQL, READS SQL DATA, or MODIFIES SQL DATA. Label accurately — lying about determinism breaks replication.</li>
+<li>Binary logging (on by default in production) requires every function to declare DETERMINISTIC, NO SQL, READS SQL DATA, or MODIFIES SQL DATA. Label accurately, lying about determinism breaks replication.</li>
 <li>SQL SECURITY DEFINER (the default) runs procedures with the defining user&#39;s privileges, which is how you grant CALL access to users who cannot read the underlying tables directly. Use INVOKER when you want caller-based checks.</li></ul></div>
             </section>
 

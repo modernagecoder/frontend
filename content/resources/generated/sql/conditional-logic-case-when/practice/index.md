@@ -81,7 +81,7 @@ SELECT NULLIF(5, 5), NULLIF(5, 3);
 
 **Answer:** `NULL  5`
 
-NULLIF(5, 5) — they are equal, returns NULL. NULLIF(5, 3) — different, returns 5.
+NULLIF(5, 5), they are equal, returns NULL. NULLIF(5, 3), different, returns 5.
 
 ### Q7. [Easy] Output?
 
@@ -141,7 +141,7 @@ END
 
 **Answer:** `known`
 
-Simple CASE compares with =, and NULL = NULL returns NULL (not TRUE). So the WHEN NULL branch never matches — ELSE runs. To check NULL, use searched CASE: `WHEN status IS NULL`.
+Simple CASE compares with =, and NULL = NULL returns NULL (not TRUE). So the WHEN NULL branch never matches: ELSE runs. To check NULL, use searched CASE: `WHEN status IS NULL`.
 
 ### Q11. [Medium] Given these orders table rows: (101,'paid',1000), (101,'paid',500), (101,'pending',200), what does SUM(CASE WHEN status='paid' THEN amount ELSE 0 END) return?
 
@@ -227,9 +227,9 @@ Functionally, IFNULL(a, b) is identical to COALESCE(a, b). But COALESCE(a, b, c,
 
 *Hint:* Think about what SUM adds and what 0 contributes.
 
-**Answer:** SUM adds all non-NULL values. By writing ELSE 0, every non-matching row contributes 0 to the total — which is a no-op. Every matching row contributes its `val`. The end result is the sum of `val` only for rows where the condition is true. This lets you compute multiple filtered sums in a single pass of the table, which is the basis of SQL pivoting.
+**Answer:** SUM adds all non-NULL values. By writing ELSE 0, every non-matching row contributes 0 to the total, which is a no-op. Every matching row contributes its `val`. The end result is the sum of `val` only for rows where the condition is true. This lets you compute multiple filtered sums in a single pass of the table, which is the basis of SQL pivoting.
 
-Alternative: omit ELSE (so non-matches become NULL) and SUM skips NULLs anyway. That works but has a corner case — if the GROUP has zero matching rows, SUM returns NULL instead of 0. ELSE 0 is safer.
+Alternative: omit ELSE (so non-matches become NULL) and SUM skips NULLs anyway. That works but has a corner case, if the GROUP has zero matching rows, SUM returns NULL instead of 0. ELSE 0 is safer.
 
 ### Q19. [Easy] Given employees(name, salary), write a query returning name, salary, and a 'band' column: 'Low' if < 40000, 'Mid' if < 80000, else 'High'.
 
@@ -332,7 +332,7 @@ GROUP BY can reference the same CASE by its alias (MySQL-permissive). For maximu
 
 **Answer:** It is equivalent to `WHERE x`, just more verbose. It also prevents the optimizer from using an index on the underlying column because the CASE wraps the expression. The only time CASE in WHERE is justified is when the column being filtered actually changes per row (e.g., `CASE type WHEN 'daily' THEN days ELSE hours END > 10`). Otherwise, rewrite using AND/OR directly.
 
-Boolean expressions are already usable in WHERE clauses — you don't need to translate them into 0/1 and compare.
+Boolean expressions are already usable in WHERE clauses. You don't need to translate them into 0/1 and compare.
 
 ## Mixed Questions
 
@@ -481,9 +481,9 @@ SELECT COALESCE(NULL, '', 'third');
 
 **Answer:** `` (empty string)
 
-Empty string is NOT NULL. COALESCE returns the first non-NULL argument, which is the empty string ''. Many developers confuse these — use `NULLIF(x, '')` first to treat empty strings as missing.
+Empty string is NOT NULL. COALESCE returns the first non-NULL argument, which is the empty string ''. Many developers confuse these. Use `NULLIF(x, '')` first to treat empty strings as missing.
 
-### Q11. [Hard] Why does COUNT(CASE WHEN cond THEN 1 END) count matches, but SUM(CASE WHEN cond THEN 1 END) also works — what is the difference?
+### Q11. [Hard] Why does COUNT(CASE WHEN cond THEN 1 END) count matches, but SUM(CASE WHEN cond THEN 1 END) also works: what is the difference?
 
 *Hint:* COUNT counts rows; SUM adds values. They happen to give the same answer for this pattern.
 
@@ -612,7 +612,7 @@ D. [object Object]
 
 **Answer:** C
 
-**C is correct.** CASE works in SELECT, WHERE, GROUP BY, HAVING, and ORDER BY. It cannot be used in column DEFAULT clauses — defaults must be literal values.
+**C is correct.** CASE works in SELECT, WHERE, GROUP BY, HAVING, and ORDER BY. It cannot be used in column DEFAULT clauses, defaults must be literal values.
 
 ### Q12. [Hard] Why does `COUNT(CASE WHEN status='paid' THEN 1 END)` correctly count paid rows without ELSE?
 
@@ -667,7 +667,7 @@ D. [object Object]
 
 **Answer:** B
 
-**B is correct.** COALESCE(x, 0) returns x if not NULL, else 0 — identical to IFNULL(x, 0). NULLIF does the opposite.
+**B is correct.** COALESCE(x, 0) returns x if not NULL, else 0, identical to IFNULL(x, 0). NULLIF does the opposite.
 
 ### Q17. [Medium] A CASE that returns mixed types (string and number) in different branches will:
 
@@ -678,7 +678,7 @@ D. [object Object]
 
 **Answer:** B
 
-**B is correct.** MySQL picks a common type. Mixing INT and VARCHAR usually returns VARCHAR — the column's declared type is determined by type promotion rules, not by the last branch.
+**B is correct.** MySQL picks a common type. Mixing INT and VARCHAR usually returns VARCHAR, the column's declared type is determined by type promotion rules, not by the last branch.
 
 ### Q18. [Hard] What is the correct interpretation of `CASE WHEN a=1 THEN x WHEN a=2 THEN y END` when a=3?
 
@@ -884,7 +884,7 @@ ORDER BY
 
 **Difficulty:** Medium
 
-Given campaigns(id, name, spend, revenue), return roas (revenue / spend) and margin ((revenue-spend)/revenue). Handle zeros safely — return NULL instead of dividing by zero.
+Given campaigns(id, name, spend, revenue), return roas (revenue / spend) and margin ((revenue-spend)/revenue). Handle zeros safely, return NULL instead of dividing by zero.
 
 **Constraints:**
 

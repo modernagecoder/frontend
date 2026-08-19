@@ -2,7 +2,7 @@
  * Pricing config loader and resolver.
  *
  * Single entry point for every other pricing script. Nothing else in the repo
- * may hold a price literal — if a number needs to reach a page, it comes from
+ * may hold a price literal, if a number needs to reach a page, it comes from
  * here, so the figure displayed and the figure charged cannot drift apart.
  *
  * A price is addressed by a dotted key:  subject.region.tier
@@ -12,8 +12,8 @@
  *
  * A tier set to null in the config means "we do not sell this". resolve()
  * returns { exists: false } for it and callers must hide the plan rather than
- * invent a number. This is what stops a USD Mini-Batch — a SKU that has never
- * existed — from being fabricated by a build script.
+ * invent a number. This is what stops a USD Mini-Batch, a SKU that has never
+ * existed, from being fabricated by a build script.
  */
 
 'use strict';
@@ -105,7 +105,7 @@ function loadData(name) {
 /**
  * Resolve a dotted price key.
  * Returns { exists, amount, currency, subject, region, tier }.
- * Never throws for a well-formed key that is legitimately not sold — that is
+ * Never throws for a well-formed key that is legitimately not sold. That is
  * { exists: false }, which callers must handle by hiding the plan.
  */
 function resolve(key, config) {
@@ -223,7 +223,7 @@ function allKeys(config) {
 /**
  * Format an amount for display.
  *
- * INR uses Indian digit grouping (₹49,999 — and ₹1,49,999 above a lakh), which
+ * INR uses Indian digit grouping (₹49,999, and ₹1,49,999 above a lakh), which
  * is what the site already shows. Intl.NumberFormat is given no explicit
  * fraction-digit settings so it reads the ISO 4217 minor unit per currency:
  * that is what keeps JPY/KRW/VND whole and KWD/BHD at three decimals.

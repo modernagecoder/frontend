@@ -55,15 +55,15 @@
       },
       {
         "type": "paragraph",
-        "text": "Here's the truth: teen developers publish apps all the time. Some of them have made thousands of dollars. Some have gotten into top universities partly because of their apps. Some have started actual companies. And almost all of them started exactly where you are—with an idea and no clue how to make it real."
+        "text": "Here's the truth: teen developers publish apps all the time. Some of them have made thousands of dollars. Some have gotten into top universities partly because of their apps. Some have started actual companies. And almost all of them started exactly where you are, with an idea and no clue how to make it real."
       },
       {
         "type": "paragraph",
-        "text": "This guide is your complete roadmap. Sixty days. That's all it takes to go from idea to a published app on the App Store or Google Play. Not a toy project—a real app that real people can download."
+        "text": "This guide is your complete roadmap. Sixty days. That's all it takes to go from idea to a published app on the App Store or Google Play. Not a toy project, a real app that real people can download."
       },
       {
         "type": "paragraph",
-        "text": "Is 60 days ambitious? Yes. Is it realistic? Also yes—if you follow this roadmap and put in the work. Let's get started."
+        "text": "Is 60 days ambitious? Yes. Is it realistic? Also yes, if you follow this roadmap and put in the work. Let's get started."
       },
       {
         "type": "heading",
@@ -75,7 +75,7 @@
         "type": "image",
         "url": "https://ik.imagekit.io/ysmxsdgmw4/articleimages/item_13_article.png",
         "alt": "Teen developer working on mobile app project",
-        "caption": "60 days is enough time to build something real—if you stay focused"
+        "caption": "60 days is enough time to build something real, if you stay focused"
       },
       {
         "type": "paragraph",
@@ -95,7 +95,7 @@
         "style": "unordered",
         "items": [
           "You can dedicate 2-3 hours daily to learning and building",
-          "Your app idea is focused—one core feature done well, not 20 half-baked features",
+          "Your app idea is focused, one core feature done well, not 20 half-baked features",
           "You're willing to learn as you go and not get stuck in \"tutorial hell\"",
           "You choose the right tools (more on this later)",
           "You're okay with an MVP (Minimum Viable Product) that you'll improve over time"
@@ -118,7 +118,7 @@
       },
       {
         "type": "paragraph",
-        "text": "The apps that get published aren't the most ambitious—they're the most focused. Instagram launched with just photo filters and sharing. Flappy Bird was literally a bird and some pipes. Your first app doesn't need to be revolutionary. It needs to exist."
+        "text": "The apps that get published aren't the most ambitious. They're the most focused. Instagram launched with just photo filters and sharing. Flappy Bird was literally a bird and some pipes. Your first app doesn't need to be revolutionary. It needs to exist."
       },
       {
         "type": "callout",
@@ -240,7 +240,7 @@
       },
       {
         "type": "paragraph",
-        "text": "For this roadmap, we'll assume you're using Flutter—it offers the best balance of speed, learning, and capability. If you choose something else, the timeline still applies, just swap out the technical details."
+        "text": "For this roadmap, we'll assume you're using Flutter. It offers the best balance of speed, learning, and capability. If you choose something else, the timeline still applies, just swap out the technical details."
       },
       {
         "type": "callout",
@@ -277,7 +277,7 @@
       },
       {
         "type": "paragraph",
-        "text": "The first ten days are about building your foundation. You're not touching your app idea yet—you're getting comfortable with the tools."
+        "text": "The first ten days are about building your foundation. You're not touching your app idea yet. You're getting comfortable with the tools."
       },
       {
         "type": "heading",
@@ -286,7 +286,7 @@
       },
       {
         "type": "paragraph",
-        "text": "Flutter uses a programming language called Dart. If you know Java, JavaScript, or C++, Dart will feel familiar. If you're starting from scratch, don't worry—it's beginner-friendly."
+        "text": "Flutter uses a programming language called Dart. If you know Java, JavaScript, or C++, Dart will feel familiar. If you're starting from scratch, don't worry. It's beginner-friendly."
       },
       {
         "type": "paragraph",
@@ -315,7 +315,7 @@
       },
       {
         "type": "paragraph",
-        "text": "Now you start building UIs. Flutter is widget-based—everything on screen is a widget, and widgets combine to create your interface."
+        "text": "Now you start building UIs. Flutter is widget-based, everything on screen is a widget, and widgets combine to create your interface."
       },
       {
         "type": "paragraph",
@@ -325,7 +325,7 @@
         "type": "list",
         "style": "unordered",
         "items": [
-          "Widget tree concept—how Flutter structures interfaces",
+          "Widget tree concept, how Flutter structures interfaces",
           "Common widgets: Text, Container, Row, Column, ListView",
           "Styling widgets with padding, colors, fonts",
           "Button widgets and handling taps",
@@ -335,7 +335,7 @@
       },
       {
         "type": "paragraph",
-        "text": "Build as you learn. Create small test apps: a counter, a simple list, buttons that change text. Don't just watch tutorials—type the code yourself."
+        "text": "Build as you learn. Create small test apps: a counter, a simple list, buttons that change text. Don't just watch tutorials, type the code yourself."
       },
       {
         "type": "heading",
@@ -358,7 +358,7 @@
       },
       {
         "type": "paragraph",
-        "text": "By Day 10, you should be able to create a multi-screen app that remembers user input. Nothing fancy—just the foundations."
+        "text": "By Day 10, you should be able to create a multi-screen app that remembers user input. Nothing fancy, just the foundations."
       },
       {
         "type": "callout",
@@ -417,11 +417,11 @@
         "style": "unordered",
         "items": [
           "Start with existing templates or UI kits (tons of free ones on Figma Community)",
-          "Use consistent colors—pick 2-3 and stick with them",
-          "Use consistent fonts—one font family, 2-3 sizes max",
+          "Use consistent colors, pick 2-3 and stick with them",
+          "Use consistent fonts, one font family, 2-3 sizes max",
           "Leave plenty of white space; crowded = confusing",
           "Study apps you like and borrow layout ideas (not copy, borrow)",
-          "Design for mobile first—keep things thumb-friendly"
+          "Design for mobile first, keep things thumb-friendly"
         ]
       },
       {
@@ -468,7 +468,7 @@
       },
       {
         "type": "paragraph",
-        "text": "This is the main building phase—25 days of coding. You'll transform your designs into a working application."
+        "text": "This is the main building phase: 25 days of coding. You'll transform your designs into a working application."
       },
       {
         "type": "heading",
@@ -556,12 +556,12 @@
         "type": "list",
         "style": "unordered",
         "items": [
-          "Error handling—what happens when things go wrong?",
-          "Loading states—show spinners or skeletons while data loads",
-          "Empty states—what shows when there's no data?",
-          "Form validation—check user input and show helpful errors",
-          "Small animations—subtle transitions make apps feel polished",
-          "Responsive design—test on different screen sizes"
+          "Error handling, what happens when things go wrong?",
+          "Loading states, show spinners or skeletons while data loads",
+          "Empty states, what shows when there's no data?",
+          "Form validation, check user input and show helpful errors",
+          "Small animations, subtle transitions make apps feel polished",
+          "Responsive design, test on different screen sizes"
         ]
       },
       {
@@ -600,9 +600,9 @@
         "style": "unordered",
         "items": [
           "Go through every possible user flow",
-          "Try to break things—enter weird data, tap buttons rapidly, rotate the screen",
+          "Try to break things, enter weird data, tap buttons rapidly, rotate the screen",
           "Test on different devices (borrow friends' phones if needed)",
-          "Check performance—does anything lag or freeze?",
+          "Check performance, does anything lag or freeze?",
           "Test offline behavior if applicable",
           "Verify all text is spelled correctly"
         ]
@@ -649,7 +649,7 @@
       },
       {
         "type": "paragraph",
-        "text": "You'll get feedback you don't want to hear. Some of it will sting. That's okay—it's better to hear it now than in App Store reviews."
+        "text": "You'll get feedback you don't want to hear. Some of it will sting. That's okay. It's better to hear it now than in App Store reviews."
       },
       {
         "type": "paragraph",
@@ -673,7 +673,7 @@
         "type": "callout",
         "calloutType": "tip",
         "title": "Feedback is a Gift",
-        "text": "Every piece of criticism makes your app better. Don't get defensive—get curious. Ask follow-up questions. The best apps are shaped by user feedback."
+        "text": "Every piece of criticism makes your app better. Don't get defensive, get curious. Ask follow-up questions. The best apps are shaped by user feedback."
       },
       {
         "type": "heading",
@@ -726,7 +726,7 @@
           "Full description: Features, benefits, what makes it unique",
           "Keywords (iOS): Relevant search terms",
           "Category: Choose the most accurate category",
-          "Privacy policy: Required—use a generator if needed"
+          "Privacy policy: Required. Use a generator if needed"
         ]
       },
       {
@@ -770,7 +770,7 @@
       },
       {
         "type": "paragraph",
-        "text": "If you're under 18, you'll need a parent to help with account setup, especially for Apple. Have a conversation with them about your project—most parents are excited to support this kind of initiative."
+        "text": "If you're under 18, you'll need a parent to help with account setup, especially for Apple. Have a conversation with them about your project. Most parents are excited to support this kind of initiative."
       },
       {
         "type": "callout",
@@ -807,7 +807,7 @@
       },
       {
         "type": "paragraph",
-        "text": "Submit to the stores with all your prepared assets and content. Triple-check everything—this is what the world will see."
+        "text": "Submit to the stores with all your prepared assets and content. Triple-check everything. This is what the world will see."
       },
       {
         "type": "heading",
@@ -850,7 +850,7 @@
           "Share everywhere: Social media, WhatsApp groups, school communities",
           "Ask friends and family to download and leave honest reviews",
           "Post in relevant online communities (Reddit, Discord servers, forums)",
-          "Screenshot your app listing—this is a moment to remember",
+          "Screenshot your app listing. This is a moment to remember",
           "Celebrate! You've accomplished something most people only talk about"
         ]
       },
@@ -858,7 +858,7 @@
         "type": "callout",
         "calloutType": "success",
         "title": "Congratulations!",
-        "text": "You are now officially a published app developer. That's not nothing—that's huge. Most people have app ideas. You made one real."
+        "text": "You are now officially a published app developer. That's not nothing. That's huge. Most people have app ideas. You made one real."
       },
       {
         "type": "divider",
@@ -884,7 +884,7 @@
         "style": "unordered",
         "items": [
           "Check crash reports daily (Firebase Crashlytics is great for this)",
-          "Respond to reviews—especially negative ones—professionally and helpfully",
+          "Respond to reviews, especially negative ones, professionally and helpfully",
           "Track downloads and user engagement",
           "Listen to feedback and note patterns"
         ]
@@ -901,7 +901,7 @@
           "Fix bugs quickly and push updates",
           "Add features from your \"Should Have\" list gradually",
           "Improve based on user feedback",
-          "Keep the momentum going—regular updates signal an active app"
+          "Keep the momentum going, regular updates signal an active app"
         ]
       },
       {
@@ -916,7 +916,7 @@
           "Add to your resume and college applications",
           "Write about your journey on your blog or LinkedIn",
           "Use as portfolio piece for internships or opportunities",
-          "Teach others what you learned—it reinforces your knowledge"
+          "Teach others what you learned. It reinforces your knowledge"
         ]
       },
       {
@@ -931,7 +931,7 @@
       },
       {
         "type": "paragraph",
-        "text": "Tanmay Bakshi started programming at age 5 and created apps by age 9. By 14, he was working with IBM on AI projects. His early apps weren't perfect—but they were real, published, and set the foundation for everything that followed."
+        "text": "Tanmay Bakshi started programming at age 5 and created apps by age 9. By 14, he was working with IBM on AI projects. His early apps weren't perfect, but they were real, published, and set the foundation for everything that followed."
       },
       {
         "type": "paragraph",
@@ -939,7 +939,7 @@
       },
       {
         "type": "paragraph",
-        "text": "Numerous teen developers on the App Store and Play Store have built successful apps while still in high school—study tools, games, productivity apps, social apps. They all started exactly where you are now."
+        "text": "Numerous teen developers on the App Store and Play Store have built successful apps while still in high school, study tools, games, productivity apps, social apps. They all started exactly where you are now."
       },
       {
         "type": "paragraph",
@@ -949,7 +949,7 @@
         "type": "callout",
         "calloutType": "tip",
         "title": "The Secret",
-        "text": "Every successful developer has a trail of failed experiments, abandoned projects, and terrible first versions. The difference is they kept going. Your first app won't be your best—but it's the most important one you'll ever make."
+        "text": "Every successful developer has a trail of failed experiments, abandoned projects, and terrible first versions. The difference is they kept going. Your first app won't be your best, but it's the most important one you'll ever make."
       },
       {
         "type": "heading",
@@ -1034,10 +1034,10 @@
         "type": "list",
         "style": "unordered",
         "items": [
-          "Flutter SDK (flutter.dev) — Free",
-          "VS Code with Flutter extension — Free",
-          "Android Studio (for emulator) — Free",
-          "Xcode (for iOS, Mac only) — Free"
+          "Flutter SDK (flutter.dev), Free",
+          "VS Code with Flutter extension, Free",
+          "Android Studio (for emulator), Free",
+          "Xcode (for iOS, Mac only), Free"
         ]
       },
       {
@@ -1049,10 +1049,10 @@
         "type": "list",
         "style": "unordered",
         "items": [
-          "Figma — Free for students",
-          "Canva — Free with premium features",
-          "Unsplash/Pexels — Free stock images",
-          "Google Fonts — Free fonts"
+          "Figma, Free for students",
+          "Canva, Free with premium features",
+          "Unsplash/Pexels, Free stock images",
+          "Google Fonts, Free fonts"
         ]
       },
       {
@@ -1064,9 +1064,9 @@
         "type": "list",
         "style": "unordered",
         "items": [
-          "Firebase — Free tier generous for small apps",
-          "Supabase — Open-source Firebase alternative, free tier",
-          "Appwrite — Self-hosted backend, free"
+          "Firebase, Free tier generous for small apps",
+          "Supabase, Open-source Firebase alternative, free tier",
+          "Appwrite: Self-hosted backend, free"
         ]
       },
       {
@@ -1078,10 +1078,10 @@
         "type": "list",
         "style": "unordered",
         "items": [
-          "Flutter official documentation — Free",
-          "Flutter YouTube channel — Free",
-          "Udemy courses (wait for sales) — $10-15",
-          "The Net Ninja Flutter course — Free on YouTube"
+          "Flutter official documentation, Free",
+          "Flutter YouTube channel, Free",
+          "Udemy courses (wait for sales), $10-15",
+          "The Net Ninja Flutter course, Free on YouTube"
         ]
       },
       {
@@ -1093,9 +1093,9 @@
         "type": "list",
         "style": "unordered",
         "items": [
-          "Google Play Console — $25 one-time",
-          "Apple Developer Program — $99/year",
-          "Firebase App Distribution — Free (for beta testing)"
+          "Google Play Console, $25 one-time",
+          "Apple Developer Program, $99/year",
+          "Firebase App Distribution: Free (for beta testing)"
         ]
       },
       {
@@ -1123,7 +1123,7 @@
           },
           {
             "title": "What if I can't finish in 60 days?",
-            "content": "That's okay! The timeline is a guide, not a strict deadline. Life happens—exams, family, other commitments. The goal is consistent progress. If it takes 90 days, you still end up with a published app."
+            "content": "That's okay! The timeline is a guide, not a strict deadline. Life happens, exams, family, other commitments. The goal is consistent progress. If it takes 90 days, you still end up with a published app."
           },
           {
             "title": "Do I need a Mac for iOS development?",
@@ -1131,7 +1131,7 @@
           },
           {
             "title": "How do I handle the developer account costs as a teen?",
-            "content": "Talk to your parents—many are willing to invest in educational projects like this. The Google Play fee is just $25 one-time. You could also earn the money through odd jobs or explain how this could look great on college applications."
+            "content": "Talk to your parents, many are willing to invest in educational projects like this. The Google Play fee is just $25 one-time. You could also earn the money through odd jobs or explain how this could look great on college applications."
           },
           {
             "title": "What if my app gets rejected by the store?",
@@ -1139,7 +1139,7 @@
           },
           {
             "title": "Should I monetize my first app?",
-            "content": "Keep it simple—free app, maybe with optional ads (AdMob is easy to integrate). Your first app's goal is learning and portfolio-building, not profit. Monetization is easier once you understand what users want."
+            "content": "Keep it simple, free app, maybe with optional ads (AdMob is easy to integrate). Your first app's goal is learning and portfolio-building, not profit. Monetization is easier once you understand what users want."
           },
           {
             "title": "Can I build a game with this timeline?",
@@ -1147,7 +1147,7 @@
           },
           {
             "title": "How do I promote my app after launch?",
-            "content": "Start with your existing network: friends, family, school, social media. Post in relevant online communities. Create content about your development journey. Ask for reviews. App Store Optimization (ASO) helps with discoverability—good keywords, screenshots, and descriptions."
+            "content": "Start with your existing network: friends, family, school, social media. Post in relevant online communities. Create content about your development journey. Ask for reviews. App Store Optimization (ASO) helps with discoverability, good keywords, screenshots, and descriptions."
           },
           {
             "title": "What if my idea already exists?",
@@ -1170,7 +1170,7 @@
       },
       {
         "type": "paragraph",
-        "text": "The difference between those two futures isn't talent, money, or luck. It's simply the decision to start—and then the discipline to keep going when things get hard (because they will get hard)."
+        "text": "The difference between those two futures isn't talent, money, or luck. It's simply the decision to start, and then the discipline to keep going when things get hard (because they will get hard)."
       },
       {
         "type": "paragraph",

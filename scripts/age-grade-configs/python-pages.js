@@ -1,5 +1,5 @@
 /*
- * python-pages.js — 18 Python-focused landing pages.
+ * python-pages.js: 18 Python-focused landing pages.
  * Required by scripts/age-grade-pages-config.js.
  *
  * Split across three sub-modules to keep each file manageable.

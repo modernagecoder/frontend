@@ -6950,7 +6950,7 @@ body.index-page main .courses-grid .course-card .card-thumbnail-container img,
                     animation: shimmer 2s infinite linear;
                 }
 
-                /* pulse animation removed — box-shadow animations are not GPU-
+                /* pulse animation removed, box-shadow animations are not GPU-
                    accelerated and caused repaints every frame, contributing to scroll lag */
 
                 .pyramid-level:hover {

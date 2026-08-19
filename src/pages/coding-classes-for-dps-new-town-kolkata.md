@@ -10,21 +10,21 @@ Exclusive for DPS New Town, Kolkata
 
 # Coding & Maths Classes for DPS New Town Students
 
-Live online classes in Python, Java, AI, Web Development & CBSE Mathematics — designed around your DPS New Town Students schedule. Small batches. Expert instructors. Real projects.
+Live online classes in Python, Java, AI, Web Development & CBSE Mathematics, designed around your DPS New Town Students schedule. Small batches. Expert instructors. Real projects.
 
- 10,000+ Students Taught  4.9/5 Parent Rating  CBSE Aligned  AI-Powered Learning [See How We Teach — Live Classes](/how-we-teach)Book a Free Live Class
+ 10,000+ Students Taught  4.9/5 Parent Rating  CBSE Aligned  AI-Powered Learning [See How We Teach: Live Classes](/how-we-teach)Book a Free Live Class
 
 ✔ 100% live online classes • Watch real lessons free • No commitment
 
-## Coding & Maths for DPS New Town Students — At a Glance
+## Coding & Maths for DPS New Town Students: At a Glance
 
-Modern Age Coders runs **live online coding and mathematics classes built specifically for students of Delhi Public School, New Town (Rajarhat, Kolkata)** — precisely mapped to the [CBSE](/coding-for-cbse-students) curriculum DPS New Town follows. Students learn Python, AI/ML, Java and web development plus [CBSE board, JEE-foundation & Olympiad mathematics](/online-maths-tuition). Ultra-small batches of 4–6 (or 1-on-1), every class recorded. Fees start at ₹1,499/month and every family begins with a free demo class. [See exactly how we teach →](/how-we-teach)
+Modern Age Coders runs **live online coding and mathematics classes built specifically for students of Delhi Public School, New Town (Rajarhat, Kolkata)**, precisely mapped to the [CBSE](/coding-for-cbse-students) curriculum DPS New Town follows. Students learn Python, AI/ML, Java and web development plus [CBSE board, JEE-foundation & Olympiad mathematics](/online-maths-tuition). Ultra-small batches of 4–6 (or 1-on-1), every class recorded. Fees start at ₹1,499/month and every family begins with a free demo class. [See exactly how we teach →](/how-we-teach)
 
 BoardCBSE + JEE FoundationSubjectsPython, AI/ML, Java, Web Dev, Scratch + MathsBatch Size4–6 students (or 1-on-1)TimingsWeekdays 4–8 PM · Weekends 9 AM–6 PMFeesFrom ₹1,499/month · Free demo classFormat100% live online · Every class recorded
 
 ## How We Teach DPS New Town Students
 
-No marketing fluff — watch a real class before you decide. Our open [teaching demo library](/how-we-teach) shows exactly how we explain every concept, topic by topic and age by age. No sign-up, no payment.
+No marketing fluff. Watch a real class before you decide. Our open [teaching demo library](/how-we-teach) shows exactly how we explain every concept, topic by topic and age by age. No sign-up, no payment.
 
 ### Live, Never Recorded-Only
 
@@ -32,19 +32,19 @@ Real-time teaching in batches of just 4–6, so every DPS New Town student can a
 
 ### Mapped to the CBSE Board
 
-Every lesson is tied to a real [CBSE](/coding-for-cbse-students) outcome and synced to the school's exam calendar — so class time always converts into board marks.
+Every lesson is tied to a real [CBSE](/coding-for-cbse-students) outcome and synced to the school's exam calendar, so class time always converts into board marks.
 
 ### Project-First, Not Slides
 
-Students build real Python apps, AI projects and websites from week one. Concepts stick because they're applied — and the projects become a portfolio for university applications.
+Students build real Python apps, AI projects and websites from week one. Concepts stick because they're applied, and the projects become a portfolio for university applications.
 
 ### Recorded + 1:1 Doubt Support
 
 Every class is recorded, so a school commitment never means lost learning. Dedicated doubt-clearing and 1:1 mentor time keep every student on track between sessions.
 
-### Don't take our word for it — watch a class
+### Don't take our word for it: watch a class
 
-See real recordings of how we teach Python, AI, fractions, algebra and calculus — organised by topic and age, completely free.
+See real recordings of how we teach Python, AI, fractions, algebra and calculus, organised by topic and age, completely free.
 
 [Watch Free Class Recordings](/how-we-teach)
 
@@ -98,7 +98,7 @@ DPS New Town Students learn to create real websites with HTML and CSS. Build per
 
 ### Python for Young Coders
 
-Start text-based coding with Python — directly aligned with the CBSE Computer Science syllabus at DPS New Town Students. Build games, solve mathematical puzzles, and develop real programming skills.
+Start text-based coding with Python, directly aligned with the CBSE Computer Science syllabus at DPS New Town Students. Build games, solve mathematical puzzles, and develop real programming skills.
 
 - ✓ Python Fundamentals & Variables
 - ✓ CBSE-aligned Problem Solving
@@ -115,7 +115,7 @@ Advanced programming courses that complement CBSE Computer Science, prepare for 
 
 ### Python Programming
 
-Master Python — the language used by Google, Netflix, and NASA. Directly supports CBSE Computer Science at DPS New Town Students and builds the computational thinking needed for JEE and WBJEE.
+Master Python, the language used by Google, Netflix, and NASA. Directly supports CBSE Computer Science at DPS New Town Students and builds the computational thinking needed for JEE and WBJEE.
 
 - ✓ Python Fundamentals & OOP
 - ✓ Data Structures & Algorithms
@@ -126,7 +126,7 @@ Master Python — the language used by Google, Netflix, and NASA. Directly suppo
 
 ### Java Programming
 
-Master Java — a core language in the CBSE Computer Science syllabus. Perfect for DPS New Town preparing for board exams and targeting engineering colleges like IIT, IIT, NITs, and Jadavpur University.
+Master Java, a core language in the CBSE Computer Science syllabus. Perfect for DPS New Town preparing for board exams and targeting engineering colleges like IIT, IIT, NITs, and Jadavpur University.
 
 - ✓ Core Java & OOP Concepts
 - ✓ Data Structures in Java
@@ -137,7 +137,7 @@ Master Java — a core language in the CBSE Computer Science syllabus. Perfect f
 
 ### Full Stack Web Development
 
-Build complete websites and web applications from scratch. DPS New Town Students learn HTML, CSS, JavaScript, and React — skills that top engineering colleges and tech companies actively seek.
+Build complete websites and web applications from scratch. DPS New Town Students learn HTML, CSS, JavaScript, and React, skills that top engineering colleges and tech companies actively seek.
 
 - ✓ HTML, CSS, JavaScript
 - ✓ React Framework
@@ -148,7 +148,7 @@ Build complete websites and web applications from scratch. DPS New Town Students
 
 ### AI & Machine Learning
 
-Explore artificial intelligence and machine learning with Python. DPS New Town Students build real AI models and gain exposure to the technology driving the future — a powerful differentiator for college applications.
+Explore artificial intelligence and machine learning with Python. DPS New Town Students build real AI models and gain exposure to the technology driving the future, a powerful differentiator for college applications.
 
 - ✓ Python for AI
 - ✓ Machine Learning Basics
@@ -195,7 +195,7 @@ Max 5-8 students per batch ensures personalized attention for every learner
 
 ### Real Projects
 
-Build games, apps, websites & AI chatbots — not just theory, real deployable projects
+Build games, apps, websites & AI chatbots, not just theory, real deployable projects
 
 ### Flexi Schedule
 
@@ -205,7 +205,7 @@ Curriculum
 
 ## Epic Courses for Future Tech Leaders
 
-From beginner Scratch programming to advanced AI and competitive exam preparation — we have the perfect course for every DPS New Town Students student.
+From beginner Scratch programming to advanced AI and competitive exam preparation. We have the perfect course for every DPS New Town Students student.
 
 ### Python Programming
 
@@ -279,7 +279,7 @@ Trusted by Top Tech Hub Schools
 
 ## We Also Teach Students from DPS Ruby Park
 
-Families from both DPS New Town Students and DPS New Town trust Modern Age Coders for their children's tech education. Our CBSE-aligned coding and maths curriculum is designed for all DPS New Town Students — with **girls-only batches** also available for DPS New Town families who prefer them. Students from Kolkata's top schools learn with us.
+Families from both DPS New Town Students and DPS New Town trust Modern Age Coders for their children's tech education. Our CBSE-aligned coding and maths curriculum is designed for all DPS New Town Students, with **girls-only batches** also available for DPS New Town families who prefer them. Students from Kolkata's top schools learn with us.
 
 [Explore DPS Ruby Park Page →](/coding-classes-for-dps-new-town-kolkata)Courses by Category
 
@@ -291,7 +291,7 @@ Whether your child is in Class 1 or Class 12, we have a structured learning path
 
 Ages 6-10 • Visual Block-Based Coding
 
-[Scratch Programming  Create games, animations & interactive stories with drag-and-drop blocks](/courses/kids-coding-blocks-masterclass)[App Development for Kids  Build real mobile apps using visual tools — perfect for young creators](/courses/kids-complete-app-development-masterclass)[Web Design for Kids  Create colourful websites with HTML & CSS from day one](/courses/kids-web-design-masterclass)
+[Scratch Programming  Create games, animations & interactive stories with drag-and-drop blocks](/courses/kids-coding-blocks-masterclass)[App Development for Kids  Build real mobile apps using visual tools, perfect for young creators](/courses/kids-complete-app-development-masterclass)[Web Design for Kids  Create colourful websites with HTML & CSS from day one](/courses/kids-web-design-masterclass)
 
 ### For Teens (Classes 6-10)
 
@@ -313,7 +313,7 @@ All Classes • CBSE • JEE • Olympiads
 
 ## Group Classes or 1-on-1 Personalized?
 
-Every DPS New Town Students student learns differently. Choose the format that fits your child's learning style, schedule, and goals — both options come with the same expert instruction.
+Every DPS New Town Students student learns differently. Choose the format that fits your child's learning style, schedule, and goals. Both options come with the same expert instruction.
 
 Most Popular
 
@@ -338,7 +338,7 @@ Dedicated instructor, custom pace
 
 ₹2999/month
 
-- ✓ 1 Student Only — Full Attention
+- ✓ 1 Student Only: Full Attention
 - ✓ 3 Live Classes per Week
 - ✓ Custom Learning Pace & Plan
 - ✓ Flexible Schedule (You Choose)
@@ -349,7 +349,7 @@ Start with 1-on-1 Class
 
 ## Best Coding Classes in Kolkata for DPS New Town
 
-Parents across Rajarhat and New Town are in constant search of premium online coding classes that cater specifically to their child's rigorous school board. **Modern Age Coders** provides exclusive, high-caliber programming and mathematics batches engineered specifically for students attending **DPS Action Area 1, New Town**. Whether your child is mastering sophisticated loop structures in Python to score top marks in their Class 9 CBSE practicals, or a primary school junior discovering algorithmic logic through block-based game design, our tailored curriculum guarantees they aren't just memorizing definitions—they are genuinely understanding the mechanics of technology.
+Parents across Rajarhat and New Town are in constant search of premium online coding classes that cater specifically to their child's rigorous school board. **Modern Age Coders** provides exclusive, high-caliber programming and mathematics batches engineered specifically for students attending **DPS Action Area 1, New Town**. Whether your child is mastering sophisticated loop structures in Python to score top marks in their Class 9 CBSE practicals, or a primary school junior discovering algorithmic logic through block-based game design, our tailored curriculum guarantees they aren't just memorizing definitions. They are genuinely understanding the mechanics of technology.
 
 We comprehensively cover the modern technological spectrum: starting with engaging **Scratch and web design for younger learners (Classes 1-5)**, advancing to rigorous **Python and Java for middle school (Classes 6-10)**, and culminating in advanced **Artificial Intelligence, Machine Learning, and Full Stack Development for high schoolers (Classes 11-12)**. Rather than generic instruction, every line of code taught maps directly to enhancing their cognitive abilities and CBSE Computer Science performance. Additionally, our **CBSE Mathematics mastery courses** ensure students are fully armored for JEE Main, Advanced, and international math Olympiads.
 
@@ -391,9 +391,9 @@ Get Started
 
 Not sure which plan is right? Book a free demo and we'll help you decide. No obligation, no pressure.
 
-## Book a Free Demo Class — DPS New Town Students
+## Book a Free Demo Class: DPS New Town Students
 
-Experience our coding and maths classes firsthand — absolutely free. Tell us about your child and we'll schedule a personalized demo session. No obligation, no pressure.
+Experience our coding and maths classes firsthand, absolutely free. Tell us about your child and we'll schedule a personalized demo session. No obligation, no pressure.
 
 Or reach us directly:
 
@@ -443,7 +443,7 @@ Yes! We run intensive coding camps during summer vacation (April-May) and Durga 
 
 +
 
-Our Python and Java courses directly cover topics from the CBSE Computer Science syllabus including variables, loops, arrays, functions, strings, and object-oriented programming. DPS New Town Students who learn coding with us consistently score higher in their Computer Applications exams because they develop deeper understanding beyond textbook knowledge. They practice writing actual programs, debugging code, and solving real problems — skills that give them a clear advantage in both practical and theoretical CBSE assessments.
+Our Python and Java courses directly cover topics from the CBSE Computer Science syllabus including variables, loops, arrays, functions, strings, and object-oriented programming. DPS New Town Students who learn coding with us consistently score higher in their Computer Applications exams because they develop deeper understanding beyond textbook knowledge. They practice writing actual programs, debugging code, and solving real problems, skills that give them a clear advantage in both practical and theoretical CBSE assessments.
 
 ### Do you provide certificates?
 
@@ -455,7 +455,7 @@ Yes, every student receives a completion certificate after finishing their codin
 
 +
 
-Yes — and we encourage it. Visit our free [How We Teach demo library](/how-we-teach) to watch real, full-length class recordings for both coding and maths, organised by topic and age. There is no sign-up and no payment, so you can see our exact teaching style before booking your child's free demo class.
+Yes. And we encourage it. Visit our free [How We Teach demo library](/how-we-teach) to watch real, full-length class recordings for both coding and maths, organised by topic and age. There is no sign-up and no payment, so you can see our exact teaching style before booking your child's free demo class.
 
 ## Explore More
 

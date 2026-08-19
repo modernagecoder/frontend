@@ -49,11 +49,11 @@
       },
       {
         "type": "paragraph",
-        "text": "In this comprehensive guide, you'll learn exactly what Armstrong numbers are, why they matter in programming, and how to work with them in Python. We'll walk through multiple approaches—from simple beginner-friendly code to optimized solutions."
+        "text": "In this comprehensive guide, you'll learn exactly what Armstrong numbers are, why they matter in programming, and how to work with them in Python. We'll walk through multiple approaches, from simple beginner-friendly code to optimized solutions."
       },
       {
         "type": "paragraph",
-        "text": "No advanced math required—just basic Python knowledge and curiosity. Let's dive in!"
+        "text": "No advanced math required, just basic Python knowledge and curiosity. Let's dive in!"
       },
       {
         "type": "heading",
@@ -184,7 +184,7 @@
       },
       {
         "type": "paragraph",
-        "text": "The techniques you learn here—digit extraction, iterative checking, and mathematical validation—apply to countless other programming challenges."
+        "text": "The techniques you learn here, digit extraction, iterative checking, and mathematical validation, apply to countless other programming challenges."
       },
       {
         "type": "heading",
@@ -209,7 +209,7 @@
       },
       {
         "type": "paragraph",
-        "text": "This method extracts digits using mathematical operations—the classic algorithm approach."
+        "text": "This method extracts digits using mathematical operations, the classic algorithm approach."
       },
       {
         "type": "code",

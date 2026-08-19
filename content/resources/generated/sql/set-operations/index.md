@@ -49,7 +49,7 @@ INSERT INTO users_purchased VALUES (2,'b@x.com'),(3,'c@x.com'),(4,'d@x.com');
 
 ### 1. Combining Similar Data From Multiple Sources
 
-Many real systems keep partitioned tables: orders_2024, orders_2025, orders_2026 or sales_emea, sales_apac, sales_amer. When you need a unified view across all of them, UNION ALL stacks the rows into one result — no changes to underlying schema required.
+Many real systems keep partitioned tables: orders_2024, orders_2025, orders_2026 or sales_emea, sales_apac, sales_amer. When you need a unified view across all of them, UNION ALL stacks the rows into one result, no changes to underlying schema required.
 
 ### 2. Data Reconciliation and Diffing
 
@@ -184,7 +184,7 @@ SELECT a.email FROM users_active a
 LEFT JOIN users_purchased p ON a.email = p.email
 WHERE p.email IS NULL;
 
--- NOT EXISTS version (prefer this — NULL-safe)
+-- NOT EXISTS version (prefer this: NULL-safe)
 SELECT a.email FROM users_active a
 WHERE NOT EXISTS (
     SELECT 1 FROM users_purchased p WHERE p.email = a.email
@@ -393,14 +393,14 @@ SELECT a.email FROM users_active a
 LEFT JOIN users_purchased p ON a.email = p.email
 WHERE p.email IS NULL;
 
--- Method 2: NOT EXISTS (preferred — NULL-safe)
+-- Method 2: NOT EXISTS (preferred: NULL-safe)
 SELECT a.email FROM users_active a
 WHERE NOT EXISTS (
     SELECT 1 FROM users_purchased p WHERE p.email = a.email
 );
 ```
 
-LEFT JOIN + IS NULL is the classic 'rows in A not in B' pattern — already covered in the JOINs chapter. NOT EXISTS is safer if the compared columns can be NULL. Both are portable across all SQL dialects.
+LEFT JOIN + IS NULL is the classic 'rows in A not in B' pattern, already covered in the JOINs chapter. NOT EXISTS is safer if the compared columns can be NULL. Both are portable across all SQL dialects.
 
 **Output:**
 
@@ -424,7 +424,7 @@ INSERT INTO sales_2024 VALUES (1, 1000), (2, 2000);
 INSERT INTO sales_2025 VALUES (1, 3000), (2, 4500);
 INSERT INTO sales_2026 VALUES (1, 5200);
 
--- Combined view across all three years (no duplicates by id collision — different years)
+-- Combined view across all three years (no duplicates by id collision, different years)
 SELECT id, amount, 2024 AS year FROM sales_2024
 UNION ALL
 SELECT id, amount, 2025 FROM sales_2025
@@ -541,17 +541,17 @@ WHERE NOT EXISTS (
 );
 ```
 
-NOT IN with NULL in the subquery always returns empty (UNKNOWN combined with AND). NOT EXISTS is NULL-safe. This is the same trap we discussed in the subqueries chapter — set-difference patterns hit it constantly.
+NOT IN with NULL in the subquery always returns empty (UNKNOWN combined with AND). NOT EXISTS is NULL-safe. This is the same trap we discussed in the subqueries chapter, set-difference patterns hit it constantly.
 
 ## Summary
 
 - UNION combines two SELECT results and removes duplicates. UNION ALL combines them without deduplication and is significantly faster.
 - Both branches must have the same number of columns and compatible data types. Column names come from the first SELECT.
 - ORDER BY applies to the combined result and must appear at the very end of the entire UNION statement.
-- Use UNION ALL whenever duplicates are impossible or acceptable — it skips the expensive sort/hash deduplication step.
+- Use UNION ALL whenever duplicates are impossible or acceptable. It skips the expensive sort/hash deduplication step.
 - INTERSECT returns rows present in both queries. MySQL 8.0.31+ supports it natively; older versions use INNER JOIN or IN.
 - EXCEPT (MINUS in Oracle) returns rows in the first query but not in the second. Workaround: LEFT JOIN + IS NULL, or NOT EXISTS.
-- NOT EXISTS is always safer than NOT IN when emulating EXCEPT — NOT IN fails silently if the subquery contains NULL.
+- NOT EXISTS is always safer than NOT IN when emulating EXCEPT: NOT IN fails silently if the subquery contains NULL.
 - Add a constant column (like 'India' or 2024) to tag rows with their source when combining similar tables with UNION ALL.
 - Chained UNIONs are associative. Parentheses rarely change the result but help readability when mixing UNION with INTERSECT or EXCEPT.
 - Classic use cases: unifying partitioned tables (orders_2024/2025/2026), data reconciliation (what is in A not in B), cross-system matching.

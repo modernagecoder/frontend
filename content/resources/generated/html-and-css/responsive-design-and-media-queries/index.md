@@ -15,13 +15,13 @@ keywords: ["responsive design tutorial", "css media queries", "mobile-first css"
 
 ## What Is Responsive Design?
 
-Responsive design is the practice of building websites that look good and work well on ANY screen size — a 5-inch phone, a 10-inch tablet, a 15-inch laptop, a 27-inch desktop, even a 50-inch TV. Instead of building a separate website for each device, you build ONE site that adapts.
+Responsive design is the practice of building websites that look good and work well on ANY screen size, a 5-inch phone, a 10-inch tablet, a 15-inch laptop, a 27-inch desktop, even a 50-inch TV. Instead of building a separate website for each device, you build ONE site that adapts.
 
 The three pillars of responsive design are:
 
-1. **Fluid layouts** — using % and fr units so things stretch and shrink
-2. **Flexible images** — `max-width: 100%` so pictures never overflow
-3. **Media queries** — changing CSS based on screen width
+1. **Fluid layouts**, using % and fr units so things stretch and shrink
+2. **Flexible images**, `max-width: 100%` so pictures never overflow
+3. **Media queries**, changing CSS based on screen width
 
 ```
 /* Media query example */
@@ -119,11 +119,11 @@ You can combine conditions with `and`, `or` (comma), and `not`:
 
 Breakpoints are the widths at which your layout changes. There is no 'one true' set, but these are widely used:
 
-- **640px** — large phone / phablet
-- **768px** — tablet (also iPad portrait)
-- **1024px** — small laptop / iPad landscape
-- **1280px** — standard desktop
-- **1536px** — large desktop
+- **640px**, large phone / phablet
+- **768px**, tablet (also iPad portrait)
+- **1024px**, small laptop / iPad landscape
+- **1280px**, standard desktop
+- **1536px**, large desktop
 
 Do not pick breakpoints based on specific devices. Pick them based on where YOUR layout breaks. If your cards start looking squished at 620px, add a breakpoint at 620px.
 
@@ -132,7 +132,7 @@ Do not pick breakpoints based on specific devices. Pick them based on where YOUR
 Fixed pixel sizes do not scale. Use relative units so your design adapts:
 
 ```
-font-size: 16px;     /* Absolute — always 16 pixels */
+font-size: 16px;     /* Absolute, always 16 pixels */
 font-size: 1rem;     /* Relative to root (html) font-size */
 font-size: 1.2em;    /* Relative to parent font-size */
 font-size: 50%;      /* Relative to parent */
@@ -522,7 +522,7 @@ A landing page hero. On small screens: text above, visual below, centered. On wi
 </html>
 ```
 
-`@media (prefers-color-scheme: dark)` detects the user's OS theme preference. CSS variables get redefined inside that media query. The whole page switches themes automatically — no button, no JavaScript. This is the most elegant dark mode implementation possible.
+`@media (prefers-color-scheme: dark)` detects the user's OS theme preference. CSS variables get redefined inside that media query. The whole page switches themes automatically, no button, no JavaScript. This is the most elegant dark mode implementation possible.
 
 **Output:**
 
@@ -588,7 +588,7 @@ Use `max-width` instead of `width` for containers. This means 'up to 1200px, but
 
 ```
 img {
-  /* No rules — uses natural pixel size */
+  /* No rules, uses natural pixel size */
 }
 /* A 2000px wide image breaks every mobile layout */
 ```
@@ -644,7 +644,7 @@ With `min-width` media queries, write them from smallest to largest. Later rules
 - Common breakpoints: 640px (phablet), 768px (tablet), 1024px (small laptop), 1280px (desktop). But pick breakpoints based on where YOUR content breaks, not specific devices.
 - Use relative units: `rem` for font sizes, `%` and `fr` for widths, `vw`/`vh` for viewport-relative sizes. Avoid fixed pixel sizes for layout dimensions.
 - Fluid images: `img { max-width: 100%; height: auto; }`. One rule that makes every image fit any container.
-- `clamp(min, preferred, max)` creates fluid typography that scales smoothly between limits — no breakpoints needed.
+- `clamp(min, preferred, max)` creates fluid typography that scales smoothly between limits, no breakpoints needed.
 - Use `display: none` and `display: block` inside media queries to show and hide elements at different breakpoints (like swapping a desktop nav for a hamburger menu on mobile).
 - `@media (prefers-color-scheme: dark)` detects the user's OS theme for automatic dark mode.
 - Always order min-width media queries from smallest to largest. The later rules override earlier ones, so the desktop rules must come last.

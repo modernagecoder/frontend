@@ -47,7 +47,7 @@
       },
       {
         "type": "paragraph",
-        "text": "Each block represents a coding concept like loops, conditionals, or variables. Kids build programs just like they build with LEGO bricks—snapping pieces together in logical sequences. It's a fantastic way for beginners to grasp coding logic without worrying about tricky syntax, spelling errors, or missing semicolons. Visual programming for kids boosts confidence, fosters creativity, and sets a solid foundation for future coding success. According to research from MIT, visual programming environments like Blockly help children as young as 5 years old develop computational thinking skills that will benefit them throughout their lives."
+        "text": "Each block represents a coding concept like loops, conditionals, or variables. Kids build programs just like they build with LEGO bricks, snapping pieces together in logical sequences. It's a fantastic way for beginners to grasp coding logic without worrying about tricky syntax, spelling errors, or missing semicolons. Visual programming for kids boosts confidence, fosters creativity, and sets a solid foundation for future coding success. According to research from MIT, visual programming environments like Blockly help children as young as 5 years old develop computational thinking skills that will benefit them throughout their lives."
       },
       {
         "type": "callout",
@@ -69,11 +69,11 @@
       },
       {
         "type": "paragraph",
-        "text": "Blockly uses a drag-and-drop interface that lets kids create complete programs without typing a single word. Kids select colorful coding blocks from a toolbox, snap them together like puzzle pieces, and instantly see how their logic plays out. The interface is intuitive—blocks only fit together in ways that make sense, preventing common programming errors before they happen."
+        "text": "Blockly uses a drag-and-drop interface that lets kids create complete programs without typing a single word. Kids select colorful coding blocks from a toolbox, snap them together like puzzle pieces, and instantly see how their logic plays out. The interface is intuitive, blocks only fit together in ways that make sense, preventing common programming errors before they happen."
       },
       {
         "type": "paragraph",
-        "text": "Each block fits in a specific way to guide correct programming structures such as loops, conditionals, events, and variables. When blocks are snapped together, Blockly automatically generates real code behind the scenes—like JavaScript, Python, or PHP—based on what the child built visually. This means kids are actually writing real code, they just don't see the complex syntax yet!"
+        "text": "Each block fits in a specific way to guide correct programming structures such as loops, conditionals, events, and variables. When blocks are snapped together, Blockly automatically generates real code behind the scenes, like JavaScript, Python, or PHP, based on what the child built visually. This means kids are actually writing real code, they just don't see the complex syntax yet!"
       },
       {
         "type": "heading",
@@ -89,12 +89,12 @@
         "type": "list",
         "style": "unordered",
         "items": [
-          "<strong>Motion Blocks (Blue):</strong> Control movement—move forward, turn left/right, go to specific positions",
-          "<strong>Event Blocks (Yellow):</strong> Trigger actions—when clicked, when key pressed, when program starts",
-          "<strong>Control Blocks (Orange):</strong> Make decisions and repeat actions—if/then, repeat, forever loops",
-          "<strong>Logic Blocks (Green):</strong> Compare values—equals, greater than, and/or conditions",
-          "<strong>Variable Blocks (Red):</strong> Store and change information—create variables, set values, change by amount",
-          "<strong>Function Blocks (Purple):</strong> Create reusable code—define custom blocks, call functions"
+          "<strong>Motion Blocks (Blue):</strong> Control movement, move forward, turn left/right, go to specific positions",
+          "<strong>Event Blocks (Yellow):</strong> Trigger actions, when clicked, when key pressed, when program starts",
+          "<strong>Control Blocks (Orange):</strong> Make decisions and repeat actions, if/then, repeat, forever loops",
+          "<strong>Logic Blocks (Green):</strong> Compare values, equals, greater than, and/or conditions",
+          "<strong>Variable Blocks (Red):</strong> Store and change information, create variables, set values, change by amount",
+          "<strong>Function Blocks (Purple):</strong> Create reusable code, define custom blocks, call functions"
         ]
       },
       {
@@ -124,7 +124,7 @@
       },
       {
         "type": "paragraph",
-        "text": "This simple program teaches loops (repeating actions), sequencing (order matters), and geometry (90-degree turns make squares)—all without typing a single line of code! Behind the scenes, Blockly converts this into real JavaScript code that executes the instructions."
+        "text": "This simple program teaches loops (repeating actions), sequencing (order matters), and geometry (90-degree turns make squares), all without typing a single line of code! Behind the scenes, Blockly converts this into real JavaScript code that executes the instructions."
       },
       {
         "type": "callout",
@@ -152,10 +152,10 @@
         "type": "list",
         "style": "unordered",
         "items": [
-          "<strong>Logical Thinking:</strong> Kids learn to organize steps, predict outcomes, and debug mistakes. They develop sequential thinking—understanding that order matters in achieving goals",
+          "<strong>Logical Thinking:</strong> Kids learn to organize steps, predict outcomes, and debug mistakes. They develop sequential thinking, understanding that order matters in achieving goals",
           "<strong>Problem-Solving Skills:</strong> Blockly teaches how to break complex tasks into manageable pieces, a skill called 'decomposition' that's valuable in all areas of life",
           "<strong>Pattern Recognition:</strong> Children identify repeating sequences and learn to use loops instead of repetition, making their code more efficient",
-          "<strong>Debugging Skills:</strong> When programs don't work as expected, kids learn to systematically find and fix errors—building resilience and analytical thinking",
+          "<strong>Debugging Skills:</strong> When programs don't work as expected, kids learn to systematically find and fix errors, building resilience and analytical thinking",
           "<strong>Spatial Reasoning:</strong> Moving characters and objects in 2D space helps develop spatial awareness and geometry understanding"
         ]
       },
@@ -169,7 +169,7 @@
         "type": "list",
         "style": "unordered",
         "items": [
-          "<strong>Creativity Unleashed:</strong> Kids create their own games, quizzes, animated stories, and interactive art—limited only by imagination",
+          "<strong>Creativity Unleashed:</strong> Kids create their own games, quizzes, animated stories, and interactive art, limited only by imagination",
           "<strong>Confidence Building:</strong> Solving puzzles and completing projects helps children feel proud of their achievements and builds a 'growth mindset'",
           "<strong>Self-Expression:</strong> Children can tell stories, create characters, and build worlds that reflect their interests and personality",
           "<strong>Collaboration Skills:</strong> Many Blockly platforms allow kids to share projects and remix others' work, teaching teamwork and inspiration"
@@ -185,7 +185,7 @@
         "type": "list",
         "style": "unordered",
         "items": [
-          "<strong>Math Skills:</strong> Blockly naturally incorporates coordinates, angles, variables, and arithmetic—making math concepts tangible and fun",
+          "<strong>Math Skills:</strong> Blockly naturally incorporates coordinates, angles, variables, and arithmetic, making math concepts tangible and fun",
           "<strong>Reading Comprehension:</strong> Following instructions and understanding block descriptions improves reading skills",
           "<strong>Foundation for Future Coding:</strong> Blockly builds the computational thinking needed for advanced languages like <a href='/courses/python-complete-masterclass-teens'>Python</a> and <a href='/courses/full-stack-web-development-teens-masterclass'>JavaScript</a>",
           "<strong>STEM Career Preparation:</strong> Early exposure to programming concepts prepares kids for technology careers that will dominate the future job market",
@@ -194,7 +194,7 @@
       },
       {
         "type": "paragraph",
-        "text": "With Blockly, kids aren't just learning how to code—they're learning how to think. Studies show that children who learn programming at a young age perform better in math, science, and problem-solving tasks across all subjects. They develop a 'computational mindset' that helps them approach challenges systematically and creatively."
+        "text": "With Blockly, kids aren't just learning how to code. They're learning how to think. Studies show that children who learn programming at a young age perform better in math, science, and problem-solving tasks across all subjects. They develop a 'computational mindset' that helps them approach challenges systematically and creatively."
       },
       {
         "type": "callout",
@@ -220,7 +220,7 @@
       },
       {
         "type": "paragraph",
-        "text": "Most kids can start learning Blockly around ages 5 to 10. At this age, children have developed the basic motor skills and pattern recognition needed to snap blocks together and think sequentially. However, the beauty of Blockly is that it scales with the child—beginners start simple, and as they grow, the projects become more sophisticated."
+        "text": "Most kids can start learning Blockly around ages 5 to 10. At this age, children have developed the basic motor skills and pattern recognition needed to snap blocks together and think sequentially. However, the beauty of Blockly is that it scales with the child, beginners start simple, and as they grow, the projects become more sophisticated."
       },
       {
         "type": "heading",
@@ -327,7 +327,7 @@
       },
       {
         "type": "paragraph",
-        "text": "Starting young helps kids build computational thinking and problem-solving skills early on, making it easier to learn text-based languages later. Even children who can't type fluently yet can succeed using Blockly's colorful, intuitive interface. The key is consistent practice—20-30 minutes, 3-4 times per week is perfect for building skills without overwhelming young learners."
+        "text": "Starting young helps kids build computational thinking and problem-solving skills early on, making it easier to learn text-based languages later. Even children who can't type fluently yet can succeed using Blockly's colorful, intuitive interface. The key is consistent practice: 20-30 minutes, 3-4 times per week is perfect for building skills without overwhelming young learners."
       },
       {
         "type": "callout",
@@ -414,7 +414,7 @@
         "type": "list",
         "style": "unordered",
         "items": [
-          "Clap, cheer, and reward small achievements—like solving a tricky loop puzzle or finishing a mini-game.",
+          "Clap, cheer, and reward small achievements, like solving a tricky loop puzzle or finishing a mini-game.",
           "Encouragement boosts confidence and motivation."
         ]
       },
@@ -625,7 +625,7 @@
         "type": "list",
         "style": "unordered",
         "items": [
-          "<strong>Python Turtle Graphics:</strong> Similar to Blockly's movement blocks but in text—perfect for beginners",
+          "<strong>Python Turtle Graphics:</strong> Similar to Blockly's movement blocks but in text, perfect for beginners",
           "<strong>Codecademy Python:</strong> Interactive lessons that guide you through typing code step-by-step",
           "<strong>Modern Age Coders Python Course:</strong> Our <a href='/courses/python-complete-masterclass-teens'>Python Masterclass</a> is designed specifically for kids transitioning from visual programming",
           "<strong>Replit:</strong> Online coding environment where kids can write and run Python code instantly"
@@ -663,7 +663,7 @@
         "type": "callout",
         "calloutType": "warning",
         "title": "Common Transition Challenges",
-        "text": "Expect frustration with syntax errors at first! Remind kids that forgetting semicolons or brackets is normal—even professional programmers make these mistakes. The key is learning to read error messages and debug systematically."
+        "text": "Expect frustration with syntax errors at first! Remind kids that forgetting semicolons or brackets is normal, even professional programmers make these mistakes. The key is learning to read error messages and debug systematically."
       },
       {
         "type": "heading",
@@ -712,7 +712,7 @@
       },
       {
         "type": "paragraph",
-        "text": "Notice how the logic is identical—only the appearance changes! This is why Blockly graduates find text coding much easier than complete beginners."
+        "text": "Notice how the logic is identical, only the appearance changes! This is why Blockly graduates find text coding much easier than complete beginners."
       },
       {
         "type": "callout",
@@ -768,7 +768,7 @@
           },
           {
             "title": "Can kids learn real coding with Blockly?",
-            "content": "Absolutely! Blockly teaches the fundamental concepts that all programming languages share: loops, conditionals, variables, functions, and logical thinking. When kids snap blocks together, they're learning the same problem-solving approaches that professional programmers use every day. The only difference is the syntax—Blockly uses visual blocks instead of text. In fact, Blockly actually generates real code (JavaScript, Python, or PHP) behind the scenes! Kids who master Blockly find learning text-based languages much easier because they already understand how programs work."
+            "content": "Absolutely! Blockly teaches the fundamental concepts that all programming languages share: loops, conditionals, variables, functions, and logical thinking. When kids snap blocks together, they're learning the same problem-solving approaches that professional programmers use every day. The only difference is the syntax: Blockly uses visual blocks instead of text. In fact, Blockly actually generates real code (JavaScript, Python, or PHP) behind the scenes! Kids who master Blockly find learning text-based languages much easier because they already understand how programs work."
           },
           {
             "title": "Is Blockly good for complete beginners?",
@@ -776,7 +776,7 @@
           },
           {
             "title": "How long should kids practice Blockly every week?",
-            "content": "Practicing 2-4 times a week for 20-30 minutes each session is ideal for building skills steadily without overwhelming young learners. Consistency matters more than duration—four 20-minute sessions are better than one 2-hour marathon. This schedule allows time for concepts to sink in between sessions and keeps coding fun rather than feeling like a chore. As kids get more engaged, they'll naturally want to spend more time on projects they're excited about, which is great! Just make sure to include breaks and encourage them to step away if they get frustrated."
+            "content": "Practicing 2-4 times a week for 20-30 minutes each session is ideal for building skills steadily without overwhelming young learners. Consistency matters more than duration, four 20-minute sessions are better than one 2-hour marathon. This schedule allows time for concepts to sink in between sessions and keeps coding fun rather than feeling like a chore. As kids get more engaged, they'll naturally want to spend more time on projects they're excited about, which is great! Just make sure to include breaks and encourage them to step away if they get frustrated."
           },
           {
             "title": "Are there free resources to practice Blockly coding?",
@@ -784,7 +784,7 @@
           },
           {
             "title": "Do kids need a powerful computer to use Blockly?",
-            "content": "No! Blockly runs in web browsers, so any computer, tablet, or even smartphone with internet access can run Blockly programs. You don't need to install any software—just open a web browser and visit a Blockly platform. Even older computers from 5-10 years ago work fine. Tablets with larger screens (like iPads) work well for younger children who prefer touch interfaces. The only requirement is a stable internet connection and a modern web browser like Chrome, Firefox, Safari, or Edge."
+            "content": "No! Blockly runs in web browsers, so any computer, tablet, or even smartphone with internet access can run Blockly programs. You don't need to install any software, just open a web browser and visit a Blockly platform. Even older computers from 5-10 years ago work fine. Tablets with larger screens (like iPads) work well for younger children who prefer touch interfaces. The only requirement is a stable internet connection and a modern web browser like Chrome, Firefox, Safari, or Edge."
           },
           {
             "title": "Can Blockly help with school subjects like math and science?",
@@ -792,7 +792,7 @@
           },
           {
             "title": "What if my child gets frustrated or stuck?",
-            "content": "Frustration is a normal part of learning to code! Here's how to help: 1) Encourage breaks—stepping away often leads to 'aha!' moments. 2) Break problems into smaller pieces—tackle one small part at a time. 3) Use the 'Show Code' feature to see what's happening behind the scenes. 4) Look for similar examples or tutorials online. 5) Join our <a href='/courses'>Modern Age Coders community</a> where instructors and peers can help. 6) Remind them that every programmer gets stuck—debugging is a skill that improves with practice. Celebrate the process of problem-solving, not just the final result!"
+            "content": "Frustration is a normal part of learning to code! Here's how to help: 1) Encourage breaks, stepping away often leads to 'aha!' moments. 2) Break problems into smaller pieces, tackle one small part at a time. 3) Use the 'Show Code' feature to see what's happening behind the scenes. 4) Look for similar examples or tutorials online. 5) Join our <a href='/courses'>Modern Age Coders community</a> where instructors and peers can help. 6) Remind them that every programmer gets stuck, debugging is a skill that improves with practice. Celebrate the process of problem-solving, not just the final result!"
           },
           {
             "title": "When should my child move from Blockly to text-based coding?",
@@ -811,7 +811,7 @@
       },
       {
         "type": "paragraph",
-        "text": "Blockly for kids is more than just an introduction to programming—it's a pathway to logical thinking, creativity, and future technology skills."
+        "text": "Blockly for kids is more than just an introduction to programming. It's a pathway to logical thinking, creativity, and future technology skills."
       },
       {
         "type": "paragraph",

@@ -17,7 +17,7 @@ keywords: ["sql like", "sql wildcards", "sql pattern matching", "sql null handli
 
 Sometimes you do not want an exact match. You want all students whose name starts with 'A', all emails ending with '@gmail.com', or all products containing the word 'Pro'. That is **pattern matching**, and SQL provides the `LIKE` operator with two wildcards (`%` and `_`) for exactly this.
 
-The second half of this chapter tackles SQL's most confusing concept: **NULL**. NULL is not zero, not empty string, not anything — it represents *unknown* or *missing*. Comparing anything to NULL does not give TRUE or FALSE — it gives NULL. This breaks beginners' assumptions and causes real production bugs. You must learn `IS NULL`, `IS NOT NULL`, and the NULL-handling functions `COALESCE`, `IFNULL`, and `NULLIF`.
+The second half of this chapter tackles SQL's most confusing concept: **NULL**. NULL is not zero, not empty string, not anything. It represents *unknown* or *missing*. Comparing anything to NULL does not give TRUE or FALSE, it gives NULL. This breaks beginners' assumptions and causes real production bugs. You must learn `IS NULL`, `IS NOT NULL`, and the NULL-handling functions `COALESCE`, `IFNULL`, and `NULLIF`.
 
 Master these two topics and you will write queries that match exactly the rows you want and handle missing data correctly.
 
@@ -25,11 +25,11 @@ Master these two topics and you will write queries that match exactly the rows y
 
 ### 1. Search Bars Use LIKE
 
-Every search bar on every website uses `LIKE` (or full-text search, which builds on LIKE). When you search 'iphone' on Flipkart and it shows iPhone 13, iPhone 15 Pro Max, iPhone Case — that is `WHERE name LIKE '%iphone%'`.
+Every search bar on every website uses `LIKE` (or full-text search, which builds on LIKE). When you search 'iphone' on Flipkart and it shows iPhone 13, iPhone 15 Pro Max, iPhone Case. That is `WHERE name LIKE '%iphone%'`.
 
 ### 2. NULL Is Everywhere in Real Data
 
-Your database WILL have NULLs. Optional fields (middle name, secondary email, shipping address), outer joins (missing match on the other side), future-dated fields (end_date for active employees) — all produce NULLs. Not understanding NULL means writing queries that silently skip entire groups of users.
+Your database WILL have NULLs. Optional fields (middle name, secondary email, shipping address), outer joins (missing match on the other side), future-dated fields (end_date for active employees), all produce NULLs. Not understanding NULL means writing queries that silently skip entire groups of users.
 
 ### 3. Failing the NULL Interview Question
 
@@ -108,7 +108,7 @@ WHERE email LIKE '%@gmail.com';
 
 -- Names with exactly 11 characters
 SELECT name FROM students WHERE name LIKE '___________';
--- 11 underscores — matches Priya Patel, Sneha Iyer, Diya Nair
+-- 11 underscores, matches Priya Patel, Sneha Iyer, Diya Nair
 ```
 
 ### 3. NOT LIKE
@@ -139,7 +139,7 @@ The ESCAPE clause tells SQL: "treat this character as escape." The character imm
 
 This is database-dependent and important:
 
-- **MySQL**: LIKE is **case-insensitive by default** for VARCHAR columns (using the default collation `utf8mb4_0900_ai_ci` — 'ci' = case-insensitive). `WHERE name LIKE 'a%'` matches 'Aarav'.
+- **MySQL**: LIKE is **case-insensitive by default** for VARCHAR columns (using the default collation `utf8mb4_0900_ai_ci`, 'ci' = case-insensitive). `WHERE name LIKE 'a%'` matches 'Aarav'.
 - **PostgreSQL**: LIKE is **case-sensitive**. `WHERE name LIKE 'a%'` will NOT match 'Aarav'. Use `ILIKE` for case-insensitive matching (PostgreSQL only).
 - **SQL Server**: Depends on collation. Default is case-insensitive.
 
@@ -151,9 +151,9 @@ WHERE LOWER(name) LIKE LOWER('a%')
 
 ### 6. Performance Note
 
-Patterns starting with `%` (like `'%gmail.com'`) cannot use a regular B-tree index — the database must scan every row. Patterns anchored at the start (`'Aarav%'`) CAN use an index. For high-volume text search with leading wildcards, use a **full-text index** (covered in advanced chapters).
+Patterns starting with `%` (like `'%gmail.com'`) cannot use a regular B-tree index, the database must scan every row. Patterns anchored at the start (`'Aarav%'`) CAN use an index. For high-volume text search with leading wildcards, use a **full-text index** (covered in advanced chapters).
 
-### 7. NULL — The Three-Valued Logic
+### 7. NULL: The Three-Valued Logic
 
 SQL uses **three-valued logic**: TRUE, FALSE, and NULL (unknown). Most programming languages have only TRUE/FALSE. In SQL:
 
@@ -178,9 +178,9 @@ SELECT name FROM students WHERE email IS NOT NULL;
 -- Returns: the other 8 students
 ```
 
-**NEVER** write `WHERE email = NULL` — it always returns 0 rows.
+**NEVER** write `WHERE email = NULL`. It always returns 0 rows.
 
-### 9. COALESCE — First Non-NULL
+### 9. COALESCE: First Non-NULL
 
 `COALESCE(val1, val2, val3, ...)` returns the first non-NULL value from the argument list.
 
@@ -192,9 +192,9 @@ SELECT name, COALESCE(email, 'No email') AS contact FROM students;
 SELECT name, COALESCE(marks, 0) AS marks FROM students;
 ```
 
-COALESCE is standard SQL — works on every database. Use it over `IFNULL` for portability.
+COALESCE is standard SQL, works on every database. Use it over `IFNULL` for portability.
 
-### 10. IFNULL — MySQL-Specific Shortcut
+### 10. IFNULL: MySQL-Specific Shortcut
 
 `IFNULL(value, default)` is MySQL's 2-argument version:
 
@@ -205,7 +205,7 @@ SELECT IFNULL(marks, 0) FROM students;
 
 IFNULL only takes 2 arguments. COALESCE takes any number. For portability, prefer COALESCE.
 
-### 11. NULLIF — The Opposite
+### 11. NULLIF: The Opposite
 
 `NULLIF(a, b)` returns NULL if `a = b`, otherwise returns `a`.
 
@@ -220,12 +220,12 @@ SELECT marks / NULLIF(total_marks, 0) FROM students;
 
 ### 12. NULL in Aggregate Functions
 
-Aggregate functions (COUNT, SUM, AVG, MIN, MAX) skip NULLs — except `COUNT(*)`:
+Aggregate functions (COUNT, SUM, AVG, MIN, MAX) skip NULLs, except `COUNT(*)`:
 
-- `COUNT(*)` — all rows
-- `COUNT(column)` — non-NULL rows
-- `SUM(column)` — sum of non-NULL values
-- `AVG(column)` — average of non-NULL values (NULL not treated as 0)
+- `COUNT(*)`, all rows
+- `COUNT(column)`, non-NULL rows
+- `SUM(column)`, sum of non-NULL values
+- `AVG(column)`, average of non-NULL values (NULL not treated as 0)
 
 This matters: if you want NULLs counted as 0 in an AVG, you must handle them explicitly: `AVG(COALESCE(marks, 0))`.
 
@@ -319,7 +319,7 @@ WHERE email NOT LIKE '%@gmail.com'
   AND email IS NOT NULL;
 ```
 
-The gmail pattern: `'%@gmail.com'` means anything followed by @gmail.com. For non-gmail, we use NOT LIKE. Notice we also filter out NULL emails explicitly — NOT LIKE on a NULL value returns NULL, not TRUE, so NULL emails are already excluded, but adding `IS NOT NULL` makes the intent clearer.
+The gmail pattern: `'%@gmail.com'` means anything followed by @gmail.com. For non-gmail, we use NOT LIKE. Notice we also filter out NULL emails explicitly: NOT LIKE on a NULL value returns NULL, not TRUE, so NULL emails are already excluded, but adding `IS NOT NULL` makes the intent clearer.
 
 **Output:**
 
@@ -404,7 +404,7 @@ FROM students
 WHERE id IN (4, 5, 8);
 ```
 
-IFNULL(value, default) returns default if value is NULL. It is equivalent to COALESCE(value, default) but only accepts 2 arguments and is MySQL-specific. Use COALESCE for portable code. We filter to ids 4, 5, 8 — the three students with NULLs.
+IFNULL(value, default) returns default if value is NULL. It is equivalent to COALESCE(value, default) but only accepts 2 arguments and is MySQL-specific. Use COALESCE for portable code. We filter to ids 4, 5, 8, the three students with NULLs.
 
 **Output:**
 
@@ -453,7 +453,7 @@ SELECT name FROM students WHERE name LIKE '__a%';
 SELECT name FROM students WHERE name LIKE '_r%';
 ```
 
-`'__a%'`: any 2 chars, then 'a', then anything. Matches: Aa**a**rav? Let us check A-a-r-a-v: position 3 is 'r'. So NO. What about I**s**hita: I-s-h... no 'a' at position 3. Let us test Aarav: 1=A, 2=a, 3=r — no. Ishita: I-s-h-i-t-a, 3='h', no. Priya: P-r-i-y-a, 3='i', no. Karan: K-a-r-a-n, 3='r', no. Hmm, tricky. Maybe Diya: D-i-y-a, 3='y', no. So possibly 0 rows! `'_r%'`: position 2 is 'r'. Priya (Pr...), no wait P-r yes 2='r'. Sharma starts with S. 'Priya Patel' position 2='r'. Matches just Priya.
+`'__a%'`: any 2 chars, then 'a', then anything. Matches: Aa**a**rav? Let us check A-a-r-a-v: position 3 is 'r'. So NO. What about I**s**hita: I-s-h... no 'a' at position 3. Let us test Aarav: 1=A, 2=a, 3=r, no. Ishita: I-s-h-i-t-a, 3='h', no. Priya: P-r-i-y-a, 3='i', no. Karan: K-a-r-a-n, 3='r', no. Hmm, tricky. Maybe Diya: D-i-y-a, 3='y', no. So possibly 0 rows! `'_r%'`: position 2 is 'r'. Priya (Pr...), no wait P-r yes 2='r'. Sharma starts with S. 'Priya Patel' position 2='r'. Matches just Priya.
 
 **Output:**
 
@@ -481,7 +481,7 @@ SELECT
 FROM students;
 ```
 
-COUNT(*) = 10 (all rows). COUNT(marks) = 8 (excludes 2 NULLs). AVG(marks) averages 8 non-NULL values: (85+72+91+78+65+88+70+82)/8 = 631/8 = 78.875. AVG(COALESCE(marks, 0)) treats NULLs as 0: 631/10 = 63.1. Huge difference — know which one you want!
+COUNT(*) = 10 (all rows). COUNT(marks) = 8 (excludes 2 NULLs). AVG(marks) averages 8 non-NULL values: (85+72+91+78+65+88+70+82)/8 = 631/8 = 78.875. AVG(COALESCE(marks, 0)) treats NULLs as 0: 631/10 = 63.1. Huge difference, know which one you want!
 
 **Output:**
 
@@ -569,7 +569,7 @@ SELECT CONCAT(first_name, ' ', middle_name, ' ', last_name) AS full_name
 FROM users;
 ```
 
-No error, but for users with NULL middle_name, full_name is NULL (the entire concatenated string). Not 'Aarav  Sharma' — just NULL.
+No error, but for users with NULL middle_name, full_name is NULL (the entire concatenated string). Not 'Aarav  Sharma', just NULL.
 
 **Correct:**
 
@@ -619,7 +619,7 @@ The same NOT IN + NULL problem from chapter 6 reappears with subqueries. A NULL 
 - NOT LIKE inverts LIKE. Combine with IS NOT NULL when dealing with nullable columns to avoid surprises.
 - MySQL LIKE is case-insensitive by default (default collation). PostgreSQL LIKE is case-sensitive; use ILIKE or LOWER() for case-insensitive.
 - Use ESCAPE to match literal % or _ characters: WHERE col LIKE '%50\%%' ESCAPE '\\'.
-- NULL is not zero, not empty string — it is 'unknown.' Any comparison with NULL yields NULL, not TRUE or FALSE.
+- NULL is not zero, not empty string. It is 'unknown.' Any comparison with NULL yields NULL, not TRUE or FALSE.
 - WHERE salary = NULL returns 0 rows even if NULLs exist. Always use IS NULL and IS NOT NULL instead.
 - COALESCE(v1, v2, ...) returns the first non-NULL argument. Use it to substitute defaults for missing data.
 - IFNULL(value, default) is MySQL's 2-argument version of COALESCE. NULLIF(a, b) returns NULL if a = b (useful for avoiding divide-by-zero).

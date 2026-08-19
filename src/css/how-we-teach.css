@@ -1,5 +1,5 @@
 /* ============================================================
-   HOW WE TEACH — "The Open Notebook"
+   HOW WE TEACH, "The Open Notebook"
    An editorial / risograph aesthetic: warm manila paper, ruled
    margins, marker highlights, taped photo-prints, a teacher's
    red pen, and handwritten annotations. Two inks share one book:
@@ -129,7 +129,7 @@
 .hwt-reveal.in { opacity: 1; transform: none; }
 
 /* ============================================================
-   NAV / FOOTER bridge — make the shared dark chrome feel like
+   NAV / FOOTER bridge, make the shared dark chrome feel like
    an intentional editorial masthead over the paper.
    ============================================================ */
 body:has(.hwt) header nav .navbar,
@@ -139,7 +139,7 @@ body:has(.hwt) header nav {
 }
 
 /* ============================================================
-   SUBJECT SWITCH  (Coding / Maths) — clean segmented control
+   SUBJECT SWITCH  (Coding / Maths), clean segmented control
    ============================================================ */
 .hwt-switch-wrap {
     position: sticky;
@@ -251,8 +251,8 @@ body:has(.hwt) header nav {
 }
 .hwt-cta-row { display: flex; gap: 14px; flex-wrap: wrap; margin-top: 32px; }
 
-/* buttons — solid ink with offset shadow (printed-block feel) */
-/* button base + variants — scoped under .hwt so site-wide `a` styles
+/* buttons, solid ink with offset shadow (printed-block feel) */
+/* button base + variants, scoped under .hwt so site-wide `a` styles
    never bleed in and bury the text color */
 .hwt .hwt-btn,
 .hwt a.hwt-btn,
@@ -276,7 +276,7 @@ body:has(.hwt) header nav {
 .hwt .hwt-btn--ghost:hover,
 .hwt a.hwt-btn--ghost:hover,
 .hwt button.hwt-btn--ghost:hover { transform: translate(-2px,-2px); box-shadow: 7px 7px 0 rgba(34,29,23,0.22); color: var(--ink) !important; }
-/* CTA band (dark) — invert */
+/* CTA band (dark), invert */
 .hwt .hwt-cta .hwt-btn--solid,
 .hwt .hwt-cta a.hwt-btn--solid,
 .hwt .hwt-cta button.hwt-btn--solid { color: var(--ink) !important; background: var(--marker); border-color: var(--marker); }
@@ -284,7 +284,7 @@ body:has(.hwt) header nav {
 .hwt .hwt-cta a.hwt-btn--ghost,
 .hwt .hwt-cta button.hwt-btn--ghost { color: var(--paper-3) !important; background: transparent; border-color: var(--paper-3); box-shadow: 5px 5px 0 rgba(255,255,255,0.18); }
 
-/* hero right: stacked "open book" — code page + maths page */
+/* hero right: stacked "open book", code page + maths page */
 .hwt-stage { position: relative; }
 .hwt-leaf {
     background: var(--paper-3);
@@ -362,7 +362,7 @@ body:has(.hwt) header nav {
 .hwt-head-center .eyebrow { justify-content: center; }
 
 /* ============================================================
-   METHOD BEATS — numbered notebook entries
+   METHOD BEATS, numbered notebook entries
    ============================================================ */
 .hwt-beats { margin-top: 54px; display: grid; grid-template-columns: 1fr 1fr; gap: 0; }
 .hwt-beat {
@@ -393,7 +393,7 @@ body:has(.hwt) header nav {
 .hwt-eg span:last-child { color: var(--ink); }
 
 /* ============================================================
-   LESSON WALL — taped photo-prints
+   LESSON WALL, taped photo-prints
    ============================================================ */
 .hwt-filters { display: flex; flex-wrap: wrap; gap: 12px; justify-content: center; margin: 38px 0 48px; }
 .hwt-chip {
@@ -408,7 +408,7 @@ body:has(.hwt) header nav {
 
 .hwt-wall { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 30px 26px; }
 
-/* content-first "filed lesson" card — no media preview */
+/* content-first "filed lesson" card, no media preview */
 .hwt-card {
     appearance: none; text-align: left; cursor: pointer; font: inherit; color: inherit;
     padding: 30px 26px 24px; background: var(--paper-3);
@@ -435,7 +435,7 @@ body:has(.hwt) header nav {
     box-shadow: 0 1px 2px rgba(34,29,23,0.12); z-index: 4;
 }
 
-/* big faded subject glyph — texture, sits behind the text */
+/* big faded subject glyph, texture, sits behind the text */
 .hwt-card .glyph {
     position: absolute; right: -12px; bottom: -40px; z-index: 0;
     font-family: 'JetBrains Mono', monospace; font-weight: 700;
@@ -542,7 +542,7 @@ body:has(.hwt) header nav {
 .hwt-mini-video .placeholder { position: absolute; inset: 0; display: flex; align-items: flex-end; padding: 12px; font-family: 'Caveat', cursive; font-size: 1.4rem; color: var(--ink); }
 
 /* ============================================================
-   TESTIMONIALS — index cards
+   TESTIMONIALS, index cards
    ============================================================ */
 .hwt-quotes { display: grid; grid-template-columns: repeat(3, 1fr); gap: 26px; margin-top: 50px; }
 .hwt-quote {
@@ -575,7 +575,7 @@ body:has(.hwt) header nav {
 }
 
 /* ============================================================
-   CTA — the one dark ink block (editorial contrast)
+   CTA, the one dark ink block (editorial contrast)
    ============================================================ */
 .hwt-cta {
     background: var(--ink); color: var(--paper-3);
@@ -610,7 +610,7 @@ body:has(.hwt) header nav {
 .hwt-faq-a-inner { padding: 0 8px 24px; color: #463d31; line-height: 1.65; font-size: 1.05rem; }
 
 /* ============================================================
-   DEMO LIBRARY — the page's primary action
+   DEMO LIBRARY, the page's primary action
    ============================================================ */
 .hwt-library {
     position: relative;
@@ -715,7 +715,7 @@ body:has(.hwt) header nav {
 .lib-window .lib-caption .arrow { color: var(--rule-red); font-family: 'Caveat', cursive; font-size: 1rem; text-transform: none; letter-spacing: 0; }
 
 /* ============================================================
-   "Can't find what you need?" — recordings-on-request callout
+   "Can't find what you need?", recordings-on-request callout
    ============================================================ */
 .hwt-library-extra {
     display: grid;
@@ -756,7 +756,7 @@ body:has(.hwt) header nav {
 .extra-cta .note-hand { transform: rotate(-3deg); font-size: 1.25rem; }
 
 /* ============================================================
-   SEO TOPICS — what's inside the methodology
+   SEO TOPICS, what's inside the methodology
    ============================================================ */
 .topics-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 60px; margin-top: 54px; }
 .topics-col h3 {

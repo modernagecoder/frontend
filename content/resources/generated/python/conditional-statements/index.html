@@ -17,7 +17,7 @@
     <!-- SEO Meta Tags -->
     <meta name="description" content="Make decisions in your code using if, elif, and else statements with comparison operators.">
     <!-- meta keywords intentionally not emitted: Google has ignored it since 2009 and Bing
-         treats it as a SPAM SIGNAL — and Bing is the index ChatGPT/Copilot answer from.
+         treats it as a SPAM SIGNAL, and Bing is the index ChatGPT/Copilot answer from.
          See scripts/strip-meta-keywords.py. -->
     <meta name="author" content="Modern Age Coders">
     <meta name="robots" content="index, follow">
@@ -210,8 +210,8 @@
 
             <section id="what" class="content-section">
                 <h2>What Is It?</h2>
-                <h2>What Are Conditional Statements?</h2><p>A <strong>conditional statement</strong> lets your program make decisions. Instead of executing every line of code from top to bottom, your program can choose which code to run based on whether a condition is true or false.</p><p>Think of it like making everyday decisions. When you wake up, you check: "Is it raining?" If yes, you take an umbrella. If no, you do not. This is exactly what conditional statements do in code — they check a condition and execute different blocks of code depending on the result.</p><p>In Python, conditional statements are built using three keywords: <code>if</code>, <code>elif</code> (short for "else if"), and <code>else</code>. Every Python program that does anything useful will use conditional statements.</p><h3>The Basic Structure</h3><p>The simplest conditional statement checks one condition and executes code only if that condition is <code>True</code>:</p><pre><code>if condition:
-    # code to execute when condition is True</code></pre><p>The condition is any expression that evaluates to <code>True</code> or <code>False</code> (a Boolean expression). The code inside the <code>if</code> block is <strong>indented</strong> — this indentation is how Python knows which code belongs to the <code>if</code> statement.</p>
+                <h2>What Are Conditional Statements?</h2><p>A <strong>conditional statement</strong> lets your program make decisions. Instead of executing every line of code from top to bottom, your program can choose which code to run based on whether a condition is true or false.</p><p>Think of it like making everyday decisions. When you wake up, you check: "Is it raining?" If yes, you take an umbrella. If no, you do not. This is exactly what conditional statements do in code. They check a condition and execute different blocks of code depending on the result.</p><p>In Python, conditional statements are built using three keywords: <code>if</code>, <code>elif</code> (short for "else if"), and <code>else</code>. Every Python program that does anything useful will use conditional statements.</p><h3>The Basic Structure</h3><p>The simplest conditional statement checks one condition and executes code only if that condition is <code>True</code>:</p><pre><code>if condition:
+    # code to execute when condition is True</code></pre><p>The condition is any expression that evaluates to <code>True</code> or <code>False</code> (a Boolean expression). The code inside the <code>if</code> block is <strong>indented</strong>. This indentation is how Python knows which code belongs to the <code>if</code> statement.</p>
             </section>
 
             <section id="why" class="content-section">
@@ -226,14 +226,14 @@
 if age >= 18:
     print("You can vote.")
 
-print("Program continues here.")</code></pre><p>In this example, since <code>16 >= 18</code> is False, the print statement inside the if block is skipped. The program jumps to <code>"Program continues here."</code></p><h4>Indentation Is Mandatory</h4><p>In Python, indentation is not optional or cosmetic — it is part of the language's syntax. The standard is <strong>4 spaces</strong> per level of indentation. All code that belongs to the <code>if</code> block must be indented by the same amount. If you mix indentation levels or forget to indent, Python raises an <code>IndentationError</code>.</p><pre><code># This causes an IndentationError:
+print("Program continues here.")</code></pre><p>In this example, since <code>16 >= 18</code> is False, the print statement inside the if block is skipped. The program jumps to <code>"Program continues here."</code></p><h4>Indentation Is Mandatory</h4><p>In Python, indentation is not optional or cosmetic. It is part of the language's syntax. The standard is <strong>4 spaces</strong> per level of indentation. All code that belongs to the <code>if</code> block must be indented by the same amount. If you mix indentation levels or forget to indent, Python raises an <code>IndentationError</code>.</p><pre><code># This causes an IndentationError:
 if True:
-print("Hello")  # Not indented — ERROR!</code></pre><h3>2. The if-else Statement</h3><p>The <code>if-else</code> structure provides two paths: one for when the condition is True, and another for when it is False. Exactly one of the two blocks will always execute.</p><pre><code>marks = 45
+print("Hello")  # Not indented: ERROR!</code></pre><h3>2. The if-else Statement</h3><p>The <code>if-else</code> structure provides two paths: one for when the condition is True, and another for when it is False. Exactly one of the two blocks will always execute.</p><pre><code>marks = 45
 
 if marks >= 40:
     print("You passed!")
 else:
-    print("You failed.")</code></pre><p>Since 45 >= 40 is True, the if block runs and prints "You passed!". If marks were 35, the else block would run instead. The <code>else</code> keyword does not have a condition — it catches everything that the <code>if</code> did not.</p><h3>3. The if-elif-else Statement</h3><p>When you need to check multiple conditions, use <code>elif</code> (short for "else if"). Python checks each condition from top to bottom and executes the block for the <strong>first</strong> condition that is True. If no condition is True, the <code>else</code> block runs.</p><pre><code>marks = 75
+    print("You failed.")</code></pre><p>Since 45 >= 40 is True, the if block runs and prints "You passed!". If marks were 35, the else block would run instead. The <code>else</code> keyword does not have a condition. It catches everything that the <code>if</code> did not.</p><h3>3. The if-elif-else Statement</h3><p>When you need to check multiple conditions, use <code>elif</code> (short for "else if"). Python checks each condition from top to bottom and executes the block for the <strong>first</strong> condition that is True. If no condition is True, the <code>else</code> block runs.</p><pre><code>marks = 75
 
 if marks >= 90:
     grade = "A"
@@ -246,7 +246,7 @@ elif marks >= 60:
 else:
     grade = "F"
 
-print("Grade:", grade)</code></pre><p>Here, Aarav scored 75. Python checks: 75 >= 90? No. 75 >= 80? No. 75 >= 70? Yes! So grade is set to "C" and all remaining elif/else blocks are <strong>skipped</strong>. This is important: once a match is found, no further conditions are checked.</p><h4>Key Rules for if-elif-else</h4><ul><li>You must start with <code>if</code>.</li><li>You can have zero or more <code>elif</code> blocks.</li><li>The <code>else</code> block is optional, and there can be at most one.</li><li><code>else</code> must come last.</li><li>Only ONE block executes — the first one whose condition is True (or else if none are True).</li></ul><h3>4. Nested if Statements</h3><p>You can place an <code>if</code> statement inside another <code>if</code> statement. This is called <strong>nesting</strong>. The inner <code>if</code> is only checked when the outer <code>if</code> condition is True.</p><pre><code>age = 20
+print("Grade:", grade)</code></pre><p>Here, Aarav scored 75. Python checks: 75 >= 90? No. 75 >= 80? No. 75 >= 70? Yes! So grade is set to "C" and all remaining elif/else blocks are <strong>skipped</strong>. This is important: once a match is found, no further conditions are checked.</p><h4>Key Rules for if-elif-else</h4><ul><li>You must start with <code>if</code>.</li><li>You can have zero or more <code>elif</code> blocks.</li><li>The <code>else</code> block is optional, and there can be at most one.</li><li><code>else</code> must come last.</li><li>Only ONE block executes, the first one whose condition is True (or else if none are True).</li></ul><h3>4. Nested if Statements</h3><p>You can place an <code>if</code> statement inside another <code>if</code> statement. This is called <strong>nesting</strong>. The inner <code>if</code> is only checked when the outer <code>if</code> condition is True.</p><pre><code>age = 20
 has_license = True
 
 if age >= 18:
@@ -262,7 +262,7 @@ status = "Adult" if age >= 18 else "Minor"
 print(status)  # Output: Adult</code></pre><p>This is equivalent to:</p><pre><code>if age >= 18:
     status = "Adult"
 else:
-    status = "Minor"</code></pre><p>The ternary operator is great for simple assignments but should not be used for complex logic. Keep it readable.</p><h3>7. Combining Conditions with and, or, not</h3><p>You can combine multiple conditions using logical operators:</p><ul><li><code>and</code> — both conditions must be True</li><li><code>or</code> — at least one condition must be True</li><li><code>not</code> — reverses the condition</li></ul><pre><code>age = 16
+    status = "Minor"</code></pre><p>The ternary operator is great for simple assignments but should not be used for complex logic. Keep it readable.</p><h3>7. Combining Conditions with and, or, not</h3><p>You can combine multiple conditions using logical operators:</p><ul><li><code>and</code>, both conditions must be True</li><li><code>or</code>, at least one condition must be True</li><li><code>not</code>, reverses the condition</li></ul><pre><code>age = 16
 has_permission = True
 
 if age >= 13 and age <= 17 and has_permission:

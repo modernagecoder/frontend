@@ -1,20 +1,20 @@
 ---
 title: "Winter Coding Camp 2026 | Online Worldwide | Modern Age Coders"
-description: "Winter Coding Camp 2026 — Online coding bootcamp for Kids, Teens & Adults worldwide. 8 live one-to-one classes, 5 real projects. Learn Python, AI, Web Dev & more. Enroll from anywhere in the world. ₹9,999 / $200."
+description: "Winter Coding Camp 2026: Online coding bootcamp for Kids, Teens & Adults worldwide. 8 live one-to-one classes, 5 real projects. Learn Python, AI, Web Dev & more. Enroll from anywhere in the world. ₹9,999 / $200."
 canonical: https://learn.modernagecoders.com/winter-coding-camp
 source: src/pages/winter-coding-camp.html
 ---
-> Winter Coding Camp 2026 — Online coding bootcamp for Kids, Teens & Adults worldwide. 8 live one-to-one classes, 5 real projects. Learn Python, AI, Web Dev & more. Enroll from anywhere in the world. ₹9,999 / $200.
+> Winter Coding Camp 2026: Online coding bootcamp for Kids, Teens & Adults worldwide. 8 live one-to-one classes, 5 real projects. Learn Python, AI, Web Dev & more. Enroll from anywhere in the world. ₹9,999 / $200.
 
 ## Why Winter Coding?
 
-Winter break is the hidden superpower. When school stops, curious minds accelerate. No distractions, no exams — just pure, focused time to master skills that shape the future. Students from every corner of the world join us to build, learn, and launch.
+Winter break is the hidden superpower. When school stops, curious minds accelerate. No distractions, no exams, just pure, focused time to master skills that shape the future. Students from every corner of the world join us to build, learn, and launch.
 
-No School Distractions3-Week Intensive5 Deployable ProjectsStudents from 25+ CountriesAdmissions Open — Winter 2026
+No School Distractions3-Week Intensive5 Deployable ProjectsStudents from 25+ CountriesAdmissions Open: Winter 2026
 
 # Code the Future
 
-The most immersive 8-class one-to-one online coding bootcamp — accessible from **anywhere in the world**. Master AI, Games, and App Development during your winter break.
+The most immersive 8-class one-to-one online coding bootcamp, accessible from **anywhere in the world**. Master AI, Games, and App Development during your winter break.
 
 [Reserve Your Seat](/book-demo)View Curriculum**8 One-to-One Classes**Live & Interactive**5 Projects**Portfolio-Ready**Worldwide**100% Online**Max 8**Students / BatchThe Journey
 
@@ -22,7 +22,7 @@ The most immersive 8-class one-to-one online coding bootcamp — accessible from
 
 ### Foundation Week
 
-Set up your environment, master the fundamentals, and ship your first working project. No prior experience needed — we start from zero.
+Set up your environment, master the fundamentals, and ship your first working project. No prior experience needed. We start from zero.
 
 ### Deep Dive Week
 
@@ -36,7 +36,7 @@ Choose Your Track
 
 ## Three Tracks. One Winter.
 
-Whether you're 6 or 60, there's a track built exactly for your level and goals. All tracks run live online — join from anywhere on Earth.
+Whether you're 6 or 60, there's a track built exactly for your level and goals. All tracks run live online, join from anywhere on Earth.
 
 Ages 6–11
 
@@ -60,7 +60,7 @@ Web DevPythonAI/MLData Science[Explore Adults Track](/winter-coding-camp-adults)
 
 ## Real Projects. Real Skills.
 
-Every participant ships at least 5 portfolio-ready projects. Not toy demos — actual applications deployed live on the internet.
+Every participant ships at least 5 portfolio-ready projects. Not toy demos, actual applications deployed live on the internet.
 
 ### Arcade Game Engine
 
@@ -76,19 +76,19 @@ AI / APIs
 
 ### Personal Portfolio Site
 
-Your professional portfolio — live on the internet, linked in college apps and CVs.
+Your professional portfolio, live on the internet, linked in college apps and CVs.
 
 Web Dev
 
 ### Python Automation Tool
 
-A useful script that automates real tasks — file management, web scraping, or data processing.
+A useful script that automates real tasks, file management, web scraping, or data processing.
 
 PythonGlobal Community
 
 ## Code From Anywhere
 
-Our online classes are designed for students across time zones. Join from India, the US, the UK, UAE, Australia, Canada, or anywhere else — all you need is a laptop and Wi-Fi.
+Our online classes are designed for students across time zones. Join from India, the US, the UK, UAE, Australia, Canada, or anywhere else, all you need is a laptop and Wi-Fi.
 
 #### 25+ Countries
 
@@ -118,7 +118,7 @@ Real student projects
 
 Every one is a real, live project shipped by a Modern Age Coders student. Explore more in [Student Labs](/student-labs).
 
-[![GuardianX — AI Bodyguard for the Internet](/images/projects/guardianx.webp)AI & MLGuardianX — AI Bodyguard for the InternetPaste any suspicious link or message and GuardianX returns an instant AI verdict before you become a victim — plus a link scanner, safety score, breach check and live scam alerts built for India. Vibe-coded from idea to working product through prompts, then refined until it genuinely understands how phishing and scams work.by VivaanOpen the live project ↗](https://guardianx-cybersaver.lovable.app)[![Palm Arcana — Summon the Elements](/images/projects/superpawer.webp)GamePalm Arcana — Summon the ElementsOpen your palms to the webcam and computer vision turns your gestures into real magic — the left palm throws a fireball, the right crackles with lightning. A wild blend of hand-tracking AI, creative coding and pure imagination, vibe-coded into a playable browser experience.by AarushOpen the live project ↗](https://superpawer.netlify.app)[![LumenFX — AR/VR Photo Effects Studio](/images/projects/lumenfx.webp)Web AppLumenFX — AR/VR Photo Effects StudioUpload a photo and transform it with cinematic filters, AR face effects and the wildest trending edits — the same looks blowing up on TikTok, Reels and Snap, with 240+ one-tap presets. Raayan vibe-coded the whole studio from an idea: prompted the concept, then built the effects engine and gallery UI by hand.by RaayanOpen the live project ↗](https://arvrbadestweb.lovable.app)
+[![GuardianX, AI Bodyguard for the Internet](/images/projects/guardianx.webp)AI & MLGuardianX, AI Bodyguard for the InternetPaste any suspicious link or message and GuardianX returns an instant AI verdict before you become a victim, plus a link scanner, safety score, breach check and live scam alerts built for India. Vibe-coded from idea to working product through prompts, then refined until it genuinely understands how phishing and scams work.by VivaanOpen the live project ↗](https://guardianx-cybersaver.lovable.app)[![Palm Arcana, Summon the Elements](/images/projects/superpawer.webp)GamePalm Arcana, Summon the ElementsOpen your palms to the webcam and computer vision turns your gestures into real magic, the left palm throws a fireball, the right crackles with lightning. A wild blend of hand-tracking AI, creative coding and pure imagination, vibe-coded into a playable browser experience.by AarushOpen the live project ↗](https://superpawer.netlify.app)[![LumenFX, AR/VR Photo Effects Studio](/images/projects/lumenfx.webp)Web AppLumenFX, AR/VR Photo Effects StudioUpload a photo and transform it with cinematic filters, AR face effects and the wildest trending edits, the same looks blowing up on TikTok, Reels and Snap, with 240+ one-tap presets. Raayan vibe-coded the whole studio from an idea: prompted the concept, then built the effects engine and gallery UI by hand.by RaayanOpen the live project ↗](https://arvrbadestweb.lovable.app)
 
 ---
 

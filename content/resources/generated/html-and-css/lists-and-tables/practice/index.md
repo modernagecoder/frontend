@@ -334,7 +334,7 @@ The `colspan="2"` attribute merges the cell across 2 columns, making it look lik
 
 ```
 
-The `` is the table title — it goes right after ``. `` holds the header row and `` holds the data rows.
+The `` is the table title. It goes right after ``. `` holds the header row and `` holds the data rows.
 
 ### Q18. [Medium] How many td cells should the second row have?
 
@@ -488,7 +488,7 @@ Description lists work well for FAQs. Each question is a ``, each answer is a ``
 
 **Answer:** 3 td cells (columns 1, 2, and 4 need cells; column 3 is already taken by rowspan).
 
-Row 1 has colspan=2 (cols 1-2), rowspan=2 (col 3), and one normal cell (col 4). In row 2, col 3 is already filled, so you need cells for cols 1, 2, and 4 — that is 3 td cells.
+Row 1 has colspan=2 (cols 1-2), rowspan=2 (col 3), and one normal cell (col 4). In row 2, col 3 is already filled, so you need cells for cols 1, 2, and 4. That is 3 td cells.
 
 ### Q27. [Hard] Build a complete HTML page with a table showing 4 students and their marks in 3 subjects (Maths, Science, English). Include caption 'Term 1 Results', thead, tbody, and a tfoot row showing the class average for each subject.
 
@@ -601,7 +601,7 @@ Use `` when order does not matter and `` when it does. Both use `` for items.
 
 *Hint:* Every item needs its own tag.
 
-**Answer:** Each item must be wrapped in ``. Without li, the items don't form a list — they just appear as plain text.
+**Answer:** Each item must be wrapped in ``. Without li, the items don't form a list. They just appear as plain text.
 
 Lists require `` tags for each item. Plain text inside `` or `` is invalid.
 

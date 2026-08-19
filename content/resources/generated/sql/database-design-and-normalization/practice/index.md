@@ -23,7 +23,7 @@ Normalized tables make the same fact live in exactly one place, so updates touch
 
 *Hint:* Think about a single cell.
 
-**Answer:** Any column that stores multiple values in a single cell — CSV strings, JSON arrays of scalars used as lookup keys, comma-separated foreign-key lists. In a 1NF table, every cell holds a single atomic value.
+**Answer:** Any column that stores multiple values in a single cell: CSV strings, JSON arrays of scalars used as lookup keys, comma-separated foreign-key lists. In a 1NF table, every cell holds a single atomic value.
 
 The usual fix is a child table: one row per value, with an FK back to the parent.
 
@@ -39,7 +39,7 @@ The normal forms are expressed as rules about which functional dependencies can 
 
 *Hint:* Think about updating redundant data.
 
-**Answer:** A situation where the same fact is stored in many places, and updating it requires changing every copy atomically. If even one copy is missed, the database contradicts itself. Eliminated by normalization — each fact lives in one row.
+**Answer:** A situation where the same fact is stored in many places, and updating it requires changing every copy atomically. If even one copy is missed, the database contradicts itself. Eliminated by normalization, each fact lives in one row.
 
 Insertion and deletion anomalies are the other two. Normalization eliminates all three.
 
@@ -86,7 +86,7 @@ This is the most common 3NF violation: 'category' or 'group' attributes repeated
 
 *Hint:* A -> B -> C, but C does not directly need A.
 
-**Answer:** A dependency where a non-key column A determines another non-key column B (A -> B), and the PK determines A. So the PK determines B only through A — indirectly. 3NF requires you to break this chain by moving B into a table keyed by A.
+**Answer:** A dependency where a non-key column A determines another non-key column B (A -> B), and the PK determines A. So the PK determines B only through A, indirectly. 3NF requires you to break this chain by moving B into a table keyed by A.
 
 Example: emp_id -> dept_id -> dept_name. Move dept_name into departments(id, name) so it is keyed by dept_id directly.
 
@@ -128,13 +128,13 @@ Most real designs pass BCNF once they pass 3NF. Interview questions about BCNF u
 
 **Answer:** `CREATE TABLE follows(follower_id INT, followee_id INT, followed_at DATETIME, PRIMARY KEY (follower_id, followee_id), FOREIGN KEY (follower_id) REFERENCES users(id), FOREIGN KEY (followee_id) REFERENCES users(id), CHECK (follower_id <> followee_id));`
 
-Self-referential N-M with a composite PK. The CHECK stops users from following themselves — a classic invariant worth enforcing at the schema level.
+Self-referential N-M with a composite PK. The CHECK stops users from following themselves, a classic invariant worth enforcing at the schema level.
 
 ### Q15. [Hard] Why is ON DELETE CASCADE dangerous for invoices but appropriate for comments?
 
 *Hint:* Audit requirements vs ownership.
 
-**Answer:** Invoices are business-critical records. Deleting a customer should not automatically delete their invoices — regulatory, tax, and audit rules demand retention. Use ON DELETE RESTRICT so deletes fail until the operator handles the invoices. Comments, on the other hand, only exist to decorate their post; deleting the post cascade-deletes comments because a comment without its post is noise.
+**Answer:** Invoices are business-critical records. Deleting a customer should not automatically delete their invoices, regulatory, tax, and audit rules demand retention. Use ON DELETE RESTRICT so deletes fail until the operator handles the invoices. Comments, on the other hand, only exist to decorate their post; deleting the post cascade-deletes comments because a comment without its post is noise.
 
 Cascade choice is a business decision, not a technical default. Get it wrong and you lose legally required records or leave orphans forever.
 
@@ -142,7 +142,7 @@ Cascade choice is a business decision, not a technical default. Get it wrong and
 
 *Hint:* Time.
 
-**Answer:** Because order_items.unit_price is a *snapshot of the price at the moment of sale*. Products.price can (and will) change. If you always JOIN to products, historical orders show today's price, not the price they were sold at — bad for accounting. The duplication is not redundant: it captures a fact that would otherwise be lost.
+**Answer:** Because order_items.unit_price is a *snapshot of the price at the moment of sale*. Products.price can (and will) change. If you always JOIN to products, historical orders show today's price, not the price they were sold at, bad for accounting. The duplication is not redundant: it captures a fact that would otherwise be lost.
 
 This is the key insight: 'copy' columns that record a moment in time are first-class data, not denormalization.
 
@@ -150,7 +150,7 @@ This is the key insight: 'copy' columns that record a moment in time are first-c
 
 *Hint:* Non-superkey determinants.
 
-**Answer:** Yes, when the table has multiple overlapping candidate keys. Example: `(course_id, instructor) -> room` AND `(room, time_slot) -> instructor`. There are two candidate keys. A non-superkey column determines another, but because the determined column is prime (part of another CK), 3NF's exception allows it. BCNF does not — it forbids any non-superkey determinant.
+**Answer:** Yes, when the table has multiple overlapping candidate keys. Example: `(course_id, instructor) -> room` AND `(room, time_slot) -> instructor`. There are two candidate keys. A non-superkey column determines another, but because the determined column is prime (part of another CK), 3NF's exception allows it. BCNF does not. It forbids any non-superkey determinant.
 
 Hard to construct in the wild. BCNF is mostly an exam topic; in production, 3NF is usually enough.
 
@@ -200,7 +200,7 @@ This is why students.course_id + courses.student_id does not work: you would nee
 
 *Hint:* Child can survive parent's absence.
 
-**Answer:** Employee.manager_id -> Employee.id with ON DELETE SET NULL. When a manager leaves, their reports remain employed — they just lose a manager until reassigned. SET NULL preserves the rows and leaves them in a recoverable state.
+**Answer:** Employee.manager_id -> Employee.id with ON DELETE SET NULL. When a manager leaves, their reports remain employed. They just lose a manager until reassigned. SET NULL preserves the rows and leaves them in a recoverable state.
 
 Requires the FK column to be NULL-able. Works well for optional parent relationships.
 
@@ -216,7 +216,7 @@ Fix: move customer_name and shipping_city into customers(id, name, city) and ref
 
 *Hint:* Distributed systems.
 
-**Answer:** When IDs must be generated by multiple servers without coordination (distributed systems, offline-first clients, merging data from several databases) or when you want IDs that are unguessable (public URLs). Trade-offs: UUIDs are 16 bytes (vs 4 for INT), slower for index scans, and not contiguous — which hurts insert performance on clustered indexes.
+**Answer:** When IDs must be generated by multiple servers without coordination (distributed systems, offline-first clients, merging data from several databases) or when you want IDs that are unguessable (public URLs). Trade-offs: UUIDs are 16 bytes (vs 4 for INT), slower for index scans, and not contiguous, which hurts insert performance on clustered indexes.
 
 A good compromise is ULID or UUIDv7, which are UUID-format but time-ordered, mitigating the insert-locality problem.
 
@@ -224,9 +224,9 @@ A good compromise is ULID or UUIDv7, which are UUID-format but time-ordered, mit
 
 *Hint:* Three tables minimum.
 
-**Answer:** Four tables: customers(id, name); items(id, name, price); invoices(id, customer_id, FK to customers); invoice_items(invoice_id, item_id, qty, unit_price, PK=(invoice_id,item_id), FKs to invoices and items). Note unit_price snapshot on invoice_items — captures price at sale time.
+**Answer:** Four tables: customers(id, name); items(id, name, price); invoices(id, customer_id, FK to customers); invoice_items(invoice_id, item_id, qty, unit_price, PK=(invoice_id,item_id), FKs to invoices and items). Note unit_price snapshot on invoice_items, captures price at sale time.
 
-This is a canonical exam normalization. Always keep unit_price on the line item — it is not duplication, it is historical truth.
+This is a canonical exam normalization. Always keep unit_price on the line item, it is not duplication, it is historical truth.
 
 ### Q10. [Hard] Why are denormalized counts (e.g. post_count on categories) risky in distributed or replicated setups?
 
@@ -240,7 +240,7 @@ A common pattern: keep a precise count in Redis (atomic INCR/DECR) and reconcile
 
 *Hint:* Conversations table as the unifying entity.
 
-**Answer:** users(id, phone UNIQUE); conversations(id, type ENUM('DM','GROUP')); conversation_members(conv_id, user_id, PK=(conv_id,user_id)); messages(id, conv_id, sender_id, body, sent_at). DMs and groups are both conversations, distinguished by `type` and the count of members. Messages always belong to a conversation, not to a user pair — that keeps 1-1 and group chats symmetric.
+**Answer:** users(id, phone UNIQUE); conversations(id, type ENUM('DM','GROUP')); conversation_members(conv_id, user_id, PK=(conv_id,user_id)); messages(id, conv_id, sender_id, body, sent_at). DMs and groups are both conversations, distinguished by `type` and the count of members. Messages always belong to a conversation, not to a user pair. That keeps 1-1 and group chats symmetric.
 
 Unifying DM and group under one conversation entity is the key insight. It avoids duplicating the message table for each chat type.
 
@@ -264,7 +264,7 @@ Apply the same reasoning to username, phone, and any other mutable identifier. P
 
 *Hint:* Multi-valued dependencies are rare.
 
-**Answer:** Rarely. 4NF eliminates multi-valued dependencies — situations where a table encodes two independent multi-valued facts about one entity (e.g. a student's courses AND their phone numbers in one table). The violations usually scream at you as '1NF with two repeating groups' and you split them into two child tables without needing the 4NF theory. In 15 years of practice, 3NF plus common sense catches almost everything.
+**Answer:** Rarely. 4NF eliminates multi-valued dependencies, situations where a table encodes two independent multi-valued facts about one entity (e.g. a student's courses AND their phone numbers in one table). The violations usually scream at you as '1NF with two repeating groups' and you split them into two child tables without needing the 4NF theory. In 15 years of practice, 3NF plus common sense catches almost everything.
 
 Know 4NF for interviews; design for 3NF in production.
 
@@ -280,7 +280,7 @@ Real migrations are the harder part of normalization. The design changes are str
 
 *Hint:* Think uniqueness and duplicate prevention.
 
-**Answer:** The composite PK enforces the business rule that each (fk_a, fk_b) pair can appear at most once — you cannot enroll Aarav in DBMS twice. A surrogate id would permit duplicates unless you also added a UNIQUE constraint on the pair, which makes the surrogate redundant. The one exception is when you need a stable small integer to reference the junction row from yet another table — then add a surrogate id alongside the composite UNIQUE.
+**Answer:** The composite PK enforces the business rule that each (fk_a, fk_b) pair can appear at most once. You cannot enroll Aarav in DBMS twice. A surrogate id would permit duplicates unless you also added a UNIQUE constraint on the pair, which makes the surrogate redundant. The one exception is when you need a stable small integer to reference the junction row from yet another table, then add a surrogate id alongside the composite UNIQUE.
 
 Composite PKs are the right default on junction tables. Surrogate-first is the habit of ORMs, not of good DBAs.
 
@@ -296,7 +296,7 @@ Composite PKs are the right default on junction tables. Surrogate-first is the h
 
 **Answer:** B
 
-**B is correct.** 2NF is defined specifically to eliminate partial dependencies — a concern only when the PK is composite.
+**B is correct.** 2NF is defined specifically to eliminate partial dependencies, a concern only when the PK is composite.
 
 ### Q3. [Easy] Which form eliminates transitive dependencies?
 
@@ -320,7 +320,7 @@ Composite PKs are the right default on junction tables. Surrogate-first is the h
 
 **Answer:** B
 
-**B is correct.** Surrogate keys (INT AUTO_INCREMENT, UUID) are stable and decoupled from business data — ideal for PKs.
+**B is correct.** Surrogate keys (INT AUTO_INCREMENT, UUID) are stable and decoupled from business data, ideal for PKs.
 
 ### Q7. [Medium] Which NF is violated by (order_id, product_id) PK + product_name?
 
@@ -332,7 +332,7 @@ Composite PKs are the right default on junction tables. Surrogate-first is the h
 
 **Answer:** C
 
-**C is correct.** dept_name depends on dept_id, a non-key column — a transitive dependency via emp_id -> dept_id -> dept_name.
+**C is correct.** dept_name depends on dept_id, a non-key column, a transitive dependency via emp_id -> dept_id -> dept_name.
 
 ### Q9. [Medium] Which is NOT a legitimate reason to denormalize?
 
@@ -350,7 +350,7 @@ Composite PKs are the right default on junction tables. Surrogate-first is the h
 
 **Answer:** B
 
-**B is correct.** unit_price is a historical fact, not redundant — products.price may change, but the sale's price is fixed.
+**B is correct.** unit_price is a historical fact, not redundant, products.price may change, but the sale's price is fixed.
 
 ### Q12. [Hard] BCNF is strictly stronger than 3NF because:
 
@@ -380,7 +380,7 @@ Composite PKs are the right default on junction tables. Surrogate-first is the h
 
 **Answer:** A
 
-**A is correct.** Example: order_items (weak) depends on orders (strong) — the order_id is part of the PK.
+**A is correct.** Example: order_items (weak) depends on orders (strong), the order_id is part of the PK.
 
 ### Q17. [Hard] What is the correct first step when asked to 'design the schema for X'?
 

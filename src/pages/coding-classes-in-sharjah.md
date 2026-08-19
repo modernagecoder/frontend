@@ -186,35 +186,35 @@ Mother of Ishan
 
 ## What our students actually build
 
-Every one of these is a real, live project shipped by a Modern Age Coders student — not a mockup. Explore more in our [Student Labs](/student-labs).
+Every one of these is a real, live project shipped by a Modern Age Coders student, not a mockup. Explore more in our [Student Labs](/student-labs).
 
-![Doodle Dash — 30-Second Drawing Challenge](/images/projects/doodledash.webp)
+![Doodle Dash, 30-Second Drawing Challenge](/images/projects/doodledash.webp)
 
 Game
 
-### Doodle Dash — 30-Second Drawing Challenge
+### Doodle Dash: 30-Second Drawing Challenge
 
-Pick a difficulty, get a prompt, and you have exactly 30 seconds to draw it — then an AI judge scores how close you got. Three modes from easy objects to chaotic scenes. Shubh vibe-coded it idea-first, wiring real AI image grading into a fast, addictive drawing game.
+Pick a difficulty, get a prompt, and you have exactly 30 seconds to draw it, then an AI judge scores how close you got. Three modes from easy objects to chaotic scenes. Shubh vibe-coded it idea-first, wiring real AI image grading into a fast, addictive drawing game.
 
 by Shubh · [Open the live project ↗](https://doodledashmaster.lovable.app)
 
-![BookDesk — AI Book Summaries & Quizzes](/images/projects/bookdesk.webp)
+![BookDesk: AI Book Summaries & Quizzes](/images/projects/bookdesk.webp)
 
 AI & ML
 
-### BookDesk — AI Book Summaries & Quizzes
+### BookDesk: AI Book Summaries & Quizzes
 
-Type in any book name and author, and BookDesk pulls together the book's details, a clear summary and a custom quiz to test what you've learned — a genuinely useful study companion. Anika built it as a full-stack AI application, powered by Google Gemini with a live database behind it.
+Type in any book name and author, and BookDesk pulls together the book's details, a clear summary and a custom quiz to test what you've learned, a genuinely useful study companion. Anika built it as a full-stack AI application, powered by Google Gemini with a live database behind it.
 
 by Anika · [Open the live project ↗](https://bookdesk1.netlify.app)
 
-![HairSync — AI Hairstyle Try-On](/images/projects/hairsync.webp)
+![HairSync: AI Hairstyle Try-On](/images/projects/hairsync.webp)
 
 AI & ML
 
-### HairSync — AI Hairstyle Try-On
+### HairSync: AI Hairstyle Try-On
 
-Upload a clear photo and try on any hairstyle before you commit — wolf cuts, curtain bangs, fades, braids and dozens of trending looks, rendered onto your own face by AI in seconds. Kriti vibe-coded this virtual try-on studio from a single idea into a working app.
+Upload a clear photo and try on any hairstyle before you commit, wolf cuts, curtain bangs, fades, braids and dozens of trending looks, rendered onto your own face by AI in seconds. Kriti vibe-coded this virtual try-on studio from a single idea into a working app.
 
 by Kriti · [Open the live project ↗](https://hairsync.lovable.app)
 

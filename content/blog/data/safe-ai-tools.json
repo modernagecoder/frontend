@@ -56,11 +56,11 @@
       },
       {
         "type": "paragraph",
-        "text": "Here's the thing—your fears aren't irrational, but they're also not the full picture. AI isn't going away. It's becoming as fundamental as calculators or search engines. The question isn't whether your child will use AI, but how they'll use it."
+        "text": "Here's the thing. Your fears aren't irrational, but they're also not the full picture. AI isn't going away. It's becoming as fundamental as calculators or search engines. The question isn't whether your child will use AI, but how they'll use it."
       },
       {
         "type": "paragraph",
-        "text": "This article is your guide to navigating AI with your kids. We'll cover tools that are specifically designed to be safe, educational, and actually helpful—tools that teach rather than do, assist rather than replace. Let's turn your fear into informed parenting."
+        "text": "This article is your guide to navigating AI with your kids. We'll cover tools that are specifically designed to be safe, educational, and actually helpful, tools that teach rather than do, assist rather than replace. Let's turn your fear into informed parenting."
       },
       {
         "type": "heading",
@@ -72,7 +72,7 @@
         "type": "image",
         "url": "https://ik.imagekit.io/ysmxsdgmw4/articleimages/item_37_article.png",
         "alt": "Parent looking concerned while child uses computer",
-        "caption": "Your concerns about AI are valid—but there are solutions"
+        "caption": "Your concerns about AI are valid, but there are solutions"
       },
       {
         "type": "paragraph",
@@ -89,14 +89,14 @@
           "\"My child will stop thinking for themselves.\"",
           "\"They'll never learn to write properly.\"",
           "\"What if they get caught and face academic consequences?\"",
-          "\"AI gives wrong information sometimes—what if they learn wrong things?\"",
+          "\"AI gives wrong information sometimes, what if they learn wrong things?\"",
           "\"They're too young to use something this powerful responsibly.\"",
           "\"I don't understand this technology well enough to guide them.\""
         ]
       },
       {
         "type": "paragraph",
-        "text": "Every single one of these concerns is legitimate. Unrestricted, unsupervised AI use CAN lead to dependency, reduced critical thinking, and yes—academic dishonesty. We're not going to pretend otherwise."
+        "text": "Every single one of these concerns is legitimate. Unrestricted, unsupervised AI use CAN lead to dependency, reduced critical thinking, and yes, academic dishonesty. We're not going to pretend otherwise."
       },
       {
         "type": "paragraph",
@@ -110,7 +110,7 @@
         "type": "callout",
         "calloutType": "info",
         "title": "The Calculator Parallel",
-        "text": "Remember when calculators were controversial? Teachers worried students would never learn math. Instead, calculators became standard tools that let students tackle more complex problems. AI is following a similar trajectory—resistance is less effective than thoughtful integration."
+        "text": "Remember when calculators were controversial? Teachers worried students would never learn math. Instead, calculators became standard tools that let students tackle more complex problems. AI is following a similar trajectory, resistance is less effective than thoughtful integration."
       },
       {
         "type": "heading",
@@ -120,7 +120,7 @@
       },
       {
         "type": "paragraph",
-        "text": "Not all AI tools are created equal—especially when it comes to children. Before we list our recommended tools, here's what we look for:"
+        "text": "Not all AI tools are created equal, especially when it comes to children. Before we list our recommended tools, here's what we look for:"
       },
       {
         "type": "heading",
@@ -138,7 +138,7 @@
       },
       {
         "type": "paragraph",
-        "text": "Generic AI chatbots can be prompted to discuss anything—violence, inappropriate content, harmful topics. Kid-safe tools have robust content filters that prevent exposure to unsuitable material."
+        "text": "Generic AI chatbots can be prompted to discuss anything, violence, inappropriate content, harmful topics. Kid-safe tools have robust content filters that prevent exposure to unsuitable material."
       },
       {
         "type": "heading",
@@ -198,7 +198,7 @@
       },
       {
         "type": "paragraph",
-        "text": "Khanmigo is Khan Academy's AI tutor, and it's built on a fundamentally different philosophy than ChatGPT. Instead of giving answers, Khanmigo asks guiding questions. If your child is stuck on a math problem, it won't solve it—it'll ask, \"What have you tried so far?\" or \"What's the first step you think we should take?\""
+        "text": "Khanmigo is Khan Academy's AI tutor, and it's built on a fundamentally different philosophy than ChatGPT. Instead of giving answers, Khanmigo asks guiding questions. If your child is stuck on a math problem, it won't solve it. It'll ask, \"What have you tried so far?\" or \"What's the first step you think we should take?\""
       },
       {
         "type": "paragraph",
@@ -230,7 +230,7 @@
       },
       {
         "type": "paragraph",
-        "text": "Canva's AI features (Magic Write, Magic Design, Magic Media) help kids create visually stunning school projects without just generating content. The AI assists with design suggestions, image creation, and writing enhancement—but the student still drives the creative vision."
+        "text": "Canva's AI features (Magic Write, Magic Design, Magic Media) help kids create visually stunning school projects without just generating content. The AI assists with design suggestions, image creation, and writing enhancement, but the student still drives the creative vision."
       },
       {
         "type": "paragraph",
@@ -281,7 +281,7 @@
       },
       {
         "type": "paragraph",
-        "text": "The app is named after the Socratic method for a reason—it encourages learning through questions and explanations rather than just providing answers."
+        "text": "The app is named after the Socratic method for a reason. It encourages learning through questions and explanations rather than just providing answers."
       },
       {
         "type": "heading",
@@ -322,7 +322,7 @@
       },
       {
         "type": "paragraph",
-        "text": "Best for: Math homework—from arithmetic to calculus"
+        "text": "Best for: Math homework, from arithmetic to calculus"
       },
       {
         "type": "paragraph",
@@ -336,7 +336,7 @@
         "type": "list",
         "style": "unordered",
         "items": [
-          "Focused purely on math—no risk of off-topic content",
+          "Focused purely on math, no risk of off-topic content",
           "Shows complete solution steps, teaching methodology",
           "Multiple solution approaches when available",
           "Animated tutorials for complex concepts",
@@ -364,7 +364,7 @@
       },
       {
         "type": "paragraph",
-        "text": "Quillbot is a writing tool that helps students rephrase sentences, check grammar, and improve clarity. Unlike ChatGPT, it doesn't write for your child—it improves what they've already written."
+        "text": "Quillbot is a writing tool that helps students rephrase sentences, check grammar, and improve clarity. Unlike ChatGPT, it doesn't write for your child. It improves what they've already written."
       },
       {
         "type": "paragraph",
@@ -374,7 +374,7 @@
         "type": "list",
         "style": "unordered",
         "items": [
-          "Requires students to write first—AI enhances, doesn't create",
+          "Requires students to write first: AI enhances, doesn't create",
           "Great for teaching about word choice and sentence structure",
           "Helps non-native English speakers improve fluency",
           "Grammar checker explains why corrections are made",
@@ -383,7 +383,7 @@
       },
       {
         "type": "paragraph",
-        "text": "The limitation of Quillbot is actually a feature for learning—it only works with existing text. Your child still has to generate ideas and write the initial draft."
+        "text": "The limitation of Quillbot is actually a feature for learning. It only works with existing text. Your child still has to generate ideas and write the initial draft."
       },
       {
         "type": "heading",
@@ -396,7 +396,7 @@
       },
       {
         "type": "paragraph",
-        "text": "Brainly is a peer-to-peer homework help platform now enhanced with AI. Kids can ask questions and get answers from other students, verified experts, and AI—with explanations. The community aspect adds accountability."
+        "text": "Brainly is a peer-to-peer homework help platform now enhanced with AI. Kids can ask questions and get answers from other students, verified experts, and AI, with explanations. The community aspect adds accountability."
       },
       {
         "type": "paragraph",
@@ -428,7 +428,7 @@
       },
       {
         "type": "paragraph",
-        "text": "Otter.ai transcribes audio in real-time—perfect for older students recording lectures or study sessions. The AI summarizes key points and allows searching through notes. It's productivity enhancement, not answer generation."
+        "text": "Otter.ai transcribes audio in real-time, perfect for older students recording lectures or study sessions. The AI summarizes key points and allows searching through notes. It's productivity enhancement, not answer generation."
       },
       {
         "type": "paragraph",
@@ -438,7 +438,7 @@
         "type": "list",
         "style": "unordered",
         "items": [
-          "Captures and organizes information—doesn't create it",
+          "Captures and organizes information, doesn't create it",
           "Helps students who struggle with note-taking",
           "Great for auditory learners and those with learning differences",
           "Teaches organization and study skills",
@@ -460,7 +460,7 @@
       },
       {
         "type": "paragraph",
-        "text": "Explain Everything is an interactive whiteboard app with AI features that help kids create educational content—explaining concepts through drawings, voice recordings, and animations. It flips the script: instead of consuming AI content, kids create it."
+        "text": "Explain Everything is an interactive whiteboard app with AI features that help kids create educational content, explaining concepts through drawings, voice recordings, and animations. It flips the script: instead of consuming AI content, kids create it."
       },
       {
         "type": "paragraph",
@@ -470,7 +470,7 @@
         "type": "list",
         "style": "unordered",
         "items": [
-          "Creation-focused—kids become teachers",
+          "Creation-focused, kids become teachers",
           "Teaching a concept requires deep understanding",
           "AI assists with organization and polish, not content creation",
           "Great for project-based learning",
@@ -502,7 +502,7 @@
         "type": "list",
         "style": "unordered",
         "items": [
-          "Shows sources for every claim—teaches verification",
+          "Shows sources for every claim, teaches verification",
           "Better for research than just asking Google",
           "Encourages clicking through to original sources",
           "Less likely to 'hallucinate' false information",
@@ -591,7 +591,7 @@
           "Require them to write drafts before using AI for feedback",
           "Insist they verify any factual claims from other sources",
           "Teach them that submitting AI-generated work as their own is cheating",
-          "Have them explain their AI-assisted work to you—if they can't, they didn't learn",
+          "Have them explain their AI-assisted work to you, if they can't, they didn't learn",
           "Frame AI as a thinking partner, not a homework doer"
         ]
       },
@@ -599,7 +599,7 @@
         "type": "callout",
         "calloutType": "tip",
         "title": "The Conversation to Have",
-        "text": "\"AI can help you learn, but it can't learn for you. The point of homework isn't just to turn something in—it's to build your brain. Shortcuts cheat yourself.\""
+        "text": "\"AI can help you learn, but it can't learn for you. The point of homework isn't just to turn something in. It's to build your brain. Shortcuts cheat yourself.\""
       },
       {
         "type": "heading",
@@ -625,7 +625,7 @@
         "style": "unordered",
         "items": [
           "\"Did you use any AI tools for this assignment?\"",
-          "\"Show me how you used it—I'm curious!\"",
+          "\"Show me how you used it: I'm curious!\"",
           "\"What did AI help you with, and what did you do yourself?\""
         ]
       },
@@ -646,7 +646,7 @@
         "type": "list",
         "style": "unordered",
         "items": [
-          "AI can explain things to you—like a tutor",
+          "AI can explain things to you, like a tutor",
           "AI can check your work after you've done it",
           "AI cannot write your assignments for you",
           "AI cannot take tests or quizzes for you",
@@ -704,7 +704,7 @@
         "style": "unordered",
         "items": [
           "\"I'm using AI to help brainstorm ideas for this project, but I'll write it myself.\"",
-          "\"This AI answer doesn't look right—let me verify it.\"",
+          "\"This AI answer doesn't look right, let me verify it.\"",
           "\"AI is helpful for [task], but I wouldn't use it for [task].\""
         ]
       },
@@ -740,7 +740,7 @@
           "Use AI only with direct parental supervision",
           "Stick to purpose-built educational tools (Socratic, Photomath for basics)",
           "Focus on using AI as a fun exploration tool, not homework helper",
-          "Discuss what AI is in simple terms—a smart computer helper that isn't always right",
+          "Discuss what AI is in simple terms, a smart computer helper that isn't always right",
           "Keep sessions short (15-20 minutes max)"
         ]
       },
@@ -755,7 +755,7 @@
         "items": [
           "Can use recommended educational AI tools more independently",
           "Establish clear homework guidelines about AI use",
-          "Teach verification—\"How would you check if this is true?\"",
+          "Teach verification, \"How would you check if this is true?\"",
           "Introduce concept of AI ethics and academic honesty",
           "Occasional check-ins about how they're using AI"
         ]
@@ -773,12 +773,12 @@
           "Discuss nuances: when is AI help okay vs. when is it cheating?",
           "Prepare them for college/workplace AI norms",
           "Encourage productive uses: research, brainstorming, learning",
-          "Trust but verify—have honest conversations about their use"
+          "Trust but verify, have honest conversations about their use"
         ]
       },
       {
         "type": "paragraph",
-        "text": "These aren't rigid rules—adjust based on your child's maturity, your school's policies, and your family values."
+        "text": "These aren't rigid rules, adjust based on your child's maturity, your school's policies, and your family values."
       },
       {
         "type": "heading",
@@ -826,7 +826,7 @@
       },
       {
         "type": "paragraph",
-        "text": "Kids growing up today will live and work in a world saturated with AI. The ones who thrive won't just use AI—they'll understand it. They'll know its capabilities and limitations. They'll be able to evaluate AI output critically. They'll use AI as a tool without becoming dependent on it."
+        "text": "Kids growing up today will live and work in a world saturated with AI. The ones who thrive won't just use AI, they'll understand it. They'll know its capabilities and limitations. They'll be able to evaluate AI output critically. They'll use AI as a tool without becoming dependent on it."
       },
       {
         "type": "paragraph",
@@ -871,16 +871,16 @@
         "type": "list",
         "style": "unordered",
         "items": [
-          "Khanmigo — Subject: All — Age: 8+ — Cost: Subscription — Best For: Tutoring, math, science",
-          "Canva Magic — Subject: Creative — Age: 10+ — Cost: Free for students — Best For: Presentations, posters",
-          "Socratic — Subject: All — Age: 10+ — Cost: Free — Best For: Quick homework help",
-          "Duolingo Max — Subject: Languages — Age: 8+ — Cost: Subscription — Best For: Language practice",
-          "Photomath — Subject: Math — Age: 10+ — Cost: Free/Premium — Best For: Step-by-step math help",
-          "Quillbot — Subject: Writing — Age: 12+ — Cost: Free/Premium — Best For: Improving drafts",
-          "Brainly — Subject: All — Age: 10+ — Cost: Free/Premium — Best For: Community + AI help",
-          "Otter.ai — Subject: All — Age: 12+ — Cost: Free/Premium — Best For: Note-taking, lectures",
-          "Explain Everything — Subject: All — Age: 8+ — Cost: Free/Premium — Best For: Creating explanations",
-          "Perplexity — Subject: Research — Age: 13+ — Cost: Free/Premium — Best For: Sourced research"
+          "Khanmigo, Subject: All, Age: 8+, Cost: Subscription, Best For: Tutoring, math, science",
+          "Canva Magic, Subject: Creative, Age: 10+, Cost: Free for students, Best For: Presentations, posters",
+          "Socratic, Subject: All, Age: 10+, Cost: Free, Best For: Quick homework help",
+          "Duolingo Max, Subject: Languages, Age: 8+, Cost: Subscription, Best For: Language practice",
+          "Photomath, Subject: Math, Age: 10+, Cost: Free/Premium, Best For: Step-by-step math help",
+          "Quillbot, Subject: Writing, Age: 12+, Cost: Free/Premium, Best For: Improving drafts",
+          "Brainly, Subject: All, Age: 10+, Cost: Free/Premium, Best For: Community + AI help",
+          "Otter.ai, Subject: All, Age: 12+, Cost: Free/Premium, Best For: Note-taking, lectures",
+          "Explain Everything, Subject: All, Age: 8+, Cost: Free/Premium, Best For: Creating explanations",
+          "Perplexity, Subject: Research, Age: 13+, Cost: Free/Premium, Best For: Sourced research"
         ]
       },
       {
@@ -902,11 +902,11 @@
           },
           {
             "title": "What if my child's friends all use AI to cheat?",
-            "content": "Peer pressure is real. Emphasize that the goal of homework is learning, not just completion. Discuss how depending on AI now means struggling later when they can't use it—like in exams or real jobs."
+            "content": "Peer pressure is real. Emphasize that the goal of homework is learning, not just completion. Discuss how depending on AI now means struggling later when they can't use it, like in exams or real jobs."
           },
           {
             "title": "Should I block AI tools on our home computer?",
-            "content": "Blocking rarely works long-term—they'll find ways around it or use friends' devices. Better to establish guidelines and trust, while monitoring occasionally. Education beats restriction."
+            "content": "Blocking rarely works long-term, they'll find ways around it or use friends' devices. Better to establish guidelines and trust, while monitoring occasionally. Education beats restriction."
           },
           {
             "title": "Are these AI tools really free?",
@@ -914,7 +914,7 @@
           },
           {
             "title": "What if AI gives my child wrong information?",
-            "content": "Use it as a teaching moment! AI making mistakes is actually valuable—it teaches kids not to blindly trust any source. Encourage verification: \"That's interesting—how could we check if that's accurate?\""
+            "content": "Use it as a teaching moment! AI making mistakes is actually valuable. It teaches kids not to blindly trust any source. Encourage verification: \"That's interesting, how could we check if that's accurate?\""
           },
           {
             "title": "How do I explain AI limitations to young children?",
@@ -933,7 +933,7 @@
       },
       {
         "type": "paragraph",
-        "text": "AI in education isn't going away. The genie is out of the bottle. Your choice isn't whether your child will encounter AI—it's whether they'll be prepared to use it wisely."
+        "text": "AI in education isn't going away. The genie is out of the bottle. Your choice isn't whether your child will encounter AI. It's whether they'll be prepared to use it wisely."
       },
       {
         "type": "paragraph",
@@ -945,7 +945,7 @@
       },
       {
         "type": "paragraph",
-        "text": "Parents who engage with this topic thoughtfully—rather than panicking or ignoring it—will raise kids who thrive in an AI-saturated world. Your child will learn to use AI as a powerful assistant while maintaining the critical thinking, creativity, and genuine knowledge that no AI can replace."
+        "text": "Parents who engage with this topic thoughtfully, rather than panicking or ignoring it, will raise kids who thrive in an AI-saturated world. Your child will learn to use AI as a powerful assistant while maintaining the critical thinking, creativity, and genuine knowledge that no AI can replace."
       },
       {
         "type": "paragraph",
@@ -973,10 +973,10 @@
         "type": "list",
         "style": "unordered",
         "items": [
-          "<strong><a href=\"/ai-ml-course-for-teens\">AI &amp; Machine Learning Course for Teens</a></strong> — Teach your teen how AI actually works. Build chatbots, image recognition, and real AI projects.",
-          "<strong><a href=\"/python-and-ai-classes-for-kids-teens\">Python &amp; AI Classes for Kids and Teens</a></strong> — Foundation in Python plus introduction to safe, productive AI use for ages 8 to 18.",
-          "<strong><a href=\"/coding-classes-for-girls\">Coding Classes for Girls</a></strong> — Princess &amp; Queen Coders inclusive batches with female mentors.",
-          "<strong><a href=\"/java-programming-for-kids-teens\">Java Programming for Kids &amp; Teens</a></strong> — Strong foundation in OOP and real-world apps."
+          "<strong><a href=\"/ai-ml-course-for-teens\">AI &amp; Machine Learning Course for Teens</a></strong>: Teach your teen how AI actually works. Build chatbots, image recognition, and real AI projects.",
+          "<strong><a href=\"/python-and-ai-classes-for-kids-teens\">Python &amp; AI Classes for Kids and Teens</a></strong>: Foundation in Python plus introduction to safe, productive AI use for ages 8 to 18.",
+          "<strong><a href=\"/coding-classes-for-girls\">Coding Classes for Girls</a></strong>: Princess &amp; Queen Coders inclusive batches with female mentors.",
+          "<strong><a href=\"/java-programming-for-kids-teens\">Java Programming for Kids &amp; Teens</a></strong>: Strong foundation in OOP and real-world apps."
         ]
       }
     ]

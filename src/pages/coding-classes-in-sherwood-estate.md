@@ -18,15 +18,15 @@ Built for Sherwood Estate
 
 ## In Narendrapur, the best teacher is a screen away, not a drive away.
 
-Sherwood Estate is a township of its own off Garia Main Road in Narendrapur — eighteen low-rise blocks and around sixteen hundred homes set across roughly fifteen green acres, opposite the Ramakrishna Mission. It has the pool, the club and the play areas inside the gate. The one thing it cannot fence in is a good coding or maths teacher, because most of those sit a long Bypass drive away in central and South Kolkata.
+Sherwood Estate is a township of its own off Garia Main Road in Narendrapur, eighteen low-rise blocks and around sixteen hundred homes set across roughly fifteen green acres, opposite the Ramakrishna Mission. It has the pool, the club and the play areas inside the gate. The one thing it cannot fence in is a good coding or maths teacher, because most of those sit a long Bypass drive away in central and South Kolkata.
 
-Modern Age Coders closes that gap. We are a live, online school based in Kolkata: your child joins a real teacher and a small batch from your own flat at Sherwood Estate — no shuttle to Garia, no crawl up the southern EM Bypass at peak hour, no time lost to the Kamalgazi or Patuli traffic. For families looking for the best coding classes in Narendrapur — coding classes for kids near Sherwood Estate, Python classes for teens, or online maths tuition in Narendrapur — the whole school comes home through one live screen. The maths we teach maps to the boards children in Narendrapur study — the West Bengal state board, CBSE and ICSE syllabi — so class work and tuition pull in the same direction.
+Modern Age Coders closes that gap. We are a live, online school based in Kolkata: your child joins a real teacher and a small batch from your own flat at Sherwood Estate, no shuttle to Garia, no crawl up the southern EM Bypass at peak hour, no time lost to the Kamalgazi or Patuli traffic. For families looking for the best coding classes in Narendrapur, coding classes for kids near Sherwood Estate, Python classes for teens, or online maths tuition in Narendrapur, the whole school comes home through one live screen. The maths we teach maps to the boards children in Narendrapur study, the West Bengal state board, CBSE and ICSE syllabi, so class work and tuition pull in the same direction.
 
 > The shuttle to Garia and the Kamalgazi crawl are exactly what a live, online class lets your child skip.
 
-**~15 acres**green, gated township off Garia Main Road**18 blocks**low-rise, four storeys each**~1,600**homes — 1, 2, 3 & 4 BHK**0 km**your child travels — class comes home
+**~15 acres**green, gated township off Garia Main Road**18 blocks**low-rise, four storeys each**~1,600**homes, 1, 2, 3 & 4 BHK**0 km**your child travels, class comes home
 
-Sitting opposite the Narendrapur Ramakrishna Mission and under a kilometre from the EM Bypass, Sherwood Estate has nearly everything within its gates — and a live-online class adds the one thing that used to mean a trip out: a good teacher.
+Sitting opposite the Narendrapur Ramakrishna Mission and under a kilometre from the EM Bypass, Sherwood Estate has nearly everything within its gates, and a live-online class adds the one thing that used to mean a trip out: a good teacher.
 
 How we teach
 
@@ -38,7 +38,7 @@ Every class is led live by an instructor who can see your child's screen and wor
 
 ### A real teacher, on a live screen
 
-No pre-recorded playlists. Your child writes code while a teacher watches, asks questions, and corrects mistakes as they happen — the way good tuition has always worked, only without the trip out of the township.
+No pre-recorded playlists. Your child writes code while a teacher watches, asks questions, and corrects mistakes as they happen, the way good tuition has always worked, only without the trip out of the township.
 
 02
 
@@ -60,7 +60,7 @@ Parents get visibility into what was taught and what comes next. Every session i
 
 The AI Trap
 
-### We show students where AI fails — on purpose.
+### We show students where AI fails: on purpose.
 
 AI tools can write code, but they cannot understand for your child. In our classes we set up deliberate moments where an AI answer looks right and is quietly wrong, and the student has to catch it. Children who only copy from a chatbot get stuck the moment the problem is unfamiliar. Children who understand the fundamentals can use AI as a tool and still know when it is wrong. That judgement is the skill we are actually building.
 
@@ -70,7 +70,7 @@ Courses & age tracks
 
 Start at the right level and move forward at a sensible pace. Every track is taught live in small batches, with one-to-one available when a learner needs it.
 
-**Children** · ages 6–12**Teens** · ages 13–18**Adults & college** · 18+[Python From first program to real projects. The clearest starting point for most children and the language we lean on for AI and problem-solving. Explore Python](https://learn.modernagecoders.com/courses)[Java Strong fundamentals and object-oriented thinking — useful for ICSE/ISC computer applications and for students heading toward serious programming. Explore Java](https://learn.modernagecoders.com/courses)[AI & machine learning For teens and adults ready to go beyond the basics — how AI actually works, built up from real Python, not buzzwords. Explore AI/ML](https://learn.modernagecoders.com/courses)[Web development Build real, working pages and apps. A satisfying, visible way for teens to see their code do something in the world. Explore web dev](https://learn.modernagecoders.com/courses)[Mathematics School maths taught for genuine understanding, mapped to the West Bengal board, CBSE and ICSE syllabi — the boards Narendrapur families study — from primary through the senior years. Explore maths](https://learn.modernagecoders.com/courses)[Queen & Princess Coders Girls-only batches for families who prefer them — the same curriculum and the same standards, in a setting many girls find more comfortable to speak up in. See girls-only batches](https://learn.modernagecoders.com/courses)
+**Children** · ages 6–12**Teens** · ages 13–18**Adults & college** · 18+[Python From first program to real projects. The clearest starting point for most children and the language we lean on for AI and problem-solving. Explore Python](https://learn.modernagecoders.com/courses)[Java Strong fundamentals and object-oriented thinking, useful for ICSE/ISC computer applications and for students heading toward serious programming. Explore Java](https://learn.modernagecoders.com/courses)[AI & machine learning For teens and adults ready to go beyond the basics, how AI actually works, built up from real Python, not buzzwords. Explore AI/ML](https://learn.modernagecoders.com/courses)[Web development Build real, working pages and apps. A satisfying, visible way for teens to see their code do something in the world. Explore web dev](https://learn.modernagecoders.com/courses)[Mathematics School maths taught for genuine understanding, mapped to the West Bengal board, CBSE and ICSE syllabi, the boards Narendrapur families study, from primary through the senior years. Explore maths](https://learn.modernagecoders.com/courses)[Queen & Princess Coders Girls-only batches for families who prefer them, the same curriculum and the same standards, in a setting many girls find more comfortable to speak up in. See girls-only batches](https://learn.modernagecoders.com/courses)
 
 The honest answer
 
@@ -80,25 +80,25 @@ A fair question. Here is the straight answer to what parents at Sherwood Estate 
 
 ### Q. Will my child actually pay attention online?
 
-Batches are deliberately small, so a teacher notices the moment a child drifts — often sooner than in a crowded classroom. Because the teacher can see each student's screen, there is nowhere to quietly fall behind.
+Batches are deliberately small, so a teacher notices the moment a child drifts, often sooner than in a crowded classroom. Because the teacher can see each student's screen, there is nowhere to quietly fall behind.
 
-### Q. We're in Narendrapur, off the Bypass — does that matter for online classes?
+### Q. We're in Narendrapur, off the Bypass: does that matter for online classes?
 
-Not at all — that is the point. A live class reaches Sherwood Estate exactly as well as it reaches Ballygunge or central Kolkata. Your child gets the same teacher and the same batch as a family across town, with no shuttle to Garia and no Bypass drive either way.
+Not at all. That is the point. A live class reaches Sherwood Estate exactly as well as it reaches Ballygunge or central Kolkata. Your child gets the same teacher and the same batch as a family across town, with no shuttle to Garia and no Bypass drive either way.
 
 ### Q. What if we miss a class?
 
-Every session is recorded. A missed Saturday, an exam week, a family trip — the lesson is there to revisit before the next class, so nobody returns lost.
+Every session is recorded. A missed Saturday, an exam week, a family trip, the lesson is there to revisit before the next class, so nobody returns lost.
 
 ### Q. Is it just watching videos?
 
-No. The whole point is that it is live and instructor-led. Recordings are for revision only — the learning happens with a real teacher in the room with your child.
+No. The whole point is that it is live and instructor-led. Recordings are for revision only, the learning happens with a real teacher in the room with your child.
 
 The Love Wall
 
 ## Words from real families.
 
-We publish reviews only from verified Modern Age Coders families. Below are verified words from real families across our school — we will never invent a quote to fill a space.
+We publish reviews only from verified Modern Age Coders families. Below are verified words from real families across our school. We will never invent a quote to fill a space.
 
 ★★★★★
 
@@ -124,9 +124,9 @@ Real student projects
 
 ## What our students actually build.
 
-Every one of these is a real, live project shipped by a Modern Age Coders student — not a screenshot from a brochure. See more in our [Student Labs](/student-labs).
+Every one of these is a real, live project shipped by a Modern Age Coders student, not a screenshot from a brochure. See more in our [Student Labs](/student-labs).
 
-[![Baby — Typing Speed Challenge](/images/projects/baby.webp)GameBaby — Typing Speed ChallengeAn engaging typing speed challenge where users test how fast and accurately they can type, with a live leaderboard connected to a MongoDB backend.by KritikaOpen the live project ↗](https://baby.modernagecoders.com)[![MyDay — Social Productivity Organizer](/images/projects/myday.webp)Web AppMyDay — Social Productivity OrganizerA beautifully designed productivity platform to organise daily tasks, set goals and stay consistent — with a community feed of others' plans for inspiration.by VedantOpen the live project ↗](https://myday.modernagecoders.com)[![FreshTrack — Food Expiry Tracker](/images/projects/fresh.webp)Web AppFreshTrack — Food Expiry TrackerA smart food-management system to track expiry dates — add, update and delete items while the app checks expiry automatically, online and offline.by TanishOpen the live project ↗](https://freshtrackpro.netlify.app/)
+[![Baby, Typing Speed Challenge](/images/projects/baby.webp)GameBaby: Typing Speed ChallengeAn engaging typing speed challenge where users test how fast and accurately they can type, with a live leaderboard connected to a MongoDB backend.by KritikaOpen the live project ↗](https://baby.modernagecoders.com)[![MyDay, Social Productivity Organizer](/images/projects/myday.webp)Web AppMyDay, Social Productivity OrganizerA beautifully designed productivity platform to organise daily tasks, set goals and stay consistent, with a community feed of others' plans for inspiration.by VedantOpen the live project ↗](https://myday.modernagecoders.com)[![FreshTrack, Food Expiry Tracker](/images/projects/fresh.webp)Web AppFreshTrack, Food Expiry TrackerA smart food-management system to track expiry dates, add, update and delete items while the app checks expiry automatically, online and offline.by TanishOpen the live project ↗](https://freshtrackpro.netlify.app/)
 
 Who teaches
 
@@ -162,7 +162,7 @@ Book a free demo
 
 Book a free demo
 
-Both plans are billed monthly. The mini batch runs two live classes a week; one-to-one runs one live class a week. Summer camps, corporate training and college tracks are also available — call [+91 91233 66161](tel:+919123366161) for details.
+Both plans are billed monthly. The mini batch runs two live classes a week; one-to-one runs one live class a week. Summer camps, corporate training and college tracks are also available. Call [+91 91233 66161](tel:+919123366161) for details.
 
 Questions parents ask
 
@@ -174,11 +174,11 @@ Are the classes really live, or recorded videos?
 
 What ages do you teach?
 
-**Children, teens and adults — roughly ages 6 to 67.** Younger children begin with visual, playful coding and age-appropriate maths; teens move into Python, Java, web development and AI; adults and college students can start fresh or go deep.
+**Children, teens and adults, roughly ages 6 to 67.** Younger children begin with visual, playful coding and age-appropriate maths; teens move into Python, Java, web development and AI; adults and college students can start fresh or go deep.
 
-We're at Sherwood Estate in Narendrapur — can we still join?
+We're at Sherwood Estate in Narendrapur, can we still join?
 
-**Yes — location makes no difference for a live-online class.** Your child joins the same teacher and batch as a family in central Kolkata, straight from your Sherwood Estate flat, with no shuttle to Garia and no Bypass drive at all.
+**Yes, location makes no difference for a live-online class.** Your child joins the same teacher and batch as a family in central Kolkata, straight from your Sherwood Estate flat, with no shuttle to Garia and no Bypass drive at all.
 
 What device and internet do we need at home?
 
@@ -188,17 +188,17 @@ How big are the batches?
 
 **Group batches are kept deliberately small** so the teacher can give attention to each child and notice when someone needs help. If you want fully individual attention, one-to-one sessions are available.
 
-My child is on the West Bengal board, CBSE or ICSE — will the maths match?
+My child is on the West Bengal board, CBSE or ICSE, will the maths match?
 
 **Yes.** Our maths teaching maps to the West Bengal state board, CBSE and ICSE syllabi that schools around Narendrapur and the EM Bypass follow, so what we teach supports school work rather than pulling against it.
 
 Do you have girls-only batches?
 
-**Yes — our Queen and Princess Coders tracks are girls-only.** Same curriculum, same standards, in a setting many families and students prefer.
+**Yes. Our Queen and Princess Coders tracks are girls-only.** Same curriculum, same standards, in a setting many families and students prefer.
 
 Do you run coding classes for kids near Sherwood Estate, and Python classes in Narendrapur?
 
-**Yes — we run live coding classes for kids near Sherwood Estate and Python classes for Narendrapur learners, all online.** Younger children start with playful, visual coding; older kids and teens move into Python, Java and web development. Because every batch is live and online, a family at Sherwood Estate gets the same teacher and the same small batch as anyone else in Kolkata, with online maths tuition in Narendrapur available alongside the coding tracks.
+**Yes. We run live coding classes for kids near Sherwood Estate and Python classes for Narendrapur learners, all online.** Younger children start with playful, visual coding; older kids and teens move into Python, Java and web development. Because every batch is live and online, a family at Sherwood Estate gets the same teacher and the same small batch as anyone else in Kolkata, with online maths tuition in Narendrapur available alongside the coding tracks.
 
 How do we get started?
 
@@ -208,7 +208,7 @@ Book a free demo
 
 ## See the teaching before you decide.
 
-One free, live demo class — no payment, no pressure. The clearest way to judge a coding or maths teacher is to watch one teach your child. Families across Narendrapur and the southern EM Bypass start exactly here.
+One free, live demo class, no payment, no pressure. The clearest way to judge a coding or maths teacher is to watch one teach your child. Families across Narendrapur and the southern EM Bypass start exactly here.
 
 [+91 91233 66161](tel:+919123366161)
 

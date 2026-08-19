@@ -28,7 +28,7 @@ Age-appropriate coding tracks from 8 to 17. Younger students begin with Scratch 
 
 ## General coding by age
 
-Our recommended starting curriculum for each age — from drag-and-drop Scratch for 8 year olds to full-stack projects for 17 year olds.
+Our recommended starting curriculum for each age, from drag-and-drop Scratch for 8 year olds to full-stack projects for 17 year olds.
 
 - [Coding for 8-year-olds](/coding-for-8-year-olds)
 - [Coding for 9-year-olds](/coding-for-9-year-olds)

@@ -16,23 +16,23 @@ Book Free Demo Class[Call: 9123366161](tel:+919123366161)[WhatsApp Us](https://w
 
 ## Empowering La Martiniere Girls with Coding & Mathematics
 
-Bridging the gender gap in STEM — one La Martiniere student at a time
+Bridging the gender gap in STEM, one La Martiniere student at a time
 
 **La Martiniere for Girls**, established in 1836 by Major General Claude Martin on Rawdon Street in the heart of Kolkata, stands as one of India's most distinguished all-girls institutions. For nearly two centuries, the school has cultivated generations of confident, intellectually curious, and fiercely independent young women who have gone on to lead in medicine, law, the arts, civil services, and business. Today, as the world moves towards a technology-driven economy, the daughters of La Martiniere have an extraordinary opportunity to carry that legacy into the realm of STEM.
 
-Yet the numbers tell a concerning story: **only 28% of the global STEM workforce is female**. In India, fewer than 1 in 5 engineering graduates are women. This is not a talent gap — it is an exposure gap. When young women begin coding early, they develop the computational thinking, logical reasoning, and problem-solving confidence that transforms their academic trajectory. Research consistently shows that girls who start programming before age 14 are **ten times more likely to pursue computer science** in college. La Martiniere Girls, with their strong academic foundation and culture of excellence, are perfectly positioned to lead this change.
+Yet the numbers tell a concerning story: **only 28% of the global STEM workforce is female**. In India, fewer than 1 in 5 engineering graduates are women. This is not a talent gap. It is an exposure gap. When young women begin coding early, they develop the computational thinking, logical reasoning, and problem-solving confidence that transforms their academic trajectory. Research consistently shows that girls who start programming before age 14 are **ten times more likely to pursue computer science** in college. La Martiniere Girls, with their strong academic foundation and culture of excellence, are perfectly positioned to lead this change.
 
-At Modern Age Coders, we have designed our coding classes specifically to complement the **ICSE Computer Applications curriculum** that La Martiniere for Girls follows. While the school syllabus introduces concepts in Java and HTML, our courses go far deeper — teaching students to build real-world projects, from interactive websites and Python-powered data analysis tools to AI chatbots and mobile applications. This hands-on approach transforms theoretical knowledge into practical skill, giving your daughter a significant edge in ICSE board examinations and beyond.
+At Modern Age Coders, we have designed our coding classes specifically to complement the **ICSE Computer Applications curriculum** that La Martiniere for Girls follows. While the school syllabus introduces concepts in Java and HTML, our courses go far deeper, teaching students to build real-world projects, from interactive websites and Python-powered data analysis tools to AI chatbots and mobile applications. This hands-on approach transforms theoretical knowledge into practical skill, giving your daughter a significant edge in ICSE board examinations and beyond.
 
 We understand that La Martiniere Girls have demanding schedules packed with academics, sports, music, dance, and social service commitments. That is why we offer flexible **after-school evening batches (4 PM - 8 PM)** and **weekend sessions (Saturday and Sunday)** designed to fit seamlessly around your daughter's routine. Our small batch sizes of just 5-8 students ensure personalized attention, and every session is recorded so she never falls behind, even during exam periods or school events.
 
-What makes our approach truly different is the learning environment. We offer **girls-only coding batches**, creating a safe, supportive space where your daughter can ask questions without hesitation, experiment without fear of judgement, and build confidence alongside like-minded peers. From Ritu Karidhal at ISRO to Neha Narkhede at Confluent, from Debjani Ghosh leading NASSCOM to the thousands of women engineers at Google, Microsoft, and Amazon — the future of technology includes everyone, and we want La Martiniere Girls to be part of it.
+What makes our approach truly different is the learning environment. We offer **girls-only coding batches**, creating a safe, supportive space where your daughter can ask questions without hesitation, experiment without fear of judgement, and build confidence alongside like-minded peers. From Ritu Karidhal at ISRO to Neha Narkhede at Confluent, from Debjani Ghosh leading NASSCOM to the thousands of women engineers at Google, Microsoft, and Amazon, the future of technology includes everyone, and we want La Martiniere Girls to be part of it.
 
-The combination of **mathematics and coding** is particularly powerful. Our ICSE-aligned maths programme strengthens the analytical foundations your daughter needs for competitive examinations — ISI, CMI, JEE, NEET — while coding develops the applied problem-solving skills that set candidates apart. Together, maths and coding prepare La Martiniere Girls not just for board exams, but for a future where technology literacy is as fundamental as English fluency. Whether your daughter dreams of becoming a data scientist, a surgeon using AI diagnostics, an entrepreneur building the next great app, or a researcher solving climate change with machine learning — it starts here, with the right skills and the confidence to use them.
+The combination of **mathematics and coding** is particularly powerful. Our ICSE-aligned maths programme strengthens the analytical foundations your daughter needs for competitive examinations, ISI, CMI, JEE, NEET, while coding develops the applied problem-solving skills that set candidates apart. Together, maths and coding prepare La Martiniere Girls not just for board exams, but for a future where technology literacy is as fundamental as English fluency. Whether your daughter dreams of becoming a data scientist, a surgeon using AI diagnostics, an entrepreneur building the next great app, or a researcher solving climate change with machine learning. It starts here, with the right skills and the confidence to use them.
 
 ## Girls Who Code: Special Program for La Martiniere Girls
 
-Our dedicated coding program for girls — designed to build confidence, ignite curiosity, and close the gender gap in technology.
+Our dedicated coding program for girls, designed to build confidence, ignite curiosity, and close the gender gap in technology.
 
 ### Safe Learning Space
 
@@ -54,13 +54,13 @@ Project-based curriculum designed to build self-assurance. Every girl presents h
 
 ## Coding Courses for La Martiniere Girls Students (Ages 6-12)
 
-Age-appropriate coding courses that turn La Martiniere Girls into creators — building games, websites, and apps instead of just consuming screen time.
+Age-appropriate coding courses that turn La Martiniere Girls into creators, building games, websites, and apps instead of just consuming screen time.
 
 ![Scratch Coding for La Martiniere Girls students - Kids coding classes Kolkata](/images/kids-coding.webp)Most Popular with Girls
 
 ### Kids Coding with Scratch
 
-The perfect first step for La Martiniere Girls. Build colourful games, animations, and interactive stories using block-based coding. No prior experience needed — just curiosity and imagination.
+The perfect first step for La Martiniere Girls. Build colourful games, animations, and interactive stories using block-based coding. No prior experience needed, just curiosity and imagination.
 
 - ✓ Game Development & Animation
 - ✓ Interactive Storytelling Projects
@@ -71,7 +71,7 @@ The perfect first step for La Martiniere Girls. Build colourful games, animation
 
 ### Web Design for Kids
 
-Create beautiful, colourful websites with HTML and CSS. La Martiniere Girls love this course because it blends creativity with technology — design personal portfolios, school project pages, and more.
+Create beautiful, colourful websites with HTML and CSS. La Martiniere Girls love this course because it blends creativity with technology, design personal portfolios, school project pages, and more.
 
 - ✓ HTML Structure & Semantics
 - ✓ CSS Styling, Colours & Layouts
@@ -82,7 +82,7 @@ Create beautiful, colourful websites with HTML and CSS. La Martiniere Girls love
 
 ### Python for Young Coders
 
-Begin text-based programming with Python — the language powering Google, Instagram, and AI. Ideal for La Martiniere Girls transitioning from Scratch to real-world coding with ICSE preparation benefits.
+Begin text-based programming with Python, the language powering Google, Instagram, and AI. Ideal for La Martiniere Girls transitioning from Scratch to real-world coding with ICSE preparation benefits.
 
 - ✓ Python Fundamentals & Variables
 - ✓ Problem Solving & Logical Thinking
@@ -121,7 +121,7 @@ Java is a core part of the ICSE Computer Applications syllabus. La Martiniere Gi
 
 ### Full Stack Web Development
 
-Build complete, professional websites from scratch. La Martiniere Girls learn HTML, CSS, JavaScript, and React — skills for impressive school projects, college portfolios, and future freelance work.
+Build complete, professional websites from scratch. La Martiniere Girls learn HTML, CSS, JavaScript, and React, skills for impressive school projects, college portfolios, and future freelance work.
 
 - ✓ HTML, CSS, JavaScript
 - ✓ React Framework
@@ -167,7 +167,7 @@ Advanced problem-solving for La Martiniere Girls targeting IMO, PRMO, RMO, and o
 
 ## Why La Martiniere Girls Parents Choose Modern Age Coders
 
-We understand what La Martiniere families value — quality education, a safe environment for girls, and genuine care for each student's growth.
+We understand what La Martiniere families value, quality education, a safe environment for girls, and genuine care for each student's growth.
 
 ★★★★★
 
@@ -185,7 +185,7 @@ Only 5-8 students per batch ensures every La Martiniere girl gets personal atten
 
 ### Project-Based Learning
 
-Students build real games, websites, and apps — not just follow tutorials. Projects double as impressive additions to school portfolios and college applications.
+Students build real games, websites, and apps, not just follow tutorials. Projects double as impressive additions to school portfolios and college applications.
 
 📹
 
@@ -265,7 +265,7 @@ Whether your daughter is in Class 1 or Class 12, we have a structured learning p
 
 Ages 6-10 • Visual Block-Based Coding
 
-[🎨 Scratch Programming  Create games, animations & interactive stories with drag-and-drop blocks](/courses/kids-coding-blocks-masterclass)[📱 App Development for Kids  Build real mobile apps using visual tools — perfect for young creators](/courses/kids-complete-app-development-masterclass)[🌐 Web Design for Kids  Create colourful websites with HTML & CSS from day one](/courses/kids-web-design-masterclass)💻
+[🎨 Scratch Programming  Create games, animations & interactive stories with drag-and-drop blocks](/courses/kids-coding-blocks-masterclass)[📱 App Development for Kids  Build real mobile apps using visual tools, perfect for young creators](/courses/kids-complete-app-development-masterclass)[🌐 Web Design for Kids  Create colourful websites with HTML & CSS from day one](/courses/kids-web-design-masterclass)💻
 
 ### For Teens (Classes 6-10)
 
@@ -287,7 +287,7 @@ All Classes • ICSE • JEE • Olympiads
 
 ## Group Classes or 1-on-1 Personalized?
 
-Every La Martiniere Girls student learns differently. Choose the format that fits your daughter's learning style, schedule, and goals — both options come with the same expert instruction.
+Every La Martiniere Girls student learns differently. Choose the format that fits your daughter's learning style, schedule, and goals. Both options come with the same expert instruction.
 
 Most Popular👥
 
@@ -312,7 +312,7 @@ Dedicated instructor, custom pace
 
 ₹2999/month
 
-- ✓ 1 Student Only — Full Attention
+- ✓ 1 Student Only: Full Attention
 - ✓ 3 Live Classes per Week
 - ✓ Custom Learning Pace & Plan
 - ✓ Flexible Schedule (You Choose)
@@ -323,17 +323,17 @@ Start with 1-on-1 Class
 
 ## Best Coding Classes in Kolkata for La Martiniere Girls Students
 
-Finding the right **coding classes near Rawdon Street, Kolkata** for your La Martiniere for Girls daughter can be challenging. Parents want quality, safety, and flexibility — without compromising on the standard of instruction. Modern Age Coders delivers exactly that with **live online coding and mathematics classes** specifically designed for students of La Martiniere for Girls, one of Kolkata's most prestigious ICSE schools.
+Finding the right **coding classes near Rawdon Street, Kolkata** for your La Martiniere for Girls daughter can be challenging. Parents want quality, safety, and flexibility, without compromising on the standard of instruction. Modern Age Coders delivers exactly that with **live online coding and mathematics classes** specifically designed for students of La Martiniere for Girls, one of Kolkata's most prestigious ICSE schools.
 
 Our curriculum covers the full spectrum of technology education: from **Scratch programming for Classes 1-5** to **Python and Java for Classes 6-10** to **AI, Machine Learning, and Full Stack Web Development for Classes 11-12**. Every course is mapped to the ICSE Computer Applications syllabus, giving your daughter a direct academic advantage while building career-ready skills that go far beyond the textbook. We also offer comprehensive **ICSE Mathematics, Olympiad preparation (IMO, PRMO, RMO), and JEE/WBJEE maths** coaching.
 
-What makes us unique for La Martiniere Girls families is our availability of **girls-only batches** taught by expert instructors in a supportive, empowering environment. With a small batch size of just 5-8 students, every student receives personalized attention. Our after-school evening batches (4 PM – 8 PM) and weekend sessions are specifically designed around the demanding La Martiniere schedule. We also offer **1-on-1 personalized classes** for families who prefer dedicated instruction.
+What makes us unique for La Martiniere Girls families is our availability of **girls-only batches** taught by expert instructors in a supportive, empowering environment. With a small batch size of just 5-8 students, every student receives personalized attention. Our after-school evening batches (4 PM: 8 PM) and weekend sessions are specifically designed around the demanding La Martiniere schedule. We also offer **1-on-1 personalized classes** for families who prefer dedicated instruction.
 
 We are proud to be trusted by families from both La Martiniere for Girls and [La Martiniere for Boys](/coding-classes-for-la-martiniere-boys-kolkata). With 10,000+ students taught, a 4.9/5 parent rating, and completion certificates that add genuine value to school portfolios and college applications, Modern Age Coders is the trusted choice for **La Martiniere Girls coding education in Kolkata**.
 
-Whether your daughter wants to learn **Python programming**, build **AI-powered applications**, create **full-stack websites**, or excel in **ICSE Mathematics** and competitive exams — we have the right course, the right instructor, and the right schedule. Book a **free demo class** today and see why La Martiniere families choose Modern Age Coders.
+Whether your daughter wants to learn **Python programming**, build **AI-powered applications**, create **full-stack websites**, or excel in **ICSE Mathematics** and competitive exams. We have the right course, the right instructor, and the right schedule. Book a **free demo class** today and see why La Martiniere families choose Modern Age Coders.
 
-## Book a Free Demo Class — La Martiniere Girls Students
+## Book a Free Demo Class: La Martiniere Girls Students
 
 Experience our girls-friendly coding classes absolutely free. Tell us about your daughter and we'll schedule a personalised demo. No obligation.
 
@@ -361,25 +361,25 @@ Absolutely. Our "Girls Who Code" programme runs dedicated girls-only coding batc
 
 +
 
-We offer flexible timings specifically designed for busy La Martiniere students. Weekday evening batches run from 4 PM to 8 PM (after school), and weekend batches are available Saturday and Sunday from 9 AM to 6 PM. We know La Martiniere Girls have demanding schedules with academics, sports, music, and other activities — so we work with you to find the perfect slot. Each session is one hour, twice a week, and all classes are recorded for catch-up.
+We offer flexible timings specifically designed for busy La Martiniere students. Weekday evening batches run from 4 PM to 8 PM (after school), and weekend batches are available Saturday and Sunday from 9 AM to 6 PM. We know La Martiniere Girls have demanding schedules with academics, sports, music, and other activities, so we work with you to find the perfect slot. Each session is one hour, twice a week, and all classes are recorded for catch-up.
 
 ### Do your maths courses align with the ICSE syllabus?
 
 +
 
-Yes, our mathematics courses are fully aligned with the ICSE syllabus that La Martiniere for Girls follows. We cover every topic in the ICSE Mathematics curriculum — algebra, geometry, trigonometry, calculus, statistics — while also building advanced problem-solving abilities for competitive exams like ISI entrance, JEE, and Maths Olympiads. Our approach goes beyond rote learning to develop conceptual understanding.
+Yes, our mathematics courses are fully aligned with the ICSE syllabus that La Martiniere for Girls follows. We cover every topic in the ICSE Mathematics curriculum, algebra, geometry, trigonometry, calculus, statistics, while also building advanced problem-solving abilities for competitive exams like ISI entrance, JEE, and Maths Olympiads. Our approach goes beyond rote learning to develop conceptual understanding.
 
 ### What age can my daughter start coding?
 
 +
 
-Girls as young as 6 can start with our visual, block-based Scratch coding programme — it's fun, colourful, and builds computational thinking through game creation and storytelling. For text-based programming (Python, Java), we recommend age 12-13, which aligns perfectly with when La Martiniere Girls begin ICSE Computer Applications. The earlier your daughter starts, the more natural and enjoyable coding becomes.
+Girls as young as 6 can start with our visual, block-based Scratch coding programme. It's fun, colourful, and builds computational thinking through game creation and storytelling. For text-based programming (Python, Java), we recommend age 12-13, which aligns perfectly with when La Martiniere Girls begin ICSE Computer Applications. The earlier your daughter starts, the more natural and enjoyable coding becomes.
 
 ### How will coding help my daughter's career prospects?
 
 +
 
-Today, only 28% of the global STEM workforce is female — and that percentage is growing rapidly as companies actively seek to hire more women in technology. Girls who learn coding early develop logical thinking, problem-solving, and computational skills valued in every field — not just software engineering. Whether your daughter pursues medicine, finance, research, entrepreneurship, or technology, coding gives her a competitive edge in college applications, entrance exams, and job markets. La Martiniere Girls who code today become the leaders of tomorrow.
+Today, only 28% of the global STEM workforce is female, and that percentage is growing rapidly as companies actively seek to hire more women in technology. Girls who learn coding early develop logical thinking, problem-solving, and computational skills valued in every field, not just software engineering. Whether your daughter pursues medicine, finance, research, entrepreneurship, or technology, coding gives her a competitive edge in college applications, entrance exams, and job markets. La Martiniere Girls who code today become the leaders of tomorrow.
 
 ### How much do coding classes cost?
 

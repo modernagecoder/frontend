@@ -5,7 +5,7 @@
  *   npm run pricing:preview     show what would change, change nothing
  *   npm run pricing:apply       actually write it
  *
- * Only touches anchors that are already in the markup — a [data-price]
+ * Only touches anchors that are already in the markup, a [data-price]
  * element or a JSON-LD block with data-price-scope. It never looks for
  * numbers that "look like" a price, because on this site 9999 is a z-index in
  * nav.html, a border-radius, a quiz answer and a price, and 4999 is a
@@ -50,7 +50,7 @@ function walk(dir, out) {
 }
 
 /**
- * The price table the browser gets. Generated, never hand-written — a number
+ * The price table the browser gets. Generated, never hand-written, a number
  * typed into a script that fans out across the site is a site-wide claim.
  */
 function emitRuntimeData(config) {
@@ -76,7 +76,7 @@ function emitRuntimeData(config) {
     };
 
     const js = '/**\n' +
-        ' * GENERATED FILE — DO NOT EDIT.\n' +
+        ' * GENERATED FILE: DO NOT EDIT.\n' +
         ' *\n' +
         ' * Written by scripts/pricing/apply.js from pricing/pricing.config.jsonc.\n' +
         ' * Any edit here is overwritten on the next build. Change the price in the\n' +
@@ -113,7 +113,7 @@ function syncCoursesConfig(config) {
         if (!target || !target[tier]) return;                    // tier absent here
 
         // A tier set to null in the config is no longer sold. Delete it rather
-        // than leaving the old figure behind — a stale entry here is what
+        // than leaving the old figure behind, a stale entry here is what
         // Razorpay would still be handed if any code path asked for it.
         if (amount === null || amount === undefined) {
             changes.push(label + '.' + tier + ': removed (no longer sold)');
@@ -136,7 +136,7 @@ function syncCoursesConfig(config) {
         writeTier(json.defaultPricing, t, coding[t], 'defaultPricing');
     });
 
-    // The internationalPricing block is a third stale copy — it still carried
+    // The internationalPricing block is a third stale copy. It still carried
     // the old flat $40/$100 long after the config moved. Nothing should have to
     // remember to update it.
     if (json.internationalPricing) {
@@ -172,12 +172,12 @@ function syncCoursesConfig(config) {
             "Add a new entry in the 'courses' object with the course slug as key. " +
             'Each course should include ' + sold.join(', ') + ' pricing. ' +
             'GENERATED: prices in this file are written by npm run pricing:apply from ' +
-            'pricing/pricing.config.jsonc — edit that file, not this one.';
+            'pricing/pricing.config.jsonc, edit that file, not this one.';
     }
 
     // Slugs of courses that actually exist. courses-config.json also carries
     // entries for courses that were renamed or split; every such slug 301s to
-    // a real course, so the entries are never looked up — but they are still
+    // a real course, so the entries are never looked up, but they are still
     // rewritten to the current prices, because a file the browser downloads
     // must never contain a retired figure Razorpay could be handed.
     const realSlugs = new Set();
@@ -209,7 +209,7 @@ function syncCoursesConfig(config) {
     // Courses that price differently from the defaults MUST have their own
     // entry, or the payment modal silently falls back to defaultPricing.
     // This is exactly how every maths course once showed ₹8,500 on the page
-    // while Razorpay charged the coding ₹7,500 — the entry simply didn't
+    // while Razorpay charged the coding ₹7,500, the entry simply didn't
     // exist, so it is created here.
     const defaults = {};
     cfgLib.MONTHLY_TIERS.forEach(function (t) { defaults[t] = coding[t]; });
@@ -258,8 +258,8 @@ function syncCoursesConfig(config) {
  * pages also cite the fee where anchors cannot go: meta descriptions,
  * dual-region sentences ("₹4,999 for India. USD $60 for international
  * students"), and two bare "price" fields in winter's structured data. Every
- * currency-prefixed figure on these pages IS the camp fee — verified before
- * this step was written, and enforced by verify's checkCampFigures — so a
+ * currency-prefixed figure on these pages IS the camp fee, verified before
+ * this step was written, and enforced by verify's checkCampFigures, so a
  * page-wide currency-prefixed rewrite is safe here and ONLY here.
  */
 function syncCampPages(config) {
@@ -275,7 +275,7 @@ function syncCampPages(config) {
         let s = before;
         s = s.replace(/(₹|&#8377;)\s?[\d,]+/g, '$1' + inrDisp);
         if (usd !== null && usd !== undefined) {
-            // (?!\d|\.\d) blocks only decimals — "$60." at a sentence end must
+            // (?!\d|\.\d) blocks only decimals, "$60." at a sentence end must
             // still match, which the old (?![\d.]) lookahead wrongly skipped.
             s = s.replace(/(USD \$|\$)\s?\d[\d,]*(?!\d|\.\d)/g, '$1' + usd);
         }
@@ -351,7 +351,7 @@ function syncLlmsTxt(config) {
         : '';
 
     // Maths gets its own sentence only while its 1-on-1 rate actually differs
-    // from the standard one — same rule as agentsNote, for the same reason: the
+    // from the standard one, same rule as agentsNote, for the same reason: the
     // answer must never grow a phantom "exception" that equals the normal price.
     const mathsNote = (config.plans.maths.india.personal != null &&
         config.plans.maths.india.personal !== india.personal)
@@ -416,7 +416,7 @@ function main() {
     // pricing-data.generated.js a new hash, which gives every page a new
     // script URL, which busts both the service-worker cache and the HTTP
     // cache. Without this, sw.js (cache-first) plus the long HTTP cache meant
-    // returning visitors kept seeing — and being charged — old prices.
+    // returning visitors kept seeing, and being charged, old prices.
     const crypto = require('crypto');
     const versions = {};
     applyLib.PRICING_SCRIPTS.forEach(function (src) {

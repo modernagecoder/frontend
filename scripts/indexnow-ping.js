@@ -1,11 +1,11 @@
 #!/usr/bin/env node
 /**
- * indexnow-ping.js — tell Bing (and Yandex, Naver, Seznam, Yep, Amazon) that URLs changed.
+ * indexnow-ping.js. Tell Bing (and Yandex, Naver, Seznam, Yep, Amazon) that URLs changed.
  *
  * Why this matters more than it looks: ChatGPT Search and Microsoft Copilot answer from the
- * Bing index. If Bing has not indexed a page, ChatGPT cannot cite it — no amount of Google
+ * Bing index. If Bing has not indexed a page, ChatGPT cannot cite it, no amount of Google
  * ranking helps. IndexNow is the only push channel into that index; one POST notifies every
- * participating engine. Google does NOT participate (it has declined since 2021) — Google
+ * participating engine. Google does NOT participate (it has declined since 2021): Google
  * still discovers via sitemap.xml + internal links, which is unaffected by this script.
  *
  * Usage:
@@ -200,7 +200,7 @@ if (ALL) {
   urls = r.urls;
   context = `${urls.length} URL(s) from ${r.fileCount} file(s) changed since ${SINCE}`;
   if (r.skipped.length) {
-    console.log(`  (${r.skipped.length} changed file(s) map to no public URL — ignored)`);
+    console.log(`  (${r.skipped.length} changed file(s) map to no public URL, ignored)`);
   }
 } else if (explicit.length) {
   urls = explicit.map(normalise);
@@ -217,7 +217,7 @@ if (ALL) {
 const live = new Set(sitemapUrls().map((u) => u.replace(/\/$/, '')));
 const unknown = urls.filter((u) => !live.has(u.replace(/\/$/, '')));
 if (unknown.length) {
-  console.log(`\n  ${unknown.length} URL(s) not found in any sitemap — dropped:`);
+  console.log(`\n  ${unknown.length} URL(s) not found in any sitemap, dropped:`);
   unknown.slice(0, 10).forEach((u) => console.log(`    ${u}`));
   urls = urls.filter((u) => live.has(u.replace(/\/$/, '')));
 }
@@ -247,7 +247,7 @@ const STREAM_MAX = 50;
 const forceBatch = argv.includes('--batch');
 const useStream = !forceBatch && urls.length <= STREAM_MAX;
 
-console.log(`\nIndexNow — ${context}`);
+console.log(`\nIndexNow, ${context}`);
 console.log(`  key         : ${key}`);
 console.log(`  keyLocation : ${keyLocation}`);
 console.log(`  mode        : ${useStream ? 'streaming (one request per URL, Bing preferred)' : 'batch POST (urlList)'}`);
@@ -262,7 +262,7 @@ if (!useStream && !forceBatch) {
 }
 
 if (DRY) {
-  console.log('\n(dry run — nothing sent)');
+  console.log('\n(dry run, nothing sent)');
   process.exit(0);
 }
 
@@ -351,7 +351,7 @@ const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
       body
     );
     const ok = status === 200 || status === 202;
-    console.log(`\n  HTTP ${status} ${ok ? '— accepted' : '— NOT accepted'}`);
+    console.log(`\n  HTTP ${status} ${ok ? ', accepted' : ', NOT accepted'}`);
     if (data.trim()) console.log(`  response: ${data.trim().slice(0, 300)}`);
     explain(status, data);
     process.exit(ok ? 0 : 1);

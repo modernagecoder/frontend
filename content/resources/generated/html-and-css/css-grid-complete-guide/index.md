@@ -38,7 +38,7 @@ Almost every modern website uses grid layouts: dashboards, photo galleries, maga
 
 ### 2. Responsive Without Media Queries
 
-One of the most magical things about Grid: with `repeat(auto-fit, minmax(250px, 1fr))`, you can build a fully responsive card layout that automatically adjusts from 1 column on mobile to 2, 3, 4, or more columns on larger screens — without writing a single media query. This is game-changing.
+One of the most magical things about Grid: with `repeat(auto-fit, minmax(250px, 1fr))`, you can build a fully responsive card layout that automatically adjusts from 1 column on mobile to 2, 3, 4, or more columns on larger screens, without writing a single media query. This is game-changing.
 
 ### 3. Named Grid Areas Are Beautiful
 
@@ -150,7 +150,7 @@ You can name cells and then draw your layout:
 .page footer  { grid-area: footer; }
 ```
 
-Look at `grid-template-areas` — that string IS the layout. Header spans both columns, sidebar and main sit side by side, footer spans both columns. Beautiful.
+Look at `grid-template-areas`. That string IS the layout. Header spans both columns, sidebar and main sit side by side, footer spans both columns. Beautiful.
 
 ### 7. Alignment - justify and align
 
@@ -167,7 +167,7 @@ Shortcut: `place-items: center` sets both justify-items and align-items.
 
 ### 8. Implicit vs Explicit Grid
 
-The grid you define with grid-template-columns/rows is the *explicit* grid. If you add more items than cells, the browser creates extra rows automatically — that is the *implicit* grid. Control implicit rows with `grid-auto-rows`:
+The grid you define with grid-template-columns/rows is the *explicit* grid. If you add more items than cells, the browser creates extra rows automatically. That is the *implicit* grid. Control implicit rows with `grid-auto-rows`:
 
 ```
 .container {
@@ -182,7 +182,7 @@ The grid you define with grid-template-columns/rows is the *explicit* grid. If y
 
 **Use Grid** when: laying out items in two dimensions (dashboards, galleries, page layouts, magazine designs, any layout where rows AND columns matter).
 
-They are not competitors — modern websites use both. Grid for the page layout, Flexbox inside each grid cell.
+They are not competitors, modern websites use both. Grid for the page layout, Flexbox inside each grid cell.
 
 ## Code Examples
 
@@ -494,7 +494,7 @@ A full 8x8 chessboard with alternating light and dark squares and chess pieces i
 </html>
 ```
 
-Three pricing plans in a grid. The middle 'popular' plan uses `grid-column: 1 / -1` on small screens to span the full width for easy reading, then switches back to auto and scales up on screens wider than 700px. `1 / -1` means from the first line to the last line — a great trick for full-width items.
+Three pricing plans in a grid. The middle 'popular' plan uses `grid-column: 1 / -1` on small screens to span the full width for easy reading, then switches back to auto and scales up on screens wider than 700px. `1 / -1` means from the first line to the last line, a great trick for full-width items.
 
 **Output:**
 

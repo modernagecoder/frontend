@@ -15,7 +15,7 @@ keywords: ["css pseudo class", "css pseudo element", "hover focus", "nth-child",
 
 ## What Are Pseudo-classes and Pseudo-elements?
 
-Pseudo-classes and pseudo-elements are two of the most powerful features in CSS. They let you style elements based on state, position, or relationship — and even insert content that does not exist in the HTML.
+Pseudo-classes and pseudo-elements are two of the most powerful features in CSS. They let you style elements based on state, position, or relationship, and even insert content that does not exist in the HTML.
 
 ### Pseudo-classes (single colon)
 
@@ -29,7 +29,7 @@ li:nth-child(odd) { background: #f1f5f9; }
 
 ### Pseudo-elements (double colon)
 
-A **pseudo-element** targets a part of an element — or injects a 'fake' element. Examples: `::before` and `::after` inject content, `::first-letter` targets the first character, `::selection` styles selected text, `::placeholder` styles the placeholder inside inputs.
+A **pseudo-element** targets a part of an element, or injects a 'fake' element. Examples: `::before` and `::after` inject content, `::first-letter` targets the first character, `::selection` styles selected text, `::placeholder` styles the placeholder inside inputs.
 
 ```
 .card::before {
@@ -46,7 +46,7 @@ Why two colons for pseudo-elements? In CSS3, pseudo-elements got their own doubl
 
 ### 1. Interactivity Without JavaScript
 
-Hover effects, focus rings, checked states, form validation styling — all handled with CSS. No JavaScript, no event listeners, no bundle size. `:hover`, `:focus`, `:valid`, and `:invalid` handle the majority of interactive UI in a browser.
+Hover effects, focus rings, checked states, form validation styling, all handled with CSS. No JavaScript, no event listeners, no bundle size. `:hover`, `:focus`, `:valid`, and `:invalid` handle the majority of interactive UI in a browser.
 
 ### 2. Less HTML, More Creativity
 
@@ -54,7 +54,7 @@ Need a decorative corner on a card? A tooltip arrow? A quote mark before a block
 
 ### 3. Pattern-Based Styling
 
-Style every other row of a table, every third item in a grid, or only the last element of a list — without adding class names. `:nth-child()` is like a tiny query language for DOM position. Anika styled her entire homework table in 3 lines of CSS.
+Style every other row of a table, every third item in a grid, or only the last element of a list, without adding class names. `:nth-child()` is like a tiny query language for DOM position. Anika styled her entire homework table in 3 lines of CSS.
 
 ### 4. Modern Selectors Unlock New Patterns
 
@@ -190,7 +190,7 @@ p::first-line   { font-weight: bold; }
 li::marker      { color: #7c3aed; font-size: 1.2em; }
 ```
 
-`::selection` styles the highlighted text when a user selects anything. `::placeholder` styles the hint text inside form inputs. `::marker` targets the bullet or number of a list item — you can finally color bullets without extra markup.
+`::selection` styles the highlighted text when a user selects anything. `::placeholder` styles the hint text inside form inputs. `::marker` targets the bullet or number of a list item. You can finally color bullets without extra markup.
 
 ### 9. Creative Patterns
 
@@ -222,7 +222,7 @@ li::marker      { color: #7c3aed; font-size: 1.2em; }
 }
 ```
 
-No extra HTML, no JavaScript — just a sliding underline that knows which direction to grow from.
+No extra HTML, no JavaScript, just a sliding underline that knows which direction to grow from.
 
 ## Code Examples
 
@@ -525,7 +525,7 @@ A navigation bar with 4 links. Hovering any link reveals a gradient bar that sli
 </html>
 ```
 
-Inputs get a green border when valid and a red border when invalid — but only once the user has started typing (`:not(:placeholder-shown)`). The `form:has(input:invalid) button` rule disables the submit button whenever any input is invalid. All validation styling is pure CSS — no JavaScript.
+Inputs get a green border when valid and a red border when invalid, but only once the user has started typing (`:not(:placeholder-shown)`). The `form:has(input:invalid) button` rule disables the submit button whenever any input is invalid. All validation styling is pure CSS, no JavaScript.
 
 **Output:**
 
@@ -603,7 +603,7 @@ A clean signup form. As you type, fields turn green when valid and red when inva
 </html>
 ```
 
-`.product.sale::before` injects a rotated red ribbon in the corner. `.product.new::after` injects a pill-shaped gradient badge in the top-left. The third card uses both classes and shows both decorations at once. No extra markup — just pseudo-elements.
+`.product.sale::before` injects a rotated red ribbon in the corner. `.product.new::after` injects a pill-shaped gradient badge in the top-left. The third card uses both classes and shows both decorations at once. No extra markup, just pseudo-elements.
 
 **Output:**
 
@@ -724,8 +724,8 @@ Always pair `:hover` with `:focus-visible` (or `:focus`) so keyboard users see t
 - Form validation styling is free: `:valid`, `:invalid`, `:required`, and `:placeholder-shown` let you show live feedback as the user types. Combine `:not(:placeholder-shown)` with `:invalid` to only show red after the user has started typing.
 - `:nth-child(an+b)` is a tiny query language: `odd`, `even`, `2n`, `3n+1`, etc. Use it for zebra stripes, grid patterns, and highlighting specific items without extra classes.
 - `:not()` excludes, `:is()` groups selectors without rewriting them, and `:where()` is like `:is()` but with zero specificity (useful for base styles that are easy to override).
-- `:has()` is the parent selector — finally. Style an element based on what it contains: `form:has(:invalid) button`, `.card:has(img)`, `label:has(input:checked)`. This used to require JavaScript.
-- `::before` and `::after` require a `content` property to render. Even `content: ''` is enough for a pure decoration. They can read attributes with `content: attr(data-tip)` — perfect for tooltips.
+- `:has()` is the parent selector, finally. Style an element based on what it contains: `form:has(:invalid) button`, `.card:has(img)`, `label:has(input:checked)`. This used to require JavaScript.
+- `::before` and `::after` require a `content` property to render. Even `content: ''` is enough for a pure decoration. They can read attributes with `content: attr(data-tip)`, perfect for tooltips.
 - `::first-letter` and `::first-line` style the first character or line of a paragraph (drop caps, magazine styling). `::selection` styles highlighted text. `::placeholder` styles form placeholders. `::marker` styles list bullets or numbers.
 - Creative patterns are mostly pseudo-elements: ribbons, badges, tooltips, sliding underlines, quote marks, custom bullets, decorative lines. All without adding a single extra HTML element.
 

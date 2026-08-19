@@ -1,10 +1,10 @@
 ---
 title: "Winter Coding Camp for Adults 2026 (Ages 18+) | Online Worldwide | Modern Age Coders"
-description: "Winter Coding Camp for Adults 2026 (Ages 18+) — Online worldwide. Learn Web Development, Python, AI & Data Science in 8 live one-to-one classes. Career change or upskill. ₹9,999 / $200."
+description: "Winter Coding Camp for Adults 2026 (Ages 18+): Online worldwide. Learn Web Development, Python, AI & Data Science in 8 live one-to-one classes. Career change or upskill. ₹9,999 / $200."
 canonical: https://learn.modernagecoders.com/winter-coding-camp-adults
 source: src/pages/winter-coding-camp-adults.html
 ---
-> Winter Coding Camp for Adults 2026 (Ages 18+) — Online worldwide. Learn Web Development, Python, AI & Data Science in 8 live one-to-one classes. Career change or upskill. ₹9,999 / $200.
+> Winter Coding Camp for Adults 2026 (Ages 18+): Online worldwide. Learn Web Development, Python, AI & Data Science in 8 live one-to-one classes. Career change or upskill. ₹9,999 / $200.
 
 Investment
 
@@ -47,11 +47,11 @@ Talk to Counsellor**9123366161**[Call Now](tel:9123366161)What You'll Gain
 
 ### Full-Stack Web Development
 
-HTML, CSS, JavaScript — from static pages to dynamic, database-driven applications. Skills that employers at every company seek.
+HTML, CSS, JavaScript, from static pages to dynamic, database-driven applications. Skills that employers at every company seek.
 
 ### Python for Professionals
 
-Automation, data processing, API integration, and scripting. Python is the most versatile skill in modern tech — used across every industry.
+Automation, data processing, API integration, and scripting. Python is the most versatile skill in modern tech, used across every industry.
 
 ### AI Integration
 
@@ -67,7 +67,7 @@ Industry-standard workflow with GitHub. Every tech company uses Git. Your projec
 
 ### Deployment & DevOps Basics
 
-Deploy your projects live using GitHub Pages, Vercel, and basic cloud hosting. Your applications won't just exist locally — they'll be live on the internet.
+Deploy your projects live using GitHub Pages, Vercel, and basic cloud hosting. Your applications won't just exist locally, they'll be live on the internet.
 
 Complete Syllabus
 
@@ -81,7 +81,7 @@ Week 1
 
 Sessions 1–601**Developer Environment Setup**
 
-VS Code, Git, browser dev tools, how the web works — your professional setup from day one
+VS Code, Git, browser dev tools, how the web works. Your professional setup from day one
 
 02**HTML5 for Professionals**
 
@@ -89,11 +89,11 @@ Semantic HTML, accessibility, SEO-friendly structure, forms, and modern HTML pat
 
 03**CSS: Layouts & Design Systems**
 
-Flexbox, Grid, CSS variables, responsive design — building real-world UI components
+Flexbox, Grid, CSS variables, responsive design, building real-world UI components
 
 04**JavaScript Fundamentals**
 
-Variables, functions, DOM manipulation, events — writing clean, professional JS
+Variables, functions, DOM manipulation, events, writing clean, professional JS
 
 05**APIs, Fetch & Async JavaScript**
 
@@ -101,7 +101,7 @@ Connect to real APIs, handle JSON data, build dynamic pages that pull live conte
 
 06**Project 1: Professional Landing Page**
 
-Build and deploy a complete responsive landing page — live on GitHub Pages
+Build and deploy a complete responsive landing page, live on GitHub Pages
 
 Week 2
 
@@ -109,11 +109,11 @@ Week 2
 
 Sessions 7–1107**Python Fundamentals**
 
-Syntax, data types, functions, OOP basics — Python the professional way
+Syntax, data types, functions, OOP basics: Python the professional way
 
 08**Project 2: Python Automation**
 
-Build a script that automates a real task — email parsing, file management, web scraping
+Build a script that automates a real task, email parsing, file management, web scraping
 
 09**Data Science with Pandas**
 
@@ -125,7 +125,7 @@ Matplotlib, seaborn, and chart creation. Turn raw data into insights that tell a
 
 11**Project 3: Data Analysis Dashboard**
 
-Analyse a real-world dataset and build a visual dashboard — ready for your portfolio
+Analyse a real-world dataset and build a visual dashboard, ready for your portfolio
 
 Week 3
 
@@ -137,7 +137,7 @@ OpenAI, Gemini, and Claude APIs. Prompt engineering, function calling, building 
 
 13**Project 4: AI-Powered Web Application**
 
-Build a full web app with integrated AI — chatbot, content generator, or smart tool
+Build a full web app with integrated AI, chatbot, content generator, or smart tool
 
 14**Career Strategy & LinkedIn Optimisation**
 
@@ -145,7 +145,7 @@ How to position your new skills, write your GitHub profile, and approach compani
 
 15**Portfolio Website & Deployment**
 
-Build your professional developer portfolio — deployed live, SEO optimised, shareable
+Build your professional developer portfolio, deployed live, SEO optimised, shareable
 
 16**Project 5: Showcase & Graduation**
 
@@ -161,7 +161,7 @@ HTML / CSSJavaScriptPythonPandasAI APIsGitHubVercel / DeployYour Career Portfoli
 
 #### Professional Landing Page
 
-Responsive, deployed — your digital business card
+Responsive, deployed. Your digital business card
 
 02
 
@@ -173,25 +173,25 @@ A real tool that solves a genuine problem
 
 #### Data Analysis Dashboard
 
-Visualise real-world data — analytics that impress employers
+Visualise real-world data, analytics that impress employers
 
 04
 
 #### AI-Powered Web Application
 
-A full app powered by AI APIs — deployed live
+A full app powered by AI APIs, deployed live
 
 05
 
 #### Developer Portfolio Site
 
-Your career portfolio — live, polished, and job-ready
+Your career portfolio, live, polished, and job-ready
 
 ## What This Opens For You
 
 #### Career Switch to Tech
 
-Junior developer, data analyst, AI product manager — these roles are accessible after 8 focused one-to-one classes. Thousands have made this switch.
+Junior developer, data analyst, AI product manager, these roles are accessible after 8 focused one-to-one classes. Thousands have made this switch.
 
 #### Supercharge Your Current Role
 
@@ -199,11 +199,11 @@ Marketing? Finance? Operations? Python automation and data skills make you 10x m
 
 #### Launch a Freelance Career
 
-Build websites, create automation tools, and offer AI integration services. The freelance tech market is booming globally — join it.
+Build websites, create automation tools, and offer AI integration services. The freelance tech market is booming globally, join it.
 
 #### Global Opportunities
 
-Tech skills are recognised everywhere. Remote jobs, global clients, international companies — your new skills travel with you.
+Tech skills are recognised everywhere. Remote jobs, global clients, international companies. Your new skills travel with you.
 
 Common Questions
 
@@ -217,17 +217,17 @@ Zero experience needed. We start from absolute basics. The curriculum is designe
 
 Absolutely. We schedule evening and weekend batches specifically for working professionals. Sessions are recorded, so you never fall behind. Expect 1–2 hours of practice between sessions.
 
-#### I'm outside India — can I join?
+#### I'm outside India: can I join?
 
 Yes! We have learners from 25+ countries. International participants pay $200 USD. Contact us to find a time-zone-friendly batch. All sessions are 100% online via Zoom.
 
 #### Will 8 classes really be enough to get a job?
 
-These 8 one-to-one classes give you the foundation and portfolio to start applying for junior roles and freelance work. Most career switchers continue learning independently after the camp — but the first job is achievable within 3–6 months of completing this.
+These 8 one-to-one classes give you the foundation and portfolio to start applying for junior roles and freelance work. Most career switchers continue learning independently after the camp, but the first job is achievable within 3–6 months of completing this.
 
 #### What age is too old to learn coding?
 
-There is no age limit. We have successfully taught learners in their 50s and 60s. The key is motivation — and you already have it. Modern tools and AI assistants make coding more accessible than ever before.
+There is no age limit. We have successfully taught learners in their 50s and 60s. The key is motivation. And you already have it. Modern tools and AI assistants make coding more accessible than ever before.
 
 #### What if I miss a class?
 
@@ -245,7 +245,7 @@ Real student projects
 
 Every one is a real, live project shipped by a Modern Age Coders student. Explore more in [Student Labs](/student-labs).
 
-[![Moxo — Company Landing Page](/images/projects/moxo.webp)Web AppMoxo — Company Landing PageA stunning modern landing page with smooth parallax scrolling, advanced GSAP animations and elegant section transitions that bring the brand to life.by IshaOpen the live project ↗](https://moxo.modernagecoders.com)[![Baby — Typing Speed Challenge](/images/projects/baby.webp)GameBaby — Typing Speed ChallengeAn engaging typing speed challenge where users test how fast and accurately they can type, with a live leaderboard connected to a MongoDB backend.by KritikaOpen the live project ↗](https://baby.modernagecoders.com)[![MyDay — Social Productivity Organizer](/images/projects/myday.webp)Web AppMyDay — Social Productivity OrganizerA beautifully designed productivity platform to organise daily tasks, set goals and stay consistent — with a community feed of others' plans for inspiration.by VedantOpen the live project ↗](https://myday.modernagecoders.com)
+[![Moxo, Company Landing Page](/images/projects/moxo.webp)Web AppMoxo, Company Landing PageA stunning modern landing page with smooth parallax scrolling, advanced GSAP animations and elegant section transitions that bring the brand to life.by IshaOpen the live project ↗](https://moxo.modernagecoders.com)[![Baby, Typing Speed Challenge](/images/projects/baby.webp)GameBaby, Typing Speed ChallengeAn engaging typing speed challenge where users test how fast and accurately they can type, with a live leaderboard connected to a MongoDB backend.by KritikaOpen the live project ↗](https://baby.modernagecoders.com)[![MyDay, Social Productivity Organizer](/images/projects/myday.webp)Web AppMyDay, Social Productivity OrganizerA beautifully designed productivity platform to organise daily tasks, set goals and stay consistent, with a community feed of others' plans for inspiration.by VedantOpen the live project ↗](https://myday.modernagecoders.com)
 
 Parent & student voices
 

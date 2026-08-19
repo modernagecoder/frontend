@@ -78,7 +78,7 @@
       },
       {
         "type": "paragraph",
-        "text": "If you want to understand why this is completely changing the tech industry, check out <a href='https://learn.modernagecoders.com/blog/what-is-vibe-coding-future-of-software-development' target='_blank' rel='noopener noreferrer'>what is vibe coding and the future of software development</a>. The bottom line? Your value as a developer in 2026 isn't how fast you type—it's how well you can solve problems and write prompts."
+        "text": "If you want to understand why this is completely changing the tech industry, check out <a href='https://learn.modernagecoders.com/blog/what-is-vibe-coding-future-of-software-development' target='_blank' rel='noopener noreferrer'>what is vibe coding and the future of software development</a>. The bottom line? Your value as a developer in 2026 isn't how fast you type. It's how well you can solve problems and write prompts."
       },
       {
         "type": "heading",
@@ -151,7 +151,7 @@
       },
       {
         "type": "paragraph",
-        "text": "You just type what you want—like \"a dashboard for a finance app showing monthly expenses and a spending chart\"—and v0 generates the React AI generation and Tailwind CSS AI code in seconds."
+        "text": "You just type what you want, like \"a dashboard for a finance app showing monthly expenses and a spending chart\", and v0 generates the React AI generation and Tailwind CSS AI code in seconds."
       },
       {
         "type": "paragraph",
@@ -206,7 +206,7 @@
       },
       {
         "type": "paragraph",
-        "text": "You give Cline a task, and it will navigate your folders, read your existing code, run terminal commands, and create new files to accomplish the goal. Using tools like this is the best way to understand <a href='https://learn.modernagecoders.com/blog/agentic-terminology-in-ai' target='_blank' rel='noopener noreferrer'>agentic terminology in AI</a>—where the AI doesn't just answer questions, but takes independent actions to solve a problem."
+        "text": "You give Cline a task, and it will navigate your folders, read your existing code, run terminal commands, and create new files to accomplish the goal. Using tools like this is the best way to understand <a href='https://learn.modernagecoders.com/blog/agentic-terminology-in-ai' target='_blank' rel='noopener noreferrer'>agentic terminology in AI</a>, where the AI doesn't just answer questions, but takes independent actions to solve a problem."
       },
       {
         "type": "paragraph",
@@ -236,7 +236,7 @@
       },
       {
         "type": "paragraph",
-        "text": "Lovable is exactly what it sounds like—a platform designed to make visual programming enjoyable. It focuses heavily on the \"vision to code\" pipeline. You give it a text prompt, or even a screenshot of an app you like, and it writes the production-ready code to match it."
+        "text": "Lovable is exactly what it sounds like, a platform designed to make visual programming enjoyable. It focuses heavily on the \"vision to code\" pipeline. You give it a text prompt, or even a screenshot of an app you like, and it writes the production-ready code to match it."
       },
       {
         "type": "paragraph",
@@ -274,7 +274,7 @@
       },
       {
         "type": "paragraph",
-        "text": "With the new Copilot Edits feature, you can highlight a messy block of code and simply ask the AI to do an AI code review—cleaning it up, making it run faster, or translating it from JavaScript to Python."
+        "text": "With the new Copilot Edits feature, you can highlight a messy block of code and simply ask the AI to do an AI code review, cleaning it up, making it run faster, or translating it from JavaScript to Python."
       },
       {
         "type": "paragraph",

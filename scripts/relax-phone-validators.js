@@ -13,7 +13,7 @@ const path = require('path');
 const FRONTEND_ROOT = path.resolve(__dirname, '..');
 const SEARCH_DIRS = [path.join(FRONTEND_ROOT, 'src', 'pages')];
 
-// New body (compact form) — keeps semantics identical for India and allows
+// New body (compact form), keeps semantics identical for India and allows
 // 7–15 digits everywhere else. Looks at the most likely tel input on the page
 // based on common ids used in our templates.
 const NEW_BODY = `
@@ -24,7 +24,7 @@ const NEW_BODY = `
             return _re.test(cleaned);
         `;
 
-// Match patterns we use — accept varied whitespace/quoting.
+// Match patterns we use, accept varied whitespace/quoting.
 const VARIANTS = [
   /function\s+validatePhone\s*\(\s*phone\s*\)\s*\{\s*const\s+re\s*=\s*\/\^\[0-9\]\{10\}\$\/\s*;\s*const\s+cleaned\s*=\s*phone\.replace\([^)]+\)\s*;\s*return\s+re\.test\(cleaned\)\s*;\s*\}/,
   /function\s+validatePhone\s*\(\s*phone\s*\)\s*\{\s*return\s*\/\^\[0-9\]\{10\}\$\/\s*\.test\(\s*phone\.replace\([^)]+\)\s*\)\s*;\s*\}/

@@ -1,5 +1,5 @@
 /**
- * Winter Coding Camp — Arctic Aurora Edition
+ * Winter Coding Camp: Arctic Aurora Edition
  * Modern Age Coders · 2026
  * Snowfall · FAQ Accordion · Scroll Reveal · Nav Scroll
  */
@@ -47,7 +47,7 @@ function initSnowfall() {
 }
 
 /* ─────────────────────────────────────────────────────────
-   NAV SCROLL — adds .scrolled class after 50px
+   NAV SCROLL, adds .scrolled class after 50px
 ───────────────────────────────────────────────────────── */
 function initNavScroll() {
     const nav = document.querySelector('.winter-nav');
@@ -59,7 +59,7 @@ function initNavScroll() {
 }
 
 /* ─────────────────────────────────────────────────────────
-   SCROLL REVEAL — IntersectionObserver on .reveal elements
+   SCROLL REVEAL: IntersectionObserver on .reveal elements
 ───────────────────────────────────────────────────────── */
 function initScrollReveal() {
     const elements = document.querySelectorAll('.reveal');
@@ -78,7 +78,7 @@ function initScrollReveal() {
 }
 
 /* ─────────────────────────────────────────────────────────
-   SMOOTH SCROLL — intercept anchor links
+   SMOOTH SCROLL, intercept anchor links
 ───────────────────────────────────────────────────────── */
 function initSmoothScroll() {
     document.querySelectorAll('a[href^="#"]').forEach(link => {
@@ -109,7 +109,7 @@ function initFAQ() {
 }
 
 /* ─────────────────────────────────────────────────────────
-   CARD TILT — subtle 3-D on project/program cards
+   CARD TILT, subtle 3-D on project/program cards
 ───────────────────────────────────────────────────────── */
 function initCardTilt() {
     const cards = document.querySelectorAll('.project-card, .program-card');
@@ -129,7 +129,7 @@ function initCardTilt() {
 }
 
 /* ─────────────────────────────────────────────────────────
-   REDUCED MOTION — honour prefers-reduced-motion
+   REDUCED MOTION, honour prefers-reduced-motion
 ───────────────────────────────────────────────────────── */
 function respectReducedMotion() {
     if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;

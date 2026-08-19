@@ -53,7 +53,7 @@
       },
       {
         "type": "paragraph",
-        "text": "The truth is, you don't need to be a programmer to help your child learn coding. You don't need expensive equipment. You don't need hours of free time. What you need is a little guidance—which is exactly what this guide provides."
+        "text": "The truth is, you don't need to be a programmer to help your child learn coding. You don't need expensive equipment. You don't need hours of free time. What you need is a little guidance, which is exactly what this guide provides."
       },
       {
         "type": "paragraph",
@@ -78,7 +78,7 @@
         "style": "unordered",
         "items": [
           "<strong>Personalized pace:</strong> Your child can move faster or slower than a classroom allows",
-          "<strong>Interest-driven learning:</strong> Focus on what excites them—games, art, robots, whatever",
+          "<strong>Interest-driven learning:</strong> Focus on what excites them, games, art, robots, whatever",
           "<strong>Flexible scheduling:</strong> Learn when it works for your family",
           "<strong>One-on-one attention:</strong> No competing with 30 other students",
           "<strong>Supplemental depth:</strong> Go beyond what school offers"
@@ -86,7 +86,7 @@
       },
       {
         "type": "paragraph",
-        "text": "Home learning doesn't replace school—it enhances it. And with the right approach, it can be enjoyable for both you and your child."
+        "text": "Home learning doesn't replace school. It enhances it. And with the right approach, it can be enjoyable for both you and your child."
       },
       {
         "type": "callout",
@@ -130,7 +130,7 @@
         "type": "list",
         "style": "unordered",
         "items": [
-          "<strong>Ages 4-6:</strong> Pre-coding activities—unplugged games, simple sequencing apps",
+          "<strong>Ages 4-6:</strong> Pre-coding activities, unplugged games, simple sequencing apps",
           "<strong>Ages 6-8:</strong> Visual block-based coding like ScratchJr",
           "<strong>Ages 8-12:</strong> Full Scratch, Code.org, game-based platforms",
           "<strong>Ages 12+:</strong> Text-based languages like Python, JavaScript"
@@ -224,7 +224,7 @@
         "type": "list",
         "style": "unordered",
         "items": [
-          "<strong>Scratch:</strong> The gold standard—free, creative, huge community",
+          "<strong>Scratch:</strong> The gold standard, free, creative, huge community",
           "<strong>Code.org:</strong> Structured courses with familiar characters (Minecraft, Star Wars)",
           "<strong>Tynker:</strong> Game-based with progression system",
           "<strong>Blockly Games:</strong> Google's puzzle-based coding games"
@@ -239,7 +239,7 @@
         "type": "list",
         "style": "unordered",
         "items": [
-          "<strong>Python:</strong> Best first text language—readable, versatile, in-demand",
+          "<strong>Python:</strong> Best first text language, readable, versatile, in-demand",
           "<strong>JavaScript:</strong> Great for web development, immediate visual results",
           "<strong>Lua (Roblox):</strong> Perfect for Roblox-obsessed kids",
           "<strong>Swift Playgrounds:</strong> Apple's app for learning Swift on iPad"
@@ -313,7 +313,7 @@
       },
       {
         "type": "paragraph",
-        "text": "You don't need to teach coding—you need to facilitate learning. Here's what that looks like:"
+        "text": "You don't need to teach coding. You need to facilitate learning. Here's what that looks like:"
       },
       {
         "type": "heading",
@@ -326,7 +326,7 @@
         "items": [
           "<strong>Be present:</strong> Sit nearby, show interest, ask questions about their projects",
           "<strong>Celebrate effort:</strong> Praise persistence and problem-solving, not just results",
-          "<strong>Learn together:</strong> It's okay to say 'I don't know—let's figure it out'",
+          "<strong>Learn together:</strong> It's okay to say 'I don't know, let's figure it out'",
           "<strong>Provide resources:</strong> Help find tutorials, courses, or communities",
           "<strong>Remove obstacles:</strong> Handle technical setup, manage screen time boundaries",
           "<strong>Connect coding to interests:</strong> Love Minecraft? There's coding for that. Love art? Coding can create art."
@@ -341,7 +341,7 @@
         "type": "list",
         "style": "unordered",
         "items": [
-          "<strong>Taking over:</strong> Let them struggle productively—that's where learning happens",
+          "<strong>Taking over:</strong> Let them struggle productively. That's where learning happens",
           "<strong>Comparing:</strong> Every child learns at their own pace",
           "<strong>Pushing too hard:</strong> Forced coding kills interest",
           "<strong>Expecting perfection:</strong> Bugs and mistakes are part of the process",
@@ -432,7 +432,7 @@
       },
       {
         "type": "paragraph",
-        "text": "<strong>Solution:</strong> Reframe bugs as puzzles to solve, not failures. Celebrate when they find and fix bugs—that's real programming! Teach them to take breaks when frustrated and return with fresh eyes."
+        "text": "<strong>Solution:</strong> Reframe bugs as puzzles to solve, not failures. Celebrate when they find and fix bugs. That's real programming! Teach them to take breaks when frustrated and return with fresh eyes."
       },
       {
         "type": "heading",
@@ -441,7 +441,7 @@
       },
       {
         "type": "paragraph",
-        "text": "<strong>Solution:</strong> Try a different platform or project type. Maybe Scratch isn't clicking but Roblox development would. Or take a break and return later—forcing it backfires."
+        "text": "<strong>Solution:</strong> Try a different platform or project type. Maybe Scratch isn't clicking but Roblox development would. Or take a break and return later, forcing it backfires."
       },
       {
         "type": "heading",
@@ -468,7 +468,7 @@
       },
       {
         "type": "paragraph",
-        "text": "<strong>Solution:</strong> Coding is active screen time—creating, not consuming. It's different from passive video watching. That said, balance still matters. Set clear boundaries and include unplugged coding activities."
+        "text": "<strong>Solution:</strong> Coding is active screen time, creating, not consuming. It's different from passive video watching. That said, balance still matters. Set clear boundaries and include unplugged coding activities."
       },
       {
         "type": "heading",
@@ -491,7 +491,7 @@
         "items": [
           "<strong>Robot Turtles:</strong> Board game teaching programming logic",
           "<strong>Human Robot:</strong> One person gives instructions, another follows exactly (reveals the importance of precise instructions)",
-          "<strong>Algorithm recipes:</strong> Write step-by-step instructions for making a sandwich—then follow them literally",
+          "<strong>Algorithm recipes:</strong> Write step-by-step instructions for making a sandwich, then follow them literally",
           "<strong>Debugging stories:</strong> Find the 'bug' in a set of instructions",
           "<strong>Pattern recognition:</strong> Spot patterns in sequences, predict what comes next",
           "<strong>Sorting challenges:</strong> Sort objects by different criteria, discuss efficiency"
@@ -612,7 +612,7 @@
         "items": [
           {
             "title": "What age should my child start coding?",
-            "content": "Most children can start with pre-coding activities around age 4-5, visual coding like ScratchJr at 6-7, full Scratch at 8-10, and text-based coding at 12+. But these are guidelines—follow your child's readiness and interest."
+            "content": "Most children can start with pre-coding activities around age 4-5, visual coding like ScratchJr at 6-7, full Scratch at 8-10, and text-based coding at 12+. But these are guidelines, follow your child's readiness and interest."
           },
           {
             "title": "I don't know anything about coding. Can I still help my child learn?",
@@ -632,7 +632,7 @@
           },
           {
             "title": "How much screen time is too much for coding?",
-            "content": "Coding is active, creative screen time—different from passive consumption. That said, balance matters. Follow age-appropriate guidelines and include unplugged coding activities. Quality matters more than quantity."
+            "content": "Coding is active, creative screen time, different from passive consumption. That said, balance matters. Follow age-appropriate guidelines and include unplugged coding activities. Quality matters more than quantity."
           },
           {
             "title": "Should coding replace other activities?",
@@ -676,7 +676,7 @@
       },
       {
         "type": "paragraph",
-        "text": "The best coding education happens when kids are engaged, supported, and free to explore. Your job isn't to be the expert—it's to create the conditions where learning can happen naturally."
+        "text": "The best coding education happens when kids are engaged, supported, and free to explore. Your job isn't to be the expert. It's to create the conditions where learning can happen naturally."
       },
       {
         "type": "paragraph",
@@ -686,7 +686,7 @@
         "type": "callout",
         "calloutType": "success",
         "title": "You've Got This",
-        "text": "Every expert programmer started exactly where your child is now—curious, uncertain, and ready to learn. With your support, they can discover the joy of creating with code."
+        "text": "Every expert programmer started exactly where your child is now, curious, uncertain, and ready to learn. With your support, they can discover the joy of creating with code."
       },
       {
         "type": "button",

@@ -4,7 +4,7 @@
  */
 
 /* -----------------------------------------------------------------------
- * EnrollmentStatus — see course-payment.js for the canonical copy.
+ * EnrollmentStatus. See course-payment.js for the canonical copy.
  * This file is duplicated (with an idempotent guard) so summer-camp
  * pages, which don't load course-payment.js, still get the "already
  * enrolled" banner and disabled enroll buttons.
@@ -74,7 +74,7 @@
         if (btn.dataset.macEnrolledApplied === 'true') continue;
         btn.dataset.macEnrolledApplied = 'true';
         btn.dataset.macOriginalText = (btn.textContent || '').trim();
-        btn.textContent = '✓ Already Enrolled — View Details';
+        btn.textContent = '✓ Already Enrolled: View Details';
         btn.setAttribute('aria-label', 'You are already enrolled. View enrollment details.');
         btn.style.cursor = 'pointer';
         btn.style.background = 'linear-gradient(135deg, #22c55e, #15803d)';
@@ -153,7 +153,7 @@ const SummerCampEnrollment = {
   // The camp fee comes from pricing/pricing.config.jsonc like every other
   // price. It used to be written here as a literal on both sides of an
   // isIndian() check, which meant this file was a third independent authority
-  // on what a customer pays — the camps read neither of the other two tables.
+  // on what a customer pays, the camps read neither of the other two tables.
   get coursePrice() { return this.getCoursePrice(); },
 
   // International pricing helpers

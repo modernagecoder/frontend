@@ -19,8 +19,8 @@ While transitions animate between two states (default and hover), **CSS animatio
 
 Animations have two parts:
 
-1. **@keyframes** — defines the animation's steps (what happens at 0%, 50%, 100%, etc.)
-2. **animation properties** — applied to an element to actually play the animation
+1. **@keyframes**, defines the animation's steps (what happens at 0%, 50%, 100%, etc.)
+2. **animation properties**, applied to an element to actually play the animation
 
 ```
 @keyframes bounce {
@@ -40,7 +40,7 @@ That is it. The ball now bounces forever, no JavaScript required.
 
 ### 1. Modern Web Is Alive
 
-Loading spinners, animated logos, pulsing buttons, falling snowflakes, marquee tickers, typing text, shimmer effects — every one of these is a CSS animation. If you want to build impressive, modern websites, you need keyframe animations.
+Loading spinners, animated logos, pulsing buttons, falling snowflakes, marquee tickers, typing text, shimmer effects, every one of these is a CSS animation. If you want to build impressive, modern websites, you need keyframe animations.
 
 ### 2. They Run on the GPU
 
@@ -130,14 +130,14 @@ animation-direction: alternate;         /* 0-100, then 100-0, repeat */
 animation-direction: alternate-reverse; /* 100-0, then 0-100, repeat */
 ```
 
-**alternate** is incredibly useful for pulses and back-and-forth motions — you only define half the animation, and alternate plays it forward and backward automatically.
+**alternate** is incredibly useful for pulses and back-and-forth motions. You only define half the animation, and alternate plays it forward and backward automatically.
 
 ### 6. animation-fill-mode (The Confusing One)
 
 Controls what the element looks like BEFORE and AFTER the animation runs:
 
 ```
-animation-fill-mode: none;      /* default — element returns to original styles */
+animation-fill-mode: none;      /* default, element returns to original styles */
 animation-fill-mode: forwards;  /* element keeps the final keyframe's styles */
 animation-fill-mode: backwards; /* element uses the first keyframe's styles during delay */
 animation-fill-mode: both;      /* both forwards and backwards */
@@ -175,8 +175,8 @@ You can apply multiple animations simultaneously by comma-separating them:
 
 ### 9. Performance Tips
 
-- Animate **transform** and **opacity** whenever possible — they are GPU-accelerated
-- Avoid animating width, height, top, left, margin — they trigger layout recalculation
+- Animate **transform** and **opacity** whenever possible, they are GPU-accelerated
+- Avoid animating width, height, top, left, margin, they trigger layout recalculation
 - Use `will-change: transform` for heavy animations to hint the browser
 - Set `@media (prefers-reduced-motion: reduce)` to disable animations for users who get motion sickness
 
@@ -240,12 +240,12 @@ You can apply multiple animations simultaneously by comma-separating them:
 </html>
 ```
 
-Three spinner variations. The first is the classic one-color top-border spinner. The second has three colors on different sides with a more organic cubic-bezier. The third uses two pseudo-elements spinning in opposite directions with different durations — a dual-ring effect. All powered by a single `@keyframes spin` rule.
+Three spinner variations. The first is the classic one-color top-border spinner. The second has three colors on different sides with a more organic cubic-bezier. The third uses two pseudo-elements spinning in opposite directions with different durations, a dual-ring effect. All powered by a single `@keyframes spin` rule.
 
 **Output:**
 
 ```
-Three rotating loading spinners with different styles — classic, tri-color, and dual-ring.
+Three rotating loading spinners with different styles, classic, tri-color, and dual-ring.
 ```
 
 ### Bouncing Ball
@@ -452,7 +452,7 @@ Three boxes. One pulses with an expanding ring, one shakes side to side, and one
 </html>
 ```
 
-The heading has a wide horizontal rainbow gradient clipped to its text using `-webkit-background-clip: text`. The animation slides the background position across, creating a continuous rainbow cycle through the letters. No color properties are animated — only the background position shifts.
+The heading has a wide horizontal rainbow gradient clipped to its text using `-webkit-background-clip: text`. The animation slides the background position across, creating a continuous rainbow cycle through the letters. No color properties are animated, only the background position shifts.
 
 **Output:**
 
@@ -573,7 +573,7 @@ Six gradient cards that slide up into place one after another when the page load
 </html>
 ```
 
-Two loading indicators. The progress bar slides a colored segment from left to right continuously — the 'indeterminate' loading pattern. Below it, three colored dots bounce in sequence using `animation-delay` to create a wave. Both use infinite loops and are pure CSS.
+Two loading indicators. The progress bar slides a colored segment from left to right continuously, the 'indeterminate' loading pattern. Below it, three colored dots bounce in sequence using `animation-delay` to create a wave. Both use infinite loops and are pure CSS.
 
 **Output:**
 
@@ -595,7 +595,7 @@ A loading screen with a horizontal gradient bar sliding across and three bouncin
 .card {
   animation: slideIn 1s;
 }
-/* After animation, card snaps back to its original style — translateX(-100%) if set, or default */
+/* After animation, card snaps back to its original style, translateX(-100%) if set, or default */
 ```
 
 When the animation ends, the element reverts to its default CSS, not the final keyframe. If the default was translateX(-100%), the card disappears again.
@@ -638,7 +638,7 @@ Animating `left` triggers a layout recalculation every frame, which is slow. On 
 }
 ```
 
-Use `transform: translateX()` instead of `left`. Transform runs on the GPU and does not trigger layout or paint work — much smoother.
+Use `transform: translateX()` instead of `left`. Transform runs on the GPU and does not trigger layout or paint work, much smoother.
 
 ### Not Defining the Keyframes Before Using Them
 
@@ -651,7 +651,7 @@ Use `transform: translateX()` instead of `left`. Transform runs on the GPU and d
 /* No @keyframes spin defined anywhere */
 ```
 
-The animation does nothing because the @keyframes rule is missing. The browser will not warn you — it just silently ignores the animation.
+The animation does nothing because the @keyframes rule is missing. The browser will not warn you. It just silently ignores the animation.
 
 **Correct:**
 
@@ -704,7 +704,7 @@ Use `transition` for simple state changes (hover, focus, class toggle) and reser
 - `@keyframes animationName { ... }` defines the animation steps using `from/to` or percentages (0%, 25%, 50%, 100%).
 - Apply an animation to an element with `animation: name duration timing delay iteration-count direction fill-mode;` (shorthand).
 - `animation-iteration-count: infinite` makes the animation loop forever. Useful for spinners, pulses, and ambient effects.
-- `animation-direction: alternate` plays the animation forward, then backward, then forward again — perfect for back-and-forth motions like pulses.
+- `animation-direction: alternate` plays the animation forward, then backward, then forward again, perfect for back-and-forth motions like pulses.
 - `animation-fill-mode: forwards` keeps the element in its final keyframe state after the animation ends. Without it, the element snaps back to its original styles.
 - `animation-delay` lets you stagger multiple elements by applying different delays (often with `:nth-child`) for a wave or cascade effect.
 - You can apply multiple animations to one element by comma-separating them: `animation: fadeIn 1s, bounce 2s infinite 1s;`

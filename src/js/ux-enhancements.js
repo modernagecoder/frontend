@@ -1,12 +1,12 @@
 /**
- * ux-enhancements.js — Phase 4 + 6 UX Flow Improvements
- * Modern Age Coders — universal enhancements for all pages.
+ * ux-enhancements.js, Phase 4 + 6 UX Flow Improvements
+ * Modern Age Coders, universal enhancements for all pages.
  *
  * Adds focused UX wins without touching any existing markup or behavior:
- *   1. Back-to-top button (appears after scrolling past fold) — ALL pages
- *   2. Try-Coding form auto-save (sessionStorage, prevents data loss) — homepage
- *   3. Callback modal focus trapping + Escape to close — ALL pages with the modal
- *   4. Sticky mobile CTA bar (mobile only, "Book Free Demo") — homepage + landing pages
+ *   1. Back-to-top button (appears after scrolling past fold), ALL pages
+ *   2. Try-Coding form auto-save (sessionStorage, prevents data loss), homepage
+ *   3. Callback modal focus trapping + Escape to close, ALL pages with the modal
+ *   4. Sticky mobile CTA bar (mobile only, "Book Free Demo"), homepage + landing pages
  *   5. Active section highlighting in nav (subtle indicator as user scrolls)
  *
  * Loaded with defer so it never blocks rendering. Wrapped in an IIFE to
@@ -16,7 +16,7 @@
 (function () {
     'use strict';
 
-    // Page type detection — used to scope features that should only run on
+    // Page type detection, used to scope features that should only run on
     // certain pages (e.g. sticky mobile CTA on homepage and landing pages).
     var bodyClass = document.body.className || '';
     var isHomepage = /\bindex-page\b/.test(bodyClass);
@@ -69,7 +69,7 @@
     }
 
     // ──────────────────────────────────────────────────────────
-    // 2. FORM AUTO-SAVE — Try Coding form (homepage only)
+    // 2. FORM AUTO-SAVE: Try Coding form (homepage only)
     // ──────────────────────────────────────────────────────────
     function initFormAutoSave() {
         if (!isHomepage) return;
@@ -107,7 +107,7 @@
                 });
                 try {
                     sessionStorage.setItem(STORAGE_KEY, JSON.stringify(data));
-                } catch (e) { /* quota or storage disabled — fail silently */ }
+                } catch (e) { /* quota or storage disabled, fail silently */ }
             }, 300);
         }
         inputs.forEach(function (input) {
@@ -190,7 +190,7 @@
     }
 
     // ──────────────────────────────────────────────────────────
-    // 4. STICKY MOBILE CTA BAR — homepage + landing pages only
+    // 4. STICKY MOBILE CTA BAR, homepage + landing pages only
     // ──────────────────────────────────────────────────────────
     function initStickyMobileCTA() {
         if (!showStickyCTA) return;
@@ -274,7 +274,7 @@
     }
 
     // ──────────────────────────────────────────────────────────
-    // 6b. SECTION REVEAL — global IntersectionObserver for
+    // 6b. SECTION REVEAL, global IntersectionObserver for
     // .section elements that start at opacity:0 and need
     // .animate-in to become visible.
     // ──────────────────────────────────────────────────────────
@@ -313,7 +313,7 @@
     }
 
     // ──────────────────────────────────────────────────────────
-    // INIT — kick everything off when DOM is ready
+    // INIT, kick everything off when DOM is ready
     // ──────────────────────────────────────────────────────────
     ready(function () {
         try { initBackToTop(); } catch (e) { }
@@ -321,18 +321,18 @@
         try { initModalFocusTrap(); } catch (e) { }
         try { initStickyMobileCTA(); } catch (e) { }
         try { initActiveSectionNav(); } catch (e) { }
-        // Dev branch badge retired — the Phase 1-6 overhaul shipped. (kept fn below, no longer invoked)
+        // Dev branch badge retired, the Phase 1-6 overhaul shipped. (kept fn below, no longer invoked)
         try { initSectionReveal(); } catch (e) { }
     });
 
     // ──────────────────────────────────────────────────────────
-    // 6. DEV BRANCH BADGE — only on localhost
+    // 6. DEV BRANCH BADGE, only on localhost
     // Tiny pill in the bottom-left corner so you can instantly
     // tell which branch (and which Phase set) you're viewing.
     // Click to dismiss for the rest of the session.
     // ──────────────────────────────────────────────────────────
     function initDevBranchBadge() {
-        // Only show on local dev — never production
+        // Only show on local dev, never production
         var host = location.hostname;
         var isLocal = host === 'localhost' ||
             host === '127.0.0.1' ||

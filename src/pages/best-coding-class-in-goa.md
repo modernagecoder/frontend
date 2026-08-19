@@ -10,7 +10,7 @@ Live online · serving Goa
 
 # Coding classes in Goa, built to actually stick.
 
-Real programming for kids, teens and college students in Goa — from **Panaji to Margao, Vasco to Mapusa**. Small live batches, a mentor who knows your child's name, and projects they can open and show you.
+Real programming for kids, teens and college students in Goa, from **Panaji to Margao, Vasco to Mapusa**. Small live batches, a mentor who knows your child's name, and projects they can open and show you.
 
 Book a free demo class[Ask on WhatsApp](https://wa.me/919123366161?text=Hi,%20I'm%20interested%20in%20coding%20classes%20in%20Goa)★★★★★ **4.9/5****10,000+** students across India**5–8** students per batchFirst class is **free**GoaEnrollingAreasPanaji, Margao, Vasco, Mapusa, Ponda & all of GoaBoardsCBSE · ICSE · IGCSEAges**6–12** kids · **13–18** teens · college & adultsFormatLive online · 1-hour classes · 5–8 per batchTimingAfter-school & weekend slots · ISTProofRecorded sessions · completion certificate · real projectslive online across GoaFREE DEMO OPEN
 
@@ -20,13 +20,13 @@ Book a free demo class[Ask on WhatsApp](https://wa.me/919123366161?text=Hi,%20I'
 
 ## Where in Goa we teach
 
-Every class is live online, so your child learns from home — no travel across the city, same small batch either way.
+Every class is live online, so your child learns from home, no travel across the city, same small batch either way.
 
 PanajiMargaoVascoMapusaPondaDona PaulaPorvorimBambolimPattoOld Goa
 
 ## Why Goa families start here
 
-From Panaji and Margao to Vasco and Mapusa, families across Goa are choosing live online coding classes that go beyond a certificate. We build for real skills — the kind that hold up in an interview or a first internship.
+From Panaji and Margao to Vasco and Mapusa, families across Goa are choosing live online coding classes that go beyond a certificate. We build for real skills, the kind that hold up in an interview or a first internship.
 
 Goa packs a lot of higher education into a small state. Goa University, set up under a 1984 Act and running from 1985, sits on the Taleigao plateau just outside Panaji and affiliates most of the state's colleges. The Goa College of Engineering, founded in 1967, is the oldest public engineering college in Goa, and the state also holds the BITS Pilani K.K. Birla Goa Campus, opened in 2004. Schools follow the Goa board, GBSHSE, and engineering admission runs through the Goa Common Entrance Test, GCET, with JEE Main also accepted.
 
@@ -52,7 +52,7 @@ Create colorful websites with HTML and CSS. Goa kids learn to build their own we
 
 ### Python for Young Coders
 
-Start text-based coding with Python — the world's most popular programming language. Create games, solve puzzles, and bring ideas to life with real programming skills.
+Start text-based coding with Python, the world's most popular programming language. Create games, solve puzzles, and bring ideas to life with real programming skills.
 
 [View course](/courses/python-ai-kids-masterclass)Ages 13–18
 
@@ -62,25 +62,25 @@ In demand![Python Programming for Teens in Goa](/images/python-teens.webp)
 
 ### Python Programming
 
-Master Python — the language behind L&T's automation systems and GSFC's data analytics in Goa's industrial corridor.
+Master Python, the language behind L&T's automation systems and GSFC's data analytics in Goa's industrial corridor.
 
 [View course](/courses/python-complete-masterclass-teens)Career![Java Programming for Teens in Goa](/images/java-teens.webp)
 
 ### Java Programming
 
-Master Java — used by TCS, Infosys, and Goa's growing tech sector. Build Android apps and enterprise software.
+Master Java, used by TCS, Infosys, and Goa's growing tech sector. Build Android apps and enterprise software.
 
 [View course](/courses/java-programming-masterclass-for-teens)Build![Web Development for Teens in Goa](/images/web-dev-teens.webp)
 
 ### Full Stack Web Development
 
-Build complete websites and web apps — skills that Goa's growing startup ecosystem actively demands.
+Build complete websites and web apps, skills that Goa's growing startup ecosystem actively demands.
 
 [View course](/courses/web-development-masterclass-teens)Future![AI Machine Learning for Teens in Goa](/images/ai-ml-teens.webp)
 
 ### AI & Machine Learning
 
-Explore artificial intelligence and machine learning — the technology reshaping Goa's growing and pharmaceutical sectors.
+Explore artificial intelligence and machine learning, the technology reshaping Goa's growing and pharmaceutical sectors.
 
 [View course](/courses/ai-ml-masterclass-teens)College & 18+
 
@@ -136,7 +136,7 @@ Live
 
 ### A real mentor, live
 
-Every class is taught live by an instructor with industry experience — questions get answered the moment they come up.
+Every class is taught live by an instructor with industry experience, questions get answered the moment they come up.
 
 Small
 
@@ -148,7 +148,7 @@ Build
 
 ### Project every module
 
-Kids don't just watch — they build games, websites and apps they can open, use and show you.
+Kids don't just watch. They build games, websites and apps they can open, use and show you.
 
 Track
 
@@ -158,7 +158,7 @@ Missed a class? Watch the recording. Every learner earns a completion certificat
 
 ## Simple, honest pricing
 
-1-hour live classes: 2 a week in Group and Mini Batch, 1 a week in 1-on-1. Start with a free demo — pay only when you're sure it's right for your child.
+1-hour live classes: 2 a week in Group and Mini Batch, 1 a week in 1-on-1. Start with a free demo, pay only when you're sure it's right for your child.
 
 Group₹1,499/month
 
@@ -189,17 +189,17 @@ Book a free demoPersonal 1-on-1₹4,999/month
 
 Start free
 
-International families pay flat USD rates — the prices above update automatically. Ask us anything on your free demo.
+International families pay flat USD rates, the prices above update automatically. Ask us anything on your free demo.
 
 ## What students actually build
 
-Not screenshots of a syllabus — real, live projects from Modern Age Coders learners and labs. Click through and use them.
+Not screenshots of a syllabus, real, live projects from Modern Age Coders learners and labs. Click through and use them.
 
-[![Babu — 90 Second Maths Challenge](/images/projects/babu.webp) GameBabu — 90 Second Maths ChallengeAn exciting 90-second maths challenge with random problems under time pressure, and a dynamic leaderboard powered by Firebase/MongoDB with real-time score updates. Built by Modern Age Coders · JavaScript, FirebaseOpen the live project ↗](https://babu.modernagecoders.com)[![FreshTrack — Food Expiry Tracker](/images/projects/fresh.webp) Web AppFreshTrack — Food Expiry TrackerA smart food-management system to track expiry dates — add, update and delete items while the app checks expiry automatically, online and offline. Built by Tanish · JavaScript, MongoDBOpen the live project ↗](https://freshtrackpro.netlify.app/)[![Simon Game](/images/projects/simongame.webp) GameSimon GameA fun memory-based game where players repeat colour and sound sequences. Each level adds a new challenge — brain-boosting for kids learning logic and focus. Built by Yashaswi · HTML, CSSOpen the live project ↗](http://yashaswi-2017.my.canva.site)[See more student projects →](/student-labs)
+[![Babu, 90 Second Maths Challenge](/images/projects/babu.webp) GameBabu, 90 Second Maths ChallengeAn exciting 90-second maths challenge with random problems under time pressure, and a dynamic leaderboard powered by Firebase/MongoDB with real-time score updates. Built by Modern Age Coders · JavaScript, FirebaseOpen the live project ↗](https://babu.modernagecoders.com)[![FreshTrack, Food Expiry Tracker](/images/projects/fresh.webp) Web AppFreshTrack, Food Expiry TrackerA smart food-management system to track expiry dates, add, update and delete items while the app checks expiry automatically, online and offline. Built by Tanish · JavaScript, MongoDBOpen the live project ↗](https://freshtrackpro.netlify.app/)[![Simon Game](/images/projects/simongame.webp) GameSimon GameA fun memory-based game where players repeat colour and sound sequences. Each level adds a new challenge, brain-boosting for kids learning logic and focus. Built by Yashaswi · HTML, CSSOpen the live project ↗](http://yashaswi-2017.my.canva.site)[See more student projects →](/student-labs)
 
 ## What families say
 
-Verified Google reviews from Modern Age Coders families across India. We don't invent testimonials — these are real people, real words.
+Verified Google reviews from Modern Age Coders families across India. We don't invent testimonials, these are real people, real words.
 
 ★★★★★
 
@@ -211,7 +211,7 @@ YRYug RathoreStudent★★★★★
 
 "I'm truly grateful for my experience at Modern Age Coders!"
 
-The teaching approach of my legendary teachers—Shivam Sir, Mihir Sir and Sonu Sir—is extraordinary. They were not only my teachers but also mentors and friendly figures. The fee is remarkably reasonable and the perks are mind-blowing—one-on-one doubt solving, mentoring, and regular tests. The most impressive part was working on real-world projects.
+The teaching approach of my legendary teachers, Shivam Sir, Mihir Sir and Sonu Sir, is extraordinary. They were not only my teachers but also mentors and friendly figures. The fee is remarkably reasonable and the perks are mind-blowing, one-on-one doubt solving, mentoring, and regular tests. The most impressive part was working on real-world projects.
 
 KBKrishnam BhatterFormer Student★★★★★
 
@@ -243,7 +243,7 @@ VSVineeta ShyamsukhaParent
 
 Tell us a little about your child and what they'd like to learn. We'll set up a free, no-pressure demo and help you pick the right starting point.
 
-- A real live class — not a sales call
+- A real live class, not a sales call
 - Meet the mentor before you decide
 - We reply within 48 hours (IST)
 
@@ -253,7 +253,7 @@ Prefer to talk now? Call [9123366161](tel:+919123366161) or [WhatsApp us](https:
 
 Takes under a minute.
 
-## Coding classes in Goa — FAQs
+## Coding classes in Goa: FAQs
 
 What is the best coding class in Goa for kids?Modern Age Coders offers the best coding classes in Goa for kids aged 6-12. Our courses include Scratch programming, game development, and creative coding with expert instructors. We serve all Goa areas including Panaji, Margao, Vasco, and Dona Paula, and Manjalpur.Do you offer online coding classes in Goa?Yes, we offer live online coding classes for students across Goa including Panaji, Margao, Vasco, and Dona Paula, Dona Paula, Porvorim, and all other areas. Our online classes are interactive with small batch sizes of 5-8 students.Do you offer coding classes for Goa Board (GBSHSE) students in Goa?Yes, our curriculum supports both Goa Board (Goa Board) and CBSE students in Goa. We align our coding and maths courses with Goa Board requirements to complement school education.How much do coding classes cost in Goa?Our group coding classes start at Rs.1499/month with 2 classes per week. Mini Batch (3-4 students) is Rs.2,999/month. Personalized 1-on-1 classes are Rs.4,999/month. We offer a free demo class before enrollment.Can NIT Goa students join your programming courses?Absolutely! We offer college-level courses in Data Structures & Algorithms, Full Stack Web Development, and AI/Data Science perfect for NIT Goa and Goa University students preparing for placements.Is the medium of instruction English for Goa students?Our instructors are comfortable teaching in Hindi and English. Yes! All classes are in English with Hindi support. Goa students feel comfortable in our friendly, bilingual learning environment.What areas in Goa do you serve?We serve all areas of Goa through our online classes including Panaji, Margao, Vasco, and Dona Paula, Ponda, Dona Paula, Porvorim, Bambolim, Taleigao, Calangute, Candolim, Miramar, and more.How are your coding classes different from other institutes in Goa?We focus on project-based learning where students build real games, websites, and apps. Our small batch sizes (5-8 students), recorded sessions, expert instructors, and affordable pricing set us apart. We also support Goa Board, CBSE, and GCET preparation.Do you teach coding to Goa board students in Goa?Yes. Goa schools run the GBSHSE state board, along with CBSE and ICSE, and our classes fit around any of them. We teach the programming itself, Python or Java, so the school computer paper stops being a memory test.Can Goa College of Engineering or BITS Goa students join your programming courses?Yes. The Goa College of Engineering has taught since 1967 and BITS Pilani runs a full campus here, so the theory is in good hands. The college track adds built work: real Python, Java, full-stack or AI/ML projects, carried to something that runs and can be opened in an interview.
 

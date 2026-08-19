@@ -17,7 +17,7 @@ keywords: ["sql subquery", "mysql subquery", "correlated subquery", "sql exists"
 
 A **subquery** is a query inside another query. Wherever SQL expects a value (or a list, or a table), you can often put a SELECT statement in parentheses. The subquery runs first (conceptually), its result is plugged in, and then the outer query runs.
 
-Subqueries let you answer two-step questions in a single SQL statement. 'Find employees earning more than the average' is two steps — compute the average, then compare — but one SELECT with a subquery expresses it elegantly.
+Subqueries let you answer two-step questions in a single SQL statement. 'Find employees earning more than the average' is two steps, compute the average, then compare, but one SELECT with a subquery expresses it elegantly.
 
 ### Sample Tables Used in This Chapter
 
@@ -64,7 +64,7 @@ Every analytical question has the shape 'compute X, then use X to find Y.' Subqu
 
 ### 2. Subquery Patterns Are Interview Staples
 
-'Nth highest salary,' 'employees earning more than department average,' 'customers with no orders,' 'find duplicate rows' — every one of these has a canonical subquery solution. Expect multiple subquery problems in any data interview.
+'Nth highest salary,' 'employees earning more than department average,' 'customers with no orders,' 'find duplicate rows', every one of these has a canonical subquery solution. Expect multiple subquery problems in any data interview.
 
 ### 3. Correlated Subqueries Enable Per-Row Logic
 
@@ -163,7 +163,7 @@ Output:
 -- Only Engineering qualifies (> 150k)
 ```
 
-Wait — that output is wrong. Let me recompute. Engineering avg = (250000+180000+190000+120000)/4 = 185000. Marketing = (170000+110000+95000)/3 = 125000. Sales = 130000. Only Engineering is > 150000.
+Wait. That output is wrong. Let me recompute. Engineering avg = (250000+180000+190000+120000)/4 = 185000. Marketing = (170000+110000+95000)/3 = 125000. Sales = 130000. Only Engineering is > 150000.
 
 ```
 +-------------+----------+
@@ -199,7 +199,7 @@ WHERE id IN (SELECT customer_id FROM orders)
 
 **ALL**: must satisfy relative to every value. `salary > ALL (SELECT salary FROM marketing_team)` means greater than every marketing salary.
 
-**EXISTS**: returns true if the subquery returns at least one row. The subquery result content does not matter — only whether rows exist. Often used with a correlated subquery.
+**EXISTS**: returns true if the subquery returns at least one row. The subquery result content does not matter, only whether rows exist. Often used with a correlated subquery.
 
 ```
 -- Customers who have at least one order
@@ -209,7 +209,7 @@ WHERE EXISTS (SELECT 1 FROM orders o WHERE o.customer_id = c.id);
 
 ### 7. Correlated Subqueries
 
-A correlated subquery references columns from the outer query. It cannot be evaluated once — it runs (logically) for each outer row.
+A correlated subquery references columns from the outer query. It cannot be evaluated once. It runs (logically) for each outer row.
 
 ```
 -- Employees earning more than their department average
@@ -226,13 +226,13 @@ For each employee (outer), the subquery computes their own department's average.
 
 Output for sample data: Ananya (250k vs Eng avg 185k), Divya (190k vs 185k), Sneha (170k vs Mkt avg 125k), Rahul would be 180 < 185, does not qualify.
 
-Wait: Rahul 180k vs Eng avg 185k — 180 < 185, Rahul drops. Correct list: Ananya, Divya, Sneha.
+Wait: Rahul 180k vs Eng avg 185k: 180 < 185, Rahul drops. Correct list: Ananya, Divya, Sneha.
 
 ### 8. EXISTS vs IN Performance
 
 Old wisdom: EXISTS is often faster on large tables because it can short-circuit (stops at the first matching row). IN may materialize the entire list. Modern optimizers are smart; on small sets they are equivalent. But EXISTS has a semantic advantage: it handles NULLs correctly, which is a bigger deal than raw speed.
 
-### 9. NOT EXISTS vs NOT IN — The NULL Trap
+### 9. NOT EXISTS vs NOT IN: The NULL Trap
 
 This is one of the most dangerous interview gotchas in SQL.
 
@@ -246,7 +246,7 @@ SELECT name FROM customers
 WHERE id NOT IN (SELECT customer_id FROM orders);
 ```
 
-If any order has `customer_id IS NULL`, the NOT IN query returns NO rows — even correctly unmatched customers are dropped. Why? Because `x NOT IN (a, b, NULL)` is never TRUE. It is `x != a AND x != b AND x != NULL`, and `x != NULL` is UNKNOWN, which combined with AND is UNKNOWN, treated as FALSE.
+If any order has `customer_id IS NULL`, the NOT IN query returns NO rows, even correctly unmatched customers are dropped. Why? Because `x NOT IN (a, b, NULL)` is never TRUE. It is `x != a AND x != b AND x != NULL`, and `x != NULL` is UNKNOWN, which combined with AND is UNKNOWN, treated as FALSE.
 
 **Rule: always prefer NOT EXISTS over NOT IN when the subquery might return NULL.**
 
@@ -275,7 +275,7 @@ WHERE o.id IS NULL;
 
 Choose whichever reads best for your use case. JOINs can be slightly faster due to set-based optimization; correlated subqueries may be more intuitive to write.
 
-### 11. Finding Nth Highest Salary — Classic Interview
+### 11. Finding Nth Highest Salary: Classic Interview
 
 Method 1: DISTINCT + ORDER BY + LIMIT (MySQL-specific).
 
@@ -393,7 +393,7 @@ WHERE EXISTS (
 );
 ```
 
-EXISTS returns TRUE if the subquery has at least one row. We use `SELECT 1` as a placeholder — the actual values do not matter. This is a correlated subquery because of `o.customer_id = c.id`.
+EXISTS returns TRUE if the subquery has at least one row. We use `SELECT 1` as a placeholder, the actual values do not matter. This is a correlated subquery because of `o.customer_id = c.id`.
 
 **Output:**
 
@@ -459,7 +459,7 @@ WHERE NOT EXISTS (
 );
 ```
 
-NOT IN becomes unreliable when the subquery contains NULL. Any comparison `x != NULL` is UNKNOWN, so the entire NOT IN evaluates to UNKNOWN (falsey) for every row. Either filter NULLs out in the subquery or use NOT EXISTS. Memorize this — it is a classic interview trick.
+NOT IN becomes unreliable when the subquery contains NULL. Any comparison `x != NULL` is UNKNOWN, so the entire NOT IN evaluates to UNKNOWN (falsey) for every row. Either filter NULLs out in the subquery or use NOT EXISTS. Memorize this. It is a classic interview trick.
 
 **Output:**
 
@@ -493,7 +493,7 @@ SELECT DISTINCT salary FROM (
 ) t WHERE rnk = 3;
 ```
 
-Nth highest salary is the single most-asked SQL interview question. Method 1 is simplest but MySQL-specific. Method 2 is portable and uses a correlated subquery — good to know for interviews. Method 3 uses window functions (covered in Chapter 18), the cleanest modern approach.
+Nth highest salary is the single most-asked SQL interview question. Method 1 is simplest but MySQL-specific. Method 2 is portable and uses a correlated subquery, good to know for interviews. Method 3 uses window functions (covered in Chapter 18), the cleanest modern approach.
 
 **Output:**
 

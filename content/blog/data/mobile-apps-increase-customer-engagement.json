@@ -46,7 +46,7 @@
       },
       {
         "type": "paragraph",
-        "text": "Think about your own phone. How many times do you check it daily? Research says the average person checks their phone 96 times a day—that's once every 10 minutes during waking hours."
+        "text": "Think about your own phone. How many times do you check it daily? Research says the average person checks their phone 96 times a day. That's once every 10 minutes during waking hours."
       },
       {
         "type": "paragraph",
@@ -54,7 +54,7 @@
       },
       {
         "type": "paragraph",
-        "text": "This isn't about following trends or looking modern. It's about meeting customers where they already are—on their phones—and building relationships that drive real business results."
+        "text": "This isn't about following trends or looking modern. It's about meeting customers where they already are, on their phones, and building relationships that drive real business results."
       },
       {
         "type": "heading",
@@ -82,7 +82,7 @@
       },
       {
         "type": "paragraph",
-        "text": "Push notifications reach customers instantly—no spam filters, no algorithm deciding who sees your message. When used thoughtfully, they're the most direct line to your customers."
+        "text": "Push notifications reach customers instantly, no spam filters, no algorithm deciding who sees your message. When used thoughtfully, they're the most direct line to your customers."
       },
       {
         "type": "heading",
@@ -109,7 +109,7 @@
       },
       {
         "type": "paragraph",
-        "text": "Apps can use phone features—camera, GPS, contacts, calendar—to create experiences websites can't. Scan a barcode, find nearby stores, add events to calendar, all seamlessly."
+        "text": "Apps can use phone features, camera, GPS, contacts, calendar, to create experiences websites can't. Scan a barcode, find nearby stores, add events to calendar, all seamlessly."
       },
       {
         "type": "callout",
@@ -134,7 +134,7 @@
       },
       {
         "type": "paragraph",
-        "text": "Push notifications are powerful—but easily abused. Done right, they're valuable. Done wrong, they get your app deleted."
+        "text": "Push notifications are powerful, but easily abused. Done right, they're valuable. Done wrong, they get your app deleted."
       },
       {
         "type": "paragraph",
@@ -146,9 +146,9 @@
         "items": [
           "Personalized based on user behavior and preferences",
           "Timely and relevant (not random promotional blasts)",
-          "Actionable—give users a reason to open",
+          "Actionable, give users a reason to open",
           "Respectful of frequency (don't overwhelm)",
-          "Valuable—offer something users actually want"
+          "Valuable, offer something users actually want"
         ]
       },
       {
@@ -192,7 +192,7 @@
       },
       {
         "type": "paragraph",
-        "text": "Apps collect data about user behavior—what they browse, what they buy, when they're active. This enables personalization that feels helpful, not creepy:"
+        "text": "Apps collect data about user behavior, what they browse, what they buy, when they're active. This enables personalization that feels helpful, not creepy:"
       },
       {
         "type": "list",
@@ -218,7 +218,7 @@
         "type": "list",
         "style": "unordered",
         "items": [
-          "Saved payment methods—one-tap purchasing",
+          "Saved payment methods, one-tap purchasing",
           "Stored addresses and preferences",
           "Quick reorder of previous purchases",
           "Easy appointment booking and management",
@@ -295,7 +295,7 @@
       },
       {
         "type": "paragraph",
-        "text": "The app bridges online and offline experiences—users can scan products in-store to read reviews, check inventory at nearby locations, and book beauty services. It's not just a shopping app; it's a beauty companion."
+        "text": "The app bridges online and offline experiences, users can scan products in-store to read reviews, check inventory at nearby locations, and book beauty services. It's not just a shopping app; it's a beauty companion."
       },
       {
         "type": "heading",
@@ -428,7 +428,7 @@
       },
       {
         "type": "paragraph",
-        "text": "These features are table stakes—without them, your app will struggle to retain users:"
+        "text": "These features are table stakes, without them, your app will struggle to retain users:"
       },
       {
         "type": "list",
@@ -558,7 +558,7 @@
       },
       {
         "type": "paragraph",
-        "text": "Nothing gets an app deleted faster than excessive notifications. Users will disable notifications or uninstall entirely. Quality over quantity—every notification should provide value."
+        "text": "Nothing gets an app deleted faster than excessive notifications. Users will disable notifications or uninstall entirely. Quality over quantity, every notification should provide value."
       },
       {
         "type": "heading",
@@ -585,7 +585,7 @@
       },
       {
         "type": "paragraph",
-        "text": "If your app is just your website in app form, why would anyone download it? Apps need to offer something extra—convenience, exclusive content, better experience, rewards."
+        "text": "If your app is just your website in app form, why would anyone download it? Apps need to offer something extra, convenience, exclusive content, better experience, rewards."
       },
       {
         "type": "heading",
@@ -594,13 +594,13 @@
       },
       {
         "type": "paragraph",
-        "text": "App store reviews and user feedback are gold. Ignoring them—or worse, responding defensively—damages your reputation and misses improvement opportunities."
+        "text": "App store reviews and user feedback are gold. Ignoring them, or worse, responding defensively, damages your reputation and misses improvement opportunities."
       },
       {
         "type": "callout",
         "calloutType": "warning",
         "title": "The Uninstall Trigger",
-        "text": "71% of app uninstalls happen within 90 days. The first impression matters enormously. If users don't find value quickly, they're gone—and unlikely to return."
+        "text": "71% of app uninstalls happen within 90 days. The first impression matters enormously. If users don't find value quickly, they're gone, and unlikely to return."
       },
       {
         "type": "callout",
@@ -681,7 +681,7 @@
         "type": "callout",
         "calloutType": "info",
         "title": "Benchmark Statistics",
-        "text": "Industry benchmarks: Good Day 1 retention is 25%, Day 7 is 15%, Day 30 is 8%. Average session length is 4-5 minutes. DAU/MAU ratio (stickiness) above 20% is excellent. Push notification opt-in rates average 43% on iOS, 81% on Android. These vary by industry—compare yourself to similar apps."
+        "text": "Industry benchmarks: Good Day 1 retention is 25%, Day 7 is 15%, Day 30 is 8%. Average session length is 4-5 minutes. DAU/MAU ratio (stickiness) above 20% is excellent. Push notification opt-in rates average 43% on iOS, 81% on Android. These vary by industry. Compare yourself to similar apps."
       },
       {
         "type": "heading",
@@ -718,7 +718,7 @@
       },
       {
         "type": "paragraph",
-        "text": "Many industries have specialized app platforms—restaurant ordering, salon booking, fitness management. These offer proven features at reasonable cost."
+        "text": "Many industries have specialized app platforms, restaurant ordering, salon booking, fitness management. These offer proven features at reasonable cost."
       },
       {
         "type": "heading",
@@ -748,7 +748,7 @@
           },
           {
             "title": "How do I get customers to download my app?",
-            "content": "Offer clear value—exclusive discounts, loyalty rewards, convenience features. Promote in-store with signage and staff mentions, on your website with prominent calls-to-action, in emails with download incentives, and on social media with demo videos. Offer a signup bonus (10-20% discount or bonus points). Make the first experience great so users keep it installed. Track your download sources to see what's working. Average conversion from awareness to download is 2-5%, so you need significant promotion."
+            "content": "Offer clear value, exclusive discounts, loyalty rewards, convenience features. Promote in-store with signage and staff mentions, on your website with prominent calls-to-action, in emails with download incentives, and on social media with demo videos. Offer a signup bonus (10-20% discount or bonus points). Make the first experience great so users keep it installed. Track your download sources to see what's working. Average conversion from awareness to download is 2-5%, so you need significant promotion."
           },
           {
             "title": "Should I build for iOS, Android, or both?",
@@ -756,19 +756,19 @@
           },
           {
             "title": "How often should I send push notifications?",
-            "content": "There's no universal answer—it depends on your business and what users expect. Start conservatively (1-2 per week), measure engagement and unsubscribes, and adjust. Quality and relevance matter more than frequency. Transactional notifications (order updates, appointment reminders) can be frequent. Promotional notifications should be limited. Segment your audience—power users can handle more notifications than casual users. Apps that send more than 5 promotional notifications per week see 20% higher uninstall rates."
+            "content": "There's no universal answer. It depends on your business and what users expect. Start conservatively (1-2 per week), measure engagement and unsubscribes, and adjust. Quality and relevance matter more than frequency. Transactional notifications (order updates, appointment reminders) can be frequent. Promotional notifications should be limited. Segment your audience, power users can handle more notifications than casual users. Apps that send more than 5 promotional notifications per week see 20% higher uninstall rates."
           },
           {
             "title": "What's the difference between a mobile app and a mobile website?",
-            "content": "Mobile websites work in browsers and don't require installation. Apps are downloaded from app stores and installed on devices. Apps offer: offline functionality, push notifications, device feature access (camera, GPS), faster performance, home screen presence, and better user experience. Websites offer: no download required, easier updates, lower development cost, and work across all devices. For most businesses, you need both—a mobile-optimized website for discovery and an app for engaged customers."
+            "content": "Mobile websites work in browsers and don't require installation. Apps are downloaded from app stores and installed on devices. Apps offer: offline functionality, push notifications, device feature access (camera, GPS), faster performance, home screen presence, and better user experience. Websites offer: no download required, easier updates, lower development cost, and work across all devices. For most businesses, you need both, a mobile-optimized website for discovery and an app for engaged customers."
           },
           {
             "title": "How long does it take to build a mobile app?",
-            "content": "Simple apps with basic features: 2-3 months. Medium complexity apps with custom features: 4-6 months. Complex apps with advanced features: 6-12+ months. This includes planning, design, development, testing, and launch. Using app builders or templates can reduce this to weeks. Factor in additional time for app store approval (1-2 weeks for iOS, 1-3 days for Android) and initial bug fixes post-launch. Plan for ongoing updates and improvements—successful apps are never 'finished.'"
+            "content": "Simple apps with basic features: 2-3 months. Medium complexity apps with custom features: 4-6 months. Complex apps with advanced features: 6-12+ months. This includes planning, design, development, testing, and launch. Using app builders or templates can reduce this to weeks. Factor in additional time for app store approval (1-2 weeks for iOS, 1-3 days for Android) and initial bug fixes post-launch. Plan for ongoing updates and improvements, successful apps are never 'finished.'"
           },
           {
             "title": "What makes users delete apps?",
-            "content": "Top reasons for app deletion: Too many notifications (71%), takes up too much space (58%), too many ads (54%), poor performance/crashes (48%), difficult to navigate (37%), privacy concerns (36%), and no longer useful (32%). The first 90 days are critical—71% of uninstalls happen in this period. Focus on providing immediate value, respecting user attention, maintaining good performance, and continuously improving based on feedback."
+            "content": "Top reasons for app deletion: Too many notifications (71%), takes up too much space (58%), too many ads (54%), poor performance/crashes (48%), difficult to navigate (37%), privacy concerns (36%), and no longer useful (32%). The first 90 days are critical: 71% of uninstalls happen in this period. Focus on providing immediate value, respecting user attention, maintaining good performance, and continuously improving based on feedback."
           }
         ]
       },
@@ -853,11 +853,11 @@
       },
       {
         "type": "paragraph",
-        "text": "Mobile apps aren't just another marketing channel—they're a direct relationship with your customers. When done right, they increase engagement, drive loyalty, and boost revenue in ways other channels can't match."
+        "text": "Mobile apps aren't just another marketing channel. They're a direct relationship with your customers. When done right, they increase engagement, drive loyalty, and boost revenue in ways other channels can't match."
       },
       {
         "type": "paragraph",
-        "text": "The success stories from Domino's, Starbucks, Sephora, and Dunkin' Donuts aren't outliers—they're proof of what's possible when you prioritize customer experience and genuine value. These companies saw 2-3x increases in customer spending, dramatic improvements in retention, and transformed occasional customers into loyal advocates."
+        "text": "The success stories from Domino's, Starbucks, Sephora, and Dunkin' Donuts aren't outliers. They're proof of what's possible when you prioritize customer experience and genuine value. These companies saw 2-3x increases in customer spending, dramatic improvements in retention, and transformed occasional customers into loyal advocates."
       },
       {
         "type": "paragraph",
@@ -865,15 +865,15 @@
       },
       {
         "type": "paragraph",
-        "text": "Start with the features that matter most to your customers. Focus on solving real problems—whether that's making ordering easier, providing better service, or rewarding loyalty. Measure what matters, iterate based on data, and continuously improve."
+        "text": "Start with the features that matter most to your customers. Focus on solving real problems, whether that's making ordering easier, providing better service, or rewarding loyalty. Measure what matters, iterate based on data, and continuously improve."
       },
       {
         "type": "paragraph",
-        "text": "Your customers are already on their phones. The question is whether your business will be there with them—providing value, building relationships, and earning their loyalty one interaction at a time."
+        "text": "Your customers are already on their phones. The question is whether your business will be there with them, providing value, building relationships, and earning their loyalty one interaction at a time."
       },
       {
         "type": "paragraph",
-        "text": "Mobile apps aren't just another marketing channel—they're a direct relationship with your customers. When done right, they increase engagement, drive loyalty, and boost revenue in ways other channels can't match."
+        "text": "Mobile apps aren't just another marketing channel. They're a direct relationship with your customers. When done right, they increase engagement, drive loyalty, and boost revenue in ways other channels can't match."
       },
       {
         "type": "paragraph",
@@ -887,7 +887,7 @@
         "type": "callout",
         "calloutType": "success",
         "title": "Ready to Build?",
-        "text": "Understanding mobile development helps you make better decisions—whether you're building yourself, hiring developers, or evaluating solutions. Technical literacy is a business advantage."
+        "text": "Understanding mobile development helps you make better decisions, whether you're building yourself, hiring developers, or evaluating solutions. Technical literacy is a business advantage."
       },
       {
         "type": "button",

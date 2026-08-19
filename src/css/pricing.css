@@ -2737,7 +2737,7 @@ body.pricing-page a {
         box-sizing: border-box !important;
     }
 
-    /* Cards grids — always single column and full width */
+    /* Cards grids, always single column and full width */
     body.pricing-page .pricing-cards-grid,
     body.pricing-page .intl-cards-grid,
     body.pricing-page .comparison-grid {
@@ -2755,7 +2755,7 @@ body.pricing-page a {
         box-sizing: border-box !important;
     }
 
-    /* How We Compare — wrap long cell text */
+    /* How We Compare, wrap long cell text */
     body.pricing-page .how-compare-table {
         table-layout: fixed !important;
         width: 100% !important;

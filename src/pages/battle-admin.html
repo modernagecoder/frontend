@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Battle Arena — Host Console</title>
+<title>Battle Arena: Host Console</title>
 <meta name="robots" content="noindex, nofollow">
 <meta name="theme-color" content="#07030f">
 <link rel="icon" href="/favicon.ico" type="image/x-icon">
@@ -59,7 +59,7 @@
    * A STUDENT'S ANSWER IS NEVER PUT IN A SCROLL BOX.
    *
    * The modal already scrolls (max-height:88vh), so a scrolling <pre> inside it
-   * is a nested scroll area — and the inner one is where the last lines of a
+   * is a nested scroll area, and the inner one is where the last lines of a
    * long answer go to hide. The host was marking code whose ending they could
    * not see. Answers grow to their full height and the page does the scrolling;
    * the answer key and the debate transcript keep their caps, because those are
@@ -214,7 +214,7 @@
     this.setAttribute('aria-pressed', String(!showing));
     this.setAttribute('aria-label', showing ? 'Show password' : 'Hide password');
 
-    // Put the caret back where it was — toggling should not cost you your place.
+    // Put the caret back where it was, toggling should not cost you your place.
     field.focus();
     var end = field.value.length;
     try { field.setSelectionRange(end, end); } catch (e) {}
@@ -334,7 +334,7 @@
       title: 'New battle',
       hint: 'You can rename it later. A join code is generated automatically.',
       confirm: 'Create',
-      fields: [{ name: 'title', label: 'Name', value: 'Coding Battle — ' + new Date().toLocaleDateString() }]
+      fields: [{ name: 'title', label: 'Name', value: 'Coding Battle, ' + new Date().toLocaleDateString() }]
     }).then(function (answer) {
       if (!answer || !answer.title.trim()) return;
       act(api('POST', '/', { title: answer.title.trim() }), 'Battle created')
@@ -357,7 +357,7 @@
       /**
        * THE HOST CONSOLE NEVER SLEEPS.
        *
-       * Round expiry and debate turns advance lazily — they happen when
+       * Round expiry and debate turns advance lazily. They happen when
        * somebody reads the battle. Students' tabs slow down when hidden, so if
        * this one did too and the whole class alt-tabbed, the clock would simply
        * stop. This page is the guaranteed heartbeat.
@@ -384,7 +384,7 @@
     $('nav-status').textContent = b.pausedAt ? 'paused' : b.status;
     $('nav-status').className = 'pill ' + (b.pausedAt ? 'pill-gold' : statusPill(b.status));
 
-    // The clock only appears while a round is actually running — an idle
+    // The clock only appears while a round is actually running, an idle
     // "--:--" in the corner is just noise.
     var live = currentRound() && currentRound().status === 'running';
     $('nav-timer').classList.toggle('hidden', !live);
@@ -475,14 +475,14 @@
           '<div class="card">' +
             '<p class="kicker" style="margin-bottom:.7rem">Announce to everyone</p>' +
             '<textarea class="field" id="a-msg" rows="2" maxlength="500" ' +
-              'placeholder="Five minutes left — start wrapping up."></textarea>' +
+              'placeholder="Five minutes left. Start wrapping up."></textarea>' +
             '<button class="btn btn-block" style="margin-top:.6rem" id="a-send">Send</button>' +
           '</div>' +
         '</div>' +
       '</div>';
 
-    bind('a-lobby',  function () { act(api('POST', '/' + app.battleId + '/open-lobby'), 'Lobby is open — students can join'); });
-    bind('a-pause',  function () { act(api('POST', '/' + app.battleId + '/pause'), 'Paused — every clock is frozen'); });
+    bind('a-lobby',  function () { act(api('POST', '/' + app.battleId + '/open-lobby'), 'Lobby is open, students can join'); });
+    bind('a-pause',  function () { act(api('POST', '/' + app.battleId + '/pause'), 'Paused, every clock is frozen'); });
     bind('a-resume', function () { act(api('POST', '/' + app.battleId + '/resume'), 'Resumed'); });
     bind('a-lock',   function () { act(api('POST', '/' + app.battleId + '/lobby-lock',
                         { allowLateJoin: !app.data.battle.config.allowLateJoin }), 'Joining updated'); });
@@ -516,7 +516,7 @@
         if (mins && Number(mins.value) > 0) body.durationSec = Math.round(Number(mins.value) * 60);
 
         act(api('POST', '/' + app.battleId + '/rounds/' + r.index + '/start', body),
-          'Round ' + r.index + ' is live' + (body.durationSec ? ' — ' + mins.value + ' min' : ''));
+          'Round ' + r.index + ' is live' + (body.durationSec ? ', ' + mins.value + ' min' : ''));
       });
       bind('r-end-' + r.index, function () {
         act(api('POST', '/' + app.battleId + '/rounds/' + r.index + '/end'), 'Round ' + r.index + ' closed for marking');
@@ -558,7 +558,7 @@
    * step, named for what it does: "Let's begin Round 2", not "Start".
    *
    * Nothing here is automatic. A round begins when the host presses the button
-   * and not before, which is the point — the previous round's marking can take
+   * and not before, which is the point, the previous round's marking can take
    * as long as it takes.
    */
   function nextStepPanel(d, b) {
@@ -577,7 +577,7 @@
         step = {
           id: 'ns-end-' + running.index,
           label: 'End ' + shortRound(running) + ' now',
-          hint: 'Or let the clock run out — it ends by itself either way.',
+          hint: 'Or let the clock run out. It ends by itself either way.',
           quiet: true
         };
       } else if (grading) {
@@ -723,8 +723,8 @@
         '<div class="grow" style="min-width:0">' +
           '<strong style="font-size:.95rem">Upload a question file</strong>' +
           '<p class="faint" style="font-size:.8rem;margin-top:.2rem">' +
-            'Grab a ready-made pack — if/else logic questions with answer keys, and debate ' +
-            'topics — then import it. Or write your own.</p>' +
+            'Grab a ready-made pack, if/else logic questions with answer keys, and debate ' +
+            'topics, then import it. Or write your own.</p>' +
         '</div>' +
         '<div class="row wrap">' +
           '<button class="btn btn-sm btn-go" id="q-pack">Ready-made packs</button>' +
@@ -829,7 +829,7 @@
   /**
    * Two ready-made files, so a host never starts from an empty form.
    *
-   * The real one is the pack shipped in public/downloads — seven Python logic
+   * The real one is the pack shipped in public/downloads, seven Python logic
    * questions with answer keys, and the AI-vs-fundamentals debate topics. The
    * inline SAMPLE is the minimal shape, for someone writing their own.
    */
@@ -843,9 +843,9 @@
    */
   var PACKS = [
     { file: 'battle-round1-worksheet-style.json',
-      name: 'Worksheet style — blank editor',
+      name: 'Worksheet style, blank editor',
       note: '7 questions, Python OR JavaScript, nothing pre-written. Scenarios they have not seen ' +
-            'before — alarm clocks, Wi-Fi bars, Wordle tiles — so nobody can type a memorised answer.' },
+            'before, alarm clocks, Wi-Fi bars, Wordle tiles, so nobody can type a memorised answer.' },
     { file: 'battle-python-and-ai-debate.json',
       name: 'Python + the AI debate',
       note: '7 Python questions with starter functions, plus 4 debate topics on AI vs learning to code.' }
@@ -882,7 +882,7 @@
         a.click();
         a.remove();
         closeModal();
-        toast('Downloaded — now press Import JSON and choose it', 'success');
+        toast('Downloaded, now press Import JSON and choose it', 'success');
       });
     });
   }
@@ -897,7 +897,7 @@
     a.click();
     a.remove();
     URL.revokeObjectURL(url);
-    toast('Sample downloaded — edit it and import it back', 'success');
+    toast('Sample downloaded, edit it and import it back', 'success');
   }
 
   /**
@@ -956,7 +956,7 @@
         json = JSON.parse(text);
       } catch (error) {
         return setPreview('<div class="banner banner-error">' +
-          'That is not valid JSON — ' + esc(error.message) + '</div>');
+          'That is not valid JSON, ' + esc(error.message) + '</div>');
       }
 
       api('POST', '/' + app.battleId + '/questions/preview', { questions: json })
@@ -965,7 +965,7 @@
           var lines = [1, 2, 3]
             .filter(function (r) { return res.byRound[r].length; })
             .map(function (r) {
-              return '<li><strong>Round ' + r + '</strong> — ' + res.byRound[r].length + ': ' +
+              return '<li><strong>Round ' + r + '</strong>, ' + res.byRound[r].length + ': ' +
                 res.byRound[r].map(esc).join(', ') + '</li>';
             }).join('');
 
@@ -980,7 +980,7 @@
               '<strong>' + res.errors.length + ' row' + (res.errors.length === 1 ? '' : 's') +
               ' will be skipped</strong><ul style="margin:.4rem 0 0 1.1rem;font-size:.8rem;line-height:1.6">' +
               res.errors.map(function (e) {
-                return '<li>' + esc(e.where) + ' — ' + esc(e.message) + '</li>';
+                return '<li>' + esc(e.where) + ', ' + esc(e.message) + '</li>';
               }).join('') + '</ul></div>';
           }
 
@@ -1016,7 +1016,7 @@
       act(api('POST', '/' + app.battleId + '/questions/import', { questions: parsed, mode: mode }))
         .then(function (res) {
           toast('Imported ' + res.imported + ' question' + (res.imported === 1 ? '' : 's') +
-            (res.skipped ? ' — ' + res.skipped + ' skipped' : ''), 'success');
+            (res.skipped ? ', ' + res.skipped + ' skipped' : ''), 'success');
           closeModal();
         })
         .catch(function () {
@@ -1076,7 +1076,7 @@
         '<div><label class="lbl" for="q-starter">Starter code (optional)</label>' +
           '<textarea class="field mono" id="q-starter" rows="4" style="font-size:.78rem">' +
             esc(q.starterCode || '') + '</textarea></div>' +
-        '<div><label class="lbl" for="q-hint">Your answer key — students never see this</label>' +
+        '<div><label class="lbl" for="q-hint">Your answer key, students never see this</label>' +
           '<textarea class="field mono" id="q-hint" rows="4" style="font-size:.78rem">' +
             esc(q.expectedHint || '') + '</textarea></div>';
     } else if (type === 'debate') {
@@ -1101,7 +1101,7 @@
     }
 
     openModal(
-      '<h2 style="font-size:1.2rem;margin-bottom:1rem">' + (qid ? 'Edit' : 'New') + ' — ' + esc(round.label) + '</h2>' +
+      '<h2 style="font-size:1.2rem;margin-bottom:1rem">' + (qid ? 'Edit' : 'New') + ': ' + esc(round.label) + '</h2>' +
       '<div class="stack">' + fields + '</div>' +
       '<div class="row" style="margin-top:1.2rem;justify-content:flex-end">' +
         '<button class="btn btn-ghost" id="q-cancel">Cancel</button>' +
@@ -1177,7 +1177,7 @@
           '<pre class="qbody qbody-full">' + esc(s.preview) + '</pre>' +
           (s.codeLength > s.preview.length
             ? '<p class="clipped">… ' + (s.codeLength - s.preview.length) +
-              ' more characters — press “Open in full” to read the rest before marking.</p>'
+              ' more characters, press “Open in full” to read the rest before marking.</p>'
             : '') +
           '<div class="row wrap" style="margin-top:.6rem">' +
             '<button class="btn btn-right btn-sm" data-mark="' + s.sid + ':correct">✓ Correct</button>' +
@@ -1229,7 +1229,7 @@
   }
 
   /**
-   * Full body plus the answer key side by side — the actual act of grading.
+   * Full body plus the answer key side by side, the actual act of grading.
    */
   function openSubmission(sid) {
     api('GET', '/' + app.battleId + '/submissions/' + sid).then(function (res) {
@@ -1254,7 +1254,7 @@
           'Feedback (the student sees this)</label>' +
           '<textarea class="field" id="m-note" rows="2">' + esc(s.markNote || '') + '</textarea></div>' +
         /**
-         * Round 3 is creative work, so the host can award part marks — but the
+         * Round 3 is creative work, so the host can award part marks, but the
          * box DEFAULTS TO FULL. Defaulting it to zero meant that reading a
          * project and clicking "Correct" without touching the number awarded
          * nothing, while the identical button in the queue awarded full marks.
@@ -1277,7 +1277,7 @@
         var pts = $('m-pts');
         if (pts && verdict === 'correct') body.points = Number(pts.value);
         act(api('POST', '/' + app.battleId + '/submissions/' + sid + '/mark', body),
-          'Marked ' + verdict + ' — the student sees it within seconds').then(closeModal);
+          'Marked ' + verdict + ', the student sees it within seconds').then(closeModal);
       }
       bind('m-right', function () { mark('correct'); });
       bind('m-wrong', function () { mark('wrong'); });
@@ -1355,7 +1355,7 @@
   /* -------------------------------------------------------- debate tab --- */
 
   /**
-   * ROUND 2 — THE TEAMS TAB.
+   * ROUND 2: THE TEAMS TAB.
    *
    * Form the teams, adjust who argues which side, read what was said, score each
    * student individually, and download the lot.
@@ -1394,7 +1394,7 @@
       '</div>' +
 
       (open ? '<div class="banner banner-success" style="margin-bottom:1rem">' +
-        'Transcripts are open — students can read every team and vote for the best.</div>' : '') +
+        'Transcripts are open, students can read every team and vote for the best.</div>' : '') +
 
       (teams.length ? teams.map(function (t) {
         var topic = topics.filter(function (x) { return x.qid === t.topicQid; })[0];
@@ -1476,7 +1476,7 @@
       if (!yes) return;
       act(api('POST', '/' + app.battleId + '/round2/form-teams', { force: running }))
         .then(function (res) {
-          toast(res.teams.length + ' teams formed — ' + res.sizes.join(', '), 'success');
+          toast(res.teams.length + ' teams formed, ' + res.sizes.join(', '), 'success');
         });
     });
   }
@@ -1507,7 +1507,7 @@
 
   /**
    * Reads one team's transcript in a modal. Fetched from the full download and
-   * sliced client-side rather than adding a per-team endpoint — the host is
+   * sliced client-side rather than adding a per-team endpoint, the host is
    * about to download the whole thing anyway.
    */
   function readDebate(teamId) {
@@ -1578,7 +1578,7 @@
    *
    * Rendered in a new window and handed straight to the browser's print dialog,
    * where "Save as PDF" is one click away. Nothing is generated server-side and
-   * nothing is stored — there is no file storage configured on this project, and
+   * nothing is stored. There is no file storage configured on this project, and
    * a certificate is a view of data that already exists rather than an artefact
    * worth keeping.
    */
@@ -1598,7 +1598,7 @@
 
     win.document.write(
       '<!DOCTYPE html><html><head><meta charset="utf-8">' +
-      '<title>Certificate — ' + esc(row.displayName) + '</title>' +
+      '<title>Certificate: ' + esc(row.displayName) + '</title>' +
       '<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,700;12..96,800&family=JetBrains+Mono:wght@400;700&family=Sora:wght@400;600&display=swap" rel="stylesheet">' +
       '<style>' +
         '@page { size: A4 landscape; margin: 0 }' +
@@ -1642,7 +1642,7 @@
       '</div>' +
       /**
        * EVERY CLOSING TAG IN THIS STRING IS WRITTEN AS <\/tag>, AND MUST STAY
-       * THAT WAY — including in comments, because an HTML parser does not know
+       * THAT WAY, including in comments, because an HTML parser does not know
        * what a JavaScript comment is.
        *
        * Two separate things bite here. A bare closing script tag ends this
@@ -1681,8 +1681,8 @@
   /**
    * In-page replacements for prompt() and confirm().
    *
-   * Native browser dialogs block the whole page — including the sync loop that
-   * is keeping the round clock running — and cannot be styled or dismissed by
+   * Native browser dialogs block the whole page, including the sync loop that
+   * is keeping the round clock running, and cannot be styled or dismissed by
    * anything except the person standing at the laptop. In a live exam that is
    * exactly wrong.
    */

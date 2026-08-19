@@ -14,8 +14,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Build Your Own GPT in Python — From Tokenizer to Trained Model in 300 Lines | Modern Age Coders</title>
-    <meta name="description" content="The honest, code-first walkthrough of building a tiny transformer language model from scratch in Python. Tokenizer, embeddings, multi-head attention, training loop and sampling — written so a determined teenager can follow. By Modern Age Coders.">
+    <title>Build Your Own GPT in Python: From Tokenizer to Trained Model in 300 Lines | Modern Age Coders</title>
+    <meta name="description" content="The honest, code-first walkthrough of building a tiny transformer language model from scratch in Python. Tokenizer, embeddings, multi-head attention, training loop and sampling, written so a determined teenager can follow. By Modern Age Coders.">
     <meta name="author" content="Modern Age Coders">
     <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1">
     <link rel="canonical" href="https://learn.modernagecoders.com/build-your-own-gpt-python">
@@ -25,7 +25,7 @@
 
     <meta property="og:type" content="article">
     <meta property="og:url" content="https://learn.modernagecoders.com/build-your-own-gpt-python">
-    <meta property="og:title" content="Build Your Own GPT in Python — Modern Age Coders">
+    <meta property="og:title" content="Build Your Own GPT in Python | Modern Age Coders">
     <meta property="og:description" content="The honest, code-first walkthrough of building a tiny transformer language model from scratch in Python.">
     <meta property="og:image" content="https://learn.modernagecoders.com/images/og-modern-age-coders.png">
     <meta property="og:site_name" content="Modern Age Coders">
@@ -50,7 +50,7 @@
     {
         "@context": "https://schema.org",
         "@type": "TechArticle",
-        "headline": "Build Your Own GPT in Python — From Tokenizer to Trained Model",
+        "headline": "Build Your Own GPT in Python: From Tokenizer to Trained Model",
         "description": "Code-first walkthrough of implementing a tiny transformer language model from scratch in PyTorch.",
         "author": { "@type": "Organization", "name": "Modern Age Coders" },
         "publisher": {
@@ -132,7 +132,7 @@
             font-weight: 700;
         }
 
-        /* ── HERO — terminal aesthetic ─────────────── */
+        /* ── HERO, terminal aesthetic ─────────────── */
         .bg-hero {
             padding: 130px 0 80px;
             position: relative;
@@ -846,7 +846,7 @@
         <div class="bg-shell bg-hero-inner">
             <span class="bg-mark">~/build-your-own-gpt/main.py · open in editor</span>
             <h1 class="bg-h1"><span class="kw">def</span> <span class="fn">build_a_gpt</span>(): <span style="color: var(--bg-mute);"># in 300 lines of Python.</span> <span class="cursor"></span></h1>
-            <p class="bg-hero-sub">This is the code-first walkthrough we wish we had when we started. A complete, working, end-to-end implementation of a small transformer language model — tokenizer, embeddings, multi-head attention, training loop, sampling — written in PyTorch, line by line, with every line explained. No "use this library" handwaving. The actual matrix math. Built so that a determined fifteen-year-old can follow.</p>
+            <p class="bg-hero-sub">This is the code-first walkthrough we wish we had when we started. A complete, working, end-to-end implementation of a small transformer language model, tokenizer, embeddings, multi-head attention, training loop, sampling, written in PyTorch, line by line, with every line explained. No "use this library" handwaving. The actual matrix math. Built so that a determined fifteen-year-old can follow.</p>
             <div class="bg-hero-meta">
                 <div><strong>~<em>300</em> lines</strong>Of real PyTorch</div>
                 <div><strong>~<em>4</em> hours</strong>To read end-to-end</div>
@@ -867,7 +867,7 @@
                 <a class="bg-strip-card" href="/courses/python-ai-kids-masterclass">
                     <div class="age">Ages 8–12 · Kids</div>
                     <h3>Python &amp; AI Kids <span class="em">Masterclass</span></h3>
-                    <p>Real Python with first-touch AI tooling — the on-ramp for serious young learners.</p>
+                    <p>Real Python with first-touch AI tooling, the on-ramp for serious young learners.</p>
                     <div class="meta"><span>2 classes/week</span><span class="pr">₹1,499/mo</span></div>
                 </a>
                 <a class="bg-strip-card" href="/courses/ai-ml-masterclass-teens">
@@ -905,8 +905,8 @@
                 <a href="#s7"><span class="n">07</span>The transformer block</a>
                 <a href="#s8"><span class="n">08</span>The full model</a>
                 <a href="#s9"><span class="n">09</span>The training loop</a>
-                <a href="#s10"><span class="n">10</span>Sampling — generating text</a>
-                <a href="#s11"><span class="n">11</span>Scaling up — what next</a>
+                <a href="#s10"><span class="n">10</span>Sampling, generating text</a>
+                <a href="#s11"><span class="n">11</span>Scaling up, what next</a>
                 <a href="#s12"><span class="n">12</span>The full file</a>
             </div>
         </div>
@@ -916,10 +916,10 @@
         <div class="bg-shell bg-reading">
 
             <article class="bg-chap" id="s1">
-                <div class="bg-chap-tag">Section 01 — Setup</div>
+                <div class="bg-chap-tag">Section 01: Setup</div>
                 <h2>What we are <em>building</em>, exactly.</h2>
-                <p>A character-level GPT. About <strong>10 million parameters</strong>. Trained on a small text file — Shakespeare is the traditional choice. After roughly thirty minutes of training on a free Colab GPU, this model produces output that looks like Shakespeare. Not Shakespeare. <em>Like</em> Shakespeare. Pentameter-ish phrasing, mostly real words, occasional comedy.</p>
-                <p>This is enough scale to actually feel the magic. Big enough to learn meaningful patterns. Small enough to train in one sitting. Architecturally identical to GPT-2 — same transformer block, same multi-head attention, same training objective. The thing we will build is a real LLM. Tiny, but real.</p>
+                <p>A character-level GPT. About <strong>10 million parameters</strong>. Trained on a small text file: Shakespeare is the traditional choice. After roughly thirty minutes of training on a free Colab GPU, this model produces output that looks like Shakespeare. Not Shakespeare. <em>Like</em> Shakespeare. Pentameter-ish phrasing, mostly real words, occasional comedy.</p>
+                <p>This is enough scale to actually feel the magic. Big enough to learn meaningful patterns. Small enough to train in one sitting. Architecturally identical to GPT-2, same transformer block, same multi-head attention, same training objective. The thing we will build is a real LLM. Tiny, but real.</p>
                 <p>Three files. Three concepts. One file for the model, one for training, one for sampling. The full file at the end of this article fits in your editor without scrolling.</p>
                 <div class="bg-callout">
                     <strong>Prerequisites · be honest</strong>
@@ -928,9 +928,9 @@
             </article>
 
             <article class="bg-chap" id="s2">
-                <div class="bg-chap-tag">Section 02 — Data</div>
+                <div class="bg-chap-tag">Section 02: Data</div>
                 <h2>The <em>training data.</em></h2>
-                <p>One text file. Plain text. The complete works of Shakespeare is the canonical choice — about 1 MB of clean English, broken into character-level structure. You can substitute any large text corpus you like. We have students train on Tagore, on Sherlock Holmes, on years of their own WhatsApp logs (with permission).</p>
+                <p>One text file. Plain text. The complete works of Shakespeare is the canonical choice, about 1 MB of clean English, broken into character-level structure. You can substitute any large text corpus you like. We have students train on Tagore, on Sherlock Holmes, on years of their own WhatsApp logs (with permission).</p>
                 <div class="bg-code">
                     <div class="bg-code-bar"><div class="dots"><span></span><span></span><span></span></div><div class="file">data.py</div></div>
                     <pre><span class="com"># Download the tiny Shakespeare dataset</span>
@@ -961,9 +961,9 @@ First Citizen:</div>
             </article>
 
             <article class="bg-chap" id="s3">
-                <div class="bg-chap-tag">Section 03 — Tokenizer</div>
+                <div class="bg-chap-tag">Section 03: Tokenizer</div>
                 <h2>A <em>character tokenizer</em> in twelve lines.</h2>
-                <p>Real LLMs use byte-pair encoding (BPE) tokenizers with vocabularies of fifty thousand or more. We will use something simpler: <strong>one character = one token</strong>. The vocabulary becomes the set of unique characters in our training text. Tiny — about 65 entries. It is conceptually identical to a real tokenizer, just simpler.</p>
+                <p>Real LLMs use byte-pair encoding (BPE) tokenizers with vocabularies of fifty thousand or more. We will use something simpler: <strong>one character = one token</strong>. The vocabulary becomes the set of unique characters in our training text. Tiny, about 65 entries. It is conceptually identical to a real tokenizer, just simpler.</p>
                 <div class="bg-code">
                     <div class="bg-code-bar"><div class="dots"><span></span><span></span><span></span></div><div class="file">tokenizer.py</div></div>
                     <pre><span class="com"># Build the vocabulary</span>
@@ -987,13 +987,13 @@ itos = { i: ch <span class="kw">for</span> i, ch <span class="kw">in enumerate</
                 <div class="bg-output">Vocab size: 65
 [46, 43, 50, 50, 53]
 hello</div>
-                <p>Two dictionaries — one mapping character to ID, one mapping ID back to character. Encode and decode functions that walk through a string. That is the whole tokenizer. Twelve lines. Conceptually identical to what GPT-4's BPE tokenizer does, except ours has 65 entries and theirs has 100,257.</p>
+                <p>Two dictionaries, one mapping character to ID, one mapping ID back to character. Encode and decode functions that walk through a string. That is the whole tokenizer. Twelve lines. Conceptually identical to what GPT-4's BPE tokenizer does, except ours has 65 entries and theirs has 100,257.</p>
             </article>
 
             <article class="bg-chap" id="s4">
-                <div class="bg-chap-tag">Section 04 — Embeddings</div>
+                <div class="bg-chap-tag">Section 04: Embeddings</div>
                 <h2>Token and <em>position embeddings.</em></h2>
-                <p>The model cannot look at a number 46 and know it means the letter "h". The first step inside the model is to convert each token ID into an <strong>embedding</strong> — a learnable vector of size <code>n_embd</code>, typically 384 in our tiny model. We need a second embedding too: a <strong>position embedding</strong>, which tells the model where each token sits in the sequence. Without position embeddings, the model treats sentences as bags of words.</p>
+                <p>The model cannot look at a number 46 and know it means the letter "h". The first step inside the model is to convert each token ID into an <strong>embedding</strong>, a learnable vector of size <code>n_embd</code>, typically 384 in our tiny model. We need a second embedding too: a <strong>position embedding</strong>, which tells the model where each token sits in the sequence. Without position embeddings, the model treats sentences as bags of words.</p>
                 <div class="bg-code">
                     <div class="bg-code-bar"><div class="dots"><span></span><span></span><span></span></div><div class="file">model.py · embeddings</div></div>
                     <pre><span class="kw">import</span> torch
@@ -1013,12 +1013,12 @@ tok_emb = token_embedding_table(idx)        <span class="com"># (B, T, n_embd)</
 pos_emb = position_embedding_table(torch.<span class="fn">arange</span>(T))  <span class="com"># (T, n_embd)</span>
 x = tok_emb + pos_emb                       <span class="com"># (B, T, n_embd)</span></pre>
                 </div>
-                <p>Each <code>nn.Embedding</code> is conceptually a lookup table — a matrix where row <em>i</em> is the embedding for ID <em>i</em>. The rows start random and are learned during training. By the end, the row for the letter "h" sits close, in embedding space, to the rows for "g", "i", "j" and other letters with similar contexts.</p>
+                <p>Each <code>nn.Embedding</code> is conceptually a lookup table, a matrix where row <em>i</em> is the embedding for ID <em>i</em>. The rows start random and are learned during training. By the end, the row for the letter "h" sits close, in embedding space, to the rows for "g", "i", "j" and other letters with similar contexts.</p>
                 <p>The addition <code>tok_emb + pos_emb</code> is one of the strangest and most beautiful tricks in the transformer. Position and content live in the same vector space, added together. The model learns to disentangle them in later layers. It works astonishingly well.</p>
             </article>
 
             <article class="bg-chap" id="s5">
-                <div class="bg-chap-tag">Section 05 — Attention</div>
+                <div class="bg-chap-tag">Section 05: Attention</div>
                 <h2><em>Single-head attention</em>, derived from scratch.</h2>
                 <p>This is the heart. Once you understand a single attention head, multi-head is just running several in parallel, and the rest of the architecture is plumbing.</p>
                 <h3>The intuition first</h3>
@@ -1050,17 +1050,17 @@ x = tok_emb + pos_emb                       <span class="com"># (B, T, n_embd)</
                 </div>
                 <p>Three lines of math, doing all the real work:</p>
                 <ul>
-                    <li><code>q @ k.transpose(-2, -1)</code> — dot product of every query with every key. Big when they "align" in embedding space.</li>
-                    <li><code>* C**-0.5</code> — scaling, so softmax doesn't saturate at large head sizes.</li>
-                    <li><code>masked_fill(tril==0, -inf)</code> — the <strong>causal mask</strong>. Each position can only attend to itself and earlier positions. This is what makes the model autoregressive.</li>
-                    <li><code>softmax</code> — normalises scores into weights that sum to 1.</li>
-                    <li><code>wei @ v</code> — the weighted sum.</li>
+                    <li><code>q @ k.transpose(-2, -1)</code>, dot product of every query with every key. Big when they "align" in embedding space.</li>
+                    <li><code>* C**-0.5</code>, scaling, so softmax doesn't saturate at large head sizes.</li>
+                    <li><code>masked_fill(tril==0, -inf)</code>, the <strong>causal mask</strong>. Each position can only attend to itself and earlier positions. This is what makes the model autoregressive.</li>
+                    <li><code>softmax</code>, normalises scores into weights that sum to 1.</li>
+                    <li><code>wei @ v</code>, the weighted sum.</li>
                 </ul>
                 <p>If you understand these five lines, you understand attention. The rest of the paper is decoration. Read them twice.</p>
             </article>
 
             <article class="bg-chap" id="s6">
-                <div class="bg-chap-tag">Section 06 — Multi-head</div>
+                <div class="bg-chap-tag">Section 06: Multi-head</div>
                 <h2><em>Multi-head</em> attention is just several heads, concatenated.</h2>
                 <p>One head is good. Six heads is better. Each head learns to look at the sequence in a different way. One head learns about subject–verb agreement. Another tracks long-range dependencies. Another tracks rhyme. We don't tell them what to learn. They discover their specialisations during training.</p>
                 <div class="bg-code">
@@ -1083,7 +1083,7 @@ x = tok_emb + pos_emb                       <span class="com"># (B, T, n_embd)</
             </article>
 
             <article class="bg-chap" id="s7">
-                <div class="bg-chap-tag">Section 07 — Block</div>
+                <div class="bg-chap-tag">Section 07: Block</div>
                 <h2>The <em>transformer block.</em></h2>
                 <p>A transformer block is attention followed by a small feedforward network, each wrapped in a layer-norm and a residual connection. This is the unit we will stack repeatedly to make the full model.</p>
                 <div class="bg-code">
@@ -1117,7 +1117,7 @@ x = tok_emb + pos_emb                       <span class="com"># (B, T, n_embd)</
             </article>
 
             <article class="bg-chap" id="s8">
-                <div class="bg-chap-tag">Section 08 — Full model</div>
+                <div class="bg-chap-tag">Section 08: Full model</div>
                 <h2>The full <em>model class.</em></h2>
                 <p>Stack the embeddings, the transformer blocks, a final layer norm, and a head that projects back to vocabulary size. The full GPT model in one class:</p>
                 <div class="bg-code">
@@ -1157,9 +1157,9 @@ n_heads = <span class="num">6</span>
             </article>
 
             <article class="bg-chap" id="s9">
-                <div class="bg-chap-tag">Section 09 — Train</div>
+                <div class="bg-chap-tag">Section 09: Train</div>
                 <h2>The <em>training loop.</em></h2>
-                <p>For each batch, we draw random chunks of <code>block_size</code> tokens from the training text. The targets are the same chunks shifted by one — the model's job is to predict the next token at every position. We compute cross-entropy loss across the whole sequence, backpropagate, and step the optimizer.</p>
+                <p>For each batch, we draw random chunks of <code>block_size</code> tokens from the training text. The targets are the same chunks shifted by one, the model's job is to predict the next token at every position. We compute cross-entropy loss across the whole sequence, backpropagate, and step the optimizer.</p>
                 <div class="bg-code">
                     <div class="bg-code-bar"><div class="dots"><span></span><span></span><span></span></div><div class="file">train.py</div></div>
                     <pre>batch_size = <span class="num">64</span>
@@ -1197,12 +1197,12 @@ step  1000 | loss 1.7321
 step  2000 | loss 1.5612
 step  3500 | loss 1.4488
 step  5000 | loss 1.3997</div>
-                <p>Loss falls from 4.2 (essentially uniform random over 65 chars, log(65) ≈ 4.17) toward 1.4 — meaningful prediction. Thirty minutes on a free Colab T4 GPU. Half a million parameter updates. The model is, slowly, learning Shakespeare.</p>
+                <p>Loss falls from 4.2 (essentially uniform random over 65 chars, log(65) ≈ 4.17) toward 1.4, meaningful prediction. Thirty minutes on a free Colab T4 GPU. Half a million parameter updates. The model is, slowly, learning Shakespeare.</p>
             </article>
 
             <article class="bg-chap" id="s10">
-                <div class="bg-chap-tag">Section 10 — Sample</div>
-                <h2><em>Sampling</em> — generating text.</h2>
+                <div class="bg-chap-tag">Section 10: Sample</div>
+                <h2><em>Sampling</em>: generating text.</h2>
                 <p>The model takes a sequence and produces a probability over the next token. To generate, we sample one token from that probability distribution, append it to the input, and repeat. Greedy sampling (always pick the highest-probability token) produces dull, repetitive output. Sampling with a small <em>temperature</em> introduces controlled randomness and produces more interesting text.</p>
                 <div class="bg-code">
                     <div class="bg-code-bar"><div class="dots"><span></span><span></span><span></span></div><div class="file">sample.py</div></div>
@@ -1230,26 +1230,26 @@ And to make her loss, the heavens of the cruel.
 
 DUKE VINCENTIO:
 This is the woman of his trumpet of the world!</div>
-                <p>Not Shakespeare. But — recognisably Shakespeare-shaped. Capital-letter character names. Colons. Dialog rhythm. Five-syllable-ish lines. Made-up words that sound plausible. This came out of 10 million parameters trained on 1 MB of text for thirty minutes. Now think about what GPT-4 — 1.7 trillion parameters trained on perhaps 10 trillion tokens — is doing. It is exactly the same algorithm. Scaled.</p>
+                <p>Not Shakespeare. But, recognisably Shakespeare-shaped. Capital-letter character names. Colons. Dialog rhythm. Five-syllable-ish lines. Made-up words that sound plausible. This came out of 10 million parameters trained on 1 MB of text for thirty minutes. Now think about what GPT-4, 1.7 trillion parameters trained on perhaps 10 trillion tokens, is doing. It is exactly the same algorithm. Scaled.</p>
             </article>
 
             <article class="bg-chap" id="s11">
-                <div class="bg-chap-tag">Section 11 — Scale</div>
+                <div class="bg-chap-tag">Section 11: Scale</div>
                 <h2>What <em>scaling up</em> actually means.</h2>
-                <p>You have just built nano-GPT. The path from nano-GPT to GPT-2 is increasing five numbers: <code>n_layer</code>, <code>n_heads</code>, <code>n_embd</code>, <code>block_size</code>, and the training corpus size. GPT-2 had 12 layers, 12 heads, 768 embedding size, 1024 context. GPT-3 was the same architecture with vastly bigger numbers — 96 layers, 96 heads, 12288 embedding size — and trained on hundreds of billions of tokens for months on thousands of GPUs.</p>
+                <p>You have just built nano-GPT. The path from nano-GPT to GPT-2 is increasing five numbers: <code>n_layer</code>, <code>n_heads</code>, <code>n_embd</code>, <code>block_size</code>, and the training corpus size. GPT-2 had 12 layers, 12 heads, 768 embedding size, 1024 context. GPT-3 was the same architecture with vastly bigger numbers, 96 layers, 96 heads, 12288 embedding size, and trained on hundreds of billions of tokens for months on thousands of GPUs.</p>
                 <p>The path from GPT-3 to GPT-4 added: a real BPE tokenizer (50,000+ tokens), grouped-query attention, mixture-of-experts in some variants, rotary position embeddings (rather than learned ones), much more training data, and the RLHF stage on top. The skeleton you just wrote is still in there.</p>
                 <div class="bg-callout">
                     <strong>What costs money</strong>
-                    Modeling: cheap, fits on one GPU. Training data: huge but free (Common Crawl). The expensive thing is <em>compute</em> — thousands of high-end GPUs running for months. That is why frontier labs are concentrated in a few places. Your nano-GPT runs on free Colab. GPT-4-class models do not.
+                    Modeling: cheap, fits on one GPU. Training data: huge but free (Common Crawl). The expensive thing is <em>compute</em>, thousands of high-end GPUs running for months. That is why frontier labs are concentrated in a few places. Your nano-GPT runs on free Colab. GPT-4-class models do not.
                 </div>
             </article>
 
             <article class="bg-chap" id="s12">
-                <div class="bg-chap-tag">Section 12 — Full file</div>
+                <div class="bg-chap-tag">Section 12: Full file</div>
                 <h2>The <em>full file</em>, all 300 lines, copy-paste runnable.</h2>
                 <p>Available on our GitHub at <code>github.com/modernagecoders/nano-gpt-tutorial</code>. One file. Three commands to run: download data, train, sample. We tested it on a fresh Colab notebook on 14 May 2026. It runs.</p>
-                <p>If you got this far — <strong>you have just built an LLM from scratch</strong>. Not a toy. Not a hello world. A real, working, autoregressive transformer language model. The same family of math behind ChatGPT. You will never read about "AI" in the news the same way again.</p>
-                <p>What's next? Two natural directions. One — keep going on language: switch to a real BPE tokenizer, train on a bigger corpus, scale up the layers. Two — take what you have learned and apply it to images, audio, agents, or fine-tuning. Both paths are inside our advanced courses below.</p>
+                <p>If you got this far, <strong>you have just built an LLM from scratch</strong>. Not a toy. Not a hello world. A real, working, autoregressive transformer language model. The same family of math behind ChatGPT. You will never read about "AI" in the news the same way again.</p>
+                <p>What's next? Two natural directions. One, keep going on language: switch to a real BPE tokenizer, train on a bigger corpus, scale up the layers. Two, take what you have learned and apply it to images, audio, agents, or fine-tuning. Both paths are inside our advanced courses below.</p>
             </article>
 
         </div>
@@ -1260,12 +1260,12 @@ This is the woman of his trumpet of the world!</div>
         <div class="bg-shell">
             <span class="bg-mark">live small-batch cohorts · build alongside other learners</span>
             <h2>Want a <em>cohort</em> that walks through this with you?</h2>
-            <p class="lead">Reading this article is one path. Sitting alongside a mentor and four other learners for twelve weeks is another. Modern Age Coders runs live cohorts at every age — pick the band that fits you or your child.</p>
+            <p class="lead">Reading this article is one path. Sitting alongside a mentor and four other learners for twelve weeks is another. Modern Age Coders runs live cohorts at every age. Pick the band that fits you or your child.</p>
 
             <!-- KIDS -->
             <div class="bg-band">
                 <div class="bg-band-hd">
-                    <h3>For <em>kids</em>, age 8–12 — start the journey here</h3>
+                    <h3>For <em>kids</em>, age 8–12: start the journey here</h3>
                     <span class="ages">Junior · weekly live</span>
                 </div>
                 <div class="bg-band-grid">
@@ -1293,7 +1293,7 @@ This is the woman of his trumpet of the world!</div>
             <!-- TEENS -->
             <div class="bg-band">
                 <div class="bg-band-hd">
-                    <h3>For <em>teens</em>, age 13–18 — build a real model</h3>
+                    <h3>For <em>teens</em>, age 13–18: build a real model</h3>
                     <span class="ages">Senior · weekly live</span>
                 </div>
                 <div class="bg-band-grid">
@@ -1321,7 +1321,7 @@ This is the woman of his trumpet of the world!</div>
             <!-- ADULTS -->
             <div class="bg-band">
                 <div class="bg-band-hd">
-                    <h3>For <em>adults &amp; college</em>, age 17+ — the engineer path</h3>
+                    <h3>For <em>adults &amp; college</em>, age 17+: the engineer path</h3>
                     <span class="ages">Pro · weekly live</span>
                 </div>
                 <div class="bg-band-grid">
@@ -1334,7 +1334,7 @@ This is the woman of his trumpet of the world!</div>
                     <a class="bg-course" href="/courses/ai-ml-masterclass-complete-college">
                         <div class="tier">College / Adult · AI/ML</div>
                         <h4>AI &amp; ML <em>Complete</em></h4>
-                        <p>Numpy through training transformers from scratch — like this article, but supervised, with peers.</p>
+                        <p>Numpy through training transformers from scratch, like this article, but supervised, with peers.</p>
                         <div class="bg-course-foot"><span>2 classes/week</span><span class="price">₹1,499/mo</span></div>
                     </a>
                     <a class="bg-course" href="/courses/python-ai-automation-masterclass-college">
@@ -1355,7 +1355,7 @@ This is the woman of his trumpet of the world!</div>
                 <div>
                     <span class="bg-mark">talk to a mentor · free 25 min</span>
                     <h2>If you got this far, you are <em>ready for a real cohort.</em></h2>
-                    <p>Tell us roughly where you are — Python comfortable, PyTorch new, want to train something real — and a senior MAC mentor will write back with the right next step. No sales call, no auto-emails. One human, one reply.</p>
+                    <p>Tell us roughly where you are, Python comfortable, PyTorch new, want to train something real, and a senior MAC mentor will write back with the right next step. No sales call, no auto-emails. One human, one reply.</p>
                 </div>
                 <form class="bg-form" name="build-gpt-lead" method="POST" data-netlify="true" netlify-honeypot="bot-field" action="/thank-you">
                     <input type="hidden" name="form-name" value="build-gpt-lead">
@@ -1393,7 +1393,7 @@ This is the woman of his trumpet of the world!</div>
 
             <details>
                 <summary>Will this code actually train a working LLM?</summary>
-                <p>Yes. We have tested the full script on a fresh Colab notebook on 14 May 2026 and it ran without modification. Training takes about thirty minutes on a free Colab T4 GPU. The output is recognisable English-with-Shakespeare-rhythm. If your loss does not fall below 1.6 in 5000 iterations, the likely culprit is the learning rate or batch size — check those first.</p>
+                <p>Yes. We have tested the full script on a fresh Colab notebook on 14 May 2026 and it ran without modification. Training takes about thirty minutes on a free Colab T4 GPU. The output is recognisable English-with-Shakespeare-rhythm. If your loss does not fall below 1.6 in 5000 iterations, the likely culprit is the learning rate or batch size. Check those first.</p>
             </details>
 
             <details>
@@ -1403,7 +1403,7 @@ This is the woman of his trumpet of the world!</div>
 
             <details>
                 <summary>How do I scale this up to GPT-2 size?</summary>
-                <p>Increase <code>n_layer</code> from 6 to 12, <code>n_heads</code> from 6 to 12, <code>n_embd</code> from 384 to 768, and <code>block_size</code> from 256 to 1024. You will hit GPU memory limits on free Colab — you need a T4 with 15 GB minimum, or an A100. Then increase the training corpus from 1 MB to roughly 4 GB. Karpathy's <code>nanoGPT</code> repo (github.com/karpathy/nanoGPT) does exactly this and is worth reading after this article.</p>
+                <p>Increase <code>n_layer</code> from 6 to 12, <code>n_heads</code> from 6 to 12, <code>n_embd</code> from 384 to 768, and <code>block_size</code> from 256 to 1024. You will hit GPU memory limits on free Colab. You need a T4 with 15 GB minimum, or an A100. Then increase the training corpus from 1 MB to roughly 4 GB. Karpathy's <code>nanoGPT</code> repo (github.com/karpathy/nanoGPT) does exactly this and is worth reading after this article.</p>
             </details>
 
             <details>
@@ -1413,17 +1413,17 @@ This is the woman of his trumpet of the world!</div>
 
             <details>
                 <summary>I am a teenager. Is this honestly within reach?</summary>
-                <p>Yes — if you have a year of Python under your belt. We have had fourteen-year-olds in our cohorts work through this exact material with mentoring. Without a guide it is harder; with a guide it is well within reach. The <a href="/courses/ai-ml-masterclass-teens">AI &amp; ML Masterclass for Teens</a> is built around walking students through this and its scaled-up successors.</p>
+                <p>Yes, if you have a year of Python under your belt. We have had fourteen-year-olds in our cohorts work through this exact material with mentoring. Without a guide it is harder; with a guide it is well within reach. The <a href="/courses/ai-ml-masterclass-teens">AI &amp; ML Masterclass for Teens</a> is built around walking students through this and its scaled-up successors.</p>
             </details>
 
             <details>
-                <summary>What about Indian languages — Hindi, Tamil, Bengali?</summary>
+                <summary>What about Indian languages: Hindi, Tamil, Bengali?</summary>
                 <p>The same architecture works. The tokenizer needs to be more careful for non-Latin scripts (UTF-8 character split is messy), and you need a corpus in your target language. We have students who have trained tiny models on Devanagari Hindi corpora using this exact pipeline with a custom tokenizer. The Generative AI Masterclass goes through this as a week-10 project.</p>
             </details>
 
             <details>
                 <summary>Do you have a GitHub with the full code?</summary>
-                <p>Yes — github.com/modernagecoders/nano-gpt-tutorial. One file. README with run instructions. Tested on Colab. MIT licensed. Fork and modify.</p>
+                <p>Yes, github.com/modernagecoders/nano-gpt-tutorial. One file. README with run instructions. Tested on Colab. MIT licensed. Fork and modify.</p>
             </details>
 
             <details>
@@ -1471,7 +1471,7 @@ This is the woman of his trumpet of the world!</div>
 
 
 <style>
-/* real social proof — theme-adaptive: inherits this page's text colour + fonts */
+/* real social proof, theme-adaptive: inherits this page's text colour + fonts */
 .msu{margin:60px auto;max-width:1120px;padding:0 24px;color:inherit;box-sizing:border-box}
 .msu-kick{font-size:.72rem;letter-spacing:.18em;text-transform:uppercase;opacity:.55;font-weight:700;margin:0 0 9px}
 .msu-h{font-size:clamp(1.4rem,3.2vw,2.05rem);margin:0 0 8px;line-height:1.18;font-weight:800}
@@ -1498,7 +1498,7 @@ This is the woman of his trumpet of the world!</div>
 .msu-more a{color:inherit;text-decoration:underline}
 @media(max-width:820px){.msu-grid,.msu-pgrid{grid-template-columns:1fr}}
 </style>
-<section class="msu" aria-label="Student projects"><p class="msu-kick">Real student projects</p><h2 class="msu-h">What our students actually build</h2><p class="msu-sub">Every one is a real, live project shipped by a Modern Age Coders student. Explore more in <a href="/student-labs" style="color:inherit">Student Labs</a>.</p><div class="msu-pgrid"><a class="msu-proj" href="https://lifespantracker.netlify.app/" target="_blank" rel="noopener"><span class="msu-shot"><img src="/images/projects/lifespan.webp" alt="Life Span Tracker" loading="lazy" width="800" height="500"></span><span class="msu-pb"><span class="msu-pc">Tool</span><span class="msu-pt">Life Span Tracker</span><span class="msu-pd">An interactive web tool that calculates expected lifespan, shows days, months and years lived, and visualises remaining time to motivate better habits.</span><span class="msu-pby">by Manay</span><span class="msu-open">Open the live project &#8599;</span></span></a><a class="msu-proj" href="http://yashaswi-2017.my.canva.site" target="_blank" rel="noopener"><span class="msu-shot"><img src="/images/projects/simongame.webp" alt="Simon Game" loading="lazy" width="800" height="500"></span><span class="msu-pb"><span class="msu-pc">Game</span><span class="msu-pt">Simon Game</span><span class="msu-pd">A fun memory-based game where players repeat colour and sound sequences. Each level adds a new challenge — brain-boosting for kids learning logic and focus.</span><span class="msu-pby">by Yashaswi</span><span class="msu-open">Open the live project &#8599;</span></span></a><a class="msu-proj" href="https://robo23middle-stack.github.io/scenes/" target="_blank" rel="noopener"><span class="msu-shot"><img src="/images/projects/slider.webp" alt="Image Slider Website" loading="lazy" width="800" height="500"></span><span class="msu-pb"><span class="msu-pc">Tool</span><span class="msu-pt">Image Slider Website</span><span class="msu-pd">A visually appealing site with a smooth image carousel — auto or manual navigation, responsive layout and beautiful transition effects.</span><span class="msu-pby">by Somraj</span><span class="msu-open">Open the live project &#8599;</span></span></a></div></section>
+<section class="msu" aria-label="Student projects"><p class="msu-kick">Real student projects</p><h2 class="msu-h">What our students actually build</h2><p class="msu-sub">Every one is a real, live project shipped by a Modern Age Coders student. Explore more in <a href="/student-labs" style="color:inherit">Student Labs</a>.</p><div class="msu-pgrid"><a class="msu-proj" href="https://lifespantracker.netlify.app/" target="_blank" rel="noopener"><span class="msu-shot"><img src="/images/projects/lifespan.webp" alt="Life Span Tracker" loading="lazy" width="800" height="500"></span><span class="msu-pb"><span class="msu-pc">Tool</span><span class="msu-pt">Life Span Tracker</span><span class="msu-pd">An interactive web tool that calculates expected lifespan, shows days, months and years lived, and visualises remaining time to motivate better habits.</span><span class="msu-pby">by Manay</span><span class="msu-open">Open the live project &#8599;</span></span></a><a class="msu-proj" href="http://yashaswi-2017.my.canva.site" target="_blank" rel="noopener"><span class="msu-shot"><img src="/images/projects/simongame.webp" alt="Simon Game" loading="lazy" width="800" height="500"></span><span class="msu-pb"><span class="msu-pc">Game</span><span class="msu-pt">Simon Game</span><span class="msu-pd">A fun memory-based game where players repeat colour and sound sequences. Each level adds a new challenge, brain-boosting for kids learning logic and focus.</span><span class="msu-pby">by Yashaswi</span><span class="msu-open">Open the live project &#8599;</span></span></a><a class="msu-proj" href="https://robo23middle-stack.github.io/scenes/" target="_blank" rel="noopener"><span class="msu-shot"><img src="/images/projects/slider.webp" alt="Image Slider Website" loading="lazy" width="800" height="500"></span><span class="msu-pb"><span class="msu-pc">Tool</span><span class="msu-pt">Image Slider Website</span><span class="msu-pd">A visually appealing site with a smooth image carousel, auto or manual navigation, responsive layout and beautiful transition effects.</span><span class="msu-pby">by Somraj</span><span class="msu-open">Open the live project &#8599;</span></span></a></div></section>
 <section class="msu" aria-label="Student and parent reviews"><p class="msu-kick">Parent &amp; student voices</p><h2 class="msu-h">What our families say</h2><p class="msu-sub">Real, verified reviews from Modern Age Coders families. Read hundreds more on our <a href="/love" style="color:inherit">Wall of Love</a>.</p><div class="msu-grid"><figure class="msu-card"><div class="msu-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div><blockquote class="msu-q">&ldquo;Modern Age Coders has been a game-changer for me! I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I&#x27;m now the topper in my class and can confidently write complex programs with ease.&rdquo;</blockquote><figcaption class="msu-who"><span class="msu-av">S</span><span><span class="msu-nm">Samriddha Mondal</span><br><span class="msu-rl">Student</span></span></figcaption></figure><figure class="msu-card"><div class="msu-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div><blockquote class="msu-q">&ldquo;Modern Age Coder have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students&#x27; confidence, keeps them updated with technology, and inspires them to learn without hesitation.&rdquo;</blockquote><figcaption class="msu-who"><span class="msu-av">S</span><span><span class="msu-nm">Sonu Goyal</span><br><span class="msu-rl">Parent</span></span></figcaption></figure><figure class="msu-card"><div class="msu-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div><blockquote class="msu-q">&ldquo;My child Dhairya is really enjoying the Modern Age Coder IT classes. This is his first online class, and he eagerly looks forward to it. I can see his improvement, and I believe he will grow even more interested in the subject. The teachers are very cooperative and listen to our suggestions. Overall, I am very happy with the class.&rdquo;</blockquote><figcaption class="msu-who"><span class="msu-av">S</span><span><span class="msu-nm">Sonam Oswal</span><br><span class="msu-rl">Parent of Dhairya</span></span></figcaption></figure></div></section>
 </main>
 

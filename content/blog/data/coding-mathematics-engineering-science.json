@@ -47,7 +47,7 @@
       },
       {
         "type": "paragraph",
-        "text": "Here's something engineering and science students discover quickly: mathematics and coding aren't separate subjects—they're two sides of the same coin. Every algorithm you write is mathematics in action. Every equation you solve can be automated with code. According to a 2024 IEEE study, 94% of engineering professionals use programming in their daily work, and 87% report that strong mathematical foundations directly improved their coding abilities."
+        "text": "Here's something engineering and science students discover quickly: mathematics and coding aren't separate subjects. They're two sides of the same coin. Every algorithm you write is mathematics in action. Every equation you solve can be automated with code. According to a 2024 IEEE study, 94% of engineering professionals use programming in their daily work, and 87% report that strong mathematical foundations directly improved their coding abilities."
       },
       {
         "type": "paragraph",
@@ -67,7 +67,7 @@
       },
       {
         "type": "paragraph",
-        "text": "At their core, both mathematics and programming are about logical thinking and problem decomposition. When you write code, you're essentially translating mathematical logic into instructions a computer can execute. This isn't just philosophical—it's practical. The same mental processes that help you solve a differential equation help you debug a complex algorithm."
+        "text": "At their core, both mathematics and programming are about logical thinking and problem decomposition. When you write code, you're essentially translating mathematical logic into instructions a computer can execute. This isn't just philosophical. It's practical. The same mental processes that help you solve a differential equation help you debug a complex algorithm."
       },
       {
         "type": "paragraph",
@@ -77,18 +77,18 @@
         "type": "list",
         "style": "unordered",
         "items": [
-          "<strong>Variables in programming</strong> are like variables in algebra—they represent values that can change. When you write <code>x = 5</code>, you're doing exactly what you do in math class.",
-          "<strong>Functions in code</strong> mirror mathematical functions—they take inputs and produce outputs. A Python function <code>f(x) = x² + 2x + 1</code> is identical to its mathematical counterpart.",
+          "<strong>Variables in programming</strong> are like variables in algebra. They represent values that can change. When you write <code>x = 5</code>, you're doing exactly what you do in math class.",
+          "<strong>Functions in code</strong> mirror mathematical functions. They take inputs and produce outputs. A Python function <code>f(x) = x² + 2x + 1</code> is identical to its mathematical counterpart.",
           "<strong>Loops implement</strong> mathematical concepts like summation (Σ) and iteration. Every for-loop is a summation in disguise.",
           "<strong>Conditional statements</strong> reflect logical operations (if-then-else reasoning) that form the basis of mathematical proofs.",
-          "<strong>Data structures</strong> organize information using mathematical principles—trees use graph theory, hash tables use modular arithmetic."
+          "<strong>Data structures</strong> organize information using mathematical principles, trees use graph theory, hash tables use modular arithmetic."
         ]
       },
       {
         "type": "callout",
         "calloutType": "tip",
         "title": "The Hidden Connection",
-        "text": "Every time you write a for-loop to sum numbers, you're implementing the mathematical summation symbol (Σ). When you use recursion, you're applying mathematical induction. Programming is applied mathematics—and understanding this makes you better at both!"
+        "text": "Every time you write a for-loop to sum numbers, you're implementing the mathematical summation symbol (Σ). When you use recursion, you're applying mathematical induction. Programming is applied mathematics, and understanding this makes you better at both!"
       },
       {
         "type": "heading",
@@ -143,14 +143,14 @@
       },
       {
         "type": "paragraph",
-        "text": "Derivatives and integrals help optimize algorithms and model continuous change. Calculus is crucial for physics simulations, optimization problems, and machine learning. The gradient descent algorithm—the backbone of modern AI—is pure calculus implemented in code."
+        "text": "Derivatives and integrals help optimize algorithms and model continuous change. Calculus is crucial for physics simulations, optimization problems, and machine learning. The gradient descent algorithm, the backbone of modern AI, is pure calculus implemented in code."
       },
       {
         "type": "list",
         "style": "unordered",
         "items": [
           "<strong>Used in:</strong> Physics engines, optimization algorithms, gradient descent in ML, control systems",
-          "<strong>Engineering Example:</strong> Aerospace engineers use numerical integration to calculate rocket trajectories—SpaceX's landing algorithms rely on real-time calculus",
+          "<strong>Engineering Example:</strong> Aerospace engineers use numerical integration to calculate rocket trajectories: SpaceX's landing algorithms rely on real-time calculus",
           "<strong>Real Application:</strong> Google's search ranking algorithm uses calculus-based optimization to process 8.5 billion searches daily"
         ]
       },
@@ -186,7 +186,7 @@
         "style": "unordered",
         "items": [
           "<strong>Used in:</strong> Algorithm design, database theory, cryptography, network analysis, compiler design",
-          "<strong>Engineering Example:</strong> Network engineers use graph theory to optimize data routing—Dijkstra's algorithm finds shortest paths",
+          "<strong>Engineering Example:</strong> Network engineers use graph theory to optimize data routing: Dijkstra's algorithm finds shortest paths",
           "<strong>Real Application:</strong> Google Maps processes 1 billion kilometers of routes daily using graph algorithms"
         ]
       },
@@ -202,7 +202,7 @@
       },
       {
         "type": "paragraph",
-        "text": "Let's see how coding and mathematics combine in actual engineering disciplines. These aren't theoretical examples—they're real projects that engineers work on every day, backed by industry data and research."
+        "text": "Let's see how coding and mathematics combine in actual engineering disciplines. These aren't theoretical examples. They're real projects that engineers work on every day, backed by industry data and research."
       },
       {
         "type": "heading",
@@ -219,7 +219,7 @@
         "items": [
           "<strong>Finite Element Analysis (FEA):</strong> Divides structures into thousands of small elements, solving partial differential equations for each. ANSYS and ABAQUS are industry-standard tools.",
           "<strong>Seismic Analysis:</strong> Engineers at AECOM use Python scripts to simulate earthquake responses, processing ground motion data through Fourier transforms.",
-          "<strong>Optimization Algorithms:</strong> Genetic algorithms help minimize material usage while maintaining safety factors—Arup saved 15% on steel costs for the Beijing National Stadium using computational optimization.",
+          "<strong>Optimization Algorithms:</strong> Genetic algorithms help minimize material usage while maintaining safety factors: Arup saved 15% on steel costs for the Beijing National Stadium using computational optimization.",
           "<strong>Geographic Information Systems (GIS):</strong> Combines spatial mathematics with programming for site analysis and urban planning."
         ]
       },
@@ -311,7 +311,7 @@
         "type": "list",
         "style": "unordered",
         "items": [
-          "<strong>Algorithm Analysis:</strong> Big O notation uses limits and asymptotic analysis. Understanding this helps you write code that scales—critical when processing billions of records.",
+          "<strong>Algorithm Analysis:</strong> Big O notation uses limits and asymptotic analysis. Understanding this helps you write code that scales, critical when processing billions of records.",
           "<strong>Machine Learning:</strong> Neural networks are just matrix multiplications and calculus. GPT-4 performs 1.8 trillion mathematical operations per response.",
           "<strong>Cryptography:</strong> RSA encryption uses number theory (prime factorization). Your bank transactions are secured by mathematics that would take 300 trillion years to crack.",
           "<strong>Computer Graphics:</strong> 3D rendering uses linear algebra extensively. Pixar's rendering software solves millions of linear equations per frame."
@@ -349,7 +349,7 @@
           "<strong>Quantum Mechanics Simulations:</strong> Schrödinger's equation is solved numerically for complex systems. IBM's quantum computers use 1,000+ qubits to simulate molecular behavior.",
           "<strong>Particle Physics:</strong> The Higgs boson discovery required analyzing 300 trillion collision events using machine learning algorithms.",
           "<strong>Cosmological Modeling:</strong> Dark matter simulations use N-body calculations. The Millennium Simulation tracked 10 billion particles over 13 billion years of cosmic time.",
-          "<strong>Gravitational Wave Detection:</strong> LIGO uses matched filtering algorithms to detect ripples in spacetime—Nobel Prize-winning work that's pure math and code."
+          "<strong>Gravitational Wave Detection:</strong> LIGO uses matched filtering algorithms to detect ripples in spacetime: Nobel Prize-winning work that's pure math and code."
         ]
       },
       {
@@ -359,7 +359,7 @@
       },
       {
         "type": "paragraph",
-        "text": "Genomics, protein folding, and drug discovery all require computational approaches. Bioinformatics combines biology, statistics, and programming to unlock biological mysteries. The Human Genome Project would have taken 100 years without computational methods—it was completed in 13."
+        "text": "Genomics, protein folding, and drug discovery all require computational approaches. Bioinformatics combines biology, statistics, and programming to unlock biological mysteries. The Human Genome Project would have taken 100 years without computational methods. It was completed in 13."
       },
       {
         "type": "list",
@@ -620,10 +620,10 @@
         "style": "unordered",
         "items": [
           "Write a program to solve quadratic equations using the quadratic formula",
-          "Implement matrix multiplication from scratch—then compare with NumPy's optimized version",
+          "Implement matrix multiplication from scratch, then compare with NumPy's optimized version",
           "Create a numerical integration calculator using Simpson's rule or trapezoidal method",
           "Build a statistics calculator for mean, median, standard deviation, and correlation",
-          "Implement gradient descent to find function minima—the foundation of machine learning"
+          "Implement gradient descent to find function minima, the foundation of machine learning"
         ]
       },
       {
@@ -697,7 +697,7 @@
       },
       {
         "type": "paragraph",
-        "text": "The synergy between mathematics and coding isn't just anecdotal—it's backed by extensive research. Here's what studies show:"
+        "text": "The synergy between mathematics and coding isn't just anecdotal. It's backed by extensive research. Here's what studies show:"
       },
       {
         "type": "list",
@@ -735,10 +735,10 @@
         "type": "list",
         "style": "ordered",
         "items": [
-          "<strong>Week 1-4:</strong> Learn Python basics—variables, loops, functions. Use Khan Academy or Codecademy.",
+          "<strong>Week 1-4:</strong> Learn Python basics, variables, loops, functions. Use Khan Academy or Codecademy.",
           "<strong>Week 5-8:</strong> Implement your math homework in Python. Solve algebra problems with code.",
           "<strong>Week 9-12:</strong> Build a calculator that solves quadratic equations and plots graphs.",
-          "<strong>Ongoing:</strong> Practice on Project Euler—math problems designed to be solved with programming."
+          "<strong>Ongoing:</strong> Practice on Project Euler, math problems designed to be solved with programming."
         ]
       },
       {
@@ -751,9 +751,9 @@
         "style": "ordered",
         "items": [
           "<strong>Month 1:</strong> Master NumPy and learn to think in vectors and matrices.",
-          "<strong>Month 2:</strong> Implement numerical methods—integration, differentiation, root finding.",
+          "<strong>Month 2:</strong> Implement numerical methods, integration, differentiation, root finding.",
           "<strong>Month 3:</strong> Build a physics simulation (pendulum, orbital mechanics, fluid flow).",
-          "<strong>Month 4:</strong> Start machine learning with scikit-learn—understand the math behind algorithms.",
+          "<strong>Month 4:</strong> Start machine learning with scikit-learn, understand the math behind algorithms.",
           "<strong>Ongoing:</strong> Contribute to open-source scientific computing projects."
         ]
       },
@@ -788,7 +788,7 @@
           },
           {
             "title": "Which should I learn first, coding or mathematics?",
-            "content": "Learn them together! Start with basic programming while strengthening your math fundamentals. As you advance in both, you'll see how they complement each other. Research shows this integrated approach is 45% more effective than learning them separately. Neither needs to come first—they reinforce each other."
+            "content": "Learn them together! Start with basic programming while strengthening your math fundamentals. As you advance in both, you'll see how they complement each other. Research shows this integrated approach is 45% more effective than learning them separately. Neither needs to come first. They reinforce each other."
           },
           {
             "title": "What math do I need for machine learning?",
@@ -800,7 +800,7 @@
           },
           {
             "title": "What programming language is best for mathematical computing?",
-            "content": "Python is the most accessible and widely used—85% of data scientists use it. MATLAB is industry-standard in engineering (70% of firms). R is preferred for statistics. Julia is gaining popularity for high-performance computing. Start with Python—it's versatile, beginner-friendly, and has the largest ecosystem of scientific libraries."
+            "content": "Python is the most accessible and widely used: 85% of data scientists use it. MATLAB is industry-standard in engineering (70% of firms). R is preferred for statistics. Julia is gaining popularity for high-performance computing. Start with Python. It's versatile, beginner-friendly, and has the largest ecosystem of scientific libraries."
           },
           {
             "title": "How much math do engineers actually use in their jobs?",
@@ -812,7 +812,7 @@
           },
           {
             "title": "How long does it take to become proficient in both?",
-            "content": "With consistent practice (2-3 hours daily), you can reach intermediate proficiency in both within 12-18 months. Basic competency comes faster—about 6 months. Mastery is a lifelong journey, but you'll start seeing the synergies within weeks of learning both together. The key is consistent, integrated practice rather than studying them in isolation."
+            "content": "With consistent practice (2-3 hours daily), you can reach intermediate proficiency in both within 12-18 months. Basic competency comes faster, about 6 months. Mastery is a lifelong journey, but you'll start seeing the synergies within weeks of learning both together. The key is consistent, integrated practice rather than studying them in isolation."
           }
         ]
       },
@@ -824,7 +824,7 @@
       },
       {
         "type": "paragraph",
-        "text": "Mathematics and coding aren't just related—they're deeply intertwined. In engineering and science, you can't truly excel at one without understanding the other. The equations you learn in class come alive when you implement them in code. The algorithms you write are mathematics in action."
+        "text": "Mathematics and coding aren't just related. They're deeply intertwined. In engineering and science, you can't truly excel at one without understanding the other. The equations you learn in class come alive when you implement them in code. The algorithms you write are mathematics in action."
       },
       {
         "type": "paragraph",
@@ -832,7 +832,7 @@
       },
       {
         "type": "paragraph",
-        "text": "The future belongs to those who can think mathematically and implement computationally. Start building this powerful skill set today—your future career will thank you. As one Google engineer put it: 'The best engineers I know think in equations and code in Python. They see math and code as the same thing, just different notations.'"
+        "text": "The future belongs to those who can think mathematically and implement computationally. Start building this powerful skill set today. Your future career will thank you. As one Google engineer put it: 'The best engineers I know think in equations and code in Python. They see math and code as the same thing, just different notations.'"
       },
       {
         "type": "callout",

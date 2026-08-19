@@ -9,7 +9,7 @@
  *
  * Every page shares the site nav + footer + callback modal + shared
  * stylesheet (/css/age-wise-pages.css). Per-page data injects unique
- * content, colors, keywords, structured data and copy — so each page
+ * content, colors, keywords, structured data and copy, so each page
  * reads as uniquely written, not templated.
  */
 
@@ -399,7 +399,7 @@ function render(cfg) {
 
     <meta name="description" content="${esc(cfg.metaDescription)}">
     <!-- meta keywords intentionally not emitted: Google has ignored it since 2009 and
-         Bing treats it as a SPAM SIGNAL — and Bing is the index ChatGPT/Copilot answer from.
+         Bing treats it as a SPAM SIGNAL, and Bing is the index ChatGPT/Copilot answer from.
          See scripts/strip-meta-keywords.py. -->
     <meta name="author" content="Modern Age Coders">
     <link rel="canonical" href="${canon}">
@@ -573,12 +573,12 @@ function render(cfg) {
                     <article class="age-format-card primary">
                         <span class="age-format-tag">Option A</span>
                         <h3>Live 1-on-1 Online Class</h3>
-                        <p>One teacher, one learner, the full 1 hour. The teacher adapts pace in real time — slowing down on tricky concepts, speeding up where your child is already fluent. Best for focused learners, specific exam prep, or fastest progress.</p>
+                        <p>One teacher, one learner, the full 1 hour. The teacher adapts pace in real time, slowing down on tricky concepts, speeding up where your child is already fluent. Best for focused learners, specific exam prep, or fastest progress.</p>
                         <ul class="age-format-list">
                             <li>1 teacher, 1 student, 1 hour per session</li>
                             <li>Pace fully adjusted to your child</li>
                             <li>Focused help on school projects and exams</li>
-                            <li>Flexible timing — you pick the slots</li>
+                            <li>Flexible timing. You pick the slots</li>
                             <li>Every class recorded and shared with parents</li>
                         </ul>
                         <div class="age-format-price"><strong>&#8377;2,499</strong><span>/ month &middot; 8 sessions</span></div>
@@ -590,7 +590,7 @@ function render(cfg) {
                         <ul class="age-format-list">
                             <li>Small groups of 4 to 6 similar-level learners</li>
                             <li>1 hour live session, 2 sessions per week</li>
-                            <li>Peer project reviews — students present to each other</li>
+                            <li>Peer project reviews, students present to each other</li>
                             <li>Fixed schedule, same classmates each week</li>
                             <li>Class recording and parent progress report</li>
                         </ul>
@@ -625,7 +625,7 @@ function render(cfg) {
         <section class="age-section">
             <div class="age-wrap">
                 <span class="age-eyebrow">Common questions from parents</span>
-                <h2 class="age-h2">${cfg.faqHeading || 'Before you book the demo — answered honestly.'}</h2>
+                <h2 class="age-h2">${cfg.faqHeading || 'Before you book the demo, answered honestly.'}</h2>
                 <p class="age-lede">${cfg.faqLede || "Short, plain answers. If your question isn't here, tap the callback button at the top and a human will get back to you the same day."}</p>
                 <div class="age-faq">${renderFAQs(cfg.faqs)}
                 </div>

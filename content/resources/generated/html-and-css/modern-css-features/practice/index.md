@@ -57,7 +57,7 @@ category: "HTML and CSS"
 
 **Answer:** It marks the element as a query container so descendants can use `@container` queries based on its width.
 
-Without `container-type`, the browser does not track the element's size for container queries. `inline-size` is the most common value — it means 'only track the inline axis (width)'.
+Without `container-type`, the browser does not track the element's size for container queries. `inline-size` is the most common value. It means 'only track the inline axis (width)'.
 
 ### Q7. [Easy] What does `:focus-visible` match?
 
@@ -87,7 +87,7 @@ Logical properties use 'inline' (text direction) and 'block' (flow direction) in
 
 *Hint:* Components do not know about viewports.
 
-**Answer:** A component does not know how wide the viewport is — it knows how wide its container is. Container queries let the same component adapt correctly whether it is in a narrow sidebar or a wide hero.
+**Answer:** A component does not know how wide the viewport is. It knows how wide its container is. Container queries let the same component adapt correctly whether it is in a narrow sidebar or a wide hero.
 
 Media queries are based on the viewport. Container queries are based on the container of a component. This is the last missing piece for truly reusable, responsive components.
 
@@ -215,7 +215,7 @@ The first argument is the minimum, the second is the preferred (fluid) value, an
 
 **Answer:** Creates an 80x80 square. The width is 80px and `aspect-ratio: 1` makes the height match.
 
-`aspect-ratio: 1` is shorthand for `1 / 1` — a square. Set width (or height) and the other dimension follows automatically.
+`aspect-ratio: 1` is shorthand for `1 / 1`, a square. Set width (or height) and the other dimension follows automatically.
 
 ### Q22. [Medium] Is this valid?
 
@@ -304,7 +304,7 @@ Nested :has() is valid but slower and harder to read. Unless you need to match t
 
 **Answer:** It lets CSS transition from a fixed size to `auto` (or `min-content`, `max-content`, etc.), which historically was impossible. Enables animating accordions open without JavaScript.
 
-Before `interpolate-size`, animating from 0 to `height: auto` did not work — browsers could not interpolate. The new property unlocks long-awaited accordion and dropdown animations.
+Before `interpolate-size`, animating from 0 to `height: auto` did not work, browsers could not interpolate. The new property unlocks long-awaited accordion and dropdown animations.
 
 ### Q30. [Hard] When would you use `container-type: size` instead of `inline-size`?
 
@@ -312,7 +312,7 @@ Before `interpolate-size`, animating from 0 to `height: auto` did not work — b
 
 **Answer:** Use `size` when you need to query the container's height as well. It tracks both width and height. Use `inline-size` (more efficient) when you only need width, which is most of the time.
 
-`size` is more expensive because the browser must track both dimensions. Use it only when your design actually depends on container height — for example, a card that changes layout based on available vertical space.
+`size` is more expensive because the browser must track both dimensions. Use it only when your design actually depends on container height, for example, a card that changes layout based on available vertical space.
 
 ### Q31. [Hard] Why is `color-mix(in oklab, ...)` preferred over `in srgb`?
 
@@ -328,7 +328,7 @@ sRGB mixing can produce unexpected intermediate colors because the color space i
 
 **Answer:** Manual line breaks force a break at a fixed position regardless of screen size, often breaking badly on narrow or wide screens. `text-wrap: balance` lets the browser rebalance at any size, so the heading always looks well-wrapped.
 
-Balance is responsive — it recalculates on every resize. Manual `` is a static commitment to a specific break position. Use balance for headings, let the browser do the work.
+Balance is responsive. It recalculates on every resize. Manual `` is a static commitment to a specific break position. Use balance for headings, let the browser do the work.
 
 ## Multiple Choice Questions
 

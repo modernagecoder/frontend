@@ -17,7 +17,7 @@
     <!-- SEO Meta Tags -->
     <meta name="description" content="56+ practice questions on Conditional Statements (if, else, switch) in JavaScript. Easy, medium, and hard questions with hints, answers, and coding challenges.">
     <!-- meta keywords intentionally not emitted: Google has ignored it since 2009 and Bing
-         treats it as a SPAM SIGNAL — and Bing is the index ChatGPT/Copilot answer from.
+         treats it as a SPAM SIGNAL, and Bing is the index ChatGPT/Copilot answer from.
          See scripts/strip-meta-keywords.py. -->
     <meta name="author" content="Modern Age Coders">
     <meta name="robots" content="index, follow">
@@ -138,7 +138,7 @@
                 <span class="badge badge-beginner">Beginner</span>
                 <span class="badge badge-questions">56 Questions</span>
             </div>
-            <h1 class="resource-title">Practice Questions &mdash; Conditional Statements (if, else, switch)</h1>
+            <h1 class="resource-title">Practice Questions: Conditional Statements (if, else, switch)</h1>
             <a href="/resources/javascript/conditional-statements" class="notes-link">&larr; Back to Notes</a>
         </div><!-- /resource-header -->
 
@@ -681,11 +681,11 @@ if (n === false) {
 <div class="question-card">
                 <div class="question-number">MCQ 11</div>
                 <div class="question-text">What happens if you write: if (x = 5) { ... }?</div>
-                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Checks if x equals 5</li><li><span class="mcq-option-label">B.</span> Assigns 5 to x, and the block always runs (5 is truthy)</li><li><span class="mcq-option-label">C.</span> Syntax error</li><li><span class="mcq-option-label">D.</span> Assigns 5 to x, and the block never runs</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-11" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-11"><strong>Answer: B</strong><br><strong>B is correct.</strong> <code>x = 5</code> is assignment, not comparison. It assigns 5 to x and evaluates to 5. Since 5 is truthy, the if block always runs. This is a common bug — use <code>===</code> for comparison.</div></div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Checks if x equals 5</li><li><span class="mcq-option-label">B.</span> Assigns 5 to x, and the block always runs (5 is truthy)</li><li><span class="mcq-option-label">C.</span> Syntax error</li><li><span class="mcq-option-label">D.</span> Assigns 5 to x, and the block never runs</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-11" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-11"><strong>Answer: B</strong><br><strong>B is correct.</strong> <code>x = 5</code> is assignment, not comparison. It assigns 5 to x and evaluates to 5. Since 5 is truthy, the if block always runs. This is a common bug. Use <code>===</code> for comparison.</div></div>
 <div class="question-card">
                 <div class="question-number">MCQ 12</div>
                 <div class="question-text">In a switch, what is the default case?</div>
-                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> The first case that runs</li><li><span class="mcq-option-label">B.</span> The case that runs when no other case matches</li><li><span class="mcq-option-label">C.</span> The case that always runs</li><li><span class="mcq-option-label">D.</span> A required part of every switch</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-12" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-12"><strong>Answer: B</strong><br><strong>B is correct.</strong> <code>default</code> runs when no case matches, similar to <code>else</code> in if-else. It is optional — you do not have to include it, but it is good practice for handling unexpected values.</div></div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> The first case that runs</li><li><span class="mcq-option-label">B.</span> The case that runs when no other case matches</li><li><span class="mcq-option-label">C.</span> The case that always runs</li><li><span class="mcq-option-label">D.</span> A required part of every switch</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-12" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-12"><strong>Answer: B</strong><br><strong>B is correct.</strong> <code>default</code> runs when no case matches, similar to <code>else</code> in if-else. It is optional. You do not have to include it, but it is good practice for handling unexpected values.</div></div>
 <div class="question-card">
                 <div class="question-number">MCQ 13</div>
                 <div class="question-text">What is the ternary operator syntax?</div>

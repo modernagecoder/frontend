@@ -14,7 +14,7 @@ Find answers to common questions about our courses, pricing, and enrollment
 
 +
 
-Modern Age Coders is a platform dedicated to teaching Coding and Maths to young minds aged 6—18 and college students aged 18–21. We also collaborate with companies to help build their systems and automation tools, offering practical exposure to real-world projects.
+Modern Age Coders is a platform dedicated to teaching Coding and Maths to young minds aged 6: 18 and college students aged 18–21. We also collaborate with companies to help build their systems and automation tools, offering practical exposure to real-world projects.
 
 ### Do I need any prior coding experience?
 
@@ -44,7 +44,7 @@ Our courses are designed for students aged 6-21, with different difficulty level
 
 +
 
-We offer a range of Coding and Maths courses tailored to different age groups and skill levels — from beginners to advanced. Our curriculum includes programming, computational thinking, and maths modules. Check our courses page for the full list.
+We offer a range of Coding and Maths courses tailored to different age groups and skill levels, from beginners to advanced. Our curriculum includes programming, computational thinking, and maths modules. Check our courses page for the full list.
 
 ### Where are your classes conducted?
 
@@ -68,13 +68,13 @@ We teach Python, JavaScript, HTML, CSS, Java, C++, and block-based platforms lik
 
 +
 
-Yes, we prepare students for coding competitions and olympiads — combining algorithmic practice with problem-solving techniques to strengthen their competitive performance.
+Yes, we prepare students for coding competitions and olympiads, combining algorithmic practice with problem-solving techniques to strengthen their competitive performance.
 
 ### Are the courses project-based?
 
 +
 
-Yes — every course includes hands-on projects to ensure practical understanding. Projects are designed to simulate real-world scenarios and give students practical exposure.
+Yes, every course includes hands-on projects to ensure practical understanding. Projects are designed to simulate real-world scenarios and give students practical exposure.
 
 ### Are classes live or pre-recorded?
 

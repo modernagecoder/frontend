@@ -17,7 +17,7 @@
     <!-- SEO Meta Tags -->
     <meta name="description" content="Master element, class, id, attribute, and combinator selectors. Understand specificity and the cascade.">
     <!-- meta keywords intentionally not emitted: Google has ignored it since 2009 and Bing
-         treats it as a SPAM SIGNAL — and Bing is the index ChatGPT/Copilot answer from.
+         treats it as a SPAM SIGNAL, and Bing is the index ChatGPT/Copilot answer from.
          See scripts/strip-meta-keywords.py. -->
     <meta name="author" content="Modern Age Coders">
     <meta name="robots" content="index, follow">
@@ -151,7 +151,7 @@
         "name": "Using Descendant When You Meant Child",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "A space (descendant) matches elements at any depth. <code>&gt;</code> (child) matches only direct children. For dropdown menus and nested lists, the difference is huge — descendant will accidentally style nested items too."
+          "text": "A space (descendant) matches elements at any depth. <code>&gt;</code> (child) matches only direct children. For dropdown menus and nested lists, the difference is huge, descendant will accidentally style nested items too."
         }
       }
     ]
@@ -210,7 +210,7 @@
 
             <section id="what" class="content-section">
                 <h2>What Is It?</h2>
-                <h2>What Are CSS Selectors?</h2><p>A <strong>selector</strong> is how you tell CSS which HTML elements to style. In CSS, you write rules like <code>h1 { color: red; }</code> — the <code>h1</code> is the selector. But there are many, many more ways to target elements than just their tag name. You can target by class, by ID, by attribute, by position in a list, by whether they are children of other elements, and much more.</p><p>Selectors are the foundation of CSS. The better you know them, the more surgical and precise your styling becomes. Instead of wrapping everything in extra divs and classes, you can use smart selectors to target exactly what you want.</p><h3>What Is Specificity?</h3><p>When multiple CSS rules try to style the same element, there is a conflict. Which rule wins? <strong>Specificity</strong> is the system CSS uses to pick the winner. Every selector has a specificity score. The higher score wins. An ID beats a class. A class beats an element. Inline styles beat almost everything.</p>
+                <h2>What Are CSS Selectors?</h2><p>A <strong>selector</strong> is how you tell CSS which HTML elements to style. In CSS, you write rules like <code>h1 { color: red; }</code>, the <code>h1</code> is the selector. But there are many, many more ways to target elements than just their tag name. You can target by class, by ID, by attribute, by position in a list, by whether they are children of other elements, and much more.</p><p>Selectors are the foundation of CSS. The better you know them, the more surgical and precise your styling becomes. Instead of wrapping everything in extra divs and classes, you can use smart selectors to target exactly what you want.</p><h3>What Is Specificity?</h3><p>When multiple CSS rules try to style the same element, there is a conflict. Which rule wins? <strong>Specificity</strong> is the system CSS uses to pick the winner. Every selector has a specificity score. The higher score wins. An ID beats a class. A class beats an element. Inline styles beat almost everything.</p>
             </section>
 
             <section id="why" class="content-section">
@@ -224,18 +224,18 @@
 h1 { font-size: 32px; }   /* all h1 elements */
 button { cursor: pointer; } /* all buttons */</code></pre><h3>2. Class Selector</h3><p>Targets elements with a specific class attribute. Start with a period <code>.</code>.</p><pre><code>.highlight { background: yellow; }
 .big { font-size: 24px; }</code></pre><p>In HTML: <code>&lt;p class="highlight"&gt;This is highlighted&lt;/p&gt;</code>. Classes can be reused on many elements.</p><h3>3. ID Selector</h3><p>Targets the one element with a specific id. Start with a hash <code>#</code>.</p><pre><code>#header { background: black; }
-#main { padding: 20px; }</code></pre><p>IDs should be unique on a page — only one element should have the same id.</p><h3>4. Universal Selector</h3><p>The asterisk <code>*</code> targets every element on the page. Useful for resetting default browser styles.</p><pre><code>* {
+#main { padding: 20px; }</code></pre><p>IDs should be unique on a page, only one element should have the same id.</p><h3>4. Universal Selector</h3><p>The asterisk <code>*</code> targets every element on the page. Useful for resetting default browser styles.</p><pre><code>* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }</code></pre><h3>5. Attribute Selector</h3><p>Targets elements with a specific attribute. Use square brackets.</p><pre><code>[type="text"] { border: 1px solid grey; }
 [disabled] { opacity: 0.5; }
 a[target="_blank"] { color: red; }</code></pre><p>This lets you style elements based on their attributes without needing classes.</p><h3>6. Descendant Selector (Space)</h3><p>A descendant selector uses a space between two selectors. It matches elements that are inside other elements, at any depth.</p><pre><code>ul li { color: blue; }  /* every li inside a ul, at any depth */
-article p { font-size: 18px; }  /* every p inside an article */</code></pre><h3>7. Child Selector (>)</h3><p>The child combinator <code>&gt;</code> is like the descendant selector, but only matches direct children — not grandchildren.</p><pre><code>ul &gt; li { list-style: square; }
+article p { font-size: 18px; }  /* every p inside an article */</code></pre><h3>7. Child Selector (>)</h3><p>The child combinator <code>&gt;</code> is like the descendant selector, but only matches direct children, not grandchildren.</p><pre><code>ul &gt; li { list-style: square; }
 /* Only direct li children of ul, not nested li inside inner lists */</code></pre><h3>8. Adjacent Sibling Selector (+)</h3><p>The plus sign <code>+</code> matches an element that comes immediately after another element, and both share the same parent.</p><pre><code>h1 + p { font-weight: bold; }
 /* The first paragraph right after every h1 becomes bold */</code></pre><h3>9. General Sibling Selector (~)</h3><p>The tilde <code>~</code> matches all siblings that come after an element, not just the immediate one.</p><pre><code>h1 ~ p { color: grey; }
 /* Every p that comes after an h1 (sharing the same parent) becomes grey */</code></pre><h3>10. Grouping (Comma)</h3><p>Separate multiple selectors with commas to apply the same rule to all of them.</p><pre><code>h1, h2, h3 { font-family: Georgia; }
-.button, .link, input[type="submit"] { cursor: pointer; }</code></pre><h3>Specificity Rules</h3><p>Specificity is calculated as a score with four parts (inline, ID, class, element). Here are the values:</p><ul><li><strong>Inline style</strong> (<code>style="..."</code>) — specificity 1000</li><li><strong>ID selector</strong> (<code>#main</code>) — specificity 100</li><li><strong>Class, attribute, pseudo-class</strong> (<code>.btn</code>, <code>[type]</code>, <code>:hover</code>) — specificity 10</li><li><strong>Element, pseudo-element</strong> (<code>p</code>, <code>::before</code>) — specificity 1</li></ul><p>When selectors combine, add up the specificity:</p><ul><li><code>p</code> = 1</li><li><code>.note</code> = 10</li><li><code>#main</code> = 100</li><li><code>#main p</code> = 101</li><li><code>#main .note</code> = 110</li><li><code>.card p.bold</code> = 21 (class + element + class)</li></ul><h3>The !important Flag (and Why to Avoid It)</h3><p>If you add <code>!important</code> to a CSS value, it overrides normal specificity rules:</p><pre><code>p { color: red !important; }</code></pre><p>But <strong>do not use !important</strong> unless you really have to. It makes CSS hard to maintain because now you cannot override it without another !important. Every new !important piles on the mess. Better specificity is almost always a cleaner solution.</p><h3>The Cascade and Inheritance</h3><p>The cascade (which gives CSS its name) decides which rule wins. The factors, in order:</p><ol><li><strong>Importance</strong> (<code>!important</code> values win)</li><li><strong>Specificity</strong> (higher wins)</li><li><strong>Source order</strong> (later wins when specificity is equal)</li></ol><p><strong>Inheritance</strong> is when a child element takes on styles from its parent. Some properties (like <code>color</code> and <code>font-family</code>) are inherited by default. Others (like <code>margin</code> and <code>border</code>) are not. This is why setting <code>font-family</code> on <code>body</code> automatically applies to everything inside.</p>
+.button, .link, input[type="submit"] { cursor: pointer; }</code></pre><h3>Specificity Rules</h3><p>Specificity is calculated as a score with four parts (inline, ID, class, element). Here are the values:</p><ul><li><strong>Inline style</strong> (<code>style="..."</code>), specificity 1000</li><li><strong>ID selector</strong> (<code>#main</code>), specificity 100</li><li><strong>Class, attribute, pseudo-class</strong> (<code>.btn</code>, <code>[type]</code>, <code>:hover</code>), specificity 10</li><li><strong>Element, pseudo-element</strong> (<code>p</code>, <code>::before</code>), specificity 1</li></ul><p>When selectors combine, add up the specificity:</p><ul><li><code>p</code> = 1</li><li><code>.note</code> = 10</li><li><code>#main</code> = 100</li><li><code>#main p</code> = 101</li><li><code>#main .note</code> = 110</li><li><code>.card p.bold</code> = 21 (class + element + class)</li></ul><h3>The !important Flag (and Why to Avoid It)</h3><p>If you add <code>!important</code> to a CSS value, it overrides normal specificity rules:</p><pre><code>p { color: red !important; }</code></pre><p>But <strong>do not use !important</strong> unless you really have to. It makes CSS hard to maintain because now you cannot override it without another !important. Every new !important piles on the mess. Better specificity is almost always a cleaner solution.</p><h3>The Cascade and Inheritance</h3><p>The cascade (which gives CSS its name) decides which rule wins. The factors, in order:</p><ol><li><strong>Importance</strong> (<code>!important</code> values win)</li><li><strong>Specificity</strong> (higher wins)</li><li><strong>Source order</strong> (later wins when specificity is equal)</li></ol><p><strong>Inheritance</strong> is when a child element takes on styles from its parent. Some properties (like <code>color</code> and <code>font-family</code>) are inherited by default. Others (like <code>margin</code> and <code>border</code>) are not. This is why setting <code>font-family</code> on <code>body</code> automatically applies to everything inside.</p>
             </section>
 
             <section id="code-examples" class="content-section">
@@ -292,7 +292,7 @@ article p { font-size: 18px; }  /* every p inside an article */</code></pre><h3>
   &lt;ul&gt;
     &lt;li&gt;Item 1
       &lt;ul&gt;
-        &lt;li&gt;Nested item 1 (also blue — deep descendant)&lt;/li&gt;
+        &lt;li&gt;Nested item 1 (also blue, deep descendant)&lt;/li&gt;
       &lt;/ul&gt;
     &lt;/li&gt;
     &lt;li&gt;Item 2&lt;/li&gt;
@@ -302,13 +302,13 @@ article p { font-size: 18px; }  /* every p inside an article */</code></pre><h3>
   &lt;ul class=&quot;direct-only&quot;&gt;
     &lt;li&gt;Direct child (bold red)
       &lt;ul&gt;
-        &lt;li&gt;Nested (NOT bold red — it is a grandchild)&lt;/li&gt;
+        &lt;li&gt;Nested (NOT bold red. It is a grandchild)&lt;/li&gt;
       &lt;/ul&gt;
     &lt;/li&gt;
     &lt;li&gt;Direct child (bold red)&lt;/li&gt;
   &lt;/ul&gt;
 &lt;/body&gt;
-&lt;/html&gt;</code></pre><div class="code-example-explanation">This shows the difference between descendant (space) and child (>) selectors. <code>ul li</code> matches every li inside a ul, even nested ones. <code>.direct-only &gt; li</code> matches only li that are DIRECT children of the ul — not grandchildren (like li inside a nested ul). Both lists look different because of this.</div><div class="code-example-output">First list has all items blue (including nested). Second list has only the top-level items bold red; the nested item is just blue.</div></div>
+&lt;/html&gt;</code></pre><div class="code-example-explanation">This shows the difference between descendant (space) and child (>) selectors. <code>ul li</code> matches every li inside a ul, even nested ones. <code>.direct-only &gt; li</code> matches only li that are DIRECT children of the ul, not grandchildren (like li inside a nested ul). Both lists look different because of this.</div><div class="code-example-output">First list has all items blue (including nested). Second list has only the top-level items bold red; the nested item is just blue.</div></div>
 <div class="code-example"><div class="code-example-title">Adjacent and General Sibling Selectors</div><pre><code class="language-python">&lt;!DOCTYPE html&gt;
 &lt;html&gt;
 &lt;head&gt;
@@ -331,12 +331,12 @@ article p { font-size: 18px; }  /* every p inside an article */</code></pre><h3>
 &lt;body&gt;
   &lt;h1&gt;Main Heading&lt;/h1&gt;
   &lt;p&gt;This is the first paragraph after h1 (bold green).&lt;/p&gt;
-  &lt;p&gt;This one is NOT — it is the second paragraph.&lt;/p&gt;
+  &lt;p&gt;This one is NOT. It is the second paragraph.&lt;/p&gt;
 
   &lt;h2&gt;Second Heading&lt;/h2&gt;
-  &lt;p&gt;First paragraph (italic red — it is a sibling of h2).&lt;/p&gt;
-  &lt;p&gt;Second paragraph (also italic red — also a sibling).&lt;/p&gt;
-  &lt;p&gt;Third paragraph (still red — general sibling selector).&lt;/p&gt;
+  &lt;p&gt;First paragraph (italic red, it is a sibling of h2).&lt;/p&gt;
+  &lt;p&gt;Second paragraph (also italic red, also a sibling).&lt;/p&gt;
+  &lt;p&gt;Third paragraph (still red, general sibling selector).&lt;/p&gt;
 &lt;/body&gt;
 &lt;/html&gt;</code></pre><div class="code-example-explanation"><code>h1 + p</code> only matches the FIRST p immediately after an h1. <code>h2 ~ p</code> matches EVERY p that comes after an h2 and shares the same parent. These are powerful for styling specific patterns without needing extra classes.</div><div class="code-example-output">First paragraph after h1 is bold green. Next paragraph is normal. After h2, all three paragraphs are italic red.</div></div>
 <div class="code-example"><div class="code-example-title">Attribute Selectors</div><pre><code class="language-python">&lt;!DOCTYPE html&gt;
@@ -455,8 +455,8 @@ article p { font-size: 18px; }  /* every p inside an article */</code></pre><h3>
   &lt;p&gt;Plain paragraph (black)&lt;/p&gt;
   &lt;p class=&quot;blue-text&quot;&gt;Has .blue-text class (blue)&lt;/p&gt;
   &lt;p class=&quot;green-text&quot;&gt;Has .green-text class (green)&lt;/p&gt;
-  &lt;p id=&quot;special&quot; class=&quot;blue-text&quot;&gt;Has ID #special AND class .blue-text — ID wins (purple, yellow bg)&lt;/p&gt;
-  &lt;p id=&quot;special&quot; class=&quot;extra&quot;&gt;ID + extra class — red wins&lt;/p&gt;
+  &lt;p id=&quot;special&quot; class=&quot;blue-text&quot;&gt;Has ID #special AND class .blue-text: ID wins (purple, yellow bg)&lt;/p&gt;
+  &lt;p id=&quot;special&quot; class=&quot;extra&quot;&gt;ID + extra class, red wins&lt;/p&gt;
 &lt;/body&gt;
 &lt;/html&gt;</code></pre><div class="code-example-explanation">This demonstrates specificity in action. Even though the second-to-last paragraph has the class <code>.blue-text</code>, the ID selector <code>#special</code> wins because ID specificity (100) is higher than class specificity (10). The last paragraph has an even more specific selector that wins out.</div><div class="code-example-output">Five paragraphs showing how higher specificity wins: plain black, blue (class), green (class+element), purple with yellow bg (ID beats class), red (ID+class beats everything).</div></div>
 <div class="code-example"><div class="code-example-title">Targeting Every Other li with nth-child</div><pre><code class="language-python">&lt;!DOCTYPE html&gt;
@@ -542,7 +542,7 @@ p.note { color: blue; }  /* more specific wins naturally */</code></pre></div><d
 }</code></pre></div><div class="error-message">Unintentionally styles li inside nested sub-menus too.</div><div class="correct-code"><pre><code class="language-python">.menu &gt; li {
   /* Only direct children of .menu, not nested */
   font-weight: bold;
-}</code></pre></div><div class="mistake-explanation">A space (descendant) matches elements at any depth. <code>&gt;</code> (child) matches only direct children. For dropdown menus and nested lists, the difference is huge — descendant will accidentally style nested items too.</div>
+}</code></pre></div><div class="mistake-explanation">A space (descendant) matches elements at any depth. <code>&gt;</code> (child) matches only direct children. For dropdown menus and nested lists, the difference is huge, descendant will accidentally style nested items too.</div>
             </div>
             </section>
 
@@ -558,7 +558,7 @@ p.note { color: blue; }  /* more specific wins naturally */</code></pre></div><d
 <li>Adjacent sibling (+): h1 + p means the first p right after an h1. General sibling (~): h2 ~ p means every p after an h2.</li>
 <li>Group selectors with commas: h1, h2, h3 applies the same rule to all three.</li>
 <li>Specificity: inline (1000) &gt; ID (100) &gt; class/attr/pseudo-class (10) &gt; element/pseudo-element (1). Higher wins.</li>
-<li>The !important flag overrides normal specificity. Avoid using it — it makes CSS hard to maintain.</li>
+<li>The !important flag overrides normal specificity. Avoid using it. It makes CSS hard to maintain.</li>
 <li>The cascade resolves conflicts using: importance, then specificity, then source order (later wins when equal). Inheritance passes some properties (color, font) from parent to child.</li></ul></div>
             </section>
 

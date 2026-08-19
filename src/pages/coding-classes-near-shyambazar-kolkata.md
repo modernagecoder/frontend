@@ -10,21 +10,21 @@ North Kolkata · Live Online · Shyambazar
 
 # Live Online Coding & Maths Classes near Shyambazar, Kolkata
 
-Modern Age Coders runs premium, live online coding and mathematics classes for families near Shyambazar, Kolkata. Children, teens and adults learn Python, Java, AI & Machine Learning and school-to-college maths in small live batches of 3 to 8, taught by full-time engineers and maths graduates — never pre-recorded videos. Every class is project-based and joins straight from home, with no commute through the Shyambazar 5-point crossing.
+Modern Age Coders runs premium, live online coding and mathematics classes for families near Shyambazar, Kolkata. Children, teens and adults learn Python, Java, AI & Machine Learning and school-to-college maths in small live batches of 3 to 8, taught by full-time engineers and maths graduates, never pre-recorded videos. Every class is project-based and joins straight from home, with no commute through the Shyambazar 5-point crossing.
 
 Small live batches (3–8)Full-time engineer tutorsProject-based, not pre-recordedAges 6 to 67[Book a Free Demo Class](/book-demo)[Explore Courses](/courses)3–8Students per live batch100%Live, never recorded₹1,499Starting fee / month0 minCommute through 5-pointAt a glance
 
-## Coding & maths near Shyambazar — the essentials
+## Coding & maths near Shyambazar: the essentials
 
-Format**100% live online, interactive** — never pre-recordedBatch sizeSmall live batches: group (max 6–8), mini batch (3–4), or 1-on-1Ages**6 to 67** — kids, teens, college students and working professionalsSubjectsCoding (Python, Java, AI/ML, web, DSA) + Mathematics (school to Olympiad)BoardsWBBSE, ICSE/ISC, CBSE — Bengali-, Hindi- and English-medium friendlyFeesFrom ₹1,499/month (group), ₹2,999/month (mini batch), ₹4,999/month (1-on-1)Free demoYes — one free, no-commitment live demo session before you decideServingShyambazar 5-point, Bagbazar, Hatibagan, Kumartuli, Sovabazar, Manicktala, Bidhan Sarani, Belgachia, CossiporeLive online · Shyambazar, Kolkata
+Format**100% live online, interactive**, never pre-recordedBatch sizeSmall live batches: group (max 6–8), mini batch (3–4), or 1-on-1Ages**6 to 67**, kids, teens, college students and working professionalsSubjectsCoding (Python, Java, AI/ML, web, DSA) + Mathematics (school to Olympiad)BoardsWBBSE, ICSE/ISC, CBSE: Bengali-, Hindi- and English-medium friendlyFeesFrom ₹1,499/month (group), ₹2,999/month (mini batch), ₹4,999/month (1-on-1)Free demoYes, one free, no-commitment live demo session before you decideServingShyambazar 5-point, Bagbazar, Hatibagan, Kumartuli, Sovabazar, Manicktala, Bidhan Sarani, Belgachia, CossiporeLive online · Shyambazar, Kolkata
 
 ## Premium teaching, delivered live to your home
 
-Every Modern Age Coders class near Shyambazar is taught live by a full-time engineer or maths graduate in a small batch — there are no pre-recorded lectures, no rotating part-time freelancers, and no oversized classrooms. This is premium, high-quality coding and maths education delivered online, so a child in a Bagbazar joint-family home gets the same calibre of teaching a top metro school offers, without leaving the para.
+Every Modern Age Coders class near Shyambazar is taught live by a full-time engineer or maths graduate in a small batch. There are no pre-recorded lectures, no rotating part-time freelancers, and no oversized classrooms. This is premium, high-quality coding and maths education delivered online, so a child in a Bagbazar joint-family home gets the same calibre of teaching a top metro school offers, without leaving the para.
 
 ### Genuinely live, never recorded
 
-Classes happen in real time over video — your child asks a question and gets an answer in the same second, not a comment left under a playback. Tutors watch each student type, catch mistakes as they happen, and adjust the pace live. A recorded course can never do this.
+Classes happen in real time over video. Your child asks a question and gets an answer in the same second, not a comment left under a playback. Tutors watch each student type, catch mistakes as they happen, and adjust the pace live. A recorded course can never do this.
 
 ### Small live batches
 
@@ -32,19 +32,19 @@ We cap group batches at 6–8 students, run mini batches of 3–4, and offer tru
 
 ### Taught by full-time engineers & maths graduates
 
-Your child is taught by professionals who write code and solve maths for a living, employed full-time to teach — not by a senior student moonlighting after college. They bring real industry and exam insight to Python, Java, AI/ML and mathematics alike.
+Your child is taught by professionals who write code and solve maths for a living, employed full-time to teach, not by a senior student moonlighting after college. They bring real industry and exam insight to Python, Java, AI/ML and mathematics alike.
 
 ### Project-based from day one
 
-Students don't just watch syntax; they build. A bill maker, a Pujo visitor counter, a Bengali spelling drill — every module ends in something real the student can show a parent or add to a portfolio, which is how concepts actually stick.
+Students don't just watch syntax; they build. A bill maker, a Pujo visitor counter, a Bengali spelling drill, every module ends in something real the student can show a parent or add to a portfolio, which is how concepts actually stick.
 
 ### Coding and maths under one roof
 
-We are the only platform in Kolkata pairing structured coding with serious mathematics — from Grade 1 arithmetic to Olympiad (AMC, IOQM, RMO, IMO). For a Shyambazar family raised on academic discipline, both halves of the logical brain are trained together.
+We are the only platform in Kolkata pairing structured coding with serious mathematics, from Grade 1 arithmetic to Olympiad (AMC, IOQM, RMO, IMO). For a Shyambazar family raised on academic discipline, both halves of the logical brain are trained together.
 
 ### Zero commute, full attention
 
-No crawling through the Shyambazar 5-point gridlock or changing autos at Hatibagan and Sovabazar — that recovered 90 minutes per class day goes back into study and rest. The class comes home, on time, every time.
+No crawling through the Shyambazar 5-point gridlock or changing autos at Hatibagan and Sovabazar. That recovered 90 minutes per class day goes back into study and rest. The class comes home, on time, every time.
 
 Course catalogue
 
@@ -63,7 +63,7 @@ Course catalogue
 | [Scratch / Coding for Kids](/courses/coding/kids) | Kids ages 6–12 | Block-based Scratch, web design and AI basics for the youngest starters |
 | [Coding for College](/courses/coding/college) | College students & graduates | DSA, MERN stack, AI/ML, Python for data analysis and MySQL mastery |
 | [Coding for Girls](/coding-classes-for-girls) | Girls-only batches, all ages | Supportive girls-only cohort building real tech and leadership |
-| [Board CS (Class 11–12)](/courses/cbse-icse-computer-science-class-11-12-python-java-complete-course) | Class 11–12 ICSE & CBSE students | Full CS prep — theory, practicals, projects for ICSE Java and CBSE Python |
+| [Board CS (Class 11–12)](/courses/cbse-icse-computer-science-class-11-12-python-java-complete-course) | Class 11–12 ICSE & CBSE students | Full CS prep, theory, practicals, projects for ICSE Java and CBSE Python |
 | [Mathematics Tuition](/online-maths-tuition) | Grade 1 to college, all boards | School, college and Olympiad maths (AMC, IOQM, RMO, IMO) |
 
 Browse everything: [See all courses](/courses) · [View pricing](/pricing)
@@ -84,7 +84,7 @@ ICSE essential
 
 ### Java & BlueJ for ICSE/ISC
 
-For students at Scottish Church Collegiate, WWA Cossipore and other ICSE/ISC schools, Java in BlueJ is not optional — it is the board syllabus. Our [Java Programming](/java-programming-for-kids-teens) and dedicated [Java for ICSE Students](/java-programming-for-icse-students) tracks teach every theory point and practical that appears in the Class 10 paper, with full viva preparation.
+For students at Scottish Church Collegiate, WWA Cossipore and other ICSE/ISC schools, Java in BlueJ is not optional. It is the board syllabus. Our [Java Programming](/java-programming-for-kids-teens) and dedicated [Java for ICSE Students](/java-programming-for-icse-students) tracks teach every theory point and practical that appears in the Class 10 paper, with full viva preparation.
 
 **You'll learn:** syntax, classes, inheritance, polymorphism and OOP design. **You'll build:** every board-style program plus a submission-ready project file.
 
@@ -92,7 +92,7 @@ The next chapter
 
 ### AI & Machine Learning
 
-AI & Machine Learning is reshaping every industry, and Shyambazar's academically ambitious students should not learn it late. Our [AI & Machine Learning](/ai-ml-course-for-teens) track for teens and the deeper [AI/ML Course for College Students](/ai-ml-course-for-college-students) teach real models with Python, not buzzwords — the natural next chapter in this neighbourhood's long intellectual tradition.
+AI & Machine Learning is reshaping every industry, and Shyambazar's academically ambitious students should not learn it late. Our [AI & Machine Learning](/ai-ml-course-for-teens) track for teens and the deeper [AI/ML Course for College Students](/ai-ml-course-for-college-students) teach real models with Python, not buzzwords, the natural next chapter in this neighbourhood's long intellectual tradition.
 
 **You'll learn:** data handling, core ML algorithms and how models actually train. **You'll build:** a working machine-learning project for your portfolio.
 
@@ -100,19 +100,19 @@ Schools we serve
 
 ## Board-aware teaching for North Kolkata schools
 
-Modern Age Coders teaches students from across Shyambazar's schools — including Hare School and Hindu School (two of Asia's oldest, founded in 1818 and 1817), Scottish Church Collegiate School and St. Paul's Cathedral Mission School on the ISC side, WWA Cossipore English School on ICSE, and Khalsa English High School, Kendriya Vidyalaya Cossipore and Apeejay School on CBSE. We also serve students from Bethune Collegiate School and Manmatha Nath Ghosh Memorial School. Whether a child studies in Bengali, Hindi or English medium, classes are taught to match.
+Modern Age Coders teaches students from across Shyambazar's schools, including Hare School and Hindu School (two of Asia's oldest, founded in 1818 and 1817), Scottish Church Collegiate School and St. Paul's Cathedral Mission School on the ISC side, WWA Cossipore English School on ICSE, and Khalsa English High School, Kendriya Vidyalaya Cossipore and Apeejay School on CBSE. We also serve students from Bethune Collegiate School and Manmatha Nath Ghosh Memorial School. Whether a child studies in Bengali, Hindi or English medium, classes are taught to match.
 
 Because the area mixes WBBSE, ICSE/ISC and CBSE, our teaching is board-aware rather than one-size-fits-all. ICSE/ISC students get Java in BlueJ exactly as the board expects; CBSE students get Python and Informatics Practices aligned to their syllabus; and Class 11–12 students preparing for boards can take our complete [ICSE/CBSE Computer Science course](/courses/cbse-icse-computer-science-class-11-12-python-java-complete-course) covering theory, practicals, projects and exam prep. Maths students are taught to their own board's pattern from [Grade 1 through college](/online-maths-tuition).
 
 The neighbourhood
 
-## Shyambazar — learning meets this century's tools
+## Shyambazar: learning meets this century's tools
 
-Shyambazar is the cultural spine of North Kolkata — a dense weave of narrow lanes, joint-family houses and rolling shutters running off the famous five-point crossing with Netaji on his horse at the centre. This is old Calcutta in its truest form: Kumartuli's idol-makers a few lanes over, Hatibagan's markets and theatres, the Sovabazar Rajbari, and Bagbazar's ghats where the Bengal Renaissance once breathed. Education here is treated as almost sacred, carried down through generations of bhadralok families.
+Shyambazar is the cultural spine of North Kolkata, a dense weave of narrow lanes, joint-family houses and rolling shutters running off the famous five-point crossing with Netaji on his horse at the centre. This is old Calcutta in its truest form: Kumartuli's idol-makers a few lanes over, Hatibagan's markets and theatres, the Sovabazar Rajbari, and Bagbazar's ghats where the Bengal Renaissance once breathed. Education here is treated as almost sacred, carried down through generations of bhadralok families.
 
-And yet, for all that academic devotion, serious computer science quietly skipped the para. The offline tuition rooms tucked along Bidhan Sarani and around Hatibagan mastered physics, chemistry and maths, but rarely added real coding — so for years the only way to learn Python or Java properly meant a long, traffic-choked journey south. Families were late to coding not from disinterest but because nobody local was teaching it well.
+And yet, for all that academic devotion, serious computer science quietly skipped the para. The offline tuition rooms tucked along Bidhan Sarani and around Hatibagan mastered physics, chemistry and maths, but rarely added real coding, so for years the only way to learn Python or Java properly meant a long, traffic-choked journey south. Families were late to coding not from disinterest but because nobody local was teaching it well.
 
-That is the gap live online classes close. A child in a Sovabazar flat or off RG Kar Road now learns Python, Java and AI from a full-time engineer in a batch of six — without changing autos at the crossing or losing an evening to the journey. It is, in a sense, the next chapter of a neighbourhood that gave Bengal two of Asia's oldest schools: the same reverence for learning, finally meeting the tools of this century.
+That is the gap live online classes close. A child in a Sovabazar flat or off RG Kar Road now learns Python, Java and AI from a full-time engineer in a batch of six, without changing autos at the crossing or losing an evening to the journey. It is, in a sense, the next chapter of a neighbourhood that gave Bengal two of Asia's oldest schools: the same reverence for learning, finally meeting the tools of this century.
 
 PROJECT 01
 
@@ -132,7 +132,7 @@ PROJECT 03
 
 A Class 10 student wrote a Python billing script for her uncle's small Hatibagan saree shop, auto-calculating GST and printing a clean receipt to replace handwritten slips.
 
-"My son struggled with math for years. Integrating it into coding projects has transformed his understanding and confidence. Highly recommended!" — Shewta Singh, mother of Ishan (verified Google review)
+"My son struggled with math for years. Integrating it into coding projects has transformed his understanding and confidence. Highly recommended!": Shewta Singh, mother of Ishan (verified Google review)
 
 Areas & pin codes
 
@@ -142,7 +142,7 @@ Serving pin codes 700004, 700005, 700006, 700003, 700009, 700036 and 700050 acro
 
 Shyambazar 5-pointBagbazarHatibaganKumartuliSovabazarManicktalaBidhan SaraniUltadangaBelgachiaRG Kar RoadNarikeldangaPhoolbaganTala ParkCossipore
 
-Since every class is 100% live online, your exact lane never matters — if you can join from anywhere around Shyambazar or wider North Kolkata, you can learn with us.
+Since every class is 100% live online, your exact lane never matters, if you can join from anywhere around Shyambazar or wider North Kolkata, you can learn with us.
 
 Weekly schedule
 
@@ -156,7 +156,7 @@ Weekly schedule
 | Night | 8:00–10:00 PM | College students & working professionals | Tue / Thu / Sat |
 | Weekend | 10:00 AM–1:00 PM | Camps, projects & 1-on-1 intensives | Sat / Sun |
 
-Slots are flexible — we fix a timetable around your family's routine during the free demo.
+Slots are flexible. We fix a timetable around your family's routine during the free demo.
 
 Online vs offline
 
@@ -164,7 +164,7 @@ Online vs offline
 
 ### Where live online wins
 
-- No commute through Shyambazar 5-point gridlock — roughly 90 minutes saved on every class day.
+- No commute through Shyambazar 5-point gridlock, roughly 90 minutes saved on every class day.
 - Small live batches of 3–8, versus thirty children in a packed Hatibagan tuition room.
 - Taught by full-time engineers and maths graduates, not whoever the local centre could hire.
 - Real coding and AI/ML that offline North Kolkata tuition rooms simply never offered.
@@ -179,7 +179,7 @@ Online vs offline
 - Very young learners who benefit from hands-on physical play over keyboard work.
 - Families who specifically want a neighbourhood social classroom, not a home setup.
 
-For most Shyambazar families, live online delivers better teaching, smaller batches and zero commute — but we'll always tell you honestly if offline suits your child better.
+For most Shyambazar families, live online delivers better teaching, smaller batches and zero commute, but we'll always tell you honestly if offline suits your child better.
 
 How to start
 
@@ -189,7 +189,7 @@ How to start
 
 ### Book a free demo
 
-Tell us your child's age and goal and [book a free live demo class](/book-demo) — no payment, no commitment.
+Tell us your child's age and goal and [book a free live demo class](/book-demo), no payment, no commitment.
 
 02
 
@@ -201,7 +201,7 @@ Join a real live session, meet the full-time engineer or maths graduate who'll t
 
 ### Pick your course & plan
 
-Choose a track from our [course catalogue](/courses) and a [plan that fits](/pricing) — group, mini batch or 1-on-1.
+Choose a track from our [course catalogue](/courses) and a [plan that fits](/pricing), group, mini batch or 1-on-1.
 
 04
 
@@ -209,7 +209,7 @@ Choose a track from our [course catalogue](/courses) and a [plan that fits](/pri
 
 Lock a schedule around your routine and begin project-based classes, building something real from the very first module.
 
-"The teachers are extremely patient and the classes are completely live and interactive — my son Dhairya looks forward to every session and has built real projects he's proud to show us. It's the personal attention that makes the difference."
+"The teachers are extremely patient and the classes are completely live and interactive, my son Dhairya looks forward to every session and has built real projects he's proud to show us. It's the personal attention that makes the difference."
 
 SSonam OswalMother of Dhairya
 
@@ -219,11 +219,11 @@ Questions & answers
 
 ## Shyambazar coding & maths FAQ
 
-Every class is 100% live and interactive over video — never a pre-recorded lecture. Your child interacts with the tutor in real time and gets answers in the same moment. You can [book a free live demo](/book-demo) to see exactly how it works.We keep batches small and live: groups are capped at 6–8 students, mini batches run 3–4, and we also offer true 1-on-1. This is nothing like a thirty-child Hatibagan tuition room — every learner is seen. See options on our [pricing page](/pricing).Group classes start at ₹1,499/month, mini batches are ₹2,999/month, and 1-on-1 is ₹4,999/month. There are no hidden charges, and the first demo is free. Full details are on the [pricing page](/pricing).Yes — students from Scottish Church Collegiate, WWA Cossipore and other ICSE schools get the full Java (BlueJ) syllabus, including every practical in the Class 10 paper plus viva prep. See [Java for ICSE Students](/java-programming-for-icse-students).Absolutely. Our tutors teach in the language the student is comfortable with — Bengali, Hindi or English — so a Bengali-medium child from Hare or Hindu School can learn coding and maths without a language barrier.Yes — KV Cossipore, Khalsa and other CBSE students are taught Python and Informatics Practices aligned to the CBSE syllabus. Our [Python & AI track](/python-and-ai-classes-for-kids-teens) covers this ground, and Class 11–12 students can take the full [board CS course](/courses/cbse-icse-computer-science-class-11-12-python-java-complete-course).Students join from a single device — a laptop, tablet or even a phone — and most families set up one quiet corner for the class hour. The tutor only needs the child and a stable connection; we'll help you sort the setup during the demo.Yes — because classes are fully online, your child never travels through the Shyambazar 5-point traffic at all. They join from home and save nearly 90 minutes every class day.We teach ages 6 to 67 — from [Scratch for young kids](/courses/coding/kids) to [coding for college](/courses/coding/college) and [Java for working adults](/java-classes-for-adults). There's a track for every member of the family.Tell us in advance and we'll arrange a make-up session or adjust the schedule; because classes are live and small, we work around your routine. Nothing is left to a child catching up alone on a recording.A laptop or desktop is ideal, though a tablet works for younger learners, plus a stable home internet connection. No expensive hardware or special software purchase is required to begin.Yes — teens can take our [AI & ML course](/ai-ml-course-for-teens), college students the [applied AI/ML course](/ai-ml-course-for-college-students), and professionals the [AI/ML certification](/ai-ml-certification-course). All are project-based with real Python and model building.Yes — we're the only Kolkata platform pairing coding with structured [maths tuition](/online-maths-tuition) from Grade 1 to college, including Olympiad prep (AMC, IOQM, RMO, IMO). Many families enrol for both.Yes — students receive a completion certificate after finishing a course with assessed projects, and several tracks like the [AI/ML certification](/ai-ml-certification-course) and [Java certification](/java-certification-course) are credential-focused.Just [book a free live demo class](/book-demo) — it's genuinely free with no commitment. You meet the tutor, see the small live batch in action, and only then decide on a course and plan. You can also message us on WhatsApp at [+91 91233 66161](https://wa.me/919123366161).
+Every class is 100% live and interactive over video, never a pre-recorded lecture. Your child interacts with the tutor in real time and gets answers in the same moment. You can [book a free live demo](/book-demo) to see exactly how it works.We keep batches small and live: groups are capped at 6–8 students, mini batches run 3–4, and we also offer true 1-on-1. This is nothing like a thirty-child Hatibagan tuition room, every learner is seen. See options on our [pricing page](/pricing).Group classes start at ₹1,499/month, mini batches are ₹2,999/month, and 1-on-1 is ₹4,999/month. There are no hidden charges, and the first demo is free. Full details are on the [pricing page](/pricing).Yes, students from Scottish Church Collegiate, WWA Cossipore and other ICSE schools get the full Java (BlueJ) syllabus, including every practical in the Class 10 paper plus viva prep. See [Java for ICSE Students](/java-programming-for-icse-students).Absolutely. Our tutors teach in the language the student is comfortable with, Bengali, Hindi or English, so a Bengali-medium child from Hare or Hindu School can learn coding and maths without a language barrier.Yes: KV Cossipore, Khalsa and other CBSE students are taught Python and Informatics Practices aligned to the CBSE syllabus. Our [Python & AI track](/python-and-ai-classes-for-kids-teens) covers this ground, and Class 11–12 students can take the full [board CS course](/courses/cbse-icse-computer-science-class-11-12-python-java-complete-course).Students join from a single device, a laptop, tablet or even a phone, and most families set up one quiet corner for the class hour. The tutor only needs the child and a stable connection; we'll help you sort the setup during the demo.Yes, because classes are fully online, your child never travels through the Shyambazar 5-point traffic at all. They join from home and save nearly 90 minutes every class day.We teach ages 6 to 67, from [Scratch for young kids](/courses/coding/kids) to [coding for college](/courses/coding/college) and [Java for working adults](/java-classes-for-adults). There's a track for every member of the family.Tell us in advance and we'll arrange a make-up session or adjust the schedule; because classes are live and small, we work around your routine. Nothing is left to a child catching up alone on a recording.A laptop or desktop is ideal, though a tablet works for younger learners, plus a stable home internet connection. No expensive hardware or special software purchase is required to begin.Yes, teens can take our [AI & ML course](/ai-ml-course-for-teens), college students the [applied AI/ML course](/ai-ml-course-for-college-students), and professionals the [AI/ML certification](/ai-ml-certification-course). All are project-based with real Python and model building.Yes. We're the only Kolkata platform pairing coding with structured [maths tuition](/online-maths-tuition) from Grade 1 to college, including Olympiad prep (AMC, IOQM, RMO, IMO). Many families enrol for both.Yes, students receive a completion certificate after finishing a course with assessed projects, and several tracks like the [AI/ML certification](/ai-ml-certification-course) and [Java certification](/java-certification-course) are credential-focused.Just [book a free live demo class](/book-demo). It's genuinely free with no commitment. You meet the tutor, see the small live batch in action, and only then decide on a course and plan. You can also message us on WhatsApp at [+91 91233 66161](https://wa.me/919123366161).
 
 ## Bring the next chapter of Shyambazar's learning home.
 
-Premium live online coding and maths, small batches, full-time engineer tutors — start with one free demo and see the difference for yourself.
+Premium live online coding and maths, small batches, full-time engineer tutors. Start with one free demo and see the difference for yourself.
 
 [Book a Free Demo Class](/book-demo)[View Pricing](/pricing)[WhatsApp +91 91233 66161](https://wa.me/919123366161)Nearby areas we serve
 
@@ -245,13 +245,13 @@ PARENT & STUDENT VOICES
 
 ★★★★★
 
-> “My son has been attending this coding class for the past couple of months, and I've been genuinely impressed with both his progress and enthusiasm. The instructors are incredibly patient and knowledgeable. What stands out most is how excited my son is before every class—he looks forward to learning, problem-solving, and sharing what he's built. I've noticed a big boost in his confidence!”
+> “My son has been attending this coding class for the past couple of months, and I've been genuinely impressed with both his progress and enthusiasm. The instructors are incredibly patient and knowledgeable. What stands out most is how excited my son is before every class. He looks forward to learning, problem-solving, and sharing what he's built. I've noticed a big boost in his confidence!”
 
 *PPoonam RathoreParent*
 
 ★★★★★
 
-> “I'm truly grateful for my experience at Modern Age Coders! The teaching approach of my legendary teachers—Shivam Sir, Mihir Sir and Sonu Sir—is extraordinary. They were not only my teachers but also mentors and friendly figures. The fee is remarkably reasonable and the perks are mind-blowing—one-on-one doubt solving, mentoring, and regular tests. The most impressive part was working on real-world projects.”
+> “I'm truly grateful for my experience at Modern Age Coders! The teaching approach of my legendary teachers, Shivam Sir, Mihir Sir and Sonu Sir, is extraordinary. They were not only my teachers but also mentors and friendly figures. The fee is remarkably reasonable and the perks are mind-blowing, one-on-one doubt solving, mentoring, and regular tests. The most impressive part was working on real-world projects.”
 
 *KKrishnam BhatterFormer Student*
 
@@ -261,7 +261,7 @@ REAL STUDENT PROJECTS
 
 ## What our students actually build
 
-[![BookDesk — AI Book Summaries & Quizzes](/images/projects/bookdesk.webp)AI & MLBookDesk — AI Book Summaries & QuizzesType in any book name and author, and BookDesk pulls together the book's details, a clear summary and a custom quiz to test what you've learned — a genuinely useful study companion. Anika built it as a full-stack AI application, powered by Google Gemini with a live database behind it.by AnikaOpen the live project ↗](https://bookdesk1.netlify.app)[![HairSync — AI Hairstyle Try-On](/images/projects/hairsync.webp)AI & MLHairSync — AI Hairstyle Try-OnUpload a clear photo and try on any hairstyle before you commit — wolf cuts, curtain bangs, fades, braids and dozens of trending looks, rendered onto your own face by AI in seconds. Kriti vibe-coded this virtual try-on studio from a single idea into a working app.by KritiOpen the live project ↗](https://hairsync.lovable.app)[![SkyCast — Weather Forecast App](/images/projects/skycast.webp)Web AppSkyCast — Weather Forecast AppAn interactive weather forecasting site with real-time updates for any location — temperature, humidity, wind speed and conditions in a clean, responsive interface.by KrishOpen the live project ↗](https://krish-shroff.github.io/AuraWeatherTech/)
+[![BookDesk, AI Book Summaries & Quizzes](/images/projects/bookdesk.webp)AI & MLBookDesk, AI Book Summaries & QuizzesType in any book name and author, and BookDesk pulls together the book's details, a clear summary and a custom quiz to test what you've learned, a genuinely useful study companion. Anika built it as a full-stack AI application, powered by Google Gemini with a live database behind it.by AnikaOpen the live project ↗](https://bookdesk1.netlify.app)[![HairSync, AI Hairstyle Try-On](/images/projects/hairsync.webp)AI & MLHairSync, AI Hairstyle Try-OnUpload a clear photo and try on any hairstyle before you commit, wolf cuts, curtain bangs, fades, braids and dozens of trending looks, rendered onto your own face by AI in seconds. Kriti vibe-coded this virtual try-on studio from a single idea into a working app.by KritiOpen the live project ↗](https://hairsync.lovable.app)[![SkyCast, Weather Forecast App](/images/projects/skycast.webp)Web AppSkyCast, Weather Forecast AppAn interactive weather forecasting site with real-time updates for any location, temperature, humidity, wind speed and conditions in a clean, responsive interface.by KrishOpen the live project ↗](https://krish-shroff.github.io/AuraWeatherTech/)
 
 Every one is a real, live project by a student. See more in [Student Labs](/student-labs).
 

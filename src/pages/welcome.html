@@ -16,7 +16,7 @@
 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Welcome to Modern Age Coders — Payment Successful</title>
+    <title>Welcome to Modern Age Coders: Payment Successful</title>
     <meta name="description" content="Your payment was successful. Contact 9123366161 on WhatsApp or call to confirm your class timings and schedule.">
     <meta name="robots" content="noindex, nofollow">
     <link rel="icon" type="image/x-icon" href="/favicon/favicon.ico">
@@ -329,7 +329,7 @@
             <div class="welcome-course" id="course-name-pill" style="display:none;"></div>
 
             <div class="notice" role="region" aria-label="Important next step">
-                <div class="notice-heading">Important — Please Read</div>
+                <div class="notice-heading">Important: Please Read</div>
                 <p class="notice-text">
                     Please contact
                     <span class="phone-number">+91 91233 66161</span>
@@ -356,8 +356,8 @@
             </div>
 
             <div class="payment-details" id="payment-details" style="display:none;">
-                <div><span>Order ID</span><span id="order-id">—</span></div>
-                <div><span>Amount Paid</span><span id="order-amount">—</span></div>
+                <div><span>Order ID</span><span id="order-id">, </span></div>
+                <div><span>Amount Paid</span><span id="order-amount">, </span></div>
             </div>
 
             <div class="next-steps">
@@ -384,7 +384,7 @@
 
             if (course) {
                 var pill = document.getElementById('course-name-pill');
-                pill.textContent = planName ? (course + ' — ' + planName) : course;
+                pill.textContent = planName ? (course + ', ' + planName) : course;
                 pill.style.display = 'inline-block';
             }
 
@@ -401,7 +401,7 @@
             var msgParts = ['Hi! I just completed my payment for'];
             msgParts.push(course ? course : 'a course');
             if (planName) msgParts.push('(' + planName + ')');
-            if (orderId) msgParts.push('— Order ID: ' + orderId);
+            if (orderId) msgParts.push(': Order ID: ' + orderId);
             msgParts.push('. Please share my class timings and schedule.');
             var waLink = document.getElementById('whatsapp-link');
             waLink.href = 'https://wa.me/919123366161?text=' + encodeURIComponent(msgParts.join(' '));

@@ -10,7 +10,7 @@ Live online · serving Raipur
 
 # Coding classes in Raipur, built to actually stick.
 
-Real programming for kids, teens and college students in Raipur — from **Shankar Nagar to Devendra Nagar, Telibandha to Pandri**. Small live batches, a mentor who knows your child's name, and projects they can open and show you.
+Real programming for kids, teens and college students in Raipur, from **Shankar Nagar to Devendra Nagar, Telibandha to Pandri**. Small live batches, a mentor who knows your child's name, and projects they can open and show you.
 
 Book a free demo class[Ask on WhatsApp](https://wa.me/919123366161?text=Hi,%20I'm%20interested%20in%20coding%20classes%20in%20Raipur)★★★★★ **4.9/5****10,000+** students across India**5–8** students per batchFirst class is **free**RaipurEnrollingAreasShankar Nagar, Devendra Nagar, Telibandha, Pandri, Tatibandh & all of RaipurBoardsCGBSE · CBSE · ICSE · IGCSEAges**6–12** kids · **13–18** teens · college & adultsFormatLive online · 1-hour classes · 5–8 per batchTimingAfter-school & weekend slots · ISTProofRecorded sessions · completion certificate · real projectslive online across RaipurFREE DEMO OPEN
 
@@ -20,13 +20,13 @@ Book a free demo class[Ask on WhatsApp](https://wa.me/919123366161?text=Hi,%20I'
 
 ## Where in Raipur we teach
 
-Every class is live online, so your child learns from home — no travel across the city, same small batch either way.
+Every class is live online, so your child learns from home, no travel across the city, same small batch either way.
 
 Shankar NagarDevendra NagarTelibandhaPandriTatibandhCivil LinesFafadihSamta ColonyDaldal SeoniByron Bazaar**Also teaching families near Raipur**[Bhilai](/best-coding-class-in-bhilai) · [every city in Chhattisgarh →](/coding-classes-in-chhattisgarh)
 
 ## Why Raipur families start here
 
-From Shankar Nagar and Devendra Nagar to Telibandha and Pandri, families across Raipur are choosing live online coding classes that go beyond a certificate. We build for real skills — the kind that hold up in an interview or a first internship.
+From Shankar Nagar and Devendra Nagar to Telibandha and Pandri, families across Raipur are choosing live online coding classes that go beyond a certificate. We build for real skills, the kind that hold up in an interview or a first internship.
 
 Raipur was made the capital of Chhattisgarh because it sits almost at the geographic centre of the state, and its district administration calls it the Smart City and Educational Hub of Chhattisgarh. The engineering names are here: NIT Raipur grew out of a 1956 government engineering college and became a National Institute of Technology in 2005, and AIIMS Raipur is one of the six new AIIMS set up under the PMSSY scheme. Pandit Ravishankar Shukla University serves the state from the city. Schools follow the Chhattisgarh board, CGBSE, based in Raipur, and engineering seats fill through the CG-PET entrance and state counselling.
 
@@ -52,7 +52,7 @@ Create colorful websites with HTML and CSS. Raipur kids learn to build their own
 
 ### Python for Young Coders
 
-Start text-based coding with Python — the world's most popular programming language. Create games, solve puzzles, and bring ideas to life with real programming skills.
+Start text-based coding with Python, the world's most popular programming language. Create games, solve puzzles, and bring ideas to life with real programming skills.
 
 [View course](/courses/python-ai-kids-masterclass)Ages 13–18
 
@@ -62,25 +62,25 @@ In demand![Python Programming for Teens in Raipur](/images/python-teens.webp)
 
 ### Python Programming
 
-Master Python — the language behind L&T's automation systems and GSFC's data analytics in Raipur's industrial corridor.
+Master Python, the language behind L&T's automation systems and GSFC's data analytics in Raipur's industrial corridor.
 
 [View course](/courses/python-complete-masterclass-teens)Career![Java Programming for Teens in Raipur](/images/java-teens.webp)
 
 ### Java Programming
 
-Master Java — used by TCS, Infosys, and Raipur's growing tech sector. Build Android apps and enterprise software.
+Master Java, used by TCS, Infosys, and Raipur's growing tech sector. Build Android apps and enterprise software.
 
 [View course](/courses/java-programming-masterclass-for-teens)Build![Web Development for Teens in Raipur](/images/web-dev-teens.webp)
 
 ### Full Stack Web Development
 
-Build complete websites and web apps — skills that Raipur's growing startup ecosystem actively demands.
+Build complete websites and web apps, skills that Raipur's growing startup ecosystem actively demands.
 
 [View course](/courses/web-development-masterclass-teens)Future![AI Machine Learning for Teens in Raipur](/images/ai-ml-teens.webp)
 
 ### AI & Machine Learning
 
-Explore artificial intelligence and machine learning — the technology reshaping Chhattisgarh's growing and pharmaceutical sectors.
+Explore artificial intelligence and machine learning, the technology reshaping Chhattisgarh's growing and pharmaceutical sectors.
 
 [View course](/courses/ai-ml-masterclass-teens)College & 18+
 
@@ -136,7 +136,7 @@ Live
 
 ### A real mentor, live
 
-Every class is taught live by an instructor with industry experience — questions get answered the moment they come up.
+Every class is taught live by an instructor with industry experience, questions get answered the moment they come up.
 
 Small
 
@@ -148,7 +148,7 @@ Build
 
 ### Project every module
 
-Kids don't just watch — they build games, websites and apps they can open, use and show you.
+Kids don't just watch. They build games, websites and apps they can open, use and show you.
 
 Track
 
@@ -158,7 +158,7 @@ Missed a class? Watch the recording. Every learner earns a completion certificat
 
 ## Simple, honest pricing
 
-1-hour live classes: 2 a week in Group and Mini Batch, 1 a week in 1-on-1. Start with a free demo — pay only when you're sure it's right for your child.
+1-hour live classes: 2 a week in Group and Mini Batch, 1 a week in 1-on-1. Start with a free demo, pay only when you're sure it's right for your child.
 
 Group₹1,499/month
 
@@ -189,23 +189,23 @@ Book a free demoPersonal 1-on-1₹4,999/month
 
 Start free
 
-International families pay flat USD rates — the prices above update automatically. Ask us anything on your free demo.
+International families pay flat USD rates, the prices above update automatically. Ask us anything on your free demo.
 
 ## What students actually build
 
-Not screenshots of a syllabus — real, live projects from Modern Age Coders learners and labs. Click through and use them.
+Not screenshots of a syllabus, real, live projects from Modern Age Coders learners and labs. Click through and use them.
 
-[![Word Counter Website](/images/projects/wordcounter.webp) ToolWord Counter WebsiteA simple yet powerful tool that counts words, sentences and paragraphs from user input with instant, real-time results and a clean responsive interface. Built by Vansh · HTML, CSSOpen the live project ↗](https://vanshagarwalwordcounter-sys.github.io/WordCounter/)[![HairSync — AI Hairstyle Try-On](/images/projects/hairsync.webp) AI & MLHairSync — AI Hairstyle Try-OnUpload a clear photo and try on any hairstyle before you commit — wolf cuts, curtain bangs, fades, braids and dozens of trending looks, rendered onto your own face by AI in seconds. Kriti vibe-coded this virtual try-on studio from a single idea into a working app. Built by Kriti · Vibe Coding, AI ImageOpen the live project ↗](https://hairsync.lovable.app)[![GuardianX — AI Bodyguard for the Internet](/images/projects/guardianx.webp) AI & MLGuardianX — AI Bodyguard for the InternetPaste any suspicious link or message and GuardianX returns an instant AI verdict before you become a victim — plus a link scanner, safety score, breach check and live scam alerts built for India. Vibe-coded from idea to working product through prompts, then refined until it genuinely understands how phishing and scams work. Built by Vivaan · Vibe Coding, AIOpen the live project ↗](https://guardianx-cybersaver.lovable.app)[See more student projects →](/student-labs)
+[![Word Counter Website](/images/projects/wordcounter.webp) ToolWord Counter WebsiteA simple yet powerful tool that counts words, sentences and paragraphs from user input with instant, real-time results and a clean responsive interface. Built by Vansh · HTML, CSSOpen the live project ↗](https://vanshagarwalwordcounter-sys.github.io/WordCounter/)[![HairSync, AI Hairstyle Try-On](/images/projects/hairsync.webp) AI & MLHairSync, AI Hairstyle Try-OnUpload a clear photo and try on any hairstyle before you commit, wolf cuts, curtain bangs, fades, braids and dozens of trending looks, rendered onto your own face by AI in seconds. Kriti vibe-coded this virtual try-on studio from a single idea into a working app. Built by Kriti · Vibe Coding, AI ImageOpen the live project ↗](https://hairsync.lovable.app)[![GuardianX, AI Bodyguard for the Internet](/images/projects/guardianx.webp) AI & MLGuardianX, AI Bodyguard for the InternetPaste any suspicious link or message and GuardianX returns an instant AI verdict before you become a victim, plus a link scanner, safety score, breach check and live scam alerts built for India. Vibe-coded from idea to working product through prompts, then refined until it genuinely understands how phishing and scams work. Built by Vivaan · Vibe Coding, AIOpen the live project ↗](https://guardianx-cybersaver.lovable.app)[See more student projects →](/student-labs)
 
 ## What families say
 
-Verified Google reviews from Modern Age Coders families across India. We don't invent testimonials — these are real people, real words.
+Verified Google reviews from Modern Age Coders families across India. We don't invent testimonials, these are real people, real words.
 
 ★★★★★
 
 "I'm truly grateful for my experience at Modern Age Coders!"
 
-The teaching approach of my legendary teachers—Shivam Sir, Mihir Sir and Sonu Sir—is extraordinary. They were not only my teachers but also mentors and friendly figures. The fee is remarkably reasonable and the perks are mind-blowing—one-on-one doubt solving, mentoring, and regular tests. The most impressive part was working on real-world projects.
+The teaching approach of my legendary teachers, Shivam Sir, Mihir Sir and Sonu Sir, is extraordinary. They were not only my teachers but also mentors and friendly figures. The fee is remarkably reasonable and the perks are mind-blowing, one-on-one doubt solving, mentoring, and regular tests. The most impressive part was working on real-world projects.
 
 KBKrishnam BhatterFormer Student★★★★★
 
@@ -243,7 +243,7 @@ SRSujal RamolaStudent
 
 Tell us a little about your child and what they'd like to learn. We'll set up a free, no-pressure demo and help you pick the right starting point.
 
-- A real live class — not a sales call
+- A real live class, not a sales call
 - Meet the mentor before you decide
 - We reply within 48 hours (IST)
 
@@ -253,7 +253,7 @@ Prefer to talk now? Call [9123366161](tel:+919123366161) or [WhatsApp us](https:
 
 Takes under a minute.
 
-## Coding classes in Raipur — FAQs
+## Coding classes in Raipur: FAQs
 
 What is the best coding class in Raipur for kids?Modern Age Coders offers the best coding classes in Raipur for kids aged 6-12. Our courses include Scratch programming, game development, and creative coding with expert instructors. We serve all Raipur areas including Shankar Nagar, Devendra Nagar, Telibandha, and Civil Lines, and Manjalpur.Do you offer online coding classes in Raipur?Yes, we offer live online coding classes for students across Raipur including Shankar Nagar, Devendra Nagar, Telibandha, and Civil Lines, Civil Lines, Fafadih, and all other areas. Our online classes are interactive with small batch sizes of 5-8 students.Do you offer coding classes for CG Board (CGBSE) students in Raipur?Yes, our curriculum supports both CG Board (CG Board) and CBSE students in Raipur. We align our coding and maths courses with CG Board requirements to complement school education.How much do coding classes cost in Raipur?Our group coding classes start at Rs.1499/month with 2 classes per week. Mini Batch (3-4 students) is Rs.2,999/month. Personalized 1-on-1 classes are Rs.4,999/month. We offer a free demo class before enrollment.Can NIT Raipur students join your programming courses?Absolutely! We offer college-level courses in Data Structures & Algorithms, Full Stack Web Development, and AI/Data Science perfect for NIT Raipur and IIT Bhilai (nearby) students preparing for placements.Is the medium of instruction English for Raipur students?Our instructors are comfortable teaching in Hindi and English. Yes! All classes are in English with Hindi support. Raipur students feel comfortable in our friendly, bilingual learning environment.What areas in Raipur do you serve?We serve all areas of Raipur through our online classes including Shankar Nagar, Devendra Nagar, Telibandha, and Civil Lines, Tatibandh, Civil Lines, Fafadih, Samta Colony, Amanaka, Katora Talab, Mowa, Sunder Nagar, and more.How are your coding classes different from other institutes in Raipur?We focus on project-based learning where students build real games, websites, and apps. Our small batch sizes (5-8 students), recorded sessions, expert instructors, and affordable pricing set us apart. We also support CG Board, CBSE, and JEE preparation.Do you teach coding to CGBSE students in Raipur?Yes, and the Chhattisgarh board, CGBSE, is based in Raipur itself, so the state board is a local body. CBSE and ICSE schools run here too. We teach the programming itself, Python or Java, so the school computer paper stops being a memory test.Can NIT Raipur or Pandit Ravishankar Shukla University students join your programming courses?Yes. NIT Raipur became a National Institute of Technology in 2005 and PRSU serves the state from the city, so the theory is close at hand. The college track adds built work: real Python, Java, full-stack or AI/ML projects, carried to something that runs and can be opened in an interview.
 

@@ -81,7 +81,7 @@ SELECT YEAR('2026-04-16'), MONTH('2026-04-16'), DAY('2026-04-16');
 
 **Answer:** `2026  4  16`
 
-YEAR returns 2026, MONTH returns 4 (not 04 — it's a number), DAY returns 16.
+YEAR returns 2026, MONTH returns 4 (not 04. It's a number), DAY returns 16.
 
 ### Q7. [Easy] What is the output?
 
@@ -165,7 +165,7 @@ SELECT DATE_ADD('2026-01-31', INTERVAL 1 MONTH);
 
 **Answer:** `2026-02-28`
 
-Adding 1 month to Jan 31 would give Feb 31, which does not exist. MySQL clamps to the last valid day of the target month — Feb 28 in 2026 (not a leap year).
+Adding 1 month to Jan 31 would give Feb 31, which does not exist. MySQL clamps to the last valid day of the target month: Feb 28 in 2026 (not a leap year).
 
 ### Q14. [Medium] What is the output?
 
@@ -243,7 +243,7 @@ LAST_DAY('2026-02-05') = 2026-02-28 (2026 is not a leap year). Adding 1 day give
 
 *Hint:* Think about time zones and what the column represents.
 
-**Answer:** Use `DATE` when only the calendar day matters (date of birth, invoice date, holiday). Use `DATETIME` for wall-clock moments that should not shift with time zones (a scheduled event's display time). Use `TIMESTAMP` for audit fields (created_at, updated_at) where the column represents a real universal moment — MySQL stores it as UTC and auto-converts to the session's time zone on read.
+**Answer:** Use `DATE` when only the calendar day matters (date of birth, invoice date, holiday). Use `DATETIME` for wall-clock moments that should not shift with time zones (a scheduled event's display time). Use `TIMESTAMP` for audit fields (created_at, updated_at) where the column represents a real universal moment: MySQL stores it as UTC and auto-converts to the session's time zone on read.
 
 The key difference: DATETIME is 'dumb', TIMESTAMP is time-zone aware. TIMESTAMP is also limited to the range 1970 to 2038 because it is stored as a 4-byte Unix epoch.
 
@@ -251,7 +251,7 @@ The key difference: DATETIME is 'dumb', TIMESTAMP is time-zone aware. TIMESTAMP 
 
 *Hint:* What happens to the index on order_date?
 
-**Answer:** Wrapping an indexed column in a function (YEAR, MONTH, DATE_FORMAT, etc.) disables index usage — the optimizer would have to apply the function to every row to evaluate the WHERE. The range version keeps the column 'naked' on the left side, so MySQL can use the B-Tree index to seek directly to the 2026 rows. This is the single most common performance trap with date columns.
+**Answer:** Wrapping an indexed column in a function (YEAR, MONTH, DATE_FORMAT, etc.) disables index usage, the optimizer would have to apply the function to every row to evaluate the WHERE. The range version keeps the column 'naked' on the left side, so MySQL can use the B-Tree index to seek directly to the 2026 rows. This is the single most common performance trap with date columns.
 
 This is called a 'sargable' predicate. Sargable = Search ARGument ABLE = can use an index. Always prefer range predicates over function-wrapped ones on indexed columns.
 
@@ -280,7 +280,7 @@ GROUP BY month
 ORDER BY month;
 ```
 
-The ISO format '%Y-%m' groups correctly and sorts chronologically. The range filter is sargable — it uses the index on order_date.
+The ISO format '%Y-%m' groups correctly and sorts chronologically. The range filter is sargable. It uses the index on order_date.
 
 ### Q24. [Medium] Write a query to list students whose age is between 18 and 22 given a `students(name, dob)` table.
 
@@ -350,7 +350,7 @@ Converting from IST (+05:30) to UTC (+00:00) subtracts 5 hours 30 minutes. 00:30
 
 *Hint:* Think about a query that runs for several seconds.
 
-**Answer:** `NOW()` returns the time the current statement started executing — every call within one statement returns the same value. `SYSDATE()` returns the actual system clock at the moment the function is called — it can return different values within the same statement. `NOW()` is deterministic (safe for replication). `SYSDATE()` is not.
+**Answer:** `NOW()` returns the time the current statement started executing, every call within one statement returns the same value. `SYSDATE()` returns the actual system clock at the moment the function is called. It can return different values within the same statement. `NOW()` is deterministic (safe for replication). `SYSDATE()` is not.
 
 In almost all application code, use NOW(). Use SYSDATE() only for profiling/benchmarking where you want the real wall-clock time per row.
 
@@ -446,7 +446,7 @@ SELECT DATE_FORMAT(NOW(), '%Y-Q%q');
 
 *Hint:* Is %q a valid format code?
 
-**Answer:** `2026-Q` (followed by a literal 'q' — MySQL treats unknown % codes literally)
+**Answer:** `2026-Q` (followed by a literal 'q': MySQL treats unknown % codes literally)
 
 MySQL's DATE_FORMAT does not have a %q specifier for quarter. Unknown codes are passed through as the letter. For quarter, use QUARTER(NOW()) concatenated separately.
 
@@ -507,9 +507,9 @@ EXTRACT(HOUR FROM ...) returns the hour in 24-hour format.
 
 *Hint:* Think about how TIMESTAMP is stored internally.
 
-**Answer:** TIMESTAMP is stored as a 4-byte signed integer representing seconds since the Unix epoch (1970-01-01 UTC). A 32-bit signed integer can hold values up to 2^31 - 1 = 2,147,483,647, which translates to 2038-01-19 03:14:07 UTC — this is the famous 'Y2038 problem'. DATETIME is stored as 8 bytes of packed date/time components, giving it a much wider range but no time-zone awareness.
+**Answer:** TIMESTAMP is stored as a 4-byte signed integer representing seconds since the Unix epoch (1970-01-01 UTC). A 32-bit signed integer can hold values up to 2^31 - 1 = 2,147,483,647, which translates to 2038-01-19 03:14:07 UTC. This is the famous 'Y2038 problem'. DATETIME is stored as 8 bytes of packed date/time components, giving it a much wider range but no time-zone awareness.
 
-For historical dates (pre-1970) or dates far in the future, use DATETIME. For modern audit timestamps where TZ-awareness matters, use TIMESTAMP — but plan for the Y2038 migration to 64-bit timestamps.
+For historical dates (pre-1970) or dates far in the future, use DATETIME. For modern audit timestamps where TZ-awareness matters, use TIMESTAMP, but plan for the Y2038 migration to 64-bit timestamps.
 
 ## Multiple Choice Questions
 
@@ -709,7 +709,7 @@ D. [object Object]
 
 **Answer:** B
 
-**B is correct.** NOW() is deterministic per statement — essential for replication and for keeping audit timestamps consistent across rows in a bulk update. Use SYSDATE() if you want the real clock per call.
+**B is correct.** NOW() is deterministic per statement, essential for replication and for keeping audit timestamps consistent across rows in a bulk update. Use SYSDATE() if you want the real clock per call.
 
 ### Q19. [Medium] To GROUP BY month with correct chronological sorting, which format pattern should you use?
 
@@ -720,7 +720,7 @@ D. [object Object]
 
 **Answer:** C
 
-**C is correct.** '%Y-%m' sorts alphabetically the same as chronologically. The others sort wrong — April comes before January alphabetically, and '04-2026' comes before '04-2025' only because of the month.
+**C is correct.** '%Y-%m' sorts alphabetically the same as chronologically. The others sort wrong: April comes before January alphabetically, and '04-2026' comes before '04-2025' only because of the month.
 
 ### Q20. [Hard] Why does TIMESTAMP have a Y2038 problem?
 

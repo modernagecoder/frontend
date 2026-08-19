@@ -6,7 +6,7 @@ source: src/pages/coding-classes-near-ajc-bose-road-kolkata.html
 ---
 > Live, small-batch online coding & maths classes near AJC Bose Road, Kolkata. Python, Java, AI/ML, ICSE/CBSE board CS. Book a free demo today.
 
-LIVE ONLINE CODING & MATHS — NEAR AJC BOSE ROAD, KOLKATA
+LIVE ONLINE CODING & MATHS: NEAR AJC BOSE ROAD, KOLKATA
 
 # Coding & Maths Classes near AJC Bose Road, Kolkata
 
@@ -18,11 +18,11 @@ Modern Age Coders runs premium, 100% live online coding and mathematics classes 
 
 Here is everything about Modern Age Coders' classes near AJC Bose Road at a glance.
 
-Format**100% live online**, taught in real time; nothing pre-recordedBatch sizeSmall batches of 3–8; mini batches of 3–4; or 1-on-1Ages**6 to 67** — kids, teens, college students and working adultsSubjectsCoding (Python, Java, AI/ML, Scratch, web, DSA) and MathematicsBoardsICSE/ISC (Java/BlueJ), CBSE (Python/Informatics Practices), IGCSE, WBBSEFeesFrom ₹1,499/month (group), ₹2,999/month (mini batch), ₹4,999/month (1-on-1)Free demoYes — one free live demo class, no commitmentServingAJC Bose Road, Park Street, Camac Street, Theatre Road, Loudon Street, Rawdon Street, Elgin Road, Bhowanipore, Park Circus and all of KolkataWHY IT WORKS
+Format**100% live online**, taught in real time; nothing pre-recordedBatch sizeSmall batches of 3–8; mini batches of 3–4; or 1-on-1Ages**6 to 67**, kids, teens, college students and working adultsSubjectsCoding (Python, Java, AI/ML, Scratch, web, DSA) and MathematicsBoardsICSE/ISC (Java/BlueJ), CBSE (Python/Informatics Practices), IGCSE, WBBSEFeesFrom ₹1,499/month (group), ₹2,999/month (mini batch), ₹4,999/month (1-on-1)Free demoYes, one free live demo class, no commitmentServingAJC Bose Road, Park Street, Camac Street, Theatre Road, Loudon Street, Rawdon Street, Elgin Road, Bhowanipore, Park Circus and all of KolkataWHY IT WORKS
 
 ## Genuinely live, premium quality
 
-Every Modern Age Coders class near AJC Bose Road is delivered 100% live by a full-time engineer or maths graduate to a small batch — never a pre-recorded video, never an oversized classroom.
+Every Modern Age Coders class near AJC Bose Road is delivered 100% live by a full-time engineer or maths graduate to a small batch, never a pre-recorded video, never an oversized classroom.
 
 ### Genuinely live, never recorded
 
@@ -38,15 +38,15 @@ Classes are led by full-time professional engineers and mathematics graduates, n
 
 ### Project-based from day one
 
-Children build real, working projects from the first month — apps, games, automations and data tools — not just slides and theory. A clinic queue board, a stats helper, a run tracker: real software your child can show and explain.
+Children build real, working projects from the first month, apps, games, automations and data tools, not just slides and theory. A clinic queue board, a stats helper, a run tracker: real software your child can show and explain.
 
 ### Mapped to your child's board
 
-Our coding maps directly onto the syllabus your child actually sits — ICSE Computer Applications (Java/BlueJ), ISC Computer Science, and CBSE Python and Informatics Practices. School marks and real skill grow together, not in separate silos. See our [board Computer Science course](/courses/cbse-icse-computer-science-class-11-12-python-java-complete-course).
+Our coding maps directly onto the syllabus your child actually sits: ICSE Computer Applications (Java/BlueJ), ISC Computer Science, and CBSE Python and Informatics Practices. School marks and real skill grow together, not in separate silos. See our [board Computer Science course](/courses/cbse-icse-computer-science-class-11-12-python-java-complete-course).
 
 ### No commute, full focus
 
-Learning from home near AJC Bose Road means no evening crawl over the flyover or around the Exide and Park Street junctions. That is roughly 90 minutes saved on every class day — time that goes back into practice, school, or simply rest.
+Learning from home near AJC Bose Road means no evening crawl over the flyover or around the Exide and Park Street junctions. That is roughly 90 minutes saved on every class day, time that goes back into practice, school, or simply rest.
 
 COURSE CATALOGUE
 
@@ -56,12 +56,12 @@ Modern Age Coders teaches the full coding and maths catalogue below, all 100% li
 
 | Course | Who it is for | What you build / learn |
 | --- | --- | --- |
-| [Python & AI for Kids & Teens](/python-and-ai-classes-for-kids-teens) | Ages ~10–17 starting real text-based code | Live project Python plus AI fundamentals — apps, games, automations |
+| [Python & AI for Kids & Teens](/python-and-ai-classes-for-kids-teens) | Ages ~10–17 starting real text-based code | Live project Python plus AI fundamentals, apps, games, automations |
 | [Java Programming for Kids & Teens](/java-programming-for-kids-teens) | Teens, especially ICSE/ISC BlueJ students | Java from syntax to OOP, mapped to the ICSE/BlueJ board syllabus |
 | [AI & Machine Learning for Teens](/ai-ml-course-for-teens) | Teens 13–18 curious about AI/ML | Live machine-learning models, data handling and real AI projects |
 | [Python for Beginners (Kids)](/python-for-beginners-kids) | First-time Python learners leaving blocks | A gentle, confident Python foundation |
 | [Python Projects for Kids](/python-projects-for-kids) | Kids who know basics and want to build | Hands-on portfolio of Python mini-projects |
-| [ICSE/CBSE Computer Science Class 11–12](/courses/cbse-icse-computer-science-class-11-12-python-java-complete-course) | Class 11–12 board students (Java / Python) | Full board CS — theory, practicals, project file, exam practice |
+| [ICSE/CBSE Computer Science Class 11–12](/courses/cbse-icse-computer-science-class-11-12-python-java-complete-course) | Class 11–12 board students (Java / Python) | Full board CS, theory, practicals, project file, exam practice |
 | [ICSE Computer Applications Class 10](/computer-applications-icse-class-10) | ICSE Class 10 sitting the BlueJ Java paper | Board-style Java programs, practicals and project file prep |
 | [Computer Science Class 11 ICSE](/computer-science-class-11-icse) | ISC Class 11 CS students | ISC Class 11 Java coverage |
 | [Computer Science Class 12 ICSE](/computer-science-class-12-icse) | ISC Class 12 CS students | ISC Class 12 Java board prep |
@@ -80,7 +80,7 @@ MOST IN-DEMAND
 
 ### Python & AI for Kids & Teens
 
-Python is the language CBSE board students near AJC Bose Road already meet at school and the one professional families ask for most. We teach it live and project-first — from clean syntax to building real automations and an introduction to AI. It is the perfect on-ramp whether your child codes for marks, for fun, or for a head start in tech.
+Python is the language CBSE board students near AJC Bose Road already meet at school and the one professional families ask for most. We teach it live and project-first, from clean syntax to building real automations and an introduction to AI. It is the perfect on-ramp whether your child codes for marks, for fun, or for a head start in tech.
 
 **You'll learn:** Python syntax, logic, functions and AI basics. **You'll build:** games, automations and data tools you can demo.
 
@@ -90,7 +90,7 @@ ICSE / ISC BOARD-ALIGNED
 
 ### Java Programming for Kids & Teens
 
-For students at Pratt Memorial, St. James', Calcutta Boys' and La Martiniere, Java in BlueJ is the board reality. We teach it from first syntax through full object-oriented programming, mapped straight onto the ICSE Computer Applications and ISC Computer Science syllabus — so board marks and genuine programming skill rise together.
+For students at Pratt Memorial, St. James', Calcutta Boys' and La Martiniere, Java in BlueJ is the board reality. We teach it from first syntax through full object-oriented programming, mapped straight onto the ICSE Computer Applications and ISC Computer Science syllabus, so board marks and genuine programming skill rise together.
 
 **You'll learn:** Java, OOP and BlueJ exam patterns. **You'll build:** board-style programs and a project file that scores.
 
@@ -100,7 +100,7 @@ FUTURE-READY
 
 ### AI & Machine Learning for Teens
 
-AI is no longer optional, and the data-literate families along the AJC Bose Road medical belt see it first. This live course takes teens beyond chatbots into how machine learning actually works — training models, handling real data, and reasoning about results, exactly the evidence-driven thinking these households respect.
+AI is no longer optional, and the data-literate families along the AJC Bose Road medical belt see it first. This live course takes teens beyond chatbots into how machine learning actually works, training models, handling real data, and reasoning about results, exactly the evidence-driven thinking these households respect.
 
 **You'll learn:** ML concepts, data handling and model thinking. **You'll build:** working AI projects with real datasets.
 
@@ -110,19 +110,19 @@ SCHOOLS WE SERVE
 
 ## Aligned to every nearby school's board
 
-We teach students from the major schools clustered around AJC Bose Road — Pratt Memorial School (which sits right on AJC Bose Road), St. James' School, Calcutta Boys' School, Don Bosco School Park Circus, La Martiniere for Boys and Girls, Loreto House and Modern High School for Girls on the ICSE/ISC side, alongside Shri Shikshayatan School and Mahadevi Birla World Academy on the CBSE side.
+We teach students from the major schools clustered around AJC Bose Road: Pratt Memorial School (which sits right on AJC Bose Road), St. James' School, Calcutta Boys' School, Don Bosco School Park Circus, La Martiniere for Boys and Girls, Loreto House and Modern High School for Girls on the ICSE/ISC side, alongside Shri Shikshayatan School and Mahadevi Birla World Academy on the CBSE side.
 
-Because the local school mix runs Java/BlueJ and Python side by side, our coding maps onto whichever board your child actually sits. ICSE and ISC students get Java/BlueJ aligned to Computer Applications and Computer Science; CBSE students get Python and Informatics Practices; IGCSE students are covered too. For Classes 11 and 12, our [board Computer Science course](/courses/cbse-icse-computer-science-class-11-12-python-java-complete-course) covers theory, practicals, the project file and exam practice — see also [ICSE Computer Applications Class 10](/computer-applications-icse-class-10), [coding for ICSE students](/coding-for-icse-students) and [coding for CBSE students](/coding-for-cbse-students).
+Because the local school mix runs Java/BlueJ and Python side by side, our coding maps onto whichever board your child actually sits. ICSE and ISC students get Java/BlueJ aligned to Computer Applications and Computer Science; CBSE students get Python and Informatics Practices; IGCSE students are covered too. For Classes 11 and 12, our [board Computer Science course](/courses/cbse-icse-computer-science-class-11-12-python-java-complete-course) covers theory, practicals, the project file and exam practice. See also [ICSE Computer Applications Class 10](/computer-applications-icse-class-10), [coding for ICSE students](/coding-for-icse-students) and [coding for CBSE students](/coding-for-cbse-students).
 
 THE NEIGHBOURHOOD
 
 ## Built for the AJC Bose Road mindset
 
-AJC Bose Road is the arterial spine that stitches Central and South Kolkata together. It runs from the Exide crossing past Park Street's offices and over the flyover, threading through the city's densest private-hospital belt around Bellevue Clinic and SSKM. The families who live and work along it skew professional and education-dense, with an unusually high concentration of doctor-parents and clinic-owning households. These are people who read the evidence before they decide — slow to be impressed by marketing, but loyal once something genuinely works.
+AJC Bose Road is the arterial spine that stitches Central and South Kolkata together. It runs from the Exide crossing past Park Street's offices and over the flyover, threading through the city's densest private-hospital belt around Bellevue Clinic and SSKM. The families who live and work along it skew professional and education-dense, with an unusually high concentration of doctor-parents and clinic-owning households. These are people who read the evidence before they decide, slow to be impressed by marketing, but loyal once something genuinely works.
 
 That mindset shapes how we teach here. A parent who runs a chamber off Rawdon Street or does evening rounds at AMRI does not want a pre-recorded video sold as a class. They want to see the teacher, see the screen, and watch their child actually build something. So that is exactly what we deliver: live, small-batch sessions with full-time engineer-teachers, where every child is visible and accountable, and where the work is real software, not slides.
 
-It also solves a very local problem — time. On AJC Bose Road the real cost of any offline class is the evening crawl over the flyover and around the Exide and Park Street junctions, where a three-kilometre hop can stretch to forty minutes each way and the app-cabs and autos snarl from five o'clock. Live online classes erase that round trip and hand a child back roughly ninety minutes on every class day — for practice, for school, or simply to breathe.
+It also solves a very local problem, time. On AJC Bose Road the real cost of any offline class is the evening crawl over the flyover and around the Exide and Park Street junctions, where a three-kilometre hop can stretch to forty minutes each way and the app-cabs and autos snarl from five o'clock. Live online classes erase that round trip and hand a child back roughly ninety minutes on every class day, for practice, for school, or simply to breathe.
 
 ### Clinic Queue Display
 
@@ -136,7 +136,7 @@ A Class 11 ISC student wrote a Java program that reads blood-report CSV values, 
 
 A Class 7 girl who jogs at the Maidan with her grandfather made a Scratch app that logs morning run distances and rewards weekly streaks with badges, now shared with her whole walking group.
 
-"We did three demos before this one. It was the only class where I could actually watch the teacher teach and watch my son code — that is what made us stay."
+"We did three demos before this one. It was the only class where I could actually watch the teacher teach and watch my son code. That is what made us stay."
 
 PA parent near Rawdon StreetAJC Bose Road beltAREAS WE SERVE
 
@@ -146,7 +146,7 @@ Serving families across pin codes 700017, 700016, 700020, 700014, 700019 and 700
 
 AJC Bose RoadPark StreetCamac StreetTheatre Road (Shakespeare Sarani)Loudon StreetRawdon StreetWood StreetElgin RoadLord Sinha RoadBeniapukurPark CircusBhowaniporeEntallyMaidanEsplanade
 
-Don't see your street? We teach live online across all of Kolkata — [see every area we serve](/best-coding-class-in-kolkata).
+Don't see your street? We teach live online across all of Kolkata, [see every area we serve](/best-coding-class-in-kolkata).
 
 TIMINGS
 
@@ -170,8 +170,8 @@ HONEST COMPARISON
 
 ### Where live online wins
 
-- No evening commute over the AJC Bose flyover or through the Exide and Park Street crawl — roughly 90 minutes saved per class day.
-- The same full-time engineer and maths-graduate teachers, whether you live on Rawdon Street or Park Circus — you are not limited to whoever is nearby.
+- No evening commute over the AJC Bose flyover or through the Exide and Park Street crawl, roughly 90 minutes saved per class day.
+- The same full-time engineer and maths-graduate teachers, whether you live on Rawdon Street or Park Circus. You are not limited to whoever is nearby.
 - Small live batches of 3–8 with everyone's screen visible, so attention does not drop the way it does in a crowded offline room.
 - Flexible timings that bend around clinic hours and hospital-duty rosters, not a fixed centre slot.
 - Every child codes on their own screen, sharing it live with the teacher for instant correction.
@@ -185,7 +185,7 @@ HONEST COMPARISON
 - If your home internet is unreliable and there is no backup connection.
 - If you specifically want the social, in-person classroom experience over results.
 
-For most evidence-driven families near AJC Bose Road, live online delivers the rigour, the small-batch attention and the saved hours — without the traffic. [Book a free demo](/book-demo) and judge for yourself.
+For most evidence-driven families near AJC Bose Road, live online delivers the rigour, the small-batch attention and the saved hours, without the traffic. [Book a free demo](/book-demo) and judge for yourself.
 
 GET STARTED
 
@@ -221,7 +221,7 @@ PARENT VOICE
 
 ## What a parent told us
 
-"Modern Age Coders has been wonderful for Dhairya. The classes are completely live and the teacher gives him real attention in a small batch — I can see how much his confidence and coding have grown. As a parent I finally feel like the time is genuinely well spent."
+"Modern Age Coders has been wonderful for Dhairya. The classes are completely live and the teacher gives him real attention in a small batch: I can see how much his confidence and coding have grown. As a parent I finally feel like the time is genuinely well spent."
 
 SSonam OswalMother of Dhairya
 
@@ -233,9 +233,9 @@ FAQ
 
 Quick, factual answers to what families near AJC Bose Road ask most.
 
-We are a 100% live online platform serving families near AJC Bose Road and across Kolkata. Your child learns from home with no travel, and we cover the whole AJC Bose Road, Park Street and Park Circus belt. [Book a free demo](/book-demo) to see how it works.Every class is genuinely live and taught in real time, with the teacher's camera and screen on — nothing is pre-recorded. Your child asks questions and gets answers on the spot. Sceptical professional parents are welcome to watch a [free demo](/book-demo) before deciding.Yes. Students from Pratt Memorial, St. James', Calcutta Boys' and La Martiniere follow the BlueJ Java paper, and our [Java course](/java-programming-for-kids-teens) and [ICSE Computer Applications Class 10](/computer-applications-icse-class-10) map directly onto it, including the project file.Yes. For Shri Shikshayatan, Mahadevi Birla and other CBSE students we teach Python and Informatics Practices, board-aligned. See [coding for CBSE students](/coding-for-cbse-students) and the [board CS course](/courses/cbse-icse-computer-science-class-11-12-python-java-complete-course).Our [ISC Computer Science courses](/computer-science-class-12-icse) cover theory, board practicals and the project file, not just notes. We drill exam-pattern programs and build a complete, scoring project file alongside real Java skill.Yes. Many of our AJC Bose Road belt families run odd clinic and duty hours, so we offer late-evening and weekend slots and arrange timings individually. Tell us your schedule when you [book a demo](/book-demo).Absolutely — that is the whole point of live online. Your child learns from home and skips the AJC Bose flyover and Park Street crawl entirely, saving roughly 90 minutes per class day.Group classes start from ₹1,499/month (batches of 6-8), mini batches are ₹2,999/month (3-4 students) and 1-on-1 is ₹4,999/month. Full details are on the [pricing page](/pricing).We teach ages 6 to 67 — from kids on [Scratch](/courses/coding/kids) through teens on [Python](/python-and-ai-classes-for-kids-teens) and [Java](/java-programming-for-kids-teens), to [college-level DSA and AI/ML](/courses/coding/college).Because batches are small, we arrange a make-up session or a catch-up with the teacher so no concept is skipped. Just let us know in advance and we will reschedule.Any laptop or desktop with a stable internet connection and a webcam works; we will guide you through the simple setup before the first class. A backup connection helps but is not essential.Classes are taught in clear English, with Hindi and Bengali support as needed so younger children are always comfortable.Yes — students receive a certificate on completing a course track, and more importantly, a portfolio of real projects they can show and explain.Yes. Our [online maths tuition](/online-maths-tuition) covers Grades 1-12 and college across all boards, including AMC/IOQM/RMO/IMO Olympiad preparation.Yes — one genuinely free live demo class with no obligation to enrol. [Book it here](/book-demo) and decide only after you have seen the teaching for yourself.
+We are a 100% live online platform serving families near AJC Bose Road and across Kolkata. Your child learns from home with no travel, and we cover the whole AJC Bose Road, Park Street and Park Circus belt. [Book a free demo](/book-demo) to see how it works.Every class is genuinely live and taught in real time, with the teacher's camera and screen on, nothing is pre-recorded. Your child asks questions and gets answers on the spot. Sceptical professional parents are welcome to watch a [free demo](/book-demo) before deciding.Yes. Students from Pratt Memorial, St. James', Calcutta Boys' and La Martiniere follow the BlueJ Java paper, and our [Java course](/java-programming-for-kids-teens) and [ICSE Computer Applications Class 10](/computer-applications-icse-class-10) map directly onto it, including the project file.Yes. For Shri Shikshayatan, Mahadevi Birla and other CBSE students we teach Python and Informatics Practices, board-aligned. See [coding for CBSE students](/coding-for-cbse-students) and the [board CS course](/courses/cbse-icse-computer-science-class-11-12-python-java-complete-course).Our [ISC Computer Science courses](/computer-science-class-12-icse) cover theory, board practicals and the project file, not just notes. We drill exam-pattern programs and build a complete, scoring project file alongside real Java skill.Yes. Many of our AJC Bose Road belt families run odd clinic and duty hours, so we offer late-evening and weekend slots and arrange timings individually. Tell us your schedule when you [book a demo](/book-demo).Absolutely. That is the whole point of live online. Your child learns from home and skips the AJC Bose flyover and Park Street crawl entirely, saving roughly 90 minutes per class day.Group classes start from ₹1,499/month (batches of 6-8), mini batches are ₹2,999/month (3-4 students) and 1-on-1 is ₹4,999/month. Full details are on the [pricing page](/pricing).We teach ages 6 to 67, from kids on [Scratch](/courses/coding/kids) through teens on [Python](/python-and-ai-classes-for-kids-teens) and [Java](/java-programming-for-kids-teens), to [college-level DSA and AI/ML](/courses/coding/college).Because batches are small, we arrange a make-up session or a catch-up with the teacher so no concept is skipped. Just let us know in advance and we will reschedule.Any laptop or desktop with a stable internet connection and a webcam works; we will guide you through the simple setup before the first class. A backup connection helps but is not essential.Classes are taught in clear English, with Hindi and Bengali support as needed so younger children are always comfortable.Yes, students receive a certificate on completing a course track, and more importantly, a portfolio of real projects they can show and explain.Yes. Our [online maths tuition](/online-maths-tuition) covers Grades 1-12 and college across all boards, including AMC/IOQM/RMO/IMO Olympiad preparation.Yes, one genuinely free live demo class with no obligation to enrol. [Book it here](/book-demo) and decide only after you have seen the teaching for yourself.
 
-## Premium live coding & maths, near AJC Bose Road — without the commute.
+## Premium live coding & maths, near AJC Bose Road: without the commute.
 
 Small live batches, full-time engineer-teachers, and your child's first real project within a month. Start with one free class.
 
@@ -277,7 +277,7 @@ REAL STUDENT PROJECTS
 
 ## What our students actually build
 
-[![Moxo — Company Landing Page](/images/projects/moxo.webp)Web AppMoxo — Company Landing PageA stunning modern landing page with smooth parallax scrolling, advanced GSAP animations and elegant section transitions that bring the brand to life.by IshaOpen the live project ↗](https://moxo.modernagecoders.com)[![Baby — Typing Speed Challenge](/images/projects/baby.webp)GameBaby — Typing Speed ChallengeAn engaging typing speed challenge where users test how fast and accurately they can type, with a live leaderboard connected to a MongoDB backend.by KritikaOpen the live project ↗](https://baby.modernagecoders.com)[![MyDay — Social Productivity Organizer](/images/projects/myday.webp)Web AppMyDay — Social Productivity OrganizerA beautifully designed productivity platform to organise daily tasks, set goals and stay consistent — with a community feed of others' plans for inspiration.by VedantOpen the live project ↗](https://myday.modernagecoders.com)
+[![Moxo, Company Landing Page](/images/projects/moxo.webp)Web AppMoxo, Company Landing PageA stunning modern landing page with smooth parallax scrolling, advanced GSAP animations and elegant section transitions that bring the brand to life.by IshaOpen the live project ↗](https://moxo.modernagecoders.com)[![Baby, Typing Speed Challenge](/images/projects/baby.webp)GameBaby, Typing Speed ChallengeAn engaging typing speed challenge where users test how fast and accurately they can type, with a live leaderboard connected to a MongoDB backend.by KritikaOpen the live project ↗](https://baby.modernagecoders.com)[![MyDay, Social Productivity Organizer](/images/projects/myday.webp)Web AppMyDay, Social Productivity OrganizerA beautifully designed productivity platform to organise daily tasks, set goals and stay consistent, with a community feed of others' plans for inspiration.by VedantOpen the live project ↗](https://myday.modernagecoders.com)
 
 Every one is a real, live project by a student. See more in [Student Labs](/student-labs).
 

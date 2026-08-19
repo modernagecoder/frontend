@@ -1,6 +1,6 @@
 /**
- * tokens.css — Single source of truth for all design tokens.
- * Modern Age Coders — Phase 1 CSS Architecture Overhaul
+ * tokens.css, Single source of truth for all design tokens.
+ * Modern Age Coders, Phase 1 CSS Architecture Overhaul
  *
  * DO NOT redefine :root in any other file. All tokens live here.
  * Cascade layer order is declared in layers.css (loaded first),
@@ -9,7 +9,7 @@
 
 :root {
     /* ============================================================
-       COLOR — RAW PALETTE
+       COLOR: RAW PALETTE
        ============================================================ */
     --color-primary: #a855f7;
     --color-primary-light: #c084fc;
@@ -31,7 +31,7 @@
     --color-blue: #3b82f6;
 
     /* ============================================================
-       COLOR — SEMANTIC ROLES
+       COLOR: SEMANTIC ROLES
        ============================================================ */
     --color-surface: #000002;
     --color-surface-raised: #08080f;
@@ -59,7 +59,7 @@
     --text-muted: var(--color-text-muted);
 
     /* ============================================================
-       GLOW — Colored shadows for depth and brand lighting
+       GLOW: Colored shadows for depth and brand lighting
        ============================================================ */
     --glow-primary: rgba(168, 85, 247, 0.5);
     --glow-primary-soft: rgba(168, 85, 247, 0.18);
@@ -114,7 +114,7 @@
     --girls-warm-bg: rgba(251, 207, 232, 0.1);
 
     /* ============================================================
-       GRADIENTS — Multi-stop for organic depth
+       GRADIENTS: Multi-stop for organic depth
        ============================================================ */
     --gradient-primary: linear-gradient(135deg, #7c3aed 0%, #a855f7 50%, #c084fc 100%);
     --gradient-primary-soft: linear-gradient(135deg, #a855f7 0%, #c084fc 100%);
@@ -169,7 +169,7 @@
     --leading-relaxed: 1.65;
     --leading-loose: 1.8;
 
-    /* Letter spacing — optical adjustments by role */
+    /* Letter spacing, optical adjustments by role */
     --tracking-tighter: -0.04em;
     --tracking-tight: -0.025em;
     --tracking-normal: 0;
@@ -186,7 +186,7 @@
     --weight-black: 900;
 
     /* ============================================================
-       SPACING — 4px base grid
+       SPACING: 4px base grid
        ============================================================ */
     --space-0: 0;
     --space-px: 1px;
@@ -264,7 +264,7 @@
     --border-radius-2xl: var(--radius-2xl);
 
     /* ============================================================
-       SHADOWS — Consolidated from 86 ad-hoc values
+       SHADOWS: Consolidated from 86 ad-hoc values
        ============================================================ */
     --shadow-xs: 0 1px 2px rgba(0, 0, 0, 0.15);
     --shadow-sm: 0 2px 8px rgba(0, 0, 0, 0.2);
@@ -292,7 +292,7 @@
     --shadow-btn-warm: 0 4px 20px rgba(245, 158, 11, 0.35);
     --shadow-btn-warm-hover: 0 10px 32px rgba(245, 158, 11, 0.5);
 
-    /* Focus shadow — accessible focus ring */
+    /* Focus shadow, accessible focus ring */
     --shadow-focus: 0 0 0 3px rgba(168, 85, 247, 0.3);
     --shadow-focus-error: 0 0 0 3px rgba(239, 68, 68, 0.3);
 
@@ -312,7 +312,7 @@
     --animation-duration-normal: var(--duration-normal);
     --animation-duration-slow: var(--duration-slow);
 
-    /* Easing curves — semantic rather than mathematical names */
+    /* Easing curves, semantic rather than mathematical names */
     --ease-linear: linear;
     --ease-out: cubic-bezier(0.25, 0.46, 0.45, 0.94);
     --ease-in-out: cubic-bezier(0.4, 0, 0.2, 1);
@@ -349,7 +349,7 @@
    ============================================================ */
 @media (prefers-color-scheme: light) {
     :root {
-        /* Keep the dark aesthetic regardless — it's the brand identity.
+        /* Keep the dark aesthetic regardless. It's the brand identity.
            If explicit light mode is ever needed, override here. */
     }
 }

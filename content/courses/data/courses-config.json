@@ -1036,7 +1036,7 @@
     }
   },
   "notes": {
-    "howToAddNewCourse": "Add a new entry in the 'courses' object with the course slug as key. Each course should include group, miniBatch, personal pricing. GENERATED: prices in this file are written by npm run pricing:apply from pricing/pricing.config.jsonc — edit that file, not this one.",
+    "howToAddNewCourse": "Add a new entry in the 'courses' object with the course slug as key. Each course should include group, miniBatch, personal pricing. GENERATED: prices in this file are written by npm run pricing:apply from pricing/pricing.config.jsonc, edit that file, not this one.",
     "pricingFormat": "amount is in rupees (INR), display is the formatted string shown to users",
     "miniBatch": "indiaOnly=true means this plan is NOT available to international users. The Mini Batch card is hidden via data-india-only on foreign views.",
     "defaultPricing": "If a course is not listed in 'courses', defaultPricing is used (Group ₹1,499 / Mini Batch ₹2,999 / 1-on-1 ₹4,999).",

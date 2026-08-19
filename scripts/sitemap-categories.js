@@ -1,5 +1,5 @@
 /**
- * sitemap-categories.js — the single JS home for "which bucket does this URL belong to".
+ * sitemap-categories.js, the single JS home for "which bucket does this URL belong to".
  *
  * Two consumers, two different groupings, ONE rule set:
  *   - generate-sitemap-html.js  uses category() -> 9 sections, for humans browsing /sitemap
@@ -10,7 +10,7 @@
  * cluster() is defined in terms of category(), so the matching rules exist exactly once.
  *
  * NOTE: sitemap.xsl duplicates the category() rules in XSLT because a stylesheet cannot
- * require() JavaScript. If you change the rules here, change them there too — that pair is
+ * require() JavaScript. If you change the rules here, change them there too. That pair is
  * the only copy that has to be kept in sync by hand.
  */
 

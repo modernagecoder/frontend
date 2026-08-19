@@ -7,7 +7,7 @@
  * city/locality landing pages, school pages, etc.) and emits a `.md`
  * companion right next to the `.html`.
  *
- * No routing rules added — the .md files just sit on disk in src/pages/.
+ * No routing rules added, the .md files just sit on disk in src/pages/.
  * AI agents can fetch them at /src/pages/{slug}.md or via the
  * <link rel="alternate" type="text/markdown"> tag this script also injects.
  *
@@ -274,7 +274,7 @@ function ensureAlternateMarkdownLink(html, mdUrlPath) {
 
 /**
  * Static page .md companion is reachable at the literal /src/pages/{slug}.md
- * URL — no clean-URL routing rules involved. This is the safe pattern after
+ * URL, no clean-URL routing rules involved. This is the safe pattern after
  * the 2026-05-06 redirect-rule incident.
  */
 function urlPathForMd(file) {

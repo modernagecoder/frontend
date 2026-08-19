@@ -274,8 +274,8 @@ A **marker interface** has no methods. It simply "marks" a class as having a cer
 
 ```
 // Built-in marker interfaces:
-// java.io.Serializable — marks a class as serializable
-// java.lang.Cloneable — marks a class as cloneable
+// java.io.Serializable, marks a class as serializable
+// java.lang.Cloneable, marks a class as cloneable
 
 import java.io.Serializable;
 

@@ -5,7 +5,7 @@
     <link rel="alternate" type="text/markdown" href="/src/pages/battle-screen.md" title="Markdown version for AI agents">
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Battle Arena — Live Screen</title>
+<title>Battle Arena: Live Screen</title>
 <meta name="robots" content="noindex, nofollow">
 <meta name="theme-color" content="#07030f">
 <link rel="icon" href="/favicon.ico" type="image/x-icon">
@@ -141,7 +141,7 @@
     100% { opacity: 0; transform: translateY(calc(var(--u) * -.5)) }
   }
 
-  /* The last thirty seconds. Deliberately loud — it is the one moment the
+  /* The last thirty seconds. Deliberately loud. It is the one moment the
      whole room should feel at the same time. */
   .final30 { position: fixed; inset: 0; z-index: 240; pointer-events: none;
              box-shadow: inset 0 0 calc(var(--u) * 6) rgba(255,45,142,.45);
@@ -208,7 +208,7 @@
     <div class="band-r">
       <div class="joincode">
         <small>Join at learn.modernagecoders.com/battle</small>
-        <strong id="s-code">——————</strong>
+        <strong id="s-code">,, , , , , </strong>
       </div>
     </div>
   </header>
@@ -359,7 +359,7 @@
   }
 
   /**
-   * ROUND 2 ON THE PROJECTOR — every team at once.
+   * ROUND 2 ON THE PROJECTOR, every team at once.
    *
    * Message counts are safe to show live: they tell the room who is engaged
    * without telling anybody who is winning. The best-team vote appears only
@@ -386,7 +386,7 @@
       (board.lastMessage
         ? '<p class="spot-quote" style="margin-top:calc(var(--u)*.7)">' +
           esc(board.lastMessage.text) +
-          '<br><span class="faint mono" style="font-size:calc(var(--u)*.52)">— ' +
+          '<br><span class="faint mono" style="font-size:calc(var(--u)*.52)">, ' +
           esc(board.lastMessage.authorName) + ', ' + esc(board.lastMessage.teamName) +
           ' (' + esc(board.lastMessage.side) + ')</span></p>'
         : '');
@@ -395,7 +395,7 @@
   /**
    * RANK CHANGES.
    *
-   * Computed here by diffing the previous leaderboard against the new one — no
+   * Computed here by diffing the previous leaderboard against the new one, no
    * server state, because the projector already receives both and the answer is
    * only interesting for the two seconds it is on screen.
    *
@@ -411,7 +411,7 @@
         var was = state.lastBoard[row.id];
         if (!was || row.rank >= was.rank || row.rank > 8) return;
 
-        // Who they went past — whoever now sits directly below them and used
+        // Who they went past, whoever now sits directly below them and used
         // to be above.
         var passed = board.filter(function (o) {
           var oWas = state.lastBoard[o.id];
@@ -424,12 +424,12 @@
           : '<b>' + esc(row.displayName) + '</b> is now ' + ordinal(row.rank));
       });
 
-      // Streak milestones — announced once, when they are reached.
+      // Streak milestones, announced once, when they are reached.
       board.forEach(function (row) {
         var was = state.lastBoard[row.id];
         if (!was) return;
         if (row.streak >= 3 && row.streak > was.streak) {
-          tick('<b>' + esc(row.displayName) + '</b> — ' + row.streak + ' in a row!');
+          tick('<b>' + esc(row.displayName) + '</b>, ' + row.streak + ' in a row!');
         }
       });
     }

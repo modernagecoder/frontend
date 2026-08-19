@@ -46,7 +46,7 @@
       },
       {
         "type": "paragraph",
-        "text": "Choosing your first Java IDE (Integrated Development Environment) can feel confusing with so many options. An IDE is more than a simple text editor—it's your complete workspace for writing, testing, and running Java code. The right IDE helps beginners learn faster with helpful features like code suggestions, error warnings, and debugging tools."
+        "text": "Choosing your first Java IDE (Integrated Development Environment) can feel confusing with so many options. An IDE is more than a simple text editor. It's your complete workspace for writing, testing, and running Java code. The right IDE helps beginners learn faster with helpful features like code suggestions, error warnings, and debugging tools."
       },
       {
         "type": "paragraph",
@@ -141,7 +141,7 @@
       },
       {
         "type": "paragraph",
-        "text": "<strong>Cons:</strong> Needs a powerful computer—older computers might be slow. Takes more time to learn at first than simpler IDEs. Some advanced features only work in the paid version."
+        "text": "<strong>Cons:</strong> Needs a powerful computer, older computers might be slow. Takes more time to learn at first than simpler IDEs. Some advanced features only work in the paid version."
       },
       {
         "type": "paragraph",
@@ -253,7 +253,7 @@
       },
       {
         "type": "paragraph",
-        "text": "<strong>Pros:</strong> Perfect for total beginners with no coding experience. Visual approach makes hard ideas easy to understand. No complex setup—just download and start. Made for schools and students. Very light on computer resources."
+        "text": "<strong>Pros:</strong> Perfect for total beginners with no coding experience. Visual approach makes hard ideas easy to understand. No complex setup, just download and start. Made for schools and students. Very light on computer resources."
       },
       {
         "type": "paragraph",
@@ -286,7 +286,7 @@
       },
       {
         "type": "paragraph",
-        "text": "<strong>Pros:</strong> Super simple—nothing confusing. Interactive shell perfect for trying out code and testing small pieces. No hard setup. Free and open-source."
+        "text": "<strong>Pros:</strong> Super simple, nothing confusing. Interactive shell perfect for trying out code and testing small pieces. No hard setup. Free and open-source."
       },
       {
         "type": "paragraph",
@@ -348,7 +348,7 @@
       },
       {
         "type": "paragraph",
-        "text": "<strong>Cons:</strong> Only works on Windows—no Mac or Linux. Full features cost money (free version is limited). Small group of users. Not updated often. Fewer features than Eclipse or IntelliJ."
+        "text": "<strong>Cons:</strong> Only works on Windows, no Mac or Linux. Full features cost money (free version is limited). Small group of users. Not updated often. Fewer features than Eclipse or IntelliJ."
       },
       {
         "type": "paragraph",
@@ -377,7 +377,7 @@
       },
       {
         "type": "paragraph",
-        "text": "<strong>Cons:</strong> Only for educational games—not for normal programs. You'll need another IDE for real work. Teaches a simplified version of Java. Not for serious projects."
+        "text": "<strong>Cons:</strong> Only for educational games, not for normal programs. You'll need another IDE for real work. Teaches a simplified version of Java. Not for serious projects."
       },
       {
         "type": "paragraph",
@@ -424,7 +424,7 @@
       },
       {
         "type": "paragraph",
-        "text": "Pick an IDE based on what you want to do. Planning to become a professional programmer? Start with IntelliJ IDEA or Eclipse—these are what real companies use. Learning just for school? BlueJ, NetBeans, or Greenfoot give you everything you need without being too complicated."
+        "text": "Pick an IDE based on what you want to do. Planning to become a professional programmer? Start with IntelliJ IDEA or Eclipse, these are what real companies use. Learning just for school? BlueJ, NetBeans, or Greenfoot give you everything you need without being too complicated."
       },
       {
         "type": "paragraph",
@@ -477,11 +477,11 @@
       },
       {
         "type": "paragraph",
-        "text": "<strong>Start simple:</strong> Don't change lots of settings at first. Use what comes ready-made while you learn. Master the basic features before trying advanced options. Learn keyboard shortcuts slowly—they seem weird at first but make coding much faster once you know them."
+        "text": "<strong>Start simple:</strong> Don't change lots of settings at first. Use what comes ready-made while you learn. Master the basic features before trying advanced options. Learn keyboard shortcuts slowly. They seem weird at first but make coding much faster once you know them."
       },
       {
         "type": "paragraph",
-        "text": "<strong>Use IDE features to learn:</strong> Code completion teaches you what methods you can use on objects. Type an object name, press period, and see all available methods. Read error messages carefully—they explain what's wrong and often tell you how to fix it. Practice debugging with breakpoints—stop your program and check what's in your variables."
+        "text": "<strong>Use IDE features to learn:</strong> Code completion teaches you what methods you can use on objects. Type an object name, press period, and see all available methods. Read error messages carefully. They explain what's wrong and often tell you how to fix it. Practice debugging with breakpoints, stop your program and check what's in your variables."
       },
       {
         "type": "paragraph",
@@ -493,7 +493,7 @@
       },
       {
         "type": "paragraph",
-        "text": "<strong>Don't depend on the IDE too much:</strong> Understand what the autocomplete is suggesting—don't just accept it blindly. Learn to read error messages, not just fix what the IDE highlights. Know how to compile code from the command line for backup. Understand your code logic rather than relying on IDE features."
+        "text": "<strong>Don't depend on the IDE too much:</strong> Understand what the autocomplete is suggesting, don't just accept it blindly. Learn to read error messages, not just fix what the IDE highlights. Know how to compile code from the command line for backup. Understand your code logic rather than relying on IDE features."
       },
       {
         "type": "heading",
@@ -570,7 +570,7 @@
       },
       {
         "type": "paragraph",
-        "text": "Start with one IDE and learn its basic features before trying others. The best IDE is the one that helps you focus on learning Java instead of fighting with tools. Download 2-3 options from this list, try each for a few days, then stick with your favorite. Remember, the IDE is just a tool—what you know about Java matters most."
+        "text": "Start with one IDE and learn its basic features before trying others. The best IDE is the one that helps you focus on learning Java instead of fighting with tools. Download 2-3 options from this list, try each for a few days, then stick with your favorite. Remember, the IDE is just a tool, what you know about Java matters most."
       },
       {
         "type": "heading",

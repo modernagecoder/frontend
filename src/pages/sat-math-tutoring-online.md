@@ -1,16 +1,16 @@
 ---
-title: "SAT Math Tutoring Online · 1:1 Digital SAT Math Prep — Modern Age Coders"
-description: "Live 1:1 online SAT Math tutoring for the Digital SAT. We rebuild the algebra and data reasoning the test rewards — Heart of Algebra, Problem Solving & Data Analysis, Passport to Advanced Math — then train pacing and the traps. Mentors in every US time zone. Priced for your country."
+title: "SAT Math Tutoring Online · 1:1 Digital SAT Math Prep | Modern Age Coders"
+description: "Live 1:1 online SAT Math tutoring for the Digital SAT. We rebuild the algebra and data reasoning the test rewards, Heart of Algebra, Problem Solving & Data Analysis, Passport to Advanced Math, then train pacing and the traps. Mentors in every US time zone. Priced for your country."
 canonical: https://learn.modernagecoders.com/sat-math-tutoring-online
 source: src/pages/sat-math-tutoring-online.html
 ---
-> Live 1:1 online SAT Math tutoring for the Digital SAT. We rebuild the algebra and data reasoning the test rewards — Heart of Algebra, Problem Solving & Data Analysis, Passport to Advanced Math — then train pacing and the traps. Mentors in every US time zone. Priced for your country.
+> Live 1:1 online SAT Math tutoring for the Digital SAT. We rebuild the algebra and data reasoning the test rewards, Heart of Algebra, Problem Solving & Data Analysis, Passport to Advanced Math, then train pacing and the traps. Mentors in every US time zone. Priced for your country.
 
 Why scores stall
 
 ## More practice tests don't raise a score. Fixing the right problem does.
 
-Most students preparing for the SAT do the same thing: take practice test after practice test and hope the number drifts up. It rarely does, because a raw practice test tells you *what* you got wrong, not *why* — and the why is everything.
+Most students preparing for the SAT do the same thing: take practice test after practice test and hope the number drifts up. It rarely does, because a raw practice test tells you *what* you got wrong, not *why*, and the why is everything.
 
 A missed question is one of three completely different problems: you didn't know the math, you knew it but slipped, or you ran out of time. Each one needs a different fix, and "do more questions" addresses none of them directly.
 
@@ -34,7 +34,7 @@ Most SAT math points come down to linear equations, ratios and functions. We mak
 
 ### Train the test's own moves
 
-Desmos shortcuts, plugging in, working backward, and recognising the handful of patterns the SAT reuses — taught as deliberate tools.
+Desmos shortcuts, plugging in, working backward, and recognising the handful of patterns the SAT reuses, taught as deliberate tools.
 
 ### Build pacing under timed conditions
 
@@ -42,7 +42,7 @@ Once accuracy is solid, we drill timing so the clock stops being the thing that 
 
 See it for yourself
 
-## A "hard" SAT systems question — solved by reading, not grinding.
+## A "hard" SAT systems question: solved by reading, not grinding.
 
 Worked example · Heart of Algebra
 
@@ -52,7 +52,7 @@ Worked example · Heart of Algebra
 
 6x + 2y = 10 → 2y = −6x + 10 → y = −3x + 5 (slope = −3)parallel ⇒ same slope −3, and it passes through (0, 3) ⇒ y-intercept is 3answer: **y = −3x + 3**
 
-No system, no calculator gymnastics — about fifteen seconds once you know that "parallel" means "copy the slope." This is the difference our prep makes: students stop fighting the algebra and start reading what the question is really asking, which is faster and more accurate at the same time.
+No system, no calculator gymnastics, about fifteen seconds once you know that "parallel" means "copy the slope." This is the difference our prep makes: students stop fighting the algebra and start reading what the question is really asking, which is faster and more accurate at the same time.
 
 Why a coding school teaches SAT math
 
@@ -64,13 +64,13 @@ A strong coder spots "I've seen this shape before" instantly. We train the same 
 
 ### Choose the efficient path
 
-There's usually a slow way and a fast way. Picking the fast one — like choosing the right algorithm — is a trainable skill, not luck.
+There's usually a slow way and a fast way. Picking the fast one, like choosing the right algorithm, is a trainable skill, not luck.
 
 ### Verify before moving on
 
 A quick sanity check catches the careless error that costs an easy point. We make it automatic, the way good programmers test as they go.
 
-We're Modern Age Coders. The pattern-recognition and efficient reasoning we teach for programming are exactly what a timed math test rewards — which is why our prep tends to make students faster *and* calmer.
+We're Modern Age Coders. The pattern-recognition and efficient reasoning we teach for programming are exactly what a timed math test rewards, which is why our prep tends to make students faster *and* calmer.
 
 What we cover
 
@@ -80,7 +80,7 @@ Mapped to the College Board's own categories, with the fundamentals rebuilt unde
 
 ### Heart of Algebra
 
-Linear equations and inequalities, systems, slope and intercepts, and reading word problems into algebra — the largest single chunk of the test.
+Linear equations and inequalities, systems, slope and intercepts, and reading word problems into algebra, the largest single chunk of the test.
 
 ### Problem Solving & Data Analysis
 
@@ -100,15 +100,15 @@ Using the built-in Desmos calculator to solve, graph and check fast, plus moving
 
 ### Pacing & trap-spotting
 
-The timing strategy and the recurring traps — answer choices designed for common slips — that decide the top of the score range.
+The timing strategy and the recurring traps, answer choices designed for common slips, that decide the top of the score range.
 
 Who this is for
 
-## The right fit — and an honest word on what to expect.
+## The right fit: and an honest word on what to expect.
 
 **This fits** the junior starting structured prep, the student stuck on a plateau who can't see why, and the high scorer chasing the last stretch toward 800. We meet you at your current score and aim at the next realistic band.
 
-**What's realistic.** Real gains come from fixing the right problem and practising between sessions, over weeks — not from a weekend bootcamp. Your starting score, timeline and effort decide the result. We'll set an honest target with you and never quote a guaranteed number, because no honest tutor can.
+**What's realistic.** Real gains come from fixing the right problem and practising between sessions, over weeks, not from a weekend bootcamp. Your starting score, timeline and effort decide the result. We'll set an honest target with you and never quote a guaranteed number, because no honest tutor can.
 
 ### What we won't do
 
@@ -167,7 +167,7 @@ Who teaches you
 
 ## Mentors who know the test and the math beneath it.
 
-Good SAT coaching needs two things: deep command of the actual math, and a clear read on how this particular test thinks. Our mentors have both — they can fix the algebra gap *and* explain why a specific answer choice was the trap designed for you.
+Good SAT coaching needs two things: deep command of the actual math, and a clear read on how this particular test thinks. Our mentors have both. They can fix the algebra gap *and* explain why a specific answer choice was the trap designed for you.
 
 The same mentor stays with you, watching your scores and your recurring mistakes, so by test day the plan is built around exactly the points you can still gain.
 
@@ -197,7 +197,7 @@ Common questions
 
 Is this prep for the new Digital SAT?
 
-Yes — the current Digital SAT in Bluebook: its adaptive module structure, the on-screen Desmos calculator available throughout math, and the question styles it favors.
+Yes, the current Digital SAT in Bluebook: its adaptive module structure, the on-screen Desmos calculator available throughout math, and the question styles it favors.
 
 Which SAT math topics do you cover?
 
@@ -209,31 +209,31 @@ It depends on your starting point, time and practice. Students who fix their alg
 
 When should my child start SAT prep?
 
-Often two to four months before a test date — spring of junior year or the summer before senior year. Weak foundations mean starting earlier and going slower beats a last-minute cram.
+Often two to four months before a test date, spring of junior year or the summer before senior year. Weak foundations mean starting earlier and going slower beats a last-minute cram.
 
 How much does it cost?
 
-USD 150 per month for private 1:1 — eight live sessions, two each week. Small-group option USD 100 per month. No contract; cancel any time.
+USD 150 per month for private 1:1, eight live sessions, two each week. Small-group option USD 100 per month. No contract; cancel any time.
 
 Is there a free trial?
 
-Yes — the first session is free, no card needed. We review a recent score or run a quick diagnostic and build a plan.
+Yes, the first session is free, no card needed. We review a recent score or run a quick diagnostic and build a plan.
 
 Will my child have the same tutor throughout?
 
-Yes — one mentor tracks the score, recurring mistakes and pacing across the whole prep.
+Yes, one mentor tracks the score, recurring mistakes and pacing across the whole prep.
 
 Do you use real practice tests?
 
-Yes — official College Board material, with every miss reviewed as a gap, a slip or a timing problem.
+Yes, official College Board material, with every miss reviewed as a gap, a slip or a timing problem.
 
 Are sessions live?
 
-Yes — live, one-to-one, with a shared whiteboard. Reviewing wrong answers in real time is where the score moves.
+Yes, live, one-to-one, with a shared whiteboard. Reviewing wrong answers in real time is where the score moves.
 
 Can you help with both pacing and accuracy?
 
-Yes — they're different problems, and we train each specifically rather than just doing more questions.
+Yes. They're different problems, and we train each specifically rather than just doing more questions.
 
 What time zones do you cover?
 
@@ -241,7 +241,7 @@ All six US time zones; two weekly slots in your own zone.
 
 Do you also prep the ACT?
 
-Yes — see our dedicated [ACT Math](/act-math-tutoring-online) page, and we can help you choose between the tests.
+Yes. See our dedicated [ACT Math](/act-math-tutoring-online) page, and we can help you choose between the tests.
 
 ## Book a free SAT math trial session.
 
@@ -259,7 +259,7 @@ Real student projects
 
 Every one is a real, live project shipped by a Modern Age Coders student. Explore more in [Student Labs](/student-labs).
 
-[![Word Counter Website](/images/projects/wordcounter.webp)ToolWord Counter WebsiteA simple yet powerful tool that counts words, sentences and paragraphs from user input with instant, real-time results and a clean responsive interface.by VanshOpen the live project ↗](https://vanshagarwalwordcounter-sys.github.io/WordCounter/)[![Life Span Tracker](/images/projects/lifespan.webp)ToolLife Span TrackerAn interactive web tool that calculates expected lifespan, shows days, months and years lived, and visualises remaining time to motivate better habits.by ManayOpen the live project ↗](https://lifespantracker.netlify.app/)[![Simon Game](/images/projects/simongame.webp)GameSimon GameA fun memory-based game where players repeat colour and sound sequences. Each level adds a new challenge — brain-boosting for kids learning logic and focus.by YashaswiOpen the live project ↗](http://yashaswi-2017.my.canva.site)
+[![Word Counter Website](/images/projects/wordcounter.webp)ToolWord Counter WebsiteA simple yet powerful tool that counts words, sentences and paragraphs from user input with instant, real-time results and a clean responsive interface.by VanshOpen the live project ↗](https://vanshagarwalwordcounter-sys.github.io/WordCounter/)[![Life Span Tracker](/images/projects/lifespan.webp)ToolLife Span TrackerAn interactive web tool that calculates expected lifespan, shows days, months and years lived, and visualises remaining time to motivate better habits.by ManayOpen the live project ↗](https://lifespantracker.netlify.app/)[![Simon Game](/images/projects/simongame.webp)GameSimon GameA fun memory-based game where players repeat colour and sound sequences. Each level adds a new challenge, brain-boosting for kids learning logic and focus.by YashaswiOpen the live project ↗](http://yashaswi-2017.my.canva.site)
 
 Parent & student voices
 

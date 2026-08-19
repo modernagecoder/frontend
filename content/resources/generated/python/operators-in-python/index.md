@@ -139,7 +139,7 @@ When an expression contains multiple operators, Python follows a strict order of
 
 Here is the precedence from **highest (evaluated first)** to **lowest (evaluated last)**:
 
-1. **Parentheses** `()` — always evaluated first
+1. **Parentheses** `()`, always evaluated first
 2. **Exponentiation** `**`
 3. **Unary operators** `+x`, `-x`, `~x`
 4. **Multiplication, Division, Floor Division, Modulus** `*`, `/`, `//`, `%`

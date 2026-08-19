@@ -4,7 +4,7 @@
  * 
  * Uses browser locale + timezone to detect India (zero network calls, privacy-safe).
  * If India → show existing ₹ prices. If not → show flat USD prices.
- * Runs synchronously on DOMContentLoaded — no flicker.
+ * Runs synchronously on DOMContentLoaded, no flicker.
  */
 
 const InternationalPricing = {
@@ -31,8 +31,7 @@ const InternationalPricing = {
   /**
    * Build the price tables from the generated config data.
    * Returns false if the data is missing, in which case this whole module
-   * stands down and the page keeps the rupee prices already in its markup —
-   * the safe failure, and what already happens on pages that never loaded
+   * stands down and the page keeps the rupee prices already in its markup, * the safe failure, and what already happens on pages that never loaded
    * this script.
    */
   loadTables: function () {
@@ -116,7 +115,7 @@ const InternationalPricing = {
   init() {
     // Run once, whatever fires it. A second DOMContentLoaded (or a duplicate
     // script include) used to re-run updatePriceAnchors over prices that
-    // local-currency had already converted — rewriting "OMR 38" back to
+    // local-currency had already converted, rewriting "OMR 38" back to
     // "$97.99" while local-currency's own guard stopped it re-annotating.
     if (window.__MAC_PRICING_INIT_DONE) return;
     window.__MAC_PRICING_INIT_DONE = true;
@@ -145,8 +144,8 @@ const InternationalPricing = {
     // [data-india-only]/[data-intl-only] to adapt it abroad. Pages whose
     // static copy is USD-coherent (the US/grade tutoring cluster) do the
     // opposite: [data-intl-default] is visible for crawlers and international
-    // visitors, and an Indian visitor — whose prices the anchors above have
-    // just rewritten to rupees — gets it swapped for [data-india-reveal].
+    // visitors, and an Indian visitor, whose prices the anchors above have
+    // just rewritten to rupees, gets it swapped for [data-india-reveal].
     if (this.isIndian) this.applyIndiaOverlays();
 
     // Pages that ship their own India/International toggle panels (the maths hub
@@ -261,8 +260,7 @@ const InternationalPricing = {
       if (derive) {
         // A plan can run on its own timetable: the India 1-on-1 plan is 1
         // class a week (4 a month), while everything else runs 8 a month.
-        // The overrides map is keyed by the resolved subject.region.tier —
-        // resolved, because an Indian visitor on an internationally-anchored
+        // The overrides map is keyed by the resolved subject.region.tier, // resolved, because an Indian visitor on an internationally-anchored
         // element must get the Indian schedule along with the rupee price.
         var overrides = (data.display && data.display.classesPerMonthOverrides) || {};
         var perMonth = overrides[subject + '.' + region + '.' + tier] ||
@@ -484,7 +482,7 @@ const InternationalPricing = {
     // on the premium agents pages it is the agents mini-batch price, and the
     // standard mini-batch figure is that page's GROUP tier, which must never be
     // hidden. Read it from the config rather than hardcoding both, because a
-    // stale figure here fails OPEN — it leaves an India-only card visible to a
+    // stale figure here fails OPEN. It leaves an India-only card visible to a
     // foreign visitor who can then click toward a plan with no USD price.
     var data = window.MAC_PRICING;
     var subject = this.isAgentsContext() ? 'agents'
@@ -543,13 +541,13 @@ const InternationalPricing = {
     var seen = {};
 
     // The subject's own Mini Batch price is claimed FIRST, with no rule.
-    // Mini Batch is India-only — its rupee figure must never be rewritten to
+    // Mini Batch is India-only, its rupee figure must never be rewritten to
     // dollars. Without this reservation, other rules that happen to share the
     // number claimed it: on the premium agents pages the ₹4,999 Mini Batch was
     // matched by the camps rule and rendered as "$60 per month", and on the
     // pricing capsule it was caught by the coding 1-on-1 rule and shown as
     // "$374.99 mini batch". Registering the value in `seen` blocks every later
-    // rule from touching it, so the ₹ figure survives — which is correct,
+    // rule from touching it, so the ₹ figure survives, which is correct,
     // because the plan genuinely costs rupees and is labelled "(India only)".
     (function reserveMiniBatch() {
       var data = window.MAC_PRICING;
@@ -633,7 +631,7 @@ const InternationalPricing = {
     // .intl-pricing-section (pricing.html, and nowhere else) used to be hidden
     // here. That left it with no audience at all: this function only runs
     // abroad, so the one visitor who ever saw the section was the Indian one it
-    // is not written for — and its anchors re-priced to rupees under a
+    // is not written for, and its anchors re-priced to rupees under a
     // hardcoded "USD / month" label. The section now ships
     // data-intl-only="true" hidden, so India never sees it and the visitor
     // outside India does, in dollars. Nothing else is changed here: the course
@@ -709,7 +707,7 @@ const InternationalPricing = {
 
 // ─── Detect region synchronously on script parse (before DOMContentLoaded) ───
 // This guarantees window.__MAC_IS_INDIAN is set when any inline DOMContentLoaded
-// listener queries it — even if that listener was registered before this script parsed.
+// listener queries it, even if that listener was registered before this script parsed.
 InternationalPricing.detectRegion();
 
 // ─── Run DOM-touching work as soon as the DOM is usable ───

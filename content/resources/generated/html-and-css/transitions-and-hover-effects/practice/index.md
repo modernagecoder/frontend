@@ -43,7 +43,7 @@ The shorthand `transition` combines all four: `transition: property duration tim
 
 **Answer:** The button smoothly fades from red to blue over 0.5 seconds when hovered, and fades back to red over 0.5 seconds when the mouse leaves.
 
-Because the transition is defined on the base state, it applies in BOTH directions — hover in and hover out.
+Because the transition is defined on the base state, it applies in BOTH directions, hover in and hover out.
 
 ### Q4. [Easy] What is the default transition-timing-function?
 
@@ -96,7 +96,7 @@ Use `max-height` with a value larger than the content (like 500px). max-height c
 
 *Hint:* Think about hovering out.
 
-**Answer:** If the transition is only on :hover, it applies when hovering IN but not when hovering OUT — the hover-out is instant. Putting it on the base state makes it apply in both directions.
+**Answer:** If the transition is only on :hover, it applies when hovering IN but not when hovering OUT, the hover-out is instant. Putting it on the base state makes it apply in both directions.
 
 The transition rule on the base state says 'whenever this property changes, animate it'. Since both hover-in and hover-out change the property, both get the smooth animation.
 
@@ -175,7 +175,7 @@ In the shorthand `transition: property duration timing-function delay`, the dela
 
 ### Q1. [Easy] Which CSS property creates a smooth animation between state changes?
 
-*Hint:* Not animation — the other one.
+*Hint:* Not animation, the other one.
 
 **Answer:** `transition`
 
@@ -297,7 +297,7 @@ Keyboard users rely on :focus styles. Pattern: `.btn:hover, .btn:focus { ... }` 
 
 *Hint:* State changes happen on taps too.
 
-**Answer:** Yes. Transitions run on ANY state change, not just hover. Taps, focus, class toggles via JavaScript, media query changes — all benefit from transitions. They make mobile UIs feel smooth and responsive.
+**Answer:** Yes. Transitions run on ANY state change, not just hover. Taps, focus, class toggles via JavaScript, media query changes, all benefit from transitions. They make mobile UIs feel smooth and responsive.
 
 Mobile does not have true hover, but tapping, expanding menus, and card transitions still use the same CSS transitions for smoothness.
 
@@ -305,7 +305,7 @@ Mobile does not have true hover, but tapping, expanding menus, and card transiti
 
 *Hint:* Constant speed.
 
-**Answer:** The animation progresses at a constant speed from start to finish — no acceleration or deceleration.
+**Answer:** The animation progresses at a constant speed from start to finish, no acceleration or deceleration.
 
 Linear feels robotic for most UI. It is useful for continuous animations like loading spinners where constant speed looks correct.
 
@@ -447,7 +447,7 @@ Fix: force a reflow between the two states, or use `requestAnimationFrame`/`setT
 
 **Answer:** B
 
-**B is correct.** linear has no acceleration curve — it is the same speed from start to finish.
+**B is correct.** linear has no acceleration curve. It is the same speed from start to finish.
 
 ### Q20. [Hard] Why should you avoid transitioning width or left/top?
 

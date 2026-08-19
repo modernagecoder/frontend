@@ -1,5 +1,5 @@
 /* ============================================================
-   Site Ledger — shared design for the human-readable sitemap.
+   Site Ledger, shared design for the human-readable sitemap.
    Used by /sitemap (generated sitemap.html). Warm "Ledger & Proof"
    editorial brand: ivory paper, ink, burnt-amber accent.
    ============================================================ */
@@ -42,7 +42,7 @@ a{color:var(--link)}
 .figure span{font-weight:600;font-size:11px;letter-spacing:.14em;
   text-transform:uppercase;color:var(--muted)}
 
-/* Search toolbar (progressive enhancement — revealed by JS) */
+/* Search toolbar (progressive enhancement, revealed by JS) */
 .toolbar{position:sticky;top:0;z-index:5;background:var(--paper);
   border-bottom:1px solid var(--rule);margin:0 -24px;padding:14px 24px;
   display:flex;align-items:center;gap:16px;flex-wrap:wrap}

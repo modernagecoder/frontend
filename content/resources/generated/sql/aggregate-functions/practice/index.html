@@ -17,7 +17,7 @@
     <!-- SEO Meta Tags -->
     <meta name="description" content="58+ practice questions on Aggregate Functions (COUNT, SUM, AVG, MIN, MAX) in SQL. Easy, medium, and hard questions with hints, answers, and coding challenges.">
     <!-- meta keywords intentionally not emitted: Google has ignored it since 2009 and Bing
-         treats it as a SPAM SIGNAL — and Bing is the index ChatGPT/Copilot answer from.
+         treats it as a SPAM SIGNAL, and Bing is the index ChatGPT/Copilot answer from.
          See scripts/strip-meta-keywords.py. -->
     <meta name="author" content="Modern Age Coders">
     <meta name="robots" content="index, follow">
@@ -138,7 +138,7 @@
                 <span class="badge badge-intermediate">Intermediate</span>
                 <span class="badge badge-questions">58 Questions</span>
             </div>
-            <h1 class="resource-title">Practice Questions &mdash; Aggregate Functions (COUNT, SUM, AVG, MIN, MAX)</h1>
+            <h1 class="resource-title">Practice Questions: Aggregate Functions (COUNT, SUM, AVG, MIN, MAX)</h1>
             <a href="/resources/sql/aggregate-functions" class="notes-link">&larr; Back to Notes</a>
         </div><!-- /resource-header -->
 
@@ -212,7 +212,7 @@
 <div class="question-card">
                 <div class="question-number">Question 13</div>
                 <span class="question-difficulty medium">Medium</span>
-                <div class="question-text">Why does SUM of an all-NULL column return NULL instead of 0?</div><button type="button" class="collapsible-toggle" data-target="hint-ts-13" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-13">SQL standard behavior.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-13" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-13">Because there are no values to sum, SQL returns NULL — the logical 'unknown.' Returning 0 would be an assumption. If you want 0, use <code>COALESCE(SUM(col), 0)</code>. This convention also applies to MIN, MAX, and AVG: all-NULL input yields NULL output.</div></div>
+                <div class="question-text">Why does SUM of an all-NULL column return NULL instead of 0?</div><button type="button" class="collapsible-toggle" data-target="hint-ts-13" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-13">SQL standard behavior.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-13" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-13">Because there are no values to sum, SQL returns NULL, the logical 'unknown.' Returning 0 would be an assumption. If you want 0, use <code>COALESCE(SUM(col), 0)</code>. This convention also applies to MIN, MAX, and AVG: all-NULL input yields NULL output.</div></div>
 <div class="question-card">
                 <div class="question-number">Question 14</div>
                 <span class="question-difficulty medium">Medium</span>
@@ -226,7 +226,7 @@ WHERE order_date BETWEEN '2026-03-01' AND '2026-03-31';</code></pre></div></div>
 <div class="question-card">
                 <div class="question-number">Question 16</div>
                 <span class="question-difficulty medium">Medium</span>
-                <div class="question-text">Count how many orders each status type has (preview of GROUP BY — use conditional aggregation).</div><button type="button" class="collapsible-toggle" data-target="hint-ts-16" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-16">SUM(CASE WHEN ...).</div><button type="button" class="collapsible-toggle" data-target="answer-ts-16" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-16"><pre><code>SELECT
+                <div class="question-text">Count how many orders each status type has (preview of GROUP BY. Use conditional aggregation).</div><button type="button" class="collapsible-toggle" data-target="hint-ts-16" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-16">SUM(CASE WHEN ...).</div><button type="button" class="collapsible-toggle" data-target="answer-ts-16" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-16"><pre><code>SELECT
   SUM(CASE WHEN status = 'Delivered' THEN 1 ELSE 0 END) AS delivered,
   SUM(CASE WHEN status = 'Cancelled' THEN 1 ELSE 0 END) AS cancelled,
   SUM(CASE WHEN status = 'Pending' THEN 1 ELSE 0 END) AS pending
@@ -249,7 +249,7 @@ WHERE amount > (SELECT AVG(amount) FROM orders);</code></pre></div></div>
 <div class="question-card">
                 <div class="question-number">Question 20</div>
                 <span class="question-difficulty hard">Hard</span>
-                <div class="question-text">Why can't you use WHERE amount > AVG(amount) directly?</div><button type="button" class="collapsible-toggle" data-target="hint-ts-20" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-20">Order of operations.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-20" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-20">Because WHERE runs BEFORE aggregation. When WHERE evaluates each row, AVG has not been computed yet — the aggregate needs all rows to finish first. SQL enforces a strict order: FROM → WHERE → GROUP BY → HAVING → SELECT → ORDER BY → LIMIT. Aggregates belong in SELECT or HAVING, not WHERE. To compare a row to an aggregate, use a subquery that computes the aggregate separately.</div></div>
+                <div class="question-text">Why can't you use WHERE amount > AVG(amount) directly?</div><button type="button" class="collapsible-toggle" data-target="hint-ts-20" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-20">Order of operations.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-20" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-20">Because WHERE runs BEFORE aggregation. When WHERE evaluates each row, AVG has not been computed yet, the aggregate needs all rows to finish first. SQL enforces a strict order: FROM → WHERE → GROUP BY → HAVING → SELECT → ORDER BY → LIMIT. Aggregates belong in SELECT or HAVING, not WHERE. To compare a row to an aggregate, use a subquery that computes the aggregate separately.</div></div>
 <div class="question-card">
                 <div class="question-number">Question 21</div>
                 <span class="question-difficulty hard">Hard</span>
@@ -278,7 +278,7 @@ FROM orders;</code></pre></div></div>
 <div class="question-card">
                 <div class="question-number">Question 25</div>
                 <span class="question-difficulty hard">Hard</span>
-                <div class="question-text">In what order are WHERE, SELECT, ORDER BY, and aggregate functions evaluated?</div><button type="button" class="collapsible-toggle" data-target="hint-ts-25" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-25">Logical execution order.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-25" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-25">Logical order: FROM → WHERE → GROUP BY → HAVING → SELECT (including aggregates) → ORDER BY → LIMIT. Aggregates are computed during the SELECT phase after WHERE has already filtered rows. This is why WHERE cannot reference aggregates — they do not exist yet. ORDER BY runs after aggregates, so it CAN reference aliases and aggregate results.</div></div>
+                <div class="question-text">In what order are WHERE, SELECT, ORDER BY, and aggregate functions evaluated?</div><button type="button" class="collapsible-toggle" data-target="hint-ts-25" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-25">Logical execution order.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-25" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-25">Logical order: FROM → WHERE → GROUP BY → HAVING → SELECT (including aggregates) → ORDER BY → LIMIT. Aggregates are computed during the SELECT phase after WHERE has already filtered rows. This is why WHERE cannot reference aggregates. They do not exist yet. ORDER BY runs after aggregates, so it CAN reference aliases and aggregate results.</div></div>
         </section>
 
         <!-- Mixed / Application Questions -->
@@ -422,7 +422,7 @@ WHERE city = 'Delhi';</code></pre></div></div>
 <div class="question-card">
                 <div class="question-number">MCQ 8</div>
                 <div class="question-text">What is the difference between COUNT(*) and COUNT(1)?</div>
-                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> COUNT(*) is faster</li><li><span class="mcq-option-label">B.</span> COUNT(1) is faster</li><li><span class="mcq-option-label">C.</span> They are functionally identical in modern MySQL</li><li><span class="mcq-option-label">D.</span> COUNT(1) returns 1, COUNT(*) returns the row count</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-8" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-8"><strong>Answer: C</strong><br><strong>C is correct.</strong> Both count all rows. Modern optimizers treat them the same. Old myth says COUNT(1) is faster — it is not. Use COUNT(*) — it's idiomatic SQL.</div></div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> COUNT(*) is faster</li><li><span class="mcq-option-label">B.</span> COUNT(1) is faster</li><li><span class="mcq-option-label">C.</span> They are functionally identical in modern MySQL</li><li><span class="mcq-option-label">D.</span> COUNT(1) returns 1, COUNT(*) returns the row count</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-8" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-8"><strong>Answer: C</strong><br><strong>C is correct.</strong> Both count all rows. Modern optimizers treat them the same. Old myth says COUNT(1) is faster, it is not. Use COUNT(*), it's idiomatic SQL.</div></div>
 <div class="question-card">
                 <div class="question-number">MCQ 9</div>
                 <div class="question-text">For [10, 20, NULL], what does AVG(COALESCE(col, 0)) return?</div>
@@ -430,7 +430,7 @@ WHERE city = 'Delhi';</code></pre></div></div>
 <div class="question-card">
                 <div class="question-number">MCQ 10</div>
                 <div class="question-text">What does MIN(customer_name) return?</div>
-                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Shortest customer name</li><li><span class="mcq-option-label">B.</span> Alphabetically first customer name</li><li><span class="mcq-option-label">C.</span> NULL always for string columns</li><li><span class="mcq-option-label">D.</span> Error — MIN doesn&#39;t work on strings</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-10" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-10"><strong>Answer: B</strong><br><strong>B is correct.</strong> For strings, MIN returns the alphabetically first value. In our data, 'Aarav Sharma' is first.</div></div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Shortest customer name</li><li><span class="mcq-option-label">B.</span> Alphabetically first customer name</li><li><span class="mcq-option-label">C.</span> NULL always for string columns</li><li><span class="mcq-option-label">D.</span> Error: MIN doesn&#39;t work on strings</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-10" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-10"><strong>Answer: B</strong><br><strong>B is correct.</strong> For strings, MIN returns the alphabetically first value. In our data, 'Aarav Sharma' is first.</div></div>
 <div class="question-card">
                 <div class="question-number">MCQ 11</div>
                 <div class="question-text">Which query finds the largest order amount?</div>
@@ -450,7 +450,7 @@ WHERE city = 'Delhi';</code></pre></div></div>
 <div class="question-card">
                 <div class="question-number">MCQ 15</div>
                 <div class="question-text">For column with [100, 200, NULL, 200, 300], what are COUNT(*), COUNT(col), COUNT(DISTINCT col)?</div>
-                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> 5, 4, 4</li><li><span class="mcq-option-label">B.</span> 5, 4, 3</li><li><span class="mcq-option-label">C.</span> 4, 4, 3</li><li><span class="mcq-option-label">D.</span> 5, 5, 3</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-15" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-15"><strong>Answer: B</strong><br><strong>B is correct.</strong> COUNT(*) = 5 all rows. COUNT(col) = 4 non-NULL. COUNT(DISTINCT col) = 3 unique non-NULL (100, 200, 300 — 200 is duplicate).</div></div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> 5, 4, 4</li><li><span class="mcq-option-label">B.</span> 5, 4, 3</li><li><span class="mcq-option-label">C.</span> 4, 4, 3</li><li><span class="mcq-option-label">D.</span> 5, 5, 3</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-15" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-15"><strong>Answer: B</strong><br><strong>B is correct.</strong> COUNT(*) = 5 all rows. COUNT(col) = 4 non-NULL. COUNT(DISTINCT col) = 3 unique non-NULL (100, 200, 300: 200 is duplicate).</div></div>
 <div class="question-card">
                 <div class="question-number">MCQ 16</div>
                 <div class="question-text">A table has 1000 rows; half have NULL in the 'email' column. What does AVG(LENGTH(email)) compute?</div>
@@ -470,7 +470,7 @@ WHERE city = 'Delhi';</code></pre></div></div>
 <div class="question-card">
                 <div class="question-number">MCQ 20</div>
                 <div class="question-text">What does this return? SELECT AVG(amount) FROM orders WHERE city = 'NoSuchCity';</div>
-                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> 0</li><li><span class="mcq-option-label">B.</span> NULL</li><li><span class="mcq-option-label">C.</span> Empty set (no row)</li><li><span class="mcq-option-label">D.</span> Error</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-20" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-20"><strong>Answer: B</strong><br><strong>B is correct.</strong> Aggregates always return exactly one row (without GROUP BY). With no matching rows, AVG returns NULL. COUNT(*) would be 0 — different behavior.</div></div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> 0</li><li><span class="mcq-option-label">B.</span> NULL</li><li><span class="mcq-option-label">C.</span> Empty set (no row)</li><li><span class="mcq-option-label">D.</span> Error</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-20" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-20"><strong>Answer: B</strong><br><strong>B is correct.</strong> Aggregates always return exactly one row (without GROUP BY). With no matching rows, AVG returns NULL. COUNT(*) would be 0, different behavior.</div></div>
         </section>
 
         <!-- Coding Challenges -->
@@ -523,7 +523,7 @@ FROM orders;</code></pre></div></div>
 <div class="challenge-card">
                 <h3>Challenge 4: Order Status Counts</h3>
                 <span class="challenge-difficulty medium">Medium</span>
-                <div class="challenge-description">Count how many orders are in each status using conditional aggregation — return columns 'delivered', 'cancelled', 'pending' in a single row.</div><div class="challenge-io">
+                <div class="challenge-description">Count how many orders are in each status using conditional aggregation, return columns 'delivered', 'cancelled', 'pending' in a single row.</div><div class="challenge-io">
                     <div class="challenge-io-label">Sample Input</div>
                     <div class="challenge-io-value">orders table.</div>
                 </div><div class="challenge-io">

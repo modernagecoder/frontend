@@ -8,7 +8,7 @@ source: src/pages/coding-classes-in-singapore.html
 
 ### Request a callback
 
-Leave your number — a mentor in SGT will call back within 3 hours.
+Leave your number, a mentor in SGT will call back within 3 hours.
 
 #### We'll ring you shortly!
 
@@ -16,35 +16,35 @@ Expect a call within 3 hours, SGT.
 
 Singapore · Online School · +65 · SGT UTC+8
 
-# Real coding, real AI — for the children of the country that takes education most seriously.
+# Real coding, real AI: for the children of the country that takes education most seriously.
 
-Live 1:1 mentorship in **Python**, modern web and **agentic AI** for Singapore students — aligned with **PSLE** computational-thinking foundations, **GCE O-Level Computing 7155**, **GCE A-Level H2 Computing 9569**, the **Integrated Programme (IP)**, the **IB Diploma**, and the algorithmic depth that **NUS, NTU, SMU, SUTD** actually evaluate. **USD 150 a month**, eight live sessions, two per week, cancel anytime.
+Live 1:1 mentorship in **Python**, modern web and **agentic AI** for Singapore students, aligned with **PSLE** computational-thinking foundations, **GCE O-Level Computing 7155**, **GCE A-Level H2 Computing 9569**, the **Integrated Programme (IP)**, the **IB Diploma**, and the algorithmic depth that **NUS, NTU, SMU, SUTD** actually evaluate. **USD 150 a month**, eight live sessions, two per week, cancel anytime.
 
-See the PSLE → A-Level pathway为孩子提供真正的编程和人工智能课程 — 一对一在线指导。Mandarin, Tamil and Malay-bilingual mentors available for primary-school learners on request. Code itself is taught in English (Python keywords are English).The Singapore pathway, one diagram
+See the PSLE → A-Level pathway为孩子提供真正的编程和人工智能课程, 一对一在线指导。Mandarin, Tamil and Malay-bilingual mentors available for primary-school learners on request. Code itself is taught in English (Python keywords are English).The Singapore pathway, one diagram
 
-## From PSLE to NUS / NTU / SMU / SUTD — what your child is being prepared for.
+## From PSLE to NUS / NTU / SMU / SUTD: what your child is being prepared for.
 
-Singapore's education pipeline is the most structured in the world. Every stage feeds the next. Get any stage wrong — particularly PSLE or O-Level Computing — and the next stage gets exponentially harder. Here's what each step actually demands, and where we fit.
+Singapore's education pipeline is the most structured in the world. Every stage feeds the next. Get any stage wrong, particularly PSLE or O-Level Computing, and the next stage gets exponentially harder. Here's what each step actually demands, and where we fit.
 
-AGES 7 – 12
+AGES 7: 12
 
 #### Primary · PSLE
 
 Computational thinking foundations · MOE Code for Fun · Scratch / Python intro · logical reasoning for PSLE Math & Science.
 
-AGES 13 – 16
+AGES 13: 16
 
 #### Secondary · O-Level / IP
 
-O-Level Computing 7155 (Python). IP-track schools skip O-Levels — school-internal curriculum is deeper.
+O-Level Computing 7155 (Python). IP-track schools skip O-Levels, school-internal curriculum is deeper.
 
-AGES 17 – 18
+AGES 17, 18
 
 #### Junior College · A-Level
 
 H2 Computing 9569 (algorithms, data structures, OOP). H1 8876. H3 enrichment for top students.
 
-AGES 19 – 23
+AGES 19: 23
 
 #### University · Local
 
@@ -56,26 +56,26 @@ AGES 22+
 
 Sea · Grab · Razer · GovTech · TikTok APAC · Stripe · OpenAI SG · Anthropic SG.
 
-**Where Modern Age Coders adds value:** not by replacing school — Singapore schools are already world-class — but by adding the 1:1 depth, real working projects on GitHub, and algorithmic problem-solving that school class sizes of 30+ struggle to deliver, and that NUS / NTU / SMU / SUTD admissions actually scrutinize.
+**Where Modern Age Coders adds value:** not by replacing school, Singapore schools are already world-class, but by adding the 1:1 depth, real working projects on GitHub, and algorithmic problem-solving that school class sizes of 30+ struggle to deliver, and that NUS / NTU / SMU / SUTD admissions actually scrutinize.
 
 **4.9 / 5**From 1,620 Singapore parent & student reviews**SGT**UTC+8 · IST mentors 2.5h behind · normal teaching hours**4 curricula**MOE · O-Level · A-Level · IP · IB DP**USD 150**Per month · no GST · cancel anytimeChoose your child's track
 
-## Pick the course that matches their level — and book a trial in under 30 seconds.
+## Pick the course that matches their level: and book a trial in under 30 seconds.
 
 Every course runs as live 1:1 with a mentor matched to your child's level (P1–P6, S1–S5, IP1–IP6, JC1–JC2 or university/adult). Two 45-minute sessions per week. USD 150 per month for 1:1, or USD 100 for small-group cohort.
 
-[P1 – P3 Little Coders — Block to Python Scratch & ScratchJr, then we bridge to real Python by month four. Play, animation and music-led. Strengthens the computational-thinking foundations PSLE Math implicitly tests. USD 150 / month · 1:1 · 8 sessions](/courses/coding/kids)[P4 – P6 · PSLE prep Python & Logic for PSLE-aged learners Real Python, real keyboard typing, real GitHub. We deliberately keep the cognitive load *off* peak PSLE periods. Strengthens problem-solving for the Math heuristics PSLE rewards. USD 150 / month · 1:1 · 8 sessions](/courses/coding/kids)[S1 – S2 · IP1 – IP2 Web Builders + AI Foundations HTML, CSS, JavaScript, React basics. AI module covers safe prompting, LLM mental models and a first agent-style project. Works alongside Code for Fun and IP school-internal computing. USD 150 / month · 1:1 · 8 sessions](/courses/coding/teens)[S3 – S5 · O-Level 7155 GCE O-Level Computing 7155 Direct alignment with the MOE 7155 syllabus. Python, algorithms, data representation, networks. Past-paper drills + the project component your school expects. USD 150 / month · 1:1 · 8 sessions](/courses/coding/teens)[IP3 – IP6 · Integrated Programme IP Computing depth-track IP-track students (RI, HCI, NUS High, NJC, NYGH, ACS-I, Dunman, RGS, Cedar, MGS) skip the O-Level path. Our IP-track lead has taught at three IP schools and knows the school-internal syllabus. USD 150 / month · 1:1 · 8 sessions](/courses/coding/teens)[JC1 – JC2 · A-Level H2 9569 A-Level H2 Computing 9569 Paper 1 (theory), Paper 2 (algorithms / problem solving), Paper 3 (project), Paper 4 (data, AI fundamentals). Past-year strategy + the kind of GitHub portfolio NUS / NTU evaluate. USD 150 / month · 1:1 · 8 sessions](/courses/coding/teens)[IB DP HL / SL IB Computer Science HL & SL For families at UWCSEA, SAS, Tanglin, OFS, GIIS Singapore, Stamford American, ISS, CIS — IB CS HL/SL plus Internal Assessment scaffolding from an ex-IB CS examiner. USD 150 / month · 1:1 · 8 sessions](/courses/coding/teens)[University / Adult Agentic AI for Working Pros Python · SQL · LangChain · LangGraph · CrewAI · evaluations · production deployment. The exact stack Sea, Grab, GovTech, Stripe and AI Singapore recruit for. USD 150 / month · 1:1 · 8 sessions](/courses/coding/college)
+[P1, P3 Little Coders, Block to Python Scratch & ScratchJr, then we bridge to real Python by month four. Play, animation and music-led. Strengthens the computational-thinking foundations PSLE Math implicitly tests. USD 150 / month · 1:1 · 8 sessions](/courses/coding/kids)[P4: P6 · PSLE prep Python & Logic for PSLE-aged learners Real Python, real keyboard typing, real GitHub. We deliberately keep the cognitive load *off* peak PSLE periods. Strengthens problem-solving for the Math heuristics PSLE rewards. USD 150 / month · 1:1 · 8 sessions](/courses/coding/kids)[S1, S2 · IP1, IP2 Web Builders + AI Foundations HTML, CSS, JavaScript, React basics. AI module covers safe prompting, LLM mental models and a first agent-style project. Works alongside Code for Fun and IP school-internal computing. USD 150 / month · 1:1 · 8 sessions](/courses/coding/teens)[S3: S5 · O-Level 7155 GCE O-Level Computing 7155 Direct alignment with the MOE 7155 syllabus. Python, algorithms, data representation, networks. Past-paper drills + the project component your school expects. USD 150 / month · 1:1 · 8 sessions](/courses/coding/teens)[IP3: IP6 · Integrated Programme IP Computing depth-track IP-track students (RI, HCI, NUS High, NJC, NYGH, ACS-I, Dunman, RGS, Cedar, MGS) skip the O-Level path. Our IP-track lead has taught at three IP schools and knows the school-internal syllabus. USD 150 / month · 1:1 · 8 sessions](/courses/coding/teens)[JC1: JC2 · A-Level H2 9569 A-Level H2 Computing 9569 Paper 1 (theory), Paper 2 (algorithms / problem solving), Paper 3 (project), Paper 4 (data, AI fundamentals). Past-year strategy + the kind of GitHub portfolio NUS / NTU evaluate. USD 150 / month · 1:1 · 8 sessions](/courses/coding/teens)[IB DP HL / SL IB Computer Science HL & SL For families at UWCSEA, SAS, Tanglin, OFS, GIIS Singapore, Stamford American, ISS, CIS: IB CS HL/SL plus Internal Assessment scaffolding from an ex-IB CS examiner. USD 150 / month · 1:1 · 8 sessions](/courses/coding/teens)[University / Adult Agentic AI for Working Pros Python · SQL · LangChain · LangGraph · CrewAI · evaluations · production deployment. The exact stack Sea, Grab, GovTech, Stripe and AI Singapore recruit for. USD 150 / month · 1:1 · 8 sessions](/courses/coding/college)
 
 Singapore's international schools run IB, Cambridge (IGCSE and A-Level) and American (AP) curricula. These live courses prepare those exams directly.
 
 [IB Maths](/courses/ib-mathematics-aa-ai-masterclass)[A-Level Maths](/courses/a-level-maths-course-pure-mechanics-statistics)[IGCSE Maths](/courses/igcse-mathematics-mastery)[AP Computer Science A](/courses/ap-computer-science-a-java-exam-prep-course)[AP Statistics](/courses/ap-statistics-maths-exam-prep-course)PSLE
-**Sep – Oct**each year
+**Sep: Oct**each year
 
 ### We adjust for PSLE, O-Level & A-Level exam periods. Every year. Automatically.
 
-During PSLE (late September), O-Level (October – November) and A-Level (November) exam weeks, we automatically reduce coding-class intensity, shift to lighter review-style sessions, or pause entirely for the family that asks. No bill changes. We don't make money during exam fortnights — we make sure your child does well in school.
+During PSLE (late September), O-Level (October: November) and A-Level (November) exam weeks, we automatically reduce coding-class intensity, shift to lighter review-style sessions, or pause entirely for the family that asks. No bill changes. We don't make money during exam fortnights, we make sure your child does well in school.
 
-Integrated Programme — the deep end
+Integrated Programme, the deep end
 
 ## For the ~10% of Singapore students in the Integrated Programme: a dedicated IP-track mentor.
 
@@ -131,7 +131,7 @@ Python · OneMap API · HDB Resale API · CrewAI · OpenAIWho teaches your child
 
 ## A real mentor in SGT-friendly hours, every single class. Not a platform with optional support.
 
-Every Modern Age Coders Singapore family is matched to a single named mentor. No platform-only, no chatbot-only, no "hub teacher rotation." The same mentor teaches your child for as long as the relationship works — typically 12 to 24 months. Several of our SG mentors are ex-IP-school teachers themselves.
+Every Modern Age Coders Singapore family is matched to a single named mentor. No platform-only, no chatbot-only, no "hub teacher rotation." The same mentor teaches your child for as long as the relationship works, typically 12 to 24 months. Several of our SG mentors are ex-IP-school teachers themselves.
 
 SK
 
@@ -141,7 +141,7 @@ IP-track lead · Ex-Hwa Chong computing
 
 12 years at Hwa Chong Institution. Personally taught 200+ IP-track students. Knows the HCI, RI, NUS High and NJC internal pace better than anyone we've met.
 
-Active SGT 14:00 – 21:00RK
+Active SGT 14:00: 21:00RK
 
 ### Rajesh K.
 
@@ -149,7 +149,7 @@ A-Level H2 9569 specialist
 
 Former Hwa Chong JC and NJC tutor. 9 years on the H2 9569 syllabus. Walked dozens of Singapore JC students through their A-Level Computing papers.
 
-Active SGT 15:00 – 22:00AT
+Active SGT 15:00: 22:00AT
 
 ### Aisha T.
 
@@ -157,7 +157,7 @@ O-Level Computing 7155 + PSLE-age coach
 
 Former MOE Code for Fun trainer. Specialises in P5/P6 PSLE-age and S1–S4 O-Level Computing. Has Tamil and Malay bilingual capability for primary-school families.
 
-Active SGT 16:00 – 21:00DC
+Active SGT 16:00: 21:00DC
 
 ### Daniel C.
 
@@ -165,7 +165,7 @@ IB DP CS · ex-IB examiner
 
 Ex-IB Computer Science examiner. Built our entire IB CS Internal Assessment scaffolding. Supports UWCSEA, SAS, Tanglin, OFS, ISS, CIS and GIIS Singapore families.
 
-Active SGT 13:00 – 19:00SN
+Active SGT 13:00: 19:00SN
 
 ### Suresh N.
 
@@ -173,7 +173,7 @@ Agentic AI for adults · ex-Grab Engineering
 
 3 years at Grab as a senior engineer in the data platform team. Now mentors working professionals in Singapore moving into agentic AI / LLM-engineering roles.
 
-Active SGT 17:00 – 23:00 + SatPG
+Active SGT 17:00: 23:00 + SatPG
 
 ### Priya G.
 
@@ -181,7 +181,7 @@ Girls-only cohort lead · NUS CS MSc
 
 NUS School of Computing MSc. Leads our girls-only Singapore cohort. Particularly skilled with the P4–S2 transition (PSLE-age → early secondary).
 
-Active SGT 15:00 – 20:00Also at Modern Age Coders
+Active SGT 15:00: 20:00Also at Modern Age Coders
 
 ## Maths, taught with the same depth.
 
@@ -214,7 +214,7 @@ USD150/monthBilled in USD
 
 ### Small-Group Cohort
 
-3 – 5 learners, same level, same curriculum.
+3: 5 learners, same level, same curriculum.
 
 USD100/monthBilled in USD
 
@@ -228,22 +228,22 @@ We bill in **USD**, by Visa / Mastercard, bank transfer, or Apple/Google Pay. No
 
 Why SG families pick us
 
-## Compared to the alternatives — homegrown enrichment centres and global brands.
+## Compared to the alternatives: homegrown enrichment centres and global brands.
 
 An honest comparison vs the options most Singapore parents shortlist alongside us: enrichment-centre coding programs, premium school after-school enrichment, and global self-paced platforms.
 
 |   | Modern Age Coders | SG enrichment centre (in-person) | Global self-paced platform | School computing club |
 | --- | --- | --- | --- | --- |
-| Price per month | **USD 150** | SGD 500 – 1,200 | SGD 60 (self-paced) | Subsidised / free |
+| Price per month | **USD 150** | SGD 500: 1,200 | SGD 60 (self-paced) | Subsidised / free |
 | Format | **Live 1:1 with named mentor** | Group, in-centre, drop-off | Self-paced video + AI | Group, school-based |
-| Sessions per month | **8 live** | 4 – 8 | Unlimited self-paced | 2 – 4 |
-| MOE / O-Level / A-Level alignment | **Yes — direct** | Usually | Generic global | Yes (school's pace) |
-| IP-track aware | **Yes — dedicated lead** | Rarely | No | Only IP-school clubs |
-| Real AI engineering (LLMs / agents) | **Yes — production stack** | Rare | Theory only | Almost never |
-| GitHub portfolio | **Yes — every student** | Some | No | Some |
+| Sessions per month | **8 live** | 4, 8 | Unlimited self-paced | 2, 4 |
+| MOE / O-Level / A-Level alignment | **Yes, direct** | Usually | Generic global | Yes (school's pace) |
+| IP-track aware | **Yes, dedicated lead** | Rarely | No | Only IP-school clubs |
+| Real AI engineering (LLMs / agents) | **Yes, production stack** | Rare | Theory only | Almost never |
+| GitHub portfolio | **Yes, every student** | Some | No | Some |
 | NOI / Hack&Roll coaching | **Yes** | Few | No | School-dependent |
 | Cancel monthly | **Yes** | Term-locked | Yes | N/A |
-| Free trial | **Yes — live with the mentor** | Discounted first month | Free tier | Open day |
+| Free trial | **Yes, live with the mentor** | Discounted first month | Free tier | Open day |
 
 We've intentionally left out global online platforms whose unit economics simply don't work at USD 150/month for a live 1:1 mentor.
 
@@ -251,7 +251,7 @@ University pathways
 
 ## Where our Singapore students go for Computer Science, AI and Engineering.
 
-Singapore's local universities are world-class — NUS School of Computing is consistently QS-ranked top 10 globally for Computer Science. Several of our SG students stay local. Others target the US (MIT, Stanford, CMU, Berkeley), the UK (Oxbridge, Imperial), Canada (Waterloo, UofT) or Australia (Go8). We align portfolios to whichever path each family is realistically targeting.
+Singapore's local universities are world-class: NUS School of Computing is consistently QS-ranked top 10 globally for Computer Science. Several of our SG students stay local. Others target the US (MIT, Stanford, CMU, Berkeley), the UK (Oxbridge, Imperial), Canada (Waterloo, UofT) or Australia (Go8). We align portfolios to whichever path each family is realistically targeting.
 
 #### NUS School of Computing
 
@@ -289,7 +289,7 @@ CSD · ISTD · EPD · ASD
 
 Applied · industry-linked
 
-Singapore Institute of Technology. Applied-track CS, software engineering, data science, info security — strong industry-coupled curriculum.
+Singapore Institute of Technology. Applied-track CS, software engineering, data science, info security, strong industry-coupled curriculum.
 
 ICT · SE · CS · Cybersec
 
@@ -315,11 +315,11 @@ Alternative overseas routes
 
 Cambridge · Imperial · UCL (UK) · Waterloo · UofT · UBC (CA) · Melbourne · Sydney · ANU · UNSW · Monash (AU Go8). All within reach of strong SG H2 Computing students.
 
-CS · Software Eng · DS · AIWhere this leads — Singapore tech
+CS · Software Eng · DS · AIWhere this leads: Singapore tech
 
 ## The companies our advanced SG students aim at, or are already working in.
 
-Singapore is APAC's tech hub — OpenAI, Anthropic, Stripe, ByteDance, TikTok, Meta, Google, Apple, Microsoft, Amazon and Cloudflare all have major regional engineering offices here. Plus the homegrown giants like Sea, Grab, Razer and ST Engineering. The compensation upside for a strong CS graduate is among the best in the world.
+Singapore is APAC's tech hub: OpenAI, Anthropic, Stripe, ByteDance, TikTok, Meta, Google, Apple, Microsoft, Amazon and Cloudflare all have major regional engineering offices here. Plus the homegrown giants like Sea, Grab, Razer and ST Engineering. The compensation upside for a strong CS graduate is among the best in the world.
 
 SEA · LISTED · SHOPEE / GARENA
 
@@ -379,9 +379,9 @@ Day 0
 
 ### The callback
 
-You leave your **+65** number on the form. A mentor working SGT-friendly hours calls within 3 hours — usually within 60 minutes during 16:00–21:00 SGT. No salesperson, no script. We ask 4 things: your child's school + year, the curriculum (MOE / IP / IB), what they've tried, what you want from the next 6 months.
+You leave your **+65** number on the form. A mentor working SGT-friendly hours calls within 3 hours, usually within 60 minutes during 16:00–21:00 SGT. No salesperson, no script. We ask 4 things: your child's school + year, the curriculum (MOE / IP / IB), what they've tried, what you want from the next 6 months.
 
-Day 1 – 2
+Day 1: 2
 
 ### Mentor match
 
@@ -391,25 +391,25 @@ Day 3
 
 ### The free trial lesson
 
-One full live 1:1 session with that named mentor. No demo content, no scripted lesson — the mentor teaches your child something real, calibrated to their level and school's curriculum. At the end, you receive a written 6-month outcome plan. Zero pressure if you don't continue.
+One full live 1:1 session with that named mentor. No demo content, no scripted lesson, the mentor teaches your child something real, calibrated to their level and school's curriculum. At the end, you receive a written 6-month outcome plan. Zero pressure if you don't continue.
 
 Week 1
 
 ### Setup & first project
 
-Mentor sets up the dev environment on your child's home laptop (VS Code, Python, GitHub account). First "real" project is shipped end of week 1 — usually a small Python game or a working React webpage. We send you the GitHub link.
+Mentor sets up the dev environment on your child's home laptop (VS Code, Python, GitHub account). First "real" project is shipped end of week 1, usually a small Python game or a working React webpage. We send you the GitHub link.
 
-Week 2 – 3
+Week 2, 3
 
 ### Curriculum lock-in
 
-Once we've watched two weeks of real teaching, the mentor finalises the 6-month learning plan — mapped explicitly to your child's school syllabus (O-Level 7155 progress, IP school internal pace, JC H2 9569 paper coverage, IB CS IA topic). You can challenge or change anything.
+Once we've watched two weeks of real teaching, the mentor finalises the 6-month learning plan, mapped explicitly to your child's school syllabus (O-Level 7155 progress, IP school internal pace, JC H2 9569 paper coverage, IB CS IA topic). You can challenge or change anything.
 
 Week 4
 
 ### First parent check-in
 
-End of month one, the mentor calls you (not your child) on WhatsApp for 15 minutes. You hear what's working, what isn't, what to expect month 2. If month 1 wasn't great, this is where we say so honestly and offer a different mentor — free of charge.
+End of month one, the mentor calls you (not your child) on WhatsApp for 15 minutes. You hear what's working, what isn't, what to expect month 2. If month 1 wasn't great, this is where we say so honestly and offer a different mentor, free of charge.
 
 What families say · verified reviews
 
@@ -451,9 +451,9 @@ What we promise · and what we don't
 - Run the free trial as a real lesson, not a sales demo
 - Send you a written 6-month outcome plan after the trial
 - Coordinate around PSLE, O-Level, A-Level and IB exam fortnights
-- Be honest if your child needs a different mentor — and switch them, free
-- Bill in USD on the date you joined — never on the 1st-of-month surprise
-- Stop billing immediately the moment you cancel — no notice period, no last-month trick
+- Be honest if your child needs a different mentor, and switch them, free
+- Bill in USD on the date you joined, never on the 1st-of-month surprise
+- Stop billing immediately the moment you cancel, no notice period, no last-month trick
 
 ### We won't
 
@@ -463,55 +463,55 @@ What we promise · and what we don't
 - Sell you "gold / diamond / platinum" upsell packages
 - Auto-renew you onto a 12-month plan you didn't agree to
 - Pressure-call you if you don't continue after the trial
-- Quietly add GST — there is none on our service for SG families
+- Quietly add GST. There is none on our service for SG families
 
 Inside a typical class
 
 ## A real 45-minute Modern Age Coders Singapore session, step by step.
 
-Minute 0 – 3
+Minute 0: 3
 
 ### Greeting and last-session check
 
-Mentor and student greet on Zoom. 2-minute recap: "What do you remember? What got stuck?" — no homework-style grilling.
+Mentor and student greet on Zoom. 2-minute recap: "What do you remember? What got stuck?", no homework-style grilling.
 
-Minute 3 – 10
+Minute 3, 10
 
 ### Concept moment
 
-Mentor introduces the one new concept — usually with a Singapore-relevant example. ("Today we're learning dictionaries by storing every MRT station as a key and its CC/EW/NS line as the value.")
+Mentor introduces the one new concept, usually with a Singapore-relevant example. ("Today we're learning dictionaries by storing every MRT station as a key and its CC/EW/NS line as the value.")
 
-Minute 10 – 35
+Minute 10: 35
 
 ### Live build
 
 Student writes real code. Mentor shares screen for the first few minutes, then watches, prompts, helps debug. Real errors. Real frustration. Real wins. The mentor never types for the student.
 
-Minute 35 – 42
+Minute 35: 42
 
 ### Ship it
 
 Push to GitHub. Run the program. Sometimes screen-record a 30-second demo video for the family chat. Every session produces something tangible the student can show.
 
-Minute 42 – 45
+Minute 42: 45
 
 ### Wrap & preview
 
-Mentor writes 2 lines into the session log (which parents can read anytime). Previews next session. Says goodbye. Never any "please remember to leave us a review" ask — we don't do that.
+Mentor writes 2 lines into the session log (which parents can read anytime). Previews next session. Says goodbye. Never any "please remember to leave us a review" ask. We don't do that.
 
 What a full year actually looks like
 
-## Three real 12-month plans — from P5 PSLE-prep, to JC A-Level H2, to adult AI engineer.
+## Three real 12-month plans: from P5 PSLE-prep, to JC A-Level H2, to adult AI engineer.
 
 Plan A
 
 ### P5 Singapore student · Tampines · 12-month plan
 
-**Months 1–2:** Python fundamentals — variables, conditions, loops, functions. Computational-thinking puzzles that map to PSLE Maths heuristics.
+**Months 1–2:** Python fundamentals, variables, conditions, loops, functions. Computational-thinking puzzles that map to PSLE Maths heuristics.
  **Months 3–4:** Data structures, file I/O. First mini-project: a PSLE practice-question generator.
  **Months 5–6:** Real Python game project (snake / pong / Tkinter calculator). First two GitHub commits.
  **Months 7–8:** First webpage with HTML / CSS / JavaScript.
- **Months 9–10:** Light load (PSLE prep weeks — we deliberately reduce intensity).
+ **Months 9–10:** Light load (PSLE prep weeks. We deliberately reduce intensity).
  **Months 11–12:** Post-PSLE: capstone web project, ready to head into S1 confident.
  **Outcome:** PSLE-ready (academically supported, not distracted). S1 Computing will feel easy.
 
@@ -519,11 +519,11 @@ Plan B
 
 ### JC1 student doing H2 9569 · Bishan · 12-month plan
 
-**Months 1–2:** Algorithms intensive — sorting, searching, complexity, recursion. Paper-2-style problems weekly.
- **Months 3–4:** Data structures deep dive — linked lists, stacks, queues, trees, hash tables. OOP design.
- **Months 5–6:** Networks, databases, security — the Paper 1 theory side.
+**Months 1–2:** Algorithms intensive, sorting, searching, complexity, recursion. Paper-2-style problems weekly.
+ **Months 3–4:** Data structures deep dive, linked lists, stacks, queues, trees, hash tables. OOP design.
+ **Months 5–6:** Networks, databases, security, the Paper 1 theory side.
  **Month 7:** Programming Project topic locked in. Begin writing Stage 1.
- **Months 8–10:** Project build phase — solution design, code, testing, evaluation. Weekly check-ins.
+ **Months 8–10:** Project build phase, solution design, code, testing, evaluation. Weekly check-ins.
  **Month 11:** Project polish + Paper 1/2 past-paper drills.
  **Month 12:** Final submission + Mock-3 paper. Mentor writes a reference for UCAS/Common App if requested.
  **Outcome:** Targets a strong A in H2 Computing 9569 + a competitive NUS / NTU SoC application.
@@ -534,16 +534,16 @@ Plan C
 
 **Months 1–2:** Python from zero. Variables to OOP in 8 weeks. Daily 30-minute self-study + 2 mentor sessions per week.
  **Months 3–4:** SQL deep dive (Singapore-banking data, anonymised) + pandas / NumPy.
- **Months 5–6:** LLMs — OpenAI / Anthropic APIs, prompt engineering, structured-output chains.
- **Months 7–8:** RAG — build a real RAG app over Singapore-banking-domain documents.
- **Months 9–10:** Agentic AI — LangChain, LangGraph, CrewAI. Multi-step reasoning. Production patterns.
+ **Months 5–6:** LLMs: OpenAI / Anthropic APIs, prompt engineering, structured-output chains.
+ **Months 7–8:** RAG, build a real RAG app over Singapore-banking-domain documents.
+ **Months 9–10:** Agentic AI, LangChain, LangGraph, CrewAI. Multi-step reasoning. Production patterns.
  **Month 11:** Deploy a real agent to a Sea / Grab / Stripe-style use-case. Portfolio piece #1.
  **Month 12:** Application sprint. Mentor reviews CV, LinkedIn, GitHub. Practice interviews.
  **Outcome:** Real portfolio. Ready to apply for SG AI / AI-engineering roles at SGD 10–18 k/month range.
 
 Schools we've supported in Singapore
 
-## A selection of SG schools where our students attend — across MOE, IP and international.
+## A selection of SG schools where our students attend: across MOE, IP and international.
 
 Not an endorsement by any school. These are simply schools where Modern Age Coders Singapore students currently study, drawn from our records.
 
@@ -553,29 +553,29 @@ Not an endorsement by any school. These are simply schools where Modern Age Code
 
 Leave your number. A mentor working SGT-friendly hours will call you within 3 hours, ask 4 questions about your child's school and level, and either book a free trial or politely tell you we're not the right fit. No follow-up campaign. No spam. We've never sold a list. We never will.
 
-FAQ — Singapore-specific
+FAQ: Singapore-specific
 
 ## Twenty-six answers to the questions Singapore parents (and adult learners) actually ask.
 
 Are you a Singapore-registered company?
 
-We're registered as an education-services provider outside Singapore, which is why no Singapore GST applies to your bill. Delivery is online-only — there is no Singapore office to visit. We issue cross-border invoices in USD if you need one for accounting.
+We're registered as an education-services provider outside Singapore, which is why no Singapore GST applies to your bill. Delivery is online-only. There is no Singapore office to visit. We issue cross-border invoices in USD if you need one for accounting.
 
 Do you align with the MOE Singapore syllabus?
 
-Yes — directly. Primary track aligns with MOE Code for Fun and PSLE-supportive computational thinking. Secondary track aligns with GCE O-Level Computing 7155 (Python). JC aligns with GCE A-Level H2 Computing 9569 (and H1 8876, H3 enrichment). IP-track is handled separately because IP schools have school-internal syllabuses.
+Yes, directly. Primary track aligns with MOE Code for Fun and PSLE-supportive computational thinking. Secondary track aligns with GCE O-Level Computing 7155 (Python). JC aligns with GCE A-Level H2 Computing 9569 (and H1 8876, H3 enrichment). IP-track is handled separately because IP schools have school-internal syllabuses.
 
-My child is in an IP school (RI / HCI / NUS High / NJC / NYGH / ACS-I) — will the mentor know it?
+My child is in an IP school (RI / HCI / NUS High / NJC / NYGH / ACS-I), will the mentor know it?
 
-Yes — specifically. Our IP-track lead is an ex-Hwa Chong / RI teacher with 12 years inside the IP system. They know each IP school's internal pace and the actual depth required for the IP4 / IP5 internal projects. Ask for the IP-track mentor on your callback.
+Yes, specifically. Our IP-track lead is an ex-Hwa Chong / RI teacher with 12 years inside the IP system. They know each IP school's internal pace and the actual depth required for the IP4 / IP5 internal projects. Ask for the IP-track mentor on your callback.
 
 Do you coach NOI Singapore (National Olympiad in Informatics)?
 
-Yes. Algorithms, data structures, dynamic programming, graph theory. We've coached students through NOI Singapore qualifier rounds. Most NOI-bound students come to us in IP4 or S3 and work intensively for 8 – 14 months.
+Yes. Algorithms, data structures, dynamic programming, graph theory. We've coached students through NOI Singapore qualifier rounds. Most NOI-bound students come to us in IP4 or S3 and work intensively for 8, 14 months.
 
 What about Hack&Roll (NUS) or AI Innovation Challenge?
 
-Yes — team coaching for 24-hour hackathons. We've had teams reach the Hack&Roll Top 10 multiple years running. We also coach AI Innovation Challenge, JC ASEAN Computer Science Olympiad, and the Singapore Maths Olympiad.
+Yes, team coaching for 24-hour hackathons. We've had teams reach the Hack&Roll Top 10 multiple years running. We also coach AI Innovation Challenge, JC ASEAN Computer Science Olympiad, and the Singapore Maths Olympiad.
 
 Can my child prepare for NUS School of Computing direct admission?
 
@@ -583,15 +583,15 @@ Yes. We focus on the four things SoC admissions evaluates: H2 Computing performa
 
 NTU SCSE? SMU SCIS? SUTD CSD? SIT?
 
-Yes — all four. NTU SCSE is similar in admissions weight to NUS SoC. SMU SCIS leans more on the practical portfolio side. SUTD looks for design-thinking + technical depth. SIT is applied-track. We tailor portfolio strategy to whichever university is the realistic primary target.
+Yes, all four. NTU SCSE is similar in admissions weight to NUS SoC. SMU SCIS leans more on the practical portfolio side. SUTD looks for design-thinking + technical depth. SIT is applied-track. We tailor portfolio strategy to whichever university is the realistic primary target.
 
 Do you support GCE O-Level Computing 7155?
 
-Yes — the entire syllabus. Python, algorithms, data representation, networks, security, data & databases, the programming project. We run past-paper drills and project guidance directly to the 7155 specification.
+Yes, the entire syllabus. Python, algorithms, data representation, networks, security, data & databases, the programming project. We run past-paper drills and project guidance directly to the 7155 specification.
 
 And A-Level H2 Computing 9569?
 
-Yes — comprehensive coverage. Paper 1 (theory: algorithms, data, networks, security), Paper 2 (algorithms / problem-solving), Paper 3 (programming project), Paper 4 (data + AI fundamentals). Our H2 9569 mentor walked dozens of JC2 students through the exam in 2024 and 2025.
+Yes, comprehensive coverage. Paper 1 (theory: algorithms, data, networks, security), Paper 2 (algorithms / problem-solving), Paper 3 (programming project), Paper 4 (data + AI fundamentals). Our H2 9569 mentor walked dozens of JC2 students through the exam in 2024 and 2025.
 
 H1 Computing 8876? H3 enrichment?
 
@@ -599,35 +599,35 @@ Yes. H1 8876 (lighter load, no programming project) and H3 enrichment (for the t
 
 IB Diploma Computer Science HL and SL?
 
-Yes — and our mentors include a former IB Computer Science examiner. We support both the new IB CS syllabus (first exams 2027 onward) and the legacy 2014 syllabus. Internal Assessment scaffolding is a particular strength.
+Yes, and our mentors include a former IB Computer Science examiner. We support both the new IB CS syllabus (first exams 2027 onward) and the legacy 2014 syllabus. Internal Assessment scaffolding is a particular strength.
 
 Can mentors help with Direct School Admission (DSA) applications?
 
-Yes — for the Computing / Maths / Science DSA streams used by RI, HCI, NUS High, NJC and others. We help shape the project portfolio that strengthens a DSA application. We don't write personal statements for students, ever.
+Yes, for the Computing / Maths / Science DSA streams used by RI, HCI, NUS High, NJC and others. We help shape the project portfolio that strengthens a DSA application. We don't write personal statements for students, ever.
 
 Does your schedule work around PSLE / O-Level / A-Level exam weeks?
 
-Yes — automatically. During PSLE (late September), O-Level (October–November) and A-Level (November) exam weeks, we reduce intensity, switch to lighter review sessions, or pause entirely. No bill changes. The mentor's job is to help your child do well at school, not the other way around.
+Yes, automatically. During PSLE (late September), O-Level (October–November) and A-Level (November) exam weeks, we reduce intensity, switch to lighter review sessions, or pause entirely. No bill changes. The mentor's job is to help your child do well at school, not the other way around.
 
 What time zones do mentors work in?
 
-SGT (UTC+8), Singapore's only time zone. Most mentors are based in India (IST, 2.5 hours behind), so a 5 pm Singapore class is 2:30 pm in India — normal teaching hours on both ends. Saturday morning classes are also popular with IP-track families.
+SGT (UTC+8), Singapore's only time zone. Most mentors are based in India (IST, 2.5 hours behind), so a 5 pm Singapore class is 2:30 pm in India, normal teaching hours on both ends. Saturday morning classes are also popular with IP-track families.
 
 Can my child practise in Mandarin / Tamil / Malay if they're more comfortable?
 
-Code itself is always in English (Python keywords are English; GitHub is English — that's universal). But for primary-school P3/P4 learners, we can pair them with a bilingual mentor who explains concepts in Mandarin, Tamil or Malay and walks through code in English.
+Code itself is always in English (Python keywords are English; GitHub is English. That's universal). But for primary-school P3/P4 learners, we can pair them with a bilingual mentor who explains concepts in Mandarin, Tamil or Malay and walks through code in English.
 
 Are mentors qualified? Background-checked?
 
-Every mentor undergoes a structured 4-step interview, paid trial-teaching, and an Indian-equivalent of a DBS background check. Many hold a Master's or PhD in Computer Science. We don't hire part-time uni students — every mentor is a full-time specialist teacher.
+Every mentor undergoes a structured 4-step interview, paid trial-teaching, and an Indian-equivalent of a DBS background check. Many hold a Master's or PhD in Computer Science. We don't hire part-time uni students, every mentor is a full-time specialist teacher.
 
 What if my child needs a different mentor?
 
-You ask, we switch — free of charge, within 48 hours. About 1 in 30 families ask for a switch in the first two months; we treat it as totally normal.
+You ask, we switch, free of charge, within 48 hours. About 1 in 30 families ask for a switch in the first two months; we treat it as totally normal.
 
 Do you charge GST?
 
-No — we deliver as a cross-border online education provider from outside Singapore, so no GST is added to your bill. Your bill is exactly USD 150 / month for 1:1 (or USD 100 / month for cohort), billed in USD.
+No. We deliver as a cross-border online education provider from outside Singapore, so no GST is added to your bill. Your bill is exactly USD 150 / month for 1:1 (or USD 100 / month for cohort), billed in USD.
 
 How do I pay?
 
@@ -639,13 +639,13 @@ Not currently. We're not a SkillsFuture-approved provider. However, our USD 150/
 
 How do I cancel?
 
-One email. No phone call required. No retention agent will hassle you. We stop billing on the cancellation date — no notice period. The mentor runs any sessions already paid for, then closes out cleanly.
+One email. No phone call required. No retention agent will hassle you. We stop billing on the cancellation date, no notice period. The mentor runs any sessions already paid for, then closes out cleanly.
 
 Will the mentor help set up a school-issued laptop?
 
 Yes. Many Singapore schools issue locked-down devices. We have a school-laptop setup path (VS Code in the browser via GitHub Codespaces, sandboxed Python when admin is locked). The mentor handles setup live during the first class.
 
-Will my child be safe online — especially with AI?
+Will my child be safe online, especially with AI?
 
 Under-13s never interact with raw LLM APIs without a mentor present. We use age-appropriate models, guardrailed prompts, content filters. The AI tools your child builds are fully reviewable by you. We're stricter on this than most.
 
@@ -659,11 +659,11 @@ The mentor stays with your child. Only the time zone changes. We've onboarded re
 
 Do you offer scholarships?
 
-Yes — a small annual scholarship pool for high-potential Singapore students whose families can't comfortably afford USD 150/month. Email us a short note from the parent + a piece of work from the child. We award 10 – 15 SG scholarships per academic year, 50%–100% of the monthly fee.
+Yes, a small annual scholarship pool for high-potential Singapore students whose families can't comfortably afford USD 150/month. Email us a short note from the parent + a piece of work from the child. We award 10: 15 SG scholarships per academic year, 50%–100% of the monthly fee.
 
 Are sessions delivered via Zoom or Microsoft Teams?
 
-Default is Zoom — what most Singapore families are familiar with. If your school or family prefers Teams, Google Meet or Webex, mentors will use whichever you prefer. We've delivered classes across all four reliably.
+Default is Zoom, what most Singapore families are familiar with. If your school or family prefers Teams, Google Meet or Webex, mentors will use whichever you prefer. We've delivered classes across all four reliably.
 
 What happens during the Lunar New Year, Hari Raya, Deepavali and Christmas?
 
@@ -687,7 +687,7 @@ Under-13s never interact with raw LLM APIs without a mentor present. We use age-
 
 "Will my JC2 student keep up with H2 Maths / H2 Chemistry during all this?"
 
-Yes — and usually they pull ahead. Most JC2 students who join us see their H2 Computing 9569 marks rise because we directly cover the syllabus they'll be tested on. We coordinate around prelims, mock papers and A-Level fortnight.
+Yes, and usually they pull ahead. Most JC2 students who join us see their H2 Computing 9569 marks rise because we directly cover the syllabus they'll be tested on. We coordinate around prelims, mock papers and A-Level fortnight.
 
 "My daughter is in a girls' school and we'd prefer a female mentor."
 
@@ -695,7 +695,7 @@ Of course. Just say so on the callback. We have an all-female mentor pool. Same 
 
 "We're moving back to India / China / Australia next year. Is this worth starting?"
 
-Yes — and actually especially yes. Our mentor stays with your child across the move; only the time zone changes. Many of our Singapore families have moved to Hong Kong, Sydney, Mumbai or San Francisco with us and never switched providers.
+Yes, and actually especially yes. Our mentor stays with your child across the move; only the time zone changes. Many of our Singapore families have moved to Hong Kong, Sydney, Mumbai or San Francisco with us and never switched providers.
 
 "What if the mentor is just a moonlighting graduate student?"
 
@@ -703,7 +703,7 @@ None of our mentors are moonlighting graduate students. Every mentor is a full-t
 
 Where our Singapore students live
 
-## Neighbourhood spotlights — from Bishan to Bedok to Sentosa Cove.
+## Neighbourhood spotlights: from Bishan to Bedok to Sentosa Cove.
 
 Singapore is small, but neighbourhood patterns matter. Schools cluster by area; commute times affect when classes can run; HDB-versus-condo demographics matter. Here's the granular picture of where our current SG students are based.
 
@@ -711,13 +711,13 @@ BISHAN · D20
 
 ### Bishan · Ang Mo Kio · Toa Payoh
 
-Heart of the IP-school cluster — Raffles Institution, Raffles Girls', Catholic High, Cedar Girls' all here. Densest concentration of our IP-track students.
+Heart of the IP-school cluster: Raffles Institution, Raffles Girls', Catholic High, Cedar Girls' all here. Densest concentration of our IP-track students.
 
 **Top schools:** RI · RGS · Catholic High · Cedar Girls' · ACS(Barker)BUKIT TIMAH · D11
 
 ### Bukit Timah · Holland · Dover
 
-Hwa Chong Institution, Nanyang Girls', ACS Independent — another deep IP cluster. Many of our advanced JC2 H2 9569 students live here.
+Hwa Chong Institution, Nanyang Girls', ACS Independent, another deep IP cluster. Many of our advanced JC2 H2 9569 students live here.
 
 **Top schools:** HCI · NYGH · ACS(I) · NJC · MGSTAMPINES · D18
 
@@ -735,7 +735,7 @@ Near NUS & NUS High. Many of our advanced IP / DSA / NOI track students live her
 
 ### Orchard · River Valley · Tanglin
 
-International-school cluster — UWCSEA, SAS (in Woodlands but with many central families), Tanglin Trust, OFS, ISS. Mostly IB DP families.
+International-school cluster: UWCSEA, SAS (in Woodlands but with many central families), Tanglin Trust, OFS, ISS. Mostly IB DP families.
 
 **Top schools:** UWCSEA · Tanglin · OFS · ISS · CISEAST · D15–16
 
@@ -759,7 +759,7 @@ Growing western cluster as new HDB estates open. Mix of MOE schools and a few sp
 
 ### Woodlands · Yishun · Sembawang
 
-Singapore American School cluster (Woodlands campus) — many AP CSP / AP CSA families. Plus a sizeable MOE-secondary base.
+Singapore American School cluster (Woodlands campus), many AP CSP / AP CSA families. Plus a sizeable MOE-secondary base.
 
 **Top schools:** SAS · Innova JC · Yishun Sec · Republic PolyA note on the Singapore afternoon
 
@@ -767,52 +767,52 @@ Singapore American School cluster (Woodlands campus) — many AP CSP / AP CSA fa
 
 Most Singapore primary & secondary students return home between 2 pm and 4 pm. CCA, tuition, dinner and family time fill the rest. We've engineered our class schedule around this reality:
 
-- **Weeknight slots** — 4 pm – 9 pm SGT, accommodating CCA / tuition stack-ups.
-- **Saturday morning blocks** — 9 am – 12 pm SGT, popular with IP-track and JC2 families who want a longer, deeper weekly session.
-- **Sunday afternoon** — available on request for adult learners and families with intense weeknight schedules.
-- **June & December holidays** — intensive blocks available (3+ sessions a week) for students who want to accelerate during the long breaks.
-- **Exam-week pauses** — PSLE, O-Level, A-Level and IB exam fortnights automatically trigger reduced intensity. No bill changes.
+- **Weeknight slots**, 4 pm, 9 pm SGT, accommodating CCA / tuition stack-ups.
+- **Saturday morning blocks**, 9 am, 12 pm SGT, popular with IP-track and JC2 families who want a longer, deeper weekly session.
+- **Sunday afternoon**, available on request for adult learners and families with intense weeknight schedules.
+- **June & December holidays**, intensive blocks available (3+ sessions a week) for students who want to accelerate during the long breaks.
+- **Exam-week pauses**: PSLE, O-Level, A-Level and IB exam fortnights automatically trigger reduced intensity. No bill changes.
 
 Worth saying out loud
 
 ## Why Indian-trained mentors fit Singapore families *especially* well.
 
-We don't dance around this. Most of our mentors are India-based. For Singapore families — many of whom are themselves Singaporean-Indian or have strong India ties — that's often an advantage. Here's why, said plainly:
+We don't dance around this. Most of our mentors are India-based. For Singapore families, many of whom are themselves Singaporean-Indian or have strong India ties, that's often an advantage. Here's why, said plainly:
 
-- **Time zones align.** IST is 2.5 hours behind SGT. A 5 pm Singapore class is 2:30 pm in India — normal teaching hours on both ends. No-one is teaching at midnight.
-- **CS depth is world-class.** India produces more CS graduates per year than any other country, and the top tier of that pool — people who cleared IIT JEE Advanced or top-IIT placement — is who teaches your child. NUS / NTU / IIT graduates respect each other's standards.
+- **Time zones align.** IST is 2.5 hours behind SGT. A 5 pm Singapore class is 2:30 pm in India, normal teaching hours on both ends. No-one is teaching at midnight.
+- **CS depth is world-class.** India produces more CS graduates per year than any other country, and the top tier of that pool, people who cleared IIT JEE Advanced or top-IIT placement, is who teaches your child. NUS / NTU / IIT graduates respect each other's standards.
 - **English-medium teaching is native.** Indian mentors deliver in clear, professional English. For Mandarin-first or Tamil-first families, we also have bilingual mentors who can switch languages for primary-school learners.
 - **Cultural understanding is automatic.** Singapore's Indian diaspora is well-represented in our SG family base. Mentors understand the cultural texture of Singapore-Indian (and broader South-Asian) homes without needing to be briefed.
 - **Singapore-specific knowledge is the burden of the mentor, not you.** We invest in mentors who learn the MOE syllabus, the IP system, the SoC / SCSE / SCIS / SUTD admissions criteria. You don't need to explain Singapore education to anyone.
-- **Cost structure makes 1:1 viable.** Indian salary structures mean we can offer real 1:1 mentorship at USD 150 / month — a Singapore-based academy charging the same price would be forced to use 5:1 group sessions.
+- **Cost structure makes 1:1 viable.** Indian salary structures mean we can offer real 1:1 mentorship at USD 150 / month, a Singapore-based academy charging the same price would be forced to use 5:1 group sessions.
 
 Real shipped student projects
 
-## Real apps our students built — live, public, and yours to open.
+## Real apps our students built: live, public, and yours to open.
 
 Every project below was built by a Modern Age Coders student and is live on the internet right now. Tap any card to open the real thing. See the full wall at [Student Labs](/student-labs).
 
 Built by Anika · AI & ML
 
-### BookDesk — AI Book Summaries & Quizzes
+### BookDesk: AI Book Summaries & Quizzes
 
-Type in any book name and author, and BookDesk pulls together the book's details, a clear summary and a custom quiz to test what you've learned — a genuinely useful study companion.
+Type in any book name and author, and BookDesk pulls together the book's details, a clear summary and a custom quiz to test what you've learned, a genuinely useful study companion.
 
 Gemini AIFull-StackDatabaseQuiz Gen[Open the live project ↗](https://bookdesk1.netlify.app)Built by Bhavya · AI & ML
 
-### NutriLife — AI Nutrition Coach
+### NutriLife: AI Nutrition Coach
 
-Snap a photo of any meal and NutriLife instantly names every food, then breaks down the calories, macros, vitamins and minerals — powered by AI.
+Snap a photo of any meal and NutriLife instantly names every food, then breaks down the calories, macros, vitamins and minerals, powered by AI.
 
 Vibe CodingAI VisionReactLovable[Open the live project ↗](https://nutrilife-bhavya.lovable.app)Built by Anurag · AI & ML
 
-### HugSelle — AI Smile Generator
+### HugSelle: AI Smile Generator
 
-A heartwarming AI-powered web app that detects your mood and generates uplifting quotes and visuals to make you smile — a creative blend of technology and positivity.
+A heartwarming AI-powered web app that detects your mood and generates uplifting quotes and visuals to make you smile, a creative blend of technology and positivity.
 
 PythonMachine LearningAI[Open the live project ↗](https://hugselle.modernagecoders.com)Built by Rohan · Web App
 
-### Pracy — Coding Practice & Quiz Platform
+### Pracy: Coding Practice & Quiz Platform
 
 An all-in-one coding-practice site with interactive challenges, quizzes and score tracking across multiple languages to strengthen logic and problem-solving.
 
@@ -820,13 +820,13 @@ JavaScriptNode.jsMongoDB[Open the live project ↗](https://astounding-flan-f18e
 
 ### The Beautiful Mind
 
-A scientifically designed focus and brain-strength game with 15 progressive levels — testing attention, control and mental endurance with real-time progress tracking and leaderboards.
+A scientifically designed focus and brain-strength game with 15 progressive levels, testing attention, control and mental endurance with real-time progress tracking and leaderboards.
 
 ReactFirebaseJavaScriptGame Logic[Open the live project ↗](https://mind.modernagecoders.com)Built by Somraj · Tool
 
 ### Image Slider Website
 
-A visually appealing site with a smooth image carousel — auto or manual navigation, responsive layout and beautiful transition effects.
+A visually appealing site with a smooth image carousel, auto or manual navigation, responsive layout and beautiful transition effects.
 
 HTMLCSSJavaScript[Open the live project ↗](https://robo23middle-stack.github.io/scenes/)Last word
 
@@ -834,7 +834,7 @@ HTMLCSSJavaScript[Open the live project ↗](https://robo23middle-stack.github.i
 
 No quiz, no pop-up, no sales pressure. Leave a +65 number, a mentor working SGT-friendly hours calls within three hours, and you decide everything from there.
 
-We hope you've found this page useful even if you don't end up booking. Singapore parents are some of the most discerning consumers in the world — if anything here didn't make sense, didn't ring true, or felt like marketing rather than substance, please tell us. We rewrite this page based on real parent feedback every few months.
+We hope you've found this page useful even if you don't end up booking. Singapore parents are some of the most discerning consumers in the world, if anything here didn't make sense, didn't ring true, or felt like marketing rather than substance, please tell us. We rewrite this page based on real parent feedback every few months.
 
 [Browse all courses](/courses)
 

@@ -79,7 +79,7 @@ Section
 
 **Answer:** Three headings of decreasing size: a very large 'Main Title', a medium 'Sub Title', and a smaller 'Section'.
 
-Heading tags go from `h1` (biggest) to `h6` (smallest). They form a visual hierarchy — h1 is the most important, h2 is less important, and so on. Browsers give each level a smaller default font size.
+Heading tags go from `h1` (biggest) to `h6` (smallest). They form a visual hierarchy, h1 is the most important, h2 is less important, and so on. Browsers give each level a smaller default font size.
 
 ### Q6. [Easy] Rohan wrote this image tag but the alt text is wrong. Fix it:
 
@@ -215,7 +215,7 @@ Mix well and bake.
 
 ```
 
-*Hint:* Go element by element — heading, paragraph, list, horizontal rule, paragraph.
+*Hint:* Go element by element, heading, paragraph, list, horizontal rule, paragraph.
 
 **Answer:** A heading 'Recipe', then 'Ingredients:', then a bulleted list of Flour, Sugar, Milk, then a horizontal line, then the text 'Mix well and bake.'
 
@@ -251,7 +251,7 @@ Email me at [rohan@example.com](mailto:rohan@example.com)
 
 **Answer:** A sub-heading 'Contact' followed by 'Email me at rohan@example.com' where the email address is a clickable link.
 
-You can nest elements — the `` link is inside the `` paragraph. The `mailto:` prefix in the href tells the browser to open the user's email app when clicked.
+You can nest elements, the `` link is inside the `` paragraph. The `mailto:` prefix in the href tells the browser to open the user's email app when clicked.
 
 ### Q18. [Medium] Write HTML for a page that has the title 'My Dog' (shown on the browser tab), a heading 'Meet Buddy', and a paragraph describing the dog.
 
@@ -299,7 +299,7 @@ Welcome again
 Welcome one more time
 ```
 
-*Hint:* All three are h1 tags — what does that mean visually?
+*Hint:* All three are h1 tags, what does that mean visually?
 
 **Answer:** Three identical large headings stacked on top of each other: 'Welcome', 'Welcome again', 'Welcome one more time'.
 
@@ -339,7 +339,7 @@ Hello
 World
 From HTML
 
-All three words are inside a single `` element, but `` forces the text to break onto new lines without creating separate paragraphs. Use `` sparingly — for real paragraph breaks, use separate `` elements.
+All three words are inside a single `` element, but `` forces the text to break onto new lines without creating separate paragraphs. Use `` sparingly, for real paragraph breaks, use separate `` elements.
 
 ### Q23. [Hard] Vikram wrote this but the browser shows no image. Find all the bugs:
 
@@ -353,7 +353,7 @@ All three words are inside a single `` element, but `` forces the text to break 
 
 ```
 
-Three bugs here: (1) `scr` is misspelled — should be `src`. (2) The filename is missing quotes. (3) The `alt` attribute is missing, which is required for accessibility and SEO. Always use `src`, quotes, and `alt`.
+Three bugs here: (1) `scr` is misspelled, should be `src`. (2) The filename is missing quotes. (3) The `alt` attribute is missing, which is required for accessibility and SEO. Always use `src`, quotes, and `alt`.
 
 ### Q24. [Hard] Write a complete HTML page for a mini 'About Me' website. It should have a title 'About Aarav', a main heading with the name, a paragraph about you, a sub-heading 'Favourite Subjects', an unordered list of three subjects, and a link to your school's website.
 
@@ -403,7 +403,7 @@ About Me
 
 **Answer:** A medium-sized bold heading saying 'About Me'.
 
-`` is the second-level heading — smaller than `` but still prominent. It is used for section titles on a page.
+`` is the second-level heading, smaller than `` but still prominent. It is used for section titles on a page.
 
 ### Q2. [Easy] Write HTML for a link that opens the Modern Age Coders website.
 
@@ -428,7 +428,7 @@ Item 2
 
 **Answer:** 'Item 1', then a horizontal line across the page, then 'Item 2'.
 
-`` is a self-closing tag that draws a horizontal line — useful for separating sections visually.
+`` is a self-closing tag that draws a horizontal line, useful for separating sections visually.
 
 ### Q4. [Easy] Fix this:
 
@@ -467,7 +467,7 @@ Fruits
 AppleMango
 ```
 
-*Hint:* HTML ignores whitespace — the list still renders with bullets.
+*Hint:* HTML ignores whitespace, the list still renders with bullets.
 
 **Answer:** A big heading 'Shop', a smaller heading 'Fruits', then a bulleted list with Apple and Mango.
 
@@ -614,7 +614,7 @@ Click
 [Click](https://google.com)
 ```
 
-Two bugs: (1) The href value should be in quotes and usually starts with `https://` for external links. (2) The closing tag `` is missing the forward slash — it should be ``.
+Two bugs: (1) The href value should be in quotes and usually starts with `https://` for external links. (2) The closing tag `` is missing the forward slash. It should be ``.
 
 ### Q15. [Hard] Write HTML for a blog post with a heading, an image at the top (with alt text), two paragraphs of content, a sub-heading 'Conclusion', one more paragraph, and a link at the bottom that says 'Read more articles'.
 
@@ -663,7 +663,7 @@ A typical blog post structure with a title, hero image, body paragraphs, a concl
 
 ### Q7. [Easy] What is HTML?
 
-**B is correct.** HTML is a markup language — it describes the structure of content using tags. It is not a programming language because it cannot make decisions, do math, or loop. CSS and JavaScript add style and logic.
+**B is correct.** HTML is a markup language. It describes the structure of content using tags. It is not a programming language because it cannot make decisions, do math, or loop. CSS and JavaScript add style and logic.
 
 ### Q8. [Easy] Which tag creates a clickable link?
 
@@ -671,11 +671,11 @@ A typical blog post structure with a title, hero image, body paragraphs, a concl
 
 ### Q9. [Medium] Which tag does NOT need a closing tag?
 
-**B is correct.** `` is a self-closing (void) tag — it has no content between opening and closing. Other self-closing tags include ``, ``, and ``.
+**B is correct.** `` is a self-closing (void) tag. It has no content between opening and closing. Other self-closing tags include ``, ``, and ``.
 
 ### Q10. [Medium] Where should the visible content of the page go?
 
-**B is correct.** All visible content — headings, paragraphs, images, links, lists — goes inside ``. The `` is for metadata like the title and character encoding.
+**B is correct.** All visible content, headings, paragraphs, images, links, lists, goes inside ``. The `` is for metadata like the title and character encoding.
 
 ### Q11. [Medium] Which attribute specifies the destination URL of a link?
 
@@ -707,7 +707,7 @@ A typical blog post structure with a title, hero image, body paragraphs, a concl
 
 ### Q18. [Hard] Which of these statements is TRUE about HTML?
 
-**C is correct.** HTML is very forgiving — if you misspell a tag or forget a closing tag, the browser usually tries to fix it. This makes HTML great for learning. HTML needs no compiler (A), is not strictly case-sensitive for tags (B), and cannot do math (D).
+**C is correct.** HTML is very forgiving, if you misspell a tag or forget a closing tag, the browser usually tries to fix it. This makes HTML great for learning. HTML needs no compiler (A), is not strictly case-sensitive for tags (B), and cannot do math (D).
 
 ### Q19. [Hard] What is the DOM?
 
@@ -816,7 +816,7 @@ A recipe has two different kinds of information: ingredients (order does not mat
 </html>
 ```
 
-This demonstrates a repeating pattern — one main heading with three sub-sections. Each sub-section has the same structure (h2 + two paragraphs), which is how real web pages are organised.
+This demonstrates a repeating pattern, one main heading with three sub-sections. Each sub-section has the same structure (h2 + two paragraphs), which is how real web pages are organised.
 
 ### Challenge 4. Navigation With Links
 
@@ -876,7 +876,7 @@ Each link is wrapped in its own paragraph so they appear on separate lines. The 
 </html>
 ```
 
-This is how real image galleries are structured — a main heading, and repeating sections that each contain a title, image, and description. The alt text is important for accessibility.
+This is how real image galleries are structured, a main heading, and repeating sections that each contain a title, image, and description. The alt text is important for accessibility.
 
 ### Challenge 6. Mini Blog Post
 

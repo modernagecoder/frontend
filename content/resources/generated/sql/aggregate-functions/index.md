@@ -15,25 +15,25 @@ keywords: ["sql aggregate functions", "sql count", "sql sum", "sql avg", "sql mi
 
 ## What Are Aggregate Functions?
 
-Most SQL queries return rows. But often you do not want rows — you want a **summary**. How many employees are there? What is the total sales? What is the average salary? These questions are answered with **aggregate functions**.
+Most SQL queries return rows. But often you do not want rows. You want a **summary**. How many employees are there? What is the total sales? What is the average salary? These questions are answered with **aggregate functions**.
 
 An aggregate function takes many rows of data and collapses them into a single result value. For example, `SELECT COUNT(*) FROM employees` takes all 10 employee rows and returns just one number: 10.
 
 ### The Five Core Aggregates
 
-- `COUNT()` — how many rows
-- `SUM()` — total of a numeric column
-- `AVG()` — average of a numeric column
-- `MIN()` — smallest value
-- `MAX()` — largest value
+- `COUNT()`, how many rows
+- `SUM()`, total of a numeric column
+- `AVG()`, average of a numeric column
+- `MIN()`, smallest value
+- `MAX()`, largest value
 
-Plus `GROUP_CONCAT()` (MySQL) which combines values into a single string, and a few others. You can use aggregates on all the rows of a table, on filtered rows (with WHERE), or on groups of rows (with GROUP BY — next chapter).
+Plus `GROUP_CONCAT()` (MySQL) which combines values into a single string, and a few others. You can use aggregates on all the rows of a table, on filtered rows (with WHERE), or on groups of rows (with GROUP BY, next chapter).
 
 ## Why Aggregates Are Business-Critical
 
 ### 1. Every Business Report Is An Aggregate
 
-Revenue, user counts, average order value, conversion rates — every metric on every business dashboard is an aggregate. If you cannot write `SUM(revenue)` or `AVG(order_value)` fluently, you cannot be a data analyst.
+Revenue, user counts, average order value, conversion rates, every metric on every business dashboard is an aggregate. If you cannot write `SUM(revenue)` or `AVG(order_value)` fluently, you cannot be a data analyst.
 
 ### 2. COUNT Is the Foundation of Analytics
 
@@ -41,7 +41,7 @@ Revenue, user counts, average order value, conversion rates — every metric on 
 
 ### 3. AVG with NULLs is an Interview Trap
 
-Every intermediate SQL interview asks: "What is the difference between `AVG(col)` and `AVG(COALESCE(col, 0))`?" The wrong answer gets you cut from the hiring process. NULLs are silently excluded from AVG — you need to know whether that is what you want.
+Every intermediate SQL interview asks: "What is the difference between `AVG(col)` and `AVG(COALESCE(col, 0))`?" The wrong answer gets you cut from the hiring process. NULLs are silently excluded from AVG. You need to know whether that is what you want.
 
 ### 4. MIN/MAX Work on Strings and Dates Too
 
@@ -85,7 +85,7 @@ INSERT INTO orders VALUES
 
 Note: 4 rows have NULL discount (ids 2, 5, 8, 11). This will matter for COUNT and AVG.
 
-### 1. COUNT — Three Variants You MUST Know
+### 1. COUNT: Three Variants You MUST Know
 
 This is the most important distinction in aggregates:
 
@@ -107,7 +107,7 @@ Example with real numbers: suppose a column has values `[10, 20, 20, NULL, NULL]
 - COUNT(column) = 3 (excludes 2 NULLs)
 - COUNT(DISTINCT column) = 2 (values 10 and 20 are unique, NULLs excluded)
 
-### 2. SUM — Total of a Column
+### 2. SUM: Total of a Column
 
 `SUM()` adds up all non-NULL values:
 
@@ -119,7 +119,7 @@ SELECT SUM(amount) AS total_revenue FROM orders;
 
 SUM of NULLs is NULL, BUT SUM skips NULLs in a column, so `SUM(discount)` = 100+500+200+50+600+300+1000+100 = 2850. If EVERY value is NULL, SUM returns NULL (not 0). Handle this with COALESCE: `COALESCE(SUM(discount), 0)`.
 
-### 3. AVG — Average (and the NULL trap)
+### 3. AVG: Average (and the NULL trap)
 
 AVG = SUM / COUNT. But here is the critical detail: AVG uses `COUNT(column)` in the denominator, **not** `COUNT(*)`. NULLs are ignored on both top and bottom.
 
@@ -158,7 +158,7 @@ SELECT MIN(customer_name), MAX(customer_name) FROM orders;
 -- 'Aarav Sharma' (first alphabetically), 'Vikram Reddy' (last)
 ```
 
-MIN and MAX skip NULLs — if ALL values are NULL, they return NULL.
+MIN and MAX skip NULLs, if ALL values are NULL, they return NULL.
 
 ### 5. Aggregates with WHERE
 
@@ -229,7 +229,7 @@ FunctionBehavior with NULLsCOUNT(*)Counts all rowsCOUNT(col)Skips NULLsCOUNT(DIS
 
 ## Code Examples
 
-### COUNT — Three Variants
+### COUNT: Three Variants
 
 ```sql
 -- Compare all three COUNT forms
@@ -240,7 +240,7 @@ SELECT
 FROM orders;
 ```
 
-COUNT(*) counts all 12 rows. COUNT(discount) excludes the 4 rows where discount is NULL, giving 8. COUNT(DISTINCT city) finds unique cities: Mumbai, Delhi, Bengaluru, Hyderabad, Chennai, Pune — 6 unique cities.
+COUNT(*) counts all 12 rows. COUNT(discount) excludes the 4 rows where discount is NULL, giving 8. COUNT(DISTINCT city) finds unique cities: Mumbai, Delhi, Bengaluru, Hyderabad, Chennai, Pune: 6 unique cities.
 
 **Output:**
 
@@ -263,7 +263,7 @@ SELECT SUM(discount) AS total_discounts FROM orders;
 SELECT COALESCE(SUM(discount), 0) AS total_discounts_safe FROM orders;
 ```
 
-SUM(amount): 2500+1800+5600+3200+4500+1200+6700+2100+3800+8900+2700+1500 = 44500.00. SUM(discount): skips NULLs, so 100+500+200+50+600+300+1000+100 = 2850.00. If ALL discounts were NULL, SUM would return NULL — COALESCE guards against that.
+SUM(amount): 2500+1800+5600+3200+4500+1200+6700+2100+3800+8900+2700+1500 = 44500.00. SUM(discount): skips NULLs, so 100+500+200+50+600+300+1000+100 = 2850.00. If ALL discounts were NULL, SUM would return NULL: COALESCE guards against that.
 
 **Output:**
 
@@ -273,7 +273,7 @@ total_discounts: 2850.00
 total_discounts_safe: 2850.00
 ```
 
-### AVG — NULL Sensitivity
+### AVG: NULL Sensitivity
 
 ```sql
 -- AVG skips NULLs
@@ -290,7 +290,7 @@ SELECT
 FROM orders;
 ```
 
-AVG(discount) = 2850 / 8 non-NULL rows = 356.25. AVG(COALESCE(discount, 0)) = 2850 / 12 all rows = 237.50. The third query confirms: SUM(discount) / COUNT(*) = 2850/12 = 237.50, same as AVG with COALESCE. Big difference — pick the right one for your business question.
+AVG(discount) = 2850 / 8 non-NULL rows = 356.25. AVG(COALESCE(discount, 0)) = 2850 / 12 all rows = 237.50. The third query confirms: SUM(discount) / COUNT(*) = 2850/12 = 237.50, same as AVG with COALESCE. Big difference. Pick the right one for your business question.
 
 **Output:**
 
@@ -370,7 +370,7 @@ FROM orders
 WHERE order_date BETWEEN '2026-03-01' AND '2026-03-31';
 ```
 
-January has orders from Aarav and Priya — 2 unique customers. March has Sneha (Chennai), Karan (Mumbai), Ishita (Delhi), Aditya (Pune), Diya (Bengaluru) — 5 unique cities. COUNT(DISTINCT) answers 'how many different values in this filtered set?' — a classic analytics query.
+January has orders from Aarav and Priya: 2 unique customers. March has Sneha (Chennai), Karan (Mumbai), Ishita (Delhi), Aditya (Pune), Diya (Bengaluru), 5 unique cities. COUNT(DISTINCT) answers 'how many different values in this filtered set?', a classic analytics query.
 
 **Output:**
 
@@ -393,7 +393,7 @@ FROM orders
 WHERE amount > (SELECT AVG(amount) FROM orders);
 ```
 
-WHERE runs before aggregates, so referencing AVG(amount) in WHERE is a conceptual error — the AVG has not been computed yet. The fix: wrap AVG in a subquery so it is computed first. The overall AVG is 44500/12 = 3708.33. Orders above this: ids 3 (5600), 5 (4500), 7 (6700), 9 (3800), 10 (8900). 5 rows.
+WHERE runs before aggregates, so referencing AVG(amount) in WHERE is a conceptual error, the AVG has not been computed yet. The fix: wrap AVG in a subquery so it is computed first. The overall AVG is 44500/12 = 3708.33. Orders above this: ids 3 (5600), 5 (4500), 7 (6700), 9 (3800), 10 (8900). 5 rows.
 
 **Output:**
 
@@ -409,7 +409,7 @@ Diya Nair 8900.00
 (5 rows)
 ```
 
-### GROUP_CONCAT — Combining Values
+### GROUP_CONCAT: Combining Values
 
 ```sql
 -- All customer names in Mumbai as one string
@@ -450,7 +450,7 @@ SELECT
 FROM orders;
 ```
 
-This is a real-world business summary. The CASE inside SUM is a common pattern called conditional aggregation — it counts rows matching a condition. Total 12 orders, 12 unique customers, 6 unique cities, 44500 revenue, avg 3708.33, min 1200, max 8900, 8 delivered, 2 cancelled (and 2 pending).
+This is a real-world business summary. The CASE inside SUM is a common pattern called conditional aggregation. It counts rows matching a condition. Total 12 orders, 12 unique customers, 6 unique cities, 44500 revenue, avg 3708.33, min 1200, max 8900, 8 delivered, 2 cancelled (and 2 pending).
 
 **Output:**
 
@@ -509,7 +509,7 @@ SELECT AVG(COALESCE(discount, 0)) FROM orders;
 -- Returns 237.50 (sum 2850 / all 12 rows)
 ```
 
-AVG ignores NULLs in both numerator and denominator. If your business logic wants NULLs to count as 0, use COALESCE. Decide deliberately — the two numbers can differ by 50% or more.
+AVG ignores NULLs in both numerator and denominator. If your business logic wants NULLs to count as 0, use COALESCE. Decide deliberately, the two numbers can differ by 50% or more.
 
 ### SUM of All-NULL Column Returns NULL, Not 0
 
@@ -562,7 +562,7 @@ COUNT(*) counts all rows. COUNT(column) counts non-NULL values of that column. T
 SELECT customer_name, SUM(amount) FROM orders;
 ```
 
-In strict mode: ERROR 1140 (42000): In aggregated query without GROUP BY, expression #1 of SELECT list contains nonaggregated column... In lenient MySQL mode: returns ONE row with arbitrary customer_name and the total SUM — meaningless.
+In strict mode: ERROR 1140 (42000): In aggregated query without GROUP BY, expression #1 of SELECT list contains nonaggregated column... In lenient MySQL mode: returns ONE row with arbitrary customer_name and the total SUM, meaningless.
 
 **Correct:**
 
@@ -581,11 +581,11 @@ Mixing aggregate and non-aggregate columns requires GROUP BY (next chapter). Wit
 - Aggregate functions collapse many rows into a single summary value: COUNT, SUM, AVG, MIN, MAX, GROUP_CONCAT.
 - COUNT(*) counts all rows. COUNT(column) counts non-NULL values. COUNT(DISTINCT column) counts unique non-NULL values. These three give different answers on real data.
 - SUM ignores NULLs. If every value is NULL, SUM returns NULL (not 0). Wrap in COALESCE for guaranteed numeric output.
-- AVG = SUM / COUNT(column) — NULLs excluded from both numerator and denominator. Use AVG(COALESCE(col, 0)) to treat NULLs as 0 and divide by total rows.
+- AVG = SUM / COUNT(column): NULLs excluded from both numerator and denominator. Use AVG(COALESCE(col, 0)) to treat NULLs as 0 and divide by total rows.
 - MIN and MAX work on numbers, dates, and strings. For strings they return alphabetically first/last. NULLs are skipped.
 - Aggregates cannot be used in WHERE (WHERE runs before aggregation). Use a subquery or HAVING instead.
 - WHERE filters rows BEFORE aggregation. SELECT COUNT(*) FROM orders WHERE status='Delivered' counts only delivered orders.
-- GROUP_CONCAT (MySQL) combines multiple string values into one — often with ORDER BY and custom SEPARATOR. PostgreSQL uses STRING_AGG.
+- GROUP_CONCAT (MySQL) combines multiple string values into one, often with ORDER BY and custom SEPARATOR. PostgreSQL uses STRING_AGG.
 - You can combine multiple aggregates in one SELECT to get a complete summary in a single query: total, avg, min, max together.
 - Conditional aggregation pattern: SUM(CASE WHEN condition THEN 1 ELSE 0 END) counts rows matching the condition inside a single SELECT.
 

@@ -1,18 +1,18 @@
 ---
-title: "How We Teach — Watch Our Free Coding & Maths Demo Library | Modern Age Coders"
-description: "Watch every Modern Age Coders teaching demo, free. Our open methodology library shows exactly how we teach coding (Python, AI, web design) and maths (fractions, algebra, calculus) — real class recordings, organised by topic and age. No payment, just a quick Google sign-in."
+title: "How We Teach: Watch Our Free Coding & Maths Demo Library | Modern Age Coders"
+description: "Watch every Modern Age Coders teaching demo, free. Our open methodology library shows exactly how we teach coding (Python, AI, web design) and maths (fractions, algebra, calculus), real class recordings, organised by topic and age. No payment, just a quick Google sign-in."
 canonical: https://learn.modernagecoders.com/how-we-teach
 source: src/pages/how-we-teach.html
 ---
-> Watch every Modern Age Coders teaching demo, free. Our open methodology library shows exactly how we teach coding (Python, AI, web design) and maths (fractions, algebra, calculus) — real class recordings, organised by topic and age. No payment, just a quick Google sign-in.
+> Watch every Modern Age Coders teaching demo, free. Our open methodology library shows exactly how we teach coding (Python, AI, web design) and maths (fractions, algebra, calculus), real class recordings, organised by topic and age. No payment, just a quick Google sign-in.
 
 show meThe teaching journal · open methodology library
 
 # Watch us teach *before* you decide.
 
-Most classes ask you to pay first and find out later. We do the opposite. Our entire teaching methodology — every coding and maths lesson — is open for you to watch. Free, with a quick Google sign-in. Just press play.
+Most classes ask you to pay first and find out later. We do the opposite. Our entire teaching methodology, every coding and maths lesson, is open for you to watch. Free, with a quick Google sign-in. Just press play.
 
-[Kids coding classes (6-12)](https://modernagecoders.graphy.com/courses/How-We-Teach-The-Modern-Age-Coders-Methodology-kids-Coding-6a3a27597efbc77440b2c68f)[Teens, adults & maths (13+)](https://modernagecoders.graphy.com/courses/How-We-Teach-The-Modern-Age-Coders-Methodology-6a1888029a4f81888c408ab9)What's inside ↓free to watch · quick google sign-in!******lesson_01.py — live
+[Kids coding classes (6-12)](https://modernagecoders.graphy.com/courses/How-We-Teach-The-Modern-Age-Coders-Methodology-kids-Coding-6a3a27597efbc77440b2c68f)[Teens, adults & maths (13+)](https://modernagecoders.graphy.com/courses/How-We-Teach-The-Modern-Age-Coders-Methodology-6a1888029a4f81888c408ab9)What's inside ↓free to watch · quick google sign-in!******lesson_01.py, live
 
 ```
 # make the computer say hi to YOU
@@ -21,11 +21,11 @@ print("first program, " + name)
 # cheers in the class. that moment.
 ```
 
-******board_01 — livex² + 5x + 6= (x + 2)(x + 3)why 2 & 3? they add to 5, multiply to 6 ✦The method
+******board_01, livex² + 5x + 6= (x + 2)(x + 3)why 2 & 3? they add to 5, multiply to 6 ✦The method
 
 ## How a class actually *feels*
 
-Four things shape every session — and they work exactly the same whether the screen shows code or a coordinate plane.
+Four things shape every session, and they work exactly the same whether the screen shows code or a coordinate plane.
 
 01
 
@@ -33,7 +33,7 @@ Four things shape every session — and they work exactly the same whether the s
 
 Curiosity first. We open with a question or a tiny win so the student leans in before any "theory" arrives.
 
-Code"Want to make the screen rain emojis?" — then we sneak in the loop.Maths"Why does every multiple of 3 hide a secret?" — then we meet divisibility.02
+Code"Want to make the screen rain emojis?", then we sneak in the loop.Maths"Why does every multiple of 3 hide a secret?", then we meet divisibility.02
 
 ### Learning by building, not memorising
 
@@ -51,15 +51,15 @@ CodeWe trace a loop line-by-line until the student can predict every step.MathsW
 
 Mistakes are data, not failures. Our mentors celebrate the attempt and guide gently to the fix.
 
-Code"Great bug! Let's read what the computer is trying to tell us."Maths"Your thinking was right — let's find where the number slipped."The demo library
+Code"Great bug! Let's read what the computer is trying to tell us."Maths"Your thinking was right, let's find where the number slipped."The demo library
 
 ## Watch every lesson, free.
 
-We've opened our entire teaching methodology. Every coding and maths demo we use to introduce a new student is in one place — organised by topic, level and age. No paywall. No catch.
+We've opened our entire teaching methodology. Every coding and maths demo we use to introduce a new student is in one place, organised by topic, level and age. No paywall. No catch.
 
 ## The full library is *open*.
 
-Every demo class we record — from a six-year-old's first Python loop to a teenager building a real AI model, from fractions made visual to calculus made intuitive — is yours to watch right now.
+Every demo class we record, from a six-year-old's first Python loop to a teenager building a real AI model, from fractions made visual to calculus made intuitive, is yours to watch right now.
 
 - **Real classroom recordings.** Not actors, not scripts.
 - **Coding & maths together.** One library, both subjects.
@@ -78,39 +78,39 @@ Every demo class we record — from a six-year-old's first Python loop to a teen
 
 ### Can't find a lesson you want? *Just ask us.*
 
-The open library is just a window. We've recorded **hundreds** of real sessions — **group classes, one-to-one classes, English and Hinglish**, every coding language we teach (**Python, Java, C/C++, JavaScript, web design, app development**), the full **AI & Machine Learning** track, plus the whole maths curriculum from primary level to advanced. If a specific topic or class isn't visible in the library, message us — we'll send the recording over.
+The open library is just a window. We've recorded **hundreds** of real sessions, **group classes, one-to-one classes, English and Hinglish**, every coding language we teach (**Python, Java, C/C++, JavaScript, web design, app development**), the full **AI & Machine Learning** track, plus the whole maths curriculum from primary level to advanced. If a specific topic or class isn't visible in the library, message us. We'll send the recording over.
 
 [WhatsApp us ↗](https://wa.me/919123366161?text=Hi%2C%20can%20you%20share%20a%20class%20recording%20I%27d%20like%20to%20watch%3F)we usually reply within hoursInside the methodology
 
 ## The topics our demos cover
 
-A peek at the coding and maths concepts the open library walks you through, in our own teaching style — from absolute beginner to advanced.
+A peek at the coding and maths concepts the open library walks you through, in our own teaching style, from absolute beginner to advanced.
 
 ### </> Coding lessons we demo
 
-- **Python from scratch**Variables, input, loops, conditionals and functions — taught with games and stories, not jargon.
+- **Python from scratch**Variables, input, loops, conditionals and functions, taught with games and stories, not jargon.
 - **Build your first real web page**HTML structure, CSS styling and a live, sharable result in a single sitting.
-- **JavaScript & interactivity**Bringing pages to life — clicks, animations, mini-games and clean, readable code.
+- **JavaScript & interactivity**Bringing pages to life, clicks, animations, mini-games and clean, readable code.
 - **Object-oriented thinking**Classes, objects and patterns explained through things kids already understand.
-- **AI & machine learning, demystified**How a model actually learns — built up live, line by line, from intuition first.
+- **AI & machine learning, demystified**How a model actually learns, built up live, line by line, from intuition first.
 - **Data, files & APIs**Reading and writing data, talking to the internet, and shipping real little tools.
 - **Apps, deployed live**Taking a project from a blank file to something a student can send their friends.
 
 ### ∑ Maths lessons we demo
 
-- **Number sense & mental maths**The "feel" for numbers that makes everything else easier — built early, built right.
-- **Fractions you can actually see**Cut, shade and compare — until "half of three-quarters" stops being scary.
-- **Geometry & coordinates**Shapes, angles and the coordinate plane — drawn, measured, understood.
-- **Algebra without the panic**Why equations, factoring and quadratics work — not just the steps to follow.
+- **Number sense & mental maths**The "feel" for numbers that makes everything else easier, built early, built right.
+- **Fractions you can actually see**Cut, shade and compare, until "half of three-quarters" stops being scary.
+- **Geometry & coordinates**Shapes, angles and the coordinate plane, drawn, measured, understood.
+- **Algebra without the panic**Why equations, factoring and quadratics work, not just the steps to follow.
 - **Trigonometry, made intuitive**Sine, cosine and tangent through real triangles, not memorised tables.
-- **Probability & statistics**Coin flips, dice and real data — building a working intuition for chance.
+- **Probability & statistics**Coin flips, dice and real data, building a working intuition for chance.
 - **Calculus, finally clear**The derivative built from a zoomed-in graph before any rule ever appears.
 
 Side by side
 
 ## Same teacher energy, two subjects
 
-Coding and maths aren't separate worlds at Modern Age Coders — they're two sides of the same way of thinking. Here's the vibe of each.
+Coding and maths aren't separate worlds at Modern Age Coders. They're two sides of the same way of thinking. Here's the vibe of each.
 
 ▟ Coding studio
 
@@ -122,7 +122,7 @@ A mentor screen-shares, the student codes along, and every small win gets a genu
 
 ### Visual, patient, intuition-first
 
-We draw it before we write it. Concepts are shown, questioned and rebuilt by the student — so the formula is the last step, not the first. Watch a real fractions, algebra or calculus session in the library.
+We draw it before we write it. Concepts are shown, questioned and rebuilt by the student, so the formula is the last step, not the first. Watch a real fractions, algebra or calculus session in the library.
 
 [See maths sessions ↗](https://modernagecoders.graphy.com/courses/How-We-Teach-The-Modern-Age-Coders-Methodology-6a1888029a4f81888c408ab9)In their words
 
@@ -142,25 +142,23 @@ The maths teacher never just gives the answer. She makes my daughter explain her
 
 "
 
-Being able to see real lessons before paying sealed it for us. No hard sell — just genuinely good teaching, in coding and maths both.
+Being able to see real lessons before paying sealed it for us. No hard sell, just genuinely good teaching, in coding and maths both.
 
 *N**Neha K.**Parent · Kolkata*
 
 ### The library keeps growing 🌱
 
-We add new coding and maths sessions to the open library as we teach them. What you see today is just this season's window into our classroom — bookmark the library and watch the methodology evolve.
+We add new coding and maths sessions to the open library as we teach them. What you see today is just this season's window into our classroom, bookmark the library and watch the methodology evolve.
 
-⟳ Last refreshed: —
+⟳ Last refreshed:, ## Liked what you *saw?*
 
-## Liked what you *saw?*
-
-Book a free, no-obligation demo class and let your child experience this teaching style live — in coding, maths, or both.
+Book a free, no-obligation demo class and let your child experience this teaching style live, in coding, maths, or both.
 
 [View All Courses](/courses)Good to know
 
 ## Questions, answered
 
-Our complete teaching methodology is open and free to watch, split into two libraries: **kids coding (ages 6 to 12)** and **teens & up, which also covers maths**. The buttons on this page take you straight there. No payment, just a quick Google sign-in. Best watched on a **computer or laptop** for a smooth, clear experience: click a library button, choose **Watch Recording**, sign in with Google, and in a few seconds the recording dashboard opens where you can see all recordings.Yes. Every lesson in the open library is an actual Modern Age Coders live session — not a scripted promo or an actor. We share them so you can judge our real teaching style and quality before you ever pay.Some classes are in **English** and some are in **Hindi**, so every family can follow comfortably at their own pace. The libraries are **updated frequently**, so you are always watching our latest classes and current teaching style. One tip: **watch a class end to end, like you are in it.** Sessions are interactive and each moment builds on the last, so skipping ahead breaks the thread.Same philosophy, different subject. Whether it's a Python loop or a quadratic equation, we start from intuition, build understanding step by step, and don't move on until it truly clicks. Use the Coding ⟷ Maths switch at the top to flip this page's vibe between the two.Yes — every demo in the library is free to watch. We believe parents and students deserve to see how we actually teach before committing. No card, no payment. Just a quick Google sign-in, then press play.Absolutely. After watching how we teach, book a free demo class — a live, no-obligation session with one of our mentors. Just hit "Book a Free Demo" anywhere on this page.
+Our complete teaching methodology is open and free to watch, split into two libraries: **kids coding (ages 6 to 12)** and **teens & up, which also covers maths**. The buttons on this page take you straight there. No payment, just a quick Google sign-in. Best watched on a **computer or laptop** for a smooth, clear experience: click a library button, choose **Watch Recording**, sign in with Google, and in a few seconds the recording dashboard opens where you can see all recordings.Yes. Every lesson in the open library is an actual Modern Age Coders live session, not a scripted promo or an actor. We share them so you can judge our real teaching style and quality before you ever pay.Some classes are in **English** and some are in **Hindi**, so every family can follow comfortably at their own pace. The libraries are **updated frequently**, so you are always watching our latest classes and current teaching style. One tip: **watch a class end to end, like you are in it.** Sessions are interactive and each moment builds on the last, so skipping ahead breaks the thread.Same philosophy, different subject. Whether it's a Python loop or a quadratic equation, we start from intuition, build understanding step by step, and don't move on until it truly clicks. Use the Coding ⟷ Maths switch at the top to flip this page's vibe between the two.Yes, every demo in the library is free to watch. We believe parents and students deserve to see how we actually teach before committing. No card, no payment. Just a quick Google sign-in, then press play.Absolutely. After watching how we teach, book a free demo class, a live, no-obligation session with one of our mentors. Just hit "Book a Free Demo" anywhere on this page.
 
 ---
 

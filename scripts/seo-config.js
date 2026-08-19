@@ -48,11 +48,10 @@ const SEO_CONFIG = {
       addressCountry: 'IN'
     },
 
-    // Social Media Profiles — emitted verbatim as schema.org sameAs (see seo-utils.js).
+    // Social Media Profiles, emitted verbatim as schema.org sameAs (see seo-utils.js).
     // Every URL here MUST resolve: sameAs is how an engine confirms this site is this brand,
     // and an entry that 404s undermines that confirmation. Re-verify before adding.
-    // Checked 2026-07-14: three of the previous five were dead and have been removed —
-    // twitter.com/modernagecoders (404), linkedin.com/company/modernagecoders (404, no such
+    // Checked 2026-07-14: three of the previous five were dead and have been removed, // twitter.com/modernagecoders (404), linkedin.com/company/modernagecoders (404, no such
     // company page) and instagram.com/modernagecoders (no such handle; the real one is
     // modern_age_coders).
     socialProfiles: [

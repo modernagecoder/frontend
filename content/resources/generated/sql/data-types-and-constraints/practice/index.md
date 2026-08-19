@@ -17,7 +17,7 @@ category: "SQL"
 
 **Answer:** `TINYINT UNSIGNED` (range 0-255, 1 byte) is ideal. `INT` works but wastes 3 bytes per row.
 
-TINYINT UNSIGNED is perfect because ages never go negative and never exceed 255. On a million-row table, picking TINYINT over INT saves 3MB — small but it adds up across columns.
+TINYINT UNSIGNED is perfect because ages never go negative and never exceed 255. On a million-row table, picking TINYINT over INT saves 3MB, small but it adds up across columns.
 
 ### Q2. [Easy] What data type for a 12-digit Aadhaar number, and why not BIGINT?
 
@@ -25,7 +25,7 @@ TINYINT UNSIGNED is perfect because ages never go negative and never exceed 255.
 
 **Answer:** `CHAR(12)`. Not BIGINT because (a) Aadhaar numbers can start with 0 which BIGINT would strip, and (b) we never perform arithmetic on an Aadhaar.
 
-CHAR(12) is better than VARCHAR(12) because every valid Aadhaar is exactly 12 digits — the fixed-length CHAR gives slightly better performance and signals intent. Also consider adding a CHECK constraint to ensure all 12 characters are digits.
+CHAR(12) is better than VARCHAR(12) because every valid Aadhaar is exactly 12 digits, the fixed-length CHAR gives slightly better performance and signals intent. Also consider adding a CHECK constraint to ensure all 12 characters are digits.
 
 ### Q3. [Easy] What data type for a user's profile bio that can be up to 2000 characters?
 
@@ -39,7 +39,7 @@ TEXT starts to matter only beyond 65,535 characters. At 2000 characters, VARCHAR
 
 *Hint:* Do you need the time of day?
 
-**Answer:** `DATE`. Only year-month-day is needed — not hours or minutes.
+**Answer:** `DATE`. Only year-month-day is needed, not hours or minutes.
 
 Using DATETIME for DOB wastes space (3 extra bytes per row) and invites bugs where someone accidentally uses the time part. Use DATE for all date-only fields: joining_date, dob, appointment_date.
 
@@ -47,7 +47,7 @@ Using DATETIME for DOB wastes space (3 extra bytes per row) and invites bugs whe
 
 *Hint:* Never FLOAT for money.
 
-**Answer:** `DECIMAL(10, 2)` — up to 10 total digits with 2 after the decimal. Supports up to 99,999,999.99.
+**Answer:** `DECIMAL(10, 2)`, up to 10 total digits with 2 after the decimal. Supports up to 99,999,999.99.
 
 DECIMAL stores exact values, which is essential for money. FLOAT would introduce rounding errors that make account balances drift. Pick the first number (precision) large enough for your max amount, and 2 for paise/cents.
 
@@ -73,7 +73,7 @@ Think of PRIMARY KEY as the main identity card and UNIQUE as additional optional
 
 **Answer:** `AUTO_INCREMENT` automatically assigns the next integer value to a column on each INSERT, so you don't have to provide the id yourself.
 
-Usually applied to the primary key: `id INT AUTO_INCREMENT PRIMARY KEY`. Start value defaults to 1 and increments by 1. If you delete row with id=5 and insert a new row, it becomes id=6 (not 5) — gaps are normal.
+Usually applied to the primary key: `id INT AUTO_INCREMENT PRIMARY KEY`. Start value defaults to 1 and increments by 1. If you delete row with id=5 and insert a new row, it becomes id=6 (not 5), gaps are normal.
 
 ### Q9. [Easy] What is the difference between CHAR(10) and VARCHAR(10)?
 
@@ -166,7 +166,7 @@ Even if you don't write NOT NULL, MySQL adds it for you when you declare PRIMARY
 
 *Hint:* Yes, usually, and multiple NULLs are allowed.
 
-**Answer:** Yes. In MySQL, a UNIQUE column allows NULL values and treats multiple NULLs as NOT duplicates of each other — so multiple rows can have NULL in a UNIQUE column.
+**Answer:** Yes. In MySQL, a UNIQUE column allows NULL values and treats multiple NULLs as NOT duplicates of each other, so multiple rows can have NULL in a UNIQUE column.
 
 This is a subtle interview question. Example: a users table with `referral_code VARCHAR(20) UNIQUE`. Many users may have NULL referral_code (they weren't referred by anyone). That's fine; only non-null values must be distinct. PostgreSQL and Oracle behave similarly, but SQL Server historically treats a single NULL as unique (allowing at most one NULL).
 
@@ -186,7 +186,7 @@ CHECK constraints enforce arbitrary boolean conditions on each row. MySQL 8.0+ e
 
 *Hint:* Space and validation.
 
-**Answer:** Two reasons: (1) ENUM is stored internally as a 1-byte integer regardless of string length — far more efficient; (2) ENUM restricts values to the listed options, so no one can insert 'male ' (trailing space), 'MALE', or 'foo' — the database validates for you.
+**Answer:** Two reasons: (1) ENUM is stored internally as a 1-byte integer regardless of string length, far more efficient; (2) ENUM restricts values to the listed options, so no one can insert 'male ' (trailing space), 'MALE', or 'foo', the database validates for you.
 
 Downside of ENUM: adding a new option requires ALTER TABLE (not free on huge tables). For columns with stable, well-known options (gender, order_status, priority_level), ENUM is concise and self-documenting. For columns that might evolve often, VARCHAR with a lookup table is more flexible.
 
@@ -261,7 +261,7 @@ This is a complete, realistic product catalog schema. Every column is typed corr
 
 *Hint:* Two things could fail.
 
-**Answer:** Two possible issues. First, DECIMAL(3,2) means 3 total digits with 2 after the decimal — max allowed is 9.99, so 11.5 exceeds the type's max. Second, even if the type allowed it, the CHECK (cgpa <= 10) would reject it. In MySQL you'll get an "Out of range" error first.
+**Answer:** Two possible issues. First, DECIMAL(3,2) means 3 total digits with 2 after the decimal, max allowed is 9.99, so 11.5 exceeds the type's max. Second, even if the type allowed it, the CHECK (cgpa <= 10) would reject it. In MySQL you'll get an "Out of range" error first.
 
 DECIMAL(p, s) means p = total digits, s = digits after decimal. So DECIMAL(3,2) allows at most 9.99. For CGPA on a 10-point scale, use DECIMAL(4,2) to safely hold 10.00, plus a CHECK to enforce the business rule.
 
@@ -285,7 +285,7 @@ Micro-optimization? Yes, but it matters on tables with 100M rows. CHAR also subt
 
 *Hint:* Time zone and range matter.
 
-**Answer:** Depends. **TIMESTAMP(6)** gives microsecond precision and automatic UTC handling — best if you are before 2038. **DATETIME(6)** gives microseconds but no time zone logic — best if you might store events beyond 2038 or want the literal wall-clock time. **BIGINT** is the most portable and survives the 2038 bug but requires application-level conversion to a readable date.
+**Answer:** Depends. **TIMESTAMP(6)** gives microsecond precision and automatic UTC handling, best if you are before 2038. **DATETIME(6)** gives microseconds but no time zone logic, best if you might store events beyond 2038 or want the literal wall-clock time. **BIGINT** is the most portable and survives the 2038 bug but requires application-level conversion to a readable date.
 
 Most modern web apps use TIMESTAMP(6) for click events and analytics (current times, auto TZ conversion). Systems that must work past 2038 use BIGINT for safety. Remember: both TIMESTAMP and DATETIME support fractional seconds only if you specify the precision, e.g., `DATETIME(6)`.
 
@@ -293,7 +293,7 @@ Most modern web apps use TIMESTAMP(6) for click events and analytics (current ti
 
 *Hint:* Primary keys do more than uniqueness.
 
-**Answer:** Three reasons to still have a PRIMARY KEY: (1) PK implies NOT NULL (UNIQUE alone allows NULL). (2) PK creates the main clustered index in InnoDB — hugely impacts storage layout and query speed. (3) Foreign keys from other tables need a primary key (or unique key) to reference.
+**Answer:** Three reasons to still have a PRIMARY KEY: (1) PK implies NOT NULL (UNIQUE alone allows NULL). (2) PK creates the main clustered index in InnoDB, hugely impacts storage layout and query speed. (3) Foreign keys from other tables need a primary key (or unique key) to reference.
 
 A table without a PRIMARY KEY is technically legal in MySQL but strongly discouraged. InnoDB will invent a hidden 6-byte row ID internally anyway. Being explicit about the PK makes the schema readable and makes joins/indexes work predictably.
 
@@ -320,7 +320,7 @@ CREATE TABLE bookings (
 );
 ```
 
-The bad version's UNIQUE constraints mean a user can book only one room ever, and a room is booked by only one user ever — wrong. The fix is a composite primary key on the three columns together, ensuring the TRIPLE is unique but each column individually can repeat.
+The bad version's UNIQUE constraints mean a user can book only one room ever, and a room is booked by only one user ever, wrong. The fix is a composite primary key on the three columns together, ensuring the TRIPLE is unique but each column individually can repeat.
 
 ### Q11. [Hard] A table has `created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP` and `updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP`. Explain what happens on INSERT and on UPDATE.
 
@@ -361,7 +361,7 @@ The composite PK on (student_id, course_id, attempt_no) lets a student retake th
 
 ### Q3. [Easy] How many primary keys can a table have?
 
-**A is correct.** A table can have only ONE primary key (though it can be composed of multiple columns — a composite key). You can have many UNIQUE constraints, but only one PRIMARY KEY.
+**A is correct.** A table can have only ONE primary key (though it can be composed of multiple columns, a composite key). You can have many UNIQUE constraints, but only one PRIMARY KEY.
 
 ### Q4. [Easy] Which keyword enforces that a column cannot have duplicate values?
 
@@ -425,11 +425,11 @@ The composite PK on (student_id, course_id, attempt_no) lets a student retake th
 
 ### Q19. [Hard] You need to store a very long article (say, 200KB of text). Best type?
 
-**C is correct.** TEXT holds up to ~64KB — 200KB won't fit. MEDIUMTEXT holds up to 16MB. LONGTEXT is overkill for 200KB but would also work. VARCHAR is capped at 65,535 bytes across the whole row, so 200KB is impossible in VARCHAR.
+**C is correct.** TEXT holds up to ~64KB: 200KB won't fit. MEDIUMTEXT holds up to 16MB. LONGTEXT is overkill for 200KB but would also work. VARCHAR is capped at 65,535 bytes across the whole row, so 200KB is impossible in VARCHAR.
 
 ### Q20. [Hard] Which design prevents re-enrolling the same student in the same course twice?
 
-**B is correct.** A composite PRIMARY KEY on (student_id, course_id) enforces uniqueness of the PAIR, which is exactly the rule. Option A would wrongly force each student to appear only once across all enrollments and each course to appear only once — far too restrictive.
+**B is correct.** A composite PRIMARY KEY on (student_id, course_id) enforces uniqueness of the PAIR, which is exactly the rule. Option A would wrongly force each student to appear only once across all enrollments and each course to appear only once, far too restrictive.
 
 ## Coding Challenges
 
@@ -676,7 +676,7 @@ SELECT SUM(amount) AS total_float FROM payments_float;
 
 **Difficulty:** Hard
 
-Design three tables — students, courses, enrollments — for a realistic college. Include correct PRIMARY KEYs, composite PK on enrollments(student_id, course_id), FOREIGN KEYs, CHECK on marks (0-100), DEFAULT for enrollment_date, and appropriate types. Insert 3 students, 3 courses, and 5 enrollments.
+Design three tables, students, courses, enrollments, for a realistic college. Include correct PRIMARY KEYs, composite PK on enrollments(student_id, course_id), FOREIGN KEYs, CHECK on marks (0-100), DEFAULT for enrollment_date, and appropriate types. Insert 3 students, 3 courses, and 5 enrollments.
 
 **Constraints:**
 

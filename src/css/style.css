@@ -638,7 +638,7 @@ p {
     color: var(--text-muted);
 }
 
-/* will-change removed — permanent will-change on many elements wastes GPU memory.
+/* will-change removed, permanent will-change on many elements wastes GPU memory.
    The browser auto-promotes elements during CSS transitions. */
 
 @supports not (backdrop-filter: blur(20px)) {
@@ -1374,10 +1374,10 @@ body.about-page main {
     gap: 3rem;
 }
 
-/* Resource pages — override flex layout for article-style reading.
+/* Resource pages, override flex layout for article-style reading.
    Uses !important because the global main{} rule and the minifier
    can reorder declarations unpredictably. Also works if display:block
-   fails — align-items:stretch + width:100% on children makes flex
+   fails, align-items:stretch + width:100% on children makes flex
    behave like block layout. */
 body.resource-notes-page main,
 body.resource-practice-page main,

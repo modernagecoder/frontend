@@ -17,20 +17,20 @@ keywords: ["introduction to css", "what is css", "css for beginners", "inline vs
 
 **CSS** stands for **Cascading Style Sheets**. It is the language we use to style and design web pages. While HTML gives a website its structure (the bones), CSS gives it its look and feel (the skin, clothes, and makeup).
 
-Look at any website you love — Instagram, YouTube, Netflix, Amazon. Every color, every font, every shadow, every animation, every layout — all of that is CSS. Without CSS, every website would look like a boring white page with blue links from 1995.
+Look at any website you love: Instagram, YouTube, Netflix, Amazon. Every color, every font, every shadow, every animation, every layout, all of that is CSS. Without CSS, every website would look like a boring white page with blue links from 1995.
 
 ### HTML vs CSS in Simple Terms
 
 Imagine a house:
 
-- **HTML** is the construction — the walls, the doors, the windows, the roof.
-- **CSS** is the interior design — the paint color, the curtains, the furniture, the lighting.
+- **HTML** is the construction, the walls, the doors, the windows, the roof.
+- **CSS** is the interior design, the paint color, the curtains, the furniture, the lighting.
 
 You cannot have interior design without a house first (CSS needs HTML), but a house without design feels empty and lifeless. CSS turns plain HTML into beautiful websites.
 
 ### What Does 'Cascading' Mean?
 
-The 'Cascading' in CSS refers to how styles flow down and combine. Multiple style rules can apply to the same element, and CSS has a system for deciding which one wins. It is like a waterfall — styles flow from general to specific, and the most specific one takes effect. You will learn the full rules in Chapter 10.
+The 'Cascading' in CSS refers to how styles flow down and combine. Multiple style rules can apply to the same element, and CSS has a system for deciding which one wins. It is like a waterfall, styles flow from general to specific, and the most specific one takes effect. You will learn the full rules in Chapter 10.
 
 ## Why Should You Learn CSS?
 
@@ -40,7 +40,7 @@ HTML alone gives you a rough page. CSS gives you a real website. Every button, e
 
 ### 2. It Is the Language of Design on the Web
 
-If you want to be a web designer, frontend developer, or build your own projects, CSS is the tool that lets you make things look exactly the way you imagine. Modern CSS is incredibly powerful — you can build animations, 3D effects, responsive layouts, and beautiful designs without a single line of JavaScript.
+If you want to be a web designer, frontend developer, or build your own projects, CSS is the tool that lets you make things look exactly the way you imagine. Modern CSS is incredibly powerful. You can build animations, 3D effects, responsive layouts, and beautiful designs without a single line of JavaScript.
 
 ### 3. You See Results Instantly
 
@@ -48,7 +48,7 @@ Change one line of CSS, save, refresh the browser, and the change appears immedi
 
 ### 4. CSS Is Everywhere
 
-Whether you are building a personal blog, a mobile app, a dashboard, or a game — CSS is used to style it. Even desktop and mobile apps increasingly use CSS (through tools like Electron and React Native). Learning CSS is a skill that pays off forever.
+Whether you are building a personal blog, a mobile app, a dashboard, or a game: CSS is used to style it. Even desktop and mobile apps increasingly use CSS (through tools like Electron and React Native). Learning CSS is a skill that pays off forever.
 
 ## Detailed Explanation
 
@@ -93,7 +93,7 @@ Hello
 
 ```
 
-Inline CSS only affects that one specific element. It is quick for small tweaks but terrible for maintenance — if you want to change the color of all paragraphs, you have to edit every single one.
+Inline CSS only affects that one specific element. It is quick for small tweaks but terrible for maintenance, if you want to change the color of all paragraphs, you have to edit every single one.
 
 #### 2. Internal CSS (OK for small pages)
 
@@ -192,16 +192,16 @@ Comments are ignored by the browser. They help you and other developers understa
 
 Specificity is how CSS decides which rule applies when multiple rules target the same element. A simple version:
 
-- **Element selector** (like `p`) — specificity of 1.
-- **Class selector** (like `.big`) — specificity of 10.
-- **ID selector** (like `#main`) — specificity of 100.
-- **Inline style** — specificity of 1000.
+- **Element selector** (like `p`), specificity of 1.
+- **Class selector** (like `.big`), specificity of 10.
+- **ID selector** (like `#main`), specificity of 100.
+- **Inline style**, specificity of 1000.
 
 So if you have `p { color: red; }` and `.note { color: blue; }` and both apply to the same paragraph, the class wins because 10 > 1. You will learn much more about this in Chapter 10.
 
 ## Code Examples
 
-### Inline CSS — Style Directly on the Element
+### Inline CSS: Style Directly on the Element
 
 ```html
 <!DOCTYPE html>
@@ -217,7 +217,7 @@ So if you have `p { color: red; }` and `.note { color: blue; }` and both apply t
 </html>
 ```
 
-Each element has a `style` attribute with CSS written directly inside. Notice that each element needs its OWN style attribute — there is no sharing. This is the quickest way to test a quick change, but it gets messy fast on real pages. Save as `inline.html` and open it.
+Each element has a `style` attribute with CSS written directly inside. Notice that each element needs its OWN style attribute. There is no sharing. This is the quickest way to test a quick change, but it gets messy fast on real pages. Save as `inline.html` and open it.
 
 **Output:**
 
@@ -225,7 +225,7 @@ Each element has a `style` attribute with CSS written directly inside. Notice th
 A centered blue heading 'Hello, Aarav!', a green paragraph, and a red paragraph.
 ```
 
-### Internal CSS — Style Inside the Head
+### Internal CSS: Style Inside the Head
 
 ```html
 <!DOCTYPE html>
@@ -251,12 +251,12 @@ A centered blue heading 'Hello, Aarav!', a green paragraph, and a red paragraph.
 <body>
   <h1>Priya's First Styled Page</h1>
   <p>Welcome! This entire page is styled using internal CSS inside the head of the document.</p>
-  <p>All paragraphs share the same styles automatically — no need to repeat.</p>
+  <p>All paragraphs share the same styles automatically, no need to repeat.</p>
 </body>
 </html>
 ```
 
-The CSS goes inside a `` tag in the ``. Three selectors style the entire body, all h1 elements, and all p elements. Notice how much cleaner this is compared to inline CSS — one rule styles every paragraph. Save as `internal.html`.
+The CSS goes inside a `` tag in the ``. Three selectors style the entire body, all h1 elements, and all p elements. Notice how much cleaner this is compared to inline CSS, one rule styles every paragraph. Save as `internal.html`.
 
 **Output:**
 
@@ -264,7 +264,7 @@ The CSS goes inside a `` tag in the ``. Three selectors style the entire body, a
 A page with a light blue background, a red centered heading, and dark grey paragraphs in Arial font.
 ```
 
-### External CSS — The Best Practice Way
+### External CSS: The Best Practice Way
 
 ```html
 <!-- File: index.html -->
@@ -302,7 +302,7 @@ p {
 -->
 ```
 
-External CSS requires two files: `index.html` and `styles.css`. Save them in the same folder. The `` tag connects them. Now you can link the same styles.css to 100 different HTML pages. Change one line, update 100 pages. This is how real websites work. The CSS file content is shown in the comment at the bottom — you should save that as a separate file.
+External CSS requires two files: `index.html` and `styles.css`. Save them in the same folder. The `` tag connects them. Now you can link the same styles.css to 100 different HTML pages. Change one line, update 100 pages. This is how real websites work. The CSS file content is shown in the comment at the bottom. You should save that as a separate file.
 
 **Output:**
 
@@ -310,7 +310,7 @@ External CSS requires two files: `index.html` and `styles.css`. Save them in the
 A dark-themed page with an orange heading and white paragraphs, with all styles loaded from an external file.
 ```
 
-### CSS Syntax — Selectors, Properties, Values
+### CSS Syntax: Selectors, Properties, Values
 
 ```html
 <!DOCTYPE html>
@@ -348,7 +348,7 @@ A dark-themed page with an orange heading and white paragraphs, with all styles 
 </html>
 ```
 
-This example shows the basic syntax with clear comments. Each rule targets an element (body, h2, p), and each property-value pair ends with a semicolon. Comments (/* like this */) are just notes for the developer — the browser ignores them. Save as `syntax.html`.
+This example shows the basic syntax with clear comments. Each rule targets an element (body, h2, p), and each property-value pair ends with a semicolon. Comments (/* like this */) are just notes for the developer, the browser ignores them. Save as `syntax.html`.
 
 **Output:**
 
@@ -384,7 +384,7 @@ A page with a grey body, a purple underlined h2, and Georgia-font paragraphs.
 </head>
 <body>
   <h1>Welcome, Ananya!</h1>
-  <p>This page has a blue background and white text — styled entirely with CSS.</p>
+  <p>This page has a blue background and white text, styled entirely with CSS.</p>
   <p>Notice how centered and clean it looks with just a few lines of code.</p>
 </body>
 </html>
@@ -472,7 +472,7 @@ A warm-colored page with orange-brown centered headings, dark grey body text, an
 </html>
 ```
 
-This example demonstrates the cascade. The internal CSS says all paragraphs should be green. But the middle paragraph has an inline `style="color: red;"` that overrides the green because inline CSS has higher specificity. This is the cascade in action — rules from different sources combine, and the most specific one wins.
+This example demonstrates the cascade. The internal CSS says all paragraphs should be green. But the middle paragraph has an inline `style="color: red;"` that overrides the green because inline CSS has higher specificity. This is the cascade in action, rules from different sources combine, and the most specific one wins.
 
 **Output:**
 
@@ -504,7 +504,7 @@ p {
 }
 ```
 
-Every CSS property must end with a semicolon. Missing one breaks the parser. Some browsers are forgiving and apply the first value but ignore everything after. Always add a semicolon — it is one tiny character that saves you hours of debugging.
+Every CSS property must end with a semicolon. Missing one breaks the parser. Some browsers are forgiving and apply the first value but ignore everything after. Always add a semicolon. It is one tiny character that saves you hours of debugging.
 
 ### Using = Instead of : in CSS
 
@@ -574,7 +574,7 @@ Having a CSS file in your folder is not enough. You must link it with `` inside 
 <link rel="stylesheet" href="styles.css">
 ```
 
-404 — file not found. The path is wrong.
+404, file not found. The path is wrong.
 
 **Correct:**
 
@@ -594,7 +594,7 @@ h1
   font-size: 24px;
 ```
 
-The CSS has no rule — none of it applies.
+The CSS has no rule, none of it applies.
 
 **Correct:**
 
@@ -605,7 +605,7 @@ h1 {
 }
 ```
 
-Every CSS rule must wrap its properties in curly braces `{ }`. Without them, there is no rule — just random text. The browser ignores it completely.
+Every CSS rule must wrap its properties in curly braces `{ }`. Without them, there is no rule, just random text. The browser ignores it completely.
 
 ## Summary
 

@@ -17,7 +17,7 @@
     <!-- SEO Meta Tags -->
     <meta name="description" content="Create complex animations with @keyframes, animation properties, loading spinners, bouncing buttons, and more.">
     <!-- meta keywords intentionally not emitted: Google has ignored it since 2009 and Bing
-         treats it as a SPAM SIGNAL — and Bing is the index ChatGPT/Copilot answer from.
+         treats it as a SPAM SIGNAL, and Bing is the index ChatGPT/Copilot answer from.
          See scripts/strip-meta-keywords.py. -->
     <meta name="author" content="Modern Age Coders">
     <meta name="robots" content="index, follow">
@@ -127,7 +127,7 @@
         "name": "Animating Properties That Trigger Layout",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Use <code>transform: translateX()</code> instead of <code>left</code>. Transform runs on the GPU and does not trigger layout or paint work — much smoother."
+          "text": "Use <code>transform: translateX()</code> instead of <code>left</code>. Transform runs on the GPU and does not trigger layout or paint work, much smoother."
         }
       },
       {
@@ -202,7 +202,7 @@
 
             <section id="what" class="content-section">
                 <h2>What Is It?</h2>
-                <h2>What Are CSS Animations?</h2><p>While transitions animate between two states (default and hover), <strong>CSS animations</strong> let you define multi-step animations that can run automatically, loop forever, and move through any number of key points. They are more powerful than transitions and perfect for things like loading spinners, pulse effects, and continuous motion.</p><p>Animations have two parts:</p><ol><li><strong>@keyframes</strong> — defines the animation's steps (what happens at 0%, 50%, 100%, etc.)</li><li><strong>animation properties</strong> — applied to an element to actually play the animation</li></ol><pre><code>@keyframes bounce {
+                <h2>What Are CSS Animations?</h2><p>While transitions animate between two states (default and hover), <strong>CSS animations</strong> let you define multi-step animations that can run automatically, loop forever, and move through any number of key points. They are more powerful than transitions and perfect for things like loading spinners, pulse effects, and continuous motion.</p><p>Animations have two parts:</p><ol><li><strong>@keyframes</strong>, defines the animation's steps (what happens at 0%, 50%, 100%, etc.)</li><li><strong>animation properties</strong>, applied to an element to actually play the animation</li></ol><pre><code>@keyframes bounce {
   0%   { transform: translateY(0); }
   50%  { transform: translateY(-30px); }
   100% { transform: translateY(0); }
@@ -215,7 +215,7 @@
 
             <section id="why" class="content-section">
                 <h2>Why Does It Matter?</h2>
-                <h2>Why Learn CSS Animations?</h2><h3>1. Modern Web Is Alive</h3><p>Loading spinners, animated logos, pulsing buttons, falling snowflakes, marquee tickers, typing text, shimmer effects — every one of these is a CSS animation. If you want to build impressive, modern websites, you need keyframe animations.</p><h3>2. They Run on the GPU</h3><p>Like transitions, CSS animations are handled by the browser's rendering engine. When you animate transform or opacity, the browser uses the GPU to achieve smooth 60fps motion with virtually zero CPU cost. JavaScript animations cannot match this performance for simple visual effects.</p><h3>3. They Run Automatically</h3><p>Unlike transitions, animations do not need a trigger like :hover. You can start them immediately on page load, loop them forever, or even pause and play them from JavaScript. This makes them perfect for ambient effects and loading indicators.</p><h3>4. More Control Than Transitions</h3><p>Transitions have just two states (before and after). Animations can have as many keyframes as you want, letting you create complex motion paths, multi-color pulses, choreographed sequences, and more. If you can imagine it moving, @keyframes can probably animate it.</p>
+                <h2>Why Learn CSS Animations?</h2><h3>1. Modern Web Is Alive</h3><p>Loading spinners, animated logos, pulsing buttons, falling snowflakes, marquee tickers, typing text, shimmer effects, every one of these is a CSS animation. If you want to build impressive, modern websites, you need keyframe animations.</p><h3>2. They Run on the GPU</h3><p>Like transitions, CSS animations are handled by the browser's rendering engine. When you animate transform or opacity, the browser uses the GPU to achieve smooth 60fps motion with virtually zero CPU cost. JavaScript animations cannot match this performance for simple visual effects.</p><h3>3. They Run Automatically</h3><p>Unlike transitions, animations do not need a trigger like :hover. You can start them immediately on page load, loop them forever, or even pause and play them from JavaScript. This makes them perfect for ambient effects and loading indicators.</p><h3>4. More Control Than Transitions</h3><p>Transitions have just two states (before and after). Animations can have as many keyframes as you want, letting you create complex motion paths, multi-color pulses, choreographed sequences, and more. If you can imagine it moving, @keyframes can probably animate it.</p>
             </section>
 
             <section id="explanation" class="content-section">
@@ -256,7 +256,7 @@ animation-iteration-count: infinite; /* loop forever */
 animation-iteration-count: 2.5;      /* two and a half times */</code></pre><h3>5. animation-direction</h3><p>Controls the direction of playback:</p><pre><code>animation-direction: normal;            /* 0% to 100% (default) */
 animation-direction: reverse;           /* 100% to 0% */
 animation-direction: alternate;         /* 0-100, then 100-0, repeat */
-animation-direction: alternate-reverse; /* 100-0, then 0-100, repeat */</code></pre><p><strong>alternate</strong> is incredibly useful for pulses and back-and-forth motions — you only define half the animation, and alternate plays it forward and backward automatically.</p><h3>6. animation-fill-mode (The Confusing One)</h3><p>Controls what the element looks like BEFORE and AFTER the animation runs:</p><pre><code>animation-fill-mode: none;      /* default — element returns to original styles */
+animation-direction: alternate-reverse; /* 100-0, then 0-100, repeat */</code></pre><p><strong>alternate</strong> is incredibly useful for pulses and back-and-forth motions. You only define half the animation, and alternate plays it forward and backward automatically.</p><h3>6. animation-fill-mode (The Confusing One)</h3><p>Controls what the element looks like BEFORE and AFTER the animation runs:</p><pre><code>animation-fill-mode: none;      /* default, element returns to original styles */
 animation-fill-mode: forwards;  /* element keeps the final keyframe's styles */
 animation-fill-mode: backwards; /* element uses the first keyframe's styles during delay */
 animation-fill-mode: both;      /* both forwards and backwards */</code></pre><p><strong>forwards</strong> is the most useful: it makes the element stay in the final state after the animation finishes. Without it, the element snaps back to its original styles when the animation ends.</p><h3>7. Loading Spinner Example</h3><pre><code>@keyframes spin {
@@ -273,7 +273,7 @@ animation-fill-mode: both;      /* both forwards and backwards */</code></pre><p
 }</code></pre><h3>8. Multiple Animations on One Element</h3><p>You can apply multiple animations simultaneously by comma-separating them:</p><pre><code>.element {
   animation: fadeIn 1s, bounce 2s infinite 1s;
   /* fadeIn runs once for 1s, then bounce runs forever with 1s delay */
-}</code></pre><h3>9. Performance Tips</h3><ul><li>Animate <strong>transform</strong> and <strong>opacity</strong> whenever possible — they are GPU-accelerated</li><li>Avoid animating width, height, top, left, margin — they trigger layout recalculation</li><li>Use <code>will-change: transform</code> for heavy animations to hint the browser</li><li>Set <code>@media (prefers-reduced-motion: reduce)</code> to disable animations for users who get motion sickness</li></ul>
+}</code></pre><h3>9. Performance Tips</h3><ul><li>Animate <strong>transform</strong> and <strong>opacity</strong> whenever possible, they are GPU-accelerated</li><li>Avoid animating width, height, top, left, margin, they trigger layout recalculation</li><li>Use <code>will-change: transform</code> for heavy animations to hint the browser</li><li>Set <code>@media (prefers-reduced-motion: reduce)</code> to disable animations for users who get motion sickness</li></ul>
             </section>
 
             <section id="code-examples" class="content-section">
@@ -330,7 +330,7 @@ animation-fill-mode: both;      /* both forwards and backwards */</code></pre><p
   &lt;div class=&quot;spinner2&quot;&gt;&lt;/div&gt;
   &lt;div class=&quot;spinner3&quot;&gt;&lt;/div&gt;
 &lt;/body&gt;
-&lt;/html&gt;</code></pre><div class="code-example-explanation">Three spinner variations. The first is the classic one-color top-border spinner. The second has three colors on different sides with a more organic cubic-bezier. The third uses two pseudo-elements spinning in opposite directions with different durations — a dual-ring effect. All powered by a single <code>@keyframes spin</code> rule.</div><div class="code-example-output">Three rotating loading spinners with different styles — classic, tri-color, and dual-ring.</div></div>
+&lt;/html&gt;</code></pre><div class="code-example-explanation">Three spinner variations. The first is the classic one-color top-border spinner. The second has three colors on different sides with a more organic cubic-bezier. The third uses two pseudo-elements spinning in opposite directions with different durations, a dual-ring effect. All powered by a single <code>@keyframes spin</code> rule.</div><div class="code-example-output">Three rotating loading spinners with different styles, classic, tri-color, and dual-ring.</div></div>
 <div class="code-example"><div class="code-example-title">Bouncing Ball</div><pre><code class="language-python">&lt;!DOCTYPE html&gt;
 &lt;html&gt;
 &lt;head&gt;
@@ -490,7 +490,7 @@ animation-fill-mode: both;      /* both forwards and backwards */</code></pre><p
 &lt;body&gt;
   &lt;h1&gt;SkyCoders&lt;/h1&gt;
 &lt;/body&gt;
-&lt;/html&gt;</code></pre><div class="code-example-explanation">The heading has a wide horizontal rainbow gradient clipped to its text using <code>-webkit-background-clip: text</code>. The animation slides the background position across, creating a continuous rainbow cycle through the letters. No color properties are animated — only the background position shifts.</div><div class="code-example-output">Giant text showing a continuous rainbow color cycle flowing through the letters.</div></div>
+&lt;/html&gt;</code></pre><div class="code-example-explanation">The heading has a wide horizontal rainbow gradient clipped to its text using <code>-webkit-background-clip: text</code>. The animation slides the background position across, creating a continuous rainbow cycle through the letters. No color properties are animated, only the background position shifts.</div><div class="code-example-output">Giant text showing a continuous rainbow color cycle flowing through the letters.</div></div>
 <div class="code-example"><div class="code-example-title">Slide-In Cards on Page Load</div><pre><code class="language-python">&lt;!DOCTYPE html&gt;
 &lt;html&gt;
 &lt;head&gt;
@@ -585,7 +585,7 @@ animation-fill-mode: both;      /* both forwards and backwards */</code></pre><p
     &lt;div class=&quot;dots&quot;&gt;&lt;div class=&quot;dot&quot;&gt;&lt;/div&gt;&lt;div class=&quot;dot&quot;&gt;&lt;/div&gt;&lt;div class=&quot;dot&quot;&gt;&lt;/div&gt;&lt;/div&gt;
   &lt;/div&gt;
 &lt;/body&gt;
-&lt;/html&gt;</code></pre><div class="code-example-explanation">Two loading indicators. The progress bar slides a colored segment from left to right continuously — the 'indeterminate' loading pattern. Below it, three colored dots bounce in sequence using <code>animation-delay</code> to create a wave. Both use infinite loops and are pure CSS.</div><div class="code-example-output">A loading screen with a horizontal gradient bar sliding across and three bouncing dots below.</div></div>
+&lt;/html&gt;</code></pre><div class="code-example-explanation">Two loading indicators. The progress bar slides a colored segment from left to right continuously, the 'indeterminate' loading pattern. Below it, three colored dots bounce in sequence using <code>animation-delay</code> to create a wave. Both use infinite loops and are pure CSS.</div><div class="code-example-output">A loading screen with a horizontal gradient bar sliding across and three bouncing dots below.</div></div>
             </section>
 
             <section id="common-mistakes" class="content-section">
@@ -599,7 +599,7 @@ animation-fill-mode: both;      /* both forwards and backwards */</code></pre><p
 .card {
   animation: slideIn 1s;
 }
-/* After animation, card snaps back to its original style — translateX(-100%) if set, or default */</code></pre></div><div class="error-message">When the animation ends, the element reverts to its default CSS, not the final keyframe. If the default was translateX(-100%), the card disappears again.</div><div class="correct-code"><pre><code class="language-python">.card {
+/* After animation, card snaps back to its original style, translateX(-100%) if set, or default */</code></pre></div><div class="error-message">When the animation ends, the element reverts to its default CSS, not the final keyframe. If the default was translateX(-100%), the card disappears again.</div><div class="correct-code"><pre><code class="language-python">.card {
   animation: slideIn 1s forwards;
   /* or: animation-fill-mode: forwards; */
 }</code></pre></div><div class="mistake-explanation"><code>forwards</code> tells the element to keep the final keyframe's styles after the animation ends. This is usually what you want for entrance animations.</div>
@@ -617,14 +617,14 @@ animation-fill-mode: both;      /* both forwards and backwards */</code></pre><p
 /* Jerky on lower-end devices */</code></pre></div><div class="error-message">Animating &lt;code&gt;left&lt;/code&gt; triggers a layout recalculation every frame, which is slow. On complex pages or weaker devices, the animation can stutter.</div><div class="correct-code"><pre><code class="language-python">@keyframes moveRight {
   from { transform: translateX(0); }
   to   { transform: translateX(200px); }
-}</code></pre></div><div class="mistake-explanation">Use <code>transform: translateX()</code> instead of <code>left</code>. Transform runs on the GPU and does not trigger layout or paint work — much smoother.</div>
+}</code></pre></div><div class="mistake-explanation">Use <code>transform: translateX()</code> instead of <code>left</code>. Transform runs on the GPU and does not trigger layout or paint work, much smoother.</div>
             </div>
 <div class="mistake-card">
                 <h3>Not Defining the Keyframes Before Using Them</h3>
                 <div class="wrong-code"><pre><code class="language-python">.spinner {
   animation: spin 1s infinite;
 }
-/* No @keyframes spin defined anywhere */</code></pre></div><div class="error-message">The animation does nothing because the @keyframes rule is missing. The browser will not warn you — it just silently ignores the animation.</div><div class="correct-code"><pre><code class="language-python">@keyframes spin {
+/* No @keyframes spin defined anywhere */</code></pre></div><div class="error-message">The animation does nothing because the @keyframes rule is missing. The browser will not warn you. It just silently ignores the animation.</div><div class="correct-code"><pre><code class="language-python">@keyframes spin {
   from { transform: rotate(0deg); }
   to   { transform: rotate(360deg); }
 }
@@ -657,7 +657,7 @@ animation-fill-mode: both;      /* both forwards and backwards */</code></pre><p
                 <div class="summary-box"><ul><li>&lt;code&gt;@keyframes animationName { ... }&lt;/code&gt; defines the animation steps using &lt;code&gt;from/to&lt;/code&gt; or percentages (0%, 25%, 50%, 100%).</li>
 <li>Apply an animation to an element with &lt;code&gt;animation: name duration timing delay iteration-count direction fill-mode;&lt;/code&gt; (shorthand).</li>
 <li>&lt;code&gt;animation-iteration-count: infinite&lt;/code&gt; makes the animation loop forever. Useful for spinners, pulses, and ambient effects.</li>
-<li>&lt;code&gt;animation-direction: alternate&lt;/code&gt; plays the animation forward, then backward, then forward again — perfect for back-and-forth motions like pulses.</li>
+<li>&lt;code&gt;animation-direction: alternate&lt;/code&gt; plays the animation forward, then backward, then forward again, perfect for back-and-forth motions like pulses.</li>
 <li>&lt;code&gt;animation-fill-mode: forwards&lt;/code&gt; keeps the element in its final keyframe state after the animation ends. Without it, the element snaps back to its original styles.</li>
 <li>&lt;code&gt;animation-delay&lt;/code&gt; lets you stagger multiple elements by applying different delays (often with &lt;code&gt;:nth-child&lt;/code&gt;) for a wave or cascade effect.</li>
 <li>You can apply multiple animations to one element by comma-separating them: &lt;code&gt;animation: fadeIn 1s, bounce 2s infinite 1s;&lt;/code&gt;</li>

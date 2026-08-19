@@ -19,8 +19,8 @@ In Chapter 1 we said a lot of things *about* SQL. In this chapter we actually ru
 
 There are two main ways to talk to a MySQL server:
 
-- **MySQL Workbench** — a graphical tool (GUI) with a query editor, table browser, and visual schema designer. Best for beginners and for exploring data.
-- **MySQL Command Line Client (CLI)** — a plain terminal where you type queries. Faster for professionals, essential on servers where no GUI is available.
+- **MySQL Workbench**, a graphical tool (GUI) with a query editor, table browser, and visual schema designer. Best for beginners and for exploring data.
+- **MySQL Command Line Client (CLI)**, a plain terminal where you type queries. Faster for professionals, essential on servers where no GUI is available.
 
 You should get comfortable with BOTH. Most college labs and company servers only have the CLI available, but the GUI makes learning much more pleasant.
 
@@ -57,7 +57,7 @@ From Chapter 3 onwards, every example assumes you have a working MySQL. Installi
 Download the **MySQL Installer for Windows** from `dev.mysql.com/downloads/installer`. Choose the full (not web) installer. During setup:
 
 1. Choose "Developer Default" setup type (installs Server, Workbench, Shell, and sample data).
-2. Set the root password when prompted. **Write it down** — losing it means reinstalling.
+2. Set the root password when prompted. **Write it down**, losing it means reinstalling.
 3. Keep the default port `3306`.
 4. Start MySQL as a Windows service so it runs automatically on boot.
 
@@ -108,7 +108,7 @@ Open Workbench → click the **Local instance 3306** connection tile → enter t
 
 `SHOW TABLES;` lists the tables inside the currently selected database.
 
-`DESCRIBE tablename;` (or `DESC tablename;`) shows the structure of a table — its columns, data types, and constraints.
+`DESCRIBE tablename;` (or `DESC tablename;`) shows the structure of a table, its columns, data types, and constraints.
 
 ### 4. Creating Your First Database
 
@@ -132,10 +132,10 @@ CREATE TABLE students (
 
 This creates the `students` table with four columns:
 
-- `id INT` — a whole number, used as a unique identifier.
-- `name VARCHAR(50)` — a variable-length string up to 50 characters.
-- `class INT` — a whole number (10, 11, 12).
-- `marks INT` — a whole number for marks out of 100.
+- `id INT`, a whole number, used as a unique identifier.
+- `name VARCHAR(50)`, a variable-length string up to 50 characters.
+- `class INT`, a whole number (10, 11, 12).
+- `marks INT`, a whole number for marks out of 100.
 
 The parentheses group the column definitions. The commas separate them. The semicolon ends the statement. We will expand this (primary keys, NOT NULL, AUTO_INCREMENT) in Chapter 3.
 
@@ -174,7 +174,7 @@ The star means "all columns". This returns every row and every column. You shoul
 
 ### 8. The Almighty Semicolon
 
-Every SQL statement ends with a semicolon `;`. In the CLI, if you forget the semicolon and press Enter, MySQL will wait for you to finish — it shows `->` as a continuation prompt:
+Every SQL statement ends with a semicolon `;`. In the CLI, if you forget the semicolon and press Enter, MySQL will wait for you to finish. It shows `->` as a continuation prompt:
 
 ```
 mysql> SELECT * FROM students
@@ -238,7 +238,7 @@ USE school;
 SELECT DATABASE();
 ```
 
-`CREATE DATABASE` makes an empty database. `USE school;` sets the active database so we don't have to prefix table names. `SELECT DATABASE();` is a handy function that returns the currently selected database — useful when switching between several databases during a session.
+`CREATE DATABASE` makes an empty database. `USE school;` sets the active database so we don't have to prefix table names. `SELECT DATABASE();` is a handy function that returns the currently selected database, useful when switching between several databases during a session.
 
 **Output:**
 
@@ -336,7 +336,7 @@ Records: 5  Duplicates: 0  Warnings: 0
 SELECT name, marks FROM students;
 ```
 
-In production code, `SELECT *` is considered lazy and sometimes slow. By naming only the columns you need (`name, marks`), you reduce network traffic and make your queries more robust — if someone adds a new column later, your query result shape doesn't silently change.
+In production code, `SELECT *` is considered lazy and sometimes slow. By naming only the columns you need (`name, marks`), you reduce network traffic and make your queries more robust, if someone adds a new column later, your query result shape doesn't silently change.
 
 **Output:**
 
@@ -389,7 +389,7 @@ INSERT INTO students VALUES
 SELECT COUNT(*) AS total_students FROM students;
 ```
 
-This is what a well-organized SQL script looks like in the real world. The multi-line comment at the top is the file header. Single-line comments explain each step. `IF NOT EXISTS` and `IF EXISTS` make the script safely re-runnable — you can execute it multiple times without errors. `SELECT COUNT(*)` at the end is a quick sanity check. This pattern is how real database migrations are written.
+This is what a well-organized SQL script looks like in the real world. The multi-line comment at the top is the file header. Single-line comments explain each step. `IF NOT EXISTS` and `IF EXISTS` make the script safely re-runnable. You can execute it multiple times without errors. `SELECT COUNT(*)` at the end is a quick sanity check. This pattern is how real database migrations are written.
 
 **Output:**
 
@@ -416,7 +416,7 @@ Records: 5  Duplicates: 0  Warnings: 0
 
 ```
 mysql> SELECT * FROM students
-(press Enter — nothing happens, you see -> instead)
+(press Enter, nothing happens, you see -> instead)
 ```
 
 MySQL shows the continuation prompt -> because it is waiting for the statement to finish.

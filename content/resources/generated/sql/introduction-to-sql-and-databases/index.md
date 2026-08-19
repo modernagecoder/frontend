@@ -15,19 +15,19 @@ keywords: ["introduction to sql", "what is database", "what is dbms", "sql vs no
 
 ## What Is a Database?
 
-A **database** is an organized collection of data, stored so that it can be quickly searched, updated, and analyzed. The keyword is *organized*. A WhatsApp chat backup as a giant text file is just data. The same chats stored in a structured format with columns for `sender`, `receiver`, `message`, and `timestamp` — that is a database.
+A **database** is an organized collection of data, stored so that it can be quickly searched, updated, and analyzed. The keyword is *organized*. A WhatsApp chat backup as a giant text file is just data. The same chats stored in a structured format with columns for `sender`, `receiver`, `message`, and `timestamp`. That is a database.
 
 Every app on your phone uses a database behind the scenes. When you open Instagram and see your feed, an SQL query is fetching posts from a database. When Paytm shows your last 10 transactions, that is a database query. When BookMyShow tells you Seat A12 is already booked, again a database query.
 
 ### What Is a DBMS?
 
-A **DBMS (Database Management System)** is the software that manages a database. You don't talk to the database file directly — you talk to the DBMS, and the DBMS handles storage, indexing, concurrency, security, and crash recovery for you. Think of it like this: if a database is the books in a library, the DBMS is the librarian.
+A **DBMS (Database Management System)** is the software that manages a database. You don't talk to the database file directly. You talk to the DBMS, and the DBMS handles storage, indexing, concurrency, security, and crash recovery for you. Think of it like this: if a database is the books in a library, the DBMS is the librarian.
 
 Popular DBMS software includes **MySQL**, **PostgreSQL**, **Oracle**, **Microsoft SQL Server**, and **SQLite**. Each is a separate piece of software, and most of them speak SQL with small variations.
 
 ### What Is SQL?
 
-**SQL** stands for **Structured Query Language**. It is the standard language used to interact with relational databases. With SQL you can create tables, insert data, search through millions of rows, update records, delete them, and join multiple tables together. SQL is pronounced either as "S-Q-L" (each letter spoken) or as "sequel" — both are acceptable in industry.
+**SQL** stands for **Structured Query Language**. It is the standard language used to interact with relational databases. With SQL you can create tables, insert data, search through millions of rows, update records, delete them, and join multiple tables together. SQL is pronounced either as "S-Q-L" (each letter spoken) or as "sequel". Both are acceptable in industry.
 
 SQL was invented in the early 1970s and is still the dominant query language more than 50 years later. Very few technologies survive that long. SQL did because the relational model it is built on (tables with rows and columns, related to each other by keys) turned out to be one of the most useful ideas in computing.
 
@@ -37,19 +37,19 @@ Most technologies become obsolete in 5 to 10 years. JavaScript frameworks come a
 
 ### 1. Almost Every Application Uses a Relational Database
 
-Banking apps, e-commerce sites, hospital management systems, government portals like Aadhaar and IRCTC, college ERPs, hotel booking systems, food delivery apps — they all use relational databases for the parts of their data where consistency matters. If you are building anything that stores user accounts, orders, payments, or transactions, you will use SQL.
+Banking apps, e-commerce sites, hospital management systems, government portals like Aadhaar and IRCTC, college ERPs, hotel booking systems, food delivery apps. They all use relational databases for the parts of their data where consistency matters. If you are building anything that stores user accounts, orders, payments, or transactions, you will use SQL.
 
 ### 2. SQL Is the Common Language of Data
 
-Whether the database is MySQL at a startup, PostgreSQL at a fintech, Oracle at a bank, or BigQuery at Google, the core SELECT/JOIN/GROUP BY syntax is almost identical. Learn SQL once, use it everywhere — including modern cloud data warehouses (Snowflake, Redshift, BigQuery) which all expose SQL interfaces.
+Whether the database is MySQL at a startup, PostgreSQL at a fintech, Oracle at a bank, or BigQuery at Google, the core SELECT/JOIN/GROUP BY syntax is almost identical. Learn SQL once, use it everywhere, including modern cloud data warehouses (Snowflake, Redshift, BigQuery) which all expose SQL interfaces.
 
 ### 3. Data Roles Demand SQL
 
-Data analyst, data engineer, data scientist, business intelligence developer, backend developer — every one of these roles lists SQL in the first line of the job description. Companies like Flipkart, Amazon, Razorpay, Zomato, and Swiggy ask SQL questions in their first technical round, often before any other coding question.
+Data analyst, data engineer, data scientist, business intelligence developer, backend developer, every one of these roles lists SQL in the first line of the job description. Companies like Flipkart, Amazon, Razorpay, Zomato, and Swiggy ask SQL questions in their first technical round, often before any other coding question.
 
 ### 4. SQL Survived Because the Relational Model Is Sound
 
-SQL was built on the **relational model** proposed by Edgar F. Codd at IBM in 1970. The idea — represent data as tables with rows and columns, with relationships defined by shared keys — is mathematically elegant and matches how humans naturally think about structured information. NoSQL databases tried to replace SQL in the 2010s, but most teams ended up using both: SQL for the structured core, NoSQL for specific use cases.
+SQL was built on the **relational model** proposed by Edgar F. Codd at IBM in 1970. The idea, represent data as tables with rows and columns, with relationships defined by shared keys, is mathematically elegant and matches how humans naturally think about structured information. NoSQL databases tried to replace SQL in the 2010s, but most teams ended up using both: SQL for the structured core, NoSQL for specific use cases.
 
 ## Detailed Explanation
 
@@ -61,18 +61,18 @@ Here is a sample `students` table:
 
 idnamecitymarks1Aarav SharmaMumbai872Priya IyerBengaluru923Rohan VermaDelhi784Ananya ReddyHyderabad955Vikram SinghPune65
 
-This table has 4 columns (`id`, `name`, `city`, `marks`) and 5 rows. Each row is one student. Each column holds one type of information about every student. This rectangular shape — same set of columns for every row — is what makes it a *relational* table.
+This table has 4 columns (`id`, `name`, `city`, `marks`) and 5 rows. Each row is one student. Each column holds one type of information about every student. This rectangular shape, same set of columns for every row, is what makes it a *relational* table.
 
 ### 2. Primary Key (Quick Intro)
 
 Notice the `id` column. Each student has a unique `id`. This unique identifier is called a **primary key**. Primary keys are how the database (and you) tell two rows apart, even if other fields look identical. Two different students could both be named "Aarav Sharma" living in Mumbai, but their `id` values will differ. We will go deep into primary keys in Chapter 3.
 
-### 3. SQL vs NoSQL — When to Use What
+### 3. SQL vs NoSQL: When to Use What
 
 **SQL databases** (also called relational databases) store data in tables with a fixed schema. Examples: MySQL, PostgreSQL, Oracle, SQL Server, SQLite. They are best when:
 
 - Data has a clear structure that doesn't change often (users, orders, payments, inventory).
-- You need ACID guarantees — transactions that either fully complete or fully roll back. Critical for banking and any money-related system.
+- You need ACID guarantees, transactions that either fully complete or fully roll back. Critical for banking and any money-related system.
 - You need to JOIN data from multiple tables (e.g., "give me all orders by users in Mumbai").
 
 **NoSQL databases** are a different family. They store data as documents (MongoDB), key-value pairs (Redis), wide columns (Cassandra), or graphs (Neo4j). They are best when:
@@ -87,7 +87,7 @@ In practice, most companies use BOTH. A typical e-commerce stack might use Postg
 
 DatabaseTypeCostCommon UseMySQLOpen sourceFreeWeb apps, WordPress, mid-size SaaSPostgreSQLOpen sourceFreeModern startups, GIS, complex queriesSQLiteOpen sourceFreeMobile apps (Android/iOS), embeddedSQL ServerMicrosoftPaid (free dev edition)Enterprise .NET shops, Windows ecosystemsOracleOraclePaid (expensive)Large banks, government, telecom
 
-For learning, we recommend MySQL — it is free, widely used in industry, has good Windows/Mac/Linux installers, and what you learn transfers easily to PostgreSQL, SQLite, and SQL Server.
+For learning, we recommend MySQL. It is free, widely used in industry, has good Windows/Mac/Linux installers, and what you learn transfers easily to PostgreSQL, SQLite, and SQL Server.
 
 ### 5. A Brief History of SQL
 
@@ -103,27 +103,27 @@ SQL was standardized by **ANSI in 1986** and by **ISO in 1987**. Major revisions
 
 SQL commands are grouped into four categories based on what they do. Memorizing this is interview gold.
 
-#### DDL — Data Definition Language
+#### DDL: Data Definition Language
 
 Defines the *structure* of the database. Affects schema, not data values.
 
 CommandPurpose`CREATE`Create a database, table, view, index, etc.`ALTER`Change structure (add/drop columns, rename)`DROP`Permanently delete a database or table`TRUNCATE`Delete all rows from a table (keeps structure)`RENAME`Rename a table or column
 
-#### DML — Data Manipulation Language
+#### DML: Data Manipulation Language
 
 Works with the *data* inside tables.
 
 CommandPurpose`SELECT`Retrieve rows (technically called DQL by some books)`INSERT`Add new rows`UPDATE`Change existing rows`DELETE`Remove rows
 
-#### DCL — Data Control Language
+#### DCL: Data Control Language
 
-Controls who can do what — permissions and access rights.
+Controls who can do what, permissions and access rights.
 
 CommandPurpose`GRANT`Give a user permission`REVOKE`Remove a permission
 
-#### TCL — Transaction Control Language
+#### TCL: Transaction Control Language
 
-Manages transactions — groups of statements that should succeed or fail together.
+Manages transactions, groups of statements that should succeed or fail together.
 
 CommandPurpose`COMMIT`Save changes permanently`ROLLBACK`Undo changes since last COMMIT`SAVEPOINT`Set a marker to roll back to
 
@@ -137,7 +137,7 @@ Whether **table and column names** are case-sensitive depends on the database an
 
 ## Code Examples
 
-### Looking at a Sample Table — students
+### Looking at a Sample Table: students
 
 ```sql
 -- This is the students table that we will use throughout this chapter.
@@ -146,7 +146,7 @@ Whether **table and column names** are case-sensitive depends on the database an
 SELECT * FROM students;
 ```
 
-This is the simplest possible SQL query. `SELECT *` means "give me every column", and `FROM students` means "from the students table". The semicolon at the end terminates the statement. We will write our first real CREATE TABLE and INSERT statements in Chapter 2 — for now, focus on understanding what the output looks like.
+This is the simplest possible SQL query. `SELECT *` means "give me every column", and `FROM students` means "from the students table". The semicolon at the end terminates the statement. We will write our first real CREATE TABLE and INSERT statements in Chapter 2, for now, focus on understanding what the output looks like.
 
 **Output:**
 
@@ -163,7 +163,7 @@ This is the simplest possible SQL query. `SELECT *` means "give me every column"
 5 rows in set (0.00 sec)
 ```
 
-### DDL Example — Defining a Table Structure
+### DDL Example: Defining a Table Structure
 
 ```sql
 -- DDL: CREATE defines the structure of a new table.
@@ -179,7 +179,7 @@ CREATE TABLE employees (
 SELECT * FROM employees;
 ```
 
-`CREATE TABLE` is a DDL command — it defines structure, not data. After this runs, the table exists but has zero rows. The `VARCHAR(50)` means a string up to 50 characters long; `DECIMAL(10,2)` means a number up to 10 digits with 2 after the decimal point (perfect for money). We cover all data types in detail in Chapter 3.
+`CREATE TABLE` is a DDL command. It defines structure, not data. After this runs, the table exists but has zero rows. The `VARCHAR(50)` means a string up to 50 characters long; `DECIMAL(10,2)` means a number up to 10 digits with 2 after the decimal point (perfect for money). We cover all data types in detail in Chapter 3.
 
 **Output:**
 
@@ -189,7 +189,7 @@ Query OK, 0 rows affected (0.04 sec)
 Empty set (0.00 sec)
 ```
 
-### DML Example — Adding and Reading Rows
+### DML Example: Adding and Reading Rows
 
 ```sql
 -- DML: INSERT adds new rows into the employees table.
@@ -201,7 +201,7 @@ INSERT INTO employees VALUES (103, 'Sneha Patel', 68000.00);
 SELECT * FROM employees;
 ```
 
-`INSERT` and `SELECT` are DML commands — they manipulate data, not structure. We add three employees and then read them back. Notice the salaries keep their decimal precision because we declared the column as `DECIMAL(10,2)`.
+`INSERT` and `SELECT` are DML commands. They manipulate data, not structure. We add three employees and then read them back. Notice the salaries keep their decimal precision because we declared the column as `DECIMAL(10,2)`.
 
 **Output:**
 
@@ -216,7 +216,7 @@ SELECT * FROM employees;
 3 rows in set (0.00 sec)
 ```
 
-### TCL Example — COMMIT and ROLLBACK
+### TCL Example: COMMIT and ROLLBACK
 
 ```sql
 -- TCL: Transactions group multiple statements together.
@@ -251,7 +251,7 @@ Query OK, 0 rows affected (0.01 sec)
 3 rows in set (0.00 sec)
 ```
 
-### DCL Example — Granting Permissions
+### DCL Example: Granting Permissions
 
 ```sql
 -- DCL: GRANT gives a user permission to do something.
@@ -296,12 +296,12 @@ UPDATE students SET marks = marks + 5 WHERE city = 'Mumbai';
 COMMIT;
 ```
 
-This shows one or two commands from each of the four categories so you can see the contrast. DDL shapes the database; DML shapes the data; DCL controls who can do these things; TCL controls when changes become permanent. Memorize this grouping — it is one of the most common SQL interview questions.
+This shows one or two commands from each of the four categories so you can see the contrast. DDL shapes the database; DML shapes the data; DCL controls who can do these things; TCL controls when changes become permanent. Memorize this grouping, it is one of the most common SQL interview questions.
 
 **Output:**
 
 ```
-(Output varies — one OK line per statement.)
+(Output varies, one OK line per statement.)
 ```
 
 ## Common Mistakes
@@ -322,7 +322,7 @@ Technically incorrect, and interviewers will catch this.
 Statement: "MySQL is a Database Management System (DBMS). The database is the actual collection of data managed by MySQL."
 ```
 
-MySQL, PostgreSQL, Oracle — these are **DBMS software**. The *database* is the actual data file (or set of files) that the DBMS manages. You can run one MySQL server that hosts 50 separate databases. In casual conversation people use the words interchangeably, but in interviews and exams the distinction matters.
+MySQL, PostgreSQL, Oracle, these are **DBMS software**. The *database* is the actual data file (or set of files) that the DBMS manages. You can run one MySQL server that hosts 50 separate databases. In casual conversation people use the words interchangeably, but in interviews and exams the distinction matters.
 
 ### Thinking SQL and MySQL Are the Same Thing
 
@@ -373,10 +373,10 @@ Outdated industry assumption from around 2014.
 **Correct:**
 
 ```
-Statement: "SQL and NoSQL solve different problems. Most modern stacks use both — SQL for transactional, structured data; NoSQL for flexible documents, caching, or massive scale-out. SQL is still on virtually every backend job description."
+Statement: "SQL and NoSQL solve different problems. Most modern stacks use both: SQL for transactional, structured data; NoSQL for flexible documents, caching, or massive scale-out. SQL is still on virtually every backend job description."
 ```
 
-Around 2012-2014 many companies tried to switch fully to NoSQL and many regretted it (data inconsistency, painful joins done in application code, no transactions). Today the consensus is "polyglot persistence" — pick the right tool for each piece of data. Companies like Amazon, Uber, and Airbnb run massive PostgreSQL and MySQL clusters in production.
+Around 2012-2014 many companies tried to switch fully to NoSQL and many regretted it (data inconsistency, painful joins done in application code, no transactions). Today the consensus is "polyglot persistence". Pick the right tool for each piece of data. Companies like Amazon, Uber, and Airbnb run massive PostgreSQL and MySQL clusters in production.
 
 ## Summary
 
@@ -389,7 +389,7 @@ Around 2012-2014 many companies tried to switch fully to NoSQL and many regrette
 - The four SQL categories: DDL (CREATE, ALTER, DROP, TRUNCATE) for structure; DML (SELECT, INSERT, UPDATE, DELETE) for data; DCL (GRANT, REVOKE) for permissions; TCL (COMMIT, ROLLBACK, SAVEPOINT) for transactions.
 - TRUNCATE is DDL (not DML) because it drops and recreates the table internally, which is faster than DELETE but harder to undo.
 - SQL keywords are case-insensitive (SELECT = select), but it is convention to write them in UPPERCASE for readability.
-- Every backend, data analyst, and data science job description in 2026 lists SQL as a core skill — it is the most return-on-investment language a college student can learn.
+- Every backend, data analyst, and data science job description in 2026 lists SQL as a core skill. It is the most return-on-investment language a college student can learn.
 
 ## Related Topics
 

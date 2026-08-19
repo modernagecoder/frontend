@@ -27,7 +27,7 @@ Understanding how to properly add JavaScript to HTML and how to use the browser 
 
 ### 1. Script Placement Affects Whether Your Code Works
 
-If you put your script in the wrong place, your JavaScript can fail silently — the page loads fine but nothing happens. Understanding where to place script tags and how script loading works prevents hours of frustration.
+If you put your script in the wrong place, your JavaScript can fail silently, the page loads fine but nothing happens. Understanding where to place script tags and how script loading works prevents hours of frustration.
 
 ### 2. The Console Is Your Debugging Lifeline
 
@@ -92,7 +92,7 @@ Placing the script just before the closing `` tag means all HTML elements are al
 
 #### Option C: In  with defer (Modern Best Practice)
 
-The `defer` attribute tells the browser: "Download this script in the background, but do not run it until the entire HTML page is fully loaded." This gives you the best of both worlds — the script starts downloading early but runs after the page is ready.
+The `defer` attribute tells the browser: "Download this script in the background, but do not run it until the entire HTML page is fully loaded." This gives you the best of both worlds, the script starts downloading early but runs after the page is ready.
 
 ```
 
@@ -100,7 +100,7 @@ The `defer` attribute tells the browser: "Download this script in the background
 
 ```
 
-There is also the `async` attribute, which downloads the script in the background and runs it as soon as the download finishes — even if the page is not fully loaded. Use `async` for scripts that do not depend on the page content (like analytics). Use `defer` for scripts that interact with the page.
+There is also the `async` attribute, which downloads the script in the background and runs it as soon as the download finishes, even if the page is not fully loaded. Use `async` for scripts that do not depend on the page content (like analytics). Use `defer` for scripts that interact with the page.
 
 ### 3. Console Methods
 
@@ -134,7 +134,7 @@ Measures how long a block of code takes to execute. Call `console.time("label")`
 
 #### alert()
 
-`alert()` shows a popup message box with an OK button. It **blocks the page** — the user cannot interact with anything else until they click OK. Good for learning, bad for real websites.
+`alert()` shows a popup message box with an OK button. It **blocks the page**, the user cannot interact with anything else until they click OK. Good for learning, bad for real websites.
 
 #### prompt()
 
@@ -188,7 +188,7 @@ The Console tab is where you will spend most of your time. You can type JavaScri
 console.log("This runs from an external file");
 ```
 
-Method 1 puts JavaScript directly in the HTML. Method 2 keeps JavaScript in a separate `app.js` file. Both produce the same result in the console. For real projects, always use external files — it keeps your code organized and allows the browser to cache the JavaScript file separately.
+Method 1 puts JavaScript directly in the HTML. Method 2 keeps JavaScript in a separate `app.js` file. Both produce the same result in the console. For real projects, always use external files. It keeps your code organized and allows the browser to cache the JavaScript file separately.
 
 **Output:**
 
@@ -314,7 +314,7 @@ let age = prompt("Enter your age:");
 console.log(typeof age);  // "string" even if user types a number!
 ```
 
-These three functions create browser popup dialogs. `alert()` just shows a message. `prompt()` returns the typed text as a string (the second argument `"Guest"` is the default value). `confirm()` returns `true` for OK, `false` for Cancel. Critical detail: `prompt()` always returns a **string**, even if the user types a number like `42` — you get `"42"` and need to convert it with `Number()`.
+These three functions create browser popup dialogs. `alert()` just shows a message. `prompt()` returns the typed text as a string (the second argument `"Guest"` is the default value). `confirm()` returns `true` for OK, `false` for Cancel. Critical detail: `prompt()` always returns a **string**, even if the user types a number like `42`. You get `"42"` and need to convert it with `Number()`.
 
 **Output:**
 
@@ -351,7 +351,7 @@ string
 </html>
 ```
 
-When `document.write()` runs during page loading (as the browser reads the HTML), it inserts content into the page. But when called **after** the page has loaded (like from a button click), it **erases the entire page** and replaces everything with the new content. In the second example, clicking the button wipes out the heading, paragraph, and button — replacing it all with just "Oops!". This is why `document.write()` should be avoided.
+When `document.write()` runs during page loading (as the browser reads the HTML), it inserts content into the page. But when called **after** the page has loaded (like from a button click), it **erases the entire page** and replaces everything with the new content. In the second example, clicking the button wipes out the heading, paragraph, and button, replacing it all with just "Oops!". This is why `document.write()` should be avoided.
 
 **Output:**
 

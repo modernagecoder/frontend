@@ -17,7 +17,7 @@
     <!-- SEO Meta Tags -->
     <meta name="description" content="Solve the most-asked SQL interview questions: Nth highest salary, duplicates, consecutive rows, running totals, pivoting.">
     <!-- meta keywords intentionally not emitted: Google has ignored it since 2009 and Bing
-         treats it as a SPAM SIGNAL — and Bing is the index ChatGPT/Copilot answer from.
+         treats it as a SPAM SIGNAL, and Bing is the index ChatGPT/Copilot answer from.
          See scripts/strip-meta-keywords.py. -->
     <meta name="author" content="Modern Age Coders">
     <meta name="robots" content="index, follow">
@@ -119,7 +119,7 @@
         "name": "Using LIMIT/OFFSET for Nth Highest When Ties Matter",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "LIMIT/OFFSET counts rows; DENSE_RANK counts distinct values. If the interviewer says 'third highest salary' they usually mean the third distinct value — use DENSE_RANK."
+          "text": "LIMIT/OFFSET counts rows; DENSE_RANK counts distinct values. If the interviewer says 'third highest salary' they usually mean the third distinct value. Use DENSE_RANK."
         }
       },
       {
@@ -210,12 +210,12 @@
 
             <section id="what" class="content-section">
                 <h2>What Is It?</h2>
-                <h2>SQL Interview Masterclass: 30 Questions Every SQL Engineer Must Solve</h2><p>Every data analyst, backend engineer, and data scientist interview features a small, well-known set of SQL puzzles. This chapter collects the 30 most common ones and solves every single one of them — with sample data, a working query, an explanation of the approach, and alternative solutions where they are illuminating. The queries are written for MySQL 8+ (window functions, CTEs) with fallbacks for older versions where it matters.</p><p>If you can solve these 30 cleanly, you will pass almost any SQL round. If you cannot, you will freeze on the whiteboard. There is no substitute for working through each one — <em>typing</em> the query, running it, checking the output. Read this chapter once. Then solve it again from scratch. Then come back in a month and solve it again.</p><p>Every solution below assumes a small sample schema. All sample data uses Indian names (Aarav, Priya, Rohan, Anika, Kavya, Vikram, Arjun, Neha, Sanya, Ishan). Every query runs as-is in MySQL 8.0+.</p>
+                <h2>SQL Interview Masterclass: 30 Questions Every SQL Engineer Must Solve</h2><p>Every data analyst, backend engineer, and data scientist interview features a small, well-known set of SQL puzzles. This chapter collects the 30 most common ones and solves every single one of them, with sample data, a working query, an explanation of the approach, and alternative solutions where they are illuminating. The queries are written for MySQL 8+ (window functions, CTEs) with fallbacks for older versions where it matters.</p><p>If you can solve these 30 cleanly, you will pass almost any SQL round. If you cannot, you will freeze on the whiteboard. There is no substitute for working through each one, <em>typing</em> the query, running it, checking the output. Read this chapter once. Then solve it again from scratch. Then come back in a month and solve it again.</p><p>Every solution below assumes a small sample schema. All sample data uses Indian names (Aarav, Priya, Rohan, Anika, Kavya, Vikram, Arjun, Neha, Sanya, Ishan). Every query runs as-is in MySQL 8.0+.</p>
             </section>
 
             <section id="why" class="content-section">
                 <h2>Why Does It Matter?</h2>
-                <h2>Why These 30?</h2><p>Companies ask these questions because together they cover every essential SQL pattern: filtering with WHERE, joining multiple tables, aggregating with GROUP BY, ranking with window functions, set operations, self-joins, recursive CTEs, and conditional aggregation. If you know all 30, you know SQL.</p><p>More importantly, these patterns repeat in real work. 'Find the second highest salary' becomes 'find the second most recent order per user'. 'Running total' becomes 'cumulative revenue by region'. 'Consecutive login days' becomes 'customers with 30-day retention'. The 30 questions are the building blocks of production SQL.</p><p>The structure of this chapter is different from previous chapters. Instead of narrative explanation, the <code>explanation</code> section below presents 30 self-contained solved problems, each with: a problem statement, a sample table, a working query, and commentary. After that, 55+ practice questions (all fresh — no repeats of the 30) give you more chances to build fluency.</p>
+                <h2>Why These 30?</h2><p>Companies ask these questions because together they cover every essential SQL pattern: filtering with WHERE, joining multiple tables, aggregating with GROUP BY, ranking with window functions, set operations, self-joins, recursive CTEs, and conditional aggregation. If you know all 30, you know SQL.</p><p>More importantly, these patterns repeat in real work. 'Find the second highest salary' becomes 'find the second most recent order per user'. 'Running total' becomes 'cumulative revenue by region'. 'Consecutive login days' becomes 'customers with 30-day retention'. The 30 questions are the building blocks of production SQL.</p><p>The structure of this chapter is different from previous chapters. Instead of narrative explanation, the <code>explanation</code> section below presents 30 self-contained solved problems, each with: a problem statement, a sample table, a working query, and commentary. After that, 55+ practice questions (all fresh, no repeats of the 30) give you more chances to build fluency.</p>
             </section>
 
             <section id="explanation" class="content-section">
@@ -237,7 +237,7 @@ WHERE N-1 = (
     SELECT COUNT(DISTINCT e2.salary)
     FROM employees e2
     WHERE e2.salary > e1.salary
-);</code></pre><p>DENSE_RANK is the canonical answer: it handles ties naturally (two people on rank 1 both count as rank 1). LIMIT/OFFSET is the quickest write but does not handle ties. The correlated subquery is O(N^2) — fine for small tables, catastrophic for large ones.</p><h3>Q2. Find Duplicate Values in a Column</h3><p><strong>Sample:</strong> <code>emails(id, email)</code> with some repeating addresses.</p><pre><code>SELECT email, COUNT(*) AS cnt
+);</code></pre><p>DENSE_RANK is the canonical answer: it handles ties naturally (two people on rank 1 both count as rank 1). LIMIT/OFFSET is the quickest write but does not handle ties. The correlated subquery is O(N^2), fine for small tables, catastrophic for large ones.</p><h3>Q2. Find Duplicate Values in a Column</h3><p><strong>Sample:</strong> <code>emails(id, email)</code> with some repeating addresses.</p><pre><code>SELECT email, COUNT(*) AS cnt
 FROM emails
 GROUP BY email
 HAVING COUNT(*) > 1;</code></pre><p>GROUP BY + HAVING is the textbook duplicate-finder. HAVING filters on aggregates; it is what WHERE would do if WHERE could see aggregates.</p><h3>Q3. Delete Duplicate Rows Keeping One</h3><p><strong>Sample:</strong> <code>users(id PK, email)</code> with rows (1, 'a@x'), (2, 'a@x'), (3, 'b@x').</p><pre><code>-- Keep the MIN id for each email, delete the rest
@@ -263,7 +263,7 @@ WHERE e.salary > m.salary;</code></pre><p>Self-join with aliases <code>e</code> 
         PARTITION BY dept ORDER BY salary DESC
     ) AS rnk
     FROM employees
-) t WHERE rnk = 2;</code></pre><p>PARTITION BY restarts the ranking for each dept — the key to every 'per-group' window problem.</p><h3>Q6. Top 3 Products Per Category</h3><pre><code>SELECT category, product, revenue FROM (
+) t WHERE rnk = 2;</code></pre><p>PARTITION BY restarts the ranking for each dept, the key to every 'per-group' window problem.</p><h3>Q6. Top 3 Products Per Category</h3><pre><code>SELECT category, product, revenue FROM (
     SELECT category, product, revenue,
            ROW_NUMBER() OVER (
                PARTITION BY category ORDER BY revenue DESC
@@ -286,7 +286,7 @@ FROM monthly;</code></pre><p>LAG returns the previous row's value. Dividing by i
 FROM orders
 WHERE YEAR(order_date) = 2024
 GROUP BY customer_id
-HAVING COUNT(DISTINCT MONTH(order_date)) = 12;</code></pre><p>COUNT DISTINCT month = 12 means they ordered in every month. No need for a calendar table here — the constant 12 captures the requirement.</p><h3>Q10. Consecutive Login Days (Max Streak Per User)</h3><pre><code>WITH numbered AS (
+HAVING COUNT(DISTINCT MONTH(order_date)) = 12;</code></pre><p>COUNT DISTINCT month = 12 means they ordered in every month. No need for a calendar table here, the constant 12 captures the requirement.</p><h3>Q10. Consecutive Login Days (Max Streak Per User)</h3><pre><code>WITH numbered AS (
     SELECT user_id, login_date,
            ROW_NUMBER() OVER (
                PARTITION BY user_id ORDER BY login_date
@@ -347,7 +347,7 @@ FROM (
     SELECT id, LEAD(id) OVER (ORDER BY id) AS next_id
     FROM invoices
 ) t
-WHERE next_id > id + 1;</code></pre><p>LEAD version is cleaner. Find adjacent rows where the next id is more than one above the current — the gap between them is missing.</p><h3>Q16. Cumulative Percentage of Sales</h3><pre><code>SELECT product, sales,
+WHERE next_id > id + 1;</code></pre><p>LEAD version is cleaner. Find adjacent rows where the next id is more than one above the current, the gap between them is missing.</p><h3>Q16. Cumulative Percentage of Sales</h3><pre><code>SELECT product, sales,
        SUM(sales) OVER (ORDER BY sales DESC) AS cumulative,
        ROUND(100.0 * SUM(sales) OVER (ORDER BY sales DESC) /
              SUM(sales) OVER (), 2) AS cum_pct
@@ -374,7 +374,7 @@ ORDER BY region, rnk;</code></pre><p>RANK leaves gaps after ties (1, 1, 3). DENS
        MAX(order_date) AS last_order,
        DATEDIFF(MAX(order_date), MIN(order_date)) AS days_active
 FROM orders
-GROUP BY customer_id;</code></pre><p>Simple GROUP BY — no window functions needed. DATEDIFF computes the spread.</p><h3>Q22. Customers Who Never Placed an Order</h3><pre><code>-- Method 1: LEFT JOIN + IS NULL
+GROUP BY customer_id;</code></pre><p>Simple GROUP BY, no window functions needed. DATEDIFF computes the spread.</p><h3>Q22. Customers Who Never Placed an Order</h3><pre><code>-- Method 1: LEFT JOIN + IS NULL
 SELECT c.id, c.name
 FROM customers c
 LEFT JOIN orders o ON o.customer_id = c.id
@@ -389,7 +389,7 @@ WHERE NOT EXISTS (
 
 -- Method 3: NOT IN (watch NULLs)
 SELECT id, name FROM customers
-WHERE id NOT IN (SELECT customer_id FROM orders WHERE customer_id IS NOT NULL);</code></pre><p>NOT EXISTS is usually fastest on MySQL. NOT IN can be wrong if the inner result contains NULL — always wrap with IS NOT NULL when using NOT IN on a nullable column.</p><h3>Q23. Most Frequent Value Per Group</h3><pre><code>WITH counted AS (
+WHERE id NOT IN (SELECT customer_id FROM orders WHERE customer_id IS NOT NULL);</code></pre><p>NOT EXISTS is usually fastest on MySQL. NOT IN can be wrong if the inner result contains NULL, always wrap with IS NOT NULL when using NOT IN on a nullable column.</p><h3>Q23. Most Frequent Value Per Group</h3><pre><code>WITH counted AS (
     SELECT category, product, COUNT(*) AS cnt
     FROM purchases
     GROUP BY category, product
@@ -421,7 +421,7 @@ paired AS (
 )
 SELECT month_n AS cohort_month, COUNT(DISTINCT user_id) AS retained
 FROM paired
-GROUP BY month_n;</code></pre><p>Self-join <code>active_months</code> to itself, offset by one month. Each matching pair is a user who was active in month N <em>and</em> month N+1 — the definition of month-over-month retention.</p><h3>Q26. Build a Calendar Table of All Dates in the Last Year</h3><pre><code>WITH RECURSIVE calendar AS (
+GROUP BY month_n;</code></pre><p>Self-join <code>active_months</code> to itself, offset by one month. Each matching pair is a user who was active in month N <em>and</em> month N+1, the definition of month-over-month retention.</p><h3>Q26. Build a Calendar Table of All Dates in the Last Year</h3><pre><code>WITH RECURSIVE calendar AS (
     SELECT DATE_SUB(CURDATE(), INTERVAL 365 DAY) AS d
     UNION ALL
     SELECT DATE_ADD(d, INTERVAL 1 DAY) FROM calendar
@@ -537,7 +537,7 @@ SELECT month, total,
        ROUND((total - LAG(total) OVER (ORDER BY month)) * 100.0
              / LAG(total) OVER (ORDER BY month), 2) AS growth_pct
 FROM monthly
-ORDER BY month;</code></pre><div class="code-example-explanation">The CTE aggregates per month, then the outer query uses LAG to look back one row. First row has NULL prev_total, so growth_pct is NULL there — good behaviour that shouts 'no baseline'.</div><div class="code-example-output">+---------+----------+------------+------------+
+ORDER BY month;</code></pre><div class="code-example-explanation">The CTE aggregates per month, then the outer query uses LAG to look back one row. First row has NULL prev_total, so growth_pct is NULL there, good behaviour that shouts 'no baseline'.</div><div class="code-example-output">+---------+----------+------------+------------+
 | month   | total    | prev_total | growth_pct |
 +---------+----------+------------+------------+
 | 2026-01 | 22000.00 | NULL       | NULL       |
@@ -593,7 +593,7 @@ SELECT YEAR(sale_date) AS year,
        SUM(CASE WHEN QUARTER(sale_date)=4 THEN amount ELSE 0 END) AS q4
 FROM sales
 GROUP BY YEAR(sale_date)
-ORDER BY year;</code></pre><div class="code-example-explanation">Conditional aggregation. Each CASE expression evaluates to the amount only if the row is in that quarter, zero otherwise; SUM then totals per year. This is MySQL's universal PIVOT — works for any shape of cross-tab.</div><div class="code-example-output">+------+----------+----------+----------+----------+
+ORDER BY year;</code></pre><div class="code-example-explanation">Conditional aggregation. Each CASE expression evaluates to the amount only if the row is in that quarter, zero otherwise; SUM then totals per year. This is MySQL's universal PIVOT, works for any shape of cross-tab.</div><div class="code-example-output">+------+----------+----------+----------+----------+
 | year | q1       | q2       | q3       | q4       |
 +------+----------+----------+----------+----------+
 | 2024 |  5000.00 |  7000.00 |  9000.00 | 12000.00 |
@@ -608,7 +608,7 @@ FROM (
            COUNT(*)     OVER ()                AS total
     FROM employees
 ) t
-WHERE rn IN (FLOOR((total + 1) / 2), CEIL((total + 1) / 2));</code></pre><div class="code-example-explanation">With 8 salaries, the median is the average of the 4th and 5th values when sorted ascending — positions FLOOR(9/2)=4 and CEIL(9/2)=5. With an odd count, FLOOR and CEIL give the same index, so AVG returns that single value. The formula works for both cases.</div><div class="code-example-output">+----------+
+WHERE rn IN (FLOOR((total + 1) / 2), CEIL((total + 1) / 2));</code></pre><div class="code-example-explanation">With 8 salaries, the median is the average of the 4th and 5th values when sorted ascending, positions FLOOR(9/2)=4 and CEIL(9/2)=5. With an odd count, FLOOR and CEIL give the same index, so AVG returns that single value. The formula works for both cases.</div><div class="code-example-output">+----------+
 | median   |
 +----------+
 | 70000.00 |
@@ -627,7 +627,7 @@ LIMIT 1 OFFSET 2;
 SELECT DISTINCT salary FROM (
     SELECT salary, DENSE_RANK() OVER (ORDER BY salary DESC) AS rnk
     FROM employees
-) t WHERE rnk = 3;</code></pre></div><div class="mistake-explanation">LIMIT/OFFSET counts rows; DENSE_RANK counts distinct values. If the interviewer says 'third highest salary' they usually mean the third distinct value — use DENSE_RANK.</div>
+) t WHERE rnk = 3;</code></pre></div><div class="mistake-explanation">LIMIT/OFFSET counts rows; DENSE_RANK counts distinct values. If the interviewer says 'third highest salary' they usually mean the third distinct value. Use DENSE_RANK.</div>
             </div>
 <div class="mistake-card">
                 <h3>NOT IN With a NULL in the Subquery</h3>
@@ -650,7 +650,7 @@ SELECT dept, salary FROM (
     FROM employees
 ) t
 WHERE rnk = 2;
--- Bug: ranking is global. rnk=2 gives the single second-highest salary across ALL departments.</code></pre></div><div class="error-message">No error — just the wrong answer.</div><div class="correct-code"><pre><code class="language-python">SELECT dept, salary FROM (
+-- Bug: ranking is global. rnk=2 gives the single second-highest salary across ALL departments.</code></pre></div><div class="error-message">No error, just the wrong answer.</div><div class="correct-code"><pre><code class="language-python">SELECT dept, salary FROM (
     SELECT dept, salary, DENSE_RANK() OVER (
         PARTITION BY dept ORDER BY salary DESC
     ) AS rnk
@@ -674,7 +674,7 @@ FROM orders
 WHERE YEAR(order_date) = 2024
 GROUP BY customer_id
 HAVING COUNT(MONTH(order_date)) = 12;
--- Bug: a customer with 12 orders in January alone passes the test.</code></pre></div><div class="error-message">No error — wrong answer.</div><div class="correct-code"><pre><code class="language-python">SELECT customer_id
+-- Bug: a customer with 12 orders in January alone passes the test.</code></pre></div><div class="error-message">No error, wrong answer.</div><div class="correct-code"><pre><code class="language-python">SELECT customer_id
 FROM orders
 WHERE YEAR(order_date) = 2024
 GROUP BY customer_id
@@ -684,7 +684,7 @@ HAVING COUNT(DISTINCT MONTH(order_date)) = 12;</code></pre></div><div class="mis
 
             <section id="summary" class="content-section">
                 <h2>Summary</h2>
-                <div class="summary-box"><ul><li>DENSE_RANK is the safe default for &#39;Nth highest&#39; — it handles ties correctly. Use LIMIT/OFFSET only when you explicitly do not care about ties.</li>
+                <div class="summary-box"><ul><li>DENSE_RANK is the safe default for &#39;Nth highest&#39;. It handles ties correctly. Use LIMIT/OFFSET only when you explicitly do not care about ties.</li>
 <li>GROUP BY + HAVING COUNT(*) &gt; 1 finds duplicates. To delete duplicates keeping one, JOIN to a subquery that picks the surviving id (MIN or via ROW_NUMBER) and delete the rest.</li>
 <li>Self-joins handle &#39;employees vs manager&#39;, &#39;user vs follower&#39;, &#39;pair of items in same group&#39;. Alias the same table twice and JOIN on the relationship column.</li>
 <li>PARTITION BY is what turns global window functions into per-group window functions. &#39;Top N per group&#39;, &#39;second highest per dept&#39;, &#39;rank within region&#39; all use PARTITION BY.</li>
@@ -692,7 +692,7 @@ HAVING COUNT(DISTINCT MONTH(order_date)) = 12;</code></pre></div><div class="mis
 <li>Consecutive-days problems reduce to the &#39;group by date minus row number&#39; trick: consecutive dates share the same offset, so you can COUNT per island.</li>
 <li>MySQL has no PIVOT keyword. Conditional aggregation with SUM(CASE WHEN x THEN y ELSE 0 END) is the universal replacement. Works for any cross-tab shape.</li>
 <li>Median without a median function: ROW_NUMBER the sorted values, pick the middle (odd count) or two middle (even count) rows, AVG the result. The formula FLOOR((n+1)/2) and CEIL((n+1)/2) handles both.</li>
-<li>NOT IN misbehaves in the presence of NULLs in the subquery. Prefer NOT EXISTS for &#39;missing in the other table&#39; questions — it is both correct and usually faster.</li>
+<li>NOT IN misbehaves in the presence of NULLs in the subquery. Prefer NOT EXISTS for &#39;missing in the other table&#39; questions. It is both correct and usually faster.</li>
 <li>Practise each of these 30 questions until you can produce the query without looking. Interviewers can distinguish rehearsed solutions from scrambled ones in the first 30 seconds.</li></ul></div>
             </section>
 

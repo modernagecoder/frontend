@@ -1,5 +1,5 @@
 ---
-title: "Coding for Class 3 — Scratch, Block Coding & First Python for 8 Year Olds | Modern Age Coders"
+title: "Coding for Class 3: Scratch, Block Coding & First Python for 8 Year Olds | Modern Age Coders"
 description: "Live online coding classes for Class 3 students. Scratch games, block coding, a gentle first taste of Python and AI tools matched to Class 3 ICT syllabus. 1 hour classes."
 canonical: https://learn.modernagecoders.com/coding-for-class-3
 source: src/pages/coding-for-class-3.html
@@ -8,17 +8,17 @@ source: src/pages/coding-for-class-3.html
 
 For parents of Class 3 students · Age 8
 
-# Coding for Class 3 — the year logic becomes a game.
+# Coding for Class 3: the year logic becomes a game.
 
-Class 3 students can follow a two or three-step plan, type short words on a keyboard, and love showing finished work to parents. Our 1 hour live classes use that sweet spot — Scratch games, block coding, a tiny taste of Python, an AI taster.
+Class 3 students can follow a two or three-step plan, type short words on a keyboard, and love showing finished work to parents. Our 1 hour live classes use that sweet spot: Scratch games, block coding, a tiny taste of Python, an AI taster.
 
 [Book a free demo class](/book-demo)See the curriculum**3,400+**Class 3 students taught**4.9 / 5**Parent rating · 380+ reviews**1 hour**Live class, 1:1 or small group**6 weeks**To their first finished Scratch game3Class · GradeScratch gamesBlock codingFirst Python tasteCourses matched for this level
 
 ## Courses that fit Class 3 energy and Class 3 brains.
 
-At Class 3, the right course keeps hands busy and minds curious. These are our top picks — all live, 1 hour, with a real teacher watching every block.
+At Class 3, the right course keeps hands busy and minds curious. These are our top picks, all live, 1 hour, with a real teacher watching every block.
 
-[Block ![Scratch programming for school kids](/images/scratch-kids.webp)   Scratch Programming The visual block coding foundation — animations, characters, games. ScratchBeginner View course →](/courses/scratch-programming-complete-course)[Block ![Kids block coding masterclass](/images/kids-coding.webp)   Kids Coding Adventure Playful intro to logic, sequence and events using friendly blocks. BlockLogic View course →](/courses/kids-coding-blocks-masterclass)[Game Dev ![Game development for kids](/images/game-dev-kids.webp)   Game Development Characters, score, levels — finished playable games. GamesProjects View course →](/courses/game-development-masterclass-for-kids)[Python ![Python for school kids](/images/python-kids.webp)   Python for Kids Turtle graphics, mini games, maths quizzes — a gentle first taste of real Python that still feels like play. PythonBeginner View course →](/courses/python-ai-kids-masterclass)[AI ![Computational thinking and AI for kids](/images/ct-ai-kids.webp)   Computational Thinking & AI Teachable Machine, classifiers, simple chatbots — hands-on AI at the right depth. AINo-code View course →](/courses/cbse-computational-thinking-and-ai-course-for-kids-classes-3-to-8)[Web ![HTML and CSS for kids](/images/html-css-kids.webp)   Build Your First Website HTML and CSS basics — a personal page your child actually hosts online. HTMLCSS View course →](/courses/kids-ai-web-development-course)[Creative ![Creative coding and animation](/images/creative-coding-kids.webp)   Creative Coding & Animation Code that produces art — spirals, patterns, moving stories. CreativePython View course →](/courses/creative-coding-animation-mastery)[Logic ![Problem solving for kids](/images/problem-solving-kids.webp)   Problem Solving & Logic Puzzle-driven computational thinking and pattern spotting. Logic View course →](/courses/problem-solving-and-computational-thinking-for-kids)
+[Block ![Scratch programming for school kids](/images/scratch-kids.webp)   Scratch Programming The visual block coding foundation, animations, characters, games. ScratchBeginner View course →](/courses/scratch-programming-complete-course)[Block ![Kids block coding masterclass](/images/kids-coding.webp)   Kids Coding Adventure Playful intro to logic, sequence and events using friendly blocks. BlockLogic View course →](/courses/kids-coding-blocks-masterclass)[Game Dev ![Game development for kids](/images/game-dev-kids.webp)   Game Development Characters, score, levels, finished playable games. GamesProjects View course →](/courses/game-development-masterclass-for-kids)[Python ![Python for school kids](/images/python-kids.webp)   Python for Kids Turtle graphics, mini games, maths quizzes, a gentle first taste of real Python that still feels like play. PythonBeginner View course →](/courses/python-ai-kids-masterclass)[AI ![Computational thinking and AI for kids](/images/ct-ai-kids.webp)   Computational Thinking & AI Teachable Machine, classifiers, simple chatbots, hands-on AI at the right depth. AINo-code View course →](/courses/cbse-computational-thinking-and-ai-course-for-kids-classes-3-to-8)[Web ![HTML and CSS for kids](/images/html-css-kids.webp)   Build Your First Website HTML and CSS basics, a personal page your child actually hosts online. HTMLCSS View course →](/courses/kids-ai-web-development-course)[Creative ![Creative coding and animation](/images/creative-coding-kids.webp)   Creative Coding & Animation Code that produces art, spirals, patterns, moving stories. CreativePython View course →](/courses/creative-coding-animation-mastery)[Logic ![Problem solving for kids](/images/problem-solving-kids.webp)   Problem Solving & Logic Puzzle-driven computational thinking and pattern spotting. Logic View course →](/courses/problem-solving-and-computational-thinking-for-kids)
 
 ### Already comfortable with Scratch Jr or early blocks?
 
@@ -32,13 +32,13 @@ Why this level, specifically
 
 ## Class 3 is the perfect first coding year.
 
-Old enough to read and start typing, young enough to be free of exam pressure. The CBSE and ICSE Class 3 computer books introduce blocks and Scratch gently — we take that starter and turn it into real, finished projects.
+Old enough to read and start typing, young enough to be free of exam pressure. The CBSE and ICSE Class 3 computer books introduce blocks and Scratch gently. We take that starter and turn it into real, finished projects.
 
 01 / Syllabus
 
 ### CBSE/ICSE Class 3 Computer covers blocks & Scratch
 
-Most Class 3 computer textbooks have an early blocks and Scratch chapter. Our curriculum covers everything in that chapter and goes three levels deeper — so school tests feel trivial.
+Most Class 3 computer textbooks have an early blocks and Scratch chapter. Our curriculum covers everything in that chapter and goes three levels deeper, so school tests feel trivial.
 
 02 / Typing
 
@@ -56,7 +56,7 @@ Projects, not lectures
 
 ## Six projects your Class 3 student actually finishes.
 
-The same six projects every Class 3 student of ours ships. Not ideas, not demos — finished, saved, shown-to-family work.
+The same six projects every Class 3 student of ours ships. Not ideas, not demos, finished, saved, shown-to-family work.
 
 Game
 
@@ -68,7 +68,7 @@ keyscollisionsGame
 
 ### Apple Catcher
 
-Score counter, lives, levels — classic arcade pattern.
+Score counter, lives, levels, classic arcade pattern.
 
 scoreloopsPython
 
@@ -86,7 +86,7 @@ AImodelWeb
 
 ### Favourite Things Page
 
-A small HTML page about themselves — hosted online, shareable.
+A small HTML page about themselves, hosted online, shareable.
 
 htmllinksCreate
 
@@ -98,13 +98,13 @@ animationsoundThe curriculum path
 
 ## Four stages across a school year.
 
-We align to the school calendar — lighter around mid-terms, steady otherwise. This is what most Class 3 students walk through.
+We align to the school calendar, lighter around mid-terms, steady otherwise. This is what most Class 3 students walk through.
 
 Term 1 · Warm-up
 
 ### Scratch comfort
 
-Sprites, events, motion — short silly projects. The goal is "I enjoy coding class" more than any specific skill.
+Sprites, events, motion, short silly projects. The goal is "I enjoy coding class" more than any specific skill.
 
 - sprites
 - events
@@ -124,7 +124,7 @@ Term 2 · Python taster
 
 ### One or two-line programs
 
-Python appears gently with jokes and dice rollers. Blocks stay the main tool — typing is the new bonus skill.
+Python appears gently with jokes and dice rollers. Blocks stay the main tool, typing is the new bonus skill.
 
 - print
 - input
@@ -150,12 +150,12 @@ Option A
 
 ### Live 1-on-1 Online Class
 
-One teacher, one learner, the full 1 hour. The teacher adapts pace in real time — slowing down on tricky concepts, speeding up where your child is already fluent. Best for focused learners, specific exam prep, or fastest progress.
+One teacher, one learner, the full 1 hour. The teacher adapts pace in real time, slowing down on tricky concepts, speeding up where your child is already fluent. Best for focused learners, specific exam prep, or fastest progress.
 
 - 1 teacher, 1 student, 1 hour per session
 - Pace fully adjusted to your child
 - Focused help on school projects and exams
-- Flexible timing — you pick the slots
+- Flexible timing. You pick the slots
 - Every class recorded and shared with parents
 
 **₹4,999**/ month · 4 sessionsOption B
@@ -166,13 +166,13 @@ One teacher, one learner, the full 1 hour. The teacher adapts pace in real time 
 
 - Small groups of 4 to 6 similar-level learners
 - 1 hour live session, 2 sessions per week
-- Peer project reviews — students present to each other
+- Peer project reviews, students present to each other
 - Fixed schedule, same classmates each week
 - Class recording and parent progress report
 
 **₹1,499**/ month · 8 sessionsLevel comparison
 
-## Class 2 vs 3 vs 4 — what actually changes.
+## Class 2 vs 3 vs 4: what actually changes.
 
 If your child is on a boundary, here is the plain difference. Each row is a real classroom shift.
 
@@ -203,11 +203,11 @@ I am truly grateful for my experience at Modern Age Coders. My teachers were not
 
 KKrishnam BhatterFormer studentCommon questions from parents
 
-## Before you book the demo — answered honestly.
+## Before you book the demo: answered honestly.
 
 Short, plain answers. If your question isn't here, tap the callback button at the top and a human will get back to you the same day.
 
-Is Class 3 too early for coding?Not at all. Class 3 students can read short sentences, follow instructions and love making things. That's exactly what Scratch asks for. A first gentle taste of Python comes later in the year.Do you cover what the school computer book teaches?Yes and more. The Class 3 school book is typically an intro to Scratch and block coding — we cover that deeply and add real projects school doesn't have time for.How often per week?Two 1-hour sessions a week is standard. You can choose weekends if weekdays are tight with school.1-on-1 or small group for Class 3?Small group works for most. 1-on-1 is better for very shy or very advanced learners. The free demo helps you decide.What equipment is needed?Any laptop or desktop from the last 5 years. Stable internet, headphones, webcam. Tablets do not work well for coding — a real keyboard matters.Is this fun or like school?Fun. Most Class 3 students describe it as their favourite class. The projects always end with something they can show off.Will this help with Class 4 school computer subject?Strongly. By the end of Class 3 with us, most students are ahead of Class 5 school computer syllabus.Is there a free demo?Yes. One full 1 hour live class with a real teacher. No card. Refund on unused portion within 2 weeks if needed.Book a free 1 hour demo class
+Is Class 3 too early for coding?Not at all. Class 3 students can read short sentences, follow instructions and love making things. That's exactly what Scratch asks for. A first gentle taste of Python comes later in the year.Do you cover what the school computer book teaches?Yes and more. The Class 3 school book is typically an intro to Scratch and block coding. We cover that deeply and add real projects school doesn't have time for.How often per week?Two 1-hour sessions a week is standard. You can choose weekends if weekdays are tight with school.1-on-1 or small group for Class 3?Small group works for most. 1-on-1 is better for very shy or very advanced learners. The free demo helps you decide.What equipment is needed?Any laptop or desktop from the last 5 years. Stable internet, headphones, webcam. Tablets do not work well for coding, a real keyboard matters.Is this fun or like school?Fun. Most Class 3 students describe it as their favourite class. The projects always end with something they can show off.Will this help with Class 4 school computer subject?Strongly. By the end of Class 3 with us, most students are ahead of Class 5 school computer syllabus.Is there a free demo?Yes. One full 1 hour live class with a real teacher. No card. Refund on unused portion within 2 weeks if needed.Book a free 1 hour demo class
 
 ### Try one session. Decide after.
 

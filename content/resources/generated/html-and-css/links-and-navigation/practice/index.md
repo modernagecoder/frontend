@@ -57,7 +57,7 @@ The `href` attribute is missing. Without it, the `` tag is just styled text that
 
 **Answer:** An internal link to a file called 'about.html' in the same folder as the current page.
 
-Because `about.html` does not start with `https://`, it is a relative path — an internal link pointing to a file in the same folder.
+Because `about.html` does not start with `https://`, it is a relative path, an internal link pointing to a file in the same folder.
 
 ### Q5. [Easy] Write an HTML link to send an email to 'ananya@example.com'.
 
@@ -171,7 +171,7 @@ Anchor navigation needs two parts: (1) a link with `href="#id"`, and (2) a targe
 
 When you open a link in a new tab with `target="_blank"`, always add `rel="noopener noreferrer"` to prevent the new tab from accessing your page and to improve privacy.
 
-### Q15. [Medium] Write a navigation menu inside a  element with four links: Home, About, Projects, Contact — each pointing to the respective HTML file.
+### Q15. [Medium] Write a navigation menu inside a  element with four links: Home, About, Projects, Contact: each pointing to the respective HTML file.
 
 *Hint:* Wrap the links in  tags.
 
@@ -240,7 +240,7 @@ You can give the `download` attribute a value to rename the file when saving. Th
 
 You can add query parameters to mailto links: `?subject=...` for the subject, `&body=...` for the body. Spaces must be encoded as `%20`.
 
-### Q21. [Hard] Fix this complete page — multiple things are wrong:
+### Q21. [Hard] Fix this complete page: multiple things are wrong:
 
 ```
 
@@ -395,7 +395,7 @@ To link to a file in a subfolder, use the folder name followed by a slash and th
 
 **Answer:** Clicking the link scrolls the page to the very top. It is commonly used for 'Back to Top' buttons.
 
-`href="#"` is a special case — it scrolls to the top of the page. Great for 'Back to Top' links, but use it sparingly.
+`href="#"` is a special case. It scrolls to the top of the page. Great for 'Back to Top' links, but use it sparingly.
 
 ### Q7. [Medium] Write a navigation menu with 3 links: 'Home' (to index.html), 'About' (in a pages folder, about.html), and 'Parent' (up one folder to main.html).
 
@@ -419,7 +419,7 @@ This menu shows three relative path styles: same folder, subfolder, and parent f
 
 *Hint:* Anchor links and target="_blank" do not mix well.
 
-**Answer:** Remove `target="_blank"` — it opens a new blank tab instead of scrolling to the section. Or, if you really want a new tab, it is better to use a new page for that section.
+**Answer:** Remove `target="_blank"`. It opens a new blank tab instead of scrolling to the section. Or, if you really want a new tab, it is better to use a new page for that section.
 
 Anchor links (those starting with #) are meant to scroll the current page. Combining with `target="_blank"` opens a new tab to the same page, which is confusing for users.
 
@@ -465,7 +465,7 @@ There should be no space between `#` and the id. `# faq` has a space which makes
 
 *Hint:* The leading slash matters.
 
-**Answer:** `page.html` is relative to the current folder. `/page.html` is absolute from the site root — it always goes to yoursite.com/page.html regardless of where the current page is.
+**Answer:** `page.html` is relative to the current folder. `/page.html` is absolute from the site root. It always goes to yoursite.com/page.html regardless of where the current page is.
 
 A leading slash makes a path absolute from the website root. Without it, the path is relative to the current file's folder. This is an important distinction when your site has multiple folders.
 

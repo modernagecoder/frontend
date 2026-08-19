@@ -169,7 +169,7 @@ Rules of method overriding:
 
 5. `static`, `final`, and `private` methods cannot be overridden.
 
-6. The `@Override` annotation is optional but strongly recommended — it catches typos at compile time.
+6. The `@Override` annotation is optional but strongly recommended. It catches typos at compile time.
 
 ```
 class Shape {
@@ -262,7 +262,7 @@ class Animal {
 }
 class Dog extends Animal {
     @Override
-    Dog create() {         // Returns Dog instead of Animal — valid!
+    Dog create() {         // Returns Dog instead of Animal, valid!
         return new Dog();
     }
 }
@@ -278,7 +278,7 @@ The chain goes from the most specific class up to Object: Object constructor -> 
 
 ## Code Examples
 
-### Basic Inheritance — extends and Inheriting Members
+### Basic Inheritance: extends and Inheriting Members
 
 ```java
 class Animal {
@@ -393,7 +393,7 @@ public class Main {
 }
 ```
 
-Both Circle and Rectangle override the `area()` method from Shape. When `display()` calls `area()`, the overridden version runs based on the actual object type — Circle's area for s1 and Rectangle's area for s2. This is runtime polymorphism. The `@Override` annotation ensures the compiler verifies the method signature matches the superclass.
+Both Circle and Rectangle override the `area()` method from Shape. When `display()` calls `area()`, the overridden version runs based on the actual object type: Circle's area for s1 and Rectangle's area for s2. This is runtime polymorphism. The `@Override` annotation ensures the compiler verifies the method signature matches the superclass.
 
 **Output:**
 
@@ -402,7 +402,7 @@ Red shape, area = 78.54
 Blue shape, area = 24.00
 ```
 
-### The super Keyword — Variable, Method, and Constructor
+### The super Keyword: Variable, Method, and Constructor
 
 ```java
 class Employee {
@@ -427,13 +427,13 @@ class Manager extends Employee {
     double bonus;
 
     Manager(String name, double baseSalary, double bonus) {
-        super(name, baseSalary);     // super() — calls Employee constructor
+        super(name, baseSalary);     // super(), calls Employee constructor
         this.bonus = bonus;
     }
 
     @Override
     double calculatePay() {
-        return super.calculatePay() + bonus; // super.method() — calls Employee's version
+        return super.calculatePay() + bonus; // super.method(), calls Employee's version
     }
 
     @Override
@@ -460,7 +460,7 @@ Kavitha | Base: 80000.0 | Bonus: 15000.0 | Total: 95000.0
 Pay: 95000.0
 ```
 
-### The final Keyword — Class, Method, and Variable
+### The final Keyword: Class, Method, and Variable
 
 ```java
 class Animal {
@@ -482,7 +482,7 @@ class Dog extends Animal {
     }
 }
 
-// final class — cannot be extended
+// final class, cannot be extended
 final class Utility {
     static int add(int a, int b) { return a + b; }
 }
@@ -499,7 +499,7 @@ public class Main {
         System.out.println("MAX: " + MAX);
         // MAX = 200; // ERROR: cannot assign to final variable
 
-        // final reference — object content can change, reference cannot
+        // final reference, object content can change, reference cannot
         final StringBuilder sb = new StringBuilder("Hello");
         sb.append(" World");
         System.out.println(sb);
@@ -519,7 +519,7 @@ MAX: 100
 Hello World
 ```
 
-### The Object Class — toString, equals, hashCode
+### The Object Class: toString, equals, hashCode
 
 ```java
 class Student {
@@ -596,7 +596,7 @@ class Cat extends Animal {
 
 public class Main {
     static void handleAnimal(Animal a) {
-        a.eat(); // Always safe — eat() is in Animal
+        a.eat(); // Always safe, eat() is in Animal
 
         if (a instanceof Dog) {
             Dog d = (Dog) a;     // Safe downcast
@@ -782,7 +782,7 @@ class Animal {
 
 class Dog extends Animal {
     Dog() {
-        // Java inserts super() here — but Animal has no no-arg constructor!
+        // Java inserts super() here, but Animal has no no-arg constructor!
     }
 }
 ```
@@ -933,7 +933,7 @@ a.makeSound();            // Calls Animal's version (not overridden!)
 // a.makeSound("Woof");  // ERROR: Animal does not have makeSound(String)
 ```
 
-No compilation error, but the behavior is unexpected. Animal's makeSound() is not overridden — Dog has a different method with the same name but different parameters.
+No compilation error, but the behavior is unexpected. Animal's makeSound() is not overridden: Dog has a different method with the same name but different parameters.
 
 **Correct:**
 
@@ -954,8 +954,8 @@ Overriding requires the exact same method name AND parameter list. If the parame
 ## Summary
 
 - Inheritance allows a subclass to acquire fields and methods from a superclass using the extends keyword, establishing an IS-A relationship.
-- Java supports single, multilevel, and hierarchical inheritance. Multiple inheritance with classes is NOT supported — use interfaces instead.
-- The super keyword has three uses: super.variable (access hidden superclass field), super.method() (call overridden superclass method), and super() (call superclass constructor — must be the first statement).
+- Java supports single, multilevel, and hierarchical inheritance. Multiple inheritance with classes is NOT supported. Use interfaces instead.
+- The super keyword has three uses: super.variable (access hidden superclass field), super.method() (call overridden superclass method), and super() (call superclass constructor, must be the first statement).
 - Method overriding provides a specialized implementation in the subclass with the same name and parameters as the superclass method. Use @Override annotation to let the compiler verify correctness.
 - Overriding rules: same name and parameters, same or covariant return type, access cannot be more restrictive, cannot override static/final/private methods.
 - The final keyword prevents modification: final class cannot be extended, final method cannot be overridden, final variable cannot be reassigned.

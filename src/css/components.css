@@ -1,5 +1,5 @@
 /**
- * components.css — Unified component library
+ * components.css: Unified component library
  * Phase 1 CSS Architecture Overhaul
  *
  * All components use a "c-" prefix to avoid conflicts with existing CSS.
@@ -40,7 +40,7 @@
         overflow: hidden;
     }
 
-    /* Shimmer overlay on hover — premium feel */
+    /* Shimmer overlay on hover, premium feel */
     .c-btn::before {
         content: '';
         position: absolute;
@@ -157,7 +157,7 @@
         width: 100%;
     }
 
-    /* Touch devices — no hover lift, use active scale */
+    /* Touch devices, no hover lift, use active scale */
     @media (hover: none) and (pointer: coarse) {
         .c-btn:hover {
             transform: none;
@@ -170,7 +170,7 @@
     }
 
     /* ============================================================
-       CARDS — Single unified system, replaces 6 competing files
+       CARDS: Single unified system, replaces 6 competing files
        ============================================================ */
     .c-card {
         position: relative;
@@ -190,7 +190,7 @@
             background var(--duration-normal) var(--ease-out);
     }
 
-    /* Top accent line — invisible at rest, glows on hover */
+    /* Top accent line, invisible at rest, glows on hover */
     .c-card::before {
         content: '';
         position: absolute;
@@ -220,7 +220,7 @@
         opacity: 1;
     }
 
-    /* --- Card image — responsive aspect ratio, zoom on hover --- */
+    /* --- Card image, responsive aspect ratio, zoom on hover --- */
     .c-card__image {
         position: relative;
         aspect-ratio: 16 / 10;
@@ -460,7 +460,7 @@
         font-weight: var(--weight-regular);
     }
 
-    /* Touch devices — softer hover */
+    /* Touch devices, softer hover */
     @media (hover: none) and (pointer: coarse) {
         .c-card:hover {
             transform: none;
@@ -594,7 +594,7 @@
     }
 
     /* ============================================================
-       BADGES — small status indicators
+       BADGES, small status indicators
        ============================================================ */
     .c-badge {
         display: inline-flex;
@@ -622,7 +622,7 @@
     }
 
     /* ============================================================
-       SECTION TITLE — gradient text
+       SECTION TITLE, gradient text
        ============================================================ */
     .c-section-title {
         font-family: var(--font-display);
@@ -660,7 +660,7 @@
     }
 
     /* ============================================================
-       MODAL — accessible dialog
+       MODAL, accessible dialog
        ============================================================ */
     .c-modal-backdrop {
         position: fixed;
@@ -720,7 +720,7 @@
     }
 
     /* ============================================================
-       STAT — number + label pattern
+       STAT, number + label pattern
        ============================================================ */
     .c-stat {
         display: flex;

@@ -114,7 +114,7 @@ Skew tilts the element's sides. skewX shears horizontally, skewY vertically. Use
 
 *Hint:* Think about the browser rendering pipeline.
 
-**Answer:** Changing top/left triggers LAYOUT recalculation every frame (the browser has to recompute positions of surrounding elements). Transform runs on the GPU and only requires a COMPOSITE step — much faster.
+**Answer:** Changing top/left triggers LAYOUT recalculation every frame (the browser has to recompute positions of surrounding elements). Transform runs on the GPU and only requires a COMPOSITE step, much faster.
 
 Modern browsers have a rendering pipeline: layout, paint, composite. Transform skips layout and paint, going straight to composite on the GPU. This is why transforms feel smooth even on complex pages.
 
@@ -130,7 +130,7 @@ Perspective distance is how far the viewer is from the scene. Closer means steep
 
 *Hint:* Both rotate around the Z axis.
 
-**Answer:** They are IDENTICAL. `rotate()` is shorthand for `rotateZ()` — rotation around the Z axis (which appears as flat 2D rotation from the viewer's perspective).
+**Answer:** They are IDENTICAL. `rotate()` is shorthand for `rotateZ()`, rotation around the Z axis (which appears as flat 2D rotation from the viewer's perspective).
 
 In 3D space, 2D rotation is actually rotation around the Z axis (the axis pointing toward the viewer). rotate() and rotateZ() do the same thing.
 
@@ -138,7 +138,7 @@ In 3D space, 2D rotation is actually rotation around the Z axis (the axis pointi
 
 *Hint:* Interpolation requires numeric values.
 
-**Answer:** Transform values are numeric (pixels, degrees, scale factors) and can be smoothly interpolated. Background-image URLs are discrete strings — the browser cannot blend two image files together.
+**Answer:** Transform values are numeric (pixels, degrees, scale factors) and can be smoothly interpolated. Background-image URLs are discrete strings, the browser cannot blend two image files together.
 
 For image cross-fades, stack two images with absolute positioning and animate their opacity instead of trying to transition the image URL.
 
@@ -166,7 +166,7 @@ Most common is deg. `1turn` equals 360deg. Example: `rotate(1turn)` is one full 
 
 **Answer:** Transforms are visual-only operations. They do not change the element's original box in the document flow. Surrounding elements lay out as if the transform did not happen.
 
-This is a feature — you can move and rotate elements freely without breaking the layout. Contrast with changing margin or position, which DO shift other elements.
+This is a feature. You can move and rotate elements freely without breaking the layout. Contrast with changing margin or position, which DO shift other elements.
 
 ### Q4. [Medium] What does this do?
 
@@ -265,7 +265,7 @@ This works for any size element and is the most reliable pure-CSS centering meth
 
 ### Q15. [Easy] Can you animate CSS transforms?
 
-*Hint:* Yes — that is their main purpose.
+*Hint:* Yes. That is their main purpose.
 
 **Answer:** Yes. Transforms are fully animatable with both transitions and @keyframes, and they are the most performant things you can animate in CSS.
 
@@ -300,7 +300,7 @@ rotateY rotates around the vertical axis. A full 360 rotation returns the elemen
 
 ### Q18. [Hard] Can you combine 2D and 3D transforms in one declaration?
 
-*Hint:* Yes — and it is common.
+*Hint:* Yes, and it is common.
 
 **Answer:** Yes. Example: `transform: rotateY(45deg) scale(1.1) translateZ(30px)`. Mixing 2D and 3D functions is allowed and commonly used for interactive effects.
 

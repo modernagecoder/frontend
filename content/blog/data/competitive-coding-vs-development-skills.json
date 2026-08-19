@@ -54,13 +54,13 @@
       },
       {
         "type": "paragraph",
-        "text": "Both have valid points. Both are partially wrong. And here's the thing—this debate has real consequences for your career. According to a 2024 Stack Overflow survey, 67% of developers wish they had balanced their learning differently in college. Let's cut through the tribalism and figure out what actually matters for your career—backed by real data, expert opinions, and career outcome statistics."
+        "text": "Both have valid points. Both are partially wrong. And here's the thing. This debate has real consequences for your career. According to a 2024 Stack Overflow survey, 67% of developers wish they had balanced their learning differently in college. Let's cut through the tribalism and figure out what actually matters for your career, backed by real data, expert opinions, and career outcome statistics."
       },
       {
         "type": "callout",
         "calloutType": "info",
         "title": "The Numbers Don't Lie",
-        "text": "According to LinkedIn's 2024 Jobs Report, 78% of software engineering job postings mention DSA/algorithm skills, while 82% require practical development experience. The most successful candidates? Those who demonstrate both—they receive 2.3x more interview callbacks than single-skill candidates."
+        "text": "According to LinkedIn's 2024 Jobs Report, 78% of software engineering job postings mention DSA/algorithm skills, while 82% require practical development experience. The most successful candidates? Those who demonstrate both. They receive 2.3x more interview callbacks than single-skill candidates."
       },
       {
         "type": "heading",
@@ -136,7 +136,7 @@
         "type": "callout",
         "calloutType": "tip",
         "title": "Key Insight",
-        "text": "Notice that daily job relevance heavily favors development skills (80-90%), yet interview processes at top companies weight competitive programming skills (70-80%). This mismatch is why the debate exists—and why you need a strategic approach to both."
+        "text": "Notice that daily job relevance heavily favors development skills (80-90%), yet interview processes at top companies weight competitive programming skills (70-80%). This mismatch is why the debate exists, and why you need a strategic approach to both."
       },
       {
         "type": "heading",
@@ -235,7 +235,7 @@
         "type": "callout",
         "calloutType": "warning",
         "title": "The Skills Gap Reality",
-        "text": "A 2024 survey of 500 hiring managers revealed that 62% of candidates with strong CP backgrounds struggled with code reviews and documentation in their first 6 months. Conversely, 58% of project-focused candidates needed additional DSA training to pass internal assessments. Both gaps are addressable—but only if you're aware of them."
+        "text": "A 2024 survey of 500 hiring managers revealed that 62% of candidates with strong CP backgrounds struggled with code reviews and documentation in their first 6 months. Conversely, 58% of project-focused candidates needed additional DSA training to pass internal assessments. Both gaps are addressable, but only if you're aware of them."
       },
       {
         "type": "heading",
@@ -254,7 +254,7 @@
       },
       {
         "type": "paragraph",
-        "text": "Competitive programming focuses on solving algorithmic problems under time constraints. It's essentially a sport—you're competing against others to solve problems faster and more efficiently. The skills you develop are foundational to computer science but abstract from real-world application development."
+        "text": "Competitive programming focuses on solving algorithmic problems under time constraints. It's essentially a sport. You're competing against others to solve problems faster and more efficiently. The skills you develop are foundational to computer science but abstract from real-world application development."
       },
       {
         "type": "list",
@@ -402,7 +402,7 @@
         "type": "callout",
         "calloutType": "success",
         "title": "The Salary Sweet Spot",
-        "text": "Students with balanced skills earn 25-40% more than single-skill focused peers at the entry level. This gap widens over time—by year 5, balanced-skill engineers earn 30-50% more on average."
+        "text": "Students with balanced skills earn 25-40% more than single-skill focused peers at the entry level. This gap widens over time, by year 5, balanced-skill engineers earn 30-50% more on average."
       },
       {
         "type": "heading",
@@ -490,7 +490,7 @@
       },
       {
         "type": "quote",
-        "text": "I've interviewed over 500 candidates at Google. The ones who succeed aren't just LeetCode machines—they can explain their thought process, discuss trade-offs, and connect algorithmic concepts to real systems. Pure CP skills without practical context often fall flat in system design rounds.",
+        "text": "I've interviewed over 500 candidates at Google. The ones who succeed aren't just LeetCode machines. They can explain their thought process, discuss trade-offs, and connect algorithmic concepts to real systems. Pure CP skills without practical context often fall flat in system design rounds.",
         "author": "Senior Engineering Manager, Google (10+ years)"
       },
       {
@@ -532,7 +532,7 @@
       },
       {
         "type": "paragraph",
-        "text": "Let's be fair to competitive programming—it has real, tangible benefits that shouldn't be dismissed:"
+        "text": "Let's be fair to competitive programming. It has real, tangible benefits that shouldn't be dismissed:"
       },
       {
         "type": "heading",
@@ -545,7 +545,7 @@
       },
       {
         "type": "paragraph",
-        "text": "If you can't solve medium-difficulty LeetCode problems consistently, you won't pass these interviews—regardless of how many impressive projects you've built. This is the reality of the current hiring landscape, whether we like it or not."
+        "text": "If you can't solve medium-difficulty LeetCode problems consistently, you won't pass these interviews, regardless of how many impressive projects you've built. This is the reality of the current hiring landscape, whether we like it or not."
       },
       {
         "type": "heading",
@@ -609,7 +609,7 @@
       },
       {
         "type": "paragraph",
-        "text": "Projects demonstrate that you can build things—not just solve puzzles. A GitHub portfolio with real, deployed applications speaks louder than a LeetCode rating for many employers, especially startups. 68% of startup CTOs say they weight portfolio projects more heavily than algorithm test scores."
+        "text": "Projects demonstrate that you can build things, not just solve puzzles. A GitHub portfolio with real, deployed applications speaks louder than a LeetCode rating for many employers, especially startups. 68% of startup CTOs say they weight portfolio projects more heavily than algorithm test scores."
       },
       {
         "type": "heading",
@@ -759,7 +759,7 @@
       },
       {
         "type": "paragraph",
-        "text": "You need strong DSA skills to pass interviews—there's no way around this. But you also need system design knowledge and the ability to discuss real projects meaningfully. The interview process tests both, and candidates who only prepare for one consistently underperform."
+        "text": "You need strong DSA skills to pass interviews. There's no way around this. But you also need system design knowledge and the ability to discuss real projects meaningfully. The interview process tests both, and candidates who only prepare for one consistently underperform."
       },
       {
         "type": "heading",
@@ -768,7 +768,7 @@
       },
       {
         "type": "paragraph",
-        "text": "Development skills often matter more—startups need people who can ship products quickly. But DSA knowledge helps you write efficient code, pass technical screens (yes, startups test DSA too), and solve complex problems when they arise."
+        "text": "Development skills often matter more, startups need people who can ship products quickly. But DSA knowledge helps you write efficient code, pass technical screens (yes, startups test DSA too), and solve complex problems when they arise."
       },
       {
         "type": "heading",
@@ -965,7 +965,7 @@
       },
       {
         "type": "paragraph",
-        "text": "DSA skills take time to develop—typically 6-12 months of consistent practice. Starting intensive prep 2 months before interviews often isn't enough. <strong>The fix:</strong> Start DSA practice in your first year of college. Even 30 minutes daily compounds significantly over 3-4 years."
+        "text": "DSA skills take time to develop, typically 6-12 months of consistent practice. Starting intensive prep 2 months before interviews often isn't enough. <strong>The fix:</strong> Start DSA practice in your first year of college. Even 30 minutes daily compounds significantly over 3-4 years."
       },
       {
         "type": "heading",
@@ -974,7 +974,7 @@
       },
       {
         "type": "paragraph",
-        "text": "For experienced roles (2+ years), system design matters as much as DSA. Many candidates ace coding rounds but fail system design. <strong>The fix:</strong> Start learning system design basics in year 3. Understand how real systems work—databases, caching, load balancing."
+        "text": "For experienced roles (2+ years), system design matters as much as DSA. Many candidates ace coding rounds but fail system design. <strong>The fix:</strong> Start learning system design basics in year 3. Understand how real systems work, databases, caching, load balancing."
       },
       {
         "type": "heading",
@@ -989,7 +989,7 @@
         "type": "callout",
         "calloutType": "warning",
         "title": "The Biggest Mistake of All",
-        "text": "The biggest mistake is analysis paralysis—spending so much time debating which path to take that you don't make progress on either. Start with DSA fundamentals, build small projects, and adjust your balance as you learn what works for you."
+        "text": "The biggest mistake is analysis paralysis, spending so much time debating which path to take that you don't make progress on either. Start with DSA fundamentals, build small projects, and adjust your balance as you learn what works for you."
       },
       {
         "type": "heading",
@@ -1052,7 +1052,7 @@
       },
       {
         "type": "paragraph",
-        "text": "Development skills often prioritized—they need people who can build the product. Can you ship features? Can you work independently? DSA matters less than practical ability and speed. Expect take-home projects or pair programming sessions."
+        "text": "Development skills often prioritized. They need people who can build the product. Can you ship features? Can you work independently? DSA matters less than practical ability and speed. Expect take-home projects or pair programming sessions."
       },
       {
         "type": "heading",
@@ -1076,7 +1076,7 @@
         "type": "callout",
         "calloutType": "success",
         "title": "Research Your Targets",
-        "text": "Different companies have different interview processes. Research your target companies on Glassdoor, LeetCode discuss, and Blind. Prepare accordingly. One size doesn't fit all—tailor your preparation to your goals."
+        "text": "Different companies have different interview processes. Research your target companies on Glassdoor, LeetCode discuss, and Blind. Prepare accordingly. One size doesn't fit all, tailor your preparation to your goals."
       },
       {
         "type": "heading",
@@ -1100,7 +1100,7 @@
         "type": "callout",
         "calloutType": "success",
         "title": "Ananya's Balanced Path",
-        "text": "<strong>Background:</strong> NIT graduate, no prior coding experience<br><strong>Approach:</strong> Strictly followed the balanced framework—DSA in mornings, projects in evenings.<br><strong>Result:</strong> Amazon SDE-1 offer. 'I wasn't the best at either, but being good at both made me stand out. My interviewer specifically mentioned my project experience during the offer call.'"
+        "text": "<strong>Background:</strong> NIT graduate, no prior coding experience<br><strong>Approach:</strong> Strictly followed the balanced framework: DSA in mornings, projects in evenings.<br><strong>Result:</strong> Amazon SDE-1 offer. 'I wasn't the best at either, but being good at both made me stand out. My interviewer specifically mentioned my project experience during the offer call.'"
       },
       {
         "type": "heading",
@@ -1113,7 +1113,7 @@
         "items": [
           {
             "title": "I hate competitive programming. Can I still get a good tech job?",
-            "content": "Yes, but you still need basic DSA skills for most interviews. You don't need to love CP or achieve high ratings—just develop enough proficiency to pass technical screens. Focus on the most common patterns (arrays, strings, trees, graphs, DP) and problem types."
+            "content": "Yes, but you still need basic DSA skills for most interviews. You don't need to love CP or achieve high ratings, just develop enough proficiency to pass technical screens. Focus on the most common patterns (arrays, strings, trees, graphs, DP) and problem types."
           },
           {
             "title": "How many LeetCode problems should I solve?",
@@ -1125,7 +1125,7 @@
           },
           {
             "title": "Should I participate in competitive programming contests?",
-            "content": "Contests are great for building speed and pressure tolerance, but they're not required. If you enjoy them, participate—they're excellent practice. If not, focused practice on interview-style problems is equally valid."
+            "content": "Contests are great for building speed and pressure tolerance, but they're not required. If you enjoy them, participate. They're excellent practice. If not, focused practice on interview-style problems is equally valid."
           },
           {
             "title": "When should I start preparing for interviews?",
@@ -1137,7 +1137,7 @@
           },
           {
             "title": "Is system design more important than DSA for experienced roles?",
-            "content": "For roles with 3+ years of experience, system design becomes equally or more important than DSA. However, you still need to pass coding rounds to get to system design interviews. The balance shifts—expect 40% DSA, 40% system design, 20% behavioral for senior roles."
+            "content": "For roles with 3+ years of experience, system design becomes equally or more important than DSA. However, you still need to pass coding rounds to get to system design interviews. The balance shifts, expect 40% DSA, 40% system design, 20% behavioral for senior roles."
           },
           {
             "title": "Can I skip DSA if I'm targeting startups only?",
@@ -1153,11 +1153,11 @@
           },
           {
             "title": "Do Codeforces ratings matter for jobs?",
-            "content": "For most jobs, no—companies care about interview performance, not ratings. However, high ratings (Expert+) can help at algorithm-focused companies like quant firms, and they're conversation starters in interviews. Don't grind for ratings; grind for understanding."
+            "content": "For most jobs, no, companies care about interview performance, not ratings. However, high ratings (Expert+) can help at algorithm-focused companies like quant firms, and they're conversation starters in interviews. Don't grind for ratings; grind for understanding."
           },
           {
             "title": "Should I do competitive programming contests or just practice problems?",
-            "content": "Both have value. Contests build speed and pressure tolerance—useful for timed interviews. Practice allows deeper learning and pattern recognition. A good balance: 1-2 contests per month for pressure practice, daily problem-solving for skill building."
+            "content": "Both have value. Contests build speed and pressure tolerance, useful for timed interviews. Practice allows deeper learning and pattern recognition. A good balance: 1-2 contests per month for pressure practice, daily problem-solving for skill building."
           },
           {
             "title": "What projects should I build to complement my DSA skills?",
@@ -1196,7 +1196,7 @@
       },
       {
         "type": "paragraph",
-        "text": "The best engineers aren't just algorithm wizards or project builders—they're both. They can whiteboard a complex algorithm AND architect a distributed system. They can pass FAANG interviews AND ship products at startups."
+        "text": "The best engineers aren't just algorithm wizards or project builders. They're both. They can whiteboard a complex algorithm AND architect a distributed system. They can pass FAANG interviews AND ship products at startups."
       },
       {
         "type": "paragraph",

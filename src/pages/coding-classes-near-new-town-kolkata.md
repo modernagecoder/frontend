@@ -10,17 +10,17 @@ Live online coding & maths · New Town · Rajarhat · Action Area
 
 # Premium Live Coding & Maths Classes near New Town, Kolkata
 
-Modern Age Coders runs premium live online coding and mathematics classes for New Town and Rajarhat families — taught in small batches by full-time engineers and maths graduates, never pre-recorded. Your child learns Python, Java, AI/ML and strong school maths from your own Action Area or Sapoorji flat, with zero crawl through Major Arterial Road evening traffic. Aligned to DPS Newtown's ICSE Java and the Action Area schools' CBSE Python tracks. Book a free demo.
+Modern Age Coders runs premium live online coding and mathematics classes for New Town and Rajarhat families, taught in small batches by full-time engineers and maths graduates, never pre-recorded. Your child learns Python, Java, AI/ML and strong school maths from your own Action Area or Sapoorji flat, with zero crawl through Major Arterial Road evening traffic. Aligned to DPS Newtown's ICSE Java and the Action Area schools' CBSE Python tracks. Book a free demo.
 
 Live, not recordedSmall batches (max 6-8)Engineer & maths-graduate tutorsICSE Java + CBSE Python ready[Book a Free Demo Class](/book-demo)[Explore All Courses](/courses)10,000+Students taught online4.9/5Average parent rating1:6Best batch ratioFreeFirst demo classAt a glance
 
 ## The essentials, on one page
 
-Format**100% live online** — real tutor, real time, never pre-recordedBatch sizeSmall live batches: group max 6-8, mini batch 3-4, or 1-on-1Ages6 to 17 (school), plus college, girls-only and corporate tracksSubjectsCoding (Python, Java, AI/ML, web, DSA) + MathematicsBoardsICSE (Java/BlueJ), CBSE (Python/Informatics Practices), IGCSE/IBFees**From ₹1,499/month** (group) · ₹2,999 (mini batch) · ₹4,999 (1-on-1)Free demoYes — one free live demo class, no commitmentServingNew Town, Rajarhat, Action Area I/II/III, Eco Park, DLF IT Park beltPremium, genuinely live
+Format**100% live online**, real tutor, real time, never pre-recordedBatch sizeSmall live batches: group max 6-8, mini batch 3-4, or 1-on-1Ages6 to 17 (school), plus college, girls-only and corporate tracksSubjectsCoding (Python, Java, AI/ML, web, DSA) + MathematicsBoardsICSE (Java/BlueJ), CBSE (Python/Informatics Practices), IGCSE/IBFees**From ₹1,499/month** (group) · ₹2,999 (mini batch) · ₹4,999 (1-on-1)Free demoYes, one free live demo class, no commitmentServingNew Town, Rajarhat, Action Area I/II/III, Eco Park, DLF IT Park beltPremium, genuinely live
 
 ## A real live class, not a recorded course
 
-Modern Age Coders is a premium, high-quality live online coding and maths school — every class is taught in real time by a full-time engineer or maths graduate, in a small batch, building real projects. Nothing here is pre-recorded video, and no class is run by a part-time freelancer reading slides. New Town's IT and analytics parents recognise this difference immediately: it is the same standard of instruction they would expect at work.
+Modern Age Coders is a premium, high-quality live online coding and maths school, every class is taught in real time by a full-time engineer or maths graduate, in a small batch, building real projects. Nothing here is pre-recorded video, and no class is run by a part-time freelancer reading slides. New Town's IT and analytics parents recognise this difference immediately: it is the same standard of instruction they would expect at work.
 
 ### Genuinely live, never recorded
 
@@ -32,25 +32,25 @@ We cap group batches at six to eight students, run mini batches of three to four
 
 ### Taught by full-time engineers and maths graduates
 
-Classes are led by full-time professional engineers and mathematics graduates, not college students moonlighting between exams. They teach all day, every day, so they know exactly where learners trip up. New Town's own engineer-parents tend to grill us on this — we welcome it.
+Classes are led by full-time professional engineers and mathematics graduates, not college students moonlighting between exams. They teach all day, every day, so they know exactly where learners trip up. New Town's own engineer-parents tend to grill us on this. We welcome it.
 
 ### Project-based, not theory-only
 
-Children build working things from week one — a calculator, a game, a dashboard, a small web app — instead of memorising syntax. Project work is how concepts actually stick and how a portfolio is born. Every track ends with something your child can show and explain.
+Children build working things from week one, a calculator, a game, a dashboard, a small web app, instead of memorising syntax. Project work is how concepts actually stick and how a portfolio is born. Every track ends with something your child can show and explain.
 
 ### Board-aware curriculum switching
 
-Because New Town is a genuine ICSE/CBSE/IGCSE mix, we frame the same concept the way each child's board expects it — Java/BlueJ for DPS Newtown's ICSE, Python/Informatics Practices for the Action Area CBSE schools. One provider, the right syllabus per child. See the [Board Exam Prep course](/courses/cbse-icse-computer-science-class-11-12-python-java-complete-course).
+Because New Town is a genuine ICSE/CBSE/IGCSE mix, we frame the same concept the way each child's board expects it: Java/BlueJ for DPS Newtown's ICSE, Python/Informatics Practices for the Action Area CBSE schools. One provider, the right syllabus per child. See the [Board Exam Prep course](/courses/cbse-icse-computer-science-class-11-12-python-java-complete-course).
 
 ### Zero commute, premium convenience
 
-Your child joins from your own Action Area or Sapoorji flat — no evening crawl through the Major Arterial Road and Action Area junction signals as Sector V empties out. That is up to 90 minutes a class day saved, and a tired child becomes a fresh, focused one. [View pricing](/pricing).
+Your child joins from your own Action Area or Sapoorji flat, no evening crawl through the Major Arterial Road and Action Area junction signals as Sector V empties out. That is up to 90 minutes a class day saved, and a tired child becomes a fresh, focused one. [View pricing](/pricing).
 
 Full live catalogue
 
 ## Every track, one provider
 
-Modern Age Coders offers a full live online catalogue for New Town families — from first Scratch blocks at age six to AI/ML, board exam prep and college DSA.
+Modern Age Coders offers a full live online catalogue for New Town families, from first Scratch blocks at age six to AI/ML, board exam prep and college DSA.
 
 | Course | Who it is for | What you build / learn |
 | --- | --- | --- |
@@ -63,7 +63,7 @@ Modern Age Coders offers a full live online catalogue for New Town families — 
 | [AI/ML for College Students](/ai-ml-course-for-college-students) | College students | Placement-focused AI/ML and real-world data projects |
 | [AI/ML Certification Course](/ai-ml-certification-course) | Serious learners and professionals | Structured AI/ML programme ending in certification and portfolio |
 | [AI/ML Projects for Students](/ai-ml-projects-for-students) | Students building a portfolio | Resume-ready, demonstrable AI/ML project work |
-| [Board CS — Class 11-12 (Python+Java)](/courses/cbse-icse-computer-science-class-11-12-python-java-complete-course) | Class 11-12 ICSE & CBSE students | Full CS / Informatics Practices theory, practicals and exam prep |
+| [Board CS: Class 11-12 (Python+Java)](/courses/cbse-icse-computer-science-class-11-12-python-java-complete-course) | Class 11-12 ICSE & CBSE students | Full CS / Informatics Practices theory, practicals and exam prep |
 | [Coding for College / DSA](/courses/coding/college) | College students | DSA, MERN stack, AI/ML and Python for data, for placements |
 | [School Mathematics](/online-maths-tuition) | Grades 1-12, all boards | Strong-foundation maths plus Olympiad prep (AMC, IOQM, RMO, IMO) |
 
@@ -77,7 +77,7 @@ Most in-demand
 
 ### Python & AI for Kids and Teens
 
-Python is the most in-demand language in New Town's own IT and analytics workforce, and the language behind the CBSE Informatics Practices track that The Newtown School and the Action Area schools follow. We take learners from first script to object-oriented programming and the doorstep of AI — all live, all project-based.
+Python is the most in-demand language in New Town's own IT and analytics workforce, and the language behind the CBSE Informatics Practices track that The Newtown School and the Action Area schools follow. We take learners from first script to object-oriented programming and the doorstep of AI, all live, all project-based.
 
 **You'll learn:** variables, loops, functions, OOP and AI basics. **You'll build:** games, automation scripts and a first data dashboard.
 
@@ -87,7 +87,7 @@ ICSE essential
 
 ### Java Programming for Kids and Teens
 
-Java is non-negotiable for DPS Newtown and DPS Megacity ICSE students — it is the board's Computer Applications language, taught through BlueJ. We mirror that exact environment, drilling syntax, OOP, arrays and strings with board-style programs and viva readiness, while making it genuinely interesting.
+Java is non-negotiable for DPS Newtown and DPS Megacity ICSE students. It is the board's Computer Applications language, taught through BlueJ. We mirror that exact environment, drilling syntax, OOP, arrays and strings with board-style programs and viva readiness, while making it genuinely interesting.
 
 **You'll learn:** Java syntax, OOP, arrays, strings and BlueJ practicals. **You'll build:** 25+ board-style programs and a viva-ready project set.
 
@@ -115,11 +115,11 @@ Inside the smart city
 
 ## New Town, Rajarhat and the evening commute
 
-New Town is not an ordinary Kolkata neighbourhood — it is the city's planned smart city, all wide arterial roads, gated condominiums and a workforce that is overwhelmingly IT, financial-services and analytics professionals. Walk through Action Area I, II or III, the Sapoorji towers or the Unitech condominiums, and you find engineers, data scientists, startup founders and returning NRIs who treat coding and strong maths not as enrichment but as core literacy. These are parents who often want their pre-schoolers writing their first lines before most children have picked a board.
+New Town is not an ordinary Kolkata neighbourhood. It is the city's planned smart city, all wide arterial roads, gated condominiums and a workforce that is overwhelmingly IT, financial-services and analytics professionals. Walk through Action Area I, II or III, the Sapoorji towers or the Unitech condominiums, and you find engineers, data scientists, startup founders and returning NRIs who treat coding and strong maths not as enrichment but as core literacy. These are parents who often want their pre-schoolers writing their first lines before most children have picked a board.
 
-That outcome-driven culture is exactly what live online structured teaching is built for. The same families that commute daily to DLF IT Park, Salt Lake Sector V and the TCS, Wipro and Cognizant campuses know precisely what good engineering instruction looks like — and they recognise the difference between a real live class and a recorded course. They also know what the evening drive costs: crawling through the Major Arterial Road and Action Area junction signals just as the Sector V rush empties out can eat 60 to 90 minutes round-trip on a tuition day.
+That outcome-driven culture is exactly what live online structured teaching is built for. The same families that commute daily to DLF IT Park, Salt Lake Sector V and the TCS, Wipro and Cognizant campuses know precisely what good engineering instruction looks like, and they recognise the difference between a real live class and a recorded course. They also know what the evening drive costs: crawling through the Major Arterial Road and Action Area junction signals just as the Sector V rush empties out can eat 60 to 90 minutes round-trip on a tuition day.
 
-Live online removes that crawl entirely. The child is in class, building something, from the family's own Action Area or Eco Park-side flat — while a parent might still be on the Biswa Bangla Sarani drive home from work. Around Eco Park, the Biswa Bangla Gate, City Centre 2 and Axis Mall, near the Tata Medical Centre and out toward Chinar Park and the Rajarhat fringe, our students are doing exactly that several evenings a week. The classroom moved into the smart city's living rooms, and the projects got more local.
+Live online removes that crawl entirely. The child is in class, building something, from the family's own Action Area or Eco Park-side flat, while a parent might still be on the Biswa Bangla Sarani drive home from work. Around Eco Park, the Biswa Bangla Gate, City Centre 2 and Axis Mall, near the Tata Medical Centre and out toward Chinar Park and the Rajarhat fringe, our students are doing exactly that several evenings a week. The classroom moved into the smart city's living rooms, and the projects got more local.
 
 PROJECT 01
 
@@ -139,7 +139,7 @@ PROJECT 03
 
 A Class 6 boy built a Scratch and Google Sheets project recording butterfly species and seasonal blooms across Eco Park's themed gardens during his Sunday cycling sessions, ending with a 40-entry illustrated catalogue.
 
-"My daughter looks forward to class now, and she is actually building things she can explain to us." — paraphrased from a New Town parent.
+"My daughter looks forward to class now, and she is actually building things she can explain to us.", paraphrased from a New Town parent.
 
 NNew Town parent[Read more on our Wall of Love](/love)Areas we serve
 
@@ -149,7 +149,7 @@ Serving New Town, Rajarhat and surrounding pin codes: **700156, 700157, 700135, 
 
 Action Area IAction Area IIAction Area IIIEco Park / Biswa Bangla SaraniDLF IT Park beltSapoorji / Shapoorji towersUnitech & Greenwood condominiumsTata Medical Centre sideChinar ParkRajarhat Main RoadMahishbathanCity Centre 2 / Axis Mall areaSalt Lake Sector V edgeKestopur fringe
 
-Anywhere in New Town or Rajarhat — because every class is live online, your exact tower or block does not matter. If you can open a browser, your child can join.
+Anywhere in New Town or Rajarhat, because every class is live online, your exact tower or block does not matter. If you can open a browser, your child can join.
 
 Live class timings
 
@@ -168,12 +168,12 @@ Classes run live in flexible evening and weekend slots designed around Sector V 
 
 An honest comparison
 
-## Where live online wins — and when offline still does
+## Where live online wins: and when offline still does
 
 ### Where live online wins
 
-- Zero commute — no evening crawl through Major Arterial Road and Action Area junction signals; up to 90 minutes saved per class day.
-- The same premium tutor regardless of which tower you live in — a full-time engineer, not the nearest available freelancer.
+- Zero commute, no evening crawl through Major Arterial Road and Action Area junction signals; up to 90 minutes saved per class day.
+- The same premium tutor regardless of which tower you live in, a full-time engineer, not the nearest available freelancer.
 - Small live batches (max 6-8) so every child codes and is reviewed in every class.
 - Screen-sharing makes debugging faster than peering over a shoulder in a crowded room.
 - Schedules flex around Sector V / DLF IT Park hours and overseas-aligned NRI timings.
@@ -187,7 +187,7 @@ An honest comparison
 - Families who specifically want their child out of the house and socialising in person.
 - Homes with genuinely unreliable internet and no backup connection.
 
-For New Town's tech-forward, time-poor families, live online is not the compromise — it is the upgrade. The premium tutoring comes to your flat, and the evening traffic stays outside.
+For New Town's tech-forward, time-poor families, live online is not the compromise. It is the upgrade. The premium tutoring comes to your flat, and the evening traffic stays outside.
 
 How to start
 
@@ -209,7 +209,7 @@ Your child meets a full-time engineer or maths graduate in a real live session a
 
 ### Choose your track and batch
 
-We recommend the right course and batch size — group, mini or 1-on-1 — based on age, board and goals; [view pricing](/pricing) and [explore courses](/courses).
+We recommend the right course and batch size, group, mini or 1-on-1, based on age, board and goals; [view pricing](/pricing) and [explore courses](/courses).
 
 04
 
@@ -217,7 +217,7 @@ We recommend the right course and batch size — group, mini or 1-on-1 — based
 
 Begin regular live classes and watch your child ship real projects within the first few weeks, board-aligned and portfolio-ready.
 
-"The teaching is structured, patient and genuinely live — my son Dhairya looks forward to every class and now builds projects on his own. As a parent I can see real progress, not just screen time."
+"The teaching is structured, patient and genuinely live, my son Dhairya looks forward to every class and now builds projects on his own. As a parent I can see real progress, not just screen time."
 
 SSonam OswalMother of Dhairya
 
@@ -227,11 +227,11 @@ Frequently asked
 
 ## New Town parents ask us this
 
-Every class is 100% live, taught in real time by a full-time engineer or maths graduate who can see your child's screen and answer questions instantly. Nothing is pre-recorded. This is premium live instruction, not a video library you watch alone.Yes — we adapt the framing per child. DPS Newtown and DPS Megacity ICSE students get [Java/BlueJ](/java-programming-for-icse-students); The Newtown School and other Action Area CBSE schools get [Python and Informatics Practices](/python-and-ai-classes-for-kids-teens). Class 11-12 board candidates can take the full [board CS course](/courses/cbse-icse-computer-science-class-11-12-python-java-complete-course).Absolutely — that is the whole point. Your child joins live from your own flat, so there is no evening crawl through Action Area junction traffic, saving up to 90 minutes per class day. All they need is a laptop and internet.Yes. We offer evening and weekend slots built around Sector V and DLF IT Park hours, plus overseas-timezone-aligned timings by arrangement. [Book a demo](/book-demo) and we'll fit a slot to your family.Children can begin from age six with block-based [Scratch coding for kids](/courses/coding/kids), which suits the 6-8 age group common in New Town's young family belt. It builds logic and confidence before any typing-heavy language.Yes. [School Mathematics](/online-maths-tuition) covers Grades 1-12 across all boards, including strong-foundation work and Olympiad prep (AMC, IOQM, RMO, IMO) that New Town parents expect for competitive admissions and JEE-track readiness.Group classes (max 6-8) start at ₹1,499/month, mini batches (3-4) at ₹2,999/month, and 1-on-1 at ₹4,999/month. See full details on the [pricing page](/pricing).Small by design — group batches are capped at six to eight, mini batches at three to four, plus true 1-on-1. This guarantees every child writes code and is reviewed individually in every class.Full-time professional engineers and mathematics graduates — not part-time college students. They teach all day, so they know exactly where learners struggle and how to fix it.A laptop or desktop with a stable internet connection and a webcam is ideal. We work in browser-based and standard tools, so no high-end machine is required.Tell us in advance and we will arrange a make-up session or share the recording of that specific class so nothing is lost. In small batches, catching up is quick.Classes are taught in clear English, with tutors comfortable explaining in simple, accessible terms. Concepts are always prioritised over jargon.Yes — students receive a certificate on completing a track, and our [AI/ML Certification Course](/ai-ml-certification-course) is built specifically around a certification and portfolio outcome.Most New Town teens combine [Python & AI](/python-and-ai-classes-for-kids-teens) or [Java](/java-programming-for-kids-teens) with the [AI & Machine Learning for Teens](/ai-ml-course-for-teens) track, then build a portfolio via [AI/ML Projects for Students](/ai-ml-projects-for-students). College students move to [DSA and placements](/courses/coding/college).Yes — your first live demo class is completely free with no commitment. [Book a Free Demo Class](/book-demo) to meet the tutor and see the format before deciding.
+Every class is 100% live, taught in real time by a full-time engineer or maths graduate who can see your child's screen and answer questions instantly. Nothing is pre-recorded. This is premium live instruction, not a video library you watch alone.Yes. We adapt the framing per child. DPS Newtown and DPS Megacity ICSE students get [Java/BlueJ](/java-programming-for-icse-students); The Newtown School and other Action Area CBSE schools get [Python and Informatics Practices](/python-and-ai-classes-for-kids-teens). Class 11-12 board candidates can take the full [board CS course](/courses/cbse-icse-computer-science-class-11-12-python-java-complete-course).Absolutely. That is the whole point. Your child joins live from your own flat, so there is no evening crawl through Action Area junction traffic, saving up to 90 minutes per class day. All they need is a laptop and internet.Yes. We offer evening and weekend slots built around Sector V and DLF IT Park hours, plus overseas-timezone-aligned timings by arrangement. [Book a demo](/book-demo) and we'll fit a slot to your family.Children can begin from age six with block-based [Scratch coding for kids](/courses/coding/kids), which suits the 6-8 age group common in New Town's young family belt. It builds logic and confidence before any typing-heavy language.Yes. [School Mathematics](/online-maths-tuition) covers Grades 1-12 across all boards, including strong-foundation work and Olympiad prep (AMC, IOQM, RMO, IMO) that New Town parents expect for competitive admissions and JEE-track readiness.Group classes (max 6-8) start at ₹1,499/month, mini batches (3-4) at ₹2,999/month, and 1-on-1 at ₹4,999/month. See full details on the [pricing page](/pricing).Small by design, group batches are capped at six to eight, mini batches at three to four, plus true 1-on-1. This guarantees every child writes code and is reviewed individually in every class.Full-time professional engineers and mathematics graduates, not part-time college students. They teach all day, so they know exactly where learners struggle and how to fix it.A laptop or desktop with a stable internet connection and a webcam is ideal. We work in browser-based and standard tools, so no high-end machine is required.Tell us in advance and we will arrange a make-up session or share the recording of that specific class so nothing is lost. In small batches, catching up is quick.Classes are taught in clear English, with tutors comfortable explaining in simple, accessible terms. Concepts are always prioritised over jargon.Yes, students receive a certificate on completing a track, and our [AI/ML Certification Course](/ai-ml-certification-course) is built specifically around a certification and portfolio outcome.Most New Town teens combine [Python & AI](/python-and-ai-classes-for-kids-teens) or [Java](/java-programming-for-kids-teens) with the [AI & Machine Learning for Teens](/ai-ml-course-for-teens) track, then build a portfolio via [AI/ML Projects for Students](/ai-ml-projects-for-students). College students move to [DSA and placements](/courses/coding/college).Yes. Your first live demo class is completely free with no commitment. [Book a Free Demo Class](/book-demo) to meet the tutor and see the format before deciding.
 
 ## New Town's smart city deserves smarter classes.
 
-Premium live coding and maths, taught by full-time engineers, building real projects — from your own Action Area flat, with no evening traffic. Start with one free class.
+Premium live coding and maths, taught by full-time engineers, building real projects, from your own Action Area flat, with no evening traffic. Start with one free class.
 
 [Book a Free Demo Class](/book-demo)[View Pricing](/pricing)Nearby areas we also serve
 
@@ -265,7 +265,7 @@ REAL STUDENT PROJECTS
 
 ## What our students actually build
 
-[![HairSync — AI Hairstyle Try-On](/images/projects/hairsync.webp)AI & MLHairSync — AI Hairstyle Try-OnUpload a clear photo and try on any hairstyle before you commit — wolf cuts, curtain bangs, fades, braids and dozens of trending looks, rendered onto your own face by AI in seconds. Kriti vibe-coded this virtual try-on studio from a single idea into a working app.by KritiOpen the live project ↗](https://hairsync.lovable.app)[![SkyCast — Weather Forecast App](/images/projects/skycast.webp)Web AppSkyCast — Weather Forecast AppAn interactive weather forecasting site with real-time updates for any location — temperature, humidity, wind speed and conditions in a clean, responsive interface.by KrishOpen the live project ↗](https://krish-shroff.github.io/AuraWeatherTech/)[![HugSelle — AI Smile Generator](/images/projects/hugselle.webp)AI & MLHugSelle — AI Smile GeneratorA heartwarming AI-powered web app that detects your mood and generates uplifting quotes and visuals to make you smile — a creative blend of technology and positivity.by AnuragOpen the live project ↗](https://hugselle.modernagecoders.com)
+[![HairSync, AI Hairstyle Try-On](/images/projects/hairsync.webp)AI & MLHairSync, AI Hairstyle Try-OnUpload a clear photo and try on any hairstyle before you commit, wolf cuts, curtain bangs, fades, braids and dozens of trending looks, rendered onto your own face by AI in seconds. Kriti vibe-coded this virtual try-on studio from a single idea into a working app.by KritiOpen the live project ↗](https://hairsync.lovable.app)[![SkyCast, Weather Forecast App](/images/projects/skycast.webp)Web AppSkyCast, Weather Forecast AppAn interactive weather forecasting site with real-time updates for any location, temperature, humidity, wind speed and conditions in a clean, responsive interface.by KrishOpen the live project ↗](https://krish-shroff.github.io/AuraWeatherTech/)[![HugSelle, AI Smile Generator](/images/projects/hugselle.webp)AI & MLHugSelle, AI Smile GeneratorA heartwarming AI-powered web app that detects your mood and generates uplifting quotes and visuals to make you smile, a creative blend of technology and positivity.by AnuragOpen the live project ↗](https://hugselle.modernagecoders.com)
 
 Every one is a real, live project by a student. See more in [Student Labs](/student-labs).
 

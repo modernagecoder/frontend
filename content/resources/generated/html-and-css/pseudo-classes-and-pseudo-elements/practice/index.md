@@ -77,7 +77,7 @@ tr:nth-child(odd) { background: #f1f5f9; }
 
 **Answer:** Links the user has already visited (according to browser history).
 
-For privacy reasons, browsers restrict what `:visited` can style — typically only color, background-color, border-color, and outline-color.
+For privacy reasons, browsers restrict what `:visited` can style, typically only color, background-color, border-color, and outline-color.
 
 ### Q8. [Easy] Which element does `p::first-letter` target?
 
@@ -240,7 +240,7 @@ input:placeholder-shown { font-style: italic; }
 
 **Answer:** Inputs that are currently showing their placeholder (i.e., empty inputs with a placeholder attribute).
 
-`:placeholder-shown` matches inputs that are displaying their placeholder — essentially, empty inputs. Combined with `:not()`, it can tell you 'the user has typed something'.
+`:placeholder-shown` matches inputs that are displaying their placeholder, essentially, empty inputs. Combined with `:not()`, it can tell you 'the user has typed something'.
 
 ### Q23. [Medium] Why should you pair `:hover` with `:focus-visible`?
 
@@ -331,7 +331,7 @@ You can animate `width` on pseudo-elements. For a scaleX-based approach (smoothe
 
 **Answer:** An element can only have ONE `::before`. The more specific selector wins. You cannot have two ::before pseudo-elements on the same element stacking.
 
-Each element has exactly one `::before` and one `::after`. If multiple rules apply, they merge via normal cascade rules — the most specific wins. To have multiple decorations, use `::before` and `::after` together, or wrap with another element.
+Each element has exactly one `::before` and one `::after`. If multiple rules apply, they merge via normal cascade rules, the most specific wins. To have multiple decorations, use `::before` and `::after` together, or wrap with another element.
 
 ### Q30. [Hard] How would you disable a submit button while any form input is invalid, without JavaScript?
 
@@ -353,7 +353,7 @@ On touch devices, `:hover` fires briefly (or not at all) on tap. Always make imp
 
 *Hint:* Semantics.
 
-**Answer:** It styles the first character for a drop cap effect without wrapping it in a ``. Keeps the HTML clean and semantic — the visual decoration does not pollute the content.
+**Answer:** It styles the first character for a drop cap effect without wrapping it in a ``. Keeps the HTML clean and semantic, the visual decoration does not pollute the content.
 
 Separation of concerns: HTML holds content, CSS holds decoration. `::first-letter` lets you achieve the drop cap in CSS alone, avoiding meaningless wrapper spans in your markup.
 

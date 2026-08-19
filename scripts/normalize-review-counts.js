@@ -7,7 +7,7 @@
  * Why: the pages previously carried fabricated, inconsistent counts
  * (105–2140; several ABOVE the real total) which is exactly the pattern
  * Google flags as spammy structured data. ratingValue is already "4.9"
- * everywhere — the real rating — so it is left untouched.
+ * everywhere, the real rating, so it is left untouched.
  *
  * Safety: this ONLY rewrites the digits inside `"reviewCount": "<n>"` in
  * JSON-LD. It never touches visible page copy (e.g. "487+ Students

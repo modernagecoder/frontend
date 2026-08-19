@@ -62,7 +62,7 @@
       },
       {
         "type": "paragraph",
-        "text": "Data comes in two main categories. Unstructured data includes things like text, images, audio, and video—content that doesn't fit neatly into rows and columns. Structured data is organized information like spreadsheets, databases, and tables with clear categories."
+        "text": "Data comes in two main categories. Unstructured data includes things like text, images, audio, and video, content that doesn't fit neatly into rows and columns. Structured data is organized information like spreadsheets, databases, and tables with clear categories."
       },
       {
         "type": "paragraph",
@@ -76,7 +76,7 @@
       },
       {
         "type": "paragraph",
-        "text": "Text is where generative AI absolutely excels. Models like ChatGPT, Claude, and Gemini are phenomenally good at working with words because they've been trained on enormous collections of text—books, websites, articles, conversations, and more."
+        "text": "Text is where generative AI absolutely excels. Models like ChatGPT, Claude, and Gemini are phenomenally good at working with words because they've been trained on enormous collections of text, books, websites, articles, conversations, and more."
       },
       {
         "type": "paragraph",
@@ -106,7 +106,7 @@
       },
       {
         "type": "paragraph",
-        "text": "For students and professionals, text AI is incredibly useful as a starting point—but always review, fact-check, and edit what it produces."
+        "text": "For students and professionals, text AI is incredibly useful as a starting point, but always review, fact-check, and edit what it produces."
       },
       {
         "type": "heading",
@@ -120,7 +120,7 @@
       },
       {
         "type": "paragraph",
-        "text": "<strong>Why images work well:</strong> AI has access to billions of labeled images for training. It learns to recognize patterns in visual elements—colors, shapes, compositions, artistic styles, lighting, and objects. Modern diffusion models excel at combining these elements in creative ways."
+        "text": "<strong>Why images work well:</strong> AI has access to billions of labeled images for training. It learns to recognize patterns in visual elements, colors, shapes, compositions, artistic styles, lighting, and objects. Modern diffusion models excel at combining these elements in creative ways."
       },
       {
         "type": "paragraph",
@@ -178,7 +178,7 @@
       },
       {
         "type": "paragraph",
-        "text": "<strong>Limitations with code:</strong> Just because AI generates code doesn't mean that code is good. It may create security vulnerabilities. It might suggest outdated methods or inefficient approaches. It doesn't understand your full project context, so integration issues can occur. Generated code might violate software licenses without you knowing. And critically, all AI-generated code needs testing—never use it blindly in production."
+        "text": "<strong>Limitations with code:</strong> Just because AI generates code doesn't mean that code is good. It may create security vulnerabilities. It might suggest outdated methods or inefficient approaches. It doesn't understand your full project context, so integration issues can occur. Generated code might violate software licenses without you knowing. And critically, all AI-generated code needs testing, never use it blindly in production."
       },
       {
         "type": "paragraph",
@@ -227,7 +227,7 @@
       },
       {
         "type": "paragraph",
-        "text": "Video is the hardest data type for generative AI. Creating believable video requires combining visual elements, motion, temporal consistency, physics, and sometimes audio—all working together seamlessly."
+        "text": "Video is the hardest data type for generative AI. Creating believable video requires combining visual elements, motion, temporal consistency, physics, and sometimes audio, all working together seamlessly."
       },
       {
         "type": "paragraph",
@@ -252,7 +252,7 @@
       },
       {
         "type": "paragraph",
-        "text": "<strong>Significant limitations:</strong> Longer videos are extremely challenging and often incoherent. Consistency across frames is difficult—characters might change appearance mid-video. Physics and motion often look unrealistic. It's computationally very expensive to generate even short clips. Quality varies dramatically. Most AI video is still obviously artificial. The technology is improving fast, but we're years away from AI generating full-length, coherent videos reliably."
+        "text": "<strong>Significant limitations:</strong> Longer videos are extremely challenging and often incoherent. Consistency across frames is difficult, characters might change appearance mid-video. Physics and motion often look unrealistic. It's computationally very expensive to generate even short clips. Quality varies dramatically. Most AI video is still obviously artificial. The technology is improving fast, but we're years away from AI generating full-length, coherent videos reliably."
       },
       {
         "type": "heading",
@@ -304,7 +304,7 @@
       },
       {
         "type": "paragraph",
-        "text": "<strong>What is multimodal data:</strong> Think about how humans communicate. We don't just use words—we combine speech, facial expressions, gestures, and visuals. Multimodal AI aims to do the same, understanding and creating content across multiple formats simultaneously."
+        "text": "<strong>What is multimodal data:</strong> Think about how humans communicate. We don't just use words. We combine speech, facial expressions, gestures, and visuals. Multimodal AI aims to do the same, understanding and creating content across multiple formats simultaneously."
       },
       {
         "type": "paragraph",
@@ -367,7 +367,7 @@
       },
       {
         "type": "paragraph",
-        "text": "<strong>Red flags—when NOT to use generative AI:</strong>"
+        "text": "<strong>Red flags, when NOT to use generative AI:</strong>"
       },
       {
         "type": "list",

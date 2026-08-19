@@ -23,7 +23,7 @@ Almost all MySQL indexes (primary, secondary, composite, unique) are B-Trees. Fu
 
 *Hint:* The table itself.
 
-**Answer:** The primary key's B-Tree — the table rows ARE the leaves. Data is physically ordered by PK.
+**Answer:** The primary key's B-Tree, the table rows ARE the leaves. Data is physically ordered by PK.
 
 This is why accessing rows by PK is the fastest operation. Secondary indexes store the PK at the leaf level and do a 'PK lookup' to fetch the full row.
 
@@ -39,7 +39,7 @@ Or equivalently, `ALTER TABLE table ADD INDEX idx_name (column);`.
 
 *Hint:* Leftmost prefix rule.
 
-**Answer:** `WHERE b = 5 AND c = 10` — missing the leading 'a' column.
+**Answer:** `WHERE b = 5 AND c = 10`, missing the leading 'a' column.
 
 Composite indexes require the leftmost column to be in the WHERE for the index to help. `WHERE a = 1`, `WHERE a = 1 AND b = 5`, and `WHERE a = 1 AND b = 5 AND c = 10` all use the index.
 
@@ -55,7 +55,7 @@ Composite indexes require the leftmost column to be in the WHERE for the index t
 
 *Hint:* The scanned rows are...
 
-**Answer:** A full table scan — no index used. On large tables this is slow.
+**Answer:** A full table scan, no index used. On large tables this is slow.
 
 The 'type' column ranks from best (const) to worst (ALL). See it on any big table and you probably need an index.
 
@@ -63,7 +63,7 @@ The 'type' column ranks from best (const) to worst (ALL). See it on any big tabl
 
 *Hint:* Related to covering index.
 
-**Answer:** The query is served entirely from the index (no row lookup) — a covering index was used.
+**Answer:** The query is served entirely from the index (no row lookup), a covering index was used.
 
 This is the fastest access pattern for indexed reads. It avoids the PK lookup that secondary indexes usually require.
 
@@ -71,7 +71,7 @@ This is the fastest access pattern for indexed reads. It avoids the PK lookup th
 
 *Hint:* Function on indexed column.
 
-**Answer:** The function YEAR() must be evaluated for every row to check the predicate, which requires scanning every row — defeating the index.
+**Answer:** The function YEAR() must be evaluated for every row to check the predicate, which requires scanning every row, defeating the index.
 
 Rewrite as a sargable range: `WHERE date_col >= '2026-01-01' AND date_col < '2027-01-01'`.
 
@@ -87,7 +87,7 @@ B-Trees are wide (often 100+ keys per node), so trees are shallow. This is why i
 
 *Hint:* Prefix wildcard.
 
-**Answer:** Yes — prefix wildcards are sargable.
+**Answer:** Yes, prefix wildcards are sargable.
 
 The B-Tree is ordered alphabetically; MySQL can seek to 'Aar' and scan forward until the prefix no longer matches.
 
@@ -95,7 +95,7 @@ The B-Tree is ordered alphabetically; MySQL can seek to 'Aar' and scan forward u
 
 *Hint:* Leading wildcard.
 
-**Answer:** No — leading wildcard prevents B-Tree use.
+**Answer:** No, leading wildcard prevents B-Tree use.
 
 Without a fixed prefix to seek to, MySQL must examine every row. Use a FULLTEXT index or refactor the query.
 
@@ -121,13 +121,13 @@ Composite indexes can serve both WHERE filtering and ORDER BY, eliminating the '
 
 **Answer:** MySQL is sorting the result set in memory (or on disk if too big), because no index provided the required order. On large result sets this is slow.
 
-Avoid filesort by indexing on the ORDER BY columns — ideally as part of the same composite index that serves the WHERE.
+Avoid filesort by indexing on the ORDER BY columns, ideally as part of the same composite index that serves the WHERE.
 
 ### Q15. [Hard] If you have indexes on (a), (b), and (a, b), which one is likely redundant?
 
 *Hint:* Leftmost prefix.
 
-**Answer:** The index on (a) alone is usually redundant — (a, b) can serve any query that (a) alone can.
+**Answer:** The index on (a) alone is usually redundant, (a, b) can serve any query that (a) alone can.
 
 Drop the redundant index to save disk and speed writes. The only exception is if index size is a concern; (a) alone is smaller than (a, b), which may matter for very narrow hot queries.
 
@@ -188,7 +188,7 @@ WHERE order_date >= '2026-04-01'
 
 The half-open range avoids function calls on the indexed column. Any B-Tree index on order_date now kicks in.
 
-### Q22. [Hard] Given a query `SELECT customer_id, SUM(amount) FROM orders WHERE status='paid' GROUP BY customer_id ORDER BY SUM(amount) DESC LIMIT 10;` — propose an index that helps.
+### Q22. [Hard] Given a query `SELECT customer_id, SUM(amount) FROM orders WHERE status='paid' GROUP BY customer_id ORDER BY SUM(amount) DESC LIMIT 10;`: propose an index that helps.
 
 *Hint:* Filter by status, then group by customer, summing amount.
 
@@ -221,13 +221,13 @@ EXPLAIN SELECT name FROM users WHERE email = 'aarav@x.com';
 
 Look for: type should be const or ref (unique or regular index hit), key should name your email index, rows should be 1 (or close), Extra should ideally say 'Using index' if the index covers 'name'.
 
-If type=ALL, you need an index on email. If rows is high but you expect 1, the optimizer's stats may be stale — run ANALYZE TABLE.
+If type=ALL, you need an index on email. If rows is high but you expect 1, the optimizer's stats may be stale, run ANALYZE TABLE.
 
 ### Q25. [Hard] You see 'type=index' in EXPLAIN. Is that good?
 
 *Hint:* Not as good as it sounds.
 
-**Answer:** Not really. type=index means MySQL is doing a FULL index scan — reading every index entry in order. It's better than type=ALL (full table scan) because the index is usually smaller than the table, but it's still a scan. Aim for type=ref, range, eq_ref, or const.
+**Answer:** Not really. type=index means MySQL is doing a FULL index scan, reading every index entry in order. It's better than type=ALL (full table scan) because the index is usually smaller than the table, but it's still a scan. Aim for type=ref, range, eq_ref, or const.
 
 People often confuse type=index with 'using an index'. A true index seek is type=ref or range. type=index means 'I couldn't use the index for seeking but I'll read it in order because it's smaller than the table'.
 
@@ -237,7 +237,7 @@ People often confuse type=index with 'using an index'. A true index seek is type
 
 *Hint:* Full-scan cost grows linearly.
 
-**Answer:** A full table scan — missing or unused index.
+**Answer:** A full table scan, missing or unused index.
 
 At small table sizes, a full scan is fast enough that you don't notice the missing index. At million-row scale it becomes unbearably slow.
 
@@ -245,7 +245,7 @@ At small table sizes, a full scan is fast enough that you don't notice the missi
 
 *Hint:* Constraint.
 
-**Answer:** Enforces uniqueness — duplicate inserts fail with a 1062 error.
+**Answer:** Enforces uniqueness, duplicate inserts fail with a 1062 error.
 
 UNIQUE INDEX = UNIQUE CONSTRAINT + B-Tree. Two purposes for one structure.
 
@@ -253,7 +253,7 @@ UNIQUE INDEX = UNIQUE CONSTRAINT + B-Tree. Two purposes for one structure.
 
 *Hint:* Indexes can be scanned backward.
 
-**Answer:** Yes. MySQL reads the index in reverse — 'Backward index scan' — no filesort needed.
+**Answer:** Yes. MySQL reads the index in reverse, 'Backward index scan', no filesort needed.
 
 MySQL 8.0 supports explicit descending indexes and efficient backward scans. For older MySQL, adding DESC to the index column helped.
 
@@ -261,7 +261,7 @@ MySQL 8.0 supports explicit descending indexes and efficient backward scans. For
 
 *Hint:* EXPLAIN shows estimates.
 
-**Answer:** No — 'rows' is an estimate based on statistics, not an exact count.
+**Answer:** No, 'rows' is an estimate based on statistics, not an exact count.
 
 Run `ANALYZE TABLE orders;` if estimates look badly wrong. EXPLAIN ANALYZE (MySQL 8.0.18+) runs the query and shows actuals.
 
@@ -297,7 +297,7 @@ CREATE INDEX idx_orders_prod_status
   ON orders(product_id, status);
 ```
 
-One composite per query pattern. Do not add a separate index on status alone — neither pattern needs it.
+One composite per query pattern. Do not add a separate index on status alone, neither pattern needs it.
 
 ### Q8. [Hard] Your EXPLAIN output shows 'Using where; Using filesort'. What does it mean and how do you improve?
 
@@ -311,7 +311,7 @@ Filesort can be OK for small result sets, but on large ones it may spill to disk
 
 *Hint:* Column type vs parameter type.
 
-**Answer:** If phone is VARCHAR and you query `WHERE phone = 9810012345` (integer), MySQL converts all phone values to integers for comparison — a function on every row. Fix: pass the parameter as a string: `WHERE phone = '9810012345'`.
+**Answer:** If phone is VARCHAR and you query `WHERE phone = 9810012345` (integer), MySQL converts all phone values to integers for comparison, a function on every row. Fix: pass the parameter as a string: `WHERE phone = '9810012345'`.
 
 Type mismatches between column and parameter silently sabotage indexes. Always match your bind-parameter types to column types. ORM users: watch for this with prepared statements.
 
@@ -329,7 +329,7 @@ If uniqueness is all you need and NULLs are expected, a unique index is perfect.
 
 **Answer:** MySQL's optimizer is cost-based. It estimates the number of rows each plan would read (using index cardinality and histograms) and picks the plan with the lowest estimated cost. If stats are stale (table grew, data shifted), it may pick wrong. Run `ANALYZE TABLE` to refresh stats, or use `FORCE INDEX` as a last resort.
 
-Never guess — always run EXPLAIN. If the optimizer consistently picks the wrong index, dig into stats before reaching for index hints.
+Never guess, always run EXPLAIN. If the optimizer consistently picks the wrong index, dig into stats before reaching for index hints.
 
 ## Multiple Choice Questions
 
@@ -408,7 +408,7 @@ D. [object Object]
 
 **Answer:** B
 
-**B is correct.** Covering index — no need to access the table itself. Fastest possible read.
+**B is correct.** Covering index, no need to access the table itself. Fastest possible read.
 
 ### Q8. [Medium] Which operation in InnoDB is ALWAYS the fastest?
 
@@ -430,7 +430,7 @@ D. [object Object]
 
 **Answer:** C
 
-**C is correct.** No leading customer_id — leftmost prefix rule violated, cannot use the index.
+**C is correct.** No leading customer_id, leftmost prefix rule violated, cannot use the index.
 
 ### Q10. [Medium] Why might adding too many indexes HURT performance?
 
@@ -485,7 +485,7 @@ D. [object Object]
 
 **Answer:** B
 
-**B is correct.** Hash indexes are O(1) for exact matches but useless for ranges and ordering. B-Trees are O(log n) exact and O(log n + k) for ranges — more versatile.
+**B is correct.** Hash indexes are O(1) for exact matches but useless for ranges and ordering. B-Trees are O(log n) exact and O(log n + k) for ranges, more versatile.
 
 ### Q15. [Hard] Why does `SELECT *` hurt covering-index performance?
 
@@ -507,7 +507,7 @@ D. [object Object]
 
 **Answer:** B
 
-**B is correct.** `SHOW INDEX FROM t` or `SHOW INDEXES FROM t` — both work.
+**B is correct.** `SHOW INDEX FROM t` or `SHOW INDEXES FROM t`. Both work.
 
 ### Q17. [Medium] Cardinality in SHOW INDEX represents:
 
@@ -529,7 +529,7 @@ D. [object Object]
 
 **Answer:** B
 
-**B is correct.** If the optimizer estimates the index will read more than ~20-30% of the table, a sequential scan may actually be faster because of I/O patterns. Stale statistics can also trigger this — ANALYZE TABLE refreshes them.
+**B is correct.** If the optimizer estimates the index will read more than ~20-30% of the table, a sequential scan may actually be faster because of I/O patterns. Stale statistics can also trigger this: ANALYZE TABLE refreshes them.
 
 ### Q19. [Medium] Which is the correct way to drop an index?
 
@@ -609,7 +609,7 @@ Given orders(id, customer_id, order_date, amount, status), the app runs `WHERE c
 **Sample input:**
 
 ```
-No data required — DDL only.
+No data required: DDL only.
 ```
 
 **Sample output:**

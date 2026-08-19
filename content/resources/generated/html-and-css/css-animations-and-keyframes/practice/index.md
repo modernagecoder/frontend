@@ -129,7 +129,7 @@ Rule: use `transform` (and `opacity`) for animations whenever possible. These st
 
 **Answer:** `forwards` keeps the FINAL keyframe state after the animation ends. `backwards` applies the FIRST keyframe state during the animation's delay period (before it starts).
 
-`both` combines the two — the first frame is visible during delay AND the last frame is kept after the animation ends.
+`both` combines the two, the first frame is visible during delay AND the last frame is kept after the animation ends.
 
 ### Q14. [Hard] What does `animation: spin 1s 2s infinite` mean?
 
@@ -225,7 +225,7 @@ Example: `@property --hue { syntax: ''; inherits: false; initial-value: 0; }`. T
 
 *Hint:* Fractional iterations.
 
-**Answer:** The animation plays two and a half times — two full cycles followed by halfway through a third.
+**Answer:** The animation plays two and a half times, two full cycles followed by halfway through a third.
 
 Iteration count can be a decimal. Useful for animations that should end at a specific intermediate state.
 
@@ -249,7 +249,7 @@ Duration sets the length of one iteration of the animation. Specified in seconds
 
 *Hint:* Fade in/out at the middle.
 
-**Answer:** A blinking effect — the element is visible at the start and end, and invisible in the middle. Paired with `infinite`, it creates continuous blinking.
+**Answer:** A blinking effect, the element is visible at the start and end, and invisible in the middle. Paired with `infinite`, it creates continuous blinking.
 
 Combining 0% and 100% into one rule is a common shortcut when the start and end states are identical.
 
@@ -257,7 +257,7 @@ Combining 0% and 100% into one rule is a common shortcut when the start and end 
 
 *Hint:* Discrete vs interpolable.
 
-**Answer:** background-image values are discrete — the browser cannot interpolate between two different image URLs. It swaps instantly, not smoothly.
+**Answer:** background-image values are discrete, the browser cannot interpolate between two different image URLs. It swaps instantly, not smoothly.
 
 Workaround: stack two images on top of each other with absolute positioning and animate their opacity for a cross-fade effect.
 
@@ -265,7 +265,7 @@ Workaround: stack two images on top of each other with absolute positioning and 
 
 *Hint:* Animation key moments.
 
-**Answer:** Keyframes — key moments (frames) in the animation where you define specific styles. The browser interpolates between them.
+**Answer:** Keyframes, key moments (frames) in the animation where you define specific styles. The browser interpolates between them.
 
 The term 'keyframe' comes from traditional animation, where an animator draws the important poses and assistants fill in the frames between.
 
@@ -291,7 +291,7 @@ This is the standard loading spinner formula. linear ensures constant rotation s
 
 **Answer:** Anywhere in the stylesheet, as long as they exist BEFORE the browser tries to apply them. By convention, many developers put them near the bottom or in a dedicated section.
 
-Unlike JavaScript, CSS order for @keyframes does not affect whether they work — they are globally scoped within the stylesheet. But grouping them together improves readability.
+Unlike JavaScript, CSS order for @keyframes does not affect whether they work. They are globally scoped within the stylesheet. But grouping them together improves readability.
 
 ### Q19. [Hard] What happens if two keyframes at the same percentage conflict?
 

@@ -50,11 +50,11 @@
       },
       {
         "type": "paragraph",
-        "text": "That approach still works—sometimes. But businesses that leverage data analytics consistently outperform those that don't. They see patterns humans miss. They catch problems earlier. They find opportunities others overlook."
+        "text": "That approach still works, sometimes. But businesses that leverage data analytics consistently outperform those that don't. They see patterns humans miss. They catch problems earlier. They find opportunities others overlook."
       },
       {
         "type": "paragraph",
-        "text": "You don't need a data science team or expensive software to start. This guide shows you how data analytics and mathematical thinking can transform your business decisions—practically and affordably."
+        "text": "You don't need a data science team or expensive software to start. This guide shows you how data analytics and mathematical thinking can transform your business decisions, practically and affordably."
       },
       {
         "type": "heading",
@@ -85,7 +85,7 @@
         "type": "callout",
         "calloutType": "info",
         "title": "The Research Is Clear",
-        "text": "Studies show that data-driven organizations are 23 times more likely to acquire customers, 6 times more likely to retain them, and 19 times more likely to be profitable. Data isn't just nice to have—it's a competitive necessity."
+        "text": "Studies show that data-driven organizations are 23 times more likely to acquire customers, 6 times more likely to retain them, and 19 times more likely to be profitable. Data isn't just nice to have. It's a competitive necessity."
       },
       {
         "type": "heading",
@@ -95,7 +95,7 @@
       },
       {
         "type": "paragraph",
-        "text": "Let's look at how real businesses use data analytics to make better decisions. These aren't hypotheticals—they're actual examples with specific numbers and outcomes."
+        "text": "Let's look at how real businesses use data analytics to make better decisions. These aren't hypotheticals. They're actual examples with specific numbers and outcomes."
       },
       {
         "type": "heading",
@@ -320,7 +320,7 @@
       },
       {
         "type": "paragraph",
-        "text": "But averages can mislead. If your average order is ₹5,000, but half your orders are ₹1,000 and half are ₹9,000, the average doesn't tell the real story. Understanding distribution—how values spread around the average—gives you the full picture."
+        "text": "But averages can mislead. If your average order is ₹5,000, but half your orders are ₹1,000 and half are ₹9,000, the average doesn't tell the real story. Understanding distribution, how values spread around the average, gives you the full picture."
       },
       {
         "type": "heading",
@@ -329,7 +329,7 @@
       },
       {
         "type": "paragraph",
-        "text": "Percentages let you compare things of different sizes. A ₹10,000 increase means different things for a ₹1 lakh business versus a ₹1 crore business. Growth rates—percentage change over time—show whether you're improving or declining."
+        "text": "Percentages let you compare things of different sizes. A ₹10,000 increase means different things for a ₹1 lakh business versus a ₹1 crore business. Growth rates, percentage change over time, show whether you're improving or declining."
       },
       {
         "type": "heading",
@@ -338,7 +338,7 @@
       },
       {
         "type": "paragraph",
-        "text": "This is crucial. Just because two things happen together doesn't mean one causes the other. Ice cream sales and drowning deaths both increase in summer—but ice cream doesn't cause drowning. They're both caused by hot weather."
+        "text": "This is crucial. Just because two things happen together doesn't mean one causes the other. Ice cream sales and drowning deaths both increase in summer, but ice cream doesn't cause drowning. They're both caused by hot weather."
       },
       {
         "type": "paragraph",
@@ -806,7 +806,7 @@
       },
       {
         "type": "paragraph",
-        "text": "Some metrics look impressive but don't matter. Website visitors, social media followers, app downloads—these are vanity metrics if they don't connect to revenue or customer value. Focus on metrics that drive business outcomes."
+        "text": "Some metrics look impressive but don't matter. Website visitors, social media followers, app downloads, these are vanity metrics if they don't connect to revenue or customer value. Focus on metrics that drive business outcomes."
       },
       {
         "type": "heading",
@@ -824,7 +824,7 @@
       },
       {
         "type": "paragraph",
-        "text": "Numbers without context are meaningless. A 10% increase in sales sounds great—unless the market grew 20%. Always compare to benchmarks, historical performance, and market conditions."
+        "text": "Numbers without context are meaningless. A 10% increase in sales sounds great, unless the market grew 20%. Always compare to benchmarks, historical performance, and market conditions."
       },
       {
         "type": "heading",
@@ -864,8 +864,8 @@
         "style": "unordered",
         "items": [
           "List all data you currently collect",
-          "Identify gaps—what important data are you missing?",
-          "Assess data quality—is it accurate and consistent?",
+          "Identify gaps, what important data are you missing?",
+          "Assess data quality, is it accurate and consistent?",
           "Note how decisions are currently made"
         ]
       },
@@ -925,7 +925,7 @@
         "items": [
           {
             "title": "Do I need to be good at math for business analytics?",
-            "content": "Basic math is enough for most business analytics: percentages, averages, growth rates. You don't need calculus or statistics degrees. Tools handle the complex calculations—you need to understand what the numbers mean."
+            "content": "Basic math is enough for most business analytics: percentages, averages, growth rates. You don't need calculus or statistics degrees. Tools handle the complex calculations. You need to understand what the numbers mean."
           },
           {
             "title": "How much should I invest in analytics tools?",
@@ -941,7 +941,7 @@
           },
           {
             "title": "When should I hire a data analyst?",
-            "content": "When data analysis becomes a significant time sink for you or your team, and when the complexity exceeds what generalists can handle. For most small businesses, this is later than you think—learn the basics yourself first."
+            "content": "When data analysis becomes a significant time sink for you or your team, and when the complexity exceeds what generalists can handle. For most small businesses, this is later than you think. Learn the basics yourself first."
           }
         ]
       },
@@ -952,7 +952,7 @@
       },
       {
         "type": "paragraph",
-        "text": "Data analytics isn't about replacing human judgment—it's about informing it. The businesses that thrive combine data insights with experience, creativity, and intuition. They use data to see clearly, not to avoid thinking."
+        "text": "Data analytics isn't about replacing human judgment. It's about informing it. The businesses that thrive combine data insights with experience, creativity, and intuition. They use data to see clearly, not to avoid thinking."
       },
       {
         "type": "paragraph",

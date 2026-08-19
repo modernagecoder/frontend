@@ -6,7 +6,7 @@
  *
  * Everything else in this system reads files. This one loads pages in jsdom,
  * runs the site's own pricing JavaScript against them, and reads back what a
- * human would actually see — in both India and International mode.
+ * human would actually see, in both India and International mode.
  */
 
 'use strict';

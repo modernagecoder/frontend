@@ -1,5 +1,5 @@
 ---
-title: "Computer Applications ICSE Class 10 — Java BlueJ Tuition, Project & Viva Prep | Modern Age Coders"
+title: "Computer Applications ICSE Class 10: Java BlueJ Tuition, Project & Viva Prep | Modern Age Coders"
 description: "ICSE Class 10 Computer Applications Java/BlueJ tuition. Chapter-wise coverage, pattern questions, string problems, practical project and viva prep. 1 hour live classes."
 canonical: https://learn.modernagecoders.com/computer-applications-icse-class-10
 source: src/pages/computer-applications-icse-class-10.html
@@ -8,9 +8,9 @@ source: src/pages/computer-applications-icse-class-10.html
 
 For ICSE Class 10 students · CA paper
 
-# Computer Applications ICSE Class 10 — strict Java, clean marks.
+# Computer Applications ICSE Class 10: strict Java, clean marks.
 
-ICSE Class 10 Computer Applications is a 100-mark Java paper with strict style expectations. Our 1 hour live classes follow the exact CISCE chapter structure — classes, methods, loops, strings, arrays — plus full project + viva prep.
+ICSE Class 10 Computer Applications is a 100-mark Java paper with strict style expectations. Our 1 hour live classes follow the exact CISCE chapter structure, classes, methods, loops, strings, arrays, plus full project + viva prep.
 
 [Book a free demo class](/book-demo)See the curriculum**2,400+**ICSE Class 10 CA students**96%**Score 85+ on the CA board paper**1 hour**Live class, 1:1 or group**BlueJ**Exact ICSE tool and styleCA10ICSE · CAChapter-wiseProject helpViva prepCourses matched for this level
 
@@ -18,7 +18,7 @@ ICSE Class 10 Computer Applications is a 100-mark Java paper with strict style e
 
 The Java track is the spine. Companion courses (DSA, AI) are for students who want more than just marks.
 
-[Java ![Java for teens](/images/java-teens.webp)   Java Programming BlueJ-friendly OOP — strong for ICSE/CBSE CS. JavaBlueJ View course →](/courses/java-programming-masterclass-for-teens)[DSA ![DSA for teens](/images/problem-solving-teens.webp)   DSA & Problem Solving Arrays, strings, trees, DP — the CS interview foundation. DSA View course →](/courses/problem-solving-dsa-masterclass-teens)[Python ![Python masterclass for teens](/images/python-teens.webp)   Python Masterclass Zero to confident — functions, OOP, files, real mini-apps. PythonOOP View course →](/courses/python-complete-masterclass-teens)[Full Stack ![Full stack for teens](/images/web-dev-teens.webp)   Full Stack Web Dev HTML, CSS, JS, Node — ship a real deployed web app. WebNode View course →](/courses/full-stack-web-development-teens-masterclass)[AI/ML ![AI ML for teens](/images/ai-ml-teens.webp)   AI & ML Masterclass Pandas, sklearn, neural nets — real AI projects, real data. AI View course →](/courses/ai-ml-masterclass-teens)[App Dev ![App development for teens](/images/app-dev-teens.webp)   App Development Flutter + Firebase — build and publish real mobile apps. Flutter View course →](/courses/complete-app-development-masterclass-for-teens)[React ![React for teens](/images/react-teens.webp)   React.js Masterclass Component-based web apps with the modern product stack. React View course →](/courses/react-for-teens-complete-masterclass)[Board ![CBSE ICSE CS Class 11 12 course](/images/python-teens.webp)   CBSE/ICSE CS 11–12 Board-aligned Python + Java — full syllabus, sample papers. Board View course →](/courses/cbse-icse-computer-science-class-11-12-python-java-complete-course)
+[Java ![Java for teens](/images/java-teens.webp)   Java Programming BlueJ-friendly OOP, strong for ICSE/CBSE CS. JavaBlueJ View course →](/courses/java-programming-masterclass-for-teens)[DSA ![DSA for teens](/images/problem-solving-teens.webp)   DSA & Problem Solving Arrays, strings, trees, DP, the CS interview foundation. DSA View course →](/courses/problem-solving-dsa-masterclass-teens)[Python ![Python masterclass for teens](/images/python-teens.webp)   Python Masterclass Zero to confident, functions, OOP, files, real mini-apps. PythonOOP View course →](/courses/python-complete-masterclass-teens)[Full Stack ![Full stack for teens](/images/web-dev-teens.webp)   Full Stack Web Dev HTML, CSS, JS, Node, ship a real deployed web app. WebNode View course →](/courses/full-stack-web-development-teens-masterclass)[AI/ML ![AI ML for teens](/images/ai-ml-teens.webp)   AI & ML Masterclass Pandas, sklearn, neural nets, real AI projects, real data. AI View course →](/courses/ai-ml-masterclass-teens)[App Dev ![App development for teens](/images/app-dev-teens.webp)   App Development Flutter + Firebase, build and publish real mobile apps. Flutter View course →](/courses/complete-app-development-masterclass-for-teens)[React ![React for teens](/images/react-teens.webp)   React.js Masterclass Component-based web apps with the modern product stack. React View course →](/courses/react-for-teens-complete-masterclass)[Board ![CBSE ICSE CS Class 11 12 course](/images/python-teens.webp)   CBSE/ICSE CS 11–12 Board-aligned Python + Java, full syllabus, sample papers. Board View course →](/courses/cbse-icse-computer-science-class-11-12-python-java-complete-course)
 
 ### Already strong on Java loops and strings?
 
@@ -32,7 +32,7 @@ Why this level, specifically
 
 ## ICSE CA rewards discipline, not improvisation.
 
-The ICSE examiner wants code written a specific way — with specific comments, specific variable naming, specific class structure. Students who follow the pattern score full marks on questions they answered correctly; students who improvise lose marks.
+The ICSE examiner wants code written a specific way, with specific comments, specific variable naming, specific class structure. Students who follow the pattern score full marks on questions they answered correctly; students who improvise lose marks.
 
 01 / Style
 
@@ -50,13 +50,13 @@ Block comments above class, single-line comments above logic sections. The mark 
 
 ### Output format is tested
 
-Sample inputs and outputs are printed exactly in the question. Your output should match — spacing, wording, everything.
+Sample inputs and outputs are printed exactly in the question. Your output should match, spacing, wording, everything.
 
 Projects, not lectures
 
 ## Six mastery sets across the ICSE CA syllabus.
 
-Each set covers a chapter completely — not a cherry-picked question. These are the drills our students finish.
+Each set covers a chapter completely, not a cherry-picked question. These are the drills our students finish.
 
 Ch 1-3
 
@@ -92,7 +92,7 @@ stringsCh 10
 
 ### Arrays + Project
 
-Searching, sorting, average — plus the required ICSE CA project.
+Searching, sorting, average, plus the required ICSE CA project.
 
 arraysprojectThe curriculum path
 
@@ -122,7 +122,7 @@ Term 2 · Arrays + Project
 
 ### Project done properly
 
-Arrays chapter plus the mandatory ICSE CA project — topic, code, report, viva rehearsal.
+Arrays chapter plus the mandatory ICSE CA project, topic, code, report, viva rehearsal.
 
 - arrays
 - project
@@ -146,12 +146,12 @@ Option A
 
 ### Live 1-on-1 Online Class
 
-One teacher, one learner, the full 1 hour. The teacher adapts pace in real time — slowing down on tricky concepts, speeding up where your child is already fluent. Best for focused learners, specific exam prep, or fastest progress.
+One teacher, one learner, the full 1 hour. The teacher adapts pace in real time, slowing down on tricky concepts, speeding up where your child is already fluent. Best for focused learners, specific exam prep, or fastest progress.
 
 - 1 teacher, 1 student, 1 hour per session
 - Pace fully adjusted to your child
 - Focused help on school projects and exams
-- Flexible timing — you pick the slots
+- Flexible timing. You pick the slots
 - Every class recorded and shared with parents
 
 **₹4,999**/ month · 4 sessionsOption B
@@ -162,7 +162,7 @@ One teacher, one learner, the full 1 hour. The teacher adapts pace in real time 
 
 - Small groups of 4 to 6 similar-level learners
 - 1 hour live session, 2 sessions per week
-- Peer project reviews — students present to each other
+- Peer project reviews, students present to each other
 - Fixed schedule, same classmates each week
 - Class recording and parent progress report
 
@@ -199,11 +199,11 @@ I am truly grateful for my experience at Modern Age Coders. My teachers were not
 
 KKrishnam BhatterFormer studentCommon questions from parents
 
-## Before you book the demo — answered honestly.
+## Before you book the demo: answered honestly.
 
 Short, plain answers. If your question isn't here, tap the callback button at the top and a human will get back to you the same day.
 
-How many chapters are in ICSE Class 10 CA?The CISCE ICSE Class 10 Computer Applications syllabus has 10 units, spanning from revision of OOP basics through arrays. We cover every one.Is the project compulsory?Yes. The ICSE CA practical exam includes a project (20 marks) along with the viva. We help with both end-to-end.What is the tool — BlueJ or Eclipse?BlueJ. CISCE expects BlueJ screenshots and style. We use BlueJ in classes.Can you help with the CA viva?Yes. We rehearse the 40–50 most common viva questions so there are no surprises.How much time per week is needed?Two 1-hour sessions is typical. 1 session/week works if the student is already comfortable.What about pre-board drop?Very common. We run a 4-week intensive between pre-boards and boards specifically for students who dropped.Is 1-on-1 better than group for ICSE CA?1-on-1 for students needing major improvement. Group works for students already above 75% who want to reach 90+.Free demo?Yes. One full 1 hour live class with an ICSE-aware Java teacher. No card. Refund clause 2 weeks.Book a free 1 hour demo class
+How many chapters are in ICSE Class 10 CA?The CISCE ICSE Class 10 Computer Applications syllabus has 10 units, spanning from revision of OOP basics through arrays. We cover every one.Is the project compulsory?Yes. The ICSE CA practical exam includes a project (20 marks) along with the viva. We help with both end-to-end.What is the tool: BlueJ or Eclipse?BlueJ. CISCE expects BlueJ screenshots and style. We use BlueJ in classes.Can you help with the CA viva?Yes. We rehearse the 40–50 most common viva questions so there are no surprises.How much time per week is needed?Two 1-hour sessions is typical. 1 session/week works if the student is already comfortable.What about pre-board drop?Very common. We run a 4-week intensive between pre-boards and boards specifically for students who dropped.Is 1-on-1 better than group for ICSE CA?1-on-1 for students needing major improvement. Group works for students already above 75% who want to reach 90+.Free demo?Yes. One full 1 hour live class with an ICSE-aware Java teacher. No card. Refund clause 2 weeks.Book a free 1 hour demo class
 
 ### Try one session. Decide after.
 

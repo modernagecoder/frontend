@@ -15,7 +15,7 @@ category: "HTML and CSS"
 
 *Hint:* Think about different screen sizes.
 
-**Answer:** Building one website that looks good and works well on all screen sizes — phones, tablets, laptops, and desktops — without needing separate sites for each.
+**Answer:** Building one website that looks good and works well on all screen sizes, phones, tablets, laptops, and desktops, without needing separate sites for each.
 
 Responsive design uses fluid layouts, flexible images, and media queries to adapt a single codebase to any viewport.
 
@@ -61,7 +61,7 @@ Mobile-first uses min-width (smallest styles first, add desktop rules). Desktop-
 
 *Hint:* vw = viewport width.
 
-**Answer:** 100 percent of the viewport width — the full width of the browser window.
+**Answer:** 100 percent of the viewport width, the full width of the browser window.
 
 `vw` stands for viewport width. `1vw` is 1 percent of the viewport width. `100vw` is the full width.
 
@@ -111,7 +111,7 @@ With min-width queries, order from SMALLEST to LARGEST so that later (larger) ru
 
 **Answer:** `@media (max-width: 640px) and (orientation: portrait) { ... }`
 
-Combine conditions with `and`. This matches narrow viewports in portrait orientation — typical of phones held upright.
+Combine conditions with `and`. This matches narrow viewports in portrait orientation, typical of phones held upright.
 
 ### Q11. [Medium] Why is mobile-first preferred over desktop-first?
 
@@ -143,7 +143,7 @@ Use `width: 100%` instead. 100% is relative to the parent's content area, which 
 
 **Answer:** `em` is relative to the PARENT element's font-size (can compound when nested). `rem` is relative to the ROOT (html) element's font-size, so it is always predictable.
 
-If a div has font-size: 20px and its child has font-size: 2em, the child is 40px. Nest another 2em and it becomes 80px — exponential growth. rem avoids this because it always references the html root.
+If a div has font-size: 20px and its child has font-size: 2em, the child is 40px. Nest another 2em and it becomes 80px, exponential growth. rem avoids this because it always references the html root.
 
 ### Q15. [Hard] What does `@media (prefers-color-scheme: dark)` detect?
 
@@ -189,7 +189,7 @@ rem scales with the root font-size and respects user browser zoom settings. It i
 
 **Answer:** Applies ONLY when the viewport is between 768px and 1023px wide (typical tablet range).
 
-The `and` combines conditions — both must be true. This targets tablets specifically, excluding phones (under 768) and desktops (1024+).
+The `and` combines conditions. Both must be true. This targets tablets specifically, excluding phones (under 768) and desktops (1024+).
 
 ### Q5. [Medium] What does `vmin` mean?
 
@@ -313,9 +313,9 @@ The `ch` unit equals the width of the '0' character. 60-80ch is the sweet spot f
 
 *Hint:* Tapping input fields.
 
-**Answer:** On iOS, tapping an input with font-size under 16px zooms in automatically. Using `initial-scale=1` and setting inputs to at least 16px prevents this. Some developers use `maximum-scale=1` but that harms accessibility — avoid it.
+**Answer:** On iOS, tapping an input with font-size under 16px zooms in automatically. Using `initial-scale=1` and setting inputs to at least 16px prevents this. Some developers use `maximum-scale=1` but that harms accessibility, avoid it.
 
-Best practice: set input font-size to 16px or larger. Do NOT disable user zoom — users with low vision rely on pinch-to-zoom.
+Best practice: set input font-size to 16px or larger. Do NOT disable user zoom, users with low vision rely on pinch-to-zoom.
 
 ## Multiple Choice Questions
 
@@ -329,7 +329,7 @@ Best practice: set input font-size to 16px or larger. Do NOT disable user zoom �
 
 **Answer:** B
 
-**B is correct.** `min-width` is a MINIMUM — the styles apply at that width and above.
+**B is correct.** `min-width` is a MINIMUM, the styles apply at that width and above.
 
 ### Q3. [Easy] What is the best unit for font-sizes in responsive design?
 
@@ -414,7 +414,7 @@ Best practice: set input font-size to 16px or larger. Do NOT disable user zoom �
 
 **Answer:** B
 
-**B is correct.** A breakpoint is a viewport width where your CSS changes the layout — typically done with a media query.
+**B is correct.** A breakpoint is a viewport width where your CSS changes the layout, typically done with a media query.
 
 ### Q17. [Medium] How do you combine two conditions in a media query?
 
@@ -438,7 +438,7 @@ Best practice: set input font-size to 16px or larger. Do NOT disable user zoom �
 
 **Answer:** C
 
-**C is correct.** `repeat(auto-fit, minmax(250px, 1fr))` creates a grid that adds or removes columns based on container width — a fully responsive layout with zero media queries.
+**C is correct.** `repeat(auto-fit, minmax(250px, 1fr))` creates a grid that adds or removes columns based on container width, a fully responsive layout with zero media queries.
 
 ## Coding Challenges
 

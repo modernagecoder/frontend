@@ -46,11 +46,11 @@
       },
       {
         "type": "paragraph",
-        "text": "Every week, we hear the same concerns from parents and students. 'My child isn't good at math—can they still learn coding?' 'Isn't my teenager too old to start?' 'Coding is for people who want to become software engineers, right?'"
+        "text": "Every week, we hear the same concerns from parents and students. 'My child isn't good at math, can they still learn coding?' 'Isn't my teenager too old to start?' 'Coding is for people who want to become software engineers, right?'"
       },
       {
         "type": "paragraph",
-        "text": "These questions come from a good place—parents want to make informed decisions about their children's education. But they're also based on myths that have been floating around for years, myths that stop countless students from discovering a skill that could transform their futures."
+        "text": "These questions come from a good place, parents want to make informed decisions about their children's education. But they're also based on myths that have been floating around for years, myths that stop countless students from discovering a skill that could transform their futures."
       },
       {
         "type": "paragraph",
@@ -73,7 +73,7 @@
       },
       {
         "type": "paragraph",
-        "text": "Most coding doesn't require advanced math. Building websites, creating apps, making games—these involve logic and problem-solving, not calculus or complex equations. The math you need for most programming is basic arithmetic that any school student already knows."
+        "text": "Most coding doesn't require advanced math. Building websites, creating apps, making games, these involve logic and problem-solving, not calculus or complex equations. The math you need for most programming is basic arithmetic that any school student already knows."
       },
       {
         "type": "paragraph",
@@ -87,22 +87,22 @@
         "type": "list",
         "style": "unordered",
         "items": [
-          "Logical thinking—if this happens, then do that",
-          "Pattern recognition—spotting similarities and structures",
-          "Problem decomposition—breaking big problems into smaller steps",
-          "Persistence—trying different approaches when something doesn't work",
-          "Creativity—imagining solutions and building things"
+          "Logical thinking, if this happens, then do that",
+          "Pattern recognition, spotting similarities and structures",
+          "Problem decomposition, breaking big problems into smaller steps",
+          "Persistence, trying different approaches when something doesn't work",
+          "Creativity, imagining solutions and building things"
         ]
       },
       {
         "type": "paragraph",
-        "text": "Notice what's not on that list? Advanced mathematics. In fact, many students who struggle with traditional math excel at coding because it's a different kind of thinking—more creative, more practical, more immediately rewarding."
+        "text": "Notice what's not on that list? Advanced mathematics. In fact, many students who struggle with traditional math excel at coding because it's a different kind of thinking, more creative, more practical, more immediately rewarding."
       },
       {
         "type": "callout",
         "calloutType": "success",
         "title": "Real Talk",
-        "text": "Some of the best coders we've taught were students who said they 'hated math.' Coding helped them see logic and problem-solving in a new light—and many actually improved their math grades as a result."
+        "text": "Some of the best coders we've taught were students who said they 'hated math.' Coding helped them see logic and problem-solving in a new light, and many actually improved their math grades as a result."
       },
       {
         "type": "heading",
@@ -112,7 +112,7 @@
       },
       {
         "type": "paragraph",
-        "text": "'My child wants to be a doctor/lawyer/artist—why would they need coding?'"
+        "text": "'My child wants to be a doctor/lawyer/artist, why would they need coding?'"
       },
       {
         "type": "paragraph",
@@ -152,7 +152,7 @@
         "type": "callout",
         "calloutType": "info",
         "title": "The New Literacy",
-        "text": "Coding is becoming like reading and writing—a fundamental skill that enhances everything else you do, regardless of your profession."
+        "text": "Coding is becoming like reading and writing, a fundamental skill that enhances everything else you do, regardless of your profession."
       },
       {
         "type": "heading",
@@ -190,7 +190,7 @@
       },
       {
         "type": "paragraph",
-        "text": "The key isn't when you start—it's how you learn and how consistently you practice. A motivated high schooler can become proficient in 6-12 months of dedicated learning."
+        "text": "The key isn't when you start. It's how you learn and how consistently you practice. A motivated high schooler can become proficient in 6-12 months of dedicated learning."
       },
       {
         "type": "paragraph",
@@ -204,7 +204,7 @@
       },
       {
         "type": "paragraph",
-        "text": "This myth is not only wrong—it's harmful. And unfortunately, it still influences how some parents think about coding education for their daughters."
+        "text": "This myth is not only wrong. It's harmful. And unfortunately, it still influences how some parents think about coding education for their daughters."
       },
       {
         "type": "heading",
@@ -213,7 +213,7 @@
       },
       {
         "type": "paragraph",
-        "text": "There is zero evidence that gender affects coding ability. None. The gender gap in tech exists because of social factors—stereotypes, lack of role models, unwelcoming environments—not because of any inherent difference in capability."
+        "text": "There is zero evidence that gender affects coding ability. None. The gender gap in tech exists because of social factors, stereotypes, lack of role models, unwelcoming environments, not because of any inherent difference in capability."
       },
       {
         "type": "paragraph",
@@ -235,7 +235,7 @@
       },
       {
         "type": "paragraph",
-        "text": "The tech industry desperately needs more women. Companies with diverse teams build better products. By encouraging your daughter to code, you're not just helping her—you're helping shape a more inclusive future for technology."
+        "text": "The tech industry desperately needs more women. Companies with diverse teams build better products. By encouraging your daughter to code, you're not just helping her. You're helping shape a more inclusive future for technology."
       },
       {
         "type": "callout",
@@ -279,11 +279,11 @@
       },
       {
         "type": "paragraph",
-        "text": "Many coding platforms are entirely browser-based—<a href='/courses/scratch-programming-complete-course'>Scratch</a>, Replit, CodePen, Google Colab. You don't need to install anything or have powerful hardware. If your computer can run a web browser, it can run these tools."
+        "text": "Many coding platforms are entirely browser-based, <a href='/courses/scratch-programming-complete-course'>Scratch</a>, Replit, CodePen, Google Colab. You don't need to install anything or have powerful hardware. If your computer can run a web browser, it can run these tools."
       },
       {
         "type": "paragraph",
-        "text": "Even for more advanced work, you don't need gaming-level specs. A computer with 4GB RAM and a basic processor can handle <a href='/courses/python-complete-masterclass-teens'>Python</a>, web development, and most learning projects. Only specialized work like machine learning with large datasets or game development with complex graphics requires more powerful machines—and students can access cloud computing for those needs."
+        "text": "Even for more advanced work, you don't need gaming-level specs. A computer with 4GB RAM and a basic processor can handle <a href='/courses/python-complete-masterclass-teens'>Python</a>, web development, and most learning projects. Only specialized work like machine learning with large datasets or game development with complex graphics requires more powerful machines, and students can access cloud computing for those needs."
       },
       {
         "type": "paragraph",
@@ -310,11 +310,11 @@
       },
       {
         "type": "paragraph",
-        "text": "Coding is creative. You're literally creating something from nothing—games, apps, websites, art, music, stories. Many artists and creative people find coding to be an incredible new medium for expression."
+        "text": "Coding is creative. You're literally creating something from nothing, games, apps, websites, art, music, stories. Many artists and creative people find coding to be an incredible new medium for expression."
       },
       {
         "type": "paragraph",
-        "text": "Coding is social. Professional developers work in teams, collaborate on projects, review each other's code, and solve problems together. Coding communities are vibrant—hackathons, open source projects, online forums, coding clubs."
+        "text": "Coding is social. Professional developers work in teams, collaborate on projects, review each other's code, and solve problems together. Coding communities are vibrant, hackathons, open source projects, online forums, coding clubs."
       },
       {
         "type": "paragraph",
@@ -370,7 +370,7 @@
       },
       {
         "type": "paragraph",
-        "text": "This doesn't mean school CS is worthless—it's a starting point. But students who want to actually build things, prepare for tech careers, or stand out in college applications need more than what boards provide."
+        "text": "This doesn't mean school CS is worthless. It's a starting point. But students who want to actually build things, prepare for tech careers, or stand out in college applications need more than what boards provide."
       },
       {
         "type": "callout",
@@ -405,7 +405,7 @@
         "type": "list",
         "style": "unordered",
         "items": [
-          "AI tools help programmers write code faster—they don't replace programmers",
+          "AI tools help programmers write code faster. They don't replace programmers",
           "Someone still needs to know what to build, how to architect systems, and how to verify AI output",
           "AI-generated code often has bugs and security issues that humans must catch",
           "Understanding code is essential to effectively use AI coding tools",
@@ -414,7 +414,7 @@
       },
       {
         "type": "paragraph",
-        "text": "Think of it like calculators and math. Calculators didn't make math skills obsolete—they made mathematicians more productive. AI is doing the same for coding."
+        "text": "Think of it like calculators and math. Calculators didn't make math skills obsolete. They made mathematicians more productive. AI is doing the same for coding."
       },
       {
         "type": "paragraph",
@@ -422,7 +422,7 @@
       },
       {
         "type": "paragraph",
-        "text": "Learning to code now prepares students to be AI-augmented developers—the most productive and valuable kind."
+        "text": "Learning to code now prepares students to be AI-augmented developers, the most productive and valuable kind."
       },
       {
         "type": "button",
@@ -455,7 +455,7 @@
       },
       {
         "type": "paragraph",
-        "text": "Here's the secret experienced programmers know: once you truly understand one programming language, learning others becomes much easier. The core concepts—variables, loops, functions, data structures—transfer across languages. The syntax changes, but the thinking stays the same."
+        "text": "Here's the secret experienced programmers know: once you truly understand one programming language, learning others becomes much easier. The core concepts, variables, loops, functions, data structures, transfer across languages. The syntax changes, but the thinking stays the same."
       },
       {
         "type": "paragraph",
@@ -466,7 +466,7 @@
         "style": "unordered",
         "items": [
           "<strong>Start with one language</strong> and get genuinely comfortable with it",
-          "<strong><a href='/courses/python-complete-masterclass-teens'>Python</a></strong> is excellent for beginners—readable, versatile, widely used",
+          "<strong><a href='/courses/python-complete-masterclass-teens'>Python</a></strong> is excellent for beginners, readable, versatile, widely used",
           "<strong>Build real projects</strong> in that language before moving on",
           "<strong>Add languages strategically</strong> based on goals (JavaScript for web, Swift for iOS, etc.)",
           "<strong>Focus on concepts</strong> that transfer, not just syntax memorization"
@@ -497,7 +497,7 @@
       },
       {
         "type": "paragraph",
-        "text": "Coding is a skill, not a talent. Like playing an instrument, speaking a language, or playing a sport—it's learned through practice, not inherited through genes."
+        "text": "Coding is a skill, not a talent. Like playing an instrument, speaking a language, or playing a sport. It's learned through practice, not inherited through genes."
       },
       {
         "type": "paragraph",
@@ -526,7 +526,7 @@
         "type": "callout",
         "calloutType": "success",
         "title": "The Growth Mindset",
-        "text": "\"I can't code\" should become \"I can't code yet.\" Every expert was once a beginner. Every successful programmer has a history of bugs, errors, and confusion. That's not failure—that's learning."
+        "text": "\"I can't code\" should become \"I can't code yet.\" Every expert was once a beginner. Every successful programmer has a history of bugs, errors, and confusion. That's not failure. That's learning."
       },
       {
         "type": "heading",
@@ -605,19 +605,19 @@
           },
           {
             "title": "How long does it take to learn coding?",
-            "content": "Basic proficiency can be achieved in 3-6 months of consistent practice. Becoming job-ready typically takes 1-2 years. But learning never really stops—even experienced developers are always learning new things."
+            "content": "Basic proficiency can be achieved in 3-6 months of consistent practice. Becoming job-ready typically takes 1-2 years. But learning never really stops, even experienced developers are always learning new things."
           },
           {
             "title": "Is online coding education as effective as in-person?",
-            "content": "Yes, when done right. Quality online education with live instruction, projects, and community support can be just as effective as in-person learning—often more convenient and accessible."
+            "content": "Yes, when done right. Quality online education with live instruction, projects, and community support can be just as effective as in-person learning, often more convenient and accessible."
           },
           {
             "title": "My child tried coding before and didn't like it. Should they try again?",
-            "content": "Absolutely. A bad first experience often comes from wrong tools, poor instruction, or mismatched expectations. Try a different approach—different language, different projects, different teaching style. Many successful coders had false starts."
+            "content": "Absolutely. A bad first experience often comes from wrong tools, poor instruction, or mismatched expectations. Try a different approach, different language, different projects, different teaching style. Many successful coders had false starts."
           },
           {
             "title": "Will coding help with school academics?",
-            "content": "Yes. Coding develops logical thinking, problem-solving, and persistence—skills that transfer to math, science, and other subjects. Many students see academic improvement after learning to code."
+            "content": "Yes. Coding develops logical thinking, problem-solving, and persistence, skills that transfer to math, science, and other subjects. Many students see academic improvement after learning to code."
           }
         ]
       },
@@ -628,11 +628,11 @@
       },
       {
         "type": "paragraph",
-        "text": "The myths surrounding coding education are powerful, but they're just that—myths. Coding doesn't require math genius, isn't just for future engineers, isn't too late to start, and isn't boring or isolating."
+        "text": "The myths surrounding coding education are powerful, but they're just that, myths. Coding doesn't require math genius, isn't just for future engineers, isn't too late to start, and isn't boring or isolating."
       },
       {
         "type": "paragraph",
-        "text": "What coding does require is curiosity, persistence, and good guidance. With those ingredients, any student can learn to code and benefit from the skills it builds—regardless of their background, gender, or career aspirations."
+        "text": "What coding does require is curiosity, persistence, and good guidance. With those ingredients, any student can learn to code and benefit from the skills it builds, regardless of their background, gender, or career aspirations."
       },
       {
         "type": "paragraph",

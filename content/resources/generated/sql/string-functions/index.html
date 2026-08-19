@@ -17,7 +17,7 @@
     <!-- SEO Meta Tags -->
     <meta name="description" content="Manipulate text with CONCAT, SUBSTRING, UPPER, LOWER, TRIM, REPLACE, LENGTH, LOCATE, LEFT, RIGHT.">
     <!-- meta keywords intentionally not emitted: Google has ignored it since 2009 and Bing
-         treats it as a SPAM SIGNAL — and Bing is the index ChatGPT/Copilot answer from.
+         treats it as a SPAM SIGNAL, and Bing is the index ChatGPT/Copilot answer from.
          See scripts/strip-meta-keywords.py. -->
     <meta name="author" content="Modern Age Coders">
     <meta name="robots" content="index, follow">
@@ -135,7 +135,7 @@
         "name": "SUBSTRING With Off-by-One Error",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "MySQL's SUBSTRING is 1-indexed. Position 1 is the first character. Position 0 is undefined or treated as 'before the start'. Use LEFT(str, n) when you want a prefix — it is more readable."
+          "text": "MySQL's SUBSTRING is 1-indexed. Position 1 is the first character. Position 0 is undefined or treated as 'before the start'. Use LEFT(str, n) when you want a prefix. It is more readable."
         }
       },
       {
@@ -202,7 +202,7 @@
 
             <section id="what" class="content-section">
                 <h2>What Is It?</h2>
-                <h2>What Are SQL String Functions?</h2><p>String functions transform and extract information from text (VARCHAR, TEXT, CHAR) values. Real-world data is messy: names with extra spaces, inconsistent capitalization, phone numbers with random separators, emails in mixed case. Before you can report on it, you have to clean it — and clean SQL string functions are the way.</p><p>MySQL ships dozens of string functions. This chapter covers the 20 or so that you will actually use every week as a data analyst or backend developer.</p><h3>Sample Table Used Throughout This Chapter</h3><pre><code>CREATE TABLE customers (
+                <h2>What Are SQL String Functions?</h2><p>String functions transform and extract information from text (VARCHAR, TEXT, CHAR) values. Real-world data is messy: names with extra spaces, inconsistent capitalization, phone numbers with random separators, emails in mixed case. Before you can report on it, you have to clean it, and clean SQL string functions are the way.</p><p>MySQL ships dozens of string functions. This chapter covers the 20 or so that you will actually use every week as a data analyst or backend developer.</p><h3>Sample Table Used Throughout This Chapter</h3><pre><code>CREATE TABLE customers (
     id INT PRIMARY KEY,
     full_name VARCHAR(100),
     email VARCHAR(100),
@@ -220,7 +220,7 @@ INSERT INTO customers VALUES
 
             <section id="why" class="content-section">
                 <h2>Why Does It Matter?</h2>
-                <h2>Why String Functions Matter</h2><h3>1. Every Real Database Has Dirty Text</h3><p>User-entered data is always messy. Even 'clean' data from APIs has quirks. Before you can match, group, or report, you need normalization: trim spaces, lowercase emails, format phone numbers consistently. String functions let you do this at the database level, often faster than in application code.</p><h3>2. Searching and Matching Depends on It</h3><p>Equality comparisons on VARCHAR are case-sensitive in many collations. Email validation, name matching, deduplication — all need LOWER() or TRIM() or both. If you do not normalize, 'Aarav Kumar' and 'aarav kumar' are different customers to SQL, which is wrong.</p><h3>3. Reporting Requires Formatting</h3><p>Concatenate first and last names for display. Mask credit card numbers showing only the last 4 digits. Format phone numbers for printing. Truncate long descriptions. All of this is string function work.</p><h3>4. Interview Questions Use String Functions</h3><p>'Extract the domain from an email,' 'Get the first name,' 'Format names in proper case,' 'Find all customers with a specific prefix,' 'Count occurrences of a character.' These appear in real SQL interviews regularly.</p>
+                <h2>Why String Functions Matter</h2><h3>1. Every Real Database Has Dirty Text</h3><p>User-entered data is always messy. Even 'clean' data from APIs has quirks. Before you can match, group, or report, you need normalization: trim spaces, lowercase emails, format phone numbers consistently. String functions let you do this at the database level, often faster than in application code.</p><h3>2. Searching and Matching Depends on It</h3><p>Equality comparisons on VARCHAR are case-sensitive in many collations. Email validation, name matching, deduplication, all need LOWER() or TRIM() or both. If you do not normalize, 'Aarav Kumar' and 'aarav kumar' are different customers to SQL, which is wrong.</p><h3>3. Reporting Requires Formatting</h3><p>Concatenate first and last names for display. Mask credit card numbers showing only the last 4 digits. Format phone numbers for printing. Truncate long descriptions. All of this is string function work.</p><h3>4. Interview Questions Use String Functions</h3><p>'Extract the domain from an email,' 'Get the first name,' 'Format names in proper case,' 'Find all customers with a specific prefix,' 'Count occurrences of a character.' These appear in real SQL interviews regularly.</p>
             </section>
 
             <section id="explanation" class="content-section">
@@ -346,7 +346,7 @@ FROM customers;</code></pre><div class="code-example-explanation"><code>REPLACE(
     email,
     SUBSTRING(email, 1, LOCATE(&#39;@&#39;, email) - 1) AS username,
     SUBSTRING(email, LOCATE(&#39;@&#39;, email) + 1)   AS domain
-FROM customers;</code></pre><div class="code-example-explanation">LOCATE('@', email) returns the position of '@' (1-based). SUBSTRING with start and length extracts the username before '@'. Starting from LOCATE('@', email) + 1 without a length gives everything after '@' — the domain. LOWER(domain) would normalize it.</div><div class="code-example-output">+----------------------+--------------+------------+
+FROM customers;</code></pre><div class="code-example-explanation">LOCATE('@', email) returns the position of '@' (1-based). SUBSTRING with start and length extracts the username before '@'. Starting from LOCATE('@', email) + 1 without a length gives everything after '@', the domain. LOWER(domain) would normalize it.</div><div class="code-example-output">+----------------------+--------------+------------+
 | email                | username     | domain     |
 +----------------------+--------------+------------+
 | Aarav.Kumar@Gmail.COM| Aarav.Kumar  | Gmail.COM  |
@@ -449,13 +449,13 @@ HAVING COUNT(*) &gt; 1;</code></pre><div class="code-example-explanation">Real-w
                 <div class="mistake-card">
                 <h3>Using LENGTH When You Mean CHAR_LENGTH</h3>
                 <div class="wrong-code"><pre><code class="language-python">-- Validate that a username is 5-15 characters
-SELECT * FROM users WHERE LENGTH(username) BETWEEN 5 AND 15;</code></pre></div><div class="error-message">No error, but the check is wrong for non-ASCII names. A 5-character Hindi username might be 15 bytes (stored as UTF-8), so it incorrectly appears within the range when it should be caught as too short — or vice versa.</div><div class="correct-code"><pre><code class="language-python">SELECT * FROM users WHERE CHAR_LENGTH(username) BETWEEN 5 AND 15;</code></pre></div><div class="mistake-explanation">CHAR_LENGTH counts characters (what users see). LENGTH counts bytes (what storage uses). For user-facing validation, always use CHAR_LENGTH.</div>
+SELECT * FROM users WHERE LENGTH(username) BETWEEN 5 AND 15;</code></pre></div><div class="error-message">No error, but the check is wrong for non-ASCII names. A 5-character Hindi username might be 15 bytes (stored as UTF-8), so it incorrectly appears within the range when it should be caught as too short, or vice versa.</div><div class="correct-code"><pre><code class="language-python">SELECT * FROM users WHERE CHAR_LENGTH(username) BETWEEN 5 AND 15;</code></pre></div><div class="mistake-explanation">CHAR_LENGTH counts characters (what users see). LENGTH counts bytes (what storage uses). For user-facing validation, always use CHAR_LENGTH.</div>
             </div>
 <div class="mistake-card">
                 <h3>CONCAT With NULL Returns NULL</h3>
                 <div class="wrong-code"><pre><code class="language-python">-- middle_name is NULL for most people
 SELECT CONCAT(first_name, &#39; &#39;, middle_name, &#39; &#39;, last_name) FROM people;
--- Returns NULL whenever middle_name IS NULL — full name is lost</code></pre></div><div class="error-message">No error, but the result is NULL for every person with a NULL middle name.</div><div class="correct-code"><pre><code class="language-python">-- Use CONCAT_WS (skips NULLs automatically)
+-- Returns NULL whenever middle_name IS NULL, full name is lost</code></pre></div><div class="error-message">No error, but the result is NULL for every person with a NULL middle name.</div><div class="correct-code"><pre><code class="language-python">-- Use CONCAT_WS (skips NULLs automatically)
 SELECT CONCAT_WS(&#39; &#39;, first_name, middle_name, last_name) FROM people;
 
 -- Or use COALESCE to replace NULL with empty string
@@ -466,7 +466,7 @@ SELECT CONCAT(first_name, &#39; &#39;, COALESCE(middle_name, &#39;&#39;), &#39; 
                 <div class="wrong-code"><pre><code class="language-python">-- Intent: get the first 5 characters
 SELECT SUBSTRING(&#39;Bengaluru&#39;, 0, 5);  -- returns &#39;&#39; in MySQL!</code></pre></div><div class="error-message">No error but returns an empty string or unexpected content. MySQL treats position 0 as special.</div><div class="correct-code"><pre><code class="language-python">SELECT SUBSTRING(&#39;Bengaluru&#39;, 1, 5);  -- &#39;Benga&#39;
 -- Or use LEFT for prefixes
-SELECT LEFT(&#39;Bengaluru&#39;, 5);</code></pre></div><div class="mistake-explanation">MySQL's SUBSTRING is 1-indexed. Position 1 is the first character. Position 0 is undefined or treated as 'before the start'. Use LEFT(str, n) when you want a prefix — it is more readable.</div>
+SELECT LEFT(&#39;Bengaluru&#39;, 5);</code></pre></div><div class="mistake-explanation">MySQL's SUBSTRING is 1-indexed. Position 1 is the first character. Position 0 is undefined or treated as 'before the start'. Use LEFT(str, n) when you want a prefix. It is more readable.</div>
             </div>
 <div class="mistake-card">
                 <h3>Forgetting REPLACE Is Case-Sensitive</h3>
@@ -484,13 +484,13 @@ SELECT REPLACE(LOWER(email), &#39;gmail&#39;, &#39;GMAIL&#39;) FROM customers;</
                 <h2>Summary</h2>
                 <div class="summary-box"><ul><li>CONCAT joins strings with no separator. CONCAT_WS takes a separator and safely skips NULL arguments. CONCAT returns NULL if any argument is NULL.</li>
 <li>LENGTH returns bytes; CHAR_LENGTH returns characters. For user-facing validation and Unicode text, use CHAR_LENGTH.</li>
-<li>UPPER and LOWER change case. MySQL has no INITCAP — proper case requires manual substring manipulation or a UDF.</li>
+<li>UPPER and LOWER change case. MySQL has no INITCAP, proper case requires manual substring manipulation or a UDF.</li>
 <li>SUBSTRING(str, start, length) is 1-indexed. LEFT(str, n) and RIGHT(str, n) are more readable for prefixes and suffixes.</li>
 <li>TRIM removes whitespace; LTRIM and RTRIM remove from one side. TRIM with LEADING/TRAILING/BOTH and a specific character cleans other padding.</li>
 <li>REPLACE is case-sensitive. For case-insensitive replacement in MySQL 8.0+, use REGEXP_REPLACE with the &#39;i&#39; flag.</li>
 <li>LOCATE, INSTR, POSITION all find a substring and return 1-based position (0 if not found). Combine with SUBSTRING to extract parts like email domains.</li>
 <li>LPAD and RPAD add padding to make strings a fixed length. Common use: formatting IDs like &#39;000042&#39; or SKUs like &#39;PRD-000042&#39;.</li>
-<li>REVERSE and REPEAT are niche. FORMAT(n, d) formats a number with thousands separators and d decimals — returns a string.</li>
+<li>REVERSE and REPEAT are niche. FORMAT(n, d) formats a number with thousands separators and d decimals, returns a string.</li>
 <li>For cleaning data: TRIM then REPLACE to remove bad characters, LOWER for normalized comparison, CONCAT_WS for NULL-safe joining.</li></ul></div>
             </section>
 

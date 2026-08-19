@@ -79,7 +79,7 @@ console.log(typeof undefined);
 **Answer:** `object`
 `undefined`
 
-`typeof null` returns `"object"` — this is a well-known bug from 1995. `typeof undefined` correctly returns `"undefined"`.
+`typeof null` returns `"object"`. This is a well-known bug from 1995. `typeof undefined` correctly returns `"undefined"`.
 
 ### Q6. [Medium] What is the output?
 
@@ -111,7 +111,7 @@ console.log(Number.isNaN(NaN));
 `number`
 `true`
 
-`NaN === NaN` is `false` — NaN is not equal to itself. `typeof NaN` returns `"number"`. `Number.isNaN(NaN)` is the correct way to check for NaN, returning `true`.
+`NaN === NaN` is `false`: NaN is not equal to itself. `typeof NaN` returns `"number"`. `Number.isNaN(NaN)` is the correct way to check for NaN, returning `true`.
 
 ### Q8. [Medium] What is the output?
 
@@ -456,7 +456,7 @@ console.log(Number.isNaN(NaN));
 `false`
 `true`
 
-Global `isNaN("hello")` converts "hello" to NaN first, then checks: true. `isNaN("42")` converts to 42 (valid number): false. `Number.isNaN("hello")` does NOT convert — "hello" is a string, not NaN: false. `Number.isNaN(NaN)` checks the actual NaN value: true.
+Global `isNaN("hello")` converts "hello" to NaN first, then checks: true. `isNaN("42")` converts to 42 (valid number): false. `Number.isNaN("hello")` does NOT convert, "hello" is a string, not NaN: false. `Number.isNaN(NaN)` checks the actual NaN value: true.
 
 ### Q8. [Medium] Neha tries to build a string using template literals but gets the literal text '${name}' instead of the value:
 

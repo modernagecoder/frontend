@@ -6,7 +6,7 @@
  *   2. A "contact 9123366161 directly for a faster response" line
  *      inside the Request-a-Callback modal (form view + success view)
  *
- * Safe to re-run any time (e.g. after generating new pages) — it only
+ * Safe to re-run any time (e.g. after generating new pages). It only
  * touches files that are missing a piece, and never duplicates.
  *
  * Run from the `frontend` directory:  node scripts/ensure-whatsapp-and-callback.js
@@ -61,12 +61,12 @@ const WHATSAPP_BUTTON = `
 </style>
 `;
 
-// Callback modal — form view: shown under "we'll call you right back!"
+// Callback modal, form view: shown under "we'll call you right back!"
 const CALLBACK_FORM_ANCHOR = `we'll call you right back!</p>`;
 const CALLBACK_FORM_LINE = `${CALLBACK_FORM_ANCHOR}
         <p class="callback-direct-line" style="font-size:13.5px; color:#374151; margin:-12px 0 22px; line-height:1.5;">Or contact <a href="https://wa.me/${WA_NUMBER}?text=Hi%2C%20I%20need%20help%20%E2%80%93%20please%20get%20in%20touch" target="_blank" rel="noopener noreferrer" style="color:#10b981; font-weight:700; text-decoration:none;">9123366161</a> directly for a faster response</p>`;
 
-// Callback modal — success view: shown under "Expect a call within 3 hours"
+// Callback modal, success view: shown under "Expect a call within 3 hours"
 const CALLBACK_SUCCESS_ANCHOR = `Expect a call within 3 hours</p>`;
 const CALLBACK_SUCCESS_LINE = `${CALLBACK_SUCCESS_ANCHOR}
             <p class="callback-success-direct" style="font-size:13px; color:#374151; margin:12px 0 0;">For a faster response, contact <a href="https://wa.me/${WA_NUMBER}?text=Hi%2C%20I%20just%20requested%20a%20callback" target="_blank" rel="noopener noreferrer" style="color:#10b981; font-weight:700; text-decoration:none;">9123366161</a> directly</p>`;

@@ -188,7 +188,7 @@ footer.bot a{color:var(--muted)}
 <div class="wrap">
   <div class="why">
     <h2>Why so many AI tools ban children</h2>
-    <p>Most parents assume an AI tool bans under-13s because it is unsuitable. That is usually not the reason. Age floors in software terms track <strong>contract law and data-protection liability</strong> &mdash; COPPA in the US, GDPR Article 8 in Europe, and India's DPDP Act 2023 &mdash; not whether the tool is any good for a child. A minor cannot form a binding contract, so the safest thing a vendor can write is a high number.</p>
+    <p>Most parents assume an AI tool bans under-13s because it is unsuitable. That is usually not the reason. Age floors in software terms track <strong>contract law and data-protection liability</strong>, COPPA in the US, GDPR Article 8 in Europe, and India's DPDP Act 2023, not whether the tool is any good for a child. A minor cannot form a binding contract, so the safest thing a vendor can write is a high number.</p>
     <p>That cuts both ways. Some genuinely careful tools ban under-16s for paperwork reasons. And some tools that look harmless bar under-18s while a tool with real adult content sits at 13. <strong>You cannot tell from the marketing. You have to read the terms.</strong> So we did.</p>
     <p>Two things worth knowing before you scan the list. A tool saying &ldquo;13, or the minimum age required in your country&rdquo; quietly means <strong>18 in India</strong>, because that is the age you can consent for yourself here. And parental consent does not always help: a few vendors say in writing that the adult must <em>be</em> the account holder, or that consent cannot cure the bar at all.</p>
   </div>
@@ -213,7 +213,7 @@ ${cats.map(section).join('\n')}
 </main>
 
 <footer class="bot"><div class="wrap">
-  <p><strong>How we checked.</strong> Every age above was read from a page owned by the vendor and quoted word for word. Nothing here came from a search result, a summary, or an app-store rating &mdash; those are frequently wrong, and during this audit a search engine confidently attributed one company's age policy to a completely different company. Where a vendor publishes no age at all, we say so rather than guess. Follow any source link and check us.</p>
+  <p><strong>How we checked.</strong> Every age above was read from a page owned by the vendor and quoted word for word. Nothing here came from a search result, a summary, or an app-store rating, those are frequently wrong, and during this audit a search engine confidently attributed one company's age policy to a completely different company. Where a vendor publishes no age at all, we say so rather than guess. Follow any source link and check us.</p>
   <p><strong>Last checked ${esc(d._about.audited)}.</strong> Vendors change their terms without notice, so treat anything here as a starting point rather than gospel. If you find something out of date, <a href="/contact">tell us</a> and we will re-check it.</p>
   <p>Modern Age Coders &middot; <a href="/courses">Courses</a> &middot; <a href="/contact">Contact</a></p>
 </div></footer>

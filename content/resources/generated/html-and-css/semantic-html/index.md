@@ -17,11 +17,11 @@ keywords: ["semantic html", "html5 semantic tags", "header nav main", "article s
 
 **Semantic HTML** means using HTML tags that describe the *meaning* of your content, not just how it looks. When you write ``, you are telling the browser, the search engine, and the screen reader: "This is the header of my page." When you write ``, you are saying: "This is the navigation." When you write ``, you are saying: "This is a self-contained piece of content like a blog post."
 
-Compare this to using only `` and `` everywhere. Those tags mean nothing. A page made entirely of divs is called **div soup** — a big pile of meaningless boxes. The browser has no idea what anything is. Neither does Google. Neither does a screen reader.
+Compare this to using only `` and `` everywhere. Those tags mean nothing. A page made entirely of divs is called **div soup**, a big pile of meaningless boxes. The browser has no idea what anything is. Neither does Google. Neither does a screen reader.
 
 ### Meaning Over Appearance
 
-Here is the core idea: **HTML is about meaning, CSS is about appearance.** When you choose a tag, ask yourself: "What is this content?" — not "How should it look?" A heading is an `` because it IS a heading, not because you want big bold text. If you want big bold text somewhere that is NOT a heading, use CSS on a ``.
+Here is the core idea: **HTML is about meaning, CSS is about appearance.** When you choose a tag, ask yourself: "What is this content?", not "How should it look?" A heading is an `` because it IS a heading, not because you want big bold text. If you want big bold text somewhere that is NOT a heading, use CSS on a ``.
 
 ## Why Should You Use Semantic HTML?
 
@@ -31,11 +31,11 @@ Google's crawler reads your HTML to understand what the page is about. When it s
 
 ### 2. Accessibility (Screen Readers)
 
-About 1 in 10 people worldwide have some form of disability. Many blind or low-vision users browse the web using **screen readers** — software that reads the page aloud. Screen readers use HTML tags to navigate. A user can jump straight to the `` content, skipping the header and nav. They can list all `` headings to get an overview. None of this works with div soup.
+About 1 in 10 people worldwide have some form of disability. Many blind or low-vision users browse the web using **screen readers**, software that reads the page aloud. Screen readers use HTML tags to navigate. A user can jump straight to the `` content, skipping the header and nav. They can list all `` headings to get an overview. None of this works with div soup.
 
 ### 3. Maintainability
 
-Six months from now, when you come back to edit your code, semantic tags are much easier to understand. `` tells you immediately what you are looking at. `` tells you nothing — you have to read the CSS and guess.
+Six months from now, when you come back to edit your code, semantic tags are much easier to understand. `` tells you immediately what you are looking at. `` tells you nothing. You have to read the CSS and guess.
 
 ### 4. Built-in Styling and Behavior
 
@@ -47,7 +47,7 @@ Let us go through each major semantic tag and learn when to use it.
 
 ### 
 
-The header of a page or section. A `` usually contains a logo, the site name, and sometimes the main navigation. You can have multiple `` tags on a page — one for the whole page, and one inside each `` for the article title and author.
+The header of a page or section. A `` usually contains a logo, the site name, and sometimes the main navigation. You can have multiple `` tags on a page, one for the whole page, and one inside each `` for the article title and author.
 
 ```
 
@@ -63,7 +63,7 @@ Learn to code in a modern way
 
 ### 
 
-A group of major navigation links. Put your main menu here. Not every list of links is a nav — only the primary navigation. The footer links at the bottom of a page do NOT need to be inside a `` (unless they are the main navigation).
+A group of major navigation links. Put your main menu here. Not every list of links is a nav, only the primary navigation. The footer links at the bottom of a page do NOT need to be inside a `` (unless they are the main navigation).
 
 ```
 
@@ -77,7 +77,7 @@ A group of major navigation links. Put your main menu here. Not every list of li
 
 ### 
 
-The main content of the page — the unique stuff this page exists to show. There should be **exactly one** `` per page. It should NOT contain the header, nav, sidebar, or footer — only the main content.
+The main content of the page, the unique stuff this page exists to show. There should be **exactly one** `` per page. It should NOT contain the header, nav, sidebar, or footer, only the main content.
 
 ```
 
@@ -88,7 +88,7 @@ The main content of the page — the unique stuff this page exists to show. Ther
 
 ### 
 
-A themed group of content — a section of the page. Usually has a heading. Use it when you have clearly distinct parts of a page, like "Features", "Pricing", "Testimonials". Each section should make sense as its own chunk.
+A themed group of content, a section of the page. Usually has a heading. Use it when you have clearly distinct parts of a page, like "Features", "Pricing", "Testimonials". Each section should make sense as its own chunk.
 
 ```
 
@@ -128,7 +128,7 @@ A common question: what is the difference? Think of it this way: **article = sta
 
 ### 
 
-Content that is related to the main content but not part of it — like a sidebar, a pull quote, or a related articles list. If removing it would not hurt understanding of the main content, it is an aside.
+Content that is related to the main content but not part of it, like a sidebar, a pull quote, or a related articles list. If removing it would not hurt understanding of the main content, it is an aside.
 
 ```
 
@@ -144,7 +144,7 @@ Content that is related to the main content but not part of it — like a sideba
 
 ### 
 
-The footer of a page or section. Usually contains copyright info, links, contact details, and so on. Like ``, you can have multiple footers — one for the whole page and one inside each article (showing the author or publish date).
+The footer of a page or section. Usually contains copyright info, links, contact details, and so on. Like ``, you can have multiple footers, one for the whole page and one inside each article (showing the author or publish date).
 
 ```
 
@@ -175,7 +175,7 @@ Published on 11 April 2026.
 
 ### 
 
-Contact information for the nearest `` or the whole page. Not for any address — only contact info. Browsers usually italicize it.
+Contact information for the nearest `` or the whole page. Not for any address, only contact info. Browsers usually italicize it.
 
 ```
 
@@ -386,7 +386,7 @@ A styled news article with title, publish time, a featured image with caption, b
 </html>
 ```
 
-This demonstrates the section vs article difference. The page has 3 ``s — About, Features, Pricing. These are thematic parts of the page. Inside the Features section, each feature is an `` because each one could stand alone as a mini-card. Sections group related things; articles are standalone pieces.
+This demonstrates the section vs article difference. The page has 3 ``s: About, Features, Pricing. These are thematic parts of the page. Inside the Features section, each feature is an `` because each one could stand alone as a mini-card. Sections group related things; articles are standalone pieces.
 
 **Output:**
 
@@ -434,7 +434,7 @@ A landing page with 3 alternating-background sections. The Features section cont
 </html>
 ```
 
-The `` sits beside the main content. It holds an author bio and popular post links — related but not essential. If you removed the aside, the article would still make perfect sense. That is the test: if removing it breaks nothing, it is an aside.
+The `` sits beside the main content. It holds an author bio and popular post links, related but not essential. If you removed the aside, the article would still make perfect sense. That is the test: if removing it breaks nothing, it is an aside.
 
 **Output:**
 
@@ -474,7 +474,7 @@ A two-column layout with a blog article on the left (wider) and a grey sidebar o
         <h2>Getting Started with CSS</h2>
         <p>By Priya - <time datetime="2026-04-08">8 April 2026</time></p>
       </header>
-      <p>Once you know HTML, CSS lets you make it beautiful. Colors, fonts, layouts — all with CSS.</p>
+      <p>Once you know HTML, CSS lets you make it beautiful. Colors, fonts, layouts, all with CSS.</p>
       <footer>Tags: css, design, beginners</footer>
     </article>
 
@@ -491,7 +491,7 @@ A two-column layout with a blog article on the left (wider) and a grey sidebar o
 </html>
 ```
 
-This shows that every `` can have its own `` and ``. The article header holds the title, author, and date. The article footer holds tags. The page itself also has a main h1. Each article is self-contained — you could copy one and paste it on another page and it would still make sense.
+This shows that every `` can have its own `` and ``. The article header holds the title, author, and date. The article footer holds tags. The page itself also has a main h1. Each article is self-contained. You could copy one and paste it on another page and it would still make sense.
 
 **Output:**
 
@@ -534,7 +534,7 @@ Three card-style blog posts stacked vertically, each with a title, author, date,
 </html>
 ```
 
-`` is for media content (images, code, diagrams) that have a caption. The `` must be the first or last child of the figure. Notice that figures work for code blocks too — not just images.
+`` is for media content (images, code, diagrams) that have a caption. The `` must be the first or last child of the figure. Notice that figures work for code blocks too, not just images.
 
 **Output:**
 
@@ -610,7 +610,7 @@ HTML spec says there should be only one  per page.
 </main>
 ```
 
-There should be exactly ONE `` per page — it represents the unique main content. For grouping internal content, use ``.
+There should be exactly ONE `` per page. It represents the unique main content. For grouping internal content, use ``.
 
 ### Putting Header and Footer Inside main
 
@@ -636,7 +636,7 @@ No error, but structurally wrong. The site header and footer should be outside m
 <footer>Site Footer</footer>
 ```
 
-The page's main header and footer are NOT part of the main content — they are navigation and site-wide elements. Only put the unique page content inside ``. The header and footer sit as siblings of main, not inside it. (An `` can have its own inner header and footer — that is fine.)
+The page's main header and footer are NOT part of the main content. They are navigation and site-wide elements. Only put the unique page content inside ``. The header and footer sit as siblings of main, not inside it. (An `` can have its own inner header and footer. That is fine.)
 
 ### Using section Without a Heading
 
@@ -661,7 +661,7 @@ Not invalid HTML, but  should almost always have a heading.
 </section>
 ```
 
-A `` represents a thematic group — it should have a heading that names the theme. If there is no meaningful heading, you probably want a `` instead.
+A `` represents a thematic group. It should have a heading that names the theme. If there is no meaningful heading, you probably want a `` instead.
 
 ### Using figure for Every Image
 
@@ -681,16 +681,16 @@ Not wrong per se, but figure is meant for content with a caption. A logo does no
 <img src="logo.png" alt="Logo">
 ```
 
-`` is for content that is referenced from the main flow — like an illustration in an article, a diagram, or a code example. Small decorative images like logos and icons do not need figure. Use figure when the image is meaningful content, not decoration.
+`` is for content that is referenced from the main flow, like an illustration in an article, a diagram, or a code example. Small decorative images like logos and icons do not need figure. Use figure when the image is meaningful content, not decoration.
 
 ## Summary
 
 - Semantic HTML uses tags that describe the MEANING of content, not just how it looks. HTML is for meaning, CSS is for appearance.
 - is the top of a page or section. Usually holds the logo and navigation. You can have multiple headers (one per page, one per article).
-- wraps the main navigation links of a site. Not every link group is a nav — only the primary navigation.
+- wraps the main navigation links of a site. Not every link group is a nav, only the primary navigation.
 - holds the unique main content of the page. There should be exactly ONE main per page, and it should NOT contain site header, nav, or footer.
 - is a thematic group of content, usually with a heading. Use it to divide a page into clear parts like About, Features, Pricing.
-- is standalone content that makes sense on its own — a blog post, news article, product card, or comment.
+- is standalone content that makes sense on its own, a blog post, news article, product card, or comment.
 - is related but non-essential content, like a sidebar or pull quote. Removing it should not hurt the main content.
 - is the footer of a page or section. Contains copyright, links, contact info. You can have multiple footers (page, article).
 - with  is for images, diagrams, or code that have captions.  marks up dates.  holds contact info.

@@ -89,7 +89,7 @@ All three are needed. The transparency lets the blur show through, the blur crea
 
 **Answer:** Dark mode makes colorful gradients, glows, and neon effects pop. It looks more premium and modern. Most hiring managers and designers prefer it in 2026 portfolios.
 
-Light mode is fine, but dark mode is dramatic — and drama is what a portfolio wants. The neon gradient hero on a dark background is the signature look of modern developer portfolios.
+Light mode is fine, but dark mode is dramatic, and drama is what a portfolio wants. The neon gradient hero on a dark background is the signature look of modern developer portfolios.
 
 ### Q11. [Medium] What does this do?
 
@@ -158,7 +158,7 @@ The most common entry animation on the web. Combined with `animation-delay` on s
 
 **Answer:** When an anchor link scrolls to a section, the browser leaves 90px of space at the top so the section heading is not hidden under the fixed navbar.
 
-Without scroll-padding-top, clicking `#about` would scroll the 'About' heading right to the top of the viewport, directly under the nav — hidden. Adding padding equal to the navbar height fixes it.
+Without scroll-padding-top, clicking `#about` would scroll the 'About' heading right to the top of the viewport, directly under the nav, hidden. Adding padding equal to the navbar height fixes it.
 
 ### Q18. [Medium] What does the pulsing dot effect use?
 
@@ -181,7 +181,7 @@ The 0%/100% keyframes mean it starts and ends at the same state, so the infinite
 
 **Answer:** You probably forgot `-webkit-text-fill-color: transparent` (or `color: transparent`). Without it, the default text color hides the gradient.
 
-`background-clip: text` only clips the background to the text shape — it does not change the text color. You must also make the text itself transparent so the clipped background is visible.
+`background-clip: text` only clips the background to the text shape. It does not change the text color. You must also make the text itself transparent so the clipped background is visible.
 
 ### Q20. [Medium] What does this do?
 
@@ -294,7 +294,7 @@ Without a transition, CSS variable changes apply immediately. A 0.4s transition 
 
 *Hint:* Attention.
 
-**Answer:** A pulsing glow draws attention to the avatar — the most important element of the about section. Static shadows blend in, animated ones catch the eye without being annoying.
+**Answer:** A pulsing glow draws attention to the avatar, the most important element of the about section. Static shadows blend in, animated ones catch the eye without being annoying.
 
 Good animations guide attention subtly. A breathing glow on the avatar hints 'look here, this is the person' without needing any arrows or labels.
 

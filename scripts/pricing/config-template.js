@@ -6,7 +6,7 @@
  * owner can never drift from the numbers or get destroyed by a save.
  *
  * The worldwide/PPP layer was REMOVED at the owner's request on 2026-08-01:
- * pricing is deliberately flat again — one USD price list for everyone
+ * pricing is deliberately flat again, one USD price list for everyone
  * outside India, rupees inside India.
  */
 
@@ -14,21 +14,21 @@
 
 /** The editable numbers, with their meaning. null = not sold. */
 const FIELDS = [
-    ['coding.india.group', 'India coding — Group'],
-    ['coding.india.miniBatch', 'India coding — Mini Batch'],
-    ['coding.india.personal', 'India coding — 1-on-1'],
-    ['maths.india.group', 'India maths — Group'],
-    ['maths.india.miniBatch', 'India maths — Mini Batch'],
-    ['maths.india.personal', 'India maths — 1-on-1'],
-    ['agents.india.group', 'AI agents (Codex/Claude, Copilot Studio) — Group (India)'],
-    ['agents.india.miniBatch', 'AI agents (Codex/Claude, Copilot Studio) — Mini Batch (India)'],
-    ['agents.india.personal', 'AI agents (Codex/Claude, Copilot Studio) — 1-on-1 (India)'],
-    ['school.india.group', 'School bootcamp — Group (India)'],
-    ['school.india.personal', 'School bootcamp — 1-on-1 (India)'],
-    ['camps.india.oneTime', 'Holiday camp — one payment (India)'],
-    ['intl.group', 'OUTSIDE India — Group (USD, all courses)'],
-    ['intl.personal', 'OUTSIDE India — 1-on-1 (USD, all courses)'],
-    ['camps.intl.oneTime', 'Holiday camp — one payment (USD)']
+    ['coding.india.group', 'India coding, Group'],
+    ['coding.india.miniBatch', 'India coding, Mini Batch'],
+    ['coding.india.personal', 'India coding, 1-on-1'],
+    ['maths.india.group', 'India maths, Group'],
+    ['maths.india.miniBatch', 'India maths, Mini Batch'],
+    ['maths.india.personal', 'India maths, 1-on-1'],
+    ['agents.india.group', 'AI agents (Codex/Claude, Copilot Studio), Group (India)'],
+    ['agents.india.miniBatch', 'AI agents (Codex/Claude, Copilot Studio), Mini Batch (India)'],
+    ['agents.india.personal', 'AI agents (Codex/Claude, Copilot Studio), 1-on-1 (India)'],
+    ['school.india.group', 'School bootcamp, Group (India)'],
+    ['school.india.personal', 'School bootcamp, 1-on-1 (India)'],
+    ['camps.india.oneTime', 'Holiday camp, one payment (India)'],
+    ['intl.group', 'OUTSIDE India, Group (USD, all courses)'],
+    ['intl.personal', 'OUTSIDE India, 1-on-1 (USD, all courses)'],
+    ['camps.intl.oneTime', 'Holiday camp, one payment (USD)']
 ];
 
 function num(v) {
@@ -41,11 +41,11 @@ function num(v) {
  */
 function render(v) {
     return `// ═══════════════════════════════════════════════════════════════════════════
-//  MODERN AGE CODERS — THE ONLY FILE YOU EDIT TO CHANGE A PRICE
+//  MODERN AGE CODERS: THE ONLY FILE YOU EDIT TO CHANGE A PRICE
 // ═══════════════════════════════════════════════════════════════════════════
 //
 //  Easiest way: run  npm run dev  and open  http://localhost:3001/__pricing
-//  — a form that edits this file and updates every page for you.
+//, a form that edits this file and updates every page for you.
 //
 //  By hand: change a number below, then run
 //
@@ -59,10 +59,10 @@ function render(v) {
 //  Detection is automatic; international visitors are charged in USD.
 //
 //  Rules: plain digits only (7500, never 7,500 or "7500" or ₹7500).
-//  null means "we do not sell this" — the plan is hidden, never given a
+//  null means "we do not sell this", the plan is hidden, never given a
 //  made-up price. Comments are allowed; trailing commas are not.
 //
-//  DO NOT hand-edit the structure — the price editor rewrites this file from
+//  DO NOT hand-edit the structure, the price editor rewrites this file from
 //  scripts/pricing/config-template.js. Change VALUES here or use the editor.
 // ═══════════════════════════════════════════════════════════════════════════
 {
@@ -70,7 +70,7 @@ function render(v) {
   "updated": "${v.updated}",
 
   // ───────────────────────────────────────────────────────────────────────
-  //  THE PRICES  (subject.region.tier — e.g. coding.india.group)
+  //  THE PRICES  (subject.region.tier, e.g. coding.india.group)
   // ───────────────────────────────────────────────────────────────────────
   "plans": {
 
@@ -87,7 +87,7 @@ function render(v) {
     },
 
     // The AI agents courses (Codex + Claude Code, and AI Agents with Copilot
-    // Studio — see courseOverrides below). Priced the same as coding since
+    // Studio. See courseOverrides below). Priced the same as coding since
     // 2026-08-10; raise these rows alone to restore a premium. The Copilot
     // Studio courses are sold 1-on-1 ONLY (their pages hide the Group and
     // Mini Batch plans, so those two numbers never show there).
@@ -110,7 +110,7 @@ function render(v) {
   },
 
   // ───────────────────────────────────────────────────────────────────────
-  //  COURSES PRICED DIFFERENTLY — add a slug to move a course onto another
+  //  COURSES PRICED DIFFERENTLY, add a slug to move a course onto another
   //  price set. pricing:check errors on a slug that matches no course.
   // ───────────────────────────────────────────────────────────────────────
   "courseOverrides": {

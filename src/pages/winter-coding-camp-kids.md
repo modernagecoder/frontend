@@ -1,10 +1,10 @@
 ---
 title: "Winter Coding Camp for Kids 2026 (Ages 6–11) | Online Worldwide | Modern Age Coders"
-description: "Winter Coding Camp for Kids 2026 (Ages 6–11) — Online worldwide. Learn Scratch, Python & build fun games in 8 live one-to-one classes. ₹9,999 / $200. Enroll now!"
+description: "Winter Coding Camp for Kids 2026 (Ages 6–11): Online worldwide. Learn Scratch, Python & build fun games in 8 live one-to-one classes. ₹9,999 / $200. Enroll now!"
 canonical: https://learn.modernagecoders.com/winter-coding-camp-kids
 source: src/pages/winter-coding-camp-kids.html
 ---
-> Winter Coding Camp for Kids 2026 (Ages 6–11) — Online worldwide. Learn Scratch, Python & build fun games in 8 live one-to-one classes. ₹9,999 / $200. Enroll now!
+> Winter Coding Camp for Kids 2026 (Ages 6–11): Online worldwide. Learn Scratch, Python & build fun games in 8 live one-to-one classes. ₹9,999 / $200. Enroll now!
 
 Investment
 
@@ -46,19 +46,19 @@ Talk to Counsellor**9123366161**[Call Now](tel:9123366161)Skills They'll Gain
 
 ### Game Development
 
-Design and build their own video games from scratch. Physics, animations, scoring — the works. Kids go from players to creators.
+Design and build their own video games from scratch. Physics, animations, scoring, the works. Kids go from players to creators.
 
 ### Scratch Programming
 
-The world's most popular visual coding language for kids. Drag-and-drop logic, sprite animations, interactive stories — all designed for young learners.
+The world's most popular visual coding language for kids. Drag-and-drop logic, sprite animations, interactive stories, all designed for young learners.
 
 ### Python Basics
 
-Introduction to real-world programming. Variables, loops, conditionals — concepts that will serve them for life. Made fun and approachable for ages 6+.
+Introduction to real-world programming. Variables, loops, conditionals, concepts that will serve them for life. Made fun and approachable for ages 6+.
 
 ### Creative Storytelling
 
-Code interactive stories, animations, and presentations. Kids learn to express ideas digitally — a superpower in the modern world.
+Code interactive stories, animations, and presentations. Kids learn to express ideas digitally, a superpower in the modern world.
 
 ### Collaborative Problem-Solving
 
@@ -66,7 +66,7 @@ Work with peers from around the world to tackle coding challenges. Builds teamwo
 
 ### Computational Thinking
 
-Learn to break big problems into small steps, spot patterns, and think algorithmically — skills that help in every subject, not just coding.
+Learn to break big problems into small steps, spot patterns, and think algorithmically, skills that help in every subject, not just coding.
 
 Complete Syllabus
 
@@ -80,7 +80,7 @@ Week 1
 
 Sessions 1–601**Welcome to the World of Code**
 
-What is coding, what can you build, and how computers think — with fun demos
+What is coding, what can you build, and how computers think, with fun demos
 
 02**Scratch Setup & First Animation**
 
@@ -92,7 +92,7 @@ Make things move, make things talk, and respond to keyboard and mouse
 
 04**Loops & Conditions**
 
-Repeat actions with loops, make decisions with if/else — the two most powerful tools in coding
+Repeat actions with loops, make decisions with if/else, the two most powerful tools in coding
 
 05**Variables & Score Keeping**
 
@@ -108,7 +108,7 @@ Week 2
 
 Sessions 7–1107**Game Design Thinking**
 
-How games are designed: challenges, rewards, and player experience — plan your own
+How games are designed: challenges, rewards, and player experience, plan your own
 
 08**Project 2: Platformer Game**
 
@@ -136,11 +136,11 @@ Use Python's Turtle module to draw incredible patterns, fractals, and digital ar
 
 13**Project 4: Digital Art Portfolio**
 
-Create a mini art portfolio using Scratch and Python — patterns, animations, scenes
+Create a mini art portfolio using Scratch and Python, patterns, animations, scenes
 
 14**Building Your Final Project**
 
-Choose your own final project — game, story, app, or art. Guided creation with mentor
+Choose your own final project, game, story, app, or art. Guided creation with mentor
 
 15**Project Polish & Testing**
 
@@ -184,7 +184,7 @@ Generative art patterns and animations made with Python Turtle
 
 #### Final Showcase Project
 
-A self-chosen final project — presented to parents and peers on graduation day
+A self-chosen final project, presented to parents and peers on graduation day
 
 ## Why Parents Love This
 
@@ -214,11 +214,11 @@ Not at all! We start completely from scratch (pun intended). The first session a
 
 #### What equipment does my child need?
 
-A laptop or desktop (Windows, Mac, or Linux), a stable internet connection, and headphones with a microphone. All software is free — just a web browser required for Scratch.
+A laptop or desktop (Windows, Mac, or Linux), a stable internet connection, and headphones with a microphone. All software is free, just a web browser required for Scratch.
 
 #### How long is each session?
 
-60 to 75 minutes per session — long enough for meaningful learning, short enough to keep kids engaged. Sessions are interactive with breaks built in.
+60 to 75 minutes per session, long enough for meaningful learning, short enough to keep kids engaged. Sessions are interactive with breaks built in.
 
 #### My child is 5. Is that too young?
 
@@ -244,7 +244,7 @@ Real student projects
 
 Every one is a real, live project shipped by a Modern Age Coders student. Explore more in [Student Labs](/student-labs).
 
-[![Pracy — Coding Practice & Quiz Platform](/images/projects/pracy.webp)Web AppPracy — Coding Practice & Quiz PlatformAn all-in-one coding-practice site with interactive challenges, quizzes and score tracking across multiple languages to strengthen logic and problem-solving.by RohanOpen the live project ↗](https://astounding-flan-f18e08.netlify.app/)[![Word Counter Website](/images/projects/wordcounter.webp)ToolWord Counter WebsiteA simple yet powerful tool that counts words, sentences and paragraphs from user input with instant, real-time results and a clean responsive interface.by VanshOpen the live project ↗](https://vanshagarwalwordcounter-sys.github.io/WordCounter/)[![Life Span Tracker](/images/projects/lifespan.webp)ToolLife Span TrackerAn interactive web tool that calculates expected lifespan, shows days, months and years lived, and visualises remaining time to motivate better habits.by ManayOpen the live project ↗](https://lifespantracker.netlify.app/)
+[![Pracy, Coding Practice & Quiz Platform](/images/projects/pracy.webp)Web AppPracy, Coding Practice & Quiz PlatformAn all-in-one coding-practice site with interactive challenges, quizzes and score tracking across multiple languages to strengthen logic and problem-solving.by RohanOpen the live project ↗](https://astounding-flan-f18e08.netlify.app/)[![Word Counter Website](/images/projects/wordcounter.webp)ToolWord Counter WebsiteA simple yet powerful tool that counts words, sentences and paragraphs from user input with instant, real-time results and a clean responsive interface.by VanshOpen the live project ↗](https://vanshagarwalwordcounter-sys.github.io/WordCounter/)[![Life Span Tracker](/images/projects/lifespan.webp)ToolLife Span TrackerAn interactive web tool that calculates expected lifespan, shows days, months and years lived, and visualises remaining time to motivate better habits.by ManayOpen the live project ↗](https://lifespantracker.netlify.app/)
 
 Parent & student voices
 

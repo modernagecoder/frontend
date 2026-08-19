@@ -27,7 +27,7 @@ console.log(10 / 3);
 `50`
 `3.3333333333333335`
 
-Addition, subtraction, and multiplication are straightforward. JavaScript division always returns a floating-point number — there is no integer division operator.
+Addition, subtraction, and multiplication are straightforward. JavaScript division always returns a floating-point number. There is no integer division operator.
 
 ### Q2. [Easy] What is the output?
 
@@ -306,7 +306,7 @@ console.log(false || 0 || "" || null || undefined || "found it" || true);
 
 **Answer:** `found it`
 
-`||` checks each value left to right: false (falsy), 0 (falsy), "" (falsy), null (falsy), undefined (falsy), "found it" (truthy — stops here). The string "found it" is returned.
+`||` checks each value left to right: false (falsy), 0 (falsy), "" (falsy), null (falsy), undefined (falsy), "found it" (truthy, stops here). The string "found it" is returned.
 
 ### Q19. [Medium] What is the output?
 
@@ -411,7 +411,7 @@ console.log(!!"0");
 
 Double NOT converts to boolean. Empty string, 0, null, undefined are falsy (false). Non-empty strings (including "0") and non-zero numbers are truthy (true).
 
-### Q5. [Medium] Write an HTML page with a number input. When a button is clicked, display whether the number is positive, negative, or zero, AND whether it is even or odd — all using ternary operators.
+### Q5. [Medium] Write an HTML page with a number input. When a button is clicked, display whether the number is positive, negative, or zero, AND whether it is even or odd: all using ternary operators.
 
 *Hint:* Use two ternary operators: one for sign, one for even/odd.
 
@@ -608,7 +608,7 @@ Comparison operators (`>`, `===`) and logical NOT (`!`) always return boolean va
 
 ### Q12. [Hard] What is the output of: false || 0 || '' || null || 'found'?
 
-**D is correct.** `||` checks each value left to right: false (falsy), 0 (falsy), '' (falsy), null (falsy), 'found' (truthy — returns it). The first truthy value encountered is `'found'`.
+**D is correct.** `||` checks each value left to right: false (falsy), 0 (falsy), '' (falsy), null (falsy), 'found' (truthy, returns it). The first truthy value encountered is `'found'`.
 
 ### Q13. [Hard] What is the output of: typeof (5 > 3)?
 

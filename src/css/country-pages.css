@@ -1,7 +1,7 @@
 /* =====================================================================
    country-pages.css
    Brand-new design system for /coding-classes-in-<country>.html pages.
-   Distinct from index/bestcoding/responsive stylesheets — namespaced
+   Distinct from index/bestcoding/responsive stylesheets, namespaced
    under `.cp-*` so it cannot collide with the rest of the site.
    Per-country accent is driven by CSS variables on `.cp-root`.
    ===================================================================== */
@@ -35,7 +35,7 @@
     --cp-shadow-lift: 0 30px 80px -30px rgba(0, 0, 0, 0.7);
 }
 
-/* Country accent overrides — set on .cp-root.<country> */
+/* Country accent overrides, set on .cp-root.<country> */
 .cp-root.cp-ch { --cp-accent: #ff2e3a; --cp-accent-2: #ff6b3d; --cp-accent-soft: rgba(255, 46, 58, 0.13); --cp-accent-glow: rgba(255, 46, 58, 0.32); }
 .cp-root.cp-de { --cp-accent: #ffce00; --cp-accent-2: #dc0000; --cp-accent-soft: rgba(255, 206, 0, 0.13); --cp-accent-glow: rgba(255, 206, 0, 0.32); }
 .cp-root.cp-ca { --cp-accent: #ff3b3b; --cp-accent-2: #ff7a59; --cp-accent-soft: rgba(255, 59, 59, 0.13); --cp-accent-glow: rgba(255, 59, 59, 0.32); }
@@ -164,7 +164,7 @@
 .cp-hero-meta-item .v { display: block; font-family: var(--cp-font-display); font-size: clamp(1.4rem, 2.2vw, 1.9rem); color: var(--cp-white); font-weight: 600; line-height: 1; }
 .cp-hero-meta-item .l { display: block; color: var(--cp-text-mute); font-size: 12px; margin-top: 8px; letter-spacing: 0.04em; }
 
-/* Hero visual — animated logic glyph */
+/* Hero visual, animated logic glyph */
 .cp-hero-visual {
     position: relative;
     aspect-ratio: 1 / 1.05;
@@ -746,7 +746,7 @@
 @media (max-width: 520px)  { .cp-courseads-grid { grid-template-columns: 1fr; } }
 
 /* =====================================================================
-   NAV — self-contained, modern, sticky with backdrop-blur.
+   NAV, self-contained, modern, sticky with backdrop-blur.
    Does NOT depend on /css/style.css.
    ===================================================================== */
 .cp-nav {
@@ -874,7 +874,7 @@
     .cp-nav-cta { padding: 9px 14px; font-size: 0.82rem; }
 }
 @media (max-width: 520px) {
-    /* Tight phones — collapse CTA to icon-only so the nav never overflows */
+    /* Tight phones, collapse CTA to icon-only so the nav never overflows */
     .cp-nav-inner { gap: 8px; padding: 11px 14px; }
     .cp-nav-cta { font-size: 0; gap: 0; padding: 9px 11px; }
     .cp-nav-cta svg { width: 18px; height: 18px; }
@@ -903,7 +903,7 @@
 .cp-nav-mobile a.cta { background: linear-gradient(135deg, var(--cp-accent), var(--cp-accent-2)); color: var(--cp-white); font-weight: 600; text-align: center; margin-top: 8px; }
 
 /* =====================================================================
-   NEW: Swiss tech context — rich SEO paragraph band
+   NEW: Swiss tech context, rich SEO paragraph band
    ===================================================================== */
 .cp-context {
     padding: clamp(72px, 9vw, 120px) 0;
@@ -1174,7 +1174,7 @@
    monospace heavier, more grid, more numbers, magazine feel.
    ===================================================================== */
 
-/* Germany flag accent override — gold + red on near-black */
+/* Germany flag accent override, gold + red on near-black */
 .cp-root.cp-de {
     --cp-accent: #ffce00;
     --cp-accent-2: #dc0000;
@@ -1687,7 +1687,7 @@
     .cp-de-leadbar .row2 { flex-wrap: wrap; gap: 8px; }
 }
 
-/* --- DE Pricing — switch to dual layout with feature table --- */
+/* --- DE Pricing, switch to dual layout with feature table --- */
 .cp-de-price {
     display: grid; grid-template-columns: 1fr 1fr; gap: 0;
     border: 1px solid var(--cp-line-strong);
@@ -1740,11 +1740,11 @@
 
 /* =====================================================================
    UNITED KINGDOM COMPONENTS
-   Editorial / broadsheet feel — Fraunces display, generous rules,
+   Editorial / broadsheet feel: Fraunces display, generous rules,
    asymmetric bento, Key-Stage tabs, exam-board grid, pull-quote.
    ===================================================================== */
 
-/* UK palette — crimson + navy */
+/* UK palette, crimson + navy */
 .cp-root.cp-uk {
     --cp-accent: #cf142b;
     --cp-accent-2: #00247d;
@@ -1761,7 +1761,7 @@
     color: #ff6b7a;
 }
 
-/* --- UK Hero — editorial left-aligned, with red rule + university marquee --- */
+/* --- UK Hero, editorial left-aligned, with red rule + university marquee --- */
 .cp-uk-hero {
     position: relative;
     padding: clamp(120px, 14vw, 200px) 0 clamp(72px, 8vw, 110px);
@@ -1922,7 +1922,7 @@
 @media (max-width: 1080px) { .cp-uk-bento { grid-template-columns: 1fr 1fr; } .cp-uk-card.span-2-rows { grid-row: auto; } .cp-uk-card.span-2-cols { grid-column: span 2; } }
 @media (max-width: 640px) { .cp-uk-bento { grid-template-columns: 1fr; } .cp-uk-card.span-2-cols { grid-column: auto; } }
 
-/* --- UK Key-Stage tabs (no JS needed — uses :checked radio) --- */
+/* --- UK Key-Stage tabs (no JS needed, uses :checked radio) --- */
 .cp-uk-tabs {
     border: 1px solid var(--cp-line);
     border-radius: var(--cp-radius-lg);
@@ -2226,7 +2226,7 @@
    Montreal/Edmonton viz, zigzag course rows, provincial grid.
    ===================================================================== */
 
-/* Canada palette — maple red with cool white-paper feel */
+/* Canada palette, maple red with cool white-paper feel */
 .cp-root.cp-ca {
     --cp-accent: #d52b1e;       /* Canada flag red */
     --cp-accent-2: #ff6b3d;
@@ -2238,7 +2238,7 @@
 .cp-root.cp-ca { background: linear-gradient(180deg, var(--ca-cool-bg) 0%, var(--cp-bg-0) 70%); }
 .cp-root.cp-ca .cp-eyebrow { color: #ff6e63; }
 
-/* --- CA Hero — horizon line, big left-aligned headline --- */
+/* --- CA Hero, horizon line, big left-aligned headline --- */
 .cp-ca-hero {
     position: relative;
     padding: clamp(120px, 14vw, 200px) 0 clamp(50px, 6vw, 80px);
@@ -2254,7 +2254,7 @@
     z-index: -2;
 }
 .cp-ca-hero::after {
-    /* "Horizon line" — a single sharp red rule running across mid-hero */
+    /* "Horizon line", a single sharp red rule running across mid-hero */
     content: '';
     position: absolute;
     left: 0; right: 0;
@@ -2300,7 +2300,7 @@
 .cp-ca-hero .lede strong { color: var(--cp-white); font-weight: 600; }
 .cp-ca-hero-ctas { display: inline-flex; gap: 14px; flex-wrap: wrap; }
 
-/* --- CA Timezone strip — 6 zones with "active" hours --- */
+/* --- CA Timezone strip: 6 zones with "active" hours --- */
 .cp-ca-tz {
     margin-top: 56px;
     border: 1px solid var(--cp-line);
@@ -2546,7 +2546,7 @@
 @media (max-width: 1080px) { .cp-ca-prov { grid-template-columns: repeat(2, 1fr); } }
 @media (max-width: 560px)  { .cp-ca-prov { grid-template-columns: 1fr; } }
 
-/* --- CA "Pathways" — CEGEP / High School / University tracks --- */
+/* --- CA "Pathways": CEGEP / High School / University tracks --- */
 .cp-ca-paths {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -2660,11 +2660,11 @@
 
 /* =====================================================================
    SWEDEN COMPONENTS
-   Scandinavian minimal — generous space, big serif, blue + yellow,
+   Scandinavian minimal, generous space, big serif, blue + yellow,
    subtle Nordic-cross background pattern.
    ===================================================================== */
 
-/* Sweden palette — flag blue + yellow on a cool dark */
+/* Sweden palette, flag blue + yellow on a cool dark */
 .cp-root.cp-se {
     --cp-accent: #ffd400;
     --cp-accent-2: #006aa7;
@@ -2679,7 +2679,7 @@
     border-color: rgba(255, 212, 0, 0.25);
 }
 
-/* Nordic-cross decorative background — used on hero */
+/* Nordic-cross decorative background, used on hero */
 .cp-se-cross {
     position: absolute; inset: 0; z-index: -1;
     background:
@@ -2691,7 +2691,7 @@
     pointer-events: none;
 }
 
-/* --- SE Hero — minimal, generous space, asymmetric --- */
+/* --- SE Hero, minimal, generous space, asymmetric --- */
 .cp-se-hero {
     position: relative;
     padding: clamp(120px, 14vw, 190px) 0 clamp(60px, 7vw, 100px);
@@ -2910,7 +2910,7 @@
 .cp-se-uni-card .why b { color: var(--cp-white); font-weight: 600; }
 @media (max-width: 880px) { .cp-se-uni { grid-template-columns: 1fr; } }
 
-/* --- SE City cards — typographic minimal --- */
+/* --- SE City cards, typographic minimal --- */
 .cp-se-cities { display: grid; grid-template-columns: repeat(3, 1fr); gap: 14px; }
 .cp-se-city {
     padding: 32px 30px;
@@ -3018,7 +3018,7 @@
 @media (max-width: 1080px) { .cp-fmweek { grid-template-columns: 1fr 1fr; } }
 @media (max-width: 560px)  { .cp-fmweek { grid-template-columns: 1fr; } }
 
-/* Adult learner stories — long card */
+/* Adult learner stories, long card */
 .cp-adult-stories {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -3116,7 +3116,7 @@
 /* ── Family-story cards ────────────────────────────────────────────────
    The "<country> family stories" sections reuse .cp-class-walk (a 100px+1fr
    timetable grid) as their wrapper, with .cp-walk-card children that had no
-   styling — so each card was crushed into the 100px column. :has() re-grids
+   styling, so each card was crushed into the 100px column. :has() re-grids
    ONLY the wrapper that holds story cards, leaving the minute-by-minute
    timetable (whose children are .cp-class-row) completely untouched. */
 .cp-class-walk:has(.cp-walk-card) {
@@ -3175,10 +3175,10 @@
 
 /* =====================================================================
    UNITED STATES COMPONENTS
-   Silicon-Valley bold — vivid blue/red gradient, big type, vibrant.
+   Silicon-Valley bold, vivid blue/red gradient, big type, vibrant.
    ===================================================================== */
 
-/* US palette — flag blue + red, vibrant */
+/* US palette, flag blue + red, vibrant */
 .cp-root.cp-us {
     --cp-accent: #3c6efb;
     --cp-accent-2: #ef4444;
@@ -3193,7 +3193,7 @@
     border-color: rgba(60, 110, 251, 0.30);
 }
 
-/* --- US Hero — bold gradient with pulse --- */
+/* --- US Hero, bold gradient with pulse --- */
 .cp-us-hero {
     position: relative;
     padding: clamp(120px, 14vw, 200px) 0 clamp(60px, 7vw, 100px);
@@ -3260,7 +3260,7 @@
 .cp-us-hero .lede strong { color: var(--cp-white); font-weight: 600; }
 .cp-us-hero .ctas { display: inline-flex; gap: 14px; flex-wrap: wrap; }
 
-/* US bigstat strip — 4 large numbers */
+/* US bigstat strip: 4 large numbers */
 .cp-us-stats {
     margin-top: 56px;
     display: grid; grid-template-columns: repeat(4, 1fr);
@@ -3396,7 +3396,7 @@
     .cp-us-ap #ap4:checked ~ .panel-ap4 { grid-template-columns: 1fr; }
 }
 
-/* --- US Pulse cards — AI industry presence --- */
+/* --- US Pulse cards: AI industry presence --- */
 .cp-us-pulse {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -3543,7 +3543,7 @@
 
 /* =====================================================================
    AUSTRALIA COMPONENTS
-   Outback-sunset palette — terracotta orange + red-earth, warm vibe.
+   Outback-sunset palette, terracotta orange + red-earth, warm vibe.
    ===================================================================== */
 
 .cp-root.cp-au {
@@ -3560,7 +3560,7 @@
     border-color: rgba(231, 111, 0, 0.30);
 }
 
-/* --- AU Hero — diagonal split with warm sunset wash --- */
+/* --- AU Hero, diagonal split with warm sunset wash --- */
 .cp-au-hero {
     position: relative;
     padding: clamp(120px, 14vw, 200px) 0 clamp(60px, 7vw, 100px);
@@ -3826,8 +3826,8 @@
 
 
 /* ============================================================== */
-/* UAE — accent + unique components (.cp-ae namespace)            */
-/* Design language: Gulf modern — deep gold, emerald, sand        */
+/* UAE, accent + unique components (.cp-ae namespace)            */
+/* Design language: Gulf modern, deep gold, emerald, sand        */
 /* ============================================================== */
 .cp-root.cp-ae {
     --cp-accent: #c9a431;
@@ -3840,7 +3840,7 @@
     --cp-onyx: #1a1612;
 }
 
-/* -- AE hero — skyline silhouette + dune gradient ----------------- */
+/* -- AE hero, skyline silhouette + dune gradient ----------------- */
 .cp-ae-hero {
     position: relative;
     padding: 96px 0 120px;
@@ -4197,8 +4197,8 @@
 
 
 /* ============================================================== */
-/* SINGAPORE — accent + unique components (.cp-sg namespace)      */
-/* Design language: Marina Bay — orchid pink, teal, glass         */
+/* SINGAPORE, accent + unique components (.cp-sg namespace)      */
+/* Design language: Marina Bay, orchid pink, teal, glass         */
 /* ============================================================== */
 .cp-root.cp-sg {
     --cp-accent: #d63384;
@@ -4211,7 +4211,7 @@
     --cp-glass: rgba(255, 255, 255, 0.04);
 }
 
-/* -- SG hero — Marina Bay glass + lights ------------------------- */
+/* -- SG hero: Marina Bay glass + lights ------------------------- */
 .cp-sg-hero {
     position: relative;
     padding: 96px 0 120px;
@@ -4528,8 +4528,8 @@
 
 
 /* ============================================================== */
-/* IRELAND — accent + unique components (.cp-ie namespace)        */
-/* Design language: Atlantic edge — emerald, copper, cliff-line  */
+/* IRELAND, accent + unique components (.cp-ie namespace)        */
+/* Design language: Atlantic edge, emerald, copper, cliff-line  */
 /* ============================================================== */
 .cp-root.cp-ie {
     --cp-accent: #0c8a4a;
@@ -4542,7 +4542,7 @@
     --cp-mist: #d4b896;
 }
 
-/* -- IE hero — Cliffs of Moher silhouette + mist ---------------- */
+/* -- IE hero: Cliffs of Moher silhouette + mist ---------------- */
 .cp-ie-hero {
     position: relative;
     padding: 96px 0 130px;
@@ -4872,8 +4872,8 @@
 
 
 /* ============================================================== */
-/* NEW ZEALAND — accent + unique components (.cp-nz namespace)   */
-/* Design language: Southern Alps — deep teal, silver fern       */
+/* NEW ZEALAND, accent + unique components (.cp-nz namespace)   */
+/* Design language: Southern Alps, deep teal, silver fern       */
 /* ============================================================== */
 .cp-root.cp-nz {
     --cp-accent: #0d7377;
@@ -4886,7 +4886,7 @@
     --cp-silver: #94a3b8;
 }
 
-/* -- NZ hero — Southern Alps + Pacific gradient ---------------- */
+/* -- NZ hero: Southern Alps + Pacific gradient ---------------- */
 .cp-nz-hero {
     position: relative;
     padding: 96px 0 130px;
@@ -4897,7 +4897,7 @@
     overflow: hidden;
 }
 .cp-nz-hero::before {
-    /* Southern Alps silhouette — sharp triangular peaks */
+    /* Southern Alps silhouette, sharp triangular peaks */
     content: ""; position: absolute; left: 0; right: 0; bottom: 0; height: 200px;
     background: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1600 200' preserveAspectRatio='none'><path fill='%23000000' fill-opacity='0.7' d='M0,200 L0,150 L80,140 L150,90 L210,135 L280,70 L340,145 L420,40 L500,130 L570,95 L640,30 L720,120 L800,55 L880,140 L950,85 L1020,25 L1100,115 L1180,75 L1260,135 L1340,60 L1420,125 L1500,105 L1600,145 L1600,200 Z'/></svg>") center bottom / cover no-repeat;
     pointer-events: none;

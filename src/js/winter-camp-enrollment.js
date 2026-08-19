@@ -1,6 +1,6 @@
 /**
  * Winter Camp Enrollment Modal
- * Modern Age Coders — Winter Coding Camp 2026
+ * Modern Age Coders: Winter Coding Camp 2026
  */
 
 const WinterCampEnrollment = {
@@ -52,11 +52,11 @@ const WinterCampEnrollment = {
     init() {
         const path = window.location.pathname;
         if (path.includes('kids')) {
-            this.courseName = 'Winter Coding Camp — Kids Track (Ages 6–11)';
+            this.courseName = 'Winter Coding Camp: Kids Track (Ages 6–11)';
         } else if (path.includes('teens')) {
-            this.courseName = 'Winter Coding Camp — Teens Track (Ages 12–17)';
+            this.courseName = 'Winter Coding Camp, Teens Track (Ages 12–17)';
         } else if (path.includes('adults')) {
-            this.courseName = 'Winter Coding Camp — Adults Track (18+)';
+            this.courseName = 'Winter Coding Camp: Adults Track (18+)';
         }
         this.setupEnrollButtons();
         this.addModalStyles();
@@ -104,7 +104,7 @@ const WinterCampEnrollment = {
                     </svg>
                   </div>
                   <div>
-                    <h3>Pay Online — ${this.getPriceDisplay()}</h3>
+                    <h3>Pay Online, ${this.getPriceDisplay()}</h3>
                     <p>Instant enrollment with secure payment</p>
                   </div>
                 </div>
@@ -199,7 +199,7 @@ const WinterCampEnrollment = {
               <p>${this.courseName}</p>
             </div>
             <div class="wc-plan-badge">
-              <span>16 Sessions — Group Classes</span>
+              <span>16 Sessions: Group Classes</span>
               <strong>${this.getPriceDisplay()}</strong>
             </div>
             <form id="winter-pay-form" class="wc-pay-form">

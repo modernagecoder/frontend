@@ -1,10 +1,10 @@
 /**
- * inject-phase6-polish.js — Add Phase 6 polish CSS/JS to all HTML pages
+ * inject-phase6-polish.js: Add Phase 6 polish CSS/JS to all HTML pages
  *
  * For every HTML page in src/pages/, this script:
  *   1. Detects the body class (about-page, pricing-page, etc.)
  *   2. Picks the matching page-specific CSS from src/css/pages/
- *   3. Injects (idempotent — re-runs are safe):
+ *   3. Injects (idempotent, re-runs are safe):
  *      - <link rel="stylesheet" href="/css/pages/global.css">
  *      - <link rel="stylesheet" href="/css/pages/{matched}.css">
  *      - <script src="/js/ux-enhancements.js" defer>
@@ -61,7 +61,7 @@ function buildInjection(pageCss) {
     if (pageCss) {
         lines.push('    <link rel="stylesheet" href="/css/pages/' + pageCss + '?v=' + VERSION + '">');
     }
-    // Phase 7 — distinctive identity layer (loaded LAST so it overrides)
+    // Phase 7, distinctive identity layer (loaded LAST so it overrides)
     lines.push('    <link rel="stylesheet" href="/css/pages/identity.css?v=' + VERSION + '">');
     lines.push('    <script src="/js/ux-enhancements.js" defer></script>');
     lines.push('    <script src="/js/hover-prefetch.js" defer></script>');
@@ -116,7 +116,7 @@ function walkDir(dir, fn) {
     }
 }
 
-console.log('🎨 Phase 6 polish injection — scanning HTML pages...\n');
+console.log('🎨 Phase 6 polish injection, scanning HTML pages...\n');
 
 let stats = { injected: 0, skipped: 0, errors: 0 };
 const samples = [];

@@ -17,7 +17,7 @@
     <!-- SEO Meta Tags -->
     <meta name="description" content="55+ practice questions on Tuples in Python in Python. Easy, medium, and hard questions with hints, answers, and coding challenges.">
     <!-- meta keywords intentionally not emitted: Google has ignored it since 2009 and Bing
-         treats it as a SPAM SIGNAL — and Bing is the index ChatGPT/Copilot answer from.
+         treats it as a SPAM SIGNAL, and Bing is the index ChatGPT/Copilot answer from.
          See scripts/strip-meta-keywords.py. -->
     <meta name="author" content="Modern Age Coders">
     <meta name="robots" content="index, follow">
@@ -138,7 +138,7 @@
                 <span class="badge badge-intermediate">Intermediate</span>
                 <span class="badge badge-questions">55 Questions</span>
             </div>
-            <h1 class="resource-title">Practice Questions &mdash; Tuples in Python</h1>
+            <h1 class="resource-title">Practice Questions: Tuples in Python</h1>
             <a href="/resources/python/tuples-in-python" class="notes-link">&larr; Back to Notes</a>
         </div><!-- /resource-header -->
 
@@ -303,11 +303,11 @@ print(a, b, c)</code></pre></div><button type="button" class="collapsible-toggle
 <div class="question-card">
                 <div class="question-number">Question 7</div>
                 <span class="question-difficulty medium">Medium</span>
-                <div class="question-text">Why can tuples be used as dictionary keys but lists cannot?</div><button type="button" class="collapsible-toggle" data-target="hint-mx-7" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-7">Think about what property dictionary keys must have.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-7" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-7">Dictionary keys must be <strong>hashable</strong> (able to produce a fixed hash value). Tuples are hashable because they are immutable — their content never changes, so their hash value stays constant. Lists are mutable, meaning their content can change, which would invalidate their hash value. Python therefore prohibits using lists as dictionary keys.</div></div>
+                <div class="question-text">Why can tuples be used as dictionary keys but lists cannot?</div><button type="button" class="collapsible-toggle" data-target="hint-mx-7" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-7">Think about what property dictionary keys must have.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-7" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-7">Dictionary keys must be <strong>hashable</strong> (able to produce a fixed hash value). Tuples are hashable because they are immutable, their content never changes, so their hash value stays constant. Lists are mutable, meaning their content can change, which would invalidate their hash value. Python therefore prohibits using lists as dictionary keys.</div></div>
 <div class="question-card">
                 <div class="question-number">Question 8</div>
                 <span class="question-difficulty medium">Medium</span>
-                <div class="question-text">When should you use a tuple instead of a list? Give three scenarios.</div><button type="button" class="collapsible-toggle" data-target="hint-mx-8" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-8">Think about immutability, dictionary keys, and function return values.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-8" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-8"><strong>1. Fixed data:</strong> Coordinates (x, y), RGB colors (255, 128, 0), database records — data that should not change.<br><strong>2. Dictionary keys:</strong> When you need a composite key like (row, col) or (first_name, last_name).<br><strong>3. Function return values:</strong> Functions that return multiple values use tuple packing (return a, b, c). The caller unpacks with x, y, z = func().</div></div>
+                <div class="question-text">When should you use a tuple instead of a list? Give three scenarios.</div><button type="button" class="collapsible-toggle" data-target="hint-mx-8" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-8">Think about immutability, dictionary keys, and function return values.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-8" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-8"><strong>1. Fixed data:</strong> Coordinates (x, y), RGB colors (255, 128, 0), database records, data that should not change.<br><strong>2. Dictionary keys:</strong> When you need a composite key like (row, col) or (first_name, last_name).<br><strong>3. Function return values:</strong> Functions that return multiple values use tuple packing (return a, b, c). The caller unpacks with x, y, z = func().</div></div>
 <div class="question-card">
                 <div class="question-number">Question 9</div>
                 <span class="question-difficulty hard">Hard</span>

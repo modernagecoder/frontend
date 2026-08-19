@@ -24,7 +24,7 @@ category: "HTML and CSS"
 
 **Answer:** `4` equal columns
 
-`repeat(4, 1fr)` is shorthand for `1fr 1fr 1fr 1fr` — four columns, each taking an equal share of the available space.
+`repeat(4, 1fr)` is shorthand for `1fr 1fr 1fr 1fr`, four columns, each taking an equal share of the available space.
 
 ### Q2. [Easy] What does this create?
 
@@ -63,7 +63,7 @@ The first column is exactly 200px. The second column uses `1fr`, so it takes all
 
 **Answer:** `grid-column: 1 / -1;`
 
-The value `-1` refers to the last grid line, so `1 / -1` means from the first line to the last line — spanning every column regardless of how many there are.
+The value `-1` refers to the last grid line, so `1 / -1` means from the first line to the last line, spanning every column regardless of how many there are.
 
 ### Q6. [Medium] What does this create?
 
@@ -142,7 +142,7 @@ If you define 3 columns but add 10 items, the browser creates 4 rows (3x4=12 cel
 
 **Answer:** It tells the browser to back-fill empty cells with smaller items that appear later in the source order, producing a more compact layout (but items may appear out of order).
 
-Without dense, when an item spans multiple columns and does not fit in the current row, the remaining space in that row stays empty. With dense, the browser looks ahead and slots smaller items into those gaps. Use cautiously — it can break logical reading order.
+Without dense, when an item spans multiple columns and does not fit in the current row, the remaining space in that row stays empty. With dense, the browser looks ahead and slots smaller items into those gaps. Use cautiously. It can break logical reading order.
 
 ### Q14. [Hard] What does `grid-column: 2 / -2` do on a 5-column grid?
 
@@ -248,7 +248,7 @@ Free space is divided into 1 + 2 + 1 = 4 parts. The left and right get 1/4 each,
 
 ### Q7. [Medium] Can you nest a grid inside another grid?
 
-*Hint:* Yes — and it is very common.
+*Hint:* Yes, and it is very common.
 
 **Answer:** Yes. A grid cell can itself be `display: grid` (or flex). Nested grids are independent of the parent grid, which is how real dashboards combine outer page layout with inner card layouts.
 
@@ -260,7 +260,7 @@ You can nest Grid inside Grid, Grid inside Flex, or Flex inside Grid freely. Eac
 
 **Answer:** Because the `grid-template-areas` string visually represents the layout. You can look at the CSS and instantly see where the header, sidebar, main, and footer sit. No other CSS layout method is that self-documenting.
 
-Example: `"header header" "sidebar main" "footer footer"` — a new developer can read that and immediately understand the layout without running it.
+Example: `"header header" "sidebar main" "footer footer"`, a new developer can read that and immediately understand the layout without running it.
 
 ### Q9. [Hard] What is the difference between `justify-content` and `justify-items` in Grid?
 
@@ -366,7 +366,7 @@ This gives per-item control. For example, a grid might center all items vertical
 
 **Answer:** B
 
-**B is correct.** `repeat(3, 1fr)` is shorthand for `1fr 1fr 1fr` — three columns sharing space equally.
+**B is correct.** `repeat(3, 1fr)` is shorthand for `1fr 1fr 1fr`, three columns sharing space equally.
 
 ### Q5. [Easy] Which unit is ONLY available in Grid (and Flexbox for flex-basis calculations)?
 
@@ -378,7 +378,7 @@ This gives per-item control. For example, a grid might center all items vertical
 
 **Answer:** B
 
-**B is correct.** Line `-1` refers to the last line, so `1 / -1` means from the first to the last line — full width regardless of column count.
+**B is correct.** Line `-1` refers to the last line, so `1 / -1` means from the first to the last line, full width regardless of column count.
 
 ### Q7. [Medium] What is the difference between auto-fit and auto-fill?
 
@@ -402,7 +402,7 @@ This gives per-item control. For example, a grid might center all items vertical
 
 **Answer:** B
 
-**B is correct.** `minmax(min, max)` — first argument is the minimum, second is the maximum. The column will never shrink below 200px.
+**B is correct.** `minmax(min, max)`, first argument is the minimum, second is the maximum. The column will never shrink below 200px.
 
 ### Q11. [Hard] Why does `minmax(0, 1fr)` prevent grid overflow?
 
@@ -432,7 +432,7 @@ This gives per-item control. For example, a grid might center all items vertical
 
 **Answer:** A
 
-**A is correct.** `dense` tells the browser to look ahead and fill gaps left by spanning items with smaller items that appear later in the source. Use carefully — it breaks reading order.
+**A is correct.** `dense` tells the browser to look ahead and fill gaps left by spanning items with smaller items that appear later in the source. Use carefully. It breaks reading order.
 
 ### Q16. [Easy] How do you create a grid item that spans 2 columns from wherever it starts?
 

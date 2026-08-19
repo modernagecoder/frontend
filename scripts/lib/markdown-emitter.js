@@ -57,7 +57,7 @@ function stripInlineHtml(text) {
     s = s.replace(/<(em|i)>([\s\S]*?)<\/\1>/gi, (_, _t, inner) => `*${stripInlineHtml(inner)}*`);
     s = s.replace(/<code>([\s\S]*?)<\/code>/gi, (_, inner) => `\`${decodeEntities(inner)}\``);
 
-    // Strict tag stripper — only matches real HTML tags (start with letter or `/`).
+    // Strict tag stripper, only matches real HTML tags (start with letter or `/`).
     // Prevents eating C++ stream operators (`cout <<`) or generics (`vector<int>`).
     s = s.replace(/<\/?[a-zA-Z][a-zA-Z0-9-]*(?:\s+[^>]*)?>/g, '');
 
@@ -154,7 +154,7 @@ function blogSectionToMarkdown(section, allSections) {
         }
         case 'quote': {
             const text = stripInlineHtml(section.text).split('\n').map(l => `> ${l}`).join('\n');
-            const cite = section.author ? `\n> \n> — ${section.author}` : '';
+            const cite = section.author ? `\n> \n>, ${section.author}` : '';
             return `${text}${cite}\n\n`;
         }
         case 'callout': {
@@ -162,7 +162,7 @@ function blogSectionToMarkdown(section, allSections) {
             return `> ${title}> ${stripInlineHtml(section.text).replace(/\n/g, '\n> ')}\n\n`;
         }
         case 'video': {
-            const cap = section.caption ? ` — ${section.caption}` : '';
+            const cap = section.caption ? `, ${section.caption}` : '';
             if (section.platform === 'youtube' && section.videoId) {
                 return `[Video: https://www.youtube.com/watch?v=${section.videoId}]${cap}\n\n`;
             }
@@ -245,7 +245,7 @@ function blogToMarkdown(data) {
         body += '*\n\n';
     }
 
-    // Answer capsule first (Phase 4.2/4.5 — quotable answer in the first 30% of the twin)
+    // Answer capsule first (Phase 4.2/4.5, quotable answer in the first 30% of the twin)
     if (meta.tldr) {
         body += `**Quick answer:** ${stripInlineHtml(meta.tldr)}\n\n`;
     }

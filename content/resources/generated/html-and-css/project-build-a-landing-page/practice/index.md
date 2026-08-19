@@ -99,7 +99,7 @@ A design system is only as good as how easy it is to change. Variables are the c
 
 *Hint:* Ratio of columns.
 
-**Answer:** Two columns where the first takes 1.1 shares and the second takes 1 share. The left column is slightly wider than the right — giving the text more space than the visual.
+**Answer:** Two columns where the first takes 1.1 shares and the second takes 1 share. The left column is slightly wider than the right, giving the text more space than the visual.
 
 fr units represent a fraction of available space. 1.1fr + 1fr = 2.1 total. The first column gets 1.1/2.1 ≈ 52%, the second gets 1/2.1 ≈ 48%. Great for asymmetric hero layouts.
 
@@ -109,7 +109,7 @@ fr units represent a fraction of available space. 1.1fr + 1fr = 2.1 total. The f
 
 **Answer:** It makes the card visually pop up from the row so the user's eye is drawn to the recommended plan. Combined with a gradient background and bigger shadow, it is unmissable.
 
-Visual hierarchy is everything in landing pages. Making the popular plan 5% larger and brighter makes the user's eye land on it first — which is exactly where you want them to convert.
+Visual hierarchy is everything in landing pages. Making the popular plan 5% larger and brighter makes the user's eye land on it first, which is exactly where you want them to convert.
 
 ### Q13. [Medium] What does this do in the hero?
 
@@ -129,7 +129,7 @@ Before text-wrap, headlines often ended with one awkward word on a line by itsel
 
 **Answer:** The outer `.pricing` section has the background color and full width. Inside, a wrapper or the grid itself uses `max-width: 1100px; margin: 0 auto`.
 
-This pattern — full-width background with constrained content — is how landing pages have alternating band colors without horizontal scrolling on narrow screens.
+This pattern, full-width background with constrained content, is how landing pages have alternating band colors without horizontal scrolling on narrow screens.
 
 ### Q15. [Medium] What does `scroll-behavior: smooth` on html do?
 
@@ -817,7 +817,7 @@ A polished contact section with a form that reacts to validation state.
     <div class="contact-text">
       <h2>Let Us <span class="gradient">Build Something</span> Together</h2>
       <p>Ishita, Aarav, and Kavya are ready to answer your questions about SkyPanel. Usually we reply within a few hours.</p>
-      <p>Enterprise teams, schools, and student groups — we are especially excited to hear from you.</p>
+      <p>Enterprise teams, schools, and student groups. We are especially excited to hear from you.</p>
       <div class="info">
         <span>hello@skypanel.example</span>
       </div>

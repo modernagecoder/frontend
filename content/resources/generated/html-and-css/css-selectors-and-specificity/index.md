@@ -15,7 +15,7 @@ keywords: ["css selectors", "css specificity", "class selector", "id selector", 
 
 ## What Are CSS Selectors?
 
-A **selector** is how you tell CSS which HTML elements to style. In CSS, you write rules like `h1 { color: red; }` — the `h1` is the selector. But there are many, many more ways to target elements than just their tag name. You can target by class, by ID, by attribute, by position in a list, by whether they are children of other elements, and much more.
+A **selector** is how you tell CSS which HTML elements to style. In CSS, you write rules like `h1 { color: red; }`, the `h1` is the selector. But there are many, many more ways to target elements than just their tag name. You can target by class, by ID, by attribute, by position in a list, by whether they are children of other elements, and much more.
 
 Selectors are the foundation of CSS. The better you know them, the more surgical and precise your styling becomes. Instead of wrapping everything in extra divs and classes, you can use smart selectors to target exactly what you want.
 
@@ -73,7 +73,7 @@ Targets the one element with a specific id. Start with a hash `#`.
 #main { padding: 20px; }
 ```
 
-IDs should be unique on a page — only one element should have the same id.
+IDs should be unique on a page, only one element should have the same id.
 
 ### 4. Universal Selector
 
@@ -110,7 +110,7 @@ article p { font-size: 18px; }  /* every p inside an article */
 
 ### 7. Child Selector (>)
 
-The child combinator `>` is like the descendant selector, but only matches direct children — not grandchildren.
+The child combinator `>` is like the descendant selector, but only matches direct children, not grandchildren.
 
 ```
 ul > li { list-style: square; }
@@ -148,10 +148,10 @@ h1, h2, h3 { font-family: Georgia; }
 
 Specificity is calculated as a score with four parts (inline, ID, class, element). Here are the values:
 
-- **Inline style** (`style="..."`) — specificity 1000
-- **ID selector** (`#main`) — specificity 100
-- **Class, attribute, pseudo-class** (`.btn`, `[type]`, `:hover`) — specificity 10
-- **Element, pseudo-element** (`p`, `::before`) — specificity 1
+- **Inline style** (`style="..."`), specificity 1000
+- **ID selector** (`#main`), specificity 100
+- **Class, attribute, pseudo-class** (`.btn`, `[type]`, `:hover`), specificity 10
+- **Element, pseudo-element** (`p`, `::before`), specificity 1
 
 When selectors combine, add up the specificity:
 
@@ -252,7 +252,7 @@ A centered purple heading, two normal grey paragraphs, and two yellow-highlighte
   <ul>
     <li>Item 1
       <ul>
-        <li>Nested item 1 (also blue — deep descendant)</li>
+        <li>Nested item 1 (also blue, deep descendant)</li>
       </ul>
     </li>
     <li>Item 2</li>
@@ -262,7 +262,7 @@ A centered purple heading, two normal grey paragraphs, and two yellow-highlighte
   <ul class="direct-only">
     <li>Direct child (bold red)
       <ul>
-        <li>Nested (NOT bold red — it is a grandchild)</li>
+        <li>Nested (NOT bold red. It is a grandchild)</li>
       </ul>
     </li>
     <li>Direct child (bold red)</li>
@@ -271,7 +271,7 @@ A centered purple heading, two normal grey paragraphs, and two yellow-highlighte
 </html>
 ```
 
-This shows the difference between descendant (space) and child (>) selectors. `ul li` matches every li inside a ul, even nested ones. `.direct-only > li` matches only li that are DIRECT children of the ul — not grandchildren (like li inside a nested ul). Both lists look different because of this.
+This shows the difference between descendant (space) and child (>) selectors. `ul li` matches every li inside a ul, even nested ones. `.direct-only > li` matches only li that are DIRECT children of the ul, not grandchildren (like li inside a nested ul). Both lists look different because of this.
 
 **Output:**
 
@@ -304,12 +304,12 @@ First list has all items blue (including nested). Second list has only the top-l
 <body>
   <h1>Main Heading</h1>
   <p>This is the first paragraph after h1 (bold green).</p>
-  <p>This one is NOT — it is the second paragraph.</p>
+  <p>This one is NOT. It is the second paragraph.</p>
 
   <h2>Second Heading</h2>
-  <p>First paragraph (italic red — it is a sibling of h2).</p>
-  <p>Second paragraph (also italic red — also a sibling).</p>
-  <p>Third paragraph (still red — general sibling selector).</p>
+  <p>First paragraph (italic red, it is a sibling of h2).</p>
+  <p>Second paragraph (also italic red, also a sibling).</p>
+  <p>Third paragraph (still red, general sibling selector).</p>
 </body>
 </html>
 ```
@@ -467,8 +467,8 @@ Three differently-sized headings all in dark blue Georgia font. Three buttons (f
   <p>Plain paragraph (black)</p>
   <p class="blue-text">Has .blue-text class (blue)</p>
   <p class="green-text">Has .green-text class (green)</p>
-  <p id="special" class="blue-text">Has ID #special AND class .blue-text — ID wins (purple, yellow bg)</p>
-  <p id="special" class="extra">ID + extra class — red wins</p>
+  <p id="special" class="blue-text">Has ID #special AND class .blue-text, ID wins (purple, yellow bg)</p>
+  <p id="special" class="extra">ID + extra class, red wins</p>
 </body>
 </html>
 ```
@@ -645,7 +645,7 @@ Unintentionally styles li inside nested sub-menus too.
 }
 ```
 
-A space (descendant) matches elements at any depth. `>` (child) matches only direct children. For dropdown menus and nested lists, the difference is huge — descendant will accidentally style nested items too.
+A space (descendant) matches elements at any depth. `>` (child) matches only direct children. For dropdown menus and nested lists, the difference is huge, descendant will accidentally style nested items too.
 
 ## Summary
 
@@ -659,7 +659,7 @@ A space (descendant) matches elements at any depth. `>` (child) matches only dir
 - Adjacent sibling (+): h1 + p means the first p right after an h1. General sibling (~): h2 ~ p means every p after an h2.
 - Group selectors with commas: h1, h2, h3 applies the same rule to all three.
 - Specificity: inline (1000) > ID (100) > class/attr/pseudo-class (10) > element/pseudo-element (1). Higher wins.
-- The !important flag overrides normal specificity. Avoid using it — it makes CSS hard to maintain.
+- The !important flag overrides normal specificity. Avoid using it. It makes CSS hard to maintain.
 - The cascade resolves conflicts using: importance, then specificity, then source order (later wins when equal). Inheritance passes some properties (color, font) from parent to child.
 
 ## Related Topics

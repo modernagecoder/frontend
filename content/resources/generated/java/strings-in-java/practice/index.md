@@ -76,7 +76,7 @@ System.out.println(a.equals(c));
 `false`
 `true`
 
-`a` and `b` are both literals pointing to the same String Pool object, so `==` returns true. `c` is created with `new`, so it is a different object on the heap — `==` returns false. `.equals()` compares content and returns true.
+`a` and `b` are both literals pointing to the same String Pool object, so `==` returns true. `c` is created with `new`, so it is a different object on the heap, `==` returns false. `.equals()` compares content and returns true.
 
 ### Q5. [Easy] What is the output?
 
@@ -501,7 +501,7 @@ Both classes provide a mutable character sequence with the same API (append, ins
 
 *Hint:* Think about thread safety, the String Pool, hashing, and security.
 
-**Answer:** Java strings are immutable to provide: (1) **Thread safety** — multiple threads can share strings without synchronization. (2) **String Pool efficiency** — immutability allows safe sharing of string objects. (3) **Security** — strings used as class names, file paths, or network addresses cannot be tampered with. (4) **Hashcode caching** — the hash can be computed once and reused, making strings efficient as HashMap keys.
+**Answer:** Java strings are immutable to provide: (1) **Thread safety**, multiple threads can share strings without synchronization. (2) **String Pool efficiency**, immutability allows safe sharing of string objects. (3) **Security**, strings used as class names, file paths, or network addresses cannot be tampered with. (4) **Hashcode caching**, the hash can be computed once and reused, making strings efficient as HashMap keys.
 
 Immutability is a deliberate design decision. If strings were mutable, the String Pool could not exist because one variable's modification would affect all other variables pointing to the same pool object. Similarly, using mutable strings as HashMap keys would break the map if the key's content (and thus its hashcode) changed after insertion.
 
@@ -612,7 +612,7 @@ D. It is garbage collected differently from the heap
 
 **Answer:** B
 
-**B is correct.** The String Pool stores string literals (created with quotes) and strings explicitly added via `intern()`. Strings created with `new` are stored on the heap, not in the pool (A is wrong). Since Java 7, the pool is part of the heap (C is wrong — it is not on the stack). Pool strings are garbage collected like other heap objects when unreferenced (D is misleading).
+**B is correct.** The String Pool stores string literals (created with quotes) and strings explicitly added via `intern()`. Strings created with `new` are stored on the heap, not in the pool (A is wrong). Since Java 7, the pool is part of the heap (C is wrong. It is not on the stack). Pool strings are garbage collected like other heap objects when unreferenced (D is misleading).
 
 ### Q9. [Medium] What is the purpose of the intern() method?
 
@@ -634,7 +634,7 @@ D. StringBuilder uses less memory per character
 
 **Answer:** B
 
-**B is correct.** Each `+=` in a loop creates a new String object and copies all previous characters. Over n iterations, this leads to O(n^2) total character copies. StringBuilder maintains a mutable buffer, avoiding redundant copies. StringBuilder is NOT thread-safe (A) — that is StringBuffer. String concatenation is not deprecated (C).
+**B is correct.** Each `+=` in a loop creates a new String object and copies all previous characters. Over n iterations, this leads to O(n^2) total character copies. StringBuilder maintains a mutable buffer, avoiding redundant copies. StringBuilder is NOT thread-safe (A). That is StringBuffer. String concatenation is not deprecated (C).
 
 ### Q11. [Hard] What is the output of the following?
 
@@ -662,7 +662,7 @@ D. Both throw NullPointerException
 
 **Answer:** B
 
-**B is correct.** `String.valueOf(Object obj)` handles null gracefully and returns the string "null". However, `String.valueOf(null)` is ambiguous — the compiler may match it to `valueOf(char[])` which throws a `NullPointerException`. `System.out.println((Object) null)` prints "null" safely. This is a nuanced interview question about method overloading resolution.
+**B is correct.** `String.valueOf(Object obj)` handles null gracefully and returns the string "null". However, `String.valueOf(null)` is ambiguous, the compiler may match it to `valueOf(char[])` which throws a `NullPointerException`. `System.out.println((Object) null)` prints "null" safely. This is a nuanced interview question about method overloading resolution.
 
 ### Q13. [Hard] Which of the following statements about StringBuffer is FALSE?
 
@@ -834,7 +834,7 @@ public class Palindrome {
 
 **Difficulty:** Medium
 
-Priya has the string "the quick brown fox jumps over the lazy dog". Write a Java program that converts it to title case — capitalize the first letter of each word.
+Priya has the string "the quick brown fox jumps over the lazy dog". Write a Java program that converts it to title case, capitalize the first letter of each word.
 
 **Constraints:**
 

@@ -43,7 +43,7 @@
       },
       {
         "type": "paragraph",
-        "text": "In today's digital age, coding has become an essential skill for the next generation—not just for future careers, but for developing the kind of thinking that helps kids succeed in any field. Teaching children to code opens doors to creativity, problem-solving, and logical reasoning in ways that traditional education often misses. But where do you start? What's the right age? Which programming language should they learn first? This comprehensive guide will walk you through everything you need to know about introducing kids to the world of programming, from choosing the right tools to keeping them engaged and motivated."
+        "text": "In today's digital age, coding has become an essential skill for the next generation, not just for future careers, but for developing the kind of thinking that helps kids succeed in any field. Teaching children to code opens doors to creativity, problem-solving, and logical reasoning in ways that traditional education often misses. But where do you start? What's the right age? Which programming language should they learn first? This comprehensive guide will walk you through everything you need to know about introducing kids to the world of programming, from choosing the right tools to keeping them engaged and motivated."
       },
       {
         "type": "callout",
@@ -59,7 +59,7 @@
       },
       {
         "type": "paragraph",
-        "text": "You might be wondering: \"Isn't my child too young to learn coding?\" The answer might surprise you. Research from MIT and Stanford shows that children who learn coding at a young age develop stronger analytical and logical thinking skills that benefit them across all subjects. The earlier they start, the more natural programming concepts become—similar to how children who learn a second language early become more fluent."
+        "text": "You might be wondering: \"Isn't my child too young to learn coding?\" The answer might surprise you. Research from MIT and Stanford shows that children who learn coding at a young age develop stronger analytical and logical thinking skills that benefit them across all subjects. The earlier they start, the more natural programming concepts become, similar to how children who learn a second language early become more fluent."
       },
       {
         "type": "paragraph",
@@ -237,7 +237,7 @@
         "items": [
           {
             "title": "What's the best age to start teaching kids coding?",
-            "content": "Children can start as early as age 5-6 with visual programming tools like Scratch Jr. or Blockly. These platforms use drag-and-drop blocks that don't require reading skills. For text-based coding like Python, age 9-10 is ideal when they have stronger reading comprehension. However, every child is different—look for signs of interest and logical thinking readiness rather than focusing solely on age."
+            "content": "Children can start as early as age 5-6 with visual programming tools like Scratch Jr. or Blockly. These platforms use drag-and-drop blocks that don't require reading skills. For text-based coding like Python, age 9-10 is ideal when they have stronger reading comprehension. However, every child is different, look for signs of interest and logical thinking readiness rather than focusing solely on age."
           },
           {
             "title": "Do kids need to be good at math to learn coding?",
@@ -245,11 +245,11 @@
           },
           {
             "title": "How much time should kids spend coding each week?",
-            "content": "For beginners, 2-3 sessions of 30-45 minutes per week is ideal. This provides enough practice without causing burnout. As kids become more engaged, they may naturally want to code more—that's great! Just ensure it's balanced with other activities. Quality matters more than quantity; focused, engaged sessions are better than long, distracted ones."
+            "content": "For beginners, 2-3 sessions of 30-45 minutes per week is ideal. This provides enough practice without causing burnout. As kids become more engaged, they may naturally want to code more. That's great! Just ensure it's balanced with other activities. Quality matters more than quantity; focused, engaged sessions are better than long, distracted ones."
           },
           {
             "title": "What equipment do we need to get started?",
-            "content": "You need surprisingly little! A basic computer (Windows, Mac, or Chromebook) with internet access is sufficient for most beginner platforms. Tablets work for some visual programming apps like Scratch Jr. You don't need expensive equipment—many successful programmers started on modest computers. Free platforms like Scratch, Code.org, and Python (with IDLE) provide everything needed to begin."
+            "content": "You need surprisingly little! A basic computer (Windows, Mac, or Chromebook) with internet access is sufficient for most beginner platforms. Tablets work for some visual programming apps like Scratch Jr. You don't need expensive equipment, many successful programmers started on modest computers. Free platforms like Scratch, Code.org, and Python (with IDLE) provide everything needed to begin."
           },
           {
             "title": "Can I teach my child coding if I don't know how to code myself?",
@@ -257,7 +257,7 @@
           },
           {
             "title": "How do I keep my child motivated when they get frustrated?",
-            "content": "Frustration is a natural part of learning to code—even professionals experience it! Keep projects short and achievable, celebrate small wins, and frame bugs as puzzles to solve rather than failures. Take breaks when frustration builds, and return with fresh eyes. Let kids choose projects that interest them (games, animations, stories) to maintain engagement. Remind them that every programmer debugs constantly—it's part of the process, not a sign of failure."
+            "content": "Frustration is a natural part of learning to code, even professionals experience it! Keep projects short and achievable, celebrate small wins, and frame bugs as puzzles to solve rather than failures. Take breaks when frustration builds, and return with fresh eyes. Let kids choose projects that interest them (games, animations, stories) to maintain engagement. Remind them that every programmer debugs constantly. It's part of the process, not a sign of failure."
           },
           {
             "title": "Should my child learn multiple programming languages?",
@@ -273,7 +273,7 @@
       },
       {
         "type": "paragraph",
-        "text": "Remember, the goal isn't to create the next tech prodigy overnight. It's about fostering curiosity, building confidence, and developing skills that will serve them throughout their lives. Start small, celebrate progress, and most importantly—make it fun! Need guidance? <a href='/contact'>Reach out to us</a> for personalized advice."
+        "text": "Remember, the goal isn't to create the next tech prodigy overnight. It's about fostering curiosity, building confidence, and developing skills that will serve them throughout their lives. Start small, celebrate progress, and most importantly, make it fun! Need guidance? <a href='/contact'>Reach out to us</a> for personalized advice."
       },
       {
         "type": "button",

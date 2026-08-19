@@ -17,7 +17,7 @@
     <!-- SEO Meta Tags -->
     <meta name="description" content="Use abstract classes and interfaces to achieve abstraction. Understand default methods, functional interfaces.">
     <!-- meta keywords intentionally not emitted: Google has ignored it since 2009 and Bing
-         treats it as a SPAM SIGNAL — and Bing is the index ChatGPT/Copilot answer from.
+         treats it as a SPAM SIGNAL, and Bing is the index ChatGPT/Copilot answer from.
          See scripts/strip-meta-keywords.py. -->
     <meta name="author" content="Modern Age Coders">
     <meta name="robots" content="index, follow">
@@ -343,8 +343,8 @@ Converter celToFar = (c) -> c * 9.0 / 5 + 32;
 
 System.out.println(kmToMiles.convert(100));  // 62.1371
 System.out.println(celToFar.convert(37));    // 98.6</code></pre><p>Common built-in functional interfaces: <code>Runnable</code> (run()), <code>Callable</code> (call()), <code>Comparator</code> (compare()), <code>Predicate</code> (test()), <code>Function</code> (apply()).</p><h3>8. Marker Interfaces</h3><p>A <strong>marker interface</strong> has no methods. It simply "marks" a class as having a certain property. The JVM or frameworks check for this marker using <code>instanceof</code>.</p><pre><code>// Built-in marker interfaces:
-// java.io.Serializable — marks a class as serializable
-// java.lang.Cloneable — marks a class as cloneable
+// java.io.Serializable, marks a class as serializable
+// java.lang.Cloneable, marks a class as cloneable
 
 import java.io.Serializable;
 

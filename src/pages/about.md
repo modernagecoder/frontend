@@ -1,10 +1,10 @@
 ---
 title: "About Modern Age Coders | Coding & Math Education That Actually Works"
-description: "Modern Age Coders teaches coding and mathematics to learners aged 6-67 — kids, teens, college students, working professionals & businesses. Live 1-on-1 and group classes worldwide. We also build custom software, AI solutions & automation. Real skills, real results."
+description: "Modern Age Coders teaches coding and mathematics to learners aged 6-67, kids, teens, college students, working professionals & businesses. Live 1-on-1 and group classes worldwide. We also build custom software, AI solutions & automation. Real skills, real results."
 canonical: https://learn.modernagecoders.com/about
 source: src/pages/about.html
 ---
-> Modern Age Coders teaches coding and mathematics to learners aged 6-67 — kids, teens, college students, working professionals & businesses. Live 1-on-1 and group classes worldwide. We also build custom software, AI solutions & automation. Real skills, real results.
+> Modern Age Coders teaches coding and mathematics to learners aged 6-67, kids, teens, college students, working professionals & businesses. Live 1-on-1 and group classes worldwide. We also build custom software, AI solutions & automation. Real skills, real results.
 
 Since 2020
 
@@ -16,11 +16,11 @@ Modern Age Coders is where students learn real coding skills through hands-on pr
 
 ## Two Things We Do Really Well
 
-We keep it focused. No fluff, no gimmicks — just quality work in two areas.
+We keep it focused. No fluff, no gimmicks, just quality work in two areas.
 
 ### Education for Students
 
-We teach coding and mathematics to learners aged 6-67 — kids, teens, college students, working professionals and corporate teams. Not through boring lectures, but by building real things — games, websites, apps. Students learn by doing.
+We teach coding and mathematics to learners aged 6-67, kids, teens, college students, working professionals and corporate teams. Not through boring lectures, but by building real things, games, websites, apps. Students learn by doing.
 
 - Python, JavaScript, Java, C++ courses
 - Mathematics from basics to advanced
@@ -30,7 +30,7 @@ We teach coding and mathematics to learners aged 6-67 — kids, teens, college s
 
 ### Software for Businesses
 
-We build custom software, websites, mobile apps, and AI solutions for companies. From startups to established businesses — we turn ideas into working products.
+We build custom software, websites, mobile apps, and AI solutions for companies. From startups to established businesses. We turn ideas into working products.
 
 - Custom web & mobile applications
 - AI agents & automation tools
@@ -56,7 +56,7 @@ We believe coding and math strengthen each other. Logic from math makes better c
 
 ### Real Portfolio
 
-Students graduate with actual projects they can show — not just certificates. Something to be proud of and share.
+Students graduate with actual projects they can show, not just certificates. Something to be proud of and share.
 
 ### Flexible Timing
 
@@ -86,7 +86,7 @@ Ages 12-18[Learn More →](/courses/python-ai-kids-masterclass)![Full Stack Web 
 
 ### Full Stack Web Development
 
-Build complete websites and web apps from scratch. Frontend, backend, databases — the whole package.
+Build complete websites and web apps from scratch. Frontend, backend, databases, the whole package.
 
 Ages 16+[Learn More →](/courses/coding/college)![Data Structures and Algorithms Course](/images/dsa-college.webp)Interview Prep
 
@@ -118,15 +118,15 @@ We decided to flip that. What if students started building from day one? What if
 
 Today, we've trained over 10,000 students across India. Some have gone on to win coding competitions. Others have built apps that their friends actually use. Many have improved their school grades because coding taught them how to think logically.
 
-On the business side, we've helped startups and companies build their digital products — from simple websites to complex AI-powered applications. We bring the same hands-on, practical approach to every project.
+On the business side, we've helped startups and companies build their digital products, from simple websites to complex AI-powered applications. We bring the same hands-on, practical approach to every project.
 
-Whether you're a parent looking for quality coding education for your child, a student wanting to level up your skills, or a business needing software solutions — we're here to help.
+Whether you're a parent looking for quality coding education for your child, a student wanting to level up your skills, or a business needing software solutions. We're here to help.
 
 Modern Age Coders comes under The Mahaviras Education LLP
 
 ## What Parents & Students Say
 
-Real reviews from real families — verified on Google.
+Real reviews from real families, verified on Google.
 
 "★★★★★
 
@@ -162,7 +162,7 @@ Modern Age Coders has been a game-changer for me! I struggled to grasp coding be
 
 Student, Grade 9"★★★★★
 
-Mivaan enjoys the class. He understands the concepts and completes his tasks with excitement. He started taking interest in coding — truly an amazing class.
+Mivaan enjoys the class. He understands the concepts and completes his tasks with excitement. He started taking interest in coding, truly an amazing class.
 
 ![Shradha Saraf](https://lh3.googleusercontent.com/a/ACg8ocJIAjSLzhCVztgwnB-2n5ToRxFsWq9iqBTHGgbC_Sl8gGRPEg=s45-c-rp-mo-br100)
 
@@ -196,7 +196,7 @@ Group classes have 5-6 students learning together at a fixed schedule. Personali
 
 Yes! We offer a free demo class so you can experience our teaching style before enrolling. Just contact us to schedule one at a time that works for you.
 
-Yes, every student receives a course completion certificate. More importantly, you'll have a portfolio of real projects that you built during the course — which is often more valuable than a certificate.
+Yes, every student receives a course completion certificate. More importantly, you'll have a portfolio of real projects that you built during the course, which is often more valuable than a certificate.
 
 All sessions are recorded and shared with students. If you miss a class, you can watch the recording. For personalized classes, we can also reschedule if you inform us in advance.
 
@@ -212,7 +212,7 @@ Maths + Code for Ages 6 to 67. That is what we do. And we do it better than anyo
 
 ## Ready to Get Started?
 
-Whether you want to learn coding, improve your math, or need software built — let's talk. No pressure, just a conversation about what you need.
+Whether you want to learn coding, improve your math, or need software built, let's talk. No pressure, just a conversation about what you need.
 
 [Explore Courses](/courses)[Contact Us](/contact)
 

@@ -33,7 +33,7 @@ INSERT INTO students (id, name, city, marks) VALUES
     (8, 'Sneha Patel', 'Jaipur',    90);
 ```
 
-Multi-row INSERTs are one round-trip to the server and one transaction — much faster than three separate inserts and atomic (all-or-nothing).
+Multi-row INSERTs are one round-trip to the server and one transaction, much faster than three separate inserts and atomic (all-or-nothing).
 
 ### Q3. [Easy] Write an UPDATE to change Rohan Verma's marks (id=3) to 85.
 
@@ -57,7 +57,7 @@ SET marks = 90, city = 'Mumbai'
 WHERE id = 5;
 ```
 
-Multiple assignments are comma-separated in the SET clause. All changes happen atomically in one UPDATE statement — no risk of partial updates.
+Multiple assignments are comma-separated in the SET clause. All changes happen atomically in one UPDATE statement, no risk of partial updates.
 
 ### Q5. [Easy] Write a DELETE to remove the student with id=5 from students.
 
@@ -83,7 +83,7 @@ This is the single most common beginner disaster. MySQL treats the missing WHERE
 
 **Answer:** Every row is removed. The table still exists (with its columns and constraints), but it is empty. AUTO_INCREMENT is NOT reset (unlike TRUNCATE).
 
-DELETE without WHERE is slower than TRUNCATE on large tables because it logs each row. If you truly want to empty a table fast, use TRUNCATE TABLE — and know that it also resets AUTO_INCREMENT to 1.
+DELETE without WHERE is slower than TRUNCATE on large tables because it logs each row. If you truly want to empty a table fast, use TRUNCATE TABLE, and know that it also resets AUTO_INCREMENT to 1.
 
 ### Q8. [Medium] Write SQL to give every student from Mumbai a 5-mark bonus.
 
@@ -130,7 +130,7 @@ INSERT ... SELECT copies rows from one table into another. No VALUES clause need
 SET SQL_SAFE_UPDATES = 1;
 ```
 
-Great training wheels for devs. MySQL Workbench enables it by default. When you hit the "You are using safe update mode" error, it's a reminder to add a proper WHERE — don't just disable the mode.
+Great training wheels for devs. MySQL Workbench enables it by default. When you hit the "You are using safe update mode" error, it's a reminder to add a proper WHERE, don't just disable the mode.
 
 ### Q12. [Medium] Write an INSERT IGNORE to try to add a student with id=1 (which already exists). What happens?
 
@@ -169,7 +169,7 @@ INSERT IGNORE is for "I don't care if it's already there". ON DUPLICATE KEY UPDA
 
 *Hint:* Columns you don't mention.
 
-**Answer:** REPLACE internally DELETEs the existing row and INSERTs a new one. Any columns you don't specify are reset to their DEFAULT (or NULL) — so REPLACE can silently wipe data you forgot to list. It also resets AUTO_INCREMENT-generated fields, fires DELETE triggers, and can cascade FK deletes.
+**Answer:** REPLACE internally DELETEs the existing row and INSERTs a new one. Any columns you don't specify are reset to their DEFAULT (or NULL), so REPLACE can silently wipe data you forgot to list. It also resets AUTO_INCREMENT-generated fields, fires DELETE triggers, and can cascade FK deletes.
 
 That's why ON DUPLICATE KEY UPDATE is preferred: it updates only the columns you explicitly list, leaving everything else intact. Use REPLACE only when you really want a full row replacement.
 
@@ -283,9 +283,9 @@ The intent was to give a 10% bonus to everyone.
 
 *Hint:* id > 0 probably matches everyone anyway.
 
-**Answer:** Not necessarily a bug — the WHERE `id > 0` likely matches every row in a typical AUTO_INCREMENT table, so the intent is achieved. But it's a code smell: if you want "every row", be explicit. Use `WHERE 1=1` (clearly universal) or disable SQL_SAFE_UPDATES and drop the WHERE entirely.
+**Answer:** Not necessarily a bug, the WHERE `id > 0` likely matches every row in a typical AUTO_INCREMENT table, so the intent is achieved. But it's a code smell: if you want "every row", be explicit. Use `WHERE 1=1` (clearly universal) or disable SQL_SAFE_UPDATES and drop the WHERE entirely.
 
-The statement works, but `id > 0` is a dodgy way to express "all rows" — what if id could be negative? Readers will pause and wonder if there's a real restriction. Better: explicitly scope or explicitly drop the condition with a comment.
+The statement works, but `id > 0` is a dodgy way to express "all rows", what if id could be negative? Readers will pause and wonder if there's a real restriction. Better: explicitly scope or explicitly drop the condition with a comment.
 
 ### Q4. [Medium] Write SQL to delete every student whose name starts with the letter 'V'.
 
@@ -312,7 +312,7 @@ SELECT COUNT(*) FROM students;  -- line B
 
 **Answer:** Line A: `0` (all rows deleted in the transaction). Line B: `5` (ROLLBACK restores them).
 
-DELETE is DML and fully transactional. Until COMMIT, changes are visible only inside your transaction. ROLLBACK reverts them. This is why you should wrap destructive statements in START TRANSACTION — if you realize you made a mistake, ROLLBACK saves you.
+DELETE is DML and fully transactional. Until COMMIT, changes are visible only inside your transaction. ROLLBACK reverts them. This is why you should wrap destructive statements in START TRANSACTION, if you realize you made a mistake, ROLLBACK saves you.
 
 ### Q6. [Medium] What happens?
 
@@ -328,7 +328,7 @@ SELECT COUNT(*) FROM students;
 
 **Answer:** `0`. TRUNCATE is DDL and implicitly commits. The ROLLBACK has nothing to undo.
 
-This catches many students. Even though you started a transaction, TRUNCATE is DDL and commits immediately — there is no going back. If you need rollback-ability on a mass delete, use DELETE inside the transaction instead of TRUNCATE.
+This catches many students. Even though you started a transaction, TRUNCATE is DDL and commits immediately. There is no going back. If you need rollback-ability on a mass delete, use DELETE inside the transaction instead of TRUNCATE.
 
 ### Q7. [Medium] Write SQL to UPDATE the students table so that anyone with marks >= 90 gets active = 1, and anyone with marks < 90 gets active = 0.
 
@@ -359,7 +359,7 @@ VALUES (1, 'Aarav Sharma', 'Mumbai', 87);
 
 This is the most common INSERT error. The fix depends on intent: if you want to skip silently, use INSERT IGNORE. If you want to merge, use ON DUPLICATE KEY UPDATE. If you truly want a new row, pick a different id (or use AUTO_INCREMENT).
 
-### Q9. [Hard] You're building a likes counter for a post. Table: post_likes (post_id INT PK, likes INT NOT NULL DEFAULT 0). Write the SQL that runs when a user clicks Like — increment the count, or create a row with likes=1 if the post has no likes yet.
+### Q9. [Hard] You're building a likes counter for a post. Table: post_likes (post_id INT PK, likes INT NOT NULL DEFAULT 0). Write the SQL that runs when a user clicks Like: increment the count, or create a row with likes=1 if the post has no likes yet.
 
 *Hint:* ON DUPLICATE KEY UPDATE.
 
@@ -369,7 +369,7 @@ VALUES (?, 1)
 ON DUPLICATE KEY UPDATE likes = likes + 1;
 ```
 
-This is the atomic counter pattern — crucial for high-concurrency apps. Without ON DUPLICATE KEY UPDATE, you'd have to SELECT first then INSERT or UPDATE — two round-trips AND a race condition where two users clicking at once could both see likes=5 and both increment to 6 (losing a click).
+This is the atomic counter pattern, crucial for high-concurrency apps. Without ON DUPLICATE KEY UPDATE, you'd have to SELECT first then INSERT or UPDATE, two round-trips AND a race condition where two users clicking at once could both see likes=5 and both increment to 6 (losing a click).
 
 ### Q10. [Hard] You need to remove 500M rows from a 1B-row table without locking it for hours. What approach would you take?
 
@@ -447,7 +447,7 @@ This single habit prevents 95% of destructive accidents. Senior engineers do thi
 
 ### Q10. [Medium] After `DELETE FROM students;` on a 10-row table, what does SELECT COUNT(*) return?
 
-**B is correct.** All 10 rows are deleted. The table still exists (unlike DROP), so COUNT(*) returns 0 — an empty set.
+**B is correct.** All 10 rows are deleted. The table still exists (unlike DROP), so COUNT(*) returns 0, an empty set.
 
 ### Q11. [Medium] Which is the recommended way to insert new rows into a table, copying data from another table?
 
@@ -455,7 +455,7 @@ This single habit prevents 95% of destructive accidents. Senior engineers do thi
 
 ### Q12. [Medium] What does MySQL return when you run `UPDATE students SET marks = 100 WHERE id = 999;` but no row has id=999?
 
-**B is correct.** UPDATE silently affects 0 rows when the WHERE matches nothing. No error. If you expected to update a row, check the output — "0 rows affected" means nothing happened.
+**B is correct.** UPDATE silently affects 0 rows when the WHERE matches nothing. No error. If you expected to update a row, check the output, "0 rows affected" means nothing happened.
 
 ### Q13. [Medium] Which is TRUE about REPLACE INTO?
 
@@ -463,7 +463,7 @@ This single habit prevents 95% of destructive accidents. Senior engineers do thi
 
 ### Q14. [Medium] Which is an atomic "insert or increment counter" query?
 
-**B is correct.** Atomic single-statement upsert/increment. Option A has a race condition (two users can both see no row and both INSERT). Option C fails if the row doesn't exist. Option D sets count to 1 every time — not an increment.
+**B is correct.** Atomic single-statement upsert/increment. Option A has a race condition (two users can both see no row and both INSERT). Option C fails if the row doesn't exist. Option D sets count to 1 every time, not an increment.
 
 ### Q15. [Hard] Why should you prefer explicit column lists in INSERT statements?
 
@@ -745,7 +745,7 @@ Preview shows affected rows. UPDATE runs. Post-check verifies. COMMIT finalizes.
 **Solution:**
 
 ```sql
--- STEP 1: Preview — what rows will be affected?
+-- STEP 1: Preview, what rows will be affected?
 SELECT id, name, city, marks
 FROM students
 WHERE city = 'Delhi';
@@ -760,7 +760,7 @@ SET city = 'New Delhi',
     marks = marks + 10
 WHERE city = 'Delhi';
 
--- STEP 4: Post-check — do the updated rows look right?
+-- STEP 4: Post-check, do the updated rows look right?
 SELECT id, name, city, marks
 FROM students
 WHERE city = 'New Delhi';
@@ -771,7 +771,7 @@ COMMIT;
 -- OR:
 -- ROLLBACK;
 
--- This workflow — preview, transaction, apply, verify, commit — is how
+-- This workflow, preview, transaction, apply, verify, commit, is how
 -- senior engineers handle production updates. Never skip the preview.
 -- Never skip the verify. If ANYTHING looks wrong, ROLLBACK.
 ```

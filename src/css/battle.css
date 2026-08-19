@@ -1,12 +1,11 @@
 /* ==========================================================================
-   BATTLE ARENA — shared design system
+   BATTLE ARENA, shared design system
    --------------------------------------------------------------------------
    Used by /battle (student), /battle/screen (projector) and /battle-admin.
 
    The palette and type are lifted verbatim from src/pages/hackathon-login.html
    so the arena reads as part of the same event, not a bolt-on. These pages
-   deliberately declare their own :root rather than using src/css/tokens.css —
-   they are standalone event pages, exactly like the hackathon pages, and must
+   deliberately declare their own :root rather than using src/css/tokens.css. They are standalone event pages, exactly like the hackathon pages, and must
    not be affected by a change to the main site's tokens mid-exam.
 
    THE SIGNATURE ELEMENT is the countdown. In a live exam the clock is what the
@@ -203,7 +202,7 @@ label.lbl {
   margin-bottom: 0.4rem;
 }
 
-/* Keyboard focus must always be visible — people navigate an exam under
+/* Keyboard focus must always be visible, people navigate an exam under
    pressure and some of them use a keyboard. */
 :focus-visible { outline: 2px solid var(--cyan); outline-offset: 2px; }
 
@@ -270,7 +269,7 @@ label.lbl {
   color: var(--ink);
 }
 
-/* Hue tracks urgency. Announced to nobody — it is felt, not read. */
+/* Hue tracks urgency. Announced to nobody. It is felt, not read. */
 .timer[data-urgency="calm"]  .sweep { stroke: var(--violet); }
 .timer[data-urgency="soon"]  .sweep { stroke: var(--gold); }
 .timer[data-urgency="final"] .sweep { stroke: var(--pink); }

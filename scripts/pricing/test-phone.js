@@ -6,7 +6,7 @@
  *
  * These sit alongside the pricing tests on purpose. A correct price in a
  * visitor's own currency is worth nothing if the enquiry form then refuses
- * their phone number — the lead is lost at the last step, silently, and shows
+ * their phone number, the lead is lost at the last step, silently, and shows
  * up in no report.
  *
  * The rules live in src/js/country-code-selector.js. This exercises the real

@@ -171,7 +171,7 @@ Student projects
 
 ## What our students actually build
 
-Every one of these is a real, live project shipped by a Modern Age Coders student — not a mockup. Explore more in our [Student Labs](/student-labs).
+Every one of these is a real, live project shipped by a Modern Age Coders student, not a mockup. Explore more in our [Student Labs](/student-labs).
 
 ![The Beautiful Mind](/images/projects/mindgame.webp)
 
@@ -179,25 +179,25 @@ Game
 
 ### The Beautiful Mind
 
-A scientifically designed focus and brain-strength game with 15 progressive levels — testing attention, control and mental endurance with real-time progress tracking and leaderboards.
+A scientifically designed focus and brain-strength game with 15 progressive levels, testing attention, control and mental endurance with real-time progress tracking and leaderboards.
 
 by Modern Age Coders · [Open the live project ↗](https://mind.modernagecoders.com)
 
-![Misti — AI Chatbot for Maths & Coding](/images/projects/misti.webp)
+![Misti: AI Chatbot for Maths & Coding](/images/projects/misti.webp)
 
 AI & ML
 
-### Misti — AI Chatbot for Maths & Coding
+### Misti: AI Chatbot for Maths & Coding
 
 An intelligent AI-powered chatbot that helps students solve maths and coding questions with deep, step-by-step explanations using advanced Python AI frameworks and LLM APIs.
 
 by Harshit · [Open the live project ↗](https://misti.modernagecoders.com)
 
-![Babu — 90 Second Maths Challenge](/images/projects/babu.webp)
+![Babu: 90 Second Maths Challenge](/images/projects/babu.webp)
 
 Game
 
-### Babu — 90 Second Maths Challenge
+### Babu: 90 Second Maths Challenge
 
 An exciting 90-second maths challenge with random problems under time pressure, and a dynamic leaderboard powered by Firebase/MongoDB with real-time score updates.
 

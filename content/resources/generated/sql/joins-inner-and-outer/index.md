@@ -60,7 +60,7 @@ Good database design means every piece of information is stored once. Customer a
 
 ### 2. JOINs Are the Single Most Asked Interview Topic
 
-Every SQL interview at Amazon, Flipkart, Zomato, Paytm, or any product company will include JOIN questions. "Customers with no orders," "most valuable customer," "employees earning more than their manager" — all JOIN questions. If you cannot write a LEFT JOIN WHERE NULL pattern without thinking, you are not interview-ready.
+Every SQL interview at Amazon, Flipkart, Zomato, Paytm, or any product company will include JOIN questions. "Customers with no orders," "most valuable customer," "employees earning more than their manager", all JOIN questions. If you cannot write a LEFT JOIN WHERE NULL pattern without thinking, you are not interview-ready.
 
 ### 3. The Wrong JOIN Silently Gives the Wrong Answer
 
@@ -68,7 +68,7 @@ Unlike a syntax error which shouts at you, using an INNER JOIN when you needed a
 
 ### 4. JOINs Power Real Reporting
 
-Every dashboard you have ever seen — sales by region, active users by plan, top products by revenue — is built from JOINs. Data analysts live inside JOIN queries. Backend engineers write them into every API endpoint that returns more than one entity.
+Every dashboard you have ever seen, sales by region, active users by plan, top products by revenue, is built from JOINs. Data analysts live inside JOIN queries. Backend engineers write them into every API endpoint that returns more than one entity.
 
 ## Detailed Explanation
 
@@ -582,7 +582,7 @@ SELECT c.name, o.amount
 FROM customers c, orders o;
 ```
 
-No syntax error but the result has 5 * 5 = 25 rows — a cartesian product. With real data of millions of rows, this query would never finish.
+No syntax error but the result has 5 * 5 = 25 rows, a cartesian product. With real data of millions of rows, this query would never finish.
 
 **Correct:**
 
@@ -621,13 +621,13 @@ Both customers and orders have a column named `id`. Without qualifying (c.id or 
 - INNER JOIN returns only rows with a match in both tables. The keyword INNER is optional in MySQL; JOIN alone means INNER JOIN.
 - LEFT JOIN keeps all rows from the left table. Unmatched right rows become NULL. Use this for 'all X, even without Y' reports.
 - RIGHT JOIN keeps all rows from the right table. Most teams rewrite as LEFT JOIN by flipping the table order because it reads more naturally.
-- FULL OUTER JOIN keeps all rows from both tables. MySQL does not support it natively — simulate with UNION of LEFT JOIN and RIGHT JOIN.
+- FULL OUTER JOIN keeps all rows from both tables. MySQL does not support it natively, simulate with UNION of LEFT JOIN and RIGHT JOIN.
 - CROSS JOIN returns the cartesian product: every row from A paired with every row from B. Dangerous at scale; use only with deliberate intent.
-- ON accepts any boolean condition. USING (col) is shorthand when both tables have an identically named column — prefer ON for clarity.
+- ON accepts any boolean condition. USING (col) is shorthand when both tables have an identically named column, prefer ON for clarity.
 - To find rows with no match, use LEFT JOIN + WHERE right_primary_key IS NULL. This is the most asked JOIN interview pattern.
 - Putting a right-table filter in WHERE after LEFT JOIN silently turns it into INNER JOIN. Put the filter in ON or check for IS NULL explicitly.
 - Always alias tables (c, o) and qualify columns in JOIN queries. Unqualified ambiguous columns cause errors and hurt readability.
-- COUNT(right_key) on a LEFT JOIN correctly returns 0 for unmatched rows because COUNT ignores NULLs — perfect for 'orders per customer' reports.
+- COUNT(right_key) on a LEFT JOIN correctly returns 0 for unmatched rows because COUNT ignores NULLs, perfect for 'orders per customer' reports.
 
 ## Related Topics
 

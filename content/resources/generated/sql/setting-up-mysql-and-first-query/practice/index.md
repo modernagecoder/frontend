@@ -122,7 +122,7 @@ Default MySQL port is 3306. PostgreSQL uses 5432, SQL Server uses 1433. You can 
 
 **Answer:** MySQL shows a continuation prompt `->` because it is waiting for the statement to end. Just type `;` and press Enter.
 
-This confuses beginners into thinking MySQL is frozen. It is not — it is waiting. You can span a single statement across many lines as long as you close it with a semicolon.
+This confuses beginners into thinking MySQL is frozen. It is not. It is waiting. You can span a single statement across many lines as long as you close it with a semicolon.
 
 ### Q12. [Medium] Write the SQL to insert three books in a single statement: (1, 'Let Us C', 350), (2, 'DBMS Concepts', 600), (3, 'Head First Java', 500).
 
@@ -240,7 +240,7 @@ This mirrors the real "database seed script" pattern used by most web frameworks
 
 *Hint:* GUI vs terminal tradeoffs.
 
-**Answer:** **Workbench** is a GUI with visual query editor, result grid, schema browser, and EER diagram tool — great for exploration and learning. **CLI** is a terminal client — faster for experienced users, the only option on servers without a desktop, and essential when writing shell scripts or SSH'ing into a remote server.
+**Answer:** **Workbench** is a GUI with visual query editor, result grid, schema browser, and EER diagram tool, great for exploration and learning. **CLI** is a terminal client, faster for experienced users, the only option on servers without a desktop, and essential when writing shell scripts or SSH'ing into a remote server.
 
 Real work uses both. Workbench for ad-hoc exploration and visual table design; CLI for scripting, server administration, and quick queries during a debugging session on a production box.
 
@@ -275,7 +275,7 @@ INSERT INTO employees VALUES
     (103, 'Sneha Patel', 'Finance', 72000);
 ```
 
-Standard multi-row INSERT form. Aligned spacing is cosmetic — but it makes the script dramatically easier to read in code review.
+Standard multi-row INSERT form. Aligned spacing is cosmetic, but it makes the script dramatically easier to read in code review.
 
 ### Q3. [Easy] Find the error:
 
@@ -313,7 +313,7 @@ INSERT INTO students VALUES (6, "Diya Kapoor", 10, 88);
 INSERT INTO students VALUES (6, 'Diya Kapoor', 10, 88);
 ```
 
-Single quotes for strings is the SQL standard. MySQL's default mode allows double quotes, but it is fragile — if the server has ANSI_QUOTES enabled (common in enterprise) the statement breaks. Always use single quotes.
+Single quotes for strings is the SQL standard. MySQL's default mode allows double quotes, but it is fragile, if the server has ANSI_QUOTES enabled (common in enterprise) the statement breaks. Always use single quotes.
 
 ### Q5. [Medium] Given the students table with 5 rows from the chapter, what does `SELECT COUNT(*) FROM students;` return?
 
@@ -327,7 +327,7 @@ Single quotes for strings is the SQL standard. MySQL's default mode allows doubl
 +----------+
 ```
 
-`COUNT(*)` returns the number of rows. Since the table has Aarav, Priya, Rohan, Ananya, and Vikram — 5 students — the result is 5. We cover COUNT in depth in Chapter 9.
+`COUNT(*)` returns the number of rows. Since the table has Aarav, Priya, Rohan, Ananya, and Vikram, 5 students, the result is 5. We cover COUNT in depth in Chapter 9.
 
 ### Q6. [Medium] You notice your MySQL CLI shows `mysql>` as the prompt, but then suddenly it changes to `->`. What does this indicate?
 
@@ -335,7 +335,7 @@ Single quotes for strings is the SQL standard. MySQL's default mode allows doubl
 
 **Answer:** MySQL is waiting for you to finish the current statement. You probably pressed Enter before typing a `;`. Just type `;` and press Enter to complete it.
 
-This is the #1 confusion for beginners. The server is not hung — it is simply waiting for a terminator. You can span many lines; MySQL only runs when it sees the semicolon.
+This is the #1 confusion for beginners. The server is not hung. It is simply waiting for a terminator. You can span many lines; MySQL only runs when it sees the semicolon.
 
 ### Q7. [Medium] Write a script that creates a database `ecommerce`, switches to it, and creates a `products` table with columns `product_id` (INT), `product_name` (VARCHAR 80), and `mrp` (INT). Make it re-runnable.
 
@@ -365,9 +365,9 @@ It errors with "Table 'school.orders' doesn't exist". What are two possible caus
 
 *Hint:* Either the table is missing, or it lives in another database.
 
-**Answer:** (1) The orders table has not been created in school. (2) It exists, but in a different database (e.g., ecommerce) — you can query it with `SELECT * FROM ecommerce.orders;`.
+**Answer:** (1) The orders table has not been created in school. (2) It exists, but in a different database (e.g., ecommerce). You can query it with `SELECT * FROM ecommerce.orders;`.
 
-SQL errors are usually quite literal — "`school.orders` doesn't exist" means MySQL looked for an `orders` table inside `school` and couldn't find it. Check `SHOW TABLES;` inside school, and `SHOW DATABASES;` to find where orders actually lives.
+SQL errors are usually quite literal, "`school.orders` doesn't exist" means MySQL looked for an `orders` table inside `school` and couldn't find it. Check `SHOW TABLES;` inside school, and `SHOW DATABASES;` to find where orders actually lives.
 
 ### Q9. [Hard] What does this return?
 
@@ -375,7 +375,7 @@ SQL errors are usually quite literal — "`school.orders` doesn't exist" means M
 DESCRIBE students;
 ```
 
-(students has columns id INT, name VARCHAR(50), class INT, marks INT — all nullable, no keys.)
+(students has columns id INT, name VARCHAR(50), class INT, marks INT, all nullable, no keys.)
 
 *Hint:* A 4-row schema listing.
 
@@ -454,11 +454,11 @@ Multi-row INSERT has three advantages: fewer network round-trips, atomic as a si
 
 ### Q4. [Easy] Which command shows the structure (columns, types) of a table?
 
-**B is correct.** `DESCRIBE students;` (or its shortcut `DESC students;`) prints the schema. `SHOW students;` is not valid — you use `SHOW TABLES;` to list tables.
+**B is correct.** `DESCRIBE students;` (or its shortcut `DESC students;`) prints the schema. `SHOW students;` is not valid. You use `SHOW TABLES;` to list tables.
 
 ### Q5. [Easy] What character terminates an SQL statement in the MySQL CLI?
 
-**C is correct.** Every SQL statement ends with a semicolon. A newline alone doesn't terminate — MySQL waits for the `;` before executing.
+**C is correct.** Every SQL statement ends with a semicolon. A newline alone doesn't terminate: MySQL waits for the `;` before executing.
 
 ### Q6. [Easy] Which of the following is a valid single-line SQL comment?
 
@@ -474,7 +474,7 @@ Multi-row INSERT has three advantages: fewer network round-trips, atomic as a si
 
 ### Q9. [Medium] You run `SELECT DATABASE();` right after logging in (without any USE). What do you see?
 
-**C is correct.** Without a USE statement, no database is active, so `DATABASE()` returns NULL. It is not an error — you still get a result, just NULL.
+**C is correct.** Without a USE statement, no database is active, so `DATABASE()` returns NULL. It is not an error. You still get a result, just NULL.
 
 ### Q10. [Medium] Which statement creates a table ONLY if it does not already exist?
 
@@ -663,7 +663,7 @@ select * from products
 **Sample input:**
 
 ```
-(No input — the script above is the input)
+(No input, the script above is the input)
 ```
 
 **Sample output:**
@@ -800,8 +800,8 @@ SELECT COUNT(*) AS total_orders FROM orders;
 -- Step 6: Peek at the first few rows.
 SELECT * FROM orders LIMIT 5;
 
--- This sequence — SHOW DATABASES, USE, SHOW TABLES, DESCRIBE,
--- COUNT(*), LIMIT 5 — is the universal "orient yourself in a new DB" workflow.
+-- This sequence, SHOW DATABASES, USE, SHOW TABLES, DESCRIBE,
+-- COUNT(*), LIMIT 5, is the universal "orient yourself in a new DB" workflow.
 ```
 
 ### Challenge 6. Re-runnable Seed Script
@@ -832,7 +832,7 @@ Script runs cleanly on first execution AND on re-executions. Final SELECT return
 /*
    Bookstore seed script.
    Purpose: reset the books table with a clean 5-row dataset.
-   Safe to run multiple times — uses IF NOT EXISTS / IF EXISTS.
+   Safe to run multiple times, uses IF NOT EXISTS / IF EXISTS.
 */
 
 -- 1. Create the database if missing.

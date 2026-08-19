@@ -5,7 +5,7 @@
  */
 
 /* -----------------------------------------------------------------------
- * EnrollmentStatus — localStorage-backed memory of which courses the
+ * EnrollmentStatus, localStorage-backed memory of which courses the
  * current browser has already paid for. After a successful payment we
  * call EnrollmentStatus.mark(); on every page load we call applyUI(),
  * which hides "Enroll" buttons and shows a sticky banner reminding the
@@ -44,7 +44,7 @@
           enrolledAt: Date.now()
         };
         localStorage.setItem(storageKey(path), JSON.stringify(payload));
-      } catch (e) { /* localStorage disabled / quota — silently ignore */ }
+      } catch (e) { /* localStorage disabled / quota, silently ignore */ }
     },
 
     get: function (path) {
@@ -84,8 +84,7 @@
     },
 
     _relabelEnrollButtons: function () {
-      // Mark enroll buttons as "Already Enrolled" but keep them clickable —
-      // a click takes the student to /welcome instead of opening payment.
+      // Mark enroll buttons as "Already Enrolled" but keep them clickable, // a click takes the student to /welcome instead of opening payment.
       var selectors = '.enroll-btn, [data-enroll-btn], [data-enroll-camp], .pricing-card .btn-premium-solid';
       var nodes = document.querySelectorAll(selectors);
       for (var i = 0; i < nodes.length; i++) {
@@ -93,7 +92,7 @@
         if (btn.dataset.macEnrolledApplied === 'true') continue;
         btn.dataset.macEnrolledApplied = 'true';
         btn.dataset.macOriginalText = (btn.textContent || '').trim();
-        btn.textContent = '✓ Already Enrolled — View Details';
+        btn.textContent = '✓ Already Enrolled: View Details';
         btn.setAttribute('aria-label', 'You are already enrolled. View enrollment details.');
         btn.style.cursor = 'pointer';
         btn.style.background = 'linear-gradient(135deg, #22c55e, #15803d)';
@@ -211,7 +210,7 @@ const CoursePayment = {
     if (generatedIndex !== -1 && pathParts[generatedIndex + 1]) {
       return pathParts[generatedIndex + 1];
     }
-    // Pretty URL /courses/<slug> — how Netlify actually serves every course
+    // Pretty URL /courses/<slug>, how Netlify actually serves every course
     // page (a 200 rewrite, so "generated" never appears in the path). Without
     // this branch the slug resolved to unknown-course and per-course pricing
     // in courses-config.json silently fell back to defaultPricing.
@@ -253,7 +252,7 @@ const CoursePayment = {
   getIntlPricing: function(planType) {
     var ip = window.InternationalPricing;
     // ip.PRICES is checked BEFORE any table is picked. It is null until
-    // loadTables() has run — and if the data file failed to load it stays
+    // loadTables() has run, and if the data file failed to load it stays
     // null, which used to throw here on agents/maths pages and kill the buy
     // button outright.
     var hasTables = !!(ip && ip.PRICES);
@@ -455,12 +454,12 @@ const CoursePayment = {
       submitBtn.textContent = 'Processing...';
       
       // Determine currency and amount for international users.
-      // Mini Batch has no USD price — it's India-only; foreign users are blocked earlier.
+      // Mini Batch has no USD price. It's India-only; foreign users are blocked earlier.
       // Prices come from getIntlPricing (context-aware, single source of truth).
       const isIndian = window.__MAC_IS_INDIAN !== undefined ? window.__MAC_IS_INDIAN : (ccInfo.iso === 'IN');
       // Re-guard here because this isIndian can differ from the modal-open one
       // (country-code selection). Without it, a null intl price would fall back
-      // to the INR amount while currency says USD — a 90x overcharge.
+      // to the INR amount while currency says USD, a 90x overcharge.
       if (!isIndian && planType === 'miniBatch') {
         alert('The Mini Batch plan is available only in India. Please choose Group Classes or Personalized 1-on-1.');
         const sb = document.querySelector('.payment-submit-btn');
@@ -471,7 +470,7 @@ const CoursePayment = {
 
       // HARD STOP, never a fallback. The old line here read
       //   finalAmount = isIndian ? amount : (intlP ? intlP.amount : amount)
-      // — so when the international price could not be resolved (data file
+      //, so when the international price could not be resolved (data file
       // blocked by an ad-blocker, CDN hiccup, deploy skew) the INR figure was
       // sent with currency USD: a ₹1,499 plan became a US$1,499 charge, a
       // roughly 10x overcharge. If the price cannot be resolved, no order is

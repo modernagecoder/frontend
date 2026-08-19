@@ -17,7 +17,7 @@
     <!-- SEO Meta Tags -->
     <meta name="description" content="Design clean schemas. Master the normal forms with real examples, ER diagrams, and denormalization trade-offs.">
     <!-- meta keywords intentionally not emitted: Google has ignored it since 2009 and Bing
-         treats it as a SPAM SIGNAL — and Bing is the index ChatGPT/Copilot answer from.
+         treats it as a SPAM SIGNAL, and Bing is the index ChatGPT/Copilot answer from.
          See scripts/strip-meta-keywords.py. -->
     <meta name="author" content="Modern Age Coders">
     <meta name="robots" content="index, follow">
@@ -135,7 +135,7 @@
         "name": "Forgetting the Junction Table for N-M",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "N-M relationships require a junction table. The junction has a composite PK of both foreign keys and usually hosts relationship-specific attributes (grade, enrolled_at, role). This is a hard rule — there are no exceptions for 'small N' or 'small M'."
+          "text": "N-M relationships require a junction table. The junction has a composite PK of both foreign keys and usually hosts relationship-specific attributes (grade, enrolled_at, role). This is a hard rule. There are no exceptions for 'small N' or 'small M'."
         }
       },
       {
@@ -210,7 +210,7 @@
 
             <section id="what" class="content-section">
                 <h2>What Is It?</h2>
-                <h2>Database Design and Normalization: Building Schemas That Do Not Rot</h2><p><strong>Database design</strong> is the art of deciding what tables your application needs, what columns each table has, and how they relate. <strong>Normalization</strong> is the set of rules that guide this design so that the same fact is stored exactly once, update anomalies cannot occur, and the schema can evolve gracefully. The rules were formalised by Edgar Codd and Ray Boyce in the 1970s as a sequence of 'normal forms' — 1NF, 2NF, 3NF, BCNF, 4NF, 5NF — each progressively stricter.</p><pre><code>-- Bad: one table, lots of repetition and hidden problems
+                <h2>Database Design and Normalization: Building Schemas That Do Not Rot</h2><p><strong>Database design</strong> is the art of deciding what tables your application needs, what columns each table has, and how they relate. <strong>Normalization</strong> is the set of rules that guide this design so that the same fact is stored exactly once, update anomalies cannot occur, and the schema can evolve gracefully. The rules were formalised by Edgar Codd and Ray Boyce in the 1970s as a sequence of 'normal forms', 1NF, 2NF, 3NF, BCNF, 4NF, 5NF, each progressively stricter.</p><pre><code>-- Bad: one table, lots of repetition and hidden problems
 CREATE TABLE orders_bad (
     order_id INT,
     customer_name VARCHAR(50),
@@ -230,12 +230,12 @@ CREATE TABLE orders    (id INT PK, customer_id INT FK, created_at DATETIME);
 CREATE TABLE order_items(
     order_id INT FK, product_id INT FK, qty INT,
     PRIMARY KEY (order_id, product_id)
-);</code></pre><p>The second design stores Aarav's city exactly once. A product's price lives in one row. The cost is more tables and more JOINs in queries — but no redundancy, no update anomalies, and a schema that survives five years of product changes.</p><p>Normalization is not an end in itself. Once a schema is clean, you may deliberately <em>denormalize</em> parts of it for performance — copy a customer's city onto <code>orders</code> to avoid a JOIN on the hot path. Doing denormalization first produces unmaintainable rubbish. Doing normalization first and denormalizing with purpose produces a system that scales.</p>
+);</code></pre><p>The second design stores Aarav's city exactly once. A product's price lives in one row. The cost is more tables and more JOINs in queries, but no redundancy, no update anomalies, and a schema that survives five years of product changes.</p><p>Normalization is not an end in itself. Once a schema is clean, you may deliberately <em>denormalize</em> parts of it for performance, copy a customer's city onto <code>orders</code> to avoid a JOIN on the hot path. Doing denormalization first produces unmaintainable rubbish. Doing normalization first and denormalizing with purpose produces a system that scales.</p>
             </section>
 
             <section id="why" class="content-section">
                 <h2>Why Does It Matter?</h2>
-                <h2>Why Normalize?</h2><h3>1. Eliminate Redundancy</h3><p>In the bad <code>orders_bad</code> table, Aarav's name and city are stored in every order he has ever placed. If he has 200 orders, there are 200 copies of 'Aarav' and 'Pune'. Every byte of those 200 rows is wasted storage, and every time someone reads an order, the engine has to read it again.</p><h3>2. Avoid Update Anomalies</h3><p>Update anomalies are what happen when the same fact lives in many places and some copies are updated but others are not:</p><ul><li><strong>Update anomaly</strong>: Aarav moves from Pune to Bengaluru. You must update his city on every one of his 200 order rows. Miss one and the database now disagrees with itself.</li><li><strong>Insertion anomaly</strong>: You want to add a new product to your catalog, but the only place products live is inside orders. You cannot add a product without pretending someone ordered it.</li><li><strong>Deletion anomaly</strong>: Priya has exactly one order. When you delete that order row, you also lose the fact that Priya was ever a customer.</li></ul><p>All three disappear once you normalize — each fact lives in exactly one place.</p><h3>3. Referential Integrity</h3><p>Normalization pairs naturally with foreign keys. If <code>order_items.product_id</code> references <code>products.id</code>, the database refuses to create order items for products that do not exist. Consistency becomes the database's job, not the developer's.</p><h3>4. Schema Evolution</h3><p>Two years from now, the product team wants to add 'product category'. In the normalized schema, you add a column to <code>products</code> and you are done. In the denormalized mess, you add it to <code>orders_bad</code> and now every row (past and future) carries a copy of the category that has to be kept in sync.</p><h3>5. Query Simplicity (Eventually)</h3><p>Normalized schemas require more JOINs, but each JOIN is on a well-defined key. Queries are longer but deterministic. Denormalized schemas look simpler at first but are riddled with special cases ("which copy of the price do we trust?").</p><h3>6. Knowing When to Break the Rules</h3><p>Normalization is the starting point, not the destination. Read-heavy dashboards, search indexes, analytics tables — all of these are legitimately denormalized. The rule is: normalize, prove the performance problem, then denormalize with eyes open and documentation.</p>
+                <h2>Why Normalize?</h2><h3>1. Eliminate Redundancy</h3><p>In the bad <code>orders_bad</code> table, Aarav's name and city are stored in every order he has ever placed. If he has 200 orders, there are 200 copies of 'Aarav' and 'Pune'. Every byte of those 200 rows is wasted storage, and every time someone reads an order, the engine has to read it again.</p><h3>2. Avoid Update Anomalies</h3><p>Update anomalies are what happen when the same fact lives in many places and some copies are updated but others are not:</p><ul><li><strong>Update anomaly</strong>: Aarav moves from Pune to Bengaluru. You must update his city on every one of his 200 order rows. Miss one and the database now disagrees with itself.</li><li><strong>Insertion anomaly</strong>: You want to add a new product to your catalog, but the only place products live is inside orders. You cannot add a product without pretending someone ordered it.</li><li><strong>Deletion anomaly</strong>: Priya has exactly one order. When you delete that order row, you also lose the fact that Priya was ever a customer.</li></ul><p>All three disappear once you normalize, each fact lives in exactly one place.</p><h3>3. Referential Integrity</h3><p>Normalization pairs naturally with foreign keys. If <code>order_items.product_id</code> references <code>products.id</code>, the database refuses to create order items for products that do not exist. Consistency becomes the database's job, not the developer's.</p><h3>4. Schema Evolution</h3><p>Two years from now, the product team wants to add 'product category'. In the normalized schema, you add a column to <code>products</code> and you are done. In the denormalized mess, you add it to <code>orders_bad</code> and now every row (past and future) carries a copy of the category that has to be kept in sync.</p><h3>5. Query Simplicity (Eventually)</h3><p>Normalized schemas require more JOINs, but each JOIN is on a well-defined key. Queries are longer but deterministic. Denormalized schemas look simpler at first but are riddled with special cases ("which copy of the price do we trust?").</p><h3>6. Knowing When to Break the Rules</h3><p>Normalization is the starting point, not the destination. Read-heavy dashboards, search indexes, analytics tables, all of these are legitimately denormalized. The rule is: normalize, prove the performance problem, then denormalize with eyes open and documentation.</p>
             </section>
 
             <section id="explanation" class="content-section">
@@ -254,7 +254,7 @@ CREATE TABLE student_phones (
     phone VARCHAR(15),
     PRIMARY KEY (student_id, phone),
     FOREIGN KEY (student_id) REFERENCES students(id)
-);</code></pre><p>Why: searching for students with a specific phone in the CSV requires LIKE or a stored function — neither can use an index. The 1NF version is O(log N) per lookup with a proper index.</p><h3>3. Second Normal Form (2NF): No Partial Dependencies</h3><p>A table in 1NF is in 2NF if every non-key column depends on the <em>whole</em> primary key, not just part of it. This only applies when the primary key is composite (multiple columns). Single-column primary keys are trivially in 2NF.</p><pre><code>-- NOT 2NF: PK is (order_id, product_id), but product_name depends on product_id alone
+);</code></pre><p>Why: searching for students with a specific phone in the CSV requires LIKE or a stored function, neither can use an index. The 1NF version is O(log N) per lookup with a proper index.</p><h3>3. Second Normal Form (2NF): No Partial Dependencies</h3><p>A table in 1NF is in 2NF if every non-key column depends on the <em>whole</em> primary key, not just part of it. This only applies when the primary key is composite (multiple columns). Single-column primary keys are trivially in 2NF.</p><pre><code>-- NOT 2NF: PK is (order_id, product_id), but product_name depends on product_id alone
 CREATE TABLE order_items_bad (
     order_id INT,
     product_id INT,
@@ -278,7 +278,7 @@ CREATE TABLE order_items (
     qty INT,
     PRIMARY KEY (order_id, product_id),
     FOREIGN KEY (product_id) REFERENCES products(id)
-);</code></pre><h3>4. Third Normal Form (3NF): No Transitive Dependencies</h3><p>A table in 2NF is in 3NF if every non-key column depends <em>directly</em> on the primary key — not through another non-key column. Formally: no non-key column depends on another non-key column.</p><pre><code>-- NOT 3NF: department_name depends on department_id, not on employee_id
+);</code></pre><h3>4. Third Normal Form (3NF): No Transitive Dependencies</h3><p>A table in 2NF is in 3NF if every non-key column depends <em>directly</em> on the primary key, not through another non-key column. Formally: no non-key column depends on another non-key column.</p><pre><code>-- NOT 3NF: department_name depends on department_id, not on employee_id
 CREATE TABLE employees_bad (
     emp_id INT PRIMARY KEY,
     emp_name VARCHAR(50),
@@ -323,7 +323,7 @@ CREATE TABLE class_schedule (
     instructor VARCHAR(50),
     time TIME,
     PRIMARY KEY (instructor, time)
-);</code></pre><p>In practice, BCNF rarely differs from 3NF for most real schemas. When it does, the anomaly is usually a sign that the business rules are more complex than first thought — worth pausing to re-examine.</p><h3>6. 4NF and 5NF: Briefly</h3><p><strong>4NF</strong> eliminates multi-valued dependencies. If a table records that a student is enrolled in a set of courses AND has a set of phone numbers, storing them in one table creates a combinatorial explosion. Split into two tables.</p><p><strong>5NF</strong> eliminates join dependencies — situations where a table can be reconstructed from smaller joins but not from any two of them. 5NF cases are rare in practice; 3NF / BCNF is the usual end point.</p><h3>7. Denormalization: Deliberate Rule-Breaking</h3><p>Once the schema is normalized, measure performance. If a read-heavy query repeatedly JOINs five tables, you may decide to copy a column into another table:</p><pre><code>-- Normalized: to show a customer's orders with their city,
+);</code></pre><p>In practice, BCNF rarely differs from 3NF for most real schemas. When it does, the anomaly is usually a sign that the business rules are more complex than first thought, worth pausing to re-examine.</p><h3>6. 4NF and 5NF: Briefly</h3><p><strong>4NF</strong> eliminates multi-valued dependencies. If a table records that a student is enrolled in a set of courses AND has a set of phone numbers, storing them in one table creates a combinatorial explosion. Split into two tables.</p><p><strong>5NF</strong> eliminates join dependencies, situations where a table can be reconstructed from smaller joins but not from any two of them. 5NF cases are rare in practice; 3NF / BCNF is the usual end point.</p><h3>7. Denormalization: Deliberate Rule-Breaking</h3><p>Once the schema is normalized, measure performance. If a read-heavy query repeatedly JOINs five tables, you may decide to copy a column into another table:</p><pre><code>-- Normalized: to show a customer's orders with their city,
 -- you JOIN customers on every query.
 
 -- Denormalized: copy city onto orders
@@ -434,7 +434,7 @@ CREATE TABLE follows (
     FOREIGN KEY (follower_id) REFERENCES users(id),
     FOREIGN KEY (followee_id) REFERENCES users(id),
     CHECK (follower_id <> followee_id)
-);</code></pre><p>The <code>follows</code> table is a self-referential N-M. The CHECK prevents users from following themselves. At scale this table gets billions of rows, and denormalization (cached follower counts on <code>users</code>, Redis fan-out of timelines) is unavoidable — but the normalized design remains the source of truth.</p><h3>11. Keys: Primary, Surrogate, Composite</h3><ul><li><strong>Natural primary key</strong>: a real-world unique identifier (email, ISBN). Stable if the real world is stable; often not — people change emails.</li><li><strong>Surrogate primary key</strong>: an invented identifier (INT AUTO_INCREMENT, UUID). Stable by definition; decoupled from business meaning.</li><li><strong>Composite primary key</strong>: multiple columns together uniquely identify a row. Standard for junction tables (<code>enrollments(student_id, course_id)</code>).</li></ul><p>Modern practice: use surrogate keys for most tables (unchanging, compact, indexable); use composite keys for junction tables; add UNIQUE constraints on the natural keys (email, username) for enforcement without tying the PK to them.</p><h3>12. Foreign Key Cascading</h3><p>When you declare a foreign key, you choose what happens if the referenced row is deleted or updated:</p><ul><li><strong>ON DELETE CASCADE</strong>: delete child rows automatically. Use when children cannot exist without the parent (address without user, comments without post).</li><li><strong>ON DELETE SET NULL</strong>: set the FK to NULL. Use when the child can survive the parent (employee can exist without a manager — set manager_id = NULL).</li><li><strong>ON DELETE RESTRICT</strong> (default in most engines): block the delete if children exist. Safe default for business-critical data.</li><li><strong>ON DELETE NO ACTION</strong>: same as RESTRICT in MySQL, but in some DBs the check is deferred.</li></ul><pre><code>CREATE TABLE posts (
+);</code></pre><p>The <code>follows</code> table is a self-referential N-M. The CHECK prevents users from following themselves. At scale this table gets billions of rows, and denormalization (cached follower counts on <code>users</code>, Redis fan-out of timelines) is unavoidable, but the normalized design remains the source of truth.</p><h3>11. Keys: Primary, Surrogate, Composite</h3><ul><li><strong>Natural primary key</strong>: a real-world unique identifier (email, ISBN). Stable if the real world is stable; often not, people change emails.</li><li><strong>Surrogate primary key</strong>: an invented identifier (INT AUTO_INCREMENT, UUID). Stable by definition; decoupled from business meaning.</li><li><strong>Composite primary key</strong>: multiple columns together uniquely identify a row. Standard for junction tables (<code>enrollments(student_id, course_id)</code>).</li></ul><p>Modern practice: use surrogate keys for most tables (unchanging, compact, indexable); use composite keys for junction tables; add UNIQUE constraints on the natural keys (email, username) for enforcement without tying the PK to them.</p><h3>12. Foreign Key Cascading</h3><p>When you declare a foreign key, you choose what happens if the referenced row is deleted or updated:</p><ul><li><strong>ON DELETE CASCADE</strong>: delete child rows automatically. Use when children cannot exist without the parent (address without user, comments without post).</li><li><strong>ON DELETE SET NULL</strong>: set the FK to NULL. Use when the child can survive the parent (employee can exist without a manager, set manager_id = NULL).</li><li><strong>ON DELETE RESTRICT</strong> (default in most engines): block the delete if children exist. Safe default for business-critical data.</li><li><strong>ON DELETE NO ACTION</strong>: same as RESTRICT in MySQL, but in some DBs the check is deferred.</li></ul><pre><code>CREATE TABLE posts (
     id BIGINT PRIMARY KEY,
     user_id INT,
     FOREIGN KEY (user_id) REFERENCES users(id) ON DELETE CASCADE
@@ -538,7 +538,7 @@ INSERT INTO products VALUES (42, &#39;Wireless Headphones&#39;, 1999.00);
 INSERT INTO order_items VALUES (1001,42,1), (1002,42,2), (1003,42,1);
 
 -- Now renaming the product is O(1)
-UPDATE products SET name = &#39;Bluetooth Headphones&#39; WHERE id = 42;</code></pre><div class="code-example-explanation">In the bad table, product_name and product_price depend only on product_id (part of the composite PK) — a partial dependency. Splitting products into its own table removes the partial dependency and turns repeated updates into single-row updates.</div><div class="code-example-output">-- After the 2NF fix, products table has 1 row.
+UPDATE products SET name = &#39;Bluetooth Headphones&#39; WHERE id = 42;</code></pre><div class="code-example-explanation">In the bad table, product_name and product_price depend only on product_id (part of the composite PK), a partial dependency. Splitting products into its own table removes the partial dependency and turns repeated updates into single-row updates.</div><div class="code-example-output">-- After the 2NF fix, products table has 1 row.
 -- order_items has 3 rows referencing it.
 -- Product name changes update 1 row, not 3 (or 3 million).</div></div>
 <div class="code-example"><div class="code-example-title">3NF Violation and Fix</div><pre><code class="language-python">-- Bad: dept_name transitively depends on emp_id through dept_id
@@ -682,7 +682,7 @@ INSERT INTO employees VALUES
 -- Priya leaves; her reports lose a manager but stay employed
 DELETE FROM employees WHERE id = 2;
 
-SELECT id, name, manager_id FROM employees;</code></pre><div class="code-example-explanation">Reports should not be deleted just because their manager left. ON DELETE SET NULL keeps the employees, clearing manager_id so they can be reassigned. Works because manager_id is NULL-able — you cannot use SET NULL on a NOT NULL column.</div><div class="code-example-output">+----+-------+------------+
+SELECT id, name, manager_id FROM employees;</code></pre><div class="code-example-explanation">Reports should not be deleted just because their manager left. ON DELETE SET NULL keeps the employees, clearing manager_id so they can be reassigned. Works because manager_id is NULL-able. You cannot use SET NULL on a NOT NULL column.</div><div class="code-example-output">+----+-------+------------+
 | id | name  | manager_id |
 +----+-------+------------+
 |  1 | Aarav | NULL       |
@@ -726,7 +726,7 @@ END$
 DELIMITER ;
 
 -- Feed query no longer needs to JOIN users
-SELECT id, username_cached, body FROM posts ORDER BY id DESC LIMIT 20;</code></pre><div class="code-example-explanation">Denormalization earns its keep only when the read pattern is hot and the write overhead is manageable. Triggers keep the cached column consistent automatically. Document why the column exists and who owns the sync — otherwise a future engineer will delete it thinking it is a mistake.</div><div class="code-example-output">-- Feed query plan (conceptually):
+SELECT id, username_cached, body FROM posts ORDER BY id DESC LIMIT 20;</code></pre><div class="code-example-explanation">Denormalization earns its keep only when the read pattern is hot and the write overhead is manageable. Triggers keep the cached column consistent automatically. Document why the column exists and who owns the sync, otherwise a future engineer will delete it thinking it is a mistake.</div><div class="code-example-output">-- Feed query plan (conceptually):
 -- Before: SELECT + JOIN users (two index seeks per row)
 -- After:  SELECT alone (one index seek per row) -- measurably faster under load</div></div>
             </section>
@@ -735,7 +735,7 @@ SELECT id, username_cached, body FROM posts ORDER BY id DESC LIMIT 20;</code></p
                 <h2>Common Mistakes</h2>
                 <div class="mistake-card">
                 <h3>Designing for Denormalization First</h3>
-                <div class="wrong-code"><pre><code class="language-python">-- &#39;Make it easy to query&#39; — one flat table
+                <div class="wrong-code"><pre><code class="language-python">-- &#39;Make it easy to query&#39;, one flat table
 CREATE TABLE orders_everything (
     order_id INT,
     order_date DATE,
@@ -748,7 +748,7 @@ CREATE TABLE orders_everything (
     qty INT
 );
 -- Every fact is repeated. Every update touches many rows.
--- Every new column you want to add requires a painful decision.</code></pre></div><div class="error-message">No SQL error — but within weeks you see update anomalies, drifting data, and queries that cannot trust any column.</div><div class="correct-code"><pre><code class="language-python">-- Start with a normalized schema (3NF or BCNF)
+-- Every new column you want to add requires a painful decision.</code></pre></div><div class="error-message">No SQL error, but within weeks you see update anomalies, drifting data, and queries that cannot trust any column.</div><div class="correct-code"><pre><code class="language-python">-- Start with a normalized schema (3NF or BCNF)
 -- Then, only after measurement, denormalize SPECIFIC hot paths
 CREATE TABLE customers   (id, name, email, city);
 CREATE TABLE products    (id, name, price, category_id);
@@ -805,7 +805,7 @@ CREATE TABLE enrollments (
     PRIMARY KEY (student_id, course_id),
     FOREIGN KEY (student_id) REFERENCES students(id),
     FOREIGN KEY (course_id)  REFERENCES courses(id)
-);</code></pre></div><div class="mistake-explanation">N-M relationships require a junction table. The junction has a composite PK of both foreign keys and usually hosts relationship-specific attributes (grade, enrolled_at, role). This is a hard rule — there are no exceptions for 'small N' or 'small M'.</div>
+);</code></pre></div><div class="mistake-explanation">N-M relationships require a junction table. The junction has a composite PK of both foreign keys and usually hosts relationship-specific attributes (grade, enrolled_at, role). This is a hard rule. There are no exceptions for 'small N' or 'small M'.</div>
             </div>
 <div class="mistake-card">
                 <h3>Wrong Cascade Choice: CASCADE Where RESTRICT Is Safer</h3>
@@ -817,7 +817,7 @@ CREATE TABLE enrollments (
 
 -- A sales rep accidentally deletes a customer.
 -- Every one of that customer&#39;s invoices disappears.
--- Audit, tax records, refunds -- all gone.</code></pre></div><div class="error-message">No SQL error — but the finance team has lost months of invoices that they legally must keep.</div><div class="correct-code"><pre><code class="language-python">CREATE TABLE invoices (
+-- Audit, tax records, refunds -- all gone.</code></pre></div><div class="error-message">No SQL error, but the finance team has lost months of invoices that they legally must keep.</div><div class="correct-code"><pre><code class="language-python">CREATE TABLE invoices (
     id INT PRIMARY KEY,
     customer_id INT,
     FOREIGN KEY (customer_id) REFERENCES customers(id) ON DELETE RESTRICT
@@ -844,7 +844,7 @@ CREATE TABLE localities(id INT PRIMARY KEY, name VARCHAR(100));
 CREATE TABLE cities    (id INT PRIMARY KEY, name VARCHAR(50));
 CREATE TABLE states    (id INT PRIMARY KEY, name VARCHAR(50));
 CREATE TABLE pincodes  (id INT PRIMARY KEY, code VARCHAR(10));
--- Every address lookup is a 6-way JOIN.</code></pre></div><div class="error-message">No SQL error — but every query that displays an address needs six JOINs. Developers burn hours writing and tuning them. Users experience slow page loads.</div><div class="correct-code"><pre><code class="language-python">-- Pragmatic: store address as a few text fields, unless you need
+-- Every address lookup is a 6-way JOIN.</code></pre></div><div class="error-message">No SQL error, but every query that displays an address needs six JOINs. Developers burn hours writing and tuning them. Users experience slow page loads.</div><div class="correct-code"><pre><code class="language-python">-- Pragmatic: store address as a few text fields, unless you need
 -- strict hierarchies (delivery optimisation, GST by state, etc.)
 CREATE TABLE addresses (
     id INT PRIMARY KEY,
@@ -867,7 +867,7 @@ CREATE TABLE addresses (
 <li>3NF: in 2NF, AND no transitive dependencies. Non-key columns depend directly on the PK, not through another non-key column. Fix: move the transitively-dependent columns into their own table.</li>
 <li>BCNF: stricter 3NF. Every non-trivial dependency X -&gt; Y must have X as a superkey. Catches a narrow set of anomalies that 3NF misses when there are overlapping candidate keys. Rare in practice.</li>
 <li>Denormalization is deliberate rule-breaking for performance. Normalize first, measure, then copy columns (or build summary tables) to speed up hot read paths. Document every denormalization.</li>
-<li>Cardinality: 1-1 (optional FK on one side), 1-N (FK on the many side), N-M (junction table with composite PK of both FKs). Every N-M needs a junction — no exceptions.</li>
+<li>Cardinality: 1-1 (optional FK on one side), 1-N (FK on the many side), N-M (junction table with composite PK of both FKs). Every N-M needs a junction, no exceptions.</li>
 <li>Keys: use surrogate keys (INT AUTO_INCREMENT or UUID) as PKs; use UNIQUE constraints for natural identifiers (email, username). Junction tables naturally use composite PKs.</li>
 <li>Foreign key cascading: ON DELETE CASCADE for ownership chains (comments under posts), ON DELETE SET NULL for optional parents (manager), ON DELETE RESTRICT for business-critical references (invoices, payments).</li></ul></div>
             </section>

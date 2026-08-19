@@ -77,7 +77,7 @@ class ResourceGenerator {
                     const chapterDataPath = path.join(this.dataDir, langDir, `${chapter.slug}.json`);
 
                     if (!fs.existsSync(chapterDataPath)) {
-                        // Chapter JSON doesn't exist yet — skip silently
+                        // Chapter JSON doesn't exist yet, skip silently
                         continue;
                     }
 
@@ -684,7 +684,7 @@ class ResourceGenerator {
         if (mistakes.length > 0) {
             const faqItems = mistakes.map(m => ({
                 question: m.title || 'What is a common mistake?',
-                answer: m.explanation || `Avoid: ${m.wrongCode || ''} — Use: ${m.correctCode || ''}`
+                answer: m.explanation || `Avoid: ${m.wrongCode || ''}: Use: ${m.correctCode || ''}`
             }));
             schemas.push(seoUtils.generateFAQSchema(faqItems));
         }

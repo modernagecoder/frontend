@@ -5,7 +5,7 @@
     <link rel="alternate" type="text/markdown" href="/src/pages/battle.md" title="Markdown version for AI agents">
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Battle Arena — Modern Age Coders</title>
+<title>Battle Arena | Modern Age Coders</title>
 
 <!-- A live exam console has no business in a search index. -->
 <meta name="robots" content="noindex, nofollow">
@@ -123,7 +123,7 @@
              color: var(--faint); margin-left: .4rem; }
 
   /* Progress across the round's questions: one pip per question, so a glance
-     tells you how far somebody is AND how they did — without saying which
+     tells you how far somebody is AND how they did, without saying which
      question they got wrong. */
   .pips { display: flex; gap: .22rem; }
   .pip { width: 9px; height: 9px; border-radius: 3px; background: rgba(168,133,247,.18); }
@@ -232,7 +232,7 @@
         <input class="field" id="f-name" maxlength="40" autocomplete="name"
                placeholder="e.g. Aarav Kumar" required>
         <p class="faint" style="font-size:.76rem;margin-top:.4rem">
-          Use your real name — this is what your teacher marks and what appears on the leaderboard.
+          Use your real name. This is what your teacher marks and what appears on the leaderboard.
         </p>
       </div>
 
@@ -368,7 +368,7 @@
     state.poller = new B.Poller({
       intervalMs: 3000,
       fetchOnce: function (version) {
-        // Only the debate actually open gets its thread sent — twenty threads
+        // Only the debate actually open gets its thread sent, twenty threads
         // to forty students every two seconds would be the most expensive
         // thing in the app.
         var watch = state.watching ? '&watch=' + encodeURIComponent(state.watching) : '';
@@ -436,7 +436,7 @@
      *
      * This check has to come BEFORE the generic "closed, your teacher is
      * marking" screen, or a student would be shown a waiting message at exactly
-     * the moment the other teams' transcripts became readable — which is the
+     * the moment the other teams' transcripts became readable, which is the
      * whole point of the round ending.
      */
     if (round.type === 'debate' && data.debate && data.debate.chatsOpen) {
@@ -476,7 +476,7 @@
     if (fresh) $('lobby-title').textContent = data.battle.title;
 
     var recovery = $('lobby-recovery');
-    if (recovery) recovery.textContent = 'Your reconnect code: ' + (data.me.recoveryCode || '—');
+    if (recovery) recovery.textContent = 'Your reconnect code: ' + (data.me.recoveryCode || ', ');
 
     $('lobby-count').textContent = data.counts.joined + ' here';
 
@@ -552,12 +552,12 @@
    * THE ROOM, LIVE.
    *
    * Every participant, how far through the round they are, and how the teacher
-   * marked them — updated on every sync. This is what makes Round 1 feel like a
+   * marked them, updated on every sync. This is what makes Round 1 feel like a
    * race instead of forty people typing in silence.
    *
    * The pips show one square per question, coloured by verdict. That says "Zoya
    * has two right and one wrong" without ever revealing WHICH one she got wrong
-   * — which would turn this board into a hint sheet.
+   *, which would turn this board into a hint sheet.
    */
   function renderBoard(data) {
     var host = $('board');
@@ -774,7 +774,7 @@
 
     B.request('PUT', '/battle/' + state.code + '/draft', { body: body, battleToken: PT })
       .then(function () { setSaved(qid, 'Saved ' + new Date().toLocaleTimeString()); })
-      .catch(function () { setSaved(qid, 'Could not save — check your connection'); });
+      .catch(function () { setSaved(qid, 'Could not save. Check your connection'); });
   }
 
   function setSaved(qid, text) {
@@ -818,12 +818,12 @@
    * ROUND 2 HAS TWO SEATS: debating, and watching.
    *
    * A debate involves two people; a class has thirty. Everyone not currently
-   * arguing gets the arena — every other live debate, watchable, with a
+   * arguing gets the arena, every other live debate, watchable, with a
    * comment box and a vote. That is the difference between a round the room is
    * in and a round twenty-eight people sit out.
    */
   /**
-   * ROUND 2 — YOUR TEAM'S DEBATE.
+   * ROUND 2: YOUR TEAM'S DEBATE.
    *
    * Four or five students argue one topic in a live group chat, split into a FOR
    * half and an AGAINST half. No turns to wait for: an argument is something you
@@ -831,7 +831,7 @@
    *
    * While the round runs you see only your own team. When it ends, every
    * transcript opens and you can read how the other teams attacked the same
-   * topic — which is the most useful few minutes of the round.
+   * topic, which is the most useful few minutes of the round.
    */
   function renderDebate(data) {
     var t = data.myTeam;
@@ -1012,7 +1012,7 @@
 
   /**
    * Opens once the round ends. Reading how another team argued the same topic is
-   * the point of this screen — and the vote is there because having read four
+   * the point of this screen, and the vote is there because having read four
    * debates, everyone has an opinion about which was best.
    */
   function renderOthers(data, d) {
@@ -1144,7 +1144,7 @@
   /* -------------------------------------------------- verdict + feedback -- */
 
   /**
-   * Fires the moment a mark arrives — which, because the poller is on a 2-3
+   * Fires the moment a mark arrives, which, because the poller is on a 2-3
    * second loop, is effectively instant from the student's point of view.
    */
   function detectNewVerdict(data) {
@@ -1172,13 +1172,12 @@
             (correct ? 'Correct' : 'Not quite') + '</h2>' +
           (correct
             ? '<p class="mut">+' + (work.pointsAwarded + (work.speedBonus || 0)) + ' points</p>' +
-              // The bonus is the reward for being fast, so say so plainly —
-              // silently adding 5 points teaches nobody anything.
+              // The bonus is the reward for being fast, so say so plainly, // silently adding 5 points teaches nobody anything.
               (work.speedBonus
                 ? '<p class="pill pill-live" style="display:inline-flex;margin-top:.6rem">' +
                   ordinal(work.speedRank) + ' to solve it · +' + work.speedBonus + ' speed bonus</p>'
                 : '')
-            : '<p class="mut">No points for this one — keep going.</p>') +
+            : '<p class="mut">No points for this one, keep going.</p>') +
           (work.markNote
             ? '<div class="panel" style="margin-top:1rem;text-align:left">' +
                 '<p class="lbl" style="margin-bottom:.35rem">From your teacher</p>' +
@@ -1261,7 +1260,7 @@
 
   /**
    * Counts tab switches and large pastes and reports them in batches. These are
-   * signals for the teacher to look at, never automatic penalties — a paste can
+   * signals for the teacher to look at, never automatic penalties, a paste can
    * easily be the student's own earlier draft, and a tab switch can be a
    * notification.
    */
@@ -1318,7 +1317,7 @@
     /**
      * LAST CHANCE BEFORE THE TAB DISAPPEARS.
      *
-     * Flushes the anti-cheat batch and — more importantly — beacons whatever is
+     * Flushes the anti-cheat batch and, more importantly, beacons whatever is
      * currently in the editor or the project fields. Autosave runs ten seconds
      * after typing stops, so without this a student who pastes their link and
      * immediately shuts the laptop loses it. In a graded exam that is fairness,

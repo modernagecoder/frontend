@@ -220,7 +220,7 @@ const server = http.createServer((req, res) => {
                 res.end(`Server Error: ${err.code}`, 'utf-8');
             }
         } else {
-            // Success – inline components for HTML files
+            // Success, inline components for HTML files
             if (ext === '.html') {
                 const inlined = inlineComponents(content.toString('utf-8'));
                 res.writeHead(200, { 'Content-Type': contentType });

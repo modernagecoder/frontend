@@ -13,29 +13,29 @@
     "keywords": "sql aggregate functions, sql count, sql sum, sql avg, sql min max, count vs count distinct, sql group concat, mysql aggregates, sql interview questions, null in aggregates"
   },
   "content": {
-    "what": "<h2>What Are Aggregate Functions?</h2><p>Most SQL queries return rows. But often you do not want rows — you want a <strong>summary</strong>. How many employees are there? What is the total sales? What is the average salary? These questions are answered with <strong>aggregate functions</strong>.</p><p>An aggregate function takes many rows of data and collapses them into a single result value. For example, <code>SELECT COUNT(*) FROM employees</code> takes all 10 employee rows and returns just one number: 10.</p><h3>The Five Core Aggregates</h3><ul><li><code>COUNT()</code> — how many rows</li><li><code>SUM()</code> — total of a numeric column</li><li><code>AVG()</code> — average of a numeric column</li><li><code>MIN()</code> — smallest value</li><li><code>MAX()</code> — largest value</li></ul><p>Plus <code>GROUP_CONCAT()</code> (MySQL) which combines values into a single string, and a few others. You can use aggregates on all the rows of a table, on filtered rows (with WHERE), or on groups of rows (with GROUP BY — next chapter).</p>",
-    "why": "<h2>Why Aggregates Are Business-Critical</h2><h3>1. Every Business Report Is An Aggregate</h3><p>Revenue, user counts, average order value, conversion rates — every metric on every business dashboard is an aggregate. If you cannot write <code>SUM(revenue)</code> or <code>AVG(order_value)</code> fluently, you cannot be a data analyst.</p><h3>2. COUNT Is the Foundation of Analytics</h3><p>\"How many users signed up this month?\" \"How many unique customers made a purchase?\" \"How many orders shipped yesterday?\" All COUNT queries. Learning the subtle differences between <code>COUNT(*)</code>, <code>COUNT(column)</code>, and <code>COUNT(DISTINCT column)</code> is essential because they give different answers on real data with NULLs.</p><h3>3. AVG with NULLs is an Interview Trap</h3><p>Every intermediate SQL interview asks: \"What is the difference between <code>AVG(col)</code> and <code>AVG(COALESCE(col, 0))</code>?\" The wrong answer gets you cut from the hiring process. NULLs are silently excluded from AVG — you need to know whether that is what you want.</p><h3>4. MIN/MAX Work on Strings and Dates Too</h3><p>\"When did the first order come in?\" → <code>MIN(order_date)</code>. \"Who is the alphabetically first customer?\" → <code>MIN(customer_name)</code>. Aggregates are not just for numbers.</p><h3>5. Precursor to GROUP BY</h3><p>Everything you learn in this chapter becomes 10x more powerful when combined with GROUP BY in the next chapter. Aggregates on the whole table give one answer; aggregates within groups give you per-department, per-city, per-month summaries.</p>",
-    "explanation": "<h2>Detailed Explanation</h2><h3>Reference Table: orders</h3><p>We use an <code>orders</code> table for this chapter:</p><pre><code>CREATE TABLE orders (\n    id INT PRIMARY KEY,\n    customer_name VARCHAR(50),\n    city VARCHAR(30),\n    amount DECIMAL(10,2),\n    discount DECIMAL(10,2),\n    order_date DATE,\n    status VARCHAR(20)\n);\n\nINSERT INTO orders VALUES\n(1, 'Aarav Sharma', 'Mumbai', 2500.00, 100.00, '2026-01-15', 'Delivered'),\n(2, 'Priya Patel', 'Delhi', 1800.00, NULL, '2026-01-20', 'Delivered'),\n(3, 'Rohan Gupta', 'Bengaluru', 5600.00, 500.00, '2026-02-03', 'Cancelled'),\n(4, 'Ananya Singh', 'Mumbai', 3200.00, 200.00, '2026-02-10', 'Delivered'),\n(5, 'Vikram Reddy', 'Hyderabad', 4500.00, NULL, '2026-02-18', 'Pending'),\n(6, 'Sneha Iyer', 'Chennai', 1200.00, 50.00, '2026-03-01', 'Delivered'),\n(7, 'Karan Mehta', 'Mumbai', 6700.00, 600.00, '2026-03-05', 'Delivered'),\n(8, 'Ishita Kumar', 'Delhi', 2100.00, NULL, '2026-03-12', 'Cancelled'),\n(9, 'Aditya Rao', 'Pune', 3800.00, 300.00, '2026-03-20', 'Delivered'),\n(10, 'Diya Nair', 'Bengaluru', 8900.00, 1000.00, '2026-03-25', 'Delivered'),\n(11, 'Arjun Desai', 'Mumbai', 2700.00, NULL, '2026-04-02', 'Pending'),\n(12, 'Meera Joshi', 'Delhi', 1500.00, 100.00, '2026-04-08', 'Delivered');</code></pre><p>Note: 4 rows have NULL discount (ids 2, 5, 8, 11). This will matter for COUNT and AVG.</p><h3>1. COUNT — Three Variants You MUST Know</h3><p>This is the most important distinction in aggregates:</p><ul><li><code>COUNT(*)</code>: counts <strong>all rows</strong>, including rows where every column is NULL.</li><li><code>COUNT(column)</code>: counts rows where <em>column</em> is <strong>not NULL</strong>.</li><li><code>COUNT(DISTINCT column)</code>: counts <strong>unique non-NULL values</strong> of <em>column</em>.</li></ul><pre><code>SELECT\n    COUNT(*) AS total_rows,          -- 12\n    COUNT(discount) AS with_discount, -- 8 (4 NULLs excluded)\n    COUNT(DISTINCT city) AS unique_cities -- 6 (Mumbai, Delhi, Bengaluru, Hyderabad, Chennai, Pune)\nFROM orders;</code></pre><p>Example with real numbers: suppose a column has values <code>[10, 20, 20, NULL, NULL]</code>. Then:</p><ul><li>COUNT(*) = 5 (all 5 rows)</li><li>COUNT(column) = 3 (excludes 2 NULLs)</li><li>COUNT(DISTINCT column) = 2 (values 10 and 20 are unique, NULLs excluded)</li></ul><h3>2. SUM — Total of a Column</h3><p><code>SUM()</code> adds up all non-NULL values:</p><pre><code>SELECT SUM(amount) AS total_revenue FROM orders;\n-- 2500 + 1800 + 5600 + 3200 + 4500 + 1200 + 6700 + 2100 + 3800 + 8900 + 2700 + 1500\n-- = 44500.00</code></pre><p>SUM of NULLs is NULL, BUT SUM skips NULLs in a column, so <code>SUM(discount)</code> = 100+500+200+50+600+300+1000+100 = 2850. If EVERY value is NULL, SUM returns NULL (not 0). Handle this with COALESCE: <code>COALESCE(SUM(discount), 0)</code>.</p><h3>3. AVG — Average (and the NULL trap)</h3><p>AVG = SUM / COUNT. But here is the critical detail: AVG uses <code>COUNT(column)</code> in the denominator, <strong>not</strong> <code>COUNT(*)</code>. NULLs are ignored on both top and bottom.</p><pre><code>-- Discount has 4 NULLs. AVG ignores them.\nSELECT AVG(discount) FROM orders;\n-- Sum of non-NULLs: 2850. Count of non-NULLs: 8.\n-- AVG = 2850 / 8 = 356.25</code></pre><p>If you want NULLs treated as 0 (dividing by the full count):</p><pre><code>SELECT AVG(COALESCE(discount, 0)) FROM orders;\n-- Sum: still 2850 (0s add nothing). Count: 12.\n-- AVG = 2850 / 12 = 237.50</code></pre><p><strong>Huge difference!</strong> 356.25 vs 237.50 depending on how you handle NULLs. Know which one your business wants.</p><h3>4. MIN and MAX</h3><p>Return the smallest and largest values. Work on numbers, dates, and strings:</p><pre><code>-- Numeric\nSELECT MIN(amount), MAX(amount) FROM orders;\n-- 1200.00 (Sneha), 8900.00 (Diya)\n\n-- Dates\nSELECT MIN(order_date), MAX(order_date) FROM orders;\n-- 2026-01-15 (earliest), 2026-04-08 (latest)\n\n-- Strings (alphabetically)\nSELECT MIN(customer_name), MAX(customer_name) FROM orders;\n-- 'Aarav Sharma' (first alphabetically), 'Vikram Reddy' (last)</code></pre><p>MIN and MAX skip NULLs — if ALL values are NULL, they return NULL.</p><h3>5. Aggregates with WHERE</h3><p>Filtering before aggregating is the most common pattern:</p><pre><code>-- Total revenue from Delivered orders only\nSELECT SUM(amount) FROM orders WHERE status = 'Delivered';\n-- Sum of ids 1,2,4,6,7,9,10,12: 2500+1800+3200+1200+6700+3800+8900+1500 = 27600\n\n-- Count of Cancelled orders\nSELECT COUNT(*) FROM orders WHERE status = 'Cancelled';\n-- 2 (ids 3 and 8)</code></pre><h3>6. Multiple Aggregates in One Query</h3><p>You can combine several aggregates in one SELECT:</p><pre><code>SELECT\n    COUNT(*) AS num_orders,\n    SUM(amount) AS total,\n    AVG(amount) AS avg_order,\n    MIN(amount) AS smallest,\n    MAX(amount) AS largest\nFROM orders\nWHERE status = 'Delivered';</code></pre><p>This gives a complete summary of Delivered orders in one query.</p><h3>7. Aggregates Cannot Be Used in WHERE</h3><p>A common mistake:</p><pre><code>-- ERROR\nSELECT name FROM employees WHERE salary > AVG(salary);</code></pre><p>This fails because WHERE filters rows BEFORE aggregation happens. You cannot reference an aggregate in WHERE. The solutions:</p><ol><li>Use a subquery: <code>WHERE salary &gt; (SELECT AVG(salary) FROM employees)</code></li><li>Use <code>HAVING</code> after GROUP BY (next chapter)</li><li>Use a window function (chapter 18)</li></ol><h3>8. GROUP_CONCAT (MySQL-specific)</h3><p>Combines values from multiple rows into a single comma-separated string:</p><pre><code>SELECT GROUP_CONCAT(customer_name) FROM orders WHERE city = 'Mumbai';\n-- Returns: 'Aarav Sharma,Ananya Singh,Karan Mehta,Arjun Desai'\n\n-- With separator and order:\nSELECT GROUP_CONCAT(customer_name ORDER BY amount DESC SEPARATOR ' | ')\nFROM orders WHERE city = 'Mumbai';</code></pre><p>PostgreSQL uses <code>STRING_AGG(col, ', ')</code>. SQL Server also uses STRING_AGG. MySQL uniquely uses GROUP_CONCAT.</p><h3>9. Summary of NULL Handling</h3><p>This table is worth memorizing:</p><table><tr><th>Function</th><th>Behavior with NULLs</th></tr><tr><td>COUNT(*)</td><td>Counts all rows</td></tr><tr><td>COUNT(col)</td><td>Skips NULLs</td></tr><tr><td>COUNT(DISTINCT col)</td><td>Skips NULLs, counts unique</td></tr><tr><td>SUM(col)</td><td>Skips NULLs; all-NULL → NULL</td></tr><tr><td>AVG(col)</td><td>Skips NULLs in both sum and count</td></tr><tr><td>MIN(col), MAX(col)</td><td>Skips NULLs; all-NULL → NULL</td></tr><tr><td>GROUP_CONCAT(col)</td><td>Skips NULLs</td></tr></table>",
+    "what": "<h2>What Are Aggregate Functions?</h2><p>Most SQL queries return rows. But often you do not want rows. You want a <strong>summary</strong>. How many employees are there? What is the total sales? What is the average salary? These questions are answered with <strong>aggregate functions</strong>.</p><p>An aggregate function takes many rows of data and collapses them into a single result value. For example, <code>SELECT COUNT(*) FROM employees</code> takes all 10 employee rows and returns just one number: 10.</p><h3>The Five Core Aggregates</h3><ul><li><code>COUNT()</code>, how many rows</li><li><code>SUM()</code>, total of a numeric column</li><li><code>AVG()</code>, average of a numeric column</li><li><code>MIN()</code>, smallest value</li><li><code>MAX()</code>, largest value</li></ul><p>Plus <code>GROUP_CONCAT()</code> (MySQL) which combines values into a single string, and a few others. You can use aggregates on all the rows of a table, on filtered rows (with WHERE), or on groups of rows (with GROUP BY, next chapter).</p>",
+    "why": "<h2>Why Aggregates Are Business-Critical</h2><h3>1. Every Business Report Is An Aggregate</h3><p>Revenue, user counts, average order value, conversion rates, every metric on every business dashboard is an aggregate. If you cannot write <code>SUM(revenue)</code> or <code>AVG(order_value)</code> fluently, you cannot be a data analyst.</p><h3>2. COUNT Is the Foundation of Analytics</h3><p>\"How many users signed up this month?\" \"How many unique customers made a purchase?\" \"How many orders shipped yesterday?\" All COUNT queries. Learning the subtle differences between <code>COUNT(*)</code>, <code>COUNT(column)</code>, and <code>COUNT(DISTINCT column)</code> is essential because they give different answers on real data with NULLs.</p><h3>3. AVG with NULLs is an Interview Trap</h3><p>Every intermediate SQL interview asks: \"What is the difference between <code>AVG(col)</code> and <code>AVG(COALESCE(col, 0))</code>?\" The wrong answer gets you cut from the hiring process. NULLs are silently excluded from AVG. You need to know whether that is what you want.</p><h3>4. MIN/MAX Work on Strings and Dates Too</h3><p>\"When did the first order come in?\" → <code>MIN(order_date)</code>. \"Who is the alphabetically first customer?\" → <code>MIN(customer_name)</code>. Aggregates are not just for numbers.</p><h3>5. Precursor to GROUP BY</h3><p>Everything you learn in this chapter becomes 10x more powerful when combined with GROUP BY in the next chapter. Aggregates on the whole table give one answer; aggregates within groups give you per-department, per-city, per-month summaries.</p>",
+    "explanation": "<h2>Detailed Explanation</h2><h3>Reference Table: orders</h3><p>We use an <code>orders</code> table for this chapter:</p><pre><code>CREATE TABLE orders (\n    id INT PRIMARY KEY,\n    customer_name VARCHAR(50),\n    city VARCHAR(30),\n    amount DECIMAL(10,2),\n    discount DECIMAL(10,2),\n    order_date DATE,\n    status VARCHAR(20)\n);\n\nINSERT INTO orders VALUES\n(1, 'Aarav Sharma', 'Mumbai', 2500.00, 100.00, '2026-01-15', 'Delivered'),\n(2, 'Priya Patel', 'Delhi', 1800.00, NULL, '2026-01-20', 'Delivered'),\n(3, 'Rohan Gupta', 'Bengaluru', 5600.00, 500.00, '2026-02-03', 'Cancelled'),\n(4, 'Ananya Singh', 'Mumbai', 3200.00, 200.00, '2026-02-10', 'Delivered'),\n(5, 'Vikram Reddy', 'Hyderabad', 4500.00, NULL, '2026-02-18', 'Pending'),\n(6, 'Sneha Iyer', 'Chennai', 1200.00, 50.00, '2026-03-01', 'Delivered'),\n(7, 'Karan Mehta', 'Mumbai', 6700.00, 600.00, '2026-03-05', 'Delivered'),\n(8, 'Ishita Kumar', 'Delhi', 2100.00, NULL, '2026-03-12', 'Cancelled'),\n(9, 'Aditya Rao', 'Pune', 3800.00, 300.00, '2026-03-20', 'Delivered'),\n(10, 'Diya Nair', 'Bengaluru', 8900.00, 1000.00, '2026-03-25', 'Delivered'),\n(11, 'Arjun Desai', 'Mumbai', 2700.00, NULL, '2026-04-02', 'Pending'),\n(12, 'Meera Joshi', 'Delhi', 1500.00, 100.00, '2026-04-08', 'Delivered');</code></pre><p>Note: 4 rows have NULL discount (ids 2, 5, 8, 11). This will matter for COUNT and AVG.</p><h3>1. COUNT: Three Variants You MUST Know</h3><p>This is the most important distinction in aggregates:</p><ul><li><code>COUNT(*)</code>: counts <strong>all rows</strong>, including rows where every column is NULL.</li><li><code>COUNT(column)</code>: counts rows where <em>column</em> is <strong>not NULL</strong>.</li><li><code>COUNT(DISTINCT column)</code>: counts <strong>unique non-NULL values</strong> of <em>column</em>.</li></ul><pre><code>SELECT\n    COUNT(*) AS total_rows,          -- 12\n    COUNT(discount) AS with_discount, -- 8 (4 NULLs excluded)\n    COUNT(DISTINCT city) AS unique_cities -- 6 (Mumbai, Delhi, Bengaluru, Hyderabad, Chennai, Pune)\nFROM orders;</code></pre><p>Example with real numbers: suppose a column has values <code>[10, 20, 20, NULL, NULL]</code>. Then:</p><ul><li>COUNT(*) = 5 (all 5 rows)</li><li>COUNT(column) = 3 (excludes 2 NULLs)</li><li>COUNT(DISTINCT column) = 2 (values 10 and 20 are unique, NULLs excluded)</li></ul><h3>2. SUM: Total of a Column</h3><p><code>SUM()</code> adds up all non-NULL values:</p><pre><code>SELECT SUM(amount) AS total_revenue FROM orders;\n-- 2500 + 1800 + 5600 + 3200 + 4500 + 1200 + 6700 + 2100 + 3800 + 8900 + 2700 + 1500\n-- = 44500.00</code></pre><p>SUM of NULLs is NULL, BUT SUM skips NULLs in a column, so <code>SUM(discount)</code> = 100+500+200+50+600+300+1000+100 = 2850. If EVERY value is NULL, SUM returns NULL (not 0). Handle this with COALESCE: <code>COALESCE(SUM(discount), 0)</code>.</p><h3>3. AVG: Average (and the NULL trap)</h3><p>AVG = SUM / COUNT. But here is the critical detail: AVG uses <code>COUNT(column)</code> in the denominator, <strong>not</strong> <code>COUNT(*)</code>. NULLs are ignored on both top and bottom.</p><pre><code>-- Discount has 4 NULLs. AVG ignores them.\nSELECT AVG(discount) FROM orders;\n-- Sum of non-NULLs: 2850. Count of non-NULLs: 8.\n-- AVG = 2850 / 8 = 356.25</code></pre><p>If you want NULLs treated as 0 (dividing by the full count):</p><pre><code>SELECT AVG(COALESCE(discount, 0)) FROM orders;\n-- Sum: still 2850 (0s add nothing). Count: 12.\n-- AVG = 2850 / 12 = 237.50</code></pre><p><strong>Huge difference!</strong> 356.25 vs 237.50 depending on how you handle NULLs. Know which one your business wants.</p><h3>4. MIN and MAX</h3><p>Return the smallest and largest values. Work on numbers, dates, and strings:</p><pre><code>-- Numeric\nSELECT MIN(amount), MAX(amount) FROM orders;\n-- 1200.00 (Sneha), 8900.00 (Diya)\n\n-- Dates\nSELECT MIN(order_date), MAX(order_date) FROM orders;\n-- 2026-01-15 (earliest), 2026-04-08 (latest)\n\n-- Strings (alphabetically)\nSELECT MIN(customer_name), MAX(customer_name) FROM orders;\n-- 'Aarav Sharma' (first alphabetically), 'Vikram Reddy' (last)</code></pre><p>MIN and MAX skip NULLs, if ALL values are NULL, they return NULL.</p><h3>5. Aggregates with WHERE</h3><p>Filtering before aggregating is the most common pattern:</p><pre><code>-- Total revenue from Delivered orders only\nSELECT SUM(amount) FROM orders WHERE status = 'Delivered';\n-- Sum of ids 1,2,4,6,7,9,10,12: 2500+1800+3200+1200+6700+3800+8900+1500 = 27600\n\n-- Count of Cancelled orders\nSELECT COUNT(*) FROM orders WHERE status = 'Cancelled';\n-- 2 (ids 3 and 8)</code></pre><h3>6. Multiple Aggregates in One Query</h3><p>You can combine several aggregates in one SELECT:</p><pre><code>SELECT\n    COUNT(*) AS num_orders,\n    SUM(amount) AS total,\n    AVG(amount) AS avg_order,\n    MIN(amount) AS smallest,\n    MAX(amount) AS largest\nFROM orders\nWHERE status = 'Delivered';</code></pre><p>This gives a complete summary of Delivered orders in one query.</p><h3>7. Aggregates Cannot Be Used in WHERE</h3><p>A common mistake:</p><pre><code>-- ERROR\nSELECT name FROM employees WHERE salary > AVG(salary);</code></pre><p>This fails because WHERE filters rows BEFORE aggregation happens. You cannot reference an aggregate in WHERE. The solutions:</p><ol><li>Use a subquery: <code>WHERE salary &gt; (SELECT AVG(salary) FROM employees)</code></li><li>Use <code>HAVING</code> after GROUP BY (next chapter)</li><li>Use a window function (chapter 18)</li></ol><h3>8. GROUP_CONCAT (MySQL-specific)</h3><p>Combines values from multiple rows into a single comma-separated string:</p><pre><code>SELECT GROUP_CONCAT(customer_name) FROM orders WHERE city = 'Mumbai';\n-- Returns: 'Aarav Sharma,Ananya Singh,Karan Mehta,Arjun Desai'\n\n-- With separator and order:\nSELECT GROUP_CONCAT(customer_name ORDER BY amount DESC SEPARATOR ' | ')\nFROM orders WHERE city = 'Mumbai';</code></pre><p>PostgreSQL uses <code>STRING_AGG(col, ', ')</code>. SQL Server also uses STRING_AGG. MySQL uniquely uses GROUP_CONCAT.</p><h3>9. Summary of NULL Handling</h3><p>This table is worth memorizing:</p><table><tr><th>Function</th><th>Behavior with NULLs</th></tr><tr><td>COUNT(*)</td><td>Counts all rows</td></tr><tr><td>COUNT(col)</td><td>Skips NULLs</td></tr><tr><td>COUNT(DISTINCT col)</td><td>Skips NULLs, counts unique</td></tr><tr><td>SUM(col)</td><td>Skips NULLs; all-NULL → NULL</td></tr><tr><td>AVG(col)</td><td>Skips NULLs in both sum and count</td></tr><tr><td>MIN(col), MAX(col)</td><td>Skips NULLs; all-NULL → NULL</td></tr><tr><td>GROUP_CONCAT(col)</td><td>Skips NULLs</td></tr></table>",
     "codeExamples": [
       {
-        "title": "COUNT — Three Variants",
+        "title": "COUNT: Three Variants",
         "code": "-- Compare all three COUNT forms\nSELECT\n    COUNT(*) AS total,\n    COUNT(discount) AS non_null_discounts,\n    COUNT(DISTINCT city) AS unique_cities\nFROM orders;",
         "language": "sql",
-        "explanation": "COUNT(*) counts all 12 rows. COUNT(discount) excludes the 4 rows where discount is NULL, giving 8. COUNT(DISTINCT city) finds unique cities: Mumbai, Delhi, Bengaluru, Hyderabad, Chennai, Pune — 6 unique cities.",
+        "explanation": "COUNT(*) counts all 12 rows. COUNT(discount) excludes the 4 rows where discount is NULL, giving 8. COUNT(DISTINCT city) finds unique cities: Mumbai, Delhi, Bengaluru, Hyderabad, Chennai, Pune: 6 unique cities.",
         "output": "total: 12\nnon_null_discounts: 8\nunique_cities: 6"
       },
       {
         "title": "SUM and the NULL Trap",
         "code": "-- Total revenue\nSELECT SUM(amount) AS total_revenue FROM orders;\n\n-- Total discounts (NULLs skipped)\nSELECT SUM(discount) AS total_discounts FROM orders;\n\n-- Safer version if you want 0 when all NULL\nSELECT COALESCE(SUM(discount), 0) AS total_discounts_safe FROM orders;",
         "language": "sql",
-        "explanation": "SUM(amount): 2500+1800+5600+3200+4500+1200+6700+2100+3800+8900+2700+1500 = 44500.00. SUM(discount): skips NULLs, so 100+500+200+50+600+300+1000+100 = 2850.00. If ALL discounts were NULL, SUM would return NULL — COALESCE guards against that.",
+        "explanation": "SUM(amount): 2500+1800+5600+3200+4500+1200+6700+2100+3800+8900+2700+1500 = 44500.00. SUM(discount): skips NULLs, so 100+500+200+50+600+300+1000+100 = 2850.00. If ALL discounts were NULL, SUM would return NULL: COALESCE guards against that.",
         "output": "total_revenue: 44500.00\ntotal_discounts: 2850.00\ntotal_discounts_safe: 2850.00"
       },
       {
-        "title": "AVG — NULL Sensitivity",
+        "title": "AVG: NULL Sensitivity",
         "code": "-- AVG skips NULLs\nSELECT AVG(discount) AS avg_ignoring_nulls FROM orders;\n\n-- AVG treating NULLs as 0\nSELECT AVG(COALESCE(discount, 0)) AS avg_nulls_as_zero FROM orders;\n\n-- Compare side-by-side\nSELECT\n    AVG(discount) AS excl_null,\n    AVG(COALESCE(discount, 0)) AS incl_null,\n    SUM(discount) / COUNT(*) AS same_as_incl_null\nFROM orders;",
         "language": "sql",
-        "explanation": "AVG(discount) = 2850 / 8 non-NULL rows = 356.25. AVG(COALESCE(discount, 0)) = 2850 / 12 all rows = 237.50. The third query confirms: SUM(discount) / COUNT(*) = 2850/12 = 237.50, same as AVG with COALESCE. Big difference — pick the right one for your business question.",
+        "explanation": "AVG(discount) = 2850 / 8 non-NULL rows = 356.25. AVG(COALESCE(discount, 0)) = 2850 / 12 all rows = 237.50. The third query confirms: SUM(discount) / COUNT(*) = 2850/12 = 237.50, same as AVG with COALESCE. Big difference. Pick the right one for your business question.",
         "output": "avg_ignoring_nulls: 356.25\navg_nulls_as_zero: 237.50\n\nCompare query:\nexcl_null: 356.25\nincl_null: 237.50\nsame_as_incl_null: 237.50"
       },
       {
@@ -56,18 +56,18 @@
         "title": "Counting Distinct Customers per Month (Preview of GROUP BY)",
         "code": "-- Unique customers in January 2026\nSELECT COUNT(DISTINCT customer_name) AS unique_customers\nFROM orders\nWHERE order_date BETWEEN '2026-01-01' AND '2026-01-31';\n\n-- Unique cities where orders were placed in March\nSELECT COUNT(DISTINCT city) AS cities_in_march\nFROM orders\nWHERE order_date BETWEEN '2026-03-01' AND '2026-03-31';",
         "language": "sql",
-        "explanation": "January has orders from Aarav and Priya — 2 unique customers. March has Sneha (Chennai), Karan (Mumbai), Ishita (Delhi), Aditya (Pune), Diya (Bengaluru) — 5 unique cities. COUNT(DISTINCT) answers 'how many different values in this filtered set?' — a classic analytics query.",
+        "explanation": "January has orders from Aarav and Priya: 2 unique customers. March has Sneha (Chennai), Karan (Mumbai), Ishita (Delhi), Aditya (Pune), Diya (Bengaluru), 5 unique cities. COUNT(DISTINCT) answers 'how many different values in this filtered set?', a classic analytics query.",
         "output": "January: unique_customers = 2\nMarch: cities_in_march = 5"
       },
       {
         "title": "Aggregate Cannot Be In WHERE",
         "code": "-- WRONG: this fails\nSELECT customer_name, amount\nFROM orders\nWHERE amount > AVG(amount);\n\n-- CORRECT: use a subquery\nSELECT customer_name, amount\nFROM orders\nWHERE amount > (SELECT AVG(amount) FROM orders);",
         "language": "sql",
-        "explanation": "WHERE runs before aggregates, so referencing AVG(amount) in WHERE is a conceptual error — the AVG has not been computed yet. The fix: wrap AVG in a subquery so it is computed first. The overall AVG is 44500/12 = 3708.33. Orders above this: ids 3 (5600), 5 (4500), 7 (6700), 9 (3800), 10 (8900). 5 rows.",
+        "explanation": "WHERE runs before aggregates, so referencing AVG(amount) in WHERE is a conceptual error, the AVG has not been computed yet. The fix: wrap AVG in a subquery so it is computed first. The overall AVG is 44500/12 = 3708.33. Orders above this: ids 3 (5600), 5 (4500), 7 (6700), 9 (3800), 10 (8900). 5 rows.",
         "output": "Wrong query: ERROR 1111 (HY000): Invalid use of group function\n\nCorrect query:\nRohan Gupta 5600.00\nVikram Reddy 4500.00\nKaran Mehta 6700.00\nAditya Rao 3800.00\nDiya Nair 8900.00\n(5 rows)"
       },
       {
-        "title": "GROUP_CONCAT — Combining Values",
+        "title": "GROUP_CONCAT: Combining Values",
         "code": "-- All customer names in Mumbai as one string\nSELECT GROUP_CONCAT(customer_name) AS mumbai_customers\nFROM orders\nWHERE city = 'Mumbai';\n\n-- With custom separator and ordering\nSELECT GROUP_CONCAT(customer_name ORDER BY amount DESC SEPARATOR ' | ') AS top_to_bottom\nFROM orders\nWHERE city = 'Mumbai';",
         "language": "sql",
         "explanation": "Mumbai has 4 orders: Aarav (2500), Ananya (3200), Karan (6700), Arjun (2700). First query concatenates names (in arbitrary order) separated by commas. Second query orders by amount DESC and uses ' | ' as separator.",
@@ -77,7 +77,7 @@
         "title": "Full Summary Report",
         "code": "-- Complete order summary with aggregates\nSELECT\n    COUNT(*) AS total_orders,\n    COUNT(DISTINCT customer_name) AS unique_customers,\n    COUNT(DISTINCT city) AS unique_cities,\n    SUM(amount) AS total_revenue,\n    AVG(amount) AS avg_order_value,\n    MIN(amount) AS smallest_order,\n    MAX(amount) AS largest_order,\n    SUM(CASE WHEN status = 'Delivered' THEN 1 ELSE 0 END) AS delivered_count,\n    SUM(CASE WHEN status = 'Cancelled' THEN 1 ELSE 0 END) AS cancelled_count\nFROM orders;",
         "language": "sql",
-        "explanation": "This is a real-world business summary. The CASE inside SUM is a common pattern called conditional aggregation — it counts rows matching a condition. Total 12 orders, 12 unique customers, 6 unique cities, 44500 revenue, avg 3708.33, min 1200, max 8900, 8 delivered, 2 cancelled (and 2 pending).",
+        "explanation": "This is a real-world business summary. The CASE inside SUM is a common pattern called conditional aggregation. It counts rows matching a condition. Total 12 orders, 12 unique customers, 6 unique cities, 44500 revenue, avg 3708.33, min 1200, max 8900, 8 delivered, 2 cancelled (and 2 pending).",
         "output": "total_orders: 12\nunique_customers: 12\nunique_cities: 6\ntotal_revenue: 44500.00\navg_order_value: 3708.33\nsmallest_order: 1200.00\nlargest_order: 8900.00\ndelivered_count: 8\ncancelled_count: 2"
       }
     ],
@@ -94,7 +94,7 @@
         "wrongCode": "-- Intent: average including all rows, NULLs as 0\nSELECT AVG(discount) FROM orders;",
         "error": "No error, but returns 356.25 (average of 8 non-NULL values) not 237.50 (what you'd get treating NULLs as 0).",
         "correctCode": "-- Treat NULLs as 0 explicitly:\nSELECT AVG(COALESCE(discount, 0)) FROM orders;\n-- Returns 237.50 (sum 2850 / all 12 rows)",
-        "explanation": "AVG ignores NULLs in both numerator and denominator. If your business logic wants NULLs to count as 0, use COALESCE. Decide deliberately — the two numbers can differ by 50% or more."
+        "explanation": "AVG ignores NULLs in both numerator and denominator. If your business logic wants NULLs to count as 0, use COALESCE. Decide deliberately, the two numbers can differ by 50% or more."
       },
       {
         "title": "SUM of All-NULL Column Returns NULL, Not 0",
@@ -113,7 +113,7 @@
       {
         "title": "Mixing Aggregates and Non-Aggregates Without GROUP BY",
         "wrongCode": "SELECT customer_name, SUM(amount) FROM orders;",
-        "error": "In strict mode: ERROR 1140 (42000): In aggregated query without GROUP BY, expression #1 of SELECT list contains nonaggregated column... In lenient MySQL mode: returns ONE row with arbitrary customer_name and the total SUM — meaningless.",
+        "error": "In strict mode: ERROR 1140 (42000): In aggregated query without GROUP BY, expression #1 of SELECT list contains nonaggregated column... In lenient MySQL mode: returns ONE row with arbitrary customer_name and the total SUM, meaningless.",
         "correctCode": "-- If you want totals per customer:\nSELECT customer_name, SUM(amount) FROM orders GROUP BY customer_name;\n\n-- If you just want the grand total:\nSELECT SUM(amount) FROM orders;",
         "explanation": "Mixing aggregate and non-aggregate columns requires GROUP BY (next chapter). Without it, standard SQL raises an error. MySQL's lenient mode returns a meaningless row. Enable strict ONLY_FULL_GROUP_BY mode in production."
       }
@@ -122,11 +122,11 @@
       "Aggregate functions collapse many rows into a single summary value: COUNT, SUM, AVG, MIN, MAX, GROUP_CONCAT.",
       "COUNT(*) counts all rows. COUNT(column) counts non-NULL values. COUNT(DISTINCT column) counts unique non-NULL values. These three give different answers on real data.",
       "SUM ignores NULLs. If every value is NULL, SUM returns NULL (not 0). Wrap in COALESCE for guaranteed numeric output.",
-      "AVG = SUM / COUNT(column) — NULLs excluded from both numerator and denominator. Use AVG(COALESCE(col, 0)) to treat NULLs as 0 and divide by total rows.",
+      "AVG = SUM / COUNT(column): NULLs excluded from both numerator and denominator. Use AVG(COALESCE(col, 0)) to treat NULLs as 0 and divide by total rows.",
       "MIN and MAX work on numbers, dates, and strings. For strings they return alphabetically first/last. NULLs are skipped.",
       "Aggregates cannot be used in WHERE (WHERE runs before aggregation). Use a subquery or HAVING instead.",
       "WHERE filters rows BEFORE aggregation. SELECT COUNT(*) FROM orders WHERE status='Delivered' counts only delivered orders.",
-      "GROUP_CONCAT (MySQL) combines multiple string values into one — often with ORDER BY and custom SEPARATOR. PostgreSQL uses STRING_AGG.",
+      "GROUP_CONCAT (MySQL) combines multiple string values into one, often with ORDER BY and custom SEPARATOR. PostgreSQL uses STRING_AGG.",
       "You can combine multiple aggregates in one SELECT to get a complete summary in a single query: total, avg, min, max together.",
       "Conditional aggregation pattern: SUM(CASE WHEN condition THEN 1 ELSE 0 END) counts rows matching the condition inside a single SELECT."
     ]
@@ -142,7 +142,7 @@
         "question": "Count the total number of orders.",
         "hint": "COUNT(*).",
         "answer": "<pre><code>SELECT COUNT(*) FROM orders;</code></pre>",
-        "explanation": "Returns 12 — all rows."
+        "explanation": "Returns 12, all rows."
       },
       {
         "id": "ts-2",
@@ -205,7 +205,7 @@
         "question": "How many orders were Cancelled?",
         "hint": "COUNT(*) with WHERE.",
         "answer": "<pre><code>SELECT COUNT(*) FROM orders WHERE status = 'Cancelled';</code></pre>",
-        "explanation": "ids 3 and 8 — 2 orders."
+        "explanation": "ids 3 and 8: 2 orders."
       },
       {
         "id": "ts-9",
@@ -249,7 +249,7 @@
         "difficulty": "Medium",
         "question": "Why does SUM of an all-NULL column return NULL instead of 0?",
         "hint": "SQL standard behavior.",
-        "answer": "Because there are no values to sum, SQL returns NULL — the logical 'unknown.' Returning 0 would be an assumption. If you want 0, use <code>COALESCE(SUM(col), 0)</code>. This convention also applies to MIN, MAX, and AVG: all-NULL input yields NULL output.",
+        "answer": "Because there are no values to sum, SQL returns NULL, the logical 'unknown.' Returning 0 would be an assumption. If you want 0, use <code>COALESCE(SUM(col), 0)</code>. This convention also applies to MIN, MAX, and AVG: all-NULL input yields NULL output.",
         "explanation": "Can surprise you when a filter returns 0 rows. Your SUM-based KPI suddenly shows NULL instead of 0, breaking charts or triggering alerts."
       },
       {
@@ -274,7 +274,7 @@
         "id": "ts-16",
         "type": "coding",
         "difficulty": "Medium",
-        "question": "Count how many orders each status type has (preview of GROUP BY — use conditional aggregation).",
+        "question": "Count how many orders each status type has (preview of GROUP BY. Use conditional aggregation).",
         "hint": "SUM(CASE WHEN ...).",
         "answer": "<pre><code>SELECT\n  SUM(CASE WHEN status = 'Delivered' THEN 1 ELSE 0 END) AS delivered,\n  SUM(CASE WHEN status = 'Cancelled' THEN 1 ELSE 0 END) AS cancelled,\n  SUM(CASE WHEN status = 'Pending' THEN 1 ELSE 0 END) AS pending\nFROM orders;</code></pre>",
         "explanation": "Delivered: 8. Cancelled: 2. Pending: 2. Total: 12. Conditional aggregation is how you get multiple counts in one row without GROUP BY."
@@ -304,7 +304,7 @@
         "question": "Find orders with amount greater than the overall average. Return customer_name and amount.",
         "hint": "Subquery for AVG.",
         "answer": "<pre><code>SELECT customer_name, amount FROM orders\nWHERE amount > (SELECT AVG(amount) FROM orders);</code></pre>",
-        "explanation": "Overall avg = 3708.33. Orders above: Rohan 5600, Vikram 4500, Karan 6700, Aditya 3800, Diya 8900. 5 rows. You CANNOT use WHERE amount > AVG(amount) directly — you need the subquery."
+        "explanation": "Overall avg = 3708.33. Orders above: Rohan 5600, Vikram 4500, Karan 6700, Aditya 3800, Diya 8900. 5 rows. You CANNOT use WHERE amount > AVG(amount) directly. You need the subquery."
       },
       {
         "id": "ts-20",
@@ -312,7 +312,7 @@
         "difficulty": "Hard",
         "question": "Why can't you use WHERE amount > AVG(amount) directly?",
         "hint": "Order of operations.",
-        "answer": "Because WHERE runs BEFORE aggregation. When WHERE evaluates each row, AVG has not been computed yet — the aggregate needs all rows to finish first. SQL enforces a strict order: FROM → WHERE → GROUP BY → HAVING → SELECT → ORDER BY → LIMIT. Aggregates belong in SELECT or HAVING, not WHERE. To compare a row to an aggregate, use a subquery that computes the aggregate separately.",
+        "answer": "Because WHERE runs BEFORE aggregation. When WHERE evaluates each row, AVG has not been computed yet, the aggregate needs all rows to finish first. SQL enforces a strict order: FROM → WHERE → GROUP BY → HAVING → SELECT → ORDER BY → LIMIT. Aggregates belong in SELECT or HAVING, not WHERE. To compare a row to an aggregate, use a subquery that computes the aggregate separately.",
         "explanation": "This is a foundational concept. Understanding execution order prevents many SQL mistakes and is tested in every interview."
       },
       {
@@ -322,7 +322,7 @@
         "question": "What does this return?<br><pre><code>SELECT COUNT(*), COUNT(discount), COUNT(DISTINCT city)\nFROM orders\nWHERE status = 'Delivered';</code></pre>",
         "hint": "Filter first, then aggregate.",
         "answer": "<code>8, 6, 6</code>",
-        "explanation": "Delivered orders: 8 total. Of those, discount is NULL in 1 row (id 2). Wait let me check: delivered ids are 1,2,4,6,7,9,10,12. Their discounts: 100, NULL, 200, 50, 600, 300, 1000, 100. One NULL (id 2), so COUNT(discount) = 7. Distinct cities: Mumbai (1,4,7), Delhi (2,12), Chennai (6), Pune (9), Bengaluru (10) — 5 unique. Corrected: 8, 7, 5."
+        "explanation": "Delivered orders: 8 total. Of those, discount is NULL in 1 row (id 2). Wait let me check: delivered ids are 1,2,4,6,7,9,10,12. Their discounts: 100, NULL, 200, 50, 600, 300, 1000, 100. One NULL (id 2), so COUNT(discount) = 7. Distinct cities: Mumbai (1,4,7), Delhi (2,12), Chennai (6), Pune (9), Bengaluru (10): 5 unique. Corrected: 8, 7, 5."
       },
       {
         "id": "ts-22",
@@ -357,8 +357,8 @@
         "difficulty": "Hard",
         "question": "In what order are WHERE, SELECT, ORDER BY, and aggregate functions evaluated?",
         "hint": "Logical execution order.",
-        "answer": "Logical order: FROM → WHERE → GROUP BY → HAVING → SELECT (including aggregates) → ORDER BY → LIMIT. Aggregates are computed during the SELECT phase after WHERE has already filtered rows. This is why WHERE cannot reference aggregates — they do not exist yet. ORDER BY runs after aggregates, so it CAN reference aliases and aggregate results.",
-        "explanation": "Memorize this order. Almost every SQL quirk — where you can use an alias, why WHERE can't see aggregates, why ORDER BY can — comes from execution order."
+        "answer": "Logical order: FROM → WHERE → GROUP BY → HAVING → SELECT (including aggregates) → ORDER BY → LIMIT. Aggregates are computed during the SELECT phase after WHERE has already filtered rows. This is why WHERE cannot reference aggregates. They do not exist yet. ORDER BY runs after aggregates, so it CAN reference aliases and aggregate results.",
+        "explanation": "Memorize this order. Almost every SQL quirk, where you can use an alias, why WHERE can't see aggregates, why ORDER BY can, comes from execution order."
       }
     ],
     "mixed": [
@@ -405,7 +405,7 @@
         "question": "What is COUNT(DISTINCT status)?",
         "hint": "Unique statuses.",
         "answer": "<code>3</code>",
-        "explanation": "Delivered, Cancelled, Pending — 3 unique statuses."
+        "explanation": "Delivered, Cancelled, Pending: 3 unique statuses."
       },
       {
         "id": "mx-6",
@@ -664,7 +664,7 @@
           { "text": "COUNT(1) returns 1, COUNT(*) returns the row count", "correct": false }
         ],
         "answer": "C",
-        "explanation": "<strong>C is correct.</strong> Both count all rows. Modern optimizers treat them the same. Old myth says COUNT(1) is faster — it is not. Use COUNT(*) — it's idiomatic SQL."
+        "explanation": "<strong>C is correct.</strong> Both count all rows. Modern optimizers treat them the same. Old myth says COUNT(1) is faster, it is not. Use COUNT(*), it's idiomatic SQL."
       },
       {
         "id": "mcq-9",
@@ -687,7 +687,7 @@
           { "text": "Shortest customer name", "correct": false },
           { "text": "Alphabetically first customer name", "correct": true },
           { "text": "NULL always for string columns", "correct": false },
-          { "text": "Error — MIN doesn't work on strings", "correct": false }
+          { "text": "Error: MIN doesn't work on strings", "correct": false }
         ],
         "answer": "B",
         "explanation": "<strong>B is correct.</strong> For strings, MIN returns the alphabetically first value. In our data, 'Aarav Sharma' is first."
@@ -755,7 +755,7 @@
           { "text": "5, 5, 3", "correct": false }
         ],
         "answer": "B",
-        "explanation": "<strong>B is correct.</strong> COUNT(*) = 5 all rows. COUNT(col) = 4 non-NULL. COUNT(DISTINCT col) = 3 unique non-NULL (100, 200, 300 — 200 is duplicate)."
+        "explanation": "<strong>B is correct.</strong> COUNT(*) = 5 all rows. COUNT(col) = 4 non-NULL. COUNT(DISTINCT col) = 3 unique non-NULL (100, 200, 300: 200 is duplicate)."
       },
       {
         "id": "mcq-16",
@@ -820,7 +820,7 @@
           { "text": "Error", "correct": false }
         ],
         "answer": "B",
-        "explanation": "<strong>B is correct.</strong> Aggregates always return exactly one row (without GROUP BY). With no matching rows, AVG returns NULL. COUNT(*) would be 0 — different behavior."
+        "explanation": "<strong>B is correct.</strong> Aggregates always return exactly one row (without GROUP BY). With no matching rows, AVG returns NULL. COUNT(*) would be 0, different behavior."
       }
     ],
     "codingChallenges": [
@@ -858,7 +858,7 @@
         "id": "cc-4",
         "title": "Order Status Counts",
         "difficulty": "Medium",
-        "description": "Count how many orders are in each status using conditional aggregation — return columns 'delivered', 'cancelled', 'pending' in a single row.",
+        "description": "Count how many orders are in each status using conditional aggregation, return columns 'delivered', 'cancelled', 'pending' in a single row.",
         "sampleInput": "orders table.",
         "sampleOutput": "8, 2, 2",
         "constraints": "SUM(CASE WHEN ...). Do not use GROUP BY.",

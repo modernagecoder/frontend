@@ -108,7 +108,7 @@ Classic interview question. Mnemonic: WHERE filters rows, HAVING filters groups.
 
 *Hint:* Ambiguity without it.
 
-**Answer:** If a column is not aggregated and not in GROUP BY, the database does not know which value to return for each group. A group of 5 rows may have 5 different values — which one should be picked? Standard SQL requires every SELECT column to be aggregated or grouped. MySQL's default strict mode enforces this with ONLY_FULL_GROUP_BY. Older lenient mode silently returned an arbitrary value — a dangerous bug.
+**Answer:** If a column is not aggregated and not in GROUP BY, the database does not know which value to return for each group. A group of 5 rows may have 5 different values, which one should be picked? Standard SQL requires every SELECT column to be aggregated or grouped. MySQL's default strict mode enforces this with ONLY_FULL_GROUP_BY. Older lenient mode silently returned an arbitrary value, a dangerous bug.
 
 This rule is fundamental to GROUP BY semantics. Always make sure SELECT columns are either in GROUP BY or inside an aggregate.
 
@@ -170,13 +170,13 @@ SELECT region FROM sales GROUP BY region HAVING COUNT(*) > 10;
 
 **Answer:** `0 rows`
 
-No region has more than 10 sales (North has 5 — the most). HAVING filters out all groups. Empty result.
+No region has more than 10 sales (North has 5, the most). HAVING filters out all groups. Empty result.
 
 ### Q16. [Medium] What is the logical execution order of a SQL query with WHERE, GROUP BY, HAVING, SELECT, ORDER BY, LIMIT?
 
 *Hint:* Seven phases.
 
-**Answer:** Logical order: (1) **FROM** — identify source tables. (2) **WHERE** — filter individual rows. (3) **GROUP BY** — form groups. (4) **HAVING** — filter groups. (5) **SELECT** — compute output columns and aggregates. (6) **ORDER BY** — sort the result. (7) **LIMIT** — take first n rows.
+**Answer:** Logical order: (1) **FROM**, identify source tables. (2) **WHERE**, filter individual rows. (3) **GROUP BY**, form groups. (4) **HAVING**, filter groups. (5) **SELECT**, compute output columns and aggregates. (6) **ORDER BY**, sort the result. (7) **LIMIT**, take first n rows.
 
 Memorize this. Explains why WHERE cannot use aggregates (SELECT has not run yet), why HAVING can (runs after GROUP BY), and why ORDER BY can reference SELECT aliases.
 
@@ -238,7 +238,7 @@ GROUP BY region
 HAVING AVG(amount) > 40000 AND COUNT(*) >= 3;
 ```
 
-North: avg 36800 (fail). South: avg 40000 (fail — not strictly above). East: avg 32000 (fail). West: avg 51000 (pass), count 3 (pass). Only West. Wait, recompute: South sum 160000 / 4 = 40000 — not strictly above. East: 96000/3 = 32000. West: 153000/3 = 51000 (pass). North: 184000/5 = 36800 (fail). Only West passes.
+North: avg 36800 (fail). South: avg 40000 (fail, not strictly above). East: avg 32000 (fail). West: avg 51000 (pass), count 3 (pass). Only West. Wait, recompute: South sum 160000 / 4 = 40000, not strictly above. East: 96000/3 = 32000. West: 153000/3 = 51000 (pass). North: 184000/5 = 36800 (fail). Only West passes.
 
 ### Q22. [Hard] Find the salesperson with the highest total sales.
 
@@ -277,7 +277,7 @@ HAVING SUM(amount) > 100000;
 
 *Hint:* Laptop sales per region, filtered by sum.
 
-**Answer:** `North 115000, South 115000, West 127000 — 3 rows`
+**Answer:** `North 115000, South 115000, West 127000: 3 rows`
 
 WHERE keeps only Laptop rows (7 rows). GROUP BY region. Sums: North 55000+60000=115000, South 58000+57000=115000, East 54000, West 65000+62000=127000. HAVING > 100000 excludes East.
 
@@ -285,7 +285,7 @@ WHERE keeps only Laptop rows (7 rows). GROUP BY region. Sums: North 55000+60000=
 
 *Hint:* GROUP BY collapses groups.
 
-**Answer:** **No.** GROUP BY gives you one row per group, so you can get the top salesperson per region (by using MAX or by combining ORDER BY with LIMIT on the grouped result) but not the top N per group. LIMIT applies to the final result, not within groups. For top N per group, you need window functions — `ROW_NUMBER() OVER (PARTITION BY region ORDER BY total_sales DESC)` with a filter `WHERE rn <= 2`. This is covered in chapter 18 and is a very common interview question.
+**Answer:** **No.** GROUP BY gives you one row per group, so you can get the top salesperson per region (by using MAX or by combining ORDER BY with LIMIT on the grouped result) but not the top N per group. LIMIT applies to the final result, not within groups. For top N per group, you need window functions, `ROW_NUMBER() OVER (PARTITION BY region ORDER BY total_sales DESC)` with a filter `WHERE rn <= 2`. This is covered in chapter 18 and is a very common interview question.
 
 The top-N-per-group problem is the single most-asked SQL interview question for data analyst roles. Window functions are specifically designed for this.
 
@@ -354,7 +354,7 @@ GROUP BY salesperson
 HAVING COUNT(*) = 1;
 ```
 
-Vikram, Sneha, Diya — each with 1 sale.
+Vikram, Sneha, Diya, each with 1 sale.
 
 ### Q6. [Easy] How many rows?
 
@@ -386,7 +386,7 @@ SELECT region, MAX(amount), COUNT(*) FROM sales GROUP BY region;
 
 *Hint:* Multiple aggregates allowed?
 
-**Answer:** `Yes — valid. Returns 4 rows.`
+**Answer:** `Yes, valid. Returns 4 rows.`
 
 Multiple aggregates per group are fine. Each row shows region, max amount in that region, and count of sales in that region.
 
@@ -472,7 +472,7 @@ GROUP BY product
 HAVING COUNT(DISTINCT salesperson) >= 2;
 ```
 
-Laptop sold by Aarav, Rohan, Vikram, Karan, Ananya, Diya, Priya — 7 unique. Phone by 5 unique. Tablet by Ananya, Priya, Aarav — 3 unique. All 3 products pass. 3 rows.
+Laptop sold by Aarav, Rohan, Vikram, Karan, Ananya, Diya, Priya, 7 unique. Phone by 5 unique. Tablet by Ananya, Priya, Aarav, 3 unique. All 3 products pass. 3 rows.
 
 ### Q16. [Hard] Find regions with more than 1 product type sold AND total revenue > 150000.
 
@@ -499,7 +499,7 @@ ORDER BY month;
 
 Laptop sales: id 1 Jan (55000), 3 Jan (60000), 6 Feb (58000), 9 Mar (65000), 12 Apr (54000), 14 Apr (62000), 15 Apr (57000). Jan 115000, Feb 58000, Mar 65000, Apr 173000. 4 rows.
 
-### Q18. [Hard] Show top salesperson per region (tricky — might need subquery).
+### Q18. [Hard] Show top salesperson per region (tricky: might need subquery).
 
 *Hint:* Join with subquery that finds region-max totals.
 
@@ -520,7 +520,7 @@ WHERE (region, total) IN (
 -- Cleaner: use window functions (chapter 18)
 ```
 
-GROUP BY alone struggles with 'top per group' — need window functions for clean solution. The subquery approach works but is verbose. Illustrates why window functions are important.
+GROUP BY alone struggles with 'top per group', need window functions for clean solution. The subquery approach works but is verbose. Illustrates why window functions are important.
 
 ### Q19. [Hard] What does GROUP BY region WITH ROLLUP add to the output?
 
@@ -622,7 +622,7 @@ D. [object Object]
 
 **Answer:** B
 
-**B is correct.** Option A: salesperson is not aggregated or grouped — error in strict mode. Option C: WHERE cannot use aggregate. Option D: HAVING without GROUP BY (valid but misused — should be WHERE).
+**B is correct.** Option A: salesperson is not aggregated or grouped, error in strict mode. Option C: WHERE cannot use aggregate. Option D: HAVING without GROUP BY (valid but misused, should be WHERE).
 
 ### Q8. [Medium] In the logical execution order, when does SELECT run?
 
@@ -721,7 +721,7 @@ D. [object Object]
 
 **Answer:** B
 
-**B is correct.** HAVING can reference grouped columns, not just aggregates. It works but is semantically wrong — use WHERE for row filtering. HAVING is slower because it runs after grouping.
+**B is correct.** HAVING can reference grouped columns, not just aggregates. It works but is semantically wrong. Use WHERE for row filtering. HAVING is slower because it runs after grouping.
 
 ### Q17. [Hard] SELECT region, COUNT(*) FROM sales GROUP BY region HAVING COUNT(*)>100; what happens if no group matches?
 
@@ -999,7 +999,7 @@ Find the best-selling product (by revenue) for each region. Return region, produ
 
 **Constraints:**
 
-- Cannot use simple GROUP BY alone — need subquery or window functions.
+- Cannot use simple GROUP BY alone, need subquery or window functions.
 
 **Sample input:**
 

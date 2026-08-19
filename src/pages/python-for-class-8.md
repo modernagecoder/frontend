@@ -1,5 +1,5 @@
 ---
-title: "Python for Class 8 — OOP, Flask API, sklearn, Kaggle Datasets & DSA Intro | Modern Age Coders"
+title: "Python for Class 8: OOP, Flask API, sklearn, Kaggle Datasets & DSA Intro | Modern Age Coders"
 description: "Python for Class 8 students. OOP with inheritance, Flask REST APIs, sklearn ML with real Kaggle datasets, first DSA. 1 hour live classes, 1:1 or group."
 canonical: https://learn.modernagecoders.com/python-for-class-8
 source: src/pages/python-for-class-8.html
@@ -8,7 +8,7 @@ source: src/pages/python-for-class-8.html
 
 Python for Class 8 · Age 13
 
-# Python for Class 8 — where portfolio becomes real.
+# Python for Class 8: where portfolio becomes real.
 
 Class 8 is the turning point. Old enough for deep OOP, Flask APIs, real Kaggle datasets and DSA. Our 1 hour live classes build a GitHub portfolio that reads real.
 
@@ -16,9 +16,9 @@ Class 8 is the turning point. Old enough for deep OOP, Flask APIs, real Kaggle d
 
 ## Python tracks for a Class 8 student ready for real tools.
 
-At Class 8, the best Python courses use the same tools developers use daily — Flask, sklearn, pandas, Git.
+At Class 8, the best Python courses use the same tools developers use daily: Flask, sklearn, pandas, Git.
 
-[Python ![Python complete masterclass for teens](/images/python-teens.webp)   Python Masterclass Zero to confident — functions, OOP, files, real mini-apps. The backbone track. PythonOOP View course →](/courses/python-complete-masterclass-teens)[AI/ML ![AI and ML masterclass for teens](/images/ai-ml-teens.webp)   AI & ML Masterclass Pandas, sklearn, neural nets — real AI projects with datasets. AIML View course →](/courses/ai-ml-masterclass-teens)[DSA ![DSA masterclass for teens](/images/problem-solving-teens.webp)   DSA in Python Arrays, trees, graphs, DP — solved in Python. Interview foundation. DSA View course →](/courses/problem-solving-dsa-masterclass-teens)[Backend ![Backend coding with Flask for teens](/images/backend-teens.webp)   Backend with Flask Build REST APIs with Flask — auth, databases, Postman tests. FlaskAPI View course →](/courses/backend-coding-masterclass-for-teens)[Data Science ![Data science masterclass](/images/data-science-college.webp)   Data Science Pandas, NumPy, matplotlib, sklearn — the end-to-end data toolkit. PandasNumpy View course →](/courses/data-science-complete-masterclass-college)[Automation ![Python automation and AI](/images/python-automation-ai-college.webp)   Python Automation + AI Selenium, scripts, AI APIs — automate the boring stuff using Python. Automation View course →](/courses/python-ai-automation-masterclass-college)[Gen AI ![Generative AI masterclass](/images/generative-ai-college.webp)   Generative AI Masterclass LLMs, prompt engineering, embeddings — build with the AI stack of 2026. LLMPrompts View course →](/courses/complete-generative-ai-masterclass-college)[AI/ML Pro ![Complete AI ML masterclass college](/images/ai-ml-college.webp)   AI & ML Complete Deep learning, CV, NLP — college-level ML with projects. DLCV View course →](/courses/ai-ml-masterclass-complete-college)
+[Python ![Python complete masterclass for teens](/images/python-teens.webp)   Python Masterclass Zero to confident, functions, OOP, files, real mini-apps. The backbone track. PythonOOP View course →](/courses/python-complete-masterclass-teens)[AI/ML ![AI and ML masterclass for teens](/images/ai-ml-teens.webp)   AI & ML Masterclass Pandas, sklearn, neural nets, real AI projects with datasets. AIML View course →](/courses/ai-ml-masterclass-teens)[DSA ![DSA masterclass for teens](/images/problem-solving-teens.webp)   DSA in Python Arrays, trees, graphs, DP, solved in Python. Interview foundation. DSA View course →](/courses/problem-solving-dsa-masterclass-teens)[Backend ![Backend coding with Flask for teens](/images/backend-teens.webp)   Backend with Flask Build REST APIs with Flask, auth, databases, Postman tests. FlaskAPI View course →](/courses/backend-coding-masterclass-for-teens)[Data Science ![Data science masterclass](/images/data-science-college.webp)   Data Science Pandas, NumPy, matplotlib, sklearn, the end-to-end data toolkit. PandasNumpy View course →](/courses/data-science-complete-masterclass-college)[Automation ![Python automation and AI](/images/python-automation-ai-college.webp)   Python Automation + AI Selenium, scripts, AI APIs, automate the boring stuff using Python. Automation View course →](/courses/python-ai-automation-masterclass-college)[Gen AI ![Generative AI masterclass](/images/generative-ai-college.webp)   Generative AI Masterclass LLMs, prompt engineering, embeddings, build with the AI stack of 2026. LLMPrompts View course →](/courses/complete-generative-ai-masterclass-college)[AI/ML Pro ![Complete AI ML masterclass college](/images/ai-ml-college.webp)   AI & ML Complete Deep learning, CV, NLP, college-level ML with projects. DLCV View course →](/courses/ai-ml-masterclass-complete-college)
 
 ### Already deploying Python projects?
 
@@ -38,7 +38,7 @@ A Class 8 student who likes Python starts side projects without being asked. Our
 
 ### They bring project ideas
 
-At Class 8, most students bring ideas — a Discord bot, a weather app, a Twitter-style feed. We build skills around their ideas.
+At Class 8, most students bring ideas, a Discord bot, a weather app, a Twitter-style feed. We build skills around their ideas.
 
 02 / GitHub
 
@@ -50,7 +50,7 @@ Class 8 is the right time for a real GitHub profile. By Class 10 it looks seriou
 
 ### venv + requirements + readme
 
-Proper project setup enters here — virtual environments, requirements files, proper readmes. Grown-up Python.
+Proper project setup enters here, virtual environments, requirements files, proper readmes. Grown-up Python.
 
 Projects, not lectures
 
@@ -68,7 +68,7 @@ oopAPI
 
 ### Flask REST API
 
-First Flask app — routes, JSON endpoint, Postman test.
+First Flask app, routes, JSON endpoint, Postman test.
 
 flaskAI
 
@@ -121,7 +121,7 @@ Term 2 · ML deep
 
 ### sklearn with Kaggle
 
-A real Kaggle dataset — full train/test, metrics, matplotlib viz.
+A real Kaggle dataset, full train/test, metrics, matplotlib viz.
 
 - sklearn
 
@@ -144,12 +144,12 @@ Option A
 
 ### Live 1-on-1 Online Class
 
-One teacher, one learner, the full 1 hour. The teacher adapts pace in real time — slowing down on tricky concepts, speeding up where your child is already fluent. Best for focused learners, specific exam prep, or fastest progress.
+One teacher, one learner, the full 1 hour. The teacher adapts pace in real time, slowing down on tricky concepts, speeding up where your child is already fluent. Best for focused learners, specific exam prep, or fastest progress.
 
 - 1 teacher, 1 student, 1 hour per session
 - Pace fully adjusted to your child
 - Focused help on school projects and exams
-- Flexible timing — you pick the slots
+- Flexible timing. You pick the slots
 - Every class recorded and shared with parents
 
 **₹4,999**/ month · 4 sessionsOption B
@@ -160,7 +160,7 @@ One teacher, one learner, the full 1 hour. The teacher adapts pace in real time 
 
 - Small groups of 4 to 6 similar-level learners
 - 1 hour live session, 2 sessions per week
-- Peer project reviews — students present to each other
+- Peer project reviews, students present to each other
 - Fixed schedule, same classmates each week
 - Class recording and parent progress report
 
@@ -197,11 +197,11 @@ My son has been attending this class for a few months and I have been genuinely 
 
 PPoonam RathoreParentCommon questions from parents
 
-## Before you book the demo — answered honestly.
+## Before you book the demo: answered honestly.
 
 Short, plain answers. If your question isn't here, tap the callback button at the top and a human will get back to you the same day.
 
-Is Flask realistic at Class 8?Yes. Flask is deliberately small — 3 routes, a JSON endpoint, Postman test. Class 8 students deploy a simple Flask API within 4 weeks.Does this align with Class 8 school CS?Yes — and far beyond. Class 8 school CS usually covers Python basics. We are at Flask, sklearn and OOP by mid-year.Kaggle datasets at Class 8 — realistic?Yes. Titanic and housing are the classic starters. Full train/test, accuracy, visualisation — all doable at Class 8.Is DSA in Python now or wait?Class 8 is a fine start. Arrays, strings, simple linked lists in Python. No C++ needed yet.VS Code at Class 8?Yes. We transition from Thonny to VS Code around this stage, with Git integration.GitHub Copilot — allowed?Parent's choice. We lean "no" for the first year of real Python, "yes" as an explainer later.Weekly hours?2 to 3 hours total. Fits alongside even heavy Class 8 tuition.Free demo?Yes — 1 full hour. No card. Refund clause 2 weeks.Book a free 1 hour demo class
+Is Flask realistic at Class 8?Yes. Flask is deliberately small: 3 routes, a JSON endpoint, Postman test. Class 8 students deploy a simple Flask API within 4 weeks.Does this align with Class 8 school CS?Yes, and far beyond. Class 8 school CS usually covers Python basics. We are at Flask, sklearn and OOP by mid-year.Kaggle datasets at Class 8, realistic?Yes. Titanic and housing are the classic starters. Full train/test, accuracy, visualisation, all doable at Class 8.Is DSA in Python now or wait?Class 8 is a fine start. Arrays, strings, simple linked lists in Python. No C++ needed yet.VS Code at Class 8?Yes. We transition from Thonny to VS Code around this stage, with Git integration.GitHub Copilot, allowed?Parent's choice. We lean "no" for the first year of real Python, "yes" as an explainer later.Weekly hours?2 to 3 hours total. Fits alongside even heavy Class 8 tuition.Free demo?Yes: 1 full hour. No card. Refund clause 2 weeks.Book a free 1 hour demo class
 
 ### Try one session. Decide after.
 

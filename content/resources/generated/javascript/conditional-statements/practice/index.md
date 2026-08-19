@@ -279,7 +279,7 @@ if (n % 3 === 0 && n % 5 === 0) {
 
 **Answer:** `FizzBuzz`
 
-`15 % 3 === 0` is true and `15 % 5 === 0` is true. The first condition `&& both true` matches, so "FizzBuzz" is printed. The order matters — if the combined check was not first, you would get "Fizz" instead.
+`15 % 3 === 0` is true and `15 % 5 === 0` is true. The first condition `&& both true` matches, so "FizzBuzz" is printed. The order matters, if the combined check was not first, you would get "Fizz" instead.
 
 ### Q14. [Medium] Write a switch statement that takes a month number (1-12) and prints the season: 'Winter' (12,1,2), 'Spring' (3,4,5), 'Summer' (6,7,8), 'Autumn' (9,10,11). Test with month = 7.
 
@@ -783,11 +783,11 @@ if (n === false) {
 
 ### Q11. [Hard] What happens if you write: if (x = 5) { ... }?
 
-**B is correct.** `x = 5` is assignment, not comparison. It assigns 5 to x and evaluates to 5. Since 5 is truthy, the if block always runs. This is a common bug — use `===` for comparison.
+**B is correct.** `x = 5` is assignment, not comparison. It assigns 5 to x and evaluates to 5. Since 5 is truthy, the if block always runs. This is a common bug. Use `===` for comparison.
 
 ### Q12. [Hard] In a switch, what is the default case?
 
-**B is correct.** `default` runs when no case matches, similar to `else` in if-else. It is optional — you do not have to include it, but it is good practice for handling unexpected values.
+**B is correct.** `default` runs when no case matches, similar to `else` in if-else. It is optional. You do not have to include it, but it is good practice for handling unexpected values.
 
 ### Q13. [Easy] What is the ternary operator syntax?
 

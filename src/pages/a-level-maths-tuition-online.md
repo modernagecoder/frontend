@@ -1,18 +1,18 @@
 ---
-title: "A-Level Maths Tuition Online · 1:1 Pure, Mechanics & Statistics — Modern Age Coders"
-description: "Live 1:1 online A-Level maths tuition for Edexcel, AQA and OCR. Pure, mechanics and statistics taught from the ideas up — so you can handle the unfamiliar questions A-Level is built around. Same tutor, UK time. Priced for your country."
+title: "A-Level Maths Tuition Online · 1:1 Pure, Mechanics & Statistics | Modern Age Coders"
+description: "Live 1:1 online A-Level maths tuition for Edexcel, AQA and OCR. Pure, mechanics and statistics taught from the ideas up, so you can handle the unfamiliar questions A-Level is built around. Same tutor, UK time. Priced for your country."
 canonical: https://learn.modernagecoders.com/a-level-maths-tuition-online
 source: src/pages/a-level-maths-tuition-online.html
 ---
-> Live 1:1 online A-Level maths tuition for Edexcel, AQA and OCR. Pure, mechanics and statistics taught from the ideas up — so you can handle the unfamiliar questions A-Level is built around. Same tutor, UK time. Priced for your country.
+> Live 1:1 online A-Level maths tuition for Edexcel, AQA and OCR. Pure, mechanics and statistics taught from the ideas up, so you can handle the unfamiliar questions A-Level is built around. Same tutor, UK time. Priced for your country.
 
 Why A-Level maths catches students out
 
-## The step up from GCSE is brutal — and it's not about working harder.
+## The step up from GCSE is brutal: and it's not about working harder.
 
 Every year, students who breezed through GCSE maths hit a wall in the first term of A-Level. It's bewildering and demoralising, and it has a clear cause: A-Level stops rewarding the memorise-and-repeat approach that worked at GCSE. It demands algebraic fluency so automatic it costs no thought, and the confidence to attack a question with no obvious method.
 
-Working harder at the old approach doesn't fix it — it just produces more frustration.
+Working harder at the old approach doesn't fix it. It just produces more frustration.
 
 The questions that decide A and A* grades are deliberately unfamiliar: they combine topics, hide the method, and reward genuine reasoning. Past-paper drilling alone can't prepare you, because the next paper will look different again.
 
@@ -30,7 +30,7 @@ The algebra A-Level assumes is automatic. We make yours automatic too, so it nev
 
 ### Derive, don't memorise
 
-We show where each result comes from — why integration reverses differentiation, why a vector equation describes a line — so you can rebuild and adapt it.
+We show where each result comes from, why integration reverses differentiation, why a vector equation describes a line, so you can rebuild and adapt it.
 
 ### Train unseen problem-solving
 
@@ -46,13 +46,13 @@ See it for yourself
 
 Worked example · A-Level pure
 
-**What gets memorised:** "to integrate, add one to the power and divide by the new power — the opposite of differentiating." Students apply it correctly and never see *why* the two operations are linked, so problems mixing the two feel like a trick.
+**What gets memorised:** "to integrate, add one to the power and divide by the new power, the opposite of differentiating." Students apply it correctly and never see *why* the two operations are linked, so problems mixing the two feel like a trick.
 
-**How we do it.** Differentiation finds the rate of change; integration adds up tiny changes to find the total. If F is a function whose rate of change is f, then summing up all those tiny changes of F across an interval just rebuilds the overall change in F — that's the Fundamental Theorem of Calculus:
+**How we do it.** Differentiation finds the rate of change; integration adds up tiny changes to find the total. If F is a function whose rate of change is f, then summing up all those tiny changes of F across an interval just rebuilds the overall change in F. That's the Fundamental Theorem of Calculus:
 
 if F′(x) = f(x) (f is the rate of change of F)then ∫ f(x) dx = F(x) + c (integrating undoes differentiating)and ∫ ₐᵇ f(x) dx = F(b) − F(a) (the total change in F)
 
-The "add one to the power" rule is simply the reverse of the differentiation rule, and it works *because* integration and differentiation are inverse processes — not by coincidence. Once a student sees this, the whole of A-Level calculus connects: areas, volumes, differential equations and kinematics stop being separate recipes and become one idea. That coherence is what carries a student to the top grades and straight into university maths.
+The "add one to the power" rule is simply the reverse of the differentiation rule, and it works *because* integration and differentiation are inverse processes, not by coincidence. Once a student sees this, the whole of A-Level calculus connects: areas, volumes, differential equations and kinematics stop being separate recipes and become one idea. That coherence is what carries a student to the top grades and straight into university maths.
 
 Why a coding school teaches A-Level maths
 
@@ -64,13 +64,13 @@ A-Level constructs complex results from a few definitions, exactly as a program 
 
 ### Reason, don't recall
 
-The unseen questions reward working a problem out from what you understand — the same instinct that lets a programmer solve a problem they've never met.
+The unseen questions reward working a problem out from what you understand, the same instinct that lets a programmer solve a problem they've never met.
 
 ### Precision & proof
 
 A clear mathematical argument and correct code share one discipline: every step justified, nothing assumed.
 
-We're Modern Age Coders. A-Level maths underpins computer science, engineering, physics and economics, and the precise, constructive reasoning we teach for programming is exactly what makes it click — which is why our students carry it straight into their degrees.
+We're Modern Age Coders. A-Level maths underpins computer science, engineering, physics and economics, and the precise, constructive reasoning we teach for programming is exactly what makes it click, which is why our students carry it straight into their degrees.
 
 What we cover
 
@@ -96,7 +96,7 @@ Data, probability, the binomial and normal distributions, hypothesis testing and
 
 ### Mechanics
 
-Kinematics, forces and Newton's laws, moments, and projectiles — the applied topics where many lose marks.
+Kinematics, forces and Newton's laws, moments, and projectiles, the applied topics where many lose marks.
 
 ### Exam technique
 
@@ -104,7 +104,7 @@ Kinematics, forces and Newton's laws, moments, and projectiles — the applied t
 
 Who this is for
 
-## The right fit — and an honest word on what to expect.
+## The right fit: and an honest word on what to expect.
 
 **This fits** the year-12 student floored by the GCSE-to-A-Level jump, the year-13 student chasing an A or A*, the AS or resit candidate, and the student targeting a competitive maths or STEM degree. We meet your level and aim at the next realistic grade.
 
@@ -165,9 +165,9 @@ Taking Further Maths too? See our [**Further Maths Tuition →**](/further-maths
 
 Who teaches you
 
-## Tutors who know A-Level maths cold — and how it's marked.
+## Tutors who know A-Level maths cold: and how it's marked.
 
-Our A-Level tutors have strong mathematical backgrounds and a precise knowledge of each board's papers. They can explain why a result is true *and* show you the exact working a marker needs — and they remember how punishing the GCSE-to-A-Level jump feels.
+Our A-Level tutors have strong mathematical backgrounds and a precise knowledge of each board's papers. They can explain why a result is true *and* show you the exact working a marker needs, and they remember how punishing the GCSE-to-A-Level jump feels.
 
 You keep the same tutor through the year, so they know your modules, your weak spots and how you think, and aim every lesson at the marks still on the table.
 
@@ -189,7 +189,7 @@ An honest comparison
 | Same tutor to the exam | Yes | N/A | Often |
 | Monthly price | Free–£20 | £35–60/hr |
 
-Revision videos are a useful supplement. They can't watch you attempt an unseen question and coach the reasoning in real time — which is what moves an A-Level grade.
+Revision videos are a useful supplement. They can't watch you attempt an unseen question and coach the reasoning in real time, which is what moves an A-Level grade.
 
 Common questions
 
@@ -201,7 +201,7 @@ Edexcel, AQA and OCR (including OCR MEI), across pure, mechanics and statistics,
 
 The jump from GCSE to A-Level maths floored me. Is that normal?
 
-Completely — the steepest step in school maths. We rebuild the algebraic fluency A-Level assumes and teach the new abstraction properly.
+Completely, the steepest step in school maths. We rebuild the algebraic fluency A-Level assumes and teach the new abstraction properly.
 
 Can you help me get an A or A*?
 
@@ -209,31 +209,31 @@ The top grades come from understanding plus fluency under time pressure on unsee
 
 I'm doing AS or resitting. Can you help?
 
-Yes — AS, full A-Level and resit candidates, with a plan built around exactly where you are.
+Yes: AS, full A-Level and resit candidates, with a plan built around exactly where you are.
 
 How much does it cost?
 
-USD 150 per month for private 1:1 — eight live lessons, two each week. Small-group option USD 100 per month. No contract; cancel any time.
+USD 150 per month for private 1:1, eight live lessons, two each week. Small-group option USD 100 per month. No contract; cancel any time.
 
 Is there a free trial?
 
-Yes — the first lesson is free, no card needed.
+Yes, the first lesson is free, no card needed.
 
 Will I keep the same tutor?
 
-Yes — one tutor across the year who ramps into revision before the exams.
+Yes, one tutor across the year who ramps into revision before the exams.
 
 Can you cover mechanics and statistics, not just pure?
 
-Yes — all three. We make the applied content as solid as the pure.
+Yes, all three. We make the applied content as solid as the pure.
 
 Do you prepare for STEP, MAT or university maths?
 
-Yes — STEP and MAT-style problem solving alongside A-Level. See our [college and sixth-form](/online-maths-tuition-for-college-students-in-uk) page.
+Yes, STEP and MAT-style problem solving alongside A-Level. See our [college and sixth-form](/online-maths-tuition-for-college-students-in-uk) page.
 
 Are lessons live?
 
-Yes — live, one-to-one, with a shared whiteboard.
+Yes, live, one-to-one, with a shared whiteboard.
 
 When should I start?
 
@@ -241,7 +241,7 @@ Year 12 for strong foundations; Year 13 for consolidation and technique. We help
 
 Do lessons fit around college and exam season?
 
-Yes — evening and weekend slots in UK time, ramping up around mocks and summer exams.
+Yes, evening and weekend slots in UK time, ramping up around mocks and summer exams.
 
 ## Book a free A-Level maths trial lesson.
 
@@ -259,7 +259,7 @@ Real student projects
 
 Every one is a real, live project shipped by a Modern Age Coders student. Explore more in [Student Labs](/student-labs).
 
-[![Life Span Tracker](/images/projects/lifespan.webp)ToolLife Span TrackerAn interactive web tool that calculates expected lifespan, shows days, months and years lived, and visualises remaining time to motivate better habits.by ManayOpen the live project ↗](https://lifespantracker.netlify.app/)[![Simon Game](/images/projects/simongame.webp)GameSimon GameA fun memory-based game where players repeat colour and sound sequences. Each level adds a new challenge — brain-boosting for kids learning logic and focus.by YashaswiOpen the live project ↗](http://yashaswi-2017.my.canva.site)[![Image Slider Website](/images/projects/slider.webp)ToolImage Slider WebsiteA visually appealing site with a smooth image carousel — auto or manual navigation, responsive layout and beautiful transition effects.by SomrajOpen the live project ↗](https://robo23middle-stack.github.io/scenes/)
+[![Life Span Tracker](/images/projects/lifespan.webp)ToolLife Span TrackerAn interactive web tool that calculates expected lifespan, shows days, months and years lived, and visualises remaining time to motivate better habits.by ManayOpen the live project ↗](https://lifespantracker.netlify.app/)[![Simon Game](/images/projects/simongame.webp)GameSimon GameA fun memory-based game where players repeat colour and sound sequences. Each level adds a new challenge, brain-boosting for kids learning logic and focus.by YashaswiOpen the live project ↗](http://yashaswi-2017.my.canva.site)[![Image Slider Website](/images/projects/slider.webp)ToolImage Slider WebsiteA visually appealing site with a smooth image carousel, auto or manual navigation, responsive layout and beautiful transition effects.by SomrajOpen the live project ↗](https://robo23middle-stack.github.io/scenes/)
 
 ---
 

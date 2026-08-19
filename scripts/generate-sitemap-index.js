@@ -1,13 +1,13 @@
 #!/usr/bin/env node
 /**
- * generate-sitemap-index.js — split the crawl surface into per-cluster sitemaps.
+ * generate-sitemap-index.js, split the crawl surface into per-cluster sitemaps.
  *
  * Why: one 738-URL sitemap makes GSC's "indexed vs submitted" almost useless. It tells you
  * "612 of 738 indexed" and nothing about WHICH 126 are missing. With per-cluster children,
- * "Discovered — not indexed" localises in one glance: a thin city cluster, or an orphaned
+ * "Discovered, not indexed" localises in one glance: a thin city cluster, or an orphaned
  * topic set, shows up as its own row instead of being averaged away.
  *
- * Design — deliberately additive, because sitemap.xml is the single most breakable SEO file
+ * Design, deliberately additive, because sitemap.xml is the single most breakable SEO file
  * here and four scripts already read it (verify-sitemap, update-sitemap-lastmod,
  * generate-sitemap-html, indexnow-ping):
  *   - sitemap.xml stays exactly as it is: hand-maintained, and the SOURCE OF TRUTH.
@@ -20,7 +20,7 @@
  * OWNER ACTION to get the benefit: in GSC and Bing, submit /sitemap-index.xml and REMOVE the
  * old sitemap.xml submission. Leaving both submitted double-counts every URL and puts the
  * per-cluster stats back where they started. Removing a sitemap from GSC does not deindex
- * anything — the URLs are all still in the children.
+ * anything, the URLs are all still in the children.
  *
  * lastmod is copied verbatim from the source. It is never invented here; see
  * update-sitemap-lastmod.js for why that matters.
@@ -53,7 +53,7 @@ function parseUrlBlocks(file) {
 
 const urls = parseUrlBlocks(SOURCE);
 if (!urls.length) {
-  console.error('✗ No <url> entries found in sitemap.xml — refusing to write empty children.');
+  console.error('✗ No <url> entries found in sitemap.xml, refusing to write empty children.');
   process.exit(1);
 }
 
@@ -68,7 +68,7 @@ for (const u of urls) {
   (groups[id] || groups.core).push(u);
 }
 
-// write children — each keeps the XSL stylesheet so the human view still works
+// write children, each keeps the XSL stylesheet so the human view still works
 let written = 0;
 for (const c of CLUSTERS) {
   if (c.external) continue;

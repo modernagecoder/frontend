@@ -8,7 +8,7 @@ source: src/pages/mistakes-students-make.html
 
 At Modern Age Coders, we don't just teach syntax; we teach **thinking**. Over years of mentoring thousands of students, we've noticed that mistakes rarely come from a lack of intelligence. They come from rigid mental models and rushing to the answer.
 
-Here are the most common logic traps students fall into—and proven strategies to overcome them.
+Here are the most common logic traps students fall into, and proven strategies to overcome them.
 
 ## 1 Confusing "Running" with "Working"
 
@@ -72,7 +72,7 @@ Read the problem **three times** before writing any code. Underline or note down
 
 ## 6 Confusing = with ==
 
-This classic mistake has haunted developers for decades—confusing assignment with comparison.
+This classic mistake has haunted developers for decades, confusing assignment with comparison.
 
 The Mistake
 
@@ -96,7 +96,7 @@ Test every 5-10 lines. Use `print()` statements or a debugger. Build your soluti
 
 ## 8 Showing Off Instead of Truly Learning
 
-We see this all the time. A student learns something new—maybe loops or a cool library—and immediately they want everyone to know. "Look what I can do!" They answer questions in class not to help, but so others think they're smart. The focus shifts from understanding to impressing.
+We see this all the time. A student learns something new, maybe loops or a cool library, and immediately they want everyone to know. "Look what I can do!" They answer questions in class not to help, but so others think they're smart. The focus shifts from understanding to impressing.
 
 The Mistake
 
@@ -104,7 +104,7 @@ Rushing to appear knowledgeable rather than actually becoming knowledgeable. The
 
 The Fix
 
-Real confidence comes from **real skill**. The best programmers we know are often the quietest—they don't need to prove anything. Focus on understanding, not applause. When you truly get it, people notice anyway.
+Real confidence comes from **real skill**. The best programmers we know are often the quietest. They don't need to prove anything. Focus on understanding, not applause. When you truly get it, people notice anyway.
 
 ## 9 Using AI to Do Homework, Then Claiming "I Did It Myself"
 
@@ -112,11 +112,11 @@ This one hurts to write, but we have to be honest. Some students paste their hom
 
 The Mistake
 
-Getting the assignment "done" without any struggle or thinking. The brain grows when it faces a challenge—when you let AI handle the hard part, your brain gets nothing. You end up with a submitted assignment but zero learning.
+Getting the assignment "done" without any struggle or thinking. The brain grows when it faces a challenge, when you let AI handle the hard part, your brain gets nothing. You end up with a submitted assignment but zero learning.
 
 The Fix
 
-AI is a tool, not a replacement for your brain. **Struggle first.** Try for at least 20-30 minutes on your own. If you're stuck, ask AI to explain the concept—not solve it for you. The struggle is where learning happens.
+AI is a tool, not a replacement for your brain. **Struggle first.** Try for at least 20-30 minutes on your own. If you're stuck, ask AI to explain the concept, not solve it for you. The struggle is where learning happens.
 
 ## 10 Copying Code Without Understanding the Logic
 
@@ -124,23 +124,23 @@ AI is a tool, not a replacement for your brain. **Struggle first.** Try for at l
 
 The Mistake
 
-Treating coding like a copy-paste activity. When the same problem appears in a slightly different form, these students are completely stuck. They never built the mental model—they just borrowed someone else's.
+Treating coding like a copy-paste activity. When the same problem appears in a slightly different form, these students are completely stuck. They never built the mental model. They just borrowed someone else's.
 
 The Fix
 
 Before you copy any code, **write it out by hand first** (yes, pen and paper). Explain each line to yourself. Ask: "What would happen if I changed this part?" If you can't explain it, you don't understand it.
 
-## 11 Skipping Practice at Home—"I'll Do It Later"
+## 11 Skipping Practice at Home: "I'll Do It Later"
 
 Class ends. The teacher says, "Practice this at home." The student thinks, "I understood it in class, I'll be fine." Days pass. When they sit for the next class or a test, everything feels vague. That confident feeling from class? Gone. The knowledge never got cemented.
 
 The Mistake
 
-Confusing "I understood it when the teacher explained" with "I can do it on my own." Understanding and doing are completely different things. Without practice, concepts fade within 24-48 hours—this is how memory works.
+Confusing "I understood it when the teacher explained" with "I can do it on my own." Understanding and doing are completely different things. Without practice, concepts fade within 24-48 hours, this is how memory works.
 
 The Fix
 
-Practice the **same day** you learn something new—even just for 15 minutes. Your brain is still warm from class. This small habit makes a massive difference. Don't trust future-you to do it; do it now.
+Practice the **same day** you learn something new, even just for 15 minutes. Your brain is still warm from class. This small habit makes a massive difference. Don't trust future-you to do it; do it now.
 
 ### Ready to Train Your Logic?
 
@@ -154,7 +154,7 @@ Real student projects
 
 Every one is a real, live project shipped by a Modern Age Coders student. Explore more in [Student Labs](/student-labs).
 
-[![Life Span Tracker](/images/projects/lifespan.webp)ToolLife Span TrackerAn interactive web tool that calculates expected lifespan, shows days, months and years lived, and visualises remaining time to motivate better habits.by ManayOpen the live project ↗](https://lifespantracker.netlify.app/)[![Simon Game](/images/projects/simongame.webp)GameSimon GameA fun memory-based game where players repeat colour and sound sequences. Each level adds a new challenge — brain-boosting for kids learning logic and focus.by YashaswiOpen the live project ↗](http://yashaswi-2017.my.canva.site)[![Image Slider Website](/images/projects/slider.webp)ToolImage Slider WebsiteA visually appealing site with a smooth image carousel — auto or manual navigation, responsive layout and beautiful transition effects.by SomrajOpen the live project ↗](https://robo23middle-stack.github.io/scenes/)
+[![Life Span Tracker](/images/projects/lifespan.webp)ToolLife Span TrackerAn interactive web tool that calculates expected lifespan, shows days, months and years lived, and visualises remaining time to motivate better habits.by ManayOpen the live project ↗](https://lifespantracker.netlify.app/)[![Simon Game](/images/projects/simongame.webp)GameSimon GameA fun memory-based game where players repeat colour and sound sequences. Each level adds a new challenge, brain-boosting for kids learning logic and focus.by YashaswiOpen the live project ↗](http://yashaswi-2017.my.canva.site)[![Image Slider Website](/images/projects/slider.webp)ToolImage Slider WebsiteA visually appealing site with a smooth image carousel, auto or manual navigation, responsive layout and beautiful transition effects.by SomrajOpen the live project ↗](https://robo23middle-stack.github.io/scenes/)
 
 Parent & student voices
 
@@ -164,7 +164,7 @@ Real, verified reviews from Modern Age Coders families. Read hundreds more on ou
 
 ★★★★★
 
-> “Very good classes. Don't worry about coding—they teach the best, especially Shivam sir.”
+> “Very good classes. Don't worry about coding. They teach the best, especially Shivam sir.”
 
 *SShaarav Wadhwa
 Student*

@@ -1,4 +1,4 @@
-/* Download Curriculum — client-side PDF generation.
+/* Download Curriculum, client-side PDF generation.
    Reads the inline JSON at #course-curriculum-data, lazy-loads jsPDF,
    builds a branded curriculum PDF, and saves it. */
 
@@ -383,7 +383,7 @@
     } catch (e) {
       console.warn('[download-curriculum] ' + e.message);
       setLoading(btn, false);
-      showError(btn, 'Download failed — please refresh and try again.');
+      showError(btn, 'Download failed, please refresh and try again.');
       return;
     }
     loadJsPDF()
@@ -394,7 +394,7 @@
       })
       .catch(function (err) {
         console.warn('[download-curriculum] ' + (err && err.message ? err.message : err));
-        showError(btn, 'Download failed — please refresh and try again.');
+        showError(btn, 'Download failed, please refresh and try again.');
       })
       .then(function () { setLoading(btn, false); });
   }

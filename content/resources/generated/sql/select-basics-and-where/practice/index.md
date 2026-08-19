@@ -33,7 +33,7 @@ SELECT * FROM employees WHERE department = 'IT';
 
 **Answer:** `4 rows`
 
-IT department has Aarav (id 1), Rohan (id 3), Vikram (id 5), and Diya (id 10) — 4 employees.
+IT department has Aarav (id 1), Rohan (id 3), Vikram (id 5), and Diya (id 10): 4 employees.
 
 ### Q3. [Easy] How many rows does this return?
 
@@ -79,7 +79,7 @@ SELECT * FROM employees
 WHERE salary BETWEEN 60000 AND 90000;
 ```
 
-Returns Aarav (75000), Ananya (68000), Karan (81000), Aditya (63000) — 4 rows. BETWEEN includes both endpoints, so 60000 and 90000 would be included if anyone had exactly that salary.
+Returns Aarav (75000), Ananya (68000), Karan (81000), Aditya (63000): 4 rows. BETWEEN includes both endpoints, so 60000 and 90000 would be included if anyone had exactly that salary.
 
 ### Q7. [Easy] Find employees in HR or Marketing departments. Use the IN operator.
 
@@ -103,7 +103,7 @@ SELECT name AS emp FROM employees WHERE id = 7;
 **Answer:** `Column header: emp
 Value: Karan Mehta`
 
-id 7 is Karan Mehta. The AS clause renames the output column to `emp`. The table is not modified — only the result header changes.
+id 7 is Karan Mehta. The AS clause renames the output column to `emp`. The table is not modified, only the result header changes.
 
 ### Q9. [Medium] How many rows does this return?
 
@@ -116,7 +116,7 @@ WHERE department = 'IT' OR salary > 80000;
 
 **Answer:** `6 rows`
 
-IT employees: 4 (Aarav, Rohan, Vikram, Diya). Salary > 80000: Rohan (92000), Karan (81000), Diya (110000) — 3. Union (OR) removes duplicates (Rohan and Diya are in both). Result: Aarav, Rohan, Vikram, Diya, Karan — 5 rows... Wait: Aarav 75000, Rohan 92000, Vikram 45000, Diya 110000 are all IT. Add Karan (81000). Total: 5 rows. Answer: 5.
+IT employees: 4 (Aarav, Rohan, Vikram, Diya). Salary > 80000: Rohan (92000), Karan (81000), Diya (110000): 3. Union (OR) removes duplicates (Rohan and Diya are in both). Result: Aarav, Rohan, Vikram, Diya, Karan, 5 rows... Wait: Aarav 75000, Rohan 92000, Vikram 45000, Diya 110000 are all IT. Add Karan (81000). Total: 5 rows. Answer: 5.
 
 ### Q10. [Medium] How many rows?
 
@@ -237,7 +237,7 @@ In every real codebase, explicit column lists are mandatory. A production query 
 
 **Answer:** SQL was designed in the 1970s before languages like C, Java, and Python adopted `==`. In SQL, there is no assignment operator inside queries (column values are set with `=` in UPDATE statements), so reusing `=` for equality comparison caused no ambiguity. Writing `==` in SQL is a syntax error.
 
-This is a frequent stumbling block for programmers coming from other languages. Remember: SQL is a declarative query language, not an imperative one — it has different rules.
+This is a frequent stumbling block for programmers coming from other languages. Remember: SQL is a declarative query language, not an imperative one. It has different rules.
 
 ### Q20. [Medium] Explain why NOT IN with a NULL value returns zero rows. Give a way to fix it.
 
@@ -320,7 +320,7 @@ WHERE (department = 'IT' AND salary > 80000)
    OR (department = 'Finance' AND join_date < '2021-01-01');
 ```
 
-First group: IT and salary > 80000 → Rohan (92000), Diya (110000). Second group: Finance and joined before 2021 → Karan (2020-02-14). Ananya joined 2022 so fails. Result: Rohan, Diya, Karan — 3 rows.
+First group: IT and salary > 80000 → Rohan (92000), Diya (110000). Second group: Finance and joined before 2021 → Karan (2020-02-14). Ananya joined 2022 so fails. Result: Rohan, Diya, Karan: 3 rows.
 
 ### Q27. [Hard] Find all employees NOT in IT whose salary is between 50000 and 70000 inclusive. Use NOT and BETWEEN.
 
@@ -363,7 +363,7 @@ WHERE department IN ('IT', 'HR')
   AND salary > 50000;
 ```
 
-IT/HR and joined 2020-2022: Aarav (IT, 2021, 75000), Priya (HR, 2020, 52000), Ishita (HR, 2023 — fails). Plus Vikram (IT, 2023 — fails). Aarav (75000) and Priya (52000) both pass salary > 50000. Returns 2 rows.
+IT/HR and joined 2020-2022: Aarav (IT, 2021, 75000), Priya (HR, 2020, 52000), Ishita (HR, 2023, fails). Plus Vikram (IT, 2023, fails). Aarav (75000) and Priya (52000) both pass salary > 50000. Returns 2 rows.
 
 ### Q30. [Medium] What is the difference between != and <> in SQL? Which should you use?
 
@@ -470,7 +470,7 @@ SELECT * FROM employees
 WHERE name IN ('Priya Patel', 'Karan Mehta');
 ```
 
-IN works with strings too. Returns exactly 2 rows — Priya (HR) and Karan (Finance).
+IN works with strings too. Returns exactly 2 rows: Priya (HR) and Karan (Finance).
 
 ### Q10. [Medium] Find all employees except those in IT. Return name and department.
 
@@ -600,7 +600,7 @@ WHERE department = 'Marketing'
    OR (join_date > '2022-06-01' AND salary < 60000);
 ```
 
-Marketing: Sneha, Aditya. Late-2022 joiners with low salary: Ananya (2022-11-05, 68000) — fails salary. Ishita (2023-06-25, 47000) — passes both. Vikram (2023-04-18, 45000) — passes both. Result: Sneha, Aditya, Ishita, Vikram. 4 rows.
+Marketing: Sneha, Aditya. Late-2022 joiners with low salary: Ananya (2022-11-05, 68000), fails salary. Ishita (2023-06-25, 47000), passes both. Vikram (2023-04-18, 45000), passes both. Result: Sneha, Aditya, Ishita, Vikram. 4 rows.
 
 ### Q21. [Hard] How many rows?
 
@@ -624,7 +624,7 @@ Read as: (salary > 60000 AND salary < 80000) OR department = 'HR'. Range 60000-8
 SELECT name FROM employees WHERE id NOT BETWEEN 3 AND 7;
 ```
 
-NOT BETWEEN 3 AND 7 excludes ids 3, 4, 5, 6, 7. Remaining: 1, 2, 8, 9, 10 — Aarav, Priya, Ishita, Aditya, Diya. 5 rows.
+NOT BETWEEN 3 AND 7 excludes ids 3, 4, 5, 6, 7. Remaining: 1, 2, 8, 9, 10: Aarav, Priya, Ishita, Aditya, Diya. 5 rows.
 
 ### Q23. [Hard] Find all employees whose salary multiplied by 12 exceeds 1000000 (i.e., annual > 10 lakh). Use an expression in WHERE.
 
@@ -663,7 +663,7 @@ SELECT * FROM employees
 WHERE NOT (department = 'HR' AND salary < 50000);
 ```
 
-We want to remove only HR earners below 50000. HR has Priya (52000) and Ishita (47000). Ishita is excluded. Everyone else — including Priya (HR, 52000) — stays. 10 - 1 = 9 rows.
+We want to remove only HR earners below 50000. HR has Priya (52000) and Ishita (47000). Ishita is excluded. Everyone else, including Priya (HR, 52000), stays. 10 - 1 = 9 rows.
 
 ## Multiple Choice Questions
 
@@ -863,7 +863,7 @@ D. [object Object]
 
 **Answer:** B
 
-**B is correct.** SQL's = means assignment in UPDATE statements (`SET salary = 60000`) and equality in WHERE (`WHERE salary = 60000`). Context distinguishes the two. String case-sensitivity depends on column collation — MySQL is case-insensitive by default.
+**B is correct.** SQL's = means assignment in UPDATE statements (`SET salary = 60000`) and equality in WHERE (`WHERE salary = 60000`). Context distinguishes the two. String case-sensitivity depends on column collation: MySQL is case-insensitive by default.
 
 ### Q19. [Hard] What does NOT (A AND B) equal according to De Morgan's law?
 
@@ -1010,7 +1010,7 @@ employees table.
 **Sample output:**
 
 ```
-9 rows — everyone except Ishita Kumar (HR, 47000).
+9 rows. Everyone except Ishita Kumar (HR, 47000).
 ```
 
 **Solution:**
@@ -1106,7 +1106,7 @@ employees table.
 **Sample output:**
 
 ```
-3 rows — Aarav (id 1), Ananya (id 4), Diya (id 10).
+3 rows: Aarav (id 1), Ananya (id 4), Diya (id 10).
 ```
 
 **Solution:**

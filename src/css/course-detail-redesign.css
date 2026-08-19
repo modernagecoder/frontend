@@ -1,5 +1,5 @@
 /* =====================================================================
-   Course DETAIL page — editorial reskin  ·  "The Prospectus"
+   Course DETAIL page, editorial reskin  ·  "The Prospectus"
    Pairs with editorial-theme.css (body.editorial). Replaces course-template.css
    + legacy. One clear CTA path, transparent pricing, editorial curriculum.
    Preserves all payment hooks (.enrollment-option/.price/.enroll-btn[data-plan-
@@ -8,7 +8,7 @@
 
 #background-canvas{display:none !important}
 body.editorial .section{opacity:1 !important;transform:none !important}
-/* old template animated bg lived on body::before — neutralised by removing its CSS */
+/* old template animated bg lived on body::before, neutralised by removing its CSS */
 
 /* shared section frame */
 .course-hero,.enrollment-cta-section,.program-overview-section,.course-tabs-section,
@@ -35,7 +35,7 @@ body.editorial .section{opacity:1 !important;transform:none !important}
 .meta-badge svg{width:15px;height:15px;color:var(--amber);flex-shrink:0;stroke-width:2}
 .meta-badge.certification{background:var(--amber-tint);border-color:rgba(180,83,9,.25);color:var(--amber-deep)}
 
-/* CTA — one clear path: primary Enrol + secondary Book Demo, then quiet resource links */
+/* CTA, one clear path: primary Enrol + secondary Book Demo, then quiet resource links */
 .hero-cta-row{display:flex;flex-direction:column;gap:.9rem;align-items:flex-start}
 .cd-primary-cta{display:flex;flex-wrap:wrap;gap:.7rem;width:100%}
 body.editorial .cd-btn-primary{display:inline-flex;align-items:center;justify-content:center;gap:.5rem;background:var(--amber);color:#fff;border:1px solid var(--amber);border-radius:12px;padding:.95rem 1.8rem;font-family:var(--font-body);font-weight:600;font-size:1rem;text-decoration:none;cursor:pointer;transition:background .2s,transform .2s}
@@ -43,7 +43,7 @@ body.editorial .cd-btn-primary:hover{background:var(--amber-deep);transform:tran
 body.editorial .cd-btn-secondary{display:inline-flex;align-items:center;justify-content:center;gap:.5rem;background:transparent;color:var(--ink);border:1px solid var(--ink);border-radius:12px;padding:.95rem 1.6rem;font-family:var(--font-body);font-weight:600;font-size:1rem;text-decoration:none;cursor:pointer;transition:background .2s,color .2s}
 body.editorial .cd-btn-secondary:hover{background:var(--ink);color:var(--paper)}
 .cd-btn-primary svg,.cd-btn-secondary svg{width:17px;height:17px}
-/* quiet resource links (was 5 rainbow buttons) — now one subtle row */
+/* quiet resource links (was 5 rainbow buttons), now one subtle row */
 .hero-resource-links{display:flex;flex-wrap:wrap;gap:.3rem 1.3rem;margin-top:.2rem}
 body.editorial .download-curriculum-btn,body.editorial .hero-proof-btn{display:inline-flex;align-items:center;gap:.4rem;background:none !important;border:none !important;box-shadow:none !important;padding:.3rem 0 !important;color:var(--muted) !important;font-family:var(--font-mono) !important;font-size:.8rem !important;font-weight:500 !important;letter-spacing:.01em;text-decoration:none;cursor:pointer;transition:color .2s;border-radius:0 !important;transform:none !important}
 body.editorial .download-curriculum-btn:hover,body.editorial .hero-proof-btn:hover{color:var(--amber) !important;transform:none !important}
@@ -222,7 +222,7 @@ body.editorial .show-more-btn{background:none;border:none;color:var(--amber);fon
 body.editorial .cd-tm-google{display:inline-flex;align-items:center;gap:.5rem;margin-top:1.8rem;color:var(--ink);font-weight:600;font-size:.9rem;text-decoration:none;border-bottom:1px solid var(--amber);padding-bottom:2px}
 body.editorial .cd-tm-google:hover{color:var(--amber)}
 
-/* ---- Feedback videos (Wall of Love) — added 2026-06-29 ---- */
+/* ---- Feedback videos (Wall of Love), added 2026-06-29 ---- */
 .cd-videos{padding-top:clamp(2rem,4vw,3rem);padding-bottom:clamp(2.5rem,5vw,4rem);text-align:center}
 .cd-videos h2{font-size:clamp(1.8rem,3.6vw,2.6rem);margin:0 0 .4rem}
 .cd-videos .cd-vid-sub{color:var(--muted);margin:.9rem auto 0;max-width:580px;line-height:1.7}
@@ -364,12 +364,12 @@ body.editorial .success-metric-value{font-family:var(--font-display) !important;
 body.editorial .success-metric-label{color:rgba(251,248,242,.72) !important}
 
 /* =====================================================================
-   Curriculum + tab content polish (2026-07-08) — professional, no emoji.
+   Curriculum + tab content polish (2026-07-08), professional, no emoji.
    Pairs with the generator rewrite: SVG icons, phase/month/week chips,
    humanized labels, full-width accordion header buttons.
    ===================================================================== */
 
-/* accordion headers are <button>s — reset UA styles + span full width */
+/* accordion headers are <button>s, reset UA styles + span full width */
 .phase-header,.month-header,.week-header{width:100%;text-align:left;border:none;font:inherit;color:inherit;-webkit-appearance:none;appearance:none}
 .month-header,.week-header{background:transparent}
 
@@ -410,7 +410,7 @@ body.editorial .success-metric-label{color:rgba(251,248,242,.72) !important}
 .cert-icon svg,.support-icon svg,.audience-icon svg,.guarantee-icon svg,.career-icon svg{width:17px;height:17px}
 .cert-content,.support-content,.audience-content,.guarantee-content{min-width:0}
 
-/* humanized labels above values — quiet mono caps, values in ink */
+/* humanized labels above values, quiet mono caps, values in ink */
 .cert-label,.support-label,.audience-label,.guarantee-label,.prereq-label,.weekly-label,.salary-period{font-family:var(--font-mono);font-size:.68rem;font-weight:600;letter-spacing:.09em;text-transform:uppercase;color:var(--muted);margin-bottom:.3rem}
 .cert-value,.support-value,.audience-value,.guarantee-value,.prereq-value{color:var(--ink-soft);line-height:1.6}
 .weekly-value{color:var(--ink);font-weight:600}
@@ -420,7 +420,7 @@ body.editorial .success-metric-label{color:rgba(251,248,242,.72) !important}
 /* show more topics */
 body.editorial .show-more-btn:hover{color:var(--amber-deep);text-decoration:underline}
 
-/* the generator wraps items in an inner container — grid lives there */
+/* the generator wraps items in an inner container, grid lives there */
 .weekly-items,.certification-items,.support-items,.audience-items,.salary-items,.career-paths-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:1rem}
 .prerequisites-items,.guarantees-items{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:.9rem}
 .weekly-item,.salary-item,.prerequisite-item{display:flex;flex-direction:column;justify-content:center}

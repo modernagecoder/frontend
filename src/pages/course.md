@@ -208,7 +208,7 @@ Straight from the parents and students who learn with us. Rated 4.9 across 547 G
 
 ***Yug Rathore**Student*
 
-“What stands out most is how excited my son is before every class—he looks forward to learning, problem-solving, and sharing what he's built. I've noticed a big boost in his confidence!”
+“What stands out most is how excited my son is before every class. He looks forward to learning, problem-solving, and sharing what he's built. I've noticed a big boost in his confidence!”
 
 ***Poonam Rathore**Parent*
 
@@ -240,7 +240,7 @@ Straight from the parents and students who learn with us. Rated 4.9 across 547 G
 
 ***Sonam Oswal**Parent of Dhairya*
 
-“Very good classes. Don't worry about coding—they teach the best, especially Shivam sir.”
+“Very good classes. Don't worry about coding. They teach the best, especially Shivam sir.”
 
 ***Shaarav Wadhwa**Student*
 

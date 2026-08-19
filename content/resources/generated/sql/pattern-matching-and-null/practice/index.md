@@ -19,7 +19,7 @@ category: "SQL"
 SELECT name FROM students WHERE name LIKE 'A%';
 ```
 
-Matches Aarav, Ananya, Aditya — 3 rows.
+Matches Aarav, Ananya, Aditya: 3 rows.
 
 ### Q2. [Easy] Find all students whose name ends with 'a'.
 
@@ -29,7 +29,7 @@ Matches Aarav, Ananya, Aditya — 3 rows.
 SELECT name FROM students WHERE name LIKE '%a';
 ```
 
-In our data: Aarav Sharma, Rohan Gupta, Ishita Kumar (no — ends in 'r'), Karan Mehta. Ending in 'a': Sharma, Gupta, Mehta. 3 rows: Aarav Sharma, Rohan Gupta, Karan Mehta.
+In our data: Aarav Sharma, Rohan Gupta, Ishita Kumar (no, ends in 'r'), Karan Mehta. Ending in 'a': Sharma, Gupta, Mehta. 3 rows: Aarav Sharma, Rohan Gupta, Karan Mehta.
 
 ### Q3. [Easy] Find all students whose email is NULL.
 
@@ -50,7 +50,7 @@ SELECT name, email FROM students
 WHERE email LIKE '%@gmail.com';
 ```
 
-Aarav, Rohan, Sneha, Aditya — 4 rows.
+Aarav, Rohan, Sneha, Aditya: 4 rows.
 
 ### Q5. [Easy] How many rows?
 
@@ -98,7 +98,7 @@ SELECT name FROM students WHERE email IS NOT NULL;
 
 *Hint:* Think about length.
 
-**Answer:** `%` matches **zero or more** characters (any length). `_` matches **exactly one** character. So `'A%'` matches 'A', 'Aa', 'Aarav', 'Apple' — any length starting with A. `'A_'` matches only 2-character strings like 'Ab', 'Az', 'A1'. `'A__'` matches exactly 3 characters.
+**Answer:** `%` matches **zero or more** characters (any length). `_` matches **exactly one** character. So `'A%'` matches 'A', 'Aa', 'Aarav', 'Apple', any length starting with A. `'A_'` matches only 2-character strings like 'Ab', 'Az', 'A1'. `'A__'` matches exactly 3 characters.
 
 These are the only two wildcards in standard LIKE. Regex is a separate feature (REGEXP in MySQL, ~ in PostgreSQL).
 
@@ -142,7 +142,7 @@ WHERE email NOT LIKE '%@yahoo.com'
   AND email IS NOT NULL;
 ```
 
-Non-yahoo emails: gmail (4), outlook (2). Total 6 rows. NULL emails (Ananya, Ishita) are excluded explicitly — otherwise their NOT LIKE evaluates to NULL and they are dropped anyway, but being explicit is clearer.
+Non-yahoo emails: gmail (4), outlook (2). Total 6 rows. NULL emails (Ananya, Ishita) are excluded explicitly, otherwise their NOT LIKE evaluates to NULL and they are dropped anyway, but being explicit is clearer.
 
 ### Q14. [Medium] Find students whose name second letter is 'a' or 'i' (use LIKE with underscore).
 
@@ -153,7 +153,7 @@ SELECT name FROM students
 WHERE name LIKE '_a%' OR name LIKE '_i%';
 ```
 
-Second char 'a': Karan, Sharma (first name Aarav), Vikram... Let me check: 'Aarav' 2nd = 'a'. 'Karan' 2nd = 'a'. 'Vikram' 2nd = 'i'. 'Diya' 2nd = 'i'. 'Vikram' matches 2nd letter 'i'. Aarav, Karan, Vikram, Diya — approx 4 rows.
+Second char 'a': Karan, Sharma (first name Aarav), Vikram... Let me check: 'Aarav' 2nd = 'a'. 'Karan' 2nd = 'a'. 'Vikram' 2nd = 'i'. 'Diya' 2nd = 'i'. 'Vikram' matches 2nd letter 'i'. Aarav, Karan, Vikram, Diya, approx 4 rows.
 
 ### Q15. [Medium] Show name and marks. If marks is NULL, show 0. Use IFNULL.
 
@@ -189,7 +189,7 @@ SELECT NULLIF(10, 10), NULLIF(10, 5);
 
 NULLIF(10, 10): args equal, returns NULL. NULLIF(10, 5): args differ, returns the first arg (10).
 
-### Q18. [Medium] Find students whose email contains an underscore. Remember _ is a wildcard — you need to escape it.
+### Q18. [Medium] Find students whose email contains an underscore. Remember _ is a wildcard: you need to escape it.
 
 *Hint:* ESCAPE clause.
 
@@ -260,7 +260,7 @@ SELECT name, marks,
 FROM students;
 ```
 
-CASE evaluates top-to-bottom, returns the first match. NULL branch must come first — otherwise marks >= 60 on NULL gives NULL (not TRUE), and the row falls through to ELSE (Fail), which is wrong. All 10 rows, with Vikram and Ishita showing 'Not Attempted'.
+CASE evaluates top-to-bottom, returns the first match. NULL branch must come first, otherwise marks >= 60 on NULL gives NULL (not TRUE), and the row falls through to ELSE (Fail), which is wrong. All 10 rows, with Vikram and Ishita showing 'Not Attempted'.
 
 ### Q24. [Hard] Find average marks treating NULLs as 0 (not as missing).
 
@@ -276,7 +276,7 @@ Sum of non-NULL marks = 85+72+91+78+65+88+70+82 = 631. Total rows = 10. AVG with
 
 *Hint:* Clarity of meaning.
 
-**Answer:** NULL explicitly means 'unknown' or 'not applicable.' A 0 in marks could mean the student scored zero OR did not take the test — ambiguous. An empty string in email could mean 'no email' OR 'user has not been prompted yet.' NULL keeps these cases distinguishable. Aggregate functions also handle NULLs sensibly by ignoring them (AVG skips missing data instead of skewing the average with zeros).
+**Answer:** NULL explicitly means 'unknown' or 'not applicable.' A 0 in marks could mean the student scored zero OR did not take the test, ambiguous. An empty string in email could mean 'no email' OR 'user has not been prompted yet.' NULL keeps these cases distinguishable. Aggregate functions also handle NULLs sensibly by ignoring them (AVG skips missing data instead of skewing the average with zeros).
 
 The tradeoff: NULLs require care in WHERE clauses and aggregates. Some teams use sentinel values to avoid NULL complexity, but at the cost of semantic clarity.
 
@@ -290,7 +290,7 @@ SELECT NULL = NULL, NULL != NULL;
 
 **Answer:** `NULL, NULL`
 
-Any comparison with NULL — even NULL to NULL — yields NULL, not TRUE or FALSE. This is why IS NULL and IS NOT NULL exist. It is the definitional behavior of SQL's three-valued logic.
+Any comparison with NULL, even NULL to NULL, yields NULL, not TRUE or FALSE. This is why IS NULL and IS NOT NULL exist. It is the definitional behavior of SQL's three-valued logic.
 
 ## Mixed Questions
 
@@ -302,7 +302,7 @@ Any comparison with NULL — even NULL to NULL — yields NULL, not TRUE or FALS
 SELECT * FROM students WHERE course = 'Computer Science';
 ```
 
-Aarav, Rohan, Vikram, Aditya — 4 rows.
+Aarav, Rohan, Vikram, Aditya: 4 rows.
 
 ### Q2. [Easy] Find students whose name starts with 'P' or 'S'.
 
@@ -606,7 +606,7 @@ D. [object Object]
 
 **Answer:** B
 
-**B is correct.** 'A%' means 'A' followed by anything — starts with A.
+**B is correct.** 'A%' means 'A' followed by anything, starts with A.
 
 ### Q6. [Easy] What does 5 + NULL return?
 
@@ -650,7 +650,7 @@ D. [object Object]
 
 **Answer:** C
 
-**C is correct.** `= NULL` always evaluates to NULL (not TRUE), so no rows are returned. This is SQL's famous NULL gotcha — always use IS NULL.
+**C is correct.** `= NULL` always evaluates to NULL (not TRUE), so no rows are returned. This is SQL's famous NULL gotcha, always use IS NULL.
 
 ### Q10. [Medium] Which matches a pattern containing a literal %?
 
@@ -705,7 +705,7 @@ D. [object Object]
 
 **Answer:** B
 
-**B is correct.** AVG skips NULLs — both in sum and in count. If you want NULLs treated as 0, use `AVG(COALESCE(marks, 0))` to include them in the denominator.
+**B is correct.** AVG skips NULLs. Both in sum and in count. If you want NULLs treated as 0, use `AVG(COALESCE(marks, 0))` to include them in the denominator.
 
 ### Q15. [Hard] In PostgreSQL, which is equivalent to MySQL's case-insensitive LIKE 'a%'?
 
@@ -749,7 +749,7 @@ D. [object Object]
 
 **Answer:** C
 
-**C is correct.** Any comparison involving NULL yields NULL — even NULL = NULL. This is three-valued logic. Use IS NULL / IS NOT NULL for NULL tests.
+**C is correct.** Any comparison involving NULL yields NULL, even NULL = NULL. This is three-valued logic. Use IS NULL / IS NOT NULL for NULL tests.
 
 ### Q19. [Hard] Why might a pattern like LIKE '%abc' be slow on a million-row table?
 

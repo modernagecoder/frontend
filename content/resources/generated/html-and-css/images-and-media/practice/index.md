@@ -239,7 +239,7 @@ Lazy loading improves performance. Instead of loading all images at once, the br
 
 **Answer:** Remove `muted` if you want sound. But then `autoplay` may not work. Either remove muted and accept that the user must click play, or keep muted for autoplay and let users unmute.
 
-The `muted` attribute forces the video to start without sound. If you want sound, remove it — but know that browsers will then block autoplay. It is a tradeoff.
+The `muted` attribute forces the video to start without sound. If you want sound, remove it, but know that browsers will then block autoplay. It is a tradeoff.
 
 ### Q20. [Medium] Write an audio player with two source formats: 'song.mp3' and 'song.ogg', with controls.
 
@@ -261,7 +261,7 @@ Multiple audio formats ensure compatibility. MP3 works everywhere, OGG is suppor
 
 **Answer:** An empty alt (alt="") tells screen readers that the image is decorative and should be skipped. It is valid and sometimes correct.
 
-For purely decorative images (like dividers, background patterns), use `alt=""`. This tells screen readers the image has no meaningful content. Never just omit alt — always include it, even if empty.
+For purely decorative images (like dividers, background patterns), use `alt=""`. This tells screen readers the image has no meaningful content. Never just omit alt, always include it, even if empty.
 
 ### Q22. [Hard] This image is 4000 pixels wide but the page shows it as 500px. Fix it properly:
 
@@ -279,7 +279,7 @@ For purely decorative images (like dividers, background patterns), use `alt=""`.
 
 Using CSS to shrink a huge image still downloads the full 4000px file, wasting bandwidth and slowing the page. Resize the source image file first, then use proper width/height attributes.
 
-### Q23. [Hard] Add a video with a poster and controls that uses lazy loading — use attributes: width 600, controls, poster 'thumb.jpg', preload metadata.
+### Q23. [Hard] Add a video with a poster and controls that uses lazy loading: use attributes: width 600, controls, poster 'thumb.jpg', preload metadata.
 
 *Hint:* Video does not have loading="lazy" directly, but has preload attribute.
 
@@ -350,7 +350,7 @@ This page showcases all three media tags: figure with image, video with poster, 
 
 **Answer:** The `alt` attribute (for accessibility and fallback).
 
-Every image must have alt text — either describing the image or empty (alt="") for decorative images.
+Every image must have alt text, either describing the image or empty (alt="") for decorative images.
 
 ### Q2. [Easy] Write HTML for an image 'logo.png' with alt 'Company Logo', width 200, height 100.
 
@@ -372,7 +372,7 @@ Setting width and height helps the browser reserve space for the image before it
 
 **Answer:** The img tag is missing src and alt, and also has an unnecessary closing tag. Correct: ``
 
-The img tag is self-closing — no `` needed. It also requires src (source) and alt (description).
+The img tag is self-closing, no `` needed. It also requires src (source) and alt (description).
 
 ### Q4. [Easy] What tag is used for sound files?
 
@@ -473,7 +473,7 @@ Setting width in HTML only changes the display size, not the download size. You 
 
 *Hint:* Empty alt has meaning.
 
-**Answer:** Loads a decorative image (marked as decorative with empty alt) lazily — only when it scrolls into view. Screen readers skip it.
+**Answer:** Loads a decorative image (marked as decorative with empty alt) lazily, only when it scrolls into view. Screen readers skip it.
 
 Empty alt means the image is decorative and has no semantic meaning. Screen readers skip it. Lazy loading delays loading until needed.
 
@@ -526,7 +526,7 @@ Three issues: (1) missing alt attributes hurt accessibility and SEO, (2) huge fi
 
 *Hint:* It is about what the browser downloads.
 
-**Answer:** It tells the browser not to preload any video data — only download when the user clicks play. Saves bandwidth but adds a delay when user plays.
+**Answer:** It tells the browser not to preload any video data, only download when the user clicks play. Saves bandwidth but adds a delay when user plays.
 
 The `preload` attribute has three values: `none` (download nothing), `metadata` (only info like duration), and `auto` (download whole video). Use `none` or `metadata` for performance.
 
@@ -670,7 +670,7 @@ A basic image with all essential attributes: src for the source, alt for accessi
 </html>
 ```
 
-The figure element groups an image with its caption. figcaption provides semantic meaning — this is the description of the image above it.
+The figure element groups an image with its caption. figcaption provides semantic meaning. This is the description of the image above it.
 
 ### Challenge 3. Image Gallery of 4 Photos
 
@@ -712,7 +712,7 @@ The figure element groups an image with its caption. figcaption provides semanti
 </html>
 ```
 
-A complete gallery with 4 captioned figures. Lazy loading improves performance — images load only when scrolled into view. Each alt text describes what the image shows.
+A complete gallery with 4 captioned figures. Lazy loading improves performance, images load only when scrolled into view. Each alt text describes what the image shows.
 
 ### Challenge 4. Video Player With Poster
 

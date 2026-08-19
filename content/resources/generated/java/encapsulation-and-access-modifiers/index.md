@@ -27,7 +27,7 @@ Think of encapsulation as a capsule (hence the name): the medicine (data) is enc
 
 Java provides four access levels to control visibility of classes, fields, methods, and constructors:
 
-**`public`:** Accessible from anywhere — any class in any package.
+**`public`:** Accessible from anywhere, any class in any package.
 
 **`protected`:** Accessible within the same package and by subclasses in other packages.
 
@@ -37,7 +37,7 @@ Java provides four access levels to control visibility of classes, fields, metho
 
 ## Why Is Encapsulation Important?
 
-Encapsulation is not just a theoretical concept — it directly affects the quality, security, and maintainability of your code. Here is why every professional Java developer must understand it:
+Encapsulation is not just a theoretical concept. It directly affects the quality, security, and maintainability of your code. Here is why every professional Java developer must understand it:
 
 ### 1. Protects Data Integrity
 
@@ -49,7 +49,7 @@ Encapsulation lets you expose only what external code needs and hide implementat
 
 ### 3. Enables Safe Refactoring
 
-When fields are private and accessed through methods, you can change the internal implementation without breaking external code. Rename a field, change its type, or add computation in a getter — the public interface stays the same.
+When fields are private and accessed through methods, you can change the internal implementation without breaking external code. Rename a field, change its type, or add computation in a getter, the public interface stays the same.
 
 ### 4. Interview and Examination Staple
 
@@ -85,12 +85,12 @@ class Student {
     private String name;
     private int age;
 
-    // Getter — returns the field value
+    // Getter, returns the field value
     public String getName() {
         return name;
     }
 
-    // Setter — sets the field value with validation
+    // Setter, sets the field value with validation
     public void setName(String name) {
         if (name == null || name.isEmpty()) {
             throw new IllegalArgumentException("Name cannot be null or empty");
@@ -144,7 +144,7 @@ class BankAccount {
     public double getBalance() {
         return balance;
     }
-    // No setBalance() — balance can only change through deposit/withdraw
+    // No setBalance(), balance can only change through deposit/withdraw
 }
 ```
 
@@ -225,7 +225,7 @@ record Student(String name, int rollNo, double marks) {}
 // getters, equals(), hashCode(), and toString()
 
 Student s = new Student("Aarav", 101, 92.5);
-System.out.println(s.name());     // "Aarav" — note: name(), not getName()
+System.out.println(s.name());     // "Aarav", note: name(), not getName()
 System.out.println(s.rollNo());   // 101
 System.out.println(s);            // Student[name=Aarav, rollNo=101, marks=92.5]
 ```
@@ -247,7 +247,7 @@ public class Person {
     private String privateField = "private";
 
     public void showAll() {
-        // Same class — can access all four
+        // Same class, can access all four
         System.out.println(publicField);
         System.out.println(protectedField);
         System.out.println(defaultField);
@@ -288,7 +288,7 @@ From within the same class, all four access levels are visible. From a class in 
 **Output:**
 
 ```
-(Conceptual — demonstrates visibility rules, not runnable as a single file)
+(Conceptual, demonstrates visibility rules, not runnable as a single file)
 ```
 
 ### Encapsulation with Getters and Setters
@@ -430,7 +430,7 @@ import java.util.Arrays;
 final class ImmutableStudent {
     private final String name;
     private final int rollNo;
-    private final int[] scores; // mutable field — needs defensive copy
+    private final int[] scores; // mutable field, needs defensive copy
 
     public ImmutableStudent(String name, int rollNo, int[] scores) {
         this.name = name;
@@ -524,7 +524,7 @@ public class Main {
         // Auto-generated toString()
         System.out.println(s1);
 
-        // Auto-generated equals() — compares all fields
+        // Auto-generated equals(), compares all fields
         System.out.println("s1.equals(s2): " + s1.equals(s2));
 
         // Custom method
@@ -588,12 +588,12 @@ public class Dog extends Animal {
 }
 ```
 
-This example demonstrates protected access across packages. `Dog` is in a different package from `Animal`. It can access `name` (public) and `sound` (protected — Dog is a subclass). It cannot access `habitat` (default — different package) or `lifespan` (private). Protected provides a middle ground: hidden from unrelated classes but available to the inheritance hierarchy.
+This example demonstrates protected access across packages. `Dog` is in a different package from `Animal`. It can access `name` (public) and `sound` (protected, Dog is a subclass). It cannot access `habitat` (default, different package) or `lifespan` (private). Protected provides a middle ground: hidden from unrelated classes but available to the inheritance hierarchy.
 
 **Output:**
 
 ```
-(Conceptual — demonstrates cross-package access rules)
+(Conceptual, demonstrates cross-package access rules)
 ```
 
 ## Common Mistakes
@@ -643,7 +643,7 @@ Private fields cannot be accessed outside the class. This is the entire point of
 // File: com/util/Helper.java
 package com.util;
 
-class Helper {  // default access — NOT public
+class Helper {  // default access: NOT public
     void doWork() {
         System.out.println("Working");
     }
@@ -680,7 +680,7 @@ class BankAccount {
     private double balance;
 
     public void setBalance(double balance) {
-        this.balance = balance; // No validation — allows negative balance!
+        this.balance = balance; // No validation, allows negative balance!
     }
 }
 ```
@@ -693,7 +693,7 @@ No compilation error, but this defeats the purpose of encapsulation. External co
 class BankAccount {
     private double balance;
 
-    // No public setBalance() — control through business methods
+    // No public setBalance(), control through business methods
     public void deposit(double amount) {
         if (amount <= 0) throw new IllegalArgumentException("Amount must be positive");
         this.balance += amount;
@@ -724,7 +724,7 @@ class Student {
     }
 
     public int[] getScores() {
-        return scores; // returns the internal array — external code can modify it!
+        return scores; // returns the internal array, external code can modify it!
     }
 }
 ```
@@ -761,7 +761,7 @@ When a getter returns a reference to a mutable object (array, list, date), exter
 - Validation in setters and constructors prevents objects from being in invalid states. Throw IllegalArgumentException for invalid input.
 - Immutable classes have: final class, private final fields, no setters, constructor initialization only, and defensive copies for mutable field types.
 - Record classes (Java 16+) provide a concise way to create immutable data carriers with auto-generated constructor, getters, equals(), hashCode(), and toString().
-- Protected access allows subclasses in other packages to access the member — useful for inheritance hierarchies while still restricting general access.
+- Protected access allows subclasses in other packages to access the member, useful for inheritance hierarchies while still restricting general access.
 - Defensive copies in constructors and getters protect encapsulation when dealing with mutable objects like arrays, lists, or dates.
 
 ## Related Topics

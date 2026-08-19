@@ -1,10 +1,10 @@
 ---
 title: "Coding & Maths Classes near South City | Live Online"
-description: "Live online coding and maths classes near South City, Prince Anwar Shah Road — Python, Java, AI and maths in small live batches. Book a free demo."
+description: "Live online coding and maths classes near South City, Prince Anwar Shah Road: Python, Java, AI and maths in small live batches. Book a free demo."
 canonical: https://learn.modernagecoders.com/coding-classes-in-south-city
 source: src/pages/coding-classes-in-south-city.html
 ---
-> Live online coding and maths classes near South City, Prince Anwar Shah Road — Python, Java, AI and maths in small live batches. Book a free demo.
+> Live online coding and maths classes near South City, Prince Anwar Shah Road: Python, Java, AI and maths in small live batches. Book a free demo.
 
 South City · Prince Anwar Shah Road, Kolkata
 
@@ -18,15 +18,15 @@ Built for South City
 
 ## A great address still can't beat South Kolkata traffic.
 
-South City has a mall and an international school on its doorstep — but a good coding teacher is rarely the thing waiting downstairs. Getting a child across Prince Anwar Shah Road, Tollygunge and the Bypass for a class, then home again, still costs a whole evening.
+South City has a mall and an international school on its doorstep, but a good coding teacher is rarely the thing waiting downstairs. Getting a child across Prince Anwar Shah Road, Tollygunge and the Bypass for a class, then home again, still costs a whole evening.
 
-Modern Age Coders is a live, online school based in Kolkata. Your child joins a real teacher and a small batch from the flat itself — no car, no traffic, no waiting. Families searching for coding classes for kids near South City, or for Python classes on Prince Anwar Shah Road, South Kolkata, get the same live teaching without anyone leaving the building. The maths we teach maps to the boards South Kolkata children actually study, including the ICSE, ISC and Cambridge syllabi at South City International School and the ICSE and CBSE paths at schools like South Point, so class work and tuition pull in the same direction.
+Modern Age Coders is a live, online school based in Kolkata. Your child joins a real teacher and a small batch from the flat itself, no car, no traffic, no waiting. Families searching for coding classes for kids near South City, or for Python classes on Prince Anwar Shah Road, South Kolkata, get the same live teaching without anyone leaving the building. The maths we teach maps to the boards South Kolkata children actually study, including the ICSE, ISC and Cambridge syllabi at South City International School and the ICSE and CBSE paths at schools like South Point, so class work and tuition pull in the same direction.
 
 > The best coding class is the one your child actually attends every week. Removing the commute is how that happens.
 
-**31**acre landmark complex on Prince Anwar Shah Road**5**towers — Oak, Pine, Maple, Cedar and one more**~1,600**homes; among Kolkata's tallest residences**0 km**your child travels — class comes home
+**31**acre landmark complex on Prince Anwar Shah Road**5**towers: Oak, Pine, Maple, Cedar and one more**~1,600**homes; among Kolkata's tallest residences**0 km**your child travels, class comes home
 
-With South City Mall and South City International School right beside the towers, families here already value good schooling close to home. A live-online class is the same idea applied to coding and maths — whether you want the best coding classes on Prince Anwar Shah Road, South Kolkata, or online maths tuition on Prince Anwar Shah Road, South Kolkata, it is taught well, with nothing to travel to.
+With South City Mall and South City International School right beside the towers, families here already value good schooling close to home. A live-online class is the same idea applied to coding and maths, whether you want the best coding classes on Prince Anwar Shah Road, South Kolkata, or online maths tuition on Prince Anwar Shah Road, South Kolkata, it is taught well, with nothing to travel to.
 
 How we teach
 
@@ -38,7 +38,7 @@ Every class is led live by an instructor who can see your child's screen and wor
 
 ### A real teacher, on a live screen
 
-No pre-recorded playlists. Your child writes code while a teacher watches, asks questions, and corrects mistakes as they happen — the way good tuition has always worked, only without the travel.
+No pre-recorded playlists. Your child writes code while a teacher watches, asks questions, and corrects mistakes as they happen, the way good tuition has always worked, only without the travel.
 
 2
 
@@ -60,7 +60,7 @@ Parents get visibility into what was taught and what comes next. Every session i
 
 The AI Trap
 
-### We show students where AI fails — on purpose.
+### We show students where AI fails: on purpose.
 
 AI tools can write code, but they cannot understand for your child. In our classes we set up deliberate moments where an AI answer looks right and is quietly wrong, and the student has to catch it. Children who only copy from a chatbot get stuck the moment the problem is unfamiliar. Children who understand the fundamentals can use AI as a tool and still know when it is wrong. That judgement is the skill we are actually building.
 
@@ -70,7 +70,7 @@ Courses & age tracks
 
 Start at the right level and move forward at a sensible pace. Every track is taught live in small batches, with one-to-one available when a learner needs it.
 
-**Children** · ages 6–12**Teens** · ages 13–18**Adults & college** · 18+[Python From first program to real projects. The clearest starting point for most children and the language we lean on for AI and problem-solving. Explore Python](https://learn.modernagecoders.com/courses)[Java Strong fundamentals and object-oriented thinking — useful for ICSE/ISC computer applications and for students heading toward serious programming. Explore Java](https://learn.modernagecoders.com/courses)[AI & machine learning For teens and adults ready to go beyond the basics — how AI actually works, built up from real Python, not buzzwords. Explore AI/ML](https://learn.modernagecoders.com/courses)[Web development Build real, working pages and apps. A satisfying, visible way for teens to see their code do something in the world. Explore web dev](https://learn.modernagecoders.com/courses)[Mathematics School maths taught for genuine understanding, mapped to ICSE, ISC, CBSE and Cambridge syllabi — the boards South City families study — from primary through the senior years. Explore maths](https://learn.modernagecoders.com/courses)[Queen & Princess Coders Girls-only batches for families who prefer them — the same curriculum and the same standards, in a setting many girls find more comfortable to speak up in. See girls-only batches](https://learn.modernagecoders.com/courses)
+**Children** · ages 6–12**Teens** · ages 13–18**Adults & college** · 18+[Python From first program to real projects. The clearest starting point for most children and the language we lean on for AI and problem-solving. Explore Python](https://learn.modernagecoders.com/courses)[Java Strong fundamentals and object-oriented thinking, useful for ICSE/ISC computer applications and for students heading toward serious programming. Explore Java](https://learn.modernagecoders.com/courses)[AI & machine learning For teens and adults ready to go beyond the basics, how AI actually works, built up from real Python, not buzzwords. Explore AI/ML](https://learn.modernagecoders.com/courses)[Web development Build real, working pages and apps. A satisfying, visible way for teens to see their code do something in the world. Explore web dev](https://learn.modernagecoders.com/courses)[Mathematics School maths taught for genuine understanding, mapped to ICSE, ISC, CBSE and Cambridge syllabi, the boards South City families study, from primary through the senior years. Explore maths](https://learn.modernagecoders.com/courses)[Queen & Princess Coders Girls-only batches for families who prefer them, the same curriculum and the same standards, in a setting many girls find more comfortable to speak up in. See girls-only batches](https://learn.modernagecoders.com/courses)
 
 The honest answer
 
@@ -80,11 +80,11 @@ A fair question. Here is the straight answer to what parents in South City usual
 
 ### Q. Will my child actually pay attention online?
 
-Batches are deliberately small, so a teacher notices the moment a child drifts — often sooner than in a crowded classroom. Because the teacher can see each student's screen, there is nowhere to quietly fall behind.
+Batches are deliberately small, so a teacher notices the moment a child drifts, often sooner than in a crowded classroom. Because the teacher can see each student's screen, there is nowhere to quietly fall behind.
 
 ### Q. What if we miss a class or a topic doesn't land?
 
-Every session is recorded. A missed Saturday, an exam week, a family trip — the lesson is there to revisit before the next class, so nobody returns lost.
+Every session is recorded. A missed Saturday, an exam week, a family trip, the lesson is there to revisit before the next class, so nobody returns lost.
 
 ### Q. Can I see what's being taught?
 
@@ -92,13 +92,13 @@ Yes. Parents get visibility into the week's topic and what's coming next, and yo
 
 ### Q. Is it just watching videos?
 
-No. The whole point is that it is live and instructor-led. Recordings are for revision only — the learning happens with a real teacher in the room with your child.
+No. The whole point is that it is live and instructor-led. Recordings are for revision only, the learning happens with a real teacher in the room with your child.
 
 The Love Wall
 
 ## Words from real families.
 
-We publish reviews only from verified Modern Age Coders families. Below are verified words from real families across our school — we will never invent a quote to fill a space.
+We publish reviews only from verified Modern Age Coders families. Below are verified words from real families across our school. We will never invent a quote to fill a space.
 
 ★★★★★
 
@@ -124,9 +124,9 @@ Real student projects
 
 ## What our students actually build.
 
-Every one of these is a real, live project shipped by a Modern Age Coders student — not a screenshot from a brochure. See more in our [Student Labs](/student-labs).
+Every one of these is a real, live project shipped by a Modern Age Coders student, not a screenshot from a brochure. See more in our [Student Labs](/student-labs).
 
-[![Palm Arcana — Summon the Elements](/images/projects/superpawer.webp)GamePalm Arcana — Summon the ElementsOpen your palms to the webcam and computer vision turns your gestures into real magic — the left palm throws a fireball, the right crackles with lightning. A wild blend of hand-tracking AI, creative coding and pure imagination, vibe-coded into a playable browser experience.by AarushOpen the live project ↗](https://superpawer.netlify.app)[![LumenFX — AR/VR Photo Effects Studio](/images/projects/lumenfx.webp)Web AppLumenFX — AR/VR Photo Effects StudioUpload a photo and transform it with cinematic filters, AR face effects and the wildest trending edits — the same looks blowing up on TikTok, Reels and Snap, with 240+ one-tap presets. Raayan vibe-coded the whole studio from an idea: prompted the concept, then built the effects engine and gallery UI by hand.by RaayanOpen the live project ↗](https://arvrbadestweb.lovable.app)[![Doodle Dash — 30-Second Drawing Challenge](/images/projects/doodledash.webp)GameDoodle Dash — 30-Second Drawing ChallengePick a difficulty, get a prompt, and you have exactly 30 seconds to draw it — then an AI judge scores how close you got. Three modes from easy objects to chaotic scenes. Shubh vibe-coded it idea-first, wiring real AI image grading into a fast, addictive drawing game.by ShubhOpen the live project ↗](https://doodledashmaster.lovable.app)
+[![Palm Arcana, Summon the Elements](/images/projects/superpawer.webp)GamePalm Arcana, Summon the ElementsOpen your palms to the webcam and computer vision turns your gestures into real magic, the left palm throws a fireball, the right crackles with lightning. A wild blend of hand-tracking AI, creative coding and pure imagination, vibe-coded into a playable browser experience.by AarushOpen the live project ↗](https://superpawer.netlify.app)[![LumenFX, AR/VR Photo Effects Studio](/images/projects/lumenfx.webp)Web AppLumenFX, AR/VR Photo Effects StudioUpload a photo and transform it with cinematic filters, AR face effects and the wildest trending edits, the same looks blowing up on TikTok, Reels and Snap, with 240+ one-tap presets. Raayan vibe-coded the whole studio from an idea: prompted the concept, then built the effects engine and gallery UI by hand.by RaayanOpen the live project ↗](https://arvrbadestweb.lovable.app)[![Doodle Dash, 30-Second Drawing Challenge](/images/projects/doodledash.webp)GameDoodle Dash, 30-Second Drawing ChallengePick a difficulty, get a prompt, and you have exactly 30 seconds to draw it, then an AI judge scores how close you got. Three modes from easy objects to chaotic scenes. Shubh vibe-coded it idea-first, wiring real AI image grading into a fast, addictive drawing game.by ShubhOpen the live project ↗](https://doodledashmaster.lovable.app)
 
 Who teaches
 
@@ -162,7 +162,7 @@ Book a free demo
 
 Book a free demo
 
-Both plans are billed monthly. The mini batch runs two live classes a week; one-to-one runs one live class a week. Summer camps, corporate training and college tracks are also available — call [+91 91233 66161](tel:+919123366161) for details.
+Both plans are billed monthly. The mini batch runs two live classes a week; one-to-one runs one live class a week. Summer camps, corporate training and college tracks are also available. Call [+91 91233 66161](tel:+919123366161) for details.
 
 Questions parents ask
 
@@ -174,11 +174,11 @@ Are the classes really live, or recorded videos?
 
 What ages do you teach?
 
-**Children, teens and adults — roughly ages 6 to 67.** Younger children begin with visual, playful coding and age-appropriate maths; teens move into Python, Java, web development and AI; adults and college students can start fresh or go deep.
+**Children, teens and adults, roughly ages 6 to 67.** Younger children begin with visual, playful coding and age-appropriate maths; teens move into Python, Java, web development and AI; adults and college students can start fresh or go deep.
 
 Can we try before we commit?
 
-**Yes — book a free demo class.** You and your child see the teaching first-hand, ask questions, and decide afterwards. There is no pressure to enrol on the call.
+**Yes. Book a free demo class.** You and your child see the teaching first-hand, ask questions, and decide afterwards. There is no pressure to enrol on the call.
 
 What device and internet do we need at home in South City?
 
@@ -188,17 +188,17 @@ How big are the batches?
 
 **Group batches are kept deliberately small** so the teacher can give attention to each child and notice when someone needs help. If you want fully individual attention, one-to-one sessions are available.
 
-My child is at South City International or another ICSE/Cambridge school — will the maths match?
+My child is at South City International or another ICSE/Cambridge school, will the maths match?
 
 **Yes.** Our maths teaching maps to the ICSE, ISC and Cambridge syllabi at South City International School and the ICSE and CBSE paths at schools like South Point, so what we teach supports school work rather than pulling against it.
 
 Do you have girls-only batches?
 
-**Yes — our Queen and Princess Coders tracks are girls-only.** Same curriculum, same standards, in a setting many families and students prefer.
+**Yes. Our Queen and Princess Coders tracks are girls-only.** Same curriculum, same standards, in a setting many families and students prefer.
 
 Do you offer coding classes for kids near South City and online maths tuition on Prince Anwar Shah Road?
 
-**Yes — both, and a child never has to leave home for either.** We run live coding classes for kids near South City, Python classes for Prince Anwar Shah Road, South Kolkata families, and online maths tuition on Prince Anwar Shah Road, South Kolkata, all taught by a real instructor in a small live batch. Many local parents come to us looking for the best coding classes on Prince Anwar Shah Road, South Kolkata, and judge the teaching through a free demo before they pay.
+**Yes, both, and a child never has to leave home for either.** We run live coding classes for kids near South City, Python classes for Prince Anwar Shah Road, South Kolkata families, and online maths tuition on Prince Anwar Shah Road, South Kolkata, all taught by a real instructor in a small live batch. Many local parents come to us looking for the best coding classes on Prince Anwar Shah Road, South Kolkata, and judge the teaching through a free demo before they pay.
 
 How do we get started?
 
@@ -208,7 +208,7 @@ Book a free demo
 
 ## See the teaching before you decide.
 
-One free, live demo class — no payment, no pressure. The clearest way to judge a coding or maths teacher is to watch one teach your child. Families across South Kolkata start exactly here.
+One free, live demo class, no payment, no pressure. The clearest way to judge a coding or maths teacher is to watch one teach your child. Families across South Kolkata start exactly here.
 
 [+91 91233 66161](tel:+919123366161)
 

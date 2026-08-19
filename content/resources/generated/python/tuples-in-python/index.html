@@ -17,7 +17,7 @@
     <!-- SEO Meta Tags -->
     <meta name="description" content="Understand immutable sequences, tuple packing/unpacking, and when to use tuples over lists.">
     <!-- meta keywords intentionally not emitted: Google has ignored it since 2009 and Bing
-         treats it as a SPAM SIGNAL — and Bing is the index ChatGPT/Copilot answer from.
+         treats it as a SPAM SIGNAL, and Bing is the index ChatGPT/Copilot answer from.
          See scripts/strip-meta-keywords.py. -->
     <meta name="author" content="Modern Age Coders">
     <meta name="robots" content="index, follow">
@@ -202,12 +202,12 @@
 
             <section id="what" class="content-section">
                 <h2>What Is It?</h2>
-                <h2>What Are Tuples in Python?</h2><p>A <strong>tuple</strong> is an ordered, <strong>immutable</strong> sequence of items. Tuples look similar to lists but are defined using parentheses <code>()</code> instead of square brackets <code>[]</code>. Once a tuple is created, you cannot add, remove, or change its elements.</p><p>Tuples can hold items of any data type — integers, strings, floats, booleans, and even other tuples or lists.</p><h3>Creating Tuples</h3><pre><code>empty = ()                           # Empty tuple
+                <h2>What Are Tuples in Python?</h2><p>A <strong>tuple</strong> is an ordered, <strong>immutable</strong> sequence of items. Tuples look similar to lists but are defined using parentheses <code>()</code> instead of square brackets <code>[]</code>. Once a tuple is created, you cannot add, remove, or change its elements.</p><p>Tuples can hold items of any data type, integers, strings, floats, booleans, and even other tuples or lists.</p><h3>Creating Tuples</h3><pre><code>empty = ()                           # Empty tuple
 single = (5,)                        # Single-element tuple (comma required!)
 coords = (10, 20)                    # Tuple of two integers
 student = ("Aarav", 16, "Class 11")  # Mixed types
 nested = ((1, 2), (3, 4))            # Nested tuples
-from_list = tuple([1, 2, 3])         # Convert list to tuple</code></pre><p>The parentheses are actually optional in most cases. It is the <strong>comma</strong> that makes a tuple, not the parentheses. However, using parentheses is recommended for clarity.</p><h3>The Single-Element Tuple Gotcha</h3><p>This is one of the most common surprises for beginners. Writing <code>(5)</code> does NOT create a tuple — it is just the integer 5 in parentheses (like in a math expression). To create a single-element tuple, you must include a trailing comma: <code>(5,)</code>.</p><pre><code>not_a_tuple = (5)     # This is just the integer 5
+from_list = tuple([1, 2, 3])         # Convert list to tuple</code></pre><p>The parentheses are actually optional in most cases. It is the <strong>comma</strong> that makes a tuple, not the parentheses. However, using parentheses is recommended for clarity.</p><h3>The Single-Element Tuple Gotcha</h3><p>This is one of the most common surprises for beginners. Writing <code>(5)</code> does NOT create a tuple. It is just the integer 5 in parentheses (like in a math expression). To create a single-element tuple, you must include a trailing comma: <code>(5,)</code>.</p><pre><code>not_a_tuple = (5)     # This is just the integer 5
 is_a_tuple = (5,)     # This is a tuple containing 5
 print(type(not_a_tuple))  # &lt;class 'int'&gt;
 print(type(is_a_tuple))   # &lt;class 'tuple'&gt;</code></pre>
@@ -476,7 +476,7 @@ t = ([1, 2], [3, 4])
                 <h2>Summary</h2>
                 <div class="summary-box"><ul><li>Tuples are ordered, immutable sequences created with parentheses () or just commas. Once created, their elements cannot be changed, added, or removed.</li>
 <li>A single-element tuple requires a trailing comma: (5,) is a tuple, (5) is just an integer. This is a very common gotcha.</li>
-<li>Tuples support indexing, negative indexing, slicing, iteration, len(), and the &#39;in&#39; operator — same read operations as lists.</li>
+<li>Tuples support indexing, negative indexing, slicing, iteration, len(), and the &#39;in&#39; operator, same read operations as lists.</li>
 <li>Tuples have only two methods: count() and index(). They lack all modifying methods (append, remove, sort, etc.) because they are immutable.</li>
 <li>Tuple packing (a, b = 10, 20) and unpacking (x, y = tuple_var) are powerful patterns. Variable swapping (a, b = b, a) uses this internally.</li>
 <li>Tuples can be used as dictionary keys and set elements because they are hashable. Lists cannot because they are mutable.</li>

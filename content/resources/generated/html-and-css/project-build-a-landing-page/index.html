@@ -17,7 +17,7 @@
     <!-- SEO Meta Tags -->
     <meta name="description" content="Build a full responsive landing page with hero, features, pricing, testimonials, and footer using HTML and CSS only.">
     <!-- meta keywords intentionally not emitted: Google has ignored it since 2009 and Bing
-         treats it as a SPAM SIGNAL — and Bing is the index ChatGPT/Copilot answer from.
+         treats it as a SPAM SIGNAL, and Bing is the index ChatGPT/Copilot answer from.
          See scripts/strip-meta-keywords.py. -->
     <meta name="author" content="Modern Age Coders">
     <meta name="robots" content="index, follow">
@@ -641,7 +641,7 @@
     &lt;/div&gt;
   &lt;/section&gt;
 &lt;/body&gt;
-&lt;/html&gt;</code></pre><div class="code-example-explanation">A standalone hero section that you can drop into any project. Grid layout for two columns, clamp() for the fluid headline, gradient text with <code>-webkit-background-clip</code>, and a visual mockup built with nested grids. Responsive — collapses to one column on screens narrower than 900px.</div><div class="code-example-output">A two-column hero with a huge headline containing a gradient-colored phrase, a supporting paragraph, two CTA buttons, and a 2x2 stats visual on the right.</div></div>
+&lt;/html&gt;</code></pre><div class="code-example-explanation">A standalone hero section that you can drop into any project. Grid layout for two columns, clamp() for the fluid headline, gradient text with <code>-webkit-background-clip</code>, and a visual mockup built with nested grids. Responsive, collapses to one column on screens narrower than 900px.</div><div class="code-example-output">A two-column hero with a huge headline containing a gradient-colored phrase, a supporting paragraph, two CTA buttons, and a 2x2 stats visual on the right.</div></div>
 <div class="code-example"><div class="code-example-title">Just the Pricing Section (Standalone)</div><pre><code class="language-python">&lt;!DOCTYPE html&gt;
 &lt;html&gt;
 &lt;head&gt;
@@ -682,7 +682,7 @@
     &lt;div class=&quot;plan&quot;&gt;&lt;h3&gt;Team&lt;/h3&gt;&lt;div class=&quot;price&quot;&gt;Rs 2,499&lt;small&gt;/mo&lt;/small&gt;&lt;/div&gt;&lt;ul&gt;&lt;li&gt;Unlimited members&lt;/li&gt;&lt;li&gt;Unlimited projects&lt;/li&gt;&lt;li&gt;Dedicated manager&lt;/li&gt;&lt;/ul&gt;&lt;button&gt;Contact Sales&lt;/button&gt;&lt;/div&gt;
   &lt;/div&gt;
 &lt;/body&gt;
-&lt;/html&gt;</code></pre><div class="code-example-explanation">The pricing section as a standalone piece. Three plans in a responsive grid. The middle plan uses <code>.popular</code> which adds a gradient background, scales up with <code>transform</code>, and adds a 'MOST POPULAR' ribbon via <code>::before</code>. Drop this into any project.</div><div class="code-example-output">Three pricing cards. The middle one is slightly larger, has a purple-to-pink gradient background, a &#39;MOST POPULAR&#39; ribbon on top, and a white button — clearly drawing the eye to the recommended plan.</div></div>
+&lt;/html&gt;</code></pre><div class="code-example-explanation">The pricing section as a standalone piece. Three plans in a responsive grid. The middle plan uses <code>.popular</code> which adds a gradient background, scales up with <code>transform</code>, and adds a 'MOST POPULAR' ribbon via <code>::before</code>. Drop this into any project.</div><div class="code-example-output">Three pricing cards. The middle one is slightly larger, has a purple-to-pink gradient background, a &#39;MOST POPULAR&#39; ribbon on top, and a white button, clearly drawing the eye to the recommended plan.</div></div>
 <div class="code-example"><div class="code-example-title">FAQ Accordion with Pure CSS</div><pre><code class="language-python">&lt;!DOCTYPE html&gt;
 &lt;html&gt;
 &lt;head&gt;
@@ -858,14 +858,14 @@
     &lt;/div&gt;
   &lt;/div&gt;
 &lt;/body&gt;
-&lt;/html&gt;</code></pre><div class="code-example-explanation">Three testimonial cards. Each uses <code>::before</code> to render a giant decorative quote mark in the background. Avatars are built with CSS gradients and initials — no images needed. The grid uses auto-fit to wrap responsively.</div><div class="code-example-output">Three cards with quotes from Aarav, Priya, and Ishita. Each has a big pale purple quote mark in the background and a colorful circular avatar with initials.</div></div>
+&lt;/html&gt;</code></pre><div class="code-example-explanation">Three testimonial cards. Each uses <code>::before</code> to render a giant decorative quote mark in the background. Avatars are built with CSS gradients and initials, no images needed. The grid uses auto-fit to wrap responsively.</div><div class="code-example-output">Three cards with quotes from Aarav, Priya, and Ishita. Each has a big pale purple quote mark in the background and a colorful circular avatar with initials.</div></div>
             </section>
 
             <section id="common-mistakes" class="content-section">
                 <h2>Common Mistakes</h2>
                 <div class="mistake-card">
                 <h3>Fixed Width Hero That Overflows on Mobile</h3>
-                <div class="wrong-code"><pre><code class="language-python">.hero { width: 1200px; padding: 64px 200px; }</code></pre></div><div class="error-message">On a 400px phone, the hero is 1200px wide — users scroll horizontally and miss the CTAs. Fixed widths never work for responsive design.</div><div class="correct-code"><pre><code class="language-python">.hero { max-width: 1200px; padding: clamp(32px, 8vw, 96px) clamp(16px, 5vw, 64px); margin: 0 auto; }</code></pre></div><div class="mistake-explanation">Use <code>max-width</code> instead of <code>width</code> so the element shrinks to fit narrow screens. Use <code>clamp()</code> for padding so it scales with the viewport. Center with <code>margin: 0 auto</code>.</div>
+                <div class="wrong-code"><pre><code class="language-python">.hero { width: 1200px; padding: 64px 200px; }</code></pre></div><div class="error-message">On a 400px phone, the hero is 1200px wide, users scroll horizontally and miss the CTAs. Fixed widths never work for responsive design.</div><div class="correct-code"><pre><code class="language-python">.hero { max-width: 1200px; padding: clamp(32px, 8vw, 96px) clamp(16px, 5vw, 64px); margin: 0 auto; }</code></pre></div><div class="mistake-explanation">Use <code>max-width</code> instead of <code>width</code> so the element shrinks to fit narrow screens. Use <code>clamp()</code> for padding so it scales with the viewport. Center with <code>margin: 0 auto</code>.</div>
             </div>
 <div class="mistake-card">
                 <h3>Breaking the Grid on Narrow Screens</h3>
@@ -896,10 +896,10 @@
 <li>Use semantic HTML: &lt;code&gt;&amp;lt;header&amp;gt;&lt;/code&gt;, &lt;code&gt;&amp;lt;main&amp;gt;&lt;/code&gt;, &lt;code&gt;&amp;lt;section&amp;gt;&lt;/code&gt;, &lt;code&gt;&amp;lt;footer&amp;gt;&lt;/code&gt;. Each section should have a clear role for accessibility and SEO.</li>
 <li>The navbar is a flexbox with &lt;code&gt;justify-content: space-between&lt;/code&gt;: logo on the left, links in the middle, CTA on the right.</li>
 <li>Hero sections are grids. Use &lt;code&gt;grid-template-columns: 1.1fr 1fr&lt;/code&gt; for a two-column hero (text + visual), collapsing to one column on mobile with a media query or container query.</li>
-<li>&lt;code&gt;clamp(min, preferred, max)&lt;/code&gt; for fluid typography — your headlines stay readable at every screen size without any breakpoints.</li>
-<li>Feature grids use &lt;code&gt;repeat(auto-fit, minmax(260px, 1fr))&lt;/code&gt; — the magic line that wraps responsively from 1 to 4 columns with zero media queries.</li>
+<li>&lt;code&gt;clamp(min, preferred, max)&lt;/code&gt; for fluid typography. Your headlines stay readable at every screen size without any breakpoints.</li>
+<li>Feature grids use &lt;code&gt;repeat(auto-fit, minmax(260px, 1fr))&lt;/code&gt;, the magic line that wraps responsively from 1 to 4 columns with zero media queries.</li>
 <li>For pricing, mark the recommended plan with a &lt;code&gt;.popular&lt;/code&gt; class. Use &lt;code&gt;transform: scale(1.05)&lt;/code&gt;, a gradient background, a bigger shadow, and a &#39;MOST POPULAR&#39; ribbon via &lt;code&gt;::before&lt;/code&gt;.</li>
-<li>Build the FAQ with native &lt;code&gt;&amp;lt;details&amp;gt;&lt;/code&gt; and &lt;code&gt;&amp;lt;summary&amp;gt;&lt;/code&gt; — zero JavaScript. Style the &lt;code&gt;[open]&lt;/code&gt; state and use &lt;code&gt;::after&lt;/code&gt; for a plus/minus icon.</li>
+<li>Build the FAQ with native &lt;code&gt;&amp;lt;details&amp;gt;&lt;/code&gt; and &lt;code&gt;&amp;lt;summary&amp;gt;&lt;/code&gt;, zero JavaScript. Style the &lt;code&gt;[open]&lt;/code&gt; state and use &lt;code&gt;::after&lt;/code&gt; for a plus/minus icon.</li>
 <li>Testimonials are quote cards with a gradient avatar (CSS only, no images needed) and initials. Use &lt;code&gt;::before&lt;/code&gt; to render a giant background quote mark.</li>
 <li>Footers are grids of link columns. Usually 2fr 1fr 1fr 1fr on desktop, collapsing to 1fr or 1fr 1fr on mobile.</li>
 <li>Use &lt;code&gt;backdrop-filter: blur()&lt;/code&gt; plus a semi-transparent background for a modern &#39;frosted glass&#39; sticky navbar.</li>

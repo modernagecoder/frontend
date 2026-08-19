@@ -61,7 +61,7 @@ Dictionaries are the standard tool for counting occurrences (word frequency, cha
 
 ### 5. Configuration and Settings
 
-Application settings, configuration files, environment variables — all are naturally represented as dictionaries. Frameworks like Django and Flask use dictionaries extensively for settings, request data, and template contexts.
+Application settings, configuration files, environment variables, all are naturally represented as dictionaries. Frameworks like Django and Flask use dictionaries extensively for settings, request data, and template contexts.
 
 ## Detailed Explanation
 
@@ -473,7 +473,7 @@ top = max(scores, key=scores.get)
 print(f"\nHighest scorer: {top} with {scores[top]}")
 ```
 
-Counting with `.get(key, 0) + 1` is the standard pattern for frequency counting. `setdefault(key, [])` creates an empty list if the key is missing, then appends to it — perfect for grouping. `max(dict, key=dict.get)` finds the key with the highest value.
+Counting with `.get(key, 0) + 1` is the standard pattern for frequency counting. `setdefault(key, [])` creates an empty list if the key is missing, then appends to it, perfect for grouping. `max(dict, key=dict.get)` finds the key with the highest value.
 
 **Output:**
 

@@ -15,7 +15,7 @@ keywords: ["java methods", "java functions", "method overloading java", "pass by
 
 ## What Are Methods in Java?
 
-A **method** in Java is a block of code that performs a specific task, has a name, and can be called (invoked) whenever that task needs to be performed. Methods are the Java equivalent of what other languages call "functions" — but in Java, every method must belong to a class because Java is a purely object-oriented language.
+A **method** in Java is a block of code that performs a specific task, has a name, and can be called (invoked) whenever that task needs to be performed. Methods are the Java equivalent of what other languages call "functions", but in Java, every method must belong to a class because Java is a purely object-oriented language.
 
 Methods allow you to break a large program into smaller, manageable, reusable pieces. Instead of writing the same logic multiple times, you write it once in a method and call it wherever needed. This is the foundation of the **DRY principle** (Don't Repeat Yourself).
 
@@ -30,11 +30,11 @@ accessModifier returnType methodName(parameterList) {
 }
 ```
 
-**Access Modifier:** Controls visibility — `public`, `private`, `protected`, or default (no modifier). Determines which classes can call this method.
+**Access Modifier:** Controls visibility, `public`, `private`, `protected`, or default (no modifier). Determines which classes can call this method.
 
 **Return Type:** The data type of the value the method returns. Use `void` if the method does not return any value.
 
-**Method Name:** A meaningful name following camelCase convention — `calculateArea`, `findMax`, `printDetails`.
+**Method Name:** A meaningful name following camelCase convention, `calculateArea`, `findMax`, `printDetails`.
 
 **Parameter List:** Zero or more parameters (inputs) the method accepts, each with a type and name. Parameters are separated by commas.
 
@@ -50,17 +50,17 @@ Write once, call many times. A method to calculate the area of a circle can be c
 
 Well-named methods make code self-documenting. `validateEmail(email)` is immediately understandable without reading the implementation. Complex logic hidden behind a clear method name makes the calling code easier to read, understand, and maintain.
 
-### 3. Method Overloading — Compile-Time Polymorphism
+### 3. Method Overloading: Compile-Time Polymorphism
 
-Java allows multiple methods with the same name but different parameter lists. This is **method overloading**, a form of compile-time polymorphism. The compiler decides which version to call based on the arguments. `System.out.println()` itself is overloaded — it works with int, double, String, char, boolean, and more.
+Java allows multiple methods with the same name but different parameter lists. This is **method overloading**, a form of compile-time polymorphism. The compiler decides which version to call based on the arguments. `System.out.println()` itself is overloaded. It works with int, double, String, char, boolean, and more.
 
 ### 4. Recursion Solves Complex Problems Elegantly
 
-Recursion — a method calling itself — is the natural solution for problems with self-similar structure: tree traversals, divide-and-conquer algorithms, backtracking, and mathematical sequences. Understanding recursion is critical for placement interviews and competitive programming.
+Recursion, a method calling itself, is the natural solution for problems with self-similar structure: tree traversals, divide-and-conquer algorithms, backtracking, and mathematical sequences. Understanding recursion is critical for placement interviews and competitive programming.
 
 ### 5. Foundation for OOP
 
-Every class behavior is defined through methods. Constructors, getters, setters, overridden methods, static utility methods — all are method variations. Without understanding methods, you cannot progress to classes, inheritance, or polymorphism.
+Every class behavior is defined through methods. Constructors, getters, setters, overridden methods, static utility methods, all are method variations. Without understanding methods, you cannot progress to classes, inheritance, or polymorphism.
 
 ## Detailed Explanation
 
@@ -69,12 +69,12 @@ Every class behavior is defined through methods. Constructors, getters, setters,
 A `void` method performs an action but does not return a value. A non-void method must return a value of the declared type using the `return` statement.
 
 ```
-// void method — performs action, returns nothing
+// void method, performs action, returns nothing
 void greet(String name) {
     System.out.println("Hello, " + name);
 }
 
-// return method — computes and returns a value
+// return method , computes and returns a value
 int add(int a, int b) {
     return a + b;
 }
@@ -125,9 +125,9 @@ void reassign(StringBuilder sb) {
 
 StringBuilder name = new StringBuilder("Hello");
 changeName(name);
-System.out.println(name); // "Hello World" — object was modified
+System.out.println(name); // "Hello World", object was modified
 reassign(name);
-System.out.println(name); // Still "Hello World" — reference was not changed
+System.out.println(name); // Still "Hello World", reference was not changed
 ```
 
 ### 4. Static Methods vs Instance Methods
@@ -138,11 +138,11 @@ System.out.println(name); // Still "Hello World" — reference was not changed
 
 ```
 class Calculator {
-    static int add(int a, int b) {   // static — called via Calculator.add()
+    static int add(int a, int b) {   // static, called via Calculator.add()
         return a + b;
     }
 
-    int multiply(int a, int b) {     // instance — called via obj.multiply()
+    int multiply(int a, int b) {     // instance, called via obj.multiply()
         return a * b;
     }
 }
@@ -182,7 +182,7 @@ sb.append("Hello").append(" ").append("World").reverse();
 
 ### 7. Recursion
 
-A recursive method calls itself with a modified argument, working toward a **base case** that stops the recursion. Every recursive solution needs: (1) A base case — the condition where recursion stops. (2) A recursive case — the method calls itself with a smaller problem.
+A recursive method calls itself with a modified argument, working toward a **base case** that stops the recursion. Every recursive solution needs: (1) A base case, the condition where recursion stops. (2) A recursive case, the method calls itself with a smaller problem.
 
 ```
 int factorial(int n) {
@@ -195,11 +195,11 @@ The call stack stores each method invocation. If the base case is missing or nev
 
 ## Code Examples
 
-### Basic Method — void and Return Types
+### Basic Method: void and Return Types
 
 ```java
 public class MethodBasics {
-    // void method — no return value
+    // void method, no return value
     static void greet(String name) {
         System.out.println("Hello, " + name + "!");
     }
@@ -243,7 +243,7 @@ Is 8 even? true
 
 ```java
 public class OverloadDemo {
-    // Overloaded add methods — same name, different parameters
+    // Overloaded add methods, same name, different parameters
     static int add(int a, int b) {
         System.out.print("int + int: ");
         return a + b;
@@ -284,7 +284,7 @@ int + int + int: 6
 String + String: Hello World
 ```
 
-### Pass-by-Value — Primitives vs Objects
+### Pass-by-Value: Primitives vs Objects
 
 ```java
 public class PassByValue {
@@ -322,7 +322,7 @@ public class PassByValue {
 }
 ```
 
-For primitives, changes inside the method do not affect the caller — `num` stays 5. For objects (including arrays), the method receives a copy of the reference. Through this reference, it can modify the object's state (setting arr[0] to 999 affects the caller). However, reassigning the local reference to a new object (inside `reassignArray`) does NOT affect the caller's reference — `myArr` still points to the original array.
+For primitives, changes inside the method do not affect the caller, `num` stays 5. For objects (including arrays), the method receives a copy of the reference. Through this reference, it can modify the object's state (setting arr[0] to 999 affects the caller). However, reassigning the local reference to a new object (inside `reassignArray`) does NOT affect the caller's reference, `myArr` still points to the original array.
 
 **Output:**
 
@@ -344,23 +344,23 @@ public class StaticVsInstance {
     int instanceVar = 10;
     static int staticVar = 20;
 
-    // Instance method — can access both static and instance members
+    // Instance method, can access both static and instance members
     void instanceMethod() {
         System.out.println("Instance var: " + instanceVar);
         System.out.println("Static var: " + staticVar);
     }
 
-    // Static method — can only access static members directly
+    // Static method, can only access static members directly
     static void staticMethod() {
         // System.out.println(instanceVar); // ERROR: cannot access instance var
         System.out.println("Static var: " + staticVar);
     }
 
     public static void main(String[] args) {
-        // Static method — called using class name
+        // Static method, called using class name
         StaticVsInstance.staticMethod();
 
-        // Instance method — called on an object
+        // Instance method, called on an object
         StaticVsInstance obj = new StaticVsInstance();
         obj.instanceMethod();
 
@@ -381,11 +381,11 @@ Static var: 20
 Static var: 20
 ```
 
-### Varargs — Variable-Length Arguments
+### Varargs: Variable-Length Arguments
 
 ```java
 public class VarargsDemo {
-    // Varargs method — accepts 0 or more int arguments
+    // Varargs method, accepts 0 or more int arguments
     static int sum(int... numbers) {
         int total = 0;
         for (int n : numbers) {
@@ -426,7 +426,7 @@ Marks: 85 90 78
 Empty: 
 ```
 
-### Recursion — Factorial, Fibonacci, and Power
+### Recursion: Factorial, Fibonacci, and Power
 
 ```java
 public class RecursionDemo {
@@ -559,7 +559,7 @@ changeString(name);
 System.out.println(name); // Expected: "Changed"
 ```
 
-No compilation error, but name is still "Aarav" — the reassignment inside the method does not affect the caller.
+No compilation error, but name is still "Aarav", the reassignment inside the method does not affect the caller.
 
 **Correct:**
 
@@ -572,7 +572,7 @@ static void changeName(StringBuilder sb) {
 
 StringBuilder name = new StringBuilder("Aarav");
 changeName(name);
-System.out.println(name); // "Changed" — the object was modified
+System.out.println(name); // "Changed", the object was modified
 ```
 
 Java always passes by value. For object references, the value passed is a copy of the reference. Reassigning the parameter (`s = "Changed"`) only changes the local copy, not the caller's variable. To affect the caller, you must modify the object through the reference, not reassign the reference itself.
@@ -639,14 +639,14 @@ public class MyClass {
 
     public static void main(String[] args) {
         MyClass obj = new MyClass();
-        obj.sayHello(); // Correct — called on an object
+        obj.sayHello(); // Correct, called on an object
     }
 }
 ```
 
 The `main` method is static and does not have an object context. Instance methods require an object to operate on. To call an instance method from main, you must first create an object of the class. Alternatively, make the method static if it does not need instance state.
 
-### Infinite Recursion — Missing or Unreachable Base Case
+### Infinite Recursion: Missing or Unreachable Base Case
 
 **Wrong:**
 

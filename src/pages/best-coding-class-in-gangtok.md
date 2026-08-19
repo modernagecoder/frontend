@@ -10,7 +10,7 @@ Live online · serving Gangtok
 
 # Coding classes in Gangtok, built to actually stick.
 
-Real programming for kids, teens and college students in Gangtok — from **MG Marg to Deorali, Tadong to Gangtok Bazaar**. Small live batches, a mentor who knows your child's name, and projects they can open and show you.
+Real programming for kids, teens and college students in Gangtok, from **MG Marg to Deorali, Tadong to Gangtok Bazaar**. Small live batches, a mentor who knows your child's name, and projects they can open and show you.
 
 Book a free demo class[Ask on WhatsApp](https://wa.me/919123366161?text=Hi,%20I'm%20interested%20in%20coding%20classes%20in%20Gangtok)★★★★★ **4.9/5****10,000+** students across India**5–8** students per batchFirst class is **free**GangtokEnrollingAreasMG Marg, Deorali, Tadong, Gangtok Bazaar, Development Area & all of GangtokBoardsCBSE · ICSE · IGCSEAges**6–12** kids · **13–18** teens · college & adultsFormatLive online · 1-hour classes · 5–8 per batchTimingAfter-school & weekend slots · ISTProofRecorded sessions · completion certificate · real projectslive online across GangtokFREE DEMO OPEN
 
@@ -20,13 +20,13 @@ Book a free demo class[Ask on WhatsApp](https://wa.me/919123366161?text=Hi,%20I'
 
 ## Where in Gangtok we teach
 
-Every class is live online, so your child learns from home — no travel across the city, same small batch either way.
+Every class is live online, so your child learns from home, no travel across the city, same small batch either way.
 
 MG MargDeoraliTadongGangtok BazaarDevelopment AreaTibet RoadChandmariSicheyBojoghariNam Nang
 
 ## Why Gangtok families start here
 
-From MG Marg and Deorali to Tadong and Gangtok Bazaar, families across Gangtok are choosing live online coding classes that go beyond a certificate. We build for real skills — the kind that hold up in an interview or a first internship.
+From MG Marg and Deorali to Tadong and Gangtok Bazaar, families across Gangtok are choosing live online coding classes that go beyond a certificate. We build for real skills, the kind that hold up in an interview or a first internship.
 
 Gangtok is the capital of Sikkim, a hill town in the eastern Himalayas. Its main seat of higher learning is Sikkim University, the central university based in the city, set up by an Act of Parliament. The state's technical anchor, NIT Sikkim, was established in 2010, though its campus sits away from the capital near Ravangla in South Sikkim. Schools in Gangtok largely follow the CBSE, along with ICSE, and engineering seats fill on JEE Main rank.
 
@@ -52,7 +52,7 @@ Create colorful websites with HTML and CSS. Gangtok kids learn to build their ow
 
 ### Python for Young Coders
 
-Start text-based coding with Python — the world's most popular programming language. Create games, solve puzzles, and bring ideas to life with real programming skills.
+Start text-based coding with Python, the world's most popular programming language. Create games, solve puzzles, and bring ideas to life with real programming skills.
 
 [View course](/courses/python-ai-kids-masterclass)Ages 13–18
 
@@ -62,25 +62,25 @@ In demand![Python Programming for Teens in Gangtok](/images/python-teens.webp)
 
 ### Python Programming
 
-Master Python — the language behind L&T's automation systems and GSFC's data analytics in Gangtok's industrial corridor.
+Master Python, the language behind L&T's automation systems and GSFC's data analytics in Gangtok's industrial corridor.
 
 [View course](/courses/python-complete-masterclass-teens)Career![Java Programming for Teens in Gangtok](/images/java-teens.webp)
 
 ### Java Programming
 
-Master Java — used by TCS, Infosys, and Gangtok's growing tech sector. Build Android apps and enterprise software.
+Master Java, used by TCS, Infosys, and Gangtok's growing tech sector. Build Android apps and enterprise software.
 
 [View course](/courses/java-programming-masterclass-for-teens)Build![Web Development for Teens in Gangtok](/images/web-dev-teens.webp)
 
 ### Full Stack Web Development
 
-Build complete websites and web apps — skills that Gangtok's growing startup ecosystem actively demands.
+Build complete websites and web apps, skills that Gangtok's growing startup ecosystem actively demands.
 
 [View course](/courses/web-development-masterclass-teens)Future![AI Machine Learning for Teens in Gangtok](/images/ai-ml-teens.webp)
 
 ### AI & Machine Learning
 
-Explore artificial intelligence and machine learning — the technology reshaping Sikkim's growing and pharmaceutical sectors.
+Explore artificial intelligence and machine learning, the technology reshaping Sikkim's growing and pharmaceutical sectors.
 
 [View course](/courses/ai-ml-masterclass-teens)College & 18+
 
@@ -136,7 +136,7 @@ Live
 
 ### A real mentor, live
 
-Every class is taught live by an instructor with industry experience — questions get answered the moment they come up.
+Every class is taught live by an instructor with industry experience, questions get answered the moment they come up.
 
 Small
 
@@ -148,7 +148,7 @@ Build
 
 ### Project every module
 
-Kids don't just watch — they build games, websites and apps they can open, use and show you.
+Kids don't just watch. They build games, websites and apps they can open, use and show you.
 
 Track
 
@@ -158,7 +158,7 @@ Missed a class? Watch the recording. Every learner earns a completion certificat
 
 ## Simple, honest pricing
 
-1-hour live classes: 2 a week in Group and Mini Batch, 1 a week in 1-on-1. Start with a free demo — pay only when you're sure it's right for your child.
+1-hour live classes: 2 a week in Group and Mini Batch, 1 a week in 1-on-1. Start with a free demo, pay only when you're sure it's right for your child.
 
 Group₹1,499/month
 
@@ -189,23 +189,23 @@ Book a free demoPersonal 1-on-1₹4,999/month
 
 Start free
 
-International families pay flat USD rates — the prices above update automatically. Ask us anything on your free demo.
+International families pay flat USD rates, the prices above update automatically. Ask us anything on your free demo.
 
 ## What students actually build
 
-Not screenshots of a syllabus — real, live projects from Modern Age Coders learners and labs. Click through and use them.
+Not screenshots of a syllabus, real, live projects from Modern Age Coders learners and labs. Click through and use them.
 
-[![Image Slider Website](/images/projects/slider.webp) ToolImage Slider WebsiteA visually appealing site with a smooth image carousel — auto or manual navigation, responsive layout and beautiful transition effects. Built by Somraj · HTML, CSSOpen the live project ↗](https://robo23middle-stack.github.io/scenes/)[![Palm Arcana — Summon the Elements](/images/projects/superpawer.webp) GamePalm Arcana — Summon the ElementsOpen your palms to the webcam and computer vision turns your gestures into real magic — the left palm throws a fireball, the right crackles with lightning. A wild blend of hand-tracking AI, creative coding and pure imagination, vibe-coded into a playable browser experience. Built by Aarush · Vibe Coding, Computer VisionOpen the live project ↗](https://superpawer.netlify.app)[![FreshTrack — Food Expiry Tracker](/images/projects/fresh.webp) Web AppFreshTrack — Food Expiry TrackerA smart food-management system to track expiry dates — add, update and delete items while the app checks expiry automatically, online and offline. Built by Tanish · JavaScript, MongoDBOpen the live project ↗](https://freshtrackpro.netlify.app/)[See more student projects →](/student-labs)
+[![Image Slider Website](/images/projects/slider.webp) ToolImage Slider WebsiteA visually appealing site with a smooth image carousel, auto or manual navigation, responsive layout and beautiful transition effects. Built by Somraj · HTML, CSSOpen the live project ↗](https://robo23middle-stack.github.io/scenes/)[![Palm Arcana, Summon the Elements](/images/projects/superpawer.webp) GamePalm Arcana, Summon the ElementsOpen your palms to the webcam and computer vision turns your gestures into real magic, the left palm throws a fireball, the right crackles with lightning. A wild blend of hand-tracking AI, creative coding and pure imagination, vibe-coded into a playable browser experience. Built by Aarush · Vibe Coding, Computer VisionOpen the live project ↗](https://superpawer.netlify.app)[![FreshTrack, Food Expiry Tracker](/images/projects/fresh.webp) Web AppFreshTrack, Food Expiry TrackerA smart food-management system to track expiry dates, add, update and delete items while the app checks expiry automatically, online and offline. Built by Tanish · JavaScript, MongoDBOpen the live project ↗](https://freshtrackpro.netlify.app/)[See more student projects →](/student-labs)
 
 ## What families say
 
-Verified Google reviews from Modern Age Coders families across India. We don't invent testimonials — these are real people, real words.
+Verified Google reviews from Modern Age Coders families across India. We don't invent testimonials, these are real people, real words.
 
 ★★★★★
 
 "My son has been attending this coding class for the past couple of months, and I've been genuinely impressed with both his progress and enthusiasm."
 
-The instructors are incredibly patient and knowledgeable. What stands out most is how excited my son is before every class—he looks forward to learning, problem-solving, and sharing what he's built. I've noticed a big boost in his confidence!
+The instructors are incredibly patient and knowledgeable. What stands out most is how excited my son is before every class. He looks forward to learning, problem-solving, and sharing what he's built. I've noticed a big boost in his confidence!
 
 PRPoonam RathoreParent★★★★★
 
@@ -243,7 +243,7 @@ APArush PoddarStudent
 
 Tell us a little about your child and what they'd like to learn. We'll set up a free, no-pressure demo and help you pick the right starting point.
 
-- A real live class — not a sales call
+- A real live class, not a sales call
 - Meet the mentor before you decide
 - We reply within 48 hours (IST)
 
@@ -253,7 +253,7 @@ Prefer to talk now? Call [9123366161](tel:+919123366161) or [WhatsApp us](https:
 
 Takes under a minute.
 
-## Coding classes in Gangtok — FAQs
+## Coding classes in Gangtok: FAQs
 
 What is the best coding class in Gangtok for kids?Modern Age Coders offers the best coding classes in Gangtok for kids aged 6-12. Our courses include Scratch programming, game development, and creative coding with expert instructors. We serve all Gangtok areas including MG Marg, Deorali, Tadong, and Development Area, and Manjalpur.Do you offer online coding classes in Gangtok?Yes, we offer live online coding classes for students across Gangtok including MG Marg, Deorali, Tadong, and Development Area, Tibet Road, Chandmari, and all other areas. Our online classes are interactive with small batch sizes of 5-8 students.Do you offer coding classes for Sikkim Board (SBSE) students in Gangtok?Yes, our curriculum supports both Sikkim Board (Sikkim Board) and CBSE students in Gangtok. We align our coding and maths courses with Sikkim Board requirements to complement school education.How much do coding classes cost in Gangtok?Our group coding classes start at Rs.1499/month with 2 classes per week. Mini Batch (3-4 students) is Rs.2,999/month. Personalized 1-on-1 classes are Rs.4,999/month. We offer a free demo class before enrollment.Can NIT Sikkim students join your programming courses?Absolutely! We offer college-level courses in Data Structures & Algorithms, Full Stack Web Development, and AI/Data Science perfect for NIT Sikkim and Sikkim Manipal University students preparing for placements.Is the medium of instruction English for Gangtok students?Our instructors are comfortable teaching in Hindi and English. Yes! All classes are in English with Hindi support. Gangtok students feel comfortable in our friendly, bilingual learning environment.What areas in Gangtok do you serve?We serve all areas of Gangtok through our online classes including MG Marg, Deorali, Tadong, and Development Area, Development Area, Tibet Road, Chandmari, Sichey, Arithang, Paljor Stadium, Zero Point, 5th Mile, and more.How are your coding classes different from other institutes in Gangtok?We focus on project-based learning where students build real games, websites, and apps. Our small batch sizes (5-8 students), recorded sessions, expert instructors, and affordable pricing set us apart. We also support Sikkim Board, CBSE, and JEE preparation.Do you teach coding to school students in Gangtok?Yes. Gangtok schools largely follow the CBSE, along with ICSE, and our live online classes fit around either. We teach the programming itself, Python or Java, so the school computer paper stops being a memory test, and a student in the hills gets the same teaching as one in a metro.Can Sikkim University or NIT Sikkim students join your programming courses?Yes. Sikkim University sits in Gangtok and NIT Sikkim is the state's institute of national importance, so the theory is well taught. The college track adds built work: real Python, Java, full-stack or AI/ML projects, carried to something that runs and can be opened in an interview.
 

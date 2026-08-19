@@ -19,7 +19,7 @@
 
     <meta name="robots" content="index, follow">
     <meta name="description"
-        content="Online coding and maths classes for ages 6-67 — learn from anywhere in the world. Live 1-on-1 sessions in Python, Scratch, AI, Web Dev & Mathematics. Expert instructors, hands-on projects. Book a free demo today!">
+        content="Online coding and maths classes for ages 6-67. Learn from anywhere in the world. Live 1-on-1 sessions in Python, Scratch, AI, Web Dev & Mathematics. Expert instructors, hands-on projects. Book a free demo today!">
     <meta name="author" content="Modern Age Coders">
     <link rel="canonical" href="https://learn.modernagecoders.com/">
 
@@ -122,7 +122,7 @@
 
     <!-- BreadcrumbList, ItemList, Offers, WebPage. No AggregateRating here: a self-declared
          rating on your own Organization is self-serving and was removed site-wide (Jun 2026).
-         It is kept only on Course and /pricing Product — see Phase 1.6. -->
+         It is kept only on Course and /pricing Product. See Phase 1.6. -->
     <script type="application/ld+json">
     {
       "@context": "https://schema.org",
@@ -194,17 +194,17 @@
     }
     </script>
 
-    <!-- Meta Pixel — deferred so it doesn't block parsing -->
+    <!-- Meta Pixel, deferred so it doesn't block parsing -->
     <script src="/js/meta-pixel.js" defer></script>
 
-    <!-- Preconnect for performance — establish early connections -->
+    <!-- Preconnect for performance, establish early connections -->
     <link rel="preconnect" href="https://www.googletagmanager.com" crossorigin>
     <link rel="preconnect" href="https://connect.facebook.net" crossorigin>
     <link rel="preconnect" href="https://backend-modernagecoders.vercel.app" crossorigin>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
-    <!-- DNS prefetch — for less-critical third parties -->
+    <!-- DNS prefetch, for less-critical third parties -->
     <link rel="dns-prefetch" href="https://lh3.googleusercontent.com">
     <link rel="dns-prefetch" href="https://checkout.razorpay.com">
     <link rel="dns-prefetch" href="https://www.google-analytics.com">
@@ -217,7 +217,7 @@
     <link rel="prefetch" href="/courses">
     <link rel="prefetch" href="/about">
 
-    <!-- ============ FONTS — "Maths + Code Notebook" design system ============ -->
+    <!-- ============ FONTS, "Maths + Code Notebook" design system ============ -->
     <link
         href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600;700&display=swap"
         rel="stylesheet">
@@ -243,13 +243,13 @@
             --ink-mute: #8A8270;      /* faded annotation */
 
             /* ---- dual disciplines ---- */
-            --code: #1F4FB0;          /* ballpoint blue — code */
+            --code: #1F4FB0;          /* ballpoint blue, code */
             --code-deep: #173C86;
-            --maths: #C0362C;         /* madder red pen — maths */
+            --maths: #C0362C;         /* madder red pen, maths */
             --maths-deep: #9E2A22;
             --green: #2F7D5B;         /* affirmative tick */
             --violet: #6B4FB0;        /* fusion (muted plum, never neon) */
-            --pink: #B23A6B;          /* girls — mulberry, not neon */
+            --pink: #B23A6B;          /* girls, mulberry, not neon */
             --mint: #2F7D5B;          /* reuse green */
 
             /* ---- type ---- */
@@ -274,7 +274,7 @@
 
         body {
             background-color: var(--bg);
-            /* faint graph-paper substrate — like a maths exercise book */
+            /* faint graph-paper substrate, like a maths exercise book */
             background-image:
                 linear-gradient(var(--line) 1px, transparent 1px),
                 linear-gradient(90deg, var(--line) 1px, transparent 1px);
@@ -311,7 +311,7 @@
             border-radius: 3px;
         }
 
-        /* red-pen human motifs — a teacher marking great work */
+        /* red-pen human motifs, a teacher marking great work */
         .pen-underline {
             position: relative; white-space: nowrap;
             background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='200' height='12' viewBox='0 0 200 12'%3E%3Cpath d='M2 7 C 40 11, 80 3, 120 7 S 180 9, 198 5' fill='none' stroke='%23C0362C' stroke-width='2.4' stroke-linecap='round'/%3E%3C/svg%3E");
@@ -339,7 +339,7 @@
         /* ========== shared section scaffold ========== */
         .sec { padding: clamp(3rem, 7vw, 5rem) 0; position: relative; border-top: 1px solid var(--line); }
         .sec-head { max-width: 760px; margin: 0 auto clamp(2rem, 4vw, 3rem); text-align: center; }
-        /* mono eyebrow — like a chapter number pencilled in the margin */
+        /* mono eyebrow, like a chapter number pencilled in the margin */
         .eyebrow {
             display: inline-flex; align-items: center; gap: 10px;
             font-family: var(--mono); font-size: 0.72rem; font-weight: 600;
@@ -355,7 +355,7 @@
         .sec-title .g-maths { color: var(--maths); font-style: italic; }
         .sec-sub { margin-top: 16px; color: var(--ink-soft); font-size: clamp(1rem, 2vw, 1.1rem); line-height: 1.7; }
 
-        /* ========== reveal — JS-gated so nothing is ever permanently hidden ========== */
+        /* ========== reveal: JS-gated so nothing is ever permanently hidden ========== */
         html.mac2-js .reveal { opacity: 0; transform: translateY(22px); transition: opacity .8s var(--ease), transform .8s var(--ease); }
         html.mac2-js .reveal.in { opacity: 1; transform: none; }
         html.mac2-js .stagger > * { opacity: 0; transform: translateY(18px); transition: opacity .7s var(--ease), transform .7s var(--ease); }
@@ -463,7 +463,7 @@
         }
         .highlight-ma { color: var(--maths); }
         .highlight-de { color: var(--code); }
-        /* the crafted "+" sign — the thesis of the page */
+        /* the crafted "+" sign, the thesis of the page */
         .fuse-plus {
             display: inline-block; color: var(--green); font-style: italic; font-weight: 500;
             padding: 0 0.06em; transform: rotate(-4deg);
@@ -514,7 +514,7 @@
         #hero-maths-toggle:checked ~ .hero-toggle-track .maths-label { color: #fff; }
         .hero-toggle-icon { font-size: 1rem; }
 
-        /* hero signature — a real "worked example" fusing maths and code, on graph paper */
+        /* hero signature, a real "worked example" fusing maths and code, on graph paper */
         .hero-image { display: flex; justify-content: center; }
         .hero-symbol-wrapper {
             position: relative; width: 100%; max-width: 430px;
@@ -613,12 +613,12 @@
         #math-tabs .tab-glider { background: var(--maths); }
         #math-tabs .tab-button.active { color: #fff; }
 
-        /* FUNCTIONAL STATE — JS only toggles .active */
+        /* FUNCTIONAL STATE: JS only toggles .active */
         .tab-content { display: none; animation: tab-fade .4s var(--ease); }
         .tab-content.active { display: block; }
         @keyframes tab-fade { from { opacity: 0; transform: translateY(8px); } to { opacity: 1; transform: none; } }
 
-        /* ===================== COURSE CARDS — framed index cards ===================== */
+        /* ===================== COURSE CARDS, framed index cards ===================== */
         .courses-grid {
             display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
             gap: var(--gap); max-width: 1080px; margin: 0 auto;
@@ -883,7 +883,7 @@
             background: no-repeat center / contain url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%232F7D5B' stroke-width='3' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M20 6L9 17l-5-5'/%3E%3C/svg%3E"); }
         @media (max-width: 820px) { .feature-card { grid-template-columns: 1fr; } }
 
-        /* ===================== TESTIMONIALS — warm quote cards ===================== */
+        /* ===================== TESTIMONIALS, warm quote cards ===================== */
         .testimonials-carousel-container { position: relative; max-width: 1100px; margin: 0 auto; }
         .testimonials-carousel { overflow: hidden; }
         .testimonials-track { display: flex; gap: var(--gap); transition: transform .5s var(--ease); padding: 8px 4px; }
@@ -1134,14 +1134,14 @@
         .pricing-card.featured .plan-button:hover::after { transform: translateX(4px); }
 
         /* The Try-Coding form submit + corporate submit are the primary
-           action of their own section — make them solid red too. */
+           action of their own section, make them solid red too. */
         .submit-button { background: var(--maths-solid); border-color: var(--maths-solid); font-weight: 700; }
         .submit-button:hover:not(:disabled) { background: var(--maths-deep); border-color: var(--maths-deep); box-shadow: 5px 5px 0 rgba(158,42,34,.26); }
         .submit-button:active:not(:disabled) { transform: translateY(-1px); box-shadow: 3px 3px 0 rgba(158,42,34,.28); }
         .submit-button .spinner .path { stroke: #FFF; }
 
         /* ===== SECONDARY (GHOST) BUTTONS · one quiet, consistent style ===== */
-        /* Transparent, ink outline, subtle hover fill — clearly subordinate
+        /* Transparent, ink outline, subtle hover fill, clearly subordinate
            to the red primary. Unifies all "View …" style actions. */
         .hero-cta-outline,
         .view-more-button,
@@ -1198,7 +1198,7 @@
         .course-card { outline-offset: 3px; }
 
         /* ===== ONE RESTRAINED HOVER LANGUAGE ACROSS ALL CARDS ===== */
-        /* small lift + slightly stronger border + offset shadow — nothing flashy */
+        /* small lift + slightly stronger border + offset shadow, nothing flashy */
         .course-card,
         .feature-item,
         .pricing-card,
@@ -1287,7 +1287,7 @@
         /* ===== CONVERSION-CLARITY PASS (hero scale + focus path) ===== */
         /* Bigger headline, one dominant red CTA, proof + risk-reversal  */
         /* at the decision point, secondary actions made clearly quiet.  */
-        /* Markup/JS/hooks untouched — visual + copy emphasis only.      */
+        /* Markup/JS/hooks untouched, visual + copy emphasis only.      */
         /* ============================================================= */
 
         /* ---- HERO: scale up so the headline dominates screen one ---- */
@@ -1304,7 +1304,7 @@
             letter-spacing: 0.14em; text-transform: uppercase;
             color: var(--ink-mute); margin-bottom: 18px;
         }
-        /* big, plain-language value subhead — instantly clear */
+        /* big, plain-language value subhead, instantly clear */
         .hero-value {
             margin-top: 22px;
             color: var(--ink-soft);
@@ -1342,7 +1342,7 @@
         .hero-proof-text { font-size: 0.9rem; color: var(--ink-soft); }
         .hero-proof-text b { color: var(--ink); font-weight: 700; }
         .hero-proof-dot { width: 5px; height: 5px; border-radius: 50%; background: var(--ink-line); }
-        /* CSS star rating — no images, no emoji */
+        /* CSS star rating, no images, no emoji */
         .hero-stars {
             position: relative; display: inline-block; width: 92px; height: 17px; line-height: 1;
             font-family: Georgia, 'Times New Roman', serif; letter-spacing: 2px; flex-shrink: 0;
@@ -1599,18 +1599,18 @@
     <main id="main" role="main" aria-label="Modern Age Coders homepage">
 
         <!-- ============================ HERO ============================ -->
-        <section class="hero" aria-label="Hero — Maths and Code made for each other">
+        <section class="hero" aria-label="Hero: Maths and Code made for each other">
             <div class="wrap hero-grid">
                 <div class="hero-text">
                     <span class="hero-eyebrow">Live online classes &middot; ages 6 to 67 &middot; 25+ countries &middot; rated 4.9/5</span>
                     <h1 id="hero-main-title"><span style="white-space:nowrap"><span class="highlight-ma">Ma</span>ths <span class="fuse-plus" aria-hidden="true">+</span> Co<span class="highlight-de">de</span></span><br><span class="highlight-made">Made</span> for <span class="pen-underline">Each Other</span>.</h1>
-                    <p class="hero-value">Live, expert-led <span class="hero-emphasis">coding &amp; maths classes for ages 6 to 67</span> &mdash; small batches, real projects, and a mentor who actually knows your name. See the difference in one free class.</p>
+                    <p class="hero-value">Live, expert-led <span class="hero-emphasis">coding &amp; maths classes for ages 6 to 67</span>, small batches, real projects, and a mentor who actually knows your name. See the difference in one free class.</p>
 
                     <div class="hero-primary-block">
                         <a href="/contact" class="hero-cta hero-cta-xl">Book a Free Demo Class
                             <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2.2" aria-hidden="true"><path d="M5 12h14M12 5l7 7-7 7" stroke-linecap="round" stroke-linejoin="round"/></svg>
                         </a>
-                        <p class="hero-reassure">Free 45-minute class &mdash; no credit card, no commitment. Pick a time that suits you.</p>
+                        <p class="hero-reassure">Free 45-minute class, no credit card, no commitment. Pick a time that suits you.</p>
                         <div class="hero-proof" aria-label="Ratings and reach">
                             <span class="hero-proof-item">
                                 <span class="hero-stars" role="img" aria-label="Rated 4.9 out of 5 stars">
@@ -1707,7 +1707,7 @@
                     <a href="/contact" class="hero-cta hero-cta-xl">Book a Free Demo Class
                         <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2.2" aria-hidden="true"><path d="M5 12h14M12 5l7 7-7 7" stroke-linecap="round" stroke-linejoin="round"/></svg>
                     </a>
-                    <p class="steps-reassure">Free 45-minute class &mdash; no credit card, cancel anytime.</p>
+                    <p class="steps-reassure">Free 45-minute class, no credit card, cancel anytime.</p>
                 </div>
             </div>
         </section>
@@ -1726,7 +1726,7 @@
             <div class="wrap sec-head">
                 <span class="eyebrow">Coding tracks</span>
                 <h2 class="sec-title">Coding <span class="g-code">Curriculum</span></h2>
-                <p class="sec-sub">From first blocks to production code &mdash; a path for every age and stage.</p>
+                <p class="sec-sub">From first blocks to production code, a path for every age and stage.</p>
             </div>
             <div class="wrap">
             <div class="tabs-wrapper" id="coding-tabs">
@@ -1745,7 +1745,7 @@
                             <div class="card-thumbnail-container"><img src="/images/kids-coding.webp" alt="Kids Coding Blocks Masterclass course" width="800" height="450" loading="lazy"></div>
                             <div class="card-content">
                                 <h3 class="card-title">Kids Coding</h3>
-                                <p class="card-description">A complete journey into the world of coding — from basics to advanced. Kids learn block coding, game design, animations, and web app development in a fun and interactive way.</p>
+                                <p class="card-description">A complete journey into the world of coding, from basics to advanced. Kids learn block coding, game design, animations, and web app development in a fun and interactive way.</p>
                                 <div class="card-button-container"><a href="/courses/kids-coding-blocks-masterclass" class="card-button coding">Start Learning</a></div>
                             </div>
                         </div>
@@ -1767,7 +1767,7 @@
                             <div class="card-thumbnail-container"><img src="/images/java-teens.webp" alt="Java Development Course Thumbnail" width="800" height="450" loading="lazy"></div>
                             <div class="card-content">
                                 <h3 class="card-title">Java Programming</h3>
-                                <p class="card-description">Master one of the world&rsquo;s most powerful programming languages! Teens will learn the core concepts of Java — from variables, loops, and functions to object-oriented programming — and build real-world applications step by step.</p>
+                                <p class="card-description">Master one of the world&rsquo;s most powerful programming languages! Teens will learn the core concepts of Java, from variables, loops, and functions to object-oriented programming, and build real-world applications step by step.</p>
                                 <div class="card-button-container"><a href="/courses/java-programming-masterclass-for-teens" class="card-button coding">View Path</a></div>
                             </div>
                         </div>
@@ -1775,14 +1775,14 @@
                             <div class="card-thumbnail-container"><img src="/images/ai-ml-teens.webp" alt="AI & Machine Learning Course" width="800" height="450" loading="lazy"></div>
                             <div class="card-content">
                                 <h3 class="card-title">AI &amp; Machine Learning</h3>
-                                <p class="card-description">Step into the world of Artificial Intelligence and Machine Learning! Teens will explore how computers learn, make predictions, and create smart solutions — from image recognition to chatbots — using Python and real-world datasets.</p>
+                                <p class="card-description">Step into the world of Artificial Intelligence and Machine Learning! Teens will explore how computers learn, make predictions, and create smart solutions, from image recognition to chatbots, using Python and real-world datasets.</p>
                                 <div class="card-button-container"><a href="/courses/ai-ml-masterclass-teens" class="card-button coding">Explore AI</a></div>
                             </div>
                         </div>
                         <div class="course-card coding" data-course-url="cbse-icse-computer-science-class-11-12-python-java-complete-course">
                             <div class="card-thumbnail-container"><img src="/images/ip-cs-class-11-12.webp" alt="IP & CS Class 11 12 CBSE ICSE Course" width="800" height="450" loading="lazy"></div>
                             <div class="card-content">
-                                <h3 class="card-title">IP &amp; CS — Class 11 &amp; 12</h3>
+                                <h3 class="card-title">IP &amp; CS: Class 11 &amp; 12</h3>
                                 <p class="card-description">Complete Computer Science &amp; Informatics Practices course for Class 11 &amp; 12. Separate CBSE (Python) &amp; ICSE (Java) batches. 100% syllabus coverage, practical file, project guidance &amp; board exam mastery.</p>
                                 <div class="card-button-container"><a href="/courses/cbse-icse-computer-science-class-11-12-python-java-complete-course" class="card-button coding">Ace Boards</a></div>
                             </div>
@@ -1946,8 +1946,8 @@
         <section class="sec reveal">
             <div class="wrap sec-head">
                 <span class="eyebrow warm">Maths tracks</span>
-                <h2 class="sec-title">Online <span class="g-maths">Maths Tuition</span> &mdash; From School to Advanced</h2>
-                <p class="sec-sub">Concept-first teaching that builds genuine number sense and reasoning &mdash; at every level.</p>
+                <h2 class="sec-title">Online <span class="g-maths">Maths Tuition</span>: From School to Advanced</h2>
+                <p class="sec-sub">Concept-first teaching that builds genuine number sense and reasoning, at every level.</p>
             </div>
             <div class="wrap">
             <div class="tabs-wrapper" id="math-tabs">
@@ -2078,7 +2078,7 @@
             <div class="wrap sec-head">
                 <span class="eyebrow">Pricing</span>
                 <h2 class="sec-title">Affordable Plans, <span class="g-code">High-Quality</span> Knowledge</h2>
-                <p class="sec-sub">Simple monthly plans, no hidden fees, cancel anytime &mdash; so anyone can learn to code and master real maths. Start with a free demo before you pay.</p>
+                <p class="sec-sub">Simple monthly plans, no hidden fees, cancel anytime, so anyone can learn to code and master real maths. Start with a free demo before you pay.</p>
             </div>
             <div class="wrap">
             <div class="tabs-wrapper" id="pricing-tabs">
@@ -2197,7 +2197,7 @@
             <div class="wrap sec-head">
                 <span class="eyebrow warm">Get started</span>
                 <h2 class="sec-title">Try <span class="g-code">Coding</span> and <span class="g-maths">Maths</span></h2>
-                <p class="sec-sub">Tell us what you want to learn and we'll set up your free demo class &mdash; usually within 48 hours. No credit card, no commitment.</p>
+                <p class="sec-sub">Tell us what you want to learn and we'll set up your free demo class, usually within 48 hours. No credit card, no commitment.</p>
             </div>
             <div class="wrap">
             <div class="contact-container">
@@ -2402,7 +2402,7 @@
                     <div class="feature-text">
                         <span class="eyebrow warm">Certification</span>
                         <h3>Our Certificates are earned, never given</h3>
-                        <p>Upon completing any learning path, you'll receive a Certificate of Completion. It's more than a document—it's a testament to your dedication and a powerful asset for your career.</p>
+                        <p>Upon completing any learning path, you'll receive a Certificate of Completion. It's more than a document. It's a testament to your dedication and a powerful asset for your career.</p>
                         <ul class="certificate-features">
                             <li>Verifiable Credentials</li>
                             <li>Sharable on LinkedIn</li>
@@ -2429,7 +2429,7 @@
                                 <div class="parent-avatar"><img src="https://lh3.googleusercontent.com/a-/ALV-UjUD7G6yVNHCdcvCeT_coO6k0Vu49jzqfu5u62ULnKN7itAellGhJg=s45-c-rp-mo-ba2-br100" alt="Parent avatar" width="45" height="45" loading="lazy"></div>
                                 <div class="testimonial-info"><p class="name">Sonam Oswal</p><p class="course">Mother of Dhairya</p><div class="star-rating"><span class="star">&#9733;</span><span class="star">&#9733;</span><span class="star">&#9733;</span><span class="star">&#9733;</span><span class="star">&#9733;</span></div></div>
                             </div>
-                            <blockquote>My child Dhairya, is really enjoying the Modern Age Coder IT classes. This is his first online class, and he eagerly looks forward to it. I can see his improvement, and I believe he will grow even more interested in the subject in the future. I also appreciate the teachers—they are very cooperative and listen to our suggestions. They try to apply them in class, which is very helpful. Overall, I am very happy with the class.</blockquote>
+                            <blockquote>My child Dhairya, is really enjoying the Modern Age Coder IT classes. This is his first online class, and he eagerly looks forward to it. I can see his improvement, and I believe he will grow even more interested in the subject in the future. I also appreciate the teachers. They are very cooperative and listen to our suggestions. They try to apply them in class, which is very helpful. Overall, I am very happy with the class.</blockquote>
                             <div class="read-more-container"><button class="read-more-btn" onclick="toggleReadMore(this)">Read More<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg></button></div>
                         </div></div>
                         <div class="testimonial-card"><div class="testimonial-content">
@@ -2569,8 +2569,8 @@
                 <div class="faq-item"><div class="faq-question"><h3>How do online classes work?</h3><div class="faq-toggle">+</div></div><div class="faq-answer"><p>Our classes combine live instruction with interactive coding environments. Students attend scheduled virtual sessions, complete hands-on projects, and have access to recordings and resources.</p></div></div>
                 <div class="faq-item"><div class="faq-question"><h3>What equipment does my child need?</h3><div class="faq-toggle">+</div></div><div class="faq-answer"><p>Students need a computer (Windows, Mac, or Chromebook) with a reliable internet connection. Most of our courses run in the browser, so no special software installation is required.</p></div></div>
                 <div class="faq-item"><div class="faq-question"><h3>What age groups are your courses for?</h3><div class="faq-toggle">+</div></div><div class="faq-answer"><p>Our courses are designed for students aged 6&ndash;67, with different difficulty levels tailored to specific age groups. We have beginner courses for younger students and advanced material for teens, college students and professionals.</p></div></div>
-                <div class="faq-item"><div class="faq-question"><h3>What courses do you offer?</h3><div class="faq-toggle">+</div></div><div class="faq-answer"><p>We offer a range of Coding and Maths courses tailored to different age groups and skill levels — from beginners to advanced. Our curriculum includes programming, computational thinking, and maths modules; check our website for the full course list and details on company-collaboration projects.</p></div></div>
-                <div class="faq-item"><div class="faq-question"><h3>What programming languages do you teach?</h3><div class="faq-toggle">+</div></div><div class="faq-answer"><p>We teach languages and tools most useful for students&rsquo; learning paths and industry relevance — including Python, JavaScript, Java, HTML, CSS, and block-based platforms like Scratch. Our courses pair Coding with Maths concepts where appropriate, and selected modules align with company project needs.</p></div></div>
+                <div class="faq-item"><div class="faq-question"><h3>What courses do you offer?</h3><div class="faq-toggle">+</div></div><div class="faq-answer"><p>We offer a range of Coding and Maths courses tailored to different age groups and skill levels, from beginners to advanced. Our curriculum includes programming, computational thinking, and maths modules; check our website for the full course list and details on company-collaboration projects.</p></div></div>
+                <div class="faq-item"><div class="faq-question"><h3>What programming languages do you teach?</h3><div class="faq-toggle">+</div></div><div class="faq-answer"><p>We teach languages and tools most useful for students&rsquo; learning paths and industry relevance, including Python, JavaScript, Java, HTML, CSS, and block-based platforms like Scratch. Our courses pair Coding with Maths concepts where appropriate, and selected modules align with company project needs.</p></div></div>
                 <div class="faq-item"><div class="faq-question"><h3>Are classes live or pre-recorded?</h3><div class="faq-toggle">+</div></div><div class="faq-answer"><p>Classes are conducted live, with recordings available for revision. Live sessions cover interactive Coding demos and Maths problem walkthroughs; recordings help students revise concepts and project steps used in company-style development.</p></div></div>
                 <div class="faq-item"><div class="faq-question"><h3>What is the batch size?</h3><div class="faq-toggle">+</div></div><div class="faq-answer"><p>We maintain small batches to ensure personalized attention for each student. Small groups are ideal for hands-on Coding help and maths doubt-clearing, and allow instructors to simulate collaborative team settings similar to companies.</p></div></div>
                 <div class="faq-item"><div class="faq-question"><h3>Do you offer any free trial classes?</h3><div class="faq-toggle">+</div></div><div class="faq-answer"><p>Yes, we offer one free trial class so students and parents can evaluate our teaching style. Trial sessions can cover a sample Coding lesson or a Maths concept, and will also explain how company collaboration projects are integrated into advanced courses.</p></div></div>
@@ -2637,7 +2637,7 @@
     <section class="discovery reveal" aria-label="Find your programme">
         <div class="wrap">
             <span class="eyebrow">Find your programme</span>
-            <h2>Coding &amp; Maths classes across India &mdash; and worldwide</h2>
+            <h2>Coding &amp; Maths classes across India: and worldwide</h2>
             <p>Live, interactive classes in small batches of 4&ndash;8 students for kids, teens and adults. Pick your city, choose a language, or explore every course.</p>
             <div class="discovery-grid">
                 <div>
@@ -2776,7 +2776,7 @@
         </div>
     </a>
 
-    <!-- Sticky "Book a Free Demo" — bottom-LEFT so it never overlaps the
+    <!-- Sticky "Book a Free Demo", bottom-LEFT so it never overlaps the
          Misti (bottom:92px) and WhatsApp (bottom:24px) buttons on the right.
          Appears after the hero scrolls past, hides near top/footer. -->
     <a href="/contact" class="sticky-demo" id="stickyDemo" aria-label="Book a free demo class">
@@ -3186,7 +3186,7 @@
         })();
     </script>
 
-    <!-- Google Analytics — load gtag.js after window.load (no render-blocking). -->
+    <!-- Google Analytics, load gtag.js after window.load (no render-blocking). -->
     <script>
         window.addEventListener('load', function () {
             var s = document.createElement('script');

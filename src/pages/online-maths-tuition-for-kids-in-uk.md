@@ -1,16 +1,16 @@
 ---
-title: "Online Maths Tuition for Kids in the UK · 1:1 Primary Maths (KS1 & KS2) — Modern Age Coders"
-description: "Live 1:1 online maths tuition for primary children in the UK (KS1 & KS2, ages 5–11). We teach why the maths works — number bonds, times tables with understanding, fractions and reasoning — aligned to the national curriculum, with Year 6 SATs readiness. £-friendly. Priced for your country."
+title: "Online Maths Tuition for Kids in the UK · 1:1 Primary Maths (KS1 & KS2) | Modern Age Coders"
+description: "Live 1:1 online maths tuition for primary children in the UK (KS1 & KS2, ages 5–11). We teach why the maths works, number bonds, times tables with understanding, fractions and reasoning, aligned to the national curriculum, with Year 6 SATs readiness. £-friendly. Priced for your country."
 canonical: https://learn.modernagecoders.com/online-maths-tuition-for-kids-in-uk
 source: src/pages/online-maths-tuition-for-kids-in-uk.html
 ---
-> Live 1:1 online maths tuition for primary children in the UK (KS1 & KS2, ages 5–11). We teach why the maths works — number bonds, times tables with understanding, fractions and reasoning — aligned to the national curriculum, with Year 6 SATs readiness. £-friendly. Priced for your country.
+> Live 1:1 online maths tuition for primary children in the UK (KS1 & KS2, ages 5–11). We teach why the maths works, number bonds, times tables with understanding, fractions and reasoning, aligned to the national curriculum, with Year 6 SATs readiness. £-friendly. Priced for your country.
 
 Why so many primary children stall
 
 ## Most children don't dislike maths. They dislike being hurried past the bit that would have made it make sense.
 
-A child is shown a method for fractions, it works on the worksheet, and the class moves on. But the child has no idea what actually happened — so a year later, when fractions turn up inside a bigger problem, the method collapses and takes their confidence with it.
+A child is shown a method for fractions, it works on the worksheet, and the class moves on. But the child has no idea what actually happened, so a year later, when fractions turn up inside a bigger problem, the method collapses and takes their confidence with it.
 
 This is how a curious six-year-old slowly becomes a ten-year-old who announces they're "rubbish at maths". It's almost never true. What broke was the explanation, not the child.
 
@@ -38,11 +38,11 @@ A child who can say *why* in their own words truly owns the idea. We ask "how do
 
 ### Practise to fluency, then connect forward
 
-Only once the reasoning is solid do we build speed, then show where the idea leads next — so nothing feels like a dead end.
+Only once the reasoning is solid do we build speed, then show where the idea leads next, so nothing feels like a dead end.
 
 See it for yourself
 
-## Number bonds — why they make mental maths fast.
+## Number bonds: why they make mental maths fast.
 
 Worked example · KS1–KS2
 
@@ -52,7 +52,7 @@ Worked example · KS1–KS2
 
 7 + 8 → split the 7 into 3 + 4give the 3 to the 8 → 8 + 3 = 10now 10 + 4 = **15**
 
-This is the power of number bonds — knowing the pairs that make 10. Once a child has them, they don't memorise a hundred separate sums; they reason quickly from a handful of friendly facts. It's faster, it never leaves them stuck, and it builds the place-value thinking that everything in primary maths is built on. This single idea changes how a child feels about mental maths.
+This is the power of number bonds, knowing the pairs that make 10. Once a child has them, they don't memorise a hundred separate sums; they reason quickly from a handful of friendly facts. It's faster, it never leaves them stuck, and it builds the place-value thinking that everything in primary maths is built on. This single idea changes how a child feels about mental maths.
 
 Why a coding school teaches maths
 
@@ -70,17 +70,17 @@ Noticing that 3, 6, 9, 12 jumps by three is the same instinct that lets a coder 
 
 "Does this answer make sense?" is debugging. We teach children to test their thinking, not just trust the first number they write.
 
-We're Modern Age Coders. We've taught children to think like builders for years, and maths is where that thinking begins. A child who learns maths as reasoning — not recipes — walks into coding, science and every future "hard subject" already knowing how to work things out.
+We're Modern Age Coders. We've taught children to think like builders for years, and maths is where that thinking begins. A child who learns maths as reasoning, not recipes, walks into coding, science and every future "hard subject" already knowing how to work things out.
 
 What we cover
 
 ## The whole primary path, year by year.
 
-Mapped to the national curriculum your child's school follows — always taught for understanding first.
+Mapped to the national curriculum your child's school follows, always taught for understanding first.
 
 ### Number & place value
 
-Counting, reading and writing numbers, what each digit means, comparing and ordering, and rounding — the bedrock for everything else.
+Counting, reading and writing numbers, what each digit means, comparing and ordering, and rounding, the bedrock for everything else.
 
 ### The four operations
 
@@ -92,7 +92,7 @@ Fractions as real quantities children can picture, equivalence, and the bridge t
 
 ### Reasoning & problem solving
 
-Reading a problem, deciding what it's asking, choosing a method, and checking the answer makes sense — the heart of the SATs reasoning papers.
+Reading a problem, deciding what it's asking, choosing a method, and checking the answer makes sense, the heart of the SATs reasoning papers.
 
 ### Measurement, geometry & statistics
 
@@ -104,11 +104,11 @@ Staying calm with a hard question, showing working clearly, and arithmetic-and-r
 
 Who this is for
 
-## The right fit — and an honest word on what to expect.
+## The right fit: and an honest word on what to expect.
 
 **This fits** the primary child who's bored and ahead, the one quietly slipping behind, the child anxious about maths, and any child who deserves better than another worksheet. We teach across the whole range, including children working well above their year group.
 
-**What changes, honestly.** In the first few weeks, parents most often notice their child stops dreading maths. Real fluency and SATs-level results build over a term of steady, twice-weekly lessons — not overnight. We won't promise a miracle in a fortnight, because understanding isn't built that way.
+**What changes, honestly.** In the first few weeks, parents most often notice their child stops dreading maths. Real fluency and SATs-level results build over a term of steady, twice-weekly lessons, not overnight. We won't promise a miracle in a fortnight, because understanding isn't built that way.
 
 ### What we won't do
 
@@ -169,7 +169,7 @@ Who teaches your child
 
 Everyone we take on has to do two things well: know primary maths deeply enough to explain it three different ways, and stay genuinely kind when a child is stuck for the fourth time. We test for both. A tutor who can't be patient with a seven-year-old doesn't teach for us.
 
-Your child keeps the same tutor, so trust builds — and a child who trusts their tutor will admit "I don't get it", which is where every breakthrough begins.
+Your child keeps the same tutor, so trust builds, and a child who trusts their tutor will admit "I don't get it", which is where every breakthrough begins.
 
 "My son struggled with math for years. Integrating it into coding projects has transformed his understanding and confidence. Highly recommended!"
 
@@ -183,7 +183,7 @@ An honest comparison
 
 | What matters | Modern Age Coders | Maths apps | A typical tutor |
 | --- | --- | --- | --- |
-| Teaches the reasoning | Always — it's the point | Rarely — rewards taps | Sometimes |
+| Teaches the reasoning | Always, it's the point | Rarely, rewards taps | Sometimes |
 | Notices quiet confusion | Yes, live, 1:1 | No | Usually |
 | Same tutor each time | Yes, throughout | N/A | Often, varies |
 | Parent updates | After every lesson | Score charts | Varies |
@@ -197,15 +197,15 @@ Questions parents ask
 
 What ages and year groups is this for?
 
-Primary children aged 5 to 11 — KS1 (Years 1–2) and KS2 (Years 3–6). We place each child by what they actually understand, not just their school year.
+Primary children aged 5 to 11: KS1 (Years 1–2) and KS2 (Years 3–6). We place each child by what they actually understand, not just their school year.
 
 Is it aligned with the national curriculum?
 
-Yes — number and place value, the four operations, fractions, measurement, geometry and statistics — taught for the understanding underneath each objective.
+Yes, number and place value, the four operations, fractions, measurement, geometry and statistics, taught for the understanding underneath each objective.
 
 Can you help with Year 6 SATs?
 
-Yes — the KS2 arithmetic and reasoning papers, by building genuine fluency and reasoning rather than teaching to the test.
+Yes, the KS2 arithmetic and reasoning papers, by building genuine fluency and reasoning rather than teaching to the test.
 
 My child has decided they're 'no good at maths'. Can this help?
 
@@ -213,19 +213,19 @@ This is the most common reason families come to us. One-to-one attention and a p
 
 How much does it cost?
 
-USD 150 per month for private 1:1 tuition — eight live lessons, two each week. Small-group option USD 100 per month. No contract; cancel any time.
+USD 150 per month for private 1:1 tuition, eight live lessons, two each week. Small-group option USD 100 per month. No contract; cancel any time.
 
 Is there a free trial?
 
-Yes — the first lesson is free, no card needed to book.
+Yes, the first lesson is free, no card needed to book.
 
 Will my child have the same tutor each time?
 
-Yes — one tutor, kept throughout, so trust builds.
+Yes, one tutor, kept throughout, so trust builds.
 
 Do the lessons fit around UK school hours?
 
-Yes — after-school, early-evening and weekend slots in UK time (GMT/BST).
+Yes, after-school, early-evening and weekend slots in UK time (GMT/BST).
 
 Are lessons live, or recorded?
 
@@ -241,7 +241,7 @@ A short note after each lesson and a plain-English progress summary every few we
 
 Can we start partway through the school year?
 
-Yes — we start wherever your child is.
+Yes. We start wherever your child is.
 
 ## Book a free trial lesson for your child.
 
@@ -259,7 +259,7 @@ Real student projects
 
 Every one is a real, live project shipped by a Modern Age Coders student. Explore more in [Student Labs](/student-labs).
 
-[![Word Counter Website](/images/projects/wordcounter.webp)ToolWord Counter WebsiteA simple yet powerful tool that counts words, sentences and paragraphs from user input with instant, real-time results and a clean responsive interface.by VanshOpen the live project ↗](https://vanshagarwalwordcounter-sys.github.io/WordCounter/)[![Life Span Tracker](/images/projects/lifespan.webp)ToolLife Span TrackerAn interactive web tool that calculates expected lifespan, shows days, months and years lived, and visualises remaining time to motivate better habits.by ManayOpen the live project ↗](https://lifespantracker.netlify.app/)[![Simon Game](/images/projects/simongame.webp)GameSimon GameA fun memory-based game where players repeat colour and sound sequences. Each level adds a new challenge — brain-boosting for kids learning logic and focus.by YashaswiOpen the live project ↗](http://yashaswi-2017.my.canva.site)
+[![Word Counter Website](/images/projects/wordcounter.webp)ToolWord Counter WebsiteA simple yet powerful tool that counts words, sentences and paragraphs from user input with instant, real-time results and a clean responsive interface.by VanshOpen the live project ↗](https://vanshagarwalwordcounter-sys.github.io/WordCounter/)[![Life Span Tracker](/images/projects/lifespan.webp)ToolLife Span TrackerAn interactive web tool that calculates expected lifespan, shows days, months and years lived, and visualises remaining time to motivate better habits.by ManayOpen the live project ↗](https://lifespantracker.netlify.app/)[![Simon Game](/images/projects/simongame.webp)GameSimon GameA fun memory-based game where players repeat colour and sound sequences. Each level adds a new challenge, brain-boosting for kids learning logic and focus.by YashaswiOpen the live project ↗](http://yashaswi-2017.my.canva.site)
 
 ---
 

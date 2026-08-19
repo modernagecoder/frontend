@@ -236,7 +236,7 @@ ul > li li {
 }
 ```
 
-*Hint:* Actually, it might work — analyse it.
+*Hint:* Actually, it might work, analyse it.
 
 **Answer:** The CSS is valid. It targets every li that is a descendant of a direct li child of ul. So it styles nested li elements.
 
@@ -593,7 +593,7 @@ To override a selector with an ID, you need equal or higher specificity. Use `#m
 
 ### Q24. [Hard] Which property is NOT inherited by default?
 
-**C is correct.** Margin, padding, border, background — these are not inherited. Text-related properties (color, font, line-height) are inherited.
+**C is correct.** Margin, padding, border, background, these are not inherited. Text-related properties (color, font, line-height) are inherited.
 
 ### Q25. [Hard] Which of the following has the HIGHEST specificity?
 

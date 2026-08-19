@@ -1,14 +1,14 @@
 #!/usr/bin/env node
 
 /**
- * Generates /llms-full.txt — the deep companion to /llms.txt.
+ * Generates /llms-full.txt, the deep companion to /llms.txt.
  *
  * Structure:
  *   1. Brand intro (extracted from llms.txt's prose section)
  *   2. Quick facts (pricing, differentiators, FAQ)
- *   3. Course catalog — every course as a compact card
- *   4. Featured blog posts — top 6 by date, full markdown body embedded
- *   5. Full blog index — every post (one-line entry)
+ *   3. Course catalog, every course as a compact card
+ *   4. Featured blog posts, top 6 by date, full markdown body embedded
+ *   5. Full blog index, every post (one-line entry)
  *   6. Contact + tools + licensing
  *
  * Run via `npm run generate:llms`.
@@ -57,7 +57,7 @@ function trimBody(text, maxLen) {
     const lastPara = cut.lastIndexOf('\n\n');
     if (lastPara > maxLen * 0.6) cut = cut.slice(0, lastPara);
     else cut = cut.replace(/\s+\S*$/, '');
-    return cut + '\n\n*[Truncated — read in full at the markdown URL above.]*';
+    return cut + '\n\n*[Truncated. Read in full at the markdown URL above.]*';
 }
 
 function extractBrandIntro() {
@@ -90,8 +90,8 @@ function courseCard(meta) {
 }
 
 function blogIndexLine(meta) {
-    const date = meta.date ? `${meta.date} — ` : '';
-    return `- ${date}[${meta.title}](${SITE}/blog/${meta.slug}/) — ${SITE}/content/blog/generated/${meta.slug}/index.md`;
+    const date = meta.date ? `${meta.date}, ` : '';
+    return `- ${date}[${meta.title}](${SITE}/blog/${meta.slug}/), ${SITE}/content/blog/generated/${meta.slug}/index.md`;
 }
 
 function buildCourseCatalog() {
@@ -181,7 +181,7 @@ function buildKeyFacts() {
 - **Pricing (India):** ${tiers.join('. ')}. Visitors outside India see a price set for their own country, shown in their local currency.
 - **Class size:** 4-8 students per batch (small batches, not 100+).
 - **Format:** Live and interactive over video. Recorded for revision.
-- **Trial:** Free demo class — book at ${SITE}/book-demo
+- **Trial:** Free demo class. Book at ${SITE}/book-demo
 - **Audience:** Kids (6-12), Teens (13-17), College students, Working professionals, Corporate teams.
 - **Languages:** Scratch, Python, Java, JavaScript, C++, HTML/CSS, React, TypeScript, Kotlin, Swift, Go, plus AI/ML, data science, mathematics.
 - **Programs:** Coding for Kids/Teens/College, Mathematics Mastery, Vibe Coding, Girls in Tech, Summer Camps, Corporate Training.
@@ -190,7 +190,7 @@ function buildKeyFacts() {
 ## Differentiators
 
 - Small batches (4-8 students)
-- Live mentor-led sessions — not pre-recorded
+- Live mentor-led sessions, not pre-recorded
 - Coding **and** mathematics taught together
 - Real projects from day one
 - Age-appropriate teaching
@@ -198,13 +198,13 @@ function buildKeyFacts() {
 
 ## Frequently Asked Questions
 
-**Q: Good for absolute beginners?** Yes — most courses start from zero.
+**Q: Good for absolute beginners?** Yes. Most courses start from zero.
 
 **Q: Different from WhiteHat Jr / Vedantu / BYJU'S?** Smaller batches (4-8 vs 100+), live interactive, only platform combining coding + mathematics.
 
-**Q: What is Vibe Coding?** AI-powered coding program — students build real projects using AI tools alongside traditional programming. Available for kids, teens, college.
+**Q: What is Vibe Coding?** AI-powered coding program, students build real projects using AI tools alongside traditional programming. Available for kids, teens, college.
 
-**Q: Free demo classes?** Yes — every student can book one before enrolling at ${SITE}/book-demo
+**Q: Free demo classes?** Yes, every student can book one before enrolling at ${SITE}/book-demo
 
 **Q: How are classes conducted?** Live over video in groups of 4-8. Recorded for revision. Student dashboard at https://dashboard.modernagecoders.com
 
@@ -215,7 +215,7 @@ function buildContact() {
     return `## Contact & Channels
 
 - Website: ${SITE}
-- Phone / WhatsApp: +91 9123366161 — https://wa.me/919123366161
+- Phone / WhatsApp: +91 9123366161, https://wa.me/919123366161
 - Email: contact@modernagecoders.com
 - Book a free demo: ${SITE}/book-demo
 - Instagram: https://www.instagram.com/modern_age_coders
@@ -226,13 +226,13 @@ function buildContact() {
 
 ## Tools Built by Modern Age Coders
 
-- **Beautiful Mind** (math viz) — https://mind.modernagecoders.com
-- **Zap** (browser code editor) — https://zap.modernagecoders.com
-- **Envision** (concept visualizer) — https://envision.modernagecoders.com
-- **Misti AI** (student AI assistant) — https://misti.modernagecoders.com
-- **Deep 64** (chess engine) — https://deep64.modernagecoders.com
-- **Beat the Babu** (coding game) — ${SITE}/beat-the-babu
-- **Aura** (gamified progress) — ${SITE}/aura
+- **Beautiful Mind** (math viz), https://mind.modernagecoders.com
+- **Zap** (browser code editor), https://zap.modernagecoders.com
+- **Envision** (concept visualizer), https://envision.modernagecoders.com
+- **Misti AI** (student AI assistant), https://misti.modernagecoders.com
+- **Deep 64** (chess engine), https://deep64.modernagecoders.com
+- **Beat the Babu** (coding game), ${SITE}/beat-the-babu
+- **Aura** (gamified progress), ${SITE}/aura
 
 ## Licensing
 
@@ -254,7 +254,7 @@ function generate() {
         '',
         `> Generated: ${new Date().toISOString().slice(0, 10)} · Source of truth: ${SITE}/llms.txt`,
         '',
-        'Full companion to /llms.txt — brand overview, complete course catalog, embedded text of featured blog posts, and full blog index. AI agents that prefer a single document can use this as the canonical knowledge base.',
+        'Full companion to /llms.txt, brand overview, complete course catalog, embedded text of featured blog posts, and full blog index. AI agents that prefer a single document can use this as the canonical knowledge base.',
         '',
         '---',
         ''

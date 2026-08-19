@@ -70,8 +70,8 @@ function validate(config) {
                     return;
                 }
                 if (v <= 0) err('plans.' + subject + '.' + region + '.' + tier + ' is ' + v + '. A price must be greater than zero.');
-                if (region === 'india' && v < 100) warn('plans.' + subject + '.india.' + tier + ' is ' + v + '. That is very low for a rupee price — did you mean ' + (v * 100) + '?');
-                if (region === 'international' && v > 2000) warn('plans.' + subject + '.international.' + tier + ' is $' + v + '. That is very high for a dollar price — did you type a rupee amount by mistake?');
+                if (region === 'india' && v < 100) warn('plans.' + subject + '.india.' + tier + ' is ' + v + '. That is very low for a rupee price, did you mean ' + (v * 100) + '?');
+                if (region === 'international' && v > 2000) warn('plans.' + subject + '.international.' + tier + ' is $' + v + '. That is very high for a dollar price, did you type a rupee amount by mistake?');
             });
         });
     });
@@ -133,8 +133,8 @@ function showPrices(config) {
     console.log('');
     console.log('─── What visitors are charged ─────────────────────────────────');
     console.log('');
-    const inr = (n) => n == null ? '—' : cfgLib.format(n, 'INR');
-    const usd = (n) => n == null ? '—' : cfgLib.format(n, 'USD');
+    const inr = (n) => n == null ? ', ' : cfgLib.format(n, 'INR');
+    const usd = (n) => n == null ? ', ' : cfgLib.format(n, 'USD');
     console.log('    ' + 'Plan'.padEnd(26) + 'India'.padStart(10) + 'Outside India'.padStart(18));
     console.log('    ' + '─'.repeat(54));
     [['coding', 'Coding'], ['maths', 'Maths'], ['agents', 'Codex/Claude premium'], ['school', 'School bootcamp']].forEach(function (row) {
@@ -143,7 +143,7 @@ function showPrices(config) {
             const label = { group: 'Group', miniBatch: 'Mini Batch', personal: '1-on-1' }[tier];
             const i = t.india[tier], u = t.international[tier];
             if (i == null && u == null) return;
-            console.log('    ' + (row[1] + ' — ' + label).padEnd(26) + inr(i).padStart(10) +
+            console.log('    ' + (row[1] + ', ' + label).padEnd(26) + inr(i).padStart(10) +
                 (u == null ? 'not sold'.padStart(18) : (usd(u) + '/month').padStart(18)));
         });
     });

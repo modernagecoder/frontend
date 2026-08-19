@@ -1,22 +1,22 @@
 ---
 title: "Generative AI Course | Build with LLMs & GenAI (Online India)"
-description: "Master Generative AI. Live online course — Large Language Models, prompt engineering, LLM APIs, RAG and building real AI apps and chatbots. Hands-on with the latest GenAI tools. For college, professionals & teens. Small batches, free demo."
+description: "Master Generative AI. Live online course: Large Language Models, prompt engineering, LLM APIs, RAG and building real AI apps and chatbots. Hands-on with the latest GenAI tools. For college, professionals & teens. Small batches, free demo."
 canonical: https://learn.modernagecoders.com/generative-ai-course
 source: src/pages/generative-ai-course.html
 ---
-> Master Generative AI. Live online course — Large Language Models, prompt engineering, LLM APIs, RAG and building real AI apps and chatbots. Hands-on with the latest GenAI tools. For college, professionals & teens. Small batches, free demo.
+> Master Generative AI. Live online course: Large Language Models, prompt engineering, LLM APIs, RAG and building real AI apps and chatbots. Hands-on with the latest GenAI tools. For college, professionals & teens. Small batches, free demo.
 
 Generative AI • **Build With LLMs**
 
-# Generative AI Course — Build Real AI Apps
+# Generative AI Course: Build Real AI Apps
 
-Learn the AI everyone's talking about — and actually build with it. Master Large Language Models, prompt engineering, LLM APIs and retrieval-augmented generation (RAG), and ship real GenAI apps like chatbots and AI assistants. Live small-batch classes for college students, professionals and serious teens who want the most in-demand AI skill of 2026.
+Learn the AI everyone's talking about, and actually build with it. Master Large Language Models, prompt engineering, LLM APIs and retrieval-augmented generation (RAG), and ship real GenAI apps like chatbots and AI assistants. Live small-batch classes for college students, professionals and serious teens who want the most in-demand AI skill of 2026.
 
 Book a Free Generative AI DemoSee the Roadmap**LLMs**The latest GenAI**5–8**Students per batch**Build**Real AI apps**Live**Hands-on with a mentor
 
 ## Quick answer
 
-**Modern Age Coders' Generative AI course teaches you to build with Large Language Models and the latest GenAI tools.** You learn how LLMs work, prompt engineering, calling LLM APIs from Python, embeddings and retrieval-augmented generation (RAG), plus an introduction to fine-tuning and AI image generation — and you build real AI apps like chatbots and document assistants. Classes are live in small batches of 5–8 with a mentor, and group plans start at ₹1,499/month. Every learner gets a free demo class first.
+**Modern Age Coders' Generative AI course teaches you to build with Large Language Models and the latest GenAI tools.** You learn how LLMs work, prompt engineering, calling LLM APIs from Python, embeddings and retrieval-augmented generation (RAG), plus an introduction to fine-tuning and AI image generation. And you build real AI apps like chatbots and document assistants. Classes are live in small batches of 5–8 with a mentor, and group plans start at ₹1,499/month. Every learner gets a free demo class first.
 
 Start Today
 
@@ -32,11 +32,11 @@ The GenAI Stack
 
 ## What You'll Master & Build
 
-From prompting to production — the skills to actually build with generative AI.
+From prompting to production, the skills to actually build with generative AI.
 
 ### LLMs & Prompt Engineering
 
-How Large Language Models work, and how to prompt them well — system prompts, few-shot examples and reliable outputs.
+How Large Language Models work, and how to prompt them well, system prompts, few-shot examples and reliable outputs.
 
 ### LLM APIs & RAG
 
@@ -44,13 +44,13 @@ Call LLM APIs from Python, use embeddings, and build retrieval-augmented generat
 
 ### Build & Ship AI Apps
 
-Build real apps — an AI chatbot, a document Q&A assistant, an AI tool — and deploy them as working projects.
+Build real apps, an AI chatbot, a document Q&A assistant, an AI tool, and deploy them as working projects.
 
 The GenAI Roadmap
 
 ## From First Prompt to a Live AI App
 
-Mentor-led stages — each ends with a real GenAI project for your portfolio.
+Mentor-led stages, each ends with a real GenAI project for your portfolio.
 
 STAGE 01
 
@@ -68,7 +68,7 @@ STAGE 03
 
 ### Embeddings & RAG
 
-Embeddings, vector search and RAG — AI that answers from your own documents.
+Embeddings, vector search and RAG: AI that answers from your own documents.
 
 STAGE 04
 
@@ -80,7 +80,7 @@ Explore More
 
 ## Related AI & ML Courses
 
-Part of our full AI & ML cluster — explore any or book a free demo.
+Part of our full AI & ML cluster, explore any or book a free demo.
 
 [Best AI & ML CourseThe full course hub](/best-ai-and-machine-learning-course-in-india)[Large Language ModelsLLMs in depth](/large-language-models-course)[Prompt EngineeringMaster prompting](/prompt-engineering-course)[AI Agents CourseAutonomous AI](/ai-agents-course)[Deep LearningHow GenAI works](/deep-learning-course)[NLP CourseLanguage AI](/natural-language-processing-course)[Build Your Own GPTHands-on guide](/build-your-own-gpt-python)[AI/ML CertificationCertificate + portfolio](/ai-ml-certification-course)
 
@@ -88,15 +88,15 @@ Why Generative AI
 
 ## Why Generative AI Is the Skill of the Moment
 
-Generative AI has gone from novelty to necessity almost overnight. Companies everywhere are racing to build AI assistants, copilots and automation on top of Large Language Models — and there's a **massive shortage of people who can actually build with them**. Learning GenAI now puts you right where the demand is hottest.
+Generative AI has gone from novelty to necessity almost overnight. Companies everywhere are racing to build AI assistants, copilots and automation on top of Large Language Models, and there's a **massive shortage of people who can actually build with them**. Learning GenAI now puts you right where the demand is hottest.
 
 ### You don't need to train a model from scratch
 
-The beauty of modern generative AI is that you build on powerful **pre-trained models via APIs** — so you can ship a real AI app without a deep research background. What matters is knowing how to prompt well, use [LLMs](/large-language-models-course) and combine them with your data using RAG. That's exactly what this course teaches, hands-on.
+The beauty of modern generative AI is that you build on powerful **pre-trained models via APIs**, so you can ship a real AI app without a deep research background. What matters is knowing how to prompt well, use [LLMs](/large-language-models-course) and combine them with your data using RAG. That's exactly what this course teaches, hands-on.
 
 ### Build a portfolio that stands out
 
-Nothing impresses like a working AI app. You finish with real [AI agents](/ai-agents-course) and assistants you built, plus mastery of [prompt engineering](/prompt-engineering-course) — a portfolio that's instantly relevant for jobs, internships or your own product. Want the deeper theory too? Pair this with [deep learning](/deep-learning-course) to understand what's under the hood.
+Nothing impresses like a working AI app. You finish with real [AI agents](/ai-agents-course) and assistants you built, plus mastery of [prompt engineering](/prompt-engineering-course), a portfolio that's instantly relevant for jobs, internships or your own product. Want the deeper theory too? Pair this with [deep learning](/deep-learning-course) to understand what's under the hood.
 
 Simple Pricing
 
@@ -143,7 +143,7 @@ Learner Voices
 
 ★★★★★
 
-"My son has been attending this coding class for the past couple of months, and I've been genuinely impressed with both his progress and enthusiasm. The instructors are incredibly patient and knowledgeable. What stands out most is how excited my son is before every class—he looks forward to learning, problem-solving, and sharing what he's built. I've noticed a big boost in his confidence!"
+"My son has been attending this coding class for the past couple of months, and I've been genuinely impressed with both his progress and enthusiasm. The instructors are incredibly patient and knowledgeable. What stands out most is how excited my son is before every class. He looks forward to learning, problem-solving, and sharing what he's built. I've noticed a big boost in his confidence!"
 
 Poonam RathoreParent★★★★★
 
@@ -151,13 +151,13 @@ Poonam RathoreParent★★★★★
 
 Yug RathoreStudent★★★★★
 
-"I'm truly grateful for my experience at Modern Age Coders! The teaching approach of my legendary teachers—Shivam Sir, Mihir Sir and Sonu Sir—is extraordinary. They were not only my teachers but also mentors and friendly figures. The fee is remarkably reasonable and the perks are mind-blowing—one-on-one doubt solving, mentoring, and regular tests. The most impressive part was working on real-world projects."
+"I'm truly grateful for my experience at Modern Age Coders! The teaching approach of my legendary teachers, Shivam Sir, Mihir Sir and Sonu Sir, is extraordinary. They were not only my teachers but also mentors and friendly figures. The fee is remarkably reasonable and the perks are mind-blowing, one-on-one doubt solving, mentoring, and regular tests. The most impressive part was working on real-world projects."
 
 Krishnam BhatterFormer Student
 
 ## Ready to build with generative AI?
 
-Book a free GenAI demo today — build an AI app with a mentor before you spend a rupee.
+Book a free GenAI demo today, build an AI app with a mentor before you spend a rupee.
 
 Book a Free Generative AI Demo
 
@@ -167,15 +167,15 @@ Good To Know
 
 What is generative AI and what does the course cover?+
 
-Generative AI creates new content — text, images, code — using models like Large Language Models. Our course covers how LLMs work, prompt engineering, using LLM APIs, embeddings and retrieval-augmented generation (RAG), an introduction to fine-tuning and image generation, and building real AI apps and chatbots, all hands-on.
+Generative AI creates new content, text, images, code, using models like Large Language Models. Our course covers how LLMs work, prompt engineering, using LLM APIs, embeddings and retrieval-augmented generation (RAG), an introduction to fine-tuning and image generation, and building real AI apps and chatbots, all hands-on.
 
 Do I need machine learning or Python before generative AI?+
 
-Basic Python helps because you'll build AI apps in code, but you do not need a deep machine-learning background — generative AI often uses pre-trained models via APIs. If you're new, we cover the Python you need; after the free demo we place you at the right level.
+Basic Python helps because you'll build AI apps in code, but you do not need a deep machine-learning background, generative AI often uses pre-trained models via APIs. If you're new, we cover the Python you need; after the free demo we place you at the right level.
 
 What will I build in the generative AI course?+
 
-You build real GenAI projects — an AI chatbot, a document Q&A assistant using retrieval-augmented generation (RAG), and AI-powered tools — using Python and LLM APIs, finishing with a portfolio of working generative-AI applications. See our [AI agents course](/ai-agents-course) to go further.
+You build real GenAI projects, an AI chatbot, a document Q&A assistant using retrieval-augmented generation (RAG), and AI-powered tools, using Python and LLM APIs, finishing with a portfolio of working generative-AI applications. See our [AI agents course](/ai-agents-course) to go further.
 
 Do you teach prompt engineering and LLM APIs?+
 

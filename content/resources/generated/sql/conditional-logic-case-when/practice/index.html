@@ -17,7 +17,7 @@
     <!-- SEO Meta Tags -->
     <meta name="description" content="62+ practice questions on Conditional Logic - CASE WHEN, IF, IFNULL in SQL. Easy, medium, and hard questions with hints, answers, and coding challenges.">
     <!-- meta keywords intentionally not emitted: Google has ignored it since 2009 and Bing
-         treats it as a SPAM SIGNAL — and Bing is the index ChatGPT/Copilot answer from.
+         treats it as a SPAM SIGNAL, and Bing is the index ChatGPT/Copilot answer from.
          See scripts/strip-meta-keywords.py. -->
     <meta name="author" content="Modern Age Coders">
     <meta name="robots" content="index, follow">
@@ -138,7 +138,7 @@
                 <span class="badge badge-intermediate">Intermediate</span>
                 <span class="badge badge-questions">62 Questions</span>
             </div>
-            <h1 class="resource-title">Practice Questions &mdash; Conditional Logic - CASE WHEN, IF, IFNULL</h1>
+            <h1 class="resource-title">Practice Questions: Conditional Logic - CASE WHEN, IF, IFNULL</h1>
             <a href="/resources/sql/conditional-logic-case-when" class="notes-link">&larr; Back to Notes</a>
         </div><!-- /resource-header -->
 
@@ -252,7 +252,7 @@ END</code></pre></div><button type="button" class="collapsible-toggle" data-targ
 <div class="question-card">
                 <div class="question-number">Question 18</div>
                 <span class="question-difficulty hard">Hard</span>
-                <div class="question-text">Why does the conditional aggregation pattern SUM(CASE WHEN cond THEN val ELSE 0 END) work?</div><button type="button" class="collapsible-toggle" data-target="hint-ts-18" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-18">Think about what SUM adds and what 0 contributes.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-18" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-18">SUM adds all non-NULL values. By writing ELSE 0, every non-matching row contributes 0 to the total — which is a no-op. Every matching row contributes its <code>val</code>. The end result is the sum of <code>val</code> only for rows where the condition is true. This lets you compute multiple filtered sums in a single pass of the table, which is the basis of SQL pivoting.</div></div>
+                <div class="question-text">Why does the conditional aggregation pattern SUM(CASE WHEN cond THEN val ELSE 0 END) work?</div><button type="button" class="collapsible-toggle" data-target="hint-ts-18" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-18">Think about what SUM adds and what 0 contributes.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-18" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-18">SUM adds all non-NULL values. By writing ELSE 0, every non-matching row contributes 0 to the total, which is a no-op. Every matching row contributes its <code>val</code>. The end result is the sum of <code>val</code> only for rows where the condition is true. This lets you compute multiple filtered sums in a single pass of the table, which is the basis of SQL pivoting.</div></div>
 <div class="question-card">
                 <div class="question-number">Question 19</div>
                 <span class="question-difficulty easy">Easy</span>
@@ -395,7 +395,7 @@ FROM feedback;</code></pre></div></div>
 <div class="question-card">
                 <div class="question-number">Question 11</div>
                 <span class="question-difficulty hard">Hard</span>
-                <div class="question-text">Why does COUNT(CASE WHEN cond THEN 1 END) count matches, but SUM(CASE WHEN cond THEN 1 END) also works — what is the difference?</div><button type="button" class="collapsible-toggle" data-target="hint-mx-11" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-11">COUNT counts rows; SUM adds values. They happen to give the same answer for this pattern.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-11" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-11">Both produce the same integer when each matching row contributes 1. COUNT ignores NULLs (non-matching rows with no ELSE become NULL and get skipped). SUM adds NULLs as nothing, same result. COUNT is stylistically preferred because its name is self-documenting ('I am counting matches'), and it works without ELSE. SUM would be required if you want to add a variable amount per match (e.g., SUM(CASE WHEN cond THEN amount ELSE 0 END)).</div></div>
+                <div class="question-text">Why does COUNT(CASE WHEN cond THEN 1 END) count matches, but SUM(CASE WHEN cond THEN 1 END) also works, what is the difference?</div><button type="button" class="collapsible-toggle" data-target="hint-mx-11" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-11">COUNT counts rows; SUM adds values. They happen to give the same answer for this pattern.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-11" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-11">Both produce the same integer when each matching row contributes 1. COUNT ignores NULLs (non-matching rows with no ELSE become NULL and get skipped). SUM adds NULLs as nothing, same result. COUNT is stylistically preferred because its name is self-documenting ('I am counting matches'), and it works without ELSE. SUM would be required if you want to add a variable amount per match (e.g., SUM(CASE WHEN cond THEN amount ELSE 0 END)).</div></div>
         </section>
 
         <!-- MCQs -->
@@ -444,7 +444,7 @@ FROM feedback;</code></pre></div></div>
 <div class="question-card">
                 <div class="question-number">MCQ 11</div>
                 <div class="question-text">Where CAN you NOT use a CASE expression?</div>
-                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> SELECT list</li><li><span class="mcq-option-label">B.</span> ORDER BY</li><li><span class="mcq-option-label">C.</span> Column definition DEFAULT clause (cannot use)</li><li><span class="mcq-option-label">D.</span> GROUP BY</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-11" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-11"><strong>Answer: C</strong><br><strong>C is correct.</strong> CASE works in SELECT, WHERE, GROUP BY, HAVING, and ORDER BY. It cannot be used in column DEFAULT clauses — defaults must be literal values.</div></div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> SELECT list</li><li><span class="mcq-option-label">B.</span> ORDER BY</li><li><span class="mcq-option-label">C.</span> Column definition DEFAULT clause (cannot use)</li><li><span class="mcq-option-label">D.</span> GROUP BY</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-11" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-11"><strong>Answer: C</strong><br><strong>C is correct.</strong> CASE works in SELECT, WHERE, GROUP BY, HAVING, and ORDER BY. It cannot be used in column DEFAULT clauses, defaults must be literal values.</div></div>
 <div class="question-card">
                 <div class="question-number">MCQ 12</div>
                 <div class="question-text">Why does <code>COUNT(CASE WHEN status='paid' THEN 1 END)</code> correctly count paid rows without ELSE?</div>
@@ -464,11 +464,11 @@ FROM feedback;</code></pre></div></div>
 <div class="question-card">
                 <div class="question-number">MCQ 16</div>
                 <div class="question-text">Which of these is equivalent to IFNULL(x, 0)?</div>
-                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> IF(x, 0, x)</li><li><span class="mcq-option-label">B.</span> COALESCE(x, 0)</li><li><span class="mcq-option-label">C.</span> NULLIF(x, 0)</li><li><span class="mcq-option-label">D.</span> CASE WHEN x = 0 THEN NULL ELSE x END</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-16" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-16"><strong>Answer: B</strong><br><strong>B is correct.</strong> COALESCE(x, 0) returns x if not NULL, else 0 — identical to IFNULL(x, 0). NULLIF does the opposite.</div></div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> IF(x, 0, x)</li><li><span class="mcq-option-label">B.</span> COALESCE(x, 0)</li><li><span class="mcq-option-label">C.</span> NULLIF(x, 0)</li><li><span class="mcq-option-label">D.</span> CASE WHEN x = 0 THEN NULL ELSE x END</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-16" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-16"><strong>Answer: B</strong><br><strong>B is correct.</strong> COALESCE(x, 0) returns x if not NULL, else 0, identical to IFNULL(x, 0). NULLIF does the opposite.</div></div>
 <div class="question-card">
                 <div class="question-number">MCQ 17</div>
                 <div class="question-text">A CASE that returns mixed types (string and number) in different branches will:</div>
-                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Raise a SyntaxError</li><li><span class="mcq-option-label">B.</span> Coerce all results to a compatible type (often string)</li><li><span class="mcq-option-label">C.</span> Return only the number branches</li><li><span class="mcq-option-label">D.</span> Crash at runtime</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-17" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-17"><strong>Answer: B</strong><br><strong>B is correct.</strong> MySQL picks a common type. Mixing INT and VARCHAR usually returns VARCHAR — the column's declared type is determined by type promotion rules, not by the last branch.</div></div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Raise a SyntaxError</li><li><span class="mcq-option-label">B.</span> Coerce all results to a compatible type (often string)</li><li><span class="mcq-option-label">C.</span> Return only the number branches</li><li><span class="mcq-option-label">D.</span> Crash at runtime</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-17" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-17"><strong>Answer: B</strong><br><strong>B is correct.</strong> MySQL picks a common type. Mixing INT and VARCHAR usually returns VARCHAR, the column's declared type is determined by type promotion rules, not by the last branch.</div></div>
 <div class="question-card">
                 <div class="question-number">MCQ 18</div>
                 <div class="question-text">What is the correct interpretation of <code>CASE WHEN a=1 THEN x WHEN a=2 THEN y END</code> when a=3?</div>
@@ -582,7 +582,7 @@ ORDER BY
 <div class="challenge-card">
                 <h3>Challenge 5: Safe Margin Calculation</h3>
                 <span class="challenge-difficulty medium">Medium</span>
-                <div class="challenge-description">Given campaigns(id, name, spend, revenue), return roas (revenue / spend) and margin ((revenue-spend)/revenue). Handle zeros safely — return NULL instead of dividing by zero.</div><div class="challenge-io">
+                <div class="challenge-description">Given campaigns(id, name, spend, revenue), return roas (revenue / spend) and margin ((revenue-spend)/revenue). Handle zeros safely, return NULL instead of dividing by zero.</div><div class="challenge-io">
                     <div class="challenge-io-label">Sample Input</div>
                     <div class="challenge-io-value">4 campaigns including one with spend=0 and one with revenue=0.</div>
                 </div><div class="challenge-io">

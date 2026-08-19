@@ -136,7 +136,7 @@ Multiple properties inside the style attribute are separated by semicolons. No c
 
 **Answer:** `/* comment here */`
 
-CSS comments use slash-star to open and star-slash to close. They can span multiple lines. HTML uses `<!-- -->` — different syntax.
+CSS comments use slash-star to open and star-slash to close. They can span multiple lines. HTML uses `<!-- -->`, different syntax.
 
 ### Q13. [Easy] Create a CSS rule that makes all links (a tags) have no underline.
 

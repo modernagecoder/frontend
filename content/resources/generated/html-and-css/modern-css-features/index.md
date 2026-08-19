@@ -41,7 +41,7 @@ Container queries replace resize-observer code. `:has()` replaces 'add class on 
 
 ### 2. Truly Component-Based Responsive Design
 
-Media queries respond to the viewport — but a card in a sidebar does not know about the viewport. It knows about its sidebar. Container queries let components respond to THEIR container, so the same card looks right whether it is in a wide hero or a narrow column. This is the missing piece for component-driven design systems.
+Media queries respond to the viewport, but a card in a sidebar does not know about the viewport. It knows about its sidebar. Container queries let components respond to THEIR container, so the same card looks right whether it is in a wide hero or a narrow column. This is the missing piece for component-driven design systems.
 
 ### 3. Fluid Interfaces with Zero Breakpoints
 
@@ -80,7 +80,7 @@ Container queries let you style an element based on its *container's* size rathe
 }
 ```
 
-When the `.sidebar` becomes at least 400px wide, the card inside it switches from stacked to a horizontal layout. The viewport is irrelevant — it is the container that matters.
+When the `.sidebar` becomes at least 400px wide, the card inside it switches from stacked to a horizontal layout. The viewport is irrelevant. It is the container that matters.
 
 **container-type values:**
 
@@ -175,7 +175,7 @@ Hundreds of patterns that used to require JavaScript are now one CSS rule.
 
 ### 6. Logical Properties
 
-CSS had `margin-left` and `margin-right` — but what is 'left' in Arabic, which reads right-to-left? Logical properties use 'inline' (the reading direction) and 'block' (the flow direction) instead.
+CSS had `margin-left` and `margin-right`, but what is 'left' in Arabic, which reads right-to-left? Logical properties use 'inline' (the reading direction) and 'block' (the flow direction) instead.
 
 ```
 .card {
@@ -355,7 +355,7 @@ On mobile, the address bar appears and disappears, changing the viewport. `100vh
 </html>
 ```
 
-Each `.column` is marked as a container with `container-type: inline-size`. The `.card` inside has a default vertical layout, but when its container is at least 380px wide, a container query switches it to a horizontal layout. The SAME card, the SAME CSS — but it adapts to its container, not the viewport.
+Each `.column` is marked as a container with `container-type: inline-size`. The `.card` inside has a default vertical layout, but when its container is at least 380px wide, a container query switches it to a horizontal layout. The SAME card, the SAME CSS, but it adapts to its container, not the viewport.
 
 **Output:**
 
@@ -420,7 +420,7 @@ Two cards side by side. The narrow left card stacks the image above the text. Th
 </html>
 ```
 
-Every size on the page — padding, font size, margin — uses `clamp(min, preferred, max)`. On a phone, values stay at the minimum. On a desktop, they reach the maximum. In between, they scale linearly with the viewport. Zero media queries. `text-wrap: balance` on the heading distributes the words evenly.
+Every size on the page, padding, font size, margin, uses `clamp(min, preferred, max)`. On a phone, values stay at the minimum. On a desktop, they reach the maximum. In between, they scale linearly with the viewport. Zero media queries. `text-wrap: balance` on the heading distributes the words evenly.
 
 **Output:**
 
@@ -495,7 +495,7 @@ A beautiful hero with a large gradient heading, subtitle, and call-to-action but
 </html>
 ```
 
-`:has()` walks up from any invalid input to the form and styles the form (red border, disabled button, warning message). When every input is valid, `form:has(input:valid):not(:has(input:invalid))` matches and the form turns green. Pure CSS reactive form state — something that used to need JavaScript.
+`:has()` walks up from any invalid input to the form and styles the form (red border, disabled button, warning message). When every input is valid, `form:has(input:valid):not(:has(input:invalid))` matches and the form turns green. Pure CSS reactive form state, something that used to need JavaScript.
 
 **Output:**
 
@@ -788,7 +788,7 @@ h1 {
 }
 ```
 
-The argument order is wrong. `clamp(min, preferred, max)` — first is the lower bound, second is the fluid value, third is the upper bound.
+The argument order is wrong. `clamp(min, preferred, max)`, first is the lower bound, second is the fluid value, third is the upper bound.
 
 **Correct:**
 

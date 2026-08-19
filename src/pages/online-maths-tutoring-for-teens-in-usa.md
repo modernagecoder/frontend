@@ -1,16 +1,16 @@
 ---
-title: "Online Maths Tutoring for Teens in the USA · 1:1 Middle & High School Math — Modern Age Coders"
-description: "Live 1:1 online math tutoring for American teens, grades 6–12. We teach why the math works — algebra, geometry, functions, pre-calc — so it holds up on tests and beyond. SAT/ACT ready, Common Core aligned, mentors in every US time zone. Priced for your country."
+title: "Online Maths Tutoring for Teens in the USA · 1:1 Middle & High School Math | Modern Age Coders"
+description: "Live 1:1 online math tutoring for American teens, grades 6–12. We teach why the math works, algebra, geometry, functions, pre-calc, so it holds up on tests and beyond. SAT/ACT ready, Common Core aligned, mentors in every US time zone. Priced for your country."
 canonical: https://learn.modernagecoders.com/online-maths-tutoring-for-teens-in-usa
 source: src/pages/online-maths-tutoring-for-teens-in-usa.html
 ---
-> Live 1:1 online math tutoring for American teens, grades 6–12. We teach why the math works — algebra, geometry, functions, pre-calc — so it holds up on tests and beyond. SAT/ACT ready, Common Core aligned, mentors in every US time zone. Priced for your country.
+> Live 1:1 online math tutoring for American teens, grades 6–12. We teach why the math works, algebra, geometry, functions, pre-calc, so it holds up on tests and beyond. SAT/ACT ready, Common Core aligned, mentors in every US time zone. Priced for your country.
 
 Why teens fall behind in math
 
 ## Math is the one subject where last year's gap quietly sinks this year's grade.
 
-History or English forgive a shaky chapter — you can still follow the next one. Math doesn't. If fractions never really clicked in 6th grade, algebra feels impossible in 8th, and by 10th grade a capable teenager has decided they're "bad at math." They're not. They're standing on one missing brick.
+History or English forgive a shaky chapter. You can still follow the next one. Math doesn't. If fractions never really clicked in 6th grade, algebra feels impossible in 8th, and by 10th grade a capable teenager has decided they're "bad at math." They're not. They're standing on one missing brick.
 
 Cramming makes this worse. A student memorizes enough to survive the test, the understanding never forms, and the gap widens silently until the next exam exposes it.
 
@@ -30,7 +30,7 @@ Before we touch the current chapter, we find the earlier idea that's actually mi
 
 ### Derive, don't dictate
 
-We show your teen where a formula comes from. A formula you can rebuild is a formula you can't forget — and one you can adapt when a problem looks unfamiliar.
+We show your teen where a formula comes from. A formula you can rebuild is a formula you can't forget, and one you can adapt when a problem looks unfamiliar.
 
 ### Make them do the talking
 
@@ -42,17 +42,17 @@ Once the idea is solid, we drill for fluency and, when relevant, train SAT/ACT p
 
 See it for yourself
 
-## The quadratic formula — where it actually comes from.
+## The quadratic formula: where it actually comes from.
 
 Worked example · algebra 1–2
 
-**What most teens get:** a formula to memorize — x = (−b ± √(b² − 4ac)) / 2a — with no idea why it's true. So when they forget a sign or a square root, there's nothing to fall back on.
+**What most teens get:** a formula to memorize, x = (−b ± √(b² − 4ac)) / 2a, with no idea why it's true. So when they forget a sign or a square root, there's nothing to fall back on.
 
-**How we do it.** The formula is just what happens when you solve *any* equation of the form ax² + bx + c = 0 by "completing the square" — turning the left side into a perfect square you can undo. We do it once, in the open:
+**How we do it.** The formula is just what happens when you solve *any* equation of the form ax² + bx + c = 0 by "completing the square", turning the left side into a perfect square you can undo. We do it once, in the open:
 
 ax² + bx + c = 0divide by a: x² + (b/a)x + c/a = 0move c/a over: x² + (b/a)x = −c/acomplete the square (add (b/2a)²): (x + b/2a)² = b²/4a² − c/a = (b² − 4ac) / 4a²take the square root, isolate x: x = (−b ± √(b² − 4ac)) / 2a
 
-Now the formula isn't a magic spell — it's the recorded result of a procedure your teen can run themselves. The "± √" suddenly makes sense (a square root has two signs), and so does the discriminant b² − 4ac telling you how many real solutions exist. This is the difference between a grade that survives one test and understanding that survives the year.
+Now the formula isn't a magic spell. It's the recorded result of a procedure your teen can run themselves. The "± √" suddenly makes sense (a square root has two signs), and so does the discriminant b² − 4ac telling you how many real solutions exist. This is the difference between a grade that survives one test and understanding that survives the year.
 
 Why a coding school teaches math
 
@@ -64,13 +64,13 @@ A hard problem is solved by breaking it into smaller ones. A multi-step word pro
 
 ### Abstraction
 
-A function in algebra — input goes in, output comes out — is the same idea as a function in code. Teens who get one get the other for free.
+A function in algebra, input goes in, output comes out, is the same idea as a function in code. Teens who get one get the other for free.
 
 ### Debugging your reasoning
 
 "Where did this go wrong?" is a skill. We teach teens to trace their own logic and find the error themselves, instead of waiting for a red mark.
 
-We're Modern Age Coders — we've spent years teaching teenagers to think like builders. Math is where that thinking is sharpest. A teen who learns math as logic walks into computer science, physics and economics already fluent in the way those subjects actually think.
+We're Modern Age Coders. We've spent years teaching teenagers to think like builders. Math is where that thinking is sharpest. A teen who learns math as logic walks into computer science, physics and economics already fluent in the way those subjects actually think.
 
 What we cover
 
@@ -80,15 +80,15 @@ From the pre-algebra that sets everything up to the pre-calc that opens the door
 
 ### Pre-algebra (grades 6–8)
 
-Integers and negatives, ratios and proportion, percentages, expressions and the leap into variables — the bridge most students cross too quickly.
+Integers and negatives, ratios and proportion, percentages, expressions and the leap into variables, the bridge most students cross too quickly.
 
 ### Algebra 1 & 2
 
-Linear equations and systems, quadratics, polynomials, exponentials and logarithms, functions and their graphs — taught from where they come from, not as rules to recite.
+Linear equations and systems, quadratics, polynomials, exponentials and logarithms, functions and their graphs, taught from where they come from, not as rules to recite.
 
 ### Geometry
 
-Proof as logical argument, congruence and similarity, circles, coordinate geometry, area and volume — the course where "show your reasoning" finally has teeth.
+Proof as logical argument, congruence and similarity, circles, coordinate geometry, area and volume, the course where "show your reasoning" finally has teeth.
 
 ### Trigonometry & pre-calculus
 
@@ -96,7 +96,7 @@ The unit circle that ties it together, identities, sequences and series, and the
 
 ### SAT & ACT math readiness
 
-Because the tests reward the same understanding we build, plus the timing, format and traps unique to each — sharpened as test day nears.
+Because the tests reward the same understanding we build, plus the timing, format and traps unique to each, sharpened as test day nears.
 
 ### Confidence under pressure
 
@@ -104,7 +104,7 @@ How to read a hard problem without panicking, show working that earns method mar
 
 Who this is for
 
-## The right fit — and an honest word on what to expect.
+## The right fit: and an honest word on what to expect.
 
 **This fits** the teen who's falling behind and losing confidence, the one coasting on memory who's about to hit a wall, and the strong student aiming for top SAT/ACT math or the hardest classes their school offers. We teach the whole range.
 
@@ -135,7 +135,7 @@ Mentors in all six US zones. Two weekly slots after school, evenings, or weekend
 
 ### You stay informed
 
-A note after each class and a progress summary every few weeks — in plain language.
+A note after each class and a progress summary every few weeks, in plain language.
 
 Pricing
 
@@ -167,9 +167,9 @@ Who teaches your teen
 
 ## Mentors who can explain the same idea five different ways.
 
-Teenagers can tell instantly when a teacher only knows one route through a problem. Our mentors are chosen because they know the material deeply enough to find the explanation that works for *this* student — and because they don't make a teen feel stupid for asking.
+Teenagers can tell instantly when a teacher only knows one route through a problem. Our mentors are chosen because they know the material deeply enough to find the explanation that works for *this* student, and because they don't make a teen feel stupid for asking.
 
-The same mentor stays with your teen all year. That continuity is what makes a 15-year-old willing to say "I still don't get it" — the sentence that every real improvement starts with.
+The same mentor stays with your teen all year. That continuity is what makes a 15-year-old willing to say "I still don't get it", the sentence that every real improvement starts with.
 
 "My child Dhairya is really enjoying the classes. This is his first online class, and he eagerly looks forward to it. I can see his improvement."
 
@@ -183,7 +183,7 @@ An honest comparison
 
 | What matters | Modern Age Coders | Homework-help apps | A typical tutor |
 | --- | --- | --- | --- |
-| Fixes the root gap | Diagnoses & rebuilds it | No — answers only | Sometimes |
+| Fixes the root gap | Diagnoses & rebuilds it | No, answers only | Sometimes |
 | Teaches reasoning | Always | Rarely | Varies |
 | Same teacher each time | Yes, all year | N/A | Often |
 | SAT/ACT readiness | Built in | Add-on app | Varies |
@@ -197,11 +197,11 @@ Questions parents ask
 
 What grades and ages do you teach?
 
-Grades 6 through 12 — roughly ages 11 to 18. We cover pre-algebra, algebra 1, geometry, algebra 2, trigonometry and pre-calculus, and place each student by what they can actually do, not just their grade.
+Grades 6 through 12, roughly ages 11 to 18. We cover pre-algebra, algebra 1, geometry, algebra 2, trigonometry and pre-calculus, and place each student by what they can actually do, not just their grade.
 
 My teen is failing math. Where do you start?
 
-By finding the exact topic where things stopped making sense — usually one or two missing ideas from an earlier year. We fix the foundation first, then the current work gets much easier on its own.
+By finding the exact topic where things stopped making sense, usually one or two missing ideas from an earlier year. We fix the foundation first, then the current work gets much easier on its own.
 
 Do you prepare students for the SAT and ACT?
 
@@ -213,7 +213,7 @@ Yes. We follow Common Core and your state's high-school standards, and can work 
 
 How much does it cost?
 
-USD 150 per month for private 1:1 tutoring — eight live classes, two each week. Small-group option is USD 100 per month. No contract; cancel any time.
+USD 150 per month for private 1:1 tutoring, eight live classes, two each week. Small-group option is USD 100 per month. No contract; cancel any time.
 
 Is there a free trial?
 
@@ -221,15 +221,15 @@ Yes. The first lesson is free, with no card needed. Your teen meets the mentor a
 
 Will my teen keep the same tutor?
 
-Yes — one mentor all year, which matters for older students who need to trust someone before admitting what they don't understand.
+Yes, one mentor all year, which matters for older students who need to trust someone before admitting what they don't understand.
 
 What time zones do mentors cover?
 
-All six US time zones. Your teen picks two weekly slots in your own zone — after school, evenings or weekends.
+All six US time zones. Your teen picks two weekly slots in your own zone, after school, evenings or weekends.
 
 Are classes live or pre-recorded?
 
-Live, one-to-one, with a shared whiteboard. A recording can't catch a student nodding along without understanding — a live teacher can.
+Live, one-to-one, with a shared whiteboard. A recording can't catch a student nodding along without understanding, a live teacher can.
 
 Can tutoring help raise my teen's grade?
 
@@ -237,7 +237,7 @@ Usually, over a term of steady work rather than a week. When the underlying idea
 
 Do you help with homework and test prep?
 
-Yes — using your teen's own homework and tests as the material, teaching the reasoning so they can do the next one alone, not just handing over answers.
+Yes, using your teen's own homework and tests as the material, teaching the reasoning so they can do the next one alone, not just handing over answers.
 
 Can we start mid-semester?
 
@@ -259,7 +259,7 @@ Real student projects
 
 Every one is a real, live project shipped by a Modern Age Coders student. Explore more in [Student Labs](/student-labs).
 
-[![SkyCast — Weather Forecast App](/images/projects/skycast.webp)Web AppSkyCast — Weather Forecast AppAn interactive weather forecasting site with real-time updates for any location — temperature, humidity, wind speed and conditions in a clean, responsive interface.by KrishOpen the live project ↗](https://krish-shroff.github.io/AuraWeatherTech/)[![HugSelle — AI Smile Generator](/images/projects/hugselle.webp)AI & MLHugSelle — AI Smile GeneratorA heartwarming AI-powered web app that detects your mood and generates uplifting quotes and visuals to make you smile — a creative blend of technology and positivity.by AnuragOpen the live project ↗](https://hugselle.modernagecoders.com)[![Moxo — Company Landing Page](/images/projects/moxo.webp)Web AppMoxo — Company Landing PageA stunning modern landing page with smooth parallax scrolling, advanced GSAP animations and elegant section transitions that bring the brand to life.by IshaOpen the live project ↗](https://moxo.modernagecoders.com)
+[![SkyCast, Weather Forecast App](/images/projects/skycast.webp)Web AppSkyCast, Weather Forecast AppAn interactive weather forecasting site with real-time updates for any location, temperature, humidity, wind speed and conditions in a clean, responsive interface.by KrishOpen the live project ↗](https://krish-shroff.github.io/AuraWeatherTech/)[![HugSelle, AI Smile Generator](/images/projects/hugselle.webp)AI & MLHugSelle, AI Smile GeneratorA heartwarming AI-powered web app that detects your mood and generates uplifting quotes and visuals to make you smile, a creative blend of technology and positivity.by AnuragOpen the live project ↗](https://hugselle.modernagecoders.com)[![Moxo, Company Landing Page](/images/projects/moxo.webp)Web AppMoxo, Company Landing PageA stunning modern landing page with smooth parallax scrolling, advanced GSAP animations and elegant section transitions that bring the brand to life.by IshaOpen the live project ↗](https://moxo.modernagecoders.com)
 
 Parent & student voices
 

@@ -15,7 +15,7 @@ category: "SQL"
 
 *Hint:* Think all-or-nothing.
 
-**Answer:** Atomicity. Every statement inside a transaction succeeds together or none of them do. A partial completion is impossible — on ROLLBACK or crash, the entire transaction is undone.
+**Answer:** Atomicity. Every statement inside a transaction succeeds together or none of them do. A partial completion is impossible, on ROLLBACK or crash, the entire transaction is undone.
 
 Atomicity is implemented via the undo log: changes are kept in a rollback buffer until COMMIT, which discards the undo; ROLLBACK applies it in reverse.
 
@@ -50,7 +50,7 @@ ROLLBACK undoes every change since START TRANSACTION. The balance returns to its
 
 **Answer:** `REPEATABLE READ`. Unlike some databases (PostgreSQL defaults to READ COMMITTED), MySQL/InnoDB chose REPEATABLE READ as its default because MVCC makes it cheap and it prevents most common anomalies.
 
-InnoDB's REPEATABLE READ also uses next-key locking, which in practice prevents phantom reads — stricter than the SQL standard requires.
+InnoDB's REPEATABLE READ also uses next-key locking, which in practice prevents phantom reads, stricter than the SQL standard requires.
 
 ### Q5. [Easy] What is a dirty read?
 
@@ -91,7 +91,7 @@ ROLLBACK TO SAVEPOINT p1 undoes the second UPDATE but keeps the first one. COMMI
 
 **Answer:** `READ COMMITTED`.
 
-READ COMMITTED reads the latest committed snapshot on each statement. So if another transaction commits between two SELECTs in yours, the second SELECT sees different data — that is a non-repeatable read.
+READ COMMITTED reads the latest committed snapshot on each statement. So if another transaction commits between two SELECTs in yours, the second SELECT sees different data. That is a non-repeatable read.
 
 ### Q9. [Medium] What does SELECT ... FOR UPDATE do?
 
@@ -115,7 +115,7 @@ MySQL's detector runs on every lock request, so deadlocks are resolved in millis
 
 **Answer:** MVCC lets readers and writers run concurrently without blocking each other. SELECT sees a snapshot of the database as of transaction start, regardless of concurrent writes. Taking read locks instead would force readers to queue behind writers and vice versa, crushing throughput.
 
-This is why MySQL's default REPEATABLE READ is fast — reads are lock-free. Writes still need locks.
+This is why MySQL's default REPEATABLE READ is fast, reads are lock-free. Writes still need locks.
 
 ### Q12. [Medium] Is SERIALIZABLE always the right choice for safety?
 
@@ -129,15 +129,15 @@ The engineering trade-off: stronger isolation reduces throughput. Pick the weake
 
 *Hint:* Think MVCC snapshots vs write locks.
 
-**Answer:** Each transaction's SELECT reads the MVCC snapshot taken at transaction start — both see balance = 500. Each transaction's IF check decides 500 >= 300 is OK and issues an UPDATE. UPDATE takes a write lock, so the second one waits, but once it acquires it, it just executes `balance = balance - 300` on the current (already-debited) value. Final balance: -100. REPEATABLE READ prevents the read from changing, not the arithmetic from overshooting. FOR UPDATE forces the SELECT itself to lock, serialising the whole critical section.
+**Answer:** Each transaction's SELECT reads the MVCC snapshot taken at transaction start. Both see balance = 500. Each transaction's IF check decides 500 >= 300 is OK and issues an UPDATE. UPDATE takes a write lock, so the second one waits, but once it acquires it, it just executes `balance = balance - 300` on the current (already-debited) value. Final balance: -100. REPEATABLE READ prevents the read from changing, not the arithmetic from overshooting. FOR UPDATE forces the SELECT itself to lock, serialising the whole critical section.
 
-This is the 'lost update / write skew' class of anomaly. It is not prevented by REPEATABLE READ — only by explicit row locks (FOR UPDATE) or SERIALIZABLE.
+This is the 'lost update / write skew' class of anomaly. It is not prevented by REPEATABLE READ, only by explicit row locks (FOR UPDATE) or SERIALIZABLE.
 
 ### Q14. [Hard] Why must DDL statements be treated as permanent in MySQL transactions?
 
 *Hint:* Implicit commits.
 
-**Answer:** Statements like CREATE TABLE, ALTER TABLE, DROP TABLE, TRUNCATE, and RENAME cause an implicit COMMIT of the current transaction. A subsequent ROLLBACK cannot undo the DDL (the table is still created/dropped/altered). This is a MySQL-specific behaviour — some databases (PostgreSQL) have transactional DDL. Plan migrations accordingly.
+**Answer:** Statements like CREATE TABLE, ALTER TABLE, DROP TABLE, TRUNCATE, and RENAME cause an implicit COMMIT of the current transaction. A subsequent ROLLBACK cannot undo the DDL (the table is still created/dropped/altered). This is a MySQL-specific behaviour, some databases (PostgreSQL) have transactional DDL. Plan migrations accordingly.
 
 MySQL 8.0 introduced 'atomic DDL' for some storage engines and some statements, but you should still not rely on it for production migrations.
 
@@ -145,9 +145,9 @@ MySQL 8.0 introduced 'atomic DDL' for some storage engines and some statements, 
 
 *Hint:* Locks attach to what the engine scans.
 
-**Answer:** InnoDB locks the index rows it reads to enforce isolation. Without an index on the WHERE column, a statement scans (and thus locks) far more rows than it needs — potentially the whole table. With an index, only the matching index entries are locked. Better indexes mean less locking, fewer deadlocks, and higher concurrency.
+**Answer:** InnoDB locks the index rows it reads to enforce isolation. Without an index on the WHERE column, a statement scans (and thus locks) far more rows than it needs, potentially the whole table. With an index, only the matching index entries are locked. Better indexes mean less locking, fewer deadlocks, and higher concurrency.
 
-This is why advice to 'add the right indexes' is not just about query speed — it is also about concurrency safety.
+This is why advice to 'add the right indexes' is not just about query speed. It is also about concurrency safety.
 
 ### Q16. [Hard] Describe the 'transactional outbox' pattern and when to use it.
 
@@ -247,7 +247,7 @@ What does Session 2's SELECT return (assuming original x = 5)?
 
 **Answer:** `5`
 
-Session 1's UPDATE is not yet committed. Session 2 under READ COMMITTED reads the latest committed value, which is the original 5. Session 2 waits at nothing — it reads without blocking because plain SELECT does not block on write locks under MVCC.
+Session 1's UPDATE is not yet committed. Session 2 under READ COMMITTED reads the latest committed value, which is the original 5. Session 2 waits at nothing. It reads without blocking because plain SELECT does not block on write locks under MVCC.
 
 ### Q7. [Medium] What does LOCK IN SHARE MODE guarantee?
 
@@ -280,7 +280,7 @@ SELECT balance FROM accounts WHERE id = 1;  -- under REPEATABLE READ
 
 **Answer:** Session 2's plain SELECT returns the old, pre-deduction balance and does not block. Session 1's uncommitted UPDATE is invisible under MVCC. But Session 1's lock is still held indefinitely, so any *write* to row id = 1 by another session will block until Session 1 commits, rolls back, or is killed.
 
-Forgotten transactions are a classic cause of 'the database hangs' — they hold locks forever. Connection pools, idle timeouts, and `innodb_rollback_on_timeout` help but are not a substitute for careful app code.
+Forgotten transactions are a classic cause of 'the database hangs'. They hold locks forever. Connection pools, idle timeouts, and `innodb_rollback_on_timeout` help but are not a substitute for careful app code.
 
 ### Q10. [Hard] Why should you never call an external API inside a transaction?
 
@@ -310,15 +310,15 @@ This is a durability/atomicity interaction: uncommitted changes never become dur
 
 *Hint:* Two transactions each read a consistent snapshot and write different rows.
 
-**Answer:** Write skew: two transactions each read a consistent view of the data, then each writes to a different row. Individually, each write is valid — but the combined effect breaks an invariant. Example: two on-call engineers. Rule: at least one must be on call. Each transaction checks 'I am the only one off-call, but there is still one other' and then both go off-call simultaneously. REPEATABLE READ does not prevent this because neither transaction modified a row the other read. Only SERIALIZABLE or explicit FOR UPDATE on the invariant rows prevents it.
+**Answer:** Write skew: two transactions each read a consistent view of the data, then each writes to a different row. Individually, each write is valid, but the combined effect breaks an invariant. Example: two on-call engineers. Rule: at least one must be on call. Each transaction checks 'I am the only one off-call, but there is still one other' and then both go off-call simultaneously. REPEATABLE READ does not prevent this because neither transaction modified a row the other read. Only SERIALIZABLE or explicit FOR UPDATE on the invariant rows prevents it.
 
-Write skew is the classic reason SERIALIZABLE sometimes matters. It is rare but real — identify it by invariants that span multiple rows and involve a read-then-write pattern.
+Write skew is the classic reason SERIALIZABLE sometimes matters. It is rare but real, identify it by invariants that span multiple rows and involve a read-then-write pattern.
 
 ### Q13. [Hard] What is innodb_lock_wait_timeout and when does it matter?
 
 *Hint:* Default 50 seconds.
 
-**Answer:** The number of seconds a transaction will wait for a row lock before giving up with error 1205 (Lock wait timeout exceeded). Default is 50 seconds. For OLTP workloads, 50 seconds is far too long — it amounts to an outage from the user's perspective. Setting it to 3-5 seconds surfaces contention problems quickly and keeps p99 latency in check.
+**Answer:** The number of seconds a transaction will wait for a row lock before giving up with error 1205 (Lock wait timeout exceeded). Default is 50 seconds. For OLTP workloads, 50 seconds is far too long. It amounts to an outage from the user's perspective. Setting it to 3-5 seconds surfaces contention problems quickly and keeps p99 latency in check.
 
 Note this is different from the deadlock detector (which triggers immediately on a cycle). Lock wait timeout triggers on long one-way waits, where no cycle exists but a lock is held for a very long time.
 
@@ -336,7 +336,7 @@ Many high-throughput shops run on READ COMMITTED for this reason. Design your re
 
 **Answer:** (1) `SHOW PROCESSLIST` to find the offending thread, then `KILL ;` to terminate it and roll it back. (2) Ride out the storm and alert on lock wait timeouts; the transaction eventually commits, rolls back, or the client disconnects. Option 1 is usually the right call in production.
 
-Also worth knowing: `SELECT * FROM information_schema.INNODB_TRX ORDER BY trx_started` shows the oldest running transactions — a goldmine for diagnosing lock contention.
+Also worth knowing: `SELECT * FROM information_schema.INNODB_TRX ORDER BY trx_started` shows the oldest running transactions, a goldmine for diagnosing lock contention.
 
 ## Multiple Choice Questions
 

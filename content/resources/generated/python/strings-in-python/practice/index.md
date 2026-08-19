@@ -163,7 +163,7 @@ print(text.count("t"))
 `-1`
 `2`
 
-`find("is")` finds "is" starting at index 7. `find("was")` returns -1 because "was" is not in the string. `count("t")` counts occurrences of 't': one in 'great' (index 14) and one at index 2 in 'Python' — wait, let us recount. 'P-y-t-h-o-n- -i-s- -g-r-e-a-t'. The 't' appears at index 2 and index 14, so count is 2.
+`find("is")` finds "is" starting at index 7. `find("was")` returns -1 because "was" is not in the string. `count("t")` counts occurrences of 't': one in 'great' (index 14) and one at index 2 in 'Python', wait, let us recount. 'P-y-t-h-o-n- -i-s- -g-r-e-a-t'. The 't' appears at index 2 and index 14, so count is 2.
 
 ### Q11. [Medium] What is the output?
 

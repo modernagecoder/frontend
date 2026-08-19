@@ -248,7 +248,7 @@ Explicit ON is always safer because it declares your intent and resists schema e
 
 *Hint:* Associative property.
 
-**Answer:** `No. INNER JOINs are associative — (A JOIN B) JOIN C equals A JOIN (B JOIN C). Only performance may differ.`
+**Answer:** `No. INNER JOINs are associative, (A JOIN B) JOIN C equals A JOIN (B JOIN C). Only performance may differ.`
 
 The optimizer picks execution order. For readability, write JOINs in the order you think about the relationships.
 
@@ -442,7 +442,7 @@ SELECT m.name, COUNT(e.id) AS n FROM employees m LEFT JOIN employees e ON e.mana
 
 **Answer:** B
 
-**B is correct.** Adding a column with a common name (e.g., created_at, updated_at) to both tables changes what NATURAL JOIN matches on — silently. Queries that worked yesterday return different results today. Always use explicit ON.
+**B is correct.** Adding a column with a common name (e.g., created_at, updated_at) to both tables changes what NATURAL JOIN matches on, silently. Queries that worked yesterday return different results today. Always use explicit ON.
 
 ## Coding Challenges
 

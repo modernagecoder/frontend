@@ -4,7 +4,7 @@
  * Setup instructions:
  * 1. Go to Meta Events Manager → Data Sources → Add → Web → Meta Pixel
  * 2. Replace 'YOUR_PIXEL_ID' below with your actual Pixel ID
- * 3. This file is included on all pages — update once, works everywhere
+ * 3. This file is included on all pages, update once, works everywhere
  */
 
 (function() {

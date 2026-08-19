@@ -161,7 +161,7 @@ new B().show();
 **Answer:** `B`
 `A`
 
-B defines a field `type` that hides A's field with the same name (field hiding, not overriding). `this.type` refers to B's version ("B"). `super.type` explicitly refers to A's version ("A"). Note: field hiding is different from method overriding — fields are resolved at compile time based on the reference type.
+B defines a field `type` that hides A's field with the same name (field hiding, not overriding). `this.type` refers to B's version ("B"). `super.type` explicitly refers to A's version ("A"). Note: field hiding is different from method overriding, fields are resolved at compile time based on the reference type.
 
 ### Q8. [Medium] What is the output?
 
@@ -374,7 +374,7 @@ obj.hello();
 
 **Answer:** `A`
 
-Static methods are not overridden — they are hidden. `obj` is declared as type `A`, so `obj.hello()` calls `A.hello()` regardless of the actual object type. Static methods are resolved at compile time based on the declared type.
+Static methods are not overridden. They are hidden. `obj` is declared as type `A`, so `obj.hello()` calls `A.hello()` regardless of the actual object type. Static methods are resolved at compile time based on the declared type.
 
 ### Q5. [Medium] What is the output?
 
@@ -495,7 +495,7 @@ D. Hierarchical inheritance
 
 **Answer:** C
 
-**C is correct.** Java does not support multiple inheritance with classes — a class can extend only one class. Single (A), multilevel (B), and hierarchical (D) are all supported.
+**C is correct.** Java does not support multiple inheritance with classes, a class can extend only one class. Single (A), multilevel (B), and hierarchical (D) are all supported.
 
 ### Q3. [Easy] What does the @Override annotation do?
 
@@ -506,7 +506,7 @@ D. It makes the method public
 
 **Answer:** B
 
-**B is correct.** `@Override` is optional but causes the compiler to verify that the method signature matches a superclass method. If it does not match (typo in name or wrong parameters), the compiler reports an error. It is not required (A), does not prevent further overriding (C — that is `final`), and does not change access (D).
+**B is correct.** `@Override` is optional but causes the compiler to verify that the method signature matches a superclass method. If it does not match (typo in name or wrong parameters), the compiler reports an error. It is not required (A), does not prevent further overriding (C. That is `final`), and does not change access (D).
 
 ### Q4. [Easy] If class B extends class A, which constructor runs first when creating a B object?
 
@@ -572,7 +572,7 @@ D. No, final classes cannot have methods
 
 **Answer:** A
 
-**A is correct.** A final class cannot be extended, so no subclass exists to override any of its methods. Making methods final in a final class is syntactically valid but redundant — there is no subclass to prevent overriding in.
+**A is correct.** A final class cannot be extended, so no subclass exists to override any of its methods. Making methods final in a final class is syntactically valid but redundant. There is no subclass to prevent overriding in.
 
 ### Q10. [Hard] What is the output?
 
@@ -603,7 +603,7 @@ D. Compilation error
 ### Q11. [Hard] Which of the following is true about calling super() and this() in a constructor?
 
 A. Both can be called in the same constructor
-B. Only one can be the first statement — they are mutually exclusive
+B. Only one can be the first statement. They are mutually exclusive
 C. super() can be called anywhere in the constructor
 D. this() is not allowed in constructors
 
@@ -614,7 +614,7 @@ D. this() is not allowed in constructors
 ### Q12. [Hard] What is the relationship between fields and inheritance in Java?
 
 A. Fields are overridden just like methods
-B. Fields are hidden (not overridden) — the subclass field exists alongside the parent field
+B. Fields are hidden (not overridden), the subclass field exists alongside the parent field
 C. Fields cannot be declared in subclasses if they exist in the superclass
 D. Fields are always inherited as public
 

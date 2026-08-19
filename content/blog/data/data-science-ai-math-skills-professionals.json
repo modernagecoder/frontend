@@ -49,7 +49,7 @@
       },
       {
         "type": "paragraph",
-        "text": "The tech industry has a new currency: data literacy. Whether you're a software developer, product manager, or business analyst, understanding data science, AI, and the mathematics behind them isn't optional anymore—it's essential for career survival and growth. The professionals who master this skill trinity are commanding premium salaries and leading the most innovative projects in every industry."
+        "text": "The tech industry has a new currency: data literacy. Whether you're a software developer, product manager, or business analyst, understanding data science, AI, and the mathematics behind them isn't optional anymore. It's essential for career survival and growth. The professionals who master this skill trinity are commanding premium salaries and leading the most innovative projects in every industry."
       },
       {
         "type": "paragraph",
@@ -57,7 +57,7 @@
       },
       {
         "type": "paragraph",
-        "text": "Think of data science, AI, and mathematics as three interconnected pillars. Data science gives you the tools to extract insights from information. AI provides the algorithms to automate decisions and predictions. Mathematics is the foundation that makes both possible. Together, they form the most powerful skill combination in modern tech—and the demand for professionals who understand all three is skyrocketing."
+        "text": "Think of data science, AI, and mathematics as three interconnected pillars. Data science gives you the tools to extract insights from information. AI provides the algorithms to automate decisions and predictions. Mathematics is the foundation that makes both possible. Together, they form the most powerful skill combination in modern tech, and the demand for professionals who understand all three is skyrocketing."
       },
       {
         "type": "paragraph",
@@ -67,7 +67,7 @@
         "type": "callout",
         "calloutType": "info",
         "title": "2025 Market Reality",
-        "text": "According to the World Economic Forum, data analysts and AI specialists are among the top 10 fastest-growing jobs globally. LinkedIn reports a 74% annual growth in AI-related job postings, with demand far outpacing supply of qualified candidates. The U.S. Bureau of Labor Statistics projects 35% growth in data science roles through 2032—seven times faster than average job growth."
+        "text": "According to the World Economic Forum, data analysts and AI specialists are among the top 10 fastest-growing jobs globally. LinkedIn reports a 74% annual growth in AI-related job postings, with demand far outpacing supply of qualified candidates. The U.S. Bureau of Labor Statistics projects 35% growth in data science roles through 2032, seven times faster than average job growth."
       },
       {
         "type": "heading",
@@ -77,7 +77,7 @@
       },
       {
         "type": "paragraph",
-        "text": "Before diving into what skills to learn, let's look at the hard data driving this transformation. Understanding market demand helps you make strategic decisions about where to invest your learning time. These aren't projections or guesses—they're current market realities that are reshaping career trajectories across every industry."
+        "text": "Before diving into what skills to learn, let's look at the hard data driving this transformation. Understanding market demand helps you make strategic decisions about where to invest your learning time. These aren't projections or guesses. They're current market realities that are reshaping career trajectories across every industry."
       },
       {
         "type": "heading",
@@ -181,7 +181,7 @@
         "type": "callout",
         "calloutType": "tip",
         "title": "The Domain Advantage",
-        "text": "Professionals with industry experience who add data science skills often command 20-30% higher salaries than pure technologists. Your domain knowledge is a competitive advantage—a data scientist who understands healthcare compliance or financial regulations is far more valuable than one who doesn't. According to Harvard Business Review, 'hybrid' professionals with both domain and technical expertise are the most sought-after candidates in the market."
+        "text": "Professionals with industry experience who add data science skills often command 20-30% higher salaries than pure technologists. Your domain knowledge is a competitive advantage, a data scientist who understands healthcare compliance or financial regulations is far more valuable than one who doesn't. According to Harvard Business Review, 'hybrid' professionals with both domain and technical expertise are the most sought-after candidates in the market."
       },
       {
         "type": "heading",
@@ -273,7 +273,7 @@
       },
       {
         "type": "paragraph",
-        "text": "Before creating a learning plan, you need to honestly assess your current skill level. This self-assessment will help you identify gaps and prioritize your learning. Be honest with yourself—overestimating your abilities leads to frustration, while underestimating them wastes time on basics you've already mastered."
+        "text": "Before creating a learning plan, you need to honestly assess your current skill level. This self-assessment will help you identify gaps and prioritize your learning. Be honest with yourself, overestimating your abilities leads to frustration, while underestimating them wastes time on basics you've already mastered."
       },
       {
         "type": "paragraph",
@@ -417,7 +417,7 @@
         "type": "callout",
         "calloutType": "tip",
         "title": "Assessment Action Items",
-        "text": "Based on your scores, identify your top 3 weakest areas. These should be your immediate learning priorities. Don't try to improve everything at once—focused effort on key gaps produces faster results than scattered learning across all areas."
+        "text": "Based on your scores, identify your top 3 weakest areas. These should be your immediate learning priorities. Don't try to improve everything at once, focused effort on key gaps produces faster results than scattered learning across all areas."
       },
       {
         "type": "button",
@@ -437,7 +437,7 @@
       },
       {
         "type": "paragraph",
-        "text": "Now that you've assessed where you stand, let's dive deep into each skill area. Understanding what you need to learn—and why—helps you prioritize effectively and stay motivated through the learning journey."
+        "text": "Now that you've assessed where you stand, let's dive deep into each skill area. Understanding what you need to learn, and why, helps you prioritize effectively and stay motivated through the learning journey."
       },
       {
         "type": "heading",
@@ -446,14 +446,14 @@
       },
       {
         "type": "paragraph",
-        "text": "Many professionals try to skip the math and jump straight to coding ML models. This works until it doesn't. When your model behaves unexpectedly, when you need to debug an algorithm, when you're choosing between approaches—that's when mathematical understanding becomes essential. You don't need to prove theorems, but you need intuition for how these concepts work."
+        "text": "Many professionals try to skip the math and jump straight to coding ML models. This works until it doesn't. When your model behaves unexpectedly, when you need to debug an algorithm, when you're choosing between approaches. That's when mathematical understanding becomes essential. You don't need to prove theorems, but you need intuition for how these concepts work."
       },
       {
         "type": "list",
         "style": "unordered",
         "items": [
           "<strong>Linear Algebra:</strong> The backbone of machine learning. Every neural network, every recommendation system, every image recognition model relies on matrix operations. Understanding vectors and matrices helps you grasp how data flows through models and why certain architectures work. Real-world application: Netflix's recommendation system uses matrix factorization to predict what you'll watch next.",
-          "<strong>Calculus:</strong> Essential for understanding how models learn. Gradient descent—the algorithm that trains most ML models—is fundamentally a calculus concept. You need to understand derivatives to understand optimization. Real-world application: Every time you train a neural network, calculus is working behind the scenes to minimize errors.",
+          "<strong>Calculus:</strong> Essential for understanding how models learn. Gradient descent, the algorithm that trains most ML models, is fundamentally a calculus concept. You need to understand derivatives to understand optimization. Real-world application: Every time you train a neural network, calculus is working behind the scenes to minimize errors.",
           "<strong>Probability & Statistics:</strong> The language of uncertainty. Data science is about making decisions under uncertainty, and statistics gives you the tools to quantify that uncertainty. Bayesian thinking, hypothesis testing, and probability distributions are daily tools. Real-world application: A/B testing at companies like Google relies entirely on statistical inference.",
           "<strong>Discrete Mathematics:</strong> Important for algorithm design and understanding computational complexity. Graph theory, combinatorics, and logic help you think systematically about problems. Real-world application: Social network analysis and fraud detection rely heavily on graph theory."
         ]
@@ -462,7 +462,7 @@
         "type": "callout",
         "calloutType": "tip",
         "title": "The 80/20 of Math for Data Science",
-        "text": "Focus on intuition over computation. You'll rarely calculate derivatives by hand—computers do that. But understanding what a derivative means, why gradient descent works, and how probability distributions behave will make you a better data scientist than memorizing formulas. Start with Khan Academy for foundations, then move to 3Blue1Brown for visual intuition."
+        "text": "Focus on intuition over computation. You'll rarely calculate derivatives by hand, computers do that. But understanding what a derivative means, why gradient descent works, and how probability distributions behave will make you a better data scientist than memorizing formulas. Start with Khan Academy for foundations, then move to 3Blue1Brown for visual intuition."
       },
       {
         "type": "heading",
@@ -477,9 +477,9 @@
         "type": "list",
         "style": "unordered",
         "items": [
-          "<strong>Core Python:</strong> Master the fundamentals—data structures, functions, classes, file handling. These basics are the foundation for everything else. Spend 4-6 weeks here before moving to libraries.",
+          "<strong>Core Python:</strong> Master the fundamentals, data structures, functions, classes, file handling. These basics are the foundation for everything else. Spend 4-6 weeks here before moving to libraries.",
           "<strong>NumPy:</strong> The foundation for numerical computing in Python. Understanding arrays and vectorized operations is essential for efficient data manipulation. NumPy operations can be 100x faster than pure Python loops.",
-          "<strong>Pandas:</strong> Your daily driver for data manipulation. Learn to filter, group, merge, and transform data efficiently. Most data scientists spend 60-80% of their time on data preparation—pandas mastery is non-negotiable.",
+          "<strong>Pandas:</strong> Your daily driver for data manipulation. Learn to filter, group, merge, and transform data efficiently. Most data scientists spend 60-80% of their time on data preparation, pandas mastery is non-negotiable.",
           "<strong>Matplotlib & Seaborn:</strong> Visualization libraries for exploring data and communicating insights. A picture is worth a thousand rows of data. Learn to create clear, informative visualizations.",
           "<strong>Scikit-learn:</strong> The go-to library for classical machine learning. Provides consistent APIs for dozens of algorithms, making it easy to experiment and compare approaches."
         ]
@@ -491,7 +491,7 @@
       },
       {
         "type": "paragraph",
-        "text": "Machine learning is where data science gets exciting—and where many professionals get stuck. The key is understanding that ML is a tool for solving problems, not an end in itself. Start with the fundamentals, build intuition through projects, and gradually tackle more complex techniques."
+        "text": "Machine learning is where data science gets exciting, and where many professionals get stuck. The key is understanding that ML is a tool for solving problems, not an end in itself. Start with the fundamentals, build intuition through projects, and gradually tackle more complex techniques."
       },
       {
         "type": "list",
@@ -517,7 +517,7 @@
       },
       {
         "type": "paragraph",
-        "text": "Deep learning has revolutionized AI, enabling breakthroughs in image recognition, natural language processing, and generative AI. But it's not always the right tool—it requires large datasets, significant compute resources, and careful tuning. Learn it after mastering classical ML."
+        "text": "Deep learning has revolutionized AI, enabling breakthroughs in image recognition, natural language processing, and generative AI. But it's not always the right tool. It requires large datasets, significant compute resources, and careful tuning. Learn it after mastering classical ML."
       },
       {
         "type": "list",
@@ -704,7 +704,7 @@
         "type": "callout",
         "calloutType": "tip",
         "title": "The Best Investment",
-        "text": "Don't just consume content—build projects. A portfolio of 3-5 solid projects is worth more than 10 certificates. Use courses to learn concepts, then immediately apply them to real problems. The best learning happens when you're stuck on a project and have to figure things out."
+        "text": "Don't just consume content, build projects. A portfolio of 3-5 solid projects is worth more than 10 certificates. Use courses to learn concepts, then immediately apply them to real problems. The best learning happens when you're stuck on a project and have to figure things out."
       },
       {
         "type": "heading",
@@ -1026,7 +1026,7 @@
         "type": "callout",
         "calloutType": "success",
         "title": "Case Study 2: Priya - Marketing Manager to Data Scientist",
-        "text": "<strong>Background:</strong> 32 years old, 8 years in digital marketing, earning ₹15 LPA<br><br><strong>Journey:</strong> Priya leveraged her analytics background. She already knew Excel and basic SQL. She focused on Python, statistics, and ML over 10 months, spending 10 hours weekly. She built projects around marketing analytics—customer segmentation, churn prediction, attribution modeling.<br><br><strong>Outcome:</strong> Became Marketing Data Scientist at a D2C startup for ₹24 LPA, leading a team of analysts.<br><br><strong>Key Insight:</strong> 'I didn't try to become a generic data scientist. I became THE data scientist for marketing. That specialization made me invaluable and accelerated my career change.'"
+        "text": "<strong>Background:</strong> 32 years old, 8 years in digital marketing, earning ₹15 LPA<br><br><strong>Journey:</strong> Priya leveraged her analytics background. She already knew Excel and basic SQL. She focused on Python, statistics, and ML over 10 months, spending 10 hours weekly. She built projects around marketing analytics, customer segmentation, churn prediction, attribution modeling.<br><br><strong>Outcome:</strong> Became Marketing Data Scientist at a D2C startup for ₹24 LPA, leading a team of analysts.<br><br><strong>Key Insight:</strong> 'I didn't try to become a generic data scientist. I became THE data scientist for marketing. That specialization made me invaluable and accelerated my career change.'"
       },
       {
         "type": "callout",
@@ -1065,7 +1065,7 @@
       },
       {
         "type": "paragraph",
-        "text": "Many professionals try to jump straight to ML libraries without understanding the underlying mathematics. This works for simple applications but creates a ceiling. When models behave unexpectedly, when you need to debug algorithms, when you're choosing between approaches—mathematical understanding is essential. Invest 2-3 months in math foundations before diving deep into ML."
+        "text": "Many professionals try to jump straight to ML libraries without understanding the underlying mathematics. This works for simple applications but creates a ceiling. When models behave unexpectedly, when you need to debug algorithms, when you're choosing between approaches, mathematical understanding is essential. Invest 2-3 months in math foundations before diving deep into ML."
       },
       {
         "type": "heading",
@@ -1083,7 +1083,7 @@
       },
       {
         "type": "paragraph",
-        "text": "Jumping between topics—'Maybe I should learn TensorFlow... no, PyTorch... actually, what about reinforcement learning? I heard transformers are hot...' This scattered approach produces shallow knowledge. Pick a path and stick with it for at least 6 months before evaluating. Depth beats breadth for career advancement."
+        "text": "Jumping between topics, 'Maybe I should learn TensorFlow... no, PyTorch... actually, what about reinforcement learning? I heard transformers are hot...' This scattered approach produces shallow knowledge. Pick a path and stick with it for at least 6 months before evaluating. Depth beats breadth for career advancement."
       },
       {
         "type": "heading",
@@ -1107,7 +1107,7 @@
         "type": "callout",
         "calloutType": "warning",
         "title": "The Biggest Mistake",
-        "text": "Waiting until you feel 'ready' to start applying skills or looking for opportunities. You'll never feel ready—that's normal. Imposter syndrome affects even senior data scientists. Start before you're ready and learn by doing. Apply for jobs when you're 70% qualified. Build projects before you feel confident. Action creates confidence, not the other way around."
+        "text": "Waiting until you feel 'ready' to start applying skills or looking for opportunities. You'll never feel ready. That's normal. Imposter syndrome affects even senior data scientists. Start before you're ready and learn by doing. Apply for jobs when you're 70% qualified. Build projects before you feel confident. Action creates confidence, not the other way around."
       },
       {
         "type": "divider",
@@ -1277,7 +1277,7 @@
         "type": "callout",
         "calloutType": "success",
         "title": "The 30-Day Challenge",
-        "text": "Commit to 30 consecutive days of learning—even if some days are just 15 minutes. This builds the habit that sustains long-term progress. Track your streak. After 30 days, you'll have momentum that's hard to stop. Most people who make it past 30 days go on to complete their learning goals."
+        "text": "Commit to 30 consecutive days of learning, even if some days are just 15 minutes. This builds the habit that sustains long-term progress. Track your streak. After 30 days, you'll have momentum that's hard to stop. Most people who make it past 30 days go on to complete their learning goals."
       },
       {
         "type": "button",
@@ -1300,7 +1300,7 @@
         "items": [
           {
             "title": "Do I need a degree in computer science or mathematics to learn data science?",
-            "content": "No. While a technical degree can help, it's not required. Many successful data scientists come from diverse backgrounds—biology, economics, psychology, business. What matters is your willingness to learn the fundamentals and apply them. The skills can be learned through online courses, bootcamps, and self-study. Your domain expertise from other fields can actually be an advantage."
+            "content": "No. While a technical degree can help, it's not required. Many successful data scientists come from diverse backgrounds, biology, economics, psychology, business. What matters is your willingness to learn the fundamentals and apply them. The skills can be learned through online courses, bootcamps, and self-study. Your domain expertise from other fields can actually be an advantage."
           },
           {
             "title": "How long does it take to become job-ready in data science?",
@@ -1316,7 +1316,7 @@
           },
           {
             "title": "How important is mathematics for data science?",
-            "content": "Important, but not as scary as people think. You need working knowledge of linear algebra, calculus, and statistics—not PhD-level expertise. Focus on intuition over computation. Understanding why gradient descent works matters more than deriving it from scratch. Most professionals can build sufficient math foundations in 2-3 months of focused study. Don't let math anxiety stop you from starting."
+            "content": "Important, but not as scary as people think. You need working knowledge of linear algebra, calculus, and statistics, not PhD-level expertise. Focus on intuition over computation. Understanding why gradient descent works matters more than deriving it from scratch. Most professionals can build sufficient math foundations in 2-3 months of focused study. Don't let math anxiety stop you from starting."
           },
           {
             "title": "Can I learn data science while working full-time?",
@@ -1324,7 +1324,7 @@
           },
           {
             "title": "What's the difference between data analyst, data scientist, and ML engineer?",
-            "content": "Data Analysts focus on descriptive analytics—understanding what happened through SQL, Excel, and visualization. Data Scientists build predictive models and work on more complex statistical analysis. ML Engineers focus on deploying and scaling ML models in production systems. There's overlap, and career paths often progress from analyst to scientist to engineer. Start where your skills fit and grow from there."
+            "content": "Data Analysts focus on descriptive analytics, understanding what happened through SQL, Excel, and visualization. Data Scientists build predictive models and work on more complex statistical analysis. ML Engineers focus on deploying and scaling ML models in production systems. There's overlap, and career paths often progress from analyst to scientist to engineer. Start where your skills fit and grow from there."
           },
           {
             "title": "Are bootcamps worth the investment?",
@@ -1332,7 +1332,7 @@
           },
           {
             "title": "How do I build a portfolio without work experience?",
-            "content": "Use public datasets from Kaggle, UCI Repository, or government open data. Solve real problems—analyze COVID data, predict housing prices, build a recommendation system. Contribute to open source projects. Participate in Kaggle competitions. Document everything on GitHub with clear READMEs. Quality matters more than quantity—3 well-documented projects beat 10 half-finished ones."
+            "content": "Use public datasets from Kaggle, UCI Repository, or government open data. Solve real problems, analyze COVID data, predict housing prices, build a recommendation system. Contribute to open source projects. Participate in Kaggle competitions. Document everything on GitHub with clear READMEs. Quality matters more than quantity: 3 well-documented projects beat 10 half-finished ones."
           },
           {
             "title": "What salary can I expect as a data scientist in India?",
@@ -1352,7 +1352,7 @@
       },
       {
         "type": "paragraph",
-        "text": "The demand for data science, AI, and mathematical skills isn't a trend—it's a fundamental shift in how every industry operates. Professionals who master these skills are commanding premium salaries, leading innovative projects, and future-proofing their careers. The opportunity is real, and it's accessible to anyone willing to put in the work."
+        "text": "The demand for data science, AI, and mathematical skills isn't a trend. It's a fundamental shift in how every industry operates. Professionals who master these skills are commanding premium salaries, leading innovative projects, and future-proofing their careers. The opportunity is real, and it's accessible to anyone willing to put in the work."
       },
       {
         "type": "paragraph",
@@ -1360,7 +1360,7 @@
       },
       {
         "type": "paragraph",
-        "text": "Remember: every expert was once a beginner. The data scientists at Google, the ML engineers at Tesla, the AI researchers at OpenAI—they all started exactly where you are now. The only difference is they started. Your journey begins with a single step. Take it today."
+        "text": "Remember: every expert was once a beginner. The data scientists at Google, the ML engineers at Tesla, the AI researchers at OpenAI. They all started exactly where you are now. The only difference is they started. Your journey begins with a single step. Take it today."
       },
       {
         "type": "callout",

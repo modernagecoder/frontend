@@ -17,7 +17,7 @@
     <!-- SEO Meta Tags -->
     <meta name="description" content="55+ practice questions on Encapsulation and Access Modifiers in Java. Easy, medium, and hard questions with hints, answers, and coding challenges.">
     <!-- meta keywords intentionally not emitted: Google has ignored it since 2009 and Bing
-         treats it as a SPAM SIGNAL — and Bing is the index ChatGPT/Copilot answer from.
+         treats it as a SPAM SIGNAL, and Bing is the index ChatGPT/Copilot answer from.
          See scripts/strip-meta-keywords.py. -->
     <meta name="author" content="Modern Age Coders">
     <meta name="robots" content="index, follow">
@@ -138,7 +138,7 @@
                 <span class="badge badge-intermediate">Intermediate</span>
                 <span class="badge badge-questions">55 Questions</span>
             </div>
-            <h1 class="resource-title">Practice Questions &mdash; Encapsulation and Access Modifiers</h1>
+            <h1 class="resource-title">Practice Questions: Encapsulation and Access Modifiers</h1>
             <a href="/resources/java/encapsulation-and-access-modifiers" class="notes-link">&larr; Back to Notes</a>
         </div><!-- /resource-header -->
 
@@ -316,7 +316,7 @@ System.out.printf("Distance: %.1f%n", p1.distanceFromOrigin());</code></pre></di
             <div class="question-card">
                 <div class="question-number">Question 1</div>
                 <span class="question-difficulty easy">Easy</span>
-                <div class="question-text">What is the difference between encapsulation and abstraction?</div><button type="button" class="collapsible-toggle" data-target="hint-mx-1" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-1">Think about 'how' vs 'what' — hiding implementation vs hiding complexity.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-1" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-1"><strong>Encapsulation</strong> is about hiding the internal state of an object and controlling access through methods (data hiding). <strong>Abstraction</strong> is about hiding complex implementation details and exposing only the essential features (complexity hiding). Encapsulation answers 'how to protect data'. Abstraction answers 'what to show to the user'.</div></div>
+                <div class="question-text">What is the difference between encapsulation and abstraction?</div><button type="button" class="collapsible-toggle" data-target="hint-mx-1" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-1">Think about 'how' vs 'what', hiding implementation vs hiding complexity.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-1" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-1"><strong>Encapsulation</strong> is about hiding the internal state of an object and controlling access through methods (data hiding). <strong>Abstraction</strong> is about hiding complex implementation details and exposing only the essential features (complexity hiding). Encapsulation answers 'how to protect data'. Abstraction answers 'what to show to the user'.</div></div>
 <div class="question-card">
                 <div class="question-number">Question 2</div>
                 <span class="question-difficulty easy">Easy</span>
@@ -371,7 +371,7 @@ System.out.printf("Area: %.2f%n", c.getArea());</code></pre></div><button type="
 <div class="question-card">
                 <div class="question-number">Question 6</div>
                 <span class="question-difficulty hard">Hard</span>
-                <div class="question-text">Explain why making all fields public (instead of private with getters/setters) is considered bad practice, even if the getters and setters do no validation.</div><button type="button" class="collapsible-toggle" data-target="hint-mx-6" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-6">Think about future changes, binary compatibility, and the ability to add logic later.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-6" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-6">Even without validation, getters/setters provide: (1) <strong>Future-proofing</strong> — you can add validation, logging, or computed values later without changing the public API. (2) <strong>Read-only control</strong> — you can omit setters for fields that should not change. (3) <strong>Binary compatibility</strong> — changing a public field to a method requires recompiling all dependent code. (4) <strong>Framework compatibility</strong> — many Java frameworks (Spring, Hibernate, Jackson) require JavaBeans conventions with getters/setters.</div></div>
+                <div class="question-text">Explain why making all fields public (instead of private with getters/setters) is considered bad practice, even if the getters and setters do no validation.</div><button type="button" class="collapsible-toggle" data-target="hint-mx-6" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-6">Think about future changes, binary compatibility, and the ability to add logic later.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-6" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-6">Even without validation, getters/setters provide: (1) <strong>Future-proofing</strong>. You can add validation, logging, or computed values later without changing the public API. (2) <strong>Read-only control</strong>. You can omit setters for fields that should not change. (3) <strong>Binary compatibility</strong>, changing a public field to a method requires recompiling all dependent code. (4) <strong>Framework compatibility</strong>, many Java frameworks (Spring, Hibernate, Jackson) require JavaBeans conventions with getters/setters.</div></div>
 <div class="question-card">
                 <div class="question-number">Question 7</div>
                 <span class="question-difficulty hard">Hard</span>
@@ -462,7 +462,7 @@ i.show();</code></pre></div>
 <div class="question-card">
                 <div class="question-number">MCQ 12</div>
                 <div class="question-text">What is the standard term for a method that returns the value of a private field?</div>
-                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Constructor</li><li><span class="mcq-option-label">B.</span> Getter (accessor)</li><li><span class="mcq-option-label">C.</span> Setter (mutator)</li><li><span class="mcq-option-label">D.</span> Destructor</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-12" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-12"><strong>Answer: B</strong><br><strong>B is correct.</strong> A getter (also called an accessor) returns the value of a private field. A setter (C) sets the value. A constructor (A) initializes an object. Java does not have destructors (D) — it uses garbage collection.</div></div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Constructor</li><li><span class="mcq-option-label">B.</span> Getter (accessor)</li><li><span class="mcq-option-label">C.</span> Setter (mutator)</li><li><span class="mcq-option-label">D.</span> Destructor</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-12" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-12"><strong>Answer: B</strong><br><strong>B is correct.</strong> A getter (also called an accessor) returns the value of a private field. A setter (C) sets the value. A constructor (A) initializes an object. Java does not have destructors (D). It uses garbage collection.</div></div>
         </section>
 
         <!-- Coding Challenges -->
@@ -642,7 +642,7 @@ class SamePackageClass {
     void access() {
         Vehicle v = new Vehicle();
         System.out.println(&quot;Same package: &quot; + v.publicField + &quot;, &quot; + v.protectedField + &quot;, &quot; + v.defaultField);
-        // v.privateField — NOT accessible
+        // v.privateField: NOT accessible
         System.out.println(&quot;private: NOT accessible from same package&quot;);
     }
 }

@@ -78,7 +78,7 @@ function tiersMatchingAmount(subject, region, amount, config) {
  * The international prices these pages were WRITTEN with, before the worldwide
  * ladder replaced them on 2026-07-31.
  *
- * 203 hardcoded figures survive in the markup — $40, $100 and $150 — and the
+ * 203 hardcoded figures survive in the markup, $40, $100 and $150, and the
  * runtime never rewrites an existing dollar amount, only rupees. So those pages
  * still show the retired flat price to every visitor. Recognising the old
  * numbers is what lets them be anchored to the right plan instead of being left
@@ -94,8 +94,8 @@ const LEGACY_INTERNATIONAL = {
     agents: { '100': 'group', '150': 'personal' }
 };
 
-// The India prices before 2026-08-01 — the first India price change ever,
-// which is what exposed every still-unanchored rupee element — plus the
+// The India prices before 2026-08-01, the first India price change ever,
+// which is what exposed every still-unanchored rupee element, plus the
 // 2026-08-01 personal rates (₹7,500 coding / ₹8,500 maths), retired in turn
 // on 2026-08-10 when the 1-on-1 rate moved to ₹4,999.
 const LEGACY_INDIA = {
@@ -125,7 +125,7 @@ function legacyTier(subject, region, amount) {
 function legacyAmbiguous(amount, region) {
     // India pages carry explicit subject markers (data-price-tier="agents",
     // data-subject="maths"), so the per-page subject is trustworthy and the
-    // subject's own legacy map is unambiguous — ₹2,499 on a coding page IS the
+    // subject's own legacy map is unambiguous, ₹2,499 on a coding page IS the
     // old Mini Batch. The cross-subject veto only applies internationally,
     // where the subject is guessed from filenames.
     if (region === 'india') return false;
@@ -272,7 +272,7 @@ function main() {
                 amountText + '</span>' + suffix + '</' + tag + '>';
         });
 
-        // THIRD SHAPE: the split card — a currency span BEFORE bare digits:
+        // THIRD SHAPE: the split card, a currency span BEFORE bare digits:
         //   <span class="price-amount"><span class="price-currency">₹</span>2499</span>
         // Neither earlier pass matches it (the amount is neither alone nor
         // followed by a suffix), which left the main pricing cards unanchored

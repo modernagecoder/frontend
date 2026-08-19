@@ -1,5 +1,5 @@
 /* =============================================================
-   COURSE PAGE STYLES — course.css
+   COURSE PAGE STYLES, course.css
    Single modular stylesheet for the courses page.
    Organized by section for clarity and maintainability.
    ============================================================= */
@@ -281,7 +281,7 @@
 
 
 /* =============================================================
-   5. LEARN SECTION — "What would you like to learn?"
+   5. LEARN SECTION, "What would you like to learn?"
    ============================================================= */
 
 .tab-navigation.learn-section {
@@ -585,7 +585,7 @@
     filter: grayscale(100%) opacity(0.5);
 }
 
-/* — Coding Active — */
+/*, Coding Active, */
 
 .toggle-input[value="coding"]:checked~.toggle-track .toggle-slider {
     transform: translateX(0);
@@ -621,7 +621,7 @@
     filter: none;
 }
 
-/* — Maths Active — */
+/*, Maths Active, */
 
 .toggle-input[value="maths"]:checked~.toggle-track .toggle-slider {
     transform: translateX(100%);
@@ -690,7 +690,7 @@
 
 
 /* =============================================================
-   8. SUB-TABS — Professional Card-Style Redesign
+   8. SUB-TABS: Professional Card-Style Redesign
    ============================================================= */
 
 .sub-tabs-container {
@@ -736,14 +736,14 @@
 }
 
 /* ===========================================================
-   INK & LIGHT — monochrome segmented selector. No colour tint.
+   INK & LIGHT, monochrome segmented selector. No colour tint.
    Resting tabs are quiet dark cards; the ACTIVE tab inverts to a
    clean light surface with dark text. The light/dark inversion is
-   itself the strongest possible "selected" cue — instantly clear,
+   itself the strongest possible "selected" cue, instantly clear,
    premium, and free of any AI-cliché colour wash. Identical look
    across both Coding and Maths tracks for a calm, cohesive feel. */
 
-/* Base card — deliberately quiet. Every resting tab looks the same
+/* Base card, deliberately quiet. Every resting tab looks the same
    so the single active (light) tab is the only thing that "pops"
    (Von Restorff effect → instant, low-effort orientation). */
 .sub-tab {
@@ -770,13 +770,13 @@
     overflow: hidden !important;
 }
 
-/* No decorative markers — the light surface IS the selection cue. */
+/* No decorative markers, the light surface IS the selection cue. */
 .sub-tab::before,
 .sub-tab::after {
     display: none !important;
 }
 
-/* Inner text — clear name / quiet supporting age line */
+/* Inner text, clear name / quiet supporting age line */
 .sub-tab .st-name {
     display: block !important;
     font-size: 0.94rem !important;
@@ -801,7 +801,7 @@
 }
 
 /* ---- HOVER (non-active): subtle light wash + a small lift ----
-   Neutral white, no colour — just enough to read as "clickable". */
+   Neutral white, no colour, just enough to read as "clickable". */
 .sub-tab:hover:not(.active) {
     background: rgba(255, 255, 255, 0.07) !important;
     border-color: rgba(255, 255, 255, 0.22) !important;
@@ -812,7 +812,7 @@
 .sub-tab:hover:not(.active) .st-age  { color: #94a3b8 !important; }
 
 /* ---- ACTIVE: clean light surface, dark text ----
-   Full luminance inversion — the crispest, most professional way
+   Full luminance inversion, the crispest, most professional way
    to say "this one is selected" without leaning on any colour. */
 .sub-tab.active {
     background: linear-gradient(180deg, #ffffff 0%, #eef1f6 100%) !important;
@@ -831,7 +831,7 @@
     box-shadow: 0 0 0 3px rgba(255, 255, 255, 0.30) !important;
 }
 
-/* Mobile — 2-column grid */
+/* Mobile: 2-column grid */
 @media (max-width: 600px) {
     .sub-tabs.active {
         display: grid !important;
@@ -863,7 +863,7 @@
 
 
 /* =============================================================
-   9. CONTROLS — Sort & View Toggle
+   9. CONTROLS: Sort & View Toggle
    ============================================================= */
 
 .controls-section {
@@ -1380,7 +1380,7 @@
 
 
 /* =============================================================
-   15. RESPONSIVE  — grouped by breakpoint
+   15. RESPONSIVE, grouped by breakpoint
    ============================================================= */
 
 @media (max-width: 768px) {
@@ -4197,7 +4197,7 @@ p {
     color: var(--text-secondary);
 }
 
-/* will-change removed — permanent will-change on many elements wastes GPU memory.
+/* will-change removed, permanent will-change on many elements wastes GPU memory.
    The browser auto-promotes elements during CSS transitions. */
 
 img {

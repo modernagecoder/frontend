@@ -1,16 +1,16 @@
 ---
-title: "Online Maths Tuition for College & Sixth Form in the UK · 1:1 A-Level & University Maths — Modern Age Coders"
-description: "Live 1:1 online maths tuition for UK sixth-form and college students (16–19) and undergraduates. A-Level pure and applied, university foundation maths, proof and STEP — taught from the ideas up. Same tutor, UK time. Priced for your country."
+title: "Online Maths Tuition for College & Sixth Form in the UK · 1:1 A-Level & University Maths | Modern Age Coders"
+description: "Live 1:1 online maths tuition for UK sixth-form and college students (16–19) and undergraduates. A-Level pure and applied, university foundation maths, proof and STEP, taught from the ideas up. Same tutor, UK time. Priced for your country."
 canonical: https://learn.modernagecoders.com/online-maths-tuition-for-college-students-in-uk
 source: src/pages/online-maths-tuition-for-college-students-in-uk.html
 ---
-> Live 1:1 online maths tuition for UK sixth-form and college students (16–19) and undergraduates. A-Level pure and applied, university foundation maths, proof and STEP — taught from the ideas up. Same tutor, UK time. Priced for your country.
+> Live 1:1 online maths tuition for UK sixth-form and college students (16–19) and undergraduates. A-Level pure and applied, university foundation maths, proof and STEP, taught from the ideas up. Same tutor, UK time. Priced for your country.
 
 Why this stage catches students out
 
-## The jump from GCSE to A-Level — and from A-Level to a degree — is steeper than anyone warns you.
+## The jump from GCSE to A-Level: and from A-Level to a degree: is steeper than anyone warns you.
 
-Plenty of strong GCSE students hit a wall in the first term of A-Level maths, and it shocks them. The reason is that A-Level stops rewarding memorised methods and starts demanding fluency and genuine reasoning — algebra you can do without thinking, and the confidence to tackle a problem with no obvious recipe.
+Plenty of strong GCSE students hit a wall in the first term of A-Level maths, and it shocks them. The reason is that A-Level stops rewarding memorised methods and starts demanding fluency and genuine reasoning, algebra you can do without thinking, and the confidence to tackle a problem with no obvious recipe.
 
 The same jump happens again at university, where lectures move fast and assume you'll fill the gaps yourself.
 
@@ -30,11 +30,11 @@ A-Level and degree maths assume algebra and reasoning are automatic. We make the
 
 ### Teach the concept, not the recipe
 
-We derive results so you understand why and where they apply — the only way to handle the unfamiliar questions these exams set.
+We derive results so you understand why and where they apply, the only way to handle the unfamiliar questions these exams set.
 
 ### Train problem-solving and proof
 
-We coach how to start a problem with no obvious method, and how to write a clear argument — the heart of STEP and degree-level maths.
+We coach how to start a problem with no obvious method, and how to write a clear argument, the heart of STEP and degree-level maths.
 
 ### Sharpen exam reasoning
 
@@ -42,17 +42,17 @@ Before mocks and finals we focus on the high-value topics, common traps and the 
 
 See it for yourself
 
-## Differentiation — what it really is, before any rules.
+## Differentiation: what it really is, before any rules.
 
 Worked example · A-Level pure
 
-**What gets memorised:** "the derivative of xⁿ is n·xⁿ⁻¹." Students apply it fluently and still can't say what differentiation *is* — so the moment a question asks them to interpret a rate of change or work from first principles, they stall.
+**What gets memorised:** "the derivative of xⁿ is n·xⁿ⁻¹." Students apply it fluently and still can't say what differentiation *is*, so the moment a question asks them to interpret a rate of change or work from first principles, they stall.
 
 **How we do it.** A derivative is the gradient of a curve at a single point, found by taking the gradient between two points and letting them slide together. That's the "first principles" definition the specification asks for, and it explains everything else:
 
 gradient between x and x+h: ( f(x+h) − f(x) ) / hlet h → 0: f′(x) = lim (h→0) ( f(x+h) − f(x) ) / hfor f(x) = x²: ( (x+h)² − x² ) / h = 2x + h → 2x
 
-The power rule isn't a law to memorise — it's what this limit always gives. Once a student sees the derivative as "instantaneous rate of change", differentiation from first principles, tangents, rates and optimisation stop being separate topics and become one idea. That understanding is what carries through to the hardest parts of A-Level and straight into university calculus.
+The power rule isn't a law to memorise. It's what this limit always gives. Once a student sees the derivative as "instantaneous rate of change", differentiation from first principles, tangents, rates and optimisation stop being separate topics and become one idea. That understanding is what carries through to the hardest parts of A-Level and straight into university calculus.
 
 Why a coding school teaches advanced maths
 
@@ -60,7 +60,7 @@ Why a coding school teaches advanced maths
 
 ### Precise definitions
 
-A proof lives or dies on the exact meaning of each term — exactly like a function signature in code. Sloppy definitions break both.
+A proof lives or dies on the exact meaning of each term, exactly like a function signature in code. Sloppy definitions break both.
 
 ### Logical structure
 
@@ -68,9 +68,9 @@ A proof lives or dies on the exact meaning of each term — exactly like a funct
 
 ### Counterexamples & tests
 
-Finding the case that breaks a claim is the mathematician's failing test — how you learn what's actually true.
+Finding the case that breaks a claim is the mathematician's failing test, how you learn what's actually true.
 
-We're Modern Age Coders. The reasoning we teach for computer science is the same reasoning that makes A-Level and degree maths click — which is why our students heading into engineering, CS, economics and the sciences find their quantitative modules easier too.
+We're Modern Age Coders. The reasoning we teach for computer science is the same reasoning that makes A-Level and degree maths click, which is why our students heading into engineering, CS, economics and the sciences find their quantitative modules easier too.
 
 What we cover
 
@@ -84,7 +84,7 @@ Algebra and functions, calculus, trigonometry, sequences, exponentials and logar
 
 ### A-Level applied
 
-Statistics — distributions, hypothesis testing, sampling — and mechanics — kinematics, forces, moments.
+Statistics, distributions, hypothesis testing, sampling, and mechanics, kinematics, forces, moments.
 
 ### University foundation maths
 
@@ -104,11 +104,11 @@ STEP and MAT-style problem solving for students applying to the most competitive
 
 Who this is for
 
-## The right fit — and an honest word on what to expect.
+## The right fit: and an honest word on what to expect.
 
 **This fits** the sixth-former floored by the GCSE-to-A-Level jump, the A-Level student chasing an A or A*, the undergraduate fighting a tough module, the STEP candidate, and the adult on an access or foundation course. We teach all of them.
 
-**What's realistic.** Most students feel the difference within a couple of weeks — problem sheets stop feeling impossible. A grade turnaround tracks the year and the work you put in between lessons. We'll be honest about what's achievable and never quote a guaranteed grade.
+**What's realistic.** Most students feel the difference within a couple of weeks, problem sheets stop feeling impossible. A grade turnaround tracks the year and the work you put in between lessons. We'll be honest about what's achievable and never quote a guaranteed grade.
 
 ### What we won't do
 
@@ -201,47 +201,47 @@ Sixth-form and college students (16–19) taking A-Level or equivalent, access a
 
 Do you tutor A-Level maths to the exam boards?
 
-Yes — Edexcel, AQA and OCR across pure, mechanics and statistics. For exam-specific work see our dedicated [A-Level Maths](/a-level-maths-tuition-online) page.
+Yes: Edexcel, AQA and OCR across pure, mechanics and statistics. For exam-specific work see our dedicated [A-Level Maths](/a-level-maths-tuition-online) page.
 
 The jump from GCSE to A-Level floored my child. Is that normal?
 
-Completely — it's the steepest step in UK school maths. We bridge it by rebuilding the algebra fluency A-Level assumes and teaching the new abstraction properly.
+Completely. It's the steepest step in UK school maths. We bridge it by rebuilding the algebra fluency A-Level assumes and teaching the new abstraction properly.
 
 Can you help with university maths modules?
 
-Yes — calculus, linear algebra, analysis, statistics and proof-based modules, from your lecture notes and problem sheets.
+Yes, calculus, linear algebra, analysis, statistics and proof-based modules, from your lecture notes and problem sheets.
 
 How much does it cost?
 
-USD 150 per month for private 1:1 — eight live lessons, two each week. Small-group option USD 100 per month. No contract; cancel any time.
+USD 150 per month for private 1:1, eight live lessons, two each week. Small-group option USD 100 per month. No contract; cancel any time.
 
 Is there a free trial?
 
-Yes — the first lesson is free, no card needed.
+Yes, the first lesson is free, no card needed.
 
 Do I get the same tutor each time?
 
-Yes — one tutor through the year who knows your specification or module.
+Yes, one tutor through the year who knows your specification or module.
 
 Can you prepare me for STEP or university admissions maths?
 
-Yes — STEP and MAT-style problem solving, built on genuine problem-solving rather than memorised tricks.
+Yes: STEP and MAT-style problem solving, built on genuine problem-solving rather than memorised tricks.
 
 Are lessons live?
 
-Yes — live, one-to-one, with a shared whiteboard.
+Yes, live, one-to-one, with a shared whiteboard.
 
 Do lessons fit around college and exam season?
 
-Yes — evening and weekend slots in UK time, ramping up around mocks and summer exams.
+Yes, evening and weekend slots in UK time, ramping up around mocks and summer exams.
 
 I'm an adult on an access course. Can you help?
 
-Yes — we rebuild what's rusty without judgment and at a pace that respects your time. See also our [adult maths classes](/online-maths-classes-for-adults-in-uk).
+Yes. We rebuild what's rusty without judgment and at a pace that respects your time. See also our [adult maths classes](/online-maths-classes-for-adults-in-uk).
 
 Can we start mid-year?
 
-Yes — we start exactly where you are.
+Yes. We start exactly where you are.
 
 ## Book a free trial lesson.
 
@@ -259,7 +259,7 @@ Real student projects
 
 Every one is a real, live project shipped by a Modern Age Coders student. Explore more in [Student Labs](/student-labs).
 
-[![BookDesk — AI Book Summaries & Quizzes](/images/projects/bookdesk.webp)AI & MLBookDesk — AI Book Summaries & QuizzesType in any book name and author, and BookDesk pulls together the book's details, a clear summary and a custom quiz to test what you've learned — a genuinely useful study companion. Anika built it as a full-stack AI application, powered by Google Gemini with a live database behind it.by AnikaOpen the live project ↗](https://bookdesk1.netlify.app)[![HairSync — AI Hairstyle Try-On](/images/projects/hairsync.webp)AI & MLHairSync — AI Hairstyle Try-OnUpload a clear photo and try on any hairstyle before you commit — wolf cuts, curtain bangs, fades, braids and dozens of trending looks, rendered onto your own face by AI in seconds. Kriti vibe-coded this virtual try-on studio from a single idea into a working app.by KritiOpen the live project ↗](https://hairsync.lovable.app)[![SkyCast — Weather Forecast App](/images/projects/skycast.webp)Web AppSkyCast — Weather Forecast AppAn interactive weather forecasting site with real-time updates for any location — temperature, humidity, wind speed and conditions in a clean, responsive interface.by KrishOpen the live project ↗](https://krish-shroff.github.io/AuraWeatherTech/)
+[![BookDesk, AI Book Summaries & Quizzes](/images/projects/bookdesk.webp)AI & MLBookDesk, AI Book Summaries & QuizzesType in any book name and author, and BookDesk pulls together the book's details, a clear summary and a custom quiz to test what you've learned, a genuinely useful study companion. Anika built it as a full-stack AI application, powered by Google Gemini with a live database behind it.by AnikaOpen the live project ↗](https://bookdesk1.netlify.app)[![HairSync, AI Hairstyle Try-On](/images/projects/hairsync.webp)AI & MLHairSync, AI Hairstyle Try-OnUpload a clear photo and try on any hairstyle before you commit, wolf cuts, curtain bangs, fades, braids and dozens of trending looks, rendered onto your own face by AI in seconds. Kriti vibe-coded this virtual try-on studio from a single idea into a working app.by KritiOpen the live project ↗](https://hairsync.lovable.app)[![SkyCast, Weather Forecast App](/images/projects/skycast.webp)Web AppSkyCast, Weather Forecast AppAn interactive weather forecasting site with real-time updates for any location, temperature, humidity, wind speed and conditions in a clean, responsive interface.by KrishOpen the live project ↗](https://krish-shroff.github.io/AuraWeatherTech/)
 
 Parent & student voices
 

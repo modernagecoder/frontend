@@ -20,7 +20,7 @@
  *      siblings, parent/child links and money-page CTAs.
  *      Where no marker exists yet (complexes, countries, India hub) it
  *      inserts the block immediately before the footer.
- *   5. Idempotent — safe to re-run.
+ *   5. Idempotent, safe to re-run.
  *
  * Usage:
  *   node scripts/build-internal-links.js --dry     # preview, no writes
@@ -156,7 +156,7 @@ function classify(slug, content) {
     // Is it a known Indian state slug?
     const isState = Object.values(ISO_TO_STATE).some(([s]) => s === x);
     if (isState) return { type: 'state', stateSlug: x, stateName: titleCase(x) };
-    // Otherwise it MIGHT be a Kolkata-area residential complex/society — but only if
+    // Otherwise it MIGHT be a Kolkata-area residential complex/society, but only if
     // its geo.placename actually sits in Kolkata or Howrah. Gulf city/country pages
     // (Dubai, Doha, Riyadh, Qatar, Saudi Arabia, ...) also match coding-classes-in-<x>;
     // filing them as Kolkata complexes stamped them "in West Bengal" and injected them
@@ -296,7 +296,7 @@ function buildBlock(page, inv) {
     breadcrumb.push({ label: `Best Coding Class in ${cityName}` });
 
     const groups = [];
-    // Neighbourhoods + residential complexes for Kolkata / Howrah — list every
+    // Neighbourhoods + residential complexes for Kolkata / Howrah, list every
     // child so the city page is the crawl parent for all its locality pages.
     const areas = areasByCity[page.city] || [];
     if (areas.length) {
@@ -317,7 +317,7 @@ function buildBlock(page, inv) {
 
     const inner = `      <nav aria-label="Breadcrumb" style="${S.crumb}">${crumb(breadcrumb)}</nav>
       <h2 style="${S.h2}">Coding &amp; maths classes near ${cityName}</h2>
-      <p style="${S.lead}">Live online classes for kids, teens and adults${stateName ? ` across ${stateName}` : ''} — Scratch, Python, web development, AI/ML and DSA in small 4&ndash;8 student batches. Explore nearby locations or book a free demo.</p>
+      <p style="${S.lead}">Live online classes for kids, teens and adults${stateName ? ` across ${stateName}` : ''}: Scratch, Python, web development, AI/ML and DSA in small 4&ndash;8 student batches. Explore nearby locations or book a free demo.</p>
 ${groups.filter(Boolean).join('\n')}
 ${ctas(extra)}`;
     return wrapBlock(inner);
@@ -354,7 +354,7 @@ ${ctas([{ slug: 'coding-classes-in-india', label: 'All cities in India' }])}`;
     const otherAreas = (areasByCity[page.city] || []).filter((a) => a.slug !== page.slug);
     const inner = `      <nav aria-label="Breadcrumb" style="${S.crumb}">${crumb(breadcrumb)}</nav>
       <h2 style="${S.h2}">Coding &amp; maths classes near ${areaLabel}</h2>
-      <p style="${S.lead}">Live online small-batch classes for students near ${areaLabel} — no commute, expert mentors, real projects from day one. Explore other ${cityName} areas or book a free demo.</p>
+      <p style="${S.lead}">Live online small-batch classes for students near ${areaLabel}, no commute, expert mentors, real projects from day one. Explore other ${cityName} areas or book a free demo.</p>
 ${group(`Other areas in ${cityName}`, otherAreas.slice(0, MAX_AREAS))}
 ${ctas([
       { slug: `best-coding-class-in-${page.city}`, label: `All ${cityName} classes` },
@@ -419,7 +419,7 @@ ${ctas([{ slug: 'coding-classes-in-india', label: 'Coding Classes in India' }])}
     ];
     const inner = `      <nav aria-label="Breadcrumb" style="${S.crumb}">${crumb(breadcrumb)}</nav>
       <h2 style="${S.h2}">Browse coding classes by state &amp; city</h2>
-      <p style="${S.lead}">Live online coding and maths classes for kids, teens and adults across India &mdash; small 4&ndash;8 student batches, expert mentors, real projects. Choose your state, city or neighbourhood below.</p>
+      <p style="${S.lead}">Live online coding and maths classes for kids, teens and adults across India, small 4&ndash;8 student batches, expert mentors, real projects. Choose your state, city or neighbourhood below.</p>
 ${group('Coding classes by state', stateItems)}
 ${cityGroupsHtml.filter(Boolean).join('\n')}
 ${areaGroupsHtml.filter(Boolean).join('\n')}
@@ -439,7 +439,7 @@ function applyBlock(content, block) {
     const re = new RegExp(`${REL_START}[\\s\\S]*?${REL_END}\\n?`);
     return content.replace(re, block);
   }
-  // No markers — insert before the footer.
+  // No markers, insert before the footer.
   const footerMarker = '<!-- BEGIN_INLINED_FOOTER -->';
   if (content.includes(footerMarker)) {
     return content.replace(footerMarker, `${block}\n${footerMarker}`);

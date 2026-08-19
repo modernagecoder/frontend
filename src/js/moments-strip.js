@@ -1,5 +1,5 @@
 /* Strip behaviour for the course-page "vibe zone" (moments photos, review notes,
-   feedback videos) — vanilla port of the Wall of Love SnapCarousel.
+   feedback videos), vanilla port of the Wall of Love SnapCarousel.
    Binds every [data-mac-strip]; the strips work without JS as native horizontal
    scrollers. Adds:
    - seamless infinite loop (content cloned once, scrollLeft wrapped inside the
@@ -129,7 +129,7 @@
 
     // Click-to-play for video strips that have no page-local handler (course.html).
     // Course detail pages bind .cd-vid-play themselves, so this stays scoped to
-    // [data-mac-videos] — never widen it or those pages double-bind.
+    // [data-mac-videos], never widen it or those pages double-bind.
     function initVideos(section) {
         section.querySelectorAll('.cd-vid-play').forEach(function (btn) {
             btn.addEventListener('click', function () {

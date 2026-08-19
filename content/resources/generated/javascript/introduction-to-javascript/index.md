@@ -15,9 +15,9 @@ keywords: ["what is javascript", "javascript introduction", "why learn javascrip
 
 ## What Is JavaScript?
 
-**JavaScript** is the programming language of the web. Every interactive thing you see on a website — a button that changes color when you hover over it, a form that checks your email before you submit, a dropdown menu that slides open, a live chat widget, an animated counter — that is JavaScript at work.
+**JavaScript** is the programming language of the web. Every interactive thing you see on a website, a button that changes color when you hover over it, a form that checks your email before you submit, a dropdown menu that slides open, a live chat widget, an animated counter, that is JavaScript at work.
 
-Think of a website as a house. **HTML** is the structure — the walls, floors, and roof. **CSS** is the paint, furniture, and decoration. **JavaScript** is the electricity — it makes things actually work. Without JavaScript, websites would be static pages that just sit there. With JavaScript, they come alive.
+Think of a website as a house. **HTML** is the structure, the walls, floors, and roof. **CSS** is the paint, furniture, and decoration. **JavaScript** is the electricity. It makes things actually work. Without JavaScript, websites would be static pages that just sit there. With JavaScript, they come alive.
 
 ### The Three Layers of the Web
 
@@ -31,7 +31,7 @@ JavaScript is the single most important language to learn if you want to build a
 
 ### 1. It Runs Everywhere
 
-JavaScript is the only programming language that runs natively in every web browser — Chrome, Firefox, Safari, Edge. You do not need to install anything. Open your browser, press F12, and you can start writing JavaScript right now. No compiler, no setup, no downloads.
+JavaScript is the only programming language that runs natively in every web browser: Chrome, Firefox, Safari, Edge. You do not need to install anything. Open your browser, press F12, and you can start writing JavaScript right now. No compiler, no setup, no downloads.
 
 ### 2. You See Results Instantly
 
@@ -39,7 +39,7 @@ Unlike some languages where you write code, compile it, and then run it, JavaScr
 
 ### 3. It Powers Everything on the Web
 
-Every website you use daily — Google, YouTube, Instagram, WhatsApp Web, Netflix — uses JavaScript. Learning JavaScript means you can understand and build the same kind of interactive experiences.
+Every website you use daily, Google, YouTube, Instagram, WhatsApp Web, Netflix, uses JavaScript. Learning JavaScript means you can understand and build the same kind of interactive experiences.
 
 ### 4. It Works Beyond the Browser
 
@@ -53,13 +53,13 @@ JavaScript is consistently the most popular programming language in developer su
 
 ### A Brief History
 
-JavaScript was created by **Brendan Eich** in 1995, working at Netscape (one of the first web browsers). He built the first version in just 10 days. The language was originally called Mocha, then LiveScript, and finally renamed to JavaScript as a marketing move to ride the popularity of Java — even though JavaScript and Java are completely different languages.
+JavaScript was created by **Brendan Eich** in 1995, working at Netscape (one of the first web browsers). He built the first version in just 10 days. The language was originally called Mocha, then LiveScript, and finally renamed to JavaScript as a marketing move to ride the popularity of Java, even though JavaScript and Java are completely different languages.
 
 Over the years, JavaScript has evolved dramatically. The big update came in 2015 with **ES6 (ECMAScript 2015)**, which added features like `let`, `const`, arrow functions, and template literals. Today, JavaScript gets yearly updates and is one of the most powerful languages in the world.
 
 ### JavaScript vs Java
 
-This confuses a lot of beginners. **JavaScript and Java are completely different languages.** They have different syntax, different use cases, and were created by different people. The name similarity is purely a marketing decision from 1995. Think of it like "car" and "carpet" — they share letters but have nothing else in common.
+This confuses a lot of beginners. **JavaScript and Java are completely different languages.** They have different syntax, different use cases, and were created by different people. The name similarity is purely a marketing decision from 1995. Think of it like "car" and "carpet". They share letters but have nothing else in common.
 
 ### What Can JavaScript Do?
 
@@ -84,7 +84,7 @@ Every web browser has a built-in **JavaScript engine** that reads and executes J
 
 #### 2. Node.js (Server-Side)
 
-**Node.js** takes Chrome's V8 engine and lets you run JavaScript outside the browser — on your computer or on a server. This means you can use the same language for both the frontend (what users see) and the backend (the server logic). We will focus on browser JavaScript in this guide.
+**Node.js** takes Chrome's V8 engine and lets you run JavaScript outside the browser, on your computer or on a server. This means you can use the same language for both the frontend (what users see) and the backend (the server logic). We will focus on browser JavaScript in this guide.
 
 ### Your First JavaScript Program
 
@@ -97,7 +97,7 @@ To try this, create a file called `index.html` on your computer, paste the code 
 When you open an HTML file in the browser, here is what happens in order:
 
 1. The browser reads the HTML from top to bottom
-2. It builds the page structure (the DOM — Document Object Model)
+2. It builds the page structure (the DOM: Document Object Model)
 3. It applies the CSS styles
 4. It runs any JavaScript code it finds
 
@@ -150,7 +150,7 @@ console.log(10 + 5);
 console.log("Aarav" + " is learning JS");
 ```
 
-`console.log()` is how you print output in JavaScript. It does not show anything on the web page — it prints to the browser's Developer Console (press F12 to open it). This is your best friend for testing and debugging. You can log text (strings in quotes), numbers, math expressions, and even combine strings with the `+` operator.
+`console.log()` is how you print output in JavaScript. It does not show anything on the web page. It prints to the browser's Developer Console (press F12 to open it). This is your best friend for testing and debugging. You can log text (strings in quotes), numbers, math expressions, and even combine strings with the `+` operator.
 
 **Output:**
 
@@ -330,7 +330,7 @@ function
 </html>
 ```
 
-This is a practical project — a counter app with three buttons. A variable `count` stores the current number. Each function modifies `count` and updates the page. `increment()` adds 1, `decrement()` subtracts 1, and `reset()` sets it back to 0. The variable lives outside the functions so all three functions can access it. This is your first real interactive app.
+This is a practical project, a counter app with three buttons. A variable `count` stores the current number. Each function modifies `count` and updates the page. `increment()` adds 1, `decrement()` subtracts 1, and `reset()` sets it back to 0. The variable lives outside the functions so all three functions can access it. This is your first real interactive app.
 
 **Output:**
 
@@ -403,7 +403,7 @@ if (score === 50) {
 }
 ```
 
-A single `=` is the assignment operator — it stores a value. A double `==` or triple `===` is for comparison. In the wrong code, `score = 50` assigns 50 to score and the `if` evaluates 50, which is truthy. So the message prints even though the score was originally 100. Always use `===` for comparison in JavaScript.
+A single `=` is the assignment operator. It stores a value. A double `==` or triple `===` is for comparison. In the wrong code, `score = 50` assigns 50 to score and the `if` evaluates 50, which is truthy. So the message prints even though the score was originally 100. Always use `===` for comparison in JavaScript.
 
 ### Forgetting Quotes Around Strings
 
@@ -421,7 +421,7 @@ ReferenceError: Hello is not defined
 console.log("Hello World");
 ```
 
-Text values (strings) must be wrapped in quotes — either double quotes `"Hello"`, single quotes `'Hello'`, or backticks ``Hello``. Without quotes, JavaScript thinks `Hello` is a variable name and looks for a variable called Hello. Since it does not exist, you get a ReferenceError.
+Text values (strings) must be wrapped in quotes, either double quotes `"Hello"`, single quotes `'Hello'`, or backticks ``Hello``. Without quotes, JavaScript thinks `Hello` is a variable name and looks for a variable called Hello. Since it does not exist, you get a ReferenceError.
 
 ### Misspelling getElementById
 
@@ -458,7 +458,7 @@ No error, but the page literally shows '**Bold text**' as plain text, not bold.
 document.getElementById("msg").innerHTML = "<strong>Bold text</strong>";
 ```
 
-`textContent` treats everything as plain text — HTML tags are displayed as-is, not rendered. If you want to insert HTML that the browser should render (like bold text or links), use `innerHTML`. However, be careful with `innerHTML` when dealing with user input, as it can create security vulnerabilities (XSS attacks).
+`textContent` treats everything as plain text: HTML tags are displayed as-is, not rendered. If you want to insert HTML that the browser should render (like bold text or links), use `innerHTML`. However, be careful with `innerHTML` when dealing with user input, as it can create security vulnerabilities (XSS attacks).
 
 ## Summary
 

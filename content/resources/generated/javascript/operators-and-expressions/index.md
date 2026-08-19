@@ -17,13 +17,13 @@ keywords: ["javascript operators", "== vs === javascript", "truthy falsy javascr
 
 An **operator** is a symbol that tells JavaScript to perform a specific operation on values. You have already used operators: `+` to add numbers, `=` to assign values, and `===` to compare. An **expression** is any piece of code that produces a value: `5 + 3` is an expression (it produces 8), `age >= 18` is an expression (it produces true or false), and even just `42` by itself is an expression.
 
-JavaScript has many operators grouped into categories: arithmetic, assignment, comparison, logical, and some modern ones like nullish coalescing (`??`) and optional chaining (`?.`). This chapter covers all of them, with special focus on the tricky parts that trip up beginners — especially `==` vs `===` and truthy/falsy values.
+JavaScript has many operators grouped into categories: arithmetic, assignment, comparison, logical, and some modern ones like nullish coalescing (`??`) and optional chaining (`?.`). This chapter covers all of them, with special focus on the tricky parts that trip up beginners, especially `==` vs `===` and truthy/falsy values.
 
 ## Why Do Operators Matter?
 
 ### 1. == vs === Is the Most Common JavaScript Bug
 
-The loose equality operator `==` performs type coercion, leading to surprises like `0 == ''` being true and `'' == false` being true. Understanding when and why this happens — and always using `===` instead — prevents an entire category of bugs.
+The loose equality operator `==` performs type coercion, leading to surprises like `0 == ''` being true and `'' == false` being true. Understanding when and why this happens, and always using `===` instead, prevents an entire category of bugs.
 
 ### 2. Truthy/Falsy Values Control Your If Statements
 
@@ -35,7 +35,7 @@ The nullish coalescing operator (`??`) and optional chaining (`?.`) were added i
 
 ### 4. Short-Circuit Evaluation Is Used Everywhere
 
-`&&` and `||` do not just return true/false — they return actual values. This enables patterns like `name || "Guest"` (default value) and `isLoggedIn && showDashboard()` (conditional execution) that you will see in every JavaScript project.
+`&&` and `||` do not just return true/false. They return actual values. This enables patterns like `name || "Guest"` (default value) and `isLoggedIn && showDashboard()` (conditional execution) that you will see in every JavaScript project.
 
 ## Detailed Explanation
 
@@ -69,7 +69,7 @@ OperatorNameExampleResult`==`Loose equality`5 == '5'``true``===`Strict equality`
 
 OperatorNameReturns`&&`Logical ANDFirst falsy value, or last value if all truthy`||`Logical ORFirst truthy value, or last value if all falsy`!`Logical NOTOpposite boolean value
 
-The key insight: `&&` and `||` do not always return `true` or `false` — they return one of the actual operand values. This enables powerful patterns:
+The key insight: `&&` and `||` do not always return `true` or `false`. They return one of the actual operand values. This enables powerful patterns:
 
 ```
 // Default values with ||
@@ -134,18 +134,18 @@ In JavaScript, every value is either **truthy** (treated as true in boolean cont
 
 When multiple operators appear in one expression, JavaScript follows this priority (highest to lowest):
 
-1. `()` — Parentheses
-2. `!`, `++`, `--`, unary `+`/`-`, `typeof` — Unary operators
-3. `**` — Exponentiation
-4. `*`, `/`, `%` — Multiplication, division, remainder
-5. `+`, `-` — Addition, subtraction
-6. `<`, `>`, `<=`, `>=` — Comparison
-7. `===`, `!==`, `==`, `!=` — Equality
-8. `&&` — Logical AND
-9. `||` — Logical OR
-10. `??` — Nullish coalescing
-11. `? :` — Ternary
-12. `=`, `+=`, `-=`, etc. — Assignment
+1. `()`, Parentheses
+2. `!`, `++`, `--`, unary `+`/`-`, `typeof`, Unary operators
+3. `**`, Exponentiation
+4. `*`, `/`, `%`, Multiplication, division, remainder
+5. `+`, `-`, Addition, subtraction
+6. `<`, `>`, `<=`, `>=`, Comparison
+7. `===`, `!==`, `==`, `!=`, Equality
+8. `&&`, Logical AND
+9. `||`, Logical OR
+10. `??`, Nullish coalescing
+11. `? :`, Ternary
+12. `=`, `+=`, `-=`, etc., Assignment
 
 When in doubt, use parentheses to make your intent clear.
 
@@ -212,7 +212,7 @@ console.log(false == 0);     // true
 console.log("0" == "");      // false! (this breaks the pattern)
 ```
 
-`==` tries to convert operands to the same type before comparing, which leads to confusing results. `===` never converts types — if the types are different, it immediately returns false. The last line shows that `==` is not even consistent: `"0" == false` is true and `"" == false` is true, but `"0" == ""` is false. This inconsistency is why you should **always use ===**.
+`==` tries to convert operands to the same type before comparing, which leads to confusing results. `===` never converts types, if the types are different, it immediately returns false. The last line shows that `==` is not even consistent: `"0" == false` is true and `"" == false` is true, but `"0" == ""` is false. This inconsistency is why you should **always use ===**.
 
 **Output:**
 
@@ -441,7 +441,7 @@ if (input) {
 }
 ```
 
-Memorize the six falsy values: `false`, `0`, `""`, `null`, `undefined`, `NaN`. Everything else is truthy — including things that look empty like `"0"`, `[]`, and `{}`. This matters because `if (value)` checks truthiness, not just `true/false`.
+Memorize the six falsy values: `false`, `0`, `""`, `null`, `undefined`, `NaN`. Everything else is truthy, including things that look empty like `"0"`, `[]`, and `{}`. This matters because `if (value)` checks truthiness, not just `true/false`.
 
 **Output:**
 

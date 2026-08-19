@@ -15,9 +15,9 @@ keywords: ["sql interview questions", "sql interview masterclass", "nth highest 
 
 ## SQL Interview Masterclass: 30 Questions Every SQL Engineer Must Solve
 
-Every data analyst, backend engineer, and data scientist interview features a small, well-known set of SQL puzzles. This chapter collects the 30 most common ones and solves every single one of them — with sample data, a working query, an explanation of the approach, and alternative solutions where they are illuminating. The queries are written for MySQL 8+ (window functions, CTEs) with fallbacks for older versions where it matters.
+Every data analyst, backend engineer, and data scientist interview features a small, well-known set of SQL puzzles. This chapter collects the 30 most common ones and solves every single one of them, with sample data, a working query, an explanation of the approach, and alternative solutions where they are illuminating. The queries are written for MySQL 8+ (window functions, CTEs) with fallbacks for older versions where it matters.
 
-If you can solve these 30 cleanly, you will pass almost any SQL round. If you cannot, you will freeze on the whiteboard. There is no substitute for working through each one — *typing* the query, running it, checking the output. Read this chapter once. Then solve it again from scratch. Then come back in a month and solve it again.
+If you can solve these 30 cleanly, you will pass almost any SQL round. If you cannot, you will freeze on the whiteboard. There is no substitute for working through each one, *typing* the query, running it, checking the output. Read this chapter once. Then solve it again from scratch. Then come back in a month and solve it again.
 
 Every solution below assumes a small sample schema. All sample data uses Indian names (Aarav, Priya, Rohan, Anika, Kavya, Vikram, Arjun, Neha, Sanya, Ishan). Every query runs as-is in MySQL 8.0+.
 
@@ -27,7 +27,7 @@ Companies ask these questions because together they cover every essential SQL pa
 
 More importantly, these patterns repeat in real work. 'Find the second highest salary' becomes 'find the second most recent order per user'. 'Running total' becomes 'cumulative revenue by region'. 'Consecutive login days' becomes 'customers with 30-day retention'. The 30 questions are the building blocks of production SQL.
 
-The structure of this chapter is different from previous chapters. Instead of narrative explanation, the `explanation` section below presents 30 self-contained solved problems, each with: a problem statement, a sample table, a working query, and commentary. After that, 55+ practice questions (all fresh — no repeats of the 30) give you more chances to build fluency.
+The structure of this chapter is different from previous chapters. Instead of narrative explanation, the `explanation` section below presents 30 self-contained solved problems, each with: a problem statement, a sample table, a working query, and commentary. After that, 55+ practice questions (all fresh, no repeats of the 30) give you more chances to build fluency.
 
 ## The 30 Solved Interview Questions
 
@@ -56,7 +56,7 @@ WHERE N-1 = (
 );
 ```
 
-DENSE_RANK is the canonical answer: it handles ties naturally (two people on rank 1 both count as rank 1). LIMIT/OFFSET is the quickest write but does not handle ties. The correlated subquery is O(N^2) — fine for small tables, catastrophic for large ones.
+DENSE_RANK is the canonical answer: it handles ties naturally (two people on rank 1 both count as rank 1). LIMIT/OFFSET is the quickest write but does not handle ties. The correlated subquery is O(N^2), fine for small tables, catastrophic for large ones.
 
 ### Q2. Find Duplicate Values in a Column
 
@@ -120,7 +120,7 @@ SELECT dept, salary FROM (
 ) t WHERE rnk = 2;
 ```
 
-PARTITION BY restarts the ranking for each dept — the key to every 'per-group' window problem.
+PARTITION BY restarts the ranking for each dept, the key to every 'per-group' window problem.
 
 ### Q6. Top 3 Products Per Category
 
@@ -175,7 +175,7 @@ GROUP BY customer_id
 HAVING COUNT(DISTINCT MONTH(order_date)) = 12;
 ```
 
-COUNT DISTINCT month = 12 means they ordered in every month. No need for a calendar table here — the constant 12 captures the requirement.
+COUNT DISTINCT month = 12 means they ordered in every month. No need for a calendar table here, the constant 12 captures the requirement.
 
 ### Q10. Consecutive Login Days (Max Streak Per User)
 
@@ -284,7 +284,7 @@ FROM (
 WHERE next_id > id + 1;
 ```
 
-LEAD version is cleaner. Find adjacent rows where the next id is more than one above the current — the gap between them is missing.
+LEAD version is cleaner. Find adjacent rows where the next id is more than one above the current, the gap between them is missing.
 
 ### Q16. Cumulative Percentage of Sales
 
@@ -359,7 +359,7 @@ FROM orders
 GROUP BY customer_id;
 ```
 
-Simple GROUP BY — no window functions needed. DATEDIFF computes the spread.
+Simple GROUP BY, no window functions needed. DATEDIFF computes the spread.
 
 ### Q22. Customers Who Never Placed an Order
 
@@ -382,7 +382,7 @@ SELECT id, name FROM customers
 WHERE id NOT IN (SELECT customer_id FROM orders WHERE customer_id IS NOT NULL);
 ```
 
-NOT EXISTS is usually fastest on MySQL. NOT IN can be wrong if the inner result contains NULL — always wrap with IS NOT NULL when using NOT IN on a nullable column.
+NOT EXISTS is usually fastest on MySQL. NOT IN can be wrong if the inner result contains NULL, always wrap with IS NOT NULL when using NOT IN on a nullable column.
 
 ### Q23. Most Frequent Value Per Group
 
@@ -438,7 +438,7 @@ FROM paired
 GROUP BY month_n;
 ```
 
-Self-join `active_months` to itself, offset by one month. Each matching pair is a user who was active in month N *and* month N+1 — the definition of month-over-month retention.
+Self-join `active_months` to itself, offset by one month. Each matching pair is a user who was active in month N *and* month N+1, the definition of month-over-month retention.
 
 ### Q26. Build a Calendar Table of All Dates in the Last Year
 
@@ -649,7 +649,7 @@ FROM monthly
 ORDER BY month;
 ```
 
-The CTE aggregates per month, then the outer query uses LAG to look back one row. First row has NULL prev_total, so growth_pct is NULL there — good behaviour that shouts 'no baseline'.
+The CTE aggregates per month, then the outer query uses LAG to look back one row. First row has NULL prev_total, so growth_pct is NULL there, good behaviour that shouts 'no baseline'.
 
 **Output:**
 
@@ -731,7 +731,7 @@ GROUP BY YEAR(sale_date)
 ORDER BY year;
 ```
 
-Conditional aggregation. Each CASE expression evaluates to the amount only if the row is in that quarter, zero otherwise; SUM then totals per year. This is MySQL's universal PIVOT — works for any shape of cross-tab.
+Conditional aggregation. Each CASE expression evaluates to the amount only if the row is in that quarter, zero otherwise; SUM then totals per year. This is MySQL's universal PIVOT, works for any shape of cross-tab.
 
 **Output:**
 
@@ -759,7 +759,7 @@ FROM (
 WHERE rn IN (FLOOR((total + 1) / 2), CEIL((total + 1) / 2));
 ```
 
-With 8 salaries, the median is the average of the 4th and 5th values when sorted ascending — positions FLOOR(9/2)=4 and CEIL(9/2)=5. With an odd count, FLOOR and CEIL give the same index, so AVG returns that single value. The formula works for both cases.
+With 8 salaries, the median is the average of the 4th and 5th values when sorted ascending, positions FLOOR(9/2)=4 and CEIL(9/2)=5. With an odd count, FLOOR and CEIL give the same index, so AVG returns that single value. The formula works for both cases.
 
 **Output:**
 
@@ -797,7 +797,7 @@ SELECT DISTINCT salary FROM (
 ) t WHERE rnk = 3;
 ```
 
-LIMIT/OFFSET counts rows; DENSE_RANK counts distinct values. If the interviewer says 'third highest salary' they usually mean the third distinct value — use DENSE_RANK.
+LIMIT/OFFSET counts rows; DENSE_RANK counts distinct values. If the interviewer says 'third highest salary' they usually mean the third distinct value. Use DENSE_RANK.
 
 ### NOT IN With a NULL in the Subquery
 
@@ -840,7 +840,7 @@ WHERE rnk = 2;
 -- Bug: ranking is global. rnk=2 gives the single second-highest salary across ALL departments.
 ```
 
-No error — just the wrong answer.
+No error, just the wrong answer.
 
 **Correct:**
 
@@ -892,7 +892,7 @@ HAVING COUNT(MONTH(order_date)) = 12;
 -- Bug: a customer with 12 orders in January alone passes the test.
 ```
 
-No error — wrong answer.
+No error, wrong answer.
 
 **Correct:**
 
@@ -908,7 +908,7 @@ COUNT counts rows; COUNT(DISTINCT x) counts unique values of x. 'Every month' me
 
 ## Summary
 
-- DENSE_RANK is the safe default for 'Nth highest' — it handles ties correctly. Use LIMIT/OFFSET only when you explicitly do not care about ties.
+- DENSE_RANK is the safe default for 'Nth highest'. It handles ties correctly. Use LIMIT/OFFSET only when you explicitly do not care about ties.
 - GROUP BY + HAVING COUNT(*) > 1 finds duplicates. To delete duplicates keeping one, JOIN to a subquery that picks the surviving id (MIN or via ROW_NUMBER) and delete the rest.
 - Self-joins handle 'employees vs manager', 'user vs follower', 'pair of items in same group'. Alias the same table twice and JOIN on the relationship column.
 - PARTITION BY is what turns global window functions into per-group window functions. 'Top N per group', 'second highest per dept', 'rank within region' all use PARTITION BY.
@@ -916,7 +916,7 @@ COUNT counts rows; COUNT(DISTINCT x) counts unique values of x. 'Every month' me
 - Consecutive-days problems reduce to the 'group by date minus row number' trick: consecutive dates share the same offset, so you can COUNT per island.
 - MySQL has no PIVOT keyword. Conditional aggregation with SUM(CASE WHEN x THEN y ELSE 0 END) is the universal replacement. Works for any cross-tab shape.
 - Median without a median function: ROW_NUMBER the sorted values, pick the middle (odd count) or two middle (even count) rows, AVG the result. The formula FLOOR((n+1)/2) and CEIL((n+1)/2) handles both.
-- NOT IN misbehaves in the presence of NULLs in the subquery. Prefer NOT EXISTS for 'missing in the other table' questions — it is both correct and usually faster.
+- NOT IN misbehaves in the presence of NULLs in the subquery. Prefer NOT EXISTS for 'missing in the other table' questions. It is both correct and usually faster.
 - Practise each of these 30 questions until you can produce the query without looking. Interviewers can distinguish rehearsed solutions from scrambled ones in the first 30 seconds.
 
 ## Related Topics

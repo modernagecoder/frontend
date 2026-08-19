@@ -1,8 +1,8 @@
 /* =====================================================================
-   Book a Free Demo — editorial reskin · "The Open Invitation"
+   Book a Free Demo, editorial reskin · "The Open Invitation"
    Pairs with editorial-theme.css (body.editorial). Amber + ink on warm paper.
    Form hooks preserved: #contactForm, .form-input, .submit-btn-new, .faq-*.
-   Real Google reviews only — no fabricated outcomes.
+   Real Google reviews only, no fabricated outcomes.
    ===================================================================== */
 
 #background-canvas{display:none !important}
@@ -41,7 +41,7 @@
 .demo-grid{display:grid;grid-template-columns:1.05fr .95fr;gap:1.8rem;align-items:start}
 @media(max-width:900px){.demo-grid{grid-template-columns:1fr}}
 
-/* form card — white surface, amber accent rule */
+/* form card, white surface, amber accent rule */
 .form-card{background:var(--surface);border:1px solid var(--line);border-radius:18px;padding:clamp(1.6rem,3vw,2.3rem);box-shadow:var(--shadow-sm);position:relative;overflow:hidden}
 .form-card::before{content:"";position:absolute;top:0;left:0;right:0;height:4px;background:linear-gradient(90deg,var(--amber),var(--amber-bright))}
 .form-card>h2{font-family:var(--font-display);font-size:1.55rem;color:var(--ink);margin:0 0 .35rem}
@@ -67,7 +67,7 @@
 .form-feedback p{margin:0;flex:1}
 .feedback-close{background:none;border:none;font-size:1.3rem;line-height:1;cursor:pointer;color:var(--muted)}
 
-/* info card — dark ink panel (editorial duotone) */
+/* info card, dark ink panel (editorial duotone) */
 .info-card{background:var(--ink);border:1px solid var(--ink);border-radius:18px;padding:clamp(1.6rem,3vw,2.3rem);color:var(--paper)}
 .info-card>h2{font-family:var(--font-display);font-size:1.55rem;color:#fff;margin:0 0 1.4rem}
 .demo-benefits{display:flex;flex-direction:column;gap:.85rem;margin-bottom:1.6rem}

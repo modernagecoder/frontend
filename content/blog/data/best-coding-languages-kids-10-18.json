@@ -163,7 +163,7 @@
         "items": [
           "<strong>Age and cognitive development:</strong> Younger kids (8-11) need visual, block-based languages; teens can handle text-based coding with proper syntax",
           "<strong>Typing proficiency:</strong> Text-based languages require comfortable typing skills (30+ WPM recommended)",
-          "<strong>Interests and motivation:</strong> Games? Web design? Apps? AI? Different languages suit different goals—and motivation is everything",
+          "<strong>Interests and motivation:</strong> Games? Web design? Apps? AI? Different languages suit different goals, and motivation is everything",
           "<strong>Patience and persistence:</strong> Some languages have steeper learning curves; match difficulty to your child's frustration tolerance",
           "<strong>Long-term goals:</strong> Hobby exploration vs. career preparation vs. academic requirements (AP CS, competitions)"
         ]
@@ -172,7 +172,7 @@
         "type": "callout",
         "calloutType": "tip",
         "title": "The Most Important Factor",
-        "text": "The best language is the one your child will actually enjoy learning. Engagement matters more than which specific language they start with—skills transfer between languages. A child who loves coding in Scratch will eventually master Python with ease."
+        "text": "The best language is the one your child will actually enjoy learning. Engagement matters more than which specific language they start with, skills transfer between languages. A child who loves coding in Scratch will eventually master Python with ease."
       },
       {
         "type": "heading",
@@ -237,7 +237,7 @@
       {
         "type": "heading",
         "level": 3,
-        "text": "1. Scratch — The Gold Standard for Beginners"
+        "text": "1. Scratch: The Gold Standard for Beginners"
       },
       {
         "type": "paragraph",
@@ -267,11 +267,11 @@
       {
         "type": "heading",
         "level": 3,
-        "text": "2. Blockly — Google's Block-Based Platform"
+        "text": "2. Blockly: Google's Block-Based Platform"
       },
       {
         "type": "paragraph",
-        "text": "Blockly is Google's open-source visual programming editor. It's used in many educational platforms and uniquely shows the JavaScript or Python code behind the blocks—making it an excellent bridge to text-based coding."
+        "text": "Blockly is Google's open-source visual programming editor. It's used in many educational platforms and uniquely shows the JavaScript or Python code behind the blocks, making it an excellent bridge to text-based coding."
       },
       {
         "type": "list",
@@ -287,7 +287,7 @@
       {
         "type": "heading",
         "level": 3,
-        "text": "3. Code.org Courses — Structured Learning Path"
+        "text": "3. Code.org Courses: Structured Learning Path"
       },
       {
         "type": "paragraph",
@@ -375,11 +375,11 @@
       {
         "type": "heading",
         "level": 3,
-        "text": "1. Python — The Best First Text Language"
+        "text": "1. Python: The Best First Text Language"
       },
       {
         "type": "paragraph",
-        "text": "Python is widely considered the best first text-based language for kids and teens. Its syntax is clean and readable—almost like English—making it less intimidating than other languages. It's also the #1 language for AI, data science, and automation."
+        "text": "Python is widely considered the best first text-based language for kids and teens. Its syntax is clean and readable, almost like English, making it less intimidating than other languages. It's also the #1 language for AI, data science, and automation."
       },
       {
         "type": "list",
@@ -410,11 +410,11 @@
       {
         "type": "heading",
         "level": 3,
-        "text": "2. JavaScript — The Language of the Web"
+        "text": "2. JavaScript: The Language of the Web"
       },
       {
         "type": "paragraph",
-        "text": "JavaScript powers every website you visit. For kids interested in web development, it's essential—and it provides instant visual feedback in the browser. You can see your code come to life immediately."
+        "text": "JavaScript powers every website you visit. For kids interested in web development, it's essential, and it provides instant visual feedback in the browser. You can see your code come to life immediately."
       },
       {
         "type": "list",
@@ -435,7 +435,7 @@
       {
         "type": "heading",
         "level": 3,
-        "text": "3. Lua — Game Development Made Easy"
+        "text": "3. Lua: Game Development Made Easy"
       },
       {
         "type": "paragraph",
@@ -517,7 +517,7 @@
         "type": "callout",
         "calloutType": "tip",
         "title": "Python vs JavaScript: Which to Choose?",
-        "text": "Can't decide? Here's a simple rule: If your child wants to build websites or is very visual, start with JavaScript. For everything else—especially AI, data, or general programming—start with Python. Both are excellent, and skills transfer between them."
+        "text": "Can't decide? Here's a simple rule: If your child wants to build websites or is very visual, start with JavaScript. For everything else, especially AI, data, or general programming, start with Python. Both are excellent, and skills transfer between them."
       },
       {
         "type": "heading",
@@ -532,7 +532,7 @@
       {
         "type": "heading",
         "level": 3,
-        "text": "1. Java — Enterprise and Android Development"
+        "text": "1. Java: Enterprise and Android Development"
       },
       {
         "type": "paragraph",
@@ -552,7 +552,7 @@
       {
         "type": "heading",
         "level": 3,
-        "text": "2. C++ — Performance and Game Engines"
+        "text": "2. C++: Performance and Game Engines"
       },
       {
         "type": "paragraph",
@@ -578,7 +578,7 @@
       {
         "type": "heading",
         "level": 3,
-        "text": "3. Swift — iOS App Development"
+        "text": "3. Swift, iOS App Development"
       },
       {
         "type": "paragraph",
@@ -598,7 +598,7 @@
       {
         "type": "heading",
         "level": 3,
-        "text": "4. C# — Unity Game Development"
+        "text": "4. C#: Unity Game Development"
       },
       {
         "type": "paragraph",
@@ -719,7 +719,7 @@
         "items": [
           "<strong>Start:</strong> Scratch (visual game creation, perfect for learning game logic)",
           "<strong>Intermediate:</strong> Lua (Roblox), Python with Pygame, GDScript (Godot)",
-          "<strong>Advanced:</strong> C# (Unity—industry standard), C++ (Unreal Engine—AAA games)"
+          "<strong>Advanced:</strong> C# (Unity, industry standard), C++ (Unreal Engine, AAA games)"
         ]
       },
       {
@@ -731,7 +731,7 @@
         "type": "list",
         "style": "unordered",
         "items": [
-          "<strong>Start:</strong> HTML/CSS (structure and styling—not programming but essential)",
+          "<strong>Start:</strong> HTML/CSS (structure and styling, not programming but essential)",
           "<strong>Intermediate:</strong> JavaScript (interactivity), basic React or Vue",
           "<strong>Advanced:</strong> TypeScript, Node.js (backend), full-stack frameworks"
         ]
@@ -750,8 +750,8 @@
         "style": "unordered",
         "items": [
           "<strong>Start:</strong> MIT App Inventor (visual app building, great for beginners)",
-          "<strong>Intermediate:</strong> Swift (iOS) or Kotlin (Android)—choose based on your device",
-          "<strong>Advanced:</strong> Flutter or React Native (cross-platform—one codebase, both platforms)"
+          "<strong>Intermediate:</strong> Swift (iOS) or Kotlin (Android), choose based on your device",
+          "<strong>Advanced:</strong> Flutter or React Native (cross-platform, one codebase, both platforms)"
         ]
       },
       {
@@ -767,7 +767,7 @@
         "type": "list",
         "style": "unordered",
         "items": [
-          "<strong>Start:</strong> Python (absolutely essential for this field—no alternatives)",
+          "<strong>Start:</strong> Python (absolutely essential for this field, no alternatives)",
           "<strong>Intermediate:</strong> Python with pandas, matplotlib, basic machine learning",
           "<strong>Advanced:</strong> TensorFlow, PyTorch, deep learning, neural networks"
         ]
@@ -819,7 +819,7 @@
       {
         "type": "heading",
         "level": 3,
-        "text": "Samaira Mehta — Started at 6, Now a Coding Advocate"
+        "text": "Samaira Mehta: Started at 6, Now a Coding Advocate"
       },
       {
         "type": "paragraph",
@@ -828,7 +828,7 @@
       {
         "type": "heading",
         "level": 3,
-        "text": "Muhammad Hamza Shahzad — World's Youngest Microsoft Certified Professional"
+        "text": "Muhammad Hamza Shahzad: World's Youngest Microsoft Certified Professional"
       },
       {
         "type": "paragraph",
@@ -837,11 +837,11 @@
       {
         "type": "heading",
         "level": 3,
-        "text": "Anvitha Vijay — Apple's Youngest WWDC Developer"
+        "text": "Anvitha Vijay: Apple's Youngest WWDC Developer"
       },
       {
         "type": "paragraph",
-        "text": "Anvitha taught herself Swift at age 9 using YouTube tutorials and Apple's resources. At 10, she became the youngest developer at Apple's WWDC conference. Her app 'Smartkins Animals' helps kids learn about animals. She started with no coding background—just curiosity and the right language (Swift) for her goal (iOS apps)."
+        "text": "Anvitha taught herself Swift at age 9 using YouTube tutorials and Apple's resources. At 10, she became the youngest developer at Apple's WWDC conference. Her app 'Smartkins Animals' helps kids learn about animals. She started with no coding background, just curiosity and the right language (Swift) for her goal (iOS apps)."
       },
       {
         "type": "callout",
@@ -921,7 +921,7 @@
         "items": [
           {
             "title": "What's the single best language for a 12-year-old to start with?",
-            "content": "If they've never coded before, start with Scratch to build confidence and concepts (even at 12, it's valuable). If they're ready for text-based coding or have Scratch experience, Python is the best choice—it's readable, versatile, and has a gentle learning curve while being professionally relevant."
+            "content": "If they've never coded before, start with Scratch to build confidence and concepts (even at 12, it's valuable). If they're ready for text-based coding or have Scratch experience, Python is the best choice. It's readable, versatile, and has a gentle learning curve while being professionally relevant."
           },
           {
             "title": "Does the first language really matter?",
@@ -929,11 +929,11 @@
           },
           {
             "title": "Should my child learn multiple languages?",
-            "content": "Eventually, yes—but not at first. Master one language deeply (6-12 months of regular practice) before branching out. Once they understand programming fundamentals, learning additional languages becomes much faster—often just weeks instead of months."
+            "content": "Eventually, yes, but not at first. Master one language deeply (6-12 months of regular practice) before branching out. Once they understand programming fundamentals, learning additional languages becomes much faster, often just weeks instead of months."
           },
           {
             "title": "Is Python or JavaScript better for teens?",
-            "content": "Both are excellent. Python is better for general programming, data science, AI, and automation. JavaScript is essential for web development and provides immediate visual feedback. Choose based on your child's interests—or learn both over time. Most professional developers know both."
+            "content": "Both are excellent. Python is better for general programming, data science, AI, and automation. JavaScript is essential for web development and provides immediate visual feedback. Choose based on your child's interests, or learn both over time. Most professional developers know both."
           },
           {
             "title": "What about languages like C++ or Java?",
@@ -945,7 +945,7 @@
           },
           {
             "title": "Is Scratch too 'babyish' for my 12-year-old?",
-            "content": "Not at all! Scratch is used by MIT students and professional educators. The 'childish' appearance is intentional—it removes barriers to learning. Many 12-year-olds benefit from Scratch, especially if they're new to coding. That said, if your child feels it's too easy or is resistant, Python is a great alternative."
+            "content": "Not at all! Scratch is used by MIT students and professional educators. The 'childish' appearance is intentional. It removes barriers to learning. Many 12-year-olds benefit from Scratch, especially if they're new to coding. That said, if your child feels it's too easy or is resistant, Python is a great alternative."
           },
           {
             "title": "How long should my child spend on each language before moving on?",
@@ -957,7 +957,7 @@
           },
           {
             "title": "Should my child learn HTML/CSS before JavaScript?",
-            "content": "Yes, if they're interested in web development. HTML/CSS aren't programming languages—they're markup and styling—but they're essential for web development and provide quick visual results. A few weeks of HTML/CSS before JavaScript gives context for what JavaScript does."
+            "content": "Yes, if they're interested in web development. HTML/CSS aren't programming languages, they're markup and styling, but they're essential for web development and provide quick visual results. A few weeks of HTML/CSS before JavaScript gives context for what JavaScript does."
           }
         ]
       },
@@ -983,7 +983,7 @@
         "type": "callout",
         "calloutType": "success",
         "title": "Ready to Begin?",
-        "text": "Every coding journey starts somewhere. Whether it's Scratch, Python, or JavaScript—help your child take that first step today. Our expert instructors will guide them through the perfect learning path for their age and interests."
+        "text": "Every coding journey starts somewhere. Whether it's Scratch, Python, or JavaScript, help your child take that first step today. Our expert instructors will guide them through the perfect learning path for their age and interests."
       },
       {
         "type": "button",
@@ -1007,10 +1007,10 @@
         "type": "list",
         "style": "unordered",
         "items": [
-          "<strong><a href=\"/coding-classes-for-girls\">Coding Classes for Girls</a></strong> — Princess &amp; Queen Coders inclusive batches with female mentors and a supportive learning environment.",
-          "<strong><a href=\"/python-and-ai-classes-for-kids-teens\">Python &amp; AI Classes for Kids and Teens</a></strong> — Live online Python and AI programs for ages 8 to 18, project-based.",
-          "<strong><a href=\"/ai-ml-course-for-teens\">AI &amp; Machine Learning Course for Teens</a></strong> — Build chatbots, image recognition systems, and real AI projects.",
-          "<strong><a href=\"/java-programming-for-kids-teens\">Java Programming for Kids &amp; Teens</a></strong> — Master Java step by step from variables to OOP and real apps."
+          "<strong><a href=\"/coding-classes-for-girls\">Coding Classes for Girls</a></strong>: Princess &amp; Queen Coders inclusive batches with female mentors and a supportive learning environment.",
+          "<strong><a href=\"/python-and-ai-classes-for-kids-teens\">Python &amp; AI Classes for Kids and Teens</a></strong>: Live online Python and AI programs for ages 8 to 18, project-based.",
+          "<strong><a href=\"/ai-ml-course-for-teens\">AI &amp; Machine Learning Course for Teens</a></strong>: Build chatbots, image recognition systems, and real AI projects.",
+          "<strong><a href=\"/java-programming-for-kids-teens\">Java Programming for Kids &amp; Teens</a></strong>: Master Java step by step from variables to OOP and real apps."
         ]
       }
     ]

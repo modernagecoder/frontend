@@ -13,15 +13,15 @@
     "keywords": "html headings, h1 h6, html paragraphs, html text formatting, strong em mark, html entities, blockquote, subscript superscript, html text tags"
   },
   "content": {
-    "what": "<h2>What Are HTML Text Tags?</h2><p>Words are the heart of every web page. Whether it is a blog post, a school assignment, a news article, or a product description — text is what people come to read. HTML gives you a toolbox full of tags to mark up text so it has the right meaning and appearance.</p><p>In this chapter, you will learn how to create <strong>headings</strong> (big titles), <strong>paragraphs</strong> (blocks of text), <strong>line breaks</strong> and <strong>horizontal rules</strong> (visual separators), and use <strong>formatting tags</strong> like bold, italic, highlighted, subscript, superscript, and more. You will also learn about <strong>entity codes</strong> — special codes for characters like &amp;copy; and &amp;nbsp;.</p><h3>Why Different Tags?</h3><p>You might ask: 'Why not just have one big text tag and add styles to it?' The answer is <strong>meaning</strong>. HTML tags tell the browser, screen readers, and search engines what the text <em>means</em>, not just how it looks. A <code>&lt;strong&gt;</code> tag means 'this is important', while a <code>&lt;b&gt;</code> tag just means 'make it bold'. Using the right tag makes your page more accessible and better for SEO.</p>",
-    "why": "<h2>Why Learn Text Tags Properly?</h2><h3>1. Structure Makes Content Readable</h3><p>A wall of text is painful to read. Headings let users scan a page quickly to find what they need. Paragraphs break text into manageable chunks. This is why every newspaper, book, and website uses headings and paragraphs.</p><h3>2. Headings Are Critical for SEO</h3><p>Google reads your headings to understand what your page is about. If you have an <code>&lt;h1&gt;</code> that says 'Learn to Bake a Chocolate Cake', Google knows that is your main topic. Use the right headings and you rank higher in search results.</p><h3>3. Accessibility</h3><p>Blind users navigate the web with screen readers that announce headings. They can press a key to jump between headings to quickly understand the page structure. If you skip heading levels or use them incorrectly, screen reader users have a frustrating experience.</p><h3>4. Semantic Meaning Over Visual Style</h3><p>HTML tags carry <strong>meaning</strong>. <code>&lt;strong&gt;</code> means 'this is important' — browsers show it as bold, but screen readers also emphasise it when reading aloud. <code>&lt;em&gt;</code> means 'stress this word' — shown as italic, also emphasised verbally. Using meaningful tags makes your content work for everyone.</p><h3>5. Professional Writing</h3><p>Any blog, documentation site, or online article uses these tags constantly. If you want to write for the web, you need to know them. Plus, they are easy to learn — you can master all the common ones in an hour.</p>",
-    "explanation": "<h2>Detailed Explanation</h2><h3>Headings: h1 to h6</h3><p>HTML has six heading levels, from <code>&lt;h1&gt;</code> (most important) to <code>&lt;h6&gt;</code> (least important). Browsers give each level a smaller default size.</p><ul><li><code>&lt;h1&gt;</code> — The main title. Use only ONE h1 per page. This is what the page is about.</li><li><code>&lt;h2&gt;</code> — Section titles. Use as many as needed.</li><li><code>&lt;h3&gt;</code> — Sub-section titles inside h2 sections.</li><li><code>&lt;h4&gt;</code>, <code>&lt;h5&gt;</code>, <code>&lt;h6&gt;</code> — Rarely used, only for very deep hierarchies.</li></ul><p><strong>Important rule:</strong> Only one <code>&lt;h1&gt;</code> per page is the best practice for SEO. Think of it like the title of a book — a book has only one title, not ten.</p><h3>Paragraphs: &lt;p&gt;</h3><p>The <code>&lt;p&gt;</code> tag creates a paragraph. Browsers automatically add vertical space between paragraphs. Each <code>&lt;p&gt;</code> should contain one complete thought or idea. Avoid putting too much text in a single paragraph — break it up for readability.</p><h3>Line Break: &lt;br&gt;</h3><p>The <code>&lt;br&gt;</code> tag forces a line break without starting a new paragraph. It is self-closing (no closing tag needed). Use it sparingly — only when you really need a manual line break, like in a poem or an address.</p><h3>Horizontal Rule: &lt;hr&gt;</h3><p>The <code>&lt;hr&gt;</code> tag draws a horizontal line across the page to visually separate sections. It is also self-closing. Useful for dividing a page into themed sections.</p><h3>Text Formatting Tags</h3><p>HTML has many tags to format text:</p><ul><li><code>&lt;strong&gt;</code> — Important text (displays bold). Semantic.</li><li><code>&lt;em&gt;</code> — Stressed/emphasised text (displays italic). Semantic.</li><li><code>&lt;b&gt;</code> — Plain bold text (no extra meaning). Use <code>&lt;strong&gt;</code> instead for important content.</li><li><code>&lt;i&gt;</code> — Plain italic text. Use <code>&lt;em&gt;</code> instead for stressed content.</li><li><code>&lt;mark&gt;</code> — Highlighted text (yellow background by default).</li><li><code>&lt;small&gt;</code> — Smaller text, often used for fine print or side notes.</li><li><code>&lt;sub&gt;</code> — Subscript (below the line), like H<sub>2</sub>O.</li><li><code>&lt;sup&gt;</code> — Superscript (above the line), like x<sup>2</sup>.</li><li><code>&lt;del&gt;</code> — Deleted text (shown with strikethrough line).</li><li><code>&lt;ins&gt;</code> — Inserted text (shown with underline).</li><li><code>&lt;code&gt;</code> — Computer code (shown in monospace font).</li><li><code>&lt;kbd&gt;</code> — Keyboard input (like 'Press Ctrl+C').</li></ul><h3>Blockquotes</h3><p>The <code>&lt;blockquote&gt;</code> tag is for quoting a block of text from another source. Browsers usually indent blockquotes to set them apart visually. Use this for quotes longer than a line.</p><h3>HTML Entity Codes</h3><p>Some characters are special in HTML because they are part of the syntax. To show them as text, you need <strong>entity codes</strong>:</p><table><tr><th>Character</th><th>Entity Code</th><th>Use Case</th></tr><tr><td>&lt;</td><td>&amp;lt;</td><td>Less-than sign</td></tr><tr><td>&gt;</td><td>&amp;gt;</td><td>Greater-than sign</td></tr><tr><td>&amp;</td><td>&amp;amp;</td><td>Ampersand</td></tr><tr><td>&quot;</td><td>&amp;quot;</td><td>Double quote</td></tr><tr><td>&copy;</td><td>&amp;copy;</td><td>Copyright symbol</td></tr><tr><td>&nbsp;</td><td>&amp;nbsp;</td><td>Non-breaking space</td></tr><tr><td>&reg;</td><td>&amp;reg;</td><td>Registered trademark</td></tr><tr><td>&trade;</td><td>&amp;trade;</td><td>Trademark</td></tr></table><p><code>&amp;nbsp;</code> (non-breaking space) is especially useful — it creates a space that the browser will not collapse, and it prevents the text from wrapping at that point. For example, write <code>Dr.&amp;nbsp;Priya</code> to keep 'Dr.' and 'Priya' on the same line.</p><h3>How HTML Handles Whitespace</h3><p>This is a critical concept. HTML <strong>collapses whitespace</strong>. If you write:</p><pre><code>&lt;p&gt;Hello       World&lt;/p&gt;</code></pre><p>The browser shows: 'Hello World' (only one space, even though you typed many). Multiple spaces, tabs, and line breaks in your HTML source all become a single space on the page. This means you cannot use spaces to position text. For real spacing, use CSS. For forced spaces, use <code>&amp;nbsp;</code>.</p>",
+    "what": "<h2>What Are HTML Text Tags?</h2><p>Words are the heart of every web page. Whether it is a blog post, a school assignment, a news article, or a product description, text is what people come to read. HTML gives you a toolbox full of tags to mark up text so it has the right meaning and appearance.</p><p>In this chapter, you will learn how to create <strong>headings</strong> (big titles), <strong>paragraphs</strong> (blocks of text), <strong>line breaks</strong> and <strong>horizontal rules</strong> (visual separators), and use <strong>formatting tags</strong> like bold, italic, highlighted, subscript, superscript, and more. You will also learn about <strong>entity codes</strong>, special codes for characters like &amp;copy; and &amp;nbsp;.</p><h3>Why Different Tags?</h3><p>You might ask: 'Why not just have one big text tag and add styles to it?' The answer is <strong>meaning</strong>. HTML tags tell the browser, screen readers, and search engines what the text <em>means</em>, not just how it looks. A <code>&lt;strong&gt;</code> tag means 'this is important', while a <code>&lt;b&gt;</code> tag just means 'make it bold'. Using the right tag makes your page more accessible and better for SEO.</p>",
+    "why": "<h2>Why Learn Text Tags Properly?</h2><h3>1. Structure Makes Content Readable</h3><p>A wall of text is painful to read. Headings let users scan a page quickly to find what they need. Paragraphs break text into manageable chunks. This is why every newspaper, book, and website uses headings and paragraphs.</p><h3>2. Headings Are Critical for SEO</h3><p>Google reads your headings to understand what your page is about. If you have an <code>&lt;h1&gt;</code> that says 'Learn to Bake a Chocolate Cake', Google knows that is your main topic. Use the right headings and you rank higher in search results.</p><h3>3. Accessibility</h3><p>Blind users navigate the web with screen readers that announce headings. They can press a key to jump between headings to quickly understand the page structure. If you skip heading levels or use them incorrectly, screen reader users have a frustrating experience.</p><h3>4. Semantic Meaning Over Visual Style</h3><p>HTML tags carry <strong>meaning</strong>. <code>&lt;strong&gt;</code> means 'this is important', browsers show it as bold, but screen readers also emphasise it when reading aloud. <code>&lt;em&gt;</code> means 'stress this word', shown as italic, also emphasised verbally. Using meaningful tags makes your content work for everyone.</p><h3>5. Professional Writing</h3><p>Any blog, documentation site, or online article uses these tags constantly. If you want to write for the web, you need to know them. Plus, they are easy to learn. You can master all the common ones in an hour.</p>",
+    "explanation": "<h2>Detailed Explanation</h2><h3>Headings: h1 to h6</h3><p>HTML has six heading levels, from <code>&lt;h1&gt;</code> (most important) to <code>&lt;h6&gt;</code> (least important). Browsers give each level a smaller default size.</p><ul><li><code>&lt;h1&gt;</code>: The main title. Use only ONE h1 per page. This is what the page is about.</li><li><code>&lt;h2&gt;</code>, Section titles. Use as many as needed.</li><li><code>&lt;h3&gt;</code>, Sub-section titles inside h2 sections.</li><li><code>&lt;h4&gt;</code>, <code>&lt;h5&gt;</code>, <code>&lt;h6&gt;</code>: Rarely used, only for very deep hierarchies.</li></ul><p><strong>Important rule:</strong> Only one <code>&lt;h1&gt;</code> per page is the best practice for SEO. Think of it like the title of a book, a book has only one title, not ten.</p><h3>Paragraphs: &lt;p&gt;</h3><p>The <code>&lt;p&gt;</code> tag creates a paragraph. Browsers automatically add vertical space between paragraphs. Each <code>&lt;p&gt;</code> should contain one complete thought or idea. Avoid putting too much text in a single paragraph, break it up for readability.</p><h3>Line Break: &lt;br&gt;</h3><p>The <code>&lt;br&gt;</code> tag forces a line break without starting a new paragraph. It is self-closing (no closing tag needed). Use it sparingly, only when you really need a manual line break, like in a poem or an address.</p><h3>Horizontal Rule: &lt;hr&gt;</h3><p>The <code>&lt;hr&gt;</code> tag draws a horizontal line across the page to visually separate sections. It is also self-closing. Useful for dividing a page into themed sections.</p><h3>Text Formatting Tags</h3><p>HTML has many tags to format text:</p><ul><li><code>&lt;strong&gt;</code>, Important text (displays bold). Semantic.</li><li><code>&lt;em&gt;</code>, Stressed/emphasised text (displays italic). Semantic.</li><li><code>&lt;b&gt;</code>: Plain bold text (no extra meaning). Use <code>&lt;strong&gt;</code> instead for important content.</li><li><code>&lt;i&gt;</code>: Plain italic text. Use <code>&lt;em&gt;</code> instead for stressed content.</li><li><code>&lt;mark&gt;</code>, Highlighted text (yellow background by default).</li><li><code>&lt;small&gt;</code>, Smaller text, often used for fine print or side notes.</li><li><code>&lt;sub&gt;</code>, Subscript (below the line), like H<sub>2</sub>O.</li><li><code>&lt;sup&gt;</code>, Superscript (above the line), like x<sup>2</sup>.</li><li><code>&lt;del&gt;</code>, Deleted text (shown with strikethrough line).</li><li><code>&lt;ins&gt;</code>, Inserted text (shown with underline).</li><li><code>&lt;code&gt;</code>, Computer code (shown in monospace font).</li><li><code>&lt;kbd&gt;</code>, Keyboard input (like 'Press Ctrl+C').</li></ul><h3>Blockquotes</h3><p>The <code>&lt;blockquote&gt;</code> tag is for quoting a block of text from another source. Browsers usually indent blockquotes to set them apart visually. Use this for quotes longer than a line.</p><h3>HTML Entity Codes</h3><p>Some characters are special in HTML because they are part of the syntax. To show them as text, you need <strong>entity codes</strong>:</p><table><tr><th>Character</th><th>Entity Code</th><th>Use Case</th></tr><tr><td>&lt;</td><td>&amp;lt;</td><td>Less-than sign</td></tr><tr><td>&gt;</td><td>&amp;gt;</td><td>Greater-than sign</td></tr><tr><td>&amp;</td><td>&amp;amp;</td><td>Ampersand</td></tr><tr><td>&quot;</td><td>&amp;quot;</td><td>Double quote</td></tr><tr><td>&copy;</td><td>&amp;copy;</td><td>Copyright symbol</td></tr><tr><td>&nbsp;</td><td>&amp;nbsp;</td><td>Non-breaking space</td></tr><tr><td>&reg;</td><td>&amp;reg;</td><td>Registered trademark</td></tr><tr><td>&trade;</td><td>&amp;trade;</td><td>Trademark</td></tr></table><p><code>&amp;nbsp;</code> (non-breaking space) is especially useful. It creates a space that the browser will not collapse, and it prevents the text from wrapping at that point. For example, write <code>Dr.&amp;nbsp;Priya</code> to keep 'Dr.' and 'Priya' on the same line.</p><h3>How HTML Handles Whitespace</h3><p>This is a critical concept. HTML <strong>collapses whitespace</strong>. If you write:</p><pre><code>&lt;p&gt;Hello       World&lt;/p&gt;</code></pre><p>The browser shows: 'Hello World' (only one space, even though you typed many). Multiple spaces, tabs, and line breaks in your HTML source all become a single space on the page. This means you cannot use spaces to position text. For real spacing, use CSS. For forced spaces, use <code>&amp;nbsp;</code>.</p>",
     "codeExamples": [
       {
         "title": "All Six Heading Levels",
         "code": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n  <meta charset=\"UTF-8\">\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n  <title>Heading Levels</title>\n</head>\n<body>\n  <h1>Heading Level 1 - Biggest</h1>\n  <h2>Heading Level 2</h2>\n  <h3>Heading Level 3</h3>\n  <h4>Heading Level 4</h4>\n  <h5>Heading Level 5</h5>\n  <h6>Heading Level 6 - Smallest</h6>\n</body>\n</html>",
         "language": "html",
-        "explanation": "This example shows all six heading levels. Save it and open in a browser — you will see the headings get progressively smaller from h1 to h6. Use h1 for the main page title (only one per page), h2 for major sections, and h3 for subsections. h4, h5, and h6 are rarely needed.",
+        "explanation": "This example shows all six heading levels. Save it and open in a browser. You will see the headings get progressively smaller from h1 to h6. Use h1 for the main page title (only one per page), h2 for major sections, and h3 for subsections. h4, h5, and h6 are rarely needed.",
         "output": "Six headings of decreasing size, from large 'Heading Level 1' to small 'Heading Level 6'."
       },
       {
@@ -66,19 +66,19 @@
         "wrongCode": "<h1>Welcome</h1>\n<h1>About Us</h1>\n<h1>Contact</h1>",
         "error": "The page has no clear main topic for SEO, and screen readers get confused about the page structure.",
         "correctCode": "<h1>Welcome to My Site</h1>\n<h2>About Us</h2>\n<h2>Contact</h2>",
-        "explanation": "Every page should have only one <code>&lt;h1&gt;</code> — the main page title. Use <code>&lt;h2&gt;</code> for major sections. This helps search engines and screen readers understand that the h1 is the top-level topic."
+        "explanation": "Every page should have only one <code>&lt;h1&gt;</code>, the main page title. Use <code>&lt;h2&gt;</code> for major sections. This helps search engines and screen readers understand that the h1 is the top-level topic."
       },
       {
         "title": "Using <br> for Paragraph Spacing",
         "wrongCode": "Welcome to my page.<br><br><br>Here is some information.<br><br><br>And more text.",
         "error": "Invalid HTML structure. Browsers show extra spacing, but the text is not inside any proper element.",
         "correctCode": "<p>Welcome to my page.</p>\n<p>Here is some information.</p>\n<p>And more text.</p>",
-        "explanation": "Do not use multiple <code>&lt;br&gt;</code> tags to create spacing between paragraphs. Use proper <code>&lt;p&gt;</code> tags — browsers automatically add spacing between paragraphs. <code>&lt;br&gt;</code> is only for forced line breaks inside a single paragraph (like in a poem or address)."
+        "explanation": "Do not use multiple <code>&lt;br&gt;</code> tags to create spacing between paragraphs. Use proper <code>&lt;p&gt;</code> tags, browsers automatically add spacing between paragraphs. <code>&lt;br&gt;</code> is only for forced line breaks inside a single paragraph (like in a poem or address)."
       },
       {
         "title": "Forgetting to Close Entity Codes",
         "wrongCode": "<p>Copyright &copy 2026</p>",
-        "error": "The copyright symbol may not render — the browser may show 'Copyright &copy 2026' as text.",
+        "error": "The copyright symbol may not render, the browser may show 'Copyright &copy 2026' as text.",
         "correctCode": "<p>Copyright &copy; 2026</p>",
         "explanation": "Every HTML entity must end with a semicolon <code>;</code>. <code>&amp;copy;</code> is correct, <code>&amp;copy</code> without the semicolon may or may not work depending on the browser. Always include the semicolon."
       },
@@ -94,21 +94,21 @@
         "wrongCode": "<p><b>Warning:</b> read this <i>carefully</i>.</p>",
         "error": "The text looks the same, but screen readers do not emphasise the important word. Less accessible.",
         "correctCode": "<p><strong>Warning:</strong> read this <em>carefully</em>.</p>",
-        "explanation": "<code>&lt;b&gt;</code> and <code>&lt;i&gt;</code> only change the look. <code>&lt;strong&gt;</code> and <code>&lt;em&gt;</code> carry semantic meaning — 'this is important' and 'stress this word'. Screen readers emphasise these when reading aloud. Always prefer <code>&lt;strong&gt;</code> and <code>&lt;em&gt;</code>."
+        "explanation": "<code>&lt;b&gt;</code> and <code>&lt;i&gt;</code> only change the look. <code>&lt;strong&gt;</code> and <code>&lt;em&gt;</code> carry semantic meaning, 'this is important' and 'stress this word'. Screen readers emphasise these when reading aloud. Always prefer <code>&lt;strong&gt;</code> and <code>&lt;em&gt;</code>."
       }
     ],
     "summary": [
       "HTML has six heading levels from <h1> (biggest, most important) to <h6> (smallest, least important).",
-      "Use only ONE <h1> per page — it represents the main topic of the page and is critical for SEO.",
+      "Use only ONE <h1> per page. It represents the main topic of the page and is critical for SEO.",
       "<p> creates a paragraph. Browsers automatically add vertical space between paragraphs.",
       "<br> is a self-closing tag that forces a line break. Use it only when you need a manual break, like in a poem or address.",
       "<hr> draws a horizontal line across the page to visually separate sections.",
-      "<strong> means 'important' and <em> means 'stressed' — these are semantic tags that screen readers understand. Prefer them over <b> and <i>.",
+      "<strong> means 'important' and <em> means 'stressed', these are semantic tags that screen readers understand. Prefer them over <b> and <i>.",
       "<mark> highlights text with a yellow background. <small> shows fine print. <del> shows strikethrough. <ins> shows underlined inserted text.",
       "<sub> creates subscript (like H2O) and <sup> creates superscript (like x squared). <code> shows computer code in monospace font.",
-      "<blockquote> is for quoting a block of text from another source — browsers indent it by default.",
+      "<blockquote> is for quoting a block of text from another source, browsers indent it by default.",
       "HTML entity codes let you display special characters: &copy; for copyright, &nbsp; for non-breaking space, &lt; for less than, &gt; for greater than, &amp; for ampersand.",
-      "HTML collapses whitespace — multiple spaces, tabs, and newlines become a single space. Use &nbsp; for forced spaces or CSS for layout spacing."
+      "HTML collapses whitespace, multiple spaces, tabs, and newlines become a single space. Use &nbsp; for forced spaces or CSS for layout spacing."
     ]
   },
   "relatedTopics": ["html-structure-and-boilerplate", "links-and-navigation"],
@@ -149,7 +149,7 @@
         "question": "What is the difference between these two lines?<br><pre><code>&lt;h1&gt;Hello&lt;/h1&gt;\n&lt;h3&gt;Hello&lt;/h3&gt;</code></pre>",
         "hint": "h1 is bigger than h3.",
         "answer": "Both say 'Hello', but h1 is displayed as a very large heading, and h3 is a medium-sized heading.",
-        "explanation": "Heading tags h1-h6 have different default font sizes — h1 is the largest, h6 is the smallest. Each level signifies a different level of importance."
+        "explanation": "Heading tags h1-h6 have different default font sizes, h1 is the largest, h6 is the smallest. Each level signifies a different level of importance."
       },
       {
         "id": "ts-5",
@@ -167,7 +167,7 @@
         "question": "What does this produce?<br><pre><code>&lt;p&gt;Water is H&lt;sub&gt;2&lt;/sub&gt;O.&lt;/p&gt;</code></pre>",
         "hint": "sub is for subscript (below the line).",
         "answer": "A paragraph: 'Water is H<sub>2</sub>O.' with the '2' shown smaller and below the baseline.",
-        "explanation": "<code>&lt;sub&gt;</code> creates subscript text — smaller and positioned below the baseline. It is commonly used in chemical formulas like H2O."
+        "explanation": "<code>&lt;sub&gt;</code> creates subscript text, smaller and positioned below the baseline. It is commonly used in chemical formulas like H2O."
       },
       {
         "id": "ts-7",
@@ -176,7 +176,7 @@
         "question": "What is the output?<br><pre><code>&lt;p&gt;The area of a square is x&lt;sup&gt;2&lt;/sup&gt;.&lt;/p&gt;</code></pre>",
         "hint": "sup is for superscript (above the line).",
         "answer": "A paragraph: 'The area of a square is x<sup>2</sup>.' with the '2' shown smaller and above the baseline.",
-        "explanation": "<code>&lt;sup&gt;</code> creates superscript text — smaller and positioned above the baseline. It is commonly used in math expressions like x squared (x^2)."
+        "explanation": "<code>&lt;sup&gt;</code> creates superscript text, smaller and positioned above the baseline. It is commonly used in math expressions like x squared (x^2)."
       },
       {
         "id": "ts-8",
@@ -194,7 +194,7 @@
         "question": "Why does this show 'Copyright copy 2026' instead of the copyright symbol?<br><pre><code>&lt;p&gt;Copyright &copy 2026&lt;/p&gt;</code></pre>",
         "hint": "Entity codes need something at the end.",
         "answer": "<pre><code>&lt;p&gt;Copyright &amp;copy; 2026&lt;/p&gt;</code></pre>",
-        "explanation": "HTML entity codes must end with a semicolon. <code>&amp;copy</code> (without semicolon) is invalid — use <code>&amp;copy;</code> to display the copyright symbol."
+        "explanation": "HTML entity codes must end with a semicolon. <code>&amp;copy</code> (without semicolon) is invalid. Use <code>&amp;copy;</code> to display the copyright symbol."
       },
       {
         "id": "ts-10",
@@ -257,7 +257,7 @@
         "question": "Why does this page have 3 h1 tags and what should be done?<br><pre><code>&lt;h1&gt;About&lt;/h1&gt;\n&lt;h1&gt;Hobbies&lt;/h1&gt;\n&lt;h1&gt;Contact&lt;/h1&gt;</code></pre>",
         "hint": "Best practice says only one h1 per page.",
         "answer": "<pre><code>&lt;h1&gt;About Me&lt;/h1&gt;\n&lt;h2&gt;Hobbies&lt;/h2&gt;\n&lt;h2&gt;Contact&lt;/h2&gt;</code></pre>",
-        "explanation": "Only one <code>&lt;h1&gt;</code> should appear per page — it represents the main topic. Sub-sections should use <code>&lt;h2&gt;</code>, and sub-sub-sections should use <code>&lt;h3&gt;</code>, and so on."
+        "explanation": "Only one <code>&lt;h1&gt;</code> should appear per page. It represents the main topic. Sub-sections should use <code>&lt;h2&gt;</code>, and sub-sub-sections should use <code>&lt;h3&gt;</code>, and so on."
       },
       {
         "id": "ts-17",
@@ -412,7 +412,7 @@
         "question": "Rohan wants the text 'Click here' to be small but stands out. He wrote:<br><pre><code>&lt;small&gt;&lt;strong&gt;Click here&lt;/strong&gt;&lt;/small&gt;</code></pre>What is wrong (or right)?",
         "hint": "Think about nesting order.",
         "answer": "Actually, this is valid HTML. Both orders work: <code>&lt;small&gt;&lt;strong&gt;...&lt;/strong&gt;&lt;/small&gt;</code> or <code>&lt;strong&gt;&lt;small&gt;...&lt;/small&gt;&lt;/strong&gt;</code>. The text will be small and bold.",
-        "explanation": "You can nest formatting tags freely — the order does not matter for the visual result. Both <code>strong</code> and <code>small</code> are inline tags and can be combined in either order."
+        "explanation": "You can nest formatting tags freely, the order does not matter for the visual result. Both <code>strong</code> and <code>small</code> are inline tags and can be combined in either order."
       },
       {
         "id": "mx-9",
@@ -420,7 +420,7 @@
         "difficulty": "Medium",
         "question": "What does this render visually?<br><pre><code>&lt;blockquote&gt;\n  &lt;p&gt;Never give up.&lt;/p&gt;\n&lt;/blockquote&gt;</code></pre>",
         "hint": "Blockquotes are usually indented.",
-        "answer": "An indented paragraph saying 'Never give up.' — usually with some left padding to visually separate it from regular paragraphs.",
+        "answer": "An indented paragraph saying 'Never give up.', usually with some left padding to visually separate it from regular paragraphs.",
         "explanation": "Browsers indent blockquotes by default to visually set them apart. This makes it clear that the content is quoted from another source."
       },
       {
@@ -436,7 +436,7 @@
         "id": "mx-11",
         "type": "find-the-bug",
         "difficulty": "Medium",
-        "question": "Ananya's text has weird spacing — she wants to force 5 spaces but they all collapse. Fix it:<br><pre><code>&lt;p&gt;Hello     World&lt;/p&gt;</code></pre>",
+        "question": "Ananya's text has weird spacing. She wants to force 5 spaces but they all collapse. Fix it:<br><pre><code>&lt;p&gt;Hello     World&lt;/p&gt;</code></pre>",
         "hint": "Use non-breaking space entities.",
         "answer": "<pre><code>&lt;p&gt;Hello&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;World&lt;/p&gt;</code></pre>",
         "explanation": "HTML collapses multiple spaces to one. Use <code>&amp;nbsp;</code> (non-breaking space) multiple times to force specific number of spaces. For real layout though, use CSS."
@@ -474,7 +474,7 @@
         "difficulty": "Hard",
         "question": "What happens when you write this code in HTML?<br><pre><code>&lt;p&gt;&amp;lt;strong&amp;gt;Hello&amp;lt;/strong&amp;gt;&lt;/p&gt;</code></pre>",
         "hint": "The entities are doing their job.",
-        "answer": "A paragraph showing the literal text: '&lt;strong&gt;Hello&lt;/strong&gt;' — not bold, just the tag characters shown as text.",
+        "answer": "A paragraph showing the literal text: '&lt;strong&gt;Hello&lt;/strong&gt;', not bold, just the tag characters shown as text.",
         "explanation": "The entity codes <code>&amp;lt;</code> and <code>&amp;gt;</code> render as <code>&lt;</code> and <code>&gt;</code> respectively. So the browser shows the text as if it were typed, without interpreting it as an HTML tag."
       }
     ],
@@ -747,7 +747,7 @@
         "difficulty": "Easy",
         "question": "Create a complete HTML page about your school with one h1 (school name), two h2 sections ('About' and 'Facilities'), and a paragraph under each h2.",
         "expectedInput": "(No input required)",
-        "expectedOutput": "A page with proper heading hierarchy — one h1, two h2 sections, each with a paragraph.",
+        "expectedOutput": "A page with proper heading hierarchy, one h1, two h2 sections, each with a paragraph.",
         "constraints": "Must have exactly one h1, multiple h2s, and proper HTML boilerplate.",
         "solution": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n  <meta charset=\"UTF-8\">\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n  <title>My School</title>\n</head>\n<body>\n  <h1>Modern Public School</h1>\n  <h2>About</h2>\n  <p>Modern Public School was founded in 1985 and is one of the top schools in Delhi.</p>\n  <h2>Facilities</h2>\n  <p>We have a large library, a science lab, a computer lab, and a big playground.</p>\n</body>\n</html>",
         "explanation": "Proper heading hierarchy: one h1 for the school name (the main topic), and h2 for each major section. This structure is SEO-friendly and accessible.",
@@ -834,7 +834,7 @@
         "expectedOutput": "A richly formatted blog post using all the text formatting tags from this chapter.",
         "constraints": "Must use h1, h2, p, small, strong, em, blockquote, kbd, code, hr, and at least one entity code.",
         "solution": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n  <meta charset=\"UTF-8\">\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n  <title>My Week Learning HTML</title>\n</head>\n<body>\n  <h1>My Week Learning HTML</h1>\n  <p><small>By Ananya Singh, posted on April 11, 2026</small></p>\n\n  <p>This week, I learned the <strong>basics</strong> of HTML. It was <em>incredibly fun</em> and much easier than I thought.</p>\n\n  <h2>What Inspired Me</h2>\n  <blockquote>\n    <p>The only way to learn to code is to write code every day.</p>\n    <p>- Unknown</p>\n  </blockquote>\n\n  <h2>My Favourite Shortcut</h2>\n  <p>I use <kbd>Ctrl</kbd>+<kbd>S</kbd> all the time to save my HTML files before refreshing the browser.</p>\n\n  <h2>My First Code</h2>\n  <p>The first code I learned was: <code>&lt;h1&gt;Hello World&lt;/h1&gt;</code>. So simple yet so powerful.</p>\n\n  <hr>\n  <p><small>Copyright &copy; 2026 Ananya Singh. All rights reserved.</small></p>\n</body>\n</html>",
-        "explanation": "This is a comprehensive blog post using every major text formatting tag from this chapter. It is also a realistic structure you could actually publish. Notice how each tag serves a specific semantic purpose — not just visual style.",
+        "explanation": "This is a comprehensive blog post using every major text formatting tag from this chapter. It is also a realistic structure you could actually publish. Notice how each tag serves a specific semantic purpose, not just visual style.",
         "alternativeSolution": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n  <meta charset=\"UTF-8\">\n  <title>My HTML Journey</title>\n</head>\n<body>\n  <h1>My HTML Journey</h1>\n  <p><small>By Rohan, April 2026</small></p>\n  <p>I started learning <strong>HTML</strong> last Monday. It has been <em>amazing</em>.</p>\n  <h2>Quote</h2>\n  <blockquote><p>Code is poetry.</p></blockquote>\n  <h2>Tips</h2>\n  <p>Press <kbd>F12</kbd> to see the HTML of any page.</p>\n  <p>My first line was <code>&lt;p&gt;Hello&lt;/p&gt;</code>.</p>\n  <hr>\n  <p><small>&copy; 2026 Rohan</small></p>\n</body>\n</html>"
       }
     ]

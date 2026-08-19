@@ -14,7 +14,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>AI Agents Explained — How to Actually Build One That Doesn't Hallucinate Itself Into Pieces | Modern Age Coders</title>
+    <title>AI Agents Explained: How to Actually Build One That Doesn't Hallucinate Itself Into Pieces | Modern Age Coders</title>
     <meta name="description" content="The honest, vendor-neutral, code-first guide to AI agents. ReAct loop, planning, memory, tool use, evaluation and the architectures that actually work in production. By Modern Age Coders.">
     <meta name="author" content="Modern Age Coders">
     <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1">
@@ -25,7 +25,7 @@
 
     <meta property="og:type" content="article">
     <meta property="og:url" content="https://learn.modernagecoders.com/ai-agents-explained">
-    <meta property="og:title" content="AI Agents Explained — Modern Age Coders">
+    <meta property="og:title" content="AI Agents Explained | Modern Age Coders">
     <meta property="og:description" content="How they actually work, vendor-neutral. ReAct, planning, memory, tool use, evaluation. By Modern Age Coders.">
     <meta property="og:image" content="https://learn.modernagecoders.com/images/og-modern-age-coders.png">
     <meta property="og:site_name" content="Modern Age Coders">
@@ -50,7 +50,7 @@
     {
         "@context": "https://schema.org",
         "@type": "TechArticle",
-        "headline": "AI Agents Explained — How to Actually Build One That Doesn't Hallucinate Itself Into Pieces",
+        "headline": "AI Agents Explained: How to Actually Build One That Doesn't Hallucinate Itself Into Pieces",
         "description": "Vendor-neutral, code-first guide to AI agents: ReAct, planning, memory, tool use, evaluation.",
         "author": { "@type": "Organization", "name": "Modern Age Coders" },
         "publisher": {
@@ -855,14 +855,14 @@
     <section class="ag-strip">
         <div class="ag-shell">
             <div class="ag-strip-hd">
-                <p class="lead">Or build one with a mentor — <em>here are the cohorts that walk you through it.</em></p>
+                <p class="lead">Or build one with a mentor, <em>here are the cohorts that walk you through it.</em></p>
                 <a href="/courses" class="all">all 60+ courses →</a>
             </div>
             <div class="ag-strip-grid">
                 <a class="ag-strip-card" href="/courses/cbse-computational-thinking-and-ai-course-for-kids-classes-3-to-8">
                     <div class="age">Ages 8–13 · Kids</div>
                     <h3>Computational Thinking <em>&amp; AI</em></h3>
-                    <p>Teachable Machine, image classifiers and simple chatbots — the gentle on-ramp to agent building.</p>
+                    <p>Teachable Machine, image classifiers and simple chatbots, the gentle on-ramp to agent building.</p>
                     <div class="meta"><span>2 classes/week</span><span class="pr">₹1,499/mo</span></div>
                 </a>
                 <a class="ag-strip-card" href="/courses/ai-ml-masterclass-teens">
@@ -880,7 +880,7 @@
                 <a class="ag-strip-card" href="/courses/python-ai-automation-masterclass-college">
                     <div class="age">College / Adult · Automation</div>
                     <h3>Python AI <em>Automation</em></h3>
-                    <p>Agents in the context of automating real work — the high-leverage non-engineer path.</p>
+                    <p>Agents in the context of automating real work, the high-leverage non-engineer path.</p>
                     <div class="meta"><span>2 classes/week</span><span class="pr">₹1,499/mo</span></div>
                 </a>
             </div>
@@ -894,11 +894,11 @@
                 <a href="#a1"><span class="n">01</span>What an AI agent actually is</a>
                 <a href="#a2"><span class="n">02</span>The ReAct loop</a>
                 <a href="#a3"><span class="n">03</span>The five components</a>
-                <a href="#a4"><span class="n">04</span>Tools — the most important part</a>
-                <a href="#a5"><span class="n">05</span>Memory — short and long</a>
+                <a href="#a4"><span class="n">04</span>Tools, the most important part</a>
+                <a href="#a5"><span class="n">05</span>Memory, short and long</a>
                 <a href="#a6"><span class="n">06</span>Planning, when to use it</a>
-                <a href="#a7"><span class="n">07</span>Evaluation — without this, nothing</a>
-                <a href="#a8"><span class="n">08</span>Building one — 200 lines</a>
+                <a href="#a7"><span class="n">07</span>Evaluation, without this, nothing</a>
+                <a href="#a8"><span class="n">08</span>Building one: 200 lines</a>
                 <a href="#a9"><span class="n">09</span>What multi-agent really means</a>
             </div>
         </div>
@@ -910,7 +910,7 @@
             <article class="ag-chap" id="a1">
                 <div class="ag-chap-tag">Section 01 · Definition</div>
                 <h2>What an AI agent <em>actually is.</em></h2>
-                <p>Stripped of marketing, an AI agent is one thing: an LLM in a loop, with the ability to call external functions. That is the whole concept. Everything else — planning, memory, multi-agent orchestration — is a refinement of this single idea.</p>
+                <p>Stripped of marketing, an AI agent is one thing: an LLM in a loop, with the ability to call external functions. That is the whole concept. Everything else, planning, memory, multi-agent orchestration, is a refinement of this single idea.</p>
                 <p>A regular chatbot does one round: you ask, it answers, the conversation moves on. An agent does many rounds <em>with itself</em> on a single task. It thinks. It calls a tool (search, calculator, database query, code execution). It reads the tool's output. It decides what to do next. It loops until it has solved the task or given up.</p>
                 <div class="ag-callout">
                     <strong>The honest one-line definition</strong>
@@ -953,7 +953,7 @@
                         </div>
                     </div>
                 </div>
-                <p>That is the entire loop. Every agent — Claude with tools, GPT with function calling, LangChain, AutoGPT, every commercial agent framework — is, at the core, a variant of this five-step cycle. The differences live in how tools are described, how memory is managed, and how the loop is terminated.</p>
+                <p>That is the entire loop. Every agent: Claude with tools, GPT with function calling, LangChain, AutoGPT, every commercial agent framework, is, at the core, a variant of this five-step cycle. The differences live in how tools are described, how memory is managed, and how the loop is terminated.</p>
             </article>
 
             <article class="ag-chap" id="a3">
@@ -961,20 +961,20 @@
                 <h2>The five components <em>every</em> agent has.</h2>
                 <p>Strip an agent down and you find five components. Some are obvious. Some are easy to forget. Forgetting any of them is the most common reason agent demos look great and agent products fail.</p>
                 <ul>
-                    <li><strong>The model</strong> — the LLM doing the reasoning. Claude, GPT, Gemini, an open-weight model. The brain.</li>
-                    <li><strong>The tools</strong> — the functions the agent can call. Web search, code execution, database queries, your company's APIs.</li>
-                    <li><strong>The system prompt</strong> — the instructions that define what the agent is, what it can do, and how it should behave. The personality and the policy.</li>
-                    <li><strong>The memory</strong> — what the agent remembers within a conversation (short-term) and across conversations (long-term).</li>
-                    <li><strong>The evaluator</strong> — how you measure whether the agent is doing its job. Almost always missing from demos. Always the thing that makes a real product.</li>
+                    <li><strong>The model</strong>, the LLM doing the reasoning. Claude, GPT, Gemini, an open-weight model. The brain.</li>
+                    <li><strong>The tools</strong>, the functions the agent can call. Web search, code execution, database queries, your company's APIs.</li>
+                    <li><strong>The system prompt</strong>, the instructions that define what the agent is, what it can do, and how it should behave. The personality and the policy.</li>
+                    <li><strong>The memory</strong>, what the agent remembers within a conversation (short-term) and across conversations (long-term).</li>
+                    <li><strong>The evaluator</strong>, how you measure whether the agent is doing its job. Almost always missing from demos. Always the thing that makes a real product.</li>
                 </ul>
-                <p>If you are building an agent and you cannot point at each of these five in your codebase, you are not yet building an agent — you are building a chatbot with delusions of grandeur. The next sections walk through the four components beyond the model in detail.</p>
+                <p>If you are building an agent and you cannot point at each of these five in your codebase, you are not yet building an agent. You are building a chatbot with delusions of grandeur. The next sections walk through the four components beyond the model in detail.</p>
             </article>
 
             <article class="ag-chap" id="a4">
                 <div class="ag-chap-tag">Section 04 · Tools</div>
-                <h2>Tools — the <em>most important</em> part of your agent.</h2>
-                <p>The single largest contributor to whether your agent works is the quality of its tools — not the choice of LLM, not the prompt, not the framework. Tools are the agent's hands. Bad hands, no productive work.</p>
-                <p>A tool is a function with three things: a name, a description, and a JSON schema for its inputs. The description is what the LLM reads to decide whether to use the tool. The schema is what the LLM writes inputs into. The LLM never sees your code — only the description and the schema.</p>
+                <h2>Tools: the <em>most important</em> part of your agent.</h2>
+                <p>The single largest contributor to whether your agent works is the quality of its tools, not the choice of LLM, not the prompt, not the framework. Tools are the agent's hands. Bad hands, no productive work.</p>
+                <p>A tool is a function with three things: a name, a description, and a JSON schema for its inputs. The description is what the LLM reads to decide whether to use the tool. The schema is what the LLM writes inputs into. The LLM never sees your code, only the description and the schema.</p>
                 <div class="ag-code">
                     <div class="ag-code-bar"><span>tools/web_search.py</span><span>Python · Claude SDK</span></div>
                     <pre>web_search_tool = {
@@ -1005,33 +1005,33 @@
 
             <article class="ag-chap" id="a5">
                 <div class="ag-chap-tag">Section 05 · Memory</div>
-                <h2>Memory — <em>short and long.</em></h2>
-                <p>Two kinds of memory, two different problems. <strong>Short-term memory</strong> is the conversation so far — every Thought, every Action, every Observation. It lives in the model's context window. As the loop runs, this gets long. Modern models handle 100k+ tokens, but at high cost and with degraded reasoning at the extremes.</p>
+                <h2>Memory: <em>short and long.</em></h2>
+                <p>Two kinds of memory, two different problems. <strong>Short-term memory</strong> is the conversation so far, every Thought, every Action, every Observation. It lives in the model's context window. As the loop runs, this gets long. Modern models handle 100k+ tokens, but at high cost and with degraded reasoning at the extremes.</p>
                 <p>The short-term problem is managing this growing context. Three honest strategies, in order of complexity:</p>
                 <ul>
                     <li><strong>Append everything</strong>, until you hit the context limit. Works for short tasks. Fails for anything multi-hour.</li>
                     <li><strong>Summarise older turns</strong> when the context grows too long. Have the model condense the first half of the conversation into 200 tokens, then continue.</li>
-                    <li><strong>Hierarchical memory</strong> — keep important facts in a separate "scratchpad" the agent can read and write to. This is what serious production agents do.</li>
+                    <li><strong>Hierarchical memory</strong>, keep important facts in a separate "scratchpad" the agent can read and write to. This is what serious production agents do.</li>
                 </ul>
-                <p><strong>Long-term memory</strong> is what the agent remembers <em>across</em> conversations. This is almost always built using vector databases — every interaction is embedded and stored, and at the start of a new conversation, semantically relevant past interactions are retrieved and injected into the system prompt.</p>
+                <p><strong>Long-term memory</strong> is what the agent remembers <em>across</em> conversations. This is almost always built using vector databases, every interaction is embedded and stored, and at the start of a new conversation, semantically relevant past interactions are retrieved and injected into the system prompt.</p>
                 <p>Long-term memory is the area with the most current research and the least settled best practices. If your agent's job does not strictly require remembering across sessions, do not build it. Premature long-term memory is the single biggest source of bug-creating complexity we see in student projects.</p>
             </article>
 
             <article class="ag-chap" id="a6">
                 <div class="ag-chap-tag">Section 06 · Planning</div>
-                <h2>Planning — <em>when to use it.</em></h2>
+                <h2>Planning: <em>when to use it.</em></h2>
                 <p>Planning is having the agent break a complex task into sub-tasks before executing. A planning agent reads your request, decides on a step-by-step plan in natural language, then walks that plan executing tools at each step.</p>
-                <p>Planning helps for tasks that have many sequential dependencies — "research five companies, summarise each, compile into a report" benefits from planning. Tasks with one or two clear steps do not need it. Adding planning to a simple task makes the agent slower and more brittle without making it more correct.</p>
+                <p>Planning helps for tasks that have many sequential dependencies, "research five companies, summarise each, compile into a report" benefits from planning. Tasks with one or two clear steps do not need it. Adding planning to a simple task makes the agent slower and more brittle without making it more correct.</p>
                 <div class="ag-callout">
                     <strong>Trap #2 · planning everything</strong>
                     <p>Most agent demos that involve a "planner" do so because frameworks default to one. They add latency and break in subtle ways. Add planning only when your tasks involve more than four sequential tool calls or genuine branching logic.</p>
                 </div>
-                <p>The simplest implementation of planning is to ask the LLM to produce a numbered list before any tool calls. Then in your code, iterate through that list — for each step, give the LLM the step and the previous step's output, and ask it to either call a tool or move on. No special framework. Twenty additional lines on top of a ReAct loop.</p>
+                <p>The simplest implementation of planning is to ask the LLM to produce a numbered list before any tool calls. Then in your code, iterate through that list, for each step, give the LLM the step and the previous step's output, and ask it to either call a tool or move on. No special framework. Twenty additional lines on top of a ReAct loop.</p>
             </article>
 
             <article class="ag-chap" id="a7">
                 <div class="ag-chap-tag">Section 07 · Evaluation</div>
-                <h2>Evaluation — <em>the part everyone skips.</em></h2>
+                <h2>Evaluation: <em>the part everyone skips.</em></h2>
                 <p>Without evaluation, you do not have an agent. You have a vibe.</p>
                 <p>The single largest gap between agent demos and agent products is the existence of a real evaluation set. A demo passes when the developer's eyes light up at the impressive output. A product passes when it correctly handles 200 representative tasks measured automatically. The gap between these two bars is enormous.</p>
                 <p>Build your evaluation set <em>first</em>. Before you build the agent. Twenty real tasks your agent should handle, each with a ground-truth answer. Run the agent against the set after every change. Watch the pass rate move. This is dull. It is also the only way to build something real. Frontier labs employ entire teams whose job is constructing evaluation sets. They do this for a reason.</p>
@@ -1101,7 +1101,7 @@ tools = [{
                 <p>That is the loop. Add real tools, add a thoughtful system prompt, add the twenty-item evaluation set, and you have an honest agent. The implementation is small. The taste is in the tool design, the prompt, and the evaluation. Spend your time there.</p>
                 <div class="ag-callout">
                     <strong>Trap #3 · framework lock-in</strong>
-                    <p>Frameworks like LangChain, CrewAI and AutoGen are good for prototypes and hard to debug in production. We recommend most students build the loop yourself first — twenty lines — to understand it. Reach for a framework only when you find yourself reimplementing the same thing twice.</p>
+                    <p>Frameworks like LangChain, CrewAI and AutoGen are good for prototypes and hard to debug in production. We recommend most students build the loop yourself first, twenty lines, to understand it. Reach for a framework only when you find yourself reimplementing the same thing twice.</p>
                 </div>
             </article>
 
@@ -1109,14 +1109,14 @@ tools = [{
                 <div class="ag-chap-tag">Section 09 · Multi-agent</div>
                 <h2>What <em>multi-agent</em> really means.</h2>
                 <p>The term "multi-agent" is overloaded and oversold. In practice, in 2026, there are two genuine patterns:</p>
-                <p><strong>Pattern A — Sub-agents as tools.</strong> Your top-level agent has a tool called "research_agent" or "code_writer_agent". When called, the top-level agent passes a sub-task to a smaller, focused agent that has its own narrow tool set. The sub-agent runs its own ReAct loop, returns a final answer, and the top-level agent continues. This pattern works and is in use at every serious agent product in the wild.</p>
-                <p><strong>Pattern B — Multi-agent debate.</strong> Two or more agents take turns critiquing each other's outputs before producing a final answer. Used for tasks where the additional latency is worth the quality improvement. Less common, but valuable in research, planning, and writing.</p>
-                <p>Most "multi-agent" demos online are actually Pattern A poorly explained. They are not a different category of intelligence — they are a single agent with a richer tool set. The "agents talk to each other" framing is rhetorical; mechanically, it is one LLM calling tools that happen to be other LLMs.</p>
+                <p><strong>Pattern A: Sub-agents as tools.</strong> Your top-level agent has a tool called "research_agent" or "code_writer_agent". When called, the top-level agent passes a sub-task to a smaller, focused agent that has its own narrow tool set. The sub-agent runs its own ReAct loop, returns a final answer, and the top-level agent continues. This pattern works and is in use at every serious agent product in the wild.</p>
+                <p><strong>Pattern B: Multi-agent debate.</strong> Two or more agents take turns critiquing each other's outputs before producing a final answer. Used for tasks where the additional latency is worth the quality improvement. Less common, but valuable in research, planning, and writing.</p>
+                <p>Most "multi-agent" demos online are actually Pattern A poorly explained. They are not a different category of intelligence. They are a single agent with a richer tool set. The "agents talk to each other" framing is rhetorical; mechanically, it is one LLM calling tools that happen to be other LLMs.</p>
                 <div class="ag-callout">
                     <strong>The honest summary</strong>
                     <p>If you remember one paragraph from this article, remember this one. An agent is an LLM in a ReAct loop with well-described tools. Memory and planning are refinements. Multi-agent is sub-agents-as-tools. Evaluation is the difference between a demo and a product. Everything else is detail.</p>
                 </div>
-                <p>You now have the conceptual map of agents at the level real engineers think about them. The next step is doing — building a small one for a real task. The Modern Age Coders <a href="/courses/complete-generative-ai-masterclass-college">Generative AI Masterclass</a> walks small cohorts through building production agents in twelve weeks. The cohort path is faster than self-study by a factor of three, in our measurement. We have lots of receipts.</p>
+                <p>You now have the conceptual map of agents at the level real engineers think about them. The next step is doing, building a small one for a real task. The Modern Age Coders <a href="/courses/complete-generative-ai-masterclass-college">Generative AI Masterclass</a> walks small cohorts through building production agents in twelve weeks. The cohort path is faster than self-study by a factor of three, in our measurement. We have lots of receipts.</p>
             </article>
 
         </div>
@@ -1127,7 +1127,7 @@ tools = [{
         <div class="ag-shell">
             <span class="ag-tag">MAC cohorts · build agents with peers</span>
             <h2>Cohorts where students build real <em>agents.</em></h2>
-            <p class="lead">An agent is not built from a tutorial. It is built by writing, breaking, fixing, evaluating. Modern Age Coders runs small live cohorts at every age — kid, teen, college, adult — where students build real agents under mentor supervision. Click any course below to see the full syllabus and schedule.</p>
+            <p class="lead">An agent is not built from a tutorial. It is built by writing, breaking, fixing, evaluating. Modern Age Coders runs small live cohorts at every age, kid, teen, college, adult, where students build real agents under mentor supervision. Click any course below to see the full syllabus and schedule.</p>
 
             <div class="ag-band">
                 <div class="ag-band-hd">
@@ -1276,42 +1276,42 @@ tools = [{
 
             <details>
                 <summary>How is this different from LangChain / CrewAI / AutoGen?</summary>
-                <p>Those are frameworks built on top of exactly the loop described in this article. They add abstractions, prebuilt tools, and conveniences. They also add complexity, latency and debugging pain. We recommend students implement the bare loop themselves first (twenty lines) before adopting any framework. You will then be able to read what frameworks are doing under the hood and pick the right one for the right problem — instead of being locked into one because you do not know the alternatives.</p>
+                <p>Those are frameworks built on top of exactly the loop described in this article. They add abstractions, prebuilt tools, and conveniences. They also add complexity, latency and debugging pain. We recommend students implement the bare loop themselves first (twenty lines) before adopting any framework. You will then be able to read what frameworks are doing under the hood and pick the right one for the right problem, instead of being locked into one because you do not know the alternatives.</p>
             </details>
 
             <details>
                 <summary>Should I use Claude, GPT, or an open model?</summary>
-                <p>In 2026: for production agents we recommend Claude (best tool use, large context, good reasoning) or GPT (cheaper, mature ecosystem). For learning and self-hosting, open models from the Llama and Mistral families work fine at the cost of slightly worse tool-use precision. Mix and match — there is no rule against using Claude for the planning step and a cheap open model for the bulk of the loop.</p>
+                <p>In 2026: for production agents we recommend Claude (best tool use, large context, good reasoning) or GPT (cheaper, mature ecosystem). For learning and self-hosting, open models from the Llama and Mistral families work fine at the cost of slightly worse tool-use precision. Mix and match. There is no rule against using Claude for the planning step and a cheap open model for the bulk of the loop.</p>
             </details>
 
             <details>
                 <summary>What about LangGraph, Mastra, Crew.AI v2?</summary>
-                <p>All variants of the patterns in this article. LangGraph is the most disciplined of the bunch in 2026 — it forces you to draw the agent state machine explicitly, which is a good habit. We teach LangGraph in the second half of the Generative AI Masterclass cohort. Most students arrive thinking they need it and learn that for two-thirds of agent problems, plain Python is faster and clearer.</p>
+                <p>All variants of the patterns in this article. LangGraph is the most disciplined of the bunch in 2026. It forces you to draw the agent state machine explicitly, which is a good habit. We teach LangGraph in the second half of the Generative AI Masterclass cohort. Most students arrive thinking they need it and learn that for two-thirds of agent problems, plain Python is faster and clearer.</p>
             </details>
 
             <details>
                 <summary>How much does running an agent cost?</summary>
-                <p>Highly variable. A simple research agent answering one question is roughly $0.01 to $0.05 in API costs. A complex agent doing fifteen tool calls might cost $0.20 to $1. For a product serving 10,000 users per day, expect $300 to $3,000 per day in raw LLM costs. This is why evaluation matters so much — measuring cost-per-success is one of the core production metrics. The Generative AI Masterclass spends a full week on cost optimisation.</p>
+                <p>Highly variable. A simple research agent answering one question is roughly $0.01 to $0.05 in API costs. A complex agent doing fifteen tool calls might cost $0.20 to $1. For a product serving 10,000 users per day, expect $300 to $3,000 per day in raw LLM costs. This is why evaluation matters so much, measuring cost-per-success is one of the core production metrics. The Generative AI Masterclass spends a full week on cost optimisation.</p>
             </details>
 
             <details>
                 <summary>Can a teenager build a useful agent?</summary>
-                <p>Yes. We have 15-year-olds in our cohorts shipping agents that do real work — homework helpers, study planners, small business assistants for their parents. The barrier is not age; it is Python fluency. A teenager with one year of Python and four hours a week of cohort time can build a useful agent in twelve weeks.</p>
+                <p>Yes. We have 15-year-olds in our cohorts shipping agents that do real work, homework helpers, study planners, small business assistants for their parents. The barrier is not age; it is Python fluency. A teenager with one year of Python and four hours a week of cohort time can build a useful agent in twelve weeks.</p>
             </details>
 
             <details>
                 <summary>What about safety, hallucinations, prompt injection?</summary>
-                <p>These are the three main risks of agent products. Hallucinations — the agent confidently asserting wrong facts — are addressed mainly through grounding (force the agent to cite tool outputs). Prompt injection — a malicious tool output that hijacks the agent — is mitigated by treating all tool outputs as untrusted user input and never letting tool outputs change the system prompt. Safety — the agent doing things it should not — is mitigated by limiting which tools are available and by sandboxing dangerous ones. We cover each of these in week eight of the Generative AI Masterclass.</p>
+                <p>These are the three main risks of agent products. Hallucinations, the agent confidently asserting wrong facts, are addressed mainly through grounding (force the agent to cite tool outputs). Prompt injection, a malicious tool output that hijacks the agent, is mitigated by treating all tool outputs as untrusted user input and never letting tool outputs change the system prompt. Safety, the agent doing things it should not, is mitigated by limiting which tools are available and by sandboxing dangerous ones. We cover each of these in week eight of the Generative AI Masterclass.</p>
             </details>
 
             <details>
                 <summary>Will agents replace software engineers?</summary>
-                <p>No, but they will deeply change the job. The engineers who learn to build, deploy and evaluate agents become much more valuable. The engineers who do not, will see their roles slowly compressed. This is exactly why this pillar exists — to give you a real conceptual foundation, fast.</p>
+                <p>No, but they will deeply change the job. The engineers who learn to build, deploy and evaluate agents become much more valuable. The engineers who do not, will see their roles slowly compressed. This is exactly why this pillar exists, to give you a real conceptual foundation, fast.</p>
             </details>
 
             <details>
                 <summary>What should I read after this?</summary>
-                <p>In order: our companion pillar <a href="/how-ai-actually-works">How AI Actually Works</a>, then <a href="/build-your-own-gpt-python">Build Your Own GPT</a> to ground out what the LLM in your agent is actually doing. Then the original ReAct paper (Yao et al., 2022, freely on arXiv). And the Anthropic and OpenAI tool-use guides — they are the cleanest reference docs in the field.</p>
+                <p>In order: our companion pillar <a href="/how-ai-actually-works">How AI Actually Works</a>, then <a href="/build-your-own-gpt-python">Build Your Own GPT</a> to ground out what the LLM in your agent is actually doing. Then the original ReAct paper (Yao et al., 2022, freely on arXiv). And the Anthropic and OpenAI tool-use guides. They are the cleanest reference docs in the field.</p>
             </details>
         </div>
     </section>
@@ -1354,7 +1354,7 @@ tools = [{
 
 
 <style>
-/* real social proof — theme-adaptive: inherits this page's text colour + fonts */
+/* real social proof, theme-adaptive: inherits this page's text colour + fonts */
 .msu{margin:60px auto;max-width:1120px;padding:0 24px;color:inherit;box-sizing:border-box}
 .msu-kick{font-size:.72rem;letter-spacing:.18em;text-transform:uppercase;opacity:.55;font-weight:700;margin:0 0 9px}
 .msu-h{font-size:clamp(1.4rem,3.2vw,2.05rem);margin:0 0 8px;line-height:1.18;font-weight:800}
@@ -1381,7 +1381,7 @@ tools = [{
 .msu-more a{color:inherit;text-decoration:underline}
 @media(max-width:820px){.msu-grid,.msu-pgrid{grid-template-columns:1fr}}
 </style>
-<section class="msu" aria-label="Student projects"><p class="msu-kick">Real student projects</p><h2 class="msu-h">What our students actually build</h2><p class="msu-sub">Every one is a real, live project shipped by a Modern Age Coders student. Explore more in <a href="/student-labs" style="color:inherit">Student Labs</a>.</p><div class="msu-pgrid"><a class="msu-proj" href="https://guardianx-cybersaver.lovable.app" target="_blank" rel="noopener"><span class="msu-shot"><img src="/images/projects/guardianx.webp" alt="GuardianX — AI Bodyguard for the Internet" loading="lazy" width="800" height="500"></span><span class="msu-pb"><span class="msu-pc">AI &amp; ML</span><span class="msu-pt">GuardianX — AI Bodyguard for the Internet</span><span class="msu-pd">Paste any suspicious link or message and GuardianX returns an instant AI verdict before you become a victim — plus a link scanner, safety score, breach check and live scam alerts built for India. Vibe-coded from idea to working product through prompts, then refined until it genuinely understands how phishing and scams work.</span><span class="msu-pby">by Vivaan</span><span class="msu-open">Open the live project &#8599;</span></span></a><a class="msu-proj" href="https://superpawer.netlify.app" target="_blank" rel="noopener"><span class="msu-shot"><img src="/images/projects/superpawer.webp" alt="Palm Arcana — Summon the Elements" loading="lazy" width="800" height="500"></span><span class="msu-pb"><span class="msu-pc">Game</span><span class="msu-pt">Palm Arcana — Summon the Elements</span><span class="msu-pd">Open your palms to the webcam and computer vision turns your gestures into real magic — the left palm throws a fireball, the right crackles with lightning. A wild blend of hand-tracking AI, creative coding and pure imagination, vibe-coded into a playable browser experience.</span><span class="msu-pby">by Aarush</span><span class="msu-open">Open the live project &#8599;</span></span></a><a class="msu-proj" href="https://arvrbadestweb.lovable.app" target="_blank" rel="noopener"><span class="msu-shot"><img src="/images/projects/lumenfx.webp" alt="LumenFX — AR/VR Photo Effects Studio" loading="lazy" width="800" height="500"></span><span class="msu-pb"><span class="msu-pc">Web App</span><span class="msu-pt">LumenFX — AR/VR Photo Effects Studio</span><span class="msu-pd">Upload a photo and transform it with cinematic filters, AR face effects and the wildest trending edits — the same looks blowing up on TikTok, Reels and Snap, with 240+ one-tap presets. Raayan vibe-coded the whole studio from an idea: prompted the concept, then built the effects engine and gallery UI by hand.</span><span class="msu-pby">by Raayan</span><span class="msu-open">Open the live project &#8599;</span></span></a></div></section>
+<section class="msu" aria-label="Student projects"><p class="msu-kick">Real student projects</p><h2 class="msu-h">What our students actually build</h2><p class="msu-sub">Every one is a real, live project shipped by a Modern Age Coders student. Explore more in <a href="/student-labs" style="color:inherit">Student Labs</a>.</p><div class="msu-pgrid"><a class="msu-proj" href="https://guardianx-cybersaver.lovable.app" target="_blank" rel="noopener"><span class="msu-shot"><img src="/images/projects/guardianx.webp" alt="GuardianX: AI Bodyguard for the Internet" loading="lazy" width="800" height="500"></span><span class="msu-pb"><span class="msu-pc">AI &amp; ML</span><span class="msu-pt">GuardianX: AI Bodyguard for the Internet</span><span class="msu-pd">Paste any suspicious link or message and GuardianX returns an instant AI verdict before you become a victim, plus a link scanner, safety score, breach check and live scam alerts built for India. Vibe-coded from idea to working product through prompts, then refined until it genuinely understands how phishing and scams work.</span><span class="msu-pby">by Vivaan</span><span class="msu-open">Open the live project &#8599;</span></span></a><a class="msu-proj" href="https://superpawer.netlify.app" target="_blank" rel="noopener"><span class="msu-shot"><img src="/images/projects/superpawer.webp" alt="Palm Arcana: Summon the Elements" loading="lazy" width="800" height="500"></span><span class="msu-pb"><span class="msu-pc">Game</span><span class="msu-pt">Palm Arcana: Summon the Elements</span><span class="msu-pd">Open your palms to the webcam and computer vision turns your gestures into real magic, the left palm throws a fireball, the right crackles with lightning. A wild blend of hand-tracking AI, creative coding and pure imagination, vibe-coded into a playable browser experience.</span><span class="msu-pby">by Aarush</span><span class="msu-open">Open the live project &#8599;</span></span></a><a class="msu-proj" href="https://arvrbadestweb.lovable.app" target="_blank" rel="noopener"><span class="msu-shot"><img src="/images/projects/lumenfx.webp" alt="LumenFX: AR/VR Photo Effects Studio" loading="lazy" width="800" height="500"></span><span class="msu-pb"><span class="msu-pc">Web App</span><span class="msu-pt">LumenFX: AR/VR Photo Effects Studio</span><span class="msu-pd">Upload a photo and transform it with cinematic filters, AR face effects and the wildest trending edits, the same looks blowing up on TikTok, Reels and Snap, with 240+ one-tap presets. Raayan vibe-coded the whole studio from an idea: prompted the concept, then built the effects engine and gallery UI by hand.</span><span class="msu-pby">by Raayan</span><span class="msu-open">Open the live project &#8599;</span></span></a></div></section>
 <section class="msu" aria-label="Student and parent reviews"><p class="msu-kick">Parent &amp; student voices</p><h2 class="msu-h">What our families say</h2><p class="msu-sub">Real, verified reviews from Modern Age Coders families. Read hundreds more on our <a href="/love" style="color:inherit">Wall of Love</a>.</p><div class="msu-grid"><figure class="msu-card"><div class="msu-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div><blockquote class="msu-q">&ldquo;My child Dhairya is really enjoying the Modern Age Coder IT classes. This is his first online class, and he eagerly looks forward to it. I can see his improvement, and I believe he will grow even more interested in the subject. The teachers are very cooperative and listen to our suggestions. Overall, I am very happy with the class.&rdquo;</blockquote><figcaption class="msu-who"><span class="msu-av">S</span><span><span class="msu-nm">Sonam Oswal</span><br><span class="msu-rl">Parent of Dhairya</span></span></figcaption></figure><figure class="msu-card"><div class="msu-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div><blockquote class="msu-q">&ldquo;The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. Teachers make it so simple with clear explanations, practical exercises, and interactive content. As per my son, the coding class is very helpful and engaging. Sir explains complex concepts clearly. The projects were challenging and rewarding.&rdquo;</blockquote><figcaption class="msu-who"><span class="msu-av">R</span><span><span class="msu-nm">Ria Mukherjee</span><br><span class="msu-rl">Parent</span></span></figcaption></figure><figure class="msu-card"><div class="msu-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div><blockquote class="msu-q">&ldquo;I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding. They make every session engaging and insightful. They explain complex concepts in an easy way and encourage students to ask questions and think critically. The friendly class atmosphere has boosted my son&#x27;s confidence and interest in coding.&rdquo;</blockquote><figcaption class="msu-who"><span class="msu-av">R</span><span><span class="msu-nm">Ritu Kedia</span><br><span class="msu-rl">Parent</span></span></figcaption></figure></div></section>
 </main>
 

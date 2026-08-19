@@ -13,9 +13,9 @@
     "keywords": "sql insert, sql update, sql delete, update where clause, delete where clause, insert select mysql, multi-row insert, insert ignore, on duplicate key update, replace into mysql, upsert sql, delete vs truncate"
   },
   "content": {
-    "what": "<h2>The Three Core DML Commands</h2><p>So far you have built tables and seeded a few rows. Real applications constantly write new rows, update existing ones, and occasionally delete them. This chapter covers the three DML commands you will write hundreds of times a week as a backend developer:</p><ul><li><code>INSERT INTO</code> — add new rows</li><li><code>UPDATE</code> — change existing rows</li><li><code>DELETE FROM</code> — remove rows</li></ul><p>All three are DML (Data Manipulation Language) — transactional, rollback-able, and triggered by your application whenever data changes. The most important rule of this chapter: <strong>UPDATE and DELETE without a WHERE clause touch every row in the table.</strong> This is the single most common way juniors destroy production data. Please internalize it.</p><h3>Sample Data for This Chapter</h3><p>We will use a <code>students</code> table with this initial data:</p><table><tr><th>id</th><th>name</th><th>city</th><th>marks</th><th>active</th></tr><tr><td>1</td><td>Aarav Sharma</td><td>Mumbai</td><td>87</td><td>1</td></tr><tr><td>2</td><td>Priya Iyer</td><td>Bengaluru</td><td>92</td><td>1</td></tr><tr><td>3</td><td>Rohan Verma</td><td>Delhi</td><td>78</td><td>1</td></tr><tr><td>4</td><td>Ananya Reddy</td><td>Hyderabad</td><td>95</td><td>1</td></tr><tr><td>5</td><td>Vikram Singh</td><td>Pune</td><td>65</td><td>0</td></tr></table>",
-    "why": "<h2>Why INSERT, UPDATE, DELETE Deserve Respect</h2><h3>1. Every Write in Your App Eventually Becomes DML</h3><p>User signs up → an INSERT. User changes their password → an UPDATE. Admin deletes a spam account → a DELETE. The ORM (Django, Hibernate, Sequelize) you'll use at work is just a fancy wrapper that generates DML under the hood. When things go wrong, you drop into raw SQL and need to read/write these commands fluently.</p><h3>2. A Missing WHERE Is the #1 Production Disaster</h3><p>The horror stories are real:</p><ul><li>A developer ran <code>UPDATE users SET password = '...';</code> without WHERE — every user had the same password.</li><li>Another ran <code>DELETE FROM orders;</code> forgetting the WHERE — the company lost 3 days of orders.</li><li>GitLab in 2017 accidentally dropped production data with a misplaced command.</li></ul><p>The fix is cultural: always write WHERE first, always test on a single row, always wrap destructive statements in a transaction so you can ROLLBACK.</p><h3>3. INSERT/UPDATE Performance at Scale</h3><p>Writing 10 rows: anything works. Writing 10 million rows: multi-row INSERT is 100x faster than 10 million single INSERTs. Updating 1 million rows: batching in chunks of 10,000 prevents table locks and replication lag. These patterns separate hobbyists from engineers who can handle scale.</p><h3>4. Upserts Are Asked in Every Backend Interview</h3><p>\"How do you insert a new row if it doesn't exist, and update it if it does?\" The MySQL answer is <code>INSERT ... ON DUPLICATE KEY UPDATE</code>. Knowing the three ways (INSERT IGNORE, ON DUPLICATE KEY UPDATE, REPLACE INTO) and when to use each is a classic interview differentiator.</p>",
-    "explanation": "<h2>Detailed Explanation</h2><h3>1. INSERT — Four Ways to Add Rows</h3><h4>Form 1: All Columns in Order</h4><pre><code>INSERT INTO students VALUES (6, 'Diya Kapoor', 'Chennai', 88, 1);</code></pre><p>Values must match the column order of the table definition. Fragile: if a new column is added later, this breaks.</p><h4>Form 2: Specify Columns Explicitly (RECOMMENDED)</h4><pre><code>INSERT INTO students (id, name, city, marks, active)\nVALUES (6, 'Diya Kapoor', 'Chennai', 88, 1);</code></pre><p>Safer and self-documenting. Rearranging or adding columns later doesn't break the statement.</p><h4>Form 3: Multi-Row INSERT</h4><pre><code>INSERT INTO students (id, name, city, marks) VALUES\n    (6, 'Diya Kapoor',  'Chennai',   88),\n    (7, 'Arjun Mehta',  'Ahmedabad', 81),\n    (8, 'Sneha Patel',  'Jaipur',    90);</code></pre><p>One round-trip to the server, often 10-100x faster than three separate INSERTs. The <code>active</code> column isn't specified and will use its DEFAULT (or NULL).</p><h4>Form 4: INSERT ... SELECT (Copy Data From Another Table)</h4><pre><code>-- Copy high-scoring students into a separate table.\nINSERT INTO top_students (id, name, marks)\nSELECT id, name, marks FROM students WHERE marks &gt;= 90;</code></pre><p>Powerful for data migrations, archival, and populating reporting tables. No VALUES keyword — the SELECT provides all rows.</p><h3>2. UPDATE — Changing Existing Rows</h3><h4>Basic UPDATE</h4><pre><code>UPDATE students\nSET marks = 90\nWHERE id = 3;</code></pre><p>Rohan's marks change from 78 to 90. One row affected.</p><h4>Update Multiple Columns in One Statement</h4><pre><code>UPDATE students\nSET marks = 95, active = 1\nWHERE id = 5;</code></pre><p>Both columns change for Vikram in a single statement. Comma-separated assignments.</p><h4>Update Using an Expression</h4><pre><code>-- Give every active student a 5-mark bonus.\nUPDATE students\nSET marks = marks + 5\nWHERE active = 1;</code></pre><p>You can reference the current column value in the SET clause. Each row gets its own current marks + 5.</p><h4>The CRITICAL Warning</h4><pre><code>-- WITHOUT WHERE: updates EVERY row in the table!\nUPDATE students SET marks = 0;</code></pre><p>This is catastrophic on any non-trivial table. MySQL has a <strong>safe-update mode</strong> (enable via <code>SET SQL_SAFE_UPDATES = 1;</code>) that rejects UPDATE/DELETE without a WHERE on a key column. Turn this on in dev environments as training wheels.</p><h3>3. DELETE — Removing Rows</h3><h4>Basic DELETE</h4><pre><code>DELETE FROM students WHERE id = 5;</code></pre><p>Removes Vikram. One row affected.</p><h4>DELETE With Range</h4><pre><code>DELETE FROM students WHERE marks &lt; 70;</code></pre><p>Removes every student scoring under 70.</p><h4>The Same CRITICAL Warning</h4><pre><code>-- WITHOUT WHERE: deletes EVERY row!\nDELETE FROM students;</code></pre><p>The table still exists (unlike DROP), but every row is gone. On a big table this can take minutes and fills the transaction log. If you truly want to empty a table, use <code>TRUNCATE TABLE students;</code> — faster and resets AUTO_INCREMENT.</p><h3>4. DELETE vs TRUNCATE vs DROP Recap</h3><ul><li><strong>DELETE</strong>: transactional, supports WHERE, slow on big tables, doesn't reset AUTO_INCREMENT.</li><li><strong>TRUNCATE</strong>: fast, no WHERE, resets AUTO_INCREMENT, implicit commit (cannot rollback).</li><li><strong>DROP</strong>: removes the table itself.</li></ul><p>Full comparison is in Chapter 4.</p><h3>5. INSERT IGNORE — Silently Skip Duplicates</h3><pre><code>INSERT IGNORE INTO students (id, name, city, marks)\nVALUES (1, 'Someone Else', 'Kolkata', 77);</code></pre><p>If id=1 already exists (duplicate PK), MySQL ignores the insert and emits a warning instead of an error. Useful for bulk imports where you don't care about duplicates. Warning: IGNORE silences other errors too (type mismatches, CHECK violations may become warnings). Use with care.</p><h3>6. ON DUPLICATE KEY UPDATE — The True Upsert</h3><pre><code>INSERT INTO students (id, name, city, marks)\nVALUES (1, 'Aarav Sharma', 'Mumbai', 90)\nON DUPLICATE KEY UPDATE marks = VALUES(marks);</code></pre><p>If id=1 does not exist, it inserts a new row. If id=1 exists, it updates <code>marks = 90</code>. The <code>VALUES(col)</code> function refers to the value from the VALUES clause. This is the recommended \"upsert\" pattern in MySQL.</p><p>MySQL 8.0.19+ replaces <code>VALUES()</code> with a row alias:</p><pre><code>INSERT INTO students (id, name, city, marks)\nVALUES (1, 'Aarav Sharma', 'Mumbai', 90) AS new\nON DUPLICATE KEY UPDATE marks = new.marks;</code></pre><h3>7. REPLACE INTO — Delete-Then-Insert</h3><pre><code>REPLACE INTO students (id, name, city, marks)\nVALUES (1, 'Aarav Sharma', 'Mumbai', 95);</code></pre><p>If id=1 exists, REPLACE deletes the old row and inserts the new one. If it doesn't exist, it just inserts. Simpler syntax than ON DUPLICATE KEY UPDATE, but has two big gotchas:</p><ol><li>Any columns you don't specify are reset to their DEFAULT (or NULL). So REPLACE can silently wipe data you forgot to list.</li><li>Delete-then-insert means the AUTO_INCREMENT id jumps, triggers fire twice (DELETE and INSERT), and any FKs with ON DELETE CASCADE cascade.</li></ol><p>Prefer ON DUPLICATE KEY UPDATE in 90% of cases.</p>",
+    "what": "<h2>The Three Core DML Commands</h2><p>So far you have built tables and seeded a few rows. Real applications constantly write new rows, update existing ones, and occasionally delete them. This chapter covers the three DML commands you will write hundreds of times a week as a backend developer:</p><ul><li><code>INSERT INTO</code>, add new rows</li><li><code>UPDATE</code>, change existing rows</li><li><code>DELETE FROM</code>, remove rows</li></ul><p>All three are DML (Data Manipulation Language), transactional, rollback-able, and triggered by your application whenever data changes. The most important rule of this chapter: <strong>UPDATE and DELETE without a WHERE clause touch every row in the table.</strong> This is the single most common way juniors destroy production data. Please internalize it.</p><h3>Sample Data for This Chapter</h3><p>We will use a <code>students</code> table with this initial data:</p><table><tr><th>id</th><th>name</th><th>city</th><th>marks</th><th>active</th></tr><tr><td>1</td><td>Aarav Sharma</td><td>Mumbai</td><td>87</td><td>1</td></tr><tr><td>2</td><td>Priya Iyer</td><td>Bengaluru</td><td>92</td><td>1</td></tr><tr><td>3</td><td>Rohan Verma</td><td>Delhi</td><td>78</td><td>1</td></tr><tr><td>4</td><td>Ananya Reddy</td><td>Hyderabad</td><td>95</td><td>1</td></tr><tr><td>5</td><td>Vikram Singh</td><td>Pune</td><td>65</td><td>0</td></tr></table>",
+    "why": "<h2>Why INSERT, UPDATE, DELETE Deserve Respect</h2><h3>1. Every Write in Your App Eventually Becomes DML</h3><p>User signs up → an INSERT. User changes their password → an UPDATE. Admin deletes a spam account → a DELETE. The ORM (Django, Hibernate, Sequelize) you'll use at work is just a fancy wrapper that generates DML under the hood. When things go wrong, you drop into raw SQL and need to read/write these commands fluently.</p><h3>2. A Missing WHERE Is the #1 Production Disaster</h3><p>The horror stories are real:</p><ul><li>A developer ran <code>UPDATE users SET password = '...';</code> without WHERE, every user had the same password.</li><li>Another ran <code>DELETE FROM orders;</code> forgetting the WHERE, the company lost 3 days of orders.</li><li>GitLab in 2017 accidentally dropped production data with a misplaced command.</li></ul><p>The fix is cultural: always write WHERE first, always test on a single row, always wrap destructive statements in a transaction so you can ROLLBACK.</p><h3>3. INSERT/UPDATE Performance at Scale</h3><p>Writing 10 rows: anything works. Writing 10 million rows: multi-row INSERT is 100x faster than 10 million single INSERTs. Updating 1 million rows: batching in chunks of 10,000 prevents table locks and replication lag. These patterns separate hobbyists from engineers who can handle scale.</p><h3>4. Upserts Are Asked in Every Backend Interview</h3><p>\"How do you insert a new row if it doesn't exist, and update it if it does?\" The MySQL answer is <code>INSERT ... ON DUPLICATE KEY UPDATE</code>. Knowing the three ways (INSERT IGNORE, ON DUPLICATE KEY UPDATE, REPLACE INTO) and when to use each is a classic interview differentiator.</p>",
+    "explanation": "<h2>Detailed Explanation</h2><h3>1. INSERT: Four Ways to Add Rows</h3><h4>Form 1: All Columns in Order</h4><pre><code>INSERT INTO students VALUES (6, 'Diya Kapoor', 'Chennai', 88, 1);</code></pre><p>Values must match the column order of the table definition. Fragile: if a new column is added later, this breaks.</p><h4>Form 2: Specify Columns Explicitly (RECOMMENDED)</h4><pre><code>INSERT INTO students (id, name, city, marks, active)\nVALUES (6, 'Diya Kapoor', 'Chennai', 88, 1);</code></pre><p>Safer and self-documenting. Rearranging or adding columns later doesn't break the statement.</p><h4>Form 3: Multi-Row INSERT</h4><pre><code>INSERT INTO students (id, name, city, marks) VALUES\n    (6, 'Diya Kapoor',  'Chennai',   88),\n    (7, 'Arjun Mehta',  'Ahmedabad', 81),\n    (8, 'Sneha Patel',  'Jaipur',    90);</code></pre><p>One round-trip to the server, often 10-100x faster than three separate INSERTs. The <code>active</code> column isn't specified and will use its DEFAULT (or NULL).</p><h4>Form 4: INSERT ... SELECT (Copy Data From Another Table)</h4><pre><code>-- Copy high-scoring students into a separate table.\nINSERT INTO top_students (id, name, marks)\nSELECT id, name, marks FROM students WHERE marks &gt;= 90;</code></pre><p>Powerful for data migrations, archival, and populating reporting tables. No VALUES keyword, the SELECT provides all rows.</p><h3>2. UPDATE, Changing Existing Rows</h3><h4>Basic UPDATE</h4><pre><code>UPDATE students\nSET marks = 90\nWHERE id = 3;</code></pre><p>Rohan's marks change from 78 to 90. One row affected.</p><h4>Update Multiple Columns in One Statement</h4><pre><code>UPDATE students\nSET marks = 95, active = 1\nWHERE id = 5;</code></pre><p>Both columns change for Vikram in a single statement. Comma-separated assignments.</p><h4>Update Using an Expression</h4><pre><code>-- Give every active student a 5-mark bonus.\nUPDATE students\nSET marks = marks + 5\nWHERE active = 1;</code></pre><p>You can reference the current column value in the SET clause. Each row gets its own current marks + 5.</p><h4>The CRITICAL Warning</h4><pre><code>-- WITHOUT WHERE: updates EVERY row in the table!\nUPDATE students SET marks = 0;</code></pre><p>This is catastrophic on any non-trivial table. MySQL has a <strong>safe-update mode</strong> (enable via <code>SET SQL_SAFE_UPDATES = 1;</code>) that rejects UPDATE/DELETE without a WHERE on a key column. Turn this on in dev environments as training wheels.</p><h3>3. DELETE: Removing Rows</h3><h4>Basic DELETE</h4><pre><code>DELETE FROM students WHERE id = 5;</code></pre><p>Removes Vikram. One row affected.</p><h4>DELETE With Range</h4><pre><code>DELETE FROM students WHERE marks &lt; 70;</code></pre><p>Removes every student scoring under 70.</p><h4>The Same CRITICAL Warning</h4><pre><code>-- WITHOUT WHERE: deletes EVERY row!\nDELETE FROM students;</code></pre><p>The table still exists (unlike DROP), but every row is gone. On a big table this can take minutes and fills the transaction log. If you truly want to empty a table, use <code>TRUNCATE TABLE students;</code>, faster and resets AUTO_INCREMENT.</p><h3>4. DELETE vs TRUNCATE vs DROP Recap</h3><ul><li><strong>DELETE</strong>: transactional, supports WHERE, slow on big tables, doesn't reset AUTO_INCREMENT.</li><li><strong>TRUNCATE</strong>: fast, no WHERE, resets AUTO_INCREMENT, implicit commit (cannot rollback).</li><li><strong>DROP</strong>: removes the table itself.</li></ul><p>Full comparison is in Chapter 4.</p><h3>5. INSERT IGNORE: Silently Skip Duplicates</h3><pre><code>INSERT IGNORE INTO students (id, name, city, marks)\nVALUES (1, 'Someone Else', 'Kolkata', 77);</code></pre><p>If id=1 already exists (duplicate PK), MySQL ignores the insert and emits a warning instead of an error. Useful for bulk imports where you don't care about duplicates. Warning: IGNORE silences other errors too (type mismatches, CHECK violations may become warnings). Use with care.</p><h3>6. ON DUPLICATE KEY UPDATE: The True Upsert</h3><pre><code>INSERT INTO students (id, name, city, marks)\nVALUES (1, 'Aarav Sharma', 'Mumbai', 90)\nON DUPLICATE KEY UPDATE marks = VALUES(marks);</code></pre><p>If id=1 does not exist, it inserts a new row. If id=1 exists, it updates <code>marks = 90</code>. The <code>VALUES(col)</code> function refers to the value from the VALUES clause. This is the recommended \"upsert\" pattern in MySQL.</p><p>MySQL 8.0.19+ replaces <code>VALUES()</code> with a row alias:</p><pre><code>INSERT INTO students (id, name, city, marks)\nVALUES (1, 'Aarav Sharma', 'Mumbai', 90) AS new\nON DUPLICATE KEY UPDATE marks = new.marks;</code></pre><h3>7. REPLACE INTO: Delete-Then-Insert</h3><pre><code>REPLACE INTO students (id, name, city, marks)\nVALUES (1, 'Aarav Sharma', 'Mumbai', 95);</code></pre><p>If id=1 exists, REPLACE deletes the old row and inserts the new one. If it doesn't exist, it just inserts. Simpler syntax than ON DUPLICATE KEY UPDATE, but has two big gotchas:</p><ol><li>Any columns you don't specify are reset to their DEFAULT (or NULL). So REPLACE can silently wipe data you forgot to list.</li><li>Delete-then-insert means the AUTO_INCREMENT id jumps, triggers fire twice (DELETE and INSERT), and any FKs with ON DELETE CASCADE cascade.</li></ol><p>Prefer ON DUPLICATE KEY UPDATE in 90% of cases.</p>",
     "codeExamples": [
       {
         "title": "All Four INSERT Forms",
@@ -39,14 +39,14 @@
         "output": "Query OK, 1 row affected (0.01 sec)\nRows matched: 1  Changed: 1  Warnings: 0\n\n+----+--------------+--------+-------+\n| id | name         | city   | marks |\n+----+--------------+--------+-------+\n|  1 | Aarav Sharma | Mumbai |    92 |\n+----+--------------+--------+-------+"
       },
       {
-        "title": "The WHERE-Less UPDATE Disaster — How to Prevent It",
-        "code": "-- Enable safe update mode (workbench default). Rejects UPDATE without\n-- a WHERE on a key column.\nSET SQL_SAFE_UPDATES = 1;\n\n-- Attempt: forgot WHERE — would zero out every student.\nUPDATE students SET marks = 0;\n\n-- Disable it back (do this only when you REALLY mean to touch every row).\nSET SQL_SAFE_UPDATES = 0;",
+        "title": "The WHERE-Less UPDATE Disaster: How to Prevent It",
+        "code": "-- Enable safe update mode (workbench default). Rejects UPDATE without\n-- a WHERE on a key column.\nSET SQL_SAFE_UPDATES = 1;\n\n-- Attempt: forgot WHERE, would zero out every student.\nUPDATE students SET marks = 0;\n\n-- Disable it back (do this only when you REALLY mean to touch every row).\nSET SQL_SAFE_UPDATES = 0;",
         "language": "sql",
         "explanation": "MySQL Workbench enables SQL_SAFE_UPDATES by default. It blocks any UPDATE or DELETE that doesn't include a WHERE on a key column. This saves many careers. Enable it explicitly on any dev or staging environment. When you truly want to update every row (rare), turn it off for that one statement.",
         "output": "Query OK, 0 rows affected (0.00 sec)\n\nERROR 1175 (HY000): You are using safe update mode and you tried to update a table without a WHERE that uses a KEY column.  To disable safe mode, toggle the option in Preferences.\n\nQuery OK, 0 rows affected (0.00 sec)"
       },
       {
-        "title": "DELETE — Specific and Range",
+        "title": "DELETE: Specific and Range",
         "code": "-- Delete one specific student\nDELETE FROM students WHERE id = 5;\n\n-- Delete everyone with marks below 80\nDELETE FROM students WHERE marks < 80;\n\nSELECT * FROM students;",
         "language": "sql",
         "explanation": "First DELETE removes Vikram by id. Second DELETE removes any students still below 80 (after Aarav's +5 bonus, he is at 92, so he survives). The SELECT shows who remains.",
@@ -60,10 +60,10 @@
         "output": "Query OK, 0 rows affected (0.03 sec)\nQuery OK, 0 rows affected (0.01 sec)\nQuery OK, 0 rows affected (0.00 sec)\nRecords: 0  Duplicates: 0  Warnings: 0\nQuery OK, 0 rows affected (0.00 sec)\n\n+----------+\n| archived |\n+----------+\n|        0 |\n+----------+\n+------+\n| live |\n+------+\n|    3 |\n+------+"
       },
       {
-        "title": "ON DUPLICATE KEY UPDATE — True Upsert",
+        "title": "ON DUPLICATE KEY UPDATE: True Upsert",
         "code": "-- Counting page views per student: increment if row exists, insert if new.\nDROP TABLE IF EXISTS page_views;\nCREATE TABLE page_views (\n    student_id INT PRIMARY KEY,\n    view_count INT NOT NULL DEFAULT 0\n);\n\n-- First visit for student 1: insert\nINSERT INTO page_views (student_id, view_count)\nVALUES (1, 1)\nON DUPLICATE KEY UPDATE view_count = view_count + 1;\n\n-- Second visit for student 1: update\nINSERT INTO page_views (student_id, view_count)\nVALUES (1, 1)\nON DUPLICATE KEY UPDATE view_count = view_count + 1;\n\n-- First visit for student 2: insert\nINSERT INTO page_views (student_id, view_count)\nVALUES (2, 1)\nON DUPLICATE KEY UPDATE view_count = view_count + 1;\n\nSELECT * FROM page_views;",
         "language": "sql",
-        "explanation": "The first INSERT creates (1, 1). The second INSERT hits the PK conflict on student_id=1, so the ON DUPLICATE KEY UPDATE clause fires — incrementing view_count to 2 instead of erroring. The third INSERT creates a fresh row for student 2. This atomic \"insert or increment\" is one of the most useful patterns in web backends for counters, visit logs, and upvotes.",
+        "explanation": "The first INSERT creates (1, 1). The second INSERT hits the PK conflict on student_id=1, so the ON DUPLICATE KEY UPDATE clause fires, incrementing view_count to 2 instead of erroring. The third INSERT creates a fresh row for student 2. This atomic \"insert or increment\" is one of the most useful patterns in web backends for counters, visit logs, and upvotes.",
         "output": "Query OK, 0 rows affected (0.03 sec)\nQuery OK, 1 row affected (0.01 sec)\nQuery OK, 2 rows affected (0.01 sec)\nQuery OK, 1 row affected (0.01 sec)\n\n+------------+------------+\n| student_id | view_count |\n+------------+------------+\n|          1 |          2 |\n|          2 |          1 |\n+------------+------------+"
       }
     ],
@@ -71,23 +71,23 @@
       {
         "title": "UPDATE Without WHERE",
         "wrongCode": "-- Meant to raise Priya's marks, forgot WHERE:\nUPDATE students SET marks = 95;",
-        "error": "No error from MySQL — but EVERY student now has marks = 95. Your data is ruined.",
+        "error": "No error from MySQL, but EVERY student now has marks = 95. Your data is ruined.",
         "correctCode": "UPDATE students SET marks = 95 WHERE id = 2;",
-        "explanation": "The missing WHERE is the single most destructive beginner mistake. Always write WHERE first, test your intent with SELECT ... WHERE first, and enable SQL_SAFE_UPDATES in dev. If you must update every row (rare), make it explicit: <code>UPDATE students SET marks = 95 WHERE 1=1;</code> — at least the 1=1 shows that you thought about it."
+        "explanation": "The missing WHERE is the single most destructive beginner mistake. Always write WHERE first, test your intent with SELECT ... WHERE first, and enable SQL_SAFE_UPDATES in dev. If you must update every row (rare), make it explicit: <code>UPDATE students SET marks = 95 WHERE 1=1;</code>, at least the 1=1 shows that you thought about it."
       },
       {
         "title": "DELETE Without WHERE",
         "wrongCode": "-- Meant to remove one inactive student:\nDELETE FROM students;",
-        "error": "No error — every row in students is deleted. The table is empty.",
+        "error": "No error, every row in students is deleted. The table is empty.",
         "correctCode": "DELETE FROM students WHERE id = 5;\n-- OR if you truly want to empty the table, use TRUNCATE:\nTRUNCATE TABLE students;",
         "explanation": "Same class of mistake as the UPDATE. Treat DELETE and UPDATE as radioactive. Always SELECT first with the same WHERE: <code>SELECT * FROM students WHERE id = 5;</code> to confirm which rows will vanish. Wrap destructive statements in a transaction so ROLLBACK can save you: <code>START TRANSACTION; DELETE ...; -- check results --- COMMIT;</code>"
       },
       {
         "title": "Inserting With Wrong Column Order (Form 1)",
         "wrongCode": "-- students table order: (id, name, city, marks, active)\nINSERT INTO students VALUES (6, 'Chennai', 'Diya Kapoor', 88, 1);",
-        "error": "Inserted name='Chennai' and city='Diya Kapoor' — name and city got swapped.",
+        "error": "Inserted name='Chennai' and city='Diya Kapoor', name and city got swapped.",
         "correctCode": "INSERT INTO students (id, name, city, marks, active)\nVALUES (6, 'Diya Kapoor', 'Chennai', 88, 1);",
-        "explanation": "Form 1 (no column list) relies on the order of the table definition. If someone later reorders columns or you misremember, the values go into the wrong fields — and worse, MySQL doesn't complain as long as the types are compatible. <strong>Always use Form 2 with explicit column names</strong> in production code."
+        "explanation": "Form 1 (no column list) relies on the order of the table definition. If someone later reorders columns or you misremember, the values go into the wrong fields, and worse, MySQL doesn't complain as long as the types are compatible. <strong>Always use Form 2 with explicit column names</strong> in production code."
       },
       {
         "title": "REPLACE INTO Wiping Columns You Forgot to Mention",
@@ -98,13 +98,13 @@
       }
     ],
     "summary": [
-      "INSERT INTO table (col1, col2) VALUES (v1, v2); adds a new row. Always list columns explicitly — don't rely on column order.",
+      "INSERT INTO table (col1, col2) VALUES (v1, v2); adds a new row. Always list columns explicitly, don't rely on column order.",
       "Multi-row INSERT INTO t VALUES (...), (...), (...); is far faster than multiple single INSERTs (fewer network round-trips).",
-      "INSERT INTO t SELECT ... lets you copy rows from one table into another — used for backups, archives, and migrations.",
-      "UPDATE table SET col = value WHERE condition; changes existing rows. Without WHERE, EVERY row is updated — a classic production disaster.",
+      "INSERT INTO t SELECT ... lets you copy rows from one table into another, used for backups, archives, and migrations.",
+      "UPDATE table SET col = value WHERE condition; changes existing rows. Without WHERE, EVERY row is updated, a classic production disaster.",
       "UPDATE can change multiple columns at once: SET a = 1, b = 2. It can also reference current values: SET marks = marks + 5.",
-      "DELETE FROM table WHERE condition; removes rows. Without WHERE, every row is deleted (but the table itself stays — use TRUNCATE for speed).",
-      "Enable SQL_SAFE_UPDATES = 1 in dev to reject UPDATE/DELETE without a key-based WHERE clause — saves careers.",
+      "DELETE FROM table WHERE condition; removes rows. Without WHERE, every row is deleted (but the table itself stays. Use TRUNCATE for speed).",
+      "Enable SQL_SAFE_UPDATES = 1 in dev to reject UPDATE/DELETE without a key-based WHERE clause, saves careers.",
       "INSERT IGNORE silently skips rows that would violate a unique constraint. Useful for bulk imports where duplicates are acceptable.",
       "INSERT ... ON DUPLICATE KEY UPDATE is MySQL's true upsert: insert if new, update if key conflict. Preferred over REPLACE INTO.",
       "REPLACE INTO does DELETE-then-INSERT. It wipes unspecified columns to DEFAULT/NULL. Use ON DUPLICATE KEY UPDATE instead in 90% of cases."
@@ -130,7 +130,7 @@
         "question": "Write a single multi-row INSERT that adds three new students: Diya (Chennai, 88), Arjun (Ahmedabad, 81), Sneha (Jaipur, 90). IDs 6, 7, 8.",
         "hint": "VALUES (...), (...), (...);",
         "answer": "<pre><code>INSERT INTO students (id, name, city, marks) VALUES\n    (6, 'Diya Kapoor', 'Chennai',   88),\n    (7, 'Arjun Mehta', 'Ahmedabad', 81),\n    (8, 'Sneha Patel', 'Jaipur',    90);</code></pre>",
-        "explanation": "Multi-row INSERTs are one round-trip to the server and one transaction — much faster than three separate inserts and atomic (all-or-nothing)."
+        "explanation": "Multi-row INSERTs are one round-trip to the server and one transaction, much faster than three separate inserts and atomic (all-or-nothing)."
       },
       {
         "id": "ts-3",
@@ -148,7 +148,7 @@
         "question": "Write an UPDATE to change Vikram Singh's marks to 90 AND his city to 'Mumbai' in one statement (id=5).",
         "hint": "SET col1 = ..., col2 = ...",
         "answer": "<pre><code>UPDATE students\nSET marks = 90, city = 'Mumbai'\nWHERE id = 5;</code></pre>",
-        "explanation": "Multiple assignments are comma-separated in the SET clause. All changes happen atomically in one UPDATE statement — no risk of partial updates."
+        "explanation": "Multiple assignments are comma-separated in the SET clause. All changes happen atomically in one UPDATE statement, no risk of partial updates."
       },
       {
         "id": "ts-5",
@@ -175,7 +175,7 @@
         "question": "What happens if you run <code>DELETE FROM students;</code> (no WHERE)?",
         "hint": "Every row deleted, table structure stays.",
         "answer": "Every row is removed. The table still exists (with its columns and constraints), but it is empty. AUTO_INCREMENT is NOT reset (unlike TRUNCATE).",
-        "explanation": "DELETE without WHERE is slower than TRUNCATE on large tables because it logs each row. If you truly want to empty a table fast, use TRUNCATE TABLE — and know that it also resets AUTO_INCREMENT to 1."
+        "explanation": "DELETE without WHERE is slower than TRUNCATE on large tables because it logs each row. If you truly want to empty a table fast, use TRUNCATE TABLE, and know that it also resets AUTO_INCREMENT to 1."
       },
       {
         "id": "ts-8",
@@ -211,7 +211,7 @@
         "question": "What is SQL_SAFE_UPDATES and how do you enable it?",
         "hint": "It's a server variable.",
         "answer": "SQL_SAFE_UPDATES is a MySQL session variable. When set to 1, MySQL refuses to execute UPDATE or DELETE statements that don't include a WHERE clause referencing a KEY column. Enable it with: <pre><code>SET SQL_SAFE_UPDATES = 1;</code></pre>",
-        "explanation": "Great training wheels for devs. MySQL Workbench enables it by default. When you hit the \"You are using safe update mode\" error, it's a reminder to add a proper WHERE — don't just disable the mode."
+        "explanation": "Great training wheels for devs. MySQL Workbench enables it by default. When you hit the \"You are using safe update mode\" error, it's a reminder to add a proper WHERE, don't just disable the mode."
       },
       {
         "id": "ts-12",
@@ -246,7 +246,7 @@
         "difficulty": "Medium",
         "question": "What is the main risk of using REPLACE INTO?",
         "hint": "Columns you don't mention.",
-        "answer": "REPLACE internally DELETEs the existing row and INSERTs a new one. Any columns you don't specify are reset to their DEFAULT (or NULL) — so REPLACE can silently wipe data you forgot to list. It also resets AUTO_INCREMENT-generated fields, fires DELETE triggers, and can cascade FK deletes.",
+        "answer": "REPLACE internally DELETEs the existing row and INSERTs a new one. Any columns you don't specify are reset to their DEFAULT (or NULL), so REPLACE can silently wipe data you forgot to list. It also resets AUTO_INCREMENT-generated fields, fires DELETE triggers, and can cascade FK deletes.",
         "explanation": "That's why ON DUPLICATE KEY UPDATE is preferred: it updates only the columns you explicitly list, leaving everything else intact. Use REPLACE only when you really want a full row replacement."
       },
       {
@@ -320,8 +320,8 @@
         "difficulty": "Medium",
         "question": "Spot the bug:<br><pre><code>UPDATE students SET marks = marks * 1.1 WHERE id > 0;</code></pre>The intent was to give a 10% bonus to everyone.",
         "hint": "id > 0 probably matches everyone anyway.",
-        "answer": "Not necessarily a bug — the WHERE <code>id &gt; 0</code> likely matches every row in a typical AUTO_INCREMENT table, so the intent is achieved. But it's a code smell: if you want \"every row\", be explicit. Use <code>WHERE 1=1</code> (clearly universal) or disable SQL_SAFE_UPDATES and drop the WHERE entirely.",
-        "explanation": "The statement works, but <code>id &gt; 0</code> is a dodgy way to express \"all rows\" — what if id could be negative? Readers will pause and wonder if there's a real restriction. Better: explicitly scope or explicitly drop the condition with a comment."
+        "answer": "Not necessarily a bug, the WHERE <code>id &gt; 0</code> likely matches every row in a typical AUTO_INCREMENT table, so the intent is achieved. But it's a code smell: if you want \"every row\", be explicit. Use <code>WHERE 1=1</code> (clearly universal) or disable SQL_SAFE_UPDATES and drop the WHERE entirely.",
+        "explanation": "The statement works, but <code>id &gt; 0</code> is a dodgy way to express \"all rows\", what if id could be negative? Readers will pause and wonder if there's a real restriction. Better: explicitly scope or explicitly drop the condition with a comment."
       },
       {
         "id": "mx-4",
@@ -339,7 +339,7 @@
         "question": "What happens?<br><pre><code>-- students has 5 rows\nSTART TRANSACTION;\nDELETE FROM students;\nSELECT COUNT(*) FROM students;  -- line A\nROLLBACK;\nSELECT COUNT(*) FROM students;  -- line B</code></pre>",
         "hint": "DELETE is transactional.",
         "answer": "Line A: <code>0</code> (all rows deleted in the transaction). Line B: <code>5</code> (ROLLBACK restores them).",
-        "explanation": "DELETE is DML and fully transactional. Until COMMIT, changes are visible only inside your transaction. ROLLBACK reverts them. This is why you should wrap destructive statements in START TRANSACTION — if you realize you made a mistake, ROLLBACK saves you."
+        "explanation": "DELETE is DML and fully transactional. Until COMMIT, changes are visible only inside your transaction. ROLLBACK reverts them. This is why you should wrap destructive statements in START TRANSACTION, if you realize you made a mistake, ROLLBACK saves you."
       },
       {
         "id": "mx-6",
@@ -348,7 +348,7 @@
         "question": "What happens?<br><pre><code>-- students has 5 rows\nSTART TRANSACTION;\nTRUNCATE TABLE students;\nROLLBACK;\nSELECT COUNT(*) FROM students;</code></pre>",
         "hint": "TRUNCATE is DDL with implicit COMMIT.",
         "answer": "<code>0</code>. TRUNCATE is DDL and implicitly commits. The ROLLBACK has nothing to undo.",
-        "explanation": "This catches many students. Even though you started a transaction, TRUNCATE is DDL and commits immediately — there is no going back. If you need rollback-ability on a mass delete, use DELETE inside the transaction instead of TRUNCATE."
+        "explanation": "This catches many students. Even though you started a transaction, TRUNCATE is DDL and commits immediately. There is no going back. If you need rollback-ability on a mass delete, use DELETE inside the transaction instead of TRUNCATE."
       },
       {
         "id": "mx-7",
@@ -372,10 +372,10 @@
         "id": "mx-9",
         "type": "coding",
         "difficulty": "Hard",
-        "question": "You're building a likes counter for a post. Table: post_likes (post_id INT PK, likes INT NOT NULL DEFAULT 0). Write the SQL that runs when a user clicks Like — increment the count, or create a row with likes=1 if the post has no likes yet.",
+        "question": "You're building a likes counter for a post. Table: post_likes (post_id INT PK, likes INT NOT NULL DEFAULT 0). Write the SQL that runs when a user clicks Like, increment the count, or create a row with likes=1 if the post has no likes yet.",
         "hint": "ON DUPLICATE KEY UPDATE.",
         "answer": "<pre><code>INSERT INTO post_likes (post_id, likes)\nVALUES (?, 1)\nON DUPLICATE KEY UPDATE likes = likes + 1;</code></pre>",
-        "explanation": "This is the atomic counter pattern — crucial for high-concurrency apps. Without ON DUPLICATE KEY UPDATE, you'd have to SELECT first then INSERT or UPDATE — two round-trips AND a race condition where two users clicking at once could both see likes=5 and both increment to 6 (losing a click)."
+        "explanation": "This is the atomic counter pattern, crucial for high-concurrency apps. Without ON DUPLICATE KEY UPDATE, you'd have to SELECT first then INSERT or UPDATE, two round-trips AND a race condition where two users clicking at once could both see likes=5 and both increment to 6 (losing a click)."
       },
       {
         "id": "mx-10",
@@ -534,7 +534,7 @@
           "D": "Random"
         },
         "correct": "B",
-        "explanation": "<strong>B is correct.</strong> All 10 rows are deleted. The table still exists (unlike DROP), so COUNT(*) returns 0 — an empty set."
+        "explanation": "<strong>B is correct.</strong> All 10 rows are deleted. The table still exists (unlike DROP), so COUNT(*) returns 0, an empty set."
       },
       {
         "id": "mcq-11",
@@ -560,7 +560,7 @@
           "D": "Updates the first row instead"
         },
         "correct": "B",
-        "explanation": "<strong>B is correct.</strong> UPDATE silently affects 0 rows when the WHERE matches nothing. No error. If you expected to update a row, check the output — \"0 rows affected\" means nothing happened."
+        "explanation": "<strong>B is correct.</strong> UPDATE silently affects 0 rows when the WHERE matches nothing. No error. If you expected to update a row, check the output, \"0 rows affected\" means nothing happened."
       },
       {
         "id": "mcq-13",
@@ -586,7 +586,7 @@
           "D": "REPLACE INTO counters VALUES (?, 1);"
         },
         "correct": "B",
-        "explanation": "<strong>B is correct.</strong> Atomic single-statement upsert/increment. Option A has a race condition (two users can both see no row and both INSERT). Option C fails if the row doesn't exist. Option D sets count to 1 every time — not an increment."
+        "explanation": "<strong>B is correct.</strong> Atomic single-statement upsert/increment. Option A has a race condition (two users can both see no row and both INSERT). Option C fails if the row doesn't exist. Option D sets count to 1 every time, not an increment."
       },
       {
         "id": "mcq-15",
@@ -726,7 +726,7 @@
         "sampleInput": "(No input)",
         "sampleOutput": "Preview shows affected rows. UPDATE runs. Post-check verifies. COMMIT finalizes.",
         "constraints": "Use START TRANSACTION / COMMIT. Include comments explaining each step.",
-        "solution": "-- STEP 1: Preview — what rows will be affected?\nSELECT id, name, city, marks\nFROM students\nWHERE city = 'Delhi';\n-- (confirm the list looks right before proceeding)\n\n-- STEP 2: Begin transaction so we can ROLLBACK if something looks wrong.\nSTART TRANSACTION;\n\n-- STEP 3: Apply the change\nUPDATE students\nSET city = 'New Delhi',\n    marks = marks + 10\nWHERE city = 'Delhi';\n\n-- STEP 4: Post-check — do the updated rows look right?\nSELECT id, name, city, marks\nFROM students\nWHERE city = 'New Delhi';\n-- If the rows look correct, proceed. If not, ROLLBACK.\n\n-- STEP 5: Commit or rollback based on verification\nCOMMIT;\n-- OR:\n-- ROLLBACK;\n\n-- This workflow — preview, transaction, apply, verify, commit — is how\n-- senior engineers handle production updates. Never skip the preview.\n-- Never skip the verify. If ANYTHING looks wrong, ROLLBACK."
+        "solution": "-- STEP 1: Preview, what rows will be affected?\nSELECT id, name, city, marks\nFROM students\nWHERE city = 'Delhi';\n-- (confirm the list looks right before proceeding)\n\n-- STEP 2: Begin transaction so we can ROLLBACK if something looks wrong.\nSTART TRANSACTION;\n\n-- STEP 3: Apply the change\nUPDATE students\nSET city = 'New Delhi',\n    marks = marks + 10\nWHERE city = 'Delhi';\n\n-- STEP 4: Post-check, do the updated rows look right?\nSELECT id, name, city, marks\nFROM students\nWHERE city = 'New Delhi';\n-- If the rows look correct, proceed. If not, ROLLBACK.\n\n-- STEP 5: Commit or rollback based on verification\nCOMMIT;\n-- OR:\n-- ROLLBACK;\n\n-- This workflow, preview, transaction, apply, verify, commit, is how\n-- senior engineers handle production updates. Never skip the preview.\n-- Never skip the verify. If ANYTHING looks wrong, ROLLBACK."
       }
     ]
   }

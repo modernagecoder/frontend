@@ -17,7 +17,7 @@ keywords: ["python if else", "conditional statements python", "python elif", "py
 
 A **conditional statement** lets your program make decisions. Instead of executing every line of code from top to bottom, your program can choose which code to run based on whether a condition is true or false.
 
-Think of it like making everyday decisions. When you wake up, you check: "Is it raining?" If yes, you take an umbrella. If no, you do not. This is exactly what conditional statements do in code — they check a condition and execute different blocks of code depending on the result.
+Think of it like making everyday decisions. When you wake up, you check: "Is it raining?" If yes, you take an umbrella. If no, you do not. This is exactly what conditional statements do in code. They check a condition and execute different blocks of code depending on the result.
 
 In Python, conditional statements are built using three keywords: `if`, `elif` (short for "else if"), and `else`. Every Python program that does anything useful will use conditional statements.
 
@@ -30,7 +30,7 @@ if condition:
     # code to execute when condition is True
 ```
 
-The condition is any expression that evaluates to `True` or `False` (a Boolean expression). The code inside the `if` block is **indented** — this indentation is how Python knows which code belongs to the `if` statement.
+The condition is any expression that evaluates to `True` or `False` (a Boolean expression). The code inside the `if` block is **indented**. This indentation is how Python knows which code belongs to the `if` statement.
 
 ## Why Are Conditional Statements Essential?
 
@@ -69,12 +69,12 @@ In this example, since `16 >= 18` is False, the print statement inside the if bl
 
 #### Indentation Is Mandatory
 
-In Python, indentation is not optional or cosmetic — it is part of the language's syntax. The standard is **4 spaces** per level of indentation. All code that belongs to the `if` block must be indented by the same amount. If you mix indentation levels or forget to indent, Python raises an `IndentationError`.
+In Python, indentation is not optional or cosmetic. It is part of the language's syntax. The standard is **4 spaces** per level of indentation. All code that belongs to the `if` block must be indented by the same amount. If you mix indentation levels or forget to indent, Python raises an `IndentationError`.
 
 ```
 # This causes an IndentationError:
 if True:
-print("Hello")  # Not indented — ERROR!
+print("Hello")  # Not indented: ERROR!
 ```
 
 ### 2. The if-else Statement
@@ -90,7 +90,7 @@ else:
     print("You failed.")
 ```
 
-Since 45 >= 40 is True, the if block runs and prints "You passed!". If marks were 35, the else block would run instead. The `else` keyword does not have a condition — it catches everything that the `if` did not.
+Since 45 >= 40 is True, the if block runs and prints "You passed!". If marks were 35, the else block would run instead. The `else` keyword does not have a condition. It catches everything that the `if` did not.
 
 ### 3. The if-elif-else Statement
 
@@ -121,7 +121,7 @@ Here, Aarav scored 75. Python checks: 75 >= 90? No. 75 >= 80? No. 75 >= 70? Yes!
 - You can have zero or more `elif` blocks.
 - The `else` block is optional, and there can be at most one.
 - `else` must come last.
-- Only ONE block executes — the first one whose condition is True (or else if none are True).
+- Only ONE block executes, the first one whose condition is True (or else if none are True).
 
 ### 4. Nested if Statements
 
@@ -187,9 +187,9 @@ The ternary operator is great for simple assignments but should not be used for 
 
 You can combine multiple conditions using logical operators:
 
-- `and` — both conditions must be True
-- `or` — at least one condition must be True
-- `not` — reverses the condition
+- `and`, both conditions must be True
+- `or`, at least one condition must be True
+- `not`, reverses the condition
 
 ```
 age = 16

@@ -1,16 +1,16 @@
 ---
 title: "Prompt Engineering Course | Master Prompting for AI & LLMs"
-description: "Prompt engineering course — master prompting for ChatGPT, Claude and other LLMs. Prompt patterns, system prompts, few-shot, chain-of-thought, and building with LLM APIs in Python. Practical and hands-on. Live, small batches. Free demo."
+description: "Prompt engineering course, master prompting for ChatGPT, Claude and other LLMs. Prompt patterns, system prompts, few-shot, chain-of-thought, and building with LLM APIs in Python. Practical and hands-on. Live, small batches. Free demo."
 canonical: https://learn.modernagecoders.com/prompt-engineering-course
 source: src/pages/prompt-engineering-course.html
 ---
-> Prompt engineering course — master prompting for ChatGPT, Claude and other LLMs. Prompt patterns, system prompts, few-shot, chain-of-thought, and building with LLM APIs in Python. Practical and hands-on. Live, small batches. Free demo.
+> Prompt engineering course, master prompting for ChatGPT, Claude and other LLMs. Prompt patterns, system prompts, few-shot, chain-of-thought, and building with LLM APIs in Python. Practical and hands-on. Live, small batches. Free demo.
 
 Prompt Engineering • **get more from every LLM**
 
 # Prompt Engineering
 
-Prompting is a real skill — and a valuable one. Learn to get reliable, high-quality results from ChatGPT, Claude and other LLMs with prompt patterns, system prompts, few-shot and chain-of-thought, then turn prompts into software with LLM APIs in Python. Practical, hands-on, mentor-led.
+Prompting is a real skill, and a valuable one. Learn to get reliable, high-quality results from ChatGPT, Claude and other LLMs with prompt patterns, system prompts, few-shot and chain-of-thought, then turn prompts into software with LLM APIs in Python. Practical, hands-on, mentor-led.
 
 Book a Free DemoSee the Roadmap**patterns**Reliable results**5–8**Students per batch**APIs**Build, not just chat**Live**Mentor-led
 
@@ -36,11 +36,11 @@ From better answers to building reliable AI features.
 
 ### Prompt Patterns
 
-System prompts, few-shot, chain-of-thought and role prompting — the patterns that turn vague replies into reliable results.
+System prompts, few-shot, chain-of-thought and role prompting, the patterns that turn vague replies into reliable results.
 
 ### Reliable Output
 
-Get structured, consistent output (like clean JSON) and reduce hallucinations — the difference between a demo and a product.
+Get structured, consistent output (like clean JSON) and reduce hallucinations, the difference between a demo and a product.
 
 ### Build with APIs
 
@@ -56,7 +56,7 @@ STAGE 01
 
 ### Prompt Basics
 
-Structure, clarity and context — why some prompts work and others don't.
+Structure, clarity and context, why some prompts work and others don't.
 
 STAGE 02
 
@@ -88,7 +88,7 @@ Why This Course
 
 ## Why Prompt Engineering Is a Real Career Skill
 
-As every company adds AI features, the people who can **make LLMs behave reliably** are in demand. Good prompting is the cheapest, fastest lever on AI quality — and it's a skill you can apply the very next day at work.
+As every company adds AI features, the people who can **make LLMs behave reliably** are in demand. Good prompting is the cheapest, fastest lever on AI quality, and it's a skill you can apply the very next day at work.
 
 ### Reliability is the real game
 
@@ -147,11 +147,11 @@ Learner Voices
 
 Ritu KediaParent★★★★★
 
-"My son has been attending this coding class for the past couple of months, and I've been genuinely impressed with both his progress and enthusiasm. The instructors are incredibly patient and knowledgeable. What stands out most is how excited my son is before every class—he looks forward to learning, problem-solving, and sharing what he's built. I've noticed a big boost in his confidence!"
+"My son has been attending this coding class for the past couple of months, and I've been genuinely impressed with both his progress and enthusiasm. The instructors are incredibly patient and knowledgeable. What stands out most is how excited my son is before every class. He looks forward to learning, problem-solving, and sharing what he's built. I've noticed a big boost in his confidence!"
 
 Poonam RathoreParent★★★★★
 
-"I'm truly grateful for my experience at Modern Age Coders! The teaching approach of my legendary teachers—Shivam Sir, Mihir Sir and Sonu Sir—is extraordinary. They were not only my teachers but also mentors and friendly figures. The fee is remarkably reasonable and the perks are mind-blowing—one-on-one doubt solving, mentoring, and regular tests. The most impressive part was working on real-world projects."
+"I'm truly grateful for my experience at Modern Age Coders! The teaching approach of my legendary teachers, Shivam Sir, Mihir Sir and Sonu Sir, is extraordinary. They were not only my teachers but also mentors and friendly figures. The fee is remarkably reasonable and the perks are mind-blowing, one-on-one doubt solving, mentoring, and regular tests. The most impressive part was working on real-world projects."
 
 Krishnam BhatterFormer Student
 
@@ -167,7 +167,7 @@ Good To Know
 
 What does the Prompt Engineering Course cover?+
 
-It covers Prompt Patterns, Reliable Output, Build with APIs. Prompting is a real skill — and a valuable one. Learn to get reliable, high-quality results from ChatGPT, Claude and other LLMs with prompt patterns, system prompts, few-shot and chain-of-thought, then turn prompts into software with LLM APIs in Python. Practical, hands-on, mentor-led.
+It covers Prompt Patterns, Reliable Output, Build with APIs. Prompting is a real skill, and a valuable one. Learn to get reliable, high-quality results from ChatGPT, Claude and other LLMs with prompt patterns, system prompts, few-shot and chain-of-thought, then turn prompts into software with LLM APIs in Python. Practical, hands-on, mentor-led.
 
 Who is this course for?+
 
@@ -175,11 +175,11 @@ It's designed for college students, working professionals and serious teens who 
 
 Do I need prior experience to join?+
 
-No heavy prerequisites — we start from the right point for you and build up. Some Python helps for the more advanced topics, and if you're new we cover what you need. The free demo lets us assess your level first.
+No heavy prerequisites. We start from the right point for you and build up. Some Python helps for the more advanced topics, and if you're new we cover what you need. The free demo lets us assess your level first.
 
 Will I work on real, hands-on projects?+
 
-Yes. Every topic is hands-on in Python/Colab and you build real, mentor-reviewed work — not just theory — so you finish with practical skill and something to show.
+Yes. Every topic is hands-on in Python/Colab and you build real, mentor-reviewed work, not just theory, so you finish with practical skill and something to show.
 
 How much does the course cost?+
 

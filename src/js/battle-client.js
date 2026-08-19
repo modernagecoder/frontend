@@ -1,5 +1,5 @@
 /* ==========================================================================
-   BATTLE ARENA — shared client runtime
+   BATTLE ARENA, shared client runtime
    --------------------------------------------------------------------------
    Identity, the server clock, the polling loop, the countdown widget, sound
    and confetti. Used by the student page, the projector and the host console.
@@ -43,7 +43,7 @@
    * THE SERVER'S CLOCK, NOT THIS LAPTOP'S.
    *
    * Every response carries serverNow. We keep the median of the last few
-   * samples — a median rather than the latest, so one slow request cannot
+   * samples, a median rather than the latest, so one slow request cannot
    * yank every countdown in the room sideways.
    *
    * Countdowns are then rendered as `deadline - (Date.now() + offset)`, which
@@ -83,7 +83,7 @@
    *
    * A header like X-Battle-Token would need adding to Access-Control-Allow-Headers
    * in both the Express CORS config and vercel.json, and neither of those belongs
-   * to this feature — changing them would reach into every other endpoint on the
+   * to this feature, changing them would reach into every other endpoint on the
    * site. Both files already allow Content-Type, so a JSON body crosses origins
    * with no preflight negotiation at all.
    *
@@ -130,15 +130,15 @@
    * Sends the last version it saw; the server answers with about 120 bytes when
    * nothing has changed. Three details matter:
    *
-   * JITTER — every interval is randomised by ±20%. Forty students who all
+   * JITTER, every interval is randomised by ±20%. Forty students who all
    * loaded the page when the host said "go" would otherwise land in the same
    * 100ms slot every three seconds, forever.
    *
-   * BACKOFF — after a failure the delay doubles up to 30s and resets on the
+   * BACKOFF, after a failure the delay doubles up to 30s and resets on the
    * first success, so a backend hiccup does not turn into forty clients
    * hammering it.
    *
-   * PAUSE ON HIDDEN — a backgrounded tab slows right down. The host console and
+   * PAUSE ON HIDDEN, a backgrounded tab slows right down. The host console and
    * the projector opt OUT of this (pauseWhenHidden: false), because round expiry
    * and debate turns advance lazily when somebody reads the battle: if every
    * client went quiet, the clock would stop.
@@ -177,7 +177,7 @@
     if (this._visibility) document.removeEventListener('visibilitychange', this._visibility);
   };
 
-  /** Sync immediately — used right after an action, so the UI never waits. */
+  /** Sync immediately, used right after an action, so the UI never waits. */
   Poller.prototype.kick = function () {
     clearTimeout(this.timer);
     this.tick();

@@ -8,7 +8,7 @@ source: src/pages/coding-classes-in-united-states.html
 
 ### Request a callback
 
-Leave your number — a mentor in your time zone calls back within 3 hours.
+Leave your number, a mentor in your time zone calls back within 3 hours.
 
 #### We'll call you shortly!
 
@@ -16,31 +16,31 @@ Expect a call within 3 hours in your time zone.
 
 America's coding classroom · +1 · all 50 states
 
-# Real coding & AI mentorship — built for American ambition.
+# Real coding & AI mentorship: built for American ambition.
 
 Live 1:1 mentorship in **Python**, modern web and **agentic AI** for K–12, college and adult learners across America. Aligned with **AP Computer Science Principles**, **AP CS A**, **USACO** (Bronze → Platinum), and the algorithmic depth **MIT**, **Stanford**, **CMU**, **Berkeley**, **Caltech** and the Ivy League actually look for. **$100 a month**, eight live sessions, two a week, cancel anytime. Mentors work in **your** time zone.
 
 See AP & USACO tracks4.9/5Average parent & learner rating · 547 Google reviews50 statesMentors live in all 6 US time zones8 / moLive 1:1 sessions, 2 each week$150Per month · cancel any time · no contractThe frontier · featured
 
-## Vibe Coding & AI Agents — where American coding is heading.
+## Vibe Coding & AI Agents: where American coding is heading.
 
-This is the part most classrooms haven't caught up to yet. **Vibe coding** — describe what you want, the AI drafts it, and you read, refine and ship it — together with **AI coding agents** like **Codex** and **Claude Code** is how engineers at OpenAI, Anthropic, Nvidia and every serious US startup actually write software in 2026. We teach the agentic workflow *and* the Python, algorithms and computer-science fundamentals underneath it — so your student **drives the AI instead of being replaced by it**, and walks into AP CS, USACO and a top-tier CS application already fluent in the tools the field now runs on.
+This is the part most classrooms haven't caught up to yet. **Vibe coding**, describe what you want, the AI drafts it, and you read, refine and ship it, together with **AI coding agents** like **Codex** and **Claude Code** is how engineers at OpenAI, Anthropic, Nvidia and every serious US startup actually write software in 2026. We teach the agentic workflow *and* the Python, algorithms and computer-science fundamentals underneath it, so your student **drives the AI instead of being replaced by it**, and walks into AP CS, USACO and a top-tier CS application already fluent in the tools the field now runs on.
 
-[Browse all courses](/courses)[New · Ages 8–12  Vibe Coding for Kids Kids build real games and apps by describing ideas to AI, then learn the Scratch and Python logic underneath. Creating with AI, the way their generation will. Explore the course →](/courses/vibe-coding-for-kids-beginners-ai-scratch-game-dev)[Trending · Ages 13–18  Vibe Coding for Teens Python, web and AI projects built the modern way — prompt, generate, refine. Teens ship real products while genuinely mastering what's under the hood for AP CS and USACO. Explore the course →](/courses/vibe-coding-for-teens-python-web-ai-projects-course)[Future · Ages 13–18  AI Coding Agents — Codex & Claude Code Hands-on with the exact agents real engineers use in 2026. Teens learn to plan, prompt and ship software with an AI pair-programmer at their side — and understand every line. Explore the course →](/courses/codex-and-claude-code-ai-coding-agents-course-for-teens)[Pro · College & 18+  AI Agents for Pros & College Master Codex, Claude Code and agentic workflows to multiply your output — the exact edge US employers from FAANG to AI-first startups are hiring for right now. Explore the course →](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals)More on the frontier:[Vibe Coding for College](/courses/vibe-coding-for-college-fullstack-ai-dsa-career-course)[Generative AI Masterclass](/courses/complete-generative-ai-masterclass-college)[AI Tools Mastery](/courses/ai-tools-mastery-complete-college)[AI & Machine Learning](/courses/ai-ml-masterclass-teens)[View all courses →](/courses)Mentors live in **all 6 US time zones**Booking now · 09:00 – 21:00 local in each zone**HT** · UTC −10Honolulu · HiloAfter-school *15:30*, evening *18:00*, Sat morning**AKT** · UTC −9Anchorage · JuneauAfter-school *16:00*, evening *18:30*, weekend**PT** · UTC −8Los Angeles · SF · SeattleAfter-school *16:30*, evening *19:00*, every slot busy**MT** · UTC −7Denver · Phoenix · SLCAfter-school *16:30*, evening *19:30*, weekend**CT** · UTC −6Chicago · Houston · AustinAfter-school *17:00*, evening *19:30*, every slot busy**ET** · UTC −5NYC · Boston · DC · AtlantaAfter-school *17:00*, evening *19:30*, every slot busyParent rating4.9 / 5 · 547 Google reviewsAligned withAP CSP · AP CSA · USACOCoverageAll 50 states · 6 time zonesCommitmentFree trial · month-to-monthPick a course · start this week
+[Browse all courses](/courses)[New · Ages 8–12  Vibe Coding for Kids Kids build real games and apps by describing ideas to AI, then learn the Scratch and Python logic underneath. Creating with AI, the way their generation will. Explore the course →](/courses/vibe-coding-for-kids-beginners-ai-scratch-game-dev)[Trending · Ages 13–18  Vibe Coding for Teens Python, web and AI projects built the modern way, prompt, generate, refine. Teens ship real products while genuinely mastering what's under the hood for AP CS and USACO. Explore the course →](/courses/vibe-coding-for-teens-python-web-ai-projects-course)[Future · Ages 13–18  AI Coding Agents: Codex & Claude Code Hands-on with the exact agents real engineers use in 2026. Teens learn to plan, prompt and ship software with an AI pair-programmer at their side, and understand every line. Explore the course →](/courses/codex-and-claude-code-ai-coding-agents-course-for-teens)[Pro · College & 18+  AI Agents for Pros & College Master Codex, Claude Code and agentic workflows to multiply your output, the exact edge US employers from FAANG to AI-first startups are hiring for right now. Explore the course →](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals)More on the frontier:[Vibe Coding for College](/courses/vibe-coding-for-college-fullstack-ai-dsa-career-course)[Generative AI Masterclass](/courses/complete-generative-ai-masterclass-college)[AI Tools Mastery](/courses/ai-tools-mastery-complete-college)[AI & Machine Learning](/courses/ai-ml-masterclass-teens)[View all courses →](/courses)Mentors live in **all 6 US time zones**Booking now · 09:00: 21:00 local in each zone**HT** · UTC −10Honolulu · HiloAfter-school *15:30*, evening *18:00*, Sat morning**AKT** · UTC −9Anchorage · JuneauAfter-school *16:00*, evening *18:30*, weekend**PT** · UTC −8Los Angeles · SF · SeattleAfter-school *16:30*, evening *19:00*, every slot busy**MT** · UTC −7Denver · Phoenix · SLCAfter-school *16:30*, evening *19:30*, weekend**CT** · UTC −6Chicago · Houston · AustinAfter-school *17:00*, evening *19:30*, every slot busy**ET** · UTC −5NYC · Boston · DC · AtlantaAfter-school *17:00*, evening *19:30*, every slot busyParent rating4.9 / 5 · 547 Google reviewsAligned withAP CSP · AP CSA · USACOCoverageAll 50 states · 6 time zonesCommitmentFree trial · month-to-monthPick a course · start this week
 
-## Eight serious tracks for American learners — elementary to professional.
+## Eight serious tracks for American learners: elementary to professional.
 
 Click any card to open the course page, or hit "Book a free trial" and a mentor matches your student to the right track.
 
-[View all courses](/courses)[Most popular  Grades K – 5 Coding for Kids Scratch → real Python by month three. Build games, drawing apps, friendly AI projects. ScratchPythonGamesAI intro  USD100/ mo · 1:1 Enroll](/courses/coding/kids)[AP CS · USACO  Middle & High School Coding for Teens Python, JavaScript, web apps. Aligned with AP CSP, AP CSA & USACO Bronze – Platinum. PythonJSWebUSACOAP CS  USD100/ mo · 1:1 Enroll](/courses/coding/teens)[New · AI  Grades 6 – 12 AI & Agentic-AI Build real LLM apps the way OpenAI, Anthropic and Nvidia engineers actually ship. PythonOpenAIClaudeAgentsRAG  USD100/ mo · 1:1 Enroll](/ai-ml-course-for-teens)[MIT · Stanford · CMU  College admissions prep Top-tier CS admissions Algorithms, system design, AI engineering. MIT EECS · Stanford CS · CMU SCS · Berkeley EECS prep. AlgorithmsUSACO Gold+System designPortfolio  USD100/ mo · 1:1 Enroll](/courses/coding/college)[Career switch  Adults · 22 – 65 For Professionals Mid-career switch into software, data & AI roles at FAANG, OpenAI, Anthropic, Nvidia or local SWE shops. PythonTypeScriptCloudAI eng  USD100/ mo · 1:1 Enroll](/courses/coding/college)[Girls in tech  Ages 8 – 22 Special For Girls Same curriculum, all-female mentor pairing, role models from FAANG and US AI labs. PythonWebAIMentorship  USD100/ mo · 1:1 Enroll](/courses/coding/girls)[Schools · companies  Cohorts & teams Customised & Schools For US schools, districts and companies. Cohorts of 6 – 30, tailored curriculum, on your hours. CohortCurriculumReports  USD40/ seat · group Talk to us](/courses/coding/corporate)[Free · join  All ages Monthly Hackathons Free monthly coding & AI hackathons for American kids, teens and adults. Real prizes. Real shipped work. FreeLiveMonthlyPrizes  Free· no card Join next one](/courses)AP CS & USACO tracks
+[View all courses](/courses)[Most popular  Grades K: 5 Coding for Kids Scratch → real Python by month three. Build games, drawing apps, friendly AI projects. ScratchPythonGamesAI intro  USD100/ mo · 1:1 Enroll](/courses/coding/kids)[AP CS · USACO  Middle & High School Coding for Teens Python, JavaScript, web apps. Aligned with AP CSP, AP CSA & USACO Bronze: Platinum. PythonJSWebUSACOAP CS  USD100/ mo · 1:1 Enroll](/courses/coding/teens)[New · AI  Grades 6, 12 AI & Agentic-AI Build real LLM apps the way OpenAI, Anthropic and Nvidia engineers actually ship. PythonOpenAIClaudeAgentsRAG  USD100/ mo · 1:1 Enroll](/ai-ml-course-for-teens)[MIT · Stanford · CMU  College admissions prep Top-tier CS admissions Algorithms, system design, AI engineering. MIT EECS · Stanford CS · CMU SCS · Berkeley EECS prep. AlgorithmsUSACO Gold+System designPortfolio  USD100/ mo · 1:1 Enroll](/courses/coding/college)[Career switch  Adults · 22: 65 For Professionals Mid-career switch into software, data & AI roles at FAANG, OpenAI, Anthropic, Nvidia or local SWE shops. PythonTypeScriptCloudAI eng  USD100/ mo · 1:1 Enroll](/courses/coding/college)[Girls in tech  Ages 8: 22 Special For Girls Same curriculum, all-female mentor pairing, role models from FAANG and US AI labs. PythonWebAIMentorship  USD100/ mo · 1:1 Enroll](/courses/coding/girls)[Schools · companies  Cohorts & teams Customised & Schools For US schools, districts and companies. Cohorts of 6: 30, tailored curriculum, on your hours. CohortCurriculumReports  USD40/ seat · group Talk to us](/courses/coding/corporate)[Free · join  All ages Monthly Hackathons Free monthly coding & AI hackathons for American kids, teens and adults. Real prizes. Real shipped work. FreeLiveMonthlyPrizes  Free· no card Join next one](/courses)AP CS & USACO tracks
 
-## Pick the track your student is on — we'll meet them there.
+## Pick the track your student is on: we'll meet them there.
 
 Tap a track to see exactly what we cover and what it leads to. Most American teens use one or two of these simultaneously.
 
 ### AP Computer Science Principles (AP CSP)
 
-Broad-stroke introduction to computer science — algorithms, data, the internet, programming and the impact of computing. Friendlier on-ramp than AP CSA, often taken in 10th or 11th grade. We cover the full course with extra Python depth.
+Broad-stroke introduction to computer science, algorithms, data, the internet, programming and the impact of computing. Friendlier on-ramp than AP CSA, often taken in 10th or 11th grade. We cover the full course with extra Python depth.
 
 College Board · taught nationwide[View the full AP CSP course](/courses/ap-computer-science-principles-exam-prep-course)
 
@@ -52,7 +52,7 @@ College Board · taught nationwide[View the full AP CSP course](/courses/ap-comp
 
 ### AP Computer Science A (AP CSA)
 
-The serious AP — Java-based, deeper, more selective. Often taken in 11th or 12th grade by students aiming at top CS programs. Our mentors are fluent in the AP CSA Java idiom and the FRQ rubrics.
+The serious AP: Java-based, deeper, more selective. Often taken in 11th or 12th grade by students aiming at top CS programs. Our mentors are fluent in the AP CSA Java idiom and the FRQ rubrics.
 
 College Board · Java focus[View the full AP CSA course](/courses/ap-computer-science-a-java-exam-prep-course)
 
@@ -65,15 +65,15 @@ College Board · Java focus[View the full AP CSA course](/courses/ap-computer-sc
 
 ### USACO · Bronze → Silver → Gold
 
-The USA Computing Olympiad — the most respected high-school programming contest in the US. Four divisions, six contests a year. We coach Bronze through Gold with a dedicated Olympiad-style mentor and weekly problem drills.
+The USA Computing Olympiad, the most respected high-school programming contest in the US. Four divisions, six contests a year. We coach Bronze through Gold with a dedicated Olympiad-style mentor and weekly problem drills.
 
 Olympiad · competitive CS
 
 - **Bronze:** ad-hoc problems, simulation, brute-force, complete search
 - **Silver:** greedy, BFS / DFS, prefix sums, two-pointer, sorting
 - **Gold:** dynamic programming, graphs (Dijkstra, MST), segment trees, advanced search
-- **Past-problem drills** — every December, January, February and US Open contest
-- **Promotion coaching** — many students promote up one division per season
+- **Past-problem drills**, every December, January, February and US Open contest
+- **Promotion coaching**, many students promote up one division per season
 
 ### USACO Platinum · IOI & Camp prep
 
@@ -94,7 +94,7 @@ Preparing for AP maths as well? We coach those too, with the same live small-gro
 
 ## The country your student is about to graduate into.
 
-The most dense concentration of AI engineering and CS hiring in the world is in your country. We respect that — and we teach the patterns those companies actually use in production.
+The most dense concentration of AI engineering and CS hiring in the world is in your country. We respect that. And we teach the patterns those companies actually use in production.
 
 San Francisco · Silicon Valley
 
@@ -134,7 +134,7 @@ Carnegie Mellon's Pittsburgh, Georgia Tech's Atlanta, Northern Virginia's federa
 
 CMUGeorgia TechPalantirAuroraUniversity pipeline
 
-## Where our American students go — three tiers, one mentor.
+## Where our American students go: three tiers, one mentor.
 
 We don't promise admissions. We do, however, build the kind of portfolio that admissions committees at every tier of US university genuinely value.
 
@@ -162,51 +162,51 @@ State flagshipsHonors CS programs4-year state univ.Community college → transfe
 
 SOSonam OswalParent of Dhairya · Verified Google reviewReal shipped student projects
 
-## Real apps our students built — live, public, and yours to open.
+## Real apps our students built: live, public, and yours to open.
 
 Every project below was built by a Modern Age Coders student and is live on the internet right now. Tap any card to open the real thing. See the full wall at [Student Labs](/student-labs).
 
 Built by Harshit · AI & ML
 
-### Misti — AI Chatbot for Maths & Coding
+### Misti: AI Chatbot for Maths & Coding
 
 An intelligent AI-powered chatbot that helps students solve maths and coding questions with deep, step-by-step explanations using advanced Python AI frameworks and LLM APIs.
 
 PythonAI/MLLLM APIs[Open the live project ↗](https://misti.modernagecoders.com)Built by Shubh · Game
 
-### Doodle Dash — 30-Second Drawing Challenge
+### Doodle Dash: 30-Second Drawing Challenge
 
-Pick a difficulty, get a prompt, and you have exactly 30 seconds to draw it — then an AI judge scores how close you got. Three modes from easy objects to chaotic scenes.
+Pick a difficulty, get a prompt, and you have exactly 30 seconds to draw it, then an AI judge scores how close you got. Three modes from easy objects to chaotic scenes.
 
 Vibe CodingAI JudgeCanvasLovable[Open the live project ↗](https://doodledashmaster.lovable.app)Built by Isha · Web App
 
-### Moxo — Company Landing Page
+### Moxo: Company Landing Page
 
 A stunning modern landing page with smooth parallax scrolling, advanced GSAP animations and elegant section transitions that bring the brand to life.
 
 JavaScriptGSAPParallax[Open the live project ↗](https://moxo.modernagecoders.com)Built by Bhavya · AI & ML
 
-### NutriLife — AI Nutrition Coach
+### NutriLife: AI Nutrition Coach
 
-Snap a photo of any meal and NutriLife instantly names every food, then breaks down the calories, macros, vitamins and minerals — powered by AI.
+Snap a photo of any meal and NutriLife instantly names every food, then breaks down the calories, macros, vitamins and minerals, powered by AI.
 
 Vibe CodingAI VisionReactLovable[Open the live project ↗](https://nutrilife-bhavya.lovable.app)Built by Kritika · Game
 
-### Baby — Typing Speed Challenge
+### Baby: Typing Speed Challenge
 
 An engaging typing speed challenge where users test how fast and accurately they can type, with a live leaderboard connected to a MongoDB backend.
 
 JavaScriptNode.jsMongoDB[Open the live project ↗](https://baby.modernagecoders.com)Built by Anika · AI & ML
 
-### BookDesk — AI Book Summaries & Quizzes
+### BookDesk: AI Book Summaries & Quizzes
 
-Type in any book name and author, and BookDesk pulls together the book's details, a clear summary and a custom quiz to test what you've learned — a genuinely useful study companion.
+Type in any book name and author, and BookDesk pulls together the book's details, a clear summary and a custom quiz to test what you've learned, a genuinely useful study companion.
 
 Gemini AIFull-StackDatabaseQuiz Gen[Open the live project ↗](https://bookdesk1.netlify.app)Meet the mentor team
 
 ## FAANG engineers, USACO veterans, Ivy / MIT / Stanford alumni.
 
-Every American student is paired with one mentor for the year. We match on time zone, age group and goal — AP CS, USACO, MIT admissions, career switch, etc.
+Every American student is paired with one mentor for the year. We match on time zone, age group and goal: AP CS, USACO, MIT admissions, career switch, etc.
 
 AI
 
@@ -236,7 +236,7 @@ KD
 
 ### The kids-first mentor
 
-Grades K – 5
+Grades K: 5
 
 Patient, child-development-aware, calm pace. Bridges Scratch to real Python so even a third-grader leaves able to write a working program.
 
@@ -268,7 +268,7 @@ $100 / month · billed in USD · no joining fee
 
 - 8 live 1:1 sessions every month
 - 2 classes per week, your chosen time-zone slots
-- Same mentor every week — no rotation
+- Same mentor every week, no rotation
 - Custom curriculum mapped to AP / USACO / college goals
 - Class recordings & weekly parent / student note
 - Email / WhatsApp / Slack support between classes
@@ -294,17 +294,17 @@ How we compare
 
 ## Honest side-by-side with what American families already tried.
 
-School AP classes, private tutors, Outschool / Juni / iD Tech, free YouTube — each has a place. Here's where we sit.
+School AP classes, private tutors, Outschool / Juni / iD Tech, free YouTube, each has a place. Here's where we sit.
 
-What mattersModern Age CodersSchool AP CS classOutschool / Juni / iD TechYouTube · freeSame 1:1 mentor weekly, all year✓ Yes— Class format~ Rotating— NoReal coding (Python · JS · Git · deploy)✓ Week 1✓ AP CSA Java~ Depends~ Self-drivenModern AI & agentic-AI✓ Built in— Rare~ Marketing~ TutorialsAP CSP / AP CSA alignment✓ Both✓ Native~ Sometimes— NoUSACO coaching✓ All divisions— Rare~ Limited— NoIvy / MIT / Stanford admissions awareness✓ Yes— No~ Marketing— NoMonthly cost$150 (1:1) / $100 (group)Free (in school)$200 – $700 / moFreeCancel / pause✓ Monthly~ School term~ Quarterly✓ FreeAll 50 states covered
+What mattersModern Age CodersSchool AP CS classOutschool / Juni / iD TechYouTube · freeSame 1:1 mentor weekly, all year✓ Yes, Class format~ Rotating, NoReal coding (Python · JS · Git · deploy)✓ Week 1✓ AP CSA Java~ Depends~ Self-drivenModern AI & agentic-AI✓ Built in, Rare~ Marketing~ TutorialsAP CSP / AP CSA alignment✓ Both✓ Native~ Sometimes, NoUSACO coaching✓ All divisions, Rare~ Limited, NoIvy / MIT / Stanford admissions awareness✓ Yes, No~ Marketing, NoMonthly cost$150 (1:1) / $100 (group)Free (in school)$200, $700 / moFreeCancel / pause✓ Monthly~ School term~ Quarterly✓ FreeAll 50 states covered
 
 ## Mentors live in every state. Your zip code is supported.
 
-We schedule against your home time zone — never a 1 AM lesson because the mentor lives in California. Below: every state we currently teach in (i.e. all of them).
+We schedule against your home time zone, never a 1 AM lesson because the mentor lives in California. Below: every state we currently teach in (i.e. all of them).
 
 ALAlabamaAKAlaskaAZArizonaARArkansasCACaliforniaCOColoradoCTConnecticutDEDelawareFLFloridaGAGeorgiaHIHawaiiIDIdahoILIllinoisINIndianaIAIowaKSKansasKYKentuckyLALouisianaMEMaineMDMarylandMAMassachusettsMIMichiganMNMinnesotaMSMississippiMOMissouriMTMontanaNENebraskaNVNevadaNHN. HampshireNJNew JerseyNMNew MexicoNYNew YorkNCN. CarolinaNDN. DakotaOHOhioOKOklahomaOROregonPAPennsylvaniaRIRhode IslandSCS. CarolinaSDS. DakotaTNTennesseeTXTexasUTUtahVTVermontVAVirginiaWAWashingtonWVW. VirginiaWIWisconsinWYWyomingInside your first month
 
-## Week by week — what actually happens.
+## Week by week: what actually happens.
 
 A typical first month for an 8th-grade American student starting from zero. Pacing adapts up or down for younger and older learners.
 
@@ -318,19 +318,19 @@ Free 30-minute trial on Zoom in your time zone. Mentor candidate meets the stude
 
 ### Foundations & computational thinking
 
-First two real sessions. Sequencing, decomposition, debugging — the joy of "the bug is mine to fix." Older students start in Python in VS Code; under-9s start in Scratch. Always real.
+First two real sessions. Sequencing, decomposition, debugging, the joy of "the bug is mine to fix." Older students start in Python in VS Code; under-9s start in Scratch. Always real.
 
 **Output:** a tiny program, the student's ownWeek 03
 
 ### Python on a real laptop
 
-VS Code installed, Python 3 running, terminal no longer scary. First original program — not from a tutorial — with input/output, variables, loops. Pushed to a personal GitHub repo. Real engineering, not a classroom toy.
+VS Code installed, Python 3 running, terminal no longer scary. First original program, not from a tutorial, with input/output, variables, loops. Pushed to a personal GitHub repo. Real engineering, not a classroom toy.
 
 **Output:** first GitHub commitWeek 04
 
 ### The first deploy
 
-End-of-month checkpoint: a small project chosen by the student — an NBA stats lookup, an AP prep quiz, a Mars-rover-themed game — shipped to GitHub Pages or Vercel. Parent gets a written progress note.
+End-of-month checkpoint: a small project chosen by the student, an NBA stats lookup, an AP prep quiz, a Mars-rover-themed game, shipped to GitHub Pages or Vercel. Parent gets a written progress note.
 
 **Output:** a live URL the family can shareWhat families say
 
@@ -356,7 +356,7 @@ Modern Age Coders has been a game-changer for me. I struggled to grasp IT concep
 
 Honest commitments
 
-## What we'll always do — and what we'll never do.
+## What we'll always do: and what we'll never do.
 
 Plain-spoken. We'd rather lose your business than mis-sell our school.
 
@@ -386,37 +386,37 @@ Inside a typical class
 
 The honest version. This is what one 1:1 session looks like for a 10th-grade American student in their third month with us.
 
-00:00 – 02:00
+00:00: 02:00
 
 #### Hi + warm-up
 
-Two minutes of "how was the week" — the human bit. Mentor scrolls back the chat history, cameras come on for both. Settles the student.
+Two minutes of "how was the week", the human bit. Mentor scrolls back the chat history, cameras come on for both. Settles the student.
 
-02:00 – 08:00
+02:00, 08:00
 
 #### Recap and tiny quiz
 
-A 6-minute recall test of last lesson's idea. Not for marks — for the brain. Mentor watches for the lightbulb moments and the cobwebs.
+A 6-minute recall test of last lesson's idea. Not for marks, for the brain. Mentor watches for the lightbulb moments and the cobwebs.
 
-08:00 – 18:00
+08:00, 18:00
 
 #### New concept + live coding
 
 Ten minutes of new material. Live-shared VS Code via Zoom. Mentor types two lines, student types the next two. Wrong moves welcome. Errors read aloud.
 
-18:00 – 35:00
+18:00: 35:00
 
 #### Project work · the heart of the class
 
-The student leads. The mentor coaches. This is where the real learning happens — push a feature, fix a bug, refactor a function, run a test. The mentor types nothing; only asks.
+The student leads. The mentor coaches. This is where the real learning happens, push a feature, fix a bug, refactor a function, run a test. The mentor types nothing; only asks.
 
-35:00 – 42:00
+35:00, 42:00
 
 #### Code review & reflection
 
 Five minutes to look back at what was written. What's good? What could be cleaner? The student names one thing they're proud of. This bit matters more than it sounds.
 
-42:00 – 45:00
+42:00: 45:00
 
 #### Next steps + goodbye
 
@@ -426,7 +426,7 @@ US schools we've supported
 
 ## A real cross-section of American schools we've taught students from.
 
-We're not affiliated with any of these schools — we simply mentor the students who attend them. We know each school's AP CS pace, USACO culture and college-counselor expectations.
+We're not affiliated with any of these schools. We simply mentor the students who attend them. We know each school's AP CS pace, USACO culture and college-counselor expectations.
 
 Lynbrook · Mission San Jose · Monta VistaBay Area
 
@@ -458,13 +458,13 @@ New England historic schools. Many of our students from here are eyeing MIT, Har
 
 Public & charter schools nationwideAll 50 states
 
-The majority of our American students are at ordinary public, charter and parochial schools — exactly where they should be. Our mentorship works with any AP CS / USACO / state-CS curriculum.
+The majority of our American students are at ordinary public, charter and parochial schools, exactly where they should be. Our mentorship works with any AP CS / USACO / state-CS curriculum.
 
 Free trial · 30 minutes · Zoom · your time zone
 
 ## Meet a mentor before you decide anything.
 
-A real 30-minute live lesson on your student's local slot. We tailor a learning plan to where they are today and what they're aiming at — AP CS, USACO, college admissions, career switch. No card, no commitment.
+A real 30-minute live lesson on your student's local slot. We tailor a learning plan to where they are today and what they're aiming at: AP CS, USACO, college admissions, career switch. No card, no commitment.
 
 [Email us](mailto:hello@modernagecoders.com?subject=US%20trial%20enquiry)FAQ
 
@@ -472,15 +472,15 @@ A real 30-minute live lesson on your student's local slot. We tailor a learning 
 
 Is the course aligned with AP Computer Science Principles and AP Computer Science A?
 
-Yes — both. Our middle and high school tracks align with AP CSP (Big Ideas 1–5, Python and pseudocode, Create Performance Task) and AP CSA (Java fundamentals, OOP, ArrayList, recursion, sorting, FRQ practice). Many of our committed students score 4 or 5 on either exam.
+Yes, both. Our middle and high school tracks align with AP CSP (Big Ideas 1–5, Python and pseudocode, Create Performance Task) and AP CSA (Java fundamentals, OOP, ArrayList, recursion, sorting, FRQ practice). Many of our committed students score 4 or 5 on either exam.
 
 Do you coach USACO?
 
-Yes — all four divisions: Bronze, Silver, Gold, Platinum. We have dedicated Olympiad-style mentors who train students on ad-hoc, greedy, BFS/DFS, prefix sums, dynamic programming, segment trees and advanced graph algorithms depending on division. Past contest problems are drilled every season.
+Yes, all four divisions: Bronze, Silver, Gold, Platinum. We have dedicated Olympiad-style mentors who train students on ad-hoc, greedy, BFS/DFS, prefix sums, dynamic programming, segment trees and advanced graph algorithms depending on division. Past contest problems are drilled every season.
 
 Can my child prepare for MIT, Stanford, CMU, Berkeley, Caltech or the Ivy League?
 
-Yes. Our advanced track is built around what MIT EECS, Stanford CS, Carnegie Mellon SCS, UC Berkeley EECS, Caltech CS, Cornell CS, Princeton CS, Harvard CS and other selective programs look for: strong Python / Java, deep algorithms, USACO results, and a public portfolio of real shipped projects. We don't promise admission — we promise the foundation.
+Yes. Our advanced track is built around what MIT EECS, Stanford CS, Carnegie Mellon SCS, UC Berkeley EECS, Caltech CS, Cornell CS, Princeton CS, Harvard CS and other selective programs look for: strong Python / Java, deep algorithms, USACO results, and a public portfolio of real shipped projects. We don't promise admission. We promise the foundation.
 
 What time zones do mentors cover?
 
@@ -488,7 +488,7 @@ All six US time zones: Hawaii (HT, UTC −10), Alaska (AKT, −9), Pacific (PT, 
 
 What does it cost?
 
-Private 1:1 mentorship is **$150 per month** for 8 sessions — two per week. Small-group cohort is **$100 per month** on the same schedule. No registration fee, no annual contract, month-to-month. Cancel any time before the next billing cycle, no fee.
+Private 1:1 mentorship is **$150 per month** for 8 sessions, two per week. Small-group cohort is **$100 per month** on the same schedule. No registration fee, no annual contract, month-to-month. Cancel any time before the next billing cycle, no fee.
 
 Is this a coding bootcamp?
 
@@ -496,7 +496,7 @@ No. Bootcamps compress 12 weeks of intense, transactional study aiming at a job 
 
 Will my child build real AI, or just "use ChatGPT"?
 
-Real AI engineering. Students build LLM-powered applications end-to-end — prompting, structured output, retrieval-augmented generation, tool-calling agents, evaluations and deployment. The same patterns shipped at OpenAI, Anthropic, Nvidia, Google, Meta and Microsoft.
+Real AI engineering. Students build LLM-powered applications end-to-end, prompting, structured output, retrieval-augmented generation, tool-calling agents, evaluations and deployment. The same patterns shipped at OpenAI, Anthropic, Nvidia, Google, Meta and Microsoft.
 
 How is AI safety handled for younger children?
 
@@ -512,15 +512,15 @@ For students who have been with us at least six months, mentors write a short fa
 
 What about FIRST Robotics, Code.org, Hour of Code and other US initiatives?
 
-We support all of these. Many of our students do FIRST Robotics, Code.org's CS Discoveries / CS Principles, or Hour of Code at school — and use us for deeper 1:1 mentorship on top. We coordinate with the school's pace where useful.
+We support all of these. Many of our students do FIRST Robotics, Code.org's CS Discoveries / CS Principles, or Hour of Code at school, and use us for deeper 1:1 mentorship on top. We coordinate with the school's pace where useful.
 
 What's the cancellation policy?
 
-The first trial is always free. After that, you can cancel any time before the next billing cycle — no fee, no contract. If a month has just renewed and you'd like to stop, contact us within 7 days and we'll refund the unused portion.
+The first trial is always free. After that, you can cancel any time before the next billing cycle, no fee, no contract. If a month has just renewed and you'd like to stop, contact us within 7 days and we'll refund the unused portion.
 
 Do classes pause for Thanksgiving / winter break / spring break / summer?
 
-You decide. Most American families pause across Thanksgiving week, winter break, spring break and various summer windows; some use breaks for a focused project sprint instead. Pause any month with one message to your mentor — no fee, no awkward conversation.
+You decide. Most American families pause across Thanksgiving week, winter break, spring break and various summer windows; some use breaks for a focused project sprint instead. Pause any month with one message to your mentor, no fee, no awkward conversation.
 
 Can siblings share a 1:1 slot?
 
@@ -528,7 +528,7 @@ Yes, when their levels are close. Two siblings can share a 1:1 slot at a small d
 
 Will my child get a certificate at the end?
 
-Yes — we issue a Modern Age Coders certificate of completion at each curriculum milestone (typically every six months), signed by the mentor, listing the projects shipped and skills demonstrated. Useful for Common App, UC application activity lists and scholarship applications.
+Yes. We issue a Modern Age Coders certificate of completion at each curriculum milestone (typically every six months), signed by the mentor, listing the projects shipped and skills demonstrated. Useful for Common App, UC application activity lists and scholarship applications.
 
 Can the mentor coach for the Congressional App Challenge, Hackathon, or local US contests?
 
@@ -536,15 +536,15 @@ Yes. Many of our American students compete in the Congressional App Challenge, M
 
 Do you accept FSA / HSA / 529 plan / employer education benefit?
 
-Generally no for K-12 (coding tutoring isn't usually a qualified expense under FSA / HSA / 529). For adults: many of our adult learners are reimbursed through their employer's professional-development budget — we issue clean USD invoices that most American HR / Finance teams accept without trouble.
+Generally no for K-12 (coding tutoring isn't usually a qualified expense under FSA / HSA / 529). For adults: many of our adult learners are reimbursed through their employer's professional-development budget. We issue clean USD invoices that most American HR / Finance teams accept without trouble.
 
 Can my homeschool family use this as part of our curriculum?
 
-Yes. We have a steady cohort of American homeschool families across all 50 states. The 1:1 mentorship model fits homeschool rhythms unusually well — same mentor every week, fully customized pace, all online. We can also align with co-op groups (Classical Conversations, charter-school homeschool, Sudbury models).
+Yes. We have a steady cohort of American homeschool families across all 50 states. The 1:1 mentorship model fits homeschool rhythms unusually well, same mentor every week, fully customized pace, all online. We can also align with co-op groups (Classical Conversations, charter-school homeschool, Sudbury models).
 
 What devices and tools do you teach with?
 
-VS Code, the terminal, Git and GitHub, Python 3, Node, modern browsers and a deploy target (Vercel, GitHub Pages or Hugging Face Spaces). For AI work: OpenAI, Anthropic and Google AI SDKs, Chroma / Pinecone for retrieval, LangGraph / Inngest for agents — the same tools used in production at top US AI shops.
+VS Code, the terminal, Git and GitHub, Python 3, Node, modern browsers and a deploy target (Vercel, GitHub Pages or Hugging Face Spaces). For AI work: OpenAI, Anthropic and Google AI SDKs, Chroma / Pinecone for retrieval, LangGraph / Inngest for agents, the same tools used in production at top US AI shops.
 
 Will the mentor handle technical setup on a school-issued Chromebook?
 
@@ -552,15 +552,15 @@ Yes. Many US schools issue Chromebooks. We have a Chromebook-friendly setup path
 
 Will the mentor work during the AP exam fortnight itself?
 
-Yes — many families intensify mentor support during AP-exam-prep windows. We can switch a normal weekly session to a focused past-paper drill, or schedule extra hours by the hour if helpful. There's no contract change; just message the mentor.
+Yes, many families intensify mentor support during AP-exam-prep windows. We can switch a normal weekly session to a focused past-paper drill, or schedule extra hours by the hour if helpful. There's no contract change; just message the mentor.
 
 Do you support girls-only cohorts and women-in-tech mentorship?
 
-Yes — we have a dedicated Special For Girls track with all-female mentor pairing. Many of our female students are paired with mentors from FAANG, OpenAI, Anthropic and top US AI labs, which has been transformative for several of them in particular.
+Yes. We have a dedicated Special For Girls track with all-female mentor pairing. Many of our female students are paired with mentors from FAANG, OpenAI, Anthropic and top US AI labs, which has been transformative for several of them in particular.
 
 How quickly do you respond between lessons?
 
-Mentors aim to reply within one US business day to written questions between classes — faster if there's an exam window or contest deadline approaching. For urgent setup problems before a class, WhatsApp or Slack tends to be the quickest channel.
+Mentors aim to reply within one US business day to written questions between classes, faster if there's an exam window or contest deadline approaching. For urgent setup problems before a class, WhatsApp or Slack tends to be the quickest channel.
 
 How does this compare to Outschool, Juni Learning or iD Tech?
 
@@ -574,23 +574,23 @@ The quiet ones. We'd rather just answer them in advance.
 
 "My kid already gets too much screen time. Won't this make it worse?"
 
-Fair worry. Our sessions are 45 minutes, twice a week — 90 minutes total per week — and most of that time the student is creating, not consuming. Mentors enforce screen-off breaks. Many of our American parents tell us their child actually *chooses* to spend less time on TikTok / YouTube Shorts / Roblox after a few months. There's a qualitative difference between making and scrolling.
+Fair worry. Our sessions are 45 minutes, twice a week, 90 minutes total per week, and most of that time the student is creating, not consuming. Mentors enforce screen-off breaks. Many of our American parents tell us their child actually *chooses* to spend less time on TikTok / YouTube Shorts / Roblox after a few months. There's a qualitative difference between making and scrolling.
 
 "Will my child learn fake 'kid Python' rather than real programming?"
 
-No. We start in Scratch only for K – 3rd grade students, and only as a bridge. By month three almost every student is writing real, runnable Python that imports real libraries, handles real errors and pushes to a real GitHub repo. We deliberately avoid "Python for kids" tools that hide the real language.
+No. We start in Scratch only for K: 3rd grade students, and only as a bridge. By month three almost every student is writing real, runnable Python that imports real libraries, handles real errors and pushes to a real GitHub repo. We deliberately avoid "Python for kids" tools that hide the real language.
 
 "What if my child loses interest after a few weeks? Am I locked in?"
 
-No lock-in. Cancel any month before the next billing cycle — no fee, no awkward call, no exit interview. If your child loses interest, we'd rather hear early and either pause or pivot the project track (game design, music coding, AI art) than have you white-knuckle through a year you paid for.
+No lock-in. Cancel any month before the next billing cycle, no fee, no awkward call, no exit interview. If your child loses interest, we'd rather hear early and either pause or pivot the project track (game design, music coding, AI art) than have you white-knuckle through a year you paid for.
 
 "Is AI safe for my 9-year-old? I've read concerning things."
 
-Under-13s never operate raw LLM APIs against the open internet without a mentor present. Age-appropriate models, guardrailed prompts, content filters, "sandbox-only" rule. The AI tools your child builds are educational and reviewable by you — you see every prompt and every output. We're stricter than most.
+Under-13s never operate raw LLM APIs against the open internet without a mentor present. Age-appropriate models, guardrailed prompts, content filters, "sandbox-only" rule. The AI tools your child builds are educational and reviewable by you, you see every prompt and every output. We're stricter than most.
 
-"My kid is shy — won't a 1:1 video lesson be intimidating?"
+"My kid is shy, won't a 1:1 video lesson be intimidating?"
 
-Many of our most successful students started shy. The first lesson is structured around the code, not the camera — your child stares at VS Code, not at a stranger's face. Mentors are trained to give long pauses and no pressure. Most shy students are comfortable by lesson three; several have ended up *more* confident at school presentations as a side effect.
+Many of our most successful students started shy. The first lesson is structured around the code, not the camera. Your child stares at VS Code, not at a stranger's face. Mentors are trained to give long pauses and no pressure. Most shy students are comfortable by lesson three; several have ended up *more* confident at school presentations as a side effect.
 
 "Is this another coding bootcamp pretending to be a school?"
 
@@ -600,9 +600,9 @@ No. Bootcamps compress 12 weeks of intense study aiming at a job. We're the oppo
 
 School AP CS is generally excellent at theory and group-paced lecture. What's harder in a classroom of 30 is depth, individual pace and modern AI engineering. Many of our American students take school AP CS AND us, and the two reinforce each other beautifully.
 
-"My kid is gifted/2e/highly accelerated — can the pace match?"
+"My kid is gifted/2e/highly accelerated, can the pace match?"
 
-Yes. We adapt pace within a track — depth before raw speed. A gifted 10-year-old might finish "real Python" in four weeks instead of twelve and go straight into AI agents. A twice-exceptional student might need the same content delivered with very different scaffolding. The mentor adjusts week by week.
+Yes. We adapt pace within a track, depth before raw speed. A gifted 10-year-old might finish "real Python" in four weeks instead of twelve and go straight into AI agents. A twice-exceptional student might need the same content delivered with very different scaffolding. The mentor adjusts week by week.
 
 More FAQ · admissions & logistics
 
@@ -618,7 +618,7 @@ We don't run those programs, but we have helped students prepare strong applicat
 
 "What about FIRST Robotics, FRC, FTC, FLL coaching?"
 
-Yes. We support students on FIRST Robotics teams — particularly with the programming side (Java, Python, C++) and software-engineering practices. Many of our high-school students cite their FIRST team in their AP CSA NEA-style projects and college applications.
+Yes. We support students on FIRST Robotics teams, particularly with the programming side (Java, Python, C++) and software-engineering practices. Many of our high-school students cite their FIRST team in their AP CSA NEA-style projects and college applications.
 
 "Can we use this as part of our IEP / 504 plan for a student with learning differences?"
 
@@ -630,31 +630,31 @@ Not automatically. We're not an accredited school. However, many homeschool fami
 
 "Can the mentor help my 11th grader build a Common App / UC project list?"
 
-Yes. For 11th and 12th graders we explicitly help structure project portfolios that map to Common App activities, UC PIQs (Personal Insight Questions) and supplemental essays — particularly for CS, EECS, AI / ML and engineering majors.
+Yes. For 11th and 12th graders we explicitly help structure project portfolios that map to Common App activities, UC PIQs (Personal Insight Questions) and supplemental essays, particularly for CS, EECS, AI / ML and engineering majors.
 
 "What about scholarships like NCWIT Aspirations in Computing or Davidson Fellows?"
 
-Yes — we've supported applicants for NCWIT AiC, Davidson Fellows, Coca-Cola Scholars (CS angle), the Regeneron STS and ISEF (computer science category). Mentor letters and shipped-project evidence often play a meaningful role in these applications.
+Yes. We've supported applicants for NCWIT AiC, Davidson Fellows, Coca-Cola Scholars (CS angle), the Regeneron STS and ISEF (computer science category). Mentor letters and shipped-project evidence often play a meaningful role in these applications.
 
 "Do you have referral or family discounts?"
 
-Yes. Refer another American family and both of you get a free month once they complete two paid months. No code, no rules — just mention who referred you on your trial call. Siblings sharing a 1:1 slot also get a small discount when their levels are close.
+Yes. Refer another American family and both of you get a free month once they complete two paid months. No code, no rules, just mention who referred you on your trial call. Siblings sharing a 1:1 slot also get a small discount when their levels are close.
 
 "Can we gift this as a Hanukkah / Christmas / birthday present?"
 
-Yes — gift-month options are popular with US grandparents, aunts and uncles. You pay up front for 1, 3 or 6 months; the recipient gets a personalised email; we set up the trial call whenever they're ready. Just ask on the contact form.
+Yes, gift-month options are popular with US grandparents, aunts and uncles. You pay up front for 1, 3 or 6 months; the recipient gets a personalised email; we set up the trial call whenever they're ready. Just ask on the contact form.
 
 "How does this compare to Outschool, Juni Learning, iD Tech, Code Ninjas?"
 
-Each of those is a legitimate option — broader market, larger classes, more variety. We're narrower and deeper: 1:1 year-round mentorship aimed at students who want serious depth (AP CS 5, USACO promotion, Ivy / MIT / Stanford / CMU CS, or a real career switch). Many of our American families have tried one of those first and joined us when they wanted more.
+Each of those is a legitimate option, broader market, larger classes, more variety. We're narrower and deeper: 1:1 year-round mentorship aimed at students who want serious depth (AP CS 5, USACO promotion, Ivy / MIT / Stanford / CMU CS, or a real career switch). Many of our American families have tried one of those first and joined us when they wanted more.
 
 "Will the mentor write a LinkedIn endorsement for adult learners?"
 
-Yes — for adult students who have been with us at least three months and would like one, mentors are happy to write a public LinkedIn endorsement describing the technical work observed. Several of our adult learners have landed roles partly on the back of that endorsement.
+Yes, for adult students who have been with us at least three months and would like one, mentors are happy to write a public LinkedIn endorsement describing the technical work observed. Several of our adult learners have landed roles partly on the back of that endorsement.
 
 "What's the minimum commitment to see real progress?"
 
-Honestly, four months. The first month is setup and foundations; months two and three are real learning; month four is when a student has shipped a real project they can point at. We won't oversell shorter — if you can only commit a month, do it, but understand most learning compounds beyond that point.
+Honestly, four months. The first month is setup and foundations; months two and three are real learning; month four is when a student has shipped a real project they can point at. We won't oversell shorter, if you can only commit a month, do it, but understand most learning compounds beyond that point.
 
 Last word
 

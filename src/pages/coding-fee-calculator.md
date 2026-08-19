@@ -1,34 +1,30 @@
 ---
-title: "Coding Class Fee Calculator — Instant Transparent Pricing for India & Global | Modern Age Coders"
-description: "An honest, instant fee calculator for Modern Age Coders. Pick your child's age, the language or skill, the intensity and the country — get a real fee quote in seconds, plus any scholarship you may qualify for. No callbacks demanded. No hidden charges. Used by 10,000+ families."
+title: "Coding Class Fee Calculator: Instant Transparent Pricing for India & Global | Modern Age Coders"
+description: "An honest, instant fee calculator for Modern Age Coders. Pick your child's age, the language or skill, the intensity and the country, get a real fee quote in seconds, plus any scholarship you may qualify for. No callbacks demanded. No hidden charges. Used by 10,000+ families."
 canonical: https://learn.modernagecoders.com/coding-fee-calculator
 source: src/pages/coding-fee-calculator.html
 ---
-> An honest, instant fee calculator for Modern Age Coders. Pick your child's age, the language or skill, the intensity and the country — get a real fee quote in seconds, plus any scholarship you may qualify for. No callbacks demanded. No hidden charges. Used by 10,000+ families.
+> An honest, instant fee calculator for Modern Age Coders. Pick your child's age, the language or skill, the intensity and the country, get a real fee quote in seconds, plus any scholarship you may qualify for. No callbacks demanded. No hidden charges. Used by 10,000+ families.
 
 Honest pricing · instant quote
 
 # A coding fee should be a *number*, not a sales call.
 
-Use this calculator to get a real Modern Age Coders fee in 30 seconds. We will not gate the number behind a callback. We will not pretend the price changes if you wait. Pick your child's age, the language, the intensity and the country. You will see exactly what it costs — and which scholarship you may already qualify for.
+Use this calculator to get a real Modern Age Coders fee in 30 seconds. We will not gate the number behind a callback. We will not pretend the price changes if you wait. Pick your child's age, the language, the intensity and the country. You will see exactly what it costs, and which scholarship you may already qualify for.
 
 Used by 10,000+ familiesLive in 25+ countriesNo hidden fees, ever
 
 ## Build your quote
 
-1 month6 months24 months— Your quote —
+1 month6 months24 months, Your quote, Pick your details on the left. The fee updates instantly. We do not store anything until you choose to talk to us.
 
-Pick your details on the left. The fee updates instantly. We do not store anything until you choose to talk to us.
-
-**Eligible for scholarship.**Estimated monthly fee—
-
-This is an estimate. Our actual published international prices are flat: every course, coding or mathematics, is $100/month for group classes or $150/month for 1-on-1, all with 8 live one-hour classes. See [full pricing](/pricing).
+**Eligible for scholarship.**Estimated monthly fee: This is an estimate. Our actual published international prices are flat: every course, coding or mathematics, is $100/month for group classes or $150/month for 1-on-1, all with 8 live one-hour classes. See [full pricing](/pricing).
 
 [Or book a free demo first](/book-demo)Our pricing promise
 
 ## Four things *we will not do* with your fee.
 
-We have been running paid coding classes for six years. We have watched what other ed-tech companies do to families — the dynamic pricing, the urgency calls, the hidden upsells. We refuse to do any of it. This page exists in part to keep us honest, in public, where you can hold us to it.
+We have been running paid coding classes for six years. We have watched what other ed-tech companies do to families, the dynamic pricing, the urgency calls, the hidden upsells. We refuse to do any of it. This page exists in part to keep us honest, in public, where you can hold us to it.
 
 01
 
@@ -46,7 +42,7 @@ No platform fee, no recording fee, no examination fee, no certificate fee, no GS
 
 ### No loan-financing pressure
 
-We will not push you to a third-party EMI provider you have never heard of. Quarterly and annual instalments are offered by us directly. If a salesperson on the phone uses words like "limited seat" or "today only" — please report them. We do not train anyone to speak that way.
+We will not push you to a third-party EMI provider you have never heard of. Quarterly and annual instalments are offered by us directly. If a salesperson on the phone uses words like "limited seat" or "today only", please report them. We do not train anyone to speak that way.
 
 04
 
@@ -79,7 +75,7 @@ Pick the course your fee covers
 
 ## Nine of our *most-chosen courses*, prices already shown above.
 
-If your quote came back manageable, skip the demo call and enroll directly. Every course below is a live small-batch programme — you will join an existing cohort or be placed in the next one starting within two weeks. All include a free 30-minute orientation in your first week if you change your mind.
+If your quote came back manageable, skip the demo call and enroll directly. Every course below is a live small-batch programme. You will join an existing cohort or be placed in the next one starting within two weeks. All include a free 30-minute orientation in your first week if you change your mind.
 
 [Ages 6–10 Vibe Coding for Kids The most popular starter for ages 6 to 10. Scratch, block coding, gentle introduction to typed code with AI assistance. 2 classes/week₹1,499/mo](/courses/vibe-coding-for-kids-beginners-ai-scratch-game-dev)[Ages 11–15 Vibe Coding for Teens Python, web development and AI projects for the 11-to-15 band. The course that builds a real public portfolio in a year. 2 classes/week₹1,499/mo](/courses/vibe-coding-for-teens-python-web-ai-projects-course)[Ages 16–22 Vibe Coding for College Full-stack, AI engineering and DSA for college and pre-college students. Built around employability, not exam coverage. 2 classes/week₹1,499/mo](/courses/vibe-coding-for-college-fullstack-ai-dsa-career-course)[Python · Kids Python & AI Kids Masterclass Pure Python with AI tooling, taught at kid pace. Twelve shipped projects across the year. 2 classes/week₹1,499/mo](/courses/python-ai-kids-masterclass)[AI / ML · Teens AI & ML Masterclass · Teens Real machine learning for teens. The course that pushes students into industry-aware AI engineering by the end of the year. 2 classes/week₹1,499/mo](/courses/ai-ml-masterclass-teens)[Full-Stack · College / Adult Full-Stack Web Development The complete frontend-and-backend programme. React, Node, modern deployment, real production work. 2 classes/week₹1,499/mo](/courses/full-stack-web-development-masterclass-college)[Data Science · Adult Data Science Complete The complete data scientist track. Python data stack, SQL, statistics, ML, and end-to-end portfolio building. 2 classes/week₹1,499/mo](/courses/data-science-complete-masterclass-college)[CBSE / ICSE · Class 11–12 CBSE / ICSE Computer Science The full board syllabus for Class 11 and 12. The companion track for our JEE-aspirant coding programme. 2 classes/week₹1,499/mo](/courses/cbse-icse-computer-science-class-11-12-python-java-complete-course)[Competitive · Olympiad Competitive Programming IOI / ICPC / Codeforces preparation as a structured weekly cohort. The course behind our Olympiad Medal Track. 2 classes/week₹1,499/mo](/courses/competitive-programming-masterclass-college)Honest answers
 
@@ -87,7 +83,7 @@ If your quote came back manageable, skip the demo call and enroll directly. Ever
 
 How is the fee calculated?
 
-Fee is a function of four inputs: age band (kid/teen/college/adult), subject (Python is priced differently from AI/ML, which is priced differently from the Olympiad track), intensity (hours per week of live class) and duration. Country only changes the currency and applies a regional cost adjustment for tutors and timezone coverage. There is no other multiplier — no "premium parent" pricing, no household-income data, no targeting. The same kid in Delhi and the same kid in Dubai see the same INR base fee, with the Dubai family paying the additional regional cost for AED-zone tutor scheduling.
+Fee is a function of four inputs: age band (kid/teen/college/adult), subject (Python is priced differently from AI/ML, which is priced differently from the Olympiad track), intensity (hours per week of live class) and duration. Country only changes the currency and applies a regional cost adjustment for tutors and timezone coverage. There is no other multiplier, no "premium parent" pricing, no household-income data, no targeting. The same kid in Delhi and the same kid in Dubai see the same INR base fee, with the Dubai family paying the additional regional cost for AED-zone tutor scheduling.
 
 Why is the fee for the Olympiad track higher?
 
@@ -95,7 +91,7 @@ Because the [Olympiad medal track](/coding-olympiad-medal-track) is taught in co
 
 Is the fee different in India vs abroad?
 
-The base fee is the same. Different currencies and a regional cost adjustment apply — for example, US-zone classes are taught by tutors who can deliver in a US-friendly time window, which costs more. We do not "charge more in dollars because we can." If a US parent and an Indian parent compared a like-for-like Saturday IST class, the INR amount would be identical. We made this transparent on purpose. Country-specific details are on [USA](/coding-classes-in-united-states), [UK](/coding-classes-in-united-kingdom), [Canada](/coding-classes-in-canada), [UAE](/coding-classes-in-uae), [Singapore](/coding-classes-in-singapore), [Australia](/coding-classes-in-australia), [Germany](/coding-classes-in-germany), [Sweden](/coding-classes-in-sweden), [Switzerland](/coding-classes-in-switzerland), [Ireland](/coding-classes-in-ireland) and [New Zealand](/coding-classes-in-new-zealand).
+The base fee is the same. Different currencies and a regional cost adjustment apply, for example, US-zone classes are taught by tutors who can deliver in a US-friendly time window, which costs more. We do not "charge more in dollars because we can." If a US parent and an Indian parent compared a like-for-like Saturday IST class, the INR amount would be identical. We made this transparent on purpose. Country-specific details are on [USA](/coding-classes-in-united-states), [UK](/coding-classes-in-united-kingdom), [Canada](/coding-classes-in-canada), [UAE](/coding-classes-in-uae), [Singapore](/coding-classes-in-singapore), [Australia](/coding-classes-in-australia), [Germany](/coding-classes-in-germany), [Sweden](/coding-classes-in-sweden), [Switzerland](/coding-classes-in-switzerland), [Ireland](/coding-classes-in-ireland) and [New Zealand](/coding-classes-in-new-zealand).
 
 What is included in the fee?
 
@@ -103,19 +99,19 @@ Live online classes (small batch, 4–8 students), all course materials, project
 
 What about GST and taxes?
 
-For Indian invoicing, the calculator shows the all-inclusive fee — GST is already included in the number you see. For international invoicing, the calculator shows the pre-tax amount; tax handling depends on the country of the payer and is shown at checkout. We do not surprise anyone with tax additions after the fact.
+For Indian invoicing, the calculator shows the all-inclusive fee: GST is already included in the number you see. For international invoicing, the calculator shows the pre-tax amount; tax handling depends on the country of the payer and is shown at checkout. We do not surprise anyone with tax additions after the fact.
 
 Do you offer monthly, quarterly or annual plans?
 
-All three. Monthly is the default and the most flexible. Quarterly gives you a 5% discount on the cumulative fee. Annual gives 12%. There is no penalty for switching plans during the engagement — most families start monthly and move to quarterly after the first two months. We will never auto-renew a card without explicit permission, no matter which plan you pick.
+All three. Monthly is the default and the most flexible. Quarterly gives you a 5% discount on the cumulative fee. Annual gives 12%. There is no penalty for switching plans during the engagement. Most families start monthly and move to quarterly after the first two months. We will never auto-renew a card without explicit permission, no matter which plan you pick.
 
 What is the refund policy?
 
-Full refund inside the first 14 days. Pro-rated refund up to the end of week four. After that, you can pause and resume within twelve months without paying again — or transfer the credit to a sibling or family member. Full policy in plain English at [our refund page](/refund). We have honoured every refund request to date because that is how we want to be remembered if you decide we are not the right fit.
+Full refund inside the first 14 days. Pro-rated refund up to the end of week four. After that, you can pause and resume within twelve months without paying again, or transfer the credit to a sibling or family member. Full policy in plain English at [our refund page](/refund). We have honoured every refund request to date because that is how we want to be remembered if you decide we are not the right fit.
 
 Will someone call me?
 
-Only if you ask. The fee on this page is the real fee. You can sign up directly from here. If you want a 25-minute orientation with a senior mentor first, you can [book a free demo](/book-demo) — no sales pressure. We do not have a sales call centre.
+Only if you ask. The fee on this page is the real fee. You can sign up directly from here. If you want a 25-minute orientation with a senior mentor first, you can [book a free demo](/book-demo), no sales pressure. We do not have a sales call centre.
 
 ## Related pages worth visiting
 

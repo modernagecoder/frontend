@@ -67,7 +67,7 @@
       },
       {
         "type": "paragraph",
-        "text": "<strong>Example:</strong> When you divide 17 by 5, regular division gives you 3.4. Floor division gives you just 3—the largest whole number that doesn't exceed the actual result."
+        "text": "<strong>Example:</strong> When you divide 17 by 5, regular division gives you 3.4. Floor division gives you just 3, the largest whole number that doesn't exceed the actual result."
       },
       {
         "type": "paragraph",
@@ -221,7 +221,7 @@
       },
       {
         "type": "paragraph",
-        "text": "With positive numbers, floor division behaves intuitively—it simply rounds down to the nearest whole number."
+        "text": "With positive numbers, floor division behaves intuitively. It simply rounds down to the nearest whole number."
       },
       {
         "type": "code",
@@ -392,7 +392,7 @@
         "style": "unordered",
         "items": [
           "<strong>Item distribution:</strong> Splitting items into equal groups, determining how many complete sets you can make.",
-          "<strong>Unit conversions:</strong> Converting seconds to hours, cents to dollars, bytes to kilobytes—any conversion requiring whole units.",
+          "<strong>Unit conversions:</strong> Converting seconds to hours, cents to dollars, bytes to kilobytes, any conversion requiring whole units.",
           "<strong>Array/grid calculations:</strong> Finding row and column positions in 2D arrays or game boards.",
           "<strong>Pagination:</strong> Calculating pages needed to display items, determining current page from item index.",
           "<strong>Game development:</strong> Tile positions in grid-based games, score calculations, level progression.",
@@ -552,7 +552,7 @@
       },
       {
         "type": "paragraph",
-        "text": "Understanding the difference between floor division and regular division prevents common bugs and helps you choose the right operator for each situation. Practice with real-world examples—try converting seconds to hours/minutes, distributing items equally, or calculating page numbers to master floor division in your Python programs."
+        "text": "Understanding the difference between floor division and regular division prevents common bugs and helps you choose the right operator for each situation. Practice with real-world examples. Try converting seconds to hours/minutes, distributing items equally, or calculating page numbers to master floor division in your Python programs."
       },
       {
         "type": "heading",

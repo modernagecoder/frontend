@@ -44,11 +44,11 @@
       },
       {
         "type": "paragraph",
-        "text": "Picture this: You're working on a cool Python project—maybe a simple game or a chatbot. Everything's going great until you need to find that one file you wrote last week. You open your project folder and... chaos. Files everywhere. test.py, test2.py, final.py, final_FINAL.py. Sound familiar?"
+        "text": "Picture this: You're working on a cool Python project, maybe a simple game or a chatbot. Everything's going great until you need to find that one file you wrote last week. You open your project folder and... chaos. Files everywhere. test.py, test2.py, final.py, final_FINAL.py. Sound familiar?"
       },
       {
         "type": "paragraph",
-        "text": "If you've ever felt lost in your own code, you're not alone. File organization in Python isn't just about being neat—it's about making your life easier. When your files are organized, you can find what you need quickly, avoid errors, and even collaborate with others without confusion."
+        "text": "If you've ever felt lost in your own code, you're not alone. File organization in Python isn't just about being neat. It's about making your life easier. When your files are organized, you can find what you need quickly, avoid errors, and even collaborate with others without confusion."
       },
       {
         "type": "paragraph",
@@ -78,11 +78,11 @@
       },
       {
         "type": "paragraph",
-        "text": "<strong>You build good habits early.</strong> Professional developers organize their code this way. Starting now means you're already thinking like a pro—something that's especially important as you explore <a href='https://learn.modernagecoders.com/blog/best-programming-languages-college-students-2026' target='_blank' rel='noopener noreferrer'>different programming languages</a> throughout your coding journey."
+        "text": "<strong>You build good habits early.</strong> Professional developers organize their code this way. Starting now means you're already thinking like a pro, something that's especially important as you explore <a href='https://learn.modernagecoders.com/blog/best-programming-languages-college-students-2026' target='_blank' rel='noopener noreferrer'>different programming languages</a> throughout your coding journey."
       },
       {
         "type": "paragraph",
-        "text": "<strong>You can work with others.</strong> If someone else looks at your project—a teacher, friend, or future collaborator—they'll actually understand what's going on."
+        "text": "<strong>You can work with others.</strong> If someone else looks at your project, a teacher, friend, or future collaborator, they'll actually understand what's going on."
       },
       {
         "type": "paragraph",
@@ -104,7 +104,7 @@
       },
       {
         "type": "paragraph",
-        "text": "A <strong>package</strong> is a folder that contains multiple modules. Think of it like a toolbox—the toolbox (package) holds different tools (modules) that work together."
+        "text": "A <strong>package</strong> is a folder that contains multiple modules. Think of it like a toolbox, the toolbox (package) holds different tools (modules) that work together."
       },
       {
         "type": "paragraph",
@@ -112,7 +112,7 @@
       },
       {
         "type": "paragraph",
-        "text": "When you write something like import my_module, Python searches for that file in specific places. It looks in your current directory, then in folders listed in something called the Python path. Understanding this helps you organize files in a way that Python can actually find and use them—a concept that becomes even more important when you start <a href='https://learn.modernagecoders.com/blog/how-college-students-build-real-world-projects-while-studying' target='_blank' rel='noopener noreferrer'>building real-world projects</a>."
+        "text": "When you write something like import my_module, Python searches for that file in specific places. It looks in your current directory, then in folders listed in something called the Python path. Understanding this helps you organize files in a way that Python can actually find and use them, a concept that becomes even more important when you start <a href='https://learn.modernagecoders.com/blog/how-college-students-build-real-world-projects-while-studying' target='_blank' rel='noopener noreferrer'>building real-world projects</a>."
       },
       {
         "type": "heading",
@@ -131,7 +131,7 @@
       },
       {
         "type": "paragraph",
-        "text": "Name your files so anyone (including future you) knows what they do. Use lowercase letters with underscores between words—this style is called snake_case, and it's the Python way."
+        "text": "Name your files so anyone (including future you) knows what they do. Use lowercase letters with underscores between words. This style is called snake_case, and it's the Python way."
       },
       {
         "type": "paragraph",
@@ -175,7 +175,7 @@
       },
       {
         "type": "paragraph",
-        "text": "Think of it like organizing apps on your phone—you might have a folder for games, another for social media, and another for school apps. Same idea!"
+        "text": "Think of it like organizing apps on your phone. You might have a folder for games, another for social media, and another for school apps. Same idea!"
       },
       {
         "type": "heading",
@@ -229,7 +229,7 @@
       },
       {
         "type": "paragraph",
-        "text": "<strong>main.py</strong> is your starting point—the file you run to start your program. Think of it as the front door to your project."
+        "text": "<strong>main.py</strong> is your starting point, the file you run to start your program. Think of it as the front door to your project."
       },
       {
         "type": "paragraph",
@@ -242,7 +242,7 @@
       },
       {
         "type": "paragraph",
-        "text": "<strong>data/</strong> stores any files your program needs to read—text files, CSV files, images, whatever. Keeping data separate from code keeps things clean."
+        "text": "<strong>data/</strong> stores any files your program needs to read, text files, CSV files, images, whatever. Keeping data separate from code keeps things clean."
       },
       {
         "type": "paragraph",
@@ -254,7 +254,7 @@
       },
       {
         "type": "paragraph",
-        "text": "As your projects grow, you might add more folders—maybe images/ for graphics, docs/ for documentation, or config/ for settings files. The key is that everything has a logical home."
+        "text": "As your projects grow, you might add more folders, maybe images/ for graphics, docs/ for documentation, or config/ for settings files. The key is that everything has a logical home."
       },
       {
         "type": "heading",
@@ -302,11 +302,11 @@
       },
       {
         "type": "paragraph",
-        "text": "<strong>Use Git from day one.</strong> Git is version control—it tracks changes to your files over time. Even if you're working alone, Git helps you experiment without fear of breaking everything. Plus, you'll need it eventually, so why not start now?"
+        "text": "<strong>Use Git from day one.</strong> Git is version control. It tracks changes to your files over time. Even if you're working alone, Git helps you experiment without fear of breaking everything. Plus, you'll need it eventually, so why not start now?"
       },
       {
         "type": "paragraph",
-        "text": "<strong>Create a .gitignore file.</strong> This tells Git which files to ignore (like temporary files Python creates). You can find Python .gitignore templates online—just copy one into your project."
+        "text": "<strong>Create a .gitignore file.</strong> This tells Git which files to ignore (like temporary files Python creates). You can find Python .gitignore templates online, just copy one into your project."
       },
       {
         "type": "paragraph",
@@ -336,7 +336,7 @@
       },
       {
         "type": "paragraph",
-        "text": "So here's your challenge: Take your next Python project—or even go back to an old one—and apply these principles. Create those folders. Rename those files. Add a README. You'll be amazed at how much clearer everything becomes."
+        "text": "So here's your challenge: Take your next Python project, or even go back to an old one, and apply these principles. Create those folders. Rename those files. Add a README. You'll be amazed at how much clearer everything becomes."
       },
       {
         "type": "paragraph",

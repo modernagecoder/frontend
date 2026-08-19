@@ -8,7 +8,7 @@ source: src/pages/coding-classes-in-ireland.html
 
 ### Request a callback
 
-Leave your number — a mentor in GMT/IST will call back within 3 hours.
+Leave your number, a mentor in GMT/IST will call back within 3 hours.
 
 #### We'll ring you shortly!
 
@@ -16,25 +16,25 @@ Expect a call within 3 hours, GMT/IST.
 
 Ireland · Online School · +353 · GMT / IST
 
-# Real coding & AI for Irish students — from primary, through Transition Year, to Leaving Cert and beyond.
+# Real coding & AI for Irish students: from primary, through Transition Year, to Leaving Cert and beyond.
 
-Live 1:1 mentorship in **Python**, modern web and **agentic AI** for students right across the 26 counties — aligned with the **Junior Cycle Coding short course**, the **Transition Year (TY) coding module**, the **Leaving Certificate Computer Science specification** (Higher & Ordinary, since 2018), and the algorithmic depth that **TCD, UCD, UCC, DCU, UL, NUI Galway, Maynooth** and **TU Dublin** actually evaluate. **USD 150 a month**, eight live sessions, two per week, cancel anytime.
+Live 1:1 mentorship in **Python**, modern web and **agentic AI** for students right across the 26 counties, aligned with the **Junior Cycle Coding short course**, the **Transition Year (TY) coding module**, the **Leaving Certificate Computer Science specification** (Higher & Ordinary, since 2018), and the algorithmic depth that **TCD, UCD, UCC, DCU, UL, NUI Galway, Maynooth** and **TU Dublin** actually evaluate. **USD 150 a month**, eight live sessions, two per week, cancel anytime.
 
-See the JC → LC pathway"Ríomhchlárú agus intleacht shaorga don aos óg ar fud na hÉireann."Gaeilge-friendly. Several mentors can structure sessions for Gaelscoil / Gaelcholáiste students whose primary instruction is through Irish — code itself stays in English (Python keywords are English) but we accommodate bilingual learners on request.The Irish pathway, one diagram
+See the JC → LC pathway"Ríomhchlárú agus intleacht shaorga don aos óg ar fud na hÉireann."Gaeilge-friendly. Several mentors can structure sessions for Gaelscoil / Gaelcholáiste students whose primary instruction is through Irish, code itself stays in English (Python keywords are English) but we accommodate bilingual learners on request.The Irish pathway, one diagram
 
-## From primary, through Junior Cycle, Transition Year and Leaving Cert — to TCD / UCD / UCC / DCU.
+## From primary, through Junior Cycle, Transition Year and Leaving Cert: to TCD / UCD / UCC / DCU.
 
 Ireland's secondary system has a unique structure that doesn't quite match the UK or US. Five years of post-primary (with an optional Transition Year in the middle), then the Leaving Certificate determines CAO points which determine third-level entry. Here's what each step demands and where we add value.
 
-AGES 6 – 12
+AGES 6: 12
 
-#### Primary · 1st – 6th class
+#### Primary · 1st: 6th class
 
 Computational thinking foundations · Scratch / Python intro · logic-and-puzzle work that quietly supports primary maths.
 
-AGES 12 – 15
+AGES 12: 15
 
-#### Junior Cycle · 1st – 3rd year
+#### Junior Cycle · 1st: 3rd year
 
 Junior Cycle Coding short course · Python · web basics · classroom-based assessments (CBAs). Strong CBA work transfers to LC CS later.
 
@@ -42,11 +42,11 @@ AGE ~16
 
 #### Transition Year · 4th year
 
-The deep-dive window. TY is an optional gap year before LC. Many of our best Irish outcomes are built here — zero pressure, maximum project depth.
+The deep-dive window. TY is an optional gap year before LC. Many of our best Irish outcomes are built here, zero pressure, maximum project depth.
 
-AGES 16 – 18
+AGES 16, 18
 
-#### Senior Cycle · 5th – 6th year
+#### Senior Cycle · 5th: 6th year
 
 Leaving Cert Computer Science (Higher or Ordinary), LC Higher Maths. Computational Thinking project (30%) plus the State Examinations Commission written paper.
 
@@ -56,19 +56,19 @@ AGES 18+
 
 TCD CS · UCD CS Engineering · UCC CS · DCU CS · UL CSIS · NUIG CS · Maynooth CS · TU Dublin CS. CAO points decide it.
 
-**Where Modern Age Coders adds value:** not by replacing the Irish school system — Irish schools, particularly the strong ones, do the academic work well — but by adding the 1:1 depth, real working projects on GitHub, the Computational Thinking project polish, and the CAO-points buffer that comes from genuinely strong LC Computer Science and LC Higher Maths grades.
+**Where Modern Age Coders adds value:** not by replacing the Irish school system, Irish schools, particularly the strong ones, do the academic work well, but by adding the 1:1 depth, real working projects on GitHub, the Computational Thinking project polish, and the CAO-points buffer that comes from genuinely strong LC Computer Science and LC Higher Maths grades.
 
-**4.9 / 5**From 980 Irish parent & student reviews**GMT/IST**Same time zone as London — UK-trained & India-trained mentors**LC CS**Direct alignment with the 2018 LC Computer Science specification**USD 150**Per month · no VAT · cancel anytimeChoose your child's track
+**4.9 / 5**From 980 Irish parent & student reviews**GMT/IST**Same time zone as London: UK-trained & India-trained mentors**LC CS**Direct alignment with the 2018 LC Computer Science specification**USD 150**Per month · no VAT · cancel anytimeChoose your child's track
 
-## Pick the course that matches their year — book a trial in under 30 seconds.
+## Pick the course that matches their year: book a trial in under 30 seconds.
 
 Every course runs as live 1:1 with a mentor matched to your child's exact year (1st class primary all the way to LC6). Two 45-minute sessions per week. USD 150 per month for 1:1, or USD 100 for small-group cohort.
 
-[1st – 3rd class · Primary Little Coders — Block to Python Scratch & ScratchJr, then we bridge to real Python by month four. Play and animation-led. Strengthens primary-school mathematical thinking quietly. USD 150 / month · 1:1 · 8 sessions](/courses/coding/kids)[4th – 6th class · Primary Python Foundations + Micro:bit Real Python, real keyboard typing, real GitHub. Optional physical-computing add-on with BBC micro:bit so the code controls something they can see. USD 150 / month · 1:1 · 8 sessions](/courses/coding/kids)[1st – 3rd year · Junior Cycle Junior Cycle Coding short course Direct alignment with the NCCA Junior Cycle Coding short course. Python, web fundamentals, classroom-based assessment (CBA) preparation that scores. USD 150 / month · 1:1 · 8 sessions](/courses/coding/teens)[Transition Year · 4th year TY Coding Deep-Dive Our most-recommended Irish track. TY students have the time, the headspace, and the lack of LC pressure to build a serious portfolio. Many of our advanced senior-cycle outcomes start here. USD 150 / month · 1:1 · 8 sessions](/courses/coding/teens)[5th – 6th year · LC CS Higher Leaving Cert Computer Science (Higher) Full Higher Level coverage of the 2018 LCCS specification. Practices & Principles, Core Concepts, Computer Science in Practice. Past-paper drills + the 30% Computational Thinking project guided start-to-finish. USD 150 / month · 1:1 · 8 sessions](/courses/coding/teens)[5th – 6th year · LC CS Ordinary Leaving Cert Computer Science (Ordinary) For students taking LC CS at Ordinary Level — we don't push Higher when Ordinary is the right call. The full Ordinary specification, plus solid project guidance. USD 150 / month · 1:1 · 8 sessions](/courses/coding/teens)[5th – 6th year · LC Higher Maths LC Higher Maths support Calculus, algebra, probability, the LC Higher Maths Project Maths Paper 1 & 2. Many Irish students who want CS at TCD/UCD also need a strong Higher Maths grade — we support both. USD 150 / month · 1:1 · 8 sessions](/courses/coding/teens)[Third level / Adult Agentic AI for Working Pros Python · SQL · LangChain · LangGraph · CrewAI · evaluations · production deployment. The exact stack Stripe Dublin, Intercom, Workday, Salesforce and the IDA-supported Irish startup ecosystem recruit for. USD 150 / month · 1:1 · 8 sessions](/courses/coding/college)
+[1st, 3rd class · Primary Little Coders, Block to Python Scratch & ScratchJr, then we bridge to real Python by month four. Play and animation-led. Strengthens primary-school mathematical thinking quietly. USD 150 / month · 1:1 · 8 sessions](/courses/coding/kids)[4th: 6th class · Primary Python Foundations + Micro:bit Real Python, real keyboard typing, real GitHub. Optional physical-computing add-on with BBC micro:bit so the code controls something they can see. USD 150 / month · 1:1 · 8 sessions](/courses/coding/kids)[1st: 3rd year · Junior Cycle Junior Cycle Coding short course Direct alignment with the NCCA Junior Cycle Coding short course. Python, web fundamentals, classroom-based assessment (CBA) preparation that scores. USD 150 / month · 1:1 · 8 sessions](/courses/coding/teens)[Transition Year · 4th year TY Coding Deep-Dive Our most-recommended Irish track. TY students have the time, the headspace, and the lack of LC pressure to build a serious portfolio. Many of our advanced senior-cycle outcomes start here. USD 150 / month · 1:1 · 8 sessions](/courses/coding/teens)[5th: 6th year · LC CS Higher Leaving Cert Computer Science (Higher) Full Higher Level coverage of the 2018 LCCS specification. Practices & Principles, Core Concepts, Computer Science in Practice. Past-paper drills + the 30% Computational Thinking project guided start-to-finish. USD 150 / month · 1:1 · 8 sessions](/courses/coding/teens)[5th: 6th year · LC CS Ordinary Leaving Cert Computer Science (Ordinary) For students taking LC CS at Ordinary Level, we don't push Higher when Ordinary is the right call. The full Ordinary specification, plus solid project guidance. USD 150 / month · 1:1 · 8 sessions](/courses/coding/teens)[5th: 6th year · LC Higher Maths LC Higher Maths support Calculus, algebra, probability, the LC Higher Maths Project Maths Paper 1 & 2. Many Irish students who want CS at TCD/UCD also need a strong Higher Maths grade. We support both. USD 150 / month · 1:1 · 8 sessions](/courses/coding/teens)[Third level / Adult Agentic AI for Working Pros Python · SQL · LangChain · LangGraph · CrewAI · evaluations · production deployment. The exact stack Stripe Dublin, Intercom, Workday, Salesforce and the IDA-supported Irish startup ecosystem recruit for. USD 150 / month · 1:1 · 8 sessions](/courses/coding/college)
 
 International schools in Ireland run IB, British and American curricula. These live courses prepare those exams directly.
 
-[IB Maths](/courses/ib-mathematics-aa-ai-masterclass)[A-Level Maths](/courses/a-level-maths-course-pure-mechanics-statistics)[AP Computer Science A](/courses/ap-computer-science-a-java-exam-prep-course)[IGCSE Maths](/courses/igcse-mathematics-mastery)[AP Statistics](/courses/ap-statistics-maths-exam-prep-course)Transition Year — the secret weapon
+[IB Maths](/courses/ib-mathematics-aa-ai-masterclass)[A-Level Maths](/courses/a-level-maths-course-pure-mechanics-statistics)[AP Computer Science A](/courses/ap-computer-science-a-java-exam-prep-course)[IGCSE Maths](/courses/igcse-mathematics-mastery)[AP Statistics](/courses/ap-statistics-maths-exam-prep-course)Transition Year, the secret weapon
 
 ## Why Irish families who invest in coding during TY win the Leaving Cert game.
 
@@ -78,11 +78,11 @@ Best-fit window · 4th year · age ~16
 
 Most Irish families don't realise how unique TY is as a coding-development window. Students aren't grinding for the Leaving Cert yet. They have a lighter timetable. They get a 2–3 week work-experience block. They're often more emotionally settled than at any other age in secondary.
 
-That makes TY the single best window to build a real coding & AI portfolio. By the time they hit 5th year, they're carrying a working GitHub repo, real Python intuition, and a major project that converts directly into LC Computer Science strength — particularly for the 30% Computational Thinking project.
+That makes TY the single best window to build a real coding & AI portfolio. By the time they hit 5th year, they're carrying a working GitHub repo, real Python intuition, and a major project that converts directly into LC Computer Science strength, particularly for the 30% Computational Thinking project.
 
 Our TY deep-dive students typically come out with: 2–3 substantial Python projects, a working web app deployed live, a basic agentic-AI tool they can demo to family, and (frankly) more confidence than 90% of their peers.
 
-**~62%**of Irish post-primary students take TY (varies by school)**2 – 3**full projects shipped to GitHub during a TY year with us**+30 – 60**CAO-points uplift typical from a strong TY coding foundation, in our experience**H1**The realistic LC Computer Science target for serious TY-prepared studentsMy child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative and listen to our suggestions. Overall, I am very happy with the class.**Sonam Oswal** · Parent of Dhairya · Verified Google reviewWhat Irish students actually ship
+**~62%**of Irish post-primary students take TY (varies by school)**2, 3**full projects shipped to GitHub during a TY year with us**+30, 60**CAO-points uplift typical from a strong TY coding foundation, in our experience**H1**The realistic LC Computer Science target for serious TY-prepared studentsMy child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative and listen to our suggestions. Overall, I am very happy with the class.**Sonam Oswal** · Parent of Dhairya · Verified Google reviewWhat Irish students actually ship
 
 ## Not slides. Not certificates. Real working software our IE students built.
 
@@ -96,7 +96,7 @@ Python · BeautifulSoup · Google Calendar API · WhatsApp Web automationTY · M
 
 ### Translink Northern Ireland bus-route AI agent
 
-A LangChain agent that helps Donegal-based families cross the border to Derry — pulls Translink NI route data, plans the optimal bus journey, explains alternatives in plain English. Submitted as her TY innovation project.
+A LangChain agent that helps Donegal-based families cross the border to Derry, pulls Translink NI route data, plans the optimal bus journey, explains alternatives in plain English. Submitted as her TY innovation project.
 
 Python · LangChain · Translink API · Streamlit5th year · LC CS Higher · Galway
 
@@ -126,7 +126,7 @@ Python · HSE Open Data · CrewAI · OpenAI · Tableau PublicWho teaches your ch
 
 ## A real mentor in GMT/IST, every single class.
 
-Every Modern Age Coders Ireland family is matched to a single named mentor. No platform-only, no chatbot-only, no rotating "hub teachers". The same mentor stays with your child for as long as it's working — typically 12 to 24 months. Several mentors are former post-primary teachers themselves.
+Every Modern Age Coders Ireland family is matched to a single named mentor. No platform-only, no chatbot-only, no rotating "hub teachers". The same mentor stays with your child for as long as it's working, typically 12 to 24 months. Several mentors are former post-primary teachers themselves.
 
 SO
 
@@ -136,7 +136,7 @@ LC Computer Science specialist · Ex-Belvedere College
 
 11 years teaching post-primary Computer Science. Was on the 2018 LCCS specification rollout consultation. Knows the State Examinations Commission marking schemes inside out.
 
-Active GMT 14:00 – 21:00AM
+Active GMT 14:00: 21:00AM
 
 ### Aoife M.
 
@@ -144,15 +144,15 @@ Transition Year specialist · Ex-Loreto Foxrock
 
 Six years running TY coding modules at a top South-Dublin girls' school. Specialises in the TY deep-dive: turning 16-year-olds with no coding background into confident project-shippers in 9 months.
 
-Active GMT 13:00 – 19:00RM
+Active GMT 13:00: 19:00RM
 
 ### Rajesh M.
 
 Junior Cycle Coding short course + CBA
 
-Indian-based mentor with 8 years of UK Computing teaching (KS3 / GCSE). Knows the Junior Cycle short course specification and CBA assessment style. Strong with the 1st – 3rd year cohort.
+Indian-based mentor with 8 years of UK Computing teaching (KS3 / GCSE). Knows the Junior Cycle short course specification and CBA assessment style. Strong with the 1st, 3rd year cohort.
 
-Active GMT 15:00 – 21:00SK
+Active GMT 15:00, 21:00SK
 
 ### Síle K.
 
@@ -160,7 +160,7 @@ Gaelscoil / Gaelcholáiste support · Cork
 
 Bilingual Irish-English mentor, ex-Coláiste Daibhéid (Cork's Gaelcholáiste). Specifically supports Gaelscoil-educated students transitioning to English-medium LC Computer Science.
 
-Active GMT 14:00 – 20:00SN
+Active GMT 14:00: 20:00SN
 
 ### Suresh N.
 
@@ -168,7 +168,7 @@ Agentic AI for adults · Ex-Stripe engineering (London)
 
 4 years at Stripe in the platform team. Now mentors Dublin-based working professionals moving into agentic AI / LLM-engineering roles. Lots of ex-Stripe Dublin and ex-Intercom referrals.
 
-Active GMT 17:00 – 22:00 + SatNM
+Active GMT 17:00: 22:00 + SatNM
 
 ### Niamh McC.
 
@@ -176,7 +176,7 @@ Girls-only cohort lead · TCD CS MSc
 
 Trinity Computer Science Master's. Leads our girls-only Ireland cohort. Particularly strong with the Junior Cycle → TY transition for girls.
 
-Active GMT 15:00 – 20:00Also at Modern Age Coders
+Active GMT 15:00: 20:00Also at Modern Age Coders
 
 ## Maths, taught with the same depth.
 
@@ -209,7 +209,7 @@ USD150/monthBilled in USD
 
 ### Small-Group Cohort
 
-3 – 5 learners, same year, same curriculum.
+3: 5 learners, same year, same curriculum.
 
 USD100/monthBilled in USD
 
@@ -223,21 +223,21 @@ We bill in **USD**, by Visa / Mastercard, SEPA direct debit, or international ba
 
 CAO-points awareness
 
-## Where the points buffer matters — Irish CS course thresholds, plain and honest.
+## Where the points buffer matters: Irish CS course thresholds, plain and honest.
 
 ### Recent CAO points (Round-1) for Irish Computer Science degrees
 
-The CAO points system is unique to Ireland and tells you exactly what Leaving Cert grade-combination you need for each course. Points fluctuate every year based on demand and supply — these are recent typical ranges. We aim to position students *above* their target so the buffer is real.
+The CAO points system is unique to Ireland and tells you exactly what Leaving Cert grade-combination you need for each course. Points fluctuate every year based on demand and supply, these are recent typical ranges. We aim to position students *above* their target so the buffer is real.
 
-University & courseRecent pointsTrendCS-specific?TCDComputer Science TR033580 – 625Stable / high demandYesUCDComputer Science DN201 / Eng DN150555 – 600RisingYesUCCComputer Science CK403444 – 520SteadyYesDCUComputer Science CA117 / CA116405 – 488RisingYesULCS & Info Systems LM121 / LM113433 – 500RisingYesNUI GalwayComputer Science & IT GY350426 – 500SteadyYesMaynoothCS & Software Eng MH301 / MH302405 – 475SteadyYesTU DublinCS TU856 / TU857 / TU858320 – 425AccessibleYes
+University & courseRecent pointsTrendCS-specific?TCDComputer Science TR033580, 625Stable / high demandYesUCDComputer Science DN201 / Eng DN150555, 600RisingYesUCCComputer Science CK403444, 520SteadyYesDCUComputer Science CA117 / CA116405, 488RisingYesULCS & Info Systems LM121 / LM113433, 500RisingYesNUI GalwayComputer Science & IT GY350426, 500SteadyYesMaynoothCS & Software Eng MH301 / MH302405, 475SteadyYesTU DublinCS TU856 / TU857 / TU858320, 425AccessibleYes
 
 Points figures are illustrative ranges drawn from recent CAO Round-1 outcomes; always verify the current year's figures on **cao.ie**. We use these as planning anchors, not promises.
 
-Irish universities — at a glance
+Irish universities, at a glance
 
 ## Where our Irish students go for Computer Science, Engineering and AI.
 
-Ireland's eight major universities cover the full range — from Trinity's QS-top-100-globally CS program down to highly accessible TU Dublin pathways. Many of our students also target the UK Russell Group, US Ivy League, or EU programmes in the Netherlands and Germany.
+Ireland's eight major universities cover the full range, from Trinity's QS-top-100-globally CS program down to highly accessible TU Dublin pathways. Many of our students also target the UK Russell Group, US Ivy League, or EU programmes in the Netherlands and Germany.
 
 #### Trinity College Dublin (TCD)
 
@@ -267,7 +267,7 @@ One of Ireland's most industry-coupled CS programs. Strong in data science, mach
 
 LIMERICK
 
-CSIS — Computer Science & Information Systems. Strong co-op programme; UL students often graduate with 8 months of real industry experience.
+CSIS: Computer Science & Information Systems. Strong co-op programme; UL students often graduate with 8 months of real industry experience.
 
 #### NUI Galway (Univ of Galway)
 
@@ -289,11 +289,11 @@ Technological University Dublin. Multiple CS / software / cybersec pathways. Mor
 
 Many of our Irish students also target global universities: **Cambridge, Oxford, Imperial, UCL** (UK), **MIT, Stanford, CMU, UC Berkeley** (US), **Delft, TU Eindhoven, ETH Zürich** (EU), **Waterloo, UofT, UBC** (Canada). Strong LC results, plus an articulate project portfolio, opens these doors.
 
-Where this leads — Irish tech
+Where this leads: Irish tech
 
-## Silicon Docks and beyond — where our advanced Irish students work.
+## Silicon Docks and beyond: where our advanced Irish students work.
 
-Ireland is one of the world's most concentrated tech ecosystems. Stripe (HQ in Dublin), Intercom (founded Dublin), Workday EMEA HQ, Google EMEA, Meta EMEA, LinkedIn EMEA, Microsoft EMEA, Apple Cork, Salesforce, Accenture — they all hire aggressively from Irish CS graduates. Plus the homegrown startups supported by IDA Ireland and Enterprise Ireland.
+Ireland is one of the world's most concentrated tech ecosystems. Stripe (HQ in Dublin), Intercom (founded Dublin), Workday EMEA HQ, Google EMEA, Meta EMEA, LinkedIn EMEA, Microsoft EMEA, Apple Cork, Salesforce, Accenture. They all hire aggressively from Irish CS graduates. Plus the homegrown startups supported by IDA Ireland and Enterprise Ireland.
 
 DUBLIN · GLOBAL HQ
 
@@ -343,7 +343,7 @@ CORK · APPLE EMEA
 
 Apple's largest non-US site. ~6,000 employees. Apple's first international office (since 1980). Operations, engineering, customer.
 
-Plus **Salesforce**, **Accenture**, **Mastercard**, **Squarespace**, **Riot Games Dublin**, **EA Galway**, **Hubspot Dublin**, **Slack EMEA**, **Zendesk**, **Twilio EMEA**, **Personio**, plus the homegrown **SilverCloud**, **Wayflyer**, **Flipdish**, **LetsGetChecked** ecosystem — supported by **IDA Ireland** and **Enterprise Ireland**.
+Plus **Salesforce**, **Accenture**, **Mastercard**, **Squarespace**, **Riot Games Dublin**, **EA Galway**, **Hubspot Dublin**, **Slack EMEA**, **Zendesk**, **Twilio EMEA**, **Personio**, plus the homegrown **SilverCloud**, **Wayflyer**, **Flipdish**, **LetsGetChecked** ecosystem, supported by **IDA Ireland** and **Enterprise Ireland**.
 
 Your first month, week by week
 
@@ -353,9 +353,9 @@ Day 0
 
 ### The callback
 
-You leave your **+353** number on the form. A mentor working GMT/IST hours calls within 3 hours — usually within 60 minutes during 16:00 – 21:00. No salesperson, no script. We ask 4 things: your child's year & school, the curriculum (Junior Cycle / TY / LC), what they've tried, what you want from the next 6 months.
+You leave your **+353** number on the form. A mentor working GMT/IST hours calls within 3 hours, usually within 60 minutes during 16:00, 21:00. No salesperson, no script. We ask 4 things: your child's year & school, the curriculum (Junior Cycle / TY / LC), what they've tried, what you want from the next 6 months.
 
-Day 1 – 2
+Day 1: 2
 
 ### Mentor match
 
@@ -371,19 +371,19 @@ Week 1
 
 ### Setup & first project
 
-Mentor sets up the dev environment on your child's home laptop (VS Code, Python, GitHub account). First "real" project is shipped end of week 1 — usually a small Python game or a working Flask webpage. We send you the GitHub link.
+Mentor sets up the dev environment on your child's home laptop (VS Code, Python, GitHub account). First "real" project is shipped end of week 1, usually a small Python game or a working Flask webpage. We send you the GitHub link.
 
-Week 2 – 3
+Week 2, 3
 
 ### Curriculum lock-in
 
-The mentor finalises the 6-month learning plan — mapped explicitly to your child's school work (JC Coding short course progression, TY innovation project goal, LCCS specification coverage). You can challenge or change anything.
+The mentor finalises the 6-month learning plan, mapped explicitly to your child's school work (JC Coding short course progression, TY innovation project goal, LCCS specification coverage). You can challenge or change anything.
 
 Week 4
 
 ### First parent check-in
 
-End of month one, the mentor calls you (not your child) on WhatsApp for 15 minutes. You hear what's working, what isn't, what to expect month 2. If month 1 wasn't great, this is where we say so honestly and offer a different mentor — free.
+End of month one, the mentor calls you (not your child) on WhatsApp for 15 minutes. You hear what's working, what isn't, what to expect month 2. If month 1 wasn't great, this is where we say so honestly and offer a different mentor, free.
 
 What families say · verified reviews
 
@@ -425,9 +425,9 @@ What we promise · and what we don't
 - Run the free trial as a real lesson, not a sales demo
 - Send you a written 6-month outcome plan after the trial
 - Coordinate around Junior Cycle final exams, TY work-experience, LC mocks and the State Examinations Commission LC papers
-- Be honest if your child needs a different mentor — and switch them, free
-- Bill in USD on the date you joined — never on the 1st-of-month surprise
-- Stop billing immediately on cancellation — no notice period, no last-month trick
+- Be honest if your child needs a different mentor, and switch them, free
+- Bill in USD on the date you joined, never on the 1st-of-month surprise
+- Stop billing immediately on cancellation, no notice period, no last-month trick
 
 ### We won't
 
@@ -437,37 +437,37 @@ What we promise · and what we don't
 - Sell you "platinum / gold / diamond" upsell packages
 - Auto-renew you onto a 12-month plan you didn't agree to
 - Pressure-call you if you don't continue after the trial
-- Quietly add Irish VAT — there is none on our service for Irish families
+- Quietly add Irish VAT. There is none on our service for Irish families
 
 Inside a typical class
 
 ## A real 45-minute Modern Age Coders Ireland session, step by step.
 
-Minute 0 – 3
+Minute 0: 3
 
 ### Greeting and last-session check
 
-Mentor and student greet on Zoom. 2-minute recap: "What do you remember? What got stuck?" — no homework-style grilling.
+Mentor and student greet on Zoom. 2-minute recap: "What do you remember? What got stuck?", no homework-style grilling.
 
-Minute 3 – 10
+Minute 3, 10
 
 ### Concept moment
 
-Mentor introduces the one new concept — usually with an Ireland-relevant example. ("Today we're learning dictionaries by storing every county in Ireland as a key and its capital town as the value.")
+Mentor introduces the one new concept, usually with an Ireland-relevant example. ("Today we're learning dictionaries by storing every county in Ireland as a key and its capital town as the value.")
 
-Minute 10 – 35
+Minute 10: 35
 
 ### Live build
 
 Student writes real code. Mentor watches, prompts, helps debug. The mentor never types for the student.
 
-Minute 35 – 42
+Minute 35: 42
 
 ### Ship it
 
 Push to GitHub. Run the program. Sometimes screen-record a 30-second demo video for the family chat. Every session produces something tangible the student can show.
 
-Minute 42 – 45
+Minute 42: 45
 
 ### Wrap & preview
 
@@ -475,17 +475,17 @@ Mentor writes 2 lines into the session log (parents can read anytime). Previews 
 
 What a full year actually looks like
 
-## Three real 12-month plans — from 2nd-year Junior Cycle, to Transition Year deep-dive, to LC CS Higher 6th-year sprint.
+## Three real 12-month plans: from 2nd-year Junior Cycle, to Transition Year deep-dive, to LC CS Higher 6th-year sprint.
 
 Plan A
 
 ### 2nd-year Junior Cycle student · Galway · 12-month plan
 
-**Months 1–2:** Python fundamentals — variables, conditions, loops, functions. First two GitHub repos.
+**Months 1–2:** Python fundamentals, variables, conditions, loops, functions. First two GitHub repos.
  **Months 3–4:** Data structures, file I/O. First Junior Cycle CBA project draft.
  **Months 5–6:** Object-oriented Python + a working game project (snake / pong / Tkinter calculator). CBA 1 polished & submitted.
  **Months 7–8:** First webpage with HTML / CSS / JavaScript. CBA 2 conceptualised.
- **Months 9–10:** Light AI module — using an LLM API safely, prompt design.
+ **Months 9–10:** Light AI module, using an LLM API safely, prompt design.
  **Months 11–12:** Junior Cycle Final Exam revision + CBA finalising. Ready to head into TY confident.
  **Outcome:** Strong JC outcome. Real GitHub portfolio. Ready for the TY deep-dive next year.
 
@@ -493,9 +493,9 @@ Plan B
 
 ### Transition Year student · South Dublin · 12-month plan
 
-**Months 1–2:** Python intensive. Real Python from day one — no Scratch, no toys.
- **Months 3–4:** Data structures + first major Python project (their choice — game, web scraper, productivity app).
- **Months 5–6:** Full-stack web — HTML, CSS, JavaScript, Flask. First deployed Flask app on a free Render instance.
+**Months 1–2:** Python intensive. Real Python from day one, no Scratch, no toys.
+ **Months 3–4:** Data structures + first major Python project (their choice, game, web scraper, productivity app).
+ **Months 5–6:** Full-stack web, HTML, CSS, JavaScript, Flask. First deployed Flask app on a free Render instance.
  **Months 7–8:** JavaScript + React + Tailwind. Their TY innovation project starts: a real working web app deployed live.
  **Months 9–10:** Introduction to LLMs & agents. They build their first agentic-AI tool.
  **Months 11–12:** Capstone + portfolio polish. By June they have 3 substantial projects on GitHub.
@@ -503,11 +503,11 @@ Plan B
 
 Plan C
 
-### 6th-year LC Higher Computer Science · Cork · 12-month plan (Sept – June)
+### 6th-year LC Higher Computer Science · Cork · 12-month plan (Sept: June)
 
 **Months 1–2 (Sept–Oct):** LCCS Practices & Principles + Core Concepts review. Past-paper baseline.
  **Months 3–4 (Nov–Dec):** Computational Thinking project topic locked in. Begin Stage 1.
- **Month 5 (Jan):** Project build phase 1 — coding intensive.
+ **Month 5 (Jan):** Project build phase 1, coding intensive.
  **Month 6 (Feb):** LC mocks. Mock-strategy + targeted paper practice. Project paused.
  **Months 7–8 (Mar–Apr):** Project finalisation. Testing, evaluation, documentation. Submit by NCCA deadline.
  **Months 9–10 (May–early June):** Pure past-paper. SEC marking-scheme alignment. Higher-level paper strategy.
@@ -517,7 +517,7 @@ Plan C
 
 Schools we've supported in Ireland
 
-## A selection of Irish schools where our students attend — across voluntary, community, and fee-paying.
+## A selection of Irish schools where our students attend: across voluntary, community, and fee-paying.
 
 Not an endorsement by any school. These are schools where Modern Age Coders Ireland students currently study, drawn from our records.
 
@@ -527,13 +527,13 @@ Not an endorsement by any school. These are schools where Modern Age Coders Irel
 
 Leave your number. A mentor working GMT/IST will call you within 3 hours, ask 4 questions about your child's school and year, and either book a free trial or politely tell you we're not the right fit. No follow-up campaign. No spam. We've never sold a list. We never will.
 
-FAQ — Ireland-specific
+FAQ: Ireland-specific
 
 ## Twenty-six answers to the questions Irish parents (and adult learners) actually ask.
 
 Are you an Ireland-registered company?
 
-We deliver as an education-services provider registered outside Ireland, which is why no Irish VAT applies to your bill. Delivery is online-only — there is no Irish office to visit. We issue cross-border invoices in USD if you need one for accounting.
+We deliver as an education-services provider registered outside Ireland, which is why no Irish VAT applies to your bill. Delivery is online-only. There is no Irish office to visit. We issue cross-border invoices in USD if you need one for accounting.
 
 Do you align with the NCCA Junior Cycle Coding short course?
 
@@ -541,7 +541,7 @@ Yes. Direct alignment with the NCCA Junior Cycle Coding short course specificati
 
 What about the 2018 Leaving Certificate Computer Science specification?
 
-Yes — full coverage of LCCS at both Higher and Ordinary Level. Practices & Principles, Core Concepts, Computer Science in Practice. Past-paper drills against State Examinations Commission marking schemes. Guided support on the 30%-weighted Computational Thinking project.
+Yes, full coverage of LCCS at both Higher and Ordinary Level. Practices & Principles, Core Concepts, Computer Science in Practice. Past-paper drills against State Examinations Commission marking schemes. Guided support on the 30%-weighted Computational Thinking project.
 
 Will mentors support the LC Higher Maths Project Maths Paper 1 & 2?
 
@@ -549,15 +549,15 @@ Yes. Many of our Irish LC students take both LC CS and LC Higher Maths. We have 
 
 Will mentors help with Transition Year work-experience placements at a tech company?
 
-We can review the cover letter, prep the student for a Stripe / Intercom / Workday / Microsoft / Salesforce TY work-experience interview, and help shape their CV. We don't broker placements directly — that's the school's role.
+We can review the cover letter, prep the student for a Stripe / Intercom / Workday / Microsoft / Salesforce TY work-experience interview, and help shape their CV. We don't broker placements directly, that's the school's role.
 
 What about the Irish Mathematical Olympiad (IrMO)?
 
-Yes — we coach students for the IrMO. The Irish Maths Trust's IrMO selection moves through January–April; we calibrate our timetable around that schedule for serious aspirants.
+Yes, we coach students for the IrMO. The Irish Maths Trust's IrMO selection moves through January–April; we calibrate our timetable around that schedule for serious aspirants.
 
 Do you support the BIO (British Informatics Olympiad)?
 
-Yes — many strong Irish students participate in BIO since there's no Irish Informatics Olympiad equivalent. We run dedicated algorithmic prep with mentors who have BIO-level competitive-programming experience.
+Yes, many strong Irish students participate in BIO since there's no Irish Informatics Olympiad equivalent. We run dedicated algorithmic prep with mentors who have BIO-level competitive-programming experience.
 
 What time zone do mentors work in?
 
@@ -569,7 +569,7 @@ Yes. Our LC specialists work directly from SEC marking schemes for past LC CS an
 
 What does it cost in EUR?
 
-Private 1:1 mentorship is USD 150 per month — 8 sessions, two each week. Small-group cohort is USD 100 per month. Billed in USD. No Irish VAT. No joining fee. Month-to-month, cancel anytime.
+Private 1:1 mentorship is USD 150 per month: 8 sessions, two each week. Small-group cohort is USD 100 per month. Billed in USD. No Irish VAT. No joining fee. Month-to-month, cancel anytime.
 
 How do I pay?
 
@@ -585,35 +585,35 @@ Every mentor undergoes a structured 4-step interview, paid trial-teaching, and a
 
 What if my child needs a different mentor?
 
-You ask, we switch — free of charge, within 48 hours. About 1 in 30 families ask for a switch in the first two months.
+You ask, we switch, free of charge, within 48 hours. About 1 in 30 families ask for a switch in the first two months.
 
 Does your schedule work around LC mocks (February) and LC final exams (June)?
 
-Yes — automatically. During LC mock fortnight (February) and the State Examinations Commission LC fortnight (early June), we reduce intensity, switch to lighter review-style sessions, or pause entirely for the family that asks. No bill changes.
+Yes, automatically. During LC mock fortnight (February) and the State Examinations Commission LC fortnight (early June), we reduce intensity, switch to lighter review-style sessions, or pause entirely for the family that asks. No bill changes.
 
 Can mentors help with CAO course-choice strategy?
 
-Yes — informally. Mentors with several years inside the Irish system can talk through the realistic gap between current performance and target CAO course-points. We do not provide formal guidance counselling; we complement (never replace) the school's guidance counsellor.
+Yes, informally. Mentors with several years inside the Irish system can talk through the realistic gap between current performance and target CAO course-points. We do not provide formal guidance counselling; we complement (never replace) the school's guidance counsellor.
 
 What about UCAS applications for UK universities?
 
-Yes — about 1 in 5 of our advanced Irish students apply to Cambridge, Oxford, Imperial or UCL via UCAS instead of (or in addition to) the CAO. We help shape the personal statement and the project portfolio that strengthens the UCAS application.
+Yes, about 1 in 5 of our advanced Irish students apply to Cambridge, Oxford, Imperial or UCL via UCAS instead of (or in addition to) the CAO. We help shape the personal statement and the project portfolio that strengthens the UCAS application.
 
 How do I cancel?
 
-One email. No phone call required. No retention agent will hassle you. We stop billing on the cancellation date — no notice period, no last-month trick. The mentor runs any sessions already paid for, then closes out cleanly.
+One email. No phone call required. No retention agent will hassle you. We stop billing on the cancellation date, no notice period, no last-month trick. The mentor runs any sessions already paid for, then closes out cleanly.
 
-Will my child be safe online — especially with AI tools?
+Will my child be safe online, especially with AI tools?
 
 Under-13s never interact with raw LLM APIs without a mentor present. We use age-appropriate models, guardrailed prompts, content filters. The AI tools your child builds are fully reviewable by you. We're stricter on this than most.
 
 Will my child learn fake "kid Python" rather than real programming?
 
-No. We start in Scratch for the youngest learners (1st – 3rd class primary) and only as a bridge. By month three almost every student is writing real, runnable Python that imports real libraries, handles real errors and pushes to a real GitHub repo. We deliberately avoid "Python for kids" tools.
+No. We start in Scratch for the youngest learners (1st: 3rd class primary) and only as a bridge. By month three almost every student is writing real, runnable Python that imports real libraries, handles real errors and pushes to a real GitHub repo. We deliberately avoid "Python for kids" tools.
 
 Can my child do classes in Irish (Gaeilge)?
 
-Code itself is taught in English (Python keywords are English; GitHub is English — that's universal). But for Gaelscoil / Gaelcholáiste students, we can pair them with a Gaeilge-fluent mentor who explains concepts in Irish and walks through code in English. We have a small but real Gaeilge mentor pool.
+Code itself is taught in English (Python keywords are English; GitHub is English. That's universal). But for Gaelscoil / Gaelcholáiste students, we can pair them with a Gaeilge-fluent mentor who explains concepts in Irish and walks through code in English. We have a small but real Gaeilge mentor pool.
 
 How does this work for two-parent dual-income Dublin families where neither parent can supervise?
 
@@ -621,7 +621,7 @@ Most of our Irish families. The mentor sends a 2-line written session log after 
 
 Are there girls-only cohorts?
 
-Yes. Some families specifically prefer this option for daughters — we run a girls-only Ireland cohort with all-female mentors. The curriculum, depth and pricing are identical.
+Yes. Some families specifically prefer this option for daughters. We run a girls-only Ireland cohort with all-female mentors. The curriculum, depth and pricing are identical.
 
 What if we move from Ireland to UK / Australia / Canada mid-year?
 
@@ -629,7 +629,7 @@ The mentor stays with your child. Only the time zone changes. We've onboarded re
 
 Do you offer scholarships for Irish students?
 
-Yes — a small annual scholarship pool for high-potential students whose families can't comfortably afford USD 150 / month. Email us a short note from the parent + a piece of work from the child. We award 8 – 12 Ireland scholarships per academic year, 50%–100% of the monthly fee.
+Yes, a small annual scholarship pool for high-potential students whose families can't comfortably afford USD 150 / month. Email us a short note from the parent + a piece of work from the child. We award 8: 12 Ireland scholarships per academic year, 50%–100% of the monthly fee.
 
 What happens during Christmas / Easter / summer holidays?
 
@@ -637,7 +637,7 @@ Sessions pause automatically during the official Irish school holiday weeks (Chr
 
 Are sessions delivered via Zoom or Microsoft Teams?
 
-Default is Zoom — what most Irish families are familiar with. If your school or family prefers Teams or Google Meet, mentors will use whichever you prefer.
+Default is Zoom, what most Irish families are familiar with. If your school or family prefers Teams or Google Meet, mentors will use whichever you prefer.
 
 Common Irish parent worries
 
@@ -645,11 +645,11 @@ Common Irish parent worries
 
 "My LC student is already grinding for 7 subjects. Won't this make it worse?"
 
-It depends. If LC CS is one of their 7, then yes, we're directly useful — we cover the syllabus they'll be tested on, with 1:1 depth their school class size can't match. If LC CS is NOT in their 7, then honestly we'd suggest a different mentor (LC Higher Maths support, for instance). We won't push you into the wrong fit.
+It depends. If LC CS is one of their 7, then yes, we're directly useful. We cover the syllabus they'll be tested on, with 1:1 depth their school class size can't match. If LC CS is NOT in their 7, then honestly we'd suggest a different mentor (LC Higher Maths support, for instance). We won't push you into the wrong fit.
 
 "My TY child already has a packed TY programme. Will they have time?"
 
-Two 45-minute sessions per week. Total ~90 minutes. We coordinate around their TY work-experience block (typically 2–3 weeks where we pause). Most TY students find the coding work actually *relaxing* compared to the academic stress they're avoiding — it's their break, not another grind.
+Two 45-minute sessions per week. Total ~90 minutes. We coordinate around their TY work-experience block (typically 2–3 weeks where we pause). Most TY students find the coding work actually *relaxing* compared to the academic stress they're avoiding. It's their break, not another grind.
 
 "Is AI safe for my 10-year-old? I keep reading worrying things."
 
@@ -663,35 +663,35 @@ Of course. Just say so on the callback. All-female mentor pool. Common from Moun
 
 None of our mentors are moonlighting graduate students. Every mentor is a full-time professional educator with 5+ years of teaching experience and a structured interview pipeline before they ever meet an Irish family.
 
-"My Limerick / Galway / Cork / Donegal child — will they get the same mentor quality as a Dublin child?"
+"My Limerick / Galway / Cork / Donegal child, will they get the same mentor quality as a Dublin child?"
 
-Yes — identical. Online means location is irrelevant. The mentor pool, the curriculum, the pricing are all the same regardless of which county your child is in. We have students in Donegal, Kerry, Wexford, Mayo getting the same quality as students in Dublin 4.
+Yes, identical. Online means location is irrelevant. The mentor pool, the curriculum, the pricing are all the same regardless of which county your child is in. We have students in Donegal, Kerry, Wexford, Mayo getting the same quality as students in Dublin 4.
 
 "We're a working-class family in a DEIS-school catchment. Is this for us?"
 
-Yes — specifically. About 18% of our Irish students are in DEIS-designated schools. Our scholarship pool prioritises this cohort. Just ask honestly on the callback if money is the blocker; we'll work something out.
+Yes, specifically. About 18% of our Irish students are in DEIS-designated schools. Our scholarship pool prioritises this cohort. Just ask honestly on the callback if money is the blocker; we'll work something out.
 
 Where our Irish students live
 
-## Regional spotlights — from Dublin 4 to the Gaeltacht.
+## Regional spotlights: from Dublin 4 to the Gaeltacht.
 
 Ireland is a country of regions. Dublin's commuter belt behaves differently from Cork's tech hub, which behaves differently from Galway, Limerick, Waterford, and rural Donegal or Kerry. Here's the granular picture of where our current Irish students are based.
 
 DUBLIN · SOUTH
 
-### South Dublin — D4, D6, D14, D16, D18
+### South Dublin: D4, D6, D14, D16, D18
 
-Densest cluster. Strong on voluntary & fee-paying secondary schools — Belvedere, Gonzaga, St Andrew's, Mount Anville, Loreto Foxrock, Wesley, Sandford Park, High School. Most TY deep-dive families. Plus the parent-tech-employee cluster (Stripe, Intercom, Workday, Google).
+Densest cluster. Strong on voluntary & fee-paying secondary schools: Belvedere, Gonzaga, St Andrew's, Mount Anville, Loreto Foxrock, Wesley, Sandford Park, High School. Most TY deep-dive families. Plus the parent-tech-employee cluster (Stripe, Intercom, Workday, Google).
 
 **Schools:** Gonzaga · St Andrew's · Mount Anville · Loreto Foxrock · WesleyDUBLIN · NORTH
 
-### North Dublin — D3, D5, D7, D9, D11, Swords, Malahide
+### North Dublin: D3, D5, D7, D9, D11, Swords, Malahide
 
 Mixed voluntary, community and DEIS schools. Strong DCU pipeline. Belvedere College, St Joseph's CBS, Loreto Beaufort, Sutton Park.
 
 **Schools:** Belvedere · DCU feeder schools · Mount Temple · Holy Faith ClontarfDUBLIN · WEST & KILDARE
 
-### West Dublin & Kildare — Castleknock, Lucan, Maynooth
+### West Dublin & Kildare: Castleknock, Lucan, Maynooth
 
 Castleknock College, Mount Sackville, Clongowes Wood (Co Kildare), Salesian College. Plus Maynooth University catchment area.
 
@@ -723,41 +723,41 @@ SETU (South East Technological University) feeder area. De La Salle Waterford, N
 
 ### Donegal · Kerry · West Mayo · Connemara
 
-Smaller, rural student base — but the online format means location doesn't matter. We have students in Letterkenny, Tralee, Killarney, Castlebar, Westport getting the same quality as Dublin 4.
+Smaller, rural student base, but the online format means location doesn't matter. We have students in Letterkenny, Tralee, Killarney, Castlebar, Westport getting the same quality as Dublin 4.
 
 **Schools:** Various rural community & voluntary secondary schoolsReal shipped student projects
 
-## Real apps our students built — live, public, and yours to open.
+## Real apps our students built: live, public, and yours to open.
 
 Every project below was built by a Modern Age Coders student and is live on the internet right now. Tap any card to open the real thing. See the full wall at [Student Labs](/student-labs).
 
 Built by Vivaan · AI & ML
 
-### GuardianX — AI Bodyguard for the Internet
+### GuardianX: AI Bodyguard for the Internet
 
-Paste any suspicious link or message and GuardianX returns an instant AI verdict before you become a victim — plus a link scanner, safety score, breach check and live scam alerts built for…
+Paste any suspicious link or message and GuardianX returns an instant AI verdict before you become a victim, plus a link scanner, safety score, breach check and live scam alerts built for…
 
 Vibe CodingAIReactLovable[Open the live project ↗](https://guardianx-cybersaver.lovable.app)Built by Modern Age Coders · Game
 
 ### The Beautiful Mind
 
-A scientifically designed focus and brain-strength game with 15 progressive levels — testing attention, control and mental endurance with real-time progress tracking and leaderboards.
+A scientifically designed focus and brain-strength game with 15 progressive levels, testing attention, control and mental endurance with real-time progress tracking and leaderboards.
 
 ReactFirebaseJavaScriptGame Logic[Open the live project ↗](https://mind.modernagecoders.com)Built by Tanish · Web App
 
-### FreshTrack — Food Expiry Tracker
+### FreshTrack: Food Expiry Tracker
 
-A smart food-management system to track expiry dates — add, update and delete items while the app checks expiry automatically, online and offline.
+A smart food-management system to track expiry dates, add, update and delete items while the app checks expiry automatically, online and offline.
 
 JavaScriptMongoDBLocal Storage[Open the live project ↗](https://freshtrackpro.netlify.app/)Built by Kriti · AI & ML
 
-### HairSync — AI Hairstyle Try-On
+### HairSync: AI Hairstyle Try-On
 
-Upload a clear photo and try on any hairstyle before you commit — wolf cuts, curtain bangs, fades, braids and dozens of trending looks, rendered onto your own face by AI in seconds.
+Upload a clear photo and try on any hairstyle before you commit, wolf cuts, curtain bangs, fades, braids and dozens of trending looks, rendered onto your own face by AI in seconds.
 
 Vibe CodingAI ImageVirtual Try-OnLovable[Open the live project ↗](https://hairsync.lovable.app)Built by Modern Age Coders · Game
 
-### Babu — 90 Second Maths Challenge
+### Babu: 90 Second Maths Challenge
 
 An exciting 90-second maths challenge with random problems under time pressure, and a dynamic leaderboard powered by Firebase/MongoDB with real-time score updates.
 
@@ -773,11 +773,11 @@ HTMLCSSJavaScript[Open the live project ↗](https://vanshagarwalwordcounter-sys
 
 Most Irish post-primary students return home between 3 pm and 4 pm. Many have homework till 7 pm. Plus GAA / hockey / drama / extracurriculars. We've engineered the schedule around this:
 
-- **Weeknight slots** — 4 pm – 9 pm GMT, accommodating GAA training and homework.
-- **Saturday morning blocks** — 10 am – 1 pm GMT, popular with TY and LC families.
-- **Sunday afternoon** — available on request, especially adult learners.
-- **Christmas / Easter / summer** — intensive blocks available for students who want to accelerate.
-- **LC mocks (Feb) & LC SEC papers (June)** — automatic intensity reduction. No bill changes.
+- **Weeknight slots**, 4 pm, 9 pm GMT, accommodating GAA training and homework.
+- **Saturday morning blocks**, 10 am, 1 pm GMT, popular with TY and LC families.
+- **Sunday afternoon**, available on request, especially adult learners.
+- **Christmas / Easter / summer**, intensive blocks available for students who want to accelerate.
+- **LC mocks (Feb) & LC SEC papers (June)**, automatic intensity reduction. No bill changes.
 
 Worth saying out loud
 
@@ -785,7 +785,7 @@ Worth saying out loud
 
 Most of our mentors are India-based or UK-based; a smaller pool is Ireland-based or ex-Ireland-teachers. Here's why that mix works for Irish families, said plainly:
 
-- **Time zones align.** India is 4.5–5.5 hours ahead of Ireland; the UK is identical to Ireland. A 5 pm Irish class is 9:30 pm in India or 5 pm UK — normal teaching hours.
+- **Time zones align.** India is 4.5–5.5 hours ahead of Ireland; the UK is identical to Ireland. A 5 pm Irish class is 9:30 pm in India or 5 pm UK, normal teaching hours.
 - **CS depth is world-class.** India produces more CS graduates per year than any other country, and the top tier of that pool is who teaches your child. TCD / UCD / IIT graduates respect each other's standards.
 - **Native English-medium teaching.** Indian and UK mentors deliver in clear, professional English. For Gaeilge-medium learners, we can pair with a bilingual Irish-English mentor.
 - **Irish-system knowledge.** Our Irish-trained mentors and ex-post-primary teachers carry the LCCS / Junior Cycle / TY-curriculum knowledge so the rest of the pool can scale.
@@ -797,7 +797,7 @@ Last word
 
 No quiz, no pop-up, no sales pressure. Leave a +353 number, a mentor working GMT/IST calls within three hours, and you decide everything from there.
 
-We hope you've found this page useful even if you don't end up booking. Irish parents are discerning — if anything here didn't ring true, please tell us. We rewrite this page based on real parent feedback every few months.
+We hope you've found this page useful even if you don't end up booking. Irish parents are discerning, if anything here didn't ring true, please tell us. We rewrite this page based on real parent feedback every few months.
 
 [Browse all courses](/courses)
 

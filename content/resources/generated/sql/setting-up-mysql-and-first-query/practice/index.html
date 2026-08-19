@@ -17,7 +17,7 @@
     <!-- SEO Meta Tags -->
     <meta name="description" content="54+ practice questions on Setting Up MySQL and Your First Query in SQL. Easy, medium, and hard questions with hints, answers, and coding challenges.">
     <!-- meta keywords intentionally not emitted: Google has ignored it since 2009 and Bing
-         treats it as a SPAM SIGNAL — and Bing is the index ChatGPT/Copilot answer from.
+         treats it as a SPAM SIGNAL, and Bing is the index ChatGPT/Copilot answer from.
          See scripts/strip-meta-keywords.py. -->
     <meta name="author" content="Modern Age Coders">
     <meta name="robots" content="index, follow">
@@ -138,7 +138,7 @@
                 <span class="badge badge-beginner">Beginner</span>
                 <span class="badge badge-questions">54 Questions</span>
             </div>
-            <h1 class="resource-title">Practice Questions &mdash; Setting Up MySQL and Your First Query</h1>
+            <h1 class="resource-title">Practice Questions: Setting Up MySQL and Your First Query</h1>
             <a href="/resources/sql/setting-up-mysql-and-first-query" class="notes-link">&larr; Back to Notes</a>
         </div><!-- /resource-header -->
 
@@ -279,7 +279,7 @@ SELECT * FROM students;</code></pre></div></div>
 <div class="question-card">
                 <div class="question-number">Question 20</div>
                 <span class="question-difficulty hard">Hard</span>
-                <div class="question-text">What is the difference between MySQL Workbench and the MySQL CLI, and when would you use each?</div><button type="button" class="collapsible-toggle" data-target="hint-ts-20" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-20">GUI vs terminal tradeoffs.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-20" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-20"><strong>Workbench</strong> is a GUI with visual query editor, result grid, schema browser, and EER diagram tool — great for exploration and learning. <strong>CLI</strong> is a terminal client — faster for experienced users, the only option on servers without a desktop, and essential when writing shell scripts or SSH'ing into a remote server.</div></div>
+                <div class="question-text">What is the difference between MySQL Workbench and the MySQL CLI, and when would you use each?</div><button type="button" class="collapsible-toggle" data-target="hint-ts-20" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-20">GUI vs terminal tradeoffs.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-20" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-20"><strong>Workbench</strong> is a GUI with visual query editor, result grid, schema browser, and EER diagram tool, great for exploration and learning. <strong>CLI</strong> is a terminal client, faster for experienced users, the only option on servers without a desktop, and essential when writing shell scripts or SSH'ing into a remote server.</div></div>
         </section>
 
         <!-- Mixed / Application Questions -->
@@ -341,11 +341,11 @@ CREATE TABLE products (
                 <div class="question-number">Question 8</div>
                 <span class="question-difficulty hard">Hard</span>
                 <div class="question-text">You run:<br><pre><code>USE school;
-SELECT * FROM orders;</code></pre>It errors with "Table 'school.orders' doesn't exist". What are two possible causes?</div><button type="button" class="collapsible-toggle" data-target="hint-mx-8" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-8">Either the table is missing, or it lives in another database.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-8" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-8">(1) The orders table has not been created in school. (2) It exists, but in a different database (e.g., ecommerce) — you can query it with <code>SELECT * FROM ecommerce.orders;</code>.</div></div>
+SELECT * FROM orders;</code></pre>It errors with "Table 'school.orders' doesn't exist". What are two possible causes?</div><button type="button" class="collapsible-toggle" data-target="hint-mx-8" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-8">Either the table is missing, or it lives in another database.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-8" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-8">(1) The orders table has not been created in school. (2) It exists, but in a different database (e.g., ecommerce). You can query it with <code>SELECT * FROM ecommerce.orders;</code>.</div></div>
 <div class="question-card">
                 <div class="question-number">Question 9</div>
                 <span class="question-difficulty hard">Hard</span>
-                <div class="question-text">What does this return?<br><pre><code>DESCRIBE students;</code></pre>(students has columns id INT, name VARCHAR(50), class INT, marks INT — all nullable, no keys.)</div><button type="button" class="collapsible-toggle" data-target="hint-mx-9" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-9">A 4-row schema listing.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-9" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-9"><pre><code>+-------+-------------+------+-----+---------+-------+
+                <div class="question-text">What does this return?<br><pre><code>DESCRIBE students;</code></pre>(students has columns id INT, name VARCHAR(50), class INT, marks INT, all nullable, no keys.)</div><button type="button" class="collapsible-toggle" data-target="hint-mx-9" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-9">A 4-row schema listing.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-9" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-9"><pre><code>+-------+-------------+------+-----+---------+-------+
 | Field | Type        | Null | Key | Default | Extra |
 +-------+-------------+------+-----+---------+-------+
 | id    | int         | YES  |     | NULL    |       |
@@ -393,11 +393,11 @@ INSERT INTO students VALUES (3, 'Rohan', 11, 78);</code></pre></div><button type
 <div class="question-card">
                 <div class="question-number">MCQ 4</div>
                 <div class="question-text">Which command shows the structure (columns, types) of a table?</div>
-                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> STRUCT students;</li><li><span class="mcq-option-label">B.</span> DESCRIBE students;</li><li><span class="mcq-option-label">C.</span> LIST students;</li><li><span class="mcq-option-label">D.</span> SHOW students;</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-4" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-4"><strong>Answer: B</strong><br><strong>B is correct.</strong> <code>DESCRIBE students;</code> (or its shortcut <code>DESC students;</code>) prints the schema. <code>SHOW students;</code> is not valid — you use <code>SHOW TABLES;</code> to list tables.</div></div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> STRUCT students;</li><li><span class="mcq-option-label">B.</span> DESCRIBE students;</li><li><span class="mcq-option-label">C.</span> LIST students;</li><li><span class="mcq-option-label">D.</span> SHOW students;</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-4" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-4"><strong>Answer: B</strong><br><strong>B is correct.</strong> <code>DESCRIBE students;</code> (or its shortcut <code>DESC students;</code>) prints the schema. <code>SHOW students;</code> is not valid. You use <code>SHOW TABLES;</code> to list tables.</div></div>
 <div class="question-card">
                 <div class="question-number">MCQ 5</div>
                 <div class="question-text">What character terminates an SQL statement in the MySQL CLI?</div>
-                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> A period (.)</li><li><span class="mcq-option-label">B.</span> A comma (,)</li><li><span class="mcq-option-label">C.</span> A semicolon (;)</li><li><span class="mcq-option-label">D.</span> A newline</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-5" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-5"><strong>Answer: C</strong><br><strong>C is correct.</strong> Every SQL statement ends with a semicolon. A newline alone doesn't terminate — MySQL waits for the <code>;</code> before executing.</div></div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> A period (.)</li><li><span class="mcq-option-label">B.</span> A comma (,)</li><li><span class="mcq-option-label">C.</span> A semicolon (;)</li><li><span class="mcq-option-label">D.</span> A newline</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-5" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-5"><strong>Answer: C</strong><br><strong>C is correct.</strong> Every SQL statement ends with a semicolon. A newline alone doesn't terminate: MySQL waits for the <code>;</code> before executing.</div></div>
 <div class="question-card">
                 <div class="question-number">MCQ 6</div>
                 <div class="question-text">Which of the following is a valid single-line SQL comment?</div>
@@ -413,7 +413,7 @@ INSERT INTO students VALUES (3, 'Rohan', 11, 78);</code></pre></div><button type
 <div class="question-card">
                 <div class="question-number">MCQ 9</div>
                 <div class="question-text">You run <code>SELECT DATABASE();</code> right after logging in (without any USE). What do you see?</div>
-                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> mysql</li><li><span class="mcq-option-label">B.</span> information_schema</li><li><span class="mcq-option-label">C.</span> NULL</li><li><span class="mcq-option-label">D.</span> Error</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-9" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-9"><strong>Answer: C</strong><br><strong>C is correct.</strong> Without a USE statement, no database is active, so <code>DATABASE()</code> returns NULL. It is not an error — you still get a result, just NULL.</div></div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> mysql</li><li><span class="mcq-option-label">B.</span> information_schema</li><li><span class="mcq-option-label">C.</span> NULL</li><li><span class="mcq-option-label">D.</span> Error</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-9" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-9"><strong>Answer: C</strong><br><strong>C is correct.</strong> Without a USE statement, no database is active, so <code>DATABASE()</code> returns NULL. It is not an error. You still get a result, just NULL.</div></div>
 <div class="question-card">
                 <div class="question-number">MCQ 10</div>
                 <div class="question-text">Which statement creates a table ONLY if it does not already exist?</div>
@@ -552,7 +552,7 @@ create table products
 insert into products values (1, "Pen", 10)
 select * from products</pre></div><div class="challenge-io">
                     <div class="challenge-io-label">Sample Input</div>
-                    <div class="challenge-io-value">(No input — the script above is the input)</div>
+                    <div class="challenge-io-value">(No input, the script above is the input)</div>
                 </div><div class="challenge-io">
                     <div class="challenge-io-label">Sample Output</div>
                     <div class="challenge-io-value">Clean script that creates store, creates products, inserts one row, and selects it.</div>
@@ -645,8 +645,8 @@ SELECT COUNT(*) AS total_orders FROM orders;
 -- Step 6: Peek at the first few rows.
 SELECT * FROM orders LIMIT 5;
 
--- This sequence — SHOW DATABASES, USE, SHOW TABLES, DESCRIBE,
--- COUNT(*), LIMIT 5 — is the universal &quot;orient yourself in a new DB&quot; workflow.</code></pre></div></div>
+-- This sequence, SHOW DATABASES, USE, SHOW TABLES, DESCRIBE,
+-- COUNT(*), LIMIT 5, is the universal &quot;orient yourself in a new DB&quot; workflow.</code></pre></div></div>
 <div class="challenge-card">
                 <h3>Challenge 6: Re-runnable Seed Script</h3>
                 <span class="challenge-difficulty hard">Hard</span>
@@ -659,7 +659,7 @@ SELECT * FROM orders LIMIT 5;
                 </div><div class="challenge-constraints">Use IF NOT EXISTS / IF EXISTS properly. Annotate each step with comments.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-6" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-6"><pre><code class="language-python">/*
    Bookstore seed script.
    Purpose: reset the books table with a clean 5-row dataset.
-   Safe to run multiple times — uses IF NOT EXISTS / IF EXISTS.
+   Safe to run multiple times, uses IF NOT EXISTS / IF EXISTS.
 */
 
 -- 1. Create the database if missing.

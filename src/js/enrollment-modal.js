@@ -67,7 +67,7 @@ const EnrollmentModal = {
     // shared helper. NO hardcoded fallback: the old '$40/month' / '$100/month'
     // strings here were retired prices, and a degraded page was sending them
     // into real WhatsApp enquiries. If the price cannot be resolved, the
-    // message simply names the course and no figure — a missing number is
+    // message simply names the course and no figure, a missing number is
     // honest, a wrong one is a quote we then have to argue about.
     var intlGroup = (window.CoursePayment && window.CoursePayment.getIntlPricing)
       ? window.CoursePayment.getIntlPricing('group') : null;

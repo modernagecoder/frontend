@@ -15,7 +15,7 @@ keywords: ["portfolio website html css", "animated portfolio project", "dark mod
 
 ## What We Are Building
 
-This is the final project of the HTML and CSS track — a **stunning animated portfolio website** built entirely with HTML and CSS. One tiny sliver of JavaScript is used for the dark mode toggle (literally 3 lines), but everything visual — animations, hover effects, scroll reveals, glassmorphism, gradients — is pure CSS.
+This is the final project of the HTML and CSS track, a **stunning animated portfolio website** built entirely with HTML and CSS. One tiny sliver of JavaScript is used for the dark mode toggle (literally 3 lines), but everything visual, animations, hover effects, scroll reveals, glassmorphism, gradients, is pure CSS.
 
 The portfolio includes:
 
@@ -31,7 +31,7 @@ The portfolio includes:
 10. **Gradient borders** and neon glow effects
 11. **Fully responsive** from phone to desktop
 
-The portfolio belongs to 'Aarav Kulkarni' — a 16-year-old full-stack developer from Pune. His bio, projects, and skills tell a coherent story that you can easily customize with your own content.
+The portfolio belongs to 'Aarav Kulkarni', a 16-year-old full-stack developer from Pune. His bio, projects, and skills tell a coherent story that you can easily customize with your own content.
 
 ## Why Build an Animated Portfolio?
 
@@ -225,7 +225,7 @@ Elements animate in as they enter the viewport using CSS animations with `animat
 }
 ```
 
-For true 'animate on scroll', you would use the Intersection Observer API (JavaScript). For a CSS-only effect, we simply animate everything on load with staggered delays — it still looks great.
+For true 'animate on scroll', you would use the Intersection Observer API (JavaScript). For a CSS-only effect, we simply animate everything on load with staggered delays. It still looks great.
 
 Now let us see the ENTIRE animated portfolio in one complete, runnable file.
 
@@ -1074,7 +1074,7 @@ A beautiful frosted-glass form floating on a dark background with soft purple an
   <div class="card">
     <h1>Kavya's Notes</h1>
     <p>This entire page switches between dark and light mode with one CSS class toggle. Every color is a variable, and the body.light class overrides them. Try the button in the top-right corner.</p>
-    <p>The transition on background and color makes the switch smooth. No external libraries, no complicated JavaScript — just three lines of JS and CSS variables.</p>
+    <p>The transition on background and color makes the switch smooth. No external libraries, no complicated JavaScript, just three lines of JS and CSS variables.</p>
   </div>
   <script>
     const btn = document.getElementById('btn');
@@ -1180,7 +1180,7 @@ Set an explicit `color` as a fallback before the background-clip tricks. In 2026
 }
 ```
 
-Prefer `transform`, `opacity`, and `filter` for animations — they are GPU-accelerated. Avoid animating `margin`, `width`, `height`, or `padding` because they force the browser to recalculate layout.
+Prefer `transform`, `opacity`, and `filter` for animations. They are GPU-accelerated. Avoid animating `margin`, `width`, `height`, or `padding` because they force the browser to recalculate layout.
 
 ### Gradient Text Not Showing Because of Color
 
@@ -1223,7 +1223,7 @@ Background-clip to text only shows through if the text fill is transparent. Use 
 - Glassmorphism = semi-transparent background (`rgba(255,255,255,0.05)`) + `backdrop-filter: blur(20px)` + a thin border. Looks best against a colorful background.
 - Use `:has()` for a reactive contact form: `form:has(input:valid):not(:has(input:invalid))` matches when every field is valid. Combine with `:not(:placeholder-shown)` so empty fields do not show red immediately.
 - Three lines of JavaScript is all you need for a persistent dark mode toggle: get the button, add a click listener, toggle a class on the body.
-- For smooth performance, animate `transform`, `opacity`, and `filter` — not `width`, `height`, `margin`, or `padding`. The first three are GPU-accelerated; the others force layout recalculation.
+- For smooth performance, animate `transform`, `opacity`, and `filter`, not `width`, `height`, `margin`, or `padding`. The first three are GPU-accelerated; the others force layout recalculation.
 - Neon glow effect: `box-shadow: 0 0 20px rgba(168,85,247,0.5)` or double/triple shadows for depth. Works great on skill bars, buttons, and avatars.
 
 ## Related Topics

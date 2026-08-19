@@ -15,9 +15,9 @@
     <title>Lists in Python | Python Tutorial</title>
 
     <!-- SEO Meta Tags -->
-    <meta name="description" content="Work with Python lists — create, modify, slice, and use list methods and comprehensions.">
+    <meta name="description" content="Work with Python lists, create, modify, slice, and use list methods and comprehensions.">
     <!-- meta keywords intentionally not emitted: Google has ignored it since 2009 and Bing
-         treats it as a SPAM SIGNAL — and Bing is the index ChatGPT/Copilot answer from.
+         treats it as a SPAM SIGNAL, and Bing is the index ChatGPT/Copilot answer from.
          See scripts/strip-meta-keywords.py. -->
     <meta name="author" content="Modern Age Coders">
     <meta name="robots" content="index, follow">
@@ -37,7 +37,7 @@
     <meta property="og:type" content="article">
     <meta property="og:url" content="https://learn.modernagecoders.com/resources/python/lists-in-python">
     <meta property="og:title" content="Lists in Python | Python Tutorial">
-    <meta property="og:description" content="Work with Python lists — create, modify, slice, and use list methods and comprehensions.">
+    <meta property="og:description" content="Work with Python lists, create, modify, slice, and use list methods and comprehensions.">
     <meta property="og:image" content="https://learn.modernagecoders.com/images/og-default.jpg">
     <meta property="og:site_name" content="Modern Age Coders">
 
@@ -45,7 +45,7 @@
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:url" content="https://learn.modernagecoders.com/resources/python/lists-in-python">
     <meta name="twitter:title" content="Lists in Python | Python Tutorial">
-    <meta name="twitter:description" content="Work with Python lists — create, modify, slice, and use list methods and comprehensions.">
+    <meta name="twitter:description" content="Work with Python lists, create, modify, slice, and use list methods and comprehensions.">
     <meta name="twitter:image" content="https://learn.modernagecoders.com/images/og-default.jpg">
 
     <!-- Structured Data (JSON-LD) -->
@@ -55,7 +55,7 @@
     "@context": "https://schema.org",
     "@type": "TechArticle",
     "headline": "Lists in Python",
-    "description": "Work with Python lists — create, modify, slice, and use list methods and comprehensions.",
+    "description": "Work with Python lists, create, modify, slice, and use list methods and comprehensions.",
     "author": {
       "@type": "Organization",
       "name": "Modern Age Coders",
@@ -218,7 +218,7 @@
 
             <section id="what" class="content-section">
                 <h2>What Is It?</h2>
-                <h2>What Are Lists in Python?</h2><p>A <strong>list</strong> is an ordered, mutable collection of items. Unlike strings (which hold only characters), lists can hold items of any data type — integers, floats, strings, booleans, and even other lists. Lists are defined using square brackets <code>[]</code> with items separated by commas.</p><p>Lists are one of the four built-in collection data types in Python (along with tuples, sets, and dictionaries). They are by far the most commonly used because of their flexibility: you can add, remove, modify, and rearrange items freely.</p><h3>Creating Lists</h3><p>There are several ways to create a list:</p><pre><code>empty = []                        # Empty list
+                <h2>What Are Lists in Python?</h2><p>A <strong>list</strong> is an ordered, mutable collection of items. Unlike strings (which hold only characters), lists can hold items of any data type, integers, floats, strings, booleans, and even other lists. Lists are defined using square brackets <code>[]</code> with items separated by commas.</p><p>Lists are one of the four built-in collection data types in Python (along with tuples, sets, and dictionaries). They are by far the most commonly used because of their flexibility: you can add, remove, modify, and rearrange items freely.</p><h3>Creating Lists</h3><p>There are several ways to create a list:</p><pre><code>empty = []                        # Empty list
 numbers = [1, 2, 3, 4, 5]         # List of integers
 names = ["Aarav", "Priya", "Rohan"] # List of strings
 mixed = [1, "hello", 3.14, True]   # Mixed types
@@ -228,7 +228,7 @@ from_range = list(range(5))        # [0, 1, 2, 3, 4]</code></pre><p>The <code>li
 
             <section id="why" class="content-section">
                 <h2>Why Does It Matter?</h2>
-                <h2>Why Are Lists Important?</h2><p>Lists are the workhorse data structure of Python. Here is why mastering lists is essential:</p><h3>1. Storing Collections of Related Data</h3><p>Whenever you have multiple items that belong together — student marks, product prices, employee names — you store them in a list. Without lists, you would need a separate variable for each item, which is impractical when dealing with hundreds or thousands of values.</p><h3>2. Dynamic Size</h3><p>Unlike arrays in many other languages, Python lists grow and shrink automatically. You can append items, insert at any position, or remove items without worrying about pre-allocating memory. This makes lists ideal for situations where the amount of data is not known in advance.</p><h3>3. Mutability Enables In-Place Modification</h3><p>Lists are <strong>mutable</strong>, meaning you can change their contents without creating a new list. You can update a specific element, sort the list, or reverse it — all in place. This is a key difference from strings and tuples, which are immutable.</p><h3>4. Foundation for Advanced Data Structures</h3><p>Lists are the building blocks for stacks, queues, matrices (2D lists), and many other data structures. Understanding lists deeply is prerequisite for data science (pandas DataFrames are built on array/list concepts), machine learning, and algorithm design.</p><h3>5. List Comprehension Is a Python Superpower</h3><p>Python's list comprehension syntax lets you create and transform lists in a single, readable line. It is one of the features that makes Python code shorter and more elegant than equivalent code in other languages.</p>
+                <h2>Why Are Lists Important?</h2><p>Lists are the workhorse data structure of Python. Here is why mastering lists is essential:</p><h3>1. Storing Collections of Related Data</h3><p>Whenever you have multiple items that belong together, student marks, product prices, employee names, you store them in a list. Without lists, you would need a separate variable for each item, which is impractical when dealing with hundreds or thousands of values.</p><h3>2. Dynamic Size</h3><p>Unlike arrays in many other languages, Python lists grow and shrink automatically. You can append items, insert at any position, or remove items without worrying about pre-allocating memory. This makes lists ideal for situations where the amount of data is not known in advance.</p><h3>3. Mutability Enables In-Place Modification</h3><p>Lists are <strong>mutable</strong>, meaning you can change their contents without creating a new list. You can update a specific element, sort the list, or reverse it, all in place. This is a key difference from strings and tuples, which are immutable.</p><h3>4. Foundation for Advanced Data Structures</h3><p>Lists are the building blocks for stacks, queues, matrices (2D lists), and many other data structures. Understanding lists deeply is prerequisite for data science (pandas DataFrames are built on array/list concepts), machine learning, and algorithm design.</p><h3>5. List Comprehension Is a Python Superpower</h3><p>Python's list comprehension syntax lets you create and transform lists in a single, readable line. It is one of the features that makes Python code shorter and more elegant than equivalent code in other languages.</p>
             </section>
 
             <section id="explanation" class="content-section">

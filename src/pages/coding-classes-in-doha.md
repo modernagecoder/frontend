@@ -180,13 +180,13 @@ Student projects
 
 ## What our students actually build
 
-Every one of these is a real, live project shipped by a Modern Age Coders student — not a mockup. Explore more in our [Student Labs](/student-labs).
+Every one of these is a real, live project shipped by a Modern Age Coders student, not a mockup. Explore more in our [Student Labs](/student-labs).
 
-![Pracy — Coding Practice & Quiz Platform](/images/projects/pracy.webp)
+![Pracy, Coding Practice & Quiz Platform](/images/projects/pracy.webp)
 
 Web App
 
-### Pracy — Coding Practice & Quiz Platform
+### Pracy: Coding Practice & Quiz Platform
 
 An all-in-one coding-practice site with interactive challenges, quizzes and score tracking across multiple languages to strengthen logic and problem-solving.
 

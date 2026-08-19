@@ -1,22 +1,22 @@
 ---
-title: "Algebra Tutoring Online (USA) · 1:1 Pre-Algebra, Algebra 1 & 2 — Modern Age Coders"
-description: "Live 1:1 online algebra tutoring for US students — pre-algebra, Algebra 1 and Algebra 2. We teach why algebra works, from balancing equations to functions, so it stops feeling like rules to memorize. Mentors in every US time zone. Priced for your country."
+title: "Algebra Tutoring Online (USA) · 1:1 Pre-Algebra, Algebra 1 & 2 | Modern Age Coders"
+description: "Live 1:1 online algebra tutoring for US students, pre-algebra, Algebra 1 and Algebra 2. We teach why algebra works, from balancing equations to functions, so it stops feeling like rules to memorize. Mentors in every US time zone. Priced for your country."
 canonical: https://learn.modernagecoders.com/algebra-tutoring-online-usa
 source: src/pages/algebra-tutoring-online-usa.html
 ---
-> Live 1:1 online algebra tutoring for US students — pre-algebra, Algebra 1 and Algebra 2. We teach why algebra works, from balancing equations to functions, so it stops feeling like rules to memorize. Mentors in every US time zone. Priced for your country.
+> Live 1:1 online algebra tutoring for US students, pre-algebra, Algebra 1 and Algebra 2. We teach why algebra works, from balancing equations to functions, so it stops feeling like rules to memorize. Mentors in every US time zone. Priced for your country.
 
 Why algebra breaks so many students
 
 ## Algebra is the first math you can't fake your way through.
 
-For years, school math is concrete — you can count it, draw it, picture it. Then algebra arrives and asks students to reason about a letter that stands for an unknown number, and the ground shifts. Students who coasted on memory suddenly have nothing to memorize, because every problem is a little different.
+For years, school math is concrete. You can count it, draw it, picture it. Then algebra arrives and asks students to reason about a letter that stands for an unknown number, and the ground shifts. Students who coasted on memory suddenly have nothing to memorize, because every problem is a little different.
 
-The usual response — drill more of the same problem type — backfires. It reinforces copying steps instead of understanding them, so the moment a test rephrases the question, the points disappear.
+The usual response, drill more of the same problem type, backfires. It reinforces copying steps instead of understanding them, so the moment a test rephrases the question, the points disappear.
 
 Algebra also exposes old cracks. A weak grasp of fractions or negatives, hidden for years, finally surfaces because algebra uses them constantly.
 
-We do two things: repair the buried gaps that algebra is dragging into the light, and teach the abstraction itself — what a variable means, why an operation is legal — so your child reasons through algebra instead of guessing at it.
+We do two things: repair the buried gaps that algebra is dragging into the light, and teach the abstraction itself, what a variable means, why an operation is legal, so your child reasons through algebra instead of guessing at it.
 
 How we teach
 
@@ -30,7 +30,7 @@ We check the fractions, negatives and order-of-operations that algebra leans on,
 
 ### Make the abstraction concrete
 
-A variable becomes a real thing your child can reason about — a box holding an unknown — not a mysterious letter to push around.
+A variable becomes a real thing your child can reason about, a box holding an unknown, not a mysterious letter to push around.
 
 ### Justify every move
 
@@ -42,17 +42,17 @@ Once the reasoning is solid we drill for speed and accuracy, working from your c
 
 See it for yourself
 
-## "Do the same to both sides" — why that's allowed at all.
+## "Do the same to both sides": why that's allowed at all.
 
 Worked example · the heart of solving equations
 
-**What gets memorized:** "to solve, do the same thing to both sides." Students obey it, but if you ask *why* it works, most have no idea — so they apply it blindly and make sign and operation errors they can't catch.
+**What gets memorized:** "to solve, do the same thing to both sides." Students obey it, but if you ask *why* it works, most have no idea, so they apply it blindly and make sign and operation errors they can't catch.
 
-**How we do it.** An equation is a claim that two things are *equal* — a balanced scale. 3x + 4 = 19 says the left pan and the right pan weigh the same. If you do the identical thing to both pans, they stay balanced. That's the entire justification:
+**How we do it.** An equation is a claim that two things are *equal*, a balanced scale. 3x + 4 = 19 says the left pan and the right pan weigh the same. If you do the identical thing to both pans, they stay balanced. That's the entire justification:
 
 3x + 4 = 19 (the scale is balanced)subtract 4 from BOTH pans → 3x = 15 (still balanced)divide BOTH pans by 3 → x = 5 (still balanced)
 
-Now "the same to both sides" isn't a rule to obey — it's the obvious way to keep a balance true while you simplify it. A student who sees this stops making the classic error of changing only one side, and can reason about equations they've never met, including the messy multi-step ones. This one idea quietly underpins all of Algebra 1 and 2.
+Now "the same to both sides" isn't a rule to obey. It's the obvious way to keep a balance true while you simplify it. A student who sees this stops making the classic error of changing only one side, and can reason about equations they've never met, including the messy multi-step ones. This one idea quietly underpins all of Algebra 1 and 2.
 
 Why a coding school teaches algebra
 
@@ -60,7 +60,7 @@ Why a coding school teaches algebra
 
 ### Variables
 
-A variable in algebra and a variable in code are the same idea — a name for a value that can change. Students who get one understand the other instantly.
+A variable in algebra and a variable in code are the same idea, a name for a value that can change. Students who get one understand the other instantly.
 
 ### Functions
 
@@ -68,9 +68,9 @@ A variable in algebra and a variable in code are the same idea — a name for a 
 
 ### Logical equivalence
 
-Rearranging an equation while keeping it true is exactly what refactoring code does — change the form, preserve the meaning.
+Rearranging an equation while keeping it true is exactly what refactoring code does, change the form, preserve the meaning.
 
-We're Modern Age Coders, and algebra is the bridge between math and programming. A student who truly understands variables and functions in algebra walks into their first coding class already fluent in its core ideas — which is no accident in how we teach.
+We're Modern Age Coders, and algebra is the bridge between math and programming. A student who truly understands variables and functions in algebra walks into their first coding class already fluent in its core ideas, which is no accident in how we teach.
 
 What we cover
 
@@ -88,7 +88,7 @@ Solving, graphing, slope and intercepts, and translating word problems into alge
 
 ### Systems of equations
 
-Substitution, elimination and graphing — and understanding what a solution to a system really represents.
+Substitution, elimination and graphing, and understanding what a solution to a system really represents.
 
 ### Quadratics & polynomials
 
@@ -100,11 +100,11 @@ Notation, domain and range, transformations, and the function families algebra a
 
 ### Exponentials & logarithms
 
-Exponent rules, exponential growth and decay, and logarithms as the inverse — the Algebra 2 capstone that worries many students.
+Exponent rules, exponential growth and decay, and logarithms as the inverse, the Algebra 2 capstone that worries many students.
 
 Who this is for
 
-## The right fit — and an honest word on what to expect.
+## The right fit: and an honest word on what to expect.
 
 **This fits** the student struggling in Algebra 1 or 2, the one about to start algebra who wants a strong launch, the advanced younger student taking it early, and the adult revisiting algebra for a course or exam. We meet the level, whatever the age.
 
@@ -167,7 +167,7 @@ Who teaches your child
 
 ## Mentors who can explain abstraction simply.
 
-The skill that matters most in algebra teaching is making the abstract feel concrete — turning "x" from a scary letter into something a student can reason about. Our mentors are chosen for exactly that, plus the patience to find the explanation that works for your particular child.
+The skill that matters most in algebra teaching is making the abstract feel concrete, turning "x" from a scary letter into something a student can reason about. Our mentors are chosen for exactly that, plus the patience to find the explanation that works for your particular child.
 
 The same mentor stays throughout, so they know precisely which idea is shaky and can keep building on what's already solid.
 
@@ -197,7 +197,7 @@ Common questions
 
 Which algebra courses do you cover?
 
-Pre-algebra, Algebra 1 and Algebra 2 — the full sequence from first variables through quadratics, polynomials, functions, exponentials and logarithms. We place by understanding, not just current class.
+Pre-algebra, Algebra 1 and Algebra 2, the full sequence from first variables through quadratics, polynomials, functions, exponentials and logarithms. We place by understanding, not just current class.
 
 My child can follow examples but freezes on new problems. Why?
 
@@ -209,19 +209,19 @@ Often, yes. Algebra is the usual breaking point because it's the first abstract 
 
 How much does it cost?
 
-USD 150 per month for private 1:1 — eight live classes, two each week. Small-group option USD 100 per month. No contract; cancel any time.
+USD 150 per month for private 1:1, eight live classes, two each week. Small-group option USD 100 per month. No contract; cancel any time.
 
 Is there a free trial?
 
-Yes — the first session is free, no card needed. We find which earlier idea is shaky and build a plan.
+Yes, the first session is free, no card needed. We find which earlier idea is shaky and build a plan.
 
 Will my child have the same tutor?
 
-Yes — one mentor who tracks the gaps and works from your child's class and homework.
+Yes, one mentor who tracks the gaps and works from your child's class and homework.
 
 Can you work from my child's textbook and homework?
 
-Yes — we teach to your child's actual class while making sure the underlying reasoning is solid.
+Yes. We teach to your child's actual class while making sure the underlying reasoning is solid.
 
 Does this prepare for the SAT or ACT?
 
@@ -229,7 +229,7 @@ Strong algebra is the biggest factor in SAT/ACT math, so this builds the foundat
 
 Are sessions live?
 
-Yes — live, one-to-one, with a shared whiteboard.
+Yes, live, one-to-one, with a shared whiteboard.
 
 How quickly will we see improvement?
 
@@ -245,7 +245,7 @@ All six US time zones; two weekly slots around school.
 
 ## Book a free algebra trial lesson.
 
-Tell us where your child is — pre-algebra, Algebra 1 or 2 — and we'll find the idea that's actually holding them up and show you how we'd fix it. No card needed.
+Tell us where your child is, pre-algebra, Algebra 1 or 2, and we'll find the idea that's actually holding them up and show you how we'd fix it. No card needed.
 
 [See the full course](/courses/complete-high-school-mathematics-mastery)Keep exploring
 
@@ -259,7 +259,7 @@ Real student projects
 
 Every one is a real, live project shipped by a Modern Age Coders student. Explore more in [Student Labs](/student-labs).
 
-[![Babu — 90 Second Maths Challenge](/images/projects/babu.webp)GameBabu — 90 Second Maths ChallengeAn exciting 90-second maths challenge with random problems under time pressure, and a dynamic leaderboard powered by Firebase/MongoDB with real-time score updates.by Modern Age CodersOpen the live project ↗](https://babu.modernagecoders.com)[![NutriLife — AI Nutrition Coach](/images/projects/nutrilife.webp)AI & MLNutriLife — AI Nutrition CoachSnap a photo of any meal and NutriLife instantly names every food, then breaks down the calories, macros, vitamins and minerals — powered by AI. Bhavya vibe-coded it from a single idea: shaped the app in prompts, then wired up the AI food-recognition, daily tracking and smart coaching by hand.by BhavyaOpen the live project ↗](https://nutrilife-bhavya.lovable.app)[![GuardianX — AI Bodyguard for the Internet](/images/projects/guardianx.webp)AI & MLGuardianX — AI Bodyguard for the InternetPaste any suspicious link or message and GuardianX returns an instant AI verdict before you become a victim — plus a link scanner, safety score, breach check and live scam alerts built for India. Vibe-coded from idea to working product through prompts, then refined until it genuinely understands how phishing and scams work.by VivaanOpen the live project ↗](https://guardianx-cybersaver.lovable.app)
+[![Babu, 90 Second Maths Challenge](/images/projects/babu.webp)GameBabu, 90 Second Maths ChallengeAn exciting 90-second maths challenge with random problems under time pressure, and a dynamic leaderboard powered by Firebase/MongoDB with real-time score updates.by Modern Age CodersOpen the live project ↗](https://babu.modernagecoders.com)[![NutriLife, AI Nutrition Coach](/images/projects/nutrilife.webp)AI & MLNutriLife, AI Nutrition CoachSnap a photo of any meal and NutriLife instantly names every food, then breaks down the calories, macros, vitamins and minerals, powered by AI. Bhavya vibe-coded it from a single idea: shaped the app in prompts, then wired up the AI food-recognition, daily tracking and smart coaching by hand.by BhavyaOpen the live project ↗](https://nutrilife-bhavya.lovable.app)[![GuardianX, AI Bodyguard for the Internet](/images/projects/guardianx.webp)AI & MLGuardianX, AI Bodyguard for the InternetPaste any suspicious link or message and GuardianX returns an instant AI verdict before you become a victim, plus a link scanner, safety score, breach check and live scam alerts built for India. Vibe-coded from idea to working product through prompts, then refined until it genuinely understands how phishing and scams work.by VivaanOpen the live project ↗](https://guardianx-cybersaver.lovable.app)
 
 ---
 

@@ -1,10 +1,10 @@
 ---
 title: "Winter Coding Camp for Teens 2026 (Ages 12–17) | Online Worldwide | Modern Age Coders"
-description: "Winter Coding Camp for Teens 2026 (Ages 12–17) — Online worldwide. Learn HTML, CSS, JavaScript, Python & AI in 8 live one-to-one classes. Build portfolio projects. ₹9,999 / $200. Enroll now!"
+description: "Winter Coding Camp for Teens 2026 (Ages 12–17): Online worldwide. Learn HTML, CSS, JavaScript, Python & AI in 8 live one-to-one classes. Build portfolio projects. ₹9,999 / $200. Enroll now!"
 canonical: https://learn.modernagecoders.com/winter-coding-camp-teens
 source: src/pages/winter-coding-camp-teens.html
 ---
-> Winter Coding Camp for Teens 2026 (Ages 12–17) — Online worldwide. Learn HTML, CSS, JavaScript, Python & AI in 8 live one-to-one classes. Build portfolio projects. ₹9,999 / $200. Enroll now!
+> Winter Coding Camp for Teens 2026 (Ages 12–17): Online worldwide. Learn HTML, CSS, JavaScript, Python & AI in 8 live one-to-one classes. Build portfolio projects. ₹9,999 / $200. Enroll now!
 
 Investment
 
@@ -50,15 +50,15 @@ Build beautiful, interactive websites from scratch. The foundational trio of web
 
 ### Python Programming
 
-The world's most in-demand language. Used in AI, data science, web development, and automation — a skill that's valued in every industry.
+The world's most in-demand language. Used in AI, data science, web development, and automation, a skill that's valued in every industry.
 
 ### AI Tools & Applications
 
-Leverage ChatGPT, Gemini, and AI coding assistants like Copilot. Learn to build apps that use AI APIs — skills that define the future of every career.
+Leverage ChatGPT, Gemini, and AI coding assistants like Copilot. Learn to build apps that use AI APIs, skills that define the future of every career.
 
 ### App Development
 
-Create functional, mobile-friendly applications. Understand the full development lifecycle from idea to deployment — just like real-world engineers.
+Create functional, mobile-friendly applications. Understand the full development lifecycle from idea to deployment, just like real-world engineers.
 
 ### Project Deployment
 
@@ -96,7 +96,7 @@ Modern layout techniques, responsive design principles, media queries
 
 05**JavaScript Basics**
 
-Variables, data types, operators, functions — writing your first interactive scripts
+Variables, data types, operators, functions, writing your first interactive scripts
 
 06**Project 1: Personal Landing Page**
 
@@ -116,7 +116,7 @@ Build a fully functional quiz application with real-time scoring and feedback
 
 09**Introduction to Python**
 
-Python setup, syntax, variables, input/output — comparison with JavaScript
+Python setup, syntax, variables, input/output, comparison with JavaScript
 
 10**Python: Data Structures**
 
@@ -124,7 +124,7 @@ Lists, dictionaries, loops, conditionals, functions for code organisation
 
 11**Project 3: Python Automation Script**
 
-Create a useful automation tool — file organiser, web scraper, or data processor
+Create a useful automation tool, file organiser, web scraper, or data processor
 
 Week 3
 
@@ -136,7 +136,7 @@ Using ChatGPT for coding, AI image generation, GitHub Copilot introduction
 
 13**Building with AI APIs**
 
-Integrating AI capabilities into web applications — real API calls and JSON
+Integrating AI capabilities into web applications, real API calls and JSON
 
 14**Project 4: AI-Powered Web App**
 
@@ -160,7 +160,7 @@ HTML5CSS3JavaScriptPythonAI ToolsGitHubYour Portfolio
 
 #### Personal Landing Page
 
-A responsive, professional landing page that showcases you — deployed live
+A responsive, professional landing page that showcases you, deployed live
 
 02
 
@@ -184,13 +184,13 @@ A web application with integrated AI capabilities via real API calls
 
 #### Developer Portfolio
 
-Your personal portfolio website — deployed, live, and shareable
+Your personal portfolio website, deployed, live, and shareable
 
 ## Beyond The Classroom
 
 #### College Applications
 
-A coding portfolio sets you apart from thousands of applicants. Show colleges what you've built — not just your grades.
+A coding portfolio sets you apart from thousands of applicants. Show colleges what you've built, not just your grades.
 
 #### Early Internships
 
@@ -198,7 +198,7 @@ With real coding skills and a live portfolio, you can apply for tech internships
 
 #### Global Peer Network
 
-Connect with ambitious peers from 25+ countries. Friendships built on shared projects — a network that outlasts the camp.
+Connect with ambitious peers from 25+ countries. Friendships built on shared projects, a network that outlasts the camp.
 
 #### Startup Potential
 
@@ -218,11 +218,11 @@ A laptop or desktop (Windows/Mac/Linux), stable internet connection, and headpho
 
 #### How long is each session?
 
-Each session is 90 minutes — long enough for meaningful learning but short enough to maintain focus. Every session includes hands-on coding practice.
+Each session is 90 minutes, long enough for meaningful learning but short enough to maintain focus. Every session includes hands-on coding practice.
 
-#### I'm in the US/UK/UAE — can I join?
+#### I'm in the US/UK/UAE: can I join?
 
-Absolutely! We have students from 25+ countries. International students pay $200 (USD). We schedule batches across time zones — contact us to find a batch that fits your schedule.
+Absolutely! We have students from 25+ countries. International students pay $200 (USD). We schedule batches across time zones, contact us to find a batch that fits your schedule.
 
 #### Can I use these skills for college or career?
 
@@ -244,7 +244,7 @@ Real student projects
 
 Every one is a real, live project shipped by a Modern Age Coders student. Explore more in [Student Labs](/student-labs).
 
-[![SkyCast — Weather Forecast App](/images/projects/skycast.webp)Web AppSkyCast — Weather Forecast AppAn interactive weather forecasting site with real-time updates for any location — temperature, humidity, wind speed and conditions in a clean, responsive interface.by KrishOpen the live project ↗](https://krish-shroff.github.io/AuraWeatherTech/)[![HugSelle — AI Smile Generator](/images/projects/hugselle.webp)AI & MLHugSelle — AI Smile GeneratorA heartwarming AI-powered web app that detects your mood and generates uplifting quotes and visuals to make you smile — a creative blend of technology and positivity.by AnuragOpen the live project ↗](https://hugselle.modernagecoders.com)[![Moxo — Company Landing Page](/images/projects/moxo.webp)Web AppMoxo — Company Landing PageA stunning modern landing page with smooth parallax scrolling, advanced GSAP animations and elegant section transitions that bring the brand to life.by IshaOpen the live project ↗](https://moxo.modernagecoders.com)
+[![SkyCast, Weather Forecast App](/images/projects/skycast.webp)Web AppSkyCast, Weather Forecast AppAn interactive weather forecasting site with real-time updates for any location, temperature, humidity, wind speed and conditions in a clean, responsive interface.by KrishOpen the live project ↗](https://krish-shroff.github.io/AuraWeatherTech/)[![HugSelle, AI Smile Generator](/images/projects/hugselle.webp)AI & MLHugSelle, AI Smile GeneratorA heartwarming AI-powered web app that detects your mood and generates uplifting quotes and visuals to make you smile, a creative blend of technology and positivity.by AnuragOpen the live project ↗](https://hugselle.modernagecoders.com)[![Moxo, Company Landing Page](/images/projects/moxo.webp)Web AppMoxo, Company Landing PageA stunning modern landing page with smooth parallax scrolling, advanced GSAP animations and elegant section transitions that bring the brand to life.by IshaOpen the live project ↗](https://moxo.modernagecoders.com)
 
 Parent & student voices
 

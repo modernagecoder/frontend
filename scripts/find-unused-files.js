@@ -1,5 +1,5 @@
 /**
- * find-unused-files.js — Identify CSS/JS files in src/ that are not referenced anywhere.
+ * find-unused-files.js: Identify CSS/JS files in src/ that are not referenced anywhere.
  *
  * Scans every .html, .js, .css, .md file in the project and builds a set of
  * filenames that are referenced. Then lists files in src/css/ and src/js/

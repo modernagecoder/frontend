@@ -1,14 +1,14 @@
 ---
-title: "Online Maths Tuition in the UAE · 1:1 Across Every Curriculum & Emirate — Modern Age Coders"
-description: "Live 1:1 online maths tuition across the UAE — for British, American, IB, CBSE and MOE curricula, all ages, in every emirate. We teach the reasoning behind the maths, not rote memorising. Mentors in Gulf Standard Time. USD 150/month, 8 classes. Book a free trial."
+title: "Online Maths Tuition in the UAE · 1:1 Across Every Curriculum & Emirate | Modern Age Coders"
+description: "Live 1:1 online maths tuition across the UAE, for British, American, IB, CBSE and MOE curricula, all ages, in every emirate. We teach the reasoning behind the maths, not rote memorising. Mentors in Gulf Standard Time. USD 150/month, 8 classes. Book a free trial."
 canonical: https://learn.modernagecoders.com/online-maths-tuition-uae
 source: src/pages/online-maths-tuition-uae.html
 ---
-> Live 1:1 online maths tuition across the UAE — for British, American, IB, CBSE and MOE curricula, all ages, in every emirate. We teach the reasoning behind the maths, not rote memorising. Mentors in Gulf Standard Time. USD 150/month, 8 classes. Book a free trial.
+> Live 1:1 online maths tuition across the UAE, for British, American, IB, CBSE and MOE curricula, all ages, in every emirate. We teach the reasoning behind the maths, not rote memorising. Mentors in Gulf Standard Time. USD 150/month, 8 classes. Book a free trial.
 
 In short
 
-**Modern Age Coders provides live, one-to-one online maths tuition across the UAE** — in Dubai, Abu Dhabi, Sharjah and every emirate — for the British (GCSE, A-Level), American (SAT, AP), IB (Maths AA & AI), CBSE and UAE MOE curricula, for all ages from primary to adult.
+**Modern Age Coders provides live, one-to-one online maths tuition across the UAE**, in Dubai, Abu Dhabi, Sharjah and every emirate, for the British (GCSE, A-Level), American (SAT, AP), IB (Maths AA & AI), CBSE and UAE MOE curricula, for all ages from primary to adult.
 
 Lessons run in Gulf Standard Time with a dedicated tutor who teaches the reasoning behind the maths, not rote memorising. Pricing is **USD 150 per month** for eight 1:1 lessons, or USD 100 per month in a small group. The first lesson is free.
 
@@ -16,23 +16,23 @@ Why UAE families struggle to find the right maths help
 
 ## In a country of many curricula, most tutors only know one.
 
-The UAE is unusual: within a single neighbourhood you'll find children on the British, American, IB, CBSE and Ministry of Education systems, each with its own syllabus, exams and way of doing things. A tutor who knows one curriculum well can be the wrong fit for a child on another — and families often discover this only after weeks of mismatched lessons.
+The UAE is unusual: within a single neighbourhood you'll find children on the British, American, IB, CBSE and Ministry of Education systems, each with its own syllabus, exams and way of doing things. A tutor who knows one curriculum well can be the wrong fit for a child on another, and families often discover this only after weeks of mismatched lessons.
 
 The other common problem is the tutoring-mill approach: drilling past papers and tricks that lift a test score briefly but leave no real understanding underneath.
 
-We're built for exactly this. Our tutors teach to your child's actual curriculum and school, and we match each family with a mentor who fits — so an IB student gets an IB mind, a CBSE student gets CBSE depth, a British-school student gets GCSE and A-Level precision.
+We're built for exactly this. Our tutors teach to your child's actual curriculum and school, and we match each family with a mentor who fits, so an IB student gets an IB mind, a CBSE student gets CBSE depth, a British-school student gets GCSE and A-Level precision.
 
 And whichever system your child follows, the teaching philosophy is the same: understand *why* the maths works, so it transfers to the exam, the next year, and real life.
 
 How we teach
 
-## Understanding first — the same principle, whatever the curriculum.
+## Understanding first: the same principle, whatever the curriculum.
 
 Memorised methods fade between systems and exams. Understood ideas travel anywhere.
 
 ### Match the curriculum and the mentor
 
-We place your child with a tutor who knows their exact system — British, American, IB, CBSE or MOE — and works from their school's syllabus.
+We place your child with a tutor who knows their exact system, British, American, IB, CBSE or MOE, and works from their school's syllabus.
 
 ### Find and fix the real gap
 
@@ -40,7 +40,7 @@ We diagnose the earlier idea that's actually missing, rather than just drilling 
 
 ### Teach the reasoning
 
-Every method is shown as something your child can rebuild and explain — the only kind of maths that survives an unfamiliar question.
+Every method is shown as something your child can rebuild and explain, the only kind of maths that survives an unfamiliar question.
 
 ### Build fluency & exam technique
 
@@ -48,17 +48,17 @@ Once the idea is solid, we add the speed and the curriculum-specific exam skills
 
 See it for yourself
 
-## "BODMAS" — why the order of operations isn't an arbitrary rule.
+## "BODMAS": why the order of operations isn't an arbitrary rule.
 
 Worked example · works in every curriculum
 
-**What gets memorised:** "BODMAS — brackets, orders, division, multiplication, addition, subtraction." Children chant the order and still get 2 + 3 × 4 wrong, because they've memorised a sequence without knowing why it exists.
+**What gets memorised:** "BODMAS, brackets, orders, division, multiplication, addition, subtraction." Children chant the order and still get 2 + 3 × 4 wrong, because they've memorised a sequence without knowing why it exists.
 
-**How we do it.** The order isn't a rule someone invented — it reflects what the symbols *mean*. "3 × 4" is shorthand for "three 4s grouped together." So 2 + 3 × 4 means "2, plus three 4s":
+**How we do it.** The order isn't a rule someone invented. It reflects what the symbols *mean*. "3 × 4" is shorthand for "three 4s grouped together." So 2 + 3 × 4 means "2, plus three 4s":
 
-2 + 3 × 4 means 2 + (4 + 4 + 4)= 2 + 12 = **14** (not 20)multiplication binds tighter *because* it is repeated addition —it has to happen before we add the loose 2
+2 + 3 × 4 means 2 + (4 + 4 + 4)= 2 + 12 = **14** (not 20)multiplication binds tighter *because* it is repeated addition. It has to happen before we add the loose 2
 
-Once a child sees that multiplication is "already a group" and so must be settled before stray additions, BODMAS stops being a chant to recall and becomes obvious. This is how we teach everything, in every curriculum: not the rule, but the reason — which is exactly what makes it stick and transfer.
+Once a child sees that multiplication is "already a group" and so must be settled before stray additions, BODMAS stops being a chant to recall and becomes obvious. This is how we teach everything, in every curriculum: not the rule, but the reason, which is exactly what makes it stick and transfer.
 
 Why a coding school teaches maths
 
@@ -66,7 +66,7 @@ Why a coding school teaches maths
 
 ### Break the big into the small
 
-Decomposition — splitting a hard problem into steps — is the same skill in a maths word problem and a software feature.
+Decomposition, splitting a hard problem into steps, is the same skill in a maths word problem and a software feature.
 
 ### Find the pattern
 
@@ -74,15 +74,15 @@ Spotting structure is what lets a coder write a loop and a student see why a met
 
 ### Debug your reasoning
 
-"Where did this go wrong?" is a skill we teach directly — checking your own thinking instead of waiting for a red mark.
+"Where did this go wrong?" is a skill we teach directly, checking your own thinking instead of waiting for a red mark.
 
-We're Modern Age Coders, an education company built around real coding and AI. Maths is where that logical thinking begins, and the UAE — with its push toward an AI-driven, knowledge economy — is exactly the place where students who can truly *reason*, not just recall, will pull ahead.
+We're Modern Age Coders, an education company built around real coding and AI. Maths is where that logical thinking begins, and the UAE, with its push toward an AI-driven, knowledge economy, is exactly the place where students who can truly *reason*, not just recall, will pull ahead.
 
 Curricula & ages we cover
 
 ## One provider for whichever system your child follows.
 
-Each has a dedicated page — but every one is taught for understanding first.
+Each has a dedicated page, but every one is taught for understanding first.
 
 ### British curriculum
 
@@ -110,11 +110,11 @@ Online across [Dubai](/maths-tutor-in-dubai), [Abu Dhabi](/maths-tutor-in-abu-dh
 
 Who this is for
 
-## The right fit — and an honest word on what to expect.
+## The right fit: and an honest word on what to expect.
 
 **This fits** any family in the UAE who wants serious, curriculum-matched maths help: a child slipping in school, one aiming for top grades or a competitive university, an expat family who's moved between systems, or an adult brushing up. We teach all of them, in any emirate.
 
-**What's realistic.** Most families notice their child stops dreading maths within a few weeks. Grade improvements track a term of steady, twice-weekly work as the foundations rebuild — not overnight. We'll always be honest about what's achievable in your timeline.
+**What's realistic.** Most families notice their child stops dreading maths within a few weeks. Grade improvements track a term of steady, twice-weekly work as the foundations rebuild, not overnight. We'll always be honest about what's achievable in your timeline.
 
 ### What we won't do
 
@@ -175,7 +175,7 @@ Who teaches your child
 
 Every tutor we take on has to know their curriculum deeply enough to explain an idea three different ways, and stay genuinely patient when a student is stuck for the fourth time. We test for both, then match each family with a mentor who fits the child and the system they follow.
 
-Your child keeps the same tutor, so trust builds — and a child who trusts their tutor will admit "I don't get it," which is where every breakthrough begins.
+Your child keeps the same tutor, so trust builds, and a child who trusts their tutor will admit "I don't get it," which is where every breakthrough begins.
 
 "My child Dhairya is really enjoying the classes. This is his first online class, and he eagerly looks forward to it. I can see his improvement."
 
@@ -189,7 +189,7 @@ An honest comparison
 
 | What matters | Modern Age Coders | Local tutoring centre | Maths apps |
 | --- | --- | --- | --- |
-| Matches your exact curriculum | Yes — all five systems | Usually one | Generic |
+| Matches your exact curriculum | Yes, all five systems | Usually one | Generic |
 | Teaches the reasoning | Always | Varies | Rarely |
 | Same tutor each time | Yes | Often rotates | N/A |
 | Fully online, your time zone | Yes, GST | Travel required | Yes |
@@ -203,19 +203,19 @@ Questions UAE families ask
 
 Do you teach maths for UAE schools and curricula?
 
-Yes — British (GCSE and A-Level), American (with SAT and AP), IB (Maths AA and AI), Indian CBSE and ICSE, and the UAE Ministry of Education curriculum. We teach to your child's actual school and syllabus.
+Yes: British (GCSE and A-Level), American (with SAT and AP), IB (Maths AA and AI), Indian CBSE and ICSE, and the UAE Ministry of Education curriculum. We teach to your child's actual school and syllabus.
 
 Which emirates do you cover?
 
-All of them — Dubai, Abu Dhabi, Sharjah, Ajman, Ras Al Khaimah, Fujairah and Umm Al Quwain — because tuition is fully online, in Gulf Standard Time.
+All of them, Dubai, Abu Dhabi, Sharjah, Ajman, Ras Al Khaimah, Fujairah and Umm Al Quwain, because tuition is fully online, in Gulf Standard Time.
 
 How much does maths tuition cost in the UAE?
 
-USD 150 per month for private 1:1 — eight live lessons, two each week. Small-group option USD 100 per month. No contract; cancel any time.
+USD 150 per month for private 1:1, eight live lessons, two each week. Small-group option USD 100 per month. No contract; cancel any time.
 
 Is the first lesson free?
 
-Yes — the first lesson is free, with no card needed to book. You meet the tutor and we assess your child and curriculum.
+Yes, the first lesson is free, with no card needed to book. You meet the tutor and we assess your child and curriculum.
 
 Are the lessons live or recorded?
 
@@ -231,7 +231,7 @@ We teach reasoning rather than tricks, keep the same dedicated tutor, cover ever
 
 Do you cover all ages?
 
-Yes — from primary children through secondary and curriculum exams to college students and adults, placed by understanding rather than age.
+Yes, from primary children through secondary and curriculum exams to college students and adults, placed by understanding rather than age.
 
 ## Book a free maths trial lesson, anywhere in the UAE.
 
@@ -249,7 +249,7 @@ Real student projects
 
 Every one is a real, live project shipped by a Modern Age Coders student. Explore more in [Student Labs](/student-labs).
 
-[![FreshTrack — Food Expiry Tracker](/images/projects/fresh.webp)Web AppFreshTrack — Food Expiry TrackerA smart food-management system to track expiry dates — add, update and delete items while the app checks expiry automatically, online and offline.by TanishOpen the live project ↗](https://freshtrackpro.netlify.app/)[![Pracy — Coding Practice & Quiz Platform](/images/projects/pracy.webp)Web AppPracy — Coding Practice & Quiz PlatformAn all-in-one coding-practice site with interactive challenges, quizzes and score tracking across multiple languages to strengthen logic and problem-solving.by RohanOpen the live project ↗](https://astounding-flan-f18e08.netlify.app/)[![Word Counter Website](/images/projects/wordcounter.webp)ToolWord Counter WebsiteA simple yet powerful tool that counts words, sentences and paragraphs from user input with instant, real-time results and a clean responsive interface.by VanshOpen the live project ↗](https://vanshagarwalwordcounter-sys.github.io/WordCounter/)
+[![FreshTrack, Food Expiry Tracker](/images/projects/fresh.webp)Web AppFreshTrack, Food Expiry TrackerA smart food-management system to track expiry dates, add, update and delete items while the app checks expiry automatically, online and offline.by TanishOpen the live project ↗](https://freshtrackpro.netlify.app/)[![Pracy, Coding Practice & Quiz Platform](/images/projects/pracy.webp)Web AppPracy, Coding Practice & Quiz PlatformAn all-in-one coding-practice site with interactive challenges, quizzes and score tracking across multiple languages to strengthen logic and problem-solving.by RohanOpen the live project ↗](https://astounding-flan-f18e08.netlify.app/)[![Word Counter Website](/images/projects/wordcounter.webp)ToolWord Counter WebsiteA simple yet powerful tool that counts words, sentences and paragraphs from user input with instant, real-time results and a clean responsive interface.by VanshOpen the live project ↗](https://vanshagarwalwordcounter-sys.github.io/WordCounter/)
 
 Parent & student voices
 
@@ -273,7 +273,7 @@ Parent*
 
 ★★★★★
 
-> “Very good classes. Don't worry about coding—they teach the best, especially Shivam sir.”
+> “Very good classes. Don't worry about coding. They teach the best, especially Shivam sir.”
 
 *SShaarav Wadhwa
 Student*

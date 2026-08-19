@@ -1,20 +1,20 @@
 ---
-title: "AP Calculus Tutoring Online · 1:1 AP Calculus AB & BC Prep — Modern Age Coders"
-description: "Live 1:1 online AP Calculus AB & BC tutoring. We teach why calculus works — limits, derivatives, integrals, the Fundamental Theorem and series — then train the AP free-response technique. Aligned to the College Board CED. Mentors in every US time zone. Priced for your country."
+title: "AP Calculus Tutoring Online · 1:1 AP Calculus AB & BC Prep | Modern Age Coders"
+description: "Live 1:1 online AP Calculus AB & BC tutoring. We teach why calculus works, limits, derivatives, integrals, the Fundamental Theorem and series, then train the AP free-response technique. Aligned to the College Board CED. Mentors in every US time zone. Priced for your country."
 canonical: https://learn.modernagecoders.com/ap-calculus-tutoring-online
 source: src/pages/ap-calculus-tutoring-online.html
 ---
-> Live 1:1 online AP Calculus AB & BC tutoring. We teach why calculus works — limits, derivatives, integrals, the Fundamental Theorem and series — then train the AP free-response technique. Aligned to the College Board CED. Mentors in every US time zone. Priced for your country.
+> Live 1:1 online AP Calculus AB & BC tutoring. We teach why calculus works, limits, derivatives, integrals, the Fundamental Theorem and series, then train the AP free-response technique. Aligned to the College Board CED. Mentors in every US time zone. Priced for your country.
 
 Why AP Calculus trips students
 
 ## Calculus isn't hard because it's advanced. It's hard because one idea was skipped.
 
-Most students who struggle with AP Calc can differentiate and integrate on autopilot. What they can't do is say what those operations *mean* — so the moment a problem isn't "find the derivative" but "interpret what this derivative tells you about the situation," they freeze. The AP exam is full of exactly that.
+Most students who struggle with AP Calc can differentiate and integrate on autopilot. What they can't do is say what those operations *mean*, so the moment a problem isn't "find the derivative" but "interpret what this derivative tells you about the situation," they freeze. The AP exam is full of exactly that.
 
 The cause is almost always the same: the course moved past limits and the meaning of a derivative quickly, the rules were memorized, and the conceptual floor was never poured.
 
-The free-response section punishes this twice. Students lose points not on the calculation but on justification — failing to say *why* a function has a maximum, or what units an answer carries.
+The free-response section punishes this twice. Students lose points not on the calculation but on justification, failing to say *why* a function has a maximum, or what units an answer carries.
 
 We rebuild the meaning first, so interpretation questions become answerable, then drill the FRQ language and setup the readers actually reward. Understanding and exam technique, in that order.
 
@@ -26,7 +26,7 @@ In that order, because the later steps only stick on top of the first.
 
 ### Anchor the big three
 
-Limit, derivative, integral — what each one really is, geometrically and in plain words. Everything in AP Calc hangs off these.
+Limit, derivative, integral, what each one really is, geometrically and in plain words. Everything in AP Calc hangs off these.
 
 ### Connect rules to meaning
 
@@ -42,7 +42,7 @@ Using released exams, we build the exact notation, justification language and pa
 
 See it for yourself
 
-## The Fundamental Theorem — why area and slope are the same coin.
+## The Fundamental Theorem: why area and slope are the same coin.
 
 Worked example · the heart of AP Calculus
 
@@ -52,7 +52,7 @@ Worked example · the heart of AP Calculus
 
 A(x + h) − A(x) ≈ f(x) · hso ( A(x+h) − A(x) ) / h ≈ f(x)let h → 0: A′(x) = f(x)
 
-That's the Fundamental Theorem: the rate at which area accumulates *is* the height of the curve. Differentiation and integration are inverse operations — not by decree, but for a reason a student can see. Once this lands, the "antiderivative and subtract" rule isn't a trick; it's the obvious consequence. This single insight is what turns AP Calculus from a pile of procedures into one connected idea.
+That's the Fundamental Theorem: the rate at which area accumulates *is* the height of the curve. Differentiation and integration are inverse operations, not by decree, but for a reason a student can see. Once this lands, the "antiderivative and subtract" rule isn't a trick; it's the obvious consequence. This single insight is what turns AP Calculus from a pile of procedures into one connected idea.
 
 Why a coding school teaches calculus
 
@@ -60,7 +60,7 @@ Why a coding school teaches calculus
 
 ### Limits & approximation
 
-A derivative is a limit of approximations — the same idea behind how a computer estimates and refines. Understanding one illuminates the other.
+A derivative is a limit of approximations, the same idea behind how a computer estimates and refines. Understanding one illuminates the other.
 
 ### Building from primitives
 
@@ -104,11 +104,11 @@ Calculator and no-calculator sections, multiple-choice strategy, and free-respon
 
 Who this is for
 
-## The right fit — and an honest word on what to expect.
+## The right fit: and an honest word on what to expect.
 
 **This fits** the student lost in the class, the one doing fine but aiming for a 5, and the self-studier taking the exam without a strong teacher behind them. We meet the level you're at and aim at the score that's realistic from here.
 
-**What's realistic.** Conceptual clarity often comes within a few weeks once the meaning is rebuilt; a strong exam score tracks the months of practice you put in. We'll be straight about what's possible in your timeline and never guarantee a 5 — that depends on you as much as us.
+**What's realistic.** Conceptual clarity often comes within a few weeks once the meaning is rebuilt; a strong exam score tracks the months of practice you put in. We'll be straight about what's possible in your timeline and never guarantee a 5. That depends on you as much as us.
 
 ### What we won't do
 
@@ -167,7 +167,7 @@ Who teaches your student
 
 ## Mentors who know calculus deeply and the AP exam precisely.
 
-Teaching AP Calculus well takes both a real command of the mathematics and a precise knowledge of how the exam is scored. Our mentors have both — they can explain why the FTC is true *and* tell you the exact justification phrase an FRQ reader needs to award the point.
+Teaching AP Calculus well takes both a real command of the mathematics and a precise knowledge of how the exam is scored. Our mentors have both. They can explain why the FTC is true *and* tell you the exact justification phrase an FRQ reader needs to award the point.
 
 The same mentor follows the whole course, so by spring they know precisely which units and which FRQ habits still need work.
 
@@ -189,7 +189,7 @@ An honest comparison
 | Answers your specific confusion | Live, in the moment | No | No |
 | Monthly price | $20–100 | $15–25 |
 
-A good review book is a fine supplement. It can't watch your student justify a maximum and tell them the exact word that earns the point — that's what live 1:1 adds.
+A good review book is a fine supplement. It can't watch your student justify a maximum and tell them the exact word that earns the point. That's what live 1:1 adds.
 
 Common questions
 
@@ -201,7 +201,7 @@ Yes. AB covers limits, derivatives, integrals and applications; BC adds series, 
 
 Is the tutoring aligned with the College Board CED?
 
-Yes — official units and objectives, AP notation and justification language, both multiple-choice and free-response, calculator and no-calculator.
+Yes, official units and objectives, AP notation and justification language, both multiple-choice and free-response, calculator and no-calculator.
 
 My student is in the class but lost. Where do you start?
 
@@ -209,19 +209,19 @@ Usually with the limit and what a derivative and integral really mean. When thos
 
 Can you help with the free-response questions specifically?
 
-Yes — FRQs lose points on justification and notation, not the math. We train the exact language readers reward using released questions.
+Yes: FRQs lose points on justification and notation, not the math. We train the exact language readers reward using released questions.
 
 How much does it cost?
 
-USD 150 per month for private 1:1 — eight live sessions, two each week. Small-group option USD 100 per month. No contract; cancel any time.
+USD 150 per month for private 1:1, eight live sessions, two each week. Small-group option USD 100 per month. No contract; cancel any time.
 
 Is there a free trial?
 
-Yes — the first session is free, no card needed. We see which units are shaky and build a plan.
+Yes, the first session is free, no card needed. We see which units are shaky and build a plan.
 
 Will my student keep the same tutor?
 
-Yes — one mentor through the course who ramps into focused review before the May exam.
+Yes, one mentor through the course who ramps into focused review before the May exam.
 
 Can you help right before the AP exam?
 
@@ -229,7 +229,7 @@ Yes, though more time is better. We focus on high-value units, timed FRQ practic
 
 Are sessions live?
 
-Yes — live, one-to-one, with a shared whiteboard.
+Yes, live, one-to-one, with a shared whiteboard.
 
 Will this earn college credit?
 
@@ -241,7 +241,7 @@ All six US time zones; two weekly slots around school.
 
 Do you also tutor college calculus?
 
-Yes — see our [college math page](/online-maths-tutoring-for-college-students-in-usa).
+Yes. See our [college math page](/online-maths-tutoring-for-college-students-in-usa).
 
 ## Book a free AP Calculus trial session.
 
@@ -259,7 +259,7 @@ Real student projects
 
 Every one is a real, live project shipped by a Modern Age Coders student. Explore more in [Student Labs](/student-labs).
 
-[![HairSync — AI Hairstyle Try-On](/images/projects/hairsync.webp)AI & MLHairSync — AI Hairstyle Try-OnUpload a clear photo and try on any hairstyle before you commit — wolf cuts, curtain bangs, fades, braids and dozens of trending looks, rendered onto your own face by AI in seconds. Kriti vibe-coded this virtual try-on studio from a single idea into a working app.by KritiOpen the live project ↗](https://hairsync.lovable.app)[![SkyCast — Weather Forecast App](/images/projects/skycast.webp)Web AppSkyCast — Weather Forecast AppAn interactive weather forecasting site with real-time updates for any location — temperature, humidity, wind speed and conditions in a clean, responsive interface.by KrishOpen the live project ↗](https://krish-shroff.github.io/AuraWeatherTech/)[![HugSelle — AI Smile Generator](/images/projects/hugselle.webp)AI & MLHugSelle — AI Smile GeneratorA heartwarming AI-powered web app that detects your mood and generates uplifting quotes and visuals to make you smile — a creative blend of technology and positivity.by AnuragOpen the live project ↗](https://hugselle.modernagecoders.com)
+[![HairSync, AI Hairstyle Try-On](/images/projects/hairsync.webp)AI & MLHairSync, AI Hairstyle Try-OnUpload a clear photo and try on any hairstyle before you commit, wolf cuts, curtain bangs, fades, braids and dozens of trending looks, rendered onto your own face by AI in seconds. Kriti vibe-coded this virtual try-on studio from a single idea into a working app.by KritiOpen the live project ↗](https://hairsync.lovable.app)[![SkyCast, Weather Forecast App](/images/projects/skycast.webp)Web AppSkyCast, Weather Forecast AppAn interactive weather forecasting site with real-time updates for any location, temperature, humidity, wind speed and conditions in a clean, responsive interface.by KrishOpen the live project ↗](https://krish-shroff.github.io/AuraWeatherTech/)[![HugSelle, AI Smile Generator](/images/projects/hugselle.webp)AI & MLHugSelle, AI Smile GeneratorA heartwarming AI-powered web app that detects your mood and generates uplifting quotes and visuals to make you smile, a creative blend of technology and positivity.by AnuragOpen the live project ↗](https://hugselle.modernagecoders.com)
 
 ---
 

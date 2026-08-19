@@ -23,7 +23,7 @@ INNER JOIN orders o ON c.id = o.customer_id;
 
 **Answer:** `4 rows`
 
-Aarav has 2 orders, Priya has 1, Rohan has 1 — total 4. Meera and Vikram (no orders) are excluded. Order 105 (customer_id=7) has no matching customer and is excluded.
+Aarav has 2 orders, Priya has 1, Rohan has 1, total 4. Meera and Vikram (no orders) are excluded. Order 105 (customer_id=7) has no matching customer and is excluded.
 
 ### Q2. [Easy] How many rows does this query return?
 
@@ -285,7 +285,7 @@ NOT EXISTS finds customers who have no matching order. Same result as `LEFT JOIN
 
 **Answer:** `INNER JOIN`
 
-INNER JOIN (or plain JOIN) returns only the intersection — rows where the ON condition is true on both sides.
+INNER JOIN (or plain JOIN) returns only the intersection, rows where the ON condition is true on both sides.
 
 ### Q2. [Easy] Which JOIN keeps all rows from the left table even if there is no match on the right?
 
@@ -321,7 +321,7 @@ WHERE c.id = o.customer_id;
 
 *Hint:* This is the old implicit join syntax.
 
-**Answer:** `Same as INNER JOIN — returns matching customer/order pairs.`
+**Answer:** `Same as INNER JOIN, returns matching customer/order pairs.`
 
 Implicit join (comma in FROM + WHERE condition) is equivalent to INNER JOIN. Avoid it in new code because forgetting the WHERE gives a cartesian product. Modern style: explicit JOIN ... ON.
 
@@ -368,7 +368,7 @@ LEFT JOIN keeps every customer. MAX returns the latest date, or NULL if no order
 
 *Hint:* Think about when filtering happens.
 
-**Answer:** `ON filters during the join — unmatched rows from the left table are still kept (as NULL). WHERE filters after the join — it can drop those NULL rows, effectively turning LEFT JOIN into INNER JOIN.`
+**Answer:** `ON filters during the join, unmatched rows from the left table are still kept (as NULL). WHERE filters after the join, it can drop those NULL rows, effectively turning LEFT JOIN into INNER JOIN.`
 
 ON is part of the JOIN mechanism itself. WHERE is a post-join filter. When filtering the right table in a LEFT JOIN, use ON to preserve LEFT JOIN semantics. INNER JOIN treats ON and WHERE identically.
 
@@ -457,7 +457,7 @@ LEFT side: 4 matched + 2 unmatched customers = 6 rows. RIGHT side: 4 matched + 1
 
 **Answer:** B
 
-**B is correct.** INNER JOIN returns one row per matching pair. If each of the 5 orders matches exactly one customer, the result is 5 rows (not 10 — unmatched customers are dropped).
+**B is correct.** INNER JOIN returns one row per matching pair. If each of the 5 orders matches exactly one customer, the result is 5 rows (not 10, unmatched customers are dropped).
 
 ### Q10. [Medium] What happens when you filter a LEFT JOIN's right table in WHERE?
 
@@ -535,7 +535,7 @@ LEFT JOIN orders o ON c.id = o.customer_id
 WHERE o.id IS NULL;
 ```
 
-LEFT JOIN keeps every customer. WHERE on the right-table primary key (o.id) being NULL finds unmatched rows — i.e., customers without orders.
+LEFT JOIN keeps every customer. WHERE on the right-table primary key (o.id) being NULL finds unmatched rows, i.e., customers without orders.
 
 ### Challenge 3. Total Revenue Per City
 

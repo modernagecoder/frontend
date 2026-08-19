@@ -35,9 +35,9 @@ When printing a number, you do not put quotes around it. print(2026) prints the 
 
 *Hint:* One is a number and the other is text.
 
-**Answer:** `print(100)` prints the **integer** 100. `print("100")` prints the **string** "100". The output looks the same on screen, but Python treats them differently — 100 is a number (you can do math with it) and "100" is text (a sequence of characters).
+**Answer:** `print(100)` prints the **integer** 100. `print("100")` prints the **string** "100". The output looks the same on screen, but Python treats them differently: 100 is a number (you can do math with it) and "100" is text (a sequence of characters).
 
-This distinction matters when you start doing calculations. print(100 + 50) gives 150 (math addition), but print("100" + "50") gives "10050" (string concatenation — joining text). Understanding the difference between numbers and strings is fundamental.
+This distinction matters when you start doing calculations. print(100 + 50) gives 150 (math addition), but print("100" + "50") gives "10050" (string concatenation, joining text). Understanding the difference between numbers and strings is fundamental.
 
 ### Q4. [Easy] What is the output of the following code?
 print("Python")
@@ -118,7 +118,7 @@ Since the backslash (\) is an escape character in Python, you need to use a doub
 
 *Hint:* One is for single lines, the other can span multiple lines.
 
-**Answer:** `#` creates a **single-line comment** — everything after # on that line is ignored. `''' '''` (triple quotes) create **multi-line comments** that can span multiple lines. Technically, triple-quoted strings are not true comments but strings that are not assigned to any variable, so they are discarded.
+**Answer:** `#` creates a **single-line comment**, everything after # on that line is ignored. `''' '''` (triple quotes) create **multi-line comments** that can span multiple lines. Technically, triple-quoted strings are not true comments but strings that are not assigned to any variable, so they are discarded.
 
 Use # for short comments and notes. Use triple quotes when you need to write a longer explanation that spans several lines, such as describing what an entire program or function does. In professional code, triple-quoted strings are more commonly used as 'docstrings' (documentation strings) inside functions and classes.
 
@@ -213,7 +213,7 @@ The first three print() calls all have end="" (empty string), meaning no newline
 print(15, "08", 2026, sep="/")
 ```
 
-By passing the day, month, and year as separate values and setting sep="/", Python joins them with forward slashes. Note that the month is passed as a string "08" to preserve the leading zero — if you wrote 08 as a number, Python would print 8 (dropping the leading zero).
+By passing the day, month, and year as separate values and setting sep="/", Python joins them with forward slashes. Note that the month is passed as a string "08" to preserve the leading zero, if you wrote 08 as a number, Python would print 8 (dropping the leading zero).
 
 ### Q19. [Hard] What is the output of: print("\\n")
 
@@ -221,7 +221,7 @@ By passing the day, month, and year as separate values and setting sep="/", Pyth
 
 **Answer:** Output: `\n`
 
-This is tricky. `\\` is an escape sequence that produces a single literal backslash (`\`). The `n` after it is just a regular character. So `\\n` produces the output `\n` — it prints the two characters backslash and n, NOT a newline.
+This is tricky. `\\` is an escape sequence that produces a single literal backslash (`\`). The `n` after it is just a regular character. So `\\n` produces the output `\n`. It prints the two characters backslash and n, NOT a newline.
 
 ## Mixed Questions
 
@@ -235,7 +235,7 @@ print("Class: 9th Standard")
 print("Favourite Subject: Mathematics")
 ```
 
-Each print() statement displays its text and automatically moves to the next line. You can replace the details with your own information. This is the simplest way to print multiple lines — one print() per line.
+Each print() statement displays its text and automatically moves to the next line. You can replace the details with your own information. This is the simplest way to print multiple lines, one print() per line.
 
 ### Q2. [Easy] What is the output of: print(5, 10, 15, 20)
 
@@ -309,7 +309,7 @@ print("Line 1", end="\n\n")
 print("Line 2", end="\n\n")
 print("Line 3")
 
-*Hint:* end="\n\n" means two newlines — one normal and one extra blank line.
+*Hint:* end="\n\n" means two newlines, one normal and one extra blank line.
 
 **Answer:** Output:
 
@@ -321,7 +321,7 @@ Line 2
 Line 3
 ```
 
-The end="\n\n" adds two newline characters after each line — the first newline ends the current line, and the second creates an empty blank line. This produces output with a blank line between each line of text, creating a double-spaced effect.
+The end="\n\n" adds two newline characters after each line, the first newline ends the current line, and the second creates an empty blank line. This produces output with a blank line between each line of text, creating a double-spaced effect.
 
 ### Q9. [Hard] Predict the output of:
 print("A", "B", sep="", end="")
@@ -418,7 +418,7 @@ D. A null character
 
 **Answer:** C
 
-**C is correct.** \n is the newline escape character. When Python sees \n in a string, it creates a line break. Option A is wrong — that would just be the character 'n'. Option B would be represented as \\n in Python (double backslash). Option D is wrong — the null character is \0.
+**C is correct.** \n is the newline escape character. When Python sees \n in a string, it creates a line break. Option A is wrong. That would just be the character 'n'. Option B would be represented as \\n in Python (double backslash). Option D is wrong, the null character is \0.
 
 ### Q5. [Easy] What symbol is used for single-line comments in Python?
 
@@ -440,7 +440,7 @@ D. Error in one of them
 
 **Answer:** B
 
-**B is correct.** Single quotes and double quotes are interchangeable in Python for creating strings. Both print('Hello') and print("Hello") produce exactly the same output: Hello. The quotes are not part of the output — they only mark the beginning and end of the string in the code.
+**B is correct.** Single quotes and double quotes are interchangeable in Python for creating strings. Both print('Hello') and print("Hello") produce exactly the same output: Hello. The quotes are not part of the output. They only mark the beginning and end of the string in the code.
 
 ### Q7. [Medium] What is the output of print("A", "B", "C", sep="*")?
 
@@ -462,7 +462,7 @@ D. The ending quote of the string
 
 **Answer:** C
 
-**C is correct.** The end parameter specifies what character (or string) is added after all values are printed. The default is '\n' (newline), which is why each print() normally starts on a new line. Setting end=" " makes the next print() continue on the same line with a space. Option A is wrong — end does not affect what values are printed. Option B is wrong — end has nothing to do with program termination.
+**C is correct.** The end parameter specifies what character (or string) is added after all values are printed. The default is '\n' (newline), which is why each print() normally starts on a new line. Setting end=" " makes the next print() continue on the same line with a space. Option A is wrong, end does not affect what values are printed. Option B is wrong, end has nothing to do with program termination.
 
 ### Q9. [Medium] Which escape character adds a horizontal tab in a string?
 
@@ -495,7 +495,7 @@ D. Error
 
 **Answer:** B
 
-**B is correct.** When you use + with strings, Python concatenates (joins) them together. "5" + "3" joins the string "5" and the string "3" to get "53". This is NOT mathematical addition. Option A (8) would be the output of print(5 + 3) (without quotes — numeric addition).
+**B is correct.** When you use + with strings, Python concatenates (joins) them together. "5" + "3" joins the string "5" and the string "3" to get "53". This is NOT mathematical addition. Option A (8) would be the output of print(5 + 3) (without quotes, numeric addition).
 
 ### Q12. [Medium] Which of the following correctly prints: It's a great day
 
@@ -522,7 +522,7 @@ Z
 
 **Answer:** B
 
-**B is correct.** The first two print() calls have end="" (empty string), which means no character is added after the output — not even a space or newline. So X, Y, and Z are printed directly next to each other: XYZ. The last print("Z") uses the default end="\n", which ends the line.
+**B is correct.** The first two print() calls have end="" (empty string), which means no character is added after the output, not even a space or newline. So X, Y, and Z are printed directly next to each other: XYZ. The last print("Z") uses the default end="\n", which ends the line.
 
 ### Q14. [Hard] What is the output of print("Line1\nLine2\nLine3")?
 
@@ -568,7 +568,7 @@ D. 42
 
 **Answer:** B
 
-**B is correct.** "42" is enclosed in quotes, making it a string (str), not a number. The type() function returns the data type. Without quotes, type(42) would return . The quotes make all the difference — "42" is text, while 42 is a number.
+**B is correct.** "42" is enclosed in quotes, making it a string (str), not a number. The type() function returns the data type. Without quotes, type(42) would return . The quotes make all the difference, "42" is text, while 42 is a number.
 
 ### Q18. [Hard] What is the output of print(1, 2, 3, sep="\t", end="!\n")?
 

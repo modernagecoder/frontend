@@ -33,13 +33,13 @@ Both 85s share rank 2. The next row (70) gets rank 4 because RANK skips the tied
 
 **Answer:** `1, 2, 2, 3`
 
-Both 85s share rank 2. The next row gets rank 3 — no gap is left for the tie.
+Both 85s share rank 2. The next row gets rank 3, no gap is left for the tie.
 
 ### Q4. [Easy] What does PARTITION BY do?
 
 *Hint:* It divides rows into groups before the window function computes.
 
-**Answer:** PARTITION BY splits the result set into groups. The window function restarts its computation at each group boundary — so ranking, running totals, and LAG/LEAD all reset per partition.
+**Answer:** PARTITION BY splits the result set into groups. The window function restarts its computation at each group boundary, so ranking, running totals, and LAG/LEAD all reset per partition.
 
 Without PARTITION BY, the window is the entire result set. Adding PARTITION BY customer_id turns a global running total into a per-customer running total.
 
@@ -135,7 +135,7 @@ Subtraction with NULL yields NULL, so the first row's 'delta' column is NULL. Wr
 
 *Hint:* Think about how gaps in the ranking affect downstream logic.
 
-**Answer:** Use **RANK** when you want 'position in the ordering', including the effect of ties — 'the 4th runner on the leaderboard' even though positions 1-3 tied. Use **DENSE_RANK** when you want to count DISTINCT values — 'the 3rd highest distinct salary' or to fetch 'top N distinct categories'. For top-N per group queries, DENSE_RANK typically returns more rows when ties occur at the threshold.
+**Answer:** Use **RANK** when you want 'position in the ordering', including the effect of ties, 'the 4th runner on the leaderboard' even though positions 1-3 tied. Use **DENSE_RANK** when you want to count DISTINCT values, 'the 3rd highest distinct salary' or to fetch 'top N distinct categories'. For top-N per group queries, DENSE_RANK typically returns more rows when ties occur at the threshold.
 
 A quick test: if the question asks 'Nth highest' with 'distinct' implied, DENSE_RANK. If it asks 'top N rows including ties', RANK. If it asks 'exactly N rows, pick any tiebreak', ROW_NUMBER.
 
@@ -143,7 +143,7 @@ A quick test: if the question asks 'Nth highest' with 'distinct' implied, DENSE_
 
 *Hint:* Think about how each counts.
 
-**Answer:** ROWS counts physical rows (mechanical, predictable). RANGE counts by value — it includes all rows whose ORDER BY value equals the current row's value plus the offset. With RANGE, ties cause surprising inclusions; a 2-row moving average could include 5 rows if they all tie. ROWS gives exactly what you ask for. Use RANGE only when you explicitly want time-value-based windows like 'all orders in the last 7 days regardless of how many rows that is'.
+**Answer:** ROWS counts physical rows (mechanical, predictable). RANGE counts by value. It includes all rows whose ORDER BY value equals the current row's value plus the offset. With RANGE, ties cause surprising inclusions; a 2-row moving average could include 5 rows if they all tie. ROWS gives exactly what you ask for. Use RANGE only when you explicitly want time-value-based windows like 'all orders in the last 7 days regardless of how many rows that is'.
 
 A good rule: pick ROWS by default. Reach for RANGE only when time-window semantics (not row-count) are the actual requirement.
 
@@ -273,9 +273,9 @@ ORDER BY sale_date;
 
 ## Mixed Questions
 
-### Q1. [Easy] What is returned by AVG(salary) OVER () — with empty OVER parentheses?
+### Q1. [Easy] What is returned by AVG(salary) OVER (): with empty OVER parentheses?
 
-*Hint:* No partition, no order — one single window.
+*Hint:* No partition, no order, one single window.
 
 **Answer:** `The global average salary, repeated on every row.`
 
@@ -392,7 +392,7 @@ It's functionally equivalent to joining the query with a subquery `SELECT SUM(am
 
 *Hint:* Think about performance and readability.
 
-**Answer:** Window functions are almost always better than correlated subqueries when both can express the same logic. Reasons: (1) Window functions scan the table once and compute all ranking/running values in a single pass. Correlated subqueries often rerun for each row, making them O(n^2). (2) Window functions are more readable — the intent is obvious. (3) The optimizer has better statistics and plan options for window functions. Use correlated subqueries only when window functions cannot express the logic (rare).
+**Answer:** Window functions are almost always better than correlated subqueries when both can express the same logic. Reasons: (1) Window functions scan the table once and compute all ranking/running values in a single pass. Correlated subqueries often rerun for each row, making them O(n^2). (2) Window functions are more readable, the intent is obvious. (3) The optimizer has better statistics and plan options for window functions. Use correlated subqueries only when window functions cannot express the logic (rare).
 
 The main exception: for MySQL versions below 8.0, window functions are not available, so correlated subqueries or join-and-group hacks are the only option.
 
@@ -429,7 +429,7 @@ D. [object Object]
 
 **Answer:** B
 
-**B is correct.** DENSE_RANK gives both 90s rank 1 (tied), then the next distinct value (80) gets rank 2 — no gap.
+**B is correct.** DENSE_RANK gives both 90s rank 1 (tied), then the next distinct value (80) gets rank 2, no gap.
 
 ### Q4. [Easy] PARTITION BY in OVER() does what?
 
@@ -440,7 +440,7 @@ D. [object Object]
 
 **Answer:** A
 
-**A is correct.** PARTITION BY is like GROUP BY for windows — each group is an independent window, and the function restarts at each boundary.
+**A is correct.** PARTITION BY is like GROUP BY for windows, each group is an independent window, and the function restarts at each boundary.
 
 ### Q5. [Medium] LAG(col, 2, 0) returns:
 
@@ -528,7 +528,7 @@ D. [object Object]
 
 **Answer:** B
 
-**B is correct.** Empty OVER() treats the whole result as one window. SUM over that = grand total on every row — useful for 'percent of total' calculations.
+**B is correct.** Empty OVER() treats the whole result as one window. SUM over that = grand total on every row, useful for 'percent of total' calculations.
 
 ### Q13. [Hard] Why is ROWS usually preferred over RANGE in frame clauses?
 
