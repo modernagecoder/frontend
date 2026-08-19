@@ -1,0 +1,737 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>AI Evaluations Course | Measure It, or You Are Just Hoping</title>
+  <meta name="description" content="Almost every AI project that stalls stalls in one place: nobody can say whether this week beats last week. Build the eval set before the system. Live online.">
+  <meta name="author" content="Modern Age Coders">
+  <link rel="canonical" href="https://learn.modernagecoders.com/ai-evaluations-course">
+  <link rel="alternate" type="text/markdown" href="/src/pages/ai-evaluations-course.md" title="Markdown version for AI agents">
+
+  <link rel="icon" href="/favicon.ico" type="image/x-icon">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
+  <meta name="theme-color" content="#5F6B45">
+
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="https://learn.modernagecoders.com/ai-evaluations-course">
+  <meta property="og:title" content="AI Evaluations Course | Measure It, or You Are Just Hoping">
+  <meta property="og:description" content="Four changes shipped, zero attributable, and nobody can say whether Friday beats Monday. That is what happens when the only instrument is how the output felt.">
+  <meta property="og:image" content="https://learn.modernagecoders.com/images/og-modern-age-coders.png">
+  <meta property="og:site_name" content="Modern Age Coders">
+  <meta property="og:locale" content="en">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="AI Evaluations Course">
+  <meta name="twitter:description" content="Forty lines of expected answers beat any amount of staring at output.">
+  <meta name="twitter:image" content="https://learn.modernagecoders.com/images/og-modern-age-coders.png">
+
+  <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/ai-global.css?v=20260819">
+
+  <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-N8BM164YJP');gtag('config','AW-16910316353');</script>
+
+  <script type="application/ld+json" data-price-scope="coding.international">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "EducationalOrganization",
+        "@id": "https://learn.modernagecoders.com/#org",
+        "name": "Modern Age Coders",
+        "url": "https://learn.modernagecoders.com/",
+        "email": "contact@modernagecoders.com",
+        "telephone": "+91-91233-66161",
+        "foundingDate": "2020",
+        "areaServed": { "@type": "Place", "name": "Worldwide" },
+        "knowsAbout": ["AI Evaluation", "LLM Evaluation", "Regression Testing", "Golden Datasets", "LLM as Judge", "Benchmarking", "Python"]
+      },
+      {
+        "@type": "TechArticle",
+        "@id": "https://learn.modernagecoders.com/ai-evaluations-course#article",
+        "headline": "AI Evaluations Course",
+        "description": "Four changes shipped, zero attributable, and nobody can say whether Friday beats Monday. That is what happens when the only instrument is how the output felt.",
+        "inLanguage": "en",
+        "isAccessibleForFree": true,
+        "proficiencyLevel": "Intermediate",
+        "dependencies": "Comfortable writing Python and reading structured data files",
+        "author": { "@id": "https://learn.modernagecoders.com/#org" },
+        "publisher": { "@id": "https://learn.modernagecoders.com/#org" },
+        "mainEntityOfPage": "https://learn.modernagecoders.com/ai-evaluations-course"
+      },
+      {
+        "@type": "Course",
+        "name": "AI Evaluations Course: Measuring Whether an AI System Actually Works",
+        "description": "Live online small-batch teaching in the evaluation of AI systems for learners worldwide: building labelled evaluation sets before the system exists, choosing between exact checks, similarity measures, model judges and human review, running regression suites on every change, and detecting when a set has stopped telling the truth.",
+        "url": "https://learn.modernagecoders.com/ai-evaluations-course",
+        "inLanguage": "en",
+        "provider": { "@id": "https://learn.modernagecoders.com/#org" },
+        "isAccessibleForFree": false,
+        "hasCourseInstance": {
+          "@type": "CourseInstance",
+          "courseMode": "online",
+          "courseWorkload": "PT3H",
+          "location": { "@type": "VirtualLocation", "url": "https://learn.modernagecoders.com/ai-evaluations-course" }
+        }
+      },
+      {
+        "@type": "Service",
+        "serviceType": "Online AI evaluation and measurement teaching",
+        "provider": { "@id": "https://learn.modernagecoders.com/#org" },
+        "areaServed": { "@type": "Place", "name": "Worldwide" },
+        "audience": { "@type": "EducationalAudience", "educationalRole": "student" }
+      },
+      {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://learn.modernagecoders.com/" },
+          { "@type": "ListItem", "position": 2, "name": "Learn to Build AI", "item": "https://learn.modernagecoders.com/learn-to-build-ai" },
+          { "@type": "ListItem", "position": 3, "name": "AI evaluations course", "item": "https://learn.modernagecoders.com/ai-evaluations-course" }
+        ]
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+          {"@type": "Question", "name": "What exactly is an eval set?", "acceptedAnswer": {"@type": "Answer", "text": "A written list of inputs paired with what a correct response should contain or avoid, stored in a file and run every time something changes. It can be forty lines of JSON. The value is not in the format but in having decided, in advance and in writing, what correct means."}},
+          {"@type": "Question", "name": "Why build it before the system?", "acceptedAnswer": {"@type": "Answer", "text": "Because a set written afterwards describes what the system already does rather than what it should do. Once you have seen the output, you cannot un-see it, and your expectations quietly bend towards the behaviour in front of you. Writing first is the only way to keep the measurement independent."}},
+          {"@type": "Question", "name": "How much does it cost to learn this?", "acceptedAnswer": {"@type": "Answer", "text": "A group batch of five to eight students is USD 100 a month and one to one is USD 150 a month, billed in US dollars, and these are the same figures everywhere we teach outside India. No enrolment fee, no minimum term, and the first class is free without a card."}},
+          {"@type": "Question", "name": "Can I use an AI to grade AI output?", "acceptedAnswer": {"@type": "Answer", "text": "Yes, and it is genuinely useful for subjective properties like tone or helpfulness where no exact check exists. What you must not do is trust it unchecked: judges reliably prefer longer, more confident answers, and often favour their own model family. Keep a small human-reviewed sample to calibrate how much to believe it."}},
+          {"@type": "Question", "name": "How many cases do I need?", "acceptedAnswer": {"@type": "Answer", "text": "Around forty is enough to change how a team works, which surprises people who imagine this requires thousands. What matters far more than volume is coverage: boundaries, ambiguity, out-of-scope questions, and everything you have already got wrong once."}},
+          {"@type": "Question", "name": "Is this the same as software testing?", "acceptedAnswer": {"@type": "Answer", "text": "The same instinct applied to a system that does not give the same answer twice. Conventional tests assert exact equality, which mostly fails here. Evaluation asserts properties instead, tolerates variation, and reports a score rather than pass or fail, and that shift is the thing students have to internalise."}},
+          {"@type": "Question", "name": "Is this suitable for teenagers?", "acceptedAnswer": {"@type": "Answer", "text": "Yes, for teenagers who write Python, and it lands unusually well because it is concrete. A fifteen year old who has watched their own change improve three cases and break two has learned something about engineering that a great many adults working with these systems have not."}},
+          {"@type": "Question", "name": "Do I need this for a small personal project?", "acceptedAnswer": {"@type": "Answer", "text": "If you plan to improve it more than twice, yes, and the version you need is very small. Ten cases in a text file is enough to stop you from going in circles. The cost of not having them is invisible, which is exactly why people skip it."}},
+          {"@type": "Question", "name": "Does this apply outside AI?", "acceptedAnswer": {"@type": "Answer", "text": "The habit does, and it is the same one taught throughout our machine learning courses as the baseline: a number means nothing without something to compare it against. Students who take this seriously start asking the same question of benchmarks, marketing claims and their own school results."}},
+          {"@type": "Question", "name": "What happens after I send the form?", "acceptedAnswer": {"@type": "Answer", "text": "A mentor calls to arrange the free class. If you have an AI project already, bring it and three things it currently gets wrong, and we will write the first ten cases together in the session. That is usually the point at which the idea stops being abstract."}}
+        ]
+      }
+    ]
+  }
+  </script>
+</head>
+
+<body class="ag-root ag-evl">
+
+<nav class="ag-nav">
+  <div class="ag-wrap ag-nav-inner">
+    <a class="ag-nav-brand" href="/">
+      <img src="/images/logo.svg" alt="Modern Age Coders logo" width="30" height="30" fetchpriority="high">
+      <span>Modern Age Coders</span>
+      <span class="ag-brand-tag">Evaluations</span>
+    </a>
+    <div class="ag-nav-links">
+      <a href="#one">Where projects die</a>
+      <a href="#two">Vibes and the fix</a>
+      <a href="#courses">Courses</a>
+      <a href="#fees">Fees</a>
+      <a href="/learn-to-build-ai">Build AI</a>
+      <a href="#start" class="ag-btn">Free first class</a>
+    </div>
+  </div>
+</nav>
+
+<header class="ag-hero">
+  <div class="ag-wrap">
+    <nav class="ag-crumbs" aria-label="Breadcrumb">
+      <a href="/">Home</a> <span>/</span> <a href="/learn-to-build-ai">Build AI</a> <span>/</span> <span>AI evaluations course</span>
+    </nav>
+    <div class="ag-hero-grid">
+      <div>
+        <p class="ag-eyebrow">Evaluations &middot; Live online &middot; Worldwide &middot; Teens and adults</p>
+        <h1>If you cannot measure it, you are not engineering it. You are hoping.</h1>
+        <p class="ag-lede">The demo stage of an AI project is easy and encouraging. The trouble starts the moment you try to improve it, because improvement requires comparison and there is usually nothing to compare against. So teams fall back on looking at output and forming an impression, which is biased towards the cases they happened to try, forgets what last week did, and cannot detect what they broke while fixing something else. The fix is a text file of inputs with expected answers, written before anything changes. This page shows what that looks like.</p>
+        <div class="ag-btn-row">
+          <a href="#start" class="ag-btn">Book the free first class</a>
+          <a href="#one" class="ag-btn ag-btn--ghost">See the before and after</a>
+          <a href="https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders.%20I%20am%20interested%20in%20learning%20how%20to%20evaluate%20AI%20systems%20properly." class="ag-btn ag-btn--ghost" target="_blank" rel="noopener" onclick="if(window.gtag)gtag('event','whatsapp_click',{page_topic:'evals'});">Ask on WhatsApp</a>
+        </div>
+        <p class="ag-hero-note">
+          Live online &middot; ages 6 to 67 &middot; taught from India, worldwide &middot; from USD 100 a month &middot; first class free
+        </p>
+      </div>
+
+      <aside class="ag-spec">
+        <p class="ag-spec-title">At a glance</p>
+        <p class="ag-trust">
+          <span class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</span>
+          4.9 across 547 Google reviews
+        </p>
+        <dl>
+          @@<dt>The claim</dt><dd>No measurement means no engineering</dd>
+          <dt>Minimum useful size</dt><dd>About 40 cases</dd>
+          <dt>Built</dt><dd>Before the system, always</dd>
+          <dt>What it becomes</dt><dd>Institutional memory</dd>
+          <dt>Hardest part</dt><dd>Agreeing what is correct</dd>
+          <dt>Judged by</dt><dd>Exact checks, judges, and humans</dd>
+          <dt>Fees</dt><dd>From USD 100 a month</dd>
+          <dt>First class</dt><dd>Free, no card</dd>@@
+        </dl>
+      </aside>
+    </div>
+  </div>
+</header>
+
+<section class="ag-section">
+  <div class="ag-wrap">
+    <div class="ag-capsule">
+      <p class="ag-capsule-q">The short answer</p>
+      <p>An evaluation set is a written list of inputs with the answers you expect, run every time anything changes. Without one, a team improving an AI system has only impressions to go on, which are biased towards the cases they tried, forget what the previous version did, and cannot detect regressions. Modern Age Coders teaches evaluation as the first step of every AI project a student runs, built before the prompt and before retrieval, because a number without something to compare it to is meaningless. Grading uses exact checks where possible, model judges where not, and a human-reviewed sample to keep the judges honest. Group teaching is USD 100 a month, private USD 150, first class free.</p>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="one">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">The gap where projects die</p>
+      <h2>If you cannot measure it, you are not engineering it. You are hoping.</h2>
+      <p class="ag-lede">
+        Almost every AI project that stalls stalled in the same place, and it is not the modelling.
+        It is that nobody can say whether this week is better than last week.
+      </p>
+    </div>
+
+    <div class="ag-grid-2" style="align-items:start">
+      <div>
+        <p>
+          The demo stage is easy and genuinely encouraging. You build something, you try it on
+          questions you thought of, it works, everybody is impressed. The trouble starts the moment
+          you begin improving it, because improvement requires comparison and there is nothing to
+          compare against.
+        </p>
+        <p>
+          So the team falls back on the only instrument available: looking at output and forming an
+          impression. That instrument is unreliable in a specific and predictable way. It is biased
+          towards the cases you happen to try, it forgets what last week's version did, and it
+          cannot detect the thing you broke while fixing something else.
+        </p>
+      </div>
+      <div>
+        <p>
+          The fix is unglamorous and it is not a technology. Write down a set of inputs with the
+          answers you expect, before you change anything, and run it every time. That is an
+          evaluation set, and it is the difference between a project that improves and one that
+          oscillates for a year.
+        </p>
+        <p>
+          It is also the single most neglected topic in AI education. There are a thousand courses
+          on building and very few on measuring, which is precisely backwards, because building is
+          now the easy part and knowing whether the thing works is the hard part.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="two">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Before and after</p>
+      <h2>A week of vibes, and forty lines that end them</h2>
+      <p class="ag-lede">
+        The left block is a real pattern, described without exaggeration. The right block is the
+        smallest intervention that removes it.
+      </p>
+    </div>
+
+    <div class="ag-code-pair">
+<figure class="ag-code">
+  <figcaption class="ag-code-head"><b>HOW MOST TEAMS DECIDE</b><span>the honest transcript</span></figcaption>
+  <pre>Mon   "Tried the new prompt. Feels better."
+Tue   "Hmm, worse on that one weird case."
+Wed   "Switched models. Definitely better?"
+Thu   "Someone says it broke. Can't reproduce."
+Fri   "Reverted. Not sure which change."
+
+<i># Four changes shipped. Zero attributable.</i>
+<b># Nobody can say if Friday beats Monday.</b></pre>
+  <p class="ag-code-note">This is not incompetence. It is what happens when a system has no measurement and the only available instrument is how the output felt to whoever looked last.</p>
+</figure>
+<figure class="ag-code">
+  <figcaption class="ag-code-head"><b>THE SMALLEST THING THAT FIXES IT</b><span>evals.jsonl</span></figcaption>
+  <pre>{"id": "refund_01",
+ "input": "How long do I have to return a lamp?",
+ "must_contain": ["30 days"],
+ "must_not_contain": ["14 days", "no returns"],
+ "source": "policy.md#returns"}
+
+{"id": "refund_02_edge",
+ "input": "Can I return a lamp bought 31 days ago?",
+ "must_contain": ["no", "30 days"],
+ "note": "boundary. Was wrong in v3."}
+
+<b># 40 lines like this beat any amount of</b>
+<b># staring at output. Write it BEFORE the fix.</b></pre>
+  <p class="ag-code-note">Forty cases is enough to change how a team works. The hard part is not the format; it is sitting down and deciding what the right answer actually is.</p>
+</figure>
+</div>
+
+    <p class="ag-mt-40">
+      Two things about the right-hand block are worth dwelling on. The first is how modest it is:
+      no framework, no dashboard, a text file of cases with expectations. The second is the note on
+      the second case, <em>was wrong in v3</em>. That is a regression test, and the moment a set
+      starts accumulating those, it stops being a checklist and becomes institutional memory.
+    </p>
+    <p>
+      Notice also that writing it forces something uncomfortable and useful. To record an expected
+      answer you must decide what the right answer is, and teams routinely discover at this point
+      that they disagree with each other about what the system is supposed to do.
+    </p>
+  </div>
+</section>
+
+<section class="ag-section ag-section--deep">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Building one</p>
+      <h2>Six steps, and the one everybody wants to skip</h2>
+      <p class="ag-lede">
+        Step one is the one people skip, and skipping it turns the whole exercise into decoration.
+      </p>
+    </div>
+    <ol class="ag-protocol">
+        <li class="ag-step" data-step="1">
+          <h4>Write the cases before you build anything</h4>
+          <p>Not after. Before, when you still have to decide what correct means and cannot be influenced by what the system happens to do well. A set written afterwards tends to describe current behaviour, which measures nothing except your own memory.</p>
+        </li>
+        <li class="ag-step" data-step="2">
+          <h4>Collect real inputs, not tidy ones</h4>
+          <p>The questions actual users ask, including the badly phrased, the ambiguous and the ones outside scope. A set of well-formed questions measures a system nobody will use, and the gap between the two is where most production failures live.</p>
+        </li>
+        <li class="ag-step" data-step="3">
+          <h4>Include the cases you already got wrong</h4>
+          <p>Every defect found becomes a permanent case. This is the mechanism by which a set turns into institutional memory rather than a checklist, and it is what stops a team fixing the same thing three times in a year.</p>
+        </li>
+        <li class="ag-step" data-step="4">
+          <h4>Grade with the cheapest instrument that works</h4>
+          <p>Exact string checks, keyword presence and structural validation are free, fast and deterministic. Reach for a model judge only for genuinely subjective properties, and keep a human-reviewed sample to check the judge itself.</p>
+        </li>
+        <li class="ag-step" data-step="5">
+          <h4>Run it on every change, automatically</h4>
+          <p>A set that is run when somebody remembers is a set that stops being run. It has to be attached to the change, so that a regression is visible in the minute it is introduced rather than in the week somebody complains.</p>
+        </li>
+        <li class="ag-step" data-step="6">
+          <h4>Watch the set decay, and refresh it deliberately</h4>
+          <p>Usage shifts, documents change, and over-fitting to a fixed set is a real risk. Revisit quarterly, retire cases that no longer represent anything, and add new ones from what people are actually asking now.</p>
+        </li>
+      </ol>
+  </div>
+</section>
+
+<section class="ag-section">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Choosing an instrument</p>
+      <h2>Four ways to grade an answer, and when each one lies</h2>
+    </div>
+
+    <div class="ag-table-wrap">
+        <table class="ag-table">
+          <thead><tr><th scope="col">Instrument</th><th scope="col">Good for</th><th scope="col">When it lies</th><th scope="col">Cost</th></tr></thead>
+          <tbody><tr><td>Exact match and keywords</td><td class="ag-num">Facts, numbers, formats, refusals</td><td class="ag-num">Right answer, different wording</td><td class="ag-num">Free</td></tr><tr><td>Structural validation</td><td class="ag-num">Valid JSON, required fields, length</td><td class="ag-num">Well formed and wrong</td><td class="ag-num">Free</td></tr><tr><td>A model as judge</td><td class="ag-num">Tone, helpfulness, subjective quality</td><td class="ag-num">Prefers verbose and confident answers</td><td class="ag-num">Per call</td></tr><tr><td>Human review of a sample</td><td class="ag-num">Everything, and calibrating the judge</td><td class="ag-num">Slow, and reviewers disagree</td><td class="ag-num">Expensive</td></tr></tbody>
+        </table>
+      </div>
+
+    <p class="ag-mt-40">
+      Most real systems use several at once: exact checks for the things that are checkable, a model
+      judge for the things that are not, and a small human-reviewed sample to keep the judge honest.
+      The mistake is picking one and trusting it everywhere, particularly the third row.
+    </p>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Traps</p>
+      <h2>Six ways an evaluation set quietly stops telling the truth</h2>
+    </div>
+    <div class="ag-grid-3">
+      <div><h3>Only easy cases</h3><p>A set of questions the system already answers well measures nothing and reassures everybody. Deliberately include the ambiguous, the out-of-scope and the boundary, because those are where changes actually show up.</p></div>
+      <div><h3>Optimising against the set until it means nothing</h3><p>Tune long enough and you fit the test rather than the task. Hold out cases you never look at while iterating, and be suspicious of a score that improves while nobody reports anything getting better.</p></div>
+      <div><h3>Trusting a model judge without checking it</h3><p>Judges have consistent biases: they favour longer answers, confident phrasing and their own family of models. A small human-reviewed sample tells you how much to believe the judge, and it is not optional.</p></div>
+      <div><h3>Measuring the whole system and nothing inside it</h3><p>One end-to-end number tells you something is wrong and never where. Retrieval, ranking and generation each need their own measurement, which is why the RAG page separates them.</p></div>
+      <div><h3>No negative cases</h3><p>A system that always answers scores well until somebody asks something it should refuse. Cases where the correct response is I do not know are the ones most often missing and most often needed.</p></div>
+      <div><h3>Letting it go stale</h3><p>A set built in March against a corpus that changed in June is measuring a system that no longer exists. Silent decay is worse than no set at all, because it produces confident numbers about the wrong thing.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">How it is taught</p>
+      <h2>The set comes before the system, which students hate</h2>
+    </div>
+    <div class="ag-grid-2" style="align-items:start">
+      <div>
+        <p>
+          In every AI project a student runs here, the evaluation set is built first. Before the
+          prompt, before the retrieval, before anything works at all. Students find this
+          intolerable for about two weeks, because it delays the moment something impressive happens.
+        </p>
+        <p>
+          Then the first time a change makes three cases better and two worse, and they can see it
+          rather than argue about it, the objection stops. That moment is reliably the point at
+          which a student stops treating an AI system as a magic box and starts treating it as
+          something engineered.
+        </p>
+      </div>
+      <div>
+        <p>
+          It is the same discipline as the baseline in classical machine learning: a number is
+          meaningless without something to compare it to, which is the argument made throughout our
+          machine learning teaching. Evaluation is that idea applied to systems whose output is text
+          rather than a prediction.
+        </p>
+        <p>
+          It pairs most directly with <a class="ag-inline-link" href="/rag-systems-course">RAG</a>,
+          where retrieval must be measured separately from generation, and with
+          <a class="ag-inline-link" href="/context-engineering-course">context engineering</a>,
+          where every decision about what goes in the window is a hypothesis that needs testing.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="courses">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">The catalogue</p>
+      <h2>Where evaluation is taught in the catalogue</h2>
+      <p class="ag-lede">In every course with a model in it, as the first step rather than the last. There is no standalone evaluation product because evaluating nothing is not an exercise.</p>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">I</span>
+        <h3>Where measurement is taught</h3>
+        <span class="ag-band-sub">Chosen for this page rather than listed in full</span>
+      </div>
+      <div class="ag-grid-4">
+        <article class="ag-course">
+          <p class="ag-course-code">DEPTH / 01</p>
+          <h4>AI and Machine Learning for Teens</h4>
+          <p>Where the habit begins, as the baseline: a model must beat doing nothing clever before anybody is allowed to believe it.</p>
+          <a class="ag-course-link" href="/courses/ai-ml-masterclass-teens">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">DEPTH / 02</p>
+          <h4>Generative AI: LLMs, RAG and Agents</h4>
+          <p>The same discipline applied to systems whose output is text, where exact equality mostly fails and properties are asserted instead.</p>
+          <a class="ag-course-link" href="/courses/complete-generative-ai-masterclass-college">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">DEPTH / 03</p>
+          <h4>Data Science Masterclass</h4>
+          <p>Statistics that survive somebody sceptical asking how you know, which is the adult form of the same question.</p>
+          <a class="ag-course-link" href="/courses/data-science-complete-masterclass-college">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">DEPTH / 04</p>
+          <h4>AI and ML Masterclass</h4>
+          <p>Evaluation that holds up under questioning rather than under demonstration, including the parts that are genuinely hard to measure.</p>
+          <a class="ag-course-link" href="/courses/ai-ml-masterclass-complete-college">Open the syllabus</a>
+        </article>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="fees">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Fees</p>
+      <h2>What it costs, anywhere in the world</h2>
+      <p class="ag-lede">One flat pair of figures everywhere we teach outside India, in US dollars, charged monthly with no minimum term.</p>
+    </div>
+    @@<div class="ag-grid-3">
+      <div class="ag-price">
+        <p class="ag-price-name">Free first class</p>
+        <p class="ag-price-amt">USD 0</p>
+        <p class="ag-price-alt">no card required</p>
+        <ul><li>Taught rather than sold</li><li>It settles which rung the learner starts on</li><li>You watch it, then decide</li></ul>
+        <a href="#start" class="ag-btn ag-btn--ghost">Book it</a>
+      </div>
+      <div class="ag-price ag-price--feature">
+        <p class="ag-price-name">Group batch</p>
+        <p class="ag-price-amt">USD 100</p>
+        <p class="ag-price-alt">a month, billed in US dollars</p>
+        <ul><li>Five to eight students, one teacher throughout</li><li>Live video, never a recording</li><li>Build work between sessions, reviewed by the teacher</li><li>Certificate on completion</li></ul>
+        <a href="#start" class="ag-btn">Start here</a>
+      </div>
+      <div class="ag-price">
+        <p class="ag-price-name">One to one</p>
+        <p class="ag-price-amt">USD 150</p>
+        <p class="ag-price-alt">a month, billed in US dollars</p>
+        <ul><li>Private teaching, at the pace the goal needs</li><li>The only way to get a weekday morning slot</li><li>Syllabus shaped to one objective</li></ul>
+        <a href="#start" class="ag-btn ag-btn--ghost">Enquire</a>
+      </div>
+    </div>@@
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">What learners and families say</p>
+      <h2>Rated 4.9 across 547 Google reviews</h2>
+      <p class="ag-lede">Real reviews from real families. We neither write nor commission them.</p>
+    </div>
+    @@<div class="ag-grid-3">
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."</p>
+        <p class="ag-review-name">Ria Mukherjee</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."</p>
+        <p class="ag-review-name">Samriddha Mondal</p>
+        <p class="ag-review-role">Student</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."</p>
+        <p class="ag-review-name">Vansh Agarwal</p>
+        <p class="ag-review-role">Student</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."</p>
+        <p class="ag-review-name">Sonam Oswal</p>
+        <p class="ag-review-role">Parent of Dhairya</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."</p>
+        <p class="ag-review-name">Sonu Goyal</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."</p>
+        <p class="ag-review-name">Ritu Kedia</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+    </div>@@
+  </div>
+</section>
+
+<section class="ag-section">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">The rest of the series</p>
+      <h2>The nine other pages in this series</h2>
+      <p class="ag-lede">Evaluation is what makes RAG and context engineering improvable rather than merely adjustable. Those two pages are the natural companions.</p>
+    </div>
+    <div class="ag-markets">
+      <a class="ag-market" href="/agentic-coding-classes"><span class="ag-market-n">Agentic coding</span><span class="ag-market-m">/agentic-coding-classes</span></a>
+      <a class="ag-market" href="/how-to-read-code"><span class="ag-market-n">Reading code</span><span class="ag-market-m">/how-to-read-code</span></a>
+      <a class="ag-market" href="/how-to-debug-code"><span class="ag-market-n">Debugging</span><span class="ag-market-m">/how-to-debug-code</span></a>
+      <a class="ag-market" href="/how-to-think-like-a-programmer"><span class="ag-market-n">Thinking like a programmer</span><span class="ag-market-m">/how-to-think-like-a-programmer</span></a>
+      <a class="ag-market" href="/how-to-actually-learn-to-code"><span class="ag-market-n">How learning actually works</span><span class="ag-market-m">/how-to-actually-learn-to-code</span></a>
+      <a class="ag-market" href="/how-llms-actually-work"><span class="ag-market-n">How LLMs work</span><span class="ag-market-m">/how-llms-actually-work</span></a>
+      <a class="ag-market" href="/context-engineering-course"><span class="ag-market-n">Context engineering</span><span class="ag-market-m">/context-engineering-course</span></a>
+      <a class="ag-market" href="/rag-systems-course"><span class="ag-market-n">RAG systems</span><span class="ag-market-m">/rag-systems-course</span></a>
+      <a class="ag-market" href="/model-context-protocol-mcp-course"><span class="ag-market-n">MCP</span><span class="ag-market-m">/model-context-protocol-mcp-course</span></a>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--deep">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Questions about AI evaluation</p>
+      <h2>What learners ask about measuring AI</h2>
+    </div>
+    <div class="ag-faq">
+      @@<div class="ag-faq-item">
+        <h3>What exactly is an eval set?</h3>
+        <p>A written list of inputs paired with what a correct response should contain or avoid, stored in a file and run every time something changes. It can be forty lines of JSON. The value is not in the format but in having decided, in advance and in writing, what correct means.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Why build it before the system?</h3>
+        <p>Because a set written afterwards describes what the system already does rather than what it should do. Once you have seen the output, you cannot un-see it, and your expectations quietly bend towards the behaviour in front of you. Writing first is the only way to keep the measurement independent.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>How much does it cost to learn this?</h3>
+        <p>A group batch of five to eight students is USD 100 a month and one to one is USD 150 a month, billed in US dollars, and these are the same figures everywhere we teach outside India. No enrolment fee, no minimum term, and the first class is free without a card.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Can I use an AI to grade AI output?</h3>
+        <p>Yes, and it is genuinely useful for subjective properties like tone or helpfulness where no exact check exists. What you must not do is trust it unchecked: judges reliably prefer longer, more confident answers, and often favour their own model family. Keep a small human-reviewed sample to calibrate how much to believe it.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>How many cases do I need?</h3>
+        <p>Around forty is enough to change how a team works, which surprises people who imagine this requires thousands. What matters far more than volume is coverage: boundaries, ambiguity, out-of-scope questions, and everything you have already got wrong once.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Is this the same as software testing?</h3>
+        <p>The same instinct applied to a system that does not give the same answer twice. Conventional tests assert exact equality, which mostly fails here. Evaluation asserts properties instead, tolerates variation, and reports a score rather than pass or fail, and that shift is the thing students have to internalise.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Is this suitable for teenagers?</h3>
+        <p>Yes, for teenagers who write Python, and it lands unusually well because it is concrete. A fifteen year old who has watched their own change improve three cases and break two has learned something about engineering that a great many adults working with these systems have not.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Do I need this for a small personal project?</h3>
+        <p>If you plan to improve it more than twice, yes, and the version you need is very small. Ten cases in a text file is enough to stop you from going in circles. The cost of not having them is invisible, which is exactly why people skip it.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Does this apply outside AI?</h3>
+        <p>The habit does, and it is the same one taught throughout our machine learning courses as the baseline: a number means nothing without something to compare it against. Students who take this seriously start asking the same question of benchmarks, marketing claims and their own school results.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>What happens after I send the form?</h3>
+        <p>A mentor calls to arrange the free class. If you have an AI project already, bring it and three things it currently gets wrong, and we will write the first ten cases together in the session. That is usually the point at which the idea stops being abstract.</p>
+      </div>@@
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="start">
+  <div class="ag-wrap">
+    <div class="ag-hero-grid">
+      <div>
+        <div class="ag-section-head">
+          <p class="ag-eyebrow">Start</p>
+          <h2>Bring a project and three things it gets wrong</h2>
+        </div>
+        <p>The free first class on this topic is best spent writing the first ten evaluation cases for something you already have. Bring the project and three answers it currently gets wrong, and we will turn them into a file you can run. If you have no project yet, we will use one of ours, and you will still leave with the shape of the thing. Ninety minutes, no card, no obligation.</p>
+        <p>Rather read first? <a class="ag-inline-link" href="/rag-systems-course">RAG systems</a>, <a class="ag-inline-link" href="/context-engineering-course">context engineering</a>, or <a class="ag-inline-link" href="/how-llms-actually-work">how LLMs actually work</a>.</p>
+        <p style="margin-top:22px">
+          <a class="ag-inline-link" href="https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders.%20I%20am%20interested%20in%20learning%20how%20to%20evaluate%20AI%20systems%20properly." target="_blank" rel="noopener">WhatsApp us</a> &middot;
+          <a class="ag-inline-link" href="tel:+919123366161">+91 91233 66161</a> &middot;
+          <a class="ag-inline-link" href="mailto:contact@modernagecoders.com">contact@modernagecoders.com</a>
+        </p>
+        <p style="font-size:.92rem;color:var(--ag-muted);margin-top:14px">
+          We hold no premises anywhere. Every session is a live video call taught from India, and the
+          number above rings in India. Sending the form opens a conversation rather than an enrolment,
+          and holds no place in any batch.
+        </p>
+      </div>
+      <div class="ag-form-panel">
+        <form onsubmit="submitEvalLead(event)" novalidate>
+          <div class="ag-field">
+            <label for="ag-evl-name">Your name</label>
+            <input id="ag-evl-name" type="text" name="name" placeholder="Parent, student or your own name" required>
+          </div>
+          <div class="ag-field">
+            <label for="ag-evl-phone">Phone or WhatsApp, including your country code</label>
+            <input id="ag-evl-phone" type="tel" name="phone" placeholder="+44 7700 900000" required>
+          </div>
+          <div class="ag-field">
+            <label for="ag-evl-age">Who is learning</label>
+            <select id="ag-evl-age" name="age">
+              <option value="6-12">A child, 6 to 12</option>
+              <option value="13-18">A teenager, 13 to 18</option>
+              <option value="college">A university student</option>
+              <option value="adult">Me, working professional</option>
+            </select>
+          </div>
+          <button type="submit" class="ag-btn" style="width:100%">Request the free class</button>
+          <p class="ag-form-note">No card. No obligation. We call, we do not spam.</p>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+@@<footer class="ag-footer">
+  <div class="ag-wrap">
+    <div class="ag-grid-4">
+      <div>
+        <h4>Modern Age Coders</h4>
+        <p style="font-size:.9rem;opacity:.82">
+          Live online coding, AI and mathematics for ages 6 to 67. Teaching since 2020, more than
+          10,000 students across 25 countries and more.
+        </p>
+      </div>
+      <div>
+        <h4>Depth series</h4>
+        <ul>
+          <li><a href="/agentic-coding-classes">Agentic coding</a></li>
+          <li><a href="/how-to-read-code">How to read code</a></li>
+          <li><a href="/how-to-debug-code">How to debug code</a></li>
+          <li><a href="/how-to-think-like-a-programmer">Think like a programmer</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Build AI</h4>
+        <ul>
+          <li><a href="/how-llms-actually-work">How LLMs actually work</a></li>
+          <li><a href="/context-engineering-course">Context engineering</a></li>
+          <li><a href="/rag-systems-course">RAG systems</a></li>
+          <li><a href="/ai-evaluations-course">Evaluations</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Start</h4>
+        <ul>
+          <li><a href="/courses">The full catalogue</a></li>
+          <li><a href="/pricing">Fees</a></li>
+          <li><a href="/how-we-teach">How we teach</a></li>
+          <li><a href="/student-labs">What students build</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="ag-footer-bottom">
+      <span>&copy; 2026 Modern Age Coders. Live online, taught from India, worldwide.</span>
+      <span>Ages 6 to 67 &middot; 25 countries and more</span>
+    </div>
+  </div>
+</footer>@@
+
+<script>
+window.submitEvalLead = function (e) {
+  e.preventDefault();
+  var form = e.target;
+  var name = (form.querySelector('input[name="name"]') || {}).value || '';
+  var phoneRaw = (form.querySelector('input[type="tel"]') || {}).value || '';
+  var age = (form.querySelector('select[name="age"]') || {}).value || '';
+  var d = phoneRaw.replace(/\D/g, '');
+  if (d.length < 7) { alert('Please enter a valid phone number including your country code.'); return; }
+  var btn = form.querySelector('button[type="submit"]');
+  var oldText = btn.textContent;
+  btn.disabled = true; btn.textContent = 'Sending...';
+  var API_URL = (location.hostname === 'localhost' || location.hostname === '127.0.0.1')
+    ? 'http://localhost:5000' : 'https://backend-modernagecoders.vercel.app';
+  fetch(API_URL + '/api/callback/request', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({
+      phone: d, countryCode: '', countryIso: '', countryName: 'International',
+      source: 'ai-evaluations-course-inline', meta: { name: name, age: age, raw: phoneRaw, topic: 'evals' }
+    })
+  }).then(function (r) { return r.json(); }).then(function (data) {
+    if (data && data.success) {
+      if (window.gtag) gtag('event', 'generate_lead', { page_topic: 'evals' });
+      form.innerHTML = '<p class="ag-form-ok">Thank you' + (name ? ', ' + name.split(' ')[0] : '') +
+        '. A mentor will call you to arrange the free class.</p>';
+    } else {
+      alert((data && data.message) || 'Something went wrong. Please try again.');
+      btn.disabled = false; btn.textContent = oldText;
+    }
+  }).catch(function () {
+    alert('Network error. Please try again.');
+    btn.disabled = false; btn.textContent = oldText;
+  });
+};
+</script>
+<script>
+  window.addEventListener('load', function () {
+    var s = document.createElement('script');
+    s.src = 'https://www.googletagmanager.com/gtag/js?id=G-N8BM164YJP';
+    s.async = true;
+    document.head.appendChild(s);
+  });
+</script>
+</body>
+</html>

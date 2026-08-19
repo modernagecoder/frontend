@@ -295,6 +295,16 @@ Ages 6 to 67, small live batches, priced from USD 100 a month.
 - Year-round classes vs summer camps, Bahamas: https://learn.modernagecoders.com/year-round-coding-classes-vs-summer-camps-bahamas
 - Coding and AI alongside BJC and BGCSE: https://learn.modernagecoders.com/coding-and-ai-alongside-bjc-and-bgcse-bahamas
 - AI and machine learning classes in The Bahamas: https://learn.modernagecoders.com/ai-and-machine-learning-classes-in-bahamas
+- Agentic Coding Classes: https://learn.modernagecoders.com/agentic-coding-classes
+- Model Context Protocol (MCP) Course: https://learn.modernagecoders.com/model-context-protocol-mcp-course
+- RAG Systems Course: https://learn.modernagecoders.com/rag-systems-course
+- AI Evaluations Course: https://learn.modernagecoders.com/ai-evaluations-course
+- Context Engineering Course: https://learn.modernagecoders.com/context-engineering-course
+- How to Think Like a Programmer: https://learn.modernagecoders.com/how-to-think-like-a-programmer
+- How to Actually Learn to Code: https://learn.modernagecoders.com/how-to-actually-learn-to-code
+- How to Read Code: https://learn.modernagecoders.com/how-to-read-code
+- How to Debug Code: https://learn.modernagecoders.com/how-to-debug-code
+- How LLMs Actually Work: https://learn.modernagecoders.com/how-llms-actually-work
 ## Coding Classes by State, Province & Market
 
 Live online coding and mathematics for a specific state, province or market,

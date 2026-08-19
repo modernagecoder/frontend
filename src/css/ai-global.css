@@ -497,6 +497,42 @@
   .ag-form-panel { padding: 24px 20px; }
 }
 
+/* --- depth series: ten global topic pages, accents solved for >=4.5:1 on all
+   three paper tints and >=40 RGB separation from each other ------------------ */
+.ag-root.ag-acd { --ag-accent: #A34B3E; --ag-accent-soft: rgba(163,75,62,.09); }
+.ag-root.ag-mcp { --ag-accent: #63462C; --ag-accent-soft: rgba(99,70,44,.09); }
+.ag-root.ag-rag { --ag-accent: #7E5A0C; --ag-accent-soft: rgba(126,90,12,.09); }
+.ag-root.ag-evl { --ag-accent: #5F6B45; --ag-accent-soft: rgba(95,107,69,.09); }
+.ag-root.ag-cxe { --ag-accent: #7A3350; --ag-accent-soft: rgba(122,51,80,.09); }
+.ag-root.ag-thk { --ag-accent: #276B44; --ag-accent-soft: rgba(39,107,68,.09); }
+.ag-root.ag-lrn { --ag-accent: #125C72; --ag-accent-soft: rgba(18,92,114,.09); }
+.ag-root.ag-rdc { --ag-accent: #3F6076; --ag-accent-soft: rgba(63,96,118,.09); }
+.ag-root.ag-dbg { --ag-accent: #6E5B99; --ag-accent-soft: rgba(110,91,153,.09); }
+.ag-root.ag-llm { --ag-accent: #8C5769; --ag-accent-soft: rgba(140,87,105,.09); }
+
+/* --- code block ------------------------------------------------------------
+   Depth pages show real code, so this is the one genuinely new component. The
+   figure scrolls on its own axis so a long line never scrolls the page. */
+.ag-code { margin: 26px 0 0; border: 1px solid var(--ag-rule); border-radius: 3px;
+  background: #FFFDF9; overflow: hidden; }
+.ag-code-head { display: flex; justify-content: space-between; gap: 12px; align-items: baseline;
+  padding: 9px 14px; border-bottom: 1px solid var(--ag-rule-soft);
+  background: var(--ag-paper-2); font-family: var(--ag-mono); font-size: 11px;
+  letter-spacing: .09em; text-transform: uppercase; color: var(--ag-muted); }
+.ag-code-head b { color: var(--ag-accent); font-weight: 600; letter-spacing: .09em; }
+.ag-code pre { margin: 0; padding: 16px 14px; overflow-x: auto;
+  font-family: var(--ag-mono); font-size: 13px; line-height: 1.75; color: var(--ag-ink-2);
+  -webkit-overflow-scrolling: touch; }
+.ag-code pre b { color: var(--ag-ink); font-weight: 600; background: var(--ag-accent-soft);
+  padding: 1px 3px; border-radius: 2px; }
+.ag-code pre i { color: var(--ag-muted); font-style: normal; }
+.ag-code-note { padding: 11px 14px; border-top: 1px solid var(--ag-rule-soft);
+  background: var(--ag-paper-2); font-size: 14px; line-height: 1.6; color: var(--ag-ink-2); }
+.ag-code-pair { display: grid; gap: 18px; align-items: start;
+  grid-template-columns: minmax(0,1fr) minmax(0,1fr); }
+@media (max-width: 860px) { .ag-code-pair { grid-template-columns: minmax(0,1fr); } }
+@media (max-width: 520px) { .ag-code pre { font-size: 12px; } }
+
 @media print {
   .ag-nav, .ag-btn-row, .ag-form-panel { display: none; }
   .ag-root { background: #fff; }

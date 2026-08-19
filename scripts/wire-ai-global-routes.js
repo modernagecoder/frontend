@@ -33,6 +33,17 @@ const TODAY = new Date().toISOString().slice(0, 10);
 // The full cluster. Pages that do not exist on disk yet are skipped with a note.
 const SLUGS = [
   'learn-to-build-ai',
+  // depth series
+  'agentic-coding-classes',
+  'model-context-protocol-mcp-course',
+  'rag-systems-course',
+  'ai-evaluations-course',
+  'context-engineering-course',
+  'how-to-think-like-a-programmer',
+  'how-to-actually-learn-to-code',
+  'how-to-read-code',
+  'how-to-debug-code',
+  'how-llms-actually-work',
   'ai-and-machine-learning-classes-in-oman',
   'ai-and-machine-learning-classes-in-muscat',
   'ai-and-machine-learning-classes-in-kuwait',
@@ -193,6 +204,16 @@ const LLMS_HEADING = '## Build AI, Not Just Use It (AI & machine learning by mar
 
 const LLMS_LABELS = {
   'learn-to-build-ai': 'Learn to Build AI (cluster hub)',
+  'agentic-coding-classes': 'Agentic Coding Classes',
+  'model-context-protocol-mcp-course': 'Model Context Protocol (MCP) Course',
+  'rag-systems-course': 'RAG Systems Course',
+  'ai-evaluations-course': 'AI Evaluations Course',
+  'context-engineering-course': 'Context Engineering Course',
+  'how-to-think-like-a-programmer': 'How to Think Like a Programmer',
+  'how-to-actually-learn-to-code': 'How to Actually Learn to Code',
+  'how-to-read-code': 'How to Read Code',
+  'how-to-debug-code': 'How to Debug Code',
+  'how-llms-actually-work': 'How LLMs Actually Work',
   'ai-and-machine-learning-classes-in-oman': 'Oman',
   'ai-and-machine-learning-classes-in-muscat': 'Muscat',
   'ai-and-machine-learning-classes-in-kuwait': 'Kuwait',

@@ -1,0 +1,742 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>How LLMs Actually Work | Fluent and Wrong Are Not Opposites</title>
+  <meta name="description" content="A language model predicts the next token, then does it again. That is the whole loop. Why hallucination follows, why it miscounts letters, and how we teach it.">
+  <meta name="author" content="Modern Age Coders">
+  <link rel="canonical" href="https://learn.modernagecoders.com/how-llms-actually-work">
+  <link rel="alternate" type="text/markdown" href="/src/pages/how-llms-actually-work.md" title="Markdown version for AI agents">
+
+  <link rel="icon" href="/favicon.ico" type="image/x-icon">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
+  <meta name="theme-color" content="#8C5769">
+
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="https://learn.modernagecoders.com/how-llms-actually-work">
+  <meta property="og:title" content="How LLMs Actually Work | Fluent and Wrong Are Not Opposites">
+  <meta property="og:description" content="The model was not lying, because lying requires a belief about truth. It produced what a citation in that position usually looks like, which is what it was built to do.">
+  <meta property="og:image" content="https://learn.modernagecoders.com/images/og-modern-age-coders.png">
+  <meta property="og:site_name" content="Modern Age Coders">
+  <meta property="og:locale" content="en">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="How LLMs Actually Work">
+  <meta name="twitter:description" content="The loop, tokenisation, and why a confident tone carries no information about correctness.">
+  <meta name="twitter:image" content="https://learn.modernagecoders.com/images/og-modern-age-coders.png">
+
+  <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/ai-global.css?v=20260819">
+
+  <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-N8BM164YJP');gtag('config','AW-16910316353');</script>
+
+  <script type="application/ld+json" data-price-scope="coding.international">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "EducationalOrganization",
+        "@id": "https://learn.modernagecoders.com/#org",
+        "name": "Modern Age Coders",
+        "url": "https://learn.modernagecoders.com/",
+        "email": "contact@modernagecoders.com",
+        "telephone": "+91-91233-66161",
+        "foundingDate": "2020",
+        "areaServed": { "@type": "Place", "name": "Worldwide" },
+        "knowsAbout": ["Large Language Models", "Tokenization", "Next Token Prediction", "Transformers", "Hallucination", "Machine Learning", "Fine Tuning"]
+      },
+      {
+        "@type": "TechArticle",
+        "@id": "https://learn.modernagecoders.com/how-llms-actually-work#article",
+        "headline": "How LLMs Actually Work",
+        "description": "The model was not lying, because lying requires a belief about truth. It produced what a citation in that position usually looks like, which is what it was built to do.",
+        "inLanguage": "en",
+        "isAccessibleForFree": true,
+        "proficiencyLevel": "Beginner to Intermediate",
+        "dependencies": "No prior machine learning experience required",
+        "author": { "@id": "https://learn.modernagecoders.com/#org" },
+        "publisher": { "@id": "https://learn.modernagecoders.com/#org" },
+        "mainEntityOfPage": "https://learn.modernagecoders.com/how-llms-actually-work"
+      },
+      {
+        "@type": "Course",
+        "name": "How Large Language Models Work: Mechanism, Limits and Consequences",
+        "description": "Live online small-batch teaching on the mechanism of large language models for learners aged 6 to 67 worldwide: next-token prediction, tokenisation, pretraining against fine-tuning and inference, and why hallucination, context limits and confident wrongness follow from the objective rather than from defects.",
+        "url": "https://learn.modernagecoders.com/how-llms-actually-work",
+        "inLanguage": "en",
+        "provider": { "@id": "https://learn.modernagecoders.com/#org" },
+        "isAccessibleForFree": false,
+        "hasCourseInstance": {
+          "@type": "CourseInstance",
+          "courseMode": "online",
+          "courseWorkload": "PT3H",
+          "location": { "@type": "VirtualLocation", "url": "https://learn.modernagecoders.com/how-llms-actually-work" }
+        }
+      },
+      {
+        "@type": "Service",
+        "serviceType": "Online teaching on large language models and AI literacy",
+        "provider": { "@id": "https://learn.modernagecoders.com/#org" },
+        "areaServed": { "@type": "Place", "name": "Worldwide" },
+        "audience": { "@type": "EducationalAudience", "educationalRole": "student" }
+      },
+      {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://learn.modernagecoders.com/" },
+          { "@type": "ListItem", "position": 2, "name": "Learn to Build AI", "item": "https://learn.modernagecoders.com/learn-to-build-ai" },
+          { "@type": "ListItem", "position": 3, "name": "How LLMs actually work", "item": "https://learn.modernagecoders.com/how-llms-actually-work" }
+        ]
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+          {"@type": "Question", "name": "Does the model understand what it is saying?", "acceptedAnswer": {"@type": "Answer", "text": "That is a genuine dispute among serious people and we do not pretend to settle it in a class. What we teach is the mechanism, which is not in dispute, and then let students argue about the rest, which they enjoy a great deal. What we will say firmly is that the loop contains no step which checks a sentence against reality, and that fact alone explains most of the behaviour people find puzzling."}},
+          {"@type": "Question", "name": "Why does it make things up?", "acceptedAnswer": {"@type": "Answer", "text": "Because nothing in the process distinguishes recalling from improvising. The model produces what text of that shape usually looks like, and a plausible citation is exactly as easy to generate as a real one. It is not lying, which would require a belief about truth; it is doing the only thing it does, in a case where fluency and accuracy have come apart."}},
+          {"@type": "Question", "name": "How much does it cost to learn this properly?", "acceptedAnswer": {"@type": "Answer", "text": "A group batch of five to eight students is USD 100 a month and one to one is USD 150 a month, billed in US dollars, and these are the same figures everywhere we teach outside India. No enrolment fee, no minimum term, and the first class is free without a card."}},
+          {"@type": "Question", "name": "What age can understand this?", "acceptedAnswer": {"@type": "Answer", "text": "The honest simplified version works from about eight: it is a very good guesser about what comes next, it does not look anything up, and it can be totally wrong while sounding totally sure. That is age appropriate and true, which is the combination we insist on. The actual loop and tokenisation land well from about thirteen."}},
+          {"@type": "Question", "name": "Do you need maths for this?", "acceptedAnswer": {"@type": "Answer", "text": "Not for the mechanism on this page, which is conceptual and needs no notation at all. You need mathematics to build one, and specifically linear algebra, probability and calculus, which is what the machine learning courses cover. Understanding what these systems do and being able to train one are separated by a couple of years of work."}},
+          {"@type": "Question", "name": "Is this out of date already?", "acceptedAnswer": {"@type": "Answer", "text": "The specific models are, constantly. The content of this page is not, because it describes the objective and the inference loop, which have been stable throughout every generation so far and are what the architecture is built to serve. That is exactly why we teach mechanism rather than a tour of current products."}},
+          {"@type": "Question", "name": "Why does it forget our conversation?", "acceptedAnswer": {"@type": "Answer", "text": "There is no memory between conversations. Everything the system appears to remember was put back into the context window by the software wrapped around the model, and anything that falls out of that window is gone completely. What goes into it is a design decision, and a large one, which is the subject of the context engineering page."}},
+          {"@type": "Question", "name": "Should children be using these tools at all?", "acceptedAnswer": {"@type": "Answer", "text": "Ours do, with the mechanism explained first and with age floors respected, because most of these products set a minimum age and several are eighteen plus. The order matters more than the answer: a child who has been told how it works checks things, and a child who has been handed a magic answer box does not."}},
+          {"@type": "Question", "name": "Is this the same as your AI and machine learning courses?", "acceptedAnswer": {"@type": "Answer", "text": "This is the foundation those courses assume. The machine learning track goes on to train models, measure error against a baseline and deploy something, which is months of work. This page is the conceptual grounding, and it is worth having even for a learner who never intends to build anything."}},
+          {"@type": "Question", "name": "What happens after I send the form?", "acceptedAnswer": {"@type": "Answer", "text": "A mentor calls to arrange the free class. For this topic the session is usually spent making a model fail live, on purpose, in two or three of the ways this page predicts, because watching the mechanism produce a specific wrong answer teaches more than any explanation of it, including this one."}}
+        ]
+      }
+    ]
+  }
+  </script>
+</head>
+
+<body class="ag-root ag-llm">
+
+<nav class="ag-nav">
+  <div class="ag-wrap ag-nav-inner">
+    <a class="ag-nav-brand" href="/">
+      <img src="/images/logo.svg" alt="Modern Age Coders logo" width="30" height="30" fetchpriority="high">
+      <span>Modern Age Coders</span>
+      <span class="ag-brand-tag">How LLMs work</span>
+    </a>
+    <div class="ag-nav-links">
+      <a href="#one">The single idea</a>
+      <a href="#two">Two mechanisms</a>
+      <a href="#courses">Courses</a>
+      <a href="#fees">Fees</a>
+      <a href="/learn-to-build-ai">Build AI</a>
+      <a href="#start" class="ag-btn">Free first class</a>
+    </div>
+  </div>
+</nav>
+
+<header class="ag-hero">
+  <div class="ag-wrap">
+    <nav class="ag-crumbs" aria-label="Breadcrumb">
+      <a href="/">Home</a> <span>/</span> <a href="/learn-to-build-ai">Build AI</a> <span>/</span> <span>How LLMs actually work</span>
+    </nav>
+    <div class="ag-hero-grid">
+      <div>
+        <p class="ag-eyebrow">How LLMs work &middot; Live online &middot; Worldwide &middot; Ages 6 to 67</p>
+        <h1>A language model predicts the next word. Everything else follows from that.</h1>
+        <p class="ag-lede">Almost every misunderstanding about these systems, in both directions, comes from assuming that something which writes well must be doing something like knowing. A language model is trained to produce a probability distribution over what comes next, choose one, append it and repeat. Fluency is what the objective optimises. Truth is correlated with fluency and is not the same thing, and that gap is the entire explanation for a confident, well-formed, completely invented citation. This page shows the loop, shows why letters cannot be counted, and derives six familiar behaviours from the mechanism.</p>
+        <div class="ag-btn-row">
+          <a href="#start" class="ag-btn">Book the free first class</a>
+          <a href="#one" class="ag-btn ag-btn--ghost">See the loop</a>
+          <a href="https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders.%20I%20am%20trying%20to%20understand%20how%20language%20models%20actually%20work." class="ag-btn ag-btn--ghost" target="_blank" rel="noopener" onclick="if(window.gtag)gtag('event','whatsapp_click',{page_topic:'llms'});">Ask on WhatsApp</a>
+        </div>
+        <p class="ag-hero-note">
+          Live online &middot; ages 6 to 67 &middot; taught from India, worldwide &middot; from USD 100 a month &middot; first class free
+        </p>
+      </div>
+
+      <aside class="ag-spec">
+        <p class="ag-spec-title">At a glance</p>
+        <p class="ag-trust">
+          <span class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</span>
+          4.9 across 547 Google reviews
+        </p>
+        <dl>
+          @@<dt>The objective</dt><dd>Next token, nothing else</dd>
+          <dt>Why hallucination</dt><dd>Nothing in the loop checks reality</dd>
+          <dt>Why letter counting fails</dt><dd>Tokens, not characters</dd>
+          <dt>Confident tone means</dt><dd>Nothing about correctness</dd>
+          <dt>Taught from</dt><dd>Age 8, in honest simplified form</dd>
+          <dt>Open question</dt><dd>Why it works this well</dd>
+          <dt>Fees</dt><dd>From USD 100 a month</dd>
+          <dt>First class</dt><dd>Free, no card</dd>@@
+        </dl>
+      </aside>
+    </div>
+  </div>
+</header>
+
+<section class="ag-section">
+  <div class="ag-wrap">
+    <div class="ag-capsule">
+      <p class="ag-capsule-q">The short answer</p>
+      <p>A large language model is trained to produce a probability distribution over the next token given the text so far, then to sample one, append it and repeat. That loop is the whole of inference: nothing in it consults a database or checks whether a sentence is true. Fluency is therefore what the objective optimises directly and truth is only correlated with it, which is why a confident, well-formed, invented citation is not a malfunction but the system doing exactly what it was built to do. Modern Age Coders teaches this mechanism from about age eight in honest simplified form and in full to teenagers and adults. Group teaching is USD 100 a month, private is USD 150, first class free.</p>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="one">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">The single idea</p>
+      <h2>Fluent and wrong are not opposites</h2>
+      <p class="ag-lede">
+        Almost every misunderstanding about these systems, in both directions, comes from assuming
+        that something which writes well must be doing something like knowing.
+      </p>
+    </div>
+
+    <div class="ag-grid-2" style="align-items:start">
+      <div>
+        <p>
+          A language model is trained to do one thing: given some text, produce a probability
+          distribution over what comes next. That is not a simplification for children, it is the
+          objective. Everything impressive it does is a consequence of doing that extremely well
+          across an enormous quantity of text.
+        </p>
+        <p>
+          Which means fluency is the thing being optimised, directly. Truth is not. Truth correlates
+          with fluency, because true sentences are common in the training text and coherent
+          documents tend to be accurate ones, and correlation is why the systems are useful at all.
+          But it is a correlation, and it can break without anything looking different.
+        </p>
+      </div>
+      <div>
+        <p>
+          That is the entire explanation of the behaviour people find most unnerving: a confident,
+          well-formed, completely invented citation. The model was not lying, because lying requires
+          a belief about truth. It produced what a citation in that position usually looks like,
+          which is exactly what it was built to do.
+        </p>
+        <p>
+          Understanding this changes how a person uses the tools far more than any list of prompting
+          tips. It tells you where to check, what kinds of question are structurally risky, and why
+          a confident tone carries no information at all about correctness. That is the whole
+          argument for teaching it to a twelve year old.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="two">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Two mechanisms, shown</p>
+      <h2>The loop, and the reason it cannot count letters</h2>
+      <p class="ag-lede">
+        These two blocks explain a large fraction of everything odd you have ever seen one of these
+        systems do.
+      </p>
+    </div>
+
+    <div class="ag-code-pair">
+<figure class="ag-code">
+  <figcaption class="ag-code-head"><b>WHAT IT IS ACTUALLY DOING</b><span>every single step</span></figcaption>
+  <pre>"The capital of France is" -&gt;
+
+   Paris    0.94
+   the      0.02
+   located  0.01
+   a        0.01
+   ...
+
+<b>Pick one. Append it. Do it all again.</b>
+
+<i># That is the whole loop. There is no</i>
+<i># lookup, no database, no step where it</i>
+<i># checks whether the sentence is true.</i></pre>
+  <p class="ag-code-note">Once you have seen the loop, hallucination stops being mysterious. Nothing in it ever consults reality; the model is producing what such a sentence usually looks like.</p>
+</figure>
+<figure class="ag-code">
+  <figcaption class="ag-code-head"><b>WHY IT MISCOUNTS LETTERS</b><span>tokenisation</span></figcaption>
+  <pre>"strawberry"  ->  ["str", "aw", "berry"]
+
+<i># The model never sees s-t-r-a-w-b-e-r-r-y.</i>
+<i># It sees three opaque ids: 496, 707, 15717.</i>
+
+Q: how many r in strawberry?
+<b>It is being asked to count something</b>
+<b>it structurally cannot see.</b></pre>
+  <p class="ag-code-note">This is not a gap in knowledge that a bigger model fixes by knowing more. It is a consequence of the representation, which is why the failure looks so strange from outside.</p>
+</figure>
+</div>
+
+    <p class="ag-mt-40">
+      The right-hand block is the more important one and it is genuinely all there is to inference.
+      Take the text so far, produce a distribution over the next token, choose one, append it, and
+      repeat. There is no separate stage where the sentence is checked against anything. The model
+      does not know whether it is answering from something it saw a million times or improvising.
+    </p>
+    <p>
+      The left-hand block explains a class of failure that makes people think the systems are
+      pretending. Text is split into tokens before the model sees it, so a question about individual
+      letters is a question about something below its resolution. It is not being obtuse; it has
+      been handed three numbers and asked about spelling.
+    </p>
+  </div>
+</section>
+
+<section class="ag-section ag-section--deep">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">How one gets made</p>
+      <h2>Five stages, and what each one can and cannot fix</h2>
+      <p class="ag-lede">
+        Most public confusion comes from attributing a property to the wrong stage.
+      </p>
+    </div>
+    <ol class="ag-protocol">
+        <li class="ag-step" data-step="1">
+          <h4>Tokenisation: text becomes numbers</h4>
+          <p>Before anything, text is chopped into pieces from a fixed vocabulary and each piece becomes an integer. Common words are one token, unusual ones are several, and individual characters are usually invisible. Every downstream oddity about spelling, arithmetic digits and unusual languages starts here.</p>
+        </li>
+        <li class="ag-step" data-step="2">
+          <h4>Pretraining: predict the next token, at enormous scale</h4>
+          <p>The model is shown vast quantities of text and repeatedly asked what comes next, adjusting itself when wrong. This is where essentially all of the capability comes from, and it is also where the knowledge cutoff comes from: it knows the text it saw and nothing after.</p>
+        </li>
+        <li class="ag-step" data-step="3">
+          <h4>Fine-tuning and preference training: shaping the manner</h4>
+          <p>Further training on curated examples and human preferences makes it helpful, safer and conversational. This changes behaviour and style substantially and adds relatively little new knowledge, which is why a polite refusal and a confident fabrication can come from the same model.</p>
+        </li>
+        <li class="ag-step" data-step="4">
+          <h4>Inference: the loop, one token at a time</h4>
+          <p>At use time it does only what the second block above shows. Sampling settings decide how adventurously it picks among likely candidates, which is the entire technical content of temperature and why the same question can produce different answers.</p>
+        </li>
+        <li class="ag-step" data-step="5">
+          <h4>The context window: everything it can see right now</h4>
+          <p>The model has no memory between conversations. Whatever it appears to remember was placed back into the window by the surrounding software. Deciding what goes in there is the real engineering problem, and it is the subject of the context engineering page.</p>
+        </li>
+      </ol>
+  </div>
+</section>
+
+<section class="ag-section">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Consequences, derived</p>
+      <h2>Six familiar behaviours, and the mechanism each one comes from</h2>
+    </div>
+
+    <div class="ag-table-wrap">
+        <table class="ag-table">
+          <thead><tr><th scope="col">Behaviour you notice</th><th scope="col">The mechanism it comes from</th><th scope="col">What actually helps</th></tr></thead>
+          <tbody><tr><td>Invents a plausible citation</td><td class="ag-num">Nothing in the loop checks reality</td><td class="ag-num">Verify externally; never trust tone</td></tr><tr><td>Cannot count letters in a word</td><td class="ag-num">It sees tokens, not characters</td><td class="ag-num">Give it a tool, or do it in code</td></tr><tr><td>Forgets what you said earlier</td><td class="ag-num">It fell out of the context window</td><td class="ag-num">Restate, or retrieve it deliberately</td></tr><tr><td>Knows nothing about last week</td><td class="ag-num">Pretraining has a cutoff date</td><td class="ag-num">Supply the document yourself</td></tr><tr><td>Different answer each time</td><td class="ag-num">Sampling, not determinism</td><td class="ag-num">Lower the temperature, or fix a seed</td></tr><tr><td>Changes answer when you push back</td><td class="ag-num">Agreement is a likely continuation</td><td class="ag-num">Ask for evidence, not for confirmation</td></tr></tbody>
+        </table>
+      </div>
+
+    <p class="ag-mt-40">
+      Every row is derivable from the loop rather than memorised as a quirk, which is the difference
+      between understanding these systems and having a list of tips. A student who has the mechanism
+      can predict a failure mode in a tool released next year; a student with the tips cannot.
+    </p>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Using this</p>
+      <h2>Six checks that follow directly from how it works</h2>
+    </div>
+    <div class="ag-grid-3">
+      <div><h3>Check anything that has a name, number or date</h3><p>Proper nouns, statistics, citations and dates are precisely where fluency and truth part company, because a plausible-looking one is easy to generate and impossible to detect by reading. These are the highest-yield things to verify and almost the only ones worth verifying every time.</p></div>
+      <div><h3>Treat confidence as style, not evidence</h3><p>The tone is produced by the same process as the content and carries no signal about correctness. A hedged wrong answer and a confident wrong answer are equally wrong, and the confident one is more dangerous only because of how you respond to it.</p></div>
+      <div><h3>Supply the source rather than asking it to recall</h3><p>Handing the model the document and asking about that is a different and far more reliable operation than asking what it remembers. This is the whole idea behind retrieval, and it is the single biggest reliability improvement available to an ordinary user.</p></div>
+      <div><h3>Ask it to show work you can check</h3><p>Not because the reasoning is a true account of an internal process, but because intermediate steps are individually verifiable. A wrong step is visible in a way a wrong conclusion is not.</p></div>
+      <div><h3>Be suspicious when it agrees with you immediately</h3><p>Agreement is often the most likely continuation of a sentence in which somebody pushed back. If a challenge flips the answer without new evidence, you have learned about the loop rather than about the question.</p></div>
+      <div><h3>Know which tasks are structurally safe</h3><p>Rewriting, summarising supplied text and generating options are low risk because the material is in front of it. Recalling facts, doing exact arithmetic and counting are high risk. Sorting your requests into those two piles is most of using these tools well.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Teaching it</p>
+      <h2>What a child should be told, and what we will not pretend</h2>
+    </div>
+    <div class="ag-grid-2" style="align-items:start">
+      <div>
+        <h3>What we teach, by age</h3>
+        <p>
+          Under twelve: it is a very good guesser about what words come next, it does not look
+          anything up, and it can be completely wrong while sounding completely sure. That is age
+          appropriate and it is also true, which matters more than it sounds.
+        </p>
+        <p>
+          Teenagers get the actual loop, tokenisation, and training against inference, and then
+          build something with an API so the abstraction becomes concrete. Adults and university
+          students go further, into how the context window is filled, which is
+          <a class="ag-inline-link" href="/context-engineering-course">context engineering</a>, and
+          how to measure whether any of it works, which is
+          <a class="ag-inline-link" href="/ai-evaluations-course">evaluation</a>.
+        </p>
+      </div>
+      <div>
+        <h3>What we will not pretend</h3>
+        <p>
+          <strong>That anybody fully understands why these work as well as they do.</strong> The
+          mechanism is clear and the emergent capability is genuinely an open research question. A
+          course claiming otherwise is overselling.
+        </p>
+        <p>
+          <strong>That this page settles whether they understand anything.</strong> That is a real
+          philosophical dispute among serious people, and we teach the mechanism and let students
+          argue about the rest, which most of them enjoy considerably.
+        </p>
+        <p>
+          <strong>That knowing this makes you an AI engineer.</strong> It is the foundation.
+          Building on it is the <a class="ag-inline-link" href="/learn-to-build-ai">Build AI</a>
+          track, and it takes a good deal longer.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="courses">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">The catalogue</p>
+      <h2>Where this is taught in the catalogue</h2>
+      <p class="ag-lede">At three depths, by age. The honest simplified version for children, the actual mechanism for teenagers with an API project attached, and the full treatment including training dynamics for adults.</p>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">I</span>
+        <h3>Where this is taught, by depth</h3>
+        <span class="ag-band-sub">Chosen for this page rather than listed in full</span>
+      </div>
+      <div class="ag-grid-4">
+        <article class="ag-course">
+          <p class="ag-course-code">DEPTH / 01</p>
+          <h4>AI Literacy for Kids</h4>
+          <p>The honest simplified version from about eight: a very good guesser at what comes next, which looks nothing up, and can be sure and wrong at once.</p>
+          <a class="ag-course-link" href="/courses/ai-literacy-for-kids-course">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">DEPTH / 02</p>
+          <h4>AI and Machine Learning for Teens</h4>
+          <p>The actual loop, tokenisation, training against inference, then something built on an API so the abstraction stops being one.</p>
+          <a class="ag-course-link" href="/courses/ai-ml-masterclass-teens">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">DEPTH / 03</p>
+          <h4>Generative AI: LLMs, RAG and Agents</h4>
+          <p>The full treatment for adults: adaptation, grounding, and agents that are bounded, logged and loud when something goes wrong.</p>
+          <a class="ag-course-link" href="/courses/complete-generative-ai-masterclass-college">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">DEPTH / 04</p>
+          <h4>AI and ML Masterclass</h4>
+          <p>For anyone who wants to train one rather than understand one. Two more years of work, and a different subject from this page.</p>
+          <a class="ag-course-link" href="/courses/ai-ml-masterclass-complete-college">Open the syllabus</a>
+        </article>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="fees">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Fees</p>
+      <h2>What it costs, anywhere in the world</h2>
+      <p class="ag-lede">The same flat pair of figures everywhere we teach outside India, in US dollars, charged monthly with no minimum term.</p>
+    </div>
+    @@<div class="ag-grid-3">
+      <div class="ag-price">
+        <p class="ag-price-name">Free first class</p>
+        <p class="ag-price-amt">USD 0</p>
+        <p class="ag-price-alt">no card required</p>
+        <ul><li>Taught rather than sold</li><li>It settles which rung the learner starts on</li><li>You watch it, then decide</li></ul>
+        <a href="#start" class="ag-btn ag-btn--ghost">Book it</a>
+      </div>
+      <div class="ag-price ag-price--feature">
+        <p class="ag-price-name">Group batch</p>
+        <p class="ag-price-amt">USD 100</p>
+        <p class="ag-price-alt">a month, billed in US dollars</p>
+        <ul><li>Five to eight students, one teacher throughout</li><li>Live video, never a recording</li><li>Build work between sessions, reviewed by the teacher</li><li>Certificate on completion</li></ul>
+        <a href="#start" class="ag-btn">Start here</a>
+      </div>
+      <div class="ag-price">
+        <p class="ag-price-name">One to one</p>
+        <p class="ag-price-amt">USD 150</p>
+        <p class="ag-price-alt">a month, billed in US dollars</p>
+        <ul><li>Private teaching, at the pace the goal needs</li><li>The only way to get a weekday morning slot</li><li>Syllabus shaped to one objective</li></ul>
+        <a href="#start" class="ag-btn ag-btn--ghost">Enquire</a>
+      </div>
+    </div>@@
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">What learners and families say</p>
+      <h2>Rated 4.9 across 547 Google reviews</h2>
+      <p class="ag-lede">Real reviews from real families. We neither write nor commission them.</p>
+    </div>
+    @@<div class="ag-grid-3">
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."</p>
+        <p class="ag-review-name">Ria Mukherjee</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."</p>
+        <p class="ag-review-name">Samriddha Mondal</p>
+        <p class="ag-review-role">Student</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."</p>
+        <p class="ag-review-name">Vansh Agarwal</p>
+        <p class="ag-review-role">Student</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."</p>
+        <p class="ag-review-name">Sonam Oswal</p>
+        <p class="ag-review-role">Parent of Dhairya</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."</p>
+        <p class="ag-review-name">Sonu Goyal</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."</p>
+        <p class="ag-review-name">Ritu Kedia</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+    </div>@@
+  </div>
+</section>
+
+<section class="ag-section">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">The rest of the series</p>
+      <h2>The nine other pages in this series</h2>
+      <p class="ag-lede">This page is the mechanism. Context engineering, RAG and evaluation are the three things you build on top of it once you accept what the loop does and does not do.</p>
+    </div>
+    <div class="ag-markets">
+      <a class="ag-market" href="/agentic-coding-classes"><span class="ag-market-n">Agentic coding</span><span class="ag-market-m">/agentic-coding-classes</span></a>
+      <a class="ag-market" href="/how-to-read-code"><span class="ag-market-n">Reading code</span><span class="ag-market-m">/how-to-read-code</span></a>
+      <a class="ag-market" href="/how-to-debug-code"><span class="ag-market-n">Debugging</span><span class="ag-market-m">/how-to-debug-code</span></a>
+      <a class="ag-market" href="/how-to-think-like-a-programmer"><span class="ag-market-n">Thinking like a programmer</span><span class="ag-market-m">/how-to-think-like-a-programmer</span></a>
+      <a class="ag-market" href="/how-to-actually-learn-to-code"><span class="ag-market-n">How learning actually works</span><span class="ag-market-m">/how-to-actually-learn-to-code</span></a>
+      <a class="ag-market" href="/context-engineering-course"><span class="ag-market-n">Context engineering</span><span class="ag-market-m">/context-engineering-course</span></a>
+      <a class="ag-market" href="/rag-systems-course"><span class="ag-market-n">RAG systems</span><span class="ag-market-m">/rag-systems-course</span></a>
+      <a class="ag-market" href="/ai-evaluations-course"><span class="ag-market-n">Evaluations</span><span class="ag-market-m">/ai-evaluations-course</span></a>
+      <a class="ag-market" href="/model-context-protocol-mcp-course"><span class="ag-market-n">MCP</span><span class="ag-market-m">/model-context-protocol-mcp-course</span></a>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--deep">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Questions about how LLMs work</p>
+      <h2>What learners and parents ask</h2>
+    </div>
+    <div class="ag-faq">
+      @@<div class="ag-faq-item">
+        <h3>Does the model understand what it is saying?</h3>
+        <p>That is a genuine dispute among serious people and we do not pretend to settle it in a class. What we teach is the mechanism, which is not in dispute, and then let students argue about the rest, which they enjoy a great deal. What we will say firmly is that the loop contains no step which checks a sentence against reality, and that fact alone explains most of the behaviour people find puzzling.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Why does it make things up?</h3>
+        <p>Because nothing in the process distinguishes recalling from improvising. The model produces what text of that shape usually looks like, and a plausible citation is exactly as easy to generate as a real one. It is not lying, which would require a belief about truth; it is doing the only thing it does, in a case where fluency and accuracy have come apart.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>How much does it cost to learn this properly?</h3>
+        <p>A group batch of five to eight students is USD 100 a month and one to one is USD 150 a month, billed in US dollars, and these are the same figures everywhere we teach outside India. No enrolment fee, no minimum term, and the first class is free without a card.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>What age can understand this?</h3>
+        <p>The honest simplified version works from about eight: it is a very good guesser about what comes next, it does not look anything up, and it can be totally wrong while sounding totally sure. That is age appropriate and true, which is the combination we insist on. The actual loop and tokenisation land well from about thirteen.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Do you need maths for this?</h3>
+        <p>Not for the mechanism on this page, which is conceptual and needs no notation at all. You need mathematics to build one, and specifically linear algebra, probability and calculus, which is what the machine learning courses cover. Understanding what these systems do and being able to train one are separated by a couple of years of work.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Is this out of date already?</h3>
+        <p>The specific models are, constantly. The content of this page is not, because it describes the objective and the inference loop, which have been stable throughout every generation so far and are what the architecture is built to serve. That is exactly why we teach mechanism rather than a tour of current products.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Why does it forget our conversation?</h3>
+        <p>There is no memory between conversations. Everything the system appears to remember was put back into the context window by the software wrapped around the model, and anything that falls out of that window is gone completely. What goes into it is a design decision, and a large one, which is the subject of the context engineering page.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Should children be using these tools at all?</h3>
+        <p>Ours do, with the mechanism explained first and with age floors respected, because most of these products set a minimum age and several are eighteen plus. The order matters more than the answer: a child who has been told how it works checks things, and a child who has been handed a magic answer box does not.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Is this the same as your AI and machine learning courses?</h3>
+        <p>This is the foundation those courses assume. The machine learning track goes on to train models, measure error against a baseline and deploy something, which is months of work. This page is the conceptual grounding, and it is worth having even for a learner who never intends to build anything.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>What happens after I send the form?</h3>
+        <p>A mentor calls to arrange the free class. For this topic the session is usually spent making a model fail live, on purpose, in two or three of the ways this page predicts, because watching the mechanism produce a specific wrong answer teaches more than any explanation of it, including this one.</p>
+      </div>@@
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="start">
+  <div class="ag-wrap">
+    <div class="ag-hero-grid">
+      <div>
+        <div class="ag-section-head">
+          <p class="ag-eyebrow">Start</p>
+          <h2>The free class is spent making it fail, deliberately</h2>
+        </div>
+        <p>The most useful ninety minutes we can give a new learner on this topic is not an explanation. It is sitting with a model and making it produce a confident wrong answer on purpose, in two or three of the ways this page predicts, and then explaining why each one happened. It costs nothing, needs no card, and it tends to change how a family uses these tools that same week regardless of whether they ever enrol.</p>
+        <p>Rather read first? <a class="ag-inline-link" href="/context-engineering-course">Context engineering</a>, <a class="ag-inline-link" href="/rag-systems-course">RAG systems</a>, or <a class="ag-inline-link" href="/ai-evaluations-course">evaluations</a>.</p>
+        <p style="margin-top:22px">
+          <a class="ag-inline-link" href="https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders.%20I%20am%20trying%20to%20understand%20how%20language%20models%20actually%20work." target="_blank" rel="noopener">WhatsApp us</a> &middot;
+          <a class="ag-inline-link" href="tel:+919123366161">+91 91233 66161</a> &middot;
+          <a class="ag-inline-link" href="mailto:contact@modernagecoders.com">contact@modernagecoders.com</a>
+        </p>
+        <p style="font-size:.92rem;color:var(--ag-muted);margin-top:14px">
+          We hold no premises anywhere. Every session is a live video call taught from India, and the
+          number above rings in India. Sending the form opens a conversation rather than an enrolment,
+          and holds no place in any batch.
+        </p>
+      </div>
+      <div class="ag-form-panel">
+        <form onsubmit="submitLlmLead(event)" novalidate>
+          <div class="ag-field">
+            <label for="ag-llm-name">Your name</label>
+            <input id="ag-llm-name" type="text" name="name" placeholder="Parent, student or your own name" required>
+          </div>
+          <div class="ag-field">
+            <label for="ag-llm-phone">Phone or WhatsApp, including your country code</label>
+            <input id="ag-llm-phone" type="tel" name="phone" placeholder="+44 7700 900000" required>
+          </div>
+          <div class="ag-field">
+            <label for="ag-llm-age">Who is learning</label>
+            <select id="ag-llm-age" name="age">
+              <option value="6-12">A child, 6 to 12</option>
+              <option value="13-18">A teenager, 13 to 18</option>
+              <option value="college">A university student</option>
+              <option value="adult">Me, working professional</option>
+            </select>
+          </div>
+          <button type="submit" class="ag-btn" style="width:100%">Request the free class</button>
+          <p class="ag-form-note">No card. No obligation. We call, we do not spam.</p>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+@@<footer class="ag-footer">
+  <div class="ag-wrap">
+    <div class="ag-grid-4">
+      <div>
+        <h4>Modern Age Coders</h4>
+        <p style="font-size:.9rem;opacity:.82">
+          Live online coding, AI and mathematics for ages 6 to 67. Teaching since 2020, more than
+          10,000 students across 25 countries and more.
+        </p>
+      </div>
+      <div>
+        <h4>Depth series</h4>
+        <ul>
+          <li><a href="/agentic-coding-classes">Agentic coding</a></li>
+          <li><a href="/how-to-read-code">How to read code</a></li>
+          <li><a href="/how-to-debug-code">How to debug code</a></li>
+          <li><a href="/how-to-think-like-a-programmer">Think like a programmer</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Build AI</h4>
+        <ul>
+          <li><a href="/how-llms-actually-work">How LLMs actually work</a></li>
+          <li><a href="/context-engineering-course">Context engineering</a></li>
+          <li><a href="/rag-systems-course">RAG systems</a></li>
+          <li><a href="/ai-evaluations-course">Evaluations</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Start</h4>
+        <ul>
+          <li><a href="/courses">The full catalogue</a></li>
+          <li><a href="/pricing">Fees</a></li>
+          <li><a href="/how-we-teach">How we teach</a></li>
+          <li><a href="/student-labs">What students build</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="ag-footer-bottom">
+      <span>&copy; 2026 Modern Age Coders. Live online, taught from India, worldwide.</span>
+      <span>Ages 6 to 67 &middot; 25 countries and more</span>
+    </div>
+  </div>
+</footer>@@
+
+<script>
+window.submitLlmLead = function (e) {
+  e.preventDefault();
+  var form = e.target;
+  var name = (form.querySelector('input[name="name"]') || {}).value || '';
+  var phoneRaw = (form.querySelector('input[type="tel"]') || {}).value || '';
+  var age = (form.querySelector('select[name="age"]') || {}).value || '';
+  var d = phoneRaw.replace(/\D/g, '');
+  if (d.length < 7) { alert('Please enter a valid phone number including your country code.'); return; }
+  var btn = form.querySelector('button[type="submit"]');
+  var oldText = btn.textContent;
+  btn.disabled = true; btn.textContent = 'Sending...';
+  var API_URL = (location.hostname === 'localhost' || location.hostname === '127.0.0.1')
+    ? 'http://localhost:5000' : 'https://backend-modernagecoders.vercel.app';
+  fetch(API_URL + '/api/callback/request', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({
+      phone: d, countryCode: '', countryIso: '', countryName: 'International',
+      source: 'how-llms-actually-work-inline', meta: { name: name, age: age, raw: phoneRaw, topic: 'llms' }
+    })
+  }).then(function (r) { return r.json(); }).then(function (data) {
+    if (data && data.success) {
+      if (window.gtag) gtag('event', 'generate_lead', { page_topic: 'llms' });
+      form.innerHTML = '<p class="ag-form-ok">Thank you' + (name ? ', ' + name.split(' ')[0] : '') +
+        '. A mentor will call you to arrange the free class.</p>';
+    } else {
+      alert((data && data.message) || 'Something went wrong. Please try again.');
+      btn.disabled = false; btn.textContent = oldText;
+    }
+  }).catch(function () {
+    alert('Network error. Please try again.');
+    btn.disabled = false; btn.textContent = oldText;
+  });
+};
+</script>
+<script>
+  window.addEventListener('load', function () {
+    var s = document.createElement('script');
+    s.src = 'https://www.googletagmanager.com/gtag/js?id=G-N8BM164YJP';
+    s.async = true;
+    document.head.appendChild(s);
+  });
+</script>
+</body>
+</html>

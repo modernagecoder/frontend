@@ -49,7 +49,7 @@ const GEN = path.join(ROOT, 'content/courses/generated');
 const CLUSTERS = {
   'build-ai': {
     label: 'Build-AI cluster',
-    fileRe: /^(learn-to-build-ai|ai-and-machine-learning-classes-in-.+|ai-and-python-academy-oman|ai-and-python-academy-salalah|ai-and-python-academy-sohar|ai-and-python-academy-nizwa|ai-and-python-academy-for-girls-oman|ai-agents-course-for-students-oman|python-to-ai-roadmap-for-students-oman|build-real-ai-projects-oman|machine-learning-for-school-students-oman|vibe-coding-vs-building-ai-oman|coding-and-ai-classes-in-nassau|coding-and-ai-classes-in-bahamas|coding-classes-for-kids-in-nassau|python-and-ai-track-for-students-bahamas|one-to-one-coding-classes-in-nassau|github-portfolio-for-students-bahamas|coding-competitions-for-students-bahamas|year-round-coding-classes-vs-summer-camps-bahamas|coding-and-ai-alongside-bjc-and-bgcse-bahamas)\.html$/,
+    fileRe: /^(agentic-coding-classes|model-context-protocol-mcp-course|rag-systems-course|ai-evaluations-course|context-engineering-course|how-to-think-like-a-programmer|how-to-actually-learn-to-code|how-to-read-code|how-to-debug-code|how-llms-actually-work|learn-to-build-ai|ai-and-machine-learning-classes-in-.+|ai-and-python-academy-oman|ai-and-python-academy-salalah|ai-and-python-academy-sohar|ai-and-python-academy-nizwa|ai-and-python-academy-for-girls-oman|ai-agents-course-for-students-oman|python-to-ai-roadmap-for-students-oman|build-real-ai-projects-oman|machine-learning-for-school-students-oman|vibe-coding-vs-building-ai-oman|coding-and-ai-classes-in-nassau|coding-and-ai-classes-in-bahamas|coding-classes-for-kids-in-nassau|python-and-ai-track-for-students-bahamas|one-to-one-coding-classes-in-nassau|github-portfolio-for-students-bahamas|coding-competitions-for-students-bahamas|year-round-coding-classes-vs-summer-camps-bahamas|coding-and-ai-alongside-bjc-and-bgcse-bahamas)\.html$/,
     css: 'src/css/ai-global.css',
     prefix: 'ag',
     markets: ['om', 'mct', 'kw', 'kwc', 'bh', 'ae', 'sa', 'qa', 'us', 'uk',
@@ -57,8 +57,10 @@ const CLUSTERS = {
       // Oman AI and Python Academy family
       'oap', 'sal', 'soh', 'niz', 'grl', 'agt', 'rdm', 'prj', 'mls', 'vbc',
       // Bahamas family: New Providence and the country
-      'nas', 'bah', 'kid', 'trk', 'mlb', 'oto', 'gpf', 'cmp', 'yrr', 'bgc'],
-    siblingRe: /^\/(learn-to-build-ai|ai-and-machine-learning-classes-in-|ai-and-python-academy-|ai-agents-course-for-students-oman|python-to-ai-roadmap-for-students-oman|build-real-ai-projects-oman|machine-learning-for-school-students-oman|vibe-coding-vs-building-ai-oman|coding-and-ai-classes-in-nassau|coding-and-ai-classes-in-bahamas|coding-classes-for-kids-in-nassau|python-and-ai-track-for-students-bahamas|one-to-one-coding-classes-in-nassau|github-portfolio-for-students-bahamas|coding-competitions-for-students-bahamas|year-round-coding-classes-vs-summer-camps-bahamas|coding-and-ai-alongside-bjc-and-bgcse-bahamas)/
+      'nas', 'bah', 'kid', 'trk', 'mlb', 'oto', 'gpf', 'cmp', 'yrr', 'bgc',
+      // depth series: ten global topic pages, no geography
+      'acd', 'mcp', 'rag', 'evl', 'cxe', 'thk', 'lrn', 'rdc', 'dbg', 'llm'],
+    siblingRe: /^\/(agentic-coding-classes|model-context-protocol-mcp-course|rag-systems-course|ai-evaluations-course|context-engineering-course|how-to-think-like-a-programmer|how-to-actually-learn-to-code|how-to-read-code|how-to-debug-code|how-llms-actually-work|learn-to-build-ai|ai-and-machine-learning-classes-in-|ai-and-python-academy-|ai-agents-course-for-students-oman|python-to-ai-roadmap-for-students-oman|build-real-ai-projects-oman|machine-learning-for-school-students-oman|vibe-coding-vs-building-ai-oman|coding-and-ai-classes-in-nassau|coding-and-ai-classes-in-bahamas|coding-classes-for-kids-in-nassau|python-and-ai-track-for-students-bahamas|one-to-one-coding-classes-in-nassau|github-portfolio-for-students-bahamas|coding-competitions-for-students-bahamas|year-round-coding-classes-vs-summer-camps-bahamas|coding-and-ai-alongside-bjc-and-bgcse-bahamas)/
   },
 
   // The international growth cluster. Six half-built markets plus fourteen

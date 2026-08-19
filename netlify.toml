@@ -7215,6 +7215,108 @@
   to = "/src/pages/ai-and-machine-learning-classes-in-bahamas.md"
   status = 200
 
+# Global Build-AI cluster (ai-global.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/agentic-coding-classes"
+  to = "/src/pages/agentic-coding-classes.html"
+  status = 200
+
+[[redirects]]
+  from = "/agentic-coding-classes.md"
+  to = "/src/pages/agentic-coding-classes.md"
+  status = 200
+
+[[redirects]]
+  from = "/model-context-protocol-mcp-course"
+  to = "/src/pages/model-context-protocol-mcp-course.html"
+  status = 200
+
+[[redirects]]
+  from = "/model-context-protocol-mcp-course.md"
+  to = "/src/pages/model-context-protocol-mcp-course.md"
+  status = 200
+
+[[redirects]]
+  from = "/rag-systems-course"
+  to = "/src/pages/rag-systems-course.html"
+  status = 200
+
+[[redirects]]
+  from = "/rag-systems-course.md"
+  to = "/src/pages/rag-systems-course.md"
+  status = 200
+
+[[redirects]]
+  from = "/ai-evaluations-course"
+  to = "/src/pages/ai-evaluations-course.html"
+  status = 200
+
+[[redirects]]
+  from = "/ai-evaluations-course.md"
+  to = "/src/pages/ai-evaluations-course.md"
+  status = 200
+
+[[redirects]]
+  from = "/context-engineering-course"
+  to = "/src/pages/context-engineering-course.html"
+  status = 200
+
+[[redirects]]
+  from = "/context-engineering-course.md"
+  to = "/src/pages/context-engineering-course.md"
+  status = 200
+
+[[redirects]]
+  from = "/how-to-think-like-a-programmer"
+  to = "/src/pages/how-to-think-like-a-programmer.html"
+  status = 200
+
+[[redirects]]
+  from = "/how-to-think-like-a-programmer.md"
+  to = "/src/pages/how-to-think-like-a-programmer.md"
+  status = 200
+
+[[redirects]]
+  from = "/how-to-actually-learn-to-code"
+  to = "/src/pages/how-to-actually-learn-to-code.html"
+  status = 200
+
+[[redirects]]
+  from = "/how-to-actually-learn-to-code.md"
+  to = "/src/pages/how-to-actually-learn-to-code.md"
+  status = 200
+
+[[redirects]]
+  from = "/how-to-read-code"
+  to = "/src/pages/how-to-read-code.html"
+  status = 200
+
+[[redirects]]
+  from = "/how-to-read-code.md"
+  to = "/src/pages/how-to-read-code.md"
+  status = 200
+
+[[redirects]]
+  from = "/how-to-debug-code"
+  to = "/src/pages/how-to-debug-code.html"
+  status = 200
+
+[[redirects]]
+  from = "/how-to-debug-code.md"
+  to = "/src/pages/how-to-debug-code.md"
+  status = 200
+
+[[redirects]]
+  from = "/how-llms-actually-work"
+  to = "/src/pages/how-llms-actually-work.html"
+  status = 200
+
+[[redirects]]
+  from = "/how-llms-actually-work.md"
+  to = "/src/pages/how-llms-actually-work.md"
+  status = 200
+
 [[redirects]]
   from = "/*"
   to = "/src/pages/404.html"

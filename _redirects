@@ -1712,4 +1712,26 @@
 /coding-and-ai-alongside-bjc-and-bgcse-bahamas.md /src/pages/coding-and-ai-alongside-bjc-and-bgcse-bahamas.md 200
 /ai-and-machine-learning-classes-in-bahamas /src/pages/ai-and-machine-learning-classes-in-bahamas.html 200
 /ai-and-machine-learning-classes-in-bahamas.md /src/pages/ai-and-machine-learning-classes-in-bahamas.md 200
+
+# Global Build-AI cluster (ai-global.css). Inserted before the /* catch-all.
+/agentic-coding-classes /src/pages/agentic-coding-classes.html 200
+/agentic-coding-classes.md /src/pages/agentic-coding-classes.md 200
+/model-context-protocol-mcp-course /src/pages/model-context-protocol-mcp-course.html 200
+/model-context-protocol-mcp-course.md /src/pages/model-context-protocol-mcp-course.md 200
+/rag-systems-course /src/pages/rag-systems-course.html 200
+/rag-systems-course.md /src/pages/rag-systems-course.md 200
+/ai-evaluations-course /src/pages/ai-evaluations-course.html 200
+/ai-evaluations-course.md /src/pages/ai-evaluations-course.md 200
+/context-engineering-course /src/pages/context-engineering-course.html 200
+/context-engineering-course.md /src/pages/context-engineering-course.md 200
+/how-to-think-like-a-programmer /src/pages/how-to-think-like-a-programmer.html 200
+/how-to-think-like-a-programmer.md /src/pages/how-to-think-like-a-programmer.md 200
+/how-to-actually-learn-to-code /src/pages/how-to-actually-learn-to-code.html 200
+/how-to-actually-learn-to-code.md /src/pages/how-to-actually-learn-to-code.md 200
+/how-to-read-code /src/pages/how-to-read-code.html 200
+/how-to-read-code.md /src/pages/how-to-read-code.md 200
+/how-to-debug-code /src/pages/how-to-debug-code.html 200
+/how-to-debug-code.md /src/pages/how-to-debug-code.md 200
+/how-llms-actually-work /src/pages/how-llms-actually-work.html 200
+/how-llms-actually-work.md /src/pages/how-llms-actually-work.md 200
 /* /src/pages/404.html 404

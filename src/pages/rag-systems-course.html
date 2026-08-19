@@ -1,0 +1,749 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>RAG Systems Course | Retrieval Is the Part That Breaks</title>
+  <meta name="description" content="Most RAG failures are retrieval failures, not model failures. Build over a corpus you know, measure retrieval before generation, localise faults by stage.">
+  <meta name="author" content="Modern Age Coders">
+  <link rel="canonical" href="https://learn.modernagecoders.com/rag-systems-course">
+  <link rel="alternate" type="text/markdown" href="/src/pages/rag-systems-course.md" title="Markdown version for AI agents">
+
+  <link rel="icon" href="/favicon.ico" type="image/x-icon">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
+  <meta name="theme-color" content="#7E5A0C">
+
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="https://learn.modernagecoders.com/rag-systems-course">
+  <meta property="og:title" content="RAG Systems Course | Retrieval Is the Part That Breaks">
+  <meta property="og:description" content="People build a RAG system, it works on the first ten questions, then answers wrongly from the wrong part of the document. Because the model is visible, the model gets replaced.">
+  <meta property="og:image" content="https://learn.modernagecoders.com/images/og-modern-age-coders.png">
+  <meta property="og:site_name" content="Modern Age Coders">
+  <meta property="og:locale" content="en">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="RAG Systems Course">
+  <meta name="twitter:description" content="Retrieval augmented generation is a search problem wearing an AI costume.">
+  <meta name="twitter:image" content="https://learn.modernagecoders.com/images/og-modern-age-coders.png">
+
+  <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/ai-global.css?v=20260819">
+
+  <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-N8BM164YJP');gtag('config','AW-16910316353');</script>
+
+  <script type="application/ld+json" data-price-scope="coding.international">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "EducationalOrganization",
+        "@id": "https://learn.modernagecoders.com/#org",
+        "name": "Modern Age Coders",
+        "url": "https://learn.modernagecoders.com/",
+        "email": "contact@modernagecoders.com",
+        "telephone": "+91-91233-66161",
+        "foundingDate": "2020",
+        "areaServed": { "@type": "Place", "name": "Worldwide" },
+        "knowsAbout": ["Retrieval Augmented Generation", "Vector Search", "Embeddings", "Chunking", "Reranking", "Information Retrieval", "Python"]
+      },
+      {
+        "@type": "TechArticle",
+        "@id": "https://learn.modernagecoders.com/rag-systems-course#article",
+        "headline": "RAG Systems Course",
+        "description": "People build a RAG system, it works on the first ten questions, then answers wrongly from the wrong part of the document. Because the model is visible, the model gets replaced.",
+        "inLanguage": "en",
+        "isAccessibleForFree": true,
+        "proficiencyLevel": "Intermediate to Advanced",
+        "dependencies": "Comfortable writing Python and handling structured data",
+        "author": { "@id": "https://learn.modernagecoders.com/#org" },
+        "publisher": { "@id": "https://learn.modernagecoders.com/#org" },
+        "mainEntityOfPage": "https://learn.modernagecoders.com/rag-systems-course"
+      },
+      {
+        "@type": "Course",
+        "name": "RAG Systems Course: Retrieval Augmented Generation, Built and Measured",
+        "description": "Live online small-batch teaching in retrieval augmented generation for learners worldwide: chunking, embeddings, hybrid retrieval, reranking and citation, with retrieval measured against a labelled question set before any generated answer is judged, built over a corpus each student knows well enough to grade.",
+        "url": "https://learn.modernagecoders.com/rag-systems-course",
+        "inLanguage": "en",
+        "provider": { "@id": "https://learn.modernagecoders.com/#org" },
+        "isAccessibleForFree": false,
+        "hasCourseInstance": {
+          "@type": "CourseInstance",
+          "courseMode": "online",
+          "courseWorkload": "PT3H",
+          "location": { "@type": "VirtualLocation", "url": "https://learn.modernagecoders.com/rag-systems-course" }
+        }
+      },
+      {
+        "@type": "Service",
+        "serviceType": "Online retrieval augmented generation and vector search teaching",
+        "provider": { "@id": "https://learn.modernagecoders.com/#org" },
+        "areaServed": { "@type": "Place", "name": "Worldwide" },
+        "audience": { "@type": "EducationalAudience", "educationalRole": "student" }
+      },
+      {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://learn.modernagecoders.com/" },
+          { "@type": "ListItem", "position": 2, "name": "Learn to Build AI", "item": "https://learn.modernagecoders.com/learn-to-build-ai" },
+          { "@type": "ListItem", "position": 3, "name": "RAG systems course", "item": "https://learn.modernagecoders.com/rag-systems-course" }
+        ]
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+          {"@type": "Question", "name": "What is RAG, plainly?", "acceptedAnswer": {"@type": "Answer", "text": "Fetching text relevant to a question and putting it in front of the model before it answers, so the answer comes from your documents rather than from what the model absorbed in training. It is the most reliable single improvement available for factual work, and its failures are mostly search failures."}},
+          {"@type": "Question", "name": "Why do you say the model is rarely the problem?", "acceptedAnswer": {"@type": "Answer", "text": "Because when we take systems apart with students, the relevant passage usually was not in what the model received. It was never retrieved, or it ranked far below the cutoff, or it was truncated. A model cannot answer from text it was not given, and swapping in a better one changes nothing about that."}},
+          {"@type": "Question", "name": "How much does it cost?", "acceptedAnswer": {"@type": "Answer", "text": "A group batch of five to eight students is USD 100 a month and one to one is USD 150 a month, billed in US dollars, the same flat figures everywhere we teach outside India. No enrolment fee and no minimum term, and the first class is free without a card."}},
+          {"@type": "Question", "name": "Do I need machine learning knowledge first?", "acceptedAnswer": {"@type": "Answer", "text": "You need to write Python comfortably and to have handled messy real data, which matters more here than any modelling background. Most of this course is engineering: splitting documents sensibly, combining two kinds of search, measuring whether the right passage came back. The mechanism page is a better prerequisite than a maths course."}},
+          {"@type": "Question", "name": "Is RAG obsolete now that context windows are enormous?", "acceptedAnswer": {"@type": "Answer", "text": "No, and the claim is worth addressing directly. Putting an entire corpus in the window is expensive, slow, and measurably worse at locating one specific fact than good retrieval. More room in the window is not the same as attention landing on the part that mattered, and cost scales with every single query."}},
+          {"@type": "Question", "name": "What corpus should a student use?", "acceptedAnswer": {"@type": "Answer", "text": "One they know well enough to grade. Personal notes, a rulebook for a game they play, a public dataset in a field they follow. Familiarity is the requirement, because evaluating retrieval means knowing what the right answer was, and a student who has not read the documents is guessing at every measurement."}},
+          {"@type": "Question", "name": "Can this be taught to teenagers?", "acceptedAnswer": {"@type": "Answer", "text": "Yes, to teenagers who write Python confidently, and it lands well because the failures are so concrete. A fifteen year old who has watched their own system quote the wrong section of a rulebook understands the retrieval problem better than most adults who have read about it."}},
+          {"@type": "Question", "name": "How do you evaluate a RAG system?", "acceptedAnswer": {"@type": "Answer", "text": "In two separate halves, and separating them is the whole method. First, retrieval alone against a labelled set of questions with known correct sources. Only once that is acceptable do you judge generated answers. Teams that judge only the final answer cannot attribute a failure and end up tuning prompts against a search problem."}},
+          {"@type": "Question", "name": "What about private or sensitive documents?", "acceptedAnswer": {"@type": "Answer", "text": "In the course, nothing sensitive goes anywhere: students use their own material or public data, and we do not have them wire real confidential corpora into third-party services as a teaching exercise. What we do teach is how to reason about where documents travel, which is a decision people frequently make without noticing."}},
+          {"@type": "Question", "name": "What happens after I send the form?", "acceptedAnswer": {"@type": "Answer", "text": "A mentor calls to arrange the free class. Bring a corpus you know well and a few questions you would want answered from it, and we will look at how it should be chunked. That conversation is usually more informative about the difficulty of your particular problem than anything we could tell you in advance."}}
+        ]
+      }
+    ]
+  }
+  </script>
+</head>
+
+<body class="ag-root ag-rag">
+
+<nav class="ag-nav">
+  <div class="ag-wrap ag-nav-inner">
+    <a class="ag-nav-brand" href="/">
+      <img src="/images/logo.svg" alt="Modern Age Coders logo" width="30" height="30" fetchpriority="high">
+      <span>Modern Age Coders</span>
+      <span class="ag-brand-tag">RAG</span>
+    </a>
+    <div class="ag-nav-links">
+      <a href="#one">The reframe</a>
+      <a href="#two">One failure traced</a>
+      <a href="#courses">Courses</a>
+      <a href="#fees">Fees</a>
+      <a href="/learn-to-build-ai">Build AI</a>
+      <a href="#start" class="ag-btn">Free first class</a>
+    </div>
+  </div>
+</nav>
+
+<header class="ag-hero">
+  <div class="ag-wrap">
+    <nav class="ag-crumbs" aria-label="Breadcrumb">
+      <a href="/">Home</a> <span>/</span> <a href="/learn-to-build-ai">Build AI</a> <span>/</span> <span>RAG systems course</span>
+    </nav>
+    <div class="ag-hero-grid">
+      <div>
+        <p class="ag-eyebrow">RAG &middot; Live online &middot; Worldwide &middot; Teens and adults</p>
+        <h1>Most RAG failures are retrieval failures. The model gets blamed anyway.</h1>
+        <p class="ag-lede">Retrieval augmented generation means fetching relevant text and putting it in front of the model before it answers, and it genuinely fixes the problem that a model has no access to your documents. Then it starts producing answers that are confident, well formed and drawn from the wrong part of the document. In the systems we have taken apart with students, the large majority of those failures are upstream of the model: the passage was never retrieved, or was ranked fortieth, or arrived cut in half. No prompt improves a document that is absent.</p>
+        <div class="ag-btn-row">
+          <a href="#start" class="ag-btn">Book the free first class</a>
+          <a href="#one" class="ag-btn ag-btn--ghost">See the failure traced</a>
+          <a href="https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders.%20I%20am%20interested%20in%20learning%20to%20build%20RAG%20systems%20properly." class="ag-btn ag-btn--ghost" target="_blank" rel="noopener" onclick="if(window.gtag)gtag('event','whatsapp_click',{page_topic:'rag'});">Ask on WhatsApp</a>
+        </div>
+        <p class="ag-hero-note">
+          Live online &middot; ages 6 to 67 &middot; taught from India, worldwide &middot; from USD 100 a month &middot; first class free
+        </p>
+      </div>
+
+      <aside class="ag-spec">
+        <p class="ag-spec-title">At a glance</p>
+        <p class="ag-trust">
+          <span class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</span>
+          4.9 across 547 Google reviews
+        </p>
+        <dl>
+          @@<dt>What it really is</dt><dd>Search engineering</dd>
+          <dt>Where most failures are</dt><dd>Retrieval, not generation</dd>
+          <dt>First thing you build</dt><dd>A labelled question set</dd>
+          <dt>Measured before answers</dt><dd>Retrieval, on its own</dd>
+          <dt>Corpus</dt><dd>One you know well enough to grade</dd>
+          <dt>Cannot answer</dt><dd>Questions needing the whole corpus</dd>
+          <dt>Fees</dt><dd>From USD 100 a month</dd>
+          <dt>First class</dt><dd>Free, no card</dd>@@
+        </dl>
+      </aside>
+    </div>
+  </div>
+</header>
+
+<section class="ag-section">
+  <div class="ag-wrap">
+    <div class="ag-capsule">
+      <p class="ag-capsule-q">The short answer</p>
+      <p>Retrieval augmented generation puts relevant text in front of a model before it answers, which removes most confident invention. The failures that remain are overwhelmingly retrieval failures rather than model failures: the right passage was never fetched, was ranked far down, or arrived truncated, and no prompt can improve a document that is absent. Modern Age Coders teaches RAG as search engineering, with a labelled question set built first and retrieval measured on its own before any generated answer is judged, over a corpus the student knows well enough to grade. Group teaching is USD 100 a month, private is USD 150, first class free.</p>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="one">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">The reframe</p>
+      <h2>Retrieval augmented generation is a search problem wearing an AI costume</h2>
+      <p class="ag-lede">
+        RAG means fetching relevant text and putting it in front of the model before it answers.
+        The generation half gets all the attention. The retrieval half is where it fails.
+      </p>
+    </div>
+
+    <div class="ag-grid-2" style="align-items:start">
+      <div>
+        <p>
+          The idea is genuinely good and it addresses the real limitation described on
+          <a class="ag-inline-link" href="/how-llms-actually-work">the mechanism page</a>: a model
+          has no access to your documents and nothing in its loop consults reality. Hand it the
+          relevant passage and the whole class of confident invention largely disappears.
+        </p>
+        <p>
+          So people build one, it works impressively on the first ten questions, and then it starts
+          producing answers that are wrong in a specific and infuriating way: confident, well
+          formed, and drawn from the wrong part of the document. And because the visible component
+          is the model, the model is what gets replaced.
+        </p>
+      </div>
+      <div>
+        <p>
+          In the systems we have taken apart with students, the large majority of failures are
+          upstream of the model entirely. The relevant passage was never retrieved, or was retrieved
+          and ranked fortieth, or arrived cut in half. No model can answer from text it was not
+          given, and no prompt improves a document that is absent.
+        </p>
+        <p>
+          Which means the skill this course actually builds is search engineering: chunking,
+          embeddings, ranking, and above all measuring retrieval on its own before anybody looks at
+          an answer. That is less exciting than it sounds in a product demo, and it is where the
+          difference between a toy and a system lives.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="two">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">One failure, traced properly</p>
+      <h2>The chunking everybody writes first, and where the fix belongs</h2>
+      <p class="ag-lede">
+        Read the left block, then the right, which is how we teach students to localise a RAG failure
+        instead of guessing at it.
+      </p>
+    </div>
+
+    <div class="ag-code-pair">
+<figure class="ag-code">
+  <figcaption class="ag-code-head"><b>THE CHUNKING EVERYBODY WRITES FIRST</b><span>python</span></figcaption>
+  <pre>chunks = [text[i:i+1000]
+          for i in range(0, len(text), 1000)]
+
+<i># Splits mid-sentence. Splits mid-table.</i>
+<i># Splits the heading away from the clause</i>
+<i># it governs.</i>
+
+<b># "Section 7.2 Refunds" ends up in chunk 41.</b>
+<b># The refund policy is in chunk 42, and now</b>
+<b># says "this" with no antecedent anywhere.</b></pre>
+  <p class="ag-code-note">Then somebody asks about the refund policy, the right chunk is retrieved, and the answer is confidently wrong. Everyone blames the model.</p>
+</figure>
+<figure class="ag-code">
+  <figcaption class="ag-code-head"><b>WHERE THE FIX ACTUALLY GOES</b><span>the pipeline</span></figcaption>
+  <pre>ASK: "what is the refund window?"
+
+ 1 <b>Retrieval</b>   did the right chunk come back?
+   -&gt; NO in ~70% of failures we see.
+      <i>Fix chunking, not the prompt.</i>
+
+ 2 <b>Ranking</b>     was it in the top 3, or 40th?
+   -&gt; if 40th, it never reached the model.
+      <i>Add a reranker.</i>
+
+ 3 <b>Context</b>     did it survive the window?
+   -&gt; truncated at the join is common.
+
+ 4 <b>Generation</b>  given the right text, was the
+   answer still wrong?
+   -&gt; ONLY here is it a model problem.</pre>
+  <p class="ag-code-note">Four stages, and three of them are search engineering. Teams reach for a better model at stage four when the failure was at stage one.</p>
+</figure>
+</div>
+
+    <p class="ag-mt-40">
+      The right-hand block is bisection applied to a pipeline, which is the same procedure as
+      <a class="ag-inline-link" href="/how-to-debug-code">debugging</a> and for the same reason:
+      four stages, each individually checkable, and a decisive answer at each one. The alternative,
+      which is what most teams do, is to adjust the prompt and hope.
+    </p>
+    <p>
+      Notice what stage one requires. To ask <em>did the right chunk come back</em>, somebody must
+      have decided in advance which chunk is right. That is a labelled set of questions and expected
+      sources, and building it is the least glamorous and most valuable morning in the course.
+    </p>
+  </div>
+</section>
+
+<section class="ag-section ag-section--deep">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">The pipeline</p>
+      <h2>Seven stages, and the four places students underestimate the work</h2>
+    </div>
+    <ol class="ag-protocol">
+        <li class="ag-step" data-step="1">
+          <h4>Ingest, and keep where everything came from</h4>
+          <p>File, page, section, date. Students skip provenance because it is dull and then cannot cite, cannot debug a bad answer, and cannot remove a document that turned out to be wrong. Retrofitting it means reprocessing everything.</p>
+        </li>
+        <li class="ag-step" data-step="2">
+          <h4>Chunk along the structure, not the character count</h4>
+          <p>Split at headings, sections and paragraph boundaries, and carry the heading into the chunk so a clause knows what it belongs to. Fixed-width splitting is the single largest source of confidently wrong answers we see.</p>
+        </li>
+        <li class="ag-step" data-step="3">
+          <h4>Embed, and understand what similarity means here</h4>
+          <p>Embeddings capture topical closeness, which is not the same as answering the question. Two passages about refunds are close together whether one grants them and the other forbids them, and that distinction is invisible to the geometry.</p>
+        </li>
+        <li class="ag-step" data-step="4">
+          <h4>Retrieve with keywords as well as vectors</h4>
+          <p>Pure vector search misses exact terms: product codes, names, clause numbers, anything rare. Hybrid retrieval combining both is unfashionable, boring and consistently better, which describes most of this subject.</p>
+        </li>
+        <li class="ag-step" data-step="5">
+          <h4>Rerank, because position decides what the model sees</h4>
+          <p>Getting the right passage into the top fifty is easy; getting it into the top three is the actual problem, and only the top few reach the model. A reranking pass is usually the largest single quality improvement available.</p>
+        </li>
+        <li class="ag-step" data-step="6">
+          <h4>Generate with instructions about not knowing</h4>
+          <p>Tell the model explicitly to answer only from the supplied passages and to say when they are insufficient. Without that instruction it will fill the gap from its training, fluently, and you will not be able to tell.</p>
+        </li>
+        <li class="ag-step" data-step="7">
+          <h4>Cite, and then verify the citations are honest</h4>
+          <p>A citation makes an answer look checked, which is dangerous if nobody checked it. We have students deliberately produce an answer that cites a real passage and misreads it, because seeing that once permanently changes how they treat cited output.</p>
+        </li>
+      </ol>
+  </div>
+</section>
+
+<section class="ag-section">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Diagnosis</p>
+      <h2>What the symptom tells you about which stage is broken</h2>
+    </div>
+
+    <div class="ag-table-wrap">
+        <table class="ag-table">
+          <thead><tr><th scope="col">The symptom</th><th scope="col">The stage that is broken</th><th scope="col">What usually fixes it</th></tr></thead>
+          <tbody><tr><td>Answers from the wrong section</td><td class="ag-num">Chunking split the context away</td><td class="ag-num">Split on structure, carry headings</td></tr><tr><td>Cannot find exact codes or names</td><td class="ag-num">Vector-only retrieval</td><td class="ag-num">Add keyword search alongside</td></tr><tr><td>Right passage exists but is ignored</td><td class="ag-num">Ranking, not retrieval</td><td class="ag-num">Add a reranker</td></tr><tr><td>Answer contradicts the document</td><td class="ag-num">Generation ignored the passage</td><td class="ag-num">Instruct answer-only-from-context</td></tr><tr><td>Confidently answers the unanswerable</td><td class="ag-num">No instruction to decline</td><td class="ag-num">Require saying when it does not know</td></tr><tr><td>Was good, quietly got worse</td><td class="ag-num">The corpus changed, nobody re-measured</td><td class="ag-num">A regression set that runs on ingest</td></tr></tbody>
+        </table>
+      </div>
+
+    <p class="ag-mt-40">
+      This table is the most practically useful thing on the page and it is the sort of knowledge
+      that normally takes a team two frustrating quarters to assemble. Each row maps a symptom people
+      describe as the AI being bad onto a specific, fixable, unglamorous stage.
+    </p>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Traps</p>
+      <h2>Six things that quietly ruin a retrieval system</h2>
+    </div>
+    <div class="ag-grid-3">
+      <div><h3>Never measuring retrieval separately</h3><p>The single most consequential omission. If you only ever judge final answers, you cannot tell whether the failure was fetching or writing, and you will spend months tuning prompts against a search problem.</p></div>
+      <div><h3>A corpus nobody has read</h3><p>Building over documents you do not know means every evaluation is guesswork, because you cannot say what the right answer was. Students who choose an unfamiliar corpus because it seems impressive learn considerably less.</p></div>
+      <div><h3>Ignoring the documents that contradict each other</h3><p>Real corpora contain a current policy and three superseded ones. The system will happily quote the 2019 version with total confidence. This is a document governance problem and no amount of engineering hides it.</p></div>
+      <div><h3>Chunks too large to be precise</h3><p>Enormous chunks retrieve well and answer badly, because the relevant sentence is buried among four pages of unrelated text. Precision and recall trade off here and the trade has to be made deliberately.</p></div>
+      <div><h3>Assuming a bigger context window removes the problem</h3><p>Putting everything in the window is expensive, slow and measurably worse at finding a specific fact than good retrieval. More room does not equal better attention to the part that mattered.</p></div>
+      <div><h3>Treating a citation as proof</h3><p>The most dangerous habit, because it looks like rigour. An answer can cite a genuine passage and describe it incorrectly, and the presence of a link makes readers stop checking exactly when they should start.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">The course</p>
+      <h2>What students build, and the honest limits of the technique</h2>
+    </div>
+    <div class="ag-grid-2" style="align-items:start">
+      <div>
+        <h3>The build</h3>
+        <p>
+          Every student ships a system over a corpus they genuinely care about and know well enough
+          to grade: their own notes, a rulebook for something they play, a public dataset in a field
+          they follow. Knowing the corpus matters, because you cannot judge retrieval on documents
+          you have never read.
+        </p>
+        <p>
+          Before any answer is generated they build a labelled question set and measure retrieval
+          alone. Most students discover their first system finds the right passage in roughly half of
+          cases, and every subsequent improvement is then attributable rather than hoped for. The
+          measurement discipline is set out on
+          <a class="ag-inline-link" href="/ai-evaluations-course">the evaluations page</a>.
+        </p>
+      </div>
+      <div>
+        <h3>Three honest limits</h3>
+        <p>
+          <strong>It cannot answer questions requiring the whole corpus.</strong> How many contracts
+          mention indemnity is a database query, not a retrieval question, and no amount of tuning
+          converts one into the other.
+        </p>
+        <p>
+          <strong>It inherits your documents' contradictions.</strong> If two pages disagree, the
+          system will confidently report whichever it retrieved. RAG is not a truth layer.
+        </p>
+        <p>
+          <strong>Citations are not verification.</strong> A cited answer can still misread the
+          passage it cites, and a link makes it look checked. We make students break this on purpose.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="courses">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">The catalogue</p>
+      <h2>Where RAG sits in the catalogue</h2>
+      <p class="ag-lede">Inside the generative AI masterclass and the data science track, because retrieval is a data problem before it is a model problem and the prerequisites are the ones that teach handling messy documents.</p>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">I</span>
+        <h3>Where retrieval is taught</h3>
+        <span class="ag-band-sub">Chosen for this page rather than listed in full</span>
+      </div>
+      <div class="ag-grid-4">
+        <article class="ag-course">
+          <p class="ag-course-code">DEPTH / 01</p>
+          <h4>Generative AI: LLMs, RAG and Agents</h4>
+          <p>The main route. Chunking, embeddings, hybrid retrieval, reranking and citation, measured before anybody looks at a generated answer.</p>
+          <a class="ag-course-link" href="/courses/complete-generative-ai-masterclass-college">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">DEPTH / 02</p>
+          <h4>Data Science Masterclass</h4>
+          <p>The prerequisite that decides everything. Retrieval is a data problem first, and messy documents are where it is won or lost.</p>
+          <a class="ag-course-link" href="/courses/data-science-complete-masterclass-college">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">DEPTH / 03</p>
+          <h4>Data Science for Teens</h4>
+          <p>The teenage version: files that arrive broken, categories spelled two ways, and the row that would have poisoned the answer.</p>
+          <a class="ag-course-link" href="/courses/data-science-course-for-teens-python-data">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">DEPTH / 04</p>
+          <h4>AI and ML Masterclass</h4>
+          <p>For students who want to understand what an embedding is rather than call one, which is a genuinely different course.</p>
+          <a class="ag-course-link" href="/courses/ai-ml-masterclass-complete-college">Open the syllabus</a>
+        </article>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="fees">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Fees</p>
+      <h2>What it costs, anywhere in the world</h2>
+      <p class="ag-lede">One flat pair of figures everywhere we teach outside India, billed in US dollars, monthly, no minimum term and no enrolment fee.</p>
+    </div>
+    @@<div class="ag-grid-3">
+      <div class="ag-price">
+        <p class="ag-price-name">Free first class</p>
+        <p class="ag-price-amt">USD 0</p>
+        <p class="ag-price-alt">no card required</p>
+        <ul><li>Taught rather than sold</li><li>It settles which rung the learner starts on</li><li>You watch it, then decide</li></ul>
+        <a href="#start" class="ag-btn ag-btn--ghost">Book it</a>
+      </div>
+      <div class="ag-price ag-price--feature">
+        <p class="ag-price-name">Group batch</p>
+        <p class="ag-price-amt">USD 100</p>
+        <p class="ag-price-alt">a month, billed in US dollars</p>
+        <ul><li>Five to eight students, one teacher throughout</li><li>Live video, never a recording</li><li>Build work between sessions, reviewed by the teacher</li><li>Certificate on completion</li></ul>
+        <a href="#start" class="ag-btn">Start here</a>
+      </div>
+      <div class="ag-price">
+        <p class="ag-price-name">One to one</p>
+        <p class="ag-price-amt">USD 150</p>
+        <p class="ag-price-alt">a month, billed in US dollars</p>
+        <ul><li>Private teaching, at the pace the goal needs</li><li>The only way to get a weekday morning slot</li><li>Syllabus shaped to one objective</li></ul>
+        <a href="#start" class="ag-btn ag-btn--ghost">Enquire</a>
+      </div>
+    </div>@@
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">What learners and families say</p>
+      <h2>Rated 4.9 across 547 Google reviews</h2>
+      <p class="ag-lede">Real reviews from real families. We neither write nor commission them.</p>
+    </div>
+    @@<div class="ag-grid-3">
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."</p>
+        <p class="ag-review-name">Ria Mukherjee</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."</p>
+        <p class="ag-review-name">Samriddha Mondal</p>
+        <p class="ag-review-role">Student</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."</p>
+        <p class="ag-review-name">Vansh Agarwal</p>
+        <p class="ag-review-role">Student</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."</p>
+        <p class="ag-review-name">Sonam Oswal</p>
+        <p class="ag-review-role">Parent of Dhairya</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."</p>
+        <p class="ag-review-name">Sonu Goyal</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."</p>
+        <p class="ag-review-name">Ritu Kedia</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+    </div>@@
+  </div>
+</section>
+
+<section class="ag-section">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">The rest of the series</p>
+      <h2>The nine other pages in this series</h2>
+      <p class="ag-lede">RAG depends on the mechanism page and is impossible to improve without the evaluations page. Context engineering is what decides what to do with the passages once you have them.</p>
+    </div>
+    <div class="ag-markets">
+      <a class="ag-market" href="/agentic-coding-classes"><span class="ag-market-n">Agentic coding</span><span class="ag-market-m">/agentic-coding-classes</span></a>
+      <a class="ag-market" href="/how-to-read-code"><span class="ag-market-n">Reading code</span><span class="ag-market-m">/how-to-read-code</span></a>
+      <a class="ag-market" href="/how-to-debug-code"><span class="ag-market-n">Debugging</span><span class="ag-market-m">/how-to-debug-code</span></a>
+      <a class="ag-market" href="/how-to-think-like-a-programmer"><span class="ag-market-n">Thinking like a programmer</span><span class="ag-market-m">/how-to-think-like-a-programmer</span></a>
+      <a class="ag-market" href="/how-to-actually-learn-to-code"><span class="ag-market-n">How learning actually works</span><span class="ag-market-m">/how-to-actually-learn-to-code</span></a>
+      <a class="ag-market" href="/how-llms-actually-work"><span class="ag-market-n">How LLMs work</span><span class="ag-market-m">/how-llms-actually-work</span></a>
+      <a class="ag-market" href="/context-engineering-course"><span class="ag-market-n">Context engineering</span><span class="ag-market-m">/context-engineering-course</span></a>
+      <a class="ag-market" href="/ai-evaluations-course"><span class="ag-market-n">Evaluations</span><span class="ag-market-m">/ai-evaluations-course</span></a>
+      <a class="ag-market" href="/model-context-protocol-mcp-course"><span class="ag-market-n">MCP</span><span class="ag-market-m">/model-context-protocol-mcp-course</span></a>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--deep">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Questions about RAG</p>
+      <h2>What learners ask about retrieval systems</h2>
+    </div>
+    <div class="ag-faq">
+      @@<div class="ag-faq-item">
+        <h3>What is RAG, plainly?</h3>
+        <p>Fetching text relevant to a question and putting it in front of the model before it answers, so the answer comes from your documents rather than from what the model absorbed in training. It is the most reliable single improvement available for factual work, and its failures are mostly search failures.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Why do you say the model is rarely the problem?</h3>
+        <p>Because when we take systems apart with students, the relevant passage usually was not in what the model received. It was never retrieved, or it ranked far below the cutoff, or it was truncated. A model cannot answer from text it was not given, and swapping in a better one changes nothing about that.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>How much does it cost?</h3>
+        <p>A group batch of five to eight students is USD 100 a month and one to one is USD 150 a month, billed in US dollars, the same flat figures everywhere we teach outside India. No enrolment fee and no minimum term, and the first class is free without a card.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Do I need machine learning knowledge first?</h3>
+        <p>You need to write Python comfortably and to have handled messy real data, which matters more here than any modelling background. Most of this course is engineering: splitting documents sensibly, combining two kinds of search, measuring whether the right passage came back. The mechanism page is a better prerequisite than a maths course.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Is RAG obsolete now that context windows are enormous?</h3>
+        <p>No, and the claim is worth addressing directly. Putting an entire corpus in the window is expensive, slow, and measurably worse at locating one specific fact than good retrieval. More room in the window is not the same as attention landing on the part that mattered, and cost scales with every single query.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>What corpus should a student use?</h3>
+        <p>One they know well enough to grade. Personal notes, a rulebook for a game they play, a public dataset in a field they follow. Familiarity is the requirement, because evaluating retrieval means knowing what the right answer was, and a student who has not read the documents is guessing at every measurement.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Can this be taught to teenagers?</h3>
+        <p>Yes, to teenagers who write Python confidently, and it lands well because the failures are so concrete. A fifteen year old who has watched their own system quote the wrong section of a rulebook understands the retrieval problem better than most adults who have read about it.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>How do you evaluate a RAG system?</h3>
+        <p>In two separate halves, and separating them is the whole method. First, retrieval alone against a labelled set of questions with known correct sources. Only once that is acceptable do you judge generated answers. Teams that judge only the final answer cannot attribute a failure and end up tuning prompts against a search problem.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>What about private or sensitive documents?</h3>
+        <p>In the course, nothing sensitive goes anywhere: students use their own material or public data, and we do not have them wire real confidential corpora into third-party services as a teaching exercise. What we do teach is how to reason about where documents travel, which is a decision people frequently make without noticing.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>What happens after I send the form?</h3>
+        <p>A mentor calls to arrange the free class. Bring a corpus you know well and a few questions you would want answered from it, and we will look at how it should be chunked. That conversation is usually more informative about the difficulty of your particular problem than anything we could tell you in advance.</p>
+      </div>@@
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="start">
+  <div class="ag-wrap">
+    <div class="ag-hero-grid">
+      <div>
+        <div class="ag-section-head">
+          <p class="ag-eyebrow">Start</p>
+          <h2>Bring a set of documents and three real questions</h2>
+        </div>
+        <p>The most useful free class here starts from your actual corpus. Bring documents you know well and three questions you genuinely want answered from them, and we will work through how they should be split, what a labelled question set for them would look like, and where this particular corpus is likely to fail. Ninety minutes, no card, and an honest view on whether retrieval or your document structure is the real problem.</p>
+        <p>Rather read first? <a class="ag-inline-link" href="/ai-evaluations-course">Evaluations</a>, <a class="ag-inline-link" href="/context-engineering-course">context engineering</a>, or <a class="ag-inline-link" href="/how-llms-actually-work">how LLMs actually work</a>.</p>
+        <p style="margin-top:22px">
+          <a class="ag-inline-link" href="https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders.%20I%20am%20interested%20in%20learning%20to%20build%20RAG%20systems%20properly." target="_blank" rel="noopener">WhatsApp us</a> &middot;
+          <a class="ag-inline-link" href="tel:+919123366161">+91 91233 66161</a> &middot;
+          <a class="ag-inline-link" href="mailto:contact@modernagecoders.com">contact@modernagecoders.com</a>
+        </p>
+        <p style="font-size:.92rem;color:var(--ag-muted);margin-top:14px">
+          We hold no premises anywhere. Every session is a live video call taught from India, and the
+          number above rings in India. Sending the form opens a conversation rather than an enrolment,
+          and holds no place in any batch.
+        </p>
+      </div>
+      <div class="ag-form-panel">
+        <form onsubmit="submitRagLead(event)" novalidate>
+          <div class="ag-field">
+            <label for="ag-rag-name">Your name</label>
+            <input id="ag-rag-name" type="text" name="name" placeholder="Parent, student or your own name" required>
+          </div>
+          <div class="ag-field">
+            <label for="ag-rag-phone">Phone or WhatsApp, including your country code</label>
+            <input id="ag-rag-phone" type="tel" name="phone" placeholder="+44 7700 900000" required>
+          </div>
+          <div class="ag-field">
+            <label for="ag-rag-age">Who is learning</label>
+            <select id="ag-rag-age" name="age">
+              <option value="6-12">A child, 6 to 12</option>
+              <option value="13-18">A teenager, 13 to 18</option>
+              <option value="college">A university student</option>
+              <option value="adult">Me, working professional</option>
+            </select>
+          </div>
+          <button type="submit" class="ag-btn" style="width:100%">Request the free class</button>
+          <p class="ag-form-note">No card. No obligation. We call, we do not spam.</p>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+@@<footer class="ag-footer">
+  <div class="ag-wrap">
+    <div class="ag-grid-4">
+      <div>
+        <h4>Modern Age Coders</h4>
+        <p style="font-size:.9rem;opacity:.82">
+          Live online coding, AI and mathematics for ages 6 to 67. Teaching since 2020, more than
+          10,000 students across 25 countries and more.
+        </p>
+      </div>
+      <div>
+        <h4>Depth series</h4>
+        <ul>
+          <li><a href="/agentic-coding-classes">Agentic coding</a></li>
+          <li><a href="/how-to-read-code">How to read code</a></li>
+          <li><a href="/how-to-debug-code">How to debug code</a></li>
+          <li><a href="/how-to-think-like-a-programmer">Think like a programmer</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Build AI</h4>
+        <ul>
+          <li><a href="/how-llms-actually-work">How LLMs actually work</a></li>
+          <li><a href="/context-engineering-course">Context engineering</a></li>
+          <li><a href="/rag-systems-course">RAG systems</a></li>
+          <li><a href="/ai-evaluations-course">Evaluations</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Start</h4>
+        <ul>
+          <li><a href="/courses">The full catalogue</a></li>
+          <li><a href="/pricing">Fees</a></li>
+          <li><a href="/how-we-teach">How we teach</a></li>
+          <li><a href="/student-labs">What students build</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="ag-footer-bottom">
+      <span>&copy; 2026 Modern Age Coders. Live online, taught from India, worldwide.</span>
+      <span>Ages 6 to 67 &middot; 25 countries and more</span>
+    </div>
+  </div>
+</footer>@@
+
+<script>
+window.submitRagLead = function (e) {
+  e.preventDefault();
+  var form = e.target;
+  var name = (form.querySelector('input[name="name"]') || {}).value || '';
+  var phoneRaw = (form.querySelector('input[type="tel"]') || {}).value || '';
+  var age = (form.querySelector('select[name="age"]') || {}).value || '';
+  var d = phoneRaw.replace(/\D/g, '');
+  if (d.length < 7) { alert('Please enter a valid phone number including your country code.'); return; }
+  var btn = form.querySelector('button[type="submit"]');
+  var oldText = btn.textContent;
+  btn.disabled = true; btn.textContent = 'Sending...';
+  var API_URL = (location.hostname === 'localhost' || location.hostname === '127.0.0.1')
+    ? 'http://localhost:5000' : 'https://backend-modernagecoders.vercel.app';
+  fetch(API_URL + '/api/callback/request', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({
+      phone: d, countryCode: '', countryIso: '', countryName: 'International',
+      source: 'rag-systems-course-inline', meta: { name: name, age: age, raw: phoneRaw, topic: 'rag' }
+    })
+  }).then(function (r) { return r.json(); }).then(function (data) {
+    if (data && data.success) {
+      if (window.gtag) gtag('event', 'generate_lead', { page_topic: 'rag' });
+      form.innerHTML = '<p class="ag-form-ok">Thank you' + (name ? ', ' + name.split(' ')[0] : '') +
+        '. A mentor will call you to arrange the free class.</p>';
+    } else {
+      alert((data && data.message) || 'Something went wrong. Please try again.');
+      btn.disabled = false; btn.textContent = oldText;
+    }
+  }).catch(function () {
+    alert('Network error. Please try again.');
+    btn.disabled = false; btn.textContent = oldText;
+  });
+};
+</script>
+<script>
+  window.addEventListener('load', function () {
+    var s = document.createElement('script');
+    s.src = 'https://www.googletagmanager.com/gtag/js?id=G-N8BM164YJP';
+    s.async = true;
+    document.head.appendChild(s);
+  });
+</script>
+</body>
+</html>

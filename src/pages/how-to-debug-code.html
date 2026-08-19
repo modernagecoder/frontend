@@ -1,0 +1,746 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>How to Debug Code: Search, Do Not Guess | Live Classes</title>
+  <meta name="description" content="Two equally able programmers differ tenfold at debugging, and it is never knowledge. The bisection method, worked on a real intermittent bug, taught live.">
+  <meta name="author" content="Modern Age Coders">
+  <link rel="canonical" href="https://learn.modernagecoders.com/how-to-debug-code">
+  <link rel="alternate" type="text/markdown" href="/src/pages/how-to-debug-code.md" title="Markdown version for AI agents">
+
+  <link rel="icon" href="/favicon.ico" type="image/x-icon">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
+  <meta name="theme-color" content="#6E5B99">
+
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="https://learn.modernagecoders.com/how-to-debug-code">
+  <meta property="og:title" content="How to Debug Code: Search, Do Not Guess | Live Classes">
+  <meta property="og:description" content="Watch a slow debugger and a pattern appears: change something, run it, change something else without undoing the first. That is not debugging, it is stirring.">
+  <meta property="og:image" content="https://learn.modernagecoders.com/images/og-modern-age-coders.png">
+  <meta property="og:site_name" content="Modern Age Coders">
+  <meta property="og:locale" content="en">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="How to Debug Code">
+  <meta name="twitter:description" content="Debugging is a search problem. A real intermittent bug, found in four cuts.">
+  <meta name="twitter:image" content="https://learn.modernagecoders.com/images/og-modern-age-coders.png">
+
+  <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/ai-global.css?v=20260819">
+
+  <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-N8BM164YJP');gtag('config','AW-16910316353');</script>
+
+  <script type="application/ld+json" data-price-scope="coding.international">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "EducationalOrganization",
+        "@id": "https://learn.modernagecoders.com/#org",
+        "name": "Modern Age Coders",
+        "url": "https://learn.modernagecoders.com/",
+        "email": "contact@modernagecoders.com",
+        "telephone": "+91-91233-66161",
+        "foundingDate": "2020",
+        "areaServed": { "@type": "Place", "name": "Worldwide" },
+        "knowsAbout": ["Debugging", "Bisection", "Root Cause Analysis", "Software Testing", "Python", "Logging", "Scientific Method"]
+      },
+      {
+        "@type": "TechArticle",
+        "@id": "https://learn.modernagecoders.com/how-to-debug-code#article",
+        "headline": "How to Debug Code",
+        "description": "Watch a slow debugger and a pattern appears: change something, run it, change something else without undoing the first. That is not debugging, it is stirring.",
+        "inLanguage": "en",
+        "isAccessibleForFree": true,
+        "proficiencyLevel": "Beginner to Advanced",
+        "dependencies": "Ability to run and modify a program in at least one language",
+        "author": { "@id": "https://learn.modernagecoders.com/#org" },
+        "publisher": { "@id": "https://learn.modernagecoders.com/#org" },
+        "mainEntityOfPage": "https://learn.modernagecoders.com/how-to-debug-code"
+      },
+      {
+        "@type": "Course",
+        "name": "How to Debug Code: Hypothesis-Driven Debugging for Programmers",
+        "description": "Live online small-batch teaching in systematic debugging for learners aged 6 to 67 worldwide: treating a defect as a search problem and halving the space of possible causes, practised on deliberately introduced non-obvious defects in the learner's own working projects.",
+        "url": "https://learn.modernagecoders.com/how-to-debug-code",
+        "inLanguage": "en",
+        "provider": { "@id": "https://learn.modernagecoders.com/#org" },
+        "isAccessibleForFree": false,
+        "hasCourseInstance": {
+          "@type": "CourseInstance",
+          "courseMode": "online",
+          "courseWorkload": "PT3H",
+          "location": { "@type": "VirtualLocation", "url": "https://learn.modernagecoders.com/how-to-debug-code" }
+        }
+      },
+      {
+        "@type": "Service",
+        "serviceType": "Online systematic debugging teaching",
+        "provider": { "@id": "https://learn.modernagecoders.com/#org" },
+        "areaServed": { "@type": "Place", "name": "Worldwide" },
+        "audience": { "@type": "EducationalAudience", "educationalRole": "student" }
+      },
+      {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://learn.modernagecoders.com/" },
+          { "@type": "ListItem", "position": 2, "name": "Learn to Build AI", "item": "https://learn.modernagecoders.com/learn-to-build-ai" },
+          { "@type": "ListItem", "position": 3, "name": "How to debug code", "item": "https://learn.modernagecoders.com/how-to-debug-code" }
+        ]
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+          {"@type": "Question", "name": "Is debugging not just experience?", "acceptedAnswer": {"@type": "Answer", "text": "Experience makes you faster because you accumulate a library of things that commonly go wrong. But the procedure is separable and teachable, and a student given the bisection method at thirteen debugs better than an adult who has been guessing productively for ten years. The library takes years; the method takes a term."}},
+          {"@type": "Question", "name": "What age can start?", "acceptedAnswer": {"@type": "Answer", "text": "From about eleven, or whenever a learner has written something that does not work, which arrives quickly. Younger children get a simplified version of the same idea: what did you change, undo it, what do you think is happening. The habit is more valuable than the vocabulary at that age."}},
+          {"@type": "Question", "name": "How much does it cost?", "acceptedAnswer": {"@type": "Answer", "text": "A group batch of five to eight students is USD 100 a month and one to one is USD 150 a month, billed in US dollars, and these are the same figures everywhere we teach outside India. No enrolment fee, no minimum term, and the first class is free without a card."}},
+          {"@type": "Question", "name": "Can I not just ask an AI to find the bug?", "acceptedAnswer": {"@type": "Answer", "text": "Often, and we teach students to use that. What it does not do is reproduce an intermittent failure, decide what evidence would be decisive, or tell you whether its confident explanation is correct. It is a fast generator of hypotheses, which is genuinely useful, and hypotheses are the cheap half of debugging. The cuts are the expensive half."}},
+          {"@type": "Question", "name": "Why do you break the student's own project?", "acceptedAnswer": {"@type": "Answer", "text": "Because bugs in unfamiliar toy code are a different exercise. In your own project you have a model of how it works, that model is wrong in a specific place, and finding the discrepancy between belief and reality is precisely the professional experience. Somebody else's broken example never produces that feeling."}},
+          {"@type": "Question", "name": "My child gets very frustrated when code breaks. Does this help?", "acceptedAnswer": {"@type": "Answer", "text": "It is usually the thing that helps most. Frustration comes from having no next action, and randomness produces no next action reliably. A procedure gives a student something to do when stuck, and the emotional change from that is often more noticeable to parents than the technical one."}},
+          {"@type": "Question", "name": "Do you teach debugger tools?", "acceptedAnswer": {"@type": "Answer", "text": "Yes, breakpoints and step-through and inspecting state, and they are useful. But we teach them after the method rather than before, because a debugger in the hands of somebody without a hypothesis is just a slower way to stir. The tool amplifies the procedure and cannot replace it."}},
+          {"@type": "Question", "name": "How long before we see a difference?", "acceptedAnswer": {"@type": "Answer", "text": "The stated-hypothesis habit usually shows up within a term, and it is visible from outside: a student stops saying it does not work and starts saying I think it is the date handling because. That sentence is the whole skill in miniature and it tends to arrive before any of the faster technique does."}},
+          {"@type": "Question", "name": "Is this relevant for adults already working?", "acceptedAnswer": {"@type": "Answer", "text": "It is a frequent one to one request, generally from self-taught developers who write good code and lose entire days to defects. Those sessions run against real work, and the most common single finding is that the person was skipping reproduction and starting from a hunch."}},
+          {"@type": "Question", "name": "What happens after I send the form?", "acceptedAnswer": {"@type": "Answer", "text": "A mentor calls to arrange the free class. If you have something currently broken, bring it, because working a live defect together is far more useful than any prepared exercise, and it also shows you honestly whether the method changes anything for you before you pay for anything."}}
+        ]
+      }
+    ]
+  }
+  </script>
+</head>
+
+<body class="ag-root ag-dbg">
+
+<nav class="ag-nav">
+  <div class="ag-wrap ag-nav-inner">
+    <a class="ag-nav-brand" href="/">
+      <img src="/images/logo.svg" alt="Modern Age Coders logo" width="30" height="30" fetchpriority="high">
+      <span>Modern Age Coders</span>
+      <span class="ag-brand-tag">Debugging</span>
+    </a>
+    <div class="ag-nav-links">
+      <a href="#one">Why people differ</a>
+      <a href="#two">A real defect</a>
+      <a href="#courses">Courses</a>
+      <a href="#fees">Fees</a>
+      <a href="/learn-to-build-ai">Build AI</a>
+      <a href="#start" class="ag-btn">Free first class</a>
+    </div>
+  </div>
+</nav>
+
+<header class="ag-hero">
+  <div class="ag-wrap">
+    <nav class="ag-crumbs" aria-label="Breadcrumb">
+      <a href="/">Home</a> <span>/</span> <a href="/learn-to-build-ai">Build AI</a> <span>/</span> <span>How to debug code</span>
+    </nav>
+    <div class="ag-hero-grid">
+      <div>
+        <p class="ag-eyebrow">Debugging &middot; Live online &middot; Worldwide &middot; Ages 6 to 67</p>
+        <h1>Debugging is a search. Most people search at random.</h1>
+        <p class="ag-lede">Put the same defect in front of two students who write comparably good code. One finds it in fifteen minutes, one is still there the next day, and the difference is almost never knowledge. The slow one changes something, runs it, changes something else without undoing the first, and twenty minutes later has four modifications they can no longer evaluate. The fast one treats the possible causes as a space and cuts it in half, repeatedly. This page works a real intermittent bug through four cuts and sets out how the procedure is taught.</p>
+        <div class="ag-btn-row">
+          <a href="#start" class="ag-btn">Book the free first class</a>
+          <a href="#one" class="ag-btn ag-btn--ghost">See the worked bug</a>
+          <a href="https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders.%20I%20am%20interested%20in%20learning%20to%20debug%20properly." class="ag-btn ag-btn--ghost" target="_blank" rel="noopener" onclick="if(window.gtag)gtag('event','whatsapp_click',{page_topic:'debugging'});">Ask on WhatsApp</a>
+        </div>
+        <p class="ag-hero-note">
+          Live online &middot; ages 6 to 67 &middot; taught from India, worldwide &middot; from USD 100 a month &middot; first class free
+        </p>
+      </div>
+
+      <aside class="ag-spec">
+        <p class="ag-spec-title">At a glance</p>
+        <p class="ag-trust">
+          <span class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</span>
+          4.9 across 547 Google reviews
+        </p>
+        <dl>
+          @@<dt>The claim</dt><dd>It is a procedure, not a knack</dd>
+          <dt>The method</dt><dd>Halve the space, four or five times</dd>
+          <dt>The rule</dt><dd>State the hypothesis before you touch it</dd>
+          <dt>Practice material</dt><dd>Defects we introduce on purpose</dd>
+          <dt>The easy kind</dt><dd>Crashes. We mostly skip them</dd>
+          <dt>Ages</dt><dd>11 to 67</dd>
+          <dt>Fees</dt><dd>From USD 100 a month</dd>
+          <dt>First class</dt><dd>Free, no card</dd>@@
+        </dl>
+      </aside>
+    </div>
+  </div>
+</header>
+
+<section class="ag-section">
+  <div class="ag-wrap">
+    <div class="ag-capsule">
+      <p class="ag-capsule-q">The short answer</p>
+      <p>Debugging is a search problem: the set of possible causes is a space, and the technique is to design questions that eliminate roughly half of it whichever way the answer comes out. A guessed hypothesis eliminates one possibility out of thousands; a good cut eliminates half, so four cuts are worth about a thousand guesses. Modern Age Coders teaches this by deliberately introducing non-obvious defects into a student's own working project, requiring a stated hypothesis before any change, and practising on the bugs that do not announce themselves rather than on crashes. Group teaching is USD 100 a month, private is USD 150, and the first class is free without a card.</p>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="one">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Why two equally able people differ tenfold</p>
+      <h2>Debugging is a search problem, and most people search at random</h2>
+      <p class="ag-lede">
+        Take two students who write comparably good code. Put a defect in front of both. One will
+        find it in fifteen minutes and one will still be there after a day, and the difference is
+        almost never knowledge.
+      </p>
+    </div>
+
+    <div class="ag-grid-2" style="align-items:start">
+      <div>
+        <p>
+          Watch the slow one closely and a pattern appears immediately. They change something. They
+          run it. It is still broken. They change something else, without undoing the first change.
+          They run it again. Twenty minutes later the program contains four modifications, none of
+          which they can now evaluate, and the original bug is still there underneath.
+        </p>
+        <p>
+          That is not debugging, it is stirring. The fast student is doing something structurally
+          different: they are treating the set of possible causes as a space and repeatedly cutting
+          it roughly in half. Same intelligence, same knowledge, entirely different procedure.
+        </p>
+      </div>
+      <div>
+        <p>
+          The reason this matters more than almost anything else on this site is that debugging is
+          where the hours go. Not writing, which is fast and pleasant. Not designing, which happens
+          in bursts. The bulk of a programmer's real time is spent on the gap between what they
+          believed the system did and what it actually does.
+        </p>
+        <p>
+          It is also the skill least likely to be taught explicitly, because the code in a lesson
+          usually works. A course whose examples always run has not once put a student in the state
+          that defines the job, and no amount of watching correct code being written prepares
+          anybody for a wrong number on a Sunday.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="two">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">A real defect, worked through</p>
+      <h2>An intermittent wrong number, found in four cuts</h2>
+      <p class="ag-lede">
+        Read the left block and consider how you would start. Then read the right one, which is the
+        method rather than the insight.
+      </p>
+    </div>
+
+    <div class="ag-code-pair">
+<figure class="ag-code">
+  <figcaption class="ag-code-head"><b>THE REPORT YOU ACTUALLY GET</b><span>the whole of it</span></figcaption>
+  <pre>"Sometimes the weekly report shows
+ the wrong total. Not always. Maybe
+ once a fortnight. Finance noticed."
+
+<i># No error. No stack trace. No crash.</i>
+<i># Nothing in the logs. Runs fine locally.</i></pre>
+  <p class="ag-code-note">This is the shape of a real bug. Not a red exception on line 40, which is the only kind most courses ever show you, but an intermittent wrong number with no signal attached.</p>
+</figure>
+<figure class="ag-code">
+  <figcaption class="ag-code-head"><b>SEARCHING INSTEAD OF GUESSING</b><span>four halvings</span></figcaption>
+  <pre><b>Space of possible causes: everything.</b>
+
+CUT 1  Is it the data or the code?
+       Re-run last month's data through
+       today's code. Wrong total again.
+       <i>-&gt; the code. Data eliminated.</i>
+
+CUT 2  Which half of the pipeline?
+       Print the subtotal before aggregation.
+       Subtotal is already wrong.
+       <i>-&gt; upstream. Reporting eliminated.</i>
+
+CUT 3  Which rows differ?
+       Diff the row set against a good run.
+       17 rows missing, all late Sunday.
+       <b>-&gt; a boundary, not a calculation.</b>
+
+CUT 4  What is special about Sunday night?
+       The window is built in local time.
+       The clocks changed.</pre>
+  <p class="ag-code-note">Four questions, each eliminating about half of what remains, and the answer arrives in twenty minutes rather than two days. Nobody guessed anything.</p>
+</figure>
+</div>
+
+    <p class="ag-mt-40">
+      The important property of those four cuts is that <strong>every one of them was informative
+      whichever way it came out</strong>. Had the first re-run produced the right total, the data
+      would have been the culprit and the code eliminated instead. A good cut is one where both
+      answers are useful, and designing cuts with that property is the entire technique.
+    </p>
+    <p>
+      Compare that with the usual approach, which is to think of a plausible cause and test it.
+      Plausible causes are drawn from what you happen to remember, so they are correlated with
+      nothing, and each miss eliminates one possibility out of thousands. Bisection eliminates half.
+      Over four steps that is the difference between four and roughly a thousand.
+    </p>
+  </div>
+</section>
+
+<section class="ag-section ag-section--deep">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">The procedure</p>
+      <h2>Six steps, and the order is most of the value</h2>
+      <p class="ag-lede">
+        Steps one and two are the ones people skip, and skipping them is what turns twenty minutes
+        into a day.
+      </p>
+    </div>
+    <ol class="ag-protocol">
+        <li class="ag-step" data-step="1">
+          <h4>Reproduce it before you understand it</h4>
+          <p>A bug you cannot trigger on demand cannot be debugged, only speculated about, and every minute spent theorising about an unreproducible fault is wasted. Getting from sometimes to every time is frequently the majority of the work and it is the step people are most eager to skip.</p>
+        </li>
+        <li class="ag-step" data-step="2">
+          <h4>Read the error. All of it. Out loud if necessary</h4>
+          <p>A startling proportion of the time the message names the file, the line and the cause. Students glance at the first sentence, decide it is noise, and start guessing. Reading the whole traceback is the single cheapest habit in this entire discipline.</p>
+        </li>
+        <li class="ag-step" data-step="3">
+          <h4>Write down what you believe is true</h4>
+          <p>One sentence: I think the total is wrong because the aggregation double-counts. Now you have something falsifiable, and the next action is chosen to disprove it rather than to fiddle. Without this step the following steps have nothing to act on.</p>
+        </li>
+        <li class="ag-step" data-step="4">
+          <h4>Design a cut, not a test of your hunch</h4>
+          <p>Ask a question whose answer is useful in both directions. Is it the data or the code. Is it before or after this line. Does it happen with one row. A question that only tells you something if you were right is a guess wearing a lab coat.</p>
+        </li>
+        <li class="ag-step" data-step="5">
+          <h4>Change exactly one thing, and undo it if it fails</h4>
+          <p>Two simultaneous changes destroy the information from both. The discipline of reverting a failed experiment before the next one feels slow and is the fastest way through. Version control makes it free, which is one of several reasons we teach it early.</p>
+        </li>
+        <li class="ag-step" data-step="6">
+          <h4>When you find it, ask why it was possible</h4>
+          <p>The defect is the symptom. The interesting question is what allowed it: an unstated assumption, a missing boundary, a value that should never have been representable. Fixing the line takes a minute; fixing the category is the thing that stops the next five.</p>
+        </li>
+      </ol>
+  </div>
+</section>
+
+<section class="ag-section">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Two procedures compared</p>
+      <h2>Guessing and searching, at each stage of the same bug</h2>
+    </div>
+
+    <div class="ag-table-wrap">
+        <table class="ag-table">
+          <thead><tr><th scope="col">Stage</th><th scope="col">Guessing</th><th scope="col">Searching</th></tr></thead>
+          <tbody><tr><td>First move</td><td class="ag-num">Change the line that looks suspicious</td><td class="ag-num">Reproduce it reliably</td></tr><tr><td>The error text</td><td class="ag-num">Skimmed, assumed to be noise</td><td class="ag-num">Read completely, treated as evidence</td></tr><tr><td>Next action chosen by</td><td class="ag-num">What comes to mind</td><td class="ag-num">What would eliminate the most</td></tr><tr><td>Number of changes at once</td><td class="ag-num">Several, none reverted</td><td class="ag-num">One, reverted if it fails</td></tr><tr><td>On being wrong</td><td class="ag-num">Discouraging</td><td class="ag-num">Informative, half the space is gone</td></tr><tr><td>When it is fixed</td><td class="ag-num">Relief, move on</td><td class="ag-num">Ask what made it possible</td></tr></tbody>
+        </table>
+      </div>
+
+    <p class="ag-mt-40">
+      Nothing in the middle column is stupid. Every one of those moves is what a reasonable person
+      does under pressure when nobody has ever shown them an alternative, which is the situation
+      almost every self-taught programmer is in.
+    </p>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Habits</p>
+      <h2>Six things that separate a fast debugger from a lucky one</h2>
+    </div>
+    <div class="ag-grid-3">
+      <div><h3>Trusting the machine over the memory</h3><p>The system is not lying to you. Your model of it is wrong. Every hour lost to "that cannot be happening" is an hour spent defending a belief against evidence, and the belief is what should give way.</p></div>
+      <div><h3>Making it smaller before making it clear</h3><p>Cut the input down until the failure disappears, then add back the last thing. A bug reproduced by four hundred rows is hard; the same bug reproduced by two rows is usually obvious on sight.</p></div>
+      <div><h3>Explaining it to somebody uninvolved</h3><p>The reason this works is that describing a system out loud forces you to state assumptions you had been silently carrying, and the wrong one tends to fall out mid-sentence. It works on a patient colleague, and almost as well on nobody in particular.</p></div>
+      <div><h3>Bisecting the history, not just the code</h3><p>If it worked in March and fails now, the change that broke it is in the commits between, and you can halve that range mechanically. Students who keep a real commit history get this technique for free, which is another argument for committing as you work.</p></div>
+      <div><h3>Keeping a written trail during a long hunt</h3><p>What was tried, what the result was, what it eliminated. After ninety minutes nobody remembers which branches are already dead, and the commonest failure in a long debug is retesting something you disproved an hour ago.</p></div>
+      <div><h3>Knowing when to stop and sleep</h3><p>Genuinely part of the method. Debugging quality collapses with fatigue faster than almost any other technical work, because it depends on holding a model in working memory. Two fresh hours regularly beat six tired ones.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">How we teach it</p>
+      <h2>We break things on purpose, which is harder than it sounds</h2>
+    </div>
+    <div class="ag-grid-2" style="align-items:start">
+      <div>
+        <p>
+          You cannot learn this from bugs that arrive naturally, because they arrive too rarely and
+          at the wrong moments. So we manufacture them. A teacher takes a student's own working
+          project, introduces a defect deliberately, and hands it back. The student knows a bug
+          exists and knows nothing else, which is precisely the professional situation.
+        </p>
+        <p>
+          The defects are chosen to be the kind that do not announce themselves: an off-by-one in a
+          boundary, a timezone, a mutable default, a comparison that is right for integers and wrong
+          for floating point. Loud crashes are the easy category and we mostly leave them alone.
+        </p>
+      </div>
+      <div>
+        <p>
+          The rule during the exercise is that a student must state a hypothesis out loud before
+          touching anything, and say what result would disprove it. Students hate this for about a
+          month and then start doing it silently, which is the point at which the skill has actually
+          transferred.
+        </p>
+        <p>
+          It compounds with the other two habits in this series. You cannot bisect code you cannot
+          <a class="ag-inline-link" href="/how-to-read-code">read</a>, and the same discipline
+          applied to a machine-generated diff is what
+          <a class="ag-inline-link" href="/agentic-coding-classes">agentic coding</a> requires. The
+          three together are most of what engineering judgement actually is.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="courses">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">The catalogue</p>
+      <h2>Where debugging is taught in the catalogue</h2>
+      <p class="ag-lede">In every course, from the point a student writes their first program that does not work. It is never sold separately, because a debugging course without your own broken code in it would be a lecture.</p>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">I</span>
+        <h3>Where debugging is taught</h3>
+        <span class="ag-band-sub">Chosen for this page rather than listed in full</span>
+      </div>
+      <div class="ag-grid-4">
+        <article class="ag-course">
+          <p class="ag-course-code">DEPTH / 01</p>
+          <h4>Python for Teens</h4>
+          <p>From the first program that does not work, which arrives around week two. The stated-hypothesis rule starts the same day.</p>
+          <a class="ag-course-link" href="/courses/python-complete-masterclass-teens">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">DEPTH / 02</p>
+          <h4>Python and AI for Kids</h4>
+          <p>The junior version of the same habit: what did you change, undo it, what do you think is happening. Worth more at that age than any vocabulary.</p>
+          <a class="ag-course-link" href="/courses/python-ai-kids-masterclass">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">DEPTH / 03</p>
+          <h4>Git and GitHub for Teens</h4>
+          <p>Bisecting the history rather than the code. If it worked in March, the commit that broke it can be found mechanically.</p>
+          <a class="ag-course-link" href="/courses/git-github-version-control-course-for-teens">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">DEPTH / 04</p>
+          <h4>Data Science for Teens</h4>
+          <p>Where the hardest defects live, because a wrong number in a pipeline never crashes and never announces itself.</p>
+          <a class="ag-course-link" href="/courses/data-science-course-for-teens-python-data">Open the syllabus</a>
+        </article>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="fees">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Fees</p>
+      <h2>What it costs, anywhere in the world</h2>
+      <p class="ag-lede">The same flat pair of figures everywhere we teach outside India, billed in US dollars, charged monthly with no minimum term and no enrolment fee.</p>
+    </div>
+    @@<div class="ag-grid-3">
+      <div class="ag-price">
+        <p class="ag-price-name">Free first class</p>
+        <p class="ag-price-amt">USD 0</p>
+        <p class="ag-price-alt">no card required</p>
+        <ul><li>Taught rather than sold</li><li>It settles which rung the learner starts on</li><li>You watch it, then decide</li></ul>
+        <a href="#start" class="ag-btn ag-btn--ghost">Book it</a>
+      </div>
+      <div class="ag-price ag-price--feature">
+        <p class="ag-price-name">Group batch</p>
+        <p class="ag-price-amt">USD 100</p>
+        <p class="ag-price-alt">a month, billed in US dollars</p>
+        <ul><li>Five to eight students, one teacher throughout</li><li>Live video, never a recording</li><li>Build work between sessions, reviewed by the teacher</li><li>Certificate on completion</li></ul>
+        <a href="#start" class="ag-btn">Start here</a>
+      </div>
+      <div class="ag-price">
+        <p class="ag-price-name">One to one</p>
+        <p class="ag-price-amt">USD 150</p>
+        <p class="ag-price-alt">a month, billed in US dollars</p>
+        <ul><li>Private teaching, at the pace the goal needs</li><li>The only way to get a weekday morning slot</li><li>Syllabus shaped to one objective</li></ul>
+        <a href="#start" class="ag-btn ag-btn--ghost">Enquire</a>
+      </div>
+    </div>@@
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">What learners and families say</p>
+      <h2>Rated 4.9 across 547 Google reviews</h2>
+      <p class="ag-lede">Real reviews from real families. We neither write nor commission them.</p>
+    </div>
+    @@<div class="ag-grid-3">
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."</p>
+        <p class="ag-review-name">Ria Mukherjee</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."</p>
+        <p class="ag-review-name">Samriddha Mondal</p>
+        <p class="ag-review-role">Student</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."</p>
+        <p class="ag-review-name">Vansh Agarwal</p>
+        <p class="ag-review-role">Student</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."</p>
+        <p class="ag-review-name">Sonam Oswal</p>
+        <p class="ag-review-role">Parent of Dhairya</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."</p>
+        <p class="ag-review-name">Sonu Goyal</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."</p>
+        <p class="ag-review-name">Ritu Kedia</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+    </div>@@
+  </div>
+</section>
+
+<section class="ag-section">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">The rest of the series</p>
+      <h2>The nine other pages in this series</h2>
+      <p class="ag-lede">Debugging depends on reading, and applies directly to code an agent generated. Those two pages are the natural next ones.</p>
+    </div>
+    <div class="ag-markets">
+      <a class="ag-market" href="/agentic-coding-classes"><span class="ag-market-n">Agentic coding</span><span class="ag-market-m">/agentic-coding-classes</span></a>
+      <a class="ag-market" href="/how-to-read-code"><span class="ag-market-n">Reading code</span><span class="ag-market-m">/how-to-read-code</span></a>
+      <a class="ag-market" href="/how-to-think-like-a-programmer"><span class="ag-market-n">Thinking like a programmer</span><span class="ag-market-m">/how-to-think-like-a-programmer</span></a>
+      <a class="ag-market" href="/how-to-actually-learn-to-code"><span class="ag-market-n">How learning actually works</span><span class="ag-market-m">/how-to-actually-learn-to-code</span></a>
+      <a class="ag-market" href="/how-llms-actually-work"><span class="ag-market-n">How LLMs work</span><span class="ag-market-m">/how-llms-actually-work</span></a>
+      <a class="ag-market" href="/context-engineering-course"><span class="ag-market-n">Context engineering</span><span class="ag-market-m">/context-engineering-course</span></a>
+      <a class="ag-market" href="/rag-systems-course"><span class="ag-market-n">RAG systems</span><span class="ag-market-m">/rag-systems-course</span></a>
+      <a class="ag-market" href="/ai-evaluations-course"><span class="ag-market-n">Evaluations</span><span class="ag-market-m">/ai-evaluations-course</span></a>
+      <a class="ag-market" href="/model-context-protocol-mcp-course"><span class="ag-market-n">MCP</span><span class="ag-market-m">/model-context-protocol-mcp-course</span></a>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--deep">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Questions about debugging</p>
+      <h2>What learners and parents ask</h2>
+    </div>
+    <div class="ag-faq">
+      @@<div class="ag-faq-item">
+        <h3>Is debugging not just experience?</h3>
+        <p>Experience makes you faster because you accumulate a library of things that commonly go wrong. But the procedure is separable and teachable, and a student given the bisection method at thirteen debugs better than an adult who has been guessing productively for ten years. The library takes years; the method takes a term.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>What age can start?</h3>
+        <p>From about eleven, or whenever a learner has written something that does not work, which arrives quickly. Younger children get a simplified version of the same idea: what did you change, undo it, what do you think is happening. The habit is more valuable than the vocabulary at that age.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>How much does it cost?</h3>
+        <p>A group batch of five to eight students is USD 100 a month and one to one is USD 150 a month, billed in US dollars, and these are the same figures everywhere we teach outside India. No enrolment fee, no minimum term, and the first class is free without a card.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Can I not just ask an AI to find the bug?</h3>
+        <p>Often, and we teach students to use that. What it does not do is reproduce an intermittent failure, decide what evidence would be decisive, or tell you whether its confident explanation is correct. It is a fast generator of hypotheses, which is genuinely useful, and hypotheses are the cheap half of debugging. The cuts are the expensive half.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Why do you break the student's own project?</h3>
+        <p>Because bugs in unfamiliar toy code are a different exercise. In your own project you have a model of how it works, that model is wrong in a specific place, and finding the discrepancy between belief and reality is precisely the professional experience. Somebody else's broken example never produces that feeling.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>My child gets very frustrated when code breaks. Does this help?</h3>
+        <p>It is usually the thing that helps most. Frustration comes from having no next action, and randomness produces no next action reliably. A procedure gives a student something to do when stuck, and the emotional change from that is often more noticeable to parents than the technical one.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Do you teach debugger tools?</h3>
+        <p>Yes, breakpoints and step-through and inspecting state, and they are useful. But we teach them after the method rather than before, because a debugger in the hands of somebody without a hypothesis is just a slower way to stir. The tool amplifies the procedure and cannot replace it.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>How long before we see a difference?</h3>
+        <p>The stated-hypothesis habit usually shows up within a term, and it is visible from outside: a student stops saying it does not work and starts saying I think it is the date handling because. That sentence is the whole skill in miniature and it tends to arrive before any of the faster technique does.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Is this relevant for adults already working?</h3>
+        <p>It is a frequent one to one request, generally from self-taught developers who write good code and lose entire days to defects. Those sessions run against real work, and the most common single finding is that the person was skipping reproduction and starting from a hunch.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>What happens after I send the form?</h3>
+        <p>A mentor calls to arrange the free class. If you have something currently broken, bring it, because working a live defect together is far more useful than any prepared exercise, and it also shows you honestly whether the method changes anything for you before you pay for anything.</p>
+      </div>@@
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="start">
+  <div class="ag-wrap">
+    <div class="ag-hero-grid">
+      <div>
+        <div class="ag-section-head">
+          <p class="ag-eyebrow">Start</p>
+          <h2>Bring something that is currently broken</h2>
+        </div>
+        <p>The most useful free first class for this topic uses a real defect rather than a prepared one. If you or your child has something that does not work, bring it and we will hunt it together, out loud, stating hypotheses before touching anything. If nothing is broken today we will break something instead, which is nearly as good. Ninety minutes, no card, and an honest view at the end on whether the procedure or the underlying programming is the thing to work on first.</p>
+        <p>Rather read first? <a class="ag-inline-link" href="/how-to-read-code">How to read code</a>, <a class="ag-inline-link" href="/how-to-think-like-a-programmer">how to think like a programmer</a>, or <a class="ag-inline-link" href="/agentic-coding-classes">agentic coding</a>.</p>
+        <p style="margin-top:22px">
+          <a class="ag-inline-link" href="https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders.%20I%20am%20interested%20in%20learning%20to%20debug%20properly." target="_blank" rel="noopener">WhatsApp us</a> &middot;
+          <a class="ag-inline-link" href="tel:+919123366161">+91 91233 66161</a> &middot;
+          <a class="ag-inline-link" href="mailto:contact@modernagecoders.com">contact@modernagecoders.com</a>
+        </p>
+        <p style="font-size:.92rem;color:var(--ag-muted);margin-top:14px">
+          We hold no premises anywhere. Every session is a live video call taught from India, and the
+          number above rings in India. Sending the form opens a conversation rather than an enrolment,
+          and holds no place in any batch.
+        </p>
+      </div>
+      <div class="ag-form-panel">
+        <form onsubmit="submitDebugLead(event)" novalidate>
+          <div class="ag-field">
+            <label for="ag-dbg-name">Your name</label>
+            <input id="ag-dbg-name" type="text" name="name" placeholder="Parent, student or your own name" required>
+          </div>
+          <div class="ag-field">
+            <label for="ag-dbg-phone">Phone or WhatsApp, including your country code</label>
+            <input id="ag-dbg-phone" type="tel" name="phone" placeholder="+44 7700 900000" required>
+          </div>
+          <div class="ag-field">
+            <label for="ag-dbg-age">Who is learning</label>
+            <select id="ag-dbg-age" name="age">
+              <option value="6-12">A child, 6 to 12</option>
+              <option value="13-18">A teenager, 13 to 18</option>
+              <option value="college">A university student</option>
+              <option value="adult">Me, working professional</option>
+            </select>
+          </div>
+          <button type="submit" class="ag-btn" style="width:100%">Request the free class</button>
+          <p class="ag-form-note">No card. No obligation. We call, we do not spam.</p>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+@@<footer class="ag-footer">
+  <div class="ag-wrap">
+    <div class="ag-grid-4">
+      <div>
+        <h4>Modern Age Coders</h4>
+        <p style="font-size:.9rem;opacity:.82">
+          Live online coding, AI and mathematics for ages 6 to 67. Teaching since 2020, more than
+          10,000 students across 25 countries and more.
+        </p>
+      </div>
+      <div>
+        <h4>Depth series</h4>
+        <ul>
+          <li><a href="/agentic-coding-classes">Agentic coding</a></li>
+          <li><a href="/how-to-read-code">How to read code</a></li>
+          <li><a href="/how-to-debug-code">How to debug code</a></li>
+          <li><a href="/how-to-think-like-a-programmer">Think like a programmer</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Build AI</h4>
+        <ul>
+          <li><a href="/how-llms-actually-work">How LLMs actually work</a></li>
+          <li><a href="/context-engineering-course">Context engineering</a></li>
+          <li><a href="/rag-systems-course">RAG systems</a></li>
+          <li><a href="/ai-evaluations-course">Evaluations</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Start</h4>
+        <ul>
+          <li><a href="/courses">The full catalogue</a></li>
+          <li><a href="/pricing">Fees</a></li>
+          <li><a href="/how-we-teach">How we teach</a></li>
+          <li><a href="/student-labs">What students build</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="ag-footer-bottom">
+      <span>&copy; 2026 Modern Age Coders. Live online, taught from India, worldwide.</span>
+      <span>Ages 6 to 67 &middot; 25 countries and more</span>
+    </div>
+  </div>
+</footer>@@
+
+<script>
+window.submitDebugLead = function (e) {
+  e.preventDefault();
+  var form = e.target;
+  var name = (form.querySelector('input[name="name"]') || {}).value || '';
+  var phoneRaw = (form.querySelector('input[type="tel"]') || {}).value || '';
+  var age = (form.querySelector('select[name="age"]') || {}).value || '';
+  var d = phoneRaw.replace(/\D/g, '');
+  if (d.length < 7) { alert('Please enter a valid phone number including your country code.'); return; }
+  var btn = form.querySelector('button[type="submit"]');
+  var oldText = btn.textContent;
+  btn.disabled = true; btn.textContent = 'Sending...';
+  var API_URL = (location.hostname === 'localhost' || location.hostname === '127.0.0.1')
+    ? 'http://localhost:5000' : 'https://backend-modernagecoders.vercel.app';
+  fetch(API_URL + '/api/callback/request', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({
+      phone: d, countryCode: '', countryIso: '', countryName: 'International',
+      source: 'how-to-debug-code-inline', meta: { name: name, age: age, raw: phoneRaw, topic: 'debugging' }
+    })
+  }).then(function (r) { return r.json(); }).then(function (data) {
+    if (data && data.success) {
+      if (window.gtag) gtag('event', 'generate_lead', { page_topic: 'debugging' });
+      form.innerHTML = '<p class="ag-form-ok">Thank you' + (name ? ', ' + name.split(' ')[0] : '') +
+        '. A mentor will call you to arrange the free class.</p>';
+    } else {
+      alert((data && data.message) || 'Something went wrong. Please try again.');
+      btn.disabled = false; btn.textContent = oldText;
+    }
+  }).catch(function () {
+    alert('Network error. Please try again.');
+    btn.disabled = false; btn.textContent = oldText;
+  });
+};
+</script>
+<script>
+  window.addEventListener('load', function () {
+    var s = document.createElement('script');
+    s.src = 'https://www.googletagmanager.com/gtag/js?id=G-N8BM164YJP';
+    s.async = true;
+    document.head.appendChild(s);
+  });
+</script>
+</body>
+</html>

@@ -1,0 +1,742 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>How to Read Code: A Method, Not a Talent | Live Classes</title>
+  <meta name="description" content="You read far more code than you write, and machines now write it faster than you can read. The four-pass method for code you did not write, taught live.">
+  <meta name="author" content="Modern Age Coders">
+  <link rel="canonical" href="https://learn.modernagecoders.com/how-to-read-code">
+  <link rel="alternate" type="text/markdown" href="/src/pages/how-to-read-code.md" title="Markdown version for AI agents">
+
+  <link rel="icon" href="/favicon.ico" type="image/x-icon">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
+  <meta name="theme-color" content="#3F6076">
+
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="https://learn.modernagecoders.com/how-to-read-code">
+  <meta property="og:title" content="How to Read Code: A Method, Not a Talent | Live Classes">
+  <meta property="og:description" content="Reading code is the one skill in programming with no feedback loop. Form a wrong understanding and nothing happens: you walk away confident and incorrect.">
+  <meta property="og:image" content="https://learn.modernagecoders.com/images/og-modern-age-coders.png">
+  <meta property="og:site_name" content="Modern Age Coders">
+  <meta property="og:locale" content="en">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="How to Read Code">
+  <meta name="twitter:description" content="Twelve unfamiliar lines, understood in six minutes. The method, and how it is taught.">
+  <meta name="twitter:image" content="https://learn.modernagecoders.com/images/og-modern-age-coders.png">
+
+  <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/ai-global.css?v=20260819">
+
+  <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-N8BM164YJP');gtag('config','AW-16910316353');</script>
+
+  <script type="application/ld+json" data-price-scope="coding.international">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "EducationalOrganization",
+        "@id": "https://learn.modernagecoders.com/#org",
+        "name": "Modern Age Coders",
+        "url": "https://learn.modernagecoders.com/",
+        "email": "contact@modernagecoders.com",
+        "telephone": "+91-91233-66161",
+        "foundingDate": "2020",
+        "areaServed": { "@type": "Place", "name": "Worldwide" },
+        "knowsAbout": ["Code Comprehension", "Code Review", "Software Maintenance", "Debugging", "Open Source", "Python", "JavaScript"]
+      },
+      {
+        "@type": "TechArticle",
+        "@id": "https://learn.modernagecoders.com/how-to-read-code#article",
+        "headline": "How to Read Code",
+        "description": "Reading code is the one skill in programming with no feedback loop. Form a wrong understanding and nothing happens: you walk away confident and incorrect.",
+        "inLanguage": "en",
+        "isAccessibleForFree": true,
+        "proficiencyLevel": "Beginner to Advanced",
+        "dependencies": "Ability to write basic code in at least one language",
+        "author": { "@id": "https://learn.modernagecoders.com/#org" },
+        "publisher": { "@id": "https://learn.modernagecoders.com/#org" },
+        "mainEntityOfPage": "https://learn.modernagecoders.com/how-to-read-code"
+      },
+      {
+        "@type": "Course",
+        "name": "How to Read Code: Comprehension Training for Programmers",
+        "description": "Live online small-batch teaching in code comprehension for learners aged 6 to 67 worldwide: a four-pass method for understanding unfamiliar code, applied to open source projects, the learner's own earlier work and diffs produced by AI coding agents, with a teacher supplying the feedback loop that reading otherwise lacks.",
+        "url": "https://learn.modernagecoders.com/how-to-read-code",
+        "inLanguage": "en",
+        "provider": { "@id": "https://learn.modernagecoders.com/#org" },
+        "isAccessibleForFree": false,
+        "hasCourseInstance": {
+          "@type": "CourseInstance",
+          "courseMode": "online",
+          "courseWorkload": "PT3H",
+          "location": { "@type": "VirtualLocation", "url": "https://learn.modernagecoders.com/how-to-read-code" }
+        }
+      },
+      {
+        "@type": "Service",
+        "serviceType": "Online code comprehension and code reading teaching",
+        "provider": { "@id": "https://learn.modernagecoders.com/#org" },
+        "areaServed": { "@type": "Place", "name": "Worldwide" },
+        "audience": { "@type": "EducationalAudience", "educationalRole": "student" }
+      },
+      {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://learn.modernagecoders.com/" },
+          { "@type": "ListItem", "position": 2, "name": "Learn to Build AI", "item": "https://learn.modernagecoders.com/learn-to-build-ai" },
+          { "@type": "ListItem", "position": 3, "name": "How to read code", "item": "https://learn.modernagecoders.com/how-to-read-code" }
+        ]
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+          {"@type": "Question", "name": "Can reading code really be taught, or is it just experience?", "acceptedAnswer": {"@type": "Answer", "text": "It is a procedure, and procedures are teachable. Experience makes you faster at it, but the four passes are explicit and a competent eleven year old can apply them within a few sessions. What experience adds is a library of patterns you recognise, and that accumulates faster when somebody has given you the method than when you are inventing it alone."}},
+          {"@type": "Question", "name": "At what age does this make sense?", "acceptedAnswer": {"@type": "Answer", "text": "From about eleven, once a learner can write a little code themselves. There is nothing to read against before that. In practice it becomes the more valuable half of the lesson somewhere around thirteen, when students start building things big enough that they cannot hold the whole thing in their head."}},
+          {"@type": "Question", "name": "How much does it cost?", "acceptedAnswer": {"@type": "Answer", "text": "A group batch of five to eight students is USD 100 a month and one to one is USD 150 a month, billed in US dollars, the same flat figures everywhere we teach outside India. There is no enrolment fee and no minimum term, and the first class is free without a card."}},
+          {"@type": "Question", "name": "Is this a separate course?", "acceptedAnswer": {"@type": "Answer", "text": "No, and deliberately so. It runs inside every course from the point the student can write a little, because splitting reading from writing is exactly the mistake that created this gap in the first place. What this page describes is a method we apply throughout, not a product with its own checkout."}},
+          {"@type": "Question", "name": "Why does it need a live teacher?", "acceptedAnswer": {"@type": "Answer", "text": "Because reading is the only programming skill with no natural feedback loop. Write wrong code and it breaks; read code wrongly and nothing whatsoever happens. Somebody who knows the code has to ask the question that exposes the gap, and no amount of video or reading material can do that."}},
+          {"@type": "Question", "name": "What code do students read?", "acceptedAnswer": {"@type": "Answer", "text": "Real code only: open source projects, their own work from months earlier, and diffs produced by coding agents. We avoid textbook examples, which are written to be understood and therefore teach nothing about reading code that was written to be finished under time pressure."}},
+          {"@type": "Question", "name": "My child can write code but freezes at anything they did not write. Is that normal?", "acceptedAnswer": {"@type": "Answer", "text": "It is extremely normal and it is exactly the symptom this addresses. It is not a sign of weak ability; it is a sign of a production-only education. The fix is a method plus supervised practice, and the change is usually visible within a term."}},
+          {"@type": "Question", "name": "Does this matter now that AI can explain code?", "acceptedAnswer": {"@type": "Answer", "text": "It matters more. An assistant will give you a fluent summary of code whether or not the summary is accurate, and the only defence against a confident wrong explanation is being able to check it yourself. Outsourcing comprehension to the same class of system that generated the code is not a plan."}},
+          {"@type": "Question", "name": "Is this useful for someone already working?", "acceptedAnswer": {"@type": "Answer", "text": "It is one of the most common one to one requests we get from working developers, usually phrased as onboarding taking too long. Those sessions run against the person's actual codebase rather than ours, and are typically shorter and more frequent than a student track."}},
+          {"@type": "Question", "name": "What happens after I send the form?", "acceptedAnswer": {"@type": "Answer", "text": "A mentor calls to arrange the free class. For this one, bring code you did not write and do not understand, and we will read it together in the session. That is more useful than any assessment we could set, and it shows you immediately whether the method does anything for you."}}
+        ]
+      }
+    ]
+  }
+  </script>
+</head>
+
+<body class="ag-root ag-rdc">
+
+<nav class="ag-nav">
+  <div class="ag-wrap ag-nav-inner">
+    <a class="ag-nav-brand" href="/">
+      <img src="/images/logo.svg" alt="Modern Age Coders logo" width="30" height="30" fetchpriority="high">
+      <span>Modern Age Coders</span>
+      <span class="ag-brand-tag">Reading code</span>
+    </a>
+    <div class="ag-nav-links">
+      <a href="#one">The asymmetry</a>
+      <a href="#two">A demonstration</a>
+      <a href="#courses">Courses</a>
+      <a href="#fees">Fees</a>
+      <a href="/learn-to-build-ai">Build AI</a>
+      <a href="#start" class="ag-btn">Free first class</a>
+    </div>
+  </div>
+</nav>
+
+<header class="ag-hero">
+  <div class="ag-wrap">
+    <nav class="ag-crumbs" aria-label="Breadcrumb">
+      <a href="/">Home</a> <span>/</span> <a href="/learn-to-build-ai">Build AI</a> <span>/</span> <span>How to read code</span>
+    </nav>
+    <div class="ag-hero-grid">
+      <div>
+        <p class="ag-eyebrow">Reading code &middot; Live online &middot; Worldwide &middot; Ages 6 to 67</p>
+        <h1>You read far more code than you write. Nobody taught you how.</h1>
+        <p class="ag-lede">Every course is production-shaped: here is a blank file, produce a solution. Almost none is comprehension-shaped: here are four hundred lines you did not write, tell me what happens when the input is empty. The second exercise is closer to the actual job and is essentially absent from teaching, and agents have made the gap extreme, because a student can now generate more code in an afternoon than they can carefully read in a week. This page demonstrates the method on code you have never seen, then explains why it cannot be practised alone.</p>
+        <div class="ag-btn-row">
+          <a href="#start" class="ag-btn">Book the free first class</a>
+          <a href="#one" class="ag-btn ag-btn--ghost">See the demonstration</a>
+          <a href="https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders.%20I%20am%20interested%20in%20learning%20to%20read%20code%20properly." class="ag-btn ag-btn--ghost" target="_blank" rel="noopener" onclick="if(window.gtag)gtag('event','whatsapp_click',{page_topic:'reading-code'});">Ask on WhatsApp</a>
+        </div>
+        <p class="ag-hero-note">
+          Live online &middot; ages 6 to 67 &middot; taught from India, worldwide &middot; from USD 100 a month &middot; first class free
+        </p>
+      </div>
+
+      <aside class="ag-spec">
+        <p class="ag-spec-title">At a glance</p>
+        <p class="ag-trust">
+          <span class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</span>
+          4.9 across 547 Google reviews
+        </p>
+        <dl>
+          @@<dt>The claim</dt><dd>Reading is a procedure, not a talent</dd>
+          <dt>The method</dt><dd>Four passes, fixed order</dd>
+          <dt>Why a teacher</dt><dd>Reading has no feedback loop</dd>
+          <dt>Material</dt><dd>Real code, never textbook code</dd>
+          <dt>Ages</dt><dd>11 to 67</dd>
+          <dt>Visible change</dt><dd>Weeks, not months</dd>
+          <dt>Fees</dt><dd>From USD 100 a month</dd>
+          <dt>First class</dt><dd>Free, no card</dd>@@
+        </dl>
+      </aside>
+    </div>
+  </div>
+</header>
+
+<section class="ag-section">
+  <div class="ag-wrap">
+    <div class="ag-capsule">
+      <p class="ag-capsule-q">The short answer</p>
+      <p>Reading code is a procedure rather than a talent, and it is the skill programmers use most and are taught least. The method is four passes in a fixed order: what goes in and out, follow one item through, what happens to the leftovers, then name the thing yourself. It scales from a single function to a large repository. Modern Age Coders teaches it live because reading is the one programming skill with no feedback loop: form a wrong understanding and nothing happens at all, so a teacher has to supply the correction. Group teaching is USD 100 a month, private is USD 150, and the first class is free without a card.</p>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="one">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">The asymmetry nobody plans for</p>
+      <h2>You will read vastly more code than you write, and you were taught only the writing</h2>
+      <p class="ag-lede">
+        Every hour of a working programmer's week is heavier on reading than on typing, and that was
+        true long before a machine started generating the reading material.
+      </p>
+    </div>
+
+    <div class="ag-grid-2" style="align-items:start">
+      <div>
+        <p>
+          Think about what actually happens when you join anything. A new job, an open source project,
+          a team, a codebase somebody left behind. Nobody asks you to write for the first weeks. They
+          ask you to understand, and every course you have taken prepared you for the opposite task.
+        </p>
+        <p>
+          Almost all programming education is production-shaped: here is a blank file, here is a
+          problem, produce a solution. Almost none of it is comprehension-shaped: here are four
+          hundred lines you did not write, tell me what happens when the input is empty. The second
+          exercise is closer to the job and is essentially absent from teaching.
+        </p>
+      </div>
+      <div>
+        <p>
+          Then agents arrived and made the asymmetry extreme. A student can now generate more code in
+          an afternoon than they could read carefully in a week. The production side went to nearly
+          free; the comprehension side did not move at all, because it is limited by a human being
+          holding a model of a system in their head.
+        </p>
+        <p>
+          So the ratio that was already lopsided became the defining constraint of the work. If you
+          can only carefully read two hundred lines an hour, and your tools emit two thousand, then
+          your reading speed is your engineering speed. Everything else is throughput you cannot use.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="two">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">A demonstration</p>
+      <h2>Twelve lines you have never seen, understood in six minutes</h2>
+      <p class="ag-lede">
+        Read the first block and notice your instinct. Then read the second, which is the method we
+        teach, applied to exactly the same code.
+      </p>
+    </div>
+
+    <div class="ag-code-pair">
+<figure class="ag-code">
+  <figcaption class="ag-code-head"><b>AN UNFAMILIAR FUNCTION</b><span>javascript</span></figcaption>
+  <pre>export function reconcile(prev, next, ctx) {
+  const seen = new Map();
+  for (const n of prev) seen.set(key(n), n);
+  const out = [];
+  for (const n of next) {
+    const old = seen.get(key(n));
+    <b>if (old &amp;&amp; old.rev === n.rev) { out.push(old); continue; }</b>
+    out.push(ctx.hydrate(n, old));
+    seen.delete(key(n));
+  }
+  <b>for (const stale of seen.values()) ctx.release(stale);</b>
+  return out;
+}</pre>
+  <p class="ag-code-note">Twelve lines, no comments, three unfamiliar names. Most people respond by reading it top to bottom and understanding almost nothing. Here is the alternative.</p>
+</figure>
+<figure class="ag-code">
+  <figcaption class="ag-code-head"><b>THE SAME FUNCTION, IN FOUR PASSES</b><span>method</span></figcaption>
+  <pre>PASS 1  What goes in, what comes out?
+        In: two collections and a ctx. Out: one array.
+        <i>So it is a merge. Nothing else matters yet.</i>
+
+PASS 2  Follow ONE item through.
+        An item in next that also exists in prev,
+        same rev -&gt; the OLD object is kept.
+        <b>It is preserving identity, not copying data.</b>
+
+PASS 3  What happens to the leftovers?
+        Anything still in `seen` was in prev but not
+        next. It gets released.
+        <b>That is the whole purpose: cleanup.</b>
+
+PASS 4  Now name it yourself.
+        "Keep unchanged things, rebuild changed ones,
+        free anything that disappeared."</pre>
+  <p class="ag-code-note">Four passes, perhaps six minutes, and you can now describe a function you had never seen without knowing what hydrate or rev mean. That is what reading is.</p>
+</figure>
+</div>
+
+    <p class="ag-mt-40">
+      The difference is not intelligence and it is not familiarity with the language. It is that the
+      second reader never tried to understand the whole function at once. They asked four narrow
+      questions in a fixed order and let the answers accumulate. Reading code is not a talent, it is
+      a procedure, and procedures can be taught to a thirteen year old.
+    </p>
+  </div>
+</section>
+
+<section class="ag-section ag-section--deep">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">The method, generalised</p>
+      <h2>How to walk into a codebase you have never seen</h2>
+      <p class="ag-lede">
+        The four passes scale from one function to a repository of two hundred thousand lines. What
+        changes is the unit, not the procedure.
+      </p>
+    </div>
+    <ol class="ag-protocol">
+        <li class="ag-step" data-step="1">
+          <h4>Find the entry point, not the beginning</h4>
+          <p>The first line of the first file is almost never where the story starts. Find what runs first when the program is used: the route handler, the main function, the event listener. Everything else is reachable from there, and reading alphabetically is the commonest way to waste a day.</p>
+        </li>
+        <li class="ag-step" data-step="2">
+          <h4>Read the shapes before the logic</h4>
+          <p>What types move through this system? A list of what? A dictionary keyed by what? Understanding the data usually collapses the difficulty of the code, because most functions are obvious once you know precisely what they are handed.</p>
+        </li>
+        <li class="ag-step" data-step="3">
+          <h4>Follow one realistic item all the way through</h4>
+          <p>One order, one user, one message. Trace it from arrival to storage, ignoring every branch it does not take. This single technique does more than any other and is what separates a reader from somebody scrolling.</p>
+        </li>
+        <li class="ag-step" data-step="4">
+          <h4>Give yourself twenty minutes before asking anybody</h4>
+          <p>Long enough to build a real question, short enough that a whole afternoon is not lost to pride. The rule matters in both directions: students who ask at two minutes never build the skill, and students who refuse to ask for a day are performing rather than working.</p>
+        </li>
+        <li class="ag-step" data-step="5">
+          <h4>Write the sentence you would tell a colleague</h4>
+          <p>One plain sentence for what the thing is for. If you cannot produce it, you have not finished reading, and the inability to write it is a far more reliable signal than the feeling of understanding.</p>
+        </li>
+        <li class="ag-step" data-step="6">
+          <h4>Change something small and watch what breaks</h4>
+          <p>The fastest way to test a mental model is to perturb the system and predict the result first. Being wrong here is the whole value, and it is the only feedback reading naturally provides.</p>
+        </li>
+      </ol>
+  </div>
+</section>
+
+<section class="ag-section">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Two behaviours, side by side</p>
+      <h2>What a beginner does, and what a reader does instead</h2>
+    </div>
+
+    <div class="ag-table-wrap">
+        <table class="ag-table">
+          <thead><tr><th scope="col">Situation</th><th scope="col">What a beginner does</th><th scope="col">What a reader does</th></tr></thead>
+          <tbody><tr><td>Opening a new repository</td><td class="ag-num">Starts at the first file alphabetically</td><td class="ag-num">Finds what runs first</td></tr><tr><td>Meeting an unknown function</td><td class="ag-num">Reads every line in order</td><td class="ag-num">Checks inputs and outputs, then stops</td></tr><tr><td>Hitting an unfamiliar name</td><td class="ag-num">Stops to look it up immediately</td><td class="ag-num">Assumes a meaning, continues, verifies later</td></tr><tr><td>Facing a long file</td><td class="ag-num">Feels defeated, scrolls</td><td class="ag-num">Traces one item and ignores the rest</td></tr><tr><td>Being unsure</td><td class="ag-num">Rereads the same lines slowly</td><td class="ag-num">Changes something and predicts the break</td></tr><tr><td>Finishing</td><td class="ag-num">Feels they understand it</td><td class="ag-num">Writes one sentence saying what it is for</td></tr></tbody>
+        </table>
+      </div>
+
+    <p class="ag-mt-40">
+      The middle column is not a description of somebody unintelligent. It is a description of
+      somebody who was taught to produce and never taught to comprehend, which is nearly everybody,
+      including a great many people already working in the industry.
+    </p>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Habits</p>
+      <h2>Six things good readers do that look like shortcuts and are not</h2>
+    </div>
+    <div class="ag-grid-3">
+      <div><h3>Reading with a specific question</h3><p>Never read code to understand it generally. Read it to answer something: where does this number come from, what runs when the button is pressed. Aimless reading feels diligent and retains nothing.</p></div>
+      <div><h3>Deliberately not looking things up</h3><p>Assume a plausible meaning for an unknown name and keep going. Nine times in ten the assumption is right and the interruption would have cost the thread. Verify at the end, in one pass, cheaply.</p></div>
+      <div><h3>Reading the tests first</h3><p>Tests are documentation that cannot go out of date, because they fail when they lie. In an unfamiliar codebase they are usually the fastest honest description of what something is supposed to do.</p></div>
+      <div><h3>Using the history as an explanation</h3><p>A confusing line is often the residue of a specific bug. The commit that introduced it frequently says why, and version control is therefore a reading tool as much as a safety tool.</p></div>
+      <div><h3>Reading their own code from six months ago</h3><p>The cheapest available source of unfamiliar code, and uniquely instructive because the student can compare what they meant with what they wrote. Almost every student is shocked the first time.</p></div>
+      <div><h3>Stopping when the question is answered</h3><p>Understanding a whole system is not usually the goal and is rarely achievable. Understanding enough to make one correct change is the goal, and knowing where that line is separates efficient readers from exhausted ones.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">How it is taught here</p>
+      <h2>You cannot practise this alone, which is the whole difficulty</h2>
+    </div>
+    <div class="ag-grid-2" style="align-items:start">
+      <div>
+        <p>
+          Reading is the one skill in programming with no feedback loop. Write code and it either runs
+          or it does not. Read code and form a wrong understanding, and absolutely nothing happens.
+          You walk away confident and incorrect, and you find out three weeks later, or never.
+        </p>
+        <p>
+          So the teaching has to supply the feedback. Every session a student reads something they
+          did not write and then explains it out loud, and a teacher who knows the code asks the
+          question that finds the gap. What happens on an empty input. Which of these two paths runs
+          more often. Where does this value come from originally.
+        </p>
+      </div>
+      <div>
+        <p>
+          The material is deliberately real: open source projects, the student's own older work, and
+          increasingly diffs produced by an agent, which is the case examined on
+          <a class="ag-inline-link" href="/agentic-coding-classes">the agentic coding page</a>.
+          Textbook code is written to be understood and therefore teaches nothing about reading code
+          that was written to be finished.
+        </p>
+        <p>
+          Within a term the visible change is that a student stops asking what a line does and starts
+          asking what it is for, which is a different question and the one that unlocks a codebase.
+          The debugging counterpart of this habit is set out on
+          <a class="ag-inline-link" href="/how-to-debug-code">how to debug code</a>.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="courses">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">The catalogue</p>
+      <h2>Where reading is taught in the catalogue</h2>
+      <p class="ag-lede">It is not a separate product. It runs inside every course from the point a student can write a little, because reading and writing are two halves of one skill and separating them is what produced the gap.</p>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">I</span>
+        <h3>Where reading is taught</h3>
+        <span class="ag-band-sub">Chosen for this page rather than listed in full</span>
+      </div>
+      <div class="ag-grid-4">
+        <article class="ag-course">
+          <p class="ag-course-code">DEPTH / 01</p>
+          <h4>Python for Teens</h4>
+          <p>Reading runs inside it from the point a student can write a little. Splitting comprehension from production is the mistake that created the gap.</p>
+          <a class="ag-course-link" href="/courses/python-complete-masterclass-teens">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">DEPTH / 02</p>
+          <h4>Git and GitHub for Teens</h4>
+          <p>History as a reading tool. A confusing line is usually the residue of one specific bug, and the commit that introduced it often says why.</p>
+          <a class="ag-course-link" href="/courses/git-github-version-control-course-for-teens">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">DEPTH / 03</p>
+          <h4>Coding Agents: Codex and Claude Code</h4>
+          <p>Where reading earns its keep fastest now, because the material arrives faster than any human can carefully take it in.</p>
+          <a class="ag-course-link" href="/courses/codex-and-claude-code-ai-coding-agents-course-for-teens">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">DEPTH / 04</p>
+          <h4>Git and GitHub, in depth</h4>
+          <p>For adults whose real complaint is that onboarding takes too long. Branching, review, and a history several authors have touched.</p>
+          <a class="ag-course-link" href="/courses/git-github-advanced-version-control-masterclass-for-professionals">Open the syllabus</a>
+        </article>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="fees">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Fees</p>
+      <h2>What it costs, anywhere in the world</h2>
+      <p class="ag-lede">One flat pair of figures everywhere we teach outside India, billed in US dollars and charged monthly with no minimum term, so a family can stop at the end of any month.</p>
+    </div>
+    @@<div class="ag-grid-3">
+      <div class="ag-price">
+        <p class="ag-price-name">Free first class</p>
+        <p class="ag-price-amt">USD 0</p>
+        <p class="ag-price-alt">no card required</p>
+        <ul><li>Taught rather than sold</li><li>It settles which rung the learner starts on</li><li>You watch it, then decide</li></ul>
+        <a href="#start" class="ag-btn ag-btn--ghost">Book it</a>
+      </div>
+      <div class="ag-price ag-price--feature">
+        <p class="ag-price-name">Group batch</p>
+        <p class="ag-price-amt">USD 100</p>
+        <p class="ag-price-alt">a month, billed in US dollars</p>
+        <ul><li>Five to eight students, one teacher throughout</li><li>Live video, never a recording</li><li>Build work between sessions, reviewed by the teacher</li><li>Certificate on completion</li></ul>
+        <a href="#start" class="ag-btn">Start here</a>
+      </div>
+      <div class="ag-price">
+        <p class="ag-price-name">One to one</p>
+        <p class="ag-price-amt">USD 150</p>
+        <p class="ag-price-alt">a month, billed in US dollars</p>
+        <ul><li>Private teaching, at the pace the goal needs</li><li>The only way to get a weekday morning slot</li><li>Syllabus shaped to one objective</li></ul>
+        <a href="#start" class="ag-btn ag-btn--ghost">Enquire</a>
+      </div>
+    </div>@@
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">What learners and families say</p>
+      <h2>Rated 4.9 across 547 Google reviews</h2>
+      <p class="ag-lede">Real reviews from real families. We neither write nor commission them.</p>
+    </div>
+    @@<div class="ag-grid-3">
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."</p>
+        <p class="ag-review-name">Ria Mukherjee</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."</p>
+        <p class="ag-review-name">Samriddha Mondal</p>
+        <p class="ag-review-role">Student</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."</p>
+        <p class="ag-review-name">Vansh Agarwal</p>
+        <p class="ag-review-role">Student</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."</p>
+        <p class="ag-review-name">Sonam Oswal</p>
+        <p class="ag-review-role">Parent of Dhairya</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."</p>
+        <p class="ag-review-name">Sonu Goyal</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."</p>
+        <p class="ag-review-name">Ritu Kedia</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+    </div>@@
+  </div>
+</section>
+
+<section class="ag-section">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">The rest of the series</p>
+      <h2>The nine other pages in this series</h2>
+      <p class="ag-lede">Reading pairs most directly with debugging and with agentic coding, which is really reading applied to a diff somebody else generated.</p>
+    </div>
+    <div class="ag-markets">
+      <a class="ag-market" href="/agentic-coding-classes"><span class="ag-market-n">Agentic coding</span><span class="ag-market-m">/agentic-coding-classes</span></a>
+      <a class="ag-market" href="/how-to-debug-code"><span class="ag-market-n">Debugging</span><span class="ag-market-m">/how-to-debug-code</span></a>
+      <a class="ag-market" href="/how-to-think-like-a-programmer"><span class="ag-market-n">Thinking like a programmer</span><span class="ag-market-m">/how-to-think-like-a-programmer</span></a>
+      <a class="ag-market" href="/how-to-actually-learn-to-code"><span class="ag-market-n">How learning actually works</span><span class="ag-market-m">/how-to-actually-learn-to-code</span></a>
+      <a class="ag-market" href="/how-llms-actually-work"><span class="ag-market-n">How LLMs work</span><span class="ag-market-m">/how-llms-actually-work</span></a>
+      <a class="ag-market" href="/context-engineering-course"><span class="ag-market-n">Context engineering</span><span class="ag-market-m">/context-engineering-course</span></a>
+      <a class="ag-market" href="/rag-systems-course"><span class="ag-market-n">RAG systems</span><span class="ag-market-m">/rag-systems-course</span></a>
+      <a class="ag-market" href="/ai-evaluations-course"><span class="ag-market-n">Evaluations</span><span class="ag-market-m">/ai-evaluations-course</span></a>
+      <a class="ag-market" href="/model-context-protocol-mcp-course"><span class="ag-market-n">MCP</span><span class="ag-market-m">/model-context-protocol-mcp-course</span></a>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--deep">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Questions about reading code</p>
+      <h2>What learners and parents ask</h2>
+    </div>
+    <div class="ag-faq">
+      @@<div class="ag-faq-item">
+        <h3>Can reading code really be taught, or is it just experience?</h3>
+        <p>It is a procedure, and procedures are teachable. Experience makes you faster at it, but the four passes are explicit and a competent eleven year old can apply them within a few sessions. What experience adds is a library of patterns you recognise, and that accumulates faster when somebody has given you the method than when you are inventing it alone.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>At what age does this make sense?</h3>
+        <p>From about eleven, once a learner can write a little code themselves. There is nothing to read against before that. In practice it becomes the more valuable half of the lesson somewhere around thirteen, when students start building things big enough that they cannot hold the whole thing in their head.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>How much does it cost?</h3>
+        <p>A group batch of five to eight students is USD 100 a month and one to one is USD 150 a month, billed in US dollars, the same flat figures everywhere we teach outside India. There is no enrolment fee and no minimum term, and the first class is free without a card.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Is this a separate course?</h3>
+        <p>No, and deliberately so. It runs inside every course from the point the student can write a little, because splitting reading from writing is exactly the mistake that created this gap in the first place. What this page describes is a method we apply throughout, not a product with its own checkout.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Why does it need a live teacher?</h3>
+        <p>Because reading is the only programming skill with no natural feedback loop. Write wrong code and it breaks; read code wrongly and nothing whatsoever happens. Somebody who knows the code has to ask the question that exposes the gap, and no amount of video or reading material can do that.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>What code do students read?</h3>
+        <p>Real code only: open source projects, their own work from months earlier, and diffs produced by coding agents. We avoid textbook examples, which are written to be understood and therefore teach nothing about reading code that was written to be finished under time pressure.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>My child can write code but freezes at anything they did not write. Is that normal?</h3>
+        <p>It is extremely normal and it is exactly the symptom this addresses. It is not a sign of weak ability; it is a sign of a production-only education. The fix is a method plus supervised practice, and the change is usually visible within a term.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Does this matter now that AI can explain code?</h3>
+        <p>It matters more. An assistant will give you a fluent summary of code whether or not the summary is accurate, and the only defence against a confident wrong explanation is being able to check it yourself. Outsourcing comprehension to the same class of system that generated the code is not a plan.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Is this useful for someone already working?</h3>
+        <p>It is one of the most common one to one requests we get from working developers, usually phrased as onboarding taking too long. Those sessions run against the person's actual codebase rather than ours, and are typically shorter and more frequent than a student track.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>What happens after I send the form?</h3>
+        <p>A mentor calls to arrange the free class. For this one, bring code you did not write and do not understand, and we will read it together in the session. That is more useful than any assessment we could set, and it shows you immediately whether the method does anything for you.</p>
+      </div>@@
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="start">
+  <div class="ag-wrap">
+    <div class="ag-hero-grid">
+      <div>
+        <div class="ag-section-head">
+          <p class="ag-eyebrow">Start</p>
+          <h2>Bring code you do not understand</h2>
+        </div>
+        <p>The free first class for this one has a specific shape: bring something real that you did not write and cannot follow. An open source file, a diff an agent produced, your own project from last year. We read it together using the four passes, and by the end of ninety minutes you will either be able to say what it is for or you will know exactly which pass you got stuck on. Nothing is charged and no card is requested.</p>
+        <p>Rather read first? <a class="ag-inline-link" href="/how-to-debug-code">How to debug code</a>, <a class="ag-inline-link" href="/agentic-coding-classes">agentic coding</a>, or <a class="ag-inline-link" href="/how-to-think-like-a-programmer">how to think like a programmer</a>.</p>
+        <p style="margin-top:22px">
+          <a class="ag-inline-link" href="https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders.%20I%20am%20interested%20in%20learning%20to%20read%20code%20properly." target="_blank" rel="noopener">WhatsApp us</a> &middot;
+          <a class="ag-inline-link" href="tel:+919123366161">+91 91233 66161</a> &middot;
+          <a class="ag-inline-link" href="mailto:contact@modernagecoders.com">contact@modernagecoders.com</a>
+        </p>
+        <p style="font-size:.92rem;color:var(--ag-muted);margin-top:14px">
+          We hold no premises anywhere. Every session is a live video call taught from India, and the
+          number above rings in India. Sending the form opens a conversation rather than an enrolment,
+          and holds no place in any batch.
+        </p>
+      </div>
+      <div class="ag-form-panel">
+        <form onsubmit="submitReadCodeLead(event)" novalidate>
+          <div class="ag-field">
+            <label for="ag-rdc-name">Your name</label>
+            <input id="ag-rdc-name" type="text" name="name" placeholder="Parent, student or your own name" required>
+          </div>
+          <div class="ag-field">
+            <label for="ag-rdc-phone">Phone or WhatsApp, including your country code</label>
+            <input id="ag-rdc-phone" type="tel" name="phone" placeholder="+44 7700 900000" required>
+          </div>
+          <div class="ag-field">
+            <label for="ag-rdc-age">Who is learning</label>
+            <select id="ag-rdc-age" name="age">
+              <option value="6-12">A child, 6 to 12</option>
+              <option value="13-18">A teenager, 13 to 18</option>
+              <option value="college">A university student</option>
+              <option value="adult">Me, working professional</option>
+            </select>
+          </div>
+          <button type="submit" class="ag-btn" style="width:100%">Request the free class</button>
+          <p class="ag-form-note">No card. No obligation. We call, we do not spam.</p>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+@@<footer class="ag-footer">
+  <div class="ag-wrap">
+    <div class="ag-grid-4">
+      <div>
+        <h4>Modern Age Coders</h4>
+        <p style="font-size:.9rem;opacity:.82">
+          Live online coding, AI and mathematics for ages 6 to 67. Teaching since 2020, more than
+          10,000 students across 25 countries and more.
+        </p>
+      </div>
+      <div>
+        <h4>Depth series</h4>
+        <ul>
+          <li><a href="/agentic-coding-classes">Agentic coding</a></li>
+          <li><a href="/how-to-read-code">How to read code</a></li>
+          <li><a href="/how-to-debug-code">How to debug code</a></li>
+          <li><a href="/how-to-think-like-a-programmer">Think like a programmer</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Build AI</h4>
+        <ul>
+          <li><a href="/how-llms-actually-work">How LLMs actually work</a></li>
+          <li><a href="/context-engineering-course">Context engineering</a></li>
+          <li><a href="/rag-systems-course">RAG systems</a></li>
+          <li><a href="/ai-evaluations-course">Evaluations</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Start</h4>
+        <ul>
+          <li><a href="/courses">The full catalogue</a></li>
+          <li><a href="/pricing">Fees</a></li>
+          <li><a href="/how-we-teach">How we teach</a></li>
+          <li><a href="/student-labs">What students build</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="ag-footer-bottom">
+      <span>&copy; 2026 Modern Age Coders. Live online, taught from India, worldwide.</span>
+      <span>Ages 6 to 67 &middot; 25 countries and more</span>
+    </div>
+  </div>
+</footer>@@
+
+<script>
+window.submitReadCodeLead = function (e) {
+  e.preventDefault();
+  var form = e.target;
+  var name = (form.querySelector('input[name="name"]') || {}).value || '';
+  var phoneRaw = (form.querySelector('input[type="tel"]') || {}).value || '';
+  var age = (form.querySelector('select[name="age"]') || {}).value || '';
+  var d = phoneRaw.replace(/\D/g, '');
+  if (d.length < 7) { alert('Please enter a valid phone number including your country code.'); return; }
+  var btn = form.querySelector('button[type="submit"]');
+  var oldText = btn.textContent;
+  btn.disabled = true; btn.textContent = 'Sending...';
+  var API_URL = (location.hostname === 'localhost' || location.hostname === '127.0.0.1')
+    ? 'http://localhost:5000' : 'https://backend-modernagecoders.vercel.app';
+  fetch(API_URL + '/api/callback/request', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({
+      phone: d, countryCode: '', countryIso: '', countryName: 'International',
+      source: 'how-to-read-code-inline', meta: { name: name, age: age, raw: phoneRaw, topic: 'reading-code' }
+    })
+  }).then(function (r) { return r.json(); }).then(function (data) {
+    if (data && data.success) {
+      if (window.gtag) gtag('event', 'generate_lead', { page_topic: 'reading-code' });
+      form.innerHTML = '<p class="ag-form-ok">Thank you' + (name ? ', ' + name.split(' ')[0] : '') +
+        '. A mentor will call you to arrange the free class.</p>';
+    } else {
+      alert((data && data.message) || 'Something went wrong. Please try again.');
+      btn.disabled = false; btn.textContent = oldText;
+    }
+  }).catch(function () {
+    alert('Network error. Please try again.');
+    btn.disabled = false; btn.textContent = oldText;
+  });
+};
+</script>
+<script>
+  window.addEventListener('load', function () {
+    var s = document.createElement('script');
+    s.src = 'https://www.googletagmanager.com/gtag/js?id=G-N8BM164YJP';
+    s.async = true;
+    document.head.appendChild(s);
+  });
+</script>
+</body>
+</html>

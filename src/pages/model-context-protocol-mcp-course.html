@@ -1,0 +1,749 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Model Context Protocol (MCP) Course | Build Real MCP Servers</title>
+  <meta name="description" content="A tool description is a promise to a reader that cannot ask what you meant. Build real MCP servers, then hand yours to a student who has never seen it.">
+  <meta name="author" content="Modern Age Coders">
+  <link rel="canonical" href="https://learn.modernagecoders.com/model-context-protocol-mcp-course">
+  <link rel="alternate" type="text/markdown" href="/src/pages/model-context-protocol-mcp-course.md" title="Markdown version for AI agents">
+
+  <link rel="icon" href="/favicon.ico" type="image/x-icon">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
+  <meta name="theme-color" content="#63462C">
+
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="https://learn.modernagecoders.com/model-context-protocol-mcp-course">
+  <meta property="og:title" content="Model Context Protocol (MCP) Course | Build Real MCP Servers">
+  <meta property="og:description" content="Once the plumbing is standardised, the hard part is exposed: what does this tool do, what will it refuse, and how would a caller who has never seen your system know?">
+  <meta property="og:image" content="https://learn.modernagecoders.com/images/og-modern-age-coders.png">
+  <meta property="og:site_name" content="Modern Age Coders">
+  <meta property="og:locale" content="en">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Model Context Protocol (MCP) Course">
+  <meta name="twitter:description" content="Building MCP servers is interface design, not networking. Two definitions, compared.">
+  <meta name="twitter:image" content="https://learn.modernagecoders.com/images/og-modern-age-coders.png">
+
+  <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/ai-global.css?v=20260819">
+
+  <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-N8BM164YJP');gtag('config','AW-16910316353');</script>
+
+  <script type="application/ld+json" data-price-scope="coding.international">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "EducationalOrganization",
+        "@id": "https://learn.modernagecoders.com/#org",
+        "name": "Modern Age Coders",
+        "url": "https://learn.modernagecoders.com/",
+        "email": "contact@modernagecoders.com",
+        "telephone": "+91-91233-66161",
+        "foundingDate": "2020",
+        "areaServed": { "@type": "Place", "name": "Worldwide" },
+        "knowsAbout": ["Model Context Protocol", "MCP Servers", "AI Agents", "API Design", "JSON Schema", "Tool Use", "Python", "TypeScript"]
+      },
+      {
+        "@type": "TechArticle",
+        "@id": "https://learn.modernagecoders.com/model-context-protocol-mcp-course#article",
+        "headline": "Model Context Protocol (MCP) Course",
+        "description": "Once the plumbing is standardised, the hard part is exposed: what does this tool do, what will it refuse, and how would a caller who has never seen your system know?",
+        "inLanguage": "en",
+        "isAccessibleForFree": true,
+        "proficiencyLevel": "Intermediate to Advanced",
+        "dependencies": "Comfortable reading and writing code in Python or TypeScript",
+        "author": { "@id": "https://learn.modernagecoders.com/#org" },
+        "publisher": { "@id": "https://learn.modernagecoders.com/#org" },
+        "mainEntityOfPage": "https://learn.modernagecoders.com/model-context-protocol-mcp-course"
+      },
+      {
+        "@type": "Course",
+        "name": "Model Context Protocol (MCP) Course: Designing and Building MCP Servers",
+        "description": "Live online small-batch teaching on the Model Context Protocol for learners worldwide: designing tool surfaces, writing descriptions and schemas that a model can act on without guessing, deciding what should never be exposed as a tool, and shipping a working sandboxed server that another student can use without explanation.",
+        "url": "https://learn.modernagecoders.com/model-context-protocol-mcp-course",
+        "inLanguage": "en",
+        "provider": { "@id": "https://learn.modernagecoders.com/#org" },
+        "isAccessibleForFree": false,
+        "hasCourseInstance": {
+          "@type": "CourseInstance",
+          "courseMode": "online",
+          "courseWorkload": "PT3H",
+          "location": { "@type": "VirtualLocation", "url": "https://learn.modernagecoders.com/model-context-protocol-mcp-course" }
+        }
+      },
+      {
+        "@type": "Service",
+        "serviceType": "Online Model Context Protocol and tool design teaching",
+        "provider": { "@id": "https://learn.modernagecoders.com/#org" },
+        "areaServed": { "@type": "Place", "name": "Worldwide" },
+        "audience": { "@type": "EducationalAudience", "educationalRole": "student" }
+      },
+      {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://learn.modernagecoders.com/" },
+          { "@type": "ListItem", "position": 2, "name": "Learn to Build AI", "item": "https://learn.modernagecoders.com/learn-to-build-ai" },
+          { "@type": "ListItem", "position": 3, "name": "MCP course", "item": "https://learn.modernagecoders.com/model-context-protocol-mcp-course" }
+        ]
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+          {"@type": "Question", "name": "What is MCP in one sentence?", "acceptedAnswer": {"@type": "Answer", "text": "An open standard that lets AI applications connect to tools and data through one defined interface, instead of every application needing custom glue for every system. The value is the same as any driver interface: a server implements it once and every client that speaks the protocol can use it."}},
+          {"@type": "Question", "name": "Do I need to know MCP to use AI tools?", "acceptedAnswer": {"@type": "Answer", "text": "No. This is a builder's topic. It matters if you want to give a model access to your own systems, or if you are building something other people's assistants will connect to. If you only use AI applications, the context engineering and evaluations pages are more useful to you than this one."}},
+          {"@type": "Question", "name": "How much does it cost?", "acceptedAnswer": {"@type": "Answer", "text": "A group batch of five to eight students is USD 100 a month and one to one is USD 150 a month, billed in US dollars, the same figures everywhere we teach outside India. Three of the AI agent courses in our catalogue are taught one to one only and are priced as private teaching, which is stated on those course pages."}},
+          {"@type": "Question", "name": "What can I actually build in this course?", "acceptedAnswer": {"@type": "Answer", "text": "A working server over something you already have: a notes folder, a hobby database, a public dataset. It runs against a real client, and then another student who has never seen it is asked to accomplish a task using only your tool descriptions. That handover is where every ambiguity surfaces."}},
+          {"@type": "Question", "name": "Is this too advanced for a teenager?", "acceptedAnswer": {"@type": "Answer", "text": "Not for one who can already write and read code comfortably, and we have taught it to fifteen year olds who did well. It is a poor first course, because the interesting judgement is about designing an interface for a caller that cannot ask questions, and that is hard to appreciate before you have used a few bad interfaces."}},
+          {"@type": "Question", "name": "Will this be obsolete when the spec changes?", "acceptedAnswer": {"@type": "Answer", "text": "The spec will change, it is young and moving quickly, and we say so rather than implying permanence. What does not change is the design judgement: granularity, writing what a tool refuses, distinguishing empty from broken, least privilege. Those survive every revision because they predate the protocol."}},
+          {"@type": "Question", "name": "Do students connect servers to real accounts?", "acceptedAnswer": {"@type": "Answer", "text": "No. Everything reads, or writes to a sandbox that can be reset. Learning judgement about consequence requires being free to make a bad call, and that is only safe where nothing real is attached. It is the same rule we apply across every agent course we teach."}},
+          {"@type": "Question", "name": "How is this different from just writing an API?", "acceptedAnswer": {"@type": "Answer", "text": "The caller. A conventional API is read by a developer who can look at your source, ask a colleague and read a changelog. An MCP tool is read by a model in the middle of a task, with only your description, and it will confidently act on any implication you left in the text. That changes what good documentation even means."}},
+          {"@type": "Question", "name": "What language do you teach it in?", "acceptedAnswer": {"@type": "Answer", "text": "Python or TypeScript, chosen to match what the student already writes, because the interesting content is the design and we would rather not spend the first month on unfamiliar syntax. Adults with a specific stack in mind should say so on the first call and we will match it."}},
+          {"@type": "Question", "name": "What happens after I send the form?", "acceptedAnswer": {"@type": "Answer", "text": "A mentor calls to arrange the free class. For this course we usually spend it critiquing a real tool definition, because how somebody reacts to an under-specified description tells us immediately whether they are ready for this or should do the mechanism and agent material first."}}
+        ]
+      }
+    ]
+  }
+  </script>
+</head>
+
+<body class="ag-root ag-mcp">
+
+<nav class="ag-nav">
+  <div class="ag-wrap ag-nav-inner">
+    <a class="ag-nav-brand" href="/">
+      <img src="/images/logo.svg" alt="Modern Age Coders logo" width="30" height="30" fetchpriority="high">
+      <span>Modern Age Coders</span>
+      <span class="ag-brand-tag">MCP</span>
+    </a>
+    <div class="ag-nav-links">
+      <a href="#one">Why a protocol</a>
+      <a href="#two">Two definitions</a>
+      <a href="#courses">Courses</a>
+      <a href="#fees">Fees</a>
+      <a href="/learn-to-build-ai">Build AI</a>
+      <a href="#start" class="ag-btn">Free first class</a>
+    </div>
+  </div>
+</nav>
+
+<header class="ag-hero">
+  <div class="ag-wrap">
+    <nav class="ag-crumbs" aria-label="Breadcrumb">
+      <a href="/">Home</a> <span>/</span> <a href="/learn-to-build-ai">Build AI</a> <span>/</span> <span>MCP course</span>
+    </nav>
+    <div class="ag-hero-grid">
+      <div>
+        <p class="ag-eyebrow">MCP &middot; Live online &middot; Worldwide &middot; Teens and adults</p>
+        <h1>An MCP tool description is a promise to a reader who cannot ask you what you meant.</h1>
+        <p class="ag-lede">The Model Context Protocol is an open standard for connecting AI applications to tools and data, and it solves an old, boring multiplication problem: without it, every application needs bespoke glue for every system. But standardising the plumbing exposes the part that was always hard. What exactly does this tool do, what will it refuse, and how would a caller who has never seen your system know? That caller is a language model. It cannot ask a colleague. It has your description and nothing else, and it will act on everything that description implies.</p>
+        <div class="ag-btn-row">
+          <a href="#start" class="ag-btn">Book the free first class</a>
+          <a href="#one" class="ag-btn ag-btn--ghost">See the two definitions</a>
+          <a href="https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders.%20I%20am%20interested%20in%20learning%20to%20build%20MCP%20servers." class="ag-btn ag-btn--ghost" target="_blank" rel="noopener" onclick="if(window.gtag)gtag('event','whatsapp_click',{page_topic:'mcp'});">Ask on WhatsApp</a>
+        </div>
+        <p class="ag-hero-note">
+          Live online &middot; ages 6 to 67 &middot; taught from India, worldwide &middot; from USD 100 a month &middot; first class free
+        </p>
+      </div>
+
+      <aside class="ag-spec">
+        <p class="ag-spec-title">At a glance</p>
+        <p class="ag-trust">
+          <span class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</span>
+          4.9 across 547 Google reviews
+        </p>
+        <dl>
+          @@<dt>What it really is</dt><dd>Interface design, not networking</dd>
+          <dt>The hard part</dt><dd>Describing what a tool will not do</dd>
+          <dt>You ship</dt><dd>A working sandboxed server</dd>
+          <dt>The assessment</dt><dd>Another student uses it, unexplained</dd>
+          <dt>Writes to production</dt><dd>Never, on a student server</dd>
+          <dt>Assumes</dt><dd>You can already code</dd>
+          <dt>Fees</dt><dd>From USD 100 a month</dd>
+          <dt>First class</dt><dd>Free, no card</dd>@@
+        </dl>
+      </aside>
+    </div>
+  </div>
+</header>
+
+<section class="ag-section">
+  <div class="ag-wrap">
+    <div class="ag-capsule">
+      <p class="ag-capsule-q">The short answer</p>
+      <p>The Model Context Protocol is an open standard for connecting AI applications to tools and data, replacing bespoke per-application glue with one interface a server implements once. Building on it turns out to be interface design rather than networking: the caller is a language model that cannot ask what you meant, so a tool description has to state what the tool covers, what it excludes, what it returns and what to use instead. Modern Age Coders teaches it by having each student ship a sandboxed server and then hand it to another student who has never seen it. Group teaching is USD 100 a month, private is USD 150, and the first class is free.</p>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="one">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Why a protocol had to exist</p>
+      <h2>Before MCP, every tool had to be rebuilt for every application</h2>
+      <p class="ag-lede">
+        The Model Context Protocol is an open standard for connecting AI applications to tools and
+        data. The interesting part is not the wire format. It is what a standard forces you to
+        decide.
+      </p>
+    </div>
+
+    <div class="ag-grid-2" style="align-items:start">
+      <div>
+        <p>
+          The problem it solves is an old and boring one. If you have a number of AI applications
+          and a number of systems they should reach, and every pairing needs bespoke glue, you are
+          writing a multiplication rather than an addition. Every new application means reconnecting
+          everything, and every new data source means touching every application.
+        </p>
+        <p>
+          A protocol collapses that. A server exposes its capabilities once, in a defined shape, and
+          any client that speaks the protocol can use them. This is the same move as a database
+          driver interface or a printer driver, and it is unglamorous for exactly the reason it is
+          valuable.
+        </p>
+      </div>
+      <div>
+        <p>
+          But standardising the transport exposes the part that was always the real difficulty. Once
+          the plumbing is solved, what remains is a much harder question: what exactly does this tool
+          do, when should it be used, what will it refuse, and how would a caller who has never seen
+          your system know any of that?
+        </p>
+        <p>
+          The caller, remember, is a language model. It cannot ask a colleague. It has your
+          description and nothing else, and it will act on whatever that description implies,
+          including the parts you did not think you were implying. That is the subject of this
+          course, and it is much closer to interface design than to networking.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="two">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Two definitions of the same tool</p>
+      <h2>A tool description is a promise to a reader who cannot ask questions</h2>
+      <p class="ag-lede">
+        Both of these are valid. One of them will produce a support ticket in its first week.
+      </p>
+    </div>
+
+    <div class="ag-code-pair">
+<figure class="ag-code">
+  <figcaption class="ag-code-head"><b>A TOOL DEFINITION THAT WILL HURT YOU</b><span>json</span></figcaption>
+  <pre>{
+  "name": "search",
+  "description": "Search the records",
+  "inputSchema": {
+    "type": "object",
+    "properties": {
+      "q": { "type": "string" }
+    }
+  }
+}</pre>
+  <p class="ag-code-note">Every field is present and the server will start. Now read it as the model reads it: search which records, returning how many, in what order, and what is q allowed to be?</p>
+</figure>
+<figure class="ag-code">
+  <figcaption class="ag-code-head"><b>THE SAME TOOL, SPECIFIED</b><span>json</span></figcaption>
+  <pre>{
+  "name": "search_invoices",
+  "description": <b>"Full-text search over invoices from</b>
+<b>   the last 24 months only. Returns at most 20</b>
+<b>   matches, newest first. Does NOT include</b>
+<b>   drafts or deleted invoices. Use list_customers</b>
+<b>   first if you only have a customer name."</b>,
+  "inputSchema": {
+    "type": "object",
+    "properties": {
+      "query": { "type": "string",
+        "description": "Words to match in line items" },
+      "limit": { "type": "integer",
+        "minimum": 1, "maximum": 20, "default": 10 }
+    },
+    "required": ["query"]
+  }
+}</pre>
+  <p class="ag-code-note">The difference is not JSON skill. It is that somebody decided what the tool promises, what it excludes, and what a caller should do instead when it is the wrong tool.</p>
+</figure>
+</div>
+
+    <p class="ag-mt-40">
+      Read the left one the way a model must. "Search the records" is an invitation to assume:
+      records probably means all of them, results probably means everything relevant, and
+      <code>q</code> is probably a query in whatever form seems natural. Every one of those
+      assumptions is reasonable and none was authorised.
+    </p>
+    <p>
+      The right one is longer for a reason that has nothing to do with thoroughness for its own
+      sake. Each added clause removes one assumption the caller would otherwise have made, including
+      the one people most often forget: <strong>what this tool is not for, and what to use instead</strong>.
+    </p>
+  </div>
+</section>
+
+<section class="ag-section ag-section--deep">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">The shape of a server</p>
+      <h2>Five decisions, in the order we make students make them</h2>
+      <p class="ag-lede">
+        Notice that only the last of these is programming. The first four are design, and they are
+        where servers succeed or fail.
+      </p>
+    </div>
+    <ol class="ag-protocol">
+        <li class="ag-step" data-step="1">
+          <h4>Decide what the caller is trying to achieve</h4>
+          <p>Not what your system can do. What a session using it is trying to accomplish. A tool surface designed around your internal structure will be technically complete and practically unusable, in exactly the way a database schema makes a poor menu.</p>
+        </li>
+        <li class="ag-step" data-step="2">
+          <h4>Choose the granularity, which is the real design work</h4>
+          <p>One flexible tool that takes twelve parameters, or nine narrow ones? Too coarse and the caller must guess how to drive it; too fine and it cannot see how to combine them. There is no rule, only judgement, and getting it wrong is the commonest reason a server is unpleasant to use.</p>
+        </li>
+        <li class="ag-step" data-step="3">
+          <h4>Write the descriptions before writing the implementation</h4>
+          <p>Deliberately backwards. If you cannot describe the tool in three unambiguous sentences, the tool is doing too much or you have not decided what it is. This step alone eliminates most of the trouble that would otherwise arrive later.</p>
+        </li>
+        <li class="ag-step" data-step="4">
+          <h4>Decide what happens on failure, and say so in the description</h4>
+          <p>Empty result and error are different answers and the caller must be able to tell them apart. A tool that returns nothing when the database is unreachable has told the model there is no data, which is a lie the model will then act on confidently.</p>
+        </li>
+        <li class="ag-step" data-step="5">
+          <h4>Only now implement, and bound what it can reach</h4>
+          <p>Least privilege, always: the narrowest scope, the smallest table, read-only unless there is a specific reason. The implementation is usually the shortest part of the work, which surprises everybody.</p>
+        </li>
+      </ol>
+  </div>
+</section>
+
+<section class="ag-section">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Judgement</p>
+      <h2>What belongs behind a tool, and what should never be</h2>
+    </div>
+
+    <div class="ag-table-wrap">
+        <table class="ag-table">
+          <thead><tr><th scope="col"></th><th scope="col">Good candidate for a tool</th><th scope="col">Should not be a tool</th></tr></thead>
+          <tbody><tr><td>Effect</td><td class="ag-num">Read-only, or reversible</td><td class="ag-num">Irreversible or destructive</td></tr><tr><td>Scope</td><td class="ag-num">Narrow, one clear job</td><td class="ag-num">A general escape hatch</td></tr><tr><td>Failure</td><td class="ag-num">Distinguishable and loud</td><td class="ag-num">Silently returns nothing</td></tr><tr><td>Authority</td><td class="ag-num">Least privilege</td><td class="ag-num">Broad credentials for convenience</td></tr><tr><td>Ambiguity</td><td class="ag-num">One obvious reading</td><td class="ag-num">Depends what you mean</td></tr><tr><td>Consequence if misfired</td><td class="ag-num">A wasted call</td><td class="ag-num">Money, messages or deletion</td></tr></tbody>
+        </table>
+      </div>
+
+    <p class="ag-mt-40">
+      The right-hand column is the one that gets skipped by people excited about capability. A tool
+      is not merely a function you exposed; it is an action you have authorised a system to take on
+      its own judgement, and the correct question is not whether it is possible but what happens the
+      day it is called wrongly.
+    </p>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Failure modes</p>
+      <h2>Six ways a technically correct server behaves badly</h2>
+    </div>
+    <div class="ag-grid-3">
+      <div><h3>Descriptions written for humans</h3><p>Marketing prose, internal jargon, or a name that made sense to your team. The caller has no context and no colleague to ask, and it will interpret confidently either way.</p></div>
+      <div><h3>The tool that does everything</h3><p>A single execute with a free-form command parameter is not a tool, it is a shell with extra steps. It appears flexible and removes every constraint that made the surface safe.</p></div>
+      <div><h3>Silent empty results</h3><p>Returning an empty list on an internal failure. The caller cannot distinguish no matching data from the system is down, so it reports there are none, and somebody believes it.</p></div>
+      <div><h3>Unbounded output</h3><p>A tool that can return forty thousand rows will eventually fill the context window with one call and destroy the session. Every list-returning tool needs a limit with a sane default, not just a maximum.</p></div>
+      <div><h3>Overlapping tools with no guidance</h3><p>Two tools that could both plausibly answer, and nothing in either description saying which to prefer. The caller will pick one consistently, and it will be the wrong one about half the time.</p></div>
+      <div><h3>Credentials wider than the task</h3><p>A token with write access because read-only was slightly more work to configure. Nothing breaks, so nothing signals, and the blast radius grew for free the day it was created.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">The course</p>
+      <h2>What students build, and what we are careful about</h2>
+    </div>
+    <div class="ag-grid-2" style="align-items:start">
+      <div>
+        <h3>The build</h3>
+        <p>
+          Each student ships a working server over something they actually have: a personal notes
+          folder, a hobby database, a public dataset they care about. It is connected to a real
+          client and then, crucially, handed to another student who has never seen it and is told to
+          accomplish a task with it.
+        </p>
+        <p>
+          That handover is the assessment and it is unforgiving. Every ambiguity in a description
+          surfaces within minutes when somebody else's session starts calling your tools in an order
+          you did not anticipate. Students rewrite their descriptions three or four times, which is
+          the entire lesson.
+        </p>
+      </div>
+      <div>
+        <h3>Three cautions</h3>
+        <p>
+          <strong>Nothing writes to anything real.</strong> Student servers read, or write to a
+          sandbox that can be reset. Judgement about consequence has to be learned somewhere the
+          blast radius is zero.
+        </p>
+        <p>
+          <strong>The specification will keep moving.</strong> It is a young and actively developing
+          standard. We teach the shape and the design judgement, and we expect details to change,
+          which is the honest position rather than a caveat.
+        </p>
+        <p>
+          <strong>This is not a beginner course.</strong> It assumes you can already write and read
+          the language, and it makes considerably more sense after
+          <a class="ag-inline-link" href="/how-llms-actually-work">how LLMs actually work</a>.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="courses">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">The catalogue</p>
+      <h2>Where MCP sits in the catalogue</h2>
+      <p class="ag-lede">It lives inside the agents and generative AI courses rather than as a standalone product, because a protocol for giving models tools makes little sense before you understand what the model is doing with them.</p>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">I</span>
+        <h3>Where MCP is taught</h3>
+        <span class="ag-band-sub">Chosen for this page rather than listed in full</span>
+      </div>
+      <div class="ag-grid-4">
+        <article class="ag-course">
+          <p class="ag-course-code">DEPTH / 01</p>
+          <h4>Generative AI: LLMs, RAG and Agents</h4>
+          <p>Where servers and tool surfaces sit. A protocol for handing a model tools makes little sense before you know what it does with them.</p>
+          <a class="ag-course-link" href="/courses/complete-generative-ai-masterclass-college">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">DEPTH / 02</p>
+          <h4>AI Agents with Copilot Studio</h4>
+          <p>The same design questions inside a commercial agent platform. Taught one to one only, and priced as private teaching.</p>
+          <a class="ag-course-link" href="/courses/ai-agents-with-microsoft-copilot-studio-course-for-college-students">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">DEPTH / 03</p>
+          <h4>Coding Agents: Codex and Claude Code</h4>
+          <p>The other side of the same idea: being the caller, reading somebody else's under-specified description and acting on it.</p>
+          <a class="ag-course-link" href="/courses/codex-and-claude-code-ai-coding-agents-course-for-teens">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">DEPTH / 04</p>
+          <h4>Python and AI Automation</h4>
+          <p>For adults exposing their own systems. Least privilege, sandboxes, and deciding what should never be reachable at all.</p>
+          <a class="ag-course-link" href="/courses/python-ai-automation-masterclass-college">Open the syllabus</a>
+        </article>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="fees">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Fees</p>
+      <h2>What it costs, anywhere in the world</h2>
+      <p class="ag-lede">The same flat pair of figures everywhere we teach outside India, in US dollars, monthly, with no minimum term. Three of the agent courses are private teaching only and priced accordingly.</p>
+    </div>
+    @@<div class="ag-grid-3">
+      <div class="ag-price">
+        <p class="ag-price-name">Free first class</p>
+        <p class="ag-price-amt">USD 0</p>
+        <p class="ag-price-alt">no card required</p>
+        <ul><li>Taught rather than sold</li><li>It settles which rung the learner starts on</li><li>You watch it, then decide</li></ul>
+        <a href="#start" class="ag-btn ag-btn--ghost">Book it</a>
+      </div>
+      <div class="ag-price ag-price--feature">
+        <p class="ag-price-name">Group batch</p>
+        <p class="ag-price-amt">USD 100</p>
+        <p class="ag-price-alt">a month, billed in US dollars</p>
+        <ul><li>Five to eight students, one teacher throughout</li><li>Live video, never a recording</li><li>Build work between sessions, reviewed by the teacher</li><li>Certificate on completion</li></ul>
+        <a href="#start" class="ag-btn">Start here</a>
+      </div>
+      <div class="ag-price">
+        <p class="ag-price-name">One to one</p>
+        <p class="ag-price-amt">USD 150</p>
+        <p class="ag-price-alt">a month, billed in US dollars</p>
+        <ul><li>Private teaching, at the pace the goal needs</li><li>The only way to get a weekday morning slot</li><li>Syllabus shaped to one objective</li></ul>
+        <a href="#start" class="ag-btn ag-btn--ghost">Enquire</a>
+      </div>
+    </div>@@
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">What learners and families say</p>
+      <h2>Rated 4.9 across 547 Google reviews</h2>
+      <p class="ag-lede">Real reviews from real families. We neither write nor commission them.</p>
+    </div>
+    @@<div class="ag-grid-3">
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."</p>
+        <p class="ag-review-name">Ria Mukherjee</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."</p>
+        <p class="ag-review-name">Samriddha Mondal</p>
+        <p class="ag-review-role">Student</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."</p>
+        <p class="ag-review-name">Vansh Agarwal</p>
+        <p class="ag-review-role">Student</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."</p>
+        <p class="ag-review-name">Sonam Oswal</p>
+        <p class="ag-review-role">Parent of Dhairya</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."</p>
+        <p class="ag-review-name">Sonu Goyal</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."</p>
+        <p class="ag-review-name">Ritu Kedia</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+    </div>@@
+  </div>
+</section>
+
+<section class="ag-section">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">The rest of the series</p>
+      <h2>The nine other pages in this series</h2>
+      <p class="ag-lede">This page assumes the mechanism page. Evaluations is the natural companion, because a tool surface nobody measures is a tool surface nobody can improve.</p>
+    </div>
+    <div class="ag-markets">
+      <a class="ag-market" href="/agentic-coding-classes"><span class="ag-market-n">Agentic coding</span><span class="ag-market-m">/agentic-coding-classes</span></a>
+      <a class="ag-market" href="/how-to-read-code"><span class="ag-market-n">Reading code</span><span class="ag-market-m">/how-to-read-code</span></a>
+      <a class="ag-market" href="/how-to-debug-code"><span class="ag-market-n">Debugging</span><span class="ag-market-m">/how-to-debug-code</span></a>
+      <a class="ag-market" href="/how-to-think-like-a-programmer"><span class="ag-market-n">Thinking like a programmer</span><span class="ag-market-m">/how-to-think-like-a-programmer</span></a>
+      <a class="ag-market" href="/how-to-actually-learn-to-code"><span class="ag-market-n">How learning actually works</span><span class="ag-market-m">/how-to-actually-learn-to-code</span></a>
+      <a class="ag-market" href="/how-llms-actually-work"><span class="ag-market-n">How LLMs work</span><span class="ag-market-m">/how-llms-actually-work</span></a>
+      <a class="ag-market" href="/context-engineering-course"><span class="ag-market-n">Context engineering</span><span class="ag-market-m">/context-engineering-course</span></a>
+      <a class="ag-market" href="/rag-systems-course"><span class="ag-market-n">RAG systems</span><span class="ag-market-m">/rag-systems-course</span></a>
+      <a class="ag-market" href="/ai-evaluations-course"><span class="ag-market-n">Evaluations</span><span class="ag-market-m">/ai-evaluations-course</span></a>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--deep">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Questions about MCP</p>
+      <h2>What learners ask about MCP</h2>
+    </div>
+    <div class="ag-faq">
+      @@<div class="ag-faq-item">
+        <h3>What is MCP in one sentence?</h3>
+        <p>An open standard that lets AI applications connect to tools and data through one defined interface, instead of every application needing custom glue for every system. The value is the same as any driver interface: a server implements it once and every client that speaks the protocol can use it.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Do I need to know MCP to use AI tools?</h3>
+        <p>No. This is a builder's topic. It matters if you want to give a model access to your own systems, or if you are building something other people's assistants will connect to. If you only use AI applications, the context engineering and evaluations pages are more useful to you than this one.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>How much does it cost?</h3>
+        <p>A group batch of five to eight students is USD 100 a month and one to one is USD 150 a month, billed in US dollars, the same figures everywhere we teach outside India. Three of the AI agent courses in our catalogue are taught one to one only and are priced as private teaching, which is stated on those course pages.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>What can I actually build in this course?</h3>
+        <p>A working server over something you already have: a notes folder, a hobby database, a public dataset. It runs against a real client, and then another student who has never seen it is asked to accomplish a task using only your tool descriptions. That handover is where every ambiguity surfaces.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Is this too advanced for a teenager?</h3>
+        <p>Not for one who can already write and read code comfortably, and we have taught it to fifteen year olds who did well. It is a poor first course, because the interesting judgement is about designing an interface for a caller that cannot ask questions, and that is hard to appreciate before you have used a few bad interfaces.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Will this be obsolete when the spec changes?</h3>
+        <p>The spec will change, it is young and moving quickly, and we say so rather than implying permanence. What does not change is the design judgement: granularity, writing what a tool refuses, distinguishing empty from broken, least privilege. Those survive every revision because they predate the protocol.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Do students connect servers to real accounts?</h3>
+        <p>No. Everything reads, or writes to a sandbox that can be reset. Learning judgement about consequence requires being free to make a bad call, and that is only safe where nothing real is attached. It is the same rule we apply across every agent course we teach.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>How is this different from just writing an API?</h3>
+        <p>The caller. A conventional API is read by a developer who can look at your source, ask a colleague and read a changelog. An MCP tool is read by a model in the middle of a task, with only your description, and it will confidently act on any implication you left in the text. That changes what good documentation even means.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>What language do you teach it in?</h3>
+        <p>Python or TypeScript, chosen to match what the student already writes, because the interesting content is the design and we would rather not spend the first month on unfamiliar syntax. Adults with a specific stack in mind should say so on the first call and we will match it.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>What happens after I send the form?</h3>
+        <p>A mentor calls to arrange the free class. For this course we usually spend it critiquing a real tool definition, because how somebody reacts to an under-specified description tells us immediately whether they are ready for this or should do the mechanism and agent material first.</p>
+      </div>@@
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="start">
+  <div class="ag-wrap">
+    <div class="ag-hero-grid">
+      <div>
+        <div class="ag-section-head">
+          <p class="ag-eyebrow">Start</p>
+          <h2>The free class is a critique, not a lecture</h2>
+        </div>
+        <p>We put a real, valid, under-specified tool definition in front of you and ask what a model would assume from it. That conversation reveals more than any placement test: whether you instinctively read a description as a contract, and whether you can see the assumption that was never authorised. Ninety minutes, no card, and a straight answer about whether this is the right course now or after the underlying material.</p>
+        <p>Rather read first? <a class="ag-inline-link" href="/how-llms-actually-work">How LLMs actually work</a>, <a class="ag-inline-link" href="/ai-evaluations-course">evaluations</a>, or <a class="ag-inline-link" href="/agentic-coding-classes">agentic coding</a>.</p>
+        <p style="margin-top:22px">
+          <a class="ag-inline-link" href="https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders.%20I%20am%20interested%20in%20learning%20to%20build%20MCP%20servers." target="_blank" rel="noopener">WhatsApp us</a> &middot;
+          <a class="ag-inline-link" href="tel:+919123366161">+91 91233 66161</a> &middot;
+          <a class="ag-inline-link" href="mailto:contact@modernagecoders.com">contact@modernagecoders.com</a>
+        </p>
+        <p style="font-size:.92rem;color:var(--ag-muted);margin-top:14px">
+          We hold no premises anywhere. Every session is a live video call taught from India, and the
+          number above rings in India. Sending the form opens a conversation rather than an enrolment,
+          and holds no place in any batch.
+        </p>
+      </div>
+      <div class="ag-form-panel">
+        <form onsubmit="submitMcpLead(event)" novalidate>
+          <div class="ag-field">
+            <label for="ag-mcp-name">Your name</label>
+            <input id="ag-mcp-name" type="text" name="name" placeholder="Parent, student or your own name" required>
+          </div>
+          <div class="ag-field">
+            <label for="ag-mcp-phone">Phone or WhatsApp, including your country code</label>
+            <input id="ag-mcp-phone" type="tel" name="phone" placeholder="+44 7700 900000" required>
+          </div>
+          <div class="ag-field">
+            <label for="ag-mcp-age">Who is learning</label>
+            <select id="ag-mcp-age" name="age">
+              <option value="6-12">A child, 6 to 12</option>
+              <option value="13-18">A teenager, 13 to 18</option>
+              <option value="college">A university student</option>
+              <option value="adult">Me, working professional</option>
+            </select>
+          </div>
+          <button type="submit" class="ag-btn" style="width:100%">Request the free class</button>
+          <p class="ag-form-note">No card. No obligation. We call, we do not spam.</p>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+@@<footer class="ag-footer">
+  <div class="ag-wrap">
+    <div class="ag-grid-4">
+      <div>
+        <h4>Modern Age Coders</h4>
+        <p style="font-size:.9rem;opacity:.82">
+          Live online coding, AI and mathematics for ages 6 to 67. Teaching since 2020, more than
+          10,000 students across 25 countries and more.
+        </p>
+      </div>
+      <div>
+        <h4>Depth series</h4>
+        <ul>
+          <li><a href="/agentic-coding-classes">Agentic coding</a></li>
+          <li><a href="/how-to-read-code">How to read code</a></li>
+          <li><a href="/how-to-debug-code">How to debug code</a></li>
+          <li><a href="/how-to-think-like-a-programmer">Think like a programmer</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Build AI</h4>
+        <ul>
+          <li><a href="/how-llms-actually-work">How LLMs actually work</a></li>
+          <li><a href="/context-engineering-course">Context engineering</a></li>
+          <li><a href="/rag-systems-course">RAG systems</a></li>
+          <li><a href="/ai-evaluations-course">Evaluations</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Start</h4>
+        <ul>
+          <li><a href="/courses">The full catalogue</a></li>
+          <li><a href="/pricing">Fees</a></li>
+          <li><a href="/how-we-teach">How we teach</a></li>
+          <li><a href="/student-labs">What students build</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="ag-footer-bottom">
+      <span>&copy; 2026 Modern Age Coders. Live online, taught from India, worldwide.</span>
+      <span>Ages 6 to 67 &middot; 25 countries and more</span>
+    </div>
+  </div>
+</footer>@@
+
+<script>
+window.submitMcpLead = function (e) {
+  e.preventDefault();
+  var form = e.target;
+  var name = (form.querySelector('input[name="name"]') || {}).value || '';
+  var phoneRaw = (form.querySelector('input[type="tel"]') || {}).value || '';
+  var age = (form.querySelector('select[name="age"]') || {}).value || '';
+  var d = phoneRaw.replace(/\D/g, '');
+  if (d.length < 7) { alert('Please enter a valid phone number including your country code.'); return; }
+  var btn = form.querySelector('button[type="submit"]');
+  var oldText = btn.textContent;
+  btn.disabled = true; btn.textContent = 'Sending...';
+  var API_URL = (location.hostname === 'localhost' || location.hostname === '127.0.0.1')
+    ? 'http://localhost:5000' : 'https://backend-modernagecoders.vercel.app';
+  fetch(API_URL + '/api/callback/request', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({
+      phone: d, countryCode: '', countryIso: '', countryName: 'International',
+      source: 'model-context-protocol-mcp-course-inline', meta: { name: name, age: age, raw: phoneRaw, topic: 'mcp' }
+    })
+  }).then(function (r) { return r.json(); }).then(function (data) {
+    if (data && data.success) {
+      if (window.gtag) gtag('event', 'generate_lead', { page_topic: 'mcp' });
+      form.innerHTML = '<p class="ag-form-ok">Thank you' + (name ? ', ' + name.split(' ')[0] : '') +
+        '. A mentor will call you to arrange the free class.</p>';
+    } else {
+      alert((data && data.message) || 'Something went wrong. Please try again.');
+      btn.disabled = false; btn.textContent = oldText;
+    }
+  }).catch(function () {
+    alert('Network error. Please try again.');
+    btn.disabled = false; btn.textContent = oldText;
+  });
+};
+</script>
+<script>
+  window.addEventListener('load', function () {
+    var s = document.createElement('script');
+    s.src = 'https://www.googletagmanager.com/gtag/js?id=G-N8BM164YJP';
+    s.async = true;
+    document.head.appendChild(s);
+  });
+</script>
+</body>
+</html>

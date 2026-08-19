@@ -1,0 +1,739 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>How to Think Like a Programmer | Invariants, Not Syntax</title>
+  <meta name="description" content="Programming is not typing, it is deciding what must be true. The six thinking moves behind the pauses, taught explicitly, live online for ages 6 to 67.">
+  <meta name="author" content="Modern Age Coders">
+  <link rel="canonical" href="https://learn.modernagecoders.com/how-to-think-like-a-programmer">
+  <link rel="alternate" type="text/markdown" href="/src/pages/how-to-think-like-a-programmer.md" title="Markdown version for AI agents">
+
+  <link rel="icon" href="/favicon.ico" type="image/x-icon">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
+  <meta name="theme-color" content="#276B44">
+
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="https://learn.modernagecoders.com/how-to-think-like-a-programmer">
+  <meta property="og:title" content="How to Think Like a Programmer | Invariants, Not Syntax">
+  <meta property="og:description" content="Watch somebody experienced work and the striking thing is how little typing there is. The visible part is a small consequence of the invisible part.">
+  <meta property="og:image" content="https://learn.modernagecoders.com/images/og-modern-age-coders.png">
+  <meta property="og:site_name" content="Modern Age Coders">
+  <meta property="og:locale" content="en">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="How to Think Like a Programmer">
+  <meta name="twitter:description" content="Invariants before syntax. The six thinking moves the pauses are made of.">
+  <meta name="twitter:image" content="https://learn.modernagecoders.com/images/og-modern-age-coders.png">
+
+  <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/ai-global.css?v=20260819">
+
+  <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-N8BM164YJP');gtag('config','AW-16910316353');</script>
+
+  <script type="application/ld+json" data-price-scope="coding.international">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "EducationalOrganization",
+        "@id": "https://learn.modernagecoders.com/#org",
+        "name": "Modern Age Coders",
+        "url": "https://learn.modernagecoders.com/",
+        "email": "contact@modernagecoders.com",
+        "telephone": "+91-91233-66161",
+        "foundingDate": "2020",
+        "areaServed": { "@type": "Place", "name": "Worldwide" },
+        "knowsAbout": ["Computational Thinking", "Invariants", "Problem Decomposition", "Logical Reasoning", "Algorithms", "Software Design", "Python"]
+      },
+      {
+        "@type": "TechArticle",
+        "@id": "https://learn.modernagecoders.com/how-to-think-like-a-programmer#article",
+        "headline": "How to Think Like a Programmer",
+        "description": "Watch somebody experienced work and the striking thing is how little typing there is. The visible part is a small consequence of the invisible part.",
+        "inLanguage": "en",
+        "isAccessibleForFree": true,
+        "proficiencyLevel": "Beginner",
+        "dependencies": "No prior programming experience required",
+        "author": { "@id": "https://learn.modernagecoders.com/#org" },
+        "publisher": { "@id": "https://learn.modernagecoders.com/#org" },
+        "mainEntityOfPage": "https://learn.modernagecoders.com/how-to-think-like-a-programmer"
+      },
+      {
+        "@type": "Course",
+        "name": "How to Think Like a Programmer: Reasoning, Invariants and Decomposition",
+        "description": "Live online small-batch teaching in programming reasoning for learners aged 6 to 67 worldwide: stating invariants, decomposing vague goals into checkable steps, working backwards from a test, and asking what would make a solution wrong, taught by a teacher who withholds acceptance until the student states what must be true.",
+        "url": "https://learn.modernagecoders.com/how-to-think-like-a-programmer",
+        "inLanguage": "en",
+        "provider": { "@id": "https://learn.modernagecoders.com/#org" },
+        "isAccessibleForFree": false,
+        "hasCourseInstance": {
+          "@type": "CourseInstance",
+          "courseMode": "online",
+          "courseWorkload": "PT3H",
+          "location": { "@type": "VirtualLocation", "url": "https://learn.modernagecoders.com/how-to-think-like-a-programmer" }
+        }
+      },
+      {
+        "@type": "Service",
+        "serviceType": "Online computational thinking and logical reasoning teaching",
+        "provider": { "@id": "https://learn.modernagecoders.com/#org" },
+        "areaServed": { "@type": "Place", "name": "Worldwide" },
+        "audience": { "@type": "EducationalAudience", "educationalRole": "student" }
+      },
+      {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://learn.modernagecoders.com/" },
+          { "@type": "ListItem", "position": 2, "name": "Learn to Build AI", "item": "https://learn.modernagecoders.com/learn-to-build-ai" },
+          { "@type": "ListItem", "position": 3, "name": "How to think like a programmer", "item": "https://learn.modernagecoders.com/how-to-think-like-a-programmer" }
+        ]
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+          {"@type": "Question", "name": "Is this just computational thinking under another name?", "acceptedAnswer": {"@type": "Answer", "text": "It overlaps and it is narrower and more concrete. Computational thinking is usually taught as four abstract nouns. What this page describes is six specific moves, each of which a teacher can require in a given session and a student can visibly fail to perform. The abstraction is easy to agree with and hard to act on."}},
+          {"@type": "Question", "name": "What age does this start?", "acceptedAnswer": {"@type": "Answer", "text": "From about nine in age-appropriate form. A nine year old can be asked what would make this wrong about a program that draws a square, and it is the same question they will ask at twenty-five about a payment system. What changes with age is the sophistication of the invariants, not the habit."}},
+          {"@type": "Question", "name": "How much does it cost?", "acceptedAnswer": {"@type": "Answer", "text": "A group batch of five to eight students is USD 100 a month and one to one is USD 150 a month, billed in US dollars, and these are the same flat figures everywhere we teach outside India. No enrolment fee and no minimum term, and the first class is free without a card."}},
+          {"@type": "Question", "name": "Can this be learned from a book?", "acceptedAnswer": {"@type": "Answer", "text": "The content can be read in ten minutes. The habit does not transfer from reading, because the whole mechanism is somebody declining to accept your answer until you have stated what must be true. That exchange has to happen with a person, repeatedly, over months, and it is uncomfortable enough that nobody does it to themselves."}},
+          {"@type": "Question", "name": "Does my child need to want to be a programmer?", "acceptedAnswer": {"@type": "Answer", "text": "No, and most of ours do not. The moves on this page are why a lot of families want coding at all: not the syntax, which nobody needs, but the habit of asking what would make this wrong. That habit is portable to laboratory work, to essays and to reading a statistic, and it is the honest answer to what coding is for."}},
+          {"@type": "Question", "name": "Is this the same as maths?", "acceptedAnswer": {"@type": "Answer", "text": "Related and not identical. Both reward precision and both punish unstated assumptions. The difference is that code executes, so a wrong assumption produces a wrong answer you can observe, which makes programming an unusually good place to learn the discipline even for students who dislike mathematics."}},
+          {"@type": "Question", "name": "How is this different from a normal coding class?", "acceptedAnswer": {"@type": "Answer", "text": "In a normal class the student's job is to produce something that runs, and the teacher's job is to help them get it running. Here the student's job is to say what must be true, and the teacher's job is to find the case they did not consider. Both classes end with working code, and the students are not the same afterwards."}},
+          {"@type": "Question", "name": "Does AI make this obsolete?", "acceptedAnswer": {"@type": "Answer", "text": "It makes it more valuable, and this is not a rhetorical answer. An assistant will happily implement a wish, and a wish implemented confidently is exactly the expensive failure. Someone who can turn a vague goal into a checkable specification directs these tools well; someone who cannot receives plausible output and has no way to evaluate it."}},
+          {"@type": "Question", "name": "What does progress look like from outside?", "acceptedAnswer": {"@type": "Answer", "text": "The most commonly reported change from parents is that a child stops saying it does not work and starts saying it breaks when the list is empty. Several also mention it appearing in schoolwork before it appears anywhere technical, usually as a habit of breaking an open assignment into checkable steps."}},
+          {"@type": "Question", "name": "What happens after I send the form?", "acceptedAnswer": {"@type": "Answer", "text": "A mentor calls to arrange the free class. That session is deliberately built around a problem slightly beyond what the learner can currently do, because how somebody behaves at the edge of their ability is far more informative than what they already know, and it tells us exactly where to start."}}
+        ]
+      }
+    ]
+  }
+  </script>
+</head>
+
+<body class="ag-root ag-thk">
+
+<nav class="ag-nav">
+  <div class="ag-wrap ag-nav-inner">
+    <a class="ag-nav-brand" href="/">
+      <img src="/images/logo.svg" alt="Modern Age Coders logo" width="30" height="30" fetchpriority="high">
+      <span>Modern Age Coders</span>
+      <span class="ag-brand-tag">Thinking</span>
+    </a>
+    <div class="ag-nav-links">
+      <a href="#one">The misconception</a>
+      <a href="#two">The same function twice</a>
+      <a href="#courses">Courses</a>
+      <a href="#fees">Fees</a>
+      <a href="/learn-to-build-ai">Build AI</a>
+      <a href="#start" class="ag-btn">Free first class</a>
+    </div>
+  </div>
+</nav>
+
+<header class="ag-hero">
+  <div class="ag-wrap">
+    <nav class="ag-crumbs" aria-label="Breadcrumb">
+      <a href="/">Home</a> <span>/</span> <a href="/learn-to-build-ai">Build AI</a> <span>/</span> <span>How to think like a programmer</span>
+    </nav>
+    <div class="ag-hero-grid">
+      <div>
+        <p class="ag-eyebrow">Reasoning &middot; Live online &middot; Worldwide &middot; Ages 6 to 67</p>
+        <h1>Programming is not typing. It is deciding what must be true.</h1>
+        <p class="ag-lede">Watch somebody experienced write software and the striking thing is how little typing there is. Long pauses, some staring, occasionally a sentence in plain English above an empty function, then twenty lines that mostly work. The pause is not vague pondering: it is a specific activity, deciding what this code may assume, what it guarantees, and which states are nonsense it should refuse rather than tolerate. This page makes those moves explicit, shows the same function written by an author who decided nothing and one who decided everything, and explains why it cannot be taught by description.</p>
+        <div class="ag-btn-row">
+          <a href="#start" class="ag-btn">Book the free first class</a>
+          <a href="#one" class="ag-btn ag-btn--ghost">See the two versions</a>
+          <a href="https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders.%20I%20am%20interested%20in%20learning%20to%20think%20like%20a%20programmer." class="ag-btn ag-btn--ghost" target="_blank" rel="noopener" onclick="if(window.gtag)gtag('event','whatsapp_click',{page_topic:'thinking'});">Ask on WhatsApp</a>
+        </div>
+        <p class="ag-hero-note">
+          Live online &middot; ages 6 to 67 &middot; taught from India, worldwide &middot; from USD 100 a month &middot; first class free
+        </p>
+      </div>
+
+      <aside class="ag-spec">
+        <p class="ag-spec-title">At a glance</p>
+        <p class="ag-trust">
+          <span class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</span>
+          4.9 across 547 Google reviews
+        </p>
+        <dl>
+          @@<dt>The claim</dt><dd>The typing is the small part</dd>
+          <dt>Taught first</dt><dd>Invariants, before syntax</dd>
+          <dt>The question</dt><dd>What would make this wrong?</dd>
+          <dt>Ages</dt><dd>From 9, in age-appropriate form</dd>
+          <dt>Method</dt><dd>A teacher who withholds acceptance</dd>
+          <dt>Transfers to</dt><dd>Any open-ended reasoning</dd>
+          <dt>Fees</dt><dd>From USD 100 a month</dd>
+          <dt>First class</dt><dd>Free, no card</dd>@@
+        </dl>
+      </aside>
+    </div>
+  </div>
+</header>
+
+<section class="ag-section">
+  <div class="ag-wrap">
+    <div class="ag-capsule">
+      <p class="ag-capsule-q">The short answer</p>
+      <p>Thinking like a programmer means deciding what must be true before writing anything: what a piece of code may assume, what it guarantees in return, and which states are nonsense it should refuse rather than tolerate. That decision is what the long pauses in experienced work are made of, and it is the part that transfers furthest outside software. Modern Age Coders teaches it explicitly and early, through a teacher who declines to accept a proposed solution until the student has said what happens on the empty list, the negative number and the simultaneous arrival. Group teaching is USD 100 a month, private is USD 150, and the first class is free without a card.</p>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="one">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">The misconception</p>
+      <h2>Programming is not typing. It is deciding what must be true.</h2>
+      <p class="ag-lede">
+        Almost everybody arrives believing the hard part is the syntax, and almost everybody
+        discovers within a year that the syntax was the easy part they were worried about.
+      </p>
+    </div>
+
+    <div class="ag-grid-2" style="align-items:start">
+      <div>
+        <p>
+          Watch somebody experienced work and the striking thing is how little typing there is.
+          There are long pauses. There is a lot of staring, some drawing, occasionally a sentence
+          written in plain English above an empty function. Then twenty lines appear quickly and
+          mostly work. The visible part is a small consequence of the invisible part.
+        </p>
+        <p>
+          What is happening in the pause is a specific activity, not vague pondering. The person is
+          deciding what must be true: what this function may assume, what it guarantees in return,
+          what states are possible, and which of those are nonsense that the code should refuse
+          rather than tolerate.
+        </p>
+      </div>
+      <div>
+        <p>
+          A student who has not been shown this treats a function as a recipe for producing an
+          answer. Somebody who has been shown it treats a function as a contract, and the code as
+          the enforcement of that contract. It is a genuinely different relationship to the same
+          text on the screen.
+        </p>
+        <p>
+          This is also the part that transfers furthest outside programming, which is the honest
+          reason a lot of parents want their children to learn to code at all. Nobody needs a
+          fourteen year old to know Python syntax. Wanting them to be the sort of person who asks
+          what would make this wrong is an entirely reasonable thing to want.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="two">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">The same function, twice</p>
+      <h2>Eight lines that produce a number, and eight that mean something</h2>
+      <p class="ag-lede">
+        Both compute an average. Only one of them has an author who decided anything.
+      </p>
+    </div>
+
+    <div class="ag-code-pair">
+<figure class="ag-code">
+  <figcaption class="ag-code-head"><b>WHAT A STUDENT WRITES FIRST</b><span>python</span></figcaption>
+  <pre>def average_score(scores):
+    total = 0
+    for s in scores:
+        total += s
+    return total / len(scores)
+
+<i># Correct. Also a crash waiting for an empty list,</i>
+<i># and it has no opinion about what a score IS.</i></pre>
+  <p class="ag-code-note">This is fine as an answer to an exercise and dangerous as a piece of a system, and the difference is not skill. It is that nobody asked what must be true.</p>
+</figure>
+<figure class="ag-code">
+  <figcaption class="ag-code-head"><b>WHAT MUST BE TRUE, MADE EXPLICIT</b><span>python</span></figcaption>
+  <pre>def average_score(scores):
+    <b># INVARIANT: at least one score, each 0..100</b>
+    if not scores:
+        raise ValueError("no scores to average")
+    for s in scores:
+        if not 0 &lt;= s &lt;= 100:
+            raise ValueError(f"score out of range: {s}")
+
+    return sum(scores) / len(scores)
+    <i># Now the function has a contract. Callers</i>
+    <i># that break it hear about it immediately,</i>
+    <i># at the point of the mistake, not later.</i></pre>
+  <p class="ag-code-note">The second version is not more clever. It is a different activity: the author decided what must be true and then wrote code that refuses to proceed when it is not.</p>
+</figure>
+</div>
+
+    <p class="ag-mt-40">
+      Students often read the second version as defensive clutter added by somebody paranoid. It is
+      the opposite. The checks are not the point; <strong>the decision is the point</strong>, and
+      the checks are simply where the decision became visible. An author who has decided that an
+      empty list is meaningless has understood the problem better than one who has not, and would
+      write better code even in a language with no way to express it.
+    </p>
+    <p>
+      This is why we teach invariants long before anybody meets a type system or a testing
+      framework. Those are ways of writing down what must be true. The hard and portable part is
+      having something to write down.
+    </p>
+  </div>
+</section>
+
+<section class="ag-section ag-section--deep">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">The moves</p>
+      <h2>Six thinking moves, taught explicitly rather than absorbed</h2>
+      <p class="ag-lede">
+        These are what the pauses are made of. Most people acquire two or three by accident over
+        several years.
+      </p>
+    </div>
+    <ol class="ag-protocol">
+        <li class="ag-step" data-step="1">
+          <h4>State the invariant before the implementation</h4>
+          <p>What must be true when this runs, and what must still be true when it finishes. A sorted list stays sorted. A balance never goes below zero. Writing that sentence first changes what code gets written, and it is the move that most reliably separates two students of equal ability.</p>
+        </li>
+        <li class="ag-step" data-step="2">
+          <h4>Work backwards from how you would check it</h4>
+          <p>Before solving anything, describe how you would know the answer is right. If you cannot describe the check, you do not yet understand the problem, and every minute of implementation before that point is speculative.</p>
+        </li>
+        <li class="ag-step" data-step="3">
+          <h4>Decompose until each piece is boring</h4>
+          <p>The correct size for a sub-problem is one you find dull. Excitement at this stage means the piece is still too big and hides decisions you have not made. Students consistently stop decomposing one level too early.</p>
+        </li>
+        <li class="ag-step" data-step="4">
+          <h4>Ask what would make this wrong</h4>
+          <p>Deliberately hunt for the input that breaks your own idea, before anybody else finds it. This feels adversarial towards your own work and is the fastest single route from plausible to correct.</p>
+        </li>
+        <li class="ag-step" data-step="5">
+          <h4>Name the thing before you build it</h4>
+          <p>If a good name will not come, the concept is usually confused rather than the vocabulary lacking. Struggling to name something is diagnostic information about your understanding, not a stylistic inconvenience.</p>
+        </li>
+        <li class="ag-step" data-step="6">
+          <h4>Solve the smallest real version first</h4>
+          <p>One user, one row, one day. Get that entirely correct, then generalise. Almost every stuck student is stuck because they began with the general case, where the decisions are hardest and the feedback is slowest.</p>
+        </li>
+      </ol>
+  </div>
+</section>
+
+<section class="ag-section">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">From wish to specification</p>
+      <h2>What a vague goal looks like once it has been made checkable</h2>
+    </div>
+
+    <div class="ag-table-wrap">
+        <table class="ag-table">
+          <thead><tr><th scope="col">A wish</th><th scope="col">The question that sharpens it</th><th scope="col">A specification</th></tr></thead>
+          <tbody><tr><td>Make the app fast</td><td class="ag-num">Fast doing what, measured how?</td><td class="ag-num">Search returns in under 200ms for 10,000 rows</td></tr><tr><td>Handle bad input</td><td class="ag-num">Bad how, and then what?</td><td class="ag-num">Non-numeric input is rejected with a message, nothing is saved</td></tr><tr><td>Store the users</td><td class="ag-num">What identifies one uniquely?</td><td class="ag-num">One record per email, second signup updates rather than duplicates</td></tr><tr><td>Sort the results</td><td class="ag-num">By what, and ties broken how?</td><td class="ag-num">By date descending, ties by title ascending</td></tr><tr><td>Make it reliable</td><td class="ag-num">Reliable against which failure?</td><td class="ag-num">A dropped connection mid-save leaves the old record intact</td></tr><tr><td>Summarise the document</td><td class="ag-num">Summary judged how?</td><td class="ag-num">Under 100 words, every claim traceable to a quoted line</td></tr></tbody>
+        </table>
+      </div>
+
+    <p class="ag-mt-40">
+      The right-hand column is not more detailed for the sake of it. Each row has been turned into
+      something with a yes or no answer, and that conversion is the single most useful intellectual
+      operation in this entire subject. A goal you cannot check is a wish, and code cannot be
+      written against a wish.
+    </p>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Where it shows up</p>
+      <h2>Six places this reasoning appears outside a text editor</h2>
+    </div>
+    <div class="ag-grid-3">
+      <div><h3>Reading a statistic in the news</h3><p>Compared to what, measured over what period, on whom. This is the invariant question wearing different clothes, and students who have been drilled on it in code apply it here without being told to.</p></div>
+      <div><h3>Planning anything with a deadline</h3><p>Decomposing until each piece is boring is project management. The failure mode is identical too: people stop breaking things down one level before the point where the work becomes estimable.</p></div>
+      <div><h3>Arguing a position</h3><p>What would make this wrong is the same move as steelmanning an objection. Students who practise it against their own code become noticeably harder to fool by a confident argument.</p></div>
+      <div><h3>Science and laboratory work</h3><p>Working backwards from the check is experimental design. Deciding how you would know before you begin is precisely what distinguishes an experiment from an activity.</p></div>
+      <div><h3>Using an AI assistant well</h3><p>A vague request gets a plausible answer that cannot be evaluated. Turning a wish into a checkable specification is the difference between using these tools and being used by them.</p></div>
+      <div><h3>Ordinary careful writing</h3><p>Naming the thing before building it is what an outline is. The inability to name a section usually means the idea underneath it has not yet been thought through, in prose exactly as in code.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">How it is taught</p>
+      <h2>You cannot teach thinking by describing it</h2>
+    </div>
+    <div class="ag-grid-2" style="align-items:start">
+      <div>
+        <p>
+          Everything on this page can be read in ten minutes and none of it transfers from reading.
+          The move that works is a teacher refusing to accept an answer until the student has stated
+          what must be true, every session, for months, until the student starts doing it before
+          being asked.
+        </p>
+        <p>
+          Concretely: a student proposes a solution and the teacher asks what happens when the list
+          is empty, when the number is negative, when two things arrive at the same instant. The
+          student loses that exchange a great many times, and each loss installs a question they now
+          ask themselves.
+        </p>
+      </div>
+      <div>
+        <p>
+          The younger the better, within reason. A nine year old can be asked what would make this
+          wrong about a program that draws a square, and the question is the same question. What
+          changes with age is the sophistication of the invariants, not the habit.
+        </p>
+        <p>
+          This is also the foundation the rest of the series stands on. Deciding what must be true is
+          what makes a <a class="ag-inline-link" href="/how-to-debug-code">debugging</a> hypothesis
+          possible, and it is exactly what an agent does not do for you, which is the argument on
+          <a class="ag-inline-link" href="/agentic-coding-classes">agentic coding</a>.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="courses">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">The catalogue</p>
+      <h2>Where this reasoning is taught in the catalogue</h2>
+      <p class="ag-lede">It is the first thing in every course and the last thing we stop insisting on. There is no separate reasoning product, because reasoning taught away from real problems becomes vocabulary rather than habit.</p>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">I</span>
+        <h3>Where this reasoning is taught</h3>
+        <span class="ag-band-sub">Chosen for this page rather than listed in full</span>
+      </div>
+      <div class="ag-grid-4">
+        <article class="ag-course">
+          <p class="ag-course-code">DEPTH / 01</p>
+          <h4>Kids Coding Blocks</h4>
+          <p>Where it starts. What would make this wrong is the same question at nine about a square as at twenty-five about a payment system.</p>
+          <a class="ag-course-link" href="/courses/kids-coding-blocks-masterclass">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">DEPTH / 02</p>
+          <h4>Python and AI for Kids</h4>
+          <p>The first invariants, said out loud before the code. At this age the habit matters considerably more than the notation.</p>
+          <a class="ag-course-link" href="/courses/python-ai-kids-masterclass">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">DEPTH / 03</p>
+          <h4>Python for Teens</h4>
+          <p>Where a teacher stops accepting a solution until the student has said what happens on the empty list and the negative number.</p>
+          <a class="ag-course-link" href="/courses/python-complete-masterclass-teens">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">DEPTH / 04</p>
+          <h4>Data Structures and Algorithms</h4>
+          <p>Invariants at their most explicit. A sorted list stays sorted, and the subject is really what must remain true while something changes.</p>
+          <a class="ag-course-link" href="/courses/data-structures-algorithms-masterclass-college">Open the syllabus</a>
+        </article>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="fees">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Fees</p>
+      <h2>What it costs, anywhere in the world</h2>
+      <p class="ag-lede">One flat pair of figures everywhere we teach outside India, in US dollars, monthly, with no minimum term and no enrolment fee.</p>
+    </div>
+    @@<div class="ag-grid-3">
+      <div class="ag-price">
+        <p class="ag-price-name">Free first class</p>
+        <p class="ag-price-amt">USD 0</p>
+        <p class="ag-price-alt">no card required</p>
+        <ul><li>Taught rather than sold</li><li>It settles which rung the learner starts on</li><li>You watch it, then decide</li></ul>
+        <a href="#start" class="ag-btn ag-btn--ghost">Book it</a>
+      </div>
+      <div class="ag-price ag-price--feature">
+        <p class="ag-price-name">Group batch</p>
+        <p class="ag-price-amt">USD 100</p>
+        <p class="ag-price-alt">a month, billed in US dollars</p>
+        <ul><li>Five to eight students, one teacher throughout</li><li>Live video, never a recording</li><li>Build work between sessions, reviewed by the teacher</li><li>Certificate on completion</li></ul>
+        <a href="#start" class="ag-btn">Start here</a>
+      </div>
+      <div class="ag-price">
+        <p class="ag-price-name">One to one</p>
+        <p class="ag-price-amt">USD 150</p>
+        <p class="ag-price-alt">a month, billed in US dollars</p>
+        <ul><li>Private teaching, at the pace the goal needs</li><li>The only way to get a weekday morning slot</li><li>Syllabus shaped to one objective</li></ul>
+        <a href="#start" class="ag-btn ag-btn--ghost">Enquire</a>
+      </div>
+    </div>@@
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">What learners and families say</p>
+      <h2>Rated 4.9 across 547 Google reviews</h2>
+      <p class="ag-lede">Real reviews from real families. We neither write nor commission them.</p>
+    </div>
+    @@<div class="ag-grid-3">
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."</p>
+        <p class="ag-review-name">Ria Mukherjee</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."</p>
+        <p class="ag-review-name">Samriddha Mondal</p>
+        <p class="ag-review-role">Student</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."</p>
+        <p class="ag-review-name">Vansh Agarwal</p>
+        <p class="ag-review-role">Student</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."</p>
+        <p class="ag-review-name">Sonam Oswal</p>
+        <p class="ag-review-role">Parent of Dhairya</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."</p>
+        <p class="ag-review-name">Sonu Goyal</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."</p>
+        <p class="ag-review-name">Ritu Kedia</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+    </div>@@
+  </div>
+</section>
+
+<section class="ag-section">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">The rest of the series</p>
+      <h2>The nine other pages in this series</h2>
+      <p class="ag-lede">This is the page the others stand on. Debugging needs a hypothesis, reading needs a model, and neither is possible without deciding what must be true.</p>
+    </div>
+    <div class="ag-markets">
+      <a class="ag-market" href="/agentic-coding-classes"><span class="ag-market-n">Agentic coding</span><span class="ag-market-m">/agentic-coding-classes</span></a>
+      <a class="ag-market" href="/how-to-read-code"><span class="ag-market-n">Reading code</span><span class="ag-market-m">/how-to-read-code</span></a>
+      <a class="ag-market" href="/how-to-debug-code"><span class="ag-market-n">Debugging</span><span class="ag-market-m">/how-to-debug-code</span></a>
+      <a class="ag-market" href="/how-to-actually-learn-to-code"><span class="ag-market-n">How learning actually works</span><span class="ag-market-m">/how-to-actually-learn-to-code</span></a>
+      <a class="ag-market" href="/how-llms-actually-work"><span class="ag-market-n">How LLMs work</span><span class="ag-market-m">/how-llms-actually-work</span></a>
+      <a class="ag-market" href="/context-engineering-course"><span class="ag-market-n">Context engineering</span><span class="ag-market-m">/context-engineering-course</span></a>
+      <a class="ag-market" href="/rag-systems-course"><span class="ag-market-n">RAG systems</span><span class="ag-market-m">/rag-systems-course</span></a>
+      <a class="ag-market" href="/ai-evaluations-course"><span class="ag-market-n">Evaluations</span><span class="ag-market-m">/ai-evaluations-course</span></a>
+      <a class="ag-market" href="/model-context-protocol-mcp-course"><span class="ag-market-n">MCP</span><span class="ag-market-m">/model-context-protocol-mcp-course</span></a>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--deep">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Questions about programming reasoning</p>
+      <h2>What learners and parents ask</h2>
+    </div>
+    <div class="ag-faq">
+      @@<div class="ag-faq-item">
+        <h3>Is this just computational thinking under another name?</h3>
+        <p>It overlaps and it is narrower and more concrete. Computational thinking is usually taught as four abstract nouns. What this page describes is six specific moves, each of which a teacher can require in a given session and a student can visibly fail to perform. The abstraction is easy to agree with and hard to act on.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>What age does this start?</h3>
+        <p>From about nine in age-appropriate form. A nine year old can be asked what would make this wrong about a program that draws a square, and it is the same question they will ask at twenty-five about a payment system. What changes with age is the sophistication of the invariants, not the habit.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>How much does it cost?</h3>
+        <p>A group batch of five to eight students is USD 100 a month and one to one is USD 150 a month, billed in US dollars, and these are the same flat figures everywhere we teach outside India. No enrolment fee and no minimum term, and the first class is free without a card.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Can this be learned from a book?</h3>
+        <p>The content can be read in ten minutes. The habit does not transfer from reading, because the whole mechanism is somebody declining to accept your answer until you have stated what must be true. That exchange has to happen with a person, repeatedly, over months, and it is uncomfortable enough that nobody does it to themselves.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Does my child need to want to be a programmer?</h3>
+        <p>No, and most of ours do not. The moves on this page are why a lot of families want coding at all: not the syntax, which nobody needs, but the habit of asking what would make this wrong. That habit is portable to laboratory work, to essays and to reading a statistic, and it is the honest answer to what coding is for.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Is this the same as maths?</h3>
+        <p>Related and not identical. Both reward precision and both punish unstated assumptions. The difference is that code executes, so a wrong assumption produces a wrong answer you can observe, which makes programming an unusually good place to learn the discipline even for students who dislike mathematics.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>How is this different from a normal coding class?</h3>
+        <p>In a normal class the student's job is to produce something that runs, and the teacher's job is to help them get it running. Here the student's job is to say what must be true, and the teacher's job is to find the case they did not consider. Both classes end with working code, and the students are not the same afterwards.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Does AI make this obsolete?</h3>
+        <p>It makes it more valuable, and this is not a rhetorical answer. An assistant will happily implement a wish, and a wish implemented confidently is exactly the expensive failure. Someone who can turn a vague goal into a checkable specification directs these tools well; someone who cannot receives plausible output and has no way to evaluate it.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>What does progress look like from outside?</h3>
+        <p>The most commonly reported change from parents is that a child stops saying it does not work and starts saying it breaks when the list is empty. Several also mention it appearing in schoolwork before it appears anywhere technical, usually as a habit of breaking an open assignment into checkable steps.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>What happens after I send the form?</h3>
+        <p>A mentor calls to arrange the free class. That session is deliberately built around a problem slightly beyond what the learner can currently do, because how somebody behaves at the edge of their ability is far more informative than what they already know, and it tells us exactly where to start.</p>
+      </div>@@
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="start">
+  <div class="ag-wrap">
+    <div class="ag-hero-grid">
+      <div>
+        <div class="ag-section-head">
+          <p class="ag-eyebrow">Start</p>
+          <h2>The free class is one problem, slightly too hard</h2>
+        </div>
+        <p>We do not use a placement test. The free first session gives a learner a problem a little beyond what they can comfortably do, and pays attention to what happens at the edge: whether they ask what the problem actually means, whether they try the smallest version first, whether they can say how they would know the answer is right. Ninety minutes, no card, and a specific view afterwards on which of the six moves is already there and which is missing.</p>
+        <p>Rather read first? <a class="ag-inline-link" href="/how-to-actually-learn-to-code">How learning actually works</a>, <a class="ag-inline-link" href="/how-to-debug-code">how to debug code</a>, or <a class="ag-inline-link" href="/how-to-read-code">how to read code</a>.</p>
+        <p style="margin-top:22px">
+          <a class="ag-inline-link" href="https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders.%20I%20am%20interested%20in%20learning%20to%20think%20like%20a%20programmer." target="_blank" rel="noopener">WhatsApp us</a> &middot;
+          <a class="ag-inline-link" href="tel:+919123366161">+91 91233 66161</a> &middot;
+          <a class="ag-inline-link" href="mailto:contact@modernagecoders.com">contact@modernagecoders.com</a>
+        </p>
+        <p style="font-size:.92rem;color:var(--ag-muted);margin-top:14px">
+          We hold no premises anywhere. Every session is a live video call taught from India, and the
+          number above rings in India. Sending the form opens a conversation rather than an enrolment,
+          and holds no place in any batch.
+        </p>
+      </div>
+      <div class="ag-form-panel">
+        <form onsubmit="submitThinkLead(event)" novalidate>
+          <div class="ag-field">
+            <label for="ag-thk-name">Your name</label>
+            <input id="ag-thk-name" type="text" name="name" placeholder="Parent, student or your own name" required>
+          </div>
+          <div class="ag-field">
+            <label for="ag-thk-phone">Phone or WhatsApp, including your country code</label>
+            <input id="ag-thk-phone" type="tel" name="phone" placeholder="+44 7700 900000" required>
+          </div>
+          <div class="ag-field">
+            <label for="ag-thk-age">Who is learning</label>
+            <select id="ag-thk-age" name="age">
+              <option value="6-12">A child, 6 to 12</option>
+              <option value="13-18">A teenager, 13 to 18</option>
+              <option value="college">A university student</option>
+              <option value="adult">Me, working professional</option>
+            </select>
+          </div>
+          <button type="submit" class="ag-btn" style="width:100%">Request the free class</button>
+          <p class="ag-form-note">No card. No obligation. We call, we do not spam.</p>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+@@<footer class="ag-footer">
+  <div class="ag-wrap">
+    <div class="ag-grid-4">
+      <div>
+        <h4>Modern Age Coders</h4>
+        <p style="font-size:.9rem;opacity:.82">
+          Live online coding, AI and mathematics for ages 6 to 67. Teaching since 2020, more than
+          10,000 students across 25 countries and more.
+        </p>
+      </div>
+      <div>
+        <h4>Depth series</h4>
+        <ul>
+          <li><a href="/agentic-coding-classes">Agentic coding</a></li>
+          <li><a href="/how-to-read-code">How to read code</a></li>
+          <li><a href="/how-to-debug-code">How to debug code</a></li>
+          <li><a href="/how-to-think-like-a-programmer">Think like a programmer</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Build AI</h4>
+        <ul>
+          <li><a href="/how-llms-actually-work">How LLMs actually work</a></li>
+          <li><a href="/context-engineering-course">Context engineering</a></li>
+          <li><a href="/rag-systems-course">RAG systems</a></li>
+          <li><a href="/ai-evaluations-course">Evaluations</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Start</h4>
+        <ul>
+          <li><a href="/courses">The full catalogue</a></li>
+          <li><a href="/pricing">Fees</a></li>
+          <li><a href="/how-we-teach">How we teach</a></li>
+          <li><a href="/student-labs">What students build</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="ag-footer-bottom">
+      <span>&copy; 2026 Modern Age Coders. Live online, taught from India, worldwide.</span>
+      <span>Ages 6 to 67 &middot; 25 countries and more</span>
+    </div>
+  </div>
+</footer>@@
+
+<script>
+window.submitThinkLead = function (e) {
+  e.preventDefault();
+  var form = e.target;
+  var name = (form.querySelector('input[name="name"]') || {}).value || '';
+  var phoneRaw = (form.querySelector('input[type="tel"]') || {}).value || '';
+  var age = (form.querySelector('select[name="age"]') || {}).value || '';
+  var d = phoneRaw.replace(/\D/g, '');
+  if (d.length < 7) { alert('Please enter a valid phone number including your country code.'); return; }
+  var btn = form.querySelector('button[type="submit"]');
+  var oldText = btn.textContent;
+  btn.disabled = true; btn.textContent = 'Sending...';
+  var API_URL = (location.hostname === 'localhost' || location.hostname === '127.0.0.1')
+    ? 'http://localhost:5000' : 'https://backend-modernagecoders.vercel.app';
+  fetch(API_URL + '/api/callback/request', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({
+      phone: d, countryCode: '', countryIso: '', countryName: 'International',
+      source: 'how-to-think-like-a-programmer-inline', meta: { name: name, age: age, raw: phoneRaw, topic: 'thinking' }
+    })
+  }).then(function (r) { return r.json(); }).then(function (data) {
+    if (data && data.success) {
+      if (window.gtag) gtag('event', 'generate_lead', { page_topic: 'thinking' });
+      form.innerHTML = '<p class="ag-form-ok">Thank you' + (name ? ', ' + name.split(' ')[0] : '') +
+        '. A mentor will call you to arrange the free class.</p>';
+    } else {
+      alert((data && data.message) || 'Something went wrong. Please try again.');
+      btn.disabled = false; btn.textContent = oldText;
+    }
+  }).catch(function () {
+    alert('Network error. Please try again.');
+    btn.disabled = false; btn.textContent = oldText;
+  });
+};
+</script>
+<script>
+  window.addEventListener('load', function () {
+    var s = document.createElement('script');
+    s.src = 'https://www.googletagmanager.com/gtag/js?id=G-N8BM164YJP';
+    s.async = true;
+    document.head.appendChild(s);
+  });
+</script>
+</body>
+</html>
