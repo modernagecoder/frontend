@@ -329,6 +329,20 @@ class APIClient {
     return await this.request('/admin/test-whatsapp', { method: 'POST' });
   }
 
+  /**
+   * Creates the lead-alert template on the WhatsApp Business Account and
+   * submits it to Meta. The server uses the access token it already holds, so
+   * no credential passes through the browser.
+   *
+   * @param {string} [wabaId] only needed when the server cannot discover it
+   */
+  async createWhatsAppTemplate(wabaId) {
+    return await this.request('/admin/whatsapp/create-template', {
+      method: 'POST',
+      body: JSON.stringify(wabaId ? { wabaId } : {})
+    });
+  }
+
   // ============================================
   // AUDIT LOG ENDPOINTS
   // ============================================

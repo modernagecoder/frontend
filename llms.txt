@@ -51,7 +51,7 @@ type="text/markdown">` tag in the HTML head. The markdown URLs follow these patt
 - Vibe Coding: AI-powered coding for kids, teens, and college students — https://learn.modernagecoders.com/courses
 - Coding Challenges: Daily Python, JavaScript, Java challenges — https://learn.modernagecoders.com/coding-challenges
 - Maths Challenges: Daily mathematics practice problems — https://learn.modernagecoders.com/maths-challenges
-- Business Solutions: Custom software, AI solutions & automation — https://learn.modernagecoders.com/business-solutions
+- Business Solutions: Custom software, AI solutions & automation — https://learn.modernagecoders.com/for-business
 
 ## Key Pages
 

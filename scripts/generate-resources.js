@@ -11,7 +11,7 @@ const path = require('path');
 // Import SEO configuration and utilities
 const SEO_CONFIG = require('./seo-config.js');
 const seoUtils = require('./seo-utils.js');
-const { chapterNotesToMarkdown, chapterPracticeToMarkdown } = require('./lib/markdown-emitter.js');
+const { chapterNotesToMarkdown, chapterPracticeToMarkdown, languageIndexToMarkdown, masterIndexToMarkdown } = require('./lib/markdown-emitter.js');
 
 class ResourceGenerator {
     constructor() {
@@ -373,6 +373,14 @@ class ResourceGenerator {
             fs.mkdirSync(outDir, { recursive: true });
         }
         fs.writeFileSync(path.join(outDir, 'index.html'), html, 'utf8');
+
+        // Markdown twin for AI agents (the hub HTML links this URL in its head)
+        try {
+            const md = languageIndexToMarkdown(meta);
+            fs.writeFileSync(path.join(outDir, 'index.md'), md, 'utf8');
+        } catch (e) {
+            console.warn(`   ⚠️  Markdown emission failed for ${meta.slug} hub: ${e.message}`);
+        }
         console.log(`   📄 Language index generated: /resources/${meta.slug}/`);
     }
 
@@ -417,6 +425,14 @@ class ResourceGenerator {
             .replace(/\{\{STRUCTURED_DATA\}\}/g, structuredData);
 
         fs.writeFileSync(path.join(this.generatedDir, 'index.html'), html, 'utf8');
+
+        // Markdown twin for AI agents (the master hub HTML links this URL in its head)
+        try {
+            const md = masterIndexToMarkdown(allLanguageMeta);
+            fs.writeFileSync(path.join(this.generatedDir, 'index.md'), md, 'utf8');
+        } catch (e) {
+            console.warn(`   ⚠️  Markdown emission failed for master resource hub: ${e.message}`);
+        }
         console.log('📄 Master resource index generated: /resources/');
     }
 

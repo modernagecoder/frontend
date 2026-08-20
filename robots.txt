@@ -24,7 +24,7 @@ Allow: /contact
 Allow: /pricing
 Allow: /faq
 Allow: /book-demo
-Allow: /business-solutions
+Allow: /for-business
 Allow: /gazette
 Allow: /aura
 Allow: /beat-the-babu

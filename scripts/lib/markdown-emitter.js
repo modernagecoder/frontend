@@ -504,11 +504,54 @@ function chapterPracticeToMarkdown(data, langMeta) {
     return fm + body.replace(/\n{3,}/g, '\n\n');
 }
 
+// ---------- Resource hub pages (language index + master index) ----------
+// The hub HTML links a markdown twin at /content/resources/generated/<slug>/index.md
+// (and /content/resources/generated/index.md for the master hub); until these
+// existed, every hub advertised a twin URL that 404'd for AI agents.
+
+function languageIndexToMarkdown(meta) {
+    const fm = frontMatter({
+        title: meta.index.title,
+        description: meta.index.description,
+        slug: meta.slug,
+        canonical: `${SITE}/resources/${meta.slug}`
+    });
+    let body = `# ${decodeEntities(meta.index.title)}\n\n`;
+    body += `${stripInlineHtml(meta.index.intro || meta.index.description)}\n\n`;
+    body += `## Chapters (${meta.chapters.length})\n\n`;
+    for (const ch of meta.chapters) {
+        body += `${ch.order}. [${decodeEntities(ch.title)}](${SITE}/resources/${meta.slug}/${ch.slug}) — ${decodeEntities(ch.description)} *(${ch.difficulty})*\n`;
+        body += `   Practice: ${SITE}/resources/${meta.slug}/${ch.slug}/practice\n`;
+    }
+    if (meta.courseCta && meta.courseCta.url) {
+        body += `\n## Learn with a mentor\n\n${stripInlineHtml(meta.courseCta.text)} [${decodeEntities(meta.courseCta.linkText || 'View the course')}](${SITE}${meta.courseCta.url})\n`;
+    }
+    body += `\n---\n\n*Free ${decodeEntities(meta.language)} resources by Modern Age Coders — live online coding and maths classes for ages 6-67. All resources: ${SITE}/resources*\n`;
+    return fm + body.replace(/\n{3,}/g, '\n\n');
+}
+
+function masterIndexToMarkdown(allLanguageMeta) {
+    const fm = frontMatter({
+        title: 'Free Coding Resources — Modern Age Coders',
+        description: 'Free coding resources with detailed chapter-by-chapter notes, code examples, and practice questions.',
+        canonical: `${SITE}/resources`
+    });
+    let body = `# Free Coding Resources by Modern Age Coders\n\n`;
+    body += `Free, structured, chapter-by-chapter notes with code examples and practice questions.\n\n`;
+    for (const meta of allLanguageMeta) {
+        body += `- [${decodeEntities(meta.language)}](${SITE}/resources/${meta.slug}) — ${decodeEntities(meta.index.description)} (${meta.chapters.length} chapters, markdown twin: ${SITE}/content/resources/generated/${meta.slug}/index.md)\n`;
+    }
+    body += `\n---\n\n*Modern Age Coders — live online coding and maths classes for ages 6-67. ${SITE}/*\n`;
+    return fm + body.replace(/\n{3,}/g, '\n\n');
+}
+
 module.exports = {
     blogToMarkdown,
     courseToMarkdown,
     chapterNotesToMarkdown,
     chapterPracticeToMarkdown,
+    languageIndexToMarkdown,
+    masterIndexToMarkdown,
     htmlToMarkdown,
     stripInlineHtml,
     frontMatter

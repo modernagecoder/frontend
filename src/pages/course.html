@@ -1177,7 +1177,7 @@
                     <li><a href="/courses">Courses</a></li>
                     <li><a href="/success-stories">Success Stories</a></li>
                     <li><a href="/free-resources">Free Resources</a></li>
-                    <li><a href="/business-solutions">Business Solutions</a></li>
+                    <li><a href="/for-business">Business Solutions</a></li>
                     <li><a href="/student-labs">Student Labs</a></li>
                     <li><a href="/love">Wall of Love</a></li>
                     <li><a href="/beat-the-babu">Beat the Babu Game</a></li>
@@ -2635,6 +2635,17 @@
                 const urlParams = new URLSearchParams(window.location.search);
                 let mainTab = urlParams.get('tab');
                 let subTab = urlParams.get('subtab');
+
+                // Fragment deep-links: /courses#coding-kids, /courses#maths-elementary etc.
+                // Category pages and older inbound links use these; without this
+                // handler the fragment silently did nothing.
+                if (!mainTab && !subTab && window.location.hash) {
+                    const hashMatch = window.location.hash.match(/^#(coding|maths)-([a-z-]+)$/);
+                    if (hashMatch) {
+                        const hashSubs = { kids: 'kids', teens: 'teens', college: 'college', girls: 'girls', corporate: 'customized', customized: 'customized', elementary: 'elementary', middle: 'middle', high: 'high', professional: 'professional' };
+                        if (hashSubs[hashMatch[2]]) { mainTab = hashMatch[1]; subTab = hashSubs[hashMatch[2]]; }
+                    }
+                }
 
                 // Parse clean URL format: /courses/coding/teens or /courses/mathematics/high
                 if (pathParts.length >= 2 && pathParts[0] === 'courses') {

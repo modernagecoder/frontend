@@ -324,7 +324,7 @@
       },
       {
         "type": "paragraph",
-        "text": "<strong>Better practice:</strong> Use the <code>with</code> statement (shown in all examples above) which automatically closes files, even if errors occur. Understanding <a href='https://learn.modernagecoders.com/blog/what-is-the-responsibility-of-developers-using-generative-ai' target='_blank' rel='noopener noreferrer'>proper file handling and resource management</a> is crucial for writing reliable code."
+        "text": "<strong>Better practice:</strong> Use the <code>with</code> statement (shown in all examples above) which automatically closes files, even if errors occur. Understanding <a href='https://learn.modernagecoders.com/blog/what-is-the-responsibility-of-developers-using-generative-AI' target='_blank' rel='noopener noreferrer'>proper file handling and resource management</a> is crucial for writing reliable code."
       },
       {
         "type": "heading",

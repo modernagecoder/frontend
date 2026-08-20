@@ -102,7 +102,7 @@
       },
       {
         "type": "paragraph",
-        "text": "<strong>Real limitations with text:</strong> Despite how impressive text AI seems, it has serious weaknesses. It can confidently state false information (called \"hallucinations\"). It struggles with very specialized technical jargon unless specifically trained. It can't fact-check itself or verify claims. Context and subtle nuances sometimes get lost. This is why <a href='https://learn.modernagecoders.com/blog/what-is-the-responsibility-of-developers-using-generative-ai' target='_blank' rel='noopener noreferrer'>developers using generative AI have specific responsibilities</a> to verify and validate AI-generated content."
+        "text": "<strong>Real limitations with text:</strong> Despite how impressive text AI seems, it has serious weaknesses. It can confidently state false information (called \"hallucinations\"). It struggles with very specialized technical jargon unless specifically trained. It can't fact-check itself or verify claims. Context and subtle nuances sometimes get lost. This is why <a href='https://learn.modernagecoders.com/blog/what-is-the-responsibility-of-developers-using-generative-AI' target='_blank' rel='noopener noreferrer'>developers using generative AI have specific responsibilities</a> to verify and validate AI-generated content."
       },
       {
         "type": "paragraph",

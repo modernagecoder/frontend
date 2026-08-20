@@ -22,6 +22,8 @@ const TodayComponent = {
           <p class="page-subtitle" id="todayDate"></p>
         </div>
         <div class="page-actions">
+          <button class="btn btn-secondary btn-sm" id="todaySetupWhatsApp"
+                  title="Create the WhatsApp template so alerts keep working past the 24-hour window">Set up WhatsApp template</button>
           <button class="btn btn-secondary btn-sm" id="todayTestWhatsApp"
                   title="Send yourself one sample alert to check WhatsApp is working">Test WhatsApp</button>
           <button class="btn btn-secondary btn-sm" id="todayRefresh">Refresh</button>
@@ -48,7 +50,84 @@ const TodayComponent = {
     const test = document.getElementById('todayTestWhatsApp');
     if (test) test.addEventListener('click', () => this.testWhatsApp());
 
+    const setup = document.getElementById('todaySetupWhatsApp');
+    if (setup) setup.addEventListener('click', () => this.setupWhatsAppTemplate());
+
     await this.load();
+  },
+
+  /**
+   * CREATE THE WHATSAPP TEMPLATE
+   *
+   * Plain-text alerts only reach you within 24 hours of you last messaging the
+   * business number, so without a template the alerts go quiet after a day.
+   * This asks the server to create one and submit it to Meta, using the access
+   * token it already holds — nothing sensitive passes through this browser.
+   *
+   * Once approved, alerts switch to it on their own. There is nothing further
+   * to configure, because the template name is defaulted rather than read from
+   * a setting someone would have to remember to add.
+   */
+  async setupWhatsAppTemplate(wabaId) {
+    const button = document.getElementById('todaySetupWhatsApp');
+    if (button) { button.disabled = true; button.textContent = 'Creating…'; }
+
+    let result;
+    try {
+      result = await api.createWhatsAppTemplate(wabaId);
+    } catch (error) {
+      result = error.data || { success: false, message: error.message };
+    } finally {
+      if (button) { button.disabled = false; button.textContent = 'Set up WhatsApp template'; }
+    }
+
+    // The server could not work out which WhatsApp Business Account to create
+    // the template on. Ask for it once — it is an account identifier sitting in
+    // the address bar of WhatsApp Manager, not a secret.
+    if (result.needsWabaId) {
+      const entered = prompt(
+        'Which WhatsApp Business Account?\n\n'
+        + 'Open business.facebook.com → WhatsApp Manager → Phone numbers.\n'
+        + 'Copy the number in the address bar after "asset_id=" and paste it here.'
+      );
+      if (entered && entered.trim()) return this.setupWhatsAppTemplate(entered.trim());
+      return;
+    }
+
+    showModal(`
+      <div class="modal-header">
+        <h2 class="modal-title">${result.success ? '✅ Template created' : '❌ Could not create the template'}</h2>
+        <button class="modal-close" onclick="closeModal()" aria-label="Close">&times;</button>
+      </div>
+      <div class="modal-body">
+        <p>${escapeHtml(result.message || result.error || '')}</p>
+
+        ${result.success ? `
+          <div class="detail-grid">
+            <div class="detail-item">
+              <div class="detail-label">Name</div>
+              <div class="detail-value"><code>${escapeHtml(result.name || '')}</code></div>
+            </div>
+            <div class="detail-item">
+              <div class="detail-label">Status</div>
+              <div class="detail-value">${escapeHtml(result.status || (result.alreadyExisted ? 'Already existed' : 'Submitted'))}</div>
+            </div>
+          </div>` : ''}
+
+        ${result.hint ? `<div class="detail-warning">${escapeHtml(result.hint)}</div>` : ''}
+
+        ${result.body ? `
+          <div class="detail-section">
+            <h3>The template</h3>
+            <pre class="wa-preview">${escapeHtml(result.body)}</pre>
+            <div class="form-hint" style="margin-top:8px">
+              ${result.success
+                ? 'Nothing else to do. While Meta reviews it, alerts keep arriving as plain text; they move over to the template automatically once it is approved.'
+                : 'If you would rather create it by hand, paste exactly this body into WhatsApp Manager → Message templates, category Utility, named new_lead_alert.'}
+            </div>
+          </div>` : ''}
+      </div>
+    `);
   },
 
   /**

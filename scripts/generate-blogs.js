@@ -286,7 +286,12 @@ class BlogGenerator {
 
                 case 'heading':
                     const level = section.level || 2;
-                    const hId = section.id ? ` id="${section.id}"` : '';
+                    // Fall back to slugify(text) so the id always matches what
+                    // generateTableOfContents() links to: the TOC uses the same
+                    // fallback, and a heading without an id left every such TOC
+                    // entry pointing at nothing.
+                    const hIdValue = section.id || this.slugify(section.text);
+                    const hId = hIdValue ? ` id="${hIdValue}"` : '';
                     const hClass = section.className || '';
                     html += `<h${level}${hId} class="${hClass}">${section.text}</h${level}>\n`;
                     break;
