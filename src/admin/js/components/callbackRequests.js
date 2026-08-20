@@ -627,12 +627,40 @@ const CallbackRequestsComponent = {
   // ── Export ──────────────────────────────────────────────────────────────
 
   /**
-   * Exports what is currently on screen. Numbers go out in international form
-   * so the file can be dialled or imported straight into a phone's contacts —
-   * a local number with no country code is useless in a spreadsheet.
+   * Exports everything the current filters match, not just the page on screen.
+   *
+   * The first version exported `lastLoaded`, which is one page of twenty. A
+   * button labelled "Export CSV" that quietly hands back the first twenty of
+   * fifty-two records is the same kind of untrustworthy artefact as a mangled
+   * phone number, so it walks the pages instead.
+   *
+   * Numbers go out in international form so the file can be dialled or
+   * imported straight into a phone's contacts — a local number with no
+   * country code is useless in a spreadsheet.
    */
-  exportCsv() {
-    const rows = this.lastLoaded || [];
+  async exportCsv() {
+    let rows = [];
+
+    try {
+      showToast('Collecting records…', 'info');
+
+      let page = 1;
+      let pages = 1;
+      // Hard stop as a runaway guard; at 200 a page this is 20,000 records,
+      // far beyond anything this business will have.
+      while (page <= pages && page <= 100) {
+        const data = await api.getCallbackRequests(Object.assign(
+          { page, limit: 200 }, this.filters
+        ));
+        rows = rows.concat(data.requests || []);
+        pages = (data.pagination && data.pagination.pages) || 1;
+        page++;
+      }
+    } catch (error) {
+      showToast('Could not build the export: ' + (error.message || 'unknown error'), 'error');
+      return;
+    }
+
     if (!rows.length) {
       showToast('Nothing to export', 'error');
       return;
