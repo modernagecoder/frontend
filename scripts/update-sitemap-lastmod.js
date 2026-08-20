@@ -50,7 +50,11 @@ const isDate = (d) => /^\d{4}-\d{2}-\d{2}$/.test(d || '');
 const gitCache = new Map();
 function gitDate(relPath) {
   if (gitCache.has(relPath)) return gitCache.get(relPath);
-  const args = ['log', '-1', '--format=%cs'];
+  // %ct (unix timestamp) rendered as a UTC calendar date. %cs renders in the
+  // commit's local timezone, which runs ahead of UTC here (IST): a commit made
+  // after 05:30 IST stamped tomorrow's UTC date and verify-sitemap (which
+  // compares against UTC "today") rejected it as a future lastmod.
+  const args = ['log', '-1', '--format=%ct'];
   if (IGNORE_COMMITS) args.push('--invert-grep', '--grep', IGNORE_COMMITS, '--regexp-ignore-case');
   args.push('--', relPath);
   let out = null;
@@ -60,7 +64,10 @@ function gitDate(relPath) {
       encoding: 'utf8',
       stdio: ['ignore', 'pipe', 'ignore'],
     }).trim();
-    if (isDate(r)) out = r;
+    if (/^\d+$/.test(r)) {
+      const iso = new Date(parseInt(r, 10) * 1000).toISOString().slice(0, 10);
+      if (isDate(iso)) out = iso;
+    }
   } catch (_) {
     out = null;
   }
