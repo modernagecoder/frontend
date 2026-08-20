@@ -15,7 +15,15 @@
 // v2, 2026-08-01: flushes every cache built while /*.js was marked immutable
 // for a year — those caches can hold pre-worldwide-pricing JS, and the
 // pricing scripts must come in fresh under their new ?v= content-hash URLs.
-const CACHE_VERSION = 'mac-v2';
+//
+// v3, 2026-08-20: flushes the caches holding the old phone handling. /js/* is
+// cached first-and-ask-later, so a returning visitor kept running the version
+// that truncated every number to ten digits — a visitor from China, Germany
+// or Sweden had the end of their number deleted as they typed it. Without
+// this bump the fix would only reach people who had never been to the site
+// before. Bumping the version makes the activate handler below drop the
+// mac-v2 caches outright.
+const CACHE_VERSION = 'mac-v3';
 const STATIC_CACHE = `${CACHE_VERSION}-static`;
 const RUNTIME_CACHE = `${CACHE_VERSION}-runtime`;
 
