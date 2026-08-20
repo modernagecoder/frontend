@@ -270,6 +270,45 @@ class APIClient {
   }
 
   // ============================================
+  // CALLBACK REQUESTS
+  // ============================================
+  // These used to be raw fetch() calls inside the component, which meant they
+  // bypassed handleResponse and so never redirected to the login screen when a
+  // token expired - the page just showed "could not load" forever.
+
+  /**
+   * @param {object} params - { page, limit, status, country, search, from, to }
+   */
+  async getCallbackRequests(params = {}) {
+    // Drop empty filters so the query string stays readable in the network
+    // tab and the server does not have to treat '' as a value.
+    const clean = {};
+    Object.keys(params).forEach(key => {
+      const value = params[key];
+      if (value !== undefined && value !== null && value !== '') clean[key] = value;
+    });
+    const queryString = new URLSearchParams(clean).toString();
+    return await this.request(`/admin/callback-requests?${queryString}`);
+  }
+
+  async getCallbackRequest(id) {
+    return await this.request(`/admin/callback-requests/${id}`);
+  }
+
+  async updateCallbackRequest(id, updates) {
+    return await this.request(`/admin/callback-requests/${id}`, {
+      method: 'PUT',
+      body: JSON.stringify(updates)
+    });
+  }
+
+  async deleteCallbackRequest(id) {
+    return await this.request(`/admin/callback-requests/${id}`, {
+      method: 'DELETE'
+    });
+  }
+
+  // ============================================
   // AUDIT LOG ENDPOINTS
   // ============================================
   

@@ -162,13 +162,154 @@ function renderJourney(journey) {
 
 /**
  * Full international number for tel: and wa.me links.
- * Falls back to the bare digits when no country code was captured.
+ *
+ * `e164` is the number the server already normalised (duplicated country code
+ * removed, domestic leading zero removed) and it always wins when present.
+ * Gluing a dial code onto raw stored digits is what produced the unringable
+ * "+91 91..." numbers this panel used to show, so that path is now only the
+ * fallback for records the server has not decorated.
  */
-function fullPhone(countryCode, phone) {
+function fullPhone(countryCode, phone, e164) {
+  const normalised = String(e164 || '').replace(/\D/g, '');
+  if (normalised) return normalised;
+
   const digits = String(phone || '').replace(/\D/g, '');
   if (!digits) return '';
   const dial = String(countryCode || '').replace(/\D/g, '');
+
+  // Do not re-prefix a number that already carries its country code. The test
+  // is length-based on purpose: a ten-digit Indian mobile beginning 91 is a
+  // real number, not a doubled dial code, so only a number already long enough
+  // to be international is left alone.
+  if (dial && digits.length > 10 && digits.indexOf(dial) === 0) return digits;
+
   return dial ? dial + digits : digits;
+}
+
+/**
+ * THE NUMBER, AS SOMETHING A PERSON CAN READ AND DIAL
+ *
+ * One renderer for every lead screen. It shows the server's grouped display
+ * form ("+91 91233 66161"), and when the server flagged the number as doubtful
+ * it says so on the row rather than letting someone discover it by ringing a
+ * dead line.
+ *
+ * @param {object} record  - a decorated lead (phoneDisplay / phoneWarning set)
+ * @param {string} rawKey  - 'phone' or 'contact', for records not yet decorated
+ * @param {object} options - { noFlag: true } to render the warning separately
+ *                           via renderPhoneFlag, so it does not sit between the
+ *                           number and the call buttons and wrap them onto a
+ *                           second line
+ */
+function renderPhone(record, rawKey, options) {
+  if (!record) return '<span class="phone-with-code">—</span>';
+
+  const key = rawKey || (record.phone !== undefined ? 'phone' : 'contact');
+  const raw = record[key] || '';
+  const dial = record.countryCode || '';
+
+  // Server-decorated records carry a ready-made display string. Anything else
+  // falls back to dial + digits, which is what the panel always did.
+  const display = record.phoneDisplay || ((dial ? dial + ' ' : '') + raw);
+
+  let html = `<span class="phone-with-code">${escapeHtml(display)}</span>`;
+
+  if (record.phoneWarning && !(options && options.noFlag)) {
+    html += renderPhoneFlag(record);
+  }
+
+  return html;
+}
+
+/** The "check this number" badge on its own, for placing beside the country. */
+function renderPhoneFlag(record) {
+  if (!record || !record.phoneWarning) return '';
+  return `<span class="phone-flag" title="${escapeHtml(record.phoneWarning)}">⚠ check</span>`;
+}
+
+/**
+ * WHEN SOMETHING HAPPENED, SAID ONCE AND SAID CLEARLY
+ *
+ * Two things people actually want from a timestamp: the exact moment, and how
+ * long ago that was. Showing both removes the mental arithmetic.
+ *
+ * Everything is pinned to Asia/Kolkata and labelled IST. Before this the panel
+ * rendered in whatever zone the browser happened to be in while the
+ * notification emails said IST, so the same event carried two different times
+ * depending on where you read it.
+ */
+function formatWhen(dateString, opts) {
+  if (!dateString) return '<span class="when-empty">—</span>';
+  const date = new Date(dateString);
+  if (isNaN(date.getTime())) return '<span class="when-empty">—</span>';
+
+  const exact = date.toLocaleString('en-IN', {
+    timeZone: 'Asia/Kolkata',
+    day: 'numeric', month: 'short', year: 'numeric',
+    hour: '2-digit', minute: '2-digit', hour12: true
+  });
+
+  const ago = formatRelative(date);
+  const urgent = opts && opts.urgentAfterHours
+    && (Date.now() - date.getTime()) > opts.urgentAfterHours * 3600000;
+
+  return `
+    <span class="when-cell${urgent ? ' is-overdue' : ''}">
+      <span class="when-exact">${escapeHtml(exact)} IST</span>
+      <span class="when-ago">${escapeHtml(ago)}</span>
+    </span>
+  `;
+}
+
+/**
+ * "2 hours ago", "in 3 days". Plain words, no library.
+ */
+function formatRelative(date) {
+  const d = date instanceof Date ? date : new Date(date);
+  if (isNaN(d.getTime())) return '';
+
+  const diff = Date.now() - d.getTime();
+  const future = diff < 0;
+  const secs = Math.abs(diff) / 1000;
+
+  const say = (n, unit) => {
+    const rounded = Math.floor(n);
+    const label = rounded + ' ' + unit + (rounded === 1 ? '' : 's');
+    return future ? 'in ' + label : label + ' ago';
+  };
+
+  if (secs < 60) return future ? 'in a moment' : 'just now';
+  if (secs < 3600) return say(secs / 60, 'minute');
+  if (secs < 86400) return say(secs / 3600, 'hour');
+  if (secs < 2592000) return say(secs / 86400, 'day');
+  if (secs < 31536000) return say(secs / 2592000, 'month');
+  return say(secs / 31536000, 'year');
+}
+
+/**
+ * Country as a badge. Shared by every lead screen so "where is this person"
+ * is answered the same way everywhere.
+ */
+function renderCountry(record) {
+  const iso = String(record.countryIso || '').toUpperCase();
+  const name = record.countryName || '';
+  const dial = record.countryCode || '';
+
+  if (!iso && !name && !dial) {
+    return '<span class="country-badge country-badge--unknown" '
+         + 'title="This lead arrived before the country picker existed, or the picker did not load">'
+         + '— Not recorded</span>';
+  }
+
+  const flag = iso.length === 2
+    ? iso.replace(/./g, c => String.fromCodePoint(0x1F1A5 + c.charCodeAt(0)))
+    : '🌍';
+  const cls = iso === 'IN' ? 'country-badge country-badge--india' : 'country-badge country-badge--foreign';
+  const label = name || iso || dial;
+
+  return `<span class="${cls}" title="${escapeHtml(label)}">`
+       + `<span class="country-flag">${flag}</span> ${escapeHtml(label)}`
+       + `${iso ? ` <small>(${escapeHtml(iso)})</small>` : ''}</span>`;
 }
 
 /**
@@ -176,9 +317,11 @@ function fullPhone(countryCode, phone) {
  *
  * Contacting the client is the job this panel exists for, so these are on the
  * row itself rather than hidden behind a detail view.
+ *
+ * @param {string} e164 - the server-normalised number; wins over the other two
  */
-function renderContactActions(countryCode, phone, email) {
-  const intl = fullPhone(countryCode, phone);
+function renderContactActions(countryCode, phone, email, e164) {
+  const intl = fullPhone(countryCode, phone, e164);
   if (!intl && !email) return '';
 
   let html = '<div class="contact-actions">';

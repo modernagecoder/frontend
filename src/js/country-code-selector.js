@@ -977,9 +977,86 @@
       }
     }
     input.addEventListener('input', autoDetectFromInput);
-    // Paste fires before the value is updated, so defer one tick.
-    input.addEventListener('paste', function () {
-      setTimeout(autoDetectFromInput, 0);
+
+    /**
+     * PASTING A WHOLE INTERNATIONAL NUMBER
+     *
+     * This used to defer one tick and then re-read input.value, which quietly
+     * lost data. Most of these boxes carry maxlength="10" for India, and the
+     * browser applies maxlength to a paste BEFORE any script sees it. Pasting
+     * "+919123366161" left "+919123366" in the field; by the time the deferred
+     * handler ran, the last three digits no longer existed anywhere and a
+     * seven-digit fragment was submitted as a real number.
+     *
+     * So the clipboard is read directly from the paste event, which is not
+     * subject to maxlength, and the field is filled in with the result.
+     *
+     * Three shapes are handled, in order of confidence:
+     *   +971 50 123 4567  - explicit country code, so switch the picker to it
+     *   971501234575      - the selected country's code typed in again
+     *   07911 123456      - the domestic trunk zero
+     *
+     * Anything else is pasted through untouched. Guessing at a number we do
+     * not understand is worse than leaving it for the parent to correct.
+     */
+    input.addEventListener('paste', function (e) {
+      var clip = e.clipboardData || window.clipboardData;
+      if (!clip || typeof clip.getData !== 'function') {
+        setTimeout(autoDetectFromInput, 0);
+        return;
+      }
+
+      var pasted = String(clip.getData('text') || '').trim();
+      if (!pasted) return;
+
+      // "00" is the international prefix in much of the world and means the
+      // same thing as "+".
+      var normalised = pasted.replace(/^00/, '+');
+      var digits = normalised.replace(/\D/g, '');
+      if (!digits) return;
+
+      var iso = input.dataset.countryIso || DEFAULT_ISO;
+      var national = digits;
+
+      // (1) An explicit "+" tells us the country outright.
+      var detected = normalised.charAt(0) === '+' ? detectCountryFromValue(normalised) : null;
+      if (detected) {
+        var detectedDigits = detected.dial.replace(/\D/g, '');
+        if (digits.indexOf(detectedDigits) === 0) {
+          national = digits.slice(detectedDigits.length);
+        }
+        iso = detected.iso;
+        if (input.dataset.countryIso !== detected.iso) {
+          applyCountry(input, btn, detected, hidden);
+        }
+      } else {
+        // (2) The current country's dial code typed in as well as picked.
+        //     Length-aware: a ten-digit Indian mobile beginning 91 is a real
+        //     number, so it is only stripped when the result is still valid
+        //     and the original was not.
+        var dialDigits = dialDigitsFor(iso);
+        if (dialDigits && !isValidPhone(national, iso) && national.indexOf(dialDigits) === 0
+            && isValidPhone(national.slice(dialDigits.length), iso)) {
+          national = national.slice(dialDigits.length);
+        }
+      }
+
+      // (3) The domestic trunk zero, which never belongs in an international
+      //     number. Same rule: only when it makes the number valid.
+      if (national.charAt(0) === '0' && isValidPhone(national.replace(/^0+/, ''), iso)) {
+        national = national.replace(/^0+/, '');
+      }
+
+      // Fill the field ourselves, bypassing maxlength entirely. Capped at the
+      // E.164 maximum so a pasted essay cannot land in a phone box.
+      e.preventDefault();
+      input.value = national.slice(0, E164_MAX);
+
+      // Let the page's own validation and character filters see the change,
+      // exactly as if it had been typed.
+      try {
+        input.dispatchEvent(new Event('input', { bubbles: true }));
+      } catch (err) { /* very old browsers - the value is set either way */ }
     });
 
     // When the form submits, refresh hidden values just in case.

@@ -56,10 +56,15 @@ function renderCountryCell(record) {
   document.head.appendChild(style);
 })();
 
+// Delegates to the shared renderer in formatting.js so an enquiry, a callback
+// and a demo on the Today screen all show the same number the same way. The
+// old local version pasted the dial code straight onto the stored digits,
+// which doubled the country code whenever the parent had typed it themselves.
+// Also used by the corporate and business screens, whose records keep the
+// number under `phone` rather than `contact` - so the key is left for
+// renderPhone to work out rather than hard-coded here.
 function renderPhoneCell(record) {
-  const dial = record.countryCode || record.customerCountryCode || '';
-  const phone = record.contact || record.phone || record.customerPhone || '';
-  return `<span class="phone-with-code"><span class="dial">${dial || ''}</span>${phone}</span>`;
+  return renderPhone(record);
 }
 
 async function loadContacts() {
@@ -127,14 +132,14 @@ async function loadContacts() {
                 <td data-label="Phone">
                   <div style="display:flex;align-items:center;gap:8px;justify-content:flex-end;flex-wrap:wrap">
                     ${renderPhoneCell(contact)}
-                    ${renderContactActions(contact.countryCode, contact.contact, contact.email)}
+                    ${renderContactActions(contact.countryCode, contact.contact, contact.email, contact.phoneE164)}
                   </div>
                 </td>
                 <td data-label="Came from">${renderSource(contact.attribution)}</td>
                 <td data-label="Demo slot">${renderSlot(contact.demoSlot, true)}</td>
                 <td data-label="Country">${renderCountryCell(contact)}</td>
                 <td data-label="Status"><span class="badge badge-${escapeHtml(contact.status)}">${escapeHtml(capitalizeFirst(contact.status))}</span></td>
-                <td data-label="Date" class="cell-date">${formatDateCompact(contact.submittedAt)}</td>
+                <td data-label="Date" class="cell-date">${formatWhen(contact.submittedAt)}</td>
                 <td data-label="Actions">
                   <div class="action-buttons">
                     <button class="btn btn-secondary btn-sm" onclick="viewContact('${contact._id}')">Open</button>
@@ -357,7 +362,7 @@ async function viewContact(id) {
               <div class="detail-value">
                 <div style="display:flex;align-items:center;gap:10px;flex-wrap:wrap">
                   ${renderPhoneCell(contact)}
-                  ${renderContactActions(contact.countryCode, contact.contact, contact.email)}
+                  ${renderContactActions(contact.countryCode, contact.contact, contact.email, contact.phoneE164)}
                 </div>
               </div>
             </div>
@@ -365,6 +370,11 @@ async function viewContact(id) {
               <div class="detail-label">Email</div>
               <div class="detail-value">${escapeHtml(contact.email)}</div>
             </div>
+            ${contact.phoneWarning ? `
+              <div class="detail-item" style="grid-column:1/-1">
+                <div class="detail-label">Check the number</div>
+                <div class="detail-value"><div class="detail-warning">⚠ ${escapeHtml(contact.phoneWarning)}</div></div>
+              </div>` : ''}
             <div class="detail-item">
               <div class="detail-label">Country</div>
               <div class="detail-value">${renderCountryCell(contact)}</div>

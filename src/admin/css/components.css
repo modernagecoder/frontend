@@ -390,7 +390,6 @@
 .phone-link { color: var(--ink); text-decoration: none; font-weight: 500; }
 .phone-link:hover { color: var(--amber); text-decoration: underline; }
 
-.phone-with-code { display: flex; align-items: center; gap: 5px; white-space: nowrap; }
 .dial { color: var(--muted); }
 
 .notes-cell {
@@ -924,3 +923,232 @@
   margin: 0 0 14px;
   color: var(--ink);
 }
+
+/* --------------------------------------------------------------------------
+   READING A LEAD AT A GLANCE
+
+   Everything here serves one goal: a row should answer "who, when, what, from
+   where, and what have we done" without being clicked. Two-line cells are used
+   deliberately - the fact on top, the context underneath in smaller, quieter
+   type - because a single dense line of mixed information is what made these
+   tables hard to read in the first place.
+   -------------------------------------------------------------------------- */
+
+/* The number itself, in tabular figures so digits line up down the column and
+   a misread is less likely when someone is dialling from the screen. */
+/* Left-aligned: this is the first column and the first thing read, so it
+   starts at the same edge as every other cell's content rather than being
+   pushed against the column divider. */
+.phone-cell {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
+.phone-with-code {
+  font-family: var(--font-mono);
+  font-size: 13px;
+  font-variant-numeric: tabular-nums;
+  letter-spacing: .01em;
+  white-space: nowrap;
+  color: var(--ink);
+  font-weight: 500;
+}
+
+/* A number we could not make confidently dialable. Loud enough to notice
+   before picking up the phone, quiet enough not to shout on every row. */
+.phone-flag {
+  display: inline-flex;
+  align-items: center;
+  gap: 3px;
+  padding: 2px 7px;
+  border-radius: 999px;
+  background: var(--red-tint);
+  border: 1px solid rgba(176, 71, 60, .28);
+  color: var(--red);
+  font-size: 11px;
+  font-weight: 700;
+  white-space: nowrap;
+  cursor: help;
+}
+
+.detail-warning {
+  margin-top: 8px;
+  padding: 10px 12px;
+  border-radius: var(--radius-sm);
+  background: var(--red-tint);
+  border: 1px solid rgba(176, 71, 60, .28);
+  color: var(--red);
+  font-size: 13px;
+  line-height: 1.5;
+}
+
+/* Times: the exact moment on top, how long ago underneath. Both, because
+   "20 Aug, 7:19 pm IST" answers a different question from "2 hours ago" and
+   people need each of them at different moments. */
+.when-cell { display: grid; gap: 1px; }
+
+.when-exact {
+  font-family: var(--font-mono);
+  font-size: 12.5px;
+  font-variant-numeric: tabular-nums;
+  color: var(--ink);
+  white-space: nowrap;
+}
+
+.when-ago { font-size: 11.5px; color: var(--muted); }
+
+/* A lead nobody has rung in over a day. */
+.when-cell.is-overdue .when-exact { color: var(--red); font-weight: 600; }
+.when-cell.is-overdue .when-ago { color: var(--red); font-weight: 600; }
+
+.when-empty { color: var(--muted); }
+
+/* "What they want" - a demo time if they picked one, otherwise the subject of
+   the page they were reading, always labelled so nobody mistakes the guess for
+   something the parent actually typed. */
+.wants-cell { max-width: 200px; }
+.wants-slot, .wants-topic { display: block; }
+
+.wants-topic {
+  font-size: 13px;
+  color: var(--ink);
+  line-height: 1.35;
+}
+
+.wants-note {
+  display: block;
+  font-size: 11px;
+  color: var(--muted);
+  margin-top: 2px;
+  line-height: 1.35;
+}
+
+/* "What we did" - the most recent action and who took it. */
+.did-cell { max-width: 210px; }
+
+.did-what {
+  display: block;
+  font-size: 12.5px;
+  color: var(--ink);
+  line-height: 1.35;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.did-who { display: block; font-size: 11px; color: var(--muted); margin-top: 2px; }
+.did-none { font-size: 12.5px; color: var(--muted); font-style: italic; }
+
+/* A row waiting for its first call gets a warm left edge - present enough to
+   pick out of a long list, not so strong it turns the table into stripes. */
+.row-pending td:first-child { box-shadow: inset 3px 0 0 var(--amber); }
+
+/* --------------------------------------------------------------------------
+   ACTIVITY TRAIL
+
+   The history of one lead, oldest first, so it reads like a story: asked at
+   this time, rang at that time, no answer, rang again. This replaced a single
+   notes field that every edit overwrote.
+   -------------------------------------------------------------------------- */
+
+.activity-trail {
+  display: grid;
+  gap: 2px;
+  margin-bottom: 14px;
+  border-left: 2px solid var(--line);
+  padding-left: 14px;
+}
+
+.activity-row {
+  display: grid;
+  grid-template-columns: minmax(150px, 190px) 1fr;
+  gap: 14px;
+  padding: 9px 0;
+  border-bottom: 1px solid var(--line-2);
+  position: relative;
+}
+
+.activity-row:last-child { border-bottom: none; }
+
+/* A dot on the timeline, sitting on the rule to the left. */
+.activity-row::before {
+  content: '';
+  position: absolute;
+  left: -19px;
+  top: 15px;
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: var(--line);
+}
+
+.activity-row.activity-created::before { background: var(--muted); }
+.activity-row.activity-status::before { background: var(--amber); }
+.activity-row.activity-note::before { background: var(--green); }
+
+.activity-what { font-size: 13.5px; color: var(--ink); line-height: 1.5; }
+.activity-who { font-size: 11.5px; color: var(--muted); margin-top: 2px; }
+
+.detail-note-box {
+  padding: 14px;
+  background: var(--paper);
+  border: 1px solid var(--line);
+  border-radius: var(--radius-sm);
+}
+
+.detail-note-box textarea {
+  width: 100%;
+  resize: vertical;
+  font-family: var(--font-body);
+  font-size: 13.5px;
+  padding: 9px 11px;
+  border: 1px solid var(--line);
+  border-radius: var(--radius-sm);
+  background: var(--surface);
+  color: var(--ink);
+}
+
+.detail-note-box textarea:focus {
+  outline: none;
+  border-color: var(--amber);
+  box-shadow: 0 0 0 3px var(--amber-tint);
+}
+
+/* Separator between the facts on a Today-screen row. Without it the phone
+   number, the source and the status ran together as one word. */
+.rail-sep { margin: 0 7px; opacity: .45; }
+
+/* Two rows for one person. The server now prevents new ones, but the pairs
+   captured before that are still in the list and reading them as two separate
+   parents is precisely the confusion this screen exists to remove. */
+.dup-flag {
+  display: inline-block;
+  margin-top: 5px;
+  padding: 2px 7px;
+  border-radius: 999px;
+  background: var(--paper-2);
+  border: 1px solid var(--line);
+  color: var(--muted);
+  font-size: 10.5px;
+  font-weight: 600;
+  letter-spacing: .01em;
+  white-space: nowrap;
+  cursor: help;
+}
+
+/* The country belongs with the number rather than in a column of its own:
+   "+971 50 123 4567, United Arab Emirates" is one fact about one person, and
+   splitting it cost a column of width the table did not have. */
+.phone-sub {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  flex-wrap: wrap;
+  margin-top: 5px;
+}
+
+/* Sized to its content rather than to the longest option, so the actions
+   column stops eating a fifth of the table. */
+.actions-cell .status-select { max-width: 108px; font-size: 12px; padding: 5px 6px; }

@@ -173,10 +173,16 @@ const TodayComponent = {
 
     const contactBits = [];
     if (demo.phone) {
-      contactBits.push(`<span class="mono">${escapeHtml((demo.countryCode || '') + ' ' + demo.phone)}</span>`);
+      // phoneDisplay is the server-normalised number, so this shows the same
+      // digits the Call button dials. Gluing countryCode onto the raw stored
+      // number here was producing "+91 91..." style doubled codes.
+      contactBits.push(`<span class="mono">${escapeHtml(demo.phoneDisplay || ((demo.countryCode || '') + ' ' + demo.phone))}</span>`);
     }
     contactBits.push(escapeHtml(source));
     if (demo.status) contactBits.push(`<span class="badge status-${escapeHtml(demo.status)}">${escapeHtml(capitalizeFirst(demo.status))}</span>`);
+    if (demo.phoneWarning) {
+      contactBits.push(`<span class="phone-flag" title="${escapeHtml(demo.phoneWarning)}">⚠ check number</span>`);
+    }
 
     return `
       <div class="rail-entry">
@@ -186,10 +192,10 @@ const TodayComponent = {
         </div>
         <div class="rail-who">
           <div class="rail-name">${escapeHtml(name)}</div>
-          <div class="rail-meta">${contactBits.join('')}</div>
+          <div class="rail-meta">${contactBits.join('<span class="rail-sep">&middot;</span>')}</div>
         </div>
         <div class="rail-actions">
-          ${renderContactActions(demo.countryCode, demo.phone, demo.email)}
+          ${renderContactActions(demo.countryCode, demo.phone, demo.email, demo.phoneE164)}
         </div>
       </div>
     `;
