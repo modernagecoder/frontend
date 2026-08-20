@@ -68,9 +68,9 @@ const PI = 3.14159;
 PI = 3;        // ERROR: Assignment to constant variable
 ```
 
-**Important:** `const` prevents reassignment, not mutation. If a `const` holds an object or array, you can still change the contents. You just cannot point the variable to a completely different object.
+**Important:** `const` prevents reassignment, not mutation. If a `const` holds an object or array, you can still change the contents, you just cannot point the variable to a completely different object.
 
-#### var: The Old Way (Avoid It)
+#### var, The Old Way (Avoid It)
 
 `var` was the only way to declare variables before ES6 (2015). It still works, but it has two problems: it is **function-scoped** (not block-scoped like `let` and `const`), and it is **hoisted** (the declaration is moved to the top of the function). Both of these behaviors lead to bugs. In modern JavaScript, always prefer `let` and `const`.
 

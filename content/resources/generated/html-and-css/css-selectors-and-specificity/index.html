@@ -38,7 +38,7 @@
     <meta property="og:url" content="https://learn.modernagecoders.com/resources/html-and-css/css-selectors-and-specificity">
     <meta property="og:title" content="CSS Selectors and Specificity | HTML and CSS Tutorial">
     <meta property="og:description" content="Master element, class, id, attribute, and combinator selectors. Understand specificity and the cascade.">
-    <meta property="og:image" content="https://learn.modernagecoders.com/images/og-default.jpg">
+    <meta property="og:image" content="https://learn.modernagecoders.com/images/og-modern-age-coders.png">
     <meta property="og:site_name" content="Modern Age Coders">
 
     <!-- Twitter Card Meta Tags -->
@@ -46,7 +46,7 @@
     <meta name="twitter:url" content="https://learn.modernagecoders.com/resources/html-and-css/css-selectors-and-specificity">
     <meta name="twitter:title" content="CSS Selectors and Specificity | HTML and CSS Tutorial">
     <meta name="twitter:description" content="Master element, class, id, attribute, and combinator selectors. Understand specificity and the cascade.">
-    <meta name="twitter:image" content="https://learn.modernagecoders.com/images/og-default.jpg">
+    <meta name="twitter:image" content="https://learn.modernagecoders.com/images/og-modern-age-coders.png">
 
     <!-- Structured Data (JSON-LD) -->
     <script type="application/ld+json">
@@ -455,7 +455,7 @@ article p { font-size: 18px; }  /* every p inside an article */</code></pre><h3>
   &lt;p&gt;Plain paragraph (black)&lt;/p&gt;
   &lt;p class=&quot;blue-text&quot;&gt;Has .blue-text class (blue)&lt;/p&gt;
   &lt;p class=&quot;green-text&quot;&gt;Has .green-text class (green)&lt;/p&gt;
-  &lt;p id=&quot;special&quot; class=&quot;blue-text&quot;&gt;Has ID #special AND class .blue-text: ID wins (purple, yellow bg)&lt;/p&gt;
+  &lt;p id=&quot;special&quot; class=&quot;blue-text&quot;&gt;Has ID #special AND class .blue-text, ID wins (purple, yellow bg)&lt;/p&gt;
   &lt;p id=&quot;special&quot; class=&quot;extra&quot;&gt;ID + extra class, red wins&lt;/p&gt;
 &lt;/body&gt;
 &lt;/html&gt;</code></pre><div class="code-example-explanation">This demonstrates specificity in action. Even though the second-to-last paragraph has the class <code>.blue-text</code>, the ID selector <code>#special</code> wins because ID specificity (100) is higher than class specificity (10). The last paragraph has an even more specific selector that wins out.</div><div class="code-example-output">Five paragraphs showing how higher specificity wins: plain black, blue (class), green (class+element), purple with yellow bg (ID beats class), red (ID+class beats everything).</div></div>

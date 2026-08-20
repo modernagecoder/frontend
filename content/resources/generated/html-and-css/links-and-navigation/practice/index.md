@@ -171,7 +171,7 @@ Anchor navigation needs two parts: (1) a link with `href="#id"`, and (2) a targe
 
 When you open a link in a new tab with `target="_blank"`, always add `rel="noopener noreferrer"` to prevent the new tab from accessing your page and to improve privacy.
 
-### Q15. [Medium] Write a navigation menu inside a  element with four links: Home, About, Projects, Contact: each pointing to the respective HTML file.
+### Q15. [Medium] Write a navigation menu inside a  element with four links: Home, About, Projects, Contact, each pointing to the respective HTML file.
 
 *Hint:* Wrap the links in  tags.
 
@@ -240,7 +240,7 @@ You can give the `download` attribute a value to rename the file when saving. Th
 
 You can add query parameters to mailto links: `?subject=...` for the subject, `&body=...` for the body. Spaces must be encoded as `%20`.
 
-### Q21. [Hard] Fix this complete page: multiple things are wrong:
+### Q21. [Hard] Fix this complete page, multiple things are wrong:
 
 ```
 

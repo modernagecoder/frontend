@@ -278,7 +278,7 @@ The chain goes from the most specific class up to Object: Object constructor -> 
 
 ## Code Examples
 
-### Basic Inheritance: extends and Inheriting Members
+### Basic Inheritance, extends and Inheriting Members
 
 ```java
 class Animal {
@@ -519,7 +519,7 @@ MAX: 100
 Hello World
 ```
 
-### The Object Class: toString, equals, hashCode
+### The Object Class, toString, equals, hashCode
 
 ```java
 class Student {

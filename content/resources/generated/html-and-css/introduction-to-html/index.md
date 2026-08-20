@@ -259,7 +259,7 @@ A numbered list of weekend tasks and a bulleted list of favourite snacks.
 </head>
 <body>
   <h1>My Favourite Cricketer</h1>
-  <img src="https://via.placeholder.com/300x200" alt="Cricket player">
+  <img src="https://placehold.co/300x200" alt="Cricket player">
   <h2>Why I Admire Him</h2>
   <p>He is calm under pressure and never gives up, even when the team is losing.</p>
   <h2>His Top Achievements</h2>

@@ -134,7 +134,7 @@ In JavaScript, every value is either **truthy** (treated as true in boolean cont
 
 When multiple operators appear in one expression, JavaScript follows this priority (highest to lowest):
 
-1. `()`, Parentheses
+1. `()`: Parentheses
 2. `!`, `++`, `--`, unary `+`/`-`, `typeof`, Unary operators
 3. `**`, Exponentiation
 4. `*`, `/`, `%`, Multiplication, division, remainder
@@ -145,7 +145,7 @@ When multiple operators appear in one expression, JavaScript follows this priori
 9. `||`, Logical OR
 10. `??`, Nullish coalescing
 11. `? :`, Ternary
-12. `=`, `+=`, `-=`, etc., Assignment
+12. `=`, `+=`, `-=`, etc.: Assignment
 
 When in doubt, use parentheses to make your intent clear.
 

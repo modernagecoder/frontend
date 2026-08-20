@@ -537,7 +537,7 @@ A single `calc()` function takes the operator as a parameter. It reads both inpu
 
 ### Q1. [Easy] What does console.log() do in JavaScript?
 
-**B is correct.** `console.log()` prints output to the browser's Developer Console (accessible via F12). It does NOT display anything on the web page (A), for that you would use `textContent` or `innerHTML`. It does not show a popup (C), that is `alert()`. It does not write files (D).
+**B is correct.** `console.log()` prints output to the browser's Developer Console (accessible via F12). It does NOT display anything on the web page (A), for that you would use `textContent` or `innerHTML`. It does not show a popup (C). That is `alert()`. It does not write files (D).
 
 ### Q2. [Easy] What is the output of: console.log(typeof 'hello')?
 

@@ -38,7 +38,7 @@
     <meta property="og:url" content="https://learn.modernagecoders.com/resources/sql/common-table-expressions/practice">
     <meta property="og:title" content="Common Table Expressions (CTEs) and Recursive Queries Practice | SQL">
     <meta property="og:description" content="60+ practice questions on Common Table Expressions (CTEs) and Recursive Queries in SQL. Easy, medium, and hard questions with hints, answers, and coding challenges.">
-    <meta property="og:image" content="https://learn.modernagecoders.com/images/og-default.jpg">
+    <meta property="og:image" content="https://learn.modernagecoders.com/images/og-modern-age-coders.png">
     <meta property="og:site_name" content="Modern Age Coders">
 
     <!-- Twitter Card Meta Tags -->
@@ -46,7 +46,7 @@
     <meta name="twitter:url" content="https://learn.modernagecoders.com/resources/sql/common-table-expressions/practice">
     <meta name="twitter:title" content="Common Table Expressions (CTEs) and Recursive Queries Practice | SQL">
     <meta name="twitter:description" content="60+ practice questions on Common Table Expressions (CTEs) and Recursive Queries in SQL. Easy, medium, and hard questions with hints, answers, and coding challenges.">
-    <meta name="twitter:image" content="https://learn.modernagecoders.com/images/og-default.jpg">
+    <meta name="twitter:image" content="https://learn.modernagecoders.com/images/og-modern-age-coders.png">
 
     <!-- Structured Data (JSON-LD) -->
     <script type="application/ld+json">
@@ -138,7 +138,7 @@
                 <span class="badge badge-advanced">Advanced</span>
                 <span class="badge badge-questions">60 Questions</span>
             </div>
-            <h1 class="resource-title">Practice Questions: Common Table Expressions (CTEs) and Recursive Queries</h1>
+            <h1 class="resource-title">Practice Questions, Common Table Expressions (CTEs) and Recursive Queries</h1>
             <a href="/resources/sql/common-table-expressions" class="notes-link">&larr; Back to Notes</a>
         </div><!-- /resource-header -->
 
@@ -331,7 +331,7 @@ SELECT COUNT(*) FROM r;</code></pre></div><button type="button" class="collapsib
 <div class="question-card">
                 <div class="question-number">Question 4</div>
                 <span class="question-difficulty medium">Medium</span>
-                <div class="question-text">Given a CTE returning 5 rows, and you reference it 3 times in the outer query, how many times does MySQL evaluate it?</div><button type="button" class="collapsible-toggle" data-target="hint-mx-4" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-4">The optimizer decides, may be once or multiple times.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-4" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-4">It depends: MySQL may inline the CTE (evaluating once per reference) or materialize it (evaluate once, reuse). MySQL 8.0 generally inlines non-recursive CTEs.</div></div>
+                <div class="question-text">Given a CTE returning 5 rows, and you reference it 3 times in the outer query, how many times does MySQL evaluate it?</div><button type="button" class="collapsible-toggle" data-target="hint-mx-4" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-4">The optimizer decides, may be once or multiple times.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-4" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-4">It depends, MySQL may inline the CTE (evaluating once per reference) or materialize it (evaluate once, reuse). MySQL 8.0 generally inlines non-recursive CTEs.</div></div>
 <div class="question-card">
                 <div class="question-number">Question 5</div>
                 <span class="question-difficulty medium">Medium</span>

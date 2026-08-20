@@ -188,7 +188,7 @@ WHERE order_date >= '2026-04-01'
 
 The half-open range avoids function calls on the indexed column. Any B-Tree index on order_date now kicks in.
 
-### Q22. [Hard] Given a query `SELECT customer_id, SUM(amount) FROM orders WHERE status='paid' GROUP BY customer_id ORDER BY SUM(amount) DESC LIMIT 10;`: propose an index that helps.
+### Q22. [Hard] Given a query `SELECT customer_id, SUM(amount) FROM orders WHERE status='paid' GROUP BY customer_id ORDER BY SUM(amount) DESC LIMIT 10;`, propose an index that helps.
 
 *Hint:* Filter by status, then group by customer, summing amount.
 

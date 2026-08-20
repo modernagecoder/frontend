@@ -38,7 +38,7 @@
     <meta property="og:url" content="https://learn.modernagecoders.com/resources/html-and-css/images-and-media">
     <meta property="og:title" content="Images, Audio, and Video | HTML and CSS Tutorial">
     <meta property="og:description" content="Add images with img, use alt text for accessibility, embed audio and video, and use figure and figcaption.">
-    <meta property="og:image" content="https://learn.modernagecoders.com/images/og-default.jpg">
+    <meta property="og:image" content="https://learn.modernagecoders.com/images/og-modern-age-coders.png">
     <meta property="og:site_name" content="Modern Age Coders">
 
     <!-- Twitter Card Meta Tags -->
@@ -46,7 +46,7 @@
     <meta name="twitter:url" content="https://learn.modernagecoders.com/resources/html-and-css/images-and-media">
     <meta name="twitter:title" content="Images, Audio, and Video | HTML and CSS Tutorial">
     <meta name="twitter:description" content="Add images with img, use alt text for accessibility, embed audio and video, and use figure and figcaption.">
-    <meta name="twitter:image" content="https://learn.modernagecoders.com/images/og-default.jpg">
+    <meta name="twitter:image" content="https://learn.modernagecoders.com/images/og-modern-age-coders.png">
 
     <!-- Structured Data (JSON-LD) -->
     <script type="application/ld+json">
@@ -231,7 +231,7 @@
   Your browser does not support video.
 &lt;/video&gt;</code></pre><p>The browser picks the first format it can play. MP4 works almost everywhere, so it should usually be listed first.</p><h3>The audio Tag</h3><p>The <code>&lt;audio&gt;</code> tag works similarly to video. It plays sound files:</p><pre><code>&lt;audio src="song.mp3" controls&gt;
   Your browser does not support audio.
-&lt;/audio&gt;</code></pre><p>It has the same attributes as video: <code>controls</code>, <code>autoplay</code>, <code>muted</code>, <code>loop</code>, and can also use <code>&lt;source&gt;</code> tags for multiple formats.</p><h3>Responsive Images with srcset</h3><p>Modern phones have different screen densities. A 'retina' display needs bigger images than a regular monitor. The <code>srcset</code> attribute lets you provide multiple sizes:</p><pre><code>&lt;img src="photo.jpg" srcset="photo-1x.jpg 1x, photo-2x.jpg 2x" alt="Photo"&gt;</code></pre><p>The browser automatically picks the best size based on the user's screen.</p><h3>Lazy Loading</h3><p>By default, browsers load all images on a page immediately. This can slow down pages with many images. The <code>loading="lazy"</code> attribute tells the browser to wait until an image is about to scroll into view:</p><pre><code>&lt;img src="big-photo.jpg" alt="A photo" loading="lazy"&gt;</code></pre><p>This makes pages much faster, especially for image galleries. Use <code>loading="lazy"</code> for images below the fold (not visible when the page first loads).</p><h3>Where to Get Free Images</h3><p>For practice and projects, use free image sites that allow commercial use:</p><ul><li><strong>Unsplash</strong> (unsplash.com), high-quality photos</li><li><strong>Pexels</strong> (pexels.com), free photos and videos</li><li><strong>Pixabay</strong> (pixabay.com), photos, illustrations, and videos</li><li><strong>placeholder.com</strong> or <strong>via.placeholder.com</strong>, placeholder images while developing</li></ul><p>Never steal images from random websites, many are copyrighted. Always use images you have permission to use.</p>
+&lt;/audio&gt;</code></pre><p>It has the same attributes as video: <code>controls</code>, <code>autoplay</code>, <code>muted</code>, <code>loop</code>, and can also use <code>&lt;source&gt;</code> tags for multiple formats.</p><h3>Responsive Images with srcset</h3><p>Modern phones have different screen densities. A 'retina' display needs bigger images than a regular monitor. The <code>srcset</code> attribute lets you provide multiple sizes:</p><pre><code>&lt;img src="photo.jpg" srcset="photo-1x.jpg 1x, photo-2x.jpg 2x" alt="Photo"&gt;</code></pre><p>The browser automatically picks the best size based on the user's screen.</p><h3>Lazy Loading</h3><p>By default, browsers load all images on a page immediately. This can slow down pages with many images. The <code>loading="lazy"</code> attribute tells the browser to wait until an image is about to scroll into view:</p><pre><code>&lt;img src="big-photo.jpg" alt="A photo" loading="lazy"&gt;</code></pre><p>This makes pages much faster, especially for image galleries. Use <code>loading="lazy"</code> for images below the fold (not visible when the page first loads).</p><h3>Where to Get Free Images</h3><p>For practice and projects, use free image sites that allow commercial use:</p><ul><li><strong>Unsplash</strong> (unsplash.com), high-quality photos</li><li><strong>Pexels</strong> (pexels.com), free photos and videos</li><li><strong>Pixabay</strong> (pixabay.com), photos, illustrations, and videos</li><li><strong>placehold.co</strong>, placeholder images while developing</li></ul><p>Never steal images from random websites, many are copyrighted. Always use images you have permission to use.</p>
             </section>
 
             <section id="code-examples" class="content-section">
@@ -246,7 +246,7 @@
 &lt;body&gt;
   &lt;h1&gt;My Pet&lt;/h1&gt;
   &lt;p&gt;Meet Buddy, my golden retriever.&lt;/p&gt;
-  &lt;img src=&quot;https://via.placeholder.com/400x300&quot; alt=&quot;A golden retriever dog sitting on grass&quot; width=&quot;400&quot; height=&quot;300&quot;&gt;
+  &lt;img src=&quot;https://placehold.co/400x300&quot; alt=&quot;A golden retriever dog sitting on grass&quot; width=&quot;400&quot; height=&quot;300&quot;&gt;
   &lt;p&gt;He loves playing fetch and going for walks.&lt;/p&gt;
 &lt;/body&gt;
 &lt;/html&gt;</code></pre><div class="code-example-explanation">A basic image with all the essential attributes: <code>src</code> for the image URL, <code>alt</code> for the description (critical for accessibility and SEO), and <code>width</code>/<code>height</code> to reserve space on the page before the image loads. The placeholder URL shows a blank 400x300 rectangle, replace it with your real image path.</div><div class="code-example-output">A page with a heading &#39;My Pet&#39;, a paragraph, a 400x300 image, and another paragraph.</div></div>
@@ -260,11 +260,11 @@
 &lt;body&gt;
   &lt;h1&gt;Famous Indian Landmarks&lt;/h1&gt;
   &lt;figure&gt;
-    &lt;img src=&quot;https://via.placeholder.com/500x300&quot; alt=&quot;Taj Mahal, white marble monument&quot; width=&quot;500&quot; height=&quot;300&quot;&gt;
+    &lt;img src=&quot;https://placehold.co/500x300&quot; alt=&quot;Taj Mahal, white marble monument&quot; width=&quot;500&quot; height=&quot;300&quot;&gt;
     &lt;figcaption&gt;The Taj Mahal in Agra, built by Shah Jahan in memory of his wife.&lt;/figcaption&gt;
   &lt;/figure&gt;
   &lt;figure&gt;
-    &lt;img src=&quot;https://via.placeholder.com/500x300&quot; alt=&quot;India Gate at night with lights&quot; width=&quot;500&quot; height=&quot;300&quot;&gt;
+    &lt;img src=&quot;https://placehold.co/500x300&quot; alt=&quot;India Gate at night with lights&quot; width=&quot;500&quot; height=&quot;300&quot;&gt;
     &lt;figcaption&gt;India Gate in New Delhi, a war memorial for Indian soldiers.&lt;/figcaption&gt;
   &lt;/figure&gt;
 &lt;/body&gt;
@@ -281,22 +281,22 @@
   &lt;h2&gt;Recent Photos&lt;/h2&gt;
 
   &lt;figure&gt;
-    &lt;img src=&quot;https://via.placeholder.com/300x200&quot; alt=&quot;Sunrise over the mountains&quot; width=&quot;300&quot; height=&quot;200&quot; loading=&quot;lazy&quot;&gt;
+    &lt;img src=&quot;https://placehold.co/300x200&quot; alt=&quot;Sunrise over the mountains&quot; width=&quot;300&quot; height=&quot;200&quot; loading=&quot;lazy&quot;&gt;
     &lt;figcaption&gt;Sunrise at Manali&lt;/figcaption&gt;
   &lt;/figure&gt;
 
   &lt;figure&gt;
-    &lt;img src=&quot;https://via.placeholder.com/300x200&quot; alt=&quot;Waves crashing on a beach&quot; width=&quot;300&quot; height=&quot;200&quot; loading=&quot;lazy&quot;&gt;
+    &lt;img src=&quot;https://placehold.co/300x200&quot; alt=&quot;Waves crashing on a beach&quot; width=&quot;300&quot; height=&quot;200&quot; loading=&quot;lazy&quot;&gt;
     &lt;figcaption&gt;Goa Beach&lt;/figcaption&gt;
   &lt;/figure&gt;
 
   &lt;figure&gt;
-    &lt;img src=&quot;https://via.placeholder.com/300x200&quot; alt=&quot;A plate of biryani&quot; width=&quot;300&quot; height=&quot;200&quot; loading=&quot;lazy&quot;&gt;
+    &lt;img src=&quot;https://placehold.co/300x200&quot; alt=&quot;A plate of biryani&quot; width=&quot;300&quot; height=&quot;200&quot; loading=&quot;lazy&quot;&gt;
     &lt;figcaption&gt;Hyderabadi Biryani&lt;/figcaption&gt;
   &lt;/figure&gt;
 
   &lt;figure&gt;
-    &lt;img src=&quot;https://via.placeholder.com/300x200&quot; alt=&quot;Colourful rangoli design&quot; width=&quot;300&quot; height=&quot;200&quot; loading=&quot;lazy&quot;&gt;
+    &lt;img src=&quot;https://placehold.co/300x200&quot; alt=&quot;Colourful rangoli design&quot; width=&quot;300&quot; height=&quot;200&quot; loading=&quot;lazy&quot;&gt;
     &lt;figcaption&gt;Diwali Rangoli&lt;/figcaption&gt;
   &lt;/figure&gt;
 &lt;/body&gt;
@@ -310,7 +310,7 @@
 &lt;/head&gt;
 &lt;body&gt;
   &lt;h1&gt;Watch My Video&lt;/h1&gt;
-  &lt;video width=&quot;600&quot; controls poster=&quot;https://via.placeholder.com/600x400&quot;&gt;
+  &lt;video width=&quot;600&quot; controls poster=&quot;https://placehold.co/600x400&quot;&gt;
     &lt;source src=&quot;my-video.mp4&quot; type=&quot;video/mp4&quot;&gt;
     &lt;source src=&quot;my-video.webm&quot; type=&quot;video/webm&quot;&gt;
     Your browser does not support the video tag.

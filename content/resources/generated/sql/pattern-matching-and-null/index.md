@@ -17,7 +17,7 @@ keywords: ["sql like", "sql wildcards", "sql pattern matching", "sql null handli
 
 Sometimes you do not want an exact match. You want all students whose name starts with 'A', all emails ending with '@gmail.com', or all products containing the word 'Pro'. That is **pattern matching**, and SQL provides the `LIKE` operator with two wildcards (`%` and `_`) for exactly this.
 
-The second half of this chapter tackles SQL's most confusing concept: **NULL**. NULL is not zero, not empty string, not anything. It represents *unknown* or *missing*. Comparing anything to NULL does not give TRUE or FALSE, it gives NULL. This breaks beginners' assumptions and causes real production bugs. You must learn `IS NULL`, `IS NOT NULL`, and the NULL-handling functions `COALESCE`, `IFNULL`, and `NULLIF`.
+The second half of this chapter tackles SQL's most confusing concept: **NULL**. NULL is not zero, not empty string, not anything. It represents *unknown* or *missing*. Comparing anything to NULL does not give TRUE or FALSE. It gives NULL. This breaks beginners' assumptions and causes real production bugs. You must learn `IS NULL`, `IS NOT NULL`, and the NULL-handling functions `COALESCE`, `IFNULL`, and `NULLIF`.
 
 Master these two topics and you will write queries that match exactly the rows you want and handle missing data correctly.
 
@@ -178,9 +178,9 @@ SELECT name FROM students WHERE email IS NOT NULL;
 -- Returns: the other 8 students
 ```
 
-**NEVER** write `WHERE email = NULL`. It always returns 0 rows.
+**NEVER** write `WHERE email = NULL`, it always returns 0 rows.
 
-### 9. COALESCE: First Non-NULL
+### 9. COALESCE, First Non-NULL
 
 `COALESCE(val1, val2, val3, ...)` returns the first non-NULL value from the argument list.
 

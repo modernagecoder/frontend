@@ -15,7 +15,7 @@ keywords: ["what is javascript", "javascript introduction", "why learn javascrip
 
 ## What Is JavaScript?
 
-**JavaScript** is the programming language of the web. Every interactive thing you see on a website, a button that changes color when you hover over it, a form that checks your email before you submit, a dropdown menu that slides open, a live chat widget, an animated counter, that is JavaScript at work.
+**JavaScript** is the programming language of the web. Every interactive thing you see on a website, a button that changes color when you hover over it, a form that checks your email before you submit, a dropdown menu that slides open, a live chat widget, an animated counter. That is JavaScript at work.
 
 Think of a website as a house. **HTML** is the structure, the walls, floors, and roof. **CSS** is the paint, furniture, and decoration. **JavaScript** is the electricity. It makes things actually work. Without JavaScript, websites would be static pages that just sit there. With JavaScript, they come alive.
 

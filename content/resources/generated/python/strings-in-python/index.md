@@ -23,9 +23,9 @@ Python treats strings as **sequences**, which means each character has a positio
 
 Python allows you to create strings using three different types of quotes:
 
-**1. Single quotes:** `'Hello'`, Most common for short strings.
+**1. Single quotes:** `'Hello'`: Most common for short strings.
 
-**2. Double quotes:** `"Hello"`, Identical to single quotes. Useful when the string itself contains a single quote, like `"Aarav's book"`.
+**2. Double quotes:** `"Hello"`: Identical to single quotes. Useful when the string itself contains a single quote, like `"Aarav's book"`.
 
 **3. Triple quotes:** `'''Hello'''` or `"""Hello"""`: Used for multi-line strings or strings that span several lines. Also used for docstrings (documentation strings in functions).
 

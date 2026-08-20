@@ -483,7 +483,7 @@ SELECT COALESCE(NULL, '', 'third');
 
 Empty string is NOT NULL. COALESCE returns the first non-NULL argument, which is the empty string ''. Many developers confuse these. Use `NULLIF(x, '')` first to treat empty strings as missing.
 
-### Q11. [Hard] Why does COUNT(CASE WHEN cond THEN 1 END) count matches, but SUM(CASE WHEN cond THEN 1 END) also works: what is the difference?
+### Q11. [Hard] Why does COUNT(CASE WHEN cond THEN 1 END) count matches, but SUM(CASE WHEN cond THEN 1 END) also works, what is the difference?
 
 *Hint:* COUNT counts rows; SUM adds values. They happen to give the same answer for this pattern.
 

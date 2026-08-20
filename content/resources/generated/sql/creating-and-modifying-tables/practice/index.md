@@ -149,7 +149,7 @@ Contrast with DELETE, which keeps the counter. After DELETE + INSERT, the new id
 
 *Hint:* Think DDL vs DML.
 
-**Answer:** **DELETE** is DML and fully transactional, wrap it in START TRANSACTION ... ROLLBACK to undo. **TRUNCATE** is DDL with an implicit COMMIT, it cannot be rolled back in most databases including MySQL.
+**Answer:** **DELETE** is DML and fully transactional, wrap it in START TRANSACTION ... ROLLBACK to undo. **TRUNCATE** is DDL with an implicit COMMIT. It cannot be rolled back in most databases including MySQL.
 
 If you absolutely need to remove all rows but keep the option to undo, use DELETE inside a transaction. If you want speed and don't need rollback, use TRUNCATE.
 

@@ -238,7 +238,7 @@ Giving checkboxes the same name groups them on the server side. The server recei
 
 `type="tel"` opens the numeric keyboard on mobile. The pattern enforces 10 digits. The `title` is the error message.
 
-### Q21. [Medium] Rohan's password field looks broken: users see their passwords. Fix:
+### Q21. [Medium] Rohan's password field looks broken, users see their passwords. Fix:
 
 ```
 

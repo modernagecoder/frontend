@@ -95,7 +95,7 @@ SELECT id, name, marks FROM students WHERE marks >= 90;
 
 Powerful for data migrations, archival, and populating reporting tables. No VALUES keyword, the SELECT provides all rows.
 
-### 2. UPDATE: Changing Existing Rows
+### 2. UPDATE, Changing Existing Rows
 
 #### Basic UPDATE
 

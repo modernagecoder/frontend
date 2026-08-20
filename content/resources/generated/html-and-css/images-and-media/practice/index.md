@@ -279,7 +279,7 @@ For purely decorative images (like dividers, background patterns), use `alt=""`.
 
 Using CSS to shrink a huge image still downloads the full 4000px file, wasting bandwidth and slowing the page. Resize the source image file first, then use proper width/height attributes.
 
-### Q23. [Hard] Add a video with a poster and controls that uses lazy loading: use attributes: width 600, controls, poster 'thumb.jpg', preload metadata.
+### Q23. [Hard] Add a video with a poster and controls that uses lazy loading. Use attributes: width 600, controls, poster 'thumb.jpg', preload metadata.
 
 *Hint:* Video does not have loading="lazy" directly, but has preload attribute.
 
@@ -635,7 +635,7 @@ The `preload` attribute has three values: `none` (download nothing), `metadata` 
 <body>
   <h1>My Pet Dog</h1>
   <p>Meet Buddy, my golden retriever who loves playing fetch.</p>
-  <img src="https://via.placeholder.com/400x300" alt="A golden retriever sitting on grass" width="400" height="300">
+  <img src="https://placehold.co/400x300" alt="A golden retriever sitting on grass" width="400" height="300">
 </body>
 </html>
 ```
@@ -663,7 +663,7 @@ A basic image with all essential attributes: src for the source, alt for accessi
 <body>
   <h1>Famous Indian Landmarks</h1>
   <figure>
-    <img src="https://via.placeholder.com/500x350" alt="Taj Mahal, a white marble monument" width="500" height="350">
+    <img src="https://placehold.co/500x350" alt="Taj Mahal, a white marble monument" width="500" height="350">
     <figcaption>The Taj Mahal in Agra, built in 1653 by Emperor Shah Jahan in memory of his wife Mumtaz.</figcaption>
   </figure>
 </body>
@@ -693,19 +693,19 @@ The figure element groups an image with its caption. figcaption provides semanti
 <body>
   <h1>My Photo Gallery</h1>
   <figure>
-    <img src="https://via.placeholder.com/300x200" alt="Sunset at the beach" width="300" height="200" loading="lazy">
+    <img src="https://placehold.co/300x200" alt="Sunset at the beach" width="300" height="200" loading="lazy">
     <figcaption>Sunset at Goa Beach</figcaption>
   </figure>
   <figure>
-    <img src="https://via.placeholder.com/300x200" alt="Snow covered mountains" width="300" height="200" loading="lazy">
+    <img src="https://placehold.co/300x200" alt="Snow covered mountains" width="300" height="200" loading="lazy">
     <figcaption>Himalayas in winter</figcaption>
   </figure>
   <figure>
-    <img src="https://via.placeholder.com/300x200" alt="Colourful festival lights" width="300" height="200" loading="lazy">
+    <img src="https://placehold.co/300x200" alt="Colourful festival lights" width="300" height="200" loading="lazy">
     <figcaption>Diwali lights at home</figcaption>
   </figure>
   <figure>
-    <img src="https://via.placeholder.com/300x200" alt="Green rice fields" width="300" height="200" loading="lazy">
+    <img src="https://placehold.co/300x200" alt="Green rice fields" width="300" height="200" loading="lazy">
     <figcaption>Rice paddies in Kerala</figcaption>
   </figure>
 </body>
@@ -734,7 +734,7 @@ A complete gallery with 4 captioned figures. Lazy loading improves performance, 
 </head>
 <body>
   <h1>Watch My Video</h1>
-  <video width="600" controls poster="https://via.placeholder.com/600x400">
+  <video width="600" controls poster="https://placehold.co/600x400">
     <source src="my-video.mp4" type="video/mp4">
     Your browser does not support the video tag.
   </video>
@@ -801,7 +801,7 @@ An audio player with multiple source formats ensures maximum compatibility. MP3 
   <p>Learn how to make soft and chewy chocolate chip cookies at home.</p>
 
   <figure>
-    <img src="https://via.placeholder.com/600x400" alt="A plate of freshly baked chocolate chip cookies" width="600" height="400">
+    <img src="https://placehold.co/600x400" alt="A plate of freshly baked chocolate chip cookies" width="600" height="400">
     <figcaption>The finished cookies - golden brown and delicious</figcaption>
   </figure>
 
@@ -816,15 +816,15 @@ An audio player with multiple source formats ensures maximum compatibility. MP3 
 
   <h2>Steps</h2>
   <figure>
-    <img src="https://via.placeholder.com/400x250" alt="Mixing butter and sugar in a bowl" width="400" height="250" loading="lazy">
+    <img src="https://placehold.co/400x250" alt="Mixing butter and sugar in a bowl" width="400" height="250" loading="lazy">
     <figcaption>Step 1: Mix the butter and sugar</figcaption>
   </figure>
   <figure>
-    <img src="https://via.placeholder.com/400x250" alt="Adding chocolate chips to the dough" width="400" height="250" loading="lazy">
+    <img src="https://placehold.co/400x250" alt="Adding chocolate chips to the dough" width="400" height="250" loading="lazy">
     <figcaption>Step 2: Fold in the chocolate chips</figcaption>
   </figure>
   <figure>
-    <img src="https://via.placeholder.com/400x250" alt="Cookies on a baking tray ready for the oven" width="400" height="250" loading="lazy">
+    <img src="https://placehold.co/400x250" alt="Cookies on a baking tray ready for the oven" width="400" height="250" loading="lazy">
     <figcaption>Step 3: Bake at 180C for 12 minutes</figcaption>
   </figure>
 </body>
@@ -857,12 +857,12 @@ A complete recipe page with a main hero image (not lazy loaded since it is above
 
   <h2>Featured Image</h2>
   <figure>
-    <img src="https://via.placeholder.com/500x350" alt="A scenic mountain landscape" width="500" height="350" loading="lazy">
+    <img src="https://placehold.co/500x350" alt="A scenic mountain landscape" width="500" height="350" loading="lazy">
     <figcaption>The Himalayas at sunrise, photographed by Priya Sharma</figcaption>
   </figure>
 
   <h2>Watch the Video</h2>
-  <video width="600" controls poster="https://via.placeholder.com/600x400">
+  <video width="600" controls poster="https://placehold.co/600x400">
     <source src="tour.mp4" type="video/mp4">
     <source src="tour.webm" type="video/webm">
     Your browser does not support video.
@@ -907,27 +907,27 @@ A comprehensive media showcase demonstrating every best practice: figure/figcapt
 
   <h1>Ananya Singh</h1>
   <figure>
-    <img src="https://via.placeholder.com/200x200" alt="Profile photo of Ananya Singh" width="200" height="200">
+    <img src="https://placehold.co/200x200" alt="Profile photo of Ananya Singh" width="200" height="200">
     <figcaption>Student developer from Bangalore</figcaption>
   </figure>
 
   <h2>Introduction Video</h2>
-  <video width="600" controls poster="https://via.placeholder.com/600x400">
+  <video width="600" controls poster="https://placehold.co/600x400">
     <source src="intro.mp4" type="video/mp4">
     Your browser does not support video.
   </video>
 
   <h2>My Projects</h2>
   <figure>
-    <img src="https://via.placeholder.com/400x250" alt="Screenshot of blog website" width="400" height="250" loading="lazy">
+    <img src="https://placehold.co/400x250" alt="Screenshot of blog website" width="400" height="250" loading="lazy">
     <figcaption>Project 1: Personal Blog</figcaption>
   </figure>
   <figure>
-    <img src="https://via.placeholder.com/400x250" alt="Screenshot of recipe website" width="400" height="250" loading="lazy">
+    <img src="https://placehold.co/400x250" alt="Screenshot of recipe website" width="400" height="250" loading="lazy">
     <figcaption>Project 2: Recipe Collection</figcaption>
   </figure>
   <figure>
-    <img src="https://via.placeholder.com/400x250" alt="Screenshot of photo gallery" width="400" height="250" loading="lazy">
+    <img src="https://placehold.co/400x250" alt="Screenshot of photo gallery" width="400" height="250" loading="lazy">
     <figcaption>Project 3: Photo Gallery</figcaption>
   </figure>
 

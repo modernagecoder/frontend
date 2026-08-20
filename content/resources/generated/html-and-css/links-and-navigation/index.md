@@ -85,9 +85,9 @@ An **external link** goes to another website. You use a complete URL starting wi
 [Wikipedia](https://www.wikipedia.org)
 ```
 
-Always prefer `https://` over `http://`. It is the secure version.
+Always prefer `https://` over `http://`, it is the secure version.
 
-### target="_blank": Opening Links in a New Tab
+### target="_blank", Opening Links in a New Tab
 
 By default, clicking a link replaces the current page. To open the link in a new browser tab (so users can come back to your page), use `target="_blank"`:
 

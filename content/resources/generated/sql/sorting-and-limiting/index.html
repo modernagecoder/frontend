@@ -38,7 +38,7 @@
     <meta property="og:url" content="https://learn.modernagecoders.com/resources/sql/sorting-and-limiting">
     <meta property="og:title" content="ORDER BY, LIMIT, and DISTINCT | SQL Tutorial">
     <meta property="og:description" content="Sort results, limit rows returned, remove duplicates, and use OFFSET for pagination.">
-    <meta property="og:image" content="https://learn.modernagecoders.com/images/og-default.jpg">
+    <meta property="og:image" content="https://learn.modernagecoders.com/images/og-modern-age-coders.png">
     <meta property="og:site_name" content="Modern Age Coders">
 
     <!-- Twitter Card Meta Tags -->
@@ -46,7 +46,7 @@
     <meta name="twitter:url" content="https://learn.modernagecoders.com/resources/sql/sorting-and-limiting">
     <meta name="twitter:title" content="ORDER BY, LIMIT, and DISTINCT | SQL Tutorial">
     <meta name="twitter:description" content="Sort results, limit rows returned, remove duplicates, and use OFFSET for pagination.">
-    <meta name="twitter:image" content="https://learn.modernagecoders.com/images/og-default.jpg">
+    <meta name="twitter:image" content="https://learn.modernagecoders.com/images/og-modern-age-coders.png">
 
     <!-- Structured Data (JSON-LD) -->
     <script type="application/ld+json">
@@ -487,7 +487,7 @@ WHERE category = &#39;Sports&#39;;</code></pre></div><div class="mistake-explana
 <li>Multi-column sort: ORDER BY col1, col2 sorts by col1, ties broken by col2. Each column can have its own ASC/DESC.</li>
 <li>ORDER BY accepts column aliases from SELECT and computed expressions. WHERE does not. That is a key difference.</li>
 <li>LIMIT n returns the first n rows. ALWAYS pair with ORDER BY to make the result deterministic.</li>
-<li>MySQL two-syntaxes: LIMIT 10, 5 (offset 10, count 5) and LIMIT 5 OFFSET 10 (count 5, offset 10). Prefer the second, it&#39;s clear and portable.</li>
+<li>MySQL two-syntaxes: LIMIT 10, 5 (offset 10, count 5) and LIMIT 5 OFFSET 10 (count 5, offset 10). Prefer the second. It&#39;s clear and portable.</li>
 <li>Pagination formula: OFFSET = (page_number - 1) * page_size. Page 1 starts at offset 0.</li>
 <li>Deep OFFSET is slow because MySQL scans and discards skipped rows. For production pagination, use keyset pagination with WHERE id &gt; last_seen_id.</li>
 <li>DISTINCT removes duplicate rows from the result. SELECT DISTINCT col1, col2 returns unique combinations of col1 and col2. It applies row-wise, not column-wise.</li>

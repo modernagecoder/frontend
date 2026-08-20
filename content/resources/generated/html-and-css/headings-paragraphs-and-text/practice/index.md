@@ -501,7 +501,7 @@ Press Ctrl+C to copy, Ctrl+V to paste
 
 Each keyboard key is wrapped in its own `` tag so each key looks distinct and monospace.
 
-### Q11. [Medium] Ananya's text has weird spacing: she wants to force 5 spaces but they all collapse. Fix it:
+### Q11. [Medium] Ananya's text has weird spacing. She wants to force 5 spaces but they all collapse. Fix it:
 
 ```
 Hello     World

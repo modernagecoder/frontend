@@ -161,7 +161,7 @@ SELECT AVG(amount) FROM orders WHERE status = 'Delivered';
 
 Sum of delivered: 27600. Count: 8. Avg: 3450.00.
 
-### Q16. [Medium] Count how many orders each status type has (preview of GROUP BY: use conditional aggregation).
+### Q16. [Medium] Count how many orders each status type has (preview of GROUP BY. Use conditional aggregation).
 
 *Hint:* SUM(CASE WHEN ...).
 

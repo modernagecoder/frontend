@@ -411,7 +411,7 @@ console.log(!!"0");
 
 Double NOT converts to boolean. Empty string, 0, null, undefined are falsy (false). Non-empty strings (including "0") and non-zero numbers are truthy (true).
 
-### Q5. [Medium] Write an HTML page with a number input. When a button is clicked, display whether the number is positive, negative, or zero, AND whether it is even or odd: all using ternary operators.
+### Q5. [Medium] Write an HTML page with a number input. When a button is clicked, display whether the number is positive, negative, or zero, AND whether it is even or odd, all using ternary operators.
 
 *Hint:* Use two ternary operators: one for sign, one for even/odd.
 

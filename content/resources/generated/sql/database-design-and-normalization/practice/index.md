@@ -226,7 +226,7 @@ A good compromise is ULID or UUIDv7, which are UUID-format but time-ordered, mit
 
 **Answer:** Four tables: customers(id, name); items(id, name, price); invoices(id, customer_id, FK to customers); invoice_items(invoice_id, item_id, qty, unit_price, PK=(invoice_id,item_id), FKs to invoices and items). Note unit_price snapshot on invoice_items, captures price at sale time.
 
-This is a canonical exam normalization. Always keep unit_price on the line item, it is not duplication, it is historical truth.
+This is a canonical exam normalization. Always keep unit_price on the line item. It is not duplication, it is historical truth.
 
 ### Q10. [Hard] Why are denormalized counts (e.g. post_count on categories) risky in distributed or replicated setups?
 

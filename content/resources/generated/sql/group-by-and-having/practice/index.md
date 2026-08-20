@@ -499,7 +499,7 @@ ORDER BY month;
 
 Laptop sales: id 1 Jan (55000), 3 Jan (60000), 6 Feb (58000), 9 Mar (65000), 12 Apr (54000), 14 Apr (62000), 15 Apr (57000). Jan 115000, Feb 58000, Mar 65000, Apr 173000. 4 rows.
 
-### Q18. [Hard] Show top salesperson per region (tricky: might need subquery).
+### Q18. [Hard] Show top salesperson per region (tricky, might need subquery).
 
 *Hint:* Join with subquery that finds region-max totals.
 

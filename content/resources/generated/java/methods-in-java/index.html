@@ -38,7 +38,7 @@
     <meta property="og:url" content="https://learn.modernagecoders.com/resources/java/methods-in-java">
     <meta property="og:title" content="Methods in Java | Java Tutorial">
     <meta property="og:description" content="Define methods with parameters and return types, understand method overloading, pass-by-value, and varargs.">
-    <meta property="og:image" content="https://learn.modernagecoders.com/images/og-default.jpg">
+    <meta property="og:image" content="https://learn.modernagecoders.com/images/og-modern-age-coders.png">
     <meta property="og:site_name" content="Modern Age Coders">
 
     <!-- Twitter Card Meta Tags -->
@@ -46,7 +46,7 @@
     <meta name="twitter:url" content="https://learn.modernagecoders.com/resources/java/methods-in-java">
     <meta name="twitter:title" content="Methods in Java | Java Tutorial">
     <meta name="twitter:description" content="Define methods with parameters and return types, understand method overloading, pass-by-value, and varargs.">
-    <meta name="twitter:image" content="https://learn.modernagecoders.com/images/og-default.jpg">
+    <meta name="twitter:image" content="https://learn.modernagecoders.com/images/og-modern-age-coders.png">
 
     <!-- Structured Data (JSON-LD) -->
     <script type="application/ld+json">
@@ -228,7 +228,7 @@ void greet(String name) {
     System.out.println("Hello, " + name);
 }
 
-// return method , computes and returns a value
+// return method, computes and returns a value
 int add(int a, int b) {
     return a + b;
 }</code></pre><p>Once a <code>return</code> statement is executed, the method terminates immediately. Code after <code>return</code> is unreachable and causes a compilation error.</p><h3>2. Method Overloading</h3><p>Method overloading means having multiple methods with the <strong>same name</strong> but <strong>different parameter lists</strong> in the same class. The compiler determines which method to call based on the number, types, and order of arguments at compile time.</p><p>Valid overloading depends on the parameter list:</p><p>- Different number of parameters: <code>add(int a, int b)</code> and <code>add(int a, int b, int c)</code></p><p>- Different parameter types: <code>add(int a, int b)</code> and <code>add(double a, double b)</code></p><p>- Different parameter order: <code>display(String s, int n)</code> and <code>display(int n, String s)</code></p><p>Overloading is NOT determined by return type alone. You cannot have two methods that differ only in return type.</p><h3>3. Pass-by-Value in Java</h3><p>Java is <strong>strictly pass-by-value</strong>. This is one of the most misunderstood concepts:</p><p><strong>For primitives:</strong> A copy of the value is passed. Changes to the parameter inside the method do not affect the original variable.</p><pre><code>void changeValue(int x) {

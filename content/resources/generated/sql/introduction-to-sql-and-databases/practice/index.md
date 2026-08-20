@@ -169,7 +169,7 @@ TRUNCATE is faster but a sledgehammer. It cannot be filtered, it resets AUTO_INC
 
 This is a real architectural conversation. Most fintechs (Razorpay, PhonePe, Stripe) run their core ledger on PostgreSQL precisely because SQL's ACID guarantees prevent the kinds of bugs that lose customer money. NoSQL is added later for scale-out caches, search, and analytics.
 
-### Q19. [Hard] Why is the relational model called "relational": what is being related to what?
+### Q19. [Hard] Why is the relational model called "relational", what is being related to what?
 
 *Hint:* It is not just about relationships between tables.
 
@@ -242,7 +242,7 @@ In modern DevOps, permissions are often managed declaratively through tools like
 
 Typical workflow: write a SQL query that joins, filters, and aggregates 100M rows down to 50K, then load that into a pandas DataFrame and apply scikit-learn. Trying to do step one in pandas would be slow or impossible because of memory limits.
 
-### Q7. [Hard] Imagine your manager says "let's use Excel as our customer database: we have only 50,000 customers". Give three reasons against this.
+### Q7. [Hard] Imagine your manager says "let's use Excel as our customer database. We have only 50,000 customers". Give three reasons against this.
 
 *Hint:* Concurrency, integrity, scale.
 
@@ -384,7 +384,7 @@ How many rows will be in orders after this?
 
 **C is correct.** PostgreSQL has best-in-class support for JSON/JSONB, native arrays, GIN/GIST indexing, and is free. MySQL has JSON support but PostgreSQL is generally considered stronger for these features. Oracle is paid. SQLite is too lightweight for serious production use.
 
-### Q20. [Hard] Match the correct pairs: 1) DDL: CREATE, 2) DML: UPDATE, 3) DCL: REVOKE, 4) TCL: ROLLBACK. Which option correctly describes them all?
+### Q20. [Hard] Match the correct pairs: 1) DDL, CREATE, 2) DML, UPDATE, 3) DCL, REVOKE, 4) TCL, ROLLBACK. Which option correctly describes them all?
 
 **D is correct.** CREATE = DDL (structure), UPDATE = DML (data), REVOKE = DCL (permissions), ROLLBACK = TCL (transactions). All four pairs are correctly matched.
 

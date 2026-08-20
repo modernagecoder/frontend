@@ -51,10 +51,10 @@ Any blog, documentation site, or online article uses these tags constantly. If y
 
 HTML has six heading levels, from `` (most important) to `` (least important). Browsers give each level a smaller default size.
 
-- ``, The main title. Use only ONE h1 per page. This is what the page is about.
+- ``: The main title. Use only ONE h1 per page. This is what the page is about.
 - ``, Section titles. Use as many as needed.
 - ``, Sub-section titles inside h2 sections.
-- ``, ``, ``, Rarely used, only for very deep hierarchies.
+- ``, ``, ``: Rarely used, only for very deep hierarchies.
 
 **Important rule:** Only one `` per page is the best practice for SEO. Think of it like the title of a book, a book has only one title, not ten.
 
@@ -78,8 +78,8 @@ HTML has many tags to format text:
 
 - ``, Important text (displays bold). Semantic.
 - ``, Stressed/emphasised text (displays italic). Semantic.
-- ``, Plain bold text (no extra meaning). Use `` instead for important content.
-- ``, Plain italic text. Use `` instead for stressed content.
+- ``: Plain bold text (no extra meaning). Use `` instead for important content.
+- ``: Plain italic text. Use `` instead for stressed content.
 - ``, Highlighted text (yellow background by default).
 - ``, Smaller text, often used for fine print or side notes.
 - ``, Subscript (below the line), like H2O.

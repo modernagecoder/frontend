@@ -189,7 +189,7 @@ SELECT NULLIF(10, 10), NULLIF(10, 5);
 
 NULLIF(10, 10): args equal, returns NULL. NULLIF(10, 5): args differ, returns the first arg (10).
 
-### Q18. [Medium] Find students whose email contains an underscore. Remember _ is a wildcard: you need to escape it.
+### Q18. [Medium] Find students whose email contains an underscore. Remember _ is a wildcard. You need to escape it.
 
 *Hint:* ESCAPE clause.
 

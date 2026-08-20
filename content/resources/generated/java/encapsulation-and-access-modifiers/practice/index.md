@@ -329,7 +329,7 @@ The constructor applies `Math.abs()` to the input, converting -5 to 5. This vali
 
 *Hint:* Think about future changes, binary compatibility, and the ability to add logic later.
 
-**Answer:** Even without validation, getters/setters provide: (1) **Future-proofing**. You can add validation, logging, or computed values later without changing the public API. (2) **Read-only control**, you can omit setters for fields that should not change. (3) **Binary compatibility**, changing a public field to a method requires recompiling all dependent code. (4) **Framework compatibility**, many Java frameworks (Spring, Hibernate, Jackson) require JavaBeans conventions with getters/setters.
+**Answer:** Even without validation, getters/setters provide: (1) **Future-proofing**. You can add validation, logging, or computed values later without changing the public API. (2) **Read-only control**. You can omit setters for fields that should not change. (3) **Binary compatibility**, changing a public field to a method requires recompiling all dependent code. (4) **Framework compatibility**, many Java frameworks (Spring, Hibernate, Jackson) require JavaBeans conventions with getters/setters.
 
 The cost of writing getters/setters is minimal. The cost of refactoring a public field to a method when you realize you need validation or logging is significant, especially in a large codebase. Encapsulation is a one-time investment that protects against future maintenance pain.
 

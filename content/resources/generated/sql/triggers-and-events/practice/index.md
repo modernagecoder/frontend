@@ -310,7 +310,7 @@ If you need catch-up behaviour, store the last-processed timestamp in a table an
 
 Triggers are powerful but invisible. The more you chain them, the harder the system is to debug.
 
-### Q13. [Hard] ALTER EVENT rebuild_daily DISABLE;: what happens next Monday at the scheduled time?
+### Q13. [Hard] ALTER EVENT rebuild_daily DISABLE;, what happens next Monday at the scheduled time?
 
 *Hint:* Disabled events do not fire.
 

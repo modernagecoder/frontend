@@ -38,7 +38,7 @@
     <meta property="og:url" content="https://learn.modernagecoders.com/resources/sql/pattern-matching-and-null">
     <meta property="og:title" content="LIKE Pattern Matching and NULL Handling | SQL Tutorial">
     <meta property="og:description" content="Search with LIKE, wildcards %, _, handle NULL with IS NULL, IS NOT NULL, COALESCE, IFNULL.">
-    <meta property="og:image" content="https://learn.modernagecoders.com/images/og-default.jpg">
+    <meta property="og:image" content="https://learn.modernagecoders.com/images/og-modern-age-coders.png">
     <meta property="og:site_name" content="Modern Age Coders">
 
     <!-- Twitter Card Meta Tags -->
@@ -46,7 +46,7 @@
     <meta name="twitter:url" content="https://learn.modernagecoders.com/resources/sql/pattern-matching-and-null">
     <meta name="twitter:title" content="LIKE Pattern Matching and NULL Handling | SQL Tutorial">
     <meta name="twitter:description" content="Search with LIKE, wildcards %, _, handle NULL with IS NULL, IS NOT NULL, COALESCE, IFNULL.">
-    <meta name="twitter:image" content="https://learn.modernagecoders.com/images/og-default.jpg">
+    <meta name="twitter:image" content="https://learn.modernagecoders.com/images/og-modern-age-coders.png">
 
     <!-- Structured Data (JSON-LD) -->
     <script type="application/ld+json">
@@ -275,7 +275,7 @@ SELECT name FROM students WHERE email IS NULL;
 
 -- Find students with emails
 SELECT name FROM students WHERE email IS NOT NULL;
--- Returns: the other 8 students</code></pre><p><strong>NEVER</strong> write <code>WHERE email = NULL</code>. It always returns 0 rows.</p><h3>9. COALESCE: First Non-NULL</h3><p><code>COALESCE(val1, val2, val3, ...)</code> returns the first non-NULL value from the argument list.</p><pre><code>-- Show email, or 'No email' if NULL
+-- Returns: the other 8 students</code></pre><p><strong>NEVER</strong> write <code>WHERE email = NULL</code>, it always returns 0 rows.</p><h3>9. COALESCE, First Non-NULL</h3><p><code>COALESCE(val1, val2, val3, ...)</code> returns the first non-NULL value from the argument list.</p><pre><code>-- Show email, or 'No email' if NULL
 SELECT name, COALESCE(email, 'No email') AS contact FROM students;
 
 -- Show marks, or 0 if NULL

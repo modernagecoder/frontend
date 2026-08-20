@@ -38,7 +38,7 @@
     <meta property="og:url" content="https://learn.modernagecoders.com/resources/sql/conditional-logic-case-when">
     <meta property="og:title" content="Conditional Logic - CASE WHEN, IF, IFNULL | SQL Tutorial">
     <meta property="og:description" content="Add if-else logic to queries with CASE expressions, IF function, and conditional aggregation patterns.">
-    <meta property="og:image" content="https://learn.modernagecoders.com/images/og-default.jpg">
+    <meta property="og:image" content="https://learn.modernagecoders.com/images/og-modern-age-coders.png">
     <meta property="og:site_name" content="Modern Age Coders">
 
     <!-- Twitter Card Meta Tags -->
@@ -46,7 +46,7 @@
     <meta name="twitter:url" content="https://learn.modernagecoders.com/resources/sql/conditional-logic-case-when">
     <meta name="twitter:title" content="Conditional Logic - CASE WHEN, IF, IFNULL | SQL Tutorial">
     <meta name="twitter:description" content="Add if-else logic to queries with CASE expressions, IF function, and conditional aggregation patterns.">
-    <meta name="twitter:image" content="https://learn.modernagecoders.com/images/og-default.jpg">
+    <meta name="twitter:image" content="https://learn.modernagecoders.com/images/og-modern-age-coders.png">
 
     <!-- Structured Data (JSON-LD) -->
     <script type="application/ld+json">
@@ -252,7 +252,7 @@ END</code></pre><pre><code>SELECT name, country,
     WHEN 'UK' THEN 'United Kingdom'
     ELSE 'Other'
   END AS country_full
-FROM customers;</code></pre><p>Simple CASE only supports equality. If you need &gt;, &lt;, BETWEEN, LIKE, IS NULL, use searched CASE. For NULL comparison the simple form fails silently, <code>CASE x WHEN NULL THEN ...</code> is always false.</p><h3>3. CASE in SELECT: Computed Columns</h3><p>The bread-and-butter use case. A CASE in the SELECT list creates a new column per row:</p><pre><code>SELECT id, amount,
+FROM customers;</code></pre><p>Simple CASE only supports equality. If you need &gt;, &lt;, BETWEEN, LIKE, IS NULL, use searched CASE. For NULL comparison the simple form fails silently, <code>CASE x WHEN NULL THEN ...</code> is always false.</p><h3>3. CASE in SELECT, Computed Columns</h3><p>The bread-and-butter use case. A CASE in the SELECT list creates a new column per row:</p><pre><code>SELECT id, amount,
   CASE
     WHEN amount &gt; 5000 THEN 'Large'
     WHEN amount &gt; 1000 THEN 'Medium'

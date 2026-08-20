@@ -513,7 +513,7 @@ ORDER BY city ASC, category DESC;
 
 Lists unique pairs. Bengaluru (Sports, Grocery, Electronics), Delhi (Grocery, Electronics), Mumbai (Sports, Electronics), Pune (Sports, Grocery). Note DESC puts Sports before Grocery before Electronics within each city.
 
-### Q20. [Hard] Find the 3 cheapest products in each category using LIMIT (hint: you cannot do it with a single LIMIT: but write a query for just Grocery).
+### Q20. [Hard] Find the 3 cheapest products in each category using LIMIT (hint: you cannot do it with a single LIMIT, but write a query for just Grocery).
 
 *Hint:* For a single category, use WHERE + ORDER BY + LIMIT.
 
@@ -540,7 +540,7 @@ FROM products;
 
 COUNT(*) = 12 total products. COUNT(DISTINCT category) = 3 (Electronics, Grocery, Sports). COUNT(DISTINCT city) = 4 (Mumbai, Delhi, Bengaluru, Pune).
 
-### Q22. [Hard] Return the top 3 cities by the number of products they have. (Hint: you'll need GROUP BY: preview of chapter 10.)
+### Q22. [Hard] Return the top 3 cities by the number of products they have. (Hint: you'll need GROUP BY, preview of chapter 10.)
 
 *Hint:* GROUP BY city, COUNT(*), ORDER BY count DESC.
 

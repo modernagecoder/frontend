@@ -38,7 +38,7 @@
     <meta property="og:url" content="https://learn.modernagecoders.com/resources/sql/insert-update-delete">
     <meta property="og:title" content="INSERT, UPDATE, DELETE - Manipulating Data | SQL Tutorial">
     <meta property="og:description" content="Add new rows with INSERT, change data with UPDATE, remove rows with DELETE, and the WHERE clause.">
-    <meta property="og:image" content="https://learn.modernagecoders.com/images/og-default.jpg">
+    <meta property="og:image" content="https://learn.modernagecoders.com/images/og-modern-age-coders.png">
     <meta property="og:site_name" content="Modern Age Coders">
 
     <!-- Twitter Card Meta Tags -->
@@ -46,7 +46,7 @@
     <meta name="twitter:url" content="https://learn.modernagecoders.com/resources/sql/insert-update-delete">
     <meta name="twitter:title" content="INSERT, UPDATE, DELETE - Manipulating Data | SQL Tutorial">
     <meta name="twitter:description" content="Add new rows with INSERT, change data with UPDATE, remove rows with DELETE, and the WHERE clause.">
-    <meta name="twitter:image" content="https://learn.modernagecoders.com/images/og-default.jpg">
+    <meta name="twitter:image" content="https://learn.modernagecoders.com/images/og-modern-age-coders.png">
 
     <!-- Structured Data (JSON-LD) -->
     <script type="application/ld+json">
@@ -218,7 +218,7 @@ VALUES (6, 'Diya Kapoor', 'Chennai', 88, 1);</code></pre><p>Safer and self-docum
     (7, 'Arjun Mehta',  'Ahmedabad', 81),
     (8, 'Sneha Patel',  'Jaipur',    90);</code></pre><p>One round-trip to the server, often 10-100x faster than three separate INSERTs. The <code>active</code> column isn't specified and will use its DEFAULT (or NULL).</p><h4>Form 4: INSERT ... SELECT (Copy Data From Another Table)</h4><pre><code>-- Copy high-scoring students into a separate table.
 INSERT INTO top_students (id, name, marks)
-SELECT id, name, marks FROM students WHERE marks &gt;= 90;</code></pre><p>Powerful for data migrations, archival, and populating reporting tables. No VALUES keyword, the SELECT provides all rows.</p><h3>2. UPDATE: Changing Existing Rows</h3><h4>Basic UPDATE</h4><pre><code>UPDATE students
+SELECT id, name, marks FROM students WHERE marks &gt;= 90;</code></pre><p>Powerful for data migrations, archival, and populating reporting tables. No VALUES keyword, the SELECT provides all rows.</p><h3>2. UPDATE, Changing Existing Rows</h3><h4>Basic UPDATE</h4><pre><code>UPDATE students
 SET marks = 90
 WHERE id = 3;</code></pre><p>Rohan's marks change from 78 to 90. One row affected.</p><h4>Update Multiple Columns in One Statement</h4><pre><code>UPDATE students
 SET marks = 95, active = 1

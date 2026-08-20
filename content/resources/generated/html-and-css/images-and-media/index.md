@@ -173,7 +173,7 @@ For practice and projects, use free image sites that allow commercial use:
 - **Unsplash** (unsplash.com), high-quality photos
 - **Pexels** (pexels.com), free photos and videos
 - **Pixabay** (pixabay.com), photos, illustrations, and videos
-- **placeholder.com** or **via.placeholder.com**, placeholder images while developing
+- **placehold.co**, placeholder images while developing
 
 Never steal images from random websites, many are copyrighted. Always use images you have permission to use.
 
@@ -192,7 +192,7 @@ Never steal images from random websites, many are copyrighted. Always use images
 <body>
   <h1>My Pet</h1>
   <p>Meet Buddy, my golden retriever.</p>
-  <img src="https://via.placeholder.com/400x300" alt="A golden retriever dog sitting on grass" width="400" height="300">
+  <img src="https://placehold.co/400x300" alt="A golden retriever dog sitting on grass" width="400" height="300">
   <p>He loves playing fetch and going for walks.</p>
 </body>
 </html>
@@ -219,11 +219,11 @@ A page with a heading 'My Pet', a paragraph, a 400x300 image, and another paragr
 <body>
   <h1>Famous Indian Landmarks</h1>
   <figure>
-    <img src="https://via.placeholder.com/500x300" alt="Taj Mahal, white marble monument" width="500" height="300">
+    <img src="https://placehold.co/500x300" alt="Taj Mahal, white marble monument" width="500" height="300">
     <figcaption>The Taj Mahal in Agra, built by Shah Jahan in memory of his wife.</figcaption>
   </figure>
   <figure>
-    <img src="https://via.placeholder.com/500x300" alt="India Gate at night with lights" width="500" height="300">
+    <img src="https://placehold.co/500x300" alt="India Gate at night with lights" width="500" height="300">
     <figcaption>India Gate in New Delhi, a war memorial for Indian soldiers.</figcaption>
   </figure>
 </body>
@@ -253,22 +253,22 @@ A page with two image figures, each with a caption below it describing a famous 
   <h2>Recent Photos</h2>
 
   <figure>
-    <img src="https://via.placeholder.com/300x200" alt="Sunrise over the mountains" width="300" height="200" loading="lazy">
+    <img src="https://placehold.co/300x200" alt="Sunrise over the mountains" width="300" height="200" loading="lazy">
     <figcaption>Sunrise at Manali</figcaption>
   </figure>
 
   <figure>
-    <img src="https://via.placeholder.com/300x200" alt="Waves crashing on a beach" width="300" height="200" loading="lazy">
+    <img src="https://placehold.co/300x200" alt="Waves crashing on a beach" width="300" height="200" loading="lazy">
     <figcaption>Goa Beach</figcaption>
   </figure>
 
   <figure>
-    <img src="https://via.placeholder.com/300x200" alt="A plate of biryani" width="300" height="200" loading="lazy">
+    <img src="https://placehold.co/300x200" alt="A plate of biryani" width="300" height="200" loading="lazy">
     <figcaption>Hyderabadi Biryani</figcaption>
   </figure>
 
   <figure>
-    <img src="https://via.placeholder.com/300x200" alt="Colourful rangoli design" width="300" height="200" loading="lazy">
+    <img src="https://placehold.co/300x200" alt="Colourful rangoli design" width="300" height="200" loading="lazy">
     <figcaption>Diwali Rangoli</figcaption>
   </figure>
 </body>
@@ -295,7 +295,7 @@ A photo gallery page with four figures, each showing an image and a caption.
 </head>
 <body>
   <h1>Watch My Video</h1>
-  <video width="600" controls poster="https://via.placeholder.com/600x400">
+  <video width="600" controls poster="https://placehold.co/600x400">
     <source src="my-video.mp4" type="video/mp4">
     <source src="my-video.webm" type="video/webm">
     Your browser does not support the video tag.

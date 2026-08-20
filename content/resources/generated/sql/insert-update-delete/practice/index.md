@@ -359,7 +359,7 @@ VALUES (1, 'Aarav Sharma', 'Mumbai', 87);
 
 This is the most common INSERT error. The fix depends on intent: if you want to skip silently, use INSERT IGNORE. If you want to merge, use ON DUPLICATE KEY UPDATE. If you truly want a new row, pick a different id (or use AUTO_INCREMENT).
 
-### Q9. [Hard] You're building a likes counter for a post. Table: post_likes (post_id INT PK, likes INT NOT NULL DEFAULT 0). Write the SQL that runs when a user clicks Like: increment the count, or create a row with likes=1 if the post has no likes yet.
+### Q9. [Hard] You're building a likes counter for a post. Table: post_likes (post_id INT PK, likes INT NOT NULL DEFAULT 0). Write the SQL that runs when a user clicks Like, increment the count, or create a row with likes=1 if the post has no likes yet.
 
 *Hint:* ON DUPLICATE KEY UPDATE.
 

@@ -115,13 +115,13 @@ Works with the *data* inside tables.
 
 CommandPurpose`SELECT`Retrieve rows (technically called DQL by some books)`INSERT`Add new rows`UPDATE`Change existing rows`DELETE`Remove rows
 
-#### DCL: Data Control Language
+#### DCL, Data Control Language
 
 Controls who can do what, permissions and access rights.
 
 CommandPurpose`GRANT`Give a user permission`REVOKE`Remove a permission
 
-#### TCL: Transaction Control Language
+#### TCL, Transaction Control Language
 
 Manages transactions, groups of statements that should succeed or fail together.
 
@@ -137,7 +137,7 @@ Whether **table and column names** are case-sensitive depends on the database an
 
 ## Code Examples
 
-### Looking at a Sample Table: students
+### Looking at a Sample Table, students
 
 ```sql
 -- This is the students table that we will use throughout this chapter.

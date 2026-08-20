@@ -246,9 +246,9 @@ int(True)      # Bool to int: 1
 int(False)     # Bool to int: 0
 ```
 
-**Warning:** `int("hello")` causes an error. You can only convert strings that contain valid numbers.
+**Warning:** `int("hello")` causes an error, you can only convert strings that contain valid numbers.
 
-#### float(): Convert to Float
+#### float(), Convert to Float
 
 ```
 float("3.14")   # String to float: 3.14
@@ -458,7 +458,7 @@ decimal = float(whole)
 print("Int:", whole, "| Float:", decimal)
 print()
 
-# Float to int (truncates: does NOT round!)
+# Float to int (truncates, does NOT round!)
 pi = 3.99
 truncated = int(pi)
 print("Float:", pi, "| Int:", truncated, "(truncated, not rounded!)")
@@ -502,7 +502,7 @@ bool('Hi'): True
 ### Multiple Assignment and Swapping
 
 ```python
-# Multiple assignment: assign different values in one line
+# Multiple assignment, assign different values in one line
 a, b, c = 10, 20, 30
 print("a =", a, "| b =", b, "| c =", c)
 
@@ -537,10 +537,10 @@ After swap:
 first = Apple | second = Mango
 ```
 
-### Dynamic Typing: Variables Can Change Type
+### Dynamic Typing, Variables Can Change Type
 
 ```python
-# Python is dynamically typed: the same variable can hold different types
+# Python is dynamically typed, the same variable can hold different types
 data = 42
 print("Value:", data, "| Type:", type(data))
 

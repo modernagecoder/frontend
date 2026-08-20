@@ -297,7 +297,7 @@ SELECT @@event_scheduler;
 
 ### 13. Events vs External cron
 
-AspectMySQL EventExternal cronLocationInside the databaseOn a separate hostReplicationReplicates to replicas (or SKIP on replicas if duplicate)Runs wherever cron runsMonitoringLimited, check last_executed in information_schemaFull logging, alertingFailure handlingSilent, errors go to MySQL error logEmail, Slack, PagerDutyVersion controlSchema migrationsCrontab file in git
+AspectMySQL EventExternal cronLocationInside the databaseOn a separate hostReplicationReplicates to replicas (or SKIP on replicas if duplicate)Runs wherever cron runsMonitoringLimited. Check last_executed in information_schemaFull logging, alertingFailure handlingSilent, errors go to MySQL error logEmail, Slack, PagerDutyVersion controlSchema migrationsCrontab file in git
 
 The pragmatic rule: use events for simple database-internal chores. For anything that needs robust monitoring, alerting, or coordination across multiple databases, use a real scheduler.
 

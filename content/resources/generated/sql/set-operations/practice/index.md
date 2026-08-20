@@ -81,7 +81,7 @@ Column names in a UNION come from the first query. Use aliases there to control 
 
 INTERSECT returns rows present in both sets. Users 2 and 3 are in both lists.
 
-### Q9. [Medium] Same data: what does active EXCEPT purchased return?
+### Q9. [Medium] Same data, what does active EXCEPT purchased return?
 
 *Hint:* In active, not in purchased.
 

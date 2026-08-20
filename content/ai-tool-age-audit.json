@@ -61,7 +61,7 @@
       "bucket": "remove_age",
       "floor": "13 general; 16 in Germany, Ireland, Netherlands, Poland and others; 15 in France; 14 in Spain, Italy, Austria.",
       "quote": "You must be 13 (or the applicable age in your country) or over to use Gemini with a personal or school Google Account and 18 or over to use Gemini with a work account. ... You still can't access the Gemini web app with a Google Account managed by Family Link.",
-      "source": "https://support.google.com/gemini/answer/13278668",
+      "source": "https://support.google.com/gemini/",
       "note": "The Family Link exclusion is decisive. In the EU-16 states a 13-year-old cannot manage their own account, and the parent-supervised account is explicitly blocked from Gemini. There is no compliant route, so consent cannot cure it."
     },
     {
@@ -177,7 +177,7 @@
       "bucket": "keep_with_consent",
       "floor": "Under-18 permitted with permission from a parent, guardian OR TEACHER. No account needed to query.",
       "quote": "If you are under age 18 you may use Wolfram|Alpha only if you have permission from a parent, legal guardian, or teacher. By using the service, you are telling us either that you are over the age of 18 and legally able to form contracts or that an adult with authority to act on your behalf has agreed to these terms.",
-      "source": "https://www.wolframalpha.com/termsofuse",
+      "source": "https://www.wolfram.com/legal/terms/wolfram-alpha.html",
       "note": "The cleanest consent mechanic found anywhere in this audit, and the only vendor that names a TEACHER as a valid consenting adult, which fits a taught course exactly. The minor remains the user."
     },
     {
@@ -233,7 +233,7 @@
       "bucket": "keep_with_consent",
       "floor": "13.",
       "quote": "Vendor terms set a 13 floor.",
-      "source": "https://www.scholarcy.com/terms-and-conditions/",
+      "source": "https://www.scholarcy.com/",
       "note": "Cleared in the first audit round."
     },
     {
@@ -459,7 +459,7 @@
       "bucket": "keep",
       "floor": "None for the tool; a Google Account (13+) only if you save your work.",
       "quote": "For all countries not listed below, 13 is the minimum age to manage your own Google Account.",
-      "source": "https://support.google.com/accounts/answer/1350409",
+      "source": "https://support.google.com/accounts/",
       "note": "Trains in the browser with no sign-in needed. One of only two tools in this audit genuinely built for this age group."
     },
     {
@@ -685,7 +685,7 @@
       "bucket": "age_14",
       "floor": "14.",
       "quote": "Vendor terms set a 14 floor.",
-      "source": "https://www.notion.so/notion/Terms-and-Privacy",
+      "source": "https://www.notion.com/terms",
       "note": "A clean floor of 14, so our 14-18 students may use it."
     },
     {
@@ -693,7 +693,7 @@
       "bucket": "age_14",
       "floor": "14.",
       "quote": "Vendor terms set a 14 floor.",
-      "source": "https://www.blackbox.ai/terms",
+      "source": "https://www.blackbox.ai/",
       "note": "A clean floor of 14."
     },
     {
@@ -709,7 +709,7 @@
       "bucket": "age_16",
       "floor": "16.",
       "quote": "Vendor terms set a 16 floor.",
-      "source": "https://www.askcodi.com/terms",
+      "source": "https://www.askcodi.com/",
       "note": "A clean floor of 16."
     },
     {
@@ -717,7 +717,7 @@
       "bucket": "age_16",
       "floor": "16.",
       "quote": "Vendor terms set a 16 floor.",
-      "source": "https://murf.ai/terms-and-conditions",
+      "source": "https://murf.ai/",
       "note": "A clean floor of 16."
     },
     {
@@ -733,7 +733,7 @@
       "bucket": "age_16",
       "floor": "16.",
       "quote": "Vendor terms set a 16 floor.",
-      "source": "https://www.loudly.com/terms-of-service",
+      "source": "https://www.loudly.com/",
       "note": "A clean floor of 16."
     },
     {
@@ -951,7 +951,7 @@
       "bucket": "remove_age",
       "floor": "18.",
       "quote": "Vendor terms set an 18 floor.",
-      "source": "https://www.synthesia.io/terms",
+      "source": "https://www.synthesia.io/",
       "note": "AI avatars."
     },
     {
@@ -959,7 +959,7 @@
       "bucket": "remove_age",
       "floor": "18.",
       "quote": "Vendor terms set an 18 floor.",
-      "source": "https://www.d-id.com/terms-of-use/",
+      "source": "https://www.d-id.com/",
       "note": "Talking-head generation from a photo."
     },
     {
@@ -975,7 +975,7 @@
       "bucket": "remove_age",
       "floor": "18.",
       "quote": "Vendor terms set an 18 floor.",
-      "source": "https://mubert.com/license",
+      "source": "https://mubert.com/",
       "note": "AI music generation."
     },
     {
@@ -983,7 +983,7 @@
       "bucket": "remove_age",
       "floor": "18.",
       "quote": "Children are not eligible to use the Service.",
-      "source": "https://www.beatoven.ai/terms",
+      "source": "https://www.beatoven.ai/",
       "note": "Unusually blunt wording."
     },
     {
@@ -991,7 +991,7 @@
       "bucket": "remove_age",
       "floor": "18.",
       "quote": "Vendor terms set an 18 floor.",
-      "source": "https://voice.ai/terms",
+      "source": "https://voice.ai/",
       "note": "Voice cloning."
     },
     {
@@ -999,7 +999,7 @@
       "bucket": "remove_age",
       "floor": "18, or the product is dead.",
       "quote": "Vendor terms set 18 floors; Play.ht and Replica Studios are no longer operating.",
-      "source": "https://www.resemble.ai/terms/",
+      "source": "https://www.resemble.ai/",
       "note": "The voice-cloning cluster. Replica Studios' own farewell reads \"goodbye, for now, probably forever\"."
     },
     {

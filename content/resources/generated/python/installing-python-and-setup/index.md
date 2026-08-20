@@ -352,7 +352,7 @@ Favourite Subject: Computer Science
 # pip --version
 
 # If both work, your installation is correct.
-# pip is Python's package manager: it lets you install
+# pip is Python's package manager. It lets you install
 # additional libraries later.
 
 # You can also test Python works by running:

@@ -273,7 +273,7 @@ ORDER BY sale_date;
 
 ## Mixed Questions
 
-### Q1. [Easy] What is returned by AVG(salary) OVER (): with empty OVER parentheses?
+### Q1. [Easy] What is returned by AVG(salary) OVER (), with empty OVER parentheses?
 
 *Hint:* No partition, no order, one single window.
 

@@ -864,13 +864,13 @@ Each link is wrapped in its own paragraph so they appear on separate lines. The 
 <body>
   <h1>My Gallery</h1>
   <h2>Sunset at the Beach</h2>
-  <img src="https://via.placeholder.com/400x250" alt="Orange sunset over the ocean">
+  <img src="https://placehold.co/400x250" alt="Orange sunset over the ocean">
   <p>This photo was taken during our family trip to Goa last summer.</p>
   <h2>Snowy Mountains</h2>
-  <img src="https://via.placeholder.com/400x250" alt="Mountains covered in snow">
+  <img src="https://placehold.co/400x250" alt="Mountains covered in snow">
   <p>We visited the Himalayas in December and saw real snow for the first time.</p>
   <h2>City Skyline</h2>
-  <img src="https://via.placeholder.com/400x250" alt="City buildings at night">
+  <img src="https://placehold.co/400x250" alt="City buildings at night">
   <p>The beautiful night lights of Mumbai from the top of a tall building.</p>
 </body>
 </html>
@@ -971,7 +971,7 @@ This is a practical event invitation you could actually use. Notice how each tag
 <body>
   <h1>Neha Verma</h1>
   <p>Hi, I am Neha. I am a 14-year-old student from Bangalore who loves building things with HTML and CSS.</p>
-  <img src="https://via.placeholder.com/200x200" alt="Photo of Neha">
+  <img src="https://placehold.co/200x200" alt="Photo of Neha">
   <h2>Projects</h2>
   <ol>
     <li>Personal Blog Website</li>

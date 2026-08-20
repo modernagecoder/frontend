@@ -74,7 +74,7 @@ void greet(String name) {
     System.out.println("Hello, " + name);
 }
 
-// return method , computes and returns a value
+// return method, computes and returns a value
 int add(int a, int b) {
     return a + b;
 }
@@ -195,7 +195,7 @@ The call stack stores each method invocation. If the base case is missing or nev
 
 ## Code Examples
 
-### Basic Method: void and Return Types
+### Basic Method, void and Return Types
 
 ```java
 public class MethodBasics {

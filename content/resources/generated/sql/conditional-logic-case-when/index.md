@@ -20,7 +20,7 @@ SQL is a declarative language. You describe *what* you want, not *how* to get it
 MySQL gives you three tools:
 
 - `CASE WHEN`, the SQL-standard, portable, multi-branch conditional. Works in SELECT, WHERE, ORDER BY, GROUP BY, HAVING.
-- `IF(condition, true_value, false_value)`, MySQL-specific shortcut for two branches.
+- `IF(condition, true_value, false_value)`: MySQL-specific shortcut for two branches.
 - `IFNULL(value, default)` and `NULLIF(a, b)`, tiny helpers for null handling.
 
 ```
@@ -117,7 +117,7 @@ FROM customers;
 
 Simple CASE only supports equality. If you need >, <, BETWEEN, LIKE, IS NULL, use searched CASE. For NULL comparison the simple form fails silently, `CASE x WHEN NULL THEN ...` is always false.
 
-### 3. CASE in SELECT: Computed Columns
+### 3. CASE in SELECT, Computed Columns
 
 The bread-and-butter use case. A CASE in the SELECT list creates a new column per row:
 

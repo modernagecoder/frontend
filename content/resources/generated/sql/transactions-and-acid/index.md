@@ -102,19 +102,19 @@ Atomicity is non-negotiable here. Consistency is also at stake: the sum of all b
 
 ### 4. ACID in Detail
 
-#### Atomicity: "all or nothing"
+#### Atomicity, "all or nothing"
 
 Every statement inside the transaction either commits together or rolls back together. Implementation: the storage engine writes changes to a private *undo log*. On ROLLBACK it applies the undo log to return the tables to the previous state. On COMMIT it discards the undo log.
 
-#### Consistency: "valid state to valid state"
+#### Consistency, "valid state to valid state"
 
 A transaction moves the database from one consistent state to another. Constraints (NOT NULL, UNIQUE, FOREIGN KEY, CHECK) are verified at commit (or sooner). A transaction that would violate a constraint is rolled back. Consistency is partly the database's job and partly the developer's, the database enforces declared constraints; the developer is responsible for the higher-level invariants the constraints capture.
 
-#### Isolation: "concurrent transactions don't interfere"
+#### Isolation, "concurrent transactions don't interfere"
 
 Two transactions running at the same time should produce the same result as if they had run one after the other. Pure isolation is expensive, so databases offer *isolation levels*, a knob to trade isolation for concurrency. More on this below.
 
-#### Durability: "committed data survives crashes"
+#### Durability, "committed data survives crashes"
 
 Once COMMIT returns, the changes are on disk (or in a way that can be recovered from disk). If the server loses power the next second, the committed data is still there after reboot. Implementation: the *redo log* (InnoDB's `ib_logfile`) is flushed to disk before COMMIT returns.
 

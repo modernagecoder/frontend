@@ -159,7 +159,7 @@ In Python, True equals 1 and False equals 0 when used in arithmetic. True + True
 
 *Hint:* One stores a value, the other checks a condition.
 
-**Answer:** `x = 5` is **assignment**, it stores the value 5 in the variable x. `x == 5` is **comparison**, it checks whether the current value of x is equal to 5 and returns True or False.
+**Answer:** `x = 5` is **assignment**. It stores the value 5 in the variable x. `x == 5` is **comparison**. It checks whether the current value of x is equal to 5 and returns True or False.
 
 This distinction is crucial in programming. The single = (assignment operator) changes the value of the variable. The double == (comparison operator) asks a question without changing anything. In the code 'if x == 5:', we are asking 'is x equal to 5?'. Writing 'if x = 5:' would be a SyntaxError because assignment is not allowed inside an if condition.
 
@@ -306,7 +306,7 @@ This program demonstrates all four data types working together: name is a string
 
 *Hint:* Think about what happens when a value needs to change, or when the same value is used in multiple places.
 
-**Answer:** We use variables because: (1) **Reusability**, use the same value in many places without retyping. (2) **Easy updates**, change the value once and it updates everywhere. (3) **Readability**, `total_marks` is more meaningful than `500`. (4) **Calculations**, you can perform operations on variables and store results.
+**Answer:** We use variables because: (1) **Reusability**, use the same value in many places without retyping. (2) **Easy updates**, change the value once and it updates everywhere. (3) **Readability**, `total_marks` is more meaningful than `500`. (4) **Calculations**. You can perform operations on variables and store results.
 
 Imagine a program that uses a student's name 20 times. If you type "Aarav Sharma" in 20 places and then need to change it to "Aarav S.", you must find and change all 20 occurrences. With a variable, you change it once: name = "Aarav S." and all 20 uses automatically reflect the new value.
 
@@ -332,7 +332,7 @@ print("I scored " + marks + " marks")
 
 *Hint:* You cannot concatenate strings and integers with +.
 
-**Answer:** The error is `TypeError: can only concatenate str (not "int") to str`. The `+` operator cannot join a string with an integer. **Fix 1:** `print("I scored " + str(marks) + " marks")`, convert marks to string. **Fix 2:** `print("I scored", marks, "marks")`, use comma separation.
+**Answer:** The error is `TypeError: can only concatenate str (not "int") to str`. The `+` operator cannot join a string with an integer. **Fix 1:** `print("I scored " + str(marks) + " marks")`, convert marks to string. **Fix 2:** `print("I scored", marks, "marks")`. Use comma separation.
 
 Python does not automatically convert integers to strings when using +. You must explicitly convert using str(). The comma method is simpler because print() handles the conversion automatically, but it adds spaces between values.
 

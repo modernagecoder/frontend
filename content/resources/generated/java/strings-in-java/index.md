@@ -234,7 +234,7 @@ true
 true
 ```
 
-### String Comparison: == vs .equals() vs .compareTo()
+### String Comparison, == vs .equals() vs .compareTo()
 
 ```java
 public class StringComparison {
