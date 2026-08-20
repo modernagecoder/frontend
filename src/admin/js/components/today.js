@@ -22,6 +22,8 @@ const TodayComponent = {
           <p class="page-subtitle" id="todayDate"></p>
         </div>
         <div class="page-actions">
+          <button class="btn btn-secondary btn-sm" id="todayTestWhatsApp"
+                  title="Send yourself one sample alert to check WhatsApp is working">Test WhatsApp</button>
           <button class="btn btn-secondary btn-sm" id="todayRefresh">Refresh</button>
         </div>
       </div>
@@ -43,7 +45,73 @@ const TodayComponent = {
     const refresh = document.getElementById('todayRefresh');
     if (refresh) refresh.addEventListener('click', () => this.load());
 
+    const test = document.getElementById('todayTestWhatsApp');
+    if (test) test.addEventListener('click', () => this.testWhatsApp());
+
     await this.load();
+  },
+
+  /**
+   * WHATSAPP SELF-TEST
+   *
+   * WhatsApp fails silently by nature — a bad token, a template still awaiting
+   * Meta's approval and a number trying to message itself all look identical
+   * from here: nothing arrives. This asks the server to send one sample alert
+   * and shows Meta's own words back, which is the only way to tell those apart.
+   */
+  async testWhatsApp() {
+    const button = document.getElementById('todayTestWhatsApp');
+    if (button) { button.disabled = true; button.textContent = 'Sending…'; }
+
+    let result;
+    try {
+      result = await api.testWhatsApp();
+    } catch (error) {
+      // The endpoint answers 502 when Meta refuses, and that response body
+      // holds the actual reason. api.js attaches it to the error, so prefer it
+      // over the bare message.
+      result = error.data || { success: false, message: error.message };
+    } finally {
+      if (button) { button.disabled = false; button.textContent = 'Test WhatsApp'; }
+    }
+
+    const problems = (result.results || [])
+      .filter(r => !r.success)
+      .map(r => `<li><b>${escapeHtml(r.to || '')}</b> — ${escapeHtml(r.error || 'unknown error')}</li>`)
+      .join('');
+
+    showModal(`
+      <div class="modal-header">
+        <h2 class="modal-title">${result.success ? '✅ WhatsApp is working' : '❌ WhatsApp did not send'}</h2>
+        <button class="modal-close" onclick="closeModal()" aria-label="Close">&times;</button>
+      </div>
+      <div class="modal-body">
+        <p>${escapeHtml(result.message || '')}</p>
+
+        ${result.missing && result.missing.length ? `
+          <div class="detail-warning">
+            Still missing in Vercel: <b>${escapeHtml(result.missing.join(', '))}</b>.
+            Add them, redeploy, then try again.
+          </div>` : ''}
+
+        ${problems ? `
+          <div class="detail-section">
+            <h3>What Meta said</h3>
+            <ul class="wa-errors">${problems}</ul>
+          </div>` : ''}
+
+        ${result.preview ? `
+          <div class="detail-section">
+            <h3>${result.success ? 'What was sent' : 'What would be sent'}</h3>
+            <pre class="wa-preview">${escapeHtml(result.preview)}</pre>
+            <div class="form-hint" style="margin-top:8px">
+              ${result.usingTemplate
+                ? 'Sent through your approved template.'
+                : 'Sent as plain text. That only works within 24 hours of you messaging your own WhatsApp API number. Set WHATSAPP_TEMPLATE_NAME once Meta approves your template and it will work at any hour.'}
+            </div>
+          </div>` : ''}
+      </div>
+    `);
   },
 
   async load() {

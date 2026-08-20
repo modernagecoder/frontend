@@ -42,9 +42,17 @@ class APIClient {
         window.location.href = 'login.html';
       }
       
-      throw new Error(data.message || data.error || 'API request failed');
+      // Carry the parsed body along with the error. A failing response often
+      // holds the only useful diagnosis — which environment variable is
+      // missing, or what Meta actually said about a rejected WhatsApp send —
+      // and throwing just the message threw that away precisely when it
+      // mattered most.
+      const failure = new Error(data.message || data.error || 'API request failed');
+      failure.status = response.status;
+      failure.data = data;
+      throw failure;
     }
-    
+
     return data;
   }
   
@@ -306,6 +314,19 @@ class APIClient {
     return await this.request(`/admin/callback-requests/${id}`, {
       method: 'DELETE'
     });
+  }
+
+  // ============================================
+  // WHATSAPP
+  // ============================================
+
+  /**
+   * Sends one sample WhatsApp alert and returns exactly what Meta said.
+   * The server refuses this without an admin token, so nobody outside the
+   * panel can use it to flood the owner's phone.
+   */
+  async testWhatsApp() {
+    return await this.request('/admin/test-whatsapp', { method: 'POST' });
   }
 
   // ============================================
