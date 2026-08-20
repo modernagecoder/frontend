@@ -1,170 +1,388 @@
 ---
 title: "Online Coding Classes in Oman | Modern Age Coders"
 description: "Live online coding and mathematics classes in Oman for ages 6 to 67, with small groups, clear USD fees, CBSE context and a free placement class for families."
-canonical: "https://learn.modernagecoders.com/coding-classes-in-oman"
-region: "OM"
-updated: "2026-08-16"
+canonical: https://learn.modernagecoders.com/coding-classes-in-oman
+source: src/pages/coding-classes-in-oman.html
 ---
+> Live online coding and mathematics classes in Oman for ages 6 to 67, with small groups, clear USD fees, CBSE context and a free placement class for families.
 
-# Coding Classes in Oman
+[Home](/) / Coding Classes in Oman
 
-> Oman’s Grade 12 Information Technology assessment assigns Programming for the Web 20 per cent of its first-semester final examination specification. Live lessons can develop the practical skill behind that requirement without becoming school credit. Across Oman, Modern Age Coders supports beginners using blocks and adults working in Python through online teaching.
+Oman / Live online
 
-## What does Oman assess in Information Technology?
+# Build code that survives Oman's exam timetable
 
-The Oman Ministry of Education publishes a detailed assessment document for Information Technology in Grades 11 and 12. It says that continuous assessment contributes 60 per cent of the result in each semester and the final examination contributes 40 per cent. The final examination objectives are split across knowledge and understanding at 40 per cent, application at 25 per cent, analysis at 20 per cent and evaluation at 15 per cent.
+The short answer
 
-The first-semester unit weights are equally useful:
+Oman’s Grade 12 Information Technology assessment assigns Programming for the Web 20 per cent of its first-semester final examination specification. Live lessons can develop the practical skill behind that requirement without becoming school credit. Across Oman, Modern Age Coders supports beginners using blocks and adults working in Python through online teaching.
 
-| Grade and unit | Weight inside the final IT examination | Practical interpretation |
-|---|---:|---|
-| Grade 11, Data Processing and Information | 60 per cent | Clean, validate, represent and explain data |
-| Grade 11, Monitoring and Control | 40 per cent | Inputs, conditions, feedback and control logic |
-| Grade 12, IT in Society | 80 per cent | Evaluate technology using evidence and consequences |
-| Grade 12, Programming for the Web | 20 per cent | Write, test and debug HTML and CSS |
+Coding classes in Oman have to fit two realities. Many learners follow the national General Education Diploma route, while a large Indian expatriate community studies CBSE in 22 schools. Both groups have serious assessment calendars. A useful programme builds working software without turning a school week into a second school day.
 
-The same Ministry document states that the Grade 12 final paper is prepared centrally and taken at Ministry examination centres. Grade 11 teachers prepare their papers against the published content and learning outcomes. The stated final examination duration is three hours for Grade 12 and between two and three hours for Grade 11.
+Modern Age Coders teaches from India to families across Oman. The one-and-a-half-hour time difference keeps Omani and teacher evenings close. Lessons are online, not a claimed local branch. If your search is specifically about model training rather than programming foundations, use the separate [AI and machine learning classes in Oman guide](/ai-and-machine-learning-classes-in-oman).
 
-Primary source: [Oman Ministry of Education Grade 11 and 12 IT assessment document](https://main.moe.gov.om/images/library/file/Book483663.pdf), verified 16 August 2026.
+Book the free first class[Ask on WhatsApp](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20want%20a%20free%20coding%20class%20for%20a%20learner%20in%20Oman.)Read the Oman evidence
 
-This creates a clear boundary. Modern Age Coders is private online teaching. It does not award General Education Diploma credit, replace an Oman school or promise an examination result. A web course can strengthen the practical thinking behind Programming for the Web. The learner's school remains the authority on assessed content.
+No card. No obligation. We call, we do not spam.
 
-The legal framework is also specific. The Ministry of Education reported that Royal Decree 31/2023 issued Oman's School Education Law with 10 chapters and 97 articles. The same report recorded the first implementation of vocational and technical education in business administration and information technology in four schools during 2023/2024, targeting 200 students. That is a formal system development, not a reason to turn every child's coding lesson into a career claim.
+10,000+students taught4.9across 547 Google reviews2020teaching since25+countries6 to 67ages taught5 to 8students per groupCourses for Oman
 
-Primary source: [Oman Ministry of Education report on the School Education Law and curriculum development](https://site.moe.gov.om/en/topics/0/show/2279).
+## Four sensible starting points, not one course for everybody
 
-## Why does CBSE matter so much in Oman?
+These choices cover an early beginner, a learner who needs mathematics to become concrete, a teenager moving into typed code, and a Grade 12 student who sees web programming in Oman's own IT assessment. Placement comes first because a course title is not evidence of readiness.
 
-The Embassy of India in Muscat recorded 22 Indian Schools offering CBSE from kindergarten to Grade 12 and serving more than 48,000 students. Its updated history says the first CBSE school in Oman was established in Darsait in 1975. This is a large country-wide schooling network, not a minor audience segment.
+[![Kids Coding Blocks Masterclass course thumbnail](/images/kids-coding.webp)  Ages 6 to 10 Kids Coding Blocks Masterclass Sequencing, conditions and debugging before syntax becomes the distraction. See the syllabus](/courses/kids-coding-blocks-masterclass)[![Maths Through Coding course thumbnail](/images/maths-through-coding.webp)  Ages 9 to 14 Maths Through Coding Variables, coordinates and patterns become things a learner can run and test. See the syllabus](/courses/maths-through-coding)[![Python Complete Masterclass for Teens course thumbnail](/images/python-teens.webp)  Ages 13 to 18 Python Complete Masterclass for Teens A structured move from logic to functions, data and independent programs. See the syllabus](/courses/python-complete-masterclass-teens)[![HTML and CSS for Beginners course thumbnail](/images/html-css-beginners.webp)  Teens and adults HTML and CSS for Beginners A practical route into the web topic named in Oman's Grade 12 IT specification. See the syllabus](/courses/html-css-course-for-beginners-build-real-websites)
 
-Primary source: [Embassy of India, Indian Schools in Oman](https://www.indemb-oman.gov.in/page/indian-schools-in-oman/), updated August 2026.
+That is four of more than a hundred. The rest, sorted by age and subject, sit on the [course atlas](/course-atlas), and the order we teach them in is on the [coding roadmap](/coding-roadmap).
 
-An India-based teacher and a CBSE learner often share familiar academic vocabulary. That does not mean every student in one school grade belongs in one coding level. The free class checks what the learner can make, explain and repair. A Grade 8 student who has independently built loops, conditions and variables may start differently from a Grade 8 student who has copied a few Python worksheets.
+Oman Ministry of Education / Grade 11 and 12 IT assessment
 
-Omani families in the national system need a different alignment. The Ministry describes Grades 1 to 10 as basic education and Grades 11 and 12 as the post-basic stage. Its IT assessment rewards application, analysis and evaluation as well as recall. A useful lesson therefore asks the learner to trace a failure, compare approaches and justify a decision.
+## What does Oman actually assess in Information Technology?
 
-## How published expectations map to courses
+Last verified: 16 August 2026.
 
-| Published emphasis | What the learner practises | Course |
-|---|---|---|
-| Knowledge and understanding | Name and use a rule without copied steps | [HTML and CSS for Beginners](https://learn.modernagecoders.com/courses/html-css-course-for-beginners-build-real-websites) |
-| Application | Adapt a solution when the input or requirement changes | [Python for Teens](https://learn.modernagecoders.com/courses/python-complete-masterclass-teens) |
-| Analysis | Trace intermediate values and find the assumption that failed | [Problem Solving and DSA for Teens](https://learn.modernagecoders.com/courses/problem-solving-dsa-masterclass-teens) |
-| Evaluation | Compare privacy, accuracy, accessibility and maintainability | [Defensive Cybersecurity for Teens](https://learn.modernagecoders.com/courses/cybersecurity-course-for-teens-ethical-defensive) |
-| Programming for the Web | Build semantic HTML, apply CSS and test a real page | [Frontend Development for Teens](https://learn.modernagecoders.com/courses/frontend-development-masterclass-for-teens) |
-| Continuous project work | Build in stages and explain revisions | [Kids AI Web Development](https://learn.modernagecoders.com/courses/kids-ai-web-development-course) |
+The Ministry of Education's official assessment document gives a much more useful answer than a generic promise to teach digital skills. Continuous assessment contributes 60 per cent of each semester's IT result. The final examination contributes 40 per cent. Within that final examination, knowledge and understanding carry 40 per cent, application 25 per cent, analysis 20 per cent and evaluation 15 per cent.
 
-This is skill alignment, not accreditation. Modern Age Coders cannot grant Oman school credit, a diploma, a scholarship or an admission decision.
+| Official first-semester specification | Weight inside the final IT examination | What a coding lesson can practise |
+| --- | --- | --- |
+| Grade 11: Data Processing and Information | 60 per cent | Cleaning a table, choosing a representation, checking formulas and explaining a result |
+| Grade 11: Monitoring and Control | 40 per cent | Inputs, conditions, feedback and the logic behind sensor-driven systems |
+| Grade 12: IT in Society | 80 per cent | Reasoned evaluation of technology, evidence, consequences and responsible use |
+| Grade 12: Programming for the Web | 20 per cent | HTML structure, CSS rules, browser testing and debugging a real page |
 
-## The Oman student data project
+Those figures come from the Ministry's [Grade 11 and 12 Information Technology assessment document](https://moe.gov.om/). The same source states that Grade 12 final papers are prepared centrally and held at Ministry examination centres. Grade 11 teachers prepare their own papers against the published content and learning outcomes. The listed duration is three hours for Grade 12 and between two and three hours for Grade 11.
 
-The National Centre for Statistics and Information publishes registered population by governorate and nationality in its monthly statistical bulletin. The June 2026 edition reports end-of-May data for Omani residents, expatriate residents and totals. Oman had 5,388,513 registered residents in the table, including 2,329,092 Omanis and 3,059,421 expatriates. Muscat had 1,538,312 residents, while Musandam had 55,802.
+The honest limit
 
-Primary source: [NCSI Monthly Statistical Bulletin, June 2026](https://api.ncsi.gov.om/uploads/pdfs/monthly_statistical_bulletin___june2026_1782038077.pdf).
+Modern Age Coders is private online teaching. It does not award General Education Diploma credit, replace an Oman Ministry school, predict an examination paper or promise a grade. A web course can strengthen the practical thinking behind Programming for the Web. The school remains the authority on the learner's assessed syllabus and examination requirements.
 
-The project asks a simple question: what share of Oman's population is expatriate?
+That limit matters because an Omani Grade 12 learner has a centrally managed examination load. A hobby that consumes revision time is not automatically beneficial. Two classes each week can be appropriate earlier in the year. Near the examination window, reducing project scope or pausing is more responsible than treating a subscription as the priority.
 
-A student first calculates the expatriate percentage for each of the eleven governorates. They then add the percentages and divide by eleven. Every row calculation can be correct and the spreadsheet can look convincing. The national answer is still wrong.
+Oman's wider legal context is also specific. The Ministry of Education reported that [Royal Decree 31/2023 issued the School Education Law](https://site.moe.gov.om/en/topics/0/show/2279), a framework of 10 chapters and 97 articles. The same Ministry report recorded an initial vocational and technical education implementation in business administration and information technology in four schools during 2023/2024, with 200 targeted students. That is evidence of formal system development. It is not a reason to tell every six-year-old that they are training for a job.
 
-The trap is an unweighted average. It gives Musandam's rate the same influence as Muscat's even though the NCSI totals differ by a factor of nearly twenty-eight. The calculation answers the average governorate rate if every governorate counts once. It does not answer the share among all people registered across Oman.
+Embassy of India in Muscat / updated August 2026
 
-The repair is to sum the expatriate counts and divide by the summed population, or to weight every governorate rate by its population. The two correct methods should agree. This lesson generalises to schools of different sizes, unequal hospital wards, monthly sales rates and model accuracy across uneven classes.
+## Why is CBSE context unusually important in Oman?
+
+The [Embassy of India in Muscat](https://www.indemb-oman.gov.in/page/indian-schools-in-oman/) records 22 Indian Schools offering CBSE from kindergarten to Grade 12 and serving more than 48,000 students. Its history notes the first CBSE school in Darsait in 1975. This is not a minor side audience. It is a country-wide education network with families in Muscat, Salalah, Sohar, Sur and other centres.
+
+For a CBSE family, learning from an India-based teacher can reduce unnecessary translation between school vocabulary and the coding lesson. It does not mean that every learner of the same grade should start at the same point. One Grade 8 student may have built nested Scratch projects. Another may only have copied a Python worksheet. The free class asks both to reason through a small task and watches what happens when the first attempt fails.
+
+Omani families in the national system need a different conversation. Grades 1 to 10 form basic education, while Grades 11 and 12 are the post-basic stage described by the Ministry of Education. The official IT assessment expects application, analysis and evaluation, not only recall. A learner therefore benefits from explaining why a program failed, comparing two approaches and defending a data choice. The code is the object under discussion, not a sequence of keystrokes to imitate.
+
+| Family's schooling context | Useful placement evidence | What we will not assume |
+| --- | --- | --- |
+| Oman national curriculum | Can the learner explain a process, test an input and connect code to the published IT objectives? | That private classes produce Ministry credit |
+| CBSE Indian School | Has the learner worked independently with blocks, Python, Java, databases or a web page? | That class number proves programming level |
+| British or American private school | Which language, assessment board and project work has the learner actually completed? | That every international school follows one sequence |
+| College or working adult | What must the learner build, analyse or automate, and what mathematics already feels secure? | That an adult belongs in a school-age group |
+
+Higher education admission in Oman is coordinated rather than guessed from a coaching brochure. The Ministry of Higher Education, Research and Innovation states that the Higher Education Admission Centre coordinates institutional requirements and vacancies, receives applications and distributes accepted students. [Ministerial Decree 65/2017](https://www.moheri.gov.om/innerpage.aspx?culture=en&id=3768f578-5f48-444c-9d24-e48671f378d9) established a 34-article regulation for those procedures, published in Official Gazette 1202. Coding tuition is preparation and skill development. It is not an admission decision, scholarship or substitute credential.
+
+Evidence to lesson
+
+## How published Oman expectations become work at the keyboard
+
+The left column names the Ministry assessment emphasis. The right column shows a practical course response. It is an alignment of skills, not a claim of accreditation.
+
+AO1 / 40%
+
+Knowledge and understanding carry 40 per cent of the listed Grade 11 and 12 IT final examination objectives.
+
+A learner names the data type, operator or browser rule, then uses it without relying on copied steps. See [HTML and CSS for Beginners](/courses/html-css-course-for-beginners-build-real-websites).
+
+AO2 / 25%
+
+Application receives a quarter of the objective weighting.
+
+The teacher changes the input or requirement and watches whether the learner can adapt a solution. See [Python for Teens](/courses/python-complete-masterclass-teens).
+
+AO3 / 20%
+
+Analysis asks the student to separate a problem into evidence, conditions and consequences.
+
+Students trace a failing program, inspect intermediate values and explain which assumption broke. See [Problem Solving and DSA for Teens](/courses/problem-solving-dsa-masterclass-teens).
+
+AO4 / 15%
+
+Evaluation requires a reasoned judgement rather than a feature list.
+
+A learner compares designs for accessibility, privacy, accuracy and maintainability, then defends one. See [Defensive Cybersecurity for Teens](/courses/cybersecurity-course-for-teens-ethical-defensive).
+
+Web / 20%
+
+Programming for the Web forms 20 per cent of the Grade 12 first-semester final IT specification.
+
+The learner writes semantic HTML, applies CSS, tests in a browser and fixes layout faults. See [Frontend Development for Teens](/courses/frontend-development-masterclass-for-teens).
+
+CA / 60%
+
+Continuous assessment carries 60 per cent of each semester's official IT result.
+
+Course projects are built in stages so reasoning, revision and explanation remain visible. See [Kids AI Web Development](/courses/kids-ai-web-development-course).
+
+If you are choosing between a CBSE-linked path and Oman's national IT priorities, tell us the learner's school system and what they have already built.
+
+[Ask on WhatsApp](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20want%20a%20free%20coding%20class%20for%20a%20learner%20in%20Oman.)Book the free classPlacement
+
+## A course ladder that leaves room for school
+
+The progression begins with making and explaining. It becomes more technical only when the learner can debug without being rescued at every step. For Grade 11 and 12 students, the ladder stays narrow enough to protect examination time. Adults enter at the point their goal and prior knowledge support.
+
+### Builders
+
+Ages 6 to 10
+
+- [Kids Coding Blocks](/courses/kids-coding-blocks-masterclass)
+- [Scratch Programming](/courses/scratch-programming-complete-course)
+- [Creative Coding and Animation](/courses/creative-coding-animation-mastery)
+- [Early Maths Foundations](/courses/early-math-foundations)
+
+### Problem solvers
+
+Ages 11 to 13
+
+- [Maths Through Coding](/courses/maths-through-coding)
+- [Python and AI for Kids](/courses/python-ai-kids-masterclass)
+- [Kids AI Web Development](/courses/kids-ai-web-development-course)
+- [Middle School Mathematics](/courses/comprehensive-middle-school-mathematics-mastery)
+
+### Independent programmers
+
+Ages 14 to 18
+
+- [Python for Teens](/courses/python-complete-masterclass-teens)
+- [HTML and CSS](/courses/html-css-course-for-beginners-build-real-websites)
+- [JavaScript for Teens](/courses/javascript-course-for-teens-beginners-interactive-web)
+- [High School Mathematics](/courses/complete-high-school-mathematics-mastery)
+
+### Applied study
+
+College and adult, 18 to 67
+
+- [Python AI Automation](/courses/python-ai-automation-masterclass-college)
+- [Data Analysis](/courses/data-analysis-mastery-course-college)
+- [Full Stack Web Development](/courses/full-stack-web-development-masterclass-college)
+- [Data Analytics Mathematics](/courses/data-analytics-mathematics-masterclass)
+
+The complete catalogue is on the [course atlas](/course-atlas), and the method is set out on [how we teach](/how-we-teach).
+
+Oman data project
+
+## Can eleven correct governorate percentages produce the wrong national answer?
+
+Oman's governorates differ sharply in population and in the balance between Omani and expatriate residents. That makes the National Centre for Statistics and Information population table a precise lesson in why every row should not receive equal influence.
+
+Source: NCSI Monthly Statistical Bulletin, June 2026Level: Grade 8 and upConcept: Weighted versus unweighted averages
+
+The [June 2026 Monthly Statistical Bulletin from Oman's NCSI](https://api.ncsi.gov.om/uploads/pdfs/monthly_statistical_bulletin___june2026_1782038077.pdf) reports the registered Omani, expatriate and total population for each governorate at the end of May 2026. The total is 5,388,513 residents, made up of 2,329,092 Omanis and 3,059,421 expatriates. The same table shows Muscat at 1,538,312 residents and Musandam at 55,802. One row is therefore nearly twenty-eight times the size of the other.
+
+The ordinary question sounds easy: what is the expatriate share of Oman's population? A student calculates the expatriate percentage inside every governorate, adds the eleven percentages and divides by eleven. Every individual percentage may be correct. The spreadsheet formula may be neat. The national answer is still wrong.
+
+The confident mistake gives Musandam's percentage the same influence as Muscat's. It answers a different question: what is the average of the governorate rates if every governorate counts once? The national population question requires either dividing the national expatriate total by the national population or weighting each governorate rate by its population.
+
+The trap
+
+An unweighted mean treats unequal groups as equal units. A rate from 55,802 residents and a rate from 1,538,312 residents each receive one-eleventh of the answer. Weighting restores the missing denominator. Both calculations are mathematically valid, but only one matches the question about people across Oman.
+
+This error travels far beyond population tables. It appears when schools of different sizes are averaged, when monthly sales rates ignore transaction counts, when hospital outcomes combine small and large wards, and when a model reports accuracy across unequal classes. The repair always begins by naming the unit represented by the final number.
 
 | Step | What the student does | What it teaches |
-|---:|---|---|
-| 1 | Downloads the current bulletin and records the publisher, month and column definitions | Data needs provenance |
-| 2 | Checks that Omani plus expatriate equals total in every row | Validation comes before analysis |
-| 3 | Calculates governorate rates and their simple mean | A correct formula may answer the wrong question |
-| 4 | Calculates the national rate from counts and as a weighted mean | Denominators control the interpretation |
-| 5 | Writes a caption naming the unit, weight, source and date | A result should explain how it was constructed |
+| --- | --- | --- |
+| 1 | Downloads the current NCSI bulletin and transcribes governorate, Omani, expatriate and total columns with source notes. | Public data needs provenance and a checked data dictionary. |
+| 2 | Verifies that Omani plus expatriate equals total for every row before calculating a rate. | Validation belongs before analysis, not after a surprising result. |
+| 3 | Computes each governorate's expatriate share and then the simple mean of those eleven rates. | A clean formula can answer the wrong question. |
+| 4 | Computes the national share from summed counts and compares it with a population-weighted mean. | Equivalent weighted methods should agree when the denominators are correct. |
+| 5 | Writes a chart caption that states the unit, weighting rule, publisher and observation month. | A defensible result explains how it was constructed. |
 
-Students pull the current figures themselves rather than treating the numbers on this page as a permanent dataset. This project fits [Statistics and Probability](https://learn.modernagecoders.com/courses/statistics-probability-maths-course), [Data Analysis](https://learn.modernagecoders.com/courses/data-analysis-mastery-course-college) and [Python for Teens](https://learn.modernagecoders.com/courses/python-complete-masterclass-teens).
+Students pull the current figures themselves rather than using anything reproduced here.
 
-## Course ladder
+The project fits [Statistics and Probability](/courses/statistics-probability-maths-course), [Data Analysis](/courses/data-analysis-mastery-course-college) and [Python for Teens](/courses/python-complete-masterclass-teens). Finished work can be compared with the standards on [student labs](/student-labs).
 
-**Elementary, ages 6 to 10:** [Kids Coding Blocks](https://learn.modernagecoders.com/courses/kids-coding-blocks-masterclass), [Scratch Programming](https://learn.modernagecoders.com/courses/scratch-programming-complete-course), [Creative Coding and Animation](https://learn.modernagecoders.com/courses/creative-coding-animation-mastery), [Early Maths Foundations](https://learn.modernagecoders.com/courses/early-math-foundations).
+The arrangement
 
-**Middle school, ages 11 to 13:** [Maths Through Coding](https://learn.modernagecoders.com/courses/maths-through-coding), [Python and AI for Kids](https://learn.modernagecoders.com/courses/python-ai-kids-masterclass), [Kids AI Web Development](https://learn.modernagecoders.com/courses/kids-ai-web-development-course), [Middle School Mathematics](https://learn.modernagecoders.com/courses/comprehensive-middle-school-mathematics-mastery).
+## What does an online coding month look like from Oman?
 
-**High school, ages 14 to 18:** [Python for Teens](https://learn.modernagecoders.com/courses/python-complete-masterclass-teens), [HTML and CSS](https://learn.modernagecoders.com/courses/html-css-course-for-beginners-build-real-websites), [JavaScript for Teens](https://learn.modernagecoders.com/courses/javascript-course-for-teens-beginners-interactive-web), [High School Mathematics](https://learn.modernagecoders.com/courses/complete-high-school-mathematics-mastery).
+| Decision | What is fixed | What is agreed with the family |
+| --- | --- | --- |
+| First class | Free and used as a placement check | The learner's goal, present ability and suitable course |
+| Group | Five to eight students with live teaching | An age and level match that lets the learner participate |
+| Private | One student and one teacher | Whether individual pacing is worth the higher fee |
+| Frequency | Two classes a week and eight a month | The recurring slot, confirmed before payment |
+| Schedule | Oman is one and a half hours behind India | Weekday evening or Friday and Saturday weekend feasibility |
+| Output | Every course works towards projects | The scope that fits school, work and examination pressure |
 
-**College and adult, ages 18 to 67:** [Python AI Automation](https://learn.modernagecoders.com/courses/python-ai-automation-masterclass-college), [Data Analysis](https://learn.modernagecoders.com/courses/data-analysis-mastery-course-college), [Full Stack Web Development](https://learn.modernagecoders.com/courses/full-stack-web-development-masterclass-college), [Data Analytics Mathematics](https://learn.modernagecoders.com/courses/data-analytics-mathematics-masterclass).
+The teacher is live. A student shares reasoning, tries code, sees the failure and repairs it. In a small group, learners hear other approaches and have to explain their own. Private teaching moves at one person's pace, which is useful for an adult with a specific automation goal or a Grade 12 learner with a narrow gap. It is not automatically better for a child who benefits from peers.
 
-Placement depends on evidence. A learner begins at the point where they can participate, explain and recover from a mistake, not at the point suggested by age alone.
+A laptop or desktop, microphone and stable video-capable connection are the practical baseline. Some beginner work is browser-based. Later courses may require files, development tools or course-specific setup. The free class checks the equipment before the family pays. A tablet can display a lesson, but it is a poor substitute for a computer once typing, folders and browser developer tools matter.
 
-## The arrangement
+What happens when the fit is wrong
 
-The first class is free and doubles as a placement check. A student attempts a small problem while the teacher checks reasoning, independence and gaps. The family then hears the recommended course, whether a group or private lesson is realistic, and which scheduling constraints need attention.
+If the student needs school subject tutoring rather than a coding course, if the available time cannot protect Grade 12 revision, or if the equipment cannot support the chosen course, the honest answer may be to wait or choose something smaller. Modern Age Coders does not promise school credit, job placement, a guaranteed result or a local Oman classroom.
 
-Group teaching has five to eight students. Private teaching is one student with one teacher. Both arrangements run twice a week for eight classes each month. Every course works towards projects. A group offers peer explanations and alternative solutions. Private teaching is useful for a precise adult goal, a non-standard pace or a learner whose schedule makes a well-matched group impractical.
+Country-wide service
 
-A laptop or desktop, microphone and stable video-capable connection are the baseline. A tablet becomes restrictive when file handling, web development and development tools begin. Course-specific setup is checked in the free class before payment.
+## Where in Oman can a family join?
 
-The honest answer can be to wait. If Grade 12 revision time cannot be protected, if the equipment cannot support the course, or if the student needs school subject tutoring rather than coding, a smaller plan or a later start may be better.
-
-## Fees
-
-| Plan | Price | Classes |
-|---|---:|---:|
-| Group, 5 to 8 learners | USD 100 a month | 8 a month |
-| Private, one student and one teacher | USD 150 a month | 8 a month |
-
-There is no enrolment charge, nothing to buy and no minimum term. The opening class is free. Prices are in USD only. Payment details are confirmed on the demo call before money is due.
-
-## Scheduling in Oman
-
-Oman uses Gulf Standard Time at UTC+4. India is one and a half hours ahead, so an evening in Oman remains an evening for the teacher. Oman's school and working pattern runs Sunday to Thursday, with Friday and Saturday as the weekend. The exact recurring slot is agreed on the demo call and is not promised on this page.
-
-Ramadan changes school and household routines. Lesson timing can be reviewed rather than forced into the usual pattern. Dates and fixed daily times are not published because they change each year and differ by household.
-
-## Explore every Oman coding guide
+Online teaching makes the answer broader than Muscat without pretending every place has the same schooling or travel pattern.
 
 ### Muscat metropolitan guides
 
-- [Muscat](https://learn.modernagecoders.com/coding-classes-in-muscat): integer division, equal groups and learners left in the remainder.
-- [Bawshar](https://learn.modernagecoders.com/coding-classes-in-bawshar): histogram bin widths that turn one distribution into different stories.
-- [Seeb](https://learn.modernagecoders.com/coding-classes-in-seeb): a stable sort that still fails because it uses the wrong key.
-- [Muttrah](https://learn.modernagecoders.com/coding-classes-in-muttrah): non-response bias when the people who reply differ from those invited.
-- [Qurum](https://learn.modernagecoders.com/coding-classes-in-qurum): correlated summer trends that do not prove causation.
-- [Al Mouj](https://learn.modernagecoders.com/coding-classes-in-al-mouj): a ratio of ratios with no defensible interpretation.
-- [Madinat Al Sultan Qaboos](https://learn.modernagecoders.com/coding-classes-in-madinat-al-sultan-qaboos): a mean hidden between two separate groups.
-- [Al Khuwair](https://learn.modernagecoders.com/coding-classes-in-al-khuwair): why eleven visits from one person are not eleven unique visitors.
-- [Al Ghubrah](https://learn.modernagecoders.com/coding-classes-in-al-ghubrah): percentage change compared with percentage-point change.
-- [Azaiba](https://learn.modernagecoders.com/coding-classes-in-azaiba): truncation that quietly pushes every positive measurement down.
-- [Madinat Al Irfan](https://learn.modernagecoders.com/coding-classes-in-madinat-al-irfan): extrapolation beyond every supporting observation.
-- [Mawaleh](https://learn.modernagecoders.com/coding-classes-in-mawaleh): why the median of several medians need not be the market median.
-- [Al Hail](https://learn.modernagecoders.com/coding-classes-in-al-hail): survivorship bias after failed records disappear.
-- [Al Khoudh](https://learn.modernagecoders.com/coding-classes-in-al-khoudh): multiple comparisons and a significant result produced by chance.
+Start with the city hub, then choose the district whose schools, roads and signature data problem best match the learner's setting.
+
+[**Muscat**Integer division, equal groups and the learners left in the remainder](/coding-classes-in-muscat)[**Bawshar**How undocumented histogram bins can turn one distribution into three stories](/coding-classes-in-bawshar)[**Seeb**A stable sort that still fails because the program uses the wrong key](/coding-classes-in-seeb)[**Muttrah**Non-response bias when the people who reply differ from those invited](/coding-classes-in-muttrah)[**Qurum**Two summer trends that move together without proving causation](/coding-classes-in-qurum)[**Al Mouj**A ratio of ratios that looks precise but has no defensible meaning](/coding-classes-in-al-mouj)[**Madinat Al Sultan Qaboos**A mean hidden in the gap between two distinct groups](/coding-classes-in-madinat-al-sultan-qaboos)[**Al Khuwair**Why eleven visits from one person are not eleven unique visitors](/coding-classes-in-al-khuwair)[**Al Ghubrah**The difference between percentage change and percentage-point change](/coding-classes-in-al-ghubrah)[**Azaiba**Truncation that quietly pushes every positive measurement down](/coding-classes-in-azaiba)[**Madinat Al Irfan**A trend line extended beyond every observation that supports it](/coding-classes-in-madinat-al-irfan)[**Mawaleh**Why the median of several medians need not be the market median](/coding-classes-in-mawaleh)[**Al Hail**Survivorship bias when failed records disappear from the final folder](/coding-classes-in-al-hail)[**Al Khoudh**Multiple comparisons and the significant result produced by chance](/coding-classes-in-al-khoudh)
 
 ### City guides beyond Muscat
 
-- [Sohar](https://learn.modernagecoders.com/coding-classes-in-sohar): tonnes, containers and cubic metres added without a shared unit.
-- [Barka](https://learn.modernagecoders.com/coding-classes-in-barka): dates sorted as text until the timeline changes order.
-- [Salalah](https://learn.modernagecoders.com/coding-classes-in-salalah): Khareef seasonality and the limits of a naive moving average.
-- [Nizwa](https://learn.modernagecoders.com/coding-classes-in-nizwa): date arithmetic across Hijri and Gregorian rules.
-- [Sur](https://learn.modernagecoders.com/coding-classes-in-sur): a cumulative total mistaken for a rate of change.
-- [Ibra](https://learn.modernagecoders.com/coding-classes-in-ibra): a missing lookup key that returns a plausible default.
-- [Ibri](https://learn.modernagecoders.com/coding-classes-in-ibri): a valid cached value that is too stale for today's decision.
-- [Duqm](https://learn.modernagecoders.com/coding-classes-in-duqm): an impressive growth rate created by a base near zero.
-- [Khasab](https://learn.modernagecoders.com/coding-classes-in-khasab): map projection and unequal ground area behind equal-looking shapes.
+Each city page stays close to the place: named institutions, local systems and one project that teaches a different failure mode.
+
+[**Sohar**Tonnes, containers and cubic metres added as if they shared one unit](/coding-classes-in-sohar)[**Barka**Dates sorted as text until the timeline silently changes order](/coding-classes-in-barka)[**Salalah**Khareef seasonality and the limits of a naive moving average](/coding-classes-in-salalah)[**Nizwa**Date arithmetic across Hijri and Gregorian calendar rules](/coding-classes-in-nizwa)[**Sur**A cumulative total mistaken for a rate of change](/coding-classes-in-sur)[**Ibra**A missing lookup key that returns a plausible default](/coding-classes-in-ibra)[**Ibri**A valid cached value that is too stale for today's decision](/coding-classes-in-ibri)[**Duqm**An impressive growth rate created by a base near zero](/coding-classes-in-duqm)[**Khasab**Map projection and the unequal ground area behind equal-looking shapes](/coding-classes-in-khasab)
 
 ### Governorate guides
 
-- [Dhofar](https://learn.modernagecoders.com/coding-classes-in-dhofar): sampling bias when a Salalah-only survey is labelled governorate-wide.
-- [Al Batinah North](https://learn.modernagecoders.com/coding-classes-in-al-batinah-north): Simpson's paradox across changing wilayat mixes.
-- [Al Batinah South](https://learn.modernagecoders.com/coding-classes-in-al-batinah-south): a partial month compared with complete reporting windows.
-- [Ad Dakhiliyah](https://learn.modernagecoders.com/coding-classes-in-ad-dakhiliyah): linear interpolation imposed on a non-linear mountain surface.
-- [Ash Sharqiyah North](https://learn.modernagecoders.com/coding-classes-in-ash-sharqiyah-north): one duplicate join key that inflates every downstream total.
-- [Ash Sharqiyah South](https://learn.modernagecoders.com/coding-classes-in-ash-sharqiyah-south): an unavailable reading silently converted into a measured zero.
-- [Adh Dhahirah](https://learn.modernagecoders.com/coding-classes-in-adh-dhahirah): large-integer precision loss that moves an aggregate by one.
-- [Al Buraimi](https://learn.modernagecoders.com/coding-classes-in-al-buraimi): rounding every step instead of the final total.
-- [Musandam](https://learn.modernagecoders.com/coding-classes-in-musandam): straight coordinate distance compared with a traversable route.
-- [Al Wusta](https://learn.modernagecoders.com/coding-classes-in-al-wusta): a correct rate made unstable by a denominator of only 100.
+These pages compare places within each governorate, so a capital city is never used as shorthand for an entire region.
 
-## About Modern Age Coders
+[**Dhofar**Sampling bias when a Salalah-only survey is labelled governorate-wide](/coding-classes-in-dhofar)[**Al Batinah North**Simpson's paradox across changing wilayat mixes](/coding-classes-in-al-batinah-north)[**Al Batinah South**A partial month compared with complete reporting windows](/coding-classes-in-al-batinah-south)[**Ad Dakhiliyah**Linear interpolation imposed on a non-linear mountain surface](/coding-classes-in-ad-dakhiliyah)[**Ash Sharqiyah North**One duplicate join key that inflates every downstream total](/coding-classes-in-ash-sharqiyah-north)[**Ash Sharqiyah South**An unavailable reading silently converted into a measured zero](/coding-classes-in-ash-sharqiyah-south)[**Adh Dhahirah**Large-integer precision loss that moves an aggregate by one](/coding-classes-in-adh-dhahirah)[**Al Buraimi**Rounding every step instead of rounding the final total](/coding-classes-in-al-buraimi)[**Musandam**Straight coordinate distance compared with a traversable route](/coding-classes-in-musandam)[**Al Wusta**A correct rate made unstable by a denominator of only 100](/coding-classes-in-al-wusta)
 
-Modern Age Coders has taught more than 10,000 students since 2020 across 25 or more countries and is rated 4.9 across 547 Google reviews. Live online coding and mathematics are available for ages 6 to 67. The service is online from India. There is no claimed office or branch in Oman.
+The NCSI bulletin recorded 5,388,513 residents across Oman at the end of May 2026. Muscat accounted for 1,538,312, while Al Batinah North recorded 945,647 and Dhofar 535,623. At the other end, Al Wusta recorded 64,566 and Musandam 55,802. Those are not decorative population facts. They explain why one physical centre would serve the country unevenly.
 
-Families can join from Muscat, Sohar, Salalah, Nizwa, Sur, Ibra, Ibri, Barka, Duqm, Khasab and other parts of Oman. WhatsApp is the fastest direct contact from Oman: +91 91233 66161. Email is contact@modernagecoders.com.
+The service remains online everywhere. There is no Modern Age Coders office in Muscat, Salalah, Sohar or any other Omani city. WhatsApp reaches the India-based team without an international voice call. Families who move elsewhere in the Gulf can also read the established pages for [coding classes in the UAE](/coding-classes-in-uae) or [coding classes in Qatar](/coding-classes-in-qatar).
 
-Related: [all courses](https://learn.modernagecoders.com/courses), [course atlas](https://learn.modernagecoders.com/course-atlas), [how we teach](https://learn.modernagecoders.com/how-we-teach), [pricing](https://learn.modernagecoders.com/pricing), [AI and machine learning classes in Oman](https://learn.modernagecoders.com/ai-and-machine-learning-classes-in-oman), [coding classes in the UAE](https://learn.modernagecoders.com/coding-classes-in-uae), [coding classes in Qatar](https://learn.modernagecoders.com/coding-classes-in-qatar).
+Fees
+
+## What do coding classes in Oman cost?
+
+No enrolment charge, nothing to buy, no minimum term.
+
+Group$100per month, 8 classes
+
+This suits a learner who benefits from hearing other solutions and can work at the shared level of five to eight students.
+
+Private$150per month, 8 classes
+
+This suits a precise adult goal, a non-standard pace or a learner whose schedule and starting point make a well-matched group unrealistic.
+
+The first class is free and doubles as the placement check. Both plans run twice a week. Prices are shown in USD only because that is the published international fee. Payment details are confirmed on the demo call before anything is due.
+
+Pauses, plan changes and missed classes are covered on the [pricing page](/pricing).
+
+Reviews
+
+## What families say
+
+Rated 4.9 across 547 Google reviews. These are real reviews, reproduced as written.
+
+★★★★★
+
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
+
+Ria Mukherjee
+
+Parent
+
+★★★★★
+
+"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
+
+Samriddha Mondal
+
+Student
+
+★★★★★
+
+"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
+
+Vansh Agarwal
+
+Student
+
+★★★★★
+
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
+
+Sonam Oswal
+
+Parent of Dhairya
+
+★★★★★
+
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
+
+Sonu Goyal
+
+Parent
+
+★★★★★
+
+"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
+
+Ritu Kedia
+
+Parent
+
+More, with photographs and student work, on the [wall of love](/love).
+
+Questions
+
+## Oman questions, answered plainly
+
+### Will coding classes fit around the Grade 12 General Education Diploma exams?
+
+Yes, if the workload is reduced before the Ministry examination periods. Two lessons a week is the normal arrangement, but a Grade 12 learner should protect revision time. The demo call is where the family identifies exam pressure, and a lighter month is more sensible than pretending every week is equal.
+
+### My child attends an Indian School in Oman. Does CBSE match what you teach?
+
+The Embassy of India recorded 22 CBSE Indian Schools serving more than 48,000 students in Oman in August 2026. Modern Age Coders already teaches from India, so the vocabulary and progression are familiar. Placement still depends on what the learner can do, not only the class printed on a report card.
+
+### What time are classes when Oman is behind India?
+
+Oman uses Gulf Standard Time at UTC+4, while India is one and a half hours ahead. An Omani evening therefore remains an evening for the teacher. No recurring time is promised on this page. The exact slot is confirmed on the free demo call before payment.
+
+### Do classes run during Oman's school week or at the weekend?
+
+Oman's school and working pattern runs Sunday to Thursday, with Friday and Saturday as the weekend. Both weekday evening and weekend arrangements can be discussed. The right choice depends on school transport, homework, family plans and the learner's concentration, not a generic international timetable.
+
+### What happens to the timetable during Ramadan?
+
+Ramadan changes school and household routines, so lesson timing can be reviewed rather than forced into the usual pattern. Modern Age Coders agrees the practical arrangement with the family. Dates and daily times are not fixed on this page because they change each year and differ by household.
+
+### Are there coding classes for adults in Oman?
+
+Yes. The teaching age range is 6 to 67. An adult can begin with Python, web development, data analysis or mathematics without joining a children's group. The free first class checks prior knowledge and helps decide whether a private lesson or an age-appropriate small group is realistic.
+
+### How do I pay from Oman?
+
+Fees are published in USD: USD 100 a month for a group and USD 150 a month for private teaching, each with eight classes. The demo call confirms the available payment process before any money is due. This page does not promise a payment method that has not been checked for your account.
+
+### Is there an in-person coding centre in Muscat?
+
+No. Modern Age Coders teaches Oman online from India and does not claim an office, branch or classroom in Muscat. That removes a twice-weekly drive and lets families in every governorate use the same teaching. Use the WhatsApp or booking option below if you want to ask before choosing.
+
+### My child has already used Scratch at school. Where should they start?
+
+A child who has moved sprites around is not automatically ready to skip block coding, and a child who has built loops and debugged projects may be. The free class checks sequencing, conditions, variables and independent problem solving. Placement follows evidence from that task rather than age alone.
+
+### What equipment is needed at home in Oman?
+
+Use a laptop or desktop with a microphone and a stable video-capable connection. A tablet is too restrictive for many programming courses, especially once file handling and web development begin. The teacher can confirm any course-specific requirement during the free class, before the family commits.
+
+Book a free class
+
+## Let the first task decide the starting point
+
+The opening class is free. The learner attempts a small, age-appropriate problem while the teacher checks reasoning, independence and gaps. The family then hears the recommended course, group or private fit, and possible Oman-friendly timing. If the fit is poor, that should be clear before payment.
+
+You can also use the [contact page](/contact), or read [about us](/about) first.
+
+[WhatsApp us](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20want%20a%20free%20coding%20class%20for%20a%20learner%20in%20Oman.)[+91 91233 66161](tel:+919123366161)[contact@modernagecoders.com](mailto:contact@modernagecoders.com)
+
+WhatsApp reaches us fastest from Oman and costs nothing to use. The number is Indian, not an Oman office.
+
+Nearby
+
+## Other places we teach
+
+[United Arab Emirates](/coding-classes-in-uae)[Qatar](/coding-classes-in-qatar)[Saudi Arabia](/coding-classes-in-saudi-arabia)[India](/coding-classes-in-india)[Singapore](/coding-classes-in-singapore)
+
+---
+
+*Canonical: https://learn.modernagecoders.com/coding-classes-in-oman*

@@ -38,7 +38,7 @@ AGES 13: 16
 
 O-Level Computing 7155 (Python). IP-track schools skip O-Levels, school-internal curriculum is deeper.
 
-AGES 17, 18
+AGES 17: 18
 
 #### Junior College · A-Level
 
@@ -64,7 +64,7 @@ Sea · Grab · Razer · GovTech · TikTok APAC · Stripe · OpenAI SG · Anthrop
 
 Every course runs as live 1:1 with a mentor matched to your child's level (P1–P6, S1–S5, IP1–IP6, JC1–JC2 or university/adult). Two 45-minute sessions per week. USD 150 per month for 1:1, or USD 100 for small-group cohort.
 
-[P1, P3 Little Coders, Block to Python Scratch & ScratchJr, then we bridge to real Python by month four. Play, animation and music-led. Strengthens the computational-thinking foundations PSLE Math implicitly tests. USD 150 / month · 1:1 · 8 sessions](/courses/coding/kids)[P4: P6 · PSLE prep Python & Logic for PSLE-aged learners Real Python, real keyboard typing, real GitHub. We deliberately keep the cognitive load *off* peak PSLE periods. Strengthens problem-solving for the Math heuristics PSLE rewards. USD 150 / month · 1:1 · 8 sessions](/courses/coding/kids)[S1, S2 · IP1, IP2 Web Builders + AI Foundations HTML, CSS, JavaScript, React basics. AI module covers safe prompting, LLM mental models and a first agent-style project. Works alongside Code for Fun and IP school-internal computing. USD 150 / month · 1:1 · 8 sessions](/courses/coding/teens)[S3: S5 · O-Level 7155 GCE O-Level Computing 7155 Direct alignment with the MOE 7155 syllabus. Python, algorithms, data representation, networks. Past-paper drills + the project component your school expects. USD 150 / month · 1:1 · 8 sessions](/courses/coding/teens)[IP3: IP6 · Integrated Programme IP Computing depth-track IP-track students (RI, HCI, NUS High, NJC, NYGH, ACS-I, Dunman, RGS, Cedar, MGS) skip the O-Level path. Our IP-track lead has taught at three IP schools and knows the school-internal syllabus. USD 150 / month · 1:1 · 8 sessions](/courses/coding/teens)[JC1: JC2 · A-Level H2 9569 A-Level H2 Computing 9569 Paper 1 (theory), Paper 2 (algorithms / problem solving), Paper 3 (project), Paper 4 (data, AI fundamentals). Past-year strategy + the kind of GitHub portfolio NUS / NTU evaluate. USD 150 / month · 1:1 · 8 sessions](/courses/coding/teens)[IB DP HL / SL IB Computer Science HL & SL For families at UWCSEA, SAS, Tanglin, OFS, GIIS Singapore, Stamford American, ISS, CIS: IB CS HL/SL plus Internal Assessment scaffolding from an ex-IB CS examiner. USD 150 / month · 1:1 · 8 sessions](/courses/coding/teens)[University / Adult Agentic AI for Working Pros Python · SQL · LangChain · LangGraph · CrewAI · evaluations · production deployment. The exact stack Sea, Grab, GovTech, Stripe and AI Singapore recruit for. USD 150 / month · 1:1 · 8 sessions](/courses/coding/college)
+[P1: P3 Little Coders: Block to Python Scratch & ScratchJr, then we bridge to real Python by month four. Play, animation and music-led. Strengthens the computational-thinking foundations PSLE Math implicitly tests. USD 150 / month · 1:1 · 8 sessions](/courses/coding/kids)[P4: P6 · PSLE prep Python & Logic for PSLE-aged learners Real Python, real keyboard typing, real GitHub. We deliberately keep the cognitive load *off* peak PSLE periods. Strengthens problem-solving for the Math heuristics PSLE rewards. USD 150 / month · 1:1 · 8 sessions](/courses/coding/kids)[S1, S2 · IP1, IP2 Web Builders + AI Foundations HTML, CSS, JavaScript, React basics. AI module covers safe prompting, LLM mental models and a first agent-style project. Works alongside Code for Fun and IP school-internal computing. USD 150 / month · 1:1 · 8 sessions](/courses/coding/teens)[S3: S5 · O-Level 7155 GCE O-Level Computing 7155 Direct alignment with the MOE 7155 syllabus. Python, algorithms, data representation, networks. Past-paper drills + the project component your school expects. USD 150 / month · 1:1 · 8 sessions](/courses/coding/teens)[IP3: IP6 · Integrated Programme IP Computing depth-track IP-track students (RI, HCI, NUS High, NJC, NYGH, ACS-I, Dunman, RGS, Cedar, MGS) skip the O-Level path. Our IP-track lead has taught at three IP schools and knows the school-internal syllabus. USD 150 / month · 1:1 · 8 sessions](/courses/coding/teens)[JC1: JC2 · A-Level H2 9569 A-Level H2 Computing 9569 Paper 1 (theory), Paper 2 (algorithms / problem solving), Paper 3 (project), Paper 4 (data, AI fundamentals). Past-year strategy + the kind of GitHub portfolio NUS / NTU evaluate. USD 150 / month · 1:1 · 8 sessions](/courses/coding/teens)[IB DP HL / SL IB Computer Science HL & SL For families at UWCSEA, SAS, Tanglin, OFS, GIIS Singapore, Stamford American, ISS, CIS: IB CS HL/SL plus Internal Assessment scaffolding from an ex-IB CS examiner. USD 150 / month · 1:1 · 8 sessions](/courses/coding/teens)[University / Adult Agentic AI for Working Pros Python · SQL · LangChain · LangGraph · CrewAI · evaluations · production deployment. The exact stack Sea, Grab, GovTech, Stripe and AI Singapore recruit for. USD 150 / month · 1:1 · 8 sessions](/courses/coding/college)
 
 Singapore's international schools run IB, Cambridge (IGCSE and A-Level) and American (AP) curricula. These live courses prepare those exams directly.
 
@@ -73,7 +73,7 @@ Singapore's international schools run IB, Cambridge (IGCSE and A-Level) and Amer
 
 ### We adjust for PSLE, O-Level & A-Level exam periods. Every year. Automatically.
 
-During PSLE (late September), O-Level (October: November) and A-Level (November) exam weeks, we automatically reduce coding-class intensity, shift to lighter review-style sessions, or pause entirely for the family that asks. No bill changes. We don't make money during exam fortnights, we make sure your child does well in school.
+During PSLE (late September), O-Level (October: November) and A-Level (November) exam weeks, we automatically reduce coding-class intensity, shift to lighter review-style sessions, or pause entirely for the family that asks. No bill changes. We don't make money during exam fortnights. We make sure your child does well in school.
 
 Integrated Programme, the deep end
 
@@ -399,7 +399,7 @@ Week 1
 
 Mentor sets up the dev environment on your child's home laptop (VS Code, Python, GitHub account). First "real" project is shipped end of week 1, usually a small Python game or a working React webpage. We send you the GitHub link.
 
-Week 2, 3
+Week 2: 3
 
 ### Curriculum lock-in
 
@@ -475,7 +475,7 @@ Minute 0: 3
 
 Mentor and student greet on Zoom. 2-minute recap: "What do you remember? What got stuck?", no homework-style grilling.
 
-Minute 3, 10
+Minute 3: 10
 
 ### Concept moment
 
@@ -536,7 +536,7 @@ Plan C
  **Months 3–4:** SQL deep dive (Singapore-banking data, anonymised) + pandas / NumPy.
  **Months 5–6:** LLMs: OpenAI / Anthropic APIs, prompt engineering, structured-output chains.
  **Months 7–8:** RAG, build a real RAG app over Singapore-banking-domain documents.
- **Months 9–10:** Agentic AI, LangChain, LangGraph, CrewAI. Multi-step reasoning. Production patterns.
+ **Months 9–10:** Agentic AI: LangChain, LangGraph, CrewAI. Multi-step reasoning. Production patterns.
  **Month 11:** Deploy a real agent to a Sea / Grab / Stripe-style use-case. Portfolio piece #1.
  **Month 12:** Application sprint. Mentor reviews CV, LinkedIn, GitHub. Practice interviews.
  **Outcome:** Real portfolio. Ready to apply for SG AI / AI-engineering roles at SGD 10–18 k/month range.
@@ -571,7 +571,7 @@ Yes, specifically. Our IP-track lead is an ex-Hwa Chong / RI teacher with 12 yea
 
 Do you coach NOI Singapore (National Olympiad in Informatics)?
 
-Yes. Algorithms, data structures, dynamic programming, graph theory. We've coached students through NOI Singapore qualifier rounds. Most NOI-bound students come to us in IP4 or S3 and work intensively for 8, 14 months.
+Yes. Algorithms, data structures, dynamic programming, graph theory. We've coached students through NOI Singapore qualifier rounds. Most NOI-bound students come to us in IP4 or S3 and work intensively for 8: 14 months.
 
 What about Hack&Roll (NUS) or AI Innovation Challenge?
 

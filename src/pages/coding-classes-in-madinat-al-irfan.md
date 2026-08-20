@@ -1,116 +1,278 @@
 ---
 title: "Coding Classes in Madinat Al Irfan | Modern Age Coders"
 description: "Live online coding and mathematics in Madinat Al Irfan for ages 6 to 67, with IB and venue evidence, USD fees, a free class and an extrapolation project."
-canonical: "https://learn.modernagecoders.com/coding-classes-in-madinat-al-irfan"
-region: "OM-MA"
-updated: "2026-08-16"
+canonical: https://learn.modernagecoders.com/coding-classes-in-madinat-al-irfan
+source: src/pages/coding-classes-in-madinat-al-irfan.html
 ---
+> Live online coding and mathematics in Madinat Al Irfan for ages 6 to 67, with IB and venue evidence, USD fees, a free class and an extrapolation project.
 
-# Coding Classes in Madinat Al Irfan
+[Home](/) / [Coding Classes in Oman](/coding-classes-in-oman) / [Coding Classes in Muscat](/coding-classes-in-muscat) / Coding Classes in Madinat Al Irfan
 
-> Madinat Al Irfan brings together an IB continuum school, the Oman Convention and Exhibition Centre, hotels and a certified business park. Modern Age Coders provides coding and mathematics through live online teaching across ages 6 to 67. A no-cost placement lesson precedes monthly fees of USD 100 for groups or USD 150 privately.
+Madinat Al Irfan / Live online
 
-## The offer in one minute
+# Coding classes in Madinat Al Irfan that stop the line where evidence stops
 
-Modern Age Coders has taught more than 10,000 students in 25+ countries since 2020. Learners range from age 6 to 67, and the provider is rated 4.9 across 547 Google reviews.
+The short answer
 
-Placement starts with a free live class. A group of five to eight learners costs USD 100 for eight lessons per month. Private teaching with one student and one teacher costs USD 150 for eight lessons. Both normally meet twice each week. There is no enrolment charge, required materials purchase or minimum term.
+Madinat Al Irfan brings together an IB continuum school, the Oman Convention and Exhibition Centre, hotels and a certified business park. Modern Age Coders provides coding and mathematics through live online teaching across ages 6 to 67. A no-cost placement lesson precedes monthly fees of USD 100 for groups or USD 150 privately.
 
-Oman is one and a half hours behind India. The recurring time is confirmed before payment. The provider's real contact is +91 91233 66161 by WhatsApp or telephone and contact@modernagecoders.com by email. The Indian number does not imply an office in Madinat Al Irfan.
+Madinat Al Irfan is built around an IB continuum school, a large convention venue, hospitality and a certified business park. Each context creates plans and projections. The useful coding habit is knowing when a model interpolates between observations and when it steps past every point that was actually measured.
 
-The [Oman coding classes](https://learn.modernagecoders.com/coding-classes-in-oman) hub covers national delivery and terms. The [Muscat coding classes](https://learn.modernagecoders.com/coding-classes-in-muscat) page explains the wider metropolitan cluster. This page stays with the district's IB, convention and business evidence.
+Use the [Oman hub](/coding-classes-in-oman) for national fees and delivery facts or the [Muscat guide](/coding-classes-in-muscat) for the metropolitan cluster. This page remains specific to ABA's Al Irfan campus, OMRAN's district description, OCEC's published room tables and a synthetic forecast that must be refused when evidence runs out.
 
-## ABA Oman at Madinat Al Irfan
+Book the free first class[Ask on WhatsApp](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20want%20a%20free%20coding%20class%20for%20a%20learner%20in%20Madinat%20Al%20Irfan.)Inspect day 20
 
-[ABA Oman International School](https://www.abaoman.org/about-us/al-irfan-campus) says its Al Irfan campus opened in March 2022. It names a contemporary Learning Center, Athletics Center, Performing Arts Center and interactive outdoor learning spaces for students aged 3 to 18.
+No card. No obligation. We call, we do not spam.
 
-ABA offers the International Baccalaureate Primary Years Programme, Middle Years Programme and Diploma Programme. Its [school history](https://www.abaoman.org/about-us) says ABA was founded in 1987 and has a community representing more than 70 nationalities.
+10,000+students taught4.9across 547 Google reviews2020teaching since25+countries6 to 67ages taught5 to 8students per groupCourse picks
 
-The [ABA admissions guide](https://www.abaoman.org/admissions/how-to-apply) gives different class-size guides by stage: 16 for FC1 and FC2, 20 for Kindergarten, 22 from Grades 1 to 10 and 18 per subject class in Grades 11 and 12.
+## Build the model, then challenge its domain
 
-That is already a modelling lesson. One number does not apply to every stage. Extending the Grade 1 to 10 value into Grades 11 and 12 would ignore an explicit boundary supplied by the school itself.
+A forecast is not advanced because it has a smooth line. These paths teach programming, statistics, analytical workflow and model evaluation.
 
-Modern Age Coders is independent of ABA and the IB. A programme name can guide the conversation, but placement comes from the learner's own code, maths reasoning or project. Teachers can support skills and review thinking, but they do not write assessed school work.
+[![Python for Teens course thumbnail](/images/python-teens.webp)Ages 13 to 18Python for TeensFit a line and label the observed range.See the syllabus](/courses/python-complete-masterclass-teens)[![Statistics and Probability course thumbnail](/images/statistics-probability-maths.webp)Secondary and adultStatistics and ProbabilitySeparate fit, uncertainty and forecast distance.See the syllabus](/courses/statistics-probability-maths-course)[![Data Analysis course thumbnail](/images/data-analysis-college.webp)College and adultData AnalysisPreserve dates, constraints and holdout evidence.See the syllabus](/courses/data-analysis-mastery-course-college)[![Orange Data Mining for Teens course thumbnail](/images/orange-data-mining-teens.webp)Ages 14 to 18Orange Data MiningCompare models without hiding their limits.See the syllabus](/courses/orange-data-mining-visual-machine-learning-course-for-teens)
 
-## A multi-asset district
+Browse more than one hundred courses in the [course atlas](/course-atlas), or trace dependencies on the [coding roadmap](/coding-roadmap).
 
-[OMRAN Group's project page](https://omran.om/projects/madinat-al-irfan) calls Madinat Al Irfan its flagship urban destination. It places Oman Convention and Exhibition Centre at the centre of the district and names Crowne Plaza Muscat OCEC and Muscat's first JW Marriott among the connected hospitality assets.
+Madinat Al Irfan evidence
 
-OMRAN also describes the country's first fully LEED and WELL certified Business Park. It names Omantel, OQ and OQEP headquarters in the park and says the International Financial Centre of Oman is set to join the district.
+## A school, a venue and a business district with different capacity questions
 
-Existing buildings, operating venues and planned institutions need different status values. A data table that presents all three with one present-tense label is factually wrong even if every name is spelled correctly.
+All named institutions are sources of local context. None is presented as a partner or endorser of Modern Age Coders.
 
-OCEC's [official event-space guide](https://ocec.om/getattachment/d43eb10a-b654-4448-865a-be4c336ed63f/ocec-space-inclusions-all-spaces.pdf) gives Exhibition Halls 1 to 5 a combined area of 22,396 square metres and a configuration for 1,408 exhibition booths.
+### ABA's Al Irfan campus opened in March 2022
 
-Hall 1 is listed at 4,880 square metres, with 3,744 theatre seats or 195 exhibition booths. Hall 2 is 4,212 square metres, with 3,648 theatre seats or 165 booths. One room has multiple capacities because the layout changes. A useful operational model must name the room and configuration rather than borrow the largest number it can find.
+[ABA Oman International School](https://www.abaoman.org/about-us/al-irfan-campus) says its Madinat Al Irfan campus opened in March 2022. It describes a Learning Center, Athletics Center, Performing Arts Center and interactive outdoor learning spaces for students aged 3 to 18.
 
-Local facts were last verified on 16 August 2026 against the linked ABA, OMRAN and OCEC sources.
+The school offers the IB Primary Years, Middle Years and Diploma Programmes. ABA's wider [history page](https://www.abaoman.org/about-us) says it was founded in 1987 and serves a community representing more than 70 nationalities. These facts inform placement questions but do not make Modern Age Coders an IB provider.
 
-## The Madinat Al Irfan project: extrapolation beyond the data
+### Class-size guides change by stage
 
-The practice registration series is invented. It is not OCEC attendance, an ABA activity, an OMRAN dataset or a real event forecast.
+ABA's [admissions guidance](https://www.abaoman.org/admissions/how-to-apply) publishes class-assignment guides of 16 for FC1 and FC2, 20 for Kindergarten, 22 for Grades 1 to 10 and 18 per subject class in Grades 11 and 12.
 
-Days 1 through 5 contain 120, 150, 180, 210 and 240 registrations. The sequence rises by 30 each day, so a straight line fits perfectly.
+A model that sees the Grade 1 to 10 value and extends it to every grade would be wrong before it begins. The institution itself supplies a piecewise rule. Good software keeps the stage boundaries instead of forcing one continuous pattern across them.
 
-```python
+### OMRAN describes a multi-asset district
+
+[OMRAN Group](https://omran.om/projects/madinat-al-irfan) calls Madinat Al Irfan its flagship urban destination. It places Oman Convention and Exhibition Centre at the heart of the district and names Crowne Plaza Muscat OCEC and Muscat's first JW Marriott as connected hospitality assets.
+
+The same page describes the country's first fully LEED and WELL certified Business Park and names Omantel, OQ and OQEP headquarters there. It says the International Financial Centre of Oman is set to join the district. Existing assets and future elements require different status fields.
+
+### OCEC publishes configuration-specific capacities
+
+OCEC's [official event-space guide](https://ocec.om/) gives Exhibition Halls 1 to 5 a combined area of 22,396 square metres and a plan for 1,408 exhibition booths. Individual halls are not identical.
+
+Hall 1 is listed at 4,880 square metres, with 3,744 theatre seats or 195 exhibition booths. Hall 2 is 4,212 square metres, with 3,648 theatre seats or 165 booths. Layout changes the capacity, so a forecast needs a room and configuration rather than one universal venue number.
+
+A date is part of a fact
+
+ABA's 2022 opening, a current business-park description and a venue configuration table are not timeless constants. Each data row needs a source, effective date and status before it can support a decision.
+
+Local facts last verified 16 August 2026 against the linked ABA, OMRAN and OCEC sources.
+
+Madinat Al Irfan forecasting project
+
+## A straight first week does not authorise a straight twentieth day
+
+The registration series is invented. It is not connected to ABA, OCEC, OMRAN, a hotel or any actual event.
+
+### The tempting line
+
+A synthetic campaign records 120, 150, 180, 210 and 240 registrations on days 1 through 5. A line fits perfectly, adding 30 per day. Extending the formula to day 20 returns 690.
+
+```
 days = [1, 2, 3, 4, 5]
 registrations = [120, 150, 180, 210, 240]
 
 def fitted_line(day):
     return 90 + 30 * day
 
-print(fitted_line(5))   # 240
-print(fitted_line(20))  # 690
+fitted_line(5)   # 240, observed boundary
+fitted_line(20)  # 690, unsupported extrapolation
 ```
 
-The day-5 result sits on the observed boundary. Day 20 is fifteen days past that boundary. The distance from day 5 to day 20 is three times the entire five-day observed span.
+The model fits every observed point. That proves only that the five values are linear. Day 20 is fifteen days beyond the observed boundary and three times farther from day 5 than the entire measured span from day 1 to day 5.
 
-A perfect fit inside the training range does not prove that the process remains linear. Promotion may stop. Interest may saturate. Duplicate registrations may be removed. Capacity may bind. Eligibility or booking rules may change. The five points contain none of those mechanisms.
+### What the line cannot know
 
-The responsible output is: "The fitted line predicts 690 under an unchanged linear process, but the dataset contains no evidence after day 5. Day 20 is a scenario, not an observed or validated forecast."
+Promotion can end, interest can saturate, duplicate records can be removed, capacity can bind and registration rules can change. None appears in the five-point series. A narrow residual of zero inside the training range does not measure uncertainty outside it.
 
-The learner should:
+The learner must draw a visible boundary at day 5, label later output as extrapolation and avoid publishing a point estimate without assumptions or an uncertainty treatment. Better work adds holdout days, operational constraints and alternative curves before deciding whether any forecast is useful.
 
-1. plot and label the observed domain;
-2. visually distinguish fitted and extrapolated segments;
-3. keep future output marked as model output;
-4. obtain holdout days before evaluating forecast error;
-5. add known capacity and process constraints;
-6. compare linear, saturating and piecewise alternatives;
-7. refuse a confident point forecast when the decision needs evidence the data cannot provide.
+Required response
 
-Interpolation estimates inside the observed range. Extrapolation moves beyond it. The second is not always forbidden, but forecast distance and assumptions must be visible. The farther the query moves beyond evidence, the less a neat line should be mistaken for certainty.
+The fitted line predicts 690 under an unchanged linear process, but the dataset contains no evidence after day 5. Treat day 20 as a scenario, not an observed or validated forecast.
 
-## Placement and independent work
+| Day | Value | Status | What can be claimed |
+| --- | --- | --- | --- |
+| 1 | 120 | Observed synthetic point | Present in the exercise |
+| 3 | 180 | Observed synthetic point | Inside the measured range |
+| 5 | 240 | Observed boundary | Last available point |
+| 6 | 270 | Near extrapolation | Model scenario, not evidence |
+| 20 | 690 | Distant extrapolation | Unsupported without new data and assumptions |
 
-A PYP-age learner can extend a visual sequence and explain the rule. An MYP-age learner can plot observations and mark the domain. A DP-age learner can challenge a model with a constraint and keep an academic-integrity log. An adult can connect forecast error to a real operational consequence.
+Placement through transfer
 
-Possible paths include:
+## An IB programme name does not replace a working sample
 
-- [Scratch Programming](https://learn.modernagecoders.com/courses/scratch-programming-complete-course) for visible sequence and debugging;
-- [Elementary Mathematics](https://learn.modernagecoders.com/courses/elementary-mathematics-complete-masterclass) for patterns and functions;
-- [Maths Through Coding](https://learn.modernagecoders.com/courses/maths-through-coding) for translating models into programs;
-- [Python and AI for Kids](https://learn.modernagecoders.com/courses/python-ai-kids-masterclass) for a suitable younger typed-code path;
-- [Python for Teens](https://learn.modernagecoders.com/courses/python-complete-masterclass-teens) for reproducible modelling code;
-- [Statistics and Probability](https://learn.modernagecoders.com/courses/statistics-probability-maths-course) for uncertainty and sampling;
-- [Data Science for Teens](https://learn.modernagecoders.com/courses/data-science-course-for-teens-python-data) for data questions and model checks;
-- [AI and Machine Learning for Teens](https://learn.modernagecoders.com/courses/ai-ml-masterclass-teens) for evaluated predictive workflows;
-- [Orange Data Mining](https://learn.modernagecoders.com/courses/orange-data-mining-visual-machine-learning-course-for-teens) for visual model comparison;
-- [Data Analysis](https://learn.modernagecoders.com/courses/data-analysis-mastery-course-college) for adult analytical practice;
-- [Data Science](https://learn.modernagecoders.com/courses/data-science-complete-masterclass-college) for full model workflows;
-- [Data Analytics Mathematics](https://learn.modernagecoders.com/courses/data-analytics-mathematics-masterclass) for the mathematics behind modelling.
+| Context | Prompt | Strong evidence | Possible path |
+| --- | --- | --- | --- |
+| PYP-age learner | Extend a visual sequence and explain the rule | Predicts before clicking and corrects independently | Blocks, Scratch, maths |
+| MYP-age learner | Graph five points and mark the observed domain | Separates interpolation from extrapolation | Python, statistics, web |
+| DP-age learner | Challenge a model with a capacity constraint | States assumptions and refuses false certainty | Data science or mathematics |
+| Adult professional | Define users and failure costs for a forecast | Chooses validation that matches the decision | Analysis, automation, databases |
 
-The course route is not selected from the school stage alone. The free class may recommend a foundation, a narrow project or a later start if the learner's main commitments leave no time for practice.
+### Independent work is welcome
 
-## Group, private and timing
+Bring code, a data file, a maths solution or a project log that the teacher can question.
 
-Group classes contain five to eight learners at a compatible working level. Each learner needs time to run code, defend a model and respond to a changed input. Observing another learner's solution does not count as independent evidence.
+### Academic integrity stays with the learner
 
-Private classes contain one learner and one teacher. They can suit a defined project, personal pace or unusual schedule. Private delivery still requires practice between two weekly meetings.
+Teachers explain skills and review reasoning, but do not produce assessed school work.
 
-A laptop or desktop, microphone and stable video-capable internet are required. A tablet is limiting for notebooks, code editors and file handling.
+### A later start is allowed
 
-## Frequently asked questions
+Near examinations or deadlines, waiting can protect the learner's primary commitments.
+
+Name the learner's programme or work context and one project that can be opened live. Placement will focus on the evidence, not the label.
+
+[Ask on WhatsApp](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20want%20a%20free%20coding%20class%20for%20a%20learner%20in%20Madinat%20Al%20Irfan.)Book the free classAges 6 to 67
+
+## Progress from pattern to validated decision
+
+Ages 6 to 10
+
+### Predict the next state
+
+Visual rules make sequence, condition and correction visible.
+
+[Scratch Programming](/courses/scratch-programming-complete-course)[Elementary Mathematics](/courses/elementary-mathematics-complete-masterclass)Ages 11 to 13
+
+### Name the observed range
+
+Learners graph data and distinguish known from assumed.
+
+[Maths Through Coding](/courses/maths-through-coding)[Python and AI for Kids](/courses/python-ai-kids-masterclass)Ages 14 to 18
+
+### Evaluate the model
+
+Teenagers use holdouts, constraints and reproducible notebooks.
+
+[Data Science for Teens](/courses/data-science-course-for-teens-python-data)[AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens)Ages 18 to 67
+
+### Connect error to consequence
+
+Adults choose validation and reporting rules for a real decision.
+
+[Data Science](/courses/data-science-complete-masterclass-college)[Data Analytics Mathematics](/courses/data-analytics-mathematics-masterclass)Live online format
+
+## Small classes with room to challenge the output
+
+### Free diagnostic
+
+The first lesson checks fit before payment.
+
+### Group size
+
+Five to eight compatible learners work together.
+
+### Private
+
+One student works with one teacher.
+
+### Frequency
+
+Two lessons per week normally make eight monthly.
+
+### Time difference
+
+Oman is one and a half hours behind India.
+
+### Equipment
+
+A laptop or desktop and stable internet are required.
+
+A group still needs individual evidence
+
+Each learner must run the code, defend a model choice and respond to a changed input. Watching another student solve the problem is not a placement result.
+
+Published fees
+
+## Choose after the free class
+
+No enrolment charge, nothing to buy, no minimum term.
+
+GroupUSD 100per month, 8 lessons
+
+Five to eight learners matched by working level.
+
+PrivateUSD 150per month, 8 lessons
+
+One learner and one teacher with an individual pace.
+
+The course, format, recurring time and fee are confirmed after placement and before payment.
+
+Plan changes and missed-class terms appear on the [pricing page](/pricing).
+
+Reviews
+
+## What families and learners say
+
+Rated 4.9 across 547 Google reviews. These are real reviews, reproduced as written.
+
+★★★★★
+
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
+
+Ria Mukherjee
+
+Parent
+
+★★★★★
+
+"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
+
+Samriddha Mondal
+
+Student
+
+★★★★★
+
+"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
+
+Vansh Agarwal
+
+Student
+
+★★★★★
+
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
+
+Sonam Oswal
+
+Parent of Dhairya
+
+★★★★★
+
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
+
+Sonu Goyal
+
+Parent
+
+★★★★★
+
+"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
+
+Ritu Kedia
+
+Parent
+
+Read more feedback and student work on the [wall of love](/love).
+
+Questions
+
+## Madinat Al Irfan coding class answers
 
 ### Can ABA Oman students join these coding classes?
 
@@ -152,8 +314,24 @@ Oman is one and a half hours behind India. The teacher and family confirm the re
 
 Use a laptop or desktop, microphone and stable video-capable internet. Bring a recent program, maths solution, data file or independent project if available. The teacher may change a point outside the observed range and ask what the model can still justify. A tablet is limiting for code editors, files and analytical tools.
 
-## Continue through Muscat
+Free live placement
 
-The [Azaiba coding guide](https://learn.modernagecoders.com/coding-classes-in-azaiba) shows how truncation pushes positive values down. The [Mawaleh coding guide](https://learn.modernagecoders.com/coding-classes-in-mawaleh) explains why medians from separate groups cannot be casually combined. Return to the [Oman coding hub](https://learn.modernagecoders.com/coding-classes-in-oman) for the complete offer.
+## Bring the file and the boundary you are unsure about
 
-Request the free class through the HTML form, WhatsApp +91 91233 66161, or contact@modernagecoders.com.
+A teacher can help when the learner exposes the decision, not only the finished chart. Bring raw data, working code and the claim the project is meant to support.
+
+Review the [Oman offer](/coding-classes-in-oman), compare the [Muscat cluster](/coding-classes-in-muscat), or read [how we teach](/how-we-teach).
+
+[WhatsApp us](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20want%20a%20free%20coding%20class%20for%20a%20learner%20in%20Madinat%20Al%20Irfan.)[+91 91233 66161](tel:+919123366161)[contact@modernagecoders.com](mailto:contact@modernagecoders.com)
+
+This Indian number reaches the online provider. It is not a Madinat Al Irfan office.
+
+Related district guides
+
+## Continue to a different aggregation mistake
+
+[Oman country guide](/coding-classes-in-oman)[Muscat metropolitan hub](/coding-classes-in-muscat)[Azaiba, where truncation pushes positive values down](/coding-classes-in-azaiba)[Mawaleh, where medians cannot be casually combined](/coding-classes-in-mawaleh)
+
+---
+
+*Canonical: https://learn.modernagecoders.com/coding-classes-in-madinat-al-irfan*

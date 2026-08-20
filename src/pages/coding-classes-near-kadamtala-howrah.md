@@ -156,11 +156,11 @@ WEEKLY SCHEDULE
 
 | Slot | Time | Best for | Days |
 | --- | --- | --- | --- |
-| Early evening | 4:30: 5:30 PM | Kids ages 6–12 (Scratch, Python beginners) | Mon / Wed / Fri |
-| Prime evening | 6:00, 7:00 PM | Teens, ICSE Java & CBSE Python | Tue / Thu / Sat |
-| Late evening | 7:30, 8:30 PM | Class 9–12 board CS & maths | Mon / Wed / Fri |
-| Night | 8:30, 9:30 PM | College students & working adults | Tue / Thu / Sat |
-| Weekend morning | 10:00, 11:30 AM | Camps, projects & 1-on-1 | Sat / Sun |
+| Early evening | 4:30 – 5:30 PM | Kids ages 6–12 (Scratch, Python beginners) | Mon / Wed / Fri |
+| Prime evening | 6:00 – 7:00 PM | Teens, ICSE Java & CBSE Python | Tue / Thu / Sat |
+| Late evening | 7:30 – 8:30 PM | Class 9–12 board CS & maths | Mon / Wed / Fri |
+| Night | 8:30 – 9:30 PM | College students & working adults | Tue / Thu / Sat |
+| Weekend morning | 10:00 – 11:30 AM | Camps, projects & 1-on-1 | Sat / Sun |
 
 Timings are flexible. We set a slot around your child's school and tuition routine. Tell us what suits when you [book a demo](/book-demo).
 

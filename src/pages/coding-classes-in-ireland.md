@@ -26,15 +26,15 @@ See the JC → LC pathway"Ríomhchlárú agus intleacht shaorga don aos óg ar f
 
 Ireland's secondary system has a unique structure that doesn't quite match the UK or US. Five years of post-primary (with an optional Transition Year in the middle), then the Leaving Certificate determines CAO points which determine third-level entry. Here's what each step demands and where we add value.
 
-AGES 6: 12
+AGES 6, 12
 
-#### Primary · 1st: 6th class
+#### Primary · 1st, 6th class
 
 Computational thinking foundations · Scratch / Python intro · logic-and-puzzle work that quietly supports primary maths.
 
-AGES 12: 15
+AGES 12, 15
 
-#### Junior Cycle · 1st: 3rd year
+#### Junior Cycle · 1st, 3rd year
 
 Junior Cycle Coding short course · Python · web basics · classroom-based assessments (CBAs). Strong CBA work transfers to LC CS later.
 
@@ -46,7 +46,7 @@ The deep-dive window. TY is an optional gap year before LC. Many of our best Iri
 
 AGES 16, 18
 
-#### Senior Cycle · 5th: 6th year
+#### Senior Cycle · 5th, 6th year
 
 Leaving Cert Computer Science (Higher or Ordinary), LC Higher Maths. Computational Thinking project (30%) plus the State Examinations Commission written paper.
 
@@ -64,7 +64,7 @@ TCD CS · UCD CS Engineering · UCC CS · DCU CS · UL CSIS · NUIG CS · Maynoo
 
 Every course runs as live 1:1 with a mentor matched to your child's exact year (1st class primary all the way to LC6). Two 45-minute sessions per week. USD 150 per month for 1:1, or USD 100 for small-group cohort.
 
-[1st, 3rd class · Primary Little Coders, Block to Python Scratch & ScratchJr, then we bridge to real Python by month four. Play and animation-led. Strengthens primary-school mathematical thinking quietly. USD 150 / month · 1:1 · 8 sessions](/courses/coding/kids)[4th: 6th class · Primary Python Foundations + Micro:bit Real Python, real keyboard typing, real GitHub. Optional physical-computing add-on with BBC micro:bit so the code controls something they can see. USD 150 / month · 1:1 · 8 sessions](/courses/coding/kids)[1st: 3rd year · Junior Cycle Junior Cycle Coding short course Direct alignment with the NCCA Junior Cycle Coding short course. Python, web fundamentals, classroom-based assessment (CBA) preparation that scores. USD 150 / month · 1:1 · 8 sessions](/courses/coding/teens)[Transition Year · 4th year TY Coding Deep-Dive Our most-recommended Irish track. TY students have the time, the headspace, and the lack of LC pressure to build a serious portfolio. Many of our advanced senior-cycle outcomes start here. USD 150 / month · 1:1 · 8 sessions](/courses/coding/teens)[5th: 6th year · LC CS Higher Leaving Cert Computer Science (Higher) Full Higher Level coverage of the 2018 LCCS specification. Practices & Principles, Core Concepts, Computer Science in Practice. Past-paper drills + the 30% Computational Thinking project guided start-to-finish. USD 150 / month · 1:1 · 8 sessions](/courses/coding/teens)[5th: 6th year · LC CS Ordinary Leaving Cert Computer Science (Ordinary) For students taking LC CS at Ordinary Level, we don't push Higher when Ordinary is the right call. The full Ordinary specification, plus solid project guidance. USD 150 / month · 1:1 · 8 sessions](/courses/coding/teens)[5th: 6th year · LC Higher Maths LC Higher Maths support Calculus, algebra, probability, the LC Higher Maths Project Maths Paper 1 & 2. Many Irish students who want CS at TCD/UCD also need a strong Higher Maths grade. We support both. USD 150 / month · 1:1 · 8 sessions](/courses/coding/teens)[Third level / Adult Agentic AI for Working Pros Python · SQL · LangChain · LangGraph · CrewAI · evaluations · production deployment. The exact stack Stripe Dublin, Intercom, Workday, Salesforce and the IDA-supported Irish startup ecosystem recruit for. USD 150 / month · 1:1 · 8 sessions](/courses/coding/college)
+[1st: 3rd class · Primary Little Coders: Block to Python Scratch & ScratchJr, then we bridge to real Python by month four. Play and animation-led. Strengthens primary-school mathematical thinking quietly. USD 150 / month · 1:1 · 8 sessions](/courses/coding/kids)[4th: 6th class · Primary Python Foundations + Micro:bit Real Python, real keyboard typing, real GitHub. Optional physical-computing add-on with BBC micro:bit so the code controls something they can see. USD 150 / month · 1:1 · 8 sessions](/courses/coding/kids)[1st: 3rd year · Junior Cycle Junior Cycle Coding short course Direct alignment with the NCCA Junior Cycle Coding short course. Python, web fundamentals, classroom-based assessment (CBA) preparation that scores. USD 150 / month · 1:1 · 8 sessions](/courses/coding/teens)[Transition Year · 4th year TY Coding Deep-Dive Our most-recommended Irish track. TY students have the time, the headspace, and the lack of LC pressure to build a serious portfolio. Many of our advanced senior-cycle outcomes start here. USD 150 / month · 1:1 · 8 sessions](/courses/coding/teens)[5th: 6th year · LC CS Higher Leaving Cert Computer Science (Higher) Full Higher Level coverage of the 2018 LCCS specification. Practices & Principles, Core Concepts, Computer Science in Practice. Past-paper drills + the 30% Computational Thinking project guided start-to-finish. USD 150 / month · 1:1 · 8 sessions](/courses/coding/teens)[5th: 6th year · LC CS Ordinary Leaving Cert Computer Science (Ordinary) For students taking LC CS at Ordinary Level. We don't push Higher when Ordinary is the right call. The full Ordinary specification, plus solid project guidance. USD 150 / month · 1:1 · 8 sessions](/courses/coding/teens)[5th: 6th year · LC Higher Maths LC Higher Maths support Calculus, algebra, probability, the LC Higher Maths Project Maths Paper 1 & 2. Many Irish students who want CS at TCD/UCD also need a strong Higher Maths grade. We support both. USD 150 / month · 1:1 · 8 sessions](/courses/coding/teens)[Third level / Adult Agentic AI for Working Pros Python · SQL · LangChain · LangGraph · CrewAI · evaluations · production deployment. The exact stack Stripe Dublin, Intercom, Workday, Salesforce and the IDA-supported Irish startup ecosystem recruit for. USD 150 / month · 1:1 · 8 sessions](/courses/coding/college)
 
 International schools in Ireland run IB, British and American curricula. These live courses prepare those exams directly.
 
@@ -82,7 +82,7 @@ That makes TY the single best window to build a real coding & AI portfolio. By t
 
 Our TY deep-dive students typically come out with: 2–3 substantial Python projects, a working web app deployed live, a basic agentic-AI tool they can demo to family, and (frankly) more confidence than 90% of their peers.
 
-**~62%**of Irish post-primary students take TY (varies by school)**2, 3**full projects shipped to GitHub during a TY year with us**+30, 60**CAO-points uplift typical from a strong TY coding foundation, in our experience**H1**The realistic LC Computer Science target for serious TY-prepared studentsMy child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative and listen to our suggestions. Overall, I am very happy with the class.**Sonam Oswal** · Parent of Dhairya · Verified Google reviewWhat Irish students actually ship
+**~62%**of Irish post-primary students take TY (varies by school)**2: 3**full projects shipped to GitHub during a TY year with us**+30: 60**CAO-points uplift typical from a strong TY coding foundation, in our experience**H1**The realistic LC Computer Science target for serious TY-prepared studentsMy child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative and listen to our suggestions. Overall, I am very happy with the class.**Sonam Oswal** · Parent of Dhairya · Verified Google reviewWhat Irish students actually ship
 
 ## Not slides. Not certificates. Real working software our IE students built.
 
@@ -229,7 +229,7 @@ CAO-points awareness
 
 The CAO points system is unique to Ireland and tells you exactly what Leaving Cert grade-combination you need for each course. Points fluctuate every year based on demand and supply, these are recent typical ranges. We aim to position students *above* their target so the buffer is real.
 
-University & courseRecent pointsTrendCS-specific?TCDComputer Science TR033580, 625Stable / high demandYesUCDComputer Science DN201 / Eng DN150555, 600RisingYesUCCComputer Science CK403444, 520SteadyYesDCUComputer Science CA117 / CA116405, 488RisingYesULCS & Info Systems LM121 / LM113433, 500RisingYesNUI GalwayComputer Science & IT GY350426, 500SteadyYesMaynoothCS & Software Eng MH301 / MH302405, 475SteadyYesTU DublinCS TU856 / TU857 / TU858320, 425AccessibleYes
+University & courseRecent pointsTrendCS-specific?TCDComputer Science TR033580: 625Stable / high demandYesUCDComputer Science DN201 / Eng DN150555: 600RisingYesUCCComputer Science CK403444: 520SteadyYesDCUComputer Science CA117 / CA116405: 488RisingYesULCS & Info Systems LM121 / LM113433: 500RisingYesNUI GalwayComputer Science & IT GY350426: 500SteadyYesMaynoothCS & Software Eng MH301 / MH302405: 475SteadyYesTU DublinCS TU856 / TU857 / TU858320: 425AccessibleYes
 
 Points figures are illustrative ranges drawn from recent CAO Round-1 outcomes; always verify the current year's figures on **cao.ie**. We use these as planning anchors, not promises.
 
@@ -373,7 +373,7 @@ Week 1
 
 Mentor sets up the dev environment on your child's home laptop (VS Code, Python, GitHub account). First "real" project is shipped end of week 1, usually a small Python game or a working Flask webpage. We send you the GitHub link.
 
-Week 2, 3
+Week 2: 3
 
 ### Curriculum lock-in
 
@@ -449,7 +449,7 @@ Minute 0: 3
 
 Mentor and student greet on Zoom. 2-minute recap: "What do you remember? What got stuck?", no homework-style grilling.
 
-Minute 3, 10
+Minute 3: 10
 
 ### Concept moment
 
@@ -495,7 +495,7 @@ Plan B
 
 **Months 1–2:** Python intensive. Real Python from day one, no Scratch, no toys.
  **Months 3–4:** Data structures + first major Python project (their choice, game, web scraper, productivity app).
- **Months 5–6:** Full-stack web, HTML, CSS, JavaScript, Flask. First deployed Flask app on a free Render instance.
+ **Months 5–6:** Full-stack web: HTML, CSS, JavaScript, Flask. First deployed Flask app on a free Render instance.
  **Months 7–8:** JavaScript + React + Tailwind. Their TY innovation project starts: a real working web app deployed live.
  **Months 9–10:** Introduction to LLMs & agents. They build their first agentic-AI tool.
  **Months 11–12:** Capstone + portfolio polish. By June they have 3 substantial projects on GitHub.
@@ -549,11 +549,11 @@ Yes. Many of our Irish LC students take both LC CS and LC Higher Maths. We have 
 
 Will mentors help with Transition Year work-experience placements at a tech company?
 
-We can review the cover letter, prep the student for a Stripe / Intercom / Workday / Microsoft / Salesforce TY work-experience interview, and help shape their CV. We don't broker placements directly, that's the school's role.
+We can review the cover letter, prep the student for a Stripe / Intercom / Workday / Microsoft / Salesforce TY work-experience interview, and help shape their CV. We don't broker placements directly. That's the school's role.
 
 What about the Irish Mathematical Olympiad (IrMO)?
 
-Yes, we coach students for the IrMO. The Irish Maths Trust's IrMO selection moves through January–April; we calibrate our timetable around that schedule for serious aspirants.
+Yes. We coach students for the IrMO. The Irish Maths Trust's IrMO selection moves through January–April; we calibrate our timetable around that schedule for serious aspirants.
 
 Do you support the BIO (British Informatics Olympiad)?
 

@@ -364,7 +364,7 @@ Data and forecasting
 
 A weather application running on live feeds, the closest relative in this set to the electricity price project above.
 
-by Krish · [Open the live project](https://krish-shroff.github.io/AuraWeatherTech/)
+by Krish
 
 Fees
 
@@ -374,9 +374,9 @@ Our list prices are flat dollar prices everywhere we teach outside India, so wha
 
 Free first class
 
-$0
+Free
 
-USD 0, no card needed
+No card needed
 
 - A real class with a real teacher, not a sales call
 - Doubles as a placement check so the level is pitched correctly
@@ -388,7 +388,7 @@ Group batch
 
 $100
 
-USD 100 a month
+a month, billed in US dollars
 
 - Five to eight students, same teacher every week
 - Live video, never a recording
@@ -401,7 +401,7 @@ One to one
 
 $150
 
-USD 150 a month
+a month, billed in US dollars
 
 - Private teaching, your pace and your schedule
 - Best for AP years and for adults with few free evenings
@@ -508,6 +508,8 @@ Start here
 Leave a number and a mentor calls you back, usually within a few hours and at an hour that works in your time zone rather than ours. The first class is a real class with a real teacher, and doubles as a placement check so your child starts at their own level rather than the average one.
 
 Prefer to look around first? Read [how we teach](/how-we-teach), browse the [full course catalogue](/courses), or see what students have built in [Student Labs](/student-labs).
+
+[Chat with us](https://wa.me/919123366161?text=Hi%2C%20I'm%20interested%20in%20learning%20more%20about%20your%20courses!)
 
 ---
 

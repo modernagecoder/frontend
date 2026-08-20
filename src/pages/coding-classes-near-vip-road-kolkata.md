@@ -170,7 +170,7 @@ ONLINE vs OFFLINE
 
 - Zero commute, no crossing the Baguiati VIP Road jam or the Kestopur Bridge bottleneck; about 90 minutes saved per class day.
 - Real teaching, same room. It is live, so doubts are cleared instantly on a shared screen, exactly like a physical class.
-- Smaller batches than local centres typically run, 6–8 students, every screen watched.
+- Smaller batches than local centres typically run: 6–8 students, every screen watched.
 - Schedules that bend to Sector V shifts, late-evening and 1-on-1 slots for rotating IT hours.
 - A teacher from a wider pool of full-time engineers and maths graduates, not just whoever is nearby.
 - The same screen children already learn well on, with code and output visible side by side.
@@ -269,7 +269,7 @@ REAL STUDENT PROJECTS
 
 ## What our students actually build
 
-[![Moxo, Company Landing Page](/images/projects/moxo.webp)Web AppMoxo, Company Landing PageA stunning modern landing page with smooth parallax scrolling, advanced GSAP animations and elegant section transitions that bring the brand to life.by IshaOpen the live project ↗](https://moxo.modernagecoders.com)[![Baby, Typing Speed Challenge](/images/projects/baby.webp)GameBaby, Typing Speed ChallengeAn engaging typing speed challenge where users test how fast and accurately they can type, with a live leaderboard connected to a MongoDB backend.by KritikaOpen the live project ↗](https://baby.modernagecoders.com)[![MyDay, Social Productivity Organizer](/images/projects/myday.webp)Web AppMyDay, Social Productivity OrganizerA beautifully designed productivity platform to organise daily tasks, set goals and stay consistent, with a community feed of others' plans for inspiration.by VedantOpen the live project ↗](https://myday.modernagecoders.com)
+[![Moxo: Company Landing Page](/images/projects/moxo.webp)Web AppMoxo: Company Landing PageA stunning modern landing page with smooth parallax scrolling, advanced GSAP animations and elegant section transitions that bring the brand to life.by IshaOpen the live project ↗](https://moxo.modernagecoders.com)[![Baby: Typing Speed Challenge](/images/projects/baby.webp)GameBaby: Typing Speed ChallengeAn engaging typing speed challenge where users test how fast and accurately they can type, with a live leaderboard connected to a MongoDB backend.by KritikaOpen the live project ↗](https://baby.modernagecoders.com)[![MyDay: Social Productivity Organizer](/images/projects/myday.webp)Web AppMyDay: Social Productivity OrganizerA beautifully designed productivity platform to organise daily tasks, set goals and stay consistent, with a community feed of others' plans for inspiration.by VedantOpen the live project ↗](https://myday.modernagecoders.com)
 
 Every one is a real, live project by a student. See more in [Student Labs](/student-labs).
 

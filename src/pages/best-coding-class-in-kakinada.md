@@ -36,7 +36,7 @@ Ages 8–12
 
 ## Coding for kids in Kakinada
 
-Most popular![Kids coding with Scratch, best coding class for kids in Kakinada](/images/kids-coding.webp)
+Most popular![Kids coding with Scratch: best coding class for kids in Kakinada](/images/kids-coding.webp)
 
 ### Kids Coding with Scratch
 
@@ -58,7 +58,7 @@ Kids build their very first colourful website with HTML & CSS, then share the li
 - Fun, real web projects
 - A personal portfolio page
 
-[View course](/courses/kids-ai-web-development-course)Next step![Python for kids, programming course in Kakinada](/images/python-kids.webp)
+[View course](/courses/kids-ai-web-development-course)Next step![Python for kids: programming course in Kakinada](/images/python-kids.webp)
 
 ### Python for Young Coders
 
@@ -73,7 +73,7 @@ The jump to real, typed code, in the world's most popular language. Kids write P
 
 ## Coding for teens in Kakinada
 
-In demand![Python programming for teens, best coding institute in Kakinada](/images/python-teens.webp)
+In demand![Python programming for teens: best coding institute in Kakinada](/images/python-teens.webp)
 
 ### Python Programming
 
@@ -84,7 +84,7 @@ The most in-demand language in the world, and the one JNTU-K students lean on mo
 - Automation & scripting
 - Real-world projects
 
-[View course](/courses/python-complete-masterclass-teens)Career![Java programming for teens, best coding class in Kakinada](/images/java-teens.webp)
+[View course](/courses/python-complete-masterclass-teens)Career![Java programming for teens: best coding class in Kakinada](/images/java-teens.webp)
 
 ### Java Programming
 
@@ -95,7 +95,7 @@ Java is the backbone of CBSE/AP-board Computer Science and the enterprise stacks
 - Intro to Android app building
 - Board-aligned practice
 
-[View course](/courses/java-programming-masterclass-for-teens)Build![Web development for teens, programming classes in Kakinada](/images/web-dev-teens.webp)
+[View course](/courses/java-programming-masterclass-for-teens)Build![Web development for teens: programming classes in Kakinada](/images/web-dev-teens.webp)
 
 ### Full-Stack Web Development
 
@@ -106,7 +106,7 @@ Build complete, deployed websites from scratch with HTML, CSS, JavaScript and Re
 - Backend with Node.js
 - Live portfolio projects
 
-[View course](/courses/web-development-masterclass-teens)Future![AI and machine learning for teens, coding course in Kakinada](/images/ai-ml-teens.webp)
+[View course](/courses/web-development-masterclass-teens)Future![AI and machine learning for teens: coding course in Kakinada](/images/ai-ml-teens.webp)
 
 ### AI & Machine Learning
 
@@ -158,19 +158,19 @@ Python, machine learning and real data analysis, built for the analytics and AI 
 
 ## Mathematics classes in Kakinada
 
-![Elementary mathematics, maths classes in Kakinada](/images/elementary-maths.webp)
+![Elementary mathematics: maths classes in Kakinada](/images/elementary-maths.webp)
 
 ### Elementary Mathematics
 
 Rock-solid foundations in numbers, operations, fractions, geometry and word problems for grades 1–5, aligned to CBSE & AP-board schools across Kakinada.
 
-[View course](/courses/elementary-mathematics-complete-masterclass)![High school mathematics, maths tuition in Kakinada](/images/high-school-maths.webp)
+[View course](/courses/elementary-mathematics-complete-masterclass)![High school mathematics: maths tuition in Kakinada](/images/high-school-maths.webp)
 
 ### High School Mathematics
 
 Algebra, geometry, trigonometry, pre-calculus and calculus for grades 9–12, board-aligned and built to give Kakinada's EAPCET and JEE aspirants a genuine head start.
 
-[View course](/courses/complete-high-school-mathematics-mastery)Olympiad![Olympiad mathematics, competition prep in Kakinada](/images/olympiad-competition-maths.webp)
+[View course](/courses/complete-high-school-mathematics-mastery)Olympiad![Olympiad mathematics: competition prep in Kakinada](/images/olympiad-competition-maths.webp)
 
 ### Olympiad & Competition Math
 
@@ -250,7 +250,7 @@ International families pay flat USD rates, the prices above update automatically
 
 Not screenshots of a syllabus, real, live projects from Modern Age Coders learners and labs. Click through and use them.
 
-[![MyDay, Social Productivity Organizer](/images/projects/myday.webp) Web AppMyDay, Social Productivity OrganizerA beautifully designed productivity platform to organise daily tasks, set goals and stay consistent, with a community feed of others' plans for inspiration. Built by Vedant · JavaScript, Node.jsOpen the live project ↗](https://myday.modernagecoders.com)[![Babu, 90 Second Maths Challenge](/images/projects/babu.webp) GameBabu, 90 Second Maths ChallengeAn exciting 90-second maths challenge with random problems under time pressure, and a dynamic leaderboard powered by Firebase/MongoDB with real-time score updates. Built by Modern Age Coders · JavaScript, FirebaseOpen the live project ↗](https://babu.modernagecoders.com)[![Baby, Typing Speed Challenge](/images/projects/baby.webp) GameBaby, Typing Speed ChallengeAn engaging typing speed challenge where users test how fast and accurately they can type, with a live leaderboard connected to a MongoDB backend. Built by Kritika · JavaScript, Node.jsOpen the live project ↗](https://baby.modernagecoders.com)[See more student projects →](/student-labs)
+[![MyDay: Social Productivity Organizer](/images/projects/myday.webp) Web AppMyDay: Social Productivity OrganizerA beautifully designed productivity platform to organise daily tasks, set goals and stay consistent, with a community feed of others' plans for inspiration. Built by Vedant · JavaScript, Node.jsOpen the live project ↗](https://myday.modernagecoders.com)[![Babu: 90 Second Maths Challenge](/images/projects/babu.webp) GameBabu: 90 Second Maths ChallengeAn exciting 90-second maths challenge with random problems under time pressure, and a dynamic leaderboard powered by Firebase/MongoDB with real-time score updates. Built by Modern Age Coders · JavaScript, FirebaseOpen the live project ↗](https://babu.modernagecoders.com)[![Baby: Typing Speed Challenge](/images/projects/baby.webp) GameBaby: Typing Speed ChallengeAn engaging typing speed challenge where users test how fast and accurately they can type, with a live leaderboard connected to a MongoDB backend. Built by Kritika · JavaScript, Node.jsOpen the live project ↗](https://baby.modernagecoders.com)[See more student projects →](/student-labs)
 
 ## What families say
 

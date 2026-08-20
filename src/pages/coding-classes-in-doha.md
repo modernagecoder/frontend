@@ -182,7 +182,7 @@ Student projects
 
 Every one of these is a real, live project shipped by a Modern Age Coders student, not a mockup. Explore more in our [Student Labs](/student-labs).
 
-![Pracy, Coding Practice & Quiz Platform](/images/projects/pracy.webp)
+![Pracy: Coding Practice & Quiz Platform](/images/projects/pracy.webp)
 
 Web App
 
@@ -220,7 +220,7 @@ Billing is monthly, in US dollars. The riyal's dollar peg keeps the QAR figures 
 
 Group classes
 
- $1$100$2
+$100 per month
 
 - Five to eight students per teacher
 - A fixed weekly evening hour, AST
@@ -231,7 +231,7 @@ Book a Free Demo
 
 One-on-one classes
 
- $1$150$2
+$150 per month
 
 - Sixty minutes, one student, one teacher
 - Days and times arranged around you
@@ -257,6 +257,8 @@ Not a sales presentation, not a highlights reel. A teacher, a small group, an or
 Prefer to talk first? [Send us a WhatsApp message](https://wa.me/919123366161?text=Hi,%20I%20want%20a%20free%20demo%20for%20coding%20classes%20in%20Doha) and a mentor picks it up during Qatar business hours.
 
 4.9 rating across 547+ Google reviews
+
+[Chat with us](https://wa.me/919123366161?text=Hi%2C%20I'm%20interested%20in%20learning%20more%20about%20your%20courses!)
 
 ---
 

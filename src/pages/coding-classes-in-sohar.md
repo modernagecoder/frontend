@@ -1,151 +1,333 @@
 ---
 title: "Coding Classes in Sohar | Modern Age Coders"
 description: "Live online coding and mathematics in Sohar for ages 6 to 67, with port and university evidence, clear USD fees, a mixed-unit data project and a free class."
-canonical: "https://learn.modernagecoders.com/coding-classes-in-sohar"
-last_verified: "2026-08-16"
+canonical: https://learn.modernagecoders.com/coding-classes-in-sohar
+source: src/pages/coding-classes-in-sohar.html
+---
+> Live online coding and mathematics in Sohar for ages 6 to 67, with port and university evidence, clear USD fees, a mixed-unit data project and a free class.
+
+Skip to contentCourse picks
+
+## Measure, model and reject invalid arithmetic
+
+These routes cover the mathematical foundation, code implementation and analytical audit needed for a unit-aware pipeline.
+
+[![Elementary Mathematics course thumbnail](/images/elementary-maths.webp)Ages 6 to 11Elementary MathematicsAttach labels and dimensions to quantities.See the syllabus](/courses/elementary-mathematics-complete-masterclass)[![Python for Teens course thumbnail](/images/python-teens.webp)Ages 14 to 18Python for TeensValidate unit fields before aggregation.See the syllabus](/courses/python-complete-masterclass-teens)[![Data Analysis course thumbnail](/images/data-analysis-college.webp)College and adultData AnalysisPublish definitions beside every metric.See the syllabus](/courses/data-analysis-mastery-course-college)[![Data Analytics Mathematics course thumbnail](/images/data-analytics-maths.webp)College and adultData Analytics MathematicsCheck dimensional validity before totals.See the syllabus](/courses/data-analytics-mathematics-masterclass)
+
+Find broader options in the [course atlas](/course-atlas) and check prerequisites in the [coding roadmap](/coding-roadmap). Placement comes before payment.
+
+The city
+
+## A regional centre shaped by trade, industry, learning and history
+
+The strongest evidence for a Sohar page comes from organisations operating there, not from repeating national technology claims.
+
+### North Al Batinah's centre
+
+Oman's [government portal](https://gov.om/en/al-batinah-north-governorate) locates the governorate administration in Sohar and lists Sohar among its six wilayats. The 2026 statistical yearbook identifies Sohar as the regional centre for the northern part of Al Batinah North.
+
+### A port operating since 2004
+
+[Asyad's Sohar Port profile](https://www.asyad.om/who-we-are/Address-directory/sohar-port) says operations began in 2004. It describes a 21 million square metre deep-sea hub with logistics, petrochemicals and metals clusters, later joined by a food cluster.
+
+### Oman's first private university
+
+The Ministry of Higher Education's [Study in Oman directory](https://studyinoman.moheri.gov.om/en-us/Colleges-Universities/HEI-Details?heiparam=Tg3R3dzL5d8qh2W0SyphdQ%3D%3D) says Sohar University received official accreditation in 2001 as the country's first private university.
+
+Why that mix matters to placement
+
+A primary learner, a university computing student and an operations analyst do not need the same first task. The free class observes current reasoning and implementation before recommending blocks, Python, databases, web engineering, data analysis or another route.
+
+Verified Sohar evidence
+
+## Numbers with definitions, sources and units
+
+The local facts below are useful only when their quantities are not stripped from what they measure.
+
+### More than 3,000 vessel calls
+
+Asyad says Sohar Port hosts more than 3,000 vessel calls each year, with gross registered tonnage around 85 million. A vessel call is a count; gross registered tonnage is a capacity convention. Neither is a cargo-mass total.
+
+### Two million TEU capacity
+
+[Hutchison Ports Sohar](https://www.asyad.om/what-we-do/ports-free-zones-thank-you/hutchinson-sohar) states annual container-terminal capacity of two million TEU, an 18-metre draft and thirteen cranes. TEU is a container-capacity unit, not a tonne.
+
+### A 50:50 management venture
+
+Asyad describes Sohar Industrial Port Company as a 50:50 joint venture between Asyad and the Port of Rotterdam. It identifies separate operators for general cargo, liquid bulk and containers.
+
+### Connections to 550 ports
+
+The Asyad profile says the SOHAR Navigate platform provides information on hinterland connections and a network of 550 ports worldwide. That is a network count, not a cargo quantity.
+
+### Computing routes at Sohar University
+
+The university's [Faculty of Computing and IT](https://www.su.edu.om/faculty-of-computing-and-it/) lists undergraduate routes including web engineering, multimedia, networking and database, software engineering, cybersecurity and artificial intelligence, plus master's and doctoral computer-science study.
+
+### Sohar Fort has layered dates
+
+The [National Museum](https://www.nm.gov.om/en/collection/gift/architectural-heritage) reports competing accounts of Sohar Fort's origin and records Portuguese renovation in 1618 and 1621. Responsible data work preserves uncertainty instead of choosing one date without qualification.
+
+Signature project
+
+## The cargo total that has no unit
+
+A realistic table can produce a meaningless result when its schema lets unlike quantities enter the same sum.
+
+### 1. Load the manifest
+
+The teaching file contains synthetic rows for dry bulk in tonnes, containers in TEU and liquid bulk in cubic metres. The categories use port vocabulary, but the records are not operational data from Sohar Port.
+
+### 2. Run the naive aggregation
+
+A first script groups by month and sums the numeric amount column. The output is large, consistently formatted and wrong. It cannot be labelled tonnes, TEU, cubic metres or total cargo because the addends have different dimensions.
+
+### 3. Make invalid states impossible
+
+The repaired model stores value, unit, cargo class and source. Aggregation requires a single compatible unit. When conversion facts are absent, the program returns separate totals instead of guessing.
+
+| Cargo record | Value field | Unit | Valid operation |
+| --- | --- | --- | --- |
+| Dry bulk movement | Numeric amount | tonne | Sum only with other mass records |
+| Container movement | Numeric amount | TEU | Sum container capacity counts |
+| Liquid movement | Numeric amount | cubic metre | Sum compatible volume records |
+| Naive combined total | All values added | none | Reject because no coherent unit exists |
+
+### A conversion factor must describe the actual cargo
+
+One TEU does not contain a fixed number of tonnes, and one cubic metre does not have a fixed mass across different substances. Density, loading and contents matter. A generic constant would turn one invalid sum into a more convincing invalid sum.
+
+Data engineering
+
+## Four checks before an aggregate reaches the dashboard
+
+Good code carries semantic information from input to presentation.
+
+| Layer | Required field or rule | Failure caught | Defensible output |
+| --- | --- | --- | --- |
+| Ingest | Value and unit are both required | Unlabelled numbers | Quarantine incomplete rows |
+| Model | Unit uses a controlled vocabulary | TEU, teu and containers split silently | One canonical code per unit |
+| Aggregate | All rows share a compatible dimension | Mass plus volume plus capacity | Separate totals or valid conversion |
+| Presentation | Label includes measure, unit and period | A number called total cargo | Auditable metric title and source |
+
+### For children
+
+Cards labelled length, mass, time and count can be sorted before any arithmetic. The learner explains why labels matter.
+
+### For teenagers
+
+Python enums and validation functions prevent mixed-unit lists from reaching `sum()`. Tests assert that the right error appears.
+
+### For university and work
+
+Database constraints, dimensional models and metadata contracts keep business-intelligence tools from inventing a grand total.
+
+Public facts are kept in a separate source table with retrieval date and definition. Synthetic practice records live in a clearly labelled teaching table. The report never blends those evidence levels.
+
+Learning route
+
+## Start with quantities, finish with reliable systems
+
+The free class chooses a point on the ladder using demonstrated ability.
+
+Ages 6 to 10
+
+### Name what a number measures
+
+Visual coding and mathematics link values to real quantities.
+
+[Early Math Foundations](/courses/early-math-foundations)[Kids Coding Blocks](/courses/kids-coding-blocks-masterclass)Ages 11 to 13
+
+### Check before calculating
+
+Learners write small rules that reject incompatible inputs.
+
+[Maths Through Coding](/courses/maths-through-coding)[Python and AI for Kids](/courses/python-ai-kids-masterclass)Ages 14 to 18
+
+### Model records explicitly
+
+Teenagers use classes, tests and tables to preserve units.
+
+[MySQL for Teens](/courses/mysql-mastery-for-teens)[Data Science for Teens](/courses/data-science-course-for-teens-python-data)Ages 18 to 67
+
+### Design data contracts
+
+College and adult learners audit schemas and metrics end to end.
+
+[MySQL Database](/courses/mysql-database-complete-masterclass-college)[Python AI Automation](/courses/python-ai-automation-masterclass-college)Class format
+
+## Live online teaching for Sohar without a fabricated local branch
+
+The service details are specific enough to compare before booking.
+
+### Placement first
+
+The first live class tests level and goal at no tuition charge.
+
+### Small groups
+
+Five to eight compatible learners work together with a teacher.
+
+### Private option
+
+One learner works with one teacher on a focused objective.
+
+### Normal frequency
+
+Two lessons weekly normally produce eight live lessons monthly.
+
+### Oman scheduling
+
+Oman is one and a half hours behind India; timing is agreed first.
+
+### Equipment
+
+A laptop or desktop, stable internet, audio and browser are required.
+
+Local without a commute claim
+
+A Sohar learner does not need to travel to a Muscat teaching centre for a live class. The online model uses the learner's own computer while preserving teacher questioning, demonstration and review. Modern Age Coders does not claim that online is the only valid choice; it describes its actual delivery accurately.
+
+Pricing
+
+## A free first decision, then two monthly formats
+
+All published fees below use USD. Course and timetable are confirmed before payment.
+
+First live class**USD 0**
+
+Goal discussion, placement task and starting recommendation.
+
+Group tuition**USD 100**
+
+Per month, normally eight lessons, five to eight learners.
+
+Private tuition**USD 150**
+
+Per month, normally eight lessons, one student and one teacher.
+
+Request placement[Check a class time](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20want%20a%20free%20coding%20class%20for%20a%20learner%20in%20Sohar.)Reviews
+
+## What families and learners say
+
+Rated 4.9 across 547 Google reviews. These are real reviews, reproduced as written.
+
+★★★★★
+
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
+
+Ria Mukherjee
+
+Parent
+
+★★★★★
+
+"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
+
+Samriddha Mondal
+
+Student
+
+★★★★★
+
+"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
+
+Vansh Agarwal
+
+Student
+
+★★★★★
+
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
+
+Sonam Oswal
+
+Parent of Dhairya
+
+★★★★★
+
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
+
+Sonu Goyal
+
+Parent
+
+★★★★★
+
+"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
+
+Ritu Kedia
+
+Parent
+
+Free placement
+
+## Send an age, goal and current starting point
+
+The first task is adjusted to the learner rather than chosen from a generic city template.
+
+### Direct contact
+
+WhatsApp or call [+91 91233 66161](tel:+919123366161), or email [contact@modernagecoders.com](mailto:contact@modernagecoders.com). This is Modern Age Coders' actual contact, not an invented Sohar phone number.
+
+[WhatsApp Modern Age Coders](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20want%20a%20free%20coding%20class%20for%20a%20learner%20in%20Sohar.)
+
+Form details are used for placement and class follow-up.
+
+FAQ
+
+## Sohar coding class questions
+
+Answers keep public local evidence, teaching data and the service offer separate.
+
+### Can Sohar University students join Modern Age Coders?
+
+Yes. University learners can request Python, databases, web engineering, AI, cybersecurity, data analysis or algorithms, subject to placement and teacher availability. Sohar University and Modern Age Coders are independent organisations. The free class identifies a practical starting project instead of assuming proficiency from a degree programme.
+
+### Can children and teenagers in Sohar enrol?
+
+Yes. Modern Age Coders teaches ages 6 to 67. A child or teenager begins with a free task matched to the stated experience. The teacher looks at logic, typing, mathematics, debugging and independence, then recommends a starting course. School name and grade provide context but do not determine placement by themselves.
+
+### What is the Sohar mixed-units project?
+
+The learner audits a port-style table containing tonnes, TEU and cubic metres. A naive program adds every numeric value and labels the result total cargo. The student stores quantity and unit separately, blocks invalid addition, chooses a legitimate conversion only when the necessary cargo facts exist, and publishes separate measures when no conversion is defensible.
+
+### Does the project reproduce private Sohar Port data?
+
+No. Public Asyad and Hutchison facts establish the local operational vocabulary, while the small manifest used for coding is synthetic and labelled as such. It contains no confidential shipment, company or customer record. Learners must cite public facts separately from generated teaching rows and must not describe the exercise as a port report.
+
+### Does Modern Age Coders have a centre in Sohar?
+
+No Sohar office or classroom is claimed. Classes are live online. A learner joins from a laptop or desktop with reliable internet, audio and a modern browser. The teacher interacts in real time through explanation, screen sharing, coding and review. The page describes service availability for Sohar, not a physical branch.
+
+### Why can tonnes, TEU and cubic metres not be added?
+
+Tonnes measure mass, cubic metres measure volume and TEU represents standardized container capacity rather than cargo mass. A conversion requires more information, such as actual container contents, loading and density. Without those facts, addition produces a number with no coherent unit. The correct report keeps the measures separate.
+
+### How much do Sohar coding classes cost?
+
+The first class is free. Standard group tuition is USD 100 per month for two live lessons each week, normally eight lessons monthly. Standard private tuition is USD 150 per month for one learner with one teacher on the same usual frequency. Course, format, recurring time and teacher availability are confirmed before payment.
+
+### How many learners are in a class?
+
+A group normally contains five to eight compatible learners. Compatibility considers current ability, pace and objective rather than age alone. Private tuition is one learner with one teacher. When no suitable group is available, the family or adult learner can discuss private tuition or wait for an appropriate cohort.
+
+### How are Sohar class times coordinated?
+
+Oman is one and a half hours behind India. The teacher and learner agree a recurring time before payment, generally for two live lessons each week. Friday and Saturday options may be discussed subject to availability. School, university and work schedules, examinations and Ramadan routines should be raised before confirmation.
+
+### What happens in the free Sohar coding class?
+
+The teacher asks about the learner's objective and observes a short ability-matched task. A child may sequence blocks, a teenager may debug a Python function, and an experienced learner may repair a unit-aware data pipeline. The teacher then explains the suggested course, class format, recurring time and USD fee. No tuition payment is required for that first class.
+
+Explore Oman
+
+## Move from city detail to the wider cluster
+
+The [Oman coding hub](/coding-classes-in-oman) explains national availability and pricing. The next city lessons are [Barka](/coding-classes-in-barka), which parses dates before sorting, and [Salalah](/coding-classes-in-salalah), which handles seasonality and moving averages.
+
+Book the free class[Close with WhatsApp](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20want%20a%20free%20coding%20class%20for%20a%20learner%20in%20Sohar.)Free Sohar class[Call +91 91233 66161](tel:+919123366161)[Chat with us](https://wa.me/919123366161?text=Hi%2C%20I'm%20interested%20in%20learning%20more%20about%20your%20courses!)
+
 ---
 
-# Coding classes in Sohar that keep every number attached to its unit
-
-> Sohar is simultaneously a governorate centre, port city, university city and historic settlement. Online coding, AI and mathematics lessons are taught live by Modern Age Coders for ages 6 through 67. A free first task establishes placement. Groups of five to eight are USD 100 monthly; one-to-one study is USD 150.
-
-Sohar is a port city, a university city, a historic settlement and the administrative centre of North Al Batinah. Those roles make it a strong setting for practical data education, but they also create a common error: a spreadsheet column can contain several kinds of logistics quantity that look addable only because the software stores them all as numbers.
-
-Modern Age Coders teaches Sohar learners live online. It does not claim a local office, branch or classroom. A learner joins from a laptop or desktop and works synchronously with a teacher through explanation, coding, screen sharing and review.
-
-Facts were last verified on 16 August 2026.
-
-## Sohar is North Al Batinah's regional centre
-
-The [official North Al Batinah government portal](https://gov.om/en/al-batinah-north-governorate) places the governorate administration in Sohar and lists six wilayats: Sohar, Shinas, Liwa, Saham, Al Khabourah and As Suwayq. The 2026 NCSI statistical yearbook describes Sohar as the regional centre for the northern part of Al Batinah North and names construction, industry, trade, agriculture and copper mining in its city summary.
-
-[Asyad's official Sohar Port profile](https://www.asyad.om/who-we-are/Address-directory/sohar-port) says the port began operating in 2004 outside the Strait of Hormuz. It describes a 21 million square metre deep-sea hub with logistics, petrochemicals and metals clusters, later joined by a food cluster that includes Oman's first terminal dedicated to agricultural bulk.
-
-Asyad says the port hosts more than 3,000 vessel calls each year with gross registered tonnage around 85 million. It describes Sohar Industrial Port Company as a 50:50 joint venture between Asyad and the Port of Rotterdam. The profile identifies different terminal operators for general cargo, liquid bulk and containers and says the SOHAR Navigate platform covers hinterland connections and a network of 550 ports.
-
-The [official Hutchison Ports Sohar page](https://www.asyad.om/what-we-do/ports-free-zones-thank-you/hutchinson-sohar) says the container terminal has annual capacity of two million TEU. It also states an 18-metre draft and thirteen cranes. TEU is a standardized measure of container capacity. It is not a tonne of cargo.
-
-These details are exact enough to teach an important habit: every number needs a measure, a unit, a time period and a source.
-
-## Sohar's higher-education context
-
-The Ministry of Higher Education's [Study in Oman directory](https://studyinoman.moheri.gov.om/en-us/Colleges-Universities/HEI-Details?heiparam=Tg3R3dzL5d8qh2W0SyphdQ%3D%3D) says Sohar University received official accreditation in 2001 as Oman's first private university. The directory places it in Sohar and lists Oman Authority for Academic Accreditation and Quality Assurance of Education accreditation.
-
-The university's [Faculty of Computing and IT page](https://www.su.edu.om/faculty-of-computing-and-it/) lists undergraduate programmes in Business and Information Technology, Computing and Web Engineering, Computing and Multimedia, Network and Database, Software Engineering, Cybersecurity and Artificial Intelligence. It also lists a Master of Computer Science, Master of Information Technology by Research and PhD in Computer Science.
-
-The [official programme explorer](https://www.su.edu.om/explore-programs/) separately lists engineering routes including Chemical, Civil, Electrical and Computer, and Mechanical and Mechatronic Engineering. This breadth supports several possible Modern Age Coders starting points, but it does not imply a partnership or shared teaching. Sohar University and Modern Age Coders are independent.
-
-## Sohar Fort adds a different kind of evidence problem
-
-The [National Museum's architectural heritage collection](https://www.nm.gov.om/en/collection/gift/architectural-heritage) does not force Sohar Fort into one convenient origin story. It records conflicting historical accounts, including early Islamic dates, an eighth-century attribution and a later Hormuzi attribution. It documents Portuguese renovation in 1618 and 1621 and later restoration.
-
-That source is useful for data literacy because uncertainty is part of the record. A learner should not choose one date, remove the qualification and present it as settled merely because a single value makes a dashboard easier to build.
-
-For national availability and pricing, use the [Oman coding hub](https://learn.modernagecoders.com/coding-classes-in-oman).
-
-## The Sohar mixed-units project
-
-The signature project uses a synthetic port-style manifest with three cargo classes. Dry bulk rows store quantities in tonnes. Container rows store TEU. Liquid bulk rows store cubic metres. The categories are recognisable in Sohar's port context, but the practice records are generated for teaching and are not operational, confidential or customer data.
-
-A naive script groups every row by month and calls `sum()` on the amount column. The output looks clean. It may even increase or decrease plausibly from one month to the next. But the result has no coherent unit. Tonnes measure mass, cubic metres measure volume and TEU represents standardized container capacity. Calling their sum total cargo does not make the arithmetic valid.
-
-| Record type | Stored quantity | Unit | Valid aggregation |
-|---|---:|---|---|
-| Dry bulk | Numeric amount | tonne | Add to compatible mass records |
-| Containers | Numeric amount | TEU | Add container-capacity counts |
-| Liquid bulk | Numeric amount | cubic metre | Add compatible volume records |
-| Naive combined row | All amounts | none | Reject the operation |
-
-The repair begins in the schema. Every row requires `value`, `unit`, `cargo_class`, `period` and `source_type`. Unit codes use a controlled vocabulary so `TEU`, `teu` and `containers` do not silently become different categories. The aggregation function checks that all selected rows share a compatible physical dimension before addition.
-
-When the input does not contain defensible conversion information, the program publishes separate totals. This is not a failure to answer. It is the correct answer to a dataset that does not support one combined quantity.
-
-## Why generic conversion does not solve it
-
-One TEU does not contain a fixed mass. A container may be empty, partly loaded or limited by the density and value of its contents. One cubic metre also does not have a fixed mass across water, fuel, chemicals and other liquids. A mass conversion requires the actual substance and a valid density under relevant conditions.
-
-The class therefore rejects shortcuts such as assuming one TEU equals a fixed number of tonnes. If a specific shipment includes verified net mass, the record can carry that mass as a separate measure. If a liquid record includes verified density and conditions, a documented conversion may be possible. The conversion formula, source and resulting unit must remain visible.
-
-Official Sohar figures are kept in their original definitions. Two million TEU is stated as annual terminal capacity, not actual cargo moved. More than 3,000 is annual vessel calls, not containers. Around 85 million is gross registered tonnage, not a shipment mass total. Twenty-one million square metres is port area. The code must never combine these headline figures merely because they share a city.
-
-## A unit-aware data pipeline
-
-| Pipeline layer | Required rule | Error prevented | Output |
-|---|---|---|---|
-| Ingest | Value and unit required | Unlabelled numeric rows | Quarantine and review |
-| Model | Controlled unit vocabulary | Duplicate spellings | Canonical unit code |
-| Aggregate | Compatible dimensions only | Mass plus volume plus capacity | Separate totals or valid conversion |
-| Presentation | Measure, unit, period and source | Vague total cargo label | Reproducible metric |
-
-Children can begin with cards labelled length, mass, time and count. They decide which cards can be added and explain why. Learners aged 11 to 13 can write small validators that inspect a list before calculation. Teenagers can use Python classes, enums and automated tests. College learners and adults can add database constraints, dimensional models and metadata contracts.
-
-The deeper lesson is that software correctness includes meaning. A function can execute without error, return a stable value and still be wrong because the program lost the relationship between number and unit.
-
-## Courses for quantities, code and analytics
-
-The following catalogue links offer several starting levels:
-
-- [Early Math Foundations](https://learn.modernagecoders.com/courses/early-math-foundations) for quantity and comparison;
-- [Elementary Mathematics](https://learn.modernagecoders.com/courses/elementary-mathematics-complete-masterclass) for operations with labelled measures;
-- [Kids Coding Blocks](https://learn.modernagecoders.com/courses/kids-coding-blocks-masterclass) for visible data and conditions;
-- [Maths Through Coding](https://learn.modernagecoders.com/courses/maths-through-coding) for implementing mathematical checks;
-- [Python and AI for Kids](https://learn.modernagecoders.com/courses/python-ai-kids-masterclass) for a supported move to text code;
-- [Python for Teens](https://learn.modernagecoders.com/courses/python-complete-masterclass-teens) for validation functions and testing;
-- [MySQL for Teens](https://learn.modernagecoders.com/courses/mysql-mastery-for-teens) for typed records and queries;
-- [Data Science for Teens](https://learn.modernagecoders.com/courses/data-science-course-for-teens-python-data) for tables and metadata;
-- [MySQL Database](https://learn.modernagecoders.com/courses/mysql-database-complete-masterclass-college) for constraints and analytical models;
-- [Data Analysis](https://learn.modernagecoders.com/courses/data-analysis-mastery-course-college) for reproducible metrics;
-- [Data Analytics Mathematics](https://learn.modernagecoders.com/courses/data-analytics-mathematics-masterclass) for dimensional reasoning;
-- [Python AI Automation](https://learn.modernagecoders.com/courses/python-ai-automation-masterclass-college) for reliable ingest and reporting.
-
-Placement uses present ability, not city, school or degree title. An experienced teenager may begin with a typed Python model. A university learner may need database design. A complete adult beginner may start with programming foundations before attempting a port-style pipeline.
-
-## Live class format and fees
-
-Modern Age Coders has taught more than 10,000 students since 2020 across more than 25 countries. Learners have ranged from age 6 to 67. The organisation is rated 4.9 across 547 Google reviews.
-
-A group normally contains five to eight compatible learners. Compatibility includes present skill, pace and objective. Private tuition is one learner with one teacher. Two live classes each week normally make eight classes in a month.
-
-The first class is free. Standard group tuition is USD 100 per month. Standard private tuition is USD 150 per month. The course, format, teacher availability and recurring time are confirmed before payment.
-
-Oman is one and a half hours behind India. Sohar learners agree a recurring time before payment. Friday and Saturday possibilities may be discussed subject to availability. School examinations, university timetables, adult work and Ramadan routines should be mentioned before the schedule is confirmed.
-
-A laptop or desktop, stable internet, audio and a current browser are required. Coding on the learner's own computer helps the teacher see environment, file and tooling problems that a prepared classroom machine might hide.
-
-## What the free class checks
-
-The teacher asks about the learner's goal and gives a short task matched to the stated experience. A child may sort labelled quantities or repair a block condition. A teenager may add a unit validator to a Python function. An experienced learner may redesign a table whose amount column mixes mass, capacity and volume.
-
-The teacher observes output and explanation. A correct total without a unit is not accepted. After the task, the learner receives a suggested starting course and can discuss group or private format and timing without paying for that first lesson.
-
-## Common Sohar questions
-
-### Can Sohar University students join?
-
-Yes. Python, databases, web engineering, AI, cybersecurity, data analysis and algorithms are possible routes, subject to placement and availability. No university partnership is claimed.
-
-### Can children and teenagers join?
-
-Yes. Modern Age Coders teaches ages 6 to 67 and places by ability.
-
-### Is the manifest real Sohar Port data?
-
-No. Public facts establish vocabulary and context. The small manifest is synthetic and clearly labelled.
-
-### Is there a Sohar centre?
-
-No local branch is claimed. Teaching is live online.
-
-### Why not convert every record to tonnes?
-
-Because a valid conversion requires actual contents, loading or density. Generic constants would invent evidence.
-
-### What are the fees?
-
-The first class is free. Group tuition is USD 100 per month and private tuition is USD 150 per month, normally for eight live classes.
-
-### Which city pages continue the data series?
-
-The [Barka coding guide](https://learn.modernagecoders.com/coding-classes-in-barka) parses dates before sorting. The [Salalah coding guide](https://learn.modernagecoders.com/coding-classes-in-salalah) handles seasonality and moving averages. Return to the [Oman coding hub](https://learn.modernagecoders.com/coding-classes-in-oman) for the national offer.
-
-Request the free class through the HTML form, WhatsApp +91 91233 66161, or contact@modernagecoders.com.
+*Canonical: https://learn.modernagecoders.com/coding-classes-in-sohar*

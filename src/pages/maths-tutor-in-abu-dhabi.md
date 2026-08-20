@@ -185,15 +185,13 @@ An honest comparison
 
 ## How we differ from the alternatives.
 
- $1$150 (1:1)$2
-
 | What matters | Modern Age Coders | Tutoring centre | Home-visit tutor |
 | --- | --- | --- | --- |
 | No travel across the capital | Fully online | You travel | Tutor travels (costs more) |
 | Best-matched tutor | Anywhere, any curriculum | Centre's staff | Who's nearby |
 | Teaches reasoning | Always | Varies | Varies |
 | Same tutor each time | Yes | Often rotates | Usually |
-| Monthly price | AED 1,000–2,500+ | AED 1,500–4,000+ |
+| Monthly price | $150 (1:1) | AED 1,000–2,500+ | AED 1,500–4,000+ |
 
 In-person options in Abu Dhabi are good but premium-priced and location-bound. We deliver matched, one-to-one teaching online for a fraction of the cost.
 
@@ -249,7 +247,7 @@ Real student projects
 
 Every one is a real, live project shipped by a Modern Age Coders student. Explore more in [Student Labs](/student-labs).
 
-[![HairSync, AI Hairstyle Try-On](/images/projects/hairsync.webp)AI & MLHairSync, AI Hairstyle Try-OnUpload a clear photo and try on any hairstyle before you commit, wolf cuts, curtain bangs, fades, braids and dozens of trending looks, rendered onto your own face by AI in seconds. Kriti vibe-coded this virtual try-on studio from a single idea into a working app.by KritiOpen the live project ↗](https://hairsync.lovable.app)[![SkyCast, Weather Forecast App](/images/projects/skycast.webp)Web AppSkyCast, Weather Forecast AppAn interactive weather forecasting site with real-time updates for any location, temperature, humidity, wind speed and conditions in a clean, responsive interface.by KrishOpen the live project ↗](https://krish-shroff.github.io/AuraWeatherTech/)[![HugSelle, AI Smile Generator](/images/projects/hugselle.webp)AI & MLHugSelle, AI Smile GeneratorA heartwarming AI-powered web app that detects your mood and generates uplifting quotes and visuals to make you smile, a creative blend of technology and positivity.by AnuragOpen the live project ↗](https://hugselle.modernagecoders.com)
+[![HairSync: AI Hairstyle Try-On](/images/projects/hairsync.webp)AI & MLHairSync: AI Hairstyle Try-OnUpload a clear photo and try on any hairstyle before you commit, wolf cuts, curtain bangs, fades, braids and dozens of trending looks, rendered onto your own face by AI in seconds. Kriti vibe-coded this virtual try-on studio from a single idea into a working app.by KritiOpen the live project ↗](https://hairsync.lovable.app)[![Life Span Tracker](/images/projects/lifespan.webp)ToolLife Span TrackerAn interactive web tool that calculates expected lifespan, shows days, months and years lived, and visualises remaining time to motivate better habits.by ManayOpen the live project ↗](https://lifespantracker.netlify.app/)[![HugSelle: AI Smile Generator](/images/projects/hugselle.webp)AI & MLHugSelle: AI Smile GeneratorA heartwarming AI-powered web app that detects your mood and generates uplifting quotes and visuals to make you smile, a creative blend of technology and positivity.by AnuragOpen the live project ↗](https://hugselle.modernagecoders.com)
 
 Parent & student voices
 

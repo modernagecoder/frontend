@@ -26,7 +26,7 @@ See all courses4.9/5average parent & learner rating across Germany: 547 reviews2
 
 Click any track to open the course page, or book a free demo and a mentor matches your child to the right one.
 
-[Most chosen in DE · Informatik LK Coding & AI for Teens (13–18): Informatik LK & Abitur aligned Real Python, JavaScript, Git, web apps and modern AI engineering, paced to a German Gymnasium term. We line up with Informatik LK, Abitur exam content, BWInf rounds and Jugend forscht entries. Many of our students go on to TUM, RWTH, TU Berlin and KIT informatics tracks.  Format1:1 · 2 sessions / week Length8 sessions / month StackPython · JS · Web · LLM APIs ScheduleCET · 16:00, 21:00 most days   USD 150/ month Open course →](/courses/coding/teens)[Ages 6, 12 Coding for Kids Scratch → real Python by month three. Tiny games, drawing apps, first AI projects. USD 150 / mo→](/courses/coding/kids)[New · Ages 13, 18 AI & Agentic-AI LLM apps, RAG, tool-using agents, the way German AI startups actually ship. USD 150 / mo→](/ai-ml-course-for-teens)[TUM · RWTH · KIT For College & Uni Algorithms, system design, AI engineering. Top-ups for German uni students. USD 150 / mo→](/courses/coding/college)[Adults · Career switch For Professionals Mid-career Quereinsteiger into software, data and AI roles. USD 150 / mo→](/courses/coding/college)[For girls · 8: 22 Coding für Mädchen All-female mentor pairing, role models from the Berlin & Munich AI scene. USD 150 / mo→](/courses/coding/girls)[Schulen · Firmen For Schools / Teams Gymnasium informatics cohorts, AGs and German company upskilling programmes. USD 100 / seat→](/courses/coding/corporate)Why German families pick us
+[Most chosen in DE · Informatik LK Coding & AI for Teens (13–18): Informatik LK & Abitur aligned Real Python, JavaScript, Git, web apps and modern AI engineering, paced to a German Gymnasium term. We line up with Informatik LK, Abitur exam content, BWInf rounds and Jugend forscht entries. Many of our students go on to TUM, RWTH, TU Berlin and KIT informatics tracks.  Format1:1 · 2 sessions / week Length8 sessions / month StackPython · JS · Web · LLM APIs ScheduleCET · 16:00: 21:00 most days   USD 150/ month Open course →](/courses/coding/teens)[Ages 6: 12 Coding for Kids Scratch → real Python by month three. Tiny games, drawing apps, first AI projects. USD 150 / mo→](/courses/coding/kids)[New · Ages 13: 18 AI & Agentic-AI LLM apps, RAG, tool-using agents, the way German AI startups actually ship. USD 150 / mo→](/ai-ml-course-for-teens)[TUM · RWTH · KIT For College & Uni Algorithms, system design, AI engineering. Top-ups for German uni students. USD 150 / mo→](/courses/coding/college)[Adults · Career switch For Professionals Mid-career Quereinsteiger into software, data and AI roles. USD 150 / mo→](/courses/coding/college)[For girls · 8: 22 Coding für Mädchen All-female mentor pairing, role models from the Berlin & Munich AI scene. USD 150 / mo→](/courses/coding/girls)[Schulen · Firmen For Schools / Teams Gymnasium informatics cohorts, AGs and German company upskilling programmes. USD 100 / seat→](/courses/coding/corporate)Why German families pick us
 
 ## Six things we get right that the rest of the market mostly does not.
 
@@ -297,7 +297,7 @@ Same mentor every weekMonatlich kündbarErste Demo gratisHow we compare
 
 Volkshochschule, Nachhilfe, free YouTube. They all have a place. Here is honestly where we sit.
 
-What matters mostModern Age CodersVolkshochschule (VHS)Privat-NachhilfeYouTube / free tools1:1 live mentor, same person every week✓ Yes, Class format✓ Often, NoReal coding (Python, JS, Git, deploy)✓ Week one~ Sometimes~ Depends~ Self-drivenModern AI & agentic-AI engineering✓ Built in, Rare, Rare~ Tutorials onlyInformatik LK / Abitur alignment✓ Aligned~ Sometimes✓ Often, NoBWInf / Jugend forscht coaching✓ Yes, No~ Rare: NoCET-native schedule✓ Native✓ Native✓ Native✓ Self-pacedReal shipped portfolio every month✓ Yes, No~ Maybe, NoMonthly costUSD 150 (1:1) / 100 (group)EUR 80, 200 (per course)EUR 200, 500 / MonatKostenlosCancel / pause✓ Monatlich~ Per Semester~ Per contract✓ FreiBuilt for all 16 Bundesländer
+What matters mostModern Age CodersVolkshochschule (VHS)Privat-NachhilfeYouTube / free tools1:1 live mentor, same person every week✓ Yes: Class format✓ Often: NoReal coding (Python, JS, Git, deploy)✓ Week one~ Sometimes~ Depends~ Self-drivenModern AI & agentic-AI engineering✓ Built in, Rare, Rare~ Tutorials onlyInformatik LK / Abitur alignment✓ Aligned~ Sometimes✓ Often: NoBWInf / Jugend forscht coaching✓ Yes: No~ Rare: NoCET-native schedule✓ Native✓ Native✓ Native✓ Self-pacedReal shipped portfolio every month✓ Yes: No~ Maybe: NoMonthly costUSD 150 (1:1) / 100 (group)EUR 80, 200 (per course)EUR 200, 500 / MonatKostenlosCancel / pause✓ Monatlich~ Per Semester~ Per contract✓ FreiBuilt for all 16 Bundesländer
 
 ## Informatik is taught differently in every Bundesland. We adapt.
 
@@ -425,7 +425,7 @@ Top track: **Career & Engineers'**Slot: **18:00 CET**CET-native schedule
 
 You pick two slots per week. These are the windows most German families choose, all in Central European Time. Extra slots open on request.
 
-Slot (CET)DaysBest forAvailability**15:30, 16:30***nach der Schule*Mo · Mi · FrGrundschüler & Klasse 5–7Hohe Nachfrage**17:00, 18:00***after homework*Mo · Di · DoKlasse 7, 10Comfortable**18:00, 19:00***evening*Di · Mi · DoInformatik LK · Abitur prepComfortable**19:30, 20:30***working hours over*Mo · Mi · DoAdult learners & uni studentsComfortable**09:00, 10:00***weekend morning*Sa & SoBayerische Familien · Munich + ski-townsLimitedFree demo · 30 minutes · Zoom · CET
+Slot (CET)DaysBest forAvailability**15:30: 16:30***nach der Schule*Mo · Mi · FrGrundschüler & Klasse 5–7Hohe Nachfrage**17:00: 18:00***after homework*Mo · Di · DoKlasse 7: 10Comfortable**18:00: 19:00***evening*Di · Mi · DoInformatik LK · Abitur prepComfortable**19:30: 20:30***working hours over*Mo · Mi · DoAdult learners & uni studentsComfortable**09:00: 10:00***weekend morning*Sa & SoBayerische Familien · Munich + ski-townsLimitedFree demo · 30 minutes · Zoom · CET
 
 ## Meet a mentor before you decide anything.
 
@@ -569,13 +569,13 @@ The honest version. This is what one 1:1 session looks like for a 14-year-old in
 
 Two minutes of "wie war die Woche", the human bit. Mentor scrolls back the chat history, cameras on for both.
 
-02:00, 08:00
+02:00: 08:00
 
 #### Wiederholung + kleines Quiz
 
 A 6-minute recall test of last lesson's idea. Not for marks, for the brain. Mentor watches for the Aha-Moment and the cobwebs.
 
-08:00, 18:00
+08:00: 18:00
 
 #### Neues Konzept + live coding
 
@@ -587,7 +587,7 @@ Ten minutes of new material. Live-shared VS Code. Mentor types two lines, studen
 
 The student leads. The Mentor coaches. This is where the actual learning happens, feature shipped, bug fixed, function refactored. The Mentor types nothing; only asks.
 
-35:00, 42:00
+35:00: 42:00
 
 #### Code review & Reflexion
 

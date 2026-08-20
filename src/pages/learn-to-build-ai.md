@@ -234,13 +234,21 @@ Ask whether a human watches the student write code. Most of what a good teacher 
 
 The same five. Then take the free first class, which is a real class, and judge the teaching rather than the brochure. If it is not right for your child we would rather you found out in week one than in month six.
 
+The depth series
+
+## Ten pages, each taking one idea seriously
+
+Written for people who want to know why rather than which button. No prerequisites beyond curiosity for the first half, and real code in every one of them.
+
+[Agentic codingReview the diff](/agentic-coding-classes)[How to read codeA method, not a talent](/how-to-read-code)[How to debug codeSearch, do not guess](/how-to-debug-code)[Think like a programmerDecide what must be true](/how-to-think-like-a-programmer)[How learning worksStuck, then unstuck](/how-to-actually-learn-to-code)[How LLMs workFluent is not true](/how-llms-actually-work)[Context engineeringThe window you control](/context-engineering-course)[RAG systemsRetrieval is the part that breaks](/rag-systems-course)[AI evaluationsMeasure, or hope](/ai-evaluations-course)[Model Context ProtocolA tool is a promise](/model-context-protocol-mcp-course)
+
 Where we teach
 
 ## The same curriculum, written for your country
 
 Each page below is written for one market: the national AI strategy your government has actually published, the exam board your child actually sits, the universities they are actually aiming at, class times in your evening, one flat fee in US dollars, and a first machine learning project built on data from your own country.
 
-[OmanGST · OMR](/ai-and-machine-learning-classes-in-oman)[MuscatGST · OMR](/ai-and-machine-learning-classes-in-muscat)[KuwaitAST · KWD](/ai-and-machine-learning-classes-in-kuwait)[Kuwait CityAST · KWD](/ai-and-machine-learning-classes-in-kuwait-city)[BahrainAST · BHD](/ai-and-machine-learning-classes-in-bahrain)[United Arab EmiratesGST · AED](/ai-and-machine-learning-classes-in-uae)[Saudi ArabiaAST · SAR](/ai-and-machine-learning-classes-in-saudi-arabia)[QatarAST · QAR](/ai-and-machine-learning-classes-in-qatar)[United StatesET to PT · USD](/ai-and-machine-learning-classes-in-usa)[United KingdomGMT/BST · GBP](/ai-and-machine-learning-classes-in-uk)[LondonGMT/BST · GBP](/ai-and-machine-learning-classes-in-london)[SwitzerlandCET · CHF](/ai-and-machine-learning-classes-in-switzerland)[ZurichCET · CHF](/ai-and-machine-learning-classes-in-zurich)[SingaporeSGT · SGD](/ai-and-machine-learning-classes-in-singapore)[CanadaET to PT · CAD](/ai-and-machine-learning-classes-in-canada)[AustraliaAEST · AUD](/ai-and-machine-learning-classes-in-australia)[GermanyCET · EUR](/ai-and-machine-learning-classes-in-germany)[NetherlandsCET · EUR](/ai-and-machine-learning-classes-in-netherlands)[IrelandGMT/IST · EUR](/ai-and-machine-learning-classes-in-ireland)[Hong KongHKT · HKD](/ai-and-machine-learning-classes-in-hong-kong)
+[The BahamasEST · BSD](/ai-and-machine-learning-classes-in-bahamas)[BruneiBNT · BND](/ai-and-machine-learning-classes-in-brunei)[OmanGST · OMR](/ai-and-machine-learning-classes-in-oman)[MuscatGST · OMR](/ai-and-machine-learning-classes-in-muscat)[KuwaitAST · KWD](/ai-and-machine-learning-classes-in-kuwait)[Kuwait CityAST · KWD](/ai-and-machine-learning-classes-in-kuwait-city)[BahrainAST · BHD](/ai-and-machine-learning-classes-in-bahrain)[United Arab EmiratesGST · AED](/ai-and-machine-learning-classes-in-uae)[Saudi ArabiaAST · SAR](/ai-and-machine-learning-classes-in-saudi-arabia)[QatarAST · QAR](/ai-and-machine-learning-classes-in-qatar)[United StatesET to PT · USD](/ai-and-machine-learning-classes-in-usa)[United KingdomGMT/BST · GBP](/ai-and-machine-learning-classes-in-uk)[LondonGMT/BST · GBP](/ai-and-machine-learning-classes-in-london)[SwitzerlandCET · CHF](/ai-and-machine-learning-classes-in-switzerland)[ZurichCET · CHF](/ai-and-machine-learning-classes-in-zurich)[SingaporeSGT · SGD](/ai-and-machine-learning-classes-in-singapore)[CanadaET to PT · CAD](/ai-and-machine-learning-classes-in-canada)[AustraliaAEST · AUD](/ai-and-machine-learning-classes-in-australia)[GermanyCET · EUR](/ai-and-machine-learning-classes-in-germany)[NetherlandsCET · EUR](/ai-and-machine-learning-classes-in-netherlands)[IrelandGMT/IST · EUR](/ai-and-machine-learning-classes-in-ireland)[Hong KongHKT · HKD](/ai-and-machine-learning-classes-in-hong-kong)
 
 Not listed? We teach students in more than 25 countries and the class runs in English wherever you are. Leave a number and we will find a slot that works in your timezone.
 
@@ -288,7 +296,7 @@ Web app
 
 A weather forecasting site with live conditions for any location, in a clean responsive interface.
 
-by Krish · [Open it](https://krish-shroff.github.io/AuraWeatherTech/)
+by Krish
 
 Fees
 
@@ -430,6 +438,8 @@ Start here
 Leave a number with your country code and a mentor calls you back at an hour that suits your timezone. The first class is a real class, and it doubles as a placement check so you start at the right level rather than the average one.
 
 Prefer to read first? See [how we teach](/how-we-teach), the [full catalogue](/courses), or [what students have built](/student-labs).
+
+[Chat with us](https://wa.me/919123366161?text=Hi%2C%20I'm%20interested%20in%20learning%20more%20about%20your%20courses!)
 
 ---
 

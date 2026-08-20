@@ -70,7 +70,7 @@ Coding olympiads are won on the mathematics underneath. We run a parallel Math K
 
 Most coaching programmes pretend to do "olympiad prep" while quietly running a regular Python class. We do not. The Medal Track has a different content tree, different teachers, different problem sets and a different clock, built on the rhythm of the Indian Computing Olympiad calendar.
 
-Rung I, April to May
+Rung I: April to May
 
 ### Foundations & *fluency drill*
 
@@ -168,7 +168,9 @@ IV.
 
 Every algorithm is taught with a why. Every submission is reviewed for correctness reasoning, not just verdict. The student who has built the habit of justifying a solution will, six months later, justify a solution they have never seen before. That is the difference between a Codeforces grinder and an Olympiad finalist.
 
-> "A medal is not a moment. It is six months of mornings, one hard paper, and a teacher who told you the truth about your weak rung. We try to be that teacher.": Aryan Mehta, Senior Olympiad Mentor at Modern Age Coders, former IOITC participantA small honour wall, kept honest
+> "A medal is not a moment. It is six months of mornings, one hard paper, and a teacher who told you the truth about your weak rung. We try to be that teacher."
+
+: Aryan Mehta, Senior Olympiad Mentor at Modern Age Coders, former IOITC participantA small honour wall, kept honest
 
 ## Real students. Real events. *Real years.*
 
@@ -270,7 +272,7 @@ Real student projects
 
 Every one is a real, live project shipped by a Modern Age Coders student. Explore more in [Student Labs](/student-labs).
 
-[![Moxo, Company Landing Page](/images/projects/moxo.webp)Web AppMoxo, Company Landing PageA stunning modern landing page with smooth parallax scrolling, advanced GSAP animations and elegant section transitions that bring the brand to life.by IshaOpen the live project ↗](https://moxo.modernagecoders.com)[![Baby, Typing Speed Challenge](/images/projects/baby.webp)GameBaby, Typing Speed ChallengeAn engaging typing speed challenge where users test how fast and accurately they can type, with a live leaderboard connected to a MongoDB backend.by KritikaOpen the live project ↗](https://baby.modernagecoders.com)[![MyDay, Social Productivity Organizer](/images/projects/myday.webp)Web AppMyDay, Social Productivity OrganizerA beautifully designed productivity platform to organise daily tasks, set goals and stay consistent, with a community feed of others' plans for inspiration.by VedantOpen the live project ↗](https://myday.modernagecoders.com)
+[![Moxo: Company Landing Page](/images/projects/moxo.webp)Web AppMoxo: Company Landing PageA stunning modern landing page with smooth parallax scrolling, advanced GSAP animations and elegant section transitions that bring the brand to life.by IshaOpen the live project ↗](https://moxo.modernagecoders.com)[![Baby: Typing Speed Challenge](/images/projects/baby.webp)GameBaby: Typing Speed ChallengeAn engaging typing speed challenge where users test how fast and accurately they can type, with a live leaderboard connected to a MongoDB backend.by KritikaOpen the live project ↗](https://baby.modernagecoders.com)[![MyDay: Social Productivity Organizer](/images/projects/myday.webp)Web AppMyDay: Social Productivity OrganizerA beautifully designed productivity platform to organise daily tasks, set goals and stay consistent, with a community feed of others' plans for inspiration.by VedantOpen the live project ↗](https://myday.modernagecoders.com)
 
 ---
 

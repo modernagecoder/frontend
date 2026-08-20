@@ -195,7 +195,7 @@ International families pay flat USD rates, the prices above update automatically
 
 Not screenshots of a syllabus, real, live projects from Modern Age Coders learners and labs. Click through and use them.
 
-[![MyDay, Social Productivity Organizer](/images/projects/myday.webp) Web AppMyDay, Social Productivity OrganizerA beautifully designed productivity platform to organise daily tasks, set goals and stay consistent, with a community feed of others' plans for inspiration. Built by Vedant · JavaScript, Node.jsOpen the live project ↗](https://myday.modernagecoders.com)[![Baby, Typing Speed Challenge](/images/projects/baby.webp) GameBaby, Typing Speed ChallengeAn engaging typing speed challenge where users test how fast and accurately they can type, with a live leaderboard connected to a MongoDB backend. Built by Kritika · JavaScript, Node.jsOpen the live project ↗](https://baby.modernagecoders.com)[![Simon Game](/images/projects/simongame.webp) GameSimon GameA fun memory-based game where players repeat colour and sound sequences. Each level adds a new challenge, brain-boosting for kids learning logic and focus. Built by Yashaswi · HTML, CSSOpen the live project ↗](http://yashaswi-2017.my.canva.site)[See more student projects →](/student-labs)
+[![MyDay: Social Productivity Organizer](/images/projects/myday.webp) Web AppMyDay: Social Productivity OrganizerA beautifully designed productivity platform to organise daily tasks, set goals and stay consistent, with a community feed of others' plans for inspiration. Built by Vedant · JavaScript, Node.jsOpen the live project ↗](https://myday.modernagecoders.com)[![Baby: Typing Speed Challenge](/images/projects/baby.webp) GameBaby: Typing Speed ChallengeAn engaging typing speed challenge where users test how fast and accurately they can type, with a live leaderboard connected to a MongoDB backend. Built by Kritika · JavaScript, Node.jsOpen the live project ↗](https://baby.modernagecoders.com)[![Simon Game](/images/projects/simongame.webp) GameSimon GameA fun memory-based game where players repeat colour and sound sequences. Each level adds a new challenge, brain-boosting for kids learning logic and focus. Built by Yashaswi · HTML, CSSOpen the live project ↗](http://yashaswi-2017.my.canva.site)[See more student projects →](/student-labs)
 
 ## What families say
 
@@ -205,7 +205,7 @@ Verified Google reviews from Modern Age Coders families across India. We don't i
 
 "Very good classes."
 
-Don't worry about coding, they teach the best, especially Shivam sir.
+Don't worry about coding. They teach the best, especially Shivam sir.
 
 SWShaarav WadhwaStudent★★★★★
 

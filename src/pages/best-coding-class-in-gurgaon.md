@@ -36,7 +36,7 @@ Ages 8–12
 
 ## Coding for kids in Gurgaon
 
-Most popular![Kids coding with Scratch, best coding class for kids in Gurgaon](/images/kids-coding.webp)
+Most popular![Kids coding with Scratch: best coding class for kids in Gurgaon](/images/kids-coding.webp)
 
 ### Kids Coding with Scratch
 
@@ -58,7 +58,7 @@ Children build their first colourful web page with HTML & CSS, then send the liv
 - Fun, real web projects
 - A personal portfolio page
 
-[View course](/courses/kids-ai-web-development-course)Next step![Python for kids, programming course in Gurgaon](/images/python-kids.webp)
+[View course](/courses/kids-ai-web-development-course)Next step![Python for kids: programming course in Gurgaon](/images/python-kids.webp)
 
 ### Python for Young Coders
 
@@ -73,7 +73,7 @@ The step up to real, typed code, in the world's most popular language. Kids writ
 
 ## Coding for teens in Gurgaon
 
-In demand![Python programming for teens, best coding institute in Gurgaon](/images/python-teens.webp)
+In demand![Python programming for teens: best coding institute in Gurgaon](/images/python-teens.webp)
 
 ### Python Programming
 
@@ -84,7 +84,7 @@ The most sought-after language in the world, and across Gurgaon's product and an
 - Automation & scripting
 - Real-world projects
 
-[View course](/courses/python-complete-masterclass-teens)Career![Java programming for teens, best coding class in Gurgaon](/images/java-teens.webp)
+[View course](/courses/python-complete-masterclass-teens)Career![Java programming for teens: best coding class in Gurgaon](/images/java-teens.webp)
 
 ### Java Programming
 
@@ -95,7 +95,7 @@ Java is the spine of CBSE/ICSE Computer Science and the enterprise systems that 
 - Intro to Android app building
 - Board-aligned practice
 
-[View course](/courses/java-programming-masterclass-for-teens)Build![Web development for teens, programming classes in Gurgaon](/images/web-dev-teens.webp)
+[View course](/courses/java-programming-masterclass-for-teens)Build![Web development for teens: programming classes in Gurgaon](/images/web-dev-teens.webp)
 
 ### Full-Stack Web Development
 
@@ -106,7 +106,7 @@ Build complete, deployed websites from the ground up with HTML, CSS, JavaScript 
 - Backend with Node.js
 - Live portfolio projects
 
-[View course](/courses/web-development-masterclass-teens)Future![AI and machine learning for teens, coding course in Gurgaon](/images/ai-ml-teens.webp)
+[View course](/courses/web-development-masterclass-teens)Future![AI and machine learning for teens: coding course in Gurgaon](/images/ai-ml-teens.webp)
 
 ### AI & Machine Learning
 
@@ -158,19 +158,19 @@ Python, machine learning and real data analysis, built for the analyst and AI ro
 
 ## Mathematics classes in Gurgaon
 
-![Elementary mathematics, maths classes in Gurgaon](/images/elementary-maths.webp)
+![Elementary mathematics: maths classes in Gurgaon](/images/elementary-maths.webp)
 
 ### Elementary Mathematics
 
 Rock-solid foundations in numbers, operations, fractions, geometry and word problems for grades 1–5, aligned to the CBSE & ICSE schools across Gurgaon.
 
-[View course](/courses/elementary-mathematics-complete-masterclass)![High school mathematics, maths tuition in Gurgaon](/images/high-school-maths.webp)
+[View course](/courses/elementary-mathematics-complete-masterclass)![High school mathematics: maths tuition in Gurgaon](/images/high-school-maths.webp)
 
 ### High School Mathematics
 
 Algebra, geometry, trigonometry, pre-calculus and calculus for grades 9–12, board-aligned and built to give Gurgaon's JEE aspirants a genuine head start.
 
-[View course](/courses/complete-high-school-mathematics-mastery)Olympiad![Olympiad mathematics, competition prep in Gurgaon](/images/olympiad-competition-maths.webp)
+[View course](/courses/complete-high-school-mathematics-mastery)Olympiad![Olympiad mathematics: competition prep in Gurgaon](/images/olympiad-competition-maths.webp)
 
 ### Olympiad & Competition Math
 
@@ -250,7 +250,7 @@ International families pay flat USD rates, the prices above update automatically
 
 Not screenshots of a syllabus, real, live projects from Modern Age Coders learners and labs. Click through and use them.
 
-[![Pracy, Coding Practice & Quiz Platform](/images/projects/pracy.webp) Web AppPracy, Coding Practice & Quiz PlatformAn all-in-one coding-practice site with interactive challenges, quizzes and score tracking across multiple languages to strengthen logic and problem-solving. Built by Rohan · JavaScript, Node.jsOpen the live project ↗](https://astounding-flan-f18e08.netlify.app/)[![BookDesk, AI Book Summaries & Quizzes](/images/projects/bookdesk.webp) AI & MLBookDesk, AI Book Summaries & QuizzesType in any book name and author, and BookDesk pulls together the book's details, a clear summary and a custom quiz to test what you've learned, a genuinely useful study companion. Anika built it as a full-stack AI application, powered by Google Gemini with a live database behind it. Built by Anika · Gemini AI, Full-StackOpen the live project ↗](https://bookdesk1.netlify.app)[![SkyCast, Weather Forecast App](/images/projects/skycast.webp) Web AppSkyCast, Weather Forecast AppAn interactive weather forecasting site with real-time updates for any location, temperature, humidity, wind speed and conditions in a clean, responsive interface. Built by Krish · JavaScript, APIOpen the live project ↗](https://krish-shroff.github.io/AuraWeatherTech/)[See more student projects →](/student-labs)
+[![Pracy: Coding Practice & Quiz Platform](/images/projects/pracy.webp) Web AppPracy: Coding Practice & Quiz PlatformAn all-in-one coding-practice site with interactive challenges, quizzes and score tracking across multiple languages to strengthen logic and problem-solving. Built by Rohan · JavaScript, Node.jsOpen the live project ↗](https://astounding-flan-f18e08.netlify.app/)[![BookDesk: AI Book Summaries & Quizzes](/images/projects/bookdesk.webp) AI & MLBookDesk: AI Book Summaries & QuizzesType in any book name and author, and BookDesk pulls together the book's details, a clear summary and a custom quiz to test what you've learned, a genuinely useful study companion. Anika built it as a full-stack AI application, powered by Google Gemini with a live database behind it. Built by Anika · Gemini AI, Full-StackOpen the live project ↗](https://bookdesk1.netlify.app)[![Life Span Tracker](/images/projects/lifespan.webp) ToolLife Span TrackerAn interactive web tool that calculates expected lifespan, shows days, months and years lived, and visualises remaining time to motivate better habits. Built by Manay · JavaScript, APIsOpen the live project ↗](https://lifespantracker.netlify.app/)[See more student projects →](/student-labs)
 
 ## What families say
 

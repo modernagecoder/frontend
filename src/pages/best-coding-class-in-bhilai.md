@@ -36,7 +36,7 @@ Ages 8–12
 
 ## Coding for kids in Bhilai
 
-Most popular![Kids coding with Scratch, best coding class for kids in Bhilai](/images/kids-coding.webp)
+Most popular![Kids coding with Scratch: best coding class for kids in Bhilai](/images/kids-coding.webp)
 
 ### Kids Coding with Scratch
 
@@ -58,7 +58,7 @@ A child hand-builds their first colourful website with HTML & CSS, then sends th
 - Fun, real web projects
 - A personal portfolio page
 
-[View course](/courses/kids-ai-web-development-course)Next step![Python for kids, programming course in Bhilai](/images/python-kids.webp)
+[View course](/courses/kids-ai-web-development-course)Next step![Python for kids: programming course in Bhilai](/images/python-kids.webp)
 
 ### Python for Young Coders
 
@@ -73,7 +73,7 @@ The graduation to real, typed code in the world's most popular language. Kids wr
 
 ## Coding for teens in Bhilai
 
-In demand![Python programming for teens, best coding institute in Bhilai](/images/python-teens.webp)
+In demand![Python programming for teens: best coding institute in Bhilai](/images/python-teens.webp)
 
 ### Python Programming
 
@@ -84,7 +84,7 @@ The most in-demand language on the planet, and the cleanest on-ramp for a Bhilai
 - Automation & scripting
 - Real-world projects
 
-[View course](/courses/python-complete-masterclass-teens)Career![Java programming for teens, best coding class in Bhilai](/images/java-teens.webp)
+[View course](/courses/python-complete-masterclass-teens)Career![Java programming for teens: best coding class in Bhilai](/images/java-teens.webp)
 
 ### Java Programming
 
@@ -95,7 +95,7 @@ A rigorous, structured language that rewards the disciplined mind, and runs thro
 - Intro to Android app building
 - Board-aligned practice
 
-[View course](/courses/java-programming-masterclass-for-teens)Build![Web development for teens, programming classes in Bhilai](/images/web-dev-teens.webp)
+[View course](/courses/java-programming-masterclass-for-teens)Build![Web development for teens: programming classes in Bhilai](/images/web-dev-teens.webp)
 
 ### Full-Stack Web Development
 
@@ -106,7 +106,7 @@ Build complete, deployed websites with HTML, CSS, JavaScript and React, and the 
 - Backend with Node.js
 - Live portfolio projects
 
-[View course](/courses/web-development-masterclass-teens)Future![AI and machine learning for teens, coding course in Bhilai](/images/ai-ml-teens.webp)
+[View course](/courses/web-development-masterclass-teens)Future![AI and machine learning for teens: coding course in Bhilai](/images/ai-ml-teens.webp)
 
 ### AI & Machine Learning
 
@@ -158,19 +158,19 @@ Python, machine learning and real data analysis for the analytics and AI roles y
 
 ## Mathematics classes in Bhilai
 
-![Elementary mathematics, maths classes in Bhilai](/images/elementary-maths.webp)
+![Elementary mathematics: maths classes in Bhilai](/images/elementary-maths.webp)
 
 ### Elementary Mathematics
 
 Rock-solid foundations in numbers, operations, fractions, geometry and word problems for grades 1–5, aligned to CBSE, ICSE and CGBSE schools across Bhilai & Durg.
 
-[View course](/courses/elementary-mathematics-complete-masterclass)![High school mathematics, maths tuition in Bhilai](/images/high-school-maths.webp)
+[View course](/courses/elementary-mathematics-complete-masterclass)![High school mathematics: maths tuition in Bhilai](/images/high-school-maths.webp)
 
 ### High School Mathematics
 
 Algebra, geometry, trigonometry, pre-calculus and calculus for grades 9–12, board-aligned and built to give Bhilai's JEE and NEET aspirants a genuine head start.
 
-[View course](/courses/complete-high-school-mathematics-mastery)Olympiad![Olympiad mathematics, competition prep in Bhilai](/images/olympiad-competition-maths.webp)
+[View course](/courses/complete-high-school-mathematics-mastery)Olympiad![Olympiad mathematics: competition prep in Bhilai](/images/olympiad-competition-maths.webp)
 
 ### Olympiad & Competition Math
 
@@ -250,7 +250,7 @@ International families pay flat USD rates, the prices above update automatically
 
 Not screenshots of a syllabus, real, live projects from Modern Age Coders learners and labs. Click through and use them.
 
-[![HugSelle, AI Smile Generator](/images/projects/hugselle.webp) AI & MLHugSelle, AI Smile GeneratorA heartwarming AI-powered web app that detects your mood and generates uplifting quotes and visuals to make you smile, a creative blend of technology and positivity. Built by Anurag · Python, Machine LearningOpen the live project ↗](https://hugselle.modernagecoders.com)[![SkyCast, Weather Forecast App](/images/projects/skycast.webp) Web AppSkyCast, Weather Forecast AppAn interactive weather forecasting site with real-time updates for any location, temperature, humidity, wind speed and conditions in a clean, responsive interface. Built by Krish · JavaScript, APIOpen the live project ↗](https://krish-shroff.github.io/AuraWeatherTech/)[![LumenFX, AR/VR Photo Effects Studio](/images/projects/lumenfx.webp) Web AppLumenFX, AR/VR Photo Effects StudioUpload a photo and transform it with cinematic filters, AR face effects and the wildest trending edits, the same looks blowing up on TikTok, Reels and Snap, with 240+ one-tap presets. Raayan vibe-coded the whole studio from an idea: prompted the concept, then built the effects engine and gallery UI by hand. Built by Raayan · Vibe Coding, AR / VROpen the live project ↗](https://arvrbadestweb.lovable.app)[See more student projects →](/student-labs)
+[![HugSelle: AI Smile Generator](/images/projects/hugselle.webp) AI & MLHugSelle: AI Smile GeneratorA heartwarming AI-powered web app that detects your mood and generates uplifting quotes and visuals to make you smile, a creative blend of technology and positivity. Built by Anurag · Python, Machine LearningOpen the live project ↗](https://hugselle.modernagecoders.com)[![Life Span Tracker](/images/projects/lifespan.webp) ToolLife Span TrackerAn interactive web tool that calculates expected lifespan, shows days, months and years lived, and visualises remaining time to motivate better habits. Built by Manay · JavaScript, APIsOpen the live project ↗](https://lifespantracker.netlify.app/)[![LumenFX: AR/VR Photo Effects Studio](/images/projects/lumenfx.webp) Web AppLumenFX: AR/VR Photo Effects StudioUpload a photo and transform it with cinematic filters, AR face effects and the wildest trending edits, the same looks blowing up on TikTok, Reels and Snap, with 240+ one-tap presets. Raayan vibe-coded the whole studio from an idea: prompted the concept, then built the effects engine and gallery UI by hand. Built by Raayan · Vibe Coding, AR / VROpen the live project ↗](https://arvrbadestweb.lovable.app)[See more student projects →](/student-labs)
 
 ## What families say
 

@@ -185,15 +185,13 @@ An honest comparison
 
 ## How we differ from the alternatives.
 
- $1$150 (1:1)$2
-
 | What matters | Modern Age Coders | Group tuition class | Solution apps |
 | --- | --- | --- | --- |
 | One-to-one attention | Always | No, shared | N/A |
 | Teaches concepts, not solutions | Always | Varies | No, answers |
 | Ready for competency questions | Yes | Sometimes | No |
 | Same tutor each time | Yes | Often large groups | N/A |
-| Monthly price | AED 300–900 | AED 20–60 |
+| Monthly price | $150 (1:1) | AED 300–900 | AED 20–60 |
 
 Group classes are cheaper but share the tutor among many; solution apps just give answers. We give full one-to-one attention that builds real understanding for the boards.
 
@@ -249,7 +247,7 @@ Real student projects
 
 Every one is a real, live project shipped by a Modern Age Coders student. Explore more in [Student Labs](/student-labs).
 
-[![The Beautiful Mind](/images/projects/mindgame.webp)GameThe Beautiful MindA scientifically designed focus and brain-strength game with 15 progressive levels, testing attention, control and mental endurance with real-time progress tracking and leaderboards.by Modern Age CodersOpen the live project ↗](https://mind.modernagecoders.com)[![Misti, AI Chatbot for Maths & Coding](/images/projects/misti.webp)AI & MLMisti, AI Chatbot for Maths & CodingAn intelligent AI-powered chatbot that helps students solve maths and coding questions with deep, step-by-step explanations using advanced Python AI frameworks and LLM APIs.by HarshitOpen the live project ↗](https://misti.modernagecoders.com)[![Babu, 90 Second Maths Challenge](/images/projects/babu.webp)GameBabu, 90 Second Maths ChallengeAn exciting 90-second maths challenge with random problems under time pressure, and a dynamic leaderboard powered by Firebase/MongoDB with real-time score updates.by Modern Age CodersOpen the live project ↗](https://babu.modernagecoders.com)
+[![The Beautiful Mind](/images/projects/mindgame.webp)GameThe Beautiful MindA scientifically designed focus and brain-strength game with 15 progressive levels, testing attention, control and mental endurance with real-time progress tracking and leaderboards.by Modern Age CodersOpen the live project ↗](https://mind.modernagecoders.com)[![Misti: AI Chatbot for Maths & Coding](/images/projects/misti.webp)AI & MLMisti: AI Chatbot for Maths & CodingAn intelligent AI-powered chatbot that helps students solve maths and coding questions with deep, step-by-step explanations using advanced Python AI frameworks and LLM APIs.by HarshitOpen the live project ↗](https://misti.modernagecoders.com)[![Babu: 90 Second Maths Challenge](/images/projects/babu.webp)GameBabu: 90 Second Maths ChallengeAn exciting 90-second maths challenge with random problems under time pressure, and a dynamic leaderboard powered by Firebase/MongoDB with real-time score updates.by Modern Age CodersOpen the live project ↗](https://babu.modernagecoders.com)
 
 Parent & student voices
 

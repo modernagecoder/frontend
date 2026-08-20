@@ -179,15 +179,13 @@ An honest comparison
 
 ## How we differ from the alternatives.
 
- $1$150 (1:1) / $100 (group)$2
-
 | What matters | Modern Age Coders | Homework-help apps | A typical tutor |
 | --- | --- | --- | --- |
 | Fixes the root gap | Diagnoses & rebuilds it | No, answers only | Sometimes |
 | Teaches reasoning | Always | Rarely | Varies |
 | Same teacher each time | Yes, all year | N/A | Often |
 | SAT/ACT readiness | Built in | Add-on app | Varies |
-| Monthly price | $10–20 | $240–700+ |
+| Monthly price | $150 (1:1) / $100 (group) | $10–20 | $240–700+ |
 
 Apps are fine for a quick answer. A private local tutor is great if you can afford it. We give the live, one-to-one attention of a tutor at a price closer to an app.
 
@@ -259,7 +257,7 @@ Real student projects
 
 Every one is a real, live project shipped by a Modern Age Coders student. Explore more in [Student Labs](/student-labs).
 
-[![SkyCast, Weather Forecast App](/images/projects/skycast.webp)Web AppSkyCast, Weather Forecast AppAn interactive weather forecasting site with real-time updates for any location, temperature, humidity, wind speed and conditions in a clean, responsive interface.by KrishOpen the live project ↗](https://krish-shroff.github.io/AuraWeatherTech/)[![HugSelle, AI Smile Generator](/images/projects/hugselle.webp)AI & MLHugSelle, AI Smile GeneratorA heartwarming AI-powered web app that detects your mood and generates uplifting quotes and visuals to make you smile, a creative blend of technology and positivity.by AnuragOpen the live project ↗](https://hugselle.modernagecoders.com)[![Moxo, Company Landing Page](/images/projects/moxo.webp)Web AppMoxo, Company Landing PageA stunning modern landing page with smooth parallax scrolling, advanced GSAP animations and elegant section transitions that bring the brand to life.by IshaOpen the live project ↗](https://moxo.modernagecoders.com)
+[![Life Span Tracker](/images/projects/lifespan.webp)ToolLife Span TrackerAn interactive web tool that calculates expected lifespan, shows days, months and years lived, and visualises remaining time to motivate better habits.by ManayOpen the live project ↗](https://lifespantracker.netlify.app/)[![HugSelle: AI Smile Generator](/images/projects/hugselle.webp)AI & MLHugSelle: AI Smile GeneratorA heartwarming AI-powered web app that detects your mood and generates uplifting quotes and visuals to make you smile, a creative blend of technology and positivity.by AnuragOpen the live project ↗](https://hugselle.modernagecoders.com)[![Moxo: Company Landing Page](/images/projects/moxo.webp)Web AppMoxo: Company Landing PageA stunning modern landing page with smooth parallax scrolling, advanced GSAP animations and elegant section transitions that bring the brand to life.by IshaOpen the live project ↗](https://moxo.modernagecoders.com)
 
 Parent & student voices
 

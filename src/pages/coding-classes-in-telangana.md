@@ -77,7 +77,7 @@ Across The State
 
 Because our classes are live and online, any student with a laptop and internet can join, whether you're in the capital or a district town. Explore our dedicated city page:
 
-[Hyderabad India's leading IT hub, HITEC City, Cyberabad, Gachibowli and beyond. Coding in Hyderabad →](/best-coding-class-in-hyderabad)SecunderabadWarangalNizamabadKarimnagarKhammamMahbubnagarNalgondaAdilabadSiddipetSuryapetMiryalagudaRamagundam
+[Hyderabad India's leading IT hub: HITEC City, Cyberabad, Gachibowli and beyond. Coding in Hyderabad →](/best-coding-class-in-hyderabad)SecunderabadWarangalNizamabadKarimnagarKhammamMahbubnagarNalgondaAdilabadSiddipetSuryapetMiryalagudaRamagundam
 
 Why It Matters Here
 

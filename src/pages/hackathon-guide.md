@@ -36,19 +36,19 @@ Right after payment you'll be asked to create a WhatsApp group named **"Hackatho
 
 3
 
-#### Round 1: pitch your idea
+#### Round 1, pitch your idea
 
 Submit the real-life problem you'll solve and your plan (**7–8 June**). Our panel shortlists the strongest ideas to move forward.
 
 4
 
-#### Round 2: build it (48 hours)
+#### Round 2, build it (48 hours)
 
 The clock starts. Build a working solution in 48 hours (**9–11 June**), solo or with your team, using any tools. Submit your project, demo video and code link.
 
 5
 
-#### Round 3: demo live
+#### Round 3, demo live
 
 Finalists present their build live to the judges and answer questions (**12–13 June**).
 
@@ -273,7 +273,7 @@ Rank 1₹6,000Rank 2₹5,000Rank 3₹4,000Rank 4₹3,000Rank 5₹2,000Rank 6₹2
 - **→ 6 June 2026:** Registrations were open (₹500 / $10).
 - **6 June 2026, 11:59 PM IST:** Registrations closed.
 - **7–8 June 2026:** Round 1, idea & problem pitch; shortlist announced.
-- **9–11 June 2026:** Round 2, 48-hour build sprint & submission.
+- **9–11 June 2026:** Round 2: 48-hour build sprint & submission.
 - **12–13 June 2026:** Round 3, grand finale, live demos & winners.
 
 ****Questions
@@ -296,7 +296,7 @@ Real student projects
 
 Every one is a real, live project shipped by a Modern Age Coders student. Explore more in [Student Labs](/student-labs).
 
-[![BookDesk, AI Book Summaries & Quizzes](/images/projects/bookdesk.webp)AI & MLBookDesk, AI Book Summaries & QuizzesType in any book name and author, and BookDesk pulls together the book's details, a clear summary and a custom quiz to test what you've learned, a genuinely useful study companion. Anika built it as a full-stack AI application, powered by Google Gemini with a live database behind it.by AnikaOpen the live project ↗](https://bookdesk1.netlify.app)[![HairSync, AI Hairstyle Try-On](/images/projects/hairsync.webp)AI & MLHairSync, AI Hairstyle Try-OnUpload a clear photo and try on any hairstyle before you commit, wolf cuts, curtain bangs, fades, braids and dozens of trending looks, rendered onto your own face by AI in seconds. Kriti vibe-coded this virtual try-on studio from a single idea into a working app.by KritiOpen the live project ↗](https://hairsync.lovable.app)[![SkyCast, Weather Forecast App](/images/projects/skycast.webp)Web AppSkyCast, Weather Forecast AppAn interactive weather forecasting site with real-time updates for any location, temperature, humidity, wind speed and conditions in a clean, responsive interface.by KrishOpen the live project ↗](https://krish-shroff.github.io/AuraWeatherTech/)
+[![BookDesk: AI Book Summaries & Quizzes](/images/projects/bookdesk.webp)AI & MLBookDesk: AI Book Summaries & QuizzesType in any book name and author, and BookDesk pulls together the book's details, a clear summary and a custom quiz to test what you've learned, a genuinely useful study companion. Anika built it as a full-stack AI application, powered by Google Gemini with a live database behind it.by AnikaOpen the live project ↗](https://bookdesk1.netlify.app)[![HairSync: AI Hairstyle Try-On](/images/projects/hairsync.webp)AI & MLHairSync: AI Hairstyle Try-OnUpload a clear photo and try on any hairstyle before you commit, wolf cuts, curtain bangs, fades, braids and dozens of trending looks, rendered onto your own face by AI in seconds. Kriti vibe-coded this virtual try-on studio from a single idea into a working app.by KritiOpen the live project ↗](https://hairsync.lovable.app)[![Life Span Tracker](/images/projects/lifespan.webp)ToolLife Span TrackerAn interactive web tool that calculates expected lifespan, shows days, months and years lived, and visualises remaining time to motivate better habits.by ManayOpen the live project ↗](https://lifespantracker.netlify.app/)
 
 Parent & student voices
 

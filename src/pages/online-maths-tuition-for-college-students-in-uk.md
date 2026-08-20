@@ -179,15 +179,13 @@ An honest comparison
 
 ## How we differ from the alternatives.
 
- $1$150 (1:1) / $100 (group)$2
-
 | What matters | Modern Age Coders | Revision websites | University drop-in |
 | --- | --- | --- | --- |
 | Teaches transferable understanding | Always | Sometimes | Varies |
 | Works to your spec or module | Yes | Generic | Sometimes |
 | Same tutor all year | Yes | N/A | Rarely |
 | Handles proof & STEP | Yes | Limited | Sometimes |
-| Monthly price | Free–£15 | Free |
+| Monthly price | $150 (1:1) / $100 (group) | Free–£15 | Free |
 
 University drop-in help and revision sites are useful free resources. We add a dedicated tutor who knows your course and your gaps from week to week.
 
@@ -259,7 +257,7 @@ Real student projects
 
 Every one is a real, live project shipped by a Modern Age Coders student. Explore more in [Student Labs](/student-labs).
 
-[![BookDesk, AI Book Summaries & Quizzes](/images/projects/bookdesk.webp)AI & MLBookDesk, AI Book Summaries & QuizzesType in any book name and author, and BookDesk pulls together the book's details, a clear summary and a custom quiz to test what you've learned, a genuinely useful study companion. Anika built it as a full-stack AI application, powered by Google Gemini with a live database behind it.by AnikaOpen the live project ↗](https://bookdesk1.netlify.app)[![HairSync, AI Hairstyle Try-On](/images/projects/hairsync.webp)AI & MLHairSync, AI Hairstyle Try-OnUpload a clear photo and try on any hairstyle before you commit, wolf cuts, curtain bangs, fades, braids and dozens of trending looks, rendered onto your own face by AI in seconds. Kriti vibe-coded this virtual try-on studio from a single idea into a working app.by KritiOpen the live project ↗](https://hairsync.lovable.app)[![SkyCast, Weather Forecast App](/images/projects/skycast.webp)Web AppSkyCast, Weather Forecast AppAn interactive weather forecasting site with real-time updates for any location, temperature, humidity, wind speed and conditions in a clean, responsive interface.by KrishOpen the live project ↗](https://krish-shroff.github.io/AuraWeatherTech/)
+[![BookDesk: AI Book Summaries & Quizzes](/images/projects/bookdesk.webp)AI & MLBookDesk: AI Book Summaries & QuizzesType in any book name and author, and BookDesk pulls together the book's details, a clear summary and a custom quiz to test what you've learned, a genuinely useful study companion. Anika built it as a full-stack AI application, powered by Google Gemini with a live database behind it.by AnikaOpen the live project ↗](https://bookdesk1.netlify.app)[![HairSync: AI Hairstyle Try-On](/images/projects/hairsync.webp)AI & MLHairSync: AI Hairstyle Try-OnUpload a clear photo and try on any hairstyle before you commit, wolf cuts, curtain bangs, fades, braids and dozens of trending looks, rendered onto your own face by AI in seconds. Kriti vibe-coded this virtual try-on studio from a single idea into a working app.by KritiOpen the live project ↗](https://hairsync.lovable.app)[![Life Span Tracker](/images/projects/lifespan.webp)ToolLife Span TrackerAn interactive web tool that calculates expected lifespan, shows days, months and years lived, and visualises remaining time to motivate better habits.by ManayOpen the live project ↗](https://lifespantracker.netlify.app/)
 
 Parent & student voices
 

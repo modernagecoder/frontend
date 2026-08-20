@@ -1,71 +1,123 @@
 ---
 title: "Coding Classes in Ash Sharqiyah South | Modern Age Coders"
 description: "Live online coding and mathematics across Ash Sharqiyah South for ages 6 to 67, with coastal facts, USD fees, a null-versus-zero project and a free class."
-canonical: "https://learn.modernagecoders.com/coding-classes-in-ash-sharqiyah-south"
-location: "Ash Sharqiyah South, Oman"
-last_verified: "2026-08-16"
+canonical: https://learn.modernagecoders.com/coding-classes-in-ash-sharqiyah-south
+source: src/pages/coding-classes-in-ash-sharqiyah-south.html
 ---
+> Live online coding and mathematics across Ash Sharqiyah South for ages 6 to 67, with coastal facts, USD fees, a null-versus-zero project and a free class.
 
-# Coding classes across Ash Sharqiyah South that keep unknown separate
+Skip to contentCourse picks
 
-> Ash Sharqiyah South reaches from Al Kamil Wal Wafi and the Jalan wilayats to Masirah Island. Learners between 6 and 67 can join Modern Age Coders online for live coding, AI and mathematics. No payment is due for placement. Group study is USD 100 per month; individual study is USD 150.
+## Build data skills that preserve uncertainty
 
-This page describes online service availability across the governorate. Modern Age Coders does not claim an Ash Sharqiyah South office, classroom, conservation role, tourism facility or local agent. Learners join with a laptop or desktop, stable internet, working audio and a current browser. Teaching, questions, coding and feedback happen live.
+These routes connect Python, statistics, data science and accountable analysis.
 
-Local facts were last verified on 16 August 2026. Government and news sources provide public context without implying endorsement. Every date, count, status and calculation in the student observation exercise is synthetic. It is not a report of actual turtles, nests, tracks, surveys or conservation performance.
+[![Python Complete Masterclass for Teens course thumbnail](/images/python-teens.webp)Ages 14 to 18Python Complete Masterclass for TeensModel nullable fields and validation rules.See the syllabus](/courses/python-complete-masterclass-teens)[![Data Science for Teens course thumbnail](/images/data-science-teens.webp)Ages 14 to 18Data Science for TeensProfile missingness before modelling.See the syllabus](/courses/data-science-course-for-teens-python-data)[![Statistics and Probability course thumbnail](/images/statistics-probability-maths.webp)School and collegeStatistics and ProbabilityInterpret averages, denominators and bias.See the syllabus](/courses/statistics-probability-maths-course)[![Data Analysis Mastery course thumbnail](/images/data-analysis-college.webp)College and adultsData Analysis MasteryCreate auditable metrics and reports.See the syllabus](/courses/data-analysis-mastery-course-college)Verified regional structure
 
-## Five current wilayats and a coastal setting
+## Five wilayats, with Sur as the governorate centre
 
-Oman's current [Governorates System](https://bur.gov.om/assets/pdf/en/governorate-system.pdf) lists Sur, Al Kamil Wal Wafi, Jalan Bani Bu Hassan, Jalan Bani Bu Ali and Masirah in Ash Sharqiyah South. It identifies Sur as the governorate centre.
+Current official sources define the administrative grain before a learner groups or compares records.
 
-The [Ash Sharqiyah South government portal](https://gov.om/en/ash-sharqiyah-south-governorate) lists wali leadership for each of the five wilayats and the governor's office in Sur. It publishes a Sunday-through-Thursday government work week. Those administrative hours do not define online class availability.
+### Five current wilayats
 
-Oman's [Foreign Ministry regional guide](https://www.fm.gov.om/en/about-oman/state/oman-by-region/) places the governorate along the southeastern coastline and connects its history with maritime trade and fishing. It identifies Masirah as an island and names beaches, springs and forts among its features.
+Oman's current [Governorates System](https://bur.gov.om/assets/pdf/en/governorate-system.pdf) lists Sur, Al Kamil Wal Wafi, Jalan Bani Bu Hassan, Jalan Bani Bu Ali and Masirah in Ash Sharqiyah South.
 
-This page focuses on Al Kamil Wal Wafi, the Jalan wilayats and Masirah. The [Sur coding classes guide](https://learn.modernagecoders.com/coding-classes-in-sur) carries the detailed city context and its separate water-leakage data project.
+### Sur is the centre
 
-In a dataset, the wilayat is an administrative unit, an island is a geographic entity, a facility is an asset and an observation shift is an event. A clear data model does not use the same display label as the key for all four.
+The same official system identifies Sur as the governorate centre. This regional guide therefore avoids repeating the detailed city material on the linked Sur page.
 
-## Al Kamil Wal Wafi: reserve facts need scope and date
+### Separate wali leadership
 
-An [Oman News Agency report dated 7 October 2025](https://omannews.gov.om/topics/en/138/show/124855/ona) describes an agreement to develop Al Saleel Natural Park Reserve in Al Kamil Wal Wafi.
+The current [government portal](https://gov.om/en/ash-sharqiyah-south-governorate) lists leadership for each of the five wilayats and the governor's office in Sur.
 
-ONA gives the reserve's area as 220 square kilometres. The report connects it with indigenous tree species and Arabian Gazelle. It says the agreement includes a main building, veterinary clinic, animal enclosures, service facilities and information facilities.
+### Sunday to Thursday administration
 
-An agreement is a documented administrative event, not evidence that every described facility is complete or operating. A well-designed student dataset might therefore store project_id, scope, agreement_date, planned_component and lifecycle_status separately.
+The portal publishes a Sunday-through-Thursday work week for the governor's office. Government office hours do not define online teaching availability.
 
-The area and feature descriptions are official public context. They do not supply values to the classroom observation table.
+### Southeastern coast
 
-## Jalan Bani Bu Ali: planned units are not completed units
+Oman's [Foreign Ministry regional guide](https://www.fm.gov.om/en/about-oman/state/oman-by-region/) places the governorate on the southeastern coastline and connects its history with maritime trade and fishing.
 
-An [ONA report about Al Falah Neighbourhood](https://omannews.gov.om/topics/en/80/show/124817) in Jalan Bani Bu Ali describes an area exceeding 200,000 square metres and a plan containing 188 residential units.
+### Masirah is an island wilayat
 
-Those measures answer different questions. Area needs a numeric value, unit and boundary. The unit total needs a lifecycle label such as planned, approved, under construction, complete or occupied. Copying the number 188 into a generic homes field would remove the qualification that makes the figure interpretable.
+The Foreign Ministry guide identifies Masirah as an island and names beaches, springs and forts among its features. Island and mainland values should retain a location identifier.
 
-The lesson generalises to environmental data. A scheduled survey, attempted survey, validated observation and released statistic are different states. None should be inferred from a blank cell.
+Unknown is a data state, not a low value
 
-## Masirah sources demonstrate why protocols matter
+A blank survey cell can mean that no valid reading exists. It cannot support the conclusion that the measured count was zero. The data model records observation status separately from its nullable numeric result.
 
-An [ONA report dated 3 March 2025](https://omannews.gov.om/topics/en/79/show/121280) describes Masirah's multi-purpose fishing port. It reports breakwaters with a combined length of 4,172 metres, a basin deepened to 5 metres, a 1,100-metre sandy beach and 13 floating berths.
+Al Kamil Wal Wafi and Jalan Bani Bu Ali
 
-Each figure needs its own metric and unit. Summing 4,172, 5, 1,100 and 13 would produce a number with no valid meaning.
+## Environmental and community records carry dates, scopes and statuses
 
-An [ONA report dated 21 January 2026](https://omannews.gov.om/topics/en/79/show/126616/privacy) says the Masirah Winter Festival had 113 participants, including 53 artisans and 20 home-business licence holders. It also describes spinning, weaving and kohl crafts and says hand weaving takes approximately 14 days.
+Recent official reporting supplies local context without being repurposed as classroom measurements.
 
-The word including does not by itself establish that participant categories are mutually exclusive. A person could potentially satisfy more than one category unless the source or data contract says otherwise. The learner therefore does not add subgroup values and call the result a total.
+### Al Saleel reserve covers 220 square kilometres
 
-An [ONA report dated 22 February 2026](https://omannews.gov.om/topics/en/138/show/127157/dark) describes a field project covering 84 kilometres of Masirah coastline. It places olive ridley season from February to May and loggerhead season from May to October.
+An [Oman News Agency report](https://omannews.gov.om/topics/en/138/show/124855/ona) dated 7 October 2025 gives this area for Al Saleel Natural Park Reserve in Al Kamil Wal Wafi.
 
-The report distinguishes two daily shifts. It describes morning work including documentation of tracks and nests, release of stranded turtles and recording deaths. It describes night work including nesting, tagging and beach monitoring.
+### An agreement concerns reserve development
 
-These are useful public facts about protocol and season. The synthetic counts below do not reproduce, estimate or claim results from that project. The source is context for a responsible missing-data lesson, not a data feed.
+The report describes an agreement covering a main building, veterinary clinic, animal enclosures and service and information facilities. An agreement is not the same state as completion.
 
-## The null-versus-zero coding project
+### Indigenous trees and Arabian Gazelle
 
-The learner receives eight scheduled teaching shifts. Six have validated numeric results, one of which is an observed zero. Two shifts have no usable value.
+ONA connects the reserve with indigenous tree species and Arabian Gazelle. Those are source-backed descriptors, not simulated counts in the learning table.
+
+### Al Falah exceeds 200,000 square metres
+
+An [ONA report](https://omannews.gov.om/topics/en/80/show/124817) dated in 2025 gives this area for Al Falah Neighbourhood in Jalan Bani Bu Ali.
+
+### The plan contains 188 residential units
+
+The same report states that total. A learner stores planned units separately from units completed, occupied or sampled.
+
+### Scope fields prevent false comparisons
+
+Reserve area and neighbourhood area are both numeric, but their entities and purposes differ. A tidy dataset includes measure name, unit, entity, date and source.
+
+Masirah Island
+
+## Dated sources reveal the observation protocol
+
+Fishing, craft and conservation reports show why one number cannot travel without context.
+
+### Fishing-port breakwaters span 4,172 metres
+
+An [ONA report](https://omannews.gov.om/topics/en/79/show/121280) dated 3 March 2025 describes this combined length for Masirah's multi-purpose fishing port.
+
+### The basin is deepened to 5 metres
+
+The same report also identifies a 1,100-metre sandy beach and 13 floating berths. Each measure needs its own field and unit.
+
+### A 2026 festival reported 113 participants
+
+An [ONA report](https://omannews.gov.om/topics/en/79/show/126616/privacy) dated 21 January 2026 gives this total for the Masirah Winter Festival.
+
+### Participant categories overlap only if defined
+
+The festival report includes 53 artisans and 20 home-business licence holders. A dataset must state whether categories are mutually exclusive before summing them.
+
+### Field project covers 84 kilometres
+
+An [ONA report](https://omannews.gov.om/topics/en/138/show/127157/dark) dated 22 February 2026 describes a turtle field project along 84 kilometres of Masirah coastline.
+
+### Two daily shifts perform different work
+
+The report distinguishes morning documentation from night monitoring and tagging. It places olive ridley season from February to May and loggerhead season from May to October.
+
+### Source fact and classroom value are kept apart
+
+The protocol, coastline distance and season ranges above come from the cited public report. Every count in the exercise below is deliberately invented. It must not be read as an observation, estimate or claim about the Masirah project.
+
+Signature data project
+
+## Null is not zero in a synthetic coastal observation table
+
+The learner audits eight scheduled shifts, preserves two missing results and publishes both the mean and data coverage.
 
 | Scheduled shift | Survey status | Synthetic observation count | Reason or evidence |
-|---|---|---:|---|
+| --- | --- | --- | --- |
 | Day 1 morning | Completed | 12 | Validated teaching record |
 | Day 1 night | Completed | 8 | Validated teaching record |
 | Day 2 morning | Missing | Null | Source file unavailable |
@@ -75,88 +127,242 @@ The learner receives eight scheduled teaching shifts. Six have validated numeric
 | Day 4 morning | Completed | 15 | Validated teaching record |
 | Day 4 night | Missing | Null | Shift did not produce a usable record |
 
-This table is wholly synthetic. No row is an actual Masirah date, turtle count, nest count, track count or survey outcome.
+### The incorrect shortcut gives 6.75
 
-The incorrect implementation runs a blanket fill operation and replaces both nulls with zero. It creates eight numeric values with a sum of 54. The reported mean becomes 54 divided by 8, or 6.75.
+Filling both nulls with zero creates eight numeric cells. The sum of 54 divided by 8 is 6.75, but the code has invented two completed observations.
 
-That arithmetic is internally consistent but the data claim is false. The code has invented two completed observations with measured zeros.
+### The observed mean is 9.0
 
-The complete-case calculation retains all six valid observations, including the genuine zero. Their values are 12, 8, 10, 0, 9 and 15. They total 54. Dividing by six produces an observed mean of 9.0 per completed shift.
+Six completed shifts contain valid results totalling 54. Dividing 54 by 6 gives 9.0 observations per completed shift.
 
-The result must travel with coverage: six usable results out of eight scheduled shifts, or 75 percent. It also travels with the two missing reasons. A reviewer can then see the denominator and judge whether the incomplete period supports the intended decision.
+### Coverage is 75 percent
 
-## Why the observed zero must remain
+Six usable results exist for eight scheduled shifts. The mean is reported beside 6/8 coverage and two missing-reason fields, not as a complete-period figure.
 
-Day 3 morning has status Completed and count 0. Its meaning is that the synthetic teaching survey was performed and no qualifying event was recorded under the fictional protocol.
+### A measured zero stays zero
 
-Removing that row because zero feels uninformative would bias the mean upward. Replacing unavailable rows with zero biases it downward. The responsible rule is based on evidence state, not on whether a value makes the result look larger or smaller.
+Day 3 morning was completed and returned no qualifying event. Excluding that zero would bias the result upward, just as inventing zeros for missing shifts biases it downward.
 
-Null means a usable result is unknown. It might arise because a shift did not happen, a file did not arrive, validation failed, equipment failed or the record awaits review. Those causes can have different statistical consequences.
+### Nulls remain queryable
 
-If missingness is related to weather, shift type, access, equipment or the likelihood of the event itself, a complete-case mean may also be biased. The class therefore does not present 9.0 as a full-period truth. It describes the six completed synthetic shifts and reports 75 percent coverage.
+The analyst can count missing rows, group reasons, request recovery and compare complete-case results with a justified sensitivity model.
 
-## A data contract that preserves evidence
+### No default imputation
+
+Imputation requires assumptions about why data is missing. A silent fill operation is not a statistical method and cannot be hidden in data cleaning.
+
+Data contract
+
+## Store observation state before calculating a mean
+
+These fields let a reviewer reproduce the denominator and tell an observed zero from absent evidence.
 
 | Field or check | Purpose | Rule |
-|---|---|---|
-| shift_id | Stable scheduled-observation key | Required and unique |
+| --- | --- | --- |
+| shift_id | One stable scheduled-observation key | Required and unique |
 | survey_status | Completed, missing, rejected or cancelled | Required controlled value |
-| observed_count | Numeric result from a valid observation | Nullable; zero allowed |
-| missing_reason | Explains why no number exists | Required when count is null |
-| start_time and end_time | Defines the observation window | End must follow start |
+| observed_count | Numeric result where a valid observation exists | Nullable; zero allowed |
+| missing_reason | Why no valid number exists | Required when count is null |
+| start_time and end_time | Defines observation window | End must follow start |
 | observer and protocol | Identifies method and responsibility | Versioned teaching labels |
 | source_file | Supports traceability | Checksum or immutable reference |
 | coverage | Observed shifts divided by scheduled shifts | Published with every mean |
 
-Validation couples status and result. Completed requires a number at or above zero. Missing requires a null plus a reason. Rejected requires a validation note and retains the original submission in a raw layer. Contradictory combinations fail the pipeline.
+### Validate coupled fields
 
-The raw table is immutable. A documented transformation creates the analytical view. No cleaning step overwrites the submitted evidence.
+A completed record requires a number at or above zero. A missing record requires a null and a reason. Contradictory combinations fail validation.
 
-The learner groups missingness by day and shift type. Overall 75 percent coverage could hide that all unavailable readings came from one shift or period. A coverage table exposes that pattern before interpretation.
+### Keep raw and analytical tables
 
-If a later model imputes values, its assumptions, training window, version and sensitivity results are separate from observed data. Imputed values carry an is_imputed flag. The report compares plausible alternatives instead of presenting the chosen model output as measured fact.
+The raw layer preserves submitted values. A documented transformation produces the analytical view without overwriting evidence.
 
-## Release tests for the analysis
+### Make denominator visible
 
-Before release, the learner checks that all eight scheduled shift IDs are unique and present. Status values must come from the controlled list. Counts must be integers at or above zero where status is Completed.
+A dashboard shows observed count, scheduled count and coverage next to its mean so readers can judge completeness.
 
-A missing count needs a reason. A completed count cannot be null. A non-completed record cannot silently contain a value in the observed_count field.
+### Test group-level gaps
 
-The test recomputes six observed rows, two missing rows, one observed zero, total 54, mean 9.0 and coverage 75 percent. A separate negative test proves that the blanket fill result is 6.75 and rejects it as the reported mean.
+Overall coverage can hide a missing shift type or date range. The learner checks missingness by shift, day and relevant category.
 
-The chart title names the population it describes: completed synthetic shifts in the teaching dataset. The caption states that two of eight scheduled shifts lack usable results. The source note says the values are invented for instruction.
+### Version assumptions
 
-The final plain-language claim can be reproduced from the table: the six completed synthetic shifts average 9.0 observations, while two of eight scheduled shifts are missing. It does not say that Ash Sharqiyah South, Masirah or an official project had that average.
+If a later analysis imputes values, its method, training window and sensitivity outputs receive a version and are separated from observed results.
 
-## Course routes for different learners
+### Write the plain-language claim
 
-The [Python Complete Masterclass for Teens](https://learn.modernagecoders.com/courses/python-complete-masterclass-teens) builds control flow, functions, data structures and validation needed to represent nullable fields safely.
+The final sentence says exactly which completed shifts the 9.0 mean describes and explicitly notes that two scheduled shifts are unavailable.
 
-The [Data Science Course for Teens](https://learn.modernagecoders.com/courses/data-science-course-for-teens-python-data) moves from dataframe inspection to missingness profiles, transparent transformations and interpretable reporting.
+Learning ladder
 
-The [Statistics and Probability course](https://learn.modernagecoders.com/courses/statistics-probability-maths-course) supports work on averages, denominators, sampling, uncertainty and bias.
+## Missing-data reasoning at four levels
 
-The [Data Analysis Mastery course](https://learn.modernagecoders.com/courses/data-analysis-mastery-course-college) connects data contracts, cleaning decisions, reproducible metrics, quality checks and reporting.
+The same distinction can be concrete for a child and rigorous for an analyst.
 
-Young beginners can start with [Kids Coding Blocks](https://learn.modernagecoders.com/courses/kids-coding-blocks-masterclass) and [Elementary Mathematics](https://learn.modernagecoders.com/courses/elementary-mathematics-complete-masterclass). A child can sort cards into measured zero, known positive value and no observation before writing code.
+Ages 6 to 10
 
-Learners aged 11 to 13 may use [Python and AI for Kids](https://learn.modernagecoders.com/courses/python-ai-kids-masterclass) and [Problem Solving and Computational Thinking](https://learn.modernagecoders.com/courses/problem-solving-and-computational-thinking-for-kids) to represent explicit program states and test edge cases.
+### Sort known and unknown
 
-Teenagers can combine [Python for Teens](https://learn.modernagecoders.com/courses/python-complete-masterclass-teens) with [Data Science for Teens](https://learn.modernagecoders.com/courses/data-science-course-for-teens-python-data). College learners and adults can pair [Statistics and Probability](https://learn.modernagecoders.com/courses/statistics-probability-maths-course) with [Data Analysis Mastery](https://learn.modernagecoders.com/courses/data-analysis-mastery-course-college).
+Children separate a card showing zero shells from a blank card with no observation.
 
-Placement depends on demonstrated ability, pace and objective rather than age alone. A learner with existing code can show it during the free class. A beginner receives a short accessible task.
+[Kids Coding Blocks](/courses/kids-coding-blocks-masterclass)[Elementary Mathematics](/courses/elementary-mathematics-complete-masterclass)Ages 11 to 13
 
-## Live online format and fees
+### Use explicit program states
 
-Modern Age Coders has taught 10,000+ students in 25+ countries since 2020. Learners range from ages 6 to 67. The published reputation figure is rated 4.9 across 547 Google reviews.
+Learners represent None, zero and valid positive values without confusing them.
 
-A group normally contains five to eight compatible learners. Private tuition is one learner with one teacher. Classes usually meet twice each week, normally eight times monthly.
+[Python and AI for Kids](/courses/python-ai-kids-masterclass)[Computational Thinking](/courses/problem-solving-and-computational-thinking-for-kids)Ages 14 to 18
 
-The first live class is free. Standard group tuition is USD 100 per month. Standard private tuition is USD 150 per month. Course, format, teacher availability and recurring time are confirmed before payment.
+### Audit a dataframe
 
-Oman is one and a half hours behind India. Friday and Saturday options are subject to availability. School exams, university assessments, work, travel, island connectivity, seasonal events and Ramadan schedules should be discussed before a recurring slot is agreed.
+Teenagers inspect null patterns, validate types and calculate transparent denominators.
 
-## Frequently asked questions
+[Python for Teens](/courses/python-complete-masterclass-teens)[Data Science for Teens](/courses/data-science-course-for-teens-python-data)Ages 18 to 67
+
+### Design analytical contracts
+
+Adults build lineage, missingness reports, sensitivity checks and release tests.
+
+[Statistics and Probability](/courses/statistics-probability-maths-course)[Data Analysis Mastery](/courses/data-analysis-mastery-course-college)Placement across five wilayats
+
+## The free class finds the level, wherever the learner is
+
+Sur is the governorate centre, but learners also join from Al Kamil Wal Wafi, Jalan Bani Bu Ali and Masirah Island.
+
+### Early starters
+
+Counting and comparison, taught so that a missing value never quietly becomes a zero.
+
+### Students sitting all eight
+
+Python, mathematics or statistics, arranged around a diploma with eight subjects to pass.
+
+### University and college
+
+Programming and analysis foundations that support assessed work.
+
+### Adults in coastal work
+
+Reporting and data quality, using the sort of dated environmental records the coast produces.
+
+### Work already built
+
+The teacher checks how the code stores an unobserved reading, which is where most of them break.
+
+### Open to advice
+
+A written recommendation after the free class, with nothing charged.
+
+Live online delivery
+
+## Ash Sharqiyah South classes without a Sur journey
+
+Masirah Island is a ferry away from the mainland, which settles the question of whether a weekly journey to a centre is realistic.
+
+### Sur is not the meeting point
+
+A learner on Masirah joins the same live class as one in Sur.
+
+### A group of five to eight
+
+Compatible learners, one teacher, feedback given while the work is open.
+
+### One to one
+
+Where pace or schedule makes a group impractical.
+
+### Two live sessions a week
+
+Normally eight lessons in a month.
+
+### Ninety minutes apart, not five
+
+Oman is one and a half hours behind India, so evenings genuinely work at both ends.
+
+### At the learner's desk
+
+A laptop or desktop, stable internet, working audio and a current browser.
+
+Scheduling around an Ash Sharqiyah South calendar
+
+Friday and Saturday depend on availability. Tell us about school examinations, fishing and shift patterns, ferry timings and Ramadan before the recurring time is fixed.
+
+Clear fees
+
+## Free placement before monthly tuition
+
+All prices are displayed in USD. Course, format, recurring time and teacher availability are confirmed before payment.
+
+First live class**USD 0**
+
+Goal review, ability task and starting recommendation.
+
+Group tuition**USD 100**
+
+Per month, normally eight live lessons, five to eight learners.
+
+Private tuition**USD 150**
+
+Per month, normally eight live lessons, one learner and one teacher.
+
+Request the free class[Check regional availability](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20want%20a%20free%20coding%20class%20for%20a%20learner%20in%20Ash%20Sharqiyah%20South.)Reviews
+
+## What families and learners say
+
+Rated 4.9 across 547 Google reviews. These are real reviews, reproduced as written.
+
+★★★★★
+
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
+
+Ria Mukherjee
+
+Parent
+
+★★★★★
+
+"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
+
+Samriddha Mondal
+
+Student
+
+★★★★★
+
+"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
+
+Vansh Agarwal
+
+Student
+
+★★★★★
+
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
+
+Sonam Oswal
+
+Parent of Dhairya
+
+★★★★★
+
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
+
+Sonu Goyal
+
+Parent
+
+★★★★★
+
+"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
+
+Ritu Kedia
+
+Parent
+
+FAQ
+
+## Questions about coding classes across Ash Sharqiyah South
+
+The answers distinguish class facts, official regional evidence and synthetic observation data.
 
 ### Who can join coding classes across Ash Sharqiyah South?
 
@@ -198,12 +404,34 @@ A group normally has five to eight compatible learners, while private tuition is
 
 The teacher asks about the learner's objective and observes a short ability-matched task. A child may sort known and unknown cards, a teenager may debug a null-filled average, and an experienced learner may design a missing-data contract. The teacher then explains the suggested course, format, timing and USD fee. No tuition is charged for the first class.
 
-## Continue through Oman
+### Ask before booking
 
-Use the [Oman coding classes hub](https://learn.modernagecoders.com/coding-classes-in-oman) for national course, delivery and fee facts.
+Use [WhatsApp for a regional class question](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20want%20a%20free%20coding%20class%20for%20a%20learner%20in%20Ash%20Sharqiyah%20South.) or continue to the form. The team checks course, format and a suitable recurring time before payment.
 
-The [Sur coding classes guide](https://learn.modernagecoders.com/coding-classes-in-sur) focuses on the city and a water-leakage calculation. The [Ash Sharqiyah North coding classes guide](https://learn.modernagecoders.com/coding-classes-in-ash-sharqiyah-north) teaches duplicate-key join detection.
+Free first class
 
-Return to the [Oman coding classes hub](https://learn.modernagecoders.com/coding-classes-in-oman) to compare all published city, district and governorate guides.
+## Request an ability-matched Ash Sharqiyah South session
 
-Contact Modern Age Coders at +91 91233 66161 or contact@modernagecoders.com to request the free first live class.
+Share the learner's age or grade, wilayat and intended skill. Modern Age Coders will review the request and respond through the contact details supplied.
+
+### Contact Modern Age Coders
+
+**Phone:** [+91 91233 66161](tel:+919123366161)
+
+**Email:** [contact@modernagecoders.com](mailto:contact@modernagecoders.com)
+
+**Delivery:** Live online across Ash Sharqiyah South and the rest of Oman.
+
+**Availability:** A recurring time is checked before enrolment.
+
+[Message about Ash Sharqiyah South](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20want%20a%20free%20coding%20class%20for%20a%20learner%20in%20Ash%20Sharqiyah%20South.)Continue through Oman
+
+## City and regional guides
+
+Use the national page for shared service facts, then continue to Sur or the northern governorate.
+
+[**Oman coding classes**National course, fee and service guide](/coding-classes-in-oman)[**Sur coding classes**City-specific water-leakage data project](/coding-classes-in-sur)[**Ash Sharqiyah North coding classes**Duplicate-key join analysis](/coding-classes-in-ash-sharqiyah-north)Free regional class[Call +91 91233 66161](tel:+919123366161)[Chat with us](https://wa.me/919123366161?text=Hi%2C%20I'm%20interested%20in%20learning%20more%20about%20your%20courses!)
+
+---
+
+*Canonical: https://learn.modernagecoders.com/coding-classes-in-ash-sharqiyah-south*

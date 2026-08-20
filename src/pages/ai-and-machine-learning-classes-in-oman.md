@@ -460,6 +460,8 @@ Leave a number and a mentor calls you back, usually within a few hours, at an ho
 
 Prefer to look around first? Read [how we teach](/how-we-teach), browse the [full course catalogue](/courses), or see what students have built in [Student Labs](/student-labs).
 
+[Chat with us](https://wa.me/919123366161?text=Hi%2C%20I'm%20interested%20in%20learning%20more%20about%20your%20courses!)
+
 ---
 
 *Canonical: https://learn.modernagecoders.com/ai-and-machine-learning-classes-in-oman*

@@ -36,7 +36,7 @@ Ages 8–12
 
 ## Coding for kids in Jamnagar
 
-Most popular![Kids coding with Scratch, best coding class for kids in Jamnagar](/images/kids-coding.webp)
+Most popular![Kids coding with Scratch: best coding class for kids in Jamnagar](/images/kids-coding.webp)
 
 ### Kids Coding with Scratch
 
@@ -58,7 +58,7 @@ A child designs and publishes a first colourful website with HTML & CSS, then se
 - Fun, real web projects
 - A personal portfolio page
 
-[View course](/courses/kids-ai-web-development-course)Next step![Python for kids, programming course in Jamnagar](/images/python-kids.webp)
+[View course](/courses/kids-ai-web-development-course)Next step![Python for kids: programming course in Jamnagar](/images/python-kids.webp)
 
 ### Python for Young Coders
 
@@ -73,7 +73,7 @@ The step up to real, typed code in the world's most-used language. A Jamnagar ch
 
 ## Coding for teens in Jamnagar
 
-In demand![Python programming for teens, best coding institute in Jamnagar](/images/python-teens.webp)
+In demand![Python programming for teens: best coding institute in Jamnagar](/images/python-teens.webp)
 
 ### Python Programming
 
@@ -84,7 +84,7 @@ The world's most in-demand language and the cleanest on-ramp for a teen: a clear
 - Automation & scripting
 - Real-world projects
 
-[View course](/courses/python-complete-masterclass-teens)Career![Java programming for teens, best coding class in Jamnagar](/images/java-teens.webp)
+[View course](/courses/python-complete-masterclass-teens)Career![Java programming for teens: best coding class in Jamnagar](/images/java-teens.webp)
 
 ### Java Programming
 
@@ -95,7 +95,7 @@ The language behind ICSE/ISC Computer Science (BlueJ) and a workhorse of enterpr
 - Intro to Android app building
 - Board-aligned practice
 
-[View course](/courses/java-programming-masterclass-for-teens)Build![Web development for teens, programming classes in Jamnagar](/images/web-dev-teens.webp)
+[View course](/courses/java-programming-masterclass-for-teens)Build![Web development for teens: programming classes in Jamnagar](/images/web-dev-teens.webp)
 
 ### Full-Stack Web Development
 
@@ -106,7 +106,7 @@ Build and deploy complete websites from a blank page using HTML, CSS, JavaScript
 - Backend with Node.js
 - Live portfolio projects
 
-[View course](/courses/web-development-masterclass-teens)Future![AI and machine learning for teens, coding course in Jamnagar](/images/ai-ml-teens.webp)
+[View course](/courses/web-development-masterclass-teens)Future![AI and machine learning for teens: coding course in Jamnagar](/images/ai-ml-teens.webp)
 
 ### AI & Machine Learning
 
@@ -158,19 +158,19 @@ Python, machine learning and hands-on data analysis, the toolkit behind the fast
 
 ## Mathematics classes in Jamnagar
 
-![Elementary mathematics, maths classes in Jamnagar](/images/elementary-maths.webp)
+![Elementary mathematics: maths classes in Jamnagar](/images/elementary-maths.webp)
 
 ### Elementary Mathematics
 
 Rock-solid foundations in numbers, operations, fractions, geometry and word problems for grades 1–5, aligned to GSEB, CBSE & ICSE schools across Jamnagar.
 
-[View course](/courses/elementary-mathematics-complete-masterclass)![High school mathematics, maths tuition in Jamnagar](/images/high-school-maths.webp)
+[View course](/courses/elementary-mathematics-complete-masterclass)![High school mathematics: maths tuition in Jamnagar](/images/high-school-maths.webp)
 
 ### High School Mathematics
 
 Algebra, geometry, trigonometry, pre-calculus and calculus for grades 9–12, board-aligned and built to give Jamnagar's JEE and GUJCET aspirants a genuine head start.
 
-[View course](/courses/complete-high-school-mathematics-mastery)Olympiad![Olympiad mathematics, competition prep in Jamnagar](/images/olympiad-competition-maths.webp)
+[View course](/courses/complete-high-school-mathematics-mastery)Olympiad![Olympiad mathematics: competition prep in Jamnagar](/images/olympiad-competition-maths.webp)
 
 ### Olympiad & Competition Math
 
@@ -250,7 +250,7 @@ International families pay flat USD rates, the prices above update automatically
 
 Not screenshots of a syllabus, real, live projects from Modern Age Coders learners and labs. Click through and use them.
 
-[![Moxo, Company Landing Page](/images/projects/moxo.webp) Web AppMoxo, Company Landing PageA stunning modern landing page with smooth parallax scrolling, advanced GSAP animations and elegant section transitions that bring the brand to life. Built by Isha · JavaScript, GSAPOpen the live project ↗](https://moxo.modernagecoders.com)[![SkyCast, Weather Forecast App](/images/projects/skycast.webp) Web AppSkyCast, Weather Forecast AppAn interactive weather forecasting site with real-time updates for any location, temperature, humidity, wind speed and conditions in a clean, responsive interface. Built by Krish · JavaScript, APIOpen the live project ↗](https://krish-shroff.github.io/AuraWeatherTech/)[![Doodle Dash, 30-Second Drawing Challenge](/images/projects/doodledash.webp) GameDoodle Dash, 30-Second Drawing ChallengePick a difficulty, get a prompt, and you have exactly 30 seconds to draw it, then an AI judge scores how close you got. Three modes from easy objects to chaotic scenes. Shubh vibe-coded it idea-first, wiring real AI image grading into a fast, addictive drawing game. Built by Shubh · Vibe Coding, AI JudgeOpen the live project ↗](https://doodledashmaster.lovable.app)[See more student projects →](/student-labs)
+[![Moxo: Company Landing Page](/images/projects/moxo.webp) Web AppMoxo: Company Landing PageA stunning modern landing page with smooth parallax scrolling, advanced GSAP animations and elegant section transitions that bring the brand to life. Built by Isha · JavaScript, GSAPOpen the live project ↗](https://moxo.modernagecoders.com)[![Life Span Tracker](/images/projects/lifespan.webp) ToolLife Span TrackerAn interactive web tool that calculates expected lifespan, shows days, months and years lived, and visualises remaining time to motivate better habits. Built by Manay · JavaScript, APIsOpen the live project ↗](https://lifespantracker.netlify.app/)[![Doodle Dash: 30-Second Drawing Challenge](/images/projects/doodledash.webp) GameDoodle Dash: 30-Second Drawing ChallengePick a difficulty, get a prompt, and you have exactly 30 seconds to draw it, then an AI judge scores how close you got. Three modes from easy objects to chaotic scenes. Shubh vibe-coded it idea-first, wiring real AI image grading into a fast, addictive drawing game. Built by Shubh · Vibe Coding, AI JudgeOpen the live project ↗](https://doodledashmaster.lovable.app)[See more student projects →](/student-labs)
 
 ## What families say
 

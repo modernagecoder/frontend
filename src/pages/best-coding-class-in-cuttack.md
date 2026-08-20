@@ -36,7 +36,7 @@ Ages 8–12
 
 ## Coding for kids in Cuttack
 
-Most popular![Kids coding with Scratch, best coding class for kids in Cuttack](/images/kids-coding.webp)
+Most popular![Kids coding with Scratch: best coding class for kids in Cuttack](/images/kids-coding.webp)
 
 ### Kids Coding with Scratch
 
@@ -58,7 +58,7 @@ Children design and publish a first colourful website with HTML & CSS, then send
 - Fun, real web projects
 - A personal portfolio page
 
-[View course](/courses/kids-ai-web-development-course)Next step![Python for kids, programming course in Cuttack](/images/python-kids.webp)
+[View course](/courses/kids-ai-web-development-course)Next step![Python for kids: programming course in Cuttack](/images/python-kids.webp)
 
 ### Python for Young Coders
 
@@ -73,7 +73,7 @@ The step up to real, typed code in the world's most popular language, the same o
 
 ## Coding for teens in Cuttack
 
-In demand![Python programming for teens, best coding institute in Cuttack](/images/python-teens.webp)
+In demand![Python programming for teens: best coding institute in Cuttack](/images/python-teens.webp)
 
 ### Python Programming
 
@@ -84,7 +84,7 @@ The world's most in-demand language and the friendliest on-ramp into real softwa
 - Automation & scripting
 - Real-world projects
 
-[View course](/courses/python-complete-masterclass-teens)Career![Java programming for teens, best coding class in Cuttack](/images/java-teens.webp)
+[View course](/courses/python-complete-masterclass-teens)Career![Java programming for teens: best coding class in Cuttack](/images/java-teens.webp)
 
 ### Java Programming
 
@@ -95,7 +95,7 @@ For board work and beyond: Java underpins CBSE and ICSE Computer Science (the Bl
 - Intro to Android app building
 - Board-aligned practice
 
-[View course](/courses/java-programming-masterclass-for-teens)Build![Web development for teens, programming classes in Cuttack](/images/web-dev-teens.webp)
+[View course](/courses/java-programming-masterclass-for-teens)Build![Web development for teens: programming classes in Cuttack](/images/web-dev-teens.webp)
 
 ### Full-Stack Web Development
 
@@ -106,7 +106,7 @@ Build complete, deployed websites with HTML, CSS, JavaScript and React, a skill 
 - Backend with Node.js
 - Live portfolio projects
 
-[View course](/courses/web-development-masterclass-teens)Future![AI and machine learning for teens, coding course in Cuttack](/images/ai-ml-teens.webp)
+[View course](/courses/web-development-masterclass-teens)Future![AI and machine learning for teens: coding course in Cuttack](/images/ai-ml-teens.webp)
 
 ### AI & Machine Learning
 
@@ -158,19 +158,19 @@ Python, machine learning and real data analysis for the analytics and AI roles m
 
 ## Mathematics classes in Cuttack
 
-![Elementary mathematics, maths classes in Cuttack](/images/elementary-maths.webp)
+![Elementary mathematics: maths classes in Cuttack](/images/elementary-maths.webp)
 
 ### Elementary Mathematics
 
 Rock-solid foundations in numbers, operations, fractions, geometry and word problems for grades 1–5, aligned to CBSE, ICSE and Odisha Board schools across Cuttack.
 
-[View course](/courses/elementary-mathematics-complete-masterclass)![High school mathematics, maths tuition in Cuttack](/images/high-school-maths.webp)
+[View course](/courses/elementary-mathematics-complete-masterclass)![High school mathematics: maths tuition in Cuttack](/images/high-school-maths.webp)
 
 ### High School Mathematics
 
 Algebra, geometry, trigonometry, pre-calculus and calculus for grades 9–12, board-aligned and built to give Cuttack's engineering and JEE aspirants a genuine head start.
 
-[View course](/courses/complete-high-school-mathematics-mastery)Olympiad![Olympiad mathematics, competition prep in Cuttack](/images/olympiad-competition-maths.webp)
+[View course](/courses/complete-high-school-mathematics-mastery)Olympiad![Olympiad mathematics: competition prep in Cuttack](/images/olympiad-competition-maths.webp)
 
 ### Olympiad & Competition Math
 
@@ -250,7 +250,7 @@ International families pay flat USD rates, the prices above update automatically
 
 Not screenshots of a syllabus, real, live projects from Modern Age Coders learners and labs. Click through and use them.
 
-[![Doodle Dash, 30-Second Drawing Challenge](/images/projects/doodledash.webp) GameDoodle Dash, 30-Second Drawing ChallengePick a difficulty, get a prompt, and you have exactly 30 seconds to draw it, then an AI judge scores how close you got. Three modes from easy objects to chaotic scenes. Shubh vibe-coded it idea-first, wiring real AI image grading into a fast, addictive drawing game. Built by Shubh · Vibe Coding, AI JudgeOpen the live project ↗](https://doodledashmaster.lovable.app)[![NutriLife, AI Nutrition Coach](/images/projects/nutrilife.webp) AI & MLNutriLife, AI Nutrition CoachSnap a photo of any meal and NutriLife instantly names every food, then breaks down the calories, macros, vitamins and minerals, powered by AI. Bhavya vibe-coded it from a single idea: shaped the app in prompts, then wired up the AI food-recognition, daily tracking and smart coaching by hand. Built by Bhavya · Vibe Coding, AI VisionOpen the live project ↗](https://nutrilife-bhavya.lovable.app)[![Baby, Typing Speed Challenge](/images/projects/baby.webp) GameBaby, Typing Speed ChallengeAn engaging typing speed challenge where users test how fast and accurately they can type, with a live leaderboard connected to a MongoDB backend. Built by Kritika · JavaScript, Node.jsOpen the live project ↗](https://baby.modernagecoders.com)[See more student projects →](/student-labs)
+[![Doodle Dash: 30-Second Drawing Challenge](/images/projects/doodledash.webp) GameDoodle Dash: 30-Second Drawing ChallengePick a difficulty, get a prompt, and you have exactly 30 seconds to draw it, then an AI judge scores how close you got. Three modes from easy objects to chaotic scenes. Shubh vibe-coded it idea-first, wiring real AI image grading into a fast, addictive drawing game. Built by Shubh · Vibe Coding, AI JudgeOpen the live project ↗](https://doodledashmaster.lovable.app)[![NutriLife: AI Nutrition Coach](/images/projects/nutrilife.webp) AI & MLNutriLife: AI Nutrition CoachSnap a photo of any meal and NutriLife instantly names every food, then breaks down the calories, macros, vitamins and minerals, powered by AI. Bhavya vibe-coded it from a single idea: shaped the app in prompts, then wired up the AI food-recognition, daily tracking and smart coaching by hand. Built by Bhavya · Vibe Coding, AI VisionOpen the live project ↗](https://nutrilife-bhavya.lovable.app)[![Baby: Typing Speed Challenge](/images/projects/baby.webp) GameBaby: Typing Speed ChallengeAn engaging typing speed challenge where users test how fast and accurately they can type, with a live leaderboard connected to a MongoDB backend. Built by Kritika · JavaScript, Node.jsOpen the live project ↗](https://baby.modernagecoders.com)[See more student projects →](/student-labs)
 
 ## What families say
 

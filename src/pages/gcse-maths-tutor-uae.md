@@ -187,15 +187,13 @@ An honest comparison
 
 ## How we differ from the alternatives.
 
- $1$150 (1:1)$2
-
 | What matters | Modern Age Coders | Tutoring centre | Revision apps |
 | --- | --- | --- | --- |
 | Diagnoses why marks are lost | Yes, every paper | Sometimes | No |
 | Knows your exact board | Yes | Varies | Generic |
 | One-to-one attention | Always | Often group | N/A |
 | Same tutor to the exam | Yes | Often rotates | N/A |
-| Monthly price | AED 1,000–2,500+ | AED 20–50 |
+| Monthly price | $150 (1:1) | AED 1,000–2,500+ | AED 20–50 |
 
 Apps help with practice once gaps are known; centres give attention at a premium and often in groups. We add live diagnosis and the maths fix that move a grade.
 
@@ -229,7 +227,7 @@ Yes, one tutor tracking the board, weak topics and mistakes to the exam.
 
 Do you use past papers?
 
-Yes, your board's papers and mark schemes, every lost mark reviewed as gap, method slip or timing.
+Yes. Your board's papers and mark schemes, every lost mark reviewed as gap, method slip or timing.
 
 What times are lessons available?
 
@@ -251,7 +249,7 @@ Real student projects
 
 Every one is a real, live project shipped by a Modern Age Coders student. Explore more in [Student Labs](/student-labs).
 
-[![Image Slider Website](/images/projects/slider.webp)ToolImage Slider WebsiteA visually appealing site with a smooth image carousel, auto or manual navigation, responsive layout and beautiful transition effects.by SomrajOpen the live project ↗](https://robo23middle-stack.github.io/scenes/)[![The Beautiful Mind](/images/projects/mindgame.webp)GameThe Beautiful MindA scientifically designed focus and brain-strength game with 15 progressive levels, testing attention, control and mental endurance with real-time progress tracking and leaderboards.by Modern Age CodersOpen the live project ↗](https://mind.modernagecoders.com)[![Misti, AI Chatbot for Maths & Coding](/images/projects/misti.webp)AI & MLMisti, AI Chatbot for Maths & CodingAn intelligent AI-powered chatbot that helps students solve maths and coding questions with deep, step-by-step explanations using advanced Python AI frameworks and LLM APIs.by HarshitOpen the live project ↗](https://misti.modernagecoders.com)
+[![Image Slider Website](/images/projects/slider.webp)ToolImage Slider WebsiteA visually appealing site with a smooth image carousel, auto or manual navigation, responsive layout and beautiful transition effects.by SomrajOpen the live project ↗](https://robo23middle-stack.github.io/scenes/)[![The Beautiful Mind](/images/projects/mindgame.webp)GameThe Beautiful MindA scientifically designed focus and brain-strength game with 15 progressive levels, testing attention, control and mental endurance with real-time progress tracking and leaderboards.by Modern Age CodersOpen the live project ↗](https://mind.modernagecoders.com)[![Misti: AI Chatbot for Maths & Coding](/images/projects/misti.webp)AI & MLMisti: AI Chatbot for Maths & CodingAn intelligent AI-powered chatbot that helps students solve maths and coding questions with deep, step-by-step explanations using advanced Python AI frameworks and LLM APIs.by HarshitOpen the live project ↗](https://misti.modernagecoders.com)
 
 ---
 

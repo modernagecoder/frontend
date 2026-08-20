@@ -82,7 +82,7 @@ Start here[**Build Your First Website**HTML & CSS, hands-on, for younger learner
 
 ### JavaScript: the page comes alive
 
-This is the first *real* programming language we teach, and we choose JavaScript on purpose.
+This is the first *real* programming language we teach. And we choose JavaScript on purpose.
 
 What you actually do
 
@@ -118,7 +118,7 @@ Python (deep)NumPyPandasMatplotlibSeabornscikit-learnPyTorchDatabasesAPIsBackend
 
 One class Python, one class backend, on purpose. That's how real knowledge sticks.
 
-The deep middle[**Python Masterclass, Zero to Advanced**Python in real depth, into data & AI.*View course →*](/courses/python-programming-masterclass-zero-to-advanced-college)[**Data Science Masterclass**NumPy, Pandas, visualisation & models.*View course →*](/courses/data-science-complete-masterclass-college)[**AI & Machine Learning**Neural networks, deep learning, real AI.*View course →*](/courses/ai-ml-masterclass-complete-college)[**Full-Stack & Backend**Servers, databases & APIs end-to-end.*View course →*](/courses/full-stack-web-development-masterclass-college)Data Structures & Algorithmsthe part that opens doors
+The deep middle[**Python Masterclass: Zero to Advanced**Python in real depth, into data & AI.*View course →*](/courses/python-programming-masterclass-zero-to-advanced-college)[**Data Science Masterclass**NumPy, Pandas, visualisation & models.*View course →*](/courses/data-science-complete-masterclass-college)[**AI & Machine Learning**Neural networks, deep learning, real AI.*View course →*](/courses/ai-ml-masterclass-complete-college)[**Full-Stack & Backend**Servers, databases & APIs end-to-end.*View course →*](/courses/full-stack-web-development-masterclass-college)Data Structures & Algorithmsthe part that opens doors
 
 ### DSA: the engine behind every job offer
 
@@ -312,7 +312,7 @@ Real student projects
 
 Every one is a real, live project shipped by a Modern Age Coders student. Explore more in [Student Labs](/student-labs).
 
-[![HugSelle, AI Smile Generator](/images/projects/hugselle.webp)AI & MLHugSelle, AI Smile GeneratorA heartwarming AI-powered web app that detects your mood and generates uplifting quotes and visuals to make you smile, a creative blend of technology and positivity.by AnuragOpen the live project ↗](https://hugselle.modernagecoders.com)[![Moxo, Company Landing Page](/images/projects/moxo.webp)Web AppMoxo, Company Landing PageA stunning modern landing page with smooth parallax scrolling, advanced GSAP animations and elegant section transitions that bring the brand to life.by IshaOpen the live project ↗](https://moxo.modernagecoders.com)[![Baby, Typing Speed Challenge](/images/projects/baby.webp)GameBaby, Typing Speed ChallengeAn engaging typing speed challenge where users test how fast and accurately they can type, with a live leaderboard connected to a MongoDB backend.by KritikaOpen the live project ↗](https://baby.modernagecoders.com)
+[![HugSelle: AI Smile Generator](/images/projects/hugselle.webp)AI & MLHugSelle: AI Smile GeneratorA heartwarming AI-powered web app that detects your mood and generates uplifting quotes and visuals to make you smile, a creative blend of technology and positivity.by AnuragOpen the live project ↗](https://hugselle.modernagecoders.com)[![Moxo: Company Landing Page](/images/projects/moxo.webp)Web AppMoxo: Company Landing PageA stunning modern landing page with smooth parallax scrolling, advanced GSAP animations and elegant section transitions that bring the brand to life.by IshaOpen the live project ↗](https://moxo.modernagecoders.com)[![Baby: Typing Speed Challenge](/images/projects/baby.webp)GameBaby: Typing Speed ChallengeAn engaging typing speed challenge where users test how fast and accurately they can type, with a live leaderboard connected to a MongoDB backend.by KritikaOpen the live project ↗](https://baby.modernagecoders.com)
 
 ---
 

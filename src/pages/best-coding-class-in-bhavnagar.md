@@ -36,7 +36,7 @@ Ages 8–12
 
 ## Coding for kids in Bhavnagar
 
-Most popular![Kids coding with Scratch, best coding class for kids in Bhavnagar](/images/kids-coding.webp)
+Most popular![Kids coding with Scratch: best coding class for kids in Bhavnagar](/images/kids-coding.webp)
 
 ### Kids Coding with Scratch
 
@@ -58,7 +58,7 @@ Children design and publish their own colourful web page with HTML & CSS, then s
 - Fun, real web projects
 - A personal portfolio page
 
-[View course](/courses/kids-ai-web-development-course)Next step![Python for kids, programming course in Bhavnagar](/images/python-kids.webp)
+[View course](/courses/kids-ai-web-development-course)Next step![Python for kids: programming course in Bhavnagar](/images/python-kids.webp)
 
 ### Python for Young Coders
 
@@ -73,7 +73,7 @@ The step up to real, typed code in the world's most-used language. Kids write Py
 
 ## Coding for teens in Bhavnagar
 
-In demand![Python programming for teens, best coding institute in Bhavnagar](/images/python-teens.webp)
+In demand![Python programming for teens: best coding institute in Bhavnagar](/images/python-teens.webp)
 
 ### Python Programming
 
@@ -84,7 +84,7 @@ The world's most-wanted language and the friendliest on-ramp for teens, a clear 
 - Automation & scripting
 - Real-world projects
 
-[View course](/courses/python-complete-masterclass-teens)Career![Java programming for teens, best coding class in Bhavnagar](/images/java-teens.webp)
+[View course](/courses/python-complete-masterclass-teens)Career![Java programming for teens: best coding class in Bhavnagar](/images/java-teens.webp)
 
 ### Java Programming
 
@@ -95,7 +95,7 @@ The language ICSE and ISC Computer Science is taught in (BlueJ), and a mainstay 
 - Intro to Android app building
 - Board-aligned practice
 
-[View course](/courses/java-programming-masterclass-for-teens)Build![Web development for teens, programming classes in Bhavnagar](/images/web-dev-teens.webp)
+[View course](/courses/java-programming-masterclass-for-teens)Build![Web development for teens: programming classes in Bhavnagar](/images/web-dev-teens.webp)
 
 ### Full-Stack Web Development
 
@@ -106,7 +106,7 @@ Build and deploy complete websites with HTML, CSS, JavaScript and React, a Bhavn
 - Backend with Node.js
 - Live portfolio projects
 
-[View course](/courses/web-development-masterclass-teens)Future![AI and machine learning for teens, coding course in Bhavnagar](/images/ai-ml-teens.webp)
+[View course](/courses/web-development-masterclass-teens)Future![AI and machine learning for teens: coding course in Bhavnagar](/images/ai-ml-teens.webp)
 
 ### AI & Machine Learning
 
@@ -158,19 +158,19 @@ Python, machine learning and hands-on data analysis for the AI and analytics rol
 
 ## Mathematics classes in Bhavnagar
 
-![Elementary mathematics, maths classes in Bhavnagar](/images/elementary-maths.webp)
+![Elementary mathematics: maths classes in Bhavnagar](/images/elementary-maths.webp)
 
 ### Elementary Mathematics
 
 Rock-solid foundations in numbers, operations, fractions, geometry and word problems for grades 1–5, aligned to Gujarat Board (GSEB), CBSE and ICSE schools across Bhavnagar.
 
-[View course](/courses/elementary-mathematics-complete-masterclass)![High school mathematics, maths tuition in Bhavnagar](/images/high-school-maths.webp)
+[View course](/courses/elementary-mathematics-complete-masterclass)![High school mathematics: maths tuition in Bhavnagar](/images/high-school-maths.webp)
 
 ### High School Mathematics
 
 Algebra, geometry, trigonometry, pre-calculus and calculus for grades 9–12, board-aligned and built to give Bhavnagar's JEE, GUJCET and NEET aspirants a genuine head start.
 
-[View course](/courses/complete-high-school-mathematics-mastery)Olympiad![Olympiad mathematics, competition prep in Bhavnagar](/images/olympiad-competition-maths.webp)
+[View course](/courses/complete-high-school-mathematics-mastery)Olympiad![Olympiad mathematics: competition prep in Bhavnagar](/images/olympiad-competition-maths.webp)
 
 ### Olympiad & Competition Math
 
@@ -250,7 +250,7 @@ International families pay flat USD rates, the prices above update automatically
 
 Not screenshots of a syllabus, real, live projects from Modern Age Coders learners and labs. Click through and use them.
 
-[![Image Slider Website](/images/projects/slider.webp) ToolImage Slider WebsiteA visually appealing site with a smooth image carousel, auto or manual navigation, responsive layout and beautiful transition effects. Built by Somraj · HTML, CSSOpen the live project ↗](https://robo23middle-stack.github.io/scenes/)[![BookDesk, AI Book Summaries & Quizzes](/images/projects/bookdesk.webp) AI & MLBookDesk, AI Book Summaries & QuizzesType in any book name and author, and BookDesk pulls together the book's details, a clear summary and a custom quiz to test what you've learned, a genuinely useful study companion. Anika built it as a full-stack AI application, powered by Google Gemini with a live database behind it. Built by Anika · Gemini AI, Full-StackOpen the live project ↗](https://bookdesk1.netlify.app)[![MyDay, Social Productivity Organizer](/images/projects/myday.webp) Web AppMyDay, Social Productivity OrganizerA beautifully designed productivity platform to organise daily tasks, set goals and stay consistent, with a community feed of others' plans for inspiration. Built by Vedant · JavaScript, Node.jsOpen the live project ↗](https://myday.modernagecoders.com)[See more student projects →](/student-labs)
+[![Image Slider Website](/images/projects/slider.webp) ToolImage Slider WebsiteA visually appealing site with a smooth image carousel, auto or manual navigation, responsive layout and beautiful transition effects. Built by Somraj · HTML, CSSOpen the live project ↗](https://robo23middle-stack.github.io/scenes/)[![BookDesk: AI Book Summaries & Quizzes](/images/projects/bookdesk.webp) AI & MLBookDesk: AI Book Summaries & QuizzesType in any book name and author, and BookDesk pulls together the book's details, a clear summary and a custom quiz to test what you've learned, a genuinely useful study companion. Anika built it as a full-stack AI application, powered by Google Gemini with a live database behind it. Built by Anika · Gemini AI, Full-StackOpen the live project ↗](https://bookdesk1.netlify.app)[![MyDay: Social Productivity Organizer](/images/projects/myday.webp) Web AppMyDay: Social Productivity OrganizerA beautifully designed productivity platform to organise daily tasks, set goals and stay consistent, with a community feed of others' plans for inspiration. Built by Vedant · JavaScript, Node.jsOpen the live project ↗](https://myday.modernagecoders.com)[See more student projects →](/student-labs)
 
 ## What families say
 

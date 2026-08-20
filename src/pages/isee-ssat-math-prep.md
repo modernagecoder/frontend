@@ -279,11 +279,9 @@ An honest comparison
 
 ## Your real options for ISEE or SSAT prep.
 
- $1$100–$150 / month$2
-
 | Option | Typical cost | What it really is | Best for |
 | --- | --- | --- | --- |
-| Modern Age Coders | 8 live one-hour classes with a dedicated math mentor: number sense, strategy and real timed practice | Building the reasoning the tests measure, with honest timelines |
+| Modern Age Coders | $100–$150 / month | 8 live one-hour classes with a dedicated math mentor: number sense, strategy and real timed practice | Building the reasoning the tests measure, with honest timelines |
 | Big test-prep companies | $1,000-$3,000+ / package | Fixed-length packages, often rotating instructors, strategy-heavy and math-depth-light | Families who want a bundled all-subjects package and can absorb the price |
 | Private admissions tutor | $80-$250 / hour | Quality varies enormously; twice weekly runs $640-$2,000 a month | Short final-stretch polish when you have found a proven specialist |
 | Prep books + practice tests | $30-$80 one-time | Good question banks, zero teaching; a child who computes everything just practices computing everything faster | Motivated older students who already own the reasoning habits |

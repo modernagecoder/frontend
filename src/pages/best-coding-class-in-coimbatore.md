@@ -230,7 +230,7 @@ International families pay flat USD rates, the prices above update automatically
 
 Not screenshots of a syllabus, real, live projects from Modern Age Coders learners and labs. Click through and use them.
 
-[![HairSync, AI Hairstyle Try-On](/images/projects/hairsync.webp) AI & MLHairSync, AI Hairstyle Try-OnUpload a clear photo and try on any hairstyle before you commit, wolf cuts, curtain bangs, fades, braids and dozens of trending looks, rendered onto your own face by AI in seconds. Kriti vibe-coded this virtual try-on studio from a single idea into a working app. Built by Kriti · Vibe Coding, AI ImageOpen the live project ↗](https://hairsync.lovable.app)[![Doodle Dash, 30-Second Drawing Challenge](/images/projects/doodledash.webp) GameDoodle Dash, 30-Second Drawing ChallengePick a difficulty, get a prompt, and you have exactly 30 seconds to draw it, then an AI judge scores how close you got. Three modes from easy objects to chaotic scenes. Shubh vibe-coded it idea-first, wiring real AI image grading into a fast, addictive drawing game. Built by Shubh · Vibe Coding, AI JudgeOpen the live project ↗](https://doodledashmaster.lovable.app)[![Simon Game](/images/projects/simongame.webp) GameSimon GameA fun memory-based game where players repeat colour and sound sequences. Each level adds a new challenge, brain-boosting for kids learning logic and focus. Built by Yashaswi · HTML, CSSOpen the live project ↗](http://yashaswi-2017.my.canva.site)[See more student projects →](/student-labs)
+[![HairSync: AI Hairstyle Try-On](/images/projects/hairsync.webp) AI & MLHairSync: AI Hairstyle Try-OnUpload a clear photo and try on any hairstyle before you commit, wolf cuts, curtain bangs, fades, braids and dozens of trending looks, rendered onto your own face by AI in seconds. Kriti vibe-coded this virtual try-on studio from a single idea into a working app. Built by Kriti · Vibe Coding, AI ImageOpen the live project ↗](https://hairsync.lovable.app)[![Doodle Dash: 30-Second Drawing Challenge](/images/projects/doodledash.webp) GameDoodle Dash: 30-Second Drawing ChallengePick a difficulty, get a prompt, and you have exactly 30 seconds to draw it, then an AI judge scores how close you got. Three modes from easy objects to chaotic scenes. Shubh vibe-coded it idea-first, wiring real AI image grading into a fast, addictive drawing game. Built by Shubh · Vibe Coding, AI JudgeOpen the live project ↗](https://doodledashmaster.lovable.app)[![Simon Game](/images/projects/simongame.webp) GameSimon GameA fun memory-based game where players repeat colour and sound sequences. Each level adds a new challenge, brain-boosting for kids learning logic and focus. Built by Yashaswi · HTML, CSSOpen the live project ↗](http://yashaswi-2017.my.canva.site)[See more student projects →](/student-labs)
 
 ## What families say
 
@@ -240,7 +240,7 @@ Verified Google reviews from Modern Age Coders families across India. We don't i
 
 "Very good classes."
 
-Don't worry about coding, they teach the best, especially Shivam sir.
+Don't worry about coding. They teach the best, especially Shivam sir.
 
 SWShaarav WadhwaStudent★★★★★
 

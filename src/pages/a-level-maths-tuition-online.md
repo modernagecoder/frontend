@@ -179,15 +179,13 @@ An honest comparison
 
 ## How we differ from the alternatives.
 
- $1$150 (1:1) / $100 (group)$2
-
 | What matters | Modern Age Coders | Revision videos | A typical tutor |
 | --- | --- | --- | --- |
 | Rebuilds the fluency gap | Yes | No | Sometimes |
 | Teaches unseen problem-solving | Yes | Rarely | Varies |
 | Covers pure, mechanics & stats | All three | Usually pure | Varies |
 | Same tutor to the exam | Yes | N/A | Often |
-| Monthly price | Free–£20 | £35–60/hr |
+| Monthly price | $150 (1:1) / $100 (group) | Free–£20 | £35–60/hr |
 
 Revision videos are a useful supplement. They can't watch you attempt an unseen question and coach the reasoning in real time, which is what moves an A-Level grade.
 
@@ -229,7 +227,7 @@ Yes, all three. We make the applied content as solid as the pure.
 
 Do you prepare for STEP, MAT or university maths?
 
-Yes, STEP and MAT-style problem solving alongside A-Level. See our [college and sixth-form](/online-maths-tuition-for-college-students-in-uk) page.
+Yes: STEP and MAT-style problem solving alongside A-Level. See our [college and sixth-form](/online-maths-tuition-for-college-students-in-uk) page.
 
 Are lessons live?
 

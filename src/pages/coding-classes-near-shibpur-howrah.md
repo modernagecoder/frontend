@@ -166,11 +166,11 @@ Most Howrah schools dismiss between 1:30 PM and 4:00 PM, so our slots sit in the
 
 | Slot | Time | Best for | Days |
 | --- | --- | --- | --- |
-| After-School Junior | 4:30: 5:30 PM | Kids ages 6–12 (Scratch, web basics) | Mon & Wed / Tue & Thu |
-| Early Evening Teens | 5:30, 6:30 PM | Teens (Python, Java, ICSE/CBSE prep) | Mon & Wed / Tue & Thu |
-| Prime Evening | 6:30: 7:30 PM | Teens & board candidates (most-requested) | Tue & Thu / Mon & Wed |
-| Late Evening | 7:30, 8:30 PM | Working-hour families, AI/ML, college DSA | Wed & Fri |
-| Weekend Intensive | 10:00: 11:30 AM | Board exam prep, Olympiad maths, camps | Sat & Sun |
+| After-School Junior | 4:30 – 5:30 PM | Kids ages 6–12 (Scratch, web basics) | Mon & Wed / Tue & Thu |
+| Early Evening Teens | 5:30 – 6:30 PM | Teens (Python, Java, ICSE/CBSE prep) | Mon & Wed / Tue & Thu |
+| Prime Evening | 6:30 – 7:30 PM | Teens & board candidates (most-requested) | Tue & Thu / Mon & Wed |
+| Late Evening | 7:30 – 8:30 PM | Working-hour families, AI/ML, college DSA | Wed & Fri |
+| Weekend Intensive | 10:00 – 11:30 AM | Board exam prep, Olympiad maths, camps | Sat & Sun |
 | Flexible 1-on-1 | By arrangement | Personalised pace, clashing school timetables | Chosen with you |
 
 Live Online · Shibpur, Howrah
@@ -280,7 +280,7 @@ REAL STUDENT PROJECTS
 
 ## What our students actually build
 
-[![Image Slider Website](/images/projects/slider.webp)ToolImage Slider WebsiteA visually appealing site with a smooth image carousel, auto or manual navigation, responsive layout and beautiful transition effects.by SomrajOpen the live project ↗](https://robo23middle-stack.github.io/scenes/)[![The Beautiful Mind](/images/projects/mindgame.webp)GameThe Beautiful MindA scientifically designed focus and brain-strength game with 15 progressive levels, testing attention, control and mental endurance with real-time progress tracking and leaderboards.by Modern Age CodersOpen the live project ↗](https://mind.modernagecoders.com)[![Misti, AI Chatbot for Maths & Coding](/images/projects/misti.webp)AI & MLMisti, AI Chatbot for Maths & CodingAn intelligent AI-powered chatbot that helps students solve maths and coding questions with deep, step-by-step explanations using advanced Python AI frameworks and LLM APIs.by HarshitOpen the live project ↗](https://misti.modernagecoders.com)
+[![Image Slider Website](/images/projects/slider.webp)ToolImage Slider WebsiteA visually appealing site with a smooth image carousel, auto or manual navigation, responsive layout and beautiful transition effects.by SomrajOpen the live project ↗](https://robo23middle-stack.github.io/scenes/)[![The Beautiful Mind](/images/projects/mindgame.webp)GameThe Beautiful MindA scientifically designed focus and brain-strength game with 15 progressive levels, testing attention, control and mental endurance with real-time progress tracking and leaderboards.by Modern Age CodersOpen the live project ↗](https://mind.modernagecoders.com)[![Misti: AI Chatbot for Maths & Coding](/images/projects/misti.webp)AI & MLMisti: AI Chatbot for Maths & CodingAn intelligent AI-powered chatbot that helps students solve maths and coding questions with deep, step-by-step explanations using advanced Python AI frameworks and LLM APIs.by HarshitOpen the live project ↗](https://misti.modernagecoders.com)
 
 Every one is a real, live project by a student. See more in [Student Labs](/student-labs).
 

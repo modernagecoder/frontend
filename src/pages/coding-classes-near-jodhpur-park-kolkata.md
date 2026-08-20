@@ -153,11 +153,11 @@ Weekly schedule
 
 | Slot | Time | Best for | Days |
 | --- | --- | --- | --- |
-| Early evening | 4:30, 5:30 PM | Kids (ages 6–12), primary school | Mon / Wed / Fri |
-| Prime evening | 6:00, 7:00 PM | Teens, ICSE/CBSE Class 8–10 coding | Tue / Thu / Sat |
-| Late evening | 7:30, 8:30 PM | Class 11–12 board CS & senior teens | Mon / Wed / Fri |
-| Night slot | 8:30, 9:30 PM | College students & working professionals | Sat / Sun |
-| Weekend morning | 10:00: 11:00 AM | Maths tuition & Olympiad prep | Sat / Sun |
+| Early evening | 4:30 – 5:30 PM | Kids (ages 6–12), primary school | Mon / Wed / Fri |
+| Prime evening | 6:00 – 7:00 PM | Teens, ICSE/CBSE Class 8–10 coding | Tue / Thu / Sat |
+| Late evening | 7:30 – 8:30 PM | Class 11–12 board CS & senior teens | Mon / Wed / Fri |
+| Night slot | 8:30 – 9:30 PM | College students & working professionals | Sat / Sun |
+| Weekend morning | 10:00 – 11:00 AM | Maths tuition & Olympiad prep | Sat / Sun |
 | Flexible 1-on-1 | By arrangement | Personalised pace, any board or goal | Any 2–3 days/week |
 
 Online vs offline
@@ -263,7 +263,7 @@ REAL STUDENT PROJECTS
 
 ## What our students actually build
 
-[![FreshTrack, Food Expiry Tracker](/images/projects/fresh.webp)Web AppFreshTrack, Food Expiry TrackerA smart food-management system to track expiry dates, add, update and delete items while the app checks expiry automatically, online and offline.by TanishOpen the live project ↗](https://freshtrackpro.netlify.app/)[![Pracy, Coding Practice & Quiz Platform](/images/projects/pracy.webp)Web AppPracy, Coding Practice & Quiz PlatformAn all-in-one coding-practice site with interactive challenges, quizzes and score tracking across multiple languages to strengthen logic and problem-solving.by RohanOpen the live project ↗](https://astounding-flan-f18e08.netlify.app/)[![Word Counter Website](/images/projects/wordcounter.webp)ToolWord Counter WebsiteA simple yet powerful tool that counts words, sentences and paragraphs from user input with instant, real-time results and a clean responsive interface.by VanshOpen the live project ↗](https://vanshagarwalwordcounter-sys.github.io/WordCounter/)
+[![FreshTrack: Food Expiry Tracker](/images/projects/fresh.webp)Web AppFreshTrack: Food Expiry TrackerA smart food-management system to track expiry dates, add, update and delete items while the app checks expiry automatically, online and offline.by TanishOpen the live project ↗](https://freshtrackpro.netlify.app/)[![Pracy: Coding Practice & Quiz Platform](/images/projects/pracy.webp)Web AppPracy: Coding Practice & Quiz PlatformAn all-in-one coding-practice site with interactive challenges, quizzes and score tracking across multiple languages to strengthen logic and problem-solving.by RohanOpen the live project ↗](https://astounding-flan-f18e08.netlify.app/)[![Word Counter Website](/images/projects/wordcounter.webp)ToolWord Counter WebsiteA simple yet powerful tool that counts words, sentences and paragraphs from user input with instant, real-time results and a clean responsive interface.by VanshOpen the live project ↗](https://vanshagarwalwordcounter-sys.github.io/WordCounter/)
 
 Every one is a real, live project by a student. See more in [Student Labs](/student-labs).
 

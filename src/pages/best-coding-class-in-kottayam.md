@@ -36,7 +36,7 @@ Ages 8–12
 
 ## Coding for kids in Kottayam
 
-Most popular![Kids coding with Scratch, best coding class for kids in Kottayam](/images/kids-coding.webp)
+Most popular![Kids coding with Scratch: best coding class for kids in Kottayam](/images/kids-coding.webp)
 
 ### Kids Coding with Scratch
 
@@ -58,7 +58,7 @@ Kids build their very first colourful website with HTML & CSS, then share the li
 - Fun, real web projects
 - A personal portfolio page
 
-[View course](/courses/kids-ai-web-development-course)Next step![Python for kids, programming course in Kottayam](/images/python-kids.webp)
+[View course](/courses/kids-ai-web-development-course)Next step![Python for kids: programming course in Kottayam](/images/python-kids.webp)
 
 ### Python for Young Coders
 
@@ -73,7 +73,7 @@ The jump to real, typed code, in the world's most popular language. Kids write P
 
 ## Coding for teens in Kottayam
 
-In demand![Python programming for teens, best coding institute in Kottayam](/images/python-teens.webp)
+In demand![Python programming for teens: best coding institute in Kottayam](/images/python-teens.webp)
 
 ### Python Programming
 
@@ -84,7 +84,7 @@ The most in-demand language in the world, and across Kerala's growing IT scene. 
 - Automation & scripting
 - Real-world projects
 
-[View course](/courses/python-complete-masterclass-teens)Career![Java programming for teens, best coding class in Kottayam](/images/java-teens.webp)
+[View course](/courses/python-complete-masterclass-teens)Career![Java programming for teens: best coding class in Kottayam](/images/java-teens.webp)
 
 ### Java Programming
 
@@ -95,7 +95,7 @@ Java is the backbone of CBSE/ICSE Computer Science and the enterprise stacks at 
 - Intro to Android app building
 - Board-aligned practice
 
-[View course](/courses/java-programming-masterclass-for-teens)Build![Web development for teens, programming classes in Kottayam](/images/web-dev-teens.webp)
+[View course](/courses/java-programming-masterclass-for-teens)Build![Web development for teens: programming classes in Kottayam](/images/web-dev-teens.webp)
 
 ### Full-Stack Web Development
 
@@ -106,7 +106,7 @@ Build complete, deployed websites from scratch with HTML, CSS, JavaScript and Re
 - Backend with Node.js
 - Live portfolio projects
 
-[View course](/courses/web-development-masterclass-teens)Future![AI and machine learning for teens, coding course in Kottayam](/images/ai-ml-teens.webp)
+[View course](/courses/web-development-masterclass-teens)Future![AI and machine learning for teens: coding course in Kottayam](/images/ai-ml-teens.webp)
 
 ### AI & Machine Learning
 
@@ -158,19 +158,19 @@ Python, machine learning and real data analysis, built for the analytics and AI 
 
 ## Mathematics classes in Kottayam
 
-![Elementary mathematics, maths classes in Kottayam](/images/elementary-maths.webp)
+![Elementary mathematics: maths classes in Kottayam](/images/elementary-maths.webp)
 
 ### Elementary Mathematics
 
 Rock-solid foundations in numbers, operations, fractions, geometry and word problems for grades 1–5, aligned to CBSE, ICSE & Kerala-board schools across Kottayam.
 
-[View course](/courses/elementary-mathematics-complete-masterclass)![High school mathematics, maths tuition in Kottayam](/images/high-school-maths.webp)
+[View course](/courses/elementary-mathematics-complete-masterclass)![High school mathematics: maths tuition in Kottayam](/images/high-school-maths.webp)
 
 ### High School Mathematics
 
 Algebra, geometry, trigonometry, pre-calculus and calculus for grades 9–12, board-aligned and built to give Kottayam's KEAM, JEE and NEET aspirants a genuine head start.
 
-[View course](/courses/complete-high-school-mathematics-mastery)Olympiad![Olympiad mathematics, competition prep in Kottayam](/images/olympiad-competition-maths.webp)
+[View course](/courses/complete-high-school-mathematics-mastery)Olympiad![Olympiad mathematics: competition prep in Kottayam](/images/olympiad-competition-maths.webp)
 
 ### Olympiad & Competition Math
 
@@ -250,7 +250,7 @@ International families pay flat USD rates, the prices above update automatically
 
 Not screenshots of a syllabus, real, live projects from Modern Age Coders learners and labs. Click through and use them.
 
-[![LumenFX, AR/VR Photo Effects Studio](/images/projects/lumenfx.webp) Web AppLumenFX, AR/VR Photo Effects StudioUpload a photo and transform it with cinematic filters, AR face effects and the wildest trending edits, the same looks blowing up on TikTok, Reels and Snap, with 240+ one-tap presets. Raayan vibe-coded the whole studio from an idea: prompted the concept, then built the effects engine and gallery UI by hand. Built by Raayan · Vibe Coding, AR / VROpen the live project ↗](https://arvrbadestweb.lovable.app)[![Doodle Dash, 30-Second Drawing Challenge](/images/projects/doodledash.webp) GameDoodle Dash, 30-Second Drawing ChallengePick a difficulty, get a prompt, and you have exactly 30 seconds to draw it, then an AI judge scores how close you got. Three modes from easy objects to chaotic scenes. Shubh vibe-coded it idea-first, wiring real AI image grading into a fast, addictive drawing game. Built by Shubh · Vibe Coding, AI JudgeOpen the live project ↗](https://doodledashmaster.lovable.app)[![HairSync, AI Hairstyle Try-On](/images/projects/hairsync.webp) AI & MLHairSync, AI Hairstyle Try-OnUpload a clear photo and try on any hairstyle before you commit, wolf cuts, curtain bangs, fades, braids and dozens of trending looks, rendered onto your own face by AI in seconds. Kriti vibe-coded this virtual try-on studio from a single idea into a working app. Built by Kriti · Vibe Coding, AI ImageOpen the live project ↗](https://hairsync.lovable.app)[See more student projects →](/student-labs)
+[![LumenFX: AR/VR Photo Effects Studio](/images/projects/lumenfx.webp) Web AppLumenFX: AR/VR Photo Effects StudioUpload a photo and transform it with cinematic filters, AR face effects and the wildest trending edits, the same looks blowing up on TikTok, Reels and Snap, with 240+ one-tap presets. Raayan vibe-coded the whole studio from an idea: prompted the concept, then built the effects engine and gallery UI by hand. Built by Raayan · Vibe Coding, AR / VROpen the live project ↗](https://arvrbadestweb.lovable.app)[![Doodle Dash: 30-Second Drawing Challenge](/images/projects/doodledash.webp) GameDoodle Dash: 30-Second Drawing ChallengePick a difficulty, get a prompt, and you have exactly 30 seconds to draw it, then an AI judge scores how close you got. Three modes from easy objects to chaotic scenes. Shubh vibe-coded it idea-first, wiring real AI image grading into a fast, addictive drawing game. Built by Shubh · Vibe Coding, AI JudgeOpen the live project ↗](https://doodledashmaster.lovable.app)[![HairSync: AI Hairstyle Try-On](/images/projects/hairsync.webp) AI & MLHairSync: AI Hairstyle Try-OnUpload a clear photo and try on any hairstyle before you commit, wolf cuts, curtain bangs, fades, braids and dozens of trending looks, rendered onto your own face by AI in seconds. Kriti vibe-coded this virtual try-on studio from a single idea into a working app. Built by Kriti · Vibe Coding, AI ImageOpen the live project ↗](https://hairsync.lovable.app)[See more student projects →](/student-labs)
 
 ## What families say
 

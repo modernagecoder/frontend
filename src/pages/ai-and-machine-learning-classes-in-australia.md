@@ -340,7 +340,7 @@ Data and forecasting
 
 A weather application running on live data feeds, the closest relative of the rooftop solar work above.
 
-by Krish · [Open the live project](https://krish-shroff.github.io/AuraWeatherTech/)
+by Krish
 
 Fees
 
@@ -484,6 +484,8 @@ Start here
 Leave a number and a mentor rings back at an hour that makes sense where you live, in your own zone rather than ours. That opening session is taught rather than sold: a teacher works through real material and finishes with a view on the level the student should start at, which is often not the level a parent expected.
 
 Prefer to look around first? Read [how we teach](/how-we-teach), browse the [full course catalogue](/courses), or see what students have built in [Student Labs](/student-labs).
+
+[Chat with us](https://wa.me/919123366161?text=Hi%2C%20I'm%20interested%20in%20learning%20more%20about%20your%20courses!)
 
 ---
 

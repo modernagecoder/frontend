@@ -152,10 +152,10 @@ Weekly schedule
 
 | Slot | Time | Best for | Days |
 | --- | --- | --- | --- |
-| After-school | 4:00 PM, 6:00 PM | Kids and school students | Mon–Fri |
-| Early evening | 6:00 PM, 8:00 PM | Teens; working parents back from Sector V | Mon–Fri |
-| Late evening | 8:00 PM, 9:30 PM | College students and working adults | Mon–Fri |
-| Weekend morning | 10:00 AM, 1:00 PM | Camps, Olympiad maths, intensive tracks | Sat–Sun |
+| After-school | 4:00 PM – 6:00 PM | Kids and school students | Mon–Fri |
+| Early evening | 6:00 PM – 8:00 PM | Teens; working parents back from Sector V | Mon–Fri |
+| Late evening | 8:00 PM – 9:30 PM | College students and working adults | Mon–Fri |
+| Weekend morning | 10:00 AM – 1:00 PM | Camps, Olympiad maths, intensive tracks | Sat–Sun |
 | Weekend flexi | By arrangement | 1-on-1 and mini batches | Sat–Sun |
 
 Timings are flexible. Tell us your child's school hours and AMRI/Sector V commute, and we will fit the batch around them.
@@ -267,7 +267,7 @@ REAL STUDENT PROJECTS
 
 ## What our students actually build
 
-[![Baby, Typing Speed Challenge](/images/projects/baby.webp)GameBaby, Typing Speed ChallengeAn engaging typing speed challenge where users test how fast and accurately they can type, with a live leaderboard connected to a MongoDB backend.by KritikaOpen the live project ↗](https://baby.modernagecoders.com)[![MyDay, Social Productivity Organizer](/images/projects/myday.webp)Web AppMyDay, Social Productivity OrganizerA beautifully designed productivity platform to organise daily tasks, set goals and stay consistent, with a community feed of others' plans for inspiration.by VedantOpen the live project ↗](https://myday.modernagecoders.com)[![FreshTrack, Food Expiry Tracker](/images/projects/fresh.webp)Web AppFreshTrack, Food Expiry TrackerA smart food-management system to track expiry dates, add, update and delete items while the app checks expiry automatically, online and offline.by TanishOpen the live project ↗](https://freshtrackpro.netlify.app/)
+[![Baby: Typing Speed Challenge](/images/projects/baby.webp)GameBaby: Typing Speed ChallengeAn engaging typing speed challenge where users test how fast and accurately they can type, with a live leaderboard connected to a MongoDB backend.by KritikaOpen the live project ↗](https://baby.modernagecoders.com)[![MyDay: Social Productivity Organizer](/images/projects/myday.webp)Web AppMyDay: Social Productivity OrganizerA beautifully designed productivity platform to organise daily tasks, set goals and stay consistent, with a community feed of others' plans for inspiration.by VedantOpen the live project ↗](https://myday.modernagecoders.com)[![FreshTrack: Food Expiry Tracker](/images/projects/fresh.webp)Web AppFreshTrack: Food Expiry TrackerA smart food-management system to track expiry dates, add, update and delete items while the app checks expiry automatically, online and offline.by TanishOpen the live project ↗](https://freshtrackpro.netlify.app/)
 
 Every one is a real, live project by a student. See more in [Student Labs](/student-labs).
 

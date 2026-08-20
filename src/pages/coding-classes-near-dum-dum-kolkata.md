@@ -154,11 +154,11 @@ WEEKLY SCHEDULE
 
 | Slot | Time | Best for | Days |
 | --- | --- | --- | --- |
-| After-School Early | 4:00 PM, 5:00 PM | Kids 6–12 (Scratch, Python basics) | Mon–Fri |
-| Evening Prime | 6:00 PM, 7:00 PM | School students straight after school, no travel | Mon–Fri |
-| Late Evening | 7:30 PM: 8:30 PM | Teens, board CS, working parents observing | Mon–Sat |
-| Weekend Morning | 10:00 AM, 12:00 PM | College DSA, AI/ML, intensive maths | Sat–Sun |
-| Weekend Flexi | 5:00 PM, 6:30 PM | Camps, 1-on-1 and catch-up sessions | Sat–Sun |
+| After-School Early | 4:00 PM – 5:00 PM | Kids 6–12 (Scratch, Python basics) | Mon–Fri |
+| Evening Prime | 6:00 PM – 7:00 PM | School students straight after school, no travel | Mon–Fri |
+| Late Evening | 7:30 PM – 8:30 PM | Teens, board CS, working parents observing | Mon–Sat |
+| Weekend Morning | 10:00 AM – 12:00 PM | College DSA, AI/ML, intensive maths | Sat–Sun |
+| Weekend Flexi | 5:00 PM – 6:30 PM | Camps, 1-on-1 and catch-up sessions | Sat–Sun |
 
 ONLINE vs OFFLINE
 
@@ -263,7 +263,7 @@ REAL STUDENT PROJECTS
 
 ## What our students actually build
 
-[![NutriLife, AI Nutrition Coach](/images/projects/nutrilife.webp)AI & MLNutriLife, AI Nutrition CoachSnap a photo of any meal and NutriLife instantly names every food, then breaks down the calories, macros, vitamins and minerals, powered by AI. Bhavya vibe-coded it from a single idea: shaped the app in prompts, then wired up the AI food-recognition, daily tracking and smart coaching by hand.by BhavyaOpen the live project ↗](https://nutrilife-bhavya.lovable.app)[![GuardianX, AI Bodyguard for the Internet](/images/projects/guardianx.webp)AI & MLGuardianX, AI Bodyguard for the InternetPaste any suspicious link or message and GuardianX returns an instant AI verdict before you become a victim, plus a link scanner, safety score, breach check and live scam alerts built for India. Vibe-coded from idea to working product through prompts, then refined until it genuinely understands how phishing and scams work.by VivaanOpen the live project ↗](https://guardianx-cybersaver.lovable.app)[![Palm Arcana, Summon the Elements](/images/projects/superpawer.webp)GamePalm Arcana, Summon the ElementsOpen your palms to the webcam and computer vision turns your gestures into real magic, the left palm throws a fireball, the right crackles with lightning. A wild blend of hand-tracking AI, creative coding and pure imagination, vibe-coded into a playable browser experience.by AarushOpen the live project ↗](https://superpawer.netlify.app)
+[![NutriLife: AI Nutrition Coach](/images/projects/nutrilife.webp)AI & MLNutriLife: AI Nutrition CoachSnap a photo of any meal and NutriLife instantly names every food, then breaks down the calories, macros, vitamins and minerals, powered by AI. Bhavya vibe-coded it from a single idea: shaped the app in prompts, then wired up the AI food-recognition, daily tracking and smart coaching by hand.by BhavyaOpen the live project ↗](https://nutrilife-bhavya.lovable.app)[![GuardianX: AI Bodyguard for the Internet](/images/projects/guardianx.webp)AI & MLGuardianX: AI Bodyguard for the InternetPaste any suspicious link or message and GuardianX returns an instant AI verdict before you become a victim, plus a link scanner, safety score, breach check and live scam alerts built for India. Vibe-coded from idea to working product through prompts, then refined until it genuinely understands how phishing and scams work.by VivaanOpen the live project ↗](https://guardianx-cybersaver.lovable.app)[![Palm Arcana: Summon the Elements](/images/projects/superpawer.webp)GamePalm Arcana: Summon the ElementsOpen your palms to the webcam and computer vision turns your gestures into real magic, the left palm throws a fireball, the right crackles with lightning. A wild blend of hand-tracking AI, creative coding and pure imagination, vibe-coded into a playable browser experience.by AarushOpen the live project ↗](https://superpawer.netlify.app)
 
 Every one is a real, live project by a student. See more in [Student Labs](/student-labs).
 

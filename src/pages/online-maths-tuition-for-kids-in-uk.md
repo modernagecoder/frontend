@@ -179,15 +179,13 @@ An honest comparison
 
 ## How we differ from the alternatives.
 
- $1$150 (1:1) / $100 (group)$2
-
 | What matters | Modern Age Coders | Maths apps | A typical tutor |
 | --- | --- | --- | --- |
 | Teaches the reasoning | Always, it's the point | Rarely, rewards taps | Sometimes |
 | Notices quiet confusion | Yes, live, 1:1 | No | Usually |
 | Same tutor each time | Yes, throughout | N/A | Often, varies |
 | Parent updates | After every lesson | Score charts | Varies |
-| Monthly price | £5–10 | £25–45/hr |
+| Monthly price | $150 (1:1) / $100 (group) | £5–10 | £25–45/hr |
 
 Apps are inexpensive and fine for drill. A local in-person tutor is excellent and adds up quickly per hour. We sit in between, with the live attention an app can't give.
 

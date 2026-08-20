@@ -185,15 +185,13 @@ An honest comparison
 
 ## How we differ from the alternatives.
 
- $1$150 (1:1)$2
-
 | What matters | Modern Age Coders | General tutor | Revision videos |
 | --- | --- | --- | --- |
 | Knows AA/AI & the IB system | Yes, deeply | Not always | Generic |
 | Supports the IA exploration | Yes, properly | Rarely | No |
 | Teaches understanding | Always | Varies | Sometimes |
 | Coaches GDC & papers | Yes | Varies | Limited |
-| Monthly price | AED 1,500–4,000+ | Free–AED 150 |
+| Monthly price | $150 (1:1) | AED 1,500–4,000+ | Free–AED 150 |
 
 A general tutor may not know the IB's specific demands; videos can't guide an IA. We combine deep IB knowledge with one-to-one teaching, online, at sensible value.
 
@@ -249,7 +247,7 @@ Real student projects
 
 Every one is a real, live project shipped by a Modern Age Coders student. Explore more in [Student Labs](/student-labs).
 
-[![FreshTrack, Food Expiry Tracker](/images/projects/fresh.webp)Web AppFreshTrack, Food Expiry TrackerA smart food-management system to track expiry dates, add, update and delete items while the app checks expiry automatically, online and offline.by TanishOpen the live project ↗](https://freshtrackpro.netlify.app/)[![Pracy, Coding Practice & Quiz Platform](/images/projects/pracy.webp)Web AppPracy, Coding Practice & Quiz PlatformAn all-in-one coding-practice site with interactive challenges, quizzes and score tracking across multiple languages to strengthen logic and problem-solving.by RohanOpen the live project ↗](https://astounding-flan-f18e08.netlify.app/)[![Word Counter Website](/images/projects/wordcounter.webp)ToolWord Counter WebsiteA simple yet powerful tool that counts words, sentences and paragraphs from user input with instant, real-time results and a clean responsive interface.by VanshOpen the live project ↗](https://vanshagarwalwordcounter-sys.github.io/WordCounter/)
+[![FreshTrack: Food Expiry Tracker](/images/projects/fresh.webp)Web AppFreshTrack: Food Expiry TrackerA smart food-management system to track expiry dates, add, update and delete items while the app checks expiry automatically, online and offline.by TanishOpen the live project ↗](https://freshtrackpro.netlify.app/)[![Pracy: Coding Practice & Quiz Platform](/images/projects/pracy.webp)Web AppPracy: Coding Practice & Quiz PlatformAn all-in-one coding-practice site with interactive challenges, quizzes and score tracking across multiple languages to strengthen logic and problem-solving.by RohanOpen the live project ↗](https://astounding-flan-f18e08.netlify.app/)[![Word Counter Website](/images/projects/wordcounter.webp)ToolWord Counter WebsiteA simple yet powerful tool that counts words, sentences and paragraphs from user input with instant, real-time results and a clean responsive interface.by VanshOpen the live project ↗](https://vanshagarwalwordcounter-sys.github.io/WordCounter/)
 
 Parent & student voices
 

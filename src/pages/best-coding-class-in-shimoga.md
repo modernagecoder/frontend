@@ -36,7 +36,7 @@ Ages 8–12
 
 ## Coding for kids in Shimoga
 
-Most popular![Kids coding with Scratch, best coding class for kids in Shivamogga](/images/kids-coding.webp)
+Most popular![Kids coding with Scratch: best coding class for kids in Shivamogga](/images/kids-coding.webp)
 
 ### Kids Coding with Scratch
 
@@ -58,7 +58,7 @@ Children design and publish their first colourful website with HTML & CSS, then 
 - Fun, real web projects
 - A personal portfolio page
 
-[View course](/courses/kids-ai-web-development-course)Next step![Python for kids, programming course in Shivamogga](/images/python-kids.webp)
+[View course](/courses/kids-ai-web-development-course)Next step![Python for kids: programming course in Shivamogga](/images/python-kids.webp)
 
 ### Python for Young Coders
 
@@ -73,7 +73,7 @@ The step up to real, typed code in the world's most popular language. Kids write
 
 ## Coding for teens in Shimoga
 
-In demand![Python programming for teens, best coding institute in Shivamogga](/images/python-teens.webp)
+In demand![Python programming for teens: best coding institute in Shivamogga](/images/python-teens.webp)
 
 ### Python Programming
 
@@ -84,7 +84,7 @@ Arguably the highest-leverage language a Malnad teen can pick up. It sits under 
 - Automation & scripting
 - Real-world projects
 
-[View course](/courses/python-complete-masterclass-teens)Career![Java programming for teens, best coding class in Shivamogga](/images/java-teens.webp)
+[View course](/courses/python-complete-masterclass-teens)Career![Java programming for teens: best coding class in Shivamogga](/images/java-teens.webp)
 
 ### Java Programming
 
@@ -95,7 +95,7 @@ Java sits inside ICSE/ISC Computer Science (the BlueJ years) and underpins huge 
 - Intro to Android app building
 - Board-aligned practice
 
-[View course](/courses/java-programming-masterclass-for-teens)Build![Web development for teens, programming classes in Shivamogga](/images/web-dev-teens.webp)
+[View course](/courses/java-programming-masterclass-for-teens)Build![Web development for teens: programming classes in Shivamogga](/images/web-dev-teens.webp)
 
 ### Full-Stack Web Development
 
@@ -106,7 +106,7 @@ Design and deploy a complete website from scratch with HTML, CSS, JavaScript and
 - Backend with Node.js
 - Live portfolio projects
 
-[View course](/courses/web-development-masterclass-teens)Future![AI and machine learning for teens, coding course in Shivamogga](/images/ai-ml-teens.webp)
+[View course](/courses/web-development-masterclass-teens)Future![AI and machine learning for teens: coding course in Shivamogga](/images/ai-ml-teens.webp)
 
 ### AI & Machine Learning
 
@@ -158,19 +158,19 @@ Python, machine learning and genuine data analysis for the AI and analytics role
 
 ## Mathematics classes in Shimoga
 
-![Elementary mathematics, maths classes in Shivamogga](/images/elementary-maths.webp)
+![Elementary mathematics: maths classes in Shivamogga](/images/elementary-maths.webp)
 
 ### Elementary Mathematics
 
 Rock-solid foundations in numbers, operations, fractions, geometry and word problems for grades 1–5, aligned to CBSE, ICSE and Karnataka State Board schools across Shivamogga.
 
-[View course](/courses/elementary-mathematics-complete-masterclass)![High school mathematics, maths tuition in Shivamogga](/images/high-school-maths.webp)
+[View course](/courses/elementary-mathematics-complete-masterclass)![High school mathematics: maths tuition in Shivamogga](/images/high-school-maths.webp)
 
 ### High School Mathematics
 
 Algebra, geometry, trigonometry, pre-calculus and calculus for grades 9–12, board-aligned and built to give Shivamogga's engineering-entrance aspirants a genuine head start.
 
-[View course](/courses/complete-high-school-mathematics-mastery)Olympiad![Olympiad mathematics, competition prep in Shivamogga](/images/olympiad-competition-maths.webp)
+[View course](/courses/complete-high-school-mathematics-mastery)Olympiad![Olympiad mathematics: competition prep in Shivamogga](/images/olympiad-competition-maths.webp)
 
 ### Olympiad & Competition Math
 
@@ -250,7 +250,7 @@ International families pay flat USD rates, the prices above update automatically
 
 Not screenshots of a syllabus, real, live projects from Modern Age Coders learners and labs. Click through and use them.
 
-[![Pracy, Coding Practice & Quiz Platform](/images/projects/pracy.webp) Web AppPracy, Coding Practice & Quiz PlatformAn all-in-one coding-practice site with interactive challenges, quizzes and score tracking across multiple languages to strengthen logic and problem-solving. Built by Rohan · JavaScript, Node.jsOpen the live project ↗](https://astounding-flan-f18e08.netlify.app/)[![Moxo, Company Landing Page](/images/projects/moxo.webp) Web AppMoxo, Company Landing PageA stunning modern landing page with smooth parallax scrolling, advanced GSAP animations and elegant section transitions that bring the brand to life. Built by Isha · JavaScript, GSAPOpen the live project ↗](https://moxo.modernagecoders.com)[![LumenFX, AR/VR Photo Effects Studio](/images/projects/lumenfx.webp) Web AppLumenFX, AR/VR Photo Effects StudioUpload a photo and transform it with cinematic filters, AR face effects and the wildest trending edits, the same looks blowing up on TikTok, Reels and Snap, with 240+ one-tap presets. Raayan vibe-coded the whole studio from an idea: prompted the concept, then built the effects engine and gallery UI by hand. Built by Raayan · Vibe Coding, AR / VROpen the live project ↗](https://arvrbadestweb.lovable.app)[See more student projects →](/student-labs)
+[![Pracy: Coding Practice & Quiz Platform](/images/projects/pracy.webp) Web AppPracy: Coding Practice & Quiz PlatformAn all-in-one coding-practice site with interactive challenges, quizzes and score tracking across multiple languages to strengthen logic and problem-solving. Built by Rohan · JavaScript, Node.jsOpen the live project ↗](https://astounding-flan-f18e08.netlify.app/)[![Moxo: Company Landing Page](/images/projects/moxo.webp) Web AppMoxo: Company Landing PageA stunning modern landing page with smooth parallax scrolling, advanced GSAP animations and elegant section transitions that bring the brand to life. Built by Isha · JavaScript, GSAPOpen the live project ↗](https://moxo.modernagecoders.com)[![LumenFX: AR/VR Photo Effects Studio](/images/projects/lumenfx.webp) Web AppLumenFX: AR/VR Photo Effects StudioUpload a photo and transform it with cinematic filters, AR face effects and the wildest trending edits, the same looks blowing up on TikTok, Reels and Snap, with 240+ one-tap presets. Raayan vibe-coded the whole studio from an idea: prompted the concept, then built the effects engine and gallery UI by hand. Built by Raayan · Vibe Coding, AR / VROpen the live project ↗](https://arvrbadestweb.lovable.app)[See more student projects →](/student-labs)
 
 ## What families say
 

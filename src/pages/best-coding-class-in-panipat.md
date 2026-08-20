@@ -36,7 +36,7 @@ Ages 8–12
 
 ## Coding for kids in Panipat
 
-Most popular![Kids coding with Scratch, best coding class for kids in Panipat](/images/kids-coding.webp)
+Most popular![Kids coding with Scratch: best coding class for kids in Panipat](/images/kids-coding.webp)
 
 ### Kids Coding with Scratch
 
@@ -58,7 +58,7 @@ Children design and publish their own little website with HTML & CSS, then text 
 - Fun, real web projects
 - A personal portfolio page
 
-[View course](/courses/kids-ai-web-development-course)Next step![Python for kids, programming course in Panipat](/images/python-kids.webp)
+[View course](/courses/kids-ai-web-development-course)Next step![Python for kids: programming course in Panipat](/images/python-kids.webp)
 
 ### Python for Young Coders
 
@@ -73,7 +73,7 @@ The leap into real, typed code in Python, the language that powers most of today
 
 ## Coding for teens in Panipat
 
-In demand![Python programming for teens, best coding institute in Panipat](/images/python-teens.webp)
+In demand![Python programming for teens: best coding institute in Panipat](/images/python-teens.webp)
 
 ### Python Programming
 
@@ -84,7 +84,7 @@ The language that runs most of modern tech, from web apps to AI. A clean, confid
 - Automation & scripting
 - Real-world projects
 
-[View course](/courses/python-complete-masterclass-teens)Career![Java programming for teens, best coding class in Panipat](/images/java-teens.webp)
+[View course](/courses/python-complete-masterclass-teens)Career![Java programming for teens: best coding class in Panipat](/images/java-teens.webp)
 
 ### Java Programming
 
@@ -95,7 +95,7 @@ Java sits at the heart of the CBSE and ICSE Computer Science papers and the ente
 - Intro to Android app building
 - Board-aligned practice
 
-[View course](/courses/java-programming-masterclass-for-teens)Build![Web development for teens, programming classes in Panipat](/images/web-dev-teens.webp)
+[View course](/courses/java-programming-masterclass-for-teens)Build![Web development for teens: programming classes in Panipat](/images/web-dev-teens.webp)
 
 ### Full-Stack Web Development
 
@@ -106,7 +106,7 @@ Build and launch complete websites from scratch with HTML, CSS, JavaScript and R
 - Backend with Node.js
 - Live portfolio projects
 
-[View course](/courses/web-development-masterclass-teens)Future![AI and machine learning for teens, coding course in Panipat](/images/ai-ml-teens.webp)
+[View course](/courses/web-development-masterclass-teens)Future![AI and machine learning for teens: coding course in Panipat](/images/ai-ml-teens.webp)
 
 ### AI & Machine Learning
 
@@ -158,19 +158,19 @@ Python, machine learning and hands-on data analysis, aimed at the analytics and 
 
 ## Mathematics classes in Panipat
 
-![Elementary mathematics, maths classes in Panipat](/images/elementary-maths.webp)
+![Elementary mathematics: maths classes in Panipat](/images/elementary-maths.webp)
 
 ### Elementary Mathematics
 
 Rock-solid foundations in numbers, operations, fractions, geometry and word problems for grades 1–5, aligned to CBSE, ICSE and Haryana Board schools across Panipat.
 
-[View course](/courses/elementary-mathematics-complete-masterclass)![High school mathematics, maths tuition in Panipat](/images/high-school-maths.webp)
+[View course](/courses/elementary-mathematics-complete-masterclass)![High school mathematics: maths tuition in Panipat](/images/high-school-maths.webp)
 
 ### High School Mathematics
 
 Algebra, geometry, trigonometry, pre-calculus and calculus for grades 9–12, board-aligned and built to give Panipat's JEE and engineering aspirants a genuine head start.
 
-[View course](/courses/complete-high-school-mathematics-mastery)Olympiad![Olympiad mathematics, competition prep in Panipat](/images/olympiad-competition-maths.webp)
+[View course](/courses/complete-high-school-mathematics-mastery)Olympiad![Olympiad mathematics: competition prep in Panipat](/images/olympiad-competition-maths.webp)
 
 ### Olympiad & Competition Math
 
@@ -250,7 +250,7 @@ International families pay flat USD rates, the prices above update automatically
 
 Not screenshots of a syllabus, real, live projects from Modern Age Coders learners and labs. Click through and use them.
 
-[![MyDay, Social Productivity Organizer](/images/projects/myday.webp) Web AppMyDay, Social Productivity OrganizerA beautifully designed productivity platform to organise daily tasks, set goals and stay consistent, with a community feed of others' plans for inspiration. Built by Vedant · JavaScript, Node.jsOpen the live project ↗](https://myday.modernagecoders.com)[![Misti, AI Chatbot for Maths & Coding](/images/projects/misti.webp) AI & MLMisti, AI Chatbot for Maths & CodingAn intelligent AI-powered chatbot that helps students solve maths and coding questions with deep, step-by-step explanations using advanced Python AI frameworks and LLM APIs. Built by Harshit · Python, AI/MLOpen the live project ↗](https://misti.modernagecoders.com)[![GuardianX, AI Bodyguard for the Internet](/images/projects/guardianx.webp) AI & MLGuardianX, AI Bodyguard for the InternetPaste any suspicious link or message and GuardianX returns an instant AI verdict before you become a victim, plus a link scanner, safety score, breach check and live scam alerts built for India. Vibe-coded from idea to working product through prompts, then refined until it genuinely understands how phishing and scams work. Built by Vivaan · Vibe Coding, AIOpen the live project ↗](https://guardianx-cybersaver.lovable.app)[See more student projects →](/student-labs)
+[![MyDay: Social Productivity Organizer](/images/projects/myday.webp) Web AppMyDay: Social Productivity OrganizerA beautifully designed productivity platform to organise daily tasks, set goals and stay consistent, with a community feed of others' plans for inspiration. Built by Vedant · JavaScript, Node.jsOpen the live project ↗](https://myday.modernagecoders.com)[![Misti: AI Chatbot for Maths & Coding](/images/projects/misti.webp) AI & MLMisti: AI Chatbot for Maths & CodingAn intelligent AI-powered chatbot that helps students solve maths and coding questions with deep, step-by-step explanations using advanced Python AI frameworks and LLM APIs. Built by Harshit · Python, AI/MLOpen the live project ↗](https://misti.modernagecoders.com)[![GuardianX: AI Bodyguard for the Internet](/images/projects/guardianx.webp) AI & MLGuardianX: AI Bodyguard for the InternetPaste any suspicious link or message and GuardianX returns an instant AI verdict before you become a victim, plus a link scanner, safety score, breach check and live scam alerts built for India. Vibe-coded from idea to working product through prompts, then refined until it genuinely understands how phishing and scams work. Built by Vivaan · Vibe Coding, AIOpen the live project ↗](https://guardianx-cybersaver.lovable.app)[See more student projects →](/student-labs)
 
 ## What families say
 

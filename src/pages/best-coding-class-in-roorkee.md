@@ -36,7 +36,7 @@ Ages 8–12
 
 ## Coding for kids in Roorkee
 
-Most popular![Kids coding with Scratch, best coding class for kids in Roorkee](/images/kids-coding.webp)
+Most popular![Kids coding with Scratch: best coding class for kids in Roorkee](/images/kids-coding.webp)
 
 ### Kids Coding with Scratch
 
@@ -58,7 +58,7 @@ Children design and publish their first colourful website with HTML & CSS, then 
 - Fun, real web projects
 - A personal portfolio page
 
-[View course](/courses/kids-ai-web-development-course)Next step![Python for kids, programming course in Roorkee](/images/python-kids.webp)
+[View course](/courses/kids-ai-web-development-course)Next step![Python for kids: programming course in Roorkee](/images/python-kids.webp)
 
 ### Python for Young Coders
 
@@ -73,7 +73,7 @@ The step up to real, typed code in the world's most popular language. Kids write
 
 ## Coding for teens in Roorkee
 
-In demand![Python programming for teens, best coding institute in Roorkee](/images/python-teens.webp)
+In demand![Python programming for teens: best coding institute in Roorkee](/images/python-teens.webp)
 
 ### Python Programming
 
@@ -84,7 +84,7 @@ The gentlest way into real software, in the language most of the tech world now 
 - Automation & scripting
 - Real-world projects
 
-[View course](/courses/python-complete-masterclass-teens)Career![Java programming for teens, best coding class in Roorkee](/images/java-teens.webp)
+[View course](/courses/python-complete-masterclass-teens)Career![Java programming for teens: best coding class in Roorkee](/images/java-teens.webp)
 
 ### Java Programming
 
@@ -95,7 +95,7 @@ For board work and beyond: Java sits under CBSE and ICSE Computer Science (the B
 - Intro to Android app building
 - Board-aligned practice
 
-[View course](/courses/java-programming-masterclass-for-teens)Build![Web development for teens, programming classes in Roorkee](/images/web-dev-teens.webp)
+[View course](/courses/java-programming-masterclass-for-teens)Build![Web development for teens: programming classes in Roorkee](/images/web-dev-teens.webp)
 
 ### Full-Stack Web Development
 
@@ -106,7 +106,7 @@ Take an idea to a live, deployed website with HTML, CSS, JavaScript and React, a
 - Backend with Node.js
 - Live portfolio projects
 
-[View course](/courses/web-development-masterclass-teens)Future![AI and machine learning for teens, coding course in Roorkee](/images/ai-ml-teens.webp)
+[View course](/courses/web-development-masterclass-teens)Future![AI and machine learning for teens: coding course in Roorkee](/images/ai-ml-teens.webp)
 
 ### AI & Machine Learning
 
@@ -158,19 +158,19 @@ Python, machine learning and genuine data analysis, built for the analytics and 
 
 ## Mathematics classes in Roorkee
 
-![Elementary mathematics, maths classes in Roorkee](/images/elementary-maths.webp)
+![Elementary mathematics: maths classes in Roorkee](/images/elementary-maths.webp)
 
 ### Elementary Mathematics
 
 Rock-solid foundations in numbers, operations, fractions, geometry and word problems for grades 1–5, aligned to CBSE, ICSE and Uttarakhand Board schools across Roorkee.
 
-[View course](/courses/elementary-mathematics-complete-masterclass)![High school mathematics, maths tuition in Roorkee](/images/high-school-maths.webp)
+[View course](/courses/elementary-mathematics-complete-masterclass)![High school mathematics: maths tuition in Roorkee](/images/high-school-maths.webp)
 
 ### High School Mathematics
 
 Algebra, geometry, trigonometry, pre-calculus and calculus for grades 9–12, board-aligned and built to give Roorkee's engineering and JEE aspirants a genuine head start.
 
-[View course](/courses/complete-high-school-mathematics-mastery)Olympiad![Olympiad mathematics, competition prep in Roorkee](/images/olympiad-competition-maths.webp)
+[View course](/courses/complete-high-school-mathematics-mastery)Olympiad![Olympiad mathematics: competition prep in Roorkee](/images/olympiad-competition-maths.webp)
 
 ### Olympiad & Competition Math
 
@@ -250,7 +250,7 @@ International families pay flat USD rates, the prices above update automatically
 
 Not screenshots of a syllabus, real, live projects from Modern Age Coders learners and labs. Click through and use them.
 
-[![Doodle Dash, 30-Second Drawing Challenge](/images/projects/doodledash.webp) GameDoodle Dash, 30-Second Drawing ChallengePick a difficulty, get a prompt, and you have exactly 30 seconds to draw it, then an AI judge scores how close you got. Three modes from easy objects to chaotic scenes. Shubh vibe-coded it idea-first, wiring real AI image grading into a fast, addictive drawing game. Built by Shubh · Vibe Coding, AI JudgeOpen the live project ↗](https://doodledashmaster.lovable.app)[![Pracy, Coding Practice & Quiz Platform](/images/projects/pracy.webp) Web AppPracy, Coding Practice & Quiz PlatformAn all-in-one coding-practice site with interactive challenges, quizzes and score tracking across multiple languages to strengthen logic and problem-solving. Built by Rohan · JavaScript, Node.jsOpen the live project ↗](https://astounding-flan-f18e08.netlify.app/)[![Baby, Typing Speed Challenge](/images/projects/baby.webp) GameBaby, Typing Speed ChallengeAn engaging typing speed challenge where users test how fast and accurately they can type, with a live leaderboard connected to a MongoDB backend. Built by Kritika · JavaScript, Node.jsOpen the live project ↗](https://baby.modernagecoders.com)[See more student projects →](/student-labs)
+[![Doodle Dash: 30-Second Drawing Challenge](/images/projects/doodledash.webp) GameDoodle Dash: 30-Second Drawing ChallengePick a difficulty, get a prompt, and you have exactly 30 seconds to draw it, then an AI judge scores how close you got. Three modes from easy objects to chaotic scenes. Shubh vibe-coded it idea-first, wiring real AI image grading into a fast, addictive drawing game. Built by Shubh · Vibe Coding, AI JudgeOpen the live project ↗](https://doodledashmaster.lovable.app)[![Pracy: Coding Practice & Quiz Platform](/images/projects/pracy.webp) Web AppPracy: Coding Practice & Quiz PlatformAn all-in-one coding-practice site with interactive challenges, quizzes and score tracking across multiple languages to strengthen logic and problem-solving. Built by Rohan · JavaScript, Node.jsOpen the live project ↗](https://astounding-flan-f18e08.netlify.app/)[![Baby: Typing Speed Challenge](/images/projects/baby.webp) GameBaby: Typing Speed ChallengeAn engaging typing speed challenge where users test how fast and accurately they can type, with a live leaderboard connected to a MongoDB backend. Built by Kritika · JavaScript, Node.jsOpen the live project ↗](https://baby.modernagecoders.com)[See more student projects →](/student-labs)
 
 ## What families say
 
@@ -310,7 +310,7 @@ Takes under a minute.
 
 ## Coding classes in Roorkee: FAQs
 
-Which is the best coding class in Roorkee for kids?Modern Age Coders runs Roorkee's top-rated live online coding classes for kids aged 6-12. Children start with Scratch (games, animation, logic) and progress to Python. Batches are small (5-8 students), project-based, and taught by industry instructors. We cover Civil Lines, the IIT Roorkee campus area, Cantt (BEG), BT Ganj, Ramnagar, Solani Vihar, Adarsh Nagar and Malviya Chowk, plus nearby towns such as Haridwar, Manglaur, Laksar and Bhagwanpur.Are the classes online, and do you cover all of Roorkee and the nearby towns?Yes. All classes are live and online, so a student in Civil Lines, the IIT Roorkee campus quarter, the Cantt (Bengal Engineer Group) area, BT Ganj, Ramnagar, Solani Vihar or out toward Dehradun Road and Haridwar Road joins the same expert teacher from home, no travel across town. We also serve nearby Haridwar, Manglaur, Laksar, Bhagwanpur and Landhaura. Sessions are interactive with live coding, screen sharing and recordings.How much do coding classes cost in Roorkee?Group classes (5-8 students) start at Rs.1499/month for 2 live classes per week. Mini Batch (3-4 students) is Rs.2,999/month and personalised 1-on-1 mentoring is Rs.4,999/month. Every new student gets a free demo class first, and there are no hidden fees.Roorkee is an engineering town, does coding fit that ambition?Perfectly. Roorkee is where Indian engineering education began, IIT Roorkee, founded in 1847 as Thomason College to train the engineers who built the Upper Ganga Canal, is the oldest engineering institution in Asia, and the town also hosts CBRI and CSIR research labs and the Bengal Sappers. In 2026 the newest engineering discipline is software and AI. Coding builds the plan-build-test-ship habit and computational reasoning that engineering entrances and careers reward, in a future-proof, globally portable form your child can develop from Roorkee itself.Does this fit CBSE, ICSE and Uttarakhand Board (UBSE) students?Yes. We teach students from CBSE, ICSE and Uttarakhand Board (UBSE) schools across Roorkee. Coding supports school Computer Science, Informatics Practices and the NEP-2020 AI modules, while strengthening the maths and reasoning that help in board exams and engineering preparation. Our Python and Java tracks align with what these boards teach.What age is best to start coding in Roorkee?Age 8 is ideal to begin with visual block-based coding (Scratch). For text-based languages like Python and Java, age 12-13 onwards works best. We design separate tracks for kids (6-12), teens (13-18) and college/working learners (18+).Do you prepare Roorkee college and engineering students for placements?Yes. Our college track is placement-focused: 200+ DSA problems, mock interviews, a MERN full-stack build and an AI/Data-Science portfolio. It is built for engineering students and serious aspirants in the IIT Roorkee orbit and across Uttarakhand, targeting product companies, GCCs and remote roles, without having to relocate from Roorkee.Do you provide certificates and is there a free demo?Every student receives a completion certificate that strengthens school portfolios and college applications. Yes. We offer a free demo class before you enrol, and if the first paid week is not the right fit, we return the fee in full.Do you teach coding to Uttarakhand Board students in Roorkee?Yes. Roorkee schools run the Uttarakhand board, UBSE, along with CBSE and ICSE, and our classes fit around any of them. The board is at Ramnagar in Nainital district, not Roorkee. We teach the programming itself, Python or Java, so the school computer paper stops being a memory test.Can IIT Roorkee students join your programming courses?Yes. IIT Roorkee is, by its own account, the oldest engineering college in India, so the theory is in the best of hands. The college track adds the applied, portfolio side: real Python, Java, full-stack or AI/ML projects, carried to something that runs and can be opened in an interview.
+Which is the best coding class in Roorkee for kids?Modern Age Coders runs Roorkee's top-rated live online coding classes for kids aged 6-12. Children start with Scratch (games, animation, logic) and progress to Python. Batches are small (5-8 students), project-based, and taught by industry instructors. We cover Civil Lines, the IIT Roorkee campus area, Cantt (BEG), BT Ganj, Ramnagar, Solani Vihar, Adarsh Nagar and Malviya Chowk, plus nearby towns such as Haridwar, Manglaur, Laksar and Bhagwanpur.Are the classes online, and do you cover all of Roorkee and the nearby towns?Yes. All classes are live and online, so a student in Civil Lines, the IIT Roorkee campus quarter, the Cantt (Bengal Engineer Group) area, BT Ganj, Ramnagar, Solani Vihar or out toward Dehradun Road and Haridwar Road joins the same expert teacher from home, no travel across town. We also serve nearby Haridwar, Manglaur, Laksar, Bhagwanpur and Landhaura. Sessions are interactive with live coding, screen sharing and recordings.How much do coding classes cost in Roorkee?Group classes (5-8 students) start at Rs.1499/month for 2 live classes per week. Mini Batch (3-4 students) is Rs.2,999/month and personalised 1-on-1 mentoring is Rs.4,999/month. Every new student gets a free demo class first, and there are no hidden fees.Roorkee is an engineering town, does coding fit that ambition?Perfectly. Roorkee is where Indian engineering education began: IIT Roorkee, founded in 1847 as Thomason College to train the engineers who built the Upper Ganga Canal, is the oldest engineering institution in Asia, and the town also hosts CBRI and CSIR research labs and the Bengal Sappers. In 2026 the newest engineering discipline is software and AI. Coding builds the plan-build-test-ship habit and computational reasoning that engineering entrances and careers reward, in a future-proof, globally portable form your child can develop from Roorkee itself.Does this fit CBSE, ICSE and Uttarakhand Board (UBSE) students?Yes. We teach students from CBSE, ICSE and Uttarakhand Board (UBSE) schools across Roorkee. Coding supports school Computer Science, Informatics Practices and the NEP-2020 AI modules, while strengthening the maths and reasoning that help in board exams and engineering preparation. Our Python and Java tracks align with what these boards teach.What age is best to start coding in Roorkee?Age 8 is ideal to begin with visual block-based coding (Scratch). For text-based languages like Python and Java, age 12-13 onwards works best. We design separate tracks for kids (6-12), teens (13-18) and college/working learners (18+).Do you prepare Roorkee college and engineering students for placements?Yes. Our college track is placement-focused: 200+ DSA problems, mock interviews, a MERN full-stack build and an AI/Data-Science portfolio. It is built for engineering students and serious aspirants in the IIT Roorkee orbit and across Uttarakhand, targeting product companies, GCCs and remote roles, without having to relocate from Roorkee.Do you provide certificates and is there a free demo?Every student receives a completion certificate that strengthens school portfolios and college applications. Yes. We offer a free demo class before you enrol, and if the first paid week is not the right fit, we return the fee in full.Do you teach coding to Uttarakhand Board students in Roorkee?Yes. Roorkee schools run the Uttarakhand board, UBSE, along with CBSE and ICSE, and our classes fit around any of them. The board is at Ramnagar in Nainital district, not Roorkee. We teach the programming itself, Python or Java, so the school computer paper stops being a memory test.Can IIT Roorkee students join your programming courses?Yes. IIT Roorkee is, by its own account, the oldest engineering college in India, so the theory is in the best of hands. The college track adds the applied, portfolio side: real Python, Java, full-stack or AI/ML projects, carried to something that runs and can be opened in an interview.
 
 ## Ready to start your child's coding journey in Roorkee?
 

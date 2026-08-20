@@ -36,7 +36,7 @@ Ages 8–12
 
 ## Coding for kids in Rajahmundry
 
-Most popular![Kids coding with Scratch, best coding class for kids in Rajahmundry](/images/kids-coding.webp)
+Most popular![Kids coding with Scratch: best coding class for kids in Rajahmundry](/images/kids-coding.webp)
 
 ### Kids Coding with Scratch
 
@@ -58,7 +58,7 @@ Kids build their very first colourful website with HTML & CSS, then share the li
 - Fun, real web projects
 - A personal portfolio page
 
-[View course](/courses/kids-ai-web-development-course)Next step![Python for kids, programming course in Rajahmundry](/images/python-kids.webp)
+[View course](/courses/kids-ai-web-development-course)Next step![Python for kids: programming course in Rajahmundry](/images/python-kids.webp)
 
 ### Python for Young Coders
 
@@ -73,7 +73,7 @@ The jump to real, typed code, in the world's most popular language. Kids write P
 
 ## Coding for teens in Rajahmundry
 
-In demand![Python programming for teens, best coding institute in Rajahmundry](/images/python-teens.webp)
+In demand![Python programming for teens: best coding institute in Rajahmundry](/images/python-teens.webp)
 
 ### Python Programming
 
@@ -84,7 +84,7 @@ The most in-demand language in the world, and the one Godavari-belt engineering 
 - Automation & scripting
 - Real-world projects
 
-[View course](/courses/python-complete-masterclass-teens)Career![Java programming for teens, best coding class in Rajahmundry](/images/java-teens.webp)
+[View course](/courses/python-complete-masterclass-teens)Career![Java programming for teens: best coding class in Rajahmundry](/images/java-teens.webp)
 
 ### Java Programming
 
@@ -95,7 +95,7 @@ Java is a backbone of school Computer Science and the enterprise stacks that Raj
 - Intro to Android app building
 - Board-aligned practice
 
-[View course](/courses/java-programming-masterclass-for-teens)Build![Web development for teens, programming classes in Rajahmundry](/images/web-dev-teens.webp)
+[View course](/courses/java-programming-masterclass-for-teens)Build![Web development for teens: programming classes in Rajahmundry](/images/web-dev-teens.webp)
 
 ### Full-Stack Web Development
 
@@ -106,7 +106,7 @@ Build complete, deployed websites from scratch with HTML, CSS, JavaScript and Re
 - Backend with Node.js
 - Live portfolio projects
 
-[View course](/courses/web-development-masterclass-teens)Future![AI and machine learning for teens, coding course in Rajahmundry](/images/ai-ml-teens.webp)
+[View course](/courses/web-development-masterclass-teens)Future![AI and machine learning for teens: coding course in Rajahmundry](/images/ai-ml-teens.webp)
 
 ### AI & Machine Learning
 
@@ -158,19 +158,19 @@ Python, machine learning and real data analysis, built for the analytics and AI 
 
 ## Mathematics classes in Rajahmundry
 
-![Elementary mathematics, maths classes in Rajahmundry](/images/elementary-maths.webp)
+![Elementary mathematics: maths classes in Rajahmundry](/images/elementary-maths.webp)
 
 ### Elementary Mathematics
 
 Rock-solid foundations in numbers, operations, fractions, geometry and word problems for grades 1–5, aligned to the CBSE & AP-board schools across Rajahmundry.
 
-[View course](/courses/elementary-mathematics-complete-masterclass)![High school mathematics, maths tuition in Rajahmundry](/images/high-school-maths.webp)
+[View course](/courses/elementary-mathematics-complete-masterclass)![High school mathematics: maths tuition in Rajahmundry](/images/high-school-maths.webp)
 
 ### High School Mathematics
 
 Algebra, geometry, trigonometry, pre-calculus and calculus for grades 9–12, board-aligned and built to give Rajahmundry's EAPCET and JEE aspirants a genuine head start.
 
-[View course](/courses/complete-high-school-mathematics-mastery)Olympiad![Olympiad mathematics, competition prep in Rajahmundry](/images/olympiad-competition-maths.webp)
+[View course](/courses/complete-high-school-mathematics-mastery)Olympiad![Olympiad mathematics: competition prep in Rajahmundry](/images/olympiad-competition-maths.webp)
 
 ### Olympiad & Competition Math
 
@@ -250,7 +250,7 @@ International families pay flat USD rates, the prices above update automatically
 
 Not screenshots of a syllabus, real, live projects from Modern Age Coders learners and labs. Click through and use them.
 
-[![Image Slider Website](/images/projects/slider.webp) ToolImage Slider WebsiteA visually appealing site with a smooth image carousel, auto or manual navigation, responsive layout and beautiful transition effects. Built by Somraj · HTML, CSSOpen the live project ↗](https://robo23middle-stack.github.io/scenes/)[![NutriLife, AI Nutrition Coach](/images/projects/nutrilife.webp) AI & MLNutriLife, AI Nutrition CoachSnap a photo of any meal and NutriLife instantly names every food, then breaks down the calories, macros, vitamins and minerals, powered by AI. Bhavya vibe-coded it from a single idea: shaped the app in prompts, then wired up the AI food-recognition, daily tracking and smart coaching by hand. Built by Bhavya · Vibe Coding, AI VisionOpen the live project ↗](https://nutrilife-bhavya.lovable.app)[![HugSelle, AI Smile Generator](/images/projects/hugselle.webp) AI & MLHugSelle, AI Smile GeneratorA heartwarming AI-powered web app that detects your mood and generates uplifting quotes and visuals to make you smile, a creative blend of technology and positivity. Built by Anurag · Python, Machine LearningOpen the live project ↗](https://hugselle.modernagecoders.com)[See more student projects →](/student-labs)
+[![Image Slider Website](/images/projects/slider.webp) ToolImage Slider WebsiteA visually appealing site with a smooth image carousel, auto or manual navigation, responsive layout and beautiful transition effects. Built by Somraj · HTML, CSSOpen the live project ↗](https://robo23middle-stack.github.io/scenes/)[![NutriLife: AI Nutrition Coach](/images/projects/nutrilife.webp) AI & MLNutriLife: AI Nutrition CoachSnap a photo of any meal and NutriLife instantly names every food, then breaks down the calories, macros, vitamins and minerals, powered by AI. Bhavya vibe-coded it from a single idea: shaped the app in prompts, then wired up the AI food-recognition, daily tracking and smart coaching by hand. Built by Bhavya · Vibe Coding, AI VisionOpen the live project ↗](https://nutrilife-bhavya.lovable.app)[![HugSelle: AI Smile Generator](/images/projects/hugselle.webp) AI & MLHugSelle: AI Smile GeneratorA heartwarming AI-powered web app that detects your mood and generates uplifting quotes and visuals to make you smile, a creative blend of technology and positivity. Built by Anurag · Python, Machine LearningOpen the live project ↗](https://hugselle.modernagecoders.com)[See more student projects →](/student-labs)
 
 ## What families say
 
@@ -260,7 +260,7 @@ Verified Google reviews from Modern Age Coders families across India. We don't i
 
 "Very good classes."
 
-Don't worry about coding, they teach the best, especially Shivam sir.
+Don't worry about coding. They teach the best, especially Shivam sir.
 
 SWShaarav WadhwaStudent★★★★★
 

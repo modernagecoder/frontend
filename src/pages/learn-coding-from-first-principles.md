@@ -20,7 +20,7 @@ Specimen 01: Exploded view
 
 A single line of code looks simple. Underneath, it falls through four layers before anything happens. Here is the whole descent, the part most courses never show you.
 
-total = sum([1, 2, 3])Layer 1, Source
+total = sum([1, 2, 3])Layer 1: Source
 
 ### What you wrote
 
@@ -138,7 +138,7 @@ Understanding is faster than memorising. *It just feels slower on day one.*
 
 People often ask whether there is even a difference between "coding" and "programming", or whether it all blurs together. There is a real distinction, and it maps almost exactly onto depth, typing instructions versus designing how a system thinks. We pull that apart carefully on our [coding vs programming](/coding-vs-programming) page, but the short version is this: anyone can be taught to produce code, the same way anyone can be taught to copy a sentence in a language they do not speak. We are interested in the other thing, the understanding that lets you write the sentence yourself, and explain why it is correct.
 
-Specimen 04, Course catalogue
+Specimen 04: Course catalogue
 
 ## Six places to go deep
 
@@ -248,7 +248,7 @@ Real student projects
 
 Every one is a real, live project shipped by a Modern Age Coders student. Explore more in [Student Labs](/student-labs).
 
-[![The Beautiful Mind](/images/projects/mindgame.webp)GameThe Beautiful MindA scientifically designed focus and brain-strength game with 15 progressive levels, testing attention, control and mental endurance with real-time progress tracking and leaderboards.by Modern Age CodersOpen the live project ↗](https://mind.modernagecoders.com)[![Misti, AI Chatbot for Maths & Coding](/images/projects/misti.webp)AI & MLMisti, AI Chatbot for Maths & CodingAn intelligent AI-powered chatbot that helps students solve maths and coding questions with deep, step-by-step explanations using advanced Python AI frameworks and LLM APIs.by HarshitOpen the live project ↗](https://misti.modernagecoders.com)[![Babu, 90 Second Maths Challenge](/images/projects/babu.webp)GameBabu, 90 Second Maths ChallengeAn exciting 90-second maths challenge with random problems under time pressure, and a dynamic leaderboard powered by Firebase/MongoDB with real-time score updates.by Modern Age CodersOpen the live project ↗](https://babu.modernagecoders.com)
+[![The Beautiful Mind](/images/projects/mindgame.webp)GameThe Beautiful MindA scientifically designed focus and brain-strength game with 15 progressive levels, testing attention, control and mental endurance with real-time progress tracking and leaderboards.by Modern Age CodersOpen the live project ↗](https://mind.modernagecoders.com)[![Misti: AI Chatbot for Maths & Coding](/images/projects/misti.webp)AI & MLMisti: AI Chatbot for Maths & CodingAn intelligent AI-powered chatbot that helps students solve maths and coding questions with deep, step-by-step explanations using advanced Python AI frameworks and LLM APIs.by HarshitOpen the live project ↗](https://misti.modernagecoders.com)[![Babu: 90 Second Maths Challenge](/images/projects/babu.webp)GameBabu: 90 Second Maths ChallengeAn exciting 90-second maths challenge with random problems under time pressure, and a dynamic leaderboard powered by Firebase/MongoDB with real-time score updates.by Modern Age CodersOpen the live project ↗](https://babu.modernagecoders.com)
 
 Parent & student voices
 

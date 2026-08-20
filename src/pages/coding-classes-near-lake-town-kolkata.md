@@ -156,10 +156,10 @@ Class schedule
 
 | Slot | Time | Best for | Days |
 | --- | --- | --- | --- |
-| After-school | 4:00 PM, 6:00 PM | Kids 6-12, primary & middle school | Mon / Wed / Fri |
-| Early evening | 6:00 PM, 8:00 PM | Teens, ICSE & CBSE board students | Tue / Thu / Sat |
-| Late evening | 8:00 PM: 9:30 PM | College students & working professionals | Mon / Wed / Fri |
-| Weekend morning | 10:00 AM, 12:30 PM | Olympiad maths, AI/ML deep tracks | Sat / Sun |
+| After-school | 4:00 PM – 6:00 PM | Kids 6-12, primary & middle school | Mon / Wed / Fri |
+| Early evening | 6:00 PM – 8:00 PM | Teens, ICSE & CBSE board students | Tue / Thu / Sat |
+| Late evening | 8:00 PM – 9:30 PM | College students & working professionals | Mon / Wed / Fri |
+| Weekend morning | 10:00 AM – 12:30 PM | Olympiad maths, AI/ML deep tracks | Sat / Sun |
 | Flexible 1-on-1 | By arrangement | Custom pace, NRI & shift-working families | Any day |
 
 All slots are live and small-batch. Tell us your child's school timing and we will fit a slot around it.

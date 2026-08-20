@@ -22,7 +22,7 @@ The gender gap in tech is real. But every girl who learns to code widens the doo
 
 26%
 
-of software engineers globally are women, we need your daughter in that number
+of software engineers globally are women. We need your daughter in that number
 
 40%
 

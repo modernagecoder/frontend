@@ -32,7 +32,7 @@ This is the part the National Curriculum hasn't caught up to yet. **Vibe coding*
 
 Click any tile to open the course page. Every track is live, 1:1 (or small-group), and runs on UK time, same mentor every week, no rotation.
 
-[01 Most chosen · GCSE & A-Level Coding & AI for Teens (KS3–KS5), GCSE-aware, A-Level-aligned, Oxbridge-ready. Real Python, JavaScript, Git and modern AI engineering on a 12-month arc. Maps to AQA 8525, OCR J277, Pearson 1CP2 at GCSE, and AQA 7517 / OCR H446 at A-Level. We coach BIO, Bebras and the Oxbridge interview pattern.  USD 150/ mo · 1:1 Open course →](/courses/coding/teens)[02 KS1, KS2 · Ages 6, 11 Coding for Children Scratch → real Python by month three. Tiny games, drawing apps, friendly first AI projects. USD 150/ mo→](/courses/coding/kids)[03 New · KS3, KS5 AI & Agentic-AI LLM apps, RAG, tool-using agents, the way DeepMind, Wayve and Synthesia engineers actually work. USD 150/ mo→](/ai-ml-course-for-teens)[04 Oxbridge & Russell Group Oxbridge interview prep Cambridge CSAT, Oxford admissions, Imperial, UCL, Warwick, Edinburgh, algorithmic interview depth. USD 150/ mo→](/courses/coding/college)[05 University · Top-up For University students Algorithms, system design, AI engineering top-ups for CS undergrads at any UK university. USD 150/ mo→](/courses/coding/college)[06 Adults · Career switch For Professionals, retraining into software, data & AI. For UK adults aiming at SWE, data and AI engineer roles. Builds the production-grade portfolio London, Manchester and Cambridge employers actually look at. USD 150/ moOpen course →](/courses/coding/college)[07 For girls · Ages 8: 22 Coding for girls All-female mentor pairing, women-in-tech role models from London and Cambridge. USD 150/ mo→](/courses/coding/girls)[08 Schools & companies For UK Schools / Teams State, independent, prep and grammar schools. Code-club cohorts, after-school programmes, NEA support. USD 100/ seat · group→](/courses/coding/corporate)Parent rating4.9 / 5 · 547 reviewsAligned withAQA · OCR · PearsonMentor hours09:00: 21:00 UK timeCommitmentFree trial · cancel monthlyBy Key Stage · the British way
+[01 Most chosen · GCSE & A-Level Coding & AI for Teens (KS3–KS5): GCSE-aware, A-Level-aligned, Oxbridge-ready. Real Python, JavaScript, Git and modern AI engineering on a 12-month arc. Maps to AQA 8525, OCR J277, Pearson 1CP2 at GCSE, and AQA 7517 / OCR H446 at A-Level. We coach BIO, Bebras and the Oxbridge interview pattern.  USD 150/ mo · 1:1 Open course →](/courses/coding/teens)[02 KS1, KS2 · Ages 6, 11 Coding for Children Scratch → real Python by month three. Tiny games, drawing apps, friendly first AI projects. USD 150/ mo→](/courses/coding/kids)[03 New · KS3: KS5 AI & Agentic-AI LLM apps, RAG, tool-using agents, the way DeepMind, Wayve and Synthesia engineers actually work. USD 150/ mo→](/ai-ml-course-for-teens)[04 Oxbridge & Russell Group Oxbridge interview prep Cambridge CSAT, Oxford admissions, Imperial, UCL, Warwick, Edinburgh, algorithmic interview depth. USD 150/ mo→](/courses/coding/college)[05 University · Top-up For University students Algorithms, system design, AI engineering top-ups for CS undergrads at any UK university. USD 150/ mo→](/courses/coding/college)[06 Adults · Career switch For Professionals: retraining into software, data & AI. For UK adults aiming at SWE, data and AI engineer roles. Builds the production-grade portfolio London, Manchester and Cambridge employers actually look at. USD 150/ moOpen course →](/courses/coding/college)[07 For girls · Ages 8: 22 Coding for girls All-female mentor pairing, women-in-tech role models from London and Cambridge. USD 150/ mo→](/courses/coding/girls)[08 Schools & companies For UK Schools / Teams State, independent, prep and grammar schools. Code-club cohorts, after-school programmes, NEA support. USD 100/ seat · group→](/courses/coding/corporate)Parent rating4.9 / 5 · 547 reviewsAligned withAQA · OCR · PearsonMentor hours09:00: 21:00 UK timeCommitmentFree trial · cancel monthlyBy Key Stage · the British way
 
 ## What we teach at each stage: and how it joins up with school.
 
@@ -85,7 +85,7 @@ AQA 8525 · OCR J277 · Pearson 1CP2
 - **Python**, full specification, both paper-1 and paper-2 ready
 - **Algorithms**, linear/binary search, bubble/insertion/merge sort
 - **Data representation**, binary, hex, ASCII, Unicode, images, sound
-- **Computer systems**, CPU, memory, storage, networks, OS
+- **Computer systems**: CPU, memory, storage, networks, OS
 - **Ethical / legal / environmental**, full theory coverage
 - **Past-paper drills**, every board, every series since 2018
 - **Output:** mock grade improvement of 1.7 grades on average
@@ -98,7 +98,7 @@ AQA 7517 · OCR H446 + Oxbridge prep
 
 - **Python & OOP (deep)**, abstract classes, inheritance, polymorphism
 - **Data structures**, stacks, queues, linked lists, trees, graphs, hash tables
-- **Algorithms**, Dijkstra, A*, recursion, DP, complexity analysis
+- **Algorithms**: Dijkstra, A*, recursion, DP, complexity analysis
 - **NEA project coaching**, design, build, test, evaluation
 - **British Informatics Olympiad (BIO)** rounds 1 & 2
 - **Oxbridge prep**: Cambridge CSAT, Oxford CS test, interview Q patterns
@@ -128,7 +128,7 @@ OCR
 Specification J277 · 01 + 02
 
 - Component 01 (Computer systems): CPU, memory, networks, security
-- Component 02 (Computational thinking, algorithms & programming), Python focus
+- Component 02 (Computational thinking, algorithms & programming): Python focus
 - Pseudocode & OCR Exam Reference Language drilled to fluency
 - Past papers + examiner reports walked through
 
@@ -139,7 +139,7 @@ Pearson Edexcel
 Specification 1CP2 · Paper 1 + Paper 2
 
 - Paper 1 (Principles of computer science), full theory coverage
-- Paper 2 (Application of computational thinking), Python via on-screen test
+- Paper 2 (Application of computational thinking): Python via on-screen test
 - Pearson on-screen test environment practised live with the mentor
 - Specimen + past papers from 2022 onwards
 
@@ -326,13 +326,13 @@ Plain pricing · cancel monthly
 
 USD 150 a month for 1:1 mentorship. USD 100 a month for a small-group cohort. No registration fee, no annual contract, pause for half-term or exam leave whenever you need.
 
-What's includedSmall-group cohort1:1 Private mentorNotesMonthly costUSD 100/ moUSD 150/ moBilled in USD ($100 / $150)Live sessions per month8 sessions8 sessions2 per week, same slotsSame mentor every week~ Same cohort✓ YesSwitch any timeCustom curriculum & pace: Shared✓ Fully customMapped to exam boardExam-board paper drills✓ Group drills✓ PersonalisedAQA · OCR · PearsonA-Level NEA project coaching, No✓ Yes, full project1:1 mentor requiredOxbridge interview prep, No✓ Cambridge + Oxford1:1 mentor requiredClass recordings + parent report✓ Monthly✓ WeeklyEmail or WhatsAppCancel / pause✓ Monthly✓ MonthlyNo fee, no contractFree trial lesson✓ Yes✓ Yes30 minutes, no cardHow we compare
+What's includedSmall-group cohort1:1 Private mentorNotesMonthly costUSD 100/ moUSD 150/ moBilled in USD ($100 / $150)Live sessions per month8 sessions8 sessions2 per week, same slotsSame mentor every week~ Same cohort✓ YesSwitch any timeCustom curriculum & pace: Shared✓ Fully customMapped to exam boardExam-board paper drills✓ Group drills✓ PersonalisedAQA · OCR · PearsonA-Level NEA project coaching: No✓ Yes, full project1:1 mentor requiredOxbridge interview prep: No✓ Cambridge + Oxford1:1 mentor requiredClass recordings + parent report✓ Monthly✓ WeeklyEmail or WhatsAppCancel / pause✓ Monthly✓ MonthlyNo fee, no contractFree trial lesson✓ Yes✓ Yes30 minutes, no cardHow we compare
 
 ## Side-by-side with what most British families already tried.
 
 Honest comparison. State-school after-school clubs, Tutorful / MyTutor private tutors, free YouTube, big online schools. They all have a place.
 
-What mattersModern Age CodersSchool / Code ClubTutorful · MyTutorYouTube · free toolsSame mentor weekly, all year✓ Yes, No~ Sometimes, NoReal Python, real Git, real deploy✓ Week 1~ Sometimes~ Depends~ Self-drivenModern AI & agentic-AI engineering✓ Built in, No, Rare~ TutorialsExam-board specific (AQA / OCR / Pearson)✓ Mapped✓ Mapped~ Tutor-dependent, NoOxbridge / Russell-Group prep✓ Yes, No~ Rare, NoMonthly costUSD 150 (1:1) / USD 100 (group)Free£25, £60 per hourFreeCancel / pause✓ Monthly✓ Term-based✓ Hourly✓ FreeWhere British families learn with us
+What mattersModern Age CodersSchool / Code ClubTutorful · MyTutorYouTube · free toolsSame mentor weekly, all year✓ Yes: No~ Sometimes: NoReal Python, real Git, real deploy✓ Week 1~ Sometimes~ Depends~ Self-drivenModern AI & agentic-AI engineering✓ Built in, No, Rare~ TutorialsExam-board specific (AQA / OCR / Pearson)✓ Mapped✓ Mapped~ Tutor-dependent: NoOxbridge / Russell-Group prep✓ Yes: No~ Rare: NoMonthly costUSD 150 (1:1) / USD 100 (group)Free£25, £60 per hourFreeCancel / pause✓ Monthly✓ Term-based✓ Hourly✓ FreeWhere British families learn with us
 
 ## Coding classes online: locally aware, exam-board aware.
 
@@ -552,13 +552,13 @@ The honest version. This is what one 1:1 session looks like for a Year-10 studen
 
 Two minutes of "how was the week", the human bit. The mentor scrolls back the chat history, cameras come on for both. Settles the student.
 
-02:00, 08:00
+02:00: 08:00
 
 #### Recap and tiny quiz
 
 A 6-minute recall test of last lesson's idea. Not for marks, for the brain. The mentor watches for the lightbulb moments and the cobwebs.
 
-08:00, 18:00
+08:00: 18:00
 
 #### New concept + live coding
 
@@ -570,7 +570,7 @@ Ten minutes of new material. Live-shared VS Code via Zoom. Mentor types two line
 
 The student leads. The mentor coaches. This is where most of the actual learning happens, pushing a feature, fixing a bug, refactoring a function. The mentor types nothing; only asks.
 
-35:00, 42:00
+35:00: 42:00
 
 #### Code review & reflection
 
@@ -640,7 +640,7 @@ No lock-in. You can cancel any month, no fee, no awkward conversation. If your c
 
 "Is AI safe for my 9-year-old?"
 
-Under-13s never interact with raw LLM APIs against the open internet without a mentor present. We use age-appropriate models, guardrailed prompts, content filters and a "sandbox-only" rule. The AI tools your child builds are educational and reviewable by you, you see every prompt and every output. We're stricter on this than most.
+Under-13s never interact with raw LLM APIs against the open internet without a mentor present. We use age-appropriate models, guardrailed prompts, content filters and a "sandbox-only" rule. The AI tools your child builds are educational and reviewable by you. You see every prompt and every output. We're stricter on this than most.
 
 "My child is shy, won't 1:1 video lessons be too much?"
 

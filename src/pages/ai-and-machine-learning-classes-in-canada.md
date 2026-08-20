@@ -353,7 +353,7 @@ Data and forecasting
 
 Live forecast data presented as an application, the closest cousin of the fire season work above.
 
-by Krish · [Open the live project](https://krish-shroff.github.io/AuraWeatherTech/)
+by Krish
 
 Fees
 
@@ -497,6 +497,8 @@ Start here
 Give us a number and a mentor returns the call inside Canadian hours rather than ours. The free session is a lesson and not a pitch: a teacher runs it as they would any other, and uses it to decide which band and course the learner should enter. Nothing is charged to enrol and no card is touched beforehand.
 
 Prefer to look around first? Read [how we teach](/how-we-teach), browse the [full course catalogue](/courses), or see what students have built in [Student Labs](/student-labs).
+
+[Chat with us](https://wa.me/919123366161?text=Hi%2C%20I'm%20interested%20in%20learning%20more%20about%20your%20courses!)
 
 ---
 

@@ -36,7 +36,7 @@ Ages 8–12
 
 ## Coding for kids in Solapur
 
-Most popular![Kids coding with Scratch, best coding class for kids in Solapur](/images/kids-coding.webp)
+Most popular![Kids coding with Scratch: best coding class for kids in Solapur](/images/kids-coding.webp)
 
 ### Kids Coding with Scratch
 
@@ -58,7 +58,7 @@ Children weave their first colourful web page with HTML & CSS, then send the liv
 - Fun, real web projects
 - A personal portfolio page
 
-[View course](/courses/kids-ai-web-development-course)Next step![Python for kids, programming course in Solapur](/images/python-kids.webp)
+[View course](/courses/kids-ai-web-development-course)Next step![Python for kids: programming course in Solapur](/images/python-kids.webp)
 
 ### Python for Young Coders
 
@@ -73,7 +73,7 @@ The step up to real, typed code in the world's most popular language. Kids write
 
 ## Coding for teens in Solapur
 
-In demand![Python programming for teens, best coding institute in Solapur](/images/python-teens.webp)
+In demand![Python programming for teens: best coding institute in Solapur](/images/python-teens.webp)
 
 ### Python Programming
 
@@ -84,7 +84,7 @@ The most in-demand language in the world, and the cleanest on-ramp for a Solapur
 - Automation & scripting
 - Real-world projects
 
-[View course](/courses/python-complete-masterclass-teens)Career![Java programming for teens, best coding class in Solapur](/images/java-teens.webp)
+[View course](/courses/python-complete-masterclass-teens)Career![Java programming for teens: best coding class in Solapur](/images/java-teens.webp)
 
 ### Java Programming
 
@@ -95,7 +95,7 @@ Java runs through CBSE/ICSE Computer Science and the enterprise stacks at TCS, I
 - Intro to Android app building
 - Board-aligned practice
 
-[View course](/courses/java-programming-masterclass-for-teens)Build![Web development for teens, programming classes in Solapur](/images/web-dev-teens.webp)
+[View course](/courses/java-programming-masterclass-for-teens)Build![Web development for teens: programming classes in Solapur](/images/web-dev-teens.webp)
 
 ### Full-Stack Web Development
 
@@ -106,7 +106,7 @@ Build complete, deployed websites end-to-end with HTML, CSS, JavaScript and Reac
 - Backend with Node.js
 - Live portfolio projects
 
-[View course](/courses/web-development-masterclass-teens)Future![AI and machine learning for teens, coding course in Solapur](/images/ai-ml-teens.webp)
+[View course](/courses/web-development-masterclass-teens)Future![AI and machine learning for teens: coding course in Solapur](/images/ai-ml-teens.webp)
 
 ### AI & Machine Learning
 
@@ -158,19 +158,19 @@ Python, machine learning and real data analysis, built for the analytics and AI 
 
 ## Mathematics classes in Solapur
 
-![Elementary mathematics, maths classes in Solapur](/images/elementary-maths.webp)
+![Elementary mathematics: maths classes in Solapur](/images/elementary-maths.webp)
 
 ### Elementary Mathematics
 
 Rock-solid foundations in numbers, operations, fractions, geometry and word problems for grades 1–5, aligned to SSC, CBSE & ICSE schools across Solapur.
 
-[View course](/courses/elementary-mathematics-complete-masterclass)![High school mathematics, maths tuition in Solapur](/images/high-school-maths.webp)
+[View course](/courses/elementary-mathematics-complete-masterclass)![High school mathematics: maths tuition in Solapur](/images/high-school-maths.webp)
 
 ### High School Mathematics
 
 Algebra, geometry, trigonometry, pre-calculus and calculus for grades 9–12, board-aligned and built to give Solapur's MHT-CET and JEE aspirants a genuine head start.
 
-[View course](/courses/complete-high-school-mathematics-mastery)Olympiad![Olympiad mathematics, competition prep in Solapur](/images/olympiad-competition-maths.webp)
+[View course](/courses/complete-high-school-mathematics-mastery)Olympiad![Olympiad mathematics: competition prep in Solapur](/images/olympiad-competition-maths.webp)
 
 ### Olympiad & Competition Math
 
@@ -250,7 +250,7 @@ International families pay flat USD rates, the prices above update automatically
 
 Not screenshots of a syllabus, real, live projects from Modern Age Coders learners and labs. Click through and use them.
 
-[![Simon Game](/images/projects/simongame.webp) GameSimon GameA fun memory-based game where players repeat colour and sound sequences. Each level adds a new challenge, brain-boosting for kids learning logic and focus. Built by Yashaswi · HTML, CSSOpen the live project ↗](http://yashaswi-2017.my.canva.site)[![Pracy, Coding Practice & Quiz Platform](/images/projects/pracy.webp) Web AppPracy, Coding Practice & Quiz PlatformAn all-in-one coding-practice site with interactive challenges, quizzes and score tracking across multiple languages to strengthen logic and problem-solving. Built by Rohan · JavaScript, Node.jsOpen the live project ↗](https://astounding-flan-f18e08.netlify.app/)[![Babu, 90 Second Maths Challenge](/images/projects/babu.webp) GameBabu, 90 Second Maths ChallengeAn exciting 90-second maths challenge with random problems under time pressure, and a dynamic leaderboard powered by Firebase/MongoDB with real-time score updates. Built by Modern Age Coders · JavaScript, FirebaseOpen the live project ↗](https://babu.modernagecoders.com)[See more student projects →](/student-labs)
+[![Simon Game](/images/projects/simongame.webp) GameSimon GameA fun memory-based game where players repeat colour and sound sequences. Each level adds a new challenge, brain-boosting for kids learning logic and focus. Built by Yashaswi · HTML, CSSOpen the live project ↗](http://yashaswi-2017.my.canva.site)[![Pracy: Coding Practice & Quiz Platform](/images/projects/pracy.webp) Web AppPracy: Coding Practice & Quiz PlatformAn all-in-one coding-practice site with interactive challenges, quizzes and score tracking across multiple languages to strengthen logic and problem-solving. Built by Rohan · JavaScript, Node.jsOpen the live project ↗](https://astounding-flan-f18e08.netlify.app/)[![Babu: 90 Second Maths Challenge](/images/projects/babu.webp) GameBabu: 90 Second Maths ChallengeAn exciting 90-second maths challenge with random problems under time pressure, and a dynamic leaderboard powered by Firebase/MongoDB with real-time score updates. Built by Modern Age Coders · JavaScript, FirebaseOpen the live project ↗](https://babu.modernagecoders.com)[See more student projects →](/student-labs)
 
 ## What families say
 

@@ -142,11 +142,11 @@ SCHEDULE
 
 | Slot | Time | Best for | Days |
 | --- | --- | --- | --- |
-| Early evening | 4:30, 6:00 PM | Kids (ages 6–12) after school | Mon / Wed / Fri |
-| Prime evening | 6:00, 7:30 PM | Teens balancing school and board prep | Tue / Thu / Sat |
-| Late evening | 7:30: 9:00 PM | Senior teens and ICSE/CBSE board students | Mon / Wed / Fri |
-| Night batch | 9:00, 10:00 PM | College students and working professionals | Tue / Thu |
-| Weekend morning | 10:00: 11:30 AM | 1-on-1 and intensive catch-up sessions | Sat / Sun |
+| Early evening | 4:30 – 6:00 PM | Kids (ages 6–12) after school | Mon / Wed / Fri |
+| Prime evening | 6:00 – 7:30 PM | Teens balancing school and board prep | Tue / Thu / Sat |
+| Late evening | 7:30 – 9:00 PM | Senior teens and ICSE/CBSE board students | Mon / Wed / Fri |
+| Night batch | 9:00 – 10:00 PM | College students and working professionals | Tue / Thu |
+| Weekend morning | 10:00 – 11:30 AM | 1-on-1 and intensive catch-up sessions | Sat / Sun |
 
 Timings are flexible and built around South Kolkata school schedules. Tell us what suits your child and we will fit a batch around it.
 
@@ -253,7 +253,7 @@ REAL STUDENT PROJECTS
 
 ## What our students actually build
 
-[![HugSelle, AI Smile Generator](/images/projects/hugselle.webp)AI & MLHugSelle, AI Smile GeneratorA heartwarming AI-powered web app that detects your mood and generates uplifting quotes and visuals to make you smile, a creative blend of technology and positivity.by AnuragOpen the live project ↗](https://hugselle.modernagecoders.com)[![Moxo, Company Landing Page](/images/projects/moxo.webp)Web AppMoxo, Company Landing PageA stunning modern landing page with smooth parallax scrolling, advanced GSAP animations and elegant section transitions that bring the brand to life.by IshaOpen the live project ↗](https://moxo.modernagecoders.com)[![Baby, Typing Speed Challenge](/images/projects/baby.webp)GameBaby, Typing Speed ChallengeAn engaging typing speed challenge where users test how fast and accurately they can type, with a live leaderboard connected to a MongoDB backend.by KritikaOpen the live project ↗](https://baby.modernagecoders.com)
+[![HugSelle: AI Smile Generator](/images/projects/hugselle.webp)AI & MLHugSelle: AI Smile GeneratorA heartwarming AI-powered web app that detects your mood and generates uplifting quotes and visuals to make you smile, a creative blend of technology and positivity.by AnuragOpen the live project ↗](https://hugselle.modernagecoders.com)[![Moxo: Company Landing Page](/images/projects/moxo.webp)Web AppMoxo: Company Landing PageA stunning modern landing page with smooth parallax scrolling, advanced GSAP animations and elegant section transitions that bring the brand to life.by IshaOpen the live project ↗](https://moxo.modernagecoders.com)[![Baby: Typing Speed Challenge](/images/projects/baby.webp)GameBaby: Typing Speed ChallengeAn engaging typing speed challenge where users test how fast and accurately they can type, with a live leaderboard connected to a MongoDB backend.by KritikaOpen the live project ↗](https://baby.modernagecoders.com)
 
 Every one is a real, live project by a student. See more in [Student Labs](/student-labs).
 

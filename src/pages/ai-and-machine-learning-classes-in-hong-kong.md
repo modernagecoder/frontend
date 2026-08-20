@@ -283,7 +283,7 @@ We are not an admissions service, and a coding course does not open a JUPAS gate
 
 How the classes run
 
-## Two and a half hours behind India, every single day of the year
+## Two and a half hours ahead of India, every single day of the year
 
 Hong Kong Time is UTC plus 8 and observes no daylight saving. Indian Standard Time, where our teaching operation sits, is UTC plus 5 hours 30 minutes and also never moves. Hong Kong is therefore exactly 2 hours 30 minutes ahead in January and in July alike, so a tutor converts by subtracting 2:30 and never has to reset a recurring booking.
 
@@ -355,7 +355,7 @@ Data and forecasting
 
 A weather application built on live feeds, the closest relative of the typhoon signal work above.
 
-by Krish · [Open the live project](https://krish-shroff.github.io/AuraWeatherTech/)
+by Krish
 
 Fees
 
@@ -499,6 +499,8 @@ Start here
 Leave a number and a mentor rings back at an hour that suits Hong Kong rather than one that suits us. That opening session is taught, not sold, and it also tells us the level to place a learner at, so nobody spends a term being bored or being lost.
 
 Prefer to look around first? Read [how we teach](/how-we-teach), browse the [full course catalogue](/courses), or see what students have built in [Student Labs](/student-labs).
+
+[Chat with us](https://wa.me/919123366161?text=Hi%2C%20I'm%20interested%20in%20learning%20more%20about%20your%20courses!)
 
 ---
 

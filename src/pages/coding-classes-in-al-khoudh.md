@@ -1,159 +1,337 @@
 ---
 title: "Coding Classes in Al Khoudh | Modern Age Coders"
 description: "Live online coding and mathematics in Al Khoudh for ages 6 to 67, with SQU evidence, clear USD fees, a multiple-testing project and a free live class."
-canonical: "https://learn.modernagecoders.com/coding-classes-in-al-khoudh"
-last_verified: "2026-08-16"
+canonical: https://learn.modernagecoders.com/coding-classes-in-al-khoudh
+source: src/pages/coding-classes-in-al-khoudh.html
+---
+> Live online coding and mathematics in Al Khoudh for ages 6 to 67, with SQU evidence, clear USD fees, a multiple-testing project and a free live class.
+
+Skip to contentCourse picks
+
+## Plan one test, then control the search
+
+The four choices move from code-based mathematics to formal statistical and analytical work. Placement decides whether the learner needs fundamentals, implementation or interpretation.
+
+[![Maths Through Coding course thumbnail](/images/maths-through-coding.webp)Ages 8 to 13Maths Through CodingSimulate chance and count false alarms.See the syllabus](/courses/maths-through-coding)[![AP Statistics course thumbnail](/images/ap-statistics.webp)High schoolAP StatisticsInterpret thresholds, errors and evidence.See the syllabus](/courses/ap-statistics-maths-exam-prep-course)[![Data Science course thumbnail](/images/data-science-college.webp)College and adultData ScienceSeparate exploration from confirmation.See the syllabus](/courses/data-science-complete-masterclass-college)[![Data Analytics Mathematics course thumbnail](/images/data-analytics-maths.webp)College and adultData Analytics MathematicsControl family-wise error explicitly.See the syllabus](/courses/data-analytics-mathematics-masterclass)
+
+The [course atlas](/course-atlas) organises more than one hundred options. Check dependencies in the [coding roadmap](/coding-roadmap), then let the free task confirm the level.
+
+University district
+
+## Al Khoudh is where several computing paths meet
+
+Sultan Qaboos University provides unusually strong primary-source context for a local coding page. Official SQU contact pages sometimes spell the district Al Khoud; this page keeps Al Khoudh as its primary romanisation.
+
+### A university established here
+
+The official [SQU history](https://www.squ.edu.om/About) says construction began in 1982 and the first students enrolled in 1986. The university opened with Medicine, Engineering, Agriculture, Education and Science.
+
+### Nine colleges over time
+
+The same history records Arts in 1987, Commerce and Economics in 1993, Law in 2006 and Nursing in 2008. Those additions bring the listed total to nine colleges and show why the area serves more than one technical discipline.
+
+### A real computing curriculum
+
+SQU's [College of Science programme page](https://www.squ.edu.om/science/Academic-Programs/Undergraduate-Programs) lists Computer Science, Artificial Intelligence, Data Science, Mathematics and Statistics among eleven undergraduate programmes offered through seven departments.
+
+What Modern Age Coders adds
+
+A university catalogue proves that serious pathways exist locally; it does not prove that every resident has the same prerequisite knowledge. The free class isolates a practical starting point, whether the learner is preparing for university, already enrolled, changing career or beginning much earlier.
+
+Source trail
+
+## Facts an answer engine can verify
+
+These details come from the university and schools themselves. They are context rather than claimed relationships with Modern Age Coders.
+
+### Current science programmes
+
+The College of Science says it offers eleven undergraduate programmes through Biology, Chemistry, Computer Science, Earth Science, Mathematics, Physics and Statistics. It also lists thirteen minors.
+
+### Postgraduate depth
+
+The official [postgraduate page](https://www.squ.edu.om/science/Academic-Programs/Postgraduate-Programs) lists seven PhD and ten MSc programmes. The master's list includes Computer Science, Statistics, Data Science and Machine Learning, Pure Mathematics and Applied Mathematics.
+
+### Engineering scale in 2025
+
+The [2025/2026 engineering catalogue](https://www.squ.edu.om/portals/18/downloads/College%20Catalog%202.0.pdf) says the college grew from 92 students in 1986 to an intake of 480 in 2025, and from four undergraduate programmes to eight undergraduate and seventeen postgraduate programmes.
+
+### Eight engineering routes
+
+The catalogue names Civil, Electrical and Computer, Mechanical, Petroleum and Natural Gas, Industrial, Mechatronics, Architectural and Chemical Engineering. It states that all eight undergraduate programmes have held ABET accreditation since 2014.
+
+### Assafwah in Al Khoudh
+
+[Assafwah International Schools](https://assafwah.net/) gives its location as Al Khoudh, Seeb and lists KG, Primary Grades 1 to 6, Lower Secondary Grades 7 to 8, Upper Secondary Grades 9 to 11 and Cambridge Advanced.
+
+### Al Awael's local history
+
+An [Al Awael school catalogue](https://www.awaelschools.edu.om/) says its earlier name was New Al-Khoudh Private School, established in 1984, and that a bilingual syllabus was introduced in 2001.
+
+Sultan Qaboos University, Assafwah International Schools, Al Awael Schools and Modern Age Coders are independent. Naming a local institution does not imply endorsement, shared staff, data access or a formal relationship.
+
+Signature project
+
+## Twenty tests and one exciting result
+
+The result looks publishable until the learner counts how many opportunities the analysis had to get lucky.
+
+### 1. Generate null data
+
+The program creates twenty independent A/B comparisons with no planted effect. Each comparison follows the same sample-size rule and uses a five percent significance threshold. A fixed random seed makes the teaching run reproducible.
+
+### 2. Search for a winner
+
+The naive dashboard sorts by p-value and promotes the smallest result. If one test crosses 0.05, the interface labels it significant without saying nineteen other hypotheses were tried.
+
+### 3. Audit the family
+
+The learner restores the full test registry. Under independence, the chance of at least one false positive across twenty null tests is 1 minus 0.95 to the power of 20, approximately 64.15 percent.
+
+| View | Tests disclosed | Threshold | Interpretation |
+| --- | --- | --- | --- |
+| Promoted result only | 1 | p < 0.05 | Looks like one planned discovery |
+| Full exploratory family | 20 | p < 0.05 each | Many chances existed for a false alarm |
+| Bonferroni control | 20 | p < 0.0025 each | Controls family-wise error near five percent |
+| Held-out confirmation | 1 preselected test | Defined before new data | Checks whether the exploratory lead repeats |
+
+### The code must register hypotheses before sorting
+
+A table containing test ID, hypothesis, data split, metric, threshold and status makes the search auditable. Hiding the registry and showing only the best row is a product-design error as well as a statistical one.
+
+Reasoning
+
+## Why a five percent rule does not stay five percent
+
+The single-test error rate and the whole-family error rate are different quantities. The learner calculates both, then chooses a remedy that matches the question.
+
+| Number of tests | Chance of no false positives | Chance of at least one | Lesson |
+| --- | --- | --- | --- |
+| 1 | 95.00% | 5.00% | The familiar threshold applies to one test |
+| 5 | 77.38% | 22.62% | The family risk is already much larger |
+| 10 | 59.87% | 40.13% | A false alarm is no longer unusual |
+| 20 | 35.85% | 64.15% | At least one false alarm is more likely than none |
+
+### Pre-register the primary test
+
+Define the question, metric and stopping rule before seeing the outcome. Other analyses can remain exploratory.
+
+### Correct for the family
+
+Bonferroni divides the family threshold by the number of tests. Other methods may control different error concepts.
+
+### Confirm on fresh data
+
+Use exploration to generate a candidate, then evaluate that candidate on a held-out or newly collected sample.
+
+The independence calculation is a teaching model, not a universal shortcut. Correlated tests change the exact probability. The learner must state assumptions instead of applying 64.15 percent to every real analysis.
+
+Placement ladder
+
+## From simple chance experiments to reproducible analysis
+
+The free class checks what the learner can already do before selecting a band.
+
+Ages 6 to 10
+
+### Count repeated outcomes
+
+Blocks and visual charts make randomness and repetition concrete.
+
+[Mental Maths](/courses/mental-maths-mastery-kids)[Kids Coding Blocks](/courses/kids-coding-blocks-masterclass)Ages 11 to 13
+
+### Simulate and compare
+
+Learners generate results, count extremes and explain variability.
+
+[Python and AI for Kids](/courses/python-ai-kids-masterclass)[Middle School Mathematics](/courses/comprehensive-middle-school-mathematics-mastery)Ages 14 to 18
+
+### Test a declared idea
+
+Teenagers use probability, Python and data frames with clear hypotheses.
+
+[Statistics and Probability](/courses/statistics-probability-maths-course)[Data Science for Teens](/courses/data-science-course-for-teens-python-data)Ages 18 to 67
+
+### Build an audit trail
+
+College learners and adults register tests, control errors and reproduce results.
+
+[Data Analysis](/courses/data-analysis-mastery-course-college)[Python AI Automation](/courses/python-ai-automation-masterclass-college)Live delivery
+
+## Teach the decision, not just the library call
+
+Every class combines implementation with explanation. The learner should be able to say what was tested, what was not tested and what the output can support.
+
+### First lesson free
+
+A short task establishes the current level before any tuition payment.
+
+### Group teaching
+
+Five to eight compatible learners discuss code and compare reasoning.
+
+### Private teaching
+
+One learner and one teacher can concentrate on a defined objective.
+
+### Regular rhythm
+
+Two classes per week normally produce eight live sessions per month.
+
+### Time coordination
+
+Oman is one and a half hours behind India; the recurring time is agreed first.
+
+### Working equipment
+
+A laptop or desktop, reliable internet, audio and a supported browser are needed.
+
+Why online suits a university district
+
+An Al Khoudh learner does not need to travel along Sultan Qaboos Highway toward a separate Muscat classroom twice each week. Live online teaching keeps the interaction while using the learner's own development setup, which is valuable for installing tools, organising files and reproducing work.
+
+Fees
+
+## Pricing stated before the decision
+
+The first class tests fit. The two paid formats use the same normal frequency and differ mainly in class size.
+
+Placement class**USD 0**
+
+One live ability task and a recommended starting route.
+
+Group per month**USD 100**
+
+Normally eight classes with five to eight compatible learners.
+
+Private per month**USD 150**
+
+Normally eight classes with one student and one teacher.
+
+The course, group or private format, teacher availability and recurring time are confirmed before payment. A university student, child and working adult all receive the free first class.
+
+Request the free class[Discuss the course](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20want%20a%20free%20coding%20class%20for%20a%20learner%20in%20Al%20Khoudh.)Reviews
+
+## What families and learners say
+
+Rated 4.9 across 547 Google reviews. These are real reviews, reproduced as written.
+
+★★★★★
+
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
+
+Ria Mukherjee
+
+Parent
+
+★★★★★
+
+"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
+
+Samriddha Mondal
+
+Student
+
+★★★★★
+
+"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
+
+Vansh Agarwal
+
+Student
+
+★★★★★
+
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
+
+Sonam Oswal
+
+Parent of Dhairya
+
+★★★★★
+
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
+
+Sonu Goyal
+
+Parent
+
+★★★★★
+
+"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
+
+Ritu Kedia
+
+Parent
+
+Free class
+
+## Show the current level with one small task
+
+Send the learner's age or grade, experience and objective. The teacher will choose an appropriate placement problem.
+
+### Contact Modern Age Coders directly
+
+Use WhatsApp, call [+91 91233 66161](tel:+919123366161), or email [contact@modernagecoders.com](mailto:contact@modernagecoders.com). This is the organisation's real contact information, not a fabricated Oman branch number.
+
+[WhatsApp the team](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20want%20a%20free%20coding%20class%20for%20a%20learner%20in%20Al%20Khoudh.)
+
+The submitted details are used for class placement and follow-up.
+
+FAQ
+
+## Questions about coding classes in Al Khoudh
+
+Each answer distinguishes the local evidence from the online teaching service.
+
+### Can Sultan Qaboos University students join these classes?
+
+Yes. University learners can request Python, algorithms, databases, data analysis, data science, AI or web development, subject to placement and teacher availability. Sultan Qaboos University and Modern Age Coders are independent organisations. The free class checks current skill and identifies a practical next project rather than assuming a level from the learner's degree title.
+
+### Can school learners in Al Khoudh enrol?
+
+Yes. Children and teenagers from any school may take a free placement class. A learner from Assafwah, Al Awael, United Private School or another school is placed by demonstrated ability, pace and objective. School names are used only as local context; no partnership or endorsement is claimed.
+
+### What is the Al Khoudh multiple-comparisons project?
+
+The learner runs twenty independent tests on synthetic null data. At a five percent threshold, one apparently significant result can appear even when no real effects were planted. The student calculates the family-wise false-positive risk, separates exploratory from confirmatory work, and applies a correction or uses a held-out validation set before making a claim.
+
+### Does the project use real university research data?
+
+No. The demonstration values are generated for teaching and are not results from Sultan Qaboos University, its students or its researchers. Official university sources establish the local academic context only. Learners must label the dataset synthetic and must not attach a named institution to a simulated finding.
+
+### Does Modern Age Coders have an Al Khoudh campus?
+
+No Al Khoudh office, classroom or campus is claimed. Classes are live online. The learner joins from a laptop or desktop with stable internet and works with a teacher through explanation, coding, screen sharing and review. The service page describes who can enrol in the area, not a physical teaching location.
+
+### How is multiple testing different from testing one planned idea?
+
+A five percent false-positive threshold applies to one test under its assumptions. When many hypotheses are searched, the chance of at least one false alarm rises across the family. A planned single test, an exploratory search and a confirmatory test on fresh data answer different questions and should be labelled separately.
+
+### How much do Al Khoudh coding classes cost?
+
+The first class is free. Standard group tuition is USD 100 per month for two live lessons each week, normally eight lessons in a month. Standard private tuition is USD 150 per month for one learner with one teacher on the same usual frequency. The format, recurring time and starting course are confirmed before payment.
+
+### What are the group and private class sizes?
+
+A group normally has five to eight compatible learners. Compatibility includes present skill, learning pace and objective, not age alone. Private tuition is one student with one teacher. If a suitable group is not available, the learner can discuss private tuition or wait for an appropriate cohort.
+
+### How is an Oman class time confirmed?
+
+Oman is one and a half hours behind India. The learner and teacher agree a recurring time before payment, usually for two classes each week. Friday and Saturday options may be discussed subject to availability. University timetables, school examinations, Ramadan routines and adult work commitments should be mentioned in advance.
+
+### What happens in the free Al Khoudh class?
+
+The teacher asks about the learner's objective and observes a short ability-matched task. A child may test a block program, a teenager may repair Python, and an experienced learner may audit a table of repeated tests. The teacher then explains the suggested course, group or private format, timetable and USD fee. The first class requires no tuition payment.
+
+Continue
+
+## Compare nearby evidence lessons
+
+Read the [Muscat coding hub](/coding-classes-in-muscat) for city-level context and the [Oman coding hub](/coding-classes-in-oman) for the national offer. The two nearby district lessons are [Al Hail](/coding-classes-in-al-hail), which audits survivorship, and [Mawaleh](/coding-classes-in-mawaleh), which corrects a median of medians.
+
+Start with the free class[Close with WhatsApp](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20want%20a%20free%20coding%20class%20for%20a%20learner%20in%20Al%20Khoudh.)Free Al Khoudh class[Call +91 91233 66161](tel:+919123366161)[Chat with us](https://wa.me/919123366161?text=Hi%2C%20I'm%20interested%20in%20learning%20more%20about%20your%20courses!)
+
 ---
 
-# Coding classes in Al Khoudh for testing evidence, not luck
-
-> Sultan Qaboos University makes Al Khoudh, also romanised Al Khod, a genuine university district rather than a generic Muscat label. For children, university learners and adults from 6 to 67, Modern Age Coders runs live online coding, AI, data and mathematics. A free diagnostic comes before USD 100 groups or USD 150 private study.
-
-Sultan Qaboos University makes Al Khoudh a real university district rather than a generic Muscat label. Official university pages sometimes use the alternative spelling Al Khoud; this guide keeps Al Khoudh as its primary romanisation.
-
-Modern Age Coders does not claim an Al Khoudh campus, office or classroom. The teaching is live online. Learners use a laptop or desktop and work synchronously with a teacher through code, questions, screen sharing and review. Local institutions are named to establish audience and educational context, not to imply a partnership.
-
-Facts on this page were last verified on 16 August 2026.
-
-## Sultan Qaboos University anchors the local context
-
-The [official Sultan Qaboos University history](https://www.squ.edu.om/About) says construction began in 1982 and the first students enrolled in 1986. The university opened with five colleges: Medicine, Engineering, Agriculture, Education and Science. Arts followed in 1987, Commerce and Economics in 1993, Law in 2006 and Nursing in 2008. Those listed additions bring the university to nine colleges.
-
-The same official page describes a campus set in a valley beneath the foothills of the Oman Mountains, with buildings using arches, courtyards and white and pink sandstone. That is a physical, verifiable description of the institution that defines Al Khoudh's university character.
-
-The [SQU College of Science undergraduate page](https://www.squ.edu.om/science/Academic-Programs/Undergraduate-Programs) says the college offers eleven undergraduate programmes through seven departments: Biology, Chemistry, Computer Science, Earth Science, Mathematics, Physics and Statistics. The degree list includes Artificial Intelligence, Computer Science, Data Science, Mathematics and Statistics, alongside the natural-science programmes. The page also lists thirteen minors.
-
-The [College of Science postgraduate page](https://www.squ.edu.om/science/Academic-Programs/Postgraduate-Programs) lists seven PhD programmes and ten MSc programmes. The master's list includes Computer Science, Statistics, Data Science and Machine Learning, Pure Mathematics and Applied Mathematics. The doctoral list includes Computer Science, Statistics and Mathematics.
-
-The [2025/2026 College of Engineering catalogue](https://www.squ.edu.om/portals/18/downloads/College%20Catalog%202.0.pdf) reports growth from an intake of 92 students in 1986 to 480 in 2025. It says the college expanded from four undergraduate programmes in 1986 to eight undergraduate and seventeen postgraduate programmes in 2025. The eight undergraduate fields are Civil, Electrical and Computer, Mechanical, Petroleum and Natural Gas, Industrial, Mechatronics, Architectural and Chemical Engineering. The catalogue states that all eight have held ABET accreditation since 2014.
-
-These facts explain why a local coding offer should include more than elementary programming. They do not imply that Modern Age Coders teaches for SQU, has access to its students or replaces its degrees.
-
-## Schools in Al Khoudh add earlier starting points
-
-[Assafwah International Schools](https://assafwah.net/) identifies its location as Al Khoudh, Seeb. Its official site lists Early Childhood KG, Primary Grades 1 to 6, Lower Secondary Grades 7 to 8, Upper Secondary Grades 9 to 11 and Cambridge Advanced. The school FAQ describes a Cambridge Global Curriculum and says the Al Khoudh branch includes a swimming pool.
-
-An [Al Awael Schools catalogue](https://www.awaelschools.edu.om/content/catalog/en.pdf) traces its local history to New Al-Khoudh Private School, established in 1984 with a Ministry of Education monolingual syllabus. The catalogue says a bilingual syllabus was introduced in 2001.
-
-The [United Private School Al Khoudh page](https://upsschools.edu.om/al-khoud/) gives school hours for KG1, KG2 and Grades 1 to 12 and states a Sunday-to-Thursday week. The site identifies the Al Khoudh location but Modern Age Coders does not claim a relationship with the school.
-
-Together, these sources show learners at primary, secondary, undergraduate and postgraduate levels in the district. The free class still places by current ability. A school name, grade or degree subject provides context but cannot substitute for observing the learner solve a problem.
-
-Use the [Muscat coding hub](https://learn.modernagecoders.com/coding-classes-in-muscat) for wider city context and the [Oman coding hub](https://learn.modernagecoders.com/coding-classes-in-oman) for national delivery and pricing.
-
-## The Al Khoudh multiple-comparisons project
-
-The signature error is **multiple comparisons**. A dashboard tests twenty ideas and promotes the most exciting result. One comparison crosses the familiar p-value threshold of 0.05. If the dashboard displays that comparison alone, it looks like a single planned discovery.
-
-The class rebuilds the analysis using synthetic null data. No true effect is planted in any of the twenty independent A/B comparisons. Each uses the same sample size, metric and five percent false-positive threshold. A fixed random seed makes the teaching run reproducible.
-
-When the program tests only one null hypothesis, the probability of avoiding a false positive is 0.95. When it runs twenty independent null tests, the chance that all twenty avoid a false positive is 0.95 raised to the twentieth power, approximately 35.85 percent. The chance of at least one false positive is therefore:
-
-`1 - 0.95^20 = 0.6415`, approximately 64.15 percent.
-
-This does not mean a particular low p-value is automatically false. It means the analysis process offered many chances for random variation to produce a low result. The number of tests is part of the evidence.
-
-| Analysis view | Tests disclosed | Threshold | Interpretation |
-|---|---:|---:|---|
-| Promoted result only | 1 | p below 0.05 | Looks like one planned finding |
-| Full exploratory family | 20 | p below 0.05 each | Many chances for a false alarm |
-| Bonferroni control | 20 | p below 0.0025 each | Controls family-wise error near five percent |
-| Held-out confirmation | 1 preselected test | Defined before new data | Checks whether the lead repeats |
-
-The student builds a registry containing test ID, hypothesis, data split, metric, threshold, result and status. The dashboard is not allowed to discard rows after sorting. It can highlight the smallest p-value, but it must also display the family size and whether the analysis was exploratory or confirmatory.
-
-The values in this demonstration are generated for teaching. They are not university research, student performance or school results. SQU and the named schools supply local education context only.
-
-## From one-test risk to family risk
-
-| Number of independent null tests | Chance of no false positives | Chance of at least one | What changes |
-|---:|---:|---:|---|
-| 1 | 95.00% | 5.00% | The ordinary single-test threshold |
-| 5 | 77.38% | 22.62% | The family risk is already larger |
-| 10 | 59.87% | 40.13% | A false alarm is no longer rare |
-| 20 | 35.85% | 64.15% | At least one is more likely than none |
-
-The independence assumption is explicit. Real tests may be correlated because they reuse observations, metrics or features. That changes the exact probability, so 64.15 percent is not a universal correction. The program's purpose is to reveal the family of tests and force the analyst to state assumptions.
-
-Three remedies are compared.
-
-First, the learner can pre-register one primary hypothesis, metric and stopping rule before seeing results. Other checks remain exploratory. Second, a family-wise correction such as Bonferroni can divide 0.05 by twenty, producing a per-test threshold of 0.0025 for this simple family. Third, exploration can generate a candidate and a held-out or newly collected dataset can provide confirmation.
-
-Other procedures can control different error concepts, including the false discovery rate. A good learner does not choose a correction by name alone. The class asks what kind of wrong conclusion matters, how the hypotheses form a family and whether confirmatory data are available.
-
-## What learners build at different ages
-
-Ages 6 to 10 can begin with repeated coin, spinner or block-program outcomes. They count how many trials satisfy a rule and see that a surprising result sometimes occurs naturally. The focus is not formal inference; it is understanding repetition and chance.
-
-Ages 11 to 13 can write a simple simulation, run it many times and plot the number of flagged comparisons. They explain why choosing the most unusual outcome after the run differs from declaring one target before the run.
-
-Teenagers can work with functions, arrays and data frames. They implement a test registry, calculate family-wise risk and write automated checks that prevent a dashboard from hiding the test count.
-
-College learners and adults can separate exploration and confirmation, add corrections, use versioned notebooks and produce a reproducible report. An SQU student may recognise the formal concepts, while a working analyst may care more about experiment dashboards and product decisions. Placement starts where the learner's present work demands.
-
-## Courses connected to the project
-
-The course catalogue includes foundations and advanced routes:
-
-- [Mental Maths](https://learn.modernagecoders.com/courses/mental-maths-mastery-kids) for numerical fluency;
-- [Kids Coding Blocks](https://learn.modernagecoders.com/courses/kids-coding-blocks-masterclass) for visible repetition and state;
-- [Maths Through Coding](https://learn.modernagecoders.com/courses/maths-through-coding) for simulation and verification;
-- [Python and AI for Kids](https://learn.modernagecoders.com/courses/python-ai-kids-masterclass) for a supported move to text code;
-- [Middle School Mathematics](https://learn.modernagecoders.com/courses/comprehensive-middle-school-mathematics-mastery) for probability foundations;
-- [Statistics and Probability](https://learn.modernagecoders.com/courses/statistics-probability-maths-course) for formal interpretation;
-- [Data Science for Teens](https://learn.modernagecoders.com/courses/data-science-course-for-teens-python-data) for tables, code and evidence;
-- [AP Statistics](https://learn.modernagecoders.com/courses/ap-statistics-maths-exam-prep-course) for high-school statistical reasoning;
-- [Data Analysis](https://learn.modernagecoders.com/courses/data-analysis-mastery-course-college) for reproducible analytical workflows;
-- [Data Science](https://learn.modernagecoders.com/courses/data-science-complete-masterclass-college) for modelling and validation;
-- [Data Analytics Mathematics](https://learn.modernagecoders.com/courses/data-analytics-mathematics-masterclass) for error rates and inference;
-- [Python AI Automation](https://learn.modernagecoders.com/courses/python-ai-automation-masterclass-college) for experiment registries and reporting pipelines.
-
-The free class prevents course-title matching from replacing placement. A beginner university student may need Python foundations. A teenager with strong experience may be ready for data science. An adult may need one focused automation project rather than a long introductory route.
-
-## Live online class format
-
-Modern Age Coders has taught more than 10,000 students since 2020 in more than 25 countries. Learners have ranged from 6 to 67. The organisation is rated 4.9 across 547 Google reviews.
-
-Group classes normally contain five to eight compatible learners. Compatibility includes current skill, pace and objective. Private tuition is one student with one teacher. The usual schedule is two live classes per week, normally eight per month.
-
-Oman is one and a half hours behind India. A recurring class time is confirmed before payment. Friday and Saturday possibilities may be discussed subject to availability. School exams, university timetables, adult work and Ramadan routines should be raised before scheduling.
-
-A laptop or desktop, stable internet, audio and a modern browser are required. Working on the learner's own computer is particularly useful for university and adult routes because file structure, environments and repeatability are part of the skill.
-
-## Free first class and transparent fees
-
-The first live class costs USD 0. The teacher asks about the goal and gives an ability-matched task. A child may debug blocks, a teenager may repair Python, and an experienced learner may audit twenty test records and explain which claim survives correction.
-
-After placement, standard group tuition is USD 100 per month for the normal eight-class rhythm. Standard private tuition is USD 150 per month for one learner and one teacher, also normally eight classes. The course, format, teacher availability and recurring time are agreed before payment.
-
-## Common questions
-
-### Can SQU students join?
-
-Yes. University learners can request Python, algorithms, databases, data analysis, data science, AI or web development, subject to placement and teacher availability. Modern Age Coders and SQU are independent.
-
-### Can local school learners join?
-
-Yes. Children and teenagers are placed by ability and objective, not by a school name alone.
-
-### Is the multiple-testing dataset real university data?
-
-No. It is synthetic teaching data. It is not a claim about any local institution.
-
-### Does Modern Age Coders have a campus in Al Khoudh?
-
-No physical Al Khoudh location is claimed. Classes are live online.
-
-### What is the fee?
-
-The first class is free. Group tuition is USD 100 monthly and private tuition is USD 150 monthly, normally for eight live classes.
-
-### How large are groups?
-
-Five to eight compatible learners. Private teaching is one student with one teacher.
-
-### What nearby pages explain different errors?
-
-The [Al Hail coding guide](https://learn.modernagecoders.com/coding-classes-in-al-hail) explains survivorship bias. The [Mawaleh coding guide](https://learn.modernagecoders.com/coding-classes-in-mawaleh) corrects the median of medians. Return to the [Oman coding hub](https://learn.modernagecoders.com/coding-classes-in-oman) for the full national offer.
-
-Request the free class through the HTML form, WhatsApp +91 91233 66161, or contact@modernagecoders.com.
+*Canonical: https://learn.modernagecoders.com/coding-classes-in-al-khoudh*

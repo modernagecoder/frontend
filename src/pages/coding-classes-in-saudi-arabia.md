@@ -185,7 +185,7 @@ Student projects
 
 Every one of these is a real, live project shipped by a Modern Age Coders student, not a mockup. Explore more in our [Student Labs](/student-labs).
 
-![SkyCast, Weather Forecast App](/images/projects/skycast.webp)
+![SkyCast: Weather Forecast App](/images/projects/skycast.webp)
 
 Web App
 
@@ -193,7 +193,7 @@ Web App
 
 An interactive weather forecasting site with real-time updates for any location, temperature, humidity, wind speed and conditions in a clean, responsive interface.
 
-by Krish · [Open the live project ↗](https://krish-shroff.github.io/AuraWeatherTech/)
+by Krish
 
 ![HugSelle: AI Smile Generator](/images/projects/hugselle.webp)
 
@@ -223,7 +223,7 @@ Fees are billed monthly in US dollars. The riyal figures below shift a little wi
 
 Group classes
 
- $1$100$2
+$100 per month
 
 - Live classes in batches of 5 to 8
 - Evening and weekend AST slots
@@ -234,7 +234,7 @@ Book a Free Demo
 
 One-on-one classes
 
- $1$150$2
+$150 per month
 
 - Private classes, one student, one teacher
 - Schedule built around your week
@@ -260,6 +260,8 @@ The demo is our whole sales pitch. A real teacher, a real hour, and by the end o
 Prefer WhatsApp? [Message us](https://wa.me/919123366161?text=Hi,%20I%20want%20a%20free%20demo%20for%20coding%20classes%20in%20Saudi%20Arabia) and a mentor will reply during Saudi daytime hours.
 
 4.9 rating across 547+ Google reviews
+
+[Chat with us](https://wa.me/919123366161?text=Hi%2C%20I'm%20interested%20in%20learning%20more%20about%20your%20courses!)
 
 ---
 

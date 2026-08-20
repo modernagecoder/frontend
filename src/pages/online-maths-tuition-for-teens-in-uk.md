@@ -50,7 +50,7 @@ Worked example · KS3 into GCSE
 
 **How we do it.** Dividing asks "how many of these fit into that?" So 6 ÷ ½ is asking "how many halves fit into 6?", and two halves fit into every whole, so the answer is twelve. Dividing by a half *doubles*. Multiplying by 2 (the flipped ½) does the same thing:
 
-6 ÷ ½ = "how many halves in 6?" = **12**and 6 × 2 = 12 ✓ (×2 is the flipped ½)so a ÷ (c/d) = a × (d/c), flip and multiply, with a reason
+6 ÷ ½ = "how many halves in 6?" = **12**and 6 × 2 = 12 ✓ (×2 is the flipped ½)so a ÷ (c/d) = a × (d/c) , flip and multiply, with a reason
 
 Now "flip and multiply" isn't a spell, it's the obvious consequence of what dividing actually means. A teen who sees this stops mixing up which fraction to flip, and can handle the algebraic fractions that trip up GCSE candidates. That's the difference between a grade that survives one test and understanding that survives the exam.
 
@@ -179,15 +179,13 @@ An honest comparison
 
 ## How we differ from the alternatives.
 
- $1$150 (1:1) / $100 (group)$2
-
 | What matters | Modern Age Coders | Revision apps | A typical tutor |
 | --- | --- | --- | --- |
 | Fixes the root gap | Diagnoses & rebuilds it | No, content only | Sometimes |
 | Teaches reasoning | Always | Rarely | Varies |
 | Same tutor each time | Yes, throughout | N/A | Often |
 | Works to your exam board | Yes | Generic | Varies |
-| Monthly price | £5–10 | £30–50/hr |
+| Monthly price | $150 (1:1) / $100 (group) | £5–10 | £30–50/hr |
 
 Revision apps are handy for practice. A local tutor is great if you can afford the hourly rate. We give the live, one-to-one attention of a tutor at a monthly price closer to an app.
 
@@ -259,7 +257,7 @@ Real student projects
 
 Every one is a real, live project shipped by a Modern Age Coders student. Explore more in [Student Labs](/student-labs).
 
-[![HairSync, AI Hairstyle Try-On](/images/projects/hairsync.webp)AI & MLHairSync, AI Hairstyle Try-OnUpload a clear photo and try on any hairstyle before you commit, wolf cuts, curtain bangs, fades, braids and dozens of trending looks, rendered onto your own face by AI in seconds. Kriti vibe-coded this virtual try-on studio from a single idea into a working app.by KritiOpen the live project ↗](https://hairsync.lovable.app)[![SkyCast, Weather Forecast App](/images/projects/skycast.webp)Web AppSkyCast, Weather Forecast AppAn interactive weather forecasting site with real-time updates for any location, temperature, humidity, wind speed and conditions in a clean, responsive interface.by KrishOpen the live project ↗](https://krish-shroff.github.io/AuraWeatherTech/)[![HugSelle, AI Smile Generator](/images/projects/hugselle.webp)AI & MLHugSelle, AI Smile GeneratorA heartwarming AI-powered web app that detects your mood and generates uplifting quotes and visuals to make you smile, a creative blend of technology and positivity.by AnuragOpen the live project ↗](https://hugselle.modernagecoders.com)
+[![HairSync: AI Hairstyle Try-On](/images/projects/hairsync.webp)AI & MLHairSync: AI Hairstyle Try-OnUpload a clear photo and try on any hairstyle before you commit, wolf cuts, curtain bangs, fades, braids and dozens of trending looks, rendered onto your own face by AI in seconds. Kriti vibe-coded this virtual try-on studio from a single idea into a working app.by KritiOpen the live project ↗](https://hairsync.lovable.app)[![Life Span Tracker](/images/projects/lifespan.webp)ToolLife Span TrackerAn interactive web tool that calculates expected lifespan, shows days, months and years lived, and visualises remaining time to motivate better habits.by ManayOpen the live project ↗](https://lifespantracker.netlify.app/)[![HugSelle: AI Smile Generator](/images/projects/hugselle.webp)AI & MLHugSelle: AI Smile GeneratorA heartwarming AI-powered web app that detects your mood and generates uplifting quotes and visuals to make you smile, a creative blend of technology and positivity.by AnuragOpen the live project ↗](https://hugselle.modernagecoders.com)
 
 ---
 

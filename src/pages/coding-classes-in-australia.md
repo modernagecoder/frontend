@@ -264,13 +264,13 @@ JavaScriptGSAPParallax[Open the live project ↗](https://moxo.modernagecoders.c
 
 Type in any book name and author, and BookDesk pulls together the book's details, a clear summary and a custom quiz to test what you've learned, a genuinely useful study companion.
 
-Gemini AIFull-StackDatabaseQuiz Gen[Open the live project ↗](https://bookdesk1.netlify.app)Built by Krish · Web App
+Gemini AIFull-StackDatabaseQuiz Gen[Open the live project ↗](https://bookdesk1.netlify.app)Built by Manay · Tool
 
-### SkyCast: Weather Forecast App
+### Life Span Tracker
 
-An interactive weather forecasting site with real-time updates for any location, temperature, humidity, wind speed and conditions in a clean, responsive interface.
+An interactive web tool that calculates expected lifespan, shows days, months and years lived, and visualises remaining time to motivate better habits.
 
-JavaScriptAPIHTML/CSS[Open the live project ↗](https://krish-shroff.github.io/AuraWeatherTech/)Meet the mentor team
+JavaScriptAPIsDate Calc[Open the live project ↗](https://lifespantracker.netlify.app/)Meet the mentor team
 
 ## Working engineers, AIO veterans and Go8 alumni.
 
@@ -364,7 +364,7 @@ How we compare
 
 School computing, private tutors, Cluey Learning, Code Camp / Coder Academy, free YouTube, each has a place. Here's where we sit.
 
-What mattersModern Age CodersSchool computing classCluey / Code Camp / Coder AcademyPrivate tutor / YouTubeSame 1:1 mentor weekly, all year✓ Yes: Class format~ Rotating~ Tutor-dependentReal coding (Python · JS · Git · deploy)✓ Week 1~ Sometimes~ Depends~ Self-drivenModern AI & agentic-AI engineering✓ Built in: Rare~ Marketing~ TutorialsState-exam alignment (HSC / VCE / QCE etc.)✓ All 8✓ Native (one state)~ Limited~ Tutor-dependentAIO / NCSS / Bebras coaching✓ Yes, Rare, Rare~ RareGroup of Eight admissions awareness✓ Yes~ Career counsellor~ Marketing only, NoMonthly costUSD 150 (1:1) / 100 (group)Free (in school)AUD 220, 600 / monthAUD 50: 120 / hourCancel / pause✓ Monthly~ Term-based~ Per term✓ HourlyWhere Australian families learn with us
+What mattersModern Age CodersSchool computing classCluey / Code Camp / Coder AcademyPrivate tutor / YouTubeSame 1:1 mentor weekly, all year✓ Yes: Class format~ Rotating~ Tutor-dependentReal coding (Python · JS · Git · deploy)✓ Week 1~ Sometimes~ Depends~ Self-drivenModern AI & agentic-AI engineering✓ Built in: Rare~ Marketing~ TutorialsState-exam alignment (HSC / VCE / QCE etc.)✓ All 8✓ Native (one state)~ Limited~ Tutor-dependentAIO / NCSS / Bebras coaching✓ Yes, Rare, Rare~ RareGroup of Eight admissions awareness✓ Yes~ Career counsellor~ Marketing only: NoMonthly costUSD 150 (1:1) / 100 (group)Free (in school)AUD 220, 600 / monthAUD 50, 120 / hourCancel / pause✓ Monthly~ Term-based~ Per term✓ HourlyWhere Australian families learn with us
 
 ## Online classes: locally aware, time-zone native.
 
@@ -538,13 +538,13 @@ The honest version. This is what one 1:1 session looks like for a Year-9 Aussie 
 
 Two minutes of "how was the week", the human bit. Mentor scrolls back the chat history; cameras on for both. Settles the student.
 
-02:00, 08:00
+02:00: 08:00
 
 #### Recap and tiny quiz
 
 A 6-minute recall test of last lesson. Not for marks, for the brain. The mentor watches for the lightbulb moments and the cobwebs.
 
-08:00, 18:00
+08:00: 18:00
 
 #### New concept + live coding
 
@@ -556,7 +556,7 @@ Ten minutes of new material. Live-shared VS Code via Zoom. Mentor types two line
 
 The student leads. The mentor coaches. This is where the real learning happens, push a feature, fix a bug, refactor a function, run a test. The mentor types nothing; only asks.
 
-35:00, 42:00
+35:00: 42:00
 
 #### Code review & reflection
 
@@ -622,7 +622,7 @@ Yes. Our K-10 (Foundation, Year 10) track aligns with both strands of the Austra
 
 Do you align to my state's specific Year-11/12 exam system?
 
-Yes , all eight: NSW HSC (Software Design & Development / IPT), VIC VCE (Algorithmics HESS, Applied Computing), QLD QCE (Digital Solutions, ICT), WA WACE (Applied IT, Computer Science), SA SACE (Stage 1 & 2 IT, Digital Technologies), TAS TCE (Computer Science), ACT (Information Technology), NT NTCET. Tell us your state on the trial call.
+Yes, all eight: NSW HSC (Software Design & Development / IPT), VIC VCE (Algorithmics HESS, Applied Computing), QLD QCE (Digital Solutions, ICT), WA WACE (Applied IT, Computer Science), SA SACE (Stage 1 & 2 IT, Digital Technologies), TAS TCE (Computer Science), ACT (Information Technology), NT NTCET. Tell us your state on the trial call.
 
 Can you coach the Australian Informatics Olympiad (AIO)?
 
@@ -730,7 +730,7 @@ No lock-in. Cancel any month before the next billing cycle, no fee, no awkward c
 
 "Is AI safe for my 9-year-old? I've heard worrying things."
 
-Under-13s never interact with raw LLM APIs against the open internet without a mentor present. We use age-appropriate models, guardrailed prompts, content filters and a "sandbox-only" rule. The AI tools your child builds are educational and reviewable by you, you see every prompt and every output. We're stricter on this than most.
+Under-13s never interact with raw LLM APIs against the open internet without a mentor present. We use age-appropriate models, guardrailed prompts, content filters and a "sandbox-only" rule. The AI tools your child builds are educational and reviewable by you. You see every prompt and every output. We're stricter on this than most.
 
 "My kid is shy, won't 1:1 video lessons be too much?"
 

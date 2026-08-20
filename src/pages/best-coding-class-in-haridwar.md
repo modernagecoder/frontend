@@ -36,7 +36,7 @@ Ages 8–12
 
 ## Coding for kids in Haridwar
 
-Most popular![Kids coding with Scratch, best coding class for kids in Haridwar](/images/kids-coding.webp)
+Most popular![Kids coding with Scratch: best coding class for kids in Haridwar](/images/kids-coding.webp)
 
 ### Kids Coding with Scratch
 
@@ -58,7 +58,7 @@ Children design and publish their first real website with HTML & CSS, then send 
 - Fun, real web projects
 - A personal portfolio page
 
-[View course](/courses/kids-ai-web-development-course)Next step![Python for kids, programming course in Haridwar](/images/python-kids.webp)
+[View course](/courses/kids-ai-web-development-course)Next step![Python for kids: programming course in Haridwar](/images/python-kids.webp)
 
 ### Python for Young Coders
 
@@ -73,7 +73,7 @@ The step up to real, typed code in the world's most popular language. Children w
 
 ## Coding for teens in Haridwar
 
-In demand![Python programming for teens, best coding institute in Haridwar](/images/python-teens.webp)
+In demand![Python programming for teens: best coding institute in Haridwar](/images/python-teens.webp)
 
 ### Python Programming
 
@@ -84,7 +84,7 @@ The friendliest on-ramp into real software and the most in-demand language going
 - Automation & scripting
 - Real-world projects
 
-[View course](/courses/python-complete-masterclass-teens)Career![Java programming for teens, best coding class in Haridwar](/images/java-teens.webp)
+[View course](/courses/python-complete-masterclass-teens)Career![Java programming for teens: best coding class in Haridwar](/images/java-teens.webp)
 
 ### Java Programming
 
@@ -95,7 +95,7 @@ For board work and beyond: Java sits under CBSE and ICSE Computer Science (the B
 - Intro to Android app building
 - Board-aligned practice
 
-[View course](/courses/java-programming-masterclass-for-teens)Build![Web development for teens, programming classes in Haridwar](/images/web-dev-teens.webp)
+[View course](/courses/java-programming-masterclass-for-teens)Build![Web development for teens: programming classes in Haridwar](/images/web-dev-teens.webp)
 
 ### Full-Stack Web Development
 
@@ -106,7 +106,7 @@ Take an idea to a live, deployed website with HTML, CSS, JavaScript and React, a
 - Backend with Node.js
 - Live portfolio projects
 
-[View course](/courses/web-development-masterclass-teens)Future![AI and machine learning for teens, coding course in Haridwar](/images/ai-ml-teens.webp)
+[View course](/courses/web-development-masterclass-teens)Future![AI and machine learning for teens: coding course in Haridwar](/images/ai-ml-teens.webp)
 
 ### AI & Machine Learning
 
@@ -158,19 +158,19 @@ Python, machine learning and genuine data analysis for the analytics and AI role
 
 ## Mathematics classes in Haridwar
 
-![Elementary mathematics, maths classes in Haridwar](/images/elementary-maths.webp)
+![Elementary mathematics: maths classes in Haridwar](/images/elementary-maths.webp)
 
 ### Elementary Mathematics
 
 Rock-solid foundations in numbers, operations, fractions, geometry and word problems for grades 1–5, aligned to CBSE, ICSE and Uttarakhand Board (UBSE) schools across Haridwar.
 
-[View course](/courses/elementary-mathematics-complete-masterclass)![High school mathematics, maths tuition in Haridwar](/images/high-school-maths.webp)
+[View course](/courses/elementary-mathematics-complete-masterclass)![High school mathematics: maths tuition in Haridwar](/images/high-school-maths.webp)
 
 ### High School Mathematics
 
 Algebra, geometry, trigonometry, pre-calculus and calculus for grades 9–12, board-aligned and built to give Haridwar's engineering and JEE aspirants a genuine head start.
 
-[View course](/courses/complete-high-school-mathematics-mastery)Olympiad![Olympiad mathematics, competition prep in Haridwar](/images/olympiad-competition-maths.webp)
+[View course](/courses/complete-high-school-mathematics-mastery)Olympiad![Olympiad mathematics: competition prep in Haridwar](/images/olympiad-competition-maths.webp)
 
 ### Olympiad & Competition Math
 
@@ -250,7 +250,7 @@ International families pay flat USD rates, the prices above update automatically
 
 Not screenshots of a syllabus, real, live projects from Modern Age Coders learners and labs. Click through and use them.
 
-[![Doodle Dash, 30-Second Drawing Challenge](/images/projects/doodledash.webp) GameDoodle Dash, 30-Second Drawing ChallengePick a difficulty, get a prompt, and you have exactly 30 seconds to draw it, then an AI judge scores how close you got. Three modes from easy objects to chaotic scenes. Shubh vibe-coded it idea-first, wiring real AI image grading into a fast, addictive drawing game. Built by Shubh · Vibe Coding, AI JudgeOpen the live project ↗](https://doodledashmaster.lovable.app)[![SkyCast, Weather Forecast App](/images/projects/skycast.webp) Web AppSkyCast, Weather Forecast AppAn interactive weather forecasting site with real-time updates for any location, temperature, humidity, wind speed and conditions in a clean, responsive interface. Built by Krish · JavaScript, APIOpen the live project ↗](https://krish-shroff.github.io/AuraWeatherTech/)[![Palm Arcana, Summon the Elements](/images/projects/superpawer.webp) GamePalm Arcana, Summon the ElementsOpen your palms to the webcam and computer vision turns your gestures into real magic, the left palm throws a fireball, the right crackles with lightning. A wild blend of hand-tracking AI, creative coding and pure imagination, vibe-coded into a playable browser experience. Built by Aarush · Vibe Coding, Computer VisionOpen the live project ↗](https://superpawer.netlify.app)[See more student projects →](/student-labs)
+[![Doodle Dash: 30-Second Drawing Challenge](/images/projects/doodledash.webp) GameDoodle Dash: 30-Second Drawing ChallengePick a difficulty, get a prompt, and you have exactly 30 seconds to draw it, then an AI judge scores how close you got. Three modes from easy objects to chaotic scenes. Shubh vibe-coded it idea-first, wiring real AI image grading into a fast, addictive drawing game. Built by Shubh · Vibe Coding, AI JudgeOpen the live project ↗](https://doodledashmaster.lovable.app)[![Life Span Tracker](/images/projects/lifespan.webp) ToolLife Span TrackerAn interactive web tool that calculates expected lifespan, shows days, months and years lived, and visualises remaining time to motivate better habits. Built by Manay · JavaScript, APIsOpen the live project ↗](https://lifespantracker.netlify.app/)[![Palm Arcana: Summon the Elements](/images/projects/superpawer.webp) GamePalm Arcana: Summon the ElementsOpen your palms to the webcam and computer vision turns your gestures into real magic, the left palm throws a fireball, the right crackles with lightning. A wild blend of hand-tracking AI, creative coding and pure imagination, vibe-coded into a playable browser experience. Built by Aarush · Vibe Coding, Computer VisionOpen the live project ↗](https://superpawer.netlify.app)[See more student projects →](/student-labs)
 
 ## What families say
 

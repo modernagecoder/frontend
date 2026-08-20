@@ -353,7 +353,7 @@ Data and forecasting
 
 A working forecast application that pulls live data and renders it, built and published by a student.
 
-by Krish · [Open the live project](https://krish-shroff.github.io/AuraWeatherTech/)
+by Krish
 
 Fees
 
@@ -495,6 +495,8 @@ Start here
 Leave a number and a mentor calls you back, usually within a few hours, at an hour that suits the Kingdom rather than one that suits us. The opening class is taught, not sold, and it settles which band your child belongs in before anything is paid.
 
 Prefer to look around first? Read [how we teach](/how-we-teach), browse the [full course catalogue](/courses), check the [AI tools age guide](/ai-tools-age-guide), or see what students have built in [Student Labs](/student-labs).
+
+[Chat with us](https://wa.me/919123366161?text=Hi%2C%20I'm%20interested%20in%20learning%20more%20about%20your%20courses!)
 
 ---
 

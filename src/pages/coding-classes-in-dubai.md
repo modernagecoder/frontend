@@ -205,7 +205,7 @@ Mother of Ishan
 
 Every one of these is a real, live project shipped by a Modern Age Coders student, not a mockup. Explore more in our [Student Labs](/student-labs).
 
-![GuardianX, AI Bodyguard for the Internet](/images/projects/guardianx.webp)
+![GuardianX: AI Bodyguard for the Internet](/images/projects/guardianx.webp)
 
 AI & ML
 
@@ -243,7 +243,7 @@ Fees are charged in US dollars. The UAE dirham is pegged to the dollar, so the A
 
 Group classes
 
- $1$100$2
+$100 per month
 
 - Live classes in batches of 5 to 8
 - Evening and weekend GST slots
@@ -254,7 +254,7 @@ Book a Free Demo
 
 One-on-one classes
 
- $1$150$2
+$150 per month
 
 - One student, one teacher, every class
 - Schedule built around your week
@@ -280,6 +280,8 @@ The demo is not a trailer. It is a full one-hour class with a real teacher, and 
 Prefer WhatsApp? [Message us](https://wa.me/919123366161?text=Hi,%20I%20want%20a%20free%20demo%20for%20coding%20classes%20in%20Dubai) and a mentor will reply during Dubai daytime hours.
 
 4.9 rating across 547+ Google reviews
+
+[Chat with us](https://wa.me/919123366161?text=Hi%2C%20I'm%20interested%20in%20learning%20more%20about%20your%20courses!)
 
 ---
 

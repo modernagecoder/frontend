@@ -36,7 +36,7 @@ Ages 8–12
 
 ## Coding for kids in Jhansi
 
-Most popular![Kids coding with Scratch, best coding class for kids in Jhansi](/images/kids-coding.webp)
+Most popular![Kids coding with Scratch: best coding class for kids in Jhansi](/images/kids-coding.webp)
 
 ### Kids Coding with Scratch
 
@@ -58,7 +58,7 @@ Kids build their very first colourful website with HTML & CSS, then share the li
 - Fun, real web projects
 - A personal portfolio page
 
-[View course](/courses/kids-ai-web-development-course)Next step![Python for kids, programming course in Jhansi](/images/python-kids.webp)
+[View course](/courses/kids-ai-web-development-course)Next step![Python for kids: programming course in Jhansi](/images/python-kids.webp)
 
 ### Python for Young Coders
 
@@ -73,7 +73,7 @@ The jump to real, typed code, in the world's most popular language. Kids write P
 
 ## Coding for teens in Jhansi
 
-In demand![Python programming for teens, best coding institute in Jhansi](/images/python-teens.webp)
+In demand![Python programming for teens: best coding institute in Jhansi](/images/python-teens.webp)
 
 ### Python Programming
 
@@ -84,7 +84,7 @@ The most in-demand language in the world, and the one remote employers ask for m
 - Automation & scripting
 - Real-world projects
 
-[View course](/courses/python-complete-masterclass-teens)Career![Java programming for teens, best coding class in Jhansi](/images/java-teens.webp)
+[View course](/courses/python-complete-masterclass-teens)Career![Java programming for teens: best coding class in Jhansi](/images/java-teens.webp)
 
 ### Java Programming
 
@@ -95,7 +95,7 @@ Java is the backbone of ICSE/ISC and CBSE Computer Science (BlueJ) and the enter
 - Intro to Android app building
 - Board-aligned practice
 
-[View course](/courses/java-programming-masterclass-for-teens)Build![Web development for teens, programming classes in Jhansi](/images/web-dev-teens.webp)
+[View course](/courses/java-programming-masterclass-for-teens)Build![Web development for teens: programming classes in Jhansi](/images/web-dev-teens.webp)
 
 ### Full-Stack Web Development
 
@@ -106,7 +106,7 @@ Build complete, deployed websites from scratch with HTML, CSS, JavaScript and Re
 - Backend with Node.js
 - Live portfolio projects
 
-[View course](/courses/web-development-masterclass-teens)Future![AI and machine learning for teens, coding course in Jhansi](/images/ai-ml-teens.webp)
+[View course](/courses/web-development-masterclass-teens)Future![AI and machine learning for teens: coding course in Jhansi](/images/ai-ml-teens.webp)
 
 ### AI & Machine Learning
 
@@ -158,19 +158,19 @@ Python, machine learning and real data analysis, built for the analytics and AI 
 
 ## Mathematics classes in Jhansi
 
-![Elementary mathematics, maths classes in Jhansi](/images/elementary-maths.webp)
+![Elementary mathematics: maths classes in Jhansi](/images/elementary-maths.webp)
 
 ### Elementary Mathematics
 
 Rock-solid foundations in numbers, operations, fractions, geometry and word problems for grades 1–5, aligned to the CBSE, ICSE and UP Board schools across Jhansi.
 
-[View course](/courses/elementary-mathematics-complete-masterclass)![High school mathematics, maths tuition in Jhansi](/images/high-school-maths.webp)
+[View course](/courses/elementary-mathematics-complete-masterclass)![High school mathematics: maths tuition in Jhansi](/images/high-school-maths.webp)
 
 ### High School Mathematics
 
 Algebra, geometry, trigonometry, pre-calculus and calculus for grades 9–12, board-aligned and built to give Jhansi's JEE aspirants a genuine head start without a single coaching commute.
 
-[View course](/courses/complete-high-school-mathematics-mastery)Olympiad![Olympiad mathematics, competition prep in Jhansi](/images/olympiad-competition-maths.webp)
+[View course](/courses/complete-high-school-mathematics-mastery)Olympiad![Olympiad mathematics: competition prep in Jhansi](/images/olympiad-competition-maths.webp)
 
 ### Olympiad & Competition Math
 
@@ -250,7 +250,7 @@ International families pay flat USD rates, the prices above update automatically
 
 Not screenshots of a syllabus, real, live projects from Modern Age Coders learners and labs. Click through and use them.
 
-[![Baby, Typing Speed Challenge](/images/projects/baby.webp) GameBaby, Typing Speed ChallengeAn engaging typing speed challenge where users test how fast and accurately they can type, with a live leaderboard connected to a MongoDB backend. Built by Kritika · JavaScript, Node.jsOpen the live project ↗](https://baby.modernagecoders.com)[![Life Span Tracker](/images/projects/lifespan.webp) ToolLife Span TrackerAn interactive web tool that calculates expected lifespan, shows days, months and years lived, and visualises remaining time to motivate better habits. Built by Manay · JavaScript, APIsOpen the live project ↗](https://lifespantracker.netlify.app/)[![NutriLife, AI Nutrition Coach](/images/projects/nutrilife.webp) AI & MLNutriLife, AI Nutrition CoachSnap a photo of any meal and NutriLife instantly names every food, then breaks down the calories, macros, vitamins and minerals, powered by AI. Bhavya vibe-coded it from a single idea: shaped the app in prompts, then wired up the AI food-recognition, daily tracking and smart coaching by hand. Built by Bhavya · Vibe Coding, AI VisionOpen the live project ↗](https://nutrilife-bhavya.lovable.app)[See more student projects →](/student-labs)
+[![Baby: Typing Speed Challenge](/images/projects/baby.webp) GameBaby: Typing Speed ChallengeAn engaging typing speed challenge where users test how fast and accurately they can type, with a live leaderboard connected to a MongoDB backend. Built by Kritika · JavaScript, Node.jsOpen the live project ↗](https://baby.modernagecoders.com)[![Life Span Tracker](/images/projects/lifespan.webp) ToolLife Span TrackerAn interactive web tool that calculates expected lifespan, shows days, months and years lived, and visualises remaining time to motivate better habits. Built by Manay · JavaScript, APIsOpen the live project ↗](https://lifespantracker.netlify.app/)[![NutriLife: AI Nutrition Coach](/images/projects/nutrilife.webp) AI & MLNutriLife: AI Nutrition CoachSnap a photo of any meal and NutriLife instantly names every food, then breaks down the calories, macros, vitamins and minerals, powered by AI. Bhavya vibe-coded it from a single idea: shaped the app in prompts, then wired up the AI food-recognition, daily tracking and smart coaching by hand. Built by Bhavya · Vibe Coding, AI VisionOpen the live project ↗](https://nutrilife-bhavya.lovable.app)[See more student projects →](/student-labs)
 
 ## What families say
 

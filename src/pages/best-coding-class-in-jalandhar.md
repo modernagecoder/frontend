@@ -36,7 +36,7 @@ Ages 8–12
 
 ## Coding for kids in Jalandhar
 
-Most popular![Kids coding with Scratch, best coding class for kids in Jalandhar](/images/kids-coding.webp)
+Most popular![Kids coding with Scratch: best coding class for kids in Jalandhar](/images/kids-coding.webp)
 
 ### Kids Coding with Scratch
 
@@ -58,7 +58,7 @@ Kids build a colourful first website with HTML & CSS and share the live link wit
 - Fun, real web projects
 - A personal portfolio page
 
-[View course](/courses/kids-ai-web-development-course)Next step![Python for kids, programming course in Jalandhar](/images/python-kids.webp)
+[View course](/courses/kids-ai-web-development-course)Next step![Python for kids: programming course in Jalandhar](/images/python-kids.webp)
 
 ### Python for Young Coders
 
@@ -73,7 +73,7 @@ The step up to real, typed code in the world's most popular language. Jalandhar'
 
 ## Coding for teens in Jalandhar
 
-In demand![Python programming for teens, best coding institute in Jalandhar](/images/python-teens.webp)
+In demand![Python programming for teens: best coding institute in Jalandhar](/images/python-teens.webp)
 
 ### Python Programming
 
@@ -84,7 +84,7 @@ The most in-demand language in the world, and the one Jalandhar teens should lea
 - Automation & scripting
 - Real-world projects
 
-[View course](/courses/python-complete-masterclass-teens)Career![Java programming for teens, best coding class in Jalandhar](/images/java-teens.webp)
+[View course](/courses/python-complete-masterclass-teens)Career![Java programming for teens: best coding class in Jalandhar](/images/java-teens.webp)
 
 ### Java Programming
 
@@ -95,7 +95,7 @@ Java sits at the heart of CBSE/ICSE Computer Science and the enterprise stacks t
 - Intro to Android app building
 - Board-aligned practice
 
-[View course](/courses/java-programming-masterclass-for-teens)Build![Web development for teens, programming classes in Jalandhar](/images/web-dev-teens.webp)
+[View course](/courses/java-programming-masterclass-for-teens)Build![Web development for teens: programming classes in Jalandhar](/images/web-dev-teens.webp)
 
 ### Full-Stack Web Development
 
@@ -106,7 +106,7 @@ Build complete, deployed websites from scratch with HTML, CSS, JavaScript and Re
 - Backend with Node.js
 - Live portfolio projects
 
-[View course](/courses/web-development-masterclass-teens)Future![AI and machine learning for teens, coding course in Jalandhar](/images/ai-ml-teens.webp)
+[View course](/courses/web-development-masterclass-teens)Future![AI and machine learning for teens: coding course in Jalandhar](/images/ai-ml-teens.webp)
 
 ### AI & Machine Learning
 
@@ -158,19 +158,19 @@ Python, machine learning and real data analysis, for the analytics and AI roles 
 
 ## Mathematics classes in Jalandhar
 
-![Elementary mathematics, maths classes in Jalandhar](/images/elementary-maths.webp)
+![Elementary mathematics: maths classes in Jalandhar](/images/elementary-maths.webp)
 
 ### Elementary Mathematics
 
 Rock-solid foundations in numbers, operations, fractions, geometry and word problems for grades 1–5, aligned to the CBSE, ICSE and PSEB schools across Jalandhar.
 
-[View course](/courses/elementary-mathematics-complete-masterclass)![High school mathematics, maths tuition in Jalandhar](/images/high-school-maths.webp)
+[View course](/courses/elementary-mathematics-complete-masterclass)![High school mathematics: maths tuition in Jalandhar](/images/high-school-maths.webp)
 
 ### High School Mathematics
 
 Algebra, geometry, trigonometry, pre-calculus and calculus for grades 9–12, board-aligned and built to give Jalandhar's JEE and NDA aspirants a genuine head start.
 
-[View course](/courses/complete-high-school-mathematics-mastery)Olympiad![Olympiad mathematics, competition prep in Jalandhar](/images/olympiad-competition-maths.webp)
+[View course](/courses/complete-high-school-mathematics-mastery)Olympiad![Olympiad mathematics: competition prep in Jalandhar](/images/olympiad-competition-maths.webp)
 
 ### Olympiad & Competition Math
 
@@ -250,7 +250,7 @@ International families pay flat USD rates, the prices above update automatically
 
 Not screenshots of a syllabus, real, live projects from Modern Age Coders learners and labs. Click through and use them.
 
-[![HairSync, AI Hairstyle Try-On](/images/projects/hairsync.webp) AI & MLHairSync, AI Hairstyle Try-OnUpload a clear photo and try on any hairstyle before you commit, wolf cuts, curtain bangs, fades, braids and dozens of trending looks, rendered onto your own face by AI in seconds. Kriti vibe-coded this virtual try-on studio from a single idea into a working app. Built by Kriti · Vibe Coding, AI ImageOpen the live project ↗](https://hairsync.lovable.app)[![HugSelle, AI Smile Generator](/images/projects/hugselle.webp) AI & MLHugSelle, AI Smile GeneratorA heartwarming AI-powered web app that detects your mood and generates uplifting quotes and visuals to make you smile, a creative blend of technology and positivity. Built by Anurag · Python, Machine LearningOpen the live project ↗](https://hugselle.modernagecoders.com)[![Word Counter Website](/images/projects/wordcounter.webp) ToolWord Counter WebsiteA simple yet powerful tool that counts words, sentences and paragraphs from user input with instant, real-time results and a clean responsive interface. Built by Vansh · HTML, CSSOpen the live project ↗](https://vanshagarwalwordcounter-sys.github.io/WordCounter/)[See more student projects →](/student-labs)
+[![HairSync: AI Hairstyle Try-On](/images/projects/hairsync.webp) AI & MLHairSync: AI Hairstyle Try-OnUpload a clear photo and try on any hairstyle before you commit, wolf cuts, curtain bangs, fades, braids and dozens of trending looks, rendered onto your own face by AI in seconds. Kriti vibe-coded this virtual try-on studio from a single idea into a working app. Built by Kriti · Vibe Coding, AI ImageOpen the live project ↗](https://hairsync.lovable.app)[![HugSelle: AI Smile Generator](/images/projects/hugselle.webp) AI & MLHugSelle: AI Smile GeneratorA heartwarming AI-powered web app that detects your mood and generates uplifting quotes and visuals to make you smile, a creative blend of technology and positivity. Built by Anurag · Python, Machine LearningOpen the live project ↗](https://hugselle.modernagecoders.com)[![Word Counter Website](/images/projects/wordcounter.webp) ToolWord Counter WebsiteA simple yet powerful tool that counts words, sentences and paragraphs from user input with instant, real-time results and a clean responsive interface. Built by Vansh · HTML, CSSOpen the live project ↗](https://vanshagarwalwordcounter-sys.github.io/WordCounter/)[See more student projects →](/student-labs)
 
 ## What families say
 

@@ -14,11 +14,11 @@ source: src/pages/category/college.html
 
  College Students • Career-Ready Skills
 
-# Coding for College Students — Skills That Get You Hired
+# Coding for College Students: Skills That Get You Hired
 
 Industry-recognized programming courses for college students targeting campus placements, internships, and FAANG careers. Master Full Stack, Data Science, AI/ML, and DSA with hands-on projects and 1-on-1 mentorship from working engineers.
 
-**20+**Courses**1200+**Students**4.9★**RatingBook Free Demo ClassView All Courses
+**20+**Courses**1200+**Students**4.9★**Rating[Book Free Demo Class](/book-demo)[View All Courses](/courses)
 
 ## Our Most Popular Courses for College Students
 
@@ -142,11 +142,11 @@ We align every module with what recruiters at top MNCs, startups, and FAANG comp
 
 ### Real Projects
 
-Build 4–6 portfolio-worthy applications per course — deployed, live, and ready to show at interviews. GitHub-ready capstone projects included.
+Build 4–6 portfolio-worthy applications per course, deployed, live, and ready to show at interviews. GitHub-ready capstone projects included.
 
 ### Interview Prep
 
-Structured DSA sheets, mock coding rounds, and HR interview practice so you walk into campus placements fully prepared — not just technically, but confidently.
+Structured DSA sheets, mock coding rounds, and HR interview practice so you walk into campus placements fully prepared, not just technically, but confidently.
 
 ### Certification
 

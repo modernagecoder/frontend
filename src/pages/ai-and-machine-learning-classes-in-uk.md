@@ -409,7 +409,7 @@ Data and forecasting
 
 A weather application running on live data feeds, and the nearest relative of the rail disruption project described above.
 
-by Krish · [Open the live project](https://krish-shroff.github.io/AuraWeatherTech/)
+by Krish
 
 Fees
 
@@ -553,6 +553,8 @@ Start here
 Leave a number and a mentor rings you back, usually the same day, at a British hour rather than at ours. The first lesson is taught, not sold. It also serves as a level check, so that your child begins where they actually are instead of where the average twelve year old is.
 
 Would rather read first? Have a look at [how we teach](/how-we-teach), the [full course catalogue](/courses), or what pupils have built in [Student Labs](/student-labs).
+
+[Chat with us](https://wa.me/919123366161?text=Hi%2C%20I'm%20interested%20in%20learning%20more%20about%20your%20courses!)
 
 ---
 

@@ -144,9 +144,9 @@ This is also the longest stage and the most open-ended. The field is moving fast
 
 #### What you will learn
 
-- The full LLM application stack, APIs, prompts, RAG, fine-tuning
+- The full LLM application stack: APIs, prompts, RAG, fine-tuning
 - Embeddings and vector databases
-- Agent architectures, ReAct, planning, memory, tool use (see our [agents pillar](/ai-agents-explained))
+- Agent architectures: ReAct, planning, memory, tool use (see our [agents pillar](/ai-agents-explained))
 - Evaluation, how to know your AI app is actually working
 - Latency, cost, caching, production realities
 - Reading and reproducing the latest papers
@@ -159,7 +159,9 @@ This is also the longest stage and the most open-ended. The field is moving fast
 
 **Trap to avoid** Treating LLM APIs as a substitute for the previous stages. Many "AI engineers" of 2025 know how to call OpenAI's API but cannot debug a tensor dimension mismatch. Their first hard problem ends them. The students who climb to this stage on top of Stages 1–4 are the ones who become senior in two years rather than six.
 
-> The students who finish this roadmap are not the ones who studied the hardest. They are the ones who refused to *skip a stage*.: What we have learned from teaching this for six yearsModern Age Coders cohorts · stage-mapped
+> The students who finish this roadmap are not the ones who studied the hardest. They are the ones who refused to *skip a stage*.
+
+: What we have learned from teaching this for six yearsModern Age Coders cohorts · stage-mapped
 
 ## The MAC courses that walk you through this *stage by stage.*
 
@@ -245,7 +247,7 @@ Real student projects
 
 Every one is a real, live project shipped by a Modern Age Coders student. Explore more in [Student Labs](/student-labs).
 
-[![Babu, 90 Second Maths Challenge](/images/projects/babu.webp)GameBabu, 90 Second Maths ChallengeAn exciting 90-second maths challenge with random problems under time pressure, and a dynamic leaderboard powered by Firebase/MongoDB with real-time score updates.by Modern Age CodersOpen the live project ↗](https://babu.modernagecoders.com)[![NutriLife, AI Nutrition Coach](/images/projects/nutrilife.webp)AI & MLNutriLife, AI Nutrition CoachSnap a photo of any meal and NutriLife instantly names every food, then breaks down the calories, macros, vitamins and minerals, powered by AI. Bhavya vibe-coded it from a single idea: shaped the app in prompts, then wired up the AI food-recognition, daily tracking and smart coaching by hand.by BhavyaOpen the live project ↗](https://nutrilife-bhavya.lovable.app)[![GuardianX, AI Bodyguard for the Internet](/images/projects/guardianx.webp)AI & MLGuardianX, AI Bodyguard for the InternetPaste any suspicious link or message and GuardianX returns an instant AI verdict before you become a victim, plus a link scanner, safety score, breach check and live scam alerts built for India. Vibe-coded from idea to working product through prompts, then refined until it genuinely understands how phishing and scams work.by VivaanOpen the live project ↗](https://guardianx-cybersaver.lovable.app)
+[![Babu: 90 Second Maths Challenge](/images/projects/babu.webp)GameBabu: 90 Second Maths ChallengeAn exciting 90-second maths challenge with random problems under time pressure, and a dynamic leaderboard powered by Firebase/MongoDB with real-time score updates.by Modern Age CodersOpen the live project ↗](https://babu.modernagecoders.com)[![NutriLife: AI Nutrition Coach](/images/projects/nutrilife.webp)AI & MLNutriLife: AI Nutrition CoachSnap a photo of any meal and NutriLife instantly names every food, then breaks down the calories, macros, vitamins and minerals, powered by AI. Bhavya vibe-coded it from a single idea: shaped the app in prompts, then wired up the AI food-recognition, daily tracking and smart coaching by hand.by BhavyaOpen the live project ↗](https://nutrilife-bhavya.lovable.app)[![GuardianX: AI Bodyguard for the Internet](/images/projects/guardianx.webp)AI & MLGuardianX: AI Bodyguard for the InternetPaste any suspicious link or message and GuardianX returns an instant AI verdict before you become a victim, plus a link scanner, safety score, breach check and live scam alerts built for India. Vibe-coded from idea to working product through prompts, then refined until it genuinely understands how phishing and scams work.by VivaanOpen the live project ↗](https://guardianx-cybersaver.lovable.app)
 
 Parent & student voices
 

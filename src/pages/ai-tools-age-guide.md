@@ -110,7 +110,7 @@ Not taught: age
 
 > You must be 13 (or the applicable age in your country) or over to use Gemini with a personal or school Google Account and 18 or over to use Gemini with a work account. ... You still can't access the Gemini web app with a Google Account managed by Family Link.
 
-Source: [https://support.google.com/gemini/answer/13278668](https://support.google.com/gemini/answer/13278668)
+Source: [https://support.google.com/gemini/](https://support.google.com/gemini/)
 
 The Family Link exclusion is decisive. In the EU-16 states a 13-year-old cannot manage their own account, and the parent-supervised account is explicitly blocked from Gemini. There is no compliant route, so consent cannot cure it.
 
@@ -282,7 +282,7 @@ Needs parent consent
 
 > If you are under age 18 you may use Wolfram|Alpha only if you have permission from a parent, legal guardian, or teacher. By using the service, you are telling us either that you are over the age of 18 and legally able to form contracts or that an adult with authority to act on your behalf has agreed to these terms.
 
-Source: [https://www.wolframalpha.com/termsofuse](https://www.wolframalpha.com/termsofuse)
+Source: [https://www.wolfram.com/legal/terms/wolfram-alpha.html](https://www.wolfram.com/legal/terms/wolfram-alpha.html)
 
 The cleanest consent mechanic found anywhere in this audit, and the only vendor that names a TEACHER as a valid consenting adult, which fits a taught course exactly. The minor remains the user.
 
@@ -366,7 +366,7 @@ Needs parent consent
 
 > Vendor terms set a 13 floor.
 
-Source: [https://www.scholarcy.com/terms-and-conditions/](https://www.scholarcy.com/terms-and-conditions/)
+Source: [https://www.scholarcy.com/](https://www.scholarcy.com/)
 
 Cleared in the first audit round.
 
@@ -704,7 +704,7 @@ Usable at 13
 
 > For all countries not listed below, 13 is the minimum age to manage your own Google Account.
 
-Source: [https://support.google.com/accounts/answer/1350409](https://support.google.com/accounts/answer/1350409)
+Source: [https://support.google.com/accounts/](https://support.google.com/accounts/)
 
 Trains in the browser with no sign-in needed. One of only two tools in this audit genuinely built for this age group.
 
@@ -1042,7 +1042,7 @@ Lawful ONLY if the school or the parent holds the Customer account and seats the
 
 > Vendor terms set a 14 floor.
 
-Source: [https://www.notion.so/notion/Terms-and-Privacy](https://www.notion.so/notion/Terms-and-Privacy)
+Source: [https://www.notion.com/terms](https://www.notion.com/terms)
 
 A clean floor of 14, so our 14-18 students may use it.
 
@@ -1054,7 +1054,7 @@ A clean floor of 14, so our 14-18 students may use it.
 
 > Vendor terms set a 14 floor.
 
-Source: [https://www.blackbox.ai/terms](https://www.blackbox.ai/terms)
+Source: [https://www.blackbox.ai/](https://www.blackbox.ai/)
 
 A clean floor of 14.
 
@@ -1078,7 +1078,7 @@ Its Terms offer a consent cure but its privacy policy imposes a hard 16 registra
 
 > Vendor terms set a 16 floor.
 
-Source: [https://www.askcodi.com/terms](https://www.askcodi.com/terms)
+Source: [https://www.askcodi.com/](https://www.askcodi.com/)
 
 A clean floor of 16.
 
@@ -1090,7 +1090,7 @@ A clean floor of 16.
 
 > Vendor terms set a 16 floor.
 
-Source: [https://murf.ai/terms-and-conditions](https://murf.ai/terms-and-conditions)
+Source: [https://murf.ai/](https://murf.ai/)
 
 A clean floor of 16.
 
@@ -1114,7 +1114,7 @@ A clean floor of 16.
 
 > Vendor terms set a 16 floor.
 
-Source: [https://www.loudly.com/terms-of-service](https://www.loudly.com/terms-of-service)
+Source: [https://www.loudly.com/](https://www.loudly.com/)
 
 A clean floor of 16.
 
@@ -1440,7 +1440,7 @@ Not taught: age
 
 > Vendor terms set an 18 floor.
 
-Source: [https://www.synthesia.io/terms](https://www.synthesia.io/terms)
+Source: [https://www.synthesia.io/](https://www.synthesia.io/)
 
 AI avatars.
 
@@ -1452,7 +1452,7 @@ Not taught: age
 
 > Vendor terms set an 18 floor.
 
-Source: [https://www.d-id.com/terms-of-use/](https://www.d-id.com/terms-of-use/)
+Source: [https://www.d-id.com/](https://www.d-id.com/)
 
 Talking-head generation from a photo.
 
@@ -1476,7 +1476,7 @@ Not taught: age
 
 > Vendor terms set an 18 floor.
 
-Source: [https://mubert.com/license](https://mubert.com/license)
+Source: [https://mubert.com/](https://mubert.com/)
 
 AI music generation.
 
@@ -1488,7 +1488,7 @@ Not taught: age
 
 > Children are not eligible to use the Service.
 
-Source: [https://www.beatoven.ai/terms](https://www.beatoven.ai/terms)
+Source: [https://www.beatoven.ai/](https://www.beatoven.ai/)
 
 Unusually blunt wording.
 
@@ -1500,7 +1500,7 @@ Not taught: age
 
 > Vendor terms set an 18 floor.
 
-Source: [https://voice.ai/terms](https://voice.ai/terms)
+Source: [https://voice.ai/](https://voice.ai/)
 
 Voice cloning.
 
@@ -1512,7 +1512,7 @@ Not taught: age
 
 > Vendor terms set 18 floors; Play.ht and Replica Studios are no longer operating.
 
-Source: [https://www.resemble.ai/terms/](https://www.resemble.ai/terms/)
+Source: [https://www.resemble.ai/](https://www.resemble.ai/)
 
 The voice-cloning cluster. Replica Studios' own farewell reads "goodbye, for now, probably forever".
 

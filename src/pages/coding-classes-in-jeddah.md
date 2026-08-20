@@ -177,7 +177,7 @@ Student projects
 
 Every one of these is a real, live project shipped by a Modern Age Coders student, not a mockup. Explore more in our [Student Labs](/student-labs).
 
-![FreshTrack, Food Expiry Tracker](/images/projects/fresh.webp)
+![FreshTrack: Food Expiry Tracker](/images/projects/fresh.webp)
 
 Web App
 
@@ -223,7 +223,7 @@ Fees are charged monthly in US dollars, and the riyal equivalents below are clos
 
 Group classes
 
- $1$100$2
+$100 per month
 
 - Live weekly lessons, five to eight students
 - AST evening and weekend timings
@@ -234,7 +234,7 @@ Book a Free Demo
 
 One-on-one classes
 
- $1$150$2
+$150 per month
 
 - A private teacher for the full hour
 - Scheduling shaped around your household
@@ -260,6 +260,8 @@ Everything on this page is a claim until a teacher spends an hour with your chil
 Prefer WhatsApp? [Write to us there](https://wa.me/919123366161?text=Hi,%20I%20want%20a%20free%20demo%20for%20coding%20classes%20in%20Jeddah) and a mentor will reply during Saudi daytime hours.
 
 4.9 rating across 547+ Google reviews
+
+[Chat with us](https://wa.me/919123366161?text=Hi%2C%20I'm%20interested%20in%20learning%20more%20about%20your%20courses!)
 
 ---
 

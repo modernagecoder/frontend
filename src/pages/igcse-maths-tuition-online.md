@@ -248,11 +248,9 @@ An honest comparison
 
 ## Your real options for an IGCSE maths student.
 
- $1$100–$150 / month$2
-
 | Option | Typical cost | What it really is | Best for |
 | --- | --- | --- | --- |
-| Modern Age Coders | 8 live one-hour classes with a dedicated mentor teaching your exact board, tier and papers | Moving from Core-risk to Extended-comfortable, and Extended to the top grades |
+| Modern Age Coders | $100–$150 / month | 8 live one-hour classes with a dedicated mentor teaching your exact board, tier and papers | Moving from Core-risk to Extended-comfortable, and Extended to the top grades |
 | IGCSE-specialist tutors | $40-$100+ / hour | Genuine syllabus expertise at hourly rates; twice weekly runs $320-$800+ a month | Families for whom price is no object |
 | Generic online tutoring platforms | $20-$50 / hour | Marketplace tutors of varying quality, often unaware of tiers, boards or the newer non-calculator papers | Occasional homework help on universal topics |
 | School revision sessions | Free | Well-meaning group revision, rarely individual, never diagnostic | Always take these too; they complement real tuition |
@@ -330,7 +328,7 @@ Real student projects
 
 Every one is a real, live project shipped by a Modern Age Coders student. Explore more in [Student Labs](/student-labs).
 
-[![Moxo, Company Landing Page](/images/projects/moxo.webp)Web AppMoxo, Company Landing PageA stunning modern landing page with smooth parallax scrolling, advanced GSAP animations and elegant section transitions that bring the brand to life.by IshaOpen the live project ↗](https://moxo.modernagecoders.com)[![Baby, Typing Speed Challenge](/images/projects/baby.webp)GameBaby, Typing Speed ChallengeAn engaging typing speed challenge where users test how fast and accurately they can type, with a live leaderboard connected to a MongoDB backend.by KritikaOpen the live project ↗](https://baby.modernagecoders.com)[![MyDay, Social Productivity Organizer](/images/projects/myday.webp)Web AppMyDay, Social Productivity OrganizerA beautifully designed productivity platform to organise daily tasks, set goals and stay consistent, with a community feed of others' plans for inspiration.by VedantOpen the live project ↗](https://myday.modernagecoders.com)
+[![Moxo: Company Landing Page](/images/projects/moxo.webp)Web AppMoxo: Company Landing PageA stunning modern landing page with smooth parallax scrolling, advanced GSAP animations and elegant section transitions that bring the brand to life.by IshaOpen the live project ↗](https://moxo.modernagecoders.com)[![Baby: Typing Speed Challenge](/images/projects/baby.webp)GameBaby: Typing Speed ChallengeAn engaging typing speed challenge where users test how fast and accurately they can type, with a live leaderboard connected to a MongoDB backend.by KritikaOpen the live project ↗](https://baby.modernagecoders.com)[![MyDay: Social Productivity Organizer](/images/projects/myday.webp)Web AppMyDay: Social Productivity OrganizerA beautifully designed productivity platform to organise daily tasks, set goals and stay consistent, with a community feed of others' plans for inspiration.by VedantOpen the live project ↗](https://myday.modernagecoders.com)
 
 ---
 

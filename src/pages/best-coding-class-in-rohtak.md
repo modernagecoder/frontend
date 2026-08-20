@@ -36,7 +36,7 @@ Ages 8–12
 
 ## Coding for kids in Rohtak
 
-Most popular![Kids coding with Scratch, best coding class for kids in Rohtak](/images/kids-coding.webp)
+Most popular![Kids coding with Scratch: best coding class for kids in Rohtak](/images/kids-coding.webp)
 
 ### Kids Coding with Scratch
 
@@ -58,7 +58,7 @@ Using HTML & CSS, kids build and put their first real webpage online, then share
 - Fun, real web projects
 - A personal portfolio page
 
-[View course](/courses/kids-ai-web-development-course)Next step![Python for kids, programming course in Rohtak](/images/python-kids.webp)
+[View course](/courses/kids-ai-web-development-course)Next step![Python for kids: programming course in Rohtak](/images/python-kids.webp)
 
 ### Python for Young Coders
 
@@ -73,7 +73,7 @@ The step up from blocks to real, typed code in Python, the language powering mos
 
 ## Coding for teens in Rohtak
 
-In demand![Python programming for teens, best coding institute in Rohtak](/images/python-teens.webp)
+In demand![Python programming for teens: best coding institute in Rohtak](/images/python-teens.webp)
 
 ### Python Programming
 
@@ -84,7 +84,7 @@ The language that runs most of modern tech, from web apps to AI, a clean, confid
 - Automation & scripting
 - Real-world projects
 
-[View course](/courses/python-complete-masterclass-teens)Career![Java programming for teens, best coding class in Rohtak](/images/java-teens.webp)
+[View course](/courses/python-complete-masterclass-teens)Career![Java programming for teens: best coding class in Rohtak](/images/java-teens.webp)
 
 ### Java Programming
 
@@ -95,7 +95,7 @@ Java sits at the heart of the CBSE and ICSE Computer Science papers (BlueJ) and 
 - Intro to Android app building
 - Board-aligned practice
 
-[View course](/courses/java-programming-masterclass-for-teens)Build![Web development for teens, programming classes in Rohtak](/images/web-dev-teens.webp)
+[View course](/courses/java-programming-masterclass-for-teens)Build![Web development for teens: programming classes in Rohtak](/images/web-dev-teens.webp)
 
 ### Full-Stack Web Development
 
@@ -106,7 +106,7 @@ Build and launch a complete website from scratch with HTML, CSS, JavaScript and 
 - Backend with Node.js
 - Live portfolio projects
 
-[View course](/courses/web-development-masterclass-teens)Future![AI and machine learning for teens, coding course in Rohtak](/images/ai-ml-teens.webp)
+[View course](/courses/web-development-masterclass-teens)Future![AI and machine learning for teens: coding course in Rohtak](/images/ai-ml-teens.webp)
 
 ### AI & Machine Learning
 
@@ -158,19 +158,19 @@ Python, machine learning and hands-on data analysis for the analytics and AI rol
 
 ## Mathematics classes in Rohtak
 
-![Elementary mathematics, maths classes in Rohtak](/images/elementary-maths.webp)
+![Elementary mathematics: maths classes in Rohtak](/images/elementary-maths.webp)
 
 ### Elementary Mathematics
 
 Rock-solid foundations in numbers, operations, fractions, geometry and word problems for grades 1–5, aligned to CBSE, ICSE & Haryana Board schools across Rohtak.
 
-[View course](/courses/elementary-mathematics-complete-masterclass)![High school mathematics, maths tuition in Rohtak](/images/high-school-maths.webp)
+[View course](/courses/elementary-mathematics-complete-masterclass)![High school mathematics: maths tuition in Rohtak](/images/high-school-maths.webp)
 
 ### High School Mathematics
 
 Algebra, geometry, trigonometry, pre-calculus and calculus for grades 9–12, board-aligned and built to give Rohtak's JEE and engineering aspirants a genuine head start.
 
-[View course](/courses/complete-high-school-mathematics-mastery)Olympiad![Olympiad mathematics, competition prep in Rohtak](/images/olympiad-competition-maths.webp)
+[View course](/courses/complete-high-school-mathematics-mastery)Olympiad![Olympiad mathematics: competition prep in Rohtak](/images/olympiad-competition-maths.webp)
 
 ### Olympiad & Competition Math
 
@@ -250,7 +250,7 @@ International families pay flat USD rates, the prices above update automatically
 
 Not screenshots of a syllabus, real, live projects from Modern Age Coders learners and labs. Click through and use them.
 
-[![FreshTrack, Food Expiry Tracker](/images/projects/fresh.webp) Web AppFreshTrack, Food Expiry TrackerA smart food-management system to track expiry dates, add, update and delete items while the app checks expiry automatically, online and offline. Built by Tanish · JavaScript, MongoDBOpen the live project ↗](https://freshtrackpro.netlify.app/)[![HugSelle, AI Smile Generator](/images/projects/hugselle.webp) AI & MLHugSelle, AI Smile GeneratorA heartwarming AI-powered web app that detects your mood and generates uplifting quotes and visuals to make you smile, a creative blend of technology and positivity. Built by Anurag · Python, Machine LearningOpen the live project ↗](https://hugselle.modernagecoders.com)[![Palm Arcana, Summon the Elements](/images/projects/superpawer.webp) GamePalm Arcana, Summon the ElementsOpen your palms to the webcam and computer vision turns your gestures into real magic, the left palm throws a fireball, the right crackles with lightning. A wild blend of hand-tracking AI, creative coding and pure imagination, vibe-coded into a playable browser experience. Built by Aarush · Vibe Coding, Computer VisionOpen the live project ↗](https://superpawer.netlify.app)[See more student projects →](/student-labs)
+[![FreshTrack: Food Expiry Tracker](/images/projects/fresh.webp) Web AppFreshTrack: Food Expiry TrackerA smart food-management system to track expiry dates, add, update and delete items while the app checks expiry automatically, online and offline. Built by Tanish · JavaScript, MongoDBOpen the live project ↗](https://freshtrackpro.netlify.app/)[![HugSelle: AI Smile Generator](/images/projects/hugselle.webp) AI & MLHugSelle: AI Smile GeneratorA heartwarming AI-powered web app that detects your mood and generates uplifting quotes and visuals to make you smile, a creative blend of technology and positivity. Built by Anurag · Python, Machine LearningOpen the live project ↗](https://hugselle.modernagecoders.com)[![Palm Arcana: Summon the Elements](/images/projects/superpawer.webp) GamePalm Arcana: Summon the ElementsOpen your palms to the webcam and computer vision turns your gestures into real magic, the left palm throws a fireball, the right crackles with lightning. A wild blend of hand-tracking AI, creative coding and pure imagination, vibe-coded into a playable browser experience. Built by Aarush · Vibe Coding, Computer VisionOpen the live project ↗](https://superpawer.netlify.app)[See more student projects →](/student-labs)
 
 ## What families say
 

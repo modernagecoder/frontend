@@ -36,7 +36,7 @@ Ages 8–12
 
 ## Coding for kids in Davanagere
 
-Most popular![Kids coding with Scratch, best coding class for kids in Davanagere](/images/kids-coding.webp)
+Most popular![Kids coding with Scratch: best coding class for kids in Davanagere](/images/kids-coding.webp)
 
 ### Kids Coding with Scratch
 
@@ -58,7 +58,7 @@ Children design and publish their first colourful website with HTML & CSS, then 
 - Fun, real web projects
 - A personal portfolio page
 
-[View course](/courses/kids-ai-web-development-course)Next step![Python for kids, programming course in Davanagere](/images/python-kids.webp)
+[View course](/courses/kids-ai-web-development-course)Next step![Python for kids: programming course in Davanagere](/images/python-kids.webp)
 
 ### Python for Young Coders
 
@@ -73,7 +73,7 @@ The step up to real, typed code in the world's most popular language. Kids write
 
 ## Coding for teens in Davanagere
 
-In demand![Python programming for teens, best coding institute in Davanagere](/images/python-teens.webp)
+In demand![Python programming for teens: best coding institute in Davanagere](/images/python-teens.webp)
 
 ### Python Programming
 
@@ -84,7 +84,7 @@ The world's most in-demand language and the one most data-science and college sy
 - Automation & scripting
 - Real-world projects
 
-[View course](/courses/python-complete-masterclass-teens)Career![Java programming for teens, best coding class in Davanagere](/images/java-teens.webp)
+[View course](/courses/python-complete-masterclass-teens)Career![Java programming for teens: best coding class in Davanagere](/images/java-teens.webp)
 
 ### Java Programming
 
@@ -95,7 +95,7 @@ Java sits at the heart of ICSE/ISC Computer Science (the BlueJ projects) and a g
 - Intro to Android app building
 - Board-aligned practice
 
-[View course](/courses/java-programming-masterclass-for-teens)Build![Web development for teens, programming classes in Davanagere](/images/web-dev-teens.webp)
+[View course](/courses/java-programming-masterclass-for-teens)Build![Web development for teens: programming classes in Davanagere](/images/web-dev-teens.webp)
 
 ### Full-Stack Web Development
 
@@ -106,7 +106,7 @@ Design and deploy a complete website from scratch with HTML, CSS, JavaScript and
 - Backend with Node.js
 - Live portfolio projects
 
-[View course](/courses/web-development-masterclass-teens)Future![AI and machine learning for teens, coding course in Davanagere](/images/ai-ml-teens.webp)
+[View course](/courses/web-development-masterclass-teens)Future![AI and machine learning for teens: coding course in Davanagere](/images/ai-ml-teens.webp)
 
 ### AI & Machine Learning
 
@@ -158,19 +158,19 @@ Python, machine learning and genuine data analysis for the analytics and AI role
 
 ## Mathematics classes in Davanagere
 
-![Elementary mathematics, maths classes in Davanagere](/images/elementary-maths.webp)
+![Elementary mathematics: maths classes in Davanagere](/images/elementary-maths.webp)
 
 ### Elementary Mathematics
 
 Rock-solid foundations in numbers, operations, fractions, geometry and word problems for grades 1–5, aligned to CBSE, ICSE and Karnataka State Board schools across Davanagere.
 
-[View course](/courses/elementary-mathematics-complete-masterclass)![High school mathematics, maths tuition in Davanagere](/images/high-school-maths.webp)
+[View course](/courses/elementary-mathematics-complete-masterclass)![High school mathematics: maths tuition in Davanagere](/images/high-school-maths.webp)
 
 ### High School Mathematics
 
 Algebra, geometry, trigonometry, pre-calculus and calculus for grades 9–12, board-aligned and built to give Davanagere's KCET and engineering aspirants a genuine head start.
 
-[View course](/courses/complete-high-school-mathematics-mastery)Olympiad![Olympiad mathematics, competition prep in Davanagere](/images/olympiad-competition-maths.webp)
+[View course](/courses/complete-high-school-mathematics-mastery)Olympiad![Olympiad mathematics: competition prep in Davanagere](/images/olympiad-competition-maths.webp)
 
 ### Olympiad & Competition Math
 
@@ -250,7 +250,7 @@ International families pay flat USD rates, the prices above update automatically
 
 Not screenshots of a syllabus, real, live projects from Modern Age Coders learners and labs. Click through and use them.
 
-[![Moxo, Company Landing Page](/images/projects/moxo.webp) Web AppMoxo, Company Landing PageA stunning modern landing page with smooth parallax scrolling, advanced GSAP animations and elegant section transitions that bring the brand to life. Built by Isha · JavaScript, GSAPOpen the live project ↗](https://moxo.modernagecoders.com)[![FreshTrack, Food Expiry Tracker](/images/projects/fresh.webp) Web AppFreshTrack, Food Expiry TrackerA smart food-management system to track expiry dates, add, update and delete items while the app checks expiry automatically, online and offline. Built by Tanish · JavaScript, MongoDBOpen the live project ↗](https://freshtrackpro.netlify.app/)[![HairSync, AI Hairstyle Try-On](/images/projects/hairsync.webp) AI & MLHairSync, AI Hairstyle Try-OnUpload a clear photo and try on any hairstyle before you commit, wolf cuts, curtain bangs, fades, braids and dozens of trending looks, rendered onto your own face by AI in seconds. Kriti vibe-coded this virtual try-on studio from a single idea into a working app. Built by Kriti · Vibe Coding, AI ImageOpen the live project ↗](https://hairsync.lovable.app)[See more student projects →](/student-labs)
+[![Moxo: Company Landing Page](/images/projects/moxo.webp) Web AppMoxo: Company Landing PageA stunning modern landing page with smooth parallax scrolling, advanced GSAP animations and elegant section transitions that bring the brand to life. Built by Isha · JavaScript, GSAPOpen the live project ↗](https://moxo.modernagecoders.com)[![FreshTrack: Food Expiry Tracker](/images/projects/fresh.webp) Web AppFreshTrack: Food Expiry TrackerA smart food-management system to track expiry dates, add, update and delete items while the app checks expiry automatically, online and offline. Built by Tanish · JavaScript, MongoDBOpen the live project ↗](https://freshtrackpro.netlify.app/)[![HairSync: AI Hairstyle Try-On](/images/projects/hairsync.webp) AI & MLHairSync: AI Hairstyle Try-OnUpload a clear photo and try on any hairstyle before you commit, wolf cuts, curtain bangs, fades, braids and dozens of trending looks, rendered onto your own face by AI in seconds. Kriti vibe-coded this virtual try-on studio from a single idea into a working app. Built by Kriti · Vibe Coding, AI ImageOpen the live project ↗](https://hairsync.lovable.app)[See more student projects →](/student-labs)
 
 ## What families say
 

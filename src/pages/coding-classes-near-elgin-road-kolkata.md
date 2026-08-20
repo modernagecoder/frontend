@@ -142,11 +142,11 @@ WEEKLY SCHEDULE
 
 | Slot | Time | Best for | Days |
 | --- | --- | --- | --- |
-| Early evening | 4:30, 5:30 PM | Kids (6–12), straight after school | Mon / Wed / Fri |
-| Prime evening | 6:00, 7:00 PM | Teens (ICSE/CBSE), post-tuition | Tue / Thu / Sat |
-| Late evening | 7:30, 8:30 PM | Senior teens & board candidates | Mon / Wed / Fri |
-| Night | 8:30, 9:30 PM | College students & professionals | Tue / Thu / Sat |
-| Weekend morning | 10:00: 11:30 AM | Camps, 1-on-1 and catch-up | Sat / Sun |
+| Early evening | 4:30 – 5:30 PM | Kids (6–12), straight after school | Mon / Wed / Fri |
+| Prime evening | 6:00 – 7:00 PM | Teens (ICSE/CBSE), post-tuition | Tue / Thu / Sat |
+| Late evening | 7:30 – 8:30 PM | Senior teens & board candidates | Mon / Wed / Fri |
+| Night | 8:30 – 9:30 PM | College students & professionals | Tue / Thu / Sat |
+| Weekend morning | 10:00 – 11:30 AM | Camps, 1-on-1 and catch-up | Sat / Sun |
 
 Slots are indicative and can be arranged around heavy ICSE tuition and exam loads. Tell us your week at the [demo](/book-demo) and we will build the timetable around it.
 
@@ -253,7 +253,7 @@ REAL STUDENT PROJECTS
 
 ## What our students actually build
 
-[![LumenFX, AR/VR Photo Effects Studio](/images/projects/lumenfx.webp)Web AppLumenFX, AR/VR Photo Effects StudioUpload a photo and transform it with cinematic filters, AR face effects and the wildest trending edits, the same looks blowing up on TikTok, Reels and Snap, with 240+ one-tap presets. Raayan vibe-coded the whole studio from an idea: prompted the concept, then built the effects engine and gallery UI by hand.by RaayanOpen the live project ↗](https://arvrbadestweb.lovable.app)[![Doodle Dash, 30-Second Drawing Challenge](/images/projects/doodledash.webp)GameDoodle Dash, 30-Second Drawing ChallengePick a difficulty, get a prompt, and you have exactly 30 seconds to draw it, then an AI judge scores how close you got. Three modes from easy objects to chaotic scenes. Shubh vibe-coded it idea-first, wiring real AI image grading into a fast, addictive drawing game.by ShubhOpen the live project ↗](https://doodledashmaster.lovable.app)[![BookDesk, AI Book Summaries & Quizzes](/images/projects/bookdesk.webp)AI & MLBookDesk, AI Book Summaries & QuizzesType in any book name and author, and BookDesk pulls together the book's details, a clear summary and a custom quiz to test what you've learned, a genuinely useful study companion. Anika built it as a full-stack AI application, powered by Google Gemini with a live database behind it.by AnikaOpen the live project ↗](https://bookdesk1.netlify.app)
+[![LumenFX: AR/VR Photo Effects Studio](/images/projects/lumenfx.webp)Web AppLumenFX: AR/VR Photo Effects StudioUpload a photo and transform it with cinematic filters, AR face effects and the wildest trending edits, the same looks blowing up on TikTok, Reels and Snap, with 240+ one-tap presets. Raayan vibe-coded the whole studio from an idea: prompted the concept, then built the effects engine and gallery UI by hand.by RaayanOpen the live project ↗](https://arvrbadestweb.lovable.app)[![Doodle Dash: 30-Second Drawing Challenge](/images/projects/doodledash.webp)GameDoodle Dash: 30-Second Drawing ChallengePick a difficulty, get a prompt, and you have exactly 30 seconds to draw it, then an AI judge scores how close you got. Three modes from easy objects to chaotic scenes. Shubh vibe-coded it idea-first, wiring real AI image grading into a fast, addictive drawing game.by ShubhOpen the live project ↗](https://doodledashmaster.lovable.app)[![BookDesk: AI Book Summaries & Quizzes](/images/projects/bookdesk.webp)AI & MLBookDesk: AI Book Summaries & QuizzesType in any book name and author, and BookDesk pulls together the book's details, a clear summary and a custom quiz to test what you've learned, a genuinely useful study companion. Anika built it as a full-stack AI application, powered by Google Gemini with a live database behind it.by AnikaOpen the live project ↗](https://bookdesk1.netlify.app)
 
 Every one is a real, live project by a student. See more in [Student Labs](/student-labs).
 

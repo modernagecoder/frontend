@@ -329,7 +329,7 @@ Keep exploring
 
 ## More math help from Modern Age Coders.
 
-[IB school?IB Maths Tuition](/ib-maths-tuition-online)[Gaps to close?Math Catch-Up Program](/math-catch-up-program)[MCV4U depthCalculus Tutoring Online](/calculus-tutoring-online)[Grades 11-12High School Mathematics Mastery Program](/courses/complete-high-school-mathematics-mastery)[Contest trackOlympiad & Competition Mathematics](/courses/olympiad-competition-mathematics-mastery)[Ranked guideBest Online Math Tutoring 2026](/best-online-math-tutoring-2026)
+[IB school?IB Maths Tuition](/ib-maths-tuition-online)[Gaps to close?Math Catch-Up Program](/math-catch-up-program)[MCV4U depthCalculus Tutoring Online](/calculus-tutoring-online)[Grades 11-12High School Mathematics Mastery Program](/courses/complete-high-school-mathematics-mastery)[Contest trackOlympiad & Competition Mathematics](/courses/olympiad-competition-mathematics-mastery)[By provinceCoding & Maths in Ontario](/coding-classes-in-ontario)[Ranked guideBest Online Math Tutoring 2026](/best-online-math-tutoring-2026)
 
 ## Watch one full hour of real teaching. Free.
 
@@ -343,7 +343,7 @@ Real student projects
 
 Every one is a real, live project shipped by a Modern Age Coders student. Explore more in [Student Labs](/student-labs).
 
-[![MyDay, Social Productivity Organizer](/images/projects/myday.webp)Web AppMyDay, Social Productivity OrganizerA beautifully designed productivity platform to organise daily tasks, set goals and stay consistent, with a community feed of others' plans for inspiration.by VedantOpen the live project ↗](https://myday.modernagecoders.com)[![FreshTrack, Food Expiry Tracker](/images/projects/fresh.webp)Web AppFreshTrack, Food Expiry TrackerA smart food-management system to track expiry dates, add, update and delete items while the app checks expiry automatically, online and offline.by TanishOpen the live project ↗](https://freshtrackpro.netlify.app/)[![Pracy, Coding Practice & Quiz Platform](/images/projects/pracy.webp)Web AppPracy, Coding Practice & Quiz PlatformAn all-in-one coding-practice site with interactive challenges, quizzes and score tracking across multiple languages to strengthen logic and problem-solving.by RohanOpen the live project ↗](https://astounding-flan-f18e08.netlify.app/)
+[![MyDay: Social Productivity Organizer](/images/projects/myday.webp)Web AppMyDay: Social Productivity OrganizerA beautifully designed productivity platform to organise daily tasks, set goals and stay consistent, with a community feed of others' plans for inspiration.by VedantOpen the live project ↗](https://myday.modernagecoders.com)[![FreshTrack: Food Expiry Tracker](/images/projects/fresh.webp)Web AppFreshTrack: Food Expiry TrackerA smart food-management system to track expiry dates, add, update and delete items while the app checks expiry automatically, online and offline.by TanishOpen the live project ↗](https://freshtrackpro.netlify.app/)[![Pracy: Coding Practice & Quiz Platform](/images/projects/pracy.webp)Web AppPracy: Coding Practice & Quiz PlatformAn all-in-one coding-practice site with interactive challenges, quizzes and score tracking across multiple languages to strengthen logic and problem-solving.by RohanOpen the live project ↗](https://astounding-flan-f18e08.netlify.app/)
 
 ---
 

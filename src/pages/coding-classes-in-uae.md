@@ -20,7 +20,7 @@ United Arab Emirates · Online · +971 · GST UTC+4
 
 Live 1:1 mentorship in **Python**, modern web and **agentic AI** for UAE-based learners, aligned with every curriculum your child is sitting (**CBSE · ICSE · IGCSE · A-Level · IB DP · AP · MOE-UAE**), inspector-aware for **KHDA** and **ADEK**, and admissions-ready for **NYU Abu Dhabi · MBZUAI · AUS · Khalifa · Heriot-Watt Dubai** and the international branch campuses. **USD 150 a month**, eight live sessions, two per week, cancel anytime.
 
-See your school's curriculumتعليم برمجة وذكاء اصطناعي عالمي المستوى, مع معلم خاص، عبر الإنترنت، من إنتل بمنتاج بنك أبوظبي.Arabic-speaking parents welcome, instruction in English, but bilingual mentors available on request for primary-school learners.GST · UTC+416:00, 21:00Dubai · Abu Dhabi · Sharjah · all 7 emirates · after-school windowVS IST · −1h3014:30, 19:30 ISTIndian-trained mentors in their own normal teaching hoursWEEKENDSat 09:00: 17:00Many UAE families prefer Saturday for senior-secondary intensive blocks
+See your school's curriculumتعليم برمجة وذكاء اصطناعي عالمي المستوى, مع معلم خاص، عبر الإنترنت، من إنتل بمنتاج بنك أبوظبي.Arabic-speaking parents welcome, instruction in English, but bilingual mentors available on request for primary-school learners.GST · UTC+416:00: 21:00Dubai · Abu Dhabi · Sharjah · all 7 emirates · after-school windowVS IST · −1h3014:30: 19:30 ISTIndian-trained mentors in their own normal teaching hoursWEEKENDSat 09:00: 17:00Many UAE families prefer Saturday for senior-secondary intensive blocks
 
 The UAE is one single time zone, **GST (UTC+4)**. That makes scheduling simpler than any other country we serve. Most of our mentors are based in India (IST, only 90 minutes behind), so a 5 pm Dubai class is a normal 3:30 pm class for the mentor, no jet-lagged teaching, no “midnight in Mumbai” tradeoffs.
 
@@ -30,7 +30,7 @@ The UAE is one single time zone, **GST (UTC+4)**. That makes scheduling simpler 
 
 Every course below runs as live 1:1 with a mentor matched to your child's curriculum (CBSE, ICSE, British, American, IB or MOE-UAE) and age. Two 45-minute sessions per week. USD 150 per month for 1:1, or USD 100 for small-group cohort.
 
-[Grades 1, 3 Little Coders, Block to Python Scratch & ScratchJr, then we bridge to real Python by month four. Built around play, animation and music, but no “Python for kids” toys that hide the real language. USD 150 / month · 1:1 · 8 sessions](/courses/coding/kids)[Grades 4: 6 Python Foundations + Micro:bit Real Python, real keyboard typing, real GitHub. Optional physical-computing add-on with BBC micro:bit so the code controls something they can see. USD 150 / month · 1:1 · 8 sessions](/courses/coding/kids)[Grades 7, 8 Web Builders + AI Foundations HTML, CSS, JavaScript, React basics, they ship a real website by month two. AI module covers safe prompting, LLM mental models and a first agent-style project. USD 150 / month · 1:1 · 8 sessions](/courses/coding/teens)[Grade 9: 10 (IGCSE / CBSE) IGCSE / CBSE Computer Science Direct alignment with Cambridge IGCSE 0478, Pearson Edexcel IGCSE 4CP1, CBSE Class 10 IT 402 / 416 and Oxford AQA. Past-paper drills + a real coursework project that scores. USD 150 / month · 1:1 · 8 sessions](/courses/coding/teens)[Grade 11: 12 (A-Level / IB / AP) A-Level / IB DP / AP CS Cambridge 9608 / 9618 · Pearson 9CP0 · IB Computer Science HL & SL · AP CSP + AP CSA. Predicted-grade strategy, project portfolios and admissions-ready coding depth. USD 150 / month · 1:1 · 8 sessions](/courses/coding/teens)[Grade 11, 12 (CBSE / ICSE) CBSE / ICSE Class 11, 12 CS CBSE Class 11 / 12 Computer Science (083) and Informatics Practices (065). ISC Computer Science. Board-paper strategy + the real CS depth IIT-Delhi, BITS-Pilani and IIT-Bombay actually evaluate. USD 150 / month · 1:1 · 8 sessions](/courses/coding/teens)[University / Adult Agentic AI for Working Pros Python · SQL · LangChain · LangGraph · CrewAI · evaluations · production deployment. The exact stack Tabby, Careem, Talabat and DIFC-based AI startups recruit for. USD 150 / month · 1:1 · 8 sessions](/courses/coding/college)[For Girls, Grades 4, 12 Girls-Only Coding & AI All-female mentor pool. Same Python / web / AI track, designed around a girls-only cohort. Many Emirati and South-Asian families specifically prefer this option for daughters. USD 150 / month · 1:1 · 8 sessions](/courses/coding/girls)
+[Grades 1: 3 Little Coders: Block to Python Scratch & ScratchJr, then we bridge to real Python by month four. Built around play, animation and music, but no “Python for kids” toys that hide the real language. USD 150 / month · 1:1 · 8 sessions](/courses/coding/kids)[Grades 4: 6 Python Foundations + Micro:bit Real Python, real keyboard typing, real GitHub. Optional physical-computing add-on with BBC micro:bit so the code controls something they can see. USD 150 / month · 1:1 · 8 sessions](/courses/coding/kids)[Grades 7: 8 Web Builders + AI Foundations HTML, CSS, JavaScript, React basics. They ship a real website by month two. AI module covers safe prompting, LLM mental models and a first agent-style project. USD 150 / month · 1:1 · 8 sessions](/courses/coding/teens)[Grade 9: 10 (IGCSE / CBSE) IGCSE / CBSE Computer Science Direct alignment with Cambridge IGCSE 0478, Pearson Edexcel IGCSE 4CP1, CBSE Class 10 IT 402 / 416 and Oxford AQA. Past-paper drills + a real coursework project that scores. USD 150 / month · 1:1 · 8 sessions](/courses/coding/teens)[Grade 11: 12 (A-Level / IB / AP) A-Level / IB DP / AP CS Cambridge 9608 / 9618 · Pearson 9CP0 · IB Computer Science HL & SL · AP CSP + AP CSA. Predicted-grade strategy, project portfolios and admissions-ready coding depth. USD 150 / month · 1:1 · 8 sessions](/courses/coding/teens)[Grade 11: 12 (CBSE / ICSE) CBSE / ICSE Class 11: 12 CS CBSE Class 11 / 12 Computer Science (083) and Informatics Practices (065). ISC Computer Science. Board-paper strategy + the real CS depth IIT-Delhi, BITS-Pilani and IIT-Bombay actually evaluate. USD 150 / month · 1:1 · 8 sessions](/courses/coding/teens)[University / Adult Agentic AI for Working Pros Python · SQL · LangChain · LangGraph · CrewAI · evaluations · production deployment. The exact stack Tabby, Careem, Talabat and DIFC-based AI startups recruit for. USD 150 / month · 1:1 · 8 sessions](/courses/coding/college)[For Girls, Grades 4, 12 Girls-Only Coding & AI All-female mentor pool. Same Python / web / AI track, designed around a girls-only cohort. Many Emirati and South-Asian families specifically prefer this option for daughters. USD 150 / month · 1:1 · 8 sessions](/courses/coding/girls)
 
 Preparing for a specific exam? These live courses target the American, British and IB papers directly, taught to the current formats.
 
@@ -361,7 +361,7 @@ UAE University (Al Ain) and Zayed University (Abu Dhabi / Dubai). Strong nationa
 
 Many of our UAE students also target global universities: **MIT, Stanford, CMU, UC Berkeley**, the **University of Cambridge, Imperial College, UCL**, **University of Toronto, Waterloo, UBC**, and the Australian **Go8 (Melbourne, Sydney, ANU, UNSW, Monash, UQ, UWA, Adelaide)**. Our advanced track is calibrated to give them a real shot, not a glossy promise.
 
-Where this leads, UAE tech
+Where this leads: UAE tech
 
 ## The companies our advanced students aim at, or are already working in.
 
@@ -399,7 +399,7 @@ Week 1
 
 Mentor sets up the dev environment on your child's home laptop (VS Code, Python, GitHub account, optional micro:bit). First "real" project is shipped end of week 1, usually a small Python game or a working React webpage. We send you the GitHub link.
 
-Week 2, 3
+Week 2: 3
 
 ### Curriculum lock-in
 
@@ -475,7 +475,7 @@ Minute 0: 3
 
 Mentor and student greet each other on Zoom (we use Zoom not Google Meet because UAE families are more familiar with it). 2-minute recap of the last session: “What do you remember? What got stuck?”, no homework-style grilling.
 
-Minute 3, 10
+Minute 3: 10
 
 ### Concept moment
 
@@ -487,7 +487,7 @@ Minute 10: 35
 
 Student writes real code. Mentor shares their screen for the first few minutes, then student takes over and mentor watches, prompts, helps debug. Real errors. Real frustration. Real wins. The mentor never types for the student, the student types every character.
 
-Minute 35, 42
+Minute 35: 42
 
 ### Ship it
 

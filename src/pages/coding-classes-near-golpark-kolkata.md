@@ -156,10 +156,10 @@ LIVE ONLINE · GOLPARK, KOLKATA
 
 | Slot | Time | Best for | Days |
 | --- | --- | --- | --- |
-| Early evening | 4:30 PM: 5:30 PM | Younger kids (6–12) after school and music class | Mon, Wed, Fri |
-| Prime evening | 5:30 PM, 6:30 PM | Teens balancing South Point / Modern High coaching | Tue, Thu, Sat |
-| Late evening | 7:00 PM, 8:00 PM | Senior school and board-prep students | Mon, Thu |
-| Weekend morning | 10:00 AM, 11:30 AM | Intensive sessions, college students, professionals | Sat, Sun |
+| Early evening | 4:30 PM – 5:30 PM | Younger kids (6–12) after school and music class | Mon, Wed, Fri |
+| Prime evening | 5:30 PM – 6:30 PM | Teens balancing South Point / Modern High coaching | Tue, Thu, Sat |
+| Late evening | 7:00 PM – 8:00 PM | Senior school and board-prep students | Mon, Thu |
+| Weekend morning | 10:00 AM – 11:30 AM | Intensive sessions, college students, professionals | Sat, Sun |
 | Flexible 1-on-1 | By appointment | Any age needing a custom slot around music or coaching | Chosen with family |
 
 LIVE ONLINE · GOLPARK, KOLKATA
@@ -261,7 +261,7 @@ REAL STUDENT PROJECTS
 
 ## What our students actually build
 
-[![Image Slider Website](/images/projects/slider.webp)ToolImage Slider WebsiteA visually appealing site with a smooth image carousel, auto or manual navigation, responsive layout and beautiful transition effects.by SomrajOpen the live project ↗](https://robo23middle-stack.github.io/scenes/)[![The Beautiful Mind](/images/projects/mindgame.webp)GameThe Beautiful MindA scientifically designed focus and brain-strength game with 15 progressive levels, testing attention, control and mental endurance with real-time progress tracking and leaderboards.by Modern Age CodersOpen the live project ↗](https://mind.modernagecoders.com)[![Misti, AI Chatbot for Maths & Coding](/images/projects/misti.webp)AI & MLMisti, AI Chatbot for Maths & CodingAn intelligent AI-powered chatbot that helps students solve maths and coding questions with deep, step-by-step explanations using advanced Python AI frameworks and LLM APIs.by HarshitOpen the live project ↗](https://misti.modernagecoders.com)
+[![Image Slider Website](/images/projects/slider.webp)ToolImage Slider WebsiteA visually appealing site with a smooth image carousel, auto or manual navigation, responsive layout and beautiful transition effects.by SomrajOpen the live project ↗](https://robo23middle-stack.github.io/scenes/)[![The Beautiful Mind](/images/projects/mindgame.webp)GameThe Beautiful MindA scientifically designed focus and brain-strength game with 15 progressive levels, testing attention, control and mental endurance with real-time progress tracking and leaderboards.by Modern Age CodersOpen the live project ↗](https://mind.modernagecoders.com)[![Misti: AI Chatbot for Maths & Coding](/images/projects/misti.webp)AI & MLMisti: AI Chatbot for Maths & CodingAn intelligent AI-powered chatbot that helps students solve maths and coding questions with deep, step-by-step explanations using advanced Python AI frameworks and LLM APIs.by HarshitOpen the live project ↗](https://misti.modernagecoders.com)
 
 Every one is a real, live project by a student. See more in [Student Labs](/student-labs).
 

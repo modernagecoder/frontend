@@ -356,7 +356,7 @@ Data and forecasting
 
 Built on live weather data, and the nearest cousin to the COE prediction work described further up this page.
 
-by Krish · [Open the live project](https://krish-shroff.github.io/AuraWeatherTech/)
+by Krish
 
 Fees
 
@@ -500,6 +500,8 @@ Start here
 Leave a number and a mentor calls back, usually within a few hours and at an hour that suits Singapore rather than one that suits us. The first class is a genuine lesson, and it doubles as a placement check so your child starts at their own level rather than the middle of the room.
 
 Prefer to read first? See [how we teach](/how-we-teach), the [full course catalogue](/courses), our [coding classes in Singapore](/coding-classes-in-singapore), or [Student Labs](/student-labs).
+
+[Chat with us](https://wa.me/919123366161?text=Hi%2C%20I'm%20interested%20in%20learning%20more%20about%20your%20courses!)
 
 ---
 

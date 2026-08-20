@@ -351,7 +351,7 @@ Data and forecasting
 
 Pulls live forecast data and presents it clearly, which is the discipline the airport project teaches.
 
-by Krish · [Open the live project](https://krish-shroff.github.io/AuraWeatherTech/)
+by Krish
 
 Fees
 
@@ -493,6 +493,8 @@ Start here
 Leave a number and a mentor calls you back, usually within a few hours, at an hour that works in Muscat. The first class is a real class with a real teacher, and it doubles as a placement check so your child starts at the right level rather than the average one.
 
 Prefer to look around first? Read [how we teach](/how-we-teach), browse the [full catalogue](/courses), see the wider [Oman page](/ai-and-machine-learning-classes-in-oman), or open [Student Labs](/student-labs).
+
+[Chat with us](https://wa.me/919123366161?text=Hi%2C%20I'm%20interested%20in%20learning%20more%20about%20your%20courses!)
 
 ---
 

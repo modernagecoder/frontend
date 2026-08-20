@@ -16,7 +16,7 @@ Book a Free Python DemoSee the Roadmap**pandas**The data workhorse**5–8**Stude
 
 ## Quick answer
 
-**Modern Age Coders' Python for Data Science course teaches the Python coding foundation used for data science, ML and AI.** You start from Python fundamentals with a data focus, then master the core libraries: NumPy for numerical arrays, pandas for loading, cleaning and transforming data, and Matplotlib/Seaborn for visualisation , all hands-on in Jupyter and Google Colab with real datasets. No prior coding is needed. Classes are live in small batches of 5–8 with a mentor, and group plans start at ₹1,499/month. Every learner gets a free demo class first.
+**Modern Age Coders' Python for Data Science course teaches the Python coding foundation used for data science, ML and AI.** You start from Python fundamentals with a data focus, then master the core libraries: NumPy for numerical arrays, pandas for loading, cleaning and transforming data, and Matplotlib/Seaborn for visualisation, all hands-on in Jupyter and Google Colab with real datasets. No prior coding is needed. Classes are live in small batches of 5–8 with a mentor, and group plans start at ₹1,499/month. Every learner gets a free demo class first.
 
 Start Today
 

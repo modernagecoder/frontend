@@ -144,13 +144,13 @@ Gemini AIFull-StackDatabaseQuiz Gen[Open the live project ↗](https://bookdesk1
 
 A scientifically designed focus and brain-strength game with 15 progressive levels, testing attention, control and mental endurance with real-time progress tracking and leaderboards.
 
-ReactFirebaseJavaScriptGame Logic[Open the live project ↗](https://mind.modernagecoders.com)Built by Krish · Web App
+ReactFirebaseJavaScriptGame Logic[Open the live project ↗](https://mind.modernagecoders.com)Built by Manay · Tool
 
-### SkyCast: Weather Forecast App
+### Life Span Tracker
 
-An interactive weather forecasting site with real-time updates for any location, temperature, humidity, wind speed and conditions in a clean, responsive interface.
+An interactive web tool that calculates expected lifespan, shows days, months and years lived, and visualises remaining time to motivate better habits.
 
-JavaScriptAPIHTML/CSS[Open the live project ↗](https://krish-shroff.github.io/AuraWeatherTech/)Built by Vivaan · AI & ML
+JavaScriptAPIsDate Calc[Open the live project ↗](https://lifespantracker.netlify.app/)Built by Vivaan · AI & ML
 
 ### GuardianX: AI Bodyguard for the Internet
 
@@ -313,13 +313,13 @@ How we compare
 
 Honest comparison. We don't win on every row, but on the ones that matter for your child's progress, we do.
 
-What mattersModern Age CodersLocal Swiss tutorFree tools (Code.org, YouTube)Generic global online school1:1 live mentor, same face weekly✓ Yes✓ Often: No~ RotatingReal coding (Python, JS, Git)✓ Week 1~ Depends~ Mostly blocks~ EventuallyAgentic AI & modern LLM engineering✓ Built-in, Rare, No~ MarketingMatura Informatik / ETH / EPFL prep✓ Aligned~ If you find one, No, NoSchedule in Central European Time✓ Native✓ Native✓ Self-paced~ Often US hoursReal shipped projects in portfolio✓ Every month~ Maybe, No~ Demo appsMonthly costUSD 150 (1:1) / 100 (group)CHF 200, 500FreeUSD 150: 300Pause / cancel any time✓ No contract~ Varies✓ Free~ QuarterlySwiss-hour schedule
+What mattersModern Age CodersLocal Swiss tutorFree tools (Code.org, YouTube)Generic global online school1:1 live mentor, same face weekly✓ Yes✓ Often: No~ RotatingReal coding (Python, JS, Git)✓ Week 1~ Depends~ Mostly blocks~ EventuallyAgentic AI & modern LLM engineering✓ Built-in, Rare, No~ MarketingMatura Informatik / ETH / EPFL prep✓ Aligned~ If you find one, No, NoSchedule in Central European Time✓ Native✓ Native✓ Self-paced~ Often US hoursReal shipped projects in portfolio✓ Every month~ Maybe: No~ Demo appsMonthly costUSD 150 (1:1) / 100 (group)CHF 200, 500FreeUSD 150, 300Pause / cancel any time✓ No contract~ Varies✓ Free~ QuarterlySwiss-hour schedule
 
 ## Slots that fit Swiss school days.
 
 You pick two slots per week when you enrol. These are the windows most Swiss families choose, all times in Central European Time. We open additional slots on request.
 
-SlotDaysBest forAvailability**16:00, 17:00 CET***after school*Mon · Wed · FriPrimary school kids (6–12)High demand**17:30, 18:30 CET***after sport*Mon · Tue · ThuTeens, Matura prepComfortable**19:00, 20:00 CET***evening*Tue · Wed · ThuWorking adults & uni studentsComfortable**09:00, 10:00 CET***weekend morning*Sat & SunFamily-paced learners of any ageLimited**11:00: 12:00 CET***weekend late-morning*Sat & SunKids · teens · adultsComfortableCities & cantons we serve
+SlotDaysBest forAvailability**16:00: 17:00 CET***after school*Mon · Wed · FriPrimary school kids (6–12)High demand**17:30: 18:30 CET***after sport*Mon · Tue · ThuTeens, Matura prepComfortable**19:00: 20:00 CET***evening*Tue · Wed · ThuWorking adults & uni studentsComfortable**09:00: 10:00 CET***weekend morning*Sat & SunFamily-paced learners of any ageLimited**11:00: 12:00 CET***weekend late-morning*Sat & SunKids · teens · adultsComfortableCities & cantons we serve
 
 ## From the lake to the Alps: we teach across Switzerland.
 

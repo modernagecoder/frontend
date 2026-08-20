@@ -12,7 +12,7 @@ Crafted for Students of Birla High School, Moira Street, Elgin  India's #1 Boys 
 
 Live online Python, AI, Web Dev & CBSE Mathematics, built around BHS's academic calendar on Moira Street, Elgin. CBSE CS practical prep, JEE Maths foundation, Coding Olympiad training. Ultra-small batches, real projects, zero fluff.
 
-10,000+ Students Mentored4.9/5 Parent RatingCBSE Aligned, All ClassesJEE & Olympiad Prep[See How We Teach, Live Classes](/how-we-teach)Book a Free Live Class
+10,000+ Students Mentored4.9/5 Parent RatingCBSE Aligned: All ClassesJEE & Olympiad Prep[See How We Teach: Live Classes](/how-we-teach)Book a Free Live Class
 
 ✔ 100% live online classes • Watch real lessons free • No commitment
 
@@ -74,7 +74,7 @@ BHS students have packed schedules, morning school, FIITJEE or Aakash coaching i
 
 Fun, project-driven coding that builds the logical thinking BHS students will rely on for every subject, from Class 1 all the way to CBSE boards.
 
-![Scratch Coding for Birla High School Kids Kolkata Elgin, block programming](/images/kids-coding.webp)Most Popular · Ages 6–10
+![Scratch Coding for Birla High School Kids Kolkata Elgin: block programming](/images/kids-coding.webp)Most Popular · Ages 6–10
 
 ### Scratch: Block Coding & Game Dev
 
@@ -182,7 +182,7 @@ IOQM · RMO · INMO · IMO
 
 From Class 1 curiosity to Class 12 mastery, a progressive path that grows alongside BHS's CBSE curriculum.
 
-1–2Classes 1–2, Curiosity & Logic PlayUnplugged coding activities, Scratch Jr, pattern recognition. Building computational thinking before a keyboard is even needed. The seeds of every future algorithm are planted here.3–5Classes 3–5, Scratch Games & CBSE Maths FoundationFull Scratch block programming, animations, games, interactive projects. CBSE Maths foundation: fractions, decimals, basic algebra. Every maths concept reinforced through mini coding projects.6–7Classes 6–7: Web Design, Python Intro & CBSE MathsTransition to HTML/CSS and beginner Python. Students build their first websites. CBSE Maths covers integers, algebra, geometry, all synced with BHS's own chapter progression and periodical exam schedule.8–10Classes 8–10, Python Advanced, AI & CBSE Board MathsOOP, data structures, SQL, and AI mini-projects. CBSE Maths covers trigonometry, coordinate geometry, statistics, probability, full board exam prep with past paper walkthroughs. JEE Foundation begins at Class 8.11–12Classes 11–12, CBSE CS Practicals, JEE Maths & OlympiadsCBSE CS Practical Bootcamp (Python + SQL). CBSE Class 12 Maths and JEE Advanced Maths. Competitive programming (ZCO/INOI). Maths Olympiad (IOQM/RMO). University application portfolio building. This is where BHS students become truly unstoppable.
+1–2Classes 1–2: Curiosity & Logic PlayUnplugged coding activities, Scratch Jr, pattern recognition. Building computational thinking before a keyboard is even needed. The seeds of every future algorithm are planted here.3–5Classes 3–5: Scratch Games & CBSE Maths FoundationFull Scratch block programming, animations, games, interactive projects. CBSE Maths foundation: fractions, decimals, basic algebra. Every maths concept reinforced through mini coding projects.6–7Classes 6–7: Web Design, Python Intro & CBSE MathsTransition to HTML/CSS and beginner Python. Students build their first websites. CBSE Maths covers integers, algebra, geometry, all synced with BHS's own chapter progression and periodical exam schedule.8–10Classes 8–10: Python Advanced, AI & CBSE Board MathsOOP, data structures, SQL, and AI mini-projects. CBSE Maths covers trigonometry, coordinate geometry, statistics, probability, full board exam prep with past paper walkthroughs. JEE Foundation begins at Class 8.11–12Classes 11–12: CBSE CS Practicals, JEE Maths & OlympiadsCBSE CS Practical Bootcamp (Python + SQL). CBSE Class 12 Maths and JEE Advanced Maths. Competitive programming (ZCO/INOI). Maths Olympiad (IOQM/RMO). University application portfolio building. This is where BHS students become truly unstoppable.
 
 ## Why BHS Families Choose Modern Age Coders
 

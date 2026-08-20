@@ -179,15 +179,13 @@ An honest comparison
 
 ## How we differ from the alternatives.
 
- $1$150 (1:1) / $100 (group)$2
-
 | What matters | Modern Age Coders | Homework apps | A typical tutor |
 | --- | --- | --- | --- |
 | Makes algebra meaningful | Yes | Rarely | Varies |
 | Fixes hidden primary gaps | Yes, diagnosed live | No | Sometimes |
 | Builds for GCSE, not just now | Yes | No | Varies |
 | Same tutor each time | Yes | N/A | Often |
-| Monthly price | £5–10 | £28–45/hr |
+| Monthly price | $150 (1:1) / $100 (group) | £5–10 | £28–45/hr |
 
 Homework apps help with the day's task. They won't notice your child has never really understood what a variable is, which is the gap that wrecks GCSE.
 
@@ -209,7 +207,7 @@ KS3 introduces real abstraction and a faster pace. A child who relied on memory 
 
 Is it aligned with the national curriculum?
 
-Yes, number, algebra, ratio and proportion, geometry, probability and statistics. And we can work from your child's school scheme of work.
+Yes, number, algebra, ratio and proportion, geometry, probability and statistics, and we can work from your child's school scheme of work.
 
 How much does it cost?
 
@@ -241,7 +239,7 @@ Yes, after-school, evening and weekend slots in UK time.
 
 Can we start mid-year?
 
-Yes, we start wherever your child is.
+Yes. We start wherever your child is.
 
 ## Book a free KS3 maths trial lesson.
 
@@ -259,7 +257,7 @@ Real student projects
 
 Every one is a real, live project shipped by a Modern Age Coders student. Explore more in [Student Labs](/student-labs).
 
-[![LumenFX, AR/VR Photo Effects Studio](/images/projects/lumenfx.webp)Web AppLumenFX, AR/VR Photo Effects StudioUpload a photo and transform it with cinematic filters, AR face effects and the wildest trending edits, the same looks blowing up on TikTok, Reels and Snap, with 240+ one-tap presets. Raayan vibe-coded the whole studio from an idea: prompted the concept, then built the effects engine and gallery UI by hand.by RaayanOpen the live project ↗](https://arvrbadestweb.lovable.app)[![Doodle Dash, 30-Second Drawing Challenge](/images/projects/doodledash.webp)GameDoodle Dash, 30-Second Drawing ChallengePick a difficulty, get a prompt, and you have exactly 30 seconds to draw it, then an AI judge scores how close you got. Three modes from easy objects to chaotic scenes. Shubh vibe-coded it idea-first, wiring real AI image grading into a fast, addictive drawing game.by ShubhOpen the live project ↗](https://doodledashmaster.lovable.app)[![BookDesk, AI Book Summaries & Quizzes](/images/projects/bookdesk.webp)AI & MLBookDesk, AI Book Summaries & QuizzesType in any book name and author, and BookDesk pulls together the book's details, a clear summary and a custom quiz to test what you've learned, a genuinely useful study companion. Anika built it as a full-stack AI application, powered by Google Gemini with a live database behind it.by AnikaOpen the live project ↗](https://bookdesk1.netlify.app)
+[![LumenFX: AR/VR Photo Effects Studio](/images/projects/lumenfx.webp)Web AppLumenFX: AR/VR Photo Effects StudioUpload a photo and transform it with cinematic filters, AR face effects and the wildest trending edits, the same looks blowing up on TikTok, Reels and Snap, with 240+ one-tap presets. Raayan vibe-coded the whole studio from an idea: prompted the concept, then built the effects engine and gallery UI by hand.by RaayanOpen the live project ↗](https://arvrbadestweb.lovable.app)[![Doodle Dash: 30-Second Drawing Challenge](/images/projects/doodledash.webp)GameDoodle Dash: 30-Second Drawing ChallengePick a difficulty, get a prompt, and you have exactly 30 seconds to draw it, then an AI judge scores how close you got. Three modes from easy objects to chaotic scenes. Shubh vibe-coded it idea-first, wiring real AI image grading into a fast, addictive drawing game.by ShubhOpen the live project ↗](https://doodledashmaster.lovable.app)[![BookDesk: AI Book Summaries & Quizzes](/images/projects/bookdesk.webp)AI & MLBookDesk: AI Book Summaries & QuizzesType in any book name and author, and BookDesk pulls together the book's details, a clear summary and a custom quiz to test what you've learned, a genuinely useful study companion. Anika built it as a full-stack AI application, powered by Google Gemini with a live database behind it.by AnikaOpen the live project ↗](https://bookdesk1.netlify.app)
 
 Parent & student voices
 

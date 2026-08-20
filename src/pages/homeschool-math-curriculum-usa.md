@@ -171,13 +171,13 @@ Our mentors know elementary through high-school math deeply, teach it for unders
 
 The same mentor stays for the long haul, building a coherent path year over year, the continuity homeschooling does so well, applied to the one subject parents most often want help with.
 
-"I teach everything else happily, but high-school math scared me. Handing it to one mentor who actually plans it out lifted a real weight, and my son is thriving.", Homeschooling parent, Oregon
+"I teach everything else happily, but high-school math scared me. Handing it to one mentor who actually plans it out lifted a real weight, and my son is thriving."
+
+, Homeschooling parent, Oregon
 
 An honest comparison
 
 ## How we differ from the alternatives.
-
- $1$150 (1:1) / $100 (group)$2
 
 | What matters | Modern Age Coders | Boxed curriculum | Self-paced app |
 | --- | --- | --- | --- |
@@ -185,7 +185,7 @@ An honest comparison
 | Live expert teaching | Yes, 1:1 | Parent-led | No |
 | Catches gaps as they form | Yes, in the moment | No | Limited |
 | Records for portfolio | Yes | You compile | Score logs |
-| Monthly price | $80–150/yr | $10–20/mo |
+| Monthly price | $150 (1:1) / $100 (group) | $80–150/yr | $10–20/mo |
 
 A boxed curriculum is inexpensive and works for many families. We add live expert teaching and an individual pace for the families who want them, especially through the harder high-school years.
 
@@ -257,7 +257,7 @@ Real student projects
 
 Every one is a real, live project shipped by a Modern Age Coders student. Explore more in [Student Labs](/student-labs).
 
-[![FreshTrack, Food Expiry Tracker](/images/projects/fresh.webp)Web AppFreshTrack, Food Expiry TrackerA smart food-management system to track expiry dates, add, update and delete items while the app checks expiry automatically, online and offline.by TanishOpen the live project ↗](https://freshtrackpro.netlify.app/)[![Pracy, Coding Practice & Quiz Platform](/images/projects/pracy.webp)Web AppPracy, Coding Practice & Quiz PlatformAn all-in-one coding-practice site with interactive challenges, quizzes and score tracking across multiple languages to strengthen logic and problem-solving.by RohanOpen the live project ↗](https://astounding-flan-f18e08.netlify.app/)[![Word Counter Website](/images/projects/wordcounter.webp)ToolWord Counter WebsiteA simple yet powerful tool that counts words, sentences and paragraphs from user input with instant, real-time results and a clean responsive interface.by VanshOpen the live project ↗](https://vanshagarwalwordcounter-sys.github.io/WordCounter/)
+[![FreshTrack: Food Expiry Tracker](/images/projects/fresh.webp)Web AppFreshTrack: Food Expiry TrackerA smart food-management system to track expiry dates, add, update and delete items while the app checks expiry automatically, online and offline.by TanishOpen the live project ↗](https://freshtrackpro.netlify.app/)[![Pracy: Coding Practice & Quiz Platform](/images/projects/pracy.webp)Web AppPracy: Coding Practice & Quiz PlatformAn all-in-one coding-practice site with interactive challenges, quizzes and score tracking across multiple languages to strengthen logic and problem-solving.by RohanOpen the live project ↗](https://astounding-flan-f18e08.netlify.app/)[![Word Counter Website](/images/projects/wordcounter.webp)ToolWord Counter WebsiteA simple yet powerful tool that counts words, sentences and paragraphs from user input with instant, real-time results and a clean responsive interface.by VanshOpen the live project ↗](https://vanshagarwalwordcounter-sys.github.io/WordCounter/)
 
 Parent & student voices
 

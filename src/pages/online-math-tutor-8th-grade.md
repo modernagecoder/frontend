@@ -406,11 +406,9 @@ An honest comparison
 
 ## Your real options for a struggling 8th grader.
 
- $1$100–$150 / month$2
-
 | Option | Typical cost | What it really is | Best for |
 | --- | --- | --- | --- |
-| Modern Age Coders | Live one-hour classes with a dedicated mentor, concrete-first teaching | Rebuilding understanding and confidence, sustained progress |
+| Modern Age Coders | $100–$150 / month | Live one-hour classes with a dedicated mentor, concrete-first teaching | Rebuilding understanding and confidence, sustained progress |
 | Mathnasium center | $300-$450 / month + enrollment fee | Drop-in worksheet floor with rotating instructors | Children who focus better out of the house |
 | Kumon | $150-$220 / subject / month | Daily worksheet packets, brief check-ins, no taught lessons | Building a drill habit and calculation speed |
 | Local private tutor | $35-$80 / hour | Quality varies; twice-weekly quickly costs $280-$640 a month | Short-term help when you have found a gem nearby |

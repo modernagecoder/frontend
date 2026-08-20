@@ -157,32 +157,6 @@ Custom Quote
 
 [Get Quote](/contact)Free demo before you payMonthly billing, cancel anytimeNo registration fee[Read our zero-risk promise](/guarantee)
 
-## International Student Pricing
-
-For students outside India, coding courses at a single transparent price in USD. Mathematics is priced separately, see the **Mathematics** tab above.
-
-Group Classes$100USD / month
-
-- 2 classes per week (1 hr each)
-- Batch of up to 10 students
-- Recorded sessions access
-- Course completion certificate
-
-[Chat to Enroll](https://wa.me/919123366161?text=Hi! I'm interested in Group Classes. I'm an international student and would like to know the price for my country and payment options.)RecommendedPersonalized 1-on-1$150USD / month
-
-- 2 private sessions per week
-- 100% personalized curriculum
-- Flexible scheduling
-- Dedicated mentor + priority support
-- Portfolio & career guidance
-
-[Chat to Enroll](https://wa.me/919123366161?text=Hi! I'm interested in Personalized 1-on-1 Classes. I'm an international student and would like to know the price for my country and payment options.)
-
-**Mathematics (international):** Group **$100** · Personalized 1-on-1 **$150** / month: 1-hour live classes, 2 per week (8 a month).
-
-Also available in EUR, GBP, CAD, AUD, SGD & AED.
- Contact [+91 9123366161](tel:+919123366161) (Shivam Sir) for payment details.
-
 ## Why Choose Modern Age Coders?
 
 See how we stand out from traditional coding institutes and online platforms

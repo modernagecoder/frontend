@@ -15,7 +15,9 @@ Important: Please Read
 
 Please contact +91 91233 66161 on **WhatsApp** or **call** to confirm **your class timings and schedule**. Share your **full name, the course you enrolled in,** and your **preferred time slot** so our team can get you set up right away.
 
-[WhatsApp Us](https://wa.me/919123366161)[Call 91233 66161](tel:+919123366161)Order ID, Amount Paid, ### What happens next?
+[WhatsApp Us](https://wa.me/919123366161)[Call 91233 66161](tel:+919123366161)Order ID,Amount Paid,
+
+### What happens next?
 
 1. Reach out on WhatsApp or call **+91 91233 66161** to confirm your class timings.
 2. You'll receive your batch details, class link, and onboarding kit.

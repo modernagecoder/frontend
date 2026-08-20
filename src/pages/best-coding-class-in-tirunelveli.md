@@ -36,7 +36,7 @@ Ages 8–12
 
 ## Coding for kids in Tirunelveli
 
-Most popular![Kids coding with Scratch, best coding class for kids in Tirunelveli](/images/kids-coding.webp)
+Most popular![Kids coding with Scratch: best coding class for kids in Tirunelveli](/images/kids-coding.webp)
 
 ### Kids Coding with Scratch
 
@@ -58,7 +58,7 @@ Children craft their very first colourful website with HTML & CSS, then send the
 - Fun, real web projects
 - A personal portfolio page
 
-[View course](/courses/kids-ai-web-development-course)Next step![Python for kids, programming course in Tirunelveli](/images/python-kids.webp)
+[View course](/courses/kids-ai-web-development-course)Next step![Python for kids: programming course in Tirunelveli](/images/python-kids.webp)
 
 ### Python for Young Coders
 
@@ -73,7 +73,7 @@ The jump to real, typed code, in the world's most popular language. Children wri
 
 ## Coding for teens in Tirunelveli
 
-In demand![Python programming for teens, best coding institute in Tirunelveli](/images/python-teens.webp)
+In demand![Python programming for teens: best coding institute in Tirunelveli](/images/python-teens.webp)
 
 ### Python Programming
 
@@ -84,7 +84,7 @@ The most in-demand language in the world, and the one the STPI Tirunelveli centr
 - Automation & scripting
 - Real-world projects
 
-[View course](/courses/python-complete-masterclass-teens)Career![Java programming for teens, best coding class in Tirunelveli](/images/java-teens.webp)
+[View course](/courses/python-complete-masterclass-teens)Career![Java programming for teens: best coding class in Tirunelveli](/images/java-teens.webp)
 
 ### Java Programming
 
@@ -95,7 +95,7 @@ Java underpins board-level Computer Science and the enterprise stacks at TCS, In
 - Intro to Android app building
 - Board-aligned practice
 
-[View course](/courses/java-programming-masterclass-for-teens)Build![Web development for teens, programming classes in Tirunelveli](/images/web-dev-teens.webp)
+[View course](/courses/java-programming-masterclass-for-teens)Build![Web development for teens: programming classes in Tirunelveli](/images/web-dev-teens.webp)
 
 ### Full-Stack Web Development
 
@@ -106,7 +106,7 @@ Build complete, deployed websites from scratch with HTML, CSS, JavaScript and Re
 - Backend with Node.js
 - Live portfolio projects
 
-[View course](/courses/web-development-masterclass-teens)Future![AI and machine learning for teens, coding course in Tirunelveli](/images/ai-ml-teens.webp)
+[View course](/courses/web-development-masterclass-teens)Future![AI and machine learning for teens: coding course in Tirunelveli](/images/ai-ml-teens.webp)
 
 ### AI & Machine Learning
 
@@ -158,19 +158,19 @@ Python, machine learning and real data analysis, built for the analytics and AI 
 
 ## Mathematics classes in Tirunelveli
 
-![Elementary mathematics, maths classes in Tirunelveli](/images/elementary-maths.webp)
+![Elementary mathematics: maths classes in Tirunelveli](/images/elementary-maths.webp)
 
 ### Elementary Mathematics
 
 Rock-solid foundations in numbers, operations, fractions, geometry and word problems for grades 1–5, aligned to CBSE and Tamil Nadu State board schools across Tirunelveli.
 
-[View course](/courses/elementary-mathematics-complete-masterclass)![High school mathematics, maths tuition in Tirunelveli](/images/high-school-maths.webp)
+[View course](/courses/elementary-mathematics-complete-masterclass)![High school mathematics: maths tuition in Tirunelveli](/images/high-school-maths.webp)
 
 ### High School Mathematics
 
 Algebra, geometry, trigonometry, pre-calculus and calculus for grades 9–12, board-aligned and built to give Tirunelveli's JEE and NEET aspirants a genuine head start.
 
-[View course](/courses/complete-high-school-mathematics-mastery)Olympiad![Olympiad mathematics, competition prep in Tirunelveli](/images/olympiad-competition-maths.webp)
+[View course](/courses/complete-high-school-mathematics-mastery)Olympiad![Olympiad mathematics: competition prep in Tirunelveli](/images/olympiad-competition-maths.webp)
 
 ### Olympiad & Competition Math
 
@@ -250,7 +250,7 @@ International families pay flat USD rates, the prices above update automatically
 
 Not screenshots of a syllabus, real, live projects from Modern Age Coders learners and labs. Click through and use them.
 
-[![HairSync, AI Hairstyle Try-On](/images/projects/hairsync.webp) AI & MLHairSync, AI Hairstyle Try-OnUpload a clear photo and try on any hairstyle before you commit, wolf cuts, curtain bangs, fades, braids and dozens of trending looks, rendered onto your own face by AI in seconds. Kriti vibe-coded this virtual try-on studio from a single idea into a working app. Built by Kriti · Vibe Coding, AI ImageOpen the live project ↗](https://hairsync.lovable.app)[![Palm Arcana, Summon the Elements](/images/projects/superpawer.webp) GamePalm Arcana, Summon the ElementsOpen your palms to the webcam and computer vision turns your gestures into real magic, the left palm throws a fireball, the right crackles with lightning. A wild blend of hand-tracking AI, creative coding and pure imagination, vibe-coded into a playable browser experience. Built by Aarush · Vibe Coding, Computer VisionOpen the live project ↗](https://superpawer.netlify.app)[![BookDesk, AI Book Summaries & Quizzes](/images/projects/bookdesk.webp) AI & MLBookDesk, AI Book Summaries & QuizzesType in any book name and author, and BookDesk pulls together the book's details, a clear summary and a custom quiz to test what you've learned, a genuinely useful study companion. Anika built it as a full-stack AI application, powered by Google Gemini with a live database behind it. Built by Anika · Gemini AI, Full-StackOpen the live project ↗](https://bookdesk1.netlify.app)[See more student projects →](/student-labs)
+[![HairSync: AI Hairstyle Try-On](/images/projects/hairsync.webp) AI & MLHairSync: AI Hairstyle Try-OnUpload a clear photo and try on any hairstyle before you commit, wolf cuts, curtain bangs, fades, braids and dozens of trending looks, rendered onto your own face by AI in seconds. Kriti vibe-coded this virtual try-on studio from a single idea into a working app. Built by Kriti · Vibe Coding, AI ImageOpen the live project ↗](https://hairsync.lovable.app)[![Palm Arcana: Summon the Elements](/images/projects/superpawer.webp) GamePalm Arcana: Summon the ElementsOpen your palms to the webcam and computer vision turns your gestures into real magic, the left palm throws a fireball, the right crackles with lightning. A wild blend of hand-tracking AI, creative coding and pure imagination, vibe-coded into a playable browser experience. Built by Aarush · Vibe Coding, Computer VisionOpen the live project ↗](https://superpawer.netlify.app)[![BookDesk: AI Book Summaries & Quizzes](/images/projects/bookdesk.webp) AI & MLBookDesk: AI Book Summaries & QuizzesType in any book name and author, and BookDesk pulls together the book's details, a clear summary and a custom quiz to test what you've learned, a genuinely useful study companion. Anika built it as a full-stack AI application, powered by Google Gemini with a live database behind it. Built by Anika · Gemini AI, Full-StackOpen the live project ↗](https://bookdesk1.netlify.app)[See more student projects →](/student-labs)
 
 ## What families say
 

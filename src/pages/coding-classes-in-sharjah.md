@@ -188,7 +188,7 @@ Mother of Ishan
 
 Every one of these is a real, live project shipped by a Modern Age Coders student, not a mockup. Explore more in our [Student Labs](/student-labs).
 
-![Doodle Dash, 30-Second Drawing Challenge](/images/projects/doodledash.webp)
+![Doodle Dash: 30-Second Drawing Challenge](/images/projects/doodledash.webp)
 
 Game
 
@@ -234,7 +234,7 @@ Billing is monthly, in US dollars, and the dirham's dollar peg keeps the AED fig
 
 Group classes
 
- $1$100$2
+$100 per month
 
 - Weekly live classes, 5 to 8 students
 - Evening and weekend GST slots
@@ -245,7 +245,7 @@ Book a Free Demo
 
 One-on-one classes
 
- $1$150$2
+$150 per month
 
 - The teacher's full hour, one student
 - Slots built around the family calendar
@@ -271,6 +271,8 @@ Sharjah shoppers check the stitching before they buy, and a class should survive
 Prefer WhatsApp? [Message us](https://wa.me/919123366161?text=Hi,%20I%20want%20a%20free%20demo%20for%20coding%20classes%20in%20Sharjah) and a mentor replies during Sharjah daytime hours.
 
 4.9 rating across 547+ Google reviews
+
+[Chat with us](https://wa.me/919123366161?text=Hi%2C%20I'm%20interested%20in%20learning%20more%20about%20your%20courses!)
 
 ---
 

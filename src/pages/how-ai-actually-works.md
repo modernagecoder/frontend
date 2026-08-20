@@ -30,7 +30,7 @@ An LLM is, mechanically, a function. You give it text. It gives you back text. T
 
 What makes the function feel like magic is not what it does. It is the **scale** at which it does it. A modern LLM has somewhere between 50 billion and 2 trillion *parameters*: numbers that the model has learned, one at a time, from reading roughly the entire indexed internet. Each call to the function involves multiplying input through those parameters in a precise sequence. The output is, mathematically, the most likely next chunk of text given the input. Run that loop once and you get a word. Run it five hundred times and you get an essay.
 
-> A useful way to hold this in your head: the AI is not thinking. It is predicting. But it has been trained on so much human thinking that prediction at this scale starts to look indistinguishable from thinking. Whether the difference matters depends on the question you are asking it.: The honest one-paragraph summary of the field
+> A useful way to hold this in your head: the AI is not thinking. It is predicting. But it has been trained on so much human thinking that prediction at this scale starts to look indistinguishable from thinking. Whether the difference matters depends on the question you are asking it. : The honest one-paragraph summary of the field
 
 The chapters that follow open up that function. Token by token, layer by layer. By the end of this page, "How does ChatGPT work?" will not be a hand-wavy question for you any more.
 
@@ -58,7 +58,7 @@ An integer ID like 42816 has no meaning. The number itself is arbitrary. The mod
 
 Each number in the vector is a coordinate in a "meaning space" the model has learned. Tokens with similar meanings sit close together in that space. Tokens with different meanings sit far apart. This is one of the most important and least understood facts about how LLMs work, meaning lives in geometry.
 
-Figure 3.1, A toy embedding (4 dimensions) of three tokensToken · king0.62-0.180.910.07Token · queen0.59-0.15-0.850.04
+Figure 3.1: A toy embedding (4 dimensions) of three tokensToken · king0.62-0.180.910.07Token · queen0.59-0.15-0.850.04
 
 The first two coordinates are almost identical (royalty-ness). The third coordinate flips sign (gender-ness). The fourth is similar (formality, perhaps). This is hand-waved, real embeddings have 768+ dimensions and the meanings of individual coordinates are not human-readable. But the principle is exactly this.
 
@@ -92,7 +92,7 @@ Chapter 05
 
 A modern LLM is a stack of identical building blocks, called **transformer blocks**, stacked between 24 and 120 deep. Each block does two things in sequence. First, an attention layer mixes information across tokens. Second, a simple *feedforward* layer transforms each token individually. Both layers are wrapped in a small mathematical trick called a *residual connection* that lets information flow around the layer if needed.
 
-Transformer block, in pseudocode# x is a tensor of shape [batch, sequence_length, dim]# It enters the block as embeddings and leaves as embeddings.def transformer_block(x): # Step 1, token-mixing via attention attn_out = multi_head_attention(layer_norm(x)) x = x + attn_out # residual connection# Step 2 , per-token transformation ffn_out = feedforward(layer_norm(x)) x = x + ffn_out # residual connectionreturn x
+Transformer block, in pseudocode# x is a tensor of shape [batch, sequence_length, dim]# It enters the block as embeddings and leaves as embeddings.def transformer_block(x): # Step 1, token-mixing via attention attn_out = multi_head_attention(layer_norm(x)) x = x + attn_out # residual connection# Step 2, per-token transformation ffn_out = feedforward(layer_norm(x)) x = x + ffn_out # residual connectionreturn x
 
 Six lines. Stack 96 of them on top of each other. Wrap the input in a token embedding lookup. Wrap the output in a layer that maps the final hidden states back into a probability distribution over the vocabulary. That is the architecture of GPT-4. That is also, more or less, the architecture of Claude and Gemini and Llama. The differences are in scale, training data, and dozens of small tricks. The skeleton is the same.
 
@@ -142,7 +142,9 @@ If you have read this far, you now have a more honest mental model of how modern
 
 The honest answer is the obvious one. You learn to build with it. The chapters above are the conceptual skeleton. The skill itself comes from writing the code, training the tiny models, breaking them, and watching them work. That is what every Modern Age Coders AI course is built around, at every age, from eight to fifty.
 
-> The architecture is on a postcard. The reason it works is *not*. That is why the engineers who can build this are about to be the most valuable people in the next decade.: A line we wish we had not had to writeModern Age Coders · courses by age band
+> The architecture is on a postcard. The reason it works is *not*. That is why the engineers who can build this are about to be the most valuable people in the next decade.
+
+: A line we wish we had not had to writeModern Age Coders · courses by age band
 
 ## Now *build* what you just understood.
 
@@ -220,7 +222,7 @@ Real student projects
 
 Every one is a real, live project shipped by a Modern Age Coders student. Explore more in [Student Labs](/student-labs).
 
-[![Moxo, Company Landing Page](/images/projects/moxo.webp)Web AppMoxo, Company Landing PageA stunning modern landing page with smooth parallax scrolling, advanced GSAP animations and elegant section transitions that bring the brand to life.by IshaOpen the live project ↗](https://moxo.modernagecoders.com)[![Baby, Typing Speed Challenge](/images/projects/baby.webp)GameBaby, Typing Speed ChallengeAn engaging typing speed challenge where users test how fast and accurately they can type, with a live leaderboard connected to a MongoDB backend.by KritikaOpen the live project ↗](https://baby.modernagecoders.com)[![MyDay, Social Productivity Organizer](/images/projects/myday.webp)Web AppMyDay, Social Productivity OrganizerA beautifully designed productivity platform to organise daily tasks, set goals and stay consistent, with a community feed of others' plans for inspiration.by VedantOpen the live project ↗](https://myday.modernagecoders.com)
+[![Moxo: Company Landing Page](/images/projects/moxo.webp)Web AppMoxo: Company Landing PageA stunning modern landing page with smooth parallax scrolling, advanced GSAP animations and elegant section transitions that bring the brand to life.by IshaOpen the live project ↗](https://moxo.modernagecoders.com)[![Baby: Typing Speed Challenge](/images/projects/baby.webp)GameBaby: Typing Speed ChallengeAn engaging typing speed challenge where users test how fast and accurately they can type, with a live leaderboard connected to a MongoDB backend.by KritikaOpen the live project ↗](https://baby.modernagecoders.com)[![MyDay: Social Productivity Organizer](/images/projects/myday.webp)Web AppMyDay: Social Productivity OrganizerA beautifully designed productivity platform to organise daily tasks, set goals and stay consistent, with a community feed of others' plans for inspiration.by VedantOpen the live project ↗](https://myday.modernagecoders.com)
 
 Parent & student voices
 

@@ -36,7 +36,7 @@ Ages 8–12
 
 ## Coding for kids in Mangalore
 
-Most popular![Kids coding with Scratch, best coding class for kids in Mangalore](/images/kids-coding.webp)
+Most popular![Kids coding with Scratch: best coding class for kids in Mangalore](/images/kids-coding.webp)
 
 ### Kids Coding with Scratch
 
@@ -58,7 +58,7 @@ Kids build their very first colourful website with HTML & CSS, then share the li
 - Fun, real web projects
 - A personal portfolio page
 
-[View course](/courses/kids-ai-web-development-course)Next step![Python for kids, programming course in Mangalore](/images/python-kids.webp)
+[View course](/courses/kids-ai-web-development-course)Next step![Python for kids: programming course in Mangalore](/images/python-kids.webp)
 
 ### Python for Young Coders
 
@@ -73,7 +73,7 @@ The jump to real, typed code, in the world's most popular language. Kids write P
 
 ## Coding for teens in Mangalore
 
-In demand![Python programming for teens, best coding institute in Mangalore](/images/python-teens.webp)
+In demand![Python programming for teens: best coding institute in Mangalore](/images/python-teens.webp)
 
 ### Python Programming
 
@@ -84,7 +84,7 @@ The most in-demand language in the world, and across Mangaluru's growing IT firm
 - Automation & scripting
 - Real-world projects
 
-[View course](/courses/python-complete-masterclass-teens)Career![Java programming for teens, best coding class in Mangalore](/images/java-teens.webp)
+[View course](/courses/python-complete-masterclass-teens)Career![Java programming for teens: best coding class in Mangalore](/images/java-teens.webp)
 
 ### Java Programming
 
@@ -95,7 +95,7 @@ Java is the backbone of ICSE/ISC Computer Science (BlueJ) and the enterprise sta
 - Intro to Android app building
 - Board-aligned practice
 
-[View course](/courses/java-programming-masterclass-for-teens)Build![Web development for teens, programming classes in Mangalore](/images/web-dev-teens.webp)
+[View course](/courses/java-programming-masterclass-for-teens)Build![Web development for teens: programming classes in Mangalore](/images/web-dev-teens.webp)
 
 ### Full-Stack Web Development
 
@@ -106,7 +106,7 @@ Build complete, deployed websites from scratch with HTML, CSS, JavaScript and Re
 - Backend with Node.js
 - Live portfolio projects
 
-[View course](/courses/web-development-masterclass-teens)Future![AI and machine learning for teens, coding course in Mangalore](/images/ai-ml-teens.webp)
+[View course](/courses/web-development-masterclass-teens)Future![AI and machine learning for teens: coding course in Mangalore](/images/ai-ml-teens.webp)
 
 ### AI & Machine Learning
 
@@ -158,19 +158,19 @@ Python, machine learning and real data analysis, built for the analytics and AI 
 
 ## Mathematics classes in Mangalore
 
-![Elementary mathematics, maths classes in Mangalore](/images/elementary-maths.webp)
+![Elementary mathematics: maths classes in Mangalore](/images/elementary-maths.webp)
 
 ### Elementary Mathematics
 
 Rock-solid foundations in numbers, operations, fractions, geometry and word problems for grades 1–5, aligned to ICSE, CBSE & Karnataka-state schools across Mangaluru.
 
-[View course](/courses/elementary-mathematics-complete-masterclass)![High school mathematics, maths tuition in Mangalore](/images/high-school-maths.webp)
+[View course](/courses/elementary-mathematics-complete-masterclass)![High school mathematics: maths tuition in Mangalore](/images/high-school-maths.webp)
 
 ### High School Mathematics
 
 Algebra, geometry, trigonometry, pre-calculus and calculus for grades 9–12, board-aligned and built to give coastal-Karnataka engineering aspirants a genuine head start.
 
-[View course](/courses/complete-high-school-mathematics-mastery)Olympiad![Olympiad mathematics, competition prep in Mangalore](/images/olympiad-competition-maths.webp)
+[View course](/courses/complete-high-school-mathematics-mastery)Olympiad![Olympiad mathematics: competition prep in Mangalore](/images/olympiad-competition-maths.webp)
 
 ### Olympiad & Competition Math
 
@@ -250,7 +250,7 @@ International families pay flat USD rates, the prices above update automatically
 
 Not screenshots of a syllabus, real, live projects from Modern Age Coders learners and labs. Click through and use them.
 
-[![Baby, Typing Speed Challenge](/images/projects/baby.webp) GameBaby, Typing Speed ChallengeAn engaging typing speed challenge where users test how fast and accurately they can type, with a live leaderboard connected to a MongoDB backend. Built by Kritika · JavaScript, Node.jsOpen the live project ↗](https://baby.modernagecoders.com)[![Word Counter Website](/images/projects/wordcounter.webp) ToolWord Counter WebsiteA simple yet powerful tool that counts words, sentences and paragraphs from user input with instant, real-time results and a clean responsive interface. Built by Vansh · HTML, CSSOpen the live project ↗](https://vanshagarwalwordcounter-sys.github.io/WordCounter/)[![Simon Game](/images/projects/simongame.webp) GameSimon GameA fun memory-based game where players repeat colour and sound sequences. Each level adds a new challenge, brain-boosting for kids learning logic and focus. Built by Yashaswi · HTML, CSSOpen the live project ↗](http://yashaswi-2017.my.canva.site)[See more student projects →](/student-labs)
+[![Baby: Typing Speed Challenge](/images/projects/baby.webp) GameBaby: Typing Speed ChallengeAn engaging typing speed challenge where users test how fast and accurately they can type, with a live leaderboard connected to a MongoDB backend. Built by Kritika · JavaScript, Node.jsOpen the live project ↗](https://baby.modernagecoders.com)[![Word Counter Website](/images/projects/wordcounter.webp) ToolWord Counter WebsiteA simple yet powerful tool that counts words, sentences and paragraphs from user input with instant, real-time results and a clean responsive interface. Built by Vansh · HTML, CSSOpen the live project ↗](https://vanshagarwalwordcounter-sys.github.io/WordCounter/)[![Simon Game](/images/projects/simongame.webp) GameSimon GameA fun memory-based game where players repeat colour and sound sequences. Each level adds a new challenge, brain-boosting for kids learning logic and focus. Built by Yashaswi · HTML, CSSOpen the live project ↗](http://yashaswi-2017.my.canva.site)[See more student projects →](/student-labs)
 
 ## What families say
 

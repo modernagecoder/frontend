@@ -66,7 +66,7 @@ MBWA consistently produces top engineering and medical aspirants. If your child 
 
 ### Flexible Batches Built for the MBWA Student Lifestyle
 
-We know that MBWA students have packed days, school until 3 PM, then sports at Krida Kunj, club activities like Funky Fingers or FootLoose, and sometimes Interact Club community service. That is exactly why we offer evening batches (4 PM: 8 PM) on weekdays and full-day options on weekends. Our live online format means your child connects from home near Park Circus, Darga Road, or anywhere in Kolkata with zero commute. Every session is recorded, missed a class because of an annual day rehearsal? Simply watch the recording. This flexibility is why families from across Kolkata, not just Park Circus but even Alipore, Salt Lake, and New Town, trust Modern Age Coders as their after-school coding and maths partner.
+We know that MBWA students have packed days, school until 3 PM, then sports at Krida Kunj, club activities like Funky Fingers or FootLoose, and sometimes Interact Club community service. That is exactly why we offer evening batches (4 PM – 8 PM) on weekdays and full-day options on weekends. Our live online format means your child connects from home near Park Circus, Darga Road, or anywhere in Kolkata with zero commute. Every session is recorded, missed a class because of an annual day rehearsal? Simply watch the recording. This flexibility is why families from across Kolkata, not just Park Circus but even Alipore, Salt Lake, and New Town, trust Modern Age Coders as their after-school coding and maths partner.
 
 ## Coding Courses for MBWA Students (Ages 6-12)
 
@@ -222,7 +222,9 @@ Select 1-on-1 Mentorship
 
 “
 
-My son struggled with math for years. Integrating it into coding projects has transformed his understanding and confidence. Highly recommended!: Shewta Singh, mother of Ishan (verified Google review)
+My son struggled with math for years. Integrating it into coding projects has transformed his understanding and confidence. Highly recommended!
+
+: Shewta Singh, mother of Ishan (verified Google review)
 
 ## Frequently Asked Questions
 

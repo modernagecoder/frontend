@@ -36,7 +36,7 @@ Ages 8–12
 
 ## Coding for kids in Patiala
 
-Most popular![Kids coding with Scratch, best coding class for kids in Patiala](/images/kids-coding.webp)
+Most popular![Kids coding with Scratch: best coding class for kids in Patiala](/images/kids-coding.webp)
 
 ### Kids Coding with Scratch
 
@@ -58,7 +58,7 @@ Your child designs and publishes their own colourful webpage with HTML & CSS, th
 - Fun, real web projects
 - A personal portfolio page
 
-[View course](/courses/kids-ai-web-development-course)Next step![Python for kids, programming course in Patiala](/images/python-kids.webp)
+[View course](/courses/kids-ai-web-development-course)Next step![Python for kids: programming course in Patiala](/images/python-kids.webp)
 
 ### Python for Young Coders
 
@@ -73,7 +73,7 @@ Once the logic clicks, kids step up to real typed code in Python, the world's mo
 
 ## Coding for teens in Patiala
 
-In demand![Python programming for teens, best coding institute in Patiala](/images/python-teens.webp)
+In demand![Python programming for teens: best coding institute in Patiala](/images/python-teens.webp)
 
 ### Python Programming
 
@@ -84,7 +84,7 @@ If your teen is starting somewhere, start here. Python is the world's most-used 
 - Automation & scripting
 - Real-world projects
 
-[View course](/courses/python-complete-masterclass-teens)Career![Java programming for teens, best coding class in Patiala](/images/java-teens.webp)
+[View course](/courses/python-complete-masterclass-teens)Career![Java programming for teens: best coding class in Patiala](/images/java-teens.webp)
 
 ### Java Programming
 
@@ -95,7 +95,7 @@ Java does double duty for a Patiala teen: it anchors CBSE/ICSE Computer Science 
 - Intro to Android app building
 - Board-aligned practice
 
-[View course](/courses/java-programming-masterclass-for-teens)Build![Web development for teens, programming classes in Patiala](/images/web-dev-teens.webp)
+[View course](/courses/java-programming-masterclass-for-teens)Build![Web development for teens: programming classes in Patiala](/images/web-dev-teens.webp)
 
 ### Full-Stack Web Development
 
@@ -106,7 +106,7 @@ From a blank page to a live, deployed website: HTML, CSS, JavaScript and React, 
 - Backend with Node.js
 - Live portfolio projects
 
-[View course](/courses/web-development-masterclass-teens)Future![AI and machine learning for teens, coding course in Patiala](/images/ai-ml-teens.webp)
+[View course](/courses/web-development-masterclass-teens)Future![AI and machine learning for teens: coding course in Patiala](/images/ai-ml-teens.webp)
 
 ### AI & Machine Learning
 
@@ -158,19 +158,19 @@ Python, machine learning and hands-on data analysis, aimed at the analytics and 
 
 ## Mathematics classes in Patiala
 
-![Elementary mathematics, maths classes in Patiala](/images/elementary-maths.webp)
+![Elementary mathematics: maths classes in Patiala](/images/elementary-maths.webp)
 
 ### Elementary Mathematics
 
 Rock-solid foundations in numbers, operations, fractions, geometry and word problems for grades 1–5, aligned to the CBSE, ICSE & Punjab Board (PSEB) schools across Patiala.
 
-[View course](/courses/elementary-mathematics-complete-masterclass)![High school mathematics, maths tuition in Patiala](/images/high-school-maths.webp)
+[View course](/courses/elementary-mathematics-complete-masterclass)![High school mathematics: maths tuition in Patiala](/images/high-school-maths.webp)
 
 ### High School Mathematics
 
 Algebra, geometry, trigonometry, pre-calculus and calculus for grades 9–12, board-aligned and built to give Patiala's JEE and Thapar aspirants a genuine head start.
 
-[View course](/courses/complete-high-school-mathematics-mastery)Olympiad![Olympiad mathematics, competition prep in Patiala](/images/olympiad-competition-maths.webp)
+[View course](/courses/complete-high-school-mathematics-mastery)Olympiad![Olympiad mathematics: competition prep in Patiala](/images/olympiad-competition-maths.webp)
 
 ### Olympiad & Competition Math
 
@@ -250,7 +250,7 @@ International families pay flat USD rates, the prices above update automatically
 
 Not screenshots of a syllabus, real, live projects from Modern Age Coders learners and labs. Click through and use them.
 
-[![Babu, 90 Second Maths Challenge](/images/projects/babu.webp) GameBabu, 90 Second Maths ChallengeAn exciting 90-second maths challenge with random problems under time pressure, and a dynamic leaderboard powered by Firebase/MongoDB with real-time score updates. Built by Modern Age Coders · JavaScript, FirebaseOpen the live project ↗](https://babu.modernagecoders.com)[![Life Span Tracker](/images/projects/lifespan.webp) ToolLife Span TrackerAn interactive web tool that calculates expected lifespan, shows days, months and years lived, and visualises remaining time to motivate better habits. Built by Manay · JavaScript, APIsOpen the live project ↗](https://lifespantracker.netlify.app/)[![HugSelle, AI Smile Generator](/images/projects/hugselle.webp) AI & MLHugSelle, AI Smile GeneratorA heartwarming AI-powered web app that detects your mood and generates uplifting quotes and visuals to make you smile, a creative blend of technology and positivity. Built by Anurag · Python, Machine LearningOpen the live project ↗](https://hugselle.modernagecoders.com)[See more student projects →](/student-labs)
+[![Babu: 90 Second Maths Challenge](/images/projects/babu.webp) GameBabu: 90 Second Maths ChallengeAn exciting 90-second maths challenge with random problems under time pressure, and a dynamic leaderboard powered by Firebase/MongoDB with real-time score updates. Built by Modern Age Coders · JavaScript, FirebaseOpen the live project ↗](https://babu.modernagecoders.com)[![Life Span Tracker](/images/projects/lifespan.webp) ToolLife Span TrackerAn interactive web tool that calculates expected lifespan, shows days, months and years lived, and visualises remaining time to motivate better habits. Built by Manay · JavaScript, APIsOpen the live project ↗](https://lifespantracker.netlify.app/)[![HugSelle: AI Smile Generator](/images/projects/hugselle.webp) AI & MLHugSelle: AI Smile GeneratorA heartwarming AI-powered web app that detects your mood and generates uplifting quotes and visuals to make you smile, a creative blend of technology and positivity. Built by Anurag · Python, Machine LearningOpen the live project ↗](https://hugselle.modernagecoders.com)[See more student projects →](/student-labs)
 
 ## What families say
 

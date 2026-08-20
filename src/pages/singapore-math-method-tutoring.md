@@ -293,11 +293,9 @@ An honest comparison
 
 ## Your real options for Singapore-method teaching.
 
- $1$100–$150 / month$2
-
 | Option | Typical cost | What it really is | Best for |
 | --- | --- | --- | --- |
-| Modern Age Coders | 8 live one-hour classes with a mentor running the full CPA progression, your workbooks folded in | Families who want the actual method taught, not just its worksheets assigned |
+| Modern Age Coders | $100–$150 / month | 8 live one-hour classes with a mentor running the full CPA progression, your workbooks folded in | Families who want the actual method taught, not just its worksheets assigned |
 | Workbooks alone | $50-$150 / year | Excellent materials with the teaching moves missing; parent becomes the untrained teacher | Confident parent-teachers with time and a math background |
 | Singapore-brand online programs | $100-$300 / month | Video lessons plus exercises; strong content, but nobody watches your child think | Self-driven older students who mainly need structure |
 | Local tutor with the workbook | $40-$100 / hour | Often teaches their own school method off Singapore pages, which defeats the purpose | When you have verified the tutor is genuinely method-trained |
@@ -371,7 +369,7 @@ Real student projects
 
 Every one is a real, live project shipped by a Modern Age Coders student. Explore more in [Student Labs](/student-labs).
 
-[![Doodle Dash, 30-Second Drawing Challenge](/images/projects/doodledash.webp)GameDoodle Dash, 30-Second Drawing ChallengePick a difficulty, get a prompt, and you have exactly 30 seconds to draw it, then an AI judge scores how close you got. Three modes from easy objects to chaotic scenes. Shubh vibe-coded it idea-first, wiring real AI image grading into a fast, addictive drawing game.by ShubhOpen the live project ↗](https://doodledashmaster.lovable.app)[![BookDesk, AI Book Summaries & Quizzes](/images/projects/bookdesk.webp)AI & MLBookDesk, AI Book Summaries & QuizzesType in any book name and author, and BookDesk pulls together the book's details, a clear summary and a custom quiz to test what you've learned, a genuinely useful study companion. Anika built it as a full-stack AI application, powered by Google Gemini with a live database behind it.by AnikaOpen the live project ↗](https://bookdesk1.netlify.app)[![HairSync, AI Hairstyle Try-On](/images/projects/hairsync.webp)AI & MLHairSync, AI Hairstyle Try-OnUpload a clear photo and try on any hairstyle before you commit, wolf cuts, curtain bangs, fades, braids and dozens of trending looks, rendered onto your own face by AI in seconds. Kriti vibe-coded this virtual try-on studio from a single idea into a working app.by KritiOpen the live project ↗](https://hairsync.lovable.app)
+[![Doodle Dash: 30-Second Drawing Challenge](/images/projects/doodledash.webp)GameDoodle Dash: 30-Second Drawing ChallengePick a difficulty, get a prompt, and you have exactly 30 seconds to draw it, then an AI judge scores how close you got. Three modes from easy objects to chaotic scenes. Shubh vibe-coded it idea-first, wiring real AI image grading into a fast, addictive drawing game.by ShubhOpen the live project ↗](https://doodledashmaster.lovable.app)[![BookDesk: AI Book Summaries & Quizzes](/images/projects/bookdesk.webp)AI & MLBookDesk: AI Book Summaries & QuizzesType in any book name and author, and BookDesk pulls together the book's details, a clear summary and a custom quiz to test what you've learned, a genuinely useful study companion. Anika built it as a full-stack AI application, powered by Google Gemini with a live database behind it.by AnikaOpen the live project ↗](https://bookdesk1.netlify.app)[![HairSync: AI Hairstyle Try-On](/images/projects/hairsync.webp)AI & MLHairSync: AI Hairstyle Try-OnUpload a clear photo and try on any hairstyle before you commit, wolf cuts, curtain bangs, fades, braids and dozens of trending looks, rendered onto your own face by AI in seconds. Kriti vibe-coded this virtual try-on studio from a single idea into a working app.by KritiOpen the live project ↗](https://hairsync.lovable.app)
 
 ---
 

@@ -14,7 +14,7 @@ source: src/pages/category/teens.html
 
  Ages 13-18 • Build Real-World Skills
 
-# Coding for Teenagers — Build Real Skills for the Future
+# Coding for Teenagers: Build Real Skills for the Future
 
 India's most trusted online coding courses for teenagers ages 13-18. Master Python, JavaScript, React, AI/ML, Full Stack Development, and more through live classes, real projects, and expert mentors. Weekend batches available. Strengthen your college applications and career prospects with verified certificates.
 
@@ -92,7 +92,7 @@ Sharpen your mind with advanced puzzles and coding challenges! Learn to think an
 
 LogicAlgorithmsDSA[Think Smart](/courses/problem-solving-dsa-masterclass-teens)![IP & CS Class 11 12 CBSE ICSE Board Exam Course](/images/ip-cs-class-11-12.webp)New
 
-### IP & CS — Class 11 & 12
+### IP & CS: Class 11 & 12
 
 Complete Computer Science (Python/Java) & Informatics Practices (Pandas, SQL, Matplotlib) for CBSE & ICSE boards. Separate batches, 100% syllabus, practical file & board exam prep.
 

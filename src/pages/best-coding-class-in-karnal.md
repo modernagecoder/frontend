@@ -36,7 +36,7 @@ Ages 8–12
 
 ## Coding for kids in Karnal
 
-Most popular![Kids coding with Scratch, best coding class for kids in Karnal](/images/kids-coding.webp)
+Most popular![Kids coding with Scratch: best coding class for kids in Karnal](/images/kids-coding.webp)
 
 ### Kids Coding with Scratch
 
@@ -58,7 +58,7 @@ With HTML & CSS, kids design and publish their first real website, then text the
 - Fun, real web projects
 - A personal portfolio page
 
-[View course](/courses/kids-ai-web-development-course)Next step![Python for kids, programming course in Karnal](/images/python-kids.webp)
+[View course](/courses/kids-ai-web-development-course)Next step![Python for kids: programming course in Karnal](/images/python-kids.webp)
 
 ### Python for Young Coders
 
@@ -73,7 +73,7 @@ The leap into real, typed code in Python, the language behind most of today's ap
 
 ## Coding for teens in Karnal
 
-In demand![Python programming for teens, best coding institute in Karnal](/images/python-teens.webp)
+In demand![Python programming for teens: best coding institute in Karnal](/images/python-teens.webp)
 
 ### Python Programming
 
@@ -84,7 +84,7 @@ The language that runs most of modern tech, from web apps to AI, a clean, confid
 - Automation & scripting
 - Real-world projects
 
-[View course](/courses/python-complete-masterclass-teens)Career![Java programming for teens, best coding class in Karnal](/images/java-teens.webp)
+[View course](/courses/python-complete-masterclass-teens)Career![Java programming for teens: best coding class in Karnal](/images/java-teens.webp)
 
 ### Java Programming
 
@@ -95,7 +95,7 @@ Java sits at the heart of the CBSE and ICSE Computer Science papers (BlueJ) and 
 - Intro to Android app building
 - Board-aligned practice
 
-[View course](/courses/java-programming-masterclass-for-teens)Build![Web development for teens, programming classes in Karnal](/images/web-dev-teens.webp)
+[View course](/courses/java-programming-masterclass-for-teens)Build![Web development for teens: programming classes in Karnal](/images/web-dev-teens.webp)
 
 ### Full-Stack Web Development
 
@@ -106,7 +106,7 @@ Build and launch a complete website from scratch with HTML, CSS, JavaScript and 
 - Backend with Node.js
 - Live portfolio projects
 
-[View course](/courses/web-development-masterclass-teens)Future![AI and machine learning for teens, coding course in Karnal](/images/ai-ml-teens.webp)
+[View course](/courses/web-development-masterclass-teens)Future![AI and machine learning for teens: coding course in Karnal](/images/ai-ml-teens.webp)
 
 ### AI & Machine Learning
 
@@ -158,19 +158,19 @@ Python, machine learning and hands-on data analysis for the analytics and AI rol
 
 ## Mathematics classes in Karnal
 
-![Elementary mathematics, maths classes in Karnal](/images/elementary-maths.webp)
+![Elementary mathematics: maths classes in Karnal](/images/elementary-maths.webp)
 
 ### Elementary Mathematics
 
 Rock-solid foundations in numbers, operations, fractions, geometry and word problems for grades 1–5, aligned to CBSE, ICSE & Haryana Board schools across Karnal.
 
-[View course](/courses/elementary-mathematics-complete-masterclass)![High school mathematics, maths tuition in Karnal](/images/high-school-maths.webp)
+[View course](/courses/elementary-mathematics-complete-masterclass)![High school mathematics: maths tuition in Karnal](/images/high-school-maths.webp)
 
 ### High School Mathematics
 
 Algebra, geometry, trigonometry, pre-calculus and calculus for grades 9–12, board-aligned and built to give Karnal's JEE and engineering aspirants a genuine head start.
 
-[View course](/courses/complete-high-school-mathematics-mastery)Olympiad![Olympiad mathematics, competition prep in Karnal](/images/olympiad-competition-maths.webp)
+[View course](/courses/complete-high-school-mathematics-mastery)Olympiad![Olympiad mathematics: competition prep in Karnal](/images/olympiad-competition-maths.webp)
 
 ### Olympiad & Competition Math
 
@@ -250,7 +250,7 @@ International families pay flat USD rates, the prices above update automatically
 
 Not screenshots of a syllabus, real, live projects from Modern Age Coders learners and labs. Click through and use them.
 
-[![Moxo, Company Landing Page](/images/projects/moxo.webp) Web AppMoxo, Company Landing PageA stunning modern landing page with smooth parallax scrolling, advanced GSAP animations and elegant section transitions that bring the brand to life. Built by Isha · JavaScript, GSAPOpen the live project ↗](https://moxo.modernagecoders.com)[![GuardianX, AI Bodyguard for the Internet](/images/projects/guardianx.webp) AI & MLGuardianX, AI Bodyguard for the InternetPaste any suspicious link or message and GuardianX returns an instant AI verdict before you become a victim, plus a link scanner, safety score, breach check and live scam alerts built for India. Vibe-coded from idea to working product through prompts, then refined until it genuinely understands how phishing and scams work. Built by Vivaan · Vibe Coding, AIOpen the live project ↗](https://guardianx-cybersaver.lovable.app)[![Life Span Tracker](/images/projects/lifespan.webp) ToolLife Span TrackerAn interactive web tool that calculates expected lifespan, shows days, months and years lived, and visualises remaining time to motivate better habits. Built by Manay · JavaScript, APIsOpen the live project ↗](https://lifespantracker.netlify.app/)[See more student projects →](/student-labs)
+[![Moxo: Company Landing Page](/images/projects/moxo.webp) Web AppMoxo: Company Landing PageA stunning modern landing page with smooth parallax scrolling, advanced GSAP animations and elegant section transitions that bring the brand to life. Built by Isha · JavaScript, GSAPOpen the live project ↗](https://moxo.modernagecoders.com)[![GuardianX: AI Bodyguard for the Internet](/images/projects/guardianx.webp) AI & MLGuardianX: AI Bodyguard for the InternetPaste any suspicious link or message and GuardianX returns an instant AI verdict before you become a victim, plus a link scanner, safety score, breach check and live scam alerts built for India. Vibe-coded from idea to working product through prompts, then refined until it genuinely understands how phishing and scams work. Built by Vivaan · Vibe Coding, AIOpen the live project ↗](https://guardianx-cybersaver.lovable.app)[![Life Span Tracker](/images/projects/lifespan.webp) ToolLife Span TrackerAn interactive web tool that calculates expected lifespan, shows days, months and years lived, and visualises remaining time to motivate better habits. Built by Manay · JavaScript, APIsOpen the live project ↗](https://lifespantracker.netlify.app/)[See more student projects →](/student-labs)
 
 ## What families say
 

@@ -36,7 +36,7 @@ Ages 8–12
 
 ## Coding for kids in Bikaner
 
-Most popular![Kids coding with Scratch, best coding class for kids in Bikaner](/images/kids-coding.webp)
+Most popular![Kids coding with Scratch: best coding class for kids in Bikaner](/images/kids-coding.webp)
 
 ### Kids Coding with Scratch
 
@@ -58,7 +58,7 @@ Kids design and publish their first colourful website with HTML & CSS, then send
 - Fun, real web projects
 - A personal portfolio page
 
-[View course](/courses/kids-ai-web-development-course)Next step![Python for kids, programming course in Bikaner](/images/python-kids.webp)
+[View course](/courses/kids-ai-web-development-course)Next step![Python for kids: programming course in Bikaner](/images/python-kids.webp)
 
 ### Python for Young Coders
 
@@ -73,7 +73,7 @@ The step up to real, typed code in the world's most-used language. Kids write Py
 
 ## Coding for teens in Bikaner
 
-In demand![Python programming for teens, best coding institute in Bikaner](/images/python-teens.webp)
+In demand![Python programming for teens: best coding institute in Bikaner](/images/python-teens.webp)
 
 ### Python Programming
 
@@ -84,7 +84,7 @@ The language behind today's biggest apps and AI, and the smartest first move for
 - Automation & scripting
 - Real-world projects
 
-[View course](/courses/python-complete-masterclass-teens)Career![Java programming for teens, best coding class in Bikaner](/images/java-teens.webp)
+[View course](/courses/python-complete-masterclass-teens)Career![Java programming for teens: best coding class in Bikaner](/images/java-teens.webp)
 
 ### Java Programming
 
@@ -95,7 +95,7 @@ Java underpins ICSE/ISC and CBSE Computer Science and the enterprise software th
 - Intro to Android app building
 - Board-aligned practice
 
-[View course](/courses/java-programming-masterclass-for-teens)Build![Web development for teens, programming classes in Bikaner](/images/web-dev-teens.webp)
+[View course](/courses/java-programming-masterclass-for-teens)Build![Web development for teens: programming classes in Bikaner](/images/web-dev-teens.webp)
 
 ### Full-Stack Web Development
 
@@ -106,7 +106,7 @@ Build and deploy complete websites from scratch with HTML, CSS, JavaScript and R
 - Backend with Node.js
 - Live portfolio projects
 
-[View course](/courses/web-development-masterclass-teens)Future![AI and machine learning for teens, coding course in Bikaner](/images/ai-ml-teens.webp)
+[View course](/courses/web-development-masterclass-teens)Future![AI and machine learning for teens: coding course in Bikaner](/images/ai-ml-teens.webp)
 
 ### AI & Machine Learning
 
@@ -158,19 +158,19 @@ Python, machine learning and hands-on data analysis, built for the analytics and
 
 ## Mathematics classes in Bikaner
 
-![Elementary mathematics, maths classes in Bikaner](/images/elementary-maths.webp)
+![Elementary mathematics: maths classes in Bikaner](/images/elementary-maths.webp)
 
 ### Elementary Mathematics
 
 Rock-solid foundations in numbers, operations, fractions, geometry and word problems for grades 1–5, aligned to CBSE, ICSE and RBSE schools across Bikaner.
 
-[View course](/courses/elementary-mathematics-complete-masterclass)![High school mathematics, maths tuition in Bikaner](/images/high-school-maths.webp)
+[View course](/courses/elementary-mathematics-complete-masterclass)![High school mathematics: maths tuition in Bikaner](/images/high-school-maths.webp)
 
 ### High School Mathematics
 
 Algebra, geometry, trigonometry, pre-calculus and calculus for grades 9–12, board-aligned and built to give Bikaner's JEE and NEET-foundation aspirants a genuine head start.
 
-[View course](/courses/complete-high-school-mathematics-mastery)Olympiad![Olympiad mathematics, competition prep in Bikaner](/images/olympiad-competition-maths.webp)
+[View course](/courses/complete-high-school-mathematics-mastery)Olympiad![Olympiad mathematics: competition prep in Bikaner](/images/olympiad-competition-maths.webp)
 
 ### Olympiad & Competition Math
 
@@ -250,7 +250,7 @@ International families pay flat USD rates, the prices above update automatically
 
 Not screenshots of a syllabus, real, live projects from Modern Age Coders learners and labs. Click through and use them.
 
-[![GuardianX, AI Bodyguard for the Internet](/images/projects/guardianx.webp) AI & MLGuardianX, AI Bodyguard for the InternetPaste any suspicious link or message and GuardianX returns an instant AI verdict before you become a victim, plus a link scanner, safety score, breach check and live scam alerts built for India. Vibe-coded from idea to working product through prompts, then refined until it genuinely understands how phishing and scams work. Built by Vivaan · Vibe Coding, AIOpen the live project ↗](https://guardianx-cybersaver.lovable.app)[![Misti, AI Chatbot for Maths & Coding](/images/projects/misti.webp) AI & MLMisti, AI Chatbot for Maths & CodingAn intelligent AI-powered chatbot that helps students solve maths and coding questions with deep, step-by-step explanations using advanced Python AI frameworks and LLM APIs. Built by Harshit · Python, AI/MLOpen the live project ↗](https://misti.modernagecoders.com)[![Image Slider Website](/images/projects/slider.webp) ToolImage Slider WebsiteA visually appealing site with a smooth image carousel, auto or manual navigation, responsive layout and beautiful transition effects. Built by Somraj · HTML, CSSOpen the live project ↗](https://robo23middle-stack.github.io/scenes/)[See more student projects →](/student-labs)
+[![GuardianX: AI Bodyguard for the Internet](/images/projects/guardianx.webp) AI & MLGuardianX: AI Bodyguard for the InternetPaste any suspicious link or message and GuardianX returns an instant AI verdict before you become a victim, plus a link scanner, safety score, breach check and live scam alerts built for India. Vibe-coded from idea to working product through prompts, then refined until it genuinely understands how phishing and scams work. Built by Vivaan · Vibe Coding, AIOpen the live project ↗](https://guardianx-cybersaver.lovable.app)[![Misti: AI Chatbot for Maths & Coding](/images/projects/misti.webp) AI & MLMisti: AI Chatbot for Maths & CodingAn intelligent AI-powered chatbot that helps students solve maths and coding questions with deep, step-by-step explanations using advanced Python AI frameworks and LLM APIs. Built by Harshit · Python, AI/MLOpen the live project ↗](https://misti.modernagecoders.com)[![Image Slider Website](/images/projects/slider.webp) ToolImage Slider WebsiteA visually appealing site with a smooth image carousel, auto or manual navigation, responsive layout and beautiful transition effects. Built by Somraj · HTML, CSSOpen the live project ↗](https://robo23middle-stack.github.io/scenes/)[See more student projects →](/student-labs)
 
 ## What families say
 

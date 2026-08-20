@@ -249,11 +249,9 @@ An honest comparison
 
 ## Your real options for a young Minecraft builder.
 
- $1$100–$150 / month$2
-
 | Option | Typical cost | What it really is | Best for |
 | --- | --- | --- | --- |
-| Modern Age Coders | Live one-hour classes with a dedicated mentor, ideas-first, projects the child owns | Building a real maker, with the Python road open |
+| Modern Age Coders | $100–$150 / month | Live one-hour classes with a dedicated mentor, ideas-first, projects the child owns | Building a real maker, with the Python road open |
 | Premium 1:1 platforms (Juni-style) | $200-$300 / month | Live 1-on-1, often 2-4 sessions monthly at 30-50 minutes, rotating instructors common | Families who want brand-name polish and can absorb the price |
 | Marketplace classes (Outschool-style) | $15-$25 / class | One-off or short-series group classes of varying quality; no continuity of mentor or curriculum | Sampling topics cheaply before committing anywhere |
 | Coding centers (Code Ninjas-style) | $175-$350 / month | Drop-in dojo floors with game-based curriculum and rotating guides, plus the drive | Children who focus better out of the house |
@@ -327,7 +325,7 @@ Real student projects
 
 Every one is a real, live project shipped by a Modern Age Coders student. Explore more in [Student Labs](/student-labs).
 
-[![SkyCast, Weather Forecast App](/images/projects/skycast.webp)Web AppSkyCast, Weather Forecast AppAn interactive weather forecasting site with real-time updates for any location, temperature, humidity, wind speed and conditions in a clean, responsive interface.by KrishOpen the live project ↗](https://krish-shroff.github.io/AuraWeatherTech/)[![HugSelle, AI Smile Generator](/images/projects/hugselle.webp)AI & MLHugSelle, AI Smile GeneratorA heartwarming AI-powered web app that detects your mood and generates uplifting quotes and visuals to make you smile, a creative blend of technology and positivity.by AnuragOpen the live project ↗](https://hugselle.modernagecoders.com)[![Moxo, Company Landing Page](/images/projects/moxo.webp)Web AppMoxo, Company Landing PageA stunning modern landing page with smooth parallax scrolling, advanced GSAP animations and elegant section transitions that bring the brand to life.by IshaOpen the live project ↗](https://moxo.modernagecoders.com)
+[![Life Span Tracker](/images/projects/lifespan.webp)ToolLife Span TrackerAn interactive web tool that calculates expected lifespan, shows days, months and years lived, and visualises remaining time to motivate better habits.by ManayOpen the live project ↗](https://lifespantracker.netlify.app/)[![HugSelle: AI Smile Generator](/images/projects/hugselle.webp)AI & MLHugSelle: AI Smile GeneratorA heartwarming AI-powered web app that detects your mood and generates uplifting quotes and visuals to make you smile, a creative blend of technology and positivity.by AnuragOpen the live project ↗](https://hugselle.modernagecoders.com)[![Moxo: Company Landing Page](/images/projects/moxo.webp)Web AppMoxo: Company Landing PageA stunning modern landing page with smooth parallax scrolling, advanced GSAP animations and elegant section transitions that bring the brand to life.by IshaOpen the live project ↗](https://moxo.modernagecoders.com)
 
 ---
 

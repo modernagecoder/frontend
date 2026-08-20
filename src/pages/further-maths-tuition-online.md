@@ -179,15 +179,13 @@ An honest comparison
 
 ## How we differ from the alternatives.
 
- $1$150 (1:1) / $100 (group)$2
-
 | What matters | Modern Age Coders | Revision videos | A typical tutor |
 | --- | --- | --- | --- |
 | Makes abstract ideas intuitive | Yes, the core of it | Rarely | Varies |
 | Knows Further Maths deeply | Yes | Sometimes | Not all tutors |
 | Covers your exact options | Yes | Generic | Varies |
 | STEP/MAT coaching | Yes | Rarely | Rarely |
-| Monthly price | Free–£20 | £40–70/hr |
+| Monthly price | $150 (1:1) / $100 (group) | Free–£20 | £40–70/hr |
 
 Many general tutors don't teach Further Maths confidently. Ours specialise in it, and in making its hardest ideas feel obvious.
 
@@ -225,7 +223,7 @@ Yes, one tutor who knows your options and target.
 
 Can you prepare me for STEP, MAT or top university maths?
 
-Yes, STEP and MAT-style problem solving alongside the A-Level content.
+Yes: STEP and MAT-style problem solving alongside the A-Level content.
 
 Are lessons live?
 
@@ -259,7 +257,7 @@ Real student projects
 
 Every one is a real, live project shipped by a Modern Age Coders student. Explore more in [Student Labs](/student-labs).
 
-[![Pracy, Coding Practice & Quiz Platform](/images/projects/pracy.webp)Web AppPracy, Coding Practice & Quiz PlatformAn all-in-one coding-practice site with interactive challenges, quizzes and score tracking across multiple languages to strengthen logic and problem-solving.by RohanOpen the live project ↗](https://astounding-flan-f18e08.netlify.app/)[![Word Counter Website](/images/projects/wordcounter.webp)ToolWord Counter WebsiteA simple yet powerful tool that counts words, sentences and paragraphs from user input with instant, real-time results and a clean responsive interface.by VanshOpen the live project ↗](https://vanshagarwalwordcounter-sys.github.io/WordCounter/)[![Life Span Tracker](/images/projects/lifespan.webp)ToolLife Span TrackerAn interactive web tool that calculates expected lifespan, shows days, months and years lived, and visualises remaining time to motivate better habits.by ManayOpen the live project ↗](https://lifespantracker.netlify.app/)
+[![Pracy: Coding Practice & Quiz Platform](/images/projects/pracy.webp)Web AppPracy: Coding Practice & Quiz PlatformAn all-in-one coding-practice site with interactive challenges, quizzes and score tracking across multiple languages to strengthen logic and problem-solving.by RohanOpen the live project ↗](https://astounding-flan-f18e08.netlify.app/)[![Word Counter Website](/images/projects/wordcounter.webp)ToolWord Counter WebsiteA simple yet powerful tool that counts words, sentences and paragraphs from user input with instant, real-time results and a clean responsive interface.by VanshOpen the live project ↗](https://vanshagarwalwordcounter-sys.github.io/WordCounter/)[![Life Span Tracker](/images/projects/lifespan.webp)ToolLife Span TrackerAn interactive web tool that calculates expected lifespan, shows days, months and years lived, and visualises remaining time to motivate better habits.by ManayOpen the live project ↗](https://lifespantracker.netlify.app/)
 
 ---
 

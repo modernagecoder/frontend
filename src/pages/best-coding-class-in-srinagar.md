@@ -36,7 +36,7 @@ Ages 8–12
 
 ## Coding for kids in Srinagar
 
-Most popular![Kids coding with Scratch, best coding class for kids in Srinagar](/images/kids-coding.webp)
+Most popular![Kids coding with Scratch: best coding class for kids in Srinagar](/images/kids-coding.webp)
 
 ### Kids Coding with Scratch
 
@@ -58,7 +58,7 @@ Kids build their very first colourful website with HTML & CSS, then share the li
 - Fun, real web projects
 - A personal portfolio page
 
-[View course](/courses/kids-ai-web-development-course)Next step![Python for kids, programming course in Srinagar](/images/python-kids.webp)
+[View course](/courses/kids-ai-web-development-course)Next step![Python for kids: programming course in Srinagar](/images/python-kids.webp)
 
 ### Python for Young Coders
 
@@ -73,7 +73,7 @@ The jump to real, typed code, in the world's most popular language. Kids write P
 
 ## Coding for teens in Srinagar
 
-In demand![Python programming for teens, best coding institute in Srinagar](/images/python-teens.webp)
+In demand![Python programming for teens: best coding institute in Srinagar](/images/python-teens.webp)
 
 ### Python Programming
 
@@ -84,7 +84,7 @@ The most in-demand language in the world, and the friendliest on-ramp into AI. T
 - Automation & scripting
 - Real-world projects
 
-[View course](/courses/python-complete-masterclass-teens)Career![Java programming for teens, best coding class in Srinagar](/images/java-teens.webp)
+[View course](/courses/python-complete-masterclass-teens)Career![Java programming for teens: best coding class in Srinagar](/images/java-teens.webp)
 
 ### Java Programming
 
@@ -95,7 +95,7 @@ Java is the backbone of CBSE, ICSE & JKBOSE Computer Science and the enterprise 
 - Intro to Android app building
 - Board-aligned practice
 
-[View course](/courses/java-programming-masterclass-for-teens)Build![Web development for teens, programming classes in Srinagar](/images/web-dev-teens.webp)
+[View course](/courses/java-programming-masterclass-for-teens)Build![Web development for teens: programming classes in Srinagar](/images/web-dev-teens.webp)
 
 ### Full-Stack Web Development
 
@@ -106,7 +106,7 @@ Build complete, deployed websites from scratch with HTML, CSS, JavaScript and Re
 - Backend with Node.js
 - Live portfolio projects
 
-[View course](/courses/web-development-masterclass-teens)Future![AI and machine learning for teens, coding course in Srinagar](/images/ai-ml-teens.webp)
+[View course](/courses/web-development-masterclass-teens)Future![AI and machine learning for teens: coding course in Srinagar](/images/ai-ml-teens.webp)
 
 ### AI & Machine Learning
 
@@ -158,19 +158,19 @@ Python, machine learning and real data analysis, built for the analytics and AI 
 
 ## Mathematics classes in Srinagar
 
-![Elementary mathematics, maths classes in Srinagar](/images/elementary-maths.webp)
+![Elementary mathematics: maths classes in Srinagar](/images/elementary-maths.webp)
 
 ### Elementary Mathematics
 
 Rock-solid foundations in numbers, operations, fractions, geometry and word problems for grades 1–5, aligned to the CBSE, ICSE & JKBOSE schools across the Valley.
 
-[View course](/courses/elementary-mathematics-complete-masterclass)![High school mathematics, maths tuition in Srinagar](/images/high-school-maths.webp)
+[View course](/courses/elementary-mathematics-complete-masterclass)![High school mathematics: maths tuition in Srinagar](/images/high-school-maths.webp)
 
 ### High School Mathematics
 
 Algebra, geometry, trigonometry, pre-calculus and calculus for grades 9–12, board-aligned and built to give the Valley's JEE and NIT Srinagar aspirants a genuine head start.
 
-[View course](/courses/complete-high-school-mathematics-mastery)Olympiad![Olympiad mathematics, competition prep in Srinagar](/images/olympiad-competition-maths.webp)
+[View course](/courses/complete-high-school-mathematics-mastery)Olympiad![Olympiad mathematics: competition prep in Srinagar](/images/olympiad-competition-maths.webp)
 
 ### Olympiad & Competition Math
 
@@ -250,7 +250,7 @@ International families pay flat USD rates, the prices above update automatically
 
 Not screenshots of a syllabus, real, live projects from Modern Age Coders learners and labs. Click through and use them.
 
-[![LumenFX, AR/VR Photo Effects Studio](/images/projects/lumenfx.webp) Web AppLumenFX, AR/VR Photo Effects StudioUpload a photo and transform it with cinematic filters, AR face effects and the wildest trending edits, the same looks blowing up on TikTok, Reels and Snap, with 240+ one-tap presets. Raayan vibe-coded the whole studio from an idea: prompted the concept, then built the effects engine and gallery UI by hand. Built by Raayan · Vibe Coding, AR / VROpen the live project ↗](https://arvrbadestweb.lovable.app)[![Pracy, Coding Practice & Quiz Platform](/images/projects/pracy.webp) Web AppPracy, Coding Practice & Quiz PlatformAn all-in-one coding-practice site with interactive challenges, quizzes and score tracking across multiple languages to strengthen logic and problem-solving. Built by Rohan · JavaScript, Node.jsOpen the live project ↗](https://astounding-flan-f18e08.netlify.app/)[![Simon Game](/images/projects/simongame.webp) GameSimon GameA fun memory-based game where players repeat colour and sound sequences. Each level adds a new challenge, brain-boosting for kids learning logic and focus. Built by Yashaswi · HTML, CSSOpen the live project ↗](http://yashaswi-2017.my.canva.site)[See more student projects →](/student-labs)
+[![LumenFX: AR/VR Photo Effects Studio](/images/projects/lumenfx.webp) Web AppLumenFX: AR/VR Photo Effects StudioUpload a photo and transform it with cinematic filters, AR face effects and the wildest trending edits, the same looks blowing up on TikTok, Reels and Snap, with 240+ one-tap presets. Raayan vibe-coded the whole studio from an idea: prompted the concept, then built the effects engine and gallery UI by hand. Built by Raayan · Vibe Coding, AR / VROpen the live project ↗](https://arvrbadestweb.lovable.app)[![Pracy: Coding Practice & Quiz Platform](/images/projects/pracy.webp) Web AppPracy: Coding Practice & Quiz PlatformAn all-in-one coding-practice site with interactive challenges, quizzes and score tracking across multiple languages to strengthen logic and problem-solving. Built by Rohan · JavaScript, Node.jsOpen the live project ↗](https://astounding-flan-f18e08.netlify.app/)[![Simon Game](/images/projects/simongame.webp) GameSimon GameA fun memory-based game where players repeat colour and sound sequences. Each level adds a new challenge, brain-boosting for kids learning logic and focus. Built by Yashaswi · HTML, CSSOpen the live project ↗](http://yashaswi-2017.my.canva.site)[See more student projects →](/student-labs)
 
 ## What families say
 

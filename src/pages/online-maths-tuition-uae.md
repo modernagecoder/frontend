@@ -56,7 +56,7 @@ Worked example · works in every curriculum
 
 **How we do it.** The order isn't a rule someone invented. It reflects what the symbols *mean*. "3 × 4" is shorthand for "three 4s grouped together." So 2 + 3 × 4 means "2, plus three 4s":
 
-2 + 3 × 4 means 2 + (4 + 4 + 4)= 2 + 12 = **14** (not 20)multiplication binds tighter *because* it is repeated addition. It has to happen before we add the loose 2
+2 + 3 × 4 means 2 + (4 + 4 + 4)= 2 + 12 = **14** (not 20)multiplication binds tighter *because* it is repeated addition, it has to happen before we add the loose 2
 
 Once a child sees that multiplication is "already a group" and so must be settled before stray additions, BODMAS stops being a chant to recall and becomes obvious. This is how we teach everything, in every curriculum: not the rule, but the reason, which is exactly what makes it stick and transfer.
 
@@ -185,15 +185,13 @@ An honest comparison
 
 ## How we differ from the alternatives.
 
- $1$150 (1:1)$2
-
 | What matters | Modern Age Coders | Local tutoring centre | Maths apps |
 | --- | --- | --- | --- |
 | Matches your exact curriculum | Yes, all five systems | Usually one | Generic |
 | Teaches the reasoning | Always | Varies | Rarely |
 | Same tutor each time | Yes | Often rotates | N/A |
 | Fully online, your time zone | Yes, GST | Travel required | Yes |
-| Monthly price | AED 800–2,500+ | AED 20–50 |
+| Monthly price | $150 (1:1) | AED 800–2,500+ | AED 20–50 |
 
 In-person centres in the UAE are excellent but typically far costlier per hour and tied to one curriculum and location. We bring matched, one-to-one teaching to your home, online.
 
@@ -249,7 +247,7 @@ Real student projects
 
 Every one is a real, live project shipped by a Modern Age Coders student. Explore more in [Student Labs](/student-labs).
 
-[![FreshTrack, Food Expiry Tracker](/images/projects/fresh.webp)Web AppFreshTrack, Food Expiry TrackerA smart food-management system to track expiry dates, add, update and delete items while the app checks expiry automatically, online and offline.by TanishOpen the live project ↗](https://freshtrackpro.netlify.app/)[![Pracy, Coding Practice & Quiz Platform](/images/projects/pracy.webp)Web AppPracy, Coding Practice & Quiz PlatformAn all-in-one coding-practice site with interactive challenges, quizzes and score tracking across multiple languages to strengthen logic and problem-solving.by RohanOpen the live project ↗](https://astounding-flan-f18e08.netlify.app/)[![Word Counter Website](/images/projects/wordcounter.webp)ToolWord Counter WebsiteA simple yet powerful tool that counts words, sentences and paragraphs from user input with instant, real-time results and a clean responsive interface.by VanshOpen the live project ↗](https://vanshagarwalwordcounter-sys.github.io/WordCounter/)
+[![FreshTrack: Food Expiry Tracker](/images/projects/fresh.webp)Web AppFreshTrack: Food Expiry TrackerA smart food-management system to track expiry dates, add, update and delete items while the app checks expiry automatically, online and offline.by TanishOpen the live project ↗](https://freshtrackpro.netlify.app/)[![Pracy: Coding Practice & Quiz Platform](/images/projects/pracy.webp)Web AppPracy: Coding Practice & Quiz PlatformAn all-in-one coding-practice site with interactive challenges, quizzes and score tracking across multiple languages to strengthen logic and problem-solving.by RohanOpen the live project ↗](https://astounding-flan-f18e08.netlify.app/)[![Word Counter Website](/images/projects/wordcounter.webp)ToolWord Counter WebsiteA simple yet powerful tool that counts words, sentences and paragraphs from user input with instant, real-time results and a clean responsive interface.by VanshOpen the live project ↗](https://vanshagarwalwordcounter-sys.github.io/WordCounter/)
 
 Parent & student voices
 

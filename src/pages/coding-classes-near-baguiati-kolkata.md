@@ -154,13 +154,13 @@ FLEXIBLE LIVE SLOTS
 
 | Slot | Time | Best for | Days |
 | --- | --- | --- | --- |
-| After-school | 4:00 PM, 5:30 PM | Kids (6-12) finishing school early | Mon / Wed / Fri |
-| Early evening | 5:30 PM, 7:00 PM | School teens, ICSE & CBSE board students | Tue / Thu / Sat |
-| Prime evening | 7:00 PM: 8:30 PM | Working-parent households, Sector V schedules | Mon / Wed / Fri |
-| Late evening | 8:30 PM, 10:00 PM | College students & working adults | Tue / Thu / Sat |
-| Weekend intensive | 10:00 AM, 12:00 PM | Project work, board crash prep, camps | Sat / Sun |
+| After-school | 4:00 PM – 5:30 PM | Kids (6-12) finishing school early | Mon / Wed / Fri |
+| Early evening | 5:30 PM – 7:00 PM | School teens, ICSE & CBSE board students | Tue / Thu / Sat |
+| Prime evening | 7:00 PM – 8:30 PM | Working-parent households, Sector V schedules | Mon / Wed / Fri |
+| Late evening | 8:30 PM – 10:00 PM | College students & working adults | Tue / Thu / Sat |
+| Weekend intensive | 10:00 AM – 12:00 PM | Project work, board crash prep, camps | Sat / Sun |
 
-Timings are flexible, we match a slot to your child's school and your work hours. [Tell us what suits you](/contact).
+Timings are flexible. We match a slot to your child's school and your work hours. [Tell us what suits you](/contact).
 
 AN HONEST COMPARISON
 
@@ -269,7 +269,7 @@ REAL STUDENT PROJECTS
 
 ## What our students actually build
 
-[![Image Slider Website](/images/projects/slider.webp)ToolImage Slider WebsiteA visually appealing site with a smooth image carousel, auto or manual navigation, responsive layout and beautiful transition effects.by SomrajOpen the live project ↗](https://robo23middle-stack.github.io/scenes/)[![The Beautiful Mind](/images/projects/mindgame.webp)GameThe Beautiful MindA scientifically designed focus and brain-strength game with 15 progressive levels, testing attention, control and mental endurance with real-time progress tracking and leaderboards.by Modern Age CodersOpen the live project ↗](https://mind.modernagecoders.com)[![Misti, AI Chatbot for Maths & Coding](/images/projects/misti.webp)AI & MLMisti, AI Chatbot for Maths & CodingAn intelligent AI-powered chatbot that helps students solve maths and coding questions with deep, step-by-step explanations using advanced Python AI frameworks and LLM APIs.by HarshitOpen the live project ↗](https://misti.modernagecoders.com)
+[![Image Slider Website](/images/projects/slider.webp)ToolImage Slider WebsiteA visually appealing site with a smooth image carousel, auto or manual navigation, responsive layout and beautiful transition effects.by SomrajOpen the live project ↗](https://robo23middle-stack.github.io/scenes/)[![The Beautiful Mind](/images/projects/mindgame.webp)GameThe Beautiful MindA scientifically designed focus and brain-strength game with 15 progressive levels, testing attention, control and mental endurance with real-time progress tracking and leaderboards.by Modern Age CodersOpen the live project ↗](https://mind.modernagecoders.com)[![Misti: AI Chatbot for Maths & Coding](/images/projects/misti.webp)AI & MLMisti: AI Chatbot for Maths & CodingAn intelligent AI-powered chatbot that helps students solve maths and coding questions with deep, step-by-step explanations using advanced Python AI frameworks and LLM APIs.by HarshitOpen the live project ↗](https://misti.modernagecoders.com)
 
 Every one is a real, live project by a student. See more in [Student Labs](/student-labs).
 

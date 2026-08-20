@@ -333,7 +333,7 @@ Book Your Free Demo
 
 Our instructors will reach out within hours to schedule your child's free demo class. See the teaching style, meet the instructor, and then decide, no payment needed.
 
-⚡ Demo slots fill up fast, book now to secure yours.
+⚡ Demo slots fill up fast. Book now to secure yours.
 
 - [+91 9123366161](tel:+919123366161)
 - [contact@modernagecoders.com](mailto:contact@modernagecoders.com)

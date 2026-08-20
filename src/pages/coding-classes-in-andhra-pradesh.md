@@ -69,7 +69,7 @@ Across The State
 
 Because our classes are live and online, any student with a laptop and internet can join, whether you're in a metro or a district town. Explore our dedicated city page:
 
-[Visakhapatnam Vizag, AP's port city, IT SEZ and fintech hub, home to IIM Visakhapatnam. Coding in Visakhapatnam →](/best-coding-class-in-visakhapatnam)VijayawadaGunturTirupatiNelloreKakinadaRajahmundryKurnoolAnantapurKadapaEluruOngoleAmaravati
+[Visakhapatnam Vizag: AP's port city, IT SEZ and fintech hub, home to IIM Visakhapatnam. Coding in Visakhapatnam →](/best-coding-class-in-visakhapatnam)VijayawadaGunturTirupatiNelloreKakinadaRajahmundryKurnoolAnantapurKadapaEluruOngoleAmaravati
 
 Why It Matters Here
 

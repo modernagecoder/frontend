@@ -362,7 +362,7 @@ Data and forecasting
 
 Pulls live weather feeds and forecasts from them, the closest relative to the work above.
 
-by Krish · [Open the live project](https://krish-shroff.github.io/AuraWeatherTech/)
+by Krish
 
 Fees
 
@@ -506,6 +506,8 @@ Start here
 Leave a number and a mentor calls back at an hour that works in German local time. The free class is taught, not sold: a teacher runs a real lesson, works out where the learner is, and recommends a band from what happened in the room.
 
 Prefer to look around first? Read [how we teach](/how-we-teach), browse the [full course catalogue](/courses), or see what students have built in [Student Labs](/student-labs).
+
+[Chat with us](https://wa.me/919123366161?text=Hi%2C%20I'm%20interested%20in%20learning%20more%20about%20your%20courses!)
 
 ---
 

@@ -205,11 +205,9 @@ An honest comparison
 
 ## Your real options for a child using the summer.
 
- $1$100–$150 / month$2
-
 | Option | Typical cost | What it really is | Best for |
 | --- | --- | --- | --- |
-| Modern Age Coders | Live one-hour classes with a dedicated mentor, concrete-first teaching | Rebuilding understanding and confidence, sustained progress |
+| Modern Age Coders | $100–$150 / month | Live one-hour classes with a dedicated mentor, concrete-first teaching | Rebuilding understanding and confidence, sustained progress |
 | Mathnasium center | $300-$450 / month + enrollment fee | Drop-in worksheet floor with rotating instructors | Children who focus better out of the house |
 | Kumon | $150-$220 / subject / month | Daily worksheet packets, brief check-ins, no taught lessons | Building a drill habit and calculation speed |
 | Local private tutor | $35-$80 / hour | Quality varies; twice-weekly quickly costs $280-$640 a month | Short-term help when you have found a gem nearby |
@@ -279,7 +277,7 @@ Real student projects
 
 Every one is a real, live project shipped by a Modern Age Coders student. Explore more in [Student Labs](/student-labs).
 
-[![Babu, 90 Second Maths Challenge](/images/projects/babu.webp)GameBabu, 90 Second Maths ChallengeAn exciting 90-second maths challenge with random problems under time pressure, and a dynamic leaderboard powered by Firebase/MongoDB with real-time score updates.by Modern Age CodersOpen the live project ↗](https://babu.modernagecoders.com)[![NutriLife, AI Nutrition Coach](/images/projects/nutrilife.webp)AI & MLNutriLife, AI Nutrition CoachSnap a photo of any meal and NutriLife instantly names every food, then breaks down the calories, macros, vitamins and minerals, powered by AI. Bhavya vibe-coded it from a single idea: shaped the app in prompts, then wired up the AI food-recognition, daily tracking and smart coaching by hand.by BhavyaOpen the live project ↗](https://nutrilife-bhavya.lovable.app)[![GuardianX, AI Bodyguard for the Internet](/images/projects/guardianx.webp)AI & MLGuardianX, AI Bodyguard for the InternetPaste any suspicious link or message and GuardianX returns an instant AI verdict before you become a victim, plus a link scanner, safety score, breach check and live scam alerts built for India. Vibe-coded from idea to working product through prompts, then refined until it genuinely understands how phishing and scams work.by VivaanOpen the live project ↗](https://guardianx-cybersaver.lovable.app)
+[![Babu: 90 Second Maths Challenge](/images/projects/babu.webp)GameBabu: 90 Second Maths ChallengeAn exciting 90-second maths challenge with random problems under time pressure, and a dynamic leaderboard powered by Firebase/MongoDB with real-time score updates.by Modern Age CodersOpen the live project ↗](https://babu.modernagecoders.com)[![NutriLife: AI Nutrition Coach](/images/projects/nutrilife.webp)AI & MLNutriLife: AI Nutrition CoachSnap a photo of any meal and NutriLife instantly names every food, then breaks down the calories, macros, vitamins and minerals, powered by AI. Bhavya vibe-coded it from a single idea: shaped the app in prompts, then wired up the AI food-recognition, daily tracking and smart coaching by hand.by BhavyaOpen the live project ↗](https://nutrilife-bhavya.lovable.app)[![GuardianX: AI Bodyguard for the Internet](/images/projects/guardianx.webp)AI & MLGuardianX: AI Bodyguard for the InternetPaste any suspicious link or message and GuardianX returns an instant AI verdict before you become a victim, plus a link scanner, safety score, breach check and live scam alerts built for India. Vibe-coded from idea to working product through prompts, then refined until it genuinely understands how phishing and scams work.by VivaanOpen the live project ↗](https://guardianx-cybersaver.lovable.app)
 
 ---
 

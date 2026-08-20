@@ -177,13 +177,13 @@ Teaching an adult who's anxious about maths takes a particular kind of teacher, 
 
 You keep the same mentor, who learns your goal and your pace and adjusts as life changes. That relationship is what turns "I'm bad at maths" into "actually, I get this now".
 
-"I needed a GMAT quant score for an MBA in Dubai and hadn't done maths since school. My mentor rebuilt the fundamentals patiently, I went from dreading the quant to scoring well above my target.", Marketing manager, Dubai
+"I needed a GMAT quant score for an MBA in Dubai and hadn't done maths since school. My mentor rebuilt the fundamentals patiently: I went from dreading the quant to scoring well above my target."
+
+: Marketing manager, Dubai
 
 An honest comparison
 
 ## How we differ from the alternatives.
-
- $1$150 (1:1)$2
 
 | What matters | Modern Age Coders | Self-study videos | Test-prep centre |
 | --- | --- | --- | --- |
@@ -191,7 +191,7 @@ An honest comparison
 | Fills your specific gaps | Yes, diagnosed live | No | Rarely 1:1 |
 | Patient with maths anxiety | Built for it | You're on your own | Group-paced |
 | Fits around your work | Fully flexible, online | Self-paced | Fixed times |
-| Monthly price | Free–AED 100 | AED 1,500–6,000+ |
+| Monthly price | $150 (1:1) | Free–AED 100 | AED 1,500–6,000+ |
 
 Free videos are great if you already know what's missing. We add a mentor who finds the gaps for you and stays patient while you close them, at a fraction of test-prep-centre prices.
 
@@ -247,7 +247,7 @@ Real student projects
 
 Every one is a real, live project shipped by a Modern Age Coders student. Explore more in [Student Labs](/student-labs).
 
-[![SkyCast, Weather Forecast App](/images/projects/skycast.webp)Web AppSkyCast, Weather Forecast AppAn interactive weather forecasting site with real-time updates for any location, temperature, humidity, wind speed and conditions in a clean, responsive interface.by KrishOpen the live project ↗](https://krish-shroff.github.io/AuraWeatherTech/)[![HugSelle, AI Smile Generator](/images/projects/hugselle.webp)AI & MLHugSelle, AI Smile GeneratorA heartwarming AI-powered web app that detects your mood and generates uplifting quotes and visuals to make you smile, a creative blend of technology and positivity.by AnuragOpen the live project ↗](https://hugselle.modernagecoders.com)[![Moxo, Company Landing Page](/images/projects/moxo.webp)Web AppMoxo, Company Landing PageA stunning modern landing page with smooth parallax scrolling, advanced GSAP animations and elegant section transitions that bring the brand to life.by IshaOpen the live project ↗](https://moxo.modernagecoders.com)
+[![Life Span Tracker](/images/projects/lifespan.webp)ToolLife Span TrackerAn interactive web tool that calculates expected lifespan, shows days, months and years lived, and visualises remaining time to motivate better habits.by ManayOpen the live project ↗](https://lifespantracker.netlify.app/)[![HugSelle: AI Smile Generator](/images/projects/hugselle.webp)AI & MLHugSelle: AI Smile GeneratorA heartwarming AI-powered web app that detects your mood and generates uplifting quotes and visuals to make you smile, a creative blend of technology and positivity.by AnuragOpen the live project ↗](https://hugselle.modernagecoders.com)[![Moxo: Company Landing Page](/images/projects/moxo.webp)Web AppMoxo: Company Landing PageA stunning modern landing page with smooth parallax scrolling, advanced GSAP animations and elegant section transitions that bring the brand to life.by IshaOpen the live project ↗](https://moxo.modernagecoders.com)
 
 Parent & student voices
 

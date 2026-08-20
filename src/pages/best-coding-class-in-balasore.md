@@ -36,7 +36,7 @@ Ages 8–12
 
 ## Coding for kids in Balasore
 
-Most popular![Kids coding with Scratch, best coding class for kids in Balasore](/images/kids-coding.webp)
+Most popular![Kids coding with Scratch: best coding class for kids in Balasore](/images/kids-coding.webp)
 
 ### Kids Coding with Scratch
 
@@ -58,7 +58,7 @@ Children design and publish a first colourful website with HTML & CSS, then send
 - Fun, real web projects
 - A personal portfolio page
 
-[View course](/courses/kids-ai-web-development-course)Next step![Python for kids, programming course in Balasore](/images/python-kids.webp)
+[View course](/courses/kids-ai-web-development-course)Next step![Python for kids: programming course in Balasore](/images/python-kids.webp)
 
 ### Python for Young Coders
 
@@ -73,7 +73,7 @@ The step up to real, typed code in the world's most popular language, the same o
 
 ## Coding for teens in Balasore
 
-In demand![Python programming for teens, best coding institute in Balasore](/images/python-teens.webp)
+In demand![Python programming for teens: best coding institute in Balasore](/images/python-teens.webp)
 
 ### Python Programming
 
@@ -84,7 +84,7 @@ The friendliest on-ramp into real software and the world's most in-demand langua
 - Automation & scripting
 - Real-world projects
 
-[View course](/courses/python-complete-masterclass-teens)Career![Java programming for teens, best coding class in Balasore](/images/java-teens.webp)
+[View course](/courses/python-complete-masterclass-teens)Career![Java programming for teens: best coding class in Balasore](/images/java-teens.webp)
 
 ### Java Programming
 
@@ -95,7 +95,7 @@ For board work and beyond: Java underpins CBSE and ICSE Computer Science (the Bl
 - Intro to Android app building
 - Board-aligned practice
 
-[View course](/courses/java-programming-masterclass-for-teens)Build![Web development for teens, programming classes in Balasore](/images/web-dev-teens.webp)
+[View course](/courses/java-programming-masterclass-for-teens)Build![Web development for teens: programming classes in Balasore](/images/web-dev-teens.webp)
 
 ### Full-Stack Web Development
 
@@ -106,7 +106,7 @@ Build complete, deployed websites with HTML, CSS, JavaScript and React, a skill 
 - Backend with Node.js
 - Live portfolio projects
 
-[View course](/courses/web-development-masterclass-teens)Future![AI and machine learning for teens, coding course in Balasore](/images/ai-ml-teens.webp)
+[View course](/courses/web-development-masterclass-teens)Future![AI and machine learning for teens: coding course in Balasore](/images/ai-ml-teens.webp)
 
 ### AI & Machine Learning
 
@@ -158,19 +158,19 @@ Python, machine learning and real data analysis for the analytics and AI roles m
 
 ## Mathematics classes in Balasore
 
-![Elementary mathematics, maths classes in Balasore](/images/elementary-maths.webp)
+![Elementary mathematics: maths classes in Balasore](/images/elementary-maths.webp)
 
 ### Elementary Mathematics
 
 Rock-solid foundations in numbers, operations, fractions, geometry and word problems for grades 1–5, aligned to CBSE, ICSE & Odisha Board schools across Balasore.
 
-[View course](/courses/elementary-mathematics-complete-masterclass)![High school mathematics, maths tuition in Balasore](/images/high-school-maths.webp)
+[View course](/courses/elementary-mathematics-complete-masterclass)![High school mathematics: maths tuition in Balasore](/images/high-school-maths.webp)
 
 ### High School Mathematics
 
 Algebra, geometry, trigonometry, pre-calculus and calculus for grades 9–12, board-aligned and built to give Balasore's engineering and medical aspirants a genuine head start.
 
-[View course](/courses/complete-high-school-mathematics-mastery)Olympiad![Olympiad mathematics, competition prep in Balasore](/images/olympiad-competition-maths.webp)
+[View course](/courses/complete-high-school-mathematics-mastery)Olympiad![Olympiad mathematics: competition prep in Balasore](/images/olympiad-competition-maths.webp)
 
 ### Olympiad & Competition Math
 
@@ -250,7 +250,7 @@ International families pay flat USD rates, the prices above update automatically
 
 Not screenshots of a syllabus, real, live projects from Modern Age Coders learners and labs. Click through and use them.
 
-[![MyDay, Social Productivity Organizer](/images/projects/myday.webp) Web AppMyDay, Social Productivity OrganizerA beautifully designed productivity platform to organise daily tasks, set goals and stay consistent, with a community feed of others' plans for inspiration. Built by Vedant · JavaScript, Node.jsOpen the live project ↗](https://myday.modernagecoders.com)[![BookDesk, AI Book Summaries & Quizzes](/images/projects/bookdesk.webp) AI & MLBookDesk, AI Book Summaries & QuizzesType in any book name and author, and BookDesk pulls together the book's details, a clear summary and a custom quiz to test what you've learned, a genuinely useful study companion. Anika built it as a full-stack AI application, powered by Google Gemini with a live database behind it. Built by Anika · Gemini AI, Full-StackOpen the live project ↗](https://bookdesk1.netlify.app)[![The Beautiful Mind](/images/projects/mindgame.webp) GameThe Beautiful MindA scientifically designed focus and brain-strength game with 15 progressive levels, testing attention, control and mental endurance with real-time progress tracking and leaderboards. Built by Modern Age Coders · React, FirebaseOpen the live project ↗](https://mind.modernagecoders.com)[See more student projects →](/student-labs)
+[![MyDay: Social Productivity Organizer](/images/projects/myday.webp) Web AppMyDay: Social Productivity OrganizerA beautifully designed productivity platform to organise daily tasks, set goals and stay consistent, with a community feed of others' plans for inspiration. Built by Vedant · JavaScript, Node.jsOpen the live project ↗](https://myday.modernagecoders.com)[![BookDesk: AI Book Summaries & Quizzes](/images/projects/bookdesk.webp) AI & MLBookDesk: AI Book Summaries & QuizzesType in any book name and author, and BookDesk pulls together the book's details, a clear summary and a custom quiz to test what you've learned, a genuinely useful study companion. Anika built it as a full-stack AI application, powered by Google Gemini with a live database behind it. Built by Anika · Gemini AI, Full-StackOpen the live project ↗](https://bookdesk1.netlify.app)[![The Beautiful Mind](/images/projects/mindgame.webp) GameThe Beautiful MindA scientifically designed focus and brain-strength game with 15 progressive levels, testing attention, control and mental endurance with real-time progress tracking and leaderboards. Built by Modern Age Coders · React, FirebaseOpen the live project ↗](https://mind.modernagecoders.com)[See more student projects →](/student-labs)
 
 ## What families say
 
@@ -260,7 +260,7 @@ Verified Google reviews from Modern Age Coders families across India. We don't i
 
 "Very good classes."
 
-Don't worry about coding, they teach the best, especially Shivam sir.
+Don't worry about coding. They teach the best, especially Shivam sir.
 
 SWShaarav WadhwaStudent★★★★★
 

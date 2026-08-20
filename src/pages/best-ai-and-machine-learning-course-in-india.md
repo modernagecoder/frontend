@@ -101,7 +101,7 @@ Explore AI & ML
 
 ## Find the Right AI & ML Course for You
 
-Whatever your goal: ML basics, deep learning, data science, generative AI, building models or a specific field like NLP or computer vision, there's a focused page for it.
+Whatever your goal: ML basics, deep learning, data science, generative AI, building models or a specific field like NLP or computer vision. There's a focused page for it.
 
 [Machine Learning for BeginnersML from scratch with Python](/machine-learning-course-for-beginners)[Deep Learning CourseNeural networks & beyond](/deep-learning-course)[Data Science CoursePython, pandas & analysis](/data-science-course)[Artificial Intelligence CourseThe complete AI journey](/artificial-intelligence-course)[Generative AI CourseLLMs & AI apps](/generative-ai-course)[Python for Machine LearningThe ML coding foundation](/python-for-machine-learning)[Python for Data ScienceNumPy, pandas & viz](/python-for-data-science)[Neural Networks CourseBuild NNs from scratch](/neural-networks-course)[NLP CourseNatural language processing](/natural-language-processing-course)[Computer Vision CourseAI that sees images](/computer-vision-course)[Large Language ModelsHow LLMs work & build apps](/large-language-models-course)[Prompt Engineering CourseMaster prompting](/prompt-engineering-course)[AI Agents CourseBuild autonomous agents](/ai-agents-course)[TensorFlow & PyTorchThe deep-learning frameworks](/deep-learning-with-tensorflow-and-pytorch)[Data Analytics CourseTurn data into decisions](/data-analytics-course)
 

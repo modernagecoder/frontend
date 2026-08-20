@@ -19,7 +19,7 @@ Book a free demo classSee how deep we go ↓
 week-11/pipelines.py
 
 ```
-# Week 11 · Python Masterclass: lazy pipelines
+# Week 11 · Python Masterclass, lazy pipelines
 from collections.abc import Iterator
 
 def read_logs(path: str) -> Iterator[str]:
@@ -195,7 +195,7 @@ Not pseudo-code on a slide. These are the kinds of things our students write in 
 week-09/retry.py
 
 ```
-# Week 9 · Decorators: build your own @retry
+# Week 9 · Decorators, build your own @retry
 import functools, time
 
 def retry(times: int = 3, delay: float = 0.5):
@@ -216,7 +216,7 @@ def retry(times: int = 3, delay: float = 0.5):
 Python Masterclass, week 9, **after this, decorators are no longer magic syntax.**week-06/descent.py
 
 ```
-# Week 6 · ML Masterclass: gradient descent, by hand
+# Week 6 · ML Masterclass, gradient descent, by hand
 import numpy as np
 
 def step(w, X, y, lr=0.01):
@@ -516,7 +516,7 @@ Real student projects
 
 Every one is a real, live project shipped by a Modern Age Coders student. Explore more in [Student Labs](/student-labs).
 
-[![GuardianX, AI Bodyguard for the Internet](/images/projects/guardianx.webp)AI & MLGuardianX, AI Bodyguard for the InternetPaste any suspicious link or message and GuardianX returns an instant AI verdict before you become a victim, plus a link scanner, safety score, breach check and live scam alerts built for India. Vibe-coded from idea to working product through prompts, then refined until it genuinely understands how phishing and scams work.by VivaanOpen the live project ↗](https://guardianx-cybersaver.lovable.app)[![Palm Arcana, Summon the Elements](/images/projects/superpawer.webp)GamePalm Arcana, Summon the ElementsOpen your palms to the webcam and computer vision turns your gestures into real magic, the left palm throws a fireball, the right crackles with lightning. A wild blend of hand-tracking AI, creative coding and pure imagination, vibe-coded into a playable browser experience.by AarushOpen the live project ↗](https://superpawer.netlify.app)[![LumenFX, AR/VR Photo Effects Studio](/images/projects/lumenfx.webp)Web AppLumenFX, AR/VR Photo Effects StudioUpload a photo and transform it with cinematic filters, AR face effects and the wildest trending edits, the same looks blowing up on TikTok, Reels and Snap, with 240+ one-tap presets. Raayan vibe-coded the whole studio from an idea: prompted the concept, then built the effects engine and gallery UI by hand.by RaayanOpen the live project ↗](https://arvrbadestweb.lovable.app)
+[![GuardianX: AI Bodyguard for the Internet](/images/projects/guardianx.webp)AI & MLGuardianX: AI Bodyguard for the InternetPaste any suspicious link or message and GuardianX returns an instant AI verdict before you become a victim, plus a link scanner, safety score, breach check and live scam alerts built for India. Vibe-coded from idea to working product through prompts, then refined until it genuinely understands how phishing and scams work.by VivaanOpen the live project ↗](https://guardianx-cybersaver.lovable.app)[![Palm Arcana: Summon the Elements](/images/projects/superpawer.webp)GamePalm Arcana: Summon the ElementsOpen your palms to the webcam and computer vision turns your gestures into real magic, the left palm throws a fireball, the right crackles with lightning. A wild blend of hand-tracking AI, creative coding and pure imagination, vibe-coded into a playable browser experience.by AarushOpen the live project ↗](https://superpawer.netlify.app)[![LumenFX: AR/VR Photo Effects Studio](/images/projects/lumenfx.webp)Web AppLumenFX: AR/VR Photo Effects StudioUpload a photo and transform it with cinematic filters, AR face effects and the wildest trending edits, the same looks blowing up on TikTok, Reels and Snap, with 240+ one-tap presets. Raayan vibe-coded the whole studio from an idea: prompted the concept, then built the effects engine and gallery UI by hand.by RaayanOpen the live project ↗](https://arvrbadestweb.lovable.app)
 
 ---
 

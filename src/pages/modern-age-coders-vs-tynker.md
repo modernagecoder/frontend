@@ -34,8 +34,6 @@ Tynker figures are its published plans as of July 2026 (tynker.com, myelearningw
 
 Scroll the table sideways to see every column →
 
- $1$100 a month group · $150 1-on-1$2 (8 live classes)
-
 | Dimension | Modern Age CodersLive school | Tynker |
 | --- | --- | --- |
 | What it is | **Live classes with a dedicated human mentor** | Self-paced app with gamified lessons |
@@ -43,7 +41,7 @@ Scroll the table sideways to see every column →
 | Feedback on your child's code | **Immediate, personal, in class** | Automated checks only |
 | Accountability | **Scheduled classes, a mentor who notices** | Depends entirely on the child's self-motivation |
 | Maths taught | **Yes, full live maths programme available** | No; coding activities only |
-| Typical cost | About $180 a year individual; family plans ~$225 a year |
+| Typical cost | **$100 a month group · $150 1-on-1** (8 live classes) | About $180 a year individual; family plans ~$225 a year |
 | Ages | **6 to 67** | Roughly 5 to 17, strongest for young beginners |
 
 **Sources and date:** Tynker plan figures are published prices as of July 2026 from tynker.com and myelearningworld.com. Tynker offers a 30-day money-back guarantee on its plans; that is their policy, not ours. Our prices are published on our [pricing page](/pricing).

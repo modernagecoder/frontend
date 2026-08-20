@@ -26,7 +26,7 @@ Modern Age Coders is a live, online school based in Kolkata. Parents looking for
 
 **~23 acres**gated township off Jessore Road, near Nagerbazar**33 towers**roughly 915 homes, 2 & 3 BHK (Diamond Group)**VIP Road**and the airport corridor, minutes away**0 km**your child travels, class comes home
 
-Built by Diamond Group, the same name behind the nearby Diamond Plaza mall between Nagerbazar and Lake Town: Diamond City North has most of daily life inside its walls. A live-online class adds the one thing that used to mean fighting Jessore Road traffic: a teacher who teaches in real time.
+Built by Diamond Group, the same name behind the nearby Diamond Plaza mall between Nagerbazar and Lake Town, Diamond City North has most of daily life inside its walls. A live-online class adds the one thing that used to mean fighting Jessore Road traffic: a teacher who teaches in real time.
 
 How we teach
 
@@ -118,7 +118,7 @@ Real student projects
 
 Every one of these is a real, live project shipped by a Modern Age Coders student, not a screenshot from a brochure. See more in our [Student Labs](/student-labs).
 
-[![SkyCast, Weather Forecast App](/images/projects/skycast.webp)Web AppSkyCast, Weather Forecast AppAn interactive weather forecasting site with real-time updates for any location, temperature, humidity, wind speed and conditions in a clean, responsive interface.by KrishOpen the live project ↗](https://krish-shroff.github.io/AuraWeatherTech/)[![HugSelle, AI Smile Generator](/images/projects/hugselle.webp)AI & MLHugSelle, AI Smile GeneratorA heartwarming AI-powered web app that detects your mood and generates uplifting quotes and visuals to make you smile, a creative blend of technology and positivity.by AnuragOpen the live project ↗](https://hugselle.modernagecoders.com)[![Moxo, Company Landing Page](/images/projects/moxo.webp)Web AppMoxo, Company Landing PageA stunning modern landing page with smooth parallax scrolling, advanced GSAP animations and elegant section transitions that bring the brand to life.by IshaOpen the live project ↗](https://moxo.modernagecoders.com)
+[![Life Span Tracker](/images/projects/lifespan.webp)ToolLife Span TrackerAn interactive web tool that calculates expected lifespan, shows days, months and years lived, and visualises remaining time to motivate better habits.by ManayOpen the live project ↗](https://lifespantracker.netlify.app/)[![HugSelle: AI Smile Generator](/images/projects/hugselle.webp)AI & MLHugSelle: AI Smile GeneratorA heartwarming AI-powered web app that detects your mood and generates uplifting quotes and visuals to make you smile, a creative blend of technology and positivity.by AnuragOpen the live project ↗](https://hugselle.modernagecoders.com)[![Moxo: Company Landing Page](/images/projects/moxo.webp)Web AppMoxo: Company Landing PageA stunning modern landing page with smooth parallax scrolling, advanced GSAP animations and elegant section transitions that bring the brand to life.by IshaOpen the live project ↗](https://moxo.modernagecoders.com)
 
 Who teaches
 

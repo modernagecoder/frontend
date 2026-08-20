@@ -36,7 +36,7 @@ Ages 8–12
 
 ## Coding for kids in Ludhiana
 
-Most popular![Kids coding with Scratch, best coding class for kids in Ludhiana](/images/kids-coding.webp)
+Most popular![Kids coding with Scratch: best coding class for kids in Ludhiana](/images/kids-coding.webp)
 
 ### Kids Coding with Scratch
 
@@ -58,7 +58,7 @@ Children create their first bright, real website with HTML & CSS, then proudly s
 - Fun, real web projects
 - A personal portfolio page
 
-[View course](/courses/kids-ai-web-development-course)Next step![Python for kids, programming course in Ludhiana](/images/python-kids.webp)
+[View course](/courses/kids-ai-web-development-course)Next step![Python for kids: programming course in Ludhiana](/images/python-kids.webp)
 
 ### Python for Young Coders
 
@@ -73,7 +73,7 @@ The leap to real, typed code in the world's most popular language. Children use 
 
 ## Coding for teens in Ludhiana
 
-In demand![Python programming for teens, best coding institute in Ludhiana](/images/python-teens.webp)
+In demand![Python programming for teens: best coding institute in Ludhiana](/images/python-teens.webp)
 
 ### Python Programming
 
@@ -84,7 +84,7 @@ The most in-demand language in the world, and the one Ludhiana's modern factorie
 - Automation & scripting
 - Real-world projects
 
-[View course](/courses/python-complete-masterclass-teens)Career![Java programming for teens, best coding class in Ludhiana](/images/java-teens.webp)
+[View course](/courses/python-complete-masterclass-teens)Career![Java programming for teens: best coding class in Ludhiana](/images/java-teens.webp)
 
 ### Java Programming
 
@@ -95,7 +95,7 @@ Java is the backbone of CBSE/ICSE Computer Science and the enterprise software t
 - Intro to Android app building
 - Board-aligned practice
 
-[View course](/courses/java-programming-masterclass-for-teens)Build![Web development for teens, programming classes in Ludhiana](/images/web-dev-teens.webp)
+[View course](/courses/java-programming-masterclass-for-teens)Build![Web development for teens: programming classes in Ludhiana](/images/web-dev-teens.webp)
 
 ### Full-Stack Web Development
 
@@ -106,7 +106,7 @@ Build complete, deployed websites from scratch with HTML, CSS, JavaScript and Re
 - Backend with Node.js
 - Live portfolio projects
 
-[View course](/courses/web-development-masterclass-teens)Future![AI and machine learning for teens, coding course in Ludhiana](/images/ai-ml-teens.webp)
+[View course](/courses/web-development-masterclass-teens)Future![AI and machine learning for teens: coding course in Ludhiana](/images/ai-ml-teens.webp)
 
 ### AI & Machine Learning
 
@@ -158,19 +158,19 @@ Python, machine learning and real data analysis, built for the analytics and AI 
 
 ## Mathematics classes in Ludhiana
 
-![Elementary mathematics, maths classes in Ludhiana](/images/elementary-maths.webp)
+![Elementary mathematics: maths classes in Ludhiana](/images/elementary-maths.webp)
 
 ### Elementary Mathematics
 
 Rock-solid foundations in numbers, operations, fractions, geometry and word problems for grades 1–5, aligned to CBSE & ICSE schools across Ludhiana.
 
-[View course](/courses/elementary-mathematics-complete-masterclass)![High school mathematics, maths tuition in Ludhiana](/images/high-school-maths.webp)
+[View course](/courses/elementary-mathematics-complete-masterclass)![High school mathematics: maths tuition in Ludhiana](/images/high-school-maths.webp)
 
 ### High School Mathematics
 
 Algebra, geometry, trigonometry, pre-calculus and calculus for grades 9–12, board-aligned and built to give Ludhiana's JEE aspirants a genuine head start.
 
-[View course](/courses/complete-high-school-mathematics-mastery)Olympiad![Olympiad mathematics, competition prep in Ludhiana](/images/olympiad-competition-maths.webp)
+[View course](/courses/complete-high-school-mathematics-mastery)Olympiad![Olympiad mathematics: competition prep in Ludhiana](/images/olympiad-competition-maths.webp)
 
 ### Olympiad & Competition Math
 
@@ -250,7 +250,7 @@ International families pay flat USD rates, the prices above update automatically
 
 Not screenshots of a syllabus, real, live projects from Modern Age Coders learners and labs. Click through and use them.
 
-[![Word Counter Website](/images/projects/wordcounter.webp) ToolWord Counter WebsiteA simple yet powerful tool that counts words, sentences and paragraphs from user input with instant, real-time results and a clean responsive interface. Built by Vansh · HTML, CSSOpen the live project ↗](https://vanshagarwalwordcounter-sys.github.io/WordCounter/)[![Babu, 90 Second Maths Challenge](/images/projects/babu.webp) GameBabu, 90 Second Maths ChallengeAn exciting 90-second maths challenge with random problems under time pressure, and a dynamic leaderboard powered by Firebase/MongoDB with real-time score updates. Built by Modern Age Coders · JavaScript, FirebaseOpen the live project ↗](https://babu.modernagecoders.com)[![FreshTrack, Food Expiry Tracker](/images/projects/fresh.webp) Web AppFreshTrack, Food Expiry TrackerA smart food-management system to track expiry dates, add, update and delete items while the app checks expiry automatically, online and offline. Built by Tanish · JavaScript, MongoDBOpen the live project ↗](https://freshtrackpro.netlify.app/)[See more student projects →](/student-labs)
+[![Word Counter Website](/images/projects/wordcounter.webp) ToolWord Counter WebsiteA simple yet powerful tool that counts words, sentences and paragraphs from user input with instant, real-time results and a clean responsive interface. Built by Vansh · HTML, CSSOpen the live project ↗](https://vanshagarwalwordcounter-sys.github.io/WordCounter/)[![Babu: 90 Second Maths Challenge](/images/projects/babu.webp) GameBabu: 90 Second Maths ChallengeAn exciting 90-second maths challenge with random problems under time pressure, and a dynamic leaderboard powered by Firebase/MongoDB with real-time score updates. Built by Modern Age Coders · JavaScript, FirebaseOpen the live project ↗](https://babu.modernagecoders.com)[![FreshTrack: Food Expiry Tracker](/images/projects/fresh.webp) Web AppFreshTrack: Food Expiry TrackerA smart food-management system to track expiry dates, add, update and delete items while the app checks expiry automatically, online and offline. Built by Tanish · JavaScript, MongoDBOpen the live project ↗](https://freshtrackpro.netlify.app/)[See more student projects →](/student-labs)
 
 ## What families say
 

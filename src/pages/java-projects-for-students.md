@@ -16,7 +16,7 @@ Book a Free Project DemoSee the Projects**Build**Real working programs**Portfoli
 
 ## Quick answer
 
-**Modern Age Coders teaches Java through real projects, not just theory.** Students build working programs, a calculator, number game, quiz app, bank-account system, library/student-record manager and small games, applying loops, methods, arrays and Object-Oriented Programming as they go. This project-based approach builds genuine logic, prepares ICSE/ISC practical work, and leaves each learner with a portfolio. Classes are live in small batches, group plans start at ₹1,499/month, and a free demo is available first.
+**Modern Age Coders teaches Java through real projects, not just theory.** Students build working programs, a calculator, number game, quiz app, bank-account system, library/student-record manager and small games , applying loops, methods, arrays and Object-Oriented Programming as they go. This project-based approach builds genuine logic, prepares ICSE/ISC practical work, and leaves each learner with a portfolio. Classes are live in small batches, group plans start at ₹1,499/month, and a free demo is available first.
 
 Start Today
 

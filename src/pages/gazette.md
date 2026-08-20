@@ -46,25 +46,27 @@ CBSE · Class 10![Krishnam Bhatter](/images/gazette/krishnam-bhatter.jpg)Krishna
 
 Our certificate is not handed out. It is earned through a deliberately tough exam, written, oral, and project. Below are four students who passed it recently. Their work, their thinking, their proof.
 
-![Paarth: Modern Age Coders Certificate](/images/paarth-certificate.webp)
+![Paarth | Modern Age Coders Certificate](/images/paarth-certificate.webp)
 
 *Paarth Certificate Holder*
 
-![Pratham, Modern Age Coders Certificate](/images/pratham-certificate.webp)
+![Pratham | Modern Age Coders Certificate](/images/pratham-certificate.webp)
 
 *Pratham Certificate Holder*
 
-![Somraj: Modern Age Coders Certificate](/images/somraj-certificate.webp)
+![Somraj | Modern Age Coders Certificate](/images/somraj-certificate.webp)
 
 *Somraj Certificate Holder*
 
-![Vanshika, Modern Age Coders Certificate](/images/vanshika-certificate.webp)
+![Vanshika | Modern Age Coders Certificate](/images/vanshika-certificate.webp)
 
 *Vanshika Certificate Holder*
 
 [Why our certificate is intentionally hard to earn →](/blog/modern-age-coders-certificate-earned-not-given)
 
-Editorial · From the Founder's DeskPage 4, Editorial, ## Why Indian Children Must Code Before They Turn Ten
+Editorial · From the Founder's DeskPage 4, Editorial,
+
+## Why Indian Children Must Code Before They Turn Ten
 
 A nation that taught its children Sanskrit at six can teach them Python at nine. The cost of waiting any longer is steeper than we admit.
 
@@ -154,7 +156,9 @@ Real messages from real parents. We did not edit them. We did not solicit them. 
 
 Solutions printed in the next edition. Cheats: ask your teacher.
 
-The Funny PagesPage 9 MAC the Coding Cat *Volume IV · Strip 47 · By the Drawing Desk*IMAC, our hero, decides to print "Hello, World!" for the first time.IIDrat. He has forgotten the break statement. Again.IIITomorrow: MAC discovers indentation. We wish him luck.Classifieds · Courses, Camps & CallsPage 10**Python for Kids** Live online, ages 8–12. Demo class FREE. [Apply →](/python-and-ai-classes-for-kids-teens)**AI & ML Bootcamp** Class 9–12. Real-world projects. Small-batch teaching. [Apply →](/ai-ml-course-for-teens)**Summer Coding Camp** Howrah & online. Four age groups. [Details →](/summer-coding-camp)**Girls-Who-Code** FREE Saturday cohort. Thirty seats only. Apply early. [Apply →](/coding-classes-for-girls)**Maths Mastery** Olympiad-grade prep, Class 6–12. One-on-one. Trial: *₹0*. [Try →](/maths-challenges)**Java for Teens** JEE preparation, project-based. Six months. [Sign up →](/java-programming-for-kids-teens)**Corporate Training** Upskill your engineering team. Custom curriculum. [Brief us →](/business-solutions)**School Partnerships** We co-teach inside your school. [Partner with us →](/schools)**Class 4–7 Beginners** Block-based to text-based. A real pathway, in stages. [Roadmap →](/learn-coding-by-class)**Free Resources** Worksheets, recorded lessons, and the Coding Roadmap, all free. [Download →](/free-resources)**Adult Beginners (25–65)** Yes, you. Weekend Python. We teach the patient. [Begin →](/coding-lang)**Letters & Tips** Got a story for the Gazette? A topper in the family? Write to *hello@modernagecoders.com*., Subscribe to the Gazette, ## Book a Free Demo Class
+The Funny PagesPage 9 MAC the Coding Cat *Volume IV · Strip 47 · By the Drawing Desk*IMAC, our hero, decides to print "Hello, World!" for the first time.IIDrat. He has forgotten the break statement. Again.IIITomorrow: MAC discovers indentation. We wish him luck.Classifieds · Courses, Camps & CallsPage 10**Python for Kids** Live online, ages 8–12. Demo class FREE. [Apply →](/python-and-ai-classes-for-kids-teens)**AI & ML Bootcamp** Class 9–12. Real-world projects. Small-batch teaching. [Apply →](/ai-ml-course-for-teens)**Summer Coding Camp** Howrah & online. Four age groups. [Details →](/summer-coding-camp)**Girls-Who-Code** FREE Saturday cohort. Thirty seats only. Apply early. [Apply →](/coding-classes-for-girls)**Maths Mastery** Olympiad-grade prep, Class 6–12. One-on-one. Trial: *₹0*. [Try →](/maths-challenges)**Java for Teens** JEE preparation, project-based. Six months. [Sign up →](/java-programming-for-kids-teens)**Corporate Training** Upskill your engineering team. Custom curriculum. [Brief us →](/for-business)**School Partnerships** We co-teach inside your school. [Partner with us →](/schools)**Class 4–7 Beginners** Block-based to text-based. A real pathway, in stages. [Roadmap →](/learn-coding-by-class)**Free Resources** Worksheets, recorded lessons, and the Coding Roadmap, all free. [Download →](/free-resources)**Adult Beginners (25–65)** Yes, you. Weekend Python. We teach the patient. [Begin →](/coding-lang)**Letters & Tips** Got a story for the Gazette? A topper in the family? Write to *hello@modernagecoders.com*. , Subscribe to the Gazette,
+
+## Book a Free Demo Class
 
 One trial class. Real teachers. Your child writes code in the first sitting. No card. No pitch. No catch.
 

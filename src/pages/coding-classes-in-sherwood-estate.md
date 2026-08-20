@@ -24,7 +24,7 @@ Modern Age Coders closes that gap. We are a live, online school based in Kolkata
 
 > The shuttle to Garia and the Kamalgazi crawl are exactly what a live, online class lets your child skip.
 
-**~15 acres**green, gated township off Garia Main Road**18 blocks**low-rise, four storeys each**~1,600**homes, 1, 2, 3 & 4 BHK**0 km**your child travels, class comes home
+**~15 acres**green, gated township off Garia Main Road**18 blocks**low-rise, four storeys each**~1,600**homes: 1, 2, 3 & 4 BHK**0 km**your child travels, class comes home
 
 Sitting opposite the Narendrapur Ramakrishna Mission and under a kilometre from the EM Bypass, Sherwood Estate has nearly everything within its gates, and a live-online class adds the one thing that used to mean a trip out: a good teacher.
 
@@ -126,7 +126,7 @@ Real student projects
 
 Every one of these is a real, live project shipped by a Modern Age Coders student, not a screenshot from a brochure. See more in our [Student Labs](/student-labs).
 
-[![Baby, Typing Speed Challenge](/images/projects/baby.webp)GameBaby: Typing Speed ChallengeAn engaging typing speed challenge where users test how fast and accurately they can type, with a live leaderboard connected to a MongoDB backend.by KritikaOpen the live project ↗](https://baby.modernagecoders.com)[![MyDay, Social Productivity Organizer](/images/projects/myday.webp)Web AppMyDay, Social Productivity OrganizerA beautifully designed productivity platform to organise daily tasks, set goals and stay consistent, with a community feed of others' plans for inspiration.by VedantOpen the live project ↗](https://myday.modernagecoders.com)[![FreshTrack, Food Expiry Tracker](/images/projects/fresh.webp)Web AppFreshTrack, Food Expiry TrackerA smart food-management system to track expiry dates, add, update and delete items while the app checks expiry automatically, online and offline.by TanishOpen the live project ↗](https://freshtrackpro.netlify.app/)
+[![Baby: Typing Speed Challenge](/images/projects/baby.webp)GameBaby: Typing Speed ChallengeAn engaging typing speed challenge where users test how fast and accurately they can type, with a live leaderboard connected to a MongoDB backend.by KritikaOpen the live project ↗](https://baby.modernagecoders.com)[![MyDay: Social Productivity Organizer](/images/projects/myday.webp)Web AppMyDay: Social Productivity OrganizerA beautifully designed productivity platform to organise daily tasks, set goals and stay consistent, with a community feed of others' plans for inspiration.by VedantOpen the live project ↗](https://myday.modernagecoders.com)[![FreshTrack: Food Expiry Tracker](/images/projects/fresh.webp)Web AppFreshTrack: Food Expiry TrackerA smart food-management system to track expiry dates, add, update and delete items while the app checks expiry automatically, online and offline.by TanishOpen the live project ↗](https://freshtrackpro.netlify.app/)
 
 Who teaches
 

@@ -142,11 +142,11 @@ WEEKLY SCHEDULE
 
 | Slot | Time | Best for | Days |
 | --- | --- | --- | --- |
-| Morning | 7:00, 9:00 AM | Early risers, board revision before school | Mon–Sat |
-| After-school | 4:00, 6:00 PM | Kids 6–12, Scratch & beginner Python | Mon–Fri |
-| Evening | 6:00, 8:00 PM | Teens, Python/Java, no bridge commute | Mon–Sat |
-| Night | 8:00, 9:30 PM | Working professionals, college, AI/ML & DSA | Mon–Fri |
-| Weekend | 10:00 AM: 1:00 PM | Project sprints, Olympiad maths, camps | Sat–Sun |
+| Morning | 7:00 – 9:00 AM | Early risers, board revision before school | Mon–Sat |
+| After-school | 4:00 – 6:00 PM | Kids 6–12, Scratch & beginner Python | Mon–Fri |
+| Evening | 6:00 – 8:00 PM | Teens, Python/Java, no bridge commute | Mon–Sat |
+| Night | 8:00 – 9:30 PM | Working professionals, college, AI/ML & DSA | Mon–Fri |
+| Weekend | 10:00 AM – 1:00 PM | Project sprints, Olympiad maths, camps | Sat–Sun |
 
 HONEST COMPARISON
 

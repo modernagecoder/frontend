@@ -191,11 +191,9 @@ An honest comparison
 
 ## Your real US options, compared honestly.
 
- $1$100–$150 / month$2
-
 | Option | Typical cost | What it really is | Best for |
 | --- | --- | --- | --- |
-| Modern Age Coders | Live one-hour classes with a dedicated mentor, ideas-first, projects the child owns | Building a real maker, with the Python road open |
+| Modern Age Coders | $100–$150 / month | Live one-hour classes with a dedicated mentor, ideas-first, projects the child owns | Building a real maker, with the Python road open |
 | Premium 1:1 platforms (Juni-style) | $200-$300 / month | Live 1-on-1, often 2-4 sessions monthly at 30-50 minutes, rotating instructors common | Families who want brand-name polish and can absorb the price |
 | Marketplace classes (Outschool-style) | $15-$25 / class | One-off or short-series group classes of varying quality; no continuity of mentor or curriculum | Sampling topics cheaply before committing anywhere |
 | Coding centers (Code Ninjas-style) | $175-$350 / month | Drop-in dojo floors with game-based curriculum and rotating guides, plus the drive | Children who focus better out of the house |
@@ -251,7 +249,7 @@ Keep exploring
 
 ## More for American families from Modern Age Coders.
 
-[The full US pictureCoding Classes in the United States](/coding-classes-in-united-states)[Ages 6-11Scratch Coding Classes](/scratch-coding-classes-for-kids)[Ages 9-14Roblox Coding Classes](/roblox-coding-classes-for-kids)[SeasonalOnline Coding Summer Camp](/online-coding-summer-camp)[The other subjectGrade-Level Math Tutoring](/online-math-tutor-5th-grade)[Cost guideWhat US Kids Coding Costs](/coding-classes-for-kids-cost)
+[The full US pictureCoding Classes in the United States](/coding-classes-in-united-states)[By stateCoding Classes in New Jersey](/coding-classes-in-new-jersey)[By stateCoding Classes in Texas](/coding-classes-in-texas)[By stateCoding Classes in California](/coding-classes-in-california)[By stateCoding Classes in New York](/coding-classes-in-new-york)[By stateCoding Classes in Illinois](/coding-classes-in-illinois)[By stateCoding Classes in Virginia](/coding-classes-in-virginia)[By stateCoding Classes in Washington](/coding-classes-in-washington)[By stateCoding Classes in Georgia](/coding-classes-in-georgia)[Ages 6-11Scratch Coding Classes](/scratch-coding-classes-for-kids)[Ages 9-14Roblox Coding Classes](/roblox-coding-classes-for-kids)[SeasonalOnline Coding Summer Camp](/online-coding-summer-camp)[The other subjectGrade-Level Math Tutoring](/online-math-tutor-5th-grade)[Cost guideWhat US Kids Coding Costs](/coding-classes-for-kids-cost)
 
 ## Watch one full hour of real teaching. Free.
 
@@ -265,7 +263,7 @@ Real student projects
 
 Every one is a real, live project shipped by a Modern Age Coders student. Explore more in [Student Labs](/student-labs).
 
-[![Pracy, Coding Practice & Quiz Platform](/images/projects/pracy.webp)Web AppPracy, Coding Practice & Quiz PlatformAn all-in-one coding-practice site with interactive challenges, quizzes and score tracking across multiple languages to strengthen logic and problem-solving.by RohanOpen the live project ↗](https://astounding-flan-f18e08.netlify.app/)[![Word Counter Website](/images/projects/wordcounter.webp)ToolWord Counter WebsiteA simple yet powerful tool that counts words, sentences and paragraphs from user input with instant, real-time results and a clean responsive interface.by VanshOpen the live project ↗](https://vanshagarwalwordcounter-sys.github.io/WordCounter/)[![Life Span Tracker](/images/projects/lifespan.webp)ToolLife Span TrackerAn interactive web tool that calculates expected lifespan, shows days, months and years lived, and visualises remaining time to motivate better habits.by ManayOpen the live project ↗](https://lifespantracker.netlify.app/)
+[![Pracy: Coding Practice & Quiz Platform](/images/projects/pracy.webp)Web AppPracy: Coding Practice & Quiz PlatformAn all-in-one coding-practice site with interactive challenges, quizzes and score tracking across multiple languages to strengthen logic and problem-solving.by RohanOpen the live project ↗](https://astounding-flan-f18e08.netlify.app/)[![Word Counter Website](/images/projects/wordcounter.webp)ToolWord Counter WebsiteA simple yet powerful tool that counts words, sentences and paragraphs from user input with instant, real-time results and a clean responsive interface.by VanshOpen the live project ↗](https://vanshagarwalwordcounter-sys.github.io/WordCounter/)[![Life Span Tracker](/images/projects/lifespan.webp)ToolLife Span TrackerAn interactive web tool that calculates expected lifespan, shows days, months and years lived, and visualises remaining time to motivate better habits.by ManayOpen the live project ↗](https://lifespantracker.netlify.app/)
 
 ---
 

@@ -100,7 +100,7 @@ pythonturtlegeometryThe age-10 curriculum path
 
 We don't race. We don't drag. This is the same path we've refined across thousands of 10 year old learners, short enough to finish inside a school year, deep enough to be real.
 
-Month 1, 2 · Foundations
+Month 1 – 2 · Foundations
 
 ### Scratch & computational thinking
 
@@ -112,7 +112,7 @@ We begin with Scratch because blocks remove typing errors, kids focus on logic, 
 - broadcast events
 - game design
 
-Month 3: 4 · First text code
+Month 3 – 4 · First text code
 
 ### Python basics
 
@@ -124,7 +124,7 @@ We move to Python. Short programs first: print, input, arithmetic, if-else, simp
 - while & for loops
 - error reading
 
-Month 5: 6 · Build phase
+Month 5 – 6 · Build phase
 
 ### Python projects & functions
 
@@ -189,7 +189,7 @@ If your child is right at a boundary, this table helps you decide whether to sta
 | **Main tool** | Scratch, Code.org | Scratch + early Python | Python + HTML/CSS |
 | **Typing fluency** | Still building | Comfortable with short text | Comfortable with full programs |
 | **Typical first project** | Maze chase game | Number guess game | Multi-screen quiz |
-| **School syllabus link** | Class 4 computers | Class 5: 6 bridge | Class 6 onwards |
+| **School syllabus link** | Class 4 computers | Class 5 – 6 bridge | Class 6 onwards |
 | **AI exposure** | Concept only | Teachable Machine project | Simple classifier in Python |
 | **Session length** | 1 hour | 1 hour | 1 hour |
 | **Best format** | Small group | Both work well | 1-on-1 if pushing ahead |

@@ -151,11 +151,11 @@ WEEKLY SCHEDULE
 
 | Slot | Time | Best for | Days |
 | --- | --- | --- | --- |
-| Early Morning | 6:00: 8:00 AM | Working professionals & college students before the day starts | Mon–Fri |
-| After-School | 4:00, 6:00 PM | School kids & teens (ICSE, CBSE, WBBSE) | Mon / Wed / Fri |
-| Evening | 6:00, 8:00 PM | Teens and board students after homework | Tue / Thu / Sat |
-| Night | 8:00, 9:30 PM | Senior students & professionals | Mon / Wed / Fri |
-| Weekend | 9:00 AM, 1:00 PM | Families who prefer weekend-only batches | Sat & Sun |
+| Early Morning | 6:00 – 8:00 AM | Working professionals & college students before the day starts | Mon–Fri |
+| After-School | 4:00 – 6:00 PM | School kids & teens (ICSE, CBSE, WBBSE) | Mon / Wed / Fri |
+| Evening | 6:00 – 8:00 PM | Teens and board students after homework | Tue / Thu / Sat |
+| Night | 8:00 – 9:30 PM | Senior students & professionals | Mon / Wed / Fri |
+| Weekend | 9:00 AM – 1:00 PM | Families who prefer weekend-only batches | Sat & Sun |
 
 Slots are flexible. Tell us your preferred time at the [free demo](/book-demo) and we will place your child in a matching live batch.
 
@@ -171,7 +171,7 @@ HONEST COMPARISON
 - Small batches of 6-8 with real attention, instead of a crowded room or a faceless recorded course.
 - Learning recorded for revision. Your child can rewatch their own class to revise, even though the teaching itself is always live.
 - Safer and easier for parents, no sending a child out onto Mumbai Road after dark for an evening class.
-- Every board supported on one platform, ICSE Java, CBSE Python and WBBSE beginners, without hunting for a specialist tutor in town.
+- Every board supported on one platform: ICSE Java, CBSE Python and WBBSE beginners, without hunting for a specialist tutor in town.
 
 ### When offline still wins (honest)
 
@@ -266,7 +266,7 @@ REAL STUDENT PROJECTS
 
 ## What our students actually build
 
-[![BookDesk, AI Book Summaries & Quizzes](/images/projects/bookdesk.webp)AI & MLBookDesk, AI Book Summaries & QuizzesType in any book name and author, and BookDesk pulls together the book's details, a clear summary and a custom quiz to test what you've learned, a genuinely useful study companion. Anika built it as a full-stack AI application, powered by Google Gemini with a live database behind it.by AnikaOpen the live project ↗](https://bookdesk1.netlify.app)[![HairSync, AI Hairstyle Try-On](/images/projects/hairsync.webp)AI & MLHairSync, AI Hairstyle Try-OnUpload a clear photo and try on any hairstyle before you commit, wolf cuts, curtain bangs, fades, braids and dozens of trending looks, rendered onto your own face by AI in seconds. Kriti vibe-coded this virtual try-on studio from a single idea into a working app.by KritiOpen the live project ↗](https://hairsync.lovable.app)[![SkyCast, Weather Forecast App](/images/projects/skycast.webp)Web AppSkyCast, Weather Forecast AppAn interactive weather forecasting site with real-time updates for any location, temperature, humidity, wind speed and conditions in a clean, responsive interface.by KrishOpen the live project ↗](https://krish-shroff.github.io/AuraWeatherTech/)
+[![BookDesk: AI Book Summaries & Quizzes](/images/projects/bookdesk.webp)AI & MLBookDesk: AI Book Summaries & QuizzesType in any book name and author, and BookDesk pulls together the book's details, a clear summary and a custom quiz to test what you've learned, a genuinely useful study companion. Anika built it as a full-stack AI application, powered by Google Gemini with a live database behind it.by AnikaOpen the live project ↗](https://bookdesk1.netlify.app)[![HairSync: AI Hairstyle Try-On](/images/projects/hairsync.webp)AI & MLHairSync: AI Hairstyle Try-OnUpload a clear photo and try on any hairstyle before you commit, wolf cuts, curtain bangs, fades, braids and dozens of trending looks, rendered onto your own face by AI in seconds. Kriti vibe-coded this virtual try-on studio from a single idea into a working app.by KritiOpen the live project ↗](https://hairsync.lovable.app)[![Life Span Tracker](/images/projects/lifespan.webp)ToolLife Span TrackerAn interactive web tool that calculates expected lifespan, shows days, months and years lived, and visualises remaining time to motivate better habits.by ManayOpen the live project ↗](https://lifespantracker.netlify.app/)
 
 Every one is a real, live project by a student. See more in [Student Labs](/student-labs).
 

@@ -247,11 +247,9 @@ An honest comparison
 
 ## Your real options for an IB maths student.
 
- $1$100–$150 / month$2
-
 | Option | Typical cost | What it really is | Best for |
 | --- | --- | --- | --- |
-| Modern Age Coders | 8 live one-hour classes with a dedicated mentor teaching your exact course, level and papers, IA coached honestly | Sustained two-year support that moves grades and predicted grades |
+| Modern Age Coders | $100–$150 / month | 8 live one-hour classes with a dedicated mentor teaching your exact course, level and papers, IA coached honestly | Sustained two-year support that moves grades and predicted grades |
 | IB-specialist agencies | $60-$120+ / hour | Genuine IB expertise at premium rates; twice weekly runs $480-$960+ a month | Families for whom price is no object |
 | Generic online tutoring platforms | $25-$60 / hour | Marketplace tutors of varying quality, often unfamiliar with AA/AI structure, papers or IA criteria | Occasional homework help on universal topics |
 | School extra-help sessions | Free | Well-meaning group revision, rarely individual, never IA-deep | Always take these too; they complement real tuition |
@@ -329,7 +327,7 @@ Real student projects
 
 Every one is a real, live project shipped by a Modern Age Coders student. Explore more in [Student Labs](/student-labs).
 
-[![Image Slider Website](/images/projects/slider.webp)ToolImage Slider WebsiteA visually appealing site with a smooth image carousel, auto or manual navigation, responsive layout and beautiful transition effects.by SomrajOpen the live project ↗](https://robo23middle-stack.github.io/scenes/)[![The Beautiful Mind](/images/projects/mindgame.webp)GameThe Beautiful MindA scientifically designed focus and brain-strength game with 15 progressive levels, testing attention, control and mental endurance with real-time progress tracking and leaderboards.by Modern Age CodersOpen the live project ↗](https://mind.modernagecoders.com)[![Misti, AI Chatbot for Maths & Coding](/images/projects/misti.webp)AI & MLMisti, AI Chatbot for Maths & CodingAn intelligent AI-powered chatbot that helps students solve maths and coding questions with deep, step-by-step explanations using advanced Python AI frameworks and LLM APIs.by HarshitOpen the live project ↗](https://misti.modernagecoders.com)
+[![Image Slider Website](/images/projects/slider.webp)ToolImage Slider WebsiteA visually appealing site with a smooth image carousel, auto or manual navigation, responsive layout and beautiful transition effects.by SomrajOpen the live project ↗](https://robo23middle-stack.github.io/scenes/)[![The Beautiful Mind](/images/projects/mindgame.webp)GameThe Beautiful MindA scientifically designed focus and brain-strength game with 15 progressive levels, testing attention, control and mental endurance with real-time progress tracking and leaderboards.by Modern Age CodersOpen the live project ↗](https://mind.modernagecoders.com)[![Misti: AI Chatbot for Maths & Coding](/images/projects/misti.webp)AI & MLMisti: AI Chatbot for Maths & CodingAn intelligent AI-powered chatbot that helps students solve maths and coding questions with deep, step-by-step explanations using advanced Python AI frameworks and LLM APIs.by HarshitOpen the live project ↗](https://misti.modernagecoders.com)
 
 ---
 

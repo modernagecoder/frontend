@@ -150,10 +150,10 @@ Timings
 
 | Slot | Time | Best for | Days |
 | --- | --- | --- | --- |
-| Early evening | 4:30 PM, 6:00 PM | School kids (Classes 4-8) after school | Weekdays |
-| Prime evening | 6:00 PM, 8:00 PM | Teens & ICSE/CBSE board students | Weekdays |
-| Late evening | 8:00 PM: 9:30 PM | College students & working professionals | Weekdays |
-| Weekend morning | 9:00 AM, 12:00 PM | Camps, intensives & flexible families | Sat & Sun |
+| Early evening | 4:30 PM – 6:00 PM | School kids (Classes 4-8) after school | Weekdays |
+| Prime evening | 6:00 PM – 8:00 PM | Teens & ICSE/CBSE board students | Weekdays |
+| Late evening | 8:00 PM – 9:30 PM | College students & working professionals | Weekdays |
+| Weekend morning | 9:00 AM – 12:00 PM | Camps, intensives & flexible families | Sat & Sun |
 | Weekend slots | By arrangement | 1-on-1 and make-up sessions | Sat & Sun |
 
 Timings are flexible and set with you at booking, evening slots mean no late-night travel for kids on the Jessore Road side.
@@ -265,7 +265,7 @@ REAL STUDENT PROJECTS
 
 ## What our students actually build
 
-[![The Beautiful Mind](/images/projects/mindgame.webp)GameThe Beautiful MindA scientifically designed focus and brain-strength game with 15 progressive levels, testing attention, control and mental endurance with real-time progress tracking and leaderboards.by Modern Age CodersOpen the live project ↗](https://mind.modernagecoders.com)[![Misti, AI Chatbot for Maths & Coding](/images/projects/misti.webp)AI & MLMisti, AI Chatbot for Maths & CodingAn intelligent AI-powered chatbot that helps students solve maths and coding questions with deep, step-by-step explanations using advanced Python AI frameworks and LLM APIs.by HarshitOpen the live project ↗](https://misti.modernagecoders.com)[![Babu, 90 Second Maths Challenge](/images/projects/babu.webp)GameBabu, 90 Second Maths ChallengeAn exciting 90-second maths challenge with random problems under time pressure, and a dynamic leaderboard powered by Firebase/MongoDB with real-time score updates.by Modern Age CodersOpen the live project ↗](https://babu.modernagecoders.com)
+[![The Beautiful Mind](/images/projects/mindgame.webp)GameThe Beautiful MindA scientifically designed focus and brain-strength game with 15 progressive levels, testing attention, control and mental endurance with real-time progress tracking and leaderboards.by Modern Age CodersOpen the live project ↗](https://mind.modernagecoders.com)[![Misti: AI Chatbot for Maths & Coding](/images/projects/misti.webp)AI & MLMisti: AI Chatbot for Maths & CodingAn intelligent AI-powered chatbot that helps students solve maths and coding questions with deep, step-by-step explanations using advanced Python AI frameworks and LLM APIs.by HarshitOpen the live project ↗](https://misti.modernagecoders.com)[![Babu: 90 Second Maths Challenge](/images/projects/babu.webp)GameBabu: 90 Second Maths ChallengeAn exciting 90-second maths challenge with random problems under time pressure, and a dynamic leaderboard powered by Firebase/MongoDB with real-time score updates.by Modern Age CodersOpen the live project ↗](https://babu.modernagecoders.com)
 
 Every one is a real, live project by a student. See more in [Student Labs](/student-labs).
 

@@ -37,13 +37,13 @@ Scroll the table sideways to see every column →
 | Dimension | Modern Age CodersCoding + Maths | WhiteHat Jr | Cuemath | Codingal |
 | --- | --- | --- | --- | --- |
 | Primary focus | **Coding and maths, taught together** | Positions itself as coding for kids | Primarily maths-focused (not coding-first) | Coding for kids, with competitions |
-| Format: live & interactive | **Live and interactive, not pre-recorded** | Typically live online classes, verify | Typically live online classes, verify | Typically live online classes, verify |
-| Batch size | **Small live batches of 4–8 (plus Mini-Batch & 1-on-1)** | Often one-on-one oriented, verify | Varies, verify | Varies (group & one-on-one), verify |
-| Coding + maths together | **Yes, both in one curriculum** | Coding-first; not taught together, verify | Maths-focused, not coding-first, verify | Coding-first, verify |
-| Real projects from day one | **Yes, real projects from day one** | Project-based coding, verify | Maths concepts & practice, verify | Project & competition based, verify |
-| Ages served | **Ages 6–67** | Primarily school-age children, verify | Primarily school students, verify | Primarily school-age children, verify |
-| Free trial | **Yes, free trial class** | Typically offers a trial, verify | Typically offers a trial, verify | Typically offers a trial, verify |
-| Recordings for revision | **Yes, recordings for revision** | Varies, verify | Varies, verify | Varies, verify |
+| Format: live & interactive | **Live and interactive, not pre-recorded** | Typically live online classes , verify | Typically live online classes , verify | Typically live online classes , verify |
+| Batch size | **Small live batches of 4–8 (plus Mini-Batch & 1-on-1)** | Often one-on-one oriented , verify | Varies , verify | Varies (group & one-on-one) , verify |
+| Coding + maths together | **Yes. Both in one curriculum** | Coding-first; not taught together , verify | Maths-focused, not coding-first , verify | Coding-first , verify |
+| Real projects from day one | **Yes, real projects from day one** | Project-based coding , verify | Maths concepts & practice , verify | Project & competition based , verify |
+| Ages served | **Ages 6–67** | Primarily school-age children , verify | Primarily school students , verify | Primarily school-age children , verify |
+| Free trial | **Yes, free trial class** | Typically offers a trial , verify | Typically offers a trial , verify | Typically offers a trial , verify |
+| Recordings for revision | **Yes, recordings for revision** | Varies , verify | Varies , verify | Varies , verify |
 
 **Comparison last reviewed June 2026.** Competitor offerings change frequently, please verify current details on their official sites. Cells marked “verify” describe general, publicly stated positioning rather than fixed claims, and we deliberately omit competitor prices and exact batch sizes because we cannot confirm them for you.
 

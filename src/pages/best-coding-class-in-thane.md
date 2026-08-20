@@ -36,7 +36,7 @@ Ages 8–12
 
 ## Coding for kids in Thane
 
-Most popular![Kids coding with Scratch, best coding class for kids in Thane](/images/kids-coding.webp)
+Most popular![Kids coding with Scratch: best coding class for kids in Thane](/images/kids-coding.webp)
 
 ### Kids Coding with Scratch
 
@@ -58,7 +58,7 @@ Children craft their first proper website with HTML & CSS, then send the live li
 - Fun, real web projects
 - A personal portfolio page
 
-[View course](/courses/kids-ai-web-development-course)Next step![Python for kids, programming course in Thane](/images/python-kids.webp)
+[View course](/courses/kids-ai-web-development-course)Next step![Python for kids: programming course in Thane](/images/python-kids.webp)
 
 ### Python for Young Coders
 
@@ -73,7 +73,7 @@ The step into real, typed code, in the planet's most popular language. Kids use 
 
 ## Coding for teens in Thane
 
-In demand![Python programming for teens, best coding institute in Thane](/images/python-teens.webp)
+In demand![Python programming for teens: best coding institute in Thane](/images/python-teens.webp)
 
 ### Python Programming
 
@@ -84,7 +84,7 @@ The most sought-after language anywhere, and across the Mumbai region's tech off
 - Automation & scripting
 - Real-world projects
 
-[View course](/courses/python-complete-masterclass-teens)Career![Java programming for teens, best coding class in Thane](/images/java-teens.webp)
+[View course](/courses/python-complete-masterclass-teens)Career![Java programming for teens: best coding class in Thane](/images/java-teens.webp)
 
 ### Java Programming
 
@@ -95,7 +95,7 @@ Java underpins ICSE/ISC Computer Applications and the enterprise stacks at the I
 - Intro to Android app building
 - Board-aligned practice
 
-[View course](/courses/java-programming-masterclass-for-teens)Build![Web development for teens, programming classes in Thane](/images/web-dev-teens.webp)
+[View course](/courses/java-programming-masterclass-for-teens)Build![Web development for teens: programming classes in Thane](/images/web-dev-teens.webp)
 
 ### Full-Stack Web Development
 
@@ -106,7 +106,7 @@ Build and deploy complete websites from scratch with HTML, CSS, JavaScript and R
 - Backend with Node.js
 - Live portfolio projects
 
-[View course](/courses/web-development-masterclass-teens)Future![AI and machine learning for teens, coding course in Thane](/images/ai-ml-teens.webp)
+[View course](/courses/web-development-masterclass-teens)Future![AI and machine learning for teens: coding course in Thane](/images/ai-ml-teens.webp)
 
 ### AI & Machine Learning
 
@@ -158,19 +158,19 @@ Hands-on Python, machine learning and working with real datasets, aimed at the d
 
 ## Mathematics classes in Thane
 
-![Elementary mathematics, maths classes in Thane](/images/elementary-maths.webp)
+![Elementary mathematics: maths classes in Thane](/images/elementary-maths.webp)
 
 ### Elementary Mathematics
 
 Dependable foundations in numbers, operations, fractions, geometry and word problems for grades 1–5, aligned to the SSC, CBSE & ICSE schools across Thane.
 
-[View course](/courses/elementary-mathematics-complete-masterclass)![High school mathematics, maths tuition in Thane](/images/high-school-maths.webp)
+[View course](/courses/elementary-mathematics-complete-masterclass)![High school mathematics: maths tuition in Thane](/images/high-school-maths.webp)
 
 ### High School Mathematics
 
 Algebra, geometry, trigonometry, pre-calculus and calculus for grades 9–12, board-aligned and built to give Thane's MHT-CET and JEE aspirants a genuine head start.
 
-[View course](/courses/complete-high-school-mathematics-mastery)Olympiad![Olympiad mathematics, competition prep in Thane](/images/olympiad-competition-maths.webp)
+[View course](/courses/complete-high-school-mathematics-mastery)Olympiad![Olympiad mathematics: competition prep in Thane](/images/olympiad-competition-maths.webp)
 
 ### Olympiad & Competition Math
 
@@ -250,7 +250,7 @@ International families pay flat USD rates, the prices above update automatically
 
 Not screenshots of a syllabus, real, live projects from Modern Age Coders learners and labs. Click through and use them.
 
-[![GuardianX, AI Bodyguard for the Internet](/images/projects/guardianx.webp) AI & MLGuardianX, AI Bodyguard for the InternetPaste any suspicious link or message and GuardianX returns an instant AI verdict before you become a victim, plus a link scanner, safety score, breach check and live scam alerts built for India. Vibe-coded from idea to working product through prompts, then refined until it genuinely understands how phishing and scams work. Built by Vivaan · Vibe Coding, AIOpen the live project ↗](https://guardianx-cybersaver.lovable.app)[![Misti, AI Chatbot for Maths & Coding](/images/projects/misti.webp) AI & MLMisti, AI Chatbot for Maths & CodingAn intelligent AI-powered chatbot that helps students solve maths and coding questions with deep, step-by-step explanations using advanced Python AI frameworks and LLM APIs. Built by Harshit · Python, AI/MLOpen the live project ↗](https://misti.modernagecoders.com)[![LumenFX, AR/VR Photo Effects Studio](/images/projects/lumenfx.webp) Web AppLumenFX, AR/VR Photo Effects StudioUpload a photo and transform it with cinematic filters, AR face effects and the wildest trending edits, the same looks blowing up on TikTok, Reels and Snap, with 240+ one-tap presets. Raayan vibe-coded the whole studio from an idea: prompted the concept, then built the effects engine and gallery UI by hand. Built by Raayan · Vibe Coding, AR / VROpen the live project ↗](https://arvrbadestweb.lovable.app)[See more student projects →](/student-labs)
+[![GuardianX: AI Bodyguard for the Internet](/images/projects/guardianx.webp) AI & MLGuardianX: AI Bodyguard for the InternetPaste any suspicious link or message and GuardianX returns an instant AI verdict before you become a victim, plus a link scanner, safety score, breach check and live scam alerts built for India. Vibe-coded from idea to working product through prompts, then refined until it genuinely understands how phishing and scams work. Built by Vivaan · Vibe Coding, AIOpen the live project ↗](https://guardianx-cybersaver.lovable.app)[![Misti: AI Chatbot for Maths & Coding](/images/projects/misti.webp) AI & MLMisti: AI Chatbot for Maths & CodingAn intelligent AI-powered chatbot that helps students solve maths and coding questions with deep, step-by-step explanations using advanced Python AI frameworks and LLM APIs. Built by Harshit · Python, AI/MLOpen the live project ↗](https://misti.modernagecoders.com)[![LumenFX: AR/VR Photo Effects Studio](/images/projects/lumenfx.webp) Web AppLumenFX: AR/VR Photo Effects StudioUpload a photo and transform it with cinematic filters, AR face effects and the wildest trending edits, the same looks blowing up on TikTok, Reels and Snap, with 240+ one-tap presets. Raayan vibe-coded the whole studio from an idea: prompted the concept, then built the effects engine and gallery UI by hand. Built by Raayan · Vibe Coding, AR / VROpen the live project ↗](https://arvrbadestweb.lovable.app)[See more student projects →](/student-labs)
 
 ## What families say
 

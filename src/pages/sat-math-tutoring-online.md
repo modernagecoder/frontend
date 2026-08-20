@@ -179,15 +179,13 @@ An honest comparison
 
 ## How we differ from the alternatives.
 
- $1$150 (1:1) / $100 (group)$2
-
 | What matters | Modern Age Coders | Free practice apps | Big prep course |
 | --- | --- | --- | --- |
 | Diagnoses why you miss points | Yes, every question | Score only | Rarely 1:1 |
 | Fixes the math underneath | Yes | No | Group-paced |
 | Same mentor tracks you | Yes | N/A | Usually not |
 | Trains pacing & Desmos | Yes | Limited | Sometimes |
-| Monthly price | Free | $700–2,500+ |
+| Monthly price | $150 (1:1) / $100 (group) | Free | $700–2,500+ |
 
 Free apps are great for drilling once you know your gaps. We provide the live diagnosis and the math fix that turn drilling into a higher score.
 

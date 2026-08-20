@@ -179,7 +179,7 @@ You build and train real models, a neural network classifier, a CNN for image re
 
 Do you teach TensorFlow or PyTorch?+
 
-Both. We teach the concepts framework-agnostically and use TensorFlow/Keras for fast, readable model building plus PyTorch for flexibility and research-style code, see our [TensorFlow & PyTorch track](/deep-learning-with-tensorflow-and-pytorch), so you're comfortable with the two most-used deep-learning frameworks.
+Both. We teach the concepts framework-agnostically and use TensorFlow/Keras for fast, readable model building plus PyTorch for flexibility and research-style code. See our [TensorFlow & PyTorch track](/deep-learning-with-tensorflow-and-pytorch), so you're comfortable with the two most-used deep-learning frameworks.
 
 How much does the deep learning course cost?+
 

@@ -131,7 +131,7 @@ Module 1 · Weeks 1-2
 
 ### Java Foundations & Environment
 
-- Java architecture, JDK, JVM, JRE explained
+- Java architecture: JDK, JVM, JRE explained
 - Data types, operators, casting & expressions
 - Control flow, if/else if, switch, ternary
 - Loops, for, while, do-while, enhanced for
@@ -213,7 +213,7 @@ Real Projects Built
 
 By the end of the course, every student has a real Java portfolio. These are actual programs that run, not screenshots of code.
 
-Kids, Module 2
+Kids: Module 2
 
 ### Number Guessing Game
 
@@ -231,7 +231,7 @@ MethodsArraysScannerif-elseKids: Module 6
 
 A story-driven game where the player makes choices that change the outcome, a choose-your-own-adventure built entirely in Java. Students design the story themselves.
 
-OOPMethodsStringswitchTeens, Module 3
+OOPMethodsStringswitchTeens: Module 3
 
 ### Library Management System
 
@@ -255,7 +255,7 @@ CollectionsHashMapGenericsFile I/OTeens: Module 6
 
 A program that reads CSV files, processes the data using Java Streams and Lambdas, and generates formatted summary reports, real data engineering in Java.
 
-StreamsLambdaFile I/OCollectionsTeens, Capstone
+StreamsLambdaFile I/OCollectionsTeens: Capstone
 
 ### Personal Java Capstone
 
@@ -325,7 +325,7 @@ The moment everything clicks. Classes, objects, inheritance, encapsulation and p
 
 Weeks 10-15 · 12 live classes · Projects 3-45
 
-#### Advanced Java: Collections, DSA & Files
+#### Advanced Java, Collections, DSA & Files
 
 HashMap, LinkedList, Streams, Lambdas. Data Structures, stacks, queues, recursion, sorting. File I/O. Deploy a report generator and a mini search engine.
 
@@ -450,7 +450,7 @@ per month · personalised schedule
 - Fully personalised pace & curriculum
 - Flexible time slots, any day
 - Faster progress & deeper coverage
-- Priority WhatsApp, 2 hr replies
+- Priority WhatsApp: 2 hr replies
 - Exam-focused revision sessions
 - Monthly parent-mentor sync call
 - All group track benefits included
@@ -465,7 +465,7 @@ Common Questions
 
 Honest and complete answers. We don't hide anything.
 
-What age is this Java course for?+We have two dedicated tracks. The Kids Java Track accepts students aged 6-12, teaching through games, stories and visual exercises. The Teens Java Track covers ages 13-18 with a professional curriculum including OOP, data structures and real project deployment. Students are never mixed across age groups, each class is designed specifically for one track. Students as young as 7 with strong logical ability have joined the Kids track successfully.Does my child need to know coding before joining Java?+No. Both tracks start from absolute zero. We assess each student briefly during the free demo class and recommend the right starting point. Students with prior Python or Scratch experience can fast-track through Module 1. For teens who already know Python, we can start directly from Java OOP in Module 3 and work backwards if needed. We adapt to each student, not the other way around.Is this course aligned with CBSE and ICSE Java syllabus?+Yes, completely. The Teens Java Track covers everything in CBSE Class 11-12 Computer Science (Java) and ICSE Class 9-10 Computer Applications. This includes: basic Java syntax, methods and arrays, OOP (classes, objects, inheritance, polymorphism), exception handling, Java I/O, and data structures. Students who complete our course typically score 90%+ in Java-related questions in board exams. We also provide specific exam revision sessions upon request.How is this different from YouTube Java tutorials?+YouTube tutorials teach at one. Your child watches. They don't write. In our classes, students write code every session, get their code reviewed line by line, ask questions mid-class and get immediate answers. Instructors catch and explain misconceptions in real time, something no recorded video can do. Additionally, YouTube doesn't give projects, deadlines, portfolio documentation, or follow-up doubt support. We do all of this.What if my child has missed some classes?+Every class is recorded and uploaded to the student portal within 2 hours of the session ending. Students watch the recording and catch up before the next class. Instructors also offer free makeup sessions for genuinely unavoidable absences. No student ever "falls behind permanently" in our classes. We check in specifically with students who miss sessions.Can kids and teens outside India join?+Yes, we have students from UAE (Dubai, Abu Dhabi), UK, USA, Canada, Singapore and Australia. Classes run on Google Meet and are scheduled around the student's timezone. International pricing is still in INR, making our courses extremely affordable for international families. Payments can be made via international credit/debit cards, PayPal or wire transfer. Time zone scheduling is handled individually for each international student.Why should my child learn Java instead of Python?+Both are valuable, but Java has specific advantages for school students: (1) Java is directly in CMSEdge Class 11-12 and ICSE board exams, knowing it improves marks. (2) Java teaches Object-Oriented Programming more rigorously than Python, giving a deeper programming foundation. (3) Java leads to Android app development. (4) Java is heavily used in enterprise companies including many Indian IT firms. (5) Once you know Java, learning Python takes days, the reverse journey is harder. We also offer a Python + AI course if that's the priority.
+What age is this Java course for?+We have two dedicated tracks. The Kids Java Track accepts students aged 6-12, teaching through games, stories and visual exercises. The Teens Java Track covers ages 13-18 with a professional curriculum including OOP, data structures and real project deployment. Students are never mixed across age groups, each class is designed specifically for one track. Students as young as 7 with strong logical ability have joined the Kids track successfully.Does my child need to know coding before joining Java?+No. Both tracks start from absolute zero. We assess each student briefly during the free demo class and recommend the right starting point. Students with prior Python or Scratch experience can fast-track through Module 1. For teens who already know Python, we can start directly from Java OOP in Module 3 and work backwards if needed. We adapt to each student, not the other way around.Is this course aligned with CBSE and ICSE Java syllabus?+Yes, completely. The Teens Java Track covers everything in CBSE Class 11-12 Computer Science (Java) and ICSE Class 9-10 Computer Applications. This includes: basic Java syntax, methods and arrays, OOP (classes, objects, inheritance, polymorphism), exception handling, Java I/O, and data structures. Students who complete our course typically score 90%+ in Java-related questions in board exams. We also provide specific exam revision sessions upon request.How is this different from YouTube Java tutorials?+YouTube tutorials teach at one. Your child watches. They don't write. In our classes, students write code every session, get their code reviewed line by line, ask questions mid-class and get immediate answers. Instructors catch and explain misconceptions in real time, something no recorded video can do. Additionally, YouTube doesn't give projects, deadlines, portfolio documentation, or follow-up doubt support. We do all of this.What if my child has missed some classes?+Every class is recorded and uploaded to the student portal within 2 hours of the session ending. Students watch the recording and catch up before the next class. Instructors also offer free makeup sessions for genuinely unavoidable absences. No student ever "falls behind permanently" in our classes. We check in specifically with students who miss sessions.Can kids and teens outside India join?+Yes. We have students from UAE (Dubai, Abu Dhabi), UK, USA, Canada, Singapore and Australia. Classes run on Google Meet and are scheduled around the student's timezone. International pricing is still in INR, making our courses extremely affordable for international families. Payments can be made via international credit/debit cards, PayPal or wire transfer. Time zone scheduling is handled individually for each international student.Why should my child learn Java instead of Python?+Both are valuable, but Java has specific advantages for school students: (1) Java is directly in CMSEdge Class 11-12 and ICSE board exams, knowing it improves marks. (2) Java teaches Object-Oriented Programming more rigorously than Python, giving a deeper programming foundation. (3) Java leads to Android app development. (4) Java is heavily used in enterprise companies including many Indian IT firms. (5) Once you know Java, learning Python takes days, the reverse journey is harder. We also offer a Python + AI course if that's the priority.
 
 Book Your Free Demo
 

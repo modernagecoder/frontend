@@ -363,7 +363,7 @@ Data and forecasting
 
 Pulls live weather feeds and forecasts from them, the nearest sibling to the electricity work above.
 
-by Krish · [Open the live project](https://krish-shroff.github.io/AuraWeatherTech/)
+by Krish
 
 Fees
 
@@ -507,6 +507,8 @@ Start here
 Give us a number and a mentor calls back on Irish hours. The first lesson is taught rather than sold: a teacher takes it, it is a real hour of the course, and it tells us where to place the learner so week two lands at the right level.
 
 Rather read first? There is [how we teach](/how-we-teach), the [full course catalogue](/courses), and the student work in [Student Labs](/student-labs).
+
+[Chat with us](https://wa.me/919123366161?text=Hi%2C%20I'm%20interested%20in%20learning%20more%20about%20your%20courses!)
 
 ---
 

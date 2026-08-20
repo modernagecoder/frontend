@@ -179,15 +179,13 @@ An honest comparison
 
 ## How we differ from the alternatives.
 
- $1$150 (1:1) / $100 (group)$2
-
 | What matters | Modern Age Coders | Free practice apps | Big prep course |
 | --- | --- | --- | --- |
 | Trains pacing specifically | Yes, from day one | Rarely | Group-paced |
 | Fixes content gaps 1:1 | Yes | No | Limited |
 | Same mentor tracks you | Yes | N/A | Usually not |
 | Drills must-know formulas | Yes | Sometimes | Sometimes |
-| Monthly price | Free | $700–2,500+ |
+| Monthly price | $150 (1:1) / $100 (group) | Free | $700–2,500+ |
 
 Apps are useful for untimed drilling. We add the live diagnosis, the content fix and the pacing coaching that move an actual ACT score.
 
@@ -205,7 +203,7 @@ All six reporting areas: pre-algebra, elementary algebra, intermediate algebra, 
 
 I run out of time on the ACT. Can you fix that?
 
-Yes, it's the most common ACT math problem and it's trainable. We teach what to do fast, what to flag, and how to spot the quick path, then drill under real time pressure.
+Yes. It's the most common ACT math problem and it's trainable. We teach what to do fast, what to flag, and how to spot the quick path, then drill under real time pressure.
 
 How much can you raise my ACT math score?
 

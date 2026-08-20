@@ -146,13 +146,13 @@ WEEKLY SCHEDULE
 
 | Slot | Time | Best for | Days |
 | --- | --- | --- | --- |
-| Early Morning | 6:30, 8:00 AM | School-goers before the first bell | Mon/Wed/Fri |
-| After-School | 4:00, 6:00 PM | Kids and primary-class learners | Tue/Thu/Sat |
-| Evening Prime | 6:30, 8:30 PM | Teens, ICSE/CBSE board students | Mon–Fri (flexible) |
-| Late Evening | 8:30, 10:00 PM | College students & working professionals | Sat/Sun |
-| Weekend Intensive | 10:00 AM, 1:00 PM | Camps, project work, exam crunch | Sat/Sun |
+| Early Morning | 6:30 – 8:00 AM | School-goers before the first bell | Mon/Wed/Fri |
+| After-School | 4:00 – 6:00 PM | Kids and primary-class learners | Tue/Thu/Sat |
+| Evening Prime | 6:30 – 8:30 PM | Teens, ICSE/CBSE board students | Mon–Fri (flexible) |
+| Late Evening | 8:30 – 10:00 PM | College students & working professionals | Sat/Sun |
+| Weekend Intensive | 10:00 AM – 1:00 PM | Camps, project work, exam crunch | Sat/Sun |
 
-Slots are flexible, we fix your child's timetable around school, tuition and the board calendar at the demo.
+Slots are flexible. We fix your child's timetable around school, tuition and the board calendar at the demo.
 
 HONEST COMPARISON
 
@@ -257,7 +257,7 @@ REAL STUDENT PROJECTS
 
 ## What our students actually build
 
-[![MyDay, Social Productivity Organizer](/images/projects/myday.webp)Web AppMyDay, Social Productivity OrganizerA beautifully designed productivity platform to organise daily tasks, set goals and stay consistent, with a community feed of others' plans for inspiration.by VedantOpen the live project ↗](https://myday.modernagecoders.com)[![FreshTrack, Food Expiry Tracker](/images/projects/fresh.webp)Web AppFreshTrack, Food Expiry TrackerA smart food-management system to track expiry dates, add, update and delete items while the app checks expiry automatically, online and offline.by TanishOpen the live project ↗](https://freshtrackpro.netlify.app/)[![Pracy, Coding Practice & Quiz Platform](/images/projects/pracy.webp)Web AppPracy, Coding Practice & Quiz PlatformAn all-in-one coding-practice site with interactive challenges, quizzes and score tracking across multiple languages to strengthen logic and problem-solving.by RohanOpen the live project ↗](https://astounding-flan-f18e08.netlify.app/)
+[![MyDay: Social Productivity Organizer](/images/projects/myday.webp)Web AppMyDay: Social Productivity OrganizerA beautifully designed productivity platform to organise daily tasks, set goals and stay consistent, with a community feed of others' plans for inspiration.by VedantOpen the live project ↗](https://myday.modernagecoders.com)[![FreshTrack: Food Expiry Tracker](/images/projects/fresh.webp)Web AppFreshTrack: Food Expiry TrackerA smart food-management system to track expiry dates, add, update and delete items while the app checks expiry automatically, online and offline.by TanishOpen the live project ↗](https://freshtrackpro.netlify.app/)[![Pracy: Coding Practice & Quiz Platform](/images/projects/pracy.webp)Web AppPracy: Coding Practice & Quiz PlatformAn all-in-one coding-practice site with interactive challenges, quizzes and score tracking across multiple languages to strengthen logic and problem-solving.by RohanOpen the live project ↗](https://astounding-flan-f18e08.netlify.app/)
 
 Every one is a real, live project by a student. See more in [Student Labs](/student-labs).
 

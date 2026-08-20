@@ -76,7 +76,7 @@ YEAR 13 · UE / L3
 
 Every course runs as live 1:1 with a mentor matched to your child's exact year. Two 45-minute sessions per week. USD 150 per month for 1:1, or USD 100 for small-group cohort.
 
-[Year 1, 4 · Primary Little Coders, Block to Python Scratch & ScratchJr, then we bridge to real Python by month four. Play and animation-led. Strengthens primary-school mathematical thinking quietly. USD 150 / month · 1:1 · 8 sessions](/courses/coding/kids)[Year 5: 8 · Primary / Intermediate Python Foundations + Micro:bit Real Python, real keyboard typing, real GitHub. Optional BBC micro:bit add-on for physical-computing projects. USD 150 / month · 1:1 · 8 sessions](/courses/coding/kids)[Year 9, 10 · Junior Secondary Web Builders + AI Foundations HTML, CSS, JavaScript, React basics, they ship a real website by month two. AI module covers safe prompting and a first agent-style project. Sets up NCEA L1 well. USD 150 / month · 1:1 · 8 sessions](/courses/coding/teens)[Year 11 · NCEA Level 1 NCEA L1 Digital Technologies Direct alignment with the NCEA L1 DT Achievement Standards (AS 91070, 91071, 91074, 91075, 91879, 91880 and the rest). Internal assessment portfolios + external standards. USD 150 / month · 1:1 · 8 sessions](/courses/coding/teens)[Year 12 · NCEA Level 2 NCEA L2 Digital Technologies L2 Achievement Standards including AS 91893 (Programming), 91894 (Database), 91897 (Outcomes for an Identified Need). Aiming for Merit / Excellence credit blocks. USD 150 / month · 1:1 · 8 sessions](/courses/coding/teens)[Year 13 · NCEA L3 + UE NCEA L3 Digital Technologies + UE L3 Achievement Standards including AS 91906 (Programming), 91907 (Database), 91908 (Develop Outcomes), 91911 (Apply Software). UE-credit Excellence is the bar. USD 150 / month · 1:1 · 8 sessions](/courses/coding/teens)[Y11: Y13 · CIE / IB CIE Cambridge A-Level / IB DP CS For NZ students taking Cambridge International AS & A Level (typically Auckland International College, Pinehurst, Saint Kentigern) or IB DP (typically ACG, AIC). Full coverage. USD 150 / month · 1:1 · 8 sessions](/courses/coding/teens)[University / Adult Agentic AI for Working Pros Python · SQL · LangChain · LangGraph · CrewAI · evaluations · production deployment. The stack Xero, Rocket Lab, Datacom and Pushpay recruit for. USD 150 / month · 1:1 · 8 sessions](/courses/coding/college)
+[Year 1: 4 · Primary Little Coders: Block to Python Scratch & ScratchJr, then we bridge to real Python by month four. Play and animation-led. Strengthens primary-school mathematical thinking quietly. USD 150 / month · 1:1 · 8 sessions](/courses/coding/kids)[Year 5: 8 · Primary / Intermediate Python Foundations + Micro:bit Real Python, real keyboard typing, real GitHub. Optional BBC micro:bit add-on for physical-computing projects. USD 150 / month · 1:1 · 8 sessions](/courses/coding/kids)[Year 9: 10 · Junior Secondary Web Builders + AI Foundations HTML, CSS, JavaScript, React basics. They ship a real website by month two. AI module covers safe prompting and a first agent-style project. Sets up NCEA L1 well. USD 150 / month · 1:1 · 8 sessions](/courses/coding/teens)[Year 11 · NCEA Level 1 NCEA L1 Digital Technologies Direct alignment with the NCEA L1 DT Achievement Standards (AS 91070, 91071, 91074, 91075, 91879, 91880 and the rest). Internal assessment portfolios + external standards. USD 150 / month · 1:1 · 8 sessions](/courses/coding/teens)[Year 12 · NCEA Level 2 NCEA L2 Digital Technologies L2 Achievement Standards including AS 91893 (Programming), 91894 (Database), 91897 (Outcomes for an Identified Need). Aiming for Merit / Excellence credit blocks. USD 150 / month · 1:1 · 8 sessions](/courses/coding/teens)[Year 13 · NCEA L3 + UE NCEA L3 Digital Technologies + UE L3 Achievement Standards including AS 91906 (Programming), 91907 (Database), 91908 (Develop Outcomes), 91911 (Apply Software). UE-credit Excellence is the bar. USD 150 / month · 1:1 · 8 sessions](/courses/coding/teens)[Y11: Y13 · CIE / IB CIE Cambridge A-Level / IB DP CS For NZ students taking Cambridge International AS & A Level (typically Auckland International College, Pinehurst, Saint Kentigern) or IB DP (typically ACG, AIC). Full coverage. USD 150 / month · 1:1 · 8 sessions](/courses/coding/teens)[University / Adult Agentic AI for Working Pros Python · SQL · LangChain · LangGraph · CrewAI · evaluations · production deployment. The stack Xero, Rocket Lab, Datacom and Pushpay recruit for. USD 150 / month · 1:1 · 8 sessions](/courses/coding/college)
 
 International schools in New Zealand run Cambridge (IGCSE and A-Level), IB and American (AP) curricula. These live courses prepare those exams directly.
 
@@ -359,7 +359,7 @@ Week 1
 
 Mentor sets up the dev environment on your child's home laptop (VS Code, Python, GitHub account). First "real" project shipped end of week 1, usually a small Python game or a working Flask webpage. We send you the GitHub link.
 
-Week 2, 3
+Week 2: 3
 
 ### Curriculum lock-in
 
@@ -435,7 +435,7 @@ Minute 0: 3
 
 Mentor and student greet on Zoom. 2-minute recap: "What do you remember? What got stuck?", no homework-style grilling.
 
-Minute 3, 10
+Minute 3: 10
 
 ### Concept moment
 
@@ -529,7 +529,7 @@ Each NCEA standard is graded Excellence / Merit / Achieved / Not Achieved. Excel
 
 Can mentors help with the NCEA L3 internal-assessment portfolio?
 
-Yes, this is one of our strongest areas. We have mentors who personally taught NCEA L2/L3 DT at Auckland Grammar, St Andrew's College Christchurch, Wellington College and Macleans. They know what NZQA moderators reward.
+Yes. This is one of our strongest areas. We have mentors who personally taught NCEA L2/L3 DT at Auckland Grammar, St Andrew's College Christchurch, Wellington College and Macleans. They know what NZQA moderators reward.
 
 What about CIE Cambridge International AS / A-Level Computer Science?
 
@@ -541,7 +541,7 @@ Yes. IB Computer Science HL & SL with ex-IB-examiner support. Internal Assessmen
 
 Do you coach the NZ Olympiad in Informatics (NZOI)?
 
-Yes, algorithms, data structures, dynamic programming, competitive programming. We've coached students through NZOI selection rounds. Most NZOI-bound students come to us in Year 10 or 11 and work intensively for 8, 18 months.
+Yes, algorithms, data structures, dynamic programming, competitive programming. We've coached students through NZOI selection rounds. Most NZOI-bound students come to us in Year 10 or 11 and work intensively for 8: 18 months.
 
 What about the New Zealand Programming Contest (NZPC)?
 
@@ -601,9 +601,9 @@ The mentor stays. Only the time zone changes. Many Kiwi families have relocated 
 
 Do you offer scholarships for Kiwi students?
 
-Yes, a small annual scholarship pool for high-potential students whose families can't comfortably afford USD 150 / month. Email a short note from the parent + a piece of work from the child. We award 8, 12 NZ scholarships per academic year.
+Yes, a small annual scholarship pool for high-potential students whose families can't comfortably afford USD 150 / month. Email a short note from the parent + a piece of work from the child. We award 8: 12 NZ scholarships per academic year.
 
-What happens during the summer holidays (Dec, Feb)?
+What happens during the summer holidays (Dec: Feb)?
 
 Sessions pause automatically during the official NZ school summer break unless the family specifically wants summer-intensive blocks (which many do). No need to email us.
 
@@ -695,13 +695,13 @@ Built by Aarush · Game
 
 Open your palms to the webcam and computer vision turns your gestures into real magic, the left palm throws a fireball, the right crackles with lightning.
 
-Vibe CodingComputer VisionJavaScriptCanvas[Open the live project ↗](https://superpawer.netlify.app)Built by Krish · Web App
+Vibe CodingComputer VisionJavaScriptCanvas[Open the live project ↗](https://superpawer.netlify.app)Built by Manay · Tool
 
-### SkyCast: Weather Forecast App
+### Life Span Tracker
 
-An interactive weather forecasting site with real-time updates for any location, temperature, humidity, wind speed and conditions in a clean, responsive interface.
+An interactive web tool that calculates expected lifespan, shows days, months and years lived, and visualises remaining time to motivate better habits.
 
-JavaScriptAPIHTML/CSS[Open the live project ↗](https://krish-shroff.github.io/AuraWeatherTech/)Built by Raayan · Web App
+JavaScriptAPIsDate Calc[Open the live project ↗](https://lifespantracker.netlify.app/)Built by Raayan · Web App
 
 ### LumenFX: AR/VR Photo Effects Studio
 
@@ -814,7 +814,7 @@ Most NZ secondary students return home between 3 pm and 4 pm. Many have rugby / 
 - **Saturday morning blocks**, 10 am, 1 pm NZST, popular with NCEA L2/L3 families.
 - **December, January summer**, intensive blocks available for students who want to accelerate.
 - **NCEA externals (Nov)**, automatic intensity reduction. No bill changes.
-- **School terms 1–4**, we follow the NZ school term structure; pauses align with school holidays unless family wants intensives.
+- **School terms 1–4**. We follow the NZ school term structure; pauses align with school holidays unless family wants intensives.
 
 Worth saying out loud
 

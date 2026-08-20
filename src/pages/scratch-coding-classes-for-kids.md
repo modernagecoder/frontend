@@ -249,11 +249,9 @@ An honest comparison
 
 ## Your real options for a young coder.
 
- $1$100–$150 / month$2
-
 | Option | Typical cost | What it really is | Best for |
 | --- | --- | --- | --- |
-| Modern Age Coders | Live one-hour classes with a dedicated mentor, ideas-first, projects the child owns | Building a real maker, with the Python road open |
+| Modern Age Coders | $100–$150 / month | Live one-hour classes with a dedicated mentor, ideas-first, projects the child owns | Building a real maker, with the Python road open |
 | Premium 1:1 platforms (Juni-style) | $200-$300 / month | Live 1-on-1, often 2-4 sessions monthly at 30-50 minutes, rotating instructors common | Families who want brand-name polish and can absorb the price |
 | Marketplace classes (Outschool-style) | $15-$25 / class | One-off or short-series group classes of varying quality; no continuity of mentor or curriculum | Sampling topics cheaply before committing anywhere |
 | Coding centers (Code Ninjas-style) | $175-$350 / month | Drop-in dojo floors with game-based curriculum and rotating guides, plus the drive | Children who focus better out of the house |

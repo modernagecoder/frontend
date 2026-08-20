@@ -312,7 +312,7 @@ Web app
 
 A weather forecasting site with live conditions for any location.
 
-by Krish · [Open it](https://krish-shroff.github.io/AuraWeatherTech/)
+by Krish
 
 Fees
 
@@ -454,6 +454,8 @@ Start here
 Leave a number and a mentor calls you back at an hour that works in the Netherlands. The first class is taught by a real teacher on real material, and it also settles which band your child starts in, so nobody spends a term at the wrong level.
 
 Rather read first? See [how we teach](/how-we-teach), the [full catalogue](/courses), or the thesis behind this page at [Learn to Build AI](/learn-to-build-ai).
+
+[Chat with us](https://wa.me/919123366161?text=Hi%2C%20I'm%20interested%20in%20learning%20more%20about%20your%20courses!)
 
 ---
 

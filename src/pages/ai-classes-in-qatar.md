@@ -161,7 +161,7 @@ Every AI course on this page bills the same two ways, monthly and in dollars, wi
 
 Group classes
 
- $1$100$2
+$100 per month
 
 - Batches of five to eight students
 - Fixed weekly hour, AST evenings
@@ -172,7 +172,7 @@ Book a Free Demo
 
 One-on-one classes
 
- $1$150$2
+$150 per month
 
 - Undivided teacher, every session
 - Hours arranged around your diary
@@ -205,7 +205,7 @@ Real student projects
 
 Every one is a real, live project shipped by a Modern Age Coders student. Explore more in [Student Labs](/student-labs).
 
-[![Palm Arcana, Summon the Elements](/images/projects/superpawer.webp)GamePalm Arcana, Summon the ElementsOpen your palms to the webcam and computer vision turns your gestures into real magic, the left palm throws a fireball, the right crackles with lightning. A wild blend of hand-tracking AI, creative coding and pure imagination, vibe-coded into a playable browser experience.by AarushOpen the live project ↗](https://superpawer.netlify.app)[![LumenFX, AR/VR Photo Effects Studio](/images/projects/lumenfx.webp)Web AppLumenFX, AR/VR Photo Effects StudioUpload a photo and transform it with cinematic filters, AR face effects and the wildest trending edits, the same looks blowing up on TikTok, Reels and Snap, with 240+ one-tap presets. Raayan vibe-coded the whole studio from an idea: prompted the concept, then built the effects engine and gallery UI by hand.by RaayanOpen the live project ↗](https://arvrbadestweb.lovable.app)[![Doodle Dash, 30-Second Drawing Challenge](/images/projects/doodledash.webp)GameDoodle Dash, 30-Second Drawing ChallengePick a difficulty, get a prompt, and you have exactly 30 seconds to draw it, then an AI judge scores how close you got. Three modes from easy objects to chaotic scenes. Shubh vibe-coded it idea-first, wiring real AI image grading into a fast, addictive drawing game.by ShubhOpen the live project ↗](https://doodledashmaster.lovable.app)
+[![Palm Arcana: Summon the Elements](/images/projects/superpawer.webp)GamePalm Arcana: Summon the ElementsOpen your palms to the webcam and computer vision turns your gestures into real magic, the left palm throws a fireball, the right crackles with lightning. A wild blend of hand-tracking AI, creative coding and pure imagination, vibe-coded into a playable browser experience.by AarushOpen the live project ↗](https://superpawer.netlify.app)[![LumenFX: AR/VR Photo Effects Studio](/images/projects/lumenfx.webp)Web AppLumenFX: AR/VR Photo Effects StudioUpload a photo and transform it with cinematic filters, AR face effects and the wildest trending edits, the same looks blowing up on TikTok, Reels and Snap, with 240+ one-tap presets. Raayan vibe-coded the whole studio from an idea: prompted the concept, then built the effects engine and gallery UI by hand.by RaayanOpen the live project ↗](https://arvrbadestweb.lovable.app)[![Doodle Dash: 30-Second Drawing Challenge](/images/projects/doodledash.webp)GameDoodle Dash: 30-Second Drawing ChallengePick a difficulty, get a prompt, and you have exactly 30 seconds to draw it, then an AI judge scores how close you got. Three modes from easy objects to chaotic scenes. Shubh vibe-coded it idea-first, wiring real AI image grading into a fast, addictive drawing game.by ShubhOpen the live project ↗](https://doodledashmaster.lovable.app)[Chat with us](https://wa.me/919123366161?text=Hi%2C%20I'm%20interested%20in%20learning%20more%20about%20your%20courses!)
 
 ---
 

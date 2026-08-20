@@ -175,7 +175,7 @@ Student projects
 
 Every one of these is a real, live project shipped by a Modern Age Coders student, not a mockup. Explore more in our [Student Labs](/student-labs).
 
-![MyDay, Social Productivity Organizer](/images/projects/myday.webp)
+![MyDay: Social Productivity Organizer](/images/projects/myday.webp)
 
 Web App
 
@@ -221,7 +221,7 @@ Two plans. Charged monthly, quoted in US dollars, with riyal conversions that ar
 
 Group classes
 
- $1$100$2
+$100 per month
 
 - Weekly live lessons, groups hold 5 to 8 students
 - AST hours in the evening and at weekends
@@ -232,7 +232,7 @@ Book a Free Demo
 
 One-on-one classes
 
- $1$150$2
+$150 per month
 
 - Undivided teacher attention for the hour
 - Calendar fitted to the student's week
@@ -258,6 +258,8 @@ An hour of real teaching, observed by you, at no cost: that is the demo, and it 
 WhatsApp works too. [Drop us a line there](https://wa.me/919123366161?text=Hi,%20I%20want%20a%20free%20demo%20for%20coding%20classes%20in%20Dammam) and a mentor responds during Saudi working hours.
 
 4.9 rating across 547+ Google reviews
+
+[Chat with us](https://wa.me/919123366161?text=Hi%2C%20I'm%20interested%20in%20learning%20more%20about%20your%20courses!)
 
 ---
 

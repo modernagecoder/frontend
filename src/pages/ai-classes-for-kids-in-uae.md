@@ -170,7 +170,7 @@ Fees are billed monthly in US dollars, and the dirham's peg to the dollar keeps 
 
 Group classes
 
- $1$100$2
+$100 per month
 
 - Weekly live class, 5 to 8 children
 - After-school GST and weekend slots
@@ -181,7 +181,7 @@ Book a Free Demo
 
 One-on-one classes
 
- $1$150$2
+$150 per month
 
 - One child, one teacher, full hour
 - Slot arranged around your family
@@ -214,7 +214,7 @@ Real student projects
 
 Every one is a real, live project shipped by a Modern Age Coders student. Explore more in [Student Labs](/student-labs).
 
-[![NutriLife, AI Nutrition Coach](/images/projects/nutrilife.webp)AI & MLNutriLife, AI Nutrition CoachSnap a photo of any meal and NutriLife instantly names every food, then breaks down the calories, macros, vitamins and minerals, powered by AI. Bhavya vibe-coded it from a single idea: shaped the app in prompts, then wired up the AI food-recognition, daily tracking and smart coaching by hand.by BhavyaOpen the live project ↗](https://nutrilife-bhavya.lovable.app)[![GuardianX, AI Bodyguard for the Internet](/images/projects/guardianx.webp)AI & MLGuardianX, AI Bodyguard for the InternetPaste any suspicious link or message and GuardianX returns an instant AI verdict before you become a victim, plus a link scanner, safety score, breach check and live scam alerts built for India. Vibe-coded from idea to working product through prompts, then refined until it genuinely understands how phishing and scams work.by VivaanOpen the live project ↗](https://guardianx-cybersaver.lovable.app)[![Palm Arcana, Summon the Elements](/images/projects/superpawer.webp)GamePalm Arcana, Summon the ElementsOpen your palms to the webcam and computer vision turns your gestures into real magic, the left palm throws a fireball, the right crackles with lightning. A wild blend of hand-tracking AI, creative coding and pure imagination, vibe-coded into a playable browser experience.by AarushOpen the live project ↗](https://superpawer.netlify.app)
+[![NutriLife: AI Nutrition Coach](/images/projects/nutrilife.webp)AI & MLNutriLife: AI Nutrition CoachSnap a photo of any meal and NutriLife instantly names every food, then breaks down the calories, macros, vitamins and minerals, powered by AI. Bhavya vibe-coded it from a single idea: shaped the app in prompts, then wired up the AI food-recognition, daily tracking and smart coaching by hand.by BhavyaOpen the live project ↗](https://nutrilife-bhavya.lovable.app)[![GuardianX: AI Bodyguard for the Internet](/images/projects/guardianx.webp)AI & MLGuardianX: AI Bodyguard for the InternetPaste any suspicious link or message and GuardianX returns an instant AI verdict before you become a victim, plus a link scanner, safety score, breach check and live scam alerts built for India. Vibe-coded from idea to working product through prompts, then refined until it genuinely understands how phishing and scams work.by VivaanOpen the live project ↗](https://guardianx-cybersaver.lovable.app)[![Palm Arcana: Summon the Elements](/images/projects/superpawer.webp)GamePalm Arcana: Summon the ElementsOpen your palms to the webcam and computer vision turns your gestures into real magic, the left palm throws a fireball, the right crackles with lightning. A wild blend of hand-tracking AI, creative coding and pure imagination, vibe-coded into a playable browser experience.by AarushOpen the live project ↗](https://superpawer.netlify.app)[Chat with us](https://wa.me/919123366161?text=Hi%2C%20I'm%20interested%20in%20learning%20more%20about%20your%20courses!)
 
 ---
 

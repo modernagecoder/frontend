@@ -348,7 +348,7 @@ Data and forecasting
 
 A forecasting application built on live weather data, the closest sibling to the airport project above.
 
-by Krish · [Open the live project](https://krish-shroff.github.io/AuraWeatherTech/)
+by Krish
 
 Fees
 
@@ -492,6 +492,8 @@ Start here
 Leave a number and a mentor calls you back, usually within a few hours and at an hour that suits Bahrain rather than one that suits us. The first class is a real class with a real teacher, and it doubles as a placement check so your child starts at their own level rather than the average one.
 
 Prefer to look around first? Read [how we teach](/how-we-teach), browse the [full course catalogue](/courses), or see what students have built in [Student Labs](/student-labs).
+
+[Chat with us](https://wa.me/919123366161?text=Hi%2C%20I'm%20interested%20in%20learning%20more%20about%20your%20courses!)
 
 ---
 

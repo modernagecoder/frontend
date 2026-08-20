@@ -253,7 +253,7 @@ Before you decide, compare honestly. We think the numbers speak for themselves.
 | Feature | Modern Age Coders | YouTube / Udemy | Big Offline Centres |
 | --- | --- | --- | --- |
 | Live classes with real instructors | ✓ Always live | ✗ Pre-recorded | ✓ Live (30+ students) |
-| Batch size | Max 4-6 students |, | 20-40 students |
+| Batch size | Max 4-6 students | , | 20-40 students |
 | Recorded sessions to re-watch | ✓ Every class | ✓ Pre-made only | ✗ Usually not |
 | Real projects deployed live | ✓ Every student | ✗ No guidance | ✗ Rarely |
 | Learn from anywhere | ✓ Globally accessible | ✓ | ✗ Fixed location |

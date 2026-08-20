@@ -32,7 +32,7 @@ This is the part most classrooms haven't caught up to yet. **Vibe coding**, desc
 
 Click any card to open the course page, or hit "Book a free trial" and a mentor matches your student to the right track.
 
-[View all courses](/courses)[Most popular  Grades K: 5 Coding for Kids Scratch → real Python by month three. Build games, drawing apps, friendly AI projects. ScratchPythonGamesAI intro  USD100/ mo · 1:1 Enroll](/courses/coding/kids)[AP CS · USACO  Middle & High School Coding for Teens Python, JavaScript, web apps. Aligned with AP CSP, AP CSA & USACO Bronze: Platinum. PythonJSWebUSACOAP CS  USD100/ mo · 1:1 Enroll](/courses/coding/teens)[New · AI  Grades 6, 12 AI & Agentic-AI Build real LLM apps the way OpenAI, Anthropic and Nvidia engineers actually ship. PythonOpenAIClaudeAgentsRAG  USD100/ mo · 1:1 Enroll](/ai-ml-course-for-teens)[MIT · Stanford · CMU  College admissions prep Top-tier CS admissions Algorithms, system design, AI engineering. MIT EECS · Stanford CS · CMU SCS · Berkeley EECS prep. AlgorithmsUSACO Gold+System designPortfolio  USD100/ mo · 1:1 Enroll](/courses/coding/college)[Career switch  Adults · 22: 65 For Professionals Mid-career switch into software, data & AI roles at FAANG, OpenAI, Anthropic, Nvidia or local SWE shops. PythonTypeScriptCloudAI eng  USD100/ mo · 1:1 Enroll](/courses/coding/college)[Girls in tech  Ages 8: 22 Special For Girls Same curriculum, all-female mentor pairing, role models from FAANG and US AI labs. PythonWebAIMentorship  USD100/ mo · 1:1 Enroll](/courses/coding/girls)[Schools · companies  Cohorts & teams Customised & Schools For US schools, districts and companies. Cohorts of 6: 30, tailored curriculum, on your hours. CohortCurriculumReports  USD40/ seat · group Talk to us](/courses/coding/corporate)[Free · join  All ages Monthly Hackathons Free monthly coding & AI hackathons for American kids, teens and adults. Real prizes. Real shipped work. FreeLiveMonthlyPrizes  Free· no card Join next one](/courses)AP CS & USACO tracks
+[View all courses](/courses)[Most popular  Grades K: 5 Coding for Kids Scratch → real Python by month three. Build games, drawing apps, friendly AI projects. ScratchPythonGamesAI intro  USD100/ mo · 1:1 Enroll](/courses/coding/kids)[AP CS · USACO  Middle & High School Coding for Teens Python, JavaScript, web apps. Aligned with AP CSP, AP CSA & USACO Bronze: Platinum. PythonJSWebUSACOAP CS  USD100/ mo · 1:1 Enroll](/courses/coding/teens)[New · AI  Grades 6: 12 AI & Agentic-AI Build real LLM apps the way OpenAI, Anthropic and Nvidia engineers actually ship. PythonOpenAIClaudeAgentsRAG  USD100/ mo · 1:1 Enroll](/ai-ml-course-for-teens)[MIT · Stanford · CMU  College admissions prep Top-tier CS admissions Algorithms, system design, AI engineering. MIT EECS · Stanford CS · CMU SCS · Berkeley EECS prep. AlgorithmsUSACO Gold+System designPortfolio  USD100/ mo · 1:1 Enroll](/courses/coding/college)[Career switch  Adults · 22: 65 For Professionals Mid-career switch into software, data & AI roles at FAANG, OpenAI, Anthropic, Nvidia or local SWE shops. PythonTypeScriptCloudAI eng  USD100/ mo · 1:1 Enroll](/courses/coding/college)[Girls in tech  Ages 8: 22 Special For Girls Same curriculum, all-female mentor pairing, role models from FAANG and US AI labs. PythonWebAIMentorship  USD100/ mo · 1:1 Enroll](/courses/coding/girls)[Schools · companies  Cohorts & teams Customised & Schools For US schools, districts and companies. Cohorts of 6: 30, tailored curriculum, on your hours. CohortCurriculumReports  USD40/ seat · group Talk to us](/courses/coding/corporate)[Free · join  All ages Monthly Hackathons Free monthly coding & AI hackathons for American kids, teens and adults. Real prizes. Real shipped work. FreeLiveMonthlyPrizes  Free· no card Join next one](/courses)AP CS & USACO tracks
 
 ## Pick the track your student is on: we'll meet them there.
 
@@ -296,7 +296,7 @@ How we compare
 
 School AP classes, private tutors, Outschool / Juni / iD Tech, free YouTube, each has a place. Here's where we sit.
 
-What mattersModern Age CodersSchool AP CS classOutschool / Juni / iD TechYouTube · freeSame 1:1 mentor weekly, all year✓ Yes, Class format~ Rotating, NoReal coding (Python · JS · Git · deploy)✓ Week 1✓ AP CSA Java~ Depends~ Self-drivenModern AI & agentic-AI✓ Built in, Rare~ Marketing~ TutorialsAP CSP / AP CSA alignment✓ Both✓ Native~ Sometimes, NoUSACO coaching✓ All divisions, Rare~ Limited, NoIvy / MIT / Stanford admissions awareness✓ Yes, No~ Marketing, NoMonthly cost$150 (1:1) / $100 (group)Free (in school)$200, $700 / moFreeCancel / pause✓ Monthly~ School term~ Quarterly✓ FreeAll 50 states covered
+What mattersModern Age CodersSchool AP CS classOutschool / Juni / iD TechYouTube · freeSame 1:1 mentor weekly, all year✓ Yes: Class format~ Rotating: NoReal coding (Python · JS · Git · deploy)✓ Week 1✓ AP CSA Java~ Depends~ Self-drivenModern AI & agentic-AI✓ Built in: Rare~ Marketing~ TutorialsAP CSP / AP CSA alignment✓ Both✓ Native~ Sometimes: NoUSACO coaching✓ All divisions: Rare~ Limited: NoIvy / MIT / Stanford admissions awareness✓ Yes: No~ Marketing: NoMonthly cost$150 (1:1) / $100 (group)Free (in school)$200, $700 / moFreeCancel / pause✓ Monthly~ School term~ Quarterly✓ FreeAll 50 states covered
 
 ## Mentors live in every state. Your zip code is supported.
 
@@ -392,13 +392,13 @@ The honest version. This is what one 1:1 session looks like for a 10th-grade Ame
 
 Two minutes of "how was the week", the human bit. Mentor scrolls back the chat history, cameras come on for both. Settles the student.
 
-02:00, 08:00
+02:00: 08:00
 
 #### Recap and tiny quiz
 
 A 6-minute recall test of last lesson's idea. Not for marks, for the brain. Mentor watches for the lightbulb moments and the cobwebs.
 
-08:00, 18:00
+08:00: 18:00
 
 #### New concept + live coding
 
@@ -410,7 +410,7 @@ Ten minutes of new material. Live-shared VS Code via Zoom. Mentor types two line
 
 The student leads. The mentor coaches. This is where the real learning happens, push a feature, fix a bug, refactor a function, run a test. The mentor types nothing; only asks.
 
-35:00, 42:00
+35:00: 42:00
 
 #### Code review & reflection
 
@@ -586,7 +586,7 @@ No lock-in. Cancel any month before the next billing cycle, no fee, no awkward c
 
 "Is AI safe for my 9-year-old? I've read concerning things."
 
-Under-13s never operate raw LLM APIs against the open internet without a mentor present. Age-appropriate models, guardrailed prompts, content filters, "sandbox-only" rule. The AI tools your child builds are educational and reviewable by you, you see every prompt and every output. We're stricter than most.
+Under-13s never operate raw LLM APIs against the open internet without a mentor present. Age-appropriate models, guardrailed prompts, content filters, "sandbox-only" rule. The AI tools your child builds are educational and reviewable by you. You see every prompt and every output. We're stricter than most.
 
 "My kid is shy, won't a 1:1 video lesson be intimidating?"
 

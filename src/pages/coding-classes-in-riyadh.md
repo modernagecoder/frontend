@@ -219,7 +219,7 @@ Billing is monthly and in US dollars. The riyal equivalents drift a little as th
 
 Group classes
 
- $1$100$2
+$100 per month
 
 - A live teacher and at most seven classmates
 - Evening and weekend timings in AST
@@ -230,7 +230,7 @@ Book a Free Demo
 
 One-on-one classes
 
- $1$150$2
+$150 per month
 
 - The whole hour belongs to one student
 - Timings arranged around your family's week
@@ -256,6 +256,8 @@ Book the free lesson, sit beside your child, and watch the teaching with your ow
 If WhatsApp is easier, [send a message](https://wa.me/919123366161?text=Hi,%20I%20want%20a%20free%20demo%20for%20coding%20classes%20in%20Riyadh) and a mentor calls back the same day.
 
 4.9 rating across 547+ Google reviews
+
+[Chat with us](https://wa.me/919123366161?text=Hi%2C%20I'm%20interested%20in%20learning%20more%20about%20your%20courses!)
 
 ---
 

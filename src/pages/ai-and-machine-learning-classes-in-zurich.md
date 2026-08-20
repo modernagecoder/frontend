@@ -350,7 +350,7 @@ Data and forecasting
 
 A weather application built against live data feeds, the nearest sibling in the portfolio to the rent modelling project above.
 
-by Krish · [Open the live project](https://krish-shroff.github.io/AuraWeatherTech/)
+by Krish
 
 Fees
 
@@ -360,9 +360,9 @@ We bill in US dollars, one flat price in every country we teach outside India, s
 
 Free first class
 
-$0
+Free
 
-USD 0, no card needed
+No card needed
 
 - A genuine lesson with a teacher, not fifteen minutes of sales
 - Also a placement check, so the level gets set from evidence
@@ -374,7 +374,7 @@ Group batch
 
 $100
 
-USD 100 a month
+a month, billed in US dollars
 
 - Five to eight learners, one teacher who stays with the batch
 - Live video every week, nothing pre-recorded
@@ -387,7 +387,7 @@ One to one
 
 $150
 
-USD 150 a month
+a month, billed in US dollars
 
 - Private teaching, your calendar and your pace
 - The usual choice for an examination year, or an adult with two free evenings
@@ -492,6 +492,8 @@ Start here
 Leave a number and a mentor rings back, usually the same day, at an hour that makes sense in Zurich rather than in India. The first lesson is a genuine lesson, and it doubles as a placement check so your child begins at their own level, not at a class average.
 
 Prefer to look around first? Read [how we teach](/how-we-teach), browse the [full course catalogue](/courses), or see what students have built in [Student Labs](/student-labs).
+
+[Chat with us](https://wa.me/919123366161?text=Hi%2C%20I'm%20interested%20in%20learning%20more%20about%20your%20courses!)
 
 ---
 

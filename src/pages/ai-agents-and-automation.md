@@ -203,7 +203,7 @@ Every agent we ship has a defined scope, refusal patterns for what it must not a
 
 Do you train our team so we’re not dependent on you?
 
-Yes, and we measure ourselves on this. We run 2–4 hour workshops for marketing, ops, sales and founders with a prompt library built for your business, followed by 30 days of office hours. The goal is that your team can run and tweak what we’ve built without calling us.
+Yes. And we measure ourselves on this. We run 2–4 hour workshops for marketing, ops, sales and founders with a prompt library built for your business, followed by 30 days of office hours. The goal is that your team can run and tweak what we’ve built without calling us.
 
 Will AI replace my team?
 
@@ -227,7 +227,7 @@ Yes, but selectively. Voice agents are still rough in Indian languages and we’
 
 We’ll get on a 30-minute call, look at it together, and tell you honestly whether AI is the right answer, and if it is, what it would cost and how long it would take. No PDF deck. No follow-up pressure.
 
- Direct line: [+91 91233 66161](tel:+919123366161) · WhatsApp: [Send a message](https://wa.me/919123366161?text=Hi%2C%20I%20saw%20your%20AI%20Agents%20%26%20Automation%20page%20and%20wanted%20to%20talk%20about%20a%20workflow%20for%20my%20business.)Modern Age Coders · Kolkata · Est. 2020[Business solutions](/business-solutions) · [Corporate training](/courses/coding/corporate) · [Contact](/contact) · [Privacy](/privacy)Request a callback
+ Direct line: [+91 91233 66161](tel:+919123366161) · WhatsApp: [Send a message](https://wa.me/919123366161?text=Hi%2C%20I%20saw%20your%20AI%20Agents%20%26%20Automation%20page%20and%20wanted%20to%20talk%20about%20a%20workflow%20for%20my%20business.)Modern Age Coders · Kolkata · Est. 2020[Business solutions](/for-business) · [Corporate training](/courses/coding/corporate) · [Contact](/contact) · [Privacy](/privacy)Request a callback
 
 ### We’ll call you back.
 

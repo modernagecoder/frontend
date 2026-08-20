@@ -150,7 +150,9 @@ Being able to see real lessons before paying sealed it for us. No hard sell, jus
 
 We add new coding and maths sessions to the open library as we teach them. What you see today is just this season's window into our classroom, bookmark the library and watch the methodology evolve.
 
-⟳ Last refreshed:, ## Liked what you *saw?*
+⟳ Last refreshed: ,
+
+## Liked what you *saw?*
 
 Book a free, no-obligation demo class and let your child experience this teaching style live, in coding, maths, or both.
 

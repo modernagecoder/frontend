@@ -136,7 +136,7 @@ Class ends. The teacher says, "Practice this at home." The student thinks, "I un
 
 The Mistake
 
-Confusing "I understood it when the teacher explained" with "I can do it on my own." Understanding and doing are completely different things. Without practice, concepts fade within 24-48 hours, this is how memory works.
+Confusing "I understood it when the teacher explained" with "I can do it on my own." Understanding and doing are completely different things. Without practice, concepts fade within 24-48 hours. This is how memory works.
 
 The Fix
 

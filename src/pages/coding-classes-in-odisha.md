@@ -99,7 +99,7 @@ Our curriculum complements the **Board of Secondary Education Odisha (BSE/CHSE),
 
 ### Learn in the language you're comfortable with
 
-Classes are taught in English, and instructors can explain concepts in **Odia or Hindi** when it helps a student understand faster. We focus on genuine understanding, not rote learning. And we run a dedicated [Coding for Girls](/coding-classes-for-girls) programme to bring more girls across Odisha into tech.
+Classes are taught in English, and instructors can explain concepts in **Odia or Hindi** when it helps a student understand faster. We focus on genuine understanding, not rote learning, and we run a dedicated [Coding for Girls](/coding-classes-for-girls) programme to bring more girls across Odisha into tech.
 
 The Difference
 

@@ -346,7 +346,7 @@ Data and forecasting
 
 A weather application on live data feeds, the nearest relative of the glacier work above.
 
-by Krish · [Open the live project](https://krish-shroff.github.io/AuraWeatherTech/)
+by Krish
 
 Fees
 
@@ -490,6 +490,8 @@ Start here
 Leave a number and a mentor rings you back at an hour that works in Swiss time rather than one that suits us. The first class is a real class with a real teacher, and it doubles as a placement check so your child begins at their own level.
 
 Prefer to look around first? Read [how we teach](/how-we-teach), browse the [full course catalogue](/courses), or see what students have built in [Student Labs](/student-labs).
+
+[Chat with us](https://wa.me/919123366161?text=Hi%2C%20I'm%20interested%20in%20learning%20more%20about%20your%20courses!)
 
 ---
 

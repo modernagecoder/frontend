@@ -189,7 +189,7 @@ Parent
 
 Every one of these is a real, live project shipped by a Modern Age Coders student, not a mockup. Explore more in our [Student Labs](/student-labs).
 
-![LumenFX, AR/VR Photo Effects Studio](/images/projects/lumenfx.webp)
+![LumenFX: AR/VR Photo Effects Studio](/images/projects/lumenfx.webp)
 
 Web App
 
@@ -235,7 +235,7 @@ Billing is monthly and in US dollars. Since the dirham is pegged to the dollar, 
 
 Group classes
 
- $1$100$2
+$100 per month
 
 - Live weekly classes, batches of 5 to 8
 - Evening and weekend slots in GST
@@ -246,7 +246,7 @@ Book a Free Demo
 
 One-on-one classes
 
- $1$150$2
+$150 per month
 
 - One student and one teacher, every class
 - Slots arranged around your own week
@@ -272,6 +272,8 @@ The demo is a complete live class, not a highlight reel. The student writes code
 Prefer WhatsApp? [Message us](https://wa.me/919123366161?text=Hi,%20I%20want%20a%20free%20demo%20for%20coding%20classes%20in%20Abu%20Dhabi) and a mentor replies during Abu Dhabi daytime hours.
 
 4.9 rating across 547+ Google reviews
+
+[Chat with us](https://wa.me/919123366161?text=Hi%2C%20I'm%20interested%20in%20learning%20more%20about%20your%20courses!)
 
 ---
 

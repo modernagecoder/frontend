@@ -342,7 +342,7 @@ Data and forecasting
 
 A forecasting front end that pulls live weather data and presents it clearly, built and published by a student.
 
-by Krish · [Open the live project](https://krish-shroff.github.io/AuraWeatherTech/)
+by Krish
 
 Fees
 
@@ -484,6 +484,8 @@ Start here
 Leave a number and a mentor calls you back, usually within a few hours, at an hour that suits the UAE. The first class is a real class with a real teacher, and it doubles as a placement check so your child starts at the right level rather than the average one.
 
 Prefer to look around first? Read [how we teach](/how-we-teach), browse the [full course catalogue](/courses), or see what students have built in [Student Labs](/student-labs).
+
+[Chat with us](https://wa.me/919123366161?text=Hi%2C%20I'm%20interested%20in%20learning%20more%20about%20your%20courses!)
 
 ---
 

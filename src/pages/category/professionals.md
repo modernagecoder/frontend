@@ -14,15 +14,15 @@ source: src/pages/category/professionals.html
 
  Working Professionals • Career Growth
 
-# Coding for Adults — It's Never Too Late to Start
+# Coding for Adults: It's Never Too Late to Start
 
 Advance your tech career with flexible weekend and evening coding programs designed for busy professionals. Switch to a high-paying tech role, earn a promotion, or future-proof your skills with AI, Data Science, Full Stack, and Cloud courses — all structured around your work schedule.
 
-**15+**Courses**850+**Professionals**4.9★**RatingBook Free Demo ClassView All Courses
+**15+**Courses**850+**Professionals**4.9★**Rating[Book Free Demo Class](/book-demo)[View All Courses](/courses)
 
 ## Best Coding Courses for Working Professionals
 
-Flexible weekend and evening programs in AI, Data Science, Full Stack, and Cloud — designed for career growth
+Flexible weekend and evening programs in AI, Data Science, Full Stack, and Cloud, designed for career growth
 
 ![AI & Machine Learning](/images/ai-ml-college.webp)Hot
 

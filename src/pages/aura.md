@@ -32,7 +32,7 @@ Flow Stage Cleared
 
 ACCURACY98%WORDS15Continue
 
-# Journey Complete
+## Journey Complete
 
 Your final state
 

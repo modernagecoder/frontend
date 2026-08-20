@@ -36,7 +36,7 @@ Ages 8–12
 
 ## Coding for kids in Berhampur
 
-Most popular![Kids coding with Scratch, best coding class for kids in Berhampur](/images/kids-coding.webp)
+Most popular![Kids coding with Scratch: best coding class for kids in Berhampur](/images/kids-coding.webp)
 
 ### Kids Coding with Scratch
 
@@ -58,7 +58,7 @@ Children design and publish a first colourful website with HTML & CSS, then send
 - Fun, real web projects
 - A personal portfolio page
 
-[View course](/courses/kids-ai-web-development-course)Next step![Python for kids, programming course in Berhampur](/images/python-kids.webp)
+[View course](/courses/kids-ai-web-development-course)Next step![Python for kids: programming course in Berhampur](/images/python-kids.webp)
 
 ### Python for Young Coders
 
@@ -73,7 +73,7 @@ The step up to real, typed code in the world's most popular language, the same o
 
 ## Coding for teens in Berhampur
 
-In demand![Python programming for teens, best coding institute in Berhampur](/images/python-teens.webp)
+In demand![Python programming for teens: best coding institute in Berhampur](/images/python-teens.webp)
 
 ### Python Programming
 
@@ -84,7 +84,7 @@ The world's most in-demand language and the friendliest on-ramp into real softwa
 - Automation & scripting
 - Real-world projects
 
-[View course](/courses/python-complete-masterclass-teens)Career![Java programming for teens, best coding class in Berhampur](/images/java-teens.webp)
+[View course](/courses/python-complete-masterclass-teens)Career![Java programming for teens: best coding class in Berhampur](/images/java-teens.webp)
 
 ### Java Programming
 
@@ -95,7 +95,7 @@ For board work and beyond: Java underpins CBSE and ICSE Computer Science (the Bl
 - Intro to Android app building
 - Board-aligned practice
 
-[View course](/courses/java-programming-masterclass-for-teens)Build![Web development for teens, programming classes in Berhampur](/images/web-dev-teens.webp)
+[View course](/courses/java-programming-masterclass-for-teens)Build![Web development for teens: programming classes in Berhampur](/images/web-dev-teens.webp)
 
 ### Full-Stack Web Development
 
@@ -106,7 +106,7 @@ Build complete, deployed websites with HTML, CSS, JavaScript and React, a skill 
 - Backend with Node.js
 - Live portfolio projects
 
-[View course](/courses/web-development-masterclass-teens)Future![AI and machine learning for teens, coding course in Berhampur](/images/ai-ml-teens.webp)
+[View course](/courses/web-development-masterclass-teens)Future![AI and machine learning for teens: coding course in Berhampur](/images/ai-ml-teens.webp)
 
 ### AI & Machine Learning
 
@@ -158,19 +158,19 @@ Python, machine learning and real data analysis for the analytics and AI roles m
 
 ## Mathematics classes in Berhampur
 
-![Elementary mathematics, maths classes in Berhampur](/images/elementary-maths.webp)
+![Elementary mathematics: maths classes in Berhampur](/images/elementary-maths.webp)
 
 ### Elementary Mathematics
 
 Rock-solid foundations in numbers, operations, fractions, geometry and word problems for grades 1–5, aligned to CBSE, ICSE and Odisha Board schools across Berhampur.
 
-[View course](/courses/elementary-mathematics-complete-masterclass)![High school mathematics, maths tuition in Berhampur](/images/high-school-maths.webp)
+[View course](/courses/elementary-mathematics-complete-masterclass)![High school mathematics: maths tuition in Berhampur](/images/high-school-maths.webp)
 
 ### High School Mathematics
 
 Algebra, geometry, trigonometry, pre-calculus and calculus for grades 9–12, board-aligned and built to give Berhampur's engineering and medical aspirants a genuine head start.
 
-[View course](/courses/complete-high-school-mathematics-mastery)Olympiad![Olympiad mathematics, competition prep in Berhampur](/images/olympiad-competition-maths.webp)
+[View course](/courses/complete-high-school-mathematics-mastery)Olympiad![Olympiad mathematics: competition prep in Berhampur](/images/olympiad-competition-maths.webp)
 
 ### Olympiad & Competition Math
 
@@ -250,7 +250,7 @@ International families pay flat USD rates, the prices above update automatically
 
 Not screenshots of a syllabus, real, live projects from Modern Age Coders learners and labs. Click through and use them.
 
-[![NutriLife, AI Nutrition Coach](/images/projects/nutrilife.webp) AI & MLNutriLife, AI Nutrition CoachSnap a photo of any meal and NutriLife instantly names every food, then breaks down the calories, macros, vitamins and minerals, powered by AI. Bhavya vibe-coded it from a single idea: shaped the app in prompts, then wired up the AI food-recognition, daily tracking and smart coaching by hand. Built by Bhavya · Vibe Coding, AI VisionOpen the live project ↗](https://nutrilife-bhavya.lovable.app)[![Word Counter Website](/images/projects/wordcounter.webp) ToolWord Counter WebsiteA simple yet powerful tool that counts words, sentences and paragraphs from user input with instant, real-time results and a clean responsive interface. Built by Vansh · HTML, CSSOpen the live project ↗](https://vanshagarwalwordcounter-sys.github.io/WordCounter/)[![Palm Arcana, Summon the Elements](/images/projects/superpawer.webp) GamePalm Arcana, Summon the ElementsOpen your palms to the webcam and computer vision turns your gestures into real magic, the left palm throws a fireball, the right crackles with lightning. A wild blend of hand-tracking AI, creative coding and pure imagination, vibe-coded into a playable browser experience. Built by Aarush · Vibe Coding, Computer VisionOpen the live project ↗](https://superpawer.netlify.app)[See more student projects →](/student-labs)
+[![NutriLife: AI Nutrition Coach](/images/projects/nutrilife.webp) AI & MLNutriLife: AI Nutrition CoachSnap a photo of any meal and NutriLife instantly names every food, then breaks down the calories, macros, vitamins and minerals, powered by AI. Bhavya vibe-coded it from a single idea: shaped the app in prompts, then wired up the AI food-recognition, daily tracking and smart coaching by hand. Built by Bhavya · Vibe Coding, AI VisionOpen the live project ↗](https://nutrilife-bhavya.lovable.app)[![Word Counter Website](/images/projects/wordcounter.webp) ToolWord Counter WebsiteA simple yet powerful tool that counts words, sentences and paragraphs from user input with instant, real-time results and a clean responsive interface. Built by Vansh · HTML, CSSOpen the live project ↗](https://vanshagarwalwordcounter-sys.github.io/WordCounter/)[![Palm Arcana: Summon the Elements](/images/projects/superpawer.webp) GamePalm Arcana: Summon the ElementsOpen your palms to the webcam and computer vision turns your gestures into real magic, the left palm throws a fireball, the right crackles with lightning. A wild blend of hand-tracking AI, creative coding and pure imagination, vibe-coded into a playable browser experience. Built by Aarush · Vibe Coding, Computer VisionOpen the live project ↗](https://superpawer.netlify.app)[See more student projects →](/student-labs)
 
 ## What families say
 

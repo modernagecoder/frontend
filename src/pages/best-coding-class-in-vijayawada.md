@@ -36,7 +36,7 @@ Ages 8–12
 
 ## Coding for kids in Vijayawada
 
-Most popular![Kids coding with Scratch, best coding class for kids in Vijayawada](/images/kids-coding.webp)
+Most popular![Kids coding with Scratch: best coding class for kids in Vijayawada](/images/kids-coding.webp)
 
 ### Kids Coding with Scratch
 
@@ -58,7 +58,7 @@ Children create their very first colourful website with HTML & CSS, then proudly
 - Fun, real web projects
 - A personal portfolio page
 
-[View course](/courses/kids-ai-web-development-course)Next step![Python for kids, programming course in Vijayawada](/images/python-kids.webp)
+[View course](/courses/kids-ai-web-development-course)Next step![Python for kids: programming course in Vijayawada](/images/python-kids.webp)
 
 ### Python for Young Coders
 
@@ -73,7 +73,7 @@ The leap to real, typed code in the world's most-used language. Kids write Pytho
 
 ## Coding for teens in Vijayawada
 
-In demand![Python programming for teens, best coding institute in Vijayawada](/images/python-teens.webp)
+In demand![Python programming for teens: best coding institute in Vijayawada](/images/python-teens.webp)
 
 ### Python Programming
 
@@ -84,7 +84,7 @@ The most sought-after language anywhere, and the natural starting line for teens
 - Automation & scripting
 - Real-world projects
 
-[View course](/courses/python-complete-masterclass-teens)Career![Java programming for teens, best coding class in Vijayawada](/images/java-teens.webp)
+[View course](/courses/python-complete-masterclass-teens)Career![Java programming for teens: best coding class in Vijayawada](/images/java-teens.webp)
 
 ### Java Programming
 
@@ -95,7 +95,7 @@ Java sits at the core of CBSE/ICSE Computer Science and the enterprise systems e
 - Intro to Android app building
 - Board-aligned practice
 
-[View course](/courses/java-programming-masterclass-for-teens)Build![Web development for teens, programming classes in Vijayawada](/images/web-dev-teens.webp)
+[View course](/courses/java-programming-masterclass-for-teens)Build![Web development for teens: programming classes in Vijayawada](/images/web-dev-teens.webp)
 
 ### Full-Stack Web Development
 
@@ -106,7 +106,7 @@ Build and deploy complete websites from a blank file using HTML, CSS, JavaScript
 - Backend with Node.js
 - Live portfolio projects
 
-[View course](/courses/web-development-masterclass-teens)Future![AI and machine learning for teens, coding course in Vijayawada](/images/ai-ml-teens.webp)
+[View course](/courses/web-development-masterclass-teens)Future![AI and machine learning for teens: coding course in Vijayawada](/images/ai-ml-teens.webp)
 
 ### AI & Machine Learning
 
@@ -158,19 +158,19 @@ Python, machine learning and hands-on data analysis, aimed at the analytics and 
 
 ## Mathematics classes in Vijayawada
 
-![Elementary mathematics, maths classes in Vijayawada](/images/elementary-maths.webp)
+![Elementary mathematics: maths classes in Vijayawada](/images/elementary-maths.webp)
 
 ### Elementary Mathematics
 
 Rock-solid foundations in numbers, operations, fractions, geometry and word problems for grades 1–5, aligned to the CBSE, ICSE and BSEAP schools across Vijayawada.
 
-[View course](/courses/elementary-mathematics-complete-masterclass)![High school mathematics, maths tuition in Vijayawada](/images/high-school-maths.webp)
+[View course](/courses/elementary-mathematics-complete-masterclass)![High school mathematics: maths tuition in Vijayawada](/images/high-school-maths.webp)
 
 ### High School Mathematics
 
 Algebra, geometry, trigonometry, pre-calculus and calculus for grades 9–12, board-aligned and built to give Vijayawada's AP EAPCET and JEE aspirants a genuine head start.
 
-[View course](/courses/complete-high-school-mathematics-mastery)Olympiad![Olympiad mathematics, competition prep in Vijayawada](/images/olympiad-competition-maths.webp)
+[View course](/courses/complete-high-school-mathematics-mastery)Olympiad![Olympiad mathematics: competition prep in Vijayawada](/images/olympiad-competition-maths.webp)
 
 ### Olympiad & Competition Math
 
@@ -250,7 +250,7 @@ International families pay flat USD rates, the prices above update automatically
 
 Not screenshots of a syllabus, real, live projects from Modern Age Coders learners and labs. Click through and use them.
 
-[![Image Slider Website](/images/projects/slider.webp) ToolImage Slider WebsiteA visually appealing site with a smooth image carousel, auto or manual navigation, responsive layout and beautiful transition effects. Built by Somraj · HTML, CSSOpen the live project ↗](https://robo23middle-stack.github.io/scenes/)[![Word Counter Website](/images/projects/wordcounter.webp) ToolWord Counter WebsiteA simple yet powerful tool that counts words, sentences and paragraphs from user input with instant, real-time results and a clean responsive interface. Built by Vansh · HTML, CSSOpen the live project ↗](https://vanshagarwalwordcounter-sys.github.io/WordCounter/)[![BookDesk, AI Book Summaries & Quizzes](/images/projects/bookdesk.webp) AI & MLBookDesk, AI Book Summaries & QuizzesType in any book name and author, and BookDesk pulls together the book's details, a clear summary and a custom quiz to test what you've learned, a genuinely useful study companion. Anika built it as a full-stack AI application, powered by Google Gemini with a live database behind it. Built by Anika · Gemini AI, Full-StackOpen the live project ↗](https://bookdesk1.netlify.app)[See more student projects →](/student-labs)
+[![Image Slider Website](/images/projects/slider.webp) ToolImage Slider WebsiteA visually appealing site with a smooth image carousel, auto or manual navigation, responsive layout and beautiful transition effects. Built by Somraj · HTML, CSSOpen the live project ↗](https://robo23middle-stack.github.io/scenes/)[![Word Counter Website](/images/projects/wordcounter.webp) ToolWord Counter WebsiteA simple yet powerful tool that counts words, sentences and paragraphs from user input with instant, real-time results and a clean responsive interface. Built by Vansh · HTML, CSSOpen the live project ↗](https://vanshagarwalwordcounter-sys.github.io/WordCounter/)[![BookDesk: AI Book Summaries & Quizzes](/images/projects/bookdesk.webp) AI & MLBookDesk: AI Book Summaries & QuizzesType in any book name and author, and BookDesk pulls together the book's details, a clear summary and a custom quiz to test what you've learned, a genuinely useful study companion. Anika built it as a full-stack AI application, powered by Google Gemini with a live database behind it. Built by Anika · Gemini AI, Full-StackOpen the live project ↗](https://bookdesk1.netlify.app)[See more student projects →](/student-labs)
 
 ## What families say
 
@@ -260,7 +260,7 @@ Verified Google reviews from Modern Age Coders families across India. We don't i
 
 "Very good classes."
 
-Don't worry about coding, they teach the best, especially Shivam sir.
+Don't worry about coding. They teach the best, especially Shivam sir.
 
 SWShaarav WadhwaStudent★★★★★
 
