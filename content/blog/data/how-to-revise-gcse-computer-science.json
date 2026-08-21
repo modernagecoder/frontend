@@ -1,0 +1,312 @@
+{
+  "meta": {
+    "slug": "how-to-revise-gcse-computer-science",
+    "title": "How to Revise GCSE Computer Science (AQA and OCR)",
+    "description": "One GCSE Computer Science paper rewards knowing things and the other rewards making them. The boards publish the split, and most revision plans ignore it.",
+    "keywords": [
+      "how to revise gcse computer science",
+      "gcse computer science revision",
+      "aqa 8525 paper 1",
+      "ocr j277 exam reference language",
+      "gcse computer science programming paper",
+      "gcse computer science sql"
+    ],
+    "author": {
+      "name": "Modern Age Coders Team",
+      "bio": "Expert educators making coding and maths clear for ages 6 to 67.",
+      "avatar": "/images/logo.svg"
+    },
+    "date": "2026-08-21",
+    "dateModified": "2026-08-21",
+    "category": "Education",
+    "tags": [
+      "GCSE",
+      "AQA",
+      "OCR",
+      "Python"
+    ],
+    "readTime": "8 min read",
+    "featured": false,
+    "tldr": "GCSE Computer Science is two papers with opposite demands. In AQA 8525, Paper 1 draws 25.6 per cent of the qualification from AO3, which is designing, programming, evaluating and refining, while Paper 2 draws 25.6 per cent from AO1, which is knowledge and understanding. Cambridge OCR splits J277/02 into a 50 mark knowledge section and a 30 mark practical programming section. The knowledge half can be revised by reading and recalling. The programming half only moves when a student writes code at a keyboard."
+  },
+  "hero": {
+    "title": "How to Revise GCSE Computer Science",
+    "subtitle": "Both major boards publish assessment tables showing that their two papers reward completely different things. Almost nobody revises as though that were true.",
+    "featuredImage": {
+      "url": "/images/blog/how-to-revise-gcse-computer-science/00-hero.png",
+      "alt": "GCSE Computer Science revision: one paper rewards knowing things, the other rewards making them"
+    }
+  },
+  "content": {
+    "sections": [
+      {
+        "type": "toc"
+      },
+      {
+        "type": "paragraph",
+        "text": "In summer 2026, 30.0 per cent of GCSE Computer Science candidates in the UK were awarded grade 7 or above, and 70.8 per cent got a grade 4 or above, across 83,501 entries and the four main boards, on JCQ figures. Those are respectable numbers for a subject with this reputation. They also hide something that shows up every year in the same place."
+      },
+      {
+        "type": "paragraph",
+        "text": "Students who work hard at this subject frequently do well on one paper and much less well on the other, and it is usually the same paper. The reason is written down in both boards' specifications, in a table almost nobody outside a department meeting has ever read."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "What the boards say they are grading",
+        "id": "assessment-objectives"
+      },
+      {
+        "type": "paragraph",
+        "text": "AQA publishes the assessment objective weightings for GCSE Computer Science 8525, and they are close to mirror images."
+      },
+      {
+        "type": "image",
+        "url": "/images/blog/how-to-revise-gcse-computer-science/01-assessment-objectives.png",
+        "alt": "AQA 8525 assessment objective weightings showing Paper 1 dominated by AO3 and Paper 2 by AO1",
+        "caption": "Paper 1 is 25.6 per cent AO3 and 4.4 per cent AO1. Paper 2 is exactly the other way round."
+      },
+      {
+        "type": "table",
+        "headers": [
+          "Assessment objective",
+          "What it rewards",
+          "Paper 1",
+          "Paper 2"
+        ],
+        "rows": [
+          [
+            "AO1",
+            "Knowledge and understanding",
+            "4.4%",
+            "25.6%"
+          ],
+          [
+            "AO2",
+            "Applying that knowledge",
+            "20%",
+            "20%"
+          ],
+          [
+            "AO3",
+            "Design, program, evaluate, refine",
+            "25.6%",
+            "4.4%"
+          ]
+        ]
+      },
+      {
+        "type": "paragraph",
+        "text": "Read the corners. On Paper 1, knowledge is worth 4.4 per cent of the qualification and building things is worth 25.6. On Paper 2, those numbers swap places. It is the same subject and the same student, graded on two more or less opposite abilities, in two rooms a week apart."
+      },
+      {
+        "type": "callout",
+        "calloutType": "info",
+        "title": "Why this explains the pattern",
+        "text": "Revision as most students practise it is a knowledge activity. Read the notes, make the cards, answer the questions, check the answers. Applied to Paper 2 that works. Applied to the programming paper it produces a student who recognises correct code without being able to produce it, and recognition is not what is being marked."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "The two boards, and what differs",
+        "id": "the-boards"
+      },
+      {
+        "type": "image",
+        "url": "/images/blog/how-to-revise-gcse-computer-science/02-two-boards.png",
+        "alt": "Comparison table of AQA 8525 and Cambridge OCR J277 GCSE Computer Science papers",
+        "caption": "Both boards split fifty fifty. They divide the programming very differently."
+      },
+      {
+        "type": "paragraph",
+        "text": "<strong>AQA 8525</strong>, for exams from June 2027, sets Paper 1 as Computational thinking and programming skills, a two hour written exam worth 90 marks and half the GCSE, in which students design, write, test and refine code in C#, Python 3 or VB.NET. Paper 2, Computing concepts, is one hour forty five, also 90 marks and half the GCSE, and the specification says students should have practical experience of writing and refining SQL in preparation for it."
+      },
+      {
+        "type": "paragraph",
+        "text": "<strong>Cambridge OCR J277</strong> divides differently. J277/01, Computer systems, has no programming in it at all: one and a half hours, 80 marks, half the GCSE, ending in an eight mark extended response question. J277/02 is also an hour and a half and 80 marks, split into Section A worth 50 marks for concepts and Section B worth 30 marks for practical programming."
+      },
+      {
+        "type": "callout",
+        "calloutType": "warning",
+        "title": "The OCR detail worth knowing before the paper",
+        "text": "All programming code printed in an OCR exam paper is presented in the OCR Exam Reference Language, whatever language the student has been taught. Students may answer in Exam Reference Language or in a high level language they know, but they have to be able to READ the exam language regardless. A student who has only ever seen Python will meet an unfamiliar notation in the room."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "The same program, twice",
+        "id": "same-program-twice"
+      },
+      {
+        "type": "paragraph",
+        "text": "This is less frightening than it sounds, and seeing it once removes most of the fear. Here is a small task, counting how many names begin with a given letter, written in Python."
+      },
+      {
+        "type": "code",
+        "language": "python",
+        "code": "names = [\"Ali\", \"Bea\", \"Ana\", \"Cai\", \"Ama\"]\ntarget = \"A\"\n\ncount = 0\nfor name in names:\n    if name[0].upper() == target:\n        count = count + 1\n\nprint(count)"
+      },
+      {
+        "type": "code",
+        "language": "text",
+        "code": "3"
+      },
+      {
+        "type": "paragraph",
+        "text": "And here it is in OCR Exam Reference Language, which is the notation the paper would print it in."
+      },
+      {
+        "type": "code",
+        "language": "text",
+        "code": "names = [\"Ali\", \"Bea\", \"Ana\", \"Cai\", \"Ama\"]\ntarget = \"A\"\n\ncount = 0\nfor i=0 to 4\n    if names[i].left(1).upper == target then\n        count = count + 1\n    endif\nnext i\n\nprint(count)"
+      },
+      {
+        "type": "paragraph",
+        "text": "Nearly the same shape. A count controlled loop, a condition, a running total. The differences are surface: <code>for i=0 to 4</code> with <code>next i</code> instead of a for each, <code>endif</code> where Python uses indentation, and string operations written as <code>.left(1)</code> and <code>.upper</code>. Half an hour of reading exam language examples is enough to stop it being strange."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "The off by one that ends careers in the exam hall",
+        "id": "string-indexing"
+      },
+      {
+        "type": "image",
+        "url": "/images/blog/how-to-revise-gcse-computer-science/03-string-indexing.png",
+        "alt": "Comparison of string substring operations in OCR Exam Reference Language, Cambridge IGCSE pseudocode and Python",
+        "caption": "Three notations, and they do not agree about where a string starts."
+      },
+      {
+        "type": "paragraph",
+        "text": "OCR Exam Reference Language is zero indexed, so <code>subject.substring(3,5)</code> on the string ComputerScience returns puter, starting at the fourth character. Python is also zero indexed. But <a href='/blog/igcse-computer-science-0478-pseudocode-guide'>Cambridge IGCSE 0478 pseudocode</a> counts the first character as position 1, so an identical looking call means something different there."
+      },
+      {
+        "type": "paragraph",
+        "text": "This matters for any student who has moved between courses, or who is studying with a tutor whose background is a different qualification. Check which convention you are in before you answer a substring question, every single time, because both answers look plausible on the page."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "SQL, and why AQA students should not leave it late",
+        "id": "sql"
+      },
+      {
+        "type": "paragraph",
+        "text": "The AQA specification includes relational databases and structured query language, and expects practical experience of writing and refining SQL rather than just describing it. SQL is not hard, and it is very unlike the rest of the course, which is why it is so often the topic left until the fortnight before."
+      },
+      {
+        "type": "code",
+        "language": "sql",
+        "code": "SELECT Student.Surname, Club.ClubName\nFROM   Student, Club\nWHERE  Student.StudentID = Club.StudentID\nAND    Student.Year = 10\nORDER  BY Student.Surname"
+      },
+      {
+        "type": "paragraph",
+        "text": "Run against a two table school database, that returns:"
+      },
+      {
+        "type": "code",
+        "language": "text",
+        "code": "Ahmed | Robotics\nCruz | Robotics"
+      },
+      {
+        "type": "paragraph",
+        "text": "Two tables joined in the WHERE clause, filtered by a condition on one of them, sorted by a column on the other. Twenty minutes of writing queries against any small database gets a student further than an hour of reading about primary keys, and it is the sort of thing that can be practised in a browser for free."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Two papers, two different revision weeks",
+        "id": "the-plan"
+      },
+      {
+        "type": "image",
+        "url": "/images/blog/how-to-revise-gcse-computer-science/04-revision-plan.png",
+        "alt": "Two column revision plan separating knowledge paper technique from programming paper technique",
+        "caption": "One of these can be done on a sofa. The other genuinely cannot."
+      },
+      {
+        "type": "paragraph",
+        "text": "The practical upshot of everything above is that a revision timetable for this subject should have two colours in it. Time in the first colour is for recall, and it works the way revision works in any other subject. Time in the second is for writing programs, and the only measure that counts is how many programs got written."
+      },
+      {
+        "type": "list",
+        "style": "ordered",
+        "items": [
+          "<strong>Write something every day, small.</strong> Twenty minutes and one working program beats a two hour session once a week, because the skill being built is fluency and fluency responds to frequency.",
+          "<strong>Trace code you did not write.</strong> Take a past paper program, work through it with a trace table by hand, and predict the output before running it. This is exactly the Section A and code tracing skill, and it is unpleasant enough that most students skip it.",
+          "<strong>Test with normal, boundary and erroneous data.</strong> The AQA specification names those three types explicitly. Applying them to your own programs is free marks and better code.",
+          "<strong>Do the knowledge paper separately.</strong> Blank page recall, then check against the specification rather than against your own notes, because your notes have the same holes your memory does."
+        ]
+      },
+      {
+        "type": "quote",
+        "text": "The students who struggle with the programming paper are almost never the ones who did not understand it. They are the ones who understood it while watching somebody else type.",
+        "author": "The pattern we see in every GCSE cohort"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Where a teacher changes the outcome",
+        "id": "how-we-teach"
+      },
+      {
+        "type": "paragraph",
+        "text": "There is a specific thing a live class does for this subject that no amount of material does. A student writing code alone gets stuck, tries three things, and either escapes or quietly stops. Somebody watching sees which of the three things was nearly right and says so in the moment, and that is how a misconception dies instead of hardening."
+      },
+      {
+        "type": "paragraph",
+        "text": "Our <a href='/uk-gcse-computer-science-tutoring'>GCSE Computer Science tutoring</a> is live, one to one or in a batch of five to eight students, taught from India to students in the UK and worldwide. We teach to whichever board the school entered the student for, because the papers genuinely differ. The first class is free and the most useful thing to bring is the last programming question that did not go well."
+      },
+      {
+        "type": "button",
+        "text": "Book a free GCSE Computer Science class",
+        "url": "/uk-gcse-computer-science-tutoring",
+        "style": "primary"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Frequently asked questions",
+        "id": "faq"
+      },
+      {
+        "type": "accordion",
+        "items": [
+          {
+            "title": "Which board is easier, AQA or OCR?",
+            "content": "Neither, and schools rarely give students the choice anyway. They are differently shaped. AQA asks for code in a real language across a two hour paper, OCR concentrates practical programming into a 30 mark section and prints its code in its own exam language. A student strong at writing code will usually prefer the AQA shape."
+          },
+          {
+            "title": "Which programming language should a GCSE student learn?",
+            "content": "For AQA, one of C#, Python 3 or VB.NET, and in practice whichever the school teaches, most often Python. For OCR, the language is less constrained because answers may be given in Exam Reference Language or a familiar high level language, but students still have to read Exam Reference Language in the paper."
+          },
+          {
+            "title": "Is there any coursework or non-exam assessment?",
+            "content": "No. Both qualifications are assessed entirely by written examination. Both specifications require that students get practical programming experience during the course, but that experience is not separately marked, which is exactly why it is so easy for it to quietly not happen."
+          },
+          {
+            "title": "How much SQL is needed for AQA?",
+            "content": "Enough to write and refine queries, not just recognise them. Relational databases and SQL are in the subject content and the specification asks for practical experience of writing and refining SQL. Selecting from more than one table with a condition and an ordering covers most of what is asked."
+          },
+          {
+            "title": "My child understands it all but keeps losing marks. What is going on?",
+            "content": "Nine times out of ten it is the programming paper, and the cause is that understanding was built by watching. Ask them to write a small program from a blank file, with no notes, while you sit there. Whatever happens in the next ten minutes is the actual diagnosis."
+          },
+          {
+            "title": "When should revision start for a summer exam?",
+            "content": "The knowledge paper can be revised from Easter and still go well. The programming paper cannot, because fluency takes months rather than weeks. Programming practice should be running all through Year 11, at whatever small daily size is sustainable."
+          },
+          {
+            "title": "Are trace tables really worth practising?",
+            "content": "Yes, more than almost anything else per minute spent. They appear directly in the papers, they force the code tracing skill the specifications name, and they are the fastest way to find out whether a student is reading code or recognising the shape of code."
+          }
+        ]
+      }
+    ]
+  },
+  "relatedPosts": [
+    "igcse-computer-science-0478-pseudocode-guide",
+    "ib-computer-science-ia-client-rule-2027",
+    "how-to-get-a-5-in-ap-computer-science-a"
+  ]
+}
