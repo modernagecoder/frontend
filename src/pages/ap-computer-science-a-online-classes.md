@@ -90,7 +90,7 @@ Mapped to the four College Board units. Module numbering follows our teaching or
 7 classes · Unit 3
 
 - Constructors, instance variables, accessors and mutators
-- Inheritance, overriding and polymorphism in the form the exam asks for
+- File input and output, and the Scanner object, both now in the required sequence
 - Every exercise given as fixed signatures, as the free response does
 
 06
@@ -105,13 +105,13 @@ Mapped to the four College Board units. Module numbering follows our teaching or
 
 07
 
-### 2D arrays and recursion over collections
+### 2D arrays and working with data sets
 
 6 classes · Unit 4
 
 - Row-major traversal, and the column traversal students forget
 - The FRQ 4 pattern, from a blank file, many times
-- Recursion applied to collections rather than to toy sequences
+- Data sets, which the redesign moved into the required sequence
 
 08
 
@@ -159,8 +159,8 @@ Both tables below come from College Board's own published course and exam materi
 | --- | --- | --- | --- |
 | 1. Using Objects and Methods | Objects, methods, String, Math, parameters | 15 to 25% | Term 1, weeks 1 to 6 |
 | 2. Selection and Iteration | Conditionals, loops, nested loops, tracing | 25 to 35% | Term 1, weeks 5 to 12 |
-| 3. Class Creation | Writing classes, constructors, inheritance, polymorphism | 10 to 18% | Term 2, weeks 1 to 7 |
-| 4. Data Collections | Arrays, ArrayList, 2D arrays, recursion over collections | 30 to 40% | Started term 1, finished term 2 |
+| 3. Class Creation | Writing a class from a specification: constructors, instance variables, accessors | 10 to 18% | Term 2, weeks 1 to 7 |
+| 4. Data Collections | Arrays, ArrayList, 2D arrays, traversal and standard algorithms | 30 to 40% | Started term 1, finished term 2 |
 
 Two things follow from the second table that are worth saying plainly. Selection and Iteration plus Data Collections account for somewhere between fifty-five and seventy-five per cent of the multiple choice between them, which means loops over collections are the centre of gravity of the whole qualification. And Class Creation, at ten to eighteen per cent, is the smallest unit by weight despite being the part most students find conceptually hardest, so it deserves careful teaching and not a disproportionate share of the year.
 
@@ -206,12 +206,12 @@ Two live classes a week, one to one or in a batch of five to eight, with past-pa
 2. #### Weeks 5 to 12: selection, iteration and tracing under time
 
   Unit 2, the second-heaviest unit. Nested loops from the start, and the two-column tracing method drilled until it is automatic, because a quarter to a third of the multiple choice turns on predicting what a fragment does.
-3. #### Weeks 13 to 19: class creation, inheritance and writing to a specification
+3. #### Weeks 13 to 19: class creation, and writing to a specification
 
   Unit 3. Every exercise is given as a specification with fixed signatures, which is how the free-response section presents it, so that following a specification is normal rather than a constraint discovered in the exam hall.
 4. #### Weeks 13 to 26, running alongside: collections in depth
 
-  Unit 4, and it never stops. Arrays, ArrayList, two-dimensional traversal, and recursion over collections. Every worked example from week 13 onwards uses a collection rather than a single variable, so the heaviest-weighted material is the most rehearsed.
+  Unit 4, and it never stops. Arrays, ArrayList, two-dimensional traversal, and the standard algorithms over them. Every worked example from week 13 onwards uses a collection rather than a single variable, so the heaviest-weighted material is the most rehearsed.
 5. #### Weeks 27 to 32: full papers, marked to the published rubric
 
   Timed sections in the real format. The teacher marks to the rubric rather than to intent, which is uncomfortable the first two times and is the fastest route to understanding how points are actually awarded.
@@ -504,8 +504,6 @@ The other nine
 ## The other nine exams we prepare students for
 
 Same method, different specification. If your child sits more than one of these, or you are choosing between curricula, these pages set out what each actually asks for.
-
-[AP Computer Science PrinciplesAny language](/ap-computer-science-principles-online-coaching)[Cambridge IGCSE 0478Python, VB, Java](/cambridge-igcse-computer-science-tuition)[Cambridge A Level 9618Python, VB, Java](/cambridge-a-level-computer-science-online-classes)[UK GCSE Computer SciencePython](/uk-gcse-computer-science-tutoring)[IB Diploma Computer ScienceJava or Python](/ib-computer-science-online-tuition)[USACOC++, Java, Python](/usaco-preparation-online-coaching)[Informatics olympiadsC++](/ioi-olympiad-informatics-training)[PCEP and PCAPPython](/python-certification-pcep-pcap-course)[Canadian Computing CompetitionC++, Java, Python](/canadian-computing-competition-ccc-prep)
 
 AP Computer Science A questions
 
