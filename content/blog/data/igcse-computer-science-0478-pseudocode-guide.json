@@ -1,0 +1,293 @@
+{
+  "meta": {
+    "slug": "igcse-computer-science-0478-pseudocode-guide",
+    "title": "IGCSE 0478 Pseudocode: The Rules Examiners Mark",
+    "description": "Cambridge publishes the exact pseudocode conventions used in 0478 papers. Here they are, with the indentation and identifier rules almost nobody teaches.",
+    "keywords": [
+      "igcse computer science pseudocode",
+      "0478 pseudocode guide",
+      "cambridge igcse pseudocode rules",
+      "igcse pseudocode examples",
+      "pseudocode to python igcse",
+      "0478 paper 2 algorithms"
+    ],
+    "author": {
+      "name": "Modern Age Coders Team",
+      "bio": "Expert educators making coding and maths clear for ages 6 to 67.",
+      "avatar": "/images/logo.svg"
+    },
+    "date": "2026-08-21",
+    "dateModified": "2026-08-21",
+    "category": "Education",
+    "tags": [
+      "IGCSE",
+      "Cambridge",
+      "Pseudocode",
+      "Python"
+    ],
+    "readTime": "8 min read",
+    "featured": false,
+    "tldr": "Cambridge sets out the exact pseudocode conventions used in IGCSE Computer Science 0478 examinations, and marks against them. Keywords are capitalised, identifiers use Pascal case with no underscores, assignment is a left arrow, indentation is four spaces except for THEN and ELSE which take two, and DIV and MOD are written as functions. Candidates may answer in pseudocode or in Python, Visual Basic or Java, and the trap in translating to Python is that SUBSTRING counts the first character as position 1 while a Python slice counts it as 0."
+  },
+  "hero": {
+    "title": "IGCSE 0478 Pseudocode: The Rules Examiners Mark",
+    "subtitle": "Cambridge publishes precisely how pseudocode appears in the papers. Most students meet a teacher's version of it instead, and lose marks to the difference.",
+    "featuredImage": {
+      "url": "/images/blog/igcse-computer-science-0478-pseudocode-guide/00-hero.png",
+      "alt": "IGCSE Computer Science 0478 pseudocode conventions, showing the two space indentation of THEN and ELSE"
+    }
+  },
+  "content": {
+    "sections": [
+      {
+        "type": "toc"
+      },
+      {
+        "type": "paragraph",
+        "text": "There is a document most IGCSE Computer Science students never open, and it contains the answer to almost every argument they have ever had with a classmate about how to write an algorithm. It is the pseudocode section of the 0478 syllabus, and it sets out exactly how pseudocode appears in the examinations. Not a house style. The house style, published by the people who write the paper."
+      },
+      {
+        "type": "paragraph",
+        "text": "This matters because pseudocode at 0478 is not one thing. It is a specific, tightly defined notation with rules about capital letters, indentation, arrows, quote marks and function calls. A student who writes something that reads perfectly clearly but ignores those conventions is writing an answer the mark scheme was not designed to reward."
+      },
+      {
+        "type": "callout",
+        "calloutType": "info",
+        "title": "What the syllabus permits",
+        "text": "Where a question requires an algorithm, candidates may answer in pseudocode, or in Python, Visual Basic or Java. It is a genuine choice and neither route is worth more. What is not a choice is doing pseudocode approximately: if a student picks pseudocode, it is worth doing in the notation the paper is written in."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "The indentation rule nobody teaches",
+        "id": "indentation"
+      },
+      {
+        "type": "paragraph",
+        "text": "Start with the one that surprises even good students. Lines are indented by four spaces to show they sit inside a statement above. But the THEN and ELSE clauses of an IF statement are indented by only <strong>two</strong>, and so are the branches of a CASE statement. The syllabus explains why: they are continuations of the IF, rather than statements in their own right."
+      },
+      {
+        "type": "code",
+        "language": "text",
+        "code": "IF ChallengerScore > ChampionScore\n  THEN\n    IF ChallengerScore > HighestScore\n      THEN\n        OUTPUT ChallengerName, \" is champion and highest scorer\"\n      ELSE\n        OUTPUT Player1Name, \" is the new champion\"\n    ENDIF\n  ELSE\n    OUTPUT ChampionName, \" is still the champion\"\nENDIF"
+      },
+      {
+        "type": "paragraph",
+        "text": "Count the spaces. THEN sits two in from its IF. The statement under THEN sits two further. When IF statements nest, that two space step continues. Written this way, a nested selection stays readable at a glance, which is the entire point of the convention, and it is also the difference between an answer a marker can follow and one they have to reconstruct."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Identifiers, and the four ways to lose a mark",
+        "id": "identifiers"
+      },
+      {
+        "type": "image",
+        "url": "/images/blog/igcse-computer-science-0478-pseudocode-guide/01-identifiers.png",
+        "alt": "Accepted and rejected identifier names under the IGCSE 0478 pseudocode conventions",
+        "caption": "The naming rules are narrow and completely specified."
+      },
+      {
+        "type": "paragraph",
+        "text": "Identifiers are the names given to variables, constants, procedures and functions, and the rules for them are strict."
+      },
+      {
+        "type": "list",
+        "style": "unordered",
+        "items": [
+          "<strong>Pascal case.</strong> Mixed case with a capital at the start of each word, so <code>NumberOfPlayers</code> and <code>TotalToPay</code>.",
+          "<strong>Letters and digits only.</strong> No underscores. A student who has learned Python naming habits will reach for <code>number_of_players</code> without thinking about it.",
+          "<strong>Start with a capital letter, never a digit.</strong> The single letter conventions survive, so <code>i</code> and <code>j</code> for array indices and <code>X</code> and <code>Y</code> for coordinates are fine, because convention makes them clear.",
+          "<strong>No accented characters.</strong> Worth saying plainly for the many 0478 candidates whose first language uses them."
+        ]
+      },
+      {
+        "type": "paragraph",
+        "text": "One more, easy to miss and occasionally fatal: identifiers are treated as case insensitive. <code>Countdown</code> and <code>CountDown</code> are the same variable, so an algorithm that uses both as if they were two is broken, however tidy it looks."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Types, literals and the arrow",
+        "id": "types-and-literals"
+      },
+      {
+        "type": "paragraph",
+        "text": "Five data types are used: INTEGER, REAL, CHAR, STRING and BOOLEAN. Variables are declared, constants are declared differently, and assignment uses a left arrow rather than an equals sign, which frees the equals sign to mean comparison and nothing else."
+      },
+      {
+        "type": "code",
+        "language": "text",
+        "code": "DECLARE Counter    : INTEGER\nDECLARE TotalToPay : REAL\nDECLARE GameOver   : BOOLEAN\n\nCONSTANT HourlyRate  <- 6.50\nCONSTANT DefaultText <- \"N/A\"\n\nCounter    <- 0\nCounter    <- Counter + 1\nTotalToPay <- NumberOfHours * HourlyRate"
+      },
+      {
+        "type": "callout",
+        "calloutType": "warning",
+        "title": "Two literal rules that catch people out",
+        "text": "A REAL literal always has at least one digit on each side of the decimal point, so 4.0 and 0.0 rather than 4. and .0. And a CONSTANT can only be given a literal value, never a variable, another constant, or an expression. Writing CONSTANT DoubleRate as HourlyRate times 2 is not a small liberty, it is outside the notation."
+      },
+      {
+        "type": "paragraph",
+        "text": "In the real syllabus that arrow is a genuine left arrow character. Handwritten in an exam, draw it as an arrow. Typed, most students write it as a less-than sign followed by a hyphen, which is what the code above does and which no examiner has ever objected to."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Arrays, declared with both bounds",
+        "id": "arrays"
+      },
+      {
+        "type": "paragraph",
+        "text": "Arrays are fixed length and declared with an explicit lower and upper bound, which removes the perennial argument about whether counting starts at 0 or 1. The syllabus says the lower bound should be stated explicitly, and that a lower bound of 1 will generally be used."
+      },
+      {
+        "type": "code",
+        "language": "text",
+        "code": "DECLARE StudentNames     : ARRAY[1:30] OF STRING\nDECLARE NoughtsAndCrosses : ARRAY[1:3, 1:3] OF CHAR\n\nStudentNames[1]        <- \"Ali\"\nNoughtsAndCrosses[2,3] <- 'X'\n\nFOR Index <- 1 TO 30\n    StudentNames[Index] <- \"\"\nNEXT Index"
+      },
+      {
+        "type": "paragraph",
+        "text": "Note the last three lines. A FOR loop ends with NEXT followed by the loop identifier, not with a bare NEXT and not with ENDFOR. Small, and it appears in almost every algorithm question on the paper."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "The three loops, and choosing the right one",
+        "id": "loops"
+      },
+      {
+        "type": "image",
+        "url": "/images/blog/igcse-computer-science-0478-pseudocode-guide/03-three-loops.png",
+        "alt": "The three IGCSE 0478 loop structures: FOR, REPEAT UNTIL and WHILE DO",
+        "caption": "Count controlled, post condition and pre condition, with the case each one answers."
+      },
+      {
+        "type": "paragraph",
+        "text": "Questions that say how many times something happens want FOR. Questions about validating an input want REPEAT, because the user must be asked at least once. Questions where the work might not be needed at all want WHILE, because a pre condition loop can run zero times. Choosing wrongly rarely makes an algorithm incorrect, and it frequently makes it clumsy enough to lose a mark for efficiency."
+      },
+      {
+        "type": "paragraph",
+        "text": "Watch the shapes. WHILE puts DO at the end of its first line and closes with ENDWHILE. REPEAT has no opening condition at all and closes with UNTIL. FOR closes with NEXT and the identifier."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "If you answer in Python instead",
+        "id": "python-translation"
+      },
+      {
+        "type": "paragraph",
+        "text": "Plenty of strong candidates answer the algorithm questions in Python, and the syllabus explicitly allows it. The translation is mostly mechanical, with one genuine trap."
+      },
+      {
+        "type": "image",
+        "url": "/images/blog/igcse-computer-science-0478-pseudocode-guide/02-translation.png",
+        "alt": "Table translating IGCSE 0478 pseudocode library routines into Python with their results",
+        "caption": "Everything translates cleanly except the one row where the counting starts differently."
+      },
+      {
+        "type": "code",
+        "language": "python",
+        "code": "text = \"Happy Days\"\n\n# LENGTH(Text)\nprint(len(text))\n\n# SUBSTRING(Text, 1, 5), where 1 is the FIRST character\nprint(text[0:5])\n\n# UCASE and LCASE\nprint(text.upper(), text.lower())\n\n# DIV(10, 3) and MOD(10, 3)\nprint(10 // 3, 10 % 3)\n\n# ROUND(Value, 2)\nprint(round(3.14159, 2))"
+      },
+      {
+        "type": "code",
+        "language": "text",
+        "code": "10\nHappy\nHAPPY DAYS happy days\n3 1\n3.14"
+      },
+      {
+        "type": "paragraph",
+        "text": "There it is on the second line. <code>SUBSTRING(Text, 1, 5)</code> starts at the first character, because 0478 pseudocode counts from 1. Python counts from 0, so the equivalent slice starts at 0. A student who translates the position across unchanged gets an answer that is off by one character every time, and because the output still looks like a plausible piece of text, they will not notice."
+      },
+      {
+        "type": "paragraph",
+        "text": "The rest behaves. DIV becomes floor division and MOD becomes the remainder operator, and both give the same answers. Which raises the other thing worth knowing: at IGCSE, <strong>DIV and MOD are written as functions</strong>, so <code>DIV(10, 3)</code> and <code>MOD(10, 3)</code>. Students who move on to A Level will find them written as operators there instead, and students who arrive at IGCSE from an A Level textbook write them the wrong way round."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Ten rules to read on the morning of the paper",
+        "id": "checklist"
+      },
+      {
+        "type": "image",
+        "url": "/images/blog/igcse-computer-science-0478-pseudocode-guide/04-checklist.png",
+        "alt": "Ten IGCSE 0478 pseudocode conventions summarised as a checklist",
+        "caption": "The whole notation, compressed to what is worth rereading before the paper."
+      },
+      {
+        "type": "paragraph",
+        "text": "None of these are difficult. All of them are the sort of thing that evaporates under exam pressure, which is exactly why a two minute read on the morning is worth more than another practice paper."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "How we teach the algorithm questions",
+        "id": "how-we-teach"
+      },
+      {
+        "type": "paragraph",
+        "text": "The pattern we see in students who arrive already studying 0478 is nearly always the same. They can describe what an algorithm should do, out loud, correctly. What they cannot do is write it in the notation the paper expects, so the marker sees a rough sketch instead of an answer. That gap closes in a few weeks of writing algorithms by hand and having them read back critically, and it does not close by reading about it."
+      },
+      {
+        "type": "paragraph",
+        "text": "Our <a href='/cambridge-igcse-computer-science-tuition'>IGCSE Computer Science tuition</a> is live, one to one or in a batch of five to eight students, taught from India to students worldwide. We teach the pseudocode notation and the chosen programming language side by side, because the paper permits either and a student who can move between them is never stuck. The first class is free, and the most useful thing to bring is a past paper algorithm question the student found hard."
+      },
+      {
+        "type": "button",
+        "text": "Book a free IGCSE Computer Science class",
+        "url": "/cambridge-igcse-computer-science-tuition",
+        "style": "primary"
+      },
+      {
+        "type": "quote",
+        "text": "A student who writes clear pseudocode is usually one who thinks clearly. The notation is not the point of it, but learning the notation is what forces the thinking to become explicit.",
+        "author": "Why we start algorithms early rather than late"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Frequently asked questions",
+        "id": "faq"
+      },
+      {
+        "type": "accordion",
+        "items": [
+          {
+            "title": "Do students have to use pseudocode, or can they write Python?",
+            "content": "Either. The syllabus lets candidates answer algorithm questions in pseudocode or in Python, Visual Basic or Java, and neither is worth more marks. The advice we give is to pick one and become genuinely fluent in it, rather than switching between them depending on the question."
+          },
+          {
+            "title": "Does handwriting the arrow matter?",
+            "content": "Draw an arrow and no examiner will mind. What does matter is not using an equals sign for assignment, because the equals sign means comparison in this notation and using it for both makes conditions ambiguous."
+          },
+          {
+            "title": "What happens if a student mixes up the indentation?",
+            "content": "It is unlikely to lose a mark on its own for a short algorithm. On a long nested one it can, because an examiner who cannot see which statements sit inside which branch cannot award the logic marks. The two space rule for THEN and ELSE is worth learning simply because it makes nesting legible."
+          },
+          {
+            "title": "Is the pseudocode the same at A Level?",
+            "content": "Similar but not identical, and the differences are the sort that cause errors. DIV and MOD are functions at IGCSE and operators at A Level, and the A Level notation adds structures that IGCSE does not use. A student moving up should read the A Level pseudocode section fresh rather than assume."
+          },
+          {
+            "title": "Which programming language should a 0478 student learn?",
+            "content": "Python for most students, because the code stays short and the syntax does not get in the way of showing the algorithm. Java suits a student already heading toward AP Computer Science A or A Level, and Visual Basic is worth choosing only if that is what the school teaches."
+          },
+          {
+            "title": "How much of the exam is algorithms and pseudocode?",
+            "content": "Enough that it decides grades. The algorithm and programming content sits in section 8 of the subject content and appears across the papers, so a candidate weak on it is capped well below the top grades no matter how strong they are on hardware and networks."
+          },
+          {
+            "title": "Where can we read the official conventions ourselves?",
+            "content": "In the 0478 syllabus document published by Cambridge, in the section headed Pseudocode within the details of the assessment. Make sure the copy you read covers the right examination years, because the conventions are stable but not frozen."
+          }
+        ]
+      }
+    ]
+  },
+  "relatedPosts": [
+    "igcse-computer-science-explained-for-parents",
+    "how-to-get-a-5-in-ap-computer-science-a",
+    "ap-csp-vs-ap-csa-which-to-take-first"
+  ]
+}
