@@ -1,0 +1,313 @@
+{
+  "meta": {
+    "slug": "pcep-vs-pcap-which-python-certification",
+    "title": "PCEP vs PCAP: Which Python Certification Is Worth It?",
+    "description": "The two Python Institute certifications are four times apart in price and test different things. An honest look at what each proves and who should buy one.",
+    "keywords": [
+      "pcep vs pcap",
+      "python certification worth it",
+      "pcep exam",
+      "pcap exam",
+      "python institute certification",
+      "pcap closures generators"
+    ],
+    "author": {
+      "name": "Modern Age Coders Team",
+      "bio": "Expert educators making coding and maths clear for ages 6 to 67.",
+      "avatar": "/images/logo.svg"
+    },
+    "date": "2026-08-21",
+    "dateModified": "2026-08-21",
+    "category": "Career",
+    "tags": [
+      "Python",
+      "Certification",
+      "Career",
+      "PCAP"
+    ],
+    "readTime": "8 min read",
+    "featured": false,
+    "tldr": "PCEP is the entry level Python Institute certification: 30 questions in 40 minutes, 70 per cent to pass, from 69 US dollars. PCAP is the associate level: 40 questions in 65 minutes, the same pass mark, from 295 dollars, valid for five years, and it covers modules and packages, strings and encoding, generators and iterators and closures, file processing, exception hierarchies and object oriented programming. Neither replaces work somebody can look at, but both give a beginner a deadline and a syllabus, which is worth more than most people admit."
+  },
+  "hero": {
+    "title": "PCEP vs PCAP: Which Python Certification Is Worth It?",
+    "subtitle": "Two certifications from the same organisation, four times apart in price, testing two genuinely different levels. Here is what each one proves, and when neither is the right purchase.",
+    "featuredImage": {
+      "url": "/images/blog/pcep-vs-pcap-which-python-certification/00-hero.png",
+      "alt": "PCEP from 69 dollars with 30 questions against PCAP from 295 dollars with 40 questions"
+    }
+  },
+  "content": {
+    "sections": [
+      {
+        "type": "toc"
+      },
+      {
+        "type": "paragraph",
+        "text": "Somebody who has been learning Python for a few months hears about certification and finds two of them from the same organisation, one costing under a hundred dollars and one costing nearly three hundred. The obvious questions follow. Are they the same thing at two levels? Does anybody care about them? Is either worth the money?"
+      },
+      {
+        "type": "paragraph",
+        "text": "Short version: they are genuinely different exams rather than a hard and easy version of one exam, the price gap is real and reflects that, and whether either is worth buying depends on something specific about your situation rather than on whether certifications are good."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "The two exams, line by line",
+        "id": "the-numbers"
+      },
+      {
+        "type": "image",
+        "url": "/images/blog/pcep-vs-pcap-which-python-certification/01-side-by-side.png",
+        "alt": "Comparison table of the PCEP and PCAP Python certifications",
+        "caption": "Same pass mark, different length, and a four times price difference."
+      },
+      {
+        "type": "table",
+        "headers": [
+          "",
+          "PCEP",
+          "PCAP"
+        ],
+        "rows": [
+          [
+            "Level",
+            "Entry",
+            "Associate"
+          ],
+          [
+            "Current exam code",
+            "PCEP-30-02",
+            "PCAP-31-03"
+          ],
+          [
+            "Questions",
+            "30",
+            "40"
+          ],
+          [
+            "Time",
+            "40 minutes",
+            "65 minutes"
+          ],
+          [
+            "Pass mark",
+            "70 per cent",
+            "70 per cent"
+          ],
+          [
+            "Price from",
+            "USD 69",
+            "USD 295"
+          ],
+          [
+            "Prerequisite",
+            "None",
+            "None, PCEP recommended"
+          ]
+        ]
+      },
+      {
+        "type": "paragraph",
+        "text": "Both are sat online with a proctor, both add a few extra minutes for the agreement and tutorial before the clock starts, and both use question formats beyond simple multiple choice. PCEP in particular mixes in drag and drop, gap fill, sorting, code fill and code insertion items, which is worth knowing in advance because it is not the format most practice material trains you on."
+      },
+      {
+        "type": "callout",
+        "calloutType": "info",
+        "title": "A version to watch if you are booking ahead",
+        "text": "The Python Institute lists PCAP-31-04 as in development for release in the third quarter of 2026. If you are planning several months out it is worth checking which version is live when you book, because a syllabus revision changes what your practice material is preparing you for."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "What each one actually covers",
+        "id": "the-topics"
+      },
+      {
+        "type": "image",
+        "url": "/images/blog/pcep-vs-pcap-which-python-certification/02-topics.png",
+        "alt": "The topic areas covered by PCEP and by PCAP",
+        "caption": "PCAP is not harder PCEP. It is the next set of ideas."
+      },
+      {
+        "type": "paragraph",
+        "text": "<strong>PCEP</strong> covers the first months of Python: literals and variables, numeral systems and operators, data types, input and output, conditionals and loops, lists and tuples and dictionaries, functions, and the basics of exceptions. A person who has genuinely finished a beginner course knows all of it, and the exam is largely a test of whether they know it precisely rather than approximately."
+      },
+      {
+        "type": "paragraph",
+        "text": "<strong>PCAP</strong> is a different set of ideas rather than the same ones turned up. Modules, packages and PIP. Character encoding, strings and string processing. Generators, iterators and closures. Files, file streams and file processing. Exception hierarchies as classes and objects. The Standard Library. And object oriented programming, which is the largest single block of it."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Two PCAP topics that people think they know",
+        "id": "closures-and-generators"
+      },
+      {
+        "type": "paragraph",
+        "text": "Here is what associate level means in practice. Take closures. Most self taught programmers have written one without noticing, and most cannot predict what this does."
+      },
+      {
+        "type": "code",
+        "language": "python",
+        "code": "def make_multipliers_wrong():\n    result = []\n    for n in range(1, 4):\n        result.append(lambda x: x * n)\n    return result\n\n\ndef make_multipliers_right():\n    result = []\n    for n in range(1, 4):\n        result.append(lambda x, n=n: x * n)\n    return result\n\n\nprint(\"wrong:\", [f(10) for f in make_multipliers_wrong()])\nprint(\"right:\", [f(10) for f in make_multipliers_right()])"
+      },
+      {
+        "type": "code",
+        "language": "text",
+        "code": "wrong: [30, 30, 30]\nright: [10, 20, 30]"
+      },
+      {
+        "type": "image",
+        "url": "/images/blog/pcep-vs-pcap-which-python-certification/03-closures.png",
+        "alt": "Two closure implementations side by side, one showing late binding and one binding at definition",
+        "caption": "The same loop, two lambdas, two completely different results."
+      },
+      {
+        "type": "paragraph",
+        "text": "The first list gives 30, 30, 30. Every lambda looks up <code>n</code> when it is called, not when it was created, and by then the loop has finished and <code>n</code> is 3. The second binds the current value through a default argument, so you get 10, 20, 30. This is not a trick question and it is not a Python quirk. It is what a closure is, and PCAP expects a candidate to be able to say why rather than to have memorised the fix."
+      },
+      {
+        "type": "paragraph",
+        "text": "Or generators, where the point is what is not built."
+      },
+      {
+        "type": "code",
+        "language": "python",
+        "code": "import sys\n\n\ndef squares(limit):\n    for n in range(limit):\n        yield n * n\n\n\ngen = squares(1_000_000)\nlst = [n * n for n in range(1_000_000)]\n\nprint(\"generator object :\", sys.getsizeof(gen), \"bytes\")\nprint(\"list of the same :\", sys.getsizeof(lst), \"bytes\")\nprint(\"first three from the generator:\", [next(gen) for _ in range(3)])"
+      },
+      {
+        "type": "code",
+        "language": "text",
+        "code": "generator object : 200 bytes\nlist of the same : 8448728 bytes\nfirst three from the generator: [0, 1, 4]"
+      },
+      {
+        "type": "image",
+        "url": "/images/blog/pcep-vs-pcap-which-python-certification/04-generators.png",
+        "alt": "Measured size comparison of a generator object against a list of a million squares",
+        "caption": "The generator has not made anything yet, which is the entire idea."
+      },
+      {
+        "type": "paragraph",
+        "text": "The list of a million squares occupies 8,448,728 bytes. The generator occupies 200, roughly 42,244 times smaller, because it has produced nothing at all until something asks it for a value. Then <code>next</code> is called three times and out come 0, 1 and 4. Understanding that difference is the sort of thing that separates somebody who can use Python from somebody who can reason about it, which is exactly the line PCAP is trying to draw."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "So is either one worth the money?",
+        "id": "worth-it"
+      },
+      {
+        "type": "paragraph",
+        "text": "Here is the honest answer, and it is not the one certification providers give. <strong>No employer will hire somebody because they hold PCAP.</strong> What gets people hired is work somebody can look at, and a certificate is not that. Anybody promising otherwise is selling something."
+      },
+      {
+        "type": "paragraph",
+        "text": "Two things a certification does give you, though, and both are genuinely valuable to the right person."
+      },
+      {
+        "type": "list",
+        "style": "unordered",
+        "items": [
+          "<strong>A deadline with money attached.</strong> Most people who quit learning to program do not quit because it was too hard, they quit because nothing was due. A booked exam with a fee paid is an unusually effective commitment device, and for a self taught learner working alone that structure can be worth the price on its own.",
+          "<strong>A syllabus written by somebody else.</strong> Self taught learners develop lopsided knowledge and cannot see the gaps, because you do not know what you have not met. Working through the PCAP topic list surfaces the parts you skipped, which for most people is generators, encoding and the exception hierarchy."
+        ]
+      },
+      {
+        "type": "paragraph",
+        "text": "So the cases where we would say yes: a career changer who needs something concrete on a CV that has no computing on it at all, a student who needs external structure and responds to deadlines, or somebody whose employer will reimburse the fee. The case where we would say no: a person who could spend those three hundred dollars on nothing and instead ship two small projects with a readme and a link, because those will do more."
+      },
+      {
+        "type": "callout",
+        "calloutType": "tip",
+        "title": "If you take one, take it in the right order",
+        "text": "There is no formal prerequisite for PCAP, and taking it cold is a common and expensive mistake. PCEP costs under a fifth as much and covers the ground PCAP assumes. Sitting PCEP first also tells you something useful before you spend the larger fee: whether you are the kind of person who does well in this exam format."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "How to prepare, whichever you choose",
+        "id": "how-to-prepare"
+      },
+      {
+        "type": "list",
+        "style": "ordered",
+        "items": [
+          "<strong>Write code, do not read about code.</strong> Both exams include items that ask you to complete or insert code, and recognition is not the same skill as production. Everything on the PCAP list can be practised in a file.",
+          "<strong>Predict before you run.</strong> Take a snippet, say out loud what it will print, then run it. Every gap between prediction and reality is a piece of the exam you would otherwise have got wrong.",
+          "<strong>Learn the exception hierarchy properly.</strong> It is the topic candidates most reliably skim, and it is a whole block of the PCAP syllabus. Exceptions are classes with parents, and once that lands, most of the questions become straightforward.",
+          "<strong>Do at least one timed practice under the real clock.</strong> Forty questions in sixty five minutes is well under two minutes each, and candidates who have never rehearsed the pace lose marks to time rather than to knowledge."
+        ]
+      },
+      {
+        "type": "quote",
+        "text": "A certificate proves you passed an exam. A repository proves you can build something. If you can only afford one of those, build the thing.",
+        "author": "What we tell adult learners who ask about certification"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "How we teach it",
+        "id": "how-we-teach"
+      },
+      {
+        "type": "paragraph",
+        "text": "We teach the certification course because a lot of adult learners want the structure it provides, and because the PCAP syllabus happens to be a good list of the things self taught programmers miss. What we will not do is teach to the exam only, because a person who passes PCAP and cannot build anything has bought an expensive piece of paper."
+      },
+      {
+        "type": "paragraph",
+        "text": "Our <a href='/python-certification-pcep-pcap-course'>Python certification classes</a> are live, one to one or in a batch of five to eight students, taught from India to students worldwide. The course works through the syllabus with code written in every session, and if the honest recommendation on the free first class is that you should skip the exam and build a portfolio instead, that is what you will hear."
+      },
+      {
+        "type": "button",
+        "text": "Book a free Python certification class",
+        "url": "/python-certification-pcep-pcap-course",
+        "style": "primary"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Frequently asked questions",
+        "id": "faq"
+      },
+      {
+        "type": "accordion",
+        "items": [
+          {
+            "title": "Do I need PCEP before PCAP?",
+            "content": "Not formally. There is no prerequisite, and the Python Institute recommends rather than requires it. Practically, PCEP costs a small fraction of PCAP and covers ground PCAP assumes, so taking it first is cheap insurance and a useful rehearsal of the exam format."
+          },
+          {
+            "title": "How long is the certification valid?",
+            "content": "PCAP is listed as valid for five years. Check the current terms for whichever exam you are booking, because these details do change and the version you sit matters."
+          },
+          {
+            "title": "What score do I need?",
+            "content": "Seventy per cent for both. On PCAP that means 28 of 40 items, and on PCEP 21 of 30, though the exams use several question formats and some items are worth more than others, so treat those numbers as a guide rather than a count."
+          },
+          {
+            "title": "Is a certification enough to get a job?",
+            "content": "No, and it is worth being blunt about this. Hiring decisions are made on evidence of work. A certificate can help a career changer get a first conversation when there is nothing else on the CV, but it does not substitute for something a person can look at and run."
+          },
+          {
+            "title": "Which is better, a certification or a degree module?",
+            "content": "They do different jobs. A degree module is assessed teaching over months. A certification is a measurement on one afternoon. If the goal is learning, the teaching wins. If the goal is a specific credential quickly and cheaply, the exam wins."
+          },
+          {
+            "title": "Can school students take these?",
+            "content": "Yes, and teenagers do. PCEP suits a student who has finished a real beginner course and wants something external to aim at. For a student already heading toward a computing degree, an olympiad or an AP or A Level computing course usually carries more weight than a vendor certification."
+          },
+          {
+            "title": "How long does preparation usually take?",
+            "content": "For PCEP, a few weeks on top of a completed beginner course. For PCAP, two to four months for somebody comfortable with the basics, and the variable is almost always object oriented programming, which is the largest block and the one self taught learners have most often skipped."
+          }
+        ]
+      }
+    ]
+  },
+  "relatedPosts": [
+    "how-to-revise-gcse-computer-science",
+    "cambridge-9618-paper-4-python-java-or-visual-basic",
+    "usaco-bronze-to-silver-what-blocks-most-students"
+  ]
+}
