@@ -306,6 +306,7 @@ Ages 6 to 67, small live batches, priced from USD 100 a month.
 - How to Debug Code: https://learn.modernagecoders.com/how-to-debug-code
 - How LLMs Actually Work: https://learn.modernagecoders.com/how-llms-actually-work
 - AP Computer Science A: https://learn.modernagecoders.com/ap-computer-science-a-online-classes
+- AP Computer Science Principles: https://learn.modernagecoders.com/ap-computer-science-principles-online-coaching
 ## Coding Classes by State, Province & Market
 
 Live online coding and mathematics for a specific state, province or market,

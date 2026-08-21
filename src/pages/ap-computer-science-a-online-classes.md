@@ -244,7 +244,7 @@ Outcomes
 
 ## What a student can do by the end of the course
 
-Written as capabilities rather than promises, because a capability is something a teacher can demonstrate and a score is not.
+These are things a teacher can watch a student do on a given Tuesday. We list them instead of a predicted grade because one of the two is checkable.
 
 ### Write a class from a written specification without changing it
 
@@ -398,7 +398,7 @@ Fees
 
 ## What AP Computer Science A tuition costs
 
-One flat pair of figures everywhere we teach outside India, billed in US dollars and charged monthly with no minimum term, so a family can stop at the end of any month. No enrolment fee, and the first class is free without a card.
+Two figures, the same in every country we teach outside India, charged monthly. A family that decides in November this is not working stops in November and pays for nothing after it.
 
 Free first class
 
@@ -497,7 +497,7 @@ The other nine
 
 Same method, different specification. If your child sits more than one of these, or you are choosing between curricula, these pages set out what each actually asks for.
 
-[AP Computer Science PrinciplesAny language](/ap-computer-science-principles-online-coaching)[Cambridge IGCSE 0478Python, VB, Java](/cambridge-igcse-computer-science-tuition)[Cambridge A Level 9618Python, VB, Java](/cambridge-a-level-computer-science-online-classes)[UK GCSE Computer SciencePython](/uk-gcse-computer-science-tutoring)[IB Diploma Computer ScienceJava or Python](/ib-computer-science-online-tuition)[USACOC++, Java, Python](/usaco-preparation-online-coaching)[Informatics olympiadsC++](/ioi-olympiad-informatics-training)[PCEP and PCAPPython](/python-certification-pcep-pcap-course)[Canadian Computing CompetitionC++, Java, Python](/canadian-computing-competition-ccc-prep)
+[AP Computer Science PrinciplesAny language](/ap-computer-science-principles-online-coaching)
 
 AP Computer Science A questions
 
@@ -573,7 +573,7 @@ Rather read first? [The full course syllabus](/courses/ap-computer-science-a-jav
 
 [WhatsApp us](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders.%20I%20am%20interested%20in%20AP%20Computer%20Science%20A%20online%20classes.) · [+91 91233 66161](tel:+919123366161) · [contact@modernagecoders.com](mailto:contact@modernagecoders.com)
 
-Every class is live online, one to one or in a batch of five to eight, taught from India to students worldwide. No recording is ever sold in place of a class, and there is no centre anywhere. Sending the form opens a conversation rather than an enrolment.
+Classes are live, one to one or five to eight, taught from India at an hour that suits the student. Nothing here is a recording. Sending the form starts a conversation, not an enrolment.
 
 ---
 

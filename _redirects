@@ -1738,4 +1738,8 @@
 # Global Build-AI cluster (ai-global.css). Inserted before the /* catch-all.
 /ap-computer-science-a-online-classes /src/pages/ap-computer-science-a-online-classes.html 200
 /ap-computer-science-a-online-classes.md /src/pages/ap-computer-science-a-online-classes.md 200
+
+# Global Build-AI cluster (ai-global.css). Inserted before the /* catch-all.
+/ap-computer-science-principles-online-coaching /src/pages/ap-computer-science-principles-online-coaching.html 200
+/ap-computer-science-principles-online-coaching.md /src/pages/ap-computer-science-principles-online-coaching.md 200
 /* /src/pages/404.html 404

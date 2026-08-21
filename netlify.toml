@@ -7329,6 +7329,18 @@
   to = "/src/pages/ap-computer-science-a-online-classes.md"
   status = 200
 
+# Global Build-AI cluster (ai-global.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/ap-computer-science-principles-online-coaching"
+  to = "/src/pages/ap-computer-science-principles-online-coaching.html"
+  status = 200
+
+[[redirects]]
+  from = "/ap-computer-science-principles-online-coaching.md"
+  to = "/src/pages/ap-computer-science-principles-online-coaching.md"
+  status = 200
+
 [[redirects]]
   from = "/*"
   to = "/src/pages/404.html"
