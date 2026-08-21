@@ -39,7 +39,7 @@ type="text/markdown">` tag in the HTML head. The markdown URLs follow these patt
 - Resources practice: /content/resources/generated/{lang}/{chapter}/practice/index.md
 - Static pages:  /src/pages/{slug}.md
 
-> Generated: 2026-08-20 · Source of truth: https://learn.modernagecoders.com/llms.txt
+> Generated: 2026-08-21 · Source of truth: https://learn.modernagecoders.com/llms.txt
 
 Full companion to /llms.txt, brand overview, complete course catalog, embedded text of featured blog posts, and full blog index. AI agents that prefer a single document can use this as the canonical knowledge base.
 
@@ -77,7 +77,7 @@ Full companion to /llms.txt, brand overview, complete course catalog, embedded t
 
 **Q: How are classes conducted?** Live over video in groups of 4-8. Recorded for revision. Student dashboard at https://dashboard.modernagecoders.com
 
-## Course Catalog (119 courses)
+## Course Catalog (122 courses)
 
 Every Modern Age Coders course, grouped by audience.
 
@@ -667,7 +667,7 @@ One-year coding program for girls and women: web development, app creation, AI b
 
 A 1-year advanced coding and leadership program for women: grow from intermediate developer to tech leader with cloud, AI/ML, system design and real apps.
 
-### Other (23)
+### Other (26)
 
 ### [Advanced Git & GitHub Masterclass for Professionals](https://learn.modernagecoders.com/courses/git-github-advanced-version-control-masterclass-for-professionals/)
 
@@ -704,6 +704,12 @@ Live online AP Computer Science Principles course: programming fundamentals, dat
 *Level:* Complete Beginner to Advanced App Creator · *Duration:* 6 months (26 weeks) · *Group:* ₹1,499/month · *1-on-1:* ₹4,999/month
 
 A 6-month block-based app development course using Thunkable, MIT App Inventor and Scratch, for kids, teens and adults to build real mobile apps with no code.
+
+### [Cambridge AS and A Level Computer Science 9618 Course](https://learn.modernagecoders.com/courses/cambridge-a-level-computer-science-9618-course/)
+
+*Level:* Cambridge AS and A Level students on 9618; an IGCSE Computer Science background helps but is not required · *Duration:* 9 months (36 weeks) for the full A Level, joinable any month · *Group:* ₹1,499/month · *1-on-1:* ₹4,999/month
+
+Live online Cambridge AS and A Level Computer Science 9618 classes across all four papers, including the split most students are unprepared for: Paper 2 does not require program code, and Paper 4 is nothing but.
 
 ### [Canva & AI Design Course: Zero to Professional Designer](https://learn.modernagecoders.com/courses/canva-ai-design-masterclass/)
 
@@ -746,6 +752,12 @@ Live online data analytics for working professionals who do not code: clean and 
 *Level:* Complete Beginner to Professional Ethical Hacker · *Duration:* 6 months (26 weeks) - Can be taken as 1.5 hour daily sessions · *Group:* ₹1,499/month · *1-on-1:* ₹4,999/month
 
 Ethical hacking and cybersecurity course covering penetration testing, OWASP Top 10, network and wireless hacking, and bug bounty hunting, from zero to pro.
+
+### [GCSE Computer Science: AQA, OCR and Edexcel Exam Prep](https://learn.modernagecoders.com/courses/gcse-computer-science-course/)
+
+*Level:* GCSE students on AQA, OCR or Edexcel Computer Science; taught from the basics, no prior coding required · *Duration:* 6 months (24 weeks), joinable any month · *Group:* ₹1,499/month · *1-on-1:* ₹4,999/month
+
+Live online GCSE Computer Science classes taught to your child's actual board. AQA 8525, OCR J277 and Edexcel 1CP2 set different papers, and the course is built around the one they will sit.
 
 ### [Hackathon for Adults: Free Event + 12-Week Pro Prep (18+)](https://learn.modernagecoders.com/courses/hackathon-prep-for-adults-professionals-coding-ai-innovation-course/)
 
@@ -794,6 +806,12 @@ Kotlin course online: a 1-year masterclass from basics to professional apps, cov
 *Level:* Anyone with basic Python (PCEP level or equivalent) preparing for the PCAP associate certification · *Duration:* 4 months (16 weeks), joinable any month · *Group:* ₹1,499/month · *1-on-1:* ₹4,999/month
 
 Live online PCAP-31-03 preparation covering every exam objective: modules and packages, exceptions, strings, object-oriented Python, generators, closures and file processing, with full timed mock exams.
+
+### [PCEP and PCAP Python Certification Course](https://learn.modernagecoders.com/courses/pcep-pcap-python-certification-course/)
+
+*Level:* Anyone from about 13 upward, including working adults; no prior programming required for the PCEP half · *Duration:* 5 months (20 weeks) for PCEP then PCAP, joinable any month · *Group:* ₹1,499/month · *1-on-1:* ₹4,999/month
+
+Live online preparation for the Python Institute PCEP and PCAP certifications, built so that the repository a student finishes with is worth more than the certificate, and the certificate still passes.
 
 ### [Python Web Development with Django and Flask Course](https://learn.modernagecoders.com/courses/python-web-development-django-flask-course/)
 
