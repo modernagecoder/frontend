@@ -1,0 +1,321 @@
+{
+  "meta": {
+    "slug": "pcep-pcap-python-certification-course",
+    "taxonomy": "programming",
+    "title": "PCEP and PCAP Python Certification Course",
+    "description": "Live online preparation for the Python Institute PCEP and PCAP certifications, built so that the repository a student finishes with is worth more than the certificate, and the certificate still passes.",
+    "keywords": [
+      "pcep certification course online",
+      "pcap python certification training",
+      "python institute certification prep",
+      "pcep-30-02 exam preparation",
+      "pcap-31-03 course online",
+      "python certification for students",
+      "python certification worth it",
+      "live online python certification classes"
+    ],
+    "category": "Python Certification",
+    "price": {
+      "group": "₹1,499/month",
+      "miniBatch": "₹2,999/month",
+      "personal": "₹4,999/month"
+    },
+    "duration": "5 months (20 weeks) for PCEP then PCAP, joinable any month",
+    "level": "Anyone from about 13 upward, including working adults; no prior programming required for the PCEP half",
+    "commitment": "2 live classes/week + weekly programming practice and timed question sets",
+    "certification": "Course-completion certificate from Modern Age Coders. The PCEP and PCAP certifications themselves are awarded by the Python Institute and sat separately.",
+    "image_path": "pcep-python-certification.webp",
+    "date": "2026-08-21",
+    "dateModified": "2026-08-21"
+  },
+
+  "program_overview": {
+    "title": "The certificate is the receipt. The repository is the asset.",
+    "description": "Python Institute certifications are useful in specific situations and oversold in most others. They give a self-taught learner an external checkpoint, they satisfy some employers and some institutions that want a named credential, and they impose a syllabus on someone who would otherwise wander. What they do not do is demonstrate that a person can build anything, because a multiple-choice exam cannot show that. So this course prepares both certifications properly and insists on something the exams do not require: a public repository of working programs built along the way. Students who finish have PCEP and PCAP if they want them, and something a reader can open either way. PCEP-30-02 is the entry-level exam and PCAP-31-03 the associate one; both are sat through the Python Institute rather than through us, and the current blueprint should be confirmed at pythoninstitute.org before booking."
+  },
+
+  "phase_1_pcep_foundations": {
+    "title": "PHASE 1: PCEP Foundations (Months 1-2)",
+    "description": "Entry-level Python taught properly rather than as exam trivia, with every topic implemented before it is tested.",
+    "month_1_basics_and_control": {
+      "title": "Month 1: Syntax, Data Types and Control Flow",
+      "weeks": "Weeks 1-4",
+      "week_1": {
+        "title": "The Interpreter, Literals and Variables",
+        "topics": [
+          "How Python actually runs a file, which the exam asks about indirectly",
+          "Literals, numeral systems and the operators students misjudge",
+          "Variables, naming rules and the shadowing that trips people up",
+          "Reading an error message properly rather than rerunning and hoping"
+        ]
+      },
+      "week_2": {
+        "title": "Operators, Precedence and Type Conversion",
+        "topics": [
+          "Arithmetic, bitwise and logical operators with precedence rules",
+          "Integer division, modulo and the negative-number cases",
+          "Implicit and explicit type conversion, a reliable exam topic",
+          "Predicting the output of an expression rather than running it"
+        ]
+      },
+      "week_3": {
+        "title": "Conditionals and Loops",
+        "topics": [
+          "if, elif and else, and the nested conditions exams favour",
+          "while and for, with break, continue and the else clause on loops",
+          "The loop-else construct, which almost every candidate gets wrong first",
+          "Tracing loops on paper before running them"
+        ]
+      },
+      "week_4": {
+        "title": "Lists, Tuples, Dictionaries and Sets",
+        "topics": [
+          "Mutability, which underlies a large share of PCEP questions",
+          "Slicing, and the negative-index cases",
+          "Dictionaries and sets, with the operations the syllabus names",
+          "Copying against referencing, and why it matters in the exam"
+        ]
+      }
+    },
+    "month_2_functions_and_exceptions": {
+      "title": "Month 2: Functions, Scope and Exceptions",
+      "weeks": "Weeks 5-8",
+      "week_5": {
+        "title": "Functions and Parameters",
+        "topics": [
+          "Positional, keyword and default parameters",
+          "Return values, and functions that return nothing",
+          "Recursion at the level PCEP expects",
+          "Writing a function to a stated specification"
+        ]
+      },
+      "week_6": {
+        "title": "Scope, Shadowing and the global Keyword",
+        "topics": [
+          "Local and global scope, and how Python resolves a name",
+          "The global keyword and when using it is a mistake",
+          "Shadowing, which produces the exam's favourite trick questions",
+          "Predicting output across nested scopes"
+        ]
+      },
+      "week_7": {
+        "title": "Exceptions and Data Handling",
+        "topics": [
+          "try, except, else and finally in the order they execute",
+          "The exception hierarchy at PCEP depth",
+          "Raising exceptions deliberately, and when to",
+          "Basic input and output handling"
+        ]
+      },
+      "week_8": {
+        "title": "PCEP Timed Practice and the First Repository",
+        "topics": [
+          "Full timed question sets under exam conditions",
+          "Reviewing every wrong answer with the reason named",
+          "Committing the first real program to a public repository",
+          "Deciding whether to sit PCEP now or go straight on"
+        ]
+      }
+    }
+  },
+
+  "phase_2_pcap_associate": {
+    "title": "PHASE 2: PCAP Associate Material (Months 3-4)",
+    "description": "Modules, packages, object-oriented programming, exceptions in depth, and the standard library the associate exam assumes.",
+    "month_3_modules_and_oop": {
+      "title": "Month 3: Modules, Packages and Classes",
+      "weeks": "Weeks 9-12",
+      "week_9": {
+        "title": "Modules, Packages and the Import System",
+        "topics": [
+          "import in its several forms, and what each actually binds",
+          "Writing your own module and then your own package",
+          "The standard library modules the syllabus names",
+          "Why the import questions are free marks for anybody who has written a package"
+        ]
+      },
+      "week_10": {
+        "title": "Classes, Objects and Attributes",
+        "topics": [
+          "Instance against class attributes, a heavily examined distinction",
+          "Constructors, methods and self",
+          "Introspection: examining an object at runtime",
+          "Building a class from a written specification"
+        ]
+      },
+      "week_11": {
+        "title": "Inheritance and Polymorphism",
+        "topics": [
+          "Single and multiple inheritance, and method resolution",
+          "Overriding, and calling the parent implementation",
+          "isinstance and issubclass, which the exam uses constantly",
+          "Designing a small hierarchy that is not over-engineered"
+        ]
+      },
+      "week_12": {
+        "title": "Exceptions as Objects",
+        "topics": [
+          "The exception hierarchy in full at PCAP depth",
+          "Defining your own exception classes",
+          "Chaining, and what finally guarantees",
+          "Deliberately breaking a program to see how it reports"
+        ]
+      }
+    },
+    "month_4_files_and_library": {
+      "title": "Month 4: Files, Strings and the Standard Library",
+      "weeks": "Weeks 13-16",
+      "week_13": {
+        "title": "File Handling and Streams",
+        "topics": [
+          "Text and binary streams, opened and closed properly",
+          "Reading and writing patterns the exam expects",
+          "The with statement and why it exists",
+          "Handling a file that is not there"
+        ]
+      },
+      "week_14": {
+        "title": "Strings in Depth",
+        "topics": [
+          "String methods the syllabus names, used rather than memorised",
+          "Escape sequences and formatting",
+          "Character encoding at the level PCAP asks for",
+          "String questions that are really about immutability"
+        ]
+      },
+      "week_15": {
+        "title": "List Comprehensions, Lambdas and Closures",
+        "topics": [
+          "Comprehensions, including nested and conditional forms",
+          "Lambda functions, map and filter",
+          "Closures, which are the topic candidates most often fail",
+          "Reading a comprehension aloud as a loop and back again"
+        ]
+      },
+      "week_16": {
+        "title": "PCAP Timed Practice and the Portfolio",
+        "topics": [
+          "Full timed question sets under exam conditions",
+          "Reviewing every wrong answer with the reason named",
+          "A second, larger program committed to the repository",
+          "A README that states what the program does and where it fails"
+        ]
+      }
+    }
+  },
+
+  "phase_3_exam_and_evidence": {
+    "title": "PHASE 3: Exam Readiness and Real Evidence (Month 5)",
+    "description": "The final stretch: passing the exam, and finishing with something worth more than the certificate.",
+    "month_5_final": {
+      "title": "Month 5: Final Preparation",
+      "weeks": "Weeks 17-20",
+      "week_17": {
+        "title": "Full Mock Exams",
+        "topics": [
+          "Timed papers in the exam's format and question style",
+          "Pacing, since both exams are short relative to their question count",
+          "Eliminating options rather than searching for the right one",
+          "Identifying the two or three topics still costing marks"
+        ]
+      },
+      "week_18": {
+        "title": "Targeted Repair",
+        "topics": [
+          "Rebuilding the weakest topics rather than revising everything",
+          "Closures, scope and mutability, which is where most candidates lose",
+          "Predicting output as a drill rather than as an exercise",
+          "Short daily retrieval instead of long revision blocks"
+        ]
+      },
+      "week_19": {
+        "title": "The Repository That Outlasts the Certificate",
+        "topics": [
+          "Three finished programs, running, documented and committed",
+          "A README a stranger can follow without the author present",
+          "One honest paragraph on where each program fails",
+          "Why this is the part an employer or admissions reader can actually assess"
+        ]
+      },
+      "week_20": {
+        "title": "Booking, Sitting and What Comes After",
+        "topics": [
+          "How the exam is booked and delivered through the Python Institute",
+          "Confirming the current blueprint at pythoninstitute.org before booking",
+          "What to do in the first two minutes of the exam",
+          "Whether PCPP is worth attempting, discussed honestly"
+        ]
+      }
+    }
+  },
+
+  "prerequisites": {
+    "title": "What a Student Needs to Start",
+    "items": [
+      "No prior programming is required for the PCEP half; everything is taught from the beginning",
+      "For students joining directly at the PCAP half, comfortable Python fluency including functions and data structures",
+      "A computer able to run Python, which we help set up in the first class",
+      "A GitHub account, because the repository is part of the course rather than an optional extra",
+      "Realistic expectations about what a certificate does and does not demonstrate, which the first class covers"
+    ]
+  },
+
+  "who_is_this_for": {
+    "title": "Who This Course Is For",
+    "items": [
+      "Self-taught learners who want an external checkpoint and a syllabus imposed on them",
+      "Students and adults whose employer, institution or visa process asks for a named credential",
+      "School students who want a recognised Python certification alongside their curriculum",
+      "Career changers who need something concrete on a CV alongside a portfolio",
+      "Anyone who has been learning Python for a while and cannot tell how far they have got",
+      "Parents who want a structured Python route for a teenager that ends in something external"
+    ]
+  },
+
+  "career_paths_after_completion": [
+    "PCEP and, if taken, PCAP certification from the Python Institute",
+    "A public repository of finished, documented, running programs",
+    "Genuine Python fluency including object-oriented programming and the standard library",
+    "A foundation for data science, automation or backend development",
+    "The habit of committing work as it is written, which outlives any certificate"
+  ],
+
+  "course_guarantees": {
+    "title": "Our Commitment to You",
+    "items": [
+      "Every class is live and small, taught by a real mentor, never a recorded video watched alone",
+      "Every topic is implemented in code before it is tested as an exam question",
+      "You finish with a public repository, not only with exam readiness",
+      "We will tell you honestly if a certificate is not the right use of your money and time",
+      "We do not sell exam vouchers and take no commission on them; you book directly with the Python Institute",
+      "We do not guarantee a pass, because nobody can, and any provider offering one is selling something they cannot deliver"
+    ]
+  },
+
+  "faqs": [
+    {
+      "question": "Is a Python certificate actually worth it?",
+      "answer": "In specific situations, yes. It gives a self-taught learner an external checkpoint, it satisfies employers and institutions that ask for a named credential, and it imposes a syllabus on somebody who would otherwise wander. What it does not do is show that you can build anything, because a multiple-choice exam cannot. That is why this course insists on a public repository as well, and why we will tell you plainly if a certificate is the wrong purchase for your situation."
+    },
+    {
+      "question": "What is the difference between PCEP and PCAP?",
+      "answer": "PCEP-30-02 is the entry-level certification, covering fundamentals: data types, control flow, functions, basic data structures and exceptions. PCAP-31-03 is the associate level and adds modules and packages, object-oriented programming, exceptions in depth, file handling, string processing and functional features like comprehensions, lambdas and closures. Most students take them in that order, and some go straight to PCAP."
+    },
+    {
+      "question": "Do you sell the exam voucher?",
+      "answer": "No, and we take no commission on one. You book and sit the exam through the Python Institute directly. We would rather teach you than resell you a voucher, and it also means our advice about whether to sit it at all is not affected by whether we get paid when you do."
+    },
+    {
+      "question": "How long does it take?",
+      "answer": "Roughly twenty weeks at two classes a week for both certifications, joinable in any month. A student aiming only at PCEP normally finishes the first eight to ten weeks. Adults with existing programming experience often go considerably faster one to one, since much of the PCEP material is revision for them."
+    },
+    {
+      "question": "What is the hardest part of PCAP?",
+      "answer": "Closures, scope resolution and mutability, consistently. They are the topics where candidates who can write working Python still fail exam questions, because the questions test prediction rather than production. The final phase of this course drills predicting output specifically, which is a different exercise from writing code."
+    },
+    {
+      "question": "Can a school student take these?",
+      "answer": "Yes, from about thirteen, and several of ours have. It works well as an external checkpoint alongside a school curriculum that does not offer one, and the repository built along the way is more useful for university applications than the certificate itself. We say that to families before they enrol rather than afterwards."
+    }
+  ]
+}

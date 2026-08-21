@@ -7413,6 +7413,18 @@
   to = "/src/pages/ioi-olympiad-informatics-training.md"
   status = 200
 
+# Global Build-AI cluster (ai-global.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/python-certification-pcep-pcap-course"
+  to = "/src/pages/python-certification-pcep-pcap-course.html"
+  status = 200
+
+[[redirects]]
+  from = "/python-certification-pcep-pcap-course.md"
+  to = "/src/pages/python-certification-pcep-pcap-course.md"
+  status = 200
+
 [[redirects]]
   from = "/*"
   to = "/src/pages/404.html"
