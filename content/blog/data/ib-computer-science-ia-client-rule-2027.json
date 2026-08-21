@@ -1,0 +1,262 @@
+{
+  "meta": {
+    "slug": "ib-computer-science-ia-client-rule-2027",
+    "title": "The IB Computer Science IA No Longer Needs a Client",
+    "description": "The guide first assessed in 2027 drops the client requirement from the Computer Science IA. Here is what changed, and why a real client still wins marks.",
+    "keywords": [
+      "ib computer science ia",
+      "ib computer science 2027 syllabus",
+      "computer science ia client",
+      "ib computer science internal assessment criteria",
+      "ib computer science hl sl differences",
+      "ib computer science paper 3 removed"
+    ],
+    "author": {
+      "name": "Modern Age Coders Team",
+      "bio": "Expert educators making coding and maths clear for ages 6 to 67.",
+      "avatar": "/images/logo.svg"
+    },
+    "date": "2026-08-21",
+    "dateModified": "2026-08-21",
+    "category": "Education",
+    "tags": [
+      "IB Diploma",
+      "Computer Science",
+      "Internal Assessment",
+      "Python"
+    ],
+    "readTime": "9 min read",
+    "featured": false,
+    "tldr": "Under the IB Computer Science guide first assessed in May 2027, the internal assessment no longer requires a client, and candidates may choose any topic that interests them. The IA is marked out of 30 against five criteria, is worth 30 per cent of the grade at standard level and 20 per cent at higher level, runs to about 35 hours of development, and is submitted with a video of at most five minutes. Dropping the client is a genuine freedom and a quiet risk, because criterion A and criterion E both ask whether a real problem was solved."
+  },
+  "hero": {
+    "title": "The IB Computer Science IA No Longer Needs a Client",
+    "subtitle": "One line in the new guide removed the rule that shaped every Computer Science IA for a decade. Here is what it actually changed, and the part worth keeping anyway.",
+    "featuredImage": {
+      "url": "/images/blog/ib-computer-science-ia-client-rule-2027/00-hero.png",
+      "alt": "IB Computer Science internal assessment: 30 per cent at SL, 20 per cent at HL, 35 hours, five minute video"
+    }
+  },
+  "content": {
+    "sections": [
+      {
+        "type": "toc"
+      },
+      {
+        "type": "paragraph",
+        "text": "For years, the first real conversation in an IB Computer Science course went the same way. Find a client. Not a topic, not an idea you like, a person with a problem. Students groaned, went looking, and came back with a swimming coach or an uncle who ran a shop, and the IA had a spine from that day onward."
+      },
+      {
+        "type": "paragraph",
+        "text": "The guide first taught in 2025 and first assessed in May 2027 removed that requirement. Candidates are now free to choose any topic that interests them, with no obligation to involve a client at all. It is a genuine change, it is being widely and correctly reported, and it is quietly one of the most consequential things a DP1 student can misunderstand."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "What the new guide actually changed",
+        "id": "what-changed"
+      },
+      {
+        "type": "image",
+        "url": "/images/blog/ib-computer-science-ia-client-rule-2027/01-what-changed.png",
+        "alt": "Table of changes in the IB Computer Science guide first assessed in 2027",
+        "caption": "The client rule is one of five structural changes, not an isolated tweak."
+      },
+      {
+        "type": "list",
+        "style": "unordered",
+        "items": [
+          "<strong>Paper 3 has gone.</strong> External assessment is carried by two papers rather than three, so each one now weighs more.",
+          "<strong>The options have gone.</strong> Databases, object oriented programming and web science are no longer separate choices bolted on to a core; the content has been absorbed into it.",
+          "<strong>The course is organised into two themes</strong> rather than a list of topics, one about how computing systems work and one about solving problems with computing.",
+          "<strong>The language is now Java or Python.</strong> Not a preference any more, a decision with consequences that reach into the exam room.",
+          "<strong>The IA no longer requires a client.</strong> Five criteria, thirty marks, roughly 35 hours of development, submitted with a video of at most five minutes, worth 30 per cent at standard level and 20 per cent at higher level."
+        ]
+      },
+      {
+        "type": "callout",
+        "calloutType": "info",
+        "title": "Why the IA weighs more at SL than at HL",
+        "text": "It looks backwards until you see it as arithmetic. The same piece of work sits against a smaller total at standard level, so it counts for more of the final grade there. A standard level student who treats the IA as the small component has given away almost a third of their grade before the written papers begin."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Why removing the client is a trap as well as a freedom",
+        "id": "the-trap"
+      },
+      {
+        "type": "paragraph",
+        "text": "Look at what the five criteria ask. Criterion A wants a problem specified. Criterion E wants an evaluation of whether it was solved. Those are the same question asked at both ends of the project, and the marks depend on the answer being checkable by somebody other than the author."
+      },
+      {
+        "type": "image",
+        "url": "/images/blog/ib-computer-science-ia-client-rule-2027/02-five-criteria.png",
+        "alt": "The five IB Computer Science internal assessment criteria with the two that depend on an external judge highlighted",
+        "caption": "Criteria A and E bracket the whole IA, and both ask whether a real problem was solved."
+      },
+      {
+        "type": "paragraph",
+        "text": "A student who invents the problem also invents the standard the solution is measured against, and then marks their own homework in criterion E. Examiners see a lot of these. They read as fluent, confident, and strangely weightless, because nothing in them could have come out wrong. A student who found a real person cannot write that way, because at some point the person said the thing did not work."
+      },
+      {
+        "type": "quote",
+        "text": "The requirement was never really about the client. It was about there being an answer to the question that the student did not control.",
+        "author": "Why we kept the rule after the IB dropped it"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Where a real client is actually sitting",
+        "id": "finding-a-client"
+      },
+      {
+        "type": "image",
+        "url": "/images/blog/ib-computer-science-ia-client-rule-2027/03-where-clients-are.png",
+        "alt": "Four realistic places an IB student can find a client with a genuine problem",
+        "caption": "None of these require knowing anybody important. All four exist in most students' lives already."
+      },
+      {
+        "type": "paragraph",
+        "text": "The word client makes students imagine a business meeting. It is much smaller than that. What you need is somebody who does a repetitive thing badly with a spreadsheet, a paper list or a group chat, and who will spend twenty minutes telling you why it is annoying."
+      },
+      {
+        "type": "list",
+        "style": "ordered",
+        "items": [
+          "<strong>Ask, do not propose.</strong> Go with a question, not a pitch. What do you do every week that takes longer than it should? Students who arrive with an app idea get politeness. Students who arrive with a question get a problem.",
+          "<strong>Write the criteria in their words.</strong> Then read them back. If they say yes, that is what I want, criterion A is essentially finished and criterion E has something to test against.",
+          "<strong>Agree what you will not build.</strong> This is the single most useful sentence in the whole conversation, because 35 hours is not very long and the scope is what kills IAs."
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Turning a success criterion into a test you can run",
+        "id": "testing"
+      },
+      {
+        "type": "paragraph",
+        "text": "Here is the practical bridge between criterion A and criterion D. Every success criterion the client agreed to should become something the program can be checked against, and the checking should be evidence, not a paragraph claiming it was done."
+      },
+      {
+        "type": "paragraph",
+        "text": "Suppose the client is a small club secretary and the price list is theirs, not yours: free under twelve, forty for members, sixty for everybody else. That is three criteria, and it is worth writing the awkward fourth case down as well, because the boundary is where the client and the code disagree."
+      },
+      {
+        "type": "code",
+        "language": "python",
+        "code": "def fee(age, is_member):\n    \"\"\"Entry fee in pounds, from the club secretary's own price list.\"\"\"\n    if age < 12:\n        return 0\n    if is_member:\n        return 40\n    return 60\n\n\ncases = [\n    (\"child, not a member\", (8, False), 0),\n    (\"adult member\", (30, True), 40),\n    (\"adult visitor\", (30, False), 60),\n    (\"on their 12th birthday\", (12, True), 40),\n]\n\nfor name, args, expected in cases:\n    got = fee(*args)\n    verdict = \"pass\" if got == expected else \"FAIL\"\n    print(\"%-24s expected %3d   got %3d   %s\" % (name, expected, got, verdict))"
+      },
+      {
+        "type": "code",
+        "language": "text",
+        "code": "child, not a member      expected   0   got   0   pass\nadult member             expected  40   got  40   pass\nadult visitor            expected  60   got  60   pass\non their 12th birthday   expected  40   got  40   pass"
+      },
+      {
+        "type": "paragraph",
+        "text": "Four lines of output, produced by running the program, and the last one is the interesting one. Twelve is not under twelve, so a member turning twelve pays the member rate. That was not obvious from the client's sentence, and the only way to be sure is to go back and ask. That conversation, written up, is worth more in criterion E than any amount of reflection about what could be improved in future."
+      },
+      {
+        "type": "callout",
+        "calloutType": "tip",
+        "title": "What the video is for",
+        "text": "Five minutes, maximum, and it exists to show the product running and the testing that was done. The commonest waste is a screen recording of code being scrolled through. Nobody is marking the code from the video. Show somebody using the thing, show it handling the awkward case, and show what happens when it is given something it did not expect."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Java or Python, and how to choose",
+        "id": "language-choice"
+      },
+      {
+        "type": "paragraph",
+        "text": "The new guide settles the language question to Java or Python, and the written papers now come in a version matched to the language a candidate has studied. That makes the choice heavier than it used to be, because it is no longer only an IA decision, it is an exam paper decision."
+      },
+      {
+        "type": "paragraph",
+        "text": "For most students, choose the one they can debug without help. Python keeps a 35 hour project short enough to finish and to explain, which matters when the IA has to be documented. Java is the better choice for a student who is also sitting AP Computer Science A or a Cambridge A Level, because the same syntax then pays for itself twice. What does not work is deciding in DP2, after a year of writing pseudocode and hoping."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "A timeline that keeps the IA out of the rescue category",
+        "id": "timeline"
+      },
+      {
+        "type": "image",
+        "url": "/images/blog/ib-computer-science-ia-client-rule-2027/04-timeline.png",
+        "alt": "A four stage IB Computer Science IA timeline running from DP1 term 2 to DP2 term 1",
+        "caption": "The only variable that reliably predicts a good IA is when the client conversation happened."
+      },
+      {
+        "type": "paragraph",
+        "text": "Every IA rescue we have ever been asked to do had the same cause, and it was never the coding. It was that the student picked a topic in DP2, so there was no time left to discover that the problem was the wrong shape. Find the person in DP1, agree what solved means before the summer, and the second year becomes building and testing rather than reinventing."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "How we teach the IA without touching it",
+        "id": "how-we-teach"
+      },
+      {
+        "type": "paragraph",
+        "text": "There is a line here and it matters. The IA is the student's own work, and the IB takes academic integrity seriously enough that a tutor who supplies code puts a diploma at risk rather than a grade. So we do not write any part of it. What we do is question it: scope it down when it is too big, push back when the success criteria are the student's rather than the client's, and refuse to accept a solution with nothing real behind it."
+      },
+      {
+        "type": "paragraph",
+        "text": "Our <a href='/ib-computer-science-online-tuition'>IB Computer Science tuition</a> is live, one to one or in a batch of five to eight students, taught from India to students worldwide. We start the IA conversation in DP1 rather than DP2, which is the single intervention that changes outcomes most. The first class is free, and if the student already has a client, bring what that person actually said."
+      },
+      {
+        "type": "button",
+        "text": "Book a free IB Computer Science class",
+        "url": "/ib-computer-science-online-tuition",
+        "style": "primary"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Frequently asked questions",
+        "id": "faq"
+      },
+      {
+        "type": "accordion",
+        "items": [
+          {
+            "title": "Is it definitely true that a client is no longer required?",
+            "content": "Yes. Under the guide first assessed in May 2027, candidates are free to explore any topic that interests them and there is no requirement to involve a client. The point of this article is that the marks still reward having one, not that the rule still exists."
+          },
+          {
+            "title": "Can a family member be the client?",
+            "content": "Yes, and it is a common and perfectly good choice, provided they have a real problem rather than a manufactured one. A parent who genuinely keeps stock on paper is a better client than a stranger with a polite hypothetical. What does not work is a family member who agrees with everything, because criterion E needs somebody willing to say it did not work."
+          },
+          {
+            "title": "How long should the IA actually take?",
+            "content": "Around 35 hours of development, which is the figure the guide works to. Students consistently underestimate documentation and testing, so budget those in from the start rather than treating them as write up at the end."
+          },
+          {
+            "title": "Why is the IA worth more at standard level than higher level?",
+            "content": "Because the same work sits against a smaller total. It is 30 per cent at standard level and 20 per cent at higher level. Standard level students should treat it as the biggest single component of their grade, because it is."
+          },
+          {
+            "title": "What happened to Paper 3?",
+            "content": "It is no longer set. External assessment is carried by Paper 1 and Paper 2, which means each of them now carries more weight and there is no third component to recover a bad morning on."
+          },
+          {
+            "title": "Can a student change the client or the problem partway through?",
+            "content": "Yes, and sometimes they should. Changing in DP1 costs a few weeks. Changing after the summer of DP1 usually means cutting scope hard rather than starting again, and that is a conversation to have quickly rather than to postpone."
+          },
+          {
+            "title": "Does the video need to be edited or produced?",
+            "content": "No. It needs to be clear and under five minutes. Unedited screen capture with a calm voice explaining what is happening beats anything with music. What examiners need to see is the product working and the testing being done, not production values."
+          }
+        ]
+      }
+    ]
+  },
+  "relatedPosts": [
+    "igcse-computer-science-0478-pseudocode-guide",
+    "how-to-get-a-5-in-ap-computer-science-a",
+    "ap-csp-vs-ap-csa-which-to-take-first"
+  ]
+}
