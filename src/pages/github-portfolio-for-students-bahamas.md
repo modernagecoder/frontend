@@ -6,6 +6,16 @@ source: src/pages/github-portfolio-for-students-bahamas.html
 ---
 > What an admissions reader actually does with a student repository, in ninety seconds and four steps, and how Bahamian students build one worth opening.
 
+Courses
+
+## The courses that build the repository
+
+The portfolio is not a separate product. It comes out of these, if they are taught properly.
+
+[![Git and GitHub for Teens course thumbnail](/images/git-github-teens.webp)  PORT / 01 Git and GitHub for Teens Where the history comes from. Committing as you work is the one signal that cannot be faked later. Open the syllabus →](/courses/git-github-version-control-course-for-teens)[![Data Science for Teens course thumbnail](/images/data-science-teens.webp)  PORT / 02 Data Science for Teens The projects with a real result in them, which is what makes a repository worth opening. Open the syllabus →](/courses/data-science-course-for-teens-python-data)[![AI and Machine Learning for Teens course thumbnail](/images/ai-ml-teens.webp)  PORT / 03 AI and Machine Learning for Teens A model with a stated error and an honest limitation. The strongest thing a school student can publish. Open the syllabus →](/courses/ai-ml-masterclass-teens)
+
+The wider ladder is [Python and AI for Kids](/courses/python-ai-kids-masterclass) · [AI Literacy for Kids](/courses/ai-literacy-for-kids-course) · [Python for Teens](/courses/python-complete-masterclass-teens) · [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens) · [Data Science for Teens](/courses/data-science-course-for-teens-python-data) · [Git and GitHub](/courses/git-github-version-control-course-for-teens) · [AI and ML Masterclass](/courses/ai-ml-masterclass-complete-college) · [Generative AI: LLMs, RAG and Agents](/courses/complete-generative-ai-masterclass-college). The full list is on the [catalogue](/courses).
+
 In short
 
 Every student on the twelve-month track finishes with a public GitHub repository and something running at an address a stranger can open. This page explains what a reader actually does with that link, in four steps and about ninety seconds, and what a repository therefore has to contain to survive the encounter: a README a human would read, an error figure in a real unit, an explicit statement of what the project cannot do, and a commit history spread across the year rather than a single upload. Firm privacy rules apply to every student under eighteen.

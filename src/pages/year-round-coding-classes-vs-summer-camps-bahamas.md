@@ -6,6 +6,16 @@ source: src/pages/year-round-coding-classes-vs-summer-camps-bahamas.html
 ---
 > A week is about 20 hours. A year is 72 plus 51 gaps to build in. The arithmetic, the forgetting problem, and four situations where a camp is the better buy.
 
+Courses
+
+## The courses a year actually covers
+
+Twelve months, four quarters, four finished things. This is what fills them.
+
+[![Python for Teens course thumbnail](/images/python-teens.webp)  YEAR / 01 Python for Teens Quarter one, and the spine of the whole year for a student arriving without code. Open the syllabus →](/courses/python-complete-masterclass-teens)[![Data Science for Teens course thumbnail](/images/data-science-teens.webp)  YEAR / 02 Data Science for Teens Quarter two. The messy files that make quarter three mean something. Open the syllabus →](/courses/data-science-course-for-teens-python-data)[![AI and Machine Learning for Teens course thumbnail](/images/ai-ml-teens.webp)  YEAR / 03 AI and Machine Learning for Teens Quarter three, where a model finally has to beat doing nothing clever. Open the syllabus →](/courses/ai-ml-masterclass-teens)
+
+The rest of the catalogue is [Python and AI for Kids](/courses/python-ai-kids-masterclass) · [AI Literacy for Kids](/courses/ai-literacy-for-kids-course) · [Python for Teens](/courses/python-complete-masterclass-teens) · [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens) · [Data Science for Teens](/courses/data-science-course-for-teens-python-data) · [Git and GitHub](/courses/git-github-version-control-course-for-teens) · [AI and ML Masterclass](/courses/ai-ml-masterclass-complete-college) · [Generative AI: LLMs, RAG and Agents](/courses/complete-generative-ai-masterclass-college). The full list is on the [catalogue](/courses).
+
 In short
 
 A week-long holiday camp gives a child about twenty concentrated contact hours and then nothing to do with them. Twelve months of weekly ninety-minute sessions gives about seventy-two hours plus fifty-one intervals in which the student is expected to build something, and it is in those intervals that most progress actually happens. This page compares the two honestly, including the four situations where a camp is the better purchase, and explains why we insist on the same teacher for twelve months rather than treating continuity as a comfort feature.

@@ -6,6 +6,16 @@ source: src/pages/ai-and-python-academy-for-girls-oman.html
 ---
 > Oman's national programming contest was 97 male and 97 female. Live online Python, ML and AI agent teaching for girls across Oman, from USD 100 a month.
 
+Courses
+
+## The courses on the ladder, unchanged
+
+The same five rungs taught to every student. Nothing here is a separate syllabus.
+
+[![Python for Teens course thumbnail](/images/python-teens.webp)  LADDER / 01 Python for Teens Rung one. From an empty file to genuinely advanced Python, with reading and debugging built alongside. Open the syllabus →](/courses/python-complete-masterclass-teens)[![AI and Machine Learning for Teens course thumbnail](/images/ai-ml-teens.webp)  LADDER / 02 AI and Machine Learning for Teens Rung three. Measured models, and a baseline that has to be beaten first. Open the syllabus →](/courses/ai-ml-masterclass-teens)[![Data Science for Teens course thumbnail](/images/data-science-teens.webp)  LADDER / 03 Data Science for Teens Rung two, and the one that decides whether rung three means anything at all. Open the syllabus →](/courses/data-science-course-for-teens-python-data)
+
+The rest of the ladder is [Python and AI for Kids](/courses/python-ai-kids-masterclass) · [AI Literacy for Kids](/courses/ai-literacy-for-kids-course) · [Python for Teens](/courses/python-complete-masterclass-teens) · [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens) · [Data Science for Teens](/courses/data-science-course-for-teens-python-data) · [Git and GitHub](/courses/git-github-version-control-course-for-teens) · [AI and ML Masterclass](/courses/ai-ml-masterclass-complete-college) · [Generative AI: LLMs, RAG and Agents](/courses/complete-generative-ai-masterclass-college). The full list is on the [catalogue](/courses).
+
 In short
 
 At Oman's 2025 national collegiate programming contest, 194 contestants competed and the split was exactly 97 male and 97 female. Modern Age Coders teaches girls in Oman the same five-rung Python and AI track it teaches everybody: hand-written Python, real data, machine learning with a measured error, AI agents, and a published GitHub project. Batches are mixed and grouped by ability, one to one is available for families who prefer it, and there is no separate or lighter syllabus. Group teaching is USD 100 a month, private USD 150, and the first class is free.

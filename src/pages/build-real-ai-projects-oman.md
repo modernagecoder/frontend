@@ -6,6 +6,16 @@ source: src/pages/build-real-ai-projects-oman.html
 ---
 > The difference between a demo and a project, as five testable properties, and how students in Oman build the second kind. Live online, from USD 100 a month.
 
+Courses
+
+## The courses that produce a project worth publishing
+
+A finished thing with a stated error and an honest limitation, rather than a demonstration.
+
+[![Data Science for Teens course thumbnail](/images/data-science-teens.webp)  BUILD / 01 Data Science for Teens Where the data comes from, and the row that would have poisoned the result if nobody looked. Open the syllabus →](/courses/data-science-course-for-teens-python-data)[![Git and GitHub for Teens course thumbnail](/images/git-github-teens.webp)  BUILD / 02 Git and GitHub for Teens Committing as the work happens, which is what turns a folder into a history a reader can assess. Open the syllabus →](/courses/git-github-version-control-course-for-teens)[![AI and Machine Learning for Teens course thumbnail](/images/ai-ml-teens.webp)  BUILD / 03 AI and Machine Learning for Teens The measured model at the centre of the project, with the baseline it had to beat. Open the syllabus →](/courses/ai-ml-masterclass-teens)
+
+The wider ladder is [Python and AI for Kids](/courses/python-ai-kids-masterclass) · [AI Literacy for Kids](/courses/ai-literacy-for-kids-course) · [Python for Teens](/courses/python-complete-masterclass-teens) · [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens) · [Data Science for Teens](/courses/data-science-course-for-teens-python-data) · [Git and GitHub](/courses/git-github-version-control-course-for-teens) · [AI and ML Masterclass](/courses/ai-ml-masterclass-complete-college) · [Generative AI: LLMs, RAG and Agents](/courses/complete-generative-ai-masterclass-college). The full list is on the [catalogue](/courses).
+
 In short
 
 Modern Age Coders teaches learners in Oman to take AI and machine learning work past the demonstration stage: deployed at a public address, code readable on GitHub, error stated in a unit a non-specialist can check, a commit history that shows the thinking, and a written note of where it fails. It runs alongside the rest of the ladder from about the second rung. Group teaching is USD 100 a month and private teaching USD 150, and the first class is free.

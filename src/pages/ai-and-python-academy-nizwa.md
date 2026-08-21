@@ -6,6 +6,16 @@ source: src/pages/ai-and-python-academy-nizwa.html
 ---
 > Live online Python, machine learning and AI agent teaching for students in Nizwa and Ad Dakhiliyah, ages 6 to 67. From USD 100 a month, first class free.
 
+Courses
+
+## The courses students in Nizwa start on
+
+Live online, in batches of five to eight or one to one, from the first rung upward.
+
+[![Python for Teens course thumbnail](/images/python-teens.webp)  LADDER / 01 Python for Teens The spine. A blank file stops being frightening somewhere in the first term. Open the syllabus →](/courses/python-complete-masterclass-teens)[![Data Science for Teens course thumbnail](/images/data-science-teens.webp)  LADDER / 02 Data Science for Teens Real data, handled honestly, which is where every later claim about a model comes from. Open the syllabus →](/courses/data-science-course-for-teens-python-data)[![Python and AI for Kids course thumbnail](/images/python-kids.webp)  LADDER / 03 Python and AI for Kids For younger siblings. Typed syntax early, and an honest account of what these systems are. Open the syllabus →](/courses/python-ai-kids-masterclass)
+
+The rest of the ladder runs [Python and AI for Kids](/courses/python-ai-kids-masterclass) · [AI Literacy for Kids](/courses/ai-literacy-for-kids-course) · [Python for Teens](/courses/python-complete-masterclass-teens) · [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens) · [Data Science for Teens](/courses/data-science-course-for-teens-python-data) · [Git and GitHub](/courses/git-github-version-control-course-for-teens) · [AI and ML Masterclass](/courses/ai-ml-masterclass-complete-college) · [Generative AI: LLMs, RAG and Agents](/courses/complete-generative-ai-masterclass-college). The full list is on the [catalogue](/courses).
+
 In short
 
 Modern Age Coders teaches a live online Python and AI track to learners in Nizwa and across Ad Dakhiliyah, aged six to sixty-seven, in batches of five to eight or one to one. It begins with thinking precisely about problems and ends with models and agents published on GitHub. Group teaching is USD 100 a month and private teaching USD 150, the first class is free, and there is no centre anywhere in Oman to travel to.

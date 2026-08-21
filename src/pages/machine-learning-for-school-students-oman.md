@@ -6,6 +6,16 @@ source: src/pages/machine-learning-for-school-students-oman.html
 ---
 > What a school-age student can genuinely train, the mathematics they actually need and when, and four things sold as machine learning that are not. Live online.
 
+Courses
+
+## The courses this machine learning route is taught from
+
+School-age students start with data handling, because a model built on data nobody understands is a coincidence.
+
+[![AI and Machine Learning for Teens course thumbnail](/images/ai-ml-teens.webp)  ML / 01 AI and Machine Learning for Teens Classical methods then neural networks, with something trained and measured at every stage. Open the syllabus →](/courses/ai-ml-masterclass-teens)[![Data Science for Teens course thumbnail](/images/data-science-teens.webp)  ML / 02 Data Science for Teens Real files, missing rows and a number stored as text. The prerequisite that is not optional. Open the syllabus →](/courses/data-science-course-for-teens-python-data)[![Python for Teens course thumbnail](/images/python-teens.webp)  ML / 03 Python for Teens Where a student without code begins, and the spine everything above it stands on. Open the syllabus →](/courses/python-complete-masterclass-teens)
+
+The full ladder runs [Python and AI for Kids](/courses/python-ai-kids-masterclass) · [AI Literacy for Kids](/courses/ai-literacy-for-kids-course) · [Python for Teens](/courses/python-complete-masterclass-teens) · [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens) · [Data Science for Teens](/courses/data-science-course-for-teens-python-data) · [Git and GitHub](/courses/git-github-version-control-course-for-teens) · [AI and ML Masterclass](/courses/ai-ml-masterclass-complete-college) · [Generative AI: LLMs, RAG and Agents](/courses/complete-generative-ai-masterclass-college). The full list is on the [catalogue](/courses).
+
 In short
 
 Modern Age Coders teaches machine learning to school-age learners in Oman as the third of five rungs, after Python written by hand and real data handling. Students train regression, classification, clustering and simple neural network models in Python on an ordinary laptop, using data they generate or collect, and every model is reported with its error in a unit a non-specialist can check. The supporting mathematics is introduced where it explains something already observed. Group teaching is USD 100 a month, private USD 150, and the first class is free.

@@ -6,6 +6,16 @@ source: src/pages/ai-and-python-academy-sohar.html
 ---
 > Live online Python, machine learning and AI agent teaching for students in Sohar and North Al Batinah, ages 6 to 67. USD 100 a month, first class free.
 
+Courses
+
+## The courses students in Sohar start on
+
+The same ladder, taught live, with the first class free and no centre anywhere in Oman.
+
+[![Python for Teens course thumbnail](/images/python-teens.webp)  LADDER / 01 Python for Teens Typed code, real errors, and the habit of reading a traceback instead of asking for help. Open the syllabus →](/courses/python-complete-masterclass-teens)[![AI and Machine Learning for Teens course thumbnail](/images/ai-ml-teens.webp)  LADDER / 02 AI and Machine Learning for Teens Where the AI actually gets built rather than demonstrated, one measured model at a time. Open the syllabus →](/courses/ai-ml-masterclass-teens)[![Git and GitHub for Teens course thumbnail](/images/git-github-teens.webp)  LADDER / 03 Git and GitHub for Teens The habit that turns two years of work into a repository somebody can open and assess. Open the syllabus →](/courses/git-github-version-control-course-for-teens)
+
+The full ladder is [Python and AI for Kids](/courses/python-ai-kids-masterclass) · [AI Literacy for Kids](/courses/ai-literacy-for-kids-course) · [Python for Teens](/courses/python-complete-masterclass-teens) · [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens) · [Data Science for Teens](/courses/data-science-course-for-teens-python-data) · [Git and GitHub](/courses/git-github-version-control-course-for-teens) · [AI and ML Masterclass](/courses/ai-ml-masterclass-complete-college) · [Generative AI: LLMs, RAG and Agents](/courses/complete-generative-ai-masterclass-college). The full list is on the [catalogue](/courses).
+
 In short
 
 Modern Age Coders teaches a live online Python and AI track to learners in Sohar and across North Al Batinah, aged six to sixty-seven, in batches of five to eight or one to one. The emphasis is the applied end: models that predict something a student can check, and agents that act on the prediction. Group teaching is USD 100 a month, private USD 150, and the first class is free. We hold no premises in Oman and claim no connection to any company in the governorate.

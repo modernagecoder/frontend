@@ -208,6 +208,8 @@ For adults whose real complaint is that onboarding takes too long. Branching, re
 
 [Open the syllabus](/courses/git-github-advanced-version-control-masterclass-for-professionals)
 
+Students who arrive through this page also take [Python and AI for Kids](/courses/python-ai-kids-masterclass) · [AI Literacy for Kids](/courses/ai-literacy-for-kids-course) · [Python for Teens](/courses/python-complete-masterclass-teens) · [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens) · [Data Science for Teens](/courses/data-science-course-for-teens-python-data) · [Git and GitHub](/courses/git-github-version-control-course-for-teens) · [AI and ML Masterclass](/courses/ai-ml-masterclass-complete-college) · [Generative AI: LLMs, RAG and Agents](/courses/complete-generative-ai-masterclass-college). The full list is on the [catalogue](/courses).
+
 Fees
 
 ## What it costs, anywhere in the world

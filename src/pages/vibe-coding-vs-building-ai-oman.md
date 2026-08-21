@@ -6,6 +6,16 @@ source: src/pages/vibe-coding-vs-building-ai-oman.html
 ---
 > Vibe coding is real and we teach it. Here is exactly what it gives a student, what it does not, and a ten-minute test you can run at home tonight in Oman.
 
+Courses
+
+## The courses on both sides of this argument
+
+We teach vibe coding and we teach building. The pages elsewhere explain why they are not the same skill.
+
+[![Vibe Coding for Teens course thumbnail](/images/vibe-coding-teens.webp)  VIBE / 01 Vibe Coding for Teens Describing what you want and judging what comes back. Genuinely useful, and an operating skill. Open the syllabus →](/courses/vibe-coding-for-teens-python-web-ai-projects-course)[![Python for Teens course thumbnail](/images/python-teens.webp)  VIBE / 02 Python for Teens The constructing skill. What lets a student reason about the code once the tool stops being able to fix it. Open the syllabus →](/courses/python-complete-masterclass-teens)[![Coding Agents: Codex and Claude Code course thumbnail](/images/codex-claude-code-teens.webp)  VIBE / 03 Coding Agents: Codex and Claude Code The serious version: direct an agent, then defend the diff line by line. Open the syllabus →](/courses/codex-and-claude-code-ai-coding-agents-course-for-teens)
+
+The full ladder is [Python and AI for Kids](/courses/python-ai-kids-masterclass) · [AI Literacy for Kids](/courses/ai-literacy-for-kids-course) · [Python for Teens](/courses/python-complete-masterclass-teens) · [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens) · [Data Science for Teens](/courses/data-science-course-for-teens-python-data) · [Git and GitHub](/courses/git-github-version-control-course-for-teens) · [AI and ML Masterclass](/courses/ai-ml-masterclass-complete-college) · [Generative AI: LLMs, RAG and Agents](/courses/complete-generative-ai-masterclass-college). The full list is on the [catalogue](/courses).
+
 In short
 
 Vibe coding is describing what you want and letting an AI tool produce the code. It is powerful, it is permanent, and Modern Age Coders teaches it. What it does not by itself give a learner is the ability to reason about the code when the tool stops being able to fix it, and that ability is what this academy exists to build. We teach both, in that order, for learners in Oman aged six to sixty-seven. Group teaching is USD 100 a month and private teaching USD 150, and the first class is free.

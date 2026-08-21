@@ -6,6 +6,16 @@ source: src/pages/coding-classes-for-kids-in-nassau.html
 ---
 > What coding for kids should mean at six, nine and twelve, and when blocks have to stop. Live online weekly classes for Nassau children, first class free.
 
+Courses
+
+## The courses a child in Nassau actually starts on
+
+Blocks under about nine, typed Python from around nine, and an honest account of what these systems are.
+
+[![Python and AI for Kids course thumbnail](/images/python-kids.webp)  KIDS / 01 Python and AI for Kids Typed Python from about nine, in small amounts, alongside blocks rather than instead of them. Open the syllabus →](/courses/python-ai-kids-masterclass)[![AI Literacy for Kids course thumbnail](/images/ai-literacy-for-kids.webp)  KIDS / 02 AI Literacy for Kids What a model is doing when it answers, and the checks a ten year old can run before repeating it. Open the syllabus →](/courses/ai-literacy-for-kids-course)[![Kids Coding Blocks course thumbnail](/images/kids-coding.webp)  KIDS / 03 Kids Coding Blocks Under about nine. Order, repetition, and the first experience of something broken being fixed by reasoning. Open the syllabus →](/courses/kids-coding-blocks-masterclass)
+
+Older siblings and later years run through [Python and AI for Kids](/courses/python-ai-kids-masterclass) · [AI Literacy for Kids](/courses/ai-literacy-for-kids-course) · [Python for Teens](/courses/python-complete-masterclass-teens) · [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens) · [Data Science for Teens](/courses/data-science-course-for-teens-python-data) · [Git and GitHub](/courses/git-github-version-control-course-for-teens) · [AI and ML Masterclass](/courses/ai-ml-masterclass-complete-college) · [Generative AI: LLMs, RAG and Agents](/courses/complete-generative-ai-masterclass-college). The full list is on the [catalogue](/courses).
+
 In short
 
 Modern Age Coders teaches children in Nassau aged six to twelve in live online weekly classes, in batches of five to eight or one to one. Younger children start with block-based work and small amounts of typed Python alongside it; by about ten the emphasis moves to typed code, reading error messages and building something that runs. Placement is decided by a task in the free first class rather than by age. Sessions are ninety minutes on weekend mornings in Bahamian time. Group teaching is USD 100 a month, private USD 150, and the first class is free.

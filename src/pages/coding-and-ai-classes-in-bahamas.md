@@ -6,6 +6,16 @@ source: src/pages/coding-and-ai-classes-in-bahamas.html
 ---
 > A 12-month Python and AI track for students anywhere in The Bahamas, from Nassau to the Family Islands. Saturday mornings, real projects, first class free.
 
+Courses
+
+## The courses a Bahamian student actually takes
+
+One ladder, three age bands, all of it live online from India at an hour that works here.
+
+[![Python for Teens course thumbnail](/images/python-teens.webp)  LADDER / 01 Python for Teens Quarter one of the track for a student arriving with nothing, and it keeps going long after. Open the syllabus →](/courses/python-complete-masterclass-teens)[![AI and Machine Learning for Teens course thumbnail](/images/ai-ml-teens.webp)  LADDER / 02 AI and Machine Learning for Teens Quarter three. Every model measured in a unit a parent could check. Open the syllabus →](/courses/ai-ml-masterclass-teens)[![Python and AI for Kids course thumbnail](/images/python-kids.webp)  LADDER / 03 Python and AI for Kids For children from six. Blocks while they help, and typed Python from about nine. Open the syllabus →](/courses/python-ai-kids-masterclass)
+
+The rest of the catalogue runs [Python and AI for Kids](/courses/python-ai-kids-masterclass) · [AI Literacy for Kids](/courses/ai-literacy-for-kids-course) · [Python for Teens](/courses/python-complete-masterclass-teens) · [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens) · [Data Science for Teens](/courses/data-science-course-for-teens-python-data) · [Git and GitHub](/courses/git-github-version-control-course-for-teens) · [AI and ML Masterclass](/courses/ai-ml-masterclass-complete-college) · [Generative AI: LLMs, RAG and Agents](/courses/complete-generative-ai-masterclass-college). The full list is on the [catalogue](/courses).
+
 In short
 
 Modern Age Coders runs a live online twelve-month Python and AI track for learners anywhere in The Bahamas, aged six to sixty-seven. Because the country keeps a single time zone and our teachers are in India, the main sessions are weekend mornings in Bahamian local time, which works identically from Nassau, Grand Bahama or Long Island. Students write real Python, handle real data, train and measure models, and publish on GitHub, with a written update to the parent each month. Group teaching is USD 100 a month, private teaching USD 150, and the first class is free.

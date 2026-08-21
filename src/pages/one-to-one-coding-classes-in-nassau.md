@@ -6,6 +6,16 @@ source: src/pages/one-to-one-coding-classes-in-nassau.html
 ---
 > Private coding and AI tuition in Nassau at USD 150 a month, and an honest account of the five situations where it beats a group and the many where it does not.
 
+Courses
+
+## The courses most often taught one to one
+
+Private teaching changes the pace and the order, not the material.
+
+[![Python for Teens course thumbnail](/images/python-teens.webp)  1:1 / 01 Python for Teens The commonest one to one request, usually from a student well ahead of or behind their class. Open the syllabus →](/courses/python-complete-masterclass-teens)[![Python and AI Automation course thumbnail](/images/python-college.webp)  1:1 / 02 Python and AI Automation For an adult with one task rather than a syllabus: the work already sitting on the desk. Open the syllabus →](/courses/python-ai-automation-masterclass-college)[![Data Structures and Algorithms course thumbnail](/images/dsa-college.webp)  1:1 / 03 Data Structures and Algorithms What a student who has outgrown their school syllabus usually wants next. Open the syllabus →](/courses/data-structures-algorithms-masterclass-college)
+
+The rest of the ladder is [Python and AI for Kids](/courses/python-ai-kids-masterclass) · [AI Literacy for Kids](/courses/ai-literacy-for-kids-course) · [Python for Teens](/courses/python-complete-masterclass-teens) · [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens) · [Data Science for Teens](/courses/data-science-course-for-teens-python-data) · [Git and GitHub](/courses/git-github-version-control-course-for-teens) · [AI and ML Masterclass](/courses/ai-ml-masterclass-complete-college) · [Generative AI: LLMs, RAG and Agents](/courses/complete-generative-ai-masterclass-college). The full list is on the [catalogue](/courses).
+
 In short
 
 Private one to one Python and AI tuition for learners in Nassau and across The Bahamas costs USD 150 a month against USD 100 for a group batch of five to eight. Our honest default recommendation is the group, because much of the learning in this subject comes from watching peers attempt the same problem. Private teaching is the right answer in five specific situations, including the only one that is structural here: the weekday early-morning slot, seven to eight in Nassau, which no group can fill because of the time difference to our teachers in India. The first class is free either way.

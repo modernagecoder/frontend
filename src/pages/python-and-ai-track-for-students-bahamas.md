@@ -6,6 +6,16 @@ source: src/pages/python-and-ai-track-for-students-bahamas.html
 ---
 > Four quarters, four finished projects, a GitHub portfolio and a written parent update every month. The 12-month Python and AI track for students in the Bahamas.
 
+Courses
+
+## The courses the twelve-month track runs on
+
+Four quarters, four finished things. These are the courses each quarter is taught from.
+
+[![Python for Teens course thumbnail](/images/python-teens.webp)  TRACK / 01 Python for Teens Quarter one, and the course that keeps going long after it, for a student arriving with nothing. Open the syllabus →](/courses/python-complete-masterclass-teens)[![Data Science for Teens course thumbnail](/images/data-science-teens.webp)  TRACK / 02 Data Science for Teens Quarter two: files that arrive broken, and the row that decides whether quarter three means anything. Open the syllabus →](/courses/data-science-course-for-teens-python-data)[![AI and Machine Learning for Teens course thumbnail](/images/ai-ml-teens.webp)  TRACK / 03 AI and Machine Learning for Teens Quarter three, where a model has to beat doing nothing clever before anybody believes it. Open the syllabus →](/courses/ai-ml-masterclass-teens)
+
+The rest of the catalogue is [Python and AI for Kids](/courses/python-ai-kids-masterclass) · [AI Literacy for Kids](/courses/ai-literacy-for-kids-course) · [Python for Teens](/courses/python-complete-masterclass-teens) · [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens) · [Data Science for Teens](/courses/data-science-course-for-teens-python-data) · [Git and GitHub](/courses/git-github-version-control-course-for-teens) · [AI and ML Masterclass](/courses/ai-ml-masterclass-complete-college) · [Generative AI: LLMs, RAG and Agents](/courses/complete-generative-ai-masterclass-college). The full list is on the [catalogue](/courses).
+
 In short
 
 The twelve-month Python and AI track is a live online programme of weekly ninety-minute sessions for learners in the Bahamas aged six to sixty-seven, organised into four quarters. Each quarter ends in a finished project running at a public address, with the code readable on GitHub. Underneath it sit four things a camp cannot offer: the same teacher for twelve months, an individual written progress record, competitions used as external deadlines, and a monthly written update to the parent. Group teaching is USD 100 a month, private teaching USD 150, and the first class is free.

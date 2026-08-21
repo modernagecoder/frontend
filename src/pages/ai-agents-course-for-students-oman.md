@@ -6,6 +6,16 @@ source: src/pages/ai-agents-course-for-students-oman.html
 ---
 > Students in Oman build real AI agents in Python: bounded, legible, loud in failure. Live online for ages 6 to 67, from USD 100 a month, first class free.
 
+Courses
+
+## The courses where agents are actually built
+
+Bounded, legible, loud in failure. Agents sit at the fourth rung, not the first.
+
+[![Generative AI: LLMs, RAG and Agents course thumbnail](/images/generative-ai-college.webp)  AGENT / 01 Generative AI: LLMs, RAG and Agents Retrieval over documents you control, and agents that are bounded, logged and loud when they fail. Open the syllabus →](/courses/complete-generative-ai-masterclass-college)[![Coding Agents: Codex and Claude Code course thumbnail](/images/codex-claude-code-teens.webp)  AGENT / 02 Coding Agents: Codex and Claude Code Directing an agent to build real software, then auditing every line it returned. Open the syllabus →](/courses/codex-and-claude-code-ai-coding-agents-course-for-teens)[![AI and Machine Learning for Teens course thumbnail](/images/ai-ml-teens.webp)  AGENT / 03 AI and Machine Learning for Teens The rungs underneath. An agent you cannot check is not an achievement. Open the syllabus →](/courses/ai-ml-masterclass-teens)
+
+Everything below it runs [Python and AI for Kids](/courses/python-ai-kids-masterclass) · [AI Literacy for Kids](/courses/ai-literacy-for-kids-course) · [Python for Teens](/courses/python-complete-masterclass-teens) · [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens) · [Data Science for Teens](/courses/data-science-course-for-teens-python-data) · [Git and GitHub](/courses/git-github-version-control-course-for-teens) · [AI and ML Masterclass](/courses/ai-ml-masterclass-complete-college) · [Generative AI: LLMs, RAG and Agents](/courses/complete-generative-ai-masterclass-college). The full list is on the [catalogue](/courses).
+
 In short
 
 Modern Age Coders teaches AI agent building to learners in Oman as part of a live online Python and AI track. Students write agents in Python that decompose a goal, call tools, log every decision and stop loudly when something is wrong. It sits at the fourth of five rungs, after data handling and model evaluation, because an agent you cannot check is not an achievement. Group teaching is USD 100 a month and private teaching USD 150, and the first class is free.

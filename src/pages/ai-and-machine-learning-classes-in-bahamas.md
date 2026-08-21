@@ -6,6 +6,16 @@ source: src/pages/ai-and-machine-learning-classes-in-bahamas.html
 ---
 > A model that is right 99 per cent of the time can be useless. Live online machine learning for Bahamian students, taught on data they build. First class free.
 
+Courses
+
+## The courses behind the machine learning track
+
+Every model measured in a unit a parent could check, against a baseline it had to beat first.
+
+[![AI and Machine Learning for Teens course thumbnail](/images/ai-ml-teens.webp)  ML / 01 AI and Machine Learning for Teens The main route. Every model measured against a baseline before anyone is allowed to believe it. Open the syllabus →](/courses/ai-ml-masterclass-teens)[![Data Science for Teens course thumbnail](/images/data-science-teens.webp)  ML / 02 Data Science for Teens The quarter that decides whether any modelling means anything: files that arrive broken. Open the syllabus →](/courses/data-science-course-for-teens-python-data)[![AI and ML Masterclass course thumbnail](/images/ai-ml-college.webp)  ML / 03 AI and ML Masterclass The adult version of the same ladder, with an evaluation habit that survives questioning. Open the syllabus →](/courses/ai-ml-masterclass-complete-college)
+
+The rest of the ladder is [Python and AI for Kids](/courses/python-ai-kids-masterclass) · [AI Literacy for Kids](/courses/ai-literacy-for-kids-course) · [Python for Teens](/courses/python-complete-masterclass-teens) · [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens) · [Data Science for Teens](/courses/data-science-course-for-teens-python-data) · [Git and GitHub](/courses/git-github-version-control-course-for-teens) · [AI and ML Masterclass](/courses/ai-ml-masterclass-complete-college) · [Generative AI: LLMs, RAG and Agents](/courses/complete-generative-ai-masterclass-college). The full list is on the [catalogue](/courses).
+
 In short
 
 Modern Age Coders teaches machine learning to learners in The Bahamas from about age twelve, as the third quarter of a twelve-month Python and AI track. The organising idea is evaluation rather than algorithms: class imbalance, why accuracy misleads when an outcome is rare, precision and recall, and the fact that a false alarm and a missed event almost never cost the same. Everything is written in Python on an ordinary laptop, using data the student generates or collects. Group teaching is USD 100 a month, private USD 150, and the first class is free.

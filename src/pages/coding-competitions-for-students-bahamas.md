@@ -6,6 +6,16 @@ source: src/pages/coding-competitions-for-students-bahamas.html
 ---
 > We use competitions as deadlines, not trophies: a student project with no deadline expands until it dies. What we do, and four things we will not claim.
 
+Courses
+
+## The courses a competition entry comes out of
+
+A deadline finishes a project. These are the courses that give a student something to finish.
+
+[![AI and Machine Learning for Teens course thumbnail](/images/ai-ml-teens.webp)  COMP / 01 AI and Machine Learning for Teens The measured project that most competition entries from this programme are built on. Open the syllabus →](/courses/ai-ml-masterclass-teens)[![Competitive Programming for Teens course thumbnail](/images/competitive-programming-teens.webp)  COMP / 02 Competitive Programming for Teens For students who want the timed algorithmic side rather than the project side. Open the syllabus →](/courses/competitive-programming-for-teens-course)[![Git and GitHub for Teens course thumbnail](/images/git-github-teens.webp)  COMP / 03 Git and GitHub for Teens Four finished entries in a year is four documented projects, if the committing habit is there. Open the syllabus →](/courses/git-github-version-control-course-for-teens)
+
+The rest of the ladder is [Python and AI for Kids](/courses/python-ai-kids-masterclass) · [AI Literacy for Kids](/courses/ai-literacy-for-kids-course) · [Python for Teens](/courses/python-complete-masterclass-teens) · [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens) · [Data Science for Teens](/courses/data-science-course-for-teens-python-data) · [Git and GitHub](/courses/git-github-version-control-course-for-teens) · [AI and ML Masterclass](/courses/ai-ml-masterclass-complete-college) · [Generative AI: LLMs, RAG and Agents](/courses/complete-generative-ai-masterclass-college). The full list is on the [catalogue](/courses).
+
 In short
 
 Competitions appear in the twelve-month track as forcing functions rather than as trophies. A fixed external submission date is the only constraint we have found that reliably gets a student project finished, documented and published rather than endlessly improved, and it also forces the least popular part of the work, which is writing it up. We prepare students for open-entry competitions whose timing and subject fit their current project. We make no promise about selection or results, because for school-age students entry frequently runs through the school and judging is not ours to influence.

@@ -6,6 +6,16 @@ source: src/pages/coding-and-ai-alongside-bjc-and-bgcse-bahamas.html
 ---
 > Where a weekly coding and AI programme fits around BJC at Grade 9 and BGCSE at Grade 12, including the two years when our honest advice is to do less of it.
 
+Courses
+
+## The courses that fit around BJC and BGCSE
+
+Nothing here is on either syllabus. These are what a student takes in the years that have room.
+
+[![Python for Teens course thumbnail](/images/python-teens.webp)  SCHOOL / 01 Python for Teens The best use of Grades 7 and 8, which carry no national certificate at the end of them. Open the syllabus →](/courses/python-complete-masterclass-teens)[![AI and Machine Learning for Teens course thumbnail](/images/ai-ml-teens.webp)  SCHOOL / 02 AI and Machine Learning for Teens Grades 10 and 11, the second window, and the best years for building something publishable. Open the syllabus →](/courses/ai-ml-masterclass-teens)[![Git and GitHub for Teens course thumbnail](/images/git-github-teens.webp)  SCHOOL / 03 Git and GitHub for Teens The habit that survives a paused examination year, because the history is already there. Open the syllabus →](/courses/git-github-version-control-course-for-teens)
+
+The rest of the ladder is [Python and AI for Kids](/courses/python-ai-kids-masterclass) · [AI Literacy for Kids](/courses/ai-literacy-for-kids-course) · [Python for Teens](/courses/python-complete-masterclass-teens) · [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens) · [Data Science for Teens](/courses/data-science-course-for-teens-python-data) · [Git and GitHub](/courses/git-github-version-control-course-for-teens) · [AI and ML Masterclass](/courses/ai-ml-masterclass-complete-college) · [Generative AI: LLMs, RAG and Agents](/courses/complete-generative-ai-masterclass-college). The full list is on the [catalogue](/courses).
+
 In short
 
 Bahamian students sit the Bahamas Junior Certificate at the end of Grade 9 and the Bahamas General Certificate of Secondary Education generally at the end of Grade 12. This twelve-month coding and AI programme is not preparation for either, does not follow either specification, and awards nothing a school or university will treat as a qualification. What it offers instead is a deliberate sequence around those dates: the strongest windows are Grades 7 and 8 and Grades 10 and 11, and in the two examination years our advice is to reduce the load or pause, which we give even though it costs us the month.

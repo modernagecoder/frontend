@@ -6,6 +6,16 @@ source: src/pages/ai-and-python-academy-salalah.html
 ---
 > Live online Python, machine learning and AI agent teaching for students in Salalah and Dhofar, ages 6 to 67. USD 100 a month and the first class is free.
 
+Courses
+
+## The courses students in Salalah start on
+
+Python first, then real data, then a model with an error you can state. In that order.
+
+[![Python for Teens course thumbnail](/images/python-teens.webp)  LADDER / 01 Python for Teens Where almost every student here begins, and the two years that make everything after it possible. Open the syllabus →](/courses/python-complete-masterclass-teens)[![Data Science for Teens course thumbnail](/images/data-science-teens.webp)  LADDER / 02 Data Science for Teens Files that arrive broken, categories spelled two ways, and the row that would have ruined the answer. Open the syllabus →](/courses/data-science-course-for-teens-python-data)[![AI and Machine Learning for Teens course thumbnail](/images/ai-ml-teens.webp)  LADDER / 03 AI and Machine Learning for Teens The measured model, and the discipline of comparing it to doing nothing clever. Open the syllabus →](/courses/ai-ml-masterclass-teens)
+
+The whole ladder is [Python and AI for Kids](/courses/python-ai-kids-masterclass) · [AI Literacy for Kids](/courses/ai-literacy-for-kids-course) · [Python for Teens](/courses/python-complete-masterclass-teens) · [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens) · [Data Science for Teens](/courses/data-science-course-for-teens-python-data) · [Git and GitHub](/courses/git-github-version-control-course-for-teens) · [AI and ML Masterclass](/courses/ai-ml-masterclass-complete-college) · [Generative AI: LLMs, RAG and Agents](/courses/complete-generative-ai-masterclass-college). The full list is on the [catalogue](/courses).
+
 In short
 
 Modern Age Coders teaches a live online Python and AI track to learners in Salalah and across Dhofar, aged six to sixty-seven, in batches of five to eight or one to one. Students write real Python, work with real data, train and measure models, build agents, and publish on GitHub. Group teaching is USD 100 a month and private teaching USD 150. The first class is free, and there is no centre in Oman to travel to.
