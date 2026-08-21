@@ -1,0 +1,927 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Canadian Computing Competition Prep | CCC Junior and Senior</title>
+  <meta name="description" content="Junior and Senior are a choice, not a year group, and only Senior leads to the CCO. Live CCC preparation worked backwards from February, one to one or batch.">
+  <meta name="author" content="Modern Age Coders">
+  <link rel="canonical" href="https://learn.modernagecoders.com/canadian-computing-competition-ccc-prep">
+  <link rel="alternate" type="text/markdown" href="/src/pages/canadian-computing-competition-ccc-prep.md" title="Markdown version for AI agents">
+
+  <link rel="icon" href="/favicon.ico" type="image/x-icon">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
+  <meta name="theme-color" content="#7F5E59">
+
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="https://learn.modernagecoders.com/canadian-computing-competition-ccc-prep">
+  <meta property="og:title" content="Canadian Computing Competition Prep | CCC Junior and Senior">
+  <meta property="og:description" content="A capable Grade 9 student who enters Junior because it sounded age-appropriate has removed themselves from the CCO route for a year. The contest runs once.">
+  <meta property="og:image" content="https://learn.modernagecoders.com/images/og-modern-age-coders.png">
+  <meta property="og:site_name" content="Modern Age Coders">
+  <meta property="og:locale" content="en">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Canadian Computing Competition Preparation">
+  <meta name="twitter:description" content="Junior and Senior describe ability, not grade. Only Senior leads to the CCO.">
+  <meta name="twitter:image" content="https://learn.modernagecoders.com/images/og-modern-age-coders.png">
+
+  <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/ai-global.css?v=20260820">
+
+  <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-N8BM164YJP');gtag('config','AW-16910316353');</script>
+
+  <script type="application/ld+json" data-price-scope="coding.international">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "EducationalOrganization",
+        "@id": "https://learn.modernagecoders.com/#org",
+        "name": "Modern Age Coders",
+        "url": "https://learn.modernagecoders.com/",
+        "email": "contact@modernagecoders.com",
+        "telephone": "+91-91233-66161",
+        "foundingDate": "2020",
+        "areaServed": { "@type": "Place", "name": "Worldwide" },
+        "knowsAbout": ["Canadian Computing Competition", "Canadian Computing Olympiad", "Competitive Programming", "Algorithms", "Data Structures", "C++", "Python", "Java"]
+      },
+      {
+        "@type": "Course",
+        "@id": "https://learn.modernagecoders.com/canadian-computing-competition-ccc-prep#course",
+        "name": "Canadian Computing Competition Preparation: Junior and Senior",
+        "description": "Live online Canadian Computing Competition preparation taught one to one or in small batches worldwide, worked backwards from the February sitting, covering the five-question single-sitting format, division choice on ability rather than grade, and the Senior route toward the Canadian Computing Olympiad.",
+        "url": "https://learn.modernagecoders.com/canadian-computing-competition-ccc-prep",
+        "inLanguage": "en",
+        "educationalLevel": "Beginner to Advanced",
+        "coursePrerequisites": "Elementary programming for Junior; intermediate to advanced for Senior",
+        "provider": { "@id": "https://learn.modernagecoders.com/#org" },
+        "isAccessibleForFree": false,
+        "hasCourseInstance": {
+          "@type": "CourseInstance",
+          "courseMode": "online",
+          "courseWorkload": "PT3H",
+          "location": { "@type": "VirtualLocation", "url": "https://learn.modernagecoders.com/canadian-computing-competition-ccc-prep" }
+        },
+        "offers": [
+          { "@type": "Offer", "name": "Group batch", "price": "100", "priceCurrency": "USD", "category": "Monthly", "availability": "https://schema.org/InStock", "url": "https://learn.modernagecoders.com/canadian-computing-competition-ccc-prep" },
+          { "@type": "Offer", "name": "One to one", "price": "150", "priceCurrency": "USD", "category": "Monthly", "availability": "https://schema.org/InStock", "url": "https://learn.modernagecoders.com/canadian-computing-competition-ccc-prep" }
+        ]
+      },
+      {
+        "@type": "Service",
+        "serviceType": "Online Canadian Computing Competition coaching",
+        "provider": { "@id": "https://learn.modernagecoders.com/#org" },
+        "areaServed": { "@type": "Place", "name": "Worldwide" },
+        "audience": { "@type": "EducationalAudience", "educationalRole": "student" }
+      },
+      {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://learn.modernagecoders.com/" },
+          { "@type": "ListItem", "position": 2, "name": "Courses", "item": "https://learn.modernagecoders.com/courses" },
+          { "@type": "ListItem", "position": 3, "name": "Canadian Computing Competition", "item": "https://learn.modernagecoders.com/canadian-computing-competition-ccc-prep" }
+        ]
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+          {"@type": "Question", "name": "Should my child enter Junior or Senior?", "acceptedAnswer": {"@type": "Answer", "text": "On ability, not on grade. The CEMC describes Junior as being for any student with elementary programming skills and Senior for any student with intermediate to advanced skills, and neither is defined by year group. A capable Grade 9 student belongs in Senior. We settle this in September with a timed past Senior paper rather than guessing from a school year."}},
+          {"@type": "Question", "name": "Why does the division matter so much?", "acceptedAnswer": {"@type": "Answer", "text": "Because only Senior leads onward. Roughly twenty of the top official CCC Senior participants from schools in Canada are invited each spring to the Canadian Computing Olympiad at Waterloo, and the CCO is used to select Canada's IOI teams. A capable student who enters Junior has removed themselves from that route for a full year, and the contest runs once."}},
+          {"@type": "Question", "name": "How much does the coaching cost?", "acceptedAnswer": {"@type": "Answer", "text": "A small batch is USD 100 a month and one to one is USD 150 a month, billed in US dollars, the same figures as every other course we teach outside India. There is no premium for contest coaching. No enrolment fee, no minimum term, and the first class is free without a card."}},
+          {"@type": "Question", "name": "When is the CCC?", "acceptedAnswer": {"@type": "Answer", "text": "It is held online in February. The exact date is set by the CEMC each year, so we deliberately do not print it here; the CEMC's own page is correct where a tutoring page would go stale. Check it in the autumn rather than in January, because the preparation calendar is built backwards from it."}},
+          {"@type": "Question", "name": "How do we enter?", "acceptedAnswer": {"@type": "Answer", "text": "Through your school. The CCC is written at participating schools and entry, eligibility and supervision are handled by them rather than by any tutor. We teach alongside that and cannot enter a student, so the first practical step is a conversation with the school's computer science teacher."}},
+          {"@type": "Question", "name": "How many questions are there?", "acceptedAnswer": {"@type": "Answer", "text": "Five per paper, in each division, in a single sitting. That format makes question selection a genuine skill: students who start at question one because it is first regularly leave an easier problem untouched at the end, which is why reading all five before writing anything is drilled from October."}},
+          {"@type": "Question", "name": "Which language should my child use?", "acceptedAnswer": {"@type": "Answer", "text": "C++ for a Senior candidate aiming at the CCO, because time limits eventually favour it and most training material assumes it. Python is entirely workable at Junior level. Java is a solid choice and the right one for a student also sitting an AP or IB in Java. What matters is choosing early rather than in January."}},
+          {"@type": "Question", "name": "Can you get my child invited to the CCO?", "acceptedAnswer": {"@type": "Answer", "text": "No. Invitations go to roughly twenty of the top official Senior participants from schools in Canada, decided by the CEMC on contest results, and we have no relationship with them and no influence of any kind. What a coach controls is whether a student arrives in February able to compete."}},
+          {"@type": "Question", "name": "Is Junior a waste of time for a strong student?", "acceptedAnswer": {"@type": "Answer", "text": "For a genuinely strong student, entering Junior costs them the CCO route for that year, so yes in that specific sense. For a student actually at elementary level it is the right paper, a real contest and a good foundation for Senior the following year. The mistake is choosing by age instead of by ability."}},
+          {"@type": "Question", "name": "When should we start preparing?", "acceptedAnswer": {"@type": "Answer", "text": "September, for a February contest. That gives time to make the division decision on evidence, build the habits in October and November, practise the online environment in December, and sit full timed papers in January. A student starting in January can improve, and we will be honest that we are improving a score rather than running a cycle."}},
+          {"@type": "Question", "name": "My child solves problems but scores badly. Why?", "acceptedAnswer": {"@type": "Answer", "text": "Almost always partial solutions across five questions instead of complete answers to fewer. Testing before moving on feels slower and scores considerably better. After that, the two commonest causes are input handling and never having practised in the online environment, both of which are entirely preventable."}},
+          {"@type": "Question", "name": "Do you teach students outside Canada?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. Some international schools follow Canadian curricula and write the CCC, and some students write it as additional preparation. Entry is still arranged through a participating school, so confirm that route before building a year around the contest."}},
+          {"@type": "Question", "name": "Is the CCC worth it if my child will never reach the CCO?", "acceptedAnswer": {"@type": "Answer", "text": "Yes, and this is the honest framing for almost everybody. The places at the CCO are very few. What the preparation reliably produces is real algorithmic ability, implementation speed and the habit of working under time, and those are worth having whatever happens in February."}},
+          {"@type": "Question", "name": "What happens in the free first class?", "acceptedAnswer": {"@type": "Answer", "text": "A timed past paper problem, sat properly, and a conversation about which division the evidence points at. That decision is the highest-value part of the whole cycle and it should be made in September on a real attempt rather than assumed from a school year."}},
+          {"@type": "Question", "name": "What happens after we send the form?", "acceptedAnswer": {"@type": "Answer", "text": "A mentor calls you at a reasonable hour to arrange the free class. Nothing is charged and no card is requested. Tell us the student's grade and how long they have been programming, because those two facts together start the division conversation, which is where everything else follows from."}}
+        ]
+      }
+    ]
+  }
+  </script>
+</head>
+
+<body class="ag-root ag-ccc">
+
+<nav class="ag-nav">
+  <div class="ag-wrap ag-nav-inner">
+    <a class="ag-nav-brand" href="/">
+      <img src="/images/logo.svg" alt="Modern Age Coders logo" width="30" height="30" fetchpriority="high">
+      <span>Modern Age Coders</span>
+      <span class="ag-brand-tag">CCC</span>
+    </a>
+    <div class="ag-nav-links">
+      <a href="#course">The course</a>
+      <a href="#syllabus">Syllabus</a>
+      <a href="#one">Junior or Senior</a>
+      <a href="#fees">Fees</a>
+      <a href="/courses">All courses</a>
+      <a href="#start" class="ag-btn">Free first class</a>
+    </div>
+  </div>
+</nav>
+
+<header class="ag-hero">
+  <div class="ag-wrap">
+    <nav class="ag-crumbs" aria-label="Breadcrumb">
+      <a href="/">Home</a> <span>/</span> <a href="/courses">Courses</a> <span>/</span> <span>Canadian Computing Competition</span>
+    </nav>
+    <div class="ag-hero-grid">
+      <div>
+        <p class="ag-eyebrow">CCC &middot; Junior and Senior &middot; C++, Java or Python &middot; Live online</p>
+        <h1>Junior and Senior are a choice, not a year group.</h1>
+        <p class="ag-lede">The CEMC describes Junior as being for any student with elementary programming skills and Senior for any student with intermediate to advanced skills. Neither is defined by grade, and the entry does not check your age. This matters because only one of the two leads anywhere: roughly twenty of the top official Senior participants from schools in Canada are invited each spring to the Canadian Computing Olympiad, where Canada's IOI teams are selected. The contest runs once, online, in February, so a division chosen wrongly costs the whole cycle.</p>
+        <div class="ag-btn-row">
+          <a href="#start" class="ag-btn">Book the free first class</a>
+          <a href="#syllabus" class="ag-btn ag-btn--ghost">See the preparation plan</a>
+          <a href="https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders.%20I%20am%20interested%20in%20Canadian%20Computing%20Competition%20preparation." class="ag-btn ag-btn--ghost" target="_blank" rel="noopener" onclick="if(window.gtag)gtag('event','whatsapp_click',{page_exam:'ccc'});">Ask on WhatsApp</a>
+        </div>
+        <p class="ag-hero-note">
+          Live online &middot; one to one or a batch of five to eight &middot; taught from India, worldwide &middot; from USD 100 a month &middot; first class free
+        </p>
+      </div>
+
+      <aside class="ag-spec">
+        <p class="ag-spec-title">The contest, at a glance</p>
+        <p class="ag-trust">
+          <span class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</span>
+          4.9 across 547 Google reviews
+        </p>
+        <dl>
+          <dt>Run by</dt><dd>CEMC, University of Waterloo</dd>
+          <dt>Divisions</dt><dd>Junior and Senior</dd>
+          <dt>Chosen by</dt><dd>Ability, not grade</dd>
+          <dt>Questions</dt><dd>Five per paper</dd>
+          <dt>When</dt><dd>Online, in February</dd>
+          <dt>Leads to</dt><dd>CCO, from Senior only</dd>
+          <dt>CCO invitations</dt><dd>About 20 top Senior participants</dd>
+          <dt>The CCO selects</dt><dd>Canada's IOI teams</dd>
+          <dt>Fees</dt><dd>From USD 100 a month</dd>
+          <dt>First class</dt><dd>Free, no card</dd>
+        </dl>
+      </aside>
+    </div>
+  </div>
+</header>
+
+<section class="ag-section ag-section--tint" id="course">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">The course</p>
+      <h2>CCC preparation, worked backwards from February</h2>
+      <p class="ag-lede">Two formats, both live. Small batches group students in the same division, because a Junior candidate and a Senior candidate need different autumns. One to one is paced to this student's division decision and gaps.</p>
+    </div>
+    <div class="ag-table-wrap">
+        <table class="ag-table">
+          <thead><tr><th scope="col">How it runs</th><th scope="col">Small batch</th><th scope="col">One to one</th></tr></thead>
+          <tbody><tr><td>Grouped by</td><td class="ag-num">Division, never mixed</td><td class="ag-num">Not applicable</td></tr><tr><td>Live classes each week</td><td class="ag-num">Two, fixed slot</td><td class="ag-num">Two, slot agreed with you</td></tr><tr><td>Division decision</td><td class="ag-num">Timed paper in September, discussed</td><td class="ag-num">The same, revisited in January</td></tr><tr><td>Full timed papers</td><td class="ag-num">Monthly from October</td><td class="ag-num">Monthly, plus extra in January</td></tr><tr><td>Online-environment practice</td><td class="ag-num">From December</td><td class="ag-num">From December, or earlier if new to it</td></tr><tr><td>Solution review</td><td class="ag-num">Group walkthrough plus written notes</td><td class="ag-num">Line by line on the student's code</td></tr><tr><td>Monthly fee</td><td class="ag-num">USD 100</td><td class="ag-num">USD 150</td></tr><tr><td>Trial</td><td class="ag-num">First class free, no card</td><td class="ag-num">First class free, no card</td></tr></tbody>
+        </table>
+      </div>
+    <p class="ag-mt-40" style="text-align:center">
+      <a class="ag-btn" href="/courses/competitive-programming-for-teens-course">Open the full syllabus</a>
+      <a class="ag-btn ag-btn--ghost" href="#start">Book the free first class</a>
+    </p>
+  </div>
+</section>
+
+<section class="ag-section">
+  <div class="ag-wrap">
+    <div class="ag-capsule">
+      <p class="ag-capsule-q">The short answer</p>
+      <p>The Canadian Computing Competition is run by the Centre for Education in Mathematics and Computing at the University of Waterloo and is held online in February. There are two divisions, Junior and Senior, and each paper consists of five questions. The divisions are defined by ability rather than by grade: Junior for any student with elementary programming skills, Senior for any student with intermediate to advanced skills. Roughly twenty of the top official Senior participants from schools in Canada are invited each spring to the Canadian Computing Olympiad at Waterloo, which is invitation only and is used to select Canada's teams for the International Olympiad in Informatics. Modern Age Coders coaches it live online, one to one or in small batches, from USD 100 a month with the first class free.</p>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="syllabus">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Module by module</p>
+      <h2>The eight modules, from September to February</h2>
+      <p class="ag-lede">Ordered by the calendar rather than by difficulty, because the contest happens once and preparation that is merely under way in February is preparation that did not finish.</p>
+    </div>
+    <div class="ag-protocol">
+<div class="ag-step">
+  <div class="ag-stage-n">01</div>
+  <div>
+    <h3>The division decision, made on evidence</h3>
+    <p class="ag-slot-time">3 classes &middot; September</p>
+    <ul><li>A timed past Senior paper, sat properly, whatever the student expects</li><li>Reading the result as a decision rather than as a score</li><li>Junior this year and Senior next is a real answer, and often the right one</li></ul>
+  </div>
+</div>
+<div class="ag-step">
+  <div class="ag-stage-n">02</div>
+  <div>
+    <h3>Five questions, and the order to attempt them</h3>
+    <p class="ag-slot-time">4 classes &middot; October</p>
+    <ul><li>Reading all five before writing a single line</li><li>Ranking by expected effort rather than by position on the paper</li><li>Starting with the second-easiest, and why that beats starting first</li></ul>
+  </div>
+</div>
+<div class="ag-step">
+  <div class="ag-stage-n">03</div>
+  <div>
+    <h3>Complete solutions, tested before moving on</h3>
+    <p class="ag-slot-time">5 classes &middot; October</p>
+    <ul><li>Why full answers to fewer questions beat near-misses on all five</li><li>Testing against the sample and then against edge cases</li><li>The discipline of finishing, which is the largest first-year improvement</li></ul>
+  </div>
+</div>
+<div class="ag-step">
+  <div class="ag-stage-n">04</div>
+  <div>
+    <h3>Junior track: implementation done reliably</h3>
+    <p class="ag-slot-time">6 classes &middot; November</p>
+    <ul><li>Arrays, strings and simulation, written without small errors</li><li>Off-by-one at boundaries, hunted rather than hoped away</li><li>Careful reading of a problem that is simple but precise</li></ul>
+  </div>
+</div>
+<div class="ag-step">
+  <div class="ag-stage-n">05</div>
+  <div>
+    <h3>Senior track: graphs, dynamic programming, structures</h3>
+    <p class="ag-slot-time">8 classes &middot; November</p>
+    <ul><li>The algorithm families Senior problems assume</li><li>Recognising which one a problem is within minutes</li><li>Implementing from memory, correctly, under time</li></ul>
+  </div>
+</div>
+<div class="ag-step">
+  <div class="ag-stage-n">06</div>
+  <div>
+    <h3>Input handling and the online environment</h3>
+    <p class="ag-slot-time">4 classes &middot; December</p>
+    <ul><li>Reading the input format exactly as specified, every time</li><li>Practising in the environment the contest is actually written in</li><li>The preventable failures that sink otherwise correct solutions</li></ul>
+  </div>
+</div>
+<div class="ag-step">
+  <div class="ag-stage-n">07</div>
+  <div>
+    <h3>Full past papers, timed and reviewed</h3>
+    <p class="ag-slot-time">6 classes &middot; January</p>
+    <ul><li>Complete five-question papers under real conditions</li><li>Reviewed line by line rather than marked right or wrong</li><li>The last honest moment to change division, taken seriously</li></ul>
+  </div>
+</div>
+<div class="ag-step">
+  <div class="ag-stage-n">08</div>
+  <div>
+    <h3>Taper, rehearsal and the first ten minutes</h3>
+    <p class="ag-slot-time">3 classes &middot; February</p>
+    <ul><li>Short daily problems instead of long sessions</li><li>One final full paper, then stop</li><li>Rehearsing the opening: read all five, rank, begin</li></ul>
+  </div>
+</div>
+</div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="one">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">The decision that costs a year</p>
+      <h2>Junior and Senior are a choice, not a year group</h2>
+      <p class="ag-lede">
+        The CEMC describes Junior as being for any student with elementary programming skills and
+        Senior for any student with intermediate to advanced skills. Neither is defined by grade.
+      </p>
+    </div>
+
+    <div class="ag-grid-2" style="align-items:start">
+      <div>
+        <p>
+          Families read Junior and Senior as though they mean younger and older, and enter
+          accordingly. They do not. A Grade 9 student who has been programming seriously for two
+          years belongs in Senior, and a Grade 12 student who started last term belongs in Junior.
+          The divisions describe ability, and the entry form does not check your age.
+        </p>
+        <p>
+          That matters more than it would in most contests, because only one of the two divisions
+          leads anywhere. Roughly twenty of the top official Senior participants from schools in
+          Canada are invited each spring to the Canadian Computing Olympiad at Waterloo, and the CCO
+          is where Canada's teams for the International Olympiad in Informatics are selected.
+        </p>
+      </div>
+      <div>
+        <p>
+          So a capable student who enters Junior because it sounded age-appropriate has quietly
+          removed themselves from that route for a year. The CCC runs once, online, in February. A
+          division chosen wrongly is not a setback of a few weeks; it is the whole cycle.
+        </p>
+        <p>
+          None of which means Junior is a waste. For a student genuinely at elementary level it is
+          the right paper and a good experience, and doing well there is a real foundation for
+          entering Senior the following year. The point is only that the choice should be made
+          deliberately, on ability, in the autumn rather than in the week of the contest.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="two">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">The contest, exactly</p>
+      <h2>How the Canadian Computing Competition is run</h2>
+      <p class="ag-lede">
+        Run by the Centre for Education in Mathematics and Computing at the University of Waterloo.
+        Dates and timings are set each year by the CEMC, which is the source to check.
+      </p>
+    </div>
+
+    <div class="ag-table-wrap">
+        <table class="ag-table">
+          <thead><tr><th scope="col"></th><th scope="col">How it works</th><th scope="col">What it means for preparation</th></tr></thead>
+          <tbody><tr><td>Organiser</td><td class="ag-num">CEMC, University of Waterloo</td><td class="ag-num">The CEMC page is the only source for dates</td></tr><tr><td>Divisions</td><td class="ag-num">Junior and Senior</td><td class="ag-num">Chosen on ability, not on grade</td></tr><tr><td>Junior is for</td><td class="ag-num">Any student with elementary programming skills</td><td class="ag-num">A real paper, not a warm-up</td></tr><tr><td>Senior is for</td><td class="ag-num">Any student with intermediate to advanced skills</td><td class="ag-num">The only division that leads onward</td></tr><tr><td>Questions</td><td class="ag-num">Five per paper</td><td class="ag-num">Question selection is a genuine skill</td></tr><tr><td>Format</td><td class="ag-num">Online</td><td class="ag-num">Practise in the environment, not only on paper</td></tr><tr><td>When</td><td class="ag-num">February</td><td class="ag-num">Preparation must be finished, not under way</td></tr><tr><td>Frequency</td><td class="ag-num">Once a year</td><td class="ag-num">A wrong division choice costs the cycle</td></tr><tr><td>Beyond</td><td class="ag-num">Top Senior participants invited to the CCO</td><td class="ag-num">And the CCO selects Canada's IOI teams</td></tr></tbody>
+        </table>
+      </div>
+
+    <p class="ag-mt-40">
+      Note the last two rows together. Five questions in a single sitting, once a year, with the
+      route beyond it running through Senior only. That combination means preparation has to be
+      finished by February rather than merely under way, and it is why we work backwards from the
+      contest rather than teaching a syllabus forwards.
+    </p>
+  </div>
+</section>
+
+<section class="ag-section ag-section--deep">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">The route beyond</p>
+      <h2>From the CCC to the CCO, and from the CCO to the IOI</h2>
+      <p class="ag-lede">
+        Worth understanding even for a student who will not get there, because it explains why the
+        Senior paper is structured the way it is.
+      </p>
+    </div>
+    <ol class="ag-protocol">
+        <li class="ag-step" data-step="1">
+          <h4>The CCC, in February, through your school</h4>
+          <p>Written online at participating schools. Both divisions are real contests with five questions each, and the Senior paper is the one that carries a route beyond itself. Entry, eligibility and supervision are handled by the school rather than by any tutor.</p>
+        </li>
+        <li class="ag-step" data-step="2">
+          <h4>An invitation to the CCO, for roughly twenty Senior participants</h4>
+          <p>Extended each spring to about twenty of the top official CCC Senior participants from schools in Canada, decided by the CEMC on results. There is no application, no appeal and no influence available to anybody outside the CEMC.</p>
+        </li>
+        <li class="ag-step" data-step="3">
+          <h4>The CCO itself, at the University of Waterloo</h4>
+          <p>A week-long invitation-only event with workshops, a contest and other activities. For most students who reach it, this is the destination rather than a stepping stone, and it is a substantial thing in itself.</p>
+        </li>
+        <li class="ag-step" data-step="4">
+          <h4>Selection of Canada's IOI teams</h4>
+          <p>The CCO is used to select the teams Canada sends to the International Olympiad in Informatics. That is the top of the pyramid, the places are very few, and the honest framing for almost every student is that the CCC itself is the goal.</p>
+        </li>
+        <li class="ag-step" data-step="5">
+          <h4>What this means for a student in Grade 9 or 10</h4>
+          <p>The route rewards being in Senior early. A student capable of Senior who spends two years in Junior arrives at the decisive papers with less experience of the format, and the format is a large part of what the Senior paper tests.</p>
+        </li>
+      </ol>
+  </div>
+</section>
+
+<section class="ag-section">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Where the contest is lost</p>
+      <h2>Six things that cost Canadian students CCC marks</h2>
+      <p class="ag-lede">
+        Five questions in one sitting rewards a specific kind of preparation, and most students
+        prepare in a different one.
+      </p>
+    </div>
+    <div class="ag-grid-3">
+      <div><h3>Entering the wrong division</h3><p>The most expensive error available, because it costs the whole cycle. Junior and Senior describe ability rather than grade, and a capable student in Junior has removed themselves from the CCO route for a year.</p></div>
+      <div><h3>Not reading all five questions first</h3><p>Five questions in one sitting means the ordering decision is worth marks on its own. Students who start at question one because it is first regularly leave an easier question untouched at the end.</p></div>
+      <div><h3>Partial solutions across five problems</h3><p>The same trap that catches USACO students. Complete, tested answers to fewer questions beat near-misses on all of them, and this is the single habit that most improves a first-time score.</p></div>
+      <div><h3>Never having practised in the online environment</h3><p>The contest is written online. A student who has only ever practised in their own editor meets the submission environment for the first time under pressure, which costs minutes and composure.</p></div>
+      <div><h3>Weak input handling</h3><p>Reading the input format exactly as specified sounds trivial and fails an astonishing number of otherwise correct solutions. It is worth drilling deliberately because it is entirely preventable.</p></div>
+      <div><h3>Preparing forwards instead of backwards</h3><p>The contest is in February and happens once. A student working through a syllabus at their own pace arrives partly ready. Preparation has to be planned from the date backwards, which is how this course is built.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">The autumn before February</p>
+      <h2>How we prepare a student for a contest that happens once</h2>
+      <p class="ag-lede">
+        Two live classes a week, one to one or in a small batch, worked backwards from the February
+        sitting rather than forwards through a syllabus.
+      </p>
+    </div>
+    <ol class="ag-protocol">
+        <li class="ag-step" data-step="1">
+          <h4>September: decide the division honestly</h4>
+          <p>A timed past Senior paper, sat properly. What comes out of it is not a score but a decision: Senior this year, or Junior this year and Senior next. Making that call in September rather than in February is the highest-value hour of the whole cycle.</p>
+        </li>
+        <li class="ag-step" data-step="2">
+          <h4>October: complete solutions, and reading all five first</h4>
+          <p>Whichever division, this comes first. Reading every question before writing anything, choosing the order deliberately, and finishing one problem properly before starting the next.</p>
+        </li>
+        <li class="ag-step" data-step="3">
+          <h4>November: the algorithms the chosen division actually needs</h4>
+          <p>For Junior that is careful implementation, arrays, strings and simulation done reliably. For Senior it is graphs, dynamic programming and the standard data structures, recognised on sight rather than derived on the day.</p>
+        </li>
+        <li class="ag-step" data-step="4">
+          <h4>December: input handling and the online environment</h4>
+          <p>Practising in the format the contest is actually written in, with the input read exactly as specified. Both are unglamorous and both convert directly into marks that would otherwise be lost.</p>
+        </li>
+        <li class="ag-step" data-step="5">
+          <h4>January: full past papers, timed, both divisions if undecided</h4>
+          <p>Complete five-question papers under real conditions, marked and reviewed line by line. This is also the last honest moment to change division, and occasionally we do.</p>
+        </li>
+        <li class="ag-step" data-step="6">
+          <h4>Early February: taper, and rehearse the sitting itself</h4>
+          <p>Short daily problems rather than long sessions, one final full paper, and a rehearsal of the first ten minutes: read all five, rank them, start with the second-easiest. Then stop and let them arrive rested.</p>
+        </li>
+      </ol>
+  </div>
+</section>
+
+<section class="ag-section">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Being straight about it</p>
+      <h2>What we will not tell you about the CCC</h2>
+    </div>
+    <div class="ag-grid-2" style="align-items:start">
+      <div>
+        <p>
+          <strong>We cannot get anybody invited to the CCO.</strong> Invitations go to roughly twenty
+          of the top official Senior participants from schools in Canada, decided by the CEMC on
+          contest results. We have no relationship with them and no influence of any kind.
+        </p>
+        <p>
+          <strong>We do not publish the date.</strong> The CEMC sets it each year and its own page is
+          correct where a tutoring page would go stale. Check it in the autumn, not in January.
+        </p>
+      </div>
+      <div>
+        <p>
+          <strong>Your school handles the entry.</strong> The CCC is written through participating
+          schools, and arrangements, eligibility and supervision are theirs. We teach alongside that
+          and cannot enter a student.
+        </p>
+        <p>
+          <strong>We will tell you when Junior is the right paper.</strong> Pushing a student into
+          Senior before they are ready produces a bad afternoon and no benefit. The honest
+          recommendation is sometimes Junior this year and Senior next, and we would rather say it in
+          October than in February.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--deep">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Outcomes</p>
+      <h2>What a student can do by February</h2>
+      <p class="ag-lede">Behaviours observable in a timed paper. A CCO invitation is not on this list, because that is decided by the CEMC on results and by nobody else.</p>
+    </div>
+    <div class="ag-grid-3">
+      <div><h3>Sit in the division that matches their actual ability</h3><p>Decided in September on a timed paper rather than assumed from a year group, which is the single most consequential choice in the cycle.</p></div>
+      <div><h3>Read all five questions and rank them before coding</h3><p>Rather than starting at question one, which is how an easier problem gets left untouched at the end of the sitting.</p></div>
+      <div><h3>Finish and test one problem before starting another</h3><p>Because complete answers to fewer questions beat near-misses on all five, and this is the habit that most improves a first score.</p></div>
+      <div><h3>Read an input format exactly as specified</h3><p>Drilled deliberately, because it is entirely preventable and it sinks an astonishing number of otherwise correct solutions.</p></div>
+      <div><h3>Work fluently in the online contest environment</h3><p>Having practised there rather than only in their own editor, so the submission process costs no minutes and no composure.</p></div>
+      <div><h3>Recognise the algorithm a Senior problem is asking for</h3><p>Within minutes rather than after an hour, which is what makes the remaining time usable.</p></div>
+      <div><h3>Sit a full five-question paper to time</h3><p>Several times before February, so pacing is settled and only the questions are new on the day.</p></div>
+      <div><h3>Review their own paper usefully</h3><p>Naming what was misread and where the time went, which is what makes the following year better rather than merely later.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="courses">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">The catalogue</p>
+      <h2>The courses this sits inside</h2>
+      <p class="ag-lede">CCC coaching runs from the competitive programming track. The rest are the foundations it assumes and the routes students take alongside it.</p>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">I</span>
+        <h3>Competitive programming</h3>
+        <span class="ag-band-sub">Where CCC coaching comes from</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">CP / 01</p>
+          <h4>Competitive Programming for Teens</h4>
+          <p>The course this page describes for school-age students, run backwards from the contest date with timed papers every month.</p>
+          <a class="ag-course-link" href="/courses/competitive-programming-for-teens-course">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">CP / 02</p>
+          <h4>Competitive Programming Masterclass</h4>
+          <p>The advanced version, for Senior candidates aiming at the CCO and beyond.</p>
+          <a class="ag-course-link" href="/courses/competitive-programming-masterclass-college">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">CP / 03</p>
+          <h4>Data Structures and Algorithms</h4>
+          <p>The systematic treatment of what the Senior paper assumes, and the usual answer for a student stuck below it.</p>
+          <a class="ag-course-link" href="/courses/data-structures-algorithms-masterclass-college">Open the syllabus</a>
+        </article>
+      </div>
+    </div>
+
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">II</span>
+        <h3>The languages</h3>
+        <span class="ag-band-sub">Any of the three, chosen deliberately</span>
+      </div>
+      <div class="ag-grid-4">
+        <article class="ag-course">
+          <p class="ag-course-code">LANG / 01</p>
+          <h4>C++ Programming for Teens</h4>
+          <p>The usual choice for a Senior candidate, and the one most editorial material assumes.</p>
+          <a class="ag-course-link" href="/courses/cpp-programming-masterclass-for-teens">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">LANG / 02</p>
+          <h4>Python for Teens</h4>
+          <p>Entirely workable at Junior level and increasingly limiting at Senior, where time limits bite.</p>
+          <a class="ag-course-link" href="/courses/python-complete-masterclass-teens">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">LANG / 03</p>
+          <h4>Java Programming for Teens</h4>
+          <p>A solid contest language and the right one for a student also sitting an AP or IB in Java.</p>
+          <a class="ag-course-link" href="/courses/java-programming-masterclass-for-teens">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">LANG / 04</p>
+          <h4>Git and GitHub for Teens</h4>
+          <p>Contest solutions committed as they are written, which turns a season of practice into something a reader can open.</p>
+          <a class="ag-course-link" href="/courses/git-github-version-control-course-for-teens">Open the syllabus</a>
+        </article>
+      </div>
+    </div>
+
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">III</span>
+        <h3>Alongside and beyond</h3>
+        <span class="ag-band-sub">School qualifications and other contests</span>
+      </div>
+      <div class="ag-grid-4">
+        <article class="ag-course">
+          <p class="ag-course-code">NEXT / 01</p>
+          <h4>AP Computer Science A Exam Prep</h4>
+          <p>Sat by many Canadian students alongside the CCC, and the Java overlap is worth using deliberately.</p>
+          <a class="ag-course-link" href="/courses/ap-computer-science-a-java-exam-prep-course">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">NEXT / 02</p>
+          <h4>IB Diploma Computer Science</h4>
+          <p>The other common school qualification running in parallel with contest training.</p>
+          <a class="ag-course-link" href="/courses/ib-diploma-computer-science-course">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">NEXT / 03</p>
+          <h4>Complete High School Mathematics Mastery</h4>
+          <p>The mathematics underneath the Senior paper, and the CEMC mathematics contests many CCC students also write.</p>
+          <a class="ag-course-link" href="/courses/complete-high-school-mathematics-mastery">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">NEXT / 04</p>
+          <h4>Olympiad and Competition Mathematics</h4>
+          <p>For students writing the CEMC mathematics contests seriously as well as the computing one.</p>
+          <a class="ag-course-link" href="/courses/olympiad-competition-mathematics-mastery">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">NEXT / 05</p>
+          <h4>Hackathon Prep for Teens</h4>
+          <p>A different competitive format, for students who want to build as well as to solve.</p>
+          <a class="ag-course-link" href="/courses/hackathon-prep-for-teens-coding-ai-build-innovate-win-course">Open the syllabus</a>
+        </article>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="fees">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Fees</p>
+      <h2>What CCC coaching costs</h2>
+      <p class="ag-lede">The same two figures as every other course we teach outside India, monthly, in US dollars. No premium for the word olympiad, nothing owed once you stop, first class free without a card.</p>
+    </div>
+    <div class="ag-grid-3">
+      <div class="ag-price">
+        <p class="ag-price-name">Free first class</p>
+        <p class="ag-price-amt">USD 0</p>
+        <p class="ag-price-alt">no card required</p>
+        <ul><li>Taught rather than sold</li><li>A real diagnostic on the exam itself</li><li>You watch it, then decide</li></ul>
+        <a href="#start" class="ag-btn ag-btn--ghost">Book it</a>
+      </div>
+      <div class="ag-price ag-price--feature">
+        <p class="ag-price-name">Group batch</p>
+        <p class="ag-price-amt">USD 100</p>
+        <p class="ag-price-alt">a month, billed in US dollars</p>
+        <ul><li>Five to eight students, one teacher throughout</li><li>Live video, never a recording</li><li>Past-paper work between classes, marked by the teacher</li><li>Certificate on completion</li></ul>
+        <a href="#start" class="ag-btn">Start here</a>
+      </div>
+      <div class="ag-price">
+        <p class="ag-price-name">One to one</p>
+        <p class="ag-price-amt">USD 150</p>
+        <p class="ag-price-alt">a month, billed in US dollars</p>
+        <ul><li>Private teaching, paced to the entry date</li><li>The only way to get a weekday morning slot</li><li>Syllabus rebuilt around the papers the student is weakest on</li></ul>
+        <a href="#start" class="ag-btn ag-btn--ghost">Enquire</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">What families say</p>
+      <h2>Rated 4.9 across 547 Google reviews</h2>
+      <p class="ag-lede">Real reviews from real families. We neither write nor commission them.</p>
+    </div>
+    <div class="ag-grid-3">
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."</p>
+        <p class="ag-review-name">Ria Mukherjee</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."</p>
+        <p class="ag-review-name">Samriddha Mondal</p>
+        <p class="ag-review-role">Student</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."</p>
+        <p class="ag-review-name">Vansh Agarwal</p>
+        <p class="ag-review-role">Student</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."</p>
+        <p class="ag-review-name">Sonam Oswal</p>
+        <p class="ag-review-role">Parent of Dhairya</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."</p>
+        <p class="ag-review-name">Sonu Goyal</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."</p>
+        <p class="ag-review-name">Ritu Kedia</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">The other nine</p>
+      <h2>The other exams and contests we prepare students for</h2>
+      <p class="ag-lede">Most CCC students are sitting a school qualification at the same time, and some are also writing other national contests. These are the ones we teach alongside it.</p>
+    </div>
+    <div class="ag-markets">
+      <a class="ag-market" href="/ap-computer-science-a-online-classes"><span class="ag-market-n">AP Computer Science A</span><span class="ag-market-m">Java</span></a>
+      <a class="ag-market" href="/ap-computer-science-principles-online-coaching"><span class="ag-market-n">AP Computer Science Principles</span><span class="ag-market-m">Any language</span></a>
+      <a class="ag-market" href="/cambridge-igcse-computer-science-tuition"><span class="ag-market-n">Cambridge IGCSE 0478</span><span class="ag-market-m">Python, VB, Java</span></a>
+      <a class="ag-market" href="/cambridge-a-level-computer-science-online-classes"><span class="ag-market-n">Cambridge A Level 9618</span><span class="ag-market-m">Python, VB, Java</span></a>
+      <a class="ag-market" href="/uk-gcse-computer-science-tutoring"><span class="ag-market-n">UK GCSE Computer Science</span><span class="ag-market-m">Python</span></a>
+      <a class="ag-market" href="/ib-computer-science-online-tuition"><span class="ag-market-n">IB Diploma Computer Science</span><span class="ag-market-m">Java or Python</span></a>
+      <a class="ag-market" href="/usaco-preparation-online-coaching"><span class="ag-market-n">USACO</span><span class="ag-market-m">C++, Java, Python</span></a>
+      <a class="ag-market" href="/ioi-olympiad-informatics-training"><span class="ag-market-n">Informatics olympiads</span><span class="ag-market-m">C++</span></a>
+      <a class="ag-market" href="/python-certification-pcep-pcap-course"><span class="ag-market-n">PCEP and PCAP</span><span class="ag-market-m">Python</span></a>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--deep">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">CCC questions</p>
+      <h2>What Canadian families ask about the CCC</h2>
+    </div>
+    <div class="ag-faq">
+      <div class="ag-faq-item">
+        <h3>Should my child enter Junior or Senior?</h3>
+        <p>On ability, not on grade. The CEMC describes Junior as being for any student with elementary programming skills and Senior for any student with intermediate to advanced skills, and neither is defined by year group. A capable Grade 9 student belongs in Senior. We settle this in September with a timed past Senior paper rather than guessing from a school year.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Why does the division matter so much?</h3>
+        <p>Because only Senior leads onward. Roughly twenty of the top official CCC Senior participants from schools in Canada are invited each spring to the Canadian Computing Olympiad at Waterloo, and the CCO is used to select Canada's IOI teams. A capable student who enters Junior has removed themselves from that route for a full year, and the contest runs once.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>How much does the coaching cost?</h3>
+        <p>A small batch is USD 100 a month and one to one is USD 150 a month, billed in US dollars, the same figures as every other course we teach outside India. There is no premium for contest coaching. No enrolment fee, no minimum term, and the first class is free without a card.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>When is the CCC?</h3>
+        <p>It is held online in February. The exact date is set by the CEMC each year, so we deliberately do not print it here; the CEMC's own page is correct where a tutoring page would go stale. Check it in the autumn rather than in January, because the preparation calendar is built backwards from it.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>How do we enter?</h3>
+        <p>Through your school. The CCC is written at participating schools and entry, eligibility and supervision are handled by them rather than by any tutor. We teach alongside that and cannot enter a student, so the first practical step is a conversation with the school's computer science teacher.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>How many questions are there?</h3>
+        <p>Five per paper, in each division, in a single sitting. That format makes question selection a genuine skill: students who start at question one because it is first regularly leave an easier problem untouched at the end, which is why reading all five before writing anything is drilled from October.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Which language should my child use?</h3>
+        <p>C++ for a Senior candidate aiming at the CCO, because time limits eventually favour it and most training material assumes it. Python is entirely workable at Junior level. Java is a solid choice and the right one for a student also sitting an AP or IB in Java. What matters is choosing early rather than in January.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Can you get my child invited to the CCO?</h3>
+        <p>No. Invitations go to roughly twenty of the top official Senior participants from schools in Canada, decided by the CEMC on contest results, and we have no relationship with them and no influence of any kind. What a coach controls is whether a student arrives in February able to compete.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Is Junior a waste of time for a strong student?</h3>
+        <p>For a genuinely strong student, entering Junior costs them the CCO route for that year, so yes in that specific sense. For a student actually at elementary level it is the right paper, a real contest and a good foundation for Senior the following year. The mistake is choosing by age instead of by ability.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>When should we start preparing?</h3>
+        <p>September, for a February contest. That gives time to make the division decision on evidence, build the habits in October and November, practise the online environment in December, and sit full timed papers in January. A student starting in January can improve, and we will be honest that we are improving a score rather than running a cycle.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>My child solves problems but scores badly. Why?</h3>
+        <p>Almost always partial solutions across five questions instead of complete answers to fewer. Testing before moving on feels slower and scores considerably better. After that, the two commonest causes are input handling and never having practised in the online environment, both of which are entirely preventable.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Do you teach students outside Canada?</h3>
+        <p>Yes. Some international schools follow Canadian curricula and write the CCC, and some students write it as additional preparation. Entry is still arranged through a participating school, so confirm that route before building a year around the contest.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Is the CCC worth it if my child will never reach the CCO?</h3>
+        <p>Yes, and this is the honest framing for almost everybody. The places at the CCO are very few. What the preparation reliably produces is real algorithmic ability, implementation speed and the habit of working under time, and those are worth having whatever happens in February.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>What happens in the free first class?</h3>
+        <p>A timed past paper problem, sat properly, and a conversation about which division the evidence points at. That decision is the highest-value part of the whole cycle and it should be made in September on a real attempt rather than assumed from a school year.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>What happens after we send the form?</h3>
+        <p>A mentor calls you at a reasonable hour to arrange the free class. Nothing is charged and no card is requested. Tell us the student's grade and how long they have been programming, because those two facts together start the division conversation, which is where everything else follows from.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="start">
+  <div class="ag-wrap">
+    <div class="ag-hero-grid">
+      <div>
+        <div class="ag-section-head">
+          <p class="ag-eyebrow">Enrol</p>
+          <h2>Book the free first class, and settle the division question</h2>
+        </div>
+        <p>The first class is a real timed problem from a past paper, sat properly, followed by a straight conversation about which division the evidence actually points at. That decision is worth more than any month of content teaching, because only Senior leads to the CCO and the contest runs once a year. If the honest answer is Junior this year and Senior next, we will say so, and that is a good plan rather than a consolation.</p>
+        <p>Rather read first? <a class="ag-inline-link" href="/usaco-preparation-online-coaching">USACO preparation</a>, <a class="ag-inline-link" href="/ioi-olympiad-informatics-training">informatics olympiad training</a>, or <a class="ag-inline-link" href="/courses/competitive-programming-for-teens-course">the full course syllabus</a>.</p>
+        <p style="margin-top:22px">
+          <a class="ag-inline-link" href="https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders.%20I%20am%20interested%20in%20Canadian%20Computing%20Competition%20preparation." target="_blank" rel="noopener">WhatsApp us</a> &middot;
+          <a class="ag-inline-link" href="tel:+919123366161">+91 91233 66161</a> &middot;
+          <a class="ag-inline-link" href="mailto:contact@modernagecoders.com">contact@modernagecoders.com</a>
+        </p>
+        <p style="font-size:.92rem;color:var(--ag-muted);margin-top:14px">
+          Every class is live, one to one or in a small division-matched batch, taught from India at a time arranged with you. Nothing here is a recording. The form starts a conversation, not an enrolment.
+        </p>
+      </div>
+      <div class="ag-form-panel">
+        <form onsubmit="submitCccLead(event)" novalidate>
+          <div class="ag-field">
+            <label for="ag-ccc-name">Your name</label>
+            <input id="ag-ccc-name" type="text" name="name" placeholder="Parent or student name" required>
+          </div>
+          <div class="ag-field">
+            <label for="ag-ccc-phone">Phone or WhatsApp, including your country code</label>
+            <input id="ag-ccc-phone" type="tel" name="phone" placeholder="+1 555 000 0000" required>
+          </div>
+          <div class="ag-field">
+            <label for="ag-ccc-when">When is the exam?</label>
+            <select id="ag-ccc-when" name="age">
+              <option value="this-session">This coming session</option>
+              <option value="next-year">Next year</option>
+              <option value="two-years">Two years away</option>
+              <option value="unsure">Not decided yet</option>
+            </select>
+          </div>
+          <button type="submit" class="ag-btn" style="width:100%">Book the free first class</button>
+          <p class="ag-form-note">No card. No obligation. We call, we do not spam.</p>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="ag-footer">
+  <div class="ag-wrap">
+    <div class="ag-grid-4">
+      <div>
+        <h4>Modern Age Coders</h4>
+        <p style="font-size:.9rem;opacity:.82">
+          Live online coding, AI and mathematics for ages 6 to 67. Teaching since 2020, more than
+          10,000 students across 25 countries and more.
+        </p>
+      </div>
+      <div>
+        <h4>Exam courses</h4>
+        <ul>
+          <li><a href="/ap-computer-science-a-online-classes">AP Computer Science A</a></li>
+          <li><a href="/ap-computer-science-principles-online-coaching">AP Computer Science Principles</a></li>
+          <li><a href="/cambridge-igcse-computer-science-tuition">Cambridge IGCSE 0478</a></li>
+          <li><a href="/cambridge-a-level-computer-science-online-classes">Cambridge A Level 9618</a></li>
+          <li><a href="/uk-gcse-computer-science-tutoring">UK GCSE Computer Science</a></li>
+          <li><a href="/ib-computer-science-online-tuition">IB Diploma Computer Science</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Competitive and certification</h4>
+        <ul>
+          <li><a href="/usaco-preparation-online-coaching">USACO</a></li>
+          <li><a href="/ioi-olympiad-informatics-training">Informatics olympiads</a></li>
+          <li><a href="/canadian-computing-competition-ccc-prep">Canadian Computing Competition</a></li>
+          <li><a href="/python-certification-pcep-pcap-course">PCEP and PCAP</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Start</h4>
+        <ul>
+          <li><a href="/courses">The full catalogue</a></li>
+          <li><a href="/pricing">Fees</a></li>
+          <li><a href="/how-we-teach">How we teach</a></li>
+          <li><a href="/student-labs">What students build</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="ag-footer-bottom">
+      <span>&copy; 2026 Modern Age Coders. Live online, taught from India, worldwide.</span>
+      <span>Ages 6 to 67 &middot; 25 countries and more</span>
+    </div>
+  </div>
+</footer>
+
+<script>
+window.submitCccLead = function (e) {
+  e.preventDefault();
+  var form = e.target;
+  var name = (form.querySelector('input[name="name"]') || {}).value || '';
+  var phoneRaw = (form.querySelector('input[type="tel"]') || {}).value || '';
+  var when = (form.querySelector('select[name="age"]') || {}).value || '';
+  var d = phoneRaw.replace(/\D/g, '');
+  if (d.length < 7) { alert('Please enter a valid phone number including your country code.'); return; }
+  var btn = form.querySelector('button[type="submit"]');
+  var oldText = btn.textContent;
+  btn.disabled = true; btn.textContent = 'Sending...';
+  var API_URL = (location.hostname === 'localhost' || location.hostname === '127.0.0.1')
+    ? 'http://localhost:5000' : 'https://backend-modernagecoders.vercel.app';
+  fetch(API_URL + '/api/callback/request', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({
+      phone: d, countryCode: '', countryIso: '', countryName: 'International',
+      source: 'canadian-computing-competition-ccc-prep-inline', meta: { name: name, exam: 'ccc', sitting: when, raw: phoneRaw }
+    })
+  }).then(function (r) { return r.json(); }).then(function (data) {
+    if (data && data.success) {
+      if (window.gtag) gtag('event', 'generate_lead', { page_exam: 'ccc' });
+      form.innerHTML = '<p class="ag-form-ok">Thank you' + (name ? ', ' + name.split(' ')[0] : '') +
+        '. A mentor will call you to arrange the free class.</p>';
+    } else {
+      alert((data && data.message) || 'Something went wrong. Please try again.');
+      btn.disabled = false; btn.textContent = oldText;
+    }
+  }).catch(function () {
+    alert('Network error. Please try again.');
+    btn.disabled = false; btn.textContent = oldText;
+  });
+};
+</script>
+<script>
+  window.addEventListener('load', function () {
+    var s = document.createElement('script');
+    s.src = 'https://www.googletagmanager.com/gtag/js?id=G-N8BM164YJP';
+    s.async = true;
+    document.head.appendChild(s);
+  });
+</script>
+</body>
+</html>

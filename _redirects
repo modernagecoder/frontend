@@ -1770,4 +1770,8 @@
 # Global Build-AI cluster (ai-global.css). Inserted before the /* catch-all.
 /python-certification-pcep-pcap-course /src/pages/python-certification-pcep-pcap-course.html 200
 /python-certification-pcep-pcap-course.md /src/pages/python-certification-pcep-pcap-course.md 200
+
+# Global Build-AI cluster (ai-global.css). Inserted before the /* catch-all.
+/canadian-computing-competition-ccc-prep /src/pages/canadian-computing-competition-ccc-prep.html 200
+/canadian-computing-competition-ccc-prep.md /src/pages/canadian-computing-competition-ccc-prep.md 200
 /* /src/pages/404.html 404

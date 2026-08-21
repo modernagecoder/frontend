@@ -488,7 +488,7 @@ The other nine
 
 Same method, different specification. Useful for families choosing between Cambridge, the IB and Advanced Placement, or with children in different systems.
 
-[AP Computer Science AJava](/ap-computer-science-a-online-classes)[AP Computer Science PrinciplesAny language](/ap-computer-science-principles-online-coaching)[Cambridge IGCSE 0478Python, VB, Java](/cambridge-igcse-computer-science-tuition)[UK GCSE Computer SciencePython](/uk-gcse-computer-science-tutoring)[IB Diploma Computer ScienceJava or Python](/ib-computer-science-online-tuition)
+[AP Computer Science AJava](/ap-computer-science-a-online-classes)[AP Computer Science PrinciplesAny language](/ap-computer-science-principles-online-coaching)[Cambridge IGCSE 0478Python, VB, Java](/cambridge-igcse-computer-science-tuition)[UK GCSE Computer SciencePython](/uk-gcse-computer-science-tutoring)[IB Diploma Computer ScienceJava or Python](/ib-computer-science-online-tuition)[USACOC++, Java, Python](/usaco-preparation-online-coaching)[Informatics olympiadsC++](/ioi-olympiad-informatics-training)[PCEP and PCAPPython](/python-certification-pcep-pcap-course)[Canadian Computing CompetitionC++, Java, Python](/canadian-computing-competition-ccc-prep)
 
 Cambridge 9618 questions
 

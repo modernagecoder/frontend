@@ -488,7 +488,7 @@ The other nine
 
 Same method, different specification. If your child sits more than one of these, or you are choosing between curricula, these pages set out what each actually asks for.
 
-[AP Computer Science AJava](/ap-computer-science-a-online-classes)
+[AP Computer Science AJava](/ap-computer-science-a-online-classes)[Cambridge IGCSE 0478Python, VB, Java](/cambridge-igcse-computer-science-tuition)[Cambridge A Level 9618Python, VB, Java](/cambridge-a-level-computer-science-online-classes)[UK GCSE Computer SciencePython](/uk-gcse-computer-science-tutoring)[IB Diploma Computer ScienceJava or Python](/ib-computer-science-online-tuition)[USACOC++, Java, Python](/usaco-preparation-online-coaching)[Informatics olympiadsC++](/ioi-olympiad-informatics-training)[PCEP and PCAPPython](/python-certification-pcep-pcap-course)[Canadian Computing CompetitionC++, Java, Python](/canadian-computing-competition-ccc-prep)
 
 AP Computer Science Principles questions
 

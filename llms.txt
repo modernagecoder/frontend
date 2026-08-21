@@ -314,6 +314,7 @@ Ages 6 to 67, small live batches, priced from USD 100 a month.
 - USACO preparation: https://learn.modernagecoders.com/usaco-preparation-online-coaching
 - IOI and informatics olympiad training: https://learn.modernagecoders.com/ioi-olympiad-informatics-training
 - Python Institute PCEP and PCAP: https://learn.modernagecoders.com/python-certification-pcep-pcap-course
+- Canadian Computing Competition: https://learn.modernagecoders.com/canadian-computing-competition-ccc-prep
 ## Coding Classes by State, Province & Market
 
 Live online coding and mathematics for a specific state, province or market,
