@@ -6,6 +6,14 @@ source: src/pages/how-to-actually-learn-to-code.html
 ---
 > The feeling of understanding and the fact of it come apart, and most formats optimise the feeling. What actually builds real skill, and what it costs you.
 
+Start here
+
+## Where this shows up in the catalogue
+
+Everywhere, because it is a design principle rather than a course. What it means in practice is that no class starts by filling in somebody else's file.
+
+[![Python for Teens course thumbnail](/images/python-teens.webp)  DEPTH / 01 Python for Teens Blank files, build work between sessions, and a teacher who does not rescue too early. This page as a two-year course. Open the syllabus →](/courses/python-complete-masterclass-teens)[![Python and AI for Kids course thumbnail](/images/python-kids.webp)  DEPTH / 02 Python and AI for Kids The same design for younger learners, where protecting the moment of being stuck matters most and is hardest for adults to watch. Open the syllabus →](/courses/python-ai-kids-masterclass)[![Data Science for Teens course thumbnail](/images/data-science-teens.webp)  DEPTH / 03 Data Science for Teens The first course where nobody has a tutorial for that particular broken file, which is where real learning starts. Open the syllabus →](/courses/data-science-course-for-teens-python-data)
+
 The short answer
 
 The feeling of understanding and the fact of understanding are different quantities, and most popular learning formats optimise the first. Watching a competent person solve a problem produces genuine comprehension of each step while building almost no ability to produce it, which is why students finish long video courses and still cannot start from an empty file. Skill is built in the moments of being stuck, so Modern Age Coders teaches live in small batches with blank-file starts, build work between sessions and a teacher who declines to rescue a student too early. It is slower and less comfortable in the first month and we say so before anyone enrols. Group teaching is USD 100 a month, private is USD 150, first class free.

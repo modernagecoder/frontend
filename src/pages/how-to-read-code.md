@@ -6,6 +6,14 @@ source: src/pages/how-to-read-code.html
 ---
 > You read far more code than you write, and machines now write it faster than you can read. The four-pass method for code you did not write, taught live.
 
+Start here
+
+## Where reading is taught in the catalogue
+
+It is not a separate product. It runs inside every course from the point a student can write a little, because reading and writing are two halves of one skill and separating them is what produced the gap.
+
+[![Python for Teens course thumbnail](/images/python-teens.webp)  DEPTH / 01 Python for Teens Reading runs inside it from the point a student can write a little. Splitting comprehension from production is the mistake that created the gap. Open the syllabus →](/courses/python-complete-masterclass-teens)[![Git and GitHub for Teens course thumbnail](/images/git-github-teens.webp)  DEPTH / 02 Git and GitHub for Teens History as a reading tool. A confusing line is usually the residue of one specific bug, and the commit that introduced it often says why. Open the syllabus →](/courses/git-github-version-control-course-for-teens)[![Coding Agents: Codex and Claude Code course thumbnail](/images/codex-claude-code-teens.webp)  DEPTH / 03 Coding Agents: Codex and Claude Code Where reading earns its keep fastest now, because the material arrives faster than any human can carefully take it in. Open the syllabus →](/courses/codex-and-claude-code-ai-coding-agents-course-for-teens)
+
 The short answer
 
 Reading code is a procedure rather than a talent, and it is the skill programmers use most and are taught least. The method is four passes in a fixed order: what goes in and out, follow one item through, what happens to the leftovers, then name the thing yourself. It scales from a single function to a large repository. Modern Age Coders teaches it live because reading is the one programming skill with no feedback loop: form a wrong understanding and nothing happens at all, so a teacher has to supply the correction. Group teaching is USD 100 a month, private is USD 150, and the first class is free without a card.

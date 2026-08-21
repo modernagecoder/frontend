@@ -6,6 +6,14 @@ source: src/pages/how-llms-actually-work.html
 ---
 > A language model predicts the next token, then does it again. That is the whole loop. Why hallucination follows, why it miscounts letters, and how we teach it.
 
+Start here
+
+## Where this is taught in the catalogue
+
+At three depths, by age. The honest simplified version for children, the actual mechanism for teenagers with an API project attached, and the full treatment including training dynamics for adults.
+
+[![AI Literacy for Kids course thumbnail](/images/ai-literacy-for-kids.webp)  DEPTH / 01 AI Literacy for Kids The honest simplified version from about eight: a very good guesser at what comes next, which looks nothing up, and can be sure and wrong at once. Open the syllabus →](/courses/ai-literacy-for-kids-course)[![AI and Machine Learning for Teens course thumbnail](/images/ai-ml-teens.webp)  DEPTH / 02 AI and Machine Learning for Teens The actual loop, tokenisation, training against inference, then something built on an API so the abstraction stops being one. Open the syllabus →](/courses/ai-ml-masterclass-teens)[![Generative AI: LLMs, RAG and Agents course thumbnail](/images/generative-ai-college.webp)  DEPTH / 03 Generative AI: LLMs, RAG and Agents The full treatment for adults: adaptation, grounding, and agents that are bounded, logged and loud when something goes wrong. Open the syllabus →](/courses/complete-generative-ai-masterclass-college)
+
 The short answer
 
 A large language model is trained to produce a probability distribution over the next token given the text so far, then to sample one, append it and repeat. That loop is the whole of inference: nothing in it consults a database or checks whether a sentence is true. Fluency is therefore what the objective optimises directly and truth is only correlated with it, which is why a confident, well-formed, invented citation is not a malfunction but the system doing exactly what it was built to do. Modern Age Coders teaches this mechanism from about age eight in honest simplified form and in full to teenagers and adults. Group teaching is USD 100 a month, private is USD 150, first class free.

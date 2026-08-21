@@ -6,6 +6,14 @@ source: src/pages/python-certification-pcep-pcap-course.html
 ---
 > A Python certificate is worth less than a repository, and four cases where it is still the right purchase. Live PCEP and PCAP preparation, one to one or batch.
 
+Start here
+
+## The three courses behind this page
+
+The certification course builds the repository alongside the exam. The other two are the Python underneath and the associate level on its own.
+
+[![PCEP and PCAP Python Certification course thumbnail](/images/pcep-python-certification.webp)  CERT / 01 PCEP and PCAP Python Certification The course this page describes. Every topic implemented before it is examined, predicting-output drilled weekly, and three finished programs committed publicly. Open the syllabus →](/courses/pcep-pcap-python-certification-course)[![PCAP Python Certification Prep course thumbnail](/images/pcap-python-certification.webp)  CERT / 02 PCAP Python Certification Prep The associate-level course on its own, for a student who already holds PCEP or is going straight to it. Open the syllabus →](/courses/pcap-python-certification-prep-course)[![Python for Teens course thumbnail](/images/python-teens.webp)  CERT / 03 Python for Teens Where a school-age student normally begins, and the fastest route to being ready for PCEP. Open the syllabus →](/courses/python-complete-masterclass-teens)
+
 The course
 
 ## PCEP and PCAP, prepared with a repository alongside

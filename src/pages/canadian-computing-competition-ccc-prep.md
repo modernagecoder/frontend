@@ -6,6 +6,14 @@ source: src/pages/canadian-computing-competition-ccc-prep.html
 ---
 > Junior and Senior are a choice, not a year group, and only Senior leads to the CCO. Live CCC preparation worked backwards from February, one to one or batch.
 
+Start here
+
+## The three courses behind this page
+
+CCC coaching runs from the competitive programming track, worked backwards from February, with the algorithms course behind the Senior paper.
+
+[![Competitive Programming for Teens course thumbnail](/images/competitive-programming-teens.webp)  CP / 01 Competitive Programming for Teens The course this page describes for school-age students, run backwards from the contest date with timed papers every month. Open the syllabus →](/courses/competitive-programming-for-teens-course)[![Competitive Programming Masterclass course thumbnail](/images/placement-prep-college.webp)  CP / 02 Competitive Programming Masterclass The advanced version, for Senior candidates aiming at the CCO and beyond. Open the syllabus →](/courses/competitive-programming-masterclass-college)[![Data Structures and Algorithms course thumbnail](/images/dsa-college.webp)  CP / 03 Data Structures and Algorithms The systematic treatment of what the Senior paper assumes, and the usual answer for a student stuck below it. Open the syllabus →](/courses/data-structures-algorithms-masterclass-college)
+
 The course
 
 ## CCC preparation, worked backwards from February

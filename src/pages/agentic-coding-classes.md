@@ -6,6 +6,14 @@ source: src/pages/agentic-coding-classes.html
 ---
 > The agent writes the code. Your job is to be able to say no. Live online agentic coding classes that teach the review, not the prompt, for ages 6 to 67.
 
+Start here
+
+## Where agentic coding sits in the catalogue
+
+Two courses teach it directly. The rest of the ladder is what makes the review possible in the first place, because you cannot audit a language you cannot read.
+
+[![Coding Agents: Codex and Claude Code course thumbnail](/images/codex-claude-code-teens.webp)  DEPTH / 01 Coding Agents: Codex and Claude Code The course this page describes. Direct an agent to build real software, then defend every line of the diff to somebody looking for the decision you did not make. Open the syllabus →](/courses/codex-and-claude-code-ai-coding-agents-course-for-teens)[![Python for Teens course thumbnail](/images/python-teens.webp)  DEPTH / 02 Python for Teens The prerequisite nobody can skip. You cannot audit a language you cannot read, and students arriving without it start here instead. Open the syllabus →](/courses/python-complete-masterclass-teens)[![Git and GitHub for Teens course thumbnail](/images/git-github-teens.webp)  DEPTH / 03 Git and GitHub for Teens Reviewing a diff assumes a history to review. Committing as the work happens is what makes the review unit exist at all. Open the syllabus →](/courses/git-github-version-control-course-for-teens)
+
 The short answer
 
 Agentic coding is directing an AI coding agent to build real software and then being able to audit what it produced. Modern Age Coders teaches the audit rather than the prompting, because prompting takes an afternoon and changes every six months while review is engineering judgement and does not change. The characteristic failure of agent-written code is not a bug but an unexamined decision: the prompt said apply the discounts, the agent decided by writing a loop, and a loop compounds. Students bring a real diff each week and defend it line by line. Group teaching is USD 100 a month, private is USD 150, and the first class is free without a card.

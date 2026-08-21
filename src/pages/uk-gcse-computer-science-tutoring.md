@@ -6,6 +6,14 @@ source: src/pages/uk-gcse-computer-science-tutoring.html
 ---
 > AQA, OCR and Edexcel set different papers, so revising the wrong board wastes a term. Live online GCSE Computer Science tutoring built around your board.
 
+Start here
+
+## The three courses behind this page
+
+The GCSE course is built around your board. Mathematics and Python are the two that decide whether Paper 1 and Paper 2 feel hard or routine.
+
+[![GCSE Computer Science, AQA OCR Edexcel course thumbnail](/images/gcse-computer-science.webp)  GCSE / 01 GCSE Computer Science, AQA OCR Edexcel The course this page describes. Programming and tracing first, the theory second, and the final third spent entirely on the papers this student will sit. Open the syllabus →](/courses/gcse-computer-science-course)[![GCSE Mathematics Mastery course thumbnail](/images/gcse-maths.webp)  GCSE / 02 GCSE Mathematics Mastery Taken alongside by most GCSE Computer Science students, and the reason data representation is quick or slow. Open the syllabus →](/courses/gcse-mathematics-mastery)[![Python for Teens course thumbnail](/images/python-teens.webp)  GCSE / 03 Python for Teens The language nearly every UK school uses for this GCSE, taught properly rather than as exam-only syntax. Open the syllabus →](/courses/python-complete-masterclass-teens)
+
 The course
 
 ## GCSE Computer Science, taught to your board

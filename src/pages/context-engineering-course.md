@@ -6,6 +6,14 @@ source: src/pages/context-engineering-course.html
 ---
 > You do not control the model, you control what it can see. Why filling the window makes things worse, what belongs in it, and how every decision gets measured.
 
+Start here
+
+## Where context engineering sits in the catalogue
+
+Inside the generative AI masterclass and the agent courses, because a context window is only interesting once something real is being assembled into it.
+
+[![Generative AI: LLMs, RAG and Agents course thumbnail](/images/generative-ai-college.webp)  DEPTH / 01 Generative AI: LLMs, RAG and Agents Assembling a window: which instructions, which examples, which retrieved passages, and the token budget they share. Open the syllabus →](/courses/complete-generative-ai-masterclass-college)[![AI and Machine Learning for Teens course thumbnail](/images/ai-ml-teens.webp)  DEPTH / 02 AI and Machine Learning for Teens The mechanism this depends on, because half of context engineering follows from the model having no memory at all. Open the syllabus →](/courses/ai-ml-masterclass-teens)[![Python and AI Automation course thumbnail](/images/python-college.webp)  DEPTH / 03 Python and AI Automation For adults building something real, where a bloated window is a monthly bill rather than an abstraction. Open the syllabus →](/courses/python-ai-automation-masterclass-college)
+
 The short answer
 
 Context engineering is deciding what goes into a model's context window for a given request: instructions, examples, retrieved passages, conversation history, tool definitions and their order. It replaced prompt engineering because in any real system the instructions are a small fraction of the window and everything else is assembled by code. The instinct to include everything because the window is large produces slower, costlier and measurably worse results, since attention is finite and diluted by irrelevance. Modern Age Coders teaches it as controlled experiments against an evaluation set rather than as prompting tips. Group teaching is USD 100 a month, private USD 150, first class free.

@@ -6,6 +6,14 @@ source: src/pages/cambridge-igcse-computer-science-tuition.html
 ---
 > Perfect Python in Paper 2 scores zero: 0478 wants pseudocode. Live online IGCSE Computer Science tuition on the 2026 to 2028 syllabus, one to one or batch.
 
+Start here
+
+## The three courses behind this page
+
+The 0478 course carries both papers. Mathematics and Python sit alongside it because data representation and the 15-mark question depend on them.
+
+[![Cambridge IGCSE Computer Science 0478 course thumbnail](/images/igcse-computer-science.webp)  IGCSE / 01 Cambridge IGCSE Computer Science 0478 The course this page describes. All ten topics, pseudocode taught as a language of its own, and past papers marked to the real Cambridge mark scheme. Open the syllabus →](/courses/igcse-computer-science-0478-course)[![IGCSE Mathematics Mastery course thumbnail](/images/igcse-maths.webp)  IGCSE / 02 IGCSE Mathematics Mastery Taken alongside by most 0478 students. Data representation gets considerably easier when the arithmetic underneath it is quick. Open the syllabus →](/courses/igcse-mathematics-mastery)[![Python for Teens course thumbnail](/images/python-teens.webp)  IGCSE / 03 Python for Teens The language most 0478 students choose for the 15-mark scenario question, and the one that makes pseudocode make sense. Open the syllabus →](/courses/python-complete-masterclass-teens)
+
 The course
 
 ## Cambridge IGCSE Computer Science 0478, taught live across two years

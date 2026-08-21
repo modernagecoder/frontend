@@ -6,6 +6,14 @@ source: src/pages/ioi-olympiad-informatics-training.html
 ---
 > You cannot enter the IOI. Your country selects you through its national contests, so that is the real target. Live olympiad training, one to one or batch.
 
+Start here
+
+## The three courses behind this page
+
+Olympiad training draws on the advanced competitive programming course. The other two are the ladder up to it.
+
+[![Competitive Programming Masterclass course thumbnail](/images/placement-prep-college.webp)  CP / 01 Competitive Programming Masterclass The advanced course this page draws on, for university students and serious school-age competitors. Open the syllabus →](/courses/competitive-programming-masterclass-college)[![Competitive Programming for Teens course thumbnail](/images/competitive-programming-teens.webp)  CP / 02 Competitive Programming for Teens The school-age version, and the usual starting point for a student aiming at a national olympiad. Open the syllabus →](/courses/competitive-programming-for-teens-course)[![Data Structures and Algorithms course thumbnail](/images/dsa-college.webp)  CP / 03 Data Structures and Algorithms The systematic treatment of what olympiad problems assume, and the right answer for a student whose gap is knowledge rather than strategy. Open the syllabus →](/courses/data-structures-algorithms-masterclass-college)
+
 The course
 
 ## Olympiad training, aimed at your national route

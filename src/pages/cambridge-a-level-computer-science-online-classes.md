@@ -6,6 +6,14 @@ source: src/pages/cambridge-a-level-computer-science-online-classes.html
 ---
 > Paper 2 does not require program code. Paper 4 is nothing but. Live online Cambridge 9618 classes across all four papers, one to one or in a small batch.
 
+Start here
+
+## The three courses behind this page
+
+The 9618 course teaches Paper 2 and Paper 4 as separate disciplines. The IGCSE and A Level Mathematics courses are what students arrive with.
+
+[![Cambridge AS and A Level Computer Science 9618 course thumbnail](/images/a-level-computer-science.webp)  CAIE / 01 Cambridge AS and A Level Computer Science 9618 The course this page describes. All four papers, with Paper 2 pseudocode and Paper 4 practical taught as the two separate disciplines the syllabus makes them. Open the syllabus →](/courses/cambridge-a-level-computer-science-9618-course)[![Cambridge IGCSE Computer Science 0478 course thumbnail](/images/igcse-computer-science.webp)  CAIE / 02 Cambridge IGCSE Computer Science 0478 The qualification most 9618 students arrive from, and the one that already taught them the pseudocode discipline. Open the syllabus →](/courses/igcse-computer-science-0478-course)[![A Level Mathematics: Pure, Mechanics and Statistics course thumbnail](/images/a-level-maths.webp)  CAIE / 03 A Level Mathematics: Pure, Mechanics and Statistics Taken alongside by most 9618 candidates, and the reason floating point and complexity either land or do not. Open the syllabus →](/courses/a-level-maths-course-pure-mechanics-statistics)
+
 The course
 
 ## Cambridge 9618, taught across AS and A2

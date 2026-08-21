@@ -6,6 +6,14 @@ source: src/pages/how-to-debug-code.html
 ---
 > Two equally able programmers differ tenfold at debugging, and it is never knowledge. The bisection method, worked on a real intermittent bug, taught live.
 
+Start here
+
+## Where debugging is taught in the catalogue
+
+In every course, from the point a student writes their first program that does not work. It is never sold separately, because a debugging course without your own broken code in it would be a lecture.
+
+[![Python for Teens course thumbnail](/images/python-teens.webp)  DEPTH / 01 Python for Teens From the first program that does not work, which arrives around week two. The stated-hypothesis rule starts the same day. Open the syllabus →](/courses/python-complete-masterclass-teens)[![Python and AI for Kids course thumbnail](/images/python-kids.webp)  DEPTH / 02 Python and AI for Kids The junior version of the same habit: what did you change, undo it, what do you think is happening. Worth more at that age than any vocabulary. Open the syllabus →](/courses/python-ai-kids-masterclass)[![Git and GitHub for Teens course thumbnail](/images/git-github-teens.webp)  DEPTH / 03 Git and GitHub for Teens Bisecting the history rather than the code. If it worked in March, the commit that broke it can be found mechanically. Open the syllabus →](/courses/git-github-version-control-course-for-teens)
+
 The short answer
 
 Debugging is a search problem: the set of possible causes is a space, and the technique is to design questions that eliminate roughly half of it whichever way the answer comes out. A guessed hypothesis eliminates one possibility out of thousands; a good cut eliminates half, so four cuts are worth about a thousand guesses. Modern Age Coders teaches this by deliberately introducing non-obvious defects into a student's own working project, requiring a stated hypothesis before any change, and practising on the bugs that do not announce themselves rather than on crashes. Group teaching is USD 100 a month, private is USD 150, and the first class is free without a card.

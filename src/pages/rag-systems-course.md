@@ -6,6 +6,14 @@ source: src/pages/rag-systems-course.html
 ---
 > Most RAG failures are retrieval failures, not model failures. Build over a corpus you know, measure retrieval before generation, localise faults by stage.
 
+Start here
+
+## Where RAG sits in the catalogue
+
+Inside the generative AI masterclass and the data science track, because retrieval is a data problem before it is a model problem and the prerequisites are the ones that teach handling messy documents.
+
+[![Generative AI: LLMs, RAG and Agents course thumbnail](/images/generative-ai-college.webp)  DEPTH / 01 Generative AI: LLMs, RAG and Agents The main route. Chunking, embeddings, hybrid retrieval, reranking and citation, measured before anybody looks at a generated answer. Open the syllabus →](/courses/complete-generative-ai-masterclass-college)[![Data Science Masterclass course thumbnail](/images/data-science-college.webp)  DEPTH / 02 Data Science Masterclass The prerequisite that decides everything. Retrieval is a data problem first, and messy documents are where it is won or lost. Open the syllabus →](/courses/data-science-complete-masterclass-college)[![Data Science for Teens course thumbnail](/images/data-science-teens.webp)  DEPTH / 03 Data Science for Teens The teenage version: files that arrive broken, categories spelled two ways, and the row that would have poisoned the answer. Open the syllabus →](/courses/data-science-course-for-teens-python-data)
+
 The short answer
 
 Retrieval augmented generation puts relevant text in front of a model before it answers, which removes most confident invention. The failures that remain are overwhelmingly retrieval failures rather than model failures: the right passage was never fetched, was ranked far down, or arrived truncated, and no prompt can improve a document that is absent. Modern Age Coders teaches RAG as search engineering, with a labelled question set built first and retrieval measured on its own before any generated answer is judged, over a corpus the student knows well enough to grade. Group teaching is USD 100 a month, private is USD 150, first class free.

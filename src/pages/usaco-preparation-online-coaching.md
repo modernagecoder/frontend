@@ -6,6 +6,14 @@ source: src/pages/usaco-preparation-online-coaching.html
 ---
 > USACO is a promotion ladder, not an exam. Everyone starts in Bronze and the only target that counts is the next cutoff. Live coaching, one to one or batch.
 
+Start here
+
+## The three courses behind this page
+
+Contest coaching runs from the competitive programming track, and the algorithms course is the usual answer for a student stuck below Gold.
+
+[![Competitive Programming for Teens course thumbnail](/images/competitive-programming-teens.webp)  CP / 01 Competitive Programming for Teens The course this page describes for school-age students. Organised by division, with timed contests every month and line-by-line review after each. Open the syllabus →](/courses/competitive-programming-for-teens-course)[![Competitive Programming Masterclass course thumbnail](/images/placement-prep-college.webp)  CP / 02 Competitive Programming Masterclass The college-level version, for university students and older competitors working toward harder contests. Open the syllabus →](/courses/competitive-programming-masterclass-college)[![Data Structures and Algorithms course thumbnail](/images/dsa-college.webp)  CP / 03 Data Structures and Algorithms The systematic version of what USACO tests unsystematically. The usual answer for a student stuck at the Silver to Gold step. Open the syllabus →](/courses/data-structures-algorithms-masterclass-college)
+
 The course
 
 ## USACO coaching, organised by division

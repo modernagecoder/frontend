@@ -6,6 +6,14 @@ source: src/pages/ai-evaluations-course.html
 ---
 > Almost every AI project that stalls stalls in one place: nobody can say whether this week beats last week. Build the eval set before the system. Live online.
 
+Start here
+
+## Where evaluation is taught in the catalogue
+
+In every course with a model in it, as the first step rather than the last. There is no standalone evaluation product because evaluating nothing is not an exercise.
+
+[![AI and Machine Learning for Teens course thumbnail](/images/ai-ml-teens.webp)  DEPTH / 01 AI and Machine Learning for Teens Where the habit begins, as the baseline: a model must beat doing nothing clever before anybody is allowed to believe it. Open the syllabus →](/courses/ai-ml-masterclass-teens)[![Generative AI: LLMs, RAG and Agents course thumbnail](/images/generative-ai-college.webp)  DEPTH / 02 Generative AI: LLMs, RAG and Agents The same discipline applied to systems whose output is text, where exact equality mostly fails and properties are asserted instead. Open the syllabus →](/courses/complete-generative-ai-masterclass-college)[![Data Science Masterclass course thumbnail](/images/data-science-college.webp)  DEPTH / 03 Data Science Masterclass Statistics that survive somebody sceptical asking how you know, which is the adult form of the same question. Open the syllabus →](/courses/data-science-complete-masterclass-college)
+
 The short answer
 
 An evaluation set is a written list of inputs with the answers you expect, run every time anything changes. Without one, a team improving an AI system has only impressions to go on, which are biased towards the cases they tried, forget what the previous version did, and cannot detect regressions. Modern Age Coders teaches evaluation as the first step of every AI project a student runs, built before the prompt and before retrieval, because a number without something to compare it to is meaningless. Grading uses exact checks where possible, model judges where not, and a human-reviewed sample to keep the judges honest. Group teaching is USD 100 a month, private USD 150, first class free.

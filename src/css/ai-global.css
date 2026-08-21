@@ -108,6 +108,14 @@
 
 .ag-root img { max-width: 100%; height: auto; display: block; }
 .ag-root a { color: inherit; }
+/* The reset above is (0,1,1) and every component class below is (0,1,0), so the
+   reset was winning and the solid CTA rendered its label in body ink on the
+   accent at 2.2:1. These restore the intended colours without touching the
+   reset, which card-shaped anchors like .ag-market still need. */
+.ag-root a.ag-btn { color: #fff; }
+.ag-root a.ag-btn--ghost { color: var(--ag-accent); }
+.ag-root a.ag-course-link { color: var(--ag-accent); }
+.ag-root a.ag-inline-link { color: var(--ag-accent); }
 
 .ag-wrap { width: 100%; max-width: var(--ag-max); margin: 0 auto; padding: 0 24px; }
 
@@ -545,6 +553,33 @@
 .ag-root.ag-ioi { --ag-accent: #274B51; --ag-accent-soft: rgba(39,75,81,.09); }
 .ag-root.ag-pyc { --ag-accent: #6D5F8E; --ag-accent-soft: rgba(109,95,142,.09); }
 .ag-root.ag-ccc { --ag-accent: #7F5E59; --ag-accent-soft: rgba(127,94,89,.09); }
+
+/* --- picked course cards, with thumbnails, for the top of a page ---------- */
+.ag-picks { display: grid; gap: var(--ag-gap); grid-template-columns: repeat(3, minmax(0, 1fr)); }
+@media (max-width: 900px) { .ag-picks { grid-template-columns: minmax(0, 1fr); } }
+.ag-pick {
+  display: flex; flex-direction: column; text-decoration: none;
+  border: 1px solid var(--ag-rule); background: #fff; border-radius: 4px;
+  overflow: hidden; border-top: 3px solid var(--ag-accent);
+  transition: box-shadow .18s ease, transform .18s ease;
+}
+.ag-pick:hover { box-shadow: 0 10px 30px rgba(28, 24, 20, .12); transform: translateY(-3px); }
+.ag-pick-shot { aspect-ratio: 16 / 9; background: var(--ag-paper-3); overflow: hidden; }
+.ag-pick-shot img { width: 100%; height: auto; aspect-ratio: 16 / 9; object-fit: cover; display: block; }
+.ag-pick-body { padding: 18px 20px 20px; display: flex; flex-direction: column; flex: 1; }
+.ag-pick-code {
+  font-family: var(--ag-mono); font-size: .68rem; letter-spacing: .11em;
+  text-transform: uppercase; color: var(--ag-accent); margin-bottom: 9px;
+}
+.ag-pick h3 { font-size: 1.08rem; line-height: 1.3; margin: 0 0 8px; }
+.ag-pick p { font-size: .9rem; line-height: 1.6; color: var(--ag-ink-2); margin: 0 0 16px; }
+.ag-pick-go {
+  margin-top: auto; font-family: var(--ag-mono); font-size: .74rem; letter-spacing: .07em;
+  text-transform: uppercase; color: var(--ag-accent); display: inline-flex; gap: 7px; align-items: center;
+}
+.ag-pick:hover .ag-pick-go { gap: 12px; }
+.ag-pick-go span { transition: transform .18s ease; }
+.ag-pick:hover .ag-pick-go span { transform: translateX(3px); }
 
 @media print {
   .ag-nav, .ag-btn-row, .ag-form-panel { display: none; }

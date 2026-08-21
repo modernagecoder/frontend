@@ -6,6 +6,14 @@ source: src/pages/ib-computer-science-online-tuition.html
 ---
 > Paper 2 comes in a Java version and a Python version, so the language decides the paper. Live online IB Computer Science tuition, SL and HL, one to one or batch.
 
+Start here
+
+## The three courses behind this page
+
+The diploma course covers both themes and the internal assessment. Mathematics and Java are what most IB Computer Science students carry with it.
+
+[![IB Diploma Computer Science course thumbnail](/images/ib-computer-science.webp)  IB / 01 IB Diploma Computer Science The course this page describes. Both themes, the language decision taken deliberately, and the internal assessment started in DP1. Open the syllabus →](/courses/ib-diploma-computer-science-course)[![IB Mathematics AA and AI Masterclass course thumbnail](/images/ib-maths-aa-ai.webp)  IB / 02 IB Mathematics AA and AI Masterclass Taken alongside by most IB Computer Science students, and the reason the machine learning content lands or does not. Open the syllabus →](/courses/ib-mathematics-aa-ai-masterclass)[![Java Programming for Teens course thumbnail](/images/java-teens.webp)  IB / 03 Java Programming for Teens For students taking the Java route through Paper 2, and the usual choice for anyone also sitting an AP. Open the syllabus →](/courses/java-programming-masterclass-for-teens)
+
 The course
 
 ## IB Computer Science, taught live across DP1 and DP2

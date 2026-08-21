@@ -6,6 +6,14 @@ source: src/pages/ap-computer-science-a-online-classes.html
 ---
 > Data collections is close to half of AP CSA. Live online Java classes, one to one or small batch, built around the units College Board weights heaviest.
 
+Start here
+
+## The three courses behind this page
+
+Start with the AP course itself. The other two are what students take alongside it when Java or the reasoning underneath is the actual gap.
+
+[![AP Computer Science A Exam Prep course thumbnail](/images/ap-computer-science-a.webp)  AP / 01 AP Computer Science A Exam Prep The course this page describes. Java to the four-unit specification, with collections started early and full papers marked to the published rubric. Open the syllabus →](/courses/ap-computer-science-a-java-exam-prep-course)[![AP Computer Science Principles Exam Prep course thumbnail](/images/ap-computer-science-principles.webp)  AP / 02 AP Computer Science Principles Exam Prep The broader companion. Many students take it first as an on-ramp, and taking both in that order is common and sensible. Open the syllabus →](/courses/ap-computer-science-principles-exam-prep-course)[![Java Programming for Teens course thumbnail](/images/java-teens.webp)  AP / 03 Java Programming for Teens For a student who wants the language properly before meeting the exam specification. The usual answer to starting AP CSA without Java. Open the syllabus →](/courses/java-programming-masterclass-for-teens)
+
 The course
 
 ## AP Computer Science A, taught live and paced to your entry date

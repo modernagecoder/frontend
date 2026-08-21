@@ -6,6 +6,14 @@ source: src/pages/how-to-think-like-a-programmer.html
 ---
 > Programming is not typing, it is deciding what must be true. The six thinking moves behind the pauses, taught explicitly, live online for ages 6 to 67.
 
+Start here
+
+## Where this reasoning is taught in the catalogue
+
+It is the first thing in every course and the last thing we stop insisting on. There is no separate reasoning product, because reasoning taught away from real problems becomes vocabulary rather than habit.
+
+[![Kids Coding Blocks course thumbnail](/images/kids-coding.webp)  DEPTH / 01 Kids Coding Blocks Where it starts. What would make this wrong is the same question at nine about a square as at twenty-five about a payment system. Open the syllabus →](/courses/kids-coding-blocks-masterclass)[![Python and AI for Kids course thumbnail](/images/python-kids.webp)  DEPTH / 02 Python and AI for Kids The first invariants, said out loud before the code. At this age the habit matters considerably more than the notation. Open the syllabus →](/courses/python-ai-kids-masterclass)[![Python for Teens course thumbnail](/images/python-teens.webp)  DEPTH / 03 Python for Teens Where a teacher stops accepting a solution until the student has said what happens on the empty list and the negative number. Open the syllabus →](/courses/python-complete-masterclass-teens)
+
 The short answer
 
 Thinking like a programmer means deciding what must be true before writing anything: what a piece of code may assume, what it guarantees in return, and which states are nonsense it should refuse rather than tolerate. That decision is what the long pauses in experienced work are made of, and it is the part that transfers furthest outside software. Modern Age Coders teaches it explicitly and early, through a teacher who declines to accept a proposed solution until the student has said what happens on the empty list, the negative number and the simultaneous arrival. Group teaching is USD 100 a month, private is USD 150, and the first class is free without a card.

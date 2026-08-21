@@ -6,6 +6,14 @@ source: src/pages/model-context-protocol-mcp-course.html
 ---
 > A tool description is a promise to a reader that cannot ask what you meant. Build real MCP servers, then hand yours to a student who has never seen it.
 
+Start here
+
+## Where MCP sits in the catalogue
+
+It lives inside the agents and generative AI courses rather than as a standalone product, because a protocol for giving models tools makes little sense before you understand what the model is doing with them.
+
+[![Generative AI: LLMs, RAG and Agents course thumbnail](/images/generative-ai-college.webp)  DEPTH / 01 Generative AI: LLMs, RAG and Agents Where servers and tool surfaces sit. A protocol for handing a model tools makes little sense before you know what it does with them. Open the syllabus →](/courses/complete-generative-ai-masterclass-college)[![AI Agents with Copilot Studio course thumbnail](/images/copilot-studio-college.webp)  DEPTH / 02 AI Agents with Copilot Studio The same design questions inside a commercial agent platform. Taught one to one only, and priced as private teaching. Open the syllabus →](/courses/ai-agents-with-microsoft-copilot-studio-course-for-college-students)[![Coding Agents: Codex and Claude Code course thumbnail](/images/codex-claude-code-teens.webp)  DEPTH / 03 Coding Agents: Codex and Claude Code The other side of the same idea: being the caller, reading somebody else's under-specified description and acting on it. Open the syllabus →](/courses/codex-and-claude-code-ai-coding-agents-course-for-teens)
+
 The short answer
 
 The Model Context Protocol is an open standard for connecting AI applications to tools and data, replacing bespoke per-application glue with one interface a server implements once. Building on it turns out to be interface design rather than networking: the caller is a language model that cannot ask what you meant, so a tool description has to state what the tool covers, what it excludes, what it returns and what to use instead. Modern Age Coders teaches it by having each student ship a sandboxed server and then hand it to another student who has never seen it. Group teaching is USD 100 a month, private is USD 150, and the first class is free.

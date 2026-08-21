@@ -6,6 +6,14 @@ source: src/pages/ap-computer-science-principles-online-coaching.html
 ---
 > Thirty per cent of AP CSP is written about your project in the exam room, in 60 minutes. Live online coaching that prepares the writing, not just the code.
 
+Start here
+
+## The three courses behind this page
+
+The Principles course is the one this page describes. The other two are where students go before it and after it.
+
+[![AP Computer Science Principles Exam Prep course thumbnail](/images/ap-computer-science-principles.webp)  AP / 01 AP Computer Science Principles Exam Prep The course this page describes. The seventy-question paper and the written responses about the student's own Create task, rehearsed under time. Open the syllabus →](/courses/ap-computer-science-principles-exam-prep-course)[![AP Computer Science A Exam Prep course thumbnail](/images/ap-computer-science-a.webp)  AP / 02 AP Computer Science A Exam Prep The Java programming AP, usually taken after Principles by students heading toward a computing degree. Open the syllabus →](/courses/ap-computer-science-a-java-exam-prep-course)[![AP Statistics Exam Prep course thumbnail](/images/ap-statistics.webp)  AP / 03 AP Statistics Exam Prep The other AP most often taken alongside these two, and the one that makes the data unit here considerably easier. Open the syllabus →](/courses/ap-statistics-maths-exam-prep-course)
+
 The course
 
 ## AP Computer Science Principles, taught live and paced to your entry date
