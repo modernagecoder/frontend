@@ -7389,6 +7389,18 @@
   to = "/src/pages/cambridge-a-level-computer-science-online-classes.md"
   status = 200
 
+# Global Build-AI cluster (ai-global.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/usaco-preparation-online-coaching"
+  to = "/src/pages/usaco-preparation-online-coaching.html"
+  status = 200
+
+[[redirects]]
+  from = "/usaco-preparation-online-coaching.md"
+  to = "/src/pages/usaco-preparation-online-coaching.md"
+  status = 200
+
 [[redirects]]
   from = "/*"
   to = "/src/pages/404.html"

@@ -1,0 +1,915 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>USACO Preparation Online Coaching | Bronze to Platinum</title>
+  <meta name="description" content="USACO is a promotion ladder, not an exam. Everyone starts in Bronze and the only target that matters is the next cutoff. Live online coaching, one to one or batch.">
+  <meta name="author" content="Modern Age Coders">
+  <link rel="canonical" href="https://learn.modernagecoders.com/usaco-preparation-online-coaching">
+  <link rel="alternate" type="text/markdown" href="/src/pages/usaco-preparation-online-coaching.md" title="Markdown version for AI agents">
+
+  <link rel="icon" href="/favicon.ico" type="image/x-icon">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
+  <meta name="theme-color" content="#327060">
+
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="https://learn.modernagecoders.com/usaco-preparation-online-coaching">
+  <meta property="og:title" content="USACO Preparation Online Coaching | Bronze to Platinum">
+  <meta property="og:description" content="Training for Gold while sitting in Bronze is a common and expensive mistake. Bronze does not reward sophistication. It rewards finishing.">
+  <meta property="og:image" content="https://learn.modernagecoders.com/images/og-modern-age-coders.png">
+  <meta property="og:site_name" content="Modern Age Coders">
+  <meta property="og:locale" content="en">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="USACO Preparation Online Coaching">
+  <meta name="twitter:description" content="A promotion ladder, not an exam. We train for the next cutoff, not for a division you are not in.">
+  <meta name="twitter:image" content="https://learn.modernagecoders.com/images/og-modern-age-coders.png">
+
+  <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/ai-global.css?v=20260820">
+
+  <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-N8BM164YJP');gtag('config','AW-16910316353');</script>
+
+  <script type="application/ld+json" data-price-scope="coding.international">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "EducationalOrganization",
+        "@id": "https://learn.modernagecoders.com/#org",
+        "name": "Modern Age Coders",
+        "url": "https://learn.modernagecoders.com/",
+        "email": "contact@modernagecoders.com",
+        "telephone": "+91-91233-66161",
+        "foundingDate": "2020",
+        "areaServed": { "@type": "Place", "name": "Worldwide" },
+        "knowsAbout": ["USACO", "Competitive Programming", "Algorithms", "Data Structures", "Dynamic Programming", "Graph Algorithms", "C++", "Python"]
+      },
+      {
+        "@type": "Course",
+        "@id": "https://learn.modernagecoders.com/usaco-preparation-online-coaching#course",
+        "name": "USACO Preparation Online Coaching: Bronze to Platinum",
+        "description": "Live online USACO coaching taught one to one or in small batches worldwide, organised by division rather than by topic, training students to clear the next promotion cutoff through timed contest simulation, complete-solution discipline and stress testing.",
+        "url": "https://learn.modernagecoders.com/usaco-preparation-online-coaching",
+        "inLanguage": "en",
+        "educationalLevel": "Intermediate to Advanced",
+        "coursePrerequisites": "Real programming fluency in C++, Java or Python is assumed",
+        "provider": { "@id": "https://learn.modernagecoders.com/#org" },
+        "isAccessibleForFree": false,
+        "hasCourseInstance": {
+          "@type": "CourseInstance",
+          "courseMode": "online",
+          "courseWorkload": "PT3H",
+          "location": { "@type": "VirtualLocation", "url": "https://learn.modernagecoders.com/usaco-preparation-online-coaching" }
+        },
+        "offers": [
+          { "@type": "Offer", "name": "Group batch", "price": "100", "priceCurrency": "USD", "category": "Monthly", "availability": "https://schema.org/InStock", "url": "https://learn.modernagecoders.com/usaco-preparation-online-coaching" },
+          { "@type": "Offer", "name": "One to one", "price": "150", "priceCurrency": "USD", "category": "Monthly", "availability": "https://schema.org/InStock", "url": "https://learn.modernagecoders.com/usaco-preparation-online-coaching" }
+        ]
+      },
+      {
+        "@type": "Service",
+        "serviceType": "Online USACO and competitive programming coaching",
+        "provider": { "@id": "https://learn.modernagecoders.com/#org" },
+        "areaServed": { "@type": "Place", "name": "Worldwide" },
+        "audience": { "@type": "EducationalAudience", "educationalRole": "student" }
+      },
+      {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://learn.modernagecoders.com/" },
+          { "@type": "ListItem", "position": 2, "name": "Courses", "item": "https://learn.modernagecoders.com/courses" },
+          { "@type": "ListItem", "position": 3, "name": "USACO preparation", "item": "https://learn.modernagecoders.com/usaco-preparation-online-coaching" }
+        ]
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+          {"@type": "Question", "name": "How does USACO actually work?", "acceptedAnswer": {"@type": "Answer", "text": "There are four divisions: Bronze, Silver, Gold and Platinum. Everyone starts in Bronze. Each contest has three problems scored out of 1000 points in total, equally weighted, and you start your own four to five hour timer whenever you choose inside the contest window. Clearing a contest-dependent cutoff promotes you, a perfect score promotes you immediately mid-contest, and there are no demotions."}},
+          {"@type": "Question", "name": "Can my child skip Bronze if they already program well?", "acceptedAnswer": {"@type": "Answer", "text": "No. Every participant starts in Bronze regardless of experience, and there is no placement test. What experience buys is a faster climb, not a higher starting point. This is why the correct target is always the next cutoff rather than a division several steps away."}},
+          {"@type": "Question", "name": "How much does the coaching cost?", "acceptedAnswer": {"@type": "Answer", "text": "A small batch is USD 100 a month and one to one is USD 150 a month, billed in US dollars, which are the same figures as every other course we teach outside India. There is no premium for the word olympiad. No enrolment fee, no minimum term, and the first class is free without a card."}},
+          {"@type": "Question", "name": "Which language should my child compete in?", "acceptedAnswer": {"@type": "Answer", "text": "C++ for a student who intends to go past Silver, because the time limits eventually favour it and most editorial material assumes it. Java is entirely viable and is the right choice for a student also sitting an AP or IB in Java. Python is fine at Bronze and Silver and becomes limiting above that."}},
+          {"@type": "Question", "name": "Do you guarantee promotion to Gold?", "acceptedAnswer": {"@type": "Answer", "text": "No, and anybody who does is describing luck as a service. Cutoffs are contest-dependent and are not published in advance, and a result depends on which three problems were set that weekend. What we control is whether the student arrives able to finish a problem completely, test it properly and manage five hours."}},
+          {"@type": "Question", "name": "When are the contests?", "acceptedAnswer": {"@type": "Answer", "text": "Published each season on the official USACO site. We deliberately do not print dates here because they move every year and a page carrying last season's calendar is worse than one carrying none. Checking the official source takes ten seconds and is always right."}},
+          {"@type": "Question", "name": "What is stress testing and why do you emphasise it?", "acceptedAnswer": {"@type": "Answer", "text": "Writing a deliberately slow but obviously correct solution, generating random inputs, and comparing the two outputs automatically. It finds wrong-answer bugs in minutes that a student would otherwise never find. It is the single highest-value habit in competitive programming and almost nobody arrives already doing it."}},
+          {"@type": "Question", "name": "My child is stuck in Silver and not improving. What is happening?", "acceptedAnswer": {"@type": "Answer", "text": "Usually they have hit a change of kind rather than of difficulty. Gold problems frequently cannot be solved at all without recognising which standard algorithm they are, so at that step study has to precede practice. Students who do not know that conclude they have stopped improving when they simply need a different month."}},
+          {"@type": "Question", "name": "What age is this for?", "acceptedAnswer": {"@type": "Answer", "text": "Realistically twelve upward, and the constraint is programming fluency rather than age. USACO assumes a student can already write correct code under time pressure. If they cannot yet, a term of proper programming first produces far more than contest coaching would."}},
+          {"@type": "Question", "name": "Are the classes live?", "acceptedAnswer": {"@type": "Answer", "text": "Every class is live, one to one or in a small batch, taught from India to students worldwide. Batches group students in the same division, because a Bronze student and a Gold student genuinely need different months and mixing them serves neither."}},
+          {"@type": "Question", "name": "Will USACO help with university admission?", "acceptedAnswer": {"@type": "Answer", "text": "A strong finish is a genuine distinction and it is not an admission, and we will not pretend otherwise. What it reliably demonstrates is sustained independent work at a measurable standard, which is unusual and useful. Any provider connecting a division to an offer is selling something no tutor controls."}},
+          {"@type": "Question", "name": "How much practice is expected between classes?", "acceptedAnswer": {"@type": "Answer", "text": "Problems set every week and reviewed properly, which realistically means three to six hours depending on the division. Above Silver it rises, because Gold and Platinum problems take longer to attempt and much longer to review usefully."}},
+          {"@type": "Question", "name": "Can my child start mid-season?", "acceptedAnswer": {"@type": "Answer", "text": "One to one, any week, and that is usually the right format mid-season because the training gets aimed at the next contest specifically. Batches take joiners at the start of a block so that the division grouping still works."}},
+          {"@type": "Question", "name": "What happens in the free first class?", "acceptedAnswer": {"@type": "Answer", "text": "A real timed problem from a past contest in the student's current division, run properly. What comes out of it is a diagnosis rather than a score: whether the gap is reading, implementation speed, testing discipline or genuine algorithm knowledge. Those need four different plans."}},
+          {"@type": "Question", "name": "What happens after we send the form?", "acceptedAnswer": {"@type": "Answer", "text": "A mentor calls you at a reasonable hour to arrange the free class. Nothing is charged and no card is requested. Tell us the current division on the call, because Bronze and Gold coaching are different products and it changes the honest recommendation immediately."}}
+        ]
+      }
+    ]
+  }
+  </script>
+</head>
+
+<body class="ag-root ag-uso">
+
+<nav class="ag-nav">
+  <div class="ag-wrap ag-nav-inner">
+    <a class="ag-nav-brand" href="/">
+      <img src="/images/logo.svg" alt="Modern Age Coders logo" width="30" height="30" fetchpriority="high">
+      <span>Modern Age Coders</span>
+      <span class="ag-brand-tag">USACO</span>
+    </a>
+    <div class="ag-nav-links">
+      <a href="#course">The course</a>
+      <a href="#syllabus">Syllabus</a>
+      <a href="#one">The ladder</a>
+      <a href="#fees">Fees</a>
+      <a href="/courses">All courses</a>
+      <a href="#start" class="ag-btn">Free first class</a>
+    </div>
+  </div>
+</nav>
+
+<header class="ag-hero">
+  <div class="ag-wrap">
+    <nav class="ag-crumbs" aria-label="Breadcrumb">
+      <a href="/">Home</a> <span>/</span> <a href="/courses">Courses</a> <span>/</span> <span>USACO preparation</span>
+    </nav>
+    <div class="ag-hero-grid">
+      <div>
+        <p class="ag-eyebrow">USACO &middot; Bronze to Platinum &middot; C++, Java or Python &middot; Live online</p>
+        <h1>USACO is a promotion ladder, not an exam.</h1>
+        <p class="ag-lede">Everyone starts in Bronze, whatever they already know. Promotion happens by clearing a contest-dependent cutoff that is not published in advance, and there are no demotions, so a division reached is a division kept. The correct target is therefore never to become good at competitive programming in the abstract. It is to clear the next cutoff. Training for Gold while sitting in Bronze is a common and expensive mistake, because Bronze does not reward sophistication. It rewards finishing.</p>
+        <div class="ag-btn-row">
+          <a href="#start" class="ag-btn">Book the free first class</a>
+          <a href="#syllabus" class="ag-btn ag-btn--ghost">See the training plan</a>
+          <a href="https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders.%20I%20am%20interested%20in%20USACO%20preparation%20coaching." class="ag-btn ag-btn--ghost" target="_blank" rel="noopener" onclick="if(window.gtag)gtag('event','whatsapp_click',{page_exam:'usaco'});">Ask on WhatsApp</a>
+        </div>
+        <p class="ag-hero-note">
+          Live online &middot; one to one or a batch of five to eight &middot; taught from India, worldwide &middot; from USD 100 a month &middot; first class free
+        </p>
+      </div>
+
+      <aside class="ag-spec">
+        <p class="ag-spec-title">The contest, at a glance</p>
+        <p class="ag-trust">
+          <span class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</span>
+          4.9 across 547 Google reviews
+        </p>
+        <dl>
+          <dt>Divisions</dt><dd>Bronze, Silver, Gold, Platinum</dd>
+          <dt>Everyone starts in</dt><dd>Bronze</dd>
+          <dt>Problems per contest</dt><dd>Three</dd>
+          <dt>Your timer</dt><dd>4 to 5 contiguous hours</dd>
+          <dt>When it starts</dt><dd>When you choose, in the window</dd>
+          <dt>Score</dt><dd>Out of 1000, equally weighted</dd>
+          <dt>Demotions</dt><dd>None</dd>
+          <dt>Languages</dt><dd>C++, Java or Python</dd>
+          <dt>Fees</dt><dd>From USD 100 a month</dd>
+          <dt>First class</dt><dd>Free, no card</dd>
+        </dl>
+      </aside>
+    </div>
+  </div>
+</header>
+
+<section class="ag-section ag-section--tint" id="course">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">The course</p>
+      <h2>USACO coaching, organised by division</h2>
+      <p class="ag-lede">Two formats, both live. Small batches group students in the same division, because a Bronze student and a Gold student need different months. One to one is paced to the contest calendar and the individual gap.</p>
+    </div>
+    <div class="ag-table-wrap">
+        <table class="ag-table">
+          <thead><tr><th scope="col">How it runs</th><th scope="col">Small batch</th><th scope="col">One to one</th></tr></thead>
+          <tbody><tr><td>Grouped by</td><td class="ag-num">Division, never mixed</td><td class="ag-num">Not applicable</td></tr><tr><td>Live classes each week</td><td class="ag-num">Two, fixed slot</td><td class="ag-num">Two, slot agreed with you</td></tr><tr><td>Timed full contests</td><td class="ag-num">Monthly, same schedule</td><td class="ag-num">Monthly, timed to the real window</td></tr><tr><td>Solution review</td><td class="ag-num">Group walkthrough plus written notes</td><td class="ag-num">Line by line, on the student's own code</td></tr><tr><td>Problem sets between classes</td><td class="ag-num">Shared, division appropriate</td><td class="ag-num">Chosen for this student's gap</td></tr><tr><td>Starting mid-season</td><td class="ag-num">At the start of a block</td><td class="ag-num">Any week</td></tr><tr><td>Monthly fee</td><td class="ag-num">USD 100</td><td class="ag-num">USD 150</td></tr><tr><td>Trial</td><td class="ag-num">First class free, no card</td><td class="ag-num">First class free, no card</td></tr></tbody>
+        </table>
+      </div>
+    <p class="ag-mt-40" style="text-align:center">
+      <a class="ag-btn" href="/courses/competitive-programming-for-teens-course">Open the full syllabus</a>
+      <a class="ag-btn ag-btn--ghost" href="#start">Book the free first class</a>
+    </p>
+  </div>
+</section>
+
+<section class="ag-section">
+  <div class="ag-wrap">
+    <div class="ag-capsule">
+      <p class="ag-capsule-q">The short answer</p>
+      <p>USACO, the USA Computing Olympiad, runs four divisions: Bronze, Silver, Gold and Platinum. Every participant starts in Bronze regardless of prior experience. Each contest contains three problems scored out of 1000 points in total, weighted equally, and a contestant starts their own four to five hour timer whenever they choose inside the contest window. Promotion happens by clearing a contest-dependent cutoff, a perfect score gives an immediate in-contest promotion, and there are no demotions. Modern Age Coders coaches it live online, one to one or in small batches, organised by division rather than by topic, from USD 100 a month with the first class free.</p>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="syllabus">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Module by module</p>
+      <h2>The eight training modules, applied at the student's division</h2>
+      <p class="ag-lede">The sequence is the same at every level and the content inside it is not. A Bronze student and a Gold student both do module three, and it contains different problems.</p>
+    </div>
+    <div class="ag-protocol">
+<div class="ag-step">
+  <div class="ag-stage-n">01</div>
+  <div>
+    <h3>Reading a problem correctly</h3>
+    <p class="ag-slot-time">4 classes</p>
+    <ul><li>Constraints first, because they tell you the intended approach</li><li>Restating the problem in one sentence before writing anything</li><li>The traps that make an easy problem look hard and the reverse</li></ul>
+  </div>
+</div>
+<div class="ag-step">
+  <div class="ag-stage-n">02</div>
+  <div>
+    <h3>Complete solutions, and the discipline of finishing</h3>
+    <p class="ag-slot-time">5 classes</p>
+    <ul><li>Why one full solve beats three partial ones under this scoring</li><li>Brute force with confidence when the constraints allow it</li><li>Deciding early which problem to commit the hour to</li></ul>
+  </div>
+</div>
+<div class="ag-step">
+  <div class="ag-stage-n">03</div>
+  <div>
+    <h3>Stress testing as a default habit</h3>
+    <p class="ag-slot-time">5 classes</p>
+    <ul><li>Writing a slow reference solution deliberately</li><li>Generating random inputs and comparing outputs automatically</li><li>Finding a wrong-answer bug in minutes instead of never</li></ul>
+  </div>
+</div>
+<div class="ag-step">
+  <div class="ag-stage-n">04</div>
+  <div>
+    <h3>Sorting, prefix sums and simulation done well</h3>
+    <p class="ag-slot-time">6 classes</p>
+    <ul><li>The Bronze workhorses, executed without errors under time</li><li>Off-by-one at boundaries, hunted rather than hoped away</li><li>Complexity estimated before the code is written</li></ul>
+  </div>
+</div>
+<div class="ag-step">
+  <div class="ag-stage-n">05</div>
+  <div>
+    <h3>Recursive search, greedy and core data structures</h3>
+    <p class="ag-slot-time">7 classes</p>
+    <ul><li>The Silver vocabulary, recognised on sight</li><li>Knowing when greedy is provably correct and when it is a guess</li><li>Sets, maps and the structures Silver problems assume</li></ul>
+  </div>
+</div>
+<div class="ag-step">
+  <div class="ag-stage-n">06</div>
+  <div>
+    <h3>Graphs, shortest paths and dynamic programming</h3>
+    <p class="ag-slot-time">8 classes</p>
+    <ul><li>The Gold step, which is a change of kind rather than of difficulty</li><li>Recognising which standard algorithm a problem is, quickly</li><li>Implementing them from memory, correctly, under time</li></ul>
+  </div>
+</div>
+<div class="ag-step">
+  <div class="ag-stage-n">07</div>
+  <div>
+    <h3>Advanced structures and open-ended problems</h3>
+    <p class="ag-slot-time">7 classes</p>
+    <ul><li>The Platinum material, for students who have earned it</li><li>Problems with no obvious standard solution</li><li>Managing a five-hour contest when nothing falls quickly</li></ul>
+  </div>
+</div>
+<div class="ag-step">
+  <div class="ag-stage-n">08</div>
+  <div>
+    <h3>Full contests, and the review that follows them</h3>
+    <p class="ag-slot-time">6 classes</p>
+    <ul><li>Four to five contiguous hours, at the hour you intend to compete</li><li>Reviewed line by line rather than marked right or wrong</li><li>What was misread, where the time went, what would have caught it</li></ul>
+  </div>
+</div>
+</div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="one">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">What kind of thing this actually is</p>
+      <h2>USACO is a promotion ladder, not an exam</h2>
+      <p class="ag-lede">
+        Everyone starts in Bronze. Promotion is by cutoff. There are no demotions. Those three facts
+        together should decide how a student trains, and usually do not.
+      </p>
+    </div>
+
+    <div class="ag-grid-2" style="align-items:start">
+      <div>
+        <p>
+          A student who has been programming for four years and one who started last term both begin
+          in Bronze. There is no placement, no entrance test and no way to skip. What separates them
+          is how quickly they climb, and climbing happens one contest at a time by clearing a
+          contest-dependent cutoff that is not published in advance.
+        </p>
+        <p>
+          Because there are no demotions, a division reached is a division kept. That makes the ladder
+          asymmetric in a useful way: a bad contest costs you nothing except the month, and a good one
+          is permanent. It also means the correct target is never "become good at competitive
+          programming". It is "clear the next cutoff".
+        </p>
+      </div>
+      <div>
+        <p>
+          That distinction changes everything about preparation. Training for Gold while sitting in
+          Bronze is a common and expensive mistake: the student learns segment trees and still loses
+          because they cannot get a complete, correct, well-tested solution to a simple problem inside
+          the time. Bronze does not reward sophistication. It rewards finishing.
+        </p>
+        <p>
+          So this course is organised by division rather than by topic. A Bronze student works on
+          reading a problem correctly, brute force with confidence, and not failing on the edge case.
+          A Gold student works on shortest paths and dynamic programming. Those are different people
+          needing different months.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="two">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">The contest, exactly</p>
+      <h2>How a USACO contest actually runs</h2>
+      <p class="ag-lede">
+        The format matters as much as the material, because more students lose to the format than to
+        the algorithms.
+      </p>
+    </div>
+
+    <div class="ag-table-wrap">
+        <table class="ag-table">
+          <thead><tr><th scope="col"></th><th scope="col">How it works</th><th scope="col">Why it matters for preparation</th></tr></thead>
+          <tbody><tr><td>Problems</td><td class="ag-num">Three per contest</td><td class="ag-num">Each is worth roughly a third of the score</td></tr><tr><td>Total score</td><td class="ag-num">1000 points, weighted equally</td><td class="ag-num">One complete solution beats three partial ones</td></tr><tr><td>Your timer</td><td class="ag-num">Four to five contiguous hours</td><td class="ag-num">It is an endurance event, not a sprint</td></tr><tr><td>When it starts</td><td class="ag-num">Whenever you begin, inside the window</td><td class="ag-num">Choosing the wrong hour costs promotions</td></tr><tr><td>Promotion</td><td class="ag-num">By a contest-dependent cutoff</td><td class="ag-num">The cutoff is not published in advance</td></tr><tr><td>Perfect score</td><td class="ag-num">Immediate in-contest promotion</td><td class="ag-num">And the timer resets for the higher division</td></tr><tr><td>Demotion</td><td class="ag-num">Does not happen</td><td class="ag-num">A bad contest costs the month and nothing more</td></tr><tr><td>Dates</td><td class="ag-num">Published each season on the official site</td><td class="ag-num">They move; we do not print them here</td></tr></tbody>
+        </table>
+      </div>
+
+    <p class="ag-mt-40">
+      Read the timer row carefully. The clock is personal: a contestant chooses when to begin inside
+      the window, and from that moment they have four or five contiguous hours. That makes the start
+      time a real decision. Beginning at nine on a school night, tired, because the window closes
+      tomorrow, is a choice that costs promotions, and it is the one part of USACO preparation that
+      has nothing to do with programming.
+    </p>
+  </div>
+</section>
+
+<section class="ag-section ag-section--deep">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">The four divisions</p>
+      <h2>What each division actually asks for</h2>
+      <p class="ag-lede">
+        The jump from Silver to Gold is the one where most students stall, and it is a jump in kind
+        rather than in difficulty.
+      </p>
+    </div>
+
+    <div class="ag-table-wrap">
+        <table class="ag-table">
+          <thead><tr><th scope="col">Division</th><th scope="col">Who it is for</th><th scope="col">What actually gets you promoted</th></tr></thead>
+          <tbody><tr><td>Bronze</td><td class="ag-num">Students who can program but have little algorithm training</td><td class="ag-num">Complete, correct, well-tested solutions to simple problems</td></tr><tr><td>Silver</td><td class="ag-num">Students meeting fundamental techniques and data structures</td><td class="ag-num">Recursive search, greedy reasoning, and reliable implementation</td></tr><tr><td>Gold</td><td class="ag-num">Students meeting standard algorithms of a more complex kind</td><td class="ag-num">Recognising shortest paths and dynamic programming on sight</td></tr><tr><td>Platinum</td><td class="ag-num">Advanced students, grounded in algorithmic problem-solving</td><td class="ag-num">Sophisticated and more open-ended problems, and stamina</td></tr></tbody>
+        </table>
+      </div>
+
+    <p class="ag-mt-40">
+      The Bronze to Silver step is about reliability: solving completely rather than nearly. The
+      Silver to Gold step is about vocabulary: a Gold problem often cannot be solved at all without
+      recognising which standard algorithm it is, so the training changes from practice to study and
+      then back to practice. Students who do not know that has happened conclude they have stopped
+      improving, when in fact they have hit a different kind of wall.
+    </p>
+  </div>
+</section>
+
+<section class="ag-section">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Where contests are lost</p>
+      <h2>Six ways capable students fail a USACO contest</h2>
+      <p class="ag-lede">
+        Only one of these is about not knowing an algorithm.
+      </p>
+    </div>
+    <div class="ag-grid-3">
+      <div><h3>Three partial solutions instead of one complete one</h3><p>Scoring is by test cases and the problems are equally weighted. A student who half-solves everything scores worse than one who fully solves a single problem and tests it properly, and Bronze punishes this pattern hardest.</p></div>
+      <div><h3>Misreading the constraints</h3><p>The bounds tell you which approach is intended. A student who does not read them writes an elegant solution that is too slow, and finds out only after the contest closes, which is the most demoralising way to lose.</p></div>
+      <div><h3>No stress testing</h3><p>Writing a slow brute force, generating random inputs and comparing outputs catches wrong-answer bugs in minutes that would otherwise never be found. It is the highest-value habit in competitive programming and almost nobody arrives with it.</p></div>
+      <div><h3>Starting the timer at a bad hour</h3><p>The clock is personal. Beginning at nine at night on a school day because the window is closing is a scheduling decision that costs a promotion, and it has nothing to do with algorithms.</p></div>
+      <div><h3>Studying above your division</h3><p>Learning segment trees while stuck in Bronze feels productive and changes nothing, because Bronze problems do not need them. The material that promotes you is the material one step up, not three.</p></div>
+      <div><h3>Not actually knowing the standard algorithms at Gold</h3><p>This is the one genuine knowledge failure on the list. A Gold problem frequently cannot be solved at all without recognising which known algorithm it is, so at that level study has to precede practice.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">The training</p>
+      <h2>How we prepare a student for the next cutoff</h2>
+      <p class="ag-lede">
+        Two live classes a week, one to one or in a small batch, with problems set between them and
+        solutions reviewed line by line rather than marked right or wrong.
+      </p>
+    </div>
+    <ol class="ag-protocol">
+        <li class="ag-step" data-step="1">
+          <h4>Week 1: find the real division and the real gap</h4>
+          <p>A timed contest from a past season in the student's current division, run properly with the full clock. What comes out of it is not a score but a diagnosis: reading, implementation speed, testing discipline, or genuine algorithm gaps.</p>
+        </li>
+        <li class="ag-step" data-step="2">
+          <h4>Weeks 2 to 5: complete solutions, and the habit of finishing</h4>
+          <p>Whatever the division, this comes first. One problem, solved fully, tested properly, before moving on. Students resist it because partial progress feels faster, and the scoring disagrees with them.</p>
+        </li>
+        <li class="ag-step" data-step="3">
+          <h4>Weeks 4 onward: stress testing, until it is automatic</h4>
+          <p>A brute force, a random generator and a comparison loop, written for every problem. This single technique finds more bugs than any amount of careful reading, and a student who has it debugs in minutes rather than after the contest.</p>
+        </li>
+        <li class="ag-step" data-step="4">
+          <h4>Weeks 6 to 12: the algorithms of the division above</h4>
+          <p>Deliberately one step up rather than three. For a Bronze student that means sorting, prefix sums and simulation done well. For Silver it means recursive search, greedy and the standard data structures. For Gold it means shortest paths and dynamic programming.</p>
+        </li>
+        <li class="ag-step" data-step="5">
+          <h4>Every month: a full timed contest, run like the real thing</h4>
+          <p>Four to five contiguous hours, at the hour the student intends to compete, without interruption. Endurance and scheduling are trained here, and both cost promotions when they are not.</p>
+        </li>
+        <li class="ag-step" data-step="6">
+          <h4>After every contest: a line-by-line review</h4>
+          <p>Not right or wrong. What was read incorrectly, where the time went, which test case would have caught it, and what the intended solution was. This review is where the improvement actually happens.</p>
+        </li>
+      </ol>
+  </div>
+</section>
+
+<section class="ag-section">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Being straight about it</p>
+      <h2>What we will not tell you about USACO</h2>
+    </div>
+    <div class="ag-grid-2" style="align-items:start">
+      <div>
+        <p>
+          <strong>We do not promise a division.</strong> Cutoffs are contest-dependent and are not
+          published in advance, and a student's result on a given Saturday depends on which three
+          problems were set. Any provider promising Gold by a date is describing luck as a service.
+        </p>
+        <p>
+          <strong>We do not promise a university outcome.</strong> A Platinum finish is a genuine
+          distinction and it is not an admission. Anyone telling you otherwise is selling you
+          something no tutor controls.
+        </p>
+      </div>
+      <div>
+        <p>
+          <strong>We will not print this season's dates.</strong> They move every year, and a page
+          carrying last season's calendar is worse than a page carrying none. The official site is
+          the only correct source and takes ten seconds to check.
+        </p>
+        <p>
+          <strong>We will say when a student is not ready to start.</strong> USACO assumes real
+          programming fluency. A student who cannot yet write a correct loop under time should spend
+          a term on that first, and we would rather say so than charge for contest coaching.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--deep">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Outcomes</p>
+      <h2>What a student can do after a season of coaching</h2>
+      <p class="ag-lede">Watchable behaviours during a timed contest. A division is not on this list because a division depends on which three problems were set.</p>
+    </div>
+    <div class="ag-grid-3">
+      <div><h3>Read constraints first and choose the approach they imply</h3><p>Rather than writing an elegant solution that is too slow and finding out after the contest has closed.</p></div>
+      <div><h3>Finish one problem completely before starting another</h3><p>Which under equal weighting and test-case scoring is worth more than partial progress on all three.</p></div>
+      <div><h3>Stress test without being told to</h3><p>A brute force, a generator and a comparison loop, written by reflex, which finds wrong-answer bugs in minutes.</p></div>
+      <div><h3>Estimate complexity before writing code</h3><p>And therefore reject an approach on paper rather than after forty minutes of implementation.</p></div>
+      <div><h3>Recognise the standard algorithm a problem is asking for</h3><p>Which at Gold is the difference between solving a problem and being unable to start it.</p></div>
+      <div><h3>Sustain concentration for a full contest</h3><p>Practised at the hour they intend to compete, because endurance and scheduling cost promotions as reliably as algorithms do.</p></div>
+      <div><h3>Review their own contest usefully</h3><p>Naming what was misread and where the time went, rather than only whether the answer was right.</p></div>
+      <div><h3>Debug under time without panicking</h3><p>Because there is a procedure to follow, which is what turns a stalled contest into a recovered one.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="courses">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">The catalogue</p>
+      <h2>The courses this sits inside</h2>
+      <p class="ag-lede">USACO coaching runs from the competitive programming track. The rest are the foundations it assumes and the places it leads.</p>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">I</span>
+        <h3>Competitive programming</h3>
+        <span class="ag-band-sub">The track this coaching comes from</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">CP / 01</p>
+          <h4>Competitive Programming for Teens</h4>
+          <p>The course this page describes for school-age students. Organised by division, with timed contests every month and line-by-line review after each.</p>
+          <a class="ag-course-link" href="/courses/competitive-programming-for-teens-course">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">CP / 02</p>
+          <h4>Competitive Programming Masterclass</h4>
+          <p>The college-level version, for university students and older competitors working toward harder contests.</p>
+          <a class="ag-course-link" href="/courses/competitive-programming-masterclass-college">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">CP / 03</p>
+          <h4>Data Structures and Algorithms</h4>
+          <p>The systematic version of what USACO tests unsystematically. The usual answer for a student stuck at the Silver to Gold step.</p>
+          <a class="ag-course-link" href="/courses/data-structures-algorithms-masterclass-college">Open the syllabus</a>
+        </article>
+      </div>
+    </div>
+
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">II</span>
+        <h3>The languages contestants use</h3>
+        <span class="ag-band-sub">C++ mostly, and the alternatives</span>
+      </div>
+      <div class="ag-grid-4">
+        <article class="ag-course">
+          <p class="ag-course-code">LANG / 01</p>
+          <h4>C++ Programming for Teens</h4>
+          <p>The language most serious competitors use, chosen for speed and for the standard library.</p>
+          <a class="ag-course-link" href="/courses/cpp-programming-masterclass-for-teens">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">LANG / 02</p>
+          <h4>C++ Programming Masterclass</h4>
+          <p>The college-level treatment, for competitors who want the language properly rather than as contest syntax.</p>
+          <a class="ag-course-link" href="/courses/cpp-programming-complete-masterclass-college">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">LANG / 03</p>
+          <h4>Java Programming for Teens</h4>
+          <p>A perfectly viable contest language, and the right one for a student also sitting an AP or an IB in Java.</p>
+          <a class="ag-course-link" href="/courses/java-programming-masterclass-for-teens">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">LANG / 04</p>
+          <h4>Python for Teens</h4>
+          <p>Usable at Bronze and Silver, and increasingly limiting above that where time limits bite.</p>
+          <a class="ag-course-link" href="/courses/python-complete-masterclass-teens">Open the syllabus</a>
+        </article>
+      </div>
+    </div>
+
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">III</span>
+        <h3>Around the contests</h3>
+        <span class="ag-band-sub">School qualifications and what comes next</span>
+      </div>
+      <div class="ag-grid-4">
+        <article class="ag-course">
+          <p class="ag-course-code">NEXT / 01</p>
+          <h4>AP Computer Science A Exam Prep</h4>
+          <p>What most USACO students are also sitting, and where the Java overlap is worth using deliberately.</p>
+          <a class="ag-course-link" href="/courses/ap-computer-science-a-java-exam-prep-course">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">NEXT / 02</p>
+          <h4>Cambridge IGCSE Computer Science 0478</h4>
+          <p>For younger competitors whose school qualification runs in parallel with their contest training.</p>
+          <a class="ag-course-link" href="/courses/igcse-computer-science-0478-course">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">NEXT / 03</p>
+          <h4>Hackathon Prep for Teens</h4>
+          <p>A different competitive format, for students who want to build rather than only to solve.</p>
+          <a class="ag-course-link" href="/courses/hackathon-prep-for-teens-coding-ai-build-innovate-win-course">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">NEXT / 04</p>
+          <h4>IB Diploma Computer Science</h4>
+          <p>The other common school qualification alongside contest training.</p>
+          <a class="ag-course-link" href="/courses/ib-diploma-computer-science-course">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">NEXT / 05</p>
+          <h4>Git and GitHub for Teens</h4>
+          <p>Contest solutions committed as they are written, which turns a season of practice into something a reader can open.</p>
+          <a class="ag-course-link" href="/courses/git-github-version-control-course-for-teens">Open the syllabus</a>
+        </article>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="fees">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Fees</p>
+      <h2>What USACO coaching costs</h2>
+      <p class="ag-lede">The same two figures as every other course we teach outside India, billed monthly in US dollars. No premium for the word olympiad, nothing to start, and the first class free without a card.</p>
+    </div>
+    <div class="ag-grid-3">
+      <div class="ag-price">
+        <p class="ag-price-name">Free first class</p>
+        <p class="ag-price-amt">USD 0</p>
+        <p class="ag-price-alt">no card required</p>
+        <ul><li>Taught rather than sold</li><li>A real diagnostic on the exam itself</li><li>You watch it, then decide</li></ul>
+        <a href="#start" class="ag-btn ag-btn--ghost">Book it</a>
+      </div>
+      <div class="ag-price ag-price--feature">
+        <p class="ag-price-name">Group batch</p>
+        <p class="ag-price-amt">USD 100</p>
+        <p class="ag-price-alt">a month, billed in US dollars</p>
+        <ul><li>Five to eight students, one teacher throughout</li><li>Live video, never a recording</li><li>Past-paper work between classes, marked by the teacher</li><li>Certificate on completion</li></ul>
+        <a href="#start" class="ag-btn">Start here</a>
+      </div>
+      <div class="ag-price">
+        <p class="ag-price-name">One to one</p>
+        <p class="ag-price-amt">USD 150</p>
+        <p class="ag-price-alt">a month, billed in US dollars</p>
+        <ul><li>Private teaching, paced to the entry date</li><li>The only way to get a weekday morning slot</li><li>Syllabus rebuilt around the papers the student is weakest on</li></ul>
+        <a href="#start" class="ag-btn ag-btn--ghost">Enquire</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">What families say</p>
+      <h2>Rated 4.9 across 547 Google reviews</h2>
+      <p class="ag-lede">Real reviews from real families. We neither write nor commission them.</p>
+    </div>
+    <div class="ag-grid-3">
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."</p>
+        <p class="ag-review-name">Ria Mukherjee</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."</p>
+        <p class="ag-review-name">Samriddha Mondal</p>
+        <p class="ag-review-role">Student</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."</p>
+        <p class="ag-review-name">Vansh Agarwal</p>
+        <p class="ag-review-role">Student</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."</p>
+        <p class="ag-review-name">Sonam Oswal</p>
+        <p class="ag-review-role">Parent of Dhairya</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."</p>
+        <p class="ag-review-name">Sonu Goyal</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."</p>
+        <p class="ag-review-name">Ritu Kedia</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">The other nine</p>
+      <h2>The other exams and contests we prepare students for</h2>
+      <p class="ag-lede">Most USACO students are sitting a school qualification at the same time. These are the ones we teach alongside it.</p>
+    </div>
+    <div class="ag-markets">
+      <a class="ag-market" href="/ap-computer-science-a-online-classes"><span class="ag-market-n">AP Computer Science A</span><span class="ag-market-m">Java</span></a>
+      <a class="ag-market" href="/ap-computer-science-principles-online-coaching"><span class="ag-market-n">AP Computer Science Principles</span><span class="ag-market-m">Any language</span></a>
+      <a class="ag-market" href="/cambridge-igcse-computer-science-tuition"><span class="ag-market-n">Cambridge IGCSE 0478</span><span class="ag-market-m">Python, VB, Java</span></a>
+      <a class="ag-market" href="/cambridge-a-level-computer-science-online-classes"><span class="ag-market-n">Cambridge A Level 9618</span><span class="ag-market-m">Python, VB, Java</span></a>
+      <a class="ag-market" href="/uk-gcse-computer-science-tutoring"><span class="ag-market-n">UK GCSE Computer Science</span><span class="ag-market-m">Python</span></a>
+      <a class="ag-market" href="/ib-computer-science-online-tuition"><span class="ag-market-n">IB Diploma Computer Science</span><span class="ag-market-m">Java or Python</span></a>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--deep">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">USACO questions</p>
+      <h2>What families ask about USACO preparation</h2>
+    </div>
+    <div class="ag-faq">
+      <div class="ag-faq-item">
+        <h3>How does USACO actually work?</h3>
+        <p>There are four divisions: Bronze, Silver, Gold and Platinum. Everyone starts in Bronze. Each contest has three problems scored out of 1000 points in total, equally weighted, and you start your own four to five hour timer whenever you choose inside the contest window. Clearing a contest-dependent cutoff promotes you, a perfect score promotes you immediately mid-contest, and there are no demotions.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Can my child skip Bronze if they already program well?</h3>
+        <p>No. Every participant starts in Bronze regardless of experience, and there is no placement test. What experience buys is a faster climb, not a higher starting point. This is why the correct target is always the next cutoff rather than a division several steps away.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>How much does the coaching cost?</h3>
+        <p>A small batch is USD 100 a month and one to one is USD 150 a month, billed in US dollars, which are the same figures as every other course we teach outside India. There is no premium for the word olympiad. No enrolment fee, no minimum term, and the first class is free without a card.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Which language should my child compete in?</h3>
+        <p>C++ for a student who intends to go past Silver, because the time limits eventually favour it and most editorial material assumes it. Java is entirely viable and is the right choice for a student also sitting an AP or IB in Java. Python is fine at Bronze and Silver and becomes limiting above that.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Do you guarantee promotion to Gold?</h3>
+        <p>No, and anybody who does is describing luck as a service. Cutoffs are contest-dependent and are not published in advance, and a result depends on which three problems were set that weekend. What we control is whether the student arrives able to finish a problem completely, test it properly and manage five hours.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>When are the contests?</h3>
+        <p>Published each season on the official USACO site. We deliberately do not print dates here because they move every year and a page carrying last season's calendar is worse than one carrying none. Checking the official source takes ten seconds and is always right.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>What is stress testing and why do you emphasise it?</h3>
+        <p>Writing a deliberately slow but obviously correct solution, generating random inputs, and comparing the two outputs automatically. It finds wrong-answer bugs in minutes that a student would otherwise never find. It is the single highest-value habit in competitive programming and almost nobody arrives already doing it.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>My child is stuck in Silver and not improving. What is happening?</h3>
+        <p>Usually they have hit a change of kind rather than of difficulty. Gold problems frequently cannot be solved at all without recognising which standard algorithm they are, so at that step study has to precede practice. Students who do not know that conclude they have stopped improving when they simply need a different month.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>What age is this for?</h3>
+        <p>Realistically twelve upward, and the constraint is programming fluency rather than age. USACO assumes a student can already write correct code under time pressure. If they cannot yet, a term of proper programming first produces far more than contest coaching would.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Are the classes live?</h3>
+        <p>Every class is live, one to one or in a small batch, taught from India to students worldwide. Batches group students in the same division, because a Bronze student and a Gold student genuinely need different months and mixing them serves neither.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Will USACO help with university admission?</h3>
+        <p>A strong finish is a genuine distinction and it is not an admission, and we will not pretend otherwise. What it reliably demonstrates is sustained independent work at a measurable standard, which is unusual and useful. Any provider connecting a division to an offer is selling something no tutor controls.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>How much practice is expected between classes?</h3>
+        <p>Problems set every week and reviewed properly, which realistically means three to six hours depending on the division. Above Silver it rises, because Gold and Platinum problems take longer to attempt and much longer to review usefully.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Can my child start mid-season?</h3>
+        <p>One to one, any week, and that is usually the right format mid-season because the training gets aimed at the next contest specifically. Batches take joiners at the start of a block so that the division grouping still works.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>What happens in the free first class?</h3>
+        <p>A real timed problem from a past contest in the student's current division, run properly. What comes out of it is a diagnosis rather than a score: whether the gap is reading, implementation speed, testing discipline or genuine algorithm knowledge. Those need four different plans.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>What happens after we send the form?</h3>
+        <p>A mentor calls you at a reasonable hour to arrange the free class. Nothing is charged and no card is requested. Tell us the current division on the call, because Bronze and Gold coaching are different products and it changes the honest recommendation immediately.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="start">
+  <div class="ag-wrap">
+    <div class="ag-hero-grid">
+      <div>
+        <div class="ag-section-head">
+          <p class="ag-eyebrow">Enrol</p>
+          <h2>Book the free first class, and get a real diagnosis</h2>
+        </div>
+        <p>The first class is a genuine timed problem from a past contest in your child's current division, run with the clock. What comes back is not a score but a diagnosis, because there are four quite different reasons a student fails to get promoted: they misread the problem, they implement too slowly, they do not test, or they genuinely do not know the algorithm. Those need four different plans and guessing between them wastes a season.</p>
+        <p>Rather read first? <a class="ag-inline-link" href="/courses/competitive-programming-for-teens-course">The full course syllabus</a>, <a class="ag-inline-link" href="/how-to-think-like-a-programmer">how to think like a programmer</a>, or <a class="ag-inline-link" href="/how-we-teach">how we teach</a>.</p>
+        <p style="margin-top:22px">
+          <a class="ag-inline-link" href="https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders.%20I%20am%20interested%20in%20USACO%20preparation%20coaching." target="_blank" rel="noopener">WhatsApp us</a> &middot;
+          <a class="ag-inline-link" href="tel:+919123366161">+91 91233 66161</a> &middot;
+          <a class="ag-inline-link" href="mailto:contact@modernagecoders.com">contact@modernagecoders.com</a>
+        </p>
+        <p style="font-size:.92rem;color:var(--ag-muted);margin-top:14px">
+          Every class is live, one to one or in a small division-matched batch, taught from India at a time arranged with you. Nothing here is a recording. The form starts a conversation, not an enrolment.
+        </p>
+      </div>
+      <div class="ag-form-panel">
+        <form onsubmit="submitUsacoLead(event)" novalidate>
+          <div class="ag-field">
+            <label for="ag-uso-name">Your name</label>
+            <input id="ag-uso-name" type="text" name="name" placeholder="Parent or student name" required>
+          </div>
+          <div class="ag-field">
+            <label for="ag-uso-phone">Phone or WhatsApp, including your country code</label>
+            <input id="ag-uso-phone" type="tel" name="phone" placeholder="+1 555 000 0000" required>
+          </div>
+          <div class="ag-field">
+            <label for="ag-uso-when">When is the exam?</label>
+            <select id="ag-uso-when" name="age">
+              <option value="this-session">This coming session</option>
+              <option value="next-year">Next year</option>
+              <option value="two-years">Two years away</option>
+              <option value="unsure">Not decided yet</option>
+            </select>
+          </div>
+          <button type="submit" class="ag-btn" style="width:100%">Book the free first class</button>
+          <p class="ag-form-note">No card. No obligation. We call, we do not spam.</p>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="ag-footer">
+  <div class="ag-wrap">
+    <div class="ag-grid-4">
+      <div>
+        <h4>Modern Age Coders</h4>
+        <p style="font-size:.9rem;opacity:.82">
+          Live online coding, AI and mathematics for ages 6 to 67. Teaching since 2020, more than
+          10,000 students across 25 countries and more.
+        </p>
+      </div>
+      <div>
+        <h4>Exam courses</h4>
+        <ul>
+          <li><a href="/ap-computer-science-a-online-classes">AP Computer Science A</a></li>
+          <li><a href="/ap-computer-science-principles-online-coaching">AP Computer Science Principles</a></li>
+          <li><a href="/cambridge-igcse-computer-science-tuition">Cambridge IGCSE 0478</a></li>
+          <li><a href="/cambridge-a-level-computer-science-online-classes">Cambridge A Level 9618</a></li>
+          <li><a href="/uk-gcse-computer-science-tutoring">UK GCSE Computer Science</a></li>
+          <li><a href="/ib-computer-science-online-tuition">IB Diploma Computer Science</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Competitive and certification</h4>
+        <ul>
+          <li><a href="/usaco-preparation-online-coaching">USACO</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Start</h4>
+        <ul>
+          <li><a href="/courses">The full catalogue</a></li>
+          <li><a href="/pricing">Fees</a></li>
+          <li><a href="/how-we-teach">How we teach</a></li>
+          <li><a href="/student-labs">What students build</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="ag-footer-bottom">
+      <span>&copy; 2026 Modern Age Coders. Live online, taught from India, worldwide.</span>
+      <span>Ages 6 to 67 &middot; 25 countries and more</span>
+    </div>
+  </div>
+</footer>
+
+<script>
+window.submitUsacoLead = function (e) {
+  e.preventDefault();
+  var form = e.target;
+  var name = (form.querySelector('input[name="name"]') || {}).value || '';
+  var phoneRaw = (form.querySelector('input[type="tel"]') || {}).value || '';
+  var when = (form.querySelector('select[name="age"]') || {}).value || '';
+  var d = phoneRaw.replace(/\D/g, '');
+  if (d.length < 7) { alert('Please enter a valid phone number including your country code.'); return; }
+  var btn = form.querySelector('button[type="submit"]');
+  var oldText = btn.textContent;
+  btn.disabled = true; btn.textContent = 'Sending...';
+  var API_URL = (location.hostname === 'localhost' || location.hostname === '127.0.0.1')
+    ? 'http://localhost:5000' : 'https://backend-modernagecoders.vercel.app';
+  fetch(API_URL + '/api/callback/request', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({
+      phone: d, countryCode: '', countryIso: '', countryName: 'International',
+      source: 'usaco-preparation-online-coaching-inline', meta: { name: name, exam: 'usaco', sitting: when, raw: phoneRaw }
+    })
+  }).then(function (r) { return r.json(); }).then(function (data) {
+    if (data && data.success) {
+      if (window.gtag) gtag('event', 'generate_lead', { page_exam: 'usaco' });
+      form.innerHTML = '<p class="ag-form-ok">Thank you' + (name ? ', ' + name.split(' ')[0] : '') +
+        '. A mentor will call you to arrange the free class.</p>';
+    } else {
+      alert((data && data.message) || 'Something went wrong. Please try again.');
+      btn.disabled = false; btn.textContent = oldText;
+    }
+  }).catch(function () {
+    alert('Network error. Please try again.');
+    btn.disabled = false; btn.textContent = oldText;
+  });
+};
+</script>
+<script>
+  window.addEventListener('load', function () {
+    var s = document.createElement('script');
+    s.src = 'https://www.googletagmanager.com/gtag/js?id=G-N8BM164YJP';
+    s.async = true;
+    document.head.appendChild(s);
+  });
+</script>
+</body>
+</html>
