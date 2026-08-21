@@ -1,0 +1,265 @@
+{
+  "meta": {
+    "slug": "cambridge-9618-paper-4-python-java-or-visual-basic",
+    "title": "Cambridge 9618 Paper 4: Python, Java or Visual Basic?",
+    "description": "The language choice in Cambridge A Level Computer Science reaches one paper out of four. Here is what Paper 4 asks for, and how to pick without regret.",
+    "keywords": [
+      "cambridge 9618 paper 4",
+      "9618 python or java",
+      "a level computer science programming language",
+      "cambridge a level computer science practical paper",
+      "9618 pseudocode paper 2",
+      "9618 file handling exception"
+    ],
+    "author": {
+      "name": "Modern Age Coders Team",
+      "bio": "Expert educators making coding and maths clear for ages 6 to 67.",
+      "avatar": "/images/logo.svg"
+    },
+    "date": "2026-08-21",
+    "dateModified": "2026-08-21",
+    "category": "Education",
+    "tags": [
+      "A Level",
+      "Cambridge",
+      "Java",
+      "Python"
+    ],
+    "readTime": "8 min read",
+    "featured": false,
+    "tldr": "In Cambridge International AS and A Level Computer Science 9618, only Paper 4 is written in a programming language. Paper 4 is a two and a half hour practical worth 75 marks and a quarter of the A Level, taken on a computer with no internet, submitting complete program code and evidence of testing, in Java, Visual Basic or Python in console mode. Paper 2 must be answered in pseudocode, and Papers 1 and 3 contain no programming at all, so an AS Level candidate never writes real code in an exam."
+  },
+  "hero": {
+    "title": "Cambridge 9618 Paper 4: Python, Java or Visual Basic?",
+    "subtitle": "The question every 9618 student asks in the first month, answered from the syllabus rather than from preference, including the part where the choice matters much less than it seems.",
+    "featuredImage": {
+      "url": "/images/blog/cambridge-9618-paper-4-python-java-or-visual-basic/00-hero.png",
+      "alt": "Cambridge 9618 papers 1 to 4, showing that only Paper 4 is written in Java, Visual Basic or Python"
+    }
+  },
+  "content": {
+    "sections": [
+      {
+        "type": "toc"
+      },
+      {
+        "type": "paragraph",
+        "text": "A Cambridge 9618 student, or more often their parent, asks this within the first month. Python or Java? It is asked as though it were the decision that shapes the whole course. It is worth answering carefully, and the first useful thing to say is that the choice reaches exactly one of the four papers."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Where the language actually matters",
+        "id": "the-four-papers"
+      },
+      {
+        "type": "image",
+        "url": "/images/blog/cambridge-9618-paper-4-python-java-or-visual-basic/01-four-papers.png",
+        "alt": "Table of the four Cambridge 9618 papers with what each one is answered in",
+        "caption": "Three papers out of four do not involve a programming language at all."
+      },
+      {
+        "type": "list",
+        "style": "unordered",
+        "items": [
+          "<strong>Paper 1, Theory Fundamentals.</strong> An hour and a half, 75 marks, sections 1 to 8. Written, no code.",
+          "<strong>Paper 2, Fundamental Problem-solving and Programming Skills.</strong> Two hours, 75 marks, sections 9 to 12. Answers must be written in pseudocode.",
+          "<strong>Paper 3, Advanced Theory.</strong> An hour and a half, 75 marks, sections 13 to 20. Written, no code.",
+          "<strong>Paper 4, Practical.</strong> Two and a half hours, 75 marks, sections 19 and 20 excluding low level and declarative programming. Taken on a computer without internet or email, submitting complete program code and evidence of testing, in Java, Visual Basic or Python, all in console mode."
+        ]
+      },
+      {
+        "type": "paragraph",
+        "text": "At A Level each of the four is worth a quarter. At AS Level only Papers 1 and 2 are taken and they are worth half each, which produces a fact worth pausing on: <strong>an AS Level Computer Science candidate never writes a line of real code in an examination</strong>. Everything they are assessed on is theory and pseudocode."
+      },
+      {
+        "type": "callout",
+        "calloutType": "warning",
+        "title": "Two consequences of that, both practical",
+        "text": "First, a student who has spent a year happily coding in Python and never writing pseudocode will meet Paper 2 badly, and Paper 2 is half the AS. Second, no calculator is permitted in any of the four papers, which surprises candidates every year."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "What Paper 4 examines",
+        "id": "what-paper-4-asks"
+      },
+      {
+        "type": "paragraph",
+        "text": "Paper 4 draws on sections 19 and 20, which is algorithms and recursion, programming paradigms, and file processing and exception handling. That last pairing is the one to think about when choosing a language, because it is where the three candidates genuinely differ in the exam room rather than in theory."
+      },
+      {
+        "type": "paragraph",
+        "text": "Worth flagging for anyone arriving from an American curriculum: <strong>recursion is examined here</strong>, in section 19.2. It was removed from AP Computer Science A in the 2025-26 revision, so a student sitting both will find it dropped from one and required in the other."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "The same task in Python and Java",
+        "id": "same-task"
+      },
+      {
+        "type": "paragraph",
+        "text": "Here is a Paper 4 shaped problem, small but complete: read scores from a file, average them, and handle the file not being there. This is Python."
+      },
+      {
+        "type": "code",
+        "language": "python",
+        "code": "def load(filename):\n    total = 0\n    count = 0\n    try:\n        with open(filename) as f:\n            for line in f:\n                name, score = line.strip().split(\",\")\n                total = total + int(score)\n                count = count + 1\n    except FileNotFoundError:\n        print(\"File not found:\", filename)\n        return 0\n    return total / count\n\n\nprint(load(\"scores.txt\"))\nprint(load(\"missing.txt\"))"
+      },
+      {
+        "type": "code",
+        "language": "text",
+        "code": "69.33333333333333\nFile not found: missing.txt\n0"
+      },
+      {
+        "type": "paragraph",
+        "text": "And Java, doing the identical thing."
+      },
+      {
+        "type": "code",
+        "language": "java",
+        "code": "import java.io.File;\nimport java.io.FileNotFoundException;\nimport java.util.Scanner;\n\npublic class ReadScores {\n    public static double load(String filename) {\n        int total = 0;\n        int count = 0;\n        try {\n            Scanner file = new Scanner(new File(filename));\n            while (file.hasNextLine()) {\n                String[] parts = file.nextLine().split(\",\");\n                total = total + Integer.parseInt(parts[1]);\n                count = count + 1;\n            }\n            file.close();\n        } catch (FileNotFoundException e) {\n            System.out.println(\"File not found: \" + filename);\n            return 0;\n        }\n        return (double) total / count;\n    }\n\n    public static void main(String[] args) {\n        System.out.println(load(\"scores.txt\"));\n        System.out.println(load(\"missing.txt\"));\n    }\n}"
+      },
+      {
+        "type": "code",
+        "language": "text",
+        "code": "69.33333333333333\nFile not found: missing.txt\n0.0"
+      },
+      {
+        "type": "image",
+        "url": "/images/blog/cambridge-9618-paper-4-python-java-or-visual-basic/03-side-by-side.png",
+        "alt": "Python and Java implementations of the same 9618 Paper 4 file handling task, side by side",
+        "caption": "Same task, same output, and a meaningful difference in how much of the exam it consumes."
+      },
+      {
+        "type": "paragraph",
+        "text": "Both average the same file to 69.33333333333333 and both take the missing file branch. Java prints 0.0 where Python prints 0, which is the languages telling you something true about themselves. The real difference is length. The Python function is 13 lines and the Java method is 17, and in a two and a half hour paper with several questions that difference compounds into real time."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Choosing between the three",
+        "id": "choosing"
+      },
+      {
+        "type": "image",
+        "url": "/images/blog/cambridge-9618-paper-4-python-java-or-visual-basic/02-three-languages.png",
+        "alt": "Comparison of Python, Java and Visual Basic for Cambridge 9618 Paper 4",
+        "caption": "The three permitted languages, judged on what Paper 4 actually asks for."
+      },
+      {
+        "type": "paragraph",
+        "text": "<strong>Python</strong> is the right default and the one most 9618 candidates use. File handling is short, exceptions are named in something close to English, and less typing means more of the exam is spent on the problem. Its weakness is real though: dynamic typing means a type error that Java would refuse to compile will sit quietly in Python until the line runs, which in a timed practical is exactly when you do not want to find it."
+      },
+      {
+        "type": "paragraph",
+        "text": "<strong>Java</strong> is the better choice for a student who is also sitting AP Computer Science A, or heading toward a degree that will start them in Java anyway. The compiler is an ally under exam pressure, because it catches a whole category of mistake before submission, and checked exceptions mean the language will not let you forget to handle the missing file. You pay for that in typing."
+      },
+      {
+        "type": "paragraph",
+        "text": "<strong>Visual Basic</strong> is a legitimate choice and the syllabus is specific about it: any .NET version, in console mode, and explicitly not Visual Basic 6.0 or earlier. Choose it if the school teaches it and the teacher marks in it. Choose it reluctantly otherwise, not because it is a bad language but because the pool of practice material and online help is much smaller than for the other two."
+      },
+      {
+        "type": "image",
+        "url": "/images/blog/cambridge-9618-paper-4-python-java-or-visual-basic/04-decide.png",
+        "alt": "Decision rules for choosing a Cambridge 9618 Paper 4 programming language",
+        "caption": "Four rules that settle it for almost every student."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Pseudocode is not optional",
+        "id": "pseudocode"
+      },
+      {
+        "type": "paragraph",
+        "text": "The most common mistake we see in 9618 students is not choosing the wrong language, it is quietly deciding that pseudocode is the thing you write when you cannot be bothered to write real code. Paper 2 is two hours and a quarter of the A Level, and it must be answered in pseudocode. The Cambridge notation has its own rules, and at this level they differ from the IGCSE ones a student may already have learned."
+      },
+      {
+        "type": "code",
+        "language": "text",
+        "code": "FUNCTION CountEntries(FileName : STRING) RETURNS INTEGER\n   DECLARE LineOfText : STRING\n   DECLARE Count : INTEGER\n   Count <- 0\n   OPENFILE FileName FOR READ\n   WHILE NOT EOF(FileName)\n      READFILE FileName, LineOfText\n      IF LENGTH(LineOfText) > 0 THEN\n         Count <- Count + 1\n      ENDIF\n   ENDWHILE\n   CLOSEFILE FileName\n   RETURN Count\nENDFUNCTION"
+      },
+      {
+        "type": "paragraph",
+        "text": "Note the shape. FUNCTION carries a declared return type, DECLARE introduces the locals, assignment is the left arrow, files are handled with OPENFILE and READFILE and CLOSEFILE with EOF as the loop test, and every block closes with the keyword that opened it. A student fluent in this writes Paper 2 answers at speed. A student translating from Python in their head does not."
+      },
+      {
+        "type": "callout",
+        "calloutType": "tip",
+        "title": "If the student came through IGCSE 0478",
+        "text": "Do not assume the notations are identical, because they are not. Two differences catch people immediately. DIV and MOD are written as functions at IGCSE, as in DIV(10, 3), and as operators at A Level, as in 10 DIV 3. And THEN sits on its own line under the IF at IGCSE, while at A Level it sits at the end of the IF line. Read the guide for your own exam year rather than carrying assumptions up from the previous course."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "How we prepare students for the practical",
+        "id": "how-we-teach"
+      },
+      {
+        "type": "paragraph",
+        "text": "Paper 4 is the component where teaching quality shows most, because it is the only one where a student cannot bluff. Two and a half hours on a computer with no internet, submitting code and evidence of testing, is an honest test of whether somebody can actually program. The preparation that works is unglamorous: write programs, under time, with the internet closed, and have somebody read the code afterwards."
+      },
+      {
+        "type": "paragraph",
+        "text": "Our <a href='/cambridge-a-level-computer-science-online-classes'>Cambridge A Level Computer Science classes</a> are live, one to one or in a batch of five to eight students, taught from India to students worldwide. We teach the chosen language and the Cambridge pseudocode in parallel from the start, because Paper 2 and Paper 4 are two different skills and a student who neglects either has capped their grade at seventy five per cent. The first class is free."
+      },
+      {
+        "type": "button",
+        "text": "Book a free A Level Computer Science class",
+        "url": "/cambridge-a-level-computer-science-online-classes",
+        "style": "primary"
+      },
+      {
+        "type": "quote",
+        "text": "Pick the language in the first month, then stop thinking about it. Students who switch in the second year lose more to the switch than they would ever have lost to the wrong choice.",
+        "author": "The advice we give every 9618 family"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Frequently asked questions",
+        "id": "faq"
+      },
+      {
+        "type": "accordion",
+        "items": [
+          {
+            "title": "Can a student change language partway through the course?",
+            "content": "Technically yes, and it is usually a mistake. The cost is not learning new syntax, it is losing the fluency that makes a two and a half hour practical survivable. If a change is genuinely needed, make it in the first term and not after."
+          },
+          {
+            "title": "Is Python easier to get a high grade with?",
+            "content": "It is easier to write quickly, which matters in a timed practical. It is not easier to write correctly, because the errors Java refuses to compile will happily run in Python and produce a wrong answer instead of a refusal. Neither language decides a grade."
+          },
+          {
+            "title": "What does console mode mean?",
+            "content": "No graphical interface. Input and output through text. All three permitted languages must be used this way for Paper 4, so time spent learning to build windows is time that earns nothing in this exam."
+          },
+          {
+            "title": "Does the student need to memorise library functions?",
+            "content": "For Paper 4, yes, in practical terms, because the exam is taken on a computer without internet access. Whatever they cannot recall, they cannot look up. This is the strongest argument for choosing the language they use most rather than the one that sounds most impressive."
+          },
+          {
+            "title": "Is recursion really examined at 9618?",
+            "content": "Yes, in section 19.2, and it appears in Paper 4's scope. This is worth flagging because AP Computer Science A removed writing recursive methods in its 2025-26 revision, so a student sitting both qualifications has to hold two different content boundaries in their head."
+          },
+          {
+            "title": "How different is the A Level pseudocode from IGCSE?",
+            "content": "Similar in spirit, different in specifics, and the differences are exactly the kind that cost marks. Assignment and keyword conventions carry over, but DIV and MOD change from functions to operators and the A Level notation covers structures IGCSE never introduces."
+          },
+          {
+            "title": "What is submitted for Paper 4?",
+            "content": "Complete program code together with evidence of testing. The testing evidence is not an afterthought, and candidates who leave it until the last ten minutes of the two and a half hours consistently lose marks that were available to them for free."
+          }
+        ]
+      }
+    ]
+  },
+  "relatedPosts": [
+    "igcse-computer-science-0478-pseudocode-guide",
+    "how-to-revise-gcse-computer-science",
+    "how-to-get-a-5-in-ap-computer-science-a"
+  ]
+}
