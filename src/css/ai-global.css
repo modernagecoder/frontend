@@ -533,6 +533,19 @@
 @media (max-width: 860px) { .ag-code-pair { grid-template-columns: minmax(0,1fr); } }
 @media (max-width: 520px) { .ag-code pre { font-size: 12px; } }
 
+/* --- exam family: ten international computer science exams. Accents solved
+   for >=4.5:1 on all three paper tints and separated from each other. --- */
+.ag-root.ag-apa { --ag-accent: #9B505A; --ag-accent-soft: rgba(155,80,90,.09); }
+.ag-root.ag-csp { --ag-accent: #7F4932; --ag-accent-soft: rgba(127,73,50,.09); }
+.ag-root.ag-igc { --ag-accent: #593F18; --ag-accent-soft: rgba(89,63,24,.09); }
+.ag-root.ag-cal { --ag-accent: #6D6742; --ag-accent-soft: rgba(109,103,66,.09); }
+.ag-root.ag-gcs { --ag-accent: #485637; --ag-accent-soft: rgba(72,86,55,.09); }
+.ag-root.ag-ibc { --ag-accent: #294429; --ag-accent-soft: rgba(41,68,41,.09); }
+.ag-root.ag-uso { --ag-accent: #327060; --ag-accent-soft: rgba(50,112,96,.09); }
+.ag-root.ag-ioi { --ag-accent: #274B51; --ag-accent-soft: rgba(39,75,81,.09); }
+.ag-root.ag-pyc { --ag-accent: #6D5F8E; --ag-accent-soft: rgba(109,95,142,.09); }
+.ag-root.ag-ccc { --ag-accent: #7F5E59; --ag-accent-soft: rgba(127,94,89,.09); }
+
 @media print {
   .ag-nav, .ag-btn-row, .ag-form-panel { display: none; }
   .ag-root { background: #fff; }

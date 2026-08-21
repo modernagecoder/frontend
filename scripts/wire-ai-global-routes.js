@@ -33,6 +33,17 @@ const TODAY = new Date().toISOString().slice(0, 10);
 // The full cluster. Pages that do not exist on disk yet are skipped with a note.
 const SLUGS = [
   'learn-to-build-ai',
+  // exam family
+  'ap-computer-science-a-online-classes',
+  'ap-computer-science-principles-online-coaching',
+  'cambridge-igcse-computer-science-tuition',
+  'cambridge-a-level-computer-science-online-classes',
+  'uk-gcse-computer-science-tutoring',
+  'ib-computer-science-online-tuition',
+  'usaco-preparation-online-coaching',
+  'ioi-olympiad-informatics-training',
+  'python-certification-pcep-pcap-course',
+  'canadian-computing-competition-ccc-prep',
   // depth series
   'agentic-coding-classes',
   'model-context-protocol-mcp-course',
@@ -204,6 +215,16 @@ const LLMS_HEADING = '## Build AI, Not Just Use It (AI & machine learning by mar
 
 const LLMS_LABELS = {
   'learn-to-build-ai': 'Learn to Build AI (cluster hub)',
+  'ap-computer-science-a-online-classes': 'AP Computer Science A',
+  'ap-computer-science-principles-online-coaching': 'AP Computer Science Principles',
+  'cambridge-igcse-computer-science-tuition': 'Cambridge IGCSE Computer Science 0478',
+  'cambridge-a-level-computer-science-online-classes': 'Cambridge AS and A Level Computer Science 9618',
+  'uk-gcse-computer-science-tutoring': 'UK GCSE Computer Science',
+  'ib-computer-science-online-tuition': 'IB Diploma Computer Science',
+  'usaco-preparation-online-coaching': 'USACO preparation',
+  'ioi-olympiad-informatics-training': 'IOI and informatics olympiad training',
+  'python-certification-pcep-pcap-course': 'Python Institute PCEP and PCAP',
+  'canadian-computing-competition-ccc-prep': 'Canadian Computing Competition',
   'agentic-coding-classes': 'Agentic Coding Classes',
   'model-context-protocol-mcp-course': 'Model Context Protocol (MCP) Course',
   'rag-systems-course': 'RAG Systems Course',
