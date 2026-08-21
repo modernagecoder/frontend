@@ -1,0 +1,307 @@
+{
+  "meta": {
+    "slug": "ap-csp-vs-ap-csa-which-to-take-first",
+    "title": "AP CSP vs AP CSA: Which Should You Take First?",
+    "description": "AP Computer Science Principles sounds like the gentle one, yet it is the harder 5. The 2026 data, the real workload, and the order that wastes least.",
+    "keywords": [
+      "ap csp vs ap csa",
+      "which ap computer science to take first",
+      "ap computer science principles vs a",
+      "is ap csp easier than ap csa",
+      "ap csp create performance task",
+      "ap computer science principles score distribution"
+    ],
+    "author": {
+      "name": "Modern Age Coders Team",
+      "bio": "Expert educators making coding and maths clear for ages 6 to 67.",
+      "avatar": "/images/logo.svg"
+    },
+    "date": "2026-08-21",
+    "dateModified": "2026-08-21",
+    "category": "Education",
+    "tags": [
+      "AP Computer Science",
+      "Exam Prep",
+      "High School",
+      "Python"
+    ],
+    "readTime": "9 min read",
+    "featured": false,
+    "tldr": "AP Computer Science Principles is the easier course to sit and the harder score to top: 10 per cent of its candidates got a 5 in 2026 against 25 per cent in Computer Science A. Principles is a project year, with nine hours of class time on a program you choose and two written responses about it in the exam room. Computer Science A is a programming year, four units in Java with no project at all. Take Principles first if the student has never written a program by choice, and Computer Science A first if they have."
+  },
+  "hero": {
+    "title": "AP CSP vs AP CSA: Which Should You Take First?",
+    "subtitle": "One is described everywhere as the introductory course. The 2026 score data says something less comfortable, and it changes the answer for a lot of families.",
+    "featuredImage": {
+      "url": "/images/blog/ap-csp-vs-ap-csa-which-to-take-first/00-hero.png",
+      "alt": "AP CSP versus AP CSA: 10 per cent scored a 5 in Principles against 25 per cent in Computer Science A in 2026"
+    }
+  },
+  "content": {
+    "sections": [
+      {
+        "type": "toc"
+      },
+      {
+        "type": "paragraph",
+        "text": "The standard advice is so widespread that most families never question it. Take AP Computer Science Principles in Grade 10 as the gentle introduction, then AP Computer Science A in Grade 11 or 12 once the student has some confidence. It sounds obviously right. For a large number of students it is exactly backwards, and the 2026 results make the case better than any argument could."
+      },
+      {
+        "type": "paragraph",
+        "text": "In May 2026, <strong>10 per cent of Principles candidates scored a 5</strong>. In the same month, <strong>25 per cent of Computer Science A candidates scored a 5</strong>. The course everyone calls the hard one is two and a half times more likely to produce the top grade."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "The two distributions, side by side",
+        "id": "the-data"
+      },
+      {
+        "type": "image",
+        "url": "/images/blog/ap-csp-vs-ap-csa-which-to-take-first/01-both-distributions.png",
+        "alt": "Grouped bar chart comparing the 2026 AP Computer Science Principles and Computer Science A score distributions",
+        "caption": "Principles clusters at 3. Computer Science A splits toward both ends."
+      },
+      {
+        "type": "table",
+        "headers": [
+          "Score",
+          "Principles 2026",
+          "Computer Science A 2026"
+        ],
+        "rows": [
+          [
+            "5",
+            "10%",
+            "25%"
+          ],
+          [
+            "4",
+            "23%",
+            "26%"
+          ],
+          [
+            "3",
+            "30%",
+            "15%"
+          ],
+          [
+            "2",
+            "21%",
+            "11%"
+          ],
+          [
+            "1",
+            "16%",
+            "23%"
+          ],
+          [
+            "3 or higher",
+            "63%",
+            "66%"
+          ]
+        ]
+      },
+      {
+        "type": "paragraph",
+        "text": "Read the middle row. Principles sends 30 per cent of its candidates home with a 3, more than any other grade. It is a course that reliably gets students to a pass and rarely past it. Computer Science A is the opposite: the 3 is its <em>rarest</em> outcome after the 2. It sorts, hard, and it sorts on one thing."
+      },
+      {
+        "type": "callout",
+        "calloutType": "info",
+        "title": "Why the shapes differ",
+        "text": "Principles asks a broad range of questions about computing, plus written responses about a program you wrote months earlier. Partial credit is available almost everywhere, which lifts weak candidates to a 3 and stops strong ones running away. Computer Science A asks you to write working Java. Code either does the thing or it does not, and a paper made of that produces two clumps of students rather than a curve."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "What a year in each course actually looks like",
+        "id": "the-work"
+      },
+      {
+        "type": "paragraph",
+        "text": "Difficulty is the wrong axis anyway. The useful question is what kind of work the student will be doing for a year, because that is what determines whether they finish it."
+      },
+      {
+        "type": "image",
+        "url": "/images/blog/ap-csp-vs-ap-csa-which-to-take-first/02-the-work.png",
+        "alt": "Two column comparison of the AP Computer Science Principles and Computer Science A workload",
+        "caption": "A portfolio year against a programming year."
+      },
+      {
+        "type": "paragraph",
+        "text": "<strong>Principles</strong> is built around the Create performance task. Students get at least nine hours of class time to build a program of their own choosing, then submit the code, a video of it running, and a Personalized Project Reference through the AP Digital Portfolio by the end of April. The exam itself is 70 multiple choice questions in 120 minutes for 70 per cent of the score, and a 60 minute written response section for the other 30 per cent, in which students answer questions about their own program with the reference document in front of them."
+      },
+      {
+        "type": "paragraph",
+        "text": "<strong>Computer Science A</strong> has no project and nothing to submit. Four units, Java throughout, and a three hour exam split into 42 multiple choice questions at 55 per cent and four typed free response questions at 45 per cent. The four written questions are always the same four types: methods and control structures, class design, data analysis with ArrayList, and 2D arrays."
+      },
+      {
+        "type": "callout",
+        "calloutType": "warning",
+        "title": "The part of Principles that surprises people",
+        "text": "The Create program is not marked as a program. It is developed across the year and submitted, but the thirty percentage points come from what the student writes about it in the exam room, from memory and their reference document. A student who built something impressive with a lot of help cannot answer those questions, which is the single most common way a strong looking Principles candidate lands on a 3."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "The same task in both languages",
+        "id": "same-task-both-ways"
+      },
+      {
+        "type": "paragraph",
+        "text": "Here is a way to feel the difference rather than read about it. The Create task requires a program containing six specific things: a procedure you wrote that takes a parameter which affects what it does, a call to that procedure, a list, a use of that list, selection, and iteration. This is the whole of it, in Python."
+      },
+      {
+        "type": "code",
+        "language": "python",
+        "code": "def passing(scores, cutoff):\n    kept = []\n    for s in scores:\n        if s >= cutoff:\n            kept.append(s)\n    return kept\n\n\nmarks = [72, 45, 91, 58, 30]\nprint(passing(marks, 50))\nprint(passing(marks, 90))"
+      },
+      {
+        "type": "code",
+        "language": "text",
+        "code": "[72, 91, 58]\n[91]"
+      },
+      {
+        "type": "image",
+        "url": "/images/blog/ap-csp-vs-ap-csa-which-to-take-first/03-create-requirements.png",
+        "alt": "The Create performance task requirements mapped line by line onto a short Python program",
+        "caption": "Every Create task requirement, satisfied in eleven lines."
+      },
+      {
+        "type": "paragraph",
+        "text": "That program, or something no more complicated than it wrapped in a purpose a student can defend, meets the technical bar. What Principles then asks is whether the student can explain in writing why the procedure needs its parameter, what would break without the loop, and how they tested it. The programming is the small part."
+      },
+      {
+        "type": "paragraph",
+        "text": "Now the same task as Computer Science A would ask for it."
+      },
+      {
+        "type": "code",
+        "language": "java",
+        "code": "import java.util.ArrayList;\nimport java.util.List;\n\npublic class Passing {\n    public static List<Integer> passing(List<Integer> scores, int cutoff) {\n        List<Integer> kept = new ArrayList<Integer>();\n        for (int s : scores) {\n            if (s >= cutoff) {\n                kept.add(s);\n            }\n        }\n        return kept;\n    }\n\n    public static void main(String[] args) {\n        List<Integer> marks = List.of(72, 45, 91, 58, 30);\n        System.out.println(passing(marks, 50));\n        System.out.println(passing(marks, 90));\n    }\n}"
+      },
+      {
+        "type": "code",
+        "language": "text",
+        "code": "[72, 91, 58]\n[91]"
+      },
+      {
+        "type": "paragraph",
+        "text": "Identical output. Roughly three times the syntax, all of it typed from memory in a plain editor with no compiler and nothing underlining a missing semicolon. That is the actual difference between the two courses, and any student can decide which of those two pages they would rather spend a year on."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Which one to take first",
+        "id": "which-first"
+      },
+      {
+        "type": "image",
+        "url": "/images/blog/ap-csp-vs-ap-csa-which-to-take-first/04-which-first.png",
+        "alt": "Decision diagram for choosing between AP Computer Science Principles and Computer Science A first",
+        "caption": "One honest question decides the order for most students."
+      },
+      {
+        "type": "paragraph",
+        "text": "Here is the question we ask on the first free class, and it predicts the right order better than any test score: <strong>has this student ever written a program nobody asked them to write?</strong> A game, a bot, a script to rename files, anything at all that was their own idea."
+      },
+      {
+        "type": "list",
+        "style": "unordered",
+        "items": [
+          "<strong>If yes, take Computer Science A first.</strong> They will find Principles slow, and slow is the enemy of a fifteen year old's interest. Doing the Java year while the enthusiasm is live gets a 5 on the record early, and Principles afterwards becomes a comfortable second AP rather than a year of waiting.",
+          "<strong>If not yet, take Principles first.</strong> Not because it is easier, but because it builds two things the Java year assumes: the vocabulary to talk about programs, and the habit of finishing a project. A student who arrives at Computer Science A with those already in place has a far better shot at the 25 per cent than one arriving cold.",
+          "<strong>If the school only offers one, take that one.</strong> A well taught course with a teacher who knows the student beats the theoretically optimal choice studied alone, every time."
+        ]
+      },
+      {
+        "type": "paragraph",
+        "text": "Two things to sanity check before deciding. The exams are in the same window in May, so taking both in one year means preparing a project and a Java paper in the same spring, which is doable but not for a first year of programming. And credit policies differ from college to college, sometimes sharply, so it is worth ten minutes on the AP credit page of two or three colleges the student cares about before treating either course as a credit strategy."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "The mistake that costs a grade in each",
+        "id": "common-mistakes"
+      },
+      {
+        "type": "paragraph",
+        "text": "For <strong>Principles</strong>, it is leaving the Create task until March. The program has to be finished, filmed and documented before the deadline at the end of April, and a student who starts in March writes something they cannot explain under exam conditions six weeks later. Start it in the autumn, finish it by February, and spend the spring rehearsing the written responses about it."
+      },
+      {
+        "type": "paragraph",
+        "text": "For <strong>Computer Science A</strong>, it is treating the four free response questions as four unpredictable problems. They are four fixed types. A student who has written twenty classes to somebody else's written specification does not have to think on exam day, and the minutes that saves usually decide whether question 4 gets finished."
+      },
+      {
+        "type": "quote",
+        "text": "Nobody has ever regretted taking the Java course first because it was too hard. Plenty have drifted out of computing because the introductory course was too slow to hold them.",
+        "author": "What a decade of teaching both has taught us"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "How we teach both",
+        "id": "how-we-teach"
+      },
+      {
+        "type": "paragraph",
+        "text": "Our <a href='/ap-computer-science-principles-online-coaching'>AP Computer Science Principles coaching</a> spends most of its time on the two things that decide the grade, which are the written responses about the student's own program and the reading heavy multiple choice, rather than on building an impressive project. Our <a href='/ap-computer-science-a-online-classes'>AP Computer Science A classes</a> spend most of theirs inside collections, because collections decide close to half of that paper."
+      },
+      {
+        "type": "paragraph",
+        "text": "Every class is live, one to one or in a batch of five to eight students, taught from India to students worldwide. The first class is free, no card is asked for, and the single most useful thing to bring to it is the honest answer to the question above about programs nobody asked for."
+      },
+      {
+        "type": "button",
+        "text": "Book a free class and decide the order",
+        "url": "/ap-computer-science-principles-online-coaching",
+        "style": "primary"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Frequently asked questions",
+        "id": "faq"
+      },
+      {
+        "type": "accordion",
+        "items": [
+          {
+            "title": "Can a student take AP Computer Science A without taking Principles first?",
+            "content": "Yes, and many do. Principles is not a prerequisite for anything. Computer Science A starts from Java syntax and assumes no prior programming, only the ability to reason through a problem in ordered steps."
+          },
+          {
+            "title": "Which one do colleges prefer to see?",
+            "content": "Neither is universally preferred and anyone who tells you otherwise is guessing. What admissions readers respond to is evidence of sustained interest, so two years of computing beats one year of the theoretically better course. Credit policies are a separate question and vary by institution, so check the AP credit page of the specific colleges that matter to you."
+          },
+          {
+            "title": "Is AP Computer Science Principles worth taking at all if the 5 rate is that low?",
+            "content": "For most students, yes. A 3 or a 4 in Principles is still a pass and still shows a year of computing, and the Create task is genuine experience of finishing something. Just do not take it expecting it to be the easy 5, because the data is clear that it is not."
+          },
+          {
+            "title": "Which programming language should we use for the Create task?",
+            "content": "Whichever one the student can debug without help. Python is the most common choice because the code stays short enough to explain in a written response, which is what actually earns the marks. The task is language agnostic and no language earns bonus credit."
+          },
+          {
+            "title": "How many hours a week does each course need?",
+            "content": "Principles takes less week to week and then spikes hard around the Create task. Computer Science A is steadier, three to five hours a week including class, and the load does not drop until the exam. A student with a heavy spring of other commitments will find the Principles spike harder to survive than the Computer Science A grind."
+          },
+          {
+            "title": "Can both be taken in the same year?",
+            "content": "It is allowed and we would rarely advise it in a student's first year of programming. Both exams fall in the same May window, so the Create task deadline and the Java revision land on top of each other. For a student already programming confidently it is a reasonable double."
+          },
+          {
+            "title": "Does the Create task get marked by a person?",
+            "content": "The submitted program, video and reference are checked and used, but the thirty percentage points are earned by the written responses the student produces in the exam room about that program. This is why building something the student fully understands beats building something impressive."
+          }
+        ]
+      }
+    ]
+  },
+  "relatedPosts": [
+    "how-to-get-a-5-in-ap-computer-science-a",
+    "ap-computer-science-a-changes-2026",
+    "best-ai-coding-tools-for-students-2026"
+  ]
+}

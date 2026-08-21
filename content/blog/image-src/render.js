@@ -33,12 +33,17 @@ const FIT = async () => {
     // the footer bar on four figures in a row. So compute a first guess, then
     // MEASURE, and keep shrinking until the painted box is genuinely inside.
     fit.style.transform = 'none';
-    scale = Math.min(1, main.clientHeight / fit.scrollHeight, main.clientWidth / fit.scrollWidth);
+    // 10px of slack: box shadows and borders paint outside the measured box,
+    // and .main clips them, which reads as a cut-off card rather than a shadow
+    const PAD = 10;
+    scale = Math.min(1, (main.clientHeight - PAD) / fit.scrollHeight,
+                        (main.clientWidth - PAD) / fit.scrollWidth);
     for (let i = 0; i < 14; i++) {
       fit.style.transform = scale < 1 ? `scale(${scale.toFixed(4)})` : 'none';
       const m = main.getBoundingClientRect();
       const f = fit.getBoundingClientRect();
-      const over = Math.max(m.top - f.top, f.bottom - m.bottom, m.left - f.left, f.right - m.right);
+      const over = Math.max(m.top + PAD / 2 - f.top, f.bottom - (m.bottom - PAD / 2),
+                            m.left + PAD / 2 - f.left, f.right - (m.right - PAD / 2));
       if (over <= 0.5) { escapes = 0; break; }
       escapes = +over.toFixed(1);
       scale *= 0.97;
