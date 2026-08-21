@@ -197,8 +197,6 @@ Fees
 
 One flat pair of figures everywhere we teach outside India, in US dollars, charged monthly with no minimum term.
 
- @@
-
 Free first class
 
 USD 0
@@ -234,15 +232,13 @@ a month, billed in US dollars
 - The only way to get a weekday morning slot
 - Syllabus shaped to one objective
 
-Enquire@@
+Enquire
 
 What learners and families say
 
 ## Rated 4.9 across 547 Google reviews
 
 Real reviews from real families. We neither write nor commission them.
-
- @@
 
 ★★★★★
 
@@ -292,8 +288,6 @@ Ritu Kedia
 
 Parent
 
-@@
-
 The rest of the series
 
 ## The nine other pages in this series
@@ -305,8 +299,6 @@ Evaluation is what makes RAG and context engineering improvable rather than mere
 Questions about AI evaluation
 
 ## What learners ask about measuring AI
-
- @@
 
 ### What exactly is an eval set?
 
@@ -348,8 +340,6 @@ The habit does, and it is the same one taught throughout our machine learning co
 
 A mentor calls to arrange the free class. If you have an AI project already, bring it and three things it currently gets wrong, and we will write the first ten cases together in the session. That is usually the point at which the idea stops being abstract.
 
-@@
-
 Start
 
 ## Bring a project and three things it gets wrong
@@ -361,8 +351,6 @@ Rather read first? [RAG systems](/rag-systems-course), [context engineering](/co
 [WhatsApp us](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders.%20I%20am%20interested%20in%20learning%20how%20to%20evaluate%20AI%20systems%20properly.) · [+91 91233 66161](tel:+919123366161) · [contact@modernagecoders.com](mailto:contact@modernagecoders.com)
 
 We hold no premises anywhere. Every session is a live video call taught from India, and the number above rings in India. Sending the form opens a conversation rather than an enrolment, and holds no place in any batch.
-
- @@@@ [Chat with us](https://wa.me/919123366161?text=Hi%2C%20I'm%20interested%20in%20learning%20more%20about%20your%20courses!)
 
 ---
 

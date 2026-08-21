@@ -209,8 +209,6 @@ Fees
 
 The same flat pair of figures everywhere we teach outside India, in US dollars, monthly, with no minimum term. Three of the agent courses are private teaching only and priced accordingly.
 
- @@
-
 Free first class
 
 USD 0
@@ -246,15 +244,13 @@ a month, billed in US dollars
 - The only way to get a weekday morning slot
 - Syllabus shaped to one objective
 
-Enquire@@
+Enquire
 
 What learners and families say
 
 ## Rated 4.9 across 547 Google reviews
 
 Real reviews from real families. We neither write nor commission them.
-
- @@
 
 ★★★★★
 
@@ -304,8 +300,6 @@ Ritu Kedia
 
 Parent
 
-@@
-
 The rest of the series
 
 ## The nine other pages in this series
@@ -317,8 +311,6 @@ This page assumes the mechanism page. Evaluations is the natural companion, beca
 Questions about MCP
 
 ## What learners ask about MCP
-
- @@
 
 ### What is MCP in one sentence?
 
@@ -360,8 +352,6 @@ Python or TypeScript, chosen to match what the student already writes, because t
 
 A mentor calls to arrange the free class. For this course we usually spend it critiquing a real tool definition, because how somebody reacts to an under-specified description tells us immediately whether they are ready for this or should do the mechanism and agent material first.
 
-@@
-
 Start
 
 ## The free class is a critique, not a lecture
@@ -373,8 +363,6 @@ Rather read first? [How LLMs actually work](/how-llms-actually-work), [evaluatio
 [WhatsApp us](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders.%20I%20am%20interested%20in%20learning%20to%20build%20MCP%20servers.) · [+91 91233 66161](tel:+919123366161) · [contact@modernagecoders.com](mailto:contact@modernagecoders.com)
 
 We hold no premises anywhere. Every session is a live video call taught from India, and the number above rings in India. Sending the form opens a conversation rather than an enrolment, and holds no place in any batch.
-
- @@@@ [Chat with us](https://wa.me/919123366161?text=Hi%2C%20I'm%20interested%20in%20learning%20more%20about%20your%20courses!)
 
 ---
 

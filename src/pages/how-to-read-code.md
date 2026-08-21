@@ -206,8 +206,6 @@ Fees
 
 One flat pair of figures everywhere we teach outside India, billed in US dollars and charged monthly with no minimum term, so a family can stop at the end of any month.
 
- @@
-
 Free first class
 
 USD 0
@@ -243,15 +241,13 @@ a month, billed in US dollars
 - The only way to get a weekday morning slot
 - Syllabus shaped to one objective
 
-Enquire@@
+Enquire
 
 What learners and families say
 
 ## Rated 4.9 across 547 Google reviews
 
 Real reviews from real families. We neither write nor commission them.
-
- @@
 
 ★★★★★
 
@@ -301,8 +297,6 @@ Ritu Kedia
 
 Parent
 
-@@
-
 The rest of the series
 
 ## The nine other pages in this series
@@ -314,8 +308,6 @@ Reading pairs most directly with debugging and with agentic coding, which is rea
 Questions about reading code
 
 ## What learners and parents ask
-
- @@
 
 ### Can reading code really be taught, or is it just experience?
 
@@ -357,8 +349,6 @@ It is one of the most common one to one requests we get from working developers,
 
 A mentor calls to arrange the free class. For this one, bring code you did not write and do not understand, and we will read it together in the session. That is more useful than any assessment we could set, and it shows you immediately whether the method does anything for you.
 
-@@
-
 Start
 
 ## Bring code you do not understand
@@ -370,8 +360,6 @@ Rather read first? [How to debug code](/how-to-debug-code), [agentic coding](/ag
 [WhatsApp us](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders.%20I%20am%20interested%20in%20learning%20to%20read%20code%20properly.) · [+91 91233 66161](tel:+919123366161) · [contact@modernagecoders.com](mailto:contact@modernagecoders.com)
 
 We hold no premises anywhere. Every session is a live video call taught from India, and the number above rings in India. Sending the form opens a conversation rather than an enrolment, and holds no place in any batch.
-
- @@@@ [Chat with us](https://wa.me/919123366161?text=Hi%2C%20I'm%20interested%20in%20learning%20more%20about%20your%20courses!)
 
 ---
 

@@ -208,8 +208,6 @@ Fees
 
 One flat pair of figures everywhere we teach outside India, billed in US dollars, charged monthly with no minimum term. The tool subscriptions are the student's own and are not included.
 
- @@
-
 Free first class
 
 USD 0
@@ -245,15 +243,13 @@ a month, billed in US dollars
 - The only way to get a weekday morning slot
 - Syllabus shaped to one objective
 
-Enquire@@
+Enquire
 
 What learners and families say
 
 ## Rated 4.9 across 547 Google reviews
 
 Real reviews from real families. We neither write nor commission them.
-
- @@
 
 ★★★★★
 
@@ -303,8 +299,6 @@ Ritu Kedia
 
 Parent
 
-@@
-
 The rest of the series
 
 ## The nine other pages in this series
@@ -316,8 +310,6 @@ Each one takes a single idea seriously enough to be worth reading on its own. Re
 Questions about agentic coding
 
 ## What learners and parents ask
-
- @@
 
 ### Is this the same as vibe coding?
 
@@ -359,8 +351,6 @@ Then one to one is usually the right format and the syllabus starts from your co
 
 A mentor calls to arrange the free first class, which is taught rather than sold. For this course that session is normally the discount exercise on this page, done live, because how somebody behaves in the ten minutes after being shown plausible wrong code tells us more than any placement test.
 
-@@
-
 Start
 
 ## The free class is the exercise on this page, run live
@@ -372,8 +362,6 @@ Rather read first? [How to read code](/how-to-read-code), [how to debug code](/h
 [WhatsApp us](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders.%20I%20am%20interested%20in%20agentic%20coding%20classes.) · [+91 91233 66161](tel:+919123366161) · [contact@modernagecoders.com](mailto:contact@modernagecoders.com)
 
 We hold no premises anywhere. Every session is a live video call taught from India, and the number above rings in India. Sending the form opens a conversation rather than an enrolment, and holds no place in any batch.
-
- @@@@ [Chat with us](https://wa.me/919123366161?text=Hi%2C%20I'm%20interested%20in%20learning%20more%20about%20your%20courses!)
 
 ---
 

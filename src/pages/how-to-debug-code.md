@@ -204,8 +204,6 @@ Fees
 
 The same flat pair of figures everywhere we teach outside India, billed in US dollars, charged monthly with no minimum term and no enrolment fee.
 
- @@
-
 Free first class
 
 USD 0
@@ -241,15 +239,13 @@ a month, billed in US dollars
 - The only way to get a weekday morning slot
 - Syllabus shaped to one objective
 
-Enquire@@
+Enquire
 
 What learners and families say
 
 ## Rated 4.9 across 547 Google reviews
 
 Real reviews from real families. We neither write nor commission them.
-
- @@
 
 ★★★★★
 
@@ -299,8 +295,6 @@ Ritu Kedia
 
 Parent
 
-@@
-
 The rest of the series
 
 ## The nine other pages in this series
@@ -312,8 +306,6 @@ Debugging depends on reading, and applies directly to code an agent generated. T
 Questions about debugging
 
 ## What learners and parents ask
-
- @@
 
 ### Is debugging not just experience?
 
@@ -355,8 +347,6 @@ It is a frequent one to one request, generally from self-taught developers who w
 
 A mentor calls to arrange the free class. If you have something currently broken, bring it, because working a live defect together is far more useful than any prepared exercise, and it also shows you honestly whether the method changes anything for you before you pay for anything.
 
-@@
-
 Start
 
 ## Bring something that is currently broken
@@ -368,8 +358,6 @@ Rather read first? [How to read code](/how-to-read-code), [how to think like a p
 [WhatsApp us](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders.%20I%20am%20interested%20in%20learning%20to%20debug%20properly.) · [+91 91233 66161](tel:+919123366161) · [contact@modernagecoders.com](mailto:contact@modernagecoders.com)
 
 We hold no premises anywhere. Every session is a live video call taught from India, and the number above rings in India. Sending the form opens a conversation rather than an enrolment, and holds no place in any batch.
-
- @@@@ [Chat with us](https://wa.me/919123366161?text=Hi%2C%20I'm%20interested%20in%20learning%20more%20about%20your%20courses!)
 
 ---
 

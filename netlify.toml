@@ -7317,6 +7317,18 @@
   to = "/src/pages/how-llms-actually-work.md"
   status = 200
 
+# Global Build-AI cluster (ai-global.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/ap-computer-science-a-online-classes"
+  to = "/src/pages/ap-computer-science-a-online-classes.html"
+  status = 200
+
+[[redirects]]
+  from = "/ap-computer-science-a-online-classes.md"
+  to = "/src/pages/ap-computer-science-a-online-classes.md"
+  status = 200
+
 [[redirects]]
   from = "/*"
   to = "/src/pages/404.html"

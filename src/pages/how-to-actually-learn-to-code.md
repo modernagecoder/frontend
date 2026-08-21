@@ -203,8 +203,6 @@ Fees
 
 One flat pair of figures everywhere we teach outside India, in US dollars, monthly, no minimum term. You can stop at the end of any month, which is why we can afford to tell you when we are the wrong fit.
 
- @@
-
 Free first class
 
 USD 0
@@ -240,15 +238,13 @@ a month, billed in US dollars
 - The only way to get a weekday morning slot
 - Syllabus shaped to one objective
 
-Enquire@@
+Enquire
 
 What learners and families say
 
 ## Rated 4.9 across 547 Google reviews
 
 Real reviews from real families. We neither write nor commission them.
-
- @@
 
 ★★★★★
 
@@ -298,8 +294,6 @@ Ritu Kedia
 
 Parent
 
-@@
-
 The rest of the series
 
 ## The nine other pages in this series
@@ -311,8 +305,6 @@ This page is about how skill is built. The thinking, reading and debugging pages
 Questions about learning to code
 
 ## What learners and parents ask
-
- @@
 
 ### Are you saying tutorials are useless?
 
@@ -354,8 +346,6 @@ Everything on this page applies unchanged, with one difference: adults are far m
 
 A mentor calls to arrange the free class. That session deliberately includes a moment where you are stuck and we do not immediately rescue you, because how that feels is the single most useful thing to know before committing to anything. If you hate it, that is real information and it has cost you nothing.
 
-@@
-
 Start
 
 ## The free class includes being stuck. On purpose.
@@ -367,8 +357,6 @@ Rather read first? [Which language first](/coding-roadmap), [how to think like a
 [WhatsApp us](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders.%20I%20am%20trying%20to%20work%20out%20how%20to%20actually%20learn%20to%20code%20properly.) · [+91 91233 66161](tel:+919123366161) · [contact@modernagecoders.com](mailto:contact@modernagecoders.com)
 
 We hold no premises anywhere. Every session is a live video call taught from India, and the number above rings in India. Sending the form opens a conversation rather than an enrolment, and holds no place in any batch.
-
- @@@@ [Chat with us](https://wa.me/919123366161?text=Hi%2C%20I'm%20interested%20in%20learning%20more%20about%20your%20courses!)
 
 ---
 

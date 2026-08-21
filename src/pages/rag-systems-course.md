@@ -211,8 +211,6 @@ Fees
 
 One flat pair of figures everywhere we teach outside India, billed in US dollars, monthly, no minimum term and no enrolment fee.
 
- @@
-
 Free first class
 
 USD 0
@@ -248,15 +246,13 @@ a month, billed in US dollars
 - The only way to get a weekday morning slot
 - Syllabus shaped to one objective
 
-Enquire@@
+Enquire
 
 What learners and families say
 
 ## Rated 4.9 across 547 Google reviews
 
 Real reviews from real families. We neither write nor commission them.
-
- @@
 
 ★★★★★
 
@@ -306,8 +302,6 @@ Ritu Kedia
 
 Parent
 
-@@
-
 The rest of the series
 
 ## The nine other pages in this series
@@ -319,8 +313,6 @@ RAG depends on the mechanism page and is impossible to improve without the evalu
 Questions about RAG
 
 ## What learners ask about retrieval systems
-
- @@
 
 ### What is RAG, plainly?
 
@@ -362,8 +354,6 @@ In the course, nothing sensitive goes anywhere: students use their own material 
 
 A mentor calls to arrange the free class. Bring a corpus you know well and a few questions you would want answered from it, and we will look at how it should be chunked. That conversation is usually more informative about the difficulty of your particular problem than anything we could tell you in advance.
 
-@@
-
 Start
 
 ## Bring a set of documents and three real questions
@@ -375,8 +365,6 @@ Rather read first? [Evaluations](/ai-evaluations-course), [context engineering](
 [WhatsApp us](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders.%20I%20am%20interested%20in%20learning%20to%20build%20RAG%20systems%20properly.) · [+91 91233 66161](tel:+919123366161) · [contact@modernagecoders.com](mailto:contact@modernagecoders.com)
 
 We hold no premises anywhere. Every session is a live video call taught from India, and the number above rings in India. Sending the form opens a conversation rather than an enrolment, and holds no place in any batch.
-
- @@@@ [Chat with us](https://wa.me/919123366161?text=Hi%2C%20I'm%20interested%20in%20learning%20more%20about%20your%20courses!)
 
 ---
 

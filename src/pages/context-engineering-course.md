@@ -197,8 +197,6 @@ Fees
 
 The same flat pair of figures everywhere we teach outside India, in US dollars, monthly, with no minimum term and no enrolment fee.
 
- @@
-
 Free first class
 
 USD 0
@@ -234,15 +232,13 @@ a month, billed in US dollars
 - The only way to get a weekday morning slot
 - Syllabus shaped to one objective
 
-Enquire@@
+Enquire
 
 What learners and families say
 
 ## Rated 4.9 across 547 Google reviews
 
 Real reviews from real families. We neither write nor commission them.
-
- @@
 
 ★★★★★
 
@@ -292,8 +288,6 @@ Ritu Kedia
 
 Parent
 
-@@
-
 The rest of the series
 
 ## The nine other pages in this series
@@ -305,8 +299,6 @@ This page sits between the mechanism, which explains why the window is all there
 Questions about context engineering
 
 ## What learners ask about context
-
- @@
 
 ### How is this different from prompt engineering?
 
@@ -348,8 +340,6 @@ They solve different problems and are often confused. Fine-tuning changes behavi
 
 A mentor calls to arrange the free class. Bring a system prompt you currently use, however rough, and we will look at what is in it and what is missing. That conversation usually surfaces two or three decisions the author did not realise they had made.
 
-@@
-
 Start
 
 ## Bring a prompt you already use
@@ -361,8 +351,6 @@ Rather read first? [How LLMs actually work](/how-llms-actually-work), [RAG syste
 [WhatsApp us](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders.%20I%20am%20interested%20in%20learning%20context%20engineering%20properly.) · [+91 91233 66161](tel:+919123366161) · [contact@modernagecoders.com](mailto:contact@modernagecoders.com)
 
 We hold no premises anywhere. Every session is a live video call taught from India, and the number above rings in India. Sending the form opens a conversation rather than an enrolment, and holds no place in any batch.
-
- @@@@ [Chat with us](https://wa.me/919123366161?text=Hi%2C%20I'm%20interested%20in%20learning%20more%20about%20your%20courses!)
 
 ---
 

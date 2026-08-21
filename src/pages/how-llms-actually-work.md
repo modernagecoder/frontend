@@ -202,8 +202,6 @@ Fees
 
 The same flat pair of figures everywhere we teach outside India, in US dollars, charged monthly with no minimum term.
 
- @@
-
 Free first class
 
 USD 0
@@ -239,15 +237,13 @@ a month, billed in US dollars
 - The only way to get a weekday morning slot
 - Syllabus shaped to one objective
 
-Enquire@@
+Enquire
 
 What learners and families say
 
 ## Rated 4.9 across 547 Google reviews
 
 Real reviews from real families. We neither write nor commission them.
-
- @@
 
 ★★★★★
 
@@ -297,8 +293,6 @@ Ritu Kedia
 
 Parent
 
-@@
-
 The rest of the series
 
 ## The nine other pages in this series
@@ -310,8 +304,6 @@ This page is the mechanism. Context engineering, RAG and evaluation are the thre
 Questions about how LLMs work
 
 ## What learners and parents ask
-
- @@
 
 ### Does the model understand what it is saying?
 
@@ -353,8 +345,6 @@ This is the foundation those courses assume. The machine learning track goes on 
 
 A mentor calls to arrange the free class. For this topic the session is usually spent making a model fail live, on purpose, in two or three of the ways this page predicts, because watching the mechanism produce a specific wrong answer teaches more than any explanation of it, including this one.
 
-@@
-
 Start
 
 ## The free class is spent making it fail, deliberately
@@ -366,8 +356,6 @@ Rather read first? [Context engineering](/context-engineering-course), [RAG syst
 [WhatsApp us](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders.%20I%20am%20trying%20to%20understand%20how%20language%20models%20actually%20work.) · [+91 91233 66161](tel:+919123366161) · [contact@modernagecoders.com](mailto:contact@modernagecoders.com)
 
 We hold no premises anywhere. Every session is a live video call taught from India, and the number above rings in India. Sending the form opens a conversation rather than an enrolment, and holds no place in any batch.
-
- @@@@ [Chat with us](https://wa.me/919123366161?text=Hi%2C%20I'm%20interested%20in%20learning%20more%20about%20your%20courses!)
 
 ---
 
