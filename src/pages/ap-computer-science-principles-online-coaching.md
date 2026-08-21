@@ -6,10 +6,6 @@ source: src/pages/ap-computer-science-principles-online-coaching.html
 ---
 > Thirty per cent of AP CSP is written about your project in the exam room, in 60 minutes. Live online coaching that prepares the writing, not just the code.
 
-The short answer
-
-AP Computer Science Principles is College Board's broad, language-agnostic computing course. The end-of-course exam is 70 multiple-choice questions in 120 minutes, worth 70 per cent: 57 single-select, 5 single-select attached to a reading passage, and 8 multiple-select. The Create Performance Task, which students build across the year with nine hours of in-class time, is worth the other 30 per cent, but it is assessed by two written-response questions in the same exam session, in 60 minutes, covering four distinct prompts, with only the student's Personalized Project Reference available. Modern Age Coders teaches it live online, one to one or in batches of five to eight, from USD 100 a month, first class free.
-
 The course
 
 ## AP Computer Science Principles, taught live and paced to your entry date
@@ -28,6 +24,10 @@ One course, two formats. A batch of five to eight students working toward the sa
 | Trial | First class free, no card | First class free, no card |
 
 [Open the full syllabus](/courses/ap-computer-science-principles-exam-prep-course) Book the free first class
+
+The short answer
+
+AP Computer Science Principles is College Board's broad, language-agnostic computing course. The end-of-course exam is 70 multiple-choice questions in 120 minutes, worth 70 per cent: 57 single-select, 5 single-select attached to a reading passage, and 8 multiple-select. The Create Performance Task, which students build across the year with nine hours of in-class time, is worth the other 30 per cent, but it is assessed by two written-response questions in the same exam session, in 60 minutes, covering four distinct prompts, with only the student's Personalized Project Reference available. Modern Age Coders teaches it live online, one to one or in batches of five to eight, from USD 100 a month, first class free.
 
 Module by module
 

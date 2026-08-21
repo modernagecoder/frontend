@@ -6,10 +6,6 @@ source: src/pages/ap-computer-science-a-online-classes.html
 ---
 > Data collections is close to half of AP CSA. Live online Java classes, one to one or small batch, built around the units College Board weights heaviest.
 
-The short answer
-
-AP Computer Science A is College Board's Java programming course. The exam is three hours and taken digitally: 42 multiple-choice questions worth 55 per cent and four free-response questions worth 45 per cent. The four free-response items are Methods and Control Structures, Class Design, Data Analysis with ArrayList and 2D Arrays. The four units are weighted Using Objects and Methods 15 to 25 per cent, Selection and Iteration 25 to 35 per cent, Class Creation 10 to 18 per cent and Data Collections 30 to 40 per cent, which makes collections close to half the paper once the two written questions are counted. Modern Age Coders teaches it live online, one to one or in batches of five to eight, from USD 100 a month, with the first class free.
-
 The course
 
 ## AP Computer Science A, taught live and paced to your entry date
@@ -28,6 +24,10 @@ One course, two formats. A batch of five to eight students who sit the same pape
 | First class | Free, no card | Free, no card |
 
 [Open the full syllabus](/courses/ap-computer-science-a-java-exam-prep-course) Book the free first class
+
+The short answer
+
+AP Computer Science A is College Board's Java programming course. The exam is three hours and taken digitally: 42 multiple-choice questions worth 55 per cent and four free-response questions worth 45 per cent. The four free-response items are Methods and Control Structures, Class Design, Data Analysis with ArrayList and 2D Arrays. The four units are weighted Using Objects and Methods 15 to 25 per cent, Selection and Iteration 25 to 35 per cent, Class Creation 10 to 18 per cent and Data Collections 30 to 40 per cent, which makes collections close to half the paper once the two written questions are counted. Modern Age Coders teaches it live online, one to one or in batches of five to eight, from USD 100 a month, with the first class free.
 
 Module by module
 
