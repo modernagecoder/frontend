@@ -1,10 +1,10 @@
 ---
 title: "USACO Preparation Online Coaching | Bronze to Platinum"
-description: "USACO is a promotion ladder, not an exam. Everyone starts in Bronze and the only target that matters is the next cutoff. Live online coaching, one to one or batch."
+description: "USACO is a promotion ladder, not an exam. Everyone starts in Bronze and the only target that counts is the next cutoff. Live coaching, one to one or batch."
 canonical: https://learn.modernagecoders.com/usaco-preparation-online-coaching
 source: src/pages/usaco-preparation-online-coaching.html
 ---
-> USACO is a promotion ladder, not an exam. Everyone starts in Bronze and the only target that matters is the next cutoff. Live online coaching, one to one or batch.
+> USACO is a promotion ladder, not an exam. Everyone starts in Bronze and the only target that counts is the next cutoff. Live coaching, one to one or batch.
 
 The course
 
@@ -487,7 +487,7 @@ The other nine
 
 Most USACO students are sitting a school qualification at the same time. These are the ones we teach alongside it.
 
-[AP Computer Science AJava](/ap-computer-science-a-online-classes)[AP Computer Science PrinciplesAny language](/ap-computer-science-principles-online-coaching)[Cambridge IGCSE 0478Python, VB, Java](/cambridge-igcse-computer-science-tuition)[Cambridge A Level 9618Python, VB, Java](/cambridge-a-level-computer-science-online-classes)[UK GCSE Computer SciencePython](/uk-gcse-computer-science-tutoring)[IB Diploma Computer ScienceJava or Python](/ib-computer-science-online-tuition)
+[AP Computer Science AJava](/ap-computer-science-a-online-classes)[AP Computer Science PrinciplesAny language](/ap-computer-science-principles-online-coaching)[Cambridge IGCSE 0478Python, VB, Java](/cambridge-igcse-computer-science-tuition)[Cambridge A Level 9618Python, VB, Java](/cambridge-a-level-computer-science-online-classes)[UK GCSE Computer SciencePython](/uk-gcse-computer-science-tutoring)[IB Diploma Computer ScienceJava or Python](/ib-computer-science-online-tuition)[Informatics olympiadsC++](/ioi-olympiad-informatics-training)
 
 USACO questions
 

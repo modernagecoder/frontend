@@ -1762,4 +1762,8 @@
 # Global Build-AI cluster (ai-global.css). Inserted before the /* catch-all.
 /usaco-preparation-online-coaching /src/pages/usaco-preparation-online-coaching.html 200
 /usaco-preparation-online-coaching.md /src/pages/usaco-preparation-online-coaching.md 200
+
+# Global Build-AI cluster (ai-global.css). Inserted before the /* catch-all.
+/ioi-olympiad-informatics-training /src/pages/ioi-olympiad-informatics-training.html 200
+/ioi-olympiad-informatics-training.md /src/pages/ioi-olympiad-informatics-training.md 200
 /* /src/pages/404.html 404
