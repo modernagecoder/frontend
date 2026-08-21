@@ -1,0 +1,481 @@
+{
+  "meta": {
+    "slug": "cambridge-a-level-computer-science-9618-course",
+    "taxonomy": "programming",
+    "title": "Cambridge AS and A Level Computer Science 9618 Course",
+    "description": "Live online Cambridge AS and A Level Computer Science 9618 classes across all four papers, including the split most students are unprepared for: Paper 2 does not require program code, and Paper 4 is nothing but.",
+    "keywords": [
+      "cambridge a level computer science 9618",
+      "9618 computer science tuition online",
+      "as level computer science 9618 classes",
+      "a level computer science paper 4 practical",
+      "cambridge 9618 pseudocode paper 2",
+      "a level computer science online tutor",
+      "caie computer science a level course",
+      "9618 exam preparation classes"
+    ],
+    "category": "A Level Computer Science",
+    "price": {
+      "group": "₹1,499/month",
+      "miniBatch": "₹2,999/month",
+      "personal": "₹4,999/month"
+    },
+    "duration": "9 months (36 weeks) for the full A Level, joinable any month",
+    "level": "Cambridge AS and A Level students on 9618; an IGCSE Computer Science background helps but is not required",
+    "commitment": "2 live classes/week + weekly programming and past-paper practice",
+    "certification": "Course-completion certificate from Modern Age Coders",
+    "image_path": "a-level-computer-science.webp",
+    "date": "2026-08-21",
+    "dateModified": "2026-08-21"
+  },
+
+  "program_overview": {
+    "title": "Four papers, and two of them want opposite things",
+    "description": "Cambridge 9618 examines through four papers of 75 marks each. AS candidates sit Papers 1 and 2; A Level candidates sit all four. The structural fact that catches most students is the relationship between Paper 2 and Paper 4. Paper 2, Fundamental Problem-solving and Programming Skills, states that candidates will not be required to write programming code, and provides an Insert with pseudocode built-in functions. Paper 4, Practical, is programming and nothing else, based around a small number of scenarios, with program code and evidence of testing submitted. The same qualification therefore asks a student to reason about programs without writing them, and then to write nothing but programs. Preparing for one does not prepare for the other, and this course treats them as the two separate disciplines they are."
+  },
+
+  "phase_1_as_theory_foundations": {
+    "title": "PHASE 1: AS Theory Fundamentals, Paper 1 (Months 1-3)",
+    "description": "Sections 1 to 8 of the syllabus: how data is represented, how the machine works, and the vocabulary Paper 1 marks against.",
+    "month_1_data_and_hardware": {
+      "title": "Month 1: Information Representation and Hardware",
+      "weeks": "Weeks 1-4",
+      "week_1": {
+        "title": "Number Systems and Data Representation",
+        "topics": [
+          "Binary, denary and hexadecimal, converted quickly in both directions",
+          "Two's complement, binary addition and subtraction, and overflow",
+          "Binary coded decimal and where it is genuinely used",
+          "Character sets, and the size calculations that follow"
+        ]
+      },
+      "week_2": {
+        "title": "Images, Sound and Compression",
+        "topics": [
+          "Bitmap and vector images, resolution and colour depth",
+          "Sample rate, bit depth and the file-size calculations examiners set",
+          "Lossy and lossless compression with a defensible reason for each",
+          "The exact wording that earns marks in a comparison question"
+        ]
+      },
+      "week_3": {
+        "title": "Computer Architecture and the Processor",
+        "topics": [
+          "Von Neumann architecture, registers and buses",
+          "The fetch-decode-execute cycle, sequenced and explained precisely",
+          "Interrupts, and how they change the cycle",
+          "Assembly language and addressing modes as the syllabus treats them"
+        ]
+      },
+      "week_4": {
+        "title": "Input, Output and Storage",
+        "topics": [
+          "Devices, and what each is genuinely suited to",
+          "Primary, secondary and offline storage compared",
+          "RAID, and why redundancy is not the same as backup",
+          "First timed set of Paper 1 style questions"
+        ]
+      }
+    },
+    "month_2_networks_and_security": {
+      "title": "Month 2: Networks, the Internet and Security",
+      "weeks": "Weeks 5-8",
+      "week_5": {
+        "title": "Networks and Topologies",
+        "topics": [
+          "LAN, WAN, client-server and peer-to-peer",
+          "Hardware, protocols and the layered model",
+          "Bit streaming, and the bandwidth calculations that go with it",
+          "The internet, and what a URL actually resolves to"
+        ]
+      },
+      "week_6": {
+        "title": "Security, Privacy and Data Integrity",
+        "topics": [
+          "Threats named precisely, and matched to their mitigations",
+          "Encryption, symmetric and asymmetric, with the key exchange explained",
+          "Digital certificates, signatures and SSL as an examined chain",
+          "Validation and verification, distinguished as the syllabus distinguishes them"
+        ]
+      },
+      "week_7": {
+        "title": "Ethics, Ownership and Legal Context",
+        "topics": [
+          "Copyright, licensing and the models compared",
+          "Professional conduct as the syllabus frames it",
+          "Structuring an extended answer that reaches the top band",
+          "Both sides, then a supported judgement"
+        ]
+      },
+      "week_8": {
+        "title": "Databases and Data Modelling",
+        "topics": [
+          "Relational databases, keys, normalisation to third normal form",
+          "Entity relationship modelling, drawn as the paper expects",
+          "SQL: DDL and DML, written correctly under exam conditions",
+          "Why normalisation questions reward method over memory"
+        ]
+      }
+    },
+    "month_3_paper_1_mastery": {
+      "title": "Month 3: Paper 1 Technique and Full Papers",
+      "weeks": "Weeks 9-12",
+      "week_9": {
+        "title": "Command Words and Mark Schemes",
+        "topics": [
+          "State, describe, explain and evaluate as Cambridge uses them",
+          "Answering to the mark allocation rather than to the topic",
+          "Marking your own work against the real scheme",
+          "Correct ideas that the scheme does not credit, and why"
+        ]
+      },
+      "week_10": {
+        "title": "Boolean Logic and Logic Circuits",
+        "topics": [
+          "Gates, expressions, truth tables and simplification",
+          "Karnaugh maps where the syllabus requires them",
+          "Drawing circuits with the specified symbols",
+          "Reliable marks, treated as reliable marks"
+        ]
+      },
+      "week_11": {
+        "title": "Full Paper 1, Marked and Reviewed",
+        "topics": [
+          "A complete 75-mark paper under exam conditions",
+          "Detailed review of every lost mark with the reason named",
+          "A revision list built from actual errors, not from the topic list",
+          "Retesting the same question types a fortnight later"
+        ]
+      },
+      "week_12": {
+        "title": "Targeted Repair on Sections 1 to 8",
+        "topics": [
+          "Rebuilding the two or three areas the mock exposed",
+          "Number-system arithmetic drilled back to automatic",
+          "Extended responses rewritten to the band descriptors",
+          "Short daily retrieval rather than long revision blocks"
+        ]
+      }
+    }
+  },
+
+  "phase_2_paper_2_reasoning_without_code": {
+    "title": "PHASE 2: Paper 2, Reasoning About Programs Without Writing Them (Months 4-6)",
+    "description": "Sections 9 to 12. The paper that states candidates will not be required to write programming code, and supplies an Insert of pseudocode built-in functions. A separate discipline from Paper 4, and taught as one.",
+    "month_4_algorithms_and_pseudocode": {
+      "title": "Month 4: Algorithm Design and Cambridge Pseudocode",
+      "weeks": "Weeks 13-16",
+      "week_13": {
+        "title": "Pseudocode as the Language of This Paper",
+        "topics": [
+          "Cambridge pseudocode conventions, written exactly as specified",
+          "Using the Insert of built-in functions rather than inventing names",
+          "Why a personal style costs marks even when the logic is correct",
+          "Selection, iteration and assignment in the expected format"
+        ]
+      },
+      "week_14": {
+        "title": "Structure Charts, Flowcharts and Decomposition",
+        "topics": [
+          "Breaking a problem into modules the way the paper assesses it",
+          "Structure charts with parameters shown correctly",
+          "Flowchart symbols exactly as the syllabus specifies",
+          "Stepwise refinement, examined directly"
+        ]
+      },
+      "week_15": {
+        "title": "Trace Tables and Predicting Output",
+        "topics": [
+          "Completing a trace table for an unfamiliar algorithm",
+          "Identifying the purpose of an algorithm from its trace",
+          "Finding the deliberate error the question has planted",
+          "Writing it down rather than tracing in the head"
+        ]
+      },
+      "week_16": {
+        "title": "Standard Algorithms and Data Structures",
+        "topics": [
+          "Linear and binary search, bubble and insertion sort in pseudocode",
+          "Records, arrays and files as the syllabus treats them",
+          "Abstract data types: stack, queue and linked list operations",
+          "Timed Paper 2 questions on each"
+        ]
+      }
+    },
+    "month_5_programming_concepts": {
+      "title": "Month 5: Programming Concepts Without Code",
+      "weeks": "Weeks 17-20",
+      "week_17": {
+        "title": "Subroutines, Parameters and Scope",
+        "topics": [
+          "Procedures and functions, by value and by reference",
+          "Local and global scope, a reliable short-answer topic",
+          "Designing an interface before writing anything",
+          "Reading a specification and reasoning about it"
+        ]
+      },
+      "week_18": {
+        "title": "File Handling and Exception Handling",
+        "topics": [
+          "Serial, sequential, random and direct access files",
+          "File operations in pseudocode with the correct built-in functions",
+          "Exception handling as the syllabus describes it",
+          "Test data: normal, boundary and erroneous"
+        ]
+      },
+      "week_19": {
+        "title": "Software Development Life Cycle",
+        "topics": [
+          "Analysis, design, coding, testing and maintenance",
+          "Development models compared, with a reason for choosing one",
+          "Program testing strategies and corrective maintenance",
+          "Extended-response structure on this recurring topic"
+        ]
+      },
+      "week_20": {
+        "title": "Full Paper 2, Marked and Reviewed",
+        "topics": [
+          "A complete 75-mark paper under exam conditions",
+          "Marked against the real scheme rather than against intent",
+          "Confirming pseudocode is written in the expected conventions",
+          "Naming the specific habits costing marks"
+        ]
+      }
+    },
+    "month_6_as_consolidation": {
+      "title": "Month 6: AS Level Consolidation",
+      "weeks": "Weeks 21-24",
+      "week_21": {
+        "title": "Both AS Papers Together",
+        "topics": [
+          "Papers 1 and 2 in the same week, as the series presents them",
+          "Pacing across two 75-mark papers",
+          "Identifying which of the two carries the remaining risk",
+          "Directing the final weeks at the weaker one"
+        ]
+      },
+      "week_22": {
+        "title": "Cross-Topic Questions",
+        "topics": [
+          "Questions that span sections, which students meet unprepared",
+          "Databases plus SQL plus data integrity in one question",
+          "Networks plus security plus encryption in one question",
+          "Recognising the shape rather than the topic"
+        ]
+      },
+      "week_23": {
+        "title": "Second Full AS Set",
+        "topics": [
+          "Both papers again from a different series",
+          "Measuring improvement question type by question type",
+          "Confirming that pacing holds on unfamiliar questions",
+          "Final list of what still costs marks"
+        ]
+      },
+      "week_24": {
+        "title": "AS Readiness",
+        "topics": [
+          "A short specific plan for the final fortnight",
+          "What is provided in each paper and what is not",
+          "The first five minutes of each paper",
+          "Walking in with the format already familiar"
+        ]
+      }
+    }
+  },
+
+  "phase_3_a_level_advanced_and_practical": {
+    "title": "PHASE 3: A Level Papers 3 and 4 (Months 7-9)",
+    "description": "Sections 13 to 20. Advanced theory, and then the practical paper where program code and evidence of testing are submitted.",
+    "month_7_advanced_theory": {
+      "title": "Month 7: Advanced Theory, Paper 3",
+      "weeks": "Weeks 25-28",
+      "week_25": {
+        "title": "Data Representation and Communication, Extended",
+        "topics": [
+          "Floating-point representation, normalisation and precision",
+          "Bit manipulation and the operations the syllabus names",
+          "Protocols and circuit switching against packet switching",
+          "Questions that combine representation with arithmetic"
+        ]
+      },
+      "week_26": {
+        "title": "Hardware, Virtual Machines and Operating Systems",
+        "topics": [
+          "Processor scheduling, interrupts and virtual memory",
+          "Paging, segmentation and thrashing explained precisely",
+          "Virtual machines, and the trade-offs examiners ask about",
+          "Translation software and the stages of compilation"
+        ]
+      },
+      "week_27": {
+        "title": "Security, Artificial Intelligence and Emerging Content",
+        "topics": [
+          "Encryption and protocols at A Level depth",
+          "Artificial intelligence as the syllabus frames it",
+          "Machine learning concepts at the level the paper expects",
+          "The newest content, where past questions are thinnest"
+        ]
+      },
+      "week_28": {
+        "title": "Advanced Algorithms and Data Structures",
+        "topics": [
+          "Binary trees, traversal, hash tables and dictionaries",
+          "Recursion, traced as well as written",
+          "Big O reasoning at the level the syllabus requires",
+          "Timed Paper 3 questions on each"
+        ]
+      }
+    },
+    "month_8_practical_programming": {
+      "title": "Month 8: Paper 4 Practical, Sections 19 to 20",
+      "weeks": "Weeks 29-32",
+      "week_29": {
+        "title": "From Pseudocode to Working Code",
+        "topics": [
+          "The transition Paper 4 demands and Paper 2 forbids",
+          "Choosing the language and committing to it",
+          "Setting up the environment so the exam format is familiar",
+          "Writing code that runs, from a scenario, from nothing"
+        ]
+      },
+      "week_30": {
+        "title": "Object-Oriented Programming",
+        "topics": [
+          "Classes, inheritance, polymorphism and encapsulation in code",
+          "Implementing from a described design without deviating",
+          "Where the practical paper expects object orientation",
+          "Common errors that cost working marks"
+        ]
+      },
+      "week_31": {
+        "title": "Files, Data Structures and Recursion in Practice",
+        "topics": [
+          "Implementing stacks, queues and linked lists that actually run",
+          "File handling in the chosen language against the scenario",
+          "Recursion implemented, tested and evidenced",
+          "Programs written to a scenario rather than to a topic"
+        ]
+      },
+      "week_32": {
+        "title": "Evidence of Testing",
+        "topics": [
+          "What must be submitted alongside the program code",
+          "Producing test evidence that demonstrates the program works",
+          "Screenshots and output as the paper requires them",
+          "Practising submission, not just programming"
+        ]
+      }
+    },
+    "month_9_full_a_level_preparation": {
+      "title": "Month 9: All Four Papers",
+      "weeks": "Weeks 33-36",
+      "week_33": {
+        "title": "Full Paper 3 Under Time",
+        "topics": [
+          "A complete 75-mark advanced theory paper",
+          "Marked to the real scheme, reviewed mark by mark",
+          "Identifying whether theory or practical is the risk",
+          "A repair list from actual errors"
+        ]
+      },
+      "week_34": {
+        "title": "Full Paper 4 Under Time",
+        "topics": [
+          "A complete practical paper with code and test evidence submitted",
+          "Working under time pressure with a compiler and a scenario",
+          "Reviewing what did not run and why",
+          "Repeating the scenario type until it is routine"
+        ]
+      },
+      "week_35": {
+        "title": "Second Full Set of Both",
+        "topics": [
+          "Papers 3 and 4 again from a different series",
+          "Measuring improvement question by question",
+          "Confirming the practical workflow holds under time",
+          "The last specific list of what still costs marks"
+        ]
+      },
+      "week_36": {
+        "title": "Exam Readiness",
+        "topics": [
+          "A short specific plan for the final fortnight",
+          "What each paper provides and what it does not",
+          "The first five minutes of the practical paper",
+          "Walking in with all four formats already familiar"
+        ]
+      }
+    }
+  },
+
+  "prerequisites": {
+    "title": "What a Student Needs to Start",
+    "items": [
+      "Enrolment on Cambridge AS or A Level Computer Science 9618, or about to begin it",
+      "An IGCSE Computer Science background helps but is genuinely not required; the course starts from the syllabus",
+      "Comfort with algebra and with arithmetic, because number systems and floating point are unforgiving",
+      "A computer able to run a programming environment, which we help set up in the first class",
+      "For A Level candidates, a decision about the programming language for Paper 4, which we help make"
+    ]
+  },
+
+  "who_is_this_for": {
+    "title": "Who This Course Is For",
+    "items": [
+      "AS students taking Papers 1 and 2 in the same series",
+      "A Level students staged over two years, carrying an AS result forward",
+      "A Level students taking all four papers in one series",
+      "Students who can reason about algorithms but freeze when Paper 4 asks for working code",
+      "Students who can program fluently and lose marks on Paper 2 by writing code where pseudocode was wanted",
+      "Students moving into 9618 from an IGCSE or a GCSE and finding the step considerable"
+    ]
+  },
+
+  "career_paths_after_completion": [
+    "A strong AS or A Level Computer Science grade across all papers taken",
+    "A genuine programming ability, evidenced by Paper 4 rather than claimed",
+    "A foundation for a computer science degree that assumes data structures and recursion",
+    "The pseudocode and design habits that university algorithms courses assume",
+    "A portfolio of working programs if the practical work is committed as it is written"
+  ],
+
+  "course_guarantees": {
+    "title": "Our Commitment to You",
+    "items": [
+      "Every class is live and small, taught by a real mentor, never a recorded video watched alone",
+      "Paper 2 and Paper 4 are taught as the two separate disciplines they are, because the syllabus treats them that way",
+      "Past papers are marked against the real Cambridge mark scheme rather than against intent",
+      "Practical work is written and tested by the student, never by us",
+      "We will tell you honestly which paper carries the remaining risk and aim the final weeks at it",
+      "We do not guarantee a grade, because nobody can, and any provider who offers one is selling something they cannot deliver"
+    ]
+  },
+
+  "faqs": [
+    {
+      "question": "How is Cambridge 9618 assessed?",
+      "answer": "By four papers of 75 marks each. Paper 1 is Theory Fundamentals, covering syllabus sections 1 to 8. Paper 2 is Fundamental Problem-solving and Programming Skills, sections 9 to 12. Paper 3 is Advanced Theory, sections 13 to 20. Paper 4 is Practical, covering the practical application of sections 19 to 20. AS candidates take Papers 1 and 2; A Level candidates take all four."
+    },
+    {
+      "question": "Is it true Paper 2 does not require writing code?",
+      "answer": "Yes. The syllabus states that candidates will not be required to write programming code in Paper 2, and candidates are provided with an Insert containing pseudocode built-in functions. Paper 4, by contrast, is programming and nothing else, based around a small number of scenarios with program code and evidence of testing submitted. Preparing for one does not prepare for the other."
+    },
+    {
+      "question": "Which programming language should we choose for Paper 4?",
+      "answer": "The language should be chosen early and then committed to, because Paper 4 rewards fluency under time and switching late wastes the practice already done. We will discuss the options against what the school teaches and what the student is heading toward, and then we stay in that language for the whole practical phase."
+    },
+    {
+      "question": "My child programs well but loses marks on Paper 2. Why?",
+      "answer": "Almost always because they are writing program code where the paper wanted pseudocode in Cambridge conventions, or inventing function names instead of using the ones supplied in the Insert. It is a presentation problem rather than a knowledge problem, which is good news: it takes about three weeks of deliberate practice to fix."
+    },
+    {
+      "question": "Can you teach AS only?",
+      "answer": "Yes. Many students take AS in one year and complete the A Level in the next, carrying the AS result forward. The first six months of this course are the AS content, and students entering only for AS simply stop there. Candidates taking all four papers in one series follow the whole nine months."
+    },
+    {
+      "question": "How long is the course?",
+      "answer": "About thirty-six weeks at two classes a week for the full A Level, joinable in any month. AS alone is roughly the first twenty-four. One to one is paced to the entry date, and for a student joining close to a series we will say honestly what is achievable rather than promising full coverage."
+    }
+  ]
+}

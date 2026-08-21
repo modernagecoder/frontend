@@ -505,7 +505,7 @@ The other nine
 
 Same method, different specification. Useful if your child sits more than one of these, or if you are weighing Cambridge against another curriculum.
 
-[AP Computer Science AJava](/ap-computer-science-a-online-classes)[AP Computer Science PrinciplesAny language](/ap-computer-science-principles-online-coaching)[UK GCSE Computer SciencePython](/uk-gcse-computer-science-tutoring)[IB Diploma Computer ScienceJava or Python](/ib-computer-science-online-tuition)
+[AP Computer Science AJava](/ap-computer-science-a-online-classes)[AP Computer Science PrinciplesAny language](/ap-computer-science-principles-online-coaching)[Cambridge A Level 9618Python, VB, Java](/cambridge-a-level-computer-science-online-classes)[UK GCSE Computer SciencePython](/uk-gcse-computer-science-tutoring)[IB Diploma Computer ScienceJava or Python](/ib-computer-science-online-tuition)
 
 IGCSE 0478 questions
 

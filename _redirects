@@ -1754,4 +1754,8 @@
 # Global Build-AI cluster (ai-global.css). Inserted before the /* catch-all.
 /uk-gcse-computer-science-tutoring /src/pages/uk-gcse-computer-science-tutoring.html 200
 /uk-gcse-computer-science-tutoring.md /src/pages/uk-gcse-computer-science-tutoring.md 200
+
+# Global Build-AI cluster (ai-global.css). Inserted before the /* catch-all.
+/cambridge-a-level-computer-science-online-classes /src/pages/cambridge-a-level-computer-science-online-classes.html 200
+/cambridge-a-level-computer-science-online-classes.md /src/pages/cambridge-a-level-computer-science-online-classes.md 200
 /* /src/pages/404.html 404

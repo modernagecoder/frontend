@@ -490,7 +490,7 @@ The other nine
 
 Same method, different specification. Useful for a family moving between curricula, or with children sitting different systems.
 
-[AP Computer Science AJava](/ap-computer-science-a-online-classes)[AP Computer Science PrinciplesAny language](/ap-computer-science-principles-online-coaching)[Cambridge IGCSE 0478Python, VB, Java](/cambridge-igcse-computer-science-tuition)[IB Diploma Computer ScienceJava or Python](/ib-computer-science-online-tuition)
+[AP Computer Science AJava](/ap-computer-science-a-online-classes)[AP Computer Science PrinciplesAny language](/ap-computer-science-principles-online-coaching)[Cambridge IGCSE 0478Python, VB, Java](/cambridge-igcse-computer-science-tuition)[Cambridge A Level 9618Python, VB, Java](/cambridge-a-level-computer-science-online-classes)[IB Diploma Computer ScienceJava or Python](/ib-computer-science-online-tuition)
 
 GCSE Computer Science questions
 
