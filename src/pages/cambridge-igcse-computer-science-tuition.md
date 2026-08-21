@@ -234,7 +234,7 @@ Families in international schools frequently compare these, and the differences 
 | Grading | A* to G | 9 to 1 |
 | Practical work | Assessed through the written papers | Board dependent |
 
-The practical implication is about programming. A UK GCSE course typically expects the student to answer in a real programming language, most often Python, and several boards assess programming skill directly. Cambridge 0478 assesses algorithm design mainly in pseudocode. Two students of identical ability can therefore need quite different exam training, which is set out further on the UK GCSE page.
+The practical implication is about programming. A UK GCSE course typically expects the student to answer in a real programming language, most often Python, and several boards assess programming skill directly. Cambridge 0478 assesses algorithm design mainly in pseudocode. Two students of identical ability can therefore need quite different exam training, which is set out further on the [UK GCSE page](/uk-gcse-computer-science-tutoring).
 
 Being straight about it
 
@@ -505,7 +505,7 @@ The other nine
 
 Same method, different specification. Useful if your child sits more than one of these, or if you are weighing Cambridge against another curriculum.
 
-[AP Computer Science AJava](/ap-computer-science-a-online-classes)[AP Computer Science PrinciplesAny language](/ap-computer-science-principles-online-coaching)
+[AP Computer Science AJava](/ap-computer-science-a-online-classes)[AP Computer Science PrinciplesAny language](/ap-computer-science-principles-online-coaching)[UK GCSE Computer SciencePython](/uk-gcse-computer-science-tutoring)[IB Diploma Computer ScienceJava or Python](/ib-computer-science-online-tuition)
 
 IGCSE 0478 questions
 

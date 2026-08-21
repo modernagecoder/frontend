@@ -1,0 +1,361 @@
+{
+  "meta": {
+    "slug": "gcse-computer-science-course",
+    "taxonomy": "programming",
+    "title": "GCSE Computer Science: AQA, OCR and Edexcel Exam Prep",
+    "description": "Live online GCSE Computer Science classes taught to your child's actual board. AQA 8525, OCR J277 and Edexcel 1CP2 set different papers, and the course is built around the one they will sit.",
+    "keywords": [
+      "gcse computer science tutor",
+      "gcse computer science online classes",
+      "aqa 8525 computer science tuition",
+      "ocr j277 computer science tutor",
+      "edexcel 1cp2 computer science",
+      "gcse computer science python programming",
+      "gcse computer science paper 1 paper 2",
+      "gcse computer science exam prep online"
+    ],
+    "category": "GCSE Computer Science",
+    "price": {
+      "group": "₹1,499/month",
+      "miniBatch": "₹2,999/month",
+      "personal": "₹4,999/month"
+    },
+    "duration": "6 months (24 weeks), joinable any month",
+    "level": "GCSE students on AQA, OCR or Edexcel Computer Science; taught from the basics, no prior coding required",
+    "commitment": "2 live classes/week + weekly programming and past-paper practice",
+    "certification": "Course-completion certificate from Modern Age Coders",
+    "image_path": "gcse-computer-science.webp",
+    "date": "2026-08-21",
+    "dateModified": "2026-08-21"
+  },
+
+  "program_overview": {
+    "title": "Taught to the board your child actually sits",
+    "description": "The three GCSE Computer Science specifications share a name and set different exams. AQA 8525 runs a two-hour Paper 1 on computational thinking and programming and a one-hour-forty-five Paper 2 on computing concepts, each ninety marks and each half the qualification. OCR J277 runs two papers of an hour and a half and eighty marks each. Edexcel sets its own 1CP2. A student revising from the wrong board's past papers is practising the wrong exam, and it is the commonest avoidable problem we see. The first thing we ask is which board, and the course is built around that answer. Everything is taught live, in a batch of five to eight or one to one, with programming in Python and past papers marked against the real mark scheme."
+  },
+
+  "phase_1_programming_that_survives_paper_1": {
+    "title": "PHASE 1: Programming That Survives Paper 1 (Months 1-2)",
+    "description": "Real Python, written by hand, plus the code-tracing habit that carries more marks than any single topic on the specification.",
+    "month_1_python_and_tracing": {
+      "title": "Month 1: Python Fundamentals and Code Tracing",
+      "weeks": "Weeks 1-4",
+      "week_1": {
+        "title": "Variables, Input and Output, and Reading an Error",
+        "topics": [
+          "Data types, casting and the arithmetic that catches people out in exams",
+          "Writing to a specification instead of writing what you felt like writing",
+          "Reading a Python error message and fixing the cause rather than guessing",
+          "Why every answer in this course is written by hand before it is typed"
+        ]
+      },
+      "week_2": {
+        "title": "Selection, and the Conditions Examiners Set",
+        "topics": [
+          "if, elif and else, and the nested conditions that appear in longer questions",
+          "Boolean operators, and the compound conditions students misread under time",
+          "Common exam traps: assignment against comparison, and off-by-one boundaries",
+          "Writing the condition in words first, then in code"
+        ]
+      },
+      "week_3": {
+        "title": "Iteration, and Two-Column Trace Tables",
+        "topics": [
+          "for and while loops, and choosing the right shape for the problem",
+          "Nested loops, and stating the range out loud before writing them",
+          "The two-column trace table, drilled until it is the automatic first move",
+          "Why tracing in your head is slower and less accurate than writing it down"
+        ]
+      },
+      "week_4": {
+        "title": "Lists, Strings and Standard Algorithms",
+        "topics": [
+          "Lists and string handling exactly as the specifications describe them",
+          "Linear search, bubble sort and merge sort, traced as well as coded",
+          "Counting, totalling and finding a maximum, which recur across every board",
+          "First timed set of past-paper programming questions"
+        ]
+      }
+    },
+    "month_2_subprograms_and_files": {
+      "title": "Month 2: Subprograms, Files and Robust Programs",
+      "weeks": "Weeks 5-8",
+      "week_5": {
+        "title": "Functions, Procedures and Parameters",
+        "topics": [
+          "Writing a subprogram to a given signature, which is how questions are set",
+          "Parameters and return values, and the difference examiners test",
+          "Local and global scope, a reliable short-answer topic on every board",
+          "Decomposing a long question into subprograms before writing any code"
+        ]
+      },
+      "week_6": {
+        "title": "File Handling and Data Validation",
+        "topics": [
+          "Reading from and writing to text files as the specifications require",
+          "Validation and authentication routines, which appear as set-piece questions",
+          "Defensive design, and what makes a program robust in mark-scheme terms",
+          "Writing test data: normal, boundary and erroneous"
+        ]
+      },
+      "week_7": {
+        "title": "Testing, Debugging and the Language of Errors",
+        "topics": [
+          "Syntax, logic and runtime errors, named precisely as the exam names them",
+          "Building a test plan and completing a test table",
+          "Finding a fault by halving the search space rather than by guessing",
+          "Refining a program in response to a test result, which is examined directly"
+        ]
+      },
+      "week_8": {
+        "title": "Paper 1 Under Time",
+        "topics": [
+          "A full programming paper in the student's own board format",
+          "Marked against the real mark scheme rather than against intent",
+          "Pacing: how long each question is worth in minutes",
+          "Identifying which question type this student loses marks on"
+        ]
+      }
+    }
+  },
+
+  "phase_2_computing_concepts_and_systems": {
+    "title": "PHASE 2: Computing Concepts and Systems (Months 3-4)",
+    "description": "The theory half, taught as systems that relate to each other rather than as vocabulary to be memorised, because that is what the longer questions reward.",
+    "month_3_data_and_hardware": {
+      "title": "Month 3: Data Representation and Computer Systems",
+      "weeks": "Weeks 9-12",
+      "week_9": {
+        "title": "Binary, Hexadecimal and Binary Arithmetic",
+        "topics": [
+          "Converting between denary, binary and hexadecimal in both directions, quickly",
+          "Binary addition, overflow, and binary shifts with their effect explained",
+          "Character sets, and the size calculations that follow from them",
+          "Doing all of it by hand, at speed, because the paper expects it"
+        ]
+      },
+      "week_10": {
+        "title": "Images, Sound and Compression",
+        "topics": [
+          "Resolution, colour depth and the file-size calculation examiners set",
+          "Sample rate, bit depth and duration, calculated rather than described",
+          "Lossy against lossless compression, with a real reason for choosing one",
+          "The exact wording that earns the mark in a compression comparison"
+        ]
+      },
+      "week_11": {
+        "title": "The CPU, the Fetch-Decode-Execute Cycle and Memory",
+        "topics": [
+          "CPU components and what each one does, in the specification's language",
+          "The fetch-decode-execute cycle, sequenced correctly and explained",
+          "Factors affecting performance: clock speed, cores and cache",
+          "RAM, ROM, virtual memory and secondary storage compared"
+        ]
+      },
+      "week_12": {
+        "title": "Software, Translators and Systems Architecture",
+        "topics": [
+          "System software against application software",
+          "Compilers and interpreters, and where each is genuinely preferable",
+          "Utility software and the operating system's actual jobs",
+          "Embedded systems, and why the question always mentions a washing machine"
+        ]
+      }
+    },
+    "month_4_networks_security_and_impact": {
+      "title": "Month 4: Networks, Security, Databases and Impact",
+      "weeks": "Weeks 13-16",
+      "week_13": {
+        "title": "Networks, Topologies and Protocols",
+        "topics": [
+          "LAN and WAN, wired and wireless, with the trade-offs stated",
+          "Star and mesh topologies, and the layered protocol stack",
+          "Packet switching, and what a protocol actually is",
+          "Performance factors, which are a reliable extended-response question"
+        ]
+      },
+      "week_14": {
+        "title": "Cyber Security and Threats",
+        "topics": [
+          "Malware, phishing, social engineering and brute force, distinguished properly",
+          "Penetration testing, firewalls, encryption and access levels as mitigations",
+          "Matching a threat to the correct prevention, which is how it is examined",
+          "Writing a security answer that names both the threat and the response"
+        ]
+      },
+      "week_15": {
+        "title": "Databases and SQL",
+        "topics": [
+          "Tables, records, fields, primary keys and data types",
+          "SELECT, FROM and WHERE, written correctly under exam conditions",
+          "Where SQL appears on each board, since this differs between them",
+          "Practising the query shapes that recur in past papers"
+        ]
+      },
+      "week_16": {
+        "title": "Ethical, Legal and Environmental Impact",
+        "topics": [
+          "Privacy, legislation and environmental impact, with real examples",
+          "Structuring an extended-response answer so it reaches the top band",
+          "Giving both sides and then a judgement, which the mark scheme wants",
+          "Timed practice on the longest questions on the paper"
+        ]
+      }
+    }
+  },
+
+  "phase_3_board_specific_exam_mastery": {
+    "title": "PHASE 3: Board-Specific Exam Mastery (Months 5-6)",
+    "description": "The half of the course that separates the three specifications, spent entirely on the papers this student will actually sit.",
+    "month_5_board_technique": {
+      "title": "Month 5: Your Board's Papers, In Their Own Format",
+      "weeks": "Weeks 17-20",
+      "week_17": {
+        "title": "Knowing Your Own Specification",
+        "topics": [
+          "AQA 8525: Paper 1 two hours and ninety marks, Paper 2 one hour forty-five and ninety marks",
+          "OCR J277: two papers, an hour and a half and eighty marks each",
+          "Edexcel 1CP2 in its own structure, for students entered on it",
+          "Why revising from another board's past papers wastes the term"
+        ]
+      },
+      "week_18": {
+        "title": "Command Words and the Mark Scheme",
+        "topics": [
+          "State, describe, explain, compare and evaluate ask for different things",
+          "Reading how many marks a question is worth and answering to that length",
+          "Marking your own work against the real scheme rather than against intent",
+          "The sentences that earn marks, and the correct ideas that do not"
+        ]
+      },
+      "week_19": {
+        "title": "The Long Questions",
+        "topics": [
+          "Extended-response structure: both sides, then a supported judgement",
+          "Programming questions worth eight marks or more, planned before written",
+          "Time budgeting across a whole paper, practised rather than assumed",
+          "Recovering when a question is not understood on first reading"
+        ]
+      },
+      "week_20": {
+        "title": "Full Paper 1, Marked and Reviewed",
+        "topics": [
+          "A complete paper under exam conditions in the student's board format",
+          "Detailed review of every lost mark, with the reason named",
+          "A revision list built from the actual errors rather than from the topic list",
+          "Re-testing the same question types two weeks later"
+        ]
+      }
+    },
+    "month_6_final_preparation": {
+      "title": "Month 6: Full Papers and Final Preparation",
+      "weeks": "Weeks 21-24",
+      "week_21": {
+        "title": "Full Paper 2, Marked and Reviewed",
+        "topics": [
+          "The theory paper under time, in the correct board format",
+          "Extended responses marked to the band descriptors",
+          "Identifying whether the remaining risk is Paper 1 or Paper 2",
+          "Directing the last month at the weaker paper rather than at both"
+        ]
+      },
+      "week_22": {
+        "title": "Targeted Repair",
+        "topics": [
+          "Rebuilding the two or three topics the mocks exposed",
+          "Programming questions from a blank page, repeatedly",
+          "Trace tables and binary arithmetic drilled back to automatic",
+          "Short daily retrieval rather than long revision sessions"
+        ]
+      },
+      "week_23": {
+        "title": "Second Full Set",
+        "topics": [
+          "Both papers again, under time, from a different series",
+          "Measuring improvement against the first set question by question",
+          "Confirming pacing holds when the questions are unfamiliar",
+          "Final list of the specific things still costing marks"
+        ]
+      },
+      "week_24": {
+        "title": "Exam Week Readiness",
+        "topics": [
+          "A short, specific revision plan for the final fortnight",
+          "The reference material allowed in your board's papers",
+          "What to do in the first five minutes of each paper",
+          "Walking in knowing the format, so the only new thing is the questions"
+        ]
+      }
+    }
+  },
+
+  "prerequisites": {
+    "title": "What Your Child Needs to Start",
+    "items": [
+      "Enrolment on a GCSE Computer Science course with AQA, OCR or Edexcel, or about to begin one",
+      "No prior programming is required; Python is taught from the beginning",
+      "Comfort with basic arithmetic, because data representation is done without a calculator",
+      "A computer with a stable internet connection and Python installed, which we help set up in the first class",
+      "Knowing which exam board the school has entered them for, or a willingness to find out before the first class"
+    ]
+  },
+
+  "who_is_this_for": {
+    "title": "Who This Course Is For",
+    "items": [
+      "GCSE students on AQA 8525, OCR J277 or Edexcel 1CP2 who want to understand the subject rather than memorise it",
+      "Students who can follow along in class and then cannot start a programming question from a blank page",
+      "Students strong on theory and weak on Paper 1 programming, or the reverse, which is an even more common profile",
+      "Students who have been revising from the wrong board's past papers without realising it",
+      "Home-educated students sitting GCSE Computer Science privately",
+      "Students in international schools sitting a UK GCSE rather than the Cambridge IGCSE"
+    ]
+  },
+
+  "career_paths_after_completion": [
+    "A strong GCSE Computer Science grade across both papers",
+    "A confident move into A Level Computer Science or an equivalent sixth-form course",
+    "Real Python ability, which transfers to every later qualification and to work",
+    "The code-tracing and debugging habits that A Level assumes and does not teach",
+    "A foundation for AP Computer Science A, IB Computer Science or Cambridge A Level for students changing curriculum"
+  ],
+
+  "course_guarantees": {
+    "title": "Our Commitment to You",
+    "items": [
+      "Every class is live and small, taught by a real mentor, never a recorded video watched alone",
+      "The course is built around your child's actual exam board, not a generic GCSE syllabus",
+      "Past papers are marked against the real mark scheme, so a correct idea in the wrong words is caught here rather than in the exam",
+      "Both papers are taught in full, because each one is half the qualification",
+      "We will tell you honestly which paper is the risk, and direct the final month at it",
+      "We do not guarantee a grade, because nobody can, and any provider who offers one is selling something they cannot deliver"
+    ]
+  },
+
+  "faqs": [
+    {
+      "question": "Which exam board do you teach?",
+      "answer": "All three, and separately. AQA 8525 sets a two-hour Paper 1 worth ninety marks and a one-hour-forty-five Paper 2 also worth ninety marks, each half the GCSE. OCR J277 sets two papers of an hour and a half and eighty marks each. Edexcel 1CP2 has its own structure. The first thing we ask is which board your child is entered for, because revising from the wrong board's past papers is the commonest avoidable problem in this subject."
+    },
+    {
+      "question": "Which programming language do you teach?",
+      "answer": "Python, which is what the overwhelming majority of UK schools use and what most students meet in class. If your child's school teaches something else we will work in that instead, because the exam assesses computational thinking rather than a particular syntax, and consistency with school matters more than our preference."
+    },
+    {
+      "question": "My child understands it in class but cannot start a question. Is that normal?",
+      "answer": "It is extremely common and it is the specific problem this course is built to fix. Following a worked example is a different action from producing an answer from a blank page, and only the second one is examined. Every programming session here starts from nothing, on paper, before anything is typed."
+    },
+    {
+      "question": "How many classes a week, and how long is the course?",
+      "answer": "Two live classes a week over roughly twenty-four weeks, joinable in any month. A student in Year 10 usually spreads it across the year, and a Year 11 student closer to the exams normally goes one to one so the syllabus can be reordered around whichever paper is the risk."
+    },
+    {
+      "question": "Do you mark past papers?",
+      "answer": "Yes, against the published mark scheme rather than against what the student meant. That distinction matters more than it sounds: students routinely write a correct idea in words the scheme does not credit, and finding that out in January is worth considerably more than finding it out in May."
+    },
+    {
+      "question": "Is this the same as Cambridge IGCSE Computer Science?",
+      "answer": "No. Cambridge IGCSE 0478 is taken mainly in international schools, grades A star to G, and requires most coding answers in pseudocode rather than a real language. UK GCSE grades nine to one and generally expects answers in a real programming language. Two students of identical ability need genuinely different exam training."
+    }
+  ]
+}

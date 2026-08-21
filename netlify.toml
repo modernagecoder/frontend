@@ -7365,6 +7365,18 @@
   to = "/src/pages/ib-computer-science-online-tuition.md"
   status = 200
 
+# Global Build-AI cluster (ai-global.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/uk-gcse-computer-science-tutoring"
+  to = "/src/pages/uk-gcse-computer-science-tutoring.html"
+  status = 200
+
+[[redirects]]
+  from = "/uk-gcse-computer-science-tutoring.md"
+  to = "/src/pages/uk-gcse-computer-science-tutoring.md"
+  status = 200
+
 [[redirects]]
   from = "/*"
   to = "/src/pages/404.html"
