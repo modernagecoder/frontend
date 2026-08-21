@@ -105,7 +105,7 @@ Mapped to the four College Board units. Module numbering follows our teaching or
 
 07
 
-### 2D arrays and working with data sets
+### 2D arrays, data sets, and tracing recursion without writing it
 
 6 classes · Unit 4
 
@@ -160,7 +160,7 @@ Both tables below come from College Board's own published course and exam materi
 | 1. Using Objects and Methods | Objects, methods, String, Math, parameters | 15 to 25% | Term 1, weeks 1 to 6 |
 | 2. Selection and Iteration | Conditionals, loops, nested loops, tracing | 25 to 35% | Term 1, weeks 5 to 12 |
 | 3. Class Creation | Writing a class from a specification: constructors, instance variables, accessors | 10 to 18% | Term 2, weeks 1 to 7 |
-| 4. Data Collections | Arrays, ArrayList, 2D arrays, traversal and standard algorithms | 30 to 40% | Started term 1, finished term 2 |
+| 4. Data Collections | Arrays, ArrayList, 2D arrays, traversal, and tracing recursive calls | 30 to 40% | Started term 1, finished term 2 |
 
 Two things follow from the second table that are worth saying plainly. Selection and Iteration plus Data Collections account for somewhere between fifty-five and seventy-five per cent of the multiple choice between them, which means loops over collections are the centre of gravity of the whole qualification. And Class Creation, at ten to eighteen per cent, is the smallest unit by weight despite being the part most students find conceptually hardest, so it deserves careful teaching and not a disproportionate share of the year.
 
@@ -211,7 +211,7 @@ Two live classes a week, one to one or in a batch of five to eight, with past-pa
   Unit 3. Every exercise is given as a specification with fixed signatures, which is how the free-response section presents it, so that following a specification is normal rather than a constraint discovered in the exam hall.
 4. #### Weeks 13 to 26, running alongside: collections in depth
 
-  Unit 4, and it never stops. Arrays, ArrayList, two-dimensional traversal, and the standard algorithms over them. Every worked example from week 13 onwards uses a collection rather than a single variable, so the heaviest-weighted material is the most rehearsed.
+  Unit 4, and it never stops. Arrays, ArrayList, two-dimensional traversal, the standard algorithms over them, and tracing recursive calls. Every worked example from week 13 onwards uses a collection rather than a single variable, so the heaviest-weighted material is the most rehearsed.
 5. #### Weeks 27 to 32: full papers, marked to the published rubric
 
   Timed sections in the real format. The teacher marks to the rubric rather than to intent, which is uncomfortable the first two times and is the fastest route to understanding how points are actually awarded.

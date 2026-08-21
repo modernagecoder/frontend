@@ -2,7 +2,7 @@
   "meta": {
     "slug": "ap-csp-vs-ap-csa-which-to-take-first",
     "title": "AP CSP vs AP CSA: Which Should You Take First?",
-    "description": "AP Computer Science Principles sounds like the gentle one, yet it is the harder 5. The 2026 data, the real workload, and the order that wastes least.",
+    "description": "Principles sounds like the gentle one, yet it is the harder 5. Preliminary 2026 data, the real workload, and the order that wastes the least time.",
     "keywords": [
       "ap csp vs ap csa",
       "which ap computer science to take first",
@@ -27,7 +27,7 @@
     ],
     "readTime": "9 min read",
     "featured": false,
-    "tldr": "AP Computer Science Principles is the easier course to sit and the harder score to top: 10 per cent of its candidates got a 5 in 2026 against 25 per cent in Computer Science A. Principles is a project year, with nine hours of class time on a program you choose and two written responses about it in the exam room. Computer Science A is a programming year, four units in Java with no project at all. Take Principles first if the student has never written a program by choice, and Computer Science A first if they have."
+    "tldr": "AP Computer Science Principles is the easier course to sit and the harder score to top: on preliminary 2026 figures, 10 per cent of its candidates got a 5 against 25 per cent in Computer Science A. Principles is a project year, with nine hours of class time on a program you choose and two written responses about it in the exam room. Computer Science A is a programming year, four units in Java with no project at all. Take Principles first if the student has never written a program by choice, and Computer Science A first if they have."
   },
   "hero": {
     "title": "AP CSP vs AP CSA: Which Should You Take First?",
@@ -48,7 +48,7 @@
       },
       {
         "type": "paragraph",
-        "text": "In May 2026, <strong>10 per cent of Principles candidates scored a 5</strong>. In the same month, <strong>25 per cent of Computer Science A candidates scored a 5</strong>. The course everyone calls the hard one is two and a half times more likely to produce the top grade."
+        "text": "In May 2026, <strong>10 per cent of Principles candidates scored a 5</strong>. In the same month, <strong>25 per cent of Computer Science A candidates scored a 5</strong>. Both are College Board's preliminary numbers for that year, published ahead of the final counts. The course everyone calls the hard one is two and a half times more likely to produce the top grade."
       },
       {
         "type": "heading",
@@ -277,7 +277,7 @@
           },
           {
             "title": "Is AP Computer Science Principles worth taking at all if the 5 rate is that low?",
-            "content": "For most students, yes. A 3 or a 4 in Principles is still a pass and still shows a year of computing, and the Create task is genuine experience of finishing something. Just do not take it expecting it to be the easy 5, because the data is clear that it is not."
+            "content": "For most students, yes, and remember the 2026 figures are still preliminary. A 3 or a 4 in Principles is still a pass and still shows a year of computing, and the Create task is genuine experience of finishing something. Just do not take it expecting it to be the easy 5, because the data is clear that it is not."
           },
           {
             "title": "Which programming language should we use for the Create task?",

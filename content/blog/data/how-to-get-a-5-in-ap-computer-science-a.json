@@ -2,7 +2,7 @@
   "meta": {
     "slug": "how-to-get-a-5-in-ap-computer-science-a",
     "title": "How to Get a 5 in AP Computer Science A (2026)",
-    "description": "In 2026 a quarter of candidates scored 5 and almost a quarter scored 1. Here is what separates them on the new four unit course, question by question.",
+    "description": "Preliminary 2026 data: a quarter scored 5 and almost a quarter scored 1. What separates them on the new four unit course, question by question.",
     "keywords": [
       "how to get a 5 in ap computer science a",
       "ap csa score distribution 2026",
@@ -26,9 +26,9 @@
       "Exam Prep",
       "High School"
     ],
-    "readTime": "11 min read",
+    "readTime": "12 min read",
     "featured": false,
-    "tldr": "In May 2026, 25 per cent of AP Computer Science A candidates scored a 5 and 23 per cent scored a 1, with very few in the middle. The exam is 42 multiple choice questions worth 55 per cent and four free response questions worth 45 per cent. The four written questions are always the same four types, and Data Collections carries 30 to 40 per cent of the multiple choice, so a student who can traverse an ArrayList and a 2D array under time pressure is most of the way to a 5."
+    "tldr": "On the preliminary May 2026 figures College Board has published, 25 per cent of AP Computer Science A candidates scored a 5 and 23 per cent scored a 1, with very few in the middle. The exam is 42 multiple choice questions worth 55 per cent and four free response questions worth 45 per cent. The four written questions are always the same four types, and Data Collections carries 30 to 40 per cent of the multiple choice, so a student who can traverse an ArrayList and a 2D array under time pressure is most of the way to a 5."
   },
   "hero": {
     "title": "How to Get a 5 in AP Computer Science A",
@@ -49,7 +49,7 @@
       },
       {
         "type": "paragraph",
-        "text": "In May 2026, on the first exam set against the rebuilt four unit standards, <strong>25 per cent of candidates scored a 5 and 23 per cent scored a 1</strong>. Read those two numbers next to each other for a second. This is not a paper where most people cluster in the middle and a few drift to the edges. It is a paper that splits its candidates into two groups, and the thing that decides which group a student lands in is smaller and more specific than most families expect."
+        "text": "In May 2026, on the first exam set against the rebuilt four unit standards, <strong>25 per cent of candidates scored a 5 and 23 per cent scored a 1</strong>. Those are the preliminary figures College Board has published so far, with the test taker count and mean score still to come, so treat them as the shape rather than the last word. Read those two numbers next to each other for a second. This is not a paper where most people cluster in the middle and a few drift to the edges. It is a paper that splits its candidates into two groups, and the thing that decides which group a student lands in is smaller and more specific than most families expect."
       },
       {
         "type": "heading",
@@ -59,7 +59,7 @@
       },
       {
         "type": "paragraph",
-        "text": "Here is the full distribution as College Board published it, alongside AP Computer Science Principles for scale, because the comparison surprises almost everyone."
+        "text": "Here is the distribution as College Board has published it so far, alongside AP Computer Science Principles for scale, because the comparison surprises almost everyone. Both tables are still marked preliminary."
       },
       {
         "type": "table",
@@ -104,8 +104,8 @@
       {
         "type": "image",
         "url": "/images/blog/how-to-get-a-5-in-ap-computer-science-a/01-score-distribution.png",
-        "alt": "Bar chart of the 2026 AP Computer Science A score distribution showing peaks at 5 and at 1",
-        "caption": "The 2026 AP Computer Science A distribution has two peaks and a thin middle."
+        "alt": "Bar chart of the preliminary 2026 AP Computer Science A score distribution showing peaks at 5 and at 1",
+        "caption": "The preliminary 2026 AP Computer Science A distribution has two peaks and a thin middle."
       },
       {
         "type": "paragraph",
@@ -281,7 +281,7 @@
         "style": "unordered",
         "items": [
           "<strong>Inheritance, polymorphism, <code>extends</code>, <code>super</code> and interfaces.</strong> Gone from the required content. There is no inheritance free response question, and there is no inheritance unit.",
-          "<strong>Writing recursive methods.</strong> Also removed. Recursion is a beautiful idea and it is not on this exam.",
+          "<strong>Writing recursive methods.</strong> Removed, but read that precisely. Recursion itself is still examined inside Unit 4: candidates are given a recursive method and asked to trace the calls and state what comes back. What they are never asked to do is write one.",
           "<strong>File input and output, with Scanner.</strong> Moved the other way, into the required sequence. Reading data from a file is now part of the course rather than an enrichment topic.",
           "<strong>Working with data sets.</strong> Added, which is the clearest signal of where the course is heading."
         ]
@@ -290,7 +290,7 @@
         "type": "callout",
         "calloutType": "tip",
         "title": "Check the edition before you buy the book",
-        "text": "Any revision guide printed before 2025 will spend chapters on inheritance and recursion and will not mention file handling. It is not slightly out of date, it is describing a different exam. May 2026 was the first sitting on the new standards, so 2026 and later material is the only material that matches the paper your child will see."
+        "text": "Any revision guide printed before 2025 will spend chapters on inheritance and on writing recursive methods, and will not mention file handling. It is not slightly out of date, it is describing a different exam. May 2026 was the first sitting on the new standards, so 2026 and later material is the only material that matches the paper your child will see."
       },
       {
         "type": "heading",
@@ -367,7 +367,7 @@
         "items": [
           {
             "title": "Is a 5 in AP Computer Science A realistic for an average student?",
-            "content": "More realistic than in most APs, and the 2026 data is the reason. A quarter of all candidates scored a 5, which is a high share by AP standards. What the same data shows is that drifting through the course produces a 1 rather than a 3, so the strategy that works elsewhere, keeping up and hoping, is the one that fails here."
+            "content": "More realistic than in most APs, and the 2026 data is the reason. On the preliminary figures a quarter of all candidates scored a 5, which is a high share by AP standards. What the same data shows is that drifting through the course produces a 1 rather than a 3, so the strategy that works elsewhere, keeping up and hoping, is the one that fails here."
           },
           {
             "title": "Does my child need to know Java before starting?",
@@ -379,7 +379,7 @@
           },
           {
             "title": "Is AP Computer Science A harder than AP Computer Science Principles?",
-            "content": "Harder to learn, easier to score well in. Principles asks for a portfolio task and a broader conceptual range, and only 10 per cent of its candidates scored a 5 in 2026 against 25 per cent in Computer Science A. If a student is willing to do the programming, the Java course is the better bet for a 5."
+            "content": "Harder to learn, easier to score well in. Principles asks for a portfolio task and a broader conceptual range, and on the preliminary 2026 figures only 10 per cent of its candidates scored a 5 against 25 per cent in Computer Science A. If a student is willing to do the programming, the Java course is the better bet for a 5."
           },
           {
             "title": "Can a student take the exam without taking the course at school?",
@@ -391,7 +391,7 @@
           },
           {
             "title": "Do we need a paid textbook?",
-            "content": "No, and be careful which one you buy if you do. Any book printed before 2025 describes the ten unit course, complete with chapters on inheritance and recursion that are no longer examined. The Course and Exam Description that College Board publishes free is the only document that is definitely current."
+            "content": "No, and be careful which one you buy if you do. Any book printed before 2025 describes the ten unit course, complete with chapters on inheritance and on writing recursive methods, neither of which is examined now. The Course and Exam Description that College Board publishes free is the only document that is definitely current."
           }
         ]
       }

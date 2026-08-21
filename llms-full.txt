@@ -1104,10 +1104,20 @@ This wasn't just a catchy phrase. It was the articulation of a profound shift th
 
 *[Truncated. Read in full at the markdown URL above.]*
 
-## Full Blog Index (116 articles)
+## Full Blog Index (126 articles)
 
 Every published article. Fetch the markdown twin from the second link for full content.
 
+- 2026-08-21, [AP CSP vs AP CSA: Which Should You Take First?](https://learn.modernagecoders.com/blog/ap-csp-vs-ap-csa-which-to-take-first/), https://learn.modernagecoders.com/content/blog/generated/ap-csp-vs-ap-csa-which-to-take-first/index.md
+- 2026-08-21, [Cambridge 9618 Paper 4: Python, Java or Visual Basic?](https://learn.modernagecoders.com/blog/cambridge-9618-paper-4-python-java-or-visual-basic/), https://learn.modernagecoders.com/content/blog/generated/cambridge-9618-paper-4-python-java-or-visual-basic/index.md
+- 2026-08-21, [CCC Junior or Senior? How to Choose and How to Score](https://learn.modernagecoders.com/blog/canadian-computing-competition-junior-or-senior/), https://learn.modernagecoders.com/content/blog/generated/canadian-computing-competition-junior-or-senior/index.md
+- 2026-08-21, [How to Get a 5 in AP Computer Science A (2026)](https://learn.modernagecoders.com/blog/how-to-get-a-5-in-ap-computer-science-a/), https://learn.modernagecoders.com/content/blog/generated/how-to-get-a-5-in-ap-computer-science-a/index.md
+- 2026-08-21, [How to Revise GCSE Computer Science (AQA and OCR)](https://learn.modernagecoders.com/blog/how-to-revise-gcse-computer-science/), https://learn.modernagecoders.com/content/blog/generated/how-to-revise-gcse-computer-science/index.md
+- 2026-08-21, [The IB Computer Science IA No Longer Needs a Client](https://learn.modernagecoders.com/blog/ib-computer-science-ia-client-rule-2027/), https://learn.modernagecoders.com/content/blog/generated/ib-computer-science-ia-client-rule-2027/index.md
+- 2026-08-21, [IGCSE 0478 Pseudocode: The Rules Examiners Mark](https://learn.modernagecoders.com/blog/igcse-computer-science-0478-pseudocode-guide/), https://learn.modernagecoders.com/content/blog/generated/igcse-computer-science-0478-pseudocode-guide/index.md
+- 2026-08-21, [The IOI Syllabus Excludes More Than You Expect](https://learn.modernagecoders.com/blog/ioi-syllabus-what-to-learn-and-what-to-skip/), https://learn.modernagecoders.com/content/blog/generated/ioi-syllabus-what-to-learn-and-what-to-skip/index.md
+- 2026-08-21, [PCEP vs PCAP: Which Python Certification Is Worth It?](https://learn.modernagecoders.com/blog/pcep-vs-pcap-which-python-certification/), https://learn.modernagecoders.com/content/blog/generated/pcep-vs-pcap-which-python-certification/index.md
+- 2026-08-21, [USACO Bronze to Silver: What Actually Blocks You](https://learn.modernagecoders.com/blog/usaco-bronze-to-silver-what-blocks-most-students/), https://learn.modernagecoders.com/content/blog/generated/usaco-bronze-to-silver-what-blocks-most-students/index.md
 - 2026-07-18, [Abacus vs Vedic vs Mental Maths: A Clear Comparison](https://learn.modernagecoders.com/blog/abacus-vs-vedic-vs-mental-maths/), https://learn.modernagecoders.com/content/blog/generated/abacus-vs-vedic-vs-mental-maths/index.md
 - 2026-07-18, [AP Computer Science A Changes for 2026: A Parent's Guide](https://learn.modernagecoders.com/blog/ap-computer-science-a-changes-2026/), https://learn.modernagecoders.com/content/blog/generated/ap-computer-science-a-changes-2026/index.md
 - 2026-07-18, [Best AI Coding Tools for Students in 2026](https://learn.modernagecoders.com/blog/best-ai-coding-tools-for-students-2026/), https://learn.modernagecoders.com/content/blog/generated/best-ai-coding-tools-for-students-2026/index.md
