@@ -1,0 +1,260 @@
+{
+  "meta": {
+    "slug": "ioi-syllabus-what-to-learn-and-what-to-skip",
+    "title": "The IOI Syllabus Excludes More Than You Expect",
+    "description": "The International Olympiad in Informatics publishes what is in scope and what is not. The exclusions are the useful half, and few students read them.",
+    "keywords": [
+      "ioi syllabus",
+      "international olympiad in informatics preparation",
+      "ioi contest format",
+      "what to study for ioi",
+      "olympiad informatics training",
+      "ioi medals"
+    ],
+    "author": {
+      "name": "Modern Age Coders Team",
+      "bio": "Expert educators making coding and maths clear for ages 6 to 67.",
+      "avatar": "/images/logo.svg"
+    },
+    "date": "2026-08-21",
+    "dateModified": "2026-08-21",
+    "category": "Programming",
+    "tags": [
+      "Olympiad",
+      "Competitive Programming",
+      "Algorithms",
+      "Python"
+    ],
+    "readTime": "8 min read",
+    "featured": false,
+    "tldr": "The International Olympiad in Informatics publishes an official syllabus that sorts every topic into one of six categories, from included with no limit through to explicitly excluded. The exclusions are the surprising part. Calculus, linear algebra, statistics, trigonometry, complex numbers and three dimensional geometry are all out, and so are KMP, suffix automata, Aho-Corasick and implementing hash tables. Excluded means no task will require or reward the topic, not that a contestant may not use it. The competition is two days, three tasks and five hours each, and about half the contestants take a medal."
+  },
+  "hero": {
+    "title": "The IOI Syllabus Excludes More Than You Expect",
+    "subtitle": "There is an official document that says exactly what the International Olympiad in Informatics will and will not ask for. Reading it saves a talented student months.",
+    "featuredImage": {
+      "url": "/images/blog/ioi-syllabus-what-to-learn-and-what-to-skip/00-hero.png",
+      "alt": "IOI facts: two competition days, three tasks each, five hours each, one in twelve contestants takes gold"
+    }
+  },
+  "content": {
+    "sections": [
+      {
+        "type": "toc"
+      },
+      {
+        "type": "paragraph",
+        "text": "Ask a strong student preparing for olympiad informatics what they are studying and you will often hear a list that grew by accumulation. Suffix automata because somebody mentioned them. Some number theory. A bit of linear algebra because a blog post used it. It is an enormous amount of work and a good deal of it cannot be examined."
+      },
+      {
+        "type": "paragraph",
+        "text": "The International Olympiad in Informatics publishes an official syllabus, produced by its International Scientific Committee for each olympiad. It classifies topics into six categories, and its exclusions are as carefully specified as its inclusions. Very few of the students we teach have read it."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "How the competition actually runs",
+        "id": "format"
+      },
+      {
+        "type": "paragraph",
+        "text": "Two competition days. Three tasks each day. Five hours each day. Contestants compete individually, although each participating country sends a team of up to four students along with a leader and deputy leader. Scoring is partial rather than all or nothing, which is why a strong contestant almost never leaves with zero."
+      },
+      {
+        "type": "image",
+        "url": "/images/blog/ioi-syllabus-what-to-learn-and-what-to-skip/04-medals.png",
+        "alt": "How IOI medals are distributed: roughly one gold to two silver to three bronze to six with no medal",
+        "caption": "About half the contestants take a medal home."
+      },
+      {
+        "type": "paragraph",
+        "text": "Medals go to roughly the top half of contestants, in a ratio of about one gold to two silver to three bronze to six with nothing, which puts gold at around one in twelve. Worth putting next to a fact that is easy to forget: every person in that room already won a national selection to get there. The distribution above is a distribution among the already selected."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Six categories, not two",
+        "id": "the-categories"
+      },
+      {
+        "type": "image",
+        "url": "/images/blog/ioi-syllabus-what-to-learn-and-what-to-skip/01-six-categories.png",
+        "alt": "The six IOI syllabus categories from included unlimited through to explicitly excluded",
+        "caption": "The middle categories are where most of the useful information sits."
+      },
+      {
+        "type": "paragraph",
+        "text": "A binary in or out would be less useful than what the syllabus actually does. Something can be included with no limit, which means it is assumed knowledge. It can be included but guaranteed to be defined in the task statement, which means you do not need to have met the term before. It can be usable in a solution but never used to phrase a task. It can be outside of focus, which is where anything the syllabus does not mention lands by default. And it can be excluded, either provisionally or explicitly."
+      },
+      {
+        "type": "callout",
+        "calloutType": "info",
+        "title": "The rule that decides everything unmentioned",
+        "text": "The syllabus states three rules for topics it does not name. Anything that is a prerequisite of an included topic is included. Anything that extends or resembles an excluded topic is excluded. Everything else is outside of focus. That is enough to classify almost any topic a student is wondering about, without asking anybody."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "What is explicitly excluded",
+        "id": "excluded"
+      },
+      {
+        "type": "image",
+        "url": "/images/blog/ioi-syllabus-what-to-learn-and-what-to-skip/02-excluded.png",
+        "alt": "Topics explicitly excluded from the IOI syllabus, in mathematics and in algorithms",
+        "caption": "Each of these was checked against the marker beside it in the syllabus itself."
+      },
+      {
+        "type": "paragraph",
+        "text": "On the mathematics side, the excluded list contains most of what a strong mathematics student would assume was relevant. Calculus. Linear algebra. Statistics. Trigonometric functions. Complex numbers. Geometry in three or more dimensions. Modular division and inverse elements. A contestant who is brilliant at all of these has an advantage in almost every other olympiad and none at all in this one."
+      },
+      {
+        "type": "paragraph",
+        "text": "On the algorithms side the exclusions are more surprising, because they include things competitive programming culture treats as standard equipment. String algorithms and data structures are explicitly excluded, and the syllabus names them: KMP, Rabin-Karp hashing, suffix arrays, suffix trees, suffix automata, Aho-Corasick. So are complex heap variants like binomial and Fibonacci heaps. So is using and implementing hash tables, including collision resolution strategies. So is alpha-beta pruning."
+      },
+      {
+        "type": "callout",
+        "calloutType": "warning",
+        "title": "Read excluded precisely, because it does not mean forbidden",
+        "text": "The syllabus guarantees that no competition task will require an excluded topic, and that tasks are set so that knowing one should not produce a simpler or higher scoring solution. It then says directly that the syllabus must not be read as restricting the techniques a contestant may apply. So you may use a hash map. You will simply never need to have implemented one."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "What that leaves, and why it is not a small course",
+        "id": "included"
+      },
+      {
+        "type": "image",
+        "url": "/images/blog/ioi-syllabus-what-to-learn-and-what-to-skip/03-included.png",
+        "alt": "Topics included in the IOI syllabus, including dynamic programming, greedy algorithms, minimum spanning trees and tries",
+        "caption": "Narrower than students expect, and much deeper than they expect."
+      },
+      {
+        "type": "paragraph",
+        "text": "Dynamic programming is in. Greedy algorithms are in. Minimum spanning trees are in. Tries are in, which is worth pausing on given that the heavier string machinery is not. Balanced binary search trees are in, with the note that problems will not be designed to distinguish between implementations, so a contestant does not need to have written a treap and a splay tree and a scapegoat tree."
+      },
+      {
+        "type": "paragraph",
+        "text": "Cutting the exotic did not make the syllabus small. It made it deep in fewer places. The student who reaches the top half of an IOI has not learned more topics than the one who does not, they have learned the same topics until recognising them in disguise takes seconds."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "An included structure, in twenty lines",
+        "id": "trie-example"
+      },
+      {
+        "type": "paragraph",
+        "text": "Since tries are in and the heavier string structures are out, here is a trie doing something a student might otherwise reach for a suffix automaton to do: counting how many stored words start with a given prefix."
+      },
+      {
+        "type": "code",
+        "language": "python",
+        "code": "class Trie:\n    def __init__(self):\n        self.children = {}\n        self.passing = 0          # how many inserted words go through this node\n\n    def insert(self, word):\n        node = self\n        for ch in word:\n            node = node.children.setdefault(ch, Trie())\n            node.passing += 1\n\n    def count_with_prefix(self, prefix):\n        node = self\n        for ch in prefix:\n            if ch not in node.children:\n                return 0\n            node = node.children[ch]\n        return node.passing\n\n\ntree = Trie()\nfor word in [\"car\", \"cart\", \"carbon\", \"cat\", \"dog\", \"do\"]:\n    tree.insert(word)\n\nfor prefix in [\"car\", \"ca\", \"do\", \"z\"]:\n    print(\"%-4s -> %d\" % (prefix, tree.count_with_prefix(prefix)))"
+      },
+      {
+        "type": "code",
+        "language": "text",
+        "code": "car  -> 3\nca   -> 4\ndo   -> 2\nz    -> 0"
+      },
+      {
+        "type": "paragraph",
+        "text": "Four prefixes, four correct answers, and the counting happens during insertion rather than during the query, which is the same idea as the prefix sums that carry so much of competitive programming. The structure is small enough to write from memory under time pressure, and that is precisely why it is inside the syllabus and the suffix automaton is not."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Getting to the IOI at all",
+        "id": "selection"
+      },
+      {
+        "type": "paragraph",
+        "text": "The syllabus tells you what to study. It says nothing about how a student gets into the room, because that is decided nationally and differs sharply from country to country. Almost everywhere the shape is the same though: a national olympiad in informatics, then one or more selection rounds or a training camp, then a team of up to four."
+      },
+      {
+        "type": "paragraph",
+        "text": "The practical consequence is that the national round is the actual gate, and its syllabus and format may differ from the IOI's. A student preparing purely against the IOI syllabus and ignoring their own country's selection format is optimising the second exam while failing the first."
+      },
+      {
+        "type": "list",
+        "style": "ordered",
+        "items": [
+          "<strong>Find your national olympiad's own rules first.</strong> Its dates, its eligibility, its format, its language rules. This is where more talented students are lost than anywhere else, and it is lost to administration rather than to ability.",
+          "<strong>Then use the IOI syllabus as the study map.</strong> Its included list is a better curriculum than any course, and its excluded list is permission to stop worrying about half of what the internet says you need.",
+          "<strong>Work in C++ once you are serious.</strong> It is the only language supported at the IOI, so a path that goes all the way ends there regardless of where it starts.",
+          "<strong>Practise on past IOI and national tasks, under the real clock.</strong> Five hours for three tasks is a specific endurance and a specific pacing problem, and neither is trainable in twenty minute sessions."
+        ]
+      },
+      {
+        "type": "quote",
+        "text": "The syllabus is the most under used document in olympiad preparation. It is short, it is free, and it tells a student what not to do, which is the harder half of a study plan.",
+        "author": "What we say in the first session with every olympiad student"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "How we train for it",
+        "id": "how-we-teach"
+      },
+      {
+        "type": "paragraph",
+        "text": "Olympiad training goes wrong in a predictable way: a student accumulates topics, feels productive, and never develops the recognition that makes a five hour paper survivable. We work the other way, against the included list only, on past tasks with the topic label hidden, so that identifying what a problem wants is part of the exercise rather than something the section heading gave away."
+      },
+      {
+        "type": "paragraph",
+        "text": "Our <a href='/ioi-olympiad-informatics-training'>olympiad informatics training</a> is live, one to one or in a batch of five to eight students, taught from India to students worldwide. Students usually arrive from a national round or from <a href='/blog/usaco-bronze-to-silver-what-blocks-most-students'>USACO Silver or Gold</a>, and the first session is normally spent working out which of the things they have been studying they can safely stop studying. The first class is free."
+      },
+      {
+        "type": "button",
+        "text": "Book a free olympiad training class",
+        "url": "/ioi-olympiad-informatics-training",
+        "style": "primary"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Frequently asked questions",
+        "id": "faq"
+      },
+      {
+        "type": "accordion",
+        "items": [
+          {
+            "title": "Where can the syllabus be read?",
+            "content": "The International Olympiad in Informatics publishes it on its own website as a PDF, produced by the International Scientific Committee for each olympiad. It is a short document and worth reading end to end once, then keeping open while planning study."
+          },
+          {
+            "title": "Is it really true that suffix automata are excluded?",
+            "content": "Yes. String algorithms and data structures are explicitly excluded and the syllabus names KMP, Rabin-Karp hashing, suffix arrays, suffix trees, suffix automata and Aho-Corasick. A contestant may still use any of them. No task will require one or reward one with a better score."
+          },
+          {
+            "title": "Does excluded mean the topic is useless?",
+            "content": "Not at all, and this is worth being clear about. Plenty of excluded topics are valuable in competitive programming generally and essential in later computer science. They simply are not what the IOI is testing, so they belong in a student's life after the olympiad rather than in the months before it."
+          },
+          {
+            "title": "Which language should an olympiad student use?",
+            "content": "C++, once they are serious, because it is the only language supported at the IOI. Getting there through Python or Java is entirely normal and many national rounds accept more languages, but the transition needs to happen well before the international stage rather than during it."
+          },
+          {
+            "title": "How much mathematics is needed?",
+            "content": "Less exotic mathematics than students assume, and more comfort with the basic discrete kind. Integers and their properties, modular arithmetic, plane geometry, combinatorics and graph theory carry almost everything. Calculus and linear algebra carry nothing here."
+          },
+          {
+            "title": "What is a realistic timeline?",
+            "content": "For a student already competing nationally, a year or two of consistent work to be competitive at selection. For a student starting from ordinary school programming, longer, and the honest first step is a graded contest ladder rather than the IOI syllabus, because the syllabus assumes fluency it does not teach."
+          },
+          {
+            "title": "Is scoring all or nothing?",
+            "content": "No. IOI tasks award partial scores, often through subtasks with smaller constraints, so a solution that is correct but too slow for the largest inputs still earns something. This is a genuine difference from many national contests and it changes contest strategy: writing the obvious slow solution first is frequently the right opening move."
+          }
+        ]
+      }
+    ]
+  },
+  "relatedPosts": [
+    "usaco-bronze-to-silver-what-blocks-most-students",
+    "how-to-get-a-5-in-ap-computer-science-a",
+    "cambridge-9618-paper-4-python-java-or-visual-basic"
+  ]
+}
