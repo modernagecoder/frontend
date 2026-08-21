@@ -561,6 +561,14 @@ A real timed problem from a past contest in the student's current division, run 
 
 A mentor calls you at a reasonable hour to arrange the free class. Nothing is charged and no card is requested. Tell us the current division on the call, because Bronze and Gold coaching are different products and it changes the honest recommendation immediately.
 
+Read next
+
+## Bronze forgives a slow solution. Silver does not.
+
+The wall between the divisions, measured on a real program rather than described, and the four ideas that carry almost every Silver problem.
+
+[What actually blocks USACO students at Silver](/blog/usaco-bronze-to-silver-what-blocks-most-students)
+
 Enrol
 
 ## Book the free first class, and get a real diagnosis

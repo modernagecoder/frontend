@@ -569,6 +569,14 @@ We teach from India to students worldwide, and slots are arranged around the stu
 
 A mentor calls you to arrange the free class. Nothing is charged and no card is requested. Tell us the exam date on that call, because it determines whether a group batch or one to one is the honest recommendation, and those are different answers in September and in February.
 
+Read next
+
+## A quarter of candidates scored a 5 in 2026. Almost a quarter scored a 1.
+
+The full 2026 distribution, the four free response types by name, the unit weightings that say where the study hours belong, and the ArrayList loop that costs more marks than any other single mistake.
+
+[How to get a 5 in AP Computer Science A](/blog/how-to-get-a-5-in-ap-computer-science-a)
+
 Enrol
 
 ## Book the free first class, and get an honest read on the year

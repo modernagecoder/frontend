@@ -562,6 +562,14 @@ A diagnostic rather than a sales call. Usually one Paper 2 style design question
 
 A mentor calls you at a reasonable hour to arrange the free class. Nothing is charged and no card is requested. Tell us the entry series and whether the student is taking AS only or the full A Level, because those two facts change the honest recommendation more than anything else.
 
+Read next
+
+## The language choice reaches one paper out of four.
+
+What Paper 4 actually examines, the same file handling task written in Python and in Java with both outputs, and the two pseudocode conventions that change between IGCSE and A Level.
+
+[Python, Java or Visual Basic for Paper 4](/blog/cambridge-9618-paper-4-python-java-or-visual-basic)
+
 Enrol
 
 ## Book the free first class, and find out which of the two disciplines is weak

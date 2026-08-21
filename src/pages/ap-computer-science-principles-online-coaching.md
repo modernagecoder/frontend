@@ -562,6 +562,14 @@ A short diagnostic rather than a sales call. If the student already has a projec
 
 A mentor calls you to arrange the free class. Nothing is charged and no card is requested. Tell us the exam date and whether the Create task has been started, because those two facts decide whether a batch or one to one is the honest recommendation.
 
+Read next
+
+## Principles is the easier course to sit and the harder 5 to earn.
+
+Ten per cent of Principles candidates scored a 5 in 2026 against twenty five per cent in Computer Science A. The comparison, and the one question that settles which order to take them in.
+
+[AP CSP vs AP CSA: which to take first](/blog/ap-csp-vs-ap-csa-which-to-take-first)
+
 Enrol
 
 ## Book the free first class, and get an honest read on the project

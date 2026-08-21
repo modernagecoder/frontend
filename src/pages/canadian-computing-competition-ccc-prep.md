@@ -569,6 +569,14 @@ A timed past paper problem, sat properly, and a conversation about which divisio
 
 A mentor calls you at a reasonable hour to arrange the free class. Nothing is charged and no card is requested. Tell us the student's grade and how long they have been programming, because those two facts together start the division conversation, which is where everything else follows from.
 
+Read next
+
+## Students choose their own CCC level, and most choose it by age.
+
+A test that settles the level honestly, the scoring arithmetic that turns thirty five points into fifty on the same afternoon, and where the invitation to the CCO actually goes.
+
+[CCC Junior or Senior, and how to score](/blog/canadian-computing-competition-junior-or-senior)
+
 Enrol
 
 ## Book the free first class, and settle the division question

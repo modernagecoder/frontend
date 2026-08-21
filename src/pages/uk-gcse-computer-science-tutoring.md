@@ -564,6 +564,14 @@ A short diagnostic rather than a sales call. Usually one small programming quest
 
 A mentor calls you at a reasonable hour to arrange the free class. Nothing is charged and no card is requested. Have the exam board to hand if you can, because the honest recommendation depends on it more than on anything else you can tell us.
 
+Read next
+
+## One paper rewards knowing things. The other rewards making them.
+
+AQA publishes the split and it is close to a mirror image. What that means for a revision timetable, plus the OCR exam language every J277 student meets for the first time in the hall.
+
+[How to revise GCSE Computer Science](/blog/how-to-revise-gcse-computer-science)
+
 Enrol
 
 ## Book the free first class, and bring your exam board

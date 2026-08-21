@@ -562,6 +562,14 @@ A short diagnostic rather than a sales call. Usually one Paper 2 style question 
 
 A mentor calls you at a reasonable hour to arrange the free class. Nothing is charged and no card is requested. Tell us the level, the language and whether the IA has been scoped, because those three facts decide what the honest recommendation is.
 
+Read next
+
+## The internal assessment no longer requires a client.
+
+What the guide first assessed in 2027 actually changed, why criteria A and E still reward having a real one, and where to find a person with a genuine problem this month.
+
+[The IB Computer Science IA client rule](/blog/ib-computer-science-ia-client-rule-2027)
+
 Enrol
 
 ## Book the free first class, and find out where the risk sits

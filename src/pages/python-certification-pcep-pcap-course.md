@@ -565,6 +565,14 @@ A short diagnostic that is mostly predicting output: a few fragments, written an
 
 A mentor calls you at a reasonable hour to arrange the free class. Nothing is charged and no card is requested. Tell us why you want the certification on that call, because the honest recommendation genuinely differs depending on whether somebody asked you for it or you chose it yourself.
 
+Read next
+
+## Two certifications, four times apart in price, testing different things.
+
+What each exam contains, the closure and generator questions that separate them, and an honest answer about who should buy one and who should build something instead.
+
+[PCEP vs PCAP, and whether either is worth it](/blog/pcep-vs-pcap-which-python-certification)
+
 Enrol
 
 ## Book the free first class, and get a straight answer on whether to bother

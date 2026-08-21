@@ -563,6 +563,14 @@ A real olympiad-level problem, attempted with the clock running, followed by a c
 
 A mentor calls you at a reasonable hour to arrange the free class. Nothing is charged and no card is requested. Tell us the country on the call, because the selection route differs everywhere and it is the first thing we need to look up together.
 
+Read next
+
+## The IOI publishes a syllabus, and its exclusions are the useful half.
+
+No calculus, no linear algebra, no suffix automata and no requirement to implement a hash table. What that leaves, and why the remaining list is deeper than it is wide.
+
+[What the IOI syllabus says to skip](/blog/ioi-syllabus-what-to-learn-and-what-to-skip)
+
 Enrol
 
 ## Book the free first class, and start from your country's actual route

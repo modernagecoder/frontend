@@ -579,6 +579,14 @@ A short diagnostic rather than a sales call. Usually a small algorithm question 
 
 A mentor calls you at a reasonable hour to arrange the free class. Nothing is charged and no card is requested. Tell us the exam series on the call, because a June entry and a November entry lead to different honest recommendations about format.
 
+Read next
+
+## Cambridge publishes exactly how pseudocode appears in the 0478 papers.
+
+The indentation rule almost nobody teaches, the identifier rules the mark scheme applies, and the one thing that goes wrong when a student answers in Python instead.
+
+[The 0478 pseudocode rules examiners mark](/blog/igcse-computer-science-0478-pseudocode-guide)
+
 Enrol
 
 ## Book the free first class, and find out which paper is the weak one
