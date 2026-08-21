@@ -1,0 +1,268 @@
+{
+  "meta": {
+    "slug": "canadian-computing-competition-junior-or-senior",
+    "title": "CCC Junior or Senior? How to Choose and How to Score",
+    "description": "The Canadian Computing Competition lets students pick their own level. How to choose it honestly, and the scoring strategy that beats trying harder.",
+    "keywords": [
+      "canadian computing competition",
+      "ccc junior or senior",
+      "ccc preparation",
+      "ccc contest format",
+      "canadian computing olympiad",
+      "cemc ccc python"
+    ],
+    "author": {
+      "name": "Modern Age Coders Team",
+      "bio": "Expert educators making coding and maths clear for ages 6 to 67.",
+      "avatar": "/images/logo.svg"
+    },
+    "date": "2026-08-21",
+    "dateModified": "2026-08-21",
+    "category": "Programming",
+    "tags": [
+      "CCC",
+      "Competitive Programming",
+      "Olympiad",
+      "Python"
+    ],
+    "readTime": "9 min read",
+    "featured": false,
+    "tldr": "The Canadian Computing Competition runs at two levels, Junior and Senior, and students choose which one to write rather than being assigned by grade. Both are five problems worth fifteen points each, seventy five in total, in three hours. Junior climbs from a single loop to recursion and two dimensional arrays. Senior climbs from sorting and searching to a final question the CEMC itself describes as IOI level. The scoring strategy that beats working harder is finishing three problems completely rather than starting five."
+  },
+  "hero": {
+    "title": "CCC Junior or Senior? How to Choose and How to Score",
+    "subtitle": "Two decisions decide most CCC results, and neither of them is how much a student practised. One is which level they wrote. The other is what they did with the last hour.",
+    "featuredImage": {
+      "url": "/images/blog/canadian-computing-competition-junior-or-senior/00-hero.png",
+      "alt": "Canadian Computing Competition format: five problems, fifteen points each, seventy five total, three hours"
+    }
+  },
+  "content": {
+    "sections": [
+      {
+        "type": "toc"
+      },
+      {
+        "type": "paragraph",
+        "text": "The Canadian Computing Competition is run by the Centre for Education in Mathematics and Computing at the University of Waterloo, it is written in schools in one three hour sitting in February, and it is one of the most useful contests a school age programmer can enter. It is also one where two decisions made before and during the contest matter more than months of practice."
+      },
+      {
+        "type": "paragraph",
+        "text": "The first is which of the two levels to write, because the student chooses. The second is how to spend the last hour, which is where most of the available points are quietly lost."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "The format, in one paragraph",
+        "id": "format"
+      },
+      {
+        "type": "paragraph",
+        "text": "Both levels are the same shape. <strong>Five problems, fifteen points each, seventy five points in total, three hours.</strong> Any full-time student may compete regardless of grade, and solutions may be written in C, C++, Python 2, Python 3 or Java. The CEMC notes that Python and Java may limit a student on the hardest problems for reasons of language design, which is honest of them and worth knowing rather than worrying about, since it only bites at the very top of the Senior paper."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Choosing the level honestly",
+        "id": "choosing-a-level"
+      },
+      {
+        "type": "image",
+        "url": "/images/blog/canadian-computing-competition-junior-or-senior/01-the-ramp.png",
+        "alt": "The difficulty ramp of the CCC Junior and Senior papers, from a single loop to an IOI level question",
+        "caption": "Both papers ramp across five problems. They start and finish at different altitudes."
+      },
+      {
+        "type": "paragraph",
+        "text": "Junior is described as being for beginner to intermediate programmers, and its ramp runs from straightforward programming with a loop and a condition, through problems needing loops and conditions and counting together, up to recursion and two dimensional arrays at the top. Senior is for intermediate to advanced, running from basic algorithms like sorting and searching, through more advanced mathematical reasoning, to a final question the CEMC itself calls an IOI level question."
+      },
+      {
+        "type": "paragraph",
+        "text": "Because the choice is the student's rather than the school's, two mistakes are common and they are opposite mistakes."
+      },
+      {
+        "type": "list",
+        "style": "unordered",
+        "items": [
+          "<strong>A capable Grade 9 student writing Junior because of their age.</strong> If two dimensional arrays and recursion are comfortable, Junior will be finished in ninety minutes and will have measured nothing. Senior is the honest paper for them, even if the score is lower, because a low Senior score contains more information and more improvement.",
+          "<strong>A Grade 12 student writing Senior because of their age.</strong> If sorting and searching are not yet fluent, Senior produces a small score, a bad afternoon and no useful signal. There is no rule that says an older student must write Senior, and a strong Junior result is a better foundation than a demoralising Senior one."
+        ]
+      },
+      {
+        "type": "callout",
+        "calloutType": "tip",
+        "title": "The test we use for the level choice",
+        "text": "Give the student an old J5, the top Junior problem, with no help and a clock. If they solve it inside forty five minutes, they should be writing Senior. If they get most of the way, either paper is defensible. If they do not know where to start, Junior is the right paper this year and Senior is the right paper next year."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "The J5 kind of problem, worked",
+        "id": "two-d-arrays"
+      },
+      {
+        "type": "paragraph",
+        "text": "Since two dimensional arrays sit at the top of Junior and underneath a good deal of Senior, here is one done properly. A grid of costs, and the cheapest route from the top left to the bottom right moving only right or down."
+      },
+      {
+        "type": "code",
+        "language": "python",
+        "code": "grid = [[1, 3, 1, 8],\n        [1, 5, 1, 2],\n        [4, 2, 1, 9]]\n\nrows = len(grid)\ncols = len(grid[0])\n\n# cost[r][c] = cheapest total cost of reaching that square from the top left\ncost = [[0] * cols for _ in range(rows)]\ncost[0][0] = grid[0][0]\n\nfor c in range(1, cols):\n    cost[0][c] = cost[0][c - 1] + grid[0][c]\n\nfor r in range(1, rows):\n    cost[r][0] = cost[r - 1][0] + grid[r][0]\n\nfor r in range(1, rows):\n    for c in range(1, cols):\n        cost[r][c] = grid[r][c] + min(cost[r - 1][c], cost[r][c - 1])\n\nfor row in cost:\n    print(\" \".join(\"%3d\" % value for value in row))\n\nprint(\"cheapest route costs\", cost[rows - 1][cols - 1])"
+      },
+      {
+        "type": "code",
+        "language": "text",
+        "code": "  1   4   5  13\n  2   7   6   8\n  6   8   7  16\ncheapest route costs 16"
+      },
+      {
+        "type": "paragraph",
+        "text": "The printed grid is the interesting part, not the final number. Each cell holds the cheapest cost of reaching that cell, built from the two cells that can lead into it. Nothing is tried twice and nothing is guessed. A student who can write this, explain why the first row and first column are handled separately, and see that the same table would answer the question for every destination and not just the corner, is ready for Senior."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "The scoring strategy that beats working harder",
+        "id": "scoring"
+      },
+      {
+        "type": "image",
+        "url": "/images/blog/canadian-computing-competition-junior-or-senior/02-scoring.png",
+        "alt": "Two ways to spend three hours on a CCC paper, one attempting everything and one finishing what you start",
+        "caption": "The same ability, the same three hours, and fifteen points between them."
+      },
+      {
+        "type": "paragraph",
+        "text": "Five problems, fifteen points each, and partial credit available within each problem. That structure has a consequence that students almost never act on: <strong>a completed problem is worth more than two half attempted ones</strong>, and the last problem is worth exactly the same fifteen points as the first."
+      },
+      {
+        "type": "paragraph",
+        "text": "Watch what happens with the common plan, which is to read all five, start at the top and keep moving. The student takes S1 cleanly, gets most of S2, gets a few test cases on S3, scrapes something on S4, and spends the last forty minutes on S5 getting nothing. Thirty five points, and a genuine feeling of having worked hard for three hours."
+      },
+      {
+        "type": "paragraph",
+        "text": "Now the same student with a different plan. Finish S1 completely, including the awkward input cases. Finish S2 completely. Finish S3 completely. Take whatever falls out of S4 in the time that remains, and never open S5 at all. Fifty points, from the same knowledge and the same afternoon."
+      },
+      {
+        "type": "list",
+        "style": "ordered",
+        "items": [
+          "<strong>Read all five problems in the first ten minutes.</strong> Not to solve them, to rank them. The problems are ordered by the setters' idea of difficulty, not by yours, and occasionally the fourth is easier for you than the third.",
+          "<strong>Finish the easy ones properly before starting anything hard.</strong> That includes the boring part, which is the edge cases. Points lost to a missed empty input on S1 cost exactly as much as points lost on S5.",
+          "<strong>Set a hard limit on the hardest problem you attempt.</strong> If nothing is working after twenty minutes, go back and reread your finished solutions instead. Rechecking S1 has a better expected value than starting S5.",
+          "<strong>Do not open the last Senior problem unless everything else is done.</strong> The CEMC describes it as an IOI level question. For all but a handful of candidates in the country it is not a scoring opportunity, it is a way of spending an hour."
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Where the CCC leads",
+        "id": "the-cco"
+      },
+      {
+        "type": "image",
+        "url": "/images/blog/canadian-computing-competition-junior-or-senior/03-to-the-cco.png",
+        "alt": "The route from the CCC in February to the Canadian Computing Olympiad and the IOI team",
+        "caption": "The February paper is a school hall. The route out of it is narrow and clearly marked."
+      },
+      {
+        "type": "paragraph",
+        "text": "For most students the CCC is worth doing for its own sake, as one of the few things on a school record that measures problem solving rather than syllabus coverage. For a small number it is a first step. Approximately twenty of the top official CCC Senior participants from schools in Canada are invited to the Canadian Computing Olympiad, a week long invitational event at Waterloo in the spring with contest days and workshops, and Canada's International Olympiad in Informatics team is selected from there."
+      },
+      {
+        "type": "callout",
+        "calloutType": "warning",
+        "title": "An important distinction for international students",
+        "text": "The CCC itself may be written by any full-time student. The CCO invitation is for participants at schools in Canada. A student writing the CCC from elsewhere in the world gets a real contest, a real score and something genuine to point at, and should understand before February that the olympiad route from it is a Canadian one."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Preparing between now and February",
+        "id": "preparing"
+      },
+      {
+        "type": "paragraph",
+        "text": "The contest sits in February each year, which makes the autumn the sensible preparation window and January much too late to start. For the 2026 to 2027 school year the CEMC lists the contest as 17 February 2027 in North and South America and 18 February 2027 elsewhere, with an ordering deadline for schools of 11 February 2027. That deadline is worth putting in a teacher's calendar rather than a student's, because it is the school that orders."
+      },
+      {
+        "type": "list",
+        "style": "unordered",
+        "items": [
+          "<strong>Write past papers, whole, under three hours.</strong> Past CCC papers are published. Doing one complete paper properly teaches more than twenty individual problems, because it trains the ranking and pacing decisions that decide the score.",
+          "<strong>Practise reading input carefully.</strong> A surprising share of lost points are input handling rather than algorithms, and it is the most fixable category of mistake there is.",
+          "<strong>Get comfortable with two dimensional arrays early.</strong> They sit at the top of Junior and underneath a lot of Senior, and they are the last thing most school courses reach.",
+          "<strong>If Senior is the goal, work on sorting and searching until they are automatic.</strong> They are where the Senior paper starts, which means anything less than fluency costs time on the problems that were meant to be free."
+        ]
+      },
+      {
+        "type": "quote",
+        "text": "The student who scores fifty is rarely cleverer than the one who scores thirty five. They just stopped starting things.",
+        "author": "The whole of contest strategy, for a first timer"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "How we prepare students for it",
+        "id": "how-we-teach"
+      },
+      {
+        "type": "paragraph",
+        "text": "Most CCC coaching is topic coaching, and topics are the easy half. What we spend time on is the afternoon itself: reading five problems and ranking them, deciding what not to attempt, and the discipline of finishing a solution completely when a harder one is sitting there looking more interesting. Those are habits, and habits need somebody watching to form."
+      },
+      {
+        "type": "paragraph",
+        "text": "Our <a href='/canadian-computing-competition-ccc-prep'>CCC preparation</a> is live, one to one or in a batch of five to eight students, taught from India to students in Canada and worldwide. Students often arrive alongside <a href='/blog/usaco-bronze-to-silver-what-blocks-most-students'>USACO</a>, and the two prepare each other well. The first class is free, and the most useful thing to bring is a past paper the student attempted and a note of where the three hours went."
+      },
+      {
+        "type": "button",
+        "text": "Book a free CCC preparation class",
+        "url": "/canadian-computing-competition-ccc-prep",
+        "style": "primary"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Frequently asked questions",
+        "id": "faq"
+      },
+      {
+        "type": "accordion",
+        "items": [
+          {
+            "title": "Who is allowed to write the CCC?",
+            "content": "Any full-time student, regardless of grade. It is written at schools, so a student's first step is asking whether their school runs it, and the school orders the contest ahead of a deadline in the February it is held."
+          },
+          {
+            "title": "Can a student write both Junior and Senior?",
+            "content": "A student writes one level in a given year. The useful way to think about it is that Junior and Senior are two different papers rather than two halves of one, so the question is which paper will produce a real measurement this year."
+          },
+          {
+            "title": "Which language should a student use?",
+            "content": "Whichever they are fluent in, from C, C++, Python 2, Python 3 or Java. The CEMC notes that Python and Java may limit a student on the hardest problems, which is true and only matters at the very top of the Senior paper. Nobody has ever lost a Junior point to language choice."
+          },
+          {
+            "title": "Is partial credit available?",
+            "content": "Yes, within each of the five problems, which is what makes the finish-what-you-start strategy work. It also means a solution that handles the smaller cases correctly is worth writing even when the general case is out of reach."
+          },
+          {
+            "title": "How do students qualify for the Canadian Computing Olympiad?",
+            "content": "By invitation. Approximately twenty of the top official CCC Senior participants from schools in Canada are invited to the CCO, a week long event at Waterloo in the spring, and Canada's IOI team is selected from it."
+          },
+          {
+            "title": "How does the CCC compare with USACO?",
+            "content": "They complement each other. USACO runs several contests a year with automatic promotion between divisions, so it gives more frequent feedback. The CCC is one sitting a year with a fixed five problem structure, which makes it a better rehearsal for the pacing an olympiad paper demands."
+          },
+          {
+            "title": "When should preparation start?",
+            "content": "September, for a February contest. The most valuable preparation is whole past papers under the clock, and there is no way to compress that into January. A student who has written four complete past papers by the end of January arrives knowing how their own three hours behave."
+          }
+        ]
+      }
+    ]
+  },
+  "relatedPosts": [
+    "usaco-bronze-to-silver-what-blocks-most-students",
+    "ioi-syllabus-what-to-learn-and-what-to-skip",
+    "how-to-get-a-5-in-ap-computer-science-a"
+  ]
+}
