@@ -1,0 +1,405 @@
+{
+  "meta": {
+    "slug": "how-to-get-a-5-in-ap-computer-science-a",
+    "title": "How to Get a 5 in AP Computer Science A (2026)",
+    "description": "In 2026 a quarter of candidates scored 5 and almost a quarter scored 1. Here is what separates them on the new four unit course, question by question.",
+    "keywords": [
+      "how to get a 5 in ap computer science a",
+      "ap csa score distribution 2026",
+      "ap computer science a frq",
+      "ap csa study plan",
+      "ap computer science a units",
+      "ap csa data collections",
+      "ap computer science a exam format 2026"
+    ],
+    "author": {
+      "name": "Modern Age Coders Team",
+      "bio": "Expert educators making coding and maths clear for ages 6 to 67.",
+      "avatar": "/images/logo.svg"
+    },
+    "date": "2026-08-21",
+    "dateModified": "2026-08-21",
+    "category": "Education",
+    "tags": [
+      "AP Computer Science",
+      "Java",
+      "Exam Prep",
+      "High School"
+    ],
+    "readTime": "11 min read",
+    "featured": false,
+    "tldr": "In May 2026, 25 per cent of AP Computer Science A candidates scored a 5 and 23 per cent scored a 1, with very few in the middle. The exam is 42 multiple choice questions worth 55 per cent and four free response questions worth 45 per cent. The four written questions are always the same four types, and Data Collections carries 30 to 40 per cent of the multiple choice, so a student who can traverse an ArrayList and a 2D array under time pressure is most of the way to a 5."
+  },
+  "hero": {
+    "title": "How to Get a 5 in AP Computer Science A",
+    "subtitle": "The 2026 scores are out, the course has been rebuilt around four units, and the path to a 5 is narrower and clearer than it has been in years.",
+    "featuredImage": {
+      "url": "/images/blog/how-to-get-a-5-in-ap-computer-science-a/00-hero.png",
+      "alt": "How to get a 5 in AP Computer Science A: 25 per cent scored 5 and 23 per cent scored 1 in 2026"
+    }
+  },
+  "content": {
+    "sections": [
+      {
+        "type": "toc"
+      },
+      {
+        "type": "paragraph",
+        "text": "Every autumn a student asks us the same thing, usually in October, usually after a first test that did not go the way they expected. What does it actually take to get a 5? The honest answer used to be long. This year it is short, because the course changed underneath everyone and the 2026 results have just told us how that landed."
+      },
+      {
+        "type": "paragraph",
+        "text": "In May 2026, on the first exam set against the rebuilt four unit standards, <strong>25 per cent of candidates scored a 5 and 23 per cent scored a 1</strong>. Read those two numbers next to each other for a second. This is not a paper where most people cluster in the middle and a few drift to the edges. It is a paper that splits its candidates into two groups, and the thing that decides which group a student lands in is smaller and more specific than most families expect."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "What the 2026 scores actually say",
+        "id": "score-distribution"
+      },
+      {
+        "type": "paragraph",
+        "text": "Here is the full distribution as College Board published it, alongside AP Computer Science Principles for scale, because the comparison surprises almost everyone."
+      },
+      {
+        "type": "table",
+        "headers": [
+          "Score",
+          "AP Computer Science A, 2026",
+          "AP Computer Science Principles, 2026"
+        ],
+        "rows": [
+          [
+            "5",
+            "25%",
+            "10%"
+          ],
+          [
+            "4",
+            "26%",
+            "23%"
+          ],
+          [
+            "3",
+            "15%",
+            "30%"
+          ],
+          [
+            "2",
+            "11%",
+            "21%"
+          ],
+          [
+            "1",
+            "23%",
+            "16%"
+          ],
+          [
+            "3 or higher",
+            "66%",
+            "63%"
+          ]
+        ]
+      },
+      {
+        "type": "image",
+        "url": "/images/blog/how-to-get-a-5-in-ap-computer-science-a/01-score-distribution.png",
+        "alt": "Bar chart of the 2026 AP Computer Science A score distribution showing peaks at 5 and at 1",
+        "caption": "The 2026 AP Computer Science A distribution has two peaks and a thin middle."
+      },
+      {
+        "type": "paragraph",
+        "text": "The Java course, the one with a reputation for being the hard one, hands out <strong>two and a half times as many 5s</strong> as the friendlier looking Principles course. That is not because the Java paper is easy. It is because it is a skills exam. You can either write a loop that traverses a collection correctly under time pressure or you cannot, and that ability does not sit on a smooth curve. It arrives, usually suddenly, after enough hours at a keyboard."
+      },
+      {
+        "type": "callout",
+        "calloutType": "info",
+        "title": "Read the shape, not just the average",
+        "text": "A 66 per cent pass rate makes AP Computer Science A look like an average AP. The shape says something different. Almost half of all candidates are at one extreme or the other, so the useful question is not whether your child is above average, it is which of the two groups their current practice habit is putting them in."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "The four questions you will be asked to write",
+        "id": "the-four-frqs"
+      },
+      {
+        "type": "paragraph",
+        "text": "Section 2 is worth 45 per cent of the score and consists of four free response questions, typed as Java, with a Java Quick Reference available throughout. The important thing, and the single most under used fact in AP Computer Science A preparation, is that the four questions are always the same four types in the same order."
+      },
+      {
+        "type": "image",
+        "url": "/images/blog/how-to-get-a-5-in-ap-computer-science-a/02-four-frqs.png",
+        "alt": "The four AP Computer Science A free response question types: methods and control structures, class design, ArrayList data analysis, and 2D array",
+        "caption": "The types are fixed. Only the story around them changes each year."
+      },
+      {
+        "type": "list",
+        "style": "unordered",
+        "items": [
+          "<strong>Question 1, Methods and Control Structures.</strong> You are given a class and asked to use it. Create objects, call methods, wrap the calls in conditionals and loops. Nothing here asks you to design anything.",
+          "<strong>Question 2, Class Design.</strong> You write a whole class from a written specification, constructor and all. This is the question where students lose marks to missing accessor methods rather than to hard logic.",
+          "<strong>Question 3, Data Analysis with ArrayList.</strong> Build, traverse and modify an ArrayList. Almost every year some part of this question rewards a student who knows what happens to the indices when you remove an element mid loop.",
+          "<strong>Question 4, 2D Array.</strong> Traverse a grid. Sometimes every cell, sometimes one row, sometimes one column, sometimes until you find a target and stop."
+        ]
+      },
+      {
+        "type": "paragraph",
+        "text": "Four fixed shapes means preparation can be specific in a way it cannot be for most subjects. A student who has written twenty class definitions to specification does not have to think about question 2 on exam day, and the twelve minutes that buys is usually the difference between finishing question 4 and leaving it half written."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Where the marks live, unit by unit",
+        "id": "unit-weights"
+      },
+      {
+        "type": "paragraph",
+        "text": "The rebuilt course has four units, and the Course and Exam Description publishes what share of the multiple choice each one carries. The distribution is lopsided, and most study plans do not reflect it."
+      },
+      {
+        "type": "image",
+        "url": "/images/blog/how-to-get-a-5-in-ap-computer-science-a/04-unit-weights.png",
+        "alt": "Bar chart of AP Computer Science A unit weightings on the multiple choice section",
+        "caption": "Data Collections carries the largest share of the multiple choice, and two of the four written questions as well."
+      },
+      {
+        "type": "table",
+        "headers": [
+          "Unit",
+          "Share of the multiple choice"
+        ],
+        "rows": [
+          [
+            "1. Using Objects and Methods",
+            "15 to 25 per cent"
+          ],
+          [
+            "2. Selection and Iteration",
+            "25 to 35 per cent"
+          ],
+          [
+            "3. Class Creation",
+            "10 to 18 per cent"
+          ],
+          [
+            "4. Data Collections",
+            "30 to 40 per cent"
+          ]
+        ]
+      },
+      {
+        "type": "paragraph",
+        "text": "Now put that next to Section 2. Questions 3 and 4 are both collections questions. Add the two sections together and <strong>working with collections decides close to half the exam</strong>. If a student has three hours a week to give this course, the arithmetic says roughly ninety minutes of it belongs to arrays, ArrayLists and grids, every week, from the point they are introduced until the exam."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "The ArrayList slip that costs the most marks",
+        "id": "arraylist-trap"
+      },
+      {
+        "type": "paragraph",
+        "text": "Here is the specific thing we see in real student work more than any other. The task is ordinary: given a list of scores, remove every score below 50. The obvious loop looks completely correct."
+      },
+      {
+        "type": "code",
+        "language": "java",
+        "code": "for (int i = 0; i < scores.size(); i++) {\n    if (scores.get(i) < 50) {\n        scores.remove(i);\n    }\n}"
+      },
+      {
+        "type": "paragraph",
+        "text": "Run it on <code>[70, 40, 45, 90, 30]</code> and it prints this. The program is compiled and run, and the output below is what the JVM actually produced, not what it ought to produce."
+      },
+      {
+        "type": "code",
+        "language": "text",
+        "code": "[70, 45, 90]"
+      },
+      {
+        "type": "paragraph",
+        "text": "The 45 survived. When <code>remove(1)</code> deletes the 40, every later element shifts one place left, so 45 slides into index 1. Meanwhile <code>i</code> has moved on to 2. The loop never looks at 45 at all. Counting downwards fixes it, because removing an element only ever shifts the elements you have already inspected."
+      },
+      {
+        "type": "code",
+        "language": "java",
+        "code": "for (int i = scores.size() - 1; i >= 0; i--) {\n    if (scores.get(i) < 50) {\n        scores.remove(i);\n    }\n}"
+      },
+      {
+        "type": "code",
+        "language": "text",
+        "code": "[70, 90]"
+      },
+      {
+        "type": "image",
+        "url": "/images/blog/how-to-get-a-5-in-ap-computer-science-a/03-arraylist-removal.png",
+        "alt": "Side by side comparison of an ArrayList removal loop counting up and counting down, with their real outputs",
+        "caption": "The same task, two loops, both compile. Only one is right."
+      },
+      {
+        "type": "callout",
+        "calloutType": "warning",
+        "title": "Why this one matters out of proportion",
+        "text": "A student who has never met this behaviour does not just lose the mark. They lose the four or five minutes they spend rereading a loop that looks correct, and on a paper where question 4 is last, those minutes come out of the 2D array question. One misconception, two questions damaged."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Two dimensions, one mental model",
+        "id": "two-d-arrays"
+      },
+      {
+        "type": "paragraph",
+        "text": "Question 4 frightens students far more than it deserves to. A 2D array in Java is an array of arrays, which means <code>grid.length</code> is the number of rows and <code>grid[0].length</code> is the number of columns. Once that lands, a column traversal is just the two loops written in the other order."
+      },
+      {
+        "type": "code",
+        "language": "java",
+        "code": "public class Grid {\n    public static void main(String[] args) {\n        int[][] grid = {{3, 8, 1},\n                        {4, 0, 6},\n                        {9, 2, 7}};\n\n        for (int c = 0; c < grid[0].length; c++) {\n            int sum = 0;\n            for (int r = 0; r < grid.length; r++) {\n                sum += grid[r][c];\n            }\n            System.out.println(\"column \" + c + \" sums to \" + sum);\n        }\n    }\n}"
+      },
+      {
+        "type": "code",
+        "language": "text",
+        "code": "column 0 sums to 16\ncolumn 1 sums to 10\ncolumn 2 sums to 14"
+      },
+      {
+        "type": "paragraph",
+        "text": "That is the entire idea. Row major puts <code>r</code> on the outside, column major puts <code>c</code> on the outside, and everything else on question 4 is a variation on which cells you visit and what you do when you get there. Students who write this out ten times stop being frightened of it, and there is no shortcut that gets to the same place faster."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "What is no longer on the exam",
+        "id": "removed-content"
+      },
+      {
+        "type": "paragraph",
+        "text": "This is where a lot of preparation time is being wasted right now, because most study guides and most second hand textbooks still describe the ten unit course. The 2025-26 revision removed a substantial block of content."
+      },
+      {
+        "type": "list",
+        "style": "unordered",
+        "items": [
+          "<strong>Inheritance, polymorphism, <code>extends</code>, <code>super</code> and interfaces.</strong> Gone from the required content. There is no inheritance free response question, and there is no inheritance unit.",
+          "<strong>Writing recursive methods.</strong> Also removed. Recursion is a beautiful idea and it is not on this exam.",
+          "<strong>File input and output, with Scanner.</strong> Moved the other way, into the required sequence. Reading data from a file is now part of the course rather than an enrichment topic.",
+          "<strong>Working with data sets.</strong> Added, which is the clearest signal of where the course is heading."
+        ]
+      },
+      {
+        "type": "callout",
+        "calloutType": "tip",
+        "title": "Check the edition before you buy the book",
+        "text": "Any revision guide printed before 2025 will spend chapters on inheritance and recursion and will not mention file handling. It is not slightly out of date, it is describing a different exam. May 2026 was the first sitting on the new standards, so 2026 and later material is the only material that matches the paper your child will see."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "A study plan that matches those weights",
+        "id": "study-plan"
+      },
+      {
+        "type": "paragraph",
+        "text": "Most plans fail because they allocate equal time to unequal things. This one allocates by weight, and assumes a student starting in September for a May exam."
+      },
+      {
+        "type": "list",
+        "style": "ordered",
+        "items": [
+          "<strong>September to October, get fluent in the basics.</strong> Units 1 and 2. The goal is not understanding, it is speed. Tracing a nested loop should feel like reading, not like solving.",
+          "<strong>November, write classes to specification.</strong> Unit 3 is the smallest unit by weight but it is a whole free response question. Twenty small classes written to a written spec, from a description someone else wrote, not from your own idea.",
+          "<strong>December to February, live inside collections.</strong> Unit 4, and this is the long stretch on purpose. Arrays, then ArrayList, then 2D. Every practice problem uses a collection.",
+          "<strong>March, do full papers under time.</strong> Not questions, papers. Three hours, no pauses. The skill being trained here is pacing, and it can only be trained in one sitting units.",
+          "<strong>April, work only on what you got wrong.</strong> Go back over the marked papers and rebuild the two or three specific misconceptions that keep appearing. Almost nobody has more than three."
+        ]
+      },
+      {
+        "type": "paragraph",
+        "text": "If your child is reading this in February rather than September, the plan compresses but the order does not change. Collections still come before full papers, because doing timed papers on a skill you do not yet have simply measures the gap repeatedly."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "The digital exam, in practice",
+        "id": "bluebook"
+      },
+      {
+        "type": "paragraph",
+        "text": "The exam is taken digitally in Bluebook, three hours end to end, with Section 1 carrying 42 multiple choice questions at 55 per cent of the score and Section 2 carrying the four written questions at 45 per cent. The practical consequence is worth rehearsing before exam day: students type their Java rather than write it, and the editor is not the editor they practise in."
+      },
+      {
+        "type": "paragraph",
+        "text": "There is no compiler behind it and nothing tells you that a bracket is missing. Students who have only ever written Java inside an IDE that highlights errors as they type are relying on a helper that will not be there. Two or three practice sessions in a plain text editor with the syntax highlighting turned off is an unglamorous exercise that reliably saves marks."
+      },
+      {
+        "type": "quote",
+        "text": "The students who get 5s are not the ones who understood recursion the fastest. They are the ones who wrote the same four question types until the shapes stopped being surprising.",
+        "author": "What we tell every AP Computer Science A parent in the first class"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Where a teacher actually helps",
+        "id": "how-we-teach"
+      },
+      {
+        "type": "paragraph",
+        "text": "Most of what is above, a determined student can do alone. Two parts of it are much harder alone. The first is catching a misconception while it is forming, because a student who believes something wrong about how <code>remove</code> shifts indices will practise that belief for weeks unless somebody watches them work. The second is pacing, which is a habit rather than a piece of knowledge."
+      },
+      {
+        "type": "paragraph",
+        "text": "Our <a href='/ap-computer-science-a-online-classes'>AP Computer Science A classes</a> are live, either one to one or in a batch of five to eight students, taught from India to students across the world. We do not sell recordings in place of teaching, because a recording cannot see a student trace a loop wrongly and stop them mid keystroke. The first class is free and there is no card involved, so the sensible way to test any of this is to bring a question your child got wrong and watch what happens to it."
+      },
+      {
+        "type": "button",
+        "text": "Book a free AP Computer Science A class",
+        "url": "/ap-computer-science-a-online-classes",
+        "style": "primary"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Frequently asked questions",
+        "id": "faq"
+      },
+      {
+        "type": "accordion",
+        "items": [
+          {
+            "title": "Is a 5 in AP Computer Science A realistic for an average student?",
+            "content": "More realistic than in most APs, and the 2026 data is the reason. A quarter of all candidates scored a 5, which is a high share by AP standards. What the same data shows is that drifting through the course produces a 1 rather than a 3, so the strategy that works elsewhere, keeping up and hoping, is the one that fails here."
+          },
+          {
+            "title": "Does my child need to know Java before starting?",
+            "content": "No. The course begins from Java syntax and most students arrive with none. What does need to be there is the ability to reason through a problem in ordered steps. If that is not there yet, a term of programming foundations first is a better use of a year than starting the AP course and falling behind in October."
+          },
+          {
+            "title": "How many hours a week does this take?",
+            "content": "Three to five hours including class time, for a student targeting a 4 or 5 from a standing start. The number matters less than the distribution. Ninety minutes a week on collections from January onwards does more than five unfocused hours in April."
+          },
+          {
+            "title": "Is AP Computer Science A harder than AP Computer Science Principles?",
+            "content": "Harder to learn, easier to score well in. Principles asks for a portfolio task and a broader conceptual range, and only 10 per cent of its candidates scored a 5 in 2026 against 25 per cent in Computer Science A. If a student is willing to do the programming, the Java course is the better bet for a 5."
+          },
+          {
+            "title": "Can a student take the exam without taking the course at school?",
+            "content": "Yes. Plenty do, particularly students at schools that do not offer it. They need an exam centre that will take an external candidate, and arranging that is worth starting in the autumn rather than the spring, because places are limited and deadlines are early."
+          },
+          {
+            "title": "Which units should we start with if we are already behind?",
+            "content": "Unit 2 and then Unit 4, in that order, and skip nothing in between. Selection and iteration is what everything else is built on and Data Collections is where the marks are. Unit 3 can be compressed into a fortnight late on, because class design is a small amount of syntax practised many times."
+          },
+          {
+            "title": "Do we need a paid textbook?",
+            "content": "No, and be careful which one you buy if you do. Any book printed before 2025 describes the ten unit course, complete with chapters on inheritance and recursion that are no longer examined. The Course and Exam Description that College Board publishes free is the only document that is definitely current."
+          }
+        ]
+      }
+    ]
+  },
+  "relatedPosts": [
+    "ap-computer-science-a-changes-2026",
+    "igcse-computer-science-explained-for-parents",
+    "best-ai-coding-tools-for-students-2026"
+  ]
+}
