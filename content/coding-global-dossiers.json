@@ -2488,5 +2488,44 @@
       "A headline population for the wilayat. One published table gives about 200,994 at the 2022 census and the wilayat article gives about 140,577 for 2021. The two could not be reconciled at primary source, so no population figure appears on the page and the National Centre for Statistics and Information is named as the authority.",
       "A count of agricultural villages. One secondary source says the wilayat oversees about 46 agricultural villages while the wilayat article counts 32 villages in total. The page uses only the 32 figure and does not repeat the 46."
     ]
+  },
+  "coding-classes-in-saham": {
+    "market": "Saham, Al Batinah North",
+    "bodyClass": "cg-sah",
+    "curriculumAuthority": "Oman Ministry of Education, General Education Diploma, delivered in government schools across the wilayat. The page argues from distance rather than from curriculum: Saham is about 200 kilometres from Muscat, so the weekly cost of a physical class is a day rather than an evening, and that is the honest case for live online delivery.",
+    "localProject": "A number living inside a text label. Numbered outlet labels across two of Saham's named aflaj, sorted plainly, putting 10 before 2 and moving five of six positions. Assigned to this page and no other: natural sort was checked free against every page in the cluster before it was chosen, unlike the identifier and count-distinct traps which are already taken.",
+    "requiredMentions": [
+      "Al Souq Fort",
+      "Sur Al Shiyadi",
+      "Sur Al Buloosh",
+      "Mukhaileef",
+      "Khour Al Hamam",
+      "Al Manqel",
+      "Bani Ameer",
+      "Al Roodha",
+      "Al Mahab",
+      "Sheidah",
+      "Khor Al Milh",
+      "Hillat AlSouq",
+      "Wadi Aheen"
+    ],
+    "sources": [
+      {
+        "claim": "Saham is a coastal town in Al Batinah North between Al Khaburah and Sohar, about 200 km from Muscat; main industries are fishing and farming; the souq was renovated to modern standards in 2018 and holds a livestock market on the seventh day of Dhu al-Hijja; named regions include Majaz, Al-Huwail, Al-Marfa, Al-Hadeeb, Al-Gowaisa, Al-Deel and Hafeet, and the khors Khor Al Milh, Khor AlHimam and Khor AlShiyadi.",
+        "url": "https://en.wikipedia.org/wiki/Saham"
+      },
+      {
+        "claim": "Saham souq covers 130,000 square metres; the slaughterhouse opened in 2015; the aflaj Bani Ameer, Al Roodha, Al Mahab and Sheidah and the wadis Aheen, Khour Al Malh and Al Sakahn are named; Al Souq Fort was once the residence of the governor; villages include Sur Al Shiyadi, Sur Al Buloosh, Mukhaileef, Khour Al Hamam and Al Manqel.",
+        "url": "https://www.omanobserver.om/article/71156/1001/wilayat-of-saham-land-of-lemons-wadis-and-farms"
+      },
+      {
+        "claim": "Saham is recorded as one of the larger wilayats of Al Batinah North and sits between Al Khaboura and Sohar on the Sea of Oman coast, with lemon production historically exported in quantity.",
+        "url": "https://guide.opensooq.com/en/oman-en/comprehensive-guide-to-saham-in-al-batinah-oman/"
+      }
+    ],
+    "rejectedClaims": [
+      "A headline population. Three published figures exist on three different bases: 147,775 for 2017, 165,546 at the 2022 census, and about 122,493 for 2023 on an Omani-citizens-only series. Mixing bases would be worse than omitting the number, so no population appears on the page.",
+      "Any statement about the real rotation order of a named falaj. The four falaj names are published; their water shares are not ours to publish, and the outlet numbers in the project are labelled as teaching values."
+    ]
   }
 }

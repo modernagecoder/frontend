@@ -121,6 +121,7 @@
 .cg-root.cg-bur { --cg-accent: #7B5781; --cg-accent-soft: rgba(123,87,129,.09); }   /* Al Buraimi, the escarpment at dusk */
 .cg-root.cg-msd { --cg-accent: #413E5E; --cg-accent-soft: rgba(65,62,94,.09); }   /* Musandam, shadowed fjord walls */
 .cg-root.cg-suw { --cg-accent: #0F6E5C; --cg-accent-soft: rgba(15,110,92,.09); }   /* As Suwaiq, the shallow water over the long shore */
+.cg-root.cg-sah { --cg-accent: #8C6A00; --cg-accent-soft: rgba(140,106,0,.09); }   /* Saham, the lemon rind the wilayat exported */
 .cg-root.cg-wst { --cg-accent: #4A4800; --cg-accent-soft: rgba(74,72,0,.09); }   /* Al Wusta, the khaki scrub of the Jiddat al-Harasis */
 
 /* --------------------------------------------------------------------------
