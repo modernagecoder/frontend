@@ -2,67 +2,58 @@
   "meta": {
     "slug": "complete-swift-programming-masterclass-college",
     "date": "2026-01-13",
-    "title": "Swift Programming Masterclass: Zero to iOS & macOS Pro",
-    "description": "A 1-year Swift course: go from basics to professional iOS and macOS apps with SwiftUI, UIKit, Core Data, Combine, testing and App Store deployment.",
+    "dateModified": "2026-08-23",
+    "title": "Swift and iOS Course: SwiftUI Apps from Zero",
+    "description": "Swift course for college students and professionals: modern Swift, then real iOS development with SwiftUI, data, networking and a capstone app in 10-12 months.",
     "keywords": [
-      "swift programming",
-      "swift masterclass",
-      "learn swift",
-      "swift for beginners",
-      "ios development",
-      "swiftui",
-      "uikit",
-      "macos development",
-      "xcode",
-      "apple developer",
-      "swift certification",
-      "core swift",
-      "advanced swift",
-      "ios developer",
-      "swift career",
-      "swift for kids",
-      "combine framework",
-      "core data",
-      "app store deployment"
+      "swift course online",
+      "ios development course",
+      "swiftui course for beginners",
+      "swift programming course",
+      "ios app development course india",
+      "learn swift and ios",
+      "swiftui masterclass",
+      "ios developer course online",
+      "swift course for college students",
+      "apple app development course",
+      "best swift ios course",
+      "swift masterclass online"
     ],
-    "category": "Professional iOS/macOS Development",
+    "category": "App Development",
     "taxonomy": "mobile-dev",
     "price": {
       "group": "₹1,499/month",
       "personal": "₹4,999/month"
     },
-    "duration": "12 months (52 weeks)",
-    "level": "Complete Beginner to iOS/macOS Professional",
-    "commitment": "15-20 hours/week recommended",
-    "certification": "Industry-recognized Swift/iOS Developer certification upon completion",
+    "duration": "10-12 months (44-52 weeks)",
+    "level": "Complete beginner (18+); college students, graduates and working professionals",
+    "commitment": "2 live classes/week + 4-6 hours practice",
+    "certification": "Certificate from Modern Age Coders, awarded on passing the final exam",
     "image_path": "swift-college.webp"
   },
   "program_overview": {
-    "title": "Complete Swift Programming Masterclass",
-    "tagline": "From 'Hello World' to App Store Success",
-    "description": "This is not just a Swift course, it's a complete transformation into a professional Apple platform developer. Whether you're a curious beginner, student, working professional, or someone with zero coding experience, this 1-year masterclass will turn you into a highly skilled Swift developer capable of building stunning iOS apps, powerful macOS applications, watchOS experiences, and cross-platform solutions.\n\nYou'll master Swift from ground zero to professional architect level: from basic syntax to advanced protocols and generics, from simple views to complex SwiftUI animations, from local storage to cloud-synced Core Data, from single apps to multi-platform ecosystems. By the end, you'll have built 40+ projects, mastered the entire Apple development ecosystem, and be ready for senior iOS developer roles in top tech companies.",
+    "title": "Swift and iOS Masterclass",
+    "tagline": "The Apple stack learned honestly: Swift to real depth, SwiftUI as the future it already is, and a capstone app built to App Store discipline.",
+    "description": "iOS development is one of the most rewarding specializations in software, and it deserves an honest course: Swift learned as a real language, optionals, value types, protocols and concurrency understood properly, then iOS built the modern way with SwiftUI, architecture and state done right, data persistence, networking, and the production habits that make apps feel like Apple apps. A finale month ships a capstone and sits the final exam.\n\nOne honesty first: serious iOS development requires a Mac, Xcode runs only on macOS. This course says so upfront (see the FAQ for the realistic options) rather than discovering it for you in week three. With that settled, the pace is honest too: ten teaching months at two live classes a week plus four to six hours of practice, with two more in hand. Problem sets, monthly mixed reviews, phase exams, and a final exam that decides the certificate with a free retest.",
     "what_makes_this_different": [
-      "Starts from absolute zero - perfect for complete beginners",
-      "Separate learning tracks for kids (12+), teens, and adults",
-      "1 year of structured, industry-aligned learning",
-      "Covers Swift + SwiftUI + UIKit + Core Data + Combine + CloudKit",
-      "Real App Store projects and industry case studies",
-      "Hands-on with latest Swift versions (Swift 5.9+)",
-      "Interview preparation for top companies (Apple, Google, Meta)",
-      "Build production-ready App Store portfolio",
-      "Direct path to high-paying iOS developer jobs"
+      "The Mac requirement stated upfront, with realistic options, honesty most iOS courses skip",
+      "Swift as a language first: optionals, value semantics, protocols and structured concurrency understood properly",
+      "SwiftUI-first: the declarative future Apple is already building on",
+      "Apple-feel as a standard: human interface habits taught alongside code",
+      "An honest 10-month arc with 2 months in hand",
+      "Real assessment: weekly problem sets, monthly mixed reviews, phase exams and a final exam with a free retest"
     ],
     "learning_path": {
-      "phase_1": "Foundation (Months 1-3): Swift Fundamentals, OOP Basics, Core Swift Concepts, Playgrounds",
-      "phase_2": "Intermediate (Months 4-6): Advanced Swift, SwiftUI Deep Dive, UIKit Fundamentals, Data Persistence",
-      "phase_3": "Professional (Months 7-9): Networking, Core Data, Combine, Testing, Advanced UI/UX, Animations",
-      "phase_4": "Expert (Months 10-12): App Store Deployment, Performance, Architecture Patterns, Multi-Platform, Career Launch"
+      "phase_1": "Swift (Months 1-3): the language to real depth, optionals to protocols",
+      "phase_2": "SwiftUI (Months 4-6): views, state, navigation and interfaces that feel like Apple built them",
+      "phase_3": "Professional iOS (Months 7-9): architecture, data, networking, testing and release discipline",
+      "phase_4": "The finale (Month 10): the capstone app, shipped and defended, and the final exam"
     },
     "career_outcomes": [
-      "Junior iOS Developer (after 3 months)",
-      "iOS Developer (after 6 months)",
-      "Senior iOS Developer / Mobile Engineer (after 9 months)",
-      "Lead iOS Developer / Mobile Architect (after 12 months)"
+      "Modern iOS capability: SwiftUI, concurrency and architecture as one skill",
+      "Swift depth that transfers to every Apple platform",
+      "A capstone app built to App Store discipline",
+      "Honest next roads: iOS roles, indie development, or the wider Apple ecosystem"
     ]
   },
   "phase_1_foundation": {
@@ -330,7 +321,7 @@
           "Features: Books, members, issue/return, search, POP principles"
         ],
         "practice": "Solve 30 protocol and POP problems",
-        "assessment": "Phase 1 Final Assessment - Core Swift & Protocol-Oriented fundamentals test"
+        "assessment": "Phase 1 exam: a practical build defended live, plus a written paper mixing this phase with everything before it"
       }
     }
   },
@@ -821,7 +812,8 @@
           "Git repository for all projects",
           "Modular app structure"
         ],
-        "practice": "Convert all projects to modular structure"
+        "practice": "Convert all projects to modular structure",
+        "assessment": "Phase 2 exam: a practical build defended live, plus a written paper mixing this phase with everything before it"
       }
     }
   },
@@ -1190,7 +1182,6 @@
       "week_73_74": {
         "title": "In-App Purchases & Subscriptions",
         "topics": [
-          "App monetization strategies",
           "StoreKit framework overview",
           "StoreKit 2 (modern API)",
           "Product types: consumable, non-consumable, subscription",
@@ -1292,621 +1283,116 @@
           "Alternative: E-commerce App (products, cart, checkout, orders, payments)",
           "Alternative: Messaging App (real-time chat, media sharing, contacts)"
         ],
-        "assessment": "Phase 3 Final Exam - Professional iOS development comprehensive test"
+        "assessment": "Phase 3 exam: a practical build defended live, plus a written paper mixing this phase with everything before it"
       }
     }
   },
-  "phase_4_advanced_production": {
-    "title": "PHASE 4: Expert Development, Multi-Platform & Career Excellence (Months 10-12, Weeks 40-52)",
-    "description": "Master advanced topics, multi-platform development, App Store publishing, CI/CD, and career preparation.",
-    "month_19_20": {
-      "title": "Months 10-11: Multi-Platform & Advanced Topics",
-      "weeks": "Week 40-48",
-      "week_79_80": {
-        "title": "SwiftUI Advanced Topics",
+  "phase_4_finale": {
+    "title": "PHASE 4: The Finale (Month 10, Weeks 40-44)",
+    "description": "The capstone month: spec, build, ship and defend, then the final exam that decides the certificate.",
+    "month_10_finale": {
+      "title": "Month 10: Capstone and the Final Exam",
+      "weeks": "Weeks 40-44",
+      "week_40": {
+        "title": "Capstone Spec and Setup",
         "topics": [
-          "Custom view modifiers",
-          "PreferenceKey for child-to-parent communication",
-          "EnvironmentKey for custom environments",
-          "ViewBuilder and resultBuilder",
-          "Property wrapper deep dive",
-          "Creating custom property wrappers",
-          "Layout protocol (iOS 16+)",
-          "Custom layouts implementation",
-          "AnyLayout for dynamic layout switching",
-          "Observation framework (iOS 17+)",
-          "@Observable macro",
-          "Migration from ObservableObject",
-          "Performance optimization in SwiftUI",
-          "Lazy loading and equatable",
-          "SwiftUI debugging techniques"
+          "Choosing the capstone: a complete SwiftUI app with real data, networking and Apple-feel polish",
+          "A one-page spec: scope, milestones, stack",
+          "Repository and project skeleton ready on day one",
+          "Instructor sign-off before the build begins"
         ],
         "projects": [
-          "Custom modifier library",
-          "PreferenceKey implementations",
-          "Custom property wrappers",
-          "Advanced layout system",
-          "Observable migration project",
-          "SwiftUI performance optimization",
-          "Debug tooling for SwiftUI"
+          "Approved capstone spec plus the running skeleton"
         ],
-        "practice": "Build 8 advanced SwiftUI features"
+        "practice": "Pitch the spec to the batch and absorb one hard question"
       },
-      "week_81_82": {
-        "title": "WidgetKit & App Intents",
+      "week_41_42": {
+        "title": "Capstone Build",
         "topics": [
-          "WidgetKit fundamentals",
-          "Widget timeline and entries",
-          "Widget configuration types",
-          "Interactive widgets (iOS 17+)",
-          "Widget bundles",
-          "Widget sizes and families",
-          "Lock screen widgets",
-          "Widget intent configuration",
-          "App Intents framework",
-          "Shortcuts integration",
-          "Siri integration with App Intents",
-          "Focus filters",
-          "Live Activities",
-          "Dynamic Island (iPhone 14 Pro+)",
-          "ActivityKit for real-time updates"
+          "Two focused weeks of building in vertical slices",
+          "Instructor checkpoints and honest scope cuts",
+          "Using the whole course: Swift depth, SwiftUI, architecture, persistence and testing",
+          "Daily commits and an always-working build"
         ],
         "projects": [
-          "Static widget implementation",
-          "Configurable widget",
-          "Interactive widget (iOS 17)",
-          "Lock screen widget",
-          "Siri shortcuts integration",
-          "Live Activity for sports/delivery",
-          "Dynamic Island experience",
-          "Complete widget suite"
+          "The capstone, feature-complete with version control"
         ],
-        "practice": "Add widgets to 5 projects"
+        "practice": "A working build at the end of every session"
       },
-      "week_83_84": {
-        "title": "macOS Development with SwiftUI",
+      "week_43": {
+        "title": "Ship and Polish",
         "topics": [
-          "macOS app fundamentals",
-          "Differences from iOS development",
-          "macOS-specific views and controls",
-          "Window management",
-          "Menu bar apps",
-          "Settings/Preferences windows",
-          "Document-based apps",
-          "NSOpenPanel and NSSavePanel",
-          "Toolbar and sidebar navigation",
-          "Table view on macOS",
-          "Drag and drop support",
-          "macOS-specific APIs",
-          "Mac Catalyst for iPad apps",
-          "App Sandbox and capabilities",
-          "Notarization and distribution"
+          "The finishing pass: edge cases, errors, documentation",
+          "App Store readiness pass: assets, review rules and the honest release checklist",
+          "A README worth reading and a demo worth watching",
+          "A full-course spiral review before the exam"
         ],
         "projects": [
-          "macOS utility app",
-          "Menu bar application",
-          "Document-based text editor",
-          "macOS settings app",
-          "iPad app with Mac Catalyst",
-          "Cross-platform SwiftUI app",
-          "macOS productivity tool"
+          "The capstone shipped, documented and rehearsed"
         ],
-        "practice": "Build 6 macOS applications"
+        "practice": "Two mock demos, each tighter than the last"
       },
-      "week_85_86": {
-        "title": "watchOS & tvOS Development",
+      "week_44": {
+        "title": "Demo Day and the Final Exam",
         "topics": [
-          "watchOS app architecture",
-          "Watch-only vs companion apps",
-          "WatchKit basics",
-          "SwiftUI on watchOS",
-          "watchOS-specific complications",
-          "HealthKit integration",
-          "Workout session handling",
-          "Watch connectivity",
-          "Background refresh on watchOS",
-          "tvOS app fundamentals",
-          "Focus-based navigation",
-          "tvOS-specific UI patterns",
-          "Siri Remote input handling",
-          "Top Shelf extension",
-          "Multi-platform app targets"
+          "Presenting the capstone: live demo plus the hardest bug story",
+          "The honest map of next roads: iOS roles, indie apps, and the wider Apple platforms",
+          "Where our other courses continue the journey"
         ],
         "projects": [
-          "Standalone watchOS app",
-          "Watch complication",
-          "Fitness watch app with HealthKit",
-          "Watch + iPhone companion app",
-          "tvOS media app",
-          "tvOS game with remote",
-          "Multi-platform unified app"
+          "Demo day presentation delivered to the batch"
         ],
-        "practice": "Build apps for 3 Apple platforms"
-      },
-      "week_87": {
-        "title": "visionOS & Spatial Computing",
-        "topics": [
-          "visionOS introduction",
-          "Spatial computing concepts",
-          "SwiftUI for visionOS",
-          "Windows, volumes, and spaces",
-          "RealityKit fundamentals",
-          "3D content with RealityKit",
-          "Immersive experiences",
-          "Hand tracking and gestures",
-          "Eye tracking concepts",
-          "ARKit on visionOS",
-          "SharePlay in spatial computing",
-          "Entity Component System",
-          "Reality Composer Pro",
-          "visionOS design guidelines",
-          "Future of spatial computing"
-        ],
-        "projects": [
-          "Basic visionOS window app",
-          "3D content viewer",
-          "Immersive environment",
-          "Hand gesture interactions",
-          "AR experience on visionOS",
-          "Spatial data visualization",
-          "Mixed reality application"
-        ],
-        "practice": "Build 5 visionOS experiences"
-      }
-    },
-    "month_21_22": {
-      "title": "Month 12: App Store, CI/CD & Career Excellence",
-      "weeks": "Week 49-52",
-      "week_88_89": {
-        "title": "App Store Submission & Distribution",
-        "topics": [
-          "Apple Developer Program enrollment",
-          "App Store Connect setup",
-          "App information and metadata",
-          "Screenshots and app preview videos",
-          "App Store product page optimization",
-          "Pricing and availability",
-          "In-app purchases configuration",
-          "App Store Review Guidelines",
-          "Common rejection reasons",
-          "TestFlight for beta testing",
-          "Internal and external testing",
-          "Build distribution to testers",
-          "Phased release strategies",
-          "App Store Optimization (ASO)",
-          "Custom product pages (iOS 15+)",
-          "Product page optimization tests"
-        ],
-        "projects": [
-          "Complete App Store submission",
-          "TestFlight beta distribution",
-          "App Store screenshot creation",
-          "App preview video creation",
-          "ASO optimization exercise",
-          "A/B testing product pages",
-          "Full release workflow"
-        ],
-        "practice": "Submit 3 apps to App Store"
-      },
-      "week_90_91": {
-        "title": "CI/CD & Automation",
-        "topics": [
-          "Continuous Integration concepts",
-          "Xcode Cloud setup and usage",
-          "Xcode Cloud workflows",
-          "Automated testing in CI",
-          "Code signing for CI",
-          "Fastlane overview",
-          "Fastlane lanes and actions",
-          "Automated screenshots with Fastlane",
-          "Automated deployment with Fastlane",
-          "GitHub Actions for iOS",
-          "Bitrise for mobile CI/CD",
-          "Code signing best practices",
-          "Environment management",
-          "Build versioning automation",
-          "Automated release notes"
-        ],
-        "projects": [
-          "Xcode Cloud workflow setup",
-          "Automated test pipeline",
-          "Fastlane deployment automation",
-          "GitHub Actions workflow",
-          "Automated screenshot generation",
-          "Complete CI/CD pipeline",
-          "Release automation workflow"
-        ],
-        "practice": "Set up CI/CD for all major projects"
-      },
-      "week_92_93": {
-        "title": "Analytics, Crash Reporting & Monitoring",
-        "topics": [
-          "App analytics importance",
-          "App Analytics in App Store Connect",
-          "Firebase Analytics integration",
-          "Custom event tracking",
-          "User engagement metrics",
-          "Conversion tracking",
-          "A/B testing with Firebase",
-          "Crash reporting with Firebase Crashlytics",
-          "Symbolication of crash logs",
-          "Xcode Organizer crash reports",
-          "MetricKit for performance data",
-          "Custom metrics logging",
-          "User feedback collection",
-          "In-app review prompts",
-          "Privacy-focused analytics"
-        ],
-        "projects": [
-          "Analytics integration",
-          "Custom event tracking system",
-          "Crash reporting setup",
-          "Performance monitoring dashboard",
-          "A/B testing implementation",
-          "User feedback system",
-          "Complete analytics suite"
-        ],
-        "practice": "Add analytics to all production apps"
-      },
-      "week_94_95": {
-        "title": "Server-Side Swift & Backend Integration",
-        "topics": [
-          "Server-side Swift overview",
-          "Vapor framework introduction",
-          "Setting up Vapor project",
-          "Routing in Vapor",
-          "Models and Fluent ORM",
-          "Database integration (PostgreSQL)",
-          "RESTful API development",
-          "Authentication and authorization",
-          "Middleware in Vapor",
-          "Deploying Vapor apps",
-          "Firebase as backend",
-          "Firebase Authentication",
-          "Cloud Firestore database",
-          "Firebase Cloud Functions",
-          "AWS Amplify for iOS"
-        ],
-        "projects": [
-          "Basic Vapor API",
-          "Full-stack Swift application",
-          "Firebase-backed iOS app",
-          "Real-time data with Firestore",
-          "User authentication backend",
-          "Cloud function integration",
-          "Complete backend solution"
-        ],
-        "practice": "Build 5 backend-connected applications"
-      },
-      "week_96": {
-        "title": "SwiftData & Modern Persistence (iOS 17+)",
-        "topics": [
-          "SwiftData introduction",
-          "SwiftData vs Core Data",
-          "@Model macro for persistence",
-          "Schema definition with Swift",
-          "ModelContainer and ModelContext",
-          "@Query for fetching data",
-          "Relationships in SwiftData",
-          "Migration strategies",
-          "SwiftData with SwiftUI",
-          "Performance considerations",
-          "CloudKit integration",
-          "Choosing SwiftData vs Core Data",
-          "SwiftData testing",
-          "Best practices and patterns"
-        ],
-        "projects": [
-          "SwiftData basic app",
-          "Migration from Core Data",
-          "SwiftData relationships",
-          "CloudKit sync with SwiftData",
-          "SwiftData + SwiftUI app",
-          "Performance-optimized queries"
-        ],
-        "practice": "Implement SwiftData in 5 projects"
-      }
-    },
-    "month_23": {
-      "title": "PHASE 4 COMPLETION - Career Preparation",
-      "weeks": "Week 40-52 (distributed)",
-      "week_97": {
-        "title": "Advanced Topics & Specializations",
-        "topics": [
-          "Machine Learning with Core ML",
-          "Create ML for training models",
-          "Vision framework for image analysis",
-          "Natural Language framework",
-          "Speech recognition",
-          "ARKit for augmented reality",
-          "RealityKit for 3D experiences",
-          "Game development with SpriteKit",
-          "SceneKit for 3D graphics",
-          "Metal for graphics programming",
-          "HealthKit integration",
-          "HomeKit for smart home",
-          "CarPlay development",
-          "MusicKit integration"
-        ],
-        "projects": [
-          "ML-powered image classifier",
-          "Text sentiment analyzer",
-          "AR object placement app",
-          "Simple game with SpriteKit",
-          "Health tracking app",
-          "Smart home control app",
-          "Specialization project in chosen area"
-        ],
-        "practice": "Explore 3 advanced specializations"
-      },
-      "week_98": {
-        "title": "Code Quality & Professional Practices",
-        "topics": [
-          "Swift style guide compliance",
-          "SwiftLint for code quality",
-          "SwiftFormat for formatting",
-          "Code review best practices",
-          "Pull request guidelines",
-          "Technical documentation",
-          "DocC documentation creation",
-          "README writing",
-          "Architecture decision records",
-          "Technical debt management",
-          "Refactoring strategies",
-          "Performance benchmarking",
-          "Debugging advanced techniques",
-          "Memory debugging",
-          "Thread sanitizer"
-        ],
-        "projects": [
-          "SwiftLint integration",
-          "Code quality automation",
-          "DocC documentation site",
-          "Refactoring exercise",
-          "Performance benchmark suite",
-          "Quality metrics dashboard"
-        ],
-        "practice": "Apply quality practices to all projects"
-      },
-      "week_99": {
-        "title": "Open Source & Community",
-        "topics": [
-          "Open source in iOS community",
-          "Contributing to Swift itself",
-          "Popular iOS open source projects",
-          "Finding beginner-friendly projects",
-          "Understanding contribution guidelines",
-          "Forking and pull requests",
-          "Code review in open source",
-          "Creating open source libraries",
-          "Publishing to Swift Package Index",
-          "Documentation for open source",
-          "Community engagement",
-          "iOS conferences and meetups",
-          "Swift forums participation",
-          "Building personal brand"
-        ],
-        "projects": [
-          "Contribute to 5 open source projects",
-          "Create Swift package library",
-          "Publish on Swift Package Index",
-          "Documentation contributions",
-          "Bug fixes and features",
-          "Community engagement"
-        ],
-        "practice": "Active open source participation"
-      },
-      "week_100": {
-        "title": "Interview Preparation",
-        "topics": [
-          "iOS interview preparation strategy",
-          "Swift language interview questions",
-          "UIKit interview topics",
-          "SwiftUI interview questions",
-          "Memory management questions",
-          "Concurrency and threading",
-          "Architecture pattern questions",
-          "System design for mobile",
-          "Data structures and algorithms",
-          "LeetCode in Swift",
-          "Take-home project tips",
-          "Behavioral interview questions",
-          "STAR method for answers",
-          "Salary negotiation tactics",
-          "Resume optimization for iOS developers"
-        ],
-        "projects": [
-          "Solve 150+ LeetCode problems in Swift",
-          "System design case studies",
-          "Mock interview practice",
-          "Interview preparation guide",
-          "Portfolio website creation"
-        ],
-        "practice": "Daily coding challenges and mock interviews"
-      }
-    },
-    "month_24": {
-      "title": "Final Month - Capstone & Career Launch",
-      "weeks": "Week 49-52",
-      "week_101_102": {
-        "title": "Final Capstone Project - Part 1",
-        "topics": [
-          "Project ideation and planning",
-          "Requirement analysis",
-          "App architecture design",
-          "UI/UX design with Figma",
-          "Database design",
-          "API design and integration",
-          "Technology stack selection",
-          "Development workflow setup",
-          "Sprint planning",
-          "Agile methodology"
-        ],
-        "projects": [
-          "FINAL CAPSTONE: Production-Ready Multi-Platform App",
-          "Option 1: Health & Fitness Ecosystem",
-          "Platforms: iOS, watchOS, widgets, complications, HealthKit, CloudKit sync",
-          "Option 2: Social Networking Platform",
-          "Features: Feed, messaging, profiles, media sharing, notifications, analytics",
-          "Option 3: Productivity Suite",
-          "Apps: Task manager, notes, calendar, widgets, Mac Catalyst, sync",
-          "Option 4: E-commerce Mobile App",
-          "Features: Products, cart, checkout, payments, orders, push notifications"
-        ]
-      },
-      "week_103": {
-        "title": "Final Capstone Project - Part 2",
-        "topics": [
-          "Implementation completion",
-          "Comprehensive testing",
-          "Performance optimization",
-          "Accessibility compliance",
-          "Localization implementation",
-          "App Store submission preparation",
-          "CI/CD pipeline setup",
-          "Analytics integration",
-          "Crash reporting setup",
-          "Project presentation preparation"
-        ],
-        "deliverables": [
-          "Complete source code on GitHub",
-          "App published on App Store",
-          "Multi-platform support (iOS, widget, watch/mac)",
-          "Complete documentation with DocC",
-          "Architecture diagrams and documentation",
-          "Design files (Figma)",
-          "CI/CD with Xcode Cloud or Fastlane",
-          "Test coverage report (80%+ coverage)",
-          "Performance report from Instruments",
-          "Video demo and presentation",
-          "Comprehensive README and wiki"
-        ]
-      },
-      "week_104": {
-        "title": "Career Launch & Professional Development",
-        "topics": [
-          "Professional portfolio website",
-          "Resume optimization for iOS roles",
-          "LinkedIn profile enhancement",
-          "GitHub profile showcase",
-          "Technical blog writing",
-          "Speaking at iOS meetups",
-          "Networking strategies",
-          "Job application process",
-          "Interview follow-up",
-          "Continuous learning plan",
-          "Staying updated with WWDC",
-          "Mentoring and teaching others",
-          "Freelancing strategies",
-          "Consulting career path",
-          "Indie app development"
-        ],
-        "deliverables": [
-          "Professional portfolio with 40+ projects",
-          "Optimized resume for iOS developer roles",
-          "Enhanced LinkedIn with App Store apps",
-          "GitHub profile with 100+ contributions",
-          "5-10 technical blog posts",
-          "Personal brand establishment",
-          "App Store presence with published apps",
-          "Mock interview completion",
-          "Continuous learning roadmap",
-          "Professional network connections"
-        ],
-        "assessment": "FINAL COMPREHENSIVE CERTIFICATION EXAM - Complete Swift/iOS mastery evaluation"
+        "assessment": "FINAL EXAM: a practical build plus a written paper with questions mixed from every phase. Passing earns the certificate; falling short earns a focused revision plan and a free retest"
       }
     }
   },
   "additional_learning_resources": {
     "projects_throughout_course": [
-      "Phase 1 (Months 1-3): 20+ foundational projects - playgrounds, console apps, OOP/POP systems",
-      "Phase 2 (Months 4-6): 18+ intermediate projects - SwiftUI apps, data persistence, animations",
-      "Phase 3 (Months 7-9): 20+ professional projects - networked apps, tested apps, production features",
-      "Phase 4 (Months 10-12): 15+ advanced projects - multi-platform, App Store apps, full ecosystem",
-      "Final: 5 major capstone projects demonstrating complete expertise"
+      "Phase 1: Swift programs from fundamentals through protocol-oriented tools",
+      "Phase 2: SwiftUI interfaces with real state and navigation",
+      "Phase 3: architected apps with persistence, networking and tests",
+      "Phase 4: the capstone app, App-Store-disciplined and defended at demo day"
     ],
-    "total_projects_built": "70+ projects from beginner to App Store-ready production applications",
+    "total_projects_built": "20+ real builds, crowned by an App-Store-disciplined capstone",
     "skills_mastered": [
-      "Core Swift: Syntax, Optionals, Collections, Closures, OOP, POP, Generics, Error Handling, Concurrency",
-      "Advanced Swift: Protocols, Extensions, Property Wrappers, Result Builders, Macros",
-      "SwiftUI: Views, State Management, Navigation, Animations, Custom Layouts, Observation",
-      "UIKit: View Controllers, Auto Layout, Table/Collection Views, Navigation, Storyboards",
-      "Data Persistence: UserDefaults, FileManager, Core Data, SwiftData, CloudKit, Keychain",
-      "Networking: URLSession, Async/Await, REST APIs, JSON Parsing, Authentication",
-      "Combine: Publishers, Subscribers, Operators, Reactive Programming",
-      "Testing: XCTest, UI Testing, Snapshot Testing, TDD, Code Coverage",
-      "Architecture: MVC, MVVM, Coordinator, TCA, Clean Architecture, Dependency Injection",
-      "Multi-Platform: iOS, macOS, watchOS, tvOS, visionOS, Widgets, Extensions",
-      "DevOps: Xcode Cloud, Fastlane, GitHub Actions, CI/CD, App Store Connect",
-      "Advanced: ARKit, Core ML, HealthKit, MapKit, Push Notifications, In-App Purchases",
-      "Tools: Xcode, Instruments, Swift Package Manager, SwiftLint, DocC, Figma",
-      "Soft Skills: Problem-solving, Architecture Thinking, Code Review, Documentation, Agile"
+      "Swift to real depth: optionals, value types, protocols, concurrency",
+      "SwiftUI: declarative interfaces with state done right",
+      "Architecture: structure that survives features and time",
+      "Data and networking: persistence and API clients done properly",
+      "Apple craft: interface habits that make apps feel native"
     ],
     "weekly_structure": {
-      "theory_videos": "4-6 hours",
-      "hands_on_coding": "8-10 hours",
-      "projects": "3-5 hours",
-      "practice_problems": "2-3 hours",
-      "total_per_week": "15-20 hours"
-    },
-    "support_provided": {
-      "live_sessions": "Weekly live coding sessions and doubt clearing",
-      "mentorship": "1-on-1 expert iOS developer mentorship",
-      "code_review": "Expert code reviews for all major projects",
-      "career_support": "Resume review, mock interviews",
-      "interview_prep": "Mock interviews with industry professionals",
-      "career_guidance": "Resume and interview preparation, plus portfolio and profile review."
+      "live_classes": "2 live one-hour classes per week, coding along with the instructor",
+      "homework": "A problem set after every class, and a mixed-review assignment at the end of every month",
+      "practice": "4-6 hours of building between classes",
+      "review": "Every submission reviewed with written feedback; recurring gaps reopened in class"
     },
     "certification": {
-      "phase_certificates": "Certificate after each phase completion (4 certificates)",
-      "final_certificate": "Professional iOS Developer Certification",
-      "swiftui_certificate": "SwiftUI Specialist Certificate",
-      "multiplatform_certificate": "Apple Multi-Platform Developer Certificate",
-      "linkedin_badge": "Digital badges for LinkedIn profile",
-      "industry_recognized": "Recognized by Fortune 500 companies and startups",
-      "portfolio_projects": "40+ production-ready portfolio projects",
-      "app_store_apps": "Published apps on the App Store"
+      "completion": "Certificate from Modern Age Coders, awarded on passing the final exam. Fall short and there is focused revision and a free retest: the certificate certifies knowledge, not attendance"
+    },
+    "support_provided": {
+      "doubt_support": "WhatsApp doubt support between classes",
+      "progress_updates": "Honest monthly progress reviews: what is solid, what is wobbly, and the plan for the wobble"
     }
   },
   "prerequisites": {
-    "education": "No formal degree required - open to all backgrounds",
-    "coding_experience": "Absolute beginner friendly - zero programming knowledge required",
-    "age": "12+ years (separate learning tracks for kids, teens, adults)",
-    "equipment": "Mac computer (MacBook or iMac) with macOS Ventura or later, minimum 8GB RAM (16GB recommended), iPhone/iPad for testing",
-    "time_commitment": "15-20 hours per week consistently for best results",
-    "english": "Basic reading comprehension (materials also available in Hindi)",
-    "motivation": "Strong desire to become a professional iOS/macOS developer",
-    "math": "Basic mathematics (taught as needed)"
+    "coding_experience": "None. Swift is taught from the first line",
+    "equipment": "A Mac is required for iOS development (Xcode is macOS-only); see the FAQ for realistic options if you do not own one yet",
+    "age": "18+; college students, graduates and working professionals",
+    "time_commitment": "2 live classes plus 4-6 hours of practice a week"
   },
   "who_is_this_for": {
-    "kids": "Age 12-14: Simplified track with visual learning, game-based projects, Swift Playgrounds, fun app creation",
-    "teens": "Age 15-18: Student-focused track, app development skills, portfolio building, Swift Playgrounds to Xcode",
-    "students": "College students: Campus placement preparation, internship readiness, App Store portfolio",
-    "working_professionals": "Career switchers: Structured path from any background to iOS developer role",
-    "developers": "Developers from other languages wanting to master Swift and iOS ecosystem",
-    "android_developers": "Android developers wanting to add iOS development to their skillset",
-    "web_developers": "Web developers transitioning to native mobile development",
-    "designers": "UI/UX designers who want to build the apps they design",
-    "entrepreneurs": "Build your own iOS apps and launch on the App Store",
-    "freelancers": "Offer iOS development services to high-paying clients",
-    "anyone": "Anyone passionate about Apple platforms and mobile development"
+    "apple_ecosystem_fans": "People who love the platform and want to build for it properly",
+    "college_students": "Students who want a premium, demonstrable specialization",
+    "designers_who_code": "Detail-oriented builders drawn to the craft end of apps",
+    "career_switchers": "Professionals entering mobile on the Apple side",
+    "indie_dreamers": "Builders who want one polished app of their own on the store someday"
   },
   "career_paths_after_completion": [
-    "iOS Developer (Junior to Senior levels)",
-    "Swift Developer",
-    "Mobile Application Developer",
-    "SwiftUI Developer",
-    "macOS Developer",
-    "watchOS Developer",
-    "visionOS Developer",
-    "Apple Platforms Engineer",
-    "Mobile Architect",
-    "Technical Lead / Team Lead",
-    "Solutions Architect",
-    "Principal Mobile Engineer",
-    "Freelance iOS Consultant",
-    "Technical Trainer / Instructor",
-    "Indie App Developer / Startup Founder"
+    "iOS development roles: SwiftUI-first is exactly where hiring is moving",
+    "Indie development: the App Store rewards craft like nowhere else",
+    "The wider Apple ecosystem: watchOS, macOS and visionOS share this foundation",
+    "Our full-stack course for the server half of app products"
   ],
   "salary_expectations": {
     "market_context": "The ranges below are general market salary bands for these roles in India and abroad, drawn from public industry data. They are shown for career context only and are not a promise or guarantee of income. Actual pay depends on your skills, experience, location, and the job market.",
@@ -1920,47 +1406,44 @@
   "course_guarantees": {
     "live_classes": "Live, interactive classes with a real instructor, never pre-recorded videos.",
     "small_batches": "Small batches only: group classes are capped at 10 students, with mini-batch (3 to 4 students) and personal 1-on-1 options.",
-    "structured_curriculum": "A structured, well-paced curriculum taught step by step, with hands-on practice in every session.",
+    "structured_curriculum": "A structured, well-paced curriculum taught step by step, with classwork in every session and problem sets after every class.",
+    "real_assessment": "Monthly mixed reviews, cumulative phase exams, and a final exam that decides the certificate: real knowledge, real work.",
     "doubt_support": "Doubt support between classes over WhatsApp, so you are never left stuck.",
-    "certificate": "A course-completion certificate you can share.",
+    "certificate": "A certificate you earn by passing the final exam, with a free retest after revision if needed.",
     "free_demo": "A free demo class before you enrol, so you can decide with no pressure."
   },
   "faqs": [
     {
-      "question": "Do I need a Mac for this course?",
-      "answer": "Realistically yes: Xcode, Apple's development environment, runs only on macOS, so a Mac is required to follow the course properly, ideally with 8GB RAM or more. If you do not have one yet, message us on WhatsApp at +91 91233 66161 before enrolling and we will discuss your options honestly."
+      "question": "What does this Swift and iOS course cover?",
+      "answer": "Swift as a real language first, optionals, value types, protocols and structured concurrency, then modern iOS with SwiftUI: views and state, navigation, architecture, persistence, networking, testing and App Store discipline, ending with a capstone app and the final exam. SwiftUI-first throughout, because that is where Apple and hiring are already going."
     },
     {
-      "question": "Which Swift version and frameworks are covered?",
-      "answer": "Current Swift (5.10 and later) with SwiftUI as the primary UI framework, plus UIKit, Core Data, Combine and modern concurrency, all inside current Xcode. The material tracks Apple's current toolchain, so you learn what iOS teams actually ship with."
+      "question": "How long does it take to learn Swift and iOS properly?",
+      "answer": "Ten months of teaching at 2 live classes a week plus 4 to 6 hours of practice, with two more months in hand for learners who need them. The three teaching phases build the language and its real-world domain; the finale month ships a capstone and sits the final exam."
     },
     {
-      "question": "What apps will I build during the year?",
-      "answer": "A progression of real iOS apps: fundamentals projects in Swift playgrounds early, then SwiftUI apps with data persistence, networked apps using REST APIs, Core Data backed applications, and a polished capstone taken through App Store preparation in the final phase. Each one goes into your GitHub portfolio."
+      "question": "How am I assessed? Is the certificate just for attending?",
+      "answer": "No. Problem sets follow every class with written feedback, monthly reviews deliberately mix new material with earlier topics, each phase ends with a cumulative exam, and the course ends with a final exam: a practical build plus written questions from the whole syllabus. Passing earns the certificate; falling short earns focused revision and a free retest."
     },
     {
-      "question": "Can this lead to an iOS developer job?",
-      "answer": "iOS development is a specialized skill area with consistent demand, and the course ends with architecture patterns, testing and interview preparation for exactly those roles. Your portfolio of working apps is the entry ticket. We are upfront that no course can guarantee placement, and we do not."
+      "question": "Do I really need a Mac?",
+      "answer": "Yes, honestly: Xcode runs only on macOS, and pretending otherwise wastes students’ money. Realistic options: any Apple-silicon Mac including used M1 machines handles the whole course; some students share a family Mac for practice sessions. If a Mac is out of reach right now, our React Native-based app course builds cross-platform apps from any laptop, and this course will still be here."
     },
     {
-      "question": "Why take live classes instead of following Apple's free tutorials?",
-      "answer": "Apple's tutorials are polished but assume you never get stuck, and they cannot review an app you design yourself. A live mentor debugs with you inside Xcode, reviews your SwiftUI state management and architecture, and holds the 12-month arc together so you finish apps instead of abandoning them at the first hard bug."
+      "question": "Swift or React Native for mobile?",
+      "answer": "Native Swift wins when you want the Apple platform mastered deeply, the best performance and feel, and access to every new framework the day it ships. React Native wins for one-codebase-both-platforms from any laptop. We teach both roads honestly; this is the native-depth one."
     },
     {
-      "question": "What is the fee?",
-      "answer": "Group classes cost ₹1,499 per month in India (max 10 students, 2 live classes a week), mini batches of 3 to 4 students cost ₹2,999 per month, and 1-on-1 personal mentorship with 2 private classes a week costs ₹4,999 per month. Internationally the price is set for each country and shown on this page in the local currency."
+      "question": "What are the fees?",
+      "answer": "Group classes are ₹1,499 per month, with 2 live classes a week in batches capped at 10 learners. A mini batch of 3-4 learners is ₹2,999 per month, and personal 1-on-1 classes are ₹4,999 per month. International learners pay a price set for their own country, shown on this page in their local currency."
     },
     {
-      "question": "How do I start?",
-      "answer": "With a free live demo class: book it at learn.modernagecoders.com/contact, attend with no commitment, and see the teaching style before any payment. Bring your questions about Mac setup and course fit; the demo exists for exactly that."
+      "question": "Can I try a class before enrolling?",
+      "answer": "Yes, a free demo class with no commitment: book at learn.modernagecoders.com/contact or message us on WhatsApp at +91 91233 66161."
     },
     {
-      "question": "Are sessions live or pre-recorded?",
-      "answer": "Every session is a live 1-hour online class with an instructor; we never substitute recordings. Classes are interactive with real coding in Xcode during the hour, and evening and weekend slots accommodate college schedules and day jobs."
-    },
-    {
-      "question": "What do I receive when I finish?",
-      "answer": "A completion certificate plus a GitHub-ready portfolio of iOS apps, and if you complete the final phase, experience preparing an app for App Store submission. For iOS hiring, shipped or shippable apps carry the most weight, and the course is built to leave you with them."
+      "question": "Are classes live or recorded?",
+      "answer": "Live, always: small groups with a real instructor reading your actual code, never pre-recorded videos."
     }
   ]
 }

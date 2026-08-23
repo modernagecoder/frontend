@@ -2,65 +2,58 @@
   "meta": {
     "slug": "complete-kotlin-programming-masterclass-professional",
     "date": "2026-01-13",
-    "title": "Kotlin Programming: Zero to Android & Backend Developer",
-    "description": "Kotlin course online: a 1-year masterclass from basics to professional apps, covering Android, Spring Boot, coroutines and multiplatform for a Kotlin career.",
+    "dateModified": "2026-08-23",
+    "title": "Kotlin and Android Course: Zero to Published-Ready Apps",
+    "description": "Kotlin course for college students and professionals: modern Kotlin, coroutines, then real Android development with Jetpack Compose in 10-12 months.",
     "keywords": [
-      "kotlin programming",
-      "kotlin masterclass",
-      "learn kotlin",
-      "kotlin for beginners",
-      "android development",
-      "kotlin android",
-      "spring boot kotlin",
-      "kotlin multiplatform",
-      "kotlin coroutines",
-      "kotlin developer",
-      "kotlin backend",
-      "kotlin career",
-      "jetpack compose",
-      "kotlin certification",
-      "advanced kotlin",
-      "kotlin for kids"
+      "kotlin course online",
+      "android development course kotlin",
+      "jetpack compose course",
+      "kotlin course for beginners",
+      "android app development course india",
+      "kotlin coroutines course",
+      "learn kotlin and android",
+      "android developer course online",
+      "kotlin course for college students",
+      "mobile development course kotlin",
+      "best kotlin android course",
+      "kotlin masterclass online"
     ],
-    "category": "Professional Kotlin Development",
+    "category": "App Development",
     "taxonomy": "programming",
     "price": {
       "group": "₹1,499/month",
       "personal": "₹4,999/month"
     },
-    "duration": "12 months (52 weeks)",
-    "level": "Complete Beginner to Professional Developer",
-    "commitment": "15-20 hours/week recommended",
-    "certification": "Industry-recognized Kotlin Developer certification upon completion",
+    "duration": "10-12 months (44-52 weeks)",
+    "level": "Complete beginner (18+); college students, graduates and working professionals",
+    "commitment": "2 live classes/week + 4-6 hours practice",
+    "certification": "Certificate from Modern Age Coders, awarded on passing the final exam",
     "image_path": "kotlin-college.webp"
   },
   "program_overview": {
-    "title": "Complete Kotlin Programming Masterclass",
-    "tagline": "From 'Hello World' to Professional Android & Backend Applications",
-    "description": "This is not just a Kotlin course, it's a complete transformation into a versatile Kotlin professional. Whether you're a curious beginner, student, working professional, or someone with zero coding experience, this 1-year masterclass will turn you into a highly skilled Kotlin developer capable of building modern Android apps, scalable backend systems, multiplatform applications, and cloud-native solutions.\n\nYou'll master Kotlin from ground zero to professional architect level: from basic syntax to advanced language features, from console applications to full-stack Android apps with Jetpack Compose, from JDBC to Spring Boot with Kotlin, from single-platform to Kotlin Multiplatform projects. By the end, you'll have built 50+ projects, mastered the entire Kotlin ecosystem, and be ready for senior Kotlin/Android developer roles in top tech companies.",
+    "title": "Kotlin and Android Masterclass",
+    "tagline": "The modern Android stack, learned in its native language: Kotlin to real depth, then apps built the way Google builds them, with Jetpack Compose.",
+    "description": "Android runs on Kotlin now, and the modern stack, Compose for UI, coroutines for concurrency, is genuinely pleasant when learned in order. This live online masterclass does exactly that: Kotlin as a language first, null-safety, functional style, coroutines and flows understood properly, then Android development the modern way: Jetpack Compose interfaces, architecture that survives rotation and growth, data with Room, networking, and the production habits, testing, releases, honest store literacy, that separate app builders from tutorial followers. A finale month ships a capstone app and sits the final exam.\n\nThe pace is honest: ten teaching months at two live classes a week plus four to six hours of practice, with two more in hand. Problem sets, monthly mixed reviews, phase exams, and a final exam that decides the certificate with a free retest. Real Kotlin, real apps, depth over dopamine.",
     "what_makes_this_different": [
-      "Starts from absolute zero - perfect for complete beginners",
-      "Separate learning tracks for kids (12+), teens, and adults",
-      "1 year of structured, industry-aligned learning",
-      "Covers Kotlin + Android + Backend (Spring Boot) + Multiplatform",
-      "Real-world projects and industry case studies",
-      "Hands-on with latest Kotlin versions and modern features",
-      "Android development with Jetpack Compose",
-      "Interview preparation for top companies",
-      "Build production-ready professional portfolio",
-      "Direct path to high-paying Kotlin/Android developer jobs"
+      "Kotlin learned as a language, not as Android syntax: coroutines and flows understood before they are needed",
+      "Compose-first: the UI toolkit Google actually recommends, not legacy XML nostalgia",
+      "Architecture that survives: state, lifecycles and structure taught as the core Android skill they are",
+      "Store literacy told straight: what publishing takes, without fake promises",
+      "An honest 10-month arc with 2 months in hand",
+      "Real assessment: weekly problem sets, monthly mixed reviews, phase exams and a final exam with a free retest"
     ],
     "learning_path": {
-      "phase_1": "Foundation (Months 1-3): Kotlin Fundamentals, OOP, Functional Programming Basics",
-      "phase_2": "Intermediate (Months 4-6): Advanced Kotlin, Collections, Coroutines, Design Patterns",
-      "phase_3": "Android (Months 7-9): Android Development, Jetpack Compose, Material Design, APIs",
-      "phase_4": "Professional (Months 10-12): Spring Boot Kotlin, Multiplatform, Cloud, Career Excellence"
+      "phase_1": "Kotlin (Months 1-3): the language to real depth, null-safety to coroutines",
+      "phase_2": "Advanced Kotlin (Months 4-6): functional style, flows, and the idioms production code uses",
+      "phase_3": "Android with Compose (Months 7-9): UI, architecture, data, networking and production habits",
+      "phase_4": "The finale (Month 10): the capstone app, shipped and defended, and the final exam"
     },
     "career_outcomes": [
-      "Junior Kotlin Developer (after 3 months)",
-      "Android Developer (after 6 months)",
-      "Senior Kotlin/Android Developer (after 9 months)",
-      "Lead Developer / Solutions Architect (after 12 months)"
+      "Modern Android capability: Compose, coroutines and architecture as one coherent skill",
+      "Kotlin depth that also opens backend and multiplatform doors later",
+      "A capstone app built to store-grade discipline",
+      "Honest next roads: production Android roles, or multiplatform when it earns its complexity"
     ]
   },
   "phase_1_foundation": {
@@ -316,7 +309,7 @@
           "Features: Immutable data, functional operations, sealed classes, DSL"
         ],
         "practice": "Solve 40 functional programming problems",
-        "assessment": "Phase 1 Final Assessment - Core Kotlin fundamentals test"
+        "assessment": "Phase 1 exam: a practical build defended live, plus a written paper mixing this phase with everything before it"
       }
     }
   },
@@ -762,7 +755,8 @@
           "Kotlin scripts for automation",
           "CI/CD pipeline setup"
         ],
-        "practice": "Configure all projects with Gradle Kotlin DSL"
+        "practice": "Configure all projects with Gradle Kotlin DSL",
+        "assessment": "Phase 2 exam: a practical build defended live, plus a written paper mixing this phase with everything before it"
       }
     }
   },
@@ -1160,7 +1154,6 @@
           "Firebase Storage for files",
           "Paging 3 library for pagination",
           "In-app purchases",
-          "AdMob for monetization",
           "WebView integration",
           "Deep linking and app links",
           "Widget development",
@@ -1226,610 +1219,116 @@
           "Alternative: Fitness Tracking App (workouts, progress, charts, reminders)",
           "Alternative: Expense Manager (budgets, categories, reports, charts)"
         ],
-        "assessment": "Phase 3 Final Exam - Android development comprehensive test"
+        "assessment": "Phase 3 exam: a practical build defended live, plus a written paper mixing this phase with everything before it"
       }
     }
   },
-  "phase_4_advanced_production": {
-    "title": "PHASE 4: Kotlin Multiplatform, Cloud & Career Excellence (Months 10-12, Weeks 40-52)",
-    "description": "Master Kotlin Multiplatform, advanced backend, cloud deployment, system design, and professional career preparation.",
-    "month_19_20": {
-      "title": "Months 10-11: Kotlin Multiplatform & Advanced Topics",
-      "weeks": "Week 40-48",
-      "week_79_80": {
-        "title": "Kotlin Multiplatform Mobile (KMM)",
+  "phase_4_finale": {
+    "title": "PHASE 4: The Finale (Month 10, Weeks 40-44)",
+    "description": "The capstone month: spec, build, ship and defend, then the final exam that decides the certificate.",
+    "month_10_finale": {
+      "title": "Month 10: Capstone and the Final Exam",
+      "weeks": "Weeks 40-44",
+      "week_40": {
+        "title": "Capstone Spec and Setup",
         "topics": [
-          "Introduction to Kotlin Multiplatform",
-          "KMM architecture",
-          "Shared code vs platform-specific code",
-          "Expect/actual mechanism",
-          "Setting up KMM project",
-          "Shared business logic",
-          "Shared networking code",
-          "Shared data models",
-          "Platform-specific implementations",
-          "iOS integration with Swift",
-          "Android integration",
-          "Ktor client in KMM",
-          "SQLDelight for shared database",
-          "Dependency injection in KMM: Koin",
-          "Testing shared code"
+          "Choosing the capstone: a complete Android app with real data, offline behavior and polished Compose UI",
+          "A one-page spec: scope, milestones, stack",
+          "Repository and project skeleton ready on day one",
+          "Instructor sign-off before the build begins"
         ],
         "projects": [
-          "KMM project setup",
-          "Shared API client",
-          "Shared database layer",
-          "Business logic sharing",
-          "Cross-platform models",
-          "Platform-specific UI",
-          "Complete KMM app (Android + iOS)",
-          "Testing shared modules"
+          "Approved capstone spec plus the running skeleton"
         ],
-        "practice": "Build 5 KMM applications"
+        "practice": "Pitch the spec to the batch and absorb one hard question"
       },
-      "week_81_82": {
-        "title": "Kotlin Multiplatform for All Platforms",
+      "week_41_42": {
+        "title": "Capstone Build",
         "topics": [
-          "Kotlin/JS for web frontend",
-          "Kotlin/JS with React",
-          "Kotlin/Native introduction",
-          "Kotlin for desktop: Compose Desktop",
-          "Compose Multiplatform",
-          "Sharing UI code with Compose",
-          "Multiplatform libraries",
-          "kotlinx libraries ecosystem",
-          "Serialization across platforms",
-          "Date-time handling multiplatform",
-          "Coroutines on all platforms",
-          "Publishing multiplatform libraries",
-          "Gradle setup for multiplatform"
+          "Two focused weeks of building in vertical slices",
+          "Instructor checkpoints and honest scope cuts",
+          "Using the whole course: Kotlin depth, coroutines, Compose, architecture and testing",
+          "Daily commits and an always-working build"
         ],
         "projects": [
-          "Kotlin/JS web app",
-          "Compose Desktop application",
-          "Compose Multiplatform (Android, Desktop, iOS)",
-          "Multiplatform library creation",
-          "Shared UI components",
-          "Cross-platform game",
-          "Published multiplatform library"
+          "The capstone, feature-complete with version control"
         ],
-        "practice": "Build 6 multiplatform projects"
+        "practice": "A working build at the end of every session"
       },
-      "week_83_84": {
-        "title": "Advanced Backend with Kotlin",
+      "week_43": {
+        "title": "Ship and Polish",
         "topics": [
-          "Microservices with Kotlin",
-          "Service discovery",
-          "API Gateway pattern",
-          "Circuit breaker in Kotlin",
-          "Message queues: RabbitMQ with Kotlin",
-          "Apache Kafka with Kotlin",
-          "Event-driven architecture",
-          "CQRS pattern in Kotlin",
-          "GraphQL server with Kotlin",
-          "gRPC with Kotlin",
-          "WebSocket servers",
-          "Real-time applications",
-          "Reactive programming with Kotlin",
-          "Project Reactor with Kotlin",
-          "Database sharding strategies"
+          "The finishing pass: edge cases, errors, documentation",
+          "Store-readiness pass: assets, versioning and the honest release checklist",
+          "A README worth reading and a demo worth watching",
+          "A full-course spiral review before the exam"
         ],
         "projects": [
-          "Microservices architecture",
-          "Event-driven system",
-          "GraphQL API server",
-          "gRPC service",
-          "Real-time chat backend",
-          "Reactive backend service",
-          "Message queue integration",
-          "CQRS implementation"
+          "The capstone shipped, documented and rehearsed"
         ],
-        "practice": "Build 8 advanced backend systems"
+        "practice": "Two mock demos, each tighter than the last"
       },
-      "week_85_86": {
-        "title": "Cloud & Deployment",
+      "week_44": {
+        "title": "Demo Day and the Final Exam",
         "topics": [
-          "Containerization with Docker",
-          "Docker for Kotlin apps",
-          "Multi-stage Docker builds",
-          "Kubernetes basics",
-          "Deploying Kotlin to K8s",
-          "Helm charts for Kotlin",
-          "AWS deployment strategies",
-          "AWS Lambda with Kotlin",
-          "AWS Elastic Beanstalk",
-          "Google Cloud Platform",
-          "GCP Cloud Run for Kotlin",
-          "Azure deployment",
-          "CI/CD pipelines",
-          "GitHub Actions for Kotlin",
-          "Monitoring and logging"
+          "Presenting the capstone: live demo plus the hardest bug story",
+          "The honest map of next roads: production Android work, Kotlin backend services, or multiplatform",
+          "Where our other courses continue the journey"
         ],
         "projects": [
-          "Dockerized Kotlin app",
-          "Kubernetes deployment",
-          "Serverless function (Kotlin)",
-          "AWS deployment",
-          "GCP Cloud Run deployment",
-          "CI/CD pipeline setup",
-          "Monitored production service",
-          "Auto-scaling setup"
+          "Demo day presentation delivered to the batch"
         ],
-        "practice": "Deploy all apps to cloud platforms"
-      },
-      "week_87": {
-        "title": "Observability & DevOps",
-        "topics": [
-          "Application monitoring",
-          "Metrics with Micrometer",
-          "Prometheus integration",
-          "Grafana dashboards",
-          "Distributed tracing",
-          "OpenTelemetry with Kotlin",
-          "Logging best practices",
-          "Structured logging",
-          "Log aggregation: ELK stack",
-          "Error tracking: Sentry",
-          "Performance monitoring",
-          "APM tools integration",
-          "Infrastructure as Code",
-          "Terraform basics",
-          "GitOps practices"
-        ],
-        "projects": [
-          "Monitoring setup",
-          "Grafana dashboard creation",
-          "Distributed tracing implementation",
-          "Centralized logging",
-          "Error tracking integration",
-          "Performance monitoring",
-          "IaC with Terraform"
-        ],
-        "practice": "Add observability to all services"
-      }
-    },
-    "month_21_22": {
-      "title": "Month 12: System Design & Career Excellence",
-      "weeks": "Week 49-52",
-      "week_88_89": {
-        "title": "System Design Fundamentals",
-        "topics": [
-          "System design principles",
-          "Scalability: horizontal vs vertical",
-          "Load balancing",
-          "Caching strategies",
-          "CDN usage",
-          "Database scaling",
-          "Sharding and partitioning",
-          "CAP theorem",
-          "Consistency models",
-          "Microservices design",
-          "API design best practices",
-          "Rate limiting",
-          "High availability design",
-          "Disaster recovery",
-          "System design interview prep"
-        ],
-        "projects": [
-          "Design URL shortener",
-          "Design messaging system",
-          "Design social media feed",
-          "Design e-commerce platform",
-          "Design video streaming service",
-          "Design notification system",
-          "System design documentation"
-        ],
-        "practice": "Solve 20 system design problems"
-      },
-      "week_90_91": {
-        "title": "Performance & Optimization",
-        "topics": [
-          "Performance profiling",
-          "JVM tuning for Kotlin",
-          "Memory management",
-          "Garbage collection optimization",
-          "Coroutine performance",
-          "Flow optimization",
-          "Database query optimization",
-          "Caching strategies",
-          "Load testing with Gatling",
-          "Benchmarking with JMH",
-          "Code optimization techniques",
-          "Algorithmic optimization",
-          "Resource utilization",
-          "Monitoring performance metrics"
-        ],
-        "projects": [
-          "Performance profiling suite",
-          "Load testing framework",
-          "Optimized backend service",
-          "JVM tuning example",
-          "Benchmark suite",
-          "Cache optimization",
-          "Performance dashboard"
-        ],
-        "practice": "Optimize all backend services"
-      },
-      "week_92_93": {
-        "title": "Security & Best Practices",
-        "topics": [
-          "Security best practices",
-          "OWASP Top 10",
-          "Secure coding in Kotlin",
-          "Input validation",
-          "SQL injection prevention",
-          "XSS prevention",
-          "CSRF protection",
-          "Authentication best practices",
-          "OAuth 2.0 and OIDC",
-          "JWT security",
-          "API security",
-          "Secrets management",
-          "Encryption in Kotlin",
-          "Security testing",
-          "Compliance: GDPR, etc."
-        ],
-        "projects": [
-          "Secured API implementation",
-          "OAuth integration",
-          "Encrypted data storage",
-          "Security audit tool",
-          "Penetration testing",
-          "Security-hardened app",
-          "Compliance checklist"
-        ],
-        "practice": "Security audit all projects"
-      },
-      "week_94_95": {
-        "title": "Open Source & Community",
-        "topics": [
-          "Contributing to Kotlin projects",
-          "Open source best practices",
-          "Finding projects to contribute",
-          "Making pull requests",
-          "Code review participation",
-          "Creating Kotlin libraries",
-          "Publishing to Maven Central",
-          "Documentation writing",
-          "Building personal brand",
-          "Technical blogging",
-          "Speaking at conferences",
-          "Community engagement",
-          "Mentoring others",
-          "Building portfolio"
-        ],
-        "projects": [
-          "Contribute to 5 Kotlin projects",
-          "Create own Kotlin library",
-          "Published open source project",
-          "Technical blog posts",
-          "Conference talk preparation",
-          "Portfolio website"
-        ],
-        "practice": "Active community participation"
-      },
-      "week_96": {
-        "title": "Advanced Kotlin Topics",
-        "topics": [
-          "Kotlin compiler plugins",
-          "KSP (Kotlin Symbol Processing)",
-          "Annotation processing",
-          "Code generation",
-          "Custom Gradle plugins",
-          "Kotlin scripting advanced",
-          "Meta-programming",
-          "Kotlin compiler internals",
-          "Advanced type system",
-          "Phantom types",
-          "Higher-kinded types workarounds",
-          "Arrow library for FP",
-          "Category theory basics",
-          "Monads in Kotlin"
-        ],
-        "projects": [
-          "Custom compiler plugin",
-          "KSP processor",
-          "Code generation tool",
-          "Gradle plugin creation",
-          "Advanced scripting",
-          "FP library with Arrow",
-          "Type-safe DSL with advanced types"
-        ],
-        "practice": "Explore 5 advanced topics"
-      }
-    },
-    "month_23": {
-      "title": "PHASE 4 COMPLETION - Career Launch",
-      "weeks": "Week 40-52 (distributed)",
-      "week_97": {
-        "title": "Interview Preparation",
-        "topics": [
-          "Kotlin interview preparation",
-          "Core Kotlin questions",
-          "OOP in Kotlin questions",
-          "Coroutines interview topics",
-          "Android interview prep",
-          "Jetpack Compose questions",
-          "Backend Kotlin questions",
-          "System design interviews",
-          "Data structures in Kotlin",
-          "Algorithms in Kotlin",
-          "LeetCode with Kotlin",
-          "Behavioral interviews",
-          "STAR method",
-          "Salary negotiation",
-          "Job search strategies"
-        ],
-        "projects": [
-          "Solve 200+ LeetCode (Kotlin)",
-          "System design case studies",
-          "Mock interview practice",
-          "Interview prep guide",
-          "Behavioral question bank"
-        ],
-        "practice": "Daily coding challenges and mock interviews"
-      },
-      "week_98": {
-        "title": "Professional Development",
-        "topics": [
-          "Resume optimization",
-          "LinkedIn profile enhancement",
-          "GitHub portfolio",
-          "Personal website creation",
-          "Cover letter writing",
-          "Networking strategies",
-          "Job application process",
-          "Technical interviews",
-          "Coding challenges",
-          "Take-home assignments",
-          "Interview follow-up",
-          "Offer negotiation",
-          "Career path planning",
-          "Continuous learning plan"
-        ],
-        "projects": [
-          "Professional resume",
-          "Optimized LinkedIn",
-          "GitHub showcase",
-          "Portfolio website",
-          "Interview prep materials",
-          "Learning roadmap"
-        ],
-        "practice": "Apply to 20+ positions"
-      },
-      "week_99": {
-        "title": "Specialization & Niches",
-        "topics": [
-          "Android specialization path",
-          "Backend Kotlin specialization",
-          "Kotlin Multiplatform expert",
-          "Kotlin for data science",
-          "Kotlin for game development",
-          "Kotlin for embedded systems",
-          "Consulting career path",
-          "Freelancing with Kotlin",
-          "Startup opportunities",
-          "Product development",
-          "Technical leadership",
-          "Architecture roles",
-          "Teaching and mentoring",
-          "Content creation"
-        ],
-        "projects": [
-          "Specialization portfolio",
-          "Niche expertise demo",
-          "Freelance service offering",
-          "Product MVP",
-          "Technical content",
-          "Mentorship program"
-        ],
-        "practice": "Choose and pursue specialization"
-      },
-      "week_100": {
-        "title": "Future of Kotlin",
-        "topics": [
-          "Kotlin roadmap",
-          "Upcoming Kotlin features",
-          "Kotlin 2.0 and beyond",
-          "Industry trends",
-          "Emerging technologies",
-          "Kotlin in AI/ML",
-          "Kotlin for IoT",
-          "Kotlin for blockchain",
-          "Cross-platform future",
-          "WebAssembly with Kotlin",
-          "Staying updated",
-          "Continuous learning resources",
-          "Community involvement",
-          "Conference participation"
-        ],
-        "projects": [
-          "Experimental features demo",
-          "Emerging tech integration",
-          "Innovation project",
-          "Future-ready portfolio"
-        ],
-        "practice": "Stay current with ecosystem"
-      }
-    },
-    "month_24": {
-      "title": "Final Month - Ultimate Capstone & Launch",
-      "weeks": "Week 49-52",
-      "week_101_102": {
-        "title": "Final Capstone Project - Part 1",
-        "topics": [
-          "Project planning",
-          "Requirements analysis",
-          "Architecture design",
-          "Technology selection",
-          "Database design",
-          "API design",
-          "UI/UX planning",
-          "Development workflow",
-          "Agile methodology",
-          "Sprint planning"
-        ],
-        "projects": [
-          "FINAL CAPSTONE: Cross-Platform Application",
-          "Option 1: E-commerce Platform (Android + Backend + Admin Web)",
-          "KMM shared logic, Jetpack Compose UI, Ktor backend, Admin panel",
-          "Option 2: Social Media Platform (Android + iOS + Backend)",
-          "Full-stack with KMM, real-time features, cloud deployment",
-          "Option 3: Productivity Suite (Android + Desktop + Web)",
-          "Compose Multiplatform, offline-first, sync across devices",
-          "Option 4: Fitness & Health Platform (Mobile + Wearables + Backend)",
-          "Tracking, analytics, social features, integrations"
-        ]
-      },
-      "week_103": {
-        "title": "Final Capstone Project - Part 2",
-        "topics": [
-          "Implementation completion",
-          "Testing all layers",
-          "Performance optimization",
-          "Security hardening",
-          "Documentation",
-          "Cloud deployment",
-          "CI/CD setup",
-          "Monitoring",
-          "Beta testing",
-          "Final polish"
-        ],
-        "deliverables": [
-          "Complete source code on GitHub",
-          "Android app on Play Store",
-          "Backend deployed to cloud",
-          "API documentation",
-          "Architecture documentation",
-          "Test coverage 85%+",
-          "CI/CD pipeline",
-          "Monitoring dashboard",
-          "User documentation",
-          "Video demo",
-          "Presentation deck"
-        ]
-      },
-      "week_104": {
-        "title": "Career Launch & Beyond",
-        "topics": [
-          "Portfolio finalization",
-          "Resume perfection",
-          "LinkedIn optimization",
-          "GitHub showcase",
-          "Job applications",
-          "Interview scheduling",
-          "Networking events",
-          "Conference attendance",
-          "Blog launch",
-          "Open source maintenance",
-          "Continuous learning",
-          "Community leadership",
-          "Mentorship",
-          "Career goals"
-        ],
-        "deliverables": [
-          "Professional portfolio with 50+ projects",
-          "Polished resume for Kotlin roles",
-          "LinkedIn with certifications",
-          "GitHub with 100+ contributions",
-          "10+ technical blog posts",
-          "Active community presence",
-          "Job offers in hand",
-          "Continuous learning plan",
-          "Mentorship connections",
-          "Career roadmap"
-        ],
-        "assessment": "FINAL COMPREHENSIVE CERTIFICATION - Complete Kotlin mastery evaluation"
+        "assessment": "FINAL EXAM: a practical build plus a written paper with questions mixed from every phase. Passing earns the certificate; falling short earns a focused revision plan and a free retest"
       }
     }
   },
   "additional_learning_resources": {
     "projects_throughout_course": [
-      "Phase 1 (Months 1-3): 25+ foundational projects - console apps, functional programs, OOP systems",
-      "Phase 2 (Months 4-6): 20+ advanced projects - coroutines, DSLs, backend APIs, design patterns",
-      "Phase 3 (Months 7-9): 25+ Android projects - Compose UIs, full apps, production-ready applications",
-      "Phase 4 (Months 10-12): 15+ professional projects - multiplatform, cloud, distributed systems",
-      "Final: 5 major capstone projects demonstrating complete expertise"
+      "Phase 1: Kotlin programs from fundamentals through coroutine-based tools",
+      "Phase 2: idiomatic Kotlin utilities and flow-based systems",
+      "Phase 3: Compose apps with architecture, Room data and networking",
+      "Phase 4: the capstone app, store-grade and defended at demo day"
     ],
-    "total_projects_built": "80+ projects from beginner to professional cross-platform systems",
+    "total_projects_built": "20+ real builds, crowned by a store-grade capstone app",
     "skills_mastered": [
-      "Core Kotlin: Syntax, null safety, functional programming, OOP, collections, coroutines, Flow",
-      "Advanced Kotlin: Generics, delegation, DSLs, reflection, annotations, meta-programming",
-      "Android Development: Jetpack Compose, Material Design 3, Architecture Components, Room, Retrofit",
-      "Android Advanced: Navigation, Hilt, WorkManager, notifications, testing, performance",
-      "Backend Kotlin: Ktor, Spring Boot, Exposed, REST APIs, WebSockets, microservices",
-      "Kotlin Multiplatform: KMM, shared code, expect/actual, Compose Multiplatform",
-      "Databases: Room, Exposed, SQLDelight, MongoDB, Redis, query optimization",
-      "Networking: Retrofit, Ktor client, OkHttp, REST, GraphQL, gRPC",
-      "Testing: JUnit, Kotest, MockK, Espresso, Compose testing, property-based testing",
-      "DevOps: Docker, Kubernetes, CI/CD, GitHub Actions, monitoring, logging",
-      "Cloud: AWS, GCP, Azure, serverless, containers, orchestration",
-      "Tools: IntelliJ IDEA, Android Studio, Gradle, Git, Postman, profilers"
+      "Kotlin to real depth: null-safety, functional style, coroutines and flows",
+      "Jetpack Compose: modern Android UI as a first language",
+      "Architecture: state, lifecycles and structure that survive growth",
+      "Data and networking: Room, Retrofit-class clients and offline judgment",
+      "Production habits: testing, releases and honest store literacy"
     ],
     "weekly_structure": {
-      "theory_videos": "4-6 hours",
-      "hands_on_coding": "8-10 hours",
-      "projects": "4-6 hours",
-      "practice_problems": "2-3 hours",
-      "total_per_week": "15-20 hours"
-    },
-    "support_provided": {
-      "live_sessions": "Weekly live coding and doubt clearing sessions",
-      "mentorship": "1-on-1 expert Kotlin developer mentorship",
-      "code_review": "Expert code reviews for all major projects",
-      "career_support": "Resume review, mock interviews",
-      "interview_prep": "Mock interviews with industry professionals",
-      "career_guidance": "Resume and interview preparation, plus portfolio and profile review."
+      "live_classes": "2 live one-hour classes per week, coding along with the instructor",
+      "homework": "A problem set after every class, and a mixed-review assignment at the end of every month",
+      "practice": "4-6 hours of building between classes",
+      "review": "Every submission reviewed with written feedback; recurring gaps reopened in class"
     },
     "certification": {
-      "phase_certificates": "Certificate after each phase (4 certificates)",
-      "final_certificate": "Professional Kotlin Developer Certification",
-      "android_certificate": "Android Developer with Kotlin Certificate",
-      "multiplatform_certificate": "Kotlin Multiplatform Specialist Certificate",
-      "linkedin_badge": "Digital badges for LinkedIn profile",
-      "industry_recognized": "Recognized by top tech companies",
-      "portfolio_projects": "50+ production-ready portfolio projects",
-      "jetbrains_prep": "Preparation for JetBrains Kotlin certification"
+      "completion": "Certificate from Modern Age Coders, awarded on passing the final exam. Fall short and there is focused revision and a free retest: the certificate certifies knowledge, not attendance"
+    },
+    "support_provided": {
+      "doubt_support": "WhatsApp doubt support between classes",
+      "progress_updates": "Honest monthly progress reviews: what is solid, what is wobbly, and the plan for the wobble"
     }
   },
   "prerequisites": {
-    "education": "No formal degree required - open to all backgrounds",
-    "coding_experience": "Absolute beginner friendly - zero programming knowledge required",
-    "age": "12+ years (separate learning tracks for kids, teens, adults)",
-    "equipment": "Computer/laptop (Windows/Mac/Linux), minimum 8GB RAM, internet connection",
-    "time_commitment": "15-20 hours per week consistently for best results",
-    "english": "Basic reading comprehension (materials also in Hindi)",
-    "motivation": "Strong desire to become a professional Kotlin developer",
-    "math": "Basic mathematics (taught as needed)"
+    "coding_experience": "None. The language is taught from the first line",
+    "equipment": "Any reasonably recent computer; Android Studio and every tool used are free, and the emulator plus any Android phone cover testing",
+    "age": "18+; college students, graduates and working professionals",
+    "time_commitment": "2 live classes plus 4-6 hours of practice a week"
   },
   "who_is_this_for": {
-    "kids": "Age 12-14: Simplified track, visual learning, game-based projects",
-    "teens": "Age 15-18: Student-focused, college prep, app development projects",
-    "students": "College students: Placement prep, internship readiness, portfolio building",
-    "working_professionals": "Career switchers from any background to Kotlin developer",
-    "java_developers": "Java developers wanting modern Kotlin ecosystem",
-    "android_developers": "Android devs wanting to master Kotlin deeply",
-    "backend_engineers": "Backend developers adding Kotlin to skillset",
-    "entrepreneurs": "Build Android apps and backends for your startup",
-    "freelancers": "Offer Kotlin/Android development services",
-    "anyone": "Anyone passionate about modern mobile and backend development"
+    "college_students": "Students who want a shippable, demonstrable skill alongside the degree",
+    "app_dreamers": "Builders with an app idea and the patience to build it properly",
+    "java_refugees": "Developers from Java-era Android ready for the modern stack",
+    "career_switchers": "Professionals entering mobile, the most portfolio-friendly specialization",
+    "backend_curious": "Learners who want Kotlin depth that also serves server-side later"
   },
   "career_paths_after_completion": [
-    "Android Developer (Junior to Senior)",
-    "Kotlin Developer",
-    "Mobile Application Developer",
-    "Full Stack Kotlin Developer",
-    "Backend Developer (Kotlin)",
-    "Kotlin Multiplatform Developer",
-    "Mobile Architect",
-    "Technical Lead (Android/Kotlin)",
-    "Solutions Architect",
-    "DevOps Engineer (Kotlin focus)",
-    "Cloud Engineer",
-    "Principal Engineer",
-    "Freelance Kotlin Consultant",
-    "Technical Trainer",
-    "Startup Founder / CTO"
+    "Production Android roles: this is the modern stack they hire for",
+    "Kotlin backend services: the language carries straight across",
+    "Multiplatform later, entered when it earns its complexity",
+    "Our full-stack course for the web half of product building"
   ],
   "salary_expectations": {
     "market_context": "The ranges below are general market salary bands for these roles in India and abroad, drawn from public industry data. They are shown for career context only and are not a promise or guarantee of income. Actual pay depends on your skills, experience, location, and the job market.",
@@ -1843,47 +1342,44 @@
   "course_guarantees": {
     "live_classes": "Live, interactive classes with a real instructor, never pre-recorded videos.",
     "small_batches": "Small batches only: group classes are capped at 10 students, with mini-batch (3 to 4 students) and personal 1-on-1 options.",
-    "structured_curriculum": "A structured, well-paced curriculum taught step by step, with hands-on practice in every session.",
+    "structured_curriculum": "A structured, well-paced curriculum taught step by step, with classwork in every session and problem sets after every class.",
+    "real_assessment": "Monthly mixed reviews, cumulative phase exams, and a final exam that decides the certificate: real knowledge, real work.",
     "doubt_support": "Doubt support between classes over WhatsApp, so you are never left stuck.",
-    "certificate": "A course-completion certificate you can share.",
+    "certificate": "A certificate you earn by passing the final exam, with a free retest after revision if needed.",
     "free_demo": "A free demo class before you enrol, so you can decide with no pressure."
   },
   "faqs": [
     {
-      "question": "Do I need Java or any programming background first?",
-      "answer": "No, the course teaches Kotlin from zero, and unlike older Android learning paths you do not need Java first. Existing programmers will clear the fundamentals quickly and get more time in coroutines, Jetpack Compose and app architecture."
+      "question": "What does this Kotlin and Android course cover?",
+      "answer": "Kotlin as a real language first, null-safety, functional style, coroutines and flows, then modern Android: Jetpack Compose UI, architecture that survives rotation and growth, Room data, networking, testing and honest store literacy, ending with a store-grade capstone app and the final exam. Compose-first throughout: the stack Google actually recommends in 2026."
     },
     {
-      "question": "Which Kotlin version and tools are taught?",
-      "answer": "Current Kotlin 2.x with the modern compiler, Android Studio, Jetpack Compose for UI, coroutines for asynchronous work, and Spring Boot for the backend phase. The stack is kept aligned with what production Android and backend teams currently use."
+      "question": "How long does it take to learn Kotlin and Android properly?",
+      "answer": "Ten months of teaching at 2 live classes a week plus 4 to 6 hours of practice, with two more months in hand for learners who need them. The three teaching phases build the language and its real-world domain; the finale month ships a capstone and sits the final exam."
     },
     {
-      "question": "What will I build during the 12 months?",
-      "answer": "Kotlin fundamentals projects and console programs first, then real Android apps with Jetpack Compose, Material Design and API integration, followed by Spring Boot backend services and a Kotlin Multiplatform project. You finish with polished Android apps and backend work in a GitHub portfolio."
+      "question": "How am I assessed? Is the certificate just for attending?",
+      "answer": "No. Problem sets follow every class with written feedback, monthly reviews deliberately mix new material with earlier topics, each phase ends with a cumulative exam, and the course ends with a final exam: a practical build plus written questions from the whole syllabus. Passing earns the certificate; falling short earns focused revision and a free retest."
     },
     {
-      "question": "How does this course position me for Android or backend roles?",
-      "answer": "Kotlin is Google's preferred language for Android, and the course adds Spring Boot backend and Kotlin Multiplatform, so you can interview for more than one kind of role. You leave with real apps in a GitHub portfolio, code review experience and interview preparation. We do not promise placements; we prepare you to earn them."
+      "question": "Do I need to know Java first?",
+      "answer": "No: Kotlin is taught from zero and is the better first language for Android today. Java interop is explained where it matters (older codebases), but modern Android development, and this course, runs Kotlin-first with Compose."
     },
     {
-      "question": "Why not learn Kotlin from free videos?",
-      "answer": "Free videos cannot review your architecture or tell you why your coroutine leaks. In live classes a mentor reads your actual code, enforces habits like proper state handling in Compose, and keeps a 12-month arc moving from fundamentals to complete apps. Self-paced Android learning most often dies at the first big project; mentorship is how you get past it."
+      "question": "Will my app actually go on the Play Store?",
+      "answer": "The course builds to store-grade discipline and walks the release process honestly: developer account costs, review rules, testing tracks. Publishing itself is your call and your account; what the course guarantees is an app and a release checklist that are genuinely ready for it."
     },
     {
-      "question": "How much are the classes?",
-      "answer": "₹1,499 per month gets you a group batch in India (2 classes a week, maximum 10 students), ₹2,999 per month a mini batch of 3 to 4 students, and ₹4,999 per month personal 1-on-1 mentorship with 2 private classes weekly. International students pay a price set for their own country, shown on this page in their local currency."
+      "question": "What are the fees?",
+      "answer": "Group classes are ₹1,499 per month, with 2 live classes a week in batches capped at 10 learners. A mini batch of 3-4 learners is ₹2,999 per month, and personal 1-on-1 classes are ₹4,999 per month. International learners pay a price set for their own country, shown on this page in their local currency."
     },
     {
-      "question": "Is the demo class really free?",
-      "answer": "Completely: book at learn.modernagecoders.com/contact, attend a live session, and decide afterward with no commitment and nothing to cancel. Students and working professionals use it to check class quality; our Google rating stands at 4.9 stars across 547+ reviews."
+      "question": "Can I try a class before enrolling?",
+      "answer": "Yes, a free demo class with no commitment: book at learn.modernagecoders.com/contact or message us on WhatsApp at +91 91233 66161."
     },
     {
-      "question": "What does a typical class look like?",
-      "answer": "A live 1-hour online session with your instructor, with you writing Kotlin during class rather than watching passively; nothing is pre-recorded. Evening and weekend slots are available, designed around college timetables and office hours."
-    },
-    {
-      "question": "Is there a certificate and portfolio?",
-      "answer": "Both: a completion certificate when you finish, and a GitHub-ready portfolio of Android apps and backend services built through the year. Recruiters for Android roles almost always ask to see apps, and this course makes sure you have them."
+      "question": "Are classes live or recorded?",
+      "answer": "Live, always: small groups with a real instructor reading your actual code, never pre-recorded videos."
     }
   ]
 }
