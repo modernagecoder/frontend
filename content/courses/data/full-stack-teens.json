@@ -2,76 +2,69 @@
   "meta": {
     "slug": "full-stack-web-development-teens-masterclass",
     "date": "2025-10-31",
-    "title": "Full Stack Web Development for Teens: React & Node.js",
-    "description": "Full stack web development course for teens: build Instagram, TikTok and Netflix clones with HTML, CSS, JavaScript, React, Node.js, Python and databases.",
+    "dateModified": "2026-08-23",
+    "title": "Full Stack Web Development for Teens: React and Node.js",
+    "description": "Full stack web development course for teens aged 13-18: HTML, CSS, JavaScript, React, Node.js, MongoDB, AI features and a deployed capstone in 12-14 months.",
     "keywords": [
+      "full stack web development course for teens",
       "web development for teens",
-      "full stack for students",
-      "teenage coding bootcamp",
-      "frontend and backend",
-      "React for teens",
-      "Node.js for beginners",
-      "Python web development",
-      "JavaScript for students",
-      "teen programmer",
-      "youth coding",
-      "HTML CSS JavaScript",
-      "MERN stack",
-      "web apps for teens",
-      "student developer",
-      "career in tech"
+      "react course for teens",
+      "javascript course for teenagers",
+      "node js course for beginners",
+      "mern stack course for teens",
+      "online web development classes for teens india",
+      "web development for high school students",
+      "learn html css javascript for teens",
+      "web developer course for teenagers",
+      "full stack developer course for students",
+      "best web development course for teens"
     ],
-    "category": "Teen Full Stack Web Development",
+    "category": "Web Development",
     "taxonomy": "web-dev",
     "price": {
       "group": "₹1,499/month",
       "miniBatch": "₹2,999/month",
       "personal": "₹4,999/month"
     },
-    "duration": "24 months (104 weeks)",
-    "level": "Complete Beginner to Professional Full Stack Developer",
-    "commitment": "12-18 hours/week recommended",
-    "certification": "Teen Full Stack Developer Certification - Industry Recognized",
+    "duration": "12-14 months (48-56 weeks)",
+    "level": "Absolute beginner, ages 13 to 18",
+    "commitment": "2 live classes/week + 3-4 hours practice",
+    "certification": "Certificate from Modern Age Coders, awarded on passing the final exam",
     "image_path": "web-dev-teens.webp"
   },
   "program_overview": {
-    "title": "Full Stack Web Development for Teens - Build the Apps You Love",
-    "tagline": "From Zero Code to Building Instagram, Netflix, Discord & Your Dream Apps!",
-    "description": "This isn't your boring computer class. This 2-year masterclass is designed specifically for teenagers who want to build the apps they use every day. You'll start from absolute zero and progress to building complex applications like social media platforms, streaming services, gaming sites, and whatever you can imagine.\n\nLearn both frontend (what users see) and backend (the engine that powers apps). By graduation, you'll have 50+ projects in your portfolio, real-world skills that colleges and employers want, and the ability to build any web application you can dream of. Plus, you can start earning money through freelancing while still in school!",
+    "title": "Full Stack Web Development for Teens",
+    "tagline": "One honest stack, learned deeply: from a first hand-typed page to a deployed application with accounts, a database, live chat and an AI feature.",
+    "description": "Full stack means owning both halves of an application: the frontend people see and the backend that quietly runs it. This live online course takes students aged 13 to 18 from an empty folder to exactly that, a real deployed application with user accounts, a database, real-time features and an AI-powered capability, built with the stack that dominates modern development: JavaScript, React, Node.js and MongoDB, with SQL and TypeScript where the industry expects them.\n\nThe arc is deliberate. Three months of true foundations: HTML, CSS, layouts that survive a phone screen, then JavaScript learned properly, including the asynchronous side that separates real developers from tutorial followers. Three months of React, the way it is actually written in 2026: hooks, routing, TypeScript, a taste of Next.js, and a frontend capstone. Three months of backend: Node and Express, MongoDB and SQL, authentication done safely, and an API deployed to a public URL. The final three months put the halves together: file uploads, live chat with Socket.io, AI features built with proper guardrails, testing, and a four-week capstone shipped like a product.\n\nThe pace is honest: two live classes a week plus three to four hours of practice fits this in twelve months, and students who need longer take up to fourteen, the class adapts instead of rushing. Learning is checked the honest way too: homework after every class, monthly assignments that mix new questions with earlier topics, and a final exam that decides the certificate. Real knowledge, real work, real projects, depth over dopamine.",
     "what_makes_this_different": [
-      "Designed by young developers who understand teen interests",
-      "Build clones of apps teens actually use daily",
-      "Learn both frontend and backend - become truly versatile",
-      "Project-based learning with fun, relevant examples",
-      "Flexible schedule that works with school and activities",
-      "Teen-only community with peers your age",
-      "Skills that give you a massive advantage for college applications",
-      "Start earning money before you graduate high school",
-      "Parent dashboard for progress tracking (optional)"
+      "One stack learned deeply instead of four frameworks skimmed: JavaScript, React, Node and MongoDB, with SQL and TypeScript where industry expects them",
+      "Everything ships: projects go to real public URLs from month 3 onward, not screenshots on a laptop",
+      "AI is built, not bolted on: students add AI features to their own apps with streaming, guardrails and cost control",
+      "An honest 12-month arc with 2 months of margin built in: students who need more practice take up to 14, nobody is rushed",
+      "Small live batches capped at 10 students, with mini-batch and 1-on-1 options for closer attention",
+      "Real assessment: weekly homework, mixed-review assignments every month, and a final exam that decides the certificate, with focused revision and a free retest for students who fall short"
     ],
     "learning_path": {
-      "phase_1": "Foundation (Months 1-6): Web Basics, HTML, CSS, JavaScript, First Projects",
-      "phase_2": "Frontend Mastery (Months 7-12): React, Vue, Advanced JavaScript, UI/UX",
-      "phase_3": "Backend Development (Months 13-18): Node.js, Python, Databases, APIs",
-      "phase_4": "Professional Skills (Months 19-24): Full Stack Projects, DevOps, Career Prep"
+      "phase_1": "Web foundations (Months 1-3): HTML, CSS, responsive layouts, then JavaScript learned properly through the async side",
+      "phase_2": "React frontend (Months 4-6): components, hooks, routing, TypeScript, a taste of Next.js, and a frontend capstone",
+      "phase_3": "Backend (Months 7-9): Node, Express, MongoDB and SQL, safe authentication, and a deployed full-stack app",
+      "phase_4": "The full picture (Months 10-12): uploads, live chat, AI features with guardrails, testing, and the final capstone"
     },
     "career_outcomes": [
-      "Stand out in college applications with impressive portfolio",
-      "Qualify for internships at tech companies",
-      "Start freelancing",
-      "Launch your own startup or app business",
-      "Win hackathons and coding competitions",
-      "Get hired as a junior developer (if 18+)"
+      "A portfolio of 30+ real projects, crowned by a deployed full-stack application with accounts, chat and an AI feature",
+      "A genuinely strong college-application asset: live products, not certificates alone",
+      "The foundation for our Data Structures and Algorithms course, where interview-style problem solving is built",
+      "Working fluency with the professional toolkit: Git and GitHub, testing, code review and deployment"
     ]
   },
-  "phase_1_foundation": {
-    "title": "PHASE 1: Web Development Foundations (Months 1-6, Weeks 1-26)",
-    "description": "Start from zero and build a rock-solid foundation. Learn how the internet works, create beautiful websites, and master JavaScript - the language that powers the web.",
-    "month_1_2": {
-      "title": "Months 1-2: HTML, CSS & Your First Websites",
-      "weeks": "Week 1-8",
-      "week_1_2": {
-        "title": "Introduction to Web Development",
+  "phase_1_web_foundations": {
+    "title": "PHASE 1: Web Foundations (Months 1-3, Weeks 1-12)",
+    "description": "The real base: HTML with meaning, CSS that survives a phone, and JavaScript learned deeply enough that React will make sense instead of feeling like magic.",
+    "month_1_html_css": {
+      "title": "Month 1: HTML and CSS",
+      "weeks": "Weeks 1-4",
+      "week_1": {
+        "title": "How the Web Works, and Your First Pages",
         "topics": [
           "How the internet works - explained for teens",
           "What happens when you open Instagram or YouTube",
@@ -91,10 +84,10 @@
           "Favorite band/artist fan page",
           "School project presentation website"
         ],
-        "practice": "Create 5 different HTML pages about your interests"
+        "practice": "Create 5 HTML pages about things you actually care about"
       },
-      "week_3_4": {
-        "title": "Advanced HTML & Forms",
+      "week_2": {
+        "title": "Forms, Structure and Meaning",
         "topics": [
           "HTML5 semantic elements for better structure",
           "Creating forms - how login pages work",
@@ -114,10 +107,10 @@
           "Survey form for friends",
           "Restaurant menu with ordering form"
         ],
-        "practice": "Build 10 different types of forms"
+        "practice": "Build 5 different forms, each validated by the browser"
       },
-      "week_5_6": {
-        "title": "CSS - Making Things Look Amazing",
+      "week_3": {
+        "title": "CSS: Making It Look Right",
         "topics": [
           "CSS basics - adding style to HTML",
           "Selectors: targeting elements precisely",
@@ -137,10 +130,10 @@
           "Create a magazine-style layout",
           "Design product cards like Amazon"
         ],
-        "practice": "Recreate 10 popular website components"
+        "practice": "Recreate 5 popular website components from screenshots"
       },
-      "week_7_8": {
-        "title": "Modern CSS Layouts & Responsive Design",
+      "week_4": {
+        "title": "Flexbox, Grid and Responsive Design",
         "topics": [
           "Flexbox - create flexible layouts easily",
           "CSS Grid - magazine and blog layouts",
@@ -151,8 +144,6 @@
           "Transform and 3D effects",
           "CSS variables (custom properties)",
           "Modern CSS features",
-          "CSS frameworks introduction (Bootstrap)",
-          "Tailwind CSS basics",
           "CSS best practices and organization"
         ],
         "projects": [
@@ -160,14 +151,15 @@
           "Animated landing page",
           "Instagram-style photo grid"
         ],
-        "practice": "Make all projects mobile-responsive"
+        "practice": "Make every page you have built responsive",
+        "assessment": "Month 1 check: build a responsive layout live from a wireframe, plus a take-home assignment mixing all of month 1"
       }
     },
-    "month_3_4": {
-      "title": "Months 3-4: JavaScript Programming Fundamentals",
-      "weeks": "Week 9-17",
-      "week_9_10": {
-        "title": "JavaScript Basics",
+    "month_2_javascript": {
+      "title": "Month 2: JavaScript, Properly",
+      "weeks": "Weeks 5-8",
+      "week_5": {
+        "title": "JavaScript Fundamentals",
         "topics": [
           "What is JavaScript? Why it's everywhere",
           "Variables and data types",
@@ -187,10 +179,10 @@
           "Mad libs game generator",
           "Grade calculator for school"
         ],
-        "practice": "Solve 30 JavaScript basics challenges"
+        "practice": "Solve 25 JavaScript basics challenges"
       },
-      "week_11_12": {
-        "title": "Control Flow & Functions",
+      "week_6": {
+        "title": "Control Flow and Functions",
         "topics": [
           "If-else statements - making decisions",
           "Switch statements for multiple choices",
@@ -210,10 +202,10 @@
           "Password strength checker",
           "Number guessing game"
         ],
-        "practice": "Build 10 mini-games with JavaScript"
+        "practice": "Build 8 small games and tools with JavaScript"
       },
-      "week_13_14": {
-        "title": "DOM Manipulation - Making Pages Interactive",
+      "week_7": {
+        "title": "The DOM: Making Pages Interactive",
         "topics": [
           "What is the DOM?",
           "Selecting elements with JavaScript",
@@ -233,10 +225,33 @@
           "Color scheme switcher",
           "Typing speed test game"
         ],
-        "practice": "Add interactivity to 10 static websites"
+        "practice": "Add real interactivity to 5 of your static pages"
       },
-      "week_15_16": {
-        "title": "Advanced JavaScript Concepts",
+      "week_8": {
+        "title": "Interactive Projects Week",
+        "topics": [
+          "Combining structure, style and behavior in one build",
+          "Reading someone else’s code without panic",
+          "Planning a feature before typing it",
+          "Debugging with DevTools: breakpoints over guesswork",
+          "Local storage: pages that remember",
+          "Polish: empty states, small screens, keyboard use",
+          "Presenting a build in two minutes"
+        ],
+        "projects": [
+          "Interactive quiz with scoring and review",
+          "Habit tracker that survives refresh",
+          "A mini game of your own design"
+        ],
+        "practice": "One extra interactive build, chosen and scoped by you",
+        "assessment": "Month 2 check: build a small interactive feature live, with quiz questions reaching back to month 1"
+      }
+    },
+    "month_3_modern_js": {
+      "title": "Month 3: Modern JavaScript and the First Deploy",
+      "weeks": "Weeks 9-12",
+      "week_9": {
+        "title": "Arrays, Objects and Data Thinking",
         "topics": [
           "Array methods: map, filter, reduce",
           "forEach vs map - when to use each",
@@ -256,10 +271,10 @@
           "Playlist manager like Spotify",
           "Search and filter application"
         ],
-        "practice": "Master array methods with 25 exercises"
+        "practice": "Master array methods with 20 exercises"
       },
-      "week_17": {
-        "title": "Asynchronous JavaScript & APIs",
+      "week_10": {
+        "title": "Async JavaScript and Real APIs",
         "topics": [
           "Synchronous vs asynchronous code",
           "setTimeout and setInterval",
@@ -279,14 +294,10 @@
           "Meme generator using API",
           "Movie search app"
         ],
-        "practice": "Integrate 5 different fun APIs"
-      }
-    },
-    "month_5_6": {
-      "title": "Months 5-6: Advanced Frontend & First Framework",
-      "weeks": "Week 18-26",
-      "week_18_19": {
-        "title": "Modern JavaScript (ES6+)",
+        "practice": "Integrate 3 public APIs into your own pages"
+      },
+      "week_11": {
+        "title": "ES6+, Modules and npm",
         "topics": [
           "ES6+ features overview",
           "Classes and object-oriented programming",
@@ -306,33 +317,34 @@
           "Object-oriented game",
           "NPM-based project setup"
         ],
-        "practice": "Refactor old projects with modern JS"
+        "practice": "Refactor two old projects with modern JavaScript"
       },
-      "week_20_21": {
-        "title": "Build Tools & Development Workflow",
+      "week_12": {
+        "title": "Phase 1 Capstone: Ship a Real Site",
         "topics": [
-          "Why we need build tools",
-          "Webpack basics and configuration",
-          "Babel - writing future JavaScript today",
-          "Development vs production builds",
-          "Hot module replacement",
-          "Source maps for debugging",
-          "Code splitting and lazy loading",
-          "Environment variables",
-          "Linting with ESLint",
-          "Code formatting with Prettier",
-          "Git workflow for teams",
-          "Continuous integration basics"
+          "Scoping a multi-page interactive site you can finish",
+          "Project structure a stranger could navigate",
+          "Fetching and displaying live API data",
+          "Deploying to Netlify: your work on the public internet",
+          "A pre-launch checklist: links, responsiveness, console errors",
+          "Writing a README that explains the build"
         ],
         "projects": [
-          "Configure Webpack from scratch",
-          "Set up professional dev environment",
-          "Deploy project with CI/CD"
+          "The phase capstone: a multi-page, API-powered, responsive site, live at a public URL"
         ],
-        "practice": "Optimize 5 projects with build tools"
-      },
-      "week_22_23": {
-        "title": "Introduction to React",
+        "practice": "Share the live link with three people and fix the most confusing thing",
+        "assessment": "Phase 1 exam: build a small page with live data in class, plus a written mixed paper over months 1-3"
+      }
+    }
+  },
+  "phase_2_react_frontend": {
+    "title": "PHASE 2: The React Frontend (Months 4-6, Weeks 13-24)",
+    "description": "React the way it is actually written now: components, hooks, routing, real styling, TypeScript, a taste of Next.js, and a frontend capstone.",
+    "month_4_react_core": {
+      "title": "Month 4: React Core",
+      "weeks": "Weeks 13-16",
+      "week_13": {
+        "title": "Thinking in React",
         "topics": [
           "What is React? Why it's so popular",
           "React vs vanilla JavaScript",
@@ -352,60 +364,10 @@
           "Instagram post component",
           "Interactive quiz in React"
         ],
-        "practice": "Convert 5 vanilla JS projects to React"
+        "practice": "Convert 3 vanilla JavaScript projects to React"
       },
-      "week_24_25": {
-        "title": "CSS Frameworks & UI Libraries",
-        "topics": [
-          "Bootstrap 5 - quick professional layouts",
-          "Tailwind CSS - utility-first styling",
-          "Material-UI for React",
-          "Chakra UI components",
-          "Styled-components basics",
-          "CSS-in-JS concepts",
-          "Theme management",
-          "Responsive design patterns",
-          "Mobile-first development",
-          "Accessibility best practices",
-          "Performance optimization",
-          "Choosing the right framework"
-        ],
-        "projects": [
-          "Dashboard with Bootstrap",
-          "Tailwind CSS landing page",
-          "Material-UI admin panel"
-        ],
-        "practice": "Build same UI with 3 different frameworks"
-      },
-      "week_26": {
-        "title": "Phase 1 Capstone Project",
-        "topics": [
-          "Project planning and wireframing",
-          "Choosing the right tech stack",
-          "Setting up project structure",
-          "Version control best practices",
-          "Building in iterations",
-          "Testing your application",
-          "Deployment to Netlify/Vercel",
-          "Project documentation"
-        ],
-        "projects": [
-          "CAPSTONE: Full Frontend Application",
-          "Options: Social media clone, E-commerce site, Gaming platform, Streaming service UI",
-          "Must include: Responsive design, API integration, Local storage, Modern JavaScript"
-        ],
-        "assessment": "Complete frontend project with all Phase 1 skills"
-      }
-    }
-  },
-  "phase_2_frontend_mastery": {
-    "title": "PHASE 2: Advanced Frontend & Modern Frameworks (Months 7-12, Weeks 27-52)",
-    "description": "Master modern frontend frameworks, build complex UIs, and create professional-grade applications that look and feel like real products.",
-    "month_7_8": {
-      "title": "Months 7-8: React Mastery",
-      "weeks": "Week 27-35",
-      "week_27_28": {
-        "title": "Advanced React Concepts",
+      "week_14": {
+        "title": "Hooks and Effects",
         "topics": [
           "useEffect hook - side effects in React",
           "useEffect dependencies and cleanup",
@@ -414,10 +376,7 @@
           "useContext for global state",
           "useReducer for complex state logic",
           "Custom hooks creation",
-          "Performance optimization with useMemo",
-          "useCallback for function memoization",
           "useRef for DOM access",
-          "React.memo for component optimization",
           "React DevTools mastery"
         ],
         "projects": [
@@ -425,10 +384,10 @@
           "Real-time chat interface",
           "YouTube video player clone"
         ],
-        "practice": "Build 10 custom hooks for common patterns"
+        "practice": "Build 5 custom hooks for patterns you keep repeating"
       },
-      "week_29_30": {
-        "title": "React Router & Navigation",
+      "week_15": {
+        "title": "Routing and Multi-Page Apps",
         "topics": [
           "Single Page Applications (SPAs)",
           "React Router setup and configuration",
@@ -440,7 +399,6 @@
           "Protected routes and authentication",
           "Route guards and redirects",
           "Lazy loading routes",
-          "Route transitions and animations",
           "Browser history management"
         ],
         "projects": [
@@ -448,12 +406,33 @@
           "E-commerce site with routing",
           "Admin dashboard with nested routes"
         ],
-        "practice": "Add routing to 5 existing projects"
+        "practice": "Add routing to two existing projects"
       },
-      "week_31_32": {
-        "title": "State Management with Redux",
+      "week_16": {
+        "title": "Fetching Data Like a Professional",
         "topics": [
-          "Why Redux? State management at scale",
+          "Data fetching patterns in React",
+          "Loading, error and empty states, always",
+          "Search and filter over API data",
+          "Pagination and infinite scroll basics",
+          "Debouncing input before it hits the network",
+          "Keeping API keys out of frontend code",
+          "Caching responses sensibly"
+        ],
+        "projects": [
+          "Movie or music explorer with search, filters and clean loading states"
+        ],
+        "practice": "Refit an old project with proper loading and error states",
+        "assessment": "Month 4 check: build a small data-driven component live, plus a mixed assignment reaching back to phase 1"
+      }
+    },
+    "month_5_react_craft": {
+      "title": "Month 5: React Craft",
+      "weeks": "Weeks 17-20",
+      "week_17": {
+        "title": "State Management That Scales",
+        "topics": [
+          "When component state stops being enough",
           "Redux core concepts: Store, Actions, Reducers",
           "Setting up Redux in React",
           "React-Redux hooks: useSelector, useDispatch",
@@ -461,174 +440,27 @@
           "CreateSlice and createAsyncThunk",
           "Handling async operations",
           "Redux DevTools for debugging",
-          "Redux middleware",
-          "Normalizing state shape",
-          "Redux best practices",
-          "Redux alternatives: Zustand, MobX"
+          "Redux best practices"
         ],
         "projects": [
           "Instagram clone with Redux",
           "Shopping cart with Redux",
           "Real-time notification system"
         ],
-        "practice": "Implement Redux in 3 complex apps"
+        "practice": "Move one app from prop-drilling to context, then to Redux Toolkit"
       },
-      "week_33_34": {
-        "title": "Testing React Applications",
-        "topics": [
-          "Why testing matters",
-          "Jest testing framework",
-          "React Testing Library",
-          "Writing unit tests for components",
-          "Testing props and state",
-          "Testing user interactions",
-          "Mocking API calls",
-          "Integration testing",
-          "Snapshot testing",
-          "Code coverage reports",
-          "End-to-end testing with Cypress",
-          "Test-driven development (TDD)"
-        ],
-        "projects": [
-          "Add tests to existing projects",
-          "TDD calculator app",
-          "Test suite for e-commerce app"
-        ],
-        "practice": "Achieve 80% test coverage in projects"
-      },
-      "week_35": {
-        "title": "React Performance & Optimization",
-        "topics": [
-          "React performance profiling",
-          "Identifying performance bottlenecks",
-          "Code splitting strategies",
-          "Lazy loading components",
-          "Image optimization techniques",
-          "Virtual scrolling for long lists",
-          "Debouncing and throttling",
-          "Web Workers in React",
-          "Service Workers and PWAs",
-          "Caching strategies",
-          "Bundle size optimization",
-          "Performance monitoring tools"
-        ],
-        "projects": [
-          "Optimize slow React app",
-          "Build performant social feed",
-          "PWA with offline support"
-        ],
-        "practice": "Improve performance of 5 projects"
-      }
-    },
-    "month_9_10": {
-      "title": "Months 9-10: Vue.js & Alternative Frameworks",
-      "weeks": "Week 36-44",
-      "week_36_37": {
-        "title": "Vue.js Fundamentals",
-        "topics": [
-          "Introduction to Vue.js",
-          "Vue vs React comparison",
-          "Vue CLI and project setup",
-          "Vue templates and directives",
-          "Data binding in Vue",
-          "Computed properties and watchers",
-          "Methods and event handling",
-          "Conditional rendering with v-if",
-          "List rendering with v-for",
-          "Component basics in Vue",
-          "Props and custom events",
-          "Slots for component composition"
-        ],
-        "projects": [
-          "Todo app with Vue",
-          "Weather dashboard in Vue",
-          "Recipe app with Vue"
-        ],
-        "practice": "Rebuild React projects in Vue"
-      },
-      "week_38_39": {
-        "title": "Advanced Vue.js",
-        "topics": [
-          "Vue Router for navigation",
-          "Vuex state management",
-          "Composition API",
-          "Custom directives",
-          "Mixins and composables",
-          "Transitions and animations",
-          "Vue 3 features",
-          "Nuxt.js introduction",
-          "Server-side rendering with Vue",
-          "Vue testing strategies",
-          "Vue DevTools",
-          "Vue best practices"
-        ],
-        "projects": [
-          "E-commerce site with Vue",
-          "Social media app with Vuex",
-          "Blog with Nuxt.js"
-        ],
-        "practice": "Build 3 complete Vue applications"
-      },
-      "week_40_41": {
-        "title": "Angular Basics",
-        "topics": [
-          "Introduction to Angular",
-          "TypeScript fundamentals",
-          "Angular CLI and project structure",
-          "Components and templates",
-          "Data binding and directives",
-          "Services and dependency injection",
-          "Routing in Angular",
-          "Forms and validation",
-          "HTTP client and APIs",
-          "RxJS basics",
-          "Angular Material",
-          "Angular vs React vs Vue"
-        ],
-        "projects": [
-          "Task manager with Angular",
-          "Dashboard with Angular Material",
-          "CRUD app with Angular"
-        ],
-        "practice": "Explore Angular ecosystem"
-      },
-      "week_42_43": {
-        "title": "Modern Frontend Tools & Libraries",
-        "topics": [
-          "Next.js for React",
-          "Gatsby for static sites",
-          "Svelte introduction",
-          "Web Components basics",
-          "GraphQL on the frontend",
-          "Apollo Client",
-          "Progressive Web Apps (PWAs)",
-          "WebAssembly basics",
-          "Micro-frontends architecture",
-          "JAMstack architecture",
-          "Headless CMS integration",
-          "Frontend deployment strategies"
-        ],
-        "projects": [
-          "Blog with Next.js",
-          "Portfolio with Gatsby",
-          "PWA social app"
-        ],
-        "practice": "Experiment with 5 new technologies"
-      },
-      "week_44": {
-        "title": "TypeScript for Frontend",
+      "week_18": {
+        "title": "TypeScript for React",
         "topics": [
           "TypeScript fundamentals",
           "Types and interfaces",
           "Generics in TypeScript",
           "TypeScript with React",
           "Type-safe props and state",
-          "TypeScript with Vue",
           "TypeScript configuration",
           "Third-party library types",
           "Advanced TypeScript patterns",
           "TypeScript best practices",
-          "Migration strategies",
           "TypeScript tooling"
         ],
         "projects": [
@@ -636,14 +468,10 @@
           "Type-safe React application",
           "TypeScript component library"
         ],
-        "practice": "Write all new code in TypeScript"
-      }
-    },
-    "month_11_12": {
-      "title": "Months 11-12: UI/UX & Professional Frontend",
-      "weeks": "Week 45-52",
-      "week_45_46": {
-        "title": "UI/UX Design Principles",
+        "practice": "Write all new components in TypeScript from here on"
+      },
+      "week_19": {
+        "title": "UI/UX for Developers",
         "topics": [
           "Design principles for developers",
           "Color theory and palettes",
@@ -651,7 +479,6 @@
           "Layout and composition",
           "Visual hierarchy",
           "User experience basics",
-          "User research methods",
           "Wireframing and prototyping",
           "Figma for developers",
           "Design systems creation",
@@ -663,106 +490,93 @@
           "Redesign existing project",
           "Create accessible component library"
         ],
-        "practice": "Apply design principles to all projects"
+        "practice": "Redesign one old project applying the principles"
       },
-      "week_47_48": {
-        "title": "Advanced CSS & Animations",
+      "week_20": {
+        "title": "Tailwind and Component Libraries",
         "topics": [
-          "CSS architecture (BEM, SMACSS)",
-          "CSS custom properties advanced",
-          "CSS Grid advanced layouts",
-          "Container queries",
-          "CSS Houdini introduction",
-          "Advanced animations with CSS",
-          "GSAP animation library",
-          "Lottie animations",
-          "Three.js for 3D graphics",
-          "WebGL basics",
-          "Canvas API advanced",
-          "SVG animations"
-        ],
-        "projects": [
-          "Animated portfolio site",
-          "Interactive 3D showcase",
-          "Game with Canvas API"
-        ],
-        "practice": "Add advanced animations to 5 projects"
-      },
-      "week_49_50": {
-        "title": "Mobile-First & Cross-Platform",
-        "topics": [
-          "Mobile-first design strategy",
-          "Touch interactions and gestures",
-          "Mobile performance optimization",
-          "React Native introduction",
-          "Expo for quick mobile development",
-          "Ionic framework basics",
-          "Flutter for web",
-          "Responsive images and videos",
-          "Mobile debugging tools",
-          "App store deployment basics",
-          "Cross-platform considerations",
-          "Native vs web apps"
-        ],
-        "projects": [
-          "Mobile app with React Native",
-          "Cross-platform todo app",
-          "Mobile-optimized game"
-        ],
-        "practice": "Make all projects mobile-perfect"
-      },
-      "week_51": {
-        "title": "Frontend Security & Best Practices",
-        "topics": [
-          "Common frontend vulnerabilities",
-          "XSS prevention techniques",
-          "Content Security Policy (CSP)",
-          "HTTPS and SSL/TLS",
-          "Authentication best practices",
-          "Secure token storage",
-          "Input validation and sanitization",
-          "CORS and security headers",
-          "Dependency security scanning",
-          "Security testing tools",
-          "OWASP Top 10 for frontend",
-          "Privacy and GDPR compliance"
-        ],
-        "projects": [
-          "Security audit of projects",
-          "Implement secure authentication",
-          "Build security scanner tool"
-        ],
-        "practice": "Apply security best practices everywhere"
-      },
-      "week_52": {
-        "title": "Phase 2 Capstone Project",
-        "topics": [
-          "Complex frontend architecture",
-          "Multiple framework integration",
-          "Advanced state management",
+          "Tailwind CSS - utility-first styling",
+          "Theme management",
+          "Responsive design patterns",
+          "Mobile-first development",
+          "Accessibility best practices",
           "Performance optimization",
-          "Comprehensive testing",
-          "Accessibility compliance",
-          "Security implementation",
-          "Production deployment"
+          "Choosing the right framework",
+          "Tailwind as the industry default, used with restraint",
+          "One component library, learned properly",
+          "Building your own small design system"
         ],
         "projects": [
-          "CAPSTONE: Netflix/Disney+ Clone",
-          "Features: Video streaming UI, User profiles, Recommendations, Search, Responsive design",
-          "Alternative: Spotify/Apple Music Clone",
-          "Alternative: Discord/Slack Clone"
+          "A polished dashboard built with Tailwind and one component library"
         ],
-        "assessment": "Build production-ready frontend application"
+        "practice": "Restyle your best project with Tailwind",
+        "assessment": "Month 5 check: style a component set live, plus a mixed quiz over months 1-5"
+      }
+    },
+    "month_6_frontend_capstone": {
+      "title": "Month 6: Next.js Taste and the Frontend Capstone",
+      "weeks": "Weeks 21-24",
+      "week_21": {
+        "title": "Performance and PWA Basics",
+        "topics": [
+          "React performance profiling",
+          "Identifying performance bottlenecks",
+          "Code splitting strategies",
+          "Lazy loading components",
+          "Image optimization techniques",
+          "Virtual scrolling for long lists",
+          "Debouncing and throttling",
+          "Service Workers and PWAs",
+          "Caching strategies",
+          "Bundle size optimization"
+        ],
+        "projects": [
+          "Optimize slow React app",
+          "Build performant social feed",
+          "PWA with offline support"
+        ],
+        "practice": "Measure and improve your slowest project"
+      },
+      "week_22": {
+        "title": "A Taste of Next.js",
+        "topics": [
+          "Why the industry wraps React in Next.js",
+          "Pages, layouts and file-based routing",
+          "Server components in plain words",
+          "When Next.js is overkill, honestly",
+          "Deploying a Next.js site",
+          "How this course’s skills map onto any framework"
+        ],
+        "projects": [
+          "A small blog or portfolio rebuilt in Next.js"
+        ],
+        "practice": "Compare your Vite and Next builds: what changed and why"
+      },
+      "week_23_24": {
+        "title": "Frontend Capstone",
+        "topics": [
+          "Choosing the capstone: a streaming-style UI, a social feed, or a dashboard product",
+          "Component architecture planned before coding",
+          "TypeScript throughout, loading states everywhere",
+          "Responsive, accessible, and fast",
+          "Instructor checkpoint mid-build",
+          "Deploying and writing the case study README"
+        ],
+        "projects": [
+          "The frontend capstone: a polished, deployed React application that looks and feels like a real product"
+        ],
+        "practice": "Daily commits; one feature finished per session",
+        "assessment": "Phase 2 exam: capstone walkthrough plus a written mixed paper spanning phases 1 and 2"
       }
     }
   },
-  "phase_3_backend_engineering": {
-    "title": "PHASE 3: Backend Development & Databases (Months 13-18, Weeks 53-78)",
-    "description": "Master server-side programming, databases, APIs, authentication, and build the backend systems that power modern web applications.",
-    "month_13_14": {
-      "title": "Months 13-14: Node.js & Express",
-      "weeks": "Week 53-61",
-      "week_53_54": {
+  "phase_3_backend": {
+    "title": "PHASE 3: Backend and Databases (Months 7-9, Weeks 25-36)",
+    "description": "The engine room: Node and Express, MongoDB and SQL, authentication done safely, and the moment the two halves connect into one deployed application.",
+    "month_7_node_express": {
+      "title": "Month 7: Node, Express and MongoDB",
+      "weeks": "Weeks 25-28",
+      "week_25": {
         "title": "Node.js Fundamentals",
         "topics": [
           "What is Node.js? JavaScript on the server",
@@ -783,10 +597,10 @@
           "File management system",
           "Basic HTTP API server"
         ],
-        "practice": "Build 10 Node.js command-line tools"
+        "practice": "Build 5 Node.js command-line tools"
       },
-      "week_55_56": {
-        "title": "Express.js Framework",
+      "week_26": {
+        "title": "Express: Your First Server",
         "topics": [
           "Introduction to Express.js",
           "Setting up Express server",
@@ -806,10 +620,10 @@
           "User management system",
           "File upload service"
         ],
-        "practice": "Build 5 different APIs with Express"
+        "practice": "Build 3 small APIs with Express"
       },
-      "week_57_58": {
-        "title": "MongoDB & Mongoose",
+      "week_27": {
+        "title": "MongoDB and Mongoose",
         "topics": [
           "NoSQL vs SQL databases",
           "MongoDB introduction and setup",
@@ -829,10 +643,10 @@
           "E-commerce product catalog",
           "Blog with comments system"
         ],
-        "practice": "Design 10 different database schemas"
+        "practice": "Design and build 3 database schemas"
       },
-      "week_59_60": {
-        "title": "RESTful API Design",
+      "week_28": {
+        "title": "REST API Design",
         "topics": [
           "REST principles and constraints",
           "API endpoint design",
@@ -852,10 +666,15 @@
           "E-commerce API with all features",
           "Real-time chat API"
         ],
-        "practice": "Design and document 5 APIs"
-      },
-      "week_61": {
-        "title": "Authentication & Authorization",
+        "practice": "Design, build and document one clean API end to end",
+        "assessment": "Month 7 check: build a small CRUD endpoint live, plus a mixed quiz reaching back to earlier phases"
+      }
+    },
+    "month_8_auth_sql": {
+      "title": "Month 8: Authentication, SQL and Safety",
+      "weeks": "Weeks 29-32",
+      "week_29": {
+        "title": "Authentication Done Safely",
         "topics": [
           "Authentication vs authorization explained",
           "Password hashing with bcrypt",
@@ -863,72 +682,20 @@
           "Creating and verifying JWTs",
           "Refresh tokens pattern",
           "Session-based authentication",
-          "OAuth 2.0 introduction",
-          "Google and Facebook login",
           "Role-based access control (RBAC)",
           "Protecting API routes",
           "Password reset functionality",
-          "Two-factor authentication basics"
+          "Why passwords are never stored in plain text, ever"
         ],
         "projects": [
           "Complete auth system with JWT",
           "Social login integration",
           "Multi-role permission system"
         ],
-        "practice": "Implement auth in all backend projects"
-      }
-    },
-    "month_15_16": {
-      "title": "Months 15-16: Python & Advanced Databases",
-      "weeks": "Week 62-70",
-      "week_62_63": {
-        "title": "Python Fundamentals for Web",
-        "topics": [
-          "Python basics review",
-          "Python for web development",
-          "Virtual environments setup",
-          "pip package management",
-          "Flask framework introduction",
-          "Routes and views in Flask",
-          "Templates with Jinja2",
-          "Forms and validation",
-          "Flask extensions",
-          "Database integration with Flask",
-          "Flask RESTful APIs",
-          "Flask vs Express comparison"
-        ],
-        "projects": [
-          "Blog application with Flask",
-          "API with Flask-RESTful",
-          "Portfolio site with Flask"
-        ],
-        "practice": "Build 5 Flask applications"
+        "practice": "Add signup, login and protected routes to your API"
       },
-      "week_64_65": {
-        "title": "Django Framework",
-        "topics": [
-          "Django introduction and philosophy",
-          "Django project structure",
-          "Models and migrations",
-          "Django ORM basics",
-          "Views and URLs",
-          "Templates and template language",
-          "Django admin interface",
-          "Forms and ModelForms",
-          "Authentication in Django",
-          "Django REST framework",
-          "Class-based views",
-          "Django best practices"
-        ],
-        "projects": [
-          "Instagram clone with Django",
-          "E-commerce site with Django",
-          "CMS with Django admin"
-        ],
-        "practice": "Master Django through projects"
-      },
-      "week_66_67": {
-        "title": "SQL & PostgreSQL",
+      "week_30": {
+        "title": "SQL and PostgreSQL Essentials",
         "topics": [
           "Relational database concepts",
           "PostgreSQL installation and setup",
@@ -937,10 +704,8 @@
           "Primary and foreign keys",
           "Joins: INNER, LEFT, RIGHT, FULL",
           "Aggregate functions",
-          "Subqueries and CTEs",
           "Indexes and optimization",
           "Transactions and ACID",
-          "Stored procedures and triggers",
           "Database design principles"
         ],
         "projects": [
@@ -948,129 +713,10 @@
           "E-commerce database design",
           "Social network database"
         ],
-        "practice": "Write 100 SQL queries"
+        "practice": "Write 40 SQL queries against a real schema"
       },
-      "week_68_69": {
-        "title": "Advanced Database Topics",
-        "topics": [
-          "Database normalization",
-          "Denormalization strategies",
-          "Query optimization techniques",
-          "Database indexing strategies",
-          "Caching with Redis",
-          "Database replication",
-          "Sharding and partitioning",
-          "NoSQL alternatives comparison",
-          "GraphQL with databases",
-          "Database migrations",
-          "Backup and recovery",
-          "Database security"
-        ],
-        "projects": [
-          "Optimize slow database",
-          "Implement caching layer",
-          "Database migration system"
-        ],
-        "practice": "Optimize 5 database-heavy applications"
-      },
-      "week_70": {
-        "title": "Real-time & WebSockets",
-        "topics": [
-          "WebSocket protocol explained",
-          "Socket.io with Node.js",
-          "Real-time events and broadcasting",
-          "Rooms and namespaces",
-          "Socket authentication",
-          "Scaling WebSocket servers",
-          "Server-Sent Events (SSE)",
-          "WebRTC basics",
-          "Real-time notifications",
-          "Live collaboration features",
-          "Chat application architecture",
-          "Real-time analytics"
-        ],
-        "projects": [
-          "WhatsApp clone backend",
-          "Live collaboration tool",
-          "Real-time gaming server"
-        ],
-        "practice": "Add real-time features to 5 apps"
-      }
-    },
-    "month_17_18": {
-      "title": "Months 17-18: Advanced Backend & Cloud",
-      "weeks": "Week 71-78",
-      "week_71_72": {
-        "title": "Microservices Architecture",
-        "topics": [
-          "Monolithic vs microservices",
-          "Microservices design principles",
-          "Service decomposition",
-          "Inter-service communication",
-          "API Gateway pattern",
-          "Service discovery",
-          "Message queues (RabbitMQ)",
-          "Event-driven architecture",
-          "Kafka basics",
-          "Docker for microservices",
-          "Kubernetes introduction",
-          "Microservices challenges"
-        ],
-        "projects": [
-          "E-commerce microservices",
-          "Social media microservices",
-          "Video platform architecture"
-        ],
-        "practice": "Design 3 microservice systems"
-      },
-      "week_73_74": {
-        "title": "Cloud Services (AWS)",
-        "topics": [
-          "Cloud computing basics",
-          "AWS account and IAM setup",
-          "EC2 instances and deployment",
-          "S3 for file storage",
-          "RDS for databases",
-          "Lambda serverless functions",
-          "API Gateway setup",
-          "CloudFront CDN",
-          "Route 53 DNS",
-          "ElastiCache for caching",
-          "SQS and SNS messaging",
-          "AWS best practices"
-        ],
-        "projects": [
-          "Deploy app to AWS",
-          "Serverless API with Lambda",
-          "Cloud-native application"
-        ],
-        "practice": "Deploy all projects to cloud"
-      },
-      "week_75_76": {
-        "title": "DevOps & CI/CD",
-        "topics": [
-          "DevOps culture and practices",
-          "Version control with Git (advanced)",
-          "GitHub Actions for CI/CD",
-          "Docker containerization",
-          "Docker Compose for development",
-          "Container registries",
-          "Kubernetes basics",
-          "Infrastructure as Code",
-          "Terraform basics",
-          "Monitoring with Prometheus",
-          "Logging with ELK stack",
-          "GitOps principles"
-        ],
-        "projects": [
-          "CI/CD pipeline setup",
-          "Dockerize all applications",
-          "Kubernetes deployment"
-        ],
-        "practice": "Implement DevOps for 5 projects"
-      },
-      "week_77": {
-        "title": "API Security & Performance",
+      "week_31": {
+        "title": "API Security and Performance",
         "topics": [
           "API security best practices",
           "Input validation and sanitization",
@@ -1081,59 +727,46 @@
           "Security headers",
           "API performance optimization",
           "Caching strategies",
-          "Load balancing",
-          "Performance monitoring",
-          "API analytics"
+          "Performance monitoring"
         ],
         "projects": [
           "Secure API implementation",
           "Performance testing suite",
           "API monitoring dashboard"
         ],
-        "practice": "Secure and optimize all APIs"
+        "practice": "Harden your API against the OWASP basics you now know"
       },
-      "week_78": {
-        "title": "Phase 3 Capstone Project",
+      "week_32": {
+        "title": "Backend Capstone: A Deployed API",
         "topics": [
-          "Full backend system design",
-          "Database architecture",
-          "API design and documentation",
-          "Authentication system",
-          "Real-time features",
-          "Cloud deployment",
-          "Performance optimization",
-          "Security implementation"
+          "Scoping an API product: resource design first",
+          "Auth, validation and sensible error responses",
+          "Environment variables and secrets, done right",
+          "Deploying the API to Render",
+          "Testing everything with a REST client",
+          "Writing API documentation a stranger could use"
         ],
         "projects": [
-          "CAPSTONE: Complete Backend for Social Platform",
-          "Features: Users, posts, comments, likes, real-time chat, notifications, file uploads",
-          "Alternative: E-commerce Backend",
-          "Alternative: Streaming Platform Backend"
+          "The backend capstone: a documented, authenticated API live on a public URL"
         ],
-        "assessment": "Build production-ready backend system"
+        "practice": "Have a classmate build against your API using only your docs",
+        "assessment": "Phase check: API walkthrough plus a cumulative quiz from phases 1-3 so far"
       }
-    }
-  },
-  "phase_4_advanced_production": {
-    "title": "PHASE 4: Full Stack Mastery & Career Launch (Months 19-24, Weeks 79-104)",
-    "description": "Combine everything you've learned, build production applications, master advanced topics, and prepare for your career as a professional full stack developer.",
-    "month_19_20": {
-      "title": "Months 19-20: Full Stack Applications",
-      "weeks": "Week 79-87",
-      "week_79_80": {
-        "title": "Full Stack Architecture",
+    },
+    "month_9_full_stack": {
+      "title": "Month 9: The Two Halves Connect",
+      "weeks": "Weeks 33-36",
+      "week_33": {
+        "title": "Full-Stack Architecture with MERN",
         "topics": [
           "Full stack application planning",
           "Choosing the right tech stack",
           "MERN stack deep dive",
-          "MEAN stack alternative",
-          "PERN stack with PostgreSQL",
           "Frontend-backend communication",
           "API design for frontends",
           "State management across stack",
           "File upload architecture",
           "Email service integration",
-          "Payment processing (Stripe)",
           "Full stack best practices"
         ],
         "projects": [
@@ -1141,106 +774,85 @@
           "E-commerce platform",
           "Project management tool"
         ],
-        "practice": "Build 3 different full stack apps"
+        "practice": "Wire your React capstone to your own API"
       },
-      "week_81_82": {
-        "title": "Advanced Authentication Systems",
+      "week_34": {
+        "title": "Real-Time with Socket.io",
         "topics": [
-          "Multi-factor authentication",
-          "Biometric authentication",
-          "Single Sign-On (SSO)",
-          "SAML and OpenID Connect",
-          "Passwordless authentication",
-          "Magic links implementation",
-          "Session management at scale",
-          "Token refresh strategies",
-          "Account verification",
-          "Social authentication advanced",
-          "Auth0 integration",
-          "Security audit practices"
+          "WebSocket protocol explained",
+          "Socket.io with Node.js",
+          "Real-time events and broadcasting",
+          "Rooms and namespaces",
+          "Socket authentication",
+          "Server-Sent Events (SSE)",
+          "Real-time notifications",
+          "Live collaboration features",
+          "Chat application architecture"
         ],
         "projects": [
-          "Enterprise auth system",
-          "SSO implementation",
-          "Passwordless login system"
+          "WhatsApp clone backend",
+          "Live collaboration tool",
+          "Real-time gaming server"
         ],
-        "practice": "Implement 5 auth strategies"
+        "practice": "Add one live feature to your app: chat, presence or notifications"
       },
-      "week_83_84": {
-        "title": "Real-time Applications",
+      "week_35": {
+        "title": "Full-Stack Deployment",
         "topics": [
-          "Real-time architecture patterns",
-          "WebSocket scaling strategies",
-          "Socket.io advanced features",
-          "Video calling with WebRTC",
-          "Screen sharing implementation",
-          "Collaborative editing (OT/CRDT)",
-          "Real-time gaming backends",
-          "Live streaming basics",
-          "Push notifications (web & mobile)",
-          "Real-time analytics",
-          "Message queue integration",
-          "Event sourcing patterns"
+          "Deploying frontend and backend as one product",
+          "Environment configuration across services",
+          "CORS, cookies and auth across origins, demystified",
+          "Custom domains and HTTPS",
+          "Reading production logs when something breaks",
+          "A deployment checklist you will reuse for years"
         ],
         "projects": [
-          "Zoom/Discord clone",
-          "Google Docs clone",
-          "Twitch-style streaming app"
+          "Your full-stack app live: React frontend, Node API, database, one URL"
         ],
-        "practice": "Build 5 real-time features"
+        "practice": "Deploy a second app solo using only your checklist"
       },
-      "week_85_86": {
-        "title": "Performance & Scalability",
+      "week_36": {
+        "title": "Full-Stack Mini Build",
         "topics": [
-          "Performance metrics and KPIs",
-          "Frontend performance optimization",
-          "Backend performance tuning",
-          "Database query optimization",
-          "Caching at every layer",
-          "CDN implementation",
-          "Load balancing strategies",
-          "Horizontal scaling patterns",
-          "Microservices scaling",
-          "Auto-scaling configuration",
-          "Performance monitoring tools",
-          "Stress testing and load testing"
+          "A one-week product: scope ruthlessly",
+          "Feature slices: database to API to UI, one at a time",
+          "Where bugs hide when the stack is yours end to end",
+          "Code review across the whole stack",
+          "Presenting a product, not a repo"
         ],
         "projects": [
-          "Optimize social media platform",
-          "Build scalable chat system",
-          "Performance monitoring dashboard"
+          "A complete mini product built solo in one week: tracker, board, library or your own idea"
         ],
-        "practice": "Scale applications to handle millions"
-      },
-      "week_87": {
-        "title": "Mobile App Development",
-        "topics": [
-          "React Native deep dive",
-          "Expo for rapid development",
-          "Native device features",
-          "Push notifications setup",
-          "App store deployment",
-          "Flutter basics for web devs",
-          "Ionic framework alternative",
-          "PWA vs native apps",
-          "Mobile app monetization",
-          "App analytics integration",
-          "Mobile app security",
-          "Cross-platform strategies"
-        ],
-        "projects": [
-          "TikTok mobile clone",
-          "Instagram mobile app",
-          "Cross-platform game"
-        ],
-        "practice": "Convert 3 web apps to mobile"
+        "practice": "Write the one-page retrospective: what you would do differently",
+        "assessment": "Phase 3 exam: full-stack walkthrough from schema to deployed URL, plus a written mixed paper over phases 1-3"
       }
-    },
-    "month_21_22": {
-      "title": "Months 21-22: Advanced Topics & Specializations",
-      "weeks": "Week 88-96",
-      "week_88_89": {
-        "title": "Machine Learning for Web Devs",
+    }
+  },
+  "phase_4_full_picture": {
+    "title": "PHASE 4: AI, Quality and the Capstone (Months 10-12, Weeks 37-48)",
+    "description": "The final level: uploads and integrations, AI features built with guardrails, testing across the stack, and a four-week capstone shipped like a product.",
+    "month_10_powerups": {
+      "title": "Month 10: Power-Ups and AI",
+      "weeks": "Weeks 37-40",
+      "week_37": {
+        "title": "Uploads, Email and Integrations",
+        "topics": [
+          "File uploads: images from the browser to storage",
+          "Serving user images safely",
+          "Sending transactional email from the backend",
+          "Working with third-party APIs server-side",
+          "Webhooks: when other services call you",
+          "Background jobs for slow work",
+          "Rate limits and being a polite API citizen"
+        ],
+        "projects": [
+          "Profile pictures and image posts added to your app",
+          "Email notifications for real events"
+        ],
+        "practice": "Integrate one external service end to end"
+      },
+      "week_38": {
+        "title": "Machine Learning for Web Developers",
         "topics": [
           "ML basics for web developers",
           "TensorFlow.js introduction",
@@ -1249,9 +861,6 @@
           "Natural language processing",
           "Recommendation systems",
           "Sentiment analysis",
-          "ML model deployment",
-          "Python ML basics",
-          "Scikit-learn introduction",
           "ML APIs integration",
           "Ethical AI considerations"
         ],
@@ -1260,12 +869,12 @@
           "Recommendation engine",
           "Sentiment analysis tool"
         ],
-        "practice": "Add ML features to 5 projects"
+        "practice": "Add one pre-trained model feature to a project"
       },
-      "week_90_91": {
-        "title": "AI-Powered Full-Stack Apps",
+      "week_39": {
+        "title": "AI Features with Guardrails",
         "topics": [
-          "Where AI belongs in a full-stack app",
+          "Where AI belongs in a full-stack app (accounts set up with a parent where a service requires it)",
           "Server-side model calls: never from the browser",
           "Streaming a response into React without jank",
           "Retrieval over your own database",
@@ -1283,361 +892,250 @@
           "Agentic task assistant",
           "AI feature with full guardrails + evals"
         ],
-        "practice": "Build 3 AI-powered applications"
+        "practice": "Run 20 real queries through your AI feature and grade the answers"
       },
-      "week_92_93": {
-        "title": "Game Development for Web",
+      "week_40": {
+        "title": "Testing Across the Stack",
         "topics": [
-          "HTML5 Canvas deep dive",
-          "WebGL and graphics",
-          "Phaser.js game framework",
-          "Three.js for 3D games",
-          "Game physics basics",
-          "Sprite animation",
-          "Game state management",
-          "Multiplayer game architecture",
-          "Game monetization",
-          "Publishing web games",
-          "Mobile game deployment",
-          "Game analytics"
+          "Why testing matters",
+          "Jest testing framework",
+          "React Testing Library",
+          "Writing unit tests for components",
+          "Testing props and state",
+          "Testing user interactions",
+          "Mocking API calls",
+          "Integration testing",
+          "Code coverage reports",
+          "Test-driven development (TDD)",
+          "Testing API endpoints with supertest",
+          "What to test first when time is short"
         ],
         "projects": [
-          "2D platformer game",
-          "Multiplayer battle game",
-          "3D racing game"
+          "Test suites for your capstone’s core logic, frontend and backend"
         ],
-        "practice": "Build 5 different game types"
-      },
-      "week_94_95": {
-        "title": "Enterprise Development",
-        "topics": [
-          "Enterprise architecture patterns",
-          "SOLID principles in practice",
-          "Design patterns implementation",
-          "Domain-driven design",
-          "Event-driven architecture",
-          "CQRS pattern",
-          "Message-driven systems",
-          "Enterprise security",
-          "Compliance (GDPR, HIPAA)",
-          "Multi-tenancy",
-          "White-label solutions",
-          "Enterprise deployment"
-        ],
-        "projects": [
-          "Enterprise SaaS platform",
-          "Multi-tenant application",
-          "White-label solution"
-        ],
-        "practice": "Build enterprise-grade features"
-      },
-      "week_96": {
-        "title": "Open Source Contribution",
-        "topics": [
-          "Finding projects to contribute",
-          "Understanding large codebases",
-          "Making quality pull requests",
-          "Code review participation",
-          "Issue triage and management",
-          "Documentation contributions",
-          "Creating your own open source project",
-          "Building a community",
-          "Managing contributors",
-          "Open source licensing",
-          "Funding open source",
-          "Open source career paths"
-        ],
-        "projects": [
-          "Contribute to 5 major projects",
-          "Launch your own open source tool",
-          "Build developer community"
-        ],
-        "practice": "Weekly open source contributions"
+        "practice": "Write 25 tests across your two best projects",
+        "assessment": "Month 10 check: a mixed assignment spanning AI, testing and earlier phases"
       }
     },
-    "month_23": {
-      "title": "Month 23: Career Preparation",
-      "weeks": "Week 97-100",
-      "week_97": {
-        "title": "Portfolio & Personal Brand",
+    "month_11_ship_like_pro": {
+      "title": "Month 11: Ship Like a Professional",
+      "weeks": "Weeks 41-44",
+      "week_41": {
+        "title": "Git Workflow and CI Basics",
         "topics": [
-          "Building impressive portfolio",
-          "Showcasing best projects",
-          "Case study writing",
-          "Technical blog writing",
-          "YouTube/TikTok for developers",
-          "LinkedIn optimization",
-          "GitHub profile enhancement",
-          "Personal website SEO",
-          "Speaking at meetups",
-          "Building online presence",
-          "Networking strategies",
-          "Personal brand development"
+          "DevOps culture and practices",
+          "Version control with Git (advanced)",
+          "GitHub Actions for CI/CD",
+          "Docker in one honest lesson: what it is and when you need it",
+          "Branches, pull requests and reviewing a teammate’s code"
         ],
         "projects": [
-          "Professional portfolio site",
-          "Technical blog with 10 posts",
-          "Video tutorials creation"
+          "A GitHub Actions check that runs your tests on every push"
         ],
-        "practice": "Build strong online presence"
+        "practice": "Two weeks of professional Git habits: branches and clean commits"
       },
-      "week_98": {
-        "title": "Interview Preparation",
+      "week_42": {
+        "title": "Security Hardening Pass",
         "topics": [
-          "Data structures for interviews",
-          "Algorithm basics",
-          "Big O notation",
-          "Common coding patterns",
-          "System design interviews",
-          "Behavioral questions",
-          "Technical communication",
-          "Whiteboard coding",
-          "Take-home projects",
-          "Salary negotiation",
-          "Contract review",
-          "Interview practice platforms"
+          "Common frontend vulnerabilities",
+          "XSS prevention techniques",
+          "Content Security Policy (CSP)",
+          "HTTPS and SSL/TLS",
+          "Authentication best practices",
+          "Secure token storage",
+          "Input validation and sanitization",
+          "CORS and security headers",
+          "Dependency security scanning",
+          "OWASP Top 10 for frontend"
         ],
         "projects": [
-          "Algorithm visualizer",
-          "Interview prep app",
-          "Mock interview recordings"
+          "Security audit of projects",
+          "Implement secure authentication",
+          "Build security scanner tool"
         ],
-        "practice": "Daily interview prep for 30 days"
+        "practice": "Run the full security checklist against your own app and fix what fails"
       },
-      "week_99": {
-        "title": "Freelancing & Business",
+      "week_43": {
+        "title": "Performance and Polish Pass",
         "topics": [
-          "Starting as teen freelancer",
-          "Finding first clients",
-          "Project pricing strategies",
-          "Time estimation",
-          "Client communication",
-          "Project management",
-          "Invoicing and payments",
-          "Legal considerations for teens",
-          "Building reputation",
-          "Scaling freelance business",
-          "Agency vs freelance",
-          "Passive income streams"
+          "Measuring before optimizing: Lighthouse honestly",
+          "Image and bundle weight: the usual suspects",
+          "Database queries that quietly get slow",
+          "Caching where it actually helps",
+          "Accessibility pass: keyboard, contrast, labels",
+          "The empty-state and error-page polish that separates products from projects"
         ],
         "projects": [
-          "Complete client project",
-          "Freelance portfolio",
-          "Business website"
+          "A measured before/after performance report on your own app"
         ],
-        "practice": "Complete 3 freelance projects"
+        "practice": "Fix the three worst findings from your report"
       },
-      "week_100": {
-        "title": "Startup & Entrepreneurship",
+      "week_44": {
+        "title": "Capstone Planning",
         "topics": [
-          "Startup ideation process",
-          "Market validation",
-          "MVP development",
-          "User research for teens",
-          "Growth hacking basics",
-          "Social media marketing",
-          "Product launch strategies",
-          "Fundraising basics",
-          "Pitch deck creation",
-          "Team building",
-          "Startup mistakes to avoid",
-          "Success stories analysis"
+          "Choosing the final capstone: your best idea, scoped to four weeks",
+          "A one-page spec: users, features, stack, milestones",
+          "Database schema and API sketch before any UI",
+          "Cutting scope without cutting the soul of the idea",
+          "Milestones: working core by week 2, feature-complete by week 3"
         ],
         "projects": [
-          "Launch micro-SaaS product",
-          "Create pitch deck",
-          "Build landing page"
+          "Approved capstone spec plus the repository, schema and first endpoints"
         ],
-        "practice": "Validate and launch product idea"
+        "practice": "Pitch the spec to the batch and absorb one hard question",
+        "assessment": "Month 11 check: spec review plus a mixed quiz over the whole course so far"
       }
     },
-    "month_24": {
-      "title": "Month 24: Final Projects & Graduation",
-      "weeks": "Week 101-104",
-      "week_101_102": {
-        "title": "Final Capstone Project",
+    "month_12_capstone": {
+      "title": "Month 12: The Capstone",
+      "weeks": "Weeks 45-48",
+      "week_45_46": {
+        "title": "Capstone Build",
         "topics": [
-          "Project planning at scale",
-          "Technical specification",
-          "Architecture documentation",
-          "Sprint planning",
-          "Agile development process",
-          "Code quality standards",
-          "Testing strategy",
-          "CI/CD implementation",
-          "Performance benchmarks",
-          "Security audit",
-          "Deployment strategy",
-          "Launch preparation"
+          "Building in vertical slices: database to UI, one feature at a time",
+          "Instructor checkpoints and course corrections",
+          "Using everything: React, TypeScript, Node, database, auth, maybe AI",
+          "Tests on the logic that must not break",
+          "Daily commits and an always-working build",
+          "A mid-build demo to a real user"
         ],
         "projects": [
-          "FINAL CAPSTONE: Your Dream Application",
-          "Requirements: Full stack, real-time features, mobile responsive, secure auth, payments, analytics, scalable architecture",
-          "Options: Social platform, SaaS tool, E-commerce platform, Entertainment app, Educational platform"
-        ]
+          "The final capstone, built over two focused weeks with version control and tests"
+        ],
+        "practice": "A working build at the end of every session, no exceptions"
       },
-      "week_103": {
-        "title": "Project Launch & Presentation",
+      "week_47": {
+        "title": "Launch Week",
         "topics": [
-          "Production deployment",
-          "Domain and hosting",
-          "SSL and security",
-          "Performance monitoring",
-          "Error tracking setup",
-          "Analytics implementation",
-          "Marketing website",
-          "Product demo video",
-          "Technical presentation",
-          "User documentation",
-          "API documentation",
-          "Post-launch iteration"
+          "Production deployment: frontend, API, database",
+          "Custom domain, HTTPS and final configuration",
+          "Error tracking so you know when it breaks",
+          "The launch checklist run end to end",
+          "README, screenshots and a two-minute demo video",
+          "Collecting first real user feedback"
         ],
-        "deliverables": [
-          "Live production application",
-          "Complete documentation",
-          "Demo video and presentation",
-          "Marketing materials",
-          "User acquisition plan",
-          "Technical blog post",
-          "Open source components",
-          "Performance reports"
-        ]
+        "projects": [
+          "The capstone live on its own URL with documentation worth reading"
+        ],
+        "practice": "Onboard three real users and ship one fix from their feedback"
       },
-      "week_104": {
-        "title": "Graduation & Career Launch",
+      "week_48": {
+        "title": "Demo Day and What Comes Next",
         "topics": [
-          "Course completion ceremony",
-          "Portfolio review session",
-          "Career counseling",
-          "Job application strategy",
-          "Internship opportunities",
-          "University pathways",
-          "Continuous learning plan",
-          "Alumni network access",
-          "Mentorship program",
-          "Community involvement",
-          "Teaching opportunities",
-          "Your journey ahead"
+          "Presenting the capstone: live demo plus the hardest bug story",
+          "Portfolio final pass: GitHub profile, project pages, case studies",
+          "An honest skills inventory: strong, shaky, next",
+          "Where each path leads: DSA for interviews, deeper backend, or design",
+          "Staying sharp: projects, communities and healthy practice habits"
         ],
-        "deliverables": [
-          "50+ completed projects portfolio",
-          "Professional GitHub profile",
-          "Published npm packages",
-          "Open source contributions",
-          "Technical blog/YouTube channel",
-          "Professional network",
-          "Industry certifications",
-          "Job-ready skills"
+        "projects": [
+          "Demo day presentation delivered to the batch and parents"
         ],
-        "assessment": "Comprehensive final assessment and certification ceremony"
+        "assessment": "FINAL EXAM: a practical build plus a written paper with questions mixed from every phase. Passing earns the certificate; a student who falls short gets a focused revision plan and a free retest"
       }
     }
   },
   "additional_learning_resources": {
     "projects_throughout_course": [
-      "Phase 1: Portfolio, Blog, Todo App, Weather App, Quiz Game, E-commerce UI",
-      "Phase 2: Instagram Clone, TikTok Clone, Netflix UI, Discord Interface, Spotify Player",
-      "Phase 3: WhatsApp Backend, YouTube API, Twitter Full Stack, Reddit Clone",
-      "Phase 4: Zoom Clone, Uber Clone, Airbnb Clone, Complete SaaS Platform"
+      "Phase 1: hand-built responsive sites, interactive JavaScript apps, and an API-powered capstone deployed to a public URL",
+      "Phase 2: React applications with routing, TypeScript and Tailwind, ending in a polished frontend capstone",
+      "Phase 3: Express APIs with MongoDB and SQL, safe authentication, and a full-stack app live on one URL",
+      "Phase 4: file uploads, live chat, AI features with guardrails, tests, and the final four-week capstone"
     ],
-    "total_projects_built": "50+ projects ranging from simple websites to complex applications",
+    "total_projects_built": "30+ real projects, crowned by a deployed full-stack application with accounts, live features and an AI capability",
     "skills_mastered": [
-      "Frontend: HTML5, CSS3, JavaScript ES6+, TypeScript, React, Vue, Angular",
-      "Styling: Tailwind, Bootstrap, Styled Components, SASS, Animations",
-      "Backend: Node.js, Express, Python, Django, Flask, REST APIs, GraphQL",
-      "Databases: MongoDB, PostgreSQL, MySQL, Redis, Database Design",
-      "DevOps: Git, Docker, Kubernetes, CI/CD, AWS, Cloud Deployment",
-      "Mobile: React Native, PWAs, Responsive Design",
-      "Security: Authentication, Authorization, OWASP, Encryption",
-      "Testing: Unit Testing, Integration Testing, E2E Testing",
-      "Tools: VS Code, Postman, Chrome DevTools, Figma, Terminal",
-      "Soft Skills: Problem Solving, Debugging, Communication, Team Work"
+      "Frontend: HTML, CSS, responsive layouts, JavaScript to real depth, React with hooks and routing",
+      "Modern tooling: TypeScript, Tailwind, npm, Vite and a working taste of Next.js",
+      "Backend: Node.js, Express, REST API design, MongoDB with Mongoose, SQL with PostgreSQL",
+      "Auth and safety: password hashing, JWT sessions, protected routes and the OWASP basics",
+      "Real-time and integrations: Socket.io chat, file uploads, email and third-party APIs",
+      "AI features: model calls from the server, streaming responses, guardrails and cost control",
+      "Professional habits: Git and GitHub, tests with Jest, CI checks, deployment and code review"
     ],
     "weekly_structure": {
-      "theory_videos": "4-6 hours",
-      "hands_on_coding": "6-8 hours",
-      "projects": "3-4 hours",
-      "practice_problems": "2-3 hours",
-      "total_per_week": "12-18 hours (flexible with school)"
-    },
-    "support_provided": {
-      "live_sessions": "Weekly teen group coding sessions",
-      "mentorship": "Young mentors who understand teens",
-      "code_review": "Professional code reviews on projects",
-      "career_guidance": "Resume and interview preparation, plus portfolio and profile review."
+      "live_classes": "2 live one-hour classes per week, coding along with the instructor",
+      "homework": "Homework after every class, and a mixed-review assignment at the end of every month so earlier skills stay sharp",
+      "practice": "3-4 hours of projects and challenges between classes",
+      "review": "Every submitted project reviewed with written feedback; recurring issues reopened in class"
     },
     "certification": {
-      "phase_certificates": "4 phase completion certificates",
-      "final_certificate": "Full Stack Web Developer Professional Certificate",
-      "linkedin_badge": "Verifiable LinkedIn certification",
-      "industry_recognized": "Recognized by tech companies and universities",
-      "portfolio_projects": "50+ projects to showcase skills"
+      "completion": "Certificate from Modern Age Coders, awarded on passing the final exam. Fall short and there is focused revision and a free retest: the certificate certifies knowledge, not attendance"
+    },
+    "support_provided": {
+      "doubt_support": "WhatsApp doubt support between classes, so nobody stays stuck on a broken build for days",
+      "progress_updates": "Regular progress notes to parents: what was built, what comes next, and where encouragement at home helps"
     }
   },
   "prerequisites": {
-    "education": "No prior coding experience needed",
-    "coding_experience": "Complete beginner friendly",
-    "equipment": "Any computer with internet connection",
-    "time_commitment": "12-18 hours per week",
-    "english": "Basic English comprehension",
-    "motivation": "Passion for building cool stuff"
+    "coding_experience": "None. The course starts from the very first HTML tag",
+    "computer_skills": "Comfortable typing and managing files and folders",
+    "equipment": "A computer with a stable internet connection; every tool used in the course is free",
+    "age": "13 to 18. Batches are grouped by age and pace so the room always fits",
+    "time_commitment": "2 live classes plus 3-4 hours of practice a week"
   },
   "who_is_this_for": {
-    "students": "Middle and high school students (13-19 years)",
-    "working_professionals": "Young adults switching careers",
-    "entrepreneurs": "Teens with startup ideas",
-    "freelancers": "Students wanting to earn while learning",
-    "kids": "Motivated pre-teens with supervision",
-    "anyone": "Anyone who wants to build web applications"
+    "complete_beginners": "Teens starting from zero who want the full picture of how real applications are built",
+    "app_dreamers": "Students who look at the apps they use daily and think: I want to build one of those",
+    "future_engineers": "Teens eyeing computer science degrees who want live products behind their applications",
+    "makers": "The kind of student who finishes a tutorial and immediately asks what they can build for real",
+    "ai_curious": "Teens who want to put AI inside real products, not just talk to chatbots"
   },
   "career_paths_after_completion": [
-    "Full Stack Developer at tech companies",
-    "Frontend/Backend Developer (specialized)",
-    "Freelance Web Developer",
-    "Technical Co-founder for startups",
-    "DevOps Engineer",
-    "Mobile App Developer",
-    "Open Source Maintainer",
-    "Technical Content Creator",
-    "Coding Instructor/Mentor",
-    "Software Engineering Intern (during college)"
+    "Data Structures and Algorithms: the interview-and-competition muscle to pair with building skill",
+    "Deeper backend engineering: from Express into production architectures",
+    "Design directions: UI/UX foundations are already laid here",
+    "College applications: a deployed product portfolio speaks louder than grades alone",
+    "Real small projects: sites and tools for family, school clubs and local groups"
   ],
   "course_guarantees": {
     "live_classes": "Live, interactive classes with a real instructor, never pre-recorded videos.",
     "small_batches": "Small batches only: group classes are capped at 10 students, with mini-batch (3 to 4 students) and personal 1-on-1 options.",
-    "structured_curriculum": "A structured, well-paced curriculum taught step by step, with hands-on practice in every session.",
+    "structured_curriculum": "A structured, well-paced curriculum taught step by step, with classwork in every session and homework after every class.",
+    "real_assessment": "Mixed-review assignments after every month and a final exam that decides the certificate: real knowledge, real work, real projects.",
     "doubt_support": "Doubt support between classes over WhatsApp, so you are never left stuck.",
-    "certificate": "A course-completion certificate you can share.",
+    "certificate": "A certificate you earn by passing the final exam, with a free retest after revision if needed.",
     "free_demo": "A free demo class before you enrol, so you can decide with no pressure."
   },
   "faqs": [
     {
-      "question": "What kind of apps will my teen build?",
-      "answer": "Students build 50+ projects over 2 years, working up to full applications inspired by the platforms teens use daily: social feeds, chat apps, and streaming-style sites. They learn the complete stack: HTML, CSS, and JavaScript, then React and Vue on the frontend, and Node.js, Express, Python, and databases like MongoDB on the backend."
+      "question": "What will my teen build in this full stack course?",
+      "answer": "More than 30 real projects across twelve months, each phase ending with something deployed: a multi-page API-powered site in month 3, a polished React frontend capstone in month 6, an authenticated API and full-stack app in month 9, and a final capstone with user accounts, a database, live chat and an AI-powered feature, live on its own URL. Every project is built by the student and reviewed with written feedback."
+    },
+    {
+      "question": "How long does it take a teenager to learn full stack development?",
+      "answer": "Full stack is genuinely the biggest track we teach, both halves of an application, so the honest answer is 12 months at 2 live classes a week plus 3 to 4 hours of practice. The syllabus keeps 2 months of margin in hand: students who need more repetition take up to 14 months with no rushing and no penalty. The first deployed site goes live in month 3, so the motivation never has to wait."
+    },
+    {
+      "question": "How is my teen assessed? Is the certificate just for attending?",
+      "answer": "No. Classwork runs inside every session, homework follows every class, and each month ends with an assignment that deliberately mixes new questions with earlier topics so knowledge compounds instead of fading. Every phase closes with a cumulative exam, and the course ends with a final exam: a practical build plus written questions drawn from the whole syllabus. Passing earns the certificate; falling short earns a focused revision plan and a free retest. We optimize for real knowledge and real depth, not a stream of feel-good badges."
+    },
+    {
+      "question": "Why React and Node instead of teaching many frameworks?",
+      "answer": "Because depth beats a tour. React and Node dominate real-world hiring and share one language, JavaScript, so a teen’s effort compounds instead of splitting. We add TypeScript, SQL and a taste of Next.js because the industry expects them. A student who truly understands this one stack can pick up Vue, Angular or anything else in weeks, the concepts transfer; skimming four frameworks transfers nothing."
     },
     {
       "question": "What does full stack actually mean?",
-      "answer": "Frontend is everything users see and click; backend is the engine behind it: servers, databases, and logic. A full stack developer can build both, which is why this course covers the entire journey from a first webpage to a complete working application."
+      "answer": "Frontend is everything users see and click; backend is the engine behind it: servers, databases, and logic. A full stack developer can build both, which is why this course covers the entire journey from a first webpage to a complete working application with accounts, data and live features."
     },
     {
       "question": "Can a complete beginner join, and at what age?",
-      "answer": "Yes, the course assumes zero coding knowledge and is designed for ages 13 to 19. Motivated slightly younger students can join with supervision, and the early months are deliberately gentle before the pace builds."
+      "answer": "Yes, the course assumes zero coding knowledge and is designed for ages 13 to 18. The early months are deliberately gentle, real foundations before any framework, and batches are grouped by age and pace so nobody is racing or waiting."
+    },
+    {
+      "question": "How is AI part of this course?",
+      "answer": "As a builder’s tool, in two layers: pre-trained models in the browser with TensorFlow.js, then AI features added to the student’s own full-stack app, model calls made safely from the server, streamed into React, with guardrails, cost control and honest evaluation. Where an AI service requires an account, it is set up together with a parent. The result is a teen who ships AI features, not one who only chats with AI."
     },
     {
       "question": "What tools and costs are involved beyond the fee?",
-      "answer": "None beyond a computer and internet: VS Code, Node.js, GitHub, and every framework taught are free and open source. We also show students how to publish their projects online using free services, so their work is live on the real internet."
-    },
-    {
-      "question": "What can my teen do with these skills afterwards?",
-      "answer": "By graduation they hold a 50+ project portfolio and the ability to build real web applications end to end, a strong base for college computer science, internships, and personal projects. Many continue into our problem solving and DSA course to sharpen the algorithmic side for exams and interviews."
+      "answer": "None beyond a computer and internet: VS Code, Node.js, GitHub, React and every framework taught are free and open source. Projects are published on free hosting tiers, so student work is live on the real internet without extra cost."
     },
     {
       "question": "How much are the monthly fees?",
-      "answer": "Group classes are ₹1,499 per month, including 2 live classes a week in batches capped at 10 students. A mini batch of 3-4 students is ₹2,999 per month, and personal 1-on-1 classes with 2 private sessions weekly are ₹4,999 per month. International students pay a price set for their own country, shown on this page in their local currency classes."
+      "answer": "Group classes are ₹1,499 per month, including 2 live classes a week in batches capped at 10 students. A mini batch of 3-4 students is ₹2,999 per month, and personal 1-on-1 classes are ₹4,999 per month. International students pay a price set for their own country, shown on this page in their local currency."
     },
     {
       "question": "Does the course offer a free demo?",
-      "answer": "Yes, book a free, no-commitment demo class at learn.modernagecoders.com/contact. Parents are welcome to sit in; it is the easiest way to see whether the teaching style clicks for your teen."
+      "answer": "Yes, book a free, no-commitment demo class at learn.modernagecoders.com/contact or message us on WhatsApp at +91 91233 66161. Parents are welcome to sit in; it is the easiest way to see whether the teaching style clicks for your teen."
     },
     {
       "question": "What format do the classes follow?",
@@ -1645,7 +1143,7 @@
     },
     {
       "question": "Will my teen be certified at the end?",
-      "answer": "Yes, graduates receive a full stack developer completion certificate. More importantly, they finish holding a portfolio of 50+ real projects, working applications that prove the certificate means something."
+      "answer": "Yes, and it is earned, not handed out: the certificate is awarded on passing the final exam, with a free retest after revision if the first attempt falls short. More importantly, they finish holding a portfolio of deployed applications, live products that prove the certificate means something."
     }
   ]
 }
