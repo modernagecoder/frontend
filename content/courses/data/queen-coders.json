@@ -2,69 +2,66 @@
   "meta": {
     "slug": "queen-coders-advanced-tech-leadership",
     "date": "2025-11-08",
-    "title": "Queen Coders: 1-Year Advanced Tech Leadership for Women",
-    "description": "A 1-year advanced coding and leadership program for women: grow from intermediate developer to tech leader with cloud, AI/ML, system design and real apps.",
+    "dateModified": "2026-08-23",
+    "title": "Queen Coders: Advanced Engineering for Women Developers",
+    "description": "Advanced course for women developers: software architecture, cloud, security, AI engineering and technical leadership in 9-11 months, live online.",
     "keywords": [
-      "advanced coding women",
-      "women tech leaders",
-      "queen coders",
-      "female software architects",
-      "women in AI",
-      "blockchain for women",
-      "cloud engineering women",
-      "tech leadership program",
-      "women CTOs",
-      "advanced programming",
-      "system design",
-      "women entrepreneurs tech",
-      "senior developer training",
-      "women tech executives"
+      "advanced coding course for women",
+      "women in tech leadership course",
+      "software architecture course for women",
+      "technical leadership course",
+      "senior developer course for women",
+      "ai engineering course for women",
+      "women engineering leadership program",
+      "staff engineer preparation course",
+      "engineering management course for women",
+      "advanced software engineering course india",
+      "women tech career growth course",
+      "best advanced course for women developers"
     ],
-    "category": "Advanced Women in Technology - Leadership Program",
+    "category": "Women in Tech",
     "taxonomy": "technology",
     "price": {
       "group": "₹1,499/month",
       "personal": "₹4,999/month"
     },
-    "duration": "12 months (52 weeks)",
-    "level": "Intermediate Developer to Tech Leader/Architect",
-    "commitment": "15-20 hours/week recommended",
-    "certification": "Queen Coders Tech Leadership Certification - Industry Elite",
+    "duration": "9-11 months (36-44 weeks)",
+    "level": "Women developers with working experience (roughly 2+ years or a strong portfolio)",
+    "commitment": "2 live classes/week + 4-6 hours practice",
+    "certification": "Certificate from Modern Age Coders, awarded on passing the final exam",
     "image_path": "queen-coders.webp"
   },
   "program_overview": {
-    "title": "Queen Coders - Where Women Tech Leaders Are Born",
-    "tagline": "From Developer to Tech Queen - Master Advanced Technologies and Lead the Industry",
-    "description": "Queen Coders is an elite program designed for women who already have programming basics and are ready to ascend to tech leadership. This intensive 1-year journey transforms intermediate developers into architects, tech leads, and entrepreneurs.\n\nYou'll master cutting-edge technologies like AI/ML, blockchain, cloud architecture, and microservices while developing leadership skills, building startups, and creating industry-changing solutions. Join a powerful network of women tech leaders shaping the future.",
+    "title": "Queen Coders",
+    "tagline": "The step from good developer to trusted engineer: architecture, AI engineering and technical leadership, built deliberately in nine months.",
+    "description": "There is a career moment where writing good code stops being enough: teams need architecture judgment, security thinking, AI fluency and the leadership skills that turn seniority into influence. Queen Coders builds that step deliberately, for women developers, in a room of peers on the same climb.\n\nThe arc runs in three movements. Advanced engineering: software design principles at depth, cloud architecture, data architecture, performance and security, the judgment layer above syntax. AI engineering: machine learning engineering, modern AI applications, LLMs and agent development, the layer every senior role now assumes. Technical leadership: the honest skills of staff-level work, technical decision records, code review leadership, mentoring, engineering management versus the senior IC road, taught practically rather than aspirationally.\n\nNine months at two live classes a week plus four to six hours of practice, with two more months in hand. Homework, monthly mixed reviews, phase exams, and a final exam, an architecture defense, that decides the certificate with a free retest. Real engineering, real leadership, no crowns required.",
     "what_makes_this_different": [
-      "Advanced curriculum for women with coding experience",
-      "Tech leadership and architecture focus",
-      "Real industry projects with Fortune 500 companies",
-      "Female tech executives as mentors and instructors",
-      "Startup incubation and funding opportunities",
-      "Global women tech leader network access",
-      "Focus on breaking the glass ceiling in tech",
-      "Board-ready technical and leadership skills"
+      "The judgment layer: architecture, security and performance as decisions, not buzzwords",
+      "AI engineering included seriously: ML engineering, LLMs and agents, the layer senior roles now assume",
+      "Technical leadership taught practically: ADRs, review leadership, mentoring, the staff-vs-management fork",
+      "A peer room of women on the same climb, which changes what gets asked and answered",
+      "An honest 9-month arc with 2 months in hand",
+      "Real assessment: monthly mixed reviews and a final architecture defense that decides the certificate, with a free retest"
     ],
     "learning_path": {
-      "phase_1": "Foundation (Months 1-3): Advanced Programming, System Design, Cloud Architecture",
-      "phase_2": "Specialization (Months 4-6): AI/ML, Blockchain, Data Engineering, DevOps",
-      "phase_3": "Leadership (Months 7-9): Tech Leadership, Team Management, Product Strategy",
-      "phase_4": "Innovation (Months 10-12): Startup Building, Open Source, Industry Projects"
+      "phase_1": "Advanced engineering (Months 1-3): design principles, cloud and data architecture, performance and security",
+      "phase_2": "AI engineering (Months 4-6): ML engineering, AI applications, LLMs and agents, data engineering",
+      "phase_3": "Technical leadership (Months 7-8): staff-level skills, leadership practice, management versus senior IC",
+      "phase_4": "The finale (Month 9): community leadership, the architecture capstone, and the final defense"
     },
     "career_outcomes": [
-      "Senior Software Engineer (immediate)",
-      "Tech Lead / Architect (after 6 months)",
-      "Engineering Manager / Principal Engineer (after 9 months)",
-      "CTO / Tech Founder / Director Level (after 12 months)"
+      "Architecture judgment that survives review by people who have seen things fail",
+      "AI engineering fluency: the capability gap most senior openings now name",
+      "A leadership toolkit: decisions documented, reviews led, engineers mentored",
+      "A defended capstone: a real system design taken through a panel"
     ]
   },
-  "phase_1_foundation": {
-    "title": "PHASE 1: Advanced Engineering & Architecture (Months 1-3, Weeks 1-13)",
-    "description": "Master advanced programming paradigms, system design, and cloud-native architecture. Build enterprise-grade applications.",
-    "month_1_2": {
-      "title": "Months 1-2: Advanced Programming & System Design",
-      "weeks": "Week 1-8",
+  "phase_1_advanced_engineering": {
+    "title": "PHASE 1: Advanced Engineering (Months 1-3, Weeks 1-12)",
+    "description": "The judgment layer above syntax: design principles, cloud and data architecture, performance and security.",
+    "month_1_design_cloud": {
+      "title": "Month 1: Design and Cloud",
+      "weeks": "Weeks 1-4",
       "week_1_2": {
         "title": "Advanced Software Engineering Principles",
         "topics": [
@@ -111,8 +108,13 @@
           "Infrastructure automation with Terraform",
           "Cloud cost optimization audit tool"
         ],
-        "practice": "Deploy 5 different cloud architectures"
-      },
+        "practice": "Deploy 5 different cloud architectures",
+        "assessment": "Month 1 check: an architecture sketch defended live, plus mixed review"
+      }
+    },
+    "month_2_data_perf": {
+      "title": "Month 2: Data and Performance",
+      "weeks": "Weeks 5-8",
       "week_5_6": {
         "title": "Advanced Databases & Data Architecture",
         "topics": [
@@ -159,12 +161,13 @@
           "Implement custom load balancer",
           "Create performance monitoring dashboard"
         ],
-        "practice": "Optimize 5 production systems"
+        "practice": "Optimize 5 production systems",
+        "assessment": "Month 2 check: a performance investigation presented, plus mixed review"
       }
     },
-    "month_3_4": {
-      "title": "Month 3: Security & Enterprise Architecture",
-      "weeks": "Week 9-13",
+    "month_3_security_api": {
+      "title": "Month 3: Security and APIs",
+      "weeks": "Weeks 9-12",
       "week_9_10": {
         "title": "Advanced Security Engineering",
         "topics": [
@@ -211,72 +214,18 @@
           "Real-time collaboration API",
           "Multi-protocol API server"
         ],
-        "practice": "Design and implement 5 complex APIs"
-      },
-      "week_13_14": {
-        "title": "Enterprise Integration Patterns",
-        "topics": [
-          "Message queue architectures: RabbitMQ, SQS",
-          "Event streaming with Kafka",
-          "Saga pattern for distributed transactions",
-          "Service discovery and registry",
-          "API orchestration vs choreography",
-          "Integration with legacy systems",
-          "ETL vs ELT strategies",
-          "Change data capture (CDC)",
-          "Enterprise service bus (ESB)",
-          "Workflow engines: Airflow, Temporal",
-          "Distributed tracing with Jaeger",
-          "Service mesh: Istio, Linkerd"
-        ],
-        "projects": [
-          "Build event-driven architecture",
-          "Implement saga pattern",
-          "Create workflow orchestration system",
-          "Design service mesh architecture"
-        ],
-        "practice": "Implement 5 integration patterns"
-      },
-      "week_15_16": {
-        "title": "Phase 1 Comprehensive Project",
-        "topics": [
-          "System architecture documentation",
-          "Technical design reviews",
-          "Code quality and standards",
-          "Performance benchmarking",
-          "Security assessment",
-          "Deployment automation",
-          "Monitoring and alerting setup",
-          "Technical presentation skills"
-        ],
-        "projects": [
-          "CAPSTONE: Enterprise-Grade Distributed System",
-          "Requirements: Microservices, Cloud-native, Secure, Scalable, Observable",
-          "Present to industry panel"
-        ],
-        "assessment": "Advanced Architecture Certification"
-      },
-      "week_17": {
-        "title": "Bridge to AI/ML & Emerging Tech",
-        "topics": [
-          "AI/ML landscape for engineers",
-          "Blockchain technology overview",
-          "Quantum computing basics",
-          "Edge computing trends",
-          "5G and IoT implications",
-          "Preparing for specialization"
-        ],
-        "projects": [
-          "Research emerging technology",
-          "Proof of concept implementation"
-        ],
-        "assessment": "Technology trend analysis"
+        "practice": "Design and implement 5 complex APIs",
+        "assessment": "Phase 1 exam: a system design defended under questioning, plus a written mixed paper"
       }
-    },
-    "month_5_6": {
-      "title": "Months 4-6: AI/ML & Agent Specialization",
-      "weeks": "Week 14-26",
-      "week_18_19": {
+    }
+  },
+  "phase_2_ai_engineering": {
+    "title": "PHASE 2: AI Engineering (Months 4-6, Weeks 13-24)",
+    "description": "The layer every senior role now assumes: ML engineering, modern AI applications, LLMs and agent development, and data engineering.",
+    "month_4_ml_eng": {
+      "title": "Month 4: ML Engineering",
+      "weeks": "Weeks 13-16",
+      "week_13_14": {
         "title": "Machine Learning Engineering",
         "topics": [
           "ML system design and architecture",
@@ -300,7 +249,7 @@
         ],
         "practice": "Deploy 5 ML models to production"
       },
-      "week_20_21": {
+      "week_15_16": {
         "title": "Advanced AI Applications",
         "topics": [
           "Large Language Models (LLMs) integration",
@@ -322,106 +271,14 @@
           "Implement computer vision solution",
           "Deploy edge AI system"
         ],
-        "practice": "Build 5 AI-powered applications"
-      },
-      "week_22_23": {
-        "title": "AI Engineering & Agent Development",
-        "topics": [
-          "LLM architecture deep dive: what the model actually does",
-          "Prompting as engineering, not incantation",
-          "Structured output and schema-constrained generation",
-          "Function calling and tool use",
-          "The agent loop: plan, act, observe, correct",
-          "Retrieval-augmented generation over real corpora",
-          "Vector stores, chunking, and when retrieval is the wrong answer",
-          "Multi-agent orchestration and where it fails",
-          "Evaluation: building an eval set before you build the feature",
-          "Guardrails, injection and untrusted input",
-          "Cost, latency and token budgets in production",
-          "Observability: tracing a non-deterministic system"
-        ],
-        "projects": [
-          "Retrieval-backed assistant",
-          "Tool-using agent",
-          "Eval harness with a real dataset",
-          "Production AI service with guardrails"
-        ],
-        "practice": "Deploy 5 smart contracts"
-      },
-      "week_24_25": {
-        "title": "Data Engineering & Analytics",
-        "topics": [
-          "Data pipeline architecture",
-          "Apache Spark for big data",
-          "Real-time processing with Flink",
-          "Data lakehouse architecture",
-          "Delta Lake and Apache Iceberg",
-          "Orchestration with Apache Airflow",
-          "Data quality and governance",
-          "Business intelligence tools",
-          "Advanced SQL and query optimization",
-          "Time-series analysis",
-          "Predictive analytics",
-          "Data visualization best practices"
-        ],
-        "projects": [
-          "Build complete data platform",
-          "Real-time analytics dashboard",
-          "Predictive maintenance system",
-          "Data quality monitoring tool"
-        ],
-        "practice": "Build 5 data pipelines"
-      },
-      "week_26": {
-        "title": "Phase 2 Innovation Project",
-        "topics": [
-          "Identifying market opportunities",
-          "Technical feasibility analysis",
-          "MVP development strategy",
-          "User testing and iteration",
-          "Product launch preparation",
-          "Investor pitch preparation"
-        ],
-        "projects": [
-          "MAJOR CAPSTONE: AI/Blockchain Innovation",
-          "Build production-ready product using AI or Blockchain",
-          "Present to investors and industry leaders"
-        ],
-        "assessment": "Emerging Technology Specialist Certification"
+        "practice": "Build 5 AI-powered applications",
+        "assessment": "Month 4 check: an ML system design reviewed, plus mixed review"
       }
-    }
-  },
-  "phase_2_frontend_mastery": {
-    "title": "PHASE 2: Specialized Technologies & Innovation (Months 4-6, Weeks 14-26)",
-    "description": "Master cutting-edge technologies including AI/ML, blockchain, and data engineering while building industry-changing solutions.",
-    "month_7_8": {
-      "title": "Months 4-5: Deep Specialization",
-      "weeks": "Week 14-21",
-      "week_27_28": {
-        "title": "Advanced Machine Learning & Deep Learning",
-        "topics": [
-          "Deep learning architectures: CNN, RNN, Transformer",
-          "Transfer learning and fine-tuning strategies",
-          "Model optimization: pruning, quantization, distillation",
-          "Distributed training with Horovod",
-          "AutoML and neural architecture search",
-          "Adversarial machine learning",
-          "Federated learning implementation",
-          "Online learning and streaming ML",
-          "Multi-modal learning: vision + language",
-          "Graph neural networks",
-          "Reinforcement learning applications",
-          "Production ML monitoring and drift detection"
-        ],
-        "projects": [
-          "Build custom deep learning framework",
-          "Multi-modal AI application",
-          "Distributed training pipeline",
-          "AutoML platform"
-        ],
-        "practice": "Implement 10 state-of-the-art papers"
-      },
-      "week_29_30": {
+    },
+    "month_5_llm_agents": {
+      "title": "Month 5: LLMs and Agents",
+      "weeks": "Weeks 17-20",
+      "week_17_18": {
         "title": "LLMs & Generative AI",
         "topics": [
           "Transformer architecture deep dive",
@@ -445,322 +302,81 @@
         ],
         "practice": "Build 5 production LLM applications"
       },
-      "week_31_32": {
-        "title": "AI Agent Architecture at Scale",
+      "week_19_20": {
+        "title": "AI Engineering & Agent Development",
         "topics": [
-          "Designing an agent system that survives contact with users",
-          "Task decomposition and planner/executor splits",
-          "Memory: short-term, long-term, and why most of it is a cache",
-          "Tool design: idempotency, permissions and blast radius",
-          "Human-in-the-loop checkpoints for irreversible actions",
-          "Prompt injection and the confused-deputy problem",
-          "Sandboxing an agent that can run code",
-          "Failure modes: loops, drift and confident wrongness",
-          "Model routing and fallback across providers",
-          "Batching, caching and cost control at scale",
-          "Red-teaming your own agent",
-          "Accountability: who is responsible when it acts wrongly"
+          "LLM architecture deep dive: what the model actually does",
+          "Prompting as engineering, not incantation",
+          "Structured output and schema-constrained generation",
+          "Function calling and tool use",
+          "The agent loop: plan, act, observe, correct",
+          "Retrieval-augmented generation over real corpora",
+          "Vector stores, chunking, and when retrieval is the wrong answer",
+          "Multi-agent orchestration and where it fails",
+          "Evaluation: building an eval set before you build the feature",
+          "Guardrails, injection and untrusted input",
+          "Cost, latency and token budgets in production",
+          "Observability: tracing a non-deterministic system"
         ],
         "projects": [
-          "Multi-step agent with tool permissions",
-          "Sandboxed code-running agent",
-          "Model-routing gateway",
-          "Agent red-team report"
+          "Retrieval-backed assistant",
+          "Tool-using agent",
+          "Eval harness with a real dataset",
+          "Production AI service with guardrails"
         ],
-        "practice": "Audit 10 smart contracts"
-      },
-      "week_33_34": {
-        "title": "Cloud-Native & Platform Engineering",
-        "topics": [
-          "Platform engineering principles",
-          "Internal developer platforms (IDP)",
-          "GitOps with ArgoCD, Flux",
-          "Service mesh advanced patterns",
-          "Multi-tenancy architectures",
-          "Cost optimization automation",
-          "FinOps practices",
-          "Compliance as code",
-          "Disaster recovery automation",
-          "Multi-cloud management",
-          "Cloud-native security",
-          "Platform metrics and KPIs"
-        ],
-        "projects": [
-          "Build internal developer platform",
-          "Multi-cloud management system",
-          "Cost optimization platform",
-          "Compliance automation tool"
-        ],
-        "practice": "Design 5 platform architectures"
-      },
-      "week_35": {
-        "title": "Quantum Computing & Future Tech",
-        "topics": [
-          "Quantum computing fundamentals",
-          "Quantum algorithms: Shor's, Grover's",
-          "Quantum machine learning",
-          "Quantum cryptography",
-          "Neuromorphic computing",
-          "Brain-computer interfaces",
-          "Augmented reality development",
-          "Digital twin technology",
-          "6G and future networks",
-          "Synthetic biology computing",
-          "Space tech applications",
-          "Future technology trends"
-        ],
-        "projects": [
-          "Quantum algorithm implementation",
-          "AR/VR application",
-          "Digital twin prototype",
-          "Future tech research project"
-        ],
-        "practice": "Explore 5 emerging technologies"
+        "practice": "Deploy 5 smart contracts",
+        "assessment": "Month 5 check: an agent design with guardrails defended, plus mixed review"
       }
     },
-    "month_9_10": {
-      "title": "Month 6: Advanced Integration & Platforms",
-      "weeks": "Week 22-26",
-      "week_36_37": {
-        "title": "Enterprise Architecture Patterns",
+    "month_6_data_eng": {
+      "title": "Month 6: Data Engineering and the Phase Capstone",
+      "weeks": "Weeks 21-24",
+      "week_21_22": {
+        "title": "Data Engineering & Analytics",
         "topics": [
-          "TOGAF framework overview",
-          "Enterprise integration patterns",
-          "Domain-driven design at scale",
-          "Event-driven architecture patterns",
-          "CQRS and event sourcing",
-          "Micro-frontends architecture",
-          "Backend for frontend (BFF) pattern",
-          "API composition patterns",
-          "Data mesh architecture",
-          "Platform team topologies",
-          "Conway's law in practice",
-          "Architecture decision records (ADR)"
+          "Data pipeline architecture",
+          "Apache Spark for big data",
+          "Real-time processing with Flink",
+          "Data lakehouse architecture",
+          "Delta Lake and Apache Iceberg",
+          "Orchestration with Apache Airflow",
+          "Data quality and governance",
+          "Business intelligence tools",
+          "Advanced SQL and query optimization",
+          "Time-series analysis",
+          "Predictive analytics",
+          "Data visualization best practices"
         ],
         "projects": [
-          "Design enterprise architecture",
-          "Implement event-driven system",
-          "Build micro-frontend platform",
-          "Create architecture documentation"
+          "Build complete data platform",
+          "Real-time analytics dashboard",
+          "Predictive maintenance system",
+          "Data quality monitoring tool"
         ],
-        "practice": "Document 5 architecture decisions"
+        "practice": "Build 5 data pipelines"
       },
-      "week_38_39": {
-        "title": "DevOps & SRE Excellence",
+      "week_23_24": {
+        "title": "Phase 2 Capstone: An AI-Era System",
         "topics": [
-          "Site Reliability Engineering principles",
-          "SLIs, SLOs, and error budgets",
-          "Incident management and postmortems",
-          "Chaos engineering implementation",
-          "Progressive delivery: canary, blue-green",
-          "Feature flags and experimentation",
-          "Observability engineering",
-          "Distributed tracing deep dive",
-          "Performance engineering culture",
-          "Capacity planning and scaling",
-          "Cost optimization strategies",
-          "DevSecOps implementation"
+          "Designing a system with an AI capability that earns its place",
+          "Cost, latency and quality traded off explicitly",
+          "Evaluation and guardrails as first-class design",
+          "Writing the design document a skeptic could audit"
         ],
         "projects": [
-          "Build SRE platform",
-          "Chaos engineering framework",
-          "Observability platform",
-          "Incident management system"
+          "A complete AI-era system design document, reviewed in panel"
         ],
-        "practice": "Implement SRE for 5 systems"
-      },
-      "week_40_41": {
-        "title": "Technical Leadership Skills",
-        "topics": [
-          "Technical decision making",
-          "Architecture review boards",
-          "RFC and design doc writing",
-          "Code review best practices",
-          "Mentoring and coaching developers",
-          "Building high-performing teams",
-          "Stakeholder management",
-          "Technical debt management",
-          "Innovation frameworks",
-          "Budget and resource planning",
-          "Vendor evaluation and selection",
-          "Open source strategy"
-        ],
-        "projects": [
-          "Lead architecture review",
-          "Create mentorship program",
-          "Write technical RFC",
-          "Build team playbook"
-        ],
-        "practice": "Lead 5 technical initiatives"
-      },
-      "week_42_43": {
-        "title": "Product Engineering & Strategy",
-        "topics": [
-          "Product-minded engineering",
-          "User research for engineers",
-          "A/B testing infrastructure",
-          "Feature prioritization frameworks",
-          "Growth engineering tactics",
-          "Metrics and analytics systems",
-          "Product-market fit indicators",
-          "Platform vs product thinking",
-          "API as a product",
-          "Developer experience (DX)",
-          "Technical product management",
-          "Go-to-market for technical products"
-        ],
-        "projects": [
-          "Build A/B testing platform",
-          "Create analytics system",
-          "Design API product",
-          "Launch technical product"
-        ],
-        "practice": "Ship 5 product features with metrics"
-      },
-      "week_44": {
-        "title": "Phase 2 Platform Launch",
-        "topics": [
-          "Production readiness checklist",
-          "Launch planning and coordination",
-          "Marketing for technical products",
-          "Community building strategies",
-          "Documentation and tutorials",
-          "Support and maintenance planning"
-        ],
-        "projects": [
-          "CAPSTONE: Production Platform Launch",
-          "Build and launch a complete platform/product",
-          "Include: Architecture, Implementation, Deployment, Marketing"
-        ],
-        "assessment": "Platform Engineering Certification"
-      }
-    },
-    "month_11_12": {
-      "title": "Months 7-9: Leadership & Management",
-      "weeks": "Week 27-39",
-      "week_45_46": {
-        "title": "Engineering Leadership",
-        "topics": [
-          "From IC to leadership transition",
-          "Leading without authority",
-          "Building engineering culture",
-          "Hiring and interviewing",
-          "Performance management",
-          "Difficult conversations",
-          "Delegation and empowerment",
-          "Strategic thinking for engineers",
-          "Executive communication",
-          "Board presentation skills",
-          "Managing up and sideways",
-          "Women in leadership challenges"
-        ],
-        "projects": [
-          "Create hiring framework",
-          "Build team charter",
-          "Design performance system",
-          "Leadership portfolio"
-        ],
-        "practice": "Lead team of 5+ developers"
-      },
-      "week_47_48": {
-        "title": "Startup Engineering & Entrepreneurship",
-        "topics": [
-          "Idea validation and MVP",
-          "Technical co-founder responsibilities",
-          "Building from 0 to 1",
-          "Startup architecture patterns",
-          "Cost-effective tech stacks",
-          "Rapid prototyping techniques",
-          "Customer development",
-          "Fundraising for technical founders",
-          "Pitch deck creation",
-          "Cap table and equity",
-          "Acquisition and exit strategies",
-          "Women founders ecosystem"
-        ],
-        "projects": [
-          "Launch startup MVP",
-          "Create investor pitch",
-          "Build prototype product",
-          "Fundraising preparation"
-        ],
-        "practice": "Validate 5 startup ideas"
-      },
-      "week_49_50": {
-        "title": "Open Source & Community Leadership",
-        "topics": [
-          "Starting successful open source projects",
-          "Building contributor community",
-          "Open source governance models",
-          "License selection and implications",
-          "Monetizing open source",
-          "Developer advocacy",
-          "Conference speaking mastery",
-          "Technical writing and blogging",
-          "Building personal brand",
-          "Influencer strategies for developers",
-          "Podcast and video content",
-          "Women in open source"
-        ],
-        "projects": [
-          "Launch open source project",
-          "Speak at conference",
-          "Build developer community",
-          "Create content strategy"
-        ],
-        "practice": "Contribute to 10 major projects"
-      },
-      "week_51": {
-        "title": "Innovation & R&D Leadership",
-        "topics": [
-          "Innovation frameworks",
-          "Research methodologies",
-          "Patent strategies",
-          "Building innovation labs",
-          "Hackathon organization",
-          "University partnerships",
-          "Government grants and funding",
-          "Technology transfer",
-          "Commercialization strategies",
-          "Building research teams",
-          "Publishing papers",
-          "Industry-academia bridge"
-        ],
-        "projects": [
-          "File patent application",
-          "Organize hackathon",
-          "Research publication",
-          "Innovation lab setup"
-        ],
-        "practice": "Lead 3 innovation initiatives"
-      },
-      "week_52": {
-        "title": "Phase 3 Leadership Summit",
-        "topics": [
-          "Leadership philosophy",
-          "Building your advisory board",
-          "Board readiness training",
-          "C-suite communication",
-          "Industry influence strategies",
-          "Policy and regulation impact",
-          "Global technology leadership"
-        ],
-        "projects": [
-          "CAPSTONE: Leadership Initiative",
-          "Options: Start company, Lead open source project, Launch innovation lab",
-          "Present at Queen Coders Summit"
-        ],
-        "assessment": "Technical Leadership Certification"
+        "assessment": "Phase 2 exam: the design defended, plus a cumulative written paper"
       }
     }
   },
-  "phase_3_backend_engineering": {
-    "title": "PHASE 3: Leadership & Strategic Technology (Months 7-9, Weeks 27-39)",
-    "description": "Develop executive leadership skills, master strategic technology decisions, and prepare for C-level positions.",
-    "month_13_14": {
-      "title": "Months 7-8: Technical Leadership Excellence",
-      "weeks": "Week 27-34",
-      "week_53_54": {
+  "phase_3_technical_leadership": {
+    "title": "PHASE 3: Technical Leadership (Months 7-8, Weeks 25-32)",
+    "description": "The honest skills of staff-level work: leading through decisions, reviews and people, and choosing between management and the senior IC road.",
+    "month_7_staff_skills": {
+      "title": "Month 7: Staff-Level Craft",
+      "weeks": "Weeks 25-28",
+      "week_25_26": {
         "title": "Staff/Principal Engineering Skills",
         "topics": [
           "Staff+ engineering career paths",
@@ -784,8 +400,61 @@
         ],
         "practice": "Lead 5 strategic initiatives"
       },
-      "week_55_56": {
-        "title": "Engineering Management Mastery",
+      "week_27_28": {
+        "title": "Technical Leadership Skills",
+        "topics": [
+          "Technical decision making",
+          "Architecture review boards",
+          "RFC and design doc writing",
+          "Code review best practices",
+          "Mentoring and coaching developers",
+          "Building high-performing teams",
+          "Stakeholder management",
+          "Technical debt management",
+          "Innovation frameworks",
+          "Budget and resource planning",
+          "Vendor evaluation and selection",
+          "Open source strategy"
+        ],
+        "projects": [
+          "Lead architecture review",
+          "Create mentorship program",
+          "Write technical RFC",
+          "Build team playbook"
+        ],
+        "practice": "Lead 5 technical initiatives",
+        "assessment": "Month 7 check: an ADR written and defended, plus mixed review"
+      }
+    },
+    "month_8_leading": {
+      "title": "Month 8: Leading Engineers",
+      "weeks": "Weeks 29-32",
+      "week_29_30": {
+        "title": "Engineering Leadership",
+        "topics": [
+          "From IC to leadership transition",
+          "Leading without authority",
+          "Building engineering culture",
+          "Hiring and interviewing",
+          "Performance management",
+          "Difficult conversations",
+          "Delegation and empowerment",
+          "Strategic thinking for engineers",
+          "Executive communication",
+          "Board presentation skills",
+          "Managing up and sideways",
+          "Women in leadership challenges"
+        ],
+        "projects": [
+          "Create hiring framework",
+          "Build team charter",
+          "Design performance system",
+          "Leadership portfolio"
+        ],
+        "practice": "Lead team of 5+ developers"
+      },
+      "week_31_32": {
+        "title": "Engineering Management vs the Senior IC Road",
         "topics": [
           "Building high-performance teams",
           "Agile at scale: SAFe, LeSS",
@@ -806,870 +475,159 @@
           "Create D&I initiative",
           "Build productivity dashboard"
         ],
-        "practice": "Manage team of 10+ engineers"
-      },
-      "week_57_58": {
-        "title": "VP/Director Level Skills",
-        "topics": [
-          "Department-level strategy",
-          "Multi-team coordination",
-          "Executive reporting and metrics",
-          "Board presentation skills",
-          "Stakeholder management",
-          "Cross-functional leadership",
-          "M&A technical due diligence",
-          "Building engineering brand",
-          "University relations programs",
-          "Patent and IP strategy",
-          "Regulatory compliance leadership",
-          "Crisis management"
-        ],
-        "projects": [
-          "Department strategy presentation",
-          "M&A evaluation framework",
-          "Engineering brand campaign",
-          "Crisis response playbook"
-        ],
-        "practice": "Present to executive team"
-      },
-      "week_59_60": {
-        "title": "CTO/VP Engineering Preparation",
-        "topics": [
-          "CTO vs VP Engineering roles",
-          "Technology vision and strategy",
-          "Building innovation culture",
-          "Digital transformation leadership",
-          "Buy vs build decisions",
-          "Technology partnerships",
-          "Analyst relations (Gartner, Forrester)",
-          "Customer advisory boards",
-          "Investor relations for CTOs",
-          "Public speaking and thought leadership",
-          "Media training for executives",
-          "Building your personal board"
-        ],
-        "projects": [
-          "Create technology vision",
-          "Digital transformation plan",
-          "Thought leadership content",
-          "Advisory board formation"
-        ],
-        "practice": "Shadow C-level executive"
-      },
-      "week_61": {
-        "title": "Board Readiness & Governance",
-        "topics": [
-          "Board dynamics and responsibilities",
-          "Technology committee participation",
-          "Cybersecurity governance",
-          "Risk management frameworks",
-          "SOX compliance for technology",
-          "ESG and sustainability in tech",
-          "Presenting to the board",
-          "Board package preparation",
-          "Audit committee interaction",
-          "Director and officer insurance",
-          "Fiduciary responsibilities",
-          "Board networking strategies"
-        ],
-        "projects": [
-          "Board presentation deck",
-          "Risk assessment framework",
-          "Technology governance charter",
-          "Board readiness portfolio"
-        ],
-        "practice": "Mock board presentations"
-      }
-    },
-    "month_15_16": {
-      "title": "Month 9: Strategic Innovation & Impact",
-      "weeks": "Week 35-39",
-      "week_62_63": {
-        "title": "Corporate Innovation Leadership",
-        "topics": [
-          "Building innovation ecosystems",
-          "Corporate venture capital",
-          "Accelerator and incubator programs",
-          "Strategic partnerships",
-          "Technology scouting",
-          "Disruptive innovation theory",
-          "Digital transformation strategies",
-          "Change management for technology",
-          "Innovation metrics and KPIs",
-          "Failing fast and pivot strategies",
-          "Intrapreneurship programs",
-          "Innovation lab management"
-        ],
-        "projects": [
-          "Innovation program design",
-          "Partnership framework",
-          "Accelerator curriculum",
-          "Innovation metrics system"
-        ],
-        "practice": "Launch 3 innovation initiatives"
-      },
-      "week_64_65": {
-        "title": "Technology for Social Impact",
-        "topics": [
-          "Tech for good initiatives",
-          "Sustainable technology strategies",
-          "Accessibility and inclusive design",
-          "Digital divide solutions",
-          "Healthcare technology innovation",
-          "Education technology leadership",
-          "Climate tech opportunities",
-          "Civic tech and government",
-          "Non-profit technology strategy",
-          "Impact measurement frameworks",
-          "B-Corp and benefit corporations",
-          "UN SDGs and technology"
-        ],
-        "projects": [
-          "Social impact tech solution",
-          "Accessibility audit framework",
-          "Sustainability initiative",
-          "Impact measurement system"
-        ],
-        "practice": "Launch social impact project"
-      },
-      "week_66_67": {
-        "title": "Global Technology Leadership",
-        "topics": [
-          "Global team management",
-          "Cross-cultural communication",
-          "International expansion strategies",
-          "Offshore and nearshore strategies",
-          "Global compliance and regulations",
-          "Multi-language and localization",
-          "Global infrastructure patterns",
-          "Time zone collaboration",
-          "Cultural sensitivity in tech",
-          "Global talent acquisition",
-          "International partnerships",
-          "Emerging market strategies"
-        ],
-        "projects": [
-          "Global expansion plan",
-          "International team structure",
-          "Localization strategy",
-          "Global partnership framework"
-        ],
-        "practice": "Lead global initiative"
-      },
-      "week_68_69": {
-        "title": "Women Tech Leaders Network",
-        "topics": [
-          "Building women in tech communities",
-          "Sponsorship vs mentorship",
-          "Overcoming gender bias in tech",
-          "Negotiation strategies for women",
-          "Building male allies",
-          "Return to work programs",
-          "Supporting working mothers in tech",
-          "Breaking the glass ceiling",
-          "Women on boards initiatives",
-          "Venture capital for women",
-          "Women-led startups",
-          "Global women in tech movements"
-        ],
-        "projects": [
-          "Women in tech initiative",
-          "Mentorship program design",
-          "Diversity metrics system",
-          "Allyship training program"
-        ],
-        "practice": "Mentor 5 women in tech"
-      },
-      "week_70": {
-        "title": "Phase 3 Executive Presentation",
-        "topics": [
-          "Executive presence development",
-          "Strategic communication",
-          "Influence and persuasion",
-          "Executive networking",
-          "Personal brand as executive",
-          "Media and PR strategies",
-          "Industry leadership positioning"
-        ],
-        "projects": [
-          "CAPSTONE: Executive Leadership Portfolio",
-          "Include: Strategy doc, Innovation initiative, Team leadership, Board presentation",
-          "Present to industry executives and investors"
-        ],
-        "assessment": "Executive Leadership Certification"
-      }
-    },
-    "month_17_18": {
-      "title": "Months 10-12: Entrepreneurship & Industry Leadership",
-      "weeks": "Week 40-52",
-      "week_71_72": {
-        "title": "Tech Entrepreneurship Mastery",
-        "topics": [
-          "Venture capital fundamentals",
-          "Startup financial modeling",
-          "Term sheets and negotiations",
-          "Series A to IPO journey",
-          "Cap table management",
-          "Founder agreements and vesting",
-          "Intellectual property strategies",
-          "Building advisory boards",
-          "Scaling engineering teams",
-          "Product-market fit metrics",
-          "Growth hacking strategies",
-          "Exit strategies and M&A"
-        ],
-        "projects": [
-          "Startup business plan",
-          "Financial model creation",
-          "Fundraising pitch deck",
-          "Term sheet negotiation"
-        ],
-        "practice": "Launch startup venture"
-      },
-      "week_73_74": {
-        "title": "Venture Capital & Investment",
-        "topics": [
-          "Angel investing basics",
-          "Evaluating technical startups",
-          "Due diligence processes",
-          "Portfolio management",
-          "Syndicate formation",
-          "Crowdfunding strategies",
-          "Corporate venture capital",
-          "LP relationships",
-          "Fund formation basics",
-          "Investment thesis development",
-          "Women in venture capital",
-          "Impact investing"
-        ],
-        "projects": [
-          "Investment thesis document",
-          "Due diligence framework",
-          "Angel investment analysis",
-          "Portfolio strategy"
-        ],
-        "practice": "Evaluate 10 startups"
-      },
-      "week_75_76": {
-        "title": "Industry Influence & Thought Leadership",
-        "topics": [
-          "Building thought leadership",
-          "Writing for major publications",
-          "Keynote speaking mastery",
-          "Podcast hosting and guesting",
-          "Book writing strategies",
-          "Research and white papers",
-          "Industry analyst relations",
-          "Awards and recognition",
-          "Professional associations",
-          "Standards body participation",
-          "Policy influence",
-          "Technology evangelism"
-        ],
-        "projects": [
-          "Thought leadership strategy",
-          "Keynote presentation",
-          "Published article/white paper",
-          "Industry award submission"
-        ],
-        "practice": "Speak at 3 industry events"
-      },
-      "week_77": {
-        "title": "Building Your Legacy",
-        "topics": [
-          "Defining your mission and values",
-          "Creating lasting impact",
-          "Succession planning",
-          "Mentoring next generation",
-          "Philanthropy and giving back",
-          "Building institutions",
-          "Creating scholarship programs",
-          "Authoring technical standards",
-          "Patent portfolio development",
-          "Open source legacy projects",
-          "Educational content creation",
-          "Documentary participation"
-        ],
-        "projects": [
-          "Legacy project definition",
-          "Scholarship program design",
-          "Mentorship scale program",
-          "Knowledge repository"
-        ],
-        "practice": "Launch legacy initiative"
-      },
-      "week_78": {
-        "title": "Final Capstone - Industry Impact",
-        "topics": [
-          "Capstone project planning",
-          "Industry partnership formation",
-          "Solution architecture",
-          "Implementation leadership",
-          "Impact measurement",
-          "Stakeholder management",
-          "Launch and marketing",
-          "Success metrics tracking"
-        ],
-        "projects": [
-          "INDUSTRY CAPSTONE: Enterprise Solution",
-          "Partner with Fortune 500 company",
-          "Solve real industry problem",
-          "Lead team implementation"
-        ],
-        "assessment": "Industry Leadership Certification"
+        "practice": "Manage team of 10+ engineers",
+        "assessment": "Phase 3 exam: a leadership case study argued in writing, plus cumulative review"
       }
     }
   },
-  "phase_4_advanced_production": {
-    "title": "PHASE 4: Industry Leadership & Global Impact (Months 10-12, Weeks 40-52)",
-    "description": "Establish yourself as an industry leader, build influential networks, and create lasting impact in the technology world.",
-    "month_19_20": {
-      "title": "Months 10-11: Executive Excellence",
-      "weeks": "Week 40-47",
-      "week_79_80": {
-        "title": "C-Suite Technology Leadership",
+  "phase_4_finale": {
+    "title": "PHASE 4: The Finale (Month 9, Weeks 33-36)",
+    "description": "Community leadership, the architecture capstone, and the final defense.",
+    "month_9_finale": {
+      "title": "Month 9: Capstone and Defense",
+      "weeks": "Weeks 33-36",
+      "week_33_34": {
+        "title": "Open Source and Community Leadership",
         "topics": [
-          "CEO/CTO/CIO relationships",
-          "Technology in corporate strategy",
-          "Digital business models",
-          "Platform economy strategies",
-          "Data monetization strategies",
-          "AI strategy for enterprises",
-          "Blockchain in enterprise",
-          "Quantum readiness planning",
-          "Technology debt at scale",
-          "Multi-billion dollar decisions",
-          "Wall Street and technology",
-          "Shareholder value creation"
+          "Starting successful open source projects",
+          "Building contributor community",
+          "Open source governance models",
+          "License selection and implications",
+          "Monetizing open source",
+          "Developer advocacy",
+          "Conference speaking mastery",
+          "Technical writing and blogging",
+          "Building personal brand",
+          "Influencer strategies for developers",
+          "Podcast and video content",
+          "Women in open source"
         ],
         "projects": [
-          "Corporate tech strategy",
-          "Digital transformation roadmap",
-          "Innovation portfolio design",
-          "Shareholder presentation"
+          "Launch open source project",
+          "Speak at conference",
+          "Build developer community",
+          "Create content strategy"
         ],
-        "practice": "Lead enterprise initiative"
+        "practice": "Contribute to 10 major projects"
       },
-      "week_81_82": {
-        "title": "Global Women Tech Leaders",
+      "week_35": {
+        "title": "Capstone Build: The Architecture Dossier",
         "topics": [
-          "Women CEOs and CTOs panel",
-          "Building inclusive tech companies",
-          "Gender equity in technology",
-          "Women-led unicorns",
-          "Female founder challenges",
-          "Maternity and leadership",
-          "#MeToo in tech",
-          "Ally development programs",
-          "Women's ERGs leadership",
-          "Global women's tech networks",
-          "UN Women and technology",
-          "50/50 pledge initiatives"
+          "One real system, redesigned: current state, pressures, target architecture",
+          "Trade-offs argued with numbers where numbers exist",
+          "Migration plan that respects reality",
+          "The dossier assembled for panel review"
         ],
         "projects": [
-          "Women's leadership initiative",
-          "Inclusive culture program",
-          "Gender equity metrics",
-          "Global network building"
+          "The architecture dossier: a complete system redesign proposal"
         ],
-        "practice": "Lead diversity initiative"
+        "practice": "Daily dossier progress; sections reviewed as written"
       },
-      "week_83_84": {
-        "title": "Venture Building & Scaling",
+      "week_36": {
+        "title": "The Final Defense",
         "topics": [
-          "Venture studio model",
-          "Serial entrepreneurship",
-          "Building unicorns",
-          "Hypergrowth management",
-          "International expansion",
-          "M&A strategy and execution",
-          "IPO preparation and process",
-          "Private equity partnerships",
-          "Strategic investor relations",
-          "Regulatory navigation",
-          "Crisis management at scale",
-          "Turnaround strategies"
+          "Presenting the dossier before a panel",
+          "Taking hard questions without flinching or bluffing",
+          "A full-course spiral review",
+          "The road on: senior roles, Alpha Girls for systems at scale, and the community that stays"
         ],
         "projects": [
-          "Venture studio blueprint",
-          "Scale-up strategy",
-          "M&A evaluation",
-          "IPO readiness assessment"
+          "The panel defense, delivered"
         ],
-        "practice": "Advisory role in startup"
-      },
-      "week_85_86": {
-        "title": "Technology Policy & Regulation",
-        "topics": [
-          "Tech policy landscape",
-          "Regulatory compliance at scale",
-          "Privacy laws globally",
-          "AI governance and ethics",
-          "Antitrust considerations",
-          "Content moderation policies",
-          "Cybersecurity regulations",
-          "Government relations",
-          "Lobbying and advocacy",
-          "Standards development",
-          "International trade and tech",
-          "Future of regulation"
-        ],
-        "projects": [
-          "Policy position paper",
-          "Compliance framework",
-          "Government relations strategy",
-          "Standards contribution"
-        ],
-        "practice": "Engage with policymakers"
-      },
-      "week_87": {
-        "title": "Personal Brand as Tech Leader",
-        "topics": [
-          "Executive personal branding",
-          "Media training mastery",
-          "Crisis communication",
-          "Social media for executives",
-          "Thought leadership content",
-          "Book deals and publishing",
-          "Documentary participation",
-          "TED talk preparation",
-          "Podcast hosting",
-          "Press relationships",
-          "Awards and recognition",
-          "Legacy building"
-        ],
-        "projects": [
-          "Personal brand strategy",
-          "Media kit creation",
-          "TED talk proposal",
-          "Book outline"
-        ],
-        "practice": "Weekly thought leadership content"
-      }
-    },
-    "month_21_22": {
-      "title": "Month 12: Graduation & Global Impact",
-      "weeks": "Week 48-52",
-      "week_88_89": {
-        "title": "Final Capstone - Industry Transformation",
-        "topics": [
-          "Identifying industry problems",
-          "Building coalition of partners",
-          "Solution architecture at scale",
-          "Resource mobilization",
-          "Change management",
-          "Implementation roadmap",
-          "Success metrics definition",
-          "Stakeholder alignment",
-          "Risk mitigation strategies",
-          "Communication planning",
-          "Launch preparation",
-          "Impact measurement"
-        ],
-        "projects": [
-          "TRANSFORMATION CAPSTONE:",
-          "Lead industry-changing initiative",
-          "Multi-company collaboration",
-          "$1M+ impact potential"
-        ],
-        "practice": "Daily capstone development"
-      },
-      "week_90_91": {
-        "title": "Queen Coders Summit Preparation",
-        "topics": [
-          "Summit presentation prep",
-          "Panel discussion training",
-          "Networking strategies",
-          "Investor pitch preparation",
-          "Demo day organization",
-          "Press and media training",
-          "Award nominations",
-          "Partnership announcements",
-          "Product launches",
-          "Strategic alliances",
-          "Future commitments",
-          "Community building"
-        ],
-        "projects": [
-          "Summit presentation",
-          "Demo preparation",
-          "Partnership agreements",
-          "Launch announcement"
-        ],
-        "practice": "Presentation rehearsals"
-      },
-      "week_92_93": {
-        "title": "Career Acceleration & Placement",
-        "topics": [
-          "C-level job search strategies",
-          "Executive search firms",
-          "Board position seeking",
-          "Compensation negotiation",
-          "Equity packages",
-          "Non-compete navigation",
-          "Reference strategies",
-          "Multiple offer management",
-          "Relocation packages",
-          "Retention bonuses",
-          "Golden parachutes",
-          "Success planning"
-        ],
-        "projects": [
-          "Executive job search plan",
-          "Compensation research",
-          "Network activation",
-          "Interview preparation"
-        ],
-        "practice": "Executive interviews"
-      },
-      "week_94_95": {
-        "title": "Queen Coders Global Summit",
-        "topics": [
-          "Keynote presentations",
-          "Industry leader panels",
-          "Investor meetings",
-          "Press conferences",
-          "Award ceremonies",
-          "Product showcases",
-          "Partnership signings",
-          "Alumni reunions",
-          "Mentorship matching",
-          "Job fair with top companies",
-          "Startup pitch competition",
-          "Global celebration"
-        ],
-        "deliverables": [
-          "Capstone presentation",
-          "Industry recognition",
-          "Media coverage",
-          "Partnership deals",
-          "Job offers",
-          "Investment opportunities"
-        ]
-      },
-      "week_96": {
-        "title": "Graduation & Coronation Ceremony",
-        "topics": [
-          "Graduation ceremony",
-          "Queen Coders crown ceremony",
-          "Industry recognition awards",
-          "Alumni induction",
-          "Lifetime membership benefits",
-          "Continued learning paths",
-          "Mentorship commitments",
-          "Give-back pledges",
-          "Future collaboration",
-          "Network activation",
-          "Legacy projects",
-          "Next chapter planning"
-        ],
-        "deliverables": [
-          "Queen Coders Certification",
-          "Industry Leadership Badge",
-          "Alumni Network Access",
-          "Lifetime Learning Resources",
-          "Executive Connections",
-          "Crown of Achievement"
-        ],
-        "assessment": "Queen Coders Tech Leader - Ready to Rule the Industry!"
-      }
-    },
-    "month_23": {
-      "title": "Beyond Graduation: Lifetime Queendom",
-      "weeks": "Ongoing Elite Access",
-      "week_97": {
-        "title": "Queen's Advisory Council",
-        "topics": [
-          "Joining advisory boards",
-          "Consulting opportunities",
-          "Speaking engagements",
-          "Investment opportunities",
-          "Mentorship at scale",
-          "Industry influence",
-          "Policy participation",
-          "Research collaboration",
-          "Book writing",
-          "Media participation",
-          "Award nominations",
-          "Legacy building"
-        ],
-        "projects": [
-          "Advisory position",
-          "Consulting practice",
-          "Speaking tour",
-          "Investment portfolio"
-        ],
-        "practice": "Continuous leadership"
-      },
-      "week_98": {
-        "title": "Queen's Innovation Lab",
-        "topics": [
-          "Research partnerships",
-          "Patent development",
-          "Startup incubation",
-          "Venture partnerships",
-          "University collaboration",
-          "Grant writing",
-          "Innovation challenges",
-          "Hackathon sponsorship",
-          "Technology scouting",
-          "Trend forecasting",
-          "Future visioning",
-          "Disruption planning"
-        ],
-        "projects": [
-          "Innovation project",
-          "Patent filing",
-          "Startup mentorship",
-          "Research publication"
-        ],
-        "practice": "Innovation leadership"
-      },
-      "week_99": {
-        "title": "Queen's Global Network",
-        "topics": [
-          "Global chapter leadership",
-          "International partnerships",
-          "Cross-border collaboration",
-          "Cultural exchange programs",
-          "Global conferences",
-          "International awards",
-          "UN partnerships",
-          "World Bank projects",
-          "Global impact initiatives",
-          "International media",
-          "Diplomatic tech roles",
-          "Peace through technology"
-        ],
-        "projects": [
-          "Global initiative",
-          "International partnership",
-          "Cross-border project",
-          "Global impact measure"
-        ],
-        "practice": "Global leadership"
-      },
-      "week_100": {
-        "title": "Queen's Eternal Legacy",
-        "topics": [
-          "Defining your legacy",
-          "Institution building",
-          "Endowment creation",
-          "Scholarship funds",
-          "Research centers",
-          "Innovation labs",
-          "Mentorship programs",
-          "Book authoring",
-          "Documentary creation",
-          "Museum exhibitions",
-          "Hall of fame",
-          "Eternal impact"
-        ],
-        "projects": [
-          "Legacy foundation",
-          "Scholarship program",
-          "Innovation center",
-          "Autobiography"
-        ],
-        "practice": "Building eternal impact"
-      }
-    },
-    "month_24": {
-      "title": "The Queen Coders Dynasty",
-      "weeks": "Lifetime Reign",
-      "week_101_102": {
-        "title": "Queens Changing the World",
-        "topics": [
-          "Climate technology leadership",
-          "Healthcare transformation",
-          "Education revolution",
-          "Financial inclusion",
-          "Social justice tech",
-          "Accessibility innovation",
-          "Space technology",
-          "Ocean conservation tech",
-          "Food security solutions",
-          "Energy transformation",
-          "Peace technology",
-          "Human rights tech"
-        ],
-        "projects": [
-          "World-changing initiative",
-          "Global impact project",
-          "Humanitarian technology",
-          "Sustainable solution"
-        ]
-      },
-      "week_103": {
-        "title": "Queens Building Empires",
-        "topics": [
-          "Multi-company leadership",
-          "Conglomerate building",
-          "Investment empire",
-          "Media empire creation",
-          "Education empire",
-          "Technology empire",
-          "Social empire",
-          "Innovation empire",
-          "Influence empire",
-          "Knowledge empire",
-          "Network empire",
-          "Legacy empire"
-        ],
-        "deliverables": [
-          "Empire blueprint",
-          "Growth strategy",
-          "Succession planning",
-          "Dynasty creation"
-        ]
-      },
-      "week_104": {
-        "title": "Queens Forever - Your Reign Begins",
-        "topics": [
-          "Your throne awaits",
-          "Industry domination",
-          "Global influence",
-          "Generational wealth",
-          "Lasting impact",
-          "Historical significance",
-          "Role model status",
-          "Industry icon",
-          "Technology royalty",
-          "Innovation goddess",
-          "Digital queen",
-          "Forever a Queen Coder"
-        ],
-        "deliverables": [
-          "Lifetime achievement",
-          "Industry recognition",
-          "Global influence",
-          "Eternal legacy",
-          "Queen's crown",
-          "Royal network"
-        ],
-        "assessment": "Queen Coder Crowned - Long May You Reign in Tech!"
+        "assessment": "FINAL EXAM: the architecture defense plus a written paper mixed from every phase. Passing earns the certificate; falling short earns focused revision and a free retest"
       }
     }
   },
   "additional_learning_resources": {
     "projects_throughout_course": [
-      "Month 1-3: Distributed Systems, Cloud Platforms, ML Pipeline, Blockchain Protocol",
-      "Month 4-6: AI Products, Agent Platforms, Data Platforms, Innovation Projects",
-      "Month 7-9: Leadership Initiatives, Open Source Projects, Startup Ventures",
-      "Month 10-12: Industry Transformations, Global Initiatives, Legacy Projects",
-      "Capstone: Industry-Changing Solution with Real Impact"
+      "Phase 1: architecture sketches, performance investigations and a defended system design",
+      "Phase 2: ML system designs, an agent with guardrails, and an AI-era design document",
+      "Phase 3: ADRs, review leadership practice and a leadership case portfolio",
+      "Phase 4: the architecture dossier, defended before a panel"
     ],
-    "total_projects_built": "50+ enterprise-grade projects with real-world impact",
+    "total_projects_built": "A portfolio of defended designs, ADRs and the final architecture dossier",
     "skills_mastered": [
-      "Architecture: System Design, Cloud, Microservices, Event-Driven, Serverless",
-      "AI/ML: Deep Learning, LLMs, Computer Vision, NLP, MLOps, Production AI",
-      "AI engineering: agents, tool use, retrieval, evals, guardrails",
-      "Data: Big Data, Real-time Processing, Analytics, Data Platforms",
-      "Leadership: Team Management, Strategic Planning, Executive Communication",
-      "Innovation: R&D, Patents, Startups, Venture Building, Disruption",
-      "Impact: Social Good, Sustainability, Accessibility, Global Solutions"
+      "Architecture judgment: cloud, data, performance and security as explicit trade-offs",
+      "AI engineering: ML systems, LLMs and agents designed responsibly",
+      "Staff-level craft: decisions documented, reviews led, systems owned",
+      "Leadership: mentoring, influence and the management-vs-IC choice made consciously",
+      "Defense: presenting technical work under hard questioning"
     ],
     "weekly_structure": {
-      "theory_videos": "5-7 hours",
-      "hands_on_coding": "8-10 hours",
-      "projects": "3-5 hours",
-      "leadership_activities": "2-3 hours",
-      "total_per_week": "15-20 hours"
-    },
-    "support_provided": {
-      "live_sessions": "Weekly sessions with industry leaders",
-      "mentorship": "C-level female executives as mentors",
-      "community": "Exclusive Queen Coders executive network",
-      "code_review": "Architecture reviews by principal engineers",
-      "career_guidance": "Resume and interview preparation, plus portfolio and profile review."
+      "live_classes": "2 live one-hour classes per week",
+      "homework": "Homework after every class, and a mixed-review assignment at the end of every month",
+      "practice": "4-6 hours of practice between classes",
+      "review": "Every submission reviewed with written feedback; recurring gaps reopened in class"
     },
     "certification": {
-      "phase_certificates": "Certificate after each phase (4 total)",
-      "final_certificate": "Queen Coders Tech Leadership Certificate",
-      "linkedin_badge": "Verified Executive Certification",
-      "industry_recognized": "Recognized by Fortune 500 companies",
-      "portfolio_projects": "50+ production-grade solutions"
+      "completion": "Certificate from Modern Age Coders, awarded on passing the final exam. Fall short and there is focused revision and a free retest: the certificate certifies knowledge, not attendance"
+    },
+    "support_provided": {
+      "doubt_support": "WhatsApp doubt support between classes",
+      "progress_updates": "Honest monthly progress reviews with a named focus for the next month"
     }
   },
   "prerequisites": {
-    "education": "Bachelor's degree preferred but not required",
-    "coding_experience": "2+ years of programming experience required",
-    "equipment": "High-performance laptop/desktop, cloud accounts",
-    "time_commitment": "15-20 hours per week minimum",
-    "english": "Professional English proficiency",
-    "motivation": "Ambition to become a tech leader"
+    "experience": "Working development experience, roughly 2+ years or a strong portfolio; Princess Coders graduates qualify after building professionally",
+    "equipment": "A computer with a stable internet connection",
+    "audience": "Women developers preparing for senior, staff and leadership work",
+    "time_commitment": "2 live classes plus 4-6 hours of practice a week"
   },
   "who_is_this_for": {
-    "students": "Women developers ready for leadership",
-    "working_professionals": "Women seeking senior/executive roles",
-    "entrepreneurs": "Women building tech companies",
-    "freelancers": "Women consultants going enterprise",
-    "kids": "Not suitable for children - adult program",
-    "anyone": "Ambitious women ready to lead in tech"
+    "mid_level_engineers": "Women developers whose next review says \"more scope\", and who want the skills that earn it",
+    "aspiring_leads": "Engineers choosing between management and the senior IC road, wanting the choice informed",
+    "ai_upskillers": "Developers whose roles now quietly assume AI engineering fluency",
+    "returning_seniors": "Experienced women re-entering after a break, rebuilding at the level they left",
+    "community_builders": "Engineers who want a peer room that continues past the course"
   },
   "career_paths_after_completion": [
-    "Chief Technology Officer (CTO)",
-    "VP of Engineering",
-    "Principal/Staff Engineer",
-    "Technical Founder/CEO",
-    "Engineering Director",
-    "Solution Architect",
-    "AI/ML Engineer Lead",
-    "Blockchain Architect",
-    "Venture Partner (Technical)",
-    "Board Member (Technology Committee)"
+    "Senior and staff engineering roles: the judgment and defense practice map directly",
+    "Alpha Girls: systems at scale, for engineers who want the deepest technical road",
+    "Engineering management: entered consciously, with the trade-offs understood",
+    "Our GenAI and agents courses: deeper into the AI engineering layer",
+    "Community leadership: mentoring the next Princess Coders batch"
   ],
-  "salary_expectations": {
-    "market_context": "The ranges below are general market salary bands for these roles in India and abroad, drawn from public industry data. They are shown for career context only and are not a promise or guarantee of income. Actual pay depends on your skills, experience, location, and the job market.",
-    "growing_roles": "₹15-25 LPA (Senior roles)",
-    "experienced_roles": "₹25-50+ LPA (Leadership roles)",
-    "freelance": "₹2,000-5,000/hour consulting",
-    "international": "$150k-500k+ USD for leadership positions"
-  },
   "course_guarantees": {
     "live_classes": "Live, interactive classes with a real instructor, never pre-recorded videos.",
     "small_batches": "Small batches only: group classes are capped at 10 students, with mini-batch (3 to 4 students) and personal 1-on-1 options.",
-    "structured_curriculum": "A structured, well-paced curriculum taught step by step, with hands-on practice in every session.",
+    "structured_curriculum": "A structured, well-paced curriculum taught step by step, with classwork in every session and homework after every class.",
+    "real_assessment": "Mixed-review assignments after every month and a final exam that decides the certificate: real knowledge, real work.",
     "doubt_support": "Doubt support between classes over WhatsApp, so you are never left stuck.",
-    "certificate": "A course-completion certificate you can share.",
+    "certificate": "A certificate you earn by passing the final exam, with a free retest after revision if needed.",
     "free_demo": "A free demo class before you enrol, so you can decide with no pressure."
   },
   "faqs": [
     {
-      "question": "What does the Queen Coders program cover?",
-      "answer": "This is an advanced 1-year program for women who already code: system design, security, cloud architecture, AI/ML and blockchain specializations, microservices, technical leadership, and entrepreneurship. The year ends with production-grade projects and a leadership portfolio rather than beginner exercises."
+      "question": "What is Queen Coders, and who is it for?",
+      "answer": "An advanced course for women developers with working experience (roughly 2+ years or a strong portfolio) building the step from good developer to trusted engineer: architecture and security judgment, AI engineering with LLMs and agents, and practical technical leadership, ending in an architecture dossier defended before a panel."
     },
     {
-      "question": "Who is Queen Coders for, and what experience is required?",
-      "answer": "It is built for women with around 2 or more years of programming experience: developers aiming for senior, architect, or leadership roles, and founders building tech products. It is an adult program and not suitable for children; complete beginners should start with our Princess Coders track instead."
+      "question": "I am a developer but not \"senior\". Is this too early?",
+      "answer": "If you can build and ship features independently, this is exactly the right time: the course teaches the judgment layer that turns feature-builders into engineers trusted with systems. A short conversation before enrolment places you honestly; Princess Coders graduates typically join after a period of real building."
     },
     {
-      "question": "Why a women-only advanced program?",
-      "answer": "Fewer women reach senior engineering and architecture roles, and that gap is rarely about ability. Queen Coders concentrates on exactly the skills that unlock those rooms, system design, strategy, and leadership, practiced inside a network of ambitious women who push each other forward."
+      "question": "How is leadership taught without becoming motivational fluff?",
+      "answer": "Through artifacts and practice: architecture decision records written and defended, code reviews led live, mentoring practiced on real juniors from our other courses, and the management-versus-senior-IC fork examined with honest trade-offs. Every leadership week produces something reviewable."
     },
     {
-      "question": "How much time does the program demand?",
-      "answer": "Plan for 15 to 20 hours a week including live classes and project work. The pace is intentionally rigorous because the outcome is a leadership-grade portfolio: production applications, architecture case studies, and a capstone you can defend in any technical discussion."
+      "question": "How is progress assessed? Is the certificate just for attending?",
+      "answer": "No. Homework follows every class, each month ends with an assignment that deliberately mixes new questions with earlier topics, every phase closes with a cumulative exam, and the course ends with a final exam. Passing earns the certificate; falling short earns focused revision and a free retest."
     },
     {
-      "question": "What does the program lead to?",
-      "answer": "Graduates finish with production-grade projects, architecture experience, and leadership training aimed at senior engineering, tech lead, and founder paths. You also remain part of the Queen Coders network of women in tech after graduation."
+      "question": "What comes after Queen Coders?",
+      "answer": "Senior and staff-level work, entered with a defended dossier in hand; Alpha Girls for women who want the deepest technical road, systems at scale; or engineering management, chosen consciously. The peer room tends to persist, which is quietly the most valuable outcome."
     },
     {
-      "question": "What does the program cost?",
-      "answer": "Group cohorts are ₹1,499 per month with 2 live classes a week and a 10-student cap, mini batches of 3-4 are ₹2,999 per month, and 1-on-1 mentorship with 2 private sessions weekly is ₹4,999 per month. International participants pay a price set for their own country, shown on this page in their local currency."
+      "question": "What are the fees?",
+      "answer": "Group classes are ₹1,499 per month, with 2 live classes a week in batches capped at 10 learners. A mini batch of 3-4 learners is ₹2,999 per month, and personal 1-on-1 classes are ₹4,999 per month. International learners pay a price set for their own country, shown on this page in their local currency."
     },
     {
-      "question": "Can I experience a class before enrolling?",
-      "answer": "Yes, book a free demo class at learn.modernagecoders.com/contact with no commitment. It is a live session, so you can gauge the level, meet the instructor, and decide whether the program matches your goals."
+      "question": "Is there a free trial class?",
+      "answer": "Yes, a free demo class with no commitment: book at learn.modernagecoders.com/contact or message us on WhatsApp at +91 91233 66161."
     },
     {
-      "question": "What is the teaching format?",
-      "answer": "Live 1-hour online classes with a real instructor, never pre-recorded content. Cohorts are deliberately small and discussion-heavy, closer to an architecture review than a lecture."
-    },
-    {
-      "question": "Is there certification at the end?",
-      "answer": "Yes, graduates earn the Queen Coders Tech Leadership certification. The stronger credential, though, is the portfolio: production-grade applications and architecture work you can walk through in any senior-level conversation."
+      "question": "Are classes live or recorded?",
+      "answer": "Live, always: small groups with a real instructor, never pre-recorded videos."
     }
   ]
 }
