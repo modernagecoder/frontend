@@ -2,72 +2,66 @@
   "meta": {
     "slug": "ai-ml-masterclass-complete-college",
     "date": "2025-10-24",
-    "title": "AI & Machine Learning Masterclass: Zero to AI Expert",
-    "description": "A 12-month AI and Machine Learning program: master Python, mathematics, classical ML, deep learning, NLP, computer vision, MLOps and deploy models at scale.",
+    "dateModified": "2026-08-23",
+    "title": "AI and ML Masterclass: Python, Deep Learning and GenAI",
+    "description": "AI and machine learning masterclass: maths foundations, Python, scikit-learn, PyTorch deep learning, generative AI and deployment in 12-14 months, live online.",
     "keywords": [
-      "artificial intelligence",
-      "machine learning",
-      "deep learning",
-      "neural networks",
-      "data science",
-      "computer vision",
-      "natural language processing",
-      "NLP",
-      "TensorFlow",
-      "PyTorch",
-      "scikit-learn",
-      "MLOps",
-      "AI career",
-      "machine learning engineer",
-      "AI certification"
+      "ai ml course online",
+      "machine learning course for college students",
+      "artificial intelligence course online india",
+      "deep learning course with pytorch",
+      "machine learning course for working professionals",
+      "generative ai course online",
+      "ai course with maths foundations",
+      "computer vision course online",
+      "nlp course online",
+      "ml deployment course",
+      "best ai ml masterclass",
+      "machine learning course with real projects"
     ],
-    "category": "Artificial Intelligence & Machine Learning",
+    "category": "AI and Machine Learning",
     "taxonomy": "ai-ml",
     "price": {
       "group": "₹1,999/month",
       "personal": "₹4,999/month"
     },
-    "duration": "12 months (52 weeks)",
-    "level": "Complete Beginner to AI/ML Expert",
-    "commitment": "20-25 hours/week recommended",
-    "certification": "Industry-recognized AI/ML Engineer certification upon completion",
+    "duration": "12-14 months (48-56 weeks)",
+    "level": "Complete beginner (18+); school maths refreshed, everything else built here",
+    "commitment": "2 live classes/week + 5-6 hours practice",
+    "certification": "Certificate from Modern Age Coders, awarded on passing the final exam",
     "image_path": "ai-ml-college.webp"
   },
   "program_overview": {
-    "title": "Complete AI & Machine Learning Masterclass",
-    "tagline": "From Mathematics Fundamentals to Production AI Systems",
-    "description": "This is not just an AI course, it's a complete transformation into an AI/ML professional. Whether you're a beginner with no technical background, a developer wanting to transition into AI, or a data analyst aiming to become an ML engineer, this 12-month masterclass will turn you into a highly skilled AI practitioner capable of building, training, deploying, and maintaining production-grade machine learning systems.\n\nYou'll master AI/ML from ground zero to expert level: from mathematics and Python programming to classical machine learning algorithms, from deep learning fundamentals to advanced architectures like Transformers, from theory to production deployment with MLOps. By the end, you'll have built 50+ ML projects, created AI models from scratch, deployed them to production, and be ready for AI/ML engineer roles at top tech companies.",
+    "title": "AI and Machine Learning Masterclass",
+    "tagline": "Twelve months, honestly spent: the mathematics, the models, the modern generative layer, and enough engineering to ship what you train.",
+    "description": "AI and machine learning is the deepest track we teach, and this masterclass respects that: twelve months from zero, no shortcuts and no skipped mathematics. The foundations phase builds linear algebra, calculus intuition, probability and statistics alongside Python and the data stack, because everything downstream stands on them. Classical machine learning follows with scikit-learn, classification, feature engineering, unsupervised learning, and evaluation taught as the discipline that separates practitioners from demo-makers. The deep learning phase goes through PyTorch, the framework research and industry actually share, into CNNs, computer vision and NLP up to transformers. The final phase is the modern layer: generative AI and LLM engineering, retrieval, fine-tuning concepts, honest evaluation of generated output, plus deployment fundamentals, serving a model, tracking experiments, monitoring drift, and a capstone shipped and defended.\n\nWhat this course refuses to do is fake the frontier: reinforcement learning, large-scale ML infrastructure and research careers are mapped honestly as next roads, not squeezed into hollow weeks. The reclaimed time goes into depth where it pays: evaluation, error analysis, and the engineering judgment interviews actually probe.\n\nThe pace is real: twelve months at two live classes a week plus five to six hours of practice, with two more months in hand when needed. Problem sets after every class, monthly mixed reviews, phase exams, and a final exam that decides the certificate, with focused revision and a free retest. Real models, real evaluation, depth over dopamine.",
     "what_makes_this_different": [
-      "Starts from absolute zero - mathematics, programming, everything",
-      "Complete 12-month structured curriculum",
-      "Mathematics for ML taught from scratch",
-      "Hands-on with latest AI frameworks (TensorFlow, PyTorch, Hugging Face)",
-      "Real industry projects and Kaggle competitions",
-      "MLOps and production deployment focus",
-      "Computer vision, NLP, and reinforcement learning covered",
-      "Interview preparation for FAANG ML roles",
-      "Build impressive AI portfolio with 50+ projects",
-      "Research paper implementation and understanding"
+      "Mathematics first, honestly: linear algebra, calculus and statistics built in-course, not waved at",
+      "PyTorch as the spine of deep learning: the framework research and industry actually share",
+      "Evaluation and error analysis treated as the core skill, because that is what interviews and real work probe",
+      "A genuinely modern generative phase: LLM engineering, retrieval, fine-tuning concepts and honest output evaluation",
+      "Deployment fundamentals included: serving, experiment tracking and monitoring, without pretending to be an infra course",
+      "Real assessment: weekly problem sets, monthly mixed reviews, and a final exam that decides the certificate, with focused revision and a free retest"
     ],
     "learning_path": {
-      "phase_1": "Foundation (Months 1-3): Mathematics, Python, Statistics, Data Analysis",
-      "phase_2": "Classical ML (Months 4-6): ML Algorithms, Scikit-learn, Feature Engineering, Model Evaluation",
-      "phase_3": "Deep Learning (Months 7-9): Neural Networks, CNN, RNN, NLP, Computer Vision, TensorFlow/PyTorch",
-      "phase_4": "Advanced AI (Months 10-12): Transformers, GANs, RL, MLOps, Production Deployment, Research"
+      "phase_1": "Foundations (Months 1-3): linear algebra, calculus, probability and statistics, with Python, NumPy, pandas and EDA",
+      "phase_2": "Classical ML (Months 4-6): scikit-learn end to end, feature engineering, unsupervised learning, ensembles and rigorous evaluation",
+      "phase_3": "Deep learning (Months 7-9): PyTorch, CNNs and computer vision, NLP through transformers",
+      "phase_4": "GenAI and shipping (Months 10-12): LLM engineering and retrieval, deployment and monitoring, ethics, interviews, and the defended capstone"
     },
     "career_outcomes": [
-      "Junior Data Scientist / ML Engineer (after 3 months)",
-      "ML Engineer / Data Scientist (after 6 months)",
-      "Senior ML Engineer / AI Engineer (after 9 months)",
-      "Lead ML Engineer / Research Engineer (after 12 months)"
+      "A portfolio of trained, evaluated, shipped models: tabular, vision, language and generative",
+      "The mathematical and evaluation fluency ML interviews actually test",
+      "Deployment literacy: models served, tracked and monitored, not stranded in notebooks",
+      "Honest next roads mapped: RL, ML infrastructure and research, entered from a real base"
     ]
   },
-  "phase_1_foundation": {
-    "title": "PHASE 1: Mathematics, Programming & Data Foundations (Months 1-3, Weeks 1-13)",
-    "description": "Build rock-solid mathematical and programming foundations essential for AI/ML. Master linear algebra, calculus, statistics, Python, and data manipulation.",
-    "month_1_2": {
-      "title": "Months 1-2: Mathematics for Machine Learning",
-      "weeks": "Week 1-8",
+  "phase_1_foundations": {
+    "title": "PHASE 1: Mathematics, Python and Data (Months 1-3, Weeks 1-12)",
+    "description": "The load-bearing floor: linear algebra, calculus intuition, probability and statistics, built alongside Python and real exploratory data work.",
+    "month_1_maths_core": {
+      "title": "Month 1: The Mathematical Core I",
+      "weeks": "Weeks 1-4",
       "week_1_2": {
         "title": "Mathematics Prerequisites & Linear Algebra - Part 1",
         "topics": [
@@ -120,8 +114,13 @@
           "Gradient descent visualizer",
           "Function optimizer using calculus"
         ],
-        "practice": "Solve 60 calculus problems, implement gradient descent variants"
-      },
+        "practice": "Solve 60 calculus problems, implement gradient descent variants",
+        "assessment": "Month 1 check: a linear algebra and calculus problem set, marked line by line"
+      }
+    },
+    "month_2_maths_python": {
+      "title": "Month 2: Probability, Statistics and Python",
+      "weeks": "Weeks 5-8",
       "week_5_6": {
         "title": "Probability & Statistics - Part 1",
         "topics": [
@@ -175,12 +174,13 @@
           "Data exploration toolkit with Python",
           "Interactive visualization app"
         ],
-        "practice": "Statistical analysis of 10 real datasets"
+        "practice": "Statistical analysis of 10 real datasets",
+        "assessment": "Month 2 check: a statistics-in-Python exercise, plus mixed review of month 1"
       }
     },
-    "month_3_4": {
-      "title": "Month 3: Data Analysis & Exploratory Data Analysis",
-      "weeks": "Week 9-13",
+    "month_3_data_stack": {
+      "title": "Month 3: The Data Stack",
+      "weeks": "Weeks 9-12",
       "week_9_10": {
         "title": "Advanced NumPy & Pandas",
         "topics": [
@@ -222,7 +222,8 @@
           "Identifying patterns and anomalies",
           "Feature correlation analysis",
           "Handling outliers",
-          "Data storytelling with visualizations"
+          "Data storytelling with visualizations",
+          "SQL for data work: the one honest lesson every ML practitioner needs"
         ],
         "projects": [
           "Complete EDA on Titanic dataset",
@@ -231,39 +232,18 @@
           "COVID-19 data analysis and dashboard",
           "Interactive data exploration tool"
         ],
-        "practice": "Perform comprehensive EDA on 10 datasets"
-      },
-      "week_13": {
-        "title": "SQL for Data Science & Phase 1 Review",
-        "topics": [
-          "SQL fundamentals for data analysis",
-          "Querying databases: SELECT, WHERE, ORDER BY",
-          "Aggregations: GROUP BY, HAVING",
-          "Joins: INNER, LEFT, RIGHT, FULL",
-          "Subqueries and CTEs",
-          "Window functions for analytics",
-          "Working with dates and times",
-          "SQL optimization basics",
-          "Connecting Python to databases",
-          "SQLAlchemy for data extraction",
-          "Phase 1 comprehensive review"
-        ],
-        "projects": [
-          "PHASE 1 MINI CAPSTONE: Complete Data Analysis Project",
-          "Dataset: Choose from Kaggle (e.g., Retail sales, Healthcare data)",
-          "Tasks: Data extraction (SQL), cleaning (Pandas), EDA, statistical analysis, visualization, insights report"
-        ],
-        "assessment": "Phase 1 Final Exam - Mathematics, Statistics, Python, Data Analysis"
+        "practice": "Perform comprehensive EDA on 10 datasets",
+        "assessment": "Phase 1 exam: a full EDA on a fresh dataset with statistical claims defended, plus a written mixed paper"
       }
     }
   },
-  "phase_2_frontend_mastery": {
-    "title": "PHASE 2: Classical Machine Learning (Months 4-6, Weeks 14-26)",
-    "description": "Master traditional machine learning algorithms, feature engineering, model evaluation, and scikit-learn.",
-    "month_7_8": {
-      "title": "Months 4-5: Machine Learning Fundamentals & Supervised Learning",
-      "weeks": "Week 14-22",
-      "week_27_28": {
+  "phase_2_classical_ml": {
+    "title": "PHASE 2: Classical Machine Learning (Months 4-6, Weeks 13-24)",
+    "description": "The working core of applied ML: scikit-learn end to end, feature craft, unsupervised methods, ensembles, and evaluation as a discipline.",
+    "month_4_first_models": {
+      "title": "Month 4: First Models Done Right",
+      "weeks": "Weeks 13-16",
+      "week_13_14": {
         "title": "Introduction to Machine Learning",
         "topics": [
           "What is Machine Learning? AI vs ML vs DL",
@@ -291,7 +271,7 @@
         ],
         "practice": "Implement linear regression from scratch, solve 30 regression problems"
       },
-      "week_29_30": {
+      "week_15_16": {
         "title": "Classification Algorithms - Part 1",
         "topics": [
           "Logistic Regression: binary classification",
@@ -319,9 +299,14 @@
           "Handwritten digit classification (KNN)",
           "Text classification with SVM"
         ],
-        "practice": "Build 15 classification models on different datasets"
-      },
-      "week_31_32": {
+        "practice": "Build 15 classification models on different datasets",
+        "assessment": "Month 4 check: train, tune and defend a classifier on fresh data, plus mixed review"
+      }
+    },
+    "month_5_feature_craft": {
+      "title": "Month 5: Feature Craft and Structure",
+      "weeks": "Weeks 17-20",
+      "week_17_18": {
         "title": "Feature Engineering & Preprocessing",
         "topics": [
           "Feature engineering importance",
@@ -349,7 +334,7 @@
         ],
         "practice": "Engineer features for 20 different datasets"
       },
-      "week_33_34": {
+      "week_19_20": {
         "title": "Unsupervised Learning",
         "topics": [
           "Clustering: grouping similar data",
@@ -376,39 +361,14 @@
           "High-dimensional data visualization",
           "Recommendation system basics"
         ],
-        "practice": "Cluster 15 different datasets, visualize with t-SNE/UMAP"
-      },
-      "week_35": {
-        "title": "Ensemble Methods & Advanced Techniques",
-        "topics": [
-          "Ensemble learning: wisdom of crowds",
-          "Bagging: Random Forest deep dive",
-          "Boosting concept: sequential learning",
-          "AdaBoost: Adaptive Boosting",
-          "Gradient Boosting: iterative optimization",
-          "XGBoost: extreme gradient boosting",
-          "LightGBM: light gradient boosting machine",
-          "CatBoost for categorical features",
-          "Stacking and blending",
-          "Voting classifiers",
-          "Hyperparameter tuning: Grid Search",
-          "Random Search and Bayesian Optimization",
-          "AutoML introduction"
-        ],
-        "projects": [
-          "Kaggle competition with ensemble methods",
-          "XGBoost vs LightGBM comparison",
-          "Stacked ensemble model",
-          "Hyperparameter tuning framework",
-          "Complete ML pipeline with best practices"
-        ],
-        "practice": "Win or achieve top 10% in 2 Kaggle competitions"
+        "practice": "Cluster 15 different datasets, visualize with t-SNE/UMAP",
+        "assessment": "Month 5 check: a clustering-and-features task with honest interpretation, plus mixed review"
       }
     },
-    "month_9_10": {
-      "title": "Month 6: Advanced ML & Time Series",
-      "weeks": "Week 23-26",
-      "week_36_37": {
+    "month_6_evaluation": {
+      "title": "Month 6: Ensembles, Evaluation and the Phase Capstone",
+      "weeks": "Weeks 21-24",
+      "week_21_22": {
         "title": "Model Evaluation & Validation",
         "topics": [
           "Evaluation metrics deep dive",
@@ -425,7 +385,8 @@
           "Partial dependence plots",
           "Model debugging and error analysis",
           "Bias and fairness in ML models",
-          "A/B testing for ML models"
+          "A/B testing for ML models",
+          "Ensemble methods: bagging, boosting and when they stop helping"
         ],
         "projects": [
           "Model evaluation framework",
@@ -436,87 +397,8 @@
         ],
         "practice": "Evaluate and interpret 20 different models"
       },
-      "week_38_39": {
-        "title": "Time Series Analysis & Forecasting",
-        "topics": [
-          "Time series data characteristics",
-          "Trend, seasonality, and noise",
-          "Stationarity and differencing",
-          "Autocorrelation and partial autocorrelation",
-          "Moving averages: simple and exponential",
-          "ARIMA models: AR, MA, ARMA, ARIMA",
-          "SARIMA for seasonal data",
-          "Prophet for forecasting",
-          "LSTM for time series (preview)",
-          "Feature engineering for time series",
-          "Evaluation metrics for forecasting",
-          "Cross-validation for time series",
-          "Handling missing data in time series",
-          "Multi-step forecasting"
-        ],
-        "projects": [
-          "Stock price prediction",
-          "Sales forecasting system",
-          "Energy consumption prediction",
-          "Weather forecasting",
-          "Website traffic prediction",
-          "Prophet vs ARIMA comparison"
-        ],
-        "practice": "Forecast 10 different time series datasets"
-      },
-      "week_40_41": {
-        "title": "Recommender Systems",
-        "topics": [
-          "Types of recommendation systems",
-          "Content-based filtering",
-          "Collaborative filtering: user-based, item-based",
-          "Matrix factorization: SVD for recommendations",
-          "Similarity metrics: cosine, Pearson correlation",
-          "Hybrid recommendation systems",
-          "Cold start problem solutions",
-          "Evaluation metrics for recommendations",
-          "Implicit vs explicit feedback",
-          "Scalability challenges",
-          "Deep learning for recommendations (intro)",
-          "Real-world recommendation systems architecture"
-        ],
-        "projects": [
-          "Movie recommendation system (MovieLens)",
-          "Product recommendation engine",
-          "Music recommender",
-          "Content-based news recommender",
-          "Hybrid recommendation system",
-          "Cold start handling implementation"
-        ],
-        "practice": "Build 5 different types of recommender systems"
-      },
-      "week_42_43": {
-        "title": "Advanced Topics & Specialized ML",
-        "topics": [
-          "Imbalanced classification: SMOTE, class weights",
-          "Cost-sensitive learning",
-          "Multi-label classification",
-          "Multi-output regression",
-          "Online learning and incremental learning",
-          "Active learning strategies",
-          "Transfer learning basics",
-          "Semi-supervised learning",
-          "One-class classification",
-          "Survival analysis basics",
-          "Causal inference introduction",
-          "Federated learning overview"
-        ],
-        "projects": [
-          "Imbalanced dataset classifier",
-          "Multi-label text classification",
-          "Online learning system",
-          "Active learning implementation",
-          "Transfer learning experiment"
-        ],
-        "practice": "Solve 10 specialized ML problems"
-      },
-      "week_44": {
-        "title": "Phase 2 Capstone Project",
+      "week_23_24": {
+        "title": "Phase 2 Capstone",
         "topics": [
           "Complete ML pipeline development",
           "Problem definition and data collection",
@@ -531,41 +413,19 @@
           "Option 1: Predict customer lifetime value (regression + classification)",
           "Option 2: Build complete recommender system",
           "Option 3: Time series forecasting for business metrics",
-          "Option 4: Kaggle competition (achieve top 10%)",
           "Requirements: Complete pipeline, feature engineering, ensemble methods, model interpretation, detailed report"
         ],
-        "assessment": "Phase 2 Final Exam - Classical ML comprehensive test"
+        "assessment": "Phase 2 exam: a complete classical-ML project defended, plus a cumulative written paper over phases 1-2"
       }
-    },
-    "month_11_12": {
-      "title": "PHASE 2 CONTINUED - Production ML Basics",
-      "weeks": "Week 14-26 (distributed)",
-      "week_45_46": {
-        "title": "ML Model Deployment Basics",
-        "topics": [
-          "ML model lifecycle",
-          "Model serialization: pickle, joblib",
-          "Flask for ML APIs",
-          "FastAPI for high-performance APIs",
-          "REST API design for ML",
-          "Input validation and preprocessing",
-          "Model serving basics",
-          "Docker for ML applications",
-          "Creating ML microservices",
-          "Model versioning strategies",
-          "A/B testing deployed models",
-          "Monitoring model performance"
-        ],
-        "projects": [
-          "ML model API with Flask",
-          "FastAPI ML service",
-          "Dockerized ML application",
-          "Model versioning system",
-          "Simple ML deployment pipeline"
-        ],
-        "practice": "Deploy 10 ML models as APIs"
-      },
-      "week_47_48": {
+    }
+  },
+  "phase_3_deep_learning": {
+    "title": "PHASE 3: Deep Learning with PyTorch (Months 7-9, Weeks 25-36)",
+    "description": "The modern engine room: PyTorch fluency, convolutional networks and real computer vision, NLP through the transformer.",
+    "month_7_pytorch": {
+      "title": "Month 7: Into Deep Learning",
+      "weeks": "Weeks 25-28",
+      "week_25_26": {
         "title": "Introduction to Deep Learning",
         "topics": [
           "Why deep learning?",
@@ -591,89 +451,40 @@
         ],
         "practice": "Build 10 neural networks with Keras"
       },
-      "week_49_50": {
-        "title": "Version Control & Experiment Tracking",
+      "week_27_28": {
+        "title": "PyTorch in Depth",
         "topics": [
-          "Git for ML projects",
-          "DVC (Data Version Control)",
-          "Versioning datasets and models",
-          "MLflow for experiment tracking",
-          "Logging metrics and parameters",
-          "Weights & Biases (wandb)",
-          "Comparing experiments",
-          "Reproducibility in ML",
-          "Managing ML artifacts",
-          "Jupyter notebooks best practices",
-          "Documentation for ML projects",
-          "Collaboration in ML teams"
+          "PyTorch fundamentals",
+          "Tensors and autograd",
+          "Building models with nn.Module",
+          "PyTorch data loading: Dataset, DataLoader",
+          "Custom datasets creation",
+          "Training loops in PyTorch",
+          "GPU acceleration with PyTorch",
+          "TorchVision for computer vision",
+          "TorchText for NLP",
+          "PyTorch Lightning for cleaner code",
+          "Model checkpointing",
+          "TensorBoard with PyTorch",
+          "PyTorch vs TensorFlow comparison"
         ],
         "projects": [
-          "DVC setup for ML project",
-          "MLflow experiment tracking",
-          "Reproducible ML pipeline",
-          "Experiment comparison dashboard",
-          "Collaborative ML project"
+          "Image classifier in PyTorch",
+          "Custom CNN architecture",
+          "Transfer learning in PyTorch",
+          "RNN/LSTM in PyTorch",
+          "GAN in PyTorch",
+          "PyTorch Lightning project",
+          "Multi-GPU training"
         ],
-        "practice": "Version control all ML projects"
-      },
-      "week_51": {
-        "title": "ML Engineering Best Practices",
-        "topics": [
-          "Code organization for ML",
-          "Configuration management",
-          "Automated testing for ML",
-          "Unit tests for data and models",
-          "CI/CD for ML projects",
-          "Data validation",
-          "Model validation strategies",
-          "Feature store concepts",
-          "ML pipelines with Apache Airflow",
-          "Scheduling ML tasks",
-          "Error handling in ML systems",
-          "Logging and monitoring"
-        ],
-        "projects": [
-          "Well-structured ML project",
-          "ML testing suite",
-          "CI/CD pipeline for ML",
-          "Automated ML workflow",
-          "Data validation framework"
-        ],
-        "practice": "Refactor all projects with best practices"
-      },
-      "week_52": {
-        "title": "Big Data for ML (Introduction)",
-        "topics": [
-          "Big data challenges in ML",
-          "Apache Spark basics",
-          "PySpark for distributed computing",
-          "Spark MLlib for scalable ML",
-          "Distributed data processing",
-          "Dask for parallel computing",
-          "Handling large datasets",
-          "Sampling strategies",
-          "Online learning for big data",
-          "GPU computing basics",
-          "Cloud platforms for ML: AWS, GCP, Azure"
-        ],
-        "projects": [
-          "PySpark ML pipeline",
-          "Distributed data processing",
-          "Large-scale classification",
-          "Dask for out-of-memory datasets",
-          "Cloud ML experiment"
-        ],
-        "practice": "Process 5 large datasets (>1GB)"
+        "practice": "Reimplement 15 projects in PyTorch",
+        "assessment": "Month 7 check: build and train a network in raw PyTorch live, plus mixed review"
       }
-    }
-  },
-  "phase_3_backend_engineering": {
-    "title": "PHASE 3: Deep Learning & Specialized AI (Months 7-9, Weeks 27-39)",
-    "description": "Master deep learning, computer vision, natural language processing, and specialized AI domains.",
-    "month_13_14": {
-      "title": "Months 7-8: Deep Learning & Computer Vision",
-      "weeks": "Week 27-35",
-      "week_53_54": {
+    },
+    "month_8_vision": {
+      "title": "Month 8: Computer Vision",
+      "weeks": "Weeks 29-32",
+      "week_29_30": {
         "title": "Convolutional Neural Networks (CNN)",
         "topics": [
           "Limitations of fully connected networks for images",
@@ -701,7 +512,7 @@
         ],
         "practice": "Build 15 computer vision models"
       },
-      "week_55_56": {
+      "week_31_32": {
         "title": "Advanced Computer Vision",
         "topics": [
           "Object detection: R-CNN, Fast R-CNN, Faster R-CNN",
@@ -727,37 +538,14 @@
           "Custom dataset object detector",
           "Siamese network for similarity"
         ],
-        "practice": "Complete 10 computer vision projects"
-      },
-      "week_57_58": {
-        "title": "Recurrent Neural Networks (RNN)",
-        "topics": [
-          "Sequential data and RNN motivation",
-          "RNN architecture and forward pass",
-          "Backpropagation Through Time (BPTT)",
-          "Vanishing and exploding gradients",
-          "LSTM (Long Short-Term Memory): gates and cell state",
-          "GRU (Gated Recurrent Unit)",
-          "Bidirectional RNNs",
-          "Sequence-to-sequence models",
-          "Encoder-decoder architecture",
-          "Attention mechanism",
-          "Teacher forcing",
-          "Applications: language modeling, translation",
-          "Time series with RNN/LSTM"
-        ],
-        "projects": [
-          "Text generation with LSTM",
-          "Sentiment analysis with RNN",
-          "Stock price prediction with LSTM",
-          "Name generation model",
-          "Machine translation basics",
-          "Seq2Seq chatbot",
-          "Music generation with RNN"
-        ],
-        "practice": "Build 12 sequence modeling projects"
-      },
-      "week_59_60": {
+        "practice": "Complete 10 computer vision projects",
+        "assessment": "Month 8 check: a transfer-learning vision project with honest error analysis, plus mixed review"
+      }
+    },
+    "month_9_nlp": {
+      "title": "Month 9: Language and Transformers",
+      "weeks": "Weeks 33-36",
+      "week_33_34": {
         "title": "Natural Language Processing (NLP) - Part 1",
         "topics": [
           "NLP pipeline and challenges",
@@ -772,7 +560,8 @@
           "Named Entity Recognition (NER)",
           "Part-of-Speech (POS) tagging",
           "Dependency parsing basics",
-          "spaCy for NLP"
+          "spaCy for NLP",
+          "Why attention replaced recurrence: the honest one-lesson history"
         ],
         "projects": [
           "Sentiment classifier with embeddings",
@@ -785,8 +574,8 @@
         ],
         "practice": "Complete 15 NLP tasks"
       },
-      "week_61": {
-        "title": "NLP - Part 2 (Advanced)",
+      "week_35_36": {
+        "title": "Advanced NLP and the Transformer",
         "topics": [
           "Transformer architecture: self-attention",
           "Multi-head attention",
@@ -810,290 +599,70 @@
           "Text generation with GPT",
           "Multi-task NLP model"
         ],
-        "practice": "Fine-tune 10 transformer models"
-      }
-    },
-    "month_15_16": {
-      "title": "Month 9: Advanced Deep Learning & Generative AI",
-      "weeks": "Week 36-39",
-      "week_62_63": {
-        "title": "Generative Adversarial Networks (GANs)",
-        "topics": [
-          "Generative models overview",
-          "GAN architecture: generator and discriminator",
-          "GAN training: adversarial loss",
-          "Mode collapse and training challenges",
-          "DCGAN: Deep Convolutional GAN",
-          "Conditional GAN (cGAN)",
-          "Pix2Pix for image-to-image translation",
-          "CycleGAN for unpaired translation",
-          "StyleGAN for high-quality generation",
-          "Progressive GAN",
-          "Wasserstein GAN (WGAN)",
-          "GAN evaluation metrics: Inception Score, FID",
-          "Applications: image generation, data augmentation"
-        ],
-        "projects": [
-          "DCGAN for image generation (faces, digits)",
-          "Conditional GAN for MNIST",
-          "Pix2Pix implementation",
-          "Image super-resolution with GAN",
-          "Style transfer with GAN",
-          "Data augmentation using GANs",
-          "Deepfake detection (ethics discussion)"
-        ],
-        "practice": "Implement 8 different GAN architectures"
-      },
-      "week_64_65": {
-        "title": "Variational Autoencoders & Advanced Generative Models",
-        "topics": [
-          "Autoencoders: encoder-decoder architecture",
-          "Dimensionality reduction with autoencoders",
-          "Denoising autoencoders",
-          "Variational Autoencoders (VAE)",
-          "VAE loss: reconstruction + KL divergence",
-          "Latent space interpolation",
-          "Conditional VAE",
-          "Diffusion models introduction",
-          "Stable Diffusion basics",
-          "DALL-E and text-to-image models",
-          "Generative models for text",
-          "Applications in creative AI"
-        ],
-        "projects": [
-          "Autoencoder for image compression",
-          "VAE for generating faces",
-          "Anomaly detection with autoencoders",
-          "Latent space exploration",
-          "Image denoising with autoencoders",
-          "Text-to-image with Stable Diffusion API",
-          "Creative AI project"
-        ],
-        "practice": "Build 10 generative AI projects"
-      },
-      "week_66_67": {
-        "title": "Reinforcement Learning - Part 1",
-        "topics": [
-          "Reinforcement Learning paradigm",
-          "Agent, environment, state, action, reward",
-          "Markov Decision Process (MDP)",
-          "Policy and value functions",
-          "Bellman equations",
-          "Dynamic programming: value iteration, policy iteration",
-          "Monte Carlo methods",
-          "Temporal Difference (TD) learning",
-          "Q-Learning algorithm",
-          "SARSA algorithm",
-          "Exploration vs exploitation: ε-greedy",
-          "OpenAI Gym environment"
-        ],
-        "projects": [
-          "Q-Learning for GridWorld",
-          "SARSA for Frozen Lake",
-          "CartPole with Q-Learning",
-          "Taxi problem solution",
-          "Simple game AI with RL",
-          "Custom RL environment"
-        ],
-        "practice": "Solve 10 RL problems"
-      },
-      "week_68_69": {
-        "title": "Reinforcement Learning - Part 2 (Deep RL)",
-        "topics": [
-          "Deep Q-Networks (DQN)",
-          "Experience replay",
-          "Target networks",
-          "Double DQN",
-          "Dueling DQN",
-          "Policy gradient methods",
-          "REINFORCE algorithm",
-          "Actor-Critic methods",
-          "A3C (Asynchronous Advantage Actor-Critic)",
-          "PPO (Proximal Policy Optimization)",
-          "Applications: game playing, robotics",
-          "Multi-agent RL basics"
-        ],
-        "projects": [
-          "DQN for Atari games",
-          "CartPole with DQN",
-          "Lunar Lander with PPO",
-          "Custom game with RL agent",
-          "Policy gradient implementation",
-          "Multi-agent environment"
-        ],
-        "practice": "Train 8 deep RL agents"
-      },
-      "week_70": {
-        "title": "PyTorch Deep Dive",
-        "topics": [
-          "PyTorch fundamentals",
-          "Tensors and autograd",
-          "Building models with nn.Module",
-          "PyTorch data loading: Dataset, DataLoader",
-          "Custom datasets creation",
-          "Training loops in PyTorch",
-          "GPU acceleration with PyTorch",
-          "TorchVision for computer vision",
-          "TorchText for NLP",
-          "PyTorch Lightning for cleaner code",
-          "Model checkpointing",
-          "TensorBoard with PyTorch",
-          "PyTorch vs TensorFlow comparison"
-        ],
-        "projects": [
-          "Image classifier in PyTorch",
-          "Custom CNN architecture",
-          "Transfer learning in PyTorch",
-          "RNN/LSTM in PyTorch",
-          "GAN in PyTorch",
-          "PyTorch Lightning project",
-          "Multi-GPU training"
-        ],
-        "practice": "Reimplement 15 projects in PyTorch"
-      }
-    },
-    "month_17_18": {
-      "title": "PHASE 3 COMPLETION - Month 9 Final Weeks",
-      "weeks": "Week 27-39 (distributed)",
-      "week_71_72": {
-        "title": "Model Optimization & Compression",
-        "topics": [
-          "Model optimization importance",
-          "Quantization: reducing precision",
-          "Pruning: removing unnecessary weights",
-          "Knowledge distillation: teacher-student",
-          "Neural Architecture Search (NAS)",
-          "MobileNets for mobile devices",
-          "EfficientNet: compound scaling",
-          "TensorFlow Lite for mobile",
-          "ONNX for model interoperability",
-          "Edge AI deployment",
-          "Inference optimization",
-          "Benchmarking model speed"
-        ],
-        "projects": [
-          "Model quantization experiment",
-          "Pruned neural network",
-          "Knowledge distillation implementation",
-          "MobileNet deployment",
-          "TensorFlow Lite model",
-          "ONNX conversion pipeline",
-          "Edge device deployment"
-        ],
-        "practice": "Optimize 10 models for deployment"
-      },
-      "week_73_74": {
-        "title": "Audio & Speech Processing",
-        "topics": [
-          "Audio signal basics",
-          "Audio preprocessing and features",
-          "Mel-frequency cepstral coefficients (MFCCs)",
-          "Spectrograms",
-          "Speech recognition with Deep Learning",
-          "WaveNet and audio generation",
-          "Voice cloning basics",
-          "Music genre classification",
-          "Audio event detection",
-          "Librosa library for audio",
-          "Speech-to-text systems",
-          "Text-to-speech (TTS) basics"
-        ],
-        "projects": [
-          "Speech recognition system",
-          "Music genre classifier",
-          "Audio event detection",
-          "Voice command recognition",
-          "Audio generation with WaveNet",
-          "Emotion recognition from speech",
-          "Speaker identification"
-        ],
-        "practice": "Build 8 audio AI projects"
-      },
-      "week_75_76": {
-        "title": "Multi-Modal Learning & Graph Neural Networks",
-        "topics": [
-          "Multi-modal learning introduction",
-          "Image + text models",
-          "CLIP: Contrastive Language-Image Pre-training",
-          "Vision-language models",
-          "Multi-modal fusion strategies",
-          "Graph data representation",
-          "Graph Neural Networks (GNN) basics",
-          "Graph Convolutional Networks (GCN)",
-          "Node classification and link prediction",
-          "Graph attention networks",
-          "Applications: social networks, molecules",
-          "Knowledge graphs"
-        ],
-        "projects": [
-          "Image captioning system",
-          "Visual question answering",
-          "Multi-modal sentiment analysis",
-          "GNN for social network analysis",
-          "Node classification with GCN",
-          "Link prediction task",
-          "Knowledge graph construction"
-        ],
-        "practice": "Explore multi-modal and graph projects"
-      },
-      "week_77": {
-        "title": "AI Ethics, Fairness & Responsible AI",
-        "topics": [
-          "Ethics in AI/ML",
-          "Bias in machine learning",
-          "Fairness metrics and definitions",
-          "Detecting and mitigating bias",
-          "Interpretable vs explainable AI",
-          "LIME and SHAP for explanations",
-          "Privacy in ML: differential privacy",
-          "Federated learning for privacy",
-          "Adversarial attacks on ML models",
-          "Adversarial training for robustness",
-          "Regulatory compliance: GDPR, AI Act",
-          "Responsible AI frameworks",
-          "Ethical considerations in deployment"
-        ],
-        "projects": [
-          "Bias detection in models",
-          "Fairness-aware classifier",
-          "Model explanation dashboard",
-          "Privacy-preserving ML experiment",
-          "Adversarial examples generation",
-          "Robust model training",
-          "Ethical AI case studies"
-        ],
-        "practice": "Audit models for bias and fairness"
-      },
-      "week_78": {
-        "title": "Phase 3 Capstone Project",
-        "topics": [
-          "Advanced AI system design",
-          "Deep learning architecture selection",
-          "Data collection and preprocessing",
-          "Model training and optimization",
-          "Evaluation and interpretation",
-          "Deployment planning"
-        ],
-        "projects": [
-          "MAJOR CAPSTONE: Advanced AI Application",
-          "Option 1: End-to-End Computer Vision System (e.g., Medical image diagnosis)",
-          "Option 2: Advanced NLP Application (e.g., Chatbot with context, QA system)",
-          "Option 3: Generative AI Project (e.g., Content generation platform)",
-          "Option 4: Reinforcement Learning Agent (e.g., Game AI, optimization problem)",
-          "Requirements: Deep learning, production-ready, documented, deployed, evaluated thoroughly"
-        ],
-        "assessment": "Phase 3 Final Exam - Deep Learning comprehensive test"
+        "practice": "Fine-tune 10 transformer models",
+        "assessment": "Phase 3 exam: a vision or NLP project defended end to end, plus a cumulative written paper"
       }
     }
   },
-  "phase_4_advanced_production": {
-    "title": "PHASE 4: MLOps, Production AI & Research (Months 10-12, Weeks 40-52)",
-    "description": "Master MLOps, production deployment, scalable AI systems, research skills, and career preparation.",
-    "month_19_20": {
-      "title": "Months 10-11: MLOps & Production AI Systems",
-      "weeks": "Week 40-48",
-      "week_79_80": {
-        "title": "MLOps Fundamentals",
+  "phase_4_genai_shipping": {
+    "title": "PHASE 4: Generative AI, Shipping and the Capstone (Months 10-12, Weeks 37-48)",
+    "description": "The modern layer done properly: LLM engineering and retrieval, deployment and monitoring fundamentals, responsible AI, interview craft, and the defended capstone.",
+    "month_10_genai": {
+      "title": "Month 10: Generative AI and LLM Engineering",
+      "weeks": "Weeks 37-40",
+      "week_37_38": {
+        "title": "LLM Engineering",
+        "topics": [
+          "How large language models actually work: tokens, attention, training and alignment in honest depth",
+          "The frontier landscape read soberly: GPT-class, Claude-class and open-weight Llama-class models",
+          "Prompting as engineering: structure, iteration and evaluation harnesses",
+          "Retrieval-augmented generation: embeddings, vector search, and when plain search wins",
+          "Fine-tuning and adapters: what they change, what they cost, when they are wrong",
+          "Structured output and function calling: making models act reliably",
+          "Generative image models: how diffusion works and where it fits",
+          "Evaluating generated output without fooling yourself",
+          "Cost, latency and caching: the engineering triangle of GenAI"
+        ],
+        "projects": [
+          "A retrieval-augmented assistant over a real document set, with an evaluation harness",
+          "A structured-output pipeline that survives adversarial inputs"
+        ],
+        "practice": "Run 50 evaluated queries through your assistant and publish the score honestly"
+      },
+      "week_39_40": {
+        "title": "Deployment and Experiment Tracking",
+        "topics": [
+          "ML model lifecycle",
+          "Model serialization: pickle, joblib",
+          "Flask for ML APIs",
+          "FastAPI for high-performance APIs",
+          "REST API design for ML",
+          "Input validation and preprocessing",
+          "Model serving basics",
+          "Docker for ML applications",
+          "Creating ML microservices",
+          "Model versioning strategies",
+          "A/B testing deployed models",
+          "Monitoring model performance",
+          "Experiment tracking: knowing which run produced which model",
+          "Serving a model behind an API, measured under load"
+        ],
+        "projects": [
+          "ML model API with Flask",
+          "FastAPI ML service",
+          "Dockerized ML application",
+          "Model versioning system",
+          "Simple ML deployment pipeline"
+        ],
+        "practice": "Deploy 10 ML models as APIs",
+        "assessment": "Month 10 check: ship one model behind an API with tracked experiments, plus mixed review"
+      }
+    },
+    "month_11_production_ethics": {
+      "title": "Month 11: Production Habits and Responsible AI",
+      "weeks": "Weeks 41-44",
+      "week_41_42": {
+        "title": "MLOps Fundamentals, Honestly Scoped",
         "topics": [
           "What is MLOps? DevOps for ML",
           "ML system architecture",
@@ -1107,7 +676,8 @@
           "Data lineage and provenance",
           "Continuous training (CT)",
           "Automated retraining pipelines",
-          "Model governance"
+          "Model governance",
+          "Monitoring and drift: knowing when your model quietly went stale"
         ],
         "projects": [
           "Complete MLOps pipeline",
@@ -1119,233 +689,57 @@
         ],
         "practice": "Build 5 MLOps pipelines"
       },
-      "week_81_82": {
-        "title": "Model Serving & Deployment at Scale",
+      "week_43_44": {
+        "title": "Responsible AI and Explainability",
         "topics": [
-          "Model serving architectures",
-          "TensorFlow Serving",
-          "TorchServe for PyTorch",
-          "NVIDIA Triton Inference Server",
-          "RESTful API vs gRPC for serving",
-          "Batch vs real-time inference",
-          "Model optimization for serving",
-          "A/B testing infrastructure",
-          "Multi-armed bandits for model selection",
-          "Canary deployments",
-          "Shadow deployments",
-          "Load balancing for ML services",
-          "Kubernetes for ML deployment"
+          "Ethics in AI/ML",
+          "Bias in machine learning",
+          "Fairness metrics and definitions",
+          "Detecting and mitigating bias",
+          "Interpretable vs explainable AI",
+          "LIME and SHAP for explanations",
+          "Privacy in ML: differential privacy",
+          "Federated learning for privacy",
+          "Adversarial attacks on ML models",
+          "Adversarial training for robustness",
+          "Regulatory compliance: GDPR, AI Act",
+          "Responsible AI frameworks",
+          "Ethical considerations in deployment",
+          "Explainability tools in practice: SHAP-style reasoning about model decisions",
+          "Capstone planning: choosing a project worth defending"
         ],
         "projects": [
-          "TensorFlow Serving deployment",
-          "TorchServe implementation",
-          "High-performance inference API",
-          "A/B testing framework",
-          "Multi-model serving system",
-          "Kubernetes ML deployment",
-          "Load testing ML APIs"
+          "Bias detection in models",
+          "Fairness-aware classifier",
+          "Model explanation dashboard",
+          "Privacy-preserving ML experiment",
+          "Adversarial examples generation",
+          "Robust model training",
+          "Ethical AI case studies"
         ],
-        "practice": "Deploy 10 models to production"
-      },
-      "week_83_84": {
-        "title": "Monitoring & Observability for ML",
-        "topics": [
-          "ML model monitoring importance",
-          "Data drift detection",
-          "Concept drift monitoring",
-          "Model performance degradation",
-          "Monitoring metrics: latency, throughput",
-          "Prometheus for ML monitoring",
-          "Grafana dashboards for ML",
-          "Logging for ML systems",
-          "Error tracking and alerting",
-          "Model explainability in production",
-          "Feedback loops",
-          "Retraining triggers",
-          "Incident response for ML systems"
-        ],
-        "projects": [
-          "Model monitoring dashboard",
-          "Data drift detector",
-          "Performance monitoring system",
-          "Alerting framework for ML",
-          "Automated retraining trigger",
-          "Production ML observability stack",
-          "Feedback collection system"
-        ],
-        "practice": "Monitor all deployed models"
-      },
-      "week_85_86": {
-        "title": "Scalable ML Infrastructure",
-        "topics": [
-          "Distributed training: data parallelism",
-          "Model parallelism for large models",
-          "Horovod for distributed training",
-          "Ray for distributed ML",
-          "GPU clusters management",
-          "Cloud ML platforms: AWS SageMaker",
-          "Google Cloud AI Platform",
-          "Azure Machine Learning",
-          "Vertex AI",
-          "Managed ML services",
-          "Cost optimization for ML",
-          "Spot instances for training",
-          "Serverless ML inference"
-        ],
-        "projects": [
-          "Distributed training setup",
-          "Multi-GPU training",
-          "SageMaker end-to-end pipeline",
-          "GCP Vertex AI deployment",
-          "Azure ML workspace",
-          "Cost-optimized ML infrastructure",
-          "Serverless ML API"
-        ],
-        "practice": "Deploy on all major cloud platforms"
-      },
-      "week_87": {
-        "title": "AutoML & Meta-Learning",
-        "topics": [
-          "Automated Machine Learning (AutoML)",
-          "AutoML frameworks: Auto-sklearn, TPOT",
-          "Google AutoML",
-          "H2O.ai AutoML",
-          "Neural Architecture Search (NAS)",
-          "Hyperparameter optimization: Optuna, Hyperopt",
-          "Meta-learning introduction",
-          "Few-shot learning",
-          "Transfer learning at scale",
-          "Model zoos and pretrained models",
-          "Automated feature engineering",
-          "AutoML for time series"
-        ],
-        "projects": [
-          "AutoML pipeline with Auto-sklearn",
-          "Hyperparameter optimization with Optuna",
-          "NAS implementation",
-          "Few-shot learning system",
-          "Automated feature engineering",
-          "Custom AutoML framework",
-          "Meta-learning experiment"
-        ],
-        "practice": "Apply AutoML to 10 datasets"
+        "practice": "Audit models for bias and fairness",
+        "assessment": "Month 11 check: an ethics-and-monitoring case argued in writing, plus cumulative review"
       }
     },
-    "month_21_22": {
-      "title": "Month 12: Research Skills & Career Excellence",
-      "weeks": "Week 49-52",
-      "week_88_89": {
-        "title": "Reading & Implementing Research Papers",
+    "month_12_capstone": {
+      "title": "Month 12: Capstone, Interviews and the Final Exam",
+      "weeks": "Weeks 45-48",
+      "week_45_46": {
+        "title": "Capstone Build",
         "topics": [
-          "How to read research papers",
-          "arXiv and academic resources",
-          "Understanding paper structure",
-          "Mathematical notation in papers",
-          "Implementing papers from scratch",
-          "Reproducing research results",
-          "State-of-the-art (SOTA) models",
-          "Benchmarking on standard datasets",
-          "Contributing to research discussions",
-          "Writing technical reports",
-          "Academic writing basics",
-          "Citing and references"
+          "Two focused weeks: data, model, evaluation, deployment",
+          "Instructor checkpoints and honest scope cuts",
+          "Error analysis before excitement: the metric chosen and defended",
+          "The capstone served behind an API with tracked experiments",
+          "A model card a skeptic could audit"
         ],
         "projects": [
-          "Implement 5 research papers from scratch",
-          "ResNet paper implementation",
-          "Attention is All You Need (Transformers)",
-          "BERT paper reproduction",
-          "GAN paper implementation",
-          "Technical paper writing",
-          "Literature review on a topic"
+          "The capstone: a complete ML or GenAI system, trained, evaluated, deployed and documented"
         ],
-        "practice": "Read and implement 20 papers"
+        "practice": "Daily training log; a working deployed build at all times"
       },
-      "week_90_91": {
-        "title": "Advanced AI Topics & Frontier Research",
-        "topics": [
-          "Large Language Models (LLMs) architecture",
-          "GPT-3, GPT-4, PaLM architecture",
-          "Prompt engineering advanced",
-          "Fine-tuning large models",
-          "RLHF (Reinforcement Learning from Human Feedback)",
-          "Constitutional AI",
-          "Vision Transformers (ViT)",
-          "Multi-modal transformers",
-          "Diffusion models deep dive",
-          "Neural rendering and NeRF",
-          "Foundation models",
-          "AI safety and alignment",
-          "Emerging AI research directions"
-        ],
-        "projects": [
-          "Fine-tune GPT for specific task",
-          "Vision Transformer implementation",
-          "Diffusion model from scratch",
-          "Multi-modal transformer",
-          "RLHF experiment",
-          "Custom foundation model (small scale)",
-          "AI safety project"
-        ],
-        "practice": "Explore cutting-edge AI research"
-      },
-      "week_92_93": {
-        "title": "Domain-Specific AI Applications",
-        "topics": [
-          "Healthcare AI: medical imaging, diagnosis",
-          "Drug discovery with AI",
-          "Finance: algorithmic trading, fraud detection",
-          "Retail: demand forecasting, personalization",
-          "Manufacturing: predictive maintenance, quality control",
-          "Autonomous vehicles: perception, planning",
-          "Agriculture: crop monitoring, yield prediction",
-          "Energy: smart grids, consumption forecasting",
-          "Natural disasters prediction",
-          "Climate change modeling",
-          "AI for social good",
-          "Industry-specific challenges and solutions"
-        ],
-        "projects": [
-          "Medical image classification",
-          "Fraud detection system",
-          "Demand forecasting model",
-          "Predictive maintenance system",
-          "Autonomous navigation basics",
-          "Crop disease detection",
-          "Domain-specific AI application"
-        ],
-        "practice": "Build 5 domain-specific AI projects"
-      },
-      "week_94_95": {
-        "title": "Building AI Products & Startups",
-        "topics": [
-          "AI product development lifecycle",
-          "Identifying AI opportunities",
-          "Problem-solution fit for AI",
-          "Building MVP for AI products",
-          "AI product metrics and KPIs",
-          "User experience in AI products",
-          "Monetization strategies",
-          "AI as a service (AIaaS)",
-          "API-first AI products",
-          "Scaling AI products",
-          "Team building for AI startups",
-          "Fundraising for AI ventures",
-          "Legal and regulatory considerations"
-        ],
-        "projects": [
-          "AI product prototype",
-          "AI SaaS application",
-          "AI API marketplace listing",
-          "Product roadmap for AI startup",
-          "MVP development",
-          "Go-to-market strategy",
-          "Pitch deck for AI product"
-        ],
-        "practice": "Develop complete AI product concept"
-      },
-      "week_96": {
-        "title": "Interview Preparation & Career Strategy",
+      "week_47": {
+        "title": "ML Interview Craft",
         "topics": [
           "ML interview preparation strategy",
           "Coding interviews for ML roles",
@@ -1353,14 +747,13 @@
           "System design for ML systems",
           "Take-home assignments approach",
           "Portfolio projects presentation",
-          "Resume for ML roles",
-          "LinkedIn for ML professionals",
           "GitHub for ML engineers",
           "Networking in AI community",
           "Conferences and meetups",
           "Building personal brand",
           "Salary negotiation for ML roles",
-          "Career paths in AI/ML"
+          "Career paths in AI/ML",
+          "Walking through your own capstone the way interviews actually probe it"
         ],
         "projects": [
           "ML interview preparation guide",
@@ -1371,295 +764,72 @@
           "System design case studies"
         ],
         "practice": "Daily LeetCode, ML questions, system design"
-      }
-    },
-    "month_23": {
-      "title": "PHASE 4 COMPLETION - Final Projects",
-      "weeks": "Week 40-52 (distributed)",
-      "week_97": {
-        "title": "Kaggle & Competitions",
+      },
+      "week_48": {
+        "title": "Demo Day and the Final Exam",
         "topics": [
-          "Kaggle platform mastery",
-          "Competition strategy",
-          "Exploratory data analysis for competitions",
-          "Ensemble methods for Kaggle",
-          "Cross-validation strategies",
-          "Leaderboard probing techniques",
-          "Feature engineering for competitions",
-          "Model stacking and blending",
-          "Time management in competitions",
-          "Learning from Kaggle kernels",
-          "Kaggle datasets exploration",
-          "Achieving Kaggle ranks"
+          "Presenting the capstone: live system plus the hardest failure story",
+          "A full-course spiral review before the exam",
+          "The honest map of next roads: reinforcement learning, ML infrastructure, research",
+          "Where our agents and Codex/Claude Code courses continue the modern layer"
         ],
         "projects": [
-          "Participate in 5 Kaggle competitions",
-          "Achieve Expert rank goal",
-          "Win a Kaggle medal",
-          "Kernel/notebook publication",
-          "Dataset contribution",
-          "Competition writeup"
+          "Demo day presentation delivered to the batch"
         ],
-        "practice": "Active Kaggle participation"
-      },
-      "week_98": {
-        "title": "Open Source Contribution in AI/ML",
-        "topics": [
-          "Finding AI/ML open source projects",
-          "Contributing to TensorFlow/PyTorch",
-          "Scikit-learn contributions",
-          "Hugging Face ecosystem",
-          "Documentation improvements",
-          "Bug fixes and features",
-          "Creating ML libraries",
-          "Packaging and PyPI publishing",
-          "Open source best practices",
-          "Community engagement",
-          "Code reviews in open source",
-          "Building reputation"
-        ],
-        "projects": [
-          "Contribute to 5 ML open source projects",
-          "Create own ML library",
-          "Publish package to PyPI",
-          "Documentation contributions",
-          "Tutorial creation",
-          "Community support"
-        ],
-        "practice": "Regular open source contributions"
-      },
-      "week_99": {
-        "title": "Technical Writing & Teaching",
-        "topics": [
-          "Technical blog writing",
-          "Explaining complex ML concepts",
-          "Tutorial creation",
-          "Video content for ML",
-          "Medium and Dev.to platforms",
-          "Creating ML courses",
-          "Conference speaking",
-          "Workshop facilitation",
-          "Mentoring junior ML engineers",
-          "Building audience",
-          "Thought leadership in AI",
-          "Content monetization"
-        ],
-        "projects": [
-          "Write 10 technical blog posts",
-          "Create video tutorial series",
-          "Develop mini-course",
-          "Conference talk proposal",
-          "Workshop material creation",
-          "Mentorship program participation"
-        ],
-        "practice": "Weekly content creation"
-      },
-      "week_100": {
-        "title": "Continuous Learning & Specialization",
-        "topics": [
-          "Staying updated with AI research",
-          "Following AI researchers on Twitter",
-          "Reading papers regularly",
-          "Choosing specialization path",
-          "Deep learning specialization vs breadth",
-          "PhD vs industry career",
-          "Research scientist vs ML engineer",
-          "Continuous skill development",
-          "Learning roadmap creation",
-          "Community involvement",
-          "Networking with experts",
-          "Long-term career planning"
-        ],
-        "projects": [
-          "Personal learning roadmap",
-          "Specialization area selection",
-          "Research proposal (if academic path)",
-          "Industry project plan",
-          "5-year career plan",
-          "Skill gap analysis"
-        ],
-        "practice": "Develop lifelong learning habit"
-      }
-    },
-    "month_24": {
-      "title": "Final Month - Capstone & Career Launch",
-      "weeks": "Week 49-52",
-      "week_101_102": {
-        "title": "Final Capstone Project - Part 1",
-        "topics": [
-          "Complex AI system design",
-          "Problem identification",
-          "Literature review",
-          "Data collection strategy",
-          "Architecture design",
-          "Technology stack selection",
-          "Development planning",
-          "Research component",
-          "Innovation and novelty"
-        ],
-        "projects": [
-          "FINAL CAPSTONE: Production-Grade AI System",
-          "Option 1: End-to-End ML Platform (AutoML, model serving, monitoring)",
-          "Option 2: Advanced NLP System (chatbot, QA, summarization with LLMs)",
-          "Option 3: Computer Vision Application (detection, segmentation, deployed)",
-          "Option 4: Generative AI Platform (text/image generation, fine-tuned models)",
-          "Option 5: Reinforcement Learning System (game AI, robotics, optimization)",
-          "Option 6: Multi-modal AI Application (vision + language)",
-          "Requirements: Research-backed, production-deployed, MLOps, monitored, documented, novel approach"
-        ]
-      },
-      "week_103": {
-        "title": "Final Capstone Project - Part 2",
-        "topics": [
-          "Implementation completion",
-          "Comprehensive testing",
-          "MLOps pipeline setup",
-          "Cloud deployment",
-          "Monitoring and logging",
-          "Documentation writing",
-          "Research paper writing",
-          "Performance benchmarking",
-          "Demo preparation",
-          "Presentation skills"
-        ],
-        "deliverables": [
-          "Complete source code (GitHub)",
-          "Deployed production system",
-          "MLOps pipeline (training, serving, monitoring)",
-          "Comprehensive documentation",
-          "Research paper or technical report",
-          "Demo video",
-          "Presentation deck",
-          "Model cards and datasheets",
-          "Benchmarking results",
-          "User guide"
-        ]
-      },
-      "week_104": {
-        "title": "Career Launch & AI/ML Professional",
-        "topics": [
-          "AI/ML portfolio showcase",
-          "Resume optimization",
-          "LinkedIn for ML roles",
-          "GitHub profile excellence",
-          "Personal website/blog",
-          "Networking strategies",
-          "Job search in AI/ML",
-          "Applying to top companies",
-          "Interview process navigation",
-          "Offer negotiation",
-          "Career decision making",
-          "Continuous growth mindset"
-        ],
-        "deliverables": [
-          "Professional portfolio with 50+ projects",
-          "Optimized ML engineer resume",
-          "LinkedIn with certifications and projects",
-          "Active GitHub with contributions",
-          "Technical blog with followers",
-          "Research publication (optional)",
-          "Kaggle profile (medals)",
-          "Network of AI professionals",
-          "Job offers or interviews lined up",
-          "Clear career trajectory"
-        ],
-        "assessment": "FINAL COMPREHENSIVE EXAM - AI/ML mastery evaluation covering all 12 months"
+        "assessment": "FINAL EXAM: a practical modeling task plus a written paper with questions mixed from every phase. Passing earns the certificate; falling short earns a focused revision plan and a free retest"
       }
     }
   },
   "additional_learning_resources": {
     "projects_throughout_course": [
-      "Phase 1 (Months 1-3): 25+ foundational projects - math implementations, data analysis, visualizations",
-      "Phase 2 (Months 4-6): 30+ ML projects - classical algorithms, Kaggle, complete pipelines",
-      "Phase 3 (Months 7-9): 35+ DL projects - computer vision, NLP, GANs, RL, audio, graphs",
-      "Phase 4 (Months 10-12): 20+ production projects - MLOps, deployed systems, research implementations",
-      "Total: 100+ projects from basics to cutting-edge AI"
+      "Phase 1: mathematics problem sets that survive marking, and full EDAs with defended statistical claims",
+      "Phase 2: classical ML projects with feature craft, ensembles and rigorous evaluation",
+      "Phase 3: PyTorch builds, a transfer-learning vision project and an NLP project through transformers",
+      "Phase 4: a retrieval-augmented assistant with an evaluation harness, a deployed model, and the defended capstone"
     ],
-    "total_projects_built": "100+ AI/ML projects covering all domains and difficulty levels",
+    "total_projects_built": "25+ trained and evaluated builds, crowned by a deployed, defended capstone",
     "skills_mastered": [
-      "Mathematics: Linear Algebra, Calculus, Probability, Statistics, Optimization",
-      "Programming: Python (expert level), NumPy, Pandas, Matplotlib, Scikit-learn",
-      "Classical ML: Regression, Classification, Clustering, Dimensionality Reduction, Ensemble Methods",
-      "Deep Learning: Neural Networks, CNN, RNN, LSTM, Transformers, Attention Mechanisms",
-      "Computer Vision: Image Classification, Object Detection, Segmentation, GANs, Style Transfer",
-      "NLP: Text Processing, Embeddings, BERT, GPT, Transformers, Hugging Face",
-      "Specialized: Reinforcement Learning, GANs, VAEs, Graph Neural Networks, Audio Processing",
-      "Frameworks: TensorFlow, Keras, PyTorch, PyTorch Lightning, Hugging Face Transformers",
-      "MLOps: MLflow, DVC, Kubeflow, Docker, Kubernetes, Cloud Platforms (AWS, GCP, Azure)",
-      "Production: Model Serving, Monitoring, A/B Testing, CI/CD for ML, Scalable Inference",
-      "Tools: Jupyter, Git, Weights & Biases, TensorBoard, Colab, Kaggle",
-      "Soft Skills: Research Paper Reading, Technical Writing, Problem-Solving, System Design"
+      "The mathematics: linear algebra, calculus intuition, probability and statistics, actually used",
+      "Classical ML: scikit-learn end to end with feature engineering and honest evaluation",
+      "Deep learning: PyTorch fluency, CNNs, transfer learning and NLP through transformers",
+      "Generative AI: LLM engineering, retrieval, fine-tuning judgment and output evaluation",
+      "Shipping: serving, experiment tracking, monitoring and model cards",
+      "Judgment: error analysis, ethics and the interview-grade ability to defend every choice"
     ],
     "weekly_structure": {
-      "theory_videos": "5-7 hours",
-      "hands_on_coding": "10-12 hours",
-      "projects": "4-6 hours",
-      "reading_research": "2-3 hours",
-      "practice_problems": "2-3 hours",
-      "total_per_week": "20-25 hours"
-    },
-    "support_provided": {
-      "live_sessions": "Weekly live coding and doubt clearing with AI experts",
-      "mentorship": "1-on-1 mentorship from ML engineers and researchers",
-      "code_review": "Expert code reviews for all major projects",
-      "research_guidance": "Help with paper reading and implementation",
-      "career_support": "Resume review, mock interviews, referrals to AI companies",
-      "kaggle_guidance": "Competition strategies and team formation",
-      "gpu_credits": "Cloud GPU credits for training models",
-      "dataset_access": "Curated datasets for all projects"
+      "live_classes": "2 live one-hour classes per week, worked problems and real notebooks",
+      "homework": "A problem set after every class, and a mixed-review assignment at the end of every month",
+      "practice": "5-6 hours of model-building practice between classes",
+      "review": "Every set reviewed with written feedback; recurring gaps reopened in class"
     },
     "certification": {
-      "phase_certificates": "Certificate after each phase (4 certificates)",
-      "final_certificate": "AI/ML Engineer Professional Certification",
-      "specialization_certificates": "Computer Vision, NLP, or RL specialization certificate",
-      "research_certificate": "Research Paper Implementation Certificate",
-      "mlops_certificate": "MLOps Professional Certificate",
-      "linkedin_badges": "Digital badges for all certifications",
-      "industry_recognized": "Recognized by FAANG and AI startups",
-      "portfolio_projects": "50+ documented projects",
-      "kaggle_ranking": "Support to achieve Expert/Master rank",
-      "publication_support": "Help with research paper submission (optional)"
+      "completion": "Certificate from Modern Age Coders, awarded on passing the final exam. Fall short and there is focused revision and a free retest: the certificate certifies knowledge, not attendance"
+    },
+    "support_provided": {
+      "doubt_support": "WhatsApp doubt support between classes, for the loss curve that refuses to descend",
+      "progress_updates": "Honest monthly progress reviews: what is solid, what is wobbly, and the plan for the wobble"
     }
   },
   "prerequisites": {
-    "education": "No formal degree required, but basic high school math helpful",
-    "coding_experience": "Beginner-friendly, but some programming knowledge beneficial",
-    "mathematics": "Basic algebra (will be taught from scratch)",
-    "age": "16+ years recommended (due to mathematical complexity)",
-    "equipment": "Computer with good specs (8GB+ RAM), GPU recommended but not required",
-    "time_commitment": "20-25 hours per week consistently",
-    "english": "Good reading comprehension (research papers)",
-    "motivation": "Strong passion for AI and willingness to learn continuously",
-    "learning_style": "Self-motivated, enjoys problem-solving and mathematics"
+    "coding_experience": "None required; Python is built within phase 1",
+    "maths_background": "School mathematics; the course rebuilds everything it needs from there",
+    "equipment": "A normal laptop with a stable internet connection; free cloud GPUs carry the heavy training",
+    "age": "18+; college students, graduates and working professionals",
+    "time_commitment": "2 live classes plus 5-6 hours of practice a week"
   },
   "who_is_this_for": {
-    "beginners": "Those with no AI/ML background wanting comprehensive foundation",
-    "developers": "Software engineers transitioning to AI/ML engineering",
-    "data_analysts": "Analysts wanting to become data scientists/ML engineers",
-    "students": "Computer science or engineering students preparing for AI careers",
-    "researchers": "Those aspiring to become research scientists",
-    "professionals": "Working professionals upskilling to AI/ML roles",
-    "entrepreneurs": "Founders wanting to build AI products",
-    "phd_aspirants": "Those preparing for ML/AI PhD programs",
-    "career_switchers": "Anyone from any field wanting to enter AI",
-    "advanced_learners": "Those wanting structured learning of end-to-end AI/ML"
+    "career_switchers": "Professionals moving toward ML roles who want the real foundation, mathematics included",
+    "college_students": "Students who want depth their electives gesture at, plus a deployed portfolio",
+    "developers": "Software engineers adding the ML and GenAI layer properly",
+    "analysts": "Data analysts stepping up from dashboards to models",
+    "serious_beginners": "Anyone ready to trade twelve honest months for a real capability"
   },
   "career_paths_after_completion": [
-    "Machine Learning Engineer",
-    "Data Scientist",
-    "AI Engineer",
-    "Deep Learning Engineer",
-    "Computer Vision Engineer",
-    "NLP Engineer",
-    "Research Scientist / Research Engineer",
-    "MLOps Engineer",
-    "AI Product Manager (with business skills)",
-    "AI Consultant",
-    "Kaggle Competitor / Grandmaster (with continued effort)",
-    "AI Startup Founder / CTO",
-    "PhD in Machine Learning (with research focus)",
-    "AI Researcher at Labs (Google AI, Meta AI, OpenAI, etc.)",
-    "Applied Scientist at Tech Companies"
+    "ML and data science roles: this is the portfolio and fluency those interviews test",
+    "GenAI engineering: the LLM and retrieval work here is the fastest-growing demand",
+    "Our AI agents courses: Copilot Studio and Codex/Claude Code continue the applied layer",
+    "The honest frontier roads: reinforcement learning, ML infrastructure and research, entered from a real base",
+    "Domain application: the strongest ML careers pair this skill with a field you already know"
   ],
   "salary_expectations": {
     "market_context": "The ranges below are general market salary bands for these roles in India and abroad, drawn from public industry data. They are shown for career context only and are not a promise or guarantee of income. Actual pay depends on your skills, experience, location, and the job market.",
@@ -1671,35 +841,52 @@
   "course_guarantees": {
     "live_classes": "Live, interactive classes with a real instructor, never pre-recorded videos.",
     "small_batches": "Small batches only: group classes are capped at 10 students, with mini-batch (3 to 4 students) and personal 1-on-1 options.",
-    "structured_curriculum": "A structured, well-paced curriculum taught step by step, with hands-on practice in every session.",
+    "structured_curriculum": "A structured, well-paced curriculum taught step by step, with classwork in every session and problem sets after every class.",
+    "real_assessment": "Monthly mixed reviews and a final exam that decides the certificate: real models, really evaluated.",
     "doubt_support": "Doubt support between classes over WhatsApp, so you are never left stuck.",
-    "certificate": "A course-completion certificate you can share.",
+    "certificate": "A certificate you earn by passing the final exam, with a free retest after revision if needed.",
     "free_demo": "A free demo class before you enrol, so you can decide with no pressure."
   },
   "faqs": [
     {
-      "question": "What is the difference between this AI/ML Masterclass and the Artificial Intelligence Masterclass?",
-      "answer": "This Complete AI & ML Masterclass focuses on practical machine learning engineering: building ML pipelines, training models with TensorFlow and PyTorch, deploying to production, and working on Kaggle problems. The AI Masterclass is more theoretical, covering classical AI, symbolic reasoning, and AGI concepts. Choose this course if you want hands-on ML engineering skills for industry work."
+      "question": "What does this AI and ML masterclass actually cover?",
+      "answer": "The full honest arc: the mathematics (linear algebra, calculus, probability, statistics) built alongside Python; classical machine learning with scikit-learn and evaluation as a discipline; deep learning in PyTorch through CNNs, computer vision and NLP to transformers; and the modern layer, LLM engineering with retrieval and fine-tuning judgment, deployment with experiment tracking and monitoring, responsible AI, and a capstone that is trained, evaluated, deployed and defended."
     },
     {
-      "question": "What machine learning libraries and frameworks will I master?",
-      "answer": "You'll master NumPy, Pandas, Matplotlib, Seaborn, Scikit-learn, TensorFlow 2.x, Keras, PyTorch, OpenCV, NLTK, spaCy, Hugging Face Transformers, LangChain, MLflow, and cloud ML services (AWS SageMaker, GCP AI Platform, Azure ML). The course covers the complete modern ML engineering stack."
+      "question": "How long does it take to learn AI and machine learning properly?",
+      "answer": "Twelve months at 2 live classes a week plus 5 to 6 hours of practice, starting from zero, and that is the honest floor when the mathematics is built rather than skipped. The course keeps two more months in hand for learners who need them. Bootcamps compress this by dropping exactly the parts, maths and evaluation, that interviews and real work then expose."
     },
     {
-      "question": "Can I get a job as an ML Engineer after this course?",
-      "answer": "This course is built to make you job-ready as an ML engineer. You build 50+ practical projects, work on Kaggle-style problems, and prepare thoroughly for ML engineering interviews with mock interviews and portfolio review. We prepare you well, but we do not make placement guarantees. As general market context, ML and data roles in India commonly range from about ₹12-40 LPA depending on experience, with higher ranges abroad and at large product companies."
+      "question": "How am I assessed? Is the certificate just for attending?",
+      "answer": "No. Problem sets follow every class with written feedback, monthly reviews deliberately mix new material with earlier topics, each phase ends with an exam, and the course ends with a final exam: a practical modeling task plus written questions from the entire syllabus. Passing earns the certificate; falling short earns focused revision and a free retest. In this field, honest assessment is the product."
     },
     {
-      "question": "What types of projects will I build in this AI/ML course?",
-      "answer": "You'll build image classifiers, object detection systems, NLP chatbots, recommendation engines, time series forecasters, fraud detection systems, sentiment analyzers, generative AI applications, and computer vision solutions. All projects use real datasets and are deployment-ready with APIs."
+      "question": "How much mathematics do I need before joining?",
+      "answer": "School mathematics. Phase 1 rebuilds linear algebra, calculus intuition, probability and statistics from there, in code and pictures alongside symbols, because every later phase stands on them. Learners who skipped maths for years consistently manage; the course assumes rust, not fluency."
     },
     {
-      "question": "What are the prerequisites for this AI/ML masterclass?",
-      "answer": "You need basic Python programming knowledge, understanding of high school mathematics (algebra, basic statistics), and comfortable working with a computer. The course covers all required mathematics (linear algebra, calculus, probability) and advanced Python from scratch."
+      "question": "Does the course cover generative AI and LLMs seriously?",
+      "answer": "Yes, as engineering rather than magic: how transformers and diffusion actually work, prompting with evaluation harnesses, retrieval-augmented generation over real documents, fine-tuning judgment (what it changes, costs, and when it is wrong), structured output and function calling, and the cost-latency-quality triangle. The month ends with a retrieval assistant you built and scored honestly."
     },
     {
-      "question": "How does this course prepare me for Kaggle competitions?",
-      "answer": "Dedicated modules cover Kaggle competition strategies, feature engineering, model ensembling, cross-validation techniques, and achieving Expert/Master rankings. Students compete in 5+ real Kaggle competitions during the course with mentorship on leaderboard optimization."
+      "question": "Will I be able to deploy models, or just train them in notebooks?",
+      "answer": "Deploy. The final phase covers serving a model behind an API, experiment tracking, monitoring and drift, and the capstone is required to ship that way with a model card. Full-scale ML infrastructure is its own profession and is mapped honestly as a next road; what you leave with is the working end of it."
+    },
+    {
+      "question": "Do I need an expensive GPU machine?",
+      "answer": "No. A normal laptop is enough: heavy training runs on free cloud notebooks with GPU time, and the toolchain, Python, scikit-learn, PyTorch, tracking tools, is free throughout. Where a hosted LLM API is used, free tiers cover the coursework."
+    },
+    {
+      "question": "What are the fees?",
+      "answer": "Group classes are ₹1,499 per month, with 2 live classes a week in batches capped at 10 learners. A mini batch of 3-4 learners is ₹2,999 per month, and personal 1-on-1 classes are ₹4,999 per month. International learners pay a price set for their own country, shown on this page in their local currency."
+    },
+    {
+      "question": "Can I try a class before enrolling?",
+      "answer": "Yes, a free demo class with no commitment: book at learn.modernagecoders.com/contact or message us on WhatsApp at +91 91233 66161. You will train a small model inside the demo itself."
+    },
+    {
+      "question": "Are classes live or recorded?",
+      "answer": "Live, always: small groups with a real instructor reading your actual notebooks, never pre-recorded videos. ML fails silently, leaked data, misread metrics, and live eyes on your work is the only honest way to catch it early."
     }
   ]
 }
