@@ -404,6 +404,7 @@ USD 100 a month small group, USD 150 a month one to one.
 - Adam, Ad Dakhiliyah, Oman: https://learn.modernagecoders.com/coding-classes-in-adam
 - Nakhal, Al Batinah South, Oman: https://learn.modernagecoders.com/coding-classes-in-nakhal
 - Al Hamra, Ad Dakhiliyah, Oman: https://learn.modernagecoders.com/coding-classes-in-al-hamra
+- Dima Wa Attayeen, Ash Sharqiyah North, Oman: https://learn.modernagecoders.com/coding-classes-in-dima-wa-attayeen
 ## International Country Pages
 
 - United States: https://learn.modernagecoders.com/coding-classes-in-united-states

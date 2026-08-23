@@ -3217,5 +3217,42 @@
       "A population for the wilayat. No census table could be traced in this session, so none appears and the page argues from terrain instead.",
       "A precise age for the falaj. The published claim is more than 2,000 years, which is a lower bound, and the page keeps it as one rather than converting it to a date."
     ]
+  },
+  "coding-classes-in-dima-wa-attayeen": {
+    "market": "Dima Wa Attayeen, Ash Sharqiyah North",
+    "bodyClass": "cg-dwa",
+    "curriculumAuthority": "Oman Ministry of Education, General Education Diploma. The page argues from settlement pattern rather than curriculum: a population spread along wadis in dozens of small villages has no convenient common meeting point, so teaching that travels to the learner is what reaches the whole wilayat.",
+    "localProject": "An empty cell is not a zero. Across the wilayat's some 51 villages, 40 report water sources totalling 140, 6 are surveyed and genuinely dry, and 5 are never reached. The mean per village is 2.75, 3.04 or 3.50 depending on the denominator, a 27 per cent swing; the count of villages with no active source is 6 or 11 depending purely on whether blanks are read as zeros. Assigned to this page and no other.",
+    "requiredMentions": [
+      "Wadi Dayqah",
+      "Arabian Tahr",
+      "major wadis",
+      "abundantly blessed with water",
+      "mountainous landscape",
+      "Dima Wa Attayeen",
+      "fringes of the wilayat",
+      "most abundant in water",
+      "some 51 villages"
+    ],
+    "sources": [
+      {
+        "claim": "Wilayat Dima W'attayeen is a wilayat of the North Sharqiyah Governorate, per the governorate's own official site.",
+        "url": "https://nsg.gov.om/statedetails/Wilayat%20Dima%20W%E2%80%99attayeen/DimaAttayeenLocation"
+      },
+      {
+        "claim": "Dima W'attayeen borders Qurayat to the north, Ibra to the south, Al Qabil and Bidiya to the east and Al Mudhaibi and Bidbid to the west; it is mountainous and abundantly blessed with water, and the large majority of its residents live in some 51 villages which mainly dot the fringes of the wilayat's major wadis.",
+        "url": "https://www.omanobserver.om/article/7130/Oman/wilayat-of-dima-wattayeen-most-abundant-in-water"
+      },
+      {
+        "claim": "Arabian Tahr have been sighted in the Wilayat of Dima W'attayeen.",
+        "url": "https://www.omanobserver.om/article/1142661/oman/more-arabian-tahr-sighted-in-wilayat-of-dima-wattayeen"
+      }
+    ],
+    "rejectedClaims": [
+      "Per-village water source counts. No published survey exists, so every figure in the project is a teaching value and is labelled as such in the project steps, the pitfalls note and the FAQ.",
+      "The village count stated without its hedge. The source says some 51 villages and the word some is kept on every appearance.",
+      "A population for the wilayat. No census table could be traced in this session, so none appears and the page argues from the settlement pattern instead.",
+      "Two of the three sources here come from the same publisher. That is stated rather than presented as three independent confirmations; the governorate site is the independent one."
+    ]
   }
 }
