@@ -2,62 +2,58 @@
   "meta": {
     "slug": "data-science-complete-masterclass-college",
     "date": "2025-10-24",
-    "title": "Data Science Course: Zero to Job-Ready Data Scientist",
-    "description": "Live online data science course: master Python, machine learning, deep learning, statistics and big data, then build and deploy real, job-ready ML models.",
+    "dateModified": "2026-08-23",
+    "title": "Data Science Course: Python, ML & Deep Learning",
+    "description": "Data science course for college students and professionals: Python, statistics and SQL, machine learning done honestly, then deep learning and NLP, ending in a deployed capstone, in 10-12 months.",
     "keywords": [
-      "data science",
-      "machine learning",
-      "deep learning",
-      "python for data science",
-      "scikit-learn",
-      "tensorflow",
-      "pytorch",
-      "statistical modeling",
-      "predictive analytics",
-      "feature engineering",
-      "model deployment",
-      "mlops",
-      "big data",
-      "data scientist",
-      "kaggle"
+      "data science course online",
+      "data science course for college students",
+      "data science with python course",
+      "machine learning course for beginners",
+      "deep learning course online",
+      "data science course india",
+      "learn data science from zero",
+      "data science course with projects",
+      "sql for data science course",
+      "data scientist course online",
+      "best data science course",
+      "data science course for placements"
     ],
-    "category": "Data Science & Machine Learning",
+    "category": "Data Science",
     "taxonomy": "ai-ml",
     "price": {
       "group": "₹1,499/month",
       "personal": "₹4,999/month"
     },
-    "duration": "12 months (52 weeks)",
-    "level": "Complete Beginner to Professional Data Scientist",
-    "commitment": "20-25 hours/week recommended",
-    "certification": "Certified Data Scientist upon completion",
+    "duration": "10-12 months (44-52 weeks)",
+    "level": "Complete beginner (18+); college students, graduates and working professionals",
+    "commitment": "2 live classes/week + 4-6 hours practice",
+    "certification": "Certificate from Modern Age Coders, awarded on passing the final exam",
     "image_path": "data-science-college.webp"
   },
   "program_overview": {
-    "title": "Complete Data Science Masterclass",
-    "tagline": "From Raw Data to Production ML Models",
-    "description": "This is not just a course, it's a complete transformation into a professional data scientist. In the age of AI and big data, data scientists are the most sought-after professionals. This 12-month masterclass takes you from absolute beginner to a job-ready data scientist, capable of extracting insights from data, building predictive models, deploying ML solutions, and solving complex business problems. You'll master the complete data science pipeline: data collection, cleaning, exploration, feature engineering, model building, evaluation, and deployment.",
+    "title": "Data Science Complete Masterclass",
+    "tagline": "The full pipeline, honestly taught: Python, statistics and SQL, machine learning that holds up, then deep learning, ending with a capstone you deploy.",
+    "description": "Data science hiring has grown sceptical: everyone lists the same libraries, so interviews now dig for the difference between importing scikit-learn and understanding what the model just did. This live online masterclass builds that difference in order: Python with NumPy and Pandas properly, statistics that survive contact with real data, SQL and EDA as daily craft, then machine learning done honestly, regression to ensembles with evaluation you can defend, real end-to-end projects and Kaggle practice, then the deep learning layer: neural networks, CNNs, RNNs and NLP, applied computer vision and a research-paper implementation to prove you can read the field. A finale month ships a deployed capstone and sits the final exam.\n\nThe pace is honest: ten teaching months at two live classes a week plus four to six hours of practice, with two more in hand. Problem sets, monthly mixed reviews, phase exams, and a final exam that decides the certificate with a free retest.",
     "what_makes_this_different": [
-      "Starts from absolute zero - no prerequisites required",
-      "Complete 12-month structured curriculum aligned with industry needs",
-      "Covers entire data science stack: Python, ML, DL, Statistics, Big Data",
-      "50+ real-world projects and 5 Kaggle competitions",
-      "Focus on both theory and practical implementation",
-      "MLOps and production deployment included",
-      "Interview preparation for FAANG and top companies",
-      "Build a portfolio showcasing end-to-end ML projects"
+      "Statistics before models: evaluation and honesty are the actual job",
+      "End-to-end from mid-course: raw data to working model, not notebook fragments",
+      "Kaggle as training ground, framed honestly: practice, not trophies",
+      "A research-paper implementation: proof you can read the field, not just tutorials",
+      "An honest 10-month arc with 2 months in hand",
+      "Real assessment: weekly problem sets, monthly mixed reviews, phase exams and a final exam with a free retest"
     ],
     "learning_path": {
-      "phase_1": "Foundation (Months 1-3): Python, Statistics, Data Analysis, SQL",
-      "phase_2": "Machine Learning (Months 4-6): Algorithms, Feature Engineering, Model Evaluation",
-      "phase_3": "Deep Learning (Months 7-9): Neural Networks, Computer Vision, NLP",
-      "phase_4": "Production & Specialization (Months 10-12): MLOps, Big Data, Career Launch"
+      "phase_1": "Foundations (Months 1-3): Python, NumPy, Pandas, statistics, SQL and EDA",
+      "phase_2": "Machine learning (Months 4-6): supervised to unsupervised, real projects, honest evaluation",
+      "phase_3": "Deep learning (Months 7-9): neural networks, CNNs, RNNs, NLP and applied vision",
+      "phase_4": "The finale (Month 10): a deployed capstone and the final exam"
     },
     "career_outcomes": [
-      "Junior Data Scientist (after 3 months)",
-      "Data Scientist (after 6 months)",
-      "Senior Data Scientist (after 9 months)",
-      "ML Engineer / Lead Data Scientist (after 12 months)"
+      "The full-pipeline capability data teams screen for",
+      "Evaluation depth: the difference interviews actually probe",
+      "A deployed capstone plus a paper implementation in the portfolio",
+      "Honest next roads: data science roles, ML engineering, or analytics leadership"
     ]
   },
   "phase_1_foundation": {
@@ -65,7 +61,7 @@
     "description": "Build rock-solid foundations in Python programming, statistics, data analysis, and SQL that form the backbone of data science.",
     "month_1_2": {
       "title": "Months 1-2: Python & Statistical Foundations",
-      "weeks": "Week 1-8",
+      "weeks": "Weeks 1-8",
       "week_1_2": {
         "title": "Python Programming for Data Science",
         "topics": [
@@ -162,9 +158,9 @@
         "practice": "Perform statistical tests on 15 different scenarios"
       }
     },
-    "month_3_4": {
+    "month_3": {
       "title": "Month 3: Data Visualization & SQL",
-      "weeks": "Week 9-13",
+      "weeks": "Weeks 9-13",
       "week_9_10": {
         "title": "Data Visualization Mastery",
         "topics": [
@@ -235,17 +231,17 @@
           "Build reusable feature engineering pipeline",
           "Create automated EDA report generator"
         ],
-        "assessment": "Phase 1 comprehensive assessment"
+        "assessment": "Phase 1 exam: a practical build defended live, plus a written paper mixing this phase with everything before it"
       }
     }
   },
   "phase_2_frontend_mastery": {
     "title": "PHASE 2: Machine Learning Mastery (Months 4-6, Weeks 14-26)",
     "description": "Master classical machine learning algorithms, model evaluation, and participate in Kaggle competitions.",
-    "month_7_8": {
+    "month_4_5": {
       "title": "Months 4-5: Supervised Learning",
-      "weeks": "Week 14-22",
-      "week_27_28": {
+      "weeks": "Weeks 14-22",
+      "week_14_15": {
         "title": "Regression Algorithms",
         "topics": [
           "Machine learning workflow and pipeline",
@@ -269,7 +265,7 @@
         ],
         "practice": "Implement 5 regression algorithms from scratch"
       },
-      "week_29_30": {
+      "week_16_17": {
         "title": "Classification Algorithms",
         "topics": [
           "k-Nearest Neighbors (KNN)",
@@ -293,7 +289,7 @@
         ],
         "practice": "Build 10 classification models on different datasets"
       },
-      "week_31_32": {
+      "week_18_19": {
         "title": "Advanced Machine Learning Techniques",
         "topics": [
           "Hyperparameter tuning: Grid Search, Random Search, Bayesian Optimization",
@@ -317,7 +313,7 @@
         ],
         "practice": "Apply advanced techniques to improve previous models"
       },
-      "week_33_34": {
+      "week_20_21": {
         "title": "Unsupervised Learning",
         "topics": [
           "Clustering algorithms: K-Means, DBSCAN, Hierarchical",
@@ -341,7 +337,7 @@
         ],
         "practice": "Apply clustering to 5 different domains"
       },
-      "week_35": {
+      "week_22": {
         "title": "Kaggle Competition Participation",
         "topics": [
           "Understanding Kaggle competitions",
@@ -364,10 +360,10 @@
         "practice": "Complete 3 past Kaggle competitions"
       }
     },
-    "month_9_10": {
+    "month_6": {
       "title": "Month 6: Real-world ML Projects",
-      "weeks": "Week 23-26",
-      "week_36_37": {
+      "weeks": "Weeks 23-26",
+      "week_23": {
         "title": "End-to-End ML Project Development",
         "topics": [
           "Problem formulation and scoping",
@@ -391,7 +387,7 @@
         ],
         "practice": "Deploy 3 models to production"
       },
-      "week_38_39": {
+      "week_24": {
         "title": "Industry-Specific Applications",
         "topics": [
           "Healthcare: disease prediction, drug discovery",
@@ -412,7 +408,7 @@
         ],
         "practice": "Analyze datasets from 5 different industries"
       },
-      "week_40_41": {
+      "week_25": {
         "title": "ML Engineering Best Practices",
         "topics": [
           "Code organization for ML projects",
@@ -436,29 +432,7 @@
         ],
         "practice": "Refactor all projects with engineering best practices"
       },
-      "week_42_43": {
-        "title": "Advanced Kaggle Competition",
-        "topics": [
-          "Advanced competition strategies",
-          "Reading research papers for techniques",
-          "Implementing papers for competitions",
-          "Advanced ensembling: stacking, blending",
-          "Pseudo-labeling techniques",
-          "Data augmentation for tabular data",
-          "Feature engineering automation",
-          "Hyperparameter optimization at scale",
-          "GPU acceleration for tree models",
-          "Competition code organization"
-        ],
-        "projects": [
-          "Participate in intermediate Kaggle competition",
-          "Achieve top 30% ranking",
-          "Open-source competition solution",
-          "Write detailed solution approach"
-        ],
-        "practice": "Review winning solutions from 10 competitions"
-      },
-      "week_44": {
+      "week_26": {
         "title": "Phase 2 Capstone Project",
         "topics": [
           "Complex problem solving",
@@ -473,17 +447,17 @@
           "Include data pipeline, multiple models, API, monitoring",
           "Deploy to cloud with full MLOps pipeline"
         ],
-        "assessment": "Phase 2 comprehensive assessment"
+        "assessment": "Phase 2 exam: a practical build defended live, plus a written paper mixing this phase with everything before it"
       }
     }
   },
   "phase_3_backend_engineering": {
     "title": "PHASE 3: Deep Learning & Advanced AI (Months 7-9, Weeks 27-39)",
     "description": "Master deep learning, computer vision, NLP, and cutting-edge AI techniques.",
-    "month_13_14": {
+    "month_7_8": {
       "title": "Months 7-8: Deep Learning Fundamentals",
-      "weeks": "Week 27-35",
-      "week_53_54": {
+      "weeks": "Weeks 27-35",
+      "week_27_28": {
         "title": "Neural Network Fundamentals",
         "topics": [
           "Introduction to deep learning",
@@ -507,7 +481,7 @@
         ],
         "practice": "Implement 5 different neural network architectures"
       },
-      "week_55_56": {
+      "week_29_30": {
         "title": "Convolutional Neural Networks (CNNs)",
         "topics": [
           "CNN architecture and intuition",
@@ -531,7 +505,7 @@
         ],
         "practice": "Build 5 computer vision applications"
       },
-      "week_57_58": {
+      "week_31_32": {
         "title": "Recurrent Neural Networks (RNNs)",
         "topics": [
           "RNN architecture and applications",
@@ -555,7 +529,7 @@
         ],
         "practice": "Implement 5 sequence modeling tasks"
       },
-      "week_59_60": {
+      "week_33_34": {
         "title": "Natural Language Processing",
         "topics": [
           "Text preprocessing and tokenization",
@@ -579,7 +553,7 @@
         ],
         "practice": "Complete 5 NLP projects using transformers"
       },
-      "week_61": {
+      "week_35": {
         "title": "Advanced Deep Learning Topics",
         "topics": [
           "Autoencoders and variational autoencoders",
@@ -604,10 +578,10 @@
         "practice": "Experiment with 3 cutting-edge techniques"
       }
     },
-    "month_15_16": {
-      "title": "Month 9: Specialized Domains & Research",
-      "weeks": "Week 36-39",
-      "week_62_63": {
+    "month_9": {
+      "title": "Month 9: Applied Vision, NLP & Research Practice",
+      "weeks": "Weeks 36-39",
+      "week_36": {
         "title": "Computer Vision Projects",
         "topics": [
           "Medical image analysis",
@@ -631,7 +605,7 @@
         ],
         "practice": "Build portfolio of 5 vision projects"
       },
-      "week_64_65": {
+      "week_37": {
         "title": "Advanced NLP Applications",
         "topics": [
           "Large Language Models (LLMs)",
@@ -655,31 +629,7 @@
         ],
         "practice": "Build 5 LLM-powered applications"
       },
-      "week_66_67": {
-        "title": "Reinforcement Learning",
-        "topics": [
-          "RL fundamentals and Markov Decision Processes",
-          "Q-Learning and Deep Q-Networks",
-          "Policy gradient methods",
-          "Actor-Critic methods",
-          "Proximal Policy Optimization (PPO)",
-          "Game playing agents",
-          "Robotics applications",
-          "RL for recommendation systems",
-          "RL in finance",
-          "Multi-agent RL",
-          "Sim-to-real transfer",
-          "OpenAI Gym environments"
-        ],
-        "projects": [
-          "Game-playing AI agent",
-          "Trading bot with RL",
-          "Recommendation system with RL",
-          "Robot control simulation"
-        ],
-        "practice": "Train agents in 5 different environments"
-      },
-      "week_68_69": {
+      "week_38": {
         "title": "Research Paper Implementation",
         "topics": [
           "Reading and understanding research papers",
@@ -703,7 +653,7 @@
         ],
         "practice": "Read and summarize 20 research papers"
       },
-      "week_70": {
+      "week_39": {
         "title": "Phase 3 Capstone Project",
         "topics": [
           "Complex deep learning systems",
@@ -719,439 +669,116 @@
           "Deploy with full production pipeline",
           "Achieve competitive performance metrics"
         ],
-        "assessment": "Phase 3 comprehensive assessment"
+        "assessment": "Phase 3 exam: a practical build defended live, plus a written paper mixing this phase with everything before it"
       }
     }
   },
-  "phase_4_advanced_production": {
-    "title": "PHASE 4: MLOps, Big Data & Career Launch (Months 10-12, Weeks 40-52)",
-    "description": "Master production deployment, big data technologies, and prepare for data science careers.",
-    "month_19_20": {
-      "title": "Months 10-11: MLOps & Production Systems",
-      "weeks": "Week 40-48",
-      "week_79_80": {
-        "title": "MLOps Fundamentals",
+  "phase_4_finale": {
+    "title": "PHASE 4: The Finale (Month 10, Weeks 40-44)",
+    "description": "The capstone month: spec, build, ship and defend, then the final exam that decides the certificate.",
+    "month_10_finale": {
+      "title": "Month 10: Capstone and the Final Exam",
+      "weeks": "Weeks 40-44",
+      "week_40": {
+        "title": "Capstone Spec and Setup",
         "topics": [
-          "MLOps principles and practices",
-          "Model lifecycle management",
-          "Continuous training pipelines",
-          "Model versioning strategies",
-          "A/B testing for ML",
-          "Model monitoring and observability",
-          "Drift detection and handling",
-          "Feature stores at scale",
-          "Model serving architectures",
-          "Kubernetes for ML",
-          "Kubeflow and MLflow",
-          "Cost optimization in production"
+          "Choosing the capstone: an end-to-end data science project: raw data to a deployed model with an evaluation you can defend",
+          "A one-page spec: scope, milestones, stack",
+          "Repository and skeleton ready on day one",
+          "Instructor sign-off before the build begins"
         ],
         "projects": [
-          "Build complete MLOps pipeline",
-          "Implement model monitoring system",
-          "Set up continuous training",
-          "Deploy models on Kubernetes"
+          "Approved capstone spec plus the running skeleton"
         ],
-        "practice": "Deploy 5 models with full MLOps"
+        "practice": "Pitch the spec to the batch and absorb one hard question"
       },
-      "week_81_82": {
-        "title": "Big Data Technologies",
+      "week_41_42": {
+        "title": "Capstone Build",
         "topics": [
-          "Big data ecosystem overview",
-          "Apache Spark fundamentals",
-          "PySpark for data science",
-          "Spark MLlib for machine learning",
-          "Distributed computing concepts",
-          "Hadoop and HDFS",
-          "Apache Kafka for streaming",
-          "Real-time ML with streaming data",
-          "Data lakes and data warehouses",
-          "Apache Airflow for orchestration",
-          "Databricks platform",
-          "Cloud big data services"
+          "Two focused weeks in vertical slices",
+          "Instructor checkpoints and honest scope cuts",
+          "Using the whole course: the statistics spine, ML judgment, deep learning where it earns its place, and honest evaluation",
+          "Daily commits and an always-working build"
         ],
         "projects": [
-          "Build Spark ML pipeline",
-          "Real-time prediction system",
-          "Data lake architecture design",
-          "Streaming analytics dashboard"
+          "The capstone, feature-complete with version control"
         ],
-        "practice": "Process 5 big data datasets"
+        "practice": "A working build at the end of every session"
       },
-      "week_83_84": {
-        "title": "Cloud Platforms for Data Science",
+      "week_43": {
+        "title": "Ship and Polish",
         "topics": [
-          "AWS for data science: SageMaker, EMR, Glue",
-          "Google Cloud Platform: Vertex AI, BigQuery, Dataflow",
-          "Azure ML and Azure Databricks",
-          "Serverless ML deployments",
-          "Auto-scaling ML services",
-          "Cloud cost optimization",
-          "Multi-cloud strategies",
-          "Edge computing for ML",
-          "Hybrid cloud architectures",
-          "Security and compliance",
-          "Infrastructure as Code",
-          "Disaster recovery planning"
+          "The finishing pass: edge cases, errors, documentation",
+          "Deployed and documented: the model serving predictions outside the notebook",
+          "A README worth reading and a demo worth watching",
+          "A full-course spiral review before the exam"
         ],
         "projects": [
-          "Deploy models on 3 cloud platforms",
-          "Build serverless ML pipeline",
-          "Implement auto-scaling solution",
-          "Create disaster recovery plan"
+          "The capstone shipped, documented and rehearsed"
         ],
-        "practice": "Master one cloud platform deeply"
+        "practice": "Two mock demos, each tighter than the last"
       },
-      "week_85_86": {
-        "title": "Advanced Data Engineering",
+      "week_44": {
+        "title": "Demo Day and the Final Exam",
         "topics": [
-          "Data architecture patterns",
-          "ETL vs ELT pipelines",
-          "Data quality and validation",
-          "Schema evolution and management",
-          "CDC (Change Data Capture)",
-          "Data mesh architecture",
-          "Event-driven architectures",
-          "Apache Beam for unified processing",
-          "dbt for data transformation",
-          "Data observability tools",
-          "DataOps practices",
-          "Building data products"
+          "Presenting the capstone: live demo plus the hardest bug story",
+          "The honest map of next roads: data science roles, ML engineering depth, or the analytics leadership track",
+          "Where our other courses continue the journey"
         ],
         "projects": [
-          "Design data architecture for startup",
-          "Build ETL pipeline with Airflow",
-          "Implement data quality framework",
-          "Create data product"
+          "Demo day presentation delivered to the batch"
         ],
-        "practice": "Build 5 different data pipelines"
-      },
-      "week_87": {
-        "title": "Business & Soft Skills",
-        "topics": [
-          "Communicating with stakeholders",
-          "Translating business problems to ML",
-          "Project management for data science",
-          "Agile and Scrum for DS teams",
-          "Technical documentation",
-          "Presenting to executives",
-          "Building data culture",
-          "Ethics in data science",
-          "Privacy and GDPR compliance",
-          "Team collaboration tools",
-          "Mentoring and leadership",
-          "Consulting skills"
-        ],
-        "projects": [
-          "Create executive presentation",
-          "Write technical documentation",
-          "Build project proposal",
-          "Develop data strategy document"
-        ],
-        "practice": "Present 5 projects to different audiences"
-      }
-    },
-    "month_21_22": {
-      "title": "Month 12: Specialization & Career Launch",
-      "weeks": "Week 49-52",
-      "week_88_89": {
-        "title": "Choose Your Specialization",
-        "topics": [
-          "Healthcare AI: medical imaging, drug discovery, genomics",
-          "Financial ML: risk modeling, fraud detection, trading",
-          "Retail analytics: recommendation, pricing, inventory",
-          "Computer Vision specialist: autonomous vehicles, robotics",
-          "NLP specialist: conversational AI, document intelligence",
-          "MLOps engineer: platform building, automation",
-          "Research scientist: cutting-edge algorithms",
-          "Choosing your path based on interests",
-          "Building specialized portfolio",
-          "Domain expertise development",
-          "Networking in your chosen field",
-          "Continuous learning strategies"
-        ],
-        "projects": [
-          "Deep specialization project in chosen domain",
-          "Build 3 projects in specialization area",
-          "Create specialized portfolio website"
-        ],
-        "practice": "Complete specialized certification or course"
-      },
-      "week_90_91": {
-        "title": "Portfolio & Personal Branding",
-        "topics": [
-          "Building impressive GitHub profile",
-          "Creating portfolio website",
-          "Writing technical blog posts",
-          "Contributing to open source",
-          "Building Kaggle profile",
-          "LinkedIn optimization",
-          "Personal branding strategies",
-          "Public speaking and conferences",
-          "Building online presence",
-          "Networking strategies",
-          "Mentorship and coaching",
-          "Content creation"
-        ],
-        "projects": [
-          "Launch portfolio website",
-          "Write 5 technical blog posts",
-          "Contribute to 3 open source projects",
-          "Create video tutorials"
-        ],
-        "practice": "Build complete online presence"
-      },
-      "week_92_93": {
-        "title": "Interview Preparation",
-        "topics": [
-          "Data science interview process",
-          "Technical interview preparation",
-          "Coding challenges for DS",
-          "ML system design interviews",
-          "Case study interviews",
-          "Behavioral interview questions",
-          "STAR method for responses",
-          "Salary negotiation",
-          "Company research strategies",
-          "Take-home assignments",
-          "Presentation skills",
-          "Mock interview practice"
-        ],
-        "projects": [
-          "Complete 50 LeetCode problems",
-          "Design 5 ML systems",
-          "Prepare behavioral stories",
-          "Record mock interviews"
-        ],
-        "practice": "Do 10 mock interviews"
-      },
-      "week_94_95": {
-        "title": "Job Search & Freelancing",
-        "topics": [
-          "Job search strategies",
-          "Resume optimization for ATS",
-          "Cover letter writing",
-          "Networking for jobs",
-          "Working with recruiters",
-          "Freelancing as data scientist",
-          "Building consulting business",
-          "Finding clients",
-          "Pricing your services",
-          "Contract negotiation",
-          "Remote work best practices",
-          "Career growth planning"
-        ],
-        "projects": [
-          "Optimize resume for 5 job types",
-          "Create freelance service offerings",
-          "Build client proposal template",
-          "Develop career roadmap"
-        ],
-        "practice": "Apply to 20 relevant positions"
-      },
-      "week_96": {
-        "title": "Final Project & Graduation",
-        "topics": [
-          "Capstone project planning",
-          "End-to-end implementation",
-          "Production deployment",
-          "Documentation and presentation",
-          "Peer review and feedback",
-          "Final assessment",
-          "Certification preparation",
-          "Alumni network",
-          "Continuous learning plan",
-          "Career launch strategy",
-          "Celebration and reflection",
-          "Next steps planning"
-        ],
-        "projects": [
-          "FINAL CAPSTONE: Industry-Ready Data Science Project",
-          "Solve real business problem end-to-end",
-          "Include all phases: data, ML, deployment, monitoring",
-          "Present to panel of industry experts",
-          "Open source the solution"
-        ],
-        "assessment": "Final comprehensive examination and project defense"
-      }
-    },
-    "month_23": {
-      "title": "Continuous Learning & Growth",
-      "weeks": "Ongoing",
-      "week_97": {
-        "title": "Staying Current",
-        "topics": [
-          "Following AI research",
-          "Reading papers effectively",
-          "Attending conferences",
-          "Online communities",
-          "Continuous experimentation",
-          "Building side projects",
-          "Teaching and mentoring",
-          "Contributing to research",
-          "Industry trends",
-          "Emerging technologies",
-          "Career pivots",
-          "Leadership development"
-        ],
-        "projects": [
-          "Create learning roadmap",
-          "Join research reading group",
-          "Start mentoring others",
-          "Plan conference attendance"
-        ],
-        "practice": "Dedicate 5 hours/week to learning"
-      },
-      "week_98": {
-        "title": "Advanced Certifications",
-        "topics": [
-          "Cloud certifications (AWS, GCP, Azure)",
-          "Specialized ML certifications",
-          "Domain certifications",
-          "Academic courses and MOOCs",
-          "Professional development",
-          "Executive education",
-          "PhD considerations",
-          "Research opportunities",
-          "Teaching opportunities",
-          "Consulting certifications",
-          "Project management",
-          "Business analytics"
-        ],
-        "projects": [
-          "Complete one advanced certification",
-          "Plan certification roadmap",
-          "Join professional organizations"
-        ],
-        "practice": "Pursue continuous credentials"
-      },
-      "week_99": {
-        "title": "Building Data Products",
-        "topics": [
-          "Product thinking for DS",
-          "Identifying opportunities",
-          "MVP development",
-          "User research",
-          "Product metrics",
-          "Growth strategies",
-          "Monetization models",
-          "B2B vs B2C products",
-          "SaaS development",
-          "API products",
-          "Data marketplaces",
-          "Entrepreneurship"
-        ],
-        "projects": [
-          "Ideate 5 data products",
-          "Build MVP of one product",
-          "Create business plan",
-          "Launch beta version"
-        ],
-        "practice": "Validate product ideas"
-      },
-      "week_100": {
-        "title": "Giving Back",
-        "topics": [
-          "Mentoring beginners",
-          "Creating educational content",
-          "Open source contributions",
-          "Speaking at meetups",
-          "Writing tutorials",
-          "Answering questions online",
-          "Building community",
-          "Organizing events",
-          "Pro bono work",
-          "Teaching workshops",
-          "Creating courses",
-          "Industry advocacy"
-        ],
-        "projects": [
-          "Mentor 3 beginners",
-          "Create free educational resource",
-          "Organize local meetup",
-          "Contribute to major open source project"
-        ],
-        "practice": "Give back to community weekly"
+        "assessment": "FINAL EXAM: a practical build plus a written paper with questions mixed from every phase. Passing earns the certificate; falling short earns a focused revision plan and a free retest"
       }
     }
   },
   "additional_learning_resources": {
     "projects_throughout_course": [
-      "Phase 1: 15+ foundation projects - EDA, visualization, SQL analytics",
-      "Phase 2: 20+ ML projects - classification, regression, clustering, Kaggle",
-      "Phase 3: 15+ DL projects - computer vision, NLP, reinforcement learning",
-      "Phase 4: 10+ production projects - MLOps, big data, cloud deployment",
-      "Total: 60+ projects from basics to production"
+      "Phase 1: EDA and SQL projects on real, messy datasets",
+      "Phase 2: end-to-end ML projects and Kaggle practice with honest write-ups",
+      "Phase 3: deep learning builds: vision, NLP and a research-paper implementation",
+      "Phase 4: the deployed capstone, defended at demo day"
     ],
-    "total_projects_built": "60+ data science projects across all domains",
+    "total_projects_built": "15+ real projects, crowned by a deployed end-to-end capstone",
     "skills_mastered": [
-      "Programming: Python (expert), SQL (advanced), Spark, Git",
-      "Mathematics: Linear algebra, calculus, statistics, probability",
-      "Data Analysis: Pandas, NumPy, exploratory data analysis, feature engineering",
-      "Machine Learning: Scikit-learn, XGBoost, classification, regression, clustering",
-      "Deep Learning: TensorFlow, PyTorch, CNN, RNN, Transformers, GANs",
-      "Visualization: Matplotlib, Seaborn, Plotly, Tableau, dashboard creation",
-      "Big Data: Spark, Hadoop, Kafka, distributed computing",
-      "MLOps: Docker, Kubernetes, CI/CD, model monitoring, A/B testing",
-      "Cloud: AWS SageMaker, GCP Vertex AI, Azure ML",
-      "Databases: SQL, NoSQL, data warehouses, data lakes",
-      "Soft Skills: Communication, business acumen, project management",
-      "Domains: Healthcare, finance, retail, marketing analytics"
+      "Python for data: NumPy, Pandas and visualization as daily craft",
+      "Statistics that survive real data: inference, uncertainty, honest claims",
+      "Machine learning with judgment: model choice, tuning and defensible evaluation",
+      "Deep learning: neural networks, CNNs, RNNs and NLP in practice",
+      "The pipeline craft: SQL, EDA, feature engineering and deployment"
     ],
     "weekly_structure": {
-      "theory_videos": "5-7 hours",
-      "hands_on_coding": "10-12 hours",
-      "projects": "4-6 hours",
-      "practice_problems": "3-4 hours",
-      "total_per_week": "20-25 hours"
-    },
-    "support_provided": {
-      "live_sessions": "Weekly problem-solving and doubt clearing sessions",
-      "mentorship": "1-on-1 guidance from senior data scientists",
-      "code_review": "Expert code reviews for all major projects",
-      "career_support": "Resume review, mock interviews",
-      "kaggle_support": "Kaggle competition teams and guidance",
-      "cloud_credits": "Free credits for AWS, GCP, Azure practice"
+      "live_classes": "2 live one-hour classes per week, coding along with the instructor",
+      "homework": "A problem set after every class, and a mixed-review assignment at the end of every month",
+      "practice": "4-6 hours of building between classes",
+      "review": "Every submission reviewed with written feedback; recurring gaps reopened in class"
     },
     "certification": {
-      "phase_certificates": "Certificate after each phase (4 total)",
-      "final_certificate": "Professional Data Scientist Certification",
-      "linkedin_badge": "Verified LinkedIn badge",
-      "industry_recognized": "A course-completion certificate you can add to your resume and LinkedIn.",
-      "portfolio_projects": "60+ documented projects for portfolio",
-      "kaggle_achievements": "Support to reach Kaggle Expert level",
-      "specialization_certificate": "Certificate in chosen specialization area"
+      "completion": "Certificate from Modern Age Coders, awarded on passing the final exam. Fall short and there is focused revision and a free retest: the certificate certifies knowledge, not attendance"
+    },
+    "support_provided": {
+      "doubt_support": "WhatsApp doubt support between classes",
+      "progress_updates": "Honest monthly progress reviews: what is solid, what is wobbly, and the plan for the wobble"
     }
   },
   "prerequisites": {
-    "education": "No formal degree required - high school math helpful",
-    "coding_experience": "None required - we start from zero",
-    "equipment": "Computer with 8GB RAM minimum, internet connection",
-    "time_commitment": "20-25 hours per week consistently",
-    "english": "Good reading and comprehension skills",
-    "motivation": "Strong curiosity about data and problem-solving mindset"
+    "coding_experience": "None. Everything is taught from the first line",
+    "equipment": "Any computer with a stable internet connection; every tool used is free",
+    "age": "18+; college students, graduates and working professionals",
+    "time_commitment": "2 live classes plus 4-6 hours of practice a week"
   },
   "who_is_this_for": {
-    "students": "College students wanting high-paying tech careers",
-    "working_professionals": "Career switchers from any field to data science",
-    "entrepreneurs": "Build data-driven products and businesses",
-    "freelancers": "Offer data science and ML consulting services",
-    "kids": "Not suitable for children - recommended age 16+",
-    "anyone": "Anyone fascinated by AI and data-driven decision making"
+    "college_students": "Students targeting data science and analytics placements",
+    "career_switchers": "Professionals moving into data roles with a structured, honest path",
+    "analysts_upskilling": "Analysts ready to add ML and deep learning to their toolkit",
+    "engineers": "Developers who want the data half of modern software",
+    "self_taught": "Learners with scattered notebook experience that needs a spine"
   },
   "career_paths_after_completion": [
-    "Data Scientist",
-    "Machine Learning Engineer",
-    "AI Engineer",
-    "Deep Learning Engineer",
-    "MLOps Engineer",
-    "Data Science Consultant",
-    "Research Scientist",
-    "Computer Vision Engineer",
-    "NLP Engineer",
-    "Business Intelligence Developer",
-    "Quantitative Analyst",
-    "Data Science Manager",
-    "Chief Data Officer (with experience)"
+    "Data scientist and ML roles: the full-pipeline profile fits the screen",
+    "Our AI/ML engineering course deepens the modelling road",
+    "Analytics engineering: SQL and pipeline craft compound here",
+    "The data analytics mathematics course strengthens the statistical spine"
   ],
   "salary_expectations": {
     "market_context": "The ranges below are general market salary bands for these roles in India and abroad, drawn from public industry data. They are shown for career context only and are not a promise or guarantee of income. Actual pay depends on your skills, experience, location, and the job market.",
@@ -1163,35 +790,44 @@
   "course_guarantees": {
     "live_classes": "Live, interactive classes with a real instructor, never pre-recorded videos.",
     "small_batches": "Small batches only: group classes are capped at 10 students, with mini-batch (3 to 4 students) and personal 1-on-1 options.",
-    "structured_curriculum": "A structured, well-paced curriculum taught step by step, with hands-on practice in every session.",
+    "structured_curriculum": "A structured, well-paced curriculum taught step by step, with classwork in every session and problem sets after every class.",
+    "real_assessment": "Monthly mixed reviews, cumulative phase exams, and a final exam that decides the certificate: real knowledge, real work.",
     "doubt_support": "Doubt support between classes over WhatsApp, so you are never left stuck.",
-    "certificate": "A course-completion certificate you can share.",
+    "certificate": "A certificate you earn by passing the final exam, with a free retest after revision if needed.",
     "free_demo": "A free demo class before you enrol, so you can decide with no pressure."
   },
   "faqs": [
     {
-      "question": "What is data science and why is it one of the highest-paying careers in 2026?",
-      "answer": "Data science combines statistics, programming, and domain expertise to extract insights from data. It's in massive demand because companies like Netflix, Amazon, and Google use data science for recommendations, predictions, and decision-making. Data scientists in India earn ₹6-50+ LPA, with international salaries reaching $80k-200k USD, making it one of the most lucrative tech careers."
+      "question": "What does this data science course cover?",
+      "answer": "The full pipeline in order: Python with NumPy and Pandas, statistics, data visualization, SQL and exploratory data analysis with feature engineering; then machine learning, regression, classification, ensembles and unsupervised methods with honest evaluation, end-to-end projects and Kaggle practice; then deep learning, neural networks, CNNs, RNNs, NLP, applied computer vision and a research-paper implementation. A finale month ships a deployed capstone and sits the final exam."
     },
     {
-      "question": "Do I need a mathematics or statistics background for this data science course?",
-      "answer": "No prior math background is required! We teach all the mathematics you need - statistics, probability, linear algebra, and calculus - from the ground up. Many successful data scientists started without a math degree. The course includes dedicated modules to build a solid mathematical foundation alongside practical projects."
+      "question": "How long does it take to learn data science properly?",
+      "answer": "Ten months of teaching at 2 live classes a week plus 4 to 6 hours of practice, with two more months in hand for learners who need them. The three teaching phases build the skill and its real-world application; the finale month ships a capstone and sits the final exam."
     },
     {
-      "question": "What programming languages and tools will I learn in this 12-month data science program?",
-      "answer": "You'll master Python (the #1 language for data science), SQL, and Spark. Tools include Pandas, NumPy, Scikit-learn, TensorFlow, PyTorch, Matplotlib, Tableau, AWS SageMaker, and MLOps tools. By completion, you'll be proficient in 25+ technologies used by data science teams at top companies."
+      "question": "How am I assessed? Is the certificate just for attending?",
+      "answer": "No. Problem sets follow every class with written feedback, monthly reviews deliberately mix new material with earlier topics, each phase ends with a cumulative exam, and the course ends with a final exam: a practical build plus written questions from the whole syllabus. Passing earns the certificate; falling short earns focused revision and a free retest."
     },
     {
-      "question": "What's the difference between a Data Scientist, ML Engineer, and Data Analyst?",
-      "answer": "Data Analysts focus on reporting and visualization (₹4-12 LPA). Data Scientists build predictive models and find insights (₹8-30 LPA). ML Engineers deploy and scale machine learning systems in production (₹12-45 LPA). This course prepares you for all three paths, with deep coverage of machine learning, deep learning, and MLOps."
+      "question": "How is this different from your data analysis and AI/ML courses?",
+      "answer": "Three different jobs. Data analysis is the business-facing craft: Excel, SQL, dashboards and clear answers to business questions. This data science course is the full modelling pipeline: statistics, machine learning and deep learning on top of that data craft. The AI/ML engineering course goes deepest into models and the systems that serve them. If you want the classic data scientist profile, this is the course; the other two are its neighbours."
     },
     {
-      "question": "Will I learn AI and deep learning in this data science course?",
-      "answer": "Yes! Phase 3 covers deep learning extensively: Neural Networks, CNNs for computer vision, RNNs/LSTMs for sequences, Transformers, BERT, GPT, and reinforcement learning. You'll build projects like image classifiers, chatbots, recommendation systems, and even implement research papers. This covers the cutting-edge of AI."
+      "question": "Do I need strong maths before joining?",
+      "answer": "No: school-level comfort with numbers is enough to start, and the statistics you need is taught inside the course, in code, on real data. What we do not do is hide the maths that matters: probability, distributions and evaluation metrics are taught properly because interviews and real work both reach for them."
     },
     {
-      "question": "What projects will I build to showcase in my data science portfolio?",
-      "answer": "You'll build 60+ projects including: stock price prediction, customer churn analysis, image classification, NLP sentiment analysis, recommendation systems, fraud detection, and a complete end-to-end ML pipeline deployed on AWS. Our graduates often showcase Kaggle competition rankings and published models as proof of expertise."
+      "question": "What are the fees?",
+      "answer": "Group classes are ₹1,499 per month, with 2 live classes a week in batches capped at 10 learners. A mini batch of 3-4 learners is ₹2,999 per month, and personal 1-on-1 classes are ₹4,999 per month. International learners pay a price set for their own country, shown on this page in their local currency."
+    },
+    {
+      "question": "Can I try a class before enrolling?",
+      "answer": "Yes, a free demo class with no commitment: book at learn.modernagecoders.com/contact or message us on WhatsApp at +91 91233 66161."
+    },
+    {
+      "question": "Are classes live or recorded?",
+      "answer": "Live, always: small groups with a real instructor reading your actual code, never pre-recorded videos."
     }
   ]
 }
