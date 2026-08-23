@@ -2,78 +2,73 @@
   "meta": {
     "slug": "complete-app-development-masterclass-for-teens",
     "date": "2025-10-31",
-    "title": "Mobile App Development for Teens: Publish to App Stores",
-    "description": "An 18-month mobile app development course for teens: build iOS and Android apps with React Native and Flutter, then publish them to Google Play and App Store.",
+    "dateModified": "2026-08-23",
+    "title": "App Development for Teens: Build Real Apps with React Native",
+    "description": "App development course for teens aged 13-18: JavaScript, React and React Native with Expo, Firebase, AI features and a launched capstone app in 10-12 months.",
     "keywords": [
-      "app development for teens",
-      "mobile app development",
-      "iOS development",
-      "Android development",
-      "React Native",
-      "Flutter",
-      "Swift programming",
-      "Kotlin",
-      "mobile UI/UX",
-      "app store optimization",
-      "teen coding",
-      "youth app development",
-      "mobile games",
-      "AR apps",
-      "startup for teens"
+      "app development course for teens",
+      "mobile app development for teens",
+      "react native course for beginners",
+      "how to make an app for teenagers",
+      "app development classes online india",
+      "coding apps for high school students",
+      "expo react native course",
+      "firebase app development course",
+      "app development for students",
+      "build your own app course",
+      "javascript to mobile apps course",
+      "best app development course for teens"
     ],
-    "category": "Teen Mobile App Development",
+    "category": "App Development",
     "taxonomy": "mobile-dev",
     "price": {
       "group": "₹1,499/month",
       "miniBatch": "₹2,999/month",
       "personal": "₹4,999/month"
     },
-    "duration": "18 months (78 weeks)",
-    "level": "Complete Beginner to Professional App Developer",
-    "commitment": "12-15 hours/week recommended",
-    "certification": "Professional Mobile App Developer Certification",
+    "duration": "10-12 months (40-48 weeks)",
+    "level": "Absolute beginner, ages 13 to 18",
+    "commitment": "2 live classes/week + 3-4 hours practice",
+    "certification": "Certificate from Modern Age Coders, awarded on passing the final exam",
     "image_path": "app-dev-teens.webp"
   },
   "program_overview": {
-    "title": "Complete Mobile App Development Masterclass for Teens",
-    "tagline": "From 'What is an App?' to 'Building the Next TikTok'",
-    "description": "Ever wondered how Instagram, Snapchat, or your favorite games work? This isn't just about learning to code - it's about bringing YOUR app ideas to life! Designed specifically for teenagers, this 18-month journey transforms complete beginners into professional app developers who can build anything from addictive games to social media platforms.\n\nYou'll master both iOS and Android development, create stunning UI/UX designs, integrate AI and AR features, implement monetization strategies, and actually publish your apps to millions of users. By the end, you'll have 25+ apps in your portfolio, real users for your published apps, and the skills to build your own tech startup or land high-paying developer jobs.",
+    "title": "App Development for Teens",
+    "tagline": "The phone in their pocket becomes the thing they build for: real apps, installed on real devices, shipped with one honest stack in ten months.",
+    "description": "Every teenager lives inside apps; very few know they could build one this year. This live online course takes students aged 13 to 18 from zero to a real, installable, launched mobile app, using the path the modern industry actually recommends for one-person teams: JavaScript learned properly, React for interface thinking, then React Native with Expo, one codebase that runs on both Android and iOS, with Firebase as the backend and AI features where they genuinely help.\n\nThe stack choice is the honest part. Courses that tour four frameworks, Kotlin, Swift, React Native and Flutter, produce teens fluent in none of them. This course masters one: React Native powers apps at Meta, Microsoft, Shopify and thousands of startups, works fully on a Windows laptop, and lets a teen carry their JavaScript skills from web to phone. Flutter gets an honest taste week, and native Android and iOS get a clear map, what they are, when they matter, and where our Kotlin and Swift courses continue.\n\nThe pace is real: ten months at two live classes a week plus three to four hours of practice, with two more months in hand when needed. Apps go onto real phones from month 3, the capstone is user-tested and distributed properly, and store publishing is explained exactly as it works for minors: developer accounts are parent-managed, and we walk families through it. Homework after every class, monthly mixed reviews, phase exams, and a final exam that decides the certificate with a free retest. Real apps, real users, depth over dopamine.",
     "what_makes_this_different": [
-      "Teen-focused: Build apps teens actually want - games, social media, music, AR filters",
-      "Zero to App Store: Start from scratch, end with published apps earning money",
-      "Multi-platform mastery: iOS, Android, and cross-platform development",
-      "Real apps, real users: Launch apps and get actual downloads",
-      "Startup mindset: Learn app monetization, marketing, and business",
-      "Project-based: Build TikTok clones, games, AR apps, AI chatbots",
-      "Young mentors: Learn from successful young app developers",
-      "Global teen community: Collaborate with teen developers worldwide"
+      "One stack mastered, honestly chosen: JavaScript, React and React Native with Expo, the one-person-team path the industry actually uses",
+      "Runs on any laptop: no Mac required for the course; iOS specifics and Apple’s rules are explained honestly",
+      "Apps on real phones from month 3: Expo puts student work on their own device almost immediately",
+      "Store truth for minors: developer accounts are parent-managed and we walk families through exactly how distribution works",
+      "AI features built in properly: server-side calls, streaming and guardrails inside the student’s own app",
+      "Real assessment: weekly homework, mixed-review assignments every month, and a final exam that decides the certificate, with focused revision and a free retest"
     ],
     "learning_path": {
-      "phase_1": "Foundation (Months 1-4): Programming basics, UI/UX design, Web technologies",
-      "phase_2": "Native Development (Months 5-9): Android with Kotlin, iOS with Swift",
-      "phase_3": "Cross-Platform (Months 10-13): React Native, Flutter, Backend integration",
-      "phase_4": "Advanced & Launch (Months 14-18): AI/AR, Games, Monetization, App Store"
+      "phase_1": "Foundations to first app (Months 1-3): JavaScript, UI/UX, React, Firebase, then React Native and an app on your own phone",
+      "phase_2": "App craft (Months 4-6): data, device features, polish, analytics, store readiness, AI features and a polished second app",
+      "phase_3": "The wider craft (Months 7-8): the native map, notifications, team Git workflow, and the capstone designed and built",
+      "phase_4": "Launch (Months 9-10): hardening, distribution, real users, iteration, portfolio, and the final exam at demo day"
     },
     "career_outcomes": [
-      "Junior App Developer (after 6 months)",
-      "iOS/Android Developer (after 12 months)",
-      "Full Stack Mobile Developer (after 18 months)",
-      "App Entrepreneur / Startup Founder"
+      "A portfolio of real apps, crowned by a launched, user-tested capstone on their own phone and their friends’ phones",
+      "Transferable modern skills: JavaScript, React and React Native carry into web, apps and beyond",
+      "Honest next steps: Kotlin or Swift for native depth, our full-stack track for the web side, or DSA for the CS core",
+      "The product habit: scoping, testing with users, iterating and shipping"
     ]
   },
-  "phase_1_foundation": {
-    "title": "PHASE 1: Foundation & Design Thinking (Months 1-4, Weeks 1-17)",
-    "description": "Build rock-solid programming fundamentals and learn to think like an app designer. Create your first apps using web technologies.",
-    "month_1_2": {
-      "title": "Months 1-2: Programming Fundamentals & App Concepts",
-      "weeks": "Week 1-8",
-      "week_1_2": {
-        "title": "Introduction to App Development World",
+  "phase_1_foundations_first_app": {
+    "title": "PHASE 1: Foundations to First App (Months 1-3, Weeks 1-12)",
+    "description": "JavaScript learned properly, interface thinking with React, and the jump to React Native: by the end of this phase an app the student built runs on their own phone.",
+    "month_1_foundations": {
+      "title": "Month 1: How Apps Are Built",
+      "weeks": "Weeks 1-4",
+      "week_1": {
+        "title": "The App World, Honestly Mapped",
         "topics": [
           "How apps changed the world: From Snake to TikTok",
           "Native vs Cross-platform vs Web apps explained",
           "iOS vs Android: The eternal rivalry",
-          "How apps make money: Ads, subscriptions, in-app purchases",
           "Famous teen app developers who became millionaires",
           "Setting up your development environment",
           "Installing VS Code, Android Studio, Xcode preview",
@@ -91,8 +86,8 @@
         ],
         "practice": "Daily: Analyze 3 apps you use - what makes them addictive?"
       },
-      "week_3_4": {
-        "title": "JavaScript Programming Essentials",
+      "week_2": {
+        "title": "JavaScript Essentials",
         "topics": [
           "JavaScript: The language that powers everything",
           "Variables: Storing user data and game scores",
@@ -115,8 +110,8 @@
         ],
         "practice": "Complete 50 JavaScript challenges on CodeWars"
       },
-      "week_5_6": {
-        "title": "UI/UX Design Fundamentals",
+      "week_3": {
+        "title": "UI and UX Fundamentals",
         "topics": [
           "What makes apps beautiful and addictive?",
           "Design thinking process: Empathize, Define, Ideate",
@@ -139,8 +134,8 @@
         ],
         "practice": "Daily UI challenge - create one UI element per day"
       },
-      "week_7_8": {
-        "title": "Advanced JavaScript & ES6+",
+      "week_4": {
+        "title": "Modern JavaScript",
         "topics": [
           "Modern JavaScript features apps need",
           "Arrow functions: Cleaner, cooler syntax",
@@ -161,14 +156,15 @@
           "Music player with Spotify Web API",
           "Meme generator with API integration"
         ],
-        "practice": "Refactor old projects with modern JavaScript"
+        "practice": "Refactor old projects with modern JavaScript",
+        "assessment": "Month 1 check: a small interactive build live, plus a take-home assignment mixing everything from month 1"
       }
     },
-    "month_3_4": {
-      "title": "Months 3-4: Web Apps & React Fundamentals",
-      "weeks": "Week 9-17",
-      "week_9_10": {
-        "title": "React.js Fundamentals",
+    "month_2_react": {
+      "title": "Month 2: React and the Backend Taste",
+      "weeks": "Weeks 5-8",
+      "week_5": {
+        "title": "React Fundamentals",
         "topics": [
           "Why React? Facebook, Instagram, Netflix use it",
           "Vite: Starting projects quickly",
@@ -191,8 +187,8 @@
         ],
         "practice": "Build 20 React components for different use cases"
       },
-      "week_11_12": {
-        "title": "React State Management & Routing",
+      "week_6": {
+        "title": "State and Navigation Thinking",
         "topics": [
           "Managing complex state: When useState isn't enough",
           "useContext: Sharing data across components",
@@ -215,8 +211,8 @@
         ],
         "practice": "Add routing and state management to previous projects"
       },
-      "week_13_14": {
-        "title": "Progressive Web Apps (PWAs)",
+      "week_7": {
+        "title": "Progressive Web Apps: Ship Before the Stores",
         "topics": [
           "What are PWAs? Apps without app stores",
           "Service workers: Offline functionality",
@@ -239,8 +235,8 @@
         ],
         "practice": "Make all web apps installable as PWAs"
       },
-      "week_15_16": {
-        "title": "Backend Basics & Firebase",
+      "week_8": {
+        "title": "Firebase: A Backend Without a Server",
         "topics": [
           "Why apps need backends: Where data lives",
           "Firebase: Google's backend for apps",
@@ -261,406 +257,15 @@
           "Collaborative todo app",
           "Social authentication system"
         ],
-        "practice": "Add Firebase to 3 existing projects"
-      },
-      "week_17": {
-        "title": "Phase 1 Capstone Project",
-        "topics": [
-          "Planning your first complete app",
-          "User research and validation",
-          "Technical architecture design",
-          "Setting up development workflow",
-          "Version control best practices",
-          "Testing on real devices"
-        ],
-        "projects": [
-          "CAPSTONE: Full-Stack Web App",
-          "Options: Social media clone, E-commerce platform, Productivity tool",
-          "Must include: Auth, database, real-time features, PWA",
-          "Deploy to production with real users"
-        ],
-        "assessment": "Phase 1 Final - Build complete web app from scratch"
-      }
-    }
-  },
-  "phase_2_frontend_mastery": {
-    "title": "PHASE 2: Native Mobile Development (Months 5-9, Weeks 18-39)",
-    "description": "Master native Android and iOS development. Build apps that feel truly native with platform-specific features.",
-    "month_7_8": {
-      "title": "Months 5-6: Android Development with Kotlin",
-      "weeks": "Week 18-26",
-      "week_27_28": {
-        "title": "Android Studio & Kotlin Basics",
-        "topics": [
-          "Android ecosystem: Why 3 billion devices run Android",
-          "Android Studio setup and tour",
-          "Kotlin: Modern Android language",
-          "Variables, functions, and classes in Kotlin",
-          "Null safety: Avoiding crashes",
-          "Android project structure explained",
-          "Gradle: Building Android apps",
-          "Running apps on emulator and real devices",
-          "Android versions and API levels",
-          "Material Design principles",
-          "Debugging with Logcat",
-          "Android app lifecycle"
-        ],
-        "projects": [
-          "Hello World Android app",
-          "Simple calculator in Kotlin",
-          "Tip calculator app",
-          "Dice roller game"
-        ],
-        "practice": "Complete Kotlin Koans exercises"
-      },
-      "week_29_30": {
-        "title": "Android UI Development",
-        "topics": [
-          "XML layouts: Designing Android UIs",
-          "ViewGroups and Views explained",
-          "LinearLayout, RelativeLayout, ConstraintLayout",
-          "Material Design components",
-          "RecyclerView: Displaying lists efficiently",
-          "CardView: Beautiful card layouts",
-          "Navigation: Activities and Fragments",
-          "Bottom navigation and tabs",
-          "Handling different screen sizes",
-          "Themes and styles: Customizing appearance",
-          "Animations and transitions",
-          "Custom views and canvas drawing"
-        ],
-        "projects": [
-          "Instagram-style photo feed",
-          "Music player UI",
-          "Recipe app with categories",
-          "Chat app interface"
-        ],
-        "practice": "Recreate 10 popular app UIs"
-      },
-      "week_31_32": {
-        "title": "Android Data & Storage",
-        "topics": [
-          "SharedPreferences: Simple data storage",
-          "Room database: SQLite made easy",
-          "LiveData and ViewModel: MVVM architecture",
-          "Data binding: Connecting UI and data",
-          "Retrofit: Networking and APIs",
-          "Image loading with Glide/Picasso",
-          "JSON parsing with Gson",
-          "File storage: Internal and external",
-          "Content providers: Sharing data",
-          "WorkManager: Background tasks",
-          "Notifications: Local and push",
-          "Android Jetpack components"
-        ],
-        "projects": [
-          "Note-taking app with Room",
-          "Weather app with API",
-          "News reader with offline cache",
-          "Expense tracker with charts"
-        ],
-        "practice": "Implement data persistence in all apps"
-      },
-      "week_33_34": {
-        "title": "Advanced Android Features",
-        "topics": [
-          "Camera API: Taking photos and videos",
-          "Location services: GPS and maps",
-          "Google Maps integration",
-          "Sensors: Accelerometer, gyroscope",
-          "Bluetooth connectivity",
-          "Media playback: Audio and video",
-          "Speech recognition and TTS",
-          "Biometric authentication",
-          "Android widgets: Home screen apps",
-          "App shortcuts and deep links",
-          "Share functionality",
-          "Android permissions best practices"
-        ],
-        "projects": [
-          "Camera app with filters",
-          "Location-based reminder app",
-          "Fitness tracker using sensors",
-          "Voice assistant app"
-        ],
-        "practice": "Add advanced features to existing apps"
-      },
-      "week_35": {
-        "title": "Jetpack Compose (Modern Android UI)",
-        "topics": [
-          "Compose: Android's new UI toolkit",
-          "Declarative UI vs XML layouts",
-          "Composable functions",
-          "State in Compose",
-          "Layouts in Compose",
-          "Material Design 3 in Compose",
-          "Navigation in Compose",
-          "Animations in Compose",
-          "Compose with ViewModel",
-          "Migration from XML to Compose",
-          "Testing Compose UIs",
-          "Compose best practices"
-        ],
-        "projects": [
-          "Twitter clone in Compose",
-          "Todo app with Compose",
-          "Meditation app UI",
-          "Game menu in Compose"
-        ],
-        "practice": "Rebuild previous apps with Compose"
+        "practice": "Add Firebase to 3 existing projects",
+        "assessment": "Month 2 check: a small React feature built live, with quiz questions reaching back to month 1"
       }
     },
-    "month_9_10": {
-      "title": "Months 7-8: iOS Development with Swift",
-      "weeks": "Week 27-35",
-      "week_36_37": {
-        "title": "Xcode & Swift Fundamentals",
-        "topics": [
-          "iOS ecosystem: Why developers love Apple",
-          "Xcode setup and interface tour",
-          "Swift: Apple's powerful language",
-          "Swift Playgrounds: Learning interactively",
-          "Variables, constants, and optionals",
-          "Functions and closures in Swift",
-          "Classes, structs, and enums",
-          "Protocols and extensions",
-          "Error handling in Swift",
-          "iOS app structure: MVC pattern",
-          "iOS Simulator: Testing without iPhone",
-          "Debugging with Xcode"
-        ],
-        "projects": [
-          "First iOS app: I Am Rich parody",
-          "Magic 8 Ball app",
-          "Calculator with Swift",
-          "Xylophone music app"
-        ],
-        "practice": "Complete Swift Playgrounds challenges"
-      },
-      "week_38_39": {
-        "title": "iOS UI Development with UIKit",
-        "topics": [
-          "Interface Builder and Storyboards",
-          "Auto Layout: Responsive design",
-          "Stack Views: Simplifying layouts",
-          "UITableView: Lists in iOS",
-          "UICollectionView: Grids and custom layouts",
-          "Navigation Controllers",
-          "Tab Bar Controllers",
-          "Segues and data passing",
-          "Custom UI components",
-          "Animations with UIView",
-          "Gesture recognizers",
-          "Dark mode support"
-        ],
-        "projects": [
-          "Instagram feed clone",
-          "Weather app with beautiful UI",
-          "News reader with categories",
-          "Pinterest-style layout"
-        ],
-        "practice": "Create 15 different iOS layouts"
-      },
-      "week_40_41": {
-        "title": "SwiftUI - Modern iOS Development",
-        "topics": [
-          "SwiftUI: The future of iOS development",
-          "Declarative syntax explained",
-          "Views and modifiers",
-          "State and data flow",
-          "@State, @Binding, @ObservedObject",
-          "Lists and navigation",
-          "Forms and user input",
-          "Combining views",
-          "Animations in SwiftUI",
-          "Drawing and shapes",
-          "SwiftUI with UIKit integration",
-          "Preview and live development"
-        ],
-        "projects": [
-          "TikTok UI in SwiftUI",
-          "Expense tracker with charts",
-          "Recipe app with SwiftUI",
-          "Game menu system"
-        ],
-        "practice": "Rebuild UIKit apps in SwiftUI"
-      },
-      "week_42_43": {
-        "title": "iOS Data Persistence & Networking",
-        "topics": [
-          "UserDefaults: Simple storage",
-          "Core Data: Apple's database framework",
-          "SwiftData: Modern persistence",
-          "Codable: JSON encoding/decoding",
-          "URLSession: Networking in iOS",
-          "Alamofire: Advanced networking",
-          "Kingfisher: Image caching",
-          "CloudKit: iCloud integration",
-          "Keychain: Secure storage",
-          "File management in iOS",
-          "Background tasks",
-          "Push notifications setup"
-        ],
-        "projects": [
-          "Notes app with Core Data",
-          "GitHub client app",
-          "Podcast player with downloads",
-          "Expense tracker with CloudKit sync"
-        ],
-        "practice": "Add persistence to all iOS apps"
-      },
-      "week_44": {
-        "title": "Advanced iOS Features",
-        "topics": [
-          "Camera and Photos framework",
-          "Core Location: GPS and maps",
-          "MapKit integration",
-          "Core Motion: Accelerometer, gyroscope",
-          "AVFoundation: Audio/video",
-          "Speech framework: Recognition and synthesis",
-          "Core ML: Machine learning",
-          "ARKit basics: Augmented reality",
-          "SiriKit: Siri integration",
-          "WidgetKit: Home screen widgets",
-          "Face ID and Touch ID",
-          "Apple Pay integration"
-        ],
-        "projects": [
-          "AR measurement app",
-          "Photo editor with filters",
-          "Location-based game",
-          "AI-powered camera app"
-        ],
-        "practice": "Explore iOS frameworks in mini-projects"
-      }
-    },
-    "month_11_12": {
-      "title": "Month 9: Publishing & App Store",
-      "weeks": "Week 36-39",
-      "week_45_46": {
-        "title": "App Store Preparation",
-        "topics": [
-          "Apple Developer Program enrollment",
-          "App Store guidelines: What Apple allows",
-          "App Store Connect overview",
-          "Certificates and provisioning profiles",
-          "App icons and launch screens",
-          "App Store screenshots and previews",
-          "Writing compelling app descriptions",
-          "Keywords and ASO (App Store Optimization)",
-          "App categories and age ratings",
-          "Pricing and monetization options",
-          "TestFlight: Beta testing",
-          "App review process tips"
-        ],
-        "projects": [
-          "Prepare app for App Store submission",
-          "Create marketing materials",
-          "Set up TestFlight beta",
-          "Submit first app to App Store"
-        ],
-        "practice": "Research successful app launches"
-      },
-      "week_47_48": {
-        "title": "Google Play Store Publishing",
-        "topics": [
-          "Google Play Console setup",
-          "Play Store policies and guidelines",
-          "App signing and security",
-          "Store listing optimization",
-          "Graphics and screenshots requirements",
-          "Localization for global reach",
-          "Play Store SEO strategies",
-          "A/B testing store listings",
-          "Staged rollouts",
-          "Crash reporting and analytics",
-          "User reviews management",
-          "Play Store monetization"
-        ],
-        "projects": [
-          "Publish Android app to Play Store",
-          "Implement crash reporting",
-          "Set up analytics dashboard",
-          "Create promotional materials"
-        ],
-        "practice": "Analyze top apps in your category"
-      },
-      "week_49_50": {
-        "title": "App Monetization Strategies",
-        "topics": [
-          "Monetization models: Which works for teens?",
-          "In-app purchases implementation",
-          "Subscription models: The recurring revenue dream",
-          "Ad integration: AdMob, Facebook Ads",
-          "Rewarded video ads",
-          "Freemium vs Premium strategies",
-          "Consumable vs non-consumable purchases",
-          "StoreKit for iOS purchases",
-          "Google Play Billing",
-          "Receipt validation",
-          "Analytics for monetization",
-          "A/B testing pricing"
-        ],
-        "projects": [
-          "Add in-app purchases to game",
-          "Implement subscription system",
-          "Integrate ads strategically",
-          "Create monetization dashboard"
-        ],
-        "practice": "Calculate revenue models for your apps"
-      },
-      "week_51": {
-        "title": "App Marketing & Growth",
-        "topics": [
-          "App marketing for zero budget",
-          "Social media marketing: TikTok, Instagram",
-          "Creating viral content",
-          "Influencer partnerships",
-          "App Store Optimization (ASO)",
-          "Getting featured by Apple/Google",
-          "Press kit creation",
-          "Product Hunt launch",
-          "Community building",
-          "User retention strategies",
-          "Push notification campaigns",
-          "Referral programs"
-        ],
-        "projects": [
-          "Create marketing plan",
-          "Build landing page",
-          "Launch social media campaign",
-          "Implement referral system"
-        ],
-        "practice": "Market your published apps"
-      },
-      "week_52": {
-        "title": "Phase 2 Capstone",
-        "topics": [
-          "Planning a complete native app",
-          "Platform choice: iOS vs Android",
-          "Architecture design",
-          "Timeline and milestones",
-          "Beta testing strategy",
-          "Launch preparation"
-        ],
-        "projects": [
-          "MAJOR CAPSTONE: Native Mobile App",
-          "Build and publish complete iOS or Android app",
-          "Must include: Modern UI, data persistence, networking, monetization",
-          "Get 100+ downloads in first week"
-        ],
-        "assessment": "Phase 2 Final - Published app with real users"
-      }
-    }
-  },
-  "phase_3_backend_engineering": {
-    "title": "PHASE 3: Cross-Platform Development (Months 10-13, Weeks 40-56)",
-    "description": "Master cross-platform frameworks to build once and deploy everywhere. Learn React Native and Flutter.",
-    "month_13_14": {
-      "title": "Months 10-11: React Native Development",
-      "weeks": "Week 40-48",
-      "week_53_54": {
-        "title": "React Native Fundamentals",
+    "month_3_react_native": {
+      "title": "Month 3: React Native, and an App on Your Phone",
+      "weeks": "Weeks 9-12",
+      "week_9": {
+        "title": "React Native with Expo",
         "topics": [
           "React Native: Write once, run everywhere",
           "How Facebook built React Native",
@@ -673,7 +278,8 @@
           "Bottom tabs, stack, and drawer navigation",
           "Handling user input",
           "Lists with FlatList and SectionList",
-          "Pull to refresh and infinite scroll"
+          "Pull to refresh and infinite scroll",
+          "Expo Go: your code running on your own phone in minutes"
         ],
         "projects": [
           "Instagram clone in React Native",
@@ -683,8 +289,8 @@
         ],
         "practice": "Convert React web apps to React Native"
       },
-      "week_55_56": {
-        "title": "React Native Advanced Features",
+      "week_10": {
+        "title": "Core Components and Native Feel",
         "topics": [
           "Native modules: Accessing device features",
           "Camera and image picker",
@@ -707,8 +313,8 @@
         ],
         "practice": "Add native features to all React Native apps"
       },
-      "week_57_58": {
-        "title": "React Native UI Libraries & Styling",
+      "week_11": {
+        "title": "Styling and UI Libraries",
         "topics": [
           "Native Base components",
           "React Native Elements",
@@ -731,8 +337,32 @@
         ],
         "practice": "Create reusable component library"
       },
-      "week_59_60": {
-        "title": "State Management & Testing",
+      "week_12": {
+        "title": "Phase Capstone: First Real App",
+        "topics": [
+          "Scoping a first app worth finishing: one screenful of value",
+          "Navigation, state and styling brought together",
+          "Testing on your own device like a user, not a builder",
+          "Sharing the app with family through Expo",
+          "The finish-line checklist: icons, name, empty states",
+          "A cumulative review of the whole phase"
+        ],
+        "projects": [
+          "PHASE CAPSTONE: a complete small app, a habit tracker, quiz app or club companion, running on the student’s own phone and shared with family"
+        ],
+        "practice": "Collect feedback from three real users and fix the most confusing thing",
+        "assessment": "Phase 1 exam: app walkthrough plus a written mixed paper over months 1-3"
+      }
+    }
+  },
+  "phase_2_app_craft": {
+    "title": "PHASE 2: App Craft (Months 4-6, Weeks 13-24)",
+    "description": "What separates demos from products: data that persists, device features, polish, analytics, store readiness, accessibility and AI features, ending in a polished second app.",
+    "month_4_data_devices": {
+      "title": "Month 4: Data and Device Powers",
+      "weeks": "Weeks 13-16",
+      "week_13": {
+        "title": "State Management and Testing",
         "topics": [
           "Redux in React Native",
           "Redux Toolkit setup",
@@ -755,8 +385,40 @@
         ],
         "practice": "Add state management to all apps"
       },
-      "week_61": {
-        "title": "Building & Deployment",
+      "week_14": {
+        "title": "Data That Survives: Storage and Offline",
+        "topics": [
+          "AsyncStorage: small data that persists",
+          "SQLite on the device: real local databases",
+          "Syncing local data with Firebase",
+          "Offline-first thinking: apps that work in a lift",
+          "Loading, empty and error states as a discipline",
+          "Migrations: changing your data shape without losing users",
+          "Backups and the data users would cry to lose"
+        ],
+        "projects": [
+          "A notes or collection app that works fully offline and syncs when back"
+        ],
+        "practice": "Airplane-mode test your app and fix what breaks"
+      },
+      "week_15": {
+        "title": "Camera, Location and Notifications",
+        "topics": [
+          "Permissions: asking honestly and handling refusal",
+          "Camera and image picker flows",
+          "Location: maps and geofencing basics",
+          "Local notifications that help instead of nag",
+          "Sensors: what the device knows",
+          "Privacy by design: collecting the minimum",
+          "Feature flags: shipping carefully"
+        ],
+        "projects": [
+          "A photo-journal or treasure-hunt app using camera and location"
+        ],
+        "practice": "Add one device feature to your phase 1 capstone"
+      },
+      "week_16": {
+        "title": "Builds and Sharing",
         "topics": [
           "Building for production",
           "Code signing for iOS",
@@ -777,162 +439,15 @@
           "Implement OTA updates",
           "Create deployment automation"
         ],
-        "practice": "Deploy all React Native apps"
+        "practice": "Deploy all React Native apps",
+        "assessment": "Month 4 check: an offline-capable mini feature built live, plus a mixed quiz over earlier months"
       }
     },
-    "month_15_16": {
-      "title": "Months 12-13: Flutter Development",
-      "weeks": "Week 49-56",
-      "week_62_63": {
-        "title": "Flutter & Dart Basics",
-        "topics": [
-          "Flutter: Google's UI toolkit",
-          "Why Flutter? Single codebase, native performance",
-          "Dart programming language basics",
-          "Flutter architecture overview",
-          "Setting up Flutter environment",
-          "Hot reload: Instant gratification",
-          "Widgets: Everything is a widget",
-          "Stateless vs Stateful widgets",
-          "Basic widgets: Container, Row, Column",
-          "Material Design and Cupertino widgets",
-          "Layout in Flutter",
-          "Building your first Flutter app"
-        ],
-        "projects": [
-          "Flutter calculator app",
-          "Business card app",
-          "Dice game in Flutter",
-          "Quiz app with scoring"
-        ],
-        "practice": "Complete Flutter codelabs"
-      },
-      "week_64_65": {
-        "title": "Flutter UI Development",
-        "topics": [
-          "Advanced layouts with Flutter",
-          "CustomPaint and canvas",
-          "Animations in Flutter",
-          "Hero animations",
-          "Implicit and explicit animations",
-          "Navigation and routing",
-          "Named routes and arguments",
-          "Bottom navigation and tabs",
-          "Drawer and side menu",
-          "Forms and validation",
-          "Theming and dark mode",
-          "Responsive design in Flutter"
-        ],
-        "projects": [
-          "TikTok UI clone in Flutter",
-          "E-commerce app design",
-          "Travel app with animations",
-          "Banking app interface"
-        ],
-        "practice": "Recreate 10 app UIs in Flutter"
-      },
-      "week_66_67": {
-        "title": "Flutter State Management",
-        "topics": [
-          "setState and StatefulWidget",
-          "Provider package",
-          "Riverpod state management",
-          "GetX framework",
-          "BLoC pattern",
-          "Redux for Flutter",
-          "MobX in Flutter",
-          "State management comparison",
-          "Dependency injection",
-          "Service locator pattern",
-          "MVVM architecture",
-          "Clean architecture in Flutter"
-        ],
-        "projects": [
-          "Todo app with Provider",
-          "Shopping cart with GetX",
-          "Chat app with BLoC",
-          "Social media with clean architecture"
-        ],
-        "practice": "Implement different state management solutions"
-      },
-      "week_68_69": {
-        "title": "Flutter Backend Integration",
-        "topics": [
-          "HTTP requests with dio",
-          "REST API integration",
-          "JSON serialization",
-          "Firebase with Flutter",
-          "Authentication in Flutter",
-          "Cloud Firestore integration",
-          "Real-time features",
-          "Push notifications",
-          "Local storage: SharedPreferences",
-          "SQLite with sqflite",
-          "Hive database",
-          "File upload and download"
-        ],
-        "projects": [
-          "News app with API",
-          "Chat app with Firebase",
-          "Note app with local database",
-          "Social app with full backend"
-        ],
-        "practice": "Connect Flutter apps to various backends"
-      },
-      "week_70": {
-        "title": "Flutter Advanced Features",
-        "topics": [
-          "Platform channels: Native code integration",
-          "Camera and gallery access",
-          "Location services",
-          "Google Maps in Flutter",
-          "Video player integration",
-          "In-app purchases",
-          "Ads integration",
-          "WebView in Flutter",
-          "Deep linking",
-          "App lifecycle management",
-          "Background tasks",
-          "Flutter plugins development"
-        ],
-        "projects": [
-          "Camera app with filters",
-          "Maps-based delivery app",
-          "Video streaming app",
-          "Game with monetization"
-        ],
-        "practice": "Add advanced features to Flutter apps"
-      }
-    },
-    "month_17_18": {
-      "title": "Month 13: Cross-Platform Mastery",
-      "weeks": "Week 53-56",
-      "week_71_72": {
-        "title": "Advanced Cross-Platform Patterns",
-        "topics": [
-          "Choosing the right framework",
-          "React Native vs Flutter comparison",
-          "Code sharing strategies",
-          "Platform-specific implementations",
-          "Design system across platforms",
-          "Performance optimization techniques",
-          "Native module development",
-          "Plugin/package creation",
-          "Cross-platform testing strategies",
-          "Continuous integration setup",
-          "Multi-platform deployment",
-          "Maintaining platform parity"
-        ],
-        "projects": [
-          "Same app in React Native and Flutter",
-          "Create npm/pub package",
-          "Cross-platform design system",
-          "Platform comparison report"
-        ],
-        "practice": "Master both frameworks equally"
-      },
-      "week_73_74": {
-        "title": "Backend as a Service (BaaS) Mastery",
+    "month_5_product_layer": {
+      "title": "Month 5: The Product Layer",
+      "weeks": "Weeks 17-20",
+      "week_17": {
+        "title": "Firebase in Depth: Auth and Firestore",
         "topics": [
           "Firebase deep dive",
           "Supabase: Open source Firebase",
@@ -955,8 +470,24 @@
         ],
         "practice": "Compare different BaaS providers"
       },
-      "week_75_76": {
-        "title": "App Analytics & Performance",
+      "week_18": {
+        "title": "Animations and Gestures",
+        "topics": [
+          "Why motion matters: feedback, hierarchy, delight",
+          "Layout animations and transitions",
+          "Reanimated basics: 60fps as a habit",
+          "Gestures: swipe, drag and pull-to-refresh",
+          "Micro-interactions that make apps feel expensive",
+          "Restraint: when animation is noise",
+          "Performance: keeping motion smooth on cheap phones"
+        ],
+        "projects": [
+          "A polish pass: your best app re-animated tastefully"
+        ],
+        "practice": "Recreate two animations from apps you admire"
+      },
+      "week_19": {
+        "title": "Analytics and Performance, Honestly",
         "topics": [
           "Google Analytics for apps",
           "Firebase Analytics setup",
@@ -979,154 +510,30 @@
         ],
         "practice": "Add comprehensive analytics to all apps"
       },
-      "week_77": {
-        "title": "Cross-Platform Game Development",
+      "week_20": {
+        "title": "Store Readiness, Told Straight",
         "topics": [
-          "Unity basics for mobile",
-          "2D game development",
-          "Flame engine for Flutter",
-          "React Native Game Engine",
-          "Physics and collisions",
-          "Sprite animations",
-          "Game state management",
-          "Leaderboards and achievements",
-          "Multiplayer basics",
-          "Game monetization",
-          "Publishing games",
-          "Game analytics"
+          "How the Play Store and App Store actually work",
+          "Developer accounts for minors: parent-managed, explained step by step",
+          "Store listings: names, icons, screenshots that convert",
+          "Review guidelines: what gets apps rejected",
+          "Internal testing tracks and TestFlight-style distribution",
+          "Ratings, privacy labels and data disclosures",
+          "The costs, plainly: what Google and Apple charge",
+          "When a PWA is the smarter launch"
         ],
         "projects": [
-          "2D platformer game",
-          "Puzzle game like 2048",
-          "Multiplayer card game",
-          "Endless runner game"
+          "A complete store-ready listing pack for your app: icon, screenshots, copy"
         ],
-        "practice": "Create 5 mini-games"
-      },
-      "week_78": {
-        "title": "Phase 3 Capstone Project",
-        "topics": [
-          "Planning cross-platform app",
-          "Choosing the right framework",
-          "Architecture for scale",
-          "Backend selection",
-          "Deployment strategy",
-          "Marketing plan"
-        ],
-        "projects": [
-          "MAJOR CAPSTONE: Cross-Platform App",
-          "Build same app for iOS, Android, Web",
-          "Include: Complex UI, real-time features, offline support, monetization",
-          "Launch on all platforms simultaneously"
-        ],
-        "assessment": "Phase 3 Final - Multi-platform app with 500+ users"
+        "practice": "Run your app against the store review checklist and fix the failures",
+        "assessment": "Month 5 check: store-readiness review plus mixed questions from phases 1-2"
       }
-    }
-  },
-  "phase_4_advanced_production": {
-    "title": "PHASE 4: Advanced Technologies & Launch (Months 14-18, Weeks 57-78)",
-    "description": "Master cutting-edge technologies, build viral apps, and launch your startup.",
-    "month_19_20": {
-      "title": "Months 14-15: AI, AR & Advanced Features",
-      "weeks": "Week 57-65",
-      "week_79_80": {
-        "title": "AI Integration in Mobile Apps",
-        "topics": [
-          "AI/ML basics for mobile developers",
-          "OpenAI API integration (ChatGPT)",
-          "Google ML Kit features",
-          "Core ML for iOS apps",
-          "TensorFlow Lite for mobile",
-          "Image recognition and classification",
-          "Text recognition (OCR)",
-          "Natural language processing",
-          "Sentiment analysis",
-          "Face detection and recognition",
-          "Object detection in real-time",
-          "On-device vs cloud ML"
-        ],
-        "projects": [
-          "AI chatbot app",
-          "Smart camera with object detection",
-          "Language translator app",
-          "AI study buddy app"
-        ],
-        "practice": "Add AI features to 5 existing apps"
-      },
-      "week_81_82": {
-        "title": "Augmented Reality (AR) Development",
-        "topics": [
-          "AR fundamentals: How Pokemon Go works",
-          "ARCore for Android",
-          "ARKit for iOS",
-          "Unity AR Foundation",
-          "React Native AR libraries",
-          "Flutter AR plugins",
-          "3D models and scenes",
-          "Plane detection and tracking",
-          "Image targets and markers",
-          "Face filters like Snapchat",
-          "World tracking and SLAM",
-          "AR Cloud and persistence"
-        ],
-        "projects": [
-          "AR furniture placement app",
-          "Face filter app",
-          "AR gaming experience",
-          "Educational AR app"
-        ],
-        "practice": "Create 10 AR experiences"
-      },
-      "week_83_84": {
-        "title": "Advanced Gaming Features",
-        "topics": [
-          "Real-time multiplayer with Photon",
-          "Game Center and Google Play Games",
-          "Leaderboards and achievements",
-          "In-game chat systems",
-          "Matchmaking algorithms",
-          "Game physics engines",
-          "Procedural generation",
-          "Game AI and behaviors",
-          "Virtual economies",
-          "Loot boxes and rewards",
-          "Season pass systems",
-          "Game analytics and metrics"
-        ],
-        "projects": [
-          "Multiplayer battle game",
-          "Social casino game",
-          "MOBA-style game",
-          "Battle royale mini-game"
-        ],
-        "practice": "Add multiplayer to existing games"
-      },
-      "week_85_86": {
-        "title": "IoT & Wearables Integration",
-        "topics": [
-          "Internet of Things basics",
-          "Bluetooth Low Energy (BLE)",
-          "Connecting to Arduino/Raspberry Pi",
-          "Smart home integration",
-          "Apple Watch development",
-          "Wear OS development",
-          "Fitness tracker integration",
-          "Health data with HealthKit/Google Fit",
-          "HomeKit and Google Home",
-          "MQTT protocol for IoT",
-          "Edge computing concepts",
-          "5G and mobile apps"
-        ],
-        "projects": [
-          "Smart home controller app",
-          "Fitness app with wearables",
-          "IoT dashboard app",
-          "Apple Watch companion app"
-        ],
-        "practice": "Build IoT control apps"
-      },
-      "week_87": {
-        "title": "AI Features & Agents in Mobile Apps",
+    },
+    "month_6_modern_app": {
+      "title": "Month 6: The Modern App",
+      "weeks": "Weeks 21-24",
+      "week_21": {
+        "title": "AI Features in Your App",
         "topics": [
           "Calling an AI API from a mobile app",
           "Why your API key must never ship in the app",
@@ -1139,7 +546,8 @@
           "Caching and cost: what an AI feature actually costs per user",
           "Rate limits and graceful degradation",
           "Privacy: what leaves the device, and what must not",
-          "Telling users when they are talking to an AI"
+          "Telling users when they are talking to an AI",
+          "Accounts for AI services are set up with a parent where required"
         ],
         "projects": [
           "AI assistant app",
@@ -1148,419 +556,397 @@
           "AI feature cost dashboard"
         ],
         "practice": "Add AI features to 3 apps"
-      }
-    },
-    "month_21_22": {
-      "title": "Months 16-17: Startup & Business Skills",
-      "weeks": "Week 66-74",
-      "week_88_89": {
-        "title": "App Business Fundamentals",
-        "topics": [
-          "Validating app ideas: Will teens use it?",
-          "Market research and competition analysis",
-          "Creating business model canvas",
-          "Revenue models for apps",
-          "Unit economics: CAC, LTV, churn",
-          "Pricing strategies",
-          "Freemium vs paid apps",
-          "Subscription psychology",
-          "Creating pitch decks",
-          "Talking to investors (even as a teen)",
-          "Legal basics: Terms of service, privacy",
-          "Intellectual property protection"
-        ],
-        "projects": [
-          "Business plan for your app",
-          "Pitch deck creation",
-          "Financial projections",
-          "Legal documents template"
-        ],
-        "practice": "Analyze 10 successful app businesses"
       },
-      "week_90_91": {
-        "title": "Growth Hacking & Viral Marketing",
+      "week_22": {
+        "title": "Accessibility and App Safety",
         "topics": [
-          "Growth hacking for zero budget",
-          "Viral coefficient and K-factor",
-          "Building viral loops",
-          "Social sharing mechanics",
-          "Referral programs that work",
-          "Influencer partnerships for teens",
-          "TikTok marketing strategies",
-          "Instagram growth tactics",
-          "Community building on Discord",
-          "Product Hunt launches",
-          "App Store featuring tactics",
-          "PR without paying agencies"
+          "Accessibility: apps your grandmother and your classmate with a screen reader can use",
+          "Touch targets, contrast and dynamic text sizes",
+          "Security basics: secrets never ship in the app",
+          "Safe auth flows and session handling",
+          "Storing sensitive data properly",
+          "Rate limiting and abuse thinking, lightly",
+          "An empathy audit: using your app the hard way"
         ],
         "projects": [
-          "Viral marketing campaign",
-          "Referral system implementation",
-          "Social media strategy",
-          "Launch plan creation"
+          "A full accessibility and safety pass on your best app, with a written report"
         ],
-        "practice": "Growth hack your published apps"
+        "practice": "Navigate your app with the screen reader on"
       },
-      "week_92_93": {
-        "title": "User Psychology & Retention",
+      "week_23": {
+        "title": "An Honest Week of Flutter",
         "topics": [
-          "Psychology of addictive apps",
-          "Hook model: Trigger, Action, Reward, Investment",
-          "Gamification principles",
-          "Onboarding that converts",
-          "Push notification psychology",
-          "Social proof and FOMO",
-          "Variable reward schedules",
-          "Building habits in users",
-          "Retention metrics and cohorts",
-          "Reducing churn rate",
-          "Win-back campaigns",
-          "User segmentation strategies"
+          "Flutter: Google's UI toolkit",
+          "Why Flutter? Single codebase, native performance",
+          "Dart programming language basics",
+          "Flutter architecture overview",
+          "Setting up Flutter environment",
+          "Hot reload: Instant gratification",
+          "Widgets: Everything is a widget",
+          "Stateless vs Stateful widgets",
+          "Basic widgets: Container, Row, Column",
+          "Material Design and Cupertino widgets",
+          "Layout in Flutter",
+          "Building your first Flutter app",
+          "What transfers from React Native, and when Flutter is the better choice"
         ],
         "projects": [
-          "Gamification system",
-          "Onboarding flow redesign",
-          "Retention improvement plan",
-          "Habit-forming features"
+          "Flutter calculator app",
+          "Business card app",
+          "Dice game in Flutter",
+          "Quiz app with scoring"
         ],
-        "practice": "Apply psychology to your apps"
+        "practice": "Complete Flutter codelabs"
       },
-      "week_94_95": {
-        "title": "Scaling & Team Building",
+      "week_24": {
+        "title": "Phase 2 Capstone: The Polished App",
         "topics": [
-          "When to scale your app",
-          "Technical scaling challenges",
-          "Building a development team",
-          "Remote collaboration tools",
-          "Project management for apps",
-          "Agile/Scrum for small teams",
-          "Code review processes",
-          "Documentation best practices",
-          "Customer support systems",
-          "Community management",
-          "Hiring your first employees",
-          "Equity and compensation"
+          "Choosing the phase capstone: the app worth polishing to store-grade",
+          "Bringing it together: data, device features, polish, analytics, maybe AI",
+          "A real beta: five users, structured feedback",
+          "Iterating on feedback without losing the plot",
+          "A cumulative review of phases 1-2"
         ],
         "projects": [
-          "Scaling plan document",
-          "Team collaboration setup",
-          "Support system implementation",
-          "Community platform launch"
+          "PHASE CAPSTONE: a polished, store-ready app with a real beta test behind it"
         ],
-        "practice": "Collaborate on group project"
-      },
-      "week_96": {
-        "title": "Advanced Monetization & Analytics",
-        "topics": [
-          "Advanced monetization strategies",
-          "Dynamic pricing models",
-          "Cohort-based analytics",
-          "LTV prediction models",
-          "Churn prediction and prevention",
-          "Revenue optimization",
-          "Ad mediation platforms",
-          "Subscription optimization",
-          "International monetization",
-          "Platform fee optimization",
-          "Financial reporting",
-          "Investor metrics and KPIs"
-        ],
-        "projects": [
-          "Revenue optimization system",
-          "Analytics dashboard",
-          "Investor report template",
-          "Monetization A/B tests"
-        ],
-        "practice": "Optimize revenue for all apps"
-      }
-    },
-    "month_23": {
-      "title": "Month 18: Final Projects & Launch",
-      "weeks": "Week 75-78",
-      "week_97": {
-        "title": "Final Project Planning",
-        "topics": [
-          "Choosing your magnum opus",
-          "Market validation",
-          "Technical architecture",
-          "Design system creation",
-          "Development timeline",
-          "Resource planning",
-          "Risk assessment",
-          "Success metrics definition"
-        ],
-        "projects": [
-          "FINAL PROJECT: Your Startup App",
-          "Complete business plan",
-          "Technical specification",
-          "Design mockups",
-          "Development roadmap"
-        ],
-        "practice": "Research and planning sprint"
-      },
-      "week_98": {
-        "title": "Final Project Development",
-        "topics": [
-          "Agile development sprints",
-          "Core feature implementation",
-          "UI/UX implementation",
-          "Backend integration",
-          "Testing and debugging",
-          "Performance optimization",
-          "Security implementation",
-          "Beta version ready"
-        ],
-        "projects": [
-          "MVP development",
-          "Alpha testing",
-          "Core features complete",
-          "Basic monetization"
-        ],
-        "practice": "Rapid development techniques"
-      },
-      "week_99": {
-        "title": "Launch Preparation",
-        "topics": [
-          "Pre-launch marketing",
-          "Beta testing program",
-          "App Store optimization",
-          "Press kit preparation",
-          "Influencer outreach",
-          "Launch day planning",
-          "Support system setup",
-          "Analytics implementation"
-        ],
-        "projects": [
-          "Marketing campaign launch",
-          "Beta test with 100 users",
-          "Store listings optimized",
-          "Launch event planning"
-        ],
-        "practice": "Launch preparation checklist"
-      },
-      "week_100": {
-        "title": "Launch Week & Celebration",
-        "topics": [
-          "Launch day execution",
-          "Real-time monitoring",
-          "User feedback management",
-          "Quick iteration and fixes",
-          "Media outreach",
-          "Community engagement",
-          "Metrics tracking",
-          "Post-launch analysis"
-        ],
-        "projects": [
-          "LAUNCH YOUR APP!",
-          "Get 1000+ downloads",
-          "Media coverage",
-          "User testimonials",
-          "Revenue generation"
-        ],
-        "practice": "Launch and iterate"
-      }
-    },
-    "month_24": {
-      "title": "Weeks 77-78: Career Launch & Beyond",
-      "weeks": "Week 77-78",
-      "week_101_102": {
-        "title": "Portfolio & Career Preparation",
-        "topics": [
-          "Building killer portfolio",
-          "GitHub profile optimization",
-          "LinkedIn for teen developers",
-          "Personal brand building",
-          "Blog writing about your apps",
-          "YouTube channel for developers",
-          "Conference speaking (teen tracks)",
-          "Open source contributions",
-          "Freelancing as a teen",
-          "College applications with apps",
-          "Internship applications",
-          "Startup vs corporate jobs"
-        ],
-        "projects": [
-          "Portfolio website",
-          "Video demos of all apps",
-          "Technical blog posts",
-          "Open source contributions"
-        ],
-        "deliverables": [
-          "Professional portfolio",
-          "15+ published apps",
-          "10,000+ total downloads",
-          "Revenue-generating apps"
-        ]
-      },
-      "week_103": {
-        "title": "Future Technologies & Continued Learning",
-        "topics": [
-          "Future of app development",
-          "Quantum computing basics",
-          "Brain-computer interfaces",
-          "Extended Reality (XR)",
-          "6G and future connectivity",
-          "Voice-first interfaces",
-          "Ambient computing",
-          "Sustainable app development",
-          "Privacy-first development",
-          "Regulation and compliance future",
-          "Continuous learning strategies",
-          "Building your tech network"
-        ],
-        "projects": [
-          "Future tech prototype",
-          "Learning roadmap",
-          "Network building plan",
-          "Next big idea"
-        ],
-        "deliverables": [
-          "Future learning plan",
-          "Tech community connections",
-          "Mentorship relationships",
-          "Ongoing projects"
-        ]
-      },
-      "week_104": {
-        "title": "Graduation & Celebration",
-        "topics": [
-          "Course completion ceremony",
-          "Final presentations",
-          "Peer app reviews",
-          "Success story sharing",
-          "Alumni network induction",
-          "Continued support access",
-          "Future collaboration opportunities",
-          "Celebration and reflection"
-        ],
-        "deliverables": [
-          "Course completion certificate",
-          "Professional Mobile App Developer Certification",
-          "Letter of recommendation",
-          "Alumni network access",
-          "Lifetime course updates",
-          "Success story feature"
-        ],
-        "assessment": "FINAL SHOWCASE: Present your app empire to investors and industry professionals"
+        "practice": "Ship two improvements straight from beta feedback",
+        "assessment": "Phase 2 exam: capstone demo plus a written mixed paper spanning phases 1 and 2"
       }
     }
   },
-  "faqs": [
-    {
-      "question": "What will my teen learn in this app development course?",
-      "answer": "The 18 month journey covers programming fundamentals and UI/UX design, native Android with Kotlin and iOS with Swift, cross-platform development with React Native and Flutter, then AI and AR features, app monetization and publishing to Google Play and the App Store. It ends with real, store-ready apps."
+  "phase_3_wider_craft": {
+    "title": "PHASE 3: The Wider Craft and the Capstone Build (Months 7-8, Weeks 25-32)",
+    "description": "The map of native development, notifications done right, professional Git workflow, and then the main event: the final capstone designed and built.",
+    "month_7_wider_world": {
+      "title": "Month 7: The Wider World",
+      "weeks": "Weeks 25-28",
+      "week_25": {
+        "title": "The Native Map: Kotlin and Swift, Honestly",
+        "topics": [
+          "What native development is and what it buys you",
+          "A guided tour of Android Studio and Kotlin, reading real code",
+          "A guided look at Swift and SwiftUI",
+          "When React Native is enough, and when teams go native",
+          "How native modules plug into React Native",
+          "Where our Kotlin and Swift courses continue this road",
+          "Reading a job market map without hype"
+        ],
+        "projects": [
+          "A one-page written comparison: your app in RN vs native, costs and benefits"
+        ],
+        "practice": "Rebuild one tiny screen natively, just to feel the difference"
+      },
+      "week_26": {
+        "title": "Push Notifications and Background Work",
+        "topics": [
+          "Push notifications end to end with Expo",
+          "Notification design: helpful vs spam, decided honestly",
+          "Deep links: notifications that open the right screen",
+          "Background tasks and their limits on mobile",
+          "Scheduling and reminders done reliably",
+          "Battery respect: being a good citizen on the device",
+          "Measuring whether notifications actually help"
+        ],
+        "projects": [
+          "A reminder or club-alerts feature with tasteful push notifications"
+        ],
+        "practice": "A/B your own notification copy on real users, kindly"
+      },
+      "week_27": {
+        "title": "Git and Team Workflow for Apps",
+        "topics": [
+          "Version control recap: the professional loop",
+          "Branches and pull requests on a real app repo",
+          "Code review: reading a teammate’s screen code kindly",
+          "Release branches and versioning apps",
+          "Changelogs users can read",
+          "CI checks that catch broken builds early",
+          "Where our full Git and GitHub course goes deeper"
+        ],
+        "projects": [
+          "Your app repo run professionally for two weeks: branches, PRs, releases"
+        ],
+        "practice": "Review a classmate’s pull request properly"
+      },
+      "week_28": {
+        "title": "Mini Product Sprint",
+        "topics": [
+          "One week, one tiny product: scope ruthlessly",
+          "From idea to installed app in five sessions",
+          "Cutting features without cutting the point",
+          "A retrospective that actually teaches",
+          "Cumulative review before the capstone months"
+        ],
+        "projects": [
+          "A one-week micro-app, built solo and shipped to your own phone"
+        ],
+        "practice": "Write the honest retrospective: what you would do differently",
+        "assessment": "Month 7 check: sprint demo plus a mixed quiz reaching across the course"
+      }
     },
-    {
-      "question": "Is this suitable for a complete beginner?",
-      "answer": "Yes, it is built for teenagers starting from zero coding knowledge; the first months teach programming through app concepts teens actually care about. The small group format lets the pace adjust to each student."
-    },
-    {
-      "question": "Do we need a Mac or special equipment?",
-      "answer": "A regular computer and a smartphone cover most of the course, including all Android, React Native and Flutter work. Building native iOS apps with Swift does require a Mac, so if you do not have one, the mentor weights that phase toward Android while still teaching the iOS concepts, and no learning is lost."
-    },
-    {
-      "question": "How do we track progress over 18 months?",
-      "answer": "Every phase ships working apps, from first web apps to native and cross-platform builds, so progress is measured in things your teen can demo. The mentor keeps a project record, and the final phase includes the publishing process, the clearest milestone there is."
-    },
-    {
-      "question": "Will my teen actually publish an app?",
-      "answer": "Publishing to Google Play and the App Store is taught as part of the final phase, including store listings and release processes. Whether a specific app goes live depends on store policies, developer account setup and family choice, but every student finishes with store-ready apps and full knowledge of how to launch them."
-    },
-    {
-      "question": "What does the course cost?",
-      "answer": "Group classes are ₹1,499 per month with 2 live classes per week, a mini batch is ₹2,999 per month, and personal 1-on-1 mentorship is ₹4,999 per month. International students pay a price set for their own country, shown on this page in their local currency."
-    },
-    {
-      "question": "Can my teen attend a free class first?",
-      "answer": "Yes, every student starts with a free demo class, no commitment: book at learn.modernagecoders.com/contact or WhatsApp +91 91233 66161. The demo lets your teen meet the teacher and build something small in the very first hour."
-    },
-    {
-      "question": "Are classes live or recorded?",
-      "answer": "Live, always: one hour online sessions with a real teacher in a small group, never pre-recorded videos. Teens code during class, share their screens and get unstuck in real time."
-    },
-    {
-      "question": "Is there a certificate at the end?",
-      "answer": "Yes, a Mobile App Developer certification on completion, plus something more useful: a portfolio of working apps your teen designed, built and can demo to anyone, including future colleges and employers."
+    "month_8_capstone_build": {
+      "title": "Month 8: The Capstone, Designed and Built",
+      "weeks": "Weeks 29-32",
+      "week_29": {
+        "title": "Capstone Spec and Design Sprint",
+        "topics": [
+          "Choosing the capstone: the app you wish existed",
+          "A one-page spec: users, screens, data, features",
+          "Wireframes before pixels, pixels before code",
+          "Data model and Firebase plan reviewed",
+          "Milestones: working core by week 2, feature-complete by week 4",
+          "Instructor sign-off before the build begins"
+        ],
+        "projects": [
+          "Signed-off capstone spec, wireframes and repository"
+        ],
+        "practice": "Pitch the spec to the batch and absorb one hard question"
+      },
+      "week_30_31": {
+        "title": "Capstone Build",
+        "topics": [
+          "Two focused weeks of building in vertical slices",
+          "Instructor checkpoints and course corrections",
+          "Using everything: navigation, data, device features, polish, maybe AI",
+          "Daily commits and an always-working build",
+          "A mid-build hallway test with a real user",
+          "Scope cuts made early and honestly"
+        ],
+        "projects": [
+          "The capstone app, feature-complete with version control and a working build every day"
+        ],
+        "practice": "A working build at the end of every session, no exceptions"
+      },
+      "week_32": {
+        "title": "User Testing and Iteration",
+        "topics": [
+          "Structured beta: five real users, real tasks, silent observation",
+          "Turning feedback into a ranked fix list",
+          "Shipping the fixes that matter first",
+          "Crash and edge-case hunting",
+          "The capstone at v1.0: what that honestly means"
+        ],
+        "projects": [
+          "Capstone v1.0: beta-tested, iterated, stable"
+        ],
+        "practice": "Close out the top five feedback items",
+        "assessment": "Phase 3 exam: capstone v1.0 walkthrough plus a written mixed paper over phases 1-3"
+      }
     }
-  ],
+  },
+  "phase_4_launch": {
+    "title": "PHASE 4: Launch (Months 9-10, Weeks 33-40)",
+    "description": "The last mile real developers respect: hardening, honest distribution, real users, iteration, portfolio, and the final exam at demo day.",
+    "month_9_ship": {
+      "title": "Month 9: Ship It Properly",
+      "weeks": "Weeks 33-36",
+      "week_33": {
+        "title": "Hardening Week",
+        "topics": [
+          "Crash hunting: making the app boringly reliable",
+          "Edge cases: bad network, low storage, old phones",
+          "Error reporting so you know when it breaks",
+          "Performance passes on real low-end devices",
+          "The pre-launch checklist run end to end"
+        ],
+        "projects": [
+          "A hardening report: found, fixed, verified"
+        ],
+        "practice": "Test on the oldest phone in the family"
+      },
+      "week_34": {
+        "title": "Distribution, For Real",
+        "topics": [
+          "Production builds with EAS",
+          "Play Store internal and closed testing tracks, parent-managed",
+          "The Apple path explained honestly: accounts, costs, review",
+          "PWA and direct-install fallbacks when stores are not the right move",
+          "Privacy policies and data disclosures written plainly",
+          "Version 1.0.0: cutting the release"
+        ],
+        "projects": [
+          "The capstone distributed to its beta audience through a real channel"
+        ],
+        "practice": "Onboard five users through the real install flow"
+      },
+      "week_35": {
+        "title": "Launch Week",
+        "topics": [
+          "The launch: capstone in real users’ hands",
+          "Watching analytics without vanity",
+          "Support: handling the first bug report gracefully",
+          "Collecting reviews and feedback honestly",
+          "The first patch release, done calmly"
+        ],
+        "projects": [
+          "Launch executed, first patch shipped"
+        ],
+        "practice": "A launch journal: what happened vs what you expected"
+      },
+      "week_36": {
+        "title": "Portfolio and Devlog",
+        "topics": [
+          "An app developer portfolio: installable links and honest screenshots",
+          "The capstone case study: problem, decisions, results",
+          "A devlog post worth reading",
+          "GitHub profile polish",
+          "Explaining one hard bug like an engineer"
+        ],
+        "projects": [
+          "Portfolio page with the capstone case study and install links"
+        ],
+        "practice": "Publish the devlog and share it with the batch",
+        "assessment": "Month 9 check: portfolio review plus a cumulative mixed quiz"
+      }
+    },
+    "month_10_finale": {
+      "title": "Month 10: The Finale",
+      "weeks": "Weeks 37-40",
+      "week_37": {
+        "title": "Iteration Sprint",
+        "topics": [
+          "Reading launch data: what users actually did",
+          "Choosing one meaningful improvement, not five shiny ones",
+          "Building and shipping it inside a week",
+          "Regression care: not breaking what worked"
+        ],
+        "projects": [
+          "One meaningful post-launch improvement, shipped"
+        ],
+        "practice": "Ship it and tell your users what changed"
+      },
+      "week_38_39": {
+        "title": "Final Polish and Demo Preparation",
+        "topics": [
+          "The v1.1 polish pass: details users feel",
+          "Demo craft: the story of the app in four minutes",
+          "A full-course spiral review before the exam",
+          "Mock demos with brutal, kind feedback",
+          "The written-exam revision plan"
+        ],
+        "projects": [
+          "Capstone v1.1 plus a rehearsed demo"
+        ],
+        "practice": "Two mock demos, each tighter than the last"
+      },
+      "week_40": {
+        "title": "Demo Day and What Comes Next",
+        "topics": [
+          "Presenting the capstone: live on a real phone, plus the hardest bug story",
+          "An honest skills inventory: strong, shaky, next",
+          "Where each path leads: Kotlin, Swift, full-stack web or DSA",
+          "Staying sharp: shipping small things often"
+        ],
+        "projects": [
+          "Demo day presentation delivered to the batch and parents"
+        ],
+        "assessment": "FINAL EXAM: a practical build plus a written paper with questions mixed from every phase. Passing earns the certificate; a student who falls short gets a focused revision plan and a free retest"
+      }
+    }
+  },
   "additional_learning_resources": {
     "projects_throughout_course": [
-      "Phase 1: 10+ Web apps, PWAs, Firebase projects",
-      "Phase 2: 8+ Native Android apps, 8+ iOS apps, Published apps",
-      "Phase 3: 10+ Cross-platform apps with React Native and Flutter",
-      "Phase 4: AR apps, AI apps, Games, Blockchain apps, Final startup",
-      "Total: 40+ complete apps from simple to complex"
+      "Phase 1: JavaScript builds, React projects, an installable PWA, and a first real app on the student’s own phone",
+      "Phase 2: an offline-capable app, camera and location features, a store-ready listing pack, an AI feature, and a polished beta-tested app",
+      "Phase 3: a native comparison study, push notifications, a one-week micro-app, and the capstone built to v1.0",
+      "Phase 4: hardening, real distribution, a launch with real users, an iteration release, and the portfolio case study"
     ],
-    "total_projects_built": "40+ apps across all platforms, 10+ published to stores",
+    "total_projects_built": "20+ builds across the course, crowned by a launched, user-tested capstone app",
     "skills_mastered": [
-      "Languages: JavaScript, TypeScript, Kotlin, Swift, Dart, Python",
-      "Frontend: React, React Native, SwiftUI, Jetpack Compose, Flutter",
-      "Backend: Firebase, Node.js, REST APIs, GraphQL, WebSockets",
-      "Databases: Firestore, SQLite, Core Data, Realm, Cloud databases",
-      "Design: Figma, UI/UX principles, Material Design, iOS HIG",
-      "Platforms: iOS, Android, Web, PWAs, Cross-platform",
-      "Advanced: AI/ML, AR, Blockchain, IoT, Gaming",
-      "Business: Monetization, Marketing, Analytics, Growth, Startups",
-      "Tools: Git, VS Code, Xcode, Android Studio, Terminal",
-      "Publishing: App Store, Google Play, Marketing, ASO"
+      "JavaScript and React: the language and interface thinking modern apps run on",
+      "React Native with Expo: one codebase on Android and iOS, from any laptop",
+      "Data: local storage, SQLite, offline-first patterns and Firebase sync",
+      "Device powers: camera, location, notifications and permissions handled respectfully",
+      "Product craft: polish, animations, analytics, accessibility and app safety",
+      "AI features: model calls from the app done safely with guardrails",
+      "Shipping: builds, store processes told honestly, beta testing, launch and iteration",
+      "Professional habits: Git workflow, code review, testing and honest scoping"
     ],
     "weekly_structure": {
-      "theory_videos": "4-5 hours",
-      "hands_on_coding": "6-8 hours",
-      "projects": "3-4 hours",
-      "practice_problems": "2-3 hours",
-      "total_per_week": "12-15 hours"
-    },
-    "support_provided": {
-      "live_sessions": "Weekly group mentoring with young developers",
-      "mentorship": "1-on-1 guidance from successful app developers",
-      "code_review": "Expert feedback on all projects",
-      "startup_support": "Incubation for promising app ideas",
-      "career_guidance": "Resume and interview preparation, plus portfolio and profile review."
+      "live_classes": "2 live one-hour classes per week, building along with the instructor",
+      "homework": "Homework after every class, and a mixed-review assignment at the end of every month so earlier skills stay sharp",
+      "practice": "3-4 hours of building between classes",
+      "review": "Every submitted build reviewed with written feedback; recurring issues reopened in class"
     },
     "certification": {
-      "phase_certificates": "Certificate after each phase",
-      "final_certificate": "Professional App Developer Certification",
-      "linkedin_badge": "Verified LinkedIn certification",
-      "apple_certification": "Preparation for Apple certification",
-      "google_certification": "Preparation for Google certification",
-      "portfolio_apps": "20+ apps to showcase"
+      "completion": "Certificate from Modern Age Coders, awarded on passing the final exam. Fall short and there is focused revision and a free retest: the certificate certifies knowledge, not attendance"
+    },
+    "support_provided": {
+      "doubt_support": "WhatsApp doubt support between classes, so nobody stays stuck on a red screen for days",
+      "progress_updates": "Regular progress notes to parents: what was built, what comes next, and where encouragement at home helps"
     }
   },
   "prerequisites": {
-    "education": "No prerequisites - complete beginner friendly",
-    "coding_experience": "Zero coding knowledge required",
-    "equipment": "Computer (Mac for iOS development) and smartphone",
-    "time_commitment": "12-15 hours per week",
-    "english": "Basic English comprehension",
-    "motivation": "Passion for apps and technology"
+    "coding_experience": "None. JavaScript is taught from the first variable",
+    "computer_skills": "Comfortable typing and managing files and folders",
+    "equipment": "Any computer with a stable internet connection, Windows is fully sufficient, plus an Android or iOS phone for testing their own apps",
+    "age": "13 to 18. Batches are grouped by age and pace so the room always fits",
+    "time_commitment": "2 live classes plus 3-4 hours of practice a week"
   },
   "who_is_this_for": {
-    "students": "Teenagers (13-19 years) interested in tech",
-    "working_professionals": "Young adults wanting app development skills",
-    "entrepreneurs": "Teens with app ideas wanting to build them",
-    "freelancers": "Start earning while in school",
-    "kids": "Motivated pre-teens with parental support",
-    "anyone": "Anyone dreaming of creating the next big app"
+    "app_dreamers": "Teens who look at the apps they use daily and think: I could make one of those, and are right",
+    "complete_beginners": "Students starting from zero who want one honest path instead of a four-framework tour",
+    "makers": "Teens who want their work living on real phones, theirs and their friends’, not in a folder",
+    "future_engineers": "Students eyeing computer science who want a shipped product behind their applications",
+    "practical_families": "Parents who want the store-and-accounts reality for minors explained straight"
   },
   "career_paths_after_completion": [
-    "Mobile App Developer (iOS/Android)",
-    "Cross-Platform Developer",
-    "Frontend Mobile Engineer",
-    "Full Stack App Developer",
-    "AR/VR Developer",
-    "Game Developer",
-    "App Development Freelancer",
-    "Technical Founder/CEO",
-    "Product Manager",
-    "UX/UI Designer for Mobile"
+    "Kotlin and Swift courses: native depth on either platform, from a real foundation",
+    "Full-stack web development: the JavaScript and React here carry straight across",
+    "Data Structures and Algorithms: the computer science core for engineering paths",
+    "Real small apps: tools for family, school clubs and local teams, shipped for real",
+    "College applications: a launched app with real users is a rare and honest differentiator"
   ],
   "course_guarantees": {
     "live_classes": "Live, interactive classes with a real instructor, never pre-recorded videos.",
     "small_batches": "Small batches only: group classes are capped at 10 students, with mini-batch (3 to 4 students) and personal 1-on-1 options.",
-    "structured_curriculum": "A structured, well-paced curriculum taught step by step, with hands-on practice in every session.",
+    "structured_curriculum": "A structured, well-paced curriculum taught step by step, with classwork in every session and homework after every class.",
+    "real_assessment": "Mixed-review assignments after every month and a final exam that decides the certificate: real knowledge, real work, real apps.",
     "doubt_support": "Doubt support between classes over WhatsApp, so you are never left stuck.",
-    "certificate": "A course-completion certificate you can share.",
+    "certificate": "A certificate you earn by passing the final exam, with a free retest after revision if needed.",
     "free_demo": "A free demo class before you enrol, so you can decide with no pressure."
-  }
+  },
+  "faqs": [
+    {
+      "question": "What will my teen build in this app development course?",
+      "answer": "More than 20 real builds across ten months, on an escalating ladder: an installable web app in month 2, a first React Native app on their own phone in month 3, an offline-capable app with camera and location features, a polished beta-tested app with an AI feature by month 6, a one-week micro-app sprint, and finally a capstone app that is spec’d, built, beta-tested, distributed and launched to real users, then presented at demo day."
+    },
+    {
+      "question": "How long does it take a teenager to learn app development?",
+      "answer": "To a genuinely launched app: 10 months at 2 live classes a week plus 3 to 4 hours of practice. The syllabus keeps 2 months of margin in hand, students who need more repetition take up to 12 months with no rushing and no penalty. The first app lands on their own phone in month 3, so motivation never has to wait for the finish line."
+    },
+    {
+      "question": "How is my teen assessed? Is the certificate just for attending?",
+      "answer": "No. Classwork runs inside every session, homework follows every class, and each month ends with an assignment that deliberately mixes new questions with earlier topics so knowledge compounds instead of fading. Every phase closes with a cumulative exam, and the course ends with a final exam: a practical build plus written questions drawn from the whole syllabus. Passing earns the certificate; falling short earns a focused revision plan and a free retest."
+    },
+    {
+      "question": "Why React Native instead of Kotlin, Swift or Flutter?",
+      "answer": "Because one stack mastered beats four toured, and React Native is the honest choice for a one-person teen team: one codebase for Android and iOS, full development on a Windows laptop, JavaScript skills that transfer to and from the web, and real industry weight behind it. The course still gives Flutter an honest taste week and maps native Kotlin and Swift clearly, and our dedicated Kotlin and Swift courses continue those roads for students who want native depth."
+    },
+    {
+      "question": "Do we need a Mac or an iPhone?",
+      "answer": "No Mac is needed for the course: React Native with Expo runs fully on Windows, and cloud build services handle iOS packaging when needed. Any Android or iOS phone works for testing. The Apple publishing path, its account, cost and review process, is explained honestly in the store-readiness week for families who want to pursue it."
+    },
+    {
+      "question": "Will my teen actually publish an app to the stores?",
+      "answer": "Here is the straight answer most courses avoid: store developer accounts have age and payment requirements, so for minors they are parent-managed, and we walk families through exactly that in the distribution weeks. Every student ships for real regardless: internal testing tracks, direct installs and PWA distribution put the capstone in real users’ hands, and families who set up a parent-managed account can take it all the way to a public store listing."
+    },
+    {
+      "question": "How is AI used in this course?",
+      "answer": "Two ways, both honest. Students build AI features into their own apps, model calls made safely, streaming responses, guardrails against misuse, with accounts set up with a parent where a service requires it. And they learn to use AI coding assistants the professional way: as accelerators for a developer who understands the code, never as a substitute for understanding it."
+    },
+    {
+      "question": "What does the course cost?",
+      "answer": "Group classes are ₹1,499 per month, with 2 live classes a week in batches capped at 10 students. A mini batch of 3-4 students is ₹2,999 per month, and personal 1-on-1 classes are ₹4,999 per month. International students pay a price set for their own country, shown on this page in their local currency."
+    },
+    {
+      "question": "Can my teen attend a free class first?",
+      "answer": "Yes, a free demo class with no commitment: book at learn.modernagecoders.com/contact or message us on WhatsApp at +91 91233 66161. Parents are welcome to sit in, and the equipment and accounts reality is explained right there."
+    },
+    {
+      "question": "Are classes live or recorded?",
+      "answer": "Live, always: small interactive groups with a real instructor, never pre-recorded videos. Mobile tooling changes fast and beginners hit unique errors; live teaching is the only format that handles both honestly."
+    }
+  ]
 }

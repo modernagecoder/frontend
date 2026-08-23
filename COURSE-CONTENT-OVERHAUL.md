@@ -114,7 +114,7 @@ Status: [ ] pending · [~] in progress · [x] done+committed
 - [x] microsoft-office-kids.json DONE 2026-08-23 (structure was fine): 6mo -> 5-6mo (20wk curriculum); Paint 3D (discontinued) -> Photos/Clipchamp; ages unified 7-12 (was 7-18); month 6 fluff merged; exam system + free-web-apps honesty
 
 ### Tier 3: 18-month tier
-- [ ] app-dev-teens.json (18mo -> 10-12mo)
+- [x] app-dev-teens.json (18mo -> 10-12mo) DONE 2026-08-23: 40wk one-stack path (JS/React/React Native+Expo+Firebase), Flutter taste + native-map weeks, store honesty for minors (parent-managed accounts), launched capstone; cut Kotlin/Swift/Flutter full months, growth-hacking/viral/monetization/AR/IoT padding
 - [ ] gcse-mathematics.json (18mo -> exam-cycle framing)
 - [ ] igcse-mathematics.json (18mo -> exam-cycle framing)
 - [ ] a-level-maths.json (18mo -> exam-cycle framing, fix 72wk vs 36 blocks)
