@@ -3400,5 +3400,41 @@
       "A date for the closing of the estuary mouth. The sources describe the site as a bar-built estuary and put its harbour role in the past tense, but no year was traced, so the page places the turning point inside the invented series only.",
       "A population for the wilayat. No census table could be traced in this session, so none appears."
     ]
+  },
+  "coding-classes-in-dhank": {
+    "market": "Dhank, Adh Dhahirah",
+    "bodyClass": "cg-dnk",
+    "curriculumAuthority": "Oman Ministry of Education, General Education Diploma. The page argues from terrain rather than curriculum: a wilayat ringed by mountains is one where travelling to a lesson costs more than the lesson, and a connection removes that cost from the decision.",
+    "localProject": "A many-to-many relationship squeezed into one column. Dhank is known for three crafts and households practise more than one. Across 60 households, 26 of them multi-craft, exact matching on a comma-joined column reports leather at 14 against a true 34, understating by 59 per cent, with rose water 63 per cent low and honey 67 per cent low; meanwhile the three true counts sum to 91 against 60 households, overstating by 52 per cent. The same file is badly low one way and badly high the other. Assigned to this page and no other.",
+    "requiredMentions": [
+      "Wadi Al Fateh",
+      "Wadi Qumeirah",
+      "tanning leather",
+      "rose water",
+      "honey bees",
+      "mountains surrounding all sides",
+      "odd topographic",
+      "centre of Al Dhahirah",
+      "Dhank"
+    ],
+    "sources": [
+      {
+        "claim": "The Wilayat of Dhank is located in the centre of Al Dhahirah Governorate, takes its name from its odd topographic features with mountains surrounding all sides, borders Al Buraimi on the northwest, Ibri on the southwest and Yanqul on the east, has many valleys such as Wadi Al Fateh and Wadi Qumeirah, and is known for traditional crafts such as tanning leather, extracting rose water and breeding honey bees.",
+        "url": "https://www.omanobserver.om/article/7354/Oman/wilayat-of-dhank-odd-topography-and-tourist-attractions"
+      },
+      {
+        "claim": "The falaj of Dhank is a noted feature of the wilayat.",
+        "url": "https://timesofoman.com/article/103130"
+      },
+      {
+        "claim": "Dhank is a wilayat of the Ad Dhahirah Governorate of Oman.",
+        "url": "https://en.wikipedia.org/wiki/Dhank"
+      }
+    ],
+    "rejectedClaims": [
+      "Any craft survey figures. None is published, so the 60 households and their combinations are teaching values and are labelled as such in the project steps, the pitfalls note and the FAQ.",
+      "A complete list of the wilayat's valleys. The sources name Wadi Al Fateh and Wadi Qumeirah as examples among many, and the page treats them as a sample rather than a list.",
+      "A population for the wilayat. No census table could be traced in this session, so none appears and the page argues from terrain and craft instead."
+    ]
   }
 }
