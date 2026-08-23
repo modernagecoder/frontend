@@ -74,7 +74,7 @@ The wilayat is described as a commercial town and tourist destination with many 
 
 The wilayat receives coastal visitors, which puts seasonal demand on top of local trade. Two demand patterns in one till is a good reason to record what kind of sale a sale was, rather than only how much it came to.
 
-No organisation named here endorses Modern Age Coders. They are cited because a project needs a real setting and because a learner should be able to check every sentence of the setting they are given.
+None of the above is affiliated with Modern Age Coders in any way. They appear because a project about exactness deserves a setting where the numbers were counted rather than estimated, and Jalan Bani Bu Ali is that kind of place.
 
 Signature project
 

@@ -103,6 +103,8 @@ const MARKETS = [
   ['coding-classes-in-al-musanaah',                   'Al Musanaah, Al Batinah South, Oman'],
   ['coding-classes-in-bahla',                         'Bahla, Ad Dakhiliyah, Oman'],
   ['coding-classes-in-al-mudhaibi',                   'Al Mudhaibi, Ash Sharqiyah North, Oman'],
+  ['coding-classes-in-al-khaburah',                   'Al Khaburah, Al Batinah North, Oman'],
+  ['coding-classes-in-shinas',                        'Shinas, Al Batinah North, Oman'],
   // Brunei cluster: the country plus its four districts
   ['coding-classes-in-brunei',                    'Brunei Darussalam'],
   ['coding-classes-in-bandar-seri-begawan',       'Bandar Seri Begawan, Brunei'],

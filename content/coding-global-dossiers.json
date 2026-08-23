@@ -2755,5 +2755,75 @@
       "A population figure. The 2022 census gives about 92,193 for the wilayat, but the page argues from area and from the inequality between settlements rather than from a total, so a headline population would be decoration.",
       "Any real per-settlement pass rate. No public per-village result file exists, so the counts in the project are teaching values and are labelled as such on the page."
     ]
+  },
+  "coding-classes-in-al-khaburah": {
+    "market": "Al Khaburah, Al Batinah North",
+    "bodyClass": "cg-khb",
+    "curriculumAuthority": "Oman Ministry of Education, General Education Diploma. The page argues from dispersion rather than curriculum: 198 villages spread from the coast to Adh Dhahirah and about 176 kilometres from Muscat means no physical centre could be convenient for more than a handful of them.",
+    "localProject": "The sum of the peaks against the peak of the sums. A modelled year across the wilayat's 198 villages, each with its own busy season: summing the individual peaks overstates the real system maximum by about 100 per cent, and zero of the 198 villages peaked on the day the whole wilayat did. Assigned to this page and no other; checked free across the cluster before it was chosen.",
+    "requiredMentions": [
+      "Al Khabourah Castle",
+      "Al Sihra",
+      "Khadra Al Makatim",
+      "Sanaa Bani Ghafir",
+      "Miha Bani Kayoum",
+      "198 villages",
+      "Al Qala",
+      "Adh Dhahirah",
+      "khanjar making"
+    ],
+    "sources": [
+      {
+        "claim": "Al Khaburah has 198 villages including Al Sihra, Al Qala, Khadra Al Makatim, Sanaa Bani Ghafir and Miha Bani Kayoum; it lies about 176 km from Muscat and stretches from Saham in the north to As Suwaiq in the south and Adh Dhahirah in the west; residents work in agriculture, sheep herding, fishing, khanjar making, weaving, pottery, copper and leather.",
+        "url": "https://timesofoman.com/article/91795-al-khabourah-majestic-mountains-breathtaking-wadis"
+      },
+      {
+        "claim": "Al Khabourah Castle is the most famous of the wilayat's forts and castles and dates to the 19th century AD.",
+        "url": "https://archiqoo.com/locations/khaburah_fort.php"
+      },
+      {
+        "claim": "Al Khaburah is a wilayat of Al Batinah North Governorate in Oman.",
+        "url": "https://en.wikipedia.org/wiki/Al-Khaburah"
+      }
+    ],
+    "rejectedClaims": [
+      "A population figure. The 2022 census gives about 89,971, but the page argues from the village count and their independence rather than from a total, so a headline population would be decoration.",
+      "Any real per-village demand or consumption figure. No public daily record exists, so the series in the project are modelled and are labelled as modelled on the page."
+    ]
+  },
+  "coding-classes-in-shinas": {
+    "market": "Shinas, Al Batinah North",
+    "bodyClass": "cg-shs2",
+    "curriculumAuthority": "Oman Ministry of Education, General Education Diploma. The page argues from the border rather than the curriculum: Shinas overlooks some of the Sultanate's most important land crossings and runs a port trading with Iran, so its records are bilingual by necessity and its software has to hold two scripts rather than one.",
+    "localProject": "A field measured in characters against a field measured in bytes. Place names from the wilayat in Latin and Arabic through a twenty byte limit: every Latin name survives, a fourteen character Arabic name loses three letters, and a twenty character Arabic name loses half. Assigned to this page and no other; checked free across the cluster before it was chosen.",
+    "requiredMentions": [
+      "Shinas Port",
+      "88,000 tonnes",
+      "traditional dhows",
+      "land crossings",
+      "aflaj irrigation",
+      "United Arab Emirates",
+      "live animals",
+      "UTF-8",
+      "six coastal wilayats"
+    ],
+    "sources": [
+      {
+        "claim": "Shinas is one of the six coastal wilayats of Al Batinah North, bordered to the north by the United Arab Emirates and overlooking some of the Sultanate's most important land crossings, with fertile agricultural plains using aflaj irrigation.",
+        "url": "https://en.wikipedia.org/wiki/Shinas"
+      },
+      {
+        "claim": "Shinas Port handled 88,000 tonnes over a twelve month period, mainly building materials, food, live animals and chemical and pharmaceutical products traded between Oman and Iran.",
+        "url": "https://www.agbi.com/trade/2025/10/oman-and-iran-reap-benefits-as-shinas-port-trade-grows/"
+      },
+      {
+        "claim": "Traditional dhows still sail from Shinas and fresh fish is caught for supply to local markets.",
+        "url": "https://www.takeyourbackpack.com/backpacking-in-oman/visit-shinas/"
+      }
+    ],
+    "rejectedClaims": [
+      "A population figure. The 2022 census gives about 88,317, but the page argues from the border position and the bilingual record rather than from a total.",
+      "Any claim about the port's capacity or its peak throughput. The 88,000 tonne figure is a twelve month throughput, and the page says so rather than letting it be read as a capacity."
+    ]
   }
 }

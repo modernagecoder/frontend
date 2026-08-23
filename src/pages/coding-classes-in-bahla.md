@@ -74,7 +74,7 @@ Bahla sits about 40 kilometres from Nizwa and roughly 200 kilometres from Muscat
 
 The old Bahla Souq sells pottery, silver work and handcrafted goods. A market where the goods are made locally gives a learner a supply chain short enough to model honestly, which is rarer than it sounds.
 
-Naming these places is not a claim of any relationship with them. They are cited because a learner should be able to check the setting of their own project, and because Bahla is documented well enough to make that possible.
+None of the above endorses Modern Age Coders and no relationship is implied. Bahla is used because its measurements are published to a precision that lets a learner test the argument rather than take it on trust.
 
 Signature project
 

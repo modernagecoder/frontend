@@ -74,7 +74,7 @@ Because Sinaw is a niaba rather than a separate wilayat, records sometimes list 
 
 The Al-Dhaqiq area is described as lying between the town of Lazq and Al Maysar. A place defined by what it sits between needs coordinates, not only a name, before anybody tries to measure anything about it.
 
-None of these places or markets endorses Modern Age Coders by being named. They are cited because a project needs a real setting and because a learner should be able to check the setting they are given.
+No affiliation with any of the above exists or is claimed. Al Mudhaibi appears because a wilayat whose parts differ this much in size makes the averaging problem visible in a way a tidy example never could.
 
 Signature project
 
@@ -196,7 +196,7 @@ Oman is one and a half hours behind India. Harvest work, school terms, examinati
 
 The question that only a person thinks to ask
 
-A learner who averages a column of percentages has produced a number, and the screen offers no reason to doubt it. What changes them is somebody asking what that average is an average of, and then saying nothing at all while they work out that the answer is rows, not learners.
+A learner who averages a column of percentages has produced a number, and the screen offers no reason to doubt it. What changes them is somebody asking what that average is an average of, and then saying nothing at all while they discover the answer is rows, not learners.
 
 Fees
 

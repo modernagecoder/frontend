@@ -74,7 +74,7 @@ Wadi Al Hoqain lies about 45 kilometres from the city centre and has year-round 
 
 Rustaq came to prominence when Imam Nasser bin Murshid al Yarubi began his reign, and the town was once the capital of the country. Handicrafts, agricultural produce and Omani honey remain part of its economy.
 
-None of these institutions endorses Modern Age Coders by being named. They are cited because the project on this page describes a real system, and a learner is entitled to check every part of the description.
+Nothing above should be read as an endorsement, and none was sought. Rustaq is cited because a scheduling system that has run for centuries is a better teacher than any example we could design, and because every part of it can be checked.
 
 Signature project
 

@@ -74,7 +74,7 @@ Wadi Aheen, Khour Al Malh and Al Sakahn are named among the wilayat's wadis. Wat
 
 The Saham slaughterhouse opened in 2015 and the souq district is called Hillat AlSouq. Small dated facts like these are what let a learner build a timeline that can be checked, rather than a story that merely sounds right.
 
-None of these places or organisations endorses Modern Age Coders by appearing here. They are cited because a project needs a real setting, and because a learner who can check a claim learns faster than one who is asked to accept it.
+Modern Age Coders has no connection to any body named above and claims none. The names are here so that a learner can go and read the same page we read, then disagree with us if the record says something different.
 
 Signature project
 

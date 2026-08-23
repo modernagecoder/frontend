@@ -128,6 +128,8 @@
 .cg-root.cg-mus { --cg-accent: #00577A; --cg-accent-soft: rgba(0,87,122,.09); }   /* Al Musanaah, the water off the marina */
 .cg-root.cg-bhl { --cg-accent: #8A4A2E; --cg-accent-soft: rgba(138,74,46,.09); }   /* Bahla, the fired clay of the pottery */
 .cg-root.cg-mdh { --cg-accent: #6B4E00; --cg-accent-soft: rgba(107,78,0,.09); }   /* Al Mudhaibi, the golden sand of the interior */
+.cg-root.cg-khb { --cg-accent: #155E75; --cg-accent-soft: rgba(21,94,117,.09); }   /* Al Khaburah, the wadi water off the Hajar */
+.cg-root.cg-shs2 { --cg-accent: #0E6E4E; --cg-accent-soft: rgba(14,110,78,.09); }   /* Shinas, the green of the irrigated plain */
 .cg-root.cg-wst { --cg-accent: #4A4800; --cg-accent-soft: rgba(74,72,0,.09); }   /* Al Wusta, the khaki scrub of the Jiddat al-Harasis */
 
 /* --------------------------------------------------------------------------

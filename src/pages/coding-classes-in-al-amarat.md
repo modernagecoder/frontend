@@ -74,7 +74,7 @@ Published population figures for Al Amarat range widely by year and by basis, fr
 
 Wadi Amerat gives the wilayat its recreational draw and its drainage. With 57 valleys recorded, a rainfall or catchment dataset here has dozens of legitimate rows, and a summary that keeps only the largest few has quietly answered a different question.
 
-Naming these places is not a claim of any relationship with them. They are cited because a learner should be able to check the setting of their own project, and because Al Amarat is specific enough to deserve a page that is specific too.
+No relationship with any of the above is claimed or implied. Al Amarat publishes enough of itself in counted form that a project set here can be argued with, which is the only reason to prefer a real place to an invented one.
 
 Signature project
 
@@ -196,7 +196,7 @@ Oman runs one and a half hours behind India. School timetables, work shifts, exa
 
 What a recording cannot do with a wrong total
 
-A video can explain largest remainder perfectly and still leave a learner unable to spot the problem in their own spreadsheet. What changes that is somebody looking at the learner's actual column, asking what it is supposed to add up to, and waiting while they work out how to prove it.
+A recording can explain largest remainder perfectly and still leave a learner unable to spot the problem in their own spreadsheet. What changes that is somebody looking at the learner's actual column, asking what it is supposed to add up to, and waiting while they prove it.
 
 Fees
 

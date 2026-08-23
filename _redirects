@@ -1806,4 +1806,12 @@
 # International growth cluster (coding-global.css). Must precede the /* catch-all.
 /coding-classes-in-al-mudhaibi /src/pages/coding-classes-in-al-mudhaibi.html 200
 /coding-classes-in-al-mudhaibi.md /src/pages/coding-classes-in-al-mudhaibi.md 200
+
+# International growth cluster (coding-global.css). Must precede the /* catch-all.
+/coding-classes-in-al-khaburah /src/pages/coding-classes-in-al-khaburah.html 200
+/coding-classes-in-al-khaburah.md /src/pages/coding-classes-in-al-khaburah.md 200
+
+# International growth cluster (coding-global.css). Must precede the /* catch-all.
+/coding-classes-in-shinas /src/pages/coding-classes-in-shinas.html 200
+/coding-classes-in-shinas.md /src/pages/coding-classes-in-shinas.md 200
 /* /src/pages/404.html 404

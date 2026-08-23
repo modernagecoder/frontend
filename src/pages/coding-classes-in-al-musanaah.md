@@ -74,7 +74,7 @@ Al Musanaah is one of six wilayats in Al Batinah South, alongside Rustaq as the 
 
 The wilayat is known for its beaches and draws visitors as well as residents. Two audiences on two rhythms is a good reason for a booking system to record why a slot was empty rather than only that it was.
 
-None of the organisations named here endorses Modern Age Coders. They are cited because the project on this page uses a real scoring rule, and a learner should be able to look it up rather than take our word for it.
+No endorsement by any organisation named above is claimed. They are here because the scoring rule this page turns on belongs to World Sailing rather than to us, and a learner should be able to look it up and hold us to it.
 
 Signature project
 
@@ -196,7 +196,7 @@ Oman runs one and a half hours behind India. Regatta weeks, school terms, examin
 
 Somebody has to ask whether the answer is fair
 
-A learner who computes an average and gets a number has finished, as far as the screen is concerned. The question that changes them is somebody asking whether the boat that sailed four races really did beat the boat that sailed six, and then saying nothing while they work out how to find out.
+A learner who computes an average and gets a number has finished, as far as the screen is concerned. The question that changes them is somebody asking whether the boat that sailed four races really did beat the boat that sailed six, and then saying nothing while they work it out.
 
 Fees
 
