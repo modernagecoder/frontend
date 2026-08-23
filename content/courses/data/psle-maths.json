@@ -30,8 +30,9 @@
     "duration": "12 months (52 weeks)",
     "level": "Primary 4-6 students on the MOE syllabus, PSLE-bound",
     "commitment": "2 live one-hour classes per week + short practice sets",
-    "certification": "Course completion certificate + documented paper-score progression",
-    "image_path": "psle-maths.webp"
+    "certification": "Certificate from Modern Age Coders, awarded on passing the final assessment",
+    "image_path": "psle-maths.webp",
+    "dateModified": "2026-08-24"
   },
   "program_overview": {
     "title": "PSLE Maths Mastery",
@@ -508,6 +509,10 @@
       "answer": "We will not invent a number. What you get: an honest baseline in week one, the highest-value families attacked first, and timed-paper evidence you can track yourself. AL bands reward consistency, and consistency is a trainable behaviour."
     },
     {
+      "question": "How am I assessed, and is the certificate just for showing up?",
+      "answer": "No. A problem set follows every class with written feedback, monthly reviews deliberately mix new material with earlier topics so nothing is forgotten, and the course ends with a full mock PSLE-style paper as the final assessment. Passing earns the certificate; falling short earns focused revision and a free retest. We measure real understanding, not attendance."
+    },
+    {
       "question": "What does the course cost?",
       "answer": "Small-group classes are ₹1,499 per month and private 1-on-1 mentorship is ₹4,999 per month in India; international students pay a price set for their own country, shown on this page in their local currency, with 8 live one-hour classes a month and recordings included. Singapore centres typically charge SGD 250-500 monthly for batches of 8-15."
     },
@@ -551,7 +556,8 @@
       "live_classes": "2 one-hour live classes at Singapore evening hours",
       "practice": "Short purposeful sets, never another assessment-book stack",
       "fluency": "Paper 1-style warm-up in every class",
-      "total_per_week": "About 3-4 focused hours"
+      "total_per_week": "About 3-4 focused hours",
+      "homework": "A problem set after every class, and a monthly mixed-review assignment that deliberately folds in earlier topics"
     },
     "support_provided": {
       "live_sessions": "8 live one-hour classes every month, 2 per week",
@@ -561,9 +567,7 @@
       "flexibility": "Slots move around school exams and family plans"
     },
     "certification": {
-      "final_certificate": "Course completion certificate from Modern Age Coders",
-      "score_record": "Documented timed-paper progression",
-      "portfolio_projects": "The child's model-method handbook and heuristics cards"
+      "completion": "Certificate from Modern Age Coders, awarded on passing the final assessment. Fall short and there is focused revision and a free retest: the certificate certifies mastery, not attendance"
     }
   },
   "prerequisites": {
@@ -592,8 +596,9 @@
     "small_batches": "Small batches only: group classes are capped at 10 students, with mini-batch (3 to 4 students) and personal 1-on-1 options.",
     "structured_curriculum": "A structured, well-paced curriculum taught step by step, with hands-on practice in every session.",
     "doubt_support": "Doubt support between classes over WhatsApp, so you are never left stuck.",
-    "certificate": "A course-completion certificate you can share.",
-    "free_demo": "A free demo class before you enrol, so you can decide with no pressure."
+    "certificate": "A certificate you earn by passing the final assessment, with a free retest after revision if needed.",
+    "free_demo": "A free demo class before you enrol, so you can decide with no pressure.",
+    "real_assessment": "Classwork every session, a problem set after every class, monthly reviews that mix in earlier topics, and a full mock PSLE-style paper as the final assessment that decides the certificate: real understanding, with a free retest after revision if needed."
   },
   "relatedCourses": [
     "elementary-mathematics-complete-masterclass",

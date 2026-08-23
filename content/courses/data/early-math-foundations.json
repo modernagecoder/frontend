@@ -30,8 +30,9 @@
     "duration": "12 months (52 weeks)",
     "level": "Ages 4-7 (kindergarten to grade 2), all starting points",
     "commitment": "2 live one-hour classes per week (structured as playful segments) + everyday math play at home",
-    "certification": "Course completion certificate + stage mastery checks",
-    "image_path": "early-math-k2.webp"
+    "certification": "Certificate from Modern Age Coders, awarded on passing the final assessment",
+    "image_path": "early-math-k2.webp",
+    "dateModified": "2026-08-24"
   },
   "program_overview": {
     "title": "Early Math Foundations",
@@ -508,6 +509,10 @@
       "answer": "Graduates flow into Mental Maths Mastery (for fluency depth) or the Elementary Mathematics Masterclass (the full grades 1-5 program) with the same mentor where possible, arriving with the foundation those courses quietly assume."
     },
     {
+      "question": "How is my child assessed, and is the certificate just for attending?",
+      "answer": "No. A problem set follows every class with written feedback, monthly reviews deliberately mix new material with earlier topics so nothing is forgotten, and the course ends with a final assessment (a friendly, low-pressure check of the whole year). Passing earns the certificate; falling short earns focused revision and a free retest. We measure real understanding, not attendance."
+    },
+    {
       "question": "What does the course cost?",
       "answer": "Small-group classes are ₹1,499 per month and private 1-on-1 mentorship is ₹4,999 per month in India; international students pay a price set for their own country, shown on this page in their local currency. Both include 8 live classes a month, recordings, and a free demo class before any payment."
     },
@@ -551,7 +556,8 @@
       "live_classes": "2 one-hour live classes in short playful segments",
       "home_play": "Everyday math prompts for parents, minutes, not worksheets",
       "materials": "Household objects as manipulatives; printable ten-frames provided",
-      "total_per_week": "About 2.5 gentle hours"
+      "total_per_week": "About 2.5 gentle hours",
+      "homework": "A problem set after every class, and a monthly mixed-review assignment that deliberately folds in earlier topics"
     },
     "support_provided": {
       "live_sessions": "8 live classes every month, 2 per week",
@@ -561,9 +567,7 @@
       "flexibility": "Slots move around naps, school and family life"
     },
     "certification": {
-      "phase_certificates": "Stage mastery check at the end of each phase",
-      "final_certificate": "Course completion certificate from Modern Age Coders",
-      "portfolio_projects": "The child's playful artifact collection"
+      "completion": "Certificate from Modern Age Coders, awarded on passing the final assessment. Fall short and there is focused revision and a free retest: the certificate certifies mastery, not attendance"
     }
   },
   "prerequisites": {
@@ -592,8 +596,9 @@
     "small_batches": "Small batches only: group classes are capped at 10 students, with mini-batch (3 to 4 students) and personal 1-on-1 options.",
     "structured_curriculum": "A structured, well-paced curriculum taught step by step, with hands-on practice in every session.",
     "doubt_support": "Doubt support between classes over WhatsApp, so you are never left stuck.",
-    "certificate": "A course-completion certificate you can share.",
-    "free_demo": "A free demo class before you enrol, so you can decide with no pressure."
+    "certificate": "A certificate you earn by passing the final assessment, with a free retest after revision if needed.",
+    "free_demo": "A free demo class before you enrol, so you can decide with no pressure.",
+    "real_assessment": "Classwork every session, a problem set after every class, monthly reviews that mix in earlier topics, and a final assessment (a friendly, low-pressure check of the whole year) that decides the certificate: real understanding, with a free retest after revision if needed."
   },
   "relatedCourses": [
     "mental-maths-mastery-kids",

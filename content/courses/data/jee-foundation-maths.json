@@ -24,8 +24,9 @@
     "duration": "12 months (48 weeks)",
     "level": "Class 8 to 10 students, batched by class",
     "commitment": "2 live classes/week + 3-4 hours of problem sets",
-    "certification": "Course-completion certificate from Modern Age Coders",
-    "image_path": "jee-foundation-maths.webp"
+    "certification": "Certificate from Modern Age Coders, awarded on passing the final assessment",
+    "image_path": "jee-foundation-maths.webp",
+    "dateModified": "2026-08-24"
   },
   "program_overview": {
     "title": "JEE Foundation Maths for Class 8-10",
@@ -513,10 +514,11 @@
     "weekly_structure": {
       "live_classes": "2 live one-hour classes per week; mock sittings in month 12 run longer for full papers",
       "practice": "3-4 hours weekly of problem sets, proofs and journal write-ups between classes",
-      "review": "Problem sets marked with written feedback; proofs and journal entries reviewed line by line each month"
+      "review": "Problem sets marked with written feedback; proofs and journal entries reviewed line by line each month",
+      "homework": "A problem set after every class, and a monthly mixed-review assignment that deliberately folds in earlier topics"
     },
     "certification": {
-      "completion": "Course-completion certificate from Modern Age Coders, alongside the student's readiness map and mock file"
+      "completion": "Certificate from Modern Age Coders, awarded on passing the final assessment. Fall short and there is focused revision and a free retest: the certificate certifies mastery, not attendance"
     },
     "support_provided": {
       "doubt_support": "WhatsApp doubt support between classes, with worked solutions for stuck problems",
@@ -548,8 +550,9 @@
     "small_batches": "Small batches only: group classes are capped at 10 students, with mini-batch (3 to 4 students) and personal 1-on-1 options.",
     "structured_curriculum": "A structured, well-paced curriculum taught step by step, with hands-on practice in every session.",
     "doubt_support": "Doubt support between classes over WhatsApp, so you are never left stuck.",
-    "certificate": "A course-completion certificate you can share.",
-    "free_demo": "A free demo class before you enrol, so you can decide with no pressure."
+    "certificate": "A certificate you earn by passing the final assessment, with a free retest after revision if needed.",
+    "free_demo": "A free demo class before you enrol, so you can decide with no pressure.",
+    "real_assessment": "Classwork every session, a problem set after every class, monthly reviews that mix in earlier topics, and a full mock paper as the final assessment that decides the certificate: real understanding, with a free retest after revision if needed."
   },
   "faqs": [
     {
@@ -579,6 +582,10 @@
     {
       "question": "How much homework should we expect?",
       "answer": "Three to four hours a week: problem sets after each class, proof write-ups during the geometry phase, journal entries during the problem-solving phase, and timed papers in the final months. The write-ups are non-negotiable, because this course grades reasoning, not answer lists. It is a real commitment, and we would rather say so now than surprise you in month 2."
+    },
+    {
+      "question": "How am I assessed, and is the certificate just for showing up?",
+      "answer": "No. A problem set follows every class with written feedback, monthly reviews deliberately mix new material with earlier topics so nothing is forgotten, and the course ends with a full mock paper as the final assessment. Passing earns the certificate; falling short earns focused revision and a free retest. We measure real understanding, not attendance."
     },
     {
       "question": "What does the course cost?",

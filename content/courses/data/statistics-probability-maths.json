@@ -24,8 +24,9 @@
     "duration": "6 months (24 weeks)",
     "level": "College students and working professionals; no programming required",
     "commitment": "2 live classes/week + 3-4 hours practice",
-    "certification": "Course-completion certificate from Modern Age Coders",
-    "image_path": "statistics-probability-maths.webp"
+    "certification": "Certificate from Modern Age Coders, awarded on passing the final assessment",
+    "image_path": "statistics-probability-maths.webp",
+    "dateModified": "2026-08-24"
   },
   "program_overview": {
     "title": "Statistics & Probability",
@@ -479,10 +480,11 @@
     "weekly_structure": {
       "live_classes": "2 live one-hour classes per week, working on real data during class",
       "practice": "3-4 hours weekly of problem sets and dataset work between classes",
-      "review": "Homework reviewed with written feedback; interpretation wording corrected as strictly as calculations"
+      "review": "Homework reviewed with written feedback; interpretation wording corrected as strictly as calculations",
+      "homework": "A problem set after every class, and a monthly mixed-review assignment that deliberately folds in earlier topics"
     },
     "certification": {
-      "completion": "Course-completion certificate from Modern Age Coders, backed by your capstone analysis report"
+      "completion": "Certificate from Modern Age Coders, awarded on passing the final assessment. Fall short and there is focused revision and a free retest: the certificate certifies mastery, not attendance"
     },
     "support_provided": {
       "doubt_support": "WhatsApp doubt support between classes, with worked solutions for stuck problems",
@@ -522,8 +524,9 @@
     "small_batches": "Small batches only: group classes are capped at 10 students, with mini-batch (3 to 4 students) and personal 1-on-1 options.",
     "structured_curriculum": "A structured, well-paced curriculum taught step by step, with hands-on practice in every session.",
     "doubt_support": "Doubt support between classes over WhatsApp, so you are never left stuck.",
-    "certificate": "A course-completion certificate you can share.",
-    "free_demo": "A free demo class before you enrol, so you can decide with no pressure."
+    "certificate": "A certificate you earn by passing the final assessment, with a free retest after revision if needed.",
+    "free_demo": "A free demo class before you enrol, so you can decide with no pressure.",
+    "real_assessment": "Classwork every session, a problem set after every class, monthly reviews that mix in earlier topics, and a final exam covering the whole course that decides the certificate: real understanding, with a free retest after revision if needed."
   },
   "faqs": [
     {
@@ -553,6 +556,10 @@
     {
       "question": "Is this course aligned to any university syllabus?",
       "answer": "It covers the standard core of a first university statistics course: descriptive statistics, probability, distributions, estimation, hypothesis testing and regression, so students frequently use it alongside degree coursework in commerce, economics, psychology and engineering. It is not tied to any single university's paper pattern, and we do not teach to one exam. Students preparing for a specific university exam get targeted practice on their syllabus topics in the doubt sessions."
+    },
+    {
+      "question": "How am I assessed, and is the certificate just for showing up?",
+      "answer": "No. A problem set follows every class with written feedback, monthly reviews deliberately mix new material with earlier topics so nothing is forgotten, and the course ends with a final exam covering the whole course. Passing earns the certificate; falling short earns focused revision and a free retest. We measure real understanding, not attendance."
     },
     {
       "question": "What software do I need, and does it cost anything?",
