@@ -2527,5 +2527,45 @@
       "A headline population. Three published figures exist on three different bases: 147,775 for 2017, 165,546 at the 2022 census, and about 122,493 for 2023 on an Omani-citizens-only series. Mixing bases would be worse than omitting the number, so no population appears on the page.",
       "Any statement about the real rotation order of a named falaj. The four falaj names are published; their water shares are not ours to publish, and the outlet numbers in the project are labelled as teaching values."
     ]
+  },
+  "coding-classes-in-al-amarat": {
+    "market": "Al Amarat, Muscat Governorate",
+    "bodyClass": "cg-amr",
+    "curriculumAuthority": "Oman Ministry of Education, General Education Diploma, delivered through the 30 schools the wilayat records for more than 25,000 students. The page argues from access rather than curriculum: Al Amarat sits behind a mountain range from Bausher on a road its own residents have campaigned to replace, so a weekly class that depends on that corridor is a weekly risk.",
+    "localProject": "Percentages that are each rounded correctly and do not total 100. Twenty shares across the wilayat's 20 published administrative areas total 100.2 under independent rounding, and largest-remainder apportionment returns them to 100.0 by moving two figures. Assigned to this page and no other: checked against the weighted-average trap on Al Batinah North and Mawaleh, the percentage-wording trap on Al Ghubrah and the base-rate trap on Duqm before it was chosen.",
+    "requiredMentions": [
+      "Wadi Adai",
+      "925 square kilometres",
+      "Beit Al Maqam Fort",
+      "Wadi Amerat",
+      "20 administrative areas",
+      "57 valleys",
+      "61 aflaj",
+      "30 schools",
+      "largest remainder",
+      "plaster and brick"
+    ],
+    "sources": [
+      {
+        "claim": "Al Amarat comprises 20 administrative areas, contains 57 valleys and 61 aflaj, produces dates, mangoes and sidr, operates seven factories for plaster and brick, and contains Beit Al Maqam Fort.",
+        "url": "https://guide.opensooq.com/en/oman-en/a-guide-to-al-amarat-in-muscat-oman/"
+      },
+      {
+        "claim": "The wilayat has an area of 925 square kilometres, and 30 schools provide educational services to more than 25 thousand students.",
+        "url": "https://www.thearabianstories.com/2022/01/12/omans-wilayat-of-al-amerat-witnessing-growth-in-various-fields-wali-of-al-amerat/"
+      },
+      {
+        "claim": "Residents have called for a permanent solution to the Amerat-Bausher mountain road, with many arguing that an alternative route, especially a tunnel, is required to connect the two wilayats.",
+        "url": "https://www.omanobserver.om/article/1143056/oman/call-for-permanent-solution-to-al-amerat-bausher-mountain-road-problem"
+      },
+      {
+        "claim": "Muscat Governorate consists of six wilayats: Muscat, Muttrah, Al Seeb, Qurayat, Bausher and Al Amerat.",
+        "url": "https://www.mmc.gov.om/wilayat.aspx"
+      }
+    ],
+    "rejectedClaims": [
+      "A single headline population. Published figures range from about 69,132 in a 2016 breakdown to roughly 139,755 at the 2022 census, and one secondary source prints \"121,103 thousand people\", which cannot be right on any reading. The page states the range with both years attached rather than picking one figure.",
+      "That the Wadi Adai to Al Amerat link is a tunnel. It is a mountain road corridor. Residents have argued a tunnel is what is needed, which is a call rather than a built fact, and the page words it that way."
+    ]
   }
 }
