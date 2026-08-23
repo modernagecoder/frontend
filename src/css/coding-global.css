@@ -124,6 +124,7 @@
 .cg-root.cg-sah { --cg-accent: #8C6A00; --cg-accent-soft: rgba(140,106,0,.09); }   /* Saham, the lemon rind the wilayat exported */
 .cg-root.cg-amr { --cg-accent: #7A3E13; --cg-accent-soft: rgba(122,62,19,.09); }   /* Al Amarat, the wadi rock behind the range */
 .cg-root.cg-rus { --cg-accent: #1F5B8F; --cg-accent-soft: rgba(31,91,143,.09); }   /* Rustaq, the falaj water under the Hajar */
+.cg-root.cg-jbb { --cg-accent: #7A4E86; --cg-accent-soft: rgba(122,78,134,.09); }   /* Jalan Bani Bu Ali, the shade inside the domes */
 .cg-root.cg-wst { --cg-accent: #4A4800; --cg-accent-soft: rgba(74,72,0,.09); }   /* Al Wusta, the khaki scrub of the Jiddat al-Harasis */
 
 /* --------------------------------------------------------------------------

@@ -387,6 +387,7 @@ USD 100 a month small group, USD 150 a month one to one.
 - Saham, Al Batinah North, Oman: https://learn.modernagecoders.com/coding-classes-in-saham
 - Al Amarat, Muscat, Oman: https://learn.modernagecoders.com/coding-classes-in-al-amarat
 - Rustaq, Al Batinah South, Oman: https://learn.modernagecoders.com/coding-classes-in-rustaq
+- Jalan Bani Bu Ali, Ash Sharqiyah South, Oman: https://learn.modernagecoders.com/coding-classes-in-jalan-bani-bu-ali
 ## International Country Pages
 
 - United States: https://learn.modernagecoders.com/coding-classes-in-united-states

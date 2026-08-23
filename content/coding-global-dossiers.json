@@ -2608,5 +2608,41 @@
       "The actual rotation order or share allocation of Falaj Al-Muyassar or any other named falaj. Shares belong to the shareholders and are not published; the eight day cycle in the project is chosen from inside the documented seven to fourteen day range and is labelled as such on the page.",
       "A population figure for the wilayat. The 2022 census gives about 129,050, but this page makes no argument that depends on it, so it is not stated rather than stated decoratively."
     ]
+  },
+  "coding-classes-in-jalan-bani-bu-ali": {
+    "market": "Jalan Bani Bu Ali, Ash Sharqiyah South",
+    "bodyClass": "cg-jbb",
+    "curriculumAuthority": "Oman Ministry of Education, General Education Diploma. The page argues from currency rather than curriculum: the Omani rial divides into 1000 baisa, so every price in this trading town carries three decimal places, and the two-decimal money advice that dominates programming writing is a digit short before it starts.",
+    "localProject": "Money in binary floating point, in a three decimal currency. A six line Friday souq basket totals 11.325000000000001 as a float against 11.325 exactly, prints as 11.325 either way, and fails the equality check a till runs at closing. Counting the same money in whole baisa passes. Assigned to this page and no other: floating point money was checked free across every page in the cluster before it was chosen.",
+    "requiredMentions": [
+      "Jami Al-Hamoda",
+      "Al Qibab",
+      "mabariq",
+      "52 domes",
+      "baisa",
+      "24 cylinders",
+      "Friday mornings",
+      "700 worshippers",
+      "five corridors",
+      "Mosque of Domes"
+    ],
+    "sources": [
+      {
+        "claim": "Jami Al-Hamoda in Jalan Bani Bu Ali has 52 separate mud-brick domes of equal size with a falaj running beneath it, openings called mabariq, 24 cylinders, five corridors, capacity for more than 700 worshippers, was built almost 500 years ago, and is locally called Al Qibab or the Mosque of Domes.",
+        "url": "https://www.omanobserver.om/article/1126328/features/travel/al-hamouda-mosque-is-a-testament-to-the-beauty-of-islamic-architecture"
+      },
+      {
+        "claim": "Jalan Bani Bu Ali is a commercial town and tourist destination in Ash Sharqiyah South with many shops and supermarkets, a traditional souq about 1 km south of the centre trading on Friday mornings, sand dunes with standing water pools, a distinct summer rainy season unusual for Oman, and was the site of an 1821 British East India Company expedition.",
+        "url": "https://en.wikipedia.org/wiki/Jalan_Bani_Bu_Ali"
+      },
+      {
+        "claim": "The mosque is located in the Wilayat of Jalan Bani Bu Ali in Ash Sharqiyah South Governorate and serves as a centre for study and preservation of the Holy Qur'an.",
+        "url": "https://www.lonelyplanet.com/oman/jalan-bani-bu-ali/attractions/jami-al-hamoda-mosque/a/poi-sig/1527535/1331766"
+      }
+    ],
+    "rejectedClaims": [
+      "An exact founding date for Jami Al-Hamoda. Sources say it was built almost 500 years ago, which is an approximation, and the page repeats it as an approximation rather than converting it into a year.",
+      "A population figure. The 2022 census gives about 117,730 for the wilayat, but no argument on this page depends on it, so it is omitted rather than used as decoration."
+    ]
   }
 }
