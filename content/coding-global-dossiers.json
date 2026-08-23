@@ -2684,5 +2684,40 @@
       "Any claim that the race series in the project is a real regatta result. It is a teaching example and the page labels it as one. Only the scoring rule is real.",
       "Attendance or entry figures for events at the venue beyond the 154 athletes reported for the 2025 championships. Other event totals could not be confirmed at first-party source and are therefore not stated."
     ]
+  },
+  "coding-classes-in-bahla": {
+    "market": "Bahla, Ad Dakhiliyah",
+    "bodyClass": "cg-bhl",
+    "curriculumAuthority": "Oman Ministry of Education, General Education Diploma. The page argues from distance and from subject rather than from curriculum: Bahla is about 200 kilometres from Muscat and 40 from Nizwa, and its published record is unusually full of measurements of awkwardly shaped things, which is the case data work handles worst.",
+    "localProject": "Perimeter against area, and its software cousin the bounding box. Twelve kilometres of oasis wall enclosing anywhere from 11.46 to 0.30 square kilometres depending on shape, a spread of 39 times, and an eight-vertex plot whose bounding box area is 98.6 per cent too big against the shoelace formula. Assigned to this page and no other. The obvious Bahla hook was the Nabhani dates in AH and AD, which was rejected because Nizwa forty kilometres away already owns calendar conversion.",
+    "requiredMentions": [
+      "Jabrin Castle",
+      "Nabhani",
+      "Banu Nabhan",
+      "Bahla Souq",
+      "sculpted mihrab",
+      "9,822 square metres",
+      "Al Ya'ruba",
+      "shoelace formula",
+      "2500 BC"
+    ],
+    "sources": [
+      {
+        "claim": "Bahla Fort was the first site in Oman inscribed on the UNESCO World Heritage List, in 1987; it covers about 9,822 square metres, is irregular in shape, and the oasis walls around it extend for more than 12 kilometres.",
+        "url": "https://experienceoman.om/destinations/al-dakhiliyah/bahla-fort"
+      },
+      {
+        "claim": "Bahla lies about 40 km from Nizwa and 200 km from Muscat at about 550 m elevation; the fort is 13th century with adobe walls and towers on stone foundations inside a 12 km fortified wall; the Nabhani dynasty ruled from the mid 12th to the end of the 15th century with Bahla as second and later main capital; pottery is dated back as early as 2500 BC; Jabrin Castle lies 5 km south west, built under Al Ya'ruba in the mid 17th century; the Friday Mosque carries a sculpted mihrab of roughly the 14th century.",
+        "url": "https://en.wikipedia.org/wiki/Bahla"
+      },
+      {
+        "claim": "Bahla Fort is inscribed on the UNESCO World Heritage List, reference 433.",
+        "url": "https://whc.unesco.org/en/list/433/"
+      }
+    ],
+    "rejectedClaims": [
+      "A headline population. One source gives 85,000 and the 2022 census table gives 96,415, and no argument on this page depends on either, so neither is stated.",
+      "A precise date for the Friday Mosque mihrab. The record says approximately the 14th century and the page keeps the approximation rather than converting it into a year that would read better and mean less."
+    ]
   }
 }

@@ -126,6 +126,7 @@
 .cg-root.cg-rus { --cg-accent: #1F5B8F; --cg-accent-soft: rgba(31,91,143,.09); }   /* Rustaq, the falaj water under the Hajar */
 .cg-root.cg-jbb { --cg-accent: #7A4E86; --cg-accent-soft: rgba(122,78,134,.09); }   /* Jalan Bani Bu Ali, the shade inside the domes */
 .cg-root.cg-mus { --cg-accent: #00577A; --cg-accent-soft: rgba(0,87,122,.09); }   /* Al Musanaah, the water off the marina */
+.cg-root.cg-bhl { --cg-accent: #8A4A2E; --cg-accent-soft: rgba(138,74,46,.09); }   /* Bahla, the fired clay of the pottery */
 .cg-root.cg-wst { --cg-accent: #4A4800; --cg-accent-soft: rgba(74,72,0,.09); }   /* Al Wusta, the khaki scrub of the Jiddat al-Harasis */
 
 /* --------------------------------------------------------------------------
