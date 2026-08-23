@@ -1838,4 +1838,8 @@
 # International growth cluster (coding-global.css). Must precede the /* catch-all.
 /coding-classes-in-bidbid /src/pages/coding-classes-in-bidbid.html 200
 /coding-classes-in-bidbid.md /src/pages/coding-classes-in-bidbid.md 200
+
+# International growth cluster (coding-global.css). Must precede the /* catch-all.
+/coding-classes-in-adam /src/pages/coding-classes-in-adam.html 200
+/coding-classes-in-adam.md /src/pages/coding-classes-in-adam.md 200
 /* /src/pages/404.html 404

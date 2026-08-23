@@ -138,6 +138,7 @@
 .cg-root.cg-bdy { --cg-accent: #9A5000; --cg-accent-soft: rgba(154,80,0,.09); }   /* Bidiyah */
 .cg-root.cg-kml { --cg-accent: #0B6070; --cg-accent-soft: rgba(11,96,112,.09); }   /* Al Kamil Wal Wafi */
 .cg-root.cg-bdb { --cg-accent: #3B4C99; --cg-accent-soft: rgba(59,76,153,.09); }   /* Bidbid */
+.cg-root.cg-adm { --cg-accent: #93313A; --cg-accent-soft: rgba(147,49,58,.09); }   /* Adam */
 .cg-root.cg-wst { --cg-accent: #4A4800; --cg-accent-soft: rgba(74,72,0,.09); }   /* Al Wusta, the khaki scrub of the Jiddat al-Harasis */
 
 /* --------------------------------------------------------------------------

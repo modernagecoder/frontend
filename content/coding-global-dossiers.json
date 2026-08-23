@@ -3109,5 +3109,41 @@
       "A population for the wilayat. No census table could be traced in this session, so none appears.",
       "Fanja's governorate as given by one population database, whose own pages place Fanja under Bidbid in more than one governorate. Bidbid is a wilayat of Ad Dakhiliyah; the disagreement is described on the page as evidence rather than repeated as fact."
     ]
+  },
+  "coding-classes-in-adam": {
+    "market": "Adam, Ad Dakhiliyah",
+    "bodyClass": "cg-adm",
+    "curriculumAuthority": "Oman Ministry of Education, General Education Diploma. The page argues from the size of the town rather than from curriculum: a place this small cannot host a specialist teacher for every subject a learner might want, and delivering the lesson over a connection is what removes that ceiling.",
+    "localProject": "The word about does not survive arithmetic. Ahmad bin Said was born in Adam in 1694 and the dynasty has ruled since about 1749; subtracting gives 55, printed with no hedge. Under readings of about at plus or minus 2, 5 and 10 years the honest answer is a window 4, 10 or 20 years wide. Separately, around 120 houses plus 6 exact towers is uncertain by exactly what around was already worth, so the exact figure adds no precision. Assigned to this page and no other. Distinct from the Bidiyah project, which censors a value at a threshold rather than losing precision in an operation.",
+    "requiredMentions": [
+      "Ahmad bin Said",
+      "Harat al Busaid",
+      "120 old houses",
+      "6 defensive towers",
+      "Al Bu Said",
+      "1694",
+      "about 1749",
+      "oldest lanes in Adam",
+      "imam of Oman"
+    ],
+    "sources": [
+      {
+        "claim": "Ahmad bin Said, founder of the Al Busaidi dynasty, was born in the city of Adam, Oman, in 1694.",
+        "url": "https://en.wikipedia.org/wiki/Ahmad_bin_Said_al-Busaidi"
+      },
+      {
+        "claim": "The Al Bu Said dynasty has ruled Oman since about 1749, when Ahmad ibn Said, governor of Suhar, displaced the Yarubids and became imam of Oman, with authority extending to Zanzibar, Pemba and Kilwa.",
+        "url": "https://www.britannica.com/topic/Al-Bu-Said-dynasty"
+      },
+      {
+        "claim": "Harat al Busaid is ranked one of the oldest lanes in Adam, is where Ahmed bin Said was born, and has around 120 old houses protected by 6 defensive towers.",
+        "url": "https://www.omanobserver.om/article/26073/Local/home-to-a-vibrant-history"
+      }
+    ],
+    "rejectedClaims": [
+      "A width for the word about. No source states whether about 1749 means within two years or within ten, so the three readings in the project table are labelled illustrative in the table, in the pitfalls note and in the FAQ.",
+      "A population for the wilayat. No census table could be traced in this session, so none appears and the page argues from the size of the historic quarter instead.",
+      "A death date for Ahmad bin Said. Figures circulate but none was verified at a primary source in this session, so the page uses only the birth year and the dynasty date."
+    ]
   }
 }
