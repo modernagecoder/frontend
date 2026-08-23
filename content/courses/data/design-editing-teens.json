@@ -2,69 +2,64 @@
   "meta": {
     "slug": "creative-media-design-masterclass-teens",
     "date": "2025-10-31",
-    "title": "Creative Media & Design for Teens: Photo, Video & Editing",
-    "description": "Live online creative media course for teens: master photo editing, video, graphic design and motion graphics in Photoshop, Premiere Pro and After Effects.",
+    "dateModified": "2026-08-23",
+    "title": "Creative Media for Teens: Photo, Video and Design",
+    "description": "Creative media course for teens aged 13-18: photo editing, video production and graphic design in live online classes, with a real portfolio in 8-10 months.",
     "keywords": [
-      "photo editing for teens",
-      "video editing",
-      "graphic design",
-      "Photoshop tutorial",
-      "Premiere Pro",
-      "After Effects",
-      "content creation",
-      "YouTube video editing",
-      "social media design",
-      "motion graphics",
-      "digital art",
-      "creative career",
-      "photography editing",
-      "filmmaking",
-      "visual effects",
-      "teen creativity"
+      "photo and video editing course for teens",
+      "graphic design course for teens",
+      "video editing classes for teenagers",
+      "creative media course for students",
+      "photo editing course for beginners",
+      "design and editing classes online india",
+      "content creation course for teens",
+      "video production course for teenagers",
+      "creative courses for teens online",
+      "digital design course for high school students",
+      "best editing course for teens",
+      "media design classes for teens"
     ],
-    "category": "Creative Media & Digital Design",
+    "category": "Design and Creativity",
     "taxonomy": "design",
     "price": {
       "group": "₹1,499/month",
       "personal": "₹4,999/month"
     },
-    "duration": "12 months (52 weeks)",
-    "level": "Complete Beginner to Advanced Professional",
-    "commitment": "12-15 hours/week recommended",
-    "certification": "Professional Creative Designer Certification upon completion",
+    "duration": "8-10 months (32-40 weeks)",
+    "level": "Beginner friendly, ages 13 to 18",
+    "commitment": "2 live classes/week + 2-3 hours practice",
+    "certification": "Certificate from Modern Age Coders, awarded on passing the final exam",
     "image_path": "designing-editing-teens.webp"
   },
   "program_overview": {
-    "title": "Complete Creative Media Design & Editing Masterclass for Teens",
-    "tagline": "From 'First Photo Edit' to Professional Content Creator & Designer",
-    "description": "This specially crafted course transforms creative teenagers into professional digital artists and content creators in just 12 months. Whether you dream of becoming a YouTuber, Instagram influencer, filmmaker, graphic designer, or just want to create amazing content, this program teaches you everything.\n\nYou'll master industry-standard software like Adobe Photoshop, Premiere Pro, After Effects, Illustrator, and more. Create stunning photos, cinematic videos, viral social media content, professional logos, animations, and build a portfolio that gets you noticed by colleges and employers.",
+    "title": "Creative Media and Design for Teens",
+    "tagline": "Photo, video and design taught as one craft: eight honest months from first edit to a portfolio that looks like taste, not templates.",
+    "description": "Teens live inside visual media; very few can make it well. This live online course for ages 13 to 18 teaches the full creative trio properly: photo editing from honest corrections to real compositing, video from cuts and rhythm to short productions with sound design, and graphic design from principles to a small brand built end to end. The final months add advanced video effects, real photography craft with whatever camera the family owns, and a portfolio capstone presented at demo day.\n\nThe toolkit is free-first and honest: strong free tools cover the entire syllabus, and industry options like Photoshop are taught as exactly that, options, for families that have them. There is no viral-chasing, no monetization coaching and no freelance pressure aimed at teenagers; the course builds craft and taste, the assets that actually compound.\n\nThe pace is real: eight months at two live classes a week plus two to three hours of practice, with two more months in hand when needed. Homework after every class, monthly mixed challenges, and a final exam, portfolio review plus a live editing task, that decides the certificate with a free retest. Real craft, real portfolio, depth over dopamine.",
     "what_makes_this_different": [
-      "Designed specifically for teenage creators with trendy, relevant examples",
-      "Learn what's actually popular: TikTok editing, YouTube thumbnails, Instagram aesthetics",
-      "No expensive equipment required - start with just a phone and computer",
-      "Create content teens actually want to make",
-      "Build a following while learning",
-      "Industry-standard software training included",
-      "Real client projects and earning opportunities",
-      "College portfolio and career preparation"
+      "The full trio in one arc: photo, video and design, taught as one connected craft",
+      "Free-first tools with honest options: the whole syllabus works at zero software cost",
+      "Critique every week: kind, specific feedback is the actual engine of taste",
+      "No viral-chasing or freelance pressure for teens: craft first, always",
+      "An honest 8-month arc with 2 months in hand",
+      "Real assessment: monthly mixed challenges and a final exam that decides the certificate, with a free retest"
     ],
     "learning_path": {
-      "phase_1": "Foundation (Months 1-6): Design Basics, Photo Editing, Basic Video, Social Media Content",
-      "phase_2": "Advanced Mastery (Months 7-12): Professional Video, Motion Graphics, Advanced Design, Portfolio"
+      "phase_1": "The creative core (Months 1-6): photo editing, video production and graphic design with a small real brand",
+      "phase_2": "Advanced craft and the finale (Months 7-8): visual effects, photography with real light, the portfolio capstone and the exam"
     },
     "career_outcomes": [
-      "Social Media Content Creator (after 3 months)",
-      "Junior Photo/Video Editor (after 6 months)",
-      "Freelance Designer (after 9 months)",
-      "Professional Creative Designer (after 12 months)"
+      "A critiqued portfolio across photo, video and design",
+      "Taste that transfers: principles that outlive every app and trend",
+      "Immediately useful skill for school, clubs and family projects",
+      "A natural step into our Creative Coding and Animation course for the motion-and-code road"
     ]
   },
-  "phase_1_foundation": {
-    "title": "PHASE 1: Foundation & Core Creative Skills (Months 1-6, Weeks 1-26)",
-    "description": "Build solid creative foundations. Learn design principles, master photo editing, create videos, and start building your online presence.",
+  "phase_1_creative_core": {
+    "title": "PHASE 1: The Creative Core (Months 1-6, Weeks 1-26)",
+    "description": "Photo editing, video production and graphic design, each learned to real competence with weekly critiqued builds.",
     "month_1_2": {
       "title": "Months 1-2: Creative Fundamentals & Photo Editing Basics",
-      "weeks": "Week 1-8",
+      "weeks": "Weeks 1-8",
       "week_1_2": {
         "title": "Introduction to Digital Creativity & Setup",
         "topics": [
@@ -106,7 +101,6 @@
         ],
         "projects": [
           "Edit 10 personal photos to perfection",
-          "Create viral meme templates",
           "Design custom phone wallpapers"
         ],
         "practice": "Edit 5 different photos daily using various techniques"
@@ -152,15 +146,15 @@
         ],
         "projects": [
           "30-day Instagram feed makeover",
-          "Create viral TikTok photo series",
           "Mobile photography portfolio"
         ],
-        "practice": "Post one edited photo daily on social media"
+        "practice": "Post one edited photo daily on social media",
+        "assessment": "Months 1-2 check: a photo-edit set completed live, plus a mixed take-home challenge"
       }
     },
     "month_3_4": {
       "title": "Months 3-4: Video Editing & Production Basics",
-      "weeks": "Week 9-17",
+      "weeks": "Weeks 9-17",
       "week_9_10": {
         "title": "Video Production Fundamentals",
         "topics": [
@@ -210,7 +204,6 @@
       "week_13_14": {
         "title": "YouTube Content Creation",
         "topics": [
-          "YouTube algorithm and what makes videos viral",
           "Thumbnail design in Photoshop",
           "Creating clickable titles without clickbait",
           "YouTube video structure: Hook, content, CTA",
@@ -235,7 +228,6 @@
         "topics": [
           "Vertical video best practices",
           "TikTok trends and how to spot them",
-          "Quick editing techniques for virality",
           "CapCut advanced features",
           "Speed ramping and velocity edits",
           "Text animations and reveals",
@@ -264,15 +256,14 @@
         ],
         "projects": [
           "CAPSTONE: Create 5-minute portfolio showreel",
-          "Build online portfolio website",
-          "Complete first paid client project"
+          "Build online portfolio website"
         ],
-        "assessment": "Submit portfolio for professional review"
+        "assessment": "Months 3-4 check: a one-minute edit cut live from provided footage, plus mixed review"
       }
     },
     "month_5_6": {
       "title": "Months 5-6: Graphic Design & Brand Creation",
-      "weeks": "Week 18-26",
+      "weeks": "Weeks 18-26",
       "week_18_19": {
         "title": "Illustrator & Vector Design",
         "topics": [
@@ -376,839 +367,171 @@
         ],
         "projects": [
           "MAJOR CAPSTONE: Complete Brand Identity Project",
-          "Logo, social media kit, video intro, merchandise designs",
-          "Present to mock client panel"
+          "Logo, social media kit, video intro, merchandise designs"
         ],
-        "assessment": "Phase 1 comprehensive skills evaluation"
+        "assessment": "Phase check: present the mini brand kit, plus a mixed challenge spanning months 1-6"
       }
     }
   },
-  "phase_2_frontend_mastery": {
-    "title": "PHASE 2: Advanced Creative Mastery & Professional Skills (Months 7-12, Weeks 27-52)",
-    "description": "Master advanced video effects, motion graphics, 3D design, professional workflows, and build your creative business.",
-    "month_7_8": {
-      "title": "Months 7-8: Advanced Video & Visual Effects",
-      "weeks": "Week 27-35",
+  "phase_2_advanced_finale": {
+    "title": "PHASE 2: Advanced Craft and the Finale (Months 7-8, Weeks 27-32)",
+    "description": "Visual effects and real photography craft, then the portfolio capstone and the final exam.",
+    "month_7_8_finale": {
+      "title": "Months 7-8: Effects, Light and the Portfolio",
+      "weeks": "Weeks 27-32",
       "week_27_28": {
-        "title": "Advanced Premiere Pro Techniques",
+        "title": "Advanced Video: Effects and Sound",
         "topics": [
-          "Multi-camera editing workflow",
-          "Advanced color grading with Lumetri",
-          "Creating custom LUTs",
-          "Secondary color correction",
-          "Audio mastering and mixing",
-          "Sound design and foley",
-          "Dynamic linking with After Effects",
-          "Proxy workflow for 4K editing",
-          "Team projects and collaboration",
-          "XML and project exchange",
-          "Advanced transitions and effects",
-          "Time remapping and speed ramping"
+          "Transitions that mean something, not just move",
+          "Keyframing: motion inside the frame",
+          "Green screen done properly at home",
+          "Color grading: the honest before-and-after",
+          "Sound design: the half of video nobody sees",
+          "Titles and captions that people actually read",
+          "A polish pass on your best earlier edit"
         ],
         "projects": [
-          "Edit professional music video",
-          "Create documentary with color grade",
-          "Multi-cam event coverage edit"
+          "A 60-90 second short with effects, grade and sound design"
         ],
-        "practice": "Master 20 advanced editing techniques"
+        "practice": "One micro-edit daily; review the best two in class"
       },
       "week_29_30": {
-        "title": "After Effects Fundamentals",
+        "title": "Photography: Real Light, Any Camera",
         "topics": [
-          "After Effects interface and workflow",
-          "Compositions and layers",
-          "Keyframe animation basics",
-          "Position, scale, rotation, opacity",
-          "Easy ease and graph editor",
-          "Text animation and kinetic typography",
-          "Shape layers and animations",
-          "Masking and rotoscoping",
-          "3D layers and cameras",
-          "Effects and presets",
-          "Rendering and output settings",
-          "Essential Graphics panel"
+          "Composition: the five framings that fix most photos",
+          "Light: window, golden hour and one lamp, used deliberately",
+          "Phone camera mastery: focus, exposure and RAW where available",
+          "Editing your own shots: honest corrections, tasteful grades",
+          "A themed photo series: shooting with intent",
+          "Selecting: the discipline of choosing 6 from 200"
         ],
         "projects": [
-          "Animated logo reveal",
-          "Kinetic typography video",
-          "Lower thirds package"
+          "A themed 6-photo series, shot, edited and sequenced"
         ],
-        "practice": "Create one motion graphic daily"
+        "practice": "A daily frame: one deliberate photograph every day"
       },
-      "week_31_32": {
-        "title": "Visual Effects & Compositing",
+      "week_31": {
+        "title": "Portfolio Capstone",
         "topics": [
-          "Green screen keying techniques",
-          "Advanced masking and rotoscoping",
-          "Motion tracking and stabilization",
-          "3D camera tracking",
-          "Particle effects and simulations",
-          "Compositing multiple layers",
-          "Color matching and integration",
-          "Creating realistic shadows",
-          "Wire and object removal",
-          "Sky replacement in video",
-          "Face tracking and replacement",
-          "Creating sci-fi effects"
+          "Choosing the capstone: one campaign across photo, video and design",
+          "Curation over collection: the best 12 pieces, sequenced",
+          "Presenting decisions: intent, references, choices",
+          "Critique rounds: kind, specific, final"
         ],
         "projects": [
-          "VFX short film (superhero powers)",
-          "Green screen music video",
-          "Before/after VFX breakdown reel"
+          "THE CAPSTONE: a campaign plus the curated portfolio"
         ],
-        "practice": "Complete 15 VFX shots from raw footage"
+        "practice": "One critique given and one received, daily"
       },
-      "week_33_34": {
-        "title": "Motion Graphics Design",
+      "week_32": {
+        "title": "Demo Day and the Final Exam",
         "topics": [
-          "Motion design principles",
-          "Storyboarding for motion graphics",
-          "Animated infographics",
-          "Data visualization in motion",
-          "Broadcast graphics packages",
-          "Social media motion templates",
-          "Animated GIFs and stickers",
-          "Loading animations and UI motion",
-          "Expression basics in After Effects",
-          "Using motion graphics templates",
-          "Creating template packages",
-          "Client revision workflow"
+          "Presenting the capstone and portfolio",
+          "A live editing task under friendly time pressure",
+          "A full-course mixed review",
+          "Where this leads: creative coding, motion design, and making for your own channels"
         ],
         "projects": [
-          "Explainer video with infographics",
-          "Broadcast news graphics package",
-          "Social media motion templates set"
+          "Demo day presentation delivered to the batch"
         ],
-        "practice": "Design 30 different motion graphics"
-      },
-      "week_35": {
-        "title": "3D Design Introduction",
-        "topics": [
-          "3D design concepts and software options",
-          "Blender basics (free alternative)",
-          "Cinema 4D Lite in After Effects",
-          "3D modeling fundamentals",
-          "Texturing and materials",
-          "Lighting and rendering",
-          "3D text and logos",
-          "Product visualization",
-          "Augmented reality filters basics",
-          "3D for social media",
-          "Integration with 2D workflows",
-          "Future of 3D in content creation"
-        ],
-        "projects": [
-          "3D animated logo",
-          "Product visualization render",
-          "AR filter for Instagram/Snapchat"
-        ],
-        "practice": "Create 10 3D elements for videos"
-      }
-    },
-    "month_9_10": {
-      "title": "Months 9-10: Professional Photography & Advanced Design",
-      "weeks": "Week 36-44",
-      "week_36_37": {
-        "title": "Professional Photography Editing",
-        "topics": [
-          "Lightroom Classic workflow",
-          "RAW processing mastery",
-          "Catalog organization and keywords",
-          "Advanced color grading",
-          "Creating and selling presets",
-          "Batch editing for consistency",
-          "Tethered shooting setup",
-          "HDR photography and processing",
-          "Panorama stitching",
-          "Focus stacking techniques",
-          "Professional retouching workflow",
-          "Client delivery methods"
-        ],
-        "projects": [
-          "Edit complete wedding photo set",
-          "Create preset pack for sale",
-          "Professional portrait session editing"
-        ],
-        "practice": "Process 500 RAW photos professionally"
-      },
-      "week_38_39": {
-        "title": "Advanced Photoshop Techniques",
-        "topics": [
-          "Advanced compositing techniques",
-          "Digital painting and illustration",
-          "Photo restoration and colorization",
-          "Creating photorealistic effects",
-          "Advanced retouching: Dodge & burn",
-          "Fashion and beauty retouching",
-          "Architectural photo editing",
-          "Product photography post-production",
-          "Creating mockups and presentations",
-          "Smart objects and smart filters",
-          "Photoshop automation and scripts",
-          "Plugin ecosystem overview"
-        ],
-        "projects": [
-          "Digital art masterpiece",
-          "Restore old family photos",
-          "Fashion magazine cover edit"
-        ],
-        "practice": "Complete 20 advanced Photoshop challenges"
-      },
-      "week_40_41": {
-        "title": "Animation & GIF Creation",
-        "topics": [
-          "Principles of animation",
-          "Frame-by-frame animation basics",
-          "Timeline animation in Photoshop",
-          "Creating animated GIFs",
-          "Cinemagraphs creation",
-          "Stop motion techniques",
-          "Character animation basics",
-          "Animated stickers for messaging apps",
-          "Web animation formats",
-          "Lottie animations introduction",
-          "Animation for email marketing",
-          "Optimizing file sizes"
-        ],
-        "projects": [
-          "Animated GIF series for brand",
-          "Cinemagraph portfolio",
-          "Stop motion product video"
-        ],
-        "practice": "Create 30 different animations"
-      },
-      "week_42_43": {
-        "title": "Audio Production for Video",
-        "topics": [
-          "Audio fundamentals for video editors",
-          "Adobe Audition basics",
-          "Recording voiceovers professionally",
-          "Podcast editing workflow",
-          "Music mixing for video",
-          "Sound effects and foley recording",
-          "Audio restoration and cleanup",
-          "Creating soundscapes",
-          "Syncing audio and video",
-          "Loudness standards for platforms",
-          "Creating audio visualizers",
-          "Spatial audio introduction"
-        ],
-        "projects": [
-          "Produce complete podcast episode",
-          "Create film sound design",
-          "Music video with audio visualization"
-        ],
-        "practice": "Edit audio for 20 different projects"
-      },
-      "week_44": {
-        "title": "Live Streaming & Real-Time Content",
-        "topics": [
-          "Live streaming setup and equipment",
-          "OBS Studio configuration",
-          "Stream overlays and alerts",
-          "Multi-camera streaming",
-          "Green screen for streaming",
-          "Streaming to multiple platforms",
-          "Interactive content creation",
-          "Virtual events production",
-          "Live editing techniques",
-          "Audience engagement tools",
-          "Monetization while streaming",
-          "Building streaming community"
-        ],
-        "projects": [
-          "Set up professional streaming setup",
-          "Design complete stream package",
-          "Host 10-hour charity stream"
-        ],
-        "practice": "Stream weekly for audience building"
-      }
-    },
-    "month_11_12": {
-      "title": "Months 11-12: Business Skills & Career Launch",
-      "weeks": "Week 45-52",
-      "week_45_46": {
-        "title": "Freelancing & Client Work",
-        "topics": [
-          "Setting up freelance business as a teen",
-          "Legal considerations for young freelancers",
-          "Creating professional contracts",
-          "Pricing strategies and packages",
-          "Finding clients on Fiverr, Upwork",
-          "Building local client base",
-          "Project management tools",
-          "Client communication best practices",
-          "Handling revisions and scope creep",
-          "Invoice and payment systems",
-          "Building recurring revenue",
-          "Scaling from freelancer to agency"
-        ],
-        "projects": [
-          "Launch freelance service offerings",
-          "Complete 5 paid client projects",
-          "Build ₹10,000 monthly revenue"
-        ],
-        "practice": "Pitch to 50 potential clients"
-      },
-      "week_47_48": {
-        "title": "Building Your Creative Brand",
-        "topics": [
-          "Personal branding for creatives",
-          "Creating consistent online presence",
-          "Content strategy development",
-          "Growing social media following",
-          "Email marketing basics",
-          "Building email list as teen",
-          "Creating and selling digital products",
-          "Course and tutorial creation",
-          "Passive income streams",
-          "Collaboration and networking",
-          "Speaking and workshop opportunities",
-          "Building authority in your niche"
-        ],
-        "projects": [
-          "Launch personal brand across platforms",
-          "Create and sell first digital product",
-          "Reach 10,000 followers milestone"
-        ],
-        "practice": "Post valuable content daily for 30 days"
-      },
-      "week_49_50": {
-        "title": "Advanced Portfolio & Showreel",
-        "topics": [
-          "Portfolio psychology and strategy",
-          "Curating your best work",
-          "Creating case studies",
-          "Before/after presentations",
-          "Video showreel editing",
-          "Website portfolio best practices",
-          "Behance and creative platforms",
-          "LinkedIn portfolio features",
-          "Selling digital work: licensing and marketplaces",
-          "Print portfolio creation",
-          "Interview presentation materials",
-          "Continuous portfolio updates"
-        ],
-        "projects": [
-          "Professional portfolio website",
-          "3-minute showreel video",
-          "10 detailed case studies"
-        ],
-        "practice": "Get portfolio reviewed by 10 professionals"
-      },
-      "week_51": {
-        "title": "Industry Trends & Future Skills",
-        "topics": [
-          "AI in creative industry",
-          "AI art tools: Midjourney, DALL-E",
-          "AI video editing tools",
-          "Virtual and augmented reality",
-          "Content for AR and virtual spaces",
-          "Protecting your work: credit, licensing and provenance",
-          "Sustainable design practices",
-          "Accessibility in design",
-          "Cultural sensitivity in content",
-          "Global market opportunities",
-          "Emerging platforms and formats",
-          "Continuous learning strategies"
-        ],
-        "projects": [
-          "AI-assisted creative project",
-          "VR/AR experience design",
-          "Future-focused portfolio piece"
-        ],
-        "practice": "Experiment with 5 emerging technologies"
-      },
-      "week_52": {
-        "title": "Final Showcase & Career Launch",
-        "topics": [
-          "Career paths in creative industry",
-          "College applications with creative portfolio",
-          "Internship opportunities for teens",
-          "Building professional network",
-          "Resume for creative positions",
-          "Interview preparation",
-          "Negotiating as young professional",
-          "Continuing education options",
-          "Industry certifications",
-          "Mentorship and growth",
-          "5-year career planning",
-          "Graduation celebration"
-        ],
-        "projects": [
-          "FINAL CAPSTONE: Professional Creative Agency Simulation",
-          "Complete brand campaign: Video, photo, design, social media",
-          "Present to industry professionals panel"
-        ],
-        "assessment": "Final comprehensive evaluation and certification"
-      }
-    }
-  },
-  "phase_3_backend_engineering": {
-    "title": "PHASE 3: Placeholder - Structure Required by Template",
-    "description": "This phase is not applicable for the 1-year creative course but included to maintain JSON structure integrity.",
-    "month_13_14": {
-      "title": "Not Applicable",
-      "weeks": "N/A",
-      "week_53_54": {
-        "title": "N/A",
-        "topics": [
-          "N/A"
-        ],
-        "projects": [
-          "N/A"
-        ],
-        "practice": "N/A"
-      },
-      "week_55_56": {
-        "title": "N/A",
-        "topics": [
-          "N/A"
-        ],
-        "projects": [
-          "N/A"
-        ],
-        "practice": "N/A"
-      },
-      "week_57_58": {
-        "title": "N/A",
-        "topics": [
-          "N/A"
-        ],
-        "projects": [
-          "N/A"
-        ],
-        "practice": "N/A"
-      },
-      "week_59_60": {
-        "title": "N/A",
-        "topics": [
-          "N/A"
-        ],
-        "projects": [
-          "N/A"
-        ],
-        "practice": "N/A"
-      },
-      "week_61": {
-        "title": "N/A",
-        "topics": [
-          "N/A"
-        ],
-        "projects": [
-          "N/A"
-        ],
-        "practice": "N/A"
-      }
-    },
-    "month_15_16": {
-      "title": "Not Applicable",
-      "weeks": "N/A",
-      "week_62_63": {
-        "title": "N/A",
-        "topics": [
-          "N/A"
-        ],
-        "projects": [
-          "N/A"
-        ],
-        "practice": "N/A"
-      },
-      "week_64_65": {
-        "title": "N/A",
-        "topics": [
-          "N/A"
-        ],
-        "projects": [
-          "N/A"
-        ],
-        "practice": "N/A"
-      },
-      "week_66_67": {
-        "title": "N/A",
-        "topics": [
-          "N/A"
-        ],
-        "projects": [
-          "N/A"
-        ],
-        "practice": "N/A"
-      },
-      "week_68_69": {
-        "title": "N/A",
-        "topics": [
-          "N/A"
-        ],
-        "projects": [
-          "N/A"
-        ],
-        "practice": "N/A"
-      },
-      "week_70": {
-        "title": "N/A",
-        "topics": [
-          "N/A"
-        ],
-        "projects": [
-          "N/A"
-        ],
-        "practice": "N/A"
-      }
-    },
-    "month_17_18": {
-      "title": "Not Applicable",
-      "weeks": "N/A",
-      "week_71_72": {
-        "title": "N/A",
-        "topics": [
-          "N/A"
-        ],
-        "projects": [
-          "N/A"
-        ],
-        "practice": "N/A"
-      },
-      "week_73_74": {
-        "title": "N/A",
-        "topics": [
-          "N/A"
-        ],
-        "projects": [
-          "N/A"
-        ],
-        "practice": "N/A"
-      },
-      "week_75_76": {
-        "title": "N/A",
-        "topics": [
-          "N/A"
-        ],
-        "projects": [
-          "N/A"
-        ],
-        "practice": "N/A"
-      },
-      "week_77": {
-        "title": "N/A",
-        "topics": [
-          "N/A"
-        ],
-        "projects": [
-          "N/A"
-        ],
-        "practice": "N/A"
-      },
-      "week_78": {
-        "title": "N/A",
-        "topics": [
-          "N/A"
-        ],
-        "projects": [
-          "N/A"
-        ],
-        "assessment": "N/A"
-      }
-    }
-  },
-  "phase_4_advanced_production": {
-    "title": "PHASE 4: Placeholder - Structure Required by Template",
-    "description": "This phase is not applicable for the 1-year creative course but included to maintain JSON structure integrity.",
-    "month_19_20": {
-      "title": "Not Applicable",
-      "weeks": "N/A",
-      "week_79_80": {
-        "title": "N/A",
-        "topics": [
-          "N/A"
-        ],
-        "projects": [
-          "N/A"
-        ],
-        "practice": "N/A"
-      },
-      "week_81_82": {
-        "title": "N/A",
-        "topics": [
-          "N/A"
-        ],
-        "projects": [
-          "N/A"
-        ],
-        "practice": "N/A"
-      },
-      "week_83_84": {
-        "title": "N/A",
-        "topics": [
-          "N/A"
-        ],
-        "projects": [
-          "N/A"
-        ],
-        "practice": "N/A"
-      },
-      "week_85_86": {
-        "title": "N/A",
-        "topics": [
-          "N/A"
-        ],
-        "projects": [
-          "N/A"
-        ],
-        "practice": "N/A"
-      },
-      "week_87": {
-        "title": "N/A",
-        "topics": [
-          "N/A"
-        ],
-        "projects": [
-          "N/A"
-        ],
-        "practice": "N/A"
-      }
-    },
-    "month_21_22": {
-      "title": "Not Applicable",
-      "weeks": "N/A",
-      "week_88_89": {
-        "title": "N/A",
-        "topics": [
-          "N/A"
-        ],
-        "projects": [
-          "N/A"
-        ],
-        "practice": "N/A"
-      },
-      "week_90_91": {
-        "title": "N/A",
-        "topics": [
-          "N/A"
-        ],
-        "projects": [
-          "N/A"
-        ],
-        "practice": "N/A"
-      },
-      "week_92_93": {
-        "title": "N/A",
-        "topics": [
-          "N/A"
-        ],
-        "projects": [
-          "N/A"
-        ],
-        "practice": "N/A"
-      },
-      "week_94_95": {
-        "title": "N/A",
-        "topics": [
-          "N/A"
-        ],
-        "projects": [
-          "N/A"
-        ],
-        "practice": "N/A"
-      },
-      "week_96": {
-        "title": "N/A",
-        "topics": [
-          "N/A"
-        ],
-        "projects": [
-          "N/A"
-        ],
-        "practice": "N/A"
-      }
-    },
-    "month_23": {
-      "title": "Not Applicable",
-      "weeks": "N/A",
-      "week_97": {
-        "title": "N/A",
-        "topics": [
-          "N/A"
-        ],
-        "projects": [
-          "N/A"
-        ],
-        "practice": "N/A"
-      },
-      "week_98": {
-        "title": "N/A",
-        "topics": [
-          "N/A"
-        ],
-        "projects": [
-          "N/A"
-        ],
-        "practice": "N/A"
-      },
-      "week_99": {
-        "title": "N/A",
-        "topics": [
-          "N/A"
-        ],
-        "projects": [
-          "N/A"
-        ],
-        "practice": "N/A"
-      },
-      "week_100": {
-        "title": "N/A",
-        "topics": [
-          "N/A"
-        ],
-        "projects": [
-          "N/A"
-        ],
-        "practice": "N/A"
-      }
-    },
-    "month_24": {
-      "title": "Not Applicable",
-      "weeks": "N/A",
-      "week_101_102": {
-        "title": "N/A",
-        "topics": [
-          "N/A"
-        ],
-        "projects": [
-          "N/A"
-        ]
-      },
-      "week_103": {
-        "title": "N/A",
-        "topics": [
-          "N/A"
-        ],
-        "deliverables": [
-          "N/A"
-        ]
-      },
-      "week_104": {
-        "title": "N/A",
-        "topics": [
-          "N/A"
-        ],
-        "deliverables": [
-          "N/A"
-        ],
-        "assessment": "N/A"
+        "assessment": "FINAL EXAM: portfolio review plus a live editing task and mixed questions from the whole course. Passing earns the certificate; falling short earns focused revision and a free retest"
       }
     }
   },
   "additional_learning_resources": {
     "projects_throughout_course": [
-      "Phase 1 (Months 1-6): Instagram Feed Makeover, YouTube Channel Launch, TikTok Viral Videos, Logo Designs, Photo Manipulations",
-      "Phase 2 (Months 7-12): Music Videos, VFX Short Films, Motion Graphics Package, Streaming Setup, Client Projects, Final Showreel"
+      "Months 1-2: photo edit sets, restorations and honest retouching",
+      "Months 3-4: cut sequences, a one-minute story and sound-fixed edits",
+      "Months 5-6: design sets and a mini brand built end to end",
+      "Months 7-8: an effects short, a themed photo series, and the capstone portfolio"
     ],
-    "total_projects_built": "50+ creative projects from social media content to professional client work",
+    "total_projects_built": "60+ critiqued pieces across photo, video and design, curated into a portfolio",
     "skills_mastered": [
-      "Photo Editing: Photoshop, Lightroom, Mobile Apps, RAW Processing, Retouching",
-      "Video Production: Premiere Pro, Filming Techniques, Color Grading, Audio Editing",
-      "Motion Graphics: After Effects, Animation, VFX, Compositing, 3D Basics",
-      "Graphic Design: Illustrator, Logo Design, Branding, Typography, Layout",
-      "Social Media: Content Creation, Platform Optimization, Viral Strategies, Analytics",
-      "Professional Skills: Client Management, Pricing, Contracts, Portfolio Building",
-      "Trending Platforms: YouTube, TikTok, Instagram, Twitch Streaming",
-      "Business: Freelancing, Digital Products, Personal Branding, Marketing",
-      "Advanced: AI Tools, AR Filters, 3D Design, Live Production",
-      "Software: Adobe Creative Suite, DaVinci Resolve, Canva, Figma, OBS"
+      "Photo editing: correction, retouching and compositing with taste",
+      "Video: cutting rhythm, effects, grading and sound design",
+      "Design: hierarchy, type and color through real briefs",
+      "Photography: composition and light with any camera",
+      "Critique: giving and taking feedback like a working creative"
     ],
     "weekly_structure": {
-      "theory_videos": "3-4 hours",
-      "hands_on_coding": "6-8 hours",
-      "projects": "3-4 hours",
-      "practice_problems": "2-3 hours",
-      "total_per_week": "12-15 hours"
-    },
-    "support_provided": {
-      "live_sessions": "Weekly creative workshops and critiques",
-      "mentorship": "1-on-1 guidance from industry professionals",
-      "code_review": "Professional portfolio and project reviews",
-      "career_support": "Client connections and job opportunities"
+      "live_classes": "2 live one-hour classes per week, making along with the instructor",
+      "homework": "A piece after every class, and a mixed challenge at the end of every month",
+      "practice": "2-3 hours of making between classes",
+      "review": "Every piece critiqued with written feedback; craft gaps reopened in class"
     },
     "certification": {
-      "phase_certificates": "Certificate after Phase 1 completion",
-      "final_certificate": "Professional Creative Designer Certificate",
-      "linkedin_badge": "Adobe Certified Associate preparation",
-      "industry_recognized": "Portfolio ready for industry/college",
-      "portfolio_projects": "50+ projects for professional showcase"
+      "completion": "Certificate from Modern Age Coders, awarded on passing the final exam, a portfolio review plus a live editing task. Fall short and there is focused revision and a free retest"
+    },
+    "support_provided": {
+      "doubt_support": "WhatsApp doubt support between classes",
+      "progress_updates": "Monthly written feedback on craft: what is working, what to push next"
     }
   },
   "prerequisites": {
-    "education": "No formal requirements - perfect for creative teens",
-    "coding_experience": "No technical skills needed - creativity is key",
-    "equipment": "Computer/laptop (specs provided), smartphone helpful",
-    "time_commitment": "12-15 hours per week for best results",
-    "english": "Basic English understanding",
-    "motivation": "Passion for creativity and visual storytelling"
+    "experience": "None. Every tool and principle is taught from zero",
+    "equipment": "A computer with a stable internet connection; a phone camera is enough for the photography weeks, and free tools cover the whole syllabus",
+    "age": "13 to 18. Batches are grouped by age and pace",
+    "time_commitment": "2 live classes plus 2-3 hours of making a week"
   },
   "who_is_this_for": {
-    "students": "High school students (13-18) interested in creative careers",
-    "working_professionals": "Young adults wanting creative skills",
-    "entrepreneurs": "Teen entrepreneurs needing content creation skills",
-    "freelancers": "Students wanting to earn through creative work",
-    "kids": "Creative middle schoolers with parental support",
-    "anyone": "Anyone who loves creating visual content"
+    "creators": "Teens already posting who want their work to look intentional",
+    "visual_minds": "Students who think in images and want real craft under the instinct",
+    "club_heroes": "The teen every school event already asks for posters and aftermovies",
+    "future_designers": "Anyone testing the creative road with a portfolio as the answer",
+    "complete_beginners": "No experience needed: taste is built, not born"
   },
   "career_paths_after_completion": [
-    "Social Media Content Creator",
-    "YouTube Video Editor",
-    "Freelance Graphic Designer",
-    "Photo Editor/Retoucher",
-    "Motion Graphics Designer",
-    "Video Production Assistant",
-    "Brand Designer",
-    "Digital Marketing Creative",
-    "VFX Artist (Junior)",
-    "Creative Director (with experience)"
+    "Creative Coding and Animation: where this craft meets motion graphics and code",
+    "Canva and AI Design: the design-systems road",
+    "School and club media done at another level, immediately",
+    "Personal channels with work that stands out for craft",
+    "Later professional tools: the principles here transfer to every suite"
   ],
   "course_guarantees": {
     "live_classes": "Live, interactive classes with a real instructor, never pre-recorded videos.",
     "small_batches": "Small batches only: group classes are capped at 10 students, with mini-batch (3 to 4 students) and personal 1-on-1 options.",
-    "structured_curriculum": "A structured, well-paced curriculum taught step by step, with hands-on practice in every session.",
+    "structured_curriculum": "A structured, well-paced curriculum taught step by step, with classwork in every session and homework after every class.",
+    "real_assessment": "Mixed challenges after every month and a final exam that decides the certificate: real craft, really critiqued.",
     "doubt_support": "Doubt support between classes over WhatsApp, so you are never left stuck.",
-    "certificate": "A course-completion certificate you can share.",
+    "certificate": "A certificate you earn by passing the final exam, with a free retest after revision if needed.",
     "free_demo": "A free demo class before you enrol, so you can decide with no pressure."
   },
   "faqs": [
     {
-      "question": "What will my teen learn to create?",
-      "answer": "The year covers photo editing, video production and visual effects, graphic design and brand creation, professional photography, and motion graphics. Students build a real portfolio: edited photo sets, cinematic videos, logos and brand kits, and social media content, finishing with business and career skills in the final months."
+      "question": "What will my teen learn and make in this course?",
+      "answer": "The full creative trio across eight months: photo editing from honest corrections to compositing, video from cutting rhythm to an effects-and-sound short, graphic design through a mini brand built end to end, then real photography craft with any camera, and a portfolio capstone, a campaign across all three skills, presented at demo day. Sixty-plus critiqued pieces in total."
     },
     {
-      "question": "What age range is this course for?",
-      "answer": "It is designed for teenagers aged 13 to 18. Creative middle schoolers slightly younger can join with parental support, and the examples and projects are chosen to feel current and relevant to teens."
+      "question": "How long does it take to get genuinely good?",
+      "answer": "Eight months at 2 live classes a week plus 2 to 3 hours of practice, with two more months in hand for teens who want longer. Creative skill is rep-based: the weekly critiqued pieces are the actual course, and the difference shows within the first month."
     },
     {
-      "question": "Does my teen need any design background?",
-      "answer": "No, the course begins with creative fundamentals and first photo edits. Curiosity and willingness to practice matter far more than existing skill; the curriculum turns raw creativity into professional technique step by step."
+      "question": "How is my teen assessed? Is the certificate just for attending?",
+      "answer": "No. A piece follows every class, every month ends with a mixed challenge that revisits earlier skills, and the course ends with a final exam: a portfolio review plus a live editing task. Passing earns the certificate; falling short earns focused revision and a free retest."
     },
     {
-      "question": "Do we need to buy Adobe software?",
-      "answer": "The curriculum teaches industry-standard tools like Photoshop, Premiere Pro, and After Effects, but students can start and practice with free alternatives such as GIMP, DaVinci Resolve, Canva, and CapCut, which the course also covers. We help each family choose a setup that fits their budget before any purchase is considered."
+      "question": "Which software is used, and do we have to buy anything?",
+      "answer": "Nothing needs to be purchased: strong free tools cover the entire syllabus for photo, video and design. Industry options like Photoshop are taught as options for families that already have Adobe access; every technique is also shown in the free equivalents, because the craft is the point, not the subscription."
     },
     {
-      "question": "How does this connect to future opportunities?",
-      "answer": "Students graduate with a portfolio that speaks for itself in college applications, freelance pitches, and creative communities. Many pair it with our creative coding and animation course to add motion design and interactive work to their range."
+      "question": "Does this course teach growing on social media or earning as a creator?",
+      "answer": "No, deliberately: no viral formulas, no monetization coaching, no freelance pressure aimed at teenagers. Craft and taste are what compound, and they are the whole syllabus. A teen whose work is genuinely good will never struggle for an audience later; the reverse is not true."
     },
     {
-      "question": "What will we pay per month?",
-      "answer": "Group classes are ₹1,499 per month, covering 2 live classes a week in batches of up to 10 teens. Mini batches of 3-4 students cost ₹2,999 per month, and 1-on-1 personal coaching with 2 private classes a week is ₹4,999 per month. For international students the rates are set for their country, for both group and 1-on-1."
+      "question": "Does my teen need a good camera?",
+      "answer": "No: the photography weeks are built around whatever camera the family owns, usually a phone, because composition and light matter far more than gear. The editing and design work needs only a normal computer."
     },
     {
-      "question": "Can my teen try before we enroll?",
-      "answer": "Yes, start with a free demo class, no strings attached, booked at learn.modernagecoders.com/contact. Parents can sit in on the demo; our 4.9 star rating across 547+ Google reviews mostly began with exactly that first class."
+      "question": "What are the fees?",
+      "answer": "Group classes are ₹1,499 per month, with 2 live classes a week in batches capped at 10 students. A mini batch of 3-4 students is ₹2,999 per month, and personal 1-on-1 classes are ₹4,999 per month. International students pay a price set for their own country, shown on this page in their local currency."
     },
     {
-      "question": "Are these live classes?",
-      "answer": "Yes, every class is a live 1-hour online session with a real instructor, never a recorded video playlist. Small interactive groups mean each student's work gets reviewed in class, which is how editing and design actually improve."
+      "question": "Is there a free trial class?",
+      "answer": "Yes, a free demo class with no commitment: book at learn.modernagecoders.com/contact or message us on WhatsApp at +91 91233 66161. Your teen will edit something real inside the demo."
     },
     {
-      "question": "What certification does my teen receive?",
-      "answer": "Completing the masterclass earns a Professional Creative Designer certificate. Alongside it, your teen graduates with a genuine creative portfolio of photos, videos, and designs, which is what colleges and clients actually look at."
+      "question": "Are classes live or recorded?",
+      "answer": "Live, always: small groups with a real instructor critiquing your teen’s actual work, never pre-recorded videos. Taste is built through critique, and critique needs eyes on the specific piece."
     }
   ]
 }
