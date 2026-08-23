@@ -2,73 +2,66 @@
   "meta": {
     "slug": "game-development-masterclass-for-kids",
     "date": "2025-10-29",
-    "title": "Game Development for Kids: Scratch, Roblox & Minecraft",
-    "description": "Game development course for kids ages 8-18: create and publish real games with Scratch, Roblox Studio, Minecraft and GDevelop, no complex coding needed.",
+    "dateModified": "2026-08-23",
+    "title": "Game Development for Kids: Scratch, Roblox and Minecraft",
+    "description": "Game development course for kids aged 8-12: live online classes building real games in Scratch, then Roblox and Minecraft worlds, in 6-8 months.",
     "keywords": [
       "game development for kids",
-      "Scratch games",
-      "Roblox Studio",
-      "Minecraft modding",
-      "GDevelop",
-      "Construct 3",
-      "kids coding",
-      "game design",
-      "visual programming",
-      "2D games",
-      "3D games",
-      "multiplayer games",
-      "game creation",
-      "teen game developer",
-      "no-code game development"
+      "game making course for kids",
+      "scratch game development for kids",
+      "roblox game making for kids",
+      "minecraft coding for children",
+      "game design course for kids",
+      "online game development classes for kids india",
+      "coding games for 10 year olds",
+      "game creator course for children",
+      "kids game programming classes",
+      "best game development course for kids",
+      "video game making classes for kids"
     ],
-    "category": "Game Development & Design",
+    "category": "Kids Coding",
     "taxonomy": "game-dev",
     "price": {
       "group": "₹1,499/month",
       "miniBatch": "₹2,999/month",
       "personal": "₹4,999/month"
     },
-    "duration": "6 months (26 weeks)",
-    "level": "Complete Beginner to Advanced Game Creator",
-    "commitment": "6-8 hours/week recommended",
-    "certification": "Junior Game Developer Certification",
+    "duration": "6-8 months (26-32 weeks)",
+    "level": "Complete beginner, ages 8 to 12",
+    "commitment": "2 live classes/week + 2-3 hours practice",
+    "certification": "Certificate from Modern Age Coders, awarded on passing the final exam",
     "image_path": "game-dev-kids.webp"
   },
   "program_overview": {
-    "title": "Complete Game Development Masterclass for Kids",
-    "tagline": "Transform from Game Player to Game Creator in 6 Months!",
-    "description": "This exciting 6-month journey transforms game-loving kids into game creators! Using kid-friendly visual tools, students will create 50+ games across multiple platforms - from simple 2D arcade games to complex 3D multiplayer worlds. No typing code required!\n\nStudents will master Scratch, Roblox Studio, Minecraft Education, GDevelop, and more. They'll learn game design, storytelling, level design, character creation, and even game monetization. By the end, they'll have a portfolio of published games and the skills to bring any game idea to life!",
+    "title": "Game Development for Kids",
+    "tagline": "From playing games to making them: real Scratch games first, then Roblox and Minecraft worlds, finished and shown off in six honest months.",
+    "description": "Every child who loves games has the same secret wish: to make one. This live online course grants it properly for ages 8 to 12: game logic learned in Scratch, where scores, lives, levels and enemy behavior are built by the child, then complete 2D games polished until friends ask to play again, and finally the leap into 3D worlds with Roblox Studio and coded Minecraft builds, plus first multiplayer fun.\n\nFinishing is the discipline: every month ends with a playable build and a mixed challenge that quietly revises earlier skills, and the course ends with a capstone game, planned, built, playtested and presented at demo day. There is no monetization talk, no in-game purchase strategy and no chatbot dependence in this course; children this age should be building skill and joy, and that is the whole syllabus.\n\nThe pace is honest and kid-sized: six months at two live classes a week plus two to three hours of playful practice, with two more months in hand when needed. A final exam, capstone demo plus a friendly viva, decides the certificate, with a free retest after revision. Real games, real pride, depth over dopamine.",
     "what_makes_this_different": [
-      "100% visual tools - no complex coding required",
-      "Create games that friends can actually play",
-      "Learn 10+ different game creation platforms",
-      "Publish games online and to app stores",
-      "Make money from games (parent-supervised)",
-      "Both 2D and 3D game development",
-      "Multiplayer and social games included",
-      "Game design theory made fun for kids"
+      "Finished beats fancy: every month ends with a playable build a child can demo at dinner",
+      "The kid-favorite trio done properly: Scratch mastery first, then Roblox Studio and coded Minecraft",
+      "Game design taste taught young: fairness, difficulty and fun, judged out loud kindly",
+      "No monetization talk, no purchase mechanics, no chatbot accounts: skill and joy only",
+      "An honest 6-month arc with 2 months in hand: nobody is rushed",
+      "Real assessment, gently done: monthly mixed challenges and a final capstone exam with a free retest"
     ],
     "learning_path": {
-      "phase_1": "Foundation (Months 1-2): Game Logic, Scratch, First Games",
-      "phase_2": "2D Games (Months 3-4): GDevelop, Construct, Mobile Games",
-      "phase_3": "3D Worlds (Months 5-6): Roblox, Minecraft, Multiplayer",
-      "phase_4": "Publishing: Share games with the world!"
+      "phase_1": "Game logic in Scratch (Months 1-2): mechanics, scoring, enemies and complete first games",
+      "phase_2": "2D mastery (Months 3-4): polish, levels, game feel and bigger builds",
+      "phase_3": "3D worlds and the finale (Months 5-6): Roblox Studio, coded Minecraft, first multiplayer, and the capstone exam"
     },
     "career_outcomes": [
-      "Young Game Developer",
-      "Game Designer",
-      "Level Designer",
-      "Game Tester",
-      "Content Creator/YouTuber",
-      "Future Professional Game Developer"
+      "A portfolio of finished, playable games across Scratch, Roblox and Minecraft",
+      "Game design taste: a child who can say why a game is fun, and fix one that is not",
+      "The natural runway into our dedicated Roblox, Minecraft and Python courses",
+      "Logic, persistence and playtesting habits that quietly help at school"
     ]
   },
-  "phase_1_foundation": {
-    "title": "PHASE 1: Game Foundations & First Games (Months 1-2, Weeks 1-8)",
-    "description": "Master game thinking and create your first games using Scratch and basic tools. Learn what makes games fun!",
-    "month_1_2": {
-      "title": "Months 1-2: Game Logic & Scratch Mastery",
-      "weeks": "Week 1-8",
+  "phase_1_game_logic": {
+    "title": "PHASE 1: Game Logic in Scratch (Months 1-2, Weeks 1-8)",
+    "description": "The mechanics under every game, built by the child: movement, scoring, enemies, and complete first games that work.",
+    "month_1_2_scratch": {
+      "title": "Months 1-2: Scratch Game Mastery",
+      "weeks": "Weeks 1-8",
       "week_1_2": {
         "title": "Introduction to Game Development",
         "topics": [
@@ -115,7 +108,8 @@
           "Shooting game with score",
           "Puzzle with levels"
         ],
-        "practice": "Create 10 different game mechanics"
+        "practice": "Create 10 different game mechanics",
+        "assessment": "Month 1 check: build a small game mechanic live, plus a fun take-home challenge"
       },
       "week_5_6": {
         "title": "Advanced Scratch Game Development",
@@ -163,12 +157,17 @@
           "Tower defense game",
           "Mobile tap game"
         ],
-        "practice": "Create 5 games in GDevelop"
+        "practice": "Create 5 games in GDevelop",
+        "assessment": "Month 2 check: a complete mini-game demoed live, with challenge questions reaching back to month 1"
       }
-    },
-    "month_3_4": {
-      "title": "Months 3-4: 2D Game Mastery",
-      "weeks": "Week 9-17",
+    }
+  },
+  "phase_2_2d_mastery": {
+    "title": "PHASE 2: 2D Game Mastery (Months 3-4, Weeks 9-17)",
+    "description": "From working to wonderful: levels, polish, game feel and bigger 2D builds that friends genuinely want to play.",
+    "month_3_4_mastery": {
+      "title": "Months 3-4: Bigger, Better 2D Games",
+      "weeks": "Weeks 9-17",
       "week_9_10": {
         "title": "Construct 3 Game Engine",
         "topics": [
@@ -227,7 +226,6 @@
           "Accelerometer controls",
           "Swipe and gesture mechanics",
           "Mobile UI/UX design",
-          "In-app purchases basics",
           "Ad integration concepts",
           "App store preparation",
           "Testing on devices",
@@ -266,7 +264,7 @@
         "practice": "Master 10 GameMaker features"
       },
       "week_17": {
-        "title": "2D Games Showcase",
+        "title": "Phase Review and Showcase",
         "topics": [
           "Portfolio preparation",
           "Game trailers creation",
@@ -282,12 +280,16 @@
           "Publish to itch.io",
           "Get player feedback"
         ],
-        "assessment": "Complete 2D game from concept to publication"
+        "assessment": "Phase check: showcase a polished 2D game, plus a mixed challenge spanning months 1-4"
       }
-    },
-    "month_5_6": {
-      "title": "Months 5-6: 3D Worlds & Multiplayer",
-      "weeks": "Week 18-26",
+    }
+  },
+  "phase_3_3d_finale": {
+    "title": "PHASE 3: 3D Worlds and the Finale (Months 5-6, Weeks 18-26)",
+    "description": "The leap kids dream about: Roblox Studio worlds, coded Minecraft builds, first multiplayer fun, and the capstone presented at demo day.",
+    "month_5_6_worlds": {
+      "title": "Months 5-6: Roblox, Minecraft and the Capstone",
+      "weeks": "Weeks 18-26",
       "week_18_19": {
         "title": "Roblox Studio Fundamentals",
         "topics": [
@@ -301,7 +303,6 @@
           "Game passes creation",
           "Team create feature",
           "Publishing to Roblox",
-          "Robux monetization basics",
           "Roblox community"
         ],
         "projects": [
@@ -385,7 +386,7 @@
         "practice": "Complete 3 Unity projects"
       },
       "week_26": {
-        "title": "Final Game Project & Publishing",
+        "title": "Capstone and the Final Exam",
         "topics": [
           "Choosing final project",
           "Game design document",
@@ -397,1336 +398,110 @@
           "Community building"
         ],
         "projects": [
-          "FINAL PROJECT: Complete original game",
-          "Publish to 2+ platforms",
-          "Create marketing materials",
-          "Build player community"
+          "THE CAPSTONE: an original game in the child’s chosen world, Scratch, Roblox or Minecraft, playtested and presented at demo day"
         ],
-        "assessment": "Launch complete game with 100+ players"
-      }
-    }
-  },
-  "phase_2_frontend_mastery": {
-    "title": "PHASE 2: Advanced Game Development (Specialized Tracks)",
-    "description": "Choose specialized paths: Mobile Games, Multiplayer, VR/AR, or Competitive Gaming",
-    "month_7_8": {
-      "title": "Mobile Game Specialization",
-      "weeks": "Mobile Track",
-      "week_27_28": {
-        "title": "Buildbox for Mobile Games",
-        "topics": [
-          "Buildbox 3 interface",
-          "Node-based logic",
-          "Asset creation and import",
-          "Physics-based games",
-          "Monetization setup",
-          "Ad networks integration",
-          "In-app purchases setup",
-          "Analytics integration",
-          "Push notifications",
-          "Social media sharing",
-          "Leaderboards integration",
-          "Cross-platform publishing"
-        ],
-        "projects": [
-          "Hyper-casual game",
-          "Physics puzzle game",
-          "Endless arcade game",
-          "Idle clicker game"
-        ],
-        "practice": "Publish 3 games to app stores"
-      },
-      "week_29_30": {
-        "title": "PlayCanvas Web Games",
-        "topics": [
-          "PlayCanvas editor",
-          "3D web games",
-          "Visual scripting in PlayCanvas",
-          "Asset pipeline",
-          "Multiplayer basics",
-          "WebGL optimization",
-          "Mobile web games",
-          "Facebook Instant Games",
-          "Web monetization",
-          "PWA game apps",
-          "Cloud hosting",
-          "Version control"
-        ],
-        "projects": [
-          "3D web runner",
-          "Multiplayer web game",
-          "Facebook Instant Game",
-          "PWA game app"
-        ],
-        "practice": "Deploy 5 web games"
-      },
-      "week_31_32": {
-        "title": "Core Games Platform",
-        "topics": [
-          "Core Games introduction",
-          "Collaborative creation",
-          "Lua scripting basics",
-          "Framework usage",
-          "Multiplayer by default",
-          "Monetization in Core",
-          "User-generated content",
-          "Events and game jams",
-          "Community features",
-          "Publishing process",
-          "Core credits system",
-          "Cross-promotion"
-        ],
-        "projects": [
-          "Multiplayer arena",
-          "Co-op adventure",
-          "Party game collection",
-          "RPG framework game"
-        ],
-        "practice": "Create 3 Core games"
-      },
-      "week_33_34": {
-        "title": "Stencyl 2D Games",
-        "topics": [
-          "Stencyl interface",
-          "Block-based coding",
-          "Actor behaviors",
-          "Scene designer",
-          "Physics settings",
-          "Mobile controls",
-          "Atlases and resources",
-          "Extensions usage",
-          "Performance tips",
-          "Publishing workflow",
-          "Steam publishing",
-          "Console basics"
-        ],
-        "projects": [
-          "Platform adventure",
-          "Tower defense game",
-          "Puzzle platformer",
-          "Action RPG"
-        ],
-        "practice": "Master Stencyl workflows"
-      },
-      "week_35": {
-        "title": "Godot Engine Basics",
-        "topics": [
-          "Godot installation",
-          "Node system",
-          "2D and 3D modes",
-          "Visual scripting",
-          "GDScript basics",
-          "Scene system",
-          "Animation tools",
-          "Particle systems",
-          "Export templates",
-          "Open source benefits",
-          "Community resources",
-          "Version control"
-        ],
-        "projects": [
-          "2D action game",
-          "3D prototype",
-          "Mobile export test",
-          "Web game deployment"
-        ],
-        "practice": "Explore Godot capabilities"
-      }
-    },
-    "month_9_10": {
-      "title": "Multiplayer & Social Games",
-      "weeks": "Multiplayer Specialization",
-      "week_36_37": {
-        "title": "Multiplayer Game Design",
-        "topics": [
-          "Multiplayer game types",
-          "Competitive vs cooperative",
-          "Matchmaking concepts",
-          "Lobby systems",
-          "Player progression",
-          "Ranking systems",
-          "Anti-cheat basics",
-          "Server concepts",
-          "Lag compensation",
-          "Social features",
-          "Guild/clan systems",
-          "Tournament setup"
-        ],
-        "projects": [
-          "Battle royale prototype",
-          "Co-op puzzle game",
-          "Racing multiplayer",
-          "Team-based shooter"
-        ],
-        "practice": "Design 5 multiplayer mechanics"
-      },
-      "week_38_39": {
-        "title": "Among Us Style Games",
-        "topics": [
-          "Social deduction mechanics",
-          "Role assignment",
-          "Task systems",
-          "Voting mechanics",
-          "Discussion phases",
-          "Map design for deduction",
-          "Balance and fairness",
-          "Custom game modes",
-          "Moderation tools",
-          "Community management",
-          "Update strategies",
-          "Viral mechanics"
-        ],
-        "projects": [
-          "Social deduction game",
-          "Hidden role game",
-          "Mystery game",
-          "Party game with roles"
-        ],
-        "practice": "Create social game mechanics"
-      },
-      "week_40_41": {
-        "title": "io Games Development",
-        "topics": [
-          "io game characteristics",
-          "Simple multiplayer setup",
-          "Browser-based games",
-          "Quick match systems",
-          "Progression in io games",
-          "Skins and customization",
-          "Leaderboard importance",
-          "Server regions",
-          "Bot players",
-          "Viral growth tactics",
-          "Ad-based monetization",
-          "Clone protection"
-        ],
-        "projects": [
-          "Snake io game",
-          "Territory io game",
-          "Battle io game",
-          "Unique io concept"
-        ],
-        "practice": "Launch io game with players"
-      },
-      "week_42_43": {
-        "title": "Minecraft Server Creation",
-        "topics": [
-          "Server setup basics",
-          "Plugins and mods",
-          "Game modes creation",
-          "Economy systems",
-          "Permission systems",
-          "Anti-grief measures",
-          "Custom commands",
-          "Events and contests",
-          "Server promotion",
-          "Community building",
-          "Donation systems",
-          "Server networks"
-        ],
-        "projects": [
-          "Survival server setup",
-          "Minigame server",
-          "RPG server creation",
-          "Creative build server"
-        ],
-        "practice": "Run server with 20+ players"
-      },
-      "week_44": {
-        "title": "Discord Game Bots",
-        "topics": [
-          "Discord bot basics",
-          "Bot commands",
-          "Mini-games in Discord",
-          "Economy bots",
-          "RPG bot systems",
-          "Leveling systems",
-          "Music and entertainment",
-          "Moderation features",
-          "Custom games",
-          "Bot hosting",
-          "Bot promotion",
-          "Monetization options"
-        ],
-        "projects": [
-          "RPG Discord bot",
-          "Economy bot game",
-          "Quiz bot game",
-          "Custom game bot"
-        ],
-        "practice": "Deploy bot to 10 servers"
-      }
-    },
-    "month_11_12": {
-      "title": "VR/AR & Emerging Tech",
-      "weeks": "Future Tech Track",
-      "week_45_46": {
-        "title": "VR Game Development",
-        "topics": [
-          "VR concepts for kids",
-          "CoSpaces Edu for VR",
-          "Google Cardboard apps",
-          "VR safety guidelines",
-          "360-degree experiences",
-          "VR storytelling",
-          "Movement in VR",
-          "Interaction systems",
-          "Comfort settings",
-          "VR for education",
-          "Social VR basics",
-          "Testing VR games"
-        ],
-        "projects": [
-          "VR escape room",
-          "Educational VR tour",
-          "VR art gallery",
-          "Simple VR game"
-        ],
-        "practice": "Create 3 VR experiences"
-      },
-      "week_47_48": {
-        "title": "AR Games with Lens Studio",
-        "topics": [
-          "Snapchat Lens Studio",
-          "AR markers and tracking",
-          "Face filters and games",
-          "World lenses",
-          "AR mini-games",
-          "Social AR experiences",
-          "AR treasure hunts",
-          "Location-based AR",
-          "AR for learning",
-          "Publishing lenses",
-          "Viral AR effects",
-          "AR monetization"
-        ],
-        "projects": [
-          "Face filter game",
-          "AR treasure hunt",
-          "World lens game",
-          "Educational AR app"
-        ],
-        "practice": "Publish 5 AR lenses"
-      },
-      "week_49_50": {
-        "title": "AI in Games",
-        "topics": [
-          "AI for game NPCs",
-          "Behavior trees basics",
-          "Pathfinding algorithms",
-          "Decision making AI",
-          "Procedural generation",
-          "AI difficulty adjustment",
-          "Machine learning basics",
-          "Voice commands in games",
-          "AI art generation",
-          "ChatGPT for game dialog",
-          "AI game testing",
-          "Future of AI in games"
-        ],
-        "projects": [
-          "AI-powered NPCs",
-          "Procedural level generator",
-          "AI opponent system",
-          "Voice-controlled game"
-        ],
-        "practice": "Implement 5 AI features"
-      },
-      "week_51": {
-        "title": "AI in Games",
-        "topics": [
-          "How game AI actually works (it is mostly rules)",
-          "Enemy behaviour and state machines",
-          "Pathfinding: how an NPC finds you",
-          "Difficulty that adapts to the player",
-          "Procedural level generation",
-          "Randomness versus fairness",
-          "AI-generated art and its limits",
-          "Using AI to help you build faster",
-          "What AI cannot design for you",
-          "Playtesting: does the AI feel fun or cheap?",
-          "Ethics of AI in games",
-          "Crediting AI honestly in your credits screen"
-        ],
-        "projects": [
-          "Smart enemy AI",
-          "Procedural level generator",
-          "Adaptive difficulty",
-          "NPC dialogue system"
-        ],
-        "practice": "Build 3 AI-driven game features"
-      },
-      "week_52": {
-        "title": "Game Developer Portfolio",
-        "topics": [
-          "Portfolio website creation",
-          "Game showcase strategies",
-          "Demo reel creation",
-          "Writing game descriptions",
-          "Screenshot techniques",
-          "Video trailers",
-          "Developer blog",
-          "Social media presence",
-          "Networking basics",
-          "Game jams participation",
-          "Future learning paths",
-          "Career planning"
-        ],
-        "projects": [
-          "Complete portfolio site",
-          "50+ game showcase",
-          "Demo reel video",
-          "Developer brand creation"
-        ],
-        "assessment": "Final certification project"
-      }
-    }
-  },
-  "phase_3_backend_engineering": {
-    "title": "SPECIALIZATION TRACKS: Choose Your Path",
-    "description": "Deep dive into specialized areas of game development",
-    "month_13_14": {
-      "title": "Esports & Competitive Gaming",
-      "weeks": "Competitive Track",
-      "week_53_54": {
-        "title": "Esports Game Design",
-        "topics": [
-          "Competitive game balance",
-          "Ranking systems design",
-          "Tournament structures",
-          "Spectator features",
-          "Replay systems",
-          "Anti-cheat measures",
-          "Skill-based matchmaking",
-          "Season systems",
-          "Competitive maps",
-          "Meta game design",
-          "Patch strategies",
-          "Community feedback"
-        ],
-        "projects": [
-          "Competitive arena game",
-          "Tournament system",
-          "Ranked game mode",
-          "Spectator mode"
-        ],
-        "practice": "Balance competitive gameplay"
-      },
-      "week_55_56": {
-        "title": "Stream-Friendly Games",
-        "topics": [
-          "Streamer-friendly features",
-          "Audience participation",
-          "Twitch integration",
-          "Stream overlays",
-          "Clip-worthy moments",
-          "Content creator tools",
-          "Copyright-free assets",
-          "Stream alerts",
-          "Chat commands",
-          "Viewer games",
-          "Streamer monetization",
-          "Community features"
-        ],
-        "projects": [
-          "Twitch integrated game",
-          "Audience voting game",
-          "Streamer toolkit",
-          "Viral moment generator"
-        ],
-        "practice": "Stream game development"
-      },
-      "week_57_58": {
-        "title": "Game Analytics & Metrics",
-        "topics": [
-          "Player behavior tracking",
-          "Key performance indicators",
-          "Retention metrics",
-          "Monetization analytics",
-          "A/B testing in games",
-          "Heatmap analysis",
-          "Player progression tracking",
-          "Churn prediction",
-          "Analytics dashboards",
-          "Data-driven design",
-          "Privacy considerations",
-          "GDPR compliance"
-        ],
-        "projects": [
-          "Analytics dashboard",
-          "A/B testing system",
-          "Player report system",
-          "Metric tracking setup"
-        ],
-        "practice": "Analyze 5 games' metrics"
-      },
-      "week_59_60": {
-        "title": "Game Marketing & Growth",
-        "topics": [
-          "Game trailers creation",
-          "Press kit preparation",
-          "Social media marketing",
-          "Influencer outreach",
-          "Steam page optimization",
-          "App store featuring",
-          "Community building",
-          "Discord server management",
-          "Reddit promotion",
-          "Game conferences",
-          "Awards and contests",
-          "Post-launch support"
-        ],
-        "projects": [
-          "Marketing campaign",
-          "Press kit creation",
-          "Community launch",
-          "Influencer package"
-        ],
-        "practice": "Market game to 1000 players"
-      },
-      "week_61": {
-        "title": "Game Monetization Strategies",
-        "topics": [
-          "Free-to-play models",
-          "Premium game pricing",
-          "In-app purchases design",
-          "Battle pass systems",
-          "Cosmetic monetization",
-          "Ad placement strategies",
-          "Subscription models",
-          "DLC planning",
-          "Season passes",
-          "Virtual currency",
-          "Ethical monetization",
-          "Regional pricing"
-        ],
-        "projects": [
-          "F2P monetization system",
-          "Battle pass design",
-          "Virtual shop creation",
-          "Ad integration setup"
-        ],
-        "practice": "Implement 3 monetization models"
-      }
-    },
-    "month_15_16": {
-      "title": "Educational Game Development",
-      "weeks": "EdTech Track",
-      "week_62_63": {
-        "title": "Learning Game Design",
-        "topics": [
-          "Educational game theory",
-          "Curriculum alignment",
-          "Learning objectives",
-          "Assessment integration",
-          "Progress tracking",
-          "Adaptive difficulty",
-          "Feedback systems",
-          "Gamification principles",
-          "Subject integration",
-          "Age-appropriate design",
-          "Teacher dashboards",
-          "Parent reports"
-        ],
-        "projects": [
-          "Math learning game",
-          "Science simulation",
-          "Language learning app",
-          "History adventure game"
-        ],
-        "practice": "Create 5 educational games"
-      },
-      "week_64_65": {
-        "title": "STEM Game Development",
-        "topics": [
-          "Coding games for kids",
-          "Logic puzzle design",
-          "Physics simulations",
-          "Chemistry lab games",
-          "Biology explorations",
-          "Engineering challenges",
-          "Robotics simulations",
-          "Space exploration games",
-          "Environmental games",
-          "AI teaching games",
-          "Data science games",
-          "Maker education"
-        ],
-        "projects": [
-          "Coding tutorial game",
-          "Physics puzzle game",
-          "Robot programming game",
-          "Science lab simulator"
-        ],
-        "practice": "Build STEM game library"
-      },
-      "week_66_67": {
-        "title": "Serious Games Development",
-        "topics": [
-          "Health education games",
-          "Safety training games",
-          "Social awareness games",
-          "Environmental games",
-          "Historical simulations",
-          "Cultural education",
-          "Financial literacy games",
-          "Career exploration",
-          "Soft skills training",
-          "Empathy games",
-          "Accessibility awareness",
-          "Impact measurement"
-        ],
-        "projects": [
-          "Health awareness game",
-          "Environmental impact game",
-          "Social skills trainer",
-          "Career exploration game"
-        ],
-        "practice": "Create games with purpose"
-      },
-      "week_68_69": {
-        "title": "Classroom Integration",
-        "topics": [
-          "LMS integration",
-          "Google Classroom",
-          "Assignment creation",
-          "Grading integration",
-          "Collaborative features",
-          "Classroom management",
-          "Student accounts",
-          "Progress monitoring",
-          "Curriculum mapping",
-          "Standards alignment",
-          "Professional development",
-          "Teacher resources"
-        ],
-        "projects": [
-          "Classroom game suite",
-          "Teacher toolkit",
-          "Assignment system",
-          "Progress tracker"
-        ],
-        "practice": "Deploy games in schools"
-      },
-      "week_70": {
-        "title": "Game Accessibility",
-        "topics": [
-          "Visual accessibility",
-          "Hearing accessibility",
-          "Motor accessibility",
-          "Cognitive accessibility",
-          "Difficulty options",
-          "Control remapping",
-          "Colorblind modes",
-          "Subtitle systems",
-          "Screen reader support",
-          "One-handed modes",
-          "Pause features",
-          "Accessibility testing"
-        ],
-        "projects": [
-          "Fully accessible game",
-          "Accessibility retrofit",
-          "Inclusive design game",
-          "Testing documentation"
-        ],
-        "practice": "Make all games accessible"
-      }
-    },
-    "month_17_18": {
-      "title": "Professional Skills & Industry",
-      "weeks": "Career Preparation",
-      "week_71_72": {
-        "title": "Game Industry Overview",
-        "topics": [
-          "Game industry careers",
-          "AAA vs indie development",
-          "Game development roles",
-          "Studio structures",
-          "Publisher relationships",
-          "Platform holders",
-          "Industry trends",
-          "Regional markets",
-          "Game conferences",
-          "Networking events",
-          "Industry news sources",
-          "Career pathways"
-        ],
-        "projects": [
-          "Industry research project",
-          "Career plan creation",
-          "Network building",
-          "Conference preparation"
-        ],
-        "practice": "Connect with 20 developers"
-      },
-      "week_73_74": {
-        "title": "Game Testing & QA",
-        "topics": [
-          "Testing methodologies",
-          "Bug reporting",
-          "Test plans creation",
-          "Playtesting sessions",
-          "Balance testing",
-          "Performance testing",
-          "Compatibility testing",
-          "User testing",
-          "Focus groups",
-          "Feedback analysis",
-          "Issue tracking",
-          "QA documentation"
-        ],
-        "projects": [
-          "Test plan creation",
-          "Bug tracking system",
-          "Playtest organization",
-          "QA report compilation"
-        ],
-        "practice": "Test 10 games professionally"
-      },
-      "week_75_76": {
-        "title": "Game Documentation",
-        "topics": [
-          "Game design documents",
-          "Technical documentation",
-          "Art style guides",
-          "Sound design docs",
-          "Level design docs",
-          "User manuals",
-          "API documentation",
-          "Wiki creation",
-          "Tutorial design",
-          "Onboarding flows",
-          "Patch notes writing",
-          "Community guides"
-        ],
-        "projects": [
-          "Complete GDD",
-          "Technical manual",
-          "Player guide",
-          "Developer wiki"
-        ],
-        "practice": "Document 5 game projects"
-      },
-      "week_77": {
-        "title": "Team Collaboration",
-        "topics": [
-          "Version control basics",
-          "Team communication",
-          "Task management",
-          "Agile for games",
-          "Sprint planning",
-          "Code reviews",
-          "Art pipelines",
-          "Audio workflows",
-          "Remote collaboration",
-          "Conflict resolution",
-          "Leadership skills",
-          "Mentoring others"
-        ],
-        "projects": [
-          "Team game project",
-          "Pipeline setup",
-          "Collaboration tools",
-          "Team leadership"
-        ],
-        "practice": "Lead game team project"
-      },
-      "week_78": {
-        "title": "Final Showcase & Graduation",
-        "topics": [
-          "Portfolio finalization",
-          "Demo day preparation",
-          "Pitch presentation",
-          "Interview preparation",
-          "Resume building",
-          "LinkedIn optimization",
-          "Personal branding",
-          "Future goals setting",
-          "Continued learning",
-          "Alumni network",
-          "Certification process",
-          "Graduation celebration"
-        ],
-        "projects": [
-          "FINAL SHOWCASE: Best games portfolio",
-          "Professional presentation",
-          "Career materials",
-          "Future roadmap"
-        ],
-        "assessment": "Graduate as Certified Game Developer"
-      }
-    }
-  },
-  "phase_4_advanced_production": {
-    "title": "BONUS CONTENT: Advanced Specializations",
-    "description": "Optional advanced modules for continued excellence",
-    "month_19_20": {
-      "title": "Game Art & Sound Mastery",
-      "weeks": "Creative Excellence",
-      "week_79_80": {
-        "title": "Advanced Pixel Art",
-        "topics": [
-          "Advanced pixel techniques",
-          "Character animation cycles",
-          "Isometric pixel art",
-          "Tile set creation",
-          "Dithering and shading",
-          "Color palette mastery",
-          "Pixel art effects",
-          "Animation principles",
-          "Style development",
-          "Asset optimization",
-          "Pixel art tools mastery",
-          "Commercial asset creation"
-        ],
-        "projects": [
-          "Complete asset pack",
-          "Animated character set",
-          "Environment tiles",
-          "Effect animations"
-        ],
-        "practice": "Create professional pixel art"
-      },
-      "week_81_82": {
-        "title": "3D Modeling Basics",
-        "topics": [
-          "Blender basics for games",
-          "Low-poly modeling",
-          "Texturing basics",
-          "UV mapping introduction",
-          "Rigging fundamentals",
-          "Animation basics",
-          "Optimization for games",
-          "Asset pipelines",
-          "Procedural generation",
-          "Photogrammetry basics",
-          "3D scanning",
-          "Asset stores"
-        ],
-        "projects": [
-          "Low-poly character",
-          "Environment props",
-          "Animated model",
-          "Game-ready assets"
-        ],
-        "practice": "Create 10 3D game assets"
-      },
-      "week_83_84": {
-        "title": "Game Audio & Music",
-        "topics": [
-          "Sound effect creation",
-          "Foley recording",
-          "Audio editing basics",
-          "Music composition basics",
-          "Chiptune creation",
-          "Adaptive music systems",
-          "3D spatial audio",
-          "Voice acting basics",
-          "Audio implementation",
-          "Compression and formats",
-          "Audio middleware",
-          "Licensing and royalties"
-        ],
-        "projects": [
-          "SFX library creation",
-          "Game soundtrack",
-          "Voice acting samples",
-          "Audio system setup"
-        ],
-        "practice": "Create audio for 5 games"
-      },
-      "week_85_86": {
-        "title": "Procedural Generation",
-        "topics": [
-          "Procedural concepts",
-          "Random generation",
-          "Noise functions",
-          "Dungeon generation",
-          "Terrain generation",
-          "Item generation",
-          "Quest generation",
-          "Name generation",
-          "Infinite worlds",
-          "Seed systems",
-          "Procedural storytelling",
-          "Balance in procedural"
-        ],
-        "projects": [
-          "Procedural dungeon",
-          "Infinite runner generator",
-          "Random quest system",
-          "Procedural RPG"
-        ],
-        "practice": "Implement 5 procedural systems"
-      },
-      "week_87": {
-        "title": "Game Narrative Design",
-        "topics": [
-          "Story structure in games",
-          "Character development",
-          "Dialog writing",
-          "Branching narratives",
-          "Choice systems",
-          "Environmental storytelling",
-          "Lore creation",
-          "Quest design",
-          "Cutscene planning",
-          "Voice direction",
-          "Localization prep",
-          "Narrative tools"
-        ],
-        "projects": [
-          "Story-driven game",
-          "Dialog system",
-          "Quest chain design",
-          "Lore documentation"
-        ],
-        "practice": "Write 5 game narratives"
-      }
-    },
-    "month_21_22": {
-      "title": "Business & Entrepreneurship",
-      "weeks": "Game Business Mastery",
-      "week_88_89": {
-        "title": "Starting a Game Studio",
-        "topics": [
-          "Business planning",
-          "Legal structures",
-          "Funding options",
-          "Team building",
-          "Studio culture",
-          "Project management",
-          "Budgeting basics",
-          "Revenue sharing",
-          "Publishing deals",
-          "IP protection",
-          "Trademark basics",
-          "Studio branding"
-        ],
-        "projects": [
-          "Business plan draft",
-          "Studio branding",
-          "Team structure",
-          "Funding pitch"
-        ],
-        "practice": "Plan game studio launch"
-      },
-      "week_90_91": {
-        "title": "Crowdfunding Games",
-        "topics": [
-          "Kickstarter strategies",
-          "Campaign preparation",
-          "Reward tier design",
-          "Video production",
-          "Marketing timeline",
-          "Backer communication",
-          "Stretch goals",
-          "Risk management",
-          "Fulfillment planning",
-          "Platform comparison",
-          "Success stories",
-          "Failure analysis"
-        ],
-        "projects": [
-          "Campaign page design",
-          "Reward structure",
-          "Marketing plan",
-          "Video script"
-        ],
-        "practice": "Plan crowdfunding campaign"
-      },
-      "week_92_93": {
-        "title": "Game Publishing",
-        "topics": [
-          "Publisher relationships",
-          "Publishing contracts",
-          "Self-publishing options",
-          "Platform requirements",
-          "Certification processes",
-          "Rating systems",
-          "Localization needs",
-          "Marketing support",
-          "Revenue splits",
-          "Milestone planning",
-          "Post-launch support",
-          "Sequel planning"
-        ],
-        "projects": [
-          "Publishing strategy",
-          "Platform research",
-          "Contract review",
-          "Launch plan"
-        ],
-        "practice": "Research 10 publishers"
-      },
-      "week_94_95": {
-        "title": "Live Operations",
-        "topics": [
-          "Live service games",
-          "Content calendars",
-          "Event planning",
-          "Season design",
-          "Community management",
-          "Update strategies",
-          "Bug fix priorities",
-          "Player communication",
-          "Data-driven updates",
-          "Revenue optimization",
-          "Player retention",
-          "Sunset planning"
-        ],
-        "projects": [
-          "Live ops plan",
-          "Event calendar",
-          "Update roadmap",
-          "Community strategy"
-        ],
-        "practice": "Run live game for 3 months"
-      },
-      "week_96": {
-        "title": "Game Franchises",
-        "topics": [
-          "Franchise planning",
-          "Sequel design",
-          "Spin-off strategies",
-          "Brand management",
-          "Transmedia opportunities",
-          "Merchandising",
-          "Licensing deals",
-          "Fan community",
-          "Lore consistency",
-          "Art bible creation",
-          "Style guides",
-          "Legacy planning"
-        ],
-        "projects": [
-          "Franchise bible",
-          "Sequel concept",
-          "Merchandise design",
-          "Brand guide"
-        ],
-        "practice": "Plan game franchise"
-      }
-    },
-    "month_23": {
-      "title": "Cutting-Edge Technologies",
-      "weeks": "Future of Gaming",
-      "week_97": {
-        "title": "Cloud Gaming Development",
-        "topics": [
-          "Cloud gaming platforms",
-          "Streaming technology",
-          "Input lag solutions",
-          "Cross-device play",
-          "Save synchronization",
-          "Bandwidth optimization",
-          "5G gaming",
-          "Edge computing",
-          "Platform integration",
-          "Business models",
-          "Future predictions",
-          "Development tools"
-        ],
-        "projects": [
-          "Cloud-native game",
-          "Streaming optimization",
-          "Cross-device feature",
-          "Cloud save system"
-        ],
-        "practice": "Deploy cloud game"
-      },
-      "week_98": {
-        "title": "AI Game Development",
-        "topics": [
-          "AI-generated content",
-          "Procedural narratives",
-          "AI game masters",
-          "Dynamic difficulty",
-          "Player modeling",
-          "Behavior prediction",
-          "AI art generation",
-          "Voice synthesis",
-          "Natural language",
-          "Machine learning integration",
-          "Ethical considerations",
-          "Future of AI gaming"
-        ],
-        "projects": [
-          "AI-powered game",
-          "ML difficulty system",
-          "AI content generator",
-          "Predictive systems"
-        ],
-        "practice": "Integrate advanced AI"
-      },
-      "week_99": {
-        "title": "Multiplayer & Social Game Design",
-        "topics": [
-          "What makes a multiplayer game fun",
-          "Designing a shared space players want to stay in",
-          "Avatar and identity systems",
-          "In-game currency and item economies",
-          "Chat safety, reporting and blocking",
-          "Moderation: what happens when players are horrible",
-          "Live events and seasons",
-          "Server basics and why lag happens",
-          "Cross-platform play",
-          "Building a community around your game",
-          "Publishing responsibly to a young audience",
-          "Reading your own analytics honestly"
-        ],
-        "projects": [
-          "Multiplayer lobby",
-          "Avatar system",
-          "In-game economy",
-          "Social hub world"
-        ],
-        "practice": "Build a multiplayer social space"
-      },
-      "week_100": {
-        "title": "Experimental Gaming",
-        "topics": [
-          "Alternative controllers",
-          "Biometric gaming",
-          "Brain-computer interfaces",
-          "Haptic feedback",
-          "Smell and taste",
-          "Mixed reality",
-          "Holographic displays",
-          "Quantum gaming",
-          "Bio-gaming",
-          "Art games",
-          "Experimental narratives",
-          "Future possibilities"
-        ],
-        "projects": [
-          "Experimental prototype",
-          "Alternative input game",
-          "Art game creation",
-          "Future concept"
-        ],
-        "practice": "Push gaming boundaries"
-      }
-    },
-    "month_24": {
-      "title": "Master Game Developer Path",
-      "weeks": "Excellence Achievement",
-      "week_101_102": {
-        "title": "Game Development Mastery",
-        "topics": [
-          "Design philosophy",
-          "Personal style development",
-          "Signature mechanics",
-          "Innovation strategies",
-          "Risk-taking in design",
-          "Artistic vision",
-          "Technical excellence",
-          "Polish and refinement",
-          "Perfectionism balance",
-          "Speed vs quality",
-          "Iteration mastery",
-          "Decision making"
-        ],
-        "projects": [
-          "Signature game project",
-          "Innovation showcase",
-          "Technical achievement",
-          "Artistic statement"
-        ]
-      },
-      "week_103": {
-        "title": "Industry Leadership",
-        "topics": [
-          "Thought leadership",
-          "Public speaking",
-          "Conference talks",
-          "Workshop leading",
-          "Mentorship programs",
-          "Community building",
-          "Open source contribution",
-          "Standards setting",
-          "Industry advocacy",
-          "Diversity initiatives",
-          "Youth programs",
-          "Future shaping"
-        ],
-        "deliverables": [
-          "Leadership portfolio",
-          "Speaking engagements",
-          "Mentorship record",
-          "Community impact",
-          "Industry contributions",
-          "Published articles",
-          "Workshop materials",
-          "Legacy projects"
-        ]
-      },
-      "week_104": {
-        "title": "Your Gaming Legacy",
-        "topics": [
-          "Career reflection",
-          "Achievement celebration",
-          "Impact assessment",
-          "Future planning",
-          "Giving back",
-          "Knowledge sharing",
-          "Next generation",
-          "Industry evolution",
-          "Personal brand",
-          "Continued growth",
-          "Life-long learning",
-          "Your game story"
-        ],
-        "deliverables": [
-          "Complete portfolio: 50+ games",
-          "Published titles",
-          "Community contributions",
-          "Student success stories",
-          "Industry recognition",
-          "Personal brand established",
-          "Network of 500+ developers",
-          "Future roadmap"
-        ],
-        "assessment": "MASTER GAME DEVELOPER CERTIFICATION ACHIEVED!"
+        "assessment": "FINAL EXAM: capstone demo plus a friendly viva and a mixed quiz from the whole course. Passing earns the certificate; a child who falls short gets focused revision and a free retest"
       }
     }
   },
   "additional_learning_resources": {
     "projects_throughout_course": [
-      "Month 1-2: 20 Scratch games, basic mechanics",
-      "Month 3-4: 15 2D games across platforms",
-      "Month 5-6: 10 3D games and multiplayer",
-      "Specialization: 15+ specialized projects",
-      "Total: 60+ complete games"
+      "Months 1-2: complete first Scratch games with scores, lives and enemies",
+      "Months 3-4: polished 2D games with levels, difficulty curves and juice",
+      "Months 5-6: a Roblox world, a coded Minecraft build, first multiplayer fun, and the capstone at demo day"
     ],
-    "total_projects_built": "60+ games from simple to complex, published titles",
+    "total_projects_built": "15+ playable games and worlds, crowned by a capstone presented at demo day",
     "skills_mastered": [
-      "Game Design: Mechanics, balance, fun factor, player psychology",
-      "2D Development: Sprites, physics, platformers, puzzles",
-      "3D Development: Modeling basics, terrain, lighting, cameras",
-      "Programming: Visual scripting, logic, algorithms, AI basics",
-      "Art & Animation: Pixel art, sprites, UI design, effects",
-      "Sound & Music: SFX, music, voice, implementation",
-      "Multiplayer: Networking, servers, matchmaking, social",
-      "Publishing: App stores, Steam, web platforms, marketing",
-      "Monetization: Ads, IAP, premium, subscriptions",
-      "Tools: 15+ game engines and platforms mastered",
-      "Business: Marketing, analytics, community, monetization"
+      "Game logic: movement, collision, scoring, lives, levels and enemy behavior",
+      "Scratch mastery: complete, polished games built independently",
+      "World building: Roblox Studio basics and coded Minecraft creations",
+      "Design taste: fairness, difficulty and fun, judged and fixed",
+      "Finishing: planning, building, playtesting and presenting"
     ],
     "weekly_structure": {
-      "theory_videos": "2-3 hours",
-      "hands_on_creation": "3-4 hours",
-      "projects": "2-3 hours",
-      "playing_and_analysis": "1-2 hours",
-      "total_per_week": "6-8 hours"
-    },
-    "support_provided": {
-      "live_sessions": "Weekly game dev workshops",
-      "mentorship": "Expert game developer mentors",
-      "code_review": "Game testing and feedback",
-      "career_support": "Portfolio reviews and industry connections"
+      "live_classes": "2 live one-hour classes per week, building along with the teacher",
+      "homework": "A small game-build after every class, and a mixed challenge at the end of every month",
+      "practice": "2-3 hours of playful practice between classes",
+      "review": "Every build reviewed with teacher feedback; wobbly skills reopened in class"
     },
     "certification": {
-      "phase_certificates": "Certificates for each game platform mastered",
-      "final_certificate": "Certified Junior Game Developer",
-      "linkedin_badge": "Professional certification badge",
-      "industry_recognized": "Recognized by game studios",
-      "portfolio_projects": "60+ games to showcase"
+      "completion": "Certificate from Modern Age Coders, awarded on passing the final exam, a capstone demo plus a friendly viva. A child who falls short gets focused revision and a free retest: the certificate certifies skills, not attendance"
+    },
+    "support_provided": {
+      "doubt_support": "WhatsApp doubt support between classes, so no child stays stuck and discouraged",
+      "progress_updates": "Regular progress notes to parents: what was built, what comes next, and how to encourage practice"
     }
   },
   "prerequisites": {
-    "education": "None - suitable for ages 8-18",
-    "coding_experience": "Zero coding required",
-    "equipment": "Computer/laptop, optional: tablet/smartphone",
-    "time_commitment": "6-8 hours per week",
-    "english": "Basic English understanding",
-    "motivation": "Love for games and creativity"
+    "coding_experience": "None. Game logic is taught from the first block",
+    "reading": "Comfortable reading simple instructions",
+    "equipment": "A computer or laptop with a stable internet connection; Scratch, Roblox Studio and Minecraft coding tools are free to build with (accounts set up with a parent)",
+    "age": "8 to 12. Batches are grouped by age",
+    "time_commitment": "2 live classes plus 2-3 hours of playful practice a week"
   },
   "who_is_this_for": {
-    "students": "Kids (8+) and teens who love games",
-    "working_professionals": "Teachers and parents learning with kids",
-    "entrepreneurs": "Young entrepreneurs wanting game businesses",
-    "freelancers": "Future game developers and designers",
-    "kids": "Game-loving kids who want to create",
-    "anyone": "Anyone passionate about making games"
+    "game_lovers": "Children who play games and have started saying \"I could make this better\"",
+    "complete_beginners": "Kids with zero coding background: Scratch makes the start joyful",
+    "roblox_minecraft_fans": "Children who live in those worlds and are ready to build them instead",
+    "future_creators": "Kids who will grow into our dedicated Roblox, Minecraft and Python courses",
+    "finishers_in_training": "Children who start many things; this course teaches the pride of finishing"
   },
   "career_paths_after_completion": [
-    "Junior Game Developer",
-    "Game Designer",
-    "Level Designer",
-    "Game Tester",
-    "Unity/Unreal Developer (progression path)",
-    "Indie Game Developer",
-    "Game Content Creator/YouTuber",
-    "Game Instructor/Teacher",
-    "Game Entrepreneur",
-    "Professional Game Developer (with continued learning)"
+    "Roblox Game Coding: deeper Lua scripting for the Roblox-obsessed",
+    "Minecraft Coding: more automation and invention inside Minecraft",
+    "Python for Kids: the typed-code step, entered with strong logic",
+    "Kids Coding journey: the full block-to-code path if they want everything",
+    "Family fame: the household now has a game developer"
   ],
   "course_guarantees": {
     "live_classes": "Live, interactive classes with a real instructor, never pre-recorded videos.",
     "small_batches": "Small batches only: group classes are capped at 10 students, with mini-batch (3 to 4 students) and personal 1-on-1 options.",
-    "structured_curriculum": "A structured, well-paced curriculum taught step by step, with hands-on practice in every session.",
+    "structured_curriculum": "A structured, well-paced curriculum taught step by step, with classwork in every session and homework after every class.",
+    "real_assessment": "Mixed challenges after every month and a final exam that decides the certificate: real games, really finished.",
     "doubt_support": "Doubt support between classes over WhatsApp, so you are never left stuck.",
-    "certificate": "A course-completion certificate you can share.",
+    "certificate": "A certificate your child earns by passing the final exam, with a free retest after revision if needed.",
     "free_demo": "A free demo class before you enrol, so you can decide with no pressure."
   },
   "faqs": [
     {
-      "question": "What age is appropriate for this game development course for kids?",
-      "answer": "This course is designed for children ages 8-18. We use visual block-based programming in Scratch, GDevelop, and other kid-friendly engines that make game creation accessible without requiring typing skills. Younger kids (8-12) can fully participate, while teens will progress faster into more advanced 3D game development."
+      "question": "What games will my child actually make?",
+      "answer": "Fifteen-plus playable builds across six months: complete Scratch games with scores, lives and enemies in the first two months, polished 2D games with levels and difficulty curves by month four, then a Roblox Studio world, a coded Minecraft build and first multiplayer fun, ending with a capstone game in the child’s chosen world, playtested and presented at demo day."
     },
     {
-      "question": "Does my child need prior coding experience to start this game development course?",
-      "answer": "No prior coding experience is needed! We start from absolute scratch (literally using Scratch!). The course uses drag-and-drop visual programming, which is perfect for beginners. We progressively introduce more complex concepts as kids build confidence, eventually transitioning to platforms like GDevelop, Construct, and Unity."
+      "question": "What age is right for this course?",
+      "answer": "Ages 8 to 12, with batches grouped by age. Eight-year-olds thrive in the Scratch months and grow into the 3D tools; eleven and twelve-year-olds move faster and go deeper in Roblox and Minecraft. No coding background is needed."
     },
     {
-      "question": "What games will my child learn to create in this 18-month program?",
-      "answer": "Kids will build 60+ complete games including: platformers like Mario, puzzle games, racing games, shooting games, RPGs, multiplayer games, mobile games, and even VR experiences. Each project teaches specific skills while keeping learning fun and engaging."
+      "question": "How long does it take a child to learn game development?",
+      "answer": "Six months at 2 live classes a week plus 2 to 3 hours of playful practice takes a child from first mechanic to a demo-day capstone. The course keeps two more months in hand for children who need more repetition, no rushing and no penalty. The first working game exists within the first month."
     },
     {
-      "question": "Can kids actually publish and sell games after this course?",
-      "answer": "Yes! By the end of the program, students learn how to publish games to platforms like Google Play Store, iOS App Store, itch.io, and even Steam. Many of our young students already earn pocket money from game ads and sales. We teach game marketing, monetization, and app store optimization."
+      "question": "How is my child assessed? Is the certificate just for attending?",
+      "answer": "No, and it is all gentle: a small build after every class, a mixed challenge at the end of every month that revisits earlier skills, and a final exam at the end, a capstone demo plus a friendly viva and short quiz. Passing earns the certificate; a child who falls short gets focused revision and a free retest."
     },
     {
-      "question": "Is game development a good career path for my child?",
-      "answer": "Absolutely! The game industry is worth over $200 billion globally and growing rapidly. Beyond game development, students gain programming logic, problem-solving, creativity, and project management skills that transfer to any tech career. Many successful developers at companies like Epic Games, Ubisoft, and indie studios started young."
+      "question": "Does this course talk about making money from games?",
+      "answer": "No, deliberately. There is no monetization talk, no in-game purchase mechanics and no marketing lessons for children; those topics do not belong at 8 to 12. The course is about skill and joy: building games worth playing and finishing what you start. Sharing happens safely, with parent-managed accounts."
     },
     {
-      "question": "What equipment does my child need for this game development course?",
-      "answer": "A basic computer or laptop is sufficient to start. For 3D game development modules, we recommend 8GB RAM. A tablet or smartphone is helpful for testing mobile games. All the software we use is free or has free educational versions. Parents can join learning sessions to support younger children."
+      "question": "Are Roblox and Minecraft really educational?",
+      "answer": "As building tools, genuinely yes: Roblox Studio teaches world design and first scripting, and coded Minecraft teaches logic and automation, both on platforms children already love, which makes the motivation free. The course uses them as classrooms, with accounts set up alongside a parent and sharing kept safe."
+    },
+    {
+      "question": "Is any paid software needed?",
+      "answer": "No. Scratch is free, Roblox Studio is free to build with, and the Minecraft coding tools used in class are free. Any reasonably recent computer or laptop is enough."
+    },
+    {
+      "question": "What are the fees?",
+      "answer": "Group classes are ₹1,499 per month, with 2 live classes a week in batches capped at 10 children. A mini batch of 3-4 children is ₹2,999 per month, and personal 1-on-1 classes are ₹4,999 per month. International families pay a price set for their own country, shown on this page in their local currency."
+    },
+    {
+      "question": "Is there a free trial class?",
+      "answer": "Yes, a free demo class with no commitment: book at learn.modernagecoders.com/contact or message us on WhatsApp at +91 91233 66161. Your child will build a tiny game mechanic inside the demo itself."
+    },
+    {
+      "question": "Are classes live or recorded?",
+      "answer": "Live, always: small groups with a real teacher, never pre-recorded videos. Children build during class and get unstuck on the spot, which is exactly what keeps game-making joyful instead of frustrating."
     }
-  ],
-  "related_courses": [
-    {
-      "slug": "scratch-programming-complete-course",
-      "title": "Scratch Programming",
-      "description": "Build foundations with visual coding"
-    },
-    {
-      "slug": "python-ai-kids-masterclass",
-      "title": "Python for Kids",
-      "description": "Progress to text-based programming"
-    },
-    {
-      "slug": "problem-solving-and-computational-thinking-for-kids",
-      "title": "Problem Solving for Kids",
-      "description": "Develop logical thinking skills"
-    }
-  ],
-  "why_this_course": {
-    "title": "Why Game Development is the Ultimate Gateway to Coding",
-    "paragraphs": [
-      "Every kid loves games, and learning to make them is irresistible motivation. Game development teaches programming, math, physics, art, and storytelling while kids think they're just having fun. It's the Trojan horse of education that delivers serious coding skills through pure engagement.",
-      "Starting with Scratch and progressing to Unity, kids learn real programming concepts: variables, loops, functions, object-oriented programming, and physics simulations. These skills transfer directly to any programming career, but are acquired through projects they actually care about.",
-      "Beyond coding, game development builds creativity, persistence, project management, and collaborative skills. Many of our students have published games, won competitions, and developed the confidence to tackle any technical challenge."
-    ],
-    "highlights": [
-      "50+ games built across 2D, 3D, and mobile platforms",
-      "Progression from Scratch to Unity/Godot",
-      "Game design, art, sound, and storytelling",
-      "Publish to app stores and gaming platforms",
-      "Portfolio that impresses schools and competitions"
-    ]
-  }
+  ]
 }
