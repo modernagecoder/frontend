@@ -104,7 +104,7 @@ Status: [ ] pending · [~] in progress · [x] done+committed
 - [x] game-dev-teens.json (24mo -> 10-12mo) DONE 2026-08-23: 40wk/4 phases; Unity+C# deep with Blender, honest Unreal taste week, narrative+accessibility kept; cut VR/AR/esports/cloud-gaming/studio-business, Steam/console publishing promises, Jira/Perforce corporate pipeline
 - [x] elementary-mathematics.json (24mo -> 3 placement levels x 10-12mo) DONE 2026-08-23: Level A (G1-2) / B (G3-4) / C (G5), level exams w/ retest + promotion, concrete-pictorial-abstract framing, 20-30min daily practice (was 10-15 hrs/wk!), cut theory-videos/badges/adaptive-path claims
 - [x] college-level-maths.json (24mo -> 3 academic-year tracks) DONE 2026-08-23: Track 1 calc+LA / Track 2 ODE+discrete+prob / Track 3 analysis+algebra+topology; placement by syllabus, track exams w/ retest; cut grad-level padding (module theory, algebraic topology, PDE/numerical year, research seminar) + 20-25 hrs/wk claim
-- [ ] data-analytics-mathematics.json (24mo -> 10-12mo)
+- [x] data-analytics-mathematics.json (24mo -> 12-14mo) DONE 2026-08-23: 48wk/4 phases (stats truth, LA+inference, ML maths, optimization/NN/Bayes/time-series/AB); cut big-data/MLOps/GIS year; SLUG COLLISION FIXED: deleted applied-mathematics.json (dead older clone of the same slug that never reached the site)
 - [ ] java-programming-college.json (12mo, check scope) 
 
 ### Tier 2: broken-format (no phase structure)
