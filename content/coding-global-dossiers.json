@@ -2447,5 +2447,46 @@
       "Any 2021 figure for Kampong Jerudong. The settlement figure available is 2016 and the page labels it as such, while the mukim figure quoted alongside it is 2021.",
       "Any claim that Jerudong is missing from official records. It is fully recorded, under Mukim Sengkurong, and the page says so; the project is about what code does with a failed lookup, not about a gap in the data."
     ]
+  },
+  "coding-classes-in-as-suwaiq": {
+    "market": "As Suwaiq, Al Batinah North",
+    "bodyClass": "cg-suw",
+    "curriculumAuthority": "Oman Ministry of Education, General Education Diploma, alongside Cambridge International within the wilayat at Disley Private School and a separate Pakistani curriculum stream at Pakistan School Suwaiq. The page argues that three curricula inside one wilayat is itself the reason a learner record needs an explicit curriculum field rather than an assumption drawn from the place name.",
+    "localProject": "Identifiers that lose their leading zero. A 32-village register coded 01 to 32, joined against a survey column that one spreadsheet read as numeric, dropping exactly the nine keys 01 to 09. Assigned to this page and no other: checked against the stable-identifier trap on Ash Sharqiyah North, the visits-against-visitors trap on Al Khuwair and the missing-as-zero trap on Ibra before it was chosen.",
+    "requiredMentions": [
+      "Al Suwaiq Industrial City",
+      "Disley Private School",
+      "Pakistan School Suwaiq",
+      "Al Suwaiq Fort",
+      "Al Tharmad",
+      "Al Nabrah",
+      "Al Manfash",
+      "Al Hailain",
+      "Bawarh",
+      "Al Mabrah",
+      "Madayn"
+    ],
+    "sources": [
+      {
+        "claim": "Al Suwaiq Industrial City total area of 10 million square metres, inaugurated 2024, targeting food and beverage, pharmaceutical and logistics sectors.",
+        "url": "https://madayn.om/al-suwaiq-industrial-city/"
+      },
+      {
+        "claim": "Disley Private School describes itself as the only Cambridge accredited bilingual school in Al Suwaiq, working within the Ministry of Education framework combined with the Cambridge International Curriculum.",
+        "url": "https://www.disley.edu.om/"
+      },
+      {
+        "claim": "The wilayat contains 32 villages including Al Nabrah, Al Mabrah, Al Tharmad, Al Hailain, Al Manfash and Bawarh; it measures roughly 48 km by 80 km and is the largest wilayat in Oman; Al Suwaiq Fort is 60 m by 43 m with three circular towers and one square, restored 1992.",
+        "url": "https://en.wikipedia.org/wiki/Suwayq"
+      },
+      {
+        "claim": "Pakistan School Suwaiq has served the Pakistani community and other expatriate families in As Suwaiq since 1994.",
+        "url": "https://www.omanschoolfinder.com/schools/pakistan-school-suwaiq-p1026"
+      }
+    ],
+    "rejectedClaims": [
+      "A headline population for the wilayat. One published table gives about 200,994 at the 2022 census and the wilayat article gives about 140,577 for 2021. The two could not be reconciled at primary source, so no population figure appears on the page and the National Centre for Statistics and Information is named as the authority.",
+      "A count of agricultural villages. One secondary source says the wilayat oversees about 46 agricultural villages while the wilayat article counts 32 villages in total. The page uses only the 32 figure and does not repeat the 46."
+    ]
   }
 }

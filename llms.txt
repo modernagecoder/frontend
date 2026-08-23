@@ -383,6 +383,7 @@ USD 100 a month small group, USD 150 a month one to one.
 - Liang and Lumut, Belait, Brunei: https://learn.modernagecoders.com/coding-classes-in-liang
 - Gadong, Bandar Seri Begawan, Brunei: https://learn.modernagecoders.com/coding-classes-in-gadong
 - Jerudong, Brunei-Muara, Brunei: https://learn.modernagecoders.com/coding-classes-in-jerudong
+- As Suwaiq, Al Batinah North, Oman: https://learn.modernagecoders.com/coding-classes-in-as-suwaiq
 ## International Country Pages
 
 - United States: https://learn.modernagecoders.com/coding-classes-in-united-states

@@ -1774,4 +1774,8 @@
 # Global Build-AI cluster (ai-global.css). Inserted before the /* catch-all.
 /canadian-computing-competition-ccc-prep /src/pages/canadian-computing-competition-ccc-prep.html 200
 /canadian-computing-competition-ccc-prep.md /src/pages/canadian-computing-competition-ccc-prep.md 200
+
+# International growth cluster (coding-global.css). Must precede the /* catch-all.
+/coding-classes-in-as-suwaiq /src/pages/coding-classes-in-as-suwaiq.html 200
+/coding-classes-in-as-suwaiq.md /src/pages/coding-classes-in-as-suwaiq.md 200
 /* /src/pages/404.html 404
