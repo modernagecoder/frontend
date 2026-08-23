@@ -23,10 +23,10 @@
     "duration": "4 months (16 weeks), joinable any month",
     "level": "Ages 8 to 14; no prior coding required, everything is taught from scratch",
     "commitment": "2 live classes/week + small weekly projects",
-    "certification": "Course-completion certificate from Modern Age Coders",
+    "certification": "Certificate from Modern Age Coders, awarded on passing the final assessment",
     "image_path": "ai-literacy-for-kids.webp",
     "date": "2026-07-20",
-    "dateModified": "2026-07-20"
+    "dateModified": "2026-08-24"
   },
   "program_overview": {
     "title": "AI Literacy for Kids (Ages 8 to 14)",
@@ -283,7 +283,9 @@
       "Every class is live and small, taught by a real teacher, never an app left to babysit",
       "Understanding is assessed, not polish: children must explain their own work",
       "A free demo class first, so you can judge the teaching before you pay anything"
-    ]
+    ],
+    "real_assessment": "Classwork every session, a task after every class, monthly reviews that mix in earlier topics, and a friendly final assessment of everything learned that decides the certificate: real knowledge and real work, with a free retest after revision if needed.",
+    "certificate": "A certificate you earn by passing the final assessment, with a free retest after revision if needed."
   },
   "faqs": [
     {
@@ -307,8 +309,20 @@
       "answer": "Batches are grouped by age band within the 8 to 14 range, so an eight-year-old is never placed with a fourteen-year-old. The concepts stay the same; the activities, tools and depth are matched to the band. We place your child after the free demo class."
     },
     {
+      "question": "How is my child assessed, and is the certificate just for attending?",
+      "answer": "No. A task follows every class with feedback, monthly reviews deliberately mix new material with earlier topics so nothing is forgotten, and the course ends with a friendly final assessment of everything learned. Passing earns the certificate; falling short earns focused revision and a free retest. We measure real learning, not attendance."
+    },
+    {
       "question": "How much do the AI literacy classes cost?",
       "answer": "Group classes start at ₹1,499 per month for two classes a week. A Mini Batch of three to four students is ₹2,999 per month, and 1-on-1 classes are ₹4,999 per month. There is a free demo class first, so you can see the teaching before you decide."
     }
-  ]
+  ],
+  "additional_learning_resources": {
+    "weekly_structure": {
+      "homework": "A task or problem set after every class, and a monthly mixed-review assignment that deliberately folds in earlier topics"
+    },
+    "certification": {
+      "completion": "Certificate from Modern Age Coders, awarded on passing the final assessment. Fall short and there is focused revision and a free retest: the certificate certifies real learning, not attendance"
+    }
+  }
 }

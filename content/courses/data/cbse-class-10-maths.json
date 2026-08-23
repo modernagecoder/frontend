@@ -24,8 +24,9 @@
     "duration": "10 months (40 weeks)",
     "level": "CBSE Class 10 students, Standard (041) and Basic (241)",
     "commitment": "2 live classes/week + 3-4 hours practice, rising to timed papers in the mock phase",
-    "certification": "Course-completion certificate from Modern Age Coders",
-    "image_path": "cbse-class-10-maths.webp"
+    "certification": "Certificate from Modern Age Coders, awarded on passing the final assessment",
+    "image_path": "cbse-class-10-maths.webp",
+    "dateModified": "2026-08-24"
   },
   "program_overview": {
     "title": "CBSE Class 10 Maths Board Prep",
@@ -442,10 +443,11 @@
     "weekly_structure": {
       "live_classes": "2 live one-hour classes per week; mock-phase sittings run longer for full papers",
       "practice": "3-4 hours weekly of problem sets and question-bank building, rising with timed papers in months 9-10",
-      "review": "Homework marked against board-style stepwise schemes; error logs reviewed with the teacher monthly"
+      "review": "Homework marked against board-style stepwise schemes; error logs reviewed with the teacher monthly",
+      "homework": "A task or problem set after every class, and a monthly mixed-review assignment that deliberately folds in earlier topics"
     },
     "certification": {
-      "completion": "Course-completion certificate from Modern Age Coders, alongside the student's marked mock series"
+      "completion": "Certificate from Modern Age Coders, awarded on passing the final assessment. Fall short and there is focused revision and a free retest: the certificate certifies real learning, not attendance"
     },
     "support_provided": {
       "doubt_support": "WhatsApp doubt support between classes, with worked solutions for stuck problems",
@@ -477,8 +479,9 @@
     "small_batches": "Small batches only: group classes are capped at 10 students, with mini-batch (3 to 4 students) and personal 1-on-1 options.",
     "structured_curriculum": "A structured, well-paced curriculum taught step by step, with hands-on practice in every session.",
     "doubt_support": "Doubt support between classes over WhatsApp, so you are never left stuck.",
-    "certificate": "A course-completion certificate you can share.",
-    "free_demo": "A free demo class before you enrol, so you can decide with no pressure."
+    "certificate": "A certificate you earn by passing the final assessment, with a free retest after revision if needed.",
+    "free_demo": "A free demo class before you enrol, so you can decide with no pressure.",
+    "real_assessment": "Classwork every session, a task after every class, monthly reviews that mix in earlier topics, and a full mock paper as the final assessment that decides the certificate: real knowledge and real work, with a free retest after revision if needed."
   },
   "faqs": [
     {
@@ -512,6 +515,10 @@
     {
       "question": "Can my child join mid-year, and do you promise a particular score?",
       "answer": "Mid-year joining works until about month 5; the week 1 diagnostic tells us what has been missed and the catch-up plan covers it through extra problem sets and doubt sessions. On scores we are direct: nobody can honestly promise board marks, and we do not. What we commit to is full syllabus coverage, board-pattern practice from the first chapter, a marked mock series, and honest monthly reporting so you always know exactly where your child stands."
+    },
+    {
+      "question": "How am I assessed, and is the certificate just for showing up?",
+      "answer": "No. A task follows every class with feedback, monthly reviews deliberately mix new material with earlier topics so nothing is forgotten, and the course ends with a full mock paper as the final assessment. Passing earns the certificate; falling short earns focused revision and a free retest. We measure real learning, not attendance."
     },
     {
       "question": "What does the course cost, and can we try it first?",

@@ -23,10 +23,10 @@
     "duration": "12 months (48 weeks), joinable any month",
     "level": "Students roughly aged 12 to 18 who are strong at school maths and want genuine olympiad problem solving",
     "commitment": "2 live classes/week + weekly problem sets and timed mocks",
-    "certification": "Course-completion certificate from Modern Age Coders",
+    "certification": "Certificate from Modern Age Coders, awarded on passing the final assessment",
     "image_path": "olympiad-maths-premium.webp",
     "date": "2026-07-20",
-    "dateModified": "2026-07-20"
+    "dateModified": "2026-08-24"
   },
   "program_overview": {
     "title": "Olympiad Mathematics",
@@ -275,7 +275,9 @@
       "Real past problems throughout, not manufactured exercises",
       "Solutions critiqued line by line, because a correct answer with a weak argument scores badly",
       "A free demo class first, so you can judge the teaching before you pay anything"
-    ]
+    ],
+    "real_assessment": "Classwork every session, a task after every class, monthly reviews that mix in earlier topics, and a full mock paper as the final assessment that decides the certificate: real knowledge and real work, with a free retest after revision if needed.",
+    "certificate": "A certificate you earn by passing the final assessment, with a free retest after revision if needed."
   },
   "faqs": [
     {
@@ -299,8 +301,20 @@
       "answer": "Yes, and it is the pillar students most often try to avoid. Geometry appears reliably in both the Indian and international ladders, and students who skip it cap their own score. We spend four months on it, starting with systematic angle chasing rather than hoping, and we teach coordinate and trigonometric methods as deliberate fallbacks."
     },
     {
+      "question": "How am I assessed, and is the certificate just for showing up?",
+      "answer": "No. A task follows every class with feedback, monthly reviews deliberately mix new material with earlier topics so nothing is forgotten, and the course ends with a full mock paper as the final assessment. Passing earns the certificate; falling short earns focused revision and a free retest. We measure real learning, not attendance."
+    },
+    {
       "question": "How much do the olympiad maths classes cost?",
       "answer": "Group classes start at ₹1,499 per month for two classes a week. A Mini Batch of three to four students is ₹2,999 per month, and 1-on-1 classes are ₹4,999 per month. There is a free demo class first, so you can see the teaching before you decide."
     }
-  ]
+  ],
+  "additional_learning_resources": {
+    "weekly_structure": {
+      "homework": "A task or problem set after every class, and a monthly mixed-review assignment that deliberately folds in earlier topics"
+    },
+    "certification": {
+      "completion": "Certificate from Modern Age Coders, awarded on passing the final assessment. Fall short and there is focused revision and a free retest: the certificate certifies real learning, not attendance"
+    }
+  }
 }

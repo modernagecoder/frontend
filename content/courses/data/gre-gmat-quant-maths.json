@@ -24,8 +24,9 @@
     "duration": "6 months (24 weeks)",
     "level": "Adults preparing for graduate admissions; school maths is refreshed from the ground up",
     "commitment": "2 live classes/week + 4-5 hours practice",
-    "certification": "Course-completion certificate from Modern Age Coders",
-    "image_path": "gre-gmat-quant-maths.webp"
+    "certification": "Certificate from Modern Age Coders, awarded on passing the final assessment",
+    "image_path": "gre-gmat-quant-maths.webp",
+    "dateModified": "2026-08-24"
   },
   "program_overview": {
     "title": "GRE & GMAT Quantitative Prep",
@@ -477,10 +478,11 @@
     "weekly_structure": {
       "live_classes": "2 live one-hour classes per week, solving and reviewing questions live rather than watching worked solutions go by",
       "practice": "4-5 hours weekly of timed problem sets and full sections between classes",
-      "review": "Homework and practice sections reviewed with written feedback, with equal attention to timing, method choice and accuracy"
+      "review": "Homework and practice sections reviewed with written feedback, with equal attention to timing, method choice and accuracy",
+      "homework": "A task or problem set after every class, and a monthly mixed-review assignment that deliberately folds in earlier topics"
     },
     "certification": {
-      "completion": "Course-completion certificate from Modern Age Coders, awarded on finishing the course and its final timed sections"
+      "completion": "Certificate from Modern Age Coders, awarded on passing the final assessment. Fall short and there is focused revision and a free retest: the certificate certifies real learning, not attendance"
     },
     "support_provided": {
       "doubt_support": "WhatsApp doubt support between classes, with worked solutions for the questions that stall you",
@@ -520,8 +522,9 @@
     "small_batches": "Small batches only: group classes are capped at 10 students, with mini-batch (3 to 4 students) and personal 1-on-1 options.",
     "structured_curriculum": "A structured, well-paced curriculum that rebuilds the maths before drilling the exam, with hands-on practice every session.",
     "doubt_support": "Doubt support between classes over WhatsApp, so a stuck question does not cost you a week.",
-    "certificate": "A course-completion certificate you can share.",
-    "free_demo": "A free demo class before you enrol, so you can decide with no pressure."
+    "certificate": "A certificate you earn by passing the final assessment, with a free retest after revision if needed.",
+    "free_demo": "A free demo class before you enrol, so you can decide with no pressure.",
+    "real_assessment": "Classwork every session, a task after every class, monthly reviews that mix in earlier topics, and a full mock paper as the final assessment that decides the certificate: real knowledge and real work, with a free retest after revision if needed."
   },
   "faqs": [
     {
@@ -551,6 +554,10 @@
     {
       "question": "Can I use a calculator on the exam?",
       "answer": "Partly, and knowing when is itself a skill. The GRE gives you an on-screen calculator for the quant section. On the GMAT Focus Edition, the quant section does not allow a calculator at all; only the Data Insights section does. Because of this, we drill mental and paper methods hard, since leaning on a calculator you may not have is a costly habit. We also teach when reaching for the calculator, where you are allowed one, actually wastes time versus estimating or reasoning to the answer."
+    },
+    {
+      "question": "How am I assessed, and is the certificate just for showing up?",
+      "answer": "No. A task follows every class with feedback, monthly reviews deliberately mix new material with earlier topics so nothing is forgotten, and the course ends with a full mock paper as the final assessment. Passing earns the certificate; falling short earns focused revision and a free retest. We measure real learning, not attendance."
     },
     {
       "question": "What does the course cost, and can I try it first?",

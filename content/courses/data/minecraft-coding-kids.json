@@ -24,8 +24,9 @@
     "duration": "4 months (16 weeks)",
     "level": "Beginner, ages 7 to 12",
     "commitment": "2 live classes/week + 1-2 hours practice",
-    "certification": "Course-completion certificate from Modern Age Coders",
-    "image_path": "minecraft-coding-kids.webp"
+    "certification": "Certificate from Modern Age Coders, awarded on passing the final assessment",
+    "image_path": "minecraft-coding-kids.webp",
+    "dateModified": "2026-08-24"
   },
   "program_overview": {
     "title": "Minecraft Coding for Kids",
@@ -344,10 +345,11 @@
     "weekly_structure": {
       "live_classes": "2 live one-hour classes per week, coding challenges solved along with the instructor",
       "practice": "1-2 hours of build challenges between classes, sized for young attention spans",
-      "review": "Practice builds reviewed with feedback; tricky concepts replayed at the start of the next class"
+      "review": "Practice builds reviewed with feedback; tricky concepts replayed at the start of the next class",
+      "homework": "A task or problem set after every class, and a monthly mixed-review assignment that deliberately folds in earlier topics"
     },
     "certification": {
-      "completion": "Course-completion certificate from Modern Age Coders, backed by the student's own gallery of working programs"
+      "completion": "Certificate from Modern Age Coders, awarded on passing the final assessment. Fall short and there is focused revision and a free retest: the certificate certifies real learning, not attendance"
     },
     "support_provided": {
       "doubt_support": "WhatsApp doubt support between classes, so nobody stays stuck until the next session",
@@ -379,8 +381,9 @@
     "small_batches": "Small batches only: group classes are capped at 10 students, with mini-batch (3 to 4 students) and personal 1-on-1 options.",
     "structured_curriculum": "A structured, well-paced curriculum taught step by step, with hands-on practice in every session.",
     "doubt_support": "Doubt support between classes over WhatsApp, so you are never left stuck.",
-    "certificate": "A course-completion certificate you can share.",
-    "free_demo": "A free demo class before you enrol, so you can decide with no pressure."
+    "certificate": "A certificate you earn by passing the final assessment, with a free retest after revision if needed.",
+    "free_demo": "A free demo class before you enrol, so you can decide with no pressure.",
+    "real_assessment": "Classwork every session, a task after every class, monthly reviews that mix in earlier topics, and a friendly final assessment of everything learned that decides the certificate: real knowledge and real work, with a free retest after revision if needed."
   },
   "faqs": [
     {
@@ -406,6 +409,10 @@
     {
       "question": "What does my child move on to after this course?",
       "answer": "The two most common paths are our Python for kids course, which takes the same ideas into the world's most-used typed language, and Roblox game coding, where students script 3D games in Luau. The instructor recommends a path for each child at the end of the course based on what they gravitated toward."
+    },
+    {
+      "question": "How is my child assessed, and is the certificate just for attending?",
+      "answer": "No. A task follows every class with feedback, monthly reviews deliberately mix new material with earlier topics so nothing is forgotten, and the course ends with a friendly final assessment of everything learned. Passing earns the certificate; falling short earns focused revision and a free retest. We measure real learning, not attendance."
     },
     {
       "question": "What does the course cost?",

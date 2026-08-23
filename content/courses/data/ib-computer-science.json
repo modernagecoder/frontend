@@ -23,10 +23,10 @@
     "duration": "Ongoing DP support, joinable any month",
     "level": "IB Diploma Programme students taking Computer Science at SL or HL",
     "commitment": "2 live classes/week + coursework and IA support",
-    "certification": "Course-completion certificate from Modern Age Coders",
+    "certification": "Certificate from Modern Age Coders, awarded on passing the final assessment",
     "image_path": "ib-computer-science.webp",
     "date": "2026-07-20",
-    "dateModified": "2026-07-20"
+    "dateModified": "2026-08-24"
   },
   "program_overview": {
     "title": "IB DP Computer Science",
@@ -466,7 +466,9 @@
       "The internal assessment is supported from planning to submission, not rescued at the end",
       "SL and HL students are taught to their own level within the batch",
       "A free demo class first, so you can judge the teaching before you pay anything"
-    ]
+    ],
+    "real_assessment": "Classwork every session, a task after every class, monthly reviews that mix in earlier topics, and a full mock paper as the final assessment that decides the certificate: real knowledge and real work, with a free retest after revision if needed.",
+    "certificate": "A certificate you earn by passing the final assessment, with a free retest after revision if needed."
   },
   "faqs": [
     {
@@ -490,8 +492,20 @@
       "answer": "Yes. Under the new guide SL students cover the case study, databases and object-oriented programming too, so the content overlap with HL is larger than it used to be. We teach SL and HL students within the same live batch but to their own required depth, and HL-only extension work is handled separately."
     },
     {
+      "question": "How am I assessed, and is the certificate just for showing up?",
+      "answer": "No. A task follows every class with feedback, monthly reviews deliberately mix new material with earlier topics so nothing is forgotten, and the course ends with a full mock paper as the final assessment. Passing earns the certificate; falling short earns focused revision and a free retest. We measure real learning, not attendance."
+    },
+    {
       "question": "How much do the IB Computer Science classes cost?",
       "answer": "Group classes start at ₹1,499 per month for two classes a week. A Mini Batch of three to four students is ₹2,999 per month, and 1-on-1 classes are ₹4,999 per month. There is a free demo class first, so you can see the teaching before you decide."
     }
-  ]
+  ],
+  "additional_learning_resources": {
+    "weekly_structure": {
+      "homework": "A task or problem set after every class, and a monthly mixed-review assignment that deliberately folds in earlier topics"
+    },
+    "certification": {
+      "completion": "Certificate from Modern Age Coders, awarded on passing the final assessment. Fall short and there is focused revision and a free retest: the certificate certifies real learning, not attendance"
+    }
+  }
 }

@@ -33,8 +33,9 @@
     "duration": "24 classes (12 weeks · 2 classes/week)",
     "level": "Intermediate (college students and early-career, ages 18+; no prior agent experience needed)",
     "commitment": "4-5 hours/week recommended",
-    "certification": "Modern Age Coders 'AI Agents with Copilot Studio' certificate upon completion",
-    "image_path": "copilot-studio-college.webp"
+    "certification": "Certificate from Modern Age Coders, awarded on passing the final assessment",
+    "image_path": "copilot-studio-college.webp",
+    "dateModified": "2026-08-24"
   },
   "program_overview": {
     "title": "AI Agents with Microsoft Copilot Studio: The Business Agent Skill for Your First Job",
@@ -516,8 +517,9 @@
     "live_classes": "Live, interactive classes with a real instructor, never pre-recorded videos.",
     "structured_curriculum": "A structured, well-paced 24-class curriculum taught step by step, with a real project in every single class.",
     "doubt_support": "Doubt support between classes over WhatsApp, so a broken flow never waits four days for help.",
-    "certificate": "A course-completion certificate earned by demonstrating and defending your capstone, not by attendance.",
-    "free_demo": "A free demo class before you enrol, so you can meet the mentor and the platform with no pressure."
+    "certificate": "A certificate you earn by passing the final assessment, with a free retest after revision if needed.",
+    "free_demo": "A free demo class before you enrol, so you can meet the mentor and the platform with no pressure.",
+    "real_assessment": "Classwork every session, a task after every class, monthly reviews that mix in earlier topics, and a final project defended live, plus a written assessment that decides the certificate: real knowledge and real work, with a free retest after revision if needed."
   },
   "additional_learning_resources": {
     "total_projects_built": "24 hands-on projects, one per class, finishing with a published business-grade capstone agent",
@@ -533,12 +535,11 @@
       "live_classes": "2 private 1-on-1 classes per week, about 1 hour each, across 12 weeks",
       "hands_on_agent_work": "1.5-2 hours building and testing in Copilot Studio between classes",
       "project_time": "1-1.5 hours completing each class project, usually inside your own agents",
-      "review_and_doubts": "30-45 minutes reviewing feedback and clearing doubts over WhatsApp before the next class"
+      "review_and_doubts": "30-45 minutes reviewing feedback and clearing doubts over WhatsApp before the next class",
+      "homework": "A task or problem set after every class, and a monthly mixed-review assignment that deliberately folds in earlier topics"
     },
     "certification": {
-      "completion_certificate": "Modern Age Coders 'AI Agents with Copilot Studio' certificate, earned by presenting and defending your Class 24 capstone agent",
-      "project_portfolio": "A published business-grade capstone plus 24 documented projects, packaged as a portfolio a recruiter can browse in five minutes",
-      "next_credentials": "A mapped path to PL-900 Power Platform Fundamentals (now with a dedicated Copilot Studio agents domain), the Applied Skills labs 'Build an agent in Microsoft Copilot Studio' and 'Enhance agents with autonomous capabilities', and Microsoft Certified: AI Agent Builder Associate (exam AB-620)"
+      "completion": "Certificate from Modern Age Coders, awarded on passing the final assessment. Fall short and there is focused revision and a free retest: the certificate certifies real learning, not attendance"
     },
     "skills_mastered": [
       "Agent design: instructions, scope fences, refusals, and brand-appropriate tone",
@@ -600,6 +601,10 @@
     {
       "question": "How is this different from your Codex + Claude Code course?",
       "answer": "They are complementary tracks. Codex + Claude Code is pro-code: you drive AI coding agents from the command line to ship software. This course is the low-code business track: you design, ground and govern agents in Microsoft Copilot Studio, the way operations, support and business teams deploy them. MCP knowledge transfers between both. Many students take this course first for the portfolio and vocabulary, then go pro-code."
+    },
+    {
+      "question": "How am I assessed, and is the certificate just for showing up?",
+      "answer": "No. A task follows every class with feedback, monthly reviews deliberately mix new material with earlier topics so nothing is forgotten, and the course ends with a final project defended live, plus a written assessment. Passing earns the certificate; falling short earns focused revision and a free retest. We measure real learning, not attendance."
     }
   ],
   "related_courses": [

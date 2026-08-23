@@ -24,8 +24,9 @@
     "duration": "4 months (16 weeks)",
     "level": "Absolute beginner, ages 10 to adult",
     "commitment": "2 live classes/week + 2-3 hours practice",
-    "certification": "Course-completion certificate from Modern Age Coders",
-    "image_path": "html-css-beginners.webp"
+    "certification": "Certificate from Modern Age Coders, awarded on passing the final assessment",
+    "image_path": "html-css-beginners.webp",
+    "dateModified": "2026-08-24"
   },
   "program_overview": {
     "title": "HTML & CSS for Beginners",
@@ -342,10 +343,11 @@
     "weekly_structure": {
       "live_classes": "2 live one-hour classes per week, building pages along with the instructor",
       "practice": "2-3 hours of building and recreation exercises between classes",
-      "review": "Every submitted page reviewed with written feedback; recurring issues reopened in class"
+      "review": "Every submitted page reviewed with written feedback; recurring issues reopened in class",
+      "homework": "A task or problem set after every class, and a monthly mixed-review assignment that deliberately folds in earlier topics"
     },
     "certification": {
-      "completion": "Course-completion certificate from Modern Age Coders, alongside a published website that speaks for itself"
+      "completion": "Certificate from Modern Age Coders, awarded on passing the final assessment. Fall short and there is focused revision and a free retest: the certificate certifies real learning, not attendance"
     },
     "support_provided": {
       "doubt_support": "WhatsApp doubt support between classes for stuck layouts and broken pages",
@@ -377,8 +379,9 @@
     "small_batches": "Small batches only: group classes are capped at 10 students, with mini-batch (3 to 4 students) and personal 1-on-1 options.",
     "structured_curriculum": "A structured, well-paced curriculum taught step by step, with hands-on practice in every session.",
     "doubt_support": "Doubt support between classes over WhatsApp, so you are never left stuck.",
-    "certificate": "A course-completion certificate you can share.",
-    "free_demo": "A free demo class before you enrol, so you can decide with no pressure."
+    "certificate": "A certificate you earn by passing the final assessment, with a free retest after revision if needed.",
+    "free_demo": "A free demo class before you enrol, so you can decide with no pressure.",
+    "real_assessment": "Classwork every session, a task after every class, monthly reviews that mix in earlier topics, and a final project defended live, plus a written assessment that decides the certificate: real knowledge and real work, with a free retest after revision if needed."
   },
   "faqs": [
     {
@@ -400,6 +403,10 @@
     {
       "question": "How are the classes run?",
       "answer": "Live one-hour online classes, twice a week, with a real instructor and at most 10 students in a group batch. Students build during class, not just watch, and everything submitted between classes comes back with written feedback. Mini-batch (3 to 4 students) and 1-on-1 options are available for learners who want closer attention."
+    },
+    {
+      "question": "How am I assessed, and is the certificate just for showing up?",
+      "answer": "No. A task follows every class with feedback, monthly reviews deliberately mix new material with earlier topics so nothing is forgotten, and the course ends with a final project defended live, plus a written assessment. Passing earns the certificate; falling short earns focused revision and a free retest. We measure real learning, not attendance."
     },
     {
       "question": "What does the course cost?",

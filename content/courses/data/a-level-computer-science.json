@@ -23,17 +23,15 @@
     "duration": "9 months (36 weeks) for the full A Level, joinable any month",
     "level": "Cambridge AS and A Level students on 9618; an IGCSE Computer Science background helps but is not required",
     "commitment": "2 live classes/week + weekly programming and past-paper practice",
-    "certification": "Course-completion certificate from Modern Age Coders",
+    "certification": "Certificate from Modern Age Coders, awarded on passing the final assessment",
     "image_path": "a-level-computer-science.webp",
     "date": "2026-08-21",
-    "dateModified": "2026-08-21"
+    "dateModified": "2026-08-24"
   },
-
   "program_overview": {
     "title": "Four papers, and two of them want opposite things",
     "description": "Cambridge 9618 examines through four papers of 75 marks each. AS candidates sit Papers 1 and 2; A Level candidates sit all four. The structural fact that catches most students is the relationship between Paper 2 and Paper 4. Paper 2, Fundamental Problem-solving and Programming Skills, states that candidates will not be required to write programming code, and provides an Insert with pseudocode built-in functions. Paper 4, Practical, is programming and nothing else, based around a small number of scenarios, with program code and evidence of testing submitted. The same qualification therefore asks a student to reason about programs without writing them, and then to write nothing but programs. Preparing for one does not prepare for the other, and this course treats them as the two separate disciplines they are."
   },
-
   "phase_1_as_theory_foundations": {
     "title": "PHASE 1: AS Theory Fundamentals, Paper 1 (Months 1-3)",
     "description": "Sections 1 to 8 of the syllabus: how data is represented, how the machine works, and the vocabulary Paper 1 marks against.",
@@ -158,7 +156,6 @@
       }
     }
   },
-
   "phase_2_paper_2_reasoning_without_code": {
     "title": "PHASE 2: Paper 2, Reasoning About Programs Without Writing Them (Months 4-6)",
     "description": "Sections 9 to 12. The paper that states candidates will not be required to write programming code, and supplies an Insert of pseudocode built-in functions. A separate discipline from Paper 4, and taught as one.",
@@ -283,7 +280,6 @@
       }
     }
   },
-
   "phase_3_a_level_advanced_and_practical": {
     "title": "PHASE 3: A Level Papers 3 and 4 (Months 7-9)",
     "description": "Sections 13 to 20. Advanced theory, and then the practical paper where program code and evidence of testing are submitted.",
@@ -408,7 +404,6 @@
       }
     }
   },
-
   "prerequisites": {
     "title": "What a Student Needs to Start",
     "items": [
@@ -419,7 +414,6 @@
       "For A Level candidates, a decision about the programming language for Paper 4, which we help make"
     ]
   },
-
   "who_is_this_for": {
     "title": "Who This Course Is For",
     "items": [
@@ -431,7 +425,6 @@
       "Students moving into 9618 from an IGCSE or a GCSE and finding the step considerable"
     ]
   },
-
   "career_paths_after_completion": [
     "A strong AS or A Level Computer Science grade across all papers taken",
     "A genuine programming ability, evidenced by Paper 4 rather than claimed",
@@ -439,7 +432,6 @@
     "The pseudocode and design habits that university algorithms courses assume",
     "A portfolio of working programs if the practical work is committed as it is written"
   ],
-
   "course_guarantees": {
     "title": "Our Commitment to You",
     "items": [
@@ -449,9 +441,10 @@
       "Practical work is written and tested by the student, never by us",
       "We will tell you honestly which paper carries the remaining risk and aim the final weeks at it",
       "We do not guarantee a grade, because nobody can, and any provider who offers one is selling something they cannot deliver"
-    ]
+    ],
+    "real_assessment": "Classwork every session, a task after every class, monthly reviews that mix in earlier topics, and a full mock paper as the final assessment that decides the certificate: real knowledge and real work, with a free retest after revision if needed.",
+    "certificate": "A certificate you earn by passing the final assessment, with a free retest after revision if needed."
   },
-
   "faqs": [
     {
       "question": "How is Cambridge 9618 assessed?",
@@ -477,5 +470,13 @@
       "question": "How long is the course?",
       "answer": "About thirty-six weeks at two classes a week for the full A Level, joinable in any month. AS alone is roughly the first twenty-four. One to one is paced to the entry date, and for a student joining close to a series we will say honestly what is achievable rather than promising full coverage."
     }
-  ]
+  ],
+  "additional_learning_resources": {
+    "weekly_structure": {
+      "homework": "A task or problem set after every class, and a monthly mixed-review assignment that deliberately folds in earlier topics"
+    },
+    "certification": {
+      "completion": "Certificate from Modern Age Coders, awarded on passing the final assessment. Fall short and there is focused revision and a free retest: the certificate certifies real learning, not attendance"
+    }
+  }
 }

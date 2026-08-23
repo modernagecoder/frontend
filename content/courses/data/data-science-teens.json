@@ -24,8 +24,9 @@
     "duration": "6 months (24 weeks)",
     "level": "Ages 14 to 18, basic Python required",
     "commitment": "2 live classes/week + 2-3 hours practice",
-    "certification": "Course-completion certificate from Modern Age Coders",
-    "image_path": "data-science-teens.webp"
+    "certification": "Certificate from Modern Age Coders, awarded on passing the final assessment",
+    "image_path": "data-science-teens.webp",
+    "dateModified": "2026-08-24"
   },
   "program_overview": {
     "title": "Data Science for Teens",
@@ -478,10 +479,11 @@
     "weekly_structure": {
       "live_classes": "2 live one-hour classes per week, working in notebooks alongside the instructor",
       "practice": "2-3 hours of dataset exercises and project work between classes",
-      "review": "Notebooks reviewed with written feedback, with special attention to honest claims and clean reasoning"
+      "review": "Notebooks reviewed with written feedback, with special attention to honest claims and clean reasoning",
+      "homework": "A task or problem set after every class, and a monthly mixed-review assignment that deliberately folds in earlier topics"
     },
     "certification": {
-      "completion": "Course-completion certificate from Modern Age Coders, alongside a published capstone notebook that shows the work"
+      "completion": "Certificate from Modern Age Coders, awarded on passing the final assessment. Fall short and there is focused revision and a free retest: the certificate certifies real learning, not attendance"
     },
     "support_provided": {
       "doubt_support": "WhatsApp doubt support between classes for stuck code and confusing datasets",
@@ -513,8 +515,9 @@
     "small_batches": "Small batches only: group classes are capped at 10 students, with mini-batch (3 to 4 students) and personal 1-on-1 options.",
     "structured_curriculum": "A structured, well-paced curriculum taught step by step, with hands-on practice in every session.",
     "doubt_support": "Doubt support between classes over WhatsApp, so you are never left stuck.",
-    "certificate": "A course-completion certificate you can share.",
-    "free_demo": "A free demo class before you enrol, so you can decide with no pressure."
+    "certificate": "A certificate you earn by passing the final assessment, with a free retest after revision if needed.",
+    "free_demo": "A free demo class before you enrol, so you can decide with no pressure.",
+    "real_assessment": "Classwork every session, a task after every class, monthly reviews that mix in earlier topics, and a final exam covering the whole course that decides the certificate: real knowledge and real work, with a free retest after revision if needed."
   },
   "faqs": [
     {
@@ -536,6 +539,10 @@
     {
       "question": "What does the capstone involve?",
       "answer": "Each student picks a question, finds a suitable public dataset, and does the whole job: cleaning with a documented log, exploratory analysis, honest figures, an optional model if it genuinely helps, and a written conclusion with a limitations section. The finished notebook is published to GitHub and presented live. It is a genuine piece of analysis with a public address, not a classroom-only exercise."
+    },
+    {
+      "question": "How am I assessed, and is the certificate just for showing up?",
+      "answer": "No. A task follows every class with feedback, monthly reviews deliberately mix new material with earlier topics so nothing is forgotten, and the course ends with a final exam covering the whole course. Passing earns the certificate; falling short earns focused revision and a free retest. We measure real learning, not attendance."
     },
     {
       "question": "What software is needed, and does it cost anything?",

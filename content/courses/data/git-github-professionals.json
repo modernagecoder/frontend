@@ -33,8 +33,9 @@
     "duration": "24 classes (12 weeks · 2 classes/week)",
     "level": "Intermediate to advanced (working professionals; basic Git assumed or fast-tracked)",
     "commitment": "4-5 hours/week recommended",
-    "certification": "Modern Age Coders 'Advanced Git & GitHub' certificate upon completion",
-    "image_path": "git-github-professionals.webp"
+    "certification": "Certificate from Modern Age Coders, awarded on passing the final assessment",
+    "image_path": "git-github-professionals.webp",
+    "dateModified": "2026-08-24"
   },
   "program_overview": {
     "title": "Advanced Git & GitHub Masterclass: Internals, Team Workflows, CI/CD and Security",
@@ -516,8 +517,9 @@
     "small_batches": "Small batches only: group classes are capped at 10 professionals, with mini-batch (3 to 4 learners) and personal 1-on-1 options.",
     "structured_curriculum": "A structured, well-paced curriculum taught step by step, with hands-on practice in every session.",
     "doubt_support": "Doubt support between classes over WhatsApp, so you are never left stuck mid-rebase.",
-    "certificate": "A course-completion certificate you can share.",
-    "free_demo": "A free demo class before you enrol, so you can decide with no pressure."
+    "certificate": "A certificate you earn by passing the final assessment, with a free retest after revision if needed.",
+    "free_demo": "A free demo class before you enrol, so you can decide with no pressure.",
+    "real_assessment": "Classwork every session, a task after every class, monthly reviews that mix in earlier topics, and a final project defended live, plus a written assessment that decides the certificate: real knowledge and real work, with a free retest after revision if needed."
   },
   "additional_learning_resources": {
     "total_projects_built": "24 hands-on projects, one per class, finishing with a production-grade capstone repository",
@@ -533,12 +535,11 @@
       "live_classes": "2 live classes per week, about 1 hour each, across 12 weeks",
       "hands_on_git_work": "1.5-2 hours running the commands from class on your own repositories, including the deliberate break-and-recover drills",
       "project_time": "1-1.5 hours completing each class project on your own machine",
-      "review_and_doubts": "30-60 minutes reviewing your work and clearing doubts over WhatsApp before the next class"
+      "review_and_doubts": "30-60 minutes reviewing your work and clearing doubts over WhatsApp before the next class",
+      "homework": "A task or problem set after every class, and a monthly mixed-review assignment that deliberately folds in earlier topics"
     },
     "certification": {
-      "completion_certificate": "Modern Age Coders 'Advanced Git & GitHub' certificate, earned by presenting and defending your Class 24 capstone repository",
-      "project_portfolio": "A public capstone repository with a complete workflow, CI/CD, security, and release stack, plus 24 documented class projects",
-      "github_profile": "A GitHub profile showing verified signed commits, real pull requests, passing Actions workflows, and a professional release history"
+      "completion": "Certificate from Modern Age Coders, awarded on passing the final assessment. Fall short and there is focused revision and a free retest: the certificate certifies real learning, not attendance"
     },
     "skills_mastered": [
       "Git Internals: the object model, refs and HEAD, the three trees, and plumbing commands like cat-file and rev-parse",
@@ -600,6 +601,10 @@
     {
       "question": "What certificate do I get after completing the course?",
       "answer": "You earn the Modern Age Coders 'Advanced Git & GitHub' certificate by presenting and defending your Class 24 capstone: a repository with a complete workflow, CI/CD, security, and release stack that you demonstrate live. You also leave with the repository itself and a GitHub profile full of verified signed commits, which usually says more than the certificate does."
+    },
+    {
+      "question": "How am I assessed, and is the certificate just for showing up?",
+      "answer": "No. A task follows every class with feedback, monthly reviews deliberately mix new material with earlier topics so nothing is forgotten, and the course ends with a final project defended live, plus a written assessment. Passing earns the certificate; falling short earns focused revision and a free retest. We measure real learning, not attendance."
     }
   ],
   "related_courses": [

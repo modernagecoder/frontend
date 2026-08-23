@@ -24,8 +24,9 @@
     "duration": "6 months (24 weeks)",
     "level": "High school students preparing for AP Precalculus; a solid Algebra 2 background is assumed",
     "commitment": "2 live classes/week + 4-5 hours practice",
-    "certification": "Course-completion certificate from Modern Age Coders",
-    "image_path": "ap-precalculus.webp"
+    "certification": "Certificate from Modern Age Coders, awarded on passing the final assessment",
+    "image_path": "ap-precalculus.webp",
+    "dateModified": "2026-08-24"
   },
   "program_overview": {
     "title": "AP Precalculus",
@@ -477,10 +478,11 @@
     "weekly_structure": {
       "live_classes": "2 live one-hour classes per week, working and checking problems live rather than watching solutions scroll by",
       "practice": "4-5 hours weekly of problem sets and, in the final month, timed free-response and full mock sections",
-      "review": "Homework and free responses reviewed with written feedback, scored against a sample rubric so you see exactly where reasoning is won and lost"
+      "review": "Homework and free responses reviewed with written feedback, scored against a sample rubric so you see exactly where reasoning is won and lost",
+      "homework": "A task or problem set after every class, and a monthly mixed-review assignment that deliberately folds in earlier topics"
     },
     "certification": {
-      "completion": "Course-completion certificate from Modern Age Coders, awarded on finishing the course and its final timed mock exams"
+      "completion": "Certificate from Modern Age Coders, awarded on passing the final assessment. Fall short and there is focused revision and a free retest: the certificate certifies real learning, not attendance"
     },
     "support_provided": {
       "doubt_support": "WhatsApp doubt support between classes, with worked solutions for the problems that stall you",
@@ -513,8 +515,9 @@
     "small_batches": "Small batches only: group classes are capped at 10 students, with mini-batch (3 to 4 students) and personal 1-on-1 options.",
     "structured_curriculum": "A structured curriculum that concentrates on the units the AP Precalculus exam actually tests, with hands-on problem-solving in every session.",
     "doubt_support": "Doubt support between classes over WhatsApp, so a stuck problem does not cost you a week.",
-    "certificate": "A course-completion certificate you can share.",
-    "free_demo": "A free demo class before you enrol, so you can decide with no pressure."
+    "certificate": "A certificate you earn by passing the final assessment, with a free retest after revision if needed.",
+    "free_demo": "A free demo class before you enrol, so you can decide with no pressure.",
+    "real_assessment": "Classwork every session, a task after every class, monthly reviews that mix in earlier topics, and a full mock paper as the final assessment that decides the certificate: real knowledge and real work, with a free retest after revision if needed."
   },
   "faqs": [
     {
@@ -544,6 +547,10 @@
     {
       "question": "Will this course get me a 5, or college credit?",
       "answer": "No honest course can promise a specific score. AP exams are graded 1 to 5, and your result depends on your starting point, the hours you put in and your performance on the day. What we can promise is honest: live teaching concentrated on the tested units, small batches, real doubt support, free-response drilling against a real rubric, and full timed mock exams under hybrid-digital conditions, plus a clear, evidence-based read on a realistic target for you. Whether a given score earns college credit, and for what, is decided by each university, and AP Precalculus credit policies vary more than AP Calculus policies do, so we point students to check the specific policy of the colleges they care about."
+    },
+    {
+      "question": "How am I assessed, and is the certificate just for showing up?",
+      "answer": "No. A task follows every class with feedback, monthly reviews deliberately mix new material with earlier topics so nothing is forgotten, and the course ends with a full mock paper as the final assessment. Passing earns the certificate; falling short earns focused revision and a free retest. We measure real learning, not attendance."
     },
     {
       "question": "What does the course cost, and can I try it first?",

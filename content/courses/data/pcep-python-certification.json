@@ -23,17 +23,15 @@
     "duration": "5 months (20 weeks) for PCEP then PCAP, joinable any month",
     "level": "Anyone from about 13 upward, including working adults; no prior programming required for the PCEP half",
     "commitment": "2 live classes/week + weekly programming practice and timed question sets",
-    "certification": "Course-completion certificate from Modern Age Coders. The PCEP and PCAP certifications themselves are awarded by the Python Institute and sat separately.",
+    "certification": "Certificate from Modern Age Coders, awarded on passing the final assessment",
     "image_path": "pcep-python-certification.webp",
     "date": "2026-08-21",
-    "dateModified": "2026-08-21"
+    "dateModified": "2026-08-24"
   },
-
   "program_overview": {
     "title": "The certificate is the receipt. The repository is the asset.",
     "description": "Python Institute certifications are useful in specific situations and oversold in most others. They give a self-taught learner an external checkpoint, they satisfy some employers and some institutions that want a named credential, and they impose a syllabus on someone who would otherwise wander. What they do not do is demonstrate that a person can build anything, because a multiple-choice exam cannot show that. So this course prepares both certifications properly and insists on something the exams do not require: a public repository of working programs built along the way. Students who finish have PCEP and PCAP if they want them, and something a reader can open either way. PCEP-30-02 is the entry-level exam and PCAP-31-03 the associate one; both are sat through the Python Institute rather than through us, and the current blueprint should be confirmed at pythoninstitute.org before booking."
   },
-
   "phase_1_pcep_foundations": {
     "title": "PHASE 1: PCEP Foundations (Months 1-2)",
     "description": "Entry-level Python taught properly rather than as exam trivia, with every topic implemented before it is tested.",
@@ -118,7 +116,6 @@
       }
     }
   },
-
   "phase_2_pcap_associate": {
     "title": "PHASE 2: PCAP Associate Material (Months 3-4)",
     "description": "Modules, packages, object-oriented programming, exceptions in depth, and the standard library the associate exam assumes.",
@@ -203,7 +200,6 @@
       }
     }
   },
-
   "phase_3_exam_and_evidence": {
     "title": "PHASE 3: Exam Readiness and Real Evidence (Month 5)",
     "description": "The final stretch: passing the exam, and finishing with something worth more than the certificate.",
@@ -248,7 +244,6 @@
       }
     }
   },
-
   "prerequisites": {
     "title": "What a Student Needs to Start",
     "items": [
@@ -259,7 +254,6 @@
       "Realistic expectations about what a certificate does and does not demonstrate, which the first class covers"
     ]
   },
-
   "who_is_this_for": {
     "title": "Who This Course Is For",
     "items": [
@@ -271,7 +265,6 @@
       "Parents who want a structured Python route for a teenager that ends in something external"
     ]
   },
-
   "career_paths_after_completion": [
     "PCEP and, if taken, PCAP certification from the Python Institute",
     "A public repository of finished, documented, running programs",
@@ -279,7 +272,6 @@
     "A foundation for data science, automation or backend development",
     "The habit of committing work as it is written, which outlives any certificate"
   ],
-
   "course_guarantees": {
     "title": "Our Commitment to You",
     "items": [
@@ -289,9 +281,10 @@
       "We will tell you honestly if a certificate is not the right use of your money and time",
       "We do not sell exam vouchers and take no commission on them; you book directly with the Python Institute",
       "We do not guarantee a pass, because nobody can, and any provider offering one is selling something they cannot deliver"
-    ]
+    ],
+    "real_assessment": "Classwork every session, a task after every class, monthly reviews that mix in earlier topics, and a full mock paper as the final assessment that decides the certificate: real knowledge and real work, with a free retest after revision if needed.",
+    "certificate": "A certificate you earn by passing the final assessment, with a free retest after revision if needed."
   },
-
   "faqs": [
     {
       "question": "Is a Python certificate actually worth it?",
@@ -316,6 +309,18 @@
     {
       "question": "Can a school student take these?",
       "answer": "Yes, from about thirteen, and several of ours have. It works well as an external checkpoint alongside a school curriculum that does not offer one, and the repository built along the way is more useful for university applications than the certificate itself. We say that to families before they enrol rather than afterwards."
+    },
+    {
+      "question": "How am I assessed, and is the certificate just for showing up?",
+      "answer": "No. A task follows every class with feedback, monthly reviews deliberately mix new material with earlier topics so nothing is forgotten, and the course ends with a full mock paper as the final assessment. Passing earns the certificate; falling short earns focused revision and a free retest. We measure real learning, not attendance."
     }
-  ]
+  ],
+  "additional_learning_resources": {
+    "weekly_structure": {
+      "homework": "A task or problem set after every class, and a monthly mixed-review assignment that deliberately folds in earlier topics"
+    },
+    "certification": {
+      "completion": "Certificate from Modern Age Coders, awarded on passing the final assessment. Fall short and there is focused revision and a free retest: the certificate certifies real learning, not attendance"
+    }
+  }
 }

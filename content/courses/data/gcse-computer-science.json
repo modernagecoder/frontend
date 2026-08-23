@@ -23,17 +23,15 @@
     "duration": "6 months (24 weeks), joinable any month",
     "level": "GCSE students on AQA, OCR or Edexcel Computer Science; taught from the basics, no prior coding required",
     "commitment": "2 live classes/week + weekly programming and past-paper practice",
-    "certification": "Course-completion certificate from Modern Age Coders",
+    "certification": "Certificate from Modern Age Coders, awarded on passing the final assessment",
     "image_path": "gcse-computer-science.webp",
     "date": "2026-08-21",
-    "dateModified": "2026-08-21"
+    "dateModified": "2026-08-24"
   },
-
   "program_overview": {
     "title": "Taught to the board your child actually sits",
     "description": "The three GCSE Computer Science specifications share a name and set different exams. AQA 8525 runs a two-hour Paper 1 on computational thinking and programming and a one-hour-forty-five Paper 2 on computing concepts, each ninety marks and each half the qualification. OCR J277 runs two papers of an hour and a half and eighty marks each. Edexcel sets its own 1CP2. A student revising from the wrong board's past papers is practising the wrong exam, and it is the commonest avoidable problem we see. The first thing we ask is which board, and the course is built around that answer. Everything is taught live, in a batch of five to eight or one to one, with programming in Python and past papers marked against the real mark scheme."
   },
-
   "phase_1_programming_that_survives_paper_1": {
     "title": "PHASE 1: Programming That Survives Paper 1 (Months 1-2)",
     "description": "Real Python, written by hand, plus the code-tracing habit that carries more marks than any single topic on the specification.",
@@ -118,7 +116,6 @@
       }
     }
   },
-
   "phase_2_computing_concepts_and_systems": {
     "title": "PHASE 2: Computing Concepts and Systems (Months 3-4)",
     "description": "The theory half, taught as systems that relate to each other rather than as vocabulary to be memorised, because that is what the longer questions reward.",
@@ -203,7 +200,6 @@
       }
     }
   },
-
   "phase_3_board_specific_exam_mastery": {
     "title": "PHASE 3: Board-Specific Exam Mastery (Months 5-6)",
     "description": "The half of the course that separates the three specifications, spent entirely on the papers this student will actually sit.",
@@ -288,7 +284,6 @@
       }
     }
   },
-
   "prerequisites": {
     "title": "What Your Child Needs to Start",
     "items": [
@@ -299,7 +294,6 @@
       "Knowing which exam board the school has entered them for, or a willingness to find out before the first class"
     ]
   },
-
   "who_is_this_for": {
     "title": "Who This Course Is For",
     "items": [
@@ -311,7 +305,6 @@
       "Students in international schools sitting a UK GCSE rather than the Cambridge IGCSE"
     ]
   },
-
   "career_paths_after_completion": [
     "A strong GCSE Computer Science grade across both papers",
     "A confident move into A Level Computer Science or an equivalent sixth-form course",
@@ -319,7 +312,6 @@
     "The code-tracing and debugging habits that A Level assumes and does not teach",
     "A foundation for AP Computer Science A, IB Computer Science or Cambridge A Level for students changing curriculum"
   ],
-
   "course_guarantees": {
     "title": "Our Commitment to You",
     "items": [
@@ -329,9 +321,10 @@
       "Both papers are taught in full, because each one is half the qualification",
       "We will tell you honestly which paper is the risk, and direct the final month at it",
       "We do not guarantee a grade, because nobody can, and any provider who offers one is selling something they cannot deliver"
-    ]
+    ],
+    "real_assessment": "Classwork every session, a task after every class, monthly reviews that mix in earlier topics, and a full mock paper as the final assessment that decides the certificate: real knowledge and real work, with a free retest after revision if needed.",
+    "certificate": "A certificate you earn by passing the final assessment, with a free retest after revision if needed."
   },
-
   "faqs": [
     {
       "question": "Which exam board do you teach?",
@@ -356,6 +349,18 @@
     {
       "question": "Is this the same as Cambridge IGCSE Computer Science?",
       "answer": "No. Cambridge IGCSE 0478 is taken mainly in international schools, grades A star to G, and requires most coding answers in pseudocode rather than a real language. UK GCSE grades nine to one and generally expects answers in a real programming language. Two students of identical ability need genuinely different exam training."
+    },
+    {
+      "question": "How am I assessed, and is the certificate just for showing up?",
+      "answer": "No. A task follows every class with feedback, monthly reviews deliberately mix new material with earlier topics so nothing is forgotten, and the course ends with a full mock paper as the final assessment. Passing earns the certificate; falling short earns focused revision and a free retest. We measure real learning, not attendance."
     }
-  ]
+  ],
+  "additional_learning_resources": {
+    "weekly_structure": {
+      "homework": "A task or problem set after every class, and a monthly mixed-review assignment that deliberately folds in earlier topics"
+    },
+    "certification": {
+      "completion": "Certificate from Modern Age Coders, awarded on passing the final assessment. Fall short and there is focused revision and a free retest: the certificate certifies real learning, not attendance"
+    }
+  }
 }

@@ -23,10 +23,10 @@
     "duration": "4 months (16 weeks), joinable any month",
     "level": "Anyone with basic Python (PCEP level or equivalent) preparing for the PCAP associate certification",
     "commitment": "2 live classes/week + weekly coding practice and mock questions",
-    "certification": "Course-completion certificate from Modern Age Coders (the PCAP credential itself is awarded by the Python Institute)",
+    "certification": "Certificate from Modern Age Coders, awarded on passing the final assessment",
     "image_path": "pcap-python-certification.webp",
     "date": "2026-07-20",
-    "dateModified": "2026-07-20"
+    "dateModified": "2026-08-24"
   },
   "program_overview": {
     "title": "PCAP: Certified Associate in Python Programming",
@@ -345,12 +345,18 @@
       "Full timed mocks at the real format, so you know your score range before booking",
       "An honest go or no-go recommendation before you pay the exam fee",
       "A free demo class first, so you can judge the teaching before you pay anything"
-    ]
+    ],
+    "real_assessment": "Classwork every session, a task after every class, monthly reviews that mix in earlier topics, and a full mock paper as the final assessment that decides the certificate: real knowledge and real work, with a free retest after revision if needed.",
+    "certificate": "A certificate you earn by passing the final assessment, with a free retest after revision if needed."
   },
   "faqs": [
     {
       "question": "What exactly is the PCAP exam?",
       "answer": "PCAP is the Certified Associate in Python Programming from the Python Institute. The current version, PCAP-31-03, is 40 questions in single-choice and multiple-choice form, taken in 65 minutes, with a pass mark of 70 percent, meaning at least 28 correct answers. It is delivered through Pearson VUE test centres or OnVUE online proctoring."
+    },
+    {
+      "question": "How am I assessed, and is the certificate just for showing up?",
+      "answer": "No. A task follows every class with feedback, monthly reviews deliberately mix new material with earlier topics so nothing is forgotten, and the course ends with a full mock paper as the final assessment. Passing earns the certificate; falling short earns focused revision and a free retest. We measure real learning, not attendance."
     },
     {
       "question": "How much does the exam cost, and is it included?",
@@ -372,5 +378,13 @@
       "question": "How much do the PCAP classes cost?",
       "answer": "Group classes start at ₹1,499 per month for two classes a week. A Mini Batch of three to four students is ₹2,999 per month, and 1-on-1 classes are ₹4,999 per month. The Python Institute exam fee is separate. There is a free demo class first."
     }
-  ]
+  ],
+  "additional_learning_resources": {
+    "weekly_structure": {
+      "homework": "A task or problem set after every class, and a monthly mixed-review assignment that deliberately folds in earlier topics"
+    },
+    "certification": {
+      "completion": "Certificate from Modern Age Coders, awarded on passing the final assessment. Fall short and there is focused revision and a free retest: the certificate certifies real learning, not attendance"
+    }
+  }
 }

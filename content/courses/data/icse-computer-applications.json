@@ -23,10 +23,10 @@
     "duration": "Class 9 and 10 board program, monthly enrolment",
     "level": "ICSE Class 9 and 10 students taking Computer Applications; taught from the basics, no prior coding required",
     "commitment": "2 live classes/week + weekly BlueJ practice",
-    "certification": "Course-completion certificate from Modern Age Coders",
+    "certification": "Certificate from Modern Age Coders, awarded on passing the final assessment",
     "image_path": "java-teens.webp",
     "date": "2026-07-18",
-    "dateModified": "2026-07-18"
+    "dateModified": "2026-08-24"
   },
   "program_overview": {
     "title": "ICSE Computer Applications (Class 9-10)",
@@ -469,7 +469,9 @@
       "Your child writes and runs code in every class and gets it reviewed on the spot",
       "A free demo class first, so you can judge the teaching before you pay anything",
       "Honest, regular feedback on where your child actually stands and what will move their grade"
-    ]
+    ],
+    "real_assessment": "Classwork every session, a task after every class, monthly reviews that mix in earlier topics, and a full mock paper as the final assessment that decides the certificate: real knowledge and real work, with a free retest after revision if needed.",
+    "certificate": "A certificate you earn by passing the final assessment, with a free retest after revision if needed."
   },
   "faqs": [
     {
@@ -493,6 +495,10 @@
       "answer": "Both. A Class 9 student builds the foundations in order, which makes Class 10 far easier. A Class 10 student joins with a quick, solid revision of the Class 9 core and then moves into the Class 10 topics and full board preparation. We place your child at the right point after the demo class."
     },
     {
+      "question": "How am I assessed, and is the certificate just for showing up?",
+      "answer": "No. A task follows every class with feedback, monthly reviews deliberately mix new material with earlier topics so nothing is forgotten, and the course ends with a full mock paper as the final assessment. Passing earns the certificate; falling short earns focused revision and a free retest. We measure real learning, not attendance."
+    },
+    {
       "question": "How much do the ICSE Computer Applications classes cost?",
       "answer": "Group classes start at ₹1,499 per month for two classes a week. A Mini Batch of three to four students is ₹2,999 per month, and 1-on-1 classes are ₹4,999 per month. There is a free demo class first, so you can see the teaching before you decide."
     },
@@ -500,5 +506,13 @@
       "question": "Will this help with ISC Computer Science later?",
       "answer": "Yes. ISC Computer Science in Class 11 and 12 continues in Java and builds directly on the Class 9 and 10 foundation, adding topics like recursion, interfaces and exception handling. A student who genuinely understands Computer Applications is set up to do well in ISC, rather than starting from behind."
     }
-  ]
+  ],
+  "additional_learning_resources": {
+    "weekly_structure": {
+      "homework": "A task or problem set after every class, and a monthly mixed-review assignment that deliberately folds in earlier topics"
+    },
+    "certification": {
+      "completion": "Certificate from Modern Age Coders, awarded on passing the final assessment. Fall short and there is focused revision and a free retest: the certificate certifies real learning, not attendance"
+    }
+  }
 }

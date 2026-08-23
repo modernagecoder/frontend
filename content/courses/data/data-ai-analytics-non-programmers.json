@@ -23,10 +23,10 @@
     "duration": "4 months (16 weeks), joinable any month",
     "level": "Working professionals and students with no programming background; spreadsheet familiarity helps but is not required",
     "commitment": "2 live classes/week + weekly work on real datasets",
-    "certification": "Course-completion certificate from Modern Age Coders",
+    "certification": "Certificate from Modern Age Coders, awarded on passing the final assessment",
     "image_path": "data-ai-analytics-non-programmers.webp",
     "date": "2026-07-20",
-    "dateModified": "2026-07-20"
+    "dateModified": "2026-08-24"
   },
   "program_overview": {
     "title": "Data and AI Analytics for Non-Programmers",
@@ -344,12 +344,18 @@
       "AI taught honestly: a genuine accelerator, never treated as an authority",
       "Your dashboards are critiqued as a colleague would critique them",
       "A free demo class first, so you can judge the teaching before you pay anything"
-    ]
+    ],
+    "real_assessment": "Classwork every session, a task after every class, monthly reviews that mix in earlier topics, and a final project defended live, plus a written assessment that decides the certificate: real knowledge and real work, with a free retest after revision if needed.",
+    "certificate": "A certificate you earn by passing the final assessment, with a free retest after revision if needed."
   },
   "faqs": [
     {
       "question": "Do I really not need to learn programming?",
       "answer": "Correct. Everything in this course is done in Excel, Google Sheets and Power BI, all of which are built for exactly this work. Power Query and DAX are used, and although DAX is a formula language it is far closer to spreadsheet formulas than to programming. If you later want Python or SQL, this course leaves you well placed, but nothing here depends on it."
+    },
+    {
+      "question": "How am I assessed, and is the certificate just for showing up?",
+      "answer": "No. A task follows every class with feedback, monthly reviews deliberately mix new material with earlier topics so nothing is forgotten, and the course ends with a final project defended live, plus a written assessment. Passing earns the certificate; falling short earns focused revision and a free retest. We measure real learning, not attendance."
     },
     {
       "question": "Which tools do I need, and do they cost anything?",
@@ -371,5 +377,13 @@
       "question": "How much do the classes cost?",
       "answer": "Group classes start at ₹1,499 per month for two classes a week. A Mini Batch of three to four students is ₹2,999 per month, and 1-on-1 classes are ₹4,999 per month. There is a free demo class first, so you can see the teaching before you decide."
     }
-  ]
+  ],
+  "additional_learning_resources": {
+    "weekly_structure": {
+      "homework": "A task or problem set after every class, and a monthly mixed-review assignment that deliberately folds in earlier topics"
+    },
+    "certification": {
+      "completion": "Certificate from Modern Age Coders, awarded on passing the final assessment. Fall short and there is focused revision and a free retest: the certificate certifies real learning, not attendance"
+    }
+  }
 }

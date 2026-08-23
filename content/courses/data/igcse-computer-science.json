@@ -23,10 +23,10 @@
     "duration": "6 months (24 weeks), joinable any month",
     "level": "IGCSE students taking Computer Science 0478; taught from the basics, no prior coding required",
     "commitment": "2 live classes/week + weekly programming practice",
-    "certification": "Course-completion certificate from Modern Age Coders",
+    "certification": "Certificate from Modern Age Coders, awarded on passing the final assessment",
     "image_path": "igcse-computer-science.webp",
     "date": "2026-07-20",
-    "dateModified": "2026-07-20"
+    "dateModified": "2026-08-24"
   },
   "program_overview": {
     "title": "IGCSE Computer Science (0478)",
@@ -467,7 +467,9 @@
       "Taught to the current 0478 syllabus (version 5, for examination in 2026, 2027 and 2028)",
       "Your child writes and runs real code in class and gets it reviewed on the spot",
       "A free demo class first, so you can judge the teaching before you pay anything"
-    ]
+    ],
+    "real_assessment": "Classwork every session, a task after every class, monthly reviews that mix in earlier topics, and a full mock paper as the final assessment that decides the certificate: real knowledge and real work, with a free retest after revision if needed.",
+    "certificate": "A certificate you earn by passing the final assessment, with a free retest after revision if needed."
   },
   "faqs": [
     {
@@ -491,6 +493,10 @@
       "answer": "It runs six months across 24 weeks, with two live classes a week, and you can join in any month. Students already partway through their IGCSE course are placed at the right point after the free demo class, and we fill any gaps from the earlier topics as we go."
     },
     {
+      "question": "How am I assessed, and is the certificate just for showing up?",
+      "answer": "No. A task follows every class with feedback, monthly reviews deliberately mix new material with earlier topics so nothing is forgotten, and the course ends with a full mock paper as the final assessment. Passing earns the certificate; falling short earns focused revision and a free retest. We measure real learning, not attendance."
+    },
+    {
       "question": "How much do the IGCSE Computer Science classes cost?",
       "answer": "Group classes start at ₹1,499 per month for two classes a week. A Mini Batch of three to four students is ₹2,999 per month, and 1-on-1 classes are ₹4,999 per month. There is a free demo class first, so you can see the teaching before you decide."
     },
@@ -498,5 +504,13 @@
       "question": "Will this prepare my child for A Level or IB Computer Science?",
       "answer": "Yes. The programming, algorithm design and computer-systems foundations here are exactly what A Level Computer Science and IB Computer Science build on. A student who genuinely understands 0478, rather than having memorised it, starts the next qualification ahead instead of behind."
     }
-  ]
+  ],
+  "additional_learning_resources": {
+    "weekly_structure": {
+      "homework": "A task or problem set after every class, and a monthly mixed-review assignment that deliberately folds in earlier topics"
+    },
+    "certification": {
+      "completion": "Certificate from Modern Age Coders, awarded on passing the final assessment. Fall short and there is focused revision and a free retest: the certificate certifies real learning, not attendance"
+    }
+  }
 }

@@ -34,8 +34,9 @@
     "duration": "24 classes (12 weeks · 2 classes/week)",
     "level": "Beginner to applied practitioner (college students and graduates), no prior machine learning required",
     "commitment": "4-6 hours/week recommended",
-    "certification": "Modern Age Coders 'Orange Data Mining for College' certificate upon completion",
-    "image_path": "orange-data-mining-college.webp"
+    "certification": "Certificate from Modern Age Coders, awarded on passing the final assessment",
+    "image_path": "orange-data-mining-college.webp",
+    "dateModified": "2026-08-24"
   },
   "program_overview": {
     "title": "Orange Data Mining for College: Reproducible Machine Learning and Analytics",
@@ -526,8 +527,9 @@
     "small_batches": "Small batches only: group classes are capped at 10 students, with mini-batch (3 to 4 students) and personal 1-on-1 options.",
     "structured_curriculum": "A structured, well-paced curriculum taught step by step, with hands-on practice in every session.",
     "doubt_support": "Doubt support between classes over WhatsApp, so you are never left stuck.",
-    "certificate": "A course-completion certificate you can share.",
-    "free_demo": "A free demo class before you enrol, so you can decide with no pressure."
+    "certificate": "A certificate you earn by passing the final assessment, with a free retest after revision if needed.",
+    "free_demo": "A free demo class before you enrol, so you can decide with no pressure.",
+    "real_assessment": "Classwork every session, a task after every class, monthly reviews that mix in earlier topics, and a final project defended live, plus a written assessment that decides the certificate: real knowledge and real work, with a free retest after revision if needed."
   },
   "additional_learning_resources": {
     "total_projects_built": "24 reproducible workflows, one per class, plus a capstone project that reruns from raw data on another person's machine",
@@ -543,12 +545,11 @@
       "live_classes": "2 live classes per week, about 1 hour each, across 12 weeks",
       "hands_on_canvas_work": "2 hours rebuilding each class workflow on your own project dataset, not only on the class example",
       "project_time": "1.5 hours on the class deliverable, from cleaning logs and evaluation dossiers to the capstone build",
-      "review_and_doubts": "1 hour reviewing results against your registered protocol, checking for leakage, and clearing doubts before the next class"
+      "review_and_doubts": "1 hour reviewing results against your registered protocol, checking for leakage, and clearing doubts before the next class",
+      "homework": "A task or problem set after every class, and a monthly mixed-review assignment that deliberately folds in earlier topics"
     },
     "certification": {
-      "completion_certificate": "Modern Age Coders 'Orange Data Mining for College' certificate, earned by defending your Class 24 capstone",
-      "project_portfolio": "24 reproducible .ows workflows plus a capstone folder containing the workflow, raw data and a README with rerun instructions",
-      "presented_report": "An exported Orange report (PDF and .report) covering question, method, evidence, results and threats to validity"
+      "completion": "Certificate from Modern Age Coders, awarded on passing the final assessment. Fall short and there is focused revision and a free retest: the certificate certifies real learning, not attendance"
     },
     "skills_mastered": [
       "Reproducible Workflow Engineering: canvas discipline, channel selection, annotated .ows workflows, project folders with README rerun instructions",
@@ -620,6 +621,10 @@
     {
       "question": "What will I be able to do in an interview after this?",
       "answer": "Answer the method questions that separate candidates: why that validation design, what the confusion matrix costs in this domain, how you ruled out leakage, why you chose that operating threshold, which features drove the prediction and how you know. You will also have a portfolio of 24 reproducible workflows plus a defended capstone to show, rather than a certificate on its own."
+    },
+    {
+      "question": "How am I assessed, and is the certificate just for showing up?",
+      "answer": "No. A task follows every class with feedback, monthly reviews deliberately mix new material with earlier topics so nothing is forgotten, and the course ends with a final project defended live, plus a written assessment. Passing earns the certificate; falling short earns focused revision and a free retest. We measure real learning, not attendance."
     }
   ],
   "related_courses": [
