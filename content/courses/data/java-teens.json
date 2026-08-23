@@ -2,73 +2,69 @@
   "meta": {
     "slug": "java-programming-masterclass-for-teens",
     "date": "2025-10-31",
-    "title": "Java Programming for Teens: Zero to Professional Developer",
-    "description": "Java course for teens: a 2-year journey from first Hello World to Android apps and enterprise projects, blending fun builds with professional developer skills.",
+    "dateModified": "2026-08-23",
+    "title": "Java for Teens: Complete Course from Beginner to Advanced",
+    "description": "Java course for teens aged 13-18. Live online classes: core Java, JavaFX apps, games, Minecraft mods, data structures and a Spring Boot intro, in 10-12 months.",
     "keywords": [
-      "java programming for teens",
-      "java for beginners",
-      "object oriented programming",
-      "android development",
-      "spring boot",
-      "microservices",
-      "java enterprise",
-      "minecraft modding",
-      "game development java",
-      "data structures algorithms",
-      "software engineering",
-      "teen coding",
-      "java certification",
-      "career ready programming",
-      "full stack java"
+      "java course for teens",
+      "java for teenagers",
+      "learn java online for teens",
+      "java classes for teens",
+      "java programming for high school students",
+      "java course for beginners age 13 to 18",
+      "online java coding classes for teens india",
+      "minecraft modding course in java",
+      "javafx course for teens",
+      "java data structures course for teens",
+      "java course for icse and isc students",
+      "best java course for teenagers"
     ],
-    "category": "Professional Programming & Software Development",
+    "category": "Java Programming",
     "taxonomy": "programming",
     "price": {
       "group": "₹1,499/month",
       "miniBatch": "₹2,999/month",
       "personal": "₹4,999/month"
     },
-    "duration": "24 months (104 weeks)",
-    "level": "Complete Beginner to Advanced Professional",
-    "commitment": "15-20 hours/week recommended",
-    "certification": "Industry-recognized Java Developer certification upon completion",
+    "duration": "10-12 months (40-48 weeks)",
+    "level": "Absolute beginner, ages 13 to 18",
+    "commitment": "2 live classes/week + 3-4 hours practice",
+    "certification": "Certificate from Modern Age Coders, awarded on passing the final exam",
     "image_path": "java-teens.webp"
   },
   "program_overview": {
-    "title": "Complete Java Programming Masterclass for Teens",
-    "tagline": "From 'Hello World' to Building Your Own Apps, Games, and Enterprise Systems",
-    "description": "This isn't just another programming course, it's a complete transformation journey designed specifically for teenagers who want to master Java programming. Starting from absolute zero, you'll learn to think like a programmer, build exciting projects like games and Android apps, and develop the skills needed for a successful career in software development.\n\nJava powers everything from Minecraft to Netflix, from Android apps to banking systems. Over 24 months, you'll master not just the language, but the entire ecosystem: desktop applications, web services, mobile apps, game development, and enterprise systems. With teen-friendly explanations, exciting projects, and real-world applications, you'll be building production-ready software long before graduation.",
+    "title": "Java for Teens: Beginner to Advanced",
+    "tagline": "The language behind Minecraft, Android and the systems banks run on, taught to teenagers properly: strict enough to build discipline, fun enough to keep them building.",
+    "description": "Java is the language schools trust and industry runs on: ICSE, ISC and AP Computer Science A all teach it, Minecraft is written in it, and enterprise systems everywhere depend on it. This live online course takes students aged 13 to 18 from their first line of code to genuinely advanced Java, and its strict, typed nature quietly teaches the discipline that makes every later language easier.\n\nThe first three months build the foundations: variables to loops to methods, then object-oriented programming taught the way Java demands, with classes, inheritance, interfaces and real design decisions. The middle months make Java fun on screen: the collections framework and modern streams, desktop apps with JavaFX, a complete 2D game, and Minecraft modding, the project every Java-learning teen secretly wants. The final months go where serious Java students go: data structures and algorithms built from scratch, a threaded program that does two things at once, a first REST API with Spring Boot, calling modern AI models from Java, and a capstone shipped with Git, tests and a demo.\n\nThe pace is honest: two live classes a week plus three to four hours of practice fits the syllabus in ten months, and students who need more time take up to twelve, the class adapts instead of rushing ahead. Learning is checked the honest way too: homework after every class, monthly assignments that mix new questions with earlier topics, and a final exam that decides the certificate. Real knowledge, real work, real projects, depth over dopamine.",
     "what_makes_this_different": [
-      "Designed specifically for teenage learners with engaging, relatable content",
-      "Start from absolute zero - no math or coding background needed",
-      "Build cool projects: games, apps, Minecraft mods, chatbots",
-      "Learn professional skills while having fun",
-      "Prepare for college CS courses and tech careers",
-      "Includes Android app development and game programming",
-      "Real internship and job preparation",
-      "Build a portfolio that stands out for college applications"
+      "Aligned with school Java: ICSE, ISC and AP Computer Science A students find class work and school work reinforcing each other",
+      "Minecraft modding is in the syllabus, not a teaser: students build and run their own mods in month 6",
+      "Object-oriented programming taught as design, not syntax: students learn why classes exist, not just how to type them",
+      "Data structures and algorithms built from scratch, the preparation serious CS paths actually require",
+      "An honest 10-month arc with 2 months of margin built in: students who need more practice take up to 12, nobody is rushed",
+      "Real assessment: weekly homework, mixed-review assignments every month, and a final exam that decides the certificate, with focused revision and a free retest for students who fall short"
     ],
     "learning_path": {
-      "phase_1": "Foundation (Months 1-6): Programming Basics, Java Fundamentals, Problem Solving",
-      "phase_2": "Mastery (Months 7-12): Object-Oriented Programming, GUI Applications, Data Structures",
-      "phase_3": "Professional (Months 13-18): Web Development, Spring Framework, Databases, APIs",
-      "phase_4": "Advanced (Months 19-24): Android Apps, Microservices, Cloud, Career Preparation"
+      "phase_1": "Java foundations (Months 1-3): first programs, arrays, methods, strings, files, then object-oriented programming done properly",
+      "phase_2": "Java you can see (Months 4-6): collections and streams, JavaFX desktop apps, a complete 2D game, and Minecraft modding",
+      "phase_3": "Data structures and algorithms (Months 7-8): the classic structures built by hand, sorting, graphs, recursion and multithreading",
+      "phase_4": "The wider world (Months 9-10): a REST API with Spring Boot, AI APIs from Java, Git and JUnit, and the final capstone"
     },
     "career_outcomes": [
-      "Junior Java Developer (after 6 months)",
-      "Java Developer (after 12 months)",
-      "Full Stack Java Developer (after 18 months)",
-      "Senior Developer / Software Engineer (after 24 months)"
+      "A portfolio of 30+ real projects: desktop apps, a finished game, working Minecraft mods and a REST API",
+      "A serious head start for ICSE, ISC and AP Computer Science A, which all examine in Java",
+      "Data structures and algorithms foundations that competitive programming and interviews build on",
+      "Working fluency with the professional toolkit: Git and GitHub, JUnit, debugging and code review"
     ]
   },
-  "phase_1_foundation": {
-    "title": "PHASE 1: Foundation & Core Programming (Months 1-6, Weeks 1-26)",
-    "description": "Build rock-solid programming fundamentals. Learn to think like a programmer, master Java basics, and create your first applications.",
-    "month_1_2": {
-      "title": "Months 1-2: Introduction to Programming & Java Basics",
-      "weeks": "Week 1-8",
-      "week_1_2": {
-        "title": "Introduction to Programming & Setup",
+  "phase_1_java_foundations": {
+    "title": "PHASE 1: Java Foundations and OOP (Months 1-3, Weeks 1-12)",
+    "description": "From the first program to real object-oriented design. Java’s strictness becomes an advantage: every concept is understood, not guessed.",
+    "month_1_first_programs": {
+      "title": "Month 1: First Programs",
+      "weeks": "Weeks 1-4",
+      "week_1": {
+        "title": "Introduction and Setup",
         "topics": [
           "What is programming? Why Java? Real-world Java applications",
           "How computers understand code: compilation and execution",
@@ -88,10 +84,10 @@
           "Create and run Hello World in 3 different ways",
           "Build a simple personal introduction program"
         ],
-        "practice": "Daily: 30 min coding exercises, 1 hour concept review"
+        "practice": "Short daily exercises: 15 small programs in the first week"
       },
-      "week_3_4": {
-        "title": "Variables, Data Types & Basic Operations",
+      "week_2": {
+        "title": "Variables, Types and Operations",
         "topics": [
           "Variables: storing information in programs",
           "Primitive data types: int, double, boolean, char",
@@ -112,9 +108,9 @@
           "Simple cashier program with tax calculation",
           "Mad Libs story generator"
         ],
-        "practice": "Solve 30 problems on variables and operations"
+        "practice": "Solve 25 problems on variables and operations"
       },
-      "week_5_6": {
+      "week_3": {
         "title": "Control Flow: Making Decisions",
         "topics": [
           "Boolean logic: true and false",
@@ -138,8 +134,8 @@
         ],
         "practice": "Build 10 programs using different conditional patterns"
       },
-      "week_7_8": {
-        "title": "Loops: Repetition in Programming",
+      "week_4": {
+        "title": "Loops: Repetition and Patterns",
         "topics": [
           "Why loops? Automation and efficiency",
           "While loops: repeat while condition is true",
@@ -161,14 +157,15 @@
           "Simple password validator with retry",
           "Prime number checker"
         ],
-        "practice": "Solve 25 loop-based programming challenges"
+        "practice": "Solve 25 loop-based programming challenges",
+        "assessment": "Month 1 check: build a small menu-driven program live, plus a take-home assignment mixing everything from month 1"
       }
     },
-    "month_3_4": {
-      "title": "Months 3-4: Arrays, Methods & Problem Solving",
-      "weeks": "Week 9-17",
-      "week_9_10": {
-        "title": "Arrays: Working with Collections",
+    "month_2_arrays_methods_strings": {
+      "title": "Month 2: Arrays, Methods, Strings and Files",
+      "weeks": "Weeks 5-8",
+      "week_5": {
+        "title": "Arrays",
         "topics": [
           "Introduction to arrays: storing multiple values",
           "Declaring and initializing arrays",
@@ -190,10 +187,10 @@
           "Simple playlist manager",
           "Basic statistics calculator"
         ],
-        "practice": "Master 30 array manipulation problems"
+        "practice": "Master 25 array manipulation problems"
       },
-      "week_11_12": {
-        "title": "Methods: Building Reusable Code",
+      "week_6": {
+        "title": "Methods: Reusable Code",
         "topics": [
           "What are methods? Why use them?",
           "Method structure: return type, name, parameters",
@@ -215,10 +212,10 @@
           "Simple encryption/decryption program",
           "Menu-driven banking application"
         ],
-        "practice": "Create 20 useful utility methods"
+        "practice": "Create 15 useful utility methods"
       },
-      "week_13_14": {
-        "title": "String Manipulation & Text Processing",
+      "week_7": {
+        "title": "Strings and Text Processing",
         "topics": [
           "String class deep dive",
           "String immutability concept",
@@ -240,10 +237,10 @@
           "Text-based email validator",
           "Simple markdown to HTML converter"
         ],
-        "practice": "Complete 25 string manipulation challenges"
+        "practice": "Complete 20 string manipulation challenges"
       },
-      "week_15_16": {
-        "title": "File Handling & Exception Basics",
+      "week_8": {
+        "title": "Files and Exceptions",
         "topics": [
           "Reading from text files",
           "Writing to text files",
@@ -265,32 +262,15 @@
           "Log file analyzer",
           "CSV file reader/writer"
         ],
-        "practice": "Build 10 file-based applications"
-      },
-      "week_17": {
-        "title": "Month 3-4 Review & Mini Projects",
-        "topics": [
-          "Comprehensive review of arrays and methods",
-          "Problem-solving strategies",
-          "Code organization best practices",
-          "Debugging complex programs",
-          "Performance considerations",
-          "Preparing for object-oriented programming"
-        ],
-        "projects": [
-          "CAPSTONE: Text-based RPG game with save system",
-          "Student management system with file storage",
-          "Personal finance tracker",
-          "Quiz application with score tracking"
-        ],
-        "assessment": "Take comprehensive test on Phase 1 fundamentals"
+        "practice": "Add file storage to three earlier projects",
+        "assessment": "Month 2 check: build a program that loads, changes and saves its data, with quiz questions reaching back to month 1"
       }
     },
-    "month_5_6": {
-      "title": "Months 5-6: Introduction to Object-Oriented Programming",
-      "weeks": "Week 18-26",
-      "week_18_19": {
-        "title": "Classes and Objects Fundamentals",
+    "month_3_object_oriented": {
+      "title": "Month 3: Object-Oriented Programming",
+      "weeks": "Weeks 9-12",
+      "week_9": {
+        "title": "Classes and Objects",
         "topics": [
           "Object-Oriented Programming concepts",
           "Real-world objects vs programming objects",
@@ -312,10 +292,10 @@
           "Simple pet simulator",
           "Car dealership inventory"
         ],
-        "practice": "Create 15 different classes modeling real-world objects"
+        "practice": "Model 10 real-world things as classes"
       },
-      "week_20_21": {
-        "title": "Encapsulation and Access Modifiers",
+      "week_10": {
+        "title": "Encapsulation and Static",
         "topics": [
           "Information hiding principle",
           "Access modifiers: public, private, protected, default",
@@ -325,8 +305,6 @@
           "Static variables and methods",
           "Static vs instance context",
           "Class constants with static final",
-          "Factory methods pattern introduction",
-          "Singleton pattern basics",
           "Package organization",
           "Import statements and classpath"
         ],
@@ -337,10 +315,10 @@
           "Game character with stats",
           "Shopping cart with product catalog"
         ],
-        "practice": "Refactor projects with proper encapsulation"
+        "practice": "Refactor earlier projects with proper encapsulation"
       },
-      "week_22_23": {
-        "title": "Inheritance: Building Class Hierarchies",
+      "week_11": {
+        "title": "Inheritance",
         "topics": [
           "Inheritance concept: is-a relationship",
           "Extending classes with 'extends'",
@@ -362,9 +340,9 @@
           "Shape hierarchy for geometry",
           "Game entity system"
         ],
-        "practice": "Design 10 inheritance hierarchies"
+        "practice": "Design 5 inheritance hierarchies and defend each design choice"
       },
-      "week_24_25": {
+      "week_12": {
         "title": "Polymorphism and Interfaces",
         "topics": [
           "Polymorphism: many forms",
@@ -387,37 +365,19 @@
           "RPG game with character classes",
           "Plugin system using interfaces"
         ],
-        "practice": "Implement 15 different interfaces"
-      },
-      "week_26": {
-        "title": "Phase 1 Capstone Project",
-        "topics": [
-          "Project planning and design",
-          "UML class diagrams basics",
-          "Code organization and packages",
-          "Documentation with Javadoc",
-          "Testing and debugging OOP code",
-          "Version control with Git basics"
-        ],
-        "projects": [
-          "MAJOR CAPSTONE: Complete Bank Management System",
-          "Features: Accounts, transactions, loans, customers, employees",
-          "Alternative: School Management System",
-          "Alternative: Hotel Booking System",
-          "Alternative: Mini Social Media Platform"
-        ],
-        "assessment": "Phase 1 Final Exam - Complete OOP project from requirements"
+        "practice": "Implement 8 interfaces across your own projects",
+        "assessment": "Phase 1 exam: build a small OOP system live from requirements and explain the design, with cumulative questions from months 1-3"
       }
     }
   },
-  "phase_2_frontend_mastery": {
-    "title": "PHASE 2: Advanced Java & Application Development (Months 7-12, Weeks 27-52)",
-    "description": "Master advanced Java concepts, build desktop applications with JavaFX, explore game development, and dive into data structures and algorithms.",
-    "month_7_8": {
-      "title": "Months 7-8: Collections Framework & Advanced Java",
-      "weeks": "Week 27-35",
-      "week_27_28": {
-        "title": "Java Collections Framework",
+  "phase_2_java_you_can_see": {
+    "title": "PHASE 2: Collections, Apps, Games and Minecraft (Months 4-6, Weeks 13-24)",
+    "description": "Modern Java and things you can see: the collections framework, desktop apps with JavaFX, a complete 2D game, and your own Minecraft mods.",
+    "month_4_modern_java": {
+      "title": "Month 4: Collections and Modern Java",
+      "weeks": "Weeks 13-16",
+      "week_13": {
+        "title": "The Collections Framework",
         "topics": [
           "Collections vs arrays: when to use what",
           "Collection interface hierarchy",
@@ -429,7 +389,6 @@
           "Collections utility class",
           "Sorting collections with Comparable/Comparator",
           "Searching and shuffling",
-          "Synchronized collections",
           "Performance characteristics of collections"
         ],
         "projects": [
@@ -439,21 +398,19 @@
           "Student database with sorting",
           "Cache implementation with LinkedHashMap"
         ],
-        "practice": "Master 30 collection manipulation problems"
+        "practice": "Master 25 collection manipulation problems"
       },
-      "week_29_30": {
-        "title": "Generics and Type Safety",
+      "week_14": {
+        "title": "Generics",
         "topics": [
           "Why generics? Type safety benefits",
           "Generic classes creation",
           "Generic methods",
           "Bounded type parameters",
           "Wildcards: ?, extends, super",
-          "Type erasure concept",
           "Generic interfaces",
           "Multiple type parameters",
           "Generic collections deep dive",
-          "Raw types and backwards compatibility",
           "Best practices with generics",
           "Common generic patterns"
         ],
@@ -464,35 +421,10 @@
           "Custom generic collections",
           "Builder pattern with generics"
         ],
-        "practice": "Create 15 generic classes and methods"
+        "practice": "Create 10 generic classes and methods"
       },
-      "week_31_32": {
-        "title": "Exception Handling & Debugging",
-        "topics": [
-          "Exception hierarchy in Java",
-          "Checked vs unchecked exceptions",
-          "Try-catch-finally deep dive",
-          "Multi-catch blocks",
-          "Try-with-resources statement",
-          "Creating custom exception classes",
-          "Exception chaining",
-          "Best practices for exception handling",
-          "Logging with java.util.logging",
-          "Debugging techniques in IDE",
-          "Using breakpoints effectively",
-          "Stack traces and error analysis"
-        ],
-        "projects": [
-          "Robust file processing system",
-          "Input validation framework",
-          "Error handling library",
-          "Retry mechanism implementation",
-          "Logging system for applications"
-        ],
-        "practice": "Handle exceptions in 20 different scenarios"
-      },
-      "week_33_34": {
-        "title": "Lambda Expressions & Stream API",
+      "week_15": {
+        "title": "Lambdas and Streams",
         "topics": [
           "Functional interfaces concept",
           "Lambda expression syntax",
@@ -514,38 +446,39 @@
           "Stream-based file analyzer",
           "Employee data analysis system"
         ],
-        "practice": "Solve 25 problems using streams and lambdas"
+        "practice": "Solve 20 problems using streams and lambdas"
       },
-      "week_35": {
-        "title": "Multithreading Basics",
+      "week_16": {
+        "title": "Exceptions and Debugging Like a Professional",
         "topics": [
-          "Thread concept and lifecycle",
-          "Creating threads: Thread class vs Runnable",
-          "Thread priorities and scheduling",
-          "Thread synchronization basics",
-          "Synchronized keyword",
-          "wait() and notify() methods",
-          "Deadlock and how to avoid it",
-          "Thread pools introduction",
-          "Callable and Future",
-          "Concurrent collections",
-          "Thread safety principles",
-          "Common threading problems"
+          "Exception hierarchy in Java",
+          "Checked vs unchecked exceptions",
+          "Try-catch-finally deep dive",
+          "Multi-catch blocks",
+          "Try-with-resources statement",
+          "Creating custom exception classes",
+          "Exception chaining",
+          "Best practices for exception handling",
+          "Logging with java.util.logging",
+          "Debugging techniques in IDE",
+          "Using breakpoints effectively",
+          "Stack traces and error analysis"
         ],
         "projects": [
-          "Multi-threaded download manager",
-          "Producer-consumer implementation",
-          "Concurrent counter application",
-          "Thread pool executor demo",
-          "Race condition simulator"
+          "Robust file processing system",
+          "Input validation framework",
+          "Error handling library",
+          "Retry mechanism implementation",
+          "Logging system for applications"
         ],
-        "practice": "Build 10 thread-safe applications"
+        "practice": "Handle exceptions in 15 different scenarios",
+        "assessment": "Month 4 check: a debugging gauntlet plus a mixed assignment reaching back to phase 1"
       }
     },
-    "month_9_10": {
-      "title": "Months 9-10: GUI Development with JavaFX",
-      "weeks": "Week 36-44",
-      "week_36_37": {
+    "month_5_desktop_apps": {
+      "title": "Month 5: Desktop Apps with JavaFX",
+      "weeks": "Weeks 17-20",
+      "week_17": {
         "title": "JavaFX Fundamentals",
         "topics": [
           "JavaFX vs Swing: modern GUI development",
@@ -568,10 +501,10 @@
           "Image viewer application",
           "Simple text editor"
         ],
-        "practice": "Build 15 different GUI layouts"
+        "practice": "Build 8 different GUI layouts"
       },
-      "week_38_39": {
-        "title": "Advanced JavaFX Controls",
+      "week_18": {
+        "title": "Tables, Charts and Real Controls",
         "topics": [
           "TableView for data display",
           "TreeView for hierarchical data",
@@ -593,23 +526,19 @@
           "Media player interface",
           "Calendar application"
         ],
-        "practice": "Master all JavaFX controls"
+        "practice": "Build 3 data-driven screens with tables and charts"
       },
-      "week_40_41": {
-        "title": "MVC Pattern & Application Architecture",
+      "week_19": {
+        "title": "Structuring a Real App with MVC",
         "topics": [
           "Model-View-Controller pattern",
           "Separating concerns in JavaFX",
           "Observable pattern in JavaFX",
           "Data binding deep dive",
-          "MVVM pattern alternative",
           "Application state management",
           "Navigation between screens",
-          "Dependency injection basics",
-          "Service layer pattern",
-          "DAO pattern implementation",
-          "Configuration management",
-          "Application packaging"
+          "Application packaging",
+          "Keeping logic out of the UI: the habit that saves every project"
         ],
         "projects": [
           "Complete MVC application",
@@ -618,10 +547,10 @@
           "Point of Sale (POS) system",
           "Library management GUI"
         ],
-        "practice": "Refactor projects using MVC"
+        "practice": "Refactor one earlier app into clean MVC"
       },
-      "week_42_43": {
-        "title": "Database Integration",
+      "week_20": {
+        "title": "Databases for Desktop Apps",
         "topics": [
           "JDBC basics and drivers",
           "Connecting to databases",
@@ -629,12 +558,9 @@
           "PreparedStatement vs Statement",
           "ResultSet processing",
           "Transaction management",
-          "Connection pooling",
           "DAO pattern with JDBC",
           "Database design basics",
-          "SQLite for desktop apps",
-          "MySQL/PostgreSQL integration",
-          "Database migrations"
+          "SQLite for desktop apps"
         ],
         "projects": [
           "Database-backed todo application",
@@ -643,9 +569,14 @@
           "Expense tracker with reports",
           "Student information system"
         ],
-        "practice": "Integrate databases in 10 applications"
-      },
-      "week_44": {
+        "practice": "Add SQLite storage to two of your apps",
+        "assessment": "Month 5 check: present a working database-backed desktop app, plus a mixed quiz over months 1-5"
+      }
+    },
+    "month_6_games_minecraft": {
+      "title": "Month 6: Games and Minecraft Modding",
+      "weeks": "Weeks 21-24",
+      "week_21": {
         "title": "Game Development Basics",
         "topics": [
           "Game loop concept",
@@ -668,21 +599,90 @@
           "Tower defense game",
           "Puzzle game like 2048"
         ],
-        "practice": "Create 5 different game genres"
+        "practice": "Build two tiny game prototypes between classes"
+      },
+      "week_22": {
+        "title": "Build a Complete 2D Game",
+        "topics": [
+          "Choosing your game: Snake, Breakout or a simple platformer",
+          "Structuring the game with the OOP you now own",
+          "Levels, difficulty and progression",
+          "Sound effects, scoring and lives done cleanly",
+          "Menus, pause and game-over screens",
+          "Saving high scores to a file",
+          "Playtesting: watching someone else play, then fixing what confused them",
+          "Packaging the game so a friend can run it"
+        ],
+        "projects": [
+          "A complete, finished 2D game with menus, sound, scoring and a shareable build"
+        ],
+        "practice": "Polish pass driven by two playtesters’ honest feedback"
+      },
+      "week_23": {
+        "title": "Minecraft Modding",
+        "topics": [
+          "Minecraft Forge setup",
+          "Mod structure and basics",
+          "Creating blocks and items",
+          "Crafting recipes",
+          "Custom entities",
+          "World generation",
+          "GUI creation",
+          "Mod configuration",
+          "Testing and debugging",
+          "Forge and Fabric: the two modding worlds, explained"
+        ],
+        "projects": [
+          "Your first mod: custom items and blocks that load in your own game",
+          "A crafting-recipe mod with its own logic",
+          "A custom tool or gadget mod"
+        ],
+        "practice": "Design and build one mod idea of your own"
+      },
+      "week_24": {
+        "title": "Phase 2 Capstone and Review",
+        "topics": [
+          "Choosing your phase capstone: game, desktop app or Minecraft mod, taken further",
+          "Refactoring old code with new skills",
+          "Code review: reading each other’s projects kindly and usefully",
+          "A targeted review week shaped by what the batch found hard",
+          "Writing project descriptions people understand",
+          "What phase 3 changes: from building things to building fast things"
+        ],
+        "projects": [
+          "Phase capstone: your best build, taken one honest level further"
+        ],
+        "practice": "Publish your top 3 projects in a personal portfolio folder",
+        "assessment": "Phase 2 review: capstone walkthrough plus a written mixed review spanning phases 1 and 2"
       }
-    },
-    "month_11_12": {
-      "title": "Months 11-12: Data Structures & Algorithms",
-      "weeks": "Week 45-52",
-      "week_45_46": {
-        "title": "Fundamental Data Structures",
+    }
+  },
+  "phase_3_dsa": {
+    "title": "PHASE 3: Data Structures and Algorithms (Months 7-8, Weeks 25-32)",
+    "description": "The serious core of computer science, built by hand in Java: structures, sorting, graphs, recursion, and a first look at threads.",
+    "month_7_structures": {
+      "title": "Month 7: Structures Built from Scratch",
+      "weeks": "Weeks 25-28",
+      "week_25": {
+        "title": "Lists, Stacks and Queues by Hand",
         "topics": [
           "Abstract Data Types (ADT)",
           "Implementing dynamic arrays",
           "Linked Lists: single, double, circular",
           "Stack implementation and applications",
           "Queue implementation and variants",
-          "Priority queues and heaps",
+          "Priority queues and heaps"
+        ],
+        "projects": [
+          "Custom ArrayList implementation",
+          "Expression evaluator using stacks",
+          "Task scheduler with a priority queue"
+        ],
+        "practice": "Implement a dynamic array, linked list, stack and queue from scratch"
+      },
+      "week_26": {
+        "title": "Hash Tables and Trees",
+        "topics": [
           "Hash tables from scratch",
           "Collision resolution strategies",
           "Trees: binary trees basics",
@@ -691,16 +691,14 @@
           "Balanced trees introduction"
         ],
         "projects": [
-          "Custom ArrayList implementation",
-          "Expression evaluator using stacks",
-          "Task scheduler with priority queue",
-          "Spell checker with hash table",
-          "File system simulator with trees"
+          "Spell checker with your own hash table",
+          "File system simulator with trees",
+          "Autocomplete with a simple trie"
         ],
-        "practice": "Implement 20 data structures from scratch"
+        "practice": "Implement a hash map and a binary search tree, then test them against Java’s"
       },
-      "week_47_48": {
-        "title": "Searching and Sorting Algorithms",
+      "week_27": {
+        "title": "Sorting, Searching and Big O",
         "topics": [
           "Linear search and optimizations",
           "Binary search and variations",
@@ -722,10 +720,32 @@
           "Leaderboard system",
           "Data analysis tool"
         ],
-        "practice": "Implement and analyze 15 algorithms"
+        "practice": "Implement and analyze 10 classic algorithms"
       },
-      "week_49_50": {
-        "title": "Graph Algorithms & Advanced Topics",
+      "week_28": {
+        "title": "Problem-Solving Patterns",
+        "topics": [
+          "Reading a problem statement like a solver, not a victim",
+          "Frequency counting with maps: the pattern behind dozens of problems",
+          "Two pointers and sliding windows",
+          "Prefix sums for range questions",
+          "Choosing the right structure: the decision tree",
+          "Estimating before coding: will this even run in time?",
+          "Practicing on HackerRank and LeetCode without drowning",
+          "Where our dedicated DSA course goes further"
+        ],
+        "projects": [
+          "A personal patterns notebook with one solved example per pattern"
+        ],
+        "practice": "Solve 20 problems, tagging each with the pattern it used",
+        "assessment": "Month 7 check: a timed three-problem set, plus mixed questions from earlier phases"
+      }
+    },
+    "month_8_algorithms": {
+      "title": "Month 8: Graphs, Recursion and Threads",
+      "weeks": "Weeks 29-32",
+      "week_29": {
+        "title": "Graphs",
         "topics": [
           "Graph representations: adjacency matrix/list",
           "Breadth-first search (BFS)",
@@ -733,74 +753,82 @@
           "Shortest path: Dijkstra's algorithm",
           "Minimum spanning tree",
           "Topological sorting",
-          "Dynamic programming introduction",
-          "Recursion and backtracking",
-          "Greedy algorithms",
-          "String algorithms basics",
-          "Pattern matching",
-          "Algorithm design techniques"
+          "Modeling real problems as graphs: maps, friendships, prerequisites"
         ],
         "projects": [
           "Social network analyzer",
-          "Route finder application",
+          "Route finder on a real map grid",
+          "Course prerequisite checker with topological sort"
+        ],
+        "practice": "Solve 12 graph problems, drawing each before coding it"
+      },
+      "week_30": {
+        "title": "Recursion and Backtracking",
+        "topics": [
+          "Recursion re-learned properly: trust the function",
+          "The call stack, visualized",
+          "Classic recursion: factorial to file-tree walker",
+          "Backtracking: exploring choices and undoing them",
+          "Solving mazes by backtracking",
+          "Sudoku solver: the famous application",
+          "Memoization: remembering answers you already computed",
+          "When recursion is the wrong tool"
+        ],
+        "projects": [
           "Maze solver with visualization",
           "Sudoku solver",
           "Word search puzzle solver"
         ],
-        "practice": "Solve 30 algorithmic problems"
+        "practice": "Solve 15 recursion and backtracking problems"
       },
-      "week_51": {
-        "title": "Performance & Optimization",
+      "week_31": {
+        "title": "Multithreading, the Honest Introduction",
         "topics": [
-          "Profiling Java applications",
-          "JVM memory model",
-          "Garbage collection tuning",
-          "Memory leak detection",
-          "CPU profiling",
-          "Optimizing algorithms",
-          "Cache-friendly code",
-          "Benchmark writing with JMH",
-          "Space-time tradeoffs",
-          "Parallel algorithms basics",
-          "When to optimize",
-          "Performance best practices"
+          "Thread concept and lifecycle",
+          "Creating threads: Thread class vs Runnable",
+          "Thread synchronization basics",
+          "Synchronized keyword",
+          "Deadlock and how to avoid it",
+          "Thread pools introduction",
+          "Callable and Future",
+          "Concurrent collections",
+          "Thread safety principles",
+          "Common threading problems"
         ],
         "projects": [
-          "Performance comparison tool",
-          "Memory-efficient data processor",
-          "Algorithm benchmark suite",
-          "Optimization case study",
-          "Profiling report generator"
+          "Multi-threaded download manager",
+          "Producer-consumer implementation",
+          "Concurrent counter application",
+          "Thread pool executor demo",
+          "Race condition simulator"
         ],
-        "practice": "Optimize 10 slow programs"
+        "practice": "Build 5 small programs that genuinely need two threads"
       },
-      "week_52": {
-        "title": "Phase 2 Capstone Project",
+      "week_32": {
+        "title": "DSA Capstone",
         "topics": [
-          "Complex application design",
-          "Algorithm selection",
-          "Performance requirements",
-          "User interface design",
-          "Database design",
-          "Testing strategies"
+          "Choosing the capstone: sorting visualizer, pathfinding demo or game leaderboard engine",
+          "Designing before coding: structures chosen for reasons",
+          "Benchmarking your structure against Java’s built-ins",
+          "Presenting a technical project to a non-technical audience",
+          "A cumulative review of the whole DSA phase"
         ],
         "projects": [
-          "MAJOR CAPSTONE: Complete Desktop Application Suite",
-          "Options: IDE for programming, Music player like Spotify, Photo editor, Strategy game, Educational platform",
-          "Requirements: GUI, database, algorithms, file handling, multithreading"
+          "DSA capstone: an interactive visualizer or engine that shows an algorithm working"
         ],
-        "assessment": "Phase 2 Final Exam - Build complex Java application"
+        "practice": "Write a one-page explanation of your capstone’s core algorithm",
+        "assessment": "Phase 3 exam: implement a chosen structure live plus a written paper mixing questions from all three phases"
       }
     }
   },
-  "phase_3_backend_engineering": {
-    "title": "PHASE 3: Enterprise Java & Web Development (Months 13-18, Weeks 53-78)",
-    "description": "Master enterprise Java development with Spring Framework, build RESTful APIs, microservices, and web applications.",
-    "month_13_14": {
-      "title": "Months 13-14: Web Development & Servlets",
-      "weeks": "Week 53-61",
-      "week_53_54": {
-        "title": "Web Fundamentals for Java Developers",
+  "phase_4_wider_world": {
+    "title": "PHASE 4: APIs, AI and the Capstone (Months 9-10, Weeks 33-40)",
+    "description": "Where teen Java meets the real world: a REST API with Spring Boot, AI models called from Java, Git and JUnit, and a final capstone shipped properly.",
+    "month_9_apis_ai": {
+      "title": "Month 9: APIs and AI",
+      "weeks": "Weeks 33-36",
+      "week_33": {
+        "title": "How the Web Works, for Java Developers",
         "topics": [
           "How the web works: HTTP protocol",
           "Client-server architecture",
@@ -808,925 +836,241 @@
           "HTTP methods: GET, POST, PUT, DELETE",
           "Status codes and headers",
           "HTML/CSS basics for Java developers",
-          "JavaScript basics for full-stack",
           "JSON and XML data formats",
           "RESTful API principles",
-          "Web servers vs application servers",
-          "Tomcat server setup",
-          "Web application structure"
+          "Java’s built-in HttpClient: calling real APIs"
         ],
         "projects": [
-          "Simple HTTP client in Java",
-          "Static website with Java server",
-          "JSON parser implementation",
-          "REST client application",
-          "Web scraper in Java"
+          "HTTP client that talks to a public API",
+          "JSON parser for a real API response",
+          "Weather or trivia terminal app powered by an API"
         ],
-        "practice": "Build 10 web-related Java programs"
+        "practice": "Consume 3 public APIs from plain Java"
       },
-      "week_55_56": {
-        "title": "Java Servlets & JSP",
+      "week_34": {
+        "title": "Your First REST API with Spring Boot",
         "topics": [
-          "Servlet API and lifecycle",
-          "HttpServlet class",
-          "Handling GET and POST requests",
-          "Request and response objects",
-          "Session management",
-          "Cookies in Java web apps",
-          "Filters and listeners",
-          "JSP basics and syntax",
-          "JSP directives and actions",
-          "Expression Language (EL)",
-          "JSTL tag library",
-          "MVC with Servlets and JSP"
-        ],
-        "projects": [
-          "User authentication system",
-          "Shopping cart with sessions",
-          "Blog platform with JSP",
-          "Forum application",
-          "Online quiz system"
-        ],
-        "practice": "Create 15 servlet-based features"
-      },
-      "week_57_58": {
-        "title": "Spring Framework Fundamentals",
-        "topics": [
-          "Spring Framework overview",
-          "Dependency Injection (DI)",
-          "Inversion of Control (IoC)",
-          "Spring container and beans",
-          "XML vs annotation configuration",
-          "Component scanning",
-          "@Component, @Service, @Repository",
-          "@Autowired and dependency injection",
-          "Bean scopes and lifecycle",
-          "Spring profiles",
-          "Properties and configuration",
-          "ApplicationContext"
-        ],
-        "projects": [
-          "Spring-based console application",
-          "Dependency injection examples",
-          "Service layer with Spring",
-          "Configuration management app",
-          "Modular application design"
-        ],
-        "practice": "Convert projects to Spring"
-      },
-      "week_59_60": {
-        "title": "Spring Boot Essentials",
-        "topics": [
-          "Spring Boot vs Spring Framework",
-          "Spring Initializr and project setup",
-          "Auto-configuration magic",
-          "Embedded servers",
-          "application.properties/yml",
-          "Spring Boot starters",
-          "DevTools for development",
-          "Actuator for monitoring",
-          "Logging in Spring Boot",
-          "Profiles and environments",
-          "Building executable JARs",
-          "Spring Boot CLI"
-        ],
-        "projects": [
-          "Hello World REST API",
-          "Configuration server",
-          "Monitoring dashboard",
-          "Multi-profile application",
-          "Microservice template"
-        ],
-        "practice": "Build 10 Spring Boot applications"
-      },
-      "week_61": {
-        "title": "RESTful Web Services",
-        "topics": [
-          "@RestController annotation",
-          "@RequestMapping and variants",
+          "What Spring Boot is, and why the industry runs on it",
+          "Spring Initializr: a real project in two minutes",
+          "@RestController: your first endpoints",
+          "GET and POST: reading and creating data",
           "Path variables and request parameters",
-          "Request body and response body",
-          "Content negotiation",
-          "Exception handling in REST",
-          "Validation with Bean Validation",
-          "HATEOAS principles",
-          "API versioning strategies",
-          "Swagger/OpenAPI documentation",
-          "Testing REST APIs",
-          "RestTemplate and WebClient"
+          "Returning JSON objects from Java classes",
+          "application.properties and sensible configuration",
+          "Testing your API with a REST client",
+          "An honest map of what enterprise Spring adds later"
         ],
         "projects": [
-          "Complete REST API for blog",
-          "E-commerce product API",
-          "User management API",
-          "File upload service",
-          "API gateway implementation"
+          "A working REST API for a hobby collection: books, games or trading cards"
         ],
-        "practice": "Design 10 RESTful services"
-      }
-    },
-    "month_15_16": {
-      "title": "Months 15-16: Database & Security",
-      "weeks": "Week 62-70",
-      "week_62_63": {
-        "title": "Spring Data JPA",
+        "practice": "Design and build a small API of your own from scratch"
+      },
+      "week_35": {
+        "title": "Saving Data: JPA Without the Jargon",
         "topics": [
           "JPA and Hibernate basics",
           "Entity mapping with annotations",
           "@Entity, @Table, @Column",
           "Primary keys and generation strategies",
           "Relationships: @OneToMany, @ManyToOne",
-          "@ManyToMany, @OneToOne",
           "Spring Data repositories",
           "Query methods",
-          "Custom queries with @Query",
-          "Pagination and sorting",
-          "Transactions in Spring",
-          "Lazy vs eager loading"
+          "H2: a database that lives inside your app while you learn"
         ],
         "projects": [
-          "Blog with comments system",
-          "E-commerce with products and orders",
-          "Social media data model",
-          "School management system",
-          "Hospital management database"
+          "Your hobby API upgraded: data survives restarts",
+          "A two-entity model with a real relationship"
         ],
-        "practice": "Create 20 JPA entities and relationships"
+        "practice": "Model and persist 3 small domains end to end"
       },
-      "week_64_65": {
-        "title": "Advanced Database Operations",
+      "week_36": {
+        "title": "Calling AI Models from Java",
         "topics": [
-          "Database migrations with Flyway/Liquibase",
-          "Query optimization",
-          "N+1 problem solutions",
-          "Caching with Spring Cache",
-          "Redis integration",
-          "MongoDB with Spring Data",
-          "Multiple datasources",
-          "Database connection pooling",
-          "Batch operations",
-          "Stored procedures with JPA",
-          "Auditing with Spring Data",
-          "Database testing strategies"
-        ],
-        "projects": [
-          "Multi-tenant application",
-          "Caching layer implementation",
-          "Data migration tool",
-          "Analytics dashboard",
-          "Audit logging system"
-        ],
-        "practice": "Optimize 10 database operations"
-      },
-      "week_66_67": {
-        "title": "Spring Security",
-        "topics": [
-          "Authentication vs authorization",
-          "Spring Security architecture",
-          "In-memory authentication",
-          "Database authentication",
-          "Password encoding",
-          "Form-based login",
-          "Remember me functionality",
-          "CSRF protection",
-          "Method-level security",
-          "Role-based access control",
-          "JWT authentication",
-          "OAuth2 integration"
-        ],
-        "projects": [
-          "Secure REST API",
-          "Multi-user blog platform",
-          "Banking application security",
-          "OAuth2 social login",
-          "JWT-based authentication"
-        ],
-        "practice": "Secure 10 different applications"
-      },
-      "week_68_69": {
-        "title": "Messaging & Integration",
-        "topics": [
-          "Message-driven architecture",
-          "JMS basics",
-          "RabbitMQ with Spring",
-          "Apache Kafka integration",
-          "Spring Integration basics",
-          "Email sending with Spring",
-          "Scheduled tasks",
-          "Async processing",
-          "WebSocket with Spring",
-          "Server-sent events",
-          "File processing pipelines",
-          "Third-party API integration"
-        ],
-        "projects": [
-          "Notification service",
-          "Order processing system",
-          "Real-time chat application",
-          "Email campaign manager",
-          "Data pipeline processor"
-        ],
-        "practice": "Build 10 integration scenarios"
-      },
-      "week_70": {
-        "title": "Testing Spring Applications",
-        "topics": [
-          "Unit testing with JUnit 5",
-          "Mockito for mocking",
-          "Spring Boot Test",
-          "@MockBean and @SpyBean",
-          "Testing REST controllers",
-          "Testing service layer",
-          "Testing data layer",
-          "Integration testing",
-          "TestContainers",
-          "Test coverage with JaCoCo",
-          "Performance testing",
-          "Contract testing"
-        ],
-        "projects": [
-          "Complete test suite for API",
-          "TDD practice project",
-          "Integration test framework",
-          "Performance test suite",
-          "Automated testing pipeline"
-        ],
-        "practice": "Write tests for all projects"
-      }
-    },
-    "month_17_18": {
-      "title": "Months 17-18: Microservices & Cloud",
-      "weeks": "Week 71-78",
-      "week_71_72": {
-        "title": "Microservices Architecture",
-        "topics": [
-          "Monolith to microservices",
-          "Microservices principles",
-          "Service decomposition",
-          "Spring Cloud overview",
-          "Service discovery with Eureka",
-          "Load balancing with Ribbon",
-          "Circuit breaker with Hystrix",
-          "API Gateway with Zuul/Gateway",
-          "Configuration server",
-          "Distributed tracing with Sleuth",
-          "Service mesh concepts",
-          "Event-driven microservices"
-        ],
-        "projects": [
-          "E-commerce microservices",
-          "Service discovery implementation",
-          "API gateway setup",
-          "Distributed configuration",
-          "Circuit breaker demo"
-        ],
-        "practice": "Build 5 microservice systems"
-      },
-      "week_73_74": {
-        "title": "Docker & Containerization",
-        "topics": [
-          "Docker fundamentals",
-          "Creating Dockerfiles for Java",
-          "Multi-stage builds",
-          "Docker Compose for development",
-          "Container networking",
-          "Volume management",
-          "Docker registry",
-          "Best practices for Java containers",
-          "JVM in containers",
-          "Container security",
-          "Docker Swarm basics",
-          "Container orchestration intro"
-        ],
-        "projects": [
-          "Dockerize Spring Boot apps",
-          "Multi-container application",
-          "Development environment setup",
-          "CI/CD with Docker",
-          "Container monitoring"
-        ],
-        "practice": "Containerize all applications"
-      },
-      "week_75_76": {
-        "title": "Kubernetes & Cloud Deployment",
-        "topics": [
-          "Kubernetes concepts",
-          "Pods, Services, Deployments",
-          "ConfigMaps and Secrets",
-          "Persistent volumes",
-          "Ingress controllers",
-          "Helm charts",
-          "Scaling applications",
-          "Health checks",
-          "Rolling updates",
-          "AWS basics for Java",
-          "Deploying to cloud",
-          "Monitoring and logging"
-        ],
-        "projects": [
-          "Deploy to Kubernetes",
-          "Auto-scaling setup",
-          "Blue-green deployment",
-          "Cloud-native application",
-          "Monitoring dashboard"
-        ],
-        "practice": "Deploy 5 apps to cloud"
-      },
-      "week_77": {
-        "title": "DevOps & CI/CD",
-        "topics": [
-          "DevOps principles",
-          "Git branching strategies",
-          "Maven/Gradle deep dive",
-          "Jenkins pipelines",
-          "GitHub Actions for Java",
-          "GitLab CI/CD",
-          "Automated testing in CI",
-          "Code quality with SonarQube",
-          "Artifact management",
-          "Release strategies",
-          "Infrastructure as Code",
-          "Monitoring production apps"
-        ],
-        "projects": [
-          "Complete CI/CD pipeline",
-          "Automated deployment system",
-          "Quality gates setup",
-          "Multi-environment pipeline",
-          "Monitoring and alerting"
-        ],
-        "practice": "Set up DevOps for projects"
-      },
-      "week_78": {
-        "title": "Phase 3 Capstone Project",
-        "topics": [
-          "Enterprise architecture design",
-          "Microservices design",
-          "API design and documentation",
-          "Security implementation",
-          "Cloud deployment",
-          "Performance optimization"
-        ],
-        "projects": [
-          "MAJOR CAPSTONE: Enterprise E-commerce Platform",
-          "Features: Microservices, authentication, payment, inventory, orders, notifications",
-          "Alternative: Banking System with transactions, accounts, loans",
-          "Alternative: Healthcare Management System"
-        ],
-        "assessment": "Phase 3 Final Exam - Build enterprise application"
-      }
-    }
-  },
-  "phase_4_advanced_production": {
-    "title": "PHASE 4: Mobile, Advanced Topics & Career (Months 19-24, Weeks 79-104)",
-    "description": "Master Android development, explore advanced Java topics, contribute to open source, and prepare for professional career.",
-    "month_19_20": {
-      "title": "Months 19-20: Android Development",
-      "weeks": "Week 79-87",
-      "week_79_80": {
-        "title": "Android Fundamentals",
-        "topics": [
-          "Android ecosystem overview",
-          "Android Studio setup",
-          "Project structure",
-          "Activities and lifecycle",
-          "Layouts: LinearLayout, RelativeLayout",
-          "ConstraintLayout",
-          "Views and ViewGroups",
-          "Handling user input",
-          "Intents and navigation",
-          "Resources and localization",
-          "Debugging Android apps",
-          "Android Virtual Device"
-        ],
-        "projects": [
-          "Hello World Android app",
-          "Calculator app",
-          "Unit converter",
-          "Simple notes app",
-          "Quiz application"
-        ],
-        "practice": "Build 10 basic Android apps"
-      },
-      "week_81_82": {
-        "title": "Android UI & User Experience",
-        "topics": [
-          "Material Design principles",
-          "RecyclerView for lists",
-          "CardView layouts",
-          "Navigation Drawer",
-          "Bottom Navigation",
-          "Tabs with ViewPager",
-          "Custom views",
-          "Animations and transitions",
-          "Themes and styles",
-          "Dark mode support",
-          "Responsive layouts",
-          "Accessibility features"
-        ],
-        "projects": [
-          "News reader app",
-          "Social media feed UI",
-          "E-commerce app interface",
-          "Music player UI",
-          "Photo gallery app"
-        ],
-        "practice": "Design 10 beautiful UIs"
-      },
-      "week_83_84": {
-        "title": "Android Data & Networking",
-        "topics": [
-          "SharedPreferences",
-          "SQLite databases",
-          "Room persistence library",
-          "Content Providers",
-          "Retrofit for REST APIs",
-          "OkHttp client",
-          "JSON parsing with Gson",
-          "Image loading with Glide/Picasso",
-          "Background tasks",
-          "WorkManager",
-          "Services and BroadcastReceivers",
-          "Notifications"
-        ],
-        "projects": [
-          "Todo app with database",
-          "Weather app with API",
-          "Chat application",
-          "Expense tracker",
-          "Recipe app with API"
-        ],
-        "practice": "Integrate 10 different APIs"
-      },
-      "week_85_86": {
-        "title": "Advanced Android Development",
-        "topics": [
-          "MVVM architecture pattern",
-          "LiveData and ViewModel",
-          "Data Binding",
-          "Dependency injection with Dagger/Hilt",
-          "Kotlin for Android basics",
-          "Firebase integration",
-          "Push notifications with FCM",
-          "Google Maps integration",
-          "Camera and media",
-          "Sensors and location",
-          "In-app purchases",
-          "App monetization"
-        ],
-        "projects": [
-          "Social media app",
-          "Location-based app",
-          "Firebase chat app",
-          "Fitness tracker",
-          "Complete e-commerce app"
-        ],
-        "practice": "Build production-ready apps"
-      },
-      "week_87": {
-        "title": "Android Testing & Publishing",
-        "topics": [
-          "Unit testing Android apps",
-          "Espresso for UI testing",
-          "Testing ViewModels",
-          "Mocking with Mockito",
-          "Performance optimization",
-          "ProGuard and app size",
-          "App signing",
-          "Google Play Console",
-          "App Store Optimization",
-          "Crash reporting",
-          "Analytics integration",
-          "App updates and versioning"
-        ],
-        "projects": [
-          "Test suite for app",
-          "Performance optimization",
-          "Publish app to Play Store",
-          "Analytics dashboard",
-          "A/B testing setup"
-        ],
-        "practice": "Publish 3 apps to store"
-      }
-    },
-    "month_21_22": {
-      "title": "Months 21-22: Advanced Java & Specializations",
-      "weeks": "Week 88-96",
-      "week_88_89": {
-        "title": "Reactive Programming",
-        "topics": [
-          "Reactive programming principles",
-          "Project Reactor basics",
-          "Mono and Flux",
-          "Operators and transformations",
-          "Error handling in reactive",
-          "Backpressure handling",
-          "Spring WebFlux",
-          "Reactive REST APIs",
-          "Reactive data access",
-          "WebSocket with reactive",
-          "Testing reactive code",
-          "Performance benefits"
-        ],
-        "projects": [
-          "Reactive REST API",
-          "Real-time dashboard",
-          "Streaming data processor",
-          "Reactive chat server",
-          "Event-driven system"
-        ],
-        "practice": "Convert apps to reactive"
-      },
-      "week_90_91": {
-        "title": "Performance & JVM Internals",
-        "topics": [
-          "JVM architecture deep dive",
-          "Class loading mechanism",
-          "Memory areas in JVM",
-          "Garbage collection algorithms",
-          "GC tuning strategies",
-          "JVM flags and options",
-          "Memory leak analysis",
-          "Thread dumps analysis",
-          "Heap dumps and MAT",
-          "JProfiler and profiling",
-          "JMH benchmarking",
-          "Performance patterns"
-        ],
-        "projects": [
-          "Performance analyzer tool",
-          "Memory leak detector",
-          "GC monitoring dashboard",
-          "Benchmark suite",
-          "JVM tuning guide"
-        ],
-        "practice": "Optimize 10 applications"
-      },
-      "week_92_93": {
-        "title": "Design Patterns & Architecture",
-        "topics": [
-          "Gang of Four patterns review",
-          "Creational patterns deep dive",
-          "Structural patterns deep dive",
-          "Behavioral patterns deep dive",
-          "Enterprise patterns",
-          "Domain-Driven Design basics",
-          "Clean Architecture",
-          "Hexagonal Architecture",
-          "Event Sourcing",
-          "CQRS pattern",
-          "Saga pattern",
-          "Anti-patterns to avoid"
-        ],
-        "projects": [
-          "Pattern implementation library",
-          "DDD sample application",
-          "Event-sourced system",
-          "CQRS implementation",
-          "Architecture refactoring"
-        ],
-        "practice": "Apply patterns in projects"
-      },
-      "week_94_95": {
-        "title": "Big Data & Machine Learning",
-        "topics": [
-          "Big Data concepts",
-          "Apache Spark with Java",
-          "Hadoop basics",
-          "Stream processing with Kafka Streams",
-          "Apache Flink introduction",
-          "Machine Learning basics",
-          "Weka library for ML",
-          "Deep Learning with DL4J",
-          "Natural Language Processing",
-          "Computer Vision basics",
-          "ML model deployment",
-          "AI integration in Java apps"
-        ],
-        "projects": [
-          "Data processing pipeline",
-          "ML classification system",
-          "Recommendation engine",
-          "Sentiment analysis tool",
-          "Image recognition app"
-        ],
-        "practice": "Build 5 ML/Big Data projects"
-      },
-      "week_96": {
-        "title": "AI & Emerging Tech with Java",
-        "topics": [
-          "Calling an AI API from Java",
+          "Calling a modern AI model from Java (accounts set up with a parent where required)",
           "Structured output: making the model return real objects",
           "Function calling and tool use in a typed language",
           "Retrieval over enterprise data",
           "Concurrency: many AI calls without melting the server",
           "Guardrails and validating model output",
           "Cost, caching and quotas",
-          "IoT with Java: sensors and device control",
-          "Streaming data and event-driven design",
           "Where Java is actually used for AI (and where Python wins)",
           "Testing non-deterministic systems",
           "Ethics and accountability in automated decisions"
         ],
         "projects": [
-          "AI service in Java",
-          "Structured-output parser",
-          "Tool-using agent",
-          "IoT device controller",
-          "Emerging tech demo"
+          "AI-powered study helper API endpoint",
+          "Structured-output parser that turns model text into Java objects",
+          "A small tool-using AI assistant"
         ],
-        "practice": "Explore new technologies"
+        "practice": "Build 3 AI-powered features and note where each one is confidently wrong",
+        "assessment": "Month 9 check: a mixed assignment spanning APIs, persistence and AI, with questions revisiting earlier phases"
       }
     },
-    "month_23": {
-      "title": "Month 23: Open Source & Advanced Projects",
-      "weeks": "Week 97-100",
-      "week_97": {
-        "title": "Open Source Contribution",
+    "month_10_ship_it": {
+      "title": "Month 10: Quality, Capstone and Demo Day",
+      "weeks": "Weeks 37-40",
+      "week_37": {
+        "title": "Git, GitHub and JUnit",
         "topics": [
-          "Open source ecosystem",
-          "Finding projects to contribute",
-          "Understanding large codebases",
-          "Git advanced workflows",
-          "Creating quality pull requests",
-          "Code review etiquette",
-          "Documentation contributions",
-          "Creating your own library",
-          "Publishing to Maven Central",
-          "Building community",
-          "Open source licensing",
-          "Maintaining projects"
+          "Version control: why every developer uses it",
+          "The core Git loop: status, add, commit, log",
+          "Branches: experimenting without fear",
+          "GitHub: publishing your portfolio",
+          "READMEs that make a project understandable in a minute",
+          "JUnit 5: your first real test suite",
+          "Writing testable methods: the design pressure tests create",
+          "Debugger over print statements: breakpoints as a way of thinking",
+          "Where our full Git and GitHub course goes further"
         ],
         "projects": [
-          "Contribute to 3 projects",
-          "Create open source library",
-          "Documentation improvements",
-          "Bug fixes in popular projects",
-          "Feature implementation"
+          "Course portfolio pushed to GitHub with clean READMEs",
+          "JUnit test suite for your API’s core logic"
         ],
-        "practice": "Daily open source activity"
+        "practice": "Commit daily for two weeks; write 20 tests across your best projects"
       },
-      "week_98": {
-        "title": "Minecraft Modding",
+      "week_38_39": {
+        "title": "Final Capstone Build",
         "topics": [
-          "Minecraft Forge setup",
-          "Mod structure and basics",
-          "Creating blocks and items",
-          "Crafting recipes",
-          "Custom entities",
-          "World generation",
-          "GUI creation",
-          "Networking in mods",
-          "Mod configuration",
-          "Testing and debugging",
-          "Publishing mods",
-          "Fabric alternative"
+          "Choosing the capstone: a polished game, a JavaFX product, a Minecraft mod pack with real logic, or an API-backed app",
+          "Writing a one-page spec before any code",
+          "Milestones: working core by day 4, feature-complete by day 10",
+          "Instructor checkpoints and course corrections",
+          "Using everything: OOP, collections, DSA judgment, tests, Git",
+          "Cutting scope without cutting quality",
+          "Preparing the demo: story, not feature list"
         ],
         "projects": [
-          "Basic items mod",
-          "New dimension mod",
-          "Technology mod",
-          "Adventure mod",
-          "Complete modpack"
+          "The final capstone, built over two weeks with version control, JUnit tests on core logic, and a README worth reading"
         ],
-        "practice": "Create 5 Minecraft mods"
+        "practice": "Daily commits; a working build at the end of every session"
       },
-      "week_99": {
-        "title": "Game Development Advanced",
+      "week_40": {
+        "title": "Demo Day and What Comes Next",
         "topics": [
-          "LibGDX framework",
-          "Game architecture patterns",
-          "Physics engines",
-          "Particle systems",
-          "Procedural generation",
-          "AI for games",
-          "Multiplayer networking",
-          "Game optimization",
-          "Mobile game development",
-          "Publishing games",
-          "Game monetization",
-          "LWJGL for 3D games"
+          "Presenting the capstone: live demo plus the hardest bug story",
+          "Portfolio final pass: GitHub profile, project pages, screenshots",
+          "An honest skills inventory: strong, shaky, next",
+          "Where each path leads: DSA deep-dive, Android via Kotlin, full-stack web, or school board excellence",
+          "How ICSE, ISC and AP Computer Science A map to what you now know",
+          "Staying sharp: projects, communities and healthy practice habits"
         ],
         "projects": [
-          "2D platformer game",
-          "Strategy game",
-          "Multiplayer game",
-          "3D game prototype",
-          "Mobile game port"
+          "Demo day presentation delivered to the batch and parents"
         ],
-        "practice": "Complete game portfolio"
-      },
-      "week_100": {
-        "title": "System Design & Architecture",
-        "topics": [
-          "Large-scale system design",
-          "Distributed systems principles",
-          "CAP theorem and tradeoffs",
-          "Consistent hashing",
-          "Load balancing strategies",
-          "Caching at scale",
-          "Database sharding",
-          "Message queue architectures",
-          "Real-time systems",
-          "Search systems design",
-          "Monitoring and observability",
-          "Disaster recovery"
-        ],
-        "projects": [
-          "Design Twitter clone",
-          "Design YouTube",
-          "Design Uber",
-          "Design WhatsApp",
-          "Design Netflix"
-        ],
-        "practice": "System design interviews"
-      }
-    },
-    "month_24": {
-      "title": "Month 24: Final Projects & Career Launch",
-      "weeks": "Week 101-104",
-      "week_101_102": {
-        "title": "Final Capstone Project - Part 1",
-        "topics": [
-          "Project ideation and planning",
-          "Market research and validation",
-          "Technical architecture design",
-          "Technology stack selection",
-          "Development methodology",
-          "Team collaboration setup",
-          "Project timeline creation",
-          "Risk assessment and mitigation"
-        ],
-        "projects": [
-          "FINAL CAPSTONE: Complete Software Product",
-          "Options: SaaS platform, Mobile app ecosystem, Enterprise system, Game with backend, Educational platform, Social network, Fintech application, Healthcare system"
-        ]
-      },
-      "week_103": {
-        "title": "Final Capstone Project - Part 2",
-        "topics": [
-          "Code implementation",
-          "Testing and quality assurance",
-          "Performance optimization",
-          "Security hardening",
-          "Documentation creation",
-          "Deployment pipeline",
-          "User acceptance testing",
-          "Launch preparation",
-          "Marketing materials",
-          "Demo video creation"
-        ],
-        "deliverables": [
-          "Complete source code",
-          "Live production application",
-          "Technical documentation",
-          "User documentation",
-          "Architecture diagrams",
-          "Test coverage reports",
-          "Performance benchmarks",
-          "Security audit results"
-        ]
-      },
-      "week_104": {
-        "title": "Career Launch & Professional Development",
-        "topics": [
-          "Resume optimization for Java developers",
-          "Portfolio website creation",
-          "LinkedIn profile optimization",
-          "GitHub profile showcase",
-          "Technical interview preparation",
-          "Data structures review",
-          "Algorithm problem solving",
-          "System design interviews",
-          "Behavioral interview prep",
-          "Salary negotiation",
-          "Job search strategies",
-          "Continuous learning plan"
-        ],
-        "deliverables": [
-          "Professional resume",
-          "Portfolio website",
-          "LinkedIn profile",
-          "GitHub portfolio",
-          "Interview prep materials",
-          "Career roadmap",
-          "Professional network"
-        ],
-        "assessment": "FINAL COMPREHENSIVE EXAM - Complete Java mastery assessment"
+        "assessment": "FINAL EXAM: a practical build plus a written paper with questions mixed from every phase. Passing earns the certificate; a student who falls short gets a focused revision plan and a free retest"
       }
     }
   },
   "additional_learning_resources": {
     "projects_throughout_course": [
-      "Phase 1: Calculator, Banking System, Text Games, File Manager, Student Database",
-      "Phase 2: Desktop Apps with JavaFX, Game Development, Data Structure Library, Algorithm Visualizer",
-      "Phase 3: REST APIs, Microservices, E-commerce Platform, Social Media Backend, Cloud Applications",
-      "Phase 4: Android Apps, Minecraft Mods, Open Source Contributions, Complete Software Products"
+      "Phase 1: calculators, text games, a grade book, file-backed apps, a full OOP system built from requirements",
+      "Phase 2: JavaFX desktop apps with tables and charts, a complete 2D game, and working Minecraft mods",
+      "Phase 3: hand-built data structures, a sorting or pathfinding visualizer, and threaded programs",
+      "Phase 4: a REST API with persistence, AI-powered features, and a final capstone with tests and version control"
     ],
-    "total_projects_built": "75+ projects from simple to enterprise-level",
+    "total_projects_built": "30+ real projects, ending with working Minecraft mods, a REST API and a tested final capstone",
     "skills_mastered": [
-      "Core Java: OOP, Collections, Generics, Lambdas, Streams, Multithreading, File I/O",
-      "Advanced Java: Reflection, Annotations, JVM Internals, Performance Tuning, Design Patterns",
-      "Enterprise: Spring Framework, Spring Boot, Microservices, REST APIs, Security, JPA/Hibernate",
-      "Databases: JDBC, SQL, NoSQL, MongoDB, Redis, Database Design, Optimization",
-      "Frontend: JavaFX, Swing, Android Development, UI/UX Design",
-      "Testing: JUnit, Mockito, Integration Testing, TDD, Performance Testing",
-      "DevOps: Git, Maven/Gradle, Docker, Kubernetes, CI/CD, Cloud Deployment",
-      "Specialized: Game Development, Big Data, Machine Learning, Blockchain, Open Source"
+      "Core Java: syntax, arrays, methods, strings, files, exceptions and genuine OOP fluency",
+      "Modern Java: collections, generics, lambdas and streams used the way current codebases use them",
+      "Desktop apps: JavaFX interfaces with real data, structured as MVC",
+      "Games and mods: a finished 2D game and Minecraft mods built on Forge",
+      "Data structures and algorithms: built from scratch, analyzed with Big O, applied to real problems",
+      "Web APIs: a first REST API with Spring Boot and JPA persistence",
+      "AI foundations: calling modern AI models from Java with structured output and guardrails",
+      "Developer habits: Git and GitHub, JUnit, debugging and code review"
     ],
     "weekly_structure": {
-      "theory_videos": "5-8 hours",
-      "hands_on_coding": "8-10 hours",
-      "projects": "3-5 hours",
-      "practice_problems": "2-3 hours",
-      "total_per_week": "15-20 hours"
-    },
-    "support_provided": {
-      "live_sessions": "Weekly doubt clearing sessions",
-      "mentorship": "1-on-1 mentor guidance",
-      "code_review": "Expert code reviews for projects",
-      "career_support": "Resume review, interview prep"
+      "live_classes": "2 live one-hour classes per week, coding along with the instructor",
+      "homework": "Homework after every class, and a mixed-review assignment at the end of every month so earlier skills stay sharp",
+      "practice": "3-4 hours of projects and challenges between classes",
+      "review": "Every submitted project reviewed with written feedback; recurring issues reopened in class"
     },
     "certification": {
-      "phase_certificates": "Certificate after each phase completion",
-      "final_certificate": "Professional Java Developer Certification",
-      "linkedin_badge": "Add to LinkedIn profile",
-      "industry_recognized": "Backed by industry professionals",
-      "portfolio_projects": "25+ showcase projects"
+      "completion": "Certificate from Modern Age Coders, awarded on passing the final exam. Fall short and there is focused revision and a free retest: the certificate certifies knowledge, not attendance"
+    },
+    "support_provided": {
+      "doubt_support": "WhatsApp doubt support between classes, so nobody stays stuck on a compiler error for days",
+      "progress_updates": "Regular progress notes to parents: what was built, what comes next, and where encouragement at home helps"
     }
   },
   "prerequisites": {
-    "education": "No formal degree required - perfect for high school students",
-    "coding_experience": "Absolute beginner friendly - starts from zero",
-    "equipment": "Computer/laptop with internet connection",
-    "time_commitment": "15-20 hours per week consistently",
-    "english": "Basic reading and comprehension",
-    "motivation": "Passion for technology and problem-solving"
+    "coding_experience": "None. The course starts from the very first line of code",
+    "computer_skills": "Comfortable typing and managing files and folders",
+    "equipment": "A computer with a stable internet connection; the JDK, IntelliJ IDEA and every library used are free",
+    "age": "13 to 18. Batches are grouped by age and pace so the room always fits",
+    "time_commitment": "2 live classes plus 3-4 hours of practice a week"
   },
   "who_is_this_for": {
-    "students": "High school and college students building strong foundation",
-    "working_professionals": "Career switchers entering tech",
-    "entrepreneurs": "Teen entrepreneurs wanting to build apps",
-    "freelancers": "Build freelance career with Java skills",
-    "kids": "Motivated teenagers (13+) ready for serious learning",
-    "anyone": "Anyone passionate about programming and technology"
+    "school_java_students": "ICSE, ISC and AP Computer Science A students who want to be ahead of the syllabus, not chasing it",
+    "complete_beginners": "Teens starting from zero who want a strict, structured language that builds real discipline",
+    "minecraft_fans": "Students who have always wanted to change the game itself, not just play it",
+    "future_engineers": "Teens eyeing engineering and computer science degrees where Java and DSA are the entry gate",
+    "serious_builders": "The kind of student who wants to understand how software works underneath, not just make it run once"
   },
   "career_paths_after_completion": [
-    "Java Developer (Junior to Senior)",
-    "Android Developer",
-    "Full Stack Java Developer",
-    "Backend Engineer",
-    "Software Architect",
-    "Game Developer",
-    "DevOps Engineer",
-    "Machine Learning Engineer",
-    "Freelance Developer",
-    "Technical Founder/CTO"
+    "Data Structures and Algorithms: the dedicated course for competitive programming and interviews",
+    "Android development: our Kotlin and app development tracks continue where Java leaves off",
+    "Full-stack web development: deepen Spring Boot into real backend engineering",
+    "School exams: ICSE Computer Applications, ISC Computer Science and AP Computer Science A all examine in Java",
+    "Real small projects: tools, mods and apps for family, school clubs and friends"
   ],
   "course_guarantees": {
     "live_classes": "Live, interactive classes with a real instructor, never pre-recorded videos.",
     "small_batches": "Small batches only: group classes are capped at 10 students, with mini-batch (3 to 4 students) and personal 1-on-1 options.",
-    "structured_curriculum": "A structured, well-paced curriculum taught step by step, with hands-on practice in every session.",
+    "structured_curriculum": "A structured, well-paced curriculum taught step by step, with classwork in every session and homework after every class.",
+    "real_assessment": "Mixed-review assignments after every month and a final exam that decides the certificate: real knowledge, real work, real projects.",
     "doubt_support": "Doubt support between classes over WhatsApp, so you are never left stuck.",
-    "certificate": "A course-completion certificate you can share.",
+    "certificate": "A certificate you earn by passing the final exam, with a free retest after revision if needed.",
     "free_demo": "A free demo class before you enrol, so you can decide with no pressure."
   },
   "faqs": [
     {
-      "question": "What will my teen build while learning Java?",
-      "answer": "The 2-year path goes from first console programs to desktop applications with JavaFX, data structures and algorithms, web services, database-backed systems, and Android apps in the final phase. Java is the language behind Minecraft, Android, and large banking systems, and the projects reflect that range."
+      "question": "What will my teen build in this Java course?",
+      "answer": "More than 30 real projects across ten months: text games and file-backed tools in the foundations, JavaFX desktop apps with tables and charts, a complete 2D game, working Minecraft mods built on Forge, hand-built data structures with a visualizer capstone, a REST API with Spring Boot, and a final capstone shipped with Git and JUnit tests. Every project is built by the student and reviewed with written feedback."
     },
     {
-      "question": "Who should take this course, and is experience needed?",
-      "answer": "It suits motivated teenagers 13 and up, including complete beginners; the course starts from zero. It is also a natural fit for students whose school boards teach Java, such as ICSE and ISC, since class work and school work reinforce each other."
+      "question": "How long does it take a teenager to learn Java properly?",
+      "answer": "Most students reach a genuinely advanced level in 10 months at 2 live classes a week plus 3 to 4 hours of practice. The syllabus deliberately keeps 2 months of margin in hand: students who need more repetition take up to 12 months, with no rushing and no penalty. Java rewards patience early, and the course is paced for exactly that."
+    },
+    {
+      "question": "How is my teen assessed? Is the certificate just for attending?",
+      "answer": "No. Classwork runs inside every session, homework follows every class, and each month ends with an assignment that deliberately mixes new questions with earlier topics so knowledge compounds instead of fading. Every phase closes with a cumulative check, and the course ends with a final exam: a practical build plus written questions drawn from the whole syllabus. Passing earns the certificate; falling short earns a focused revision plan and a free retest. We optimize for real knowledge and real depth, not a stream of feel-good badges."
     },
     {
       "question": "Should my teen learn Java or Python first?",
-      "answer": "Both are excellent first languages. Java's structure and strong typing teach disciplined thinking that transfers everywhere, it is the base of Android development, and several school curricula require it. If your teen's school teaches Java or they dream of building Android apps, this course is the better starting point."
+      "answer": "Both are excellent first languages, and we teach both. Java is the better start when the school board examines in it, ICSE, ISC and AP Computer Science A all do, when Minecraft modding is the dream, or when a student thrives on structure: Java’s strictness catches mistakes early and builds habits every later language benefits from. Python is the better start for a teen pulled toward AI and data. Either way nothing has to be unlearned later."
+    },
+    {
+      "question": "Does this course help with ICSE, ISC or AP Computer Science?",
+      "answer": "Directly. Those boards examine in Java, and the first two phases cover the language and object-oriented concepts their papers test, at greater depth than the school syllabus. Students taking those exams find school work becoming revision. For focused board preparation we also run dedicated ICSE Computer Applications and AP Computer Science A courses."
+    },
+    {
+      "question": "Is Minecraft modding really part of the syllabus?",
+      "answer": "Yes, in month 6, and it is taught seriously: students set up a real Forge development environment, write mods with custom items, blocks and recipes in Java, and load them into their own game. It is the single best motivation device in teen Java, and it quietly exercises classes, inheritance and events, the exact concepts from earlier months."
+    },
+    {
+      "question": "Does this course cover Android app development?",
+      "answer": "It builds the exact foundation Android rests on, and the final phase includes REST APIs, the backend half of every serious app. Modern Android itself is Kotlin-first, so rather than squeeze an outdated Android unit into this course, we teach it properly in our app development and Kotlin tracks, which pick up exactly where this course ends."
     },
     {
       "question": "Is any paid software required?",
-      "answer": "No. The Java Development Kit and the editor used in class are free, and a standard computer with an internet connection handles the entire course."
-    },
-    {
-      "question": "What are the next steps after this masterclass?",
-      "answer": "The later phases already include Android development and enterprise topics, so graduates can go deeper with our data structures and algorithms course for competitive programming and interviews, or broaden into full stack web development. The 2-year portfolio of Java projects becomes the anchor for whichever direction they choose."
+      "answer": "No. The Java Development Kit, the IntelliJ IDEA editor used in class, JavaFX, Spring Boot and the Minecraft modding toolchain are all free. A standard computer with a stable internet connection handles the entire course. Where an AI service needs an account in month 9, it is set up together with a parent."
     },
     {
       "question": "What are the fees?",
-      "answer": "Group classes run ₹1,499 per month with 2 live classes each week and a maximum batch size of 10. A mini batch of 3-4 students is ₹2,999 per month, and dedicated 1-on-1 classes with 2 private sessions weekly cost ₹4,999 per month. International students pay a price set for their own country, shown on this page in their local currency."
+      "answer": "Group classes run ₹1,499 per month with 2 live classes each week and a maximum batch size of 10. A mini batch of 3-4 students is ₹2,999 per month, and dedicated 1-on-1 classes are ₹4,999 per month. International students pay a price set for their own country, shown on this page in their local currency."
     },
     {
       "question": "Can we book a demo class?",
-      "answer": "Yes, demo classes are free and carry no commitment; reserve one at learn.modernagecoders.com/contact. Parents can sit in, and we hold a 4.9 star rating from 547+ Google reviews if you would like to read what other families say first."
+      "answer": "Yes, demo classes are free and carry no commitment; reserve one at learn.modernagecoders.com/contact or message us on WhatsApp at +91 91233 66161. Parents can sit in, and we hold a 4.9 rating across 547 Google reviews if you would like to read what other families say first."
     },
     {
       "question": "Is the teaching live or recorded?",
-      "answer": "Every class is live: a 1-hour online session where a real teacher works with a small group, never a pre-recorded video. Students code along in class and get corrections on the spot, which is especially important in Java's early learning curve."
+      "answer": "Every class is live: a 1-hour online session where a real teacher works with a small group, never a pre-recorded video. Students code along in class and get corrections on the spot, which matters most in Java’s early weeks when one missing semicolon can feel like a wall."
     },
     {
       "question": "Is there a certificate on completion?",
-      "answer": "Yes, students earn a Java developer completion certificate. It comes with a portfolio of working projects, from games and desktop apps to Android work, that demonstrates the skill behind the paper."
+      "answer": "Yes, and it is earned, not handed out: the certificate is awarded on passing the final exam, with a free retest after revision if the first attempt falls short. Alongside it stands the portfolio, a finished game, Minecraft mods, a REST API and the capstone, which shows exactly what your teen can build."
     }
   ]
 }
