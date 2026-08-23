@@ -2,71 +2,66 @@
   "meta": {
     "slug": "ai-ml-masterclass-teens",
     "date": "2025-10-31",
-    "title": "AI & Machine Learning for Teens: Zero to AI Expert",
-    "description": "A 1-year AI and Machine Learning program for teens: master Python, maths, ML algorithms, deep learning, computer vision, NLP and build real AI projects.",
+    "dateModified": "2026-08-23",
+    "title": "AI and Machine Learning for Teens: Python to Real Models",
+    "description": "AI and machine learning course for teens aged 13-18: Python, real ML models, neural networks, computer vision, NLP and modern generative AI in 10-12 months.",
     "keywords": [
-      "artificial intelligence",
-      "machine learning",
-      "deep learning",
-      "neural networks",
-      "computer vision",
-      "natural language processing",
-      "tensorflow",
-      "pytorch",
-      "python for AI",
-      "data science",
-      "AI for teens",
-      "robotics",
-      "chatbots",
-      "generative AI",
-      "AI ethics",
-      "future technology"
+      "ai and machine learning course for teens",
+      "machine learning for teens",
+      "ai course for teenagers",
+      "python machine learning course for beginners",
+      "ai classes for high school students",
+      "deep learning course for teens",
+      "computer vision course for beginners",
+      "nlp course for students",
+      "ai ml online classes india",
+      "generative ai course for teens",
+      "best ai course for teenagers",
+      "ml course for class 9 to 12"
     ],
-    "category": "Artificial Intelligence & Machine Learning",
+    "category": "AI and Machine Learning",
     "taxonomy": "ai-ml",
     "price": {
       "group": "₹1,499/month",
       "personal": "₹3,999/month"
     },
-    "duration": "12 months (52 weeks)",
-    "level": "Complete Beginner to AI Developer",
-    "commitment": "12-15 hours/week recommended",
-    "certification": "AI/ML Expert Certification with Project Portfolio",
+    "duration": "10-12 months (40-48 weeks)",
+    "level": "Beginner friendly, ages 13 to 18; school maths is enough to start",
+    "commitment": "2 live classes/week + 3-4 hours practice",
+    "certification": "Certificate from Modern Age Coders, awarded on passing the final exam",
     "image_path": "ai-ml-teens.webp"
   },
   "program_overview": {
-    "title": "Complete AI & Machine Learning Masterclass for Teens",
-    "tagline": "From 'What is AI?' to Building Your Own Intelligent Systems",
-    "description": "This revolutionary program transforms curious teenagers into AI creators. Starting with zero coding knowledge, you'll journey through the fascinating world of artificial intelligence and machine learning. Learn how Netflix recommends movies, how Instagram filters work, how ChatGPT understands language, and how self-driving cars see the road.\n\nBy the end of this year, you'll have built 40+ AI projects including chatbots, image recognizers, game-playing AIs, recommendation systems, and even your own versions of popular AI applications. You'll understand not just how to use AI, but how to create it from scratch.",
+    "title": "AI and Machine Learning for Teens",
+    "tagline": "Not another course about using AI. Ten months of building it: real models, trained and evaluated by a teenager who understands what is inside them.",
+    "description": "Most teens use AI daily; almost none understand it, and understanding is where all the opportunity lives. This live online course takes students aged 13 to 18 from zero, no coding assumed, to genuinely training, evaluating and shipping machine learning models: Python and the data stack first, then real machine learning with scikit-learn, neural networks built up from a single neuron, convolutional networks that see, language models that read, and the modern generative AI layer, understood from the inside and used through teen-legal tools with parent-involved accounts.\n\nHonesty shapes the syllabus. Fields like reinforcement learning, robotics and ML infrastructure are named and mapped, not squeezed in as fake weeks; the depth goes where a teen can actually build: vision projects with their own trained models, an NLP project on real text, a generative AI application with guardrails, and a final capstone defended at demo day. The maths is taught as needed, school algebra is enough to start, and every concept lands in code the same week it is explained.\n\nThe pace is real: ten months at two live classes a week plus three to four hours of practice, with two more months in hand when needed. Homework after every class, monthly mixed reviews that reach back deliberately, phase exams, and a final exam that decides the certificate, with focused revision and a free retest. Real models, real evaluation, depth over dopamine.",
     "what_makes_this_different": [
-      "Designed specifically for teenage minds with relatable examples",
-      "Visual and interactive learning with animations and experiments",
-      "Build AI versions of apps teens use daily",
-      "Focus on creativity and fun projects, not just theory",
-      "From zero coding to creating real AI in 12 months",
-      "Ethics and responsible AI development emphasized",
-      "Preparation for AI careers and competitions",
-      "Access to GPUs for training models"
+      "Builders, not passengers: teens train, evaluate and ship their own models, they do not just prompt someone else’s",
+      "Maths handled honestly: taught as needed from school algebra, never assumed, never hand-waved",
+      "Evaluation is the moral core: overfitting, leakage and misleading accuracy are taught as hard as the models themselves",
+      "Generative AI from the inside: how LLMs and diffusion actually work, plus building on them through teen-legal tools with parent-involved accounts",
+      "An honest 10-month arc with 2 months of margin: the frontier fields are mapped truthfully as next steps, not faked as weeks",
+      "Real assessment: weekly homework, monthly mixed reviews, and a final exam that decides the certificate, with focused revision and a free retest"
     ],
     "learning_path": {
-      "phase_1": "Foundation (Months 1-3): Python Programming, Math Basics, Introduction to AI",
-      "phase_2": "Machine Learning (Months 4-6): ML Algorithms, Data Processing, Model Building",
-      "phase_3": "Deep Learning (Months 7-9): Neural Networks, CNNs, RNNs, Modern AI",
-      "phase_4": "Advanced AI (Months 10-12): Computer Vision, NLP, Reinforcement Learning, AI Applications"
+      "phase_1": "Python and first models (Months 1-3): Python, NumPy and pandas, then real machine learning with scikit-learn",
+      "phase_2": "Core ML mastery (Months 4-6): regression to unsupervised learning, then neural networks and deep learning fundamentals",
+      "phase_3": "Machines that see and read (Months 7-8): CNNs and computer vision projects, NLP and the transformer idea",
+      "phase_4": "Modern AI and the capstone (Months 9-10): generative AI understood and used safely, ethics, an AI product build, and the final exam"
     },
     "career_outcomes": [
-      "AI Project Creator (after 3 months)",
-      "ML Model Developer (after 6 months)",
-      "Deep Learning Practitioner (after 9 months)",
-      "AI Application Developer (after 12 months)"
+      "A portfolio of trained models: vision, language and tabular projects with honest evaluation write-ups",
+      "A capstone AI application defended at demo day",
+      "The exact foundation university AI tracks and our college-level AI courses assume",
+      "Judgment: a teen who can read an AI claim, and its accuracy metric, without being fooled"
     ]
   },
-  "phase_1_foundation": {
-    "title": "PHASE 1: Foundation & AI Basics (Months 1-3, Weeks 1-13)",
-    "description": "Build strong programming foundations, understand AI concepts, and create your first intelligent programs.",
-    "month_1_2": {
-      "title": "Month 1: Python Programming for AI",
-      "weeks": "Week 1-4",
+  "phase_1_python_first_models": {
+    "title": "PHASE 1: Python and First Models (Months 1-3, Weeks 1-12)",
+    "description": "The data stack from zero, Python through pandas, then the moment it all changes: the first real machine learning model, trained and honestly evaluated.",
+    "month_1_python": {
+      "title": "Month 1: Python for AI",
+      "weeks": "Weeks 1-4",
       "week_1_2": {
         "title": "Introduction to AI & Python Setup",
         "topics": [
@@ -113,8 +108,13 @@
           "Data analyzer for social media stats",
           "Simple expert system for diagnosis"
         ],
-        "practice": "Build 10 Python programs with AI logic"
-      },
+        "practice": "Build 10 Python programs with AI logic",
+        "assessment": "Month 1 check: a Python data exercise live, plus a take-home mixing everything so far"
+      }
+    },
+    "month_2_data_stack": {
+      "title": "Month 2: The Data Stack",
+      "weeks": "Weeks 5-8",
       "week_5_6": {
         "title": "NumPy & Mathematical Foundations",
         "topics": [
@@ -161,12 +161,13 @@
           "Weather pattern explorer",
           "Social media trends analyzer"
         ],
-        "practice": "Analyze 5 real-world datasets"
+        "practice": "Analyze 5 real-world datasets",
+        "assessment": "Month 2 check: clean and explore a messy real dataset, with quiz questions reaching back to month 1"
       }
     },
-    "month_3_4": {
-      "title": "Months 2-3: AI Fundamentals & First Models",
-      "weeks": "Week 5-13",
+    "month_3_first_ml": {
+      "title": "Month 3: First Machine Learning",
+      "weeks": "Weeks 9-12",
       "week_9_10": {
         "title": "Introduction to Machine Learning",
         "topics": [
@@ -213,8 +214,17 @@
           "Game outcome predictor",
           "Fashion item classifier"
         ],
-        "practice": "Solve 15 classification challenges"
-      },
+        "practice": "Solve 15 classification challenges",
+        "assessment": "Phase 1 exam: train and evaluate a classifier live and explain its mistakes, plus a written mixed paper"
+      }
+    }
+  },
+  "phase_2_core_ml": {
+    "title": "PHASE 2: Core Machine Learning (Months 4-6, Weeks 13-24)",
+    "description": "The full classical toolkit, regression to clustering, then neural networks built from a single neuron to real deep learning, with data preparation as a discipline.",
+    "month_4_regression_unsupervised": {
+      "title": "Month 4: Prediction and Patterns",
+      "weeks": "Weeks 13-16",
       "week_13_14": {
         "title": "Regression & Prediction",
         "topics": [
@@ -261,32 +271,15 @@
           "Anomaly detector for gaming",
           "Friend group discoverer"
         ],
-        "practice": "Apply clustering to 10 datasets"
-      },
-      "week_17": {
-        "title": "Phase 1 Capstone Project",
-        "topics": [
-          "End-to-end ML project workflow",
-          "Problem definition and data collection",
-          "Data preprocessing pipeline",
-          "Model training and evaluation",
-          "Model deployment basics",
-          "Creating user interface"
-        ],
-        "projects": [
-          "CAPSTONE: Personal AI Assistant",
-          "Features: Multiple ML models, predictions, recommendations",
-          "Alternative: AI-powered study buddy",
-          "Alternative: Smart home automation system"
-        ],
-        "assessment": "Build complete ML application from scratch"
+        "practice": "Apply clustering to 10 datasets",
+        "assessment": "Month 4 check: a regression-and-clustering task on fresh data, plus mixed review"
       }
     },
-    "month_5_6": {
-      "title": "Month 3: Advanced ML & Introduction to Deep Learning",
-      "weeks": "Week 10-13",
-      "week_18_19": {
-        "title": "Advanced Machine Learning Techniques",
+    "month_5_neural_nets": {
+      "title": "Month 5: Neural Networks",
+      "weeks": "Weeks 17-20",
+      "week_17_18": {
+        "title": "Advanced ML: Ensembles and Model Craft",
         "topics": [
           "Gradient Boosting Machines (GBM)",
           "XGBoost: Competition winner",
@@ -309,7 +302,7 @@
         ],
         "practice": "Optimize 10 ML models for performance"
       },
-      "week_20_21": {
+      "week_19_20": {
         "title": "Introduction to Neural Networks",
         "topics": [
           "Biological inspiration: How brains work",
@@ -331,9 +324,14 @@
           "Simple pattern recognizer",
           "Basic neural network visualizer"
         ],
-        "practice": "Build 5 neural networks for different tasks"
-      },
-      "week_22_23": {
+        "practice": "Build 5 neural networks for different tasks",
+        "assessment": "Month 5 check: build a small neural network by hand and explain each part, plus mixed review"
+      }
+    },
+    "month_6_deep_learning": {
+      "title": "Month 6: Deep Learning Fundamentals",
+      "weeks": "Weeks 21-24",
+      "week_21_22": {
         "title": "Deep Learning Fundamentals",
         "topics": [
           "What makes learning 'deep'?",
@@ -357,8 +355,8 @@
         ],
         "practice": "Train 10 deep learning models"
       },
-      "week_24_25": {
-        "title": "Data Augmentation & Preprocessing",
+      "week_23_24": {
+        "title": "Data Preparation and Augmentation",
         "topics": [
           "Why data augmentation matters",
           "Image augmentation techniques",
@@ -379,34 +377,18 @@
           "Image preprocessing pipeline",
           "Text data preparation system"
         ],
-        "practice": "Create 5 augmented datasets"
-      },
-      "week_26": {
-        "title": "Phase 1 Final Assessment",
-        "topics": [
-          "Review of all concepts",
-          "Best practices recap",
-          "Model evaluation strategies",
-          "Deployment preparation",
-          "Portfolio development"
-        ],
-        "projects": [
-          "MAJOR PROJECT: AI-Powered Mobile App",
-          "Multiple ML models integrated",
-          "User-friendly interface",
-          "Real-world application"
-        ],
-        "assessment": "Comprehensive exam + project presentation"
+        "practice": "Create 5 augmented datasets",
+        "assessment": "Phase 2 exam: train a deep model with proper splits and augmentation, plus a written mixed paper over phases 1-2"
       }
     }
   },
-  "phase_2_frontend_mastery": {
-    "title": "PHASE 2: Core Machine Learning Mastery (Months 4-6, Weeks 14-26)",
-    "description": "Deep dive into advanced ML algorithms, feature engineering, model optimization, and real-world applications.",
-    "month_7_8": {
-      "title": "Months 4-5: Advanced ML & Computer Vision",
-      "weeks": "Week 14-22",
-      "week_27_28": {
+  "phase_3_see_and_read": {
+    "title": "PHASE 3: Machines That See and Read (Months 7-8, Weeks 25-32)",
+    "description": "The two great applied fields at teen-buildable depth: convolutional networks and computer vision projects, then NLP and the transformer idea that changed everything.",
+    "month_7_vision": {
+      "title": "Month 7: Computer Vision",
+      "weeks": "Weeks 25-28",
+      "week_25_26": {
         "title": "Convolutional Neural Networks (CNNs)",
         "topics": [
           "How computers see: Pixels to features",
@@ -430,7 +412,7 @@
         ],
         "practice": "Build 10 different CNN architectures"
       },
-      "week_29_30": {
+      "week_27_28": {
         "title": "Advanced Computer Vision",
         "topics": [
           "Object detection: Finding things in images",
@@ -452,33 +434,14 @@
           "Document scanner with OCR",
           "Real-time pose detector for fitness"
         ],
-        "practice": "Create 8 computer vision applications"
-      },
-      "week_31_32": {
-        "title": "Recurrent Neural Networks (RNNs)",
-        "topics": [
-          "Sequential data and time series",
-          "Vanilla RNN architecture",
-          "Vanishing gradient problem",
-          "LSTM (Long Short-Term Memory)",
-          "GRU (Gated Recurrent Units)",
-          "Bidirectional RNNs",
-          "Sequence-to-sequence models",
-          "Time series prediction with RNNs",
-          "Text generation with RNNs",
-          "Music generation basics",
-          "Stock price prediction (and limitations)",
-          "Speech recognition introduction"
-        ],
-        "projects": [
-          "Text generator (like phone keyboards)",
-          "Stock price predictor",
-          "Music composer AI",
-          "Weather forecasting model"
-        ],
-        "practice": "Train 10 RNN models for sequences"
-      },
-      "week_33_34": {
+        "practice": "Create 8 computer vision applications",
+        "assessment": "Month 7 check: an image classifier trained on your own collected dataset, plus mixed review"
+      }
+    },
+    "month_8_language": {
+      "title": "Month 8: Language",
+      "weeks": "Weeks 29-32",
+      "week_29_30": {
         "title": "Natural Language Processing Basics",
         "topics": [
           "How computers understand text",
@@ -502,8 +465,8 @@
         ],
         "practice": "Build 10 NLP applications"
       },
-      "week_35": {
-        "title": "Transformers & Modern NLP",
+      "week_31_32": {
+        "title": "Transformers and Modern NLP",
         "topics": [
           "Attention mechanism explained",
           "Transformer architecture basics",
@@ -516,7 +479,8 @@
           "Text generation with GPT",
           "Prompt engineering basics",
           "Using APIs: OpenAI, Cohere",
-          "Responsible AI and bias"
+          "Responsible AI and bias",
+          "Why attention changed everything, drawn on one whiteboard"
         ],
         "projects": [
           "Question-answering system",
@@ -524,203 +488,45 @@
           "Language translator",
           "Custom GPT for specific domain"
         ],
-        "practice": "Fine-tune 5 transformer models"
+        "practice": "Fine-tune 5 transformer models",
+        "assessment": "Phase 3 exam: a vision or NLP mini-project defended live, plus a cumulative written paper"
       }
-    },
-    "month_9_10": {
-      "title": "Month 6: Generative AI & Creative Applications",
-      "weeks": "Week 23-26",
-      "week_36_37": {
-        "title": "Generative Adversarial Networks (GANs)",
+    }
+  },
+  "phase_4_modern_ai_capstone": {
+    "title": "PHASE 4: Modern AI and the Capstone (Months 9-10, Weeks 33-40)",
+    "description": "Generative AI understood from the inside and used safely, ethics that actually bites, an AI product built end to end, and the final exam at demo day.",
+    "month_9_generative": {
+      "title": "Month 9: The Generative Layer",
+      "weeks": "Weeks 33-36",
+      "week_33_34": {
+        "title": "Generative AI from the Inside",
         "topics": [
-          "GANs: AI creating new content",
-          "Generator vs Discriminator",
-          "Training GANs (the mini-max game)",
-          "DCGAN for image generation",
-          "StyleGAN and variations",
-          "Mode collapse and solutions",
-          "Conditional GANs",
-          "CycleGAN for style transfer",
-          "Pix2Pix for image translation",
-          "GANs for data augmentation",
-          "Ethical considerations",
-          "Detecting AI-generated content"
+          "Diffusion models deep dive",
+          "ControlNet for controlled generation",
+          "InstructPix2Pix",
+          "3D generation: NeRF, 3D GANs",
+          "Video generation models",
+          "Audio generation: MusicLM, AudioLM",
+          "Code generation with AI",
+          "Generative agents and simulations",
+          "AI for procedural generation",
+          "Ethical implications of generative AI",
+          "Future of generative models",
+          "How diffusion models paint, concept-first with teen-legal tools like Firefly and Canva",
+          "Building on LLM APIs with accounts set up alongside a parent",
+          "Prompts as engineering: structure, iteration, evaluation"
         ],
         "projects": [
-          "Face generator",
-          "Anime character creator",
-          "Photo to sketch converter",
-          "Style transfer application"
+          "Custom image generator",
+          "AI video creator",
+          "3D scene generator",
+          "Code generation assistant"
         ],
-        "practice": "Train 5 different GAN architectures"
+        "practice": "Build 10 generative AI applications"
       },
-      "week_38_39": {
-        "title": "Autoencoders & Dimensionality Reduction",
-        "topics": [
-          "Autoencoder architecture",
-          "Encoding and decoding",
-          "Latent space representation",
-          "Denoising autoencoders",
-          "Variational Autoencoders (VAE)",
-          "Image compression with autoencoders",
-          "Anomaly detection using autoencoders",
-          "Feature extraction",
-          "Recommendation systems with autoencoders",
-          "Super-resolution with AI",
-          "Image inpainting",
-          "Creating embeddings"
-        ],
-        "projects": [
-          "Image compressor",
-          "Image denoiser",
-          "Anomaly detector for games",
-          "Recommendation engine"
-        ],
-        "practice": "Build 8 autoencoder applications"
-      },
-      "week_40_41": {
-        "title": "Audio & Music AI",
-        "topics": [
-          "Digital audio basics: Sampling, frequencies",
-          "Audio preprocessing: Spectrograms, MFCCs",
-          "Speech recognition systems",
-          "Text-to-Speech (TTS) synthesis",
-          "Voice cloning basics",
-          "Music generation with AI",
-          "Audio classification",
-          "Sound effect generation",
-          "Audio style transfer",
-          "Real-time audio processing",
-          "Noise cancellation AI",
-          "Music recommendation systems"
-        ],
-        "projects": [
-          "Voice assistant prototype",
-          "Music genre classifier",
-          "AI DJ mixing system",
-          "Sound effect generator"
-        ],
-        "practice": "Create 6 audio AI applications"
-      },
-      "week_42_43": {
-        "title": "Reinforcement Learning Introduction",
-        "topics": [
-          "RL: Learning from rewards",
-          "Agent, environment, actions, rewards",
-          "Exploration vs exploitation",
-          "Q-Learning basics",
-          "Deep Q-Networks (DQN)",
-          "OpenAI Gym environments",
-          "Training game-playing AI",
-          "Policy gradient methods basics",
-          "Actor-Critic introduction",
-          "RL for robotics",
-          "Multi-agent RL basics",
-          "Real-world RL applications"
-        ],
-        "projects": [
-          "Game-playing AI (Tic-tac-toe, Snake)",
-          "CartPole balancer",
-          "Maze solver with RL",
-          "Trading bot simulator"
-        ],
-        "practice": "Train 5 RL agents for different games"
-      },
-      "week_44": {
-        "title": "Phase 2 Capstone Project",
-        "topics": [
-          "Advanced project planning",
-          "Integration of multiple AI systems",
-          "Performance optimization",
-          "User experience design",
-          "Deployment strategies"
-        ],
-        "projects": [
-          "MAJOR CAPSTONE: AI Content Creation Suite",
-          "Image generation, text creation, audio synthesis",
-          "Alternative: AI-powered game with multiple AI components",
-          "Alternative: Personal AI assistant with vision and NLP"
-        ],
-        "assessment": "Build production-ready AI application"
-      }
-    },
-    "month_11_12": {
-      "title": "Phase 2 Advanced Topics",
-      "weeks": "Week 24-26",
-      "week_45_46": {
-        "title": "Edge AI & Mobile Deployment",
-        "topics": [
-          "AI on mobile devices",
-          "TensorFlow Lite introduction",
-          "Model quantization and pruning",
-          "ONNX for model portability",
-          "Core ML for iOS",
-          "ML Kit for mobile apps",
-          "Edge TPU and hardware acceleration",
-          "Real-time inference optimization",
-          "Battery-efficient AI",
-          "Federated learning basics",
-          "Privacy-preserving ML",
-          "On-device vs cloud AI"
-        ],
-        "projects": [
-          "Mobile AI app (Android/iOS)",
-          "Real-time object detector for phone",
-          "Offline translation app",
-          "AI camera application"
-        ],
-        "practice": "Deploy 5 models to mobile devices"
-      },
-      "week_47_48": {
-        "title": "AI in Games & Simulations",
-        "topics": [
-          "Game AI fundamentals",
-          "Pathfinding algorithms for games",
-          "Behavior trees for NPCs",
-          "Procedural content generation",
-          "AI for game balancing",
-          "Physics simulation with ML",
-          "Creating intelligent NPCs",
-          "AI dungeon master",
-          "Procedural world generation",
-          "AI for game testing",
-          "Competitive AI agents",
-          "Unity ML-Agents introduction"
-        ],
-        "projects": [
-          "AI opponent for custom game",
-          "Procedural level generator",
-          "NPC behavior system",
-          "Game balance optimizer"
-        ],
-        "practice": "Build 5 game AI systems"
-      },
-      "week_49_50": {
-        "title": "MLOps & Production Systems",
-        "topics": [
-          "ML project lifecycle",
-          "Version control for ML (Git, DVC)",
-          "Experiment tracking (MLflow, Weights & Biases)",
-          "Model versioning strategies",
-          "Continuous Integration for ML",
-          "Model monitoring in production",
-          "A/B testing for ML",
-          "Model retraining pipelines",
-          "Docker for ML applications",
-          "Cloud platforms: AWS, GCP, Azure basics",
-          "API creation for ML models",
-          "Scaling ML applications"
-        ],
-        "projects": [
-          "ML pipeline with monitoring",
-          "Model deployment system",
-          "API for ML model serving",
-          "Automated retraining system"
-        ],
-        "practice": "Deploy 5 models to production"
-      },
-      "week_51": {
-        "title": "AI Ethics & Responsible AI",
+      "week_35_36": {
+        "title": "AI Ethics and Honest Evaluation",
         "topics": [
           "Bias in AI systems",
           "Fairness metrics and evaluation",
@@ -733,7 +539,10 @@
           "Adversarial attacks and defenses",
           "Deepfakes and detection",
           "AI for social good",
-          "Future of AI careers"
+          "Future of AI careers",
+          "Explainability: knowing why a model said what it said",
+          "Deepfakes and detection: the literacy every teen needs",
+          "Capstone planning: choosing a project worth defending"
         ],
         "projects": [
           "Bias detection tool",
@@ -741,956 +550,157 @@
           "Fairness evaluation system",
           "AI ethics case study analysis"
         ],
-        "practice": "Evaluate 5 models for bias and fairness"
-      },
-      "week_52": {
-        "title": "Phase 2 Final Project",
-        "topics": [
-          "Complex system integration",
-          "Production deployment",
-          "Performance optimization",
-          "Documentation and testing",
-          "Presentation preparation"
-        ],
-        "projects": [
-          "COMPREHENSIVE PROJECT: Multi-Modal AI System",
-          "Combining vision, text, and audio AI",
-          "Production-ready deployment",
-          "Complete documentation"
-        ],
-        "assessment": "Phase 2 comprehensive evaluation"
-      }
-    }
-  },
-  "phase_3_backend_engineering": {
-    "title": "PHASE 3: Deep Learning Mastery & Specializations (Months 7-9, Weeks 27-39)",
-    "description": "Master advanced deep learning, cutting-edge AI techniques, and specialized domains like robotics and healthcare AI.",
-    "month_13_14": {
-      "title": "Months 7-8: Advanced Deep Learning",
-      "weeks": "Week 27-35",
-      "week_53_54": {
-        "title": "Advanced CNN Architectures",
-        "topics": [
-          "EfficientNet and model scaling",
-          "Vision Transformers (ViT)",
-          "MobileNet for mobile devices",
-          "NAS (Neural Architecture Search)",
-          "3D CNNs for video",
-          "Temporal convolutions",
-          "Capsule Networks introduction",
-          "Attention mechanisms in vision",
-          "Self-supervised learning for vision",
-          "Contrastive learning",
-          "Few-shot learning",
-          "Zero-shot image classification"
-        ],
-        "projects": [
-          "Custom CNN architecture designer",
-          "Video action recognition system",
-          "Few-shot learning implementation",
-          "Self-supervised vision model"
-        ],
-        "practice": "Implement 10 state-of-the-art architectures"
-      },
-      "week_55_56": {
-        "title": "Advanced NLP & Language Models",
-        "topics": [
-          "Large Language Models (LLMs) deep dive",
-          "GPT architecture detailed",
-          "BERT variants: RoBERTa, ALBERT, ELECTRA",
-          "T5 and sequence-to-sequence",
-          "Prompt engineering advanced",
-          "In-context learning",
-          "Chain-of-thought prompting",
-          "Retrieval Augmented Generation (RAG)",
-          "Vector databases for AI",
-          "LangChain introduction",
-          "Building LLM applications",
-          "Fine-tuning strategies"
-        ],
-        "projects": [
-          "Custom chatbot with RAG",
-          "Document Q&A system",
-          "AI writing assistant advanced",
-          "Multi-language translator"
-        ],
-        "practice": "Build 8 LLM-powered applications"
-      },
-      "week_57_58": {
-        "title": "Multimodal AI",
-        "topics": [
-          "Combining vision and language",
-          "CLIP for image-text matching",
-          "DALL-E and text-to-image",
-          "Stable Diffusion basics",
-          "Image captioning models",
-          "Visual question answering",
-          "Video understanding with AI",
-          "Audio-visual learning",
-          "Cross-modal retrieval",
-          "Multimodal transformers",
-          "Building multimodal systems",
-          "Applications in real world"
-        ],
-        "projects": [
-          "Image caption generator",
-          "Text-to-image generator",
-          "Visual Q&A system",
-          "Multimodal search engine"
-        ],
-        "practice": "Create 6 multimodal AI applications"
-      },
-      "week_59_60": {
-        "title": "Graph Neural Networks",
-        "topics": [
-          "Graphs in real world: Social networks, molecules",
-          "Graph representation learning",
-          "Graph Convolutional Networks (GCN)",
-          "GraphSAGE algorithm",
-          "Graph Attention Networks (GAT)",
-          "Node classification",
-          "Link prediction",
-          "Graph classification",
-          "Molecular property prediction",
-          "Social network analysis",
-          "Knowledge graphs and AI",
-          "PyTorch Geometric library"
-        ],
-        "projects": [
-          "Social network analyzer",
-          "Molecular property predictor",
-          "Recommendation system with graphs",
-          "Knowledge graph builder"
-        ],
-        "practice": "Implement 5 graph neural network models"
-      },
-      "week_61": {
-        "title": "Time Series & Forecasting",
-        "topics": [
-          "Time series analysis advanced",
-          "ARIMA and statistical models",
-          "Prophet for forecasting",
-          "Deep learning for time series",
-          "Temporal Convolutional Networks",
-          "Attention for time series",
-          "Transformer models for forecasting",
-          "Multivariate time series",
-          "Anomaly detection in time series",
-          "Real-time forecasting",
-          "Uncertainty quantification",
-          "Applications in finance, weather, sales"
-        ],
-        "projects": [
-          "Advanced stock predictor",
-          "Weather forecasting system",
-          "Sales prediction tool",
-          "Anomaly detection system"
-        ],
-        "practice": "Build 8 forecasting models"
+        "practice": "Evaluate 5 models for bias and fairness",
+        "assessment": "Month 9 check: an ethics-and-evaluation case study argued in writing, plus mixed review"
       }
     },
-    "month_15_16": {
-      "title": "Month 8: Specialized AI Domains",
-      "weeks": "Week 32-35",
-      "week_62_63": {
-        "title": "Robotics & Embodied AI",
+    "month_10_capstone": {
+      "title": "Month 10: Build, Ship, Defend",
+      "weeks": "Weeks 37-40",
+      "week_37": {
+        "title": "AI Product Week",
         "topics": [
-          "Introduction to robotics",
-          "Robot perception with AI",
-          "SLAM (Simultaneous Localization and Mapping)",
-          "Path planning algorithms",
-          "Computer vision for robotics",
-          "Reinforcement learning for robots",
-          "Sim-to-real transfer",
-          "ROS (Robot Operating System) basics",
-          "Drone AI and autonomous flight",
-          "Manipulation and grasping",
-          "Human-robot interaction",
-          "Simulation environments: Gazebo, PyBullet"
+          "From model to product: wrapping a trained model in a usable interface",
+          "Streamlit or Gradio: demos people can actually touch",
+          "Guardrails: handling wrong answers gracefully",
+          "Cost and speed: why small models often win",
+          "Writing the honest model card: what it does, where it fails"
         ],
         "projects": [
-          "Virtual robot controller",
-          "Drone path planner",
-          "Robot vision system",
-          "Simulated robot training"
+          "Your best model shipped as a small usable app with a model card"
         ],
-        "practice": "Program 5 robotic behaviors"
+        "practice": "Have three people use your app and log where it failed them"
       },
-      "week_64_65": {
-        "title": "Healthcare AI & Bioinformatics",
+      "week_38_39": {
+        "title": "Final Capstone Build",
         "topics": [
-          "AI in medical diagnosis",
-          "Medical image analysis: X-ray, MRI, CT",
-          "Disease prediction models",
-          "Drug discovery with AI",
-          "Protein structure prediction basics",
-          "Genomics and AI",
-          "Electronic Health Records (EHR) analysis",
-          "Clinical NLP",
-          "Wearable device data analysis",
-          "Mental health AI applications",
-          "Ethical considerations in healthcare AI",
-          "FDA regulations and medical AI"
+          "Two focused weeks: data, model, evaluation, interface",
+          "Instructor checkpoints and honest scope cuts",
+          "Evaluation before excitement: the metric chosen and defended",
+          "Daily progress with a training log",
+          "Preparing the demo: the story of the build, failures included"
         ],
         "projects": [
-          "Disease symptom checker",
-          "Medical image classifier",
-          "Health tracker analyzer",
-          "Mental wellness chatbot"
+          "The capstone: a complete AI project, vision, language, tabular or generative, built and evaluated end to end"
         ],
-        "practice": "Build 5 healthcare AI applications"
+        "practice": "Daily training-log entries; a working demo at all times"
       },
-      "week_66_67": {
-        "title": "AI for Science & Research",
+      "week_40": {
+        "title": "Demo Day and What Comes Next",
         "topics": [
-          "Scientific computing with AI",
-          "Physics-informed neural networks",
-          "AI for climate modeling",
-          "Astronomy and AI",
-          "Chemistry: Molecular design",
-          "Materials discovery with ML",
-          "AI in biology research",
-          "Computational fluid dynamics with ML",
-          "Quantum machine learning basics",
-          "AI for mathematics",
-          "Scientific data visualization",
-          "Reproducible AI research"
+          "Presenting the capstone: live demo plus the hardest failure story",
+          "An honest skills inventory: strong, shaky, next",
+          "The truthful map of what comes next: reinforcement learning, MLOps and research, as real paths not fake weeks",
+          "Where our college AI/ML and Codex/Claude Code courses continue the road"
         ],
         "projects": [
-          "Climate pattern analyzer",
-          "Molecular property predictor",
-          "Physics simulation with AI",
-          "Scientific data explorer"
+          "Demo day presentation delivered to the batch and parents"
         ],
-        "practice": "Apply AI to 5 scientific problems"
-      },
-      "week_68_69": {
-        "title": "Creative AI & Art",
-        "topics": [
-          "AI in creative industries",
-          "Music generation advanced",
-          "AI for video editing",
-          "3D model generation",
-          "AI in game design",
-          "Creative writing with AI",
-          "AI art styles and techniques",
-          "Animation with AI",
-          "Voice synthesis and singing",
-          "AI for fashion design",
-          "Interactive art installations",
-          "AI art: authorship, licensing and credit"
-        ],
-        "projects": [
-          "AI music album creator",
-          "Story generator with illustrations",
-          "AI video editor",
-          "3D model generator"
-        ],
-        "practice": "Create 10 AI art projects"
-      },
-      "week_70": {
-        "title": "Advanced Reinforcement Learning",
-        "topics": [
-          "Policy Gradient methods deep dive",
-          "Proximal Policy Optimization (PPO)",
-          "Advantage Actor-Critic (A2C/A3C)",
-          "DDPG for continuous control",
-          "SAC (Soft Actor-Critic)",
-          "Model-based RL",
-          "Inverse RL",
-          "Multi-agent reinforcement learning",
-          "Hierarchical RL",
-          "Meta-learning basics",
-          "RL for real-world problems",
-          "Safety in RL systems"
-        ],
-        "projects": [
-          "Advanced game AI agent",
-          "Robot control with RL",
-          "Multi-agent simulation",
-          "Real-world optimization with RL"
-        ],
-        "practice": "Train 8 advanced RL agents"
-      }
-    },
-    "month_17_18": {
-      "title": "Month 9: Cutting-Edge AI & Research",
-      "weeks": "Week 36-39",
-      "week_71_72": {
-        "title": "Generative AI Revolution",
-        "topics": [
-          "Diffusion models deep dive",
-          "Stable Diffusion architecture",
-          "ControlNet for controlled generation",
-          "InstructPix2Pix",
-          "3D generation: NeRF, 3D GANs",
-          "Video generation models",
-          "Audio generation: MusicLM, AudioLM",
-          "Code generation with AI",
-          "Generative agents and simulations",
-          "AI for procedural generation",
-          "Ethical implications of generative AI",
-          "Future of generative models"
-        ],
-        "projects": [
-          "Custom image generator",
-          "AI video creator",
-          "3D scene generator",
-          "Code generation assistant"
-        ],
-        "practice": "Build 10 generative AI applications"
-      },
-      "week_73_74": {
-        "title": "Neural Architecture Search & AutoML",
-        "topics": [
-          "Automated Machine Learning (AutoML)",
-          "Neural Architecture Search (NAS)",
-          "Evolutionary algorithms for NAS",
-          "Reinforcement learning for NAS",
-          "Differentiable architecture search",
-          "Hardware-aware NAS",
-          "AutoML tools: AutoKeras, AutoGluon",
-          "Hyperparameter optimization advanced",
-          "Bayesian optimization",
-          "Meta-learning for quick adaptation",
-          "Few-shot and zero-shot learning",
-          "Transfer learning optimization"
-        ],
-        "projects": [
-          "AutoML system builder",
-          "Custom NAS implementation",
-          "Model optimization toolkit",
-          "Transfer learning framework"
-        ],
-        "practice": "Optimize 10 models with AutoML"
-      },
-      "week_75_76": {
-        "title": "Explainable AI & Interpretability",
-        "topics": [
-          "Why explainability matters",
-          "SHAP (SHapley Additive exPlanations)",
-          "LIME for local interpretability",
-          "Attention visualization",
-          "Saliency maps and GradCAM",
-          "Counterfactual explanations",
-          "Concept activation vectors",
-          "Model cards and documentation",
-          "Fairness metrics and testing",
-          "Debugging neural networks",
-          "Trust in AI systems",
-          "Regulatory requirements for XAI"
-        ],
-        "projects": [
-          "XAI dashboard",
-          "Model interpretation toolkit",
-          "Fairness analyzer",
-          "AI decision explainer"
-        ],
-        "practice": "Make 8 models explainable"
-      },
-      "week_77": {
-        "title": "Federated Learning & Privacy",
-        "topics": [
-          "Federated learning concept",
-          "Decentralized training",
-          "Privacy-preserving ML",
-          "Differential privacy implementation",
-          "Homomorphic encryption basics",
-          "Secure multi-party computation",
-          "Split learning",
-          "Federated averaging algorithm",
-          "Communication-efficient FL",
-          "Personalized federated learning",
-          "FL frameworks: TFF, PySyft",
-          "Real-world FL applications"
-        ],
-        "projects": [
-          "Federated learning system",
-          "Privacy-preserving model",
-          "Decentralized AI application",
-          "Secure ML pipeline"
-        ],
-        "practice": "Implement 5 privacy-preserving ML systems"
-      },
-      "week_78": {
-        "title": "Phase 3 Capstone Project",
-        "topics": [
-          "Research project planning",
-          "Literature review process",
-          "Experiment design",
-          "Baseline comparisons",
-          "Result analysis and visualization",
-          "Research paper writing basics"
-        ],
-        "projects": [
-          "RESEARCH PROJECT: Novel AI Application",
-          "Original research or significant improvement",
-          "Complete experimentation and evaluation",
-          "Research paper draft"
-        ],
-        "assessment": "Present research findings and demonstrations"
-      }
-    }
-  },
-  "phase_4_advanced_production": {
-    "title": "PHASE 4: Professional AI Development & Career Launch (Months 10-12, Weeks 40-52)",
-    "description": "Build production-grade AI systems, contribute to open source, prepare for AI careers, and launch your AI startup or research path.",
-    "month_19_20": {
-      "title": "Months 10-11: Production AI Systems",
-      "weeks": "Week 40-48",
-      "week_79_80": {
-        "title": "Scalable AI Infrastructure",
-        "topics": [
-          "Distributed training strategies",
-          "Data parallelism and model parallelism",
-          "Gradient accumulation and mixed precision",
-          "Multi-GPU training with PyTorch/TensorFlow",
-          "Distributed training frameworks: Horovod, DeepSpeed",
-          "Cloud platforms for AI: AWS SageMaker, GCP Vertex AI",
-          "Kubernetes for ML workloads",
-          "Model serving at scale",
-          "Load balancing for ML APIs",
-          "Caching strategies for inference",
-          "Edge deployment strategies",
-          "Cost optimization for AI infrastructure"
-        ],
-        "projects": [
-          "Distributed training pipeline",
-          "Scalable model serving system",
-          "Multi-cloud AI deployment",
-          "Cost-optimized inference system"
-        ],
-        "practice": "Deploy 10 models at scale"
-      },
-      "week_81_82": {
-        "title": "Real-time AI Systems",
-        "topics": [
-          "Streaming data processing",
-          "Real-time inference optimization",
-          "Model quantization techniques",
-          "Knowledge distillation",
-          "TensorRT optimization",
-          "ONNX runtime optimization",
-          "WebAssembly for browser AI",
-          "WebGL/WebGPU acceleration",
-          "Stream processing with Kafka",
-          "Real-time feature engineering",
-          "Online learning systems",
-          "Low-latency serving patterns"
-        ],
-        "projects": [
-          "Real-time video analysis system",
-          "Live translation application",
-          "Streaming anomaly detector",
-          "Browser-based AI application"
-        ],
-        "practice": "Build 8 real-time AI systems"
-      },
-      "week_83_84": {
-        "title": "AI Product Development",
-        "topics": [
-          "Product management for AI",
-          "User research for AI products",
-          "AI product metrics and KPIs",
-          "A/B testing AI features",
-          "Iterative improvement cycles",
-          "User feedback integration",
-          "AI product roadmapping",
-          "Competitive analysis",
-          "Monetization strategies",
-          "AI product marketing",
-          "Launch strategies",
-          "Growth hacking with AI"
-        ],
-        "projects": [
-          "AI product MVP",
-          "User testing framework",
-          "Product analytics dashboard",
-          "Go-to-market strategy"
-        ],
-        "practice": "Launch 3 AI products to users"
-      },
-      "week_85_86": {
-        "title": "AI Startups & Entrepreneurship",
-        "topics": [
-          "AI startup landscape",
-          "Identifying AI opportunities",
-          "Building an AI team",
-          "Fundraising for AI startups",
-          "AI startup pitch deck",
-          "Intellectual property in AI",
-          "Open source vs proprietary",
-          "AI startup case studies",
-          "Scaling AI startups",
-          "Exit strategies",
-          "AI startup failures and lessons",
-          "Building AI communities"
-        ],
-        "projects": [
-          "AI startup concept development",
-          "Pitch deck creation",
-          "MVP for startup idea",
-          "Business plan for AI venture"
-        ],
-        "practice": "Develop 5 AI startup ideas"
-      },
-      "week_87": {
-        "title": "Open Source Contribution",
-        "topics": [
-          "Open source AI ecosystem",
-          "Contributing to major projects",
-          "Creating your own OS project",
-          "Documentation best practices",
-          "Community building",
-          "Issue management",
-          "Code review processes",
-          "CI/CD for open source",
-          "License selection",
-          "Maintaining OS projects",
-          "Building contributor community",
-          "Open source monetization"
-        ],
-        "projects": [
-          "Contribute to major AI project",
-          "Launch own open source tool",
-          "Create comprehensive documentation",
-          "Build contributor community"
-        ],
-        "practice": "Make 20 open source contributions"
-      }
-    },
-    "month_21_22": {
-      "title": "Month 11: Advanced Applications & Industry",
-      "weeks": "Week 44-48",
-      "week_88_89": {
-        "title": "AI in Finance & Trading",
-        "topics": [
-          "Algorithmic trading basics",
-          "Market prediction models",
-          "Risk assessment with AI",
-          "Fraud detection systems",
-          "Credit scoring models",
-          "Portfolio optimization",
-          "Sentiment analysis for trading",
-          "High-frequency trading basics",
-          "Regulatory compliance in FinTech",
-          "AI in finance: fraud detection and risk scoring",
-          "Robo-advisors",
-          "Quantitative analysis with ML"
-        ],
-        "projects": [
-          "Trading bot simulator",
-          "Fraud detection system",
-          "Credit risk model",
-          "Market sentiment analyzer"
-        ],
-        "practice": "Build 6 FinTech AI applications"
-      },
-      "week_90_91": {
-        "title": "AI for Social Media & Content",
-        "topics": [
-          "Content recommendation algorithms",
-          "Social media analytics",
-          "Influencer identification",
-          "Trend prediction",
-          "Content moderation with AI",
-          "Fake news detection",
-          "Social network analysis",
-          "Viral content prediction",
-          "Personalization algorithms",
-          "Ad targeting with AI",
-          "Content generation for social",
-          "Community detection"
-        ],
-        "projects": [
-          "Social media analytics tool",
-          "Content recommendation engine",
-          "Trend prediction system",
-          "Influencer analyzer"
-        ],
-        "practice": "Create 8 social media AI tools"
-      },
-      "week_92_93": {
-        "title": "AI in Education & EdTech",
-        "topics": [
-          "Personalized learning systems",
-          "Intelligent tutoring systems",
-          "Automated grading",
-          "Student performance prediction",
-          "Learning path optimization",
-          "Content generation for education",
-          "Plagiarism detection",
-          "Virtual teaching assistants",
-          "Educational game AI",
-          "Accessibility in EdTech",
-          "Learning analytics",
-          "Adaptive testing systems"
-        ],
-        "projects": [
-          "Personalized tutor bot",
-          "Automated grading system",
-          "Learning path optimizer",
-          "Educational game with AI"
-        ],
-        "practice": "Build 6 EdTech AI applications"
-      },
-      "week_94_95": {
-        "title": "AI for Sustainability & Climate",
-        "topics": [
-          "Climate modeling with AI",
-          "Energy consumption optimization",
-          "Smart grid management",
-          "Renewable energy prediction",
-          "Carbon footprint tracking",
-          "Wildlife conservation AI",
-          "Precision agriculture",
-          "Water resource management",
-          "Disaster prediction and response",
-          "Sustainable supply chains",
-          "Environmental monitoring",
-          "Green AI practices"
-        ],
-        "projects": [
-          "Energy optimization system",
-          "Climate impact predictor",
-          "Smart agriculture advisor",
-          "Disaster response system"
-        ],
-        "practice": "Create 5 sustainability AI solutions"
-      },
-      "week_96": {
-        "title": "Future of AI & Emerging Tech",
-        "topics": [
-          "AGI (Artificial General Intelligence) concepts",
-          "Quantum machine learning",
-          "Neuromorphic computing",
-          "Brain-computer interfaces",
-          "Synthetic biology and AI",
-          "Swarm intelligence",
-          "Emotional AI",
-          "AI consciousness debates",
-          "Regulation and governance",
-          "AI safety research",
-          "Long-term AI impacts",
-          "Career paths in AI"
-        ],
-        "projects": [
-          "Future AI concept prototype",
-          "Emerging tech exploration project",
-          "AI impact assessment tool",
-          "Career planning portfolio"
-        ],
-        "practice": "Explore 5 emerging AI technologies"
-      }
-    },
-    "month_23": {
-      "title": "Month 12: Mastery & Career Launch",
-      "weeks": "Week 49-52",
-      "week_97": {
-        "title": "AI Research Methods",
-        "topics": [
-          "Reading research papers effectively",
-          "Reproducing research results",
-          "Designing experiments",
-          "Statistical significance testing",
-          "Ablation studies",
-          "Benchmarking methodologies",
-          "Writing technical reports",
-          "Creating research proposals",
-          "Peer review process",
-          "Conference submissions",
-          "Building research portfolio",
-          "Collaboration in research"
-        ],
-        "projects": [
-          "Reproduce famous paper",
-          "Original research project",
-          "Research paper draft",
-          "Conference presentation"
-        ],
-        "practice": "Complete 3 research projects"
-      },
-      "week_98": {
-        "title": "Industry Preparation",
-        "topics": [
-          "AI job landscape",
-          "Resume building for AI roles",
-          "Portfolio optimization",
-          "Interview preparation",
-          "Technical assessments",
-          "System design for AI",
-          "Behavioral interviews",
-          "Salary negotiation",
-          "Internship strategies",
-          "Networking in AI community",
-          "Personal branding",
-          "Continuous learning plans"
-        ],
-        "projects": [
-          "Professional portfolio website",
-          "Interview preparation materials",
-          "Technical blog posts",
-          "LinkedIn optimization"
-        ],
-        "practice": "Complete 20 mock interviews"
-      },
-      "week_99": {
-        "title": "Competitions & Challenges",
-        "topics": [
-          "Kaggle competition strategies",
-          "Google AI challenges",
-          "Microsoft AI competitions",
-          "Research competitions",
-          "Hackathon participation",
-          "Team formation strategies",
-          "Competition portfolio building",
-          "Prize-winning techniques",
-          "Post-competition analysis",
-          "Building reputation",
-          "Becoming Kaggle Master",
-          "Competition to career pipeline"
-        ],
-        "projects": [
-          "Kaggle competition entry",
-          "Hackathon project",
-          "Competition portfolio",
-          "Team collaboration project"
-        ],
-        "practice": "Participate in 10 AI competitions"
-      },
-      "week_100": {
-        "title": "AI Community & Impact",
-        "topics": [
-          "Building AI communities",
-          "Teaching and mentoring",
-          "Creating educational content",
-          "AI for social good projects",
-          "Diversity in AI",
-          "Ethical AI advocacy",
-          "Policy and regulation engagement",
-          "Science communication",
-          "Public speaking about AI",
-          "Media engagement",
-          "Thought leadership",
-          "Giving back to community"
-        ],
-        "projects": [
-          "Community project launch",
-          "Educational content creation",
-          "Social good AI application",
-          "Mentorship program design"
-        ],
-        "practice": "Lead 5 community initiatives"
-      }
-    },
-    "month_24": {
-      "title": "Final Month: Capstone & Graduation",
-      "weeks": "Week 50-52",
-      "week_101_102": {
-        "title": "Final Capstone - Part 1",
-        "topics": [
-          "Capstone project ideation",
-          "Problem statement definition",
-          "Literature review",
-          "Technical architecture design",
-          "Data collection and preparation",
-          "Model development",
-          "Evaluation framework",
-          "User interface design",
-          "Testing strategies",
-          "Documentation planning",
-          "Timeline management",
-          "Risk assessment"
-        ],
-        "projects": [
-          "FINAL CAPSTONE: Complete AI Platform",
-          "Novel AI application with real impact",
-          "Full-stack implementation",
-          "Research component included",
-          "Options: Healthcare AI, Education AI, Creative AI, Social Good AI"
-        ]
-      },
-      "week_103": {
-        "title": "Final Capstone - Part 2",
-        "topics": [
-          "Implementation completion",
-          "System integration",
-          "Performance optimization",
-          "Security implementation",
-          "User testing",
-          "Deployment to production",
-          "Monitoring setup",
-          "Documentation finalization",
-          "Video demonstration",
-          "Presentation preparation",
-          "Peer review",
-          "Final polishing"
-        ],
-        "deliverables": [
-          "Complete source code with documentation",
-          "Live deployed application",
-          "Technical paper (10+ pages)",
-          "Video presentation (15 minutes)",
-          "User guide and API documentation",
-          "Test suite with 80%+ coverage",
-          "Performance benchmarks",
-          "Future development roadmap"
-        ]
-      },
-      "week_104": {
-        "title": "Graduation & Future Path",
-        "topics": [
-          "Portfolio finalization",
-          "Career path planning",
-          "University preparation (if applicable)",
-          "Scholarship applications",
-          "Internship applications",
-          "Research opportunities",
-          "Startup incubators",
-          "Further learning resources",
-          "Alumni network",
-          "Mentorship continuation",
-          "Life-long learning in AI",
-          "Celebration and reflection"
-        ],
-        "deliverables": [
-          "Complete AI portfolio (40+ projects)",
-          "Professional website and blog",
-          "GitHub profile with contributions",
-          "LinkedIn profile optimized",
-          "Resume for AI roles",
-          "Research publications (if any)",
-          "Competition achievements",
-          "Network of AI professionals",
-          "Clear career roadmap",
-          "Certification of completion"
-        ],
-        "assessment": "FINAL ASSESSMENT: Comprehensive evaluation + Capstone presentation"
+        "assessment": "FINAL EXAM: a practical model-building task plus a written paper with questions mixed from every phase. Passing earns the certificate; a student who falls short gets a focused revision plan and a free retest"
       }
     }
   },
   "additional_learning_resources": {
     "projects_throughout_course": [
-      "Phase 1: Chatbots, Recommendation Systems, Image Classifiers, Data Analyzers",
-      "Phase 2: CNNs, RNNs, GANs, NLP Applications, Computer Vision Projects",
-      "Phase 3: Advanced Deep Learning, Multimodal AI, Robotics, Healthcare AI",
-      "Phase 4: Production Systems, Startups, Research Projects, Industry Applications",
-      "Final: Complete AI Platform with Multiple Components"
+      "Phase 1: Python data projects, honest exploratory analyses, and a first evaluated classifier",
+      "Phase 2: regression and clustering studies, a hand-built neural network, and a properly augmented deep model",
+      "Phase 3: an image classifier on a self-collected dataset and an NLP project on real text",
+      "Phase 4: a generative AI application with guardrails, a shipped model demo, and the defended capstone"
     ],
-    "total_projects_built": "40+ AI projects from simple to production-grade",
+    "total_projects_built": "20+ trained models and AI builds, crowned by a defended capstone",
     "skills_mastered": [
-      "Programming: Python, TensorFlow, PyTorch, Scikit-learn, Keras",
-      "Mathematics: Linear Algebra, Calculus, Statistics, Probability",
-      "Machine Learning: Classification, Regression, Clustering, Dimensionality Reduction",
-      "Deep Learning: CNNs, RNNs, Transformers, GANs, Autoencoders",
-      "Computer Vision: Object Detection, Segmentation, Face Recognition, OCR",
-      "NLP: Text Classification, Generation, Translation, Question Answering",
-      "Reinforcement Learning: Q-Learning, Policy Gradients, Game AI",
-      "Generative AI: Stable Diffusion, GPT, DALL-E, Music Generation",
-      "MLOps: Deployment, Monitoring, Scaling, Version Control",
-      "Tools: Jupyter, Git, Docker, Cloud Platforms, APIs",
-      "Specialized: Robotics, Healthcare, Finance, Education, Sustainability",
-      "Soft Skills: Research, Communication, Ethics, Project Management"
+      "Python for AI: the language plus NumPy and pandas fluency",
+      "Classical ML: classification, regression, clustering and ensembles with scikit-learn",
+      "Deep learning: neural networks from first principles through CNNs",
+      "NLP: text processing through the transformer idea",
+      "Generative AI: how it works inside, and building on it safely through teen-legal tools",
+      "Evaluation: splits, metrics, overfitting and leakage, treated as the moral core",
+      "Shipping: models wrapped in usable demos with honest model cards"
     ],
     "weekly_structure": {
-      "theory_videos": "4-5 hours",
-      "hands_on_coding": "5-6 hours",
-      "projects": "3-4 hours",
-      "research_reading": "1-2 hours",
-      "community_interaction": "1 hour",
-      "total_per_week": "12-15 hours"
-    },
-    "support_provided": {
-      "live_sessions": "Weekly Q&A with AI experts",
-      "mentorship": "1-on-1 guidance from AI professionals",
-      "peer_groups": "Study groups of 4-5 students",
-      "code_review": "Expert feedback on projects",
-      "gpu_access": "Free cloud GPU credits for training",
-      "research_guidance": "Help with research projects",
-      "career_guidance": "Resume and interview preparation, plus portfolio and profile review."
+      "live_classes": "2 live one-hour classes per week, coding along with the instructor",
+      "homework": "Homework after every class, and a mixed-review assignment at the end of every month so earlier skills stay sharp",
+      "practice": "3-4 hours of model-building practice between classes",
+      "review": "Every submission reviewed with written feedback; recurring gaps reopened in class"
     },
     "certification": {
-      "phase_certificates": "Certificate after each phase",
-      "specialization_badges": "Badges for CV, NLP, RL, etc.",
-      "final_certificate": "AI/ML Expert Certification",
-      "linkedin_credentials": "Verifiable LinkedIn certificates",
-      "project_showcase": "Public portfolio of 40+ projects",
-      "recommendation_letters": "From instructors for top performers"
+      "completion": "Certificate from Modern Age Coders, awarded on passing the final exam. Fall short and there is focused revision and a free retest: the certificate certifies knowledge, not attendance"
+    },
+    "support_provided": {
+      "doubt_support": "WhatsApp doubt support between classes, for the model that refuses to converge",
+      "progress_updates": "Regular progress notes to parents: what was built, what comes next, and where encouragement helps"
     }
   },
   "prerequisites": {
-    "education": "Basic math (algebra level)",
-    "coding_experience": "None required - beginners welcome",
-    "equipment": "Computer with internet (GPU helpful but not required)",
-    "time_commitment": "12-15 hours per week",
-    "age": "13-19 years (teen-focused content)",
-    "motivation": "Curiosity about AI and future technology"
+    "coding_experience": "None. Python is taught from the first line",
+    "maths_background": "School algebra is enough to start; every further piece of maths is taught exactly when a model needs it",
+    "equipment": "A normal laptop with a stable internet connection; free cloud notebooks carry the heavy training",
+    "age": "13 to 18. Batches are grouped by age and pace",
+    "time_commitment": "2 live classes plus 3-4 hours of practice a week"
   },
   "who_is_this_for": {
-    "tech_enthusiasts": "Teens fascinated by AI and technology",
-    "future_researchers": "Students interested in AI research",
-    "creative_minds": "Those wanting to create with AI",
-    "problem_solvers": "Teens who love solving complex problems",
-    "entrepreneurs": "Young people with startup dreams",
-    "gamers": "Interested in game AI and development",
-    "social_impact": "Those wanting to use AI for good"
+    "ai_curious": "Teens who use AI daily and have started asking the right question: how does this actually work?",
+    "builders": "Students who want trained models of their own, not just clever prompts",
+    "future_engineers": "Teens aiming at computer science and AI tracks who want the real foundation early",
+    "maths_appliers": "Students who like maths more when it does something, this is where it does the most",
+    "complete_beginners": "No coding background required: the course starts at the very first line of Python"
   },
   "career_paths_after_completion": [
-    "AI/ML Engineer (entry-level after college)",
-    "Data Scientist",
-    "Computer Vision Engineer",
-    "NLP Engineer",
-    "AI Researcher (with further education)",
-    "AI Product Manager",
-    "Robotics Engineer",
-    "AI Startup Founder",
-    "AI Ethics Consultant",
-    "AI Content Creator/Educator"
+    "Our college AI/ML masterclass: the same road at full depth, entered years ahead",
+    "Codex and Claude Code for Teens: building with AI coding agents on top of real understanding",
+    "Data science directions: the pandas and evaluation habits transfer directly",
+    "University AI tracks: this is precisely the foundation they assume",
+    "School science fairs and competitions, entered with genuinely trained models"
   ],
   "course_guarantees": {
     "live_classes": "Live, interactive classes with a real instructor, never pre-recorded videos.",
     "small_batches": "Small batches only: group classes are capped at 10 students, with mini-batch (3 to 4 students) and personal 1-on-1 options.",
-    "structured_curriculum": "A structured, well-paced curriculum taught step by step, with hands-on practice in every session.",
+    "structured_curriculum": "A structured, well-paced curriculum taught step by step, with classwork in every session and homework after every class.",
+    "real_assessment": "Mixed-review assignments after every month and a final exam that decides the certificate: real models, really evaluated.",
     "doubt_support": "Doubt support between classes over WhatsApp, so you are never left stuck.",
-    "certificate": "A course-completion certificate you can share.",
+    "certificate": "A certificate you earn by passing the final exam, with a free retest after revision if needed.",
     "free_demo": "A free demo class before you enrol, so you can decide with no pressure."
   },
   "faqs": [
     {
       "question": "What AI projects will my teen actually build?",
-      "answer": "Across the year students build 40+ projects: chatbots, image recognition systems, recommendation engines, game-playing AIs, and generative AI experiments, ending with a production-style capstone. The course explains the ideas behind familiar technology, such as how streaming services recommend titles or how image filters work, then has students build their own versions."
+      "answer": "Twenty-plus real builds across ten months: honest data analyses and a first evaluated classifier in phase 1, a hand-built neural network and properly trained deep models in phase 2, an image classifier trained on a dataset they collect themselves and an NLP project on real text in phase 3, and in phase 4 a generative AI application with guardrails plus the final capstone, a complete AI project shipped as a usable demo with a model card, defended at demo day."
     },
     {
-      "question": "How much maths and coding does my teen need beforehand?",
-      "answer": "Only basic algebra and no coding at all; month 1 teaches the Python needed for AI from scratch. The necessary mathematics is introduced visually and gradually alongside the projects rather than as a wall of theory upfront."
+      "question": "How long does it take a teenager to learn AI and machine learning?",
+      "answer": "To genuinely training and evaluating models: 10 months at 2 live classes a week plus 3 to 4 hours of practice, starting from zero coding. The course keeps 2 months of margin in hand for students who need more repetition, up to 12 months with no penalty. The first trained model happens in month 3; the understanding compounds from there."
     },
     {
-      "question": "What age is this AI course meant for?",
-      "answer": "It is written for teenagers aged 13 to 19, with examples and projects picked for teenage interests. We teach coding and maths to students from ages 6 to 65, and this course sits squarely in the serious-teen zone: ambitious but genuinely beginner-friendly."
+      "question": "How is my teen assessed? Is the certificate just for attending?",
+      "answer": "No. Homework follows every class, each month ends with an assignment that deliberately mixes new material with earlier topics, every phase closes with an exam, and the course ends with a final exam: a practical model-building task plus written questions from the whole syllabus. Passing earns the certificate; falling short earns focused revision and a free retest. In a field this hyped, honest assessment is the product."
+    },
+    {
+      "question": "How much maths does my teen need beforehand?",
+      "answer": "School algebra is enough to start. The genuinely needed maths, vectors, a working feel for gradients, probability basics, is taught exactly when a model requires it, in code and pictures before symbols. Teens consistently find the maths easier here than at school, because it finally does something visible."
     },
     {
       "question": "Do we need an expensive computer or paid software?",
-      "answer": "No. The course runs on free tools: Python, Jupyter notebooks, Google Colab, TensorFlow, and PyTorch, and Colab provides free access to cloud GPUs for training models. An ordinary computer with a stable internet connection is sufficient."
+      "answer": "No. A normal laptop is enough: heavy training runs on free cloud notebooks with free GPU time, and the entire toolchain, Python, scikit-learn, PyTorch and the notebooks themselves, is free. Where a generative AI service needs an account, it is set up together with a parent."
+    },
+    {
+      "question": "Is this course about using AI tools like ChatGPT, or building AI?",
+      "answer": "Building, with using in its proper place. The heart of the course is training and evaluating real models. The generative layer is then learned from the inside, how LLMs and diffusion models actually work, and built upon through APIs and teen-legal tools. A teen who only prompts is a passenger; this course produces drivers. For a tools-first path we run a separate AI Tools course."
     },
     {
       "question": "What can my teen do after finishing?",
-      "answer": "They will understand AI deeply enough to keep building on their own: stronger models, research-style experiments, and portfolio projects for college applications. Students who want more foundation often pair this with our Python masterclass or the problem solving and DSA course."
+      "answer": "Enter our college-level AI/ML masterclass years ahead of schedule, take the Codex and Claude Code course to build with AI agents, carry the portfolio into school science fairs and university applications, or continue into data science. The frontier fields, reinforcement learning, robotics, ML infrastructure, are mapped honestly during the course as real next roads."
     },
     {
       "question": "What is the pricing for this AI course?",
-      "answer": "Group classes cost ₹1,499 per month (2 live classes a week, no more than 10 students per batch), mini batches of 3-4 students cost ₹2,999 per month, and personal 1-on-1 classes with 2 private sessions a week cost ₹4,999 per month. International students pay a price set for their own country, shown on this page in their local currency."
+      "answer": "Group classes are ₹1,499 per month, with 2 live classes a week in batches capped at 10 students. A mini batch of 3-4 students is ₹2,999 per month, and personal 1-on-1 classes are ₹4,999 per month. International students pay a price set for their own country, shown on this page in their local currency."
     },
     {
       "question": "How do we try a class before enrolling?",
-      "answer": "Book a free demo class at learn.modernagecoders.com/contact; there is no commitment, and parents are welcome to sit in. Families rate us 4.9 stars across 547+ Google reviews, and the demo is the fastest way to see why."
+      "answer": "Book a free demo class with no commitment at learn.modernagecoders.com/contact or message us on WhatsApp at +91 91233 66161. Your teen will train a tiny model inside the demo itself; that moment usually decides things."
     },
     {
       "question": "Are classes live with a teacher?",
-      "answer": "Yes, always: 1-hour live online classes with a real teacher, never pre-recorded video content. AI concepts stick when students can ask why something works mid-lesson, so classes stay small and interactive by design."
-    },
-    {
-      "question": "Do students receive a certificate?",
-      "answer": "Yes, the course ends with an AI/ML certification supported by a portfolio of 40+ working projects. When your teen can demonstrate a chatbot or an image recognizer they built themselves, the certificate becomes the footnote, not the headline."
+      "answer": "Always: live 1-hour sessions with a real instructor in small groups, never pre-recorded videos. Machine learning is full of silent failure modes, a leaked dataset, a misread metric, and live eyes on a student’s notebook is the only honest way to catch them early."
     }
   ]
 }
