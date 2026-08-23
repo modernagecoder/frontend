@@ -115,8 +115,7 @@ Status: [ ] pending · [~] in progress · [x] done+committed
 
 ### Tier 3: 18-month tier
 - [x] app-dev-teens.json (18mo -> 10-12mo) DONE 2026-08-23: 40wk one-stack path (JS/React/React Native+Expo+Firebase), Flutter taste + native-map weeks, store honesty for minors (parent-managed accounts), launched capstone; cut Kotlin/Swift/Flutter full months, growth-hacking/viral/monetization/AR/IoT padding
-- [ ] gcse-mathematics.json (18mo -> exam-cycle framing)
-- [ ] igcse-mathematics.json (18mo -> exam-cycle framing)
+- [x] gcse-mathematics.json + igcse-mathematics.json DONE 2026-08-23: both already high-quality exam-cycle files (paper-score progression = built-in assessment); minimal patch: joinable-any-month + real_assessment guarantee + dateModified
 - [x] a-level-maths.json DONE 2026-08-23: already 2026-quality (72wk-vs-36 was a counter artifact, 2wk blocks); minimal patch: joinable-any-month duration, real_assessment guarantee, dateModified. NOTE for remaining audits: kw count 8-9 phrases = new-era file, kw 13-16 single words = old-era file
 
 ### Tier 4: 12-month tier needing right-sizing (judge each)

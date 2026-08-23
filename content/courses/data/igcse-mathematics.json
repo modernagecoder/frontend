@@ -27,11 +27,12 @@
       "group": "₹1,499/month",
       "personal": "₹4,999/month"
     },
-    "duration": "18 months (72 weeks)",
+    "duration": "18 months (72 weeks), joinable any month",
     "level": "IGCSE students, years 9-11: Core, Extended and Additional Maths",
     "commitment": "2 live one-hour classes per week + weekly past-paper work",
     "certification": "Course completion certificate + documented paper-score progression",
-    "image_path": "igcse-maths.webp"
+    "image_path": "igcse-maths.webp",
+    "dateModified": "2026-08-23"
   },
   "program_overview": {
     "title": "IGCSE Mathematics Mastery",
@@ -625,7 +626,8 @@
     "structured_curriculum": "A structured, well-paced curriculum taught step by step, with hands-on practice in every session.",
     "doubt_support": "Doubt support between classes over WhatsApp, so you are never left stuck.",
     "certificate": "A course-completion certificate you can share.",
-    "free_demo": "A free demo class before you enrol, so you can decide with no pressure."
+    "free_demo": "A free demo class before you enrol, so you can decide with no pressure.",
+    "real_assessment": "A diagnostic on entry, weekly past-paper work, and a documented paper-score progression: real knowledge, really tested."
   },
   "relatedCourses": [
     "ib-mathematics-aa-ai-masterclass",
