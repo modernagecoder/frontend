@@ -2,69 +2,67 @@
   "meta": {
     "slug": "cpp-programming-masterclass-for-teens",
     "date": "2025-10-31",
-    "title": "C++ Course for Teens Online: Games & Competitive Coding",
-    "description": "Live online C++ course for teens: a 12-month journey from zero to advanced, building real games and mastering the competitive programming behind AAA titles.",
+    "dateModified": "2026-08-23",
+    "title": "C++ for Teens: Fundamentals, STL, DSA and Real Games",
+    "description": "C++ course for teens aged 13-18: fundamentals, pointers and memory, OOP, STL, data structures, SFML games and competitive programming basics in 10-12 months.",
     "keywords": [
-      "C++ for teens",
-      "game development",
-      "competitive programming",
-      "system programming",
-      "data structures",
-      "algorithms",
-      "graphics programming",
-      "game engines",
-      "robotics programming",
-      "teen coding",
-      "USACO preparation",
-      "college CS prep",
-      "game programming"
+      "c++ course for teens",
+      "cpp course for beginners",
+      "learn c++ online for students",
+      "c++ classes for teens india",
+      "c++ course for icse isc students",
+      "data structures in c++ course",
+      "competitive programming c++ basics",
+      "c++ game development course sfml",
+      "c++ course for high school students",
+      "stl course in c++",
+      "best c++ course for teens",
+      "c++ programming classes online"
     ],
-    "category": "Teen C++ Programming",
+    "category": "C++ Programming",
     "taxonomy": "programming",
     "price": {
       "group": "₹1,499/month",
       "miniBatch": "₹2,999/month",
       "personal": "₹4,999/month"
     },
-    "duration": "12 months (52 weeks)",
-    "level": "Complete Beginner to Advanced C++ Developer",
-    "commitment": "10-12 hours/week recommended",
-    "certification": "Professional C++ Developer Certification",
+    "duration": "10-12 months (40-48 weeks)",
+    "level": "Absolute beginner, ages 13 to 18",
+    "commitment": "2 live classes/week + 3-4 hours practice",
+    "certification": "Certificate from Modern Age Coders, awarded on passing the final exam",
     "image_path": "cpp-teens.webp"
   },
   "program_overview": {
-    "title": "Complete C++ Programming Masterclass for Teens",
-    "tagline": "From 'Hello World' to 'I Built My Own Game Engine'",
-    "description": "Ever wondered how Minecraft, Fortnite, or your favorite games are built? Want to compete in programming competitions and win? This is your path to mastering C++, the most powerful programming language used by game developers, system programmers, and competitive coders worldwide.\n\nDesigned specifically for teenagers, you'll learn C++ by building games, creating graphics applications, solving algorithmic challenges, and even programming robots. No boring theory - every concept is taught through projects you'll actually want to build. By the end, you'll have created your own games, competitive programming portfolio, and projects that get you into top colleges or land high-paying jobs.",
+    "title": "C++ for Teens",
+    "tagline": "The language that hides nothing: pointers, memory and speed understood for real, then turned into data structures, games and contest-ready code.",
+    "description": "C++ is the language serious computer science still speaks: competitive programming runs on it, game engines are built in it, and the concepts it refuses to hide, memory, pointers, performance, are exactly what make every later language feel easy. This live online course takes students aged 13 to 18 through it honestly: fundamentals learned patiently, then the famous hard parts, pointers, references and dynamic memory, taught with pictures and patience until they click, object-oriented C++, the STL used the way contests and codebases use it, data structures built by hand, a 2D games month with SFML, and a genuine introduction to competitive programming.\n\nC++ rewards patience more than any beginner language, and the pace respects that: ten months at two live classes a week plus three to four hours of practice, with two more months in hand. What the course refuses to do is tour everything: OpenGL, embedded boards and compiler internals are named honestly as later specializations, not squeezed in as fake weeks.\n\nHomework after every class, monthly mixed reviews, phase exams, and a final exam that decides the certificate with a free retest. Real memory, real speed, depth over dopamine.",
     "what_makes_this_different": [
-      "Teen-focused: Build games, graphics apps, and projects teens love",
-      "Zero to hero: No programming experience needed",
-      "Game development focus: Learn C++ by building actual games",
-      "Competitive programming: Prepare for USACO, Codeforces, and more",
-      "Visual learning: See your code create graphics and animations",
-      "Real applications: Build tools, games, and system utilities",
-      "College prep: Projects that impress admissions committees",
-      "Industry skills: Learn what game studios actually use"
+      "The hard parts taught properly: pointers and memory get patient weeks with pictures, not one rushed lecture",
+      "STL fluency as a goal: vectors, maps and algorithms used the way contests and real codebases use them",
+      "Data structures built by hand in the language they were invented for",
+      "A real games month: SFML turns C++ skill into something friends can play",
+      "Competitive programming opened honestly, with our DSA course named as the deep road",
+      "Real assessment: weekly homework, monthly mixed reviews, and a final exam that decides the certificate, with a free retest"
     ],
     "learning_path": {
-      "phase_1": "Foundation (Months 1-3): C++ basics, problem solving, first games",
-      "phase_2": "Intermediate (Months 4-6): OOP, data structures, algorithms",
-      "phase_3": "Advanced (Months 7-9): Graphics, game development, systems",
-      "phase_4": "Mastery (Months 10-12): Competitive programming, projects, specialization"
+      "phase_1": "Fundamentals (Months 1-3): syntax to functions, arrays and strings, learned patiently",
+      "phase_2": "The hard beautiful parts (Months 4-6): pointers, memory, OOP, file IO and first STL",
+      "phase_3": "Data structures in C++ (Months 7-8): linear structures, trees, sorting and STL depth",
+      "phase_4": "Games, contests and the capstone (Months 9-10): SFML, competitive programming foundations, modern C++, and the final exam"
     },
     "career_outcomes": [
-      "Junior Game Developer (after 6 months)",
-      "Competitive Programmer (after 9 months)",
-      "C++ Developer (after 12 months)",
-      "Ready for top CS programs and internships"
+      "C++ fluency including the memory model most self-taught learners never conquer",
+      "Hand-built data structures and STL judgment, the exact base our DSA course deepens",
+      "A finished SFML game and a contest-ready toolkit",
+      "A serious head start for ICSE/ISC computer science and engineering entrances"
     ]
   },
-  "phase_1_foundation": {
-    "title": "PHASE 1: C++ Fundamentals & First Programs (Months 1-3, Weeks 1-13)",
-    "description": "Start from absolute zero and write your first C++ programs. Build games, solve puzzles, and understand how computers really work.",
-    "month_1_2": {
-      "title": "Month 1: C++ Basics & Setup",
-      "weeks": "Week 1-4",
+  "phase_1_fundamentals": {
+    "title": "PHASE 1: Fundamentals (Months 1-3, Weeks 1-12)",
+    "description": "The language learned patiently: syntax, control flow, loops, functions, arrays and strings, each week ending with working programs.",
+    "month_1_first_cpp": {
+      "title": "Month 1: First C++",
+      "weeks": "Weeks 1-4",
       "week_1_2": {
         "title": "Introduction to C++ & Programming",
         "topics": [
@@ -111,8 +109,13 @@
           "Random dice roller for D&D",
           "Simple RPG stat calculator"
         ],
-        "practice": "Solve 30 problems on variables and operators"
-      },
+        "practice": "Solve 30 problems on variables and operators",
+        "assessment": "Month 1 check: a small program built live, plus a take-home mixing everything so far"
+      }
+    },
+    "month_2_flow": {
+      "title": "Month 2: Control and Repetition",
+      "weeks": "Weeks 5-8",
       "week_5_6": {
         "title": "Control Flow & Decision Making",
         "topics": [
@@ -159,12 +162,13 @@
           "Multiplication table generator",
           "Simple animation loop"
         ],
-        "practice": "Complete 40 loop-based challenges"
+        "practice": "Complete 40 loop-based challenges",
+        "assessment": "Month 2 check: a loops-and-logic challenge live, plus mixed review"
       }
     },
-    "month_3_4": {
-      "title": "Month 2: Functions & Arrays",
-      "weeks": "Week 5-8",
+    "month_3_functions_arrays": {
+      "title": "Month 3: Functions, Arrays and Strings",
+      "weeks": "Weeks 9-12",
       "week_9_10": {
         "title": "Functions - Code Reusability",
         "topics": [
@@ -211,8 +215,17 @@
           "Word game (Wordle clone)",
           "2D maze game"
         ],
-        "practice": "Solve 25 array manipulation problems"
-      },
+        "practice": "Solve 25 array manipulation problems",
+        "assessment": "Phase 1 exam: a complete console program built live, plus a written mixed paper"
+      }
+    }
+  },
+  "phase_2_hard_parts": {
+    "title": "PHASE 2: The Hard Beautiful Parts (Months 4-6, Weeks 13-24)",
+    "description": "What makes C++ C++: pointers and references with pictures, dynamic memory without fear, object-oriented design, files, and the first taste of the STL.",
+    "month_4_pointers_memory": {
+      "title": "Month 4: Pointers and Memory",
+      "weeks": "Weeks 13-16",
       "week_13_14": {
         "title": "Pointers & References",
         "topics": [
@@ -259,10 +272,15 @@
           "Memory pool allocator",
           "Dynamic game world"
         ],
-        "practice": "Build 10 programs with dynamic memory"
-      },
-      "week_17": {
-        "title": "Month 3: Object-Oriented Basics",
+        "practice": "Build 10 programs with dynamic memory",
+        "assessment": "Month 4 check: a pointer-diagram exercise live, memory drawn before code, plus mixed review"
+      }
+    },
+    "month_5_oop": {
+      "title": "Month 5: Objects and Inheritance",
+      "weeks": "Weeks 17-20",
+      "week_17_18": {
+        "title": "Object-Oriented Basics: Classes and Objects",
         "topics": [
           "Introduction to OOP",
           "Classes and objects",
@@ -284,134 +302,8 @@
           "Simple physics engine"
         ],
         "practice": "Design 10 different classes"
-      }
-    },
-    "month_5_6": {
-      "title": "Month 3: Structures & File I/O",
-      "weeks": "Week 9-13",
-      "week_18_19": {
-        "title": "Structures & Enums",
-        "topics": [
-          "Structures: Grouping related data",
-          "Struct declaration and initialization",
-          "Accessing struct members",
-          "Nested structures",
-          "Arrays of structures",
-          "Structures and functions",
-          "Structures vs classes",
-          "Enumerations for named constants",
-          "Enum classes (scoped enums)",
-          "Typedef and using aliases",
-          "Unions for memory efficiency",
-          "Bit fields for flags"
-        ],
-        "projects": [
-          "Game entity structure system",
-          "Student database with structs",
-          "RPG item system",
-          "Configuration manager"
-        ],
-        "practice": "Create 15 programs using structures"
       },
-      "week_20_21": {
-        "title": "File Input/Output",
-        "topics": [
-          "File streams: ifstream, ofstream, fstream",
-          "Opening and closing files",
-          "Reading from text files",
-          "Writing to text files",
-          "File error handling",
-          "Binary file I/O",
-          "File positioning and seeking",
-          "CSV file processing",
-          "JSON parsing basics",
-          "Save game systems",
-          "Configuration files",
-          "Log file creation"
-        ],
-        "projects": [
-          "Save/load game system",
-          "High score tracker",
-          "Text file analyzer",
-          "Simple database file system"
-        ],
-        "practice": "Build 10 file processing utilities"
-      },
-      "week_22_23": {
-        "title": "Error Handling & Debugging",
-        "topics": [
-          "Types of errors: Compile, runtime, logic",
-          "Exception handling: try, catch, throw",
-          "Standard exceptions",
-          "Custom exception classes",
-          "Exception safety guarantees",
-          "Assert statements",
-          "Error codes vs exceptions",
-          "Debugging with GDB/LLDB",
-          "Visual Studio debugger",
-          "Breakpoints and watchpoints",
-          "Stack traces and core dumps",
-          "Logging and diagnostics"
-        ],
-        "projects": [
-          "Robust calculator with error handling",
-          "File parser with exceptions",
-          "Game with error recovery",
-          "Debug tool suite"
-        ],
-        "practice": "Debug 20 buggy programs"
-      },
-      "week_24_25": {
-        "title": "STL Basics - Standard Template Library",
-        "topics": [
-          "Introduction to STL",
-          "Vectors: Dynamic arrays made easy",
-          "Vector operations and methods",
-          "Strings: Modern C++ strings",
-          "String manipulation methods",
-          "Iterators basics",
-          "Range-based for loops",
-          "Algorithm library preview",
-          "Sort and search algorithms",
-          "STL vs raw arrays",
-          "When to use STL",
-          "Performance considerations"
-        ],
-        "projects": [
-          "Contact manager with vectors",
-          "Text processor with strings",
-          "Sorting visualizer",
-          "Word frequency analyzer"
-        ],
-        "practice": "Convert array programs to use STL"
-      },
-      "week_26": {
-        "title": "Phase 1 Capstone Project",
-        "topics": [
-          "Project planning and design",
-          "Code organization",
-          "Documentation",
-          "Testing strategies",
-          "Version control with Git",
-          "Code review preparation"
-        ],
-        "projects": [
-          "CAPSTONE: Console RPG Game",
-          "Features: Characters, inventory, combat, save/load, multiple levels",
-          "Alternative: Student management system",
-          "Alternative: Text-based strategy game"
-        ],
-        "assessment": "Phase 1 Final - Build complete C++ application"
-      }
-    }
-  },
-  "phase_2_frontend_mastery": {
-    "title": "PHASE 2: Object-Oriented Programming & Data Structures (Months 4-6, Weeks 14-26)",
-    "description": "Master OOP concepts and build complex data structures. Create game engines and advanced applications.",
-    "month_7_8": {
-      "title": "Months 4-5: Advanced OOP",
-      "weeks": "Week 14-21",
-      "week_27_28": {
+      "week_19_20": {
         "title": "Inheritance & Polymorphism",
         "topics": [
           "Inheritance: Creating class hierarchies",
@@ -433,109 +325,72 @@
           "Vehicle simulation",
           "RPG character classes"
         ],
-        "practice": "Build 10 inheritance hierarchies"
-      },
-      "week_29_30": {
-        "title": "Advanced Class Features",
-        "topics": [
-          "Copy constructor deep dive",
-          "Assignment operator overloading",
-          "Rule of Three/Five/Zero",
-          "Move semantics and rvalue references",
-          "Move constructor and assignment",
-          "Perfect forwarding",
-          "Operator overloading complete guide",
-          "Friend functions and operators",
-          "Conversion operators",
-          "Functors (function objects)",
-          "Nested classes",
-          "Anonymous classes"
-        ],
-        "projects": [
-          "Custom string class",
-          "Matrix math library",
-          "Smart pointer implementation",
-          "Complex number class"
-        ],
-        "practice": "Implement 15 custom operators"
-      },
-      "week_31_32": {
-        "title": "Templates & Generic Programming",
-        "topics": [
-          "Function templates: Generic functions",
-          "Class templates: Generic classes",
-          "Template parameters",
-          "Template specialization",
-          "Partial specialization",
-          "Variadic templates basics",
-          "Template metaprogramming intro",
-          "SFINAE principle",
-          "Type traits",
-          "Concepts (C++20)",
-          "STL container implementation",
-          "Template best practices"
-        ],
-        "projects": [
-          "Generic container classes",
-          "Template math library",
-          "Type-safe event system",
-          "Generic game components"
-        ],
-        "practice": "Create 10 template-based utilities"
-      },
-      "week_33_34": {
-        "title": "Design Patterns",
-        "topics": [
-          "What are design patterns?",
-          "Singleton pattern: One instance only",
-          "Factory pattern: Object creation",
-          "Observer pattern: Event systems",
-          "Strategy pattern: Swappable algorithms",
-          "Command pattern: Undo/redo",
-          "State pattern: Game states",
-          "Component pattern: Game objects",
-          "Prototype pattern: Cloning",
-          "Adapter pattern: Interface compatibility",
-          "MVC pattern basics",
-          "Anti-patterns to avoid"
-        ],
-        "projects": [
-          "Game state manager",
-          "Event system implementation",
-          "Command pattern editor",
-          "Plugin system"
-        ],
-        "practice": "Implement all major patterns"
-      },
-      "week_35": {
-        "title": "Smart Pointers & Modern C++",
-        "topics": [
-          "Problems with raw pointers",
-          "unique_ptr: Exclusive ownership",
-          "shared_ptr: Shared ownership",
-          "weak_ptr: Breaking cycles",
-          "make_unique and make_shared",
-          "Custom deleters",
-          "RAII in practice",
-          "Auto keyword and type inference",
-          "Range-based loops",
-          "Lambda expressions",
-          "std::function and std::bind",
-          "Modern C++ best practices"
-        ],
-        "projects": [
-          "Memory-safe game engine",
-          "Resource manager with smart pointers",
-          "Callback system with lambdas",
-          "Modern C++ game framework"
-        ],
-        "practice": "Refactor old code with modern C++"
+        "practice": "Build 10 inheritance hierarchies",
+        "assessment": "Month 5 check: design a small class hierarchy live and defend it, plus mixed review"
       }
     },
-    "month_9_10": {
-      "title": "Month 6: Data Structures",
-      "weeks": "Week 22-26",
-      "week_36_37": {
+    "month_6_files_stl": {
+      "title": "Month 6: Files, Errors and First STL",
+      "weeks": "Weeks 21-24",
+      "week_21_22": {
+        "title": "File Input/Output",
+        "topics": [
+          "File streams: ifstream, ofstream, fstream",
+          "Opening and closing files",
+          "Reading from text files",
+          "Writing to text files",
+          "File error handling",
+          "Binary file I/O",
+          "File positioning and seeking",
+          "CSV file processing",
+          "JSON parsing basics",
+          "Save game systems",
+          "Configuration files",
+          "Log file creation",
+          "Error handling habits: from crash to graceful failure"
+        ],
+        "projects": [
+          "Save/load game system",
+          "High score tracker",
+          "Text file analyzer",
+          "Simple database file system"
+        ],
+        "practice": "Build 10 file processing utilities"
+      },
+      "week_23_24": {
+        "title": "STL Basics - Standard Template Library",
+        "topics": [
+          "Introduction to STL",
+          "Vectors: Dynamic arrays made easy",
+          "Vector operations and methods",
+          "Strings: Modern C++ strings",
+          "String manipulation methods",
+          "Iterators basics",
+          "Range-based for loops",
+          "Algorithm library preview",
+          "Sort and search algorithms",
+          "STL vs raw arrays",
+          "When to use STL",
+          "Performance considerations"
+        ],
+        "projects": [
+          "Contact manager with vectors",
+          "Text processor with strings",
+          "Sorting visualizer",
+          "Word frequency analyzer"
+        ],
+        "practice": "Convert array programs to use STL",
+        "assessment": "Phase 2 exam: an OOP + STL program defended live, plus a cumulative written paper"
+      }
+    }
+  },
+  "phase_3_dsa": {
+    "title": "PHASE 3: Data Structures in C++ (Months 7-8, Weeks 25-32)",
+    "description": "The serious core, built by hand in the language it was invented for: linear structures, trees and graphs, sorting, and STL depth.",
+    "month_7_structures": {
+      "title": "Month 7: Structures by Hand",
+      "weeks": "Weeks 25-28",
+      "week_25_26": {
         "title": "Linear Data Structures",
         "topics": [
           "Linked lists: Single, double, circular",
@@ -559,7 +414,7 @@
         ],
         "practice": "Implement all data structures from scratch"
       },
-      "week_38_39": {
+      "week_27_28": {
         "title": "Trees & Graphs",
         "topics": [
           "Binary trees: Structure and properties",
@@ -581,33 +436,14 @@
           "Game AI decision tree",
           "Pathfinding visualizer"
         ],
-        "practice": "Solve 20 tree/graph problems"
-      },
-      "week_40_41": {
-        "title": "Hash Tables & Sets",
-        "topics": [
-          "Hash tables: Fast lookups",
-          "Hash functions design",
-          "Collision resolution: Chaining vs open addressing",
-          "Load factors and resizing",
-          "Implementing hash map",
-          "Sets and multisets",
-          "Ordered vs unordered containers",
-          "STL: unordered_map, unordered_set",
-          "map and set (tree-based)",
-          "Custom hash functions",
-          "Applications in game development",
-          "Caching and memoization"
-        ],
-        "projects": [
-          "Custom hash table",
-          "Spell checker with hash set",
-          "Game object manager",
-          "Cache system implementation"
-        ],
-        "practice": "Build 10 hash table applications"
-      },
-      "week_42_43": {
+        "practice": "Solve 20 tree/graph problems",
+        "assessment": "Month 7 check: implement a structure live and trace it, plus mixed review"
+      }
+    },
+    "month_8_algorithms": {
+      "title": "Month 8: Algorithms and STL Depth",
+      "weeks": "Weeks 29-32",
+      "week_29_30": {
         "title": "Algorithms - Searching & Sorting",
         "topics": [
           "Linear search vs binary search",
@@ -621,7 +457,8 @@
           "STL sorting algorithms",
           "Custom comparators",
           "Sorting visualization",
-          "Algorithm complexity analysis"
+          "Algorithm complexity analysis",
+          "Hash maps and sets: the contest workhorses"
         ],
         "projects": [
           "Sorting algorithm visualizer",
@@ -631,35 +468,7 @@
         ],
         "practice": "Implement all sorting algorithms"
       },
-      "week_44": {
-        "title": "Advanced Algorithms",
-        "topics": [
-          "Recursion mastery",
-          "Backtracking algorithms",
-          "Dynamic programming basics",
-          "Greedy algorithms",
-          "Divide and conquer",
-          "Graph algorithms: Dijkstra, A*",
-          "String algorithms basics",
-          "Pattern matching",
-          "Bit manipulation tricks",
-          "Algorithm optimization",
-          "Competitive programming intro",
-          "Problem-solving strategies"
-        ],
-        "projects": [
-          "Sudoku solver (backtracking)",
-          "Pathfinding for games (A*)",
-          "Text search tool",
-          "Optimization problems solver"
-        ],
-        "practice": "Solve 30 algorithmic challenges"
-      }
-    },
-    "month_11_12": {
-      "title": "Phase 2 Capstone & STL Mastery",
-      "weeks": "Week 25-26",
-      "week_45_46": {
+      "week_31_32": {
         "title": "STL Containers Deep Dive",
         "topics": [
           "Vector internals and performance",
@@ -681,107 +490,18 @@
           "Game inventory with STL",
           "Database with STL"
         ],
-        "practice": "Master all STL containers"
-      },
-      "week_47_48": {
-        "title": "STL Algorithms & Functional",
-        "topics": [
-          "Algorithm library overview",
-          "Non-modifying algorithms",
-          "Modifying algorithms",
-          "Sorting and searching",
-          "Numeric algorithms",
-          "Lambda expressions mastery",
-          "Function objects and adaptors",
-          "std::function and std::bind",
-          "Functional programming in C++",
-          "Ranges (C++20)",
-          "Parallel algorithms",
-          "Custom algorithms"
-        ],
-        "projects": [
-          "Data processing pipeline",
-          "Functional game systems",
-          "Algorithm visualizer",
-          "Performance testing suite"
-        ],
-        "practice": "Use 50 different STL algorithms"
-      },
-      "week_49_50": {
-        "title": "Multithreading Basics",
-        "topics": [
-          "Why multithreading matters",
-          "Creating threads with std::thread",
-          "Joining and detaching threads",
-          "Passing arguments to threads",
-          "Thread synchronization problems",
-          "Mutexes and locks",
-          "Condition variables",
-          "Atomic operations",
-          "Thread-safe data structures",
-          "Producer-consumer pattern",
-          "Thread pools basics",
-          "Multithreading in games"
-        ],
-        "projects": [
-          "Multithreaded downloader",
-          "Parallel sorting",
-          "Thread-safe queue",
-          "Game with worker threads"
-        ],
-        "practice": "Write 10 multithreaded programs"
-      },
-      "week_51": {
-        "title": "Memory Management Mastery",
-        "topics": [
-          "Stack vs heap deep dive",
-          "Memory layout of programs",
-          "Custom memory allocators",
-          "Pool allocators",
-          "Stack allocators",
-          "Memory debugging tools",
-          "Profiling memory usage",
-          "Cache optimization",
-          "Data-oriented design",
-          "Memory-mapped files",
-          "Shared memory",
-          "Memory in game engines"
-        ],
-        "projects": [
-          "Custom memory manager",
-          "Memory pool for games",
-          "Memory profiler",
-          "Cache-friendly data structures"
-        ],
-        "practice": "Optimize memory in all projects"
-      },
-      "week_52": {
-        "title": "Phase 2 Capstone Project",
-        "topics": [
-          "Large project planning",
-          "Architecture design",
-          "Code organization",
-          "Documentation",
-          "Testing strategies",
-          "Performance optimization"
-        ],
-        "projects": [
-          "MAJOR CAPSTONE: 2D Game Engine",
-          "Features: Sprites, physics, collision, sound, levels, UI",
-          "Alternative: Data structure visualization tool",
-          "Alternative: Competitive programming judge system"
-        ],
-        "assessment": "Phase 2 Final - Complex C++ application"
+        "practice": "Master all STL containers",
+        "assessment": "Phase 3 exam: solve a timed problem set with the right structures, plus a cumulative paper"
       }
     }
   },
-  "phase_3_backend_engineering": {
-    "title": "PHASE 3: Graphics, Games & System Programming (Months 7-9, Weeks 27-39)",
-    "description": "Dive into graphics programming, game development, and system-level programming.",
-    "month_13_14": {
-      "title": "Months 7-8: Graphics Programming",
-      "weeks": "Week 27-34",
-      "week_53_54": {
+  "phase_4_games_contests": {
+    "title": "PHASE 4: Games, Contests and the Capstone (Months 9-10, Weeks 33-40)",
+    "description": "C++ made visible and competitive: a real SFML game, contest foundations, modern C++ habits, and the capstone exam.",
+    "month_9_games_cp": {
+      "title": "Month 9: SFML and First Contests",
+      "weeks": "Weeks 33-36",
+      "week_33_34": {
         "title": "2D Graphics with SFML",
         "topics": [
           "Introduction to SFML",
@@ -805,349 +525,7 @@
         ],
         "practice": "Create 10 mini-games with SFML"
       },
-      "week_55_56": {
-        "title": "Advanced 2D Graphics",
-        "topics": [
-          "Sprite animation",
-          "Sprite sheets and atlases",
-          "Tile maps and level design",
-          "Collision detection: AABB, circles",
-          "Physics basics: Velocity, acceleration",
-          "Particle effects",
-          "Shaders introduction",
-          "Post-processing effects",
-          "UI systems for games",
-          "Scene management",
-          "Resource management",
-          "Game state machines"
-        ],
-        "projects": [
-          "Platform game with physics",
-          "Tower defense game",
-          "RPG with tile maps",
-          "Particle effects editor"
-        ],
-        "practice": "Build complete 2D game"
-      },
-      "week_57_58": {
-        "title": "OpenGL Basics",
-        "topics": [
-          "3D graphics fundamentals",
-          "OpenGL and GLFW setup",
-          "OpenGL rendering pipeline",
-          "Vertices and triangles",
-          "Vertex buffers and arrays",
-          "Shaders: Vertex and fragment",
-          "GLSL basics",
-          "Matrices and transformations",
-          "3D coordinate systems",
-          "Camera and projection",
-          "Texturing 3D objects",
-          "Lighting basics"
-        ],
-        "projects": [
-          "3D rotating cube",
-          "Solar system simulation",
-          "3D maze game",
-          "Model viewer"
-        ],
-        "practice": "Create 10 OpenGL demos"
-      },
-      "week_59_60": {
-        "title": "Game Physics",
-        "topics": [
-          "Physics in games",
-          "Vectors and math for physics",
-          "Rigid body dynamics",
-          "Collision detection algorithms",
-          "Collision response",
-          "Gravity and forces",
-          "Springs and constraints",
-          "Particle physics",
-          "Integrating physics engines",
-          "Box2D for 2D physics",
-          "Bullet Physics basics",
-          "Optimization techniques"
-        ],
-        "projects": [
-          "Physics sandbox",
-          "Angry Birds clone",
-          "Racing game physics",
-          "Ragdoll simulation"
-        ],
-        "practice": "Implement physics in 5 games"
-      },
-      "week_61": {
-        "title": "Audio Programming",
-        "topics": [
-          "Digital audio basics",
-          "Audio file formats",
-          "Playing sounds with SFML",
-          "3D spatial audio",
-          "Audio mixing and effects",
-          "Real-time audio synthesis",
-          "MIDI basics",
-          "OpenAL introduction",
-          "Audio in game engines",
-          "Music synchronization",
-          "Audio optimization",
-          "Creating sound effects"
-        ],
-        "projects": [
-          "Music visualizer",
-          "Rhythm game prototype",
-          "3D audio demo",
-          "Sound effect generator"
-        ],
-        "practice": "Add audio to all games"
-      }
-    },
-    "month_15_16": {
-      "title": "Month 9: System Programming",
-      "weeks": "Week 35-39",
-      "week_62_63": {
-        "title": "Operating System Interfaces",
-        "topics": [
-          "System calls and OS APIs",
-          "Process creation and management",
-          "Inter-process communication",
-          "Pipes and message queues",
-          "Shared memory",
-          "Signals and handlers",
-          "File system operations",
-          "Directory traversal",
-          "File permissions",
-          "Memory-mapped I/O",
-          "System information",
-          "Performance monitoring"
-        ],
-        "projects": [
-          "Task manager clone",
-          "File explorer",
-          "System monitor",
-          "Process communication demo"
-        ],
-        "practice": "Build 10 system utilities"
-      },
-      "week_64_65": {
-        "title": "Network Programming",
-        "topics": [
-          "Network fundamentals",
-          "TCP/IP basics",
-          "Sockets programming",
-          "Client-server architecture",
-          "TCP server and client",
-          "UDP communication",
-          "Non-blocking I/O",
-          "Select and poll",
-          "HTTP protocol basics",
-          "Building web servers",
-          "Multiplayer game networking",
-          "Network security basics"
-        ],
-        "projects": [
-          "Chat application",
-          "File transfer program",
-          "Multiplayer game server",
-          "HTTP server"
-        ],
-        "practice": "Create 5 networked applications"
-      },
-      "week_66_67": {
-        "title": "Database Programming",
-        "topics": [
-          "Database basics",
-          "SQL fundamentals",
-          "SQLite integration",
-          "C++ database APIs",
-          "Prepared statements",
-          "Transaction management",
-          "Database design for games",
-          "Save game systems",
-          "Leaderboard databases",
-          "Configuration storage",
-          "Data serialization",
-          "JSON and XML parsing"
-        ],
-        "projects": [
-          "Game save system",
-          "High score database",
-          "Player stats tracker",
-          "Inventory database"
-        ],
-        "practice": "Add databases to games"
-      },
-      "week_68_69": {
-        "title": "Embedded & Arduino",
-        "topics": [
-          "Embedded systems basics",
-          "Arduino and C++",
-          "Digital I/O",
-          "Analog input",
-          "PWM and servos",
-          "Sensors and actuators",
-          "Serial communication",
-          "I2C and SPI",
-          "Interrupts and timers",
-          "Power management",
-          "Real-time constraints",
-          "IoT basics"
-        ],
-        "projects": [
-          "LED game controller",
-          "Temperature monitor",
-          "Robot car",
-          "Game console with Arduino"
-        ],
-        "practice": "Build 5 Arduino projects"
-      },
-      "week_70": {
-        "title": "Phase 3 Integration",
-        "topics": [
-          "Combining graphics and networking",
-          "Client-server game architecture",
-          "Game engine architecture",
-          "Plugin systems",
-          "Scripting integration",
-          "Performance profiling",
-          "Release builds",
-          "Distribution and packaging"
-        ],
-        "projects": [
-          "Multiplayer graphics game",
-          "Game with all features",
-          "System integration project",
-          "Performance optimization"
-        ],
-        "practice": "Integrate all learned concepts"
-      }
-    },
-    "month_17_18": {
-      "title": "Phase 3 Capstone & Specialization",
-      "weeks": "Week 38-39",
-      "week_71_72": {
-        "title": "Game Engine Architecture",
-        "topics": [
-          "Game engine components",
-          "Entity-component systems",
-          "Scene graphs",
-          "Resource managers",
-          "Input systems",
-          "Physics integration",
-          "Rendering systems",
-          "Audio systems",
-          "Scripting languages",
-          "Level editors",
-          "Asset pipelines",
-          "Engine optimization"
-        ],
-        "projects": [
-          "Mini game engine",
-          "Component system",
-          "Level editor",
-          "Asset manager"
-        ],
-        "practice": "Build game engine components"
-      },
-      "week_73_74": {
-        "title": "AI for Games",
-        "topics": [
-          "Game AI fundamentals",
-          "Finite state machines",
-          "Behavior trees",
-          "Pathfinding: A* algorithm",
-          "Navigation meshes",
-          "Steering behaviors",
-          "Decision making",
-          "Minimax for board games",
-          "Neural networks basics",
-          "Genetic algorithms",
-          "Procedural generation",
-          "AI debugging"
-        ],
-        "projects": [
-          "Chess AI",
-          "FPS enemy AI",
-          "Racing game AI",
-          "Procedural level generator"
-        ],
-        "practice": "Implement AI in 5 games"
-      },
-      "week_75_76": {
-        "title": "Optimization & Performance",
-        "topics": [
-          "Profiling tools",
-          "CPU optimization",
-          "Memory optimization",
-          "Cache optimization",
-          "SIMD instructions",
-          "Multithreading for games",
-          "GPU optimization",
-          "Asset optimization",
-          "Load time optimization",
-          "Mobile optimization",
-          "Console optimization",
-          "Benchmarking"
-        ],
-        "projects": [
-          "Performance profiler",
-          "Optimized renderer",
-          "Memory optimizer",
-          "Benchmark suite"
-        ],
-        "practice": "Optimize all projects"
-      },
-      "week_77": {
-        "title": "Modern C++ Features",
-        "topics": [
-          "C++17 features",
-          "C++20 features",
-          "Structured bindings",
-          "std::optional and std::variant",
-          "std::filesystem",
-          "Coroutines basics",
-          "Modules introduction",
-          "Concepts deep dive",
-          "Ranges library",
-          "Format library",
-          "Three-way comparison",
-          "Future C++ features"
-        ],
-        "projects": [
-          "Modern C++ game",
-          "Filesystem utilities",
-          "Coroutine examples",
-          "C++20 showcase"
-        ],
-        "practice": "Use modern C++ features"
-      },
-      "week_78": {
-        "title": "Phase 3 Capstone Project",
-        "topics": [
-          "Large game project planning",
-          "Technical design document",
-          "Art and asset planning",
-          "Milestone scheduling",
-          "Team collaboration",
-          "Version control with Git"
-        ],
-        "projects": [
-          "MAJOR CAPSTONE: Complete 3D Game",
-          "Features: 3D graphics, physics, AI, networking, audio",
-          "Alternative: Game engine from scratch",
-          "Alternative: Robotics project with Arduino"
-        ],
-        "assessment": "Phase 3 Final - Professional game or system"
-      }
-    }
-  },
-  "phase_4_advanced_production": {
-    "title": "PHASE 4: Competitive Programming & Career Launch (Months 10-12, Weeks 40-52)",
-    "description": "Master competitive programming, build portfolio projects, and prepare for careers or college.",
-    "month_19_20": {
-      "title": "Months 10-11: Competitive Programming",
-      "weeks": "Week 40-47",
-      "week_79_80": {
+      "week_35_36": {
         "title": "Competitive Programming Foundations",
         "topics": [
           "Introduction to competitive programming",
@@ -1161,7 +539,8 @@
           "Debugging strategies",
           "Contest strategies",
           "Speed coding techniques",
-          "Template preparation"
+          "Template preparation",
+          "Where our dedicated DSA course takes this road further"
         ],
         "projects": [
           "Personal template library",
@@ -1169,550 +548,158 @@
           "Solution archive",
           "Contest simulator"
         ],
-        "practice": "Solve 100 easy problems"
-      },
-      "week_81_82": {
-        "title": "Dynamic Programming",
-        "topics": [
-          "DP fundamentals",
-          "Memoization vs tabulation",
-          "1D DP problems",
-          "2D DP problems",
-          "State space reduction",
-          "Classic problems: Knapsack, LCS, LIS",
-          "Coin change and variants",
-          "Path counting problems",
-          "Interval DP",
-          "Tree DP",
-          "Digit DP",
-          "Optimization techniques"
-        ],
-        "projects": [
-          "DP problem solver",
-          "Visualization tool",
-          "Problem generator",
-          "Solution verifier"
-        ],
-        "practice": "Master 50 DP problems"
-      },
-      "week_83_84": {
-        "title": "Graph Algorithms Advanced",
-        "topics": [
-          "Graph representations",
-          "DFS and BFS applications",
-          "Shortest paths: Dijkstra, Bellman-Ford, Floyd-Warshall",
-          "Minimum spanning trees: Kruskal, Prim",
-          "Topological sorting",
-          "Strongly connected components",
-          "Bridges and articulation points",
-          "Bipartite matching",
-          "Network flow basics",
-          "Tree algorithms",
-          "LCA and tree queries",
-          "Graph coloring"
-        ],
-        "projects": [
-          "Graph algorithm visualizer",
-          "Pathfinding comparison",
-          "Network flow solver",
-          "Graph problem generator"
-        ],
-        "practice": "Solve 40 graph problems"
-      },
-      "week_85_86": {
-        "title": "Advanced Data Structures",
-        "topics": [
-          "Segment trees",
-          "Fenwick trees (BIT)",
-          "Sparse tables",
-          "Disjoint set union (DSU)",
-          "Trie data structure",
-          "Suffix arrays",
-          "Heavy-light decomposition",
-          "Persistent data structures",
-          "Treaps and splay trees",
-          "Link-cut trees basics",
-          "Square root decomposition",
-          "Mo's algorithm"
-        ],
-        "projects": [
-          "Advanced DS library",
-          "Range query solver",
-          "String matching tool",
-          "DS visualizer"
-        ],
-        "practice": "Implement all advanced structures"
-      },
-      "week_87": {
-        "title": "Mathematics for CP",
-        "topics": [
-          "Number theory basics",
-          "Prime numbers and sieve",
-          "GCD and LCM",
-          "Modular arithmetic",
-          "Fast exponentiation",
-          "Combinatorics",
-          "Probability basics",
-          "Game theory",
-          "Geometry algorithms",
-          "Convex hull",
-          "Line intersection",
-          "FFT basics"
-        ],
-        "projects": [
-          "Math utility library",
-          "Geometry solver",
-          "Number theory toolkit",
-          "Combinatorics calculator"
-        ],
-        "practice": "Solve 30 math problems"
+        "practice": "Solve 100 easy problems",
+        "assessment": "Month 9 check: one timed contest set attempted honestly, plus mixed review"
       }
     },
-    "month_21_22": {
-      "title": "Month 11: Advanced Topics & Projects",
-      "weeks": "Week 44-47",
-      "week_88_89": {
-        "title": "String Algorithms",
+    "month_10_finale": {
+      "title": "Month 10: Modern C++, Capstone, Demo Day",
+      "weeks": "Weeks 37-40",
+      "week_37": {
+        "title": "Modern C++: Smart Pointers and Clean Habits",
         "topics": [
-          "String matching: KMP, Rabin-Karp",
-          "Z-algorithm",
-          "Suffix arrays and LCP",
-          "Suffix trees basics",
-          "Aho-Corasick algorithm",
-          "Manacher's algorithm",
-          "String hashing",
-          "Palindrome problems",
-          "Edit distance",
-          "Regular expressions",
-          "Parsing algorithms",
-          "Compression basics"
+          "Problems with raw pointers",
+          "unique_ptr: Exclusive ownership",
+          "shared_ptr: Shared ownership",
+          "weak_ptr: Breaking cycles",
+          "make_unique and make_shared",
+          "Custom deleters",
+          "RAII in practice",
+          "Auto keyword and type inference",
+          "Range-based loops",
+          "Lambda expressions",
+          "std::function and std::bind",
+          "Modern C++ best practices"
         ],
         "projects": [
-          "Text search engine",
-          "Plagiarism detector",
-          "DNA sequence matcher",
-          "Text editor with search"
+          "Memory-safe game engine",
+          "Resource manager with smart pointers",
+          "Callback system with lambdas",
+          "Modern C++ game framework"
         ],
-        "practice": "Master string algorithms"
+        "practice": "Refactor old code with modern C++"
       },
-      "week_90_91": {
-        "title": "Computational Geometry",
+      "week_38_39": {
+        "title": "Capstone Build",
         "topics": [
-          "2D geometry basics",
-          "Points, lines, segments",
-          "Polygon algorithms",
-          "Convex hull algorithms",
-          "Line sweep technique",
-          "Closest pair of points",
-          "Voronoi diagrams basics",
-          "Delaunay triangulation",
-          "3D geometry basics",
-          "Geometric data structures",
-          "Collision detection",
-          "Visualization techniques"
+          "Choosing the capstone: an SFML game, a data-structure engine or a console product",
+          "Two focused weeks with milestones and checkpoints",
+          "Memory-clean by design: no leaks, no crashes",
+          "Using everything: OOP, STL, structures, maybe graphics",
+          "Preparing the demo: the hardest bug as the best story"
         ],
         "projects": [
-          "Geometry playground",
-          "Collision detector",
-          "Map overlay tool",
-          "3D viewer"
+          "THE CAPSTONE: a complete C++ project built over two weeks with version control"
         ],
-        "practice": "Solve geometry problems"
+        "practice": "A compiling, running build at the end of every session"
       },
-      "week_92_93": {
-        "title": "Machine Learning with C++",
+      "week_40": {
+        "title": "Demo Day and the Final Exam",
         "topics": [
-          "ML basics in C++",
-          "Linear regression",
-          "Logistic regression",
-          "Neural networks from scratch",
-          "Backpropagation implementation",
-          "Decision trees",
-          "K-means clustering",
-          "OpenCV basics",
-          "Image processing",
-          "Computer vision basics",
-          "Integration with Python",
-          "Performance optimization"
+          "Presenting the capstone live",
+          "A full-course spiral review before the exam",
+          "The honest map: OpenGL, embedded and systems programming as later roads",
+          "Where each path leads: our DSA course, ICSE/ISC excellence, or engineering entrances"
         ],
         "projects": [
-          "Neural network library",
-          "Image classifier",
-          "Digit recognizer",
-          "Game AI with ML"
+          "Demo day presentation delivered to the batch and parents"
         ],
-        "practice": "Implement ML algorithms"
-      },
-      "week_94_95": {
-        "title": "Cryptography Basics",
-        "topics": [
-          "Cryptography fundamentals",
-          "Caesar cipher and variants",
-          "XOR encryption",
-          "Hash functions",
-          "SHA implementation",
-          "Public key concepts",
-          "RSA basics",
-          "Digital signatures",
-          "Random number generation",
-          "Secure coding practices",
-          "Common vulnerabilities",
-          "CTF challenges"
-        ],
-        "projects": [
-          "Encryption tool",
-          "Password manager",
-          "Secure chat app",
-          "CTF challenge solver"
-        ],
-        "practice": "Solve cryptography challenges"
-      },
-      "week_96": {
-        "title": "Compiler Design Basics",
-        "topics": [
-          "Compilers overview",
-          "Lexical analysis",
-          "Tokenization",
-          "Parsing basics",
-          "Abstract syntax trees",
-          "Semantic analysis",
-          "Code generation basics",
-          "Interpreters vs compilers",
-          "Simple language design",
-          "VM implementation",
-          "Optimization basics",
-          "Error handling"
-        ],
-        "projects": [
-          "Calculator language",
-          "Simple interpreter",
-          "Mini compiler",
-          "Domain-specific language"
-        ],
-        "practice": "Build language tools"
-      }
-    },
-    "month_23": {
-      "title": "Month 12: Portfolio & Career",
-      "weeks": "Week 48-52",
-      "week_97": {
-        "title": "Portfolio Development",
-        "topics": [
-          "Portfolio strategy",
-          "Project selection",
-          "Code documentation",
-          "README writing",
-          "GitHub profile optimization",
-          "Project presentation",
-          "Demo videos",
-          "Technical writing",
-          "Blog creation",
-          "Online presence",
-          "Personal branding",
-          "Networking strategies"
-        ],
-        "projects": [
-          "Portfolio website",
-          "Project showcases",
-          "Technical blog posts",
-          "Video demos"
-        ],
-        "practice": "Polish all projects"
-      },
-      "week_98": {
-        "title": "Interview Preparation",
-        "topics": [
-          "Technical interview process",
-          "Data structures review",
-          "Algorithm review",
-          "Coding interview patterns",
-          "System design basics",
-          "Behavioral questions",
-          "STAR method",
-          "Mock interviews",
-          "Whiteboard coding",
-          "Online assessments",
-          "Company research",
-          "Salary negotiation"
-        ],
-        "projects": [
-          "Interview prep notes",
-          "Problem solutions",
-          "Mock interview recordings",
-          "Question bank"
-        ],
-        "practice": "Daily interview practice"
-      },
-      "week_99": {
-        "title": "Open Source & Collaboration",
-        "topics": [
-          "Open source importance",
-          "Finding projects",
-          "Understanding large codebases",
-          "Making contributions",
-          "Pull request best practices",
-          "Code review participation",
-          "Issue tracking",
-          "Documentation contributions",
-          "Creating open source projects",
-          "Building community",
-          "Licensing",
-          "Maintaining projects"
-        ],
-        "projects": [
-          "Open source contributions",
-          "Personal open source project",
-          "Documentation improvements",
-          "Community building"
-        ],
-        "practice": "Contribute to 5 projects"
-      },
-      "week_100": {
-        "title": "Final Project Development",
-        "topics": [
-          "Capstone project planning",
-          "Requirements analysis",
-          "System architecture",
-          "Implementation strategy",
-          "Testing plan",
-          "Documentation plan",
-          "Deployment strategy",
-          "Marketing strategy"
-        ],
-        "projects": [
-          "FINAL CAPSTONE START",
-          "Complete planning",
-          "Architecture design",
-          "Initial implementation"
-        ],
-        "practice": "Final project sprint"
-      }
-    },
-    "month_24": {
-      "title": "Week 51-52: Graduation & Launch",
-      "weeks": "Week 51-52",
-      "week_101_102": {
-        "title": "Final Project Completion",
-        "topics": [
-          "Feature completion",
-          "Testing and debugging",
-          "Performance optimization",
-          "Documentation finalization",
-          "Deployment preparation",
-          "Release planning",
-          "Marketing materials",
-          "Demo preparation",
-          "Presentation skills",
-          "Q&A preparation",
-          "Feedback incorporation",
-          "Final polishing"
-        ],
-        "projects": [
-          "FINAL CAPSTONE: Complete Project",
-          "Options: AAA game, competitive programming platform, robotics system, ML application",
-          "Full documentation",
-          "Deployment and release"
-        ],
-        "deliverables": [
-          "Completed project",
-          "Source code",
-          "Documentation",
-          "Demo video"
-        ]
-      },
-      "week_103": {
-        "title": "Career Launch",
-        "topics": [
-          "Job search strategies",
-          "Internship applications",
-          "College applications with portfolio",
-          "Freelancing opportunities",
-          "Resume optimization",
-          "LinkedIn profile",
-          "Cover letters",
-          "Follow-up strategies",
-          "First job preparation",
-          "Continuous learning",
-          "Career planning",
-          "Goal setting"
-        ],
-        "projects": [
-          "Professional resume",
-          "Cover letter templates",
-          "Application tracker",
-          "Career plan document"
-        ],
-        "deliverables": [
-          "Job-ready portfolio",
-          "Professional resume",
-          "LinkedIn profile",
-          "Application materials"
-        ]
-      },
-      "week_104": {
-        "title": "Graduation & Celebration",
-        "topics": [
-          "Course completion",
-          "Final presentations",
-          "Peer showcases",
-          "Industry feedback",
-          "Certification ceremony",
-          "Alumni network",
-          "Future resources",
-          "Mentorship continuation",
-          "Community involvement",
-          "Success stories",
-          "Next steps",
-          "Lifelong learning"
-        ],
-        "deliverables": [
-          "Course Completion Certificate",
-          "Professional C++ Developer Certification",
-          "Competitive Programming Certificate",
-          "Letter of Recommendation",
-          "Alumni Network Access",
-          "Lifetime Course Updates"
-        ],
-        "assessment": "FINAL SHOWCASE: Present portfolio to industry professionals and compete in final programming contest"
+        "assessment": "FINAL EXAM: a practical build plus a written paper with questions mixed from every phase. Passing earns the certificate; a student who falls short gets a focused revision plan and a free retest"
       }
     }
   },
   "additional_learning_resources": {
     "projects_throughout_course": [
-      "Phase 1: 20+ console programs, text games, file utilities",
-      "Phase 2: 15+ OOP projects, data structures, algorithms",
-      "Phase 3: 10+ games, graphics applications, system tools",
-      "Phase 4: Competition solutions, open source contributions, capstone",
-      "Total: 50+ projects from beginner to advanced"
+      "Phase 1: console programs, calculators, games of logic and text tools",
+      "Phase 2: pointer visualizations, class hierarchies, file-backed applications and first STL builds",
+      "Phase 3: hand-built structures, sorting visualken and timed problem sets",
+      "Phase 4: an SFML game, contest submissions, and the memory-clean capstone at demo day"
     ],
-    "total_projects_built": "50+ C++ projects including games, tools, and applications",
+    "total_projects_built": "25+ real C++ builds, crowned by a memory-clean capstone",
     "skills_mastered": [
-      "Languages: C++11/14/17/20, STL mastery",
-      "Programming: OOP, generic programming, functional programming",
-      "Data Structures: All fundamental and advanced structures",
-      "Algorithms: Sorting, searching, graphs, DP, geometry",
-      "Game Dev: 2D/3D graphics, physics, AI, networking",
-      "Systems: Memory management, multithreading, networking",
-      "Graphics: SFML, OpenGL, shaders, game engines",
-      "Competitive: Problem solving, optimization, mathematics",
-      "Tools: Git, debuggers, profilers, build systems",
-      "Professional: Documentation, testing, collaboration"
+      "C++ fundamentals to fluency: syntax, control flow, functions, arrays, strings",
+      "The memory model: pointers, references and dynamic allocation, actually understood",
+      "Object-oriented C++: classes, inheritance and polymorphism as design",
+      "STL fluency: containers and algorithms the way contests use them",
+      "Data structures by hand: lists, stacks, queues, trees and hashing",
+      "Applied C++: SFML graphics and competitive programming foundations"
     ],
     "weekly_structure": {
-      "theory_videos": "3-4 hours",
-      "hands_on_coding": "5-6 hours",
-      "projects": "3-4 hours",
-      "practice_problems": "2-3 hours",
-      "total_per_week": "10-12 hours"
-    },
-    "support_provided": {
-      "live_sessions": "Weekly doubt clearing with expert mentors",
-      "mentorship": "1-on-1 guidance from competitive programmers",
-      "code_review": "Professional code reviews",
-      "contest_support": "Competitive programming coaching",
-      "career_guidance": "Resume and interview preparation, plus portfolio and profile review."
+      "live_classes": "2 live one-hour classes per week, coding along with the instructor",
+      "homework": "Homework after every class, and a mixed-review assignment at the end of every month",
+      "practice": "3-4 hours of problem practice between classes",
+      "review": "Every submission reviewed with written feedback; recurring gaps reopened in class"
     },
     "certification": {
-      "phase_certificates": "Certificate after each quarter",
-      "final_certificate": "Professional C++ Developer Certification",
-      "competitive_cert": "Competitive Programming Certification",
-      "game_dev_cert": "Game Development Certification",
-      "linkedin_badge": "Verified LinkedIn credentials",
-      "portfolio_review": "Industry-validated portfolio"
+      "completion": "Certificate from Modern Age Coders, awarded on passing the final exam. Fall short and there is focused revision and a free retest: the certificate certifies knowledge, not attendance"
+    },
+    "support_provided": {
+      "doubt_support": "WhatsApp doubt support between classes, for the segfault that makes no sense at 9 pm",
+      "progress_updates": "Regular progress notes to parents: what was built, what comes next, and where encouragement helps"
     }
   },
   "prerequisites": {
-    "education": "No prerequisites - complete beginner friendly",
-    "coding_experience": "Zero programming knowledge required",
-    "equipment": "Any computer with internet",
-    "time_commitment": "10-12 hours per week",
-    "english": "Basic English understanding",
-    "motivation": "Interest in games, problem-solving, or technology"
+    "coding_experience": "None. C++ is taught from the first line, patiently",
+    "computer_skills": "Comfortable typing and managing files",
+    "equipment": "A computer with a stable internet connection; the compiler and every tool used are free",
+    "age": "13 to 18. Batches are grouped by age and pace",
+    "time_commitment": "2 live classes plus 3-4 hours of practice a week"
   },
   "who_is_this_for": {
-    "students": "Teenagers (13-19) interested in programming",
-    "working_professionals": "Young adults learning C++",
-    "entrepreneurs": "Teens wanting to build games/apps",
-    "freelancers": "Future game developers",
-    "kids": "Motivated kids 12+ with support",
-    "anyone": "Anyone passionate about programming"
+    "serious_learners": "Teens who want the language that hides nothing and rewards patience",
+    "contest_bound": "Students eyeing competitive programming, where C++ is the standard weapon",
+    "school_aligned": "ICSE/ISC students whose boards examine in C++-adjacent depth",
+    "future_engineers": "Teens heading for engineering, where C++ fundamentals are the entry gate",
+    "performance_curious": "Students who ask why some programs are fast and want the real answer"
   },
   "career_paths_after_completion": [
-    "Game Developer (Unity, Unreal, Custom Engines)",
-    "Systems Programmer",
-    "Competitive Programmer",
-    "C++ Software Engineer",
-    "Graphics Programmer",
-    "Embedded Systems Developer",
-    "Robotics Engineer",
-    "Quantitative Developer",
-    "Research Software Engineer",
-    "Technical Founder"
+    "Data Structures and Algorithms: the dedicated contest-and-interview road",
+    "Game development: SFML here opens toward engines later",
+    "Engineering entrances and school boards, met with real fundamentals",
+    "Systems roads later: OS, embedded and graphics, named honestly as specializations",
+    "Every other language, suddenly easy: C++ makes the rest feel gentle"
   ],
   "course_guarantees": {
     "live_classes": "Live, interactive classes with a real instructor, never pre-recorded videos.",
     "small_batches": "Small batches only: group classes are capped at 10 students, with mini-batch (3 to 4 students) and personal 1-on-1 options.",
-    "structured_curriculum": "A structured, well-paced curriculum taught step by step, with hands-on practice in every session.",
+    "structured_curriculum": "A structured, well-paced curriculum taught step by step, with classwork in every session and homework after every class.",
+    "real_assessment": "Mixed-review assignments after every month and a final exam that decides the certificate: real knowledge, real work.",
     "doubt_support": "Doubt support between classes over WhatsApp, so you are never left stuck.",
-    "certificate": "A course-completion certificate you can share.",
+    "certificate": "A certificate you earn by passing the final exam, with a free retest after revision if needed.",
     "free_demo": "A free demo class before you enrol, so you can decide with no pressure."
   },
   "faqs": [
     {
-      "question": "Why should teenagers learn C++ when Python seems easier?",
-      "answer": "C++ teaches you how computers actually work - memory management, performance optimization, and low-level programming. This deep understanding makes you a better programmer in ANY language. Plus, C++ is essential for game development, competitive programming, robotics, and high-frequency trading - fields with the highest salaries."
+      "question": "What will my teen build in this C++ course?",
+      "answer": "More than 25 real builds across ten months: console programs and logic games in the fundamentals, pointer-visualized memory exercises, class hierarchies and file-backed applications, hand-built data structures, timed contest sets, a real 2D game in SFML, and a memory-clean capstone presented at demo day."
     },
     {
-      "question": "Is C++ too difficult for a 13-16 year old beginner?",
-      "answer": "Not at all! Our course is specifically designed for teens starting from zero. We use games, visual projects, and fun challenges to teach complex concepts. Many students younger than 13 have completed this course successfully. The key is patience and practice, which we build gradually."
+      "question": "Is C++ too hard as a first language for a teenager?",
+      "answer": "It is harder than Python, and that is precisely its value when taught patiently: C++ hides nothing, so a teen who learns it understands memory, types and performance for life, and every later language feels easy. This course paces the famous hard parts, pointers get pictures and patience, not one rushed lecture, and the 2-month margin exists exactly for them."
     },
     {
-      "question": "What can I build with C++ after completing this 12-month course?",
-      "answer": "You'll build 50+ projects including: 2D/3D games with graphics, competitive programming solutions, system utilities, chat applications, game engines, Arduino robotics projects, AI for games, and networking applications. Your portfolio will impress colleges and employers alike."
+      "question": "How long does it take, and how is my teen assessed?",
+      "answer": "Ten months at 2 live classes a week plus 3 to 4 hours of practice, with two more months in hand. Homework follows every class, monthly assignments mix new questions with earlier topics, each phase ends with an exam, and a final exam, practical plus written, decides the certificate with a free retest after revision."
     },
     {
-      "question": "Will this course help me in competitive programming and USACO?",
-      "answer": "Yes! Phase 4 is dedicated to competitive programming: Dynamic Programming, Graph Algorithms, Advanced Data Structures, and USACO-style problems. Students who complete this course consistently qualify for national competitions and have a strong foundation for USACO Bronze, Silver, and Gold divisions."
+      "question": "Does this course prepare for competitive programming?",
+      "answer": "It builds the exact base: STL fluency, hand-built structures, algorithmic thinking and a genuine contest-foundations month with timed sets. Serious contest training, dynamic programming, advanced graphs, rating grinds, lives in our dedicated DSA course, which this course names honestly as the next road."
     },
     {
-      "question": "How does C++ help with college admissions and scholarships?",
-      "answer": "C++ proficiency demonstrates serious technical ability. Your GitHub portfolio of games and projects, competitive programming rankings, and potential USACO medals become powerful differentiators for college applications. Many students have received scholarships and early admissions based on their C++ projects."
+      "question": "C++ or Python first?",
+      "answer": "Both are excellent and we teach both. Python first suits teens pulled toward AI and quick wins; C++ first suits teens bound for competitive programming, engineering entrances or school boards that reward its depth, and produces unmatched fundamentals. Nothing learned in either has to be unlearned."
     },
     {
-      "question": "What equipment do I need for this C++ programming course?",
-      "answer": "Any computer (Windows, Mac, or Linux) with internet connection works perfectly. For the game development and graphics modules, we recommend at least 4GB RAM. For Arduino projects, you can optionally purchase a starter kit (₹2,000-3,000), but it's not mandatory - we provide simulation alternatives."
+      "question": "What are the fees?",
+      "answer": "Group classes are ₹1,499 per month, with 2 live classes a week in batches capped at 10 students. A mini batch of 3-4 students is ₹2,999 per month, and personal 1-on-1 classes are ₹4,999 per month. International students pay a price set for their own country, shown on this page in their local currency."
+    },
+    {
+      "question": "Is there a free trial class?",
+      "answer": "Yes, a free demo class with no commitment: book at learn.modernagecoders.com/contact or message us on WhatsApp at +91 91233 66161."
+    },
+    {
+      "question": "Are classes live or recorded?",
+      "answer": "Live, always: small groups with a real instructor reading real code, never pre-recorded videos. In C++ especially, the compiler error means nothing to a beginner and everything to a teacher watching live."
     }
-  ],
-  "related_courses": [
-    {
-      "slug": "complete-game-development-masterclass-for-teens",
-      "title": "Game Development for Teens",
-      "description": "Build professional games using industry-standard tools"
-    },
-    {
-      "slug": "python-complete-masterclass-teens",
-      "title": "Python for Teens",
-      "description": "Learn the most versatile programming language"
-    },
-    {
-      "slug": "problem-solving-dsa-masterclass-teens",
-      "title": "DSA & Problem Solving",
-      "description": "Master data structures and competitive programming"
-    }
-  ],
-  "why_this_course": {
-    "title": "Why C++ is the Ultimate Language for Ambitious Teens",
-    "paragraphs": [
-      "C++ isn't just another programming language, it's the language that powers the world's most performance-critical systems. From video games like Fortnite and League of Legends to operating systems and rocket guidance software, C++ is everywhere that speed and precision matter.",
-      "Learning C++ gives teenagers a profound understanding of how computers actually work. Unlike higher-level languages that hide complexity, C++ teaches memory management, optimization, and system-level thinking. This deep knowledge makes mastering any other language significantly easier.",
-      "For competitive programming and college admissions, C++ proficiency is a serious differentiator. USACO, IOI, and other prestigious competitions use C++, and admission officers at top universities recognize the technical depth required to master it. Your C++ projects and competition rankings become powerful additions to college applications."
-    ],
-    "highlights": [
-      "50+ portfolio-ready projects including games and system tools",
-      "USACO and competitive programming preparation",
-      "Game development with graphics and physics",
-      "Arduino and robotics projects (optional hardware)",
-      "Industry-recognized certification for college applications"
-    ]
-  }
+  ]
 }
