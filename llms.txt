@@ -407,6 +407,7 @@ USD 100 a month small group, USD 150 a month one to one.
 - Dima Wa Attayeen, Ash Sharqiyah North, Oman: https://learn.modernagecoders.com/coding-classes-in-dima-wa-attayeen
 - Yanqul, Adh Dhahirah, Oman: https://learn.modernagecoders.com/coding-classes-in-yanqul
 - Manah, Ad Dakhiliyah, Oman: https://learn.modernagecoders.com/coding-classes-in-manah
+- Al Qabil, Ash Sharqiyah North, Oman: https://learn.modernagecoders.com/coding-classes-in-al-qabil
 ## International Country Pages
 
 - United States: https://learn.modernagecoders.com/coding-classes-in-united-states

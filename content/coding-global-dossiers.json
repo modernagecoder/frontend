@@ -3328,5 +3328,41 @@
       "An exact age for Fiqain Castle. The published wording is some 400 years ago, kept as written rather than converted into a construction date.",
       "A population for the wilayat. No census table could be traced in this session, so none appears."
     ]
+  },
+  "coding-classes-in-al-qabil": {
+    "market": "Al Qabil, Ash Sharqiyah North",
+    "bodyClass": "cg-qbl",
+    "curriculumAuthority": "Oman Ministry of Education, General Education Diploma. The page argues from the wilayat's geography rather than from curriculum: a population of just under 25,000 split between desert edge and mountain has no convenient common meeting point, and a lesson delivered over a connection is the same length from either side.",
+    "localProject": "Free-text spellings, and the limits of cleaning them. The oasis here is published as Shenah or Shanah. Across 400 hand-typed visit records under six strings, a naive GROUP BY returns six rows with a largest of 168, understating by 58 per cent; trimming and case folding collapses six rows to three and leaves the best row at 198 of 400, still 50 per cent short, because e against a is a genuine spelling difference. Assigned to this page and no other.",
+    "requiredMentions": [
+      "Shenah",
+      "Shanah",
+      "beehive tombs",
+      "Battin",
+      "third millennium BCE",
+      "24,824",
+      "2020 Omani census",
+      "eastern Hajar Mountains",
+      "largest concentration"
+    ],
+    "sources": [
+      {
+        "claim": "Al-Qabil is a province in the governorate of Ash-Sharqiyah North in Oman with a population of 24,824 recorded in the 2020 Omani census, located at the northwest corner of the sand desert in eastern Oman; the oasis of Shenah or Shanah, 13 kilometres northeast of Battin and 30 kilometres northeast of Ibra in the eastern Hajar Mountains, has the largest concentration of beehive tombs in Oman, dating to the third millennium BCE.",
+        "url": "https://en.wikipedia.org/wiki/Al_Qabil"
+      },
+      {
+        "claim": "Al Qabil is presented as a desert destination in Ash Sharqiyah North that is being opened up to visitors.",
+        "url": "https://www.omanobserver.om/article/1127938/features/travel/al-qabil-a-hidden-gem-in-the-desert-is-now-ready-to-welcome-tourists"
+      },
+      {
+        "claim": "Ash Sharqiyah North is presented as a destination region of Oman on the national tourism site.",
+        "url": "https://experienceoman.om/destinations/ash-sharqiyah-north"
+      }
+    ],
+    "rejectedClaims": [
+      "The area of the wilayat. The available figure is given as 1,632 kilometres with 1,014 miles in brackets, and neither is a unit of area. Converting it to square kilometres would mean publishing a number no source stated, so no area appears on the page and the FAQ explains the omission.",
+      "Visitor numbers for the oasis. None were found, so the 400 records in the project are teaching values and are labelled as such in the project steps, the pitfalls note and the FAQ.",
+      "A single correct spelling of the oasis name. Both Shenah and Shanah are in circulation and the page treats neither as the error."
+    ]
   }
 }
