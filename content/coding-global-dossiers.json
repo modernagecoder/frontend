@@ -3037,5 +3037,41 @@
       "Any individual dune height. Only the over 100 metres description is published, so the twelve heights inside the project are teaching values and are labelled as such in the project, the pitfalls note and the FAQ.",
       "A road distance to anywhere other than Muscat. The 230 kilometre figure is the only one traced to a source, and it is itself rounded."
     ]
+  },
+  "coding-classes-in-al-kamil-wal-wafi": {
+    "market": "Al Kamil Wal Wafi, Ash Sharqiyah South",
+    "bodyClass": "cg-kml",
+    "curriculumAuthority": "Oman Ministry of Education, General Education Diploma. The page argues from settlement structure rather than curriculum: a population divided across about 40 clusters has no centre that is fair to all of them, so teaching that arrives over a connection is the only arrangement that reaches every cluster on equal terms.",
+    "localProject": "A substring match standing in for an exact one. The wilayat's clusters include both Tawi and Tawi Hatim; querying Tawi with contains returns two rows and 2,630 against a correct one row and 780, which is 3.37 times too high, while querying the longer name is always correct. Assigned to this page and no other; checked free across the cluster before it was chosen.",
+    "requiredMentions": [
+      "Tawi Hatim",
+      "Tahwa",
+      "Hasina",
+      "40 clusters",
+      "golden dune plains",
+      "Al Wafi",
+      "Wadi Bani Khalid",
+      "two towns in one name",
+      "sandy hills"
+    ],
+    "sources": [
+      {
+        "claim": "Al Kamil Wal Wafi is a wilayat of the South Al Sharqiyah governorate at about 22 degrees 13 minutes north and 59 degrees 12 minutes east, bordered by Wadi Bani Khalid, Sur and a neighbouring wilayat, with about 40 clusters as its population centres including Al-Kamil, Al-Wafi, Tawi Hatim, Tahwa and Tawi.",
+        "url": "https://en.wikipedia.org/wiki/Al_Kamil_Wal_Wafi"
+      },
+      {
+        "claim": "Al-Kamil wa al-Wafi is filed under Ash Sharqiyah South Governorate in a population statistics database independent of the encyclopedia entry, which is the second reference used to settle the governorate question.",
+        "url": "https://www.citypopulation.de/en/oman/sharqiyahsouth/al_k%C4%81mil_al_w%C4%81f%C4%AB/080200000__al_kamil_wa_al_wafi/"
+      },
+      {
+        "claim": "Al Kamil Wal Wafi is recorded as a named place feature in Oman with its own location record.",
+        "url": "https://www.mindat.org/feature-11054689.html"
+      }
+    ],
+    "rejectedClaims": [
+      "A population for the wilayat or for any of its clusters. No census table could be traced in this session, so no population appears on the page and the five figures inside the project are labelled teaching values in three separate places.",
+      "The governorate given by a third source. One reference placed this wilayat in Ash Sharqiyah North. Two others place it in the South and those two are followed, with the disagreement stated on the page rather than concealed.",
+      "A count of the wilayat's settlements stated as exact. The published figure is about 40 clusters and the word about is kept everywhere it appears."
+    ]
   }
 }

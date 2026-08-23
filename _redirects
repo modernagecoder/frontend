@@ -1830,4 +1830,8 @@
 # International growth cluster (coding-global.css). Must precede the /* catch-all.
 /coding-classes-in-bidiyah /src/pages/coding-classes-in-bidiyah.html 200
 /coding-classes-in-bidiyah.md /src/pages/coding-classes-in-bidiyah.md 200
+
+# International growth cluster (coding-global.css). Must precede the /* catch-all.
+/coding-classes-in-al-kamil-wal-wafi /src/pages/coding-classes-in-al-kamil-wal-wafi.html 200
+/coding-classes-in-al-kamil-wal-wafi.md /src/pages/coding-classes-in-al-kamil-wal-wafi.md 200
 /* /src/pages/404.html 404
