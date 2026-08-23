@@ -2535,7 +2535,6 @@
     "localProject": "Percentages that are each rounded correctly and do not total 100. Twenty shares across the wilayat's 20 published administrative areas total 100.2 under independent rounding, and largest-remainder apportionment returns them to 100.0 by moving two figures. Assigned to this page and no other: checked against the weighted-average trap on Al Batinah North and Mawaleh, the percentage-wording trap on Al Ghubrah and the base-rate trap on Duqm before it was chosen.",
     "requiredMentions": [
       "Wadi Adai",
-      "925 square kilometres",
       "Beit Al Maqam Fort",
       "Wadi Amerat",
       "20 administrative areas",
@@ -2551,7 +2550,7 @@
         "url": "https://guide.opensooq.com/en/oman-en/a-guide-to-al-amarat-in-muscat-oman/"
       },
       {
-        "claim": "The wilayat has an area of 925 square kilometres, and 30 schools provide educational services to more than 25 thousand students.",
+        "claim": "30 schools provide educational services to more than 25 thousand students.",
         "url": "https://www.thearabianstories.com/2022/01/12/omans-wilayat-of-al-amerat-witnessing-growth-in-various-fields-wali-of-al-amerat/"
       },
       {
@@ -2564,6 +2563,7 @@
       }
     ],
     "rejectedClaims": [
+      "The wilayat area. One source gives 925 square kilometres for Al Amarat and another gives the same 925 for Liwa in Al Batinah North. Those cannot both be right as stated, so neither page carries an area and both name the National Centre for Statistics and Information as the authority.",
       "A single headline population. Published figures range from about 69,132 in a 2016 breakdown to roughly 139,755 at the 2022 census, and one secondary source prints \"121,103 thousand people\", which cannot be right on any reading. The page states the range with both years attached rather than picking one figure.",
       "That the Wadi Adai to Al Amerat link is a tunnel. It is a mountain road corridor. Residents have argued a tunnel is what is needed, which is a call rather than a built fact, and the page words it that way."
     ]
@@ -2824,6 +2824,181 @@
     "rejectedClaims": [
       "A population figure. The 2022 census gives about 88,317, but the page argues from the border position and the bilingual record rather than from a total.",
       "Any claim about the port's capacity or its peak throughput. The 88,000 tonne figure is a twelve month throughput, and the page says so rather than letting it be read as a capacity."
+    ]
+  },
+  "coding-classes-in-samail": {
+    "market": "Samail, Ad Dakhiliyah",
+    "bodyClass": "cg-sml",
+    "curriculumAuthority": "Oman Ministry of Education, General Education Diploma. The page argues from the shape of the wilayat rather than from curriculum: 55 settlements strung along a wadi that divides the Hajar into two ranges means no single meeting point is convenient for most of them.",
+    "localProject": "The header row counted as data. A list of the wilayat's 55 villages read without skipping the first line yields 56, one of them named village; the mosque total stays correct at 388 either way and the average per village moves from 7.05 to 6.93. Assigned to this page and no other; checked free across the cluster before it was chosen.",
+    "requiredMentions": [
+      "Mazin bin Ghadouba",
+      "Samail Gap",
+      "55 villages",
+      "300 mosques",
+      "Wadi Samail",
+      "627 AD",
+      "eastern and western subranges",
+      "Samayil",
+      "first Muslim in Oman"
+    ],
+    "sources": [
+      {
+        "claim": "Samail lies in Ad Dakhiliyah beside the Hajar Mountains; Wadi Samail is one of the largest wadis and the Samail Gap divides the Hajar into eastern and western subranges; the wilayat holds 55 villages and towns and more than 300 mosques.",
+        "url": "https://gulftourism.blogspot.com/2012/06/definition-of-samail.html"
+      },
+      {
+        "claim": "The Mazin bin Ghadouba Mosque in Samail is considered the oldest mosque in Oman and was built by Mazin bin Ghadouba in 627 AD.",
+        "url": "https://en.wikipedia.org/wiki/Mazin_Bin_Ghadoubah_Mosque"
+      },
+      {
+        "claim": "Mazin bin Ghadouba is recorded as the first Muslim in Oman and the mosque is described as the first mosque of Oman.",
+        "url": "https://www.omanobserver.om/article/1135854/oman/community/mazin-bin-ghadouba---the-first-mosque-of-oman"
+      }
+    ],
+    "rejectedClaims": [
+      "A headline population. One source gives about 40,000 for the wilayat and the 2022 census table gives about 87,997. The two could not be reconciled, so no population appears and the page argues from the settlement count instead.",
+      "Any per-village mosque figure. Only the wilayat totals are published, so the per-village numbers in the project are teaching values and are labelled as such."
+    ]
+  },
+  "coding-classes-in-izki": {
+    "market": "Izki, Ad Dakhiliyah",
+    "bodyClass": "cg-izk",
+    "curriculumAuthority": "Oman Ministry of Education, General Education Diploma. The page argues from the length of the record rather than from curriculum: a falaj with more than two millennia behind it is the clearest case anywhere of observations that were never evenly sampled.",
+    "localProject": "Readings taken at irregular intervals, averaged as though evenly spaced. Six falaj readings across fifty four years, five of them in the first five: the plain mean is 87.7 and the time weighted mean is 95.2 on the same six numbers. Assigned to this page and no other; checked free across the cluster, and kept clear of the elapsed-time work on Ibri and the seasonality work on Salalah.",
+    "requiredMentions": [
+      "Falaj Al Malki",
+      "Harat Al Yemen",
+      "Al Nizar",
+      "Yamani",
+      "Nizari",
+      "twin walled towns",
+      "two millennia",
+      "Nejd",
+      "oldest town in Oman"
+    ],
+    "sources": [
+      {
+        "claim": "Izki is popularly claimed to be the oldest town in Oman and was notorious for intrigues between the Yamani and the Nizari; the Yamani are southern Arabs claiming origins in Yemen who migrated to Oman between the 2nd century BC and the 2nd century AD, and the Nizari are northern Arabs who migrated from what is now the Nejd.",
+        "url": "https://en.wikipedia.org/wiki/Izki"
+      },
+      {
+        "claim": "Izki is celebrated as Oman's oldest city on the evidence of its ancient aflaj and the twin walled towns of Izki or al-Yemen and al-Nizar; Falaj al Malaki is one of the five largest aflaj in Oman with a history spanning over two millennia.",
+        "url": "https://www.omanobserver.om/article/1157193/oman/tourism/izki-stores-rich-cultural-heritage-of-oman"
+      },
+      {
+        "claim": "Al Malki Falaj is shared by Nazar village and is one of the important water sources in the area; Harat Al Yemen is the old quarter walked by visitors.",
+        "url": "https://omantripper.com/harat-al-yemen-izki/"
+      }
+    ],
+    "rejectedClaims": [
+      "That Izki IS the oldest town in Oman. The sources say popularly claimed and celebrated as, which is a claim about a reputation rather than a settled dating, and the page repeats it in those terms.",
+      "A population figure and any real flow series for the falaj. The 2022 census gives about 66,034 for the wilayat, which nothing here argues from, and no public flow record exists, so the project readings are labelled as teaching values."
+    ]
+  },
+  "coding-classes-in-liwa": {
+    "market": "Liwa, Al Batinah North",
+    "bodyClass": "cg-liw",
+    "curriculumAuthority": "Oman Ministry of Education, General Education Diploma. The page argues from a documented naming discrepancy rather than from curriculum: the largest facility in the wilayat carries the neighbouring wilayat's name in its own published description, which makes it the clearest available case of a location that cannot be inferred from a label.",
+    "localProject": "Deriving a location from a name. Five records through a name-based wilayat guess: two are misfiled, and because the port is the only row carrying weight, a million tonnes a week moves from Liwa to Sohar with nothing raised. Assigned to this page and no other; distinct from the stable-identifier work on Ash Sharqiyah North because this is about inferring an ATTRIBUTE from a name rather than about the identity of the key itself.",
+    "requiredMentions": [
+      "SOHAR Port and Freezone",
+      "Harmul",
+      "Liwa Fort",
+      "51 villages",
+      "3,500 ships",
+      "mangrove trees",
+      "deep sea port",
+      "National Centre for Statistics and Information",
+      "Gulf of Oman"
+    ],
+    "sources": [
+      {
+        "claim": "SOHAR Port and Freezone is a deep sea port and adjacent free zone located in Liwa, Al Batinah North, despite the name suggesting otherwise, and the port handles over one million tonnes of sea cargo each week and around 3,500 ships a year.",
+        "url": "https://en.wikipedia.org/wiki/SOHAR_Port_and_Freezone"
+      },
+      {
+        "claim": "Liwa is a wilayat of Al Batinah North lying north of Sohar and overlooking the Gulf of Oman to its east, distributed over 51 villages.",
+        "url": "https://en.wikipedia.org/wiki/Liwa,_Oman"
+      },
+      {
+        "claim": "From the towers of Liwa Fort a visitor can see many of the wilayat's villages, including the coastal village of Harmul and its mangrove trees.",
+        "url": "https://m.timesofoman.com/article/117269-we-love-oman-liwa-fort-a-historic-landmark"
+      }
+    ],
+    "rejectedClaims": [
+      "The wilayat area. Two published sources give 925 square kilometres for Liwa and the same 925 for Al Amarat in Muscat Governorate, which cannot both be right as stated. Neither page states an area, and both name the National Centre for Statistics and Information as the authority.",
+      "A population figure. The 2022 census gives about 63,292, but the page argues from the naming discrepancy rather than from a total."
+    ]
+  },
+  "coding-classes-in-qurayyat": {
+    "market": "Qurayyat, Muscat Governorate",
+    "bodyClass": "cg-qry",
+    "curriculumAuthority": "Oman Ministry of Education, General Education Diploma. The page argues from inequality of scale rather than curriculum: a fishing coast running from a town fleet down to three boat landings is the clearest available case of why a percentage ranking rewards being small rather than being busy.",
+    "localProject": "A rate computed on a tiny denominator. Four landing points given one extra boat each: the three boat harbour posts 33.3 per cent, the town posts 0.6, and the town would need about sixty more boats to match the headline. Assigned to this page and no other; distinct from the share-rounding trap on Al Amarat and the average-of-rates trap on Al Mudhaibi because this is about the size of the base rather than the method of aggregation.",
+    "requiredMentions": [
+      "Bimmah Sinkhole",
+      "Daghmar",
+      "Dabab area",
+      "600 metres inland",
+      "65 feet deep",
+      "Portuguese invasion",
+      "traditional fishing boats",
+      "turquoise",
+      "six wilayats of Muscat Governorate"
+    ],
+    "sources": [
+      {
+        "claim": "The Bimmah Sinkhole is in the Dabab area of Wilayat Qurayyat on the northeast coast of Muscat Governorate, about 600 metres inland, is a pool about 65 feet deep confirmed by geologists as a sinkhole though local legend holds a meteorite made it, and holds fresh and salt water in roughly equal proportions giving it a turquoise hue.",
+        "url": "https://www.atlasobscura.com/places/bimmah-sinkhole"
+      },
+      {
+        "claim": "Quriyat is known for its traditional fishing boats and views over the sea, and its past was marked by fierce resistance to Portuguese invasion; it is today described as a quiet fishing village.",
+        "url": "https://www.memphistours.com/oman/hawiyat-najm-park"
+      },
+      {
+        "claim": "Muscat Governorate consists of six wilayats: Muscat, Muttrah, Al Seeb, Qurayat, Bausher and Al Amerat.",
+        "url": "https://www.mmc.gov.om/wilayat.aspx"
+      }
+    ],
+    "rejectedClaims": [
+      "That a meteorite formed the Bimmah Sinkhole. Geologists have confirmed it is a sinkhole; the meteorite account is a local legend and the page presents it as one rather than choosing between them silently.",
+      "A population figure and any real per-landing-point boat count. The 2022 census gives about 63,006 for the wilayat, which nothing here argues from, and no public boat record exists, so the project counts are labelled as teaching values."
+    ]
+  },
+  "coding-classes-in-jalan-bani-bu-hassan": {
+    "market": "Jalan Bani Bu Hassan, Ash Sharqiyah South",
+    "bodyClass": "cg-jbh",
+    "curriculumAuthority": "Oman Ministry of Education, General Education Diploma. The page argues from the wilayat's own name rather than from curriculum: it and its neighbour differ only in the final word, and its fort answers to two names, so it carries both halves of the key problem at once in a way no invented example could.",
+    "localProject": "A key built by squashing and truncating a name. Sweeping the width from eight to fourteen characters across Jalan Bani Bu Hassan and Jalan Bani Bu Ali: they collide at every width up to eleven and separate at twelve, so one character is the entire safety margin. Paired with the reverse fault, one fort under two names. Assigned to this page and no other; distinct from the stable-identifier work on Ash Sharqiyah North because this is about the WIDTH of a derived key rather than about choosing one.",
+    "requiredMentions": [
+      "Al Muhaywil Castle",
+      "Thuwaini bin Said",
+      "Al-Muhanna bin Jayfar",
+      "JALANBANIBU",
+      "local wali",
+      "1856 to 1866",
+      "JALANBANIBUH",
+      "Al Kamil Wal Wafi",
+      "Masirah"
+    ],
+    "sources": [
+      {
+        "claim": "Jalan Bani Bu Hassan Fort, sometimes also known as Al Muhaywil Castle, is in Ash Sharqiyah South; it is said to have been founded in the 9th century during the reign of Al-Muhanna bin Jayfar as Imam of Oman, was thoroughly rebuilt during the reign of Thuwaini bin Said, Sultan from 1856 to 1866, and served as the main fortification in the area and the home and office of the local wali.",
+        "url": "https://castles.nl/jalan-bani-hassan-fort"
+      },
+      {
+        "claim": "Jalan Bani Bu Hassan is a wilayat of Ash Sharqiyah South Governorate in Oman.",
+        "url": "https://en.wikipedia.org/wiki/Jalan_Bani_Bu_Hassan_Province"
+      },
+      {
+        "claim": "Ash Sharqiyah South contains the wilayats Sur, Jalan Bani Bu Ali, Jalan Bani Bu Hassan, Al Kamil Wal Wafi and Masirah.",
+        "url": "https://en.wikipedia.org/wiki/Provinces_of_Oman"
+      }
+    ],
+    "rejectedClaims": [
+      "A firm 9th century founding date for the fort. The sources say it is said to have been founded then, which is a tradition rather than a dated record, and the page keeps that wording. The 1856 to 1866 reign under which it was rebuilt is the firmer date and the page leans on that one.",
+      "A population figure. The 2022 census gives about 50,755 for the wilayat, but the page argues entirely from the names rather than from any total."
     ]
   }
 }

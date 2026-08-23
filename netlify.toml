@@ -7557,6 +7557,58 @@
   to = "/src/pages/coding-classes-in-shinas.md"
   status = 200
 
+# International growth cluster (coding-global.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/coding-classes-in-samail"
+  to = "/src/pages/coding-classes-in-samail.html"
+  status = 200
+
+[[redirects]]
+  from = "/coding-classes-in-samail.md"
+  to = "/src/pages/coding-classes-in-samail.md"
+  status = 200
+
+[[redirects]]
+  from = "/coding-classes-in-izki"
+  to = "/src/pages/coding-classes-in-izki.html"
+  status = 200
+
+[[redirects]]
+  from = "/coding-classes-in-izki.md"
+  to = "/src/pages/coding-classes-in-izki.md"
+  status = 200
+
+[[redirects]]
+  from = "/coding-classes-in-liwa"
+  to = "/src/pages/coding-classes-in-liwa.html"
+  status = 200
+
+[[redirects]]
+  from = "/coding-classes-in-liwa.md"
+  to = "/src/pages/coding-classes-in-liwa.md"
+  status = 200
+
+[[redirects]]
+  from = "/coding-classes-in-qurayyat"
+  to = "/src/pages/coding-classes-in-qurayyat.html"
+  status = 200
+
+[[redirects]]
+  from = "/coding-classes-in-qurayyat.md"
+  to = "/src/pages/coding-classes-in-qurayyat.md"
+  status = 200
+
+[[redirects]]
+  from = "/coding-classes-in-jalan-bani-bu-hassan"
+  to = "/src/pages/coding-classes-in-jalan-bani-bu-hassan.html"
+  status = 200
+
+[[redirects]]
+  from = "/coding-classes-in-jalan-bani-bu-hassan.md"
+  to = "/src/pages/coding-classes-in-jalan-bani-bu-hassan.md"
+  status = 200
+
 [[redirects]]
   from = "/*"
   to = "/src/pages/404.html"

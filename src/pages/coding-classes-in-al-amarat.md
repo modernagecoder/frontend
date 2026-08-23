@@ -30,7 +30,7 @@ Almost every published fact about Al Amarat is a count of components, which is e
 
 ### Twenty administrative areas
 
-The wilayat is made up of 20 administrative areas across 925 square kilometres. Twenty is a specific number, and it matters here: with two or three parts, rounding rarely goes wrong. With twenty, the small errors have somewhere to accumulate.
+The wilayat is made up of 20 administrative areas. Twenty is a specific number, and it matters here: with two or three parts, rounding rarely goes wrong. With twenty, the small errors have somewhere to accumulate.
 
 ### Fifty seven valleys and sixty one aflaj
 
@@ -132,7 +132,7 @@ Python computes the shares, prints the failing total, then implements largest re
 
 The rule moves into the reporting layer. Apportionment is a function with tests, the method is documented beside the output, and a dashboard that cannot reproduce its own total does not ship.
 
-The published counts on this page, 20 areas, 30 schools, 925 square kilometres, 57 valleys and 61 aflaj, are real. The per-area student rolls used inside the project are teaching values that sum to 25,000, and the page says so. The arithmetic does not depend on which numbers you choose, which is the point.
+The published counts on this page, 20 areas, 30 schools, 57 valleys and 61 aflaj, are real. The per-area student rolls used inside the project are teaching values that sum to 25,000, and the page says so. The arithmetic does not depend on which numbers you choose, which is the point.
 
 Learning ladder
 

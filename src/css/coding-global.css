@@ -130,6 +130,11 @@
 .cg-root.cg-mdh { --cg-accent: #6B4E00; --cg-accent-soft: rgba(107,78,0,.09); }   /* Al Mudhaibi, the golden sand of the interior */
 .cg-root.cg-khb { --cg-accent: #155E75; --cg-accent-soft: rgba(21,94,117,.09); }   /* Al Khaburah, the wadi water off the Hajar */
 .cg-root.cg-shs2 { --cg-accent: #0E6E4E; --cg-accent-soft: rgba(14,110,78,.09); }   /* Shinas, the green of the irrigated plain */
+.cg-root.cg-sml { --cg-accent: #4C4A9C; --cg-accent-soft: rgba(76,74,156,.09); }   /* Samail, the shadow in the mountain gap */
+.cg-root.cg-izk { --cg-accent: #7A3A5E; --cg-accent-soft: rgba(122,58,94,.09); }   /* Izki, the plum of the old walled quarter */
+.cg-root.cg-liw { --cg-accent: #1C5E3F; --cg-accent-soft: rgba(28,94,63,.09); }   /* Liwa, the mangrove green at Harmul */
+.cg-root.cg-qry { --cg-accent: #00636B; --cg-accent-soft: rgba(0,99,107,.09); }   /* Qurayyat, the turquoise of the sinkhole */
+.cg-root.cg-jbh { --cg-accent: #8A4B0F; --cg-accent-soft: rgba(138,75,15,.09); }   /* Jalan Bani Bu Hassan, the mudbrick of Al Muhaywil */
 .cg-root.cg-wst { --cg-accent: #4A4800; --cg-accent-soft: rgba(74,72,0,.09); }   /* Al Wusta, the khaki scrub of the Jiddat al-Harasis */
 
 /* --------------------------------------------------------------------------
