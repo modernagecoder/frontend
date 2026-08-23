@@ -2,63 +2,58 @@
   "meta": {
     "slug": "scratch-programming-complete-course",
     "date": "2025-10-30",
-    "title": "Scratch Programming for Kids: 3-Month Course, 50+ Projects",
-    "description": "A 3-month Scratch course for kids: go from zero to games, animations and interactive stories, building computational thinking with 50+ MIT Scratch projects.",
+    "title": "Scratch Coding for Kids: Zero to Real Games in 3 Months",
+    "description": "Scratch coding course for kids aged 6-12: live online classes from first block to real games and animations, 35+ projects in 3-4 months on free MIT Scratch.",
     "keywords": [
-      "Scratch programming",
-      "kids coding",
-      "block programming",
-      "game development for kids",
-      "MIT Scratch",
-      "visual programming",
-      "computational thinking",
-      "creative coding",
-      "animation for kids",
-      "interactive stories",
-      "game design",
-      "STEM education",
-      "coding for beginners",
-      "Scratch 3.0",
-      "educational games"
+      "scratch coding for kids",
+      "scratch programming course for kids",
+      "scratch classes online for kids",
+      "learn scratch for kids",
+      "scratch course for beginners",
+      "coding for kids with scratch",
+      "scratch game making for kids",
+      "online scratch classes india",
+      "mit scratch course for children",
+      "block coding classes for kids",
+      "scratch coding for 8 year olds",
+      "best scratch course for kids"
     ],
-    "category": "Visual Programming & Game Development",
+    "category": "Kids Coding",
     "taxonomy": "game-dev",
     "price": {
       "group": "₹1,499/month",
       "miniBatch": "₹2,999/month",
       "personal": "₹4,999/month"
     },
-    "duration": "3 months (12 weeks)",
-    "level": "Complete Beginner to Advanced Scratch Developer",
-    "commitment": "5-7 hours/week recommended",
-    "certification": "Certified Scratch Game Developer",
-    "image_path": "scratch-kids.webp"
+    "duration": "3-4 months (12-16 weeks)",
+    "level": "Complete beginner, ages 6 to 12",
+    "commitment": "2 live classes/week + 2-3 hours practice",
+    "certification": "Certificate from Modern Age Coders, awarded on passing the final exam",
+    "image_path": "scratch-kids.webp",
+    "dateModified": "2026-08-23"
   },
   "program_overview": {
-    "title": "Scratch Programming Mastery for Kids",
-    "tagline": "From First Block to Game Developer - Master Creative Coding",
-    "description": "This intensive 3-month program transforms complete beginners into confident Scratch programmers capable of creating sophisticated games, animations, and interactive applications. Perfect for kids aged 7-16, teens, and even adults new to programming.\n\nStudents will master every aspect of Scratch 3.0, from basic sprite movement to complex game mechanics, data structures, and multiplayer features. Through 50+ hands-on projects, learners develop computational thinking, problem-solving skills, and unleash their creativity while building an impressive portfolio.",
+    "title": "Scratch Programming for Kids",
+    "tagline": "The best first coding language ever built, mastered properly: from the first dragged block to real games your child designed, in three focused months.",
+    "description": "Scratch, built by MIT, is where millions of children write their first real program, and for good reason: logic is learned by snapping colorful blocks together, and the results move, sing and play back immediately. This live online course takes children aged 6 to 12 from zero to genuinely capable: 35+ projects across three months, from first animations to complete games with scores, levels, clones and multi-sprite coordination.\n\nThe pace is honest and kid-sized: two live classes a week plus 2 to 3 hours of playful practice completes the course in 3 months, and children who want more time take up to 4, the batch adapts. Every week ends with something to show the family; every month ends with a friendly mixed challenge that quietly revises earlier skills; and the course ends with a final project exam, a game demo plus a short viva, that decides the certificate. Real skills, real games, real pride.",
     "what_makes_this_different": [
-      "Complete coverage of every Scratch feature",
-      "50+ progressively challenging projects",
-      "Game design principles included",
-      "Art and sound creation techniques",
-      "Mathematical concepts through coding",
-      "Story-telling and animation skills",
-      "Community sharing and collaboration",
-      "Preparation for text-based programming"
+      "Every single week ships projects: 35+ games, animations and stories across the course, built by the child, not the teacher",
+      "Real Scratch depth: variables, lists, clones and broadcasts, the concepts that make later Python feel familiar",
+      "Kid-sized honest pace: 3 months at 2 classes a week, with a 4th month in hand for children who want more practice time",
+      "Monthly mixed challenges revise earlier skills on purpose, so nothing fades between weeks",
+      "A final project exam decides the certificate: a game demo plus a friendly viva, with a free retest after revision if needed",
+      "Small live batches capped at 10, grouped by age, with mini-batch and 1-on-1 options"
     ],
     "learning_path": {
-      "month_1": "Foundations: Sprites, Motion, Events, and Basic Games",
-      "month_2": "Advanced Techniques: Variables, Lists, Clones, and Complex Logic",
-      "month_3": "Mastery: Advanced Games, Extensions, and Creative Projects"
+      "month_1": "Foundations (Weeks 1-4): sprites, motion, sounds, events and first games, plus creative pen art",
+      "month_2": "Real game mechanics (Weeks 5-8): variables and scores, lists, clones, and multi-sprite games with broadcasts",
+      "month_3": "Mastery (Weeks 9-12): extensions and AI blocks, physics, polish, and the final capstone game presented at demo day"
     },
     "career_outcomes": [
-      "Junior Game Developer",
-      "Creative Coder",
-      "Animation Creator",
-      "Interactive Media Designer",
-      "Ready for Python/JavaScript transition"
+      "A portfolio of 35+ Scratch projects crowned by an original capstone game",
+      "Computational thinking that shows up at school: sequencing, logic, debugging and patience",
+      "A confident step into our Kids Coding journey, Python for Kids or Minecraft and Roblox courses",
+      "A child who says \"I made this\" and can explain how it works"
     ]
   },
   "month_1": {
@@ -362,8 +357,10 @@
           "Increasing difficulty"
         ]
       },
-      "practice": "Draw a rainbow spiral with the pen extension by changing the pen color inside a repeat loop."
-    }
+      "practice": "Draw a rainbow spiral with the pen extension by changing the pen color inside a repeat loop.",
+      "assessment": "Month 1 check: build a small interactive scene live, plus a fun take-home challenge mixing everything from month 1"
+    },
+    "weeks": "Weeks 1-4"
   },
   "month_2": {
     "title": "Month 2: Advanced Scratch Techniques",
@@ -626,14 +623,16 @@
           "Professional polish"
         ]
       },
-      "practice": "Create a two scene story where a broadcast message switches the backdrop and cues the next character to speak."
-    }
+      "practice": "Create a two scene story where a broadcast message switches the backdrop and cues the next character to speak.",
+      "assessment": "Month 2 check: a mini game built live using variables and clones, with challenge questions reaching back to month 1"
+    },
+    "weeks": "Weeks 5-8"
   },
   "month_3": {
     "title": "Month 3: Mastery and Advanced Projects",
     "description": "Create professional games, master extensions, and prepare for text coding.",
     "week_9": {
-      "title": "Advanced Extensions and Hardware",
+      "title": "Extensions and AI Blocks",
       "topics": [
         "Music extension advanced features",
         "Creating dynamic soundtracks",
@@ -641,12 +640,10 @@
         "Language translation features",
         "Video Sensing for motion detection",
         "Creating motion-controlled games",
-        "Makey Makey integration basics",
-        "micro:bit connection and control",
-        "LEGO Mindstorms integration",
         "Using webcam for interaction",
         "Machine Learning extension intro",
-        "Creating AI-powered projects"
+        "Creating AI-powered projects",
+        "Optional hardware fun: micro:bit and Makey Makey, for families who have one at home"
       ],
       "extensions_covered": {
         "music": [
@@ -854,66 +851,6 @@
         "Python connections",
         "Future learning paths"
       ],
-      "capstone_project": {
-        "title": "Professional Game Development",
-        "duration": "Full week intensive",
-        "options": [
-          {
-            "name": "Complete RPG Adventure",
-            "features": [
-              "Multiple quests",
-              "Inventory system",
-              "Battle system",
-              "NPC interactions",
-              "Save/load game",
-              "20+ minutes gameplay"
-            ]
-          },
-          {
-            "name": "Educational Platform",
-            "features": [
-              "5+ learning modules",
-              "Progress tracking",
-              "Quiz system",
-              "Achievements",
-              "Certificate generation",
-              "Teacher dashboard"
-            ]
-          },
-          {
-            "name": "Multiplayer Game Prototype",
-            "features": [
-              "2-player support",
-              "Turn management",
-              "Score tracking",
-              "Multiple game modes",
-              "Tournament bracket",
-              "Replay system"
-            ]
-          },
-          {
-            "name": "Creative Tool Application",
-            "features": [
-              "Drawing/music/animation tool",
-              "Save/export features",
-              "Tool palette",
-              "Undo/redo system",
-              "Templates library",
-              "Sharing gallery"
-            ]
-          }
-        ],
-        "requirements": [
-          "Minimum 10 sprites",
-          "50+ scripts total",
-          "Custom blocks usage",
-          "Lists and variables",
-          "Professional UI",
-          "Sound and music",
-          "Instructions/tutorial",
-          "Bug-free experience"
-        ]
-      },
       "portfolio_components": [
         "10 mini-games",
         "5 animations",
@@ -934,8 +871,15 @@
         "Peer review participation",
         "Future goals setting"
       ],
-      "practice": "Write a one page plan for your final game with its goal, its sprites and three rules, then build the title screen."
-    }
+      "practice": "Write a one page plan for your final game with its goal, its sprites and three rules, then build the title screen.",
+      "projects": [
+        "THE CAPSTONE: an original game designed and built by the child, with levels, scoring and a polished start screen",
+        "Classic picks: an RPG adventure with quests, an educational quiz world, or an arcade game with increasing difficulty",
+        "A portfolio page collecting the course’s best 10 projects"
+      ],
+      "assessment": "FINAL EXAM: capstone game demo plus a friendly viva and a mixed quiz drawn from the whole course. Passing earns the certificate; a child who falls short gets focused revision and a free retest"
+    },
+    "weeks": "Weeks 9-12"
   },
   "additional_resources": {
     "sprite_creation": {
@@ -1030,53 +974,12 @@
     }
   },
   "assessment_structure": {
-    "weekly_assessments": {
-      "project_completion": "Complete weekly projects with requirements",
-      "skill_challenges": "Timed coding challenges",
-      "peer_review": "Review and provide feedback on peer projects",
-      "bug_fixes": "Debug provided broken code",
-      "creative_tasks": "Open-ended creative challenges"
-    },
-    "monthly_evaluations": {
-      "month_1": {
-        "skills_tested": [
-          "Basic sprite control",
-          "Event handling",
-          "Simple animations",
-          "User input",
-          "Sound integration"
-        ],
-        "project": "Complete game with menu and gameplay"
-      },
-      "month_2": {
-        "skills_tested": [
-          "Variables and lists",
-          "Clone management",
-          "Broadcast systems",
-          "Complex logic",
-          "Data structures"
-        ],
-        "project": "Advanced game with multiple features"
-      },
-      "month_3": {
-        "skills_tested": [
-          "Extensions usage",
-          "Physics implementation",
-          "Optimization",
-          "Professional polish",
-          "Complete project management"
-        ],
-        "project": "Capstone project presentation"
-      }
-    },
-    "certification_requirements": [
-      "Complete 80% of weekly projects",
-      "Pass all monthly evaluations",
-      "Submit capstone project",
-      "Demonstrate 40+ Scratch blocks usage",
-      "Create portfolio of 20+ projects",
-      "Participate in community"
-    ]
+    "classwork": "Guided building inside every live class, checked on the spot",
+    "homework": "A small project or challenge after every class",
+    "mixed_review": "Monthly challenges deliberately mix new blocks with earlier ones, so skills stop fading",
+    "monthly_checks": "A friendly live check at the end of each month",
+    "final_exam": "A capstone game demo plus a short viva and mixed quiz at the end of the course; passing earns the certificate",
+    "retest_policy": "A child who falls short gets a focused revision plan and a free retest, always"
   },
   "learning_support": {
     "tutorials": {
@@ -1220,11 +1123,11 @@
   },
   "additional_learning_resources": {
     "projects_throughout_course": [
-      "Month 1 (Weeks 1-4): 12+ Scratch projects - animations, drawings, interactive stories",
-      "Month 2 (Weeks 5-8): 12+ games - score systems, clones, multi-sprite coordination",
-      "Month 3 (Weeks 9-12): 12+ advanced projects - physics simulations, extensions, final portfolio"
+      "Month 1 (Weeks 1-4): 12+ projects: animations, interactive stories, pen art and first games",
+      "Month 2 (Weeks 5-8): 12+ games: score systems, list-powered quizzes, clone effects and multi-sprite worlds",
+      "Month 3 (Weeks 9-12): 10+ advanced builds: AI-block experiments, physics simulations, and the polished capstone"
     ],
-    "total_projects_built": "36+ Scratch projects + Final Capstone Game",
+    "total_projects_built": "35+ Scratch projects plus an original capstone game",
     "skills_mastered": [
       "Scratch Basics: sprites, motion, looks, sound, pen blocks, backdrops",
       "Programming Logic: loops, conditionals, events, variables, operators",
@@ -1235,30 +1138,25 @@
       "Professional Skills: debugging, code organization, project planning"
     ],
     "weekly_structure": {
-      "live_classes": "2 sessions (1-1.5 hours each)",
-      "independent_practice": "2-3 hours of project work",
-      "weekly_challenge": "1 creative coding challenge",
-      "total_per_week": "5-7 hours"
+      "live_classes": "2 live one-hour classes per week, building along with the teacher",
+      "homework": "A small homework build after every class, and a mixed-review challenge at the end of every month",
+      "practice": "2-3 hours of playful practice between classes",
+      "review": "Every project gets teacher feedback; wobbly concepts are reopened in class"
     },
     "certification": {
-      "final_certificate": "Certified Scratch Game Developer (Modern Age Coders)",
-      "capstone_required": "Complete original game with multiple levels, score system, and polished UI",
-      "portfolio": "36+ completed Scratch projects in online portfolio"
+      "completion": "Certificate from Modern Age Coders, awarded on passing the final exam, a capstone demo plus a friendly viva. A child who falls short gets focused revision and a free retest: the certificate certifies knowledge, not attendance"
     },
     "support_provided": {
-      "live_instruction": "Expert-led live classes with recorded replays",
-      "age_appropriate": "Content designed for kids - fun, visual, and encouraging",
-      "parent_guide": "Parent & teacher resources for supporting learning at home",
-      "community": "Access to Modern Age Coders kids coding community",
-      "transition_path": "Clear pathway to Python/JavaScript after course completion"
+      "doubt_support": "WhatsApp doubt support between classes, so no child stays stuck and discouraged",
+      "progress_updates": "Regular progress notes to parents: what was built, what comes next, and how to encourage practice at home"
     }
   },
   "prerequisites": {
-    "age": "Ages 6-14 (designed for complete beginners)",
-    "experience": "Absolutely none - start from zero",
-    "equipment": "Computer or laptop with internet connection",
-    "software": "Scratch is free and browser-based - nothing to install",
-    "reading": "Basic reading ability to follow on-screen instructions"
+    "coding_experience": "None. Scratch was invented exactly for this start",
+    "reading": "Basic reading ability to follow on-screen labels",
+    "equipment": "A computer or laptop with a stable internet connection; Scratch is free and runs in the browser",
+    "age": "6 to 12. Batches are grouped by age so pace and examples fit the room",
+    "time_commitment": "2 live classes plus 2-3 hours of playful practice a week"
   },
   "who_is_this_for": {
     "complete_beginners": "Kids aged 6-14 with zero coding experience",
@@ -1277,19 +1175,28 @@
   "course_guarantees": {
     "live_classes": "Live, interactive classes with a real instructor, never pre-recorded videos.",
     "small_batches": "Small batches only: group classes are capped at 10 students, with mini-batch (3 to 4 students) and personal 1-on-1 options.",
-    "structured_curriculum": "A structured, well-paced curriculum taught step by step, with hands-on practice in every session.",
+    "structured_curriculum": "A structured, well-paced curriculum taught step by step, with classwork in every session and homework after every class.",
+    "real_assessment": "Mixed-review challenges after every month and a final exam that decides the certificate: real knowledge, real work, real projects.",
     "doubt_support": "Doubt support between classes over WhatsApp, so you are never left stuck.",
-    "certificate": "A course-completion certificate you can share.",
+    "certificate": "A certificate your child earns by passing the final exam, with a free retest after revision if needed.",
     "free_demo": "A free demo class before you enrol, so you can decide with no pressure."
   },
   "faqs": [
     {
       "question": "What will my child actually create in this Scratch course?",
-      "answer": "Over 3 months your child builds 50+ hands-on projects in Scratch, starting with simple animations and working up to full games with scoring systems, clones, physics, and multi-sprite coordination. Month 1 covers motion, looks, sound, and logic; month 2 adds variables, lists, and game mechanics; month 3 finishes with advanced projects and a personal portfolio."
+      "answer": "Over 3 months your child builds 35+ real projects in Scratch: animations and interactive stories in month 1, genuine games with scores, clones and multi-sprite logic in month 2, and physics experiments, AI-block projects and a polished original capstone game in month 3. Every project is the child’s own work, demonstrated at home the same week it is built."
     },
     {
       "question": "What age is this Scratch course right for?",
-      "answer": "The course is designed for ages 6 to 14 and assumes zero coding experience. All your child needs is basic reading ability to follow on-screen instructions; lessons are visual and hands-on, which suits younger learners especially well."
+      "answer": "The course is designed for ages 6 to 12 and assumes zero coding experience. All your child needs is basic reading ability to follow on-screen labels; lessons are visual and hands-on, which suits younger learners especially well. Batches are grouped by age, so a 6-year-old is never racing an 11-year-old."
+    },
+    {
+      "question": "How long does it take a child to learn Scratch?",
+      "answer": "To real capability, games with scores, levels, clones and logic, it takes most children 3 months at 2 live classes a week plus a little playful practice. The course keeps a 4th month in hand for children who want more repetition, with no rushing and no penalty. The very first animation happens in class one; the pride starts immediately."
+    },
+    {
+      "question": "How is my child assessed? Is the certificate just for attending?",
+      "answer": "No, and it is all gentle: classwork in every session, a small homework build after every class, and a monthly challenge that mixes new blocks with earlier ones so skills compound instead of fading. The course ends with a final exam, a capstone demo plus a friendly viva. Passing earns the certificate; a child who falls short gets focused revision and a free retest. Real knowledge, real projects, no empty badges."
     },
     {
       "question": "Does my child need any coding background before joining?",
@@ -1317,7 +1224,7 @@
     },
     {
       "question": "Does my child receive a certificate at the end?",
-      "answer": "Yes, students earn a completion certificate when they finish the course. They also leave with a portfolio of real Scratch games and animations, which for most kids is the part they are proudest of."
+      "answer": "Yes, and it is earned, not handed out: the certificate is awarded on passing the final exam, a capstone game demo plus a friendly viva and a short mixed quiz, with a free retest after revision if the first attempt falls short. Alongside it stands the portfolio of 35+ real Scratch projects, which for most kids is the part they are proudest of."
     }
   ]
 }
