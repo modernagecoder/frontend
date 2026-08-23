@@ -27,11 +27,12 @@
       "group": "₹2,999/month",
       "personal": "₹8,999/month"
     },
-    "duration": "12 months (52 weeks)",
+    "duration": "12-14 months (52-60 weeks)",
     "level": "Complete Beginner to Advanced Professional",
-    "commitment": "12-15 hours/week recommended",
-    "certification": "Professional Business & Finance Mathematics Certificate",
-    "image_path": "business-finance-maths.webp"
+    "commitment": "2 live classes/week + 3-5 hours practice",
+    "certification": "Certificate from Modern Age Coders, awarded on passing the final exam",
+    "image_path": "business-finance-maths.webp",
+    "dateModified": "2026-08-24"
   },
   "program_overview": {
     "title": "Complete Business & Finance Mathematics Mastery Program",
@@ -63,11 +64,11 @@
     ]
   },
   "phase_1_foundation": {
-    "title": "PHASE 1: Business Mathematics Foundations (Months 1-3, Weeks 1-13)",
+    "title": "PHASE 1: Business Mathematics Foundations (Weeks 1-13)",
     "description": "Build rock-solid foundations in business calculations, financial mathematics, and accounting principles. Master the mathematical tools used daily in business.",
     "month_1_2": {
       "title": "Months 1-2: Core Business Mathematics",
-      "weeks": "Week 1-8",
+      "weeks": "Weeks 1-8",
       "week_1_2": {
         "title": "Percentages & Business Applications",
         "topics": [
@@ -161,9 +162,9 @@
         "practice": "Analyze 20 real company financial statements"
       }
     },
-    "month_3_4": {
+    "month_3": {
       "title": "Month 3: Accounting Mathematics & Cost Analysis",
-      "weeks": "Week 9-13",
+      "weeks": "Weeks 9-13",
       "week_9_10": {
         "title": "Accounting Mathematics Fundamentals",
         "topics": [
@@ -226,17 +227,17 @@
           "Build financial calculator app",
           "Create business math reference guide"
         ],
-        "assessment": "Phase 1 comprehensive exam covering all business math fundamentals"
+        "assessment": "Phase 1 cumulative exam: a written paper mixing this phase with everything before it, plus targeted revision for anything shaky"
       }
     }
   },
   "phase_2_frontend_mastery": {
-    "title": "PHASE 2: Statistical Analysis & Economic Mathematics (Months 4-6, Weeks 14-26)",
+    "title": "PHASE 2: Statistical Analysis and Economic Mathematics (Weeks 14-26)",
     "description": "Master statistical methods for business decision-making, economic analysis, and financial forecasting.",
-    "month_7_8": {
+    "month_4_5": {
       "title": "Months 4-5: Business Statistics & Analytics",
-      "weeks": "Week 14-21",
-      "week_27_28": {
+      "weeks": "Weeks 14-21",
+      "week_14_15": {
         "title": "Descriptive Statistics for Business",
         "topics": [
           "Business data types and collection methods",
@@ -259,7 +260,7 @@
         ],
         "practice": "Analyze 50 business datasets"
       },
-      "week_29_30": {
+      "week_16_17": {
         "title": "Probability in Business Decisions",
         "topics": [
           "Probability in risk assessment",
@@ -282,7 +283,7 @@
         ],
         "practice": "Solve 100 business probability problems"
       },
-      "week_31_32": {
+      "week_18_19": {
         "title": "Regression & Predictive Analytics",
         "topics": [
           "Simple linear regression for business",
@@ -305,7 +306,7 @@
         ],
         "practice": "Build 20 regression models with real data"
       },
-      "week_33_34": {
+      "week_20": {
         "title": "Hypothesis Testing for Business",
         "topics": [
           "Hypothesis testing framework in business",
@@ -328,7 +329,7 @@
         ],
         "practice": "Conduct 50 business hypothesis tests"
       },
-      "week_35": {
+      "week_21": {
         "title": "Time Series Analysis",
         "topics": [
           "Time series decomposition",
@@ -352,10 +353,10 @@
         "practice": "Analyze 25 business time series"
       }
     },
-    "month_9_10": {
+    "month_6": {
       "title": "Month 6: Economic & Market Mathematics",
-      "weeks": "Week 22-26",
-      "week_36_37": {
+      "weeks": "Weeks 22-26",
+      "week_22": {
         "title": "Microeconomic Mathematics",
         "topics": [
           "Supply and demand curves",
@@ -378,7 +379,7 @@
         ],
         "practice": "Solve 75 microeconomic problems"
       },
-      "week_38_39": {
+      "week_23": {
         "title": "Macroeconomic Mathematics",
         "topics": [
           "GDP calculations and components",
@@ -401,7 +402,7 @@
         ],
         "practice": "Complete 50 macroeconomic calculations"
       },
-      "week_40_41": {
+      "week_24": {
         "title": "Financial Markets Mathematics",
         "topics": [
           "Stock market indices calculation",
@@ -424,7 +425,7 @@
         ],
         "practice": "Price 50 different financial instruments"
       },
-      "week_42_43": {
+      "week_25": {
         "title": "International Finance Mathematics",
         "topics": [
           "Exchange rate systems",
@@ -447,7 +448,7 @@
         ],
         "practice": "Analyze 30 international finance scenarios"
       },
-      "week_44": {
+      "week_26": {
         "title": "Phase 2 Capstone Project",
         "topics": [
           "Integrated statistical analysis",
@@ -462,17 +463,17 @@
           "Economic forecast model",
           "Statistical analysis of business case"
         ],
-        "assessment": "Phase 2 comprehensive exam on statistics and economics"
+        "assessment": "Phase 2 cumulative exam: a written paper mixing this phase with everything before it, plus targeted revision for anything shaky"
       }
     }
   },
   "phase_3_backend_engineering": {
-    "title": "PHASE 3: Investment Mathematics & Risk Management (Months 7-9, Weeks 27-39)",
+    "title": "PHASE 3: Investment Mathematics and Risk Management (Weeks 27-39)",
     "description": "Master investment analysis, portfolio management, risk assessment, and corporate finance decisions.",
-    "month_13_14": {
+    "month_7_8": {
       "title": "Months 7-8: Investment Analysis & Valuation",
-      "weeks": "Week 27-34",
-      "week_53_54": {
+      "weeks": "Weeks 27-34",
+      "week_27_28": {
         "title": "Equity Valuation Mathematics",
         "topics": [
           "Discounted Cash Flow (DCF) models",
@@ -495,7 +496,7 @@
         ],
         "practice": "Value 25 real companies using different methods"
       },
-      "week_55_56": {
+      "week_29_30": {
         "title": "Fixed Income Mathematics",
         "topics": [
           "Bond pricing with different frequencies",
@@ -518,7 +519,7 @@
         ],
         "practice": "Analyze 50 different bond structures"
       },
-      "week_57_58": {
+      "week_31_32": {
         "title": "Portfolio Theory & Optimization",
         "topics": [
           "Risk and return measures",
@@ -541,7 +542,7 @@
         ],
         "practice": "Construct 20 optimal portfolios"
       },
-      "week_59_60": {
+      "week_33": {
         "title": "Performance Measurement & Attribution",
         "topics": [
           "Absolute vs relative returns",
@@ -564,7 +565,7 @@
         ],
         "practice": "Evaluate 30 portfolio performances"
       },
-      "week_61": {
+      "week_34": {
         "title": "Alternative Investments Mathematics",
         "topics": [
           "Real estate investment mathematics",
@@ -588,10 +589,10 @@
         "practice": "Analyze 20 alternative investments"
       }
     },
-    "month_15_16": {
+    "month_9": {
       "title": "Month 9: Risk Management & Insurance",
-      "weeks": "Week 35-39",
-      "week_62_63": {
+      "weeks": "Weeks 35-39",
+      "week_35": {
         "title": "Risk Measurement & Modeling",
         "topics": [
           "Types of financial risk",
@@ -614,7 +615,7 @@
         ],
         "practice": "Calculate risk metrics for 40 portfolios"
       },
-      "week_64_65": {
+      "week_36": {
         "title": "Insurance Mathematics",
         "topics": [
           "Life insurance mathematics",
@@ -637,7 +638,7 @@
         ],
         "practice": "Solve 50 actuarial problems"
       },
-      "week_66_67": {
+      "week_37": {
         "title": "Operational & Market Risk",
         "topics": [
           "Operational risk measurement",
@@ -660,7 +661,7 @@
         ],
         "practice": "Design 25 risk management strategies"
       },
-      "week_68_69": {
+      "week_38": {
         "title": "Regulatory Capital & Compliance",
         "topics": [
           "Basel III requirements",
@@ -683,7 +684,7 @@
         ],
         "practice": "Calculate regulatory metrics for 20 institutions"
       },
-      "week_70": {
+      "week_39": {
         "title": "Phase 3 Integration & Assessment",
         "topics": [
           "Integrated risk management",
@@ -698,17 +699,17 @@
           "Risk management framework design",
           "Portfolio optimization project"
         ],
-        "assessment": "Phase 3 exam on investments and risk"
+        "assessment": "Phase 3 cumulative exam: a written paper mixing this phase with everything before it, plus targeted revision for anything shaky"
       }
     }
   },
   "phase_4_advanced_production": {
-    "title": "PHASE 4: Advanced Finance & Quantitative Methods (Months 10-12, Weeks 40-52)",
+    "title": "PHASE 4: Advanced Finance and Final Revision (Weeks 40-52)",
     "description": "Master derivatives pricing, quantitative finance, financial modeling, and advanced corporate finance.",
-    "month_19_20": {
-      "title": "Months 10-11: Derivatives & Structured Products",
-      "weeks": "Week 40-47",
-      "week_79_80": {
+    "month_10": {
+      "title": "Month 10: Derivatives & Structured Products",
+      "weeks": "Weeks 40-45",
+      "week_40_41": {
         "title": "Options Mathematics",
         "topics": [
           "Call and put option payoffs",
@@ -731,7 +732,7 @@
         ],
         "practice": "Price 100 different option structures"
       },
-      "week_81_82": {
+      "week_42": {
         "title": "Futures & Forwards",
         "topics": [
           "Forward pricing theory",
@@ -754,7 +755,7 @@
         ],
         "practice": "Design 50 hedging strategies"
       },
-      "week_83_84": {
+      "week_43": {
         "title": "Swaps & Interest Rate Derivatives",
         "topics": [
           "Interest rate swap mechanics",
@@ -777,7 +778,7 @@
         ],
         "practice": "Structure 40 derivative solutions"
       },
-      "week_85_86": {
+      "week_44": {
         "title": "Credit Derivatives & Structured Finance",
         "topics": [
           "Credit default swap pricing",
@@ -800,7 +801,7 @@
         ],
         "practice": "Analyze 30 structured products"
       },
-      "week_87": {
+      "week_45": {
         "title": "Volatility & Advanced Greeks",
         "topics": [
           "Volatility smile and skew",
@@ -824,10 +825,10 @@
         "practice": "Implement 25 volatility strategies"
       }
     },
-    "month_21_22": {
-      "title": "Month 11-12: Quantitative Finance & Modeling",
-      "weeks": "Week 48-52",
-      "week_88_89": {
+    "month_11": {
+      "title": "Month 11: Quantitative Finance and Modelling",
+      "weeks": "Weeks 46-48",
+      "week_46": {
         "title": "Financial Modeling Excellence",
         "topics": [
           "Financial model architecture",
@@ -850,7 +851,7 @@
         ],
         "practice": "Build 10 professional financial models"
       },
-      "week_90_91": {
+      "week_47": {
         "title": "Algorithmic Trading Mathematics",
         "topics": [
           "Trading system components",
@@ -873,7 +874,7 @@
         ],
         "practice": "Backtest 20 trading strategies"
       },
-      "week_92_93": {
+      "week_48": {
         "title": "Corporate Finance Advanced",
         "topics": [
           "Advanced capital budgeting",
@@ -895,58 +896,12 @@
           "Capital structure optimizer"
         ],
         "practice": "Analyze 25 corporate finance decisions"
-      },
-      "week_94_95": {
-        "title": "Fintech & Blockchain Finance",
-        "topics": [
-          "Cryptocurrency valuation models",
-          "Blockchain in financial services",
-          "DeFi protocol mathematics",
-          "Yield farming calculations",
-          "Liquidity pool mathematics",
-          "Stablecoin mechanisms",
-          "Central bank digital currencies",
-          "Robo-advisor algorithms",
-          "Peer-to-peer lending models",
-          "Crowdfunding mathematics",
-          "Payment processing economics",
-          "RegTech applications"
-        ],
-        "projects": [
-          "DeFi yield calculator",
-          "Crypto portfolio tracker",
-          "P2P lending analyzer"
-        ],
-        "practice": "Analyze 20 fintech business models"
-      },
-      "week_96": {
-        "title": "ESG & Sustainable Finance",
-        "topics": [
-          "ESG scoring methodologies",
-          "Green bond mathematics",
-          "Carbon credit pricing",
-          "Social impact measurements",
-          "Sustainable investment strategies",
-          "Climate risk modeling",
-          "Transition risk assessment",
-          "Impact investing metrics",
-          "Blended finance structures",
-          "Sustainability-linked loans",
-          "TCFD reporting requirements",
-          "EU taxonomy calculations"
-        ],
-        "projects": [
-          "ESG portfolio analyzer",
-          "Carbon footprint calculator",
-          "Impact measurement tool"
-        ],
-        "practice": "Evaluate 15 sustainable investments"
       }
     },
-    "month_23": {
-      "title": "Professional Applications & Certification",
-      "weeks": "Week 50-52",
-      "week_97": {
+    "month_12": {
+      "title": "Month 12: Professional Applications and Revision",
+      "weeks": "Weeks 49-50",
+      "week_49": {
         "title": "Industry Case Studies",
         "topics": [
           "Investment banking case studies",
@@ -967,28 +922,7 @@
         ],
         "practice": "Analyze 10 real-world cases"
       },
-      "week_98": {
-        "title": "Professional Certifications Prep",
-        "topics": [
-          "CFA Level 1 quantitative review",
-          "FRM Part 1 quantitative topics",
-          "Actuarial exam prep",
-          "CAIA quantitative sections",
-          "CPA finance sections",
-          "Series 7 calculations",
-          "Bloomberg certification prep",
-          "Excel certification prep",
-          "Python for finance certification",
-          "Professional designation comparison"
-        ],
-        "projects": [
-          "Certification study planner",
-          "Practice exam generator",
-          "Formula reference guide"
-        ],
-        "practice": "Complete 500 certification practice questions"
-      },
-      "week_99": {
+      "week_50": {
         "title": "Financial Technology Tools",
         "topics": [
           "Bloomberg Terminal mastery",
@@ -1010,53 +944,12 @@
           "Real-time market dashboard"
         ],
         "practice": "Master 10 professional tools"
-      },
-      "week_100": {
-        "title": "Career Development & Networking",
-        "topics": [
-          "Finance career paths",
-          "Resume optimization for finance",
-          "Technical interview preparation",
-          "Case interview techniques",
-          "Networking in finance",
-          "LinkedIn optimization",
-          "CFA Institute networking",
-          "Professional associations",
-          "Continuing education planning",
-          "Industry trends and future"
-        ],
-        "projects": [
-          "Professional portfolio website",
-          "GitHub repository of projects",
-          "Industry research report"
-        ],
-        "practice": "Complete 20 mock interviews"
       }
     },
-    "month_24": {
-      "title": "Final Projects & Certification",
-      "weeks": "Week 51-52",
-      "week_101_102": {
-        "title": "Capstone Project - Part 1",
-        "topics": [
-          "Project selection and scoping",
-          "Data collection and cleaning",
-          "Model development",
-          "Analysis and insights",
-          "Risk assessment",
-          "Recommendations formulation",
-          "Sensitivity analysis",
-          "Documentation preparation"
-        ],
-        "projects": [
-          "FINAL CAPSTONE: Complete Financial Analysis Project",
-          "Options: Company valuation with M&A recommendation",
-          "Portfolio optimization with risk management",
-          "Trading strategy with full backtest",
-          "Fintech business plan with financial projections"
-        ]
-      },
-      "week_103": {
+    "month_13": {
+      "title": "Month 13: Final Projects & Certification",
+      "weeks": "Weeks 51-52",
+      "week_51": {
         "title": "Capstone Project - Part 2 & Presentation",
         "topics": [
           "Final model refinement",
@@ -1077,7 +970,7 @@
           "GitHub repository"
         ]
       },
-      "week_104": {
+      "week_52": {
         "title": "Final Assessment & Certification",
         "topics": [
           "Comprehensive knowledge review",
@@ -1097,7 +990,7 @@
           "LinkedIn certification badge",
           "Transcript of achievements"
         ],
-        "assessment": "FINAL EXAM: Comprehensive 4-hour exam covering all business and finance mathematics"
+        "assessment": "FINAL EXAM: a comprehensive written paper covering every phase of the course. Passing earns the certificate; falling short earns a focused revision plan and a free retest"
       }
     }
   },
@@ -1121,6 +1014,10 @@
     {
       "question": "Is this course theoretical or practical?",
       "answer": "Deliberately practical: every concept is anchored in a business situation, from break-even analysis and loan amortization to portfolio optimization. The final phase is essentially a professional toolkit of models you can reuse in a job, a business or further study."
+    },
+    {
+      "question": "How is my child assessed, and is the certificate just for attending?",
+      "answer": "No. A problem set follows every class with written feedback, monthly reviews deliberately mix new material with earlier topics so nothing is forgotten, each phase ends with a cumulative exam, and the course ends with a final exam covering the whole syllabus. Passing earns the certificate; falling short earns focused revision and a free retest. We measure understanding, not attendance."
     },
     {
       "question": "What are the fees for this program?",
@@ -1160,32 +1057,24 @@
       "Certifications Prep: CFA, FRM, actuarial exam readiness"
     ],
     "weekly_structure": {
-      "theory_videos": "5-6 hours",
-      "hands_on_coding": "4-5 hours",
-      "projects": "3-4 hours",
-      "practice_problems": "3-4 hours",
-      "total_per_week": "12-15 hours"
+      "live_classes": "2 live one-hour classes per week with a real teacher, working problems together",
+      "homework": "A problem set after every class, and a mixed-review assignment at the end of every month that deliberately folds in earlier topics",
+      "practice": "3-5 hours of problem-solving between classes",
+      "review": "Every set reviewed with written feedback; recurring mistakes reopened in class until they are gone"
     },
     "support_provided": {
-      "live_sessions": "Weekly problem-solving workshops",
-      "mentorship": "Industry professional mentors",
-      "community": "Active finance professionals network",
-      "code_review": "Model review and feedback",
-      "career_guidance": "Resume and interview preparation, plus portfolio and profile review."
+      "doubt_support": "WhatsApp doubt support between classes",
+      "progress_updates": "Honest monthly progress reviews: which topics are solid, which are wobbly, and the plan for the wobble"
     },
     "certification": {
-      "phase_certificates": "Certificate after each quarter",
-      "final_certificate": "Professional Finance Mathematics Certificate",
-      "linkedin_badge": "Verified achievement badge",
-      "industry_recognized": "Endorsed by finance professionals",
-      "portfolio_projects": "150+ completed financial analyses"
+      "completion": "Certificate from Modern Age Coders, awarded on passing the final exam. Fall short and there is focused revision and a free retest: the certificate certifies mastery, not attendance"
     }
   },
   "prerequisites": {
     "education": "High school mathematics",
     "coding_experience": "None required - will teach Excel/Python",
     "equipment": "Computer with Excel, internet connection",
-    "time_commitment": "12-15 hours per week",
+    "time_commitment": "2 live classes plus 3 to 5 hours of practice a week",
     "english": "Business English comprehension",
     "motivation": "Strong interest in finance/business"
   },
@@ -1221,7 +1110,8 @@
     "small_batches": "Small batches only: group classes are capped at 10 students, with mini-batch (3 to 4 students) and personal 1-on-1 options.",
     "structured_curriculum": "A structured, well-paced curriculum taught step by step, with hands-on practice in every session.",
     "doubt_support": "Doubt support between classes over WhatsApp, so you are never left stuck.",
-    "certificate": "A course-completion certificate you can share.",
-    "free_demo": "A free demo class before you enrol, so you can decide with no pressure."
+    "certificate": "A certificate you earn by passing the final exam, with a free retest after revision if needed.",
+    "free_demo": "A free demo class before you enrol, so you can decide with no pressure.",
+    "real_assessment": "Monthly mixed reviews, cumulative phase exams, and a final exam that decides the certificate: real understanding, real problem-solving, with a free retest after revision if needed."
   }
 }

@@ -27,11 +27,12 @@
       "group": "₹1,499/month",
       "personal": "₹3,999/month"
     },
-    "duration": "12 months (52 weeks)",
+    "duration": "12-14 months (52-60 weeks)",
     "level": "Intermediate to International Competition Level",
-    "commitment": "15-20 hours/week recommended",
-    "certification": "Olympiad Mathematics Excellence Certificate",
-    "image_path": "olympiad-competition-maths.webp"
+    "commitment": "2 live classes/week + 5-7 hours problem-solving",
+    "certification": "Certificate from Modern Age Coders, awarded on passing the final exam",
+    "image_path": "olympiad-competition-maths.webp",
+    "dateModified": "2026-08-24"
   },
   "program_overview": {
     "title": "Complete Olympiad & Competition Mathematics Mastery Program",
@@ -61,11 +62,11 @@
     ]
   },
   "phase_1_foundation": {
-    "title": "PHASE 1: Competition Fundamentals & Number Theory (Months 1-3, Weeks 1-13)",
+    "title": "PHASE 1: Competition Fundamentals and Number Theory (Weeks 1-13)",
     "description": "Build strong foundations in competition problem-solving, master number theory, and develop combinatorial thinking.",
     "month_1_2": {
       "title": "Months 1-2: Competition Mathematics Basics & Number Theory",
-      "weeks": "Week 1-8",
+      "weeks": "Weeks 1-8",
       "week_1_2": {
         "title": "Introduction to Competition Mathematics",
         "topics": [
@@ -159,9 +160,9 @@
         "practice": "30 advanced number theory problems from national olympiads"
       }
     },
-    "month_3_4": {
+    "month_3": {
       "title": "Month 3: Combinatorics Fundamentals",
-      "weeks": "Week 9-13",
+      "weeks": "Weeks 9-13",
       "week_9_10": {
         "title": "Counting Principles and Techniques",
         "topics": [
@@ -224,17 +225,17 @@
           "Mock AMC 10 competition",
           "Peer problem exchange and solving"
         ],
-        "assessment": "Phase 1 Mock Competition - 3 hour exam"
+        "assessment": "Phase 1 cumulative exam: a written paper mixing this phase with everything before it, plus targeted revision for anything shaky"
       }
     }
   },
   "phase_2_frontend_mastery": {
-    "title": "PHASE 2: Advanced Algebra & Polynomial Theory (Months 4-6, Weeks 14-26)",
+    "title": "PHASE 2: Advanced Algebra and Polynomial Theory (Weeks 14-26)",
     "description": "Master algebraic manipulations, polynomial theory, sequences, and functional equations for competitions.",
-    "month_7_8": {
+    "month_4_5": {
       "title": "Months 4-5: Competition Algebra & Polynomials",
-      "weeks": "Week 14-21",
-      "week_27_28": {
+      "weeks": "Weeks 14-21",
+      "week_14_15": {
         "title": "Advanced Algebraic Techniques",
         "topics": [
           "Algebraic manipulation mastery",
@@ -257,7 +258,7 @@
         ],
         "practice": "Daily: 8 advanced algebra competition problems"
       },
-      "week_29_30": {
+      "week_16_17": {
         "title": "Polynomial Theory",
         "topics": [
           "Polynomial division and remainder theorem",
@@ -280,7 +281,7 @@
         ],
         "practice": "45 polynomial problems from national olympiads"
       },
-      "week_31_32": {
+      "week_18_19": {
         "title": "Sequences and Series",
         "topics": [
           "Arithmetic and geometric progressions advanced",
@@ -303,7 +304,7 @@
         ],
         "practice": "Solve 40 sequence and series competition problems"
       },
-      "week_33_34": {
+      "week_20": {
         "title": "Equations and Systems",
         "topics": [
           "Systems of linear equations (advanced)",
@@ -326,7 +327,7 @@
         ],
         "practice": "Master 50 competition equation problems"
       },
-      "week_35": {
+      "week_21": {
         "title": "Complex Numbers in Competitions",
         "topics": [
           "Complex number operations review",
@@ -350,10 +351,10 @@
         "practice": "30 complex number competition problems"
       }
     },
-    "month_9_10": {
+    "month_6": {
       "title": "Month 6: Functional Equations & Advanced Topics",
-      "weeks": "Week 22-26",
-      "week_36_37": {
+      "weeks": "Weeks 22-26",
+      "week_22": {
         "title": "Functional Equations",
         "topics": [
           "Introduction to functional equations",
@@ -376,7 +377,7 @@
         ],
         "practice": "Solve 35 functional equation problems"
       },
-      "week_38_39": {
+      "week_23": {
         "title": "Mathematical Induction Advanced",
         "topics": [
           "Strong induction principles",
@@ -399,7 +400,7 @@
         ],
         "practice": "Complete 40 induction problems of varying difficulty"
       },
-      "week_40_41": {
+      "week_24": {
         "title": "Pigeonhole Principle & Extremal Problems",
         "topics": [
           "Pigeonhole principle variations",
@@ -422,7 +423,7 @@
         ],
         "practice": "30 pigeonhole and extremal problems"
       },
-      "week_42_43": {
+      "week_25": {
         "title": "Invariants and Monovariants",
         "topics": [
           "Invariant principle in problem solving",
@@ -445,7 +446,7 @@
         ],
         "practice": "Master 35 invariant-based problems"
       },
-      "week_44": {
+      "week_26": {
         "title": "Phase 2 Review and Competition",
         "topics": [
           "Algebra and polynomials review",
@@ -461,17 +462,17 @@
           "Mock AIME competition",
           "Problem-solving video tutorials"
         ],
-        "assessment": "Phase 2 Mock Competition - AIME level"
+        "assessment": "Phase 2 cumulative exam: a written paper mixing this phase with everything before it, plus targeted revision for anything shaky"
       }
     }
   },
   "phase_3_backend_engineering": {
-    "title": "PHASE 3: Competition Geometry & Trigonometry (Months 7-9, Weeks 27-39)",
+    "title": "PHASE 3: Competition Geometry and Trigonometry (Weeks 27-39)",
     "description": "Master advanced geometric techniques, trigonometric identities, and coordinate geometry for olympiad success.",
-    "month_13_14": {
+    "month_7_8": {
       "title": "Months 7-8: Euclidean Geometry & Triangle Theory",
-      "weeks": "Week 27-34",
-      "week_53_54": {
+      "weeks": "Weeks 27-34",
+      "week_27_28": {
         "title": "Advanced Triangle Geometry",
         "topics": [
           "Cevians: medians, altitudes, angle bisectors",
@@ -494,7 +495,7 @@
         ],
         "practice": "Solve 45 advanced triangle problems"
       },
-      "week_55_56": {
+      "week_29_30": {
         "title": "Circle Geometry",
         "topics": [
           "Power of a point theorem",
@@ -517,7 +518,7 @@
         ],
         "practice": "Master 40 circle geometry problems"
       },
-      "week_57_58": {
+      "week_31_32": {
         "title": "Similarity and Homothety",
         "topics": [
           "Advanced similarity principles",
@@ -540,7 +541,7 @@
         ],
         "practice": "Complete 35 similarity and homothety problems"
       },
-      "week_59_60": {
+      "week_33": {
         "title": "Geometric Transformations",
         "topics": [
           "Reflection properties and compositions",
@@ -563,7 +564,7 @@
         ],
         "practice": "Solve 40 transformation-based problems"
       },
-      "week_61": {
+      "week_34": {
         "title": "Construction Problems",
         "topics": [
           "Classical constructions review",
@@ -587,10 +588,10 @@
         "practice": "Complete 30 construction problems"
       }
     },
-    "month_15_16": {
+    "month_9": {
       "title": "Month 9: Trigonometry & Coordinate Geometry",
-      "weeks": "Week 35-39",
-      "week_62_63": {
+      "weeks": "Weeks 35-39",
+      "week_35": {
         "title": "Advanced Trigonometry",
         "topics": [
           "Trigonometric identities mastery",
@@ -613,7 +614,7 @@
         ],
         "practice": "Master 40 trigonometry competition problems"
       },
-      "week_64_65": {
+      "week_36": {
         "title": "Analytic Geometry",
         "topics": [
           "Coordinate geometry strategies",
@@ -636,7 +637,7 @@
         ],
         "practice": "Solve 35 coordinate geometry problems"
       },
-      "week_66_67": {
+      "week_37": {
         "title": "Vectors in Geometry",
         "topics": [
           "Vector operations and properties",
@@ -659,7 +660,7 @@
         ],
         "practice": "Complete 30 vector geometry problems"
       },
-      "week_68_69": {
+      "week_38": {
         "title": "Area and Volume Methods",
         "topics": [
           "Area calculation techniques",
@@ -682,7 +683,7 @@
         ],
         "practice": "Master 35 area and volume problems"
       },
-      "week_70": {
+      "week_39": {
         "title": "Phase 3 Review and Competition",
         "topics": [
           "Euclidean geometry mastery review",
@@ -699,17 +700,17 @@
           "Mock USAMO geometry round",
           "Geometry problem video solutions"
         ],
-        "assessment": "Phase 3 Geometry Olympiad - 4.5 hours"
+        "assessment": "Phase 3 cumulative exam: a written paper mixing this phase with everything before it, plus targeted revision for anything shaky"
       }
     }
   },
   "phase_4_advanced_production": {
-    "title": "PHASE 4: Inequalities, Advanced Topics & IMO Preparation (Months 10-12, Weeks 40-52)",
+    "title": "PHASE 4: Inequalities, Olympiad Practice and Final Revision (Weeks 40-52)",
     "description": "Master inequalities, advanced problem-solving techniques, and prepare for international competitions.",
-    "month_19_20": {
-      "title": "Months 10-11: Inequalities & Optimization",
-      "weeks": "Week 40-47",
-      "week_79_80": {
+    "month_10": {
+      "title": "Month 10: Inequalities & Optimization",
+      "weeks": "Weeks 40-44",
+      "week_40": {
         "title": "Classical Inequalities",
         "topics": [
           "AM-GM inequality and applications",
@@ -732,7 +733,7 @@
         ],
         "practice": "Prove 50 competition inequalities"
       },
-      "week_81_82": {
+      "week_41": {
         "title": "Advanced Inequality Techniques",
         "topics": [
           "Smoothing and majorization",
@@ -755,7 +756,7 @@
         ],
         "practice": "Master 40 advanced inequality problems"
       },
-      "week_83_84": {
+      "week_42": {
         "title": "Optimization Problems",
         "topics": [
           "Discrete optimization techniques",
@@ -778,7 +779,7 @@
         ],
         "practice": "Solve 35 optimization problems"
       },
-      "week_85_86": {
+      "week_43": {
         "title": "Advanced Combinatorics",
         "topics": [
           "Bijective proofs and counting",
@@ -801,7 +802,7 @@
         ],
         "practice": "Complete 40 advanced combinatorics problems"
       },
-      "week_87": {
+      "week_44": {
         "title": "Advanced Number Theory Topics",
         "topics": [
           "Quadratic reciprocity (complete)",
@@ -825,10 +826,10 @@
         "practice": "Tackle 30 research-level number theory problems"
       }
     },
-    "month_21_22": {
+    "month_11": {
       "title": "Month 11: Problem-Solving Mastery & Competition Strategy",
-      "weeks": "Week 48-52",
-      "week_88_89": {
+      "weeks": "Weeks 45-48",
+      "week_45": {
         "title": "IMO Problem Analysis",
         "topics": [
           "IMO problem structure and trends",
@@ -851,7 +852,7 @@
         ],
         "practice": "Solve 20 past IMO problems"
       },
-      "week_90_91": {
+      "week_46": {
         "title": "Putnam Competition Preparation",
         "topics": [
           "Putnam exam format and scoring",
@@ -874,7 +875,7 @@
         ],
         "practice": "Complete 30 Putnam problems"
       },
-      "week_92_93": {
+      "week_47": {
         "title": "Asian Pacific Mathematics Olympiad",
         "topics": [
           "APMO problem characteristics",
@@ -897,7 +898,7 @@
         ],
         "practice": "Solve 25 APMO problems from past years"
       },
-      "week_94_95": {
+      "week_48": {
         "title": "Competition Psychology & Peak Performance",
         "topics": [
           "Mental preparation for competitions",
@@ -919,35 +920,12 @@
           "Mental training program design"
         ],
         "practice": "Implement mental training with timed problem sets"
-      },
-      "week_96": {
-        "title": "Research Mathematics Introduction",
-        "topics": [
-          "From olympiads to research mathematics",
-          "Open problems in mathematics",
-          "Reading mathematical papers",
-          "Mathematical writing skills",
-          "LaTeX for mathematics",
-          "Undergraduate research opportunities",
-          "REU programs and applications",
-          "Mathematical journals for students",
-          "Online mathematics communities",
-          "Collaboration in mathematics",
-          "Career paths in mathematics",
-          "Graduate school preparation"
-        ],
-        "projects": [
-          "Write first mathematical paper",
-          "Research topic exploration",
-          "Academic mathematics plan"
-        ],
-        "practice": "Explore 5 research-level topics"
       }
     },
-    "month_23": {
+    "month_12": {
       "title": "Month 12: Mock Competitions & Final Preparation",
-      "weeks": "Week 49-52",
-      "week_97": {
+      "weeks": "Weeks 49-50",
+      "week_49": {
         "title": "National Olympiad Simulations",
         "topics": [
           "USAMO complete simulation",
@@ -970,7 +948,7 @@
         ],
         "practice": "One full national olympiad daily"
       },
-      "week_98": {
+      "week_50": {
         "title": "International Competition Week",
         "topics": [
           "IMO Day 1 simulation (4.5 hours)",
@@ -992,58 +970,12 @@
           "Competition reflection essay"
         ],
         "practice": "Full IMO mock over two days"
-      },
-      "week_99": {
-        "title": "Topic Integration & Problem Creation",
-        "topics": [
-          "Creating original problems",
-          "Problem difficulty assessment",
-          "Multi-topic problem design",
-          "Solution elegance principles",
-          "Alternative solution finding",
-          "Problem generalization techniques",
-          "Special case analysis",
-          "Problem posing for competitions",
-          "Reviewing peer solutions",
-          "Mathematical exposition",
-          "Building problem databases",
-          "Contributing to mathematics community"
-        ],
-        "projects": [
-          "Create 10 original competition problems",
-          "Design mini-competition for peers",
-          "Build personal problem archive"
-        ],
-        "practice": "Solve and create 5 integrated problems daily"
-      },
-      "week_100": {
-        "title": "Advanced Problem-Solving Techniques",
-        "topics": [
-          "Probabilistic method in combinatorics",
-          "Algebraic topology glimpses",
-          "Category theory basics",
-          "Model theory introduction",
-          "Ergodic theory applications",
-          "Representation theory basics",
-          "Algebraic geometry introduction",
-          "Differential geometry concepts",
-          "Measure theory basics",
-          "Fourier analysis glimpses",
-          "Mathematical physics connections",
-          "Frontier mathematics overview"
-        ],
-        "projects": [
-          "Advanced mathematics exploration",
-          "University course preview",
-          "Mathematical interests portfolio"
-        ],
-        "practice": "Explore 10 advanced mathematical topics"
       }
     },
-    "month_24": {
-      "title": "Month 12: Final Assessments & Future Planning",
-      "weeks": "Week 51-52",
-      "week_101_102": {
+    "month_13": {
+      "title": "Month 13: Final Assessments & Future Planning",
+      "weeks": "Weeks 51-52",
+      "week_51": {
         "title": "Comprehensive Review & Mastery",
         "topics": [
           "Number theory complete review",
@@ -1065,7 +997,7 @@
           "Video solution library creation"
         ]
       },
-      "week_103": {
+      "week_52": {
         "title": "Final Competition Series",
         "topics": [
           "AMC 12 simulation",
@@ -1088,34 +1020,8 @@
           "Performance analysis report",
           "Technique mastery certification",
           "Problem-solving speed metrics"
-        ]
-      },
-      "week_104": {
-        "title": "Future Planning & Career Guidance",
-        "topics": [
-          "University mathematics programs",
-          "Scholarship opportunities",
-          "Research program applications",
-          "Summer mathematics camps",
-          "International exchange programs",
-          "Online competition platforms",
-          "Mathematical communities joining",
-          "Mentorship opportunities",
-          "Teaching and tutoring paths",
-          "Competition coaching possibilities",
-          "Long-term mathematics goals",
-          "Life-long learning strategies"
         ],
-        "deliverables": [
-          "Competition achievement portfolio",
-          "University application materials",
-          "Scholarship application preparation",
-          "Future competition calendar",
-          "Mathematical CV creation",
-          "Recommendation letter materials",
-          "Personal mathematics statement"
-        ],
-        "assessment": "FINAL OLYMPIAD - Comprehensive 6-hour examination"
+        "assessment": "FINAL EXAM: a comprehensive written paper covering every phase of the course. Passing earns the certificate; falling short earns a focused revision plan and a free retest"
       }
     }
   },
@@ -1139,6 +1045,10 @@
     {
       "question": "How is progress measured in competition maths?",
       "answer": "Through weekly problem sets at calibrated difficulty, a personal problem log tracking which techniques are secure, and regular timed mock papers in the final months. Progress here looks like solving harder problems more independently, and the log makes that visible."
+    },
+    {
+      "question": "How is my child assessed, and is the certificate just for attending?",
+      "answer": "No. A problem set follows every class with written feedback, monthly reviews deliberately mix new material with earlier topics so nothing is forgotten, each phase ends with a cumulative exam, and the course ends with a final exam covering the whole syllabus. Passing earns the certificate; falling short earns focused revision and a free retest. We measure understanding, not attendance."
     },
     {
       "question": "What does the program cost?",
@@ -1181,32 +1091,24 @@
       "International Competitions: IMO, APMO, Putnam, national olympiads preparation"
     ],
     "weekly_structure": {
-      "theory_videos": "5-6 hours",
-      "hands_on_practice": "8-10 hours",
-      "projects": "3-4 hours",
-      "practice_problems": "5-6 hours",
-      "total_per_week": "15-20 hours"
+      "live_classes": "2 live one-hour classes per week with a real teacher, working problems together",
+      "homework": "A problem set after every class, and a mixed-review assignment at the end of every month that deliberately folds in earlier topics",
+      "practice": "3-5 hours of problem-solving between classes",
+      "review": "Every set reviewed with written feedback; recurring mistakes reopened in class until they are gone"
     },
     "support_provided": {
-      "live_sessions": "Weekly problem-solving sessions with experts",
-      "mentorship": "1-on-1 coaching from olympiad medalists",
-      "community": "Elite competition preparation community",
-      "code_review": "Solution reviews and feedback",
-      "career_support": "University admissions guidance"
+      "doubt_support": "WhatsApp doubt support between classes",
+      "progress_updates": "Honest monthly progress reviews: which topics are solid, which are wobbly, and the plan for the wobble"
     },
     "certification": {
-      "phase_certificates": "Certificate after each phase completion",
-      "final_certificate": "Olympiad Mathematics Excellence Certificate",
-      "linkedin_badge": "Competition mathematics credential",
-      "industry_recognized": "Recognized by universities and mathematics departments",
-      "portfolio_projects": "1000+ solved competition problems portfolio"
+      "completion": "Certificate from Modern Age Coders, awarded on passing the final exam. Fall short and there is focused revision and a free retest: the certificate certifies mastery, not attendance"
     }
   },
   "prerequisites": {
     "education": "Strong foundation in school mathematics",
     "coding_experience": "Basic algebra and geometry knowledge required",
     "equipment": "Computer with internet, graphing calculator, geometry tools",
-    "time_commitment": "15-20 hours per week minimum",
+    "time_commitment": "2 live classes plus 5 to 7 hours of problem-solving a week (olympiad training rewards more practice)",
     "english": "Advanced mathematical reading ability",
     "motivation": "Passionate about mathematical problem solving"
   },
@@ -1235,7 +1137,8 @@
     "small_batches": "Small batches only: group classes are capped at 10 students, with mini-batch (3 to 4 students) and personal 1-on-1 options.",
     "structured_curriculum": "A structured, well-paced curriculum taught step by step, with hands-on practice in every session.",
     "doubt_support": "Doubt support between classes over WhatsApp, so you are never left stuck.",
-    "certificate": "A course-completion certificate you can share.",
-    "free_demo": "A free demo class before you enrol, so you can decide with no pressure."
+    "certificate": "A certificate you earn by passing the final exam, with a free retest after revision if needed.",
+    "free_demo": "A free demo class before you enrol, so you can decide with no pressure.",
+    "real_assessment": "Monthly mixed reviews, cumulative phase exams, and a final exam that decides the certificate: real understanding, real problem-solving, with a free retest after revision if needed."
   }
 }

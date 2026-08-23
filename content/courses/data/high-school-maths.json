@@ -28,11 +28,12 @@
       "miniBatch": "₹2,999/month",
       "personal": "₹4,999/month"
     },
-    "duration": "12 months (52 weeks)",
+    "duration": "12-14 months (52-60 weeks)",
     "level": "Complete Beginner to Advanced High School",
-    "commitment": "10-15 hours/week recommended",
-    "certification": "High School Mathematics Completion Certificate",
-    "image_path": "high-school-maths.webp"
+    "commitment": "2 live classes/week + 3-5 hours practice",
+    "certification": "Certificate from Modern Age Coders, awarded on passing the final exam",
+    "image_path": "high-school-maths.webp",
+    "dateModified": "2026-08-24"
   },
   "program_overview": {
     "title": "Complete High School Mathematics Mastery Program",
@@ -63,11 +64,11 @@
     ]
   },
   "phase_1_foundation": {
-    "title": "PHASE 1: Algebraic Foundations & Basic Geometry (Months 1-3, Weeks 1-13)",
+    "title": "PHASE 1: Algebraic Foundations and Basic Geometry (Weeks 1-13)",
     "description": "Build strong foundations in algebraic thinking, equation solving, and geometric reasoning. Master the core concepts that form the basis of all advanced mathematics.",
     "month_1_2": {
       "title": "Months 1-2: Algebra I Fundamentals",
-      "weeks": "Week 1-8",
+      "weeks": "Weeks 1-8",
       "week_1_2": {
         "title": "Number Systems & Algebraic Expressions",
         "topics": [
@@ -161,9 +162,9 @@
         "practice": "Factor 200 expressions of varying types"
       }
     },
-    "month_3_4": {
+    "month_3": {
       "title": "Month 3: Systems & Basic Geometry",
-      "weeks": "Week 9-13",
+      "weeks": "Weeks 9-13",
       "week_9_10": {
         "title": "Systems of Linear Equations",
         "topics": [
@@ -226,17 +227,17 @@
           "Design practice test for peers",
           "Real-world application portfolio"
         ],
-        "assessment": "Phase 1 comprehensive exam covering all topics"
+        "assessment": "Phase 1 cumulative exam: a written paper mixing this phase with everything before it, plus targeted revision for anything shaky"
       }
     }
   },
   "phase_2_frontend_mastery": {
-    "title": "PHASE 2: Advanced Algebra & Functions (Months 4-6, Weeks 14-26)",
+    "title": "PHASE 2: Advanced Algebra and Functions (Weeks 14-26)",
     "description": "Master quadratic functions, advanced algebraic concepts, coordinate geometry, and function theory. Build strong analytical and graphing skills.",
-    "month_7_8": {
+    "month_4_5": {
       "title": "Months 4-5: Quadratics & Functions",
-      "weeks": "Week 14-21",
-      "week_27_28": {
+      "weeks": "Weeks 14-21",
+      "week_14_15": {
         "title": "Quadratic Functions & Equations",
         "topics": [
           "Quadratic functions: f(x) = ax² + bx + c",
@@ -259,7 +260,7 @@
         ],
         "practice": "Solve 200 quadratic problems"
       },
-      "week_29_30": {
+      "week_16_17": {
         "title": "Exponential & Logarithmic Functions",
         "topics": [
           "Exponential functions: f(x) = aˣ",
@@ -282,7 +283,7 @@
         ],
         "practice": "Master 150 exponential and logarithmic problems"
       },
-      "week_31_32": {
+      "week_18_19": {
         "title": "Rational Functions & Expressions",
         "topics": [
           "Rational expressions: simplification",
@@ -305,7 +306,7 @@
         ],
         "practice": "Complete 150 rational expression problems"
       },
-      "week_33_34": {
+      "week_20": {
         "title": "Function Theory & Transformations",
         "topics": [
           "Function definition and notation",
@@ -328,7 +329,7 @@
         ],
         "practice": "Work through 200 function problems"
       },
-      "week_35": {
+      "week_21": {
         "title": "Conic Sections",
         "topics": [
           "Circle equation: center-radius form",
@@ -349,10 +350,10 @@
         "practice": "Graph and analyze 100 conic sections"
       }
     },
-    "month_9_10": {
+    "month_6": {
       "title": "Month 6: Coordinate Geometry & Vectors",
-      "weeks": "Week 22-26",
-      "week_36_37": {
+      "weeks": "Weeks 22-26",
+      "week_22": {
         "title": "Advanced Coordinate Geometry",
         "topics": [
           "Distance formula in 2D and 3D",
@@ -375,7 +376,7 @@
         ],
         "practice": "Solve 150 coordinate geometry problems"
       },
-      "week_38_39": {
+      "week_23": {
         "title": "Introduction to Vectors",
         "topics": [
           "Vector vs scalar quantities",
@@ -398,7 +399,7 @@
         ],
         "practice": "Complete 100 vector problems"
       },
-      "week_40_41": {
+      "week_24": {
         "title": "Sequences and Series",
         "topics": [
           "Arithmetic sequences",
@@ -421,7 +422,7 @@
         ],
         "practice": "Work through 150 sequence and series problems"
       },
-      "week_42_43": {
+      "week_25": {
         "title": "Complex Numbers",
         "topics": [
           "Imaginary unit i",
@@ -444,7 +445,7 @@
         ],
         "practice": "Master 100 complex number problems"
       },
-      "week_44": {
+      "week_26": {
         "title": "Phase 2 Capstone Assessment",
         "topics": [
           "Comprehensive function review",
@@ -459,17 +460,17 @@
           "Create mathematical model for real phenomenon",
           "Build comprehensive problem set with solutions"
         ],
-        "assessment": "Phase 2 comprehensive exam"
+        "assessment": "Phase 2 cumulative exam: a written paper mixing this phase with everything before it, plus targeted revision for anything shaky"
       }
     }
   },
   "phase_3_backend_engineering": {
-    "title": "PHASE 3: Trigonometry & Pre-Calculus (Months 7-9, Weeks 27-39)",
+    "title": "PHASE 3: Trigonometry and Pre-Calculus (Weeks 27-39)",
     "description": "Master trigonometric functions, identities, and applications. Prepare for calculus with limits, advanced functions, and analytical geometry.",
-    "month_13_14": {
+    "month_7_8": {
       "title": "Months 7-8: Trigonometry Mastery",
-      "weeks": "Week 27-34",
-      "week_53_54": {
+      "weeks": "Weeks 27-34",
+      "week_27_28": {
         "title": "Trigonometric Ratios & Functions",
         "topics": [
           "Angle measurement: degrees and radians",
@@ -492,7 +493,7 @@
         ],
         "practice": "Solve 200 basic trigonometry problems"
       },
-      "week_55_56": {
+      "week_29_30": {
         "title": "Graphing Trigonometric Functions",
         "topics": [
           "Graphing sine and cosine functions",
@@ -515,7 +516,7 @@
         ],
         "practice": "Graph 150 trigonometric functions"
       },
-      "week_57_58": {
+      "week_31_32": {
         "title": "Trigonometric Identities",
         "topics": [
           "Fundamental identities: Pythagorean, reciprocal, quotient",
@@ -538,7 +539,7 @@
         ],
         "practice": "Prove 100 trigonometric identities"
       },
-      "week_59_60": {
+      "week_33": {
         "title": "Trigonometric Equations & Applications",
         "topics": [
           "Solving basic trigonometric equations",
@@ -561,7 +562,7 @@
         ],
         "practice": "Solve 150 trigonometric equations"
       },
-      "week_61": {
+      "week_34": {
         "title": "Law of Sines and Cosines",
         "topics": [
           "Law of sines derivation",
@@ -584,10 +585,10 @@
         "practice": "Solve 100 triangle problems"
       }
     },
-    "month_15_16": {
+    "month_9": {
       "title": "Month 9: Pre-Calculus & Limits",
-      "weeks": "Week 35-39",
-      "week_62_63": {
+      "weeks": "Weeks 35-39",
+      "week_35": {
         "title": "Limits and Continuity",
         "topics": [
           "Introduction to limits",
@@ -610,7 +611,7 @@
         ],
         "practice": "Evaluate 200 limits"
       },
-      "week_64_65": {
+      "week_36": {
         "title": "Introduction to Derivatives",
         "topics": [
           "Rate of change and slope",
@@ -633,7 +634,7 @@
         ],
         "practice": "Find 150 derivatives"
       },
-      "week_66_67": {
+      "week_37": {
         "title": "Mathematical Reasoning & Proofs",
         "topics": [
           "Logic and statements",
@@ -656,7 +657,7 @@
         ],
         "practice": "Write 50 mathematical proofs"
       },
-      "week_68_69": {
+      "week_38": {
         "title": "Matrices and Determinants",
         "topics": [
           "Matrix notation and terminology",
@@ -679,7 +680,7 @@
         ],
         "practice": "Complete 100 matrix problems"
       },
-      "week_70": {
+      "week_39": {
         "title": "Phase 3 Review & Assessment",
         "topics": [
           "Trigonometry comprehensive review",
@@ -694,17 +695,17 @@
           "Design pre-calculus problem bank",
           "Build interactive review tool"
         ],
-        "assessment": "Phase 3 comprehensive exam"
+        "assessment": "Phase 3 cumulative exam: a written paper mixing this phase with everything before it, plus targeted revision for anything shaky"
       }
     }
   },
   "phase_4_advanced_production": {
-    "title": "PHASE 4: Calculus & Advanced Topics (Months 10-12, Weeks 40-52)",
+    "title": "PHASE 4: Calculus, Statistics and Final Revision (Weeks 40-52)",
     "description": "Master differential and integral calculus, statistics, probability, and advanced problem-solving techniques for university readiness.",
-    "month_19_20": {
-      "title": "Months 10-11: Calculus",
-      "weeks": "Week 40-47",
-      "week_79_80": {
+    "month_10": {
+      "title": "Month 10: Calculus",
+      "weeks": "Weeks 40-44",
+      "week_40": {
         "title": "Differential Calculus",
         "topics": [
           "Review of derivative concept",
@@ -727,7 +728,7 @@
         ],
         "practice": "Solve 300 differentiation problems"
       },
-      "week_81_82": {
+      "week_41": {
         "title": "Applications of Derivatives",
         "topics": [
           "Critical points and extrema",
@@ -750,7 +751,7 @@
         ],
         "practice": "Complete 200 application problems"
       },
-      "week_83_84": {
+      "week_42": {
         "title": "Integral Calculus",
         "topics": [
           "Antiderivatives and indefinite integrals",
@@ -773,7 +774,7 @@
         ],
         "practice": "Evaluate 300 integrals"
       },
-      "week_85_86": {
+      "week_43": {
         "title": "Applications of Integration",
         "topics": [
           "Area between curves",
@@ -796,7 +797,7 @@
         ],
         "practice": "Solve 150 application problems"
       },
-      "week_87": {
+      "week_44": {
         "title": "Series and Sequences (Calculus)",
         "topics": [
           "Infinite sequences",
@@ -820,10 +821,10 @@
         "practice": "Analyze 100 series"
       }
     },
-    "month_21_22": {
-      "title": "Month 12: Statistics & Probability",
-      "weeks": "Week 48-52",
-      "week_88_89": {
+    "month_11": {
+      "title": "Month 11: Statistics & Probability",
+      "weeks": "Weeks 45-49",
+      "week_45": {
         "title": "Descriptive Statistics",
         "topics": [
           "Types of data: categorical, numerical",
@@ -846,7 +847,7 @@
         ],
         "practice": "Analyze 50 data sets"
       },
-      "week_90_91": {
+      "week_46": {
         "title": "Probability Theory",
         "topics": [
           "Sample spaces and events",
@@ -869,7 +870,7 @@
         ],
         "practice": "Solve 150 probability problems"
       },
-      "week_92_93": {
+      "week_47": {
         "title": "Probability Distributions",
         "topics": [
           "Random variables: discrete and continuous",
@@ -892,7 +893,7 @@
         ],
         "practice": "Work with 100 distribution problems"
       },
-      "week_94_95": {
+      "week_48": {
         "title": "Statistical Inference",
         "topics": [
           "Point estimation",
@@ -915,7 +916,7 @@
         ],
         "practice": "Conduct 75 hypothesis tests"
       },
-      "week_96": {
+      "week_49": {
         "title": "Advanced Problem Solving",
         "topics": [
           "Competition mathematics strategies",
@@ -938,73 +939,10 @@
         "practice": "Solve 100 competition-level problems"
       }
     },
-    "month_23": {
-      "title": "Final Review & Applications",
-      "weeks": "Week 51-52",
-      "week_97": {
-        "title": "Real-World Applications",
-        "topics": [
-          "Mathematics in physics",
-          "Mathematics in engineering",
-          "Mathematics in economics",
-          "Mathematics in computer science",
-          "Mathematics in biology",
-          "Mathematics in finance",
-          "Data science applications",
-          "Machine learning mathematics",
-          "Cryptography basics",
-          "Operations research"
-        ],
-        "projects": [
-          "Interdisciplinary problem solver",
-          "Real-world modeling project",
-          "Career-specific math toolkit"
-        ],
-        "practice": "Apply math to 50 real-world scenarios"
-      },
-      "week_98": {
-        "title": "Technology in Mathematics",
-        "topics": [
-          "Graphing calculators mastery",
-          "Computer algebra systems",
-          "Mathematical software: MATLAB, Mathematica",
-          "Python for mathematics",
-          "Data analysis with spreadsheets",
-          "GeoGebra for visualization",
-          "Desmos graphing",
-          "WolframAlpha usage",
-          "Mathematical typesetting (LaTeX)",
-          "Online resources and tools"
-        ],
-        "projects": [
-          "Create math visualization tool",
-          "Build calculator app",
-          "Develop math learning game"
-        ],
-        "practice": "Master 10 mathematical software tools"
-      },
-      "week_99": {
-        "title": "Mathematical Research Project",
-        "topics": [
-          "Choosing a research topic",
-          "Literature review basics",
-          "Mathematical writing",
-          "Creating mathematical arguments",
-          "Presenting mathematics",
-          "Peer review process",
-          "Mathematical communication",
-          "Visual representations",
-          "Mathematical poster creation",
-          "Oral presentation skills"
-        ],
-        "projects": [
-          "Complete mathematical research paper",
-          "Create presentation on chosen topic",
-          "Design mathematical exhibition"
-        ],
-        "practice": "Present findings to peers"
-      },
-      "week_100": {
+    "month_12": {
+      "title": "Month 12: Final Review & Applications",
+      "weeks": "Week 50",
+      "week_50": {
         "title": "University Preparation",
         "topics": [
           "University mathematics preview",
@@ -1026,10 +964,10 @@
         "practice": "Complete university-level problem sets"
       }
     },
-    "month_24": {
-      "title": "Final Assessments & Certification",
-      "weeks": "Week 52",
-      "week_101_102": {
+    "month_13": {
+      "title": "Month 13: Final Assessments & Certification",
+      "weeks": "Weeks 51-52",
+      "week_51": {
         "title": "Comprehensive Review - Part 1",
         "topics": [
           "Algebra complete review",
@@ -1047,7 +985,7 @@
           "Design review problem sets"
         ]
       },
-      "week_103": {
+      "week_52": {
         "title": "Comprehensive Review - Part 2 & Mock Exams",
         "topics": [
           "Cross-topic problem solving",
@@ -1064,31 +1002,8 @@
           "Error analysis report",
           "Personal progress documentation",
           "Achievement portfolio"
-        ]
-      },
-      "week_104": {
-        "title": "Final Certification & Future Planning",
-        "topics": [
-          "Final comprehensive examination",
-          "Portfolio presentation",
-          "Skills assessment",
-          "Strengths and areas for growth",
-          "Future learning pathways",
-          "University course selection guidance",
-          "Career planning in STEM",
-          "Lifelong learning in mathematics",
-          "Mathematical community engagement",
-          "Celebration of achievements"
         ],
-        "deliverables": [
-          "Final certification exam",
-          "Complete portfolio submission",
-          "Self-assessment report",
-          "Future learning plan",
-          "Peer recommendation letters",
-          "Course completion certificate"
-        ],
-        "assessment": "FINAL COMPREHENSIVE EXAM - 4-hour examination covering all topics from grades 9-12"
+        "assessment": "FINAL EXAM: a comprehensive written paper covering every phase of the course. Passing earns the certificate; falling short earns a focused revision plan and a free retest"
       }
     }
   },
@@ -1112,6 +1027,10 @@
     {
       "question": "How do we know it is working? How is progress measured?",
       "answer": "Every phase ends with an assessment that must be secure before moving on, and weekly problem work is reviewed for reasoning, not just answers. Parents get a clear picture from the running record of mastered topics, and school test performance is the natural external check along the way."
+    },
+    {
+      "question": "How is my child assessed, and is the certificate just for attending?",
+      "answer": "No. A problem set follows every class with written feedback, monthly reviews deliberately mix new material with earlier topics so nothing is forgotten, each phase ends with a cumulative exam, and the course ends with a final exam covering the whole syllabus. Passing earns the certificate; falling short earns focused revision and a free retest. We measure understanding, not attendance."
     },
     {
       "question": "What are the fees?",
@@ -1151,32 +1070,24 @@
       "Technology: Calculators, software, programming for math"
     ],
     "weekly_structure": {
-      "theory_videos": "4-6 hours",
-      "hands_on_coding": "3-4 hours",
-      "projects": "2-3 hours",
-      "practice_problems": "4-5 hours",
-      "total_per_week": "10-15 hours"
+      "live_classes": "2 live one-hour classes per week with a real teacher, working problems together",
+      "homework": "A problem set after every class, and a mixed-review assignment at the end of every month that deliberately folds in earlier topics",
+      "practice": "3-5 hours of problem-solving between classes",
+      "review": "Every set reviewed with written feedback; recurring mistakes reopened in class until they are gone"
     },
     "support_provided": {
-      "live_sessions": "Weekly problem-solving sessions",
-      "mentorship": "1-on-1 tutoring available",
-      "community": "Active student forum",
-      "code_review": "Solution review and feedback",
-      "career_support": "University application guidance"
+      "doubt_support": "WhatsApp doubt support between classes",
+      "progress_updates": "Honest monthly progress reviews: which topics are solid, which are wobbly, and the plan for the wobble"
     },
     "certification": {
-      "phase_certificates": "Certificate after each quarter",
-      "final_certificate": "High School Mathematics Completion Certificate",
-      "linkedin_badge": "Verifiable achievement badge",
-      "industry_recognized": "Accepted by universities",
-      "portfolio_projects": "50+ solved complex problems"
+      "completion": "Certificate from Modern Age Coders, awarded on passing the final exam. Fall short and there is focused revision and a free retest: the certificate certifies mastery, not attendance"
     }
   },
   "prerequisites": {
     "education": "Basic arithmetic and elementary math",
     "coding_experience": "None required - math focus",
     "equipment": "Computer/tablet, internet, calculator",
-    "time_commitment": "10-15 hours per week",
+    "time_commitment": "2 live classes plus 3 to 5 hours of practice a week",
     "english": "Basic comprehension",
     "motivation": "Desire to master mathematics"
   },
@@ -1205,7 +1116,8 @@
     "small_batches": "Small batches only: group classes are capped at 10 students, with mini-batch (3 to 4 students) and personal 1-on-1 options.",
     "structured_curriculum": "A structured, well-paced curriculum taught step by step, with hands-on practice in every session.",
     "doubt_support": "Doubt support between classes over WhatsApp, so you are never left stuck.",
-    "certificate": "A course-completion certificate you can share.",
-    "free_demo": "A free demo class before you enrol, so you can decide with no pressure."
+    "certificate": "A certificate you earn by passing the final exam, with a free retest after revision if needed.",
+    "free_demo": "A free demo class before you enrol, so you can decide with no pressure.",
+    "real_assessment": "Monthly mixed reviews, cumulative phase exams, and a final exam that decides the certificate: real understanding, real problem-solving, with a free retest after revision if needed."
   }
 }

@@ -28,11 +28,12 @@
       "miniBatch": "₹2,999/month",
       "personal": "₹4,999/month"
     },
-    "duration": "12 months (52 weeks)",
+    "duration": "12-14 months (52-60 weeks)",
     "level": "Complete Beginner to Advanced Middle School Level",
-    "commitment": "8-10 hours/week recommended",
-    "certification": "Middle School Mathematics Excellence Certificate",
-    "image_path": "middle-school-maths.webp"
+    "commitment": "2 live classes/week + 3-5 hours practice",
+    "certification": "Certificate from Modern Age Coders, awarded on passing the final exam",
+    "image_path": "middle-school-maths.webp",
+    "dateModified": "2026-08-24"
   },
   "program_overview": {
     "title": "Complete Middle School Mathematics Mastery Program",
@@ -62,11 +63,11 @@
     ]
   },
   "phase_1_foundation": {
-    "title": "PHASE 1: Number Systems & Fundamental Operations (Months 1-3, Weeks 1-13)",
+    "title": "PHASE 1: Number Systems and Fundamental Operations (Weeks 1-13)",
     "description": "Build unshakeable foundations in number concepts, operations, and mathematical thinking.",
     "month_1_2": {
       "title": "Months 1-2: Number Systems and Basic Operations",
-      "weeks": "Week 1-8",
+      "weeks": "Weeks 1-8",
       "week_1_2": {
         "title": "Introduction to Number Systems",
         "topics": [
@@ -160,9 +161,9 @@
         "practice": "30 division problems, find factors and multiples daily"
       }
     },
-    "month_3_4": {
+    "month_3": {
       "title": "Month 3: Order of Operations and Problem Solving",
-      "weeks": "Week 9-13",
+      "weeks": "Weeks 9-13",
       "week_9_10": {
         "title": "Order of Operations (PEMDAS/BODMAS)",
         "topics": [
@@ -224,17 +225,17 @@
           "Design a board game using Phase 1 concepts",
           "Peer tutoring sessions"
         ],
-        "assessment": "Phase 1 comprehensive exam covering all topics"
+        "assessment": "Phase 1 cumulative exam: a written paper mixing this phase with everything before it, plus targeted revision for anything shaky"
       }
     }
   },
   "phase_2_frontend_mastery": {
-    "title": "PHASE 2: Fractions, Decimals, and Proportional Reasoning (Months 4-6, Weeks 14-26)",
+    "title": "PHASE 2: Fractions, Decimals and Proportional Reasoning (Weeks 14-26)",
     "description": "Master rational numbers, proportional relationships, and their real-world applications.",
-    "month_7_8": {
+    "month_4_5": {
       "title": "Months 4-5: Fractions and Mixed Numbers",
-      "weeks": "Week 14-21",
-      "week_27_28": {
+      "weeks": "Weeks 14-21",
+      "week_14_15": {
         "title": "Understanding Fractions",
         "topics": [
           "Fraction concepts: parts of a whole",
@@ -257,7 +258,7 @@
         ],
         "practice": "30 fraction problems daily, visual and numerical"
       },
-      "week_29_30": {
+      "week_16_17": {
         "title": "Operations with Fractions",
         "topics": [
           "Adding fractions with like denominators",
@@ -280,7 +281,7 @@
         ],
         "practice": "25 fraction operation problems with increasing difficulty"
       },
-      "week_31_32": {
+      "week_18_19": {
         "title": "Decimals and Place Value",
         "topics": [
           "Decimal place value: tenths, hundredths, thousandths",
@@ -303,7 +304,7 @@
         ],
         "practice": "30 decimal problems including conversions"
       },
-      "week_33_34": {
+      "week_20": {
         "title": "Multiplying and Dividing Decimals",
         "topics": [
           "Multiplying decimals by whole numbers",
@@ -326,7 +327,7 @@
         ],
         "practice": "25 decimal multiplication and division problems"
       },
-      "week_35": {
+      "week_21": {
         "title": "Percentages and Applications",
         "topics": [
           "Understanding percent as per hundred",
@@ -350,10 +351,10 @@
         "practice": "20 percentage problems from real-world contexts"
       }
     },
-    "month_9_10": {
+    "month_6": {
       "title": "Month 6: Ratios and Proportional Relationships",
-      "weeks": "Week 22-26",
-      "week_36_37": {
+      "weeks": "Weeks 22-26",
+      "week_22": {
         "title": "Understanding Ratios",
         "topics": [
           "Ratio concepts and notation",
@@ -376,7 +377,7 @@
         ],
         "practice": "25 ratio and rate problems"
       },
-      "week_38_39": {
+      "week_23": {
         "title": "Proportions and Scale",
         "topics": [
           "Understanding proportions",
@@ -399,7 +400,7 @@
         ],
         "practice": "20 proportion problems including scale applications"
       },
-      "week_40_41": {
+      "week_24": {
         "title": "Real-World Applications",
         "topics": [
           "Currency exchange rates",
@@ -422,7 +423,7 @@
         ],
         "practice": "Apply proportional reasoning to 15 real-world scenarios"
       },
-      "week_42_43": {
+      "week_25": {
         "title": "Data with Fractions, Decimals, and Percents",
         "topics": [
           "Circle graphs (pie charts) with percentages",
@@ -445,7 +446,7 @@
         ],
         "practice": "Analyze 10 different data sets using various representations"
       },
-      "week_44": {
+      "week_26": {
         "title": "Phase 2 Review and Assessment",
         "topics": [
           "Comprehensive fraction review",
@@ -460,17 +461,17 @@
           "Design a proportion puzzle book",
           "Real-world math fair project"
         ],
-        "assessment": "Phase 2 comprehensive exam on rational numbers and proportions"
+        "assessment": "Phase 2 cumulative exam: a written paper mixing this phase with everything before it, plus targeted revision for anything shaky"
       }
     }
   },
   "phase_3_backend_engineering": {
-    "title": "PHASE 3: Algebraic Thinking and Pre-Algebra (Months 7-9, Weeks 27-39)",
+    "title": "PHASE 3: Algebraic Thinking and Pre-Algebra (Weeks 27-39)",
     "description": "Develop algebraic reasoning, solve equations, and understand functions and patterns.",
-    "month_13_14": {
+    "month_7_8": {
       "title": "Months 7-8: Introduction to Algebra",
-      "weeks": "Week 27-34",
-      "week_53_54": {
+      "weeks": "Weeks 27-34",
+      "week_27_28": {
         "title": "Variables and Expressions",
         "topics": [
           "Introduction to variables as unknowns",
@@ -493,7 +494,7 @@
         ],
         "practice": "30 expression problems: writing, evaluating, simplifying"
       },
-      "week_55_56": {
+      "week_29_30": {
         "title": "One-Step Equations",
         "topics": [
           "Understanding equations vs expressions",
@@ -516,7 +517,7 @@
         ],
         "practice": "Solve 25 one-step equations with various number types"
       },
-      "week_57_58": {
+      "week_31_32": {
         "title": "Two-Step and Multi-Step Equations",
         "topics": [
           "Two-step equations strategy",
@@ -539,7 +540,7 @@
         ],
         "practice": "20 multi-step equations with increasing complexity"
       },
-      "week_59_60": {
+      "week_33": {
         "title": "Inequalities",
         "topics": [
           "Understanding inequality symbols",
@@ -562,7 +563,7 @@
         ],
         "practice": "25 inequality problems with graphing"
       },
-      "week_61": {
+      "week_34": {
         "title": "Introduction to Functions",
         "topics": [
           "Input-output relationships",
@@ -586,10 +587,10 @@
         "practice": "Evaluate and graph 20 different functions"
       }
     },
-    "month_15_16": {
+    "month_9": {
       "title": "Month 9: Coordinate Geometry and Graphing",
-      "weeks": "Week 35-39",
-      "week_62_63": {
+      "weeks": "Weeks 35-39",
+      "week_35": {
         "title": "The Coordinate Plane",
         "topics": [
           "Cartesian coordinate system",
@@ -612,7 +613,7 @@
         ],
         "practice": "Plot 30 points and perform transformations"
       },
-      "week_64_65": {
+      "week_36": {
         "title": "Linear Relationships",
         "topics": [
           "Understanding slope as rate of change",
@@ -635,7 +636,7 @@
         ],
         "practice": "Graph 20 linear equations and find equations from graphs"
       },
-      "week_66_67": {
+      "week_37": {
         "title": "Patterns and Sequences",
         "topics": [
           "Number patterns recognition",
@@ -658,7 +659,7 @@
         ],
         "practice": "Identify and extend 25 different patterns"
       },
-      "week_68_69": {
+      "week_38": {
         "title": "Polynomials Introduction",
         "topics": [
           "Monomials, binomials, trinomials",
@@ -681,7 +682,7 @@
         ],
         "practice": "20 polynomial operations and factoring problems"
       },
-      "week_70": {
+      "week_39": {
         "title": "Phase 3 Review and Assessment",
         "topics": [
           "Algebraic expressions and equations review",
@@ -697,17 +698,17 @@
           "Create algebraic board game",
           "Real-world algebra applications portfolio"
         ],
-        "assessment": "Phase 3 comprehensive exam on algebraic concepts"
+        "assessment": "Phase 3 cumulative exam: a written paper mixing this phase with everything before it, plus targeted revision for anything shaky"
       }
     }
   },
   "phase_4_advanced_production": {
-    "title": "PHASE 4: Geometry, Statistics, and Advanced Problem Solving (Months 10-12, Weeks 40-52)",
+    "title": "PHASE 4: Geometry, Statistics and Final Revision (Weeks 40-52)",
     "description": "Master geometric concepts, statistical analysis, probability, and complex problem-solving strategies.",
-    "month_19_20": {
-      "title": "Months 10-11: Geometry Foundations",
-      "weeks": "Week 40-47",
-      "week_79_80": {
+    "month_10": {
+      "title": "Month 10: Geometry Foundations",
+      "weeks": "Weeks 40-44",
+      "week_40": {
         "title": "Basic Geometric Concepts",
         "topics": [
           "Points, lines, and planes",
@@ -730,7 +731,7 @@
         ],
         "practice": "Measure and calculate 30 angle problems"
       },
-      "week_81_82": {
+      "week_41": {
         "title": "Triangles and Quadrilaterals",
         "topics": [
           "Types of triangles by sides: equilateral, isosceles, scalene",
@@ -753,7 +754,7 @@
         ],
         "practice": "25 triangle and quadrilateral problems"
       },
-      "week_83_84": {
+      "week_42": {
         "title": "Circles",
         "topics": [
           "Circle vocabulary: center, radius, diameter",
@@ -776,7 +777,7 @@
         ],
         "practice": "20 circle calculation problems"
       },
-      "week_85_86": {
+      "week_43": {
         "title": "Area and Perimeter",
         "topics": [
           "Perimeter of polygons",
@@ -799,7 +800,7 @@
         ],
         "practice": "Calculate area and perimeter of 25 figures"
       },
-      "week_87": {
+      "week_44": {
         "title": "3D Geometry and Volume",
         "topics": [
           "3D shapes: prisms, pyramids, cylinders, cones, spheres",
@@ -823,10 +824,10 @@
         "practice": "Calculate volume and surface area of 20 3D shapes"
       }
     },
-    "month_21_22": {
+    "month_11": {
       "title": "Month 11: Statistics and Data Analysis",
-      "weeks": "Week 48-52",
-      "week_88_89": {
+      "weeks": "Weeks 45-49",
+      "week_45": {
         "title": "Data Collection and Representation",
         "topics": [
           "Types of data: categorical vs numerical",
@@ -849,7 +850,7 @@
         ],
         "practice": "Create 10 different data representations"
       },
-      "week_90_91": {
+      "week_46": {
         "title": "Measures of Central Tendency",
         "topics": [
           "Mean (average) calculation",
@@ -872,7 +873,7 @@
         ],
         "practice": "Calculate statistics for 15 data sets"
       },
-      "week_92_93": {
+      "week_47": {
         "title": "Probability Fundamentals",
         "topics": [
           "Probability as likelihood",
@@ -895,7 +896,7 @@
         ],
         "practice": "Solve 25 probability problems"
       },
-      "week_94_95": {
+      "week_48": {
         "title": "Statistical Analysis and Interpretation",
         "topics": [
           "Correlation vs causation",
@@ -918,7 +919,7 @@
         ],
         "practice": "Analyze and interpret 10 real-world data scenarios"
       },
-      "week_96": {
+      "week_49": {
         "title": "Problem Solving with Multiple Concepts",
         "topics": [
           "Multi-step problems combining algebra and geometry",
@@ -941,54 +942,10 @@
         "practice": "Solve 15 complex, multi-concept problems"
       }
     },
-    "month_23": {
+    "month_12": {
       "title": "Month 12: Advanced Topics and Test Preparation",
-      "weeks": "Week 49-52",
-      "week_97": {
-        "title": "Advanced Number Theory",
-        "topics": [
-          "Modular arithmetic basics",
-          "Number patterns and sequences",
-          "Pascal's triangle",
-          "Binary numbers introduction",
-          "Different base systems",
-          "Cryptography basics",
-          "Mathematical proofs introduction",
-          "Logic and truth tables",
-          "Set theory basics",
-          "Venn diagrams with three sets",
-          "Infinity concepts"
-        ],
-        "projects": [
-          "Number system exploration",
-          "Code-breaking activity",
-          "Mathematical proof writing"
-        ],
-        "practice": "Explore 10 advanced number concepts"
-      },
-      "week_98": {
-        "title": "Mathematical Connections",
-        "topics": [
-          "Mathematics in science",
-          "Mathematics in technology",
-          "Mathematics in art and music",
-          "Golden ratio and Fibonacci",
-          "Fractals introduction",
-          "Tessellations and symmetry",
-          "Mathematical modeling in real life",
-          "Financial mathematics",
-          "Sports analytics",
-          "Game theory basics",
-          "Mathematics in nature"
-        ],
-        "projects": [
-          "STEM integration project",
-          "Mathematical art creation",
-          "Real-world math presentation"
-        ],
-        "practice": "Apply mathematics to 10 different fields"
-      },
-      "week_99": {
+      "weeks": "Weeks 50-51",
+      "week_50": {
         "title": "Competition Mathematics",
         "topics": [
           "Problem-solving strategies review",
@@ -1010,7 +967,7 @@
         ],
         "practice": "Solve 20 competition-level problems"
       },
-      "week_100": {
+      "week_51": {
         "title": "Test Preparation and Strategies",
         "topics": [
           "Standardized test formats",
@@ -1033,10 +990,10 @@
         "practice": "Complete 3 full-length practice tests"
       }
     },
-    "month_24": {
-      "title": "Month 12: Final Projects and Comprehensive Review",
-      "weeks": "Week 51-52",
-      "week_101_102": {
+    "month_13": {
+      "title": "Month 13: Final Projects and Comprehensive Review",
+      "weeks": "Week 52",
+      "week_52": {
         "title": "Comprehensive Review and Integration",
         "topics": [
           "Number systems and operations review",
@@ -1056,58 +1013,8 @@
           "Year-long portfolio compilation",
           "Mathematical autobiography",
           "Comprehensive problem set creation"
-        ]
-      },
-      "week_103": {
-        "title": "Final Capstone Projects",
-        "topics": [
-          "Project planning and design",
-          "Research and investigation",
-          "Data collection and analysis",
-          "Mathematical modeling",
-          "Presentation preparation",
-          "Peer collaboration",
-          "Project documentation",
-          "Technology integration",
-          "Creative mathematical expression",
-          "Real-world problem solving",
-          "Community application"
         ],
-        "deliverables": [
-          "Research project on mathematical topic",
-          "Real-world problem-solving project",
-          "Mathematical art or design project",
-          "Teaching project for younger students",
-          "Technology integration project",
-          "Portfolio presentation"
-        ]
-      },
-      "week_104": {
-        "title": "Final Assessment and Future Planning",
-        "topics": [
-          "Comprehensive final examination",
-          "Portfolio presentation and defense",
-          "Peer evaluations",
-          "Self-reflection essays",
-          "Goal setting for high school",
-          "Advanced course recommendations",
-          "Summer enrichment opportunities",
-          "Mathematics career exploration",
-          "Celebration of achievements",
-          "Awards and recognition",
-          "Parent conferences",
-          "Transition planning"
-        ],
-        "deliverables": [
-          "Final comprehensive exam",
-          "Complete portfolio with all projects",
-          "Self-evaluation and reflection",
-          "Presentation to parents/community",
-          "High school readiness assessment",
-          "Individual achievement report",
-          "Future learning plan"
-        ],
-        "assessment": "FINAL COMPREHENSIVE EXAM - Cover all 12 months of content"
+        "assessment": "FINAL EXAM: a comprehensive written paper covering every phase of the course. Passing earns the certificate; falling short earns a focused revision plan and a free retest"
       }
     }
   },
@@ -1131,6 +1038,10 @@
     {
       "question": "How is progress measured?",
       "answer": "Through weekly practice reviewed for method, phase-end checks before new material begins, and a running mastery record shared with parents. The final month includes projects and a comprehensive review, so you finish with visible evidence of what your child can now do."
+    },
+    {
+      "question": "How is my child assessed, and is the certificate just for attending?",
+      "answer": "No. A problem set follows every class with written feedback, monthly reviews deliberately mix new material with earlier topics so nothing is forgotten, each phase ends with a cumulative exam, and the course ends with a final exam covering the whole syllabus. Passing earns the certificate; falling short earns focused revision and a free retest. We measure understanding, not attendance."
     },
     {
       "question": "How much does it cost?",
@@ -1173,32 +1084,24 @@
       "Test Taking: Standardized test strategies, time management, accuracy"
     ],
     "weekly_structure": {
-      "theory_videos": "3-4 hours",
-      "hands_on_practice": "4-5 hours",
-      "projects": "2-3 hours",
-      "practice_problems": "2-3 hours",
-      "total_per_week": "8-10 hours"
+      "live_classes": "2 live one-hour classes per week with a real teacher, working problems together",
+      "homework": "A problem set after every class, and a mixed-review assignment at the end of every month that deliberately folds in earlier topics",
+      "practice": "3-5 hours of problem-solving between classes",
+      "review": "Every set reviewed with written feedback; recurring mistakes reopened in class until they are gone"
     },
     "support_provided": {
-      "live_sessions": "Weekly problem-solving sessions",
-      "mentorship": "1-on-1 tutoring available",
-      "community": "Peer study groups and forums",
-      "code_review": "Problem solution reviews",
-      "career_support": "High school preparation guidance"
+      "doubt_support": "WhatsApp doubt support between classes",
+      "progress_updates": "Honest monthly progress reviews: which topics are solid, which are wobbly, and the plan for the wobble"
     },
     "certification": {
-      "phase_certificates": "Certificate after each phase completion",
-      "final_certificate": "Middle School Mathematics Excellence Certificate",
-      "linkedin_badge": "Digital badge for online profiles",
-      "industry_recognized": "Aligned with educational standards",
-      "portfolio_projects": "60+ projects to showcase learning"
+      "completion": "Certificate from Modern Age Coders, awarded on passing the final exam. Fall short and there is focused revision and a free retest: the certificate certifies mastery, not attendance"
     }
   },
   "prerequisites": {
     "education": "Elementary school mathematics completion",
     "coding_experience": "Basic arithmetic knowledge helpful",
     "equipment": "Computer/tablet with internet, calculator",
-    "time_commitment": "8-10 hours per week consistently",
+    "time_commitment": "2 live classes plus 3 to 5 hours of practice a week",
     "english": "Grade-appropriate reading level",
     "motivation": "Enthusiasm for learning mathematics"
   },
@@ -1227,7 +1130,8 @@
     "small_batches": "Small batches only: group classes are capped at 10 students, with mini-batch (3 to 4 students) and personal 1-on-1 options.",
     "structured_curriculum": "A structured, well-paced curriculum taught step by step, with hands-on practice in every session.",
     "doubt_support": "Doubt support between classes over WhatsApp, so you are never left stuck.",
-    "certificate": "A course-completion certificate you can share.",
-    "free_demo": "A free demo class before you enrol, so you can decide with no pressure."
+    "certificate": "A certificate you earn by passing the final exam, with a free retest after revision if needed.",
+    "free_demo": "A free demo class before you enrol, so you can decide with no pressure.",
+    "real_assessment": "Monthly mixed reviews, cumulative phase exams, and a final exam that decides the certificate: real understanding, real problem-solving, with a free retest after revision if needed."
   }
 }
