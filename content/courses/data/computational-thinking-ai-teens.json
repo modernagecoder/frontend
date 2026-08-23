@@ -5,75 +5,18 @@
     "title": "CBSE Computational Thinking & AI for Teens (Class 9-12)",
     "description": "CBSE Computational Thinking & AI for Classes 9-12: Python, Machine Learning and board practical mastery. Covers AI 417 (Class 10) and AI 843 (Classes 11-12).",
     "keywords": [
-      "CBSE AI course class 9",
-      "CBSE AI course class 10",
-      "CBSE AI course class 11",
-      "CBSE AI course class 12",
-      "CBSE AI code 417",
-      "CBSE AI code 843",
-      "CBSE artificial intelligence subject code 417",
-      "CBSE artificial intelligence subject code 843",
-      "CBSE AI skill subject",
-      "CBSE AI curriculum 2026-27",
-      "CBSE AI syllabus class 9",
-      "CBSE AI syllabus class 10",
-      "CBSE AI syllabus class 11",
-      "CBSE AI syllabus class 12",
-      "CBSE AI practical file class 9",
-      "CBSE AI practical file class 10",
-      "CBSE AI project class 9",
-      "CBSE AI project class 10",
-      "CBSE AI project class 11",
-      "CBSE AI project class 12",
-      "CBSE AI sample papers 417",
-      "CBSE AI sample papers 843",
-      "CBSE AI previous year papers",
-      "CBSE AI board exam preparation",
-      "CBSE AI handbook NCERT",
-      "computational thinking for teens",
-      "AI course for CBSE students",
-      "Python for CBSE AI",
-      "machine learning CBSE class 10",
-      "machine learning CBSE class 12",
-      "deep learning for teens",
-      "neural networks class 12 CBSE",
-      "AI project cycle 4Ws",
-      "AI ethics CBSE",
-      "employability skills CBSE AI",
-      "SDG AI project",
-      "AI hackathon CBSE",
-      "Intel AI Youth India",
-      "Samsung Innovation Campus AI",
-      "Microsoft AI for Good",
-      "India AI Olympiad",
-      "AI coaching class 9 India",
-      "AI coaching class 10 India",
-      "AI coaching class 11 India",
-      "AI coaching class 12 India",
-      "Sumita Arora AI",
-      "AI textbook CBSE class 9",
-      "CBSE AI viva questions",
-      "AI practical file solutions",
-      "natural language processing CBSE",
-      "computer vision CBSE",
-      "data science CBSE",
-      "scikit-learn for teens",
-      "TensorFlow for teens",
-      "PyTorch for teens",
-      "generative AI ChatGPT prompt engineering",
-      "GenAI CBSE",
-      "AI capstone project",
-      "AI project for school",
-      "CBSE AI one shot revision",
-      "CBSE AI marking scheme",
-      "AI tuition online class 10",
-      "AI tuition online class 12",
-      "CBSE AI online classes",
-      "best CBSE AI teacher online",
-      "CBSE AI olympiad preparation",
-      "AI career path India teens",
-      "AI engineering preparation",
-      "future AI jobs India"
+      "cbse ai course class 9",
+      "cbse artificial intelligence 417 course",
+      "cbse ai 843 classes online",
+      "computational thinking and ai course for teens",
+      "cbse ai board exam preparation",
+      "ai course for class 9 to 12",
+      "cbse skill subject ai coaching",
+      "python ai course for cbse students",
+      "ai project cycle cbse course",
+      "cbse ai curriculum online classes",
+      "best cbse ai course online",
+      "ai classes for cbse class 10"
     ],
     "category": "CBSE School Board Exam Preparation - Artificial Intelligence (Code 417 & 843)",
     "taxonomy": "ai-ml",
@@ -81,10 +24,10 @@
       "group": "₹1,499/month (2 classes per week, small batch)",
       "personal": "₹2,999/month (1-on-1 mentorship with AI engineer)"
     },
-    "duration": "12 months intensive (extendable to 4-year board track for Class 9 → Class 12)",
+    "duration": "12-14 months (48-56 weeks), or the full Class 9-12 board track",
     "level": "Complete Beginner to CBSE AI Board Topper + Industry-Ready AI Developer",
     "commitment": "10-12 hours/week (2-3 live classes + practical + self-study)",
-    "certification": "CBSE AI Code 417 & 843 Board Readiness Certification + Industry AI Developer Certification + Verifiable Project Portfolio",
+    "certification": "Certificate from Modern Age Coders, awarded on passing the final exam; syllabus aligned to CBSE AI 417 and 843",
     "image_path": "ct-ai-teens.webp",
     "boards_covered": [
       "CBSE AI Code 417 (Class 10; discontinued for Class 9 from 2026-27)",
@@ -103,12 +46,13 @@
       "CBSE Employability Skills framework",
       "Atal Innovation Mission (AIM) AI initiatives",
       "India AI Mission roadmap"
-    ]
+    ],
+    "dateModified": "2026-08-23"
   },
   "program_overview": {
     "title": "CBSE Computational Thinking & AI Complete Masterclass for Teens (Class 9-12)",
     "tagline": "From CBSE AI Board Topper to Industry-Ready AI Engineer, In One Comprehensive Program",
-    "description": "The Central Board of Secondary Education (CBSE) introduced Artificial Intelligence as an official Skill Subject (Code 417 for Class 9-10, Code 843 for Class 11-12) in response to India's urgent need for AI-ready youth. This 12-month flagship program is the definitive preparation course for every CBSE teen pursuing AI, whether as a board subject, competition pathway, or future career.\n\nYou will master the complete CBSE AI syllabus with 10x greater depth than any school offers: Employability Skills (Communication, Self-Management, ICT, Entrepreneurial, Green Skills), the complete AI Project Cycle (Problem Scoping → Data Acquisition → Data Exploration → Modelling → Evaluation), AI Domains (Data, Computer Vision, Natural Language Processing), Python programming from zero to advanced, NumPy, Pandas, Matplotlib, scikit-learn, TensorFlow, Keras, OpenCV, NLTK, Neural Networks, Convolutional Neural Networks (CNNs), Recurrent Neural Networks (RNNs), Transformers, Generative AI (ChatGPT, DALL-E, Stable Diffusion), LLM concepts, Prompt Engineering, Reinforcement Learning, AI Ethics, SDG-aligned capstone projects, and full board practical file + viva preparation.\n\nBy completion, you will have (1) scored 95+ in your CBSE AI board exam, (2) built 80+ industry-grade AI projects in your GitHub portfolio, (3) prepared for top AI Olympiads (India AI Olympiad, Intel AI Youth, Samsung Innovation Campus), and (4) positioned yourself for IIT/NIT/BITS/top universities and future AI careers earning ₹40+ LPA.",
+    "description": "The Central Board of Secondary Education (CBSE) introduced Artificial Intelligence as an official Skill Subject (Code 417 for Class 9-10, Code 843 for Class 11-12) in response to India's urgent need for AI-ready youth. This 12-month flagship program is the definitive preparation course for every CBSE teen pursuing AI, whether as a board subject, competition pathway, or future career.\n\nYou will master the complete CBSE AI syllabus with 10x greater depth than any school offers: Employability Skills (Communication, Self-Management, ICT, Entrepreneurial, Green Skills), the complete AI Project Cycle (Problem Scoping → Data Acquisition → Data Exploration → Modelling → Evaluation), AI Domains (Data, Computer Vision, Natural Language Processing), Python programming from zero to advanced, NumPy, Pandas, Matplotlib, scikit-learn, TensorFlow, Keras, OpenCV, NLTK, Neural Networks, Convolutional Neural Networks (CNNs), Recurrent Neural Networks (RNNs), Transformers, Generative AI (ChatGPT-class text models, diffusion image models), LLM concepts, Prompt Engineering, Reinforcement Learning, AI Ethics, SDG-aligned capstone projects, and full board practical file + viva preparation.\n\nBy completion, you will have (1) scored 95+ in your CBSE AI board exam, (2) built 80+ industry-grade AI projects in your GitHub portfolio, (3) prepared for top AI Olympiads (India AI Olympiad, Intel AI Youth, Samsung Innovation Campus), and (4) positioned yourself for IIT/NIT/BITS/top universities and future AI careers earning ₹40+ LPA.",
     "what_makes_this_different": [
       "100% CBSE AI Code 417 + 843 syllabus coverage, not a single topic missed",
       "Separate dedicated batches for Class 9, 10, 11, and 12",
@@ -462,7 +406,7 @@
           "Full capstone project with CBSE report",
           "Mock exam score report"
         ],
-        "assessment": "CBSE AI 417 Board Readiness Certification",
+        "assessment": "CBSE AI 417 board-aligned preparation",
         "cbse_alignment": "100% CBSE AI 417 syllabus coverage (Class 10 board exam; 417 discontinued for Class 9 from 2026-27)"
       }
     }
@@ -550,11 +494,11 @@
         "title": "Generative AI & Prompt Engineering (2026-27 CBSE emerging topic)",
         "topics": [
           "What is Generative AI, GANs, VAEs, Diffusion, Transformers",
-          "ChatGPT / GPT-4 / Claude / Gemini, how they work",
+          "ChatGPT / frontier models (GPT-class, Claude-class, Gemini-class), how they work",
           "Prompt Engineering fundamentals",
           "Advanced prompting: few-shot, chain-of-thought, tree-of-thought",
-          "DALL-E, Midjourney, Stable Diffusion, image generation",
-          "RunwayML, Sora, video generation",
+          "Image generation: how diffusion models work, hands-on with teen-legal tools (Adobe Firefly, Bing Image Creator)",
+          "Text-to-video models explained (Sora-class), concept and implications generation",
           "LangChain framework introduction",
           "Building RAG (Retrieval-Augmented Generation) apps",
           "API integration: OpenAI, Anthropic, Google",
@@ -564,7 +508,7 @@
         ],
         "projects": [
           "Build a custom AI tutor using ChatGPT API + LangChain",
-          "Generate a visual storybook with AI (prompt + DALL-E)",
+          "Generate a visual storybook with AI (prompts + Adobe Firefly)",
           "RAG chatbot over your school's PDF notes"
         ],
         "practice": "Daily prompt engineering journal"
@@ -967,15 +911,15 @@
         "topics": [
           "Transformer architecture (Attention is All You Need)",
           "BERT, GPT, T5 explained",
-          "LLMs: GPT-4, Claude, Gemini, Llama",
+          "The LLM landscape: GPT-class, Claude-class, Gemini-class and open-weight Llama-class",
           "RLHF (Reinforcement Learning from Human Feedback)",
           "Fine-tuning LLMs (LoRA, QLoRA)",
           "Building RAG systems",
           "LangChain + LlamaIndex",
           "Vector databases (Pinecone, Chroma)",
           "Hugging Face ecosystem mastery",
-          "Multimodal AI (GPT-4V, Gemini Vision)",
-          "Agent-based AI (AutoGPT, BabyAGI, Claude Agents)",
+          "Multimodal AI (frontier vision-language models)",
+          "Agent-based AI (modern agent frameworks, surveyed honestly)",
           "Ethics of LLMs (hallucination, alignment, safety)"
         ],
         "projects": [
@@ -1067,11 +1011,11 @@
         ],
         "deliverables": [
           "CBSE AI Code 843 Class 12 Board Topper Certification",
-          "Industry AI Developer Certification",
+          "an earned course certificate",
           "80+ Project GitHub Portfolio",
           "Verifiable digital badge"
         ],
-        "assessment": "CERTIFIED INDUSTRY-READY AI DEVELOPER + CBSE AI (417 & 843) BOARD TOPPER"
+        "assessment": "FINAL EXAM: a board-style paper plus a practical build, with questions mixed from the whole syllabus. Passing earns the certificate; a student who falls short gets a focused revision plan and a free retest"
       }
     }
   },
@@ -1237,8 +1181,9 @@
     "small_batches": "Small batches only: group classes are capped at 10 students, with mini-batch (3 to 4 students) and personal 1-on-1 options.",
     "structured_curriculum": "A structured, well-paced curriculum taught step by step, with hands-on practice in every session.",
     "doubt_support": "Doubt support between classes over WhatsApp, so you are never left stuck.",
-    "certificate": "A course-completion certificate you can share.",
-    "free_demo": "A free demo class before you enrol, so you can decide with no pressure."
+    "certificate": "A certificate you earn by passing the final exam, with a free retest after revision if needed.",
+    "free_demo": "A free demo class before you enrol, so you can decide with no pressure.",
+    "real_assessment": "Mixed-review assignments after every month, board-style mocks, and a final exam that decides the certificate: real knowledge, real work."
   },
   "faqs": [
     {
