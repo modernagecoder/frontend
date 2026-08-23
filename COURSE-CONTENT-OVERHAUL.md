@@ -125,7 +125,8 @@ Status: [ ] pending · [~] in progress · [x] done+committed
 - [ ] cpp-teens.json · cpp-programming-college.json · kotlin.json · swift.json · golang.json
 - [ ] typescript-programming-college.json · flutter.json · mern-stack-college.json
 - [ ] python-mastery-college.json · python-ai-automation-college.json · gen-ai.json
-- [ ] ai-ml-college.json · ai-ml-teens.json · artificial-intelligence-college.json
+- [x] ai-ml-teens.json (12mo -> 10-12mo) + ai-ml-college.json (52wk -> 48wk, GenAI/LLM month) + gen-ai.json (kept RAG/agents spine, cut from-scratch/startup tail, 10-12mo) + python-mastery-college.json (four-in-one -> 9-11mo + Three Roads month) DONE 2026-08-23
+- [ ] artificial-intelligence-college.json
 - [ ] data-science-college.json · game-dev-college.json · app-dev-college.json
 - [ ] algo-trading.json · algo-trading-automation.json
 - [ ] princess-coders.json · queen-coders.json · alpha-girls.json
