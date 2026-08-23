@@ -61,8 +61,8 @@
     "description": "Build rock-solid Kotlin fundamentals. Learn programming logic, master Kotlin syntax, OOP principles, functional programming, and create your first applications.",
     "month_1_2": {
       "title": "Months 1-2: Kotlin Fundamentals & Programming Basics",
-      "weeks": "Week 1-8",
-      "week_1_2": {
+      "weeks": "Weeks 1-7",
+      "week_1": {
         "title": "Introduction to Kotlin & Development Environment Setup",
         "topics": [
           "What is Kotlin? History, features, and JetBrains creation",
@@ -91,7 +91,7 @@
         ],
         "practice": "Daily: 30 min Kotlin syntax practice, write 5-10 simple programs"
       },
-      "week_3_4": {
+      "week_2_3": {
         "title": "Variables, Data Types & Operators",
         "topics": [
           "Variables: val (immutable) vs var (mutable)",
@@ -129,7 +129,7 @@
         ],
         "practice": "Solve 40 problems on variables, null safety, and operators"
       },
-      "week_5_6": {
+      "week_4_5": {
         "title": "Control Flow & Expressions",
         "topics": [
           "If as an expression (returns value)",
@@ -166,7 +166,7 @@
         ],
         "practice": "Solve 45 control flow and expression problems"
       },
-      "week_7_8": {
+      "week_6_7": {
         "title": "Functions & Collections Basics",
         "topics": [
           "Functions: fun keyword",
@@ -203,10 +203,10 @@
         "practice": "Create 30 functions, solve 35 collection problems"
       }
     },
-    "month_3_4": {
+    "month_3": {
       "title": "Month 3: Object-Oriented Programming & Functional Concepts",
-      "weeks": "Week 9-13",
-      "week_9_10": {
+      "weeks": "Weeks 8-13",
+      "week_8_9": {
         "title": "Classes, Objects & OOP in Kotlin",
         "topics": [
           "Classes: class keyword",
@@ -241,7 +241,7 @@
         ],
         "practice": "Create 25 different classes modeling real-world entities"
       },
-      "week_11_12": {
+      "week_10_11": {
         "title": "Inheritance, Interfaces & Polymorphism",
         "topics": [
           "Inheritance with open keyword",
@@ -276,7 +276,7 @@
         ],
         "practice": "Build 20 inheritance hierarchies, solve 30 polymorphism problems"
       },
-      "week_13": {
+      "week_12_13": {
         "title": "Functional Programming in Kotlin",
         "topics": [
           "First-class functions",
@@ -316,10 +316,10 @@
   "phase_2_frontend_mastery": {
     "title": "PHASE 2: Advanced Kotlin & Modern Features (Months 4-6, Weeks 14-26)",
     "description": "Master advanced Kotlin features, coroutines, DSLs, delegation, generics, and professional coding patterns.",
-    "month_7_8": {
-      "title": "Months 4-5: Advanced Language Features & Coroutines",
-      "weeks": "Week 14-22",
-      "week_27_28": {
+    "month_4": {
+      "title": "Month 4: Advanced Language Features & Coroutines",
+      "weeks": "Weeks 14-18",
+      "week_14": {
         "title": "Generics & Type System",
         "topics": [
           "Generic types in Kotlin",
@@ -350,7 +350,7 @@
         ],
         "practice": "Create 20 generic classes, solve 30 variance problems"
       },
-      "week_29_30": {
+      "week_15": {
         "title": "Delegation & Property Delegates",
         "topics": [
           "Class delegation with by keyword",
@@ -379,7 +379,7 @@
         ],
         "practice": "Implement 15 different delegates, solve 25 delegation problems"
       },
-      "week_31_32": {
+      "week_16": {
         "title": "Collections Deep Dive",
         "topics": [
           "List operations: filter, map, flatMap, fold",
@@ -410,7 +410,7 @@
         ],
         "practice": "Solve 50 advanced collection problems"
       },
-      "week_33_34": {
+      "week_17": {
         "title": "Coroutines Fundamentals",
         "topics": [
           "Asynchronous programming need",
@@ -441,7 +441,7 @@
         ],
         "practice": "Build 15 coroutine-based applications"
       },
-      "week_35": {
+      "week_18": {
         "title": "Advanced Coroutines & Flow",
         "topics": [
           "Channels for communication",
@@ -473,10 +473,10 @@
         "practice": "Create 12 Flow-based systems"
       }
     },
-    "month_9_10": {
-      "title": "Month 6: DSLs, Reflection & Professional Patterns",
-      "weeks": "Week 23-26",
-      "week_36_37": {
+    "month_5": {
+      "title": "Month 5: DSLs, Reflection & Professional Patterns",
+      "weeks": "Weeks 19-22",
+      "week_19": {
         "title": "Domain-Specific Languages (DSLs)",
         "topics": [
           "What are DSLs?",
@@ -507,7 +507,7 @@
         ],
         "practice": "Build 10 different DSLs"
       },
-      "week_38_39": {
+      "week_20": {
         "title": "Reflection & Annotations",
         "topics": [
           "Kotlin reflection API",
@@ -539,7 +539,7 @@
         ],
         "practice": "Build 8 reflection-based utilities"
       },
-      "week_40_41": {
+      "week_21": {
         "title": "Design Patterns in Kotlin",
         "topics": [
           "Singleton with object declaration",
@@ -570,7 +570,7 @@
         ],
         "practice": "Implement 20 design patterns in Kotlin style"
       },
-      "week_42_43": {
+      "week_22": {
         "title": "Testing in Kotlin",
         "topics": [
           "Unit testing with JUnit 5",
@@ -600,31 +600,12 @@
           "Integration test suite"
         ],
         "practice": "Write tests for all previous projects, 85%+ coverage"
-      },
-      "week_44": {
-        "title": "Phase 2 Capstone Project",
-        "topics": [
-          "Advanced Kotlin features usage",
-          "Coroutines and Flow",
-          "DSL creation",
-          "Design patterns",
-          "Comprehensive testing",
-          "Functional programming"
-        ],
-        "projects": [
-          "PHASE 2 CAPSTONE: Reactive Task Management System",
-          "Features: Coroutines, Flow, StateFlow, DSL for task creation, sealed classes for states, comprehensive testing",
-          "Alternative: Real-time Chat Server (Kotlin backend)",
-          "Alternative: Data Processing Pipeline with Flow",
-          "Alternative: Custom framework with DSL and reflection"
-        ],
-        "assessment": "Phase 2 Final Exam - Advanced Kotlin features comprehensive test"
       }
     },
-    "month_11_12": {
-      "title": "PHASE 2 CONTINUED - Kotlin for Backend",
-      "weeks": "Week 14-26 (distributed)",
-      "week_45_46": {
+    "month_6": {
+      "title": "Month 6: Server-Side Kotlin with Ktor",
+      "weeks": "Weeks 23-26",
+      "week_23": {
         "title": "Ktor Framework - Part 1",
         "topics": [
           "Introduction to Ktor",
@@ -652,7 +633,7 @@
         ],
         "practice": "Build 8 Ktor-based APIs"
       },
-      "week_47_48": {
+      "week_24": {
         "title": "Ktor Framework - Part 2",
         "topics": [
           "Database integration with Exposed",
@@ -678,34 +659,7 @@
         ],
         "practice": "Build 6 complete Ktor applications"
       },
-      "week_49_50": {
-        "title": "Spring Boot with Kotlin",
-        "topics": [
-          "Spring Boot Kotlin setup",
-          "Kotlin-specific Spring features",
-          "Null-safe Spring configuration",
-          "Data classes as entities",
-          "Spring Data JPA with Kotlin",
-          "Repository interfaces in Kotlin",
-          "REST controllers in Kotlin",
-          "Coroutines support in Spring",
-          "Reactive Spring with Kotlin Flow",
-          "Spring Security with Kotlin",
-          "Testing Spring Boot with Kotlin",
-          "MockK for Spring tests"
-        ],
-        "projects": [
-          "Spring Boot REST API",
-          "JPA entities with data classes",
-          "Reactive API with Flow",
-          "Secured Spring Boot app",
-          "Coroutine-based Spring service",
-          "Complete CRUD application",
-          "Tested Spring Boot project"
-        ],
-        "practice": "Build 10 Spring Boot Kotlin applications"
-      },
-      "week_51": {
+      "week_25": {
         "title": "Database Access with Kotlin",
         "topics": [
           "JDBC with Kotlin",
@@ -732,7 +686,7 @@
         ],
         "practice": "Build 8 database-driven applications"
       },
-      "week_52": {
+      "week_26": {
         "title": "Build Tools & Kotlin Scripting",
         "topics": [
           "Gradle with Kotlin DSL",
@@ -763,10 +717,10 @@
   "phase_3_backend_engineering": {
     "title": "PHASE 3: Android Development Mastery (Months 7-9, Weeks 27-39)",
     "description": "Master modern Android development with Kotlin, Jetpack Compose, Material Design, Architecture Components, and professional app development.",
-    "month_13_14": {
-      "title": "Months 7-8: Android Fundamentals & Jetpack Compose",
-      "weeks": "Week 27-35",
-      "week_53_54": {
+    "month_7": {
+      "title": "Month 7: Android Fundamentals & Jetpack Compose",
+      "weeks": "Weeks 27-31",
+      "week_27": {
         "title": "Android Basics & Setup",
         "topics": [
           "Android platform overview",
@@ -799,7 +753,7 @@
         ],
         "practice": "Build 10 basic Android apps"
       },
-      "week_55_56": {
+      "week_28": {
         "title": "Jetpack Compose Fundamentals",
         "topics": [
           "Introduction to Jetpack Compose",
@@ -832,7 +786,7 @@
         ],
         "practice": "Build 12 Compose-based UIs"
       },
-      "week_57_58": {
+      "week_29": {
         "title": "Advanced Compose & Navigation",
         "topics": [
           "Compose Navigation library",
@@ -863,7 +817,7 @@
         ],
         "practice": "Build 10 navigation-based apps"
       },
-      "week_59_60": {
+      "week_30": {
         "title": "Android Architecture Components",
         "topics": [
           "MVVM architecture pattern",
@@ -893,7 +847,7 @@
         ],
         "practice": "Refactor 8 apps to clean architecture"
       },
-      "week_61": {
+      "week_31": {
         "title": "Local Data Storage",
         "topics": [
           "SharedPreferences for simple data",
@@ -922,10 +876,10 @@
         "practice": "Build 10 data persistence apps"
       }
     },
-    "month_15_16": {
-      "title": "Month 9: Networking, APIs & Advanced Android",
-      "weeks": "Week 36-39",
-      "week_62_63": {
+    "month_8": {
+      "title": "Month 8: Networking, APIs & Advanced Android",
+      "weeks": "Weeks 32-36",
+      "week_32": {
         "title": "Networking & REST APIs",
         "topics": [
           "HTTP basics for Android",
@@ -956,7 +910,7 @@
         ],
         "practice": "Build 10 API-consuming apps"
       },
-      "week_64_65": {
+      "week_33": {
         "title": "Image Loading & Media",
         "topics": [
           "Coil library for image loading",
@@ -986,7 +940,7 @@
         ],
         "practice": "Build 8 media-handling apps"
       },
-      "week_66_67": {
+      "week_34": {
         "title": "Advanced UI & Material Design",
         "topics": [
           "Material Design 3 principles",
@@ -1017,7 +971,7 @@
         ],
         "practice": "Design 10 Material Design apps"
       },
-      "week_68_69": {
+      "week_35": {
         "title": "Background Work & Services",
         "topics": [
           "WorkManager for background tasks",
@@ -1047,7 +1001,7 @@
         ],
         "practice": "Build 8 background processing apps"
       },
-      "week_70": {
+      "week_36": {
         "title": "Testing Android Apps",
         "topics": [
           "Unit testing in Android",
@@ -1078,10 +1032,10 @@
         "practice": "Write tests for all Android projects, 80%+ coverage"
       }
     },
-    "month_17_18": {
-      "title": "PHASE 3 COMPLETION - Month 9 Advanced Topics",
-      "weeks": "Week 27-39 (distributed)",
-      "week_71_72": {
+    "month_9": {
+      "title": "Month 9: Ship-Quality Android: Performance, Publishing & Security",
+      "weeks": "Weeks 37-39",
+      "week_37": {
         "title": "Performance & Optimization",
         "topics": [
           "Android performance profiling",
@@ -1111,7 +1065,7 @@
         ],
         "practice": "Optimize all previous Android apps"
       },
-      "week_73_74": {
+      "week_38": {
         "title": "Publishing & Deployment",
         "topics": [
           "Preparing app for release",
@@ -1141,37 +1095,7 @@
         ],
         "practice": "Prepare 3 apps for Play Store"
       },
-      "week_75_76": {
-        "title": "Advanced Features & Libraries",
-        "topics": [
-          "Location services and maps",
-          "Google Maps integration",
-          "Geolocation and GPS",
-          "Firebase Firestore",
-          "Real-time database",
-          "Firebase Authentication",
-          "Social login (Google, Facebook)",
-          "Firebase Storage for files",
-          "Paging 3 library for pagination",
-          "In-app purchases",
-          "WebView integration",
-          "Deep linking and app links",
-          "Widget development",
-          "Wear OS basics"
-        ],
-        "projects": [
-          "Maps-based location app",
-          "Firebase-backed chat app",
-          "Social login integration",
-          "Paginated list with Paging 3",
-          "App with in-app purchases",
-          "Ad-supported app",
-          "Deep linking demo",
-          "Home screen widget"
-        ],
-        "practice": "Build 10 advanced feature apps"
-      },
-      "week_77": {
+      "week_39": {
         "title": "Security Best Practices",
         "topics": [
           "Android security overview",
@@ -1198,27 +1122,7 @@
           "Secure authentication flow",
           "Obfuscated production app"
         ],
-        "practice": "Security audit all Android apps"
-      },
-      "week_78": {
-        "title": "Phase 3 Capstone Project",
-        "topics": [
-          "Complete Android app architecture",
-          "Jetpack Compose UI",
-          "MVVM with Clean Architecture",
-          "Room database",
-          "Retrofit networking",
-          "Hilt dependency injection",
-          "Comprehensive testing",
-          "Play Store deployment"
-        ],
-        "projects": [
-          "MAJOR CAPSTONE: Social Media Android App",
-          "Features: User profiles, posts, comments, likes, real-time feed, image upload, push notifications, Material Design 3, offline support, Clean Architecture",
-          "Alternative: E-commerce Shopping App (products, cart, checkout, orders)",
-          "Alternative: Fitness Tracking App (workouts, progress, charts, reminders)",
-          "Alternative: Expense Manager (budgets, categories, reports, charts)"
-        ],
+        "practice": "Security audit all Android apps",
         "assessment": "Phase 3 exam: a practical build defended live, plus a written paper mixing this phase with everything before it"
       }
     }

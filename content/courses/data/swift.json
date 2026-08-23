@@ -61,8 +61,8 @@
     "description": "Build rock-solid Swift fundamentals. Learn programming logic, master Swift syntax, protocol-oriented programming, and create your first iOS applications.",
     "month_1_2": {
       "title": "Months 1-2: Swift Fundamentals & Programming Basics",
-      "weeks": "Week 1-8",
-      "week_1_2": {
+      "weeks": "Weeks 1-7",
+      "week_1": {
         "title": "Introduction to Swift & Development Environment Setup",
         "topics": [
           "What is Swift? History, features, and evolution from Objective-C",
@@ -89,7 +89,7 @@
         ],
         "practice": "Daily: 30 min Swift syntax practice, write 5-10 simple programs in Playgrounds"
       },
-      "week_3_4": {
+      "week_2_3": {
         "title": "Variables, Data Types & Operators",
         "topics": [
           "Variables (var) and Constants (let): declaration and initialization",
@@ -124,7 +124,7 @@
         ],
         "practice": "Solve 30 problems on variables, data types, optionals, and operators"
       },
-      "week_5_6": {
+      "week_4_5": {
         "title": "Control Flow Statements",
         "topics": [
           "Boolean expressions and conditions",
@@ -163,7 +163,7 @@
         ],
         "practice": "Solve 40 control flow and loop problems"
       },
-      "week_7_8": {
+      "week_6_7": {
         "title": "Functions & Collections",
         "topics": [
           "Functions: definition, purpose, and structure",
@@ -208,10 +208,10 @@
         "practice": "Create 25 functions for various functionalities, solve 30 collection problems"
       }
     },
-    "month_3_4": {
+    "month_3": {
       "title": "Month 3: Object-Oriented & Protocol-Oriented Programming",
-      "weeks": "Week 9-13",
-      "week_9_10": {
+      "weeks": "Weeks 8-13",
+      "week_8_9": {
         "title": "Structures, Classes & Properties",
         "topics": [
           "Object-Oriented Programming paradigm in Swift",
@@ -249,7 +249,7 @@
         ],
         "practice": "Create 20 different structs and classes modeling real-world entities"
       },
-      "week_11_12": {
+      "week_10_11": {
         "title": "Inheritance, Polymorphism & Memory Management",
         "topics": [
           "Inheritance: creating subclasses",
@@ -285,7 +285,7 @@
         ],
         "practice": "Build 15 inheritance hierarchies, solve 25 ARC and memory problems"
       },
-      "week_13": {
+      "week_12_13": {
         "title": "Protocols & Protocol-Oriented Programming",
         "topics": [
           "Protocols: defining blueprints",
@@ -328,10 +328,10 @@
   "phase_2_frontend_mastery": {
     "title": "PHASE 2: Intermediate Swift & SwiftUI Mastery (Months 4-6, Weeks 14-26)",
     "description": "Master advanced Swift features, enumerations, generics, error handling, SwiftUI fundamentals, and basic iOS app development.",
-    "month_7_8": {
-      "title": "Months 4-5: Advanced Swift Features & SwiftUI Basics",
-      "weeks": "Week 14-22",
-      "week_27_28": {
+    "month_4": {
+      "title": "Month 4: Advanced Swift Features & SwiftUI Basics",
+      "weeks": "Weeks 14-18",
+      "week_14": {
         "title": "Enumerations & Advanced Types",
         "topics": [
           "Enumerations (enum) in Swift",
@@ -365,7 +365,7 @@
         ],
         "practice": "Solve 35 enumeration and advanced type problems"
       },
-      "week_29_30": {
+      "week_15": {
         "title": "Error Handling & Advanced Error Management",
         "topics": [
           "Error handling philosophy in Swift",
@@ -400,7 +400,7 @@
         ],
         "practice": "Solve 25 error handling scenarios"
       },
-      "week_31_32": {
+      "week_16": {
         "title": "Generics & Type System Deep Dive",
         "topics": [
           "Introduction to generics: type parameters",
@@ -432,7 +432,7 @@
         ],
         "practice": "Create 15 generic types, solve 25 generics problems"
       },
-      "week_33_34": {
+      "week_17": {
         "title": "SwiftUI Fundamentals - Part 1",
         "topics": [
           "Introduction to SwiftUI: declarative UI",
@@ -466,7 +466,7 @@
         ],
         "practice": "Build 15 SwiftUI views with various controls"
       },
-      "week_35": {
+      "week_18": {
         "title": "SwiftUI Fundamentals - Part 2",
         "topics": [
           "@Binding for child view communication",
@@ -499,10 +499,10 @@
         "practice": "Build 10 multi-view SwiftUI applications"
       }
     },
-    "month_9_10": {
-      "title": "Month 6: Advanced SwiftUI & UIKit Fundamentals",
-      "weeks": "Week 23-26",
-      "week_36_37": {
+    "month_5": {
+      "title": "Month 5: Advanced SwiftUI & UIKit Fundamentals",
+      "weeks": "Weeks 19-22",
+      "week_19": {
         "title": "SwiftUI Lists, Forms & Data Display",
         "topics": [
           "List view deep dive",
@@ -535,7 +535,7 @@
         ],
         "practice": "Build 10 list and grid-based applications"
       },
-      "week_38_39": {
+      "week_20": {
         "title": "SwiftUI Animations & Custom Drawing",
         "topics": [
           "Animation fundamentals in SwiftUI",
@@ -570,7 +570,7 @@
         ],
         "practice": "Create 15 animations and custom shapes"
       },
-      "week_40_41": {
+      "week_21": {
         "title": "UIKit Fundamentals",
         "topics": [
           "UIKit overview and architecture",
@@ -604,7 +604,7 @@
         ],
         "practice": "Build 12 UIKit-based views and controllers"
       },
-      "week_42_43": {
+      "week_22": {
         "title": "Data Persistence - UserDefaults & File System",
         "topics": [
           "Data persistence options in iOS",
@@ -636,31 +636,12 @@
           "User profile with local storage"
         ],
         "practice": "Implement persistence in all previous projects"
-      },
-      "week_44": {
-        "title": "Phase 2 Capstone Project",
-        "topics": [
-          "SwiftUI implementation",
-          "Advanced Swift patterns",
-          "Protocol-oriented design",
-          "Data persistence",
-          "Navigation and state management",
-          "Custom animations"
-        ],
-        "projects": [
-          "PHASE 2 CAPSTONE: Personal Finance Tracker",
-          "Features: Income/expense tracking, categories, charts, budget alerts, data persistence, SwiftUI with animations",
-          "Alternative: Recipe Book App with favorites and shopping lists",
-          "Alternative: Habit Tracker with statistics and reminders",
-          "Alternative: Travel Journal with photos and maps"
-        ],
-        "assessment": "Phase 2 Final Exam - Intermediate Swift and SwiftUI comprehensive test"
       }
     },
-    "month_11_12": {
-      "title": "PHASE 2 CONTINUED - Advanced Patterns & Core Data",
-      "weeks": "Week 14-26 (distributed)",
-      "week_45_46": {
+    "month_6": {
+      "title": "Month 6: Concurrency, Core Data & Combine",
+      "weeks": "Weeks 23-26",
+      "week_23": {
         "title": "Swift Concurrency - Async/Await",
         "topics": [
           "Concurrency in Swift: history and evolution",
@@ -692,7 +673,7 @@
         ],
         "practice": "Convert 10 projects to async/await"
       },
-      "week_47_48": {
+      "week_24": {
         "title": "Core Data Fundamentals",
         "topics": [
           "Core Data overview and architecture",
@@ -725,37 +706,7 @@
         ],
         "practice": "Build 8 Core Data applications"
       },
-      "week_49_50": {
-        "title": "Advanced Core Data",
-        "topics": [
-          "Core Data migrations: lightweight and manual",
-          "Versioning data models",
-          "Batch insert, update, and delete",
-          "Performance optimization techniques",
-          "Faulting and prefetching",
-          "NSFetchedResultsController for UIKit",
-          "Core Data with background contexts",
-          "Concurrency with Core Data",
-          "Core Data debugging and profiling",
-          "Core Data with CloudKit",
-          "NSPersistentCloudKitContainer",
-          "Syncing data across devices",
-          "Conflict resolution strategies",
-          "Core Data testing strategies",
-          "Best practices and common pitfalls"
-        ],
-        "projects": [
-          "CloudKit-synced todo app",
-          "Multi-device note syncing",
-          "Batch operations performance test",
-          "Background import from JSON",
-          "Core Data migration exercise",
-          "Unit tests for Core Data",
-          "Performance-optimized list app"
-        ],
-        "practice": "Implement CloudKit sync in 3 projects"
-      },
-      "week_51": {
+      "week_25": {
         "title": "Combine Framework Fundamentals",
         "topics": [
           "Reactive programming concepts",
@@ -785,7 +736,7 @@
         ],
         "practice": "Implement Combine in 8 projects"
       },
-      "week_52": {
+      "week_26": {
         "title": "Swift Package Manager & Project Organization",
         "topics": [
           "Swift Package Manager (SPM) overview",
@@ -820,10 +771,10 @@
   "phase_3_backend_engineering": {
     "title": "PHASE 3: Professional iOS Development (Months 7-9, Weeks 27-39)",
     "description": "Master professional iOS development with networking, advanced architecture, testing, accessibility, and real-world app development patterns.",
-    "month_13_14": {
-      "title": "Months 7-8: Networking & Architecture",
-      "weeks": "Week 27-35",
-      "week_53_54": {
+    "month_7": {
+      "title": "Month 7: Networking & Architecture",
+      "weeks": "Weeks 27-31",
+      "week_27": {
         "title": "Networking with URLSession",
         "topics": [
           "Networking fundamentals: HTTP protocol",
@@ -855,7 +806,7 @@
         ],
         "practice": "Build 10 network-connected applications"
       },
-      "week_55_56": {
+      "week_28": {
         "title": "Advanced Networking & Authentication",
         "topics": [
           "Building a generic networking layer",
@@ -887,7 +838,7 @@
         ],
         "practice": "Build production-ready networking layer"
       },
-      "week_57_58": {
+      "week_29": {
         "title": "App Architecture - MVVM",
         "topics": [
           "Software architecture importance",
@@ -919,7 +870,7 @@
         ],
         "practice": "Apply MVVM to all major projects"
       },
-      "week_59_60": {
+      "week_30": {
         "title": "Advanced Architecture & The Composable Architecture",
         "topics": [
           "State management challenges",
@@ -949,7 +900,7 @@
         ],
         "practice": "Build 5 TCA-based features"
       },
-      "week_61": {
+      "week_31": {
         "title": "Unit Testing & Test-Driven Development",
         "topics": [
           "Testing importance and types",
@@ -982,10 +933,10 @@
         "practice": "Write tests for all major projects, achieve 70%+ coverage"
       }
     },
-    "month_15_16": {
-      "title": "Month 9: UI Testing, Accessibility & Advanced Features",
-      "weeks": "Week 36-39",
-      "week_62_63": {
+    "month_8": {
+      "title": "Month 8: UI Testing, Accessibility & Advanced Features",
+      "weeks": "Weeks 32-36",
+      "week_32": {
         "title": "UI Testing & Snapshot Testing",
         "topics": [
           "UI testing with XCUITest",
@@ -1017,7 +968,7 @@
         ],
         "practice": "Add UI tests to all major projects"
       },
-      "week_64_65": {
+      "week_33": {
         "title": "Accessibility & Localization",
         "topics": [
           "Accessibility importance and guidelines",
@@ -1050,7 +1001,7 @@
         ],
         "practice": "Make all projects fully accessible"
       },
-      "week_66_67": {
+      "week_34": {
         "title": "Maps, Location & Background Tasks",
         "topics": [
           "MapKit framework overview",
@@ -1082,7 +1033,7 @@
         ],
         "practice": "Build 8 location-aware applications"
       },
-      "week_68_69": {
+      "week_35": {
         "title": "Push Notifications & App Extensions",
         "topics": [
           "Push notifications overview",
@@ -1114,7 +1065,7 @@
         ],
         "practice": "Add notifications and widgets to 5 projects"
       },
-      "week_70": {
+      "week_36": {
         "title": "Camera, Photos & Media",
         "topics": [
           "Camera access with UIImagePickerController",
@@ -1146,10 +1097,10 @@
         "practice": "Build 8 media-focused applications"
       }
     },
-    "month_17_18": {
-      "title": "PHASE 3 COMPLETION - Month 9 Final Week",
-      "weeks": "Week 27-39 (distributed)",
-      "week_71_72": {
+    "month_9": {
+      "title": "Month 9: Performance, Purchases & Security",
+      "weeks": "Weeks 37-39",
+      "week_37": {
         "title": "App Performance & Optimization",
         "topics": [
           "Performance measurement importance",
@@ -1179,7 +1130,7 @@
         ],
         "practice": "Profile and optimize all major projects"
       },
-      "week_73_74": {
+      "week_38": {
         "title": "In-App Purchases & Subscriptions",
         "topics": [
           "StoreKit framework overview",
@@ -1208,7 +1159,7 @@
         ],
         "practice": "Add monetization to 3 projects"
       },
-      "week_75_76": {
+      "week_39": {
         "title": "Security & Data Protection",
         "topics": [
           "iOS security architecture",
@@ -1236,53 +1187,7 @@
           "Keychain wrapper library",
           "Security audit checklist"
         ],
-        "practice": "Security audit all projects"
-      },
-      "week_77": {
-        "title": "Design Patterns & Best Practices",
-        "topics": [
-          "Creational patterns: Singleton, Factory, Builder",
-          "Structural patterns: Adapter, Decorator, Facade",
-          "Behavioral patterns: Observer, Strategy, Command",
-          "Delegation pattern (Swift/iOS native)",
-          "Protocol-oriented patterns",
-          "Coordinator pattern deep dive",
-          "Repository pattern",
-          "Clean code principles",
-          "SOLID principles in Swift",
-          "Code review guidelines",
-          "Swift style guide",
-          "Documentation with DocC",
-          "Technical debt management",
-          "Refactoring techniques"
-        ],
-        "projects": [
-          "Pattern implementation examples",
-          "Coordinator-based app navigation",
-          "Plugin architecture with protocols",
-          "Code refactoring exercise",
-          "DocC documentation",
-          "Design pattern showcase"
-        ],
-        "practice": "Apply patterns to all projects"
-      },
-      "week_78": {
-        "title": "Phase 3 Capstone Project",
-        "topics": [
-          "Complete iOS application",
-          "Architecture implementation",
-          "Networking and persistence",
-          "Testing and quality",
-          "Accessibility and localization",
-          "Performance optimization"
-        ],
-        "projects": [
-          "MAJOR CAPSTONE: Social Photo Sharing App",
-          "Features: User auth, photo capture/upload, feed, likes/comments, notifications, profile, search, Core Data + CloudKit sync, MVVM architecture, full test coverage",
-          "Alternative: Fitness Tracking App (workouts, progress, HealthKit, charts)",
-          "Alternative: E-commerce App (products, cart, checkout, orders, payments)",
-          "Alternative: Messaging App (real-time chat, media sharing, contacts)"
-        ],
+        "practice": "Security audit all projects",
         "assessment": "Phase 3 exam: a practical build defended live, plus a written paper mixing this phase with everything before it"
       }
     }

@@ -2,63 +2,58 @@
   "meta": {
     "slug": "react-js-complete-masterclass-college",
     "date": "2025-10-24",
-    "title": "React.js Masterclass: Zero to Senior Frontend Developer",
-    "description": "A 12-month React.js course: master React 18+, Hooks, Redux, Next.js, TypeScript, testing and full-stack development, building production-ready apps.",
+    "dateModified": "2026-08-23",
+    "title": "React Masterclass: JavaScript to Production React",
+    "description": "React course for college students and professionals: JavaScript foundations, React with hooks, state management, TypeScript, testing and Next.js in 10-12 months.",
     "keywords": [
-      "react",
-      "react js",
-      "react hooks",
-      "redux",
-      "next js",
-      "typescript react",
-      "react native",
-      "frontend development",
-      "spa",
-      "react testing",
-      "react performance",
-      "state management",
-      "react ecosystem",
-      "mern stack",
-      "react 18"
+      "react course online",
+      "react js course for beginners",
+      "react course for college students",
+      "react with typescript course",
+      "next js course online",
+      "react course india",
+      "learn react from zero",
+      "react testing course",
+      "frontend development course react",
+      "react masterclass online",
+      "best react course",
+      "react hooks course"
     ],
-    "category": "Frontend Development & Modern Web",
+    "category": "Web Development",
     "taxonomy": "web-dev",
     "price": {
       "group": "₹1,499/month",
       "personal": "₹4,999/month"
     },
-    "duration": "12 months (52 weeks)",
-    "level": "Complete Beginner to Senior React Developer",
-    "commitment": "15-20 hours/week recommended",
-    "certification": "Certified React Developer Professional upon completion",
+    "duration": "10-12 months (44-52 weeks)",
+    "level": "Complete beginner (18+); college students, graduates and working professionals",
+    "commitment": "2 live classes/week + 4-6 hours practice",
+    "certification": "Certificate from Modern Age Coders, awarded on passing the final exam",
     "image_path": "react-college.webp"
   },
   "program_overview": {
-    "title": "Complete React.js Masterclass",
-    "tagline": "From JSX Basics to Production-Scale React Applications",
-    "description": "This is not just a course, it's your complete transformation into a professional React developer. React powers Facebook, Netflix, Airbnb, and countless modern web applications. This 12-month masterclass takes you from absolute beginner to senior React developer, capable of building complex, scalable, and performant web applications. You'll master modern React with Hooks, state management, server-side rendering with Next.js, mobile development with React Native, and the entire React ecosystem. Build a portfolio of 30+ production-ready applications that will impress any employer or client.",
+    "title": "React.js Complete Masterclass",
+    "tagline": "The frontend library hiring still runs on, learned to production depth: hooks, state, TypeScript, testing and Next.js, ending deployed.",
+    "description": "React remains the most-hired frontend skill by a wide margin, and the gap between tutorial React and production React is where careers are decided. This live online masterclass closes it: JavaScript foundations first, then React as it is actually written, function components, hooks, honest data patterns, real state management with Redux Toolkit, then the production layer: TypeScript throughout, testing that catches regressions, performance measured before optimized, and Next.js as the industry wrapper. A finale month ships a production-shaped capstone and sits the final exam.\n\nThe pace is honest: ten teaching months at two live classes a week plus four to six hours of practice, with two more in hand. Problem sets, monthly mixed reviews, phase exams, and a final exam that decides the certificate with a free retest.",
     "what_makes_this_different": [
-      "Starts from absolute zero - no React or even JavaScript expertise required",
-      "Complete 12-month structured curriculum with React 18+ features",
-      "Covers entire React ecosystem: Redux, Next.js, React Native, GraphQL",
-      "30+ real-world projects including social media, e-commerce, SaaS apps",
-      "TypeScript integration from the beginning",
-      "Testing, performance optimization, and production deployment",
-      "Modern state management: Redux Toolkit, Zustand, Context API",
-      "Full-stack development with MERN stack",
-      "Interview preparation for FAANG companies"
+      "JavaScript depth first: React punishes weak JavaScript forever",
+      "Production patterns, not tutorial patterns: loading states, error boundaries and data honesty throughout",
+      "TypeScript and testing as core phases, not appendices",
+      "Next.js taught as the industry actually uses it",
+      "An honest 10-month arc with 2 months in hand",
+      "Real assessment: weekly problem sets, monthly mixed reviews, phase exams and a final exam with a free retest"
     ],
     "learning_path": {
-      "phase_1": "Foundation (Months 1-3): JavaScript, React Basics, Components, Hooks",
-      "phase_2": "Intermediate (Months 4-6): State Management, Routing, Forms, APIs",
-      "phase_3": "Advanced (Months 7-9): Next.js, TypeScript, Testing, Performance",
-      "phase_4": "Professional (Months 10-12): React Native, Full-Stack, Production Apps"
+      "phase_1": "Foundations (Months 1-3): JavaScript properly, then React fundamentals",
+      "phase_2": "Advanced React (Months 4-6): hooks in depth, patterns, and state management that scales",
+      "phase_3": "Production layer (Months 7-9): TypeScript, testing, performance and Next.js",
+      "phase_4": "The finale (Month 10): a production-shaped capstone and the final exam"
     },
     "career_outcomes": [
-      "Junior React Developer (after 3 months)",
-      "React Developer (after 6 months)",
-      "Senior React Developer (after 9 months)",
-      "Full-Stack Developer / React Architect (after 12 months)"
+      "Production React capability: the difference interviews actually probe",
+      "TypeScript-React fluency, the 2026 hiring baseline",
+      "A deployed capstone with tests and measured performance",
+      "Honest next roads: frontend roles, full-stack, or React Native in our app course"
     ]
   },
   "phase_1_foundation": {
@@ -66,7 +61,7 @@
     "description": "Build rock-solid foundations in JavaScript ES6+ and React core concepts, components, and hooks.",
     "month_1_2": {
       "title": "Months 1-2: JavaScript Mastery for React",
-      "weeks": "Week 1-8",
+      "weeks": "Weeks 1-8",
       "week_1_2": {
         "title": "Modern JavaScript Essentials",
         "topics": [
@@ -164,9 +159,9 @@
         "practice": "Build 20 interactive components with state"
       }
     },
-    "month_3_4": {
+    "month_3": {
       "title": "Month 3: React Hooks Mastery",
-      "weeks": "Week 9-13",
+      "weeks": "Weeks 9-13",
       "week_9_10": {
         "title": "Essential Hooks",
         "topics": [
@@ -237,17 +232,17 @@
           "Animated components",
           "PHASE 1 CAPSTONE: Complete React Application with Custom Styling"
         ],
-        "assessment": "Phase 1 exam on React fundamentals"
+        "assessment": "Phase 1 exam: a practical build defended live, plus a written paper mixing this phase with everything before it"
       }
     }
   },
   "phase_2_frontend_mastery": {
     "title": "PHASE 2: Advanced React & State Management (Months 4-6, Weeks 14-26)",
     "description": "Master routing, forms, API integration, and professional state management solutions.",
-    "month_7_8": {
+    "month_4_5": {
       "title": "Months 4-5: Routing & Data Management",
-      "weeks": "Week 14-22",
-      "week_27_28": {
+      "weeks": "Weeks 14-21",
+      "week_14_15": {
         "title": "React Router",
         "topics": [
           "React Router v6 setup",
@@ -273,7 +268,7 @@
         ],
         "practice": "Build 10 routing scenarios"
       },
-      "week_29_30": {
+      "week_16_17": {
         "title": "Forms & Validation",
         "topics": [
           "Controlled components deep dive",
@@ -299,7 +294,7 @@
         ],
         "practice": "Create 15 complex forms"
       },
-      "week_31_32": {
+      "week_18_19": {
         "title": "API Integration & Data Fetching",
         "topics": [
           "Fetch API with React",
@@ -325,7 +320,7 @@
         ],
         "practice": "Integrate 10 different APIs"
       },
-      "week_33_34": {
+      "week_20": {
         "title": "Context API & State Management",
         "topics": [
           "Context API deep dive",
@@ -350,7 +345,7 @@
         ],
         "practice": "Implement 10 state management scenarios"
       },
-      "week_35": {
+      "week_21": {
         "title": "Advanced Redux Patterns",
         "topics": [
           "Redux middleware",
@@ -377,10 +372,10 @@
         "practice": "Master advanced Redux patterns"
       }
     },
-    "month_9_10": {
+    "month_6": {
       "title": "Month 6: Component Patterns & Architecture",
-      "weeks": "Week 23-26",
-      "week_36_37": {
+      "weeks": "Weeks 22-26",
+      "week_22": {
         "title": "Advanced Component Patterns",
         "topics": [
           "Higher-Order Components (HOCs)",
@@ -406,7 +401,7 @@
         ],
         "practice": "Implement 15 component patterns"
       },
-      "week_38_39": {
+      "week_23": {
         "title": "Performance Optimization",
         "topics": [
           "React DevTools Profiler",
@@ -432,7 +427,7 @@
         ],
         "practice": "Optimize 10 slow React apps"
       },
-      "week_40_41": {
+      "week_24": {
         "title": "Error Handling & Debugging",
         "topics": [
           "Error boundaries",
@@ -458,7 +453,7 @@
         ],
         "practice": "Debug 20 React issues"
       },
-      "week_42_43": {
+      "week_25": {
         "title": "Accessibility & SEO",
         "topics": [
           "Web accessibility principles",
@@ -484,7 +479,7 @@
         ],
         "practice": "Make 10 apps fully accessible"
       },
-      "week_44": {
+      "week_26": {
         "title": "Phase 2 Capstone Project",
         "topics": [
           "Complex application planning",
@@ -500,17 +495,17 @@
           "Include: authentication, real-time updates, image uploads",
           "Redux state management, optimized performance"
         ],
-        "assessment": "Phase 2 exam on advanced React"
+        "assessment": "Phase 2 exam: a practical build defended live, plus a written paper mixing this phase with everything before it"
       }
     }
   },
   "phase_3_backend_engineering": {
     "title": "PHASE 3: TypeScript, Testing & Next.js (Months 7-9, Weeks 27-39)",
     "description": "Master TypeScript with React, comprehensive testing, and server-side rendering with Next.js.",
-    "month_13_14": {
+    "month_7_8": {
       "title": "Months 7-8: TypeScript & Testing",
-      "weeks": "Week 27-35",
-      "week_53_54": {
+      "weeks": "Weeks 27-34",
+      "week_27_28": {
         "title": "TypeScript Fundamentals for React",
         "topics": [
           "TypeScript setup with React",
@@ -536,7 +531,7 @@
         ],
         "practice": "Type 30 React components"
       },
-      "week_55_56": {
+      "week_29_30": {
         "title": "TypeScript with React",
         "topics": [
           "Typing functional components",
@@ -562,7 +557,7 @@
         ],
         "practice": "Build 20 type-safe components"
       },
-      "week_57_58": {
+      "week_31_32": {
         "title": "Testing React Applications",
         "topics": [
           "Testing philosophy",
@@ -588,7 +583,7 @@
         ],
         "practice": "Write 100+ test cases"
       },
-      "week_59_60": {
+      "week_33": {
         "title": "End-to-End Testing",
         "topics": [
           "E2E testing introduction",
@@ -614,7 +609,7 @@
         ],
         "practice": "Create comprehensive E2E coverage"
       },
-      "week_61": {
+      "week_34": {
         "title": "Introduction to Next.js",
         "topics": [
           "Next.js benefits and features",
@@ -641,10 +636,10 @@
         "practice": "Build 5 Next.js applications"
       }
     },
-    "month_15_16": {
+    "month_9": {
       "title": "Month 9: Advanced Next.js & Full-Stack",
-      "weeks": "Week 36-39",
-      "week_62_63": {
+      "weeks": "Weeks 35-39",
+      "week_35": {
         "title": "Advanced Next.js Features",
         "topics": [
           "Incremental Static Regeneration (ISR)",
@@ -670,7 +665,7 @@
         ],
         "practice": "Master advanced Next.js features"
       },
-      "week_64_65": {
+      "week_36": {
         "title": "GraphQL with React",
         "topics": [
           "GraphQL introduction",
@@ -696,7 +691,7 @@
         ],
         "practice": "Build 5 GraphQL applications"
       },
-      "week_66_67": {
+      "week_37": {
         "title": "Micro-Frontends & Module Federation",
         "topics": [
           "Micro-frontends architecture",
@@ -722,7 +717,7 @@
         ],
         "practice": "Implement micro-frontend patterns"
       },
-      "week_68_69": {
+      "week_38": {
         "title": "Progressive Web Apps (PWA)",
         "topics": [
           "PWA principles",
@@ -748,7 +743,7 @@
         ],
         "practice": "Convert 5 apps to PWAs"
       },
-      "week_70": {
+      "week_39": {
         "title": "Phase 3 Capstone Project",
         "topics": [
           "Full-stack application design",
@@ -764,455 +759,116 @@
           "Include: authentication, payments, admin panel",
           "Full test coverage, deployed to production"
         ],
-        "assessment": "Phase 3 exam on TypeScript, testing, Next.js"
+        "assessment": "Phase 3 exam: a practical build defended live, plus a written paper mixing this phase with everything before it"
       }
     }
   },
-  "phase_4_advanced_production": {
-    "title": "PHASE 4: React Native & Professional Development (Months 10-12, Weeks 40-52)",
-    "description": "Master React Native, deployment, DevOps, and prepare for senior developer roles.",
-    "month_19_20": {
-      "title": "Months 10-11: React Native & Mobile Development",
-      "weeks": "Week 40-48",
-      "week_79_80": {
-        "title": "React Native Fundamentals",
+  "phase_4_finale": {
+    "title": "PHASE 4: The Finale (Month 10, Weeks 40-44)",
+    "description": "The capstone month: spec, build, ship and defend, then the final exam that decides the certificate.",
+    "month_10_finale": {
+      "title": "Month 10: Capstone and the Final Exam",
+      "weeks": "Weeks 40-44",
+      "week_40": {
+        "title": "Capstone Spec and Setup",
         "topics": [
-          "React Native introduction",
-          "Expo vs React Native CLI",
-          "Development environment setup",
-          "Core components overview",
-          "View, Text, Image components",
-          "ScrollView and FlatList",
-          "Styling in React Native",
-          "Flexbox for mobile",
-          "Platform-specific code",
-          "React Navigation setup",
-          "Stack, tab, drawer navigation",
-          "Handling user input",
-          "Touch events",
-          "Debugging React Native"
+          "Choosing the capstone: a production-shaped React application: dashboard, social product or commerce frontend",
+          "A one-page spec: scope, milestones, stack",
+          "Repository and skeleton ready on day one",
+          "Instructor sign-off before the build begins"
         ],
         "projects": [
-          "First React Native app",
-          "Todo mobile app",
-          "Weather app for mobile",
-          "Navigation examples"
+          "Approved capstone spec plus the running skeleton, deployed where applicable"
         ],
-        "practice": "Build 10 mobile screens"
+        "practice": "Pitch the spec to the batch and absorb one hard question"
       },
-      "week_81_82": {
-        "title": "Advanced React Native",
+      "week_41_42": {
+        "title": "Capstone Build",
         "topics": [
-          "Native modules",
-          "Animations with Animated API",
-          "Gesture handling",
-          "Camera and image picker",
-          "Geolocation",
-          "Push notifications",
-          "AsyncStorage",
-          "SQLite integration",
-          "State management in React Native",
-          "Redux with React Native",
-          "Performance optimization",
-          "Code push updates",
-          "Deep linking",
-          "Biometric authentication"
+          "Two focused weeks in vertical slices",
+          "Instructor checkpoints and honest scope cuts",
+          "Using the whole course: hooks, state management, TypeScript, tests and Next.js where it earns it",
+          "Daily commits and an always-working build"
         ],
         "projects": [
-          "Social media mobile app",
-          "Location-based app",
-          "Camera app with filters",
-          "Offline-capable app"
+          "The capstone, feature-complete with version control"
         ],
-        "practice": "Implement 15 native features"
+        "practice": "A working build at the end of every session"
       },
-      "week_83_84": {
-        "title": "React Native Deployment",
+      "week_43": {
+        "title": "Ship and Polish",
         "topics": [
-          "Building for iOS",
-          "Xcode configuration",
-          "Building for Android",
-          "Android Studio setup",
-          "Signing applications",
-          "App store guidelines",
-          "Google Play guidelines",
-          "Beta testing with TestFlight",
-          "Google Play Console",
-          "CI/CD for React Native",
-          "Fastlane automation",
-          "App monitoring",
-          "Crash reporting",
-          "Analytics integration"
+          "The finishing pass: edge cases, errors, documentation",
+          "Lighthouse and test-suite pass: performance and correctness by evidence",
+          "A README worth reading and a demo worth watching",
+          "A full-course spiral review before the exam"
         ],
         "projects": [
-          "Deploy app to TestFlight",
-          "Deploy app to Google Play",
-          "CI/CD pipeline setup",
-          "Analytics implementation"
+          "The capstone shipped, documented and rehearsed"
         ],
-        "practice": "Deploy 3 apps to stores"
+        "practice": "Two mock demos, each tighter than the last"
       },
-      "week_85_86": {
-        "title": "Full-Stack React Development",
+      "week_44": {
+        "title": "Demo Day and the Final Exam",
         "topics": [
-          "MERN stack overview",
-          "Node.js backend for React",
-          "Express.js API creation",
-          "MongoDB integration",
-          "Authentication strategies",
-          "JWT implementation",
-          "OAuth integration",
-          "File uploads",
-          "WebSocket integration",
-          "Email services",
-          "Payment processing",
-          "Stripe integration",
-          "Deployment strategies",
-          "Docker for React apps"
+          "Presenting the capstone: live demo plus the hardest bug story",
+          "The honest map of next roads: frontend specialization, full-stack product work, or React Native",
+          "Where our other courses continue the journey"
         ],
         "projects": [
-          "Full-stack e-commerce",
-          "Real-time collaboration app",
-          "Subscription-based SaaS",
-          "Social network clone"
+          "Demo day presentation delivered to the batch"
         ],
-        "practice": "Build 5 full-stack applications"
-      },
-      "week_87": {
-        "title": "DevOps for React",
-        "topics": [
-          "CI/CD pipelines",
-          "GitHub Actions",
-          "GitLab CI",
-          "Jenkins for React",
-          "Docker containerization",
-          "Kubernetes basics",
-          "Cloud deployment (AWS, GCP, Azure)",
-          "Vercel deployment",
-          "Netlify deployment",
-          "CDN setup",
-          "Monitoring and logging",
-          "Error tracking",
-          "Performance monitoring",
-          "Security best practices"
-        ],
-        "projects": [
-          "Complete CI/CD pipeline",
-          "Multi-environment setup",
-          "Monitoring dashboard",
-          "Automated deployment system"
-        ],
-        "practice": "Deploy to 5 different platforms"
-      }
-    },
-    "month_21_22": {
-      "title": "Month 12: Career Launch & Specialization",
-      "weeks": "Week 49-52",
-      "week_88_89": {
-        "title": "Advanced Patterns & Architecture",
-        "topics": [
-          "Atomic design principles",
-          "Design systems in React",
-          "Storybook for components",
-          "Component documentation",
-          "Monorepo with Lerna/Nx",
-          "Design tokens",
-          "Theme systems",
-          "Multi-tenancy",
-          "White-label applications",
-          "Plugin architectures",
-          "Extensible applications",
-          "Framework agnostic components",
-          "Web Components with React",
-          "React Server Components"
-        ],
-        "projects": [
-          "Design system creation",
-          "Storybook documentation",
-          "Monorepo setup",
-          "White-label platform"
-        ],
-        "practice": "Implement 10 architectural patterns"
-      },
-      "week_90_91": {
-        "title": "Interview Preparation",
-        "topics": [
-          "React interview questions",
-          "JavaScript deep dive",
-          "Algorithm challenges",
-          "System design for frontend",
-          "Take-home projects",
-          "Code review skills",
-          "Behavioral questions",
-          "STAR method",
-          "Portfolio presentation",
-          "Salary negotiation",
-          "FAANG preparation",
-          "Startup vs corporate",
-          "Remote work preparation",
-          "Freelancing basics"
-        ],
-        "projects": [
-          "Interview prep materials",
-          "Portfolio website",
-          "Code challenge solutions",
-          "System design examples"
-        ],
-        "practice": "Complete 50 interview problems"
-      },
-      "week_92_93": {
-        "title": "Portfolio & Personal Brand",
-        "topics": [
-          "Portfolio strategy",
-          "Project selection",
-          "Case study writing",
-          "GitHub optimization",
-          "LinkedIn profile",
-          "Personal website",
-          "Technical blogging",
-          "Video content creation",
-          "Open source contribution",
-          "Community involvement",
-          "Speaking at meetups",
-          "Building reputation",
-          "Networking strategies",
-          "Mentorship"
-        ],
-        "projects": [
-          "Professional portfolio",
-          "Technical blog posts",
-          "Open source contributions",
-          "Personal brand strategy"
-        ],
-        "practice": "Build complete online presence"
-      },
-      "week_94_95": {
-        "title": "Specialization Paths",
-        "topics": [
-          "Frontend architect path",
-          "UI/UX engineer focus",
-          "Performance specialist",
-          "Accessibility expert",
-          "Animation specialist",
-          "3D with React Three Fiber",
-          "Data visualization with D3",
-          "React Native specialist",
-          "Full-stack developer",
-          "Technical lead skills",
-          "Engineering manager path",
-          "Consultant pathway",
-          "Educator and trainer",
-          "Startup founder skills"
-        ],
-        "projects": [
-          "Specialization project",
-          "Advanced showcase",
-          "Teaching materials",
-          "Consulting proposal"
-        ],
-        "practice": "Deep dive into chosen specialization"
-      },
-      "week_96": {
-        "title": "Final Project & Graduation",
-        "topics": [
-          "Capstone planning",
-          "Real-world problem solving",
-          "Complete application development",
-          "Testing and optimization",
-          "Documentation",
-          "Deployment and monitoring",
-          "Presentation preparation",
-          "Peer review",
-          "Career planning",
-          "Continuous learning",
-          "Community engagement",
-          "Future roadmap"
-        ],
-        "projects": [
-          "FINAL CAPSTONE: Production React Application",
-          "Build and deploy a complete production application",
-          "Your choice: SaaS, e-commerce, social platform, or innovative idea",
-          "Must include: React, TypeScript, testing, state management, deployment",
-          "Live users and real-world usage"
-        ],
-        "assessment": "Final comprehensive exam and project defense"
-      }
-    },
-    "month_23": {
-      "title": "Continuous Learning & Growth",
-      "weeks": "Ongoing",
-      "week_97": {
-        "title": "Staying Current with React",
-        "topics": [
-          "Following React development",
-          "React RFC process",
-          "Beta features testing",
-          "React conferences",
-          "Community involvement",
-          "React core team updates",
-          "Ecosystem changes",
-          "New libraries and tools",
-          "Performance improvements",
-          "Best practices evolution",
-          "Contributing to React",
-          "Writing RFCs"
-        ],
-        "projects": [
-          "Learning roadmap",
-          "Community contribution",
-          "Conference talk proposal",
-          "Open source maintenance"
-        ],
-        "practice": "Dedicate 5 hours weekly to React updates"
-      },
-      "week_98": {
-        "title": "Advanced Topics",
-        "topics": [
-          "React Compiler",
-          "Concurrent features",
-          "Server Components deep dive",
-          "Streaming SSR",
-          "React Native New Architecture",
-          "React Three Fiber for 3D",
-          "React Native Web",
-          "Remix framework",
-          "Astro with React",
-          "Qwik resumability",
-          "Solid.js comparison",
-          "Vue vs React"
-        ],
-        "projects": [
-          "Experimental features project",
-          "3D React application",
-          "Framework comparison",
-          "Performance study"
-        ],
-        "practice": "Explore cutting-edge React features"
-      },
-      "week_99": {
-        "title": "Teaching & Mentoring",
-        "topics": [
-          "Creating tutorials",
-          "Video course creation",
-          "Workshop development",
-          "Mentoring juniors",
-          "Code review skills",
-          "Technical writing",
-          "Documentation skills",
-          "Community building",
-          "Discord/Slack management",
-          "Stack Overflow contribution",
-          "Reddit participation",
-          "Twitter presence"
-        ],
-        "projects": [
-          "Tutorial series",
-          "Workshop materials",
-          "Mentorship program",
-          "Community project"
-        ],
-        "practice": "Teach React to others weekly"
-      },
-      "week_100": {
-        "title": "Leadership & Architecture",
-        "topics": [
-          "Technical leadership",
-          "Architecture decisions",
-          "Technology selection",
-          "Team best practices",
-          "Code standards",
-          "Review processes",
-          "Performance culture",
-          "Testing culture",
-          "Documentation standards",
-          "Knowledge sharing",
-          "Team growth",
-          "Hiring and interviews"
-        ],
-        "projects": [
-          "Team guidelines",
-          "Architecture documents",
-          "Best practices guide",
-          "Interview process design"
-        ],
-        "practice": "Lead React projects and teams"
+        "assessment": "FINAL EXAM: a practical build plus a written paper with questions mixed from every phase. Passing earns the certificate; falling short earns a focused revision plan and a free retest"
       }
     }
   },
   "additional_learning_resources": {
     "projects_throughout_course": [
-      "Phase 1: 15+ fundamental projects - components, hooks, styling",
-      "Phase 2: 20+ intermediate projects - routing, state, APIs, forms",
-      "Phase 3: 15+ advanced projects - TypeScript, testing, Next.js, PWA",
-      "Phase 4: 10+ professional projects - React Native, full-stack, production",
-      "Total: 60+ React projects from simple to production-scale"
+      "Phase 1: JavaScript builds and first React applications",
+      "Phase 2: hook-driven apps with real state management",
+      "Phase 3: typed, tested, measured applications with Next.js",
+      "Phase 4: the production-shaped capstone, deployed and defended"
     ],
-    "total_projects_built": "60+ React applications across web and mobile",
+    "total_projects_built": "20+ real builds, crowned by a deployed production-shaped capstone",
     "skills_mastered": [
-      "React Core: Components, JSX, props, state, lifecycle, hooks",
-      "Advanced React: Custom hooks, patterns, performance, error boundaries",
-      "State Management: Context API, Redux, Redux Toolkit, Zustand, MobX",
-      "Routing: React Router v6, nested routes, guards, lazy loading",
-      "Styling: CSS Modules, Styled Components, Emotion, Tailwind CSS",
-      "TypeScript: Full type safety, generics, advanced types",
-      "Testing: Jest, React Testing Library, Cypress, E2E testing",
-      "Next.js: SSR, SSG, ISR, API routes, full-stack development",
-      "React Native: Mobile development, native features, deployment",
-      "Performance: Optimization, code splitting, lazy loading, memoization",
-      "Tools: Webpack, Vite, ESLint, Prettier, Storybook",
-      "DevOps: CI/CD, Docker, cloud deployment, monitoring"
+      "JavaScript depth: the async and data patterns React assumes",
+      "React as written now: components, hooks and honest data handling",
+      "State at scale: context judgment and Redux Toolkit fluency",
+      "The production layer: TypeScript, React Testing Library, performance measurement",
+      "Next.js: the industry wrapper, used with judgment"
     ],
     "weekly_structure": {
-      "theory_videos": "4-6 hours",
-      "hands_on_coding": "8-10 hours",
-      "projects": "3-5 hours",
-      "practice_problems": "2-3 hours",
-      "total_per_week": "15-20 hours"
-    },
-    "support_provided": {
-      "live_sessions": "Weekly React workshops and code reviews",
-      "mentorship": "1-on-1 guidance from senior React developers",
-      "code_review": "Expert review of all projects",
-      "career_support": "Resume review, interview prep"
+      "live_classes": "2 live one-hour classes per week, coding along with the instructor",
+      "homework": "A problem set after every class, and a mixed-review assignment at the end of every month",
+      "practice": "4-6 hours of building between classes",
+      "review": "Every submission reviewed with written feedback; recurring gaps reopened in class"
     },
     "certification": {
-      "phase_certificates": "Certificate after each phase",
-      "final_certificate": "Certified React Developer Professional",
-      "linkedin_badge": "Verified LinkedIn credential",
-      "industry_recognized": "Recognized by tech companies globally",
-      "portfolio_projects": "60+ production-ready projects",
-      "specialization_certificate": "Certificate in chosen specialization"
+      "completion": "Certificate from Modern Age Coders, awarded on passing the final exam. Fall short and there is focused revision and a free retest: the certificate certifies knowledge, not attendance"
+    },
+    "support_provided": {
+      "doubt_support": "WhatsApp doubt support between classes",
+      "progress_updates": "Honest monthly progress reviews: what is solid, what is wobbly, and the plan for the wobble"
     }
   },
   "prerequisites": {
-    "education": "No formal education required",
-    "coding_experience": "Basic HTML/CSS helpful but not required",
-    "equipment": "Computer with 4GB+ RAM, modern browser",
-    "time_commitment": "15-20 hours per week",
-    "english": "Good comprehension for documentation",
-    "motivation": "Passion for building modern web applications"
+    "coding_experience": "None. Everything is taught from the first line",
+    "equipment": "Any computer with a stable internet connection; every tool used is free",
+    "age": "18+; college students, graduates and working professionals",
+    "time_commitment": "2 live classes plus 4-6 hours of practice a week"
   },
   "who_is_this_for": {
-    "students": "CS students wanting to master modern web development",
-    "working_professionals": "Developers transitioning to React",
-    "entrepreneurs": "Building modern web applications",
-    "freelancers": "Offering React development services",
-    "kids": "Mature teens (14+) with programming interest",
-    "anyone": "Anyone wanting to build professional web applications"
+    "college_students": "Students who want the most-hired frontend skill at production depth",
+    "tutorial_escapees": "Developers who can follow React tutorials but not debug them",
+    "career_switchers": "Professionals entering frontend at the hiring baseline",
+    "backend_developers": "Engineers adding the frontend half properly",
+    "product_builders": "Founders and makers whose products need real interfaces"
   },
   "career_paths_after_completion": [
-    "React Developer",
-    "Frontend Developer",
-    "Full-Stack Developer (MERN)",
-    "React Native Developer",
-    "Senior Frontend Engineer",
-    "UI/UX Engineer",
-    "Frontend Architect",
-    "Technical Lead",
-    "JavaScript Specialist",
-    "Freelance React Developer",
-    "React Consultant",
-    "Startup CTO/Technical Co-founder"
+    "Frontend roles: this is the depth those interviews probe",
+    "Our full-stack course: add the backend half",
+    "App development: React Native carries this skill onto phones",
+    "DSA for the interview algorithm rounds"
   ],
   "salary_expectations": {
     "market_context": "The ranges below are general market salary bands for these roles in India and abroad, drawn from public industry data. They are shown for career context only and are not a promise or guarantee of income. Actual pay depends on your skills, experience, location, and the job market.",
@@ -1221,40 +877,6 @@
     "freelance": "₹2,000-8,000/hour based on expertise",
     "international": "$60k-150k USD based on location and experience"
   },
-  "course_guarantees": {
-    "live_classes": "Live, interactive classes with a real instructor, never pre-recorded videos.",
-    "small_batches": "Small batches only: group classes are capped at 10 students, with mini-batch (3 to 4 students) and personal 1-on-1 options.",
-    "structured_curriculum": "A structured, well-paced curriculum taught step by step, with hands-on practice in every session.",
-    "doubt_support": "Doubt support between classes over WhatsApp, so you are never left stuck.",
-    "certificate": "A course-completion certificate you can share.",
-    "free_demo": "A free demo class before you enrol, so you can decide with no pressure."
-  },
-  "faqs": [
-    {
-      "question": "Why is React.js one of the most in-demand frontend skills in 2026?",
-      "answer": "React powers the frontends of Facebook, Instagram, Netflix, Airbnb, and thousands of top companies. Its component-based architecture makes building complex UIs manageable. The job market reflects this: React developers are among the highest-paid frontend engineers, with 60% of frontend job postings requiring React skills."
-    },
-    {
-      "question": "Do I need to know JavaScript before learning React?",
-      "answer": "Basic JavaScript knowledge helps, but our course includes JavaScript fundamentals review in Phase 1. We cover ES6+ features, DOM manipulation, and async programming before diving into React. Complete beginners may want to spend extra time on JavaScript basics, but it's not mandatory."
-    },
-    {
-      "question": "What's the difference between React, Angular, and Vue?",
-      "answer": "React is a library focused on building UI components with maximum flexibility. Angular is a complete framework with more structure but steeper learning curve. Vue sits in between. React's ecosystem, job market, and community are largest. Learning React makes learning other frameworks easy since concepts transfer."
-    },
-    {
-      "question": "What will I be able to build after completing this 12-month React course?",
-      "answer": "You'll build 60+ projects including: component libraries, social media platforms, e-commerce sites, admin dashboards, real-time apps with WebSockets, mobile apps with React Native, and production SaaS applications. Your portfolio will include complete full-stack applications deployed and serving real users."
-    },
-    {
-      "question": "Does this course cover React Native for mobile app development?",
-      "answer": "Yes! Phase 4 includes comprehensive React Native training. You'll learn to build iOS and Android apps, deploy to app stores, and understand when to use React Native vs native development. Many companies hire developers who can build both web and mobile applications with React."
-    },
-    {
-      "question": "What salary can I expect as a React developer in India?",
-      "answer": "React developers are highly valued. Entry-level: ₹5-8 LPA, Mid-level: ₹8-18 LPA, Senior: ₹15-35 LPA, Lead/Architect: ₹30-60 LPA. Freelancers earn ₹2,000-8,000/hour. International remote positions offer $60k-150k USD. The combination of React + TypeScript + Next.js commands premium salaries."
-    }
-  ],
   "related_courses": [
     {
       "slug": "full-stack-web-development-masterclass-college",
@@ -1272,18 +894,43 @@
       "description": "Add type safety and scalability to your React apps"
     }
   ],
-  "why_this_course": {
-    "title": "Why React.js Dominates Modern Frontend Development",
-    "paragraphs": [
-      "React isn't just popular, it's the undisputed leader of frontend development. Powering Facebook, Instagram, Netflix, Airbnb, and countless top tech companies, React skills are the most sought-after in the frontend job market. With over 60% of frontend positions requiring React, this is the skill that opens doors.",
-      "Our 12-month program goes beyond tutorials to build real-world expertise. You'll master React's component architecture, hooks, state management, and the entire modern ecosystem: Next.js for server-side rendering, React Native for mobile apps, and advanced patterns used by senior engineers at top companies.",
-      "What truly sets this program apart is our project-based approach and career support. You won't just learn React, you'll build 60+ projects, deploy production applications, and receive interview preparation with companies actively hiring React developers. Many graduates land jobs before even completing the program."
-    ],
-    "highlights": [
-      "60+ portfolio-ready projects including production SaaS applications",
-      "Complete React ecosystem: Next.js, React Native, Redux, and more",
-      "TypeScript integration for enterprise-level development",
-      "Interview preparation and mock interviews"
-    ]
-  }
+  "course_guarantees": {
+    "live_classes": "Live, interactive classes with a real instructor, never pre-recorded videos.",
+    "small_batches": "Small batches only: group classes are capped at 10 students, with mini-batch (3 to 4 students) and personal 1-on-1 options.",
+    "structured_curriculum": "A structured, well-paced curriculum taught step by step, with classwork in every session and problem sets after every class.",
+    "real_assessment": "Monthly mixed reviews, cumulative phase exams, and a final exam that decides the certificate: real knowledge, real work.",
+    "doubt_support": "Doubt support between classes over WhatsApp, so you are never left stuck.",
+    "certificate": "A certificate you earn by passing the final exam, with a free retest after revision if needed.",
+    "free_demo": "A free demo class before you enrol, so you can decide with no pressure."
+  },
+  "faqs": [
+    {
+      "question": "What does this React masterclass cover?",
+      "answer": "JavaScript foundations first, then React as production teams write it: components and hooks in depth, honest data patterns, state management with Redux Toolkit, then the production layer, TypeScript throughout, testing with React Testing Library, performance measured before optimized, and Next.js. A finale month ships a deployed, tested capstone and sits the final exam."
+    },
+    {
+      "question": "How long does it take to learn React properly?",
+      "answer": "Ten months of teaching at 2 live classes a week plus 4 to 6 hours of practice, with two more months in hand for learners who need them. The three teaching phases build the skill and its real-world application; the finale month ships a capstone and sits the final exam."
+    },
+    {
+      "question": "How am I assessed? Is the certificate just for attending?",
+      "answer": "No. Problem sets follow every class with written feedback, monthly reviews deliberately mix new material with earlier topics, each phase ends with a cumulative exam, and the course ends with a final exam: a practical build plus written questions from the whole syllabus. Passing earns the certificate; falling short earns focused revision and a free retest."
+    },
+    {
+      "question": "Does this course include React Native?",
+      "answer": "No, honestly: mobile is its own discipline with its own course here (our app development track), and stapling it on would cheat both. What this course guarantees is the React depth React Native then assumes, students who continue into the app course arrive ready."
+    },
+    {
+      "question": "What are the fees?",
+      "answer": "Group classes are ₹1,499 per month, with 2 live classes a week in batches capped at 10 learners. A mini batch of 3-4 learners is ₹2,999 per month, and personal 1-on-1 classes are ₹4,999 per month. International learners pay a price set for their own country, shown on this page in their local currency."
+    },
+    {
+      "question": "Can I try a class before enrolling?",
+      "answer": "Yes, a free demo class with no commitment: book at learn.modernagecoders.com/contact or message us on WhatsApp at +91 91233 66161."
+    },
+    {
+      "question": "Are classes live or recorded?",
+      "answer": "Live, always: small groups with a real instructor reading your actual code, never pre-recorded videos."
+    }
+  ]
 }

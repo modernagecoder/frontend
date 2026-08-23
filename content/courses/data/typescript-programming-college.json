@@ -2,63 +2,58 @@
   "meta": {
     "slug": "complete-typescript-programming-masterclass-college",
     "date": "2026-01-13",
-    "title": "TypeScript Programming: Zero to Enterprise Developer",
-    "description": "Live online TypeScript course for college students and professionals: React, Node.js, Next.js, GraphQL and cloud deployment, from basics to enterprise apps.",
+    "dateModified": "2026-08-23",
+    "title": "TypeScript Course: Typed JavaScript, React and Node",
+    "description": "TypeScript course for college students and professionals: JavaScript foundations, the type system to depth, then typed React and Node in 10-12 months.",
     "keywords": [
-      "typescript programming",
-      "typescript masterclass",
-      "learn typescript",
-      "typescript for beginners",
-      "react typescript",
-      "node.js typescript",
-      "next.js",
-      "graphql",
-      "typescript enterprise",
-      "typescript web development",
-      "typescript certification",
-      "advanced typescript",
-      "typescript developer",
-      "typescript career",
-      "typescript for kids"
+      "typescript course online",
+      "typescript course for beginners",
+      "learn typescript from zero",
+      "typescript with react course",
+      "typescript node js course",
+      "typescript course india",
+      "typed javascript course",
+      "typescript for college students",
+      "full stack typescript course",
+      "typescript masterclass online",
+      "best typescript course",
+      "javascript to typescript course"
     ],
-    "category": "Professional TypeScript Development",
+    "category": "Web Development",
     "taxonomy": "programming",
     "price": {
       "group": "₹1,499/month",
       "personal": "₹4,999/month"
     },
-    "duration": "12 months (52 weeks)",
-    "level": "Complete Beginner to Enterprise Professional",
-    "commitment": "15-20 hours/week recommended",
-    "certification": "Industry-recognized TypeScript Developer certification upon completion",
+    "duration": "10-12 months (44-52 weeks)",
+    "level": "Complete beginner (18+); college students, graduates and working professionals",
+    "commitment": "2 live classes/week + 4-6 hours practice",
+    "certification": "Certificate from Modern Age Coders, awarded on passing the final exam",
     "image_path": "typescript-college.webp"
   },
   "program_overview": {
-    "title": "Complete TypeScript Programming Masterclass",
-    "tagline": "From 'Hello World' to Full-Stack Enterprise Applications",
-    "description": "This is not just a TypeScript course, it's a complete transformation into an enterprise-ready TypeScript professional. Whether you're a curious beginner, student, working professional, or someone with zero coding experience, this 1-year masterclass will turn you into a highly skilled TypeScript developer capable of building scalable full-stack applications, REST APIs, GraphQL services, and cloud-native solutions.\n\nYou'll master TypeScript from ground zero to enterprise architect level: from basic syntax to advanced type systems, from simple scripts to React/Next.js applications, from Node.js servers to microservices architecture. By the end, you'll have built 40+ projects, mastered the entire TypeScript ecosystem, and be ready for senior full-stack developer roles in top tech companies.",
+    "title": "TypeScript Programming Masterclass",
+    "tagline": "The language modern teams actually write: JavaScript foundations, the type system as a superpower, then typed React and Node end to end.",
+    "description": "TypeScript won: new frontend and most serious Node work is written in it, and the type system, learned properly, is not bureaucracy but a superpower: bugs caught at compile time, refactors that stop being scary, editors that finish your thoughts. This live online masterclass builds it honestly: JavaScript foundations first (TypeScript is JavaScript underneath), then the type system to real depth, generics, narrowing, utility types, the honest limits, then typed application development: React with TypeScript the way product teams write it, and Node backends with types end to end. A finale month ships a full-stack typed capstone and sits the final exam.\n\nThe pace is honest: ten teaching months at two live classes a week plus four to six hours of practice, with two more in hand. Problem sets, monthly mixed reviews, phase exams, and a final exam that decides the certificate with a free retest.",
     "what_makes_this_different": [
-      "Starts from absolute zero - perfect for complete beginners",
-      "Separate learning tracks for kids (12+), teens, and adults",
-      "1 year of structured, industry-aligned learning",
-      "Covers TypeScript + React + Node.js + Next.js + GraphQL",
-      "Real enterprise projects and industry case studies",
-      "Hands-on with latest TypeScript versions (TypeScript 5+)",
-      "Interview preparation for top companies",
-      "Build production-ready full-stack portfolio",
-      "Direct path to high-paying TypeScript developer jobs"
+      "JavaScript first, honestly: TypeScript without JS depth is decoration",
+      "The type system as a skill: generics and narrowing understood, not copy-pasted",
+      "Typed both ends: React and Node with types flowing end to end",
+      "Real-team habits: strictness levels, migration judgment, when any is a lie",
+      "An honest 10-month arc with 2 months in hand",
+      "Real assessment: weekly problem sets, monthly mixed reviews, phase exams and a final exam with a free retest"
     ],
     "learning_path": {
-      "phase_1": "Foundation (Months 1-3): JavaScript Basics, TypeScript Fundamentals, Core Concepts",
-      "phase_2": "Intermediate (Months 4-6): Advanced Types, React with TypeScript, Frontend Mastery",
-      "phase_3": "Professional (Months 7-9): Node.js, Express, Databases, REST APIs, Backend Engineering",
-      "phase_4": "Enterprise (Months 10-12): Next.js, GraphQL, Microservices, DevOps, Cloud Deployment"
+      "phase_1": "Foundations (Months 1-3): JavaScript properly, then TypeScript fundamentals",
+      "phase_2": "Typed frontend (Months 4-6): React with TypeScript as product teams write it",
+      "phase_3": "Typed backend (Months 7-9): Node and Express with types end to end",
+      "phase_4": "The finale (Month 10): a full-stack typed capstone and the final exam"
     },
     "career_outcomes": [
-      "Junior TypeScript Developer (after 3 months)",
-      "Frontend Developer with TypeScript (after 6 months)",
-      "Full-Stack TypeScript Developer (after 9 months)",
-      "Senior Full-Stack Developer / Solutions Architect (after 12 months)"
+      "The default language of modern web hiring, owned properly",
+      "Type-system depth that shows immediately in code review",
+      "A full-stack typed capstone with end-to-end type safety",
+      "Honest next roads: frontend, backend or full-stack roles, all TypeScript-first now"
     ]
   },
   "phase_1_foundation": {
@@ -66,8 +61,8 @@
     "description": "Build rock-solid JavaScript and TypeScript fundamentals. Learn programming logic, master TypeScript syntax, type systems, and create your first applications.",
     "month_1_2": {
       "title": "Months 1-2: JavaScript & TypeScript Fundamentals",
-      "weeks": "Week 1-8",
-      "week_1_2": {
+      "weeks": "Weeks 1-7",
+      "week_1": {
         "title": "Introduction to Programming & JavaScript Basics",
         "topics": [
           "What is programming? Introduction to software development",
@@ -93,7 +88,7 @@
         ],
         "practice": "Daily: 30 min JavaScript syntax practice, write 5-10 simple programs"
       },
-      "week_3_4": {
+      "week_2_3": {
         "title": "Variables, Data Types & Operators",
         "topics": [
           "Variables: var, let, const - differences and best practices",
@@ -122,7 +117,7 @@
         ],
         "practice": "Solve 30 problems on variables, data types, and operators"
       },
-      "week_5_6": {
+      "week_4_5": {
         "title": "Control Flow & Functions",
         "topics": [
           "Boolean expressions and truthy/falsy values",
@@ -161,7 +156,7 @@
         ],
         "practice": "Solve 40 control flow and function problems"
       },
-      "week_7_8": {
+      "week_6_7": {
         "title": "Arrays, Objects & ES6+ Features",
         "topics": [
           "Arrays: declaration, creation, initialization",
@@ -199,10 +194,10 @@
         "practice": "Create 25 programs using arrays and objects, solve 30 problems"
       }
     },
-    "month_3_4": {
+    "month_3": {
       "title": "Month 3: TypeScript Core & Type System",
-      "weeks": "Week 9-13",
-      "week_9_10": {
+      "weeks": "Weeks 8-13",
+      "week_8_9": {
         "title": "TypeScript Fundamentals & Setup",
         "topics": [
           "Introduction to TypeScript: static typing benefits",
@@ -234,7 +229,7 @@
         ],
         "practice": "Convert 10 JavaScript programs to TypeScript with proper types"
       },
-      "week_11_12": {
+      "week_10_11": {
         "title": "Interfaces, Type Aliases & Advanced Types",
         "topics": [
           "Interface declaration and usage",
@@ -267,7 +262,7 @@
         ],
         "practice": "Build 15 projects using interfaces and advanced types"
       },
-      "week_13": {
+      "week_12_13": {
         "title": "Generics & Advanced TypeScript",
         "topics": [
           "Introduction to generics: type parameters",
@@ -299,17 +294,17 @@
           "Features: Tasks, categories, priorities, file persistence, full TypeScript typing"
         ],
         "practice": "Create 15 generic utilities, solve 30 generics problems",
-        "assessment": "Phase 1 Final Assessment - TypeScript fundamentals and type system test"
+        "assessment": "Phase 1 exam: a practical build defended live, plus a written paper mixing this phase with everything before it"
       }
     }
   },
   "phase_2_frontend_mastery": {
     "title": "PHASE 2: Frontend Mastery with React & TypeScript (Months 4-6, Weeks 14-26)",
     "description": "Master modern frontend development with React, state management, testing, and build production-ready user interfaces.",
-    "month_7_8": {
+    "month_4_5": {
       "title": "Months 4-5: React Fundamentals & Advanced Patterns",
-      "weeks": "Week 14-22",
-      "week_27_28": {
+      "weeks": "Weeks 14-21",
+      "week_14_15": {
         "title": "HTML, CSS & DOM Fundamentals",
         "topics": [
           "HTML5 semantic elements and structure",
@@ -340,7 +335,7 @@
         ],
         "practice": "Build 10 interactive web pages with DOM manipulation"
       },
-      "week_29_30": {
+      "week_16_17": {
         "title": "React Fundamentals & JSX",
         "topics": [
           "Introduction to React: component-based architecture",
@@ -371,7 +366,7 @@
         ],
         "practice": "Build 15 reusable React components with TypeScript"
       },
-      "week_31_32": {
+      "week_18_19": {
         "title": "React Hooks & State Management",
         "topics": [
           "useState hook for local state",
@@ -402,7 +397,7 @@
         ],
         "practice": "Create 10 custom hooks with TypeScript"
       },
-      "week_33_34": {
+      "week_20": {
         "title": "Advanced React Patterns",
         "topics": [
           "Compound components pattern",
@@ -433,7 +428,7 @@
         ],
         "practice": "Implement all advanced patterns in projects"
       },
-      "week_35": {
+      "week_21": {
         "title": "React Router & Navigation",
         "topics": [
           "React Router v6 fundamentals",
@@ -462,10 +457,10 @@
         "practice": "Build 5 multi-page applications with React Router"
       }
     },
-    "month_9_10": {
+    "month_6": {
       "title": "Month 6: State Management & Testing",
-      "weeks": "Week 23-26",
-      "week_36_37": {
+      "weeks": "Weeks 22-26",
+      "week_22": {
         "title": "Global State Management",
         "topics": [
           "State management overview and options",
@@ -495,7 +490,7 @@
         ],
         "practice": "Implement state management in all previous projects"
       },
-      "week_38_39": {
+      "week_23": {
         "title": "Testing React Applications",
         "topics": [
           "Testing pyramid: unit, integration, e2e",
@@ -524,7 +519,7 @@
         ],
         "practice": "Write tests for all React components, aim for 80%+ coverage"
       },
-      "week_40_41": {
+      "week_24": {
         "title": "Build Tools & Performance",
         "topics": [
           "Webpack fundamentals and configuration",
@@ -553,7 +548,7 @@
         ],
         "practice": "Optimize all projects for production performance"
       },
-      "week_42_43": {
+      "week_25": {
         "title": "UI Libraries & Design Systems",
         "topics": [
           "Component libraries overview",
@@ -582,7 +577,7 @@
         ],
         "practice": "Build 5 projects with different UI libraries"
       },
-      "week_44": {
+      "week_26": {
         "title": "Phase 2 Capstone Project",
         "topics": [
           "Full frontend application architecture",
@@ -601,17 +596,17 @@
           "Alternative: Project Management Tool (boards, tasks, drag-drop, real-time updates)",
           "Alternative: Learning Platform Frontend (courses, progress, quizzes, video player)"
         ],
-        "assessment": "Phase 2 Final Exam - React and Frontend comprehensive test"
+        "assessment": "Phase 2 exam: a practical build defended live, plus a written paper mixing this phase with everything before it"
       }
     }
   },
   "phase_3_backend_engineering": {
     "title": "PHASE 3: Backend Engineering with Node.js & TypeScript (Months 7-9, Weeks 27-39)",
     "description": "Master server-side development with Node.js, Express, databases, REST APIs, authentication, and production deployment.",
-    "month_13_14": {
-      "title": "Months 7-8: Node.js & Express Fundamentals",
-      "weeks": "Week 27-35",
-      "week_53_54": {
+    "month_7": {
+      "title": "Month 7: Node.js & Express Fundamentals",
+      "weeks": "Weeks 27-31",
+      "week_27": {
         "title": "Node.js Fundamentals",
         "topics": [
           "Node.js architecture: event loop, non-blocking I/O",
@@ -641,7 +636,7 @@
         ],
         "practice": "Build 10 Node.js utility scripts"
       },
-      "week_55_56": {
+      "week_28": {
         "title": "Express.js Framework",
         "topics": [
           "Introduction to Express.js",
@@ -671,7 +666,7 @@
         ],
         "practice": "Build 8 Express APIs with proper middleware"
       },
-      "week_57_58": {
+      "week_29": {
         "title": "REST API Design & Best Practices",
         "topics": [
           "REST architecture principles",
@@ -700,7 +695,7 @@
         ],
         "practice": "Design and document 5 production-ready APIs"
       },
-      "week_59_60": {
+      "week_30": {
         "title": "Database Fundamentals - SQL",
         "topics": [
           "Relational database concepts",
@@ -729,7 +724,7 @@
         ],
         "practice": "Build 8 database-connected applications"
       },
-      "week_61": {
+      "week_31": {
         "title": "ORMs - Prisma & Drizzle",
         "topics": [
           "ORM concepts and benefits",
@@ -759,10 +754,10 @@
         "practice": "Convert all SQL projects to use Prisma"
       }
     },
-    "month_15_16": {
-      "title": "Month 9: Authentication, NoSQL & Advanced Backend",
-      "weeks": "Week 36-39",
-      "week_62_63": {
+    "month_8": {
+      "title": "Month 8: Production Backend: Observability, Security & Deployment",
+      "weeks": "Weeks 32-36",
+      "week_32": {
         "title": "Authentication & Authorization",
         "topics": [
           "Authentication vs authorization",
@@ -792,7 +787,7 @@
         ],
         "practice": "Secure all APIs with authentication"
       },
-      "week_64_65": {
+      "week_33": {
         "title": "NoSQL Databases - MongoDB",
         "topics": [
           "NoSQL database concepts",
@@ -821,7 +816,7 @@
         ],
         "practice": "Build 6 MongoDB-backed applications"
       },
-      "week_66_67": {
+      "week_34": {
         "title": "Caching, Sessions & Real-time",
         "topics": [
           "Caching strategies overview",
@@ -851,7 +846,7 @@
         ],
         "practice": "Add real-time features to existing projects"
       },
-      "week_68_69": {
+      "week_35": {
         "title": "Email, File Storage & External Services",
         "topics": [
           "Email sending with Nodemailer",
@@ -881,7 +876,7 @@
         ],
         "practice": "Integrate 5 external services"
       },
-      "week_70": {
+      "week_36": {
         "title": "Testing Backend Applications",
         "topics": [
           "Backend testing strategies",
@@ -911,39 +906,10 @@
         "practice": "Write comprehensive tests for all APIs"
       }
     },
-    "month_17_18": {
-      "title": "PHASE 3 COMPLETION - Advanced Backend",
-      "weeks": "Week 27-39 (distributed)",
-      "week_71_72": {
-        "title": "Background Jobs & Message Queues",
-        "topics": [
-          "Background job processing need",
-          "Bull/BullMQ for job queues",
-          "Redis-based job queues",
-          "Job scheduling and recurring jobs",
-          "Job retries and error handling",
-          "Job priorities and delays",
-          "Message queue concepts",
-          "RabbitMQ fundamentals",
-          "Producer-consumer pattern",
-          "Event-driven architecture",
-          "Dead letter queues",
-          "Queue monitoring and dashboards",
-          "Scaling with workers",
-          "Idempotency in job processing",
-          "Distributed task processing"
-        ],
-        "projects": [
-          "Email queue processor",
-          "Image processing queue",
-          "Report generation jobs",
-          "Scheduled data cleanup",
-          "Order processing pipeline",
-          "Notification queue system"
-        ],
-        "practice": "Add background processing to applications"
-      },
-      "week_73_74": {
+    "month_9": {
+      "title": "Month 9: Production Backend: Observability, Security & Deployment",
+      "weeks": "Weeks 37-39",
+      "week_37": {
         "title": "Logging, Monitoring & Observability",
         "topics": [
           "Logging best practices",
@@ -972,7 +938,7 @@
         ],
         "practice": "Add observability to all backend services"
       },
-      "week_75_76": {
+      "week_38": {
         "title": "Security & API Protection",
         "topics": [
           "OWASP Top 10 for Node.js",
@@ -1001,7 +967,7 @@
         ],
         "practice": "Security audit all backend applications"
       },
-      "week_77": {
+      "week_39": {
         "title": "Docker & Deployment",
         "topics": [
           "Docker fundamentals",
@@ -1028,616 +994,117 @@
           "Nginx configuration",
           "Automated deployments"
         ],
-        "practice": "Deploy all applications to production"
-      },
-      "week_78": {
-        "title": "Phase 3 Capstone Project",
-        "topics": [
-          "Full backend architecture",
-          "Database design",
-          "API development",
-          "Authentication implementation",
-          "File handling",
-          "Real-time features",
-          "Testing and documentation",
-          "Deployment and monitoring"
-        ],
-        "projects": [
-          "MAJOR CAPSTONE: E-commerce Backend API",
-          "Features: User auth (JWT), products, categories, cart, orders, payments (Stripe), email notifications, file uploads, admin panel API, comprehensive testing",
-          "Alternative: Social Media API (users, posts, comments, likes, follows, notifications, real-time)",
-          "Alternative: Project Management API (workspaces, projects, tasks, comments, file attachments)",
-          "Alternative: Learning Platform Backend (courses, lessons, enrollments, progress tracking, certificates)"
-        ],
-        "assessment": "Phase 3 Final Exam - Backend Engineering comprehensive test"
+        "practice": "Deploy all applications to production",
+        "assessment": "Phase 3 exam: a practical build defended live, plus a written paper mixing this phase with everything before it"
       }
     }
   },
-  "phase_4_advanced_production": {
-    "title": "PHASE 4: Full-Stack Mastery & Enterprise Development (Months 10-12, Weeks 40-52)",
-    "description": "Master Next.js, GraphQL, microservices architecture, cloud-native development, DevOps, system design, and career preparation.",
-    "month_19_20": {
-      "title": "Months 10-11: Next.js, GraphQL & Advanced Full-Stack",
-      "weeks": "Week 40-48",
-      "week_79_80": {
-        "title": "Next.js Fundamentals",
+  "phase_4_finale": {
+    "title": "PHASE 4: The Finale (Month 10, Weeks 40-44)",
+    "description": "The capstone month: spec, build, ship and defend, then the final exam that decides the certificate.",
+    "month_10_finale": {
+      "title": "Month 10: Capstone and the Final Exam",
+      "weeks": "Weeks 40-44",
+      "week_40": {
+        "title": "Capstone Spec and Setup",
         "topics": [
-          "Next.js introduction and benefits",
-          "Next.js 14+ App Router architecture",
-          "File-based routing system",
-          "Layouts and nested layouts",
-          "Loading and error states",
-          "Server Components vs Client Components",
-          "Data fetching in Server Components",
-          "Static Site Generation (SSG)",
-          "Server-Side Rendering (SSR)",
-          "Incremental Static Regeneration (ISR)",
-          "API Routes and Route Handlers",
-          "Middleware for request handling",
-          "Image optimization with next/image",
-          "Font optimization with next/font",
-          "Environment variables in Next.js"
+          "Choosing the capstone: a full-stack typed application with shared types end to end",
+          "A one-page spec: scope, milestones, stack",
+          "Repository and skeleton ready on day one",
+          "Instructor sign-off before the build begins"
         ],
         "projects": [
-          "Next.js blog with SSG",
-          "E-commerce with SSR",
-          "Dashboard with App Router",
-          "Portfolio with ISR",
-          "API routes implementation",
-          "Middleware authentication"
+          "Approved capstone spec plus the running skeleton, deployed where applicable"
         ],
-        "practice": "Build 6 Next.js applications"
+        "practice": "Pitch the spec to the batch and absorb one hard question"
       },
-      "week_81_82": {
-        "title": "Advanced Next.js & Server Actions",
+      "week_41_42": {
+        "title": "Capstone Build",
         "topics": [
-          "Server Actions for mutations",
-          "Form handling with Server Actions",
-          "Revalidation strategies",
-          "Caching in Next.js",
-          "Parallel and sequential data fetching",
-          "Streaming with Suspense",
-          "Route groups for organization",
-          "Intercepting and parallel routes",
-          "Internationalization (i18n)",
-          "Authentication with NextAuth.js",
-          "Session management",
-          "Protected routes and middleware",
-          "SEO optimization in Next.js",
-          "Metadata and OpenGraph",
-          "Sitemaps and robots.txt"
+          "Two focused weeks in vertical slices",
+          "Instructor checkpoints and honest scope cuts",
+          "Using the whole course: the type system, typed React, typed Node and shared contracts",
+          "Daily commits and an always-working build"
         ],
         "projects": [
-          "Full CRUD with Server Actions",
-          "Multi-language application",
-          "Auth system with NextAuth",
-          "SEO-optimized blog",
-          "Admin dashboard with auth",
-          "Real-time features in Next.js"
+          "The capstone, feature-complete with version control"
         ],
-        "practice": "Build 5 production-ready Next.js apps"
+        "practice": "A working build at the end of every session"
       },
-      "week_83_84": {
-        "title": "GraphQL Fundamentals",
+      "week_43": {
+        "title": "Ship and Polish",
         "topics": [
-          "GraphQL introduction and benefits",
-          "GraphQL vs REST comparison",
-          "Schema definition language (SDL)",
-          "Types: Query, Mutation, Subscription",
-          "Scalar and custom types",
-          "Input types and enums",
-          "Resolvers implementation",
-          "Apollo Server setup",
-          "TypeScript with GraphQL",
-          "Code generation with GraphQL Codegen",
-          "Apollo Client for React",
-          "Queries and mutations in client",
-          "Caching in Apollo Client",
-          "Error handling in GraphQL",
-          "DataLoader for optimized fetching"
+          "The finishing pass: edge cases, errors, documentation",
+          "Strict-mode clean: the compiler as your first reviewer",
+          "A README worth reading and a demo worth watching",
+          "A full-course spiral review before the exam"
         ],
         "projects": [
-          "GraphQL API for blog",
-          "Full-stack app with Apollo",
-          "Type-safe GraphQL with Codegen",
-          "Real-time subscriptions",
-          "GraphQL with Prisma",
-          "Complex query patterns"
+          "The capstone shipped, documented and rehearsed"
         ],
-        "practice": "Build 5 GraphQL applications"
+        "practice": "Two mock demos, each tighter than the last"
       },
-      "week_85_86": {
-        "title": "Advanced GraphQL & tRPC",
+      "week_44": {
+        "title": "Demo Day and the Final Exam",
         "topics": [
-          "GraphQL subscriptions setup",
-          "Real-time updates with WebSocket",
-          "Pagination: cursor and offset",
-          "Federation for microservices",
-          "Schema stitching",
-          "GraphQL security best practices",
-          "Query complexity and depth limiting",
-          "tRPC introduction",
-          "End-to-end type safety with tRPC",
-          "tRPC with Next.js",
-          "tRPC procedures and routers",
-          "tRPC with Zod validation",
-          "tRPC vs GraphQL comparison",
-          "Choosing the right approach",
-          "Full-stack TypeScript patterns"
+          "Presenting the capstone: live demo plus the hardest bug story",
+          "The honest map of next roads: frontend depth, backend engineering, or full-stack product work",
+          "Where our other courses continue the journey"
         ],
         "projects": [
-          "Real-time chat with subscriptions",
-          "Federated GraphQL setup",
-          "tRPC full-stack app",
-          "Type-safe API layer",
-          "Combined approach example",
-          "Production-ready API patterns"
+          "Demo day presentation delivered to the batch"
         ],
-        "practice": "Implement both GraphQL and tRPC solutions"
-      },
-      "week_87": {
-        "title": "Microservices Architecture",
-        "topics": [
-          "Microservices vs monolith",
-          "When to use microservices",
-          "Service decomposition strategies",
-          "Domain-Driven Design basics",
-          "API Gateway pattern",
-          "Service discovery",
-          "Inter-service communication",
-          "Synchronous vs asynchronous",
-          "Event-driven architecture",
-          "Message brokers: RabbitMQ, Kafka",
-          "Saga pattern for transactions",
-          "Circuit breaker pattern",
-          "Service mesh basics",
-          "Container orchestration",
-          "Kubernetes introduction"
-        ],
-        "projects": [
-          "Decompose monolith exercise",
-          "API Gateway implementation",
-          "Event-driven microservices",
-          "Service communication patterns",
-          "Saga implementation",
-          "Kubernetes deployment"
-        ],
-        "practice": "Design 3 microservices architectures"
-      }
-    },
-    "month_21_22": {
-      "title": "Month 12: Cloud, DevOps & Career Excellence",
-      "weeks": "Week 49-52",
-      "week_88_89": {
-        "title": "Cloud Platforms & Serverless",
-        "topics": [
-          "Cloud computing fundamentals",
-          "AWS core services overview",
-          "Vercel for Next.js deployments",
-          "Serverless architecture",
-          "AWS Lambda with TypeScript",
-          "API Gateway with Lambda",
-          "Serverless Framework",
-          "Database services: RDS, DynamoDB",
-          "S3 for file storage",
-          "CloudFront CDN",
-          "Azure and GCP alternatives",
-          "Infrastructure as Code",
-          "Terraform basics",
-          "Pulumi with TypeScript",
-          "Cost optimization strategies"
-        ],
-        "projects": [
-          "Deploy to Vercel/Netlify",
-          "Serverless API with Lambda",
-          "Full-stack on AWS",
-          "CDN configuration",
-          "IaC with Terraform/Pulumi",
-          "Multi-cloud strategy"
-        ],
-        "practice": "Deploy applications to multiple platforms"
-      },
-      "week_90_91": {
-        "title": "CI/CD & DevOps Practices",
-        "topics": [
-          "DevOps culture and practices",
-          "CI/CD pipeline design",
-          "GitHub Actions deep dive",
-          "Automated testing in CI",
-          "Code quality gates",
-          "Security scanning in pipeline",
-          "Docker in production",
-          "Container registries",
-          "Kubernetes for orchestration",
-          "Helm charts for deployment",
-          "GitOps with ArgoCD",
-          "Blue-green deployments",
-          "Canary releases",
-          "Feature flags",
-          "Rollback strategies"
-        ],
-        "projects": [
-          "Complete CI/CD pipeline",
-          "Automated testing workflow",
-          "Docker-based deployment",
-          "Kubernetes deployment",
-          "Feature flag system",
-          "Zero-downtime deployment"
-        ],
-        "practice": "Set up CI/CD for all projects"
-      },
-      "week_92_93": {
-        "title": "System Design & Architecture",
-        "topics": [
-          "System design fundamentals",
-          "Scalability: horizontal vs vertical",
-          "Load balancing strategies",
-          "Caching layers and patterns",
-          "Database scaling: sharding, replication",
-          "CAP theorem",
-          "Eventual consistency",
-          "Message queues for decoupling",
-          "CDN for static content",
-          "High availability design",
-          "Disaster recovery planning",
-          "Rate limiting at scale",
-          "API design at scale",
-          "Monitoring at scale",
-          "Common system design interviews"
-        ],
-        "projects": [
-          "Design URL shortener",
-          "Design Twitter clone",
-          "Design e-commerce platform",
-          "Design notification system",
-          "Design chat application",
-          "System design documentation"
-        ],
-        "practice": "Solve 15 system design problems"
-      },
-      "week_94_95": {
-        "title": "Performance & Optimization",
-        "topics": [
-          "Frontend performance metrics",
-          "Core Web Vitals optimization",
-          "JavaScript bundle optimization",
-          "Image and asset optimization",
-          "Lazy loading strategies",
-          "Server-side performance",
-          "Database query optimization",
-          "Caching strategies",
-          "Memory management in Node.js",
-          "Profiling Node.js applications",
-          "Load testing with k6",
-          "Performance monitoring",
-          "Real User Monitoring (RUM)",
-          "Synthetic monitoring",
-          "Performance budgets"
-        ],
-        "projects": [
-          "Performance audit and fix",
-          "Bundle optimization exercise",
-          "Database optimization",
-          "Load testing suite",
-          "Performance monitoring setup",
-          "Optimization documentation"
-        ],
-        "practice": "Optimize all applications for performance"
-      },
-      "week_96": {
-        "title": "Advanced TypeScript Patterns",
-        "topics": [
-          "Advanced type manipulation",
-          "Recursive types",
-          "Variadic tuple types",
-          "Template literal types advanced",
-          "Type-level programming",
-          "Branded types for type safety",
-          "Builder pattern with types",
-          "Dependency injection in TypeScript",
-          "Decorators and metadata",
-          "Reflection with TypeScript",
-          "Monorepo with TypeScript",
-          "Turborepo and Nx",
-          "Shared packages and libraries",
-          "Publishing npm packages",
-          "TypeScript compiler API"
-        ],
-        "projects": [
-          "Type-safe library creation",
-          "Monorepo setup",
-          "Shared component library",
-          "npm package publishing",
-          "Advanced utility types",
-          "Type-level validation"
-        ],
-        "practice": "Create 5 advanced TypeScript projects"
-      }
-    },
-    "month_23": {
-      "title": "PHASE 4 COMPLETION - Career Preparation",
-      "weeks": "Week 40-52 (distributed)",
-      "week_97": {
-        "title": "Code Quality & Best Practices",
-        "topics": [
-          "Clean code principles",
-          "SOLID principles in TypeScript",
-          "Design patterns in TypeScript",
-          "Code refactoring techniques",
-          "Code review best practices",
-          "ESLint and Prettier configuration",
-          "Static analysis tools",
-          "Documentation with TSDoc",
-          "README and wiki writing",
-          "Architecture documentation",
-          "ADRs (Architecture Decision Records)",
-          "Technical debt management",
-          "Code metrics and quality gates",
-          "SonarQube integration",
-          "Continuous improvement"
-        ],
-        "projects": [
-          "Code refactoring exercise",
-          "Design patterns implementation",
-          "Documentation overhaul",
-          "Quality gates setup",
-          "Code review guidelines",
-          "Best practices checklist"
-        ],
-        "practice": "Refactor all projects with best practices"
-      },
-      "week_98": {
-        "title": "Open Source & Community",
-        "topics": [
-          "Open source contribution guide",
-          "Finding beginner-friendly projects",
-          "Reading contribution guidelines",
-          "Forking and pull requests",
-          "Code review in open source",
-          "Building open source portfolio",
-          "Creating your own library",
-          "npm package management",
-          "Semantic versioning",
-          "Changelog generation",
-          "Community building",
-          "Technical blogging",
-          "Speaking at meetups",
-          "Building personal brand",
-          "Developer advocacy"
-        ],
-        "projects": [
-          "Contribute to 5 open source projects",
-          "Create and publish npm package",
-          "Technical blog posts",
-          "Lightning talk preparation",
-          "GitHub profile optimization",
-          "Portfolio website creation"
-        ],
-        "practice": "Active open source participation"
-      },
-      "week_99": {
-        "title": "Interview Preparation",
-        "topics": [
-          "TypeScript interview questions",
-          "React and Next.js questions",
-          "Node.js and Express questions",
-          "System design interview prep",
-          "Coding interview strategies",
-          "LeetCode problem patterns",
-          "Data structures review",
-          "Algorithms review",
-          "Behavioral interview questions",
-          "STAR method for answers",
-          "Salary negotiation tactics",
-          "Job search strategies",
-          "Resume optimization",
-          "LinkedIn optimization",
-          "Portfolio presentation"
-        ],
-        "projects": [
-          "Solve 150+ LeetCode problems",
-          "System design case studies",
-          "Mock interview practice",
-          "Interview preparation guide",
-          "Resume and portfolio polish",
-          "LinkedIn profile optimization"
-        ],
-        "practice": "Daily coding challenges and mock interviews"
-      },
-      "week_100": {
-        "title": "Final Capstone Planning",
-        "topics": [
-          "Project ideation and planning",
-          "Requirement analysis",
-          "System architecture design",
-          "Technology stack selection",
-          "Development workflow setup",
-          "Sprint planning",
-          "Agile methodology",
-          "Project documentation",
-          "Risk assessment",
-          "Timeline estimation"
-        ],
-        "projects": [
-          "FINAL CAPSTONE: Enterprise Full-Stack Application",
-          "Option 1: SaaS Platform (multi-tenant, subscriptions, dashboards)",
-          "Option 2: E-commerce Marketplace (vendors, products, orders, payments)",
-          "Option 3: Social Learning Platform (courses, progress, community, certificates)",
-          "Option 4: Project Management Suite (workspaces, projects, collaboration, real-time)"
-        ]
-      }
-    },
-    "month_24": {
-      "title": "Final Month - Capstone & Career Launch",
-      "weeks": "Week 49-52",
-      "week_101_102": {
-        "title": "Final Capstone Project - Part 1",
-        "topics": [
-          "Implementation phase",
-          "Frontend development",
-          "Backend API development",
-          "Database design",
-          "Authentication and authorization",
-          "File handling and storage",
-          "Real-time features",
-          "Third-party integrations"
-        ],
-        "projects": [
-          "Full-stack implementation",
-          "Frontend with Next.js",
-          "Backend APIs",
-          "Database setup with Prisma",
-          "Authentication system",
-          "Core features development"
-        ]
-      },
-      "week_103": {
-        "title": "Final Capstone Project - Part 2",
-        "topics": [
-          "Implementation completion",
-          "Comprehensive testing",
-          "Performance optimization",
-          "Security hardening",
-          "Documentation writing",
-          "Deployment to cloud",
-          "CI/CD pipeline setup",
-          "Monitoring and logging",
-          "Load testing",
-          "Project presentation preparation"
-        ],
-        "deliverables": [
-          "Complete source code on GitHub",
-          "Deployed application on Vercel/AWS",
-          "API documentation (OpenAPI/GraphQL)",
-          "Architecture diagrams",
-          "Database schema documentation",
-          "CI/CD pipeline configuration",
-          "Test coverage report (80%+ coverage)",
-          "Performance testing report",
-          "Video demo and presentation",
-          "Comprehensive README"
-        ]
-      },
-      "week_104": {
-        "title": "Career Launch & Professional Development",
-        "topics": [
-          "Professional portfolio website",
-          "Resume optimization for TypeScript roles",
-          "LinkedIn profile enhancement",
-          "GitHub profile showcase",
-          "Technical blog writing",
-          "Speaking at meetups/conferences",
-          "Networking strategies",
-          "Job application process",
-          "Interview follow-up",
-          "Continuous learning plan",
-          "Staying updated with ecosystem",
-          "Mentoring and teaching others",
-          "Freelancing strategies",
-          "Consulting career path",
-          "Startup opportunities"
-        ],
-        "deliverables": [
-          "Professional portfolio with 40+ projects",
-          "Optimized resume for full-stack roles",
-          "Enhanced LinkedIn profile",
-          "GitHub profile with contributions",
-          "Technical blog posts",
-          "Personal brand establishment",
-          "Job application materials ready",
-          "Mock interview completion",
-          "Continuous learning roadmap",
-          "Professional network connections"
-        ],
-        "assessment": "FINAL COMPREHENSIVE CERTIFICATION EXAM - Complete TypeScript mastery evaluation"
+        "assessment": "FINAL EXAM: a practical build plus a written paper with questions mixed from every phase. Passing earns the certificate; falling short earns a focused revision plan and a free retest"
       }
     }
   },
   "additional_learning_resources": {
     "projects_throughout_course": [
-      "Phase 1 (Months 1-3): 20+ foundational projects - calculators, games, console apps, TypeScript utilities",
-      "Phase 2 (Months 4-6): 18+ frontend projects - React components, dashboards, forms, state management",
-      "Phase 3 (Months 7-9): 20+ backend projects - REST APIs, databases, authentication, real-time apps",
-      "Phase 4 (Months 10-12): 15+ advanced projects - Next.js apps, GraphQL, microservices, cloud deployments",
-      "Final: 5 major capstone projects demonstrating complete full-stack expertise"
+      "Phase 1: JavaScript builds converted and hardened with types",
+      "Phase 2: typed React applications with real state and data",
+      "Phase 3: typed Node APIs with contracts the frontend shares",
+      "Phase 4: the full-stack typed capstone, strict-mode clean"
     ],
-    "total_projects_built": "70+ projects from beginner to enterprise-grade production systems",
+    "total_projects_built": "20+ real builds, crowned by a strict-mode-clean full-stack capstone",
     "skills_mastered": [
-      "Core TypeScript: Types, Interfaces, Generics, Utility Types, Advanced Patterns, Type Guards",
-      "Frontend: React, Hooks, State Management, Testing, Performance Optimization, Accessibility",
-      "Backend: Node.js, Express, REST APIs, Authentication, Authorization, Security",
-      "Databases: PostgreSQL, MongoDB, Prisma, Drizzle, Redis, Query Optimization",
-      "Full-Stack: Next.js, Server Components, Server Actions, tRPC, GraphQL",
-      "Testing: Jest, React Testing Library, Supertest, Cypress, Playwright",
-      "DevOps: Docker, Kubernetes, CI/CD, GitHub Actions, Cloud Deployment",
-      "Cloud: AWS, Vercel, Serverless, Lambda, S3, CloudFront",
-      "Architecture: System Design, Microservices, Event-Driven, CQRS, SAGA",
-      "Tools: VS Code, Git, npm, Webpack, Vite, ESLint, Prettier",
-      "Soft Skills: Problem-solving, System Design Thinking, Code Review, Documentation, Agile"
+      "JavaScript foundations solid enough to type",
+      "The type system to depth: generics, narrowing, utility types and honest limits",
+      "Typed React: props, state, hooks and data with the compiler on your side",
+      "Typed Node: APIs with contracts shared across the stack",
+      "Team habits: strictness judgment, migration strategy, review-quality types"
     ],
     "weekly_structure": {
-      "theory_videos": "4-6 hours",
-      "hands_on_coding": "8-10 hours",
-      "projects": "3-5 hours",
-      "practice_problems": "2-3 hours",
-      "total_per_week": "15-20 hours"
-    },
-    "support_provided": {
-      "live_sessions": "Weekly live coding sessions and doubt clearing",
-      "mentorship": "1-on-1 expert TypeScript developer mentorship",
-      "code_review": "Expert code reviews for all major projects",
-      "career_support": "Resume review, mock interviews",
-      "interview_prep": "Mock interviews with industry professionals",
-      "career_guidance": "Resume and interview preparation, plus portfolio and profile review."
+      "live_classes": "2 live one-hour classes per week, coding along with the instructor",
+      "homework": "A problem set after every class, and a mixed-review assignment at the end of every month",
+      "practice": "4-6 hours of building between classes",
+      "review": "Every submission reviewed with written feedback; recurring gaps reopened in class"
     },
     "certification": {
-      "phase_certificates": "Certificate after each phase completion (4 certificates)",
-      "final_certificate": "Professional Full-Stack TypeScript Developer Certification",
-      "frontend_certificate": "React & Next.js Specialist Certificate",
-      "backend_certificate": "Node.js Backend Developer Certificate",
-      "linkedin_badge": "Digital badges for LinkedIn profile",
-      "industry_recognized": "Recognized by Fortune 500 companies and startups",
-      "portfolio_projects": "40+ production-ready portfolio projects"
+      "completion": "Certificate from Modern Age Coders, awarded on passing the final exam. Fall short and there is focused revision and a free retest: the certificate certifies knowledge, not attendance"
+    },
+    "support_provided": {
+      "doubt_support": "WhatsApp doubt support between classes",
+      "progress_updates": "Honest monthly progress reviews: what is solid, what is wobbly, and the plan for the wobble"
     }
   },
   "prerequisites": {
-    "education": "No formal degree required - open to all backgrounds",
-    "coding_experience": "Absolute beginner friendly - zero programming knowledge required",
-    "age": "12+ years (separate learning tracks for kids, teens, adults)",
-    "equipment": "Computer/laptop (Windows/Mac/Linux), minimum 8GB RAM recommended, internet connection",
-    "time_commitment": "15-20 hours per week consistently for best results",
-    "english": "Basic reading comprehension (materials also available in Hindi)",
-    "motivation": "Strong desire to become a professional TypeScript developer",
-    "math": "Basic mathematics (taught as needed)"
+    "coding_experience": "None. Everything is taught from the first line",
+    "equipment": "Any computer with a stable internet connection; every tool used is free",
+    "age": "18+; college students, graduates and working professionals",
+    "time_commitment": "2 live classes plus 4-6 hours of practice a week"
   },
   "who_is_this_for": {
-    "kids": "Age 12-14: Simplified track with visual learning, game-based projects, interactive JavaScript basics",
-    "teens": "Age 15-18: Student-focused track, college prep, competitive programming, project-based learning",
-    "students": "College students: Campus placement preparation, internship readiness, strong portfolio building",
-    "working_professionals": "Career switchers: Structured path from any background to full-stack developer role",
-    "developers": "Developers from other languages wanting to master TypeScript ecosystem",
-    "frontend_developers": "Frontend devs wanting to become full-stack with Node.js and Next.js",
-    "backend_developers": "Backend devs wanting to add React and TypeScript to their skills",
-    "entrepreneurs": "Build your own SaaS products using modern TypeScript technologies",
-    "freelancers": "Offer full-stack development services to high-paying clients",
-    "anyone": "Anyone passionate about modern web development and full-stack engineering"
+    "js_developers": "JavaScript developers making the move every team already made",
+    "college_students": "Students who want the hiring default, not the legacy path",
+    "self_taught": "Tutorial-experienced learners ready for the discipline layer",
+    "backend_bound": "Developers who want typed Node without the framework fog",
+    "career_switchers": "Professionals entering web development at the modern baseline"
   },
   "career_paths_after_completion": [
-    "TypeScript Developer (Junior to Senior levels)",
-    "Frontend Developer / React Developer",
-    "Full-Stack Developer / Full-Stack Engineer",
-    "Next.js Developer",
-    "Node.js Backend Developer",
-    "Software Engineer",
-    "Solutions Architect",
-    "Technical Lead / Team Lead",
-    "DevOps Engineer (TypeScript focus)",
-    "Cloud Engineer (AWS/Vercel)",
-    "Software Architect",
-    "Principal Engineer",
-    "Freelance Full-Stack Consultant",
-    "Technical Trainer / Instructor",
-    "Startup Founder / CTO"
+    "Full-stack roles: TypeScript is the shared language of both ends now",
+    "Our React and full-stack courses pair naturally either side of this one",
+    "Backend depth: typed Node into production architectures",
+    "DSA for interviews, with types making practice cleaner"
   ],
   "salary_expectations": {
     "market_context": "The ranges below are general market salary bands for these roles in India and abroad, drawn from public industry data. They are shown for career context only and are not a promise or guarantee of income. Actual pay depends on your skills, experience, location, and the job market.",
@@ -1651,47 +1118,40 @@
   "course_guarantees": {
     "live_classes": "Live, interactive classes with a real instructor, never pre-recorded videos.",
     "small_batches": "Small batches only: group classes are capped at 10 students, with mini-batch (3 to 4 students) and personal 1-on-1 options.",
-    "structured_curriculum": "A structured, well-paced curriculum taught step by step, with hands-on practice in every session.",
+    "structured_curriculum": "A structured, well-paced curriculum taught step by step, with classwork in every session and problem sets after every class.",
+    "real_assessment": "Monthly mixed reviews, cumulative phase exams, and a final exam that decides the certificate: real knowledge, real work.",
     "doubt_support": "Doubt support between classes over WhatsApp, so you are never left stuck.",
-    "certificate": "A course-completion certificate you can share.",
+    "certificate": "A certificate you earn by passing the final exam, with a free retest after revision if needed.",
     "free_demo": "A free demo class before you enrol, so you can decide with no pressure."
   },
   "faqs": [
     {
-      "question": "Do I need to know JavaScript before joining this TypeScript course?",
-      "answer": "TypeScript is a typed layer on top of JavaScript, so the course opens with a JavaScript foundation phase before moving into TypeScript itself. Complete beginners can start from zero, while students who already know JavaScript basics move through the early weeks faster and reach the React and Node.js phases sooner. Your mentor adjusts the pace to your starting point."
+      "question": "What does this TypeScript course cover?",
+      "answer": "JavaScript foundations first (TypeScript is JavaScript underneath), the type system to real depth, generics, narrowing, utility types and their honest limits, then typed application development on both ends: React with TypeScript as product teams write it, and Node APIs with contracts the frontend shares. A finale month ships a strict-mode-clean full-stack capstone and sits the final exam."
     },
     {
-      "question": "What will I actually build during the 12 months?",
-      "answer": "You build in layers: typed utilities and small tools in the foundation phase, React applications with TypeScript in months 4 to 6, Node.js and Express REST APIs with real databases in months 7 to 9, and a full stack Next.js and GraphQL capstone deployed to the cloud in the final phase. Every project is pushed to GitHub so your portfolio grows with the course."
+      "question": "How long does it take to learn TypeScript properly?",
+      "answer": "Ten months of teaching at 2 live classes a week plus 4 to 6 hours of practice, with two more months in hand for learners who need them. The three teaching phases build the skill and its real-world application; the finale month ships a capstone and sits the final exam."
     },
     {
-      "question": "Which TypeScript version and stack do you teach?",
-      "answer": "Classes run on current TypeScript 5.x with modern tooling, plus React, Node.js, Express, Next.js and GraphQL. When the language or ecosystem moves, the material moves with it, so you are never practicing on an outdated stack."
+      "question": "How am I assessed? Is the certificate just for attending?",
+      "answer": "No. Problem sets follow every class with written feedback, monthly reviews deliberately mix new material with earlier topics, each phase ends with a cumulative exam, and the course ends with a final exam: a practical build plus written questions from the whole syllabus. Passing earns the certificate; falling short earns focused revision and a free retest."
     },
     {
-      "question": "Will this course help me get internships or clear placement interviews?",
-      "answer": "It prepares you honestly: TypeScript is one of the most requested skills in frontend and full stack job listings, and you finish with deployed projects, code review experience and practice on the JavaScript and TypeScript questions interviewers actually ask. We do not promise placements or salaries; we make sure your fundamentals and portfolio can stand up to scrutiny."
+      "question": "Should I learn JavaScript first, or start directly with TypeScript?",
+      "answer": "This course settles it: you learn JavaScript properly inside it, then add types. Starting with TypeScript syntax over weak JavaScript produces developers who fight the compiler; learning JS first then typing it produces developers the compiler helps. That order is the course."
     },
     {
-      "question": "Why join a live course when TypeScript tutorials are free on YouTube?",
-      "answer": "Tutorials show someone else coding; they cannot look at your code. In live classes an instructor watches you work, catches weak typing habits like overusing the any type, reviews your projects line by line and answers questions the moment you are stuck. That feedback loop is the difference between a watch history and a portfolio."
+      "question": "What are the fees?",
+      "answer": "Group classes are ₹1,499 per month, with 2 live classes a week in batches capped at 10 learners. A mini batch of 3-4 learners is ₹2,999 per month, and personal 1-on-1 classes are ₹4,999 per month. International learners pay a price set for their own country, shown on this page in their local currency."
     },
     {
-      "question": "What does the course cost?",
-      "answer": "In India, group classes (max 10 students, 2 classes a week) are ₹1,499 per month, a mini batch of 3 to 4 students is ₹2,999 per month, and personal 1-on-1 mentorship with 2 private classes a week is ₹4,999 per month. International students pay a price set for their own country, shown on this page in their local currency."
+      "question": "Can I try a class before enrolling?",
+      "answer": "Yes, a free demo class with no commitment: book at learn.modernagecoders.com/contact or message us on WhatsApp at +91 91233 66161."
     },
     {
-      "question": "Can I try a class before paying?",
-      "answer": "Yes. Book a free demo class at learn.modernagecoders.com/contact and attend a real live session with no commitment and no payment details required. You can also reach us on WhatsApp at +91 91233 66161."
-    },
-    {
-      "question": "How are the classes conducted?",
-      "answer": "Every class is a live 1-hour online session with an instructor, never a pre-recorded video. Sessions are interactive: you code along, ask questions and get corrected in real time. Evening and weekend slots are available, which works well around college timetables and jobs."
-    },
-    {
-      "question": "Do I get a certificate at the end?",
-      "answer": "You receive a completion certificate when you finish the course. More importantly for hiring, you leave with a GitHub-ready portfolio of TypeScript projects, which is what recruiters and interviewers actually open."
+      "question": "Are classes live or recorded?",
+      "answer": "Live, always: small groups with a real instructor reading your actual code, never pre-recorded videos."
     }
   ]
 }

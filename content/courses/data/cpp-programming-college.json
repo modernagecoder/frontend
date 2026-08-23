@@ -61,7 +61,7 @@
     "description": "Build rock-solid foundations in C++ syntax, memory management, pointers, and object-oriented programming principles.",
     "month_1_2": {
       "title": "Months 1-2: C++ Basics & Core Concepts",
-      "weeks": "Week 1-8",
+      "weeks": "Weeks 1-7",
       "week_1_2": {
         "title": "Introduction to C++ & Development Environment",
         "topics": [
@@ -86,7 +86,7 @@
         ],
         "practice": "Write 20 simple console programs"
       },
-      "week_3_4": {
+      "week_3": {
         "title": "Variables, Data Types & Operators",
         "topics": [
           "Fundamental data types: int, float, double, char, bool",
@@ -110,7 +110,7 @@
         ],
         "practice": "Solve 50 problems on operators and type manipulation"
       },
-      "week_5_6": {
+      "week_4_5": {
         "title": "Control Flow & Functions",
         "topics": [
           "If-else statements and nested conditions",
@@ -137,7 +137,7 @@
         ],
         "practice": "Implement 30 algorithms using functions"
       },
-      "week_7_8": {
+      "week_6_7": {
         "title": "Arrays, Strings & Pointers",
         "topics": [
           "Static arrays: declaration and initialization",
@@ -165,10 +165,10 @@
         "practice": "Master 40 pointer and array problems"
       }
     },
-    "month_3_4": {
+    "month_3": {
       "title": "Month 3: Object-Oriented Programming",
-      "weeks": "Week 9-13",
-      "week_9_10": {
+      "weeks": "Weeks 8-13",
+      "week_8_9": {
         "title": "Classes and Objects",
         "topics": [
           "Classes and objects fundamentals",
@@ -195,7 +195,7 @@
         ],
         "practice": "Create 20 different classes modeling real-world objects"
       },
-      "week_11_12": {
+      "week_10_11": {
         "title": "Inheritance and Polymorphism",
         "topics": [
           "Inheritance concepts and types",
@@ -222,7 +222,7 @@
         ],
         "practice": "Build 15 inheritance hierarchies"
       },
-      "week_13": {
+      "week_12_13": {
         "title": "Operator Overloading & Advanced OOP",
         "topics": [
           "Operator overloading concepts",
@@ -253,10 +253,10 @@
   "phase_2_frontend_mastery": {
     "title": "PHASE 2: STL, Templates & Modern C++ (Months 4-6, Weeks 14-26)",
     "description": "Master the Standard Template Library, template programming, and modern C++ features.",
-    "month_7_8": {
+    "month_4_5": {
       "title": "Months 4-5: STL Mastery",
-      "weeks": "Week 14-22",
-      "week_27_28": {
+      "weeks": "Weeks 14-21",
+      "week_14_15": {
         "title": "STL Containers",
         "topics": [
           "STL overview and architecture",
@@ -283,7 +283,7 @@
         ],
         "practice": "Implement 30 algorithms using different STL containers"
       },
-      "week_29_30": {
+      "week_16_17": {
         "title": "STL Algorithms",
         "topics": [
           "Algorithm categories in STL",
@@ -310,7 +310,7 @@
         ],
         "practice": "Use 50 different STL algorithms in various scenarios"
       },
-      "week_31_32": {
+      "week_18_19": {
         "title": "Template Programming",
         "topics": [
           "Function templates",
@@ -337,7 +337,7 @@
         ],
         "practice": "Create 20 template-based utilities"
       },
-      "week_33_34": {
+      "week_20": {
         "title": "Modern C++ Features (C++11/14/17/20)",
         "topics": [
           "Auto and decltype",
@@ -364,7 +364,7 @@
         ],
         "practice": "Refactor old code using modern C++ features"
       },
-      "week_35": {
+      "week_21": {
         "title": "Error Handling & Exception Safety",
         "topics": [
           "Exception handling mechanism",
@@ -392,10 +392,10 @@
         "practice": "Add proper error handling to 10 previous projects"
       }
     },
-    "month_9_10": {
+    "month_6": {
       "title": "Month 6: Data Structures & Algorithms",
-      "weeks": "Week 23-26",
-      "week_36_37": {
+      "weeks": "Weeks 22-26",
+      "week_22": {
         "title": "Advanced Data Structures",
         "topics": [
           "Linked lists: singly, doubly, circular",
@@ -422,7 +422,7 @@
         ],
         "practice": "Implement 20 data structures from scratch"
       },
-      "week_38_39": {
+      "week_23": {
         "title": "Algorithm Design & Analysis",
         "topics": [
           "Algorithm complexity analysis",
@@ -449,7 +449,7 @@
         ],
         "practice": "Solve 100 algorithmic problems"
       },
-      "week_40_41": {
+      "week_24": {
         "title": "Performance Optimization",
         "topics": [
           "Profiling tools: gprof, Valgrind, perf",
@@ -476,7 +476,7 @@
         ],
         "practice": "Optimize 10 programs for maximum performance"
       },
-      "week_42_43": {
+      "week_25": {
         "title": "Competitive Programming",
         "topics": [
           "Competitive programming platforms",
@@ -503,7 +503,7 @@
         ],
         "practice": "Solve 200 competitive programming problems"
       },
-      "week_44": {
+      "week_26": {
         "title": "Phase 2 Capstone Project",
         "topics": [
           "Complex system design",
@@ -525,10 +525,10 @@
   "phase_3_backend_engineering": {
     "title": "PHASE 3: System Programming & Concurrency (Months 7-9, Weeks 27-39)",
     "description": "Master system-level programming, multithreading, networking, and low-level development.",
-    "month_13_14": {
+    "month_7_8": {
       "title": "Months 7-8: System Programming",
-      "weeks": "Week 27-35",
-      "week_53_54": {
+      "weeks": "Weeks 27-34",
+      "week_27_28": {
         "title": "Operating System Interface",
         "topics": [
           "Process and memory model",
@@ -555,7 +555,7 @@
         ],
         "practice": "Build 10 system-level utilities"
       },
-      "week_55_56": {
+      "week_29_30": {
         "title": "Memory Management Deep Dive",
         "topics": [
           "Virtual memory concepts",
@@ -582,7 +582,7 @@
         ],
         "practice": "Implement 5 different memory allocation strategies"
       },
-      "week_57_58": {
+      "week_31_32": {
         "title": "Multithreading & Concurrency",
         "topics": [
           "Thread creation and management",
@@ -609,7 +609,7 @@
         ],
         "practice": "Build 15 multithreaded applications"
       },
-      "week_59_60": {
+      "week_33": {
         "title": "Network Programming",
         "topics": [
           "Socket programming basics",
@@ -636,7 +636,7 @@
         ],
         "practice": "Create 10 network applications"
       },
-      "week_61": {
+      "week_34": {
         "title": "Database Systems Programming",
         "topics": [
           "Database connectivity (ODBC, native APIs)",
@@ -664,10 +664,10 @@
         "practice": "Build 5 database-driven applications"
       }
     },
-    "month_15_16": {
+    "month_9": {
       "title": "Month 9: Advanced System Topics",
-      "weeks": "Week 36-39",
-      "week_62_63": {
+      "weeks": "Weeks 35-39",
+      "week_35": {
         "title": "Compiler Design & Tools",
         "topics": [
           "Compilation process deep dive",
@@ -694,7 +694,7 @@
         ],
         "practice": "Create 5 development tools"
       },
-      "week_64_65": {
+      "week_36": {
         "title": "Embedded Systems Programming",
         "topics": [
           "Embedded C++ considerations",
@@ -721,7 +721,7 @@
         ],
         "practice": "Develop 5 embedded applications"
       },
-      "week_66_67": {
+      "week_37": {
         "title": "Security Programming",
         "topics": [
           "Secure coding practices",
@@ -748,7 +748,7 @@
         ],
         "practice": "Implement 10 security features"
       },
-      "week_68_69": {
+      "week_38": {
         "title": "Graphics Programming Basics",
         "topics": [
           "Graphics pipeline overview",
@@ -775,7 +775,7 @@
         ],
         "practice": "Create 5 graphics applications"
       },
-      "week_70": {
+      "week_39": {
         "title": "Phase 3 Capstone Project",
         "topics": [
           "System design and architecture",

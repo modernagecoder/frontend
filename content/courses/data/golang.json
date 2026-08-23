@@ -61,8 +61,8 @@
     "description": "Build rock-solid Go fundamentals. Learn programming logic, master Go syntax, understand Go's philosophy, and create your first applications.",
     "month_1_2": {
       "title": "Months 1-2: Go Fundamentals & Programming Basics",
-      "weeks": "Week 1-8",
-      "week_1_2": {
+      "weeks": "Weeks 1-7",
+      "week_1": {
         "title": "Introduction to Go & Development Environment Setup",
         "topics": [
           "What is Go? History, creators (Google), and philosophy",
@@ -93,7 +93,7 @@
         ],
         "practice": "Daily: 30 min Go syntax practice, write 5-10 simple programs"
       },
-      "week_3_4": {
+      "week_2_3": {
         "title": "Variables, Data Types & Operators",
         "topics": [
           "Variables: declaration with var keyword",
@@ -129,7 +129,7 @@
         ],
         "practice": "Solve 30 problems on variables, data types, and operators"
       },
-      "week_5_6": {
+      "week_4_5": {
         "title": "Control Flow & Functions",
         "topics": [
           "If statements in Go (no parentheses required)",
@@ -171,7 +171,7 @@
         ],
         "practice": "Solve 40 control flow and function problems"
       },
-      "week_7_8": {
+      "week_6_7": {
         "title": "Arrays, Slices & Maps",
         "topics": [
           "Arrays: fixed-size sequences",
@@ -212,10 +212,10 @@
         "practice": "Solve 35 slice and map problems"
       }
     },
-    "month_3_4": {
+    "month_3": {
       "title": "Month 3: Structs, Methods & Interfaces",
-      "weeks": "Week 9-13",
-      "week_9_10": {
+      "weeks": "Weeks 8-13",
+      "week_8_9": {
         "title": "Structs & Methods",
         "topics": [
           "Structs: custom types in Go",
@@ -253,7 +253,7 @@
         ],
         "practice": "Create 20 different structs with methods"
       },
-      "week_11_12": {
+      "week_10_11": {
         "title": "Interfaces & Polymorphism",
         "topics": [
           "Interfaces: defining contracts",
@@ -291,7 +291,7 @@
         ],
         "practice": "Build 15 interface-based systems"
       },
-      "week_13": {
+      "week_12_13": {
         "title": "Packages & Error Handling",
         "topics": [
           "Packages: organizing Go code",
@@ -333,10 +333,10 @@
   "phase_2_frontend_mastery": {
     "title": "PHASE 2: Advanced Go & Systems Programming (Months 4-6, Weeks 14-26)",
     "description": "Master Go's concurrency model, advanced features, testing, performance optimization, and systems programming.",
-    "month_7_8": {
-      "title": "Months 4-5: Concurrency & Advanced Features",
-      "weeks": "Week 14-22",
-      "week_27_28": {
+    "month_4": {
+      "title": "Month 4: Concurrency & Advanced Features",
+      "weeks": "Weeks 14-19",
+      "week_14": {
         "title": "Goroutines & Channels Fundamentals",
         "topics": [
           "Concurrency vs parallelism",
@@ -374,7 +374,7 @@
         ],
         "practice": "Solve 35 concurrency problems"
       },
-      "week_29_30": {
+      "week_15": {
         "title": "Advanced Concurrency Patterns",
         "topics": [
           "Mutex and RWMutex for synchronization",
@@ -412,7 +412,7 @@
         ],
         "practice": "Build 25 advanced concurrent systems"
       },
-      "week_31_32": {
+      "week_16": {
         "title": "Reflection & Generics",
         "topics": [
           "Reflection in Go with reflect package",
@@ -450,7 +450,7 @@
         ],
         "practice": "Implement 20 generic and reflection-based utilities"
       },
-      "week_33_34": {
+      "week_17_18": {
         "title": "Testing & Benchmarking",
         "topics": [
           "Testing in Go philosophy",
@@ -491,7 +491,7 @@
         ],
         "practice": "Write tests achieving 80%+ coverage for all projects"
       },
-      "week_35": {
+      "week_19": {
         "title": "Performance Optimization & Profiling",
         "topics": [
           "Performance optimization principles",
@@ -529,10 +529,10 @@
         "practice": "Optimize 15 programs for performance"
       }
     },
-    "month_9_10": {
-      "title": "Month 6: CLI Tools & Systems Programming",
-      "weeks": "Week 23-26",
-      "week_36_37": {
+    "month_5": {
+      "title": "Month 5: CLI Tools & Systems Programming",
+      "weeks": "Weeks 20-23",
+      "week_20": {
         "title": "Building CLI Applications",
         "topics": [
           "Command-line argument parsing with flag package",
@@ -570,7 +570,7 @@
         ],
         "practice": "Build 15 production-ready CLI tools"
       },
-      "week_38_39": {
+      "week_21": {
         "title": "File I/O & System Programming",
         "topics": [
           "File operations with os package",
@@ -608,7 +608,7 @@
         ],
         "practice": "Build 12 system-level applications"
       },
-      "week_40_41": {
+      "week_22": {
         "title": "Networking & Protocols",
         "topics": [
           "TCP/IP programming with net package",
@@ -646,7 +646,7 @@
         ],
         "practice": "Implement 10 networking applications"
       },
-      "week_42_43": {
+      "week_23": {
         "title": "Data Serialization & Encoding",
         "topics": [
           "JSON encoding/decoding with encoding/json",
@@ -683,31 +683,12 @@
           "Serialization benchmark tool"
         ],
         "practice": "Build 15 data processing applications"
-      },
-      "week_44": {
-        "title": "Phase 2 Capstone Project",
-        "topics": [
-          "Advanced concurrency implementation",
-          "CLI interface design",
-          "System programming concepts",
-          "Performance optimization",
-          "Comprehensive testing",
-          "Documentation"
-        ],
-        "projects": [
-          "PHASE 2 CAPSTONE: Distributed Task Processing System",
-          "Features: CLI interface, concurrent workers, job queue, file processing, network communication, monitoring, extensive tests",
-          "Alternative: Container orchestration tool mini-version",
-          "Alternative: Monitoring and metrics collection system",
-          "Alternative: Distributed cache implementation"
-        ],
-        "assessment": "Phase 2 Final Exam - Advanced Go concepts comprehensive test"
       }
     },
-    "month_11_12": {
-      "title": "PHASE 2 CONTINUED - Tooling & Best Practices",
-      "weeks": "Week 14-26 (distributed)",
-      "week_45_46": {
+    "month_6": {
+      "title": "Month 6: Tooling, Quality & Debugging",
+      "weeks": "Weeks 24-26",
+      "week_24": {
         "title": "Build Tools & Dependency Management",
         "topics": [
           "Go modules deep dive",
@@ -742,7 +723,7 @@
         ],
         "practice": "Set up professional build pipelines for all projects"
       },
-      "week_47_48": {
+      "week_25": {
         "title": "Code Quality & Best Practices",
         "topics": [
           "Go code style and conventions",
@@ -777,7 +758,7 @@
         ],
         "practice": "Refactor all projects with best practices"
       },
-      "week_49_50": {
+      "week_26": {
         "title": "Debugging & Troubleshooting",
         "topics": [
           "Debugging with Delve",
@@ -810,65 +791,7 @@
           "Error tracking system",
           "Performance debugger"
         ],
-        "practice": "Debug and fix 20 complex issues"
-      },
-      "week_51": {
-        "title": "Open Source Contribution",
-        "topics": [
-          "Open source ecosystem in Go",
-          "Finding Go projects to contribute",
-          "Understanding Go project structure",
-          "Contributing guidelines",
-          "Code review in Go community",
-          "Popular Go projects walkthrough",
-          "Creating your own package",
-          "Publishing to pkg.go.dev",
-          "Package documentation",
-          "Package versioning",
-          "Maintaining backwards compatibility",
-          "Community engagement",
-          "Go conferences and meetups",
-          "Writing technical blogs",
-          "Speaking about Go"
-        ],
-        "projects": [
-          "Contribute to 5 Go open source projects",
-          "Create and publish Go package",
-          "Write technical blog posts",
-          "Create tutorial content",
-          "Build community tool"
-        ],
-        "practice": "Active open source participation"
-      },
-      "week_52": {
-        "title": "Advanced Topics & Specializations",
-        "topics": [
-          "WebAssembly with Go",
-          "TinyGo for embedded systems",
-          "Mobile development with Go",
-          "Game development with Go",
-          "Machine learning with Go",
-          "Blockchain with Go",
-          "IoT applications",
-          "Scientific computing",
-          "Graphics programming",
-          "Audio/video processing",
-          "Compiler construction",
-          "Operating system development",
-          "Database engine basics",
-          "Search engine basics",
-          "Distributed systems patterns"
-        ],
-        "projects": [
-          "WebAssembly application",
-          "Embedded system project",
-          "Mobile app backend",
-          "Simple game in Go",
-          "ML model deployment",
-          "Blockchain prototype",
-          "Choose specialization project"
-        ],
-        "practice": "Explore 3 advanced specializations",
+        "practice": "Debug and fix 20 complex issues",
         "assessment": "Phase 2 exam: a practical build defended live, plus a written paper mixing this phase with everything before it"
       }
     }
@@ -876,10 +799,10 @@
   "phase_3_backend_engineering": {
     "title": "PHASE 3: Web Development & Enterprise Applications (Months 7-9, Weeks 27-39)",
     "description": "Master web development with Go, build REST APIs, GraphQL, gRPC services, work with databases, and deploy production applications.",
-    "month_13_14": {
-      "title": "Months 7-8: Web Development & APIs",
-      "weeks": "Week 27-35",
-      "week_53_54": {
+    "month_7": {
+      "title": "Month 7: Web Development & APIs",
+      "weeks": "Weeks 27-32",
+      "week_27_28": {
         "title": "HTTP & Web Fundamentals",
         "topics": [
           "HTTP protocol deep dive",
@@ -916,7 +839,7 @@
         ],
         "practice": "Build 10 HTTP-based applications"
       },
-      "week_55_56": {
+      "week_29": {
         "title": "Web Frameworks & REST APIs",
         "topics": [
           "Gin framework introduction",
@@ -954,7 +877,7 @@
         ],
         "practice": "Build 12 production REST APIs"
       },
-      "week_57_58": {
+      "week_30": {
         "title": "Database Programming",
         "topics": [
           "database/sql package",
@@ -992,7 +915,7 @@
         ],
         "practice": "Build 15 database-driven applications"
       },
-      "week_59_60": {
+      "week_31": {
         "title": "NoSQL & Caching",
         "topics": [
           "MongoDB driver for Go",
@@ -1030,7 +953,7 @@
         ],
         "practice": "Implement 10 NoSQL solutions"
       },
-      "week_61": {
+      "week_32": {
         "title": "GraphQL & Modern APIs",
         "topics": [
           "GraphQL introduction and concepts",
@@ -1069,10 +992,10 @@
         "practice": "Build 8 GraphQL services"
       }
     },
-    "month_15_16": {
-      "title": "Month 9: gRPC & Microservices Foundations",
-      "weeks": "Week 36-39",
-      "week_62_63": {
+    "month_8": {
+      "title": "Month 8: gRPC & Microservices Foundations",
+      "weeks": "Weeks 33-36",
+      "week_33": {
         "title": "gRPC & Protocol Buffers",
         "topics": [
           "gRPC introduction and architecture",
@@ -1110,7 +1033,7 @@
         ],
         "practice": "Build 10 gRPC services"
       },
-      "week_64_65": {
+      "week_34": {
         "title": "Message Queues & Event-Driven",
         "topics": [
           "Message queue patterns",
@@ -1148,7 +1071,7 @@
         ],
         "practice": "Build 12 event-driven systems"
       },
-      "week_66_67": {
+      "week_35": {
         "title": "Authentication & Security",
         "topics": [
           "Authentication strategies",
@@ -1186,7 +1109,7 @@
         ],
         "practice": "Implement security in all applications"
       },
-      "week_68_69": {
+      "week_36": {
         "title": "Observability & Monitoring",
         "topics": [
           "Observability principles",
@@ -1223,33 +1146,12 @@
           "SLA tracker"
         ],
         "practice": "Add observability to all services"
-      },
-      "week_70": {
-        "title": "Phase 3 Capstone Project",
-        "topics": [
-          "Full-stack application design",
-          "API development",
-          "Database design",
-          "Authentication implementation",
-          "Testing strategies",
-          "Deployment preparation",
-          "Documentation",
-          "Performance optimization"
-        ],
-        "projects": [
-          "MAJOR CAPSTONE: E-commerce Platform Backend",
-          "Features: REST + GraphQL APIs, product catalog, user auth (JWT), cart, orders, payment integration, admin panel, search, gRPC internal services, message queues, caching",
-          "Alternative: Social Media Platform (posts, real-time chat, notifications, feed algorithm)",
-          "Alternative: Video Streaming Platform (upload, transcoding, CDN, real-time comments)",
-          "Alternative: Food Delivery System (restaurants, orders, real-time tracking, payments)"
-        ],
-        "assessment": "Phase 3 Final Exam - Web development and APIs comprehensive test"
       }
     },
-    "month_17_18": {
-      "title": "PHASE 3 COMPLETION - Deployment & DevOps",
-      "weeks": "Week 27-39 (distributed)",
-      "week_71_72": {
+    "month_9": {
+      "title": "Month 9: Shipping Go: Containers, CI & Production Habits",
+      "weeks": "Weeks 37-39",
+      "week_37": {
         "title": "Containerization & Orchestration",
         "topics": [
           "Docker deep dive for Go",
@@ -1287,7 +1189,7 @@
         ],
         "practice": "Deploy all applications to Kubernetes"
       },
-      "week_73_74": {
+      "week_38": {
         "title": "CI/CD & Automation",
         "topics": [
           "CI/CD principles",
@@ -1325,45 +1227,7 @@
         ],
         "practice": "Set up CI/CD for all projects"
       },
-      "week_75_76": {
-        "title": "Cloud Platforms & Serverless",
-        "topics": [
-          "AWS services for Go",
-          "EC2 and Auto Scaling",
-          "ECS and Fargate",
-          "Lambda with Go",
-          "API Gateway",
-          "S3 integration",
-          "DynamoDB with Go",
-          "SQS and SNS",
-          "CloudWatch monitoring",
-          "Google Cloud Platform",
-          "Cloud Run",
-          "Cloud Functions",
-          "Firestore",
-          "Azure services",
-          "Azure Functions",
-          "Serverless Framework",
-          "SAM for AWS",
-          "Cost optimization",
-          "Multi-cloud strategies",
-          "Cloud-native patterns"
-        ],
-        "projects": [
-          "Serverless API with Lambda",
-          "Cloud Run deployment",
-          "S3 file processing",
-          "DynamoDB application",
-          "Event-driven serverless",
-          "Multi-cloud deployment",
-          "Cost monitoring tool",
-          "Cloud migration project",
-          "Serverless orchestration",
-          "Edge computing example"
-        ],
-        "practice": "Deploy to multiple cloud providers"
-      },
-      "week_77": {
+      "week_39": {
         "title": "Production Best Practices",
         "topics": [
           "Production readiness checklist",
@@ -1399,45 +1263,7 @@
           "Capacity planner",
           "Production readiness review"
         ],
-        "practice": "Make all applications production-ready"
-      },
-      "week_78": {
-        "title": "Integration & Enterprise Patterns",
-        "topics": [
-          "Enterprise integration patterns",
-          "API composition",
-          "Backend for Frontend (BFF)",
-          "API aggregation",
-          "Service discovery patterns",
-          "Circuit breaker implementation",
-          "Retry with backoff",
-          "Bulkhead pattern",
-          "Timeout patterns",
-          "Health check patterns",
-          "Blue-green deployment",
-          "Canary releases",
-          "Feature toggles",
-          "Strangler fig pattern",
-          "Anti-corruption layer",
-          "CQRS deep dive",
-          "Event sourcing implementation",
-          "Saga pattern implementation",
-          "Distributed transactions",
-          "Compensation patterns"
-        ],
-        "projects": [
-          "API gateway with patterns",
-          "Circuit breaker library",
-          "Service discovery system",
-          "Feature toggle service",
-          "Event sourcing framework",
-          "Saga coordinator",
-          "Integration hub",
-          "Pattern library",
-          "Migration toolkit",
-          "Enterprise integration platform"
-        ],
-        "practice": "Implement 15 enterprise patterns",
+        "practice": "Make all applications production-ready",
         "assessment": "Phase 3 exam: a practical build defended live, plus a written paper mixing this phase with everything before it"
       }
     }
