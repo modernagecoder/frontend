@@ -579,4 +579,10 @@
     <loc>https://learn.modernagecoders.com/coding-classes-in-jalan-bani-bu-hassan</loc>
     <lastmod>2026-08-23</lastmod>
   </url>
+  <url>
+    <loc>https://learn.modernagecoders.com/coding-classes-in-bidiyah</loc>
+    <lastmod>2026-08-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+  </url>
 </urlset>

@@ -398,6 +398,7 @@ USD 100 a month small group, USD 150 a month one to one.
 - Liwa, Al Batinah North, Oman: https://learn.modernagecoders.com/coding-classes-in-liwa
 - Qurayyat, Muscat, Oman: https://learn.modernagecoders.com/coding-classes-in-qurayyat
 - Jalan Bani Bu Hassan, Ash Sharqiyah South, Oman: https://learn.modernagecoders.com/coding-classes-in-jalan-bani-bu-hassan
+- Bidiyah, Ash Sharqiyah North, Oman: https://learn.modernagecoders.com/coding-classes-in-bidiyah
 ## International Country Pages
 
 - United States: https://learn.modernagecoders.com/coding-classes-in-united-states

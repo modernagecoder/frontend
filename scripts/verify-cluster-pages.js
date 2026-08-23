@@ -70,7 +70,7 @@ const CLUSTERS = {
   // docs/superpowers/specs/2026-08-15-international-growth-cluster-design.md
   'coding-global': {
     label: 'International growth cluster',
-    fileRe: /^coding-classes-in-(jalan-bani-bu-hassan|qurayyat|liwa|izki|samail|shinas|al-khaburah|al-mudhaibi|bahla|al-musanaah|jalan-bani-bu-ali|rustaq|al-amarat|saham|as-suwaiq|madinat-al-sultan-qaboos|bandar-seri-begawan|ash-sharqiyah-north|ash-sharqiyah-south|al-batinah-north|al-batinah-south|british-columbia|madinat-al-irfan|ad-dakhiliyah|adh-dhahirah|kuala-belait|jerudong|netherlands|al-buraimi|al-ghubrah|al-khuwair|birmingham|california|new-jersey|temburong|gadong|washington|al-khoudh|hong-kong|leicester|al-wusta|illinois|maryland|musandam|new-york|virginia|al-hail|al-mouj|alberta|bahrain|bawshar|georgia|mawaleh|muttrah|ontario|salalah|azaiba|brunei|liang|seria|dhofar|khasab|kuwait|muscat|tutong|barka|nizwa|qurum|sohar|texas|duqm|ibra|ibri|oman|seeb|sur)\.html$/,
+    fileRe: /^coding-classes-in-(bidiyah|jalan-bani-bu-hassan|qurayyat|liwa|izki|samail|shinas|al-khaburah|al-mudhaibi|bahla|al-musanaah|jalan-bani-bu-ali|rustaq|al-amarat|saham|as-suwaiq|madinat-al-sultan-qaboos|bandar-seri-begawan|ash-sharqiyah-north|ash-sharqiyah-south|al-batinah-north|al-batinah-south|british-columbia|madinat-al-irfan|ad-dakhiliyah|adh-dhahirah|kuala-belait|jerudong|netherlands|al-buraimi|al-ghubrah|al-khuwair|birmingham|california|new-jersey|temburong|gadong|washington|al-khoudh|hong-kong|leicester|al-wusta|illinois|maryland|musandam|new-york|virginia|al-hail|al-mouj|alberta|bahrain|bawshar|georgia|mawaleh|muttrah|ontario|salalah|azaiba|brunei|liang|seria|dhofar|khasab|kuwait|muscat|tutong|barka|nizwa|qurum|sohar|texas|duqm|ibra|ibri|oman|seeb|sur)\.html$/,
     css: 'src/css/coding-global.css',
     prefix: 'cg',
     markets: ['om', 'mct', 'kw', 'bh', 'hk', 'nl', 'nj', 'ca', 'tx', 'ny', 'il',
@@ -79,12 +79,12 @@ const CLUSTERS = {
       'bwh', 'seb', 'mut', 'qur', 'mou', 'msq', 'khw', 'ghb', 'azb', 'irf',
       'maw', 'hal', 'khd', 'shr', 'brk', 'sll', 'nzw', 'sur', 'iba', 'ibr',
       'duq', 'kha', 'dhf', 'btn', 'bts', 'dak', 'shn', 'shs', 'dhr', 'bur',
-      'msd', 'wst', 'jbh', 'qry', 'liw', 'izk', 'sml', 'shs2', 'khb', 'mdh', 'bhl', 'mus', 'jbb', 'rus', 'amr', 'sah', 'suw',
+      'msd', 'wst', 'bdy', 'jbh', 'qry', 'liw', 'izk', 'sml', 'shs2', 'khb', 'mdh', 'bhl', 'mus', 'jbb', 'rus', 'amr', 'sah', 'suw',
 
       // Brunei cluster: country plus its four districts
       'bn', 'bsb', 'kb', 'tut', 'tem', 'ser', 'lia', 'gad', 'jer'],
     dossierFile: 'content/coding-global-dossiers.json',
-    siblingRe: /^\/coding-classes-in-(jalan-bani-bu-hassan|qurayyat|liwa|izki|samail|shinas|al-khaburah|al-mudhaibi|bahla|al-musanaah|jalan-bani-bu-ali|rustaq|al-amarat|saham|as-suwaiq|madinat-al-sultan-qaboos|bandar-seri-begawan|ash-sharqiyah-north|ash-sharqiyah-south|al-batinah-north|al-batinah-south|british-columbia|madinat-al-irfan|ad-dakhiliyah|adh-dhahirah|kuala-belait|jerudong|netherlands|al-buraimi|al-ghubrah|al-khuwair|birmingham|california|new-jersey|temburong|gadong|washington|al-khoudh|hong-kong|leicester|al-wusta|illinois|maryland|musandam|new-york|virginia|al-hail|al-mouj|alberta|bahrain|bawshar|georgia|mawaleh|muttrah|ontario|salalah|azaiba|brunei|liang|seria|dhofar|khasab|kuwait|muscat|tutong|barka|nizwa|qurum|sohar|texas|duqm|ibra|ibri|oman|seeb|sur)$/
+    siblingRe: /^\/coding-classes-in-(bidiyah|jalan-bani-bu-hassan|qurayyat|liwa|izki|samail|shinas|al-khaburah|al-mudhaibi|bahla|al-musanaah|jalan-bani-bu-ali|rustaq|al-amarat|saham|as-suwaiq|madinat-al-sultan-qaboos|bandar-seri-begawan|ash-sharqiyah-north|ash-sharqiyah-south|al-batinah-north|al-batinah-south|british-columbia|madinat-al-irfan|ad-dakhiliyah|adh-dhahirah|kuala-belait|jerudong|netherlands|al-buraimi|al-ghubrah|al-khuwair|birmingham|california|new-jersey|temburong|gadong|washington|al-khoudh|hong-kong|leicester|al-wusta|illinois|maryland|musandam|new-york|virginia|al-hail|al-mouj|alberta|bahrain|bawshar|georgia|mawaleh|muttrah|ontario|salalah|azaiba|brunei|liang|seria|dhofar|khasab|kuwait|muscat|tutong|barka|nizwa|qurum|sohar|texas|duqm|ibra|ibri|oman|seeb|sur)$/
   }
 };
 
@@ -93,7 +93,7 @@ const CLUSTERS = {
 const OMAN_DISTRICTS = new Set(['bawshar', 'seeb', 'muttrah', 'qurum', 'al-mouj',
   'madinat-al-sultan-qaboos', 'al-khuwair', 'al-ghubrah', 'azaiba',
   'madinat-al-irfan', 'mawaleh', 'al-hail', 'al-khoudh']);
-const OMAN_CITIES = new Set(['jalan-bani-bu-hassan', 'qurayyat', 'liwa', 'izki', 'samail', 'shinas', 'al-khaburah', 'al-mudhaibi', 'bahla', 'al-musanaah', 'jalan-bani-bu-ali', 'rustaq', 'al-amarat', 'saham', 'as-suwaiq', 'sohar', 'barka', 'salalah', 'nizwa', 'sur', 'ibra',
+const OMAN_CITIES = new Set(['bidiyah', 'jalan-bani-bu-hassan', 'qurayyat', 'liwa', 'izki', 'samail', 'shinas', 'al-khaburah', 'al-mudhaibi', 'bahla', 'al-musanaah', 'jalan-bani-bu-ali', 'rustaq', 'al-amarat', 'saham', 'as-suwaiq', 'sohar', 'barka', 'salalah', 'nizwa', 'sur', 'ibra',
   'ibri', 'duqm', 'khasab']);
 const OMAN_GOVERNORATES = new Set(['dhofar', 'al-batinah-north', 'al-batinah-south',
   'ad-dakhiliyah', 'ash-sharqiyah-north', 'ash-sharqiyah-south', 'adh-dhahirah',

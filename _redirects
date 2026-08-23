@@ -1826,4 +1826,8 @@
 /coding-classes-in-qurayyat.md /src/pages/coding-classes-in-qurayyat.md 200
 /coding-classes-in-jalan-bani-bu-hassan /src/pages/coding-classes-in-jalan-bani-bu-hassan.html 200
 /coding-classes-in-jalan-bani-bu-hassan.md /src/pages/coding-classes-in-jalan-bani-bu-hassan.md 200
+
+# International growth cluster (coding-global.css). Must precede the /* catch-all.
+/coding-classes-in-bidiyah /src/pages/coding-classes-in-bidiyah.html 200
+/coding-classes-in-bidiyah.md /src/pages/coding-classes-in-bidiyah.md 200
 /* /src/pages/404.html 404

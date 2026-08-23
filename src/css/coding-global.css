@@ -135,6 +135,7 @@
 .cg-root.cg-liw { --cg-accent: #1C5E3F; --cg-accent-soft: rgba(28,94,63,.09); }   /* Liwa, the mangrove green at Harmul */
 .cg-root.cg-qry { --cg-accent: #00636B; --cg-accent-soft: rgba(0,99,107,.09); }   /* Qurayyat, the turquoise of the sinkhole */
 .cg-root.cg-jbh { --cg-accent: #8A4B0F; --cg-accent-soft: rgba(138,75,15,.09); }   /* Jalan Bani Bu Hassan, the mudbrick of Al Muhaywil */
+.cg-root.cg-bdy { --cg-accent: #9A5000; --cg-accent-soft: rgba(154,80,0,.09); }   /* Bidiyah */
 .cg-root.cg-wst { --cg-accent: #4A4800; --cg-accent-soft: rgba(74,72,0,.09); }   /* Al Wusta, the khaki scrub of the Jiddat al-Harasis */
 
 /* --------------------------------------------------------------------------

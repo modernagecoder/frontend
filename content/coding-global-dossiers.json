@@ -3000,5 +3000,42 @@
       "A firm 9th century founding date for the fort. The sources say it is said to have been founded then, which is a tradition rather than a dated record, and the page keeps that wording. The 1856 to 1866 reign under which it was rebuilt is the firmer date and the page leans on that one.",
       "A population figure. The 2022 census gives about 50,755 for the wilayat, but the page argues entirely from the names rather than from any total."
     ]
+  },
+  "coding-classes-in-bidiyah": {
+    "market": "Bidiyah, Ash Sharqiyah North",
+    "bodyClass": "cg-bdy",
+    "curriculumAuthority": "Oman Ministry of Education, General Education Diploma. The page argues from the shape of the wilayat rather than from curriculum: a settlement that works as the entrance to a sand sea is a route rather than a centre, and teaching that travels to the learner is the only arrangement that treats the whole route alike.",
+    "localProject": "A threshold stored as a value. Twelve dune heights capped at 100 because the source said over 100 metres: the mean falls from 97.8 to 84.7, the maximum from 156 to 100, the standard deviation from 33.6 to 19.9, and the count of dunes above 100 metres falls from six to zero. Assigned to this page and no other; checked free across the cluster before it was chosen.",
+    "requiredMentions": [
+      "Wahiba Sands",
+      "Bidiyah Castle",
+      "dunes over 100 metres",
+      "over 100 metres high",
+      "230 kilometres southeast of Muscat",
+      "aflaj and natural springs",
+      "desert camps",
+      "plains, mountains and dunes",
+      "the sands of Bidiyah",
+      "1,500 square kilometres"
+    ],
+    "sources": [
+      {
+        "claim": "Bidiya is a wilayat of North Al Sharqiyah about 230 kilometres southeast of Muscat, holding plains, mountains, dunes, oases, aflaj and natural springs, and sitting on the edge of the Wahiba Sands.",
+        "url": "https://www.oman-explorer.com/post/bidiyah"
+      },
+      {
+        "claim": "Dunes in the Wahiba Sands rise over 100 metres high, and the sand sea covers roughly 1,500 square kilometres.",
+        "url": "https://www.zigzagonearth.com/wahiba-sands-oman/"
+      },
+      {
+        "claim": "Bidiya Sands is also known as Wahiba Sands, and the easiest entrances are at Bidiyah Castle, reached by gravel road before the sand tracks, and at Al Wasil.",
+        "url": "http://holiday4s.com/en/discover-oman/bidiya-sands-also-known-as-wahiba-sands"
+      }
+    ],
+    "rejectedClaims": [
+      "A headline population for the wilayat. Figures circulating for Bidiya could not be traced to a census table, so none appears and the page argues from terrain instead.",
+      "Any individual dune height. Only the over 100 metres description is published, so the twelve heights inside the project are teaching values and are labelled as such in the project, the pitfalls note and the FAQ.",
+      "A road distance to anywhere other than Muscat. The 230 kilometre figure is the only one traced to a source, and it is itself rounded."
+    ]
   }
 }
