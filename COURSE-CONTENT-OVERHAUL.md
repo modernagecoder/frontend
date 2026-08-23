@@ -101,7 +101,7 @@ Status: [ ] pending · [~] in progress · [x] done+committed
 - [x] java-teens.json (24mo -> 10-12mo) DONE 2026-08-23: 40wk/4 phases, Minecraft modding promoted into month 6, ICSE/ISC/AP-CSA SEO angle, Spring Cloud/K8s/Android-production cut, assessment system
 - [x] full-stack-teens.json (24mo -> 12-14mo) DONE 2026-08-23: 48wk/4 phases, one honest stack (React+TS+Next taste, Node/Express/Mongo+SQL), AI-features week kept, cut Vue/Angular/Svelte tour + AWS/K8s/SAML + teen freelancing/startup/income promises
 - [x] full-stack-web-development-college.json (24mo -> 12-14mo) DONE 2026-08-23: 48wk/4 phases; kept pro depth (TS, both DBs, Docker, CI, system-design intro, AI features), cut K8s/Terraform/microservices + client-project/senior-level claims; salary_expectations kept verbatim
-- [ ] game-dev-teens.json (24mo -> 10-12mo)
+- [x] game-dev-teens.json (24mo -> 10-12mo) DONE 2026-08-23: 40wk/4 phases; Unity+C# deep with Blender, honest Unreal taste week, narrative+accessibility kept; cut VR/AR/esports/cloud-gaming/studio-business, Steam/console publishing promises, Jira/Perforce corporate pipeline
 - [ ] elementary-mathematics.json (24mo -> school-year framing)
 - [ ] college-level-maths.json (24mo -> 12-14mo)
 - [ ] data-analytics-mathematics.json (24mo -> 10-12mo)
