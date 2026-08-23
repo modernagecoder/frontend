@@ -105,7 +105,7 @@ Status: [ ] pending · [~] in progress · [x] done+committed
 - [x] elementary-mathematics.json (24mo -> 3 placement levels x 10-12mo) DONE 2026-08-23: Level A (G1-2) / B (G3-4) / C (G5), level exams w/ retest + promotion, concrete-pictorial-abstract framing, 20-30min daily practice (was 10-15 hrs/wk!), cut theory-videos/badges/adaptive-path claims
 - [x] college-level-maths.json (24mo -> 3 academic-year tracks) DONE 2026-08-23: Track 1 calc+LA / Track 2 ODE+discrete+prob / Track 3 analysis+algebra+topology; placement by syllabus, track exams w/ retest; cut grad-level padding (module theory, algebraic topology, PDE/numerical year, research seminar) + 20-25 hrs/wk claim
 - [x] data-analytics-mathematics.json (24mo -> 12-14mo) DONE 2026-08-23: 48wk/4 phases (stats truth, LA+inference, ML maths, optimization/NN/Bayes/time-series/AB); cut big-data/MLOps/GIS year; SLUG COLLISION FIXED: deleted applied-mathematics.json (dead older clone of the same slug that never reached the site)
-- [ ] java-programming-college.json (12mo, check scope) 
+- [x] java-programming-college.json DONE 2026-08-23: 10-12mo, core Java depth -> engine room (collections/concurrency/patterns/JDBC/JUnit) -> Spring Boot job stack; servlet-era + build-tools filler cut, weeks renumbered 1-44
 
 ### Tier 2: broken-format (no phase structure)
 - [x] scratch-kids.json DONE 2026-08-23 (structure was fine, direct month_ keys): 3mo -> "3-4 months" margin format; ages unified 6-12 (was 6-14/7-16 mix), 50+ -> 35+ honest count, cut recorded-replays + LEGO Mindstorms (discontinued), capstone options surfaced (were in invisible key), assessment system + exam certificate
@@ -122,31 +122,45 @@ Status: [ ] pending · [~] in progress · [x] done+committed
 - [x] mysql-teens.json (12mo -> 5-6mo) DONE 2026-08-23: removed LIVE "Placeholder - Structure Required by Template" phases; 20wk Python-connected arc + exam system
 - [x] mysql-database-college.json (12mo -> 7-8mo) DONE 2026-08-23: developer-honest scope, DBA track cut and named as next path; exam system
 - [x] react-teens (9-11mo JS-first) · frontend-teens (9-11mo UI-craft, differentiated from react-teens) · backend-teens (9-11mo Node/APIs, K8s tour cut) · cpp-teens (10-12mo, pointers-with-pictures + SFML + CP) DONE 2026-08-23
-- [ ] react-js-college.json
-- [ ] cpp-programming-college.json · kotlin.json · swift.json · golang.json
-- [ ] typescript-programming-college.json · flutter.json · mern-stack-college.json
-- [ ] python-ai-automation-college.json
+- [x] cpp-programming-college · kotlin · swift · golang DONE 2026-08-23: 10-12mo, real phases 1-3 kept (scrubbed), standard finale month + final exam; C++ modern/systems, Kotlin Compose-first, Swift w/ Mac-honesty FAQ, Go concurrency-first
+- [x] typescript-programming-college · react-js-college · flutter · mern-stack-college DONE 2026-08-23: same pattern; TS = JS-first + typed both ends, React = production layer (TS/testing/Next), Flutter = Dart-first + Mac-at-release honesty, MERN = one-language coherence
+- [x] WEEK-NUMBERING FIX (all 8 college packs, commit 2a808b2b): originals carried 78-week keys under 44-week titles -> chips renumbered to contiguous 1-39 + finale 40-44, months renumbered w/ honest titles, off-scope blocks dropped (React Native inside MERN, K8s/serverless tails, micro-frontends, mid-phase capstone stubs), phase exams re-anchored. LESSON: week KEYS render as chips; always verify chip sequence, not just titles
+- [x] python-ai-automation-college.json DONE 2026-08-23: automation-first reframe (scraping/RPA/pipelines + applied AI for documents/text/forecasts); RL/edge-AI/big-data/advanced-DL padding cut; differentiation FAQ vs ai-ml-college
 - [x] ai-ml-teens.json (12mo -> 10-12mo) + ai-ml-college.json (52wk -> 48wk, GenAI/LLM month) + gen-ai.json (kept RAG/agents spine, cut from-scratch/startup tail, 10-12mo) + python-mastery-college.json (four-in-one -> 9-11mo + Three Roads month) DONE 2026-08-23
-- [ ] artificial-intelligence-college.json
-- [ ] data-science-college.json · game-dev-college.json · app-dev-college.json
-- [ ] algo-trading.json · algo-trading-automation.json
+- [x] artificial-intelligence-college.json DONE 2026-08-23 (90ab89d1, see data-science line above)
+- [x] app-dev-college.json + game-dev-college.json DONE 2026-08-23 (commit 1d3c8751): app-dev = honest Flutter-first + native-literacy months (Swift/Kotlin), no-Mac FAQ, income_potential dropped; game-dev = Unity deep + Unreal/C++ phase + multiplayer, VR/AR + live-service/monetization weeks cut
+- [x] data-science-college.json + artificial-intelligence-college.json DONE 2026-08-23 (90ab89d1): DS = full pipeline, dup-Kaggle/RL cut, 3-way differentiation FAQ; AI = classical canon (AIMA shape) kept, AGI hype cut from meta, LLM-agent relevance framing. NOTE: week-1 taxonomy topic mentions AGI legitimately, do not ban the substring
+- [x] ai-tools-college.json DONE 2026-08-24 (1524781c): 6mo-claim w/ broken week seq (17->22 gap) + monetization hype -> honest 5-6mo adult toolkit; 18+ so ChatGPT/Claude/Midjourney KEPT as subject (gentle scrub = dead tools + income hype only); teens-redirect FAQ; lib gained renameBlocks + phaseDescriptions
+- [x] algo-trading.json + algo-trading-automation.json DONE 2026-08-24 (c0ef416e): HIGHEST-RISK finance files. LIVE DEFECT FIXED: algo-trading's income_potential block ("Profit share: 50-90%", "Unlimited based on capital") was served on the .md twin -> dropped entirely (no replacement bands authored). no-guarantee statement now in a rendering FAQ (+FAQPage schema), strengthened risk_disclaimers in JSON. Both 12mo-claim/104wk-key + hedge-fund/prop-desk/raise-capital fluff -> honest 10-12mo, engineering-not-get-rich framing, employment career framing only. DIFFERENTIATED: algo-trading = research/strategy/ML, automation = systems/execution/infra. LIB LESSONS: added extraSections, textReplace, salaryExpectations, phaseDescriptions overrides; only salary_expectations renders to HTML (income_potential/risk_disclaimers reach only .md twin); ban exact phrases not substrings (24/7 crypto markets, "hedge fund strategies" academic topic, own no-guarantee FAQ all tripped broad bans)
 - [x] princess/queen/alpha girls trio DONE 2026-08-23: honest ladder 9-11mo each, fantasy layer (Tech Mogul, Universal Domination, Coronation) removed
 - [x] python-ai-kids (8-10mo kid-safe AI) · web-dev-kids (8-10mo, ChatGPT/Claude/Midjourney-for-kids REMOVED) · game-dev-kids + app-dev-kids + problem-solving-kids (6-8mo, 24mo shadow curricula cut) · canva-ai-kids (-> honest 13+, Firefly/Magic Studio) · design-editing-teens (8-10mo, live Placeholder phases removed) DONE 2026-08-23
 - [x] computational-thinking-ai-kids + teens (CBSE pair): recorded-class claim cut, tool age-floors fixed, 51/69 kws -> 12; verified CBSE facts kept. hackathon trio + vibe trio + class-11-12 pair micro-patched (recorded-replays/parent-dashboard claims cut, Claude-4.7-style invented versions fixed, board-guarantee wording fixed) DONE 2026-08-23
-- [ ] mental-maths-kids.json · early-math-foundations.json · psle-maths.json
-- [ ] high-school-maths.json · middle-school-mathematics.json · applied-mathematics.json
-- [ ] olympiad-maths courses x2 · algebra-foundations.json · ap-calculus-prep.json
-- [ ] business-finance-mathematics.json · statistics-probability-maths.json (6mo, verify)
-- [ ] jee-foundation-maths.json (12mo school-year, likely keep + clarify)
-- [ ] ib-mathematics-aa-ai.json (24mo exam-cycle, keep + clarify)
-- [ ] computer-science-class-11-12.json · informatics-practices-class-11-12.json (24mo = 2 school years, keep + clarify)
-- [ ] ethical-hacking-masterclass-complete.json (6mo, content pass)
-- [ ] creative-media/design-editing-teens.json (12mo -> 6-8mo)
-- [ ] canva-ai-kids.json (6mo, content pass) · data-analysis-college.json (6mo, content pass)
-- [ ] dsa/competitive courses (6mo, content pass)
-- [ ] icse-computer-applications.json + remaining exam family (recent, light pass)
+- [x] mental-maths-kids · early-math-foundations · psle-maths DONE 2026-08-24 (ab2be19c, light maths batch above)
+- [x] high-school-maths + middle-school-mathematics + olympiad-competition-mathematics + business-finance-mathematics DONE 2026-08-24 (3de2dc2a): the 4 MATHS MONSTERS (104wk keys, theory_videos/10-15hrs weekly, completion cert). KEY DIFFERENCE from coding pack: all 4 phases are REAL maths -> KEEP all 4, don't discard phase 4. Used `scratchpad/fix-maths-monster.js` (in-place: renumber 1-52, cumulative phase exams + FINAL EXAM, maths weekly_structure, 12-14mo range, exam cert, preserve existing copy). NOTE: phase-review "stub" blocks are STRUCTURAL (keep them = they become the cumulative-exam week; dropping them breaks the 13-week doubling math). applied-mathematics.json already DELETED (dead clone)
+- [x] LIGHT MATHS BATCH DONE 2026-08-24 (ab2be19c): early-math-foundations, mental-maths-kids, algebra-foundations, ap-calculus-prep, sat-math-prep, maths-through-coding, jee-foundation-maths, ib-mathematics-aa-ai, statistics-probability-maths, psle-maths. All already high-quality (prior pass) -> shape-agnostic light patch only: exam-based cert + real_assessment + homework/mixed-review line + assessment FAQ + dateModified. Durations/curriculum UNTOUCHED (exam-cycle/school-year aligned). `scratchpad/patch-maths-light.js`. examWord adapts: gentle for young kids, full mock papers for AP/SAT/PSLE/JEE/IB
+- [x] computer-science-class-11-12 · informatics-practices-class-11-12 DONE 2026-08-23 (session 1): kw trimmed to 12, honest 24mo (2-year board cycle) joinable-any-month, real_assessment present
+- [x] ethical-hacking-masterclass-complete.json DONE 2026-08-24 (06d4f66f): 6mo-claim/104wk + Industry-recognized cert + offensive "Advanced Malware Development" topic -> honest 10-12mo authorized-pentest education; ethics/authorization/law foregrounded, labs-only, both offensive+defensive, malware-dev topic DROPPED (kept defensive analysis), legality + honest CEH/OSCP FAQs; salary block kept (owner-disclaimed)
+- [x] design-editing-teens.json DONE 2026-08-23 (session 1, see line 134 - live Placeholder phases removed)
+- [x] data-analysis-college.json DONE 2026-08-23 (1541f4a2): 6mo-claim/104wk-keys mess -> 8-10mo analyst arc (Excel/SQL -> Pandas/BI -> industry analytics), post-course fluff phase deleted; lib now supports perPhase/duration/finaleMonth/noMonthNumbers/paceFaq params
+- [x] data-structure-algorithms-college + competitive-coding-college DONE 2026-08-23 (cd98e870): both 6mo-claim/104wk-key + fluff-phase mess -> honest 10-12mo, fluff phases removed, no-guarantee FAQs. LESSON: added cfg.scrub to lib (GENTLE regex) so interview/contest content is NOT stripped by the default SCRUB
+- [x] icse-computer-applications + full exam family DONE 2026-08-24 (6084cce9, in the 38-file assessment batch)
 
 ### Tier 5: newer 2026 courses (light SEO polish only, most already at standard)
-- [ ] All "joinable any month" 2026 courses: verify against the standard, touch only if below it.
+- [x] All "joinable any month" 2026 courses DONE 2026-08-24 (6084cce9): audited all; already high quality (e.g. AP CSA correctly captures the 2025-26 four-unit Bluebook redesign) with clean weekly structures and no banned claims, so applied only the assessment-system layer (exam cert + real_assessment + homework/mixed-review line + assessment FAQ). Durations/curriculum/copy untouched.
+
+---
+
+## COMPLETE: all 121 course files overhauled (2026-08-24)
+
+Final audit across all 121 course JSONs = 0 issues on every axis: no broken week keys, every
+course exam-based-cert or real_assessment, no banned claims (lifetime/24-7-discord/job-referral/
+recorded/industry-recognized/parent-dashboard), no coding-flavored theory_video weekly blocks,
+no em/en-dashes. `npm run pricing:verify` green after `pricing:apply`. `applied-mathematics.json`
+was deleted (dead clone). `courses-config.json` is config, not a course.
+
+Session-2 reusable machinery in scratchpad: `college-lib.js` (rebuild(file,cfg) for coding
+colleges), `fix-maths-monster.js` (keep-all-4-phases maths renumber), `patch-maths-light.js` +
+`patch-assessment-batch.js` (shape-agnostic assessment-system patchers for already-good files).
+LIVE DEFECT fixed this session: algo-trading profit-share/unlimited claims served on the .md twin.
 
 Full course list: 122 files in `content/courses/data/` (see git log per file for history).
