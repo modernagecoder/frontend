@@ -2644,5 +2644,45 @@
       "An exact founding date for Jami Al-Hamoda. Sources say it was built almost 500 years ago, which is an approximation, and the page repeats it as an approximation rather than converting it into a year.",
       "A population figure. The 2022 census gives about 117,730 for the wilayat, but no argument on this page depends on it, so it is omitted rather than used as decoration."
     ]
+  },
+  "coding-classes-in-al-musanaah": {
+    "market": "Al Musanaah, Al Batinah South",
+    "bodyClass": "cg-mus",
+    "curriculumAuthority": "Oman Ministry of Education, General Education Diploma. The page argues from the wilayat's sporting infrastructure rather than its schools: Al Musanaah hosts international championship sailing, so results here are recorded under published rules that anybody can check, which is what lets the project show a right answer beside a wrong one instead of asserting which is which.",
+    "localProject": "A missing value inside an aggregate, in a sport that already ruled on it. A six race series where a boat sailing four races comes first on an average that skips the blanks and last under World Sailing's low point rule of entries plus one. Assigned to this page and no other: deliberately distinct from Ibra's missing-as-zero trap, because skipping is the more dangerous failure and produces a plausible answer where zeroing produces an obviously silly one.",
+    "requiredMentions": [
+      "Mussanah Sailing School",
+      "Mussanah Marina",
+      "Asian Beach Games",
+      "Barcelo Mussanah Resort",
+      "Hansa 303",
+      "RS Venture Connect",
+      "FarEast 28R",
+      "Wakan",
+      "World Sailing Inclusion Championships",
+      "Asian Sailing Federation"
+    ],
+    "sources": [
+      {
+        "claim": "Al-Musannah Sports City covers 1,000,000 square metres with capacity for 5,000 athletes, was built between 2008 and 2010 and opened on 8 December 2010, hosting the opening ceremony of the second Asian Beach Games held from 8 to 16 December 2010.",
+        "url": "https://en.wikipedia.org/wiki/Al-Musannah_Sports_City"
+      },
+      {
+        "claim": "The inaugural World Sailing Inclusion Championships were held at Mussanah from 30 November to 8 December 2025 with 154 athletes entered, across four classes: Hansa 303, RS Venture Connect, ILCA 6 and FarEast 28R.",
+        "url": "https://www.sailing.org/2025/12/05/racing-underway-at-the-2025-world-sailing-inclusion-championships-in-mussanah/"
+      },
+      {
+        "claim": "The Asian Sailing Federation selected Oman Sail's Mussanah Sailing School as a High Performance Centre; the school sits at the marina and water sports centre at the Barcelo Mussanah Resort about 85 km north of Muscat, with a 20 metre wide slipway, a boatyard and docking for around 400 boats.",
+        "url": "https://www.muscatdaily.com/2024/04/29/oman-sail-9/"
+      },
+      {
+        "claim": "Al-Musannah is a coastal town in Al Batinah South Governorate with a 2020 census population of 99,204, one of six wilayats in the governorate alongside Rustaq, Al Awabi, Nakhal, Wadi Al Maawil and Barka.",
+        "url": "https://en.wikipedia.org/wiki/Al-Musannah"
+      }
+    ],
+    "rejectedClaims": [
+      "Any claim that the race series in the project is a real regatta result. It is a teaching example and the page labels it as one. Only the scoring rule is real.",
+      "Attendance or entry figures for events at the venue beyond the 154 athletes reported for the 2025 championships. Other event totals could not be confirmed at first-party source and are therefore not stated."
+    ]
   }
 }
