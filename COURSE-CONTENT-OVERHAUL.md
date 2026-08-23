@@ -111,7 +111,7 @@ Status: [ ] pending · [~] in progress · [x] done+committed
 - [x] scratch-kids.json DONE 2026-08-23 (structure was fine, direct month_ keys): 3mo -> "3-4 months" margin format; ages unified 6-12 (was 6-14/7-16 mix), 50+ -> 35+ honest count, cut recorded-replays + LEGO Mindstorms (discontinued), capstone options surfaced (were in invisible key), assessment system + exam certificate
 - [ ] ai-tools-kids.json -> teens-ai-tools (0 phases)
 - [ ] creative-coding.json (0 phases)
-- [ ] microsoft-office-kids.json (0 phases, 6mo -> 3-5mo)
+- [x] microsoft-office-kids.json DONE 2026-08-23 (structure was fine): 6mo -> 5-6mo (20wk curriculum); Paint 3D (discontinued) -> Photos/Clipchamp; ages unified 7-12 (was 7-18); month 6 fluff merged; exam system + free-web-apps honesty
 
 ### Tier 3: 18-month tier
 - [ ] app-dev-teens.json (18mo -> 10-12mo)
