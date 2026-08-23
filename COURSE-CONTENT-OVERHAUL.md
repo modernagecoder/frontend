@@ -109,7 +109,7 @@ Status: [ ] pending · [~] in progress · [x] done+committed
 
 ### Tier 2: broken-format (no phase structure)
 - [x] scratch-kids.json DONE 2026-08-23 (structure was fine, direct month_ keys): 3mo -> "3-4 months" margin format; ages unified 6-12 (was 6-14/7-16 mix), 50+ -> 35+ honest count, cut recorded-replays + LEGO Mindstorms (discontinued), capstone options surfaced (were in invisible key), assessment system + exam certificate
-- [ ] ai-tools-kids.json -> teens-ai-tools (0 phases)
+- [x] ai-tools-kids.json (teens-ai-tools slug) DONE 2026-08-23: 6mo -> 4-5mo/16wk; AGE-FLOOR FIXES: Midjourney week (18+) replaced with Firefly/Canva/Bing, voice-cloning hands-on removed, masterlist cleaned, kids-era ages_8_10 safety brackets -> 13-15/16-18; age honesty made a course feature; exam system
 - [ ] creative-coding.json (0 phases)
 - [x] microsoft-office-kids.json DONE 2026-08-23 (structure was fine): 6mo -> 5-6mo (20wk curriculum); Paint 3D (discontinued) -> Photos/Clipchamp; ages unified 7-12 (was 7-18); month 6 fluff merged; exam system + free-web-apps honesty
 
