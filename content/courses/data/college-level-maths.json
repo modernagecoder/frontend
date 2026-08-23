@@ -2,75 +2,65 @@
   "meta": {
     "slug": "college-mathematics-complete-masterclass",
     "date": "2025-10-25",
-    "title": "College Mathematics: Calculus to Real Analysis & Beyond",
-    "description": "A 2-year college mathematics program: from calculus fundamentals to abstract algebra, real analysis and topology, taught with rigorous proofs and applications.",
+    "dateModified": "2026-08-23",
+    "title": "College Maths Course: Calculus, Linear Algebra to Analysis",
+    "description": "College maths course, live online: three academic-year tracks from calculus and linear algebra to probability, real analysis and abstract algebra.",
     "keywords": [
-      "college mathematics",
-      "calculus",
-      "linear algebra",
-      "differential equations",
-      "real analysis",
-      "abstract algebra",
-      "topology",
-      "complex analysis",
-      "numerical methods",
-      "mathematical proofs",
-      "discrete mathematics",
-      "probability theory",
-      "statistics",
-      "mathematical modeling",
-      "advanced mathematics",
-      "undergraduate math"
+      "college mathematics course",
+      "calculus course for college students",
+      "linear algebra course online",
+      "engineering mathematics course online",
+      "bsc maths online classes",
+      "real analysis course online",
+      "abstract algebra course online",
+      "probability and statistics course for college",
+      "differential equations course online",
+      "maths tuition for college students india",
+      "undergraduate mathematics help online",
+      "online maths classes for engineering students"
     ],
-    "category": "Advanced Mathematics Education",
+    "category": "College Mathematics",
     "taxonomy": "mathematics",
     "price": {
       "group": "₹2,999/month",
       "personal": "₹4,999/month"
     },
-    "duration": "24 months (104 weeks)",
-    "level": "High School Graduate to Advanced Undergraduate Mathematics",
-    "commitment": "20-25 hours/week recommended",
-    "certification": "Advanced Mathematics Proficiency Certificate upon completion",
+    "duration": "10-12 months per track (3 tracks, joinable any month)",
+    "level": "College and university students; placement by current course and semester",
+    "commitment": "2 live classes/week + 4-6 hours problem practice",
+    "certification": "Track certificate from Modern Age Coders, awarded on passing each track exam",
     "image_path": "college-level-maths.webp"
   },
   "program_overview": {
-    "title": "Complete College Mathematics Masterclass",
-    "tagline": "From Calculus to Cutting-Edge Mathematics - Master the Language of the Universe",
-    "description": "This intensive 2-year program covers the entire undergraduate mathematics curriculum and beyond. Whether you're a college student, self-learner, professional seeking mathematical depth, or preparing for graduate studies, this masterclass transforms you into a mathematical thinker.\n\nYou'll master calculus, linear algebra, abstract algebra, real analysis, topology, and applied mathematics. Learn to write rigorous proofs, solve complex problems, use computational tools, and understand the deep connections between mathematical fields. By completion, you'll have the knowledge equivalent to a mathematics major from a top university.",
+    "title": "College Mathematics Masterclass",
+    "tagline": "The undergraduate core, taught the way it should have been: three academic-year tracks, placed against your actual syllabus, proofs included.",
+    "description": "University mathematics has a famous problem: lectures move at the speed of the syllabus, not the student, and one missed fortnight of calculus compounds into a lost semester. This live online program is the counterweight. It maps the undergraduate core into three honest tracks, each one academic year long, and places every student by their current course and semester, an engineering first-year lands in Track 1 calculus, a BSc student facing real analysis lands in Track 3.\n\nTrack 1 is the first-year core: single-variable calculus done properly, linear algebra from vectors to eigenvalues, proof writing, and multivariable calculus. Track 2 is the methods year: multiple integration, ordinary differential equations and Laplace transforms, discrete mathematics, and a full treatment of probability and statistics. Track 3 is where mathematics becomes a discipline: real analysis, abstract algebra, topology and complex analysis, taught with rigorous proofs but at a human pace, with the intuition drawn before the epsilon arrives.\n\nEach track runs 10 months at two live classes a week plus four to six hours of problem practice, with up to 12 months for students who need more, the pace adapts. Assessment is honest: problem sets after every class, monthly mixed reviews that reach back deliberately, and a track exam at the end that decides the certificate, with focused revision and a free retest for those who fall short. Real knowledge, real proofs, depth over dopamine.",
     "what_makes_this_different": [
-      "Complete undergraduate curriculum coverage",
-      "Rigorous proof-writing training",
-      "Computational mathematics integration",
-      "Visual and intuitive explanations",
-      "Historical and philosophical context",
-      "Research paper reading skills",
-      "Graduate school preparation",
-      "Industry applications focus"
+      "Placement by syllabus, not marketing: a short diagnostic maps you to the right track and the right month",
+      "Proofs taught as a skill: intuition first, then rigor, the way strong departments actually teach it",
+      "Built to run alongside university: the tracks mirror standard BSc and engineering syllabi, so class work and university work reinforce each other",
+      "Problem practice over passive watching: every concept is drilled through graded problem sets with written feedback",
+      "An honest year per track with 2 months of margin: students who need more time take up to 12 months, nobody is rushed",
+      "Real assessment: weekly problem sets, monthly mixed reviews, and a track exam that decides the certificate, with focused revision and a free retest"
     ],
     "learning_path": {
-      "phase_1": "Foundation (Months 1-6): Single Variable Calculus, Linear Algebra, Proof Writing",
-      "phase_2": "Core Mathematics (Months 7-12): Multivariable Calculus, ODEs, Discrete Math, Probability",
-      "phase_3": "Advanced Theory (Months 13-18): Real Analysis, Abstract Algebra, Topology, Complex Analysis",
-      "phase_4": "Specializations (Months 19-24): PDEs, Numerical Analysis, Optimization, Research Topics"
+      "phase_1": "Track 1, the first-year core (one academic year): calculus I-II, linear algebra, proof writing and multivariable calculus",
+      "phase_2": "Track 2, the methods year (one academic year): multiple integrals, ODEs and Laplace, discrete mathematics, probability and statistics",
+      "phase_3": "Track 3, the discipline (one academic year): real analysis, abstract algebra, topology and complex analysis"
     },
     "career_outcomes": [
-      "Mathematics Graduate Studies",
-      "Data Science and Machine Learning",
-      "Quantitative Finance",
-      "Research and Academia",
-      "Software Engineering (Algorithms)",
-      "Actuarial Science",
-      "Operations Research",
-      "Mathematical Consulting"
+      "University marks that reflect ability instead of lecture pace, semester after semester",
+      "Track certificates earned by exam, each marking tested mastery of a core block",
+      "Real preparation for graduate study: Track 3 is precisely the material masters admissions assume",
+      "The quantitative base for data science, finance and research paths, built on understanding rather than formulas"
     ]
   },
-  "phase_1_foundation": {
-    "title": "PHASE 1: Mathematical Foundations (Months 1-6, Weeks 1-26)",
-    "description": "Build rock-solid foundations in calculus, linear algebra, and mathematical reasoning with proof writing.",
-    "month_1_2": {
+  "phase_1_track_1": {
+    "title": "PHASE 1: Track 1, Calculus and Linear Algebra (One Academic Year)",
+    "description": "The first-year core: limits to integrals, vectors to eigenvalues, the craft of proof, and multivariable calculus, built with intuition before rigor.",
+    "month_1_2_calculus_1": {
       "title": "Months 1-2: Single Variable Calculus I",
-      "weeks": "Week 1-8",
+      "weeks": "Weeks 1-8",
       "week_1_2": {
         "title": "Limits and Continuity",
         "topics": [
@@ -161,12 +151,13 @@
           "Numerical integration calculator",
           "Volume calculator for solids of revolution"
         ],
-        "practice": "Complete 200 integration problems"
+        "practice": "Complete 200 integration problems",
+        "assessment": "Months 1-2 check: a mixed calculus paper, limits through integrals, with full written feedback"
       }
     },
-    "month_3_4": {
-      "title": "Months 3-4: Calculus II & Linear Algebra I",
-      "weeks": "Week 9-17",
+    "month_3_4_calculus_2_linear": {
+      "title": "Months 3-4: Calculus II and Linear Algebra I",
+      "weeks": "Weeks 9-17",
       "week_9_10": {
         "title": "Advanced Integration Techniques",
         "topics": [
@@ -280,12 +271,13 @@
           "Logic truth table generator",
           "Induction proof template builder"
         ],
-        "practice": "Write 50 rigorous mathematical proofs"
+        "practice": "Write 50 rigorous mathematical proofs",
+        "assessment": "Mid-track check: proof writing plus mixed questions reaching back to month 1"
       }
     },
-    "month_5_6": {
-      "title": "Months 5-6: Advanced Linear Algebra & Vector Calculus",
-      "weeks": "Week 18-26",
+    "month_5_6_advanced_linear_vector": {
+      "title": "Months 5-6: Advanced Linear Algebra and Vector Calculus",
+      "weeks": "Weeks 18-26",
       "week_18_19": {
         "title": "Eigenvalues and Eigenvectors",
         "topics": [
@@ -379,7 +371,7 @@
         "practice": "Solve 100 optimization problems"
       },
       "week_26": {
-        "title": "Phase 1 Capstone Project",
+        "title": "Track 1 Exam",
         "topics": [
           "Integration of calculus and linear algebra",
           "Comprehensive problem solving",
@@ -393,17 +385,17 @@
           "Complete proof portfolio with 25 original proofs",
           "Implementation of numerical methods library"
         ],
-        "assessment": "Phase 1 Comprehensive Exam - Calculus and Linear Algebra"
+        "assessment": "TRACK 1 EXAM: a written paper mixing the whole track, calculus, linear algebra and one honest proof. Passing earns the Track 1 certificate; falling short earns focused revision and a free retest"
       }
     }
   },
-  "phase_2_frontend_mastery": {
-    "title": "PHASE 2: Core Mathematics (Months 7-12, Weeks 27-52)",
-    "description": "Master multivariable calculus, differential equations, discrete mathematics, and probability theory.",
-    "month_7_8": {
-      "title": "Months 7-8: Multiple Integration & ODEs",
-      "weeks": "Week 27-35",
-      "week_27_28": {
+  "phase_2_track_2": {
+    "title": "PHASE 2: Track 2, Differential Equations, Discrete Maths and Probability (One Academic Year)",
+    "description": "The methods year every engineering and science degree leans on: multiple integration, ODEs and Laplace transforms, discrete mathematics, and probability and statistics done properly.",
+    "month_1_2_integration_odes": {
+      "title": "Months 1-2: Multiple Integration and ODEs",
+      "weeks": "Weeks 1-9",
+      "week_1_2": {
         "title": "Double and Triple Integrals",
         "topics": [
           "Double integrals over rectangles",
@@ -426,7 +418,7 @@
         ],
         "practice": "Evaluate 150 multiple integrals"
       },
-      "week_29_30": {
+      "week_3_4": {
         "title": "Line and Surface Integrals",
         "topics": [
           "Parametric curves and arc length",
@@ -449,7 +441,7 @@
         ],
         "practice": "Complete 100 vector calculus problems"
       },
-      "week_31_32": {
+      "week_5_6": {
         "title": "First-Order Differential Equations",
         "topics": [
           "Classification of differential equations",
@@ -472,7 +464,7 @@
         ],
         "practice": "Solve 150 first-order ODEs"
       },
-      "week_33_34": {
+      "week_7_8": {
         "title": "Higher-Order Linear ODEs",
         "topics": [
           "Second-order linear equations",
@@ -495,7 +487,7 @@
         ],
         "practice": "Solve 100 higher-order ODEs"
       },
-      "week_35": {
+      "week_9": {
         "title": "Laplace Transforms",
         "topics": [
           "Definition and existence of Laplace transform",
@@ -516,13 +508,14 @@
           "Control system analyzer",
           "ODE system solver via Laplace"
         ],
-        "practice": "Apply Laplace transforms to 75 problems"
+        "practice": "Apply Laplace transforms to 75 problems",
+        "assessment": "Months 1-2 check: an ODE-and-integration paper with one modeling question"
       }
     },
-    "month_9_10": {
-      "title": "Months 9-10: Discrete Mathematics",
-      "weeks": "Week 36-44",
-      "week_36_37": {
+    "month_3_4_discrete": {
+      "title": "Months 3-4: Discrete Mathematics",
+      "weeks": "Weeks 10-18",
+      "week_10_11": {
         "title": "Set Theory and Relations",
         "topics": [
           "Naive set theory and paradoxes",
@@ -545,7 +538,7 @@
         ],
         "practice": "Prove 75 set theory theorems"
       },
-      "week_38_39": {
+      "week_12_13": {
         "title": "Combinatorics",
         "topics": [
           "Basic counting principles",
@@ -568,7 +561,7 @@
         ],
         "practice": "Solve 100 combinatorics problems"
       },
-      "week_40_41": {
+      "week_14_15": {
         "title": "Graph Theory",
         "topics": [
           "Graphs: vertices, edges, degree",
@@ -591,7 +584,7 @@
         ],
         "practice": "Implement 20 graph algorithms"
       },
-      "week_42_43": {
+      "week_16_17": {
         "title": "Number Theory",
         "topics": [
           "Divisibility and greatest common divisors",
@@ -614,7 +607,7 @@
         ],
         "practice": "Prove 50 number theory results"
       },
-      "week_44": {
+      "week_18": {
         "title": "Boolean Algebra and Logic",
         "topics": [
           "Boolean operations and laws",
@@ -635,13 +628,14 @@
           "Boolean function minimizer",
           "Automated theorem prover"
         ],
-        "practice": "Design 30 logic circuits"
+        "practice": "Design 30 logic circuits",
+        "assessment": "Months 3-4 check: a discrete mathematics paper, with revision questions from months 1-2"
       }
     },
-    "month_11_12": {
-      "title": "Months 11-12: Probability and Statistics",
-      "weeks": "Week 45-52",
-      "week_45_46": {
+    "month_5_6_probability": {
+      "title": "Months 5-6: Probability, Statistics and the Track Exam",
+      "weeks": "Weeks 19-26",
+      "week_19_20": {
         "title": "Probability Theory",
         "topics": [
           "Sample spaces and events",
@@ -664,7 +658,7 @@
         ],
         "practice": "Solve 150 probability problems"
       },
-      "week_47_48": {
+      "week_21_22": {
         "title": "Joint Distributions and Limit Theorems",
         "topics": [
           "Joint probability distributions",
@@ -687,7 +681,7 @@
         ],
         "practice": "Analyze 100 joint distributions"
       },
-      "week_49_50": {
+      "week_23_24": {
         "title": "Statistical Inference",
         "topics": [
           "Point estimation: MLE and method of moments",
@@ -710,7 +704,7 @@
         ],
         "practice": "Perform 75 statistical analyses"
       },
-      "week_51": {
+      "week_25": {
         "title": "Stochastic Processes",
         "topics": [
           "Introduction to stochastic processes",
@@ -733,8 +727,8 @@
         ],
         "practice": "Model 50 stochastic systems"
       },
-      "week_52": {
-        "title": "Phase 2 Capstone Project",
+      "week_26": {
+        "title": "Track 2 Exam",
         "topics": [
           "Integration of discrete and continuous mathematics",
           "Statistical modeling project",
@@ -748,17 +742,17 @@
           "Graph theory application to real networks",
           "Probability model for real phenomenon"
         ],
-        "assessment": "Phase 2 Comprehensive Exam"
+        "assessment": "TRACK 2 EXAM: a written paper mixing ODEs, discrete mathematics and probability, with questions reaching back across the year. Passing earns the Track 2 certificate; falling short earns focused revision and a free retest"
       }
     }
   },
-  "phase_3_backend_engineering": {
-    "title": "PHASE 3: Advanced Pure Mathematics (Months 13-18, Weeks 53-78)",
-    "description": "Master real analysis, abstract algebra, topology, complex analysis, and advanced mathematical theory.",
-    "month_13_14": {
-      "title": "Months 13-14: Real Analysis",
-      "weeks": "Week 53-61",
-      "week_53_54": {
+  "phase_3_track_3": {
+    "title": "PHASE 3: Track 3, Analysis, Algebra and Beyond (One Academic Year)",
+    "description": "Where mathematics becomes a discipline: real analysis, abstract algebra, topology and complex analysis, rigorous but humane, intuition drawn before every epsilon.",
+    "month_1_2_real_analysis": {
+      "title": "Months 1-3: Real Analysis",
+      "weeks": "Weeks 1-9",
+      "week_1_2": {
         "title": "Metric Spaces and Sequences",
         "topics": [
           "Metric spaces: definition and examples",
@@ -781,7 +775,7 @@
         ],
         "practice": "Prove 100 metric space theorems"
       },
-      "week_55_56": {
+      "week_3_4": {
         "title": "Limits and Continuity in R^n",
         "topics": [
           "The real numbers: completeness axiom",
@@ -804,7 +798,7 @@
         ],
         "practice": "Complete 75 epsilon-delta proofs"
       },
-      "week_57_58": {
+      "week_5_6": {
         "title": "Differentiation Theory",
         "topics": [
           "Derivative as linear approximation",
@@ -827,7 +821,7 @@
         ],
         "practice": "Prove 50 differentiation theorems"
       },
-      "week_59_60": {
+      "week_7_8": {
         "title": "Riemann Integration",
         "topics": [
           "Riemann integral construction",
@@ -850,7 +844,7 @@
         ],
         "practice": "Analyze 75 integration problems rigorously"
       },
-      "week_61": {
+      "week_9": {
         "title": "Sequences and Series of Functions",
         "topics": [
           "Pointwise convergence",
@@ -871,13 +865,14 @@
           "Fourier series calculator",
           "Function approximator"
         ],
-        "practice": "Prove convergence for 50 function sequences"
+        "practice": "Prove convergence for 50 function sequences",
+        "assessment": "Analysis check: two full proofs written under exam conditions, marked line by line"
       }
     },
-    "month_15_16": {
-      "title": "Months 15-16: Abstract Algebra",
-      "weeks": "Week 62-70",
-      "week_62_63": {
+    "month_3_4_abstract_algebra": {
+      "title": "Months 4-6: Abstract Algebra",
+      "weeks": "Weeks 10-17",
+      "week_10_11": {
         "title": "Group Theory",
         "topics": [
           "Groups: axioms and examples",
@@ -900,7 +895,7 @@
         ],
         "practice": "Prove 100 group theory results"
       },
-      "week_64_65": {
+      "week_12_13": {
         "title": "Ring Theory",
         "topics": [
           "Rings: definition and examples",
@@ -923,7 +918,7 @@
         ],
         "practice": "Explore 75 ring structures"
       },
-      "week_66_67": {
+      "week_14_15": {
         "title": "Field Theory",
         "topics": [
           "Fields: definition and examples",
@@ -946,7 +941,7 @@
         ],
         "practice": "Work through 50 field theory problems"
       },
-      "week_68_69": {
+      "week_16_17": {
         "title": "Linear Algebra (Abstract)",
         "topics": [
           "Vector spaces over arbitrary fields",
@@ -967,36 +962,14 @@
           "Inner product space explorer",
           "SVD calculator"
         ],
-        "practice": "Prove 75 abstract linear algebra theorems"
-      },
-      "week_70": {
-        "title": "Module Theory",
-        "topics": [
-          "Modules over rings",
-          "Submodules and quotient modules",
-          "Module homomorphisms",
-          "Free modules",
-          "Finitely generated modules",
-          "Torsion modules",
-          "Structure theorem for finitely generated modules over PID",
-          "Applications to linear algebra",
-          "Jordan canonical form via modules",
-          "Projective and injective modules",
-          "Exact sequences",
-          "Introduction to homological algebra"
-        ],
-        "projects": [
-          "Module structure analyzer",
-          "Jordan form calculator",
-          "Exact sequence checker"
-        ],
-        "practice": "Explore 50 module structures"
+        "practice": "Prove 75 abstract linear algebra theorems",
+        "assessment": "Algebra check: a structures paper spanning groups, rings and fields, plus one analysis revision question"
       }
     },
-    "month_17_18": {
-      "title": "Months 17-18: Topology & Complex Analysis",
-      "weeks": "Week 71-78",
-      "week_71_72": {
+    "month_5_6_topology_complex": {
+      "title": "Months 7-10: Topology, Complex Analysis and the Track Exam",
+      "weeks": "Weeks 18-26",
+      "week_18_19": {
         "title": "General Topology",
         "topics": [
           "Topological spaces: definition and examples",
@@ -1019,30 +992,7 @@
         ],
         "practice": "Prove 100 topology theorems"
       },
-      "week_73_74": {
-        "title": "Algebraic Topology Introduction",
-        "topics": [
-          "Homotopy and homotopy equivalence",
-          "Fundamental group",
-          "Computing fundamental groups",
-          "Van Kampen's theorem",
-          "Covering spaces",
-          "Lifting properties",
-          "Classification of covering spaces",
-          "Introduction to homology",
-          "Simplicial complexes",
-          "Simplicial homology",
-          "Singular homology basics",
-          "Applications to fixed point theorems"
-        ],
-        "projects": [
-          "Fundamental group calculator",
-          "Covering space visualizer",
-          "Homology computer"
-        ],
-        "practice": "Compute 50 fundamental groups"
-      },
-      "week_75_76": {
+      "week_20_21": {
         "title": "Complex Analysis",
         "topics": [
           "Complex numbers and complex plane",
@@ -1065,7 +1015,7 @@
         ],
         "practice": "Solve 100 complex analysis problems"
       },
-      "week_77": {
+      "week_22": {
         "title": "Advanced Complex Analysis",
         "topics": [
           "Maximum modulus principle",
@@ -1088,8 +1038,8 @@
         ],
         "practice": "Explore 50 special functions"
       },
-      "week_78": {
-        "title": "Phase 3 Capstone Project",
+      "week_23_24": {
+        "title": "Track 3 Capstone and Exam",
         "topics": [
           "Pure mathematics research project",
           "Original proof development",
@@ -1098,538 +1048,62 @@
           "Peer review process"
         ],
         "projects": [
-          "MAJOR CAPSTONE: Original Mathematics Research",
-          "Write expository paper on advanced topic",
-          "Create visualization tools for abstract concepts",
-          "Develop lecture series on chosen topic"
+          "A written capstone: one substantial theorem, its proof reconstructed and presented from understanding"
         ],
-        "assessment": "Phase 3 Comprehensive Exam - Pure Mathematics"
+        "assessment": "TRACK 3 EXAM: a proof-based paper across analysis, algebra, topology and complex analysis. Passing earns the Track 3 certificate, completing the program; falling short earns focused revision and a free retest"
       }
     }
   },
-  "phase_4_advanced_production": {
-    "title": "PHASE 4: Applied Mathematics & Research (Months 19-24, Weeks 79-104)",
-    "description": "Master PDEs, numerical analysis, optimization, mathematical modeling, and conduct original research.",
-    "month_19_20": {
-      "title": "Months 19-20: Partial Differential Equations",
-      "weeks": "Week 79-87",
-      "week_79_80": {
-        "title": "First-Order PDEs",
-        "topics": [
-          "Classification of PDEs",
-          "First-order linear PDEs",
-          "Method of characteristics",
-          "Quasi-linear PDEs",
-          "General first-order PDEs",
-          "Cauchy problem",
-          "Envelopes and singular solutions",
-          "Conservation laws",
-          "Shock waves",
-          "Weak solutions",
-          "Rankine-Hugoniot conditions",
-          "Applications to traffic flow"
-        ],
-        "projects": [
-          "Characteristics solver",
-          "Shock wave simulator",
-          "Conservation law visualizer"
-        ],
-        "practice": "Solve 75 first-order PDEs"
-      },
-      "week_81_82": {
-        "title": "Second-Order Linear PDEs",
-        "topics": [
-          "Classification: elliptic, parabolic, hyperbolic",
-          "Heat equation: derivation and properties",
-          "Separation of variables",
-          "Fourier series solutions",
-          "Maximum principle for heat equation",
-          "Wave equation: d'Alembert's solution",
-          "Energy methods",
-          "Laplace equation: harmonic functions",
-          "Poisson equation",
-          "Green's functions",
-          "Boundary value problems",
-          "Sturm-Liouville theory"
-        ],
-        "projects": [
-          "Heat equation solver",
-          "Wave propagation simulator",
-          "Laplace equation solver"
-        ],
-        "practice": "Solve 100 second-order PDEs"
-      },
-      "week_83_84": {
-        "title": "Transform Methods for PDEs",
-        "topics": [
-          "Fourier transform and PDEs",
-          "Heat equation via Fourier transform",
-          "Laplace transform for PDEs",
-          "Hankel transforms",
-          "Integral transform methods",
-          "Duhamel's principle",
-          "Green's function method",
-          "Eigenfunction expansions",
-          "Bessel functions",
-          "Legendre polynomials",
-          "Spherical harmonics",
-          "Special functions in PDEs"
-        ],
-        "projects": [
-          "Transform method solver",
-          "Special function library",
-          "Eigenfunction visualizer"
-        ],
-        "practice": "Apply transforms to 75 PDE problems"
-      },
-      "week_85_86": {
-        "title": "Numerical Methods for PDEs",
-        "topics": [
-          "Finite difference methods",
-          "Stability and convergence",
-          "CFL condition",
-          "Implicit vs explicit schemes",
-          "Crank-Nicolson method",
-          "Finite element method basics",
-          "Weak formulation",
-          "Galerkin method",
-          "Basis functions",
-          "Assembly process",
-          "Spectral methods introduction",
-          "Multigrid methods"
-        ],
-        "projects": [
-          "Finite difference PDE solver",
-          "Finite element implementation",
-          "Stability analyzer"
-        ],
-        "practice": "Implement 20 numerical PDE schemes"
-      },
-      "week_87": {
-        "title": "Nonlinear PDEs",
-        "topics": [
-          "Nonlinear heat equation",
-          "Burger's equation",
-          "KdV equation and solitons",
-          "Nonlinear Schrödinger equation",
-          "Reaction-diffusion equations",
-          "Pattern formation",
-          "Traveling waves",
-          "Bifurcation in PDEs",
-          "Variational methods",
-          "Fixed point theorems for PDEs",
-          "Existence and uniqueness",
-          "Regularity theory basics"
-        ],
-        "projects": [
-          "Soliton simulator",
-          "Pattern formation tool",
-          "Bifurcation analyzer"
-        ],
-        "practice": "Study 50 nonlinear PDE phenomena"
-      }
-    },
-    "month_21_22": {
-      "title": "Months 21-22: Numerical Analysis & Scientific Computing",
-      "weeks": "Week 88-96",
-      "week_88_89": {
-        "title": "Numerical Linear Algebra",
-        "topics": [
-          "Floating point arithmetic",
-          "Condition numbers and stability",
-          "LU decomposition",
-          "Cholesky decomposition",
-          "QR decomposition",
-          "Singular value decomposition",
-          "Iterative methods: Jacobi, Gauss-Seidel",
-          "Conjugate gradient method",
-          "GMRES and Krylov methods",
-          "Preconditioning",
-          "Sparse matrix techniques",
-          "Parallel algorithms"
-        ],
-        "projects": [
-          "Matrix decomposition library",
-          "Iterative solver suite",
-          "Condition number analyzer"
-        ],
-        "practice": "Implement 30 numerical linear algebra algorithms"
-      },
-      "week_90_91": {
-        "title": "Interpolation and Approximation",
-        "topics": [
-          "Polynomial interpolation",
-          "Lagrange interpolation",
-          "Newton's divided differences",
-          "Hermite interpolation",
-          "Spline interpolation",
-          "B-splines and NURBS",
-          "Least squares approximation",
-          "Orthogonal polynomials",
-          "Chebyshev approximation",
-          "Rational approximation",
-          "Padé approximants",
-          "Wavelets introduction"
-        ],
-        "projects": [
-          "Interpolation toolkit",
-          "Spline curve designer",
-          "Approximation error analyzer"
-        ],
-        "practice": "Implement 25 approximation methods"
-      },
-      "week_92_93": {
-        "title": "Numerical Integration and Differentiation",
-        "topics": [
-          "Newton-Cotes formulas",
-          "Gaussian quadrature",
-          "Adaptive quadrature",
-          "Romberg integration",
-          "Monte Carlo integration",
-          "Quasi-Monte Carlo methods",
-          "Multidimensional integration",
-          "Numerical differentiation",
-          "Richardson extrapolation",
-          "Automatic differentiation",
-          "Complex step differentiation",
-          "Applications to optimization"
-        ],
-        "projects": [
-          "Adaptive integrator",
-          "Monte Carlo simulator",
-          "Automatic differentiation engine"
-        ],
-        "practice": "Compare 20 integration methods"
-      },
-      "week_94_95": {
-        "title": "Numerical Optimization",
-        "topics": [
-          "Unconstrained optimization",
-          "Gradient descent variants",
-          "Newton's method for optimization",
-          "Quasi-Newton methods: BFGS, L-BFGS",
-          "Conjugate gradient for optimization",
-          "Trust region methods",
-          "Line search strategies",
-          "Constrained optimization",
-          "Lagrange multipliers numerical",
-          "Penalty and barrier methods",
-          "Interior point methods",
-          "Sequential quadratic programming"
-        ],
-        "projects": [
-          "Optimization algorithm suite",
-          "Convergence visualizer",
-          "Constraint handler"
-        ],
-        "practice": "Solve 50 optimization problems numerically"
-      },
-      "week_96": {
-        "title": "Fast Algorithms",
-        "topics": [
-          "Fast Fourier Transform (FFT)",
-          "Fast multiplication algorithms",
-          "Fast matrix multiplication",
-          "Divide and conquer strategies",
-          "Multigrid methods",
-          "Fast multipole method",
-          "Hierarchical matrices",
-          "Randomized algorithms",
-          "Compressed sensing basics",
-          "Sparse recovery",
-          "Low-rank approximations",
-          "Tensor decompositions"
-        ],
-        "projects": [
-          "FFT implementation",
-          "Fast algorithm library",
-          "Compression tool"
-        ],
-        "practice": "Implement 15 fast algorithms"
-      }
-    },
-    "month_23": {
-      "title": "Month 23: Mathematical Modeling & Applications",
-      "weeks": "Week 97-100",
-      "week_97": {
-        "title": "Mathematical Biology",
-        "topics": [
-          "Population dynamics models",
-          "Predator-prey systems",
-          "Competition models",
-          "Epidemic models: SIR, SEIR",
-          "Age-structured models",
-          "Spatial models and diffusion",
-          "Pattern formation in biology",
-          "Biochemical networks",
-          "Neural models",
-          "Evolutionary game theory",
-          "Phylogenetic trees",
-          "Systems biology approaches"
-        ],
-        "projects": [
-          "Epidemic simulator",
-          "Population dynamics tool",
-          "Pattern formation in biology"
-        ],
-        "practice": "Model 20 biological systems"
-      },
-      "week_98": {
-        "title": "Mathematical Finance",
-        "topics": [
-          "Time value of money",
-          "Portfolio theory",
-          "CAPM model",
-          "Options and derivatives",
-          "Black-Scholes equation",
-          "Greeks and hedging",
-          "Monte Carlo methods in finance",
-          "Interest rate models",
-          "Credit risk models",
-          "Value at Risk",
-          "Stochastic volatility",
-          "Jump diffusion models"
-        ],
-        "projects": [
-          "Option pricer",
-          "Portfolio optimizer",
-          "Risk calculator"
-        ],
-        "practice": "Implement 20 financial models"
-      },
-      "week_99": {
-        "title": "Data Science Mathematics",
-        "topics": [
-          "Principal component analysis",
-          "Singular value decomposition applications",
-          "Matrix factorizations for data",
-          "Kernel methods",
-          "Support vector machines math",
-          "Neural network mathematics",
-          "Backpropagation derivation",
-          "Optimization in machine learning",
-          "Regularization theory",
-          "Statistical learning theory",
-          "Information theory basics",
-          "Compressed sensing applications"
-        ],
-        "projects": [
-          "PCA implementation",
-          "Neural network from scratch",
-          "Dimensionality reduction toolkit"
-        ],
-        "practice": "Implement 15 data science algorithms"
-      },
-      "week_100": {
-        "title": "Fluid Dynamics & Continuum Mechanics",
-        "topics": [
-          "Conservation laws in fluids",
-          "Navier-Stokes equations",
-          "Potential flow",
-          "Boundary layers",
-          "Turbulence introduction",
-          "Computational fluid dynamics basics",
-          "Elasticity theory",
-          "Stress and strain tensors",
-          "Constitutive equations",
-          "Wave propagation in solids",
-          "Fracture mechanics basics",
-          "Multiphysics modeling"
-        ],
-        "projects": [
-          "Flow simulator",
-          "Stress analysis tool",
-          "Wave propagation visualizer"
-        ],
-        "practice": "Solve 20 continuum mechanics problems"
-      }
-    },
-    "month_24": {
-      "title": "Month 24: Research & Career Preparation",
-      "weeks": "Week 101-104",
-      "week_101_102": {
-        "title": "Mathematical Research Project",
-        "topics": [
-          "Choosing research topic",
-          "Literature review methods",
-          "Research question formulation",
-          "Mathematical writing",
-          "LaTeX for mathematics",
-          "Proof techniques review",
-          "Computational experiments",
-          "Data visualization for mathematics",
-          "Collaboration tools",
-          "Version control for research",
-          "Presenting mathematics",
-          "Peer review process"
-        ],
-        "projects": [
-          "FINAL CAPSTONE: Original Research Project",
-          "Complete research paper (10-20 pages)",
-          "Implementation of novel algorithm",
-          "Mathematical software package"
-        ]
-      },
-      "week_103": {
-        "title": "Advanced Topics Seminar",
-        "topics": [
-          "Algebraic geometry introduction",
-          "Differential geometry basics",
-          "Lie groups and Lie algebras",
-          "Representation theory",
-          "Category theory basics",
-          "Homological algebra",
-          "K-theory introduction",
-          "Operator theory",
-          "Harmonic analysis",
-          "Ergodic theory",
-          "Mathematical physics topics",
-          "Current research areas"
-        ],
-        "deliverables": [
-          "Seminar presentation",
-          "Advanced topic exploration paper",
-          "Reading list compilation",
-          "Research proposal for graduate studies"
-        ]
-      },
-      "week_104": {
-        "title": "Career Paths & Future Learning",
-        "topics": [
-          "Graduate school preparation",
-          "GRE Mathematics subject test",
-          "Research opportunities",
-          "Industry applications of mathematics",
-          "Quantitative careers overview",
-          "Academic career paths",
-          "Mathematical consulting",
-          "Teaching mathematics",
-          "Open problems in mathematics",
-          "Mathematical communities",
-          "Conferences and workshops",
-          "Lifelong learning in mathematics"
-        ],
-        "deliverables": [
-          "Complete portfolio of work",
-          "Graduate school application materials",
-          "Professional website/blog",
-          "Network of mathematical contacts",
-          "Personal mathematics library",
-          "Future learning roadmap"
-        ],
-        "assessment": "FINAL COMPREHENSIVE EXAM - Complete undergraduate mathematics"
-      }
-    }
-  },
-  "faqs": [
-    {
-      "question": "What does the College Mathematics Masterclass actually cover?",
-      "answer": "The program runs 24 months across four phases: single variable calculus, linear algebra and proof writing first; then multivariable calculus, differential equations, discrete mathematics and probability; then real analysis, abstract algebra, topology and complex analysis; and finally applied topics like PDEs, numerical analysis and optimization with a research style project. It is a complete undergraduate level mathematics pathway taught live."
-    },
-    {
-      "question": "Who is this course designed for?",
-      "answer": "It fits three groups well: school leavers heading into engineering, science or economics degrees who want a head start; current undergraduates who need stronger theory and proof skills than their college lectures provide; and working professionals returning to serious mathematics. Pace and depth are matched to your goals in the first month."
-    },
-    {
-      "question": "What are the prerequisites?",
-      "answer": "Comfortable high school mathematics, including algebra and basic trigonometry at pre-calculus level. Programming helps with the computational topics but is not required, and access to the mathematical software we use is provided. A diagnostic in the first sessions confirms the right starting point."
-    },
-    {
-      "question": "How is progress measured across such a long program?",
-      "answer": "Through weekly problem sets, proof write-ups reviewed line by line, and end of phase assessments that must be secure before the next phase begins. Your mentor keeps a running record of solved problems and completed proofs, so you can see exactly what has been mastered."
-    },
-    {
-      "question": "Is this useful preparation for graduate school?",
-      "answer": "Yes. The phase 3 and phase 4 material, real analysis, abstract algebra, topology and PDEs, is the standard core that mathematics and quantitative graduate programs expect. The final months also include research style projects and guidance on presenting mathematical work."
-    },
-    {
-      "question": "What does the course cost?",
-      "answer": "In India, group classes are ₹1,499 per month with 2 classes per week, a mini batch is ₹2,999 per month, and personal 1-on-1 mentorship is ₹4,999 per month. International students join the premium maths track at a price set for their own country, group or private."
-    },
-    {
-      "question": "Can I try a class before committing?",
-      "answer": "Yes, every student starts with a free demo class booked at learn.modernagecoders.com/contact, with no commitment and no payment details required. The demo doubles as a level check so we can recommend the right starting phase. You can also reach us on WhatsApp at +91 91233 66161."
-    },
-    {
-      "question": "Are the classes live or recorded lectures?",
-      "answer": "Every class is a live one hour online session with a real teacher, never a pre-recorded video. Groups are kept small so you can ask questions mid-proof, and sessions are interactive: you solve and explain, and the mentor corrects the thinking, not just the answer."
-    },
-    {
-      "question": "Do I get a certificate at the end?",
-      "answer": "Yes, you receive a completion certificate from Modern Age Coders along with a portfolio record of the proofs, problem sets and projects you completed. Families consistently rate this teaching approach highly: we hold 4.9 stars from 547+ Google reviews."
-    }
-  ],
   "additional_learning_resources": {
     "projects_throughout_course": [
-      "Phase 1: Calculus visualizers, Linear algebra tools, Proof portfolio",
-      "Phase 2: ODE solvers, Graph algorithms, Statistical analysis suite, Probability simulators",
-      "Phase 3: Metric space explorers, Algebra structure analyzers, Topology visualizers, Complex function tools",
-      "Phase 4: PDE solvers, Numerical libraries, Mathematical models, Original research"
+      "Track 1: applied optimization studies, an eigenvalue applications mini-project, and a proof portfolio",
+      "Track 2: an ODE modeling project, graph theory applications, and a full statistical inference study on real data",
+      "Track 3: a theorem capstone, reconstructed and presented, plus a growing portfolio of original proof write-ups"
     ],
-    "total_projects_built": "150+ mathematical projects and implementations",
+    "total_projects_built": "A year-long problem-set portfolio per track, plus one substantial capstone project each",
     "skills_mastered": [
-      "Analysis: Real, Complex, Functional, Harmonic, Measure Theory basics",
-      "Algebra: Linear, Abstract, Commutative, Galois Theory, Representation Theory intro",
-      "Topology: Point-set, Algebraic basics, Differential Geometry intro",
-      "Applied: ODEs, PDEs, Numerical Analysis, Optimization, Mathematical Modeling",
-      "Discrete: Combinatorics, Graph Theory, Number Theory, Logic, Set Theory",
-      "Probability & Statistics: Measure-theoretic probability, Statistical inference, Stochastic processes",
-      "Computation: Scientific computing, Algorithm analysis, Symbolic computation",
-      "Proof Writing: Direct, Contradiction, Induction, Analysis proofs, Algebraic proofs",
-      "Research: Literature review, Problem formulation, Mathematical writing, Presentation"
+      "Calculus: limits through multivariable, computed fluently and understood geometrically",
+      "Linear algebra: from solving systems to eigenvalues, vector spaces and transformations",
+      "Differential equations: first and higher order ODEs, Laplace methods, and real modeling judgment",
+      "Discrete mathematics: sets, combinatorics, graphs, number theory and logic",
+      "Probability and statistics: distributions, limit theorems and honest statistical inference",
+      "Real analysis: rigorous limits, continuity, differentiation and Riemann integration",
+      "Abstract algebra: groups, rings and fields, with the structural thinking they train",
+      "Proof craft: reading, writing and presenting mathematics like a mathematician"
     ],
     "weekly_structure": {
-      "theory_lectures": "8-10 hours",
-      "problem_solving": "8-10 hours",
-      "proofs_practice": "3-4 hours",
-      "computational_work": "2-3 hours",
-      "reading_research": "2-3 hours",
-      "total_per_week": "20-25 hours"
-    },
-    "support_provided": {
-      "office_hours": "Weekly virtual office hours with instructors",
-      "peer_collaboration": "Study groups and peer review",
-      "mentorship": "Research mentorship for advanced students",
-      "tutoring": "TA support for challenging topics",
-      "resources": "Access to mathematical software and journals",
-      "community": "Active mathematical community forum"
+      "live_classes": "2 live classes per week, problems worked together, not lectured at",
+      "homework": "A problem set after every class, and a monthly mixed review that reaches back deliberately",
+      "practice": "4-6 hours of graded problem practice between classes",
+      "review": "Every set marked with written feedback; recurring weaknesses reopened in class"
     },
     "certification": {
-      "phase_certificates": "Certificate after each phase completion",
-      "final_certificate": "Advanced Mathematics Proficiency Certificate",
-      "transcript": "Detailed transcript of all courses",
-      "recommendation": "Letters of recommendation available",
-      "portfolio": "Professional portfolio of mathematical work"
+      "completion": "A track certificate at the end of each track, awarded on passing the track exam. Fall short and there is focused revision and a free retest: the certificate certifies knowledge, not attendance"
+    },
+    "support_provided": {
+      "doubt_support": "WhatsApp doubt support between classes, for the proof that refuses to close at midnight",
+      "progress_updates": "Honest monthly progress reviews: what is solid, what is wobbly, and the plan for the wobble"
     }
   },
   "prerequisites": {
-    "mathematics": "High school mathematics including pre-calculus",
-    "recommended": "Basic trigonometry and algebra II",
-    "programming": "Basic programming helpful but not required",
-    "equipment": "Computer with internet, mathematical software access provided",
-    "time_commitment": "20-25 hours per week minimum",
-    "mindset": "Strong commitment to rigorous thinking"
+    "maths_background": "Track 1 assumes school mathematics (Class 12 or equivalent). Tracks 2 and 3 assume the earlier track or its university equivalent; placement checks this honestly",
+    "equipment": "A computer or tablet with a stable internet connection; paper and pen remain the real tools",
+    "age": "College and university students, and returning learners rebuilding their mathematics",
+    "time_commitment": "2 live classes plus 4-6 hours of problem practice a week"
   },
   "who_is_this_for": {
-    "undergraduates": "Mathematics, physics, engineering, CS students",
-    "self_learners": "Motivated individuals pursuing mathematical knowledge",
-    "professionals": "Engineers, data scientists, quantitative analysts",
-    "graduate_prep": "Students preparing for graduate studies",
-    "career_changers": "Transitioning to quantitative fields",
-    "educators": "Teachers seeking deeper mathematical understanding",
-    "researchers": "Those interested in mathematical research"
+    "engineering_students": "First and second years drowning in the calculus-to-ODEs pipeline their branch assumes",
+    "bsc_msc_students": "Mathematics majors who want analysis and algebra taught with patience the lecture hall never has",
+    "placement_aspirants": "Students strengthening the quantitative core for data science and analytics paths",
+    "returning_learners": "Graduates and professionals rebuilding real mathematics for research or higher study",
+    "proof_beginners": "Anyone hitting the proofs wall for the first time and wanting to climb it properly"
   },
   "career_paths_after_completion": [
-    "Graduate Studies in Mathematics/Applied Mathematics",
-    "Data Scientist/Machine Learning Engineer",
-    "Quantitative Analyst/Financial Engineer",
-    "Research Mathematician",
-    "Software Engineer (Algorithms/Theory)",
-    "Actuary",
-    "Operations Research Analyst",
-    "Cryptographer",
-    "Mathematical Consultant",
-    "University Professor/Lecturer"
+    "Graduate study: Track 3 is precisely the core masters admissions and entrance tests assume",
+    "Data science and machine learning: the linear algebra, probability and optimization this program builds is the honest prerequisite",
+    "Quantitative finance and analytics: probability and methods from Track 2 carry directly",
+    "Research foundations: proof craft and analysis are the entry ticket to serious mathematics",
+    "Teaching and mentoring: mathematics understood deeply enough to explain simply"
   ],
   "graduate_school_preparation": {
     "gre_prep": "Complete GRE Mathematics Subject Test preparation",
@@ -1641,9 +1115,52 @@
   "course_guarantees": {
     "live_classes": "Live, interactive classes with a real instructor, never pre-recorded videos.",
     "small_batches": "Small batches only: group classes are capped at 10 students, with mini-batch (3 to 4 students) and personal 1-on-1 options.",
-    "structured_curriculum": "A structured, well-paced curriculum taught step by step, with hands-on practice in every session.",
+    "structured_curriculum": "A structured, well-paced curriculum taught step by step, with classwork in every session and problem sets after every class.",
+    "real_assessment": "Monthly mixed reviews and a track exam that decides each certificate: real knowledge, real proofs.",
     "doubt_support": "Doubt support between classes over WhatsApp, so you are never left stuck.",
-    "certificate": "A course-completion certificate you can share.",
+    "certificate": "Track certificates you earn by passing track exams, with a free retest after revision if needed.",
     "free_demo": "A free demo class before you enrol, so you can decide with no pressure."
-  }
+  },
+  "faqs": [
+    {
+      "question": "What does the College Mathematics program cover?",
+      "answer": "The undergraduate core, mapped into three academic-year tracks. Track 1: single-variable calculus, linear algebra, proof writing and multivariable calculus. Track 2: multiple integration, ordinary differential equations with Laplace transforms, discrete mathematics, and probability and statistics. Track 3: real analysis, abstract algebra, topology and complex analysis. You join the track and month that match your current syllabus, not a fixed conveyor belt."
+    },
+    {
+      "question": "Which track should I join?",
+      "answer": "A short diagnostic and a conversation about your current semester decide it. Engineering first-years usually land in Track 1, second-years facing ODEs and probability in Track 2, and BSc mathematics students meeting analysis and algebra in Track 3. Since each track is joinable any month, you can also enter mid-track exactly where your university syllabus is hurting."
+    },
+    {
+      "question": "How long does each track take?",
+      "answer": "One academic year: 10 months at 2 live classes a week plus 4 to 6 hours of problem practice, with up to 12 months for students who need more, the margin is built in deliberately. Nobody needs all three tracks at once; most students take the track their degree is currently testing them on."
+    },
+    {
+      "question": "How is progress measured? Is the certificate just for attending?",
+      "answer": "No. Problem sets follow every class and come back marked with written feedback, monthly reviews deliberately mix current topics with earlier ones so nothing fades, and each track ends with a real exam, computational and proof-based, that decides the track certificate. Falling short earns a focused revision plan and a free retest. We optimize for real mathematical knowledge, not attendance."
+    },
+    {
+      "question": "I am scared of proofs. Is this course for me?",
+      "answer": "Especially for you. Proof writing is taught as its own skill starting in Track 1, with intuition drawn first and rigor layered on: read proofs, complete proofs with gaps, then write your own with line-by-line feedback. Most students who fear proofs were simply never taught them as a craft; the fear rarely survives a term of doing it properly."
+    },
+    {
+      "question": "Can this run alongside my university semester?",
+      "answer": "That is the design. The tracks mirror standard BSc and engineering syllabi, so the class becomes structured reinforcement of exactly what your lectures assume. For tight semester alignment, the 1-on-1 option follows your university’s syllabus and past papers directly."
+    },
+    {
+      "question": "Is this useful preparation for graduate school?",
+      "answer": "Yes, concretely: Track 3’s analysis and algebra are the core that masters admissions, entrance tests and first-year graduate courses assume, and the proof portfolio built across the program is exactly the muscle those programs test. The pure-mathematics emphasis is deliberate; methods without rigor stop working at the graduate gate."
+    },
+    {
+      "question": "What does the course cost?",
+      "answer": "Group classes are ₹1,499 per month, with 2 live classes a week in batches capped at 10 students. A mini batch of 3-4 students is ₹2,999 per month, and personal 1-on-1 classes are ₹4,999 per month. International students pay a price set for their own country, shown on this page in their local currency."
+    },
+    {
+      "question": "Can I try a class before committing?",
+      "answer": "Yes, a free demo class with no commitment: book at learn.modernagecoders.com/contact or message us on WhatsApp at +91 91233 66161. Bring your current problem set; the demo is most useful when it works on your actual mathematics."
+    },
+    {
+      "question": "Are the classes live or recorded lectures?",
+      "answer": "Live, always: small groups where problems are worked together and your written mathematics gets read and corrected in real time, never pre-recorded lectures. Mathematics at this level is learned by doing under feedback; recordings cannot mark your proof."
+    }
+  ]
 }
