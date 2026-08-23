@@ -112,6 +112,7 @@ const MARKETS = [
   ['coding-classes-in-jalan-bani-bu-hassan',          'Jalan Bani Bu Hassan, Ash Sharqiyah South, Oman'],
   ['coding-classes-in-bidiyah',                       'Bidiyah, Ash Sharqiyah North, Oman'],
   ['coding-classes-in-al-kamil-wal-wafi',             'Al Kamil Wal Wafi, Ash Sharqiyah South, Oman'],
+  ['coding-classes-in-bidbid',                        'Bidbid, Ad Dakhiliyah, Oman'],
   // Brunei cluster: the country plus its four districts
   ['coding-classes-in-brunei',                    'Brunei Darussalam'],
   ['coding-classes-in-bandar-seri-begawan',       'Bandar Seri Begawan, Brunei'],

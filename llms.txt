@@ -400,6 +400,7 @@ USD 100 a month small group, USD 150 a month one to one.
 - Jalan Bani Bu Hassan, Ash Sharqiyah South, Oman: https://learn.modernagecoders.com/coding-classes-in-jalan-bani-bu-hassan
 - Bidiyah, Ash Sharqiyah North, Oman: https://learn.modernagecoders.com/coding-classes-in-bidiyah
 - Al Kamil Wal Wafi, Ash Sharqiyah South, Oman: https://learn.modernagecoders.com/coding-classes-in-al-kamil-wal-wafi
+- Bidbid, Ad Dakhiliyah, Oman: https://learn.modernagecoders.com/coding-classes-in-bidbid
 ## International Country Pages
 
 - United States: https://learn.modernagecoders.com/coding-classes-in-united-states

@@ -3073,5 +3073,41 @@
       "The governorate given by a third source. One reference placed this wilayat in Ash Sharqiyah North. Two others place it in the South and those two are followed, with the disagreement stated on the page rather than concealed.",
       "A count of the wilayat's settlements stated as exact. The published figure is about 40 clusters and the word about is kept everywhere it appears."
     ]
+  },
+  "coding-classes-in-bidbid": {
+    "market": "Bidbid, Ad Dakhiliyah",
+    "bodyClass": "cg-bdb",
+    "curriculumAuthority": "Oman Ministry of Education, General Education Diploma. The page argues from the wilayat's settlement pattern rather than from curriculum: towers scattered across villages nobody has finished counting means learners scattered the same way, and a lesson delivered over a connection is what reaches all of them equally.",
+    "localProject": "A rate built on a denominator nobody published. Bidbid's 40 towers are recorded; the number of villages is not. Across plausible village counts from 8 to 35 the towers-per-village rate runs from 5.00 to 1.14, a 4.4-fold spread in which every value is arithmetically correct. Assigned to this page and no other; deliberately not a text-matching fault, to keep it clear of the substring and spelling-variant projects on neighbouring pages.",
+    "requiredMentions": [
+      "Bidbid Fort",
+      "40 towers",
+      "Fanja",
+      "Falaj Al Rahah",
+      "Falaj Al Hakka",
+      "Eastern Hammam Falaj",
+      "palm tree trunks",
+      "Wadi Fanja",
+      "handicrafts"
+    ],
+    "sources": [
+      {
+        "claim": "Bidbid Fort was among the first restored with local construction materials including palm tree trunks supporting parts of the roof; the wilayat includes 40 towers scattered in different villages, a wadi dividing its banks into two parts, and aflaj including the Eastern Hammam Falaj, a western hot falaj from the mountain heights, Falaj Al Rahah and Falaj Al Hakka.",
+        "url": "https://www.omanobserver.om/article/74294/Oman/wilayat-of-bidbid---where-time-stands-still"
+      },
+      {
+        "claim": "People come to Fanja's souq from neighbouring villages as buyers and sellers of locally made handicrafts.",
+        "url": "https://gulfmagazine.co/fanja-a-timeless-oasis-waiting-to-be-explored/"
+      },
+      {
+        "claim": "Bidbid is a wilayat of the Ad Dakhiliyah governorate of Oman.",
+        "url": "https://en.wikipedia.org/wiki/Bidbid"
+      }
+    ],
+    "rejectedClaims": [
+      "A village count for Bidbid, which is the whole point of the page. No source consulted gives one, so no towers-per-village rate is stated as fact anywhere and the six values in the project table are labelled assumptions in the table itself.",
+      "A population for the wilayat. No census table could be traced in this session, so none appears.",
+      "Fanja's governorate as given by one population database, whose own pages place Fanja under Bidbid in more than one governorate. Bidbid is a wilayat of Ad Dakhiliyah; the disagreement is described on the page as evidence rather than repeated as fact."
+    ]
   }
 }
