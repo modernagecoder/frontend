@@ -51,7 +51,7 @@
       "avatar": "https://placehold.co/80x80/8A2BE2/FFFFFF?text=MAC"
     },
     "date": "2026-05-10",
-    "dateModified": "2026-05-10",
+    "dateModified": "2026-08-23",
     "tags": [
       "Hackathon",
       "Adults",
@@ -70,11 +70,11 @@
   "program_overview": {
     "title": "Hackathon for Adults & Professionals, Build Something Worth Building",
     "tagline": "Free hackathon for everyone. Pro-grade prep for those who want to build at production scale.",
-    "description": "Hackathon for Adults & Professionals is a free-to-enter hackathon and a 12-week pro-grade prep course at Modern Age Coders, designed for working professionals, career switchers, founders, students 18+, and anyone who has ever said 'I wish I could just build that idea myself.'\n\nThe hackathon participation is 100% free, no fee, no employer endorsement needed. You can be a software engineer, a product manager, a designer, a marketer, a teacher, a doctor, a small-business owner, or a fresh graduate. If you're 18+ and want to build, you're in.\n\nOur only motive: build something great. Build something innovative. Use coding logic, efficient algorithms, AI agents and modern infrastructure to ship real production software in 48 hours that solves a problem people would actually pay for.\n\nThe optional 12-week Pro Prep Course is for adults who want to walk into a hackathon (or a startup) with deep, current technical fluency. It is priced the same as our other professional courses, Group ₹1,499/mo, Mini Batch ₹2,999/mo, or 1-on-1 ₹4,999/mo.\n\nThe curriculum is dense and modern. We cover full-stack engineering with Next.js 16 + Server Actions + Cache Components, distributed system design, AI agents with tool calling and durable workflows, RAG pipelines with vector databases, prompt engineering with Claude / GPT-4o / Gemini 2, observability, security, and shipping to production on Vercel / AWS / Cloudflare. We also cover the soft skills that actually matter, scoping under time pressure, founder-grade pitching, sponsor relationship management, and demo storytelling.\n\nBy Week 12, every participant has a polished GitHub portfolio, a deployed capstone with paying-customer-ready quality, a 3-minute investor-style pitch video, and competes in the Live Modern Age Coders Pro Hackathon Weekend with sponsor prizes (cloud credits, API credits, mentor calls, and cash awards).",
+    "description": "Hackathon for Adults & Professionals is a free-to-enter hackathon and a 12-week pro-grade prep course at Modern Age Coders, designed for working professionals, career switchers, founders, students 18+, and anyone who has ever said 'I wish I could just build that idea myself.'\n\nThe hackathon participation is 100% free, no fee, no employer endorsement needed. You can be a software engineer, a product manager, a designer, a marketer, a teacher, a doctor, a small-business owner, or a fresh graduate. If you're 18+ and want to build, you're in.\n\nOur only motive: build something great. Build something innovative. Use coding logic, efficient algorithms, AI agents and modern infrastructure to ship real production software in 48 hours that solves a problem people would actually pay for.\n\nThe optional 12-week Pro Prep Course is for adults who want to walk into a hackathon (or a startup) with deep, current technical fluency. It is priced the same as our other professional courses, Group ₹1,499/mo, Mini Batch ₹2,999/mo, or 1-on-1 ₹4,999/mo.\n\nThe curriculum is dense and modern. We cover full-stack engineering with Next.js 16 + Server Actions + Cache Components, distributed system design, AI agents with tool calling and durable workflows, RAG pipelines with vector databases, prompt engineering with frontier models (Claude-class, GPT-class, Gemini-class), observability, security, and shipping to production on Vercel / AWS / Cloudflare. We also cover the soft skills that actually matter, scoping under time pressure, founder-grade pitching, sponsor relationship management, and demo storytelling.\n\nBy Week 12, every participant has a polished GitHub portfolio, a deployed capstone with paying-customer-ready quality, a 3-minute investor-style pitch video, and competes in the Live Modern Age Coders Pro Hackathon Weekend with sponsor prizes (cloud credits, API credits, mentor calls, and cash awards).",
     "what_makes_this_different": [
       "Free hackathon participation, anyone 18+ can register at zero cost",
       "Prep course priced same as other Modern Age Coders professional programs",
-      "Built for working adults, evening and weekend live sessions, all recorded",
+      "Built for working adults: evening and weekend live sessions with structured catch-up support",
       "Curriculum led by senior engineers, ex-CTOs and YC-alumni founders",
       "Modern 2026 stack: Next.js 16, Server Actions, AI SDK, Workflow DevKit, Vercel Sandbox",
       "AI Agents focus, tool calling, multi-step workflows, durable execution",
@@ -101,7 +101,7 @@
       "REST and tRPC API design",
       "Authentication: Clerk, Auth0, magic links, OAuth, RBAC",
       "AI SDK (Vercel AI SDK), text, tools, agents, streaming",
-      "AI APIs: Claude 4.7, GPT-4o, Gemini 2.5, tradeoffs and cost models",
+      "AI APIs: frontier model families (Claude-class, GPT-class, Gemini-class), tradeoffs and cost models",
       "Tool calling, multi-step agents, durable workflows (Vercel WDK)",
       "RAG pipelines: chunking, embeddings, hybrid search, reranking, eval",
       "Vector databases: pgvector, Pinecone, Weaviate, Qdrant",
@@ -132,7 +132,7 @@
       "Pinecone, Weaviate, Qdrant",
       "Vercel + Vercel AI SDK + Vercel Workflow DevKit + Vercel Sandbox",
       "AWS (Lambda, S3, RDS), Cloudflare (Workers, D1, R2)",
-      "Anthropic Claude 4.7, OpenAI GPT-4o, Google Gemini 2.5",
+      "Anthropic Claude-class frontier models, OpenAI GPT-class frontier models, Google Gemini-class frontier models",
       "Cursor AI, Replit Agent, Bolt.new, GitHub Copilot",
       "Postman / Hoppscotch",
       "Sentry, Datadog, OpenTelemetry",
@@ -243,7 +243,7 @@
       "title": "Week 5: AI APIs & The Vercel AI SDK, Stream, Cache, Cost-Manage",
       "theme": "Production AI Engineering",
       "topics": [
-        "Anthropic Claude 4.7, OpenAI GPT-4o, Google Gemini 2.5, tradeoffs",
+        "Anthropic Claude-class frontier models, OpenAI GPT-class frontier models, Google Gemini-class frontier models, tradeoffs",
         "Vercel AI SDK fundamentals: generateText, streamText, tools",
         "Streaming responses to UI with React Suspense",
         "Prompt caching with Anthropic, 90% cost reduction",
@@ -438,7 +438,7 @@
     "what_the_paid_prep_includes": [
       "Same monthly pricing as our other professional courses (Group ₹1,499/mo, Mini Batch ₹2,999/mo, 1-on-1 ₹4,999/mo)",
       "12 weeks of structured pro-grade curriculum",
-      "Live evening + weekend classes + recorded replays",
+      "Live evening and weekend classes with structured catch-up support",
       "1-on-1 mentor matching for capstone (senior engineers / founders)",
       "Founder-grade pitch lab with VC-style critique",
       "Pro Hackathon Builder certification",
@@ -469,11 +469,11 @@
     },
     {
       "question": "What's the time commitment?",
-      "answer": "Plan for 8-10 hours weekly: 2 live sessions (2 hours each, evenings or weekends), 4 hours of independent project work, and 1-2 hours for the weekly pro hackathon-style challenge. All sessions are recorded for working professionals who can't always attend live."
+      "answer": "Plan for 8-10 hours weekly: 2 live sessions (2 hours each, evenings or weekends), 4 hours of independent project work, and 1-2 hours for the weekly pro hackathon-style challenge. Small batches make missed classes easy to recover: the mentor recaps in the next session, notes and the week’s challenge are shared over WhatsApp, and longer absences get a short free catch-up slot. for working professionals who can't always attend live."
     },
     {
       "question": "What stack will I learn?",
-      "answer": "The 2026 modern stack: Python 3.12 + TypeScript 5, Next.js 16 (App Router + Cache Components), Tailwind + shadcn/ui, Supabase / Postgres / Redis / pgvector, Vercel AI SDK + Workflow DevKit + Sandbox, Anthropic Claude 4.7 / OpenAI GPT-4o / Gemini 2.5, plus AWS / Cloudflare for production deployment. Cursor and AI agents are first-class throughout."
+      "answer": "The 2026 modern stack: Python 3.12 + TypeScript 5, Next.js 16 (App Router + Cache Components), Tailwind + shadcn/ui, Supabase / Postgres / Redis / pgvector, Vercel AI SDK + Workflow DevKit + Sandbox, Anthropic Claude-class frontier models / OpenAI GPT-class frontier models / Gemini-class frontier models, plus AWS / Cloudflare for production deployment. Cursor and AI agents are first-class throughout."
     },
     {
       "question": "Will this help me switch careers into tech?",
@@ -597,7 +597,8 @@
     "structured_curriculum": "A structured, well-paced curriculum taught step by step, with hands-on practice in every session.",
     "doubt_support": "Doubt support between classes over WhatsApp, so you are never left stuck.",
     "certificate": "A course-completion certificate you can share.",
-    "free_demo": "A free demo class before you enrol, so you can decide with no pressure."
+    "free_demo": "A free demo class before you enrol, so you can decide with no pressure.",
+    "real_assessment": "Weekly build challenges, a judged final hackathon, and honest feedback at every stage: real projects, really shipped."
   },
   "relatedCourses": [
     "vibe-coding-for-college-fullstack-ai-dsa-career-course",

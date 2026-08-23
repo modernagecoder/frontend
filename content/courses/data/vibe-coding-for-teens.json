@@ -44,7 +44,7 @@
       "avatar": "https://placehold.co/80x80/8A2BE2/FFFFFF?text=MAC"
     },
     "date": "2026-03-01",
-    "dateModified": "2026-03-17",
+    "dateModified": "2026-08-23",
     "tags": [
       "Vibe Coding",
       "Teens",
@@ -405,7 +405,7 @@
         "GitHub Copilot Chat, asking your AI pair programmer questions about your code",
         "Prompt engineering for code: writing clear, specific prompts that get better results",
         "AI for text: summarization, sentiment analysis, translation",
-        "Image generation API basics (DALL-E / Stable Diffusion)",
+        "Image generation API basics with teen-legal tools (Firefly and Bing Image Creator APIs, concepts first)",
         "Comparing AI models: Claude Sonnet (best for code), GPT-4, Gemini, which to use when",
         "AI ethics for teen developers, bias, transparency, and responsibility"
       ],
@@ -598,7 +598,7 @@
       "portfolio": "12+ completed projects + professional developer portfolio website"
     },
     "support_provided": {
-      "live_instruction": "Expert-led live classes with recorded replays",
+      "live_instruction": "Expert-led live classes, never pre-recorded videos",
       "code_reviews": "1-on-1 code reviews with instructors",
       "peer_coding": "Collaborative coding sessions with classmates",
       "community": "Access to Modern Age Coders teen developer community",
@@ -635,7 +635,8 @@
     "structured_curriculum": "A structured, well-paced curriculum taught step by step, with hands-on practice in every session.",
     "doubt_support": "Doubt support between classes over WhatsApp, so you are never left stuck.",
     "certificate": "A course-completion certificate you can share.",
-    "free_demo": "A free demo class before you enrol, so you can decide with no pressure."
+    "free_demo": "A free demo class before you enrol, so you can decide with no pressure.",
+    "real_assessment": "Weekly build challenges and a final showcase project: real builds, really shipped."
   },
   "relatedCourses": [
     "vibe-coding-for-kids-beginners-ai-scratch-game-dev",

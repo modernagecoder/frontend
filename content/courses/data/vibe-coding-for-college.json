@@ -46,7 +46,7 @@
       "avatar": "https://placehold.co/80x80/8A2BE2/FFFFFF?text=MAC"
     },
     "date": "2026-03-01",
-    "dateModified": "2026-03-17",
+    "dateModified": "2026-08-23",
     "tags": [
       "Vibe Coding",
       "College",
@@ -712,7 +712,8 @@
     "structured_curriculum": "A structured, well-paced curriculum taught step by step, with hands-on practice in every session.",
     "doubt_support": "Doubt support between classes over WhatsApp, so you are never left stuck.",
     "certificate": "A course-completion certificate you can share.",
-    "free_demo": "A free demo class before you enrol, so you can decide with no pressure."
+    "free_demo": "A free demo class before you enrol, so you can decide with no pressure.",
+    "real_assessment": "Weekly build challenges and a final showcase project: real builds, really shipped."
   },
   "relatedCourses": [
     "vibe-coding-for-teens-python-web-ai-projects-course",

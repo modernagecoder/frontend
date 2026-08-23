@@ -48,7 +48,7 @@
       "avatar": "https://placehold.co/80x80/8A2BE2/FFFFFF?text=MAC"
     },
     "date": "2026-05-10",
-    "dateModified": "2026-05-10",
+    "dateModified": "2026-08-23",
     "tags": [
       "Hackathon",
       "Teens",
@@ -430,7 +430,7 @@
     "what_the_paid_prep_includes": [
       "Same monthly pricing as our other teen courses (Group ₹1,499/mo, Mini Batch ₹2,999/mo, 1-on-1 ₹4,999/mo)",
       "12 weeks of structured curriculum",
-      "Live classes + recorded replays",
+      "Live classes with structured catch-up support",
       "1-on-1 mentor matching for capstone",
       "Pitch lab with senior coaches",
       "Teen Hackathon Builder certification",
@@ -456,7 +456,7 @@
     },
     {
       "question": "What is the time commitment per week?",
-      "answer": "6-8 hours weekly: 2 live classes (1.5-2 hours each), 3-4 hours of independent project work, plus 1 hour for the weekly hackathon-style challenge. All sessions are recorded."
+      "answer": "6-8 hours weekly: 2 live classes (1.5-2 hours each), 3-4 hours of independent project work, plus 1 hour for the weekly hackathon-style challenge. Small batches make missed classes easy to recover: the mentor recaps in the next session, notes and the week’s challenge are shared over WhatsApp, and longer absences get a short free catch-up slot."
     },
     {
       "question": "What does my teen build by the end?",
@@ -569,7 +569,8 @@
     "structured_curriculum": "A structured, well-paced curriculum taught step by step, with hands-on practice in every session.",
     "doubt_support": "Doubt support between classes over WhatsApp, so you are never left stuck.",
     "certificate": "A course-completion certificate you can share.",
-    "free_demo": "A free demo class before you enrol, so you can decide with no pressure."
+    "free_demo": "A free demo class before you enrol, so you can decide with no pressure.",
+    "real_assessment": "Weekly build challenges, a judged final hackathon, and honest feedback at every stage: real projects, really shipped."
   },
   "relatedCourses": [
     "vibe-coding-for-teens-python-web-ai-projects-course",
