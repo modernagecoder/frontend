@@ -2,71 +2,66 @@
   "meta": {
     "slug": "ai-tools-mastery-complete-college",
     "date": "2025-10-24",
-    "title": "AI Tools Mastery: ChatGPT to Production AI Automation",
-    "description": "A 6-month AI Tools masterclass: master ChatGPT, Claude, Gemini, Midjourney, prompt engineering and no-code automation to build AI-powered workflows.",
+    "dateModified": "2026-08-23",
+    "title": "AI Tools Mastery Course: ChatGPT, Claude & Automation",
+    "description": "AI tools course for adults and professionals: prompt engineering with ChatGPT and Claude, image and video AI, AI coding tools, then real automation and AI agents, in 5-6 months of live classes.",
     "keywords": [
-      "AI tools",
-      "ChatGPT",
-      "prompt engineering",
-      "Midjourney",
-      "Stable Diffusion",
-      "Claude AI",
-      "Google Gemini",
-      "AI automation",
-      "no-code AI",
-      "AI workflows",
-      "generative AI tools",
-      "AI productivity",
-      "DALL-E",
-      "AI agents",
-      "AI integration"
+      "ai tools course online",
+      "chatgpt course for professionals",
+      "prompt engineering course",
+      "ai tools for business course",
+      "ai automation course for beginners",
+      "claude and gemini course",
+      "ai image generation course",
+      "ai productivity course online",
+      "ai tools course india",
+      "generative ai tools course",
+      "best ai tools course",
+      "ai agents and automation course"
     ],
-    "category": "AI Tools & Automation",
+    "category": "AI & Automation",
     "taxonomy": "ai-ml",
     "price": {
       "group": "₹1,999/month",
       "personal": "₹4,999/month"
     },
-    "duration": "6 months (26 weeks)",
-    "level": "Complete Beginner to AI Tools Expert",
-    "commitment": "10-15 hours/week recommended",
-    "certification": "AI Tools Professional certification upon completion",
+    "duration": "5-6 months (22-26 weeks)",
+    "level": "Complete beginner (18+); college students, graduates and working professionals",
+    "commitment": "2 live classes/week + 4-6 hours practice",
+    "certification": "Certificate from Modern Age Coders, awarded on passing the final exam",
     "image_path": "ai-tools-college.webp"
   },
   "program_overview": {
-    "title": "Complete AI Tools Mastery Program",
-    "tagline": "From Basic Prompts to Advanced AI Automation Workflows",
-    "description": "This is not just an AI tools course, it's a complete transformation into an AI-powered professional. Whether you're a content creator, marketer, developer, entrepreneur, or working professional, this 6-month program will teach you to leverage cutting-edge AI tools to 10x your productivity, automate workflows, create stunning content, and build AI-powered solutions without writing code.\n\nYou'll master every major AI tool from ChatGPT to Midjourney, from prompt engineering to AI automation, from simple tasks to complex multi-agent systems. By the end, you'll have built 30+ AI-powered projects, automated countless workflows, and be recognized as an AI tools expert in your field.",
+    "title": "AI Tools Mastery Course",
+    "tagline": "Fluency in the tools that now run knowledge work: prompting done properly, image and video AI, AI coding assistants, and real automation with agents.",
+    "description": "The AI tool landscape changed what a single professional can do in a day, but most people use a fraction of it and use that fraction badly. This live online course builds real fluency for adults and professionals: prompt engineering with ChatGPT and Claude that goes far past one-line questions, then the wider toolkit, image generation with Midjourney and Stable Diffusion, video and audio AI, AI research assistants and AI coding tools, then the payoff layer that separates power users from dabblers: workflow automation, connecting tools through their APIs, and building AI agents that carry out multi-step work. Because the tools change monthly, the course teaches durable judgment (how to evaluate, adopt and drop tools) alongside current specifics, and treats ethics, verification and responsible use as core skills, not a footnote. A finale month builds a real automation and sits the final exam.\n\nThe pace is honest: about four months of teaching at two live classes a week plus practice, with margin in hand. Problem sets, monthly mixed reviews, phase exams, and a final exam that decides the certificate with a free retest.",
     "what_makes_this_different": [
-      "Starts from absolute zero - no technical background needed",
-      "Covers ALL major AI tools (ChatGPT, Claude, Gemini, Midjourney, etc.)",
-      "Advanced prompt engineering masterclass",
-      "No-code and low-code AI tool building",
-      "AI automation and workflow creation",
-      "Real business use cases and applications",
-      "Monetization strategies with AI tools",
-      "Regular updates with new AI tools",
-      "Build actual AI products without coding",
-      "30+ hands-on projects and workflows"
+      "Prompting taught to real depth, the skill most people fake",
+      "The full modern toolkit: text, image, video, research and coding AI",
+      "The power-user layer: automation, APIs and AI agents that do multi-step work",
+      "Durable judgment for a fast-moving field: how to evaluate and adopt tools, not just the current list",
+      "Verification and ethics as core skills: AI that helps, checked before it ships",
+      "Real assessment: weekly problem sets, monthly mixed reviews, phase exams and a final exam with a free retest"
     ],
     "learning_path": {
-      "phase_1": "Foundation (Months 1-2): ChatGPT Mastery, Prompt Engineering, AI Content Creation",
-      "phase_2": "Visual AI (Months 3-4): Midjourney, Stable Diffusion, Image/Video AI Tools",
-      "phase_3": "Automation (Months 5-6): AI Workflows, Agents, Integration, Monetization"
+      "phase_1": "Foundations (Weeks 1-6): prompt engineering with ChatGPT and Claude",
+      "phase_2": "The toolkit (Weeks 7-12): image, video, research and coding AI",
+      "phase_3": "Automation (Weeks 13-18): workflows, APIs and AI agents, used responsibly",
+      "phase_4": "The finale (Month 5): a real automation build and the final exam"
     },
     "career_outcomes": [
-      "AI Tools Specialist (after 2 months)",
-      "AI Automation Expert (after 4 months)",
-      "AI Consultant / Freelancer (after 6 months)",
-      "AI Product Creator (after 6 months)"
+      "Genuine AI fluency: more done, better, in less time",
+      "Automation skill: repetitive knowledge work handed to agents",
+      "A real automation build to show, not just a tool list",
+      "Judgment that survives the next tool cycle"
     ]
   },
   "phase_1_foundation": {
-    "title": "PHASE 1: AI Fundamentals & ChatGPT Mastery (Months 1-2, Weeks 1-8)",
+    "title": "PHASE 1: AI Foundations and Prompt Engineering (Weeks 1-6)",
     "description": "Master ChatGPT, prompt engineering, AI writing tools, and conversational AI applications.",
-    "month_1_2": {
-      "title": "Months 1-2: ChatGPT & Prompt Engineering Excellence",
-      "weeks": "Week 1-8",
+    "month_1": {
+      "title": "ChatGPT & Prompt Engineering Excellence",
+      "weeks": "Weeks 1-6",
       "week_1_2": {
         "title": "Introduction to AI Tools & ChatGPT Basics",
         "topics": [
@@ -123,7 +118,7 @@
         ],
         "practice": "Create and test 100+ prompts across categories"
       },
-      "week_5_6": {
+      "week_5": {
         "title": "ChatGPT for Content Creation & Writing",
         "topics": [
           "Content ideation with ChatGPT",
@@ -153,7 +148,7 @@
         ],
         "practice": "Create 50+ pieces of content in different formats"
       },
-      "week_7_8": {
+      "week_6": {
         "title": "ChatGPT for Business & Productivity",
         "topics": [
           "Business strategy and planning",
@@ -181,17 +176,18 @@
           "Personal learning curriculum",
           "Daily productivity dashboard"
         ],
-        "practice": "Apply ChatGPT to 30 business scenarios"
+        "practice": "Apply ChatGPT to 30 business scenarios",
+        "assessment": "Phase 1 exam: a practical build defended live, plus a written paper mixing this phase with everything before it"
       }
     }
   },
   "phase_2_frontend_mastery": {
-    "title": "PHASE 2: Advanced AI Tools & Visual AI (Months 3-4, Weeks 9-17)",
+    "title": "PHASE 2: Visual, Creative and Developer AI Tools (Weeks 7-12)",
     "description": "Master Claude, Gemini, Midjourney, Stable Diffusion, and all major AI tools for images, video, and audio.",
-    "month_7_8": {
-      "title": "Months 3-4: Visual AI & Alternative LLMs",
-      "weeks": "Week 9-17",
-      "week_27_28": {
+    "month_1": {
+      "title": "Visual AI & Alternative LLMs",
+      "weeks": "Weeks 7-10",
+      "week_7": {
         "title": "Claude AI & Google Gemini",
         "topics": [
           "Claude AI: features and strengths",
@@ -220,8 +216,8 @@
         ],
         "practice": "Complete 20 tasks with each AI, compare results"
       },
-      "week_29_30": {
-        "title": "Midjourney Mastery - Part 1",
+      "week_8": {
+        "title": "Midjourney and Image Generation",
         "topics": [
           "Introduction to AI image generation",
           "Midjourney setup: Discord integration",
@@ -250,37 +246,7 @@
         ],
         "practice": "Generate 200+ images, build prompt library"
       },
-      "week_31_32": {
-        "title": "Midjourney Mastery - Part 2 & Advanced Techniques",
-        "topics": [
-          "Advanced prompting strategies",
-          "Multi-prompt weighting",
-          "Style and mood control",
-          "Lighting and composition",
-          "Color palette specification",
-          "Texture and material control",
-          "Architecture and interior design",
-          "Fashion and clothing design",
-          "Logo and branding with Midjourney",
-          "Combining with describe command",
-          "Image-to-image transformations",
-          "Consistent character creation",
-          "Building visual narratives",
-          "Commercial use guidelines",
-          "Copyright and licensing"
-        ],
-        "projects": [
-          "Complete brand identity package",
-          "Product line visualization",
-          "Story illustration series",
-          "Interior design portfolio",
-          "Fashion collection mockups",
-          "Consistent character across scenes",
-          "Commercial project delivery"
-        ],
-        "practice": "Professional-grade image generation portfolio"
-      },
-      "week_33_34": {
+      "week_9": {
         "title": "Stable Diffusion & Other Image AI Tools",
         "topics": [
           "Stable Diffusion introduction",
@@ -290,7 +256,6 @@
           "LoRA models and fine-tuning",
           "ControlNet for precise control",
           "Inpainting and outpainting",
-          "DALL-E 3 features and usage",
           "Adobe Firefly for commercial use",
           "Leonardo.ai for game assets",
           "Playground AI features",
@@ -310,7 +275,7 @@
         ],
         "practice": "Master 5+ image AI tools, create comparison guide"
       },
-      "week_35": {
+      "week_10": {
         "title": "Video & Audio AI Tools",
         "topics": [
           "AI video generation: Runway ML, Pika",
@@ -341,10 +306,10 @@
         "practice": "Create 15 videos using various AI tools"
       }
     },
-    "month_9_10": {
-      "title": "Advanced AI Tools Ecosystem",
-      "weeks": "Week 18-21",
-      "week_36_37": {
+    "month_2": {
+      "title": "Research, Coding and Creative AI Tools",
+      "weeks": "Weeks 11-12",
+      "week_11": {
         "title": "AI Research & Knowledge Tools",
         "topics": [
           "Perplexity AI for research",
@@ -374,37 +339,7 @@
         ],
         "practice": "Build comprehensive research toolkit"
       },
-      "week_38_39": {
-        "title": "AI Design & Creative Tools",
-        "topics": [
-          "Figma AI plugins",
-          "Canva AI features: Magic Write, Magic Design",
-          "AI logo generation: Looka, Brandmark",
-          "Website builders with AI: Wix AI, Framer AI",
-          "UI/UX design with AI: Uizard, Galileo AI",
-          "Color palette generators",
-          "Font pairing with AI",
-          "Design system generation",
-          "Mockup creation with AI",
-          "3D design tools: Spline AI",
-          "AI design feedback tools",
-          "Accessibility checking with AI",
-          "Design-to-code tools",
-          "AI art direction",
-          "Creative brief generation"
-        ],
-        "projects": [
-          "Complete brand design system",
-          "Website design with AI",
-          "App UI/UX design",
-          "Logo design service",
-          "Marketing materials creation",
-          "Design portfolio automation",
-          "Client design process workflow"
-        ],
-        "practice": "Design 20 complete projects with AI tools"
-      },
-      "week_40_41": {
+      "week_12": {
         "title": "AI Coding & Development Tools",
         "topics": [
           "GitHub Copilot for coding",
@@ -432,67 +367,18 @@
           "API wrapper creation",
           "Complete SaaS MVP without coding"
         ],
-        "practice": "Build 10 applications using AI coding tools"
-      },
-      "week_42_43": {
-        "title": "Specialized AI Tools",
-        "topics": [
-          "AI for sales: Drift, Exceed.ai",
-          "Customer support: Intercom AI, Zendesk AI",
-          "AI SDRs and outreach: Regie.ai, Lavender",
-          "Email AI: Superhuman, SaneBox",
-          "Meeting AI: Otter.ai, Fireflies.ai, Grain",
-          "Scheduling with AI: Reclaim.ai, Motion",
-          "Project management: ClickUp AI, Asana AI",
-          "HR and recruitment: HireVue, Paradox",
-          "AI for finance: Vic.ai, AppZen",
-          "Legal AI tools: Harvey, DoNotPay",
-          "Healthcare AI tools overview",
-          "Industry-specific AI applications",
-          "Choosing tools for your industry",
-          "ROI calculation for AI tools",
-          "Building AI tool stack for business"
-        ],
-        "projects": [
-          "Sales automation workflow",
-          "Customer support AI system",
-          "Meeting automation setup",
-          "Personal productivity stack",
-          "Team collaboration AI setup",
-          "Industry-specific AI toolkit",
-          "AI tools recommendation engine"
-        ],
-        "practice": "Configure AI tools for 5 different industries"
-      },
-      "week_44": {
-        "title": "Phase 2 Capstone Project",
-        "topics": [
-          "Comprehensive AI tools integration",
-          "Multi-tool workflow design",
-          "Use case selection",
-          "Implementation and testing",
-          "Documentation and training",
-          "ROI measurement"
-        ],
-        "projects": [
-          "PHASE 2 CAPSTONE: End-to-End AI-Powered Business Process",
-          "Option 1: Content Creation Agency (AI writing, images, video)",
-          "Option 2: Marketing Automation System (AI tools for entire funnel)",
-          "Option 3: AI-Powered Product Design Service",
-          "Option 4: Research and Analysis Service with AI",
-          "Requirements: Use 10+ different AI tools, documented workflow, measurable outcomes"
-        ],
-        "assessment": "Phase 2 Exam - AI tools mastery across all categories"
+        "practice": "Build 10 applications using AI coding tools",
+        "assessment": "Phase 2 exam: a practical build defended live, plus a written paper mixing this phase with everything before it"
       }
     }
   },
   "phase_3_backend_engineering": {
-    "title": "PHASE 3: AI Automation & Monetization (Months 5-6, Weeks 22-26)",
-    "description": "Master AI workflow automation, agents, integration, and monetization strategies.",
-    "month_13_14": {
-      "title": "Months 5-6: Advanced Automation & Business Applications",
-      "weeks": "Week 22-26",
-      "week_53_54": {
+    "title": "PHASE 3: AI Automation and Professional Applications (Weeks 13-18)",
+    "description": "Turn tool fluency into leverage: workflow automation, connecting tools through their APIs, and building AI agents for multi-step work, used responsibly with verification built in.",
+    "month_1": {
+      "title": "Automation, Agents and Business Applications",
+      "weeks": "Weeks 13-16",
+      "week_13": {
         "title": "AI Workflow Automation",
         "topics": [
           "Introduction to AI automation",
@@ -522,7 +408,7 @@
         ],
         "practice": "Build 20 automation workflows"
       },
-      "week_55_56": {
+      "week_14": {
         "title": "AI Agents & Advanced Automation",
         "topics": [
           "What are AI agents?",
@@ -552,11 +438,10 @@
         ],
         "practice": "Create 10 specialized AI agents"
       },
-      "week_57_58": {
+      "week_15": {
         "title": "AI Integration & API Usage",
         "topics": [
           "Understanding APIs basics",
-          "OpenAI API usage (ChatGPT, DALL-E)",
           "Anthropic Claude API",
           "Google Gemini API",
           "Stability AI API",
@@ -582,8 +467,8 @@
         ],
         "practice": "Build 8 AI-integrated applications"
       },
-      "week_59_60": {
-        "title": "Monetization & Business with AI Tools",
+      "week_16": {
+        "title": "AI Tools for Business and Professional Work",
         "topics": [
           "Freelancing with AI tools",
           "AI services to offer clients",
@@ -596,7 +481,6 @@
           "Agency model with AI",
           "White-label AI solutions",
           "Course creation with AI",
-          "YouTube/content creation monetization",
           "AI automation services",
           "Building and selling AI agents",
           "Subscription-based AI services"
@@ -607,45 +491,15 @@
           "Prompt marketplace listings",
           "Digital product creation",
           "Agency service offerings",
-          "Online course with AI help",
-          "Monetization strategy document"
+          "Online course with AI help"
         ],
         "practice": "Launch 3 revenue streams with AI tools"
-      },
-      "week_61": {
-        "title": "AI Tools for Specific Industries",
-        "topics": [
-          "E-commerce: product descriptions, ads, images",
-          "Real estate: listings, virtual staging, market analysis",
-          "Healthcare: documentation, patient communication (compliant)",
-          "Legal: contract review, research, documentation",
-          "Education: lesson planning, content creation, grading help",
-          "Marketing agencies: campaigns, content, analytics",
-          "Consulting: research, reports, presentations",
-          "Software development: code, documentation, testing",
-          "Finance: analysis, reporting, forecasting",
-          "HR: recruitment, onboarding, training",
-          "Customer success: support, documentation, training",
-          "Creative agencies: design, copy, production",
-          "Industry-specific compliance and ethics",
-          "Case studies from each industry",
-          "Building industry expertise"
-        ],
-        "projects": [
-          "Industry-specific AI toolkit (choose 3)",
-          "Vertical SaaS concept",
-          "Industry case study portfolio",
-          "Client-ready workflows",
-          "Industry pitch deck",
-          "Specialization strategy"
-        ],
-        "practice": "Master AI tools for 3 chosen industries"
       }
     },
-    "month_15_16": {
-      "title": "Final Month: Advanced Topics & Career",
-      "weeks": "Week 22-26 (distributed)",
-      "week_62_63": {
+    "month_2": {
+      "title": "Staying Current and Responsible Use",
+      "weeks": "Weeks 17-18",
+      "week_17": {
         "title": "Staying Current with AI Tools",
         "topics": [
           "AI tool discovery strategies",
@@ -674,7 +528,7 @@
         ],
         "practice": "Review 50+ new AI tools, create evaluation system"
       },
-      "week_64_65": {
+      "week_18": {
         "title": "Ethics, Safety & Responsible AI Use",
         "topics": [
           "AI ethics principles",
@@ -701,241 +555,163 @@
           "AI ethics checklist",
           "Best practices document"
         ],
-        "practice": "Develop comprehensive ethical framework"
-      },
-      "week_66_67": {
-        "title": "Teaching & Thought Leadership",
-        "topics": [
-          "Creating AI tools content",
-          "YouTube channel for AI tools",
-          "Blog and newsletter creation",
-          "Social media strategy",
-          "Building personal brand",
-          "Community building",
-          "Course creation with AI",
-          "Workshop and training delivery",
-          "Speaking at events",
-          "Consulting and advisory",
-          "Writing e-books and guides",
-          "Creating templates and resources",
-          "Membership communities",
-          "Scaling education business",
-          "Thought leadership positioning"
-        ],
-        "projects": [
-          "Content calendar (30 days)",
-          "Mini-course creation",
-          "Workshop material",
-          "YouTube channel launch",
-          "Newsletter setup",
-          "Community platform",
-          "Thought leadership plan"
-        ],
-        "practice": "Create and publish 20 pieces of content"
-      },
-      "week_68_69": {
-        "title": "Building AI Tool Businesses",
-        "topics": [
-          "Identifying market opportunities",
-          "Product-market fit with AI tools",
-          "Building AI wrapper businesses",
-          "No-code SaaS development",
-          "AI tool aggregation platforms",
-          "Marketplace creation",
-          "Subscription model design",
-          "Customer acquisition for AI services",
-          "Retention and growth strategies",
-          "Scaling AI tool businesses",
-          "Team building and delegation",
-          "Outsourcing with AI",
-          "Financial modeling",
-          "Funding and investment",
-          "Exit strategies"
-        ],
-        "projects": [
-          "Business model canvas",
-          "MVP development plan",
-          "Go-to-market strategy",
-          "Financial projections",
-          "Pitch deck creation",
-          "Launch plan",
-          "Growth roadmap"
-        ],
-        "practice": "Develop complete business plan"
-      },
-      "week_70": {
-        "title": "Final Capstone & Career Launch",
-        "topics": [
-          "Portfolio development",
-          "Case study creation",
-          "Service packaging",
-          "Pricing strategies",
-          "Client acquisition",
-          "Proposal and contract templates",
-          "Project management",
-          "Client communication",
-          "Delivery and results measurement",
-          "Testimonials and social proof",
-          "Scaling strategies",
-          "Career planning"
-        ],
-        "projects": [
-          "FINAL CAPSTONE: Complete AI Tools Business/Service",
-          "Option 1: AI Automation Agency (workflows for clients)",
-          "Option 2: AI Content Creation Service",
-          "Option 3: AI Tools SaaS Product",
-          "Option 4: AI Consulting Practice",
-          "Option 5: AI Education Business",
-          "Requirements: Revenue-generating, documented processes, client-ready, scalable"
-        ],
-        "deliverables": [
-          "Professional portfolio website",
-          "Service offerings document",
-          "Pricing and packages",
-          "Client acquisition system",
-          "Delivery workflows",
-          "10+ case studies",
-          "Marketing materials",
-          "Business launch plan"
-        ],
-        "assessment": "FINAL EXAM - Comprehensive AI Tools Mastery"
+        "practice": "Develop comprehensive ethical framework",
+        "assessment": "Phase 3 exam: a practical build defended live, plus a written paper mixing this phase with everything before it"
       }
     }
   },
-  "faqs": [
-    {
-      "question": "What tools and skills does this AI tools course cover?",
-      "answer": "In 6 months you master ChatGPT and prompt engineering, then visual AI including Midjourney and Stable Diffusion alongside other leading models like Claude and Gemini, and finish with AI automation: workflows, agents, integrations and monetization. The course surveys the AI tools landscape as it stands in 2026 and teaches transferable skills so new tools slot in easily."
-    },
-    {
-      "question": "Who is this course for?",
-      "answer": "College students and early professionals who want AI leverage in their studies, work or side projects, with no technical background required. It also suits freelancers and founders who want to automate real workflows rather than just chat with AI."
-    },
-    {
-      "question": "Do the AI tools themselves cost extra?",
-      "answer": "Some do. Several tools in the course have free tiers you can start on, while the more advanced work uses paid subscriptions that typically total around $50 to $100 per month depending on which tools you adopt. We always flag free alternatives where they exist."
-    },
-    {
-      "question": "How is progress measured?",
-      "answer": "Through guided projects in each phase: a prompt library and content portfolio in phase 1, visual AI projects in phase 2, and working automation workflows in phase 3. You finish with artifacts you can show, not just tool familiarity."
-    },
-    {
-      "question": "AI tools change fast. Will this course be outdated quickly?",
-      "answer": "Tools change; the underlying skills do not. Prompt engineering, evaluation habits and workflow design transfer directly to whatever ships next, and the curriculum is refreshed to stay current, which in 2026 includes the latest ChatGPT, Claude and Gemini generations."
-    },
-    {
-      "question": "What are the course fees?",
-      "answer": "Group classes are ₹1,499 per month with 2 live classes per week, a mini batch is ₹2,999 per month, and 1-on-1 mentorship is ₹4,999 per month. International students pay a price set for their own country, shown on this page in their local currency."
-    },
-    {
-      "question": "Can I try it first?",
-      "answer": "Yes, book a free demo class at learn.modernagecoders.com/contact, with no commitment and no payment details. We also answer questions on WhatsApp at +91 91233 66161."
-    },
-    {
-      "question": "Is the course live or self-paced?",
-      "answer": "Live: one hour online classes with a real teacher, never pre-recorded lectures, in small groups where your actual use cases get worked on in class."
-    },
-    {
-      "question": "Is there a certificate?",
-      "answer": "Yes, an AI Tools Professional certification on completion, plus a portfolio of prompts, visual projects and automation workflows built during the course. Modern Age Coders is rated 4.9 stars from 547+ Google reviews."
+  "phase_4_finale": {
+    "title": "PHASE 4: The Finale (Month 5, Weeks 19-23)",
+    "description": "The capstone month: spec, build, ship and defend, then the final exam that decides the certificate.",
+    "month_10_finale": {
+      "title": "Month 5: Capstone and the Final Exam",
+      "weeks": "Weeks 19-23",
+      "week_19": {
+        "title": "Capstone Spec and Setup",
+        "topics": [
+          "Choosing the capstone: a real end-to-end AI automation: a content pipeline, a research assistant or a multi-step agent workflow for actual work",
+          "A one-page spec: scope, milestones, stack",
+          "Repository and skeleton ready on day one",
+          "Instructor sign-off before the build begins"
+        ],
+        "projects": [
+          "Approved capstone spec plus the running skeleton"
+        ],
+        "practice": "Pitch the spec to the batch and absorb one hard question"
+      },
+      "week_20_21": {
+        "title": "Capstone Build",
+        "topics": [
+          "Two focused weeks in vertical slices",
+          "Instructor checkpoints and honest scope cuts",
+          "Using the whole course: prompting depth, the right tools for each step, and automation wiring through APIs or agents",
+          "Daily commits and an always-working build"
+        ],
+        "projects": [
+          "The capstone, feature-complete with version control"
+        ],
+        "practice": "A working build at the end of every session"
+      },
+      "week_22": {
+        "title": "Ship and Polish",
+        "topics": [
+          "The finishing pass: edge cases, errors, documentation",
+          "Working and verified: an automation that runs, with human checks where they matter",
+          "A README worth reading and a demo worth watching",
+          "A full-course spiral review before the exam"
+        ],
+        "projects": [
+          "The capstone shipped, documented and rehearsed"
+        ],
+        "practice": "Two mock demos, each tighter than the last"
+      },
+      "week_23": {
+        "title": "Demo Day and the Final Exam",
+        "topics": [
+          "Presenting the capstone: live demo plus the hardest bug story",
+          "The honest map of next roads: deeper automation with code, AI-assisted development, or applied AI in your own field",
+          "Where our other courses continue the journey"
+        ],
+        "projects": [
+          "Demo day presentation delivered to the batch"
+        ],
+        "assessment": "FINAL EXAM: a practical build plus a written paper with questions mixed from every phase. Passing earns the certificate; falling short earns a focused revision plan and a free retest"
+      }
     }
-  ],
+  },
   "additional_learning_resources": {
     "projects_throughout_course": [
-      "Phase 1: 30+ ChatGPT projects - content, business, productivity",
-      "Phase 2: 40+ projects - images, video, audio, multi-tool workflows",
-      "Phase 3: 30+ projects - automation, agents, integrations, businesses",
-      "Total: 100+ practical AI tool projects"
+      "Phase 1: a prompt library and real ChatGPT and Claude workflows",
+      "Phase 2: image, video and coding-AI deliverables",
+      "Phase 3: automations and a working AI agent",
+      "Phase 4: the end-to-end automation capstone"
     ],
-    "total_projects_built": "100+ AI-powered projects and workflows",
+    "total_projects_built": "15+ real deliverables, crowned by an end-to-end automation build",
     "skills_mastered": [
-      "AI Tools: ChatGPT, Claude, Gemini, Midjourney, Stable Diffusion, DALL-E, and 50+ others",
-      "Prompt Engineering: Advanced techniques, frameworks, optimization",
-      "Content Creation: Writing, images, video, audio with AI",
-      "Automation: Zapier, Make, n8n, workflow design",
-      "AI Agents: Custom GPTs, assistants, autonomous agents",
-      "Integration: APIs, webhooks, no-code platforms",
-      "Business: Monetization, services, products, consulting",
-      "Tools: All major AI platforms, productivity tools, specialized apps",
-      "Skills: Research, design, coding (no-code), marketing with AI"
+      "Prompt engineering with ChatGPT and Claude, to real depth",
+      "Visual and media AI: Midjourney, Stable Diffusion, video and audio tools",
+      "AI research and coding assistants, used well",
+      "Automation: workflows, API connections and AI agents",
+      "Judgment and ethics: evaluating tools, verifying output, using AI responsibly"
     ],
     "weekly_structure": {
-      "video_tutorials": "3-4 hours",
-      "hands_on_practice": "5-7 hours",
-      "projects": "2-3 hours",
-      "exploration": "1-2 hours",
-      "total_per_week": "10-15 hours"
-    },
-    "support_provided": {
-      "live_sessions": "Weekly live demos and Q&A",
-      "community": "Active community of AI tools practitioners",
-      "resources": "Prompt libraries, templates, workflows",
-      "updates": "Monthly updates with new AI tools",
-      "tool_access": "Shared accounts and trials for practice",
-      "mentorship": "Expert guidance on projects",
-      "career_support": "Freelance and business guidance"
+      "live_classes": "2 live one-hour classes per week, coding along with the instructor",
+      "homework": "A problem set after every class, and a mixed-review assignment at the end of every month",
+      "practice": "4-6 hours of building between classes",
+      "review": "Every submission reviewed with written feedback; recurring gaps reopened in class"
     },
     "certification": {
-      "completion_certificate": "AI Tools Professional Certificate",
-      "specialization": "Choose specialization (Content/Automation/Business)",
-      "project_portfolio": "Verified portfolio of 30+ projects",
-      "digital_badge": "LinkedIn shareable badge",
-      "continuing_education": "Monthly master classes"
+      "completion": "Certificate from Modern Age Coders, awarded on passing the final exam. Fall short and there is focused revision and a free retest: the certificate certifies knowledge, not attendance"
+    },
+    "support_provided": {
+      "doubt_support": "WhatsApp doubt support between classes",
+      "progress_updates": "Honest monthly progress reviews: what is solid, what is wobbly, and the plan for the wobble"
     }
   },
   "prerequisites": {
-    "technical_skills": "None - completely beginner friendly",
-    "equipment": "Computer/laptop, internet connection",
-    "ai_accounts": "Will create during course (ChatGPT, Midjourney, etc.)",
-    "budget": "Some tools require paid subscriptions (~$50-100/month)",
-    "time_commitment": "10-15 hours/week",
-    "learning_style": "Self-paced with guided projects"
+    "coding_experience": "None. Everything is taught from the first line",
+    "equipment": "Any computer with a stable internet connection; every tool used is free",
+    "age": "18+; college students, graduates and working professionals",
+    "time_commitment": "2 live classes plus 4-6 hours of practice a week"
   },
   "who_is_this_for": {
-    "content_creators": "Writers, bloggers, YouTubers, social media managers",
-    "marketers": "Digital marketers, growth hackers, brand managers",
-    "entrepreneurs": "Startup founders, solopreneurs, business owners",
-    "freelancers": "Looking to add AI services to offerings",
-    "professionals": "Anyone wanting to 10x productivity with AI",
-    "students": "Learning to leverage AI for career advantage",
-    "designers": "Graphic designers, UI/UX, creative professionals",
-    "developers": "Want to use AI tools for rapid development",
-    "consultants": "Business consultants, strategists, advisors",
-    "educators": "Teachers, trainers, course creators",
-    "career_switchers": "Entering AI tools and automation field",
-    "anyone": "Curious about practical AI applications"
+    "professionals": "Working professionals who want real leverage from AI, not surface tricks",
+    "college_students": "Students who want to enter the workforce genuinely AI-fluent",
+    "creators_and_marketers": "Creators and marketers who need text, image and video AI at depth",
+    "founders": "Founders and freelancers automating the work of a larger team",
+    "career_switchers": "Newcomers who want a fast, current, practical AI skill"
   },
   "career_paths_after_completion": [
-    "AI Tools Consultant",
-    "Prompt Engineer",
-    "AI Automation Specialist",
-    "AI Content Creator",
-    "AI Tools Freelancer",
-    "No-Code AI Developer",
-    "AI Marketing Specialist",
-    "AI Productivity Coach",
-    "AI Tools Educator/Trainer",
-    "AI Product Manager",
-    "AI Solutions Architect (no-code)",
-    "AI Agency Owner",
-    "AI Tools Influencer/Creator"
+    "Applied AI in your own field: the toolkit plus your domain",
+    "Our Python automation course to build automations in code",
+    "AI-assisted development: our agentic and coding-tool courses",
+    "Deeper model work: our AI/ML course for what is under the tools"
   ],
-  "income_potential": {
-    "freelancing": "₹50,000-300,000/month (projects)",
-    "consulting": "₹100,000-500,000/month",
-    "agency": "₹200,000-1,000,000+/month",
-    "courses": "₹50,000-500,000/month (passive)",
-    "saas_product": "₹100,000-10,00,000+/month",
-    "affiliate": "₹20,000-200,000/month",
-    "international": "$2,000-20,000/month based on services",
-    "note": "Income varies based on skills, niche, and effort"
-  },
   "course_guarantees": {
     "live_classes": "Live, interactive classes with a real instructor, never pre-recorded videos.",
     "small_batches": "Small batches only: group classes are capped at 10 students, with mini-batch (3 to 4 students) and personal 1-on-1 options.",
-    "structured_curriculum": "A structured, well-paced curriculum taught step by step, with hands-on practice in every session.",
+    "structured_curriculum": "A structured, well-paced curriculum taught step by step, with classwork in every session and problem sets after every class.",
+    "real_assessment": "Monthly mixed reviews, cumulative phase exams, and a final exam that decides the certificate: real knowledge, real work.",
     "doubt_support": "Doubt support between classes over WhatsApp, so you are never left stuck.",
-    "certificate": "A course-completion certificate you can share.",
+    "certificate": "A certificate you earn by passing the final exam, with a free retest after revision if needed.",
     "free_demo": "A free demo class before you enrol, so you can decide with no pressure."
-  }
+  },
+  "faqs": [
+    {
+      "question": "What does this AI tools course cover?",
+      "answer": "Prompt engineering with ChatGPT and Claude first, then the wider toolkit, image generation with Midjourney and Stable Diffusion, video and audio AI, AI research assistants and AI coding tools, then the automation layer, workflow automation, connecting tools through APIs, and building AI agents for multi-step work, with tool-evaluation judgment, verification and responsible-use ethics throughout. A finale month builds a real automation and sits the final exam."
+    },
+    {
+      "question": "How long does this AI tools course take?",
+      "answer": "About four months of teaching at 2 live classes a week plus practice, with margin in hand for a 5 to 6 month total. Three phases cover prompting, the wider toolkit, and automation with agents; the finale month builds a real automation and sits the final exam."
+    },
+    {
+      "question": "How am I assessed? Is the certificate just for attending?",
+      "answer": "No. Problem sets follow every class with written feedback, monthly reviews deliberately mix new material with earlier topics, each phase ends with a cumulative exam, and the course ends with a final exam: a practical build plus written questions from the whole syllabus. Passing earns the certificate; falling short earns focused revision and a free retest."
+    },
+    {
+      "question": "The tools change every month, so will this course be out of date?",
+      "answer": "The specific tools will keep changing; the skills will not. Prompting well, evaluating a new tool quickly, wiring automations and verifying AI output are durable, and this course teaches those alongside current specifics. You leave able to pick up the next new tool in an afternoon, which is the real skill."
+    },
+    {
+      "question": "Do I need to be technical to take this course?",
+      "answer": "No. Most of the course needs no coding: prompting, image and video AI, research tools and no-code automation are all accessible. The automation phase touches simple API use, taught gently, and you can go as deep or as light there as your goals need. It is built for professionals of every background, not just developers."
+    },
+    {
+      "question": "Is this course suitable for teenagers?",
+      "answer": "This is our adult (18+) AI tools course, because several tools it uses, including the general-purpose image and chat models, set their own terms and age limits at 18. Younger learners have a dedicated teens AI tools course built entirely around teen-appropriate, age-compliant tools, which is the honest place for them to start."
+    },
+    {
+      "question": "What are the fees?",
+      "answer": "Group classes are ₹1,499 per month, with 2 live classes a week in batches capped at 10 learners. A mini batch of 3-4 learners is ₹2,999 per month, and personal 1-on-1 classes are ₹4,999 per month. International learners pay a price set for their own country, shown on this page in their local currency."
+    },
+    {
+      "question": "Can I try a class before enrolling?",
+      "answer": "Yes, a free demo class with no commitment: book at learn.modernagecoders.com/contact or message us on WhatsApp at +91 91233 66161."
+    },
+    {
+      "question": "Are classes live or recorded?",
+      "answer": "Live, always: small groups with a real instructor reading your actual code, never pre-recorded videos."
+    }
+  ]
 }
