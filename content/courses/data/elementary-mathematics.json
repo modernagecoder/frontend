@@ -2,73 +2,66 @@
   "meta": {
     "slug": "elementary-mathematics-complete-masterclass",
     "date": "2025-10-25",
-    "title": "Elementary Mathematics for Grade 1-5: Numbers to Geometry",
-    "description": "Live online elementary maths course for Grade 1-5: master numbers, operations, fractions, geometry and measurement through interactive, real-world learning.",
+    "dateModified": "2026-08-23",
+    "title": "Elementary Maths for Grades 1-5: Live Online Classes",
+    "description": "Elementary maths classes for Grades 1-5, live and online: placement by grade into three school-year levels, from counting to fractions, geometry and pre-algebra.",
     "keywords": [
-      "elementary mathematics",
-      "grade 1 math",
-      "grade 2 math",
-      "grade 3 math",
-      "grade 4 math",
-      "grade 5 math",
-      "basic arithmetic",
-      "fractions decimals",
-      "geometry basics",
-      "problem solving",
-      "math foundations",
-      "number sense",
-      "measurement",
-      "data analysis",
-      "mental math",
-      "math for kids"
+      "elementary maths classes online",
+      "online maths classes for kids",
+      "maths classes for grade 1",
+      "maths classes for grade 2",
+      "maths classes for grade 3",
+      "maths classes for grade 4",
+      "maths classes for grade 5",
+      "online maths tuition for kids india",
+      "primary school maths course",
+      "maths foundation course for children",
+      "live maths classes for kids",
+      "best online maths classes for kids"
     ],
-    "category": "Elementary Mathematics Education",
+    "category": "School Mathematics",
     "taxonomy": "mathematics",
     "price": {
       "group": "₹1,499/month",
       "miniBatch": "₹2,999/month",
       "personal": "₹4,999/month"
     },
-    "duration": "24 months (104 weeks)",
-    "level": "Complete Beginner to Advanced Elementary Mathematics",
-    "commitment": "10-15 hours/week recommended",
-    "certification": "Elementary Mathematics Proficiency Certificate upon completion",
+    "duration": "10-12 months per level (3 levels, Grades 1-5)",
+    "level": "Grades 1-5; every child is placed by grade and a short placement check",
+    "commitment": "2 live classes/week + 20-30 minutes daily practice",
+    "certification": "Level certificate from Modern Age Coders, awarded on passing each level exam",
     "image_path": "elementary-maths.webp"
   },
   "program_overview": {
-    "title": "Complete Elementary Mathematics Masterclass",
-    "tagline": "From Counting to Complex Problem-Solving - Building Mathematical Minds",
-    "description": "This comprehensive 2-year program transforms learners into confident mathematics problem-solvers. Whether you're a young student, parent helping children, teacher seeking resources, or adult learner filling gaps, this masterclass covers every aspect of elementary mathematics.\n\nYou'll master fundamental concepts through interactive lessons, visual learning, hands-on activities, and real-world applications. Progress from basic counting to advanced problem-solving, building strong foundations for higher mathematics. By completion, you'll have solved 5000+ problems, completed 100+ projects, and developed exceptional numerical literacy.",
+    "title": "Elementary Mathematics, Grades 1-5",
+    "tagline": "Three honest school-year levels instead of one endless course: your child is placed where they are, and finishes each level actually owning it.",
+    "description": "Primary maths is where number confidence is either built or broken, and it cannot be rushed. That is why this program is structured the way good schools structure it: three levels, each one school year long. Level A builds Grades 1-2: counting, place value, addition and subtraction, shapes, time and money. Level B builds Grades 3-4: multiplication and division fluency, fractions, decimals, data and real geometry. Level C completes Grade 5 and builds the bridge to middle school: advanced fractions, ratios, percentages, circle geometry, first algebra and probability.\n\nEvery child starts with a short, friendly placement check and joins the level that fits, never the one their age assumes. Classes are live and small, and the method is the one the strongest primary curricula in the world use: concrete first (objects and drawings), then pictorial, then abstract. Practice is 20 to 30 minutes daily rather than marathon sessions, because at this age consistency beats intensity every single time.\n\nEach level runs 10 months of teaching at two live classes a week, with up to 12 months for children who need more repetition, the pace adapts, never the standard. Learning is checked the honest way: homework after every class, weekly mixed practice that deliberately revisits earlier topics, a mid-level check, and a level exam at the end. Passing earns the level certificate and promotion; a child who falls short gets focused revision and a free retest. Real knowledge, real work, depth over dopamine.",
     "what_makes_this_different": [
-      "Visual and interactive learning approach",
-      "Adaptive pacing for different learning speeds",
-      "Real-world applications and practical problems",
-      "Games and activities for engagement",
-      "Parent/teacher guidance materials included",
-      "Multiple problem-solving strategies taught",
-      "Mental math techniques emphasized",
-      "Strong conceptual understanding focus"
+      "Placement by level, not by age: a short friendly check decides where your child starts, so nothing is skipped and nothing is repeated",
+      "Concrete, pictorial, abstract: every concept starts with objects and pictures before symbols, the sequence the world’s best primary curricula use",
+      "Spiral revision is built in: weekly practice deliberately mixes older topics with new ones, so skills stop fading between terms",
+      "20-30 minutes of daily practice, not marathon sessions: at this age consistency beats intensity",
+      "Real assessment, gently done: a mid-level check and a level exam decide the certificate, with focused revision and a free retest when needed",
+      "Parents stay in the loop: regular written notes on what was learned, what is next, and exactly how to help at home"
     ],
     "learning_path": {
-      "phase_1": "Foundation (Months 1-6): Numbers, Basic Operations, Shapes, Patterns",
-      "phase_2": "Core Skills (Months 7-12): Advanced Operations, Fractions, Measurement, Data",
-      "phase_3": "Advanced Concepts (Months 13-18): Decimals, Complex Geometry, Advanced Problem-Solving",
-      "phase_4": "Mastery & Applications (Months 19-24): Integration, Real-World Math, Competition Prep"
+      "phase_1": "Level A, Grades 1-2 (one school year): counting and place value, addition and subtraction, first multiplication, shapes, time, money and measurement",
+      "phase_2": "Level B, Grades 3-4 (one school year): multiplication and division fluency, fractions, decimals, data and graphing, geometry, area and perimeter",
+      "phase_3": "Level C, Grade 5 (one school year): large numbers, advanced fractions, ratios and percentages, circle geometry, first algebra, probability and money maths"
     },
     "career_outcomes": [
-      "Strong mathematical foundation for middle school",
-      "Problem-solving skills for life",
-      "Preparation for advanced mathematics",
-      "Competition mathematics readiness",
-      "STEM career foundation"
+      "A child who is confident in class: hands up, working ahead, explaining answers instead of guessing them",
+      "Level certificates earned by exam, each one marking real, tested mastery",
+      "A smooth runway into middle school mathematics, mental maths or our olympiad preparation courses",
+      "Number sense for life: money, measurement, data and the habit of thinking in steps"
     ]
   },
-  "phase_1_foundation": {
-    "title": "PHASE 1: Mathematical Foundations (Months 1-6, Weeks 1-26)",
-    "description": "Build rock-solid foundations in numbers, basic operations, shapes, and mathematical thinking.",
-    "month_1_2": {
-      "title": "Months 1-2: Numbers and Counting Mastery",
-      "weeks": "Week 1-8",
+  "phase_1_level_a": {
+    "title": "PHASE 1: Level A for Grades 1-2 (One School Year)",
+    "description": "The foundation year(s): numbers, place value, addition and subtraction, first multiplication, shapes, time, money and measurement, all learned with objects and pictures before symbols.",
+    "month_1_2_numbers": {
+      "title": "Months 1-2: Numbers and Counting",
+      "weeks": "Weeks 1-8",
       "week_1_2": {
         "title": "Introduction to Numbers and Counting",
         "topics": [
@@ -90,7 +83,7 @@
           "Number hunt around the house",
           "Build counting games with everyday objects"
         ],
-        "practice": "Daily: 30 min counting practice, 1 hour number activities"
+        "practice": "20-30 minutes of playful counting practice a day"
       },
       "week_3_4": {
         "title": "Numbers to 100 and Place Value",
@@ -159,12 +152,13 @@
           "Fact family triangles craft",
           "Subtraction bowling game"
         ],
-        "practice": "Master subtraction facts through 10"
+        "practice": "Master subtraction facts through 10",
+        "assessment": "Months 1-2 check: a friendly mixed quiz over everything so far, plus a take-home challenge sheet"
       }
     },
-    "month_3_4": {
-      "title": "Months 3-4: Advanced Operations and Problem-Solving",
-      "weeks": "Week 9-17",
+    "month_3_4_operations": {
+      "title": "Months 3-4: Bigger Numbers and First Multiplication",
+      "weeks": "Weeks 9-17",
       "week_9_10": {
         "title": "Two-Digit Addition",
         "topics": [
@@ -258,7 +252,7 @@
         "practice": "Identify and draw 50 different shapes"
       },
       "week_17": {
-        "title": "Month 3-4 Review & Assessment",
+        "title": "Mid-Level Review",
         "topics": [
           "Operations review",
           "Problem-solving strategies review",
@@ -271,12 +265,12 @@
           "Design math puzzle book",
           "Build interactive math display"
         ],
-        "assessment": "Comprehensive test on operations and geometry"
+        "assessment": "Mid-level check: mixed questions from months 1-4, so earlier skills are proven, not assumed"
       }
     },
-    "month_5_6": {
-      "title": "Months 5-6: Measurement, Time, and Money",
-      "weeks": "Week 18-26",
+    "month_5_6_measurement": {
+      "title": "Months 5-6: Time, Money and Measurement",
+      "weeks": "Weeks 18-26",
       "week_18_19": {
         "title": "Time and Calendar",
         "topics": [
@@ -370,7 +364,7 @@
         "practice": "Complete 50 measurement activities"
       },
       "week_26": {
-        "title": "Phase 1 Capstone Project",
+        "title": "Level A Exam and Celebration",
         "topics": [
           "Integration of all Phase 1 concepts",
           "Real-world problem solving",
@@ -379,22 +373,19 @@
           "Reflection on learning"
         ],
         "projects": [
-          "MAJOR CAPSTONE: Math Fair Project",
-          "Create comprehensive math portfolio",
-          "Design math board game using all concepts",
-          "Develop math teaching materials for younger students"
+          "A proud portfolio of the year’s best work, shown to parents"
         ],
-        "assessment": "Phase 1 Final Exam - comprehensive assessment"
+        "assessment": "LEVEL A EXAM: a friendly written paper plus a short viva, with questions mixed from the whole level. Passing earns the Level A certificate and promotion to Level B; a child who falls short gets focused revision and a free retest"
       }
     }
   },
-  "phase_2_frontend_mastery": {
-    "title": "PHASE 2: Core Mathematics Skills (Months 7-12, Weeks 27-52)",
-    "description": "Master multiplication, division, fractions, advanced geometry, and complex problem-solving.",
-    "month_7_8": {
-      "title": "Months 7-8: Multiplication and Division Mastery",
-      "weeks": "Week 27-35",
-      "week_27_28": {
+  "phase_2_level_b": {
+    "title": "PHASE 2: Level B for Grades 3-4 (One School Year)",
+    "description": "The fluency year(s): multiplication and division mastered properly, fractions and decimals understood instead of memorized, plus data, geometry, area and perimeter.",
+    "month_1_2_multiplication_division": {
+      "title": "Months 1-2: Multiplication and Division Mastery",
+      "weeks": "Weeks 1-9",
+      "week_1_2": {
         "title": "Advanced Multiplication Facts",
         "topics": [
           "Multiplication facts 6-9",
@@ -417,7 +408,7 @@
         ],
         "practice": "Master all multiplication facts 0-12"
       },
-      "week_29_30": {
+      "week_3_4": {
         "title": "Multi-Digit Multiplication",
         "topics": [
           "Multiplying by 10, 100, 1000",
@@ -440,7 +431,7 @@
         ],
         "practice": "Solve 200 multi-digit multiplication problems"
       },
-      "week_31_32": {
+      "week_5_6": {
         "title": "Introduction to Division",
         "topics": [
           "Division as sharing equally",
@@ -463,7 +454,7 @@
         ],
         "practice": "Master basic division facts"
       },
-      "week_33_34": {
+      "week_7_8": {
         "title": "Long Division",
         "topics": [
           "Long division setup",
@@ -486,7 +477,7 @@
         ],
         "practice": "Complete 150 long division problems"
       },
-      "week_35": {
+      "week_9": {
         "title": "Problem-Solving with Operations",
         "topics": [
           "Choosing the correct operation",
@@ -507,13 +498,14 @@
           "Word problem collection book",
           "Math detective game"
         ],
-        "practice": "Solve 100 multi-step word problems"
+        "practice": "Solve 100 multi-step word problems",
+        "assessment": "Months 1-2 check: mixed word problems using all four operations, reaching back to Level A skills"
       }
     },
-    "month_9_10": {
-      "title": "Months 9-10: Fractions and Decimals Introduction",
-      "weeks": "Week 36-44",
-      "week_36_37": {
+    "month_3_4_fractions_decimals": {
+      "title": "Months 3-4: Fractions and Decimals",
+      "weeks": "Weeks 10-18",
+      "week_10_11": {
         "title": "Understanding Fractions",
         "topics": [
           "Fraction as part of whole",
@@ -534,9 +526,9 @@
           "Fraction art with paper folding",
           "Create fraction manipulatives"
         ],
-        "practice": "Master fraction concepts with 100 exercises"
+        "practice": "Short daily practice sets, checked and celebrated in class"
       },
-      "week_38_39": {
+      "week_12_13": {
         "title": "Operations with Fractions",
         "topics": [
           "Adding fractions same denominator",
@@ -559,7 +551,7 @@
         ],
         "practice": "Complete 150 fraction operations"
       },
-      "week_40_41": {
+      "week_14_15": {
         "title": "Introduction to Decimals",
         "topics": [
           "Decimal point meaning",
@@ -580,9 +572,9 @@
           "Decimal number line display",
           "Create decimal comparison game"
         ],
-        "practice": "Master decimal concepts with 100 exercises"
+        "practice": "Short daily practice sets, checked and celebrated in class"
       },
-      "week_42_43": {
+      "week_16_17": {
         "title": "Decimal Operations",
         "topics": [
           "Adding decimals with same places",
@@ -605,7 +597,7 @@
         ],
         "practice": "Solve 150 decimal problems"
       },
-      "week_44": {
+      "week_18": {
         "title": "Data and Graphing",
         "topics": [
           "Collecting and organizing data",
@@ -626,13 +618,14 @@
           "Create graphing portfolio",
           "Design data collection app"
         ],
-        "practice": "Create and interpret 30 different graphs"
+        "practice": "Create and interpret 30 different graphs",
+        "assessment": "Months 3-4 check: a mixed fractions-and-decimals paper with a data question, plus revision of months 1-2"
       }
     },
-    "month_11_12": {
-      "title": "Months 11-12: Advanced Geometry and Measurement",
-      "weeks": "Week 45-52",
-      "week_45_46": {
+    "month_5_6_geometry": {
+      "title": "Months 5-6: Geometry, Area and the Level Exam",
+      "weeks": "Weeks 19-26",
+      "week_19_20": {
         "title": "Advanced 2D Geometry",
         "topics": [
           "Types of angles: acute, right, obtuse",
@@ -655,7 +648,7 @@
         ],
         "practice": "Complete 100 geometry exercises"
       },
-      "week_47_48": {
+      "week_21_22": {
         "title": "3D Shapes and Volume",
         "topics": [
           "3D shapes: cube, rectangular prism",
@@ -678,7 +671,7 @@
         ],
         "practice": "Build and analyze 30 3D shapes"
       },
-      "week_49_50": {
+      "week_23_24": {
         "title": "Area and Perimeter",
         "topics": [
           "Perimeter of polygons",
@@ -701,7 +694,7 @@
         ],
         "practice": "Solve 100 area/perimeter problems"
       },
-      "week_51": {
+      "week_25": {
         "title": "Coordinate Geometry",
         "topics": [
           "Coordinate plane introduction",
@@ -724,8 +717,8 @@
         ],
         "practice": "Plot and identify 100 coordinate points"
       },
-      "week_52": {
-        "title": "Phase 2 Capstone Project",
+      "week_26": {
+        "title": "Level B Exam and Celebration",
         "topics": [
           "Integration of Phase 2 concepts",
           "Complex problem-solving",
@@ -734,22 +727,19 @@
           "Self-assessment and reflection"
         ],
         "projects": [
-          "MAJOR CAPSTONE: Mathematics Exhibition",
-          "Create math learning center",
-          "Design complete math curriculum game",
-          "Develop math tutoring materials"
+          "A geometry-and-fractions portfolio of the year’s best work"
         ],
-        "assessment": "Phase 2 Final Exam - comprehensive evaluation"
+        "assessment": "LEVEL B EXAM: a written paper plus a short viva, with questions mixed from the whole level and a few reaching back to Level A. Passing earns the Level B certificate and promotion to Level C; a child who falls short gets focused revision and a free retest"
       }
     }
   },
-  "phase_3_backend_engineering": {
-    "title": "PHASE 3: Advanced Concepts & Problem-Solving (Months 13-18, Weeks 53-78)",
-    "description": "Master complex operations, advanced fractions/decimals, ratios, percentages, and sophisticated problem-solving.",
-    "month_13_14": {
-      "title": "Months 13-14: Advanced Number Theory",
-      "weeks": "Week 53-61",
-      "week_53_54": {
+  "phase_3_level_c": {
+    "title": "PHASE 3: Level C for Grade 5 (One School Year)",
+    "description": "The bridge year: large numbers, advanced fractions, ratios and percentages, circle geometry, first algebra, probability and money maths, everything middle school assumes.",
+    "month_1_2_numbers_fractions": {
+      "title": "Months 1-2: Numbers and Fractions Mastery",
+      "weeks": "Weeks 1-8",
+      "week_1_2": {
         "title": "Large Numbers and Place Value",
         "topics": [
           "Numbers to millions",
@@ -770,9 +760,9 @@
           "Population studies project",
           "Create million visualization"
         ],
-        "practice": "Master large numbers with 100 exercises"
+        "practice": "Short daily practice sets, checked and celebrated in class"
       },
-      "week_55_56": {
+      "week_3_4": {
         "title": "Factors and Multiples",
         "topics": [
           "Factors definition and finding",
@@ -795,80 +785,7 @@
         ],
         "practice": "Find factors and multiples of 100 numbers"
       },
-      "week_57_58": {
-        "title": "Advanced Multiplication Strategies",
-        "topics": [
-          "Three-digit by two-digit multiplication",
-          "Multiplication of decimals basics",
-          "Multiplying by powers of 10",
-          "Mental math multiplication tricks",
-          "Distributive property applications",
-          "Area model for larger numbers",
-          "Partial products extended",
-          "Estimation strategies for products",
-          "Multiplication with variables introduction",
-          "Order of operations with multiplication",
-          "Complex word problems",
-          "Real-world multiplication applications"
-        ],
-        "projects": [
-          "Multiplication strategy handbook",
-          "Mental math competition",
-          "Create multiplication teaching video"
-        ],
-        "practice": "Complete 200 advanced multiplication problems"
-      },
-      "week_59_60": {
-        "title": "Advanced Division Strategies",
-        "topics": [
-          "Three-digit by two-digit division",
-          "Division with decimals in dividend",
-          "Dividing by powers of 10",
-          "Mental division strategies",
-          "Interpreting remainders as fractions",
-          "Interpreting remainders as decimals",
-          "Division estimation techniques",
-          "Compatible numbers for division",
-          "Division with variables basics",
-          "Order of operations with division",
-          "Complex division word problems",
-          "Division in real-world contexts"
-        ],
-        "projects": [
-          "Division strategy guide",
-          "Remainder interpretation examples",
-          "Design division challenge game"
-        ],
-        "practice": "Solve 200 advanced division problems"
-      },
-      "week_61": {
-        "title": "Number Patterns and Sequences",
-        "topics": [
-          "Arithmetic sequences",
-          "Finding the rule in patterns",
-          "Extending number patterns",
-          "Geometric sequences basics",
-          "Fibonacci sequence introduction",
-          "Triangular numbers",
-          "Pattern rules with operations",
-          "Input-output tables",
-          "Function machines concept",
-          "Growing patterns",
-          "Decreasing patterns",
-          "Complex pattern problems"
-        ],
-        "projects": [
-          "Pattern detective notebook",
-          "Create pattern puzzles",
-          "Design sequence generator"
-        ],
-        "practice": "Identify and extend 100 patterns"
-      }
-    },
-    "month_15_16": {
-      "title": "Months 15-16: Advanced Fractions and Decimals",
-      "weeks": "Week 62-70",
-      "week_62_63": {
+      "week_5_6": {
         "title": "Complex Fraction Operations",
         "topics": [
           "Adding mixed numbers with regrouping",
@@ -891,7 +808,7 @@
         ],
         "practice": "Master 200 complex fraction problems"
       },
-      "week_64_65": {
+      "week_7_8": {
         "title": "Advanced Decimal Operations",
         "topics": [
           "Multiplying decimals by decimals",
@@ -912,9 +829,14 @@
           "Scientific measurement project",
           "Design decimal Olympics"
         ],
-        "practice": "Complete 200 decimal operations"
-      },
-      "week_66_67": {
+        "practice": "Complete 200 decimal operations",
+        "assessment": "Months 1-2 check: mixed numbers-and-fractions paper, with revision questions from Level B"
+      }
+    },
+    "month_3_4_proportion_geometry": {
+      "title": "Months 3-4: Proportional Thinking and Geometry",
+      "weeks": "Weeks 9-16",
+      "week_9_10": {
         "title": "Ratios and Proportions",
         "topics": [
           "Ratio concept and notation",
@@ -937,7 +859,7 @@
         ],
         "practice": "Solve 150 ratio and proportion problems"
       },
-      "week_68_69": {
+      "week_11_12": {
         "title": "Percentages",
         "topics": [
           "Percent meaning and symbol",
@@ -960,34 +882,7 @@
         ],
         "practice": "Master 150 percentage problems"
       },
-      "week_70": {
-        "title": "Mixed Operations and Order",
-        "topics": [
-          "Order of operations introduction",
-          "PEMDAS/BODMAS rule",
-          "Parentheses and brackets",
-          "Exponents in order of operations",
-          "Multiple operations problems",
-          "Nested parentheses",
-          "Writing expressions from words",
-          "Evaluating expressions",
-          "Creating equivalent expressions",
-          "Properties of operations review",
-          "Mental math with mixed operations",
-          "Complex multi-step problems"
-        ],
-        "projects": [
-          "Order of operations poster",
-          "Expression puzzle cards",
-          "Create operations game"
-        ],
-        "practice": "Solve 100 order of operations problems"
-      }
-    },
-    "month_17_18": {
-      "title": "Months 17-18: Advanced Geometry and Measurement",
-      "weeks": "Week 71-78",
-      "week_71_72": {
+      "week_13_14": {
         "title": "Advanced Angle Relationships",
         "topics": [
           "Complementary angles",
@@ -1010,30 +905,7 @@
         ],
         "practice": "Solve 100 angle problems"
       },
-      "week_73_74": {
-        "title": "Transformations and Symmetry",
-        "topics": [
-          "Translations (slides) in detail",
-          "Reflections (flips) advanced",
-          "Rotations (turns) 90°, 180°, 270°",
-          "Combinations of transformations",
-          "Line symmetry advanced",
-          "Rotational symmetry",
-          "Tessellations introduction",
-          "Creating tessellation patterns",
-          "Transformations on coordinate grid",
-          "Enlargements and reductions",
-          "Scale factor basics",
-          "Symmetry in art and nature"
-        ],
-        "projects": [
-          "Transformation artwork",
-          "Tessellation designs",
-          "Create symmetry portfolio"
-        ],
-        "practice": "Complete 100 transformation exercises"
-      },
-      "week_75_76": {
+      "week_15_16": {
         "title": "Circle Geometry",
         "topics": [
           "Circle vocabulary: radius, diameter",
@@ -1054,57 +926,14 @@
           "Circle measurement lab",
           "Design circular art project"
         ],
-        "practice": "Solve 100 circle problems"
-      },
-      "week_77": {
-        "title": "Advanced Measurement Conversions",
-        "topics": [
-          "Metric system relationships",
-          "Converting within metric system",
-          "Imperial system relationships",
-          "Converting within imperial system",
-          "Metric to imperial conversions",
-          "Area unit conversions",
-          "Volume unit conversions",
-          "Time conversions complex",
-          "Speed, distance, time relationships",
-          "Rate problems",
-          "Dimensional analysis basics",
-          "Real-world conversion problems"
-        ],
-        "projects": [
-          "Conversion reference handbook",
-          "Measurement conversion game",
-          "Create conversion calculator"
-        ],
-        "practice": "Master 150 conversion problems"
-      },
-      "week_78": {
-        "title": "Phase 3 Capstone Project",
-        "topics": [
-          "Integration of advanced concepts",
-          "Complex problem-solving showcase",
-          "Mathematical modeling",
-          "Project documentation",
-          "Presentation preparation"
-        ],
-        "projects": [
-          "MAJOR CAPSTONE: Mathematics Research Project",
-          "Create advanced math tutorial series",
-          "Design comprehensive math assessment tool",
-          "Develop math competition preparation materials"
-        ],
-        "assessment": "Phase 3 Final Exam - advanced concepts mastery"
+        "practice": "Solve 100 circle problems",
+        "assessment": "Months 3-4 check: ratios, percentages and geometry mixed together, the way real problems arrive"
       }
-    }
-  },
-  "phase_4_advanced_production": {
-    "title": "PHASE 4: Mastery & Real-World Applications (Months 19-24, Weeks 79-104)",
-    "description": "Master pre-algebra concepts, statistics, probability, mathematical reasoning, and real-world applications.",
-    "month_19_20": {
-      "title": "Months 19-20: Pre-Algebra Foundations",
-      "weeks": "Week 79-87",
-      "week_79_80": {
+    },
+    "month_5_6_prealgebra_data": {
+      "title": "Months 5-6: First Algebra, Data and the Level Exam",
+      "weeks": "Weeks 17-26",
+      "week_17_18": {
         "title": "Variables and Expressions",
         "topics": [
           "Variable as unknown number",
@@ -1125,9 +954,9 @@
           "Expression puzzle cards",
           "Create algebra game"
         ],
-        "practice": "Write and evaluate 150 expressions"
+        "practice": "Write and evaluate 30 expressions over the fortnight, a few each day"
       },
-      "week_81_82": {
+      "week_19_20": {
         "title": "Simple Equations",
         "topics": [
           "Equation vs expression",
@@ -1148,82 +977,9 @@
           "Balance scale demonstrations",
           "Create equation puzzle book"
         ],
-        "practice": "Solve 200 equations"
+        "practice": "Short daily practice sets, checked and celebrated in class"
       },
-      "week_83_84": {
-        "title": "Inequalities Introduction",
-        "topics": [
-          "Inequality symbols: <, >, ≤, ≥",
-          "Graphing inequalities on number line",
-          "Writing inequalities from words",
-          "Solving one-step inequalities",
-          "Checking inequality solutions",
-          "Real-world inequality situations",
-          "Compound inequalities basics",
-          "And vs or in inequalities",
-          "Graphing solution sets",
-          "Inequality word problems",
-          "Creating inequalities from data",
-          "Systems thinking introduction"
-        ],
-        "projects": [
-          "Inequality visualization tools",
-          "Real-world inequality examples",
-          "Design inequality game"
-        ],
-        "practice": "Solve 100 inequality problems"
-      },
-      "week_85_86": {
-        "title": "Functions and Graphing",
-        "topics": [
-          "Function concept introduction",
-          "Input-output relationships",
-          "Function tables",
-          "Function rules and patterns",
-          "Graphing points review",
-          "Graphing linear patterns",
-          "Slope concept basics",
-          "Positive vs negative slope",
-          "Y-intercept understanding",
-          "Graphing from table of values",
-          "Real-world linear relationships",
-          "Non-linear patterns introduction"
-        ],
-        "projects": [
-          "Function machine model",
-          "Linear relationship investigations",
-          "Create graphing portfolio"
-        ],
-        "practice": "Graph 100 functions and relationships"
-      },
-      "week_87": {
-        "title": "Integer Operations",
-        "topics": [
-          "Negative numbers in context",
-          "Integers on number line",
-          "Absolute value concept",
-          "Adding integers with chips/number line",
-          "Subtracting integers",
-          "Multiplying integers",
-          "Dividing integers",
-          "Integer operation rules",
-          "Order of operations with integers",
-          "Integer word problems",
-          "Temperature and elevation problems",
-          "Financial contexts with integers"
-        ],
-        "projects": [
-          "Integer operations game",
-          "Temperature tracking project",
-          "Create integer reference guide"
-        ],
-        "practice": "Master 150 integer operations"
-      }
-    },
-    "month_21_22": {
-      "title": "Months 21-22: Statistics and Probability",
-      "weeks": "Week 88-96",
-      "week_88_89": {
+      "week_21_22": {
         "title": "Advanced Data Analysis",
         "topics": [
           "Mean, median, mode review",
@@ -1246,7 +1002,7 @@
         ],
         "practice": "Analyze 50 data sets"
       },
-      "week_90_91": {
+      "week_23_24": {
         "title": "Probability Fundamentals",
         "topics": [
           "Probability as likelihood",
@@ -1269,54 +1025,8 @@
         ],
         "practice": "Calculate 100 probabilities"
       },
-      "week_92_93": {
-        "title": "Combinations and Permutations Basics",
-        "topics": [
-          "Counting principle",
-          "Tree diagrams for counting",
-          "Organized lists",
-          "Combinations introduction",
-          "Permutations introduction",
-          "Difference between combinations and permutations",
-          "Factorial notation basics",
-          "Simple combination problems",
-          "Simple permutation problems",
-          "Probability with combinations",
-          "Real-world counting problems",
-          "Problem-solving strategies"
-        ],
-        "projects": [
-          "Counting methods handbook",
-          "Combination lock mathematics",
-          "Create counting puzzle book"
-        ],
-        "practice": "Solve 100 counting problems"
-      },
-      "week_94_95": {
-        "title": "Statistical Reasoning",
-        "topics": [
-          "Making predictions from data",
-          "Interpolation and extrapolation",
-          "Correlation vs causation",
-          "Bias in data collection",
-          "Random sampling importance",
-          "Margin of error basics",
-          "Confidence basics",
-          "Using statistics to support arguments",
-          "Critical analysis of statistics",
-          "Statistics in media",
-          "Creating statistical reports",
-          "Presenting statistical findings"
-        ],
-        "projects": [
-          "Statistical analysis report",
-          "Media statistics critique",
-          "Design statistical study"
-        ],
-        "practice": "Analyze 30 statistical claims"
-      },
-      "week_96": {
-        "title": "Financial Mathematics",
+      "week_25_26": {
+        "title": "Money Maths, Review and the Level C Exam",
         "topics": [
           "Simple interest calculation",
           "Compound interest introduction",
@@ -1329,307 +1039,139 @@
           "Unit price comparisons",
           "Best buy problems",
           "Currency exchange basics",
-          "Financial planning introduction"
+          "Financial planning introduction",
+          "Full-course spiral review: the greatest hits of all three levels",
+          "Exam technique for children: reading twice, showing working, checking once"
         ],
         "projects": [
-          "Personal finance portfolio",
-          "Investment simulation game",
-          "Create financial literacy guide"
+          "A real family budget project, planned and presented",
+          "The Level C portfolio: the year’s best work"
         ],
-        "practice": "Solve 100 financial problems"
-      }
-    },
-    "month_23": {
-      "title": "Month 23: Advanced Problem-Solving & Logic",
-      "weeks": "Week 97-100",
-      "week_97": {
-        "title": "Logic and Reasoning",
-        "topics": [
-          "Logical thinking development",
-          "If-then statements",
-          "Converse and inverse",
-          "Truth tables basics",
-          "Venn diagrams advanced",
-          "Set theory basics",
-          "Union and intersection",
-          "Logical puzzles",
-          "Deductive reasoning",
-          "Inductive reasoning",
-          "Proof by example",
-          "Counter-examples"
-        ],
-        "projects": [
-          "Logic puzzle collection",
-          "Venn diagram investigations",
-          "Create reasoning game"
-        ],
-        "practice": "Solve 100 logic problems"
-      },
-      "week_98": {
-        "title": "Problem-Solving Strategies Mastery",
-        "topics": [
-          "Polya's problem-solving method",
-          "Understanding the problem",
-          "Devising a plan",
-          "Carrying out the plan",
-          "Looking back and checking",
-          "Multiple solution methods",
-          "Working backwards mastery",
-          "Guess and check refinement",
-          "Make it simpler strategy",
-          "Look for patterns advanced",
-          "Use a model or diagram",
-          "Eliminate possibilities"
-        ],
-        "projects": [
-          "Problem-solving strategy guide",
-          "Multi-solution problem collection",
-          "Create strategy reference"
-        ],
-        "practice": "Apply strategies to 100 problems"
-      },
-      "week_99": {
-        "title": "Mathematical Investigations",
-        "topics": [
-          "Open-ended problem exploration",
-          "Mathematical conjectures",
-          "Testing hypotheses",
-          "Finding counterexamples",
-          "Generalizing patterns",
-          "Mathematical communication",
-          "Writing mathematical explanations",
-          "Justifying solutions",
-          "Peer review of solutions",
-          "Mathematical debates",
-          "Creating mathematical questions",
-          "Research projects"
-        ],
-        "projects": [
-          "Mathematical investigation journal",
-          "Pattern investigation report",
-          "Create math research project"
-        ],
-        "practice": "Complete 20 investigations"
-      },
-      "week_100": {
-        "title": "Competition Mathematics",
-        "topics": [
-          "Math competition formats",
-          "Time management strategies",
-          "Mental math advanced techniques",
-          "Estimation strategies advanced",
-          "Number sense development",
-          "Pattern recognition mastery",
-          "Lateral thinking problems",
-          "Multi-step problem strategies",
-          "Competition problem types",
-          "Practice competition rounds",
-          "Analyzing solutions",
-          "Learning from mistakes"
-        ],
-        "projects": [
-          "Competition prep handbook",
-          "Practice competition set",
-          "Create math challenge book"
-        ],
-        "practice": "Solve 100 competition-level problems"
-      }
-    },
-    "month_24": {
-      "title": "Month 24: Culmination and Future Preparation",
-      "weeks": "Week 101-104",
-      "week_101_102": {
-        "title": "Real-World Mathematics Applications",
-        "topics": [
-          "Mathematics in architecture",
-          "Mathematics in art and design",
-          "Mathematics in nature",
-          "Mathematics in music",
-          "Mathematics in sports",
-          "Mathematics in cooking",
-          "Mathematics in travel",
-          "Mathematics in technology",
-          "Mathematics in business",
-          "Mathematics in science",
-          "Career connections",
-          "Future mathematics pathways"
-        ],
-        "projects": [
-          "FINAL CAPSTONE: Mathematics in My World",
-          "Cross-curricular mathematics project",
-          "Real-world problem-solving portfolio",
-          "Mathematics career exploration"
-        ]
-      },
-      "week_103": {
-        "title": "Comprehensive Review and Integration",
-        "topics": [
-          "Number and operations mastery review",
-          "Algebraic thinking review",
-          "Geometry and measurement review",
-          "Data analysis review",
-          "Problem-solving strategies review",
-          "Making connections across topics",
-          "Identifying strengths and gaps",
-          "Creating personal math reference",
-          "Reflection on learning journey",
-          "Setting future goals",
-          "Preparation for middle school math",
-          "Celebration of achievements"
-        ],
-        "deliverables": [
-          "Complete mathematics portfolio",
-          "Personal reference handbook",
-          "Skills assessment report",
-          "Learning reflection essay",
-          "Future learning plan",
-          "Peer teaching demonstration",
-          "Parent presentation",
-          "Achievement showcase"
-        ]
-      },
-      "week_104": {
-        "title": "Transition to Advanced Mathematics",
-        "topics": [
-          "Preview of middle school mathematics",
-          "Introduction to advanced algebra",
-          "Geometry preview",
-          "Advanced problem-solving",
-          "Study skills for mathematics",
-          "Using technology in math",
-          "Online mathematics resources",
-          "Mathematics communities",
-          "Continuing education options",
-          "Summer mathematics activities",
-          "Maintaining skills",
-          "Lifelong learning in mathematics"
-        ],
-        "deliverables": [
-          "Future learning roadmap",
-          "Resource compilation",
-          "Summer practice plan",
-          "Mathematics goals document",
-          "Skill maintenance schedule",
-          "Advanced topic preview",
-          "Personal achievement record"
-        ],
-        "assessment": "FINAL COMPREHENSIVE EXAM - Complete elementary mathematics mastery evaluation"
+        "practice": "Daily mixed revision sets in the final fortnight",
+        "assessment": "LEVEL C EXAM: a written paper plus a short viva, with questions mixed from the whole level and earlier ones. Passing earns the Level C certificate, completing the elementary program ready for middle school; a child who falls short gets focused revision and a free retest"
       }
     }
   },
   "additional_learning_resources": {
     "projects_throughout_course": [
-      "Phase 1: Number books, Counting games, Shape art, Measurement labs, Time/money projects",
-      "Phase 2: Multiplication championship, Division guides, Fraction cookbooks, Decimal calculators, Geometry portfolios",
-      "Phase 3: Large number investigations, Pattern discoveries, Ratio/proportion applications, Percentage shopping, Circle geometry art",
-      "Phase 4: Algebra games, Statistics reports, Probability experiments, Logic puzzles, Real-world applications"
+      "Level A: number books, counting games, shape art, time and money projects, a measurement lab at home",
+      "Level B: multiplication championships, fraction cookbooks, decimal shopping games, geometry portfolios",
+      "Level C: percentage shopping challenges, circle geometry art, algebra puzzle cards, probability experiments, a family budget project"
     ],
-    "total_projects_built": "100+ projects ranging from simple to complex",
+    "total_projects_built": "60+ hands-on maths projects and games across the three levels",
     "skills_mastered": [
-      "Number Sense: Counting, place value, number relationships, mental math",
-      "Operations: Addition, subtraction, multiplication, division fluency",
-      "Fractions/Decimals: Operations, conversions, real-world applications",
-      "Measurement: Length, weight, capacity, time, money, temperature",
-      "Geometry: 2D/3D shapes, angles, transformations, coordinate geometry",
-      "Data Analysis: Graphs, statistics, interpretation, presentation",
-      "Algebra: Variables, expressions, equations, functions, patterns",
-      "Problem-Solving: Multiple strategies, logical reasoning, mathematical communication",
-      "Applications: Financial literacy, real-world connections, STEM foundations"
+      "Number sense: counting, place value, mental strategies and the confidence to estimate",
+      "Operations: addition, subtraction, multiplication and division to real fluency",
+      "Fractions and decimals: understood with models first, then mastered in operations",
+      "Measurement and money: time, length, weight, capacity and practical money maths",
+      "Geometry: 2D and 3D shapes, angles, symmetry, circles, area and perimeter",
+      "Data and probability: reading, drawing and questioning graphs, first probability",
+      "First algebra: variables, expressions and simple equations, the middle-school bridge",
+      "Problem solving: bar models, working backwards, and explaining the why out loud"
     ],
     "weekly_structure": {
-      "theory_videos": "3-5 hours",
-      "hands_on_activities": "5-7 hours",
-      "practice_problems": "3-4 hours",
-      "projects": "2-3 hours",
-      "games_and_puzzles": "1-2 hours",
-      "total_per_week": "10-15 hours"
-    },
-    "support_provided": {
-      "live_sessions": "Weekly problem-solving sessions",
-      "mentorship": "1-on-1 tutoring available",
-      "community": "Parent and student forums",
-      "progress_tracking": "Detailed progress reports",
-      "parent_guides": "Resources for parent support",
-      "adaptive_learning": "Personalized learning paths"
+      "live_classes": "2 live classes per week, small groups, taught with objects and visuals before symbols",
+      "homework": "A short homework sheet after every class, and weekly mixed practice that revisits earlier topics",
+      "practice": "20-30 minutes of daily practice, structured as games and challenge sets",
+      "review": "Every sheet checked with written feedback; wobbly topics reopened in class before they become gaps"
     },
     "certification": {
-      "phase_certificates": "Certificate after each phase",
-      "final_certificate": "Elementary Mathematics Mastery Certificate",
-      "skill_badges": "Digital badges for specific skills",
-      "portfolio": "Complete work portfolio",
-      "assessment_reports": "Detailed skill assessments"
+      "completion": "A level certificate at the end of each level, awarded on passing the level exam (a written paper plus a friendly viva). Fall short and there is focused revision and a free retest: the certificate certifies knowledge, not attendance"
+    },
+    "support_provided": {
+      "doubt_support": "WhatsApp doubt support between classes, for the homework question that turns into tears",
+      "progress_updates": "Regular written notes to parents: what was learned, what comes next, and exactly how to help at home"
     }
   },
   "prerequisites": {
-    "education": "No prior mathematics knowledge required",
-    "age": "Suitable for ages 6+ with appropriate support",
-    "equipment": "Basic school supplies, computer/tablet helpful",
-    "time_commitment": "10-15 hours per week",
-    "language": "Basic reading comprehension",
-    "support": "Parent/guardian support for younger learners"
+    "maths_background": "None. Level A starts at counting; placement decides the right entry point",
+    "reading": "Basic reading helps from Grade 2 up; Level A supports early readers with visual instructions",
+    "equipment": "A computer or tablet with a stable internet connection; a notebook and pencil matter more than any app",
+    "age": "Grades 1-5 (roughly ages 6-11). Placement is by a short friendly check, never age alone",
+    "time_commitment": "2 live classes plus 20-30 minutes of practice a day"
   },
   "who_is_this_for": {
-    "young_students": "Elementary school students (Grades 1-5)",
-    "homeschoolers": "Homeschooling families seeking comprehensive curriculum",
-    "parents": "Parents wanting to support children's learning",
-    "teachers": "Educators seeking supplementary resources",
-    "tutors": "Tutors needing structured curriculum",
-    "adult_learners": "Adults filling mathematics gaps",
-    "esl_students": "English language learners with visual supports"
+    "building_foundations": "Children in Grades 1-2 whose parents want the foundation laid properly the first time",
+    "catching_up": "Children in Grades 3-5 with gaps that classroom pace never allows anyone to go back and fix",
+    "moving_ahead": "Confident children who finish school worksheets early and are hungry for more",
+    "anxious_students": "Children who have started saying they hate maths, usually one patient level away from changing their mind",
+    "structure_seekers": "Families who want a real syllabus, real checks and real certificates, not an endless app subscription"
   },
+  "career_paths_after_completion": [
+    "Middle School Mathematics: the direct continuation, entered with a tested foundation",
+    "Mental Maths Mastery: speed and number sense built alongside or after any level",
+    "Olympiad and competition maths: for Level C graduates who found the puzzles delicious",
+    "Maths Through Coding: where the numbers start moving on screen",
+    "School confidence, immediately: the level system mirrors and reinforces classroom maths all year"
+  ],
   "learning_outcomes": [
-    "Complete mastery of elementary mathematics",
-    "Strong problem-solving abilities",
-    "Mathematical confidence and enthusiasm",
-    "Preparation for middle school mathematics",
-    "Real-world application skills",
-    "Logical and analytical thinking",
-    "Mathematical communication skills",
-    "Technology integration abilities",
-    "Competition readiness",
-    "STEM career foundation"
+    "Tested mastery of elementary mathematics, level by level",
+    "Fluency in all four operations with real number sense",
+    "Fractions, decimals, ratios and percentages understood, not memorized",
+    "Geometry and measurement handled with confidence",
+    "First algebra and probability, the middle-school bridge",
+    "The habit of showing working and explaining reasoning out loud",
+    "Calm exam technique appropriate to age",
+    "A child who volunteers answers in class again"
   ],
   "assessment_methods": {
-    "formative": "Daily practice problems and quizzes",
-    "summative": "End-of-week and unit tests",
-    "projects": "Hands-on project evaluations",
-    "portfolios": "Ongoing portfolio assessment",
-    "peer_assessment": "Peer review activities",
-    "self_assessment": "Reflection and self-evaluation",
-    "performance": "Real-world application tasks"
+    "classwork": "Guided practice inside every live class, checked on the spot",
+    "homework": "A short sheet after every class, marked with written feedback",
+    "mixed_review": "Weekly practice deliberately mixes new topics with earlier ones, so skills stop fading",
+    "monthly_checks": "A friendly mixed quiz at the end of every month pair",
+    "mid_level": "A mid-level check halfway through each level",
+    "level_exam": "A written paper plus a short viva at the end of each level; passing earns the certificate and promotion",
+    "retest_policy": "A child who falls short gets a focused revision plan and a free retest, always"
   },
   "course_guarantees": {
     "live_classes": "Live, interactive classes with a real instructor, never pre-recorded videos.",
     "small_batches": "Small batches only: group classes are capped at 10 students, with mini-batch (3 to 4 students) and personal 1-on-1 options.",
-    "structured_curriculum": "A structured, well-paced curriculum taught step by step, with hands-on practice in every session.",
+    "structured_curriculum": "A structured, well-paced curriculum taught step by step, with classwork in every session and homework after every class.",
+    "real_assessment": "Mixed-review practice every week and a level exam that decides each certificate: real knowledge, real work.",
     "doubt_support": "Doubt support between classes over WhatsApp, so you are never left stuck.",
-    "certificate": "A course-completion certificate you can share.",
+    "certificate": "Level certificates your child earns by passing level exams, with a free retest after revision if needed.",
     "free_demo": "A free demo class before you enrol, so you can decide with no pressure."
   },
   "faqs": [
     {
-      "question": "What age group is this Elementary Mathematics course designed for?",
-      "answer": "This comprehensive course is designed for students ages 6-12 (Grades 1-5), though it can also help older students fill knowledge gaps or adults learning mathematics fundamentals. The curriculum adapts to each learner's pace with age-appropriate explanations and activities."
+      "question": "Which level will my child join?",
+      "answer": "A short, friendly placement check decides, never age alone. Level A builds Grades 1-2 (counting to first multiplication, time, money), Level B builds Grades 3-4 (multiplication and division fluency, fractions, decimals, geometry), and Level C completes Grade 5 (ratios, percentages, first algebra, probability). Most children join the level matching their grade; children with gaps start where the gaps are, because skipping holes in maths only buries them."
     },
     {
-      "question": "My child struggles with math anxiety. How does this course help?",
-      "answer": "We understand math anxiety is real! Our course uses fun games, visual learning, hands-on projects, and encouraging feedback to build confidence. We start with foundational concepts and progress gradually, celebrating small wins. Most students who start anxious end up loving math within weeks."
+      "question": "How long does each level take?",
+      "answer": "Each level is one school year: 10 months of teaching at 2 live classes a week, with up to 12 months for children who need more repetition. That margin is deliberate, at this age the pace adapts to the child, never the other way around. A child who starts in Level A and continues through Level C finishes elementary maths genuinely owned, not skimmed."
     },
     {
-      "question": "What topics are covered in this 24-month Elementary Mathematics program?",
-      "answer": "The course covers: Number sense and operations, Addition/Subtraction/Multiplication/Division mastery, Fractions and Decimals, Measurement and Geometry, Data analysis and Graphing, Pre-Algebra foundations, Problem-solving strategies, Statistics and Probability basics, and real-world math applications. It's a complete K-5 math foundation."
+      "question": "How is my child assessed? Is the certificate just for attending?",
+      "answer": "No. There is classwork in every session, a short homework sheet after every class, weekly mixed practice that deliberately revisits earlier topics, a friendly quiz at each month-pair, a mid-level check, and a level exam at the end: a written paper plus a short viva. Passing earns the level certificate and promotion; a child who falls short gets focused revision and a free retest. Gentle in tone, real in standard."
     },
     {
-      "question": "How is this different from school math tutoring?",
-      "answer": "Unlike traditional tutoring that focuses on homework help, this course builds deep conceptual understanding through visual learning, games, and projects. Students don't just memorize procedures - they understand WHY math works. This creates confident problem-solvers who excel in any math situation."
+      "question": "My child struggles with maths anxiety. How does this course help?",
+      "answer": "By removing the two causes: gaps and pace. Placement starts the child where their gaps actually are, and every concept begins with objects and pictures before symbols, so understanding always precedes speed. Classes are small, wins are celebrated, and practice is 20 to 30 minutes daily rather than exhausting marathons. Most anxious children change their mind about maths within one level, because the anxiety was never about maths, it was about being lost."
     },
     {
-      "question": "How much time should my child spend on this course each week?",
-      "answer": "We recommend 10-15 hours per week, broken into daily sessions of 1.5-2 hours. However, the course is flexible - students can adjust their pace. Consistency is more important than duration. Even 45 minutes daily produces excellent results over time."
+      "question": "How is this different from school tuition?",
+      "answer": "Tuition usually chases this week’s homework. This is a complete levelled curriculum with its own arc: placement, spiral revision, monthly checks and a level exam, so gaps get found and closed instead of papered over. It runs alongside any school board comfortably, CBSE, ICSE or international, because Grades 1-5 maths is the same mathematics everywhere."
     },
     {
-      "question": "Will this prepare my child for competitive exams and olympiads?",
-      "answer": "Absolutely! The course includes advanced problem-solving, logic puzzles, and competition-style questions. Students completing this program are well-prepared for Math Olympiad, NTSE preparation, school competitions, and develop the strong foundation needed for advanced mathematics in middle school and beyond."
+      "question": "How much time does it take each week?",
+      "answer": "Two live classes a week plus 20 to 30 minutes of daily practice, usually structured as games and short challenge sets. At this age consistency beats intensity: twenty focused daily minutes outperform a two-hour weekend session every time, and it never becomes a fight at the kitchen table."
+    },
+    {
+      "question": "Will this prepare my child for olympiads?",
+      "answer": "It builds the foundation olympiads stand on: real fluency, flexible problem solving and comfort with multi-step reasoning. Level C includes genuine puzzle work. Children who love that side graduate naturally into our dedicated olympiad mathematics courses, which train competition technique specifically."
+    },
+    {
+      "question": "What are the fees?",
+      "answer": "Group classes are ₹1,499 per month, with 2 live classes a week in batches capped at 10 children. A mini batch of 3-4 children is ₹2,999 per month, and personal 1-on-1 classes are ₹4,999 per month. International families pay a price set for their own country, shown on this page in their local currency."
+    },
+    {
+      "question": "Is there a free trial class?",
+      "answer": "Yes, a free demo class with no commitment: book at learn.modernagecoders.com/contact or message us on WhatsApp at +91 91233 66161. The placement check can happen in the same week, and parents are welcome to sit in on both."
+    },
+    {
+      "question": "Are classes live or recorded?",
+      "answer": "Every class is live: a small group with a real teacher who sees your child’s working in real time, never a pre-recorded video. At this age the teacher’s eyes matter most, catching the finger-counting, the reversed digits, the guess dressed as an answer, and fixing each gently before it becomes a habit."
     }
   ],
   "related_courses": [
@@ -1650,18 +1192,17 @@
     }
   ],
   "why_this_course": {
-    "title": "Why Choose This Elementary Mathematics Program?",
+    "title": "Why Levelled Maths Beats Endless Tuition",
     "paragraphs": [
-      "Mathematics is the foundation of all STEM learning, and the elementary years are when children develop their relationship with numbers that lasts a lifetime. Our program goes beyond memorization to build true mathematical understanding, the kind that makes students genuinely love math rather than fear it.",
-      "Unlike traditional tutoring that focuses on homework completion, our course develops deep number sense through visual learning, hands-on activities, and real-world connections. Children don't just learn procedures, they understand WHY math works, building confidence that transfers to every subject.",
-      "Our expert educators use gamification, personalized pacing, and proven pedagogical methods to make math enjoyable and engaging. With small class sizes and individual attention, every child gets the support they need to thrive."
+      "Most maths help for young children is reactive: chase the homework, patch tonight’s confusion, repeat forever. The result is a child who survives each week but never builds the compounding fluency maths actually is. A levelled curriculum works the other way: find the child’s true starting point, build in the right order, revise in spirals, and test honestly before moving up.",
+      "The three-level structure mirrors how elementary maths really develops: foundations (Grades 1-2), fluency (Grades 3-4), and the bridge to abstraction (Grade 5). Each level is one honest school year, and each ends with an exam a child can genuinely pass or genuinely learn from, followed by a free retest after revision when needed.",
+      "Everything is taught concrete-first, objects and pictures before symbols, in small live classes where the teacher watches the working, not just the answer. Parents get written notes, children get certificates they earned, and maths stops being the subject everyone in the house is quietly afraid of."
     ],
     "highlights": [
-      "24-month comprehensive curriculum covering all K-5 math concepts",
-      "Visual learning approach that builds deep understanding",
-      "Games, puzzles, and real-world math activities",
-      "Olympiad and competition preparation included",
-      "Parent progress reports and involvement resources"
+      "Three school-year levels covering Grades 1-5, entered by placement",
+      "Concrete-pictorial-abstract method in every topic",
+      "Spiral revision weekly, a mid-level check, and a level exam with a free retest policy",
+      "2 live classes a week plus 20-30 minutes of daily practice, sustainable for real families"
     ]
   }
 }
