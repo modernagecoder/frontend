@@ -2,69 +2,66 @@
   "meta": {
     "slug": "competitive-programming-masterclass-college",
     "date": "2025-10-24",
-    "title": "Competitive Programming Course Online: Crack Codeforces",
-    "description": "Live competitive programming course online: 6 months from beginner to Codeforces Expert, mastering DSA and algorithms for ICPC and coding interviews.",
+    "dateModified": "2026-08-23",
+    "title": "Competitive Programming Course: Codeforces to ICPC",
+    "description": "Competitive programming course for students and professionals: C++ and STL speed, number theory, graphs, advanced dynamic programming and contest technique, from beginner to a strong rating, in 10-12 months.",
     "keywords": [
-      "competitive programming",
-      "codeforces",
-      "codechef",
-      "atcoder",
-      "icpc",
-      "google code jam",
-      "facebook hacker cup",
-      "algorithms",
-      "data structures",
-      "problem solving",
-      "contest programming",
-      "dynamic programming",
-      "graph theory",
-      "number theory",
-      "combinatorics"
+      "competitive programming course online",
+      "competitive coding course",
+      "codeforces training course",
+      "icpc preparation course",
+      "cp course with c++",
+      "competitive programming for beginners",
+      "advanced algorithms contest course",
+      "number theory for competitive programming",
+      "competitive programming course india",
+      "contest programming course",
+      "best competitive programming course",
+      "competitive coding for placements"
     ],
-    "category": "Competitive Programming & Algorithms",
+    "category": "Programming",
     "taxonomy": "programming",
     "price": {
       "group": "₹1,499/month",
       "personal": "₹4,999/month"
     },
-    "duration": "6 months (26 weeks)",
-    "level": "Complete Beginner to Expert Competitive Programmer",
-    "commitment": "20-25 hours/week recommended",
-    "certification": "Competitive Programming Expert Certification",
+    "duration": "10-12 months (44-52 weeks)",
+    "level": "Complete beginner (18+); college students, graduates and working professionals",
+    "commitment": "2 live classes/week + 4-6 hours practice",
+    "certification": "Certificate from Modern Age Coders, awarded on passing the final exam",
     "image_path": "placement-prep-college.webp"
   },
   "program_overview": {
-    "title": "Complete Competitive Programming Masterclass",
-    "tagline": "From Zero to Contest Champion in 6 Months",
-    "description": "This intensive 6-month program transforms beginners into expert competitive programmers capable of competing in top-tier programming contests. Master every algorithm, data structure, and problem-solving technique used in competitive programming.\n\nYou'll solve 1000+ problems, participate in 100+ contests, learn advanced algorithms, master dynamic programming, conquer graph theory, and develop the speed and accuracy needed for top rankings. By completion, you'll be ready for ICPC, Google Code Jam, and achieve high ratings on platforms like Codeforces and CodeChef.",
+    "title": "Competitive Programming Masterclass",
+    "tagline": "From your first contest to a rating you are proud of: C++ speed, the algorithmic arsenal, and the contest technique nobody teaches you alone.",
+    "description": "Competitive programming is where algorithmic skill becomes fast, precise and fearless, and it pays off far beyond contests: the same technique wins placement rounds, quant interviews and hard engineering problems. This live online masterclass builds it in the order that actually works: C++ with STL and fast I/O, complexity instincts and the core structures, then the arsenal, number theory, combinatorics, tree and graph algorithms, dynamic programming from basics to bitmask and DP-on-trees, string algorithms, computational geometry, then the part solo learners never crack: contest strategy, speed, template discipline and reading problems under pressure, up through expert-level techniques like FFT and advanced graph theory. A finale month runs a full contest simulation and sits the final exam.\n\nThe pace is honest: ten teaching months at two live classes a week plus four to six hours of solving, with two more in hand. Problem sets after every class, monthly mixed reviews, phase exams, and a final exam that decides the certificate with a free retest.",
     "what_makes_this_different": [
-      "Start from absolute basics with C++ STL",
-      "1000+ carefully curated problems with video editorials",
-      "Live contest participation and analysis",
-      "Speed programming techniques and shortcuts",
-      "Mathematical foundations for CP",
-      "Team contest strategies for ICPC",
-      "Rating improvement guaranteed approach",
-      "Mental preparation and contest psychology"
+      "Contest technique taught explicitly: strategy, speed and template discipline, not just algorithms",
+      "C++ and STL for competitive speed, the arena standard",
+      "The full arsenal: number theory, geometry, advanced DP and expert graph theory",
+      "Real contests during the course, debriefed honestly, no rating promises",
+      "An honest 10-month arc with 2 months in hand",
+      "Real assessment: weekly problem sets, monthly mixed reviews, phase exams and a final exam with a free retest"
     ],
     "learning_path": {
-      "phase_1": "Foundation (Months 1-2): C++ STL, Basic DS/Algo, Easy Problems",
-      "phase_2": "Intermediate (Months 3-4): Advanced DS, DP, Graphs, Mathematics",
-      "phase_3": "Advanced (Months 5-6): Expert Algorithms, Optimization, Contest Mastery"
+      "phase_1": "Foundations (Months 1-3): C++ and STL, math, number theory, core structures and DP basics",
+      "phase_2": "The arsenal (Months 4-6): advanced DP, strings, geometry, data structures and contest strategy",
+      "phase_3": "Expert level (Months 7-9): FFT, linear algebra, advanced string and graph theory, peak performance",
+      "phase_4": "The finale (Month 10): a full contest simulation and the final exam"
     },
     "career_outcomes": [
-      "Codeforces Pupil (after 2 months)",
-      "Codeforces Specialist (after 3 months)",
-      "Codeforces Expert (after 5 months)",
-      "Master/International Master potential (after 6 months)"
+      "Contest-grade speed and precision that transfer straight to interviews",
+      "The algorithmic arsenal serious problems demand",
+      "A portfolio of solved contest problems and honest rating progress",
+      "Honest next roads: higher-rated contests, ICPC, quant or product interviews"
     ]
   },
   "phase_1_foundation": {
     "title": "PHASE 1: Foundation & Problem Solving Basics (Months 1-2, Weeks 1-8)",
     "description": "Build strong foundations in C++ STL, basic algorithms, and develop problem-solving mindset.",
-    "month_1_2": {
+    "month_1": {
       "title": "Month 1: C++ Mastery & Basic Algorithms",
-      "weeks": "Week 1-4",
+      "weeks": "Weeks 1-5",
       "week_1_2": {
         "title": "C++ STL & Fast I/O",
         "topics": [
@@ -100,7 +97,7 @@
           "Simple implementation"
         ]
       },
-      "week_3_4": {
+      "week_3": {
         "title": "Time Complexity & Basic Algorithms",
         "topics": [
           "Time and space complexity analysis",
@@ -135,7 +132,7 @@
           "Sliding window maximum"
         ]
       },
-      "week_5_6": {
+      "week_4": {
         "title": "Basic Data Structures",
         "topics": [
           "Arrays and vectors optimization",
@@ -170,7 +167,7 @@
           "Range query basics"
         ]
       },
-      "week_7_8": {
+      "week_5": {
         "title": "Recursion & Backtracking",
         "topics": [
           "Recursion optimization techniques",
@@ -206,10 +203,10 @@
         ]
       }
     },
-    "month_3_4": {
+    "month_2": {
       "title": "Month 2: Mathematics & Number Theory",
-      "weeks": "Week 5-8",
-      "week_9_10": {
+      "weeks": "Weeks 6-9",
+      "week_6": {
         "title": "Number Theory Fundamentals",
         "topics": [
           "Prime numbers and sieve of Eratosthenes",
@@ -244,7 +241,7 @@
           "Euler's totient function"
         ]
       },
-      "week_11_12": {
+      "week_7": {
         "title": "Combinatorics & Probability",
         "topics": [
           "Permutations and combinations",
@@ -279,7 +276,7 @@
           "Game theory basics"
         ]
       },
-      "week_13_14": {
+      "week_8": {
         "title": "Bit Manipulation Mastery",
         "topics": [
           "Bitwise operations deep dive",
@@ -314,7 +311,7 @@
           "Power set generation"
         ]
       },
-      "week_15_16": {
+      "week_9": {
         "title": "Sorting & Searching Advanced",
         "topics": [
           "Quick sort optimizations",
@@ -348,28 +345,12 @@
           "Search in rotated array",
           "Aggressive cows problem"
         ]
-      },
-      "week_17": {
-        "title": "Phase 1 Assessment",
-        "topics": [
-          "Foundation skills review",
-          "Speed coding assessment",
-          "Problem-solving patterns",
-          "Contest performance analysis",
-          "Weakness identification"
-        ],
-        "projects": [
-          "CAPSTONE: Virtual Contest Marathon",
-          "Participate in 10 virtual contests",
-          "Achieve consistent problem solving"
-        ],
-        "assessment": "Phase 1 Exam - Solve 5 problems in 2 hours"
       }
     },
-    "month_5_6": {
-      "title": "Months 3-4: Trees, Graphs & Dynamic Programming",
-      "weeks": "Week 9-17",
-      "week_18_19": {
+    "month_3": {
+      "title": "Month 3: Trees, Graphs & Dynamic Programming",
+      "weeks": "Weeks 10-13",
+      "week_10": {
         "title": "Tree Algorithms",
         "topics": [
           "Tree traversals optimization",
@@ -404,7 +385,7 @@
           "Binary lifting problems"
         ]
       },
-      "week_20_21": {
+      "week_11": {
         "title": "Graph Algorithms Fundamentals",
         "topics": [
           "Graph representations optimization",
@@ -439,7 +420,7 @@
           "Minimum vertex cover"
         ]
       },
-      "week_22_23": {
+      "week_12": {
         "title": "Shortest Paths & MST",
         "topics": [
           "Dijkstra's algorithm optimizations",
@@ -474,7 +455,7 @@
           "Shortest path queries"
         ]
       },
-      "week_24_25": {
+      "week_13": {
         "title": "Dynamic Programming Basics",
         "topics": [
           "DP state definition techniques",
@@ -507,33 +488,18 @@
           "Matrix chain multiplication",
           "Optimal BST",
           "Palindrome problems"
-        ]
-      },
-      "week_26": {
-        "title": "Phase 2 Assessment",
-        "topics": [
-          "Intermediate skills evaluation",
-          "Algorithm implementation speed",
-          "Problem pattern recognition",
-          "Contest rating improvement",
-          "Advanced topics readiness"
         ],
-        "projects": [
-          "MAJOR CAPSTONE: Algorithm Library",
-          "Build comprehensive CP library",
-          "Include all learned algorithms"
-        ],
-        "assessment": "Phase 2 Exam - Solve 4 problems in 2.5 hours"
+        "assessment": "Phase 1 exam: a practical build defended live, plus a written paper mixing this phase with everything before it"
       }
     }
   },
   "phase_2_frontend_mastery": {
     "title": "PHASE 2: Advanced Algorithms & Contest Strategy (Months 3-4, Weeks 9-17)",
     "description": "Master advanced algorithms, dynamic programming patterns, and develop contest-winning strategies.",
-    "month_7_8": {
-      "title": "Month 3: Advanced Dynamic Programming",
-      "weeks": "Week 9-13",
-      "week_27_28": {
+    "month_4": {
+      "title": "Month 4: Advanced Dynamic Programming",
+      "weeks": "Weeks 14-18",
+      "week_14": {
         "title": "DP Optimization Techniques",
         "topics": [
           "Convex hull trick",
@@ -568,7 +534,7 @@
           "Matrix power problems"
         ]
       },
-      "week_29_30": {
+      "week_15": {
         "title": "Bitmask DP & DP on Trees",
         "topics": [
           "Bitmask DP comprehensive",
@@ -603,7 +569,7 @@
           "Maximum independent set on tree"
         ]
       },
-      "week_31_32": {
+      "week_16": {
         "title": "String Algorithms",
         "topics": [
           "KMP algorithm implementation",
@@ -638,7 +604,7 @@
           "Multiple pattern matching"
         ]
       },
-      "week_33_34": {
+      "week_17": {
         "title": "Advanced Graph Algorithms",
         "topics": [
           "Network flow algorithms",
@@ -673,7 +639,7 @@
           "Project selection"
         ]
       },
-      "week_35": {
+      "week_18": {
         "title": "Game Theory",
         "topics": [
           "Nim game and variations",
@@ -709,10 +675,10 @@
         ]
       }
     },
-    "month_9_10": {
-      "title": "Month 4: Data Structures & Optimization",
-      "weeks": "Week 14-17",
-      "week_36_37": {
+    "month_5": {
+      "title": "Month 5: Data Structures & Optimization",
+      "weeks": "Weeks 19-23",
+      "week_19": {
         "title": "Advanced Data Structures",
         "topics": [
           "Segment tree with lazy propagation",
@@ -747,7 +713,7 @@
           "Dynamic connectivity"
         ]
       },
-      "week_38_39": {
+      "week_20": {
         "title": "Computational Geometry",
         "topics": [
           "2D geometry primitives",
@@ -782,7 +748,7 @@
           "Sweep line problems"
         ]
       },
-      "week_40_41": {
+      "week_21": {
         "title": "Advanced Number Theory",
         "topics": [
           "Miller-Rabin primality test",
@@ -817,7 +783,7 @@
           "Polynomial operations"
         ]
       },
-      "week_42_43": {
+      "week_22": {
         "title": "Optimization & Heuristics",
         "topics": [
           "Simulated annealing",
@@ -852,7 +818,7 @@
           "Load balancing"
         ]
       },
-      "week_44": {
+      "week_23": {
         "title": "Interactive & Randomized",
         "topics": [
           "Interactive problem strategies",
@@ -888,10 +854,10 @@
         ]
       }
     },
-    "month_11_12": {
-      "title": "Months 5-6: Contest Mastery & Peak Performance",
-      "weeks": "Week 18-26",
-      "week_45_46": {
+    "month_6": {
+      "title": "Month 6: Contest Mastery & Peak Performance",
+      "weeks": "Weeks 24-26",
+      "week_24": {
         "title": "Contest Strategy & Time Management",
         "topics": [
           "Contest strategy development",
@@ -924,7 +890,7 @@
           "Time pressure training"
         ]
       },
-      "week_47_48": {
+      "week_25": {
         "title": "Speed Programming & Templates",
         "topics": [
           "Speed coding techniques",
@@ -957,7 +923,7 @@
           "Template usage practice"
         ]
       },
-      "week_49_50": {
+      "week_26": {
         "title": "Team Programming (ICPC Style)",
         "topics": [
           "Team contest strategies",
@@ -988,61 +954,18 @@
           "ICPC past problems",
           "Team coordination",
           "Difficult problem sets"
-        ]
-      },
-      "week_51": {
-        "title": "Platform-Specific Mastery",
-        "topics": [
-          "Codeforces: rounds, ratings, hacks",
-          "CodeChef: long, cook-off, lunchtime",
-          "AtCoder: ABC, ARC, AGC differences",
-          "TopCoder: Arena, SRM format",
-          "HackerRank: contests and certifications",
-          "LeetCode: contests and interview prep",
-          "Google competitions: Kick Start, Code Jam",
-          "Facebook Hacker Cup format",
-          "ICPC: regionals, nationals, worlds",
-          "CSAcademy and other platforms",
-          "Platform-specific strategies",
-          "Multi-platform rating management"
         ],
-        "projects": [
-          "Platform comparison guide",
-          "Rating tracker",
-          "Contest calendar"
-        ],
-        "practice": "Achieve goals on each platform",
-        "contests": [
-          "Platform-specific participation",
-          "Rating improvement focus",
-          "Diverse contest types"
-        ]
-      },
-      "week_52": {
-        "title": "Phase 3 Final Assessment",
-        "topics": [
-          "Comprehensive skill evaluation",
-          "Mock contest marathon",
-          "Weakness elimination",
-          "Rating achievement review",
-          "Future planning"
-        ],
-        "projects": [
-          "FINAL CAPSTONE: Contest Performance",
-          "Achieve target rating on Codeforces",
-          "Complete 1000+ problems solved"
-        ],
-        "assessment": "Final Exam - 3-hour contest simulation"
+        "assessment": "Phase 2 exam: a practical build defended live, plus a written paper mixing this phase with everything before it"
       }
     }
   },
   "phase_3_backend_engineering": {
-    "title": "PHASE 3: Expert Level & Specializations (Months 5-6, Weeks 18-26)",
+    "title": "PHASE 3: Expert Techniques & Peak Performance (Months 7-9, Weeks 27-39)",
     "description": "Master expert-level algorithms, specialized topics, and achieve competitive programming excellence.",
-    "month_13_14": {
-      "title": "Month 5: Expert Algorithms & Techniques",
-      "weeks": "Week 18-22",
-      "week_53_54": {
+    "month_7_8": {
+      "title": "Months 7-8: Expert Algorithms & Techniques",
+      "weeks": "Weeks 27-36",
+      "week_27_28": {
         "title": "FFT & Polynomial Algorithms",
         "topics": [
           "Fast Fourier Transform complete",
@@ -1077,7 +1000,7 @@
           "Signal processing problems"
         ]
       },
-      "week_55_56": {
+      "week_29_30": {
         "title": "Linear Algebra in CP",
         "topics": [
           "Gaussian elimination advanced",
@@ -1112,7 +1035,7 @@
           "Graph spectrum problems"
         ]
       },
-      "week_57_58": {
+      "week_31_32": {
         "title": "Advanced String Structures",
         "topics": [
           "Suffix tree construction",
@@ -1147,7 +1070,7 @@
           "Pattern matching variants"
         ]
       },
-      "week_59_60": {
+      "week_33_34": {
         "title": "Advanced Graph Theory",
         "topics": [
           "Planar graphs and testing",
@@ -1182,7 +1105,7 @@
           "Special graph classes"
         ]
       },
-      "week_61": {
+      "week_35_36": {
         "title": "Approximation Algorithms",
         "topics": [
           "Approximation ratios",
@@ -1218,10 +1141,10 @@
         ]
       }
     },
-    "month_15_16": {
-      "title": "Month 6: Peak Performance & Competition",
-      "weeks": "Week 23-26",
-      "week_62_63": {
+    "month_9": {
+      "title": "Month 9: Peak Performance & Contests",
+      "weeks": "Weeks 37-39",
+      "week_37": {
         "title": "Research & Cutting Edge",
         "topics": [
           "Recent IOI/ICPC problems analysis",
@@ -1256,7 +1179,7 @@
           "Novel solutions"
         ]
       },
-      "week_64_65": {
+      "week_38": {
         "title": "Competition Preparation",
         "topics": [
           "Major competition strategies",
@@ -1289,42 +1212,7 @@
           "Difficult problem sets"
         ]
       },
-      "week_66_67": {
-        "title": "Teaching & Mentoring",
-        "topics": [
-          "Creating programming problems",
-          "Test case generation",
-          "Problem setting for contests",
-          "Solution verification",
-          "Editorial writing",
-          "Video tutorial creation",
-          "Mentoring beginners",
-          "Code review skills",
-          "Building CP community",
-          "Organizing contests",
-          "Judge system understanding",
-          "Contributing to platforms"
-        ],
-        "projects": [
-          "Problem creation toolkit",
-          "Contest organization",
-          "Educational content"
-        ],
-        "practice": "Create 10 original problems",
-        "contests": [
-          "Problem setting practice",
-          "Testing others' problems",
-          "Community contests"
-        ],
-        "problems": [
-          "Original problem creation",
-          "Test case design",
-          "Solution verification",
-          "Multiple solution problems",
-          "Educational problems"
-        ]
-      },
-      "week_68_69": {
+      "week_39": {
         "title": "Career & Opportunities",
         "topics": [
           "CP in technical interviews",
@@ -1357,633 +1245,117 @@
           "Real-world applications",
           "Industry problems",
           "Research proposals"
-        ]
-      },
-      "week_70": {
-        "title": "Final Graduation",
-        "topics": [
-          "Achievement celebration",
-          "Progress review",
-          "Rating milestones",
-          "Problem count celebration",
-          "Contest achievements",
-          "Skill assessment",
-          "Future goals setting",
-          "Continuous improvement plan",
-          "Alumni network",
-          "Community contribution",
-          "Mentorship opportunities",
-          "Legacy building"
         ],
-        "projects": [
-          "FINAL SHOWCASE: CP Portfolio",
-          "1000+ problems solved",
-          "Contest achievements display",
-          "Algorithm library complete"
-        ],
-        "assessment": "Final Certification - Expert Competitive Programmer"
-      }
-    },
-    "month_17_18": {
-      "title": "Lifetime Resources & Continuous Learning",
-      "weeks": "Post-Course Support",
-      "week_71_72": {
-        "title": "Advanced Problem Archives",
-        "topics": [
-          "IOI problem archive",
-          "ICPC problem database",
-          "Google Code Jam archive",
-          "Facebook Hacker Cup problems",
-          "TopCoder problem archive",
-          "Project Euler exploration",
-          "USACO training pages",
-          "Russian olympiad problems",
-          "Chinese OJ problems",
-          "Japanese contest archives",
-          "Research problem sets",
-          "Unsolved problems list"
-        ],
-        "projects": [
-          "Problem database creation",
-          "Solution archive",
-          "Difficulty classifier"
-        ],
-        "practice": "Continuous problem solving"
-      },
-      "week_73_74": {
-        "title": "Community & Contribution",
-        "topics": [
-          "CP communities worldwide",
-          "Discord and Slack groups",
-          "Reddit communities",
-          "Stack Exchange participation",
-          "Codeforces blog writing",
-          "YouTube channel creation",
-          "Twitch streaming CP",
-          "Open source contributions",
-          "Algorithm visualization projects",
-          "Educational platform contribution",
-          "Regional contest organization",
-          "School/college club formation"
-        ],
-        "projects": [
-          "Community engagement plan",
-          "Content creation schedule",
-          "Contribution tracker"
-        ],
-        "practice": "Weekly community participation"
-      },
-      "week_75_76": {
-        "title": "Research & Innovation",
-        "topics": [
-          "Algorithm research papers",
-          "Conference participation",
-          "Paper publication process",
-          "Research collaboration",
-          "PhD opportunities in algorithms",
-          "Grant writing basics",
-          "Patent considerations",
-          "Industry research roles",
-          "Academic positions",
-          "Research problem identification",
-          "Literature review techniques",
-          "Research methodology"
-        ],
-        "projects": [
-          "Research proposal",
-          "Literature survey",
-          "Innovation project"
-        ],
-        "practice": "Research paper reading"
-      },
-      "week_77": {
-        "title": "Specialized Domains",
-        "topics": [
-          "Quantum computing algorithms",
-          "Cryptographic algorithms",
-          "Bioinformatics algorithms",
-          "Computational biology",
-          "Financial algorithms",
-          "Machine learning integration",
-          "Computer vision algorithms",
-          "Natural language processing",
-          "Robotics algorithms",
-          "Game development algorithms",
-          "Graphics programming",
-          "Scientific computing"
-        ],
-        "projects": [
-          "Domain exploration",
-          "Specialized algorithm implementation",
-          "Cross-domain applications"
-        ],
-        "practice": "Explore new domains"
-      },
-      "week_78": {
-        "title": "Success Stories & Inspiration",
-        "topics": [
-          "CP legends and their journeys",
-          "Tourist (Gennady Korotkevich)",
-          "Petr Mitrichev's career",
-          "IOI gold medalists",
-          "ICPC world champions",
-          "Google Code Jam winners",
-          "Career transitions from CP",
-          "Success in tech interviews",
-          "Research achievements",
-          "Startup founders from CP",
-          "Teaching and mentoring success",
-          "Community impact stories"
-        ],
-        "projects": [
-          "Personal success plan",
-          "Goal setting framework",
-          "Inspiration collection"
-        ],
-        "practice": "Define personal success"
+        "assessment": "Phase 3 exam: a practical build defended live, plus a written paper mixing this phase with everything before it"
       }
     }
   },
-  "phase_4_advanced_production": {
-    "title": "ELITE TRACK: Beyond Expert Level",
-    "description": "Optional advanced paths for those aiming for the absolute top",
-    "month_19_20": {
-      "title": "Grandmaster Path",
-      "weeks": "Elite Training",
-      "week_79_80": {
-        "title": "Rating 2400+ Strategy",
+  "phase_4_finale": {
+    "title": "PHASE 4: The Finale (Month 10, Weeks 40-44)",
+    "description": "The capstone month: spec, build, ship and defend, then the final exam that decides the certificate.",
+    "month_10_finale": {
+      "title": "Month 10: Capstone and the Final Exam",
+      "weeks": "Weeks 40-44",
+      "week_40": {
+        "title": "Capstone Spec and Setup",
         "topics": [
-          "Grandmaster mindset",
-          "Consistency at high level",
-          "Problem creation skills",
-          "Speed vs accuracy balance",
-          "Advanced hacking strategies",
-          "Rating optimization tactics",
-          "Handling rating pressure",
-          "Comeback strategies",
-          "Maintaining peak performance",
-          "Avoiding burnout",
-          "Long-term progression",
-          "Elite community networking"
+          "Choosing the capstone: a full contest simulation across a season of problem sets, with an editorial-quality solved-problem portfolio",
+          "A one-page spec: scope, milestones, stack",
+          "Repository and skeleton ready on day one",
+          "Instructor sign-off before the build begins"
         ],
         "projects": [
-          "Grandmaster roadmap",
-          "Performance optimization",
-          "Elite strategy guide"
+          "Approved capstone spec plus the running skeleton"
         ],
-        "practice": "Daily grandmaster training"
+        "practice": "Pitch the spec to the batch and absorb one hard question"
       },
-      "week_81_82": {
-        "title": "International Competition",
+      "week_41_42": {
+        "title": "Capstone Build",
         "topics": [
-          "IOI medal strategies",
-          "ICPC World Finals excellence",
-          "Google Code Jam Finals",
-          "Facebook Hacker Cup Finals",
-          "TopCoder Open championship",
-          "AtCoder World Tour",
-          "Distributed Code Jam",
-          "Hash Code optimization",
-          "Reply Code Challenge",
-          "Russian Code Cup",
-          "Yandex contests",
-          "VK Cup participation"
+          "Two focused weeks in vertical slices",
+          "Instructor checkpoints and honest scope cuts",
+          "Using the whole course: the whole arsenal under contest time, with clean templates and fast, correct code",
+          "Daily commits and an always-working build"
         ],
         "projects": [
-          "Competition calendar",
-          "Performance tracker",
-          "Medal collection"
+          "The capstone, feature-complete with version control"
         ],
-        "practice": "Elite competition focus"
+        "practice": "A working build at the end of every session"
       },
-      "week_83_84": {
-        "title": "Problem Setting Mastery",
+      "week_43": {
+        "title": "Ship and Polish",
         "topics": [
-          "Creating original problems",
-          "Difficulty calibration",
-          "Test data generation",
-          "Solution uniqueness",
-          "Anti-hacking techniques",
-          "Checker writing",
-          "Validator creation",
-          "Problem statement clarity",
-          "Editorial writing excellence",
-          "Contest preparation",
-          "Platform coordination",
-          "Problem review process"
+          "The finishing pass: edge cases, errors, documentation",
+          "Contest-clean: fast, correct solutions written and debugged under time",
+          "A README worth reading and a demo worth watching",
+          "A full-course spiral review before the exam"
         ],
         "projects": [
-          "Problem portfolio",
-          "Contest creation",
-          "Setter reputation building"
+          "The capstone shipped, documented and rehearsed"
         ],
-        "practice": "Set problems for platforms"
+        "practice": "Two mock demos, each tighter than the last"
       },
-      "week_85_86": {
-        "title": "Research Excellence",
+      "week_44": {
+        "title": "Demo Day and the Final Exam",
         "topics": [
-          "Publishing in algorithms",
-          "Conference presentations",
-          "Collaboration with professors",
-          "Grant applications",
-          "PhD preparation",
-          "Research internships",
-          "Industry research roles",
-          "Algorithm patents",
-          "Open problems tackling",
-          "Breakthrough techniques",
-          "Citation building",
-          "Academic networking"
+          "Presenting the capstone: live demo plus the hardest bug story",
+          "The honest map of next roads: higher-rated contests, ICPC teams, or quant and product interviews",
+          "Where our other courses continue the journey"
         ],
         "projects": [
-          "Research publication",
-          "Conference submission",
-          "Academic portfolio"
+          "Demo day presentation delivered to the batch"
         ],
-        "practice": "Research contribution"
-      },
-      "week_87": {
-        "title": "Legacy Building",
-        "topics": [
-          "Creating lasting impact",
-          "Educational content creation",
-          "Platform development",
-          "Tool creation for community",
-          "Book writing",
-          "Course creation",
-          "Mentorship programs",
-          "Scholarship establishment",
-          "Community leadership",
-          "Industry influence",
-          "Next generation training",
-          "Personal brand building"
-        ],
-        "projects": [
-          "Legacy project planning",
-          "Impact measurement",
-          "Succession planning"
-        ],
-        "practice": "Build lasting contributions"
-      }
-    },
-    "month_21_22": {
-      "title": "Professional Applications",
-      "weeks": "Industry Excellence",
-      "week_88_89": {
-        "title": "Quantitative Trading",
-        "topics": [
-          "Algorithms in finance",
-          "High-frequency trading",
-          "Market making algorithms",
-          "Statistical arbitrage",
-          "Portfolio optimization",
-          "Risk management algorithms",
-          "Backtesting systems",
-          "Order execution algorithms",
-          "Alpha generation",
-          "Machine learning in trading",
-          "Cryptocurrency algorithms",
-          "Career in quant finance"
-        ],
-        "projects": [
-          "Trading algorithm",
-          "Backtesting system",
-          "Portfolio optimizer"
-        ],
-        "practice": "Financial algorithms"
-      },
-      "week_90_91": {
-        "title": "Tech Giant Excellence",
-        "topics": [
-          "FAANG interview mastery",
-          "System design for scale",
-          "Distributed systems algorithms",
-          "Machine learning systems",
-          "Infrastructure algorithms",
-          "Search algorithms at scale",
-          "Recommendation systems",
-          "Ad serving algorithms",
-          "Content delivery optimization",
-          "Database algorithms",
-          "Network algorithms",
-          "Career progression in tech"
-        ],
-        "projects": [
-          "System design portfolio",
-          "Scale algorithm library",
-          "Interview excellence kit"
-        ],
-        "practice": "Industry-scale problems"
-      },
-      "week_92_93": {
-        "title": "Startup & Innovation",
-        "topics": [
-          "Algorithm-based startups",
-          "Product development",
-          "MVP with algorithms",
-          "Scaling algorithms",
-          "Algorithm as a service",
-          "API development",
-          "Patent strategies",
-          "Funding for tech startups",
-          "Team building",
-          "Technical leadership",
-          "Exit strategies",
-          "Success stories"
-        ],
-        "projects": [
-          "Startup concept",
-          "MVP development",
-          "Pitch preparation"
-        ],
-        "practice": "Build startup prototype"
-      },
-      "week_94_95": {
-        "title": "Education & Impact",
-        "topics": [
-          "Teaching at universities",
-          "Online course creation",
-          "YouTube channel growth",
-          "Book publication",
-          "Workshop conducting",
-          "Corporate training",
-          "Coaching business",
-          "Platform development",
-          "Community building",
-          "Social impact through CP",
-          "Diversity initiatives",
-          "Global outreach"
-        ],
-        "projects": [
-          "Educational platform",
-          "Course curriculum",
-          "Impact measurement"
-        ],
-        "practice": "Teach and mentor"
-      },
-      "week_96": {
-        "title": "Lifetime Excellence",
-        "topics": [
-          "Continuous learning mindset",
-          "Staying relevant",
-          "Technology evolution",
-          "Career pivots",
-          "Work-life balance",
-          "Health and coding",
-          "Family and CP",
-          "Financial planning",
-          "Retirement planning",
-          "Giving back",
-          "Wisdom sharing",
-          "Life beyond CP"
-        ],
-        "projects": [
-          "Life plan",
-          "Balance framework",
-          "Legacy document"
-        ],
-        "practice": "Sustainable excellence"
-      }
-    },
-    "month_23": {
-      "title": "Resources & References",
-      "weeks": "Comprehensive Library",
-      "week_97": {
-        "title": "Book References",
-        "topics": [
-          "Introduction to Algorithms (CLRS)",
-          "Competitive Programming (Halim)",
-          "Algorithm Design (Kleinberg)",
-          "The Art of Computer Programming (Knuth)",
-          "Concrete Mathematics",
-          "Combinatorial Optimization",
-          "Approximation Algorithms",
-          "Randomized Algorithms",
-          "Computational Geometry",
-          "Network Flows",
-          "Graph Theory books",
-          "Number Theory books"
-        ],
-        "projects": [
-          "Reading list",
-          "Book notes",
-          "Implementation library"
-        ],
-        "practice": "Book problem solving"
-      },
-      "week_98": {
-        "title": "Online Resources",
-        "topics": [
-          "CP-Algorithms website",
-          "GeeksforGeeks CP section",
-          "TopCoder tutorials",
-          "Codeforces EDU section",
-          "USACO guide",
-          "OI Wiki",
-          "Competitive Programming GitHub repos",
-          "YouTube channels list",
-          "Discord servers",
-          "Telegram groups",
-          "WhatsApp groups",
-          "Forums and blogs"
-        ],
-        "projects": [
-          "Resource compilation",
-          "Bookmark organization",
-          "Community directory"
-        ],
-        "practice": "Resource utilization"
-      },
-      "week_99": {
-        "title": "Tools & Utilities",
-        "topics": [
-          "IDE setup guides",
-          "Debugging tools",
-          "Stress testing tools",
-          "Test case generators",
-          "Graph visualizers",
-          "Algorithm animators",
-          "Performance profilers",
-          "Online judges list",
-          "Browser extensions",
-          "Command line tools",
-          "Version control for CP",
-          "Collaboration tools"
-        ],
-        "projects": [
-          "Tool configuration",
-          "Utility library",
-          "Productivity setup"
-        ],
-        "practice": "Tool mastery"
-      },
-      "week_100": {
-        "title": "Templates & Libraries",
-        "topics": [
-          "C++ template library",
-          "Java collections for CP",
-          "Python libraries for CP",
-          "Graph algorithms library",
-          "Number theory library",
-          "Geometry library",
-          "String algorithms library",
-          "Data structures library",
-          "DP templates",
-          "Flow network library",
-          "FFT implementation",
-          "Big integer library"
-        ],
-        "projects": [
-          "Personal library",
-          "Template book",
-          "Quick reference"
-        ],
-        "practice": "Library usage mastery"
-      }
-    },
-    "month_24": {
-      "title": "Final References",
-      "weeks": "Quick Access",
-      "week_101_102": {
-        "title": "Contest Cheat Sheets",
-        "topics": [
-          "Time complexity table",
-          "Common algorithms list",
-          "Pattern recognition guide",
-          "Bug checklist",
-          "Edge cases list",
-          "Testing strategies",
-          "Hacking strategies",
-          "Platform-specific tips",
-          "Contest day checklist",
-          "Emergency algorithms",
-          "Quick implementations",
-          "Last-minute review"
-        ],
-        "projects": [
-          "Cheat sheet compilation",
-          "Contest day kit",
-          "Emergency reference"
-        ]
-      },
-      "week_103": {
-        "title": "Achievement Tracking",
-        "topics": [
-          "Rating milestones",
-          "Problem count goals",
-          "Contest achievements",
-          "Platform badges",
-          "Competition medals",
-          "Contribution points",
-          "Teaching achievements",
-          "Community impact",
-          "Career milestones",
-          "Personal records",
-          "Team achievements",
-          "Legacy metrics"
-        ],
-        "deliverables": [
-          "Achievement portfolio",
-          "Progress dashboard",
-          "Success metrics"
-        ]
-      },
-      "week_104": {
-        "title": "Future Roadmap",
-        "topics": [
-          "Post-course goals",
-          "Continuous improvement",
-          "New platforms exploration",
-          "Emerging algorithms",
-          "Quantum computing future",
-          "AI in competitive programming",
-          "Career evolution",
-          "Community leadership",
-          "Global impact",
-          "Personal growth",
-          "Work-life integration",
-          "Lifetime learning"
-        ],
-        "deliverables": [
-          "Future plan",
-          "Goal framework",
-          "Vision document"
-        ],
-        "assessment": "LIFETIME MEMBERSHIP - Continuous updates and elite community access"
+        "assessment": "FINAL EXAM: a practical build plus a written paper with questions mixed from every phase. Passing earns the certificate; falling short earns a focused revision plan and a free retest"
       }
     }
   },
   "additional_learning_resources": {
     "projects_throughout_course": [
-      "Phase 1: CP Template Library, Algorithm Visualizer, Contest Tracker",
-      "Phase 2: Advanced DS Library, DP Solver, Graph Algorithm Suite",
-      "Phase 3: Complete CP Framework, Problem Generator, Contest Platform",
-      "Final: 1000+ Problems Solved, Expert Rating Achievement, Teaching Platform"
+      "Phase 1: solved sets across math, number theory and core structures",
+      "Phase 2: advanced DP, geometry and strategy under real contest conditions",
+      "Phase 3: expert-technique problem sets, FFT to advanced graph theory",
+      "Phase 4: the contest simulation and editorial-quality portfolio"
     ],
-    "total_projects_built": "20+ major implementations and 100+ algorithm libraries",
+    "total_projects_built": "400+ contest problems solved, crowned by a full contest simulation",
     "skills_mastered": [
-      "Languages: C++ (Expert), STL Mastery, Java/Python for CP",
-      "Algorithms: 200+ algorithms mastered and implemented",
-      "Data Structures: 50+ data structures from basic to advanced",
-      "Mathematics: Number Theory, Combinatorics, Linear Algebra, FFT",
-      "Problem Solving: 1000+ problems across all platforms",
-      "Contest Skills: Speed coding, debugging, optimization, hacking",
-      "Platforms: Codeforces, CodeChef, AtCoder, TopCoder, ICPC",
-      "Advanced: Research algorithms, approximation, randomized algorithms",
-      "Soft Skills: Team coordination, teaching, problem setting"
+      "C++ with STL and fast I/O at competitive speed",
+      "The mathematical arsenal: number theory, combinatorics, geometry",
+      "Advanced dynamic programming: optimization, bitmask and DP on trees",
+      "Expert techniques: FFT, linear algebra, advanced string and graph theory",
+      "Contest craft: strategy, speed, templates and reading under pressure"
     ],
     "weekly_structure": {
-      "theory_study": "5-6 hours",
-      "problem_solving": "10-12 hours",
-      "contests": "4-6 hours",
-      "implementation": "3-4 hours",
-      "total_per_week": "20-25 hours"
-    },
-    "support_provided": {
-      "live_sessions": "Weekly problem-solving sessions",
-      "mentorship": "1-on-1 guidance from red coders",
-      "code_review": "Solution optimization and debugging help",
-      "contest_analysis": "Post-contest discussion and upsolving",
-      "career_support": "Interview prep and referrals"
+      "live_classes": "2 live one-hour classes per week, coding along with the instructor",
+      "homework": "A problem set after every class, and a mixed-review assignment at the end of every month",
+      "practice": "4-6 hours of building between classes",
+      "review": "Every submission reviewed with written feedback; recurring gaps reopened in class"
     },
     "certification": {
-      "phase_certificates": "Certificate after each phase",
-      "final_certificate": "Competitive Programming Expert Certification",
-      "linkedin_badge": "Verifiable credential",
-      "platform_achievements": "Codeforces/CodeChef ratings",
-      "portfolio": "1000+ solved problems showcase"
+      "completion": "Certificate from Modern Age Coders, awarded on passing the final exam. Fall short and there is focused revision and a free retest: the certificate certifies knowledge, not attendance"
+    },
+    "support_provided": {
+      "doubt_support": "WhatsApp doubt support between classes",
+      "progress_updates": "Honest monthly progress reviews: what is solid, what is wobbly, and the plan for the wobble"
     }
   },
   "prerequisites": {
-    "education": "Basic programming knowledge helpful",
-    "coding_experience": "Can write simple programs",
-    "equipment": "Computer with good internet",
-    "time_commitment": "20-25 hours per week",
-    "english": "Good comprehension required",
-    "motivation": "Passion for problem-solving"
+    "coding_experience": "None. Everything is taught from the first line",
+    "equipment": "Any computer with a stable internet connection; every tool used is free",
+    "age": "18+; college students, graduates and working professionals",
+    "time_commitment": "2 live classes plus 4-6 hours of practice a week"
   },
   "who_is_this_for": {
-    "students": "CS students aiming for competitions",
-    "developers": "Programmers wanting algorithm mastery",
-    "competitors": "Aspiring ICPC/IOI participants",
-    "job_seekers": "FAANG interview preparation",
-    "enthusiasts": "Algorithm and puzzle lovers",
-    "teachers": "Future CP coaches and mentors",
-    "researchers": "Algorithm research aspirants"
+    "college_students": "Students who want contest rating and the interview edge it brings",
+    "aspiring_competitors": "Coders aiming for Codeforces rating, ICPC or national olympiads",
+    "placement_focused": "Candidates who want the fastest, sharpest problem-solving for hard rounds",
+    "quant_bound": "Learners targeting quant roles that test exactly this speed",
+    "self_taught_plateaued": "Solo practitioners stuck at a rating who need real technique"
   },
   "career_paths_after_completion": [
-    "Competitive Programmer",
-    "Software Engineer at FAANG",
-    "Quantitative Developer",
-    "Algorithm Researcher",
-    "Problem Setter",
-    "CP Coach/Mentor",
-    "Technical Interview Coach",
-    "Startup CTO/Technical Co-founder",
-    "Machine Learning Engineer",
-    "Game Developer",
-    "Blockchain Developer",
-    "Research Scientist"
+    "Higher-rated contests: the arsenal and speed to climb",
+    "ICPC and team contests: the technique and strategy to compete",
+    "Quant and product interviews that test contest-grade problem solving",
+    "Our DSA course beside this one for interview-specific communication"
   ],
   "salary_expectations": {
     "market_context": "The ranges below are general market salary bands for these roles in India and abroad, drawn from public industry data. They are shown for career context only and are not a promise or guarantee of income. Actual pay depends on your skills, experience, location, and the job market.",
@@ -1995,47 +1367,44 @@
   "course_guarantees": {
     "live_classes": "Live, interactive classes with a real instructor, never pre-recorded videos.",
     "small_batches": "Small batches only: group classes are capped at 10 students, with mini-batch (3 to 4 students) and personal 1-on-1 options.",
-    "structured_curriculum": "A structured, well-paced curriculum taught step by step, with hands-on practice in every session.",
+    "structured_curriculum": "A structured, well-paced curriculum taught step by step, with classwork in every session and problem sets after every class.",
+    "real_assessment": "Monthly mixed reviews, cumulative phase exams, and a final exam that decides the certificate: real knowledge, real work.",
     "doubt_support": "Doubt support between classes over WhatsApp, so you are never left stuck.",
-    "certificate": "A course-completion certificate you can share.",
+    "certificate": "A certificate you earn by passing the final exam, with a free retest after revision if needed.",
     "free_demo": "A free demo class before you enrol, so you can decide with no pressure."
   },
   "faqs": [
     {
-      "question": "What do I need to know before joining?",
-      "answer": "You should be able to write simple programs: loops, conditions and functions in any language. C++ and the STL are taught from the first weeks of the course, so prior C++ experience is not required. If you have never programmed at all, a basic programming course first will make this one far more productive."
+      "question": "What does this competitive programming course cover?",
+      "answer": "The full competitive arsenal in order: C++ with STL and fast I/O, complexity, core structures, number theory, combinatorics and bit manipulation; then advanced dynamic programming, string algorithms, computational geometry, advanced data structures and contest strategy; then expert techniques, FFT and polynomial algorithms, linear algebra, advanced string structures and graph theory, with contest simulation throughout. A finale month runs a full contest and sits the final exam."
     },
     {
-      "question": "Which contests and platforms does the course train for?",
-      "answer": "Training is built around Codeforces, with regular practice on CodeChef, AtCoder and interview style problem sets. The 6-month track prepares you for ICPC style contests, rating climbs on Codeforces and the timed coding rounds companies use for hiring."
+      "question": "How long does it take to learn competitive programming properly?",
+      "answer": "Ten months of teaching at 2 live classes a week plus 4 to 6 hours of practice, with two more months in hand for learners who need them. The three teaching phases build the skill and its real-world application; the finale month ships a capstone and sits the final exam."
     },
     {
-      "question": "Why is the course taught in C++?",
-      "answer": "C++ with the STL is the standard language of serious competitive programming: it runs fast enough for strict time limits and the STL hands you tested data structures like sets, maps and priority queues. You learn modern C++ and STL fluency early, then spend the rest of the course on algorithms and problem solving."
+      "question": "How am I assessed? Is the certificate just for attending?",
+      "answer": "No. Problem sets follow every class with written feedback, monthly reviews deliberately mix new material with earlier topics, each phase ends with a cumulative exam, and the course ends with a final exam: a practical build plus written questions from the whole syllabus. Passing earns the certificate; falling short earns focused revision and a free retest."
     },
     {
-      "question": "Will competitive programming help with placements and interviews?",
-      "answer": "Directly, because online assessments at product companies are essentially contest problems with a timer. Over 6 months you solve timed problems across dynamic programming, graphs, greedy and more, which is exactly what those rounds test. We do not guarantee a rating or a job offer; we train the skill honestly and you can watch your contest graph move."
+      "question": "Do I need to be good at maths for competitive programming?",
+      "answer": "You need to be willing, not gifted. Competitive programming leans on discrete maths, number theory and combinatorics, and we teach every piece of it inside the course, in code, on problems. Plenty of strong competitors started shaky at maths; consistent solving is what builds the instinct."
     },
     {
-      "question": "I already practice on my own. What does a live course add?",
-      "answer": "Solo practice plateaus because nobody shows you the pattern you missed. In live classes a mentor upsolves contests with you, compares your submission against the intended solution, assigns problems at the edge of your current level and reviews your code for speed and cleanliness. That guided loop is what moves ratings."
+      "question": "Will you get me to a specific Codeforces rating?",
+      "answer": "We will not promise a number, because rating depends on your own consistent practice and no honest teacher controls it. What we do is teach the technique, arsenal and contest craft that rating is built from, run real contests with honest debriefs, and give you the habits that keep the graph climbing after the course ends."
     },
     {
-      "question": "How much does it cost?",
-      "answer": "Group batches (maximum 10 students, 2 classes a week) are ₹1,499 per month in India, mini batches of 3 to 4 students are ₹2,999 per month, and 1-on-1 coaching with 2 private classes a week is ₹4,999 per month. Outside India the rates are set for each country, for both group and 1-on-1."
+      "question": "What are the fees?",
+      "answer": "Group classes are ₹1,499 per month, with 2 live classes a week in batches capped at 10 learners. A mini batch of 3-4 learners is ₹2,999 per month, and personal 1-on-1 classes are ₹4,999 per month. International learners pay a price set for their own country, shown on this page in their local currency."
     },
     {
-      "question": "Is there a trial class?",
-      "answer": "Yes, your first class is a free live demo with zero commitment, booked at learn.modernagecoders.com/contact. We hold a 4.9 star rating across 547+ Google reviews, and the demo is your chance to judge the teaching for yourself."
+      "question": "Can I try a class before enrolling?",
+      "answer": "Yes, a free demo class with no commitment: book at learn.modernagecoders.com/contact or message us on WhatsApp at +91 91233 66161."
     },
     {
-      "question": "What is the class format?",
-      "answer": "All sessions are live 1-hour online classes with an instructor; nothing is pre-recorded. You solve problems during class, discuss approaches and get immediate feedback, with evening and weekend slots that fit around college schedules and semester exams."
-    },
-    {
-      "question": "Is there a certificate?",
-      "answer": "You get a completion certificate at the end of the program. Alongside it you will have a public contest profile and a GitHub-ready record of solved problems and implementations, which speaks louder than any certificate in coding interviews."
+      "question": "Are classes live or recorded?",
+      "answer": "Live, always: small groups with a real instructor reading your actual code, never pre-recorded videos."
     }
   ]
 }
