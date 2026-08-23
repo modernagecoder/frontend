@@ -3653,5 +3653,113 @@
       "An annual turtle count. Figures circulate but none was verified at a primary source in this session, so no total appears and the page uses only the species list and the loggerhead nesting claim.",
       "The identity of the sea the swapped coordinate lands in, beyond that it is open water in the Baltic. The distance of 5,246 km is computed from the published coordinates rather than looked up."
     ]
+  },
+  "coding-classes-in-wadi-bani-khalid": {
+    "market": "Wadi Bani Khalid, Ash Sharqiyah North",
+    "bodyClass": "cg-wbk",
+    "curriculumAuthority": "Oman Ministry of Education, General Education Diploma. The page argues from access rather than curriculum: the families hardest to reach are the ones a fixed classroom serves worst, and a lesson delivered over a connection costs the same at the top of the valley as at the bottom.",
+    "localProject": "Measuring only the part you can walk to. Of ten pools running up the wadi, four are reachable without a scramble; their mean depth is 1.77 m against a true 3.80 m across all ten, understating by 53 per cent, and the deepest pool ever measured is 2.6 m against a real deepest of 6.9 m. Every reading is accurate and the sample is the shallow 40 per cent. Distinct from non-response bias, which is the subject declining rather than the measurer not arriving. Assigned to this page and no other.",
+    "requiredMentions": [
+      "Muqal Cave",
+      "upper pools",
+      "water pools",
+      "limestone cave",
+      "200 km from Muscat",
+      "erosion of the rocks",
+      "Wadi Bani Khaled",
+      "natural limestone cave",
+      "prominent tourist attractions"
+    ],
+    "sources": [
+      {
+        "claim": "The water pools are one of the most prominent tourist attractions in Wadi Bani Khalid, which lies some 200 km from Muscat and is popular among tourists.",
+        "url": "https://m.timesofoman.com/article/123821-we-love-oman-water-pools-of-wadi-bani-khalid"
+      },
+      {
+        "claim": "Muqal Cave is a natural limestone cave in Wadi Bani Khalid within Ash Sharqiyah North, located at the end of the upper pools and formed by the erosion of the rocks over thousands of years.",
+        "url": "https://en.wikipedia.org/wiki/Muqal_Cave"
+      },
+      {
+        "claim": "Wadi Bani Khalid, also written Wadi Bani Khaled, is a wilayat of Ash Sharqiyah North Governorate.",
+        "url": "https://en.wikipedia.org/wiki/Wadi_Bani_Khalid_(Wilayat)"
+      }
+    ],
+    "rejectedClaims": [
+      "Depths for any pool. No pool by pool survey was found, so all ten depths and the access categories in the project are teaching values and are labelled as such in the project steps, the pitfalls note and the FAQ.",
+      "A population for the wilayat. The 2020 census figure was not traced to a primary table in this session, so none appears.",
+      "A single correct spelling of the name. Both Wadi Bani Khalid and Wadi Bani Khaled are in published use and the page notes that rather than standardising it away."
+    ]
+  },
+  "coding-classes-in-daba-al-bayah": {
+    "market": "Daba Al Bayah, Musandam",
+    "bodyClass": "cg-dba",
+    "curriculumAuthority": "Oman Ministry of Education, General Education Diploma. The page argues from position rather than curriculum: Musandam is separated from the rest of the country by another state, so reaching anything elsewhere in Oman means a border or a boat, and a lesson delivered over a connection requires neither.",
+    "localProject": "One name covering three separate entities. The Wilayat of Dibba is politically divided into Dibba Al Baya under Oman, Dibba Al Hisn under Sharjah and Dibba Al Fujairah under Fujairah, so a query for Dibba has four defensible answers spanning about 7.5 times, of which only one is a statement about Oman and the sum crosses an international border silently. The mirror of the Al Qabil project, which is one entity under several spellings. Assigned to this page and no other.",
+    "requiredMentions": [
+      "Dibba Al Baya",
+      "Dibba Al Hisn",
+      "Dibba Al Fujairah",
+      "gateway to Musandam",
+      "first capital",
+      "politically divided into three",
+      "Emirate of Fujairah",
+      "Emirate of Sharjah",
+      "ancient civilisation"
+    ],
+    "sources": [
+      {
+        "claim": "The Wilayat of Dibba is politically divided into three parts: Dibba Al Fujairah ruled by the Emirate of Fujairah, Dibba Al Hisn ruled by the Emirate of Sharjah and Dibba Al Baya ruled by Oman; the wilayat was the symbol of an ancient civilisation in the northern part of the Sultanate, its first capital, and the gateway to the Musandam peninsula.",
+        "url": "https://www.omanobserver.om/article/7466/Local/dibba---gateway-to-musandam"
+      },
+      {
+        "claim": "Dibba Al-Baya is the Omani part of the town and a wilayat of Musandam Governorate.",
+        "url": "https://en.wikipedia.org/wiki/Dibba_Al-Baya"
+      },
+      {
+        "claim": "Dibba is described across sources as a town on the Musandam peninsula divided between Oman and two emirates of the United Arab Emirates.",
+        "url": "https://en.wikipedia.org/wiki/Dibba"
+      }
+    ],
+    "rejectedClaims": [
+      "Population figures for Dibba Al Hisn and Dibba Al Fujairah. No Emirati census was verified for this page, so the two figures used in the project are illustrative and are labelled as such in the project steps, in the table, in the pitfalls note and in the FAQ. Only the Omani 10,416 from the 2020 census is presented as sourced.",
+      "A combined population for the whole town. Summing across three authorities mixes three statistical systems, which is the error the page exists to demonstrate, so no such total is offered as a fact.",
+      "A single correct spelling. Dibba and Daba both appear in published use for this place and the page does not adjudicate between them."
+    ]
+  },
+  "coding-classes-in-mahdah": {
+    "market": "Mahdah, Al Buraimi",
+    "bodyClass": "cg-mhd",
+    "curriculumAuthority": "Oman Ministry of Education, General Education Diploma. The page argues from the border rather than from curriculum: families here often work across a boundary and their week is not the one a fixed timetable assumes, which is easier to accommodate when nobody has to travel to reach the lesson.",
+    "localProject": "The boundary moved and the label did not. Mahdah was part of Ad Dhahirah Region until October 2006, when a new governorate was created from the wilayats of Al Buraymi and Mahdah. An illustrative series across that break falls about 43 per cent in one year with nobody moving; growth within each definition is about 3.0 and 4.2 per cent a year, while growth measured straight across is about minus 4.9 per cent a year and describes nothing that happened. Assigned to this page and no other.",
+    "requiredMentions": [
+      "Bayt Al Nad",
+      "Mahdah",
+      "October 2006",
+      "oldest and largest fortification",
+      "Ajman",
+      "Ad Dhahirah Region",
+      "new governorate",
+      "north of the town of Buraimi",
+      "Al Buraymi"
+    ],
+    "sources": [
+      {
+        "claim": "Mahdah is an Omani wilayah north of the town of Buraimi which borders the emirates of Sharjah, Ajman and Dubai to the east and the wilayats of Liwa and Sohar; the area was part of Ad Dhahirah Region until October 2006, when a new governorate was created from the wilayats of Al Buraymi and Mahdah; Mahdah also contains Bayt Al Nad Fort, the country's oldest and largest fortification.",
+        "url": "https://en.wikipedia.org/wiki/Mahdah"
+      },
+      {
+        "claim": "Wilayat Mahdah is presented as one of the wilayats of Al Buraimi Governorate on the governorate's own site.",
+        "url": "https://bur.gov.om/en/explore-wilayat-mahadar.html"
+      },
+      {
+        "claim": "Al Buraimi Governorate comprises the wilayats of Al Buraimi, Mahdah and As Sunaynah.",
+        "url": "https://en.wikipedia.org/wiki/Al_Buraimi_Governorate"
+      }
+    ],
+    "rejectedClaims": [
+      "The population series used in the project. No published Ad Dhahirah table spanning the 2006 reorganisation was traced, so the eight figures are illustrative, chosen to show the shape of the break, and are labelled as such in the project steps, the pitfalls note and the FAQ.",
+      "A population for the wilayat itself. The 2020 census figure was not traced to a primary table in this session, so none appears.",
+      "Verification of the claim that Bayt Al Nad is the oldest and largest fortification in the country. That description is quoted as published and the comparison behind it was not independently checked."
+    ]
   }
 }

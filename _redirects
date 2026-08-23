@@ -1894,4 +1894,12 @@
 /coding-classes-in-mirbat.md /src/pages/coding-classes-in-mirbat.md 200
 /coding-classes-in-masirah /src/pages/coding-classes-in-masirah.html 200
 /coding-classes-in-masirah.md /src/pages/coding-classes-in-masirah.md 200
+
+# International growth cluster (coding-global.css). Must precede the /* catch-all.
+/coding-classes-in-wadi-bani-khalid /src/pages/coding-classes-in-wadi-bani-khalid.html 200
+/coding-classes-in-wadi-bani-khalid.md /src/pages/coding-classes-in-wadi-bani-khalid.md 200
+/coding-classes-in-daba-al-bayah /src/pages/coding-classes-in-daba-al-bayah.html 200
+/coding-classes-in-daba-al-bayah.md /src/pages/coding-classes-in-daba-al-bayah.md 200
+/coding-classes-in-mahdah /src/pages/coding-classes-in-mahdah.html 200
+/coding-classes-in-mahdah.md /src/pages/coding-classes-in-mahdah.md 200
 /* /src/pages/404.html 404

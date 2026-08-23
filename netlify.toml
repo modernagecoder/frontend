@@ -7821,6 +7821,38 @@
   to = "/src/pages/coding-classes-in-masirah.md"
   status = 200
 
+# International growth cluster (coding-global.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/coding-classes-in-wadi-bani-khalid"
+  to = "/src/pages/coding-classes-in-wadi-bani-khalid.html"
+  status = 200
+
+[[redirects]]
+  from = "/coding-classes-in-wadi-bani-khalid.md"
+  to = "/src/pages/coding-classes-in-wadi-bani-khalid.md"
+  status = 200
+
+[[redirects]]
+  from = "/coding-classes-in-daba-al-bayah"
+  to = "/src/pages/coding-classes-in-daba-al-bayah.html"
+  status = 200
+
+[[redirects]]
+  from = "/coding-classes-in-daba-al-bayah.md"
+  to = "/src/pages/coding-classes-in-daba-al-bayah.md"
+  status = 200
+
+[[redirects]]
+  from = "/coding-classes-in-mahdah"
+  to = "/src/pages/coding-classes-in-mahdah.html"
+  status = 200
+
+[[redirects]]
+  from = "/coding-classes-in-mahdah.md"
+  to = "/src/pages/coding-classes-in-mahdah.md"
+  status = 200
+
 [[redirects]]
   from = "/*"
   to = "/src/pages/404.html"
