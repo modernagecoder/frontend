@@ -2,66 +2,58 @@
   "meta": {
     "slug": "algorithmic-trading-masterclass-complete",
     "date": "2025-10-24",
-    "title": "Algorithmic Trading Masterclass: Zero to Automated Systems",
-    "description": "A 12-month algorithmic trading program: master Python, financial markets, quant analysis, strategy design, backtesting, risk management and live trading.",
+    "dateModified": "2026-08-24",
+    "title": "Algorithmic Trading Course: Strategy, Quant & ML",
+    "description": "Algorithmic trading course for adults and professionals: Python for markets, strategy design and backtesting, risk management, then machine learning for trading, taught as engineering, not get-rich promises, in 10-12 months.",
     "keywords": [
-      "algorithmic trading",
-      "quantitative trading",
-      "automated trading",
-      "trading bots",
-      "Python trading",
-      "backtesting",
-      "trading strategies",
-      "technical analysis",
-      "quantitative finance",
-      "machine learning trading",
-      "high frequency trading",
-      "cryptocurrency trading",
-      "stock market",
-      "forex trading",
-      "portfolio management"
+      "algorithmic trading course online",
+      "algo trading course with python",
+      "quantitative trading course",
+      "backtesting strategies course",
+      "machine learning for trading course",
+      "algo trading course india",
+      "systematic trading course",
+      "python for trading course",
+      "quant finance course online",
+      "trading strategy development course",
+      "best algorithmic trading course",
+      "algo trading for beginners course"
     ],
-    "category": "Algorithmic Trading & Quantitative Finance",
+    "category": "Data Science",
     "taxonomy": "mathematics",
     "price": {
       "group": "₹1,499/month",
       "personal": "₹4,999/month"
     },
-    "duration": "12 months (52 weeks)",
-    "level": "Complete Beginner to Professional Quant Trader",
-    "commitment": "20-25 hours/week recommended",
-    "certification": "Certified Algorithmic Trader upon completion",
+    "duration": "10-12 months (44-52 weeks)",
+    "level": "Complete beginner (18+); college students, graduates and working professionals",
+    "commitment": "2 live classes/week + 4-6 hours practice",
+    "certification": "Certificate from Modern Age Coders, awarded on passing the final exam",
     "image_path": "algo-trading-college.webp"
   },
   "program_overview": {
-    "title": "Complete Algorithmic Trading Masterclass",
-    "tagline": "From Manual Trading to Fully Automated Profitable Systems",
-    "description": "This is not just a trading course, it's a complete transformation into a quantitative trader and algorithmic trading professional. Whether you're a complete beginner, manual trader wanting to automate, developer entering finance, or finance professional wanting quantitative skills, this 12-month masterclass will turn you into a skilled algorithmic trader capable of designing, backtesting, optimizing, and deploying profitable automated trading systems.\n\nYou'll master algorithmic trading from ground zero to professional level: from financial markets basics to advanced quantitative strategies, from Python programming to machine learning models, from paper trading to live automated execution, from single strategies to portfolio management. By the end, you'll have built 40+ trading strategies, backtested extensively, and deployed live trading systems with proper risk management.",
+    "title": "Algorithmic Trading Masterclass",
+    "tagline": "The quant skill set, taught as engineering: Python for markets, strategies you can backtest honestly, risk management first, then machine learning, no profit promises, real capability.",
+    "description": "Algorithmic trading is a serious quantitative discipline, and this course treats it as one, not as a get-rich pitch. It builds the strategy-and-research half of the field in order: Python for financial data, technical and statistical analysis, then strategy design and honest backtesting (including the traps, lookahead bias, overfitting, survivorship, that make bad strategies look brilliant), then risk management and position sizing taught before anything goes near live markets, and finally machine learning for trading, used with the scepticism the domain demands. Throughout, the message is consistent and repeated: markets carry real risk of loss, backtests do not predict the future, and this is education, not financial advice. A finale month builds a fully backtested strategy system and sits the final exam.\n\nThe pace is honest: ten teaching months at two live classes a week plus four to six hours of practice, with two more in hand. Problem sets, monthly mixed reviews, phase exams, and a final exam that decides the certificate with a free retest.",
     "what_makes_this_different": [
-      "Starts from absolute zero - no trading or coding background needed",
-      "Complete 12-month structured curriculum",
-      "Python for trading taught from scratch",
-      "Real market data and live trading experience",
-      "Covers stocks, forex, crypto, commodities, options",
-      "Backtesting on 10+ years of historical data",
-      "Machine learning for trading strategies",
-      "Risk management and portfolio optimization",
-      "Live trading deployment with real money guidance",
-      "Quantitative finance and mathematics",
-      "High-frequency trading concepts",
-      "Build 40+ trading strategies"
+      "Taught as engineering and research, not as a money-making scheme",
+      "Backtesting honesty is a core theme: the biases that fake good results are named and defeated",
+      "Risk management before live markets, not as an afterthought",
+      "Machine learning applied with domain scepticism, not hype",
+      "Honest about risk on every page: education, not financial advice, no profit claims",
+      "Real assessment: weekly problem sets, monthly mixed reviews, phase exams and a final exam with a free retest"
     ],
     "learning_path": {
-      "phase_1": "Foundation (Months 1-3): Markets, Python, Data Analysis, Technical Analysis",
-      "phase_2": "Strategy Development (Months 4-6): Trading Strategies, Backtesting, Optimization",
-      "phase_3": "Advanced Quant (Months 7-9): ML Trading, Advanced Strategies, Portfolio Management",
-      "phase_4": "Professional Trading (Months 10-12): Live Trading, HFT, Fund Management, Career"
+      "phase_1": "Foundations (Months 1-3): markets, Python for finance, technical and statistical analysis",
+      "phase_2": "Strategy and backtesting (Months 4-6): strategy design, honest backtesting, risk management",
+      "phase_3": "Machine learning for trading (Months 7-9): ML models, sentiment, alternative data, execution",
+      "phase_4": "The finale (Month 10): a fully backtested strategy system and the final exam"
     },
     "career_outcomes": [
-      "Junior Quant Analyst (after 3 months)",
-      "Algorithmic Trader (after 6 months)",
-      "Senior Quant Trader (after 9 months)",
-      "Quantitative Researcher / Fund Manager (after 12 months)"
+      "Quantitative and data-engineering skills that transfer well beyond trading",
+      "The ability to research and backtest strategies honestly, biases and all",
+      "A backtested strategy system to show, built with real risk discipline",
+      "Honest next roads: quant analyst, quant developer or data roles in fintech"
     ]
   },
   "phase_1_foundation": {
@@ -69,7 +61,7 @@
     "description": "Build solid understanding of financial markets, instruments, Python programming, and data analysis for trading.",
     "month_1_2": {
       "title": "Months 1-2: Markets, Instruments & Python Basics",
-      "weeks": "Week 1-8",
+      "weeks": "Weeks 1-8",
       "week_1_2": {
         "title": "Introduction to Financial Markets",
         "topics": [
@@ -186,9 +178,9 @@
         "practice": "Implement 20+ technical indicators from scratch"
       }
     },
-    "month_3_4": {
+    "month_3": {
       "title": "Month 3: Advanced Python & Market Analysis",
-      "weeks": "Week 9-13",
+      "weeks": "Weeks 9-13",
       "week_9_10": {
         "title": "Object-Oriented Programming for Trading Systems",
         "topics": [
@@ -274,17 +266,17 @@
           "News sentiment analyzer",
           "PHASE 1 MINI CAPSTONE: Complete Market Analysis Platform"
         ],
-        "assessment": "Phase 1 Exam - Markets, Python, Data Analysis, Technical Analysis"
+        "assessment": "Phase 1 exam: a practical build defended live, plus a written paper mixing this phase with everything before it"
       }
     }
   },
   "phase_2_frontend_mastery": {
     "title": "PHASE 2: Trading Strategies & Backtesting (Months 4-6, Weeks 14-26)",
     "description": "Master strategy development, backtesting frameworks, optimization, and strategy evaluation.",
-    "month_7_8": {
+    "month_4_5": {
       "title": "Months 4-5: Strategy Development & Backtesting",
-      "weeks": "Week 14-22",
-      "week_27_28": {
+      "weeks": "Weeks 14-22",
+      "week_14_15": {
         "title": "Backtesting Framework Development",
         "topics": [
           "What is backtesting? Importance and limitations",
@@ -313,7 +305,7 @@
         ],
         "practice": "Backtest 20 strategies with different approaches"
       },
-      "week_29_30": {
+      "week_16_17": {
         "title": "Momentum & Trend Following Strategies",
         "topics": [
           "Momentum trading principles",
@@ -343,7 +335,7 @@
         ],
         "practice": "Develop and backtest 15 momentum/trend strategies"
       },
-      "week_31_32": {
+      "week_18_19": {
         "title": "Mean Reversion & Statistical Arbitrage",
         "topics": [
           "Mean reversion theory",
@@ -373,7 +365,7 @@
         ],
         "practice": "Build 12 mean reversion strategies"
       },
-      "week_33_34": {
+      "week_20_21": {
         "title": "Breakout & Volatility Strategies",
         "topics": [
           "Breakout trading concepts",
@@ -403,7 +395,7 @@
         ],
         "practice": "Develop 10 breakout trading strategies"
       },
-      "week_35": {
+      "week_22": {
         "title": "Options Trading Strategies (Basics)",
         "topics": [
           "Options basics: calls, puts, strikes, expiry",
@@ -433,10 +425,10 @@
         "practice": "Implement 8 options strategies"
       }
     },
-    "month_9_10": {
+    "month_6": {
       "title": "Month 6: Advanced Strategies & Optimization",
-      "weeks": "Week 23-26",
-      "week_36_37": {
+      "weeks": "Weeks 23-26",
+      "week_23": {
         "title": "Strategy Optimization & Parameter Tuning",
         "topics": [
           "Optimization objectives and pitfalls",
@@ -466,7 +458,7 @@
         ],
         "practice": "Optimize 20 strategies, compare methods"
       },
-      "week_38_39": {
+      "week_24": {
         "title": "Risk Management & Position Sizing",
         "topics": [
           "Risk management principles",
@@ -496,7 +488,7 @@
         ],
         "practice": "Add risk management to all strategies"
       },
-      "week_40_41": {
+      "week_25": {
         "title": "Multi-Asset & Portfolio Strategies",
         "topics": [
           "Portfolio construction principles",
@@ -526,11 +518,11 @@
         ],
         "practice": "Build 10 portfolio-level strategies"
       },
-      "week_42_43": {
+      "week_26": {
         "title": "Cryptocurrency Trading Strategies",
         "topics": [
           "Crypto market characteristics",
-          "24/7 trading considerations",
+          "Round-the-clock trading considerations",
           "Crypto exchanges: Binance, Coinbase, Kraken",
           "Crypto data sources and APIs",
           "Bitcoin and altcoin strategies",
@@ -554,37 +546,18 @@
           "Exchange arbitrage bot",
           "Crypto portfolio rebalancer"
         ],
-        "practice": "Develop 12 crypto trading strategies"
-      },
-      "week_44": {
-        "title": "Phase 2 Capstone Project",
-        "topics": [
-          "Multi-strategy system design",
-          "Complete backtesting pipeline",
-          "Optimization and robustness testing",
-          "Risk management integration",
-          "Performance analysis",
-          "Documentation and reporting"
-        ],
-        "projects": [
-          "PHASE 2 CAPSTONE: Complete Algorithmic Trading System",
-          "Requirements: 5+ strategies, backtested on 5+ years data, optimized, risk-managed, documented",
-          "Option 1: Multi-timeframe trend following system",
-          "Option 2: Market-neutral pairs trading portfolio",
-          "Option 3: Crypto trading bot with multiple strategies",
-          "Option 4: Options selling systematic strategy"
-        ],
-        "assessment": "Phase 2 Exam - Strategy development, backtesting, optimization"
+        "practice": "Develop 12 crypto trading strategies",
+        "assessment": "Phase 2 exam: a practical build defended live, plus a written paper mixing this phase with everything before it"
       }
     }
   },
   "phase_3_backend_engineering": {
     "title": "PHASE 3: Machine Learning & Advanced Quant (Months 7-9, Weeks 27-39)",
     "description": "Master machine learning for trading, advanced quantitative strategies, and high-frequency concepts.",
-    "month_13_14": {
+    "month_7_8": {
       "title": "Months 7-8: Machine Learning for Trading",
-      "weeks": "Week 27-35",
-      "week_53_54": {
+      "weeks": "Weeks 27-35",
+      "week_27_28": {
         "title": "ML Fundamentals for Trading",
         "topics": [
           "Machine learning in trading overview",
@@ -613,7 +586,7 @@
         ],
         "practice": "Create 100+ features for trading"
       },
-      "week_55_56": {
+      "week_29_30": {
         "title": "Classification Models for Trading",
         "topics": [
           "Price direction prediction",
@@ -643,7 +616,7 @@
         ],
         "practice": "Build 15 ML classification strategies"
       },
-      "week_57_58": {
+      "week_31_32": {
         "title": "Deep Learning for Trading",
         "topics": [
           "Neural networks for trading",
@@ -673,7 +646,7 @@
         ],
         "practice": "Implement 10 deep learning trading models"
       },
-      "week_59_60": {
+      "week_33_34": {
         "title": "NLP & Sentiment Analysis for Trading",
         "topics": [
           "Natural language processing in trading",
@@ -703,7 +676,7 @@
         ],
         "practice": "Build 8 sentiment-based strategies"
       },
-      "week_61": {
+      "week_35": {
         "title": "Alternative Data & Quantitative Research",
         "topics": [
           "Alternative data in trading",
@@ -734,10 +707,10 @@
         "practice": "Research and test 10 alternative data sources"
       }
     },
-    "month_15_16": {
+    "month_9": {
       "title": "Month 9: Advanced Trading Concepts",
-      "weeks": "Week 36-39",
-      "week_62_63": {
+      "weeks": "Weeks 36-39",
+      "week_36": {
         "title": "High-Frequency Trading (HFT) Concepts",
         "topics": [
           "High-frequency trading overview",
@@ -767,7 +740,7 @@
         ],
         "practice": "Analyze order book data, simulate HFT strategies"
       },
-      "week_64_65": {
+      "week_37": {
         "title": "Advanced Options & Derivatives",
         "topics": [
           "Advanced option strategies",
@@ -797,7 +770,7 @@
         ],
         "practice": "Implement 12 advanced derivatives strategies"
       },
-      "week_66_67": {
+      "week_38": {
         "title": "Execution Algorithms & Transaction Cost Analysis",
         "topics": [
           "Execution algorithms overview",
@@ -827,7 +800,7 @@
         ],
         "practice": "Implement and analyze 8 execution strategies"
       },
-      "week_68_69": {
+      "week_39": {
         "title": "Quantitative Portfolio Management",
         "topics": [
           "Advanced portfolio construction",
@@ -855,589 +828,172 @@
           "Portfolio analytics dashboard",
           "Performance attribution system"
         ],
-        "practice": "Build 10 portfolio management systems"
-      },
-      "week_70": {
-        "title": "Phase 3 Capstone Project",
-        "topics": [
-          "Advanced quantitative system design",
-          "ML model integration",
-          "Portfolio-level strategy",
-          "Advanced risk management",
-          "Performance analysis",
-          "Research documentation"
-        ],
-        "projects": [
-          "PHASE 3 CAPSTONE: Machine Learning Trading Fund",
-          "Requirements: ML models, multiple strategies, portfolio optimization, transaction costs, comprehensive backtesting",
-          "Option 1: Multi-strategy ML-based hedge fund",
-          "Option 2: Market-neutral quant fund with factor models",
-          "Option 3: Crypto quant fund with ML and sentiment",
-          "Option 4: Options trading fund with volatility strategies"
-        ],
-        "assessment": "Phase 3 Exam - ML trading, advanced quant, portfolio management"
+        "practice": "Build 10 portfolio management systems",
+        "assessment": "Phase 3 exam: a practical build defended live, plus a written paper mixing this phase with everything before it"
       }
     }
   },
-  "phase_4_advanced_production": {
-    "title": "PHASE 4: Live Trading & Professional Quant (Months 10-12, Weeks 40-52)",
-    "description": "Master live trading deployment, infrastructure, fund management, and career development.",
-    "month_19_20": {
-      "title": "Months 10-11: Live Trading & Infrastructure",
-      "weeks": "Week 40-48",
-      "week_79_80": {
-        "title": "Live Trading Infrastructure",
+  "phase_4_finale": {
+    "title": "PHASE 4: The Finale (Month 10, Weeks 40-44)",
+    "description": "The capstone month: spec, build, ship and defend, then the final exam that decides the certificate.",
+    "month_10_finale": {
+      "title": "Month 10: Capstone and the Final Exam",
+      "weeks": "Weeks 40-44",
+      "week_40": {
+        "title": "Capstone Spec and Setup",
         "topics": [
-          "Broker selection and comparison",
-          "Interactive Brokers API (Python)",
-          "Zerodha Kite API (India)",
-          "Alpaca API (US)",
-          "Binance API (Crypto)",
-          "Account setup and API credentials",
-          "Paper trading vs live trading",
-          "Order management system (OMS) development",
-          "Position management system",
-          "Real-time data streaming",
-          "WebSocket connections for live data",
-          "Order execution and status tracking",
-          "Fill and partial fill handling",
-          "Cancellation and modification logic",
-          "Error handling and recovery"
+          "Choosing the capstone: a complete, honestly backtested strategy system: research, signals, risk sizing and a defensible evaluation",
+          "A one-page spec: scope, milestones, stack",
+          "Repository and skeleton ready on day one",
+          "Instructor sign-off before the build begins"
         ],
         "projects": [
-          "Broker API integration",
-          "Live trading infrastructure",
-          "Order management system",
-          "Real-time data handler",
-          "Position tracker",
-          "Paper trading framework",
-          "Live trading simulator"
+          "Approved capstone spec plus the running skeleton"
         ],
-        "practice": "Set up live trading for 5 strategies (paper trading)"
+        "practice": "Pitch the spec to the batch and absorb one hard question"
       },
-      "week_81_82": {
-        "title": "Deployment & Production Systems",
+      "week_41_42": {
+        "title": "Capstone Build",
         "topics": [
-          "Cloud deployment: AWS, GCP, Azure",
-          "Virtual Private Server (VPS) setup",
-          "Linux for trading systems",
-          "Docker for trading applications",
-          "Continuous deployment for strategies",
-          "Database for trade logging: PostgreSQL, MongoDB",
-          "Time-series database: InfluxDB",
-          "Monitoring and alerting",
-          "Logging best practices",
-          "Strategy health checks",
-          "System uptime and reliability",
-          "Backup and disaster recovery",
-          "Security and API key management",
-          "Network latency optimization",
-          "Redundancy and failover systems"
+          "Two focused weeks in vertical slices",
+          "Instructor checkpoints and honest scope cuts",
+          "Using the whole course: Python for markets, strategy design, bias-free backtesting, risk management and ML where it earns its place",
+          "Daily commits and an always-working build"
         ],
         "projects": [
-          "Cloud trading server setup",
-          "Dockerized trading system",
-          "Database integration",
-          "Monitoring dashboard",
-          "Alerting system",
-          "Backup automation",
-          "Production deployment pipeline"
+          "The capstone, feature-complete with version control"
         ],
-        "practice": "Deploy 10 strategies to production environment"
+        "practice": "A working build at the end of every session"
       },
-      "week_83_84": {
-        "title": "Live Trading Risk Management",
+      "week_43": {
+        "title": "Ship and Polish",
         "topics": [
-          "Live trading risk considerations",
-          "Real-time risk monitoring",
-          "Position limits and concentration",
-          "Daily loss limits",
-          "Maximum drawdown controls",
-          "Correlation monitoring",
-          "Portfolio VaR in real-time",
-          "Circuit breakers implementation",
-          "Emergency shutdown procedures",
-          "Broker risk management settings",
-          "Margin management",
-          "After-hours risk",
-          "Gap risk management",
-          "Black swan event preparation",
-          "Risk reporting and dashboards"
+          "The finishing pass: edge cases, errors, documentation",
+          "Backtested without self-deception: results that survive out-of-sample and honest cost assumptions",
+          "A README worth reading and a demo worth watching",
+          "A full-course spiral review before the exam"
         ],
         "projects": [
-          "Real-time risk monitor",
-          "Circuit breaker system",
-          "Position limit enforcer",
-          "Drawdown controller",
-          "Emergency shutdown system",
-          "Risk dashboard (live)",
-          "Risk reporting automation"
+          "The capstone shipped, documented and rehearsed"
         ],
-        "practice": "Implement comprehensive risk systems"
+        "practice": "Two mock demos, each tighter than the last"
       },
-      "week_85_86": {
-        "title": "Performance Monitoring & Analysis",
+      "week_44": {
+        "title": "Demo Day and the Final Exam",
         "topics": [
-          "Real-time performance tracking",
-          "P&L calculation and attribution",
-          "Strategy-level performance",
-          "Portfolio-level performance",
-          "Benchmark comparison",
-          "Risk-adjusted returns monitoring",
-          "Sharpe ratio tracking",
-          "Drawdown monitoring",
-          "Win rate and profit factor",
-          "Trade analysis and journaling",
-          "Slippage and cost analysis",
-          "Fill quality analysis",
-          "Strategy degradation detection",
-          "Automated performance reporting",
-          "Dashboard creation with Streamlit/Dash"
+          "Presenting the capstone: live demo plus the hardest bug story",
+          "The honest map of next roads: quant analyst, quant developer or fintech data roles; trading your own capital is a personal decision, not a placement",
+          "Where our other courses continue the journey"
         ],
         "projects": [
-          "Live performance tracker",
-          "P&L attribution system",
-          "Trade journal automation",
-          "Performance dashboard",
-          "Automated reporting system",
-          "Strategy health monitor",
-          "Degradation detector"
+          "Demo day presentation delivered to the batch"
         ],
-        "practice": "Monitor live strategies, generate reports"
-      },
-      "week_87": {
-        "title": "Starting with Real Money",
-        "topics": [
-          "Transitioning from paper to live",
-          "Starting capital considerations",
-          "Scaling strategy capital",
-          "Psychology of live trading",
-          "Emotional discipline",
-          "Handling losses in live trading",
-          "Position sizing for live trading",
-          "Gradual scale-up approach",
-          "Monitoring and adjustment",
-          "When to stop a strategy",
-          "Portfolio heat management",
-          "Tax implications of trading",
-          "Record keeping for taxes",
-          "Trading as a business",
-          "Continuous improvement process"
-        ],
-        "projects": [
-          "Live trading checklist",
-          "Capital allocation plan",
-          "Scaling framework",
-          "Trading journal (psychological)",
-          "Tax tracking system",
-          "Business plan for trading",
-          "Improvement tracking system"
-        ],
-        "practice": "Start live trading with small capital (optional)"
-      }
-    },
-    "month_21_22": {
-      "title": "Month 12: Professional Development & Career",
-      "weeks": "Week 49-52",
-      "week_88_89": {
-        "title": "Quantitative Finance Career Paths",
-        "topics": [
-          "Career options in quant finance",
-          "Quantitative trader roles",
-          "Quantitative researcher positions",
-          "Quantitative developer roles",
-          "Risk manager careers",
-          "Portfolio manager positions",
-          "Prop trading firms",
-          "Hedge funds and asset managers",
-          "Investment banks quant roles",
-          "Starting a quant fund",
-          "Required qualifications and skills",
-          "Certifications: CQF, FRM, CFA",
-          "Building a quant resume",
-          "Portfolio of strategies as showcase",
-          "Networking in quant finance"
-        ],
-        "projects": [
-          "Professional trading resume",
-          "Strategy portfolio documentation",
-          "Performance track record",
-          "Research paper writing",
-          "GitHub portfolio",
-          "Trading blog/website"
-        ],
-        "practice": "Build professional presence"
-      },
-      "week_90_91": {
-        "title": "Interview Preparation for Quant Roles",
-        "topics": [
-          "Quant interview process overview",
-          "Probability and statistics questions",
-          "Brain teasers and logic puzzles",
-          "Coding interviews for quants",
-          "Python algorithmic problems",
-          "Trading strategy design questions",
-          "Market making interview questions",
-          "Risk management scenarios",
-          "Portfolio optimization problems",
-          "Behavioral interview preparation",
-          "Salary negotiation for quants",
-          "Top quant firms and their culture",
-          "Mock interview practice",
-          "Take-home assignments approach",
-          "Presenting your strategies"
-        ],
-        "projects": [
-          "Interview preparation guide",
-          "Probability problem solutions (100+)",
-          "Coding challenge practice",
-          "Strategy presentation deck",
-          "Mock interview recordings",
-          "Behavioral question prep"
-        ],
-        "practice": "Solve 200+ quant interview problems"
-      },
-      "week_92_93": {
-        "title": "Running a Proprietary Trading Desk",
-        "topics": [
-          "Setting up a prop trading desk",
-          "Capital requirements",
-          "Technology infrastructure",
-          "Team structure and hiring",
-          "Strategy development process",
-          "Risk management framework",
-          "Compliance and regulations",
-          "Broker relationships",
-          "Cost structure and profitability",
-          "Scaling trading operations",
-          "Multiple strategy management",
-          "Team collaboration tools",
-          "Performance incentives",
-          "Continual research and development",
-          "Exit strategies and selling"
-        ],
-        "projects": [
-          "Prop desk business plan",
-          "Infrastructure planning",
-          "Cost-benefit analysis",
-          "Hiring and training plan",
-          "Compliance checklist",
-          "Operations manual"
-        ],
-        "practice": "Plan and document prop desk setup"
-      },
-      "week_94_95": {
-        "title": "Launching a Quant Hedge Fund",
-        "topics": [
-          "Hedge fund structure and setup",
-          "Legal and regulatory requirements",
-          "Fund formation: LLC, LP structures",
-          "Registration with regulators (SEBI, SEC)",
-          "Investor pitch deck creation",
-          "Due diligence preparation",
-          "Fund administration",
-          "Prime brokerage relationships",
-          "Fundraising strategies",
-          "AUM targets and scaling",
-          "Fee structures: management and performance fees",
-          "Investor reporting requirements",
-          "Marketing and branding",
-          "Building track record",
-          "Incubator and accelerator programs"
-        ],
-        "projects": [
-          "Fund formation plan",
-          "Investor pitch deck",
-          "Due diligence package",
-          "Fund policies and procedures",
-          "Marketing materials",
-          "Financial projections",
-          "Regulatory compliance checklist"
-        ],
-        "practice": "Complete hedge fund launch plan"
-      },
-      "week_96": {
-        "title": "Continuous Learning & Community",
-        "topics": [
-          "Staying current with quant research",
-          "Academic papers and journals",
-          "Quantitative finance books",
-          "Online communities: QuantConnect, Quantopian archives",
-          "Attending quant conferences",
-          "Networking with other quants",
-          "Contributing to open source quant projects",
-          "Publishing research and strategies",
-          "Teaching and mentoring",
-          "Building personal brand in quant finance",
-          "Consulting opportunities",
-          "Side projects and experimentation",
-          "Emerging technologies: quantum computing, blockchain",
-          "Long-term career development",
-          "Work-life balance in trading"
-        ],
-        "projects": [
-          "Continuous learning plan",
-          "Research paper reading list",
-          "Community engagement strategy",
-          "Open source contributions",
-          "Personal research publication",
-          "Mentorship program participation"
-        ],
-        "practice": "Develop lifelong learning system"
-      }
-    },
-    "month_23": {
-      "title": "FINAL PROJECT & CAREER LAUNCH",
-      "weeks": "Week 49-52 (distributed)",
-      "week_97": {
-        "title": "Research & Strategy Innovation",
-        "topics": [
-          "Novel strategy research",
-          "Combining multiple approaches",
-          "Regime-adaptive systems",
-          "Machine learning innovations",
-          "Alternative data exploitation",
-          "Cross-asset strategies",
-          "International markets",
-          "Emerging markets trading",
-          "Cryptocurrency innovations",
-          "DeFi trading opportunities"
-        ],
-        "projects": [
-          "Original research project",
-          "Novel strategy development",
-          "Multi-asset system",
-          "Innovation documentation",
-          "Research paper writing"
-        ],
-        "practice": "Develop unique trading edge"
-      },
-      "week_98": {
-        "title": "Advanced Technology Integration",
-        "topics": [
-          "Cloud-native trading systems",
-          "Serverless architecture for trading",
-          "Kubernetes for trading infrastructure",
-          "Real-time data lakes",
-          "Big data for trading",
-          "GPU acceleration for backtesting",
-          "Quantum computing for optimization",
-          "Blockchain for settlement",
-          "Advanced monitoring and observability",
-          "Site reliability engineering for trading"
-        ],
-        "projects": [
-          "Cloud-native trading platform",
-          "Scalable infrastructure",
-          "Big data pipeline",
-          "Advanced monitoring system",
-          "Technology roadmap"
-        ],
-        "practice": "Modernize trading infrastructure"
-      },
-      "week_99": {
-        "title": "Regulatory & Compliance Mastery",
-        "topics": [
-          "Global trading regulations",
-          "SEBI regulations (India)",
-          "SEC regulations (USA)",
-          "MiFID II (Europe)",
-          "Algorithmic trading regulations",
-          "Market manipulation rules",
-          "Insider trading compliance",
-          "Best execution requirements",
-          "Audit trails and record keeping",
-          "Compliance monitoring systems"
-        ],
-        "projects": [
-          "Compliance framework",
-          "Audit trail system",
-          "Regulatory reporting automation",
-          "Compliance monitoring dashboard",
-          "Documentation system"
-        ],
-        "practice": "Ensure full regulatory compliance"
-      },
-      "week_100": {
-        "title": "Final Capstone & Launch",
-        "topics": [
-          "Complete trading business setup",
-          "Live trading deployment",
-          "Performance tracking",
-          "Client/investor reporting",
-          "Continuous optimization",
-          "Career positioning"
-        ],
-        "projects": [
-          "FINAL CAPSTONE: Professional Algorithmic Trading Business",
-          "Option 1: Multi-strategy quant fund (simulated AUM)",
-          "Option 2: Proprietary trading desk",
-          "Option 3: Algo trading as a service",
-          "Option 4: Personal trading business",
-          "Requirements: Live deployed, monitored, profitable (or promising), documented, scalable"
-        ],
-        "deliverables": [
-          "Live trading system (paper or real)",
-          "Complete infrastructure",
-          "10+ live strategies",
-          "Performance track record",
-          "Risk management system",
-          "Monitoring and reporting",
-          "Business documentation",
-          "Professional website/presence",
-          "Investor-ready materials",
-          "Career launch plan"
-        ],
-        "assessment": "FINAL COMPREHENSIVE EXAM - Complete algorithmic trading mastery"
+        "assessment": "FINAL EXAM: a practical build plus a written paper with questions mixed from every phase. Passing earns the certificate; falling short earns a focused revision plan and a free retest"
       }
     }
   },
   "additional_learning_resources": {
     "projects_throughout_course": [
-      "Phase 1: 25+ foundational projects - data analysis, indicators, technical analysis",
-      "Phase 2: 30+ strategy projects - backtesting, optimization, various strategies",
-      "Phase 3: 25+ advanced projects - ML models, HFT, portfolio management",
-      "Phase 4: 20+ professional projects - live trading, infrastructure, business",
-      "Total: 100+ trading projects from basics to professional systems"
+      "Phase 1: financial-data analysis tools and technical indicators in Python",
+      "Phase 2: backtested strategies with risk sizing and honest evaluation",
+      "Phase 3: ML-driven signals and execution-aware research",
+      "Phase 4: the fully backtested strategy-system capstone"
     ],
-    "total_projects_built": "100+ trading strategies and systems",
+    "total_projects_built": "15+ research and backtesting projects, crowned by a full strategy system",
     "skills_mastered": [
-      "Programming: Python (expert), NumPy, Pandas, Matplotlib, OOP for trading",
-      "Markets: Stocks, Forex, Crypto, Options, Futures, Commodities",
-      "Technical Analysis: 50+ indicators, chart patterns, multi-timeframe analysis",
-      "Strategy Development: Momentum, mean reversion, breakout, arbitrage, options",
-      "Backtesting: Backtrader, custom frameworks, walk-forward, optimization",
-      "Machine Learning: Scikit-learn, TensorFlow, PyTorch, feature engineering, NLP",
-      "Quantitative Finance: Statistics, portfolio theory, risk management, derivatives",
-      "Live Trading: Broker APIs, execution algorithms, real-time systems",
-      "Infrastructure: Cloud deployment, databases, monitoring, CI/CD",
-      "Risk Management: Position sizing, stop-loss, portfolio heat, VaR",
-      "Tools: Jupyter, Git, Docker, PostgreSQL, InfluxDB, Prometheus",
-      "Business: Fund management, compliance, investor relations, career development"
+      "Python for financial data: cleaning, analysis and indicators",
+      "Strategy design across momentum, mean-reversion and volatility",
+      "Backtesting without self-deception: defeating lookahead, overfitting and survivorship bias",
+      "Risk management and position sizing as first principles",
+      "Machine learning for trading, applied with domain scepticism"
     ],
     "weekly_structure": {
-      "theory_videos": "5-7 hours",
-      "coding_practice": "8-10 hours",
-      "backtesting": "4-6 hours",
-      "research_reading": "2-3 hours",
-      "live_trading_practice": "2-3 hours",
-      "total_per_week": "20-25 hours"
-    },
-    "support_provided": {
-      "live_sessions": "Weekly live trading analysis and strategy sessions",
-      "mentorship": "1-on-1 guidance from professional quant traders",
-      "community": "Active community of algorithmic traders",
-      "code_review": "Expert review of trading strategies and code",
-      "data_access": "Historical and real-time data for practice",
-      "cloud_credits": "Credits for cloud deployment",
-      "broker_support": "Help with broker setup and API integration",
-      "strategy_library": "Access to 100+ tested strategies",
-      "research_papers": "Curated quantitative finance research"
+      "live_classes": "2 live one-hour classes per week, coding along with the instructor",
+      "homework": "A problem set after every class, and a mixed-review assignment at the end of every month",
+      "practice": "4-6 hours of building between classes",
+      "review": "Every submission reviewed with written feedback; recurring gaps reopened in class"
     },
     "certification": {
-      "phase_certificates": "Certificate after each phase (4 total)",
-      "final_certificate": "Certified Algorithmic Trader",
-      "specializations": "Options in Crypto/Options/HFT/ML Trading",
-      "track_record": "Verified backtesting and live trading results",
-      "portfolio": "40+ documented strategies",
-      "digital_badge": "LinkedIn shareable credentials",
-      "industry_recognized": "Recognized by prop firms and hedge funds"
+      "completion": "Certificate from Modern Age Coders, awarded on passing the final exam. Fall short and there is focused revision and a free retest: the certificate certifies knowledge, not attendance"
+    },
+    "support_provided": {
+      "doubt_support": "WhatsApp doubt support between classes",
+      "progress_updates": "Honest monthly progress reviews: what is solid, what is wobbly, and the plan for the wobble"
     }
   },
   "prerequisites": {
-    "education": "No formal degree required, basic math helpful",
-    "trading_knowledge": "Beginner-friendly, no prior trading experience needed",
-    "programming": "No coding experience required (taught from scratch)",
-    "mathematics": "High school math (statistics taught in course)",
-    "capital": "Not required for learning (paper trading available)",
-    "equipment": "Computer, internet, ~₹5,000/month for data and tools",
-    "time_commitment": "20-25 hours/week consistently",
-    "age": "18+ (due to broker account requirements)",
-    "mindset": "Analytical, patient, risk-aware, continuous learner"
+    "coding_experience": "None. Everything is taught from the first line",
+    "equipment": "Any computer with a stable internet connection; every tool used is free",
+    "age": "18+; college students, graduates and working professionals",
+    "time_commitment": "2 live classes plus 4-6 hours of practice a week"
   },
   "who_is_this_for": {
-    "manual_traders": "Want to automate their trading strategies",
-    "developers": "Software engineers entering finance",
-    "finance_professionals": "Want quantitative and algo skills",
-    "data_scientists": "Applying ML to trading",
-    "students": "Engineering, math, finance backgrounds",
-    "career_switchers": "Entering quantitative finance",
-    "entrepreneurs": "Want to start trading business/fund",
-    "quants": "Enhance systematic trading skills",
-    "investors": "Want algorithmic portfolio management",
-    "researchers": "Academic interest in quantitative finance"
+    "developers": "Programmers who want the quantitative-finance skill set",
+    "college_students": "Students targeting quant analyst and quant developer roles",
+    "finance_professionals": "Finance people who want to add real coding and research skill",
+    "data_minded": "Data and stats enthusiasts drawn to markets as a hard problem",
+    "disciplined_learners": "Adults who want the real discipline, not a trading-signals subscription"
   },
   "career_paths_after_completion": [
-    "Quantitative Trader",
-    "Algorithmic Trader",
-    "Quantitative Researcher",
-    "Quantitative Developer",
-    "Portfolio Manager (Quantitative)",
-    "Risk Manager (Quantitative)",
-    "Proprietary Trader",
-    "Hedge Fund Manager",
-    "Systematic Trading Strategist",
-    "High-Frequency Trader",
-    "Independent Algo Trader",
-    "Trading System Developer",
-    "Quant Consultant",
-    "Financial Engineer",
-    "Research Scientist (Finance)"
+    "Quant analyst and quant developer roles in funds, banks and fintech",
+    "Our trading automation course for the systems and execution half",
+    "Data science and ML roles: the research skills transfer directly",
+    "Trading your own capital is a personal financial decision, made with full awareness of the risk"
   ],
-  "income_potential": {
-    "junior_quant": "₹8-15 LPA (India), $80k-120k (USA)",
-    "algo_trader": "₹15-30 LPA (India), $120k-200k (USA)",
-    "senior_quant": "₹30-60 LPA (India), $200k-400k (USA)",
-    "quant_pm": "₹50-100 LPA+ (India), $300k-1M+ (USA)",
-    "prop_trader": "Profit share: 50-90% of profits generated",
-    "hedge_fund": "₹100 LPA+ base + % of AUM + performance fees",
-    "independent": "Unlimited based on capital and strategy performance",
-    "note": "Trading income highly variable, depends on skill and capital"
-  },
   "risk_disclaimers": {
-    "trading_risk": "Trading involves substantial risk of loss",
-    "no_guarantees": "Past performance does not guarantee future results",
-    "capital_loss": "You can lose all invested capital",
-    "education_focus": "This is an educational program, not financial advice",
-    "paper_trading": "Practice with paper trading before using real money",
-    "start_small": "Start with small capital when going live",
-    "regulation": "Ensure compliance with local trading regulations",
-    "tax_implications": "Consult tax professional for trading tax obligations",
-    "psychological": "Understand emotional aspects of trading",
-    "continuous_learning": "Markets evolve, continuous adaptation required"
+    "not_financial_advice": "This is an educational engineering course, not financial advice and not a recommendation to trade or invest.",
+    "risk_of_loss": "Trading carries substantial risk of loss, and you can lose some or all of the capital you put at risk.",
+    "no_profit_claims": "We make no profit claims of any kind. Backtest results do not guarantee future returns.",
+    "paper_first": "You practise with paper trading throughout; going live with real money is a personal financial decision you make outside this course.",
+    "start_small": "Anyone who chooses to trade live should start small and never risk money they cannot afford to lose.",
+    "regulation_and_tax": "You are responsible for complying with your local trading regulations and tax obligations; consult a licensed professional.",
+    "psychology": "Real trading is as much emotional discipline as it is code, and no system removes that risk."
   },
   "course_guarantees": {
     "live_classes": "Live, interactive classes with a real instructor, never pre-recorded videos.",
     "small_batches": "Small batches only: group classes are capped at 10 students, with mini-batch (3 to 4 students) and personal 1-on-1 options.",
-    "structured_curriculum": "A structured, well-paced curriculum taught step by step, with hands-on practice in every session.",
+    "structured_curriculum": "A structured, well-paced curriculum taught step by step, with classwork in every session and problem sets after every class.",
+    "real_assessment": "Monthly mixed reviews, cumulative phase exams, and a final exam that decides the certificate: real knowledge, real work.",
     "doubt_support": "Doubt support between classes over WhatsApp, so you are never left stuck.",
-    "certificate": "A course-completion certificate you can share.",
+    "certificate": "A certificate you earn by passing the final exam, with a free retest after revision if needed.",
     "free_demo": "A free demo class before you enrol, so you can decide with no pressure."
   },
   "faqs": [
     {
-      "question": "What are the prerequisites for this algorithmic trading course?",
-      "answer": "No prior trading or programming experience is required. This course starts from absolute zero and teaches you Python programming, financial markets, and quantitative analysis from the ground up. Basic computer literacy and enthusiasm to learn are the only requirements."
+      "question": "What does this algorithmic trading course cover?",
+      "answer": "The research-and-strategy half of quant trading, taught as engineering: Python for financial data, technical and statistical analysis, strategy design across momentum, mean-reversion and volatility, honest backtesting that defeats lookahead, overfitting and survivorship bias, risk management and position sizing, then machine learning for trading with sentiment and alternative data. A finale month builds a fully backtested strategy system and sits the final exam. It is education, not financial advice."
     },
     {
-      "question": "What tools and technologies will I learn in this algorithmic trading masterclass?",
-      "answer": "You will master Python, NumPy, Pandas, Matplotlib, yfinance, TA-Lib, Zipline, Backtrader, scikit-learn, TensorFlow, broker APIs (Alpaca, Interactive Brokers, Zerodha), and quantitative analysis libraries. The course covers the complete tech stack used by professional quant traders."
+      "question": "How long does it take to learn algorithmic trading properly?",
+      "answer": "Ten months of teaching at 2 live classes a week plus 4 to 6 hours of practice, with two more months in hand for learners who need them. The three teaching phases build the skill and its real-world application; the finale month ships a capstone and sits the final exam."
     },
     {
-      "question": "Can I actually make money with algorithmic trading after this course?",
-      "answer": "This course provides you with all the skills, strategies (40+ backtested strategies), and risk management knowledge to trade profitably. However, trading involves risk and past performance doesn't guarantee future results. We teach proper position sizing, drawdown management, and realistic expectations alongside profitable strategy development."
+      "question": "How am I assessed? Is the certificate just for attending?",
+      "answer": "No. Problem sets follow every class with written feedback, monthly reviews deliberately mix new material with earlier topics, each phase ends with a cumulative exam, and the course ends with a final exam: a practical build plus written questions from the whole syllabus. Passing earns the certificate; falling short earns focused revision and a free retest."
     },
     {
-      "question": "How is this different from other trading courses?",
-      "answer": "Unlike courses that only teach theory, this 12-month masterclass gives you hands-on experience with real market data, 10+ years of backtesting, live paper trading, and guidance for real money deployment. We cover stocks, forex, crypto, commodities, and options trading automation."
+      "question": "Is this financial advice? Will I make guaranteed profits?",
+      "answer": "No, and be wary of anyone who says otherwise. This is an engineering and quantitative course: it teaches you to research, build, backtest and automate trading systems, not what to buy or a way to get rich. Markets carry real risk of loss, backtest results do not guarantee future returns, and we make no profit claims of any kind. What you gain is genuine, in-demand skill; what you do with real money afterwards is your own decision and your own risk."
     },
     {
-      "question": "What career opportunities are available after completing this course?",
-      "answer": "Graduates can pursue careers as Quantitative Analysts ($150K-$500K+), Algorithmic Traders at hedge funds, Prop Trading Firm traders, independent systematic traders, or start their own quantitative trading fund. The course includes resume building and interview prep for quant roles."
+      "question": "How is this different from your trading automation course?",
+      "answer": "This course is the research-and-strategy half: what to trade, why, and how to know whether a strategy is real, statistics, backtesting honesty and machine learning. The trading automation course is the systems half: how to build reliable, production-grade bots that execute through broker APIs with monitoring and safeguards. Many serious learners take both; this one makes you the researcher, that one makes you the systems engineer."
     },
     {
-      "question": "Do I get any certification after completing this algorithmic trading course?",
-      "answer": "Yes, upon successful completion you receive the 'Certified Algorithmic Trader' certificate. Additionally, you'll have a portfolio of 40+ trading strategies, a complete code repository, and documented backtesting results that demonstrate your skills to employers."
+      "question": "Do I need finance or trading experience to start?",
+      "answer": "No. Markets and the maths you need are taught from the ground up inside the course. What helps most is comfort with logical thinking and a willingness to be sceptical of your own results, which is the single most important habit in quantitative trading."
+    },
+    {
+      "question": "What are the fees?",
+      "answer": "Group classes are ₹1,499 per month, with 2 live classes a week in batches capped at 10 learners. A mini batch of 3-4 learners is ₹2,999 per month, and personal 1-on-1 classes are ₹4,999 per month. International learners pay a price set for their own country, shown on this page in their local currency."
+    },
+    {
+      "question": "Can I try a class before enrolling?",
+      "answer": "Yes, a free demo class with no commitment: book at learn.modernagecoders.com/contact or message us on WhatsApp at +91 91233 66161."
+    },
+    {
+      "question": "Are classes live or recorded?",
+      "answer": "Live, always: small groups with a real instructor reading your actual code, never pre-recorded videos."
     }
   ]
 }
