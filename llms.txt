@@ -419,6 +419,9 @@ USD 100 a month small group, USD 150 a month one to one.
 - Wadi Bani Khalid, Ash Sharqiyah North, Oman: https://learn.modernagecoders.com/coding-classes-in-wadi-bani-khalid
 - Daba Al Bayah, Musandam, Oman: https://learn.modernagecoders.com/coding-classes-in-daba-al-bayah
 - Mahdah, Al Buraimi, Oman: https://learn.modernagecoders.com/coding-classes-in-mahdah
+- Haima, Al Wusta, Oman: https://learn.modernagecoders.com/coding-classes-in-haima
+- Al Mazyunah, Dhofar, Oman: https://learn.modernagecoders.com/coding-classes-in-al-mazyunah
+- Shalim wa Juzur al Hallaniyat, Dhofar, Oman: https://learn.modernagecoders.com/coding-classes-in-shalim
 ## International Country Pages
 
 - United States: https://learn.modernagecoders.com/coding-classes-in-united-states

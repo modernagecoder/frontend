@@ -1902,4 +1902,12 @@
 /coding-classes-in-daba-al-bayah.md /src/pages/coding-classes-in-daba-al-bayah.md 200
 /coding-classes-in-mahdah /src/pages/coding-classes-in-mahdah.html 200
 /coding-classes-in-mahdah.md /src/pages/coding-classes-in-mahdah.md 200
+
+# International growth cluster (coding-global.css). Must precede the /* catch-all.
+/coding-classes-in-haima /src/pages/coding-classes-in-haima.html 200
+/coding-classes-in-haima.md /src/pages/coding-classes-in-haima.md 200
+/coding-classes-in-al-mazyunah /src/pages/coding-classes-in-al-mazyunah.html 200
+/coding-classes-in-al-mazyunah.md /src/pages/coding-classes-in-al-mazyunah.md 200
+/coding-classes-in-shalim /src/pages/coding-classes-in-shalim.html 200
+/coding-classes-in-shalim.md /src/pages/coding-classes-in-shalim.md 200
 /* /src/pages/404.html 404

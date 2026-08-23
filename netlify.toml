@@ -7853,6 +7853,38 @@
   to = "/src/pages/coding-classes-in-mahdah.md"
   status = 200
 
+# International growth cluster (coding-global.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/coding-classes-in-haima"
+  to = "/src/pages/coding-classes-in-haima.html"
+  status = 200
+
+[[redirects]]
+  from = "/coding-classes-in-haima.md"
+  to = "/src/pages/coding-classes-in-haima.md"
+  status = 200
+
+[[redirects]]
+  from = "/coding-classes-in-al-mazyunah"
+  to = "/src/pages/coding-classes-in-al-mazyunah.html"
+  status = 200
+
+[[redirects]]
+  from = "/coding-classes-in-al-mazyunah.md"
+  to = "/src/pages/coding-classes-in-al-mazyunah.md"
+  status = 200
+
+[[redirects]]
+  from = "/coding-classes-in-shalim"
+  to = "/src/pages/coding-classes-in-shalim.html"
+  status = 200
+
+[[redirects]]
+  from = "/coding-classes-in-shalim.md"
+  to = "/src/pages/coding-classes-in-shalim.md"
+  status = 200
+
 [[redirects]]
   from = "/*"
   to = "/src/pages/404.html"

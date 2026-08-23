@@ -3761,5 +3761,113 @@
       "A population for the wilayat itself. The 2020 census figure was not traced to a primary table in this session, so none appears.",
       "Verification of the claim that Bayt Al Nad is the oldest and largest fortification in the country. That description is quoted as published and the comparison behind it was not independently checked."
     ]
+  },
+  "coding-classes-in-haima": {
+    "market": "Haima, Al Wusta",
+    "bodyClass": "cg-hym",
+    "curriculumAuthority": "Oman Ministry of Education, General Education Diploma. The page argues from position rather than curriculum: Haima is reachable from the road between the capital and the south while almost nothing is reachable from Haima, and a lesson delivered over a connection is unaffected by either fact.",
+    "localProject": "The unit of analysis, never stated. The 2020 census gives Haima the town 7,814 and Haima the wilayat 10,093, a difference of 2,279 or 29 per cent of the town figure, with nothing in either number recording which boundary it counts. The same 140 cases are 13.9 or 17.9 per thousand purely on which was used as the denominator, and both versions cite a real census. Assigned to this page and no other.",
+    "requiredMentions": [
+      "Jiddat il-Harasiis",
+      "al-Ajaiz",
+      "Haima",
+      "oil explorers",
+      "7,814",
+      "Muscat Salalah main road",
+      "capital of the Al Wusta",
+      "water well",
+      "hot desert climate"
+    ],
+    "sources": [
+      {
+        "claim": "Haima is the capital of the Al Wusta Governorate, positioned centrally on the Muscat Salalah main road, with a town population of 7,814 in the 2020 Omani census; permanent settlement began after oil explorers sank a water well there, which together with another at al-Ajaiz became the first permanent water sources in Jiddat il-Harasiis; it has a hot desert climate.",
+        "url": "https://en.wikipedia.org/wiki/Haima,_Oman"
+      },
+      {
+        "claim": "Al Wusta Governorate consists of the four wilayats of Haima, Mahout, Duqm and Al Jazer.",
+        "url": "https://en.wikipedia.org/wiki/Al_Wusta_Governorate_(Oman)"
+      },
+      {
+        "claim": "Haima is presented as the governorate city on Al Wusta's own official site.",
+        "url": "https://alwusta.gov.om/en/haima-city/"
+      }
+    ],
+    "rejectedClaims": [
+      "A single population for Haima. The town figure of 7,814 and the wilayat figure of 10,093 are both published for the 2020 census and both appear on the page, each labelled with what it counts. Neither is adopted as the figure.",
+      "The 140 cases used to build the example rate. They are illustrative, chosen only to make the two denominators comparable, and are labelled as such in the project steps, the pitfalls note and the FAQ.",
+      "Any claim that one of the two population figures is out of date. Both are attributed to the 2020 census and the difference is a matter of boundary rather than timing."
+    ]
+  },
+  "coding-classes-in-al-mazyunah": {
+    "market": "Al Mazyunah, Dhofar",
+    "bodyClass": "cg-mzy",
+    "curriculumAuthority": "Oman Ministry of Education, General Education Diploma. The page argues from the local economy rather than from curriculum: logistics, customs and trade records are all data work, and teaching delivered over a connection can reach a border wilayat long before any institution is built in it.",
+    "localProject": "A per-record duration reported as one global date. The free zone opened in 1999 with a 30-year income tax exemption that runs from each investor's own entry; across eight illustrative joining years the expiries run from 2029 to 2054, a spread of 25 years, and the single quoted date of 2029 is correct for exactly one of the eight. The error is always in one direction and widens as the scheme keeps admitting entrants. Assigned to this page and no other.",
+    "requiredMentions": [
+      "Al Mazunah Free Zone",
+      "15 million square metres",
+      "Shahan",
+      "Sarfait",
+      "Omanisation",
+      "Hawf",
+      "transit trade",
+      "30-year income tax exemption",
+      "East African countries"
+    ],
+    "sources": [
+      {
+        "claim": "The Al-Mazunah Free Zone was established in 1999 in the Dhofar region near the border with Yemen, spans 15 million square metres, was created to enhance trade between Oman and Yemen and serves as a gateway for transit trade to Yemen and onward to East African countries, offering a 30-year income tax exemption and a reduced Omanisation rate of 20 per cent.",
+        "url": "https://en.wikipedia.org/wiki/Al-Mazyunah_Free_Zone"
+      },
+      {
+        "claim": "Al-Mazyunah is a wilayah of Dhofar in Oman near the border with Yemen, and the two main border crossings are Shahan into Al-Mazyunah in the north and Hawf into Sarfait in the south.",
+        "url": "https://en.wikipedia.org/wiki/Al-Mazyunah"
+      },
+      {
+        "claim": "Al Mazunah Free Zone is presented as a key gateway for Gulf to Yemen trade.",
+        "url": "https://www.omanobserver.om/article/1156817/business/energy/al-mazunah-free-zone-a-key-gateway-for-gulf-yemen-trade"
+      }
+    ],
+    "rejectedClaims": [
+      "Any actual company or joining date. The eight joining years in the project are illustrative, chosen to spread across the zone's life, and are labelled as such in the project steps, the pitfalls note and the FAQ.",
+      "A single expiry date for the exemption. None is published, because the term runs from each investor's own entry, and inventing one is the error the page exists to demonstrate.",
+      "A population for the wilayat. The 2020 census figure was not traced to a primary table in this session, so none appears."
+    ]
+  },
+  "coding-classes-in-shalim": {
+    "market": "Shalim wa Juzur al Hallaniyat, Dhofar",
+    "bodyClass": "cg-shl",
+    "curriculumAuthority": "Oman Ministry of Education, General Education Diploma. The page argues from the sea gap rather than from curriculum: part of this wilayat is 40 kilometres offshore, so a class that travels down a connection is not a convenience here but the only arrangement that reaches the whole wilayat.",
+    "localProject": "A fallback that quietly substitutes a different measurement. Asked for road distance to the wilayat centre, four mainland settlements return 34, 58, 71 and 96 km while the island has no road at all, so the calculation falls back to a 40 km straight line without saying so. That value ranks second of five, is shorter than three of the four genuine road distances, and a query for everything within 50 km returns the island as one of the two closest places despite it being the only one unreachable by road. Assigned to this page and no other.",
+    "requiredMentions": [
+      "Khuriya Muriya",
+      "Al Hallaniyah",
+      "56 square kilometres",
+      "five islands",
+      "only village",
+      "40 km off",
+      "Shalim",
+      "Arabian Sea",
+      "flat western part"
+    ],
+    "sources": [
+      {
+        "claim": "The Khuriya Muriya Islands, or Al-Hallaniyat Islands, are a group of five islands in the Arabian Sea, 40 km off the southeastern coast of Oman, forming part of the province of Shalim and the Hallaniyat Islands in the governorate of Dhofar.",
+        "url": "https://en.wikipedia.org/wiki/Khuriya_Muriya_Islands"
+      },
+      {
+        "claim": "Al Hallaniyah is the largest and most populated of the Khuriya Muriya Islands, with an area of 56 square kilometres, and its only village is located on the flat western part with a population in the range of 100 to 150.",
+        "url": "https://en.wikipedia.org/wiki/Al-Hallaniyah"
+      },
+      {
+        "claim": "Shalim and the Hallaniyat Islands is recorded as a district of the Dhofar Governorate with its own population statistics.",
+        "url": "https://www.citypopulation.de/en/oman/admin/%E1%BA%93uf%C4%81r/0209__shal%C4%ABm%C2%A0_juzur%C2%A0al_%E1%B8%A5a/"
+      }
+    ],
+    "rejectedClaims": [
+      "The four mainland road distances. No published table of distances within the wilayat was found, so they are illustrative, chosen to span an ordinary spread for a coastal wilayat, and are labelled as such in the project steps, the pitfalls note and the FAQ.",
+      "A single population for the island village. The published description is a range of 100 to 150 and the range is kept rather than reduced to a midpoint.",
+      "A road or ferry travel time to the islands. None was verified, so none is stated, and the page says only that no road exists."
+    ]
   }
 }
