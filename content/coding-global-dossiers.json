@@ -2567,5 +2567,46 @@
       "A single headline population. Published figures range from about 69,132 in a 2016 breakdown to roughly 139,755 at the 2022 census, and one secondary source prints \"121,103 thousand people\", which cannot be right on any reading. The page states the range with both years attached rather than picking one figure.",
       "That the Wadi Adai to Al Amerat link is a tunnel. It is a mountain road corridor. Residents have argued a tunnel is what is needed, which is a call rather than a built fact, and the page words it that way."
     ]
+  },
+  "coding-classes-in-rustaq": {
+    "market": "Rustaq, Al Batinah South",
+    "bodyClass": "cg-rus",
+    "curriculumAuthority": "Oman Ministry of Education, General Education Diploma. The page does not argue from curriculum at all. It argues that Rustaq already runs a scheduling system older than the word, with fixed slots, a repeating cycle, an elected administrator and an audit role, so a learner here does not need the concept explained, only the notation.",
+    "localProject": "Modular arithmetic on a repeating cycle. A 48-athar day inside an eight day dawaran is 384 turns; naive division places 8 of them on the wrong day and its worst answer is day 9 of an eight day cycle. Assigned to this page and no other: modulo and cyclic scheduling were checked free across every page in the cluster, and the elapsed-time trap already used by Ibri and Nizwa was avoided deliberately.",
+    "requiredMentions": [
+      "Falaj Al-Muyassar",
+      "Ain Al Kasfa",
+      "Al Hazm Castle",
+      "Al Rustaq Fort",
+      "Wadi Al Hoqain",
+      "athar",
+      "baddah",
+      "dawaran",
+      "Dawoodi",
+      "Nasser bin Murshid",
+      "qabidh"
+    ],
+    "sources": [
+      {
+        "claim": "Falaj Al-Muyassar is one of the five aflaj UNESCO inscribed in 2006, is a Dawoodi falaj reaching 50 metres depth with a flow of 210 litres per second, and is among the most significant aflaj in Wilayat Al Rustaq.",
+        "url": "https://whc.unesco.org/en/list/1207/"
+      },
+      {
+        "claim": "Falaj water is shared by athar of 30 minutes on a rotation, the dawaran, typically of 7 to 14 days; a baddah is 12 hours or 24 athar; the falaj is run by an elected wakil with arifs regulating timing and a qabidh keeping financial records, and night timing is read from known stars.",
+        "url": "https://link.springer.com/chapter/10.1007/978-3-319-54021-4_12"
+      },
+      {
+        "claim": "Al Rustaq Fort dates to the 13th century and was expanded by the Ya'aruba dynasty between 1624 and 1649, with four towers the tallest over 18 metres; Al Hazm Castle was built by Imam Sultan bin Saif al Yarubi in the early 18th century; Wadi Al Hoqain lies 45 km from the centre with year-round streams and Niyabat Al Hoqain about 150 km from Muscat.",
+        "url": "https://www.omanobserver.om/article/8016/Oman/wilayats-al-rustaq---charm-of-nature-and-history"
+      },
+      {
+        "claim": "Ain Al Kasfa lies about 1,500 metres west of Rustaq Castle, irrigates the surrounding palm farms, and carries the largest water volume of any spring in northern Oman; an Abbasid governor tried to bury it and the water reappeared about ten metres from the original source.",
+        "url": "https://experienceoman.om/destinations/al-batinah-south/ain-al-kasfa"
+      }
+    ],
+    "rejectedClaims": [
+      "The actual rotation order or share allocation of Falaj Al-Muyassar or any other named falaj. Shares belong to the shareholders and are not published; the eight day cycle in the project is chosen from inside the documented seven to fourteen day range and is labelled as such on the page.",
+      "A population figure for the wilayat. The 2022 census gives about 129,050, but this page makes no argument that depends on it, so it is not stated rather than stated decoratively."
+    ]
   }
 }

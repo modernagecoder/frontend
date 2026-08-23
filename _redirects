@@ -1786,4 +1786,8 @@
 # International growth cluster (coding-global.css). Must precede the /* catch-all.
 /coding-classes-in-al-amarat /src/pages/coding-classes-in-al-amarat.html 200
 /coding-classes-in-al-amarat.md /src/pages/coding-classes-in-al-amarat.md 200
+
+# International growth cluster (coding-global.css). Must precede the /* catch-all.
+/coding-classes-in-rustaq /src/pages/coding-classes-in-rustaq.html 200
+/coding-classes-in-rustaq.md /src/pages/coding-classes-in-rustaq.md 200
 /* /src/pages/404.html 404
