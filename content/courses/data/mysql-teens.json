@@ -2,1203 +2,629 @@
   "meta": {
     "slug": "mysql-mastery-for-teens",
     "date": "2025-10-31",
-    "title": "MySQL for Teens: SQL Queries, Database Design & Security",
-    "description": "MySQL database course for teens: live online classes on SQL queries, database design, optimization and security, from absolute basics to real projects.",
+    "dateModified": "2026-08-23",
+    "title": "MySQL for Teens: SQL from First Query to Real Apps",
+    "description": "MySQL course for teens aged 13-18: live online classes from first SQL query to database design, real projects and Python-connected apps in 5-6 months.",
     "keywords": [
-      "MySQL for beginners",
-      "database management",
-      "SQL programming",
-      "data modeling",
-      "database administration",
-      "query optimization",
-      "database security",
-      "stored procedures",
-      "triggers and events",
-      "database design",
-      "normalization",
-      "indexing strategies",
-      "backup and recovery",
-      "performance tuning",
-      "teen coding",
-      "career ready"
+      "mysql course for teens",
+      "sql course for teenagers",
+      "learn sql for beginners",
+      "database course for high school students",
+      "mysql online classes india",
+      "sql for students",
+      "database design course for beginners",
+      "sql queries course online",
+      "mysql with python course",
+      "sql course for class 9 to 12",
+      "best sql course for teens",
+      "online database classes for teens"
     ],
-    "category": "Database Management & Administration",
+    "category": "Databases",
     "taxonomy": "backend-dev",
     "price": {
       "group": "₹1,499/month",
       "miniBatch": "₹2,999/month",
       "personal": "₹4,999/month"
     },
-    "duration": "12 months (52 weeks)",
-    "level": "Complete Beginner to Advanced Professional",
-    "commitment": "10-15 hours/week recommended",
-    "certification": "MySQL Professional Certification upon completion",
+    "duration": "5-6 months (20-24 weeks)",
+    "level": "Absolute beginner, ages 13 to 18",
+    "commitment": "2 live classes/week + 2-3 hours practice",
+    "certification": "Certificate from Modern Age Coders, awarded on passing the final exam",
     "image_path": "mysql-teens.webp"
   },
   "program_overview": {
-    "title": "Complete MySQL Database Mastery for Teens",
-    "tagline": "From 'What is a Database?' to Professional Database Administrator",
-    "description": "This specially designed course for teenagers transforms complete beginners into MySQL professionals in just 12 months. Whether you're a high school student interested in tech, a young gaming enthusiast curious about game databases, or a teen entrepreneur wanting to manage data, this program will give you professional-level database skills.\n\nYou'll master everything from basic queries to complex database administration, building real projects like social media databases, game leaderboards, e-commerce systems, and analytics platforms. By completion, you'll have built 30+ database projects and be ready for database administrator roles or data engineering positions.",
+    "title": "MySQL and SQL for Teens",
+    "tagline": "Every app a teenager uses is a database wearing a nice shirt. Five months from first query to designing and connecting real databases of their own.",
+    "description": "Behind Instagram, Spotify and every game leaderboard sits the same quiet skill: SQL, the language of data. This live online course teaches it properly to students aged 13 to 18, from the first SELECT to real database design, in five honest months. SQL is one of the highest-value skills per hour of learning in all of computing: the language is compact, the concepts are learnable at 13, and the skill stays current for decades.\n\nThe arc is practical from the first week: students query and build real databases about things they care about, music libraries, game inventories, school clubs, then learn the query toolkit (functions, aggregation, subqueries), real design (relationships, joins, ER diagrams, constraints), the power features professionals lean on (views, stored procedures, transactions, indexes), and finish by securing a database and connecting it to Python, where data becomes an actual application. The capstone is a complete, well-designed, connected database project defended at demo day.\n\nThe pace is honest: five months at two live classes a week plus two to three hours of practice, with a sixth month in hand for students who need more time. Homework after every class, monthly mixed reviews that reach back deliberately, and a final exam that decides the certificate, with a free retest after revision. Real queries, real design, depth over dopamine.",
     "what_makes_this_different": [
-      "Designed specifically for teenage learners with engaging examples",
-      "Uses real-world scenarios teens relate to (social media, gaming, apps)",
-      "No prerequisites - starts from absolute zero",
-      "Gamified learning with achievements and progress tracking",
-      "Build databases for apps teens actually use",
-      "Practical projects you can show off to friends",
-      "Career guidance for young professionals",
-      "College application portfolio builder"
+      "Honest length: SQL fundamentals to real design in 5 months, not a stretched year",
+      "Teen-real datasets: music, games, clubs and leaderboards, not employee-salary tables from 1998",
+      "Design is taught, not skipped: ER diagrams, normalization and constraints, the part that separates users from designers",
+      "The professional features that matter: views, procedures, transactions and indexes, each earning its place",
+      "Ends connected: MySQL driven from Python, so the database becomes an application",
+      "Real assessment: weekly homework, monthly mixed reviews, and a final exam that decides the certificate, with focused revision and a free retest"
     ],
     "learning_path": {
-      "phase_1": "Foundation (Months 1-6): Database Basics, SQL Fundamentals, Data Modeling, Queries",
-      "phase_2": "Advanced Mastery (Months 7-12): Administration, Optimization, Security, Real-World Applications"
+      "month_1": "SQL foundations (Weeks 1-4): databases demystified, tables created, data inserted, updated and queried safely",
+      "month_2": "Query power (Weeks 5-8): functions, dates, aggregation and subqueries, the everyday toolkit",
+      "month_3": "Real design (Weeks 9-12): relationships, joins, ER diagrams, normalization and constraints",
+      "month_4": "Power features (Weeks 13-16): views, stored procedures, transactions and indexes",
+      "month_5": "Apps and the exam (Weeks 17-20): security and backups, MySQL from Python, the capstone and the final exam"
     },
     "career_outcomes": [
-      "Junior Database Developer (after 3 months)",
-      "SQL Developer (after 6 months)",
-      "Database Administrator (after 9 months)",
-      "Data Engineer Ready (after 12 months)"
+      "A portfolio of designed, documented databases crowned by a Python-connected capstone",
+      "The data literacy every later path assumes: web development, data science, app development",
+      "A skill scholarships of time: SQL learned at 15 is still current at 40",
+      "Natural next steps: our Python, data science or full-stack courses, entered with the data layer already owned"
     ]
   },
-  "phase_1_foundation": {
-    "title": "PHASE 1: Foundation & Core MySQL Skills (Months 1-6, Weeks 1-26)",
-    "description": "Build rock-solid database fundamentals. Learn what databases are, master SQL queries, and create your first real-world database applications.",
-    "month_1_2": {
-      "title": "Months 1-2: Database Fundamentals & MySQL Basics",
-      "weeks": "Week 1-8",
-      "week_1_2": {
-        "title": "Introduction to Databases & MySQL Setup",
-        "topics": [
-          "What is data and why do we need databases?",
-          "Real-world database examples teens use daily (Instagram, TikTok, Spotify)",
-          "Files vs Databases: Why databases win",
-          "Types of databases: Relational vs NoSQL",
-          "Introduction to MySQL: History and why it's popular",
-          "MySQL in the real world: Facebook, Twitter, YouTube",
-          "Installing MySQL on Windows/Mac/Linux",
-          "MySQL Workbench installation and tour",
-          "Command line basics for MySQL",
-          "Creating your first database",
-          "Understanding servers, clients, and connections",
-          "Database terminology: tables, rows, columns, records"
-        ],
-        "projects": [
-          "Install and configure MySQL environment",
-          "Create 'MyLife' database for personal data",
-          "Design a simple contact list database"
-        ],
-        "practice": "Daily: 30 min terminal practice, 1 hour MySQL basics"
-      },
-      "week_3_4": {
-        "title": "SQL Basics: Creating and Managing Databases",
-        "topics": [
-          "CREATE DATABASE statement",
-          "USE, SHOW, and DROP commands",
-          "Creating tables with CREATE TABLE",
-          "Data types: INT, VARCHAR, TEXT, DATE, BOOLEAN",
-          "Understanding NULL and NOT NULL",
-          "Primary keys and their importance",
-          "AUTO_INCREMENT for automatic IDs",
-          "Altering tables: ADD, MODIFY, DROP columns",
-          "Renaming tables and columns",
-          "DESCRIBE and SHOW COLUMNS commands",
-          "Comments in SQL code",
-          "SQL naming conventions and best practices"
-        ],
-        "projects": [
-          "School database with students and classes",
-          "Gaming stats tracker database",
-          "Music library database structure"
-        ],
-        "practice": "Create 10 different database schemas for teen apps"
-      },
-      "week_5_6": {
-        "title": "Data Manipulation: INSERT, SELECT Basics",
-        "topics": [
-          "INSERT INTO: Adding single records",
-          "INSERT multiple records at once",
-          "Understanding SQL syntax and semicolons",
-          "SELECT statement fundamentals",
-          "SELECT specific columns vs SELECT *",
-          "WHERE clause for filtering data",
-          "Comparison operators: =, !=, <, >, <=, >=",
-          "AND, OR, NOT logical operators",
-          "IN and NOT IN operators",
-          "BETWEEN for range queries",
-          "LIKE operator and wildcards (%, _)",
-          "ORDER BY: Sorting results ASC and DESC"
-        ],
-        "projects": [
-          "Populate school database with student data",
-          "Create and query a movie ratings database",
-          "Build a sports team roster system"
-        ],
-        "practice": "Write 50 different SELECT queries with various filters"
-      },
-      "week_7_8": {
-        "title": "UPDATE, DELETE, and Data Integrity",
-        "topics": [
-          "UPDATE statement: Modifying existing data",
-          "Using WHERE with UPDATE (critical importance!)",
-          "Updating multiple columns",
-          "Using CASE in UPDATE statements",
-          "DELETE statement: Removing records",
-          "Safe deletion practices",
-          "TRUNCATE vs DELETE vs DROP",
-          "Understanding transactions basics",
-          "Data integrity and consistency",
-          "Handling NULL values in queries",
-          "IS NULL and IS NOT NULL",
-          "Default values and their uses"
-        ],
-        "projects": [
-          "Grade management system with updates",
-          "Inventory system with stock updates",
-          "Social media profile manager"
-        ],
-        "practice": "Perform 30 UPDATE and DELETE operations safely"
-      }
+  "month_1": {
+    "title": "Month 1: SQL Foundations",
+    "description": "Databases demystified and the four verbs of data: CREATE, INSERT, SELECT, UPDATE and DELETE, used safely from the start.",
+    "weeks": "Weeks 1-4",
+    "week_1": {
+      "title": "Introduction to Databases & MySQL Setup",
+      "topics": [
+        "What is data and why do we need databases?",
+        "Real-world database examples teens use daily (Instagram, TikTok, Spotify)",
+        "Files vs Databases: Why databases win",
+        "Types of databases: Relational vs NoSQL",
+        "Introduction to MySQL: History and why it's popular",
+        "MySQL in the real world: Facebook, Twitter, YouTube",
+        "Installing MySQL on Windows/Mac/Linux",
+        "MySQL Workbench installation and tour",
+        "Command line basics for MySQL",
+        "Creating your first database",
+        "Understanding servers, clients, and connections",
+        "Database terminology: tables, rows, columns, records"
+      ],
+      "projects": [
+        "Install and configure MySQL environment",
+        "Create 'MyLife' database for personal data",
+        "Design a simple contact list database"
+      ],
+      "practice": "Daily: 30 min terminal practice, 1 hour MySQL basics"
     },
-    "month_3_4": {
-      "title": "Months 3-4: Advanced Queries & Functions",
-      "weeks": "Week 9-17",
-      "week_9_10": {
-        "title": "MySQL Functions: String and Numeric",
-        "topics": [
-          "String functions: CONCAT, SUBSTRING, LENGTH",
-          "UPPER, LOWER, TRIM, LTRIM, RTRIM",
-          "REPLACE and string manipulation",
-          "REVERSE, REPEAT, and SPACE",
-          "Numeric functions: ROUND, CEIL, FLOOR",
-          "ABS, MOD, POWER, SQRT",
-          "RAND() for random numbers",
-          "Mathematical operations in queries",
-          "FORMAT for number formatting",
-          "Working with CHAR_LENGTH vs LENGTH",
-          "CAST and CONVERT for type conversion",
-          "Combining multiple functions"
-        ],
-        "projects": [
-          "Username generator with string functions",
-          "Grade calculator with numeric functions",
-          "Data cleaning toolkit"
-        ],
-        "practice": "Master 40 different MySQL functions"
-      },
-      "week_11_12": {
-        "title": "Date/Time Functions and Operations",
-        "topics": [
-          "Date and time data types: DATE, TIME, DATETIME, TIMESTAMP",
-          "CURDATE(), CURTIME(), NOW()",
-          "Date formatting with DATE_FORMAT",
-          "Extracting parts: YEAR, MONTH, DAY, HOUR, MINUTE",
-          "DAYNAME, MONTHNAME for readable output",
-          "Date arithmetic: DATE_ADD, DATE_SUB",
-          "DATEDIFF for calculating differences",
-          "Working with time zones",
-          "UNIX_TIMESTAMP and FROM_UNIXTIME",
-          "Age calculations from birthdates",
-          "Scheduling and recurring events concepts",
-          "Best practices for storing dates"
-        ],
-        "projects": [
-          "Birthday reminder system",
-          "Event scheduling database",
-          "Time tracking application"
-        ],
-        "practice": "Build 20 queries involving date/time calculations"
-      },
-      "week_13_14": {
-        "title": "Aggregate Functions and Grouping",
-        "topics": [
-          "COUNT: Counting records and values",
-          "COUNT(*) vs COUNT(column) vs COUNT(DISTINCT)",
-          "SUM for totaling numeric values",
-          "AVG for calculating averages",
-          "MIN and MAX for finding extremes",
-          "GROUP BY clause explained",
-          "Grouping by single and multiple columns",
-          "HAVING clause for filtering groups",
-          "HAVING vs WHERE: Key differences",
-          "GROUP_CONCAT for combining grouped values",
-          "Using aliases with AS",
-          "Complex grouping scenarios"
-        ],
-        "projects": [
-          "Class grade analytics system",
-          "Sales reporting database",
-          "Game high scores leaderboard"
-        ],
-        "practice": "Create 30 reports using aggregate functions"
-      },
-      "week_15_16": {
-        "title": "Subqueries and Nested Queries",
-        "topics": [
-          "Understanding subqueries concept",
-          "Subqueries in WHERE clause",
-          "Subqueries returning single values",
-          "Subqueries returning multiple values",
-          "IN, NOT IN with subqueries",
-          "EXISTS and NOT EXISTS operators",
-          "Subqueries in SELECT clause",
-          "Subqueries in FROM clause (derived tables)",
-          "Correlated vs non-correlated subqueries",
-          "Performance considerations",
-          "ANY, ALL, SOME operators",
-          "Nested subqueries (multiple levels)"
-        ],
-        "projects": [
-          "Advanced student ranking system",
-          "Product recommendation queries",
-          "Social media analytics dashboard"
-        ],
-        "practice": "Write 25 complex queries with subqueries"
-      },
-      "week_17": {
-        "title": "Month 3-4 Review & Assessment",
-        "topics": [
-          "Review of all functions learned",
-          "Query optimization basics",
-          "Common mistakes and how to avoid them",
-          "SQL style guide and formatting",
-          "Documentation best practices"
-        ],
-        "projects": [
-          "CAPSTONE: Teen Social Network Database",
-          "Complete database with users, posts, likes, comments",
-          "Complex queries for analytics and reporting"
-        ],
-        "assessment": "Comprehensive test on SQL queries and functions"
-      }
+    "week_2": {
+      "title": "SQL Basics: Creating and Managing Databases",
+      "topics": [
+        "CREATE DATABASE statement",
+        "USE, SHOW, and DROP commands",
+        "Creating tables with CREATE TABLE",
+        "Data types: INT, VARCHAR, TEXT, DATE, BOOLEAN",
+        "Understanding NULL and NOT NULL",
+        "Primary keys and their importance",
+        "AUTO_INCREMENT for automatic IDs",
+        "Altering tables: ADD, MODIFY, DROP columns",
+        "Renaming tables and columns",
+        "DESCRIBE and SHOW COLUMNS commands",
+        "Comments in SQL code",
+        "SQL naming conventions and best practices"
+      ],
+      "projects": [
+        "School database with students and classes",
+        "Gaming stats tracker database",
+        "Music library database structure"
+      ],
+      "practice": "Create 10 different database schemas for teen apps"
     },
-    "month_5_6": {
-      "title": "Months 5-6: Relationships & Database Design",
-      "weeks": "Week 18-26",
-      "week_18_19": {
-        "title": "Table Relationships and JOINS",
-        "topics": [
-          "Understanding relationships: Why we need multiple tables",
-          "One-to-One relationships explained",
-          "One-to-Many relationships (most common)",
-          "Many-to-Many relationships and junction tables",
-          "Foreign keys: Linking tables together",
-          "FOREIGN KEY constraints",
-          "Referential integrity and CASCADE options",
-          "Introduction to JOINs",
-          "INNER JOIN: Matching records in both tables",
-          "LEFT JOIN: Include all from left table",
-          "RIGHT JOIN: Include all from right table",
-          "JOIN with multiple tables"
-        ],
-        "projects": [
-          "School system with students, teachers, courses",
-          "E-commerce with customers, orders, products",
-          "Music app with artists, albums, songs"
-        ],
-        "practice": "Create 20 different JOIN queries"
-      },
-      "week_20_21": {
-        "title": "Advanced JOINS and Set Operations",
-        "topics": [
-          "Self JOINs: Joining table to itself",
-          "CROSS JOIN and Cartesian products",
-          "Natural JOIN (and why to avoid it)",
-          "Using aliases in JOINs",
-          "Multiple JOIN conditions",
-          "JOINs with aggregate functions",
-          "UNION: Combining result sets",
-          "UNION vs UNION ALL",
-          "INTERSECT concept (workarounds in MySQL)",
-          "EXCEPT/MINUS concept",
-          "Complex JOIN scenarios",
-          "Optimizing JOIN performance"
-        ],
-        "projects": [
-          "Employee hierarchy system",
-          "Tournament bracket system",
-          "Multi-store inventory system"
-        ],
-        "practice": "Master complex JOIN operations with 30 exercises"
-      },
-      "week_22_23": {
-        "title": "Database Design & Normalization",
-        "topics": [
-          "Database design process overview",
-          "Identifying entities and attributes",
-          "Entity-Relationship (ER) diagrams",
-          "Crow's foot notation",
-          "Primary keys: Natural vs Surrogate",
-          "Composite keys",
-          "Database normalization: Why it matters",
-          "First Normal Form (1NF): Eliminating repeating groups",
-          "Second Normal Form (2NF): Removing partial dependencies",
-          "Third Normal Form (3NF): Removing transitive dependencies",
-          "Denormalization: When and why",
-          "Common design patterns"
-        ],
-        "projects": [
-          "Design Instagram-like database from scratch",
-          "Create online learning platform schema",
-          "Design multiplayer game database"
-        ],
-        "practice": "Normalize 10 poorly designed databases"
-      },
-      "week_24_25": {
-        "title": "Constraints and Data Validation",
-        "topics": [
-          "PRIMARY KEY constraint deep dive",
-          "UNIQUE constraint for preventing duplicates",
-          "NOT NULL constraint",
-          "DEFAULT values and when to use them",
-          "CHECK constraints for data validation",
-          "FOREIGN KEY constraints and relationships",
-          "ON DELETE CASCADE, SET NULL, RESTRICT",
-          "ON UPDATE CASCADE",
-          "Adding constraints to existing tables",
-          "Dropping and modifying constraints",
-          "Constraint naming conventions",
-          "Data validation best practices"
-        ],
-        "projects": [
-          "User registration system with validations",
-          "Banking system with integrity constraints",
-          "Inventory system with business rules"
-        ],
-        "practice": "Implement 20 different constraint scenarios"
-      },
-      "week_26": {
-        "title": "Phase 1 Capstone Project",
-        "topics": [
-          "Project planning and requirements gathering",
-          "Database design documentation",
-          "ER diagram creation",
-          "Implementation and testing",
-          "Data population strategies"
-        ],
-        "projects": [
-          "MAJOR CAPSTONE: TikTok Clone Database",
-          "Complete schema with users, videos, likes, comments, follows",
-          "Complex queries for feed algorithm",
-          "Analytics and reporting queries"
-        ],
-        "assessment": "Phase 1 Final Exam - Design and implement complete database"
-      }
+    "week_3": {
+      "title": "Data Manipulation: INSERT, SELECT Basics",
+      "topics": [
+        "INSERT INTO: Adding single records",
+        "INSERT multiple records at once",
+        "Understanding SQL syntax and semicolons",
+        "SELECT statement fundamentals",
+        "SELECT specific columns vs SELECT *",
+        "WHERE clause for filtering data",
+        "Comparison operators: =, !=, <, >, <=, >=",
+        "AND, OR, NOT logical operators",
+        "IN and NOT IN operators",
+        "BETWEEN for range queries",
+        "LIKE operator and wildcards (%, _)",
+        "ORDER BY: Sorting results ASC and DESC"
+      ],
+      "projects": [
+        "Populate school database with student data",
+        "Create and query a movie ratings database",
+        "Build a sports team roster system"
+      ],
+      "practice": "Write 50 different SELECT queries with various filters"
+    },
+    "week_4": {
+      "title": "UPDATE, DELETE, and Data Integrity",
+      "topics": [
+        "UPDATE statement: Modifying existing data",
+        "Using WHERE with UPDATE (critical importance!)",
+        "Updating multiple columns",
+        "Using CASE in UPDATE statements",
+        "DELETE statement: Removing records",
+        "Safe deletion practices",
+        "TRUNCATE vs DELETE vs DROP",
+        "Understanding transactions basics",
+        "Data integrity and consistency",
+        "Handling NULL values in queries",
+        "IS NULL and IS NOT NULL",
+        "Default values and their uses"
+      ],
+      "projects": [
+        "Grade management system with updates",
+        "Inventory system with stock updates",
+        "Social media profile manager"
+      ],
+      "practice": "Perform 30 UPDATE and DELETE operations safely",
+      "assessment": "Month 1 check: build and query a small database live, plus a take-home mixing everything from month 1"
     }
   },
-  "phase_2_frontend_mastery": {
-    "title": "PHASE 2: Advanced MySQL & Professional Skills (Months 7-12, Weeks 27-52)",
-    "description": "Master advanced MySQL features, administration, optimization, and real-world applications to become a professional database developer.",
-    "month_7_8": {
-      "title": "Months 7-8: Advanced MySQL Features",
-      "weeks": "Week 27-35",
-      "week_27_28": {
-        "title": "Views and Virtual Tables",
-        "topics": [
-          "What are views and why use them?",
-          "Creating views with CREATE VIEW",
-          "Simple vs complex views",
-          "Views for data security",
-          "Views for simplifying complex queries",
-          "Updatable views and restrictions",
-          "WITH CHECK OPTION for data integrity",
-          "Modifying views with ALTER VIEW",
-          "Dropping views",
-          "Views vs tables performance",
-          "Materialized views concept",
-          "Best practices for using views"
-        ],
-        "projects": [
-          "Create security layer with views",
-          "Report generation system using views",
-          "Multi-tenant system with view-based isolation"
-        ],
-        "practice": "Build 15 different views for various use cases"
-      },
-      "week_29_30": {
-        "title": "Stored Procedures and Functions",
-        "topics": [
-          "Introduction to stored procedures",
-          "Benefits: security, performance, reusability",
-          "CREATE PROCEDURE syntax",
-          "Parameters: IN, OUT, INOUT",
-          "Variables and DECLARE statement",
-          "Control flow: IF-ELSE, CASE",
-          "Loops: WHILE, REPEAT, LOOP",
-          "Cursors for row-by-row processing",
-          "Error handling with HANDLERS",
-          "Stored functions vs procedures",
-          "CREATE FUNCTION syntax",
-          "Debugging stored procedures"
-        ],
-        "projects": [
-          "Banking transaction procedures",
-          "Automated report generation system",
-          "Game scoring calculation procedures"
-        ],
-        "practice": "Create 20 stored procedures for common operations"
-      },
-      "week_31_32": {
-        "title": "Triggers and Events",
-        "topics": [
-          "What are triggers? Automatic actions",
-          "Trigger timing: BEFORE and AFTER",
-          "Trigger events: INSERT, UPDATE, DELETE",
-          "CREATE TRIGGER syntax",
-          "OLD and NEW keywords in triggers",
-          "Row-level triggers",
-          "Multiple triggers on same event",
-          "Trigger use cases: audit trails, validation",
-          "Event scheduler introduction",
-          "Creating scheduled events",
-          "Recurring events and intervals",
-          "Managing and monitoring events"
-        ],
-        "projects": [
-          "Audit trail system with triggers",
-          "Automatic data archiving with events",
-          "Real-time notification system"
-        ],
-        "practice": "Implement 15 triggers and 10 scheduled events"
-      },
-      "week_33_34": {
-        "title": "Transactions and Concurrency",
-        "topics": [
-          "ACID properties explained for teens",
-          "Understanding transactions importance",
-          "START TRANSACTION, COMMIT, ROLLBACK",
-          "Autocommit mode",
-          "Savepoints in transactions",
-          "Isolation levels: READ UNCOMMITTED to SERIALIZABLE",
-          "Dirty reads, phantom reads, non-repeatable reads",
-          "Locking mechanisms in MySQL",
-          "Table locks vs row locks",
-          "Deadlocks: detection and prevention",
-          "Optimistic vs pessimistic locking",
-          "Transaction best practices"
-        ],
-        "projects": [
-          "Banking system with safe transactions",
-          "Ticket booking system with concurrency handling",
-          "Inventory management with locking"
-        ],
-        "practice": "Handle 20 different transaction scenarios"
-      },
-      "week_35": {
-        "title": "Indexing and Query Optimization",
-        "topics": [
-          "What are indexes? Phone book analogy",
-          "How indexes speed up queries",
-          "Types of indexes: B-Tree, Hash, Full-text",
-          "Creating indexes with CREATE INDEX",
-          "Primary key and unique indexes",
-          "Composite (multi-column) indexes",
-          "Index selectivity and cardinality",
-          "EXPLAIN statement for query analysis",
-          "Reading execution plans",
-          "Identifying slow queries",
-          "Query optimization techniques",
-          "When NOT to use indexes"
-        ],
-        "projects": [
-          "Optimize slow social media queries",
-          "Create indexing strategy for e-commerce",
-          "Performance tuning workshop"
-        ],
-        "practice": "Optimize 25 slow queries with proper indexing"
-      }
+  "month_2": {
+    "title": "Month 2: Query Power",
+    "description": "The everyday toolkit: string and numeric functions, dates, aggregation with GROUP BY, and first subqueries.",
+    "weeks": "Weeks 5-8",
+    "week_5": {
+      "title": "MySQL Functions: String and Numeric",
+      "topics": [
+        "String functions: CONCAT, SUBSTRING, LENGTH",
+        "UPPER, LOWER, TRIM, LTRIM, RTRIM",
+        "REPLACE and string manipulation",
+        "REVERSE, REPEAT, and SPACE",
+        "Numeric functions: ROUND, CEIL, FLOOR",
+        "ABS, MOD, POWER, SQRT",
+        "RAND() for random numbers",
+        "Mathematical operations in queries",
+        "FORMAT for number formatting",
+        "Working with CHAR_LENGTH vs LENGTH",
+        "CAST and CONVERT for type conversion",
+        "Combining multiple functions"
+      ],
+      "projects": [
+        "Username generator with string functions",
+        "Grade calculator with numeric functions",
+        "Data cleaning toolkit"
+      ],
+      "practice": "Master 40 different MySQL functions"
     },
-    "month_9_10": {
-      "title": "Months 9-10: Database Administration",
-      "weeks": "Week 36-44",
-      "week_36_37": {
-        "title": "User Management and Security",
-        "topics": [
-          "MySQL user account management",
-          "CREATE USER and DROP USER",
-          "Understanding privileges system",
-          "GRANT and REVOKE statements",
-          "Database-level vs table-level privileges",
-          "Column-level and procedure privileges",
-          "Roles in MySQL 8.0+",
-          "Password policies and expiration",
-          "SSL/TLS connections",
-          "Security best practices",
-          "Preventing SQL injection",
-          "Prepared statements for security"
-        ],
-        "projects": [
-          "Multi-user application security setup",
-          "Role-based access control system",
-          "Secure API database layer"
-        ],
-        "practice": "Configure security for 10 different scenarios"
-      },
-      "week_38_39": {
-        "title": "Backup and Recovery",
-        "topics": [
-          "Importance of backups (horror stories!)",
-          "Types of backups: Logical vs Physical",
-          "mysqldump for logical backups",
-          "Full vs incremental backups",
-          "Point-in-time recovery",
-          "Binary logs and their importance",
-          "Backup scheduling strategies",
-          "Testing backup restoration",
-          "Disaster recovery planning",
-          "Cloud backup solutions",
-          "Backup compression and encryption",
-          "Recovery time objectives (RTO)"
-        ],
-        "projects": [
-          "Automated backup system",
-          "Disaster recovery plan document",
-          "Backup testing framework"
-        ],
-        "practice": "Perform 15 backup and recovery scenarios"
-      },
-      "week_40_41": {
-        "title": "Performance Monitoring and Tuning",
-        "topics": [
-          "MySQL performance schema",
-          "Monitoring with SHOW STATUS",
-          "Understanding SHOW PROCESSLIST",
-          "Slow query log configuration",
-          "Query cache (deprecated but important to know)",
-          "Buffer pool and memory tuning",
-          "InnoDB vs MyISAM performance",
-          "Table optimization with OPTIMIZE TABLE",
-          "Partitioning large tables",
-          "Performance monitoring tools",
-          "Identifying bottlenecks",
-          "Hardware considerations"
-        ],
-        "projects": [
-          "Performance monitoring dashboard",
-          "Automated performance reports",
-          "Database health check system"
-        ],
-        "practice": "Tune 10 different database performance issues"
-      },
-      "week_42_43": {
-        "title": "Replication and High Availability",
-        "topics": [
-          "Why replication? Scaling and backup",
-          "Master-slave replication setup",
-          "Master-master replication",
-          "Replication formats: Statement vs Row",
-          "Monitoring replication lag",
-          "Handling replication errors",
-          "Read/write splitting",
-          "Failover strategies",
-          "MySQL Cluster basics",
-          "Load balancing concepts",
-          "High availability best practices",
-          "Disaster recovery with replication"
-        ],
-        "projects": [
-          "Set up master-slave replication",
-          "Build automatic failover system",
-          "Create read-replica for reporting"
-        ],
-        "practice": "Configure 5 different replication topologies"
-      },
-      "week_44": {
-        "title": "MySQL with Programming Languages",
-        "topics": [
-          "Connecting to MySQL from Python",
-          "MySQL connectors and drivers",
-          "Connection pooling importance",
-          "Prepared statements in applications",
-          "ORM concepts (Object-Relational Mapping)",
-          "Building APIs with MySQL backend",
-          "Handling database errors in code",
-          "Async database operations",
-          "Database abstraction layers",
-          "Testing database code",
-          "Migration scripts",
-          "Database versioning"
-        ],
-        "projects": [
-          "Python MySQL admin tool",
-          "RESTful API with MySQL",
-          "Database migration system"
-        ],
-        "practice": "Build 10 applications using MySQL"
-      }
+    "week_6": {
+      "title": "Date/Time Functions and Operations",
+      "topics": [
+        "Date and time data types: DATE, TIME, DATETIME, TIMESTAMP",
+        "CURDATE(), CURTIME(), NOW()",
+        "Date formatting with DATE_FORMAT",
+        "Extracting parts: YEAR, MONTH, DAY, HOUR, MINUTE",
+        "DAYNAME, MONTHNAME for readable output",
+        "Date arithmetic: DATE_ADD, DATE_SUB",
+        "DATEDIFF for calculating differences",
+        "Working with time zones",
+        "UNIX_TIMESTAMP and FROM_UNIXTIME",
+        "Age calculations from birthdates",
+        "Scheduling and recurring events concepts",
+        "Best practices for storing dates"
+      ],
+      "projects": [
+        "Birthday reminder system",
+        "Event scheduling database",
+        "Time tracking application"
+      ],
+      "practice": "Build 20 queries involving date/time calculations"
     },
-    "month_11_12": {
-      "title": "Months 11-12: Real-World Applications & Career Prep",
-      "weeks": "Week 45-52",
-      "week_45_46": {
-        "title": "Big Data and Analytics",
-        "topics": [
-          "MySQL for analytics workloads",
-          "Data warehousing concepts",
-          "ETL processes with MySQL",
-          "Window functions for analytics",
-          "ROW_NUMBER, RANK, DENSE_RANK",
-          "LAG and LEAD functions",
-          "Running totals and moving averages",
-          "Pivot tables in MySQL",
-          "JSON data type and functions",
-          "Full-text search implementation",
-          "Geographic data with spatial types",
-          "Time-series data handling"
-        ],
-        "projects": [
-          "Analytics dashboard for gaming platform",
-          "Sales analysis system",
-          "Location-based service database"
-        ],
-        "practice": "Build 15 analytical queries and reports"
-      },
-      "week_47_48": {
-        "title": "Cloud Databases and Modern Deployments",
-        "topics": [
-          "MySQL in the cloud era",
-          "Amazon RDS for MySQL",
-          "Google Cloud SQL",
-          "Azure Database for MySQL",
-          "Managed vs self-hosted databases",
-          "Database as a Service (DBaaS)",
-          "Scaling databases in cloud",
-          "Cloud backup strategies",
-          "Multi-region deployments",
-          "Database migration to cloud",
-          "Cost optimization in cloud",
-          "Serverless database concepts"
-        ],
-        "projects": [
-          "Deploy database to AWS RDS",
-          "Multi-region database setup",
-          "Cloud cost calculator tool"
-        ],
-        "practice": "Deploy databases to 3 different cloud providers"
-      },
-      "week_49_50": {
-        "title": "NoSQL and MySQL Integration",
-        "topics": [
-          "When to use NoSQL vs MySQL",
-          "MySQL as a document store",
-          "JSON support in MySQL",
-          "MySQL vs MongoDB comparison",
-          "Polyglot persistence patterns",
-          "Migrating between database types",
-          "Hybrid database architectures",
-          "Caching with Redis and MySQL",
-          "Elasticsearch with MySQL",
-          "Message queues and MySQL",
-          "Microservices and databases",
-          "API-first database design"
-        ],
-        "projects": [
-          "Hybrid database application",
-          "Cache implementation for MySQL",
-          "Microservices data architecture"
-        ],
-        "practice": "Build 5 systems combining MySQL with other technologies"
-      },
-      "week_51": {
-        "title": "Industry Best Practices and Standards",
-        "topics": [
-          "Database documentation standards",
-          "Change management processes",
-          "Database code reviews",
-          "Version control for databases",
-          "Compliance and regulations (GDPR basics)",
-          "Data privacy for teens",
-          "Encryption at rest and in transit",
-          "Audit logging requirements",
-          "Database testing strategies",
-          "Continuous integration for databases",
-          "DevOps and databases",
-          "Database team collaboration"
-        ],
-        "projects": [
-          "Database documentation system",
-          "Compliance audit checklist",
-          "CI/CD pipeline for database"
-        ],
-        "practice": "Implement best practices in all projects"
-      },
-      "week_52": {
-        "title": "Final Capstone & Career Preparation",
-        "topics": [
-          "Portfolio project planning",
-          "Resume building for database roles",
-          "LinkedIn optimization for tech",
-          "GitHub portfolio setup",
-          "Interview preparation",
-          "Common database interview questions",
-          "Live coding interviews",
-          "System design for databases",
-          "Salary negotiation for teens/young adults",
-          "Internship strategies",
-          "Freelancing opportunities",
-          "Continuous learning path"
-        ],
-        "projects": [
-          "FINAL CAPSTONE: Full-Scale Social Platform Database",
-          "Complete database for teen social app with all features",
-          "Performance optimization, security, backups, documentation"
-        ],
-        "assessment": "Final comprehensive exam covering entire year"
-      }
+    "week_7": {
+      "title": "Aggregate Functions and Grouping",
+      "topics": [
+        "COUNT: Counting records and values",
+        "COUNT(*) vs COUNT(column) vs COUNT(DISTINCT)",
+        "SUM for totaling numeric values",
+        "AVG for calculating averages",
+        "MIN and MAX for finding extremes",
+        "GROUP BY clause explained",
+        "Grouping by single and multiple columns",
+        "HAVING clause for filtering groups",
+        "HAVING vs WHERE: Key differences",
+        "GROUP_CONCAT for combining grouped values",
+        "Using aliases with AS",
+        "Complex grouping scenarios"
+      ],
+      "projects": [
+        "Class grade analytics system",
+        "Sales reporting database",
+        "Game high scores leaderboard"
+      ],
+      "practice": "Create 30 reports using aggregate functions"
+    },
+    "week_8": {
+      "title": "Subqueries and Nested Queries",
+      "topics": [
+        "Understanding subqueries concept",
+        "Subqueries in WHERE clause",
+        "Subqueries returning single values",
+        "Subqueries returning multiple values",
+        "IN, NOT IN with subqueries",
+        "EXISTS and NOT EXISTS operators",
+        "Subqueries in SELECT clause",
+        "Subqueries in FROM clause (derived tables)",
+        "Correlated vs non-correlated subqueries",
+        "Performance considerations",
+        "ANY, ALL, SOME operators",
+        "Nested subqueries (multiple levels)"
+      ],
+      "projects": [
+        "Advanced student ranking system",
+        "Product recommendation queries",
+        "Social media analytics dashboard"
+      ],
+      "practice": "Write 25 complex queries with subqueries",
+      "assessment": "Month 2 check: an aggregation-and-subquery challenge, with quiz questions reaching back to month 1"
     }
   },
-  "phase_3_backend_engineering": {
-    "title": "PHASE 3: Placeholder - Structure Required by Template",
-    "description": "This phase is not applicable for the 1-year MySQL course but included to maintain JSON structure integrity.",
-    "month_13_14": {
-      "title": "Not Applicable",
-      "weeks": "N/A",
-      "week_53_54": {
-        "title": "N/A",
-        "topics": [
-          "N/A"
-        ],
-        "projects": [
-          "N/A"
-        ],
-        "practice": "N/A"
-      },
-      "week_55_56": {
-        "title": "N/A",
-        "topics": [
-          "N/A"
-        ],
-        "projects": [
-          "N/A"
-        ],
-        "practice": "N/A"
-      },
-      "week_57_58": {
-        "title": "N/A",
-        "topics": [
-          "N/A"
-        ],
-        "projects": [
-          "N/A"
-        ],
-        "practice": "N/A"
-      },
-      "week_59_60": {
-        "title": "N/A",
-        "topics": [
-          "N/A"
-        ],
-        "projects": [
-          "N/A"
-        ],
-        "practice": "N/A"
-      },
-      "week_61": {
-        "title": "N/A",
-        "topics": [
-          "N/A"
-        ],
-        "projects": [
-          "N/A"
-        ],
-        "practice": "N/A"
-      }
+  "month_3": {
+    "title": "Month 3: Real Database Design",
+    "description": "The part that separates users from designers: relationships, joins, ER diagrams, normalization and constraints.",
+    "weeks": "Weeks 9-12",
+    "week_9": {
+      "title": "Table Relationships and JOINS",
+      "topics": [
+        "Understanding relationships: Why we need multiple tables",
+        "One-to-One relationships explained",
+        "One-to-Many relationships (most common)",
+        "Many-to-Many relationships and junction tables",
+        "Foreign keys: Linking tables together",
+        "FOREIGN KEY constraints",
+        "Referential integrity and CASCADE options",
+        "Introduction to JOINs",
+        "INNER JOIN: Matching records in both tables",
+        "LEFT JOIN: Include all from left table",
+        "RIGHT JOIN: Include all from right table",
+        "JOIN with multiple tables"
+      ],
+      "projects": [
+        "School system with students, teachers, courses",
+        "E-commerce with customers, orders, products",
+        "Music app with artists, albums, songs"
+      ],
+      "practice": "Create 20 different JOIN queries"
     },
-    "month_15_16": {
-      "title": "Not Applicable",
-      "weeks": "N/A",
-      "week_62_63": {
-        "title": "N/A",
-        "topics": [
-          "N/A"
-        ],
-        "projects": [
-          "N/A"
-        ],
-        "practice": "N/A"
-      },
-      "week_64_65": {
-        "title": "N/A",
-        "topics": [
-          "N/A"
-        ],
-        "projects": [
-          "N/A"
-        ],
-        "practice": "N/A"
-      },
-      "week_66_67": {
-        "title": "N/A",
-        "topics": [
-          "N/A"
-        ],
-        "projects": [
-          "N/A"
-        ],
-        "practice": "N/A"
-      },
-      "week_68_69": {
-        "title": "N/A",
-        "topics": [
-          "N/A"
-        ],
-        "projects": [
-          "N/A"
-        ],
-        "practice": "N/A"
-      },
-      "week_70": {
-        "title": "N/A",
-        "topics": [
-          "N/A"
-        ],
-        "projects": [
-          "N/A"
-        ],
-        "practice": "N/A"
-      }
+    "week_10": {
+      "title": "Advanced JOINS and Set Operations",
+      "topics": [
+        "Self JOINs: Joining table to itself",
+        "CROSS JOIN and Cartesian products",
+        "Natural JOIN (and why to avoid it)",
+        "Using aliases in JOINs",
+        "Multiple JOIN conditions",
+        "JOINs with aggregate functions",
+        "UNION: Combining result sets",
+        "UNION vs UNION ALL",
+        "INTERSECT concept (workarounds in MySQL)",
+        "EXCEPT/MINUS concept",
+        "Complex JOIN scenarios",
+        "Optimizing JOIN performance"
+      ],
+      "projects": [
+        "Employee hierarchy system",
+        "Tournament bracket system",
+        "Multi-store inventory system"
+      ],
+      "practice": "Master complex JOIN operations with 30 exercises"
     },
-    "month_17_18": {
-      "title": "Not Applicable",
-      "weeks": "N/A",
-      "week_71_72": {
-        "title": "N/A",
-        "topics": [
-          "N/A"
-        ],
-        "projects": [
-          "N/A"
-        ],
-        "practice": "N/A"
-      },
-      "week_73_74": {
-        "title": "N/A",
-        "topics": [
-          "N/A"
-        ],
-        "projects": [
-          "N/A"
-        ],
-        "practice": "N/A"
-      },
-      "week_75_76": {
-        "title": "N/A",
-        "topics": [
-          "N/A"
-        ],
-        "projects": [
-          "N/A"
-        ],
-        "practice": "N/A"
-      },
-      "week_77": {
-        "title": "N/A",
-        "topics": [
-          "N/A"
-        ],
-        "projects": [
-          "N/A"
-        ],
-        "practice": "N/A"
-      },
-      "week_78": {
-        "title": "N/A",
-        "topics": [
-          "N/A"
-        ],
-        "projects": [
-          "N/A"
-        ],
-        "assessment": "N/A"
-      }
+    "week_11": {
+      "title": "Database Design & Normalization",
+      "topics": [
+        "Database design process overview",
+        "Identifying entities and attributes",
+        "Entity-Relationship (ER) diagrams",
+        "Crow's foot notation",
+        "Primary keys: Natural vs Surrogate",
+        "Composite keys",
+        "Database normalization: Why it matters",
+        "First Normal Form (1NF): Eliminating repeating groups",
+        "Second Normal Form (2NF): Removing partial dependencies",
+        "Third Normal Form (3NF): Removing transitive dependencies",
+        "Denormalization: When and why",
+        "Common design patterns"
+      ],
+      "projects": [
+        "Design Instagram-like database from scratch",
+        "Create online learning platform schema",
+        "Design multiplayer game database"
+      ],
+      "practice": "Normalize 10 poorly designed databases"
+    },
+    "week_12": {
+      "title": "Constraints and Data Validation",
+      "topics": [
+        "PRIMARY KEY constraint deep dive",
+        "UNIQUE constraint for preventing duplicates",
+        "NOT NULL constraint",
+        "DEFAULT values and when to use them",
+        "CHECK constraints for data validation",
+        "FOREIGN KEY constraints and relationships",
+        "ON DELETE CASCADE, SET NULL, RESTRICT",
+        "ON UPDATE CASCADE",
+        "Adding constraints to existing tables",
+        "Dropping and modifying constraints",
+        "Constraint naming conventions",
+        "Data validation best practices"
+      ],
+      "projects": [
+        "User registration system with validations",
+        "Banking system with integrity constraints",
+        "Inventory system with business rules"
+      ],
+      "practice": "Implement 20 different constraint scenarios",
+      "assessment": "Month 3 check: design a small schema live from a real-world brief, plus mixed review of months 1-2"
     }
   },
-  "phase_4_advanced_production": {
-    "title": "PHASE 4: Placeholder - Structure Required by Template",
-    "description": "This phase is not applicable for the 1-year MySQL course but included to maintain JSON structure integrity.",
-    "month_19_20": {
-      "title": "Not Applicable",
-      "weeks": "N/A",
-      "week_79_80": {
-        "title": "N/A",
-        "topics": [
-          "N/A"
-        ],
-        "projects": [
-          "N/A"
-        ],
-        "practice": "N/A"
-      },
-      "week_81_82": {
-        "title": "N/A",
-        "topics": [
-          "N/A"
-        ],
-        "projects": [
-          "N/A"
-        ],
-        "practice": "N/A"
-      },
-      "week_83_84": {
-        "title": "N/A",
-        "topics": [
-          "N/A"
-        ],
-        "projects": [
-          "N/A"
-        ],
-        "practice": "N/A"
-      },
-      "week_85_86": {
-        "title": "N/A",
-        "topics": [
-          "N/A"
-        ],
-        "projects": [
-          "N/A"
-        ],
-        "practice": "N/A"
-      },
-      "week_87": {
-        "title": "N/A",
-        "topics": [
-          "N/A"
-        ],
-        "projects": [
-          "N/A"
-        ],
-        "practice": "N/A"
-      }
+  "month_4": {
+    "title": "Month 4: Power Features",
+    "description": "What professionals actually lean on: views, stored procedures, transactions with ACID honesty, and indexes that make queries fly.",
+    "weeks": "Weeks 13-16",
+    "week_13": {
+      "title": "Views and Virtual Tables",
+      "topics": [
+        "What are views and why use them?",
+        "Creating views with CREATE VIEW",
+        "Simple vs complex views",
+        "Views for data security",
+        "Views for simplifying complex queries",
+        "Updatable views and restrictions",
+        "WITH CHECK OPTION for data integrity",
+        "Modifying views with ALTER VIEW",
+        "Dropping views",
+        "Views vs tables performance",
+        "Materialized views concept",
+        "Best practices for using views"
+      ],
+      "projects": [
+        "Create security layer with views",
+        "Report generation system using views",
+        "Multi-tenant system with view-based isolation"
+      ],
+      "practice": "Build 15 different views for various use cases"
     },
-    "month_21_22": {
-      "title": "Not Applicable",
-      "weeks": "N/A",
-      "week_88_89": {
-        "title": "N/A",
-        "topics": [
-          "N/A"
-        ],
-        "projects": [
-          "N/A"
-        ],
-        "practice": "N/A"
-      },
-      "week_90_91": {
-        "title": "N/A",
-        "topics": [
-          "N/A"
-        ],
-        "projects": [
-          "N/A"
-        ],
-        "practice": "N/A"
-      },
-      "week_92_93": {
-        "title": "N/A",
-        "topics": [
-          "N/A"
-        ],
-        "projects": [
-          "N/A"
-        ],
-        "practice": "N/A"
-      },
-      "week_94_95": {
-        "title": "N/A",
-        "topics": [
-          "N/A"
-        ],
-        "projects": [
-          "N/A"
-        ],
-        "practice": "N/A"
-      },
-      "week_96": {
-        "title": "N/A",
-        "topics": [
-          "N/A"
-        ],
-        "projects": [
-          "N/A"
-        ],
-        "practice": "N/A"
-      }
+    "week_14": {
+      "title": "Stored Procedures and Functions",
+      "topics": [
+        "Introduction to stored procedures",
+        "Benefits: security, performance, reusability",
+        "CREATE PROCEDURE syntax",
+        "Parameters: IN, OUT, INOUT",
+        "Variables and DECLARE statement",
+        "Control flow: IF-ELSE, CASE",
+        "Loops: WHILE, REPEAT, LOOP",
+        "Cursors for row-by-row processing",
+        "Error handling with HANDLERS",
+        "Stored functions vs procedures",
+        "CREATE FUNCTION syntax",
+        "Debugging stored procedures"
+      ],
+      "projects": [
+        "Banking transaction procedures",
+        "Automated report generation system",
+        "Game scoring calculation procedures"
+      ],
+      "practice": "Create 20 stored procedures for common operations"
     },
-    "month_23": {
-      "title": "Not Applicable",
-      "weeks": "N/A",
-      "week_97": {
-        "title": "N/A",
-        "topics": [
-          "N/A"
-        ],
-        "projects": [
-          "N/A"
-        ],
-        "practice": "N/A"
-      },
-      "week_98": {
-        "title": "N/A",
-        "topics": [
-          "N/A"
-        ],
-        "projects": [
-          "N/A"
-        ],
-        "practice": "N/A"
-      },
-      "week_99": {
-        "title": "N/A",
-        "topics": [
-          "N/A"
-        ],
-        "projects": [
-          "N/A"
-        ],
-        "practice": "N/A"
-      },
-      "week_100": {
-        "title": "N/A",
-        "topics": [
-          "N/A"
-        ],
-        "projects": [
-          "N/A"
-        ],
-        "practice": "N/A"
-      }
+    "week_15": {
+      "title": "Transactions and Concurrency",
+      "topics": [
+        "ACID properties explained for teens",
+        "Understanding transactions importance",
+        "START TRANSACTION, COMMIT, ROLLBACK",
+        "Autocommit mode",
+        "Savepoints in transactions",
+        "Isolation levels: READ UNCOMMITTED to SERIALIZABLE",
+        "Dirty reads, phantom reads, non-repeatable reads",
+        "Locking mechanisms in MySQL",
+        "Table locks vs row locks",
+        "Deadlocks: detection and prevention",
+        "Optimistic vs pessimistic locking",
+        "Transaction best practices"
+      ],
+      "projects": [
+        "Banking system with safe transactions",
+        "Ticket booking system with concurrency handling",
+        "Inventory management with locking"
+      ],
+      "practice": "Handle 20 different transaction scenarios"
     },
-    "month_24": {
-      "title": "Not Applicable",
-      "weeks": "N/A",
-      "week_101_102": {
-        "title": "N/A",
-        "topics": [
-          "N/A"
-        ],
-        "projects": [
-          "N/A"
-        ]
-      },
-      "week_103": {
-        "title": "N/A",
-        "topics": [
-          "N/A"
-        ],
-        "deliverables": [
-          "N/A"
-        ]
-      },
-      "week_104": {
-        "title": "N/A",
-        "topics": [
-          "N/A"
-        ],
-        "deliverables": [
-          "N/A"
-        ],
-        "assessment": "N/A"
-      }
+    "week_16": {
+      "title": "Indexing and Query Optimization",
+      "topics": [
+        "What are indexes? Phone book analogy",
+        "How indexes speed up queries",
+        "Types of indexes: B-Tree, Hash, Full-text",
+        "Creating indexes with CREATE INDEX",
+        "Primary key and unique indexes",
+        "Composite (multi-column) indexes",
+        "Index selectivity and cardinality",
+        "EXPLAIN statement for query analysis",
+        "Reading execution plans",
+        "Identifying slow queries",
+        "Query optimization techniques",
+        "When NOT to use indexes"
+      ],
+      "projects": [
+        "Optimize slow social media queries",
+        "Create indexing strategy for e-commerce",
+        "Performance tuning workshop"
+      ],
+      "practice": "Optimize 25 slow queries with proper indexing",
+      "assessment": "Month 4 check: speed up a slow query live with an index and explain why it worked, plus mixed review"
+    }
+  },
+  "month_5": {
+    "title": "Month 5: Real Apps and the Final Exam",
+    "description": "Securing the database, backing it up, driving it from Python, and the capstone defended at demo day.",
+    "weeks": "Weeks 17-20",
+    "week_17": {
+      "title": "Users, Security and Backups",
+      "topics": [
+        "MySQL user account management",
+        "CREATE USER and DROP USER",
+        "Understanding privileges system",
+        "GRANT and REVOKE statements",
+        "Database-level vs table-level privileges",
+        "Column-level and procedure privileges",
+        "Roles in MySQL 8.0+",
+        "Password policies and expiration",
+        "SSL/TLS connections",
+        "Security best practices",
+        "Preventing SQL injection",
+        "Prepared statements for security",
+        "Backups with mysqldump: the five-minute habit that saves projects"
+      ],
+      "projects": [
+        "Multi-user application security setup",
+        "Role-based access control system",
+        "Secure API database layer"
+      ],
+      "practice": "Configure security for 10 different scenarios"
+    },
+    "week_18": {
+      "title": "MySQL from Python: Data Becomes an App",
+      "topics": [
+        "Connecting to MySQL from Python",
+        "MySQL connectors and drivers",
+        "Connection pooling importance",
+        "Prepared statements in applications",
+        "ORM concepts (Object-Relational Mapping)",
+        "Building APIs with MySQL backend",
+        "Handling database errors in code",
+        "Async database operations",
+        "Database abstraction layers",
+        "Testing database code",
+        "Migration scripts",
+        "Database versioning"
+      ],
+      "projects": [
+        "Python MySQL admin tool",
+        "RESTful API with MySQL",
+        "Database migration system"
+      ],
+      "practice": "Build 10 applications using MySQL"
+    },
+    "week_19": {
+      "title": "Capstone Build",
+      "topics": [
+        "Choosing the capstone: a database product for something real, a club, a collection, a game",
+        "Designing first: ER diagram and constraints reviewed before any data",
+        "Building the schema, seeding realistic data",
+        "The query set: the ten questions your database can answer",
+        "A small Python interface: menu-driven or web-lite",
+        "Documentation another student could use"
+      ],
+      "projects": [
+        "The capstone: a designed, documented, Python-connected database project"
+      ],
+      "practice": "Daily capstone progress; schema frozen by day 3"
+    },
+    "week_20": {
+      "title": "Demo Day and Final Exam",
+      "topics": [
+        "Presenting the capstone: schema, queries, interface, decisions",
+        "A full-course spiral review before the exam",
+        "Where this leads: Python, data science and full-stack roads"
+      ],
+      "projects": [
+        "Demo day presentation delivered to the batch and parents"
+      ],
+      "assessment": "FINAL EXAM: a practical database build plus a written paper with questions mixed from every month. Passing earns the certificate; a student who falls short gets a focused revision plan and a free retest"
     }
   },
   "additional_learning_resources": {
     "projects_throughout_course": [
-      "Phase 1 (Months 1-6): Contact Database, School System, Gaming Stats Tracker, Social Media Database, E-commerce Schema",
-      "Phase 2 (Months 7-12): Banking System, Analytics Dashboard, Cloud Database Deployment, Replication Setup, Complete Social Platform"
+      "Month 1-2: personal databases queried daily: music libraries, game inventories, club registers",
+      "Month 3: a properly designed multi-table schema with an ER diagram",
+      "Month 4: views, procedures and transactions added to real projects",
+      "Month 5: a secured, backed-up, Python-connected capstone defended at demo day"
     ],
-    "total_projects_built": "30+ database projects ranging from simple to complex enterprise systems",
+    "total_projects_built": "12+ real databases and query projects, crowned by a connected capstone",
     "skills_mastered": [
-      "SQL Fundamentals: SELECT, INSERT, UPDATE, DELETE, CREATE, ALTER, DROP",
-      "Advanced Queries: JOINs, Subqueries, CTEs, Window Functions, Set Operations",
-      "Database Design: ER Diagrams, Normalization, Relationships, Constraints",
-      "Programming: Stored Procedures, Functions, Triggers, Events, Cursors",
-      "Administration: User Management, Security, Backup/Recovery, Replication",
-      "Performance: Indexing, Query Optimization, Partitioning, Caching",
-      "Cloud Databases: AWS RDS, Google Cloud SQL, Azure Database",
-      "Integration: Python/PHP/Java connections, ORMs, APIs, Microservices",
-      "Analytics: Data Warehousing, ETL, Reporting, Business Intelligence",
-      "Security: SQL Injection Prevention, Encryption, Access Control, Auditing"
+      "SQL fluency: SELECT to subqueries, written confidently and safely",
+      "Aggregation and analysis: GROUP BY thinking that carries into data science",
+      "Database design: relationships, ER diagrams, normalization and constraints",
+      "Professional features: views, stored procedures, transactions, indexes",
+      "Operations basics: users, privileges and backups",
+      "Integration: MySQL driven from Python, database to application"
     ],
     "weekly_structure": {
-      "theory_videos": "3-5 hours",
-      "hands_on_coding": "5-7 hours",
-      "projects": "2-3 hours",
-      "practice_problems": "2-3 hours",
-      "total_per_week": "10-15 hours"
-    },
-    "support_provided": {
-      "live_sessions": "Weekly Q&A sessions with database experts",
-      "mentorship": "1-on-1 guidance from professional DBAs",
-      "code_review": "Expert review of database designs",
-      "career_support": "Internship guidance and college application help"
+      "live_classes": "2 live one-hour classes per week, querying along with the instructor",
+      "homework": "Homework after every class, and a mixed-review assignment at the end of every month so earlier skills stay sharp",
+      "practice": "2-3 hours of query and design practice between classes",
+      "review": "Every submission reviewed with written feedback; recurring issues reopened in class"
     },
     "certification": {
-      "phase_certificates": "Certificate after Phase 1 completion",
-      "final_certificate": "MySQL Professional Developer Certificate",
-      "linkedin_badge": "Verifiable LinkedIn certification",
-      "industry_recognized": "Recognized by tech companies",
-      "portfolio_projects": "30+ projects for college/job applications"
+      "completion": "Certificate from Modern Age Coders, awarded on passing the final exam. Fall short and there is focused revision and a free retest: the certificate certifies knowledge, not attendance"
+    },
+    "support_provided": {
+      "doubt_support": "WhatsApp doubt support between classes, for the JOIN that refuses to join",
+      "progress_updates": "Regular progress notes to parents: what was built, what comes next, and where encouragement helps"
     }
   },
   "prerequisites": {
-    "education": "Basic computer literacy - suitable for high school students",
-    "coding_experience": "No programming experience required - complete beginner friendly",
-    "equipment": "Any computer (Windows/Mac/Linux) with internet",
-    "time_commitment": "10-15 hours per week for best results",
-    "english": "Basic English reading skills",
-    "motivation": "Curiosity about data and technology"
+    "coding_experience": "None. SQL is taught from the first statement; the Python in month 5 is guided",
+    "computer_skills": "Comfortable typing and installing software with guidance",
+    "equipment": "A computer with a stable internet connection; MySQL and every tool used are free",
+    "age": "13 to 18. Batches are grouped by age and pace",
+    "time_commitment": "2 live classes plus 2-3 hours of practice a week"
   },
   "who_is_this_for": {
-    "students": "High school students (13-18 years) interested in tech careers",
-    "working_professionals": "Young adults wanting database skills",
-    "entrepreneurs": "Teen entrepreneurs needing data management skills",
-    "freelancers": "Students wanting to earn through database projects",
-    "kids": "Motivated middle schoolers with parental guidance",
-    "anyone": "Gaming enthusiasts wanting to understand game databases"
+    "data_curious": "Teens who wonder how apps remember everything, and want to build the memory themselves",
+    "future_developers": "Students heading for web, app or game development, where the data layer is always waiting",
+    "analysts_in_the_making": "Teens drawn to spreadsheets and statistics, ready for the real tool behind them",
+    "complete_beginners": "Students with zero coding background: SQL is one of the friendliest first languages there is",
+    "portfolio_builders": "Teens who want a genuinely uncommon skill on a school profile"
   },
   "career_paths_after_completion": [
-    "Junior Database Developer (Entry level)",
-    "SQL Developer",
-    "Database Administrator (DBA)",
-    "Data Analyst",
-    "Backend Developer with Database Focus",
-    "Business Intelligence Developer",
-    "Data Engineer (with additional skills)",
-    "Database Consultant",
-    "College CS Major (strong foundation)",
-    "Freelance Database Developer"
+    "Python for Teens: the natural pairing, already begun in month 5",
+    "Full-stack web development: every backend needs exactly this data layer",
+    "Data science: aggregation thinking here becomes pandas thinking there",
+    "App development: real apps stand on real schemas",
+    "School and college projects that suddenly have proper data behind them"
   ],
   "course_guarantees": {
     "live_classes": "Live, interactive classes with a real instructor, never pre-recorded videos.",
     "small_batches": "Small batches only: group classes are capped at 10 students, with mini-batch (3 to 4 students) and personal 1-on-1 options.",
-    "structured_curriculum": "A structured, well-paced curriculum taught step by step, with hands-on practice in every session.",
+    "structured_curriculum": "A structured, well-paced curriculum taught step by step, with classwork in every session and homework after every class.",
+    "real_assessment": "Mixed-review assignments after every month and a final exam that decides the certificate: real knowledge, real work, real projects.",
     "doubt_support": "Doubt support between classes over WhatsApp, so you are never left stuck.",
-    "certificate": "A course-completion certificate you can share.",
+    "certificate": "A certificate you earn by passing the final exam, with a free retest after revision if needed.",
     "free_demo": "A free demo class before you enrol, so you can decide with no pressure."
   },
   "faqs": [
     {
-      "question": "Why should a teenager learn MySQL database management?",
-      "answer": "Every app, website, and game stores data in databases. Learning MySQL gives teens a highly marketable skill that's essential for software development, data science, and IT careers. Database skills complement web development and app programming, making teens more complete developers."
+      "question": "Why should a teenager learn SQL and MySQL?",
+      "answer": "Because it is the highest-value-per-hour skill in computing: a compact language, learnable at 13, running underneath every app they use, and still current decades from now. SQL turns a teen from someone who uses apps into someone who understands how apps remember, and it quietly powers every later path: web development, data science, app building and analytics."
     },
     {
-      "question": "What real-world applications will I build in this MySQL course?",
-      "answer": "You'll build databases for social media apps (like TikTok/Instagram clone), gaming leaderboards, e-commerce systems, school management systems, inventory trackers, and analytics dashboards. All projects use scenarios teens relate to and can showcase in portfolios."
+      "question": "How long does it take a teen to learn MySQL properly?",
+      "answer": "Five months at 2 live classes a week plus 2 to 3 hours of practice: foundations, the query toolkit, real database design, professional features, and a Python-connected capstone. The course keeps a sixth month in hand for students who need more repetition, no rushing and no penalty. First real queries run in class one."
     },
     {
-      "question": "How does learning MySQL help with college applications?",
-      "answer": "Database skills demonstrate technical proficiency beyond typical high school curricula. Your portfolio of 30+ database projects, MySQL certification, and demonstrated ability to build complex data systems significantly strengthens computer science program applications."
+      "question": "How is my teen assessed? Is the certificate just for attending?",
+      "answer": "No. Homework follows every class, each month ends with a mixed assignment that deliberately revisits earlier topics, and the course ends with a final exam: a practical database build plus written questions from the whole syllabus. Passing earns the certificate; falling short earns focused revision and a free retest."
     },
     {
-      "question": "What SQL commands and concepts will I master?",
-      "answer": "You'll master SELECT, INSERT, UPDATE, DELETE, JOINs (INNER, LEFT, RIGHT), GROUP BY, HAVING, subqueries, stored procedures, triggers, views, indexing, normalization, and database security. The course covers everything from basics to professional database administration."
+      "question": "What will my teen actually build?",
+      "answer": "A dozen real databases: music libraries, game inventories and club registers in the early months, then a properly designed multi-table schema with an ER diagram, and finally the capstone, a secured, documented database connected to a small Python interface, presented at demo day. Real data about things they care about, from week one."
     },
     {
-      "question": "Can I connect MySQL to websites and apps I build?",
-      "answer": "Yes! The course includes connecting MySQL to Python applications, building REST APIs with database backends, and understanding how popular apps like Instagram, YouTube, and TikTok use databases. You'll learn the complete stack from database to application."
+      "question": "Does this course cover connecting databases to apps and websites?",
+      "answer": "Yes, that is the destination: month 5 drives MySQL from Python, turning the database into an application, and the capstone requires it. Students heading to our full-stack or app development courses arrive with the data layer, usually the hardest part for beginners, already owned."
     },
     {
-      "question": "What career opportunities are available for teens with MySQL skills?",
-      "answer": "Database skills like MySQL are among the most in-demand technical skills globally. With the projects you build in this course you can pursue internships and junior database roles as you grow older, and some learners take on small freelance database projects once they are ready. Any earnings depend on your skills, effort, and the market."
+      "question": "Is any paid software required?",
+      "answer": "No. MySQL Community Server, MySQL Workbench and Python are all free, and a standard computer runs everything comfortably. SQL is famously light on hardware."
+    },
+    {
+      "question": "What are the fees?",
+      "answer": "Group classes are ₹1,499 per month, with 2 live classes a week in batches capped at 10 students. A mini batch of 3-4 students is ₹2,999 per month, and personal 1-on-1 classes are ₹4,999 per month. International students pay a price set for their own country, shown on this page in their local currency."
+    },
+    {
+      "question": "Is there a free trial class?",
+      "answer": "Yes, a free demo class with no commitment: book at learn.modernagecoders.com/contact or message us on WhatsApp at +91 91233 66161. Your teen will run real queries inside the demo itself."
+    },
+    {
+      "question": "Are classes live or recorded?",
+      "answer": "Live, always: small interactive groups with a real instructor, never pre-recorded videos. SQL is learned by writing queries and being corrected in the moment, a video cannot see your WHERE clause."
     }
   ]
 }
