@@ -121,16 +121,18 @@ Status: [ ] pending · [~] in progress · [x] done+committed
 ### Tier 4: 12-month tier needing right-sizing (judge each)
 - [x] mysql-teens.json (12mo -> 5-6mo) DONE 2026-08-23: removed LIVE "Placeholder - Structure Required by Template" phases; 20wk Python-connected arc + exam system
 - [x] mysql-database-college.json (12mo -> 7-8mo) DONE 2026-08-23: developer-honest scope, DBA track cut and named as next path; exam system
-- [ ] react-teens.json · react-js-college.json · frontend-teens.json · backend-teens.json
-- [ ] cpp-teens.json · cpp-programming-college.json · kotlin.json · swift.json · golang.json
+- [x] react-teens (9-11mo JS-first) · frontend-teens (9-11mo UI-craft, differentiated from react-teens) · backend-teens (9-11mo Node/APIs, K8s tour cut) · cpp-teens (10-12mo, pointers-with-pictures + SFML + CP) DONE 2026-08-23
+- [ ] react-js-college.json
+- [ ] cpp-programming-college.json · kotlin.json · swift.json · golang.json
 - [ ] typescript-programming-college.json · flutter.json · mern-stack-college.json
-- [ ] python-mastery-college.json · python-ai-automation-college.json · gen-ai.json
+- [ ] python-ai-automation-college.json
 - [x] ai-ml-teens.json (12mo -> 10-12mo) + ai-ml-college.json (52wk -> 48wk, GenAI/LLM month) + gen-ai.json (kept RAG/agents spine, cut from-scratch/startup tail, 10-12mo) + python-mastery-college.json (four-in-one -> 9-11mo + Three Roads month) DONE 2026-08-23
 - [ ] artificial-intelligence-college.json
 - [ ] data-science-college.json · game-dev-college.json · app-dev-college.json
 - [ ] algo-trading.json · algo-trading-automation.json
-- [ ] princess-coders.json · queen-coders.json · alpha-girls.json
-- [ ] python-ai-kids.json · web-dev-kids.json (12mo each)
+- [x] princess/queen/alpha girls trio DONE 2026-08-23: honest ladder 9-11mo each, fantasy layer (Tech Mogul, Universal Domination, Coronation) removed
+- [x] python-ai-kids (8-10mo kid-safe AI) · web-dev-kids (8-10mo, ChatGPT/Claude/Midjourney-for-kids REMOVED) · game-dev-kids + app-dev-kids + problem-solving-kids (6-8mo, 24mo shadow curricula cut) · canva-ai-kids (-> honest 13+, Firefly/Magic Studio) · design-editing-teens (8-10mo, live Placeholder phases removed) DONE 2026-08-23
+- [x] computational-thinking-ai-kids + teens (CBSE pair): recorded-class claim cut, tool age-floors fixed, 51/69 kws -> 12; verified CBSE facts kept. hackathon trio + vibe trio + class-11-12 pair micro-patched (recorded-replays/parent-dashboard claims cut, Claude-4.7-style invented versions fixed, board-guarantee wording fixed) DONE 2026-08-23
 - [ ] mental-maths-kids.json · early-math-foundations.json · psle-maths.json
 - [ ] high-school-maths.json · middle-school-mathematics.json · applied-mathematics.json
 - [ ] olympiad-maths courses x2 · algebra-foundations.json · ap-calculus-prep.json
