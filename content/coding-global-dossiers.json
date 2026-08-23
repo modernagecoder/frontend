@@ -2719,5 +2719,41 @@
       "A headline population. One source gives 85,000 and the 2022 census table gives 96,415, and no argument on this page depends on either, so neither is stated.",
       "A precise date for the Friday Mosque mihrab. The record says approximately the 14th century and the page keeps the approximation rather than converting it into a year that would read better and mean less."
     ]
+  },
+  "coding-classes-in-al-mudhaibi": {
+    "market": "Al Mudhaibi, Ash Sharqiyah North",
+    "bodyClass": "cg-mdh",
+    "curriculumAuthority": "Oman Ministry of Education, General Education Diploma. The page argues from scale rather than curriculum: Al Mudhaibi is the largest wilayat in its governorate at roughly 3,000 square kilometres with two niabas and settlements of wildly unequal size, so no single physical location could serve it and no careless average can describe it.",
+    "localProject": "The average of several rates against the overall rate. Five settlements, four small and one holding 91 per cent of the learners: the mean of the five rates is 77.0 per cent and total passes over total entries is 57.5, a gap of 19.5 percentage points. Assigned to this page and no other: checked free across the cluster, and kept clear of the percentage-wording trap on Al Ghubrah and the share-rounding trap on Al Amarat.",
+    "requiredMentions": [
+      "Samad Ash Shan",
+      "Suq Sinaw",
+      "Al Sudairah",
+      "Barzman",
+      "Al Zahib",
+      "Bani Difaa",
+      "Umm al-Nar",
+      "niabas",
+      "khanjars",
+      "Al-Dhaqiq"
+    ],
+    "sources": [
+      {
+        "claim": "Al Mudhaibi is the largest wilayat in Ash Sharqiyah with an estimated area of about 3,000 square kilometres, holds the two niabas Sinaw and Samad Ash Shan, and its villages include Al Sudairah, Barzman, Al Zahib, Al Alia, Bani Difaa and the Al-Dhaqiq area between Lazq and Al Maysar; agriculture is the first craft, with palm, lemon, alfalfa and vegetables.",
+        "url": "https://en.wikipedia.org/wiki/Al-Mudhaibi"
+      },
+      {
+        "claim": "Samad al-Shan is noted for ancient Umm al-Nar period sites dated to roughly 2500 to 2000 BCE.",
+        "url": "https://grokipedia.com/page/ash-sharqiyah-north-governorate"
+      },
+      {
+        "claim": "Suq Sinaw is among the most popular souqs in Oman, selling dresses, khanjars and jewellery.",
+        "url": "https://experienceoman.om/destinations/ash-sharqiyah-north"
+      }
+    ],
+    "rejectedClaims": [
+      "A population figure. The 2022 census gives about 92,193 for the wilayat, but the page argues from area and from the inequality between settlements rather than from a total, so a headline population would be decoration.",
+      "Any real per-settlement pass rate. No public per-village result file exists, so the counts in the project are teaching values and are labelled as such on the page."
+    ]
   }
 }
