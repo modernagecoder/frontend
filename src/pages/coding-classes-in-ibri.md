@@ -12,7 +12,15 @@ Skip to contentCourse picks
 
 These four pathways move from Python foundations into data science, automation and application delivery.
 
-[![Python for Teens course thumbnail](/images/python-teens.webp)Ages 14 to 18Python for TeensParse timestamps and test expiry rules.See the syllabus](/courses/python-complete-masterclass-teens)[![Data Science course thumbnail](/images/data-science-college.webp)College and adultData ScienceModel observation time and uncertainty.See the syllabus](/courses/data-science-complete-masterclass-college)[![Python AI Automation course thumbnail](/images/python-automation-ai-college.webp)College and adultPython AI AutomationBuild reliable refresh and alert workflows.See the syllabus](/courses/python-ai-automation-masterclass-college)[![Full-Stack Web Development course thumbnail](/images/full-stack-development-college.webp)College and adultFull-Stack Web DevelopmentCarry freshness metadata through every layer.See the syllabus](/courses/full-stack-web-development-masterclass-college)Verified local context
+[![Python for Teens course thumbnail](/images/python-teens.webp)Ages 14 to 18Python for TeensParse timestamps and test expiry rules.See the syllabus](/courses/python-complete-masterclass-teens)[![Data Science course thumbnail](/images/data-science-college.webp)College and adultData ScienceModel observation time and uncertainty.See the syllabus](/courses/data-science-complete-masterclass-college)[![Python AI Automation course thumbnail](/images/python-automation-ai-college.webp)College and adultPython AI AutomationBuild reliable refresh and alert workflows.See the syllabus](/courses/python-ai-automation-masterclass-college)[![Full-Stack Web Development course thumbnail](/images/full-stack-development-college.webp)College and adultFull-Stack Web DevelopmentCarry freshness metadata through every layer.See the syllabus](/courses/full-stack-web-development-masterclass-college)
+
+The four we are known for
+
+### Python, AI, vibe coding and agentic coding
+
+These run underneath everything above. Every one is live and online, placed by ability rather than by age, and the first class is free.
+
+[![Vibe Coding for Teens course thumbnail](/images/vibe-coding-teens.webp)Vibe codingAges 13 to 17Vibe Coding for TeensPython, web and AI projects where the learner still owns the thinking.See the syllabus](/courses/vibe-coding-for-teens-python-web-ai-projects-course)[![AI and Machine Learning for Teens course thumbnail](/images/ai-ml-teens.webp)AI and MLAges 14 to 18AI and Machine Learning for TeensTrain a model, read what it learned, and be able to say why it is wrong.See the syllabus](/courses/ai-ml-masterclass-teens)[![Codex and Claude Code course thumbnail](/images/codex-claude-code-adults.webp)Agentic codingProfessionalsCodex and Claude CodeRun AI coding agents on real work without losing control of the codebase.See the syllabus](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals)Verified local context
 
 ## Ibri is Al Dhahirah's administrative centre and largest geographic frame
 

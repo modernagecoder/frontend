@@ -12,7 +12,15 @@ Skip to contentCourse picks
 
 These routes develop decomposition, Python debugging, algorithms and reliable storage.
 
-[![Problem Solving for Kids course thumbnail](/images/problem-solving-kids.webp)Ages 8 to 13Computational ThinkingSeparate known, missing and invalid states.See the syllabus](/courses/problem-solving-and-computational-thinking-for-kids)[![Python for Teens course thumbnail](/images/python-teens.webp)Ages 14 to 18Python for TeensDebug dictionaries, exceptions and result types.See the syllabus](/courses/python-complete-masterclass-teens)[![Data Structures and Algorithms course thumbnail](/images/dsa-college.webp)College and adultData Structures and AlgorithmsChoose maps, contracts and failure behaviour.See the syllabus](/courses/data-structures-algorithms-masterclass-college)[![MySQL Database course thumbnail](/images/database-college.webp)College and adultMySQL DatabaseModel nullability, keys and constraints.See the syllabus](/courses/mysql-database-complete-masterclass-college)Current administrative evidence
+[![Problem Solving for Kids course thumbnail](/images/problem-solving-kids.webp)Ages 8 to 13Computational ThinkingSeparate known, missing and invalid states.See the syllabus](/courses/problem-solving-and-computational-thinking-for-kids)[![Python for Teens course thumbnail](/images/python-teens.webp)Ages 14 to 18Python for TeensDebug dictionaries, exceptions and result types.See the syllabus](/courses/python-complete-masterclass-teens)[![Data Structures and Algorithms course thumbnail](/images/dsa-college.webp)College and adultData Structures and AlgorithmsChoose maps, contracts and failure behaviour.See the syllabus](/courses/data-structures-algorithms-masterclass-college)[![MySQL Database course thumbnail](/images/database-college.webp)College and adultMySQL DatabaseModel nullability, keys and constraints.See the syllabus](/courses/mysql-database-complete-masterclass-college)
+
+The four we are known for
+
+### Python, AI, vibe coding and agentic coding
+
+These run underneath everything above. Every one is live and online, placed by ability rather than by age, and the first class is free.
+
+[![Vibe Coding for Teens course thumbnail](/images/vibe-coding-teens.webp)Vibe codingAges 13 to 17Vibe Coding for TeensPython, web and AI projects where the learner still owns the thinking.See the syllabus](/courses/vibe-coding-for-teens-python-web-ai-projects-course)[![Python AI Automation course thumbnail](/images/python-automation-ai-college.webp)Python and AICollege and adultPython AI AutomationAutomate the work you already do, then let AI carry part of it.See the syllabus](/courses/python-ai-automation-masterclass-college)[![AI and Machine Learning for Teens course thumbnail](/images/ai-ml-teens.webp)AI and MLAges 14 to 18AI and Machine Learning for TeensTrain a model, read what it learned, and be able to say why it is wrong.See the syllabus](/courses/ai-ml-masterclass-teens)[![Codex and Claude Code course thumbnail](/images/codex-claude-code-adults.webp)Agentic codingProfessionalsCodex and Claude CodeRun AI coding agents on real work without losing control of the codebase.See the syllabus](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals)Current administrative evidence
 
 ## Ibra is the centre of a seven-wilayat governorate
 

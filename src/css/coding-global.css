@@ -539,11 +539,57 @@
   line-height: 1.25; margin: 0; color: var(--cg-ink);
 }
 .cg-pick-note { font-size: 0.88rem; color: var(--cg-muted); margin: 0; }
-.cg-pick-go {
-  margin-top: auto; padding-top: 0.55rem;
-  font-size: 0.88rem; font-weight: 600; color: var(--cg-accent);
+/* The card CTA is a real button rather than a line of accent text. Written at
+   .cg-root .cg-pick-go (0,2,0) so it beats `.cg-root a` (0,1,1): that exact
+   specificity trap once shipped invisible button labels on six live pages.
+   White on the accent was measured across all 67 accents in this file before
+   this was written; the worst is 5.03 to 1, so every page clears 4.5. */
+.cg-root .cg-pick-go {
+  margin-top: auto;
+  align-self: flex-start;
+  display: inline-block;
+  /* 0.72rem gives a 44px tap target, which the project QA checklist
+     requires and 0.5rem missed at 38px. */
+  padding: 0.72rem 1.05rem;
+  border-radius: 3px;
+  background: var(--cg-accent);
+  color: #fff;
+  font-size: 0.85rem; font-weight: 600; letter-spacing: 0.01em;
+  transition: filter 0.15s ease, transform 0.15s ease;
+}
+.cg-root .cg-pick:hover .cg-pick-go { filter: brightness(1.12); }
+.cg-root .cg-pick:focus-visible .cg-pick-go { outline: 2px solid var(--cg-ink); outline-offset: 2px; }
+.cg-pick-body { gap: 0.5rem; }
+
+/* The flagship strip: Python, AI, vibe coding and agentic coding, marked so a
+   reader can see at a glance that these four are the spine of the catalogue.
+   It sits BELOW the per-page picks under its own heading rather than inside
+   that grid, because 34 pages open the section with a sentence naming how many
+   cards follow, and mixing the two made every one of those sentences false. */
+.cg-root .cg-flaghead {
+  margin: clamp(1.75rem, 4vw, 2.5rem) 0 clamp(0.9rem, 2vw, 1.25rem);
+  padding-top: clamp(1.5rem, 3vw, 2rem);
+  border-top: 1px solid var(--cg-rule);
+}
+.cg-root .cg-flaghead h3 {
+  font-family: var(--cg-serif); font-size: clamp(1.25rem, 2.4vw, 1.6rem);
+  font-weight: 600; line-height: 1.2; margin: 0.35rem 0 0.5rem; color: var(--cg-ink);
+}
+.cg-root .cg-flaghead p:last-child {
+  margin: 0; max-width: 62ch; color: var(--cg-muted); font-size: 0.97rem;
+}
+.cg-root .cg-pick--flag { border-color: var(--cg-accent); }
+.cg-root .cg-pick-tag {
+  align-self: flex-start;
+  font-family: var(--cg-mono, ui-monospace, monospace);
+  font-size: 0.68rem; letter-spacing: 0.08em; text-transform: uppercase;
+  font-weight: 700; color: var(--cg-accent);
 }
 .cg-picks-more { margin-top: clamp(1.25rem, 3vw, 1.75rem); }
+
+@media (prefers-reduced-motion: reduce) {
+  .cg-root .cg-pick-go { transition: none; }
+}
 
 @media (prefers-reduced-motion: reduce) { .cg-pick:hover { transform: none; } }
 

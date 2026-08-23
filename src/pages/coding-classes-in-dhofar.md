@@ -12,7 +12,15 @@ Skip to contentCourse picks
 
 These routes connect Python, statistics, databases and careful interpretation.
 
-[![Data Science for Teens course thumbnail](/images/data-science-teens.webp)Ages 14 to 18Data Science for TeensInspect samples, groups and missing coverage.See the syllabus](/courses/data-science-course-for-teens-python-data)[![Statistics and Probability course thumbnail](/images/statistics-probability-maths.webp)Teens and adultsStatistics and ProbabilitySeparate target population from the observed sample.See the syllabus](/courses/statistics-probability-maths-course)[![Data Analysis course thumbnail](/images/data-analysis-college.webp)College and adultData Analysis MasteryMake claims no wider than the evidence.See the syllabus](/courses/data-analysis-mastery-course-college)[![MySQL database course thumbnail](/images/database-college.webp)College and adultMySQL Database MasteryStore strata, eligibility and survey provenance.See the syllabus](/courses/mysql-database-complete-masterclass-college)Verified regional structure
+[![Data Science for Teens course thumbnail](/images/data-science-teens.webp)Ages 14 to 18Data Science for TeensInspect samples, groups and missing coverage.See the syllabus](/courses/data-science-course-for-teens-python-data)[![Statistics and Probability course thumbnail](/images/statistics-probability-maths.webp)Teens and adultsStatistics and ProbabilitySeparate target population from the observed sample.See the syllabus](/courses/statistics-probability-maths-course)[![Data Analysis course thumbnail](/images/data-analysis-college.webp)College and adultData Analysis MasteryMake claims no wider than the evidence.See the syllabus](/courses/data-analysis-mastery-course-college)[![MySQL database course thumbnail](/images/database-college.webp)College and adultMySQL Database MasteryStore strata, eligibility and survey provenance.See the syllabus](/courses/mysql-database-complete-masterclass-college)
+
+The four we are known for
+
+### Python, AI, vibe coding and agentic coding
+
+These run underneath everything above. Every one is live and online, placed by ability rather than by age, and the first class is free.
+
+[![Vibe Coding for Teens course thumbnail](/images/vibe-coding-teens.webp)Vibe codingAges 13 to 17Vibe Coding for TeensPython, web and AI projects where the learner still owns the thinking.See the syllabus](/courses/vibe-coding-for-teens-python-web-ai-projects-course)[![Python AI Automation course thumbnail](/images/python-automation-ai-college.webp)Python and AICollege and adultPython AI AutomationAutomate the work you already do, then let AI carry part of it.See the syllabus](/courses/python-ai-automation-masterclass-college)[![AI and Machine Learning for Teens course thumbnail](/images/ai-ml-teens.webp)AI and MLAges 14 to 18AI and Machine Learning for TeensTrain a model, read what it learned, and be able to say why it is wrong.See the syllabus](/courses/ai-ml-masterclass-teens)[![Codex and Claude Code course thumbnail](/images/codex-claude-code-adults.webp)Agentic codingProfessionalsCodex and Claude CodeRun AI coding agents on real work without losing control of the codebase.See the syllabus](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals)Verified regional structure
 
 ## Dhofar is ten wilayats, not one survey location
 

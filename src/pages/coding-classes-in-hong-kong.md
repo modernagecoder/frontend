@@ -36,7 +36,13 @@ Four entry points, chosen against what a Hong Kong school actually covers: a P1 
 
 That is four of more than a hundred. The rest, sorted by age and subject, sit on the [course atlas](/course-atlas), and the order we teach them in is on the [coding roadmap](/coding-roadmap).
 
-Hong Kong evidence / verified 17 August 2026
+The four we are known for
+
+### Python, AI, vibe coding and agentic coding
+
+These run underneath everything above. Every one is live and online, placed by ability rather than by age, and the first class is free.
+
+[![Vibe Coding for Teens course thumbnail](/images/vibe-coding-teens.webp)Vibe codingAges 13 to 17Vibe Coding for TeensPython, web and AI projects where the learner still owns the thinking.See the syllabus](/courses/vibe-coding-for-teens-python-web-ai-projects-course)[![AI and Machine Learning for Teens course thumbnail](/images/ai-ml-teens.webp)AI and MLAges 14 to 18AI and Machine Learning for TeensTrain a model, read what it learned, and be able to say why it is wrong.See the syllabus](/courses/ai-ml-masterclass-teens)[![Codex and Claude Code course thumbnail](/images/codex-claude-code-adults.webp)Agentic codingProfessionalsCodex and Claude CodeRun AI coding agents on real work without losing control of the codebase.See the syllabus](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals)Hong Kong evidence / verified 17 August 2026
 
 ## What the school day already contains, in hours
 
