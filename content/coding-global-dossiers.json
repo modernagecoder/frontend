@@ -3254,5 +3254,42 @@
       "A population for the wilayat. No census table could be traced in this session, so none appears and the page argues from the settlement pattern instead.",
       "Two of the three sources here come from the same publisher. That is stated rather than presented as three independent confirmations; the governorate site is the independent one."
     ]
+  },
+  "coding-classes-in-yanqul": {
+    "market": "Yanqul, Adh Dhahirah",
+    "bodyClass": "cg-ynq",
+    "curriculumAuthority": "Oman Ministry of Education, General Education Diploma. The page argues from what is coming to the wilayat rather than from curriculum: a copper project due to open in early 2027 will need people who can already handle data, and teaching delivered over a connection does not wait for a training centre to be built first.",
+    "localProject": "Truncation is one-sided and rounding is not. Twelve monthly tonnages with one decimal each total 246.4; rounding gives 246.0 and truncating gives 240.0, so the truncation error is sixteen times worse from identical inputs. None of the twelve truncation errors is positive, mean minus 0.53 a row, so it drifts by roughly half a unit per row indefinitely, while rounding error changes sign and cancels at minus 0.03. Assigned to this page and no other.",
+    "requiredMentions": [
+      "Mazoon Copper Project",
+      "22.9 million tons",
+      "five open-pit mines",
+      "20 square kilometres",
+      "Yanqul gold mine",
+      "copper concentrate",
+      "early 2027",
+      "open-pit",
+      "copper ore reserves"
+    ],
+    "sources": [
+      {
+        "claim": "The Mazoon Copper Project is the largest integrated copper concentrate production project in Oman, covering 20 square kilometres, consisting of five open-pit mines with an estimated 22.9 million tons of copper ore reserves, and is anticipated to commence operations in early 2027.",
+        "url": "https://www.omanobserver.om/article/1190297/business/economy/mazoon-copper-project-makes-headway-towards-2027-launch"
+      },
+      {
+        "claim": "Yanqul is a wilayat of Ad Dhahirah Governorate in the northwest of Oman, near the border with the United Arab Emirates.",
+        "url": "https://en.wikipedia.org/wiki/Yanqul"
+      },
+      {
+        "claim": "A gold mine location is recorded at Yanqul in Ad Dhahirah Governorate.",
+        "url": "https://www.mindat.org/loc-25605.html"
+      }
+    ],
+    "rejectedClaims": [
+      "Any monthly or annual production tonnage. The mine has not started, so all twelve monthly figures in the project are teaching values and are labelled as such in the project steps, the pitfalls note and the FAQ.",
+      "A copper metal figure derived from the ore reserve. 22.9 million tons is ore, not metal, and no grade was traced in this session, so no metal tonnage is stated anywhere on the page.",
+      "A population for the wilayat. No census table could be traced in this session, so none appears.",
+      "A precise start date. The published wording is early 2027 and that hedge is kept."
+    ]
   }
 }
