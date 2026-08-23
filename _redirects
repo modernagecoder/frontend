@@ -1846,4 +1846,8 @@
 # International growth cluster (coding-global.css). Must precede the /* catch-all.
 /coding-classes-in-nakhal /src/pages/coding-classes-in-nakhal.html 200
 /coding-classes-in-nakhal.md /src/pages/coding-classes-in-nakhal.md 200
+
+# International growth cluster (coding-global.css). Must precede the /* catch-all.
+/coding-classes-in-al-hamra /src/pages/coding-classes-in-al-hamra.html 200
+/coding-classes-in-al-hamra.md /src/pages/coding-classes-in-al-hamra.md 200
 /* /src/pages/404.html 404

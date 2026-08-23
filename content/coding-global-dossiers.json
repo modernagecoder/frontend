@@ -3181,5 +3181,41 @@
       "A population for the wilayat. No census table could be traced in this session, so none appears and the page argues from the shape of the irrigation instead.",
       "A temperature for the springs. Figures circulate but none was verified at a primary source in this session, so the page says only that the water is warm year round."
     ]
+  },
+  "coding-classes-in-al-hamra": {
+    "market": "Al Hamra, Ad Dakhiliyah",
+    "bodyClass": "cg-hmr",
+    "curriculumAuthority": "Oman Ministry of Education, General Education Diploma. The page argues from terrain rather than curriculum: villages terraced up a mountainside are separated by gradient rather than by map distance, and a lesson delivered over a connection is the only one indifferent to how steep the road is.",
+    "localProject": "Inclusive and exclusive band edges, with a real value sitting on one. Misfat Al Abriyeen is published at exactly 900 metres, a band edge. Ten elevations across four bands under three defensible rules give totals of 14, 9 and 10 out of 10 villages: both ends closed overcounts by 40 per cent, half open upward silently drops the highest village, and only one rule reconciles. Assigned to this page and no other.",
+    "requiredMentions": [
+      "Misfat Al Abriyeen",
+      "900 metres",
+      "Al Abri tribe",
+      "3,000 feet",
+      "water canalization",
+      "mud village",
+      "more than 2,000 years",
+      "terraced",
+      "oasis village"
+    ],
+    "sources": [
+      {
+        "claim": "Misfat al Abriyeen is a village in the wilayah of Al Hamra, located in an oasis at 900 metres, or 3,000 feet, above sea level in the western Hajar mountains, with an extensive falaj water canalization system dating back more than 2,000 years; the village gives its name to the Al Abri tribe.",
+        "url": "https://en.wikipedia.org/wiki/Misfat_al_Abriyeen"
+      },
+      {
+        "claim": "Misfat Al Abriyeen is widely described as a mud village in Oman and remains inhabited and farmed.",
+        "url": "https://www.ootlah.com/en/blog/misfat-al-abriyeen-guide-to-oman-mud-village.html"
+      },
+      {
+        "claim": "Al Hamra and Misfat Al Abriyin have been the subject of documentation, heritage management and tourism development planning work.",
+        "url": "https://www.archiam.co.uk/documentation-heritage-management-and-tourism-development-plan-al-hamra-misfat-al-abriyin/"
+      }
+    ],
+    "rejectedClaims": [
+      "Elevations for any village other than Misfat Al Abriyeen. No per-village elevation table for the wilayat was found, so the other nine figures in the project are teaching values and are labelled as such in the project steps, the pitfalls note and the FAQ.",
+      "A population for the wilayat. No census table could be traced in this session, so none appears and the page argues from terrain instead.",
+      "A precise age for the falaj. The published claim is more than 2,000 years, which is a lower bound, and the page keeps it as one rather than converting it to a date."
+    ]
   }
 }
