@@ -1878,4 +1878,12 @@
 # International growth cluster (coding-global.css). Must precede the /* catch-all.
 /coding-classes-in-wadi-al-maawil /src/pages/coding-classes-in-wadi-al-maawil.html 200
 /coding-classes-in-wadi-al-maawil.md /src/pages/coding-classes-in-wadi-al-maawil.md 200
+
+# International growth cluster (coding-global.css). Must precede the /* catch-all.
+/coding-classes-in-al-awabi /src/pages/coding-classes-in-al-awabi.html 200
+/coding-classes-in-al-awabi.md /src/pages/coding-classes-in-al-awabi.md 200
+
+# International growth cluster (coding-global.css). Must precede the /* catch-all.
+/coding-classes-in-mahout /src/pages/coding-classes-in-mahout.html 200
+/coding-classes-in-mahout.md /src/pages/coding-classes-in-mahout.md 200
 /* /src/pages/404.html 404

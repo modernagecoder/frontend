@@ -3472,5 +3472,78 @@
       "Floor areas for any castle. No survey was found, so all fifteen areas in the project are teaching values and are labelled as such in the project steps, the pitfalls note and the FAQ.",
       "An exact castle count. The published figure is over 15, so fifteen is used as the smallest number consistent with the source rather than as a count."
     ]
+  },
+  "coding-classes-in-al-awabi": {
+    "market": "Al Awabi, Al Batinah South",
+    "bodyClass": "cg-awb",
+    "curriculumAuthority": "Oman Ministry of Education, General Education Diploma. The page argues from the shape of the valley rather than from curriculum: a wilayat strung along twenty six kilometres of single wadi has no midpoint that is convenient for both ends, and a lesson delivered over a connection costs the same at either.",
+    "localProject": "A straight line between two endpoints that are both correct. Wadi Bani Kharus runs 26 km with limestone from 90 million years old at the entrance to 600 million years in the distant parts; linear interpolation reproduces both endpoints exactly and is worst at 8 km in, saying 247 Ma where the rock is 145 Ma, an error of 102 Ma or 70 per cent of the true age there and a fifth of the whole 510 Ma range. Assigned to this page and no other.",
+    "requiredMentions": [
+      "Wadi Bani Kharus",
+      "90 million years",
+      "600 million years",
+      "medicinal herbs",
+      "archaeological inscriptions",
+      "limestone formations",
+      "southwestern orientation",
+      "Al Awabi",
+      "water springs"
+    ],
+    "sources": [
+      {
+        "claim": "Wadi Bani Kharus is a valley in Wilayat Al-Awabi, part of the western Al Hajar range, twenty six km long with a southwestern orientation; the limestone formations range from 90 million years old at the entrance of the wadi to 600 million years in the distant parts; it holds many falajes, water springs, rock formations, medicinal herbs and archaeological inscriptions on stones and old houses.",
+        "url": "https://www.memphistours.com/oman/wadi-bani-kharus"
+      },
+      {
+        "claim": "Al Awabi is noted for extraordinary rock formations and high mountains.",
+        "url": "https://timesofoman.com/article/103896-we-love-oman-extraordinary-rock-formations-and-high-mountains-in-al-awabi"
+      },
+      {
+        "claim": "Al Awabi is a wilayat of the Al Batinah South Governorate of Oman.",
+        "url": "https://en.wikipedia.org/wiki/Al_Awabi"
+      }
+    ],
+    "rejectedClaims": [
+      "Rock ages anywhere between the two ends of the wadi. Only the entrance and the distant parts are published, so the interior profile used in the project is a set of teaching values and is labelled as such in the project steps, the pitfalls note and the FAQ.",
+      "A gradient in millions of years per kilometre presented as a fact. The 19.6 figure is derived on the page purely to be shown wrong, and is never stated as a property of the valley.",
+      "A population for the wilayat. The 2020 census figure was not traced to a primary table in this session, so none appears and the page argues from the valley instead."
+    ]
+  },
+  "coding-classes-in-mahout": {
+    "market": "Mahout, Al Wusta",
+    "bodyClass": "cg-mht",
+    "curriculumAuthority": "Oman Ministry of Education, General Education Diploma. The page argues from distance rather than curriculum: Al Wusta is vast and thinly populated, so the range of subjects any settlement can staff is small, and a connection breaks the link between what a learner may study and how far they can travel.",
+    "localProject": "A quantity with no single value, published as one. Barr Al Hikman is intertidal, so across one cycle the exposed area runs from 140 to 520 square kilometres, a factor of 3.7; the mean of 315 matches none of the thirteen hourly readings, making the average a state the place is never in, and any single published figure is right for roughly 8 per cent of the day. Assigned to this page and no other.",
+    "requiredMentions": [
+      "Barr Al Hikman",
+      "sabkha",
+      "waterbirds",
+      "Hashish Bay",
+      "coastal wetland",
+      "Hufnat Beach",
+      "over 160 km",
+      "half a million waterbirds",
+      "intertidal"
+    ],
+    "sources": [
+      {
+        "claim": "Barr al Hikman is a peninsula in the northeast of Al Wusta Governorate bordering the sands to the north, the Masirah Channel to the east, the Gulf of Masirah to the south and Hashish Bay to the southwest; it is one of the most prominent coastal wetland regions in the Middle East, with a coastline of over 160 km bordered by an inland sabkha, and is a haven to nearly half a million waterbirds in winter.",
+        "url": "https://en.wikipedia.org/wiki/Barr_al-Hikman"
+      },
+      {
+        "claim": "Mahout is a wilayat of the Al Wusta Governorate of Oman.",
+        "url": "https://en.wikipedia.org/wiki/Mahout_(Oman)"
+      },
+      {
+        "claim": "Hufnat Beach is a destination within Mahout.",
+        "url": "https://www.omanobserver.om/article/1533/Features/have-you-visited-the-stunning-hufnat-beach-in-mahout"
+      }
+    ],
+    "rejectedClaims": [
+      "Any area figure for Barr Al Hikman. No hourly or reference-state survey was traced, so the thirteen readings in the project are teaching values and are labelled as such in the project steps, the pitfalls note and the FAQ. The page deliberately publishes no single area, which is its own argument.",
+      "A single population figure for the wilayat. One reference gives 17,422 for 2020 and a population database gives 17,385 for the same census; neither is adopted here.",
+      "An exact coastline length. The published figure is over 160 km, kept as a lower bound.",
+      "A precise waterbird count. The published wording is nearly half a million in winter and both the hedge and the season are kept."
+    ]
   }
 }
