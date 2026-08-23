@@ -3545,5 +3545,113 @@
       "An exact coastline length. The published figure is over 160 km, kept as a lower bound.",
       "A precise waterbird count. The published wording is nearly half a million in winter and both the hedge and the season are kept."
     ]
+  },
+  "coding-classes-in-thumrait": {
+    "market": "Thumrait, Dhofar",
+    "bodyClass": "cg-thm",
+    "curriculumAuthority": "Oman Ministry of Education, General Education Diploma. The page argues from the town's position rather than from curriculum: a place people pass through rather than set out for tends to accumulate traffic without accumulating institutions, and teaching over a connection needs nothing built here first.",
+    "localProject": "The intermediate stops lost in an origin-destination table. Across six full itineraries Thumrait is the second busiest node, appearing in five, and an endpoints-only table records it zero times; five places vanish from the network entirely and 54 per cent of all node-visits disappear while every row stays true. Assigned to this page and no other.",
+    "requiredMentions": [
+      "Al Taghrooda",
+      "caravan routes",
+      "Thumrait",
+      "chanted poetry",
+      "camel back",
+      "subtropical desert climate",
+      "trade of frankincense",
+      "spices",
+      "desert beauty"
+    ],
+    "sources": [
+      {
+        "claim": "Thumrait is a small town and wilayat of the Dhofar Governorate in southern Oman, classified under the Koppen scheme as a subtropical desert climate.",
+        "url": "https://en.wikipedia.org/wiki/Thumrait"
+      },
+      {
+        "claim": "Thumrait was historically an essential stop on the Arabian caravan routes, serving as a hub for the trade of frankincense, spices and other valuable commodities.",
+        "url": "https://desrtours.com/explore-the-town-of-thumrait-a-gateway-to-omans-heritage/"
+      },
+      {
+        "claim": "Thumrait is famed for Al Taghrooda, traditional chanted poetry composed and recited by men travelling on camel back through the desert, and is written about as a symbol of desert beauty.",
+        "url": "https://www.omanobserver.om/article/82213/Oman/thumrait-a-symbol-of-desert-beauty"
+      }
+    ],
+    "rejectedClaims": [
+      "Any specific caravan journey or route record. The six itineraries in the project are illustrative of how travel across the interior works, not records of particular trips, and are labelled as such in the project steps, the pitfalls note and the FAQ.",
+      "A population for the wilayat. The 2020 census figure was not traced to a primary table in this session, so none appears.",
+      "A road distance between Thumrait and anywhere else. None was verified, so no distance is stated."
+    ]
+  },
+  "coding-classes-in-mirbat": {
+    "market": "Mirbat, Dhofar",
+    "bodyClass": "cg-mrb",
+    "curriculumAuthority": "Oman Ministry of Education, General Education Diploma. The page argues from the working day rather than from curriculum: where the fleet sails before dawn and is back by mid-morning, the hours a family can give to a lesson are unusual ones, and agreeing a slot is easier when nobody has to travel to reach it.",
+    "localProject": "The day boundary moves when you change clock. Oman runs at UTC+4, so of twelve pre-dawn boat departures between 02:40 and 06:45 local, four (33 per cent) fall on the previous day once converted. The date loses four departures and the day before gains four it never saw, so weekly totals reconcile perfectly while every daily figure is wrong. Assigned to this page and no other.",
+    "requiredMentions": [
+      "Sahib e Mirbat",
+      "Mohammed Bin Ali",
+      "traditional wooden dhows",
+      "religious institutions",
+      "Tarim",
+      "556H",
+      "Hadhramaut",
+      "fresh catches",
+      "coastal cliffs"
+    ],
+    "sources": [
+      {
+        "claim": "Mirbat is a town on the eastern coastline of Dhofar, once a thriving port and trading hub, keeping historic architecture, tranquil beaches, traditional markets and coastal cliffs; fishing remains important and the harbour holds traditional wooden dhows, with fishermen unloading fresh catches along the waterfront.",
+        "url": "https://www.beautifulsalalah.com/beaches-in-mirbat-oman/"
+      },
+      {
+        "claim": "Mohammed Bin Ali died in 556H, given as 1161 AD, came originally from Tarim in Hadhramaut in Yemen, moved to Mirbat and set up religious institutions, and is referred to by the title Sahib e Mirbat, the Master of Mirbat.",
+        "url": "https://evendo.com/locations/oman/mirbat/landmark/muhammad-bin-ali-s-tomb-sahib-mirbat"
+      },
+      {
+        "claim": "Mirbat is presented among the principal attractions of the Dhofar coast near Salalah.",
+        "url": "https://salalahsafari.com/mirbat-salalah/"
+      }
+    ],
+    "rejectedClaims": [
+      "Any actual departure log. No harbour record was found, so the twelve times in the project are teaching values chosen to span an ordinary pre-dawn window and are labelled as such in the project steps, the pitfalls note and the FAQ.",
+      "A conversion between the Hijri and Gregorian dates for the scholar. Both 556H and 1161 AD are quoted as the source gives them, side by side, and no arithmetic is performed on either.",
+      "A population for the wilayat. The 2020 census figure was not traced to a primary table in this session, so none appears."
+    ]
+  },
+  "coding-classes-in-masirah": {
+    "market": "Masirah, Ash Sharqiyah South",
+    "bodyClass": "cg-msr",
+    "curriculumAuthority": "Oman Ministry of Education, General Education Diploma. The page argues from the crossing rather than from curriculum: anything an island learner cannot get on the island requires a boat and a day, and a lesson delivered over a connection removes that from the decision entirely.",
+    "localProject": "Latitude and longitude read in the wrong order. The island is published at 20.47111 north, 58.81528 east; transposed it becomes 58.81528 north, 20.47111 east, which is open water in the Baltic Sea 5,246 km away. Every cheap validation passes: both values are in legal range, the hemisphere is unchanged, and the point is at sea, which for an island is what a reviewer wants to confirm. Only a bounding box on Oman's real extent of roughly 16 to 26 degrees north catches it. Assigned to this page and no other.",
+    "requiredMentions": [
+      "hawksbill",
+      "olive ridley",
+      "leatherback",
+      "green turtle",
+      "kitesurfing",
+      "649 square kilometres",
+      "20 to 45 knots",
+      "largest island in Oman",
+      "12 and 14 km"
+    ],
+    "sources": [
+      {
+        "claim": "Masirah Island is at 20 degrees 28 minutes 16 seconds north, 58 degrees 48 minutes 55 seconds east, has an area of 649 square kilometres, stretches 95 km north to south and is between 12 and 14 km wide, and forms one of the provinces of Ash Sharqiyah South Governorate.",
+        "url": "https://en.wikipedia.org/wiki/Masirah_Island"
+      },
+      {
+        "claim": "All of Oman's five turtle species visit the island or its waters, namely the green turtle, the loggerhead, the hawksbill, the olive ridley and the leatherback, and the island hosts the world's largest population of nesting loggerhead sea turtles.",
+        "url": "https://www.memphistours.com/oman/masirah-island"
+      },
+      {
+        "claim": "Winds at the island are consistent and reach 20 to 45 knots especially from May through September, making it a noted kitesurfing destination.",
+        "url": "https://www.oman-spirit.com/guides/kitesurfing-masirah/"
+      }
+    ],
+    "rejectedClaims": [
+      "A population figure. One reference gives 13,902 for 2020 and a population database gives 13,874 for the same census; both appear on the page and neither is adopted.",
+      "An annual turtle count. Figures circulate but none was verified at a primary source in this session, so no total appears and the page uses only the species list and the loggerhead nesting claim.",
+      "The identity of the sea the swapped coordinate lands in, beyond that it is open water in the Baltic. The distance of 5,246 km is computed from the published coordinates rather than looked up."
+    ]
   }
 }

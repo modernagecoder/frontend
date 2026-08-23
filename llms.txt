@@ -413,6 +413,9 @@ USD 100 a month small group, USD 150 a month one to one.
 - Wadi Al Maawil, Al Batinah South, Oman: https://learn.modernagecoders.com/coding-classes-in-wadi-al-maawil
 - Al Awabi, Al Batinah South, Oman: https://learn.modernagecoders.com/coding-classes-in-al-awabi
 - Mahout, Al Wusta, Oman: https://learn.modernagecoders.com/coding-classes-in-mahout
+- Thumrait, Dhofar, Oman: https://learn.modernagecoders.com/coding-classes-in-thumrait
+- Mirbat, Dhofar, Oman: https://learn.modernagecoders.com/coding-classes-in-mirbat
+- Masirah, Ash Sharqiyah South, Oman: https://learn.modernagecoders.com/coding-classes-in-masirah
 ## International Country Pages
 
 - United States: https://learn.modernagecoders.com/coding-classes-in-united-states

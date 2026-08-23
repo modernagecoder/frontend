@@ -1886,4 +1886,12 @@
 # International growth cluster (coding-global.css). Must precede the /* catch-all.
 /coding-classes-in-mahout /src/pages/coding-classes-in-mahout.html 200
 /coding-classes-in-mahout.md /src/pages/coding-classes-in-mahout.md 200
+
+# International growth cluster (coding-global.css). Must precede the /* catch-all.
+/coding-classes-in-thumrait /src/pages/coding-classes-in-thumrait.html 200
+/coding-classes-in-thumrait.md /src/pages/coding-classes-in-thumrait.md 200
+/coding-classes-in-mirbat /src/pages/coding-classes-in-mirbat.html 200
+/coding-classes-in-mirbat.md /src/pages/coding-classes-in-mirbat.md 200
+/coding-classes-in-masirah /src/pages/coding-classes-in-masirah.html 200
+/coding-classes-in-masirah.md /src/pages/coding-classes-in-masirah.md 200
 /* /src/pages/404.html 404
