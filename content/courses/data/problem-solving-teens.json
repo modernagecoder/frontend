@@ -2,73 +2,68 @@
   "meta": {
     "slug": "problem-solving-dsa-masterclass-teens",
     "date": "2025-10-31",
-    "title": "DSA & Problem Solving for Teens: Algorithms to Interviews",
-    "description": "One-year DSA and problem-solving course for teens: master data structures, algorithms and logical thinking, from zero to cracking any coding interview.",
+    "dateModified": "2026-08-24",
+    "title": "Problem Solving for Teens: Logic, Data Structures & Algorithms",
+    "description": "Problem-solving course for teenagers: logic and programming foundations, core data structures and algorithms, then dynamic programming and problem-solving techniques, built the way it sticks, in 10-12 months.",
     "keywords": [
-      "problem solving",
-      "data structures",
-      "algorithms",
-      "competitive programming",
-      "coding interviews",
-      "logical thinking",
-      "DSA mastery",
-      "teen programming",
-      "computational thinking",
-      "leetcode",
-      "codeforces",
-      "USACO",
-      "IOI preparation",
-      "Google kickstart",
-      "mathematics for programming",
-      "dynamic programming"
+      "problem solving course for teens",
+      "coding problem solving for teenagers",
+      "data structures and algorithms for teens",
+      "dsa course for high school students",
+      "competitive coding for teens",
+      "algorithmic thinking course for teenagers",
+      "problem solving course online for students",
+      "logic building course for teens",
+      "dynamic programming for beginners",
+      "coding interview foundations for students",
+      "problem solving with python for teens",
+      "best dsa course for teenagers"
     ],
-    "category": "Computer Science & Problem Solving",
+    "category": "Programming",
     "taxonomy": "logic",
     "price": {
       "group": "₹1,499/month",
       "miniBatch": "₹2,999/month",
       "personal": "₹4,999/month"
     },
-    "duration": "12 months (52 weeks)",
-    "level": "Complete Beginner to Competition Ready",
-    "commitment": "10-15 hours/week recommended",
-    "certification": "Problem Solving Expert Certification with Portfolio",
+    "duration": "10-12 months (44-52 weeks)",
+    "level": "Teenagers 13-18; no prior experience needed",
+    "commitment": "2 live classes/week + 3-5 hours practice",
+    "certification": "Certificate from Modern Age Coders, awarded on passing the final exam",
     "image_path": "problem-solving-teens.webp"
   },
   "program_overview": {
-    "title": "Complete Problem Solving & DSA Masterclass for Teens",
-    "tagline": "From 'What is Programming?' to Winning Coding Competitions",
-    "description": "This isn't just another DSA course, it's a complete transformation journey designed specifically for teenage minds. Whether you're a high school student dreaming of top tech companies, preparing for programming olympiads, or just curious about problem-solving, this 1-year masterclass will turn you into a coding problem-solving machine.\n\nYou'll develop superhuman logical thinking abilities, master every important data structure and algorithm, solve 1000+ problems across difficulty levels, and be ready for any coding challenge, from school competitions to Google interviews. By the end, you'll think like a computer scientist and solve problems that seemed impossible before.",
+    "title": "Problem Solving for Teens",
+    "tagline": "The thinking behind the code: logic, data structures and algorithms taught until a teenager can face an unseen problem and actually solve it.",
+    "description": "The hardest, most valuable thing in programming is not syntax, it is looking at a problem you have never seen and finding your way to a solution. This live online course builds exactly that in a teenager, step by step and at a teen pace: logic and programming foundations first, conditionals, loops, functions, the core structures (arrays, strings, hash maps, stacks, queues, linked lists, recursion), then the real data structures and algorithms, trees, heaps, graphs, sorting and searching, algorithm-design paradigms, and finally dynamic programming and the problem-solving techniques that separate confident solvers from stuck ones. Every topic is taught through problems, not lectures, and the emphasis is always on the pattern, so a new problem is solvable, not a memorized answer. A finale month builds a problem-solving portfolio and sits a final exam.\n\nThe pace is honest and teen-friendly: ten teaching months at two live classes a week plus three to five hours of practice, with two more in hand. Problem sets after every class, monthly mixed reviews, phase exams, and a final exam that decides the certificate with a free retest.",
     "what_makes_this_different": [
-      "Designed specifically for teenage learning patterns",
-      "Gamified learning with points, badges, and leaderboards",
-      "Visual explanations and animations for every concept",
-      "Real-world problem connections teens can relate to",
-      "From absolute zero to competition level in 12 months",
-      "Focus on building intuition, not memorization",
-      "Peer learning groups and coding battles",
-      "Direct preparation for USACO, IOI, and top competitions"
+      "Taught through problems, not lectures: teens solve from day one",
+      "Patterns over memorization: the skill is solving unseen problems",
+      "A real teen pace: depth without the burnout of an adult bootcamp",
+      "The foundation serious students build on: olympiads, contests and later interviews",
+      "An honest 10-month arc with 2 months in hand",
+      "Real assessment: weekly problem sets, monthly mixed reviews, phase exams and a final exam with a free retest"
     ],
     "learning_path": {
-      "phase_1": "Foundation (Months 1-3): Programming Basics, Logic Building, Simple Problem Solving",
-      "phase_2": "Core DSA (Months 4-6): Essential Data Structures, Searching, Sorting, Basic Algorithms",
-      "phase_3": "Advanced Mastery (Months 7-9): Trees, Graphs, Dynamic Programming, Advanced Algorithms",
-      "phase_4": "Competition Level (Months 10-12): Competitive Programming, Interview Prep, System Design Basics"
+      "phase_1": "Foundations and logic (Months 1-3): programming logic and the core structures",
+      "phase_2": "Data structures and algorithms (Months 4-6): trees, graphs, sorting, algorithm design",
+      "phase_3": "Dynamic programming and techniques (Months 7-9): DP in depth plus counting and geometry basics",
+      "phase_4": "The finale (Month 10): a problem-solving portfolio and the final exam"
     },
     "career_outcomes": [
-      "School Programming Team Star (after 3 months)",
-      "Regional Competition Participant (after 6 months)",
-      "National Level Competitor (after 9 months)",
-      "Interview Ready for Top Tech Companies (after 12 months)"
+      "Genuine problem-solving ability, the skill everything else in coding builds on",
+      "A strong foundation for olympiads, contests and future interviews",
+      "A portfolio of solved problems across every major pattern",
+      "Honest next roads: our competitive programming and DSA courses for contest and interview depth"
     ]
   },
   "phase_1_foundation": {
     "title": "PHASE 1: Foundation & Logic Building (Months 1-3, Weeks 1-13)",
     "description": "Build unshakeable foundations. Learn to think like a programmer, master basic syntax, and solve your first 200+ problems.",
-    "month_1_2": {
+    "month_1": {
       "title": "Month 1: Programming Fundamentals & First Steps",
-      "weeks": "Week 1-4",
-      "week_1_2": {
+      "weeks": "Weeks 1-4",
+      "week_1": {
         "title": "Introduction to Problem Solving & Setup",
         "topics": [
           "What is problem solving? Why it matters for your future",
@@ -91,7 +86,7 @@
         ],
         "practice": "Daily: 10 basic problems on HackerRank Easy"
       },
-      "week_3_4": {
+      "week_2": {
         "title": "Conditional Logic & Decision Making",
         "topics": [
           "If-else statements: Making decisions in code",
@@ -115,7 +110,7 @@
         ],
         "practice": "Solve 30 conditional logic problems on CodeChef"
       },
-      "week_5_6": {
+      "week_3": {
         "title": "Loops & Iteration Mastery",
         "topics": [
           "For loops: Counting and ranges",
@@ -139,7 +134,7 @@
         ],
         "practice": "Complete 40 loop problems on LeetCode Easy"
       },
-      "week_7_8": {
+      "week_4": {
         "title": "Functions & Modular Programming",
         "topics": [
           "Functions: Why break code into pieces?",
@@ -164,10 +159,10 @@
         "practice": "Build 25 reusable functions for common tasks"
       }
     },
-    "month_3_4": {
-      "title": "Months 2-3: Data Structures Basics & Problem Patterns",
-      "weeks": "Week 5-13",
-      "week_9_10": {
+    "month_2": {
+      "title": "Month 2: Data Structures Basics & Problem Patterns",
+      "weeks": "Weeks 5-8",
+      "week_5": {
         "title": "Lists/Arrays Fundamentals",
         "topics": [
           "Lists in Python: Dynamic arrays explained",
@@ -191,7 +186,7 @@
         ],
         "practice": "Solve 50 array problems on various platforms"
       },
-      "week_11_12": {
+      "week_6": {
         "title": "Strings & Text Processing",
         "topics": [
           "Strings as character arrays",
@@ -215,7 +210,7 @@
         ],
         "practice": "Master 40 string manipulation problems"
       },
-      "week_13_14": {
+      "week_7": {
         "title": "Dictionaries/Hash Maps & Sets",
         "topics": [
           "Dictionary/HashMap concept",
@@ -239,7 +234,7 @@
         ],
         "practice": "Solve 35 hashmap/set problems"
       },
-      "week_15_16": {
+      "week_8": {
         "title": "Basic Algorithms & Complexity",
         "topics": [
           "Algorithm analysis: Time and space",
@@ -262,28 +257,12 @@
           "Custom sorting for specific data"
         ],
         "practice": "Implement and optimize 10 basic algorithms"
-      },
-      "week_17": {
-        "title": "Month 2-3 Assessment & Review",
-        "topics": [
-          "Review all data structures covered",
-          "Problem-solving strategies recap",
-          "Code optimization techniques",
-          "Common mistakes and how to avoid them",
-          "Speed coding practice"
-        ],
-        "projects": [
-          "CAPSTONE: Build a mini programming judge system",
-          "Create your own problem set with solutions",
-          "Automated test case generator"
-        ],
-        "assessment": "Solve 20 mixed problems in 3 hours"
       }
     },
-    "month_5_6": {
+    "month_3": {
       "title": "Month 3: Advanced Basics & Contest Preparation",
-      "weeks": "Week 10-13",
-      "week_18_19": {
+      "weeks": "Weeks 9-13",
+      "week_9": {
         "title": "Stack & Queue Mastery",
         "topics": [
           "Stack data structure and LIFO principle",
@@ -307,7 +286,7 @@
         ],
         "practice": "Master 30 stack/queue problems"
       },
-      "week_20_21": {
+      "week_10": {
         "title": "Recursion & Backtracking Basics",
         "topics": [
           "Recursion deep dive: How it really works",
@@ -331,7 +310,7 @@
         ],
         "practice": "Solve 25 recursion/backtracking problems"
       },
-      "week_22_23": {
+      "week_11": {
         "title": "Mathematics for Programming",
         "topics": [
           "Number theory basics: Primes, factors",
@@ -355,7 +334,7 @@
         ],
         "practice": "Solve 40 math-based programming problems"
       },
-      "week_24_25": {
+      "week_12": {
         "title": "Linked Lists Introduction",
         "topics": [
           "Linked list concept and need",
@@ -379,7 +358,7 @@
         ],
         "practice": "Implement 20 linked list operations"
       },
-      "week_26": {
+      "week_13": {
         "title": "Phase 1 Final Project",
         "topics": [
           "Project planning and design",
@@ -394,17 +373,17 @@
           "Alternative: Algorithm visualizer web app",
           "Alternative: Competitive programming practice tool"
         ],
-        "assessment": "Phase 1 Comprehensive Exam - 25 problems, 4 hours"
+        "assessment": "Phase 1 exam: a practical build defended live, plus a written paper mixing this phase with everything before it"
       }
     }
   },
   "phase_2_frontend_mastery": {
     "title": "PHASE 2: Core Data Structures & Algorithms (Months 4-6, Weeks 14-26)",
     "description": "Master essential data structures, dive deep into algorithms, and start solving medium-level competitive programming problems.",
-    "month_7_8": {
-      "title": "Months 4-5: Trees & Advanced Sorting",
-      "weeks": "Week 14-22",
-      "week_27_28": {
+    "month_4": {
+      "title": "Month 4: Trees & Advanced Sorting",
+      "weeks": "Weeks 14-19",
+      "week_14_15": {
         "title": "Binary Trees Fundamentals",
         "topics": [
           "Tree terminology: Root, leaf, height, depth",
@@ -428,7 +407,7 @@
         ],
         "practice": "Solve 40 binary tree problems"
       },
-      "week_29_30": {
+      "week_16": {
         "title": "Binary Search Trees (BST)",
         "topics": [
           "BST property and invariants",
@@ -452,7 +431,7 @@
         ],
         "practice": "Master 35 BST problems"
       },
-      "week_31_32": {
+      "week_17": {
         "title": "Advanced Sorting Algorithms",
         "topics": [
           "Merge sort: Divide and conquer",
@@ -476,7 +455,7 @@
         ],
         "practice": "Implement and optimize 15 sorting variations"
       },
-      "week_33_34": {
+      "week_18": {
         "title": "Heaps & Priority Queues",
         "topics": [
           "Heap data structure concept",
@@ -500,7 +479,7 @@
         ],
         "practice": "Solve 30 heap/priority queue problems"
       },
-      "week_35": {
+      "week_19": {
         "title": "Tries & String Algorithms",
         "topics": [
           "Trie data structure motivation",
@@ -525,10 +504,10 @@
         "practice": "Build 20 trie-based solutions"
       }
     },
-    "month_9_10": {
-      "title": "Month 6: Graphs & Network Algorithms",
-      "weeks": "Week 23-26",
-      "week_36_37": {
+    "month_5": {
+      "title": "Month 5: Graphs & Network Algorithms",
+      "weeks": "Weeks 20-23",
+      "week_20": {
         "title": "Graph Fundamentals",
         "topics": [
           "Graph theory introduction",
@@ -552,7 +531,7 @@
         ],
         "practice": "Model 15 real-world problems as graphs"
       },
-      "week_38_39": {
+      "week_21": {
         "title": "Graph Traversal Algorithms",
         "topics": [
           "Depth-First Search (DFS) deep dive",
@@ -576,7 +555,7 @@
         ],
         "practice": "Solve 40 graph traversal problems"
       },
-      "week_40_41": {
+      "week_22": {
         "title": "Shortest Path Algorithms",
         "topics": [
           "Shortest path problem variants",
@@ -600,7 +579,7 @@
         ],
         "practice": "Implement 5 shortest path variations"
       },
-      "week_42_43": {
+      "week_23": {
         "title": "Minimum Spanning Trees",
         "topics": [
           "Spanning tree concept",
@@ -623,36 +602,12 @@
           "Circuit board router"
         ],
         "practice": "Solve 20 MST and Union-Find problems"
-      },
-      "week_44": {
-        "title": "Advanced Graph Algorithms",
-        "topics": [
-          "Network flow introduction",
-          "Maximum flow problem",
-          "Ford-Fulkerson method basics",
-          "Bipartite matching",
-          "Graph coloring algorithms",
-          "Eulerian path and circuit",
-          "Hamiltonian path problem",
-          "Traveling salesman introduction",
-          "Planar graphs",
-          "Graph isomorphism",
-          "Random graph algorithms",
-          "Graph algorithm applications"
-        ],
-        "projects": [
-          "Maximum flow visualizer",
-          "Job assignment system",
-          "Tournament scheduler",
-          "Graph algorithm library"
-        ],
-        "practice": "Explore 15 advanced graph problems"
       }
     },
-    "month_11_12": {
-      "title": "Phase 2 Completion & Integration",
-      "weeks": "Week 25-26",
-      "week_45_46": {
+    "month_6": {
+      "title": "Month 6: Phase 2 Completion & Integration",
+      "weeks": "Weeks 24-26",
+      "week_24": {
         "title": "Algorithm Design Paradigms",
         "topics": [
           "Brute force and when it's okay",
@@ -676,7 +631,7 @@
         ],
         "practice": "Apply different paradigms to 30 problems"
       },
-      "week_47_48": {
+      "week_25": {
         "title": "Space & Time Optimization",
         "topics": [
           "Space-time tradeoffs",
@@ -700,7 +655,7 @@
         ],
         "practice": "Optimize 20 solutions for space/time"
       },
-      "week_49_50": {
+      "week_26": {
         "title": "Testing & Debugging Mastery",
         "topics": [
           "Test case design strategies",
@@ -722,58 +677,18 @@
           "Performance profiler",
           "Bug tracker system"
         ],
-        "practice": "Debug 30 algorithmic bugs"
-      },
-      "week_51": {
-        "title": "Competition Strategies",
-        "topics": [
-          "Contest strategy and time management",
-          "Problem selection in contests",
-          "Speed coding techniques",
-          "Template preparation",
-          "Common contest patterns",
-          "Interactive problem solving",
-          "Partial scoring strategies",
-          "Team contest coordination",
-          "Virtual contest practice",
-          "Post-contest analysis",
-          "Rating improvement tips",
-          "Mental preparation for contests"
-        ],
-        "projects": [
-          "Personal contest tracker",
-          "Problem recommendation system",
-          "Contest simulator",
-          "Performance analytics dashboard"
-        ],
-        "practice": "Participate in 10 virtual contests"
-      },
-      "week_52": {
-        "title": "Phase 2 Capstone Project",
-        "topics": [
-          "Complex system design",
-          "Algorithm integration",
-          "Performance requirements",
-          "Scalability considerations",
-          "Code organization for large projects"
-        ],
-        "projects": [
-          "MAJOR CAPSTONE: Competitive Programming Platform",
-          "Features: Problem bank, online judge, contest system, leaderboards",
-          "Alternative: Graph algorithm visualizer suite",
-          "Alternative: AI game bot using algorithms"
-        ],
-        "assessment": "Phase 2 Final - Solve 10 medium problems in 3 hours"
+        "practice": "Debug 30 algorithmic bugs",
+        "assessment": "Phase 2 exam: a practical build defended live, plus a written paper mixing this phase with everything before it"
       }
     }
   },
   "phase_3_backend_engineering": {
     "title": "PHASE 3: Advanced Algorithms & Techniques (Months 7-9, Weeks 27-39)",
     "description": "Master dynamic programming, advanced data structures, computational geometry, and complex problem-solving techniques.",
-    "month_13_14": {
-      "title": "Months 7-8: Dynamic Programming Mastery",
-      "weeks": "Week 27-35",
-      "week_53_54": {
+    "month_7": {
+      "title": "Month 7: Dynamic Programming Mastery",
+      "weeks": "Weeks 27-31",
+      "week_27": {
         "title": "DP Fundamentals",
         "topics": [
           "Dynamic programming introduction",
@@ -797,7 +712,7 @@
         ],
         "practice": "Solve 50 basic DP problems"
       },
-      "week_55_56": {
+      "week_28": {
         "title": "String DP Problems",
         "topics": [
           "Longest Common Subsequence (LCS)",
@@ -821,7 +736,7 @@
         ],
         "practice": "Master 30 string DP problems"
       },
-      "week_57_58": {
+      "week_29": {
         "title": "Grid & Matrix DP",
         "topics": [
           "Grid traversal problems",
@@ -845,7 +760,7 @@
         ],
         "practice": "Solve 35 grid DP problems"
       },
-      "week_59_60": {
+      "week_30": {
         "title": "Knapsack & Subset Problems",
         "topics": [
           "0/1 Knapsack problem",
@@ -869,7 +784,7 @@
         ],
         "practice": "Master all knapsack variations"
       },
-      "week_61": {
+      "week_31": {
         "title": "Tree DP",
         "topics": [
           "DP on trees concept",
@@ -894,10 +809,10 @@
         "practice": "Solve 25 tree DP problems"
       }
     },
-    "month_15_16": {
+    "month_8": {
       "title": "Month 8: Advanced DP & Optimization",
-      "weeks": "Week 32-35",
-      "week_62_63": {
+      "weeks": "Weeks 32-36",
+      "week_32": {
         "title": "DP with Bitmasks",
         "topics": [
           "Bitmask representation basics",
@@ -921,7 +836,7 @@
         ],
         "practice": "Master 20 bitmask DP problems"
       },
-      "week_64_65": {
+      "week_33": {
         "title": "Interval DP & Games",
         "topics": [
           "Interval DP pattern",
@@ -945,7 +860,7 @@
         ],
         "practice": "Solve 25 interval DP and game problems"
       },
-      "week_66_67": {
+      "week_34": {
         "title": "DP Optimizations",
         "topics": [
           "Convex hull trick",
@@ -969,7 +884,7 @@
         ],
         "practice": "Apply optimizations to 20 DP problems"
       },
-      "week_68_69": {
+      "week_35": {
         "title": "Probability & Expected Value DP",
         "topics": [
           "Probability basics review",
@@ -993,7 +908,7 @@
         ],
         "practice": "Solve 20 probability DP problems"
       },
-      "week_70": {
+      "week_36": {
         "title": "State Space Reduction",
         "topics": [
           "State space explosion problem",
@@ -1018,10 +933,10 @@
         "practice": "Optimize 15 DP solutions for memory"
       }
     },
-    "month_17_18": {
+    "month_9": {
       "title": "Month 9: Computational Geometry & Number Theory",
-      "weeks": "Week 36-39",
-      "week_71_72": {
+      "weeks": "Weeks 37-39",
+      "week_37": {
         "title": "Computational Geometry Basics",
         "topics": [
           "Points, lines, and vectors",
@@ -1045,31 +960,7 @@
         ],
         "practice": "Solve 30 basic geometry problems"
       },
-      "week_73_74": {
-        "title": "Advanced Geometry",
-        "topics": [
-          "Line sweep algorithms",
-          "Rotating calipers technique",
-          "Voronoi diagrams basics",
-          "Delaunay triangulation",
-          "Circle-line intersection",
-          "Circle-circle intersection",
-          "Tangents to circles",
-          "3D geometry basics",
-          "Cross product and applications",
-          "Dot product applications",
-          "Geometric transformations",
-          "Computational precision issues"
-        ],
-        "projects": [
-          "Art generator using geometry",
-          "Physics simulation engine",
-          "3D renderer basics",
-          "Geometric game mechanics"
-        ],
-        "practice": "Implement 20 geometric algorithms"
-      },
-      "week_75_76": {
+      "week_38": {
         "title": "Advanced Number Theory",
         "topics": [
           "Extended Euclidean algorithm",
@@ -1093,7 +984,7 @@
         ],
         "practice": "Solve 25 number theory problems"
       },
-      "week_77": {
+      "week_39": {
         "title": "Combinatorics & Counting",
         "topics": [
           "Advanced permutation generation",
@@ -1115,577 +1006,159 @@
           "Counting problem solver",
           "Pattern enumeration system"
         ],
-        "practice": "Master 20 combinatorics problems"
-      },
-      "week_78": {
-        "title": "Phase 3 Capstone Project",
-        "topics": [
-          "Complex algorithm integration",
-          "Performance optimization",
-          "Algorithm selection strategies",
-          "Large-scale problem solving",
-          "Code efficiency and elegance"
-        ],
-        "projects": [
-          "MAJOR CAPSTONE: Advanced Algorithm Visualizer Platform",
-          "Features: DP, Geometry, Graphs, Interactive learning, Problem generator",
-          "Alternative: Competitive Programming Bot",
-          "Alternative: Mathematical Problem Solver"
-        ],
-        "assessment": "Phase 3 Final - 8 hard problems in 4 hours"
+        "practice": "Master 20 combinatorics problems",
+        "assessment": "Phase 3 exam: a practical build defended live, plus a written paper mixing this phase with everything before it"
       }
     }
   },
-  "phase_4_advanced_production": {
-    "title": "PHASE 4: Competitive Programming & Interview Mastery (Months 10-12, Weeks 40-52)",
-    "description": "Master competitive programming, ace technical interviews, explore advanced topics, and build your problem-solving portfolio.",
-    "month_19_20": {
-      "title": "Months 10-11: Competitive Programming Excellence",
-      "weeks": "Week 40-48",
-      "week_79_80": {
-        "title": "Advanced Data Structures",
+  "phase_4_finale": {
+    "title": "PHASE 4: The Finale (Month 10, Weeks 40-44)",
+    "description": "The capstone month: spec, build, ship and defend, then the final exam that decides the certificate.",
+    "month_10_finale": {
+      "title": "Month 10: Capstone and the Final Exam",
+      "weeks": "Weeks 40-44",
+      "week_40": {
+        "title": "Capstone Spec and Setup",
         "topics": [
-          "Segment tree deep dive",
-          "Lazy propagation in segment trees",
-          "Fenwick tree (Binary Indexed Tree)",
-          "2D segment trees",
-          "Persistent segment trees",
-          "Merge sort tree",
-          "Wavelet tree basics",
-          "Sqrt decomposition",
-          "Mo's algorithm",
-          "Heavy-light decomposition",
-          "Link-cut trees introduction",
-          "Treap and randomized BSTs"
+          "Choosing the capstone: a problem-solving portfolio: a set of hard, multi-part challenges solved, documented and explained clearly",
+          "A one-page spec: scope, milestones, stack",
+          "Repository and skeleton ready on day one",
+          "Instructor sign-off before the build begins"
         ],
         "projects": [
-          "Range query processor",
-          "Persistent data structure library",
-          "Query optimization system",
-          "Advanced tree operations toolkit"
+          "Approved capstone spec plus the running skeleton"
         ],
-        "practice": "Master 40 advanced DS problems"
+        "practice": "Pitch the spec to the batch and absorb one hard question"
       },
-      "week_81_82": {
-        "title": "String Algorithms Mastery",
+      "week_41_42": {
+        "title": "Capstone Build",
         "topics": [
-          "KMP algorithm complete implementation",
-          "Z-algorithm and applications",
-          "Rabin-Karp with rolling hash",
-          "Aho-Corasick for multiple patterns",
-          "Suffix array construction",
-          "LCP array computation",
-          "Suffix tree basics",
-          "Manacher's algorithm",
-          "String hashing techniques",
-          "Suffix automaton introduction",
-          "Palindromic tree",
-          "Rope data structure"
+          "Two focused weeks in vertical slices",
+          "Instructor checkpoints and honest scope cuts",
+          "Using the whole course: every structure and technique learned, chosen to fit each problem",
+          "Daily commits and an always-working build"
         ],
         "projects": [
-          "Text editor with advanced search",
-          "Plagiarism detector",
-          "DNA pattern matcher",
-          "Compressed string processor"
+          "The capstone, feature-complete with version control"
         ],
-        "practice": "Solve 35 advanced string problems"
+        "practice": "A working build at the end of every session"
       },
-      "week_83_84": {
-        "title": "Network Flow & Matching",
+      "week_43": {
+        "title": "Ship and Polish",
         "topics": [
-          "Maximum flow deep dive",
-          "Ford-Fulkerson implementation",
-          "Edmonds-Karp algorithm",
-          "Dinic's algorithm",
-          "Push-relabel algorithm",
-          "Min-cost max-flow",
-          "Maximum bipartite matching",
-          "Hungarian algorithm",
-          "Stable marriage problem",
-          "Hall's theorem applications",
-          "Circulation with demands",
-          "Multi-commodity flow basics"
+          "The finishing pass: edge cases, errors, documentation",
+          "Solutions explained, not just submitted: correct, reasoned and communicated",
+          "A README worth reading and a demo worth watching",
+          "A full-course spiral review before the exam"
         ],
         "projects": [
-          "Assignment optimization system",
-          "Network capacity planner",
-          "Matching platform algorithm",
-          "Flow network visualizer"
+          "The capstone shipped, documented and rehearsed"
         ],
-        "practice": "Implement 20 flow algorithms"
+        "practice": "Two mock demos, each tighter than the last"
       },
-      "week_85_86": {
-        "title": "FFT & Polynomials",
+      "week_44": {
+        "title": "Demo Day and the Final Exam",
         "topics": [
-          "Polynomial representation",
-          "Polynomial multiplication naive",
-          "Karatsuba multiplication",
-          "Fast Fourier Transform (FFT)",
-          "Cooley-Tukey FFT algorithm",
-          "Inverse FFT",
-          "Number Theoretic Transform (NTT)",
-          "Polynomial division",
-          "Polynomial GCD",
-          "Applications of FFT",
-          "Convolution with FFT",
-          "FFT optimization tricks"
+          "Presenting the capstone: live demo plus the hardest bug story",
+          "The honest map of next roads: our competitive programming course for contests, and our DSA course for interview-grade depth",
+          "Where our other courses continue the journey"
         ],
         "projects": [
-          "Signal processor with FFT",
-          "Polynomial calculator",
-          "Audio frequency analyzer",
-          "Large number multiplier"
+          "Demo day presentation delivered to the batch"
         ],
-        "practice": "Solve 15 FFT/polynomial problems"
-      },
-      "week_87": {
-        "title": "Parallel & Distributed Algorithms",
-        "topics": [
-          "Parallel algorithm design",
-          "PRAM model basics",
-          "Parallel sorting algorithms",
-          "Parallel graph algorithms",
-          "MapReduce paradigm",
-          "Distributed consensus",
-          "Leader election algorithms",
-          "Clock synchronization",
-          "Distributed hash tables",
-          "Blockchain algorithms basics",
-          "Quantum algorithms introduction",
-          "GPU algorithms overview"
-        ],
-        "projects": [
-          "Parallel sort implementation",
-          "Distributed system simulator",
-          "Consensus algorithm demo",
-          "Parallel computation framework"
-        ],
-        "practice": "Explore 10 parallel algorithms"
-      }
-    },
-    "month_21_22": {
-      "title": "Month 11: Competition Training & Practice",
-      "weeks": "Week 44-48",
-      "week_88_89": {
-        "title": "Codeforces & Contest Strategies",
-        "topics": [
-          "Codeforces platform mastery",
-          "Rating system understanding",
-          "Div 1, 2, 3 strategies",
-          "Problem difficulty assessment",
-          "Time allocation strategies",
-          "When to skip problems",
-          "Hacking phase tactics",
-          "Virtual contest practice",
-          "Upsolving importance",
-          "Editorial analysis",
-          "Performance tracking",
-          "Common Codeforces patterns"
-        ],
-        "projects": [
-          "Contest performance tracker",
-          "Problem difficulty predictor",
-          "Solution template generator",
-          "Contest analysis tool"
-        ],
-        "practice": "Participate in 20 Codeforces contests"
-      },
-      "week_90_91": {
-        "title": "USACO & IOI Preparation",
-        "topics": [
-          "USACO divisions: Bronze to Platinum",
-          "USACO problem patterns",
-          "File I/O handling",
-          "USACO-specific optimizations",
-          "IOI-style problems",
-          "Subtask scoring strategy",
-          "Partial solutions value",
-          "Test data analysis",
-          "Output-only tasks",
-          "Interactive problems mastery",
-          "Debugging under pressure",
-          "Camp and training resources"
-        ],
-        "projects": [
-          "USACO problem solver",
-          "Training plan generator",
-          "Mock USACO contest platform",
-          "Solution verifier tool"
-        ],
-        "practice": "Solve 50 USACO past problems"
-      },
-      "week_92_93": {
-        "title": "Google Competitions",
-        "topics": [
-          "Google Code Jam format",
-          "Kickstart competition strategy",
-          "Large input handling",
-          "Small vs large dataset approach",
-          "Hash Code team strategies",
-          "Optimization problems approach",
-          "Approximation strategies",
-          "Google interview style problems",
-          "System design in competitions",
-          "Code readability importance",
-          "Testing strategies for competitions",
-          "Google-specific patterns"
-        ],
-        "projects": [
-          "Code Jam problem archive",
-          "Optimization problem solver",
-          "Team collaboration platform",
-          "Solution scorer and ranker"
-        ],
-        "practice": "Complete 30 Google competition problems"
-      },
-      "week_94_95": {
-        "title": "Advanced Contest Techniques",
-        "topics": [
-          "Interactive problem techniques",
-          "Adaptive query strategies",
-          "Randomization in solutions",
-          "Heuristics and approximations",
-          "Construction problems approach",
-          "Output formatting tricks",
-          "Fast I/O optimizations",
-          "Precomputation strategies",
-          "Space-time tradeoffs in contests",
-          "Team contest coordination",
-          "Communication in team contests",
-          "Contest psychology and stress"
-        ],
-        "projects": [
-          "Interactive problem framework",
-          "Team contest simulator",
-          "Strategy optimizer",
-          "Performance under pressure trainer"
-        ],
-        "practice": "Master 25 advanced contest problems"
-      },
-      "week_96": {
-        "title": "Platform Mastery",
-        "topics": [
-          "LeetCode for interviews",
-          "HackerRank certifications",
-          "TopCoder SRM strategies",
-          "AtCoder contests approach",
-          "CodeChef long challenges",
-          "Project Euler mathematics",
-          "SPOJ classical problems",
-          "Local olympiad preparation",
-          "Online judge creation",
-          "Problem setting basics",
-          "Test case generation",
-          "Solution validation"
-        ],
-        "projects": [
-          "Multi-platform tracker",
-          "Problem aggregator",
-          "Personal online judge",
-          "Problem setter toolkit"
-        ],
-        "practice": "Achieve high ratings on 5 platforms"
-      }
-    },
-    "month_23": {
-      "title": "Month 12: Interview Preparation & Career Launch",
-      "weeks": "Week 49-52",
-      "week_97": {
-        "title": "Technical Interview Mastery",
-        "topics": [
-          "Interview problem patterns",
-          "FAANG interview process",
-          "Behavioral questions preparation",
-          "System design basics for teens",
-          "Whiteboard coding practice",
-          "Communication during interviews",
-          "Clarifying questions importance",
-          "Edge case discussion",
-          "Optimization discussion",
-          "Trade-off analysis",
-          "Code review skills",
-          "Mock interview strategies"
-        ],
-        "projects": [
-          "Interview preparation tracker",
-          "Mock interview platform",
-          "Solution explanation generator",
-          "Interview feedback system"
-        ],
-        "practice": "Complete 100 interview problems"
-      },
-      "week_98": {
-        "title": "System Design for Beginners",
-        "topics": [
-          "System design introduction",
-          "Scalability basics",
-          "Database design fundamentals",
-          "API design principles",
-          "Caching strategies",
-          "Load balancing concepts",
-          "Microservices basics",
-          "Distributed systems introduction",
-          "CAP theorem simplified",
-          "Design patterns overview",
-          "Real-world system analysis",
-          "Drawing system diagrams"
-        ],
-        "projects": [
-          "URL shortener design",
-          "Chat application design",
-          "Social media feed design",
-          "Simple search engine design"
-        ],
-        "practice": "Design 10 simple systems"
-      },
-      "week_99": {
-        "title": "Open Source & Portfolio",
-        "topics": [
-          "GitHub profile optimization",
-          "Open source contribution guide",
-          "Finding first issues",
-          "Pull request best practices",
-          "Code documentation skills",
-          "README writing guide",
-          "Project presentation skills",
-          "Technical blogging basics",
-          "Building online presence",
-          "Networking in tech community",
-          "Hackathon participation",
-          "Building developer portfolio"
-        ],
-        "projects": [
-          "GitHub portfolio website",
-          "Open source contribution",
-          "Technical blog setup",
-          "Project showcase platform"
-        ],
-        "practice": "Make 10 open source contributions"
-      },
-      "week_100": {
-        "title": "Advanced Topics Exploration",
-        "topics": [
-          "Machine learning basics for CP",
-          "Quantum computing introduction",
-          "Blockchain and cryptography",
-          "Competitive programming in AI",
-          "Research paper reading",
-          "Advanced mathematics exploration",
-          "Functional programming paradigms",
-          "Logic programming basics",
-          "Constraint programming",
-          "Metaheuristics introduction",
-          "Evolutionary algorithms",
-          "Future of problem solving"
-        ],
-        "projects": [
-          "ML-powered problem solver",
-          "Cryptography toolkit",
-          "Research paper implementation",
-          "Future tech exploration project"
-        ],
-        "practice": "Explore 5 cutting-edge topics"
-      }
-    },
-    "month_24": {
-      "title": "Final Month: Mastery & Beyond",
-      "weeks": "Week 50-52",
-      "week_101_102": {
-        "title": "Final Project - Part 1",
-        "topics": [
-          "Project ideation and planning",
-          "Requirements gathering",
-          "Architecture design",
-          "Technology selection",
-          "Development methodology",
-          "Testing strategy",
-          "Documentation planning",
-          "Timeline creation"
-        ],
-        "projects": [
-          "FINAL MASTERPIECE: Complete Problem Solving Platform",
-          "Features: Online judge, problem bank, contests, tutorials, visualizations, AI hints, progress tracking, social features",
-          "Alternative: AI-powered problem solver",
-          "Alternative: Educational game for algorithms"
-        ]
-      },
-      "week_103": {
-        "title": "Final Project - Part 2 & Polish",
-        "topics": [
-          "Implementation completion",
-          "Testing and debugging",
-          "Performance optimization",
-          "User interface polish",
-          "Documentation completion",
-          "Deployment preparation",
-          "Presentation preparation",
-          "Demo video creation",
-          "Code review and refactoring",
-          "Security considerations",
-          "Scalability planning",
-          "Future roadmap"
-        ],
-        "deliverables": [
-          "Complete source code repository",
-          "Live deployed application",
-          "Comprehensive documentation",
-          "Video presentation",
-          "Technical report",
-          "Test suite with coverage",
-          "Performance benchmarks",
-          "User guide"
-        ]
-      },
-      "week_104": {
-        "title": "Graduation & Career Launch",
-        "topics": [
-          "Portfolio finalization",
-          "Resume optimization for tech",
-          "LinkedIn profile setup",
-          "College application prep (if applicable)",
-          "Scholarship opportunities",
-          "Internship search strategies",
-          "Freelancing opportunities",
-          "Competitive programming career",
-          "Teaching and mentoring",
-          "Research opportunities",
-          "Entrepreneurship in tech",
-          "Lifelong learning plan"
-        ],
-        "deliverables": [
-          "Professional portfolio",
-          "Optimized resume",
-          "LinkedIn presence",
-          "100+ day coding streak",
-          "Competition achievements",
-          "Open source contributions",
-          "Personal brand",
-          "Future learning roadmap"
-        ],
-        "assessment": "FINAL COMPREHENSIVE ASSESSMENT - Full competition simulation + interview"
+        "assessment": "FINAL EXAM: a practical build plus a written paper with questions mixed from every phase. Passing earns the certificate; falling short earns a focused revision plan and a free retest"
       }
     }
   },
   "additional_learning_resources": {
     "projects_throughout_course": [
-      "Phase 1: Calculator, Games, Puzzle Solvers, Algorithm Visualizers",
-      "Phase 2: Data Structure Libraries, Graph Visualizers, Sorting Animations",
-      "Phase 3: DP Solver, Geometry Engine, Advanced Algorithm Implementations",
-      "Phase 4: Competition Platform, AI Problem Solver, Complete DSA Library",
-      "Final: Production-grade Problem Solving Platform"
+      "Phase 1: logic and core-structure problem sets",
+      "Phase 2: data-structure and algorithm challenges",
+      "Phase 3: dynamic-programming and technique problem sets",
+      "Phase 4: the problem-solving portfolio capstone"
     ],
-    "total_projects_built": "60+ projects from simple to complex systems",
+    "total_projects_built": "200+ problems solved and every core structure implemented, crowned by a portfolio capstone",
     "skills_mastered": [
-      "Languages: Python (primary), C++ (competitive programming), Java (optional)",
-      "Problem Solving: 1000+ problems solved across all difficulty levels",
-      "Data Structures: Arrays, Lists, Stacks, Queues, Trees, Graphs, Heaps, Tries, Advanced DS",
-      "Algorithms: Sorting, Searching, Graph Algorithms, DP, Greedy, Divide & Conquer",
-      "Mathematics: Number Theory, Combinatorics, Probability, Geometry",
-      "Advanced: Network Flow, String Algorithms, FFT, Segment Trees, Game Theory",
-      "Competitive: Contest strategies, Speed coding, Optimization techniques",
-      "Platforms: Codeforces, USACO, LeetCode, HackerRank, AtCoder mastery",
-      "Tools: Git, VS Code, Debuggers, Profilers, Online Judges",
-      "Soft Skills: Problem decomposition, Logical thinking, Pattern recognition, Communication"
+      "Programming logic: conditionals, loops, functions and clean decomposition",
+      "Core structures: arrays, strings, hash maps, stacks, queues, linked lists, recursion",
+      "Data structures and algorithms: trees, heaps, graphs, sorting, searching",
+      "Dynamic programming: the topic that unlocks the hardest problems",
+      "Problem-solving patterns that transfer to unseen problems"
     ],
     "weekly_structure": {
-      "theory_videos": "3-4 hours",
-      "problem_solving": "6-8 hours",
-      "contests": "2-3 hours",
-      "projects": "2-3 hours",
-      "peer_discussions": "1-2 hours",
-      "total_per_week": "10-15 hours"
-    },
-    "support_provided": {
-      "live_sessions": "Weekly doubt clearing with mentors",
-      "peer_groups": "Study groups of 4-5 students",
-      "mentorship": "Personal mentor for guidance",
-      "code_review": "Expert feedback on solutions",
-      "competition_support": "Team formation and coaching",
-      "parent_updates": "Monthly progress reports",
-      "career_guidance": "College and internship counseling"
+      "live_classes": "2 live one-hour classes per week, coding along with the instructor",
+      "homework": "A problem set after every class, and a mixed-review assignment at the end of every month",
+      "practice": "4-6 hours of building between classes",
+      "review": "Every submission reviewed with written feedback; recurring gaps reopened in class"
     },
     "certification": {
-      "phase_certificates": "Certificate after each phase",
-      "competition_achievements": "Competition participation certificates",
-      "final_certificate": "Problem Solving Expert Certification",
-      "skill_badges": "50+ skill badges to earn",
-      "linkedin_credentials": "Verifiable LinkedIn badges",
-      "portfolio_problems": "1000+ solved problems portfolio"
+      "completion": "Certificate from Modern Age Coders, awarded on passing the final exam. Fall short and there is focused revision and a free retest: the certificate certifies knowledge, not attendance"
+    },
+    "support_provided": {
+      "doubt_support": "WhatsApp doubt support between classes",
+      "progress_updates": "Honest monthly progress reviews: what is solid, what is wobbly, and the plan for the wobble"
     }
   },
   "prerequisites": {
-    "education": "Basic mathematics (middle school level)",
-    "coding_experience": "None required - absolute beginners welcome",
-    "equipment": "Computer/laptop with internet",
-    "time_commitment": "10-15 hours per week",
-    "age": "13-19 years (designed for teenagers)",
-    "motivation": "Curiosity and dedication to learn"
+    "coding_experience": "None. Everything is taught from the first line",
+    "equipment": "Any computer with a stable internet connection; every tool used is free",
+    "age": "13-18 (teenagers)",
+    "time_commitment": "2 live classes plus 3-5 hours of practice a week"
   },
   "who_is_this_for": {
-    "high_school_students": "Preparing for programming competitions and college",
-    "competition_aspirants": "USACO, IOI, Google Code Jam participants",
-    "college_prep": "Students aiming for top CS programs",
-    "self_learners": "Motivated teens wanting to excel in programming",
-    "math_enthusiasts": "Students who enjoy logical puzzles",
-    "future_engineers": "Aspiring software engineers and researchers",
-    "gamers": "Teens interested in game development and AI"
+    "curious_teens": "Teenagers who like puzzles and want to think like a programmer",
+    "olympiad_hopefuls": "Students aiming for coding olympiads and contests later",
+    "strong_students": "Teens who have dabbled in coding and want real depth",
+    "future_cs_students": "Students who want a head start on university-level computer science",
+    "interview_bound_later": "Teens building the foundation that future coding interviews assume"
   },
   "career_paths_after_completion": [
-    "Competitive Programmer (while in school/college)",
-    "Software Engineering Intern at top companies",
-    "Algorithm Researcher (with further education)",
-    "Game Developer (logic and AI focus)",
-    "Quantitative Analyst (with math focus)",
-    "Machine Learning Engineer (with additional ML study)",
-    "Startup Founder (technical co-founder)",
-    "Programming Instructor/Mentor",
-    "Open Source Contributor",
-    "Technical Content Creator"
+    "Our competitive programming course for contest speed and technique",
+    "Our DSA course for interview-grade depth and communication",
+    "Any language course here pairs with this problem-solving spine",
+    "Coding olympiads and contests, with a real foundation behind you"
   ],
   "course_guarantees": {
     "live_classes": "Live, interactive classes with a real instructor, never pre-recorded videos.",
     "small_batches": "Small batches only: group classes are capped at 10 students, with mini-batch (3 to 4 students) and personal 1-on-1 options.",
-    "structured_curriculum": "A structured, well-paced curriculum taught step by step, with hands-on practice in every session.",
+    "structured_curriculum": "A structured, well-paced curriculum taught step by step, with classwork in every session and problem sets after every class.",
+    "real_assessment": "Monthly mixed reviews, cumulative phase exams, and a final exam that decides the certificate: real knowledge, real work.",
     "doubt_support": "Doubt support between classes over WhatsApp, so you are never left stuck.",
-    "certificate": "A course-completion certificate you can share.",
+    "certificate": "A certificate you earn by passing the final exam, with a free retest after revision if needed.",
     "free_demo": "A free demo class before you enrol, so you can decide with no pressure."
   },
   "faqs": [
     {
-      "question": "What exactly does this DSA course teach?",
-      "answer": "The year is a complete problem-solving ladder: programming fundamentals and logic building, core data structures like trees and graphs, dynamic programming, number theory and computational geometry, and finally competitive programming and interview-style practice. Students solve 1000+ problems of gradually increasing difficulty along the way."
+      "question": "What does this problem-solving course for teens cover?",
+      "answer": "Logic and programming foundations first (conditionals, loops, functions, arrays, strings, hash maps, stacks, queues, linked lists, recursion), then core data structures and algorithms (trees, heaps, graphs, sorting, searching, algorithm design), then dynamic programming and problem-solving techniques with counting and geometry basics. Everything is taught through problems, focusing on transferable patterns. A finale month builds a problem-solving portfolio and sits the final exam."
     },
     {
-      "question": "Which programming language is used?",
-      "answer": "Python is the primary teaching language because it lets beginners focus on logic instead of syntax; C++ is introduced for competitive programming where speed matters, and Java is an option for students who already use it at school. All tools are free: Python, a free code editor, and free practice platforms like LeetCode and Codeforces."
+      "question": "How long does it take to learn problem solving properly?",
+      "answer": "Ten months of teaching at 2 live classes a week plus 4 to 6 hours of practice, with two more months in hand for learners who need them. The three teaching phases build the skill and its real-world application; the finale month ships a capstone and sits the final exam."
     },
     {
-      "question": "Does my teen need coding experience or advanced maths?",
-      "answer": "No coding experience is required; the first month teaches programming from scratch. Middle school level mathematics is enough to start, and the course itself builds the logical and mathematical maturity needed for harder problems."
+      "question": "How am I assessed? Is the certificate just for attending?",
+      "answer": "No. Problem sets follow every class with written feedback, monthly reviews deliberately mix new material with earlier topics, each phase ends with a cumulative exam, and the course ends with a final exam: a practical build plus written questions from the whole syllabus. Passing earns the certificate; falling short earns focused revision and a free retest."
     },
     {
-      "question": "Is this useful if my teen is not aiming for olympiads?",
-      "answer": "Yes. Contests like Codeforces rounds and olympiad preparation are one path through the course, but the same skills power school computer science, entrance exams, and technical interviews later. Problem solving is the most transferable skill in all of programming."
+      "question": "Does my teenager need coding experience to start?",
+      "answer": "No. The course begins with programming logic from scratch and builds up. What matters is curiosity and a willingness to sit with a hard problem, which is exactly the habit the course trains. Any language works; we most often use Python because it keeps the focus on the thinking."
     },
     {
-      "question": "What comes after this course?",
-      "answer": "Graduates are ready for sustained competitive programming, school and college-level contests, and the algorithm rounds used in technical interviews. Many also branch into our Python, full stack, or AI courses, where strong problem-solving skills make advanced material dramatically easier."
+      "question": "Is this the same as your competitive programming course?",
+      "answer": "No, and the difference is deliberate. This teens course builds the foundation, logic, data structures, algorithms and problem-solving patterns at a teen pace. Our competitive programming course is the intense, contest-focused next step (advanced techniques, speed, olympiad and ICPC preparation), and our DSA course is the interview-focused one. Teens who finish this and want more are perfectly placed for either."
     },
     {
-      "question": "What does this course cost per month?",
-      "answer": "Group classes are ₹1,499 per month for 2 live classes a week with a maximum of 10 students. Mini batches of 3-4 cost ₹2,999 per month, and 1-on-1 personal coaching with 2 private sessions weekly is ₹4,999 per month. For international students, prices are set per country and shown on this page in the local currency."
+      "question": "What are the fees?",
+      "answer": "Group classes are ₹1,499 per month, with 2 live classes a week in batches capped at 10 learners. A mini batch of 3-4 learners is ₹2,999 per month, and personal 1-on-1 classes are ₹4,999 per month. International learners pay a price set for their own country, shown on this page in their local currency."
     },
     {
-      "question": "Can my teen attend a free demo first?",
-      "answer": "Yes, demos are free and commitment-free; book at learn.modernagecoders.com/contact. Parents can sit in on the session, and the teacher will happily discuss your teen's goals, whether that is olympiads, exams, or interview preparation."
+      "question": "Can I try a class before enrolling?",
+      "answer": "Yes, a free demo class with no commitment: book at learn.modernagecoders.com/contact or message us on WhatsApp at +91 91233 66161."
     },
     {
-      "question": "Are the sessions live?",
-      "answer": "Yes, all classes are live 1-hour online sessions with a real teacher, never recordings. Problem solving is taught interactively: students attempt problems in class, explain their reasoning, and learn multiple approaches from the group."
-    },
-    {
-      "question": "Is a certificate awarded?",
-      "answer": "Yes, students who complete the course earn a Problem Solving Expert certificate along with a portfolio documenting the problems and contests they have worked through. That visible record of solved problems is often what impresses schools and interviewers most."
+      "question": "Are classes live or recorded?",
+      "answer": "Live, always: small groups with a real instructor reading your actual code, never pre-recorded videos."
     }
   ]
 }
