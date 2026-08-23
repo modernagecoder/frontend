@@ -402,6 +402,7 @@ USD 100 a month small group, USD 150 a month one to one.
 - Al Kamil Wal Wafi, Ash Sharqiyah South, Oman: https://learn.modernagecoders.com/coding-classes-in-al-kamil-wal-wafi
 - Bidbid, Ad Dakhiliyah, Oman: https://learn.modernagecoders.com/coding-classes-in-bidbid
 - Adam, Ad Dakhiliyah, Oman: https://learn.modernagecoders.com/coding-classes-in-adam
+- Nakhal, Al Batinah South, Oman: https://learn.modernagecoders.com/coding-classes-in-nakhal
 ## International Country Pages
 
 - United States: https://learn.modernagecoders.com/coding-classes-in-united-states

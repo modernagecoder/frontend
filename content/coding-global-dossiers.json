@@ -3145,5 +3145,41 @@
       "A population for the wilayat. No census table could be traced in this session, so none appears and the page argues from the size of the historic quarter instead.",
       "A death date for Ahmad bin Said. Figures circulate but none was verified at a primary source in this session, so the page uses only the birth year and the dynasty date."
     ]
+  },
+  "coding-classes-in-nakhal": {
+    "market": "Nakhal, Al Batinah South",
+    "bodyClass": "cg-nkl",
+    "curriculumAuthority": "Oman Ministry of Education, General Education Diploma. The page argues from the wilayat's hydrology rather than from curriculum: settlement here follows the irrigation channels, so the shape of the place has no natural centre and teaching delivered over a connection does not need one.",
+    "localProject": "A total that includes its own source. The Al Thowarah springs run about 300 metres from Silud Mountain before branching into Falaj Kabbah and Falaj As Sarooj. With a spring of 60 l/s, 3 lost on the way and branches of 33 and 24, the three-row sum is 117 against a true 60, which is 95% too high and, because of the loss, not exactly double, so the one sanity check a reviewer would run comes back clean. Assigned to this page and no other.",
+    "requiredMentions": [
+      "Nakhal Fort",
+      "Al Thowarah",
+      "Falaj Kabbah",
+      "Falaj As Sarooj",
+      "Silud Mountain",
+      "date palm oasis",
+      "two tributaries",
+      "hot springs",
+      "300 metres"
+    ],
+    "sources": [
+      {
+        "claim": "The Al Thowarah hot springs gush all year round from Silud Mountain and flow from the valley for a distance of 300 metres before branching into two tributaries, Falaj Kabbah and Falaj As Sarooj, on which Wilayat Nakhal depends to irrigate its cultivated lands.",
+        "url": "https://timesofoman.com/article/120567-we-love-oman-enjoy-nakhals-hot-water-springs"
+      },
+      {
+        "claim": "Nakhal Fort is surrounded by a date palm oasis set against mountainous terrain.",
+        "url": "https://en.wikipedia.org/wiki/Nakhal"
+      },
+      {
+        "claim": "Al Thowarah is a hot spring located near Nakhal Fort in Oman.",
+        "url": "https://en.wikipedia.org/wiki/Al_Thowarah_hot_spring"
+      }
+    ],
+    "rejectedClaims": [
+      "Any flow rate for the spring or either tributary. No public gauging figures were found, so the litres per second in the project are teaching values and are labelled as such in the project steps, the pitfalls note and the FAQ.",
+      "A population for the wilayat. No census table could be traced in this session, so none appears and the page argues from the shape of the irrigation instead.",
+      "A temperature for the springs. Figures circulate but none was verified at a primary source in this session, so the page says only that the water is warm year round."
+    ]
   }
 }
