@@ -119,8 +119,8 @@ Status: [ ] pending · [~] in progress · [x] done+committed
 - [x] a-level-maths.json DONE 2026-08-23: already 2026-quality (72wk-vs-36 was a counter artifact, 2wk blocks); minimal patch: joinable-any-month duration, real_assessment guarantee, dateModified. NOTE for remaining audits: kw count 8-9 phrases = new-era file, kw 13-16 single words = old-era file
 
 ### Tier 4: 12-month tier needing right-sizing (judge each)
-- [ ] mysql-teens.json (12mo -> 4-6mo)
-- [ ] mysql-database-college.json (12mo -> 4-6mo)
+- [x] mysql-teens.json (12mo -> 5-6mo) DONE 2026-08-23: removed LIVE "Placeholder - Structure Required by Template" phases; 20wk Python-connected arc + exam system
+- [x] mysql-database-college.json (12mo -> 7-8mo) DONE 2026-08-23: developer-honest scope, DBA track cut and named as next path; exam system
 - [ ] react-teens.json · react-js-college.json · frontend-teens.json · backend-teens.json
 - [ ] cpp-teens.json · cpp-programming-college.json · kotlin.json · swift.json · golang.json
 - [ ] typescript-programming-college.json · flutter.json · mern-stack-college.json
