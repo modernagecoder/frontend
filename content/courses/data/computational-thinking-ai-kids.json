@@ -5,57 +5,18 @@
     "title": "CBSE Computational Thinking & AI for Kids (Class 3-8)",
     "description": "CBSE-aligned Computational Thinking & AI course for kids in Classes 3-8 (ages 8-13): decomposition, algorithms, Scratch, Teachable Machine and 50+ projects.",
     "keywords": [
-      "CBSE computational thinking course for kids",
-      "CBSE AI course for kids",
-      "computational thinking and AI CBSE",
-      "CBSE artificial intelligence class 3",
-      "CBSE artificial intelligence class 4",
-      "CBSE artificial intelligence class 5",
-      "CBSE artificial intelligence class 6",
-      "CBSE artificial intelligence class 7",
-      "CBSE artificial intelligence class 8",
-      "computational thinking for kids India",
-      "AI curriculum CBSE primary",
-      "AI curriculum CBSE middle school",
-      "CBSE AI project cycle",
-      "4Ws problem scoping CBSE",
-      "decomposition pattern recognition abstraction algorithms",
-      "NCERT computational thinking",
-      "CBSE coding and AI curriculum",
-      "CBSE AI class 6 to 8 textbook",
-      "Scratch programming for CBSE kids",
-      "Teachable Machine for kids",
-      "AI for kids India",
-      "kids AI course India",
-      "CBSE AI 417 foundation course",
-      "CBSE AI 843 foundation course",
-      "AI and computational thinking preparation",
-      "AI education for children",
-      "algorithmic thinking for kids",
-      "logical reasoning for kids",
-      "block coding for kids CBSE",
-      "AI ethics for kids",
-      "sustainable development goals AI",
-      "machine learning for kids",
-      "coding and AI CBSE primary classes",
-      "best CBSE AI course online",
-      "AI tutor for kids India",
-      "online AI classes for kids",
-      "live AI classes for kids",
-      "AI summer camp CBSE kids",
-      "CBSE skill subject AI",
-      "AI project CBSE class 6",
-      "AI project CBSE class 7",
-      "AI project CBSE class 8",
-      "CBSE computational thinking syllabus",
-      "NCERT AI handbook kids",
-      "coding with AI for kids India",
-      "CBSE technology curriculum",
-      "future-ready AI skills for kids",
-      "ATL AI module for schools",
-      "Atal Tinkering Lab AI",
-      "AI olympiad preparation kids",
-      "CBSE AI competition kids"
+      "cbse computational thinking course for kids",
+      "ai course for kids cbse",
+      "computational thinking and ai for class 3 to 8",
+      "cbse ai curriculum classes for kids",
+      "coding and ai course for school students",
+      "ai classes for class 6 to 8",
+      "computational thinking course india",
+      "scratch and ai course for kids",
+      "cbse aligned coding classes",
+      "ai foundation course for children",
+      "best ai course for cbse students",
+      "ai and coding classes for class 3 to 5"
     ],
     "category": "CBSE School Curriculum - Computational Thinking & Artificial Intelligence",
     "taxonomy": "ai-ml",
@@ -64,10 +25,10 @@
       "miniBatch": "₹2,999/month",
       "personal": "₹4,999/month"
     },
-    "duration": "9 months (40 weeks, expandable to 12-month mastery track)",
+    "duration": "9-12 months (40-52 weeks)",
     "level": "Absolute Beginner (Class 3-5) to Intermediate AI Project Builder (Class 6-8)",
     "commitment": "5-7 hours/week (2 live classes + self-practice)",
-    "certification": "Certified Young Computational Thinker & AI Innovator (CBSE-aligned)",
+    "certification": "Certificate from Modern Age Coders, awarded on passing the final exam",
     "image_path": "ct-ai-kids.webp",
     "boards_covered": [
       "CBSE Computational Thinking & AI Curriculum",
@@ -82,7 +43,8 @@
       "CBSE Skill Education policy",
       "NEP 2020 - 21st century skills mandate",
       "CBSE AI Integration with other subjects initiative"
-    ]
+    ],
+    "dateModified": "2026-08-23"
   },
   "program_overview": {
     "title": "CBSE Computational Thinking & AI Masterclass for Kids (Classes 3-8)",
@@ -528,7 +490,7 @@
         "practice": "Analyze sentiment of 10 messages daily"
       },
       "week_21": {
-        "title": "AI Ethics, Bias & Responsible AI (CBSE Mandatory Module)",
+        "title": "AI Ethics, Bias & Responsible AI (core CBSE AI themes)",
         "topics": [
           "Why AI ethics matters, CBSE emphasis",
           "What is AI bias? (Famous case studies)",
@@ -699,7 +661,7 @@
       "week_29": {
         "title": "AI for Sustainable Development Goals (SDGs)",
         "topics": [
-          "Overview of 17 UN SDGs (CBSE mandatory)",
+          "Overview of the 17 UN SDGs (a core CBSE AI curriculum theme)",
           "How AI is helping each SDG (case studies)",
           "AI for Clean Water (Goal 6)",
           "AI for Quality Education (Goal 4)",
@@ -732,7 +694,6 @@
           "Publishing APKs and sharing",
           "UI/UX for kids",
           "App store basics (concept only)",
-          "App monetization (for future reference)",
           "Making your app accessible"
         ],
         "projects": [
@@ -880,7 +841,7 @@
           "LinkedIn-shareable digital badge",
           "Next-level course pathway plan"
         ],
-        "assessment": "CERTIFIED YOUNG COMPUTATIONAL THINKER & AI INNOVATOR, Ready for CBSE Class 9 AI (417) and beyond!"
+        "assessment": "FINAL EXAM: capstone demo plus a friendly viva and a mixed quiz drawn from the whole course. Passing earns the certificate; a child who falls short gets focused revision and a free retest"
       }
     }
   },
@@ -1020,8 +981,9 @@
     "small_batches": "Small batches only: group classes are capped at 10 students, with mini-batch (3 to 4 students) and personal 1-on-1 options.",
     "structured_curriculum": "A structured, well-paced curriculum taught step by step, with hands-on practice in every session.",
     "doubt_support": "Doubt support between classes over WhatsApp, so you are never left stuck.",
-    "certificate": "A course-completion certificate you can share.",
-    "free_demo": "A free demo class before you enrol, so you can decide with no pressure."
+    "certificate": "A certificate your child earns by passing the final exam, with a free retest after revision if needed.",
+    "free_demo": "A free demo class before you enrol, so you can decide with no pressure.",
+    "real_assessment": "Mixed-review challenges after every month and a final exam that decides the certificate: real knowledge, real work, real projects."
   },
   "faqs": [
     {
@@ -1050,7 +1012,7 @@
     },
     {
       "question": "What if my child misses a class?",
-      "answer": "All live classes are recorded and available in your student dashboard within 24 hours with high-quality playback, chapter bookmarks, and parallel homework assignments. For important missed sessions, your mentor provides a complimentary 1-on-1 catch-up call. You never fall behind."
+      "answer": "Small batches make catch-up genuinely easy: the teacher recaps the missed concepts in the next session, class notes and the week’s practice set are shared over WhatsApp, and for longer absences we schedule a short free catch-up slot so no child falls behind the batch."
     },
     {
       "question": "Are the projects CBSE-board-exam standard?",
@@ -1066,7 +1028,7 @@
     },
     {
       "question": "Do parents need technical knowledge?",
-      "answer": "Zero technical knowledge needed. We provide parent-friendly weekly progress reports, quarterly AI-for-Parents workshops, and a simple parent dashboard. Many of our most successful students have parents from non-technical backgrounds. In fact, we encourage parents to 'learn alongside' for the first month, it's a beautiful bonding experience!"
+      "answer": "Zero technical knowledge needed. We provide parent-friendly weekly progress reports, quarterly AI-for-Parents workshops and clear written progress notes. Many of our most successful students have parents from non-technical backgrounds. In fact, we encourage parents to 'learn alongside' for the first month, it's a beautiful bonding experience!"
     },
     {
       "question": "How do I know this course is right for my child?",
