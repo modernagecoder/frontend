@@ -2,98 +2,90 @@
   "meta": {
     "slug": "python-complete-masterclass-teens",
     "date": "2025-10-31",
-    "title": "Python Programming for Teens: Zero to Advanced in 2 Years",
-    "description": "A 2-year Python course for teens: go from your first line of code to advanced Python, web development, games, AI/ML, automation and 100+ real-world projects.",
+    "dateModified": "2026-08-23",
+    "title": "Python for Teens: Complete Course from Beginner to Advanced",
+    "description": "Python course for teens aged 13-18. Live online classes, 30+ projects: games, web apps, automation, data and AI. Beginner to advanced in 10-12 months.",
     "keywords": [
-      "python programming",
-      "python for teens",
-      "complete python",
-      "web development",
-      "game development",
-      "data science",
-      "automation",
-      "django",
-      "flask",
-      "machine learning",
-      "pygame",
-      "web scraping",
-      "API development",
-      "cybersecurity",
-      "GUI programming",
-      "mobile apps with python"
+      "python course for teens",
+      "python for teenagers",
+      "learn python for teens online",
+      "python classes for teens",
+      "python programming for high school students",
+      "python course for beginners age 13 to 18",
+      "online python coding classes for teens india",
+      "python game development for teens",
+      "python web development course for teens",
+      "python ai projects for teens",
+      "best python course for teenagers",
+      "live python classes for teens"
     ],
-    "category": "Complete Python Programming",
+    "category": "Python Programming",
     "taxonomy": "programming",
     "price": {
       "group": "₹1,499/month",
       "miniBatch": "₹2,999/month",
       "personal": "₹4,999/month"
     },
-    "duration": "24 months (104 weeks)",
-    "level": "Absolute Beginner to Python Expert",
-    "commitment": "12-15 hours/week recommended",
-    "certification": "Python Expert Certification with 100+ Project Portfolio",
+    "duration": "10-12 months (40-48 weeks)",
+    "level": "Absolute beginner, ages 13 to 18",
+    "commitment": "2 live classes/week + 3-4 hours practice",
+    "certification": "Certificate from Modern Age Coders, awarded on passing the final exam",
     "image_path": "python-teens.webp"
   },
   "program_overview": {
-    "title": "Ultimate Python Programming Masterclass for Teens",
-    "tagline": "From 'Hello World' to Building Instagram Clones, AI Bots, Games, and Your Own Python Framework",
-    "description": "This isn't just another Python course, it's a complete transformation into a Python wizard. Over 2 years, you'll master every aspect of Python, from basic syntax to advanced frameworks, from simple scripts to complex applications. Build games like Minecraft clones, create social media platforms, develop AI chatbots, automate everything in your life, hack (ethically!), create mobile apps, and even contribute to Python itself.\n\nDesigned specifically for teenage minds with projects you'll love: Discord bots, Instagram automation, game cheats (for your own games!), homework helpers, music players, and even your own programming language. By graduation, you'll have built 100+ projects and be ready for any Python challenge.",
+    "title": "Python for Teens: Beginner to Advanced",
+    "tagline": "One language carries a teenager from a first print statement to games, web apps, automation and AI projects. This is that road, walked properly in 10 months.",
+    "description": "Python is the language teenagers can grow with: simple enough that a working program exists by the end of class one, serious enough that it runs Instagram’s backend and most of modern AI. This live online course takes students aged 13 to 18 from zero to genuinely advanced, with every concept practiced through projects a teen actually wants to build and keep.\n\nThe first three months build real foundations: variables to functions, the core data structures, files and JSON, algorithms, and object-oriented programming taught with patience instead of jargon. The middle months turn skill into products: 2D games with Pygame that get shared online, desktop apps, automation scripts that do real chores, web scraping done politely, and a first taste of data analysis with pandas. The final months put Python on the web with Flask, databases, user accounts and a real deployment, then finish with machine learning fundamentals, AI-powered features built on modern AI APIs, and a capstone shipped like a real product.\n\nThe pace is honest: two live classes a week plus three to four hours of practice, and the syllabus fits ten months of that rhythm. Students who need longer take up to twelve months, the class adapts instead of rushing ahead. Learning is checked the honest way too: homework after every class, monthly assignments that mix new questions with earlier topics, and a final exam that decides the certificate. Real knowledge, real work, real projects, depth over dopamine. By the end, a student owns a portfolio of 30+ projects, a web app on a public URL, and the kind of understanding that makes the next step, whether AI, data science or competitive programming, feel natural.",
     "what_makes_this_different": [
-      "Teen-focused projects: Games, social media, automation teens actually want",
-      "Visual learning with animations and interactive coding",
-      "Build clones of apps teens use daily",
-      "From zero to professional in structured path",
-      "Cover EVERY major Python library and framework",
-      "Real hacking and security (ethical only!)",
-      "Create your own Python packages",
-      "Job-ready skills with internship preparation"
+      "Projects teens choose to keep: games, bots, automations and apps they actually use, not textbook exercises",
+      "An honest 10-month arc with 2 months of margin built in: students who need more practice time take up to 12, nobody is rushed",
+      "Modern Python throughout: the latest Python 3, VS Code, pytest, pandas and real AI APIs, the same tools working developers use",
+      "Every submitted project comes back with written feedback, and recurring gaps are reopened in class instead of left behind",
+      "A deployed capstone: the course ends with an app on the public internet, not screenshots on a laptop",
+      "Small live batches capped at 10 students, with mini-batch and 1-on-1 options for closer attention",
+      "Real assessment: weekly homework, mixed-review assignments every month, and a final exam that decides the certificate, with focused revision and a free retest for students who fall short"
     ],
     "learning_path": {
-      "phase_1": "Foundation (Months 1-6): Python basics, OOP, data structures, algorithms",
-      "phase_2": "Web & Apps (Months 7-12): Django, Flask, APIs, databases, full-stack",
-      "phase_3": "Specializations (Months 13-18): Games, ML/AI, automation, data science",
-      "phase_4": "Advanced (Months 19-24): Systems, security, mobile, contributing to Python"
+      "phase_1": "Foundations and OOP (Months 1-3): from first program to data structures, algorithms and classes, practiced through weekly builds",
+      "phase_2": "Games, apps and automation (Months 4-6): Pygame games, desktop tools, scrapers, and a first taste of data analysis with pandas",
+      "phase_3": "Python on the web (Months 7-8): Flask, SQL databases, user accounts, and a real deployment to a public URL",
+      "phase_4": "AI and the capstone (Months 9-10): machine learning fundamentals, AI-powered features, Git, testing, and a shipped final project"
     },
     "career_outcomes": [
-      "Junior Python Developer (after 6 months)",
-      "Full-Stack Python Developer (after 12 months)",
-      "Python Specialist (after 18 months)",
-      "Senior Python Developer ready (after 24 months)"
+      "A portfolio of 30+ real projects, from finished games to a deployed full-stack web app",
+      "Foundations strong enough for our AI and machine learning masterclass, data exam tracks, or data structures and algorithms",
+      "The ability to automate real tasks and build tools that friends and family actually use",
+      "Working fluency with the professional toolkit: Git and GitHub, pytest, debugging and code review"
     ]
   },
-  "phase_1_foundation": {
-    "title": "PHASE 1: Python Foundations & Programming Logic (Months 1-6, Weeks 1-26)",
-    "description": "Master Python fundamentals, programming logic, data structures, algorithms, and object-oriented programming.",
-    "month_1_2": {
-      "title": "Months 1-2: Python Basics & Programming Fundamentals",
-      "weeks": "Week 1-8",
-      "week_1_2": {
-        "title": "Introduction to Python & Setup",
+  "phase_1_python_foundations": {
+    "title": "PHASE 1: Python Foundations and OOP (Months 1-3, Weeks 1-12)",
+    "description": "From the first line of code to data structures, algorithms and object-oriented programming. Every week ends with something built.",
+    "month_1_first_programs": {
+      "title": "Month 1: First Programs",
+      "weeks": "Weeks 1-4",
+      "week_1": {
+        "title": "Introduction and Setup",
         "topics": [
           "Why Python? The language that runs Instagram, YouTube, and NASA",
-          "Installing Python 3.12+ and understanding versions",
+          "Installing the latest Python 3 and understanding versions",
           "VS Code setup with Python extensions",
-          "PyCharm IDE for professional development",
-          "Terminal/Command line mastery",
+          "Terminal basics: running programs like a developer",
           "Understanding Python's philosophy: The Zen of Python",
           "Variables and memory: How Python stores data",
           "Data types deep dive: int, float, str, bool, None",
-          "Type hints and why they matter",
           "Input/Output: Building interactive programs",
-          "Comments and documentation: Writing readable code",
-          "Python's hidden superpowers: What makes it special"
+          "Comments and documentation: Writing readable code"
         ],
         "projects": [
-          "Personal assistant chatbot",
+          "A personal greeting bot that asks questions and answers back",
           "Calculator with memory",
-          "Mad libs story generator",
-          "Temperature converter with GUI preview"
+          "Mad libs story generator"
         ],
-        "practice": "Daily coding challenges, 20 mini-programs"
+        "practice": "Short daily challenges: 15 mini-programs in the first week"
       },
-      "week_3_4": {
-        "title": "Control Flow & Logic",
+      "week_2": {
+        "title": "Control Flow and Logic",
         "topics": [
           "If-elif-else: Teaching computers to make decisions",
           "Boolean logic: and, or, not, and De Morgan's laws",
@@ -102,22 +94,17 @@
           "Ternary operators for elegant code",
           "Truthy and falsy values in Python",
           "Short-circuit evaluation",
-          "Exception handling basics: try, except, finally",
-          "Custom exceptions for better errors",
-          "Assertions for debugging",
-          "The walrus operator := for elegant conditions",
-          "Control flow visualization tools"
+          "Exception handling basics: try, except, finally"
         ],
         "projects": [
           "Rock-Paper-Scissors-Lizard-Spock game",
           "Password strength analyzer with rules",
-          "Quiz game with scoring system",
-          "Decision tree adventure game"
+          "Choose-your-own-adventure text game"
         ],
-        "practice": "30 logic puzzles, build 10 decision-based programs"
+        "practice": "20 logic puzzles, build 5 decision-based programs"
       },
-      "week_5_6": {
-        "title": "Loops & Iterations",
+      "week_3": {
+        "title": "Loops and Iteration",
         "topics": [
           "For loops: Automating repetitive tasks",
           "While loops: Conditional repetition",
@@ -128,8 +115,6 @@
           "Zip() for parallel iteration",
           "List comprehensions: Python's superpower",
           "Generator expressions for memory efficiency",
-          "Itertools module: Advanced iteration patterns",
-          "Creating custom iterators",
           "Performance: When to use which loop"
         ],
         "projects": [
@@ -138,10 +123,10 @@
           "Multiplication table game",
           "Progress bar implementation"
         ],
-        "practice": "50 loop challenges, optimize 10 programs"
+        "practice": "25 loop challenges, then rebuild 3 earlier programs with less code"
       },
-      "week_7_8": {
-        "title": "Functions & Functional Programming",
+      "week_4": {
+        "title": "Functions",
         "topics": [
           "Functions: Building blocks of programs",
           "Parameters vs arguments: The complete guide",
@@ -150,39 +135,36 @@
           "*args and **kwargs: Flexible functions",
           "Scope and LEGB rule",
           "Closures and their power",
-          "Decorators: Modifying function behavior",
           "Lambda functions and when to use them",
-          "Map, filter, reduce: Functional programming trio",
-          "Partial functions and currying",
-          "Function annotations and type hints"
+          "Function annotations and type hints",
+          "Docstrings: writing functions someone else can use",
+          "Breaking a big program into small functions"
         ],
         "projects": [
-          "Homework helper library",
-          "Unit converter with 50+ conversions",
-          "Function benchmark tool",
-          "Decorator collection for common tasks"
+          "Homework helper library of reusable functions",
+          "Unit converter covering 20+ conversions",
+          "Menu-driven mini app assembled from functions"
         ],
-        "practice": "Build 40 reusable functions, master 10 decorators"
+        "practice": "Build a personal library of 15 reusable functions",
+        "assessment": "Month 1 check: build a small menu-driven program live using input, conditionals, loops and functions, then a take-home assignment mixing everything from month 1"
       }
     },
-    "month_3_4": {
-      "title": "Months 3-4: Data Structures & Collections",
-      "weeks": "Week 9-17",
-      "week_9_10": {
-        "title": "Lists & Tuples Mastery",
+    "month_2_data_structures": {
+      "title": "Month 2: The Data Structures Every Program Uses",
+      "weeks": "Weeks 5-8",
+      "week_5": {
+        "title": "Lists and Tuples",
         "topics": [
           "Lists: Python's Swiss Army knife",
-          "List methods: All 11 methods explained",
+          "List methods: the ones you will actually use, and how to look up the rest",
           "Slicing notation mastery [start:stop:step]",
           "List comprehensions with conditions",
           "Nested list comprehensions",
-          "2D and 3D lists (matrices)",
           "Tuples: Immutable sequences",
           "Named tuples for readable code",
           "List vs Tuple: Performance and use cases",
           "Unpacking and starred expressions",
-          "Deep vs shallow copy issues",
-          "Memory optimization techniques"
+          "Deep vs shallow copy issues"
         ],
         "projects": [
           "Spotify playlist manager",
@@ -190,17 +172,16 @@
           "Matrix calculator",
           "Todo list with priorities"
         ],
-        "practice": "100 list/tuple problems, build 5 data managers"
+        "practice": "40 list and tuple drills, build 3 small data managers"
       },
-      "week_11_12": {
-        "title": "Dictionaries & Sets",
+      "week_6": {
+        "title": "Dictionaries and Sets",
         "topics": [
           "Dictionaries: Key-value mastery",
           "Dictionary methods and operations",
           "Dictionary comprehensions",
           "Nested dictionaries and JSON",
           "OrderedDict, defaultdict, Counter",
-          "ChainMap for multiple dictionaries",
           "Sets: Unique collections",
           "Set operations: union, intersection, difference",
           "Frozen sets for immutable sets",
@@ -214,23 +195,20 @@
           "Inventory system for game",
           "Social network graph analyzer"
         ],
-        "practice": "75 dict/set challenges, optimize 10 programs"
+        "practice": "30 dictionary and set challenges, refactor 2 earlier projects to use them"
       },
-      "week_13_14": {
-        "title": "Strings & Text Processing",
+      "week_7": {
+        "title": "Strings and Text",
         "topics": [
           "Strings: More than just text",
-          "String methods: All 47 methods",
+          "String methods: the toolkit you will actually reach for",
           "F-strings: Modern string formatting",
           "Regular expressions with re module",
           "Unicode and encoding: UTF-8, ASCII",
-          "String performance and internment",
           "Text processing techniques",
           "String algorithms: searching, matching",
           "Template strings for safe substitution",
-          "Textwrap for formatting",
-          "Difflib for comparing texts",
-          "Natural language basics"
+          "Textwrap for formatting"
         ],
         "projects": [
           "Wordle game clone",
@@ -238,47 +216,66 @@
           "Markdown to HTML converter",
           "Plagiarism checker"
         ],
-        "practice": "60 string problems, build 5 text processors"
+        "practice": "30 string problems, build 3 text tools"
       },
-      "week_15_16": {
-        "title": "Advanced Data Structures",
+      "week_8": {
+        "title": "Files, JSON and Errors",
+        "topics": [
+          "Reading and writing text files: programs that remember",
+          "The with statement, and why it protects your files",
+          "Working with paths using pathlib",
+          "CSV files: reading and writing spreadsheet-style data",
+          "JSON: saving structured data the way real apps do",
+          "Exceptions in practice: try, except, else, finally",
+          "Raising your own errors with clear messages",
+          "Designing a save-and-load feature for any program",
+          "Where real programs keep their data"
+        ],
+        "projects": [
+          "Journal app that saves entries between runs",
+          "Quiz game with its question bank stored in JSON",
+          "Expense tracker that writes and reads CSV"
+        ],
+        "practice": "Add save and load to three of your earlier projects",
+        "assessment": "Month 2 check: build a small app that loads data, changes it and saves it back, live, with quiz questions that reach back to month 1"
+      }
+    },
+    "month_3_algorithms_objects": {
+      "title": "Month 3: Algorithms and Objects",
+      "weeks": "Weeks 9-12",
+      "week_9": {
+        "title": "Power Collections",
         "topics": [
           "Collections module deep dive",
           "Deque: Double-ended queue",
           "Heapq: Priority queues in Python",
           "Bisect: Maintaining sorted lists",
-          "Array module for efficient storage",
           "Dataclasses for structured data",
           "Enum for constants",
           "Queue and stack implementations",
           "Linked lists in Python",
-          "Trees and graphs basics",
-          "Custom data structure creation",
-          "Performance profiling with cProfile"
+          "Trees and graphs: the intuition, drawn before coded"
         ],
         "projects": [
           "LRU cache implementation",
           "Task scheduler with priorities",
-          "File system simulator",
-          "Huffman encoding compressor"
+          "Undo-redo system using stacks"
         ],
-        "practice": "Implement 10 data structures from scratch"
+        "practice": "Implement a stack, a queue and a linked list from scratch"
       },
-      "week_17": {
-        "title": "Algorithms & Problem Solving",
+      "week_10": {
+        "title": "Algorithms and Problem Solving",
         "topics": [
           "Algorithm complexity and Big O",
           "Searching algorithms: Binary, jump, interpolation",
           "Sorting algorithms: Quick, merge, heap, radix",
           "Recursion and memoization",
-          "Dynamic programming basics",
           "Greedy algorithms",
-          "Graph algorithms: BFS, DFS, Dijkstra",
-          "Backtracking problems",
           "Algorithm visualization",
           "Problem-solving strategies",
-          "Competitive programming intro",
-          "LeetCode and HackerRank strategies"
+          "A taste of competitive programming, and where our DSA course goes deeper",
+          "Practicing on HackerRank and LeetCode without drowning",
+          "Breadth-first and depth-first search, on a maze you can see"
         ],
         "projects": [
           "Sorting visualizer with Pygame",
@@ -286,14 +283,10 @@
           "Sudoku solver with GUI",
           "Algorithm complexity analyzer"
         ],
-        "practice": "Solve 50 algorithm problems, implement 15 algorithms"
-      }
-    },
-    "month_5_6": {
-      "title": "Months 5-6: Object-Oriented Programming & Design Patterns",
-      "weeks": "Week 18-26",
-      "week_18_19": {
-        "title": "OOP Fundamentals",
+        "practice": "Solve 25 algorithm problems, implement 8 classic algorithms"
+      },
+      "week_11": {
+        "title": "Object-Oriented Programming",
         "topics": [
           "Classes and objects: Building blueprints",
           "Attributes and methods",
@@ -304,7 +297,6 @@
           "Method types: instance, class, static",
           "__str__ and __repr__ for object representation",
           "Encapsulation and information hiding",
-          "Name mangling with double underscore",
           "Documentation with docstrings",
           "Type hints in classes"
         ],
@@ -314,10 +306,10 @@
           "School management system",
           "E-commerce cart system"
         ],
-        "practice": "Create 20 classes, build 5 OOP projects"
+        "practice": "Design and build 8 classes for things you know: players, playlists, pets, plans"
       },
-      "week_20_21": {
-        "title": "Inheritance & Polymorphism",
+      "week_12": {
+        "title": "Inheritance and Polymorphism",
         "topics": [
           "Inheritance: Building class hierarchies",
           "super() and method resolution order (MRO)",
@@ -326,1060 +318,436 @@
           "Polymorphism and duck typing",
           "Method overriding and extending",
           "Composition vs inheritance",
-          "Interface design in Python",
-          "SOLID principles in Python",
-          "Dependency injection",
-          "The Diamond Problem",
-          "Metaclasses introduction"
+          "Interface design in Python"
         ],
         "projects": [
-          "Game entity system",
-          "Shape hierarchy with graphics",
-          "Plugin architecture system",
-          "Employee management hierarchy"
+          "Game entity system with players, enemies and items",
+          "Shape hierarchy that draws itself",
+          "School management system with people who share behavior"
         ],
-        "practice": "Design 10 inheritance hierarchies"
-      },
-      "week_22_23": {
-        "title": "Magic Methods & Protocols",
+        "practice": "Design 5 class hierarchies, defend each design choice in one sentence",
+        "assessment": "Phase 1 exam: build a small OOP system live and explain the design decisions"
+      }
+    }
+  },
+  "phase_2_games_apps_automation": {
+    "title": "PHASE 2: Games, Apps and Automation (Months 4-6, Weeks 13-24)",
+    "description": "Skills become products: real Pygame games shared online, desktop apps, automation that does actual chores, and a first honest look at data.",
+    "month_4_game_building": {
+      "title": "Month 4: Build Real Games",
+      "weeks": "Weeks 13-16",
+      "week_13": {
+        "title": "Pythonic Objects",
         "topics": [
           "Magic methods (dunder methods) complete guide",
           "Operator overloading with magic methods",
-          "__new__ vs __init__",
           "Container protocols: __len__, __getitem__, __setitem__",
           "Iterator protocol: __iter__, __next__",
           "Context managers: __enter__, __exit__",
           "Arithmetic magic methods",
           "Comparison magic methods",
           "Callable objects with __call__",
-          "Descriptors and their use",
-          "Copy protocol: __copy__, __deepcopy__",
-          "Pickling and serialization"
+          "Properties for safe attributes",
+          "Building a class other code enjoys using"
         ],
         "projects": [
-          "Custom list implementation",
-          "Matrix class with operations",
-          "Database connection manager",
-          "Smart dictionary with validation"
+          "Vector class with real operator overloading",
+          "Deck-of-cards class ready for any card game",
+          "Smart inventory that validates what goes in"
         ],
-        "practice": "Implement 30 magic methods, create 5 protocols"
+        "practice": "Give three earlier classes proper __str__, __repr__ and comparison behavior"
       },
-      "week_24_25": {
-        "title": "Design Patterns",
+      "week_14": {
+        "title": "Pygame: The Game Loop",
         "topics": [
-          "Design patterns: Proven solutions",
-          "Creational patterns: Singleton, Factory, Builder",
-          "Structural patterns: Adapter, Decorator, Facade",
-          "Behavioral patterns: Observer, Strategy, Command",
-          "MVC architecture in Python",
-          "Repository pattern for data access",
-          "Dependency injection containers",
-          "Event-driven architecture",
-          "Publish-subscribe pattern",
-          "Chain of responsibility",
-          "Python-specific patterns",
-          "Anti-patterns to avoid"
+          "How every game works: the loop, events, update, draw",
+          "Setting up Pygame and the game window",
+          "Drawing shapes, images and sprites",
+          "Keyboard and mouse input that feels responsive",
+          "Movement, velocity and frame rate",
+          "Collision detection: rectangles first",
+          "Sprite groups for clean game code",
+          "Keeping score and rendering text",
+          "Structuring a game file a friend could read"
         ],
         "projects": [
-          "Game engine with patterns",
-          "Event system implementation",
-          "Plugin-based text editor",
-          "Design pattern library"
+          "Pong from scratch",
+          "Dodge-the-asteroids arcade game",
+          "Collect-the-coins game with a timer"
         ],
-        "practice": "Implement 15 design patterns"
+        "practice": "Build one tiny game variant on your own between classes"
       },
-      "week_26": {
-        "title": "Phase 1 Capstone Project",
+      "week_15": {
+        "title": "Pygame: Juice and Polish",
         "topics": [
-          "Project architecture planning",
-          "Requirements gathering",
-          "UML diagrams for Python",
-          "Test-driven development intro",
-          "Documentation standards",
-          "Code review preparation"
+          "Sprite sheets and animation",
+          "Simple physics: gravity, jumping, bouncing",
+          "Sound effects and music",
+          "Game states: menu, playing, game over",
+          "Particle effects with restraint",
+          "Scrolling levels and a simple camera",
+          "Saving high scores to a file (month 2 pays off)",
+          "Difficulty curves: making a game fair but tense",
+          "Playtesting: watching someone else play your game"
         ],
         "projects": [
-          "CAPSTONE: Social Media Platform Core",
-          "User system, posts, comments, likes",
-          "Full OOP implementation",
-          "Design patterns applied",
-          "Alternative: Game engine from scratch",
-          "Alternative: Database engine in Python"
+          "Platformer with gravity, jumps and levels",
+          "Space shooter with waves, sounds and a menu"
         ],
-        "assessment": "Phase 1 comprehensive exam + project defense"
+        "practice": "Add sound, a menu and a high-score table to your month 4 games"
+      },
+      "week_16": {
+        "title": "Game AI and Shipping Your Game",
+        "topics": [
+          "AI for enemies: state machines that chase, patrol and flee",
+          "Pathfinding on a grid: BFS first, then a look at A*",
+          "Min-max for turn games: an unbeatable tic-tac-toe",
+          "Procedural content generation",
+          "Packaging a game so someone else can run it",
+          "Publishing on itch.io and writing the game page"
+        ],
+        "projects": [
+          "Tic-tac-toe with an unbeatable AI opponent",
+          "Enemy AI pack for your platformer: patrol, chase, flee",
+          "Your best game published on itch.io"
+        ],
+        "practice": "Ship it: publish one finished game and send the link to three people",
+        "assessment": "Game demo: present a finished, published game and explain one system inside it, plus a mixed-review assignment covering months 1-4"
+      }
+    },
+    "month_5_useful_programs": {
+      "title": "Month 5: Programs That Do Your Chores",
+      "weeks": "Weeks 17-20",
+      "week_17": {
+        "title": "Desktop Apps with Tkinter",
+        "topics": [
+          "Tkinter: windows, widgets and layouts",
+          "CustomTkinter for apps that look like this decade",
+          "GUI design principles",
+          "Event-driven programming",
+          "Packaging desktop apps",
+          "Connecting buttons to your own functions",
+          "Saving app data with JSON (your month 2 skills)",
+          "Packaging a desktop app with PyInstaller"
+        ],
+        "projects": [
+          "Pomodoro study timer",
+          "Flashcards app for any school subject",
+          "Notes app with save and search"
+        ],
+        "practice": "Design and build one desktop tool you will personally use this term"
+      },
+      "week_18": {
+        "title": "Automation: Files, Sheets and Documents",
+        "topics": [
+          "The automation mindset: never do a boring task three times",
+          "Organizing folders and files with pathlib and shutil",
+          "Renaming, sorting and de-duplicating hundreds of files safely",
+          "Excel automation with openpyxl",
+          "Reading and creating PDFs with pypdf",
+          "Resizing and watermarking images with Pillow",
+          "Sending yourself email reports from Python",
+          "Scheduling scripts to run on their own",
+          "Dry runs and undo plans: automating without disasters"
+        ],
+        "projects": [
+          "Downloads-folder organizer that runs on a schedule",
+          "School timetable to calendar converter",
+          "Photo batch resizer and watermarker"
+        ],
+        "practice": "Automate 5 real chores from your own computer"
+      },
+      "week_19": {
+        "title": "Web Scraping, Politely",
+        "topics": [
+          "How web pages are structured: HTML through a scraper’s eyes",
+          "Downloading pages with requests",
+          "Parsing with BeautifulSoup: find, select, extract",
+          "Scraping tables and lists into CSV",
+          "Being polite: robots.txt, delays and identifying yourself",
+          "When scraping is the wrong tool: finding the site’s API instead",
+          "Handling pages that change or break",
+          "A look at Playwright for JavaScript-heavy pages",
+          "Legal and ethical lines, in plain language"
+        ],
+        "projects": [
+          "Book or game price tracker with history",
+          "Sports statistics collector into CSV",
+          "News headline digest that emails itself to you"
+        ],
+        "practice": "Build one scraper for a site you actually check every week"
+      },
+      "week_20": {
+        "title": "Automation Capstone",
+        "topics": [
+          "Choosing an automation worth building: your most boring hour",
+          "Breaking a chore into steps a script can do",
+          "Combining skills: files, scraping, email, scheduling",
+          "Logging: knowing what your script did while you slept",
+          "Handling failure gracefully instead of silently",
+          "Writing a README so future-you can maintain it",
+          "Presenting an automation: before, after, time saved"
+        ],
+        "projects": [
+          "The personal automation suite: one real multi-step chore, fully automated, scheduled and logged"
+        ],
+        "practice": "Run your automation for a full week and fix what reality breaks",
+        "assessment": "Automation review: demonstrate the suite running end to end and walk through the code, alongside a quiz that revisits earlier months"
+      }
+    },
+    "month_6_data_stories": {
+      "title": "Month 6: Data Tells Stories",
+      "weeks": "Weeks 21-24",
+      "week_21": {
+        "title": "NumPy and pandas Foundations",
+        "topics": [
+          "NumPy arrays: why they beat lists for numbers",
+          "pandas DataFrames: loading, filtering, sorting, grouping",
+          "Data cleaning and preprocessing",
+          "Exploratory data analysis (EDA)",
+          "Dealing with missing data",
+          "Outlier detection",
+          "Reading CSVs from the real world, mess included",
+          "Asking a dataset questions and trusting the answers"
+        ],
+        "projects": [
+          "Class marks analyzer with honest averages",
+          "Personal screen-time or sports data breakdown",
+          "Music streaming history explorer"
+        ],
+        "practice": "Explore 3 real datasets and write down 5 true findings from each"
+      },
+      "week_22": {
+        "title": "Data Visualization",
+        "topics": [
+          "Matplotlib: the chart types that cover 90% of real needs",
+          "Seaborn for statistical plots",
+          "Plotly for interactive visualizations",
+          "Animation creation",
+          "Design for honesty: labels, scales and not misleading people",
+          "Plotly for charts you can hover and zoom"
+        ],
+        "projects": [
+          "A visual report on a dataset you care about",
+          "Interactive chart set built with Plotly"
+        ],
+        "practice": "Make 10 charts, then rework the 3 weakest until they explain themselves"
+      },
+      "week_23": {
+        "title": "A Real Data Project",
+        "topics": [
+          "Choosing a dataset and a question worth asking",
+          "Cleaning: missing values, weird rows, wrong types",
+          "Exploratory analysis: distributions, groups, trends",
+          "Correlation and the classic causation trap",
+          "Building the story: from table to chart to sentence",
+          "What data cannot tell you, said out loud",
+          "Packaging analysis in a clean, rerunnable script"
+        ],
+        "projects": [
+          "Full analysis of a real public dataset: cleaned, explored, visualized and written up"
+        ],
+        "practice": "Trade datasets with a classmate and check each other’s conclusions"
+      },
+      "week_24": {
+        "title": "Phase 2 Capstone and Review",
+        "topics": [
+          "Portfolio thinking: choosing your best work so far",
+          "Refactoring old code with new skills",
+          "Code review: reading each other’s projects kindly and usefully",
+          "Filling gaps: a targeted review week shaped by the batch",
+          "Writing project descriptions people understand",
+          "Planning phase 3: what the web changes"
+        ],
+        "projects": [
+          "Polish pass on your two best phase 2 projects, README included"
+        ],
+        "practice": "Publish your top 3 projects in a personal portfolio folder",
+        "assessment": "Phase 2 review: portfolio walkthrough of the term’s builds, plus a written mixed review spanning phases 1 and 2"
       }
     }
   },
-  "phase_2_frontend_mastery": {
-    "title": "PHASE 2: Web Development & Full-Stack Python (Months 7-12, Weeks 27-52)",
-    "description": "Master web development with Django and Flask, build APIs, work with databases, and create full-stack applications.",
-    "month_7_8": {
-      "title": "Months 7-8: Web Fundamentals & Flask",
-      "weeks": "Week 27-35",
-      "week_27_28": {
-        "title": "Web Development Basics",
+  "phase_3_python_on_the_web": {
+    "title": "PHASE 3: Python on the Web (Months 7-8, Weeks 25-32)",
+    "description": "How the web really works, then Flask: routes, templates, forms, a database, user accounts, and a deployment to a public URL.",
+    "month_7_requests_to_flask": {
+      "title": "Month 7: From Requests to Flask",
+      "weeks": "Weeks 25-28",
+      "week_25": {
+        "title": "How the Web Works",
         "topics": [
-          "How the web works: HTTP, DNS, browsers",
-          "HTML5 and CSS3 crash course",
-          "JavaScript essentials for Python developers",
-          "REST API principles and design",
-          "JSON and data serialization",
-          "Web security basics: XSS, CSRF, SQL injection",
-          "Virtual environments with venv",
-          "Package management with pip and poetry",
-          "Environment variables and .env files",
-          "Git and GitHub for web projects",
-          "Deployment concepts",
-          "Web development tools and browser DevTools"
+          "What happens when you visit a URL: DNS, HTTP, servers, browsers",
+          "HTTP methods and status codes developers actually meet",
+          "HTML and CSS: a working crash course for Python developers",
+          "What JSON is doing in every modern app",
+          "APIs: how programs talk to other programs",
+          "Reading API documentation without fear",
+          "The client-server picture, drawn until it sticks",
+          "Developer tools: watching real traffic in the network tab"
         ],
         "projects": [
-          "Personal portfolio website",
-          "API client for public APIs",
-          "Web scraper for favorite site",
-          "Static site generator"
+          "A hand-built personal page in HTML and CSS",
+          "HTTP explorer: a script that inspects any site’s responses"
         ],
-        "practice": "Build 10 web pages, consume 5 APIs"
+        "practice": "Map the requests behind 3 sites you use daily"
       },
-      "week_29_30": {
-        "title": "Flask Framework Mastery",
+      "week_26": {
+        "title": "Consuming APIs",
         "topics": [
-          "Flask introduction: Micro but powerful",
+          "Calling real APIs with requests",
+          "API keys, and keeping them out of your code with .env files",
+          "Parsing JSON responses into useful Python objects",
+          "Handling errors, timeouts and rate limits like a professional",
+          "Pagination: getting all the data, not just page one",
+          "Building a small client library around an API",
+          "Command-line tools people can actually use",
+          "Free public APIs worth building on"
+        ],
+        "projects": [
+          "Weather dashboard in the terminal",
+          "Currency converter with live rates",
+          "Trivia game powered by a public API"
+        ],
+        "practice": "Build clients for 3 different public APIs"
+      },
+      "week_27": {
+        "title": "Flask: Your First Web App",
+        "topics": [
+          "Flask: a real web server in seven lines",
           "Routes and view functions",
           "Templates with Jinja2",
           "Static files handling",
           "Request and response objects",
-          "Forms with Flask-WTF",
-          "Database with Flask-SQLAlchemy",
-          "User authentication with Flask-Login",
-          "Sessions and cookies",
-          "Blueprints for large applications",
-          "Flask extensions ecosystem",
-          "RESTful API with Flask-RESTful"
+          "Debug mode and reading Flask errors calmly",
+          "Passing data from Python into pages"
         ],
         "projects": [
-          "Blog platform with Flask",
-          "URL shortener service",
-          "Todo API with authentication",
-          "Real-time chat with Flask-SocketIO"
+          "Personal site served by Flask",
+          "Dice-roller and random-picker web tools",
+          "Quote-of-the-day site with rotating content"
         ],
-        "practice": "Build 5 Flask applications"
+        "practice": "Build 3 tiny Flask apps from scratch without notes"
       },
-      "week_31_32": {
-        "title": "Database Programming",
+      "week_28": {
+        "title": "Templates, Forms and Sessions",
         "topics": [
-          "SQL fundamentals and advanced queries",
+          "Jinja templates: loops and conditionals inside HTML",
+          "Template inheritance: one layout, many pages",
+          "Forms: getting data from the visitor safely",
+          "Validating input, and never trusting the browser",
+          "Redirects and flash messages",
+          "Sessions and cookies: remembering visitors",
+          "Organizing a Flask project as it grows",
+          "Styling with a lightweight CSS framework"
+        ],
+        "projects": [
+          "Multi-page site with one shared layout",
+          "Feedback form that validates and thanks properly",
+          "Mini poll app that remembers your vote"
+        ],
+        "practice": "Convert two phase 2 tools into small web apps",
+        "assessment": "Month 7 check: build and explain a small Flask feature live, plus a mixed quiz reaching back to earlier phases"
+      }
+    },
+    "month_8_database_users_deploy": {
+      "title": "Month 8: Databases, Users and Deployment",
+      "weeks": "Weeks 29-32",
+      "week_29": {
+        "title": "Databases with SQLite and SQLAlchemy",
+        "topics": [
+          "SQL fundamentals: select, insert, update, delete, join",
           "SQLite for development",
-          "PostgreSQL for production",
-          "SQLAlchemy ORM deep dive",
-          "Database migrations with Alembic",
+          "SQLAlchemy models: tables as Python classes",
           "Query optimization and indexing",
-          "NoSQL with MongoDB and PyMongo",
-          "Redis for caching and sessions",
-          "Database connection pooling",
           "Transactions and ACID properties",
-          "Database security best practices",
-          "Backup and recovery strategies"
+          "Designing tables for a real app before coding it",
+          "When a spreadsheet stops being enough"
         ],
         "projects": [
-          "Multi-user blog with comments",
-          "E-commerce database design",
-          "Analytics dashboard",
-          "Database migration tool"
+          "Book or game library app backed by SQLite",
+          "Class notice board with posts stored properly"
         ],
-        "practice": "Design 10 database schemas, optimize 20 queries"
+        "practice": "Design and build 3 small database schemas"
       },
-      "week_33_34": {
-        "title": "API Development",
+      "week_30": {
+        "title": "User Accounts and Web Safety",
         "topics": [
-          "RESTful API design principles",
-          "FastAPI: Modern API framework",
-          "API versioning strategies",
-          "Authentication: JWT, OAuth2, API keys",
-          "Rate limiting and throttling",
-          "API documentation with Swagger/OpenAPI",
-          "GraphQL with Graphene",
-          "WebSockets for real-time communication",
-          "API testing with Postman and pytest",
-          "Error handling and status codes",
-          "CORS and security headers",
-          "API deployment and monitoring"
+          "Sign up and log in with Flask-Login",
+          "Password hashing: why plain text is never stored, ever",
+          "Protecting pages: login required",
+          "Each user sees their own data: ownership in queries",
+          "Web security awareness: SQL injection and XSS, shown safely",
+          "CSRF protection with Flask-WTF",
+          "Secrets and settings kept in environment variables",
+          "A security checklist for every app you ship"
         ],
         "projects": [
-          "Social media API clone",
-          "Payment processing API",
-          "Real-time notification system",
-          "GraphQL API for blog"
+          "To-do app with real accounts, where every user has their own list"
         ],
-        "practice": "Build 8 different APIs"
+        "practice": "Add accounts to your week 29 app, then try to break your own login"
       },
-      "week_35": {
-        "title": "Frontend Integration",
+      "week_31": {
+        "title": "Deploying to the Real Internet",
         "topics": [
-          "AJAX and fetch API",
-          "Building SPAs with Python backend",
-          "Vue.js or React with Python",
-          "WebSockets for real-time features",
-          "Server-sent events (SSE)",
-          "File uploads and processing",
-          "Image manipulation with Pillow",
-          "PDF generation and processing",
-          "Email sending with Python",
-          "Task queues with Celery",
-          "Background jobs and scheduling",
-          "Caching strategies"
+          "What deployment actually means: your laptop is not a server",
+          "Preparing an app: requirements.txt, gunicorn, configuration",
+          "Deploying to Render step by step",
+          "Environment variables in production",
+          "Keeping secrets out of GitHub, permanently",
+          "Custom domains and HTTPS, demystified",
+          "Reading production logs when something breaks",
+          "The deploy checklist you will reuse for years"
         ],
         "projects": [
-          "Real-time dashboard",
-          "File sharing platform",
-          "Image gallery with filters",
-          "Email newsletter system"
+          "Your accounts app deployed to a public URL anyone can visit"
         ],
-        "practice": "Integrate 5 frontend features"
-      }
-    },
-    "month_9_10": {
-      "title": "Months 9-10: Django & Advanced Web Development",
-      "weeks": "Week 36-44",
-      "week_36_37": {
-        "title": "Django Fundamentals",
-        "topics": [
-          "Django philosophy: Batteries included",
-          "Project structure and apps",
-          "Models and ORM",
-          "Views: Function-based and class-based",
-          "Templates and template inheritance",
-          "URL routing and namespaces",
-          "Forms and ModelForms",
-          "Admin interface customization",
-          "Static files and media handling",
-          "Middleware and request processing",
-          "Signals for decoupled apps",
-          "Custom management commands"
-        ],
-        "projects": [
-          "Instagram clone with Django",
-          "E-learning platform",
-          "Project management tool",
-          "News aggregator site"
-        ],
-        "practice": "Build 5 Django applications"
+        "practice": "Deploy a second app solo, using only your own checklist"
       },
-      "week_38_39": {
-        "title": "Django Advanced Features",
+      "week_32": {
+        "title": "Web Capstone",
         "topics": [
-          "Custom user models",
-          "Authentication and permissions",
-          "Django REST Framework mastery",
-          "Serializers and viewsets",
-          "Testing with Django",
-          "Caching with Redis",
-          "Async views in Django",
-          "Channels for WebSockets",
-          "GeoDjango for location services",
-          "Django security best practices",
-          "Performance optimization",
-          "Django deployment strategies"
+          "Scoping a web app you can finish in a week",
+          "Building in slices: one working feature at a time",
+          "Testing your app the way a stranger uses it",
+          "Polish: empty states, error pages, small screens",
+          "A mid-week review with the instructor",
+          "Shipping and sharing the link"
         ],
         "projects": [
-          "Multi-vendor marketplace",
-          "Social network with real-time",
-          "Location-based service",
-          "API with complex permissions"
+          "The web capstone: a Flask app with a database, accounts and a live URL. Classic picks: link shortener, study planner, club site with sign-ups, or your own idea"
         ],
-        "practice": "Master 20 Django features"
-      },
-      "week_40_41": {
-        "title": "Full-Stack Development",
-        "topics": [
-          "Modern JavaScript for Python devs",
-          "React or Vue.js integration",
-          "State management concepts",
-          "Building APIs for SPAs",
-          "Authentication with JWT",
-          "File and image uploads",
-          "Real-time features with WebSockets",
-          "Progressive Web Apps (PWA)",
-          "SEO optimization",
-          "Performance monitoring",
-          "Error tracking with Sentry",
-          "CI/CD pipelines"
-        ],
-        "projects": [
-          "Twitter clone full-stack",
-          "Video streaming platform",
-          "Collaborative editor",
-          "Real-time gaming platform"
-        ],
-        "practice": "Build 3 full-stack applications"
-      },
-      "week_42_43": {
-        "title": "Cloud & Deployment",
-        "topics": [
-          "Cloud platforms: AWS, Google Cloud, Azure",
-          "Render for easy deployment",
-          "Docker containerization",
-          "Kubernetes basics",
-          "Nginx and Gunicorn configuration",
-          "SSL certificates and HTTPS",
-          "Domain management and DNS",
-          "Load balancing strategies",
-          "Database hosting options",
-          "CDN integration",
-          "Monitoring and logging",
-          "Backup and disaster recovery"
-        ],
-        "projects": [
-          "Deploy all previous projects",
-          "Multi-region deployment",
-          "Auto-scaling application",
-          "Monitoring dashboard"
-        ],
-        "practice": "Deploy 10 applications to cloud"
-      },
-      "week_44": {
-        "title": "Testing & Quality Assurance",
-        "topics": [
-          "Unit testing with pytest",
-          "Test-driven development (TDD)",
-          "Integration testing",
-          "Mocking and patching",
-          "Fixtures and factories",
-          "Coverage reports",
-          "End-to-end testing with Selenium",
-          "API testing strategies",
-          "Performance testing",
-          "Security testing",
-          "Continuous integration setup",
-          "Code quality tools: Black, flake8, mypy"
-        ],
-        "projects": [
-          "Test suite for existing project",
-          "TDD project from scratch",
-          "Automated testing pipeline",
-          "Quality assurance dashboard"
-        ],
-        "practice": "Write 500+ tests, achieve 90% coverage"
-      }
-    },
-    "month_11_12": {
-      "title": "Months 11-12: Microservices & Advanced Architecture",
-      "weeks": "Week 45-52",
-      "week_45_46": {
-        "title": "Microservices Architecture",
-        "topics": [
-          "Monolith vs microservices",
-          "Service decomposition",
-          "Inter-service communication",
-          "Message queues: RabbitMQ, Kafka",
-          "Service discovery",
-          "API Gateway pattern",
-          "Circuit breakers and resilience",
-          "Distributed tracing",
-          "Event-driven architecture",
-          "CQRS and Event Sourcing",
-          "Saga pattern for transactions",
-          "Service mesh with Istio"
-        ],
-        "projects": [
-          "E-commerce microservices",
-          "Banking system with services",
-          "Social media microservices",
-          "Streaming platform architecture"
-        ],
-        "practice": "Build 5 microservices"
-      },
-      "week_47_48": {
-        "title": "AsyncIO & Concurrency",
-        "topics": [
-          "AsyncIO fundamentals",
-          "Async/await syntax mastery",
-          "Coroutines and tasks",
-          "Event loops deep dive",
-          "Concurrent.futures module",
-          "Threading vs multiprocessing",
-          "GIL and its implications",
-          "Async web frameworks: FastAPI, Aiohttp",
-          "Async database drivers",
-          "WebSocket servers with asyncio",
-          "Performance comparison",
-          "Debugging async code"
-        ],
-        "projects": [
-          "Async web scraper",
-          "High-performance API",
-          "Real-time data processor",
-          "Concurrent download manager"
-        ],
-        "practice": "Convert 10 sync programs to async"
-      },
-      "week_49_50": {
-        "title": "GraphQL & Modern APIs",
-        "topics": [
-          "GraphQL vs REST deep dive",
-          "Schema definition language",
-          "Resolvers and data loaders",
-          "Mutations and subscriptions",
-          "GraphQL with Django/Flask",
-          "Apollo Server integration",
-          "Real-time with GraphQL subscriptions",
-          "GraphQL security",
-          "Performance optimization",
-          "Federation for microservices",
-          "Testing GraphQL APIs",
-          "GraphQL best practices"
-        ],
-        "projects": [
-          "GraphQL API for social media",
-          "Real-time chat with GraphQL",
-          "E-commerce GraphQL API",
-          "GraphQL gateway service"
-        ],
-        "practice": "Build 5 GraphQL APIs"
-      },
-      "week_51": {
-        "title": "DevOps for Python",
-        "topics": [
-          "Infrastructure as Code with Python",
-          "Ansible automation",
-          "Terraform with Python",
-          "CI/CD with GitHub Actions",
-          "GitLab CI/CD pipelines",
-          "Jenkins automation with Python",
-          "Monitoring with Prometheus",
-          "Log aggregation with ELK",
-          "Container orchestration",
-          "Secrets management",
-          "Blue-green deployments",
-          "Chaos engineering basics"
-        ],
-        "projects": [
-          "CI/CD pipeline creation",
-          "Infrastructure automation",
-          "Monitoring system",
-          "Deployment automation tool"
-        ],
-        "practice": "Automate 10 DevOps tasks"
-      },
-      "week_52": {
-        "title": "Phase 2 Capstone Project",
-        "topics": [
-          "Large-scale application design",
-          "Architecture documentation",
-          "Performance requirements",
-          "Security audit",
-          "Deployment strategy",
-          "User acceptance testing"
-        ],
-        "projects": [
-          "MAJOR CAPSTONE: Full Social Media Platform",
-          "Complete with microservices, real-time, mobile app",
-          "Alternative: E-commerce platform with everything",
-          "Alternative: Learning management system"
-        ],
-        "assessment": "Deploy production-ready application"
+        "practice": "Collect feedback from 3 real users and ship one improvement",
+        "assessment": "Web capstone review: live walkthrough from route to database to deployed URL, with cumulative questions from phases 1-3"
       }
     }
   },
-  "phase_3_backend_engineering": {
-    "title": "PHASE 3: Specializations & Advanced Python (Months 13-18, Weeks 53-78)",
-    "description": "Master specialized domains: game development, data science, automation, machine learning, and contribute to open source.",
-    "month_13_14": {
-      "title": "Months 13-14: Game Development & Graphics",
-      "weeks": "Week 53-61",
-      "week_53_54": {
-        "title": "Pygame Mastery",
+  "phase_4_ai_and_capstone": {
+    "title": "PHASE 4: AI, Quality and the Capstone (Months 9-10, Weeks 33-40)",
+    "description": "Machine learning done honestly, AI features built on modern APIs, professional habits with Git and pytest, and a final capstone shipped like a product.",
+    "month_9_ai_real_tools": {
+      "title": "Month 9: AI and Real-World Tools",
+      "weeks": "Weeks 33-36",
+      "week_33": {
+        "title": "Machine Learning with scikit-learn",
         "topics": [
-          "Pygame setup and game loop",
-          "Sprites and sprite groups",
-          "Collision detection algorithms",
-          "Game physics implementation",
-          "Particle systems",
-          "Sound and music integration",
-          "Game states and menus",
-          "Save/load game systems",
-          "Tile-based games",
-          "Scrolling and cameras",
-          "Optimization techniques",
-          "Publishing games"
-        ],
-        "projects": [
-          "Platformer game like Mario",
-          "Tower defense game",
-          "RPG with inventory system",
-          "Multiplayer snake game"
-        ],
-        "practice": "Build 10 different game types"
-      },
-      "week_55_56": {
-        "title": "3D Graphics & Advanced Games",
-        "topics": [
-          "3D graphics basics with Python",
-          "Panda3D framework",
-          "OpenGL with PyOpenGL",
-          "3D math: vectors, matrices, quaternions",
-          "Lighting and shading",
-          "Texture mapping",
-          "3D model loading",
-          "First-person controls",
-          "Procedural generation",
-          "AI for games: pathfinding, behavior",
-          "Networking for multiplayer",
-          "Game engine architecture"
-        ],
-        "projects": [
-          "3D maze game",
-          "Minecraft clone basics",
-          "Racing game",
-          "FPS game prototype"
-        ],
-        "practice": "Create 5 3D projects"
-      },
-      "week_57_58": {
-        "title": "Game AI & Procedural Generation",
-        "topics": [
-          "AI for NPCs: State machines, behavior trees",
-          "Pathfinding: A*, Dijkstra, navigation mesh",
-          "Decision making: Min-max, alpha-beta pruning",
-          "Machine learning in games",
-          "Procedural content generation",
-          "Noise functions: Perlin, Simplex",
-          "Dungeon generation algorithms",
-          "Terrain generation",
-          "Procedural textures",
-          "Genetic algorithms for game balance",
-          "Neural networks for game AI",
-          "Reinforcement learning agents"
-        ],
-        "projects": [
-          "Chess AI opponent",
-          "Procedural world generator",
-          "AI battle arena",
-          "Evolving game characters"
-        ],
-        "practice": "Implement 10 AI algorithms"
-      },
-      "week_59_60": {
-        "title": "Mobile Game Development",
-        "topics": [
-          "Kivy framework for mobile",
-          "Touch controls and gestures",
-          "Mobile UI design",
-          "Device sensors integration",
-          "Building for Android",
-          "iOS deployment basics",
-          "Mobile game monetization",
-          "In-app purchases",
-          "Ad integration",
-          "Push notifications",
-          "Cloud saves",
-          "Analytics integration"
-        ],
-        "projects": [
-          "Mobile puzzle game",
-          "Endless runner for mobile",
-          "Augmented reality game",
-          "Location-based game"
-        ],
-        "practice": "Deploy 5 games to mobile"
-      },
-      "week_61": {
-        "title": "Game Publishing & Monetization",
-        "topics": [
-          "Steam integration with Python",
-          "Itch.io publishing",
-          "Game marketing basics",
-          "Creating game trailers",
-          "Community management",
-          "Update and patch systems",
-          "Analytics and metrics",
-          "Player retention strategies",
-          "Multiplayer servers",
-          "Anti-cheat systems",
-          "Game modding support",
-          "Building game tools"
-        ],
-        "projects": [
-          "Game launcher/updater",
-          "Analytics dashboard",
-          "Community platform",
-          "Mod support system"
-        ],
-        "practice": "Publish 3 complete games"
-      }
-    },
-    "month_15_16": {
-      "title": "Months 15-16: Data Science & Machine Learning",
-      "weeks": "Week 62-70",
-      "week_62_63": {
-        "title": "Data Science with Python",
-        "topics": [
-          "NumPy advanced: Broadcasting, vectorization",
-          "Pandas mastery: MultiIndex, time series",
-          "Data cleaning and preprocessing",
-          "Exploratory data analysis (EDA)",
-          "Statistical analysis with SciPy",
-          "Hypothesis testing",
-          "A/B testing implementation",
-          "Feature engineering",
-          "Dealing with missing data",
-          "Outlier detection",
-          "Data pipelines",
-          "Big data with PySpark"
-        ],
-        "projects": [
-          "COVID-19 data analyzer",
-          "Stock market analyzer",
-          "Sports statistics platform",
-          "Social media sentiment analysis"
-        ],
-        "practice": "Analyze 20 real datasets"
-      },
-      "week_64_65": {
-        "title": "Data Visualization",
-        "topics": [
-          "Matplotlib advanced techniques",
-          "Seaborn for statistical plots",
-          "Plotly for interactive visualizations",
-          "Dash for dashboard creation",
-          "Bokeh for web visualizations",
-          "Altair for declarative viz",
-          "Network graphs with NetworkX",
-          "Geospatial visualization",
-          "3D visualizations",
-          "Animation creation",
-          "Real-time data visualization",
-          "Custom visualization design"
-        ],
-        "projects": [
-          "Interactive COVID dashboard",
-          "Financial data dashboard",
-          "Real-time monitoring system",
-          "Data journalism project"
-        ],
-        "practice": "Create 50 different visualizations"
-      },
-      "week_66_67": {
-        "title": "Machine Learning Fundamentals",
-        "topics": [
-          "Scikit-learn complete guide",
+          "What machine learning actually is: functions learned from data",
           "Supervised learning algorithms",
           "Unsupervised learning techniques",
-          "Model evaluation and validation",
-          "Cross-validation strategies",
-          "Hyperparameter tuning",
-          "Feature selection methods",
-          "Ensemble methods",
-          "Model interpretation",
-          "ML pipelines",
-          "Model deployment",
-          "MLOps basics"
+          "Evaluating honestly: train/test splits and why accuracy can lie",
+          "Overfitting: the model that memorized the homework",
+          "Reading what a model learned, and its limits"
         ],
         "projects": [
-          "House price predictor",
-          "Customer churn prediction",
-          "Recommendation system",
-          "Fraud detection system"
+          "Movie or game rating predictor",
+          "Handwritten digit classifier",
+          "Spam detector trained on real messages"
         ],
-        "practice": "Build 15 ML models"
+        "practice": "Train 5 models, and for each write one sentence on where it fails"
       },
-      "week_68_69": {
-        "title": "Deep Learning with Python",
+      "week_34": {
+        "title": "Building on AI APIs",
         "topics": [
-          "TensorFlow and Keras",
-          "PyTorch fundamentals",
-          "Neural network architectures",
-          "CNNs for computer vision",
-          "RNNs for sequences",
-          "Transfer learning",
-          "GANs introduction",
-          "Natural Language Processing",
-          "Computer vision projects",
-          "Model optimization",
-          "Deployment strategies",
-          "Edge AI with Python"
-        ],
-        "projects": [
-          "Image classifier app",
-          "Chatbot with NLP",
-          "Face recognition system",
-          "Style transfer application"
-        ],
-        "practice": "Train 10 deep learning models"
-      },
-      "week_70": {
-        "title": "AI Applications",
-        "topics": [
-          "OpenAI API integration",
-          "LangChain for LLM apps",
-          "Computer vision with OpenCV",
-          "Speech recognition",
-          "Text-to-speech systems",
-          "Reinforcement learning basics",
-          "AI in games revisited",
-          "Robotics with Python",
-          "IoT and AI integration",
-          "Ethical AI considerations",
-          "AI project deployment",
-          "Building AI products"
-        ],
-        "projects": [
-          "AI personal assistant",
-          "Document analyzer with AI",
-          "AI-powered game",
-          "Smart home system"
-        ],
-        "practice": "Build 8 AI applications"
-      }
-    },
-    "month_17_18": {
-      "title": "Months 17-18: Automation & Advanced Tools",
-      "weeks": "Week 71-78",
-      "week_71_72": {
-        "title": "Automation & Scripting",
-        "topics": [
-          "Task automation with Python",
-          "File system automation",
-          "Web scraping with BeautifulSoup",
-          "Selenium for browser automation",
-          "Email automation",
-          "Excel automation with openpyxl",
-          "PDF processing with PyPDF2",
-          "Image processing automation",
-          "Video processing with moviepy",
-          "System administration scripts",
-          "Cron jobs and scheduling",
-          "Windows task automation"
-        ],
-        "projects": [
-          "Personal automation suite",
-          "Web scraper for job listings",
-          "Document processor",
-          "Social media automator"
-        ],
-        "practice": "Automate 30 daily tasks"
-      },
-      "week_73_74": {
-        "title": "GUI Development",
-        "topics": [
-          "Tkinter complete guide",
-          "PyQt5/PySide2 for professional GUIs",
-          "Kivy for modern interfaces",
-          "CustomTkinter for beautiful apps",
-          "GUI design principles",
-          "Event-driven programming",
-          "Threading in GUIs",
-          "Database integration",
-          "Packaging desktop apps",
-          "Auto-updates for apps",
-          "Cross-platform development",
-          "Electron alternatives with Python"
-        ],
-        "projects": [
-          "Music player application",
-          "Text editor with features",
-          "Database management tool",
-          "System monitoring app"
-        ],
-        "practice": "Build 10 desktop applications"
-      },
-      "week_75_76": {
-        "title": "Network Programming",
-        "topics": [
-          "Socket programming deep dive",
-          "TCP/IP with Python",
-          "UDP programming",
-          "HTTP servers from scratch",
-          "WebSocket servers",
-          "Network protocols implementation",
-          "Port scanning and monitoring",
-          "Packet sniffing with Scapy",
-          "Network automation",
-          "SSH automation with Paramiko",
-          "FTP/SFTP clients",
-          "Building networked games"
-        ],
-        "projects": [
-          "Chat server and client",
-          "File transfer application",
-          "Network monitor",
-          "Custom protocol implementation"
-        ],
-        "practice": "Build 8 network applications"
-      },
-      "week_77": {
-        "title": "Cybersecurity with Python",
-        "topics": [
-          "Ethical hacking with Python",
-          "Penetration testing basics",
-          "Cryptography with Python",
-          "Password cracking (ethical)",
-          "Network security tools",
-          "Web application security",
-          "Malware analysis basics",
-          "Forensics with Python",
-          "Security automation",
-          "Vulnerability scanning",
-          "Log analysis for security",
-          "Building security tools"
-        ],
-        "projects": [
-          "Password manager",
-          "Encryption tool",
-          "Security scanner",
-          "Log analyzer"
-        ],
-        "practice": "Build 10 security tools"
-      },
-      "week_78": {
-        "title": "Phase 3 Capstone Project",
-        "topics": [
-          "Complex system integration",
-          "Performance optimization",
-          "Security hardening",
-          "Documentation",
-          "Testing strategies",
-          "Deployment planning"
-        ],
-        "projects": [
-          "MAJOR PROJECT: Game Development Studio",
-          "Complete game with AI, multiplayer, graphics",
-          "Alternative: AI-Powered Analytics Platform",
-          "Alternative: Automation Framework"
-        ],
-        "assessment": "Present professional project"
-      }
-    }
-  },
-  "phase_4_advanced_production": {
-    "title": "PHASE 4: Expert Python & Professional Development (Months 19-24, Weeks 79-104)",
-    "description": "Master advanced Python internals, contribute to Python itself, build frameworks, and launch your career.",
-    "month_19_20": {
-      "title": "Months 19-20: Python Internals & Advanced Concepts",
-      "weeks": "Week 79-87",
-      "week_79_80": {
-        "title": "Python Internals",
-        "topics": [
-          "CPython architecture deep dive",
-          "Python bytecode and dis module",
-          "The Python Virtual Machine",
-          "Memory management and garbage collection",
-          "Reference counting and cycles",
-          "The GIL: Understanding and working around it",
-          "Python object model internals",
-          "How imports really work",
-          "Namespace and scope implementation",
-          "Python's data model",
-          "Building Python from source",
-          "Contributing to CPython"
-        ],
-        "projects": [
-          "Bytecode analyzer",
-          "Memory profiler",
-          "Import system hook",
-          "CPython contribution"
-        ],
-        "practice": "Understand 20 Python internals"
-      },
-      "week_81_82": {
-        "title": "Metaprogramming & Advanced Features",
-        "topics": [
-          "Metaclasses deep dive",
-          "Class decorators advanced",
-          "Descriptors and properties",
-          "Dynamic class creation",
-          "Abstract Syntax Trees (AST)",
-          "Code generation with Python",
-          "Import hooks and finders",
-          "Context managers advanced",
-          "Weak references",
-          "Slots for memory optimization",
-          "Function introspection",
-          "Frame objects and stack inspection"
-        ],
-        "projects": [
-          "ORM framework from scratch",
-          "Dependency injection framework",
-          "Code analyzer tool",
-          "DSL implementation"
-        ],
-        "practice": "Build 10 metaprogramming projects"
-      },
-      "week_83_84": {
-        "title": "Performance Optimization",
-        "topics": [
-          "Profiling with cProfile and line_profiler",
-          "Memory profiling with memory_profiler",
-          "Optimization strategies",
-          "Cython for speed",
-          "Numba for JIT compilation",
-          "PyPy and alternative interpreters",
-          "C extensions with ctypes and cffi",
-          "Vectorization with NumPy",
-          "Parallel processing strategies",
-          "GPU acceleration with CuPy",
-          "Rust extensions with PyO3",
-          "Performance testing and benchmarking"
-        ],
-        "projects": [
-          "Performance optimization toolkit",
-          "C extension for Python",
-          "GPU-accelerated application",
-          "Benchmark suite"
-        ],
-        "practice": "Optimize 20 Python programs"
-      },
-      "week_85_86": {
-        "title": "Building Frameworks",
-        "topics": [
-          "Framework design principles",
-          "Plugin architectures",
-          "Configuration management",
-          "CLI framework design",
-          "Web framework from scratch",
-          "Testing framework creation",
-          "Documentation generation",
-          "Package distribution",
-          "Versioning strategies",
-          "Backward compatibility",
-          "API design best practices",
-          "Framework documentation"
-        ],
-        "projects": [
-          "Web framework like Flask",
-          "Testing framework like pytest",
-          "CLI framework",
-          "Game framework"
-        ],
-        "practice": "Build 5 mini-frameworks"
-      },
-      "week_87": {
-        "title": "Compiler & Interpreter Design",
-        "topics": [
-          "Language design basics",
-          "Lexical analysis (tokenization)",
-          "Parsing and grammar",
-          "Abstract Syntax Trees",
-          "Semantic analysis",
-          "Code generation",
-          "Building an interpreter",
-          "REPL implementation",
-          "Error handling in compilers",
-          "Optimization passes",
-          "VM design basics",
-          "DSL creation"
-        ],
-        "projects": [
-          "Mini programming language",
-          "Template engine",
-          "Query language parser",
-          "Configuration language"
-        ],
-        "practice": "Build 3 interpreters"
-      }
-    },
-    "month_21_22": {
-      "title": "Months 21-22: Industry & Enterprise Python",
-      "weeks": "Week 88-96",
-      "week_88_89": {
-        "title": "Enterprise Python",
-        "topics": [
-          "Enterprise architecture patterns",
-          "Service-oriented architecture (SOA)",
-          "Event-driven systems at scale",
-          "Message brokers: RabbitMQ, Kafka advanced",
-          "Distributed systems with Python",
-          "Apache Airflow for workflows",
-          "Data engineering with Python",
-          "ETL pipelines",
-          "Data warehousing",
-          "Business intelligence tools",
-          "Enterprise security",
-          "Compliance and regulations"
-        ],
-        "projects": [
-          "Enterprise workflow system",
-          "Data pipeline platform",
-          "Business intelligence tool",
-          "Compliance automation system"
-        ],
-        "practice": "Build 5 enterprise solutions"
-      },
-      "week_90_91": {
-        "title": "Cloud Native Python",
-        "topics": [
-          "Kubernetes operators in Python",
-          "Service mesh integration",
-          "Cloud functions with Python",
-          "Serverless architectures",
-          "Multi-cloud strategies",
-          "Infrastructure as Code advanced",
-          "GitOps with Python",
-          "Observability: metrics, logs, traces",
-          "Chaos engineering implementation",
-          "Cost optimization automation",
-          "Cloud security automation",
-          "Disaster recovery automation"
-        ],
-        "projects": [
-          "Kubernetes operator",
-          "Serverless application",
-          "Cloud cost optimizer",
-          "Multi-cloud deployer"
-        ],
-        "practice": "Deploy 10 cloud-native apps"
-      },
-      "week_92_93": {
-        "title": "IoT & Hardware",
-        "topics": [
-          "Raspberry Pi programming",
-          "Arduino with Python",
-          "MicroPython for embedded systems",
-          "CircuitPython basics",
-          "GPIO programming",
-          "Sensor integration",
-          "Motor control",
-          "Computer vision on edge devices",
-          "IoT protocols: MQTT, CoAP",
-          "Home automation with Python",
-          "Robotics frameworks: ROS",
-          "Edge computing"
-        ],
-        "projects": [
-          "Smart home system",
-          "Weather station",
-          "Security camera system",
-          "Robot car"
-        ],
-        "practice": "Build 8 IoT projects"
-      },
-      "week_94_95": {
-        "title": "Scientific Python",
-        "topics": [
-          "Scientific computing with SciPy",
-          "SymPy for symbolic math",
-          "Astronomy with AstroPy",
-          "Bioinformatics with BioPython",
-          "Geospatial with GeoPandas",
-          "Climate data analysis",
-          "Signal processing",
-          "Image processing advanced",
-          "Simulations with SimPy",
-          "Optimization problems",
-          "Parallel scientific computing",
-          "Research reproducibility"
-        ],
-        "projects": [
-          "Scientific calculator",
-          "Data analysis tool",
-          "Simulation platform",
-          "Research automation"
-        ],
-        "practice": "Solve 15 scientific problems"
-      },
-      "week_96": {
-        "title": "AI Agents & Automation with Python",
-        "topics": [
-          "Calling an AI API from Python",
+          "Calling a modern AI model from Python (accounts set up with a parent where required)",
           "Structured output with Pydantic",
           "Function calling: giving the model real tools",
           "The agent loop: plan, act, observe, repeat",
@@ -1389,318 +757,202 @@
           "When the agent is confidently wrong",
           "Cost control: tokens, caching, spend caps",
           "Automating a real, boring task end to end",
-          "Evaluating an agent: does it actually work?",
-          "Cryptography deep dive: hashing and signatures"
+          "Evaluating an agent: does it actually work?"
         ],
         "projects": [
-          "Tool-using research agent",
-          "Document Q&A over your own notes",
-          "Automate a real weekly chore",
-          "Agent evaluation harness"
+          "Tool-using research helper",
+          "Document Q&A over your own class notes",
+          "Automate one real weekly chore with an AI step"
         ],
-        "practice": "Build 5 AI automation projects"
+        "practice": "Build 3 small AI-powered scripts and note where each one is confidently wrong"
+      },
+      "week_35": {
+        "title": "An AI Feature in a Real App",
+        "topics": [
+          "Designing an AI feature people would actually use",
+          "Adding an AI endpoint to your Flask app",
+          "Prompts as code: versioned, tested, improved",
+          "Streaming responses so the app feels alive",
+          "Caching to control cost and speed",
+          "Failure modes: timeouts, refusals and nonsense, handled",
+          "Simple evaluation: is the feature actually good?",
+          "AI ethics for builders, in plain terms"
+        ],
+        "projects": [
+          "Study-buddy feature added to your deployed web app: ask questions, get grounded answers"
+        ],
+        "practice": "Run 20 real queries through your feature and grade the answers yourself"
+      },
+      "week_36": {
+        "title": "Git and GitHub for Real Projects",
+        "topics": [
+          "Why every developer uses version control",
+          "The core loop: status, add, commit, log",
+          "Branches: experimenting without fear",
+          "GitHub: pushing your work to the world",
+          "READMEs that make a project understandable in a minute",
+          "Undoing mistakes: the calm guide",
+          ".gitignore and never committing secrets",
+          "Your GitHub profile as a living portfolio",
+          "Where our full Git and GitHub course goes further"
+        ],
+        "projects": [
+          "Course portfolio pushed to GitHub: best projects, clean READMEs, pinned repositories"
+        ],
+        "practice": "Commit daily for two weeks; make the history readable",
+        "assessment": "Month 9 check: a mixed assignment spanning machine learning, AI features and Git, with questions revisiting earlier phases"
       }
     },
-    "month_23": {
-      "title": "Month 23: Open Source & Community",
-      "weeks": "Week 97-100",
-      "week_97": {
-        "title": "Open Source Contribution",
+    "month_10_ship_it": {
+      "title": "Month 10: Quality, Capstone and Demo Day",
+      "weeks": "Weeks 37-40",
+      "week_37": {
+        "title": "Testing and Code Quality",
         "topics": [
-          "Open source ecosystem",
-          "Finding projects to contribute",
-          "Understanding large codebases",
-          "Making your first PR",
-          "Code review process",
-          "Writing good commit messages",
-          "Documentation contributions",
-          "Bug triaging",
-          "Feature development",
-          "Maintaining projects",
-          "Building community",
-          "Open source licensing"
+          "pytest: your first real test suite",
+          "Test-first thinking on one small feature",
+          "Fixtures and factories",
+          "API testing strategies",
+          "Black and flake8: code that reads like it was written on purpose",
+          "Reading tracebacks like a detective, not a victim",
+          "Debugging with breakpoints instead of print spam"
         ],
         "projects": [
-          "Contribute to 5 projects",
-          "Create popular package",
-          "Maintain open source project",
-          "Build contributor community"
+          "Test suite for your web capstone’s core logic",
+          "Bug hunt: find and fix 5 planted bugs using the debugger"
         ],
-        "practice": "Make 50 contributions"
+        "practice": "Write 25 tests across your three best projects"
       },
-      "week_98": {
-        "title": "Teaching & Mentoring",
+      "week_38_39": {
+        "title": "Final Capstone Build",
         "topics": [
-          "Creating educational content",
-          "Writing technical tutorials",
-          "Video course creation",
-          "Live coding streams",
-          "Workshop development",
-          "Mentoring strategies",
-          "Code review skills",
-          "Technical writing",
-          "Documentation best practices",
-          "Building learning platforms",
-          "Community management",
-          "Conference speaking"
+          "Choosing the capstone: a game with an AI opponent, a full web app with an AI feature, or an automation product",
+          "Writing a one-page spec before any code",
+          "Milestones: working core by day 4, feature-complete by day 10",
+          "Instructor checkpoints and course corrections",
+          "Using everything: OOP, files, web, data, AI, Git, tests",
+          "Cutting scope without cutting quality",
+          "Preparing the demo: story, not feature list"
         ],
         "projects": [
-          "Tutorial series",
-          "Video course",
-          "Workshop materials",
-          "Learning platform"
+          "The final capstone, built over two weeks with version control, tests on the core logic, and a README worth reading"
         ],
-        "practice": "Teach 10 topics"
+        "practice": "Daily commits; a working build at the end of every session"
       },
-      "week_99": {
-        "title": "Career Development",
+      "week_40": {
+        "title": "Demo Day and What Comes Next",
         "topics": [
-          "Python job market analysis",
-          "Resume optimization",
-          "Portfolio website creation",
-          "LinkedIn optimization",
-          "Interview preparation",
-          "Coding interview strategies",
-          "System design interviews",
-          "Salary negotiation",
-          "Freelancing with Python",
-          "Starting a Python consultancy",
-          "Building personal brand",
-          "Networking strategies"
+          "Presenting the capstone: live demo plus the hardest bug story",
+          "Portfolio final pass: GitHub profile, project pages, screenshots",
+          "An honest skills inventory: strong, shaky, next",
+          "Where each path leads: AI and machine learning, data structures and algorithms, deeper web development",
+          "How school and board computer science connect to what you now know",
+          "Staying sharp: projects, communities and healthy practice habits"
         ],
         "projects": [
-          "Professional portfolio",
-          "Personal brand website",
-          "Interview prep materials",
-          "Freelance platform profile"
+          "Demo day presentation delivered to the batch and parents"
         ],
-        "practice": "Complete 20 interviews"
-      },
-      "week_100": {
-        "title": "Python Ecosystem Mastery",
-        "topics": [
-          "Package management advanced",
-          "Virtual environment strategies",
-          "Dependency management",
-          "Python packaging best practices",
-          "PyPI publishing",
-          "Conda environments",
-          "Docker for Python apps",
-          "CI/CD for Python projects",
-          "Documentation with Sphinx",
-          "Testing strategies recap",
-          "Code quality tools",
-          "Python enhancement proposals (PEPs)"
-        ],
-        "projects": [
-          "Professional package",
-          "CI/CD pipeline",
-          "Documentation site",
-          "Development toolkit"
-        ],
-        "practice": "Master 20 tools"
-      }
-    },
-    "month_24": {
-      "title": "Month 24: Final Projects & Graduation",
-      "weeks": "Week 101-104",
-      "week_101_102": {
-        "title": "Final Capstone - Part 1",
-        "topics": [
-          "Project ideation and planning",
-          "Market research",
-          "Technical architecture",
-          "Technology stack selection",
-          "Development methodology",
-          "Team collaboration",
-          "Project management",
-          "Risk assessment",
-          "Timeline planning",
-          "Resource allocation",
-          "Documentation planning",
-          "Testing strategy"
-        ],
-        "projects": [
-          "FINAL MASTERPIECE: Choose One",
-          "1. Full-scale SaaS platform",
-          "2. Open source framework/library",
-          "3. Game engine with editor",
-          "4. AI-powered application suite",
-          "5. Enterprise automation platform"
-        ]
-      },
-      "week_103": {
-        "title": "Final Capstone - Part 2",
-        "topics": [
-          "Implementation and development",
-          "Testing and debugging",
-          "Performance optimization",
-          "Security audit",
-          "User testing",
-          "Documentation completion",
-          "Deployment preparation",
-          "Marketing materials",
-          "Launch preparation",
-          "Community building",
-          "Support systems",
-          "Future roadmap"
-        ],
-        "deliverables": [
-          "Complete source code",
-          "Comprehensive documentation",
-          "Test suite (95%+ coverage)",
-          "Deployment guide",
-          "User manual",
-          "API documentation",
-          "Video demonstration",
-          "Marketing website",
-          "Community platform",
-          "Support system"
-        ]
-      },
-      "week_104": {
-        "title": "Graduation & Beyond",
-        "topics": [
-          "Portfolio finalization",
-          "Career path planning",
-          "Job search strategies",
-          "Interview preparation final",
-          "Networking events",
-          "Alumni network",
-          "Continuous learning plan",
-          "Specialization selection",
-          "Advanced certifications",
-          "Conference participation",
-          "Speaking opportunities",
-          "Future of Python"
-        ],
-        "deliverables": [
-          "100+ project portfolio",
-          "Professional website",
-          "GitHub profile (1000+ contributions)",
-          "Published packages",
-          "Blog with 50+ articles",
-          "Video tutorials",
-          "Open source contributions",
-          "Professional network",
-          "Job offers/opportunities",
-          "Expert certification"
-        ],
-        "assessment": "FINAL EVALUATION: Comprehensive assessment + Capstone presentation + Peer review"
+        "assessment": "FINAL EXAM: a practical build plus a written paper with questions mixed from every phase. Passing earns the certificate; a student who falls short gets a focused revision plan and a free retest"
       }
     }
   },
   "additional_learning_resources": {
     "projects_throughout_course": [
-      "Phase 1: Games, chatbots, automation tools, data structures library",
-      "Phase 2: Social media platform, e-commerce site, APIs, microservices",
-      "Phase 3: 3D games, ML models, desktop apps, security tools",
-      "Phase 4: Frameworks, compilers, enterprise systems, open source contributions",
-      "Total: 100+ complete projects"
+      "Phase 1: quiz and adventure games, a journal app with save files, an expense tracker, classic algorithms built by hand",
+      "Phase 2: two finished Pygame games published on itch.io, desktop apps, a personal automation suite, a real-dataset analysis",
+      "Phase 3: API clients, then a Flask web app with a database and user accounts, deployed to a public URL",
+      "Phase 4: honest machine learning experiments, an AI-powered study tool, and a final capstone with tests and version control"
     ],
-    "total_projects_built": "100+ projects ranging from scripts to enterprise applications",
+    "total_projects_built": "30+ real projects, ending with a deployed web app and an AI-powered capstone",
     "skills_mastered": [
-      "Core Python: Complete mastery of Python 3.12+",
-      "Web Development: Django, Flask, FastAPI, full-stack development",
-      "Data Science: NumPy, Pandas, Matplotlib, Scikit-learn, TensorFlow",
-      "Game Development: Pygame, 3D graphics, game AI, mobile games",
-      "Automation: Web scraping, task automation, system administration",
-      "GUI Development: Tkinter, PyQt, Kivy, desktop applications",
-      "Databases: SQL, NoSQL, ORMs, database design",
-      "Cloud & DevOps: AWS, Docker, Kubernetes, CI/CD",
-      "Testing: Unit testing, TDD, integration testing, pytest",
-      "Security: Ethical hacking, cryptography, secure coding",
-      "AI/ML: Machine learning, deep learning, computer vision, NLP",
-      "Advanced: Metaprogramming, performance optimization, internals"
+      "Core Python: syntax, data structures, files, errors and object-oriented programming, to genuine fluency",
+      "Games: Pygame from the game loop to finished, published, shareable games",
+      "Automation: scripts for files, spreadsheets, PDFs and the web, written politely and safely",
+      "Data: pandas, matplotlib and honest exploratory analysis of real datasets",
+      "Web development: Flask, SQL databases, user accounts and deployment to a live URL",
+      "AI foundations: scikit-learn fundamentals plus real features built on modern AI APIs",
+      "Developer habits: Git and GitHub, pytest, debugging and code review"
     ],
     "weekly_structure": {
-      "theory_videos": "4-5 hours",
-      "hands_on_coding": "6-7 hours",
-      "projects": "3-4 hours",
-      "practice_problems": "2-3 hours",
-      "community_interaction": "1 hour",
-      "total_per_week": "12-15 hours"
-    },
-    "support_provided": {
-      "live_sessions": "Weekly live coding and Q&A",
-      "mentorship": "Personal mentor throughout journey",
-      "code_review": "Expert review of all projects",
-      "job_support": "Resume review, interview prep, referrals",
-      "cloud_resources": "Free credits for cloud platforms",
-      "hardware_kits": "IoT starter kits for hardware projects"
+      "live_classes": "2 live one-hour classes per week, coding along with the instructor",
+      "homework": "Homework after every class, and a mixed-review assignment at the end of every month so earlier skills stay sharp",
+      "practice": "3-4 hours of projects and challenges between classes",
+      "review": "Every submitted project reviewed with written feedback; recurring issues reopened in class"
     },
     "certification": {
-      "phase_certificates": "Certificate after each 6-month phase",
-      "specialization_badges": "20+ skill badges to earn",
-      "final_certificate": "Python Expert Certification",
-      "linkedin_badges": "Verifiable LinkedIn certifications",
-      "project_portfolio": "100+ projects showcase",
-      "recommendation_letters": "From instructors and mentors"
+      "completion": "Certificate from Modern Age Coders, awarded on passing the final exam. Fall short and there is focused revision and a free retest: the certificate certifies knowledge, not attendance"
+    },
+    "support_provided": {
+      "doubt_support": "WhatsApp doubt support between classes, so nobody stays stuck on a bug for days",
+      "progress_updates": "Regular progress notes to parents: what was built, what comes next, and where encouragement at home helps"
     }
   },
   "prerequisites": {
-    "education": "Basic computer literacy",
-    "coding_experience": "None required - absolute beginners welcome",
-    "equipment": "Computer with internet connection",
-    "time_commitment": "12-15 hours per week",
-    "age": "13-19 years (teen-optimized content)",
-    "motivation": "Passion for technology and creating"
+    "coding_experience": "None. The course starts from the very first line of code",
+    "computer_skills": "Comfortable typing and managing files and folders",
+    "equipment": "A computer with a stable internet connection; every tool used in the course is free",
+    "age": "13 to 18. Batches are grouped by age and pace so the room always fits",
+    "time_commitment": "2 live classes plus 3-4 hours of practice a week"
   },
   "who_is_this_for": {
-    "complete_beginners": "Never coded before? Perfect starting point",
-    "young_creators": "Want to build games, apps, websites",
-    "future_engineers": "Preparing for tech careers",
-    "problem_solvers": "Love automating and solving problems",
-    "entrepreneurs": "Want to build own products",
-    "hackers": "Interested in cybersecurity (ethical)",
-    "data_enthusiasts": "Fascinated by data and AI"
+    "complete_beginners": "Teens starting from zero who want a structured road instead of a pile of scattered tutorials",
+    "game_builders": "Students who learn best when the output is a game they can hand to a friend",
+    "future_engineers": "Teens eyeing engineering or computer science who want the real foundation under the grades",
+    "automators": "The kind of student who would rather write a script than do a boring task twice",
+    "ai_curious": "Teens who want to build with AI and understand it, not just chat with it"
   },
   "career_paths_after_completion": [
-    "Python Developer (Entry to Senior level)",
-    "Full-Stack Web Developer",
-    "Data Scientist / Data Engineer",
-    "Machine Learning Engineer",
-    "Game Developer",
-    "DevOps Engineer",
-    "Security Engineer / Ethical Hacker",
-    "Automation Engineer",
-    "Mobile App Developer",
-    "Open Source Maintainer",
-    "Technical Educator / Content Creator",
-    "Startup Founder / CTO"
+    "AI and Machine Learning Masterclass: the natural next step once Python is fluent",
+    "Data Structures and Algorithms: competitive programming and interview-style problem solving",
+    "Deeper web development: from Flask into Django, React and production-grade apps",
+    "School exams: a serious head start for CBSE, ICSE and AP-level computer science",
+    "Real small projects: sites, tools and automations for family, school clubs and local teams"
   ],
   "course_guarantees": {
     "live_classes": "Live, interactive classes with a real instructor, never pre-recorded videos.",
     "small_batches": "Small batches only: group classes are capped at 10 students, with mini-batch (3 to 4 students) and personal 1-on-1 options.",
-    "structured_curriculum": "A structured, well-paced curriculum taught step by step, with hands-on practice in every session.",
+    "structured_curriculum": "A structured, well-paced curriculum taught step by step, with classwork in every session and homework after every class.",
+    "real_assessment": "Mixed-review assignments after every month and a final exam that decides the certificate: real knowledge, real work, real projects.",
     "doubt_support": "Doubt support between classes over WhatsApp, so you are never left stuck.",
-    "certificate": "A course-completion certificate you can share.",
+    "certificate": "A certificate you earn by passing the final exam, with a free retest after revision if needed.",
     "free_demo": "A free demo class before you enrol, so you can decide with no pressure."
   },
   "faqs": [
     {
       "question": "What will my teen build in this Python course?",
-      "answer": "Over the 2-year journey students build 100+ projects: games with Pygame, web applications with Flask and Django, automation scripts, data science and machine learning experiments, and advanced work with Python internals in the final phase. The projects are chosen to feel exciting to teens, like bots, games, and app clones, while quietly building professional skills."
+      "answer": "More than 30 real projects across ten months: arcade games in Pygame published on itch.io, desktop apps like study timers and flashcards, automation scripts that organize files and track prices, an honest data analysis of a real dataset, a Flask web app with user accounts deployed to a public URL, and a final AI-powered capstone. Every project is built by the student and reviewed with written feedback."
     },
     {
-      "question": "Is this the right level for my teenager?",
-      "answer": "The course is written for ages 13 to 19 and starts from absolute zero, so no prior coding is needed. Teens who already know some Python simply move through the early modules faster."
+      "question": "How long does it take a teenager to learn Python properly?",
+      "answer": "Most students reach a genuinely advanced level in 10 months at 2 live classes a week plus 3 to 4 hours of practice. The syllabus deliberately keeps 2 months of margin in hand: students who need more repetition take up to 12 months, with no rushing and no penalty. Progress is visible early, the first playable text game appears within the first month."
     },
     {
-      "question": "Why is the course 2 years long?",
-      "answer": "Because it goes far beyond syntax: the four phases cover fundamentals and object-oriented programming, full web development, specializations like game development, data science, and automation, and finally expert-level Python. Students see real progress within the first month; the 2-year arc is what takes them from beginner to genuinely advanced."
+      "question": "How is my teen assessed? Is the certificate just for attending?",
+      "answer": "No. Classwork runs inside every session, homework follows every class, and each month ends with an assignment that deliberately mixes new questions with earlier topics so knowledge compounds instead of fading. Every phase closes with a cumulative check, and the course ends with a final exam: a practical build plus written questions drawn from the whole syllabus. Passing earns the certificate; falling short earns a focused revision plan and a free retest. We optimize for real knowledge and real depth, not a stream of feel-good badges."
+    },
+    {
+      "question": "Does my teen need maths or prior coding experience?",
+      "answer": "No prior coding at all, and ordinary school maths is plenty. The course teaches logical thinking from scratch, and the maths that appears, coordinates in games, averages in data analysis, grows naturally out of projects rather than being a prerequisite. Teens who already know some Python simply move faster through the early months."
+    },
+    {
+      "question": "Is Python the right first language for a teenager?",
+      "answer": "For most teens, yes. Python reads close to English, produces a working program in the first class, and then scales all the way up: it is the language of choice in AI, data science and automation, and one of the two languages accepted in most school-level computer science exams. Nothing learned here has to be unlearned later."
     },
     {
       "question": "What software is needed, and is it free?",
-      "answer": "Everything is free: Python itself, the VS Code or PyCharm editors used in class, and open-source libraries like Pygame, Flask, and Django. Any reasonably modern computer with an internet connection can run the full course."
+      "answer": "Everything is free: Python itself, the VS Code editor, and open-source libraries like Pygame, Flask, pandas and scikit-learn. Any reasonably modern computer with a stable internet connection can run the full course. Where an AI service needs an account, it is set up together with a parent."
+    },
+    {
+      "question": "How is AI taught in this course?",
+      "answer": "In two honest layers. First, machine learning fundamentals with scikit-learn, where students train real models and learn to evaluate them without fooling themselves. Second, modern AI APIs, where they build features like a study-buddy that answers questions over their own notes. The goal is a teen who builds with AI and understands its limits, not one who just chats with it."
     },
     {
       "question": "Where does this lead after the course?",
-      "answer": "Python is the doorway language: graduates commonly continue into our AI and machine learning masterclass, or the data structures and algorithms course for competitive programming and interview-style problem solving. The project portfolio built here carries directly into college applications and tech pathways."
+      "answer": "Three natural roads: our AI and Machine Learning Masterclass for teens who caught the AI spark, the Data Structures and Algorithms course for competitive programming, or deeper web development from Flask into Django and React. The portfolio built here, games, a deployed app, an AI capstone, carries directly into school projects and college applications."
     },
     {
-      "question": "How much does the Python masterclass cost?",
-      "answer": "₹1,499 per month for group classes, with 2 live classes weekly and at most 10 teens per batch. Mini batches of 3-4 students are ₹2,999 per month, and personal 1-on-1 tuition with 2 private classes a week is ₹4,999 per month. International students pay a price set for their own country, shown on this page in their local currency."
+      "question": "How much does the Python course cost?",
+      "answer": "₹1,499 per month for group classes, with 2 live classes weekly and at most 10 teens per batch. Mini batches of 3-4 students are ₹2,999 per month, and personal 1-on-1 classes are ₹4,999 per month. International students pay a price set for their own country, shown on this page in their local currency."
     },
     {
       "question": "Is a trial class available?",
@@ -1708,11 +960,11 @@
     },
     {
       "question": "How are the classes taught?",
-      "answer": "Through live 1-hour online sessions with a real teacher, never pre-recorded videos. Classes are interactive and small; students write and run code during class, not just watch someone else do it."
+      "answer": "Through live 1-hour online sessions with a real teacher, never pre-recorded videos. Classes are interactive and small; students write and run code during class, not just watch someone else do it. Group batches are capped at 10, with mini-batch and 1-on-1 options for closer attention."
     },
     {
       "question": "Does the course include a certificate?",
-      "answer": "Yes, finishing the masterclass earns a Python certification backed by a portfolio of 100+ real projects. The portfolio matters most: it shows precisely what your teen can build, not just what they sat through."
+      "answer": "Yes, and it is earned, not handed out: the certificate is awarded on passing the final exam, with a free retest after revision if the first attempt falls short. Alongside it stands the portfolio, 30+ projects, published games, a deployed web app and an AI capstone, which shows exactly what your teen can build, not just what they sat through."
     }
   ]
 }
