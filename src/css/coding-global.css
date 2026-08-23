@@ -147,6 +147,7 @@
 .cg-root.cg-qbl { --cg-accent: #7E3576; --cg-accent-soft: rgba(126,53,118,.09); }   /* Al Qabil */
 .cg-root.cg-tqh { --cg-accent: #62409B; --cg-accent-soft: rgba(98,64,155,.09); }   /* Taqah */
 .cg-root.cg-dnk { --cg-accent: #8E2F52; --cg-accent-soft: rgba(142,47,82,.09); }   /* Dhank */
+.cg-root.cg-wam { --cg-accent: #7D4A18; --cg-accent-soft: rgba(125,74,24,.09); }   /* Wadi Al Maawil */
 .cg-root.cg-wst { --cg-accent: #4A4800; --cg-accent-soft: rgba(74,72,0,.09); }   /* Al Wusta, the khaki scrub of the Jiddat al-Harasis */
 
 /* --------------------------------------------------------------------------

@@ -3436,5 +3436,41 @@
       "A complete list of the wilayat's valleys. The sources name Wadi Al Fateh and Wadi Qumeirah as examples among many, and the page treats them as a sample rather than a list.",
       "A population for the wilayat. No census table could be traced in this session, so none appears and the page argues from terrain and craft instead."
     ]
+  },
+  "coding-classes-in-wadi-al-maawil": {
+    "market": "Wadi Al Maawil, Al Batinah South",
+    "bodyClass": "cg-wam",
+    "curriculumAuthority": "Oman Ministry of Education, General Education Diploma. The page argues from the shape of the wilayat rather than from curriculum: more than fifteen fortified sites means settlements spread through the wadis, so no single meeting point suits most of them and a lesson that travels is what reaches all of them alike.",
+    "localProject": "The famous example mistaken for the typical one. Over 15 castles stand in the wilayat and Al Safala Castle carries its emblem; scaling that one across fifteen gives 27,000 square metres against a true 5,740, which is 370 per cent too high, while scaling the median gives 3,900, 32 per cent too low. Al Safala alone is 31 per cent of the total and only 4 of 15 sites exceed the mean, with mean 383 against median 260. Assigned to this page and no other.",
+    "requiredMentions": [
+      "Al Safala Castle",
+      "over 15 castles",
+      "15 castles",
+      "emblem of this ancient wilayat",
+      "daggers",
+      "palm fronds",
+      "heritage walkway",
+      "pottery",
+      "skilled craftsmen"
+    ],
+    "sources": [
+      {
+        "claim": "Within the boundary of Wadi al Maawil stand over 15 castles, among them Al Safala Castle which takes centre stage and dons the emblem of this ancient wilayat; skilled craftsmen there continue to craft daggers, jewellery, pottery and palm fronds.",
+        "url": "https://www.omanobserver.om/article/1141138/oman/unlocking-the-enchanting-history-of-wadi-al-maawil"
+      },
+      {
+        "claim": "Wadi Al Maawil has opened a heritage walkway.",
+        "url": "https://www.thearabianstories.com/2024/11/16/wadi-al-maawil-opens-heritage-walkway-in-oman/"
+      },
+      {
+        "claim": "Wadi Al Maawil is a province of Al Batinah South Governorate with a population of 20,206 recorded in 2020.",
+        "url": "https://en.wikipedia.org/wiki/Wadi_Al_Maawil"
+      }
+    ],
+    "rejectedClaims": [
+      "A single population figure. One reference gives 20,206 for the 2020 census and a population database gives 20,174 for the same census. Both appear on the page and neither is adopted as the figure.",
+      "Floor areas for any castle. No survey was found, so all fifteen areas in the project are teaching values and are labelled as such in the project steps, the pitfalls note and the FAQ.",
+      "An exact castle count. The published figure is over 15, so fifteen is used as the smallest number consistent with the source rather than as a count."
+    ]
   }
 }
