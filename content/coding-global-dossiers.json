@@ -3291,5 +3291,42 @@
       "A population for the wilayat. No census table could be traced in this session, so none appears.",
       "A precise start date. The published wording is early 2027 and that hedge is kept."
     ]
+  },
+  "coding-classes-in-manah": {
+    "market": "Manah, Ad Dakhiliyah",
+    "bodyClass": "cg-mnh",
+    "curriculumAuthority": "Oman Ministry of Education, General Education Diploma. The page argues from the wilayat's form rather than from curriculum: Manah is old quarters, villages and farmland rather than a single centre, so there is no address convenient to everyone and a lesson delivered over a connection does not need one.",
+    "localProject": "A fast search that silently requires an order nobody supplied. Harat Al Bilad holds 376 houses; binary search over the ordered list finds 376 of 376, and over the same records as recorded it finds 8, reporting 368 present houses as absent, a 97.9 per cent failure rate. It answers in about nine steps either way and raises no error or warning at all. Assigned to this page and no other.",
+    "requiredMentions": [
+      "Harat Al Bilad",
+      "376 houses",
+      "250 wells",
+      "Fiqain Castle",
+      "Al Fiqain",
+      "nine centuries",
+      "400 years",
+      "Fiqh encyclopedias",
+      "palm groves"
+    ],
+    "sources": [
+      {
+        "claim": "Harat Al Bilad in the Wilayat of Manah is one of Oman's largest ancient archaeological neighbourhoods, containing 376 houses and nearly 250 wells dating back nine centuries, and was the seat of an active scientific movement where many books and Fiqh encyclopedias were reproduced.",
+        "url": "https://timesofoman.com/article/113342-we-love-oman-ancient-archaeological-neighbourhood-of-harat-al-bilad"
+      },
+      {
+        "claim": "Fiqain Castle, in Al Fiqain village, was built some 400 years ago and its position affords views of the old residential quarters, palm groves and farms of the village.",
+        "url": "https://www.omanobserver.om/article/1159939/oman/governorates/manah-a-remarkable-blend-of-history-and-natural-beauty"
+      },
+      {
+        "claim": "Manah is a wilayat of the Ad Dakhiliyah governorate of Oman.",
+        "url": "https://en.wikipedia.org/wiki/Manah,_Oman"
+      }
+    ],
+    "rejectedClaims": [
+      "A register of individual house identifiers. None is published, so the identifiers used in the exercise are teaching values and are labelled as such in the project steps, the pitfalls note and the FAQ.",
+      "An exact well count. The published figure is nearly 250 and the hedge is kept everywhere it appears.",
+      "An exact age for Fiqain Castle. The published wording is some 400 years ago, kept as written rather than converted into a construction date.",
+      "A population for the wilayat. No census table could be traced in this session, so none appears."
+    ]
   }
 }

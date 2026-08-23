@@ -1858,4 +1858,8 @@
 # International growth cluster (coding-global.css). Must precede the /* catch-all.
 /coding-classes-in-yanqul /src/pages/coding-classes-in-yanqul.html 200
 /coding-classes-in-yanqul.md /src/pages/coding-classes-in-yanqul.md 200
+
+# International growth cluster (coding-global.css). Must precede the /* catch-all.
+/coding-classes-in-manah /src/pages/coding-classes-in-manah.html 200
+/coding-classes-in-manah.md /src/pages/coding-classes-in-manah.md 200
 /* /src/pages/404.html 404
