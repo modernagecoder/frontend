@@ -2,64 +2,58 @@
   "meta": {
     "slug": "complete-java-programming-masterclass-college",
     "date": "2025-10-24",
-    "title": "Java Programming: Core Java, Spring Boot & Microservices",
-    "description": "Live online Java course for college students: a 1-year path from Core Java to Spring Boot, microservices, Hibernate, databases and cloud deployment.",
+    "dateModified": "2026-08-23",
+    "title": "Java Course for College: Core Java to Spring Boot",
+    "description": "Java course for college students and professionals: core Java, collections and concurrency, then Spring Boot APIs with security and tests, in 10-12 months.",
     "keywords": [
-      "java programming",
-      "java masterclass",
-      "learn java",
-      "java for beginners",
-      "spring boot",
-      "spring framework",
-      "hibernate",
-      "microservices",
-      "java enterprise",
-      "java web development",
-      "java certification",
-      "core java",
-      "advanced java",
-      "java developer",
-      "java career",
-      "java for kids"
+      "java programming course online",
+      "java course for college students",
+      "core java course for beginners",
+      "spring boot course online",
+      "java full course with projects",
+      "learn java from zero",
+      "java course india",
+      "java collections and multithreading course",
+      "spring boot rest api course",
+      "java masterclass online",
+      "best java course for placements",
+      "java backend development course"
     ],
-    "category": "Professional Java Development",
+    "category": "Programming",
     "taxonomy": "programming",
     "price": {
       "group": "₹1,499/month",
       "personal": "₹4,999/month"
     },
-    "duration": "12 months (52 weeks)",
-    "level": "Complete Beginner to Enterprise Professional",
-    "commitment": "15-20 hours/week recommended",
-    "certification": "Industry-recognized Java Developer certification upon completion",
+    "duration": "10-12 months (44-52 weeks)",
+    "level": "Complete beginner (18+); college students, graduates and working professionals",
+    "commitment": "2 live classes/week + 4-6 hours practice",
+    "certification": "Certificate from Modern Age Coders, awarded on passing the final exam",
     "image_path": "java-college.webp"
   },
   "program_overview": {
-    "title": "Complete Java Programming Masterclass",
-    "tagline": "From 'Hello World' to Enterprise Microservices Architecture",
-    "description": "This is not just a Java course, it's a complete transformation into an enterprise-ready Java professional. Whether you're a curious beginner, student, working professional, or someone with zero coding experience, this 1-year masterclass will turn you into a highly skilled Java developer capable of building scalable enterprise applications, microservices, RESTful APIs, and cloud-native solutions.\n\nYou'll master Java from ground zero to enterprise architect level: from basic syntax to advanced design patterns, from console applications to Spring Boot microservices, from JDBC to Hibernate ORM, from monolithic apps to cloud-native distributed systems. By the end, you'll have built 40+ projects, mastered the entire Java ecosystem, and be ready for senior Java developer roles in top tech companies.",
+    "title": "Java Programming Masterclass",
+    "tagline": "The language enterprises run on and placements test: core Java to real depth, then Spring Boot the way backend teams actually use it.",
+    "description": "Java is still the backbone of enterprise software and the single most-tested language in Indian placements, and the difference between knowing Java syntax and owning Java depth, collections, concurrency, the memory model, decides both interviews and real work. This live online masterclass builds that depth in order: core Java and object-oriented thinking done properly, then the engine room, collections in depth, exceptions, multithreading and modern Java features, design patterns and JDBC with real testing habits, then the job stack: Spring Boot, Spring Data JPA, security, REST APIs designed and tested like a professional. A finale month ships a Spring Boot capstone and sits the final exam.\n\nThe pace is honest: ten teaching months at two live classes a week plus four to six hours of practice, with two more in hand. Problem sets, monthly mixed reviews, phase exams, and a final exam that decides the certificate with a free retest.",
     "what_makes_this_different": [
-      "Starts from absolute zero - perfect for complete beginners",
-      "Separate learning tracks for kids (12+), teens, and adults",
-      "1 year of structured, industry-aligned learning",
-      "Covers Core Java + Enterprise Java (Spring, Hibernate, Microservices)",
-      "Real enterprise projects and industry case studies",
-      "Hands-on with latest Java versions (Java 17+)",
-      "Interview preparation for top companies",
-      "Build production-ready enterprise portfolio",
-      "Direct path to high-paying Java developer jobs"
+      "Placement-grade core: collections, concurrency and OOP at the depth interviews probe",
+      "Modern Java throughout: streams, lambdas and current LTS features, not textbook Java",
+      "Spring Boot as teams use it: REST APIs, JPA, security and tests, not hello-world",
+      "Design patterns and JDBC before the framework, so Spring is understood, not incanted",
+      "An honest 10-month arc with 2 months in hand",
+      "Real assessment: weekly problem sets, monthly mixed reviews, phase exams and a final exam with a free retest"
     ],
     "learning_path": {
-      "phase_1": "Foundation (Months 1-3): Java Fundamentals, OOP Basics, Core Java Concepts",
-      "phase_2": "Intermediate (Months 4-6): Advanced OOP, Collections, Multithreading, Design Patterns",
-      "phase_3": "Enterprise (Months 7-9): Spring Framework, Spring Boot, Hibernate, REST APIs, Databases",
-      "phase_4": "Professional (Months 10-12): Microservices, Spring Cloud, Testing, DevOps, Cloud Deployment"
+      "phase_1": "Foundations (Months 1-3): core Java and object-oriented programming properly",
+      "phase_2": "The engine room (Months 4-6): collections, concurrency, modern Java, patterns and testing",
+      "phase_3": "The job stack (Months 7-9): Spring Boot, JPA, security and production habits",
+      "phase_4": "The finale (Month 10): a Spring Boot capstone and the final exam"
     },
     "career_outcomes": [
-      "Junior Java Developer (after 3 months)",
-      "Java Developer (after 6 months)",
-      "Senior Java Developer / Backend Engineer (after 9 months)",
-      "Lead Java Developer / Solutions Architect (after 12 months)"
+      "The most placement-tested language, owned at interview depth",
+      "Backend capability on the stack enterprises actually run",
+      "A Spring Boot capstone with security and tests to defend",
+      "Honest next roads: backend roles, microservices later, DSA alongside"
     ]
   },
   "phase_1_foundation": {
@@ -67,8 +61,8 @@
     "description": "Build rock-solid Java fundamentals. Learn programming logic, master Java syntax, OOP principles, and create your first applications.",
     "month_1_2": {
       "title": "Months 1-2: Java Fundamentals & Programming Basics",
-      "weeks": "Week 1-8",
-      "week_1_2": {
+      "weeks": "Weeks 1-7",
+      "week_1": {
         "title": "Introduction to Java & Development Environment Setup",
         "topics": [
           "What is Java? History, features, and platform independence",
@@ -93,7 +87,7 @@
         ],
         "practice": "Daily: 30 min Java syntax practice, write 5-10 simple programs"
       },
-      "week_3_4": {
+      "week_2_3": {
         "title": "Variables, Data Types & Operators",
         "topics": [
           "Variables: declaration, initialization, naming rules",
@@ -123,7 +117,7 @@
         ],
         "practice": "Solve 30 problems on variables, data types, and operators"
       },
-      "week_5_6": {
+      "week_4_5": {
         "title": "Control Flow Statements",
         "topics": [
           "Boolean expressions and conditions",
@@ -158,7 +152,7 @@
         ],
         "practice": "Solve 40 control flow and loop problems"
       },
-      "week_7_8": {
+      "week_6_7": {
         "title": "Methods & Arrays",
         "topics": [
           "Methods: definition, purpose, and structure",
@@ -195,10 +189,10 @@
         "practice": "Create 25 methods for various functionalities, solve 30 array problems"
       }
     },
-    "month_3_4": {
+    "month_3": {
       "title": "Month 3: Object-Oriented Programming Fundamentals",
-      "weeks": "Week 9-13",
-      "week_9_10": {
+      "weeks": "Weeks 8-13",
+      "week_8_9": {
         "title": "Classes, Objects & OOP Basics",
         "topics": [
           "Object-Oriented Programming paradigm",
@@ -234,7 +228,7 @@
         ],
         "practice": "Create 20 different classes modeling real-world entities"
       },
-      "week_11_12": {
+      "week_10_11": {
         "title": "Inheritance & Polymorphism",
         "topics": [
           "Inheritance: IS-A relationship",
@@ -268,7 +262,7 @@
         ],
         "practice": "Build 15 inheritance hierarchies, solve 25 polymorphism problems"
       },
-      "week_13": {
+      "week_12_13": {
         "title": "Abstraction & Interfaces",
         "topics": [
           "Abstraction: hiding implementation details",
@@ -302,17 +296,17 @@
           "Features: Books, members, issue/return, search, OOP principles"
         ],
         "practice": "Solve 30 abstraction and interface problems",
-        "assessment": "Phase 1 Final Assessment - Core Java & OOP fundamentals test"
+        "assessment": "Phase 1 exam: a practical build defended live, plus a written paper mixing this phase with everything before it"
       }
     }
   },
   "phase_2_frontend_mastery": {
     "title": "PHASE 2: Intermediate Java & Advanced Concepts (Months 4-6, Weeks 14-26)",
     "description": "Master advanced Java features, Collections Framework, exception handling, file I/O, multithreading, and design patterns.",
-    "month_7_8": {
-      "title": "Months 4-5: Advanced Java Features & Collections",
-      "weeks": "Week 14-22",
-      "week_27_28": {
+    "month_4": {
+      "title": "Month 4: Advanced Java Features & Collections",
+      "weeks": "Weeks 14-18",
+      "week_14": {
         "title": "String Handling & Regular Expressions",
         "topics": [
           "String class: immutability and string pool",
@@ -345,7 +339,7 @@
         ],
         "practice": "Solve 35 string manipulation and regex problems"
       },
-      "week_29_30": {
+      "week_15": {
         "title": "Exception Handling & Error Management",
         "topics": [
           "What are exceptions? Error vs Exception",
@@ -378,7 +372,7 @@
         ],
         "practice": "Solve 25 exception handling scenarios"
       },
-      "week_31_32": {
+      "week_16": {
         "title": "Collections Framework - Part 1",
         "topics": [
           "Collections Framework overview and architecture",
@@ -410,7 +404,7 @@
         ],
         "practice": "Solve 40 List and Set problems"
       },
-      "week_33_34": {
+      "week_17": {
         "title": "Collections Framework - Part 2",
         "topics": [
           "Map interface: key-value pairs",
@@ -443,7 +437,7 @@
         ],
         "practice": "Solve 40 Map and Queue problems"
       },
-      "week_35": {
+      "week_18": {
         "title": "Generics & Advanced Collections",
         "topics": [
           "Introduction to generics: type parameters",
@@ -473,10 +467,10 @@
         "practice": "Create 15 generic classes, solve 25 generics problems"
       }
     },
-    "month_9_10": {
-      "title": "Month 6: File I/O, Multithreading & Modern Java",
-      "weeks": "Week 23-26",
-      "week_36_37": {
+    "month_5": {
+      "title": "Month 5: File I/O, Multithreading & Modern Java",
+      "weeks": "Weeks 19-22",
+      "week_19": {
         "title": "File I/O & Serialization",
         "topics": [
           "File handling in Java: File class",
@@ -511,7 +505,7 @@
         ],
         "practice": "Build 15 file handling applications"
       },
-      "week_38_39": {
+      "week_20": {
         "title": "Multithreading & Concurrency - Part 1",
         "topics": [
           "Multithreading concepts: process vs thread",
@@ -542,7 +536,7 @@
         ],
         "practice": "Solve 30 multithreading problems"
       },
-      "week_40_41": {
+      "week_21": {
         "title": "Multithreading & Concurrency - Part 2",
         "topics": [
           "Executor framework: ExecutorService",
@@ -573,7 +567,7 @@
         ],
         "practice": "Build 12 concurrent applications"
       },
-      "week_42_43": {
+      "week_22": {
         "title": "Java 8+ Modern Features",
         "topics": [
           "Lambda expressions: syntax and usage",
@@ -603,31 +597,12 @@
           "Functional programming utilities"
         ],
         "practice": "Solve 40 lambda and streams problems"
-      },
-      "week_44": {
-        "title": "Phase 2 Capstone Project",
-        "topics": [
-          "Advanced OOP implementation",
-          "Collections framework usage",
-          "Exception handling throughout",
-          "File-based persistence",
-          "Multithreading for concurrent operations",
-          "Modern Java features (lambdas, streams)"
-        ],
-        "projects": [
-          "PHASE 2 CAPSTONE: Banking Management System",
-          "Features: Multiple account types, transactions, threading for concurrent operations, file persistence, comprehensive OOP",
-          "Alternative: E-commerce Inventory System with multi-user support",
-          "Alternative: Hospital Management System",
-          "Alternative: Hotel Reservation System with concurrent booking"
-        ],
-        "assessment": "Phase 2 Final Exam - Advanced Java concepts comprehensive test"
       }
     },
-    "month_11_12": {
-      "title": "PHASE 2 CONTINUED - Design Patterns & Best Practices",
-      "weeks": "Week 14-26 (distributed)",
-      "week_45_46": {
+    "month_6": {
+      "title": "Month 6: Design Patterns, JDBC & Testing",
+      "weeks": "Weeks 23-26",
+      "week_23": {
         "title": "Design Patterns - Part 1 (Creational)",
         "topics": [
           "Design patterns introduction and importance",
@@ -652,7 +627,7 @@
         ],
         "practice": "Implement all 5 creational patterns in different scenarios"
       },
-      "week_47_48": {
+      "week_24": {
         "title": "Design Patterns - Part 2 (Structural & Behavioral)",
         "topics": [
           "Adapter pattern: interface adaptation",
@@ -680,7 +655,7 @@
         ],
         "practice": "Implement 15+ design patterns with real examples"
       },
-      "week_49_50": {
+      "week_25": {
         "title": "JDBC & Database Programming",
         "topics": [
           "Introduction to JDBC (Java Database Connectivity)",
@@ -712,7 +687,7 @@
         ],
         "practice": "Build 10 database-driven applications"
       },
-      "week_51": {
+      "week_26": {
         "title": "Unit Testing with JUnit",
         "topics": [
           "Introduction to testing: why test?",
@@ -740,46 +715,18 @@
           "Parameterized tests for validators",
           "Integration tests for application"
         ],
-        "practice": "Write tests for all previous projects, achieve 80%+ coverage"
-      },
-      "week_52": {
-        "title": "Build Tools & Version Control",
-        "topics": [
-          "Build automation importance",
-          "Maven: project management tool",
-          "Maven project structure",
-          "POM.xml configuration",
-          "Maven lifecycle phases",
-          "Dependency management with Maven",
-          "Maven repositories: local, central, remote",
-          "Gradle: modern build tool",
-          "Gradle build scripts",
-          "Gradle vs Maven comparison",
-          "Git version control (review/deep dive)",
-          "Git with Java projects",
-          "GitHub collaboration",
-          ".gitignore for Java projects",
-          "CI/CD basics with GitHub Actions"
-        ],
-        "projects": [
-          "Maven-based Java project",
-          "Multi-module Maven project",
-          "Gradle project setup",
-          "Dependency management practice",
-          "Git repository for all projects",
-          "Automated build with Maven/Gradle"
-        ],
-        "practice": "Convert all projects to Maven/Gradle structure"
+        "practice": "Write tests for all previous projects, achieve 80%+ coverage",
+        "assessment": "Phase 2 exam: a practical build defended live, plus a written paper mixing this phase with everything before it"
       }
     }
   },
   "phase_3_backend_engineering": {
     "title": "PHASE 3: Enterprise Java & Web Development (Months 7-9, Weeks 27-39)",
     "description": "Master enterprise Java development with Servlets, JSP, Spring Framework, Spring Boot, Hibernate, and RESTful APIs.",
-    "month_13_14": {
-      "title": "Months 7-8: Web Development & Spring Framework",
-      "weeks": "Week 27-35",
-      "week_53_54": {
+    "month_7": {
+      "title": "Month 7: Web Development & Spring Framework",
+      "weeks": "Weeks 27-30",
+      "week_27": {
         "title": "Servlets & JSP Fundamentals",
         "topics": [
           "Web application architecture: client-server",
@@ -813,39 +760,7 @@
         ],
         "practice": "Build 10 servlet-based web applications"
       },
-      "week_55_56": {
-        "title": "Advanced Servlets & Web Technologies",
-        "topics": [
-          "Servlet filters: request/response filtering",
-          "Filter chain and multiple filters",
-          "Servlet listeners: lifecycle events",
-          "ServletContext and application scope",
-          "JSTL (JSP Standard Tag Library)",
-          "EL (Expression Language) in JSP",
-          "Custom JSP tags",
-          "MVC architecture in web applications",
-          "Front Controller pattern",
-          "DAO (Data Access Object) pattern",
-          "Connection pooling in web apps",
-          "AJAX with servlets",
-          "JSON response from servlets",
-          "File download servlet",
-          "Security in web applications",
-          "Form-based authentication"
-        ],
-        "projects": [
-          "Complete CRUD web application",
-          "Blog application with Servlet-JSP",
-          "Employee management web app",
-          "E-commerce product catalog",
-          "User authentication and authorization",
-          "File upload/download system",
-          "RESTful service with servlets",
-          "MVC-based web application"
-        ],
-        "practice": "Build 8 complete web applications"
-      },
-      "week_57_58": {
+      "week_28": {
         "title": "Spring Framework Core",
         "topics": [
           "Introduction to Spring Framework",
@@ -876,7 +791,7 @@
         ],
         "practice": "Create 15 Spring DI scenarios"
       },
-      "week_59_60": {
+      "week_29": {
         "title": "Spring Boot Fundamentals",
         "topics": [
           "Introduction to Spring Boot",
@@ -909,7 +824,7 @@
         ],
         "practice": "Build 10 REST APIs with Spring Boot"
       },
-      "week_61": {
+      "week_30": {
         "title": "Spring Data JPA & Hibernate",
         "topics": [
           "JPA (Java Persistence API) introduction",
@@ -943,10 +858,10 @@
         "practice": "Build 10 database applications with Spring Data JPA"
       }
     },
-    "month_15_16": {
-      "title": "Month 9: Advanced Spring Boot & Microservices Basics",
-      "weeks": "Week 36-39",
-      "week_62_63": {
+    "month_8": {
+      "title": "Month 8: Advanced Spring Boot & Microservices Basics",
+      "weeks": "Weeks 31-35",
+      "week_31": {
         "title": "Spring Security & Authentication",
         "topics": [
           "Spring Security introduction",
@@ -978,7 +893,7 @@
         ],
         "practice": "Secure all REST APIs with authentication"
       },
-      "week_64_65": {
+      "week_32": {
         "title": "Spring Boot Advanced Features",
         "topics": [
           "Spring Boot Actuator: production-ready features",
@@ -1011,7 +926,7 @@
         ],
         "practice": "Add production features to all Spring Boot apps"
       },
-      "week_66_67": {
+      "week_33": {
         "title": "RESTful API Best Practices & Microservices Intro",
         "topics": [
           "REST API design principles",
@@ -1043,7 +958,7 @@
         ],
         "practice": "Design and document 5 production-ready APIs"
       },
-      "week_68_69": {
+      "week_34": {
         "title": "Spring Boot with External Services",
         "topics": [
           "RestTemplate for HTTP clients",
@@ -1075,7 +990,7 @@
         ],
         "practice": "Integrate 8 external services in applications"
       },
-      "week_70": {
+      "week_35": {
         "title": "Testing Spring Boot Applications",
         "topics": [
           "Spring Boot testing overview",
@@ -1107,10 +1022,10 @@
         "practice": "Write comprehensive tests for all Spring Boot projects"
       }
     },
-    "month_17_18": {
-      "title": "PHASE 3 COMPLETION - Month 9 Final Week",
-      "weeks": "Week 27-39 (distributed)",
-      "week_71_72": {
+    "month_9": {
+      "title": "Month 9: Production Java: Deployment, Monitoring & Security",
+      "weeks": "Weeks 36-39",
+      "week_36": {
         "title": "Database Design & Optimization",
         "topics": [
           "Relational database design principles",
@@ -1140,7 +1055,7 @@
         ],
         "practice": "Optimize databases for all projects"
       },
-      "week_73_74": {
+      "week_37": {
         "title": "Application Deployment & DevOps",
         "topics": [
           "Packaging Spring Boot applications",
@@ -1170,7 +1085,7 @@
         ],
         "practice": "Deploy all applications to production environments"
       },
-      "week_75_76": {
+      "week_38": {
         "title": "Monitoring, Logging & Performance",
         "topics": [
           "Application monitoring strategies",
@@ -1200,7 +1115,7 @@
         ],
         "practice": "Add monitoring to all production applications"
       },
-      "week_77": {
+      "week_39": {
         "title": "Security Best Practices & API Standards",
         "topics": [
           "OWASP Top 10 for Java applications",
@@ -1226,638 +1141,117 @@
           "Security testing suite",
           "Code quality dashboard"
         ],
-        "practice": "Security audit all projects"
-      },
-      "week_78": {
-        "title": "Phase 3 Capstone Project",
-        "topics": [
-          "Full-stack application architecture",
-          "Spring Boot backend development",
-          "Database design and JPA",
-          "REST API development",
-          "Spring Security implementation",
-          "Testing and quality assurance",
-          "Docker deployment",
-          "Production deployment"
-        ],
-        "projects": [
-          "MAJOR CAPSTONE: E-commerce Platform Backend",
-          "Features: Product catalog, user auth (JWT), shopping cart, orders, payment integration, admin panel, email notifications, search, pagination, REST APIs, Spring Security, JPA relationships",
-          "Alternative: Social Media Platform API (posts, comments, likes, followers, messaging)",
-          "Alternative: Banking Application (accounts, transactions, loans, statements)",
-          "Alternative: Learning Management System (courses, students, enrollments, assignments, grades)"
-        ],
-        "assessment": "Phase 3 Final Exam - Enterprise Java and Spring Boot comprehensive test"
+        "practice": "Security audit all projects",
+        "assessment": "Phase 3 exam: a practical build defended live, plus a written paper mixing this phase with everything before it"
       }
     }
   },
-  "phase_4_advanced_production": {
-    "title": "PHASE 4: Microservices, Cloud & Professional Excellence (Months 10-12, Weeks 40-52)",
-    "description": "Master microservices architecture, Spring Cloud, cloud-native development, DevOps, system design, and career preparation.",
-    "month_19_20": {
-      "title": "Months 10-11: Microservices Architecture & Spring Cloud",
-      "weeks": "Week 40-48",
-      "week_79_80": {
-        "title": "Microservices Fundamentals",
+  "phase_4_finale": {
+    "title": "PHASE 4: The Finale (Month 10, Weeks 40-44)",
+    "description": "The capstone month: spec, build, ship and defend, then the final exam that decides the certificate.",
+    "month_10_finale": {
+      "title": "Month 10: Capstone and the Final Exam",
+      "weeks": "Weeks 40-44",
+      "week_40": {
+        "title": "Capstone Spec and Setup",
         "topics": [
-          "Microservices architecture principles",
-          "Monolithic vs microservices trade-offs",
-          "When to use microservices",
-          "Domain-Driven Design (DDD) basics",
-          "Bounded contexts and aggregates",
-          "Service decomposition strategies",
-          "Database per service pattern",
-          "API Gateway pattern",
-          "Service registry and discovery",
-          "Circuit breaker pattern",
-          "Bulkhead pattern",
-          "Retry and timeout patterns",
-          "Event-driven architecture",
-          "SAGA pattern for distributed transactions",
-          "CQRS (Command Query Responsibility Segregation)"
+          "Choosing the capstone: a Spring Boot product API: bookings, a commerce backend or a real-world service with security and tests",
+          "A one-page spec: scope, milestones, stack",
+          "Repository and skeleton ready on day one",
+          "Instructor sign-off before the build begins"
         ],
         "projects": [
-          "Decompose monolith into microservices",
-          "Design microservices architecture",
-          "Service boundaries definition",
-          "Event-driven microservice",
-          "SAGA pattern implementation"
+          "Approved capstone spec plus the running skeleton"
         ],
-        "practice": "Design 5 microservices architectures"
+        "practice": "Pitch the spec to the batch and absorb one hard question"
       },
-      "week_81_82": {
-        "title": "Spring Cloud Ecosystem",
+      "week_41_42": {
+        "title": "Capstone Build",
         "topics": [
-          "Spring Cloud overview",
-          "Service discovery with Eureka",
-          "Eureka server and client setup",
-          "Client-side load balancing with Ribbon",
-          "Declarative REST client: Feign",
-          "API Gateway with Spring Cloud Gateway",
-          "Gateway routing and filters",
-          "Distributed configuration: Spring Cloud Config",
-          "Config server and client",
-          "Refreshing configuration dynamically",
-          "Circuit breaker with Resilience4j",
-          "Fallback methods",
-          "Distributed tracing with Sleuth",
-          "Request correlation across services",
-          "Service mesh basics"
+          "Two focused weeks in vertical slices",
+          "Instructor checkpoints and honest scope cuts",
+          "Using the whole course: core Java depth, collections and concurrency judgment, Spring Boot, JPA and security",
+          "Daily commits and an always-working build"
         ],
         "projects": [
-          "Eureka service registry setup",
-          "Multiple microservices with discovery",
-          "API Gateway implementation",
-          "Centralized configuration server",
-          "Circuit breaker implementation",
-          "Distributed tracing setup",
-          "Complete microservices ecosystem"
+          "The capstone, feature-complete with version control"
         ],
-        "practice": "Build 3 complete microservices systems"
+        "practice": "A working build at the end of every session"
       },
-      "week_83_84": {
-        "title": "Inter-Service Communication & Messaging",
+      "week_43": {
+        "title": "Ship and Polish",
         "topics": [
-          "Synchronous vs asynchronous communication",
-          "REST for synchronous communication",
-          "gRPC for high-performance RPC",
-          "Protocol Buffers",
-          "Message-driven architecture",
-          "RabbitMQ: message broker",
-          "Exchanges, queues, and bindings",
-          "Spring AMQP for RabbitMQ",
-          "Apache Kafka: distributed streaming",
-          "Kafka topics, partitions, consumers, producers",
-          "Spring Kafka integration",
-          "Event sourcing pattern",
-          "Message ordering and exactly-once delivery",
-          "Dead letter queues",
-          "Idempotency in distributed systems"
+          "The finishing pass: edge cases, errors, documentation",
+          "Packaged and deployed: a Spring Boot artifact running outside the IDE",
+          "A README worth reading and a demo worth watching",
+          "A full-course spiral review before the exam"
         ],
         "projects": [
-          "RabbitMQ-based order processing",
-          "Kafka event streaming application",
-          "Event-driven microservices",
-          "Message queue patterns implementation",
-          "Real-time data pipeline",
-          "Event sourcing system",
-          "Asynchronous communication between services"
+          "The capstone shipped, documented and rehearsed"
         ],
-        "practice": "Build 6 messaging-based systems"
+        "practice": "Two mock demos, each tighter than the last"
       },
-      "week_85_86": {
-        "title": "Microservices Data Management",
+      "week_44": {
+        "title": "Demo Day and the Final Exam",
         "topics": [
-          "Database per service pattern",
-          "Shared database anti-pattern",
-          "Polyglot persistence",
-          "Distributed transactions challenges",
-          "Two-phase commit problems",
-          "SAGA pattern: choreography vs orchestration",
-          "Event-driven data management",
-          "Change Data Capture (CDC)",
-          "Database replication strategies",
-          "Caching in microservices",
-          "Redis for distributed caching",
-          "Cache invalidation strategies",
-          "API composition pattern",
-          "CQRS with separate read/write models",
-          "Eventual consistency"
+          "Presenting the capstone: live demo plus the hardest bug story",
+          "The honest map of next roads: backend engineering, microservices when a system earns them, DSA for placements",
+          "Where our other courses continue the journey"
         ],
         "projects": [
-          "Microservices with separate databases",
-          "SAGA choreography implementation",
-          "SAGA orchestration with state machine",
-          "CQRS pattern implementation",
-          "Distributed caching setup",
-          "Event-driven data synchronization",
-          "Polyglot persistence example"
+          "Demo day presentation delivered to the batch"
         ],
-        "practice": "Implement various data management patterns"
-      },
-      "week_87": {
-        "title": "Microservices Security & Observability",
-        "topics": [
-          "Security in microservices",
-          "Authentication and authorization in distributed systems",
-          "OAuth 2.0 and OpenID Connect",
-          "JWT for service-to-service auth",
-          "API Gateway security",
-          "Service-to-service authentication",
-          "Secrets management: Vault",
-          "Observability pillars: logs, metrics, traces",
-          "Centralized logging with ELK",
-          "Metrics with Prometheus and Grafana",
-          "Distributed tracing with Jaeger",
-          "Health checks and readiness probes",
-          "Monitoring microservices",
-          "Alerting and incident response"
-        ],
-        "projects": [
-          "Secured microservices with OAuth",
-          "JWT-based inter-service communication",
-          "Complete observability stack",
-          "Monitoring dashboard for microservices",
-          "Distributed tracing implementation",
-          "Secrets management setup",
-          "Health check endpoints"
-        ],
-        "practice": "Secure and monitor all microservices"
-      }
-    },
-    "month_21_22": {
-      "title": "Month 12: Cloud Native, DevOps & Career Excellence",
-      "weeks": "Week 49-52",
-      "week_88_89": {
-        "title": "Cloud Native Java & Kubernetes",
-        "topics": [
-          "Cloud-native principles",
-          "12-factor app methodology",
-          "Containerization with Docker (deep dive)",
-          "Multi-stage Docker builds for Java",
-          "Docker image optimization",
-          "Kubernetes introduction",
-          "Kubernetes architecture",
-          "Pods, Deployments, Services",
-          "ConfigMaps and Secrets in K8s",
-          "Persistent volumes",
-          "Horizontal Pod Autoscaling",
-          "Kubernetes for Spring Boot apps",
-          "Helm charts for Java applications",
-          "Service mesh: Istio basics",
-          "Serverless Java: AWS Lambda"
-        ],
-        "projects": [
-          "Cloud-native Spring Boot app",
-          "Optimized Docker images",
-          "Kubernetes deployment manifests",
-          "Auto-scaling Spring Boot on K8s",
-          "Helm chart creation",
-          "Service mesh implementation",
-          "Serverless function with Java",
-          "Complete cloud-native application"
-        ],
-        "practice": "Deploy all applications to Kubernetes"
-      },
-      "week_90_91": {
-        "title": "AWS & Cloud Services for Java",
-        "topics": [
-          "AWS fundamentals review",
-          "EC2 for Java applications",
-          "AWS RDS for databases",
-          "AWS S3 for object storage",
-          "AWS Lambda with Java",
-          "API Gateway with Lambda",
-          "AWS ECS and Fargate",
-          "AWS Elastic Beanstalk for Spring Boot",
-          "AWS CloudFormation",
-          "AWS SDK for Java",
-          "DynamoDB with Java",
-          "SQS and SNS messaging",
-          "AWS monitoring: CloudWatch",
-          "Azure and GCP alternatives",
-          "Multi-cloud strategies"
-        ],
-        "projects": [
-          "Deploy Spring Boot to AWS EB",
-          "Serverless API with Lambda",
-          "S3 file storage integration",
-          "RDS database connection",
-          "Complete AWS infrastructure",
-          "CloudFormation templates",
-          "Multi-service cloud deployment"
-        ],
-        "practice": "Build 5 cloud-native applications"
-      },
-      "week_92_93": {
-        "title": "DevOps & CI/CD for Java",
-        "topics": [
-          "DevOps culture and practices",
-          "CI/CD pipeline design",
-          "Jenkins for Java projects",
-          "Jenkins pipeline as code",
-          "GitLab CI/CD",
-          "GitHub Actions for Java",
-          "Building with Maven/Gradle in CI",
-          "Automated testing in pipeline",
-          "Code quality gates: SonarQube",
-          "Security scanning: OWASP Dependency Check",
-          "Container image scanning",
-          "Deployment automation",
-          "Blue-green deployments",
-          "Canary releases",
-          "Infrastructure as Code: Terraform"
-        ],
-        "projects": [
-          "Complete CI/CD pipeline",
-          "Jenkins pipeline for microservices",
-          "GitHub Actions workflow",
-          "Automated testing and deployment",
-          "Quality gates implementation",
-          "Security scanning integration",
-          "Infrastructure automation",
-          "Zero-downtime deployment"
-        ],
-        "practice": "Set up CI/CD for all projects"
-      },
-      "week_94_95": {
-        "title": "System Design & Architecture",
-        "topics": [
-          "System design fundamentals",
-          "Scalability: horizontal vs vertical",
-          "Load balancing strategies",
-          "Caching layers and strategies",
-          "CDN for static content",
-          "Database sharding and partitioning",
-          "Database replication",
-          "CAP theorem",
-          "Consistency models",
-          "Message queues for decoupling",
-          "Designing for high availability",
-          "Disaster recovery planning",
-          "Rate limiting and throttling",
-          "API design best practices",
-          "System design interview preparation",
-          "Common system design problems"
-        ],
-        "projects": [
-          "Design URL shortener",
-          "Design Twitter/X",
-          "Design e-commerce platform",
-          "Design ride-sharing system",
-          "Design streaming service",
-          "Design notification system",
-          "Design chat application",
-          "System design documentation"
-        ],
-        "practice": "Solve 15 system design problems"
-      },
-      "week_96": {
-        "title": "Performance Engineering",
-        "topics": [
-          "Performance testing types",
-          "JMeter for load testing",
-          "Gatling for performance testing",
-          "Performance metrics and KPIs",
-          "Application profiling",
-          "JVM profiling tools: JProfiler, YourKit",
-          "Memory profiling and leak detection",
-          "CPU profiling",
-          "Database query optimization",
-          "Caching strategies",
-          "Connection pool tuning",
-          "JVM tuning: heap size, GC",
-          "Garbage collection algorithms",
-          "Application optimization techniques",
-          "Performance monitoring in production"
-        ],
-        "projects": [
-          "Load testing suite",
-          "Performance benchmarking",
-          "Application profiling report",
-          "JVM tuning exercise",
-          "Database optimization project",
-          "Performance dashboard",
-          "Optimization case studies"
-        ],
-        "practice": "Performance test and optimize all applications"
-      }
-    },
-    "month_23": {
-      "title": "PHASE 4 COMPLETION - Career Preparation",
-      "weeks": "Week 40-52 (distributed)",
-      "week_97": {
-        "title": "Advanced Java Topics & Specializations",
-        "topics": [
-          "Reactive programming with Project Reactor",
-          "Spring WebFlux for reactive applications",
-          "Reactive streams and backpressure",
-          "GraphQL with Spring Boot",
-          "gRPC services in Java",
-          "Apache Camel for integration",
-          "Batch processing with Spring Batch",
-          "Scheduled jobs with Quartz",
-          "Search with Elasticsearch",
-          "Caching with Hazelcast",
-          "Blockchain basics with Java",
-          "Machine Learning with Java: Weka, DL4J",
-          "Android development basics (Java)",
-          "Desktop applications: JavaFX"
-        ],
-        "projects": [
-          "Reactive REST API",
-          "GraphQL API with Spring Boot",
-          "gRPC service implementation",
-          "Batch processing application",
-          "Elasticsearch integration",
-          "Real-time data processing",
-          "Specialization project in chosen area"
-        ],
-        "practice": "Explore 3 advanced specializations"
-      },
-      "week_98": {
-        "title": "Code Quality & Best Practices",
-        "topics": [
-          "Clean code principles",
-          "SOLID principles in Java",
-          "Code refactoring techniques",
-          "Code smells and fixes",
-          "Design patterns application",
-          "Effective Java best practices",
-          "Java coding standards",
-          "Code review guidelines",
-          "Technical debt management",
-          "Documentation best practices",
-          "Javadoc comments",
-          "README and wiki writing",
-          "Architecture documentation",
-          "Static code analysis tools",
-          "Continuous code quality"
-        ],
-        "projects": [
-          "Code refactoring exercise",
-          "Clean code implementation",
-          "Design patterns showcase",
-          "Comprehensive documentation",
-          "Code review checklist",
-          "Quality metrics dashboard"
-        ],
-        "practice": "Refactor all projects with best practices"
-      },
-      "week_99": {
-        "title": "Open Source & Community",
-        "topics": [
-          "Open source contribution guide",
-          "Finding beginner-friendly projects",
-          "Understanding project structure",
-          "Reading contribution guidelines",
-          "Forking and pull requests",
-          "Code review in open source",
-          "Building open source portfolio",
-          "Starting your own open source project",
-          "Documentation for open source",
-          "Community management",
-          "Licensing: Apache, MIT, GPL",
-          "Building personal brand"
-        ],
-        "projects": [
-          "Contribute to 5 open source projects",
-          "Create own open source library",
-          "Maintain open source project",
-          "Documentation contributions",
-          "Bug fixes and features",
-          "Community engagement"
-        ],
-        "practice": "Active open source participation"
-      },
-      "week_100": {
-        "title": "Interview Preparation",
-        "topics": [
-          "Java interview preparation strategy",
-          "Core Java interview questions",
-          "OOP interview questions",
-          "Collections framework questions",
-          "Multithreading interview topics",
-          "Spring and Spring Boot questions",
-          "Microservices interview prep",
-          "System design interviews",
-          "Data structures and algorithms review",
-          "LeetCode problem-solving strategies",
-          "Behavioral interview questions",
-          "STAR method for answers",
-          "Salary negotiation tactics",
-          "Job search strategies",
-          "Resume optimization for Java developers"
-        ],
-        "projects": [
-          "Solve 150+ LeetCode problems",
-          "System design case studies",
-          "Mock interview practice",
-          "Interview preparation guide",
-          "Portfolio website creation"
-        ],
-        "practice": "Daily coding challenges and mock interviews"
-      }
-    },
-    "month_24": {
-      "title": "Final Month - Capstone & Career Launch",
-      "weeks": "Week 49-52",
-      "week_101_102": {
-        "title": "Final Capstone Project - Part 1",
-        "topics": [
-          "Project ideation and planning",
-          "Requirement analysis",
-          "System architecture design",
-          "Microservices design",
-          "Database design",
-          "API design and documentation",
-          "Technology stack selection",
-          "Development workflow setup",
-          "Sprint planning",
-          "Agile methodology"
-        ],
-        "projects": [
-          "FINAL CAPSTONE: Enterprise-Grade Microservices Application",
-          "Option 1: E-commerce Microservices Platform",
-          "Services: User, Product, Order, Payment, Notification, Inventory",
-          "Option 2: Social Media Platform Backend",
-          "Services: User, Post, Comment, Like, Follow, Feed, Notification, Chat",
-          "Option 3: Banking/FinTech Application",
-          "Services: Account, Transaction, Loan, Card, KYC, Notification",
-          "Option 4: Learning Management System",
-          "Services: User, Course, Enrollment, Content, Assessment, Progress, Certificate"
-        ]
-      },
-      "week_103": {
-        "title": "Final Capstone Project - Part 2",
-        "topics": [
-          "Implementation completion",
-          "Comprehensive testing",
-          "Performance optimization",
-          "Security hardening",
-          "Documentation writing",
-          "Deployment to cloud",
-          "CI/CD pipeline setup",
-          "Monitoring and logging",
-          "Load testing",
-          "Project presentation preparation"
-        ],
-        "deliverables": [
-          "Complete source code on GitHub",
-          "Microservices deployed to cloud (AWS/Azure/GCP)",
-          "Kubernetes deployment manifests",
-          "Complete API documentation (Swagger/OpenAPI)",
-          "Architecture diagrams and documentation",
-          "Database schema and relationships",
-          "CI/CD pipeline configuration",
-          "Test coverage report (80%+ coverage)",
-          "Performance testing report",
-          "Video demo and presentation",
-          "Comprehensive README and wiki"
-        ]
-      },
-      "week_104": {
-        "title": "Career Launch & Professional Development",
-        "topics": [
-          "Professional portfolio website",
-          "Resume optimization for Java roles",
-          "LinkedIn profile enhancement",
-          "GitHub profile showcase",
-          "Technical blog writing",
-          "Speaking at meetups/conferences",
-          "Networking strategies",
-          "Job application process",
-          "Interview follow-up",
-          "Continuous learning plan",
-          "Staying updated with Java ecosystem",
-          "Mentoring and teaching others",
-          "Freelancing strategies",
-          "Consulting career path",
-          "Startup opportunities"
-        ],
-        "deliverables": [
-          "Professional portfolio with 40+ projects",
-          "Optimized resume for Java developer roles",
-          "Enhanced LinkedIn profile with certifications",
-          "GitHub profile with 100+ contributions",
-          "5-10 technical blog posts",
-          "Personal brand establishment",
-          "Job application materials ready",
-          "Mock interview completion",
-          "Continuous learning roadmap",
-          "Professional network connections"
-        ],
-        "assessment": "FINAL COMPREHENSIVE CERTIFICATION EXAM - Complete Java mastery evaluation"
+        "assessment": "FINAL EXAM: a practical build plus a written paper with questions mixed from every phase. Passing earns the certificate; falling short earns a focused revision plan and a free retest"
       }
     }
   },
   "additional_learning_resources": {
     "projects_throughout_course": [
-      "Phase 1 (Months 1-3): 20+ foundational projects - calculators, games, console apps, OOP systems",
-      "Phase 2 (Months 4-6): 18+ intermediate projects - collections apps, multithreaded systems, design patterns",
-      "Phase 3 (Months 7-9): 20+ enterprise projects - web apps, REST APIs, Spring Boot applications, databases",
-      "Phase 4 (Months 10-12): 15+ advanced projects - microservices, cloud deployments, distributed systems",
-      "Final: 5 major capstone projects demonstrating complete expertise"
+      "Phase 1: console programs that prove core Java and OOP",
+      "Phase 2: concurrent, tested builds using collections and patterns for real",
+      "Phase 3: Spring Boot REST APIs with JPA, security and tests",
+      "Phase 4: the Spring Boot capstone, deployed and defended"
     ],
-    "total_projects_built": "70+ projects from beginner to enterprise-grade production systems",
+    "total_projects_built": "20+ real builds, crowned by a deployed Spring Boot capstone",
     "skills_mastered": [
-      "Core Java: Syntax, OOP, Collections, Generics, Exception Handling, Multithreading, I/O, Lambda, Streams",
-      "Advanced Java: Design Patterns, Reflection, Annotations, JVM Internals, Performance Tuning",
-      "Enterprise Java: Servlets, JSP, JDBC, JPA/Hibernate, Spring Core, Spring Boot, Spring Security, Spring Data",
-      "Web Development: RESTful APIs, HTTP, JSON, API Design, Swagger/OpenAPI, WebSockets",
-      "Databases: SQL (MySQL, PostgreSQL), JPA, Hibernate, Query Optimization, Database Design, NoSQL (MongoDB)",
-      "Microservices: Spring Cloud, Eureka, API Gateway, Circuit Breaker, Message Queues (RabbitMQ, Kafka)",
-      "Testing: JUnit 5, Mockito, Integration Testing, Test-Driven Development, Code Coverage",
-      "DevOps: Docker, Kubernetes, CI/CD (Jenkins, GitHub Actions), Maven, Gradle, Git",
-      "Cloud: AWS (EC2, RDS, S3, Lambda, ECS), Elastic Beanstalk, Cloud Native Development",
-      "Architecture: System Design, Microservices Architecture, Event-Driven Architecture, CQRS, SAGA",
-      "Tools: IntelliJ IDEA, Eclipse, VS Code, Postman, SonarQube, JMeter, Prometheus, Grafana",
-      "Soft Skills: Problem-solving, System Design Thinking, Code Review, Documentation, Agile Methodologies"
+      "Core Java at placement depth: OOP, collections, generics, exceptions",
+      "Concurrency understood: threads, the memory model and modern utilities",
+      "Modern Java fluency: streams, lambdas, records and current LTS habits",
+      "Design patterns and JDBC: the thinking under every framework",
+      "Spring Boot in practice: REST APIs, Spring Data JPA, security, testing"
     ],
     "weekly_structure": {
-      "theory_videos": "4-6 hours",
-      "hands_on_coding": "8-10 hours",
-      "projects": "3-5 hours",
-      "practice_problems": "2-3 hours",
-      "total_per_week": "15-20 hours"
-    },
-    "support_provided": {
-      "live_sessions": "Weekly live coding sessions and doubt clearing",
-      "mentorship": "1-on-1 expert Java developer mentorship",
-      "code_review": "Expert code reviews for all major projects",
-      "career_support": "Resume review, mock interviews",
-      "interview_prep": "Mock interviews with industry professionals",
-      "career_guidance": "Resume and interview preparation, plus portfolio and profile review."
+      "live_classes": "2 live one-hour classes per week, coding along with the instructor",
+      "homework": "A problem set after every class, and a mixed-review assignment at the end of every month",
+      "practice": "4-6 hours of building between classes",
+      "review": "Every submission reviewed with written feedback; recurring gaps reopened in class"
     },
     "certification": {
-      "phase_certificates": "Certificate after each phase completion (4 certificates)",
-      "final_certificate": "Professional Java Developer Certification",
-      "spring_certificate": "Spring Boot Specialist Certificate",
-      "microservices_certificate": "Microservices Architecture Certificate",
-      "linkedin_badge": "Digital badges for LinkedIn profile",
-      "industry_recognized": "Recognized by Fortune 500 companies and startups",
-      "portfolio_projects": "40+ production-ready portfolio projects",
-      "oracle_exam_prep": "Preparation for Oracle Java Certification (OCA/OCP)"
+      "completion": "Certificate from Modern Age Coders, awarded on passing the final exam. Fall short and there is focused revision and a free retest: the certificate certifies knowledge, not attendance"
+    },
+    "support_provided": {
+      "doubt_support": "WhatsApp doubt support between classes",
+      "progress_updates": "Honest monthly progress reviews: what is solid, what is wobbly, and the plan for the wobble"
     }
   },
   "prerequisites": {
-    "education": "No formal degree required - open to all backgrounds",
-    "coding_experience": "Absolute beginner friendly - zero programming knowledge required",
-    "age": "12+ years (separate learning tracks for kids, teens, adults)",
-    "equipment": "Computer/laptop (Windows/Mac/Linux), minimum 8GB RAM recommended, internet connection",
-    "time_commitment": "15-20 hours per week consistently for best results",
-    "english": "Basic reading comprehension (materials also available in Hindi)",
-    "motivation": "Strong desire to become a professional Java developer",
-    "math": "Basic mathematics (taught as needed)"
+    "coding_experience": "None. Everything is taught from the first line",
+    "equipment": "Any computer with a stable internet connection; every tool used is free",
+    "age": "18+; college students, graduates and working professionals",
+    "time_commitment": "2 live classes plus 4-6 hours of practice a week"
   },
   "who_is_this_for": {
-    "kids": "Age 12-14: Simplified track with visual learning, game-based projects, OOP with real-world examples",
-    "teens": "Age 15-18: Student-focused track, college prep, competitive programming, project-based learning",
-    "students": "College students: Campus placement preparation, internship readiness, strong portfolio building",
-    "working_professionals": "Career switchers: Structured path from any background to Java developer role",
-    "developers": "Developers from other languages wanting to master Java ecosystem",
-    "backend_engineers": "Backend developers wanting to specialize in enterprise Java",
-    "entrepreneurs": "Build your own products using scalable Java technologies",
-    "freelancers": "Offer enterprise Java development services to high-paying clients",
-    "architects": "Learn to design large-scale distributed systems",
-    "anyone": "Anyone passionate about backend development and enterprise software"
+    "college_students": "Students whose placements will test Java, which is most of them",
+    "career_switchers": "Professionals entering backend development on the enterprise stack",
+    "self_taught": "Learners with syntax knowledge but not the depth interviews reach for",
+    "backend_bound": "Developers who want the Spring ecosystem opened properly",
+    "android_curious": "Future Android developers who want the Java foundation Kotlin assumes"
   },
   "career_paths_after_completion": [
-    "Java Developer (Junior to Senior levels)",
-    "Backend Developer / Backend Engineer",
-    "Full Stack Java Developer (Java + React/Angular)",
-    "Spring Boot Developer",
-    "Microservices Developer",
-    "Enterprise Application Developer",
-    "Solutions Architect",
-    "Technical Lead / Team Lead",
-    "DevOps Engineer (Java focus)",
-    "Cloud Engineer (AWS/Azure with Java)",
-    "Software Architect",
-    "Principal Engineer",
-    "Freelance Java Consultant",
-    "Technical Trainer / Instructor",
-    "Startup Founder / CTO"
+    "Backend roles: Java plus Spring Boot remains the enterprise hiring staple",
+    "Our DSA course beside this one is the classic placement combination",
+    "Microservices and cloud depth later, once real systems demand them",
+    "Kotlin and Android: our Kotlin course builds on exactly this foundation"
   ],
   "salary_expectations": {
     "market_context": "The ranges below are general market salary bands for these roles in India and abroad, drawn from public industry data. They are shown for career context only and are not a promise or guarantee of income. Actual pay depends on your skills, experience, location, and the job market.",
@@ -1868,40 +1262,6 @@
     "international_usa": "$80k-180k USD (Java Developer to Senior)",
     "international_europe": "€50k-120k EUR based on country and experience"
   },
-  "course_guarantees": {
-    "live_classes": "Live, interactive classes with a real instructor, never pre-recorded videos.",
-    "small_batches": "Small batches only: group classes are capped at 10 students, with mini-batch (3 to 4 students) and personal 1-on-1 options.",
-    "structured_curriculum": "A structured, well-paced curriculum taught step by step, with hands-on practice in every session.",
-    "doubt_support": "Doubt support between classes over WhatsApp, so you are never left stuck.",
-    "certificate": "A course-completion certificate you can share.",
-    "free_demo": "A free demo class before you enrol, so you can decide with no pressure."
-  },
-  "faqs": [
-    {
-      "question": "Why should I learn Java programming in 2026 when there are newer languages available?",
-      "answer": "Java remains the #1 language for enterprise development, powering 3 billion devices worldwide. It's essential for Android development, banking systems, big data (Hadoop, Spark), and microservices. Companies like Google, Amazon, Netflix, and major banks heavily use Java. Job opportunities are abundant with salaries ranging from ₹5-50+ LPA depending on experience."
-    },
-    {
-      "question": "Is this Java programming course suitable for complete beginners with no coding experience?",
-      "answer": "Absolutely! This 12-month masterclass is designed for absolute beginners. We start with programming fundamentals before introducing Java syntax. Whether you're a student, working professional switching careers, or someone with no tech background, our structured curriculum takes you from 'What is programming?' to building enterprise-grade microservices applications."
-    },
-    {
-      "question": "What technologies and frameworks will I learn besides core Java?",
-      "answer": "Beyond core Java, you'll master: Spring Boot, Spring Security, Hibernate/JPA, Microservices with Spring Cloud, REST APIs, Docker, Kubernetes, AWS, CI/CD pipelines, MySQL, PostgreSQL, MongoDB, Redis, Apache Kafka, RabbitMQ, JUnit testing, and system design. This covers the complete stack used by product companies."
-    },
-    {
-      "question": "How does this Java course prepare me for job interviews and placement?",
-      "answer": "We provide comprehensive interview preparation including 150+ LeetCode problem solutions, system design practice (designing systems like Twitter and Uber), Java-specific interview questions, Spring Boot scenarios, and unlimited mock interviews. We also help with resume optimization and building a strong project portfolio. We prepare you thoroughly for interviews, but we do not make placement guarantees."
-    },
-    {
-      "question": "What kind of projects will I build in this Java programming masterclass?",
-      "answer": "You'll build 40+ production-ready projects including: e-commerce platform with microservices, social media backend, banking application, learning management system, video streaming service backend, and distributed systems. The final capstone involves a complete enterprise application deployed on AWS with Kubernetes."
-    },
-    {
-      "question": "What salary can I expect after completing this Java programming course?",
-      "answer": "As general market context (not a guarantee): Java developers in India commonly start around ₹3-5 LPA, reach roughly ₹8-15 LPA with a couple of years of experience, and ₹18-40 LPA as they become senior, with higher ranges at large product companies. International remote roles can pay more. Actual pay depends on your skills, experience, and the market."
-    }
-  ],
   "related_courses": [
     {
       "slug": "data-structures-algorithms-masterclass-college",
@@ -1919,18 +1279,47 @@
       "description": "Modern JVM language for Android"
     }
   ],
-  "why_this_course": {
-    "title": "Why Java Remains the King of Enterprise Development",
-    "paragraphs": [
-      "Java powers the backend of most Fortune 500 companies, major banks, and tech giants. It's the #1 language for enterprise software, Android development, and big data processing. With 9 million developers worldwide and 3 billion devices running Java, it's the safest language investment for a long tech career.",
-      "Our masterclass covers the complete modern Java ecosystem: Spring Boot for rapid development, microservices architecture, cloud-native patterns, and DevOps integration. You'll learn not just Java syntax, but how to build scalable, maintainable systems that enterprises pay premium for.",
-      "Java developers are especially valued in banking, healthcare, and government sectors where stability matters. These industries offer excellent salaries, job security, and the chance to work on systems that touch millions of lives."
-    ],
-    "highlights": [
-      "40+ enterprise-grade projects with Spring Boot microservices",
-      "Complete cloud deployment: AWS, Docker, Kubernetes",
-      "System design preparation for senior roles",
-      "150+ LeetCode problems with Java solutions"
-    ]
-  }
+  "course_guarantees": {
+    "live_classes": "Live, interactive classes with a real instructor, never pre-recorded videos.",
+    "small_batches": "Small batches only: group classes are capped at 10 students, with mini-batch (3 to 4 students) and personal 1-on-1 options.",
+    "structured_curriculum": "A structured, well-paced curriculum taught step by step, with classwork in every session and problem sets after every class.",
+    "real_assessment": "Monthly mixed reviews, cumulative phase exams, and a final exam that decides the certificate: real knowledge, real work.",
+    "doubt_support": "Doubt support between classes over WhatsApp, so you are never left stuck.",
+    "certificate": "A certificate you earn by passing the final exam, with a free retest after revision if needed.",
+    "free_demo": "A free demo class before you enrol, so you can decide with no pressure."
+  },
+  "faqs": [
+    {
+      "question": "What does this Java course cover?",
+      "answer": "Core Java to real depth first: object-oriented programming, collections, generics, exceptions, multithreading and modern Java features, plus design patterns, JDBC and JUnit testing. Then the job stack: Spring Boot, Spring Data JPA with Hibernate, Spring Security, REST API design and testing, and production habits like deployment, monitoring and logging. A finale month ships a Spring Boot capstone and sits the final exam."
+    },
+    {
+      "question": "How long does it take to learn Java properly?",
+      "answer": "Ten months of teaching at 2 live classes a week plus 4 to 6 hours of practice, with two more months in hand for learners who need them. The three teaching phases build the skill and its real-world application; the finale month ships a capstone and sits the final exam."
+    },
+    {
+      "question": "How am I assessed? Is the certificate just for attending?",
+      "answer": "No. Problem sets follow every class with written feedback, monthly reviews deliberately mix new material with earlier topics, each phase ends with a cumulative exam, and the course ends with a final exam: a practical build plus written questions from the whole syllabus. Passing earns the certificate; falling short earns focused revision and a free retest."
+    },
+    {
+      "question": "Is Java still worth learning in 2026?",
+      "answer": "Emphatically: banking, e-commerce, telecom and most of enterprise India run on Java, placements test it more than any other language, and modern Java (current LTS releases, streams, records, virtual threads) is a far better language than its reputation. Python took the headlines; Java kept the backends."
+    },
+    {
+      "question": "Java or Python first for placements?",
+      "answer": "Either works for DSA rounds, but Java pays twice: the same language covers your DSA practice and the Spring Boot backend skills that service and product companies actually hire for. If your target is backend or enterprise roles, Java first is the efficient road; our Python courses cover the data and automation roads."
+    },
+    {
+      "question": "What are the fees?",
+      "answer": "Group classes are ₹1,499 per month, with 2 live classes a week in batches capped at 10 learners. A mini batch of 3-4 learners is ₹2,999 per month, and personal 1-on-1 classes are ₹4,999 per month. International learners pay a price set for their own country, shown on this page in their local currency."
+    },
+    {
+      "question": "Can I try a class before enrolling?",
+      "answer": "Yes, a free demo class with no commitment: book at learn.modernagecoders.com/contact or message us on WhatsApp at +91 91233 66161."
+    },
+    {
+      "question": "Are classes live or recorded?",
+      "answer": "Live, always: small groups with a real instructor reading your actual code, never pre-recorded videos."
+    }
+  ]
 }

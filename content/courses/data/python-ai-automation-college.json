@@ -2,69 +2,66 @@
   "meta": {
     "slug": "python-ai-automation-masterclass-college",
     "date": "2025-10-24",
-    "title": "Python & AI Automation: Machine Learning, NLP & Scripting",
-    "description": "One-year Python automation and AI course: master Python, automation frameworks, machine learning, computer vision, NLP and enterprise automation.",
+    "dateModified": "2026-08-23",
+    "title": "Python Automation Course: Scripting, Scraping & Applied AI",
+    "description": "Python automation course for college students and professionals: Python core, web scraping, browser automation and RPA, then applied AI for documents, text and forecasts, in 10-12 months.",
     "keywords": [
-      "python programming",
-      "artificial intelligence",
-      "machine learning",
-      "deep learning",
-      "automation engineering",
-      "web scraping",
-      "data science",
-      "computer vision",
-      "natural language processing",
-      "robotic process automation",
-      "neural networks",
-      "tensorflow",
-      "pytorch",
-      "opencv",
-      "selenium automation",
-      "career ready"
+      "python automation course online",
+      "python web scraping course",
+      "python scripting course for professionals",
+      "rpa with python course",
+      "applied ai course with python",
+      "python automation course india",
+      "learn python automation from zero",
+      "selenium python course",
+      "python for office automation",
+      "ai automation course online",
+      "best python automation course",
+      "python course for working professionals"
     ],
-    "category": "Professional AI & Automation Development",
+    "category": "AI & Automation",
     "taxonomy": "ai-ml",
     "price": {
       "group": "₹1,499/month",
       "personal": "₹4,999/month"
     },
-    "duration": "12 months (52 weeks)",
-    "level": "Complete Beginner to Advanced Professional",
-    "commitment": "15-20 hours/week recommended",
-    "certification": "Industry-recognized AI & Automation certification upon completion",
+    "duration": "10-12 months (44-52 weeks)",
+    "level": "Complete beginner (18+); college students, graduates and working professionals",
+    "commitment": "2 live classes/week + 4-6 hours practice",
+    "certification": "Certificate from Modern Age Coders, awarded on passing the final exam",
     "image_path": "python-college.webp"
   },
   "program_overview": {
-    "title": "Complete Python & AI Automation Masterclass",
-    "tagline": "From 'Hello World' to Production-Ready AI Systems",
-    "description": "This is not just a course, it's a complete transformation program. Whether you're a student, working professional, or someone with zero coding experience, this 1-year masterclass will turn you into a highly skilled Python developer and AI engineer capable of building, deploying, and scaling real-world automation and AI solutions.\n\nYou'll master every aspect of Python development: from basic programming to advanced automation, from traditional scripts to cutting-edge AI models, from simple bots to enterprise automation systems. By the end, you'll have built 30+ projects, deployed AI models, and be ready for senior automation engineer or AI developer roles.",
+    "title": "Python & AI Automation Masterclass",
+    "tagline": "Make the computer do the work: Python properly, then scraping, browser automation and RPA, then applied AI that reads documents, text and time series.",
+    "description": "The most immediately useful programming skill in any office is automation: the report that assembles itself, the data that collects itself, the document pile that processes itself overnight. This live online masterclass builds that skill honestly: Python learned properly first, then the automation core, web scraping done right, Selenium and browser automation, RPA patterns, APIs and scheduled pipelines with testing and security habits, then the applied AI layer that multiplies it: computer vision for documents and images, NLP and transformers for text, time series for forecasts, cloud AI services used with judgment, and the honest ethics of automating decisions. A finale month ships an end-to-end automation capstone and sits the final exam.\n\nThe pace is honest: ten teaching months at two live classes a week plus four to six hours of practice, with two more in hand. Problem sets, monthly mixed reviews, phase exams, and a final exam that decides the certificate with a free retest.",
     "what_makes_this_different": [
-      "Starts from absolute zero - no prerequisites required",
-      "1 year of structured, progressive learning",
-      "Covers 100% of modern Python automation & AI stack",
-      "Real industry projects and case studies",
-      "Interview preparation and AI system design",
-      "Build production-ready AI portfolio"
+      "Automation-first, not research-first: every AI topic earns its place by automating real work",
+      "Scraping taught responsibly: robots.txt, rate limits and terms, the professional way",
+      "Applied AI with judgment: when a cloud API beats a hand-built model, we say so",
+      "Pipelines that run unattended: scheduling, logging and failure handling as first-class topics",
+      "An honest 10-month arc with 2 months in hand",
+      "Real assessment: weekly problem sets, monthly mixed reviews, phase exams and a final exam with a free retest"
     ],
     "learning_path": {
-      "phase_1": "Foundation (Months 1-3): Python Basics, Programming Logic, Core Libraries",
-      "phase_2": "Automation Mastery (Months 4-6): Web Scraping, Task Automation, APIs, Bots",
-      "phase_3": "AI & Machine Learning (Months 7-9): ML Algorithms, Deep Learning, Computer Vision, NLP",
-      "phase_4": "Advanced AI & Production (Months 10-12): MLOps, Cloud AI, Enterprise Solutions, Deployment"
+      "phase_1": "Python foundations (Months 1-3): the language, data handling, databases and APIs",
+      "phase_2": "The automation core (Months 4-6): scraping, browser automation, RPA and practical ML",
+      "phase_3": "Applied AI (Months 7-9): vision for documents, NLP, time series and cloud AI services",
+      "phase_4": "The finale (Month 10): an end-to-end automation capstone and the final exam"
     },
     "career_outcomes": [
-      "Junior Python Developer (after 3 months)",
-      "Automation Engineer (after 6 months)",
-      "AI/ML Developer (after 9 months)",
-      "Senior AI Engineer / ML Architect (after 12 months)"
+      "The skill every office notices: work that does itself",
+      "Automation engineering capability: scraping, RPA and AI-assisted pipelines",
+      "A capstone automation running unattended, with logs to prove it",
+      "Honest next roads: automation roles, data engineering, or deeper machine learning"
     ]
   },
   "phase_1_foundation": {
     "title": "PHASE 1: Python Foundation & Core Programming (Months 1-3, Weeks 1-13)",
     "description": "Build rock-solid Python fundamentals. Learn programming concepts, master Python syntax, and create your first automation projects.",
-    "month_1_2": {
-      "title": "Months 1-2: Python Fundamentals & Programming Logic",
-      "weeks": "Week 1-8",
+    "month_1": {
+      "title": "Month 1: Python Fundamentals & Programming Logic",
+      "weeks": "Weeks 1-5",
       "week_1_2": {
         "title": "Introduction to Python & Setup",
         "topics": [
@@ -88,7 +85,7 @@
         ],
         "practice": "Daily: 30 min coding exercises, 1 hour Python basics"
       },
-      "week_3_4": {
+      "week_3": {
         "title": "Variables, Data Types & Operations",
         "topics": [
           "Variables and naming conventions",
@@ -111,7 +108,7 @@
         ],
         "practice": "Complete 50 string manipulation exercises"
       },
-      "week_5_6": {
+      "week_4": {
         "title": "Control Flow & Loops",
         "topics": [
           "If-elif-else statements",
@@ -135,7 +132,7 @@
         ],
         "practice": "Solve 40 loop and condition problems"
       },
-      "week_7_8": {
+      "week_5": {
         "title": "Data Structures in Python",
         "topics": [
           "Lists: creation, indexing, slicing",
@@ -160,10 +157,10 @@
         "practice": "Build 10 programs using different data structures"
       }
     },
-    "month_3_4": {
-      "title": "Month 3: Functions, Modules & OOP",
-      "weeks": "Week 9-13",
-      "week_9_10": {
+    "month_2": {
+      "title": "Month 2: Functions, Modules & OOP",
+      "weeks": "Weeks 6-9",
+      "week_6": {
         "title": "Functions & Functional Programming",
         "topics": [
           "Function definition and calling",
@@ -187,7 +184,7 @@
         ],
         "practice": "Create 30 reusable utility functions"
       },
-      "week_11_12": {
+      "week_7": {
         "title": "Object-Oriented Programming",
         "topics": [
           "Classes and objects",
@@ -211,7 +208,7 @@
         ],
         "practice": "Design 10 real-world systems using OOP"
       },
-      "week_13_14": {
+      "week_8": {
         "title": "Modules, Packages & Error Handling",
         "topics": [
           "Modules and import statements",
@@ -235,7 +232,7 @@
         ],
         "practice": "Add proper error handling to all previous projects"
       },
-      "week_15_16": {
+      "week_9": {
         "title": "File Handling & Data Processing",
         "topics": [
           "File operations: open, read, write, close",
@@ -258,29 +255,12 @@
           "Text search and replace tool"
         ],
         "practice": "Process 20 different file formats"
-      },
-      "week_17": {
-        "title": "Phase 1 Capstone Project",
-        "topics": [
-          "Project planning and design",
-          "Code organization best practices",
-          "Documentation with docstrings",
-          "Creating requirements.txt",
-          "Git and GitHub for Python projects"
-        ],
-        "projects": [
-          "CAPSTONE: Personal Finance Tracker",
-          "Features: expense tracking, budgeting, reports, data visualization, file export/import",
-          "Alternative: Task Management System",
-          "Alternative: Quiz Application with Score Tracking"
-        ],
-        "assessment": "Phase 1 Final Exam - Complete Python fundamentals assessment"
       }
     },
-    "month_5_6": {
-      "title": "Months 4-6: Advanced Python & Automation",
-      "weeks": "Week 14-26",
-      "week_18_19": {
+    "month_3": {
+      "title": "Month 3: Advanced Python & Automation",
+      "weeks": "Weeks 10-13",
+      "week_10": {
         "title": "Advanced Python Concepts",
         "topics": [
           "Iterators and iteration protocol",
@@ -304,7 +284,7 @@
         ],
         "practice": "Implement 10 design patterns in Python"
       },
-      "week_20_21": {
+      "week_11": {
         "title": "Database Programming",
         "topics": [
           "SQLite with Python",
@@ -328,7 +308,7 @@
         ],
         "practice": "Build 5 database-driven applications"
       },
-      "week_22_23": {
+      "week_12": {
         "title": "Web Development with Python",
         "topics": [
           "HTTP protocol basics",
@@ -352,7 +332,7 @@
         ],
         "practice": "Create 5 different web applications"
       },
-      "week_24_25": {
+      "week_13": {
         "title": "Network Programming & APIs",
         "topics": [
           "Sockets programming basics",
@@ -374,34 +354,18 @@
           "Email automation system",
           "Network monitoring tool"
         ],
-        "practice": "Integrate with 10 different APIs"
-      },
-      "week_26": {
-        "title": "Phase 2 Capstone Project",
-        "topics": [
-          "Full-stack application design",
-          "API documentation",
-          "Security best practices",
-          "Performance optimization",
-          "Deployment strategies"
-        ],
-        "projects": [
-          "MAJOR CAPSTONE: Complete Web Automation Platform",
-          "Features: user auth, task scheduling, API integration, web UI, database, reporting",
-          "Alternative: Social Media Analytics Tool",
-          "Alternative: E-commerce Scraper and Monitor"
-        ],
-        "assessment": "Phase 2 Final Exam - Build complete automation system"
+        "practice": "Integrate with 10 different APIs",
+        "assessment": "Phase 1 exam: a practical build defended live, plus a written paper mixing this phase with everything before it"
       }
     }
   },
   "phase_2_frontend_mastery": {
     "title": "PHASE 2: Web Scraping & Automation Tools (Months 4-6, Weeks 14-26)",
     "description": "Master web scraping, browser automation, task automation, and building robust automation frameworks.",
-    "month_7_8": {
-      "title": "Months 4-5: Web Scraping & Browser Automation",
-      "weeks": "Week 14-21",
-      "week_27_28": {
+    "month_4": {
+      "title": "Month 4: Web Scraping & Browser Automation",
+      "weeks": "Weeks 14-18",
+      "week_14": {
         "title": "Web Scraping Fundamentals",
         "topics": [
           "HTML/CSS basics for scraping",
@@ -425,7 +389,7 @@
         ],
         "practice": "Scrape 20 different websites"
       },
-      "week_29_30": {
+      "week_15": {
         "title": "Advanced Web Scraping",
         "topics": [
           "Scrapy framework introduction",
@@ -449,7 +413,7 @@
         ],
         "practice": "Build 10 production-ready scrapers"
       },
-      "week_31_32": {
+      "week_16": {
         "title": "Selenium & Browser Automation",
         "topics": [
           "Selenium WebDriver setup",
@@ -473,7 +437,7 @@
         ],
         "practice": "Automate 15 web workflows"
       },
-      "week_33_34": {
+      "week_17": {
         "title": "Alternative Automation Tools",
         "topics": [
           "Playwright introduction",
@@ -497,7 +461,7 @@
         ],
         "practice": "Create 10 different automation workflows"
       },
-      "week_35": {
+      "week_18": {
         "title": "Data Processing & Analysis",
         "topics": [
           "NumPy arrays and operations",
@@ -522,10 +486,10 @@
         "practice": "Analyze 10 real-world datasets"
       }
     },
-    "month_9_10": {
-      "title": "Month 6: Enterprise Automation & Integration",
-      "weeks": "Week 22-26",
-      "week_36_37": {
+    "month_5": {
+      "title": "Month 5: Enterprise Automation & Integration",
+      "weeks": "Weeks 19-23",
+      "week_19": {
         "title": "RPA & Process Automation",
         "topics": [
           "Robotic Process Automation concepts",
@@ -549,7 +513,7 @@
         ],
         "practice": "Automate 10 business processes"
       },
-      "week_38_39": {
+      "week_20": {
         "title": "API Development & Microservices",
         "topics": [
           "RESTful API design principles",
@@ -573,7 +537,7 @@
         ],
         "practice": "Build 5 production APIs"
       },
-      "week_40_41": {
+      "week_21": {
         "title": "Cloud Automation & DevOps",
         "topics": [
           "AWS SDK for Python (boto3)",
@@ -597,7 +561,7 @@
         ],
         "practice": "Deploy 10 applications to cloud"
       },
-      "week_42_43": {
+      "week_22": {
         "title": "Testing & Quality Assurance",
         "topics": [
           "Unit testing with pytest",
@@ -621,7 +585,7 @@
         ],
         "practice": "Write tests for all previous projects"
       },
-      "week_44": {
+      "week_23": {
         "title": "Security & Best Practices",
         "topics": [
           "Security in Python applications",
@@ -646,10 +610,10 @@
         "practice": "Security audit all projects"
       }
     },
-    "month_11_12": {
-      "title": "Months 7-9: AI & Machine Learning",
-      "weeks": "Week 27-39",
-      "week_45_46": {
+    "month_6": {
+      "title": "Month 6: Practical Machine Learning",
+      "weeks": "Weeks 24-26",
+      "week_24": {
         "title": "Machine Learning Fundamentals",
         "topics": [
           "What is Machine Learning?",
@@ -673,7 +637,7 @@
         ],
         "practice": "Complete 10 ML tutorials"
       },
-      "week_47_48": {
+      "week_25": {
         "title": "Supervised Learning Algorithms",
         "topics": [
           "Linear regression",
@@ -697,7 +661,7 @@
         ],
         "practice": "Implement all algorithms from scratch"
       },
-      "week_49_50": {
+      "week_26": {
         "title": "Unsupervised Learning & Deep Learning Intro",
         "topics": [
           "K-Means clustering",
@@ -719,59 +683,18 @@
           "Market basket analysis",
           "Simple neural network from scratch"
         ],
-        "practice": "Solve 15 unsupervised learning problems"
-      },
-      "week_51": {
-        "title": "Deep Learning with TensorFlow/PyTorch",
-        "topics": [
-          "Deep neural networks",
-          "Convolutional Neural Networks (CNN)",
-          "Image classification basics",
-          "Transfer learning",
-          "Recurrent Neural Networks (RNN)",
-          "LSTM and GRU",
-          "PyTorch introduction",
-          "Model training and optimization",
-          "Regularization techniques",
-          "Batch normalization",
-          "Dropout layers",
-          "Model deployment basics"
-        ],
-        "projects": [
-          "Image classifier with CNN",
-          "Text sentiment analysis with RNN",
-          "Time series prediction with LSTM",
-          "Transfer learning project"
-        ],
-        "practice": "Train 10 different neural networks"
-      },
-      "week_52": {
-        "title": "Phase 3 Capstone Project",
-        "topics": [
-          "End-to-end ML project",
-          "Data pipeline design",
-          "Model training and evaluation",
-          "Model deployment",
-          "API creation for model",
-          "Monitoring and maintenance"
-        ],
-        "projects": [
-          "MAJOR CAPSTONE: Complete ML-Powered Application",
-          "Features: data collection, preprocessing, model training, API, web interface, monitoring",
-          "Alternative: AI-Powered Chatbot",
-          "Alternative: Computer Vision Application"
-        ],
-        "assessment": "Phase 3 Final Exam - Build complete ML system"
+        "practice": "Solve 15 unsupervised learning problems",
+        "assessment": "Phase 2 exam: a practical build defended live, plus a written paper mixing this phase with everything before it"
       }
     }
   },
   "phase_3_backend_engineering": {
-    "title": "PHASE 3: Advanced AI & Computer Vision (Months 7-9, Weeks 27-39)",
+    "title": "PHASE 3: Applied AI for Automation (Months 7-9, Weeks 27-39)",
     "description": "Master advanced AI techniques, computer vision, natural language processing, and production AI systems.",
-    "month_13_14": {
-      "title": "Months 7-8: Computer Vision & Image Processing",
-      "weeks": "Week 27-34",
-      "week_53_54": {
+    "month_7": {
+      "title": "Month 7: Computer Vision & Image Processing",
+      "weeks": "Weeks 27-35",
+      "week_27_28": {
         "title": "Image Processing Fundamentals",
         "topics": [
           "Digital image basics",
@@ -795,7 +718,7 @@
         ],
         "practice": "Process 100 different images"
       },
-      "week_55_56": {
+      "week_29_30": {
         "title": "Advanced Computer Vision",
         "topics": [
           "Feature detection: SIFT, SURF, ORB",
@@ -819,7 +742,7 @@
         ],
         "practice": "Build 10 computer vision applications"
       },
-      "week_57_58": {
+      "week_31_32": {
         "title": "Deep Learning for Computer Vision",
         "topics": [
           "CNN architectures: LeNet, AlexNet, VGG",
@@ -843,7 +766,7 @@
         ],
         "practice": "Train 15 vision models"
       },
-      "week_59_60": {
+      "week_33_34": {
         "title": "Natural Language Processing",
         "topics": [
           "NLP fundamentals",
@@ -867,7 +790,7 @@
         ],
         "practice": "Process 50 text datasets"
       },
-      "week_61": {
+      "week_35": {
         "title": "Advanced NLP with Transformers",
         "topics": [
           "Transformer architecture deep dive",
@@ -892,34 +815,10 @@
         "practice": "Fine-tune 10 transformer models"
       }
     },
-    "month_15_16": {
-      "title": "Month 9: Reinforcement Learning & Advanced AI",
-      "weeks": "Week 35-39",
-      "week_62_63": {
-        "title": "Reinforcement Learning Basics",
-        "topics": [
-          "RL fundamentals and concepts",
-          "Markov Decision Processes",
-          "Value functions and policies",
-          "Q-Learning algorithm",
-          "Deep Q-Networks (DQN)",
-          "Policy gradient methods",
-          "Actor-Critic methods",
-          "OpenAI Gym environment",
-          "Custom environment creation",
-          "Training RL agents",
-          "Exploration vs exploitation",
-          "Reward shaping"
-        ],
-        "projects": [
-          "Game-playing AI agent",
-          "Robot navigation simulator",
-          "Trading bot with RL",
-          "Resource allocation optimizer"
-        ],
-        "practice": "Train agents for 10 different environments"
-      },
-      "week_64_65": {
+    "month_8": {
+      "title": "Month 8: Time Series, Ethics & Production AI",
+      "weeks": "Weeks 36-38",
+      "week_36": {
         "title": "Time Series & Forecasting",
         "topics": [
           "Time series analysis basics",
@@ -943,7 +842,7 @@
         ],
         "practice": "Forecast 20 different time series"
       },
-      "week_66_67": {
+      "week_37": {
         "title": "AI Ethics & Explainable AI",
         "topics": [
           "AI bias and fairness",
@@ -967,31 +866,7 @@
         ],
         "practice": "Audit 10 AI models for bias and fairness"
       },
-      "week_68_69": {
-        "title": "Edge AI & IoT Integration",
-        "topics": [
-          "Edge computing concepts",
-          "TensorFlow Lite",
-          "Model quantization and pruning",
-          "ONNX format",
-          "Raspberry Pi setup for AI",
-          "Arduino and micro-controllers",
-          "Sensor data processing",
-          "Real-time inference on edge",
-          "IoT protocols: MQTT, CoAP",
-          "Edge-cloud hybrid architectures",
-          "Power optimization for edge AI",
-          "Edge AI deployment strategies"
-        ],
-        "projects": [
-          "Smart home automation system",
-          "Edge-based security camera",
-          "IoT sensor data analyzer",
-          "Portable AI assistant device"
-        ],
-        "practice": "Deploy 10 models to edge devices"
-      },
-      "week_70": {
+      "week_38": {
         "title": "MLOps & Production Systems",
         "topics": [
           "MLOps principles and practices",
@@ -1016,58 +891,10 @@
         "practice": "Set up MLOps for 5 projects"
       }
     },
-    "month_17_18": {
-      "title": "Months 10-12: Advanced Systems & Production",
-      "weeks": "Week 40-52",
-      "week_71_72": {
-        "title": "Distributed Computing & Big Data",
-        "topics": [
-          "Distributed systems concepts",
-          "Apache Spark with PySpark",
-          "Distributed data processing",
-          "Spark ML library",
-          "Dask for parallel computing",
-          "Ray framework",
-          "Distributed training strategies",
-          "Data parallelism vs model parallelism",
-          "Apache Kafka integration",
-          "Stream processing with Spark",
-          "Big data storage: HDFS, S3",
-          "Data lake architectures"
-        ],
-        "projects": [
-          "Big data analytics pipeline",
-          "Distributed ML training system",
-          "Real-time stream processor",
-          "Data lake implementation"
-        ],
-        "practice": "Process 10 large-scale datasets"
-      },
-      "week_73_74": {
-        "title": "Advanced Deep Learning",
-        "topics": [
-          "Generative AI: GANs advanced",
-          "Variational Autoencoders (VAE)",
-          "Diffusion models basics",
-          "Neural Architecture Search",
-          "Meta-learning concepts",
-          "Few-shot learning",
-          "Multi-modal learning",
-          "Graph Neural Networks",
-          "Attention mechanisms advanced",
-          "Vision Transformers",
-          "Self-supervised learning",
-          "Contrastive learning"
-        ],
-        "projects": [
-          "Image generation with GAN",
-          "Multi-modal AI system",
-          "Graph-based recommendation engine",
-          "Self-supervised learning project"
-        ],
-        "practice": "Implement 10 advanced DL architectures"
-      },
-      "week_75_76": {
+    "month_9": {
+      "title": "Month 9: Cloud AI Services in Automation",
+      "weeks": "Week 39",
+      "week_39": {
         "title": "Cloud AI Services & Deployment",
         "topics": [
           "AWS SageMaker",
@@ -1089,541 +916,117 @@
           "Auto-scaling ML service",
           "Multi-cloud AI deployment"
         ],
-        "practice": "Deploy 15 models to production"
-      },
-      "week_77": {
-        "title": "Industry Applications & Specializations",
-        "topics": [
-          "AI in healthcare",
-          "Financial AI and algorithmic trading",
-          "Autonomous systems basics",
-          "Robotics and AI",
-          "AI for cybersecurity",
-          "Recommendation systems advanced",
-          "Search and ranking algorithms",
-          "AI in gaming",
-          "Speech recognition and synthesis",
-          "Computer-aided design with AI",
-          "Agricultural AI applications",
-          "AI in manufacturing"
-        ],
-        "projects": [
-          "Industry-specific AI solution",
-          "Medical diagnosis assistant",
-          "Trading algorithm",
-          "Game AI opponent"
-        ],
-        "practice": "Explore 10 industry use cases"
-      },
-      "week_78": {
-        "title": "Phase 4 Final Capstone - Part 1",
-        "topics": [
-          "Project ideation and planning",
-          "System architecture design",
-          "Technology stack selection",
-          "Data pipeline design",
-          "Model selection and training",
-          "API design and documentation",
-          "Frontend planning",
-          "Scalability considerations"
-        ],
-        "projects": [
-          "FINAL CAPSTONE: Production AI Platform",
-          "Complete end-to-end AI solution with data pipeline, multiple models, API, web interface, monitoring, and deployment"
-        ]
+        "practice": "Deploy 15 models to production",
+        "assessment": "Phase 3 exam: a practical build defended live, plus a written paper mixing this phase with everything before it"
       }
     }
   },
-  "phase_4_advanced_production": {
-    "title": "PHASE 4: Production Systems & Career Preparation (Months 10-12, Weeks 40-52)",
-    "description": "Master production deployment, advanced AI systems, and prepare for professional AI/automation engineering roles.",
-    "month_19_20": {
-      "title": "Months 10-11: Production Systems & Enterprise AI",
-      "weeks": "Week 40-47",
-      "week_79_80": {
-        "title": "Enterprise AI Architecture",
+  "phase_4_finale": {
+    "title": "PHASE 4: The Finale (Month 10, Weeks 40-44)",
+    "description": "The capstone month: spec, build, ship and defend, then the final exam that decides the certificate.",
+    "month_10_finale": {
+      "title": "Month 10: Capstone and the Final Exam",
+      "weeks": "Weeks 40-44",
+      "week_40": {
+        "title": "Capstone Spec and Setup",
         "topics": [
-          "Enterprise AI strategy",
-          "AI governance frameworks",
-          "Data architecture for AI",
-          "Master data management",
-          "Data quality and validation",
-          "ETL/ELT pipelines",
-          "Data warehousing for AI",
-          "Real-time data pipelines",
-          "Event-driven architectures",
-          "Microservices for AI",
-          "API management platforms",
-          "Enterprise security for AI"
+          "Choosing the capstone: an end-to-end automation: a scraping-to-report pipeline, a document AI processor or a business workflow bot",
+          "A one-page spec: scope, milestones, stack",
+          "Repository and skeleton ready on day one",
+          "Instructor sign-off before the build begins"
         ],
         "projects": [
-          "Enterprise data pipeline",
-          "AI microservices architecture",
-          "Real-time ML platform",
-          "Data governance system"
+          "Approved capstone spec plus the running skeleton"
         ],
-        "practice": "Design 5 enterprise AI architectures"
+        "practice": "Pitch the spec to the batch and absorb one hard question"
       },
-      "week_81_82": {
-        "title": "AutoML & Model Optimization",
+      "week_41_42": {
+        "title": "Capstone Build",
         "topics": [
-          "AutoML concepts and tools",
-          "Hyperparameter optimization advanced",
-          "Bayesian optimization",
-          "Neural Architecture Search implementation",
-          "Model compression techniques",
-          "Knowledge distillation",
-          "Quantization strategies",
-          "Pruning neural networks",
-          "Mobile optimization with TFLite",
-          "ONNX optimization",
-          "Hardware acceleration: GPU, TPU",
-          "Benchmarking and profiling"
+          "Two focused weeks in vertical slices",
+          "Instructor checkpoints and honest scope cuts",
+          "Using the whole course: Python depth, scraping and browser automation, applied AI and scheduled pipelines",
+          "Daily commits and an always-working build"
         ],
         "projects": [
-          "AutoML pipeline implementation",
-          "Model optimization toolkit",
-          "Mobile AI application",
-          "Hardware-optimized inference"
+          "The capstone, feature-complete with version control"
         ],
-        "practice": "Optimize 20 models for production"
+        "practice": "A working build at the end of every session"
       },
-      "week_83_84": {
-        "title": "Advanced Automation Frameworks",
+      "week_43": {
+        "title": "Ship and Polish",
         "topics": [
-          "Building automation frameworks",
-          "Plugin architectures",
-          "Configuration management",
-          "Workflow orchestration with Airflow",
-          "Luigi for complex pipelines",
-          "Prefect workflow automation",
-          "Event-driven automation",
-          "Webhook integrations",
-          "Custom DSLs for automation",
-          "Error recovery mechanisms",
-          "Monitoring and alerting",
-          "Automation testing strategies"
+          "The finishing pass: edge cases, errors, documentation",
+          "Scheduled and unattended: the automation running on its own, with logging you can trust",
+          "A README worth reading and a demo worth watching",
+          "A full-course spiral review before the exam"
         ],
         "projects": [
-          "Custom automation framework",
-          "Workflow orchestration system",
-          "Event-driven automation platform",
-          "Self-healing automation system"
+          "The capstone shipped, documented and rehearsed"
         ],
-        "practice": "Build 10 enterprise automation solutions"
+        "practice": "Two mock demos, each tighter than the last"
       },
-      "week_85_86": {
-        "title": "Conversational AI & Chatbots",
+      "week_44": {
+        "title": "Demo Day and the Final Exam",
         "topics": [
-          "Conversational AI architecture",
-          "Intent recognition and NLU",
-          "Dialog management systems",
-          "Context handling in conversations",
-          "Rasa framework deep dive",
-          "Dialogflow integration",
-          "Voice assistants with Python",
-          "Speech recognition integration",
-          "Text-to-speech systems",
-          "Multi-turn conversations",
-          "Chatbot testing and evaluation",
-          "Production chatbot deployment"
+          "Presenting the capstone: live demo plus the hardest bug story",
+          "The honest map of next roads: automation engineering, data engineering, or deeper machine learning",
+          "Where our other courses continue the journey"
         ],
         "projects": [
-          "Enterprise chatbot with Rasa",
-          "Voice-enabled AI assistant",
-          "Customer service automation",
-          "Multi-channel bot platform"
+          "Demo day presentation delivered to the batch"
         ],
-        "practice": "Build 5 different chatbot systems"
-      },
-      "week_87": {
-        "title": "AI Product Development",
-        "topics": [
-          "AI product management",
-          "User research for AI products",
-          "MVP development for AI",
-          "User interface for AI systems",
-          "Feedback loops and improvement",
-          "A/B testing AI features",
-          "Product metrics for AI",
-          "User adoption strategies",
-          "Documentation and tutorials",
-          "Community building",
-          "Monetization strategies",
-          "Scaling AI products"
-        ],
-        "projects": [
-          "AI SaaS product prototype",
-          "User feedback system",
-          "Product analytics dashboard",
-          "Go-to-market strategy"
-        ],
-        "practice": "Develop 3 AI product concepts"
-      }
-    },
-    "month_21_22": {
-      "title": "Month 11: Integration & Advanced Topics",
-      "weeks": "Week 48-51",
-      "week_88_89": {
-        "title": "Integration with Enterprise Systems",
-        "topics": [
-          "ERP integration strategies",
-          "CRM system integration",
-          "Salesforce automation with Python",
-          "SAP integration basics",
-          "Microsoft 365 automation",
-          "Google Workspace automation",
-          "Slack bot development",
-          "Teams app development",
-          "Zapier-like automation building",
-          "IFTTT concepts implementation",
-          "Enterprise service bus",
-          "Legacy system integration"
-        ],
-        "projects": [
-          "CRM automation system",
-          "Enterprise integration hub",
-          "Slack/Teams bot suite",
-          "Legacy system modernization"
-        ],
-        "practice": "Integrate with 10 enterprise systems"
-      },
-      "week_90_91": {
-        "title": "Advanced Data Engineering",
-        "topics": [
-          "Data pipeline architecture",
-          "Apache Airflow advanced",
-          "Data quality frameworks",
-          "CDC (Change Data Capture)",
-          "Data versioning strategies",
-          "Feature engineering automation",
-          "Feature stores implementation",
-          "Data catalog systems",
-          "Metadata management",
-          "Data lineage tracking",
-          "DataOps practices",
-          "Real-time analytics systems"
-        ],
-        "projects": [
-          "Complete data platform",
-          "Feature store implementation",
-          "Data quality monitoring",
-          "Real-time analytics dashboard"
-        ],
-        "practice": "Build 5 data engineering pipelines"
-      },
-      "week_92_93": {
-        "title": "Specialized AI Applications",
-        "topics": [
-          "Anomaly detection systems",
-          "Fraud detection algorithms",
-          "Predictive maintenance",
-          "Supply chain optimization",
-          "Dynamic pricing systems",
-          "Personalization engines",
-          "Content moderation AI",
-          "Document AI and OCR",
-          "Medical imaging AI",
-          "Satellite image analysis",
-          "Audio processing and music AI",
-          "Generative AI applications"
-        ],
-        "projects": [
-          "Fraud detection system",
-          "Predictive maintenance platform",
-          "Personalization engine",
-          "Document processing pipeline"
-        ],
-        "practice": "Build 10 specialized AI applications"
-      },
-      "week_94_95": {
-        "title": "Performance & Scalability",
-        "topics": [
-          "Performance profiling Python apps",
-          "Memory optimization techniques",
-          "Async programming with asyncio",
-          "Concurrent.futures module",
-          "Multiprocessing strategies",
-          "Cython for performance",
-          "NumPy optimization tricks",
-          "Database query optimization",
-          "Caching strategies with Redis",
-          "Load balancing techniques",
-          "Horizontal scaling patterns",
-          "Performance monitoring tools"
-        ],
-        "projects": [
-          "High-performance data processor",
-          "Scalable API service",
-          "Performance optimization toolkit",
-          "Load testing framework"
-        ],
-        "practice": "Optimize 10 systems for scale"
-      },
-      "week_96": {
-        "title": "Open Source Contribution",
-        "topics": [
-          "Open source ecosystem",
-          "Finding projects to contribute",
-          "Understanding codebases",
-          "Git advanced workflows",
-          "Creating pull requests",
-          "Writing good documentation",
-          "Issue tracking and management",
-          "Code review best practices",
-          "Creating your own package",
-          "Publishing to PyPI",
-          "Building community",
-          "Maintaining open source projects"
-        ],
-        "projects": [
-          "Contribute to 3 open source projects",
-          "Create and publish Python package",
-          "Start your own open source project",
-          "Documentation contributions"
-        ],
-        "practice": "Make 20 open source contributions"
-      }
-    },
-    "month_23": {
-      "title": "Month 12: Final Projects & Career Launch",
-      "weeks": "Week 49-52",
-      "week_97": {
-        "title": "Final Capstone - Development",
-        "topics": [
-          "Requirements gathering",
-          "System design documentation",
-          "Architecture implementation",
-          "Core functionality development",
-          "Testing implementation",
-          "Performance optimization",
-          "Security implementation",
-          "Documentation writing"
-        ],
-        "projects": [
-          "FINAL CAPSTONE CONTINUED: Complete Production AI/Automation Platform",
-          "Full implementation with all features, testing, documentation, and deployment"
-        ],
-        "practice": "Complete all capstone features"
-      },
-      "week_98": {
-        "title": "Final Capstone - Deployment",
-        "topics": [
-          "Production deployment preparation",
-          "CI/CD pipeline setup",
-          "Monitoring and logging setup",
-          "Performance testing",
-          "Security audit",
-          "Load testing",
-          "Disaster recovery planning",
-          "User documentation",
-          "API documentation",
-          "Video demonstrations"
-        ],
-        "projects": [
-          "Deploy capstone to production",
-          "Set up monitoring and alerts",
-          "Create comprehensive documentation",
-          "Record demo videos"
-        ],
-        "practice": "Production deployment checklist"
-      },
-      "week_99": {
-        "title": "Portfolio & Personal Branding",
-        "topics": [
-          "Portfolio website creation",
-          "Project showcases",
-          "Case study writing",
-          "Technical blog writing",
-          "GitHub profile optimization",
-          "LinkedIn optimization",
-          "Personal branding strategy",
-          "Online presence building",
-          "Networking strategies",
-          "Conference participation",
-          "Tech community involvement",
-          "Content creation planning"
-        ],
-        "projects": [
-          "Professional portfolio website",
-          "5 detailed project case studies",
-          "10 technical blog posts",
-          "Optimized professional profiles"
-        ],
-        "practice": "Build complete professional presence"
-      },
-      "week_100": {
-        "title": "Interview Preparation",
-        "topics": [
-          "Python coding interviews",
-          "Data structures and algorithms review",
-          "System design interviews",
-          "ML system design",
-          "Behavioral interview preparation",
-          "STAR method for responses",
-          "Technical presentation skills",
-          "Whiteboard coding practice",
-          "Take-home assignments",
-          "Salary negotiation",
-          "Contract vs full-time",
-          "Remote work considerations"
-        ],
-        "projects": [
-          "Interview preparation portfolio",
-          "Coding challenge solutions",
-          "System design diagrams",
-          "Behavioral response bank"
-        ],
-        "practice": "50 coding problems, 10 system designs"
-      }
-    },
-    "month_24": {
-      "title": "Month 12: Career Launch & Continuous Learning",
-      "weeks": "Week 51-52",
-      "week_101_102": {
-        "title": "Job Search & Applications",
-        "topics": [
-          "Job search strategies",
-          "Resume optimization for ATS",
-          "Cover letter writing",
-          "Job board navigation",
-          "Recruiter engagement",
-          "Company research methods",
-          "Application tracking",
-          "Follow-up strategies",
-          "Interview scheduling",
-          "Reference preparation",
-          "Background check preparation",
-          "Offer evaluation"
-        ],
-        "projects": [
-          "Tailored resumes for different roles",
-          "Cover letter templates",
-          "Application tracker",
-          "Interview preparation notes"
-        ]
-      },
-      "week_103": {
-        "title": "Freelancing & Consulting",
-        "topics": [
-          "Freelancing platforms",
-          "Client acquisition",
-          "Project scoping and estimation",
-          "Contract negotiation",
-          "Rate setting strategies",
-          "Invoice and payment systems",
-          "Client communication",
-          "Project management for freelancers",
-          "Building recurring revenue",
-          "Scaling freelance business",
-          "Tax considerations",
-          "Legal aspects of freelancing"
-        ],
-        "deliverables": [
-          "Freelance profile setup",
-          "Service offerings document",
-          "Rate card and packages",
-          "Contract templates",
-          "First client acquisition"
-        ]
-      },
-      "week_104": {
-        "title": "Continuous Learning & Growth",
-        "topics": [
-          "Staying updated with AI trends",
-          "Advanced certifications to pursue",
-          "Conference and workshop participation",
-          "Research paper reading strategies",
-          "Building a learning routine",
-          "Mentorship and coaching",
-          "Teaching and knowledge sharing",
-          "Side project ideas",
-          "Startup opportunities in AI",
-          "Career progression paths",
-          "Leadership in tech",
-          "Future of AI and automation"
-        ],
-        "deliverables": [
-          "Personal development plan",
-          "Learning roadmap for next year",
-          "Professional network building",
-          "Mentorship connections",
-          "Community involvement plan"
-        ],
-        "assessment": "FINAL COMPREHENSIVE EXAM - Complete assessment of all Python, Automation, and AI skills"
+        "assessment": "FINAL EXAM: a practical build plus a written paper with questions mixed from every phase. Passing earns the certificate; falling short earns a focused revision plan and a free retest"
       }
     }
   },
   "additional_learning_resources": {
     "projects_throughout_course": [
-      "Phase 1: Calculator, File Manager, Data Analyzer, Finance Tracker, Task Manager",
-      "Phase 2: Web Scraper Suite, Browser Automation Tools, API Platform, RPA System",
-      "Phase 3: ML Models (10+), Computer Vision Apps, NLP Systems, Chatbots",
-      "Phase 4: Production AI Platform, Enterprise Automation, MLOps Pipeline",
-      "Final: Complete AI-Powered SaaS Application"
+      "Phase 1: Python programs, database-backed tools and API clients",
+      "Phase 2: scrapers, browser bots and RPA pipelines with tests",
+      "Phase 3: document AI, text and forecasting automations",
+      "Phase 4: the end-to-end capstone automation, running unattended"
     ],
-    "total_projects_built": "30+ projects ranging from simple scripts to complex AI systems",
+    "total_projects_built": "20+ real automations, crowned by an unattended end-to-end capstone",
     "skills_mastered": [
-      "Programming: Python (Expert), SQL, Git, Linux, Shell Scripting",
-      "Automation: Web Scraping, Selenium, RPA, API Development, Task Automation",
-      "Data: Pandas, NumPy, Data Analysis, ETL, Big Data (Spark)",
-      "AI/ML: Scikit-learn, TensorFlow, PyTorch, Deep Learning, Computer Vision, NLP",
-      "Deployment: Docker, Kubernetes, AWS, GCP, Azure, CI/CD, MLOps",
-      "Databases: SQL, NoSQL, MongoDB, PostgreSQL, Redis, Vector DBs",
-      "Testing: Unit Testing, Integration Testing, pytest, Test Automation",
-      "Tools: Jupyter, VS Code, PyCharm, Postman, Docker, Kubernetes",
-      "Concepts: OOP, Design Patterns, Algorithms, System Design, Architecture"
+      "Python to real depth: data structures, OOP, files, databases and APIs",
+      "Web scraping done responsibly, at production quality",
+      "Browser automation and RPA: Selenium and modern tooling",
+      "Applied AI: document vision, NLP with transformers, time series forecasting",
+      "Pipeline craft: scheduling, logging, testing and failure handling"
     ],
     "weekly_structure": {
-      "theory_videos": "5-8 hours",
-      "hands_on_coding": "8-10 hours",
-      "projects": "3-5 hours",
-      "practice_problems": "2-3 hours",
-      "total_per_week": "15-20 hours"
-    },
-    "support_provided": {
-      "live_sessions": "Weekly doubt clearing sessions",
-      "mentorship": "1-on-1 mentor guidance",
-      "code_review": "Expert code reviews for projects",
-      "career_support": "Resume review, interview prep"
+      "live_classes": "2 live one-hour classes per week, coding along with the instructor",
+      "homework": "A problem set after every class, and a mixed-review assignment at the end of every month",
+      "practice": "4-6 hours of building between classes",
+      "review": "Every submission reviewed with written feedback; recurring gaps reopened in class"
     },
     "certification": {
-      "phase_certificates": "Certificate after each phase completion",
-      "final_certificate": "Professional Python & AI Automation Certification",
-      "linkedin_badge": "Add to LinkedIn profile",
-      "industry_recognized": "Backed by industry professionals",
-      "portfolio_projects": "30+ projects to showcase"
+      "completion": "Certificate from Modern Age Coders, awarded on passing the final exam. Fall short and there is focused revision and a free retest: the certificate certifies knowledge, not attendance"
+    },
+    "support_provided": {
+      "doubt_support": "WhatsApp doubt support between classes",
+      "progress_updates": "Honest monthly progress reviews: what is solid, what is wobbly, and the plan for the wobble"
     }
   },
   "prerequisites": {
-    "education": "No formal degree required - open to all",
-    "coding_experience": "Absolute beginner friendly - starts from zero",
-    "equipment": "Computer/laptop with internet connection",
-    "time_commitment": "15-20 hours per week consistently",
-    "english": "Basic reading and comprehension",
-    "motivation": "Strong desire to learn AI and automation"
+    "coding_experience": "None. Everything is taught from the first line",
+    "equipment": "Any computer with a stable internet connection; every tool used is free",
+    "age": "18+; college students, graduates and working professionals",
+    "time_commitment": "2 live classes plus 4-6 hours of practice a week"
   },
   "who_is_this_for": {
-    "students": "College students looking for AI/ML career path",
-    "working_professionals": "Career switchers wanting to enter AI field",
-    "entrepreneurs": "Want to build AI-powered products",
-    "freelancers": "Want to offer AI/automation services",
-    "kids": "Motivated teenagers (14+) can start this journey",
-    "anyone": "Anyone passionate about AI and automation"
+    "working_professionals": "Professionals drowning in repetitive computer work",
+    "college_students": "Students who want the most demonstrably useful Python specialization",
+    "ops_and_analysts": "Operations and analyst roles ready to automate their own jobs upward",
+    "career_switchers": "Newcomers who want visible, useful results from month one",
+    "business_owners": "Owners who want their processes to run without them"
   },
   "career_paths_after_completion": [
-    "Python Developer (Junior to Senior)",
-    "Automation Engineer",
-    "Machine Learning Engineer",
-    "AI Engineer / AI Architect",
-    "Data Scientist",
-    "Computer Vision Engineer",
-    "NLP Engineer",
-    "MLOps Engineer",
-    "RPA Developer",
-    "AI Product Manager",
-    "Freelance AI Consultant",
-    "AI Startup Founder"
+    "Automation and scripting roles across every industry",
+    "Data engineering: pipelines are the shared craft",
+    "Our AI/ML course for model depth beyond the applied layer",
+    "Backend Python: from automation scripts to full services"
   ],
   "salary_expectations": {
     "market_context": "The ranges below are general market salary bands for these roles in India and abroad, drawn from public industry data. They are shown for career context only and are not a promise or guarantee of income. Actual pay depends on your skills, experience, location, and the job market.",
@@ -1632,40 +1035,6 @@
     "freelance": "₹1,000-5,000/hour",
     "international": "$60k-150k USD based on location and experience"
   },
-  "course_guarantees": {
-    "live_classes": "Live, interactive classes with a real instructor, never pre-recorded videos.",
-    "small_batches": "Small batches only: group classes are capped at 10 students, with mini-batch (3 to 4 students) and personal 1-on-1 options.",
-    "structured_curriculum": "A structured, well-paced curriculum taught step by step, with hands-on practice in every session.",
-    "doubt_support": "Doubt support between classes over WhatsApp, so you are never left stuck.",
-    "certificate": "A course-completion certificate you can share.",
-    "free_demo": "A free demo class before you enrol, so you can decide with no pressure."
-  },
-  "faqs": [
-    {
-      "question": "What is Python AI Automation and why is it one of the highest-demand skills?",
-      "answer": "Python AI Automation combines Python programming with Artificial Intelligence to automate complex tasks that traditionally required human intelligence. From automating data entry to building intelligent chatbots, this skill is in massive demand. Companies pay ₹8-40+ LPA for professionals who can build AI-powered automation solutions."
-    },
-    {
-      "question": "Do I need prior programming experience for this Python AI Automation course?",
-      "answer": "No prior experience required! This course starts from absolute zero - we'll teach you Python fundamentals before moving to advanced AI and automation concepts. Whether you're a complete beginner or switching careers, our structured 12-month program takes you from 'Hello World' to building production AI systems."
-    },
-    {
-      "question": "What tools and technologies will I learn in this 12-month program?",
-      "answer": "You'll master Python, TensorFlow, PyTorch, Scikit-learn, Pandas, NumPy, Selenium, BeautifulSoup, OpenCV, Natural Language Processing (NLP), Deep Learning, AWS/GCP deployment, Docker, and MLOps. By completion, you'll be proficient in 30+ technologies used by AI engineers at top companies."
-    },
-    {
-      "question": "What kind of projects will I build to showcase in my portfolio?",
-      "answer": "You'll build 30+ production-ready projects including: web scrapers, browser automation bots, AI chatbots, image recognition systems, sentiment analyzers, stock price predictors, resume parsers, email automation, RPA bots, and a complete AI-powered SaaS application. These projects are designed to impress employers."
-    },
-    {
-      "question": "What careers can I pursue after completing this Python AI Automation course?",
-      "answer": "Graduates pursue roles as Python Developers (₹4-10 LPA), Automation Engineers (₹6-15 LPA), AI/ML Engineers (₹10-30 LPA), Data Scientists (₹12-35 LPA), RPA Developers (₹6-18 LPA), or AI Consultants (₹1,000-5,000/hour freelance). Many also start their own AI automation businesses."
-    },
-    {
-      "question": "How is this course different from other Python courses available online?",
-      "answer": "Unlike basic Python courses, this program focuses specifically on AI and automation applications. You learn not just programming, but how to build intelligent systems that solve real business problems, working on hands-on projects throughout. We include mentorship, career guidance, and interview preparation to help you present your work well."
-    }
-  ],
   "related_courses": [
     {
       "slug": "data-science-complete-masterclass-college",
@@ -1683,18 +1052,47 @@
       "description": "Build complete web applications with modern frameworks"
     }
   ],
-  "why_this_course": {
-    "title": "Why Choose This Python AI Automation Masterclass?",
-    "paragraphs": [
-      "In today's rapidly evolving tech landscape, Python AI Automation skills are among the most valuable and in-demand. Companies across every industry, from startups to Fortune 500 giants, are desperately seeking professionals who can build intelligent automation systems. This isn't just another Python course; it's a complete career transformation program designed to take you from absolute beginner to job-ready AI professional.",
-      "What sets this program apart is our hands-on, project-based approach. Over 12 months, you won't just watch videos, you'll build real AI systems that solve real business problems. From web scrapers and chatbots to computer vision applications and enterprise automation solutions, every project is designed to be portfolio-worthy and interview-ready.",
-      "Our curriculum is developed in partnership with industry leaders and updated continuously to reflect the latest technologies and best practices. You'll learn not just Python, but the entire modern AI/ML stack: TensorFlow, PyTorch, OpenCV, NLP frameworks, cloud deployment, and MLOps. By graduation, you'll have skills that companies are willing to pay premium salaries for."
-    ],
-    "highlights": [
-      "12-month structured curriculum with 500+ hours of content",
-      "30+ portfolio-ready projects including a capstone AI application",
-      "Direct mentorship from industry AI professionals",
-      "Career support including resume review and interview preparation"
-    ]
-  }
+  "course_guarantees": {
+    "live_classes": "Live, interactive classes with a real instructor, never pre-recorded videos.",
+    "small_batches": "Small batches only: group classes are capped at 10 students, with mini-batch (3 to 4 students) and personal 1-on-1 options.",
+    "structured_curriculum": "A structured, well-paced curriculum taught step by step, with classwork in every session and problem sets after every class.",
+    "real_assessment": "Monthly mixed reviews, cumulative phase exams, and a final exam that decides the certificate: real knowledge, real work.",
+    "doubt_support": "Doubt support between classes over WhatsApp, so you are never left stuck.",
+    "certificate": "A certificate you earn by passing the final exam, with a free retest after revision if needed.",
+    "free_demo": "A free demo class before you enrol, so you can decide with no pressure."
+  },
+  "faqs": [
+    {
+      "question": "What does this Python automation course cover?",
+      "answer": "Python properly first: core language, OOP, files, databases and APIs. Then the automation core: web scraping done responsibly, Selenium and browser automation, RPA patterns, testing and security for pipelines, plus practical machine learning. Then applied AI: computer vision for documents and images, NLP with transformers, time series forecasting, explainability and cloud AI services. A finale month ships an end-to-end automation capstone and sits the final exam."
+    },
+    {
+      "question": "How long does it take to learn Python automation properly?",
+      "answer": "Ten months of teaching at 2 live classes a week plus 4 to 6 hours of practice, with two more months in hand for learners who need them. The three teaching phases build the skill and its real-world application; the finale month ships a capstone and sits the final exam."
+    },
+    {
+      "question": "How am I assessed? Is the certificate just for attending?",
+      "answer": "No. Problem sets follow every class with written feedback, monthly reviews deliberately mix new material with earlier topics, each phase ends with a cumulative exam, and the course ends with a final exam: a practical build plus written questions from the whole syllabus. Passing earns the certificate; falling short earns focused revision and a free retest."
+    },
+    {
+      "question": "How is this different from your AI/ML and data science courses?",
+      "answer": "By what the AI is for. The AI/ML course builds model depth: the mathematics, training and evaluation of learning systems. This course is automation-first: AI appears as a tool that reads documents, classifies text and forecasts demand inside pipelines that do real work unattended. If you want to build models, take AI/ML; if you want work to do itself, this is the course."
+    },
+    {
+      "question": "Is web scraping legal to learn and use?",
+      "answer": "Scraping is a standard professional skill used by search engines, price trackers and researchers everywhere, and like any powerful tool it has rules. We teach it responsibly from the first week: respecting robots.txt and rate limits, reading terms of service, preferring official APIs when they exist, and never touching credentials or private data. That judgment is part of the syllabus, not a footnote."
+    },
+    {
+      "question": "What are the fees?",
+      "answer": "Group classes are ₹1,499 per month, with 2 live classes a week in batches capped at 10 learners. A mini batch of 3-4 learners is ₹2,999 per month, and personal 1-on-1 classes are ₹4,999 per month. International learners pay a price set for their own country, shown on this page in their local currency."
+    },
+    {
+      "question": "Can I try a class before enrolling?",
+      "answer": "Yes, a free demo class with no commitment: book at learn.modernagecoders.com/contact or message us on WhatsApp at +91 91233 66161."
+    },
+    {
+      "question": "Are classes live or recorded?",
+      "answer": "Live, always: small groups with a real instructor reading your actual code, never pre-recorded videos."
+    }
+  ]
 }
