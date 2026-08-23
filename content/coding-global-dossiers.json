@@ -3364,5 +3364,41 @@
       "Visitor numbers for the oasis. None were found, so the 400 records in the project are teaching values and are labelled as such in the project steps, the pitfalls note and the FAQ.",
       "A single correct spelling of the oasis name. Both Shenah and Shanah are in circulation and the page treats neither as the error."
     ]
+  },
+  "coding-classes-in-taqah": {
+    "market": "Taqah, Dhofar",
+    "bodyClass": "cg-tqh",
+    "curriculumAuthority": "Oman Ministry of Education, General Education Diploma. The page argues from position rather than curriculum: Taqah is close enough to a city to be overlooked and far enough from it to be underserved, and teaching delivered over a connection takes the commute out of the decision.",
+    "localProject": "One trend line fitted straight across a break in the subject itself. Khor Rori was an open estuary and a working frankincense harbour and is now barred. Across nine century buckets a single least-squares line gives minus 2.08 per century, while the first four centuries rise at plus 8.70 and the last five fall at minus 8.50: the single summary has the sign backwards for nearly half the period and understates the collapse fourfold. Assigned to this page and no other.",
+    "requiredMentions": [
+      "Khor Rori",
+      "Sumhuram",
+      "Wadi Darbat",
+      "bar-built estuary",
+      "frankincense trade",
+      "fourth century BC",
+      "fifth century AD",
+      "Taqah Castle",
+      "breeding ground for birds"
+    ],
+    "sources": [
+      {
+        "claim": "Khor Rori is a bar-built estuary at the mouth of Wadi Darbat in Dhofar, a major breeding ground for birds, which acted as an important harbour for the frankincense trade when it was an open estuary, and is best known for the ruins of the ancient fortified port city of Sumhuram on the eastern bank, with activity recorded from the fourth century BC to the fifth century AD.",
+        "url": "https://en.wikipedia.org/wiki/Khor_Rori"
+      },
+      {
+        "claim": "Khor Rori is described as an important heritage reserve in Dhofar.",
+        "url": "https://timesofoman.com/article/111408-we-love-oman-khor-rori-an-important-heritage-reserve-in-dhofar"
+      },
+      {
+        "claim": "Taqah is an ancient fishing village with a castle, Taqah Castle.",
+        "url": "https://en.wikivoyage.org/wiki/Taqah"
+      }
+    ],
+    "rejectedClaims": [
+      "Any per-century measure of activity at Khor Rori. No such series is published, so the nine figures in the project are teaching values and are labelled as such in the project steps, the pitfalls note and the FAQ.",
+      "A date for the closing of the estuary mouth. The sources describe the site as a bar-built estuary and put its harbour role in the past tense, but no year was traced, so the page places the turning point inside the invented series only.",
+      "A population for the wilayat. No census table could be traced in this session, so none appears."
+    ]
   }
 }

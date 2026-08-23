@@ -1866,4 +1866,8 @@
 # International growth cluster (coding-global.css). Must precede the /* catch-all.
 /coding-classes-in-al-qabil /src/pages/coding-classes-in-al-qabil.html 200
 /coding-classes-in-al-qabil.md /src/pages/coding-classes-in-al-qabil.md 200
+
+# International growth cluster (coding-global.css). Must precede the /* catch-all.
+/coding-classes-in-taqah /src/pages/coding-classes-in-taqah.html 200
+/coding-classes-in-taqah.md /src/pages/coding-classes-in-taqah.md 200
 /* /src/pages/404.html 404

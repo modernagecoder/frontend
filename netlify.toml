@@ -7729,6 +7729,18 @@
   to = "/src/pages/coding-classes-in-al-qabil.md"
   status = 200
 
+# International growth cluster (coding-global.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/coding-classes-in-taqah"
+  to = "/src/pages/coding-classes-in-taqah.html"
+  status = 200
+
+[[redirects]]
+  from = "/coding-classes-in-taqah.md"
+  to = "/src/pages/coding-classes-in-taqah.md"
+  status = 200
+
 [[redirects]]
   from = "/*"
   to = "/src/pages/404.html"
