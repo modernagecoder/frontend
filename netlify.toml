@@ -7945,6 +7945,18 @@
   to = "/src/pages/parents-guide-to-vibe-coding.md"
   status = 200
 
+# Global Build-AI cluster (ai-global.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/vibe-coding-projects-for-students"
+  to = "/src/pages/vibe-coding-projects-for-students.html"
+  status = 200
+
+[[redirects]]
+  from = "/vibe-coding-projects-for-students.md"
+  to = "/src/pages/vibe-coding-projects-for-students.md"
+  status = 200
+
 [[redirects]]
   from = "/*"
   to = "/src/pages/404.html"
