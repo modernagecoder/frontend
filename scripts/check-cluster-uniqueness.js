@@ -42,7 +42,7 @@ const FAIL = 0.12;   // 12 percent is a template with the nouns swapped
 const CLUSTERS = {
   'build-ai': {
     label: 'Build-AI cluster',
-    fileRe: /^(ap-computer-science-a-online-classes|ap-computer-science-principles-online-coaching|cambridge-igcse-computer-science-tuition|cambridge-a-level-computer-science-online-classes|uk-gcse-computer-science-tutoring|ib-computer-science-online-tuition|usaco-preparation-online-coaching|ioi-olympiad-informatics-training|python-certification-pcep-pcap-course|canadian-computing-competition-ccc-prep|agentic-coding-classes|model-context-protocol-mcp-course|rag-systems-course|ai-evaluations-course|context-engineering-course|how-to-think-like-a-programmer|how-to-actually-learn-to-code|how-to-read-code|how-to-debug-code|how-llms-actually-work|learn-to-build-ai|ai-and-machine-learning-classes-in-.+|ai-and-python-academy-oman|ai-and-python-academy-salalah|ai-and-python-academy-sohar|ai-and-python-academy-nizwa|ai-and-python-academy-for-girls-oman|ai-agents-course-for-students-oman|python-to-ai-roadmap-for-students-oman|build-real-ai-projects-oman|machine-learning-for-school-students-oman|vibe-coding-vs-building-ai-oman|coding-and-ai-classes-in-nassau|coding-and-ai-classes-in-bahamas|coding-classes-for-kids-in-nassau|python-and-ai-track-for-students-bahamas|one-to-one-coding-classes-in-nassau|github-portfolio-for-students-bahamas|coding-competitions-for-students-bahamas|year-round-coding-classes-vs-summer-camps-bahamas|coding-and-ai-alongside-bjc-and-bgcse-bahamas)\.html$/,
+    fileRe: /^(ap-computer-science-a-online-classes|ap-computer-science-principles-online-coaching|cambridge-igcse-computer-science-tuition|cambridge-a-level-computer-science-online-classes|uk-gcse-computer-science-tutoring|ib-computer-science-online-tuition|usaco-preparation-online-coaching|ioi-olympiad-informatics-training|python-certification-pcep-pcap-course|canadian-computing-competition-ccc-prep|agentic-coding-classes|model-context-protocol-mcp-course|rag-systems-course|ai-evaluations-course|context-engineering-course|how-to-think-like-a-programmer|how-to-actually-learn-to-code|how-to-read-code|how-to-debug-code|how-llms-actually-work|learn-to-build-ai|ai-and-machine-learning-classes-in-.+|ai-and-python-academy-oman|ai-and-python-academy-salalah|ai-and-python-academy-sohar|ai-and-python-academy-nizwa|ai-and-python-academy-for-girls-oman|ai-agents-course-for-students-oman|python-to-ai-roadmap-for-students-oman|build-real-ai-projects-oman|machine-learning-for-school-students-oman|vibe-coding-vs-building-ai-oman|what-is-vibe-coding|vibe-coding-for-teens|vibe-coding-for-beginners|parents-guide-to-vibe-coding|vibe-coding-projects-for-students|learn-to-code-with-ai|ai-coding-course|build-apps-with-ai|ai-agents-for-teens|ai-literacy-for-students|should-my-child-learn-ai|best-ai-courses-for-teens-2026|ai-projects-for-kids|ai-classes-for-adults|one-on-one-ai-classes|coding-and-ai-classes-in-nassau|coding-and-ai-classes-in-bahamas|coding-classes-for-kids-in-nassau|python-and-ai-track-for-students-bahamas|one-to-one-coding-classes-in-nassau|github-portfolio-for-students-bahamas|coding-competitions-for-students-bahamas|year-round-coding-classes-vs-summer-camps-bahamas|coding-and-ai-alongside-bjc-and-bgcse-bahamas)\.html$/,
     prefix: 'ag',
     incumbents: [
       'online-ai-and-machine-learning-classes',
@@ -61,7 +61,20 @@ const CLUSTERS = {
       'coding-classes-in-united-states',
       'coding-classes-in-united-kingdom',
       'coding-classes-in-switzerland',
-      'coding-classes-in-singapore'
+      'coding-classes-in-singapore',
+      // pages the vibe coding and AI series is most at risk of cloning
+      'vibe-coding-classes',
+      'ai-classes-for-kids',
+      'ai-classes-for-teenagers',
+      'ai-classes-for-beginners',
+      'ai-agents-course',
+      'ai-agents-explained',
+      'prompt-engineering-course',
+      'generative-ai-course',
+      'ai-projects-for-high-school-students',
+      'science-fair-project-ideas-ai',
+      'ai-tools-age-guide',
+      'ai-and-machine-learning-for-working-professionals'
     ]
   },
 

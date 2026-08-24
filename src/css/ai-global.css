@@ -554,6 +554,24 @@
 .ag-root.ag-pyc { --ag-accent: #6D5F8E; --ag-accent-soft: rgba(109,95,142,.09); }
 .ag-root.ag-ccc { --ag-accent: #7F5E59; --ag-accent-soft: rgba(127,94,89,.09); }
 
+/* --- vibe coding and AI series: fifteen global topic pages. Accents solved
+   for >=4.5:1 on all three paper tints and separated from each other. --- */
+.ag-root.ag-wvb { --ag-accent: #1F6358; --ag-accent-soft: rgba(31,99,88,.09); }
+.ag-root.ag-vbt { --ag-accent: #7A3E62; --ag-accent-soft: rgba(122,62,98,.09); }
+.ag-root.ag-vbb { --ag-accent: #31599B; --ag-accent-soft: rgba(49,89,155,.09); }
+.ag-root.ag-pgv { --ag-accent: #8A4A26; --ag-accent-soft: rgba(138,74,38,.09); }
+.ag-root.ag-vbp { --ag-accent: #4A5E8A; --ag-accent-soft: rgba(74,94,138,.09); }
+.ag-root.ag-lca { --ag-accent: #146077; --ag-accent-soft: rgba(20,96,119,.09); }
+.ag-root.ag-aic { --ag-accent: #5C5230; --ag-accent-soft: rgba(92,82,48,.09); }
+.ag-root.ag-bap { --ag-accent: #2E6152; --ag-accent-soft: rgba(46,97,82,.09); }
+.ag-root.ag-atn { --ag-accent: #6B4A8A; --ag-accent-soft: rgba(107,74,138,.09); }
+.ag-root.ag-ail { --ag-accent: #3D6335; --ag-accent-soft: rgba(61,99,53,.09); }
+.ag-root.ag-smc { --ag-accent: #8A3A50; --ag-accent-soft: rgba(138,58,80,.09); }
+.ag-root.ag-bct { --ag-accent: #2B5D7C; --ag-accent-soft: rgba(43,93,124,.09); }
+.ag-root.ag-apk { --ag-accent: #71522F; --ag-accent-soft: rgba(113,82,47,.09); }
+.ag-root.ag-aca { --ag-accent: #535E20; --ag-accent-soft: rgba(83,94,32,.09); }
+.ag-root.ag-ooa { --ag-accent: #703A78; --ag-accent-soft: rgba(112,58,120,.09); }
+
 /* --- picked course cards, with thumbnails, for the top of a page ---------- */
 .ag-picks { display: grid; gap: var(--ag-gap); grid-template-columns: repeat(3, minmax(0, 1fr)); }
 @media (max-width: 900px) { .ag-picks { grid-template-columns: minmax(0, 1fr); } }

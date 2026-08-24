@@ -7897,6 +7897,18 @@
   to = "/src/pages/coding-classes-in-madha.md"
   status = 200
 
+# Global Build-AI cluster (ai-global.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/what-is-vibe-coding"
+  to = "/src/pages/what-is-vibe-coding.html"
+  status = 200
+
+[[redirects]]
+  from = "/what-is-vibe-coding.md"
+  to = "/src/pages/what-is-vibe-coding.md"
+  status = 200
+
 [[redirects]]
   from = "/*"
   to = "/src/pages/404.html"

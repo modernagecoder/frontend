@@ -97,7 +97,23 @@ const SLUGS = [
   'coding-competitions-for-students-bahamas',
   'year-round-coding-classes-vs-summer-camps-bahamas',
   'coding-and-ai-alongside-bjc-and-bgcse-bahamas',
-  'ai-and-machine-learning-classes-in-bahamas'
+  'ai-and-machine-learning-classes-in-bahamas',
+  // vibe coding and AI series
+  'what-is-vibe-coding',
+  'vibe-coding-for-teens',
+  'vibe-coding-for-beginners',
+  'parents-guide-to-vibe-coding',
+  'vibe-coding-projects-for-students',
+  'learn-to-code-with-ai',
+  'ai-coding-course',
+  'build-apps-with-ai',
+  'ai-agents-for-teens',
+  'ai-literacy-for-students',
+  'should-my-child-learn-ai',
+  'best-ai-courses-for-teens-2026',
+  'ai-projects-for-kids',
+  'ai-classes-for-adults',
+  'one-on-one-ai-classes'
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -275,7 +291,22 @@ const LLMS_LABELS = {
   'coding-competitions-for-students-bahamas': 'Coding competitions for students, Bahamas',
   'year-round-coding-classes-vs-summer-camps-bahamas': 'Year-round classes vs summer camps, Bahamas',
   'coding-and-ai-alongside-bjc-and-bgcse-bahamas': 'Coding and AI alongside BJC and BGCSE',
-  'ai-and-machine-learning-classes-in-bahamas': 'AI and machine learning classes in The Bahamas'
+  'ai-and-machine-learning-classes-in-bahamas': 'AI and machine learning classes in The Bahamas',
+  'what-is-vibe-coding': 'What Is Vibe Coding',
+  'vibe-coding-for-teens': 'Vibe Coding for Teens',
+  'vibe-coding-for-beginners': 'Vibe Coding for Beginners',
+  'parents-guide-to-vibe-coding': 'A Parents Guide to Vibe Coding',
+  'vibe-coding-projects-for-students': 'Vibe Coding Projects for Students',
+  'learn-to-code-with-ai': 'Learn to Code with AI',
+  'ai-coding-course': 'AI Coding Course',
+  'build-apps-with-ai': 'Build Apps with AI',
+  'ai-agents-for-teens': 'AI Agents for Teens',
+  'ai-literacy-for-students': 'AI Literacy for Students',
+  'should-my-child-learn-ai': 'Should My Child Learn AI',
+  'best-ai-courses-for-teens-2026': 'Best AI Courses for Teens 2026',
+  'ai-projects-for-kids': 'AI Projects for Kids',
+  'ai-classes-for-adults': 'AI Classes for Adults',
+  'one-on-one-ai-classes': 'One to One AI Classes'
 };
 
 function wireLlms(slugs) {
