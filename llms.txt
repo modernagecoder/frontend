@@ -316,6 +316,7 @@ Ages 6 to 67, small live batches, priced from USD 100 a month.
 - Python Institute PCEP and PCAP: https://learn.modernagecoders.com/python-certification-pcep-pcap-course
 - Canadian Computing Competition: https://learn.modernagecoders.com/canadian-computing-competition-ccc-prep
 - What Is Vibe Coding: https://learn.modernagecoders.com/what-is-vibe-coding
+- Vibe Coding for Teens: https://learn.modernagecoders.com/vibe-coding-for-teens
 ## Coding Classes by State, Province & Market
 
 Live online coding and mathematics for a specific state, province or market,
