@@ -3869,5 +3869,42 @@
       "A single population for the island village. The published description is a range of 100 to 150 and the range is kept rather than reduced to a midpoint.",
       "A road or ferry travel time to the islands. None was verified, so none is stated, and the page says only that no road exists."
     ]
+  },
+  "coding-classes-in-madha": {
+    "market": "Madha, Musandam",
+    "bodyClass": "cg-mda",
+    "curriculumAuthority": "Oman Ministry of Education, General Education Diploma. The page argues from position rather than curriculum: there is no route from Madha to the rest of Oman that stays inside Oman, so a lesson delivered over a connection is the only version that does not cross somebody else's territory.",
+    "localProject": "A containment test that only knows the outer ring. Madha is an Omani exclave inside the UAE containing Nahwa, a piece of Sharjah, so its boundary is a ring with a ring inside it. Reading it as a single ring assigns Nahwa's 4.40 km2 and its 302 people to Oman, which is 4.9 per cent of Omani land there, and a headcount inside the outer ring reaches 4,608 against a census 4,306, overstating by 7.0 per cent. The sources do not resolve whether the published 93.34 km2 includes Nahwa or excludes it, and the two readings differ by exactly the disputed area. Assigned to this page and no other.",
+    "requiredMentions": [
+      "Nahwa",
+      "counter-enclave",
+      "93.34",
+      "4.40 km",
+      "second-order enclave",
+      "tribal allegiance",
+      "exclave of Oman",
+      "Madhanis",
+      "36.04 sq mi"
+    ],
+    "sources": [
+      {
+        "claim": "Madha is an exclave of Oman entirely surrounded by the United Arab Emirates, administratively part of the Musandam Governorate, lying within the Emirate of Sharjah, with a total area of 93.34 km2 given as 36.04 sq mi and a 2022 population of 4,306.",
+        "url": "https://en.wikipedia.org/wiki/Madha"
+      },
+      {
+        "claim": "Nahwa forms part of the Emirate of Sharjah and is a counter-enclave, a second-order enclave, within the Omani territory of Madha, with an area of 4.40 km2 given as 1.70 sq mi and a 2015 population of 302.",
+        "url": "https://en.wikipedia.org/wiki/Nahwa"
+      },
+      {
+        "claim": "The borders were created around seventy years ago when the elders of Madha were asked about tribal allegiance; neighbouring villages aligned with what are now Sharjah, Fujairah and Ras Al Khaimah, while the Madhanis were swayed by the local representative of the sultan of Oman.",
+        "url": "https://www.thenationalnews.com/lifestyle/madha-village-s-pledge-of-allegiance-changed-the-map-forever-1.353384/"
+      }
+    ],
+    "rejectedClaims": [
+      "Whether the published 93.34 km2 includes or excludes Nahwa. No source found resolves it, so the page states both readings, 88.94 and 93.34 for Omani land, and adopts neither. This is treated as evidence for the page's argument rather than smoothed over.",
+      "A single population figure for Madha. One reference gives 4,306 for 2022 and a population database gives 4,492 for 2020. The years differ so both can stand, and neither is presented as the figure.",
+      "Any coordinate or boundary geometry for Madha or Nahwa. None was verified, so the project works from the two published areas alone and no map data is asserted.",
+      "The exact year the boundaries were settled. The published wording is around seventy years ago and that hedge is kept."
+    ]
   }
 }

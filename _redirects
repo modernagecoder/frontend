@@ -1910,4 +1910,8 @@
 /coding-classes-in-al-mazyunah.md /src/pages/coding-classes-in-al-mazyunah.md 200
 /coding-classes-in-shalim /src/pages/coding-classes-in-shalim.html 200
 /coding-classes-in-shalim.md /src/pages/coding-classes-in-shalim.md 200
+
+# International growth cluster (coding-global.css). Must precede the /* catch-all.
+/coding-classes-in-madha /src/pages/coding-classes-in-madha.html 200
+/coding-classes-in-madha.md /src/pages/coding-classes-in-madha.md 200
 /* /src/pages/404.html 404

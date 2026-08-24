@@ -422,6 +422,7 @@ USD 100 a month small group, USD 150 a month one to one.
 - Haima, Al Wusta, Oman: https://learn.modernagecoders.com/coding-classes-in-haima
 - Al Mazyunah, Dhofar, Oman: https://learn.modernagecoders.com/coding-classes-in-al-mazyunah
 - Shalim wa Juzur al Hallaniyat, Dhofar, Oman: https://learn.modernagecoders.com/coding-classes-in-shalim
+- Madha, Musandam, Oman: https://learn.modernagecoders.com/coding-classes-in-madha
 ## International Country Pages
 
 - United States: https://learn.modernagecoders.com/coding-classes-in-united-states
