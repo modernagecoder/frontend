@@ -1922,4 +1922,8 @@
 # Global Build-AI cluster (ai-global.css). Inserted before the /* catch-all.
 /vibe-coding-for-teens /src/pages/vibe-coding-for-teens.html 200
 /vibe-coding-for-teens.md /src/pages/vibe-coding-for-teens.md 200
+
+# Global Build-AI cluster (ai-global.css). Inserted before the /* catch-all.
+/vibe-coding-for-beginners /src/pages/vibe-coding-for-beginners.html 200
+/vibe-coding-for-beginners.md /src/pages/vibe-coding-for-beginners.md 200
 /* /src/pages/404.html 404
