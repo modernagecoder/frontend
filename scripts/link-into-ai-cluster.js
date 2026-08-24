@@ -118,11 +118,37 @@ const MAP3 = {
   'coding-classes-in-australia': [['ai-and-machine-learning-classes-in-hong-kong', 'AI &amp; Machine Learning in Hong Kong']]
 };
 
+// Fourth pass. The vibe coding and AI series (fifteen global topic pages,
+// 2026-08) is newborn and therefore orphaned; each row points one existing
+// topical page at its natural counterpart in the series.
+const MAP4 = {
+  'vibe-coding-classes': [['what-is-vibe-coding', 'What is vibe coding, explained']],
+  'ai-classes-for-kids': [['ai-projects-for-kids', 'AI projects for kids, account-free']],
+  'ai-classes-for-teenagers': [['vibe-coding-for-teens', 'Vibe coding for teens']],
+  'ai-classes-for-beginners': [['vibe-coding-for-beginners', 'Vibe coding for beginners']],
+  'ai-course-for-beginners': [['learn-to-code-with-ai', 'Learn to code with AI']],
+  'ai-agents-explained': [['ai-agents-for-teens', 'AI agents for teens']],
+  'ai-agents-course': [['ai-agents-for-teens', 'AI agents for teens']],
+  'prompt-engineering-course': [['learn-to-code-with-ai', 'Learn to code with AI, the tutor patterns']],
+  'ai-and-machine-learning-for-working-professionals': [['ai-classes-for-adults', 'AI classes for adults']],
+  'online-ai-and-machine-learning-classes': [['ai-coding-course', 'The complete AI coding course']],
+  'best-online-coding-classes-for-kids-2026': [['best-ai-courses-for-teens-2026', 'Best AI courses for teens 2026']],
+  'parent-faq': [['parents-guide-to-vibe-coding', 'A parents guide to vibe coding']],
+  'ai-tools-age-guide': [['parents-guide-to-vibe-coding', 'A parents guide to vibe coding']],
+  'best-age-to-start-coding': [['should-my-child-learn-ai', 'Should my child learn AI']],
+  'how-to-build-a-coding-portfolio': [['vibe-coding-projects-for-students', 'Vibe coding projects for students']],
+  'generative-ai-course': [['build-apps-with-ai', 'Build apps with AI']],
+  'summer-coding-camp-adults': [['ai-classes-for-adults', 'AI classes for adults']],
+  'screen-time-to-skill': [['ai-projects-for-kids', 'AI projects for kids']],
+  'learn-to-build-ai': [['what-is-vibe-coding', 'What is vibe coding']]
+};
+
 // flatten both maps into one work list of [source, target, anchor]
 const WORK = [];
 for (const [src, [target, anchor]] of Object.entries(MAP)) WORK.push([src, target, anchor]);
 for (const [src, pairs] of Object.entries(MAP2)) for (const [t, a] of pairs) WORK.push([src, t, a]);
 for (const [src, pairs] of Object.entries(MAP3)) for (const [t, a] of pairs) WORK.push([src, t, a]);
+for (const [src, pairs] of Object.entries(MAP4)) for (const [t, a] of pairs) WORK.push([src, t, a]);
 
 let added = 0, skipped = 0, missing = 0, noSpot = 0;
 
