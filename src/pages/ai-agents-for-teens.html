@@ -1,0 +1,705 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>AI Agents for Teens | Build Assistants That Act</title>
+  <meta name="description" content="What AI agents are at teen level, which agent tools teenagers may actually use, the safety rails that matter, and one-to-one courses where teens build agents.">
+  <meta name="author" content="Modern Age Coders">
+  <link rel="canonical" href="https://learn.modernagecoders.com/ai-agents-for-teens">
+  <link rel="alternate" type="text/markdown" href="/src/pages/ai-agents-for-teens.md" title="Markdown version for AI agents">
+
+  <link rel="icon" href="/favicon.ico" type="image/x-icon">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
+  <meta name="theme-color" content="#6B4A8A">
+
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="https://learn.modernagecoders.com/ai-agents-for-teens">
+  <meta property="og:title" content="AI Agents for Teens | Build Assistants That Act">
+  <meta property="og:description" content="A chatbot answers; an agent does. What that difference means for a teenager who wants to build one, which tools their age actually permits, and the rails that keep it safe.">
+  <meta property="og:image" content="https://learn.modernagecoders.com/images/og-modern-age-coders.png">
+  <meta property="og:site_name" content="Modern Age Coders">
+  <meta property="og:locale" content="en">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="AI Agents for Teens">
+  <meta name="twitter:description" content="A chatbot answers; an agent does. The teen ladder into building agents, with the age floors and safety rails stated honestly.">
+  <meta name="twitter:image" content="https://learn.modernagecoders.com/images/og-modern-age-coders.png">
+
+  <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/ai-global.css?v=20260824">
+
+  <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-N8BM164YJP');gtag('config','AW-16910316353');</script>
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "EducationalOrganization",
+        "@id": "https://learn.modernagecoders.com/#org",
+        "name": "Modern Age Coders",
+        "url": "https://learn.modernagecoders.com/",
+        "email": "contact@modernagecoders.com",
+        "telephone": "+91-91233-66161",
+        "foundingDate": "2020",
+        "areaServed": { "@type": "Place", "name": "Worldwide" },
+        "knowsAbout": ["AI Agents", "Automation", "Teen Coding Education", "Microsoft Copilot Studio", "Coding Agents", "AI Safety Practices"]
+      },
+      {
+        "@type": "TechArticle",
+        "@id": "https://learn.modernagecoders.com/ai-agents-for-teens#article",
+        "headline": "AI Agents for Teens: Build Assistants That Act",
+        "description": "A chatbot answers; an agent does. What that difference means for a teenager who wants to build one, which tools their age actually permits, and the rails that keep it safe.",
+        "inLanguage": "en",
+        "isAccessibleForFree": true,
+        "proficiencyLevel": "Intermediate",
+        "dependencies": "A first coding or vibe coding course, or equivalent comfort",
+        "author": { "@id": "https://learn.modernagecoders.com/#org" },
+        "publisher": { "@id": "https://learn.modernagecoders.com/#org" },
+        "mainEntityOfPage": "https://learn.modernagecoders.com/ai-agents-for-teens"
+      },
+      {
+        "@type": "Course",
+        "name": "AI Agents for Teens: Supervised, One to One",
+        "description": "A one-to-one live online track where teenagers build real AI agents, assistants that take actions rather than just answering, with tool access arranged inside each provider's age terms, parental involvement from the start, and safety rails taught as first-class curriculum.",
+        "url": "https://learn.modernagecoders.com/ai-agents-for-teens",
+        "inLanguage": "en",
+        "provider": { "@id": "https://learn.modernagecoders.com/#org" },
+        "isAccessibleForFree": false,
+        "hasCourseInstance": {
+          "@type": "CourseInstance",
+          "courseMode": "online",
+          "courseWorkload": "PT2H",
+          "location": { "@type": "VirtualLocation", "url": "https://learn.modernagecoders.com/ai-agents-for-teens" }
+        }
+      },
+      {
+        "@type": "Service",
+        "serviceType": "One-to-one online AI agents courses for teenagers",
+        "provider": { "@id": "https://learn.modernagecoders.com/#org" },
+        "areaServed": { "@type": "Place", "name": "Worldwide" },
+        "audience": { "@type": "EducationalAudience", "educationalRole": "student" }
+      },
+      {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://learn.modernagecoders.com/" },
+          { "@type": "ListItem", "position": 2, "name": "What is vibe coding", "item": "https://learn.modernagecoders.com/what-is-vibe-coding" },
+          { "@type": "ListItem", "position": 3, "name": "AI agents for teens", "item": "https://learn.modernagecoders.com/ai-agents-for-teens" }
+        ]
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+          {"@type": "Question", "name": "What is the difference between a chatbot and an agent, in plain terms?", "acceptedAnswer": {"@type": "Answer", "text": "A chatbot answers you; an agent does things for you. Ask a chatbot to plan your revision week and you get a plan as text. Give the same goal to an agent and it can read your exam dates, draft the timetable into your actual calendar, and flag the clash it found, taking real actions in real systems along the way. The action-taking is the power and the entire reason agents need more care, more rails and more supervision than chat."}},
+          {"@type": "Question", "name": "Is my teenager old enough to build agents?", "acceptedAnswer": {"@type": "Answer", "text": "For learning the concepts and building supervised, rule-based automations, yes from the early teens. For the professional agent platforms, the honest answer is that age floors bite harder here than anywhere else in AI: several serious agent and coding-agent tools require adulthood, and business platforms carry their own account terms by country. Our teen track is built around what a teenager may genuinely hold and touch, arranged with parents, and we name what remains out of reach until 18 instead of pretending."}},
+          {"@type": "Question", "name": "Why is the agents track one to one only?", "acceptedAnswer": {"@type": "Answer", "text": "Because an agent acts, and actions need individual supervision. In a group class, eight students' automations touching eight different accounts cannot all be watched properly at once, and this is one place we refuse to teach at a supervision level we cannot honour. One to one, the teacher sees every action the agent is about to take, every permission it is granted, and every mistake before it compounds. That is also why this track costs the one-to-one fee rather than the group fee."}},
+          {"@type": "Question", "name": "What does a teenager actually build in this track?", "acceptedAnswer": {"@type": "Answer", "text": "Things that act on their own world, with rails. Recent builds include an assistant that watches a shared family calendar and messages the student a packing list the night before sports fixtures, a study bot that quizzes from the student's own notes and logs weak topics, and a club-admin helper that drafts reminder messages for a teacher to approve and send. Notice the pattern: real usefulness, and a human approval step wherever the action leaves the student's own accounts."}},
+          {"@type": "Question", "name": "Is it safe to let an AI agent take actions?", "acceptedAnswer": {"@type": "Answer", "text": "Only inside rails, which is precisely what the course teaches as its core content rather than as a disclaimer. The rails are concrete: agents run in dry-run mode first, showing what they would do before doing it; they get the narrowest possible access, never a main account's full powers; anything irreversible requires a human click; and everything they do is logged where the student and parent can read it. A teenager who internalises those four rails has learned something most adults deploying agents have not."}},
+          {"@type": "Question", "name": "Does my teen need to know coding before starting agents?", "acceptedAnswer": {"@type": "Answer", "text": "A first course helps enormously and we recommend it: agents are a second-rung topic, and a student who has already built and debugged ordinary projects gets triple the value from agent building. A motivated beginner can still start here one to one, because the teacher can shape the on-ramp, but if you are choosing an order, vibe coding or Python first, agents second is the order we would choose for our own children."}},
+          {"@type": "Question", "name": "Do agent tools need paid subscriptions?", "acceptedAnswer": {"@type": "Answer", "text": "Some do, and this is stated on each course page before enrolment rather than surfacing later. The teen agents courses are designed to run on access arranged as part of the course setup conversation, with parents involved, inside each platform's terms. Where a specific professional tool subscription is genuinely required, the course page for that specific course says so in plain text, with the current cost."}},
+          {"@type": "Question", "name": "Will building agents help my teenager's future applications and career?", "acceptedAnswer": {"@type": "Answer", "text": "Agent skills are young enough that a teenager with real, demonstrable agent projects is unusual in any applicant pool, and the underlying abilities, decomposing a goal into steps, granting minimal permissions, designing approval flows, are the same ones the industry is currently hiring adults to learn on the job. We make no placement promises to anyone; we do note that this is the rare topic where a 16 year old can be genuinely early."}},
+          {"@type": "Question", "name": "What does the teen agents track cost?", "acceptedAnswer": {"@type": "Answer", "text": "USD 150 a month, the one-to-one rate, because one to one is the only format this track is offered in. Billing is monthly with no joining fee and no minimum stay, and the free first session applies here like everywhere else: a real working session, in this case building a tiny supervised automation, before any payment exists."}},
+          {"@type": "Question", "name": "How does a teenager start?", "acceptedAnswer": {"@type": "Answer", "text": "Send the form and mention agents. The free session pairs the student with an agents teacher, builds a small watch-and-notify automation together in dry-run mode, and walks the parent through exactly which access the full course would involve, in whose name, before anything is created. If the student has a first course already behind them, bring a project from it; the best agent ideas usually grow out of a project the student already loves."}}
+        ]
+      }
+    ]
+  }
+  </script>
+</head>
+
+<body class="ag-root ag-atn">
+
+<nav class="ag-nav">
+  <div class="ag-wrap ag-nav-inner">
+    <a class="ag-nav-brand" href="/">
+      <img src="/images/logo.svg" alt="Modern Age Coders logo" width="30" height="30" fetchpriority="high">
+      <span>Modern Age Coders</span>
+      <span class="ag-brand-tag">Agents, 13 to 18</span>
+    </a>
+    <div class="ag-nav-links">
+      <a href="#difference">Chatbot vs agent</a>
+      <a href="#ladder">The teen ladder</a>
+      <a href="#courses">Courses</a>
+      <a href="#fees">Fees</a>
+      <a href="/agentic-coding-classes">Agentic coding</a>
+      <a href="#start" class="ag-btn">Free first session</a>
+    </div>
+  </div>
+</nav>
+
+<header class="ag-hero">
+  <div class="ag-wrap">
+    <nav class="ag-crumbs" aria-label="Breadcrumb">
+      <a href="/">Home</a> <span>/</span> <a href="/what-is-vibe-coding">What is vibe coding</a> <span>/</span> <span>AI agents for teens</span>
+    </nav>
+    <div class="ag-hero-grid">
+      <div>
+        <p class="ag-eyebrow">Ages 13 to 18 &middot; One to one only &middot; Live online &middot; Worldwide</p>
+        <h1>A chatbot answers. An agent acts. Your teenager can learn to build the second kind.</h1>
+        <p class="ag-lede">Every teenager has talked to a chatbot; almost none has built an assistant that actually does things, watches a calendar, drafts the message, files the note, and asks permission before anything irreversible. That is what an agent is, it is the direction the whole industry is moving, and it is buildable at 16 with the right supervision. This page explains the difference in concrete terms, lays out the honest teen ladder given the strictest age floors anywhere in AI, and describes the one-to-one track where teens build agents with a teacher watching every action, because on this topic we will not teach at a supervision level we cannot honour.</p>
+        <div class="ag-btn-row">
+          <a href="#difference" class="ag-btn">See the difference</a>
+          <a href="#start" class="ag-btn ag-btn--ghost">Book the free session</a>
+          <a href="https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders.%20My%20teenager%20wants%20to%20learn%20to%20build%20AI%20agents." class="ag-btn ag-btn--ghost" target="_blank" rel="noopener" onclick="if(window.gtag)gtag('event','whatsapp_click',{page_topic:'agents-teens'});">Ask on WhatsApp</a>
+        </div>
+        <p class="ag-hero-note">
+          Live online &middot; ages 6 to 67 &middot; taught from India, worldwide &middot; agents track one to one at USD 150 a month &middot; first session free
+        </p>
+      </div>
+
+      <aside class="ag-spec">
+        <p class="ag-spec-title">At a glance</p>
+        <p class="ag-trust">
+          <span class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</span>
+          4.9 across 547 Google reviews
+        </p>
+        <dl>
+          <dt>An agent is</dt><dd>An assistant that takes actions</dd>
+          <dt>Format</dt><dd>One to one only, by design</dd>
+          <dt>Why</dt><dd>Actions need individual supervision</dd>
+          <dt>The four rails</dt><dd>Dry-run, least access, approval, logs</dd>
+          <dt>Best entry age</dt><dd>After a first coding course</dd>
+          <dt>Some tools wait until</dt><dd>18, and we say which</dd>
+          <dt>Fee</dt><dd>USD 150 a month, one to one</dd>
+          <dt>First session</dt><dd>Free, no card</dd>
+        </dl>
+      </aside>
+    </div>
+  </div>
+</header>
+
+<section class="ag-section" id="picks">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Start here</p>
+      <h2>The agent courses a teenager can actually take</h2>
+      <p class="ag-lede">All three are one to one, live, and built inside the tool terms their age band permits, with parents in the setup conversation from day one.</p>
+    </div>
+    <div class="ag-picks">
+      <a class="ag-pick" href="/courses/ai-agents-with-microsoft-copilot-studio-course-for-teens">
+        <div class="ag-pick-shot"><img src="/images/copilot-studio-teens.webp" alt="AI Agents with Microsoft Copilot Studio for Teens course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">AGENT / 01</p>
+          <h3>Copilot Studio Agents, Teens</h3>
+          <p>Building assistants that watch, draft and notify, with the approval step taught as a design principle rather than a limitation.</p>
+          <span class="ag-pick-go">Open the syllabus <span>&rarr;</span></span>
+        </div>
+      </a>
+      <a class="ag-pick" href="/courses/codex-and-claude-code-ai-coding-agents-course-for-teens">
+        <div class="ag-pick-shot"><img src="/images/codex-claude-code-teens.webp" alt="Codex and Claude Code for Teens course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">AGENT / 02</p>
+          <h3>Codex and Claude Code, Teens</h3>
+          <p>Coding agents specifically: the terminal tools professionals run, met early and supervised, for teens who finished a first track.</p>
+          <span class="ag-pick-go">Open the syllabus <span>&rarr;</span></span>
+        </div>
+      </a>
+      <a class="ag-pick" href="/courses/ai-ml-masterclass-teens">
+        <div class="ag-pick-shot"><img src="/images/ai-ml-teens.webp" alt="AI and Machine Learning for Teens course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">AGENT / 03</p>
+          <h3>AI and ML for Teens</h3>
+          <p>The understanding underneath: how the models inside agents actually work, for teens who want to know what they are commanding.</p>
+          <span class="ag-pick-go">Open the syllabus <span>&rarr;</span></span>
+        </div>
+      </a>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section">
+  <div class="ag-wrap">
+    <div class="ag-capsule">
+      <p class="ag-capsule-q">The short answer</p>
+      <p>An AI agent is an assistant that takes actions rather than only answering: it can watch a source, decide a step, use a tool, and come back for approval. Teenagers can genuinely build agents, and the field carries the strictest age floors in AI, with several professional tools reserved for adults, so an honest teen track builds what a 13 to 18 year old may actually touch and names what waits until 18. Modern Age Coders teaches agents to teens one to one only, at USD 150 a month, because software that acts needs a teacher watching every action, and the four safety rails, dry-run first, least access, human approval, full logs, are the curriculum, not the small print. First session free.</p>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="difference">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">The difference, made concrete</p>
+      <h2>One goal, two systems: plan my revision week</h2>
+      <p class="ag-lede">
+        Same teenager, same Sunday evening, same goal. The left side is what everyone has already
+        done; the right side is what this track teaches them to build.
+      </p>
+    </div>
+
+    <div class="ag-code-pair">
+<figure class="ag-code">
+  <figcaption class="ag-code-head"><b>ASKING A CHATBOT</b><span>an answer</span></figcaption>
+  <pre>You:  "Plan my revision week. Exams:
+      chem Tuesday, maths Friday."
+
+Bot:  Here is a suggested schedule:
+      Mon: Chemistry, 2 hours...
+      [a sensible plan, as text]
+
+You:  copy, paste, reformat, forget
+      to update it when training
+      moves to Wednesday.
+
+<i># Useful. Also: the plan is dead</i>
+<i># the moment anything changes.</i></pre>
+  <p class="ag-code-note">A chatbot's output is words. Good words, sometimes, but the work of turning words into effects in the real world stays entirely with you.</p>
+</figure>
+<figure class="ag-code">
+  <figcaption class="ag-code-head"><b>RUNNING YOUR AGENT</b><span>actions, with rails</span></figcaption>
+  <pre>agent revision-planner
+  reads   exam dates (school calendar)
+  reads   training times (family cal)
+  builds  the week, avoiding clashes
+  DRY RUN shows the 6 events it would
+          create. Nothing created yet.
+  you     approve [y]
+  writes  6 events to your calendar
+  logs    what it did and why
+  Wed:    training moved. Agent
+          re-plans, asks again.
+
+<b># The plan now maintains itself.</b>
+<b># Every action visible, approved, logged.</b></pre>
+  <p class="ag-code-note">The dry-run line and the approval line are not decoration. They are the difference between an assistant and a hazard, and they are the first thing the course teaches.</p>
+</figure>
+</div>
+
+    <p class="ag-mt-40">
+      What makes an agent an agent, the loop of reading, deciding, acting and checking, is
+      explained component by component on
+      <a class="ag-inline-link" href="/ai-agents-explained">AI agents explained</a>, and the
+      coding-specific version has its own deep page at
+      <a class="ag-inline-link" href="/agentic-coding-classes">agentic coding</a>. This page's
+      job is narrower: what of all that a teenager can build now, with whose accounts, under
+      whose eyes. The answer is more than most parents expect and less than most videos imply,
+      and the difference is the ladder below.
+    </p>
+  </div>
+</section>
+
+<section class="ag-section ag-section--deep" id="ladder">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">The honest ladder</p>
+      <h2>What a teenager can build at each rung, and what waits</h2>
+      <p class="ag-lede">
+        Agent tools carry the strictest age terms in AI: several serious platforms are adults
+        only, and business tools vary by country. The ladder respects that instead of hiding it.
+      </p>
+    </div>
+
+    <div class="ag-table-wrap">
+        <table class="ag-table">
+          <thead><tr><th scope="col">Rung</th><th scope="col">What gets built</th><th scope="col">The supervision reality</th></tr></thead>
+          <tbody>
+            <tr><td>Early teens, 13 to 15</td><td class="ag-num">Rule-based automations: watch, filter, notify</td><td class="ag-num">Teacher-arranged access, parent in the loop, dry-run always</td></tr>
+            <tr><td>Older teens, 16 to 17</td><td class="ag-num">Real assistants with tools: read sources, draft actions, seek approval</td><td class="ag-num">One to one only; every new permission discussed before granted</td></tr>
+            <tr><td>Rung reserved for 18</td><td class="ag-num">Full professional agent platforms and unsupervised deploys</td><td class="ag-num">Named openly as adult tools; the ladder ends here on purpose</td></tr>
+          </tbody>
+        </table>
+      </div>
+
+    <p class="ag-mt-40">
+      Two things about this ladder deserve a parent's attention. First, the middle rung is where
+      the real education happens: an assistant that drafts but does not send, that proposes but
+      does not commit, teaches goal decomposition, permission design and approval flows, which
+      are exactly the abilities the industry currently struggles to hire. Second, the top rung
+      being closed until 18 costs a teenager nothing: a 17 year old who has spent two years on
+      rungs one and two steps into the adult tools with judgement their peers will spend their
+      first job acquiring.
+    </p>
+    <p>
+      The four rails run through every rung, and they are worth stating plainly because they are
+      the actual syllabus. Dry-run first: an agent shows what it would do before it may do it.
+      Least access: an agent gets the narrowest key that works, never a whole account's powers.
+      Human approval: anything irreversible waits for a person. Full logs: everything the agent
+      did is written where the student, the teacher and the parent can read it. A teenager who
+      builds inside those rails for a year has internalised more deployment discipline than most
+      of the adult market.
+    </p>
+  </div>
+</section>
+
+<section class="ag-section">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Why one to one</p>
+      <h2>The format is the safety feature</h2>
+    </div>
+    <div class="ag-grid-2" style="align-items:start">
+      <div>
+        <p>
+          Everything else we teach runs beautifully in batches of five to eight, and we say so
+          on every other page of this series. Agents are the exception, and the reason is
+          mechanical rather than commercial: an agent acts, the actions touch real accounts and
+          real data, and eight students' agents cannot all be watched at the moment each one
+          matters. A teacher supervising one student sees the permission about to be granted,
+          the dry-run about to be skipped, the key about to be pasted somewhere it should not be,
+          while it is still a lesson rather than an incident.
+        </p>
+      </div>
+      <div>
+        <p>
+          One to one also changes what gets built. Group courses converge on the same safe
+          demonstration project; a private track grows the agent out of the student's actual
+          life, their club, their revision, their team, their family logistics, which is where
+          the motivation lives and where the approval-flow design gets real, because the actions
+          have real consequences the student personally cares about. The fee is the one-to-one
+          rate, USD 150 a month, and this page will not pretend a group version exists, because
+          it does not and should not.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="courses">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">The catalogue</p>
+      <h2>The agents family, across ages</h2>
+      <p class="ag-lede">The teen courses this page describes, plus the adult rungs a student grows into, all one to one, all live.</p>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">I</span>
+        <h3>Agent-building courses</h3>
+        <span class="ag-band-sub">Chosen for this page rather than listed in full</span>
+      </div>
+      <div class="ag-grid-4">
+        <article class="ag-course">
+          <p class="ag-course-code">AGENT / 01</p>
+          <h4>Copilot Studio Agents, Teens</h4>
+          <p>Watch-draft-notify assistants with approval flows, built one to one inside the platform terms a teen's country permits.</p>
+          <a class="ag-course-link" href="/courses/ai-agents-with-microsoft-copilot-studio-course-for-teens">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">AGENT / 02</p>
+          <h4>Codex and Claude Code, Teens</h4>
+          <p>The coding-agent rung for older teens: professional terminal tools, met early, under supervision that does not blink.</p>
+          <a class="ag-course-link" href="/courses/codex-and-claude-code-ai-coding-agents-course-for-teens">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">AGENT / 03</p>
+          <h4>Copilot Studio Agents, College</h4>
+          <p>The 18 plus continuation: the same discipline pointed at studies, internships and first products.</p>
+          <a class="ag-course-link" href="/courses/ai-agents-with-microsoft-copilot-studio-course-for-college-students">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">AGENT / 04</p>
+          <h4>Copilot Studio Agents, Professionals</h4>
+          <p>For working adults automating real workflows, and for parents who got curious watching their teenager's track.</p>
+          <a class="ag-course-link" href="/courses/ai-agents-with-microsoft-copilot-studio-masterclass-for-professionals">Open the syllabus</a>
+        </article>
+      </div>
+    </div>
+    <p class="ag-mt-40">Around the agents family, students take <a class="ag-inline-link" href="/courses/vibe-coding-for-teens-python-web-ai-projects-course">Vibe Coding for Teens</a> &middot; <a class="ag-inline-link" href="/courses/python-complete-masterclass-teens">Python for Teens</a> &middot; <a class="ag-inline-link" href="/courses/ai-ml-masterclass-teens">AI and ML for Teens</a> &middot; <a class="ag-inline-link" href="/courses/git-github-version-control-course-for-teens">Git and GitHub for Teens</a> &middot; <a class="ag-inline-link" href="/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals">Codex and Claude Code, Professional</a> &middot; <a class="ag-inline-link" href="/courses/complete-generative-ai-masterclass-college">Generative AI Masterclass</a> &middot; <a class="ag-inline-link" href="/courses/ai-tools-mastery-complete-college">AI Tools Mastery</a>. The full map is on the <a class="ag-inline-link" href="/courses">catalogue</a>.</p>
+  </div>
+</section>
+
+<section class="ag-section" id="fees">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Fees</p>
+      <h2>One format, one figure, stated plainly</h2>
+      <p class="ag-lede">The agents track has no group batches anywhere in it, for the supervision reasons argued above, so its pricing is the simplest on the site: the one-to-one rate, monthly, leave whenever.</p>
+    </div>
+    <div class="ag-grid-3">
+      <div class="ag-price">
+        <p class="ag-price-name">Free first session</p>
+        <p class="ag-price-amt">USD 0</p>
+        <p class="ag-price-alt">no card required</p>
+        <ul><li>Build a tiny automation, dry-run mode</li><li>Parent walked through the access model</li><li>You watch it, then decide</li></ul>
+        <a href="#start" class="ag-btn ag-btn--ghost">Book it</a>
+      </div>
+      <div class="ag-price ag-price--feature">
+        <p class="ag-price-name">Agents, one to one</p>
+        <p class="ag-price-amt">USD 150</p>
+        <p class="ag-price-alt">a month, billed in US dollars</p>
+        <ul><li>Private teaching, every action supervised</li><li>Live video, never a recording</li><li>Projects grown from the student's real life</li><li>Certificate on completion</li></ul>
+        <a href="#start" class="ag-btn">Start here</a>
+      </div>
+      <div class="ag-price">
+        <p class="ag-price-name">Other tracks, group</p>
+        <p class="ag-price-amt">USD 100</p>
+        <p class="ag-price-alt">a month, everywhere else on the site</p>
+        <ul><li>Vibe coding, Python, web and more</li><li>Batches of five to eight</li><li>The usual on-ramp before agents</li></ul>
+        <a href="/vibe-coding-for-teens" class="ag-btn ag-btn--ghost">See the teen track</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">What learners and families say</p>
+      <h2>Rated 4.9 across 547 Google reviews</h2>
+      <p class="ag-lede">Real reviews from real families. We neither write nor commission them.</p>
+    </div>
+    <div class="ag-grid-3">
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."</p>
+        <p class="ag-review-name">Ria Mukherjee</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."</p>
+        <p class="ag-review-name">Samriddha Mondal</p>
+        <p class="ag-review-role">Student</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."</p>
+        <p class="ag-review-name">Vansh Agarwal</p>
+        <p class="ag-review-role">Student</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."</p>
+        <p class="ag-review-name">Sonam Oswal</p>
+        <p class="ag-review-role">Parent of Dhairya</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."</p>
+        <p class="ag-review-name">Sonu Goyal</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."</p>
+        <p class="ag-review-name">Ritu Kedia</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">The rest of the series</p>
+      <h2>Fourteen more pages on vibe coding and learning AI</h2>
+      <p class="ag-lede">This page is the agents rung. The loop, the audiences and the wider decisions each keep their own page.</p>
+    </div>
+    <div class="ag-markets">
+      <a class="ag-market" href="/what-is-vibe-coding"><span class="ag-market-n">What is vibe coding</span><span class="ag-market-m">/what-is-vibe-coding</span></a>
+      <a class="ag-market" href="/vibe-coding-for-teens"><span class="ag-market-n">Vibe coding for teens</span><span class="ag-market-m">/vibe-coding-for-teens</span></a>
+      <a class="ag-market" href="/vibe-coding-for-beginners"><span class="ag-market-n">For complete beginners</span><span class="ag-market-m">/vibe-coding-for-beginners</span></a>
+      <a class="ag-market" href="/parents-guide-to-vibe-coding"><span class="ag-market-n">The parents guide</span><span class="ag-market-m">/parents-guide-to-vibe-coding</span></a>
+      <a class="ag-market" href="/vibe-coding-projects-for-students"><span class="ag-market-n">Projects that impress</span><span class="ag-market-m">/vibe-coding-projects-for-students</span></a>
+      <a class="ag-market" href="/learn-to-code-with-ai"><span class="ag-market-n">Learn to code with AI</span><span class="ag-market-m">/learn-to-code-with-ai</span></a>
+      <a class="ag-market" href="/ai-coding-course"><span class="ag-market-n">The AI coding course</span><span class="ag-market-m">/ai-coding-course</span></a>
+      <a class="ag-market" href="/build-apps-with-ai"><span class="ag-market-n">Build apps with AI</span><span class="ag-market-m">/build-apps-with-ai</span></a>
+      <a class="ag-market" href="/ai-literacy-for-students"><span class="ag-market-n">AI literacy</span><span class="ag-market-m">/ai-literacy-for-students</span></a>
+      <a class="ag-market" href="/should-my-child-learn-ai"><span class="ag-market-n">Should my child learn AI</span><span class="ag-market-m">/should-my-child-learn-ai</span></a>
+      <a class="ag-market" href="/best-ai-courses-for-teens-2026"><span class="ag-market-n">Best AI courses for teens</span><span class="ag-market-m">/best-ai-courses-for-teens-2026</span></a>
+      <a class="ag-market" href="/ai-projects-for-kids"><span class="ag-market-n">AI projects for kids</span><span class="ag-market-m">/ai-projects-for-kids</span></a>
+      <a class="ag-market" href="/ai-classes-for-adults"><span class="ag-market-n">AI classes for adults</span><span class="ag-market-m">/ai-classes-for-adults</span></a>
+      <a class="ag-market" href="/one-on-one-ai-classes"><span class="ag-market-n">One to one AI classes</span><span class="ag-market-m">/one-on-one-ai-classes</span></a>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--deep">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Questions about teen agents</p>
+      <h2>What parents and teens ask about this track</h2>
+    </div>
+    <div class="ag-faq">
+      <div class="ag-faq-item">
+        <h3>What is the difference between a chatbot and an agent, in plain terms?</h3>
+        <p>A chatbot answers you; an agent does things for you. Ask a chatbot to plan your revision week and you get a plan as text. Give the same goal to an agent and it can read your exam dates, draft the timetable into your actual calendar, and flag the clash it found, taking real actions in real systems along the way. The action-taking is the power and the entire reason agents need more care, more rails and more supervision than chat.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Is my teenager old enough to build agents?</h3>
+        <p>For learning the concepts and building supervised, rule-based automations, yes from the early teens. For the professional agent platforms, the honest answer is that age floors bite harder here than anywhere else in AI: several serious agent and coding-agent tools require adulthood, and business platforms carry their own account terms by country. Our teen track is built around what a teenager may genuinely hold and touch, arranged with parents, and we name what remains out of reach until 18 instead of pretending.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Why is the agents track one to one only?</h3>
+        <p>Because an agent acts, and actions need individual supervision. In a group class, eight students' automations touching eight different accounts cannot all be watched properly at once, and this is one place we refuse to teach at a supervision level we cannot honour. One to one, the teacher sees every action the agent is about to take, every permission it is granted, and every mistake before it compounds. That is also why this track costs the one-to-one fee rather than the group fee.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>What does a teenager actually build in this track?</h3>
+        <p>Things that act on their own world, with rails. Recent builds include an assistant that watches a shared family calendar and messages the student a packing list the night before sports fixtures, a study bot that quizzes from the student's own notes and logs weak topics, and a club-admin helper that drafts reminder messages for a teacher to approve and send. Notice the pattern: real usefulness, and a human approval step wherever the action leaves the student's own accounts.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Is it safe to let an AI agent take actions?</h3>
+        <p>Only inside rails, which is precisely what the course teaches as its core content rather than as a disclaimer. The rails are concrete: agents run in dry-run mode first, showing what they would do before doing it; they get the narrowest possible access, never a main account's full powers; anything irreversible requires a human click; and everything they do is logged where the student and parent can read it. A teenager who internalises those four rails has learned something most adults deploying agents have not.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Does my teen need to know coding before starting agents?</h3>
+        <p>A first course helps enormously and we recommend it: agents are a second-rung topic, and a student who has already built and debugged ordinary projects gets triple the value from agent building. A motivated beginner can still start here one to one, because the teacher can shape the on-ramp, but if you are choosing an order, vibe coding or Python first, agents second is the order we would choose for our own children.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Do agent tools need paid subscriptions?</h3>
+        <p>Some do, and this is stated on each course page before enrolment rather than surfacing later. The teen agents courses are designed to run on access arranged as part of the course setup conversation, with parents involved, inside each platform's terms. Where a specific professional tool subscription is genuinely required, the course page for that specific course says so in plain text, with the current cost.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Will building agents help my teenager's future applications and career?</h3>
+        <p>Agent skills are young enough that a teenager with real, demonstrable agent projects is unusual in any applicant pool, and the underlying abilities, decomposing a goal into steps, granting minimal permissions, designing approval flows, are the same ones the industry is currently hiring adults to learn on the job. We make no placement promises to anyone; we do note that this is the rare topic where a 16 year old can be genuinely early.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>What does the teen agents track cost?</h3>
+        <p>USD 150 a month, the one-to-one rate, because one to one is the only format this track is offered in. Billing is monthly with no joining fee and no minimum stay, and the free first session applies here like everywhere else: a real working session, in this case building a tiny supervised automation, before any payment exists.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>How does a teenager start?</h3>
+        <p>Send the form and mention agents. The free session pairs the student with an agents teacher, builds a small watch-and-notify automation together in dry-run mode, and walks the parent through exactly which access the full course would involve, in whose name, before anything is created. If the student has a first course already behind them, bring a project from it; the best agent ideas usually grow out of a project the student already loves.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="start">
+  <div class="ag-wrap">
+    <div class="ag-hero-grid">
+      <div>
+        <div class="ag-section-head">
+          <p class="ag-eyebrow">Start</p>
+          <h2>The free session builds an agent in dry-run mode</h2>
+        </div>
+        <p>Sixty to ninety minutes, one teacher, one teenager, one parent welcome throughout. Together they build a tiny watch-and-notify automation and run it in dry-run mode, so the student sees an agent propose actions and feels what approving them means. The parent gets the access conversation in plain language: what the full course would touch, in whose name, with which rails. Families leave knowing exactly what this track is, which is the only honest way to sell software that acts.</p>
+        <p>Background reading first? <a class="ag-inline-link" href="/ai-agents-explained">AI agents explained</a> covers the mechanism, <a class="ag-inline-link" href="/agentic-coding-classes">agentic coding</a> covers the coding-agent world, and the <a class="ag-inline-link" href="/vibe-coding-for-teens">teen vibe coding track</a> is the usual rung before this one.</p>
+        <p style="margin-top:22px">
+          <a class="ag-inline-link" href="https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders.%20My%20teenager%20wants%20to%20learn%20to%20build%20AI%20agents." target="_blank" rel="noopener">WhatsApp us</a> &middot;
+          <a class="ag-inline-link" href="tel:+919123366161">+91 91233 66161</a> &middot;
+          <a class="ag-inline-link" href="mailto:contact@modernagecoders.com">contact@modernagecoders.com</a>
+        </p>
+        <p style="font-size:.92rem;color:var(--ag-muted);margin-top:14px">
+          Live one-to-one video from India, worldwide; the number rings in India. Sending the
+          form arranges the free session and creates no account, no access and no obligation of
+          any kind.
+        </p>
+      </div>
+      <div class="ag-form-panel">
+        <form onsubmit="submitAgentsTeensLead(event)" novalidate>
+          <div class="ag-field">
+            <label for="ag-atn-name">Your name</label>
+            <input id="ag-atn-name" type="text" name="name" placeholder="Parent or student name" required>
+          </div>
+          <div class="ag-field">
+            <label for="ag-atn-phone">Phone or WhatsApp, including your country code</label>
+            <input id="ag-atn-phone" type="tel" name="phone" placeholder="+1 312 555 0188" required>
+          </div>
+          <div class="ag-field">
+            <label for="ag-atn-age">The learner is</label>
+            <select id="ag-atn-age" name="age">
+              <option value="13-18">A teenager, 13 to 18</option>
+              <option value="college">A university student</option>
+              <option value="adult">Me, working professional</option>
+              <option value="6-12">A younger child, 6 to 12</option>
+            </select>
+          </div>
+          <button type="submit" class="ag-btn" style="width:100%">Request the free session</button>
+          <p class="ag-form-note">No card. No obligation. We call, we do not spam.</p>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="ag-footer">
+  <div class="ag-wrap">
+    <div class="ag-grid-4">
+      <div>
+        <h4>Modern Age Coders</h4>
+        <p style="font-size:.9rem;opacity:.82">
+          Live online coding, AI and mathematics for ages 6 to 67. Teaching since 2020, more than
+          10,000 students across 25 countries and more.
+        </p>
+      </div>
+      <div>
+        <h4>Agents and beyond</h4>
+        <ul>
+          <li><a href="/ai-agents-explained">AI agents explained</a></li>
+          <li><a href="/agentic-coding-classes">Agentic coding</a></li>
+          <li><a href="/ai-coding-course">The AI coding course</a></li>
+          <li><a href="/model-context-protocol-mcp-course">The MCP course</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Vibe coding series</h4>
+        <ul>
+          <li><a href="/what-is-vibe-coding">What is vibe coding</a></li>
+          <li><a href="/vibe-coding-for-teens">Vibe coding for teens</a></li>
+          <li><a href="/parents-guide-to-vibe-coding">The parents guide</a></li>
+          <li><a href="/best-ai-courses-for-teens-2026">Best AI courses for teens</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Start</h4>
+        <ul>
+          <li><a href="/courses">The full catalogue</a></li>
+          <li><a href="/pricing">Fees</a></li>
+          <li><a href="/how-we-teach">How we teach</a></li>
+          <li><a href="/student-labs">What students build</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="ag-footer-bottom">
+      <span>&copy; 2026 Modern Age Coders. Live online, taught from India, worldwide.</span>
+      <span>Ages 6 to 67 &middot; 25 countries and more</span>
+    </div>
+  </div>
+</footer>
+
+<script>
+window.submitAgentsTeensLead = function (e) {
+  e.preventDefault();
+  var form = e.target;
+  var name = (form.querySelector('input[name="name"]') || {}).value || '';
+  var phoneRaw = (form.querySelector('input[type="tel"]') || {}).value || '';
+  var age = (form.querySelector('select[name="age"]') || {}).value || '';
+  var d = phoneRaw.replace(/\D/g, '');
+  if (d.length < 7) { alert('Please enter a valid phone number including your country code.'); return; }
+  var btn = form.querySelector('button[type="submit"]');
+  var oldText = btn.textContent;
+  btn.disabled = true; btn.textContent = 'Sending...';
+  var API_URL = (location.hostname === 'localhost' || location.hostname === '127.0.0.1')
+    ? 'http://localhost:5000' : 'https://backend-modernagecoders.vercel.app';
+  fetch(API_URL + '/api/callback/request', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({
+      phone: d, countryCode: '', countryIso: '', countryName: 'International',
+      source: 'ai-agents-for-teens-inline', meta: { name: name, age: age, raw: phoneRaw, topic: 'agents-teens' }
+    })
+  }).then(function (r) { return r.json(); }).then(function (data) {
+    if (data && data.success) {
+      if (window.gtag) gtag('event', 'generate_lead', { page_topic: 'agents-teens' });
+      form.innerHTML = '<p class="ag-form-ok">Thank you' + (name ? ', ' + name.split(' ')[0] : '') +
+        '. A mentor will call you to arrange the free session.</p>';
+    } else {
+      alert((data && data.message) || 'Something went wrong. Please try again.');
+      btn.disabled = false; btn.textContent = oldText;
+    }
+  }).catch(function () {
+    alert('Network error. Please try again.');
+    btn.disabled = false; btn.textContent = oldText;
+  });
+};
+</script>
+<script>
+  window.addEventListener('load', function () {
+    var s = document.createElement('script');
+    s.src = 'https://www.googletagmanager.com/gtag/js?id=G-N8BM164YJP';
+    s.async = true;
+    document.head.appendChild(s);
+  });
+</script>
+</body>
+</html>
