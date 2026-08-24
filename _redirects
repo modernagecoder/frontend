@@ -1942,4 +1942,8 @@
 # Global Build-AI cluster (ai-global.css). Inserted before the /* catch-all.
 /ai-coding-course /src/pages/ai-coding-course.html 200
 /ai-coding-course.md /src/pages/ai-coding-course.md 200
+
+# Global Build-AI cluster (ai-global.css). Inserted before the /* catch-all.
+/build-apps-with-ai /src/pages/build-apps-with-ai.html 200
+/build-apps-with-ai.md /src/pages/build-apps-with-ai.md 200
 /* /src/pages/404.html 404

@@ -7981,6 +7981,18 @@
   to = "/src/pages/ai-coding-course.md"
   status = 200
 
+# Global Build-AI cluster (ai-global.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/build-apps-with-ai"
+  to = "/src/pages/build-apps-with-ai.html"
+  status = 200
+
+[[redirects]]
+  from = "/build-apps-with-ai.md"
+  to = "/src/pages/build-apps-with-ai.md"
+  status = 200
+
 [[redirects]]
   from = "/*"
   to = "/src/pages/404.html"
