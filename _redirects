@@ -1970,4 +1970,8 @@
 # Global Build-AI cluster (ai-global.css). Inserted before the /* catch-all.
 /ai-classes-for-adults /src/pages/ai-classes-for-adults.html 200
 /ai-classes-for-adults.md /src/pages/ai-classes-for-adults.md 200
+
+# Global Build-AI cluster (ai-global.css). Inserted before the /* catch-all.
+/one-on-one-ai-classes /src/pages/one-on-one-ai-classes.html 200
+/one-on-one-ai-classes.md /src/pages/one-on-one-ai-classes.md 200
 /* /src/pages/404.html 404

@@ -8065,6 +8065,18 @@
   to = "/src/pages/ai-classes-for-adults.md"
   status = 200
 
+# Global Build-AI cluster (ai-global.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/one-on-one-ai-classes"
+  to = "/src/pages/one-on-one-ai-classes.html"
+  status = 200
+
+[[redirects]]
+  from = "/one-on-one-ai-classes.md"
+  to = "/src/pages/one-on-one-ai-classes.md"
+  status = 200
+
 [[redirects]]
   from = "/*"
   to = "/src/pages/404.html"
