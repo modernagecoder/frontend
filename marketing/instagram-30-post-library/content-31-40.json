@@ -1,0 +1,163 @@
+[
+  {
+    "number": 31,
+    "slug": "quiz-app-blueprint",
+    "series": "PROJECT BLUEPRINT",
+    "category": "PYTHON PROJECT",
+    "accent": "#0F82F5",
+    "caption": "A quiz app is the perfect small project for learning data, conditions, loops and feedback. Swipe through the complete blueprint, then build the smallest working version before adding features.",
+    "hashtags": "#ModernAgeCoders #PythonProject #QuizApp #ProjectBasedLearning #LearnPython",
+    "slides": [
+      {"template":"project","title":"BUILD A","accentTitle":"QUIZ APP.","subtitle":"A five-part project that teaches real programming logic.","items":[{"label":"DATA","text":"Questions and answers"},{"label":"LOGIC","text":"Check each response"},{"label":"FEEDBACK","text":"Track and show score"}],"focal":"DATA + LOOP + CONDITION","prompt":"SWIPE FOR THE BLUEPRINT"},
+      {"template":"flow","title":"DESIGN THE","accentTitle":"QUESTION LOOP.","subtitle":"Every question follows the same useful cycle.","items":[{"label":"1  SHOW","text":"Display one question"},{"label":"2  ASK","text":"Collect the player's answer"},{"label":"3  CHECK","text":"Update score and continue"}],"prompt":"ONE LOOP POWERS THE GAME"},
+      {"template":"checklist","title":"PLAN THE","accentTitle":"QUESTION DATA.","subtitle":"Keep each question structured and predictable.","items":[{"label":"PROMPT","text":"What will the player read?"},{"label":"OPTIONS","text":"Which choices are available?"},{"label":"ANSWER","text":"Which choice is correct?"},{"label":"EXPLANATION","text":"Why is it correct?"}],"prompt":"GOOD DATA MAKES CLEANER CODE"},
+      {"template":"code","title":"WRITE ONE","accentTitle":"CHECK FUNCTION.","subtitle":"Give the scoring rule a clear name.","code":["def check(answer, correct):","    return answer == correct","","score += check(user, correct)"],"items":[{"label":"INPUT","text":"Two answers"},{"label":"COMPARE","text":"Use =="},{"label":"RETURN","text":"True or False"}],"prompt":"SMALL FUNCTIONS. CLEAR LOGIC."},
+      {"template":"statement","title":"SHIP VERSION 1.","accentTitle":"THEN LEVEL UP.","subtitle":"Finish the core experience before adding extras.","focal":"5 QUESTIONS. 1 SCORE. DONE.","items":[{"label":"NEXT","text":"Add categories and difficulty"},{"label":"LATER","text":"Save high scores"}],"prompt":"BUILD SMALL ENOUGH TO FINISH"}
+    ]
+  },
+  {
+    "number": 32,
+    "slug": "javascript-event-loop",
+    "series": "JS UNDER THE HOOD",
+    "category": "JAVASCRIPT",
+    "accent": "#F5B22D",
+    "caption": "Why can a zero-millisecond timer still run later? Because JavaScript finishes the current call stack before taking queued work. This carousel gives you a practical mental model of the event loop.",
+    "hashtags": "#ModernAgeCoders #JavaScript #EventLoop #WebDevelopment #CodingExplained",
+    "slides": [
+      {"template":"hero","title":"0 MILLISECONDS.","accentTitle":"WHY DOES IT WAIT?","subtitle":"A timer can be ready while JavaScript is still busy.","focal":"STACK FIRST. QUEUE NEXT.","prompt":"SWIPE INSIDE JAVASCRIPT"},
+      {"template":"flow","title":"THREE PLACES.","accentTitle":"ONE EVENT LOOP.","subtitle":"Use this simplified model while tracing code.","items":[{"label":"1  STACK","text":"Run current JavaScript"},{"label":"2  WEB API","text":"Wait for timer or network"},{"label":"3  QUEUE","text":"Hold the ready callback"}],"prompt":"THE LOOP CHECKS WHAT CAN RUN"},
+      {"template":"code","title":"TRACE THIS","accentTitle":"IN ORDER.","subtitle":"What prints first, second and third?","code":["console.log(\"A\");","setTimeout(() => console.log(\"B\"), 0);","console.log(\"C\");"],"items":[{"label":"STACK","text":"A runs"},{"label":"TIMER","text":"B waits"},{"label":"STACK","text":"C runs"}],"prompt":"PREDICT BEFORE THE REVEAL"},
+      {"template":"reveal","title":"THE ORDER:","accentTitle":"A, C, B.","subtitle":"The timer callback enters after the stack is empty.","focal":"A  ->  C  ->  B","items":[{"label":"NOT DELAY","text":"Zero means minimum wait"},{"label":"REAL RULE","text":"Queued work waits for the stack"}],"prompt":"ZERO DOES NOT MEAN IMMEDIATE"},
+      {"template":"checklist","title":"WHEN CODE","accentTitle":"FEELS OUT OF ORDER.","subtitle":"Trace these four things before guessing.","items":[{"label":"STACK","text":"What is running now?"},{"label":"ASYNC WORK","text":"What is waiting elsewhere?"},{"label":"QUEUE","text":"What callback is ready?"},{"label":"BLOCKING","text":"What keeps the stack busy?"}],"prompt":"SAVE THE EVENT LOOP CHECKLIST"}
+    ]
+  },
+  {
+    "number": 33,
+    "slug": "image-classifier-project",
+    "series": "ML PROJECT LAB",
+    "category": "MACHINE LEARNING",
+    "accent": "#6B4EFF",
+    "caption": "An image classifier project begins long before training. You need a clear problem, balanced examples, a fair test and honest error analysis. Swipe through the complete workflow.",
+    "hashtags": "#ModernAgeCoders #MachineLearning #ImageClassification #AIProjects #LearnML",
+    "slides": [
+      {"template":"hero","title":"TEACH A MODEL","accentTitle":"TO SORT IMAGES.","subtitle":"Build a simple classifier without treating ML as magic.","focal":"EXAMPLES  ->  PATTERN  ->  LABEL","prompt":"SWIPE THROUGH THE ML PROJECT"},
+      {"template":"checklist","title":"START WITH","accentTitle":"BETTER EXAMPLES.","subtitle":"The model can only learn from what it sees.","items":[{"label":"CLEAR LABELS","text":"Define each category"},{"label":"VARIETY","text":"Use different angles and lighting"},{"label":"BALANCE","text":"Collect similar amounts per class"},{"label":"QUALITY","text":"Remove broken or wrong images"}],"prompt":"DATA QUALITY COMES FIRST"},
+      {"template":"flow","title":"TRAIN. TEST.","accentTitle":"THEN PREDICT.","subtitle":"Keep evaluation separate from learning.","items":[{"label":"1  TRAIN","text":"Learn from most examples"},{"label":"2  TEST","text":"Check unseen examples"},{"label":"3  PREDICT","text":"Classify a new image"}],"prompt":"UNSEEN DATA REVEALS THE TRUTH"},
+      {"template":"compare","title":"HIGH ACCURACY.","accentTitle":"USEFUL MODEL?","subtitle":"A score means little without context.","items":[{"label":"WEAK TEST","text":"Almost identical images in train and test"},{"label":"STRONG TEST","text":"New scenes the model never observed"}],"prompt":"TEST THE REAL WORLD, NOT MEMORY"},
+      {"template":"statement","title":"DON'T HIDE","accentTitle":"THE MISTAKES.","subtitle":"Wrong predictions are the best clues for improvement.","focal":"LOOK AT ERRORS BY CATEGORY","items":[{"label":"ASK","text":"Which class fails most?"},{"label":"IMPROVE","text":"Collect better examples"}],"prompt":"BUILD. MEASURE. LEARN."}
+    ]
+  },
+  {
+    "number": 34,
+    "slug": "frontend-roadmap",
+    "series": "LEARNING ROADMAP",
+    "category": "FRONTEND PATH",
+    "accent": "#0F82F5",
+    "caption": "A frontend roadmap should lead to projects, not endless tutorials. Learn the foundation, build one small interface, add JavaScript and publish the result. Swipe for a practical six-stage path.",
+    "hashtags": "#ModernAgeCoders #FrontendRoadmap #WebDevelopment #LearnToCode #StudentDevelopers",
+    "slides": [
+      {"template":"hero","title":"LEARN FRONTEND","accentTitle":"BY BUILDING IT.","subtitle":"A practical roadmap from blank file to live project.","focal":"HTML  ->  CSS  ->  JS  ->  SHIP","prompt":"SWIPE THROUGH THE ROADMAP"},
+      {"template":"grid","title":"THE FOUR","accentTitle":"CORE SKILLS.","subtitle":"Do not collect tools before learning the foundation.","items":[{"label":"HTML","text":"Structure and meaning"},{"label":"CSS","text":"Layout and responsive design"},{"label":"JAVASCRIPT","text":"Logic and interaction"},{"label":"GIT","text":"History and collaboration"}],"prompt":"FOUNDATION BEFORE FRAMEWORKS"},
+      {"template":"checklist","title":"PHASE 1:","accentTitle":"BUILD STATIC.","subtitle":"Learn to create a clear responsive page.","items":[{"label":"SEMANTIC HTML","text":"Use meaningful elements"},{"label":"FLEX + GRID","text":"Control layout"},{"label":"RESPONSIVE","text":"Design for different screens"},{"label":"ACCESSIBLE","text":"Keyboard and contrast checks"}],"prompt":"PROJECT: PERSONAL PROFILE PAGE"},
+      {"template":"project","title":"PHASE 2:","accentTitle":"ADD INTERACTION.","subtitle":"Use JavaScript to change what the page can do.","items":[{"label":"EVENT","text":"Listen for user action"},{"label":"STATE","text":"Remember current data"},{"label":"DOM","text":"Update the interface"}],"focal":"PROJECT: INTERACTIVE QUIZ","prompt":"MAKE THE PAGE RESPOND"},
+      {"template":"checklist","title":"PHASE 3:","accentTitle":"CONNECT DATA.","subtitle":"Move from isolated pages to useful applications.","items":[{"label":"FETCH","text":"Request API data"},{"label":"LOADING","text":"Show progress"},{"label":"ERROR","text":"Handle failure clearly"},{"label":"STORAGE","text":"Remember user choices"}],"prompt":"PROJECT: WEATHER DASHBOARD"},
+      {"template":"statement","title":"THE FINAL SKILL:","accentTitle":"SHIP IT.","subtitle":"A live imperfect project teaches more than a hidden perfect draft.","focal":"BUILD  ->  TEST  ->  DEPLOY","items":[{"label":"SHOW","text":"Publish the live link"},{"label":"EXPLAIN","text":"Write what you learned"}],"prompt":"YOUR ROADMAP ENDS WITH A URL"}
+    ]
+  },
+  {
+    "number": 35,
+    "slug": "debugging-system",
+    "series": "DEBUGGING MASTERCLASS",
+    "category": "DEVELOPER SKILL",
+    "accent": "#F04B2F",
+    "caption": "Debugging is not random editing. Reproduce the problem, read the evidence, isolate the cause, test one change and explain the result. Save this system for your next difficult bug.",
+    "hashtags": "#ModernAgeCoders #Debugging #DeveloperSkills #CodingTips #ProgrammingLogic",
+    "slides": [
+      {"template":"hero","title":"STOP GUESSING.","accentTitle":"DEBUG WITH A SYSTEM.","subtitle":"A repeatable process beats random code changes.","focal":"REPRODUCE  ->  ISOLATE  ->  TEST","prompt":"SWIPE FOR THE 5-STEP SYSTEM"},
+      {"template":"checklist","title":"STEP 1-3:","accentTitle":"FIND THE CAUSE.","subtitle":"Collect evidence before changing code.","items":[{"label":"REPRODUCE","text":"Make the bug happen again"},{"label":"READ","text":"Capture the exact error"},{"label":"ISOLATE","text":"Shrink the failing area"},{"label":"COMPARE","text":"What changed from working?"}],"prompt":"EVIDENCE BEFORE EDITS"},
+      {"template":"compare","title":"SYMPTOM OR","accentTitle":"ROOT CAUSE?","subtitle":"The visible problem may begin somewhere else.","items":[{"label":"SYMPTOM","text":"The button does nothing"},{"label":"CAUSE","text":"The event listener never attached"}],"prompt":"ASK WHAT HAD TO FAIL FIRST"},
+      {"template":"code","title":"MAKE THE","accentTitle":"INVISIBLE VISIBLE.","subtitle":"Inspect values at the decision point.","code":["console.log({ user, score });","","if (score > 10) {","    unlockLevel();","}"],"items":[{"label":"VALUE","text":"What is it now?"},{"label":"EXPECT","text":"What should it be?"},{"label":"PATH","text":"Which branch ran?"}],"prompt":"LOG WITH A QUESTION"},
+      {"template":"statement","title":"ONE CHANGE.","accentTitle":"ONE TEST.","subtitle":"If you change five things, you learn nothing about the cause.","focal":"CHANGE 1 VARIABLE AT A TIME","items":[{"label":"RETEST","text":"Use the same failing steps"},{"label":"EXPLAIN","text":"Why did the fix work?"}],"prompt":"SAVE YOUR DEBUGGING SYSTEM"}
+    ]
+  },
+  {
+    "number": 36,
+    "slug": "sql-question-to-query",
+    "series": "QUERY BUILDER",
+    "category": "SQL LESSON",
+    "accent": "#154C3C",
+    "caption": "A SQL query is a question written with structure. Decide what you want to see, where the data lives and which rows should remain. Swipe from plain English to a working query.",
+    "hashtags": "#ModernAgeCoders #SQL #Database #DataSkills #LearnToCode",
+    "slides": [
+      {"template":"hero","title":"TURN A QUESTION","accentTitle":"INTO SQL.","subtitle":"Start with meaning before memorizing keywords.","focal":"WHAT  +  WHERE  +  CONDITION","prompt":"SWIPE FROM ENGLISH TO QUERY"},
+      {"template":"flow","title":"BUILD THE","accentTitle":"QUERY IN 3 PARTS.","subtitle":"Each keyword answers a different question.","items":[{"label":"1  SELECT","text":"What columns do you want?"},{"label":"2  FROM","text":"Which table holds them?"},{"label":"3  WHERE","text":"Which rows should remain?"}],"prompt":"MEANING MAPS TO SYNTAX"},
+      {"template":"code","title":"THE QUESTION:","accentTitle":"WHO SCORED ABOVE 80?","subtitle":"Translate one idea at a time.","code":["SELECT name, score","FROM students","WHERE score > 80;"],"items":[{"label":"SHOW","text":"name and score"},{"label":"SOURCE","text":"students table"},{"label":"FILTER","text":"above 80"}],"prompt":"READ THE QUERY ALOUD"},
+      {"template":"quiz","title":"ADD ONE MORE","accentTitle":"CONDITION.","subtitle":"Keep students who also completed the course.","code":["WHERE score > 80","_____ completed = true;"],"options":["A  AND","B  FROM","C  ORDER"],"prompt":"CHOOSE BEFORE YOU SWIPE"},
+      {"template":"reveal","title":"CONNECT WITH","accentTitle":"AND.","subtitle":"Both conditions must now be true.","focal":"score > 80 AND completed = true","items":[{"label":"AND","text":"Require both conditions"},{"label":"OR","text":"Allow either condition"}],"prompt":"ASK PRECISE QUESTIONS OF DATA"}
+    ]
+  },
+  {
+    "number": 37,
+    "slug": "git-team-workflow",
+    "series": "TEAM DEVELOPER",
+    "category": "GIT WORKFLOW",
+    "accent": "#F04B2F",
+    "caption": "Git becomes useful when a team can work without overwriting each other. Create a branch, make focused commits, push the work and review before merging.",
+    "hashtags": "#ModernAgeCoders #Git #GitHubWorkflow #TeamCoding #DeveloperSkills",
+    "slides": [
+      {"template":"hero","title":"CODE TOGETHER.","accentTitle":"BREAK LESS.","subtitle":"A simple Git workflow for student teams.","focal":"BRANCH  ->  COMMIT  ->  REVIEW","prompt":"SWIPE THROUGH THE TEAM FLOW"},
+      {"template":"flow","title":"YOUR SAFE","accentTitle":"WORKING PATH.","subtitle":"Keep unfinished changes away from the main branch.","items":[{"label":"1  BRANCH","text":"Create a focused workspace"},{"label":"2  COMMIT","text":"Record meaningful progress"},{"label":"3  PUSH","text":"Share the branch remotely"}],"prompt":"SMALL BRANCH. CLEAR PURPOSE."},
+      {"template":"compare","title":"A MERGE CONFLICT","accentTitle":"IS A DECISION.","subtitle":"Git is asking which version should survive.","items":[{"label":"THEIRS","text":"Change from another branch"},{"label":"YOURS","text":"Change from your branch"}],"prompt":"UNDERSTAND BOTH BEFORE CHOOSING"},
+      {"template":"checklist","title":"WRITE COMMITS","accentTitle":"HUMANS CAN READ.","subtitle":"A useful history explains the project story.","items":[{"label":"FOCUSED","text":"One purpose per commit"},{"label":"CLEAR","text":"Use an action message"},{"label":"TESTED","text":"Do not commit broken work"},{"label":"FREQUENT","text":"Save meaningful checkpoints"}],"prompt":"GOOD: ADD QUIZ SCORE SCREEN"},
+      {"template":"statement","title":"REVIEW BEFORE","accentTitle":"YOU MERGE.","subtitle":"A second pair of eyes improves code and shared understanding.","focal":"EXPLAIN THE WHY, NOT ONLY THE WHAT","items":[{"label":"AUTHOR","text":"Describe the decision"},{"label":"REVIEWER","text":"Check behavior and clarity"}],"prompt":"TEAMWORK IS A TECHNICAL SKILL"}
+    ]
+  },
+  {
+    "number": 38,
+    "slug": "study-habits-data-project",
+    "series": "DATA PROJECT LAB",
+    "category": "DATA PROJECT",
+    "accent": "#6B4EFF",
+    "caption": "Turn your own study habits into a small data project. Track focused minutes, sleep and confidence, then look for patterns without confusing correlation with proof.",
+    "hashtags": "#ModernAgeCoders #DataScienceProject #StudentData #PythonProjects #DataLiteracy",
+    "slides": [
+      {"template":"project","title":"CAN DATA IMPROVE","accentTitle":"YOUR STUDY HABITS?","subtitle":"Build a personal dataset and investigate the pattern.","items":[{"label":"TRACK","text":"Daily habits"},{"label":"ANALYZE","text":"Compare patterns"},{"label":"REFLECT","text":"Test one change"}],"focal":"7 DAYS OF DATA","prompt":"SWIPE FOR THE PROJECT PLAN"},
+      {"template":"flow","title":"COLLECT TO","accentTitle":"CONCLUSION.","subtitle":"A simple data workflow keeps the project honest.","items":[{"label":"1  COLLECT","text":"Record the same fields daily"},{"label":"2  CLEAN","text":"Fix missing or inconsistent values"},{"label":"3  ANALYZE","text":"Compare and visualize patterns"}],"prompt":"CONSISTENCY MAKES DATA USEFUL"},
+      {"template":"checklist","title":"TRACK ONLY","accentTitle":"USEFUL FIELDS.","subtitle":"More columns do not automatically create insight.","items":[{"label":"FOCUS","text":"Minutes without distraction"},{"label":"SLEEP","text":"Hours from the previous night"},{"label":"TOPIC","text":"What subject did you study?"},{"label":"CONFIDENCE","text":"Rate understanding from 1 to 5"}],"prompt":"ONE ROW PER DAY"},
+      {"template":"compare","title":"PATTERN IS NOT","accentTitle":"PROOF.","subtitle":"Two things moving together may have another cause.","items":[{"label":"OBSERVATION","text":"More sleep matched higher confidence"},{"label":"HONEST CLAIM","text":"The data suggests a relationship"}],"prompt":"DO NOT CLAIM MORE THAN DATA SHOWS"},
+      {"template":"statement","title":"END WITH","accentTitle":"ONE EXPERIMENT.","subtitle":"Use the pattern to choose a small change to test.","focal":"CHANGE 1 HABIT FOR 7 DAYS","items":[{"label":"BEFORE","text":"Record the baseline"},{"label":"AFTER","text":"Compare the same measure"}],"prompt":"DATA SHOULD LEAD TO A QUESTION"}
+    ]
+  },
+  {
+    "number": 39,
+    "slug": "password-science",
+    "series": "SECURITY SCIENCE",
+    "category": "CYBER SAFETY",
+    "accent": "#F04B2F",
+    "caption": "A strong password is long, unique and hard to predict. Reusing one clever password is still dangerous because one leaked account can unlock the rest.",
+    "hashtags": "#ModernAgeCoders #CyberSecurity #PasswordSafety #DigitalSkills #OnlineSafety",
+    "slides": [
+      {"template":"hero","title":"STRONG PASSWORD?","accentTitle":"LENGTH WINS.","subtitle":"Predictability matters more than clever-looking symbols.","focal":"LONG + UNIQUE + RANDOM","prompt":"SWIPE FOR THE SECURITY RULES"},
+      {"template":"compare","title":"LOOKS COMPLEX.","accentTitle":"STILL PREDICTABLE.","subtitle":"Common substitutions are easy for attackers to test.","items":[{"label":"WEAK","text":"P@ssw0rd123"},{"label":"STRONGER","text":"A long unique generated password"}],"prompt":"DO NOT REUSE EITHER"},
+      {"template":"checklist","title":"THE FOUR","accentTitle":"PASSWORD RULES.","subtitle":"Use a password manager so you do not rely on memory.","items":[{"label":"LONG","text":"Prefer more characters"},{"label":"UNIQUE","text":"One password per account"},{"label":"RANDOM","text":"Avoid personal patterns"},{"label":"MFA","text":"Add a second verification step"}],"prompt":"SAVE THE SECURITY CHECKLIST"},
+      {"template":"statement","title":"ONE PASSWORD LEAKS.","accentTitle":"WHAT HAPPENS NEXT?","subtitle":"Reused credentials can be tested on your other accounts.","focal":"ONE LEAK  ->  MANY ATTEMPTS","items":[{"label":"LIMIT","text":"Use unique passwords"},{"label":"BLOCK","text":"Turn on MFA"}],"prompt":"BREAK THE REUSE CHAIN"},
+      {"template":"statement","title":"YOUR BEST TOOL:","accentTitle":"A PASSWORD MANAGER.","subtitle":"Let software remember strong unique passwords for you.","focal":"GENERATE. STORE. AUTOFILL.","items":[{"label":"YOU","text":"Remember one strong master password"},{"label":"MANAGER","text":"Handles the rest"}],"prompt":"SECURITY SHOULD BE A SYSTEM"}
+    ]
+  },
+  {
+    "number": 40,
+    "slug": "currency-converter-api",
+    "series": "API PROJECT LAB",
+    "category": "BUILD AN APP",
+    "accent": "#154C3C",
+    "caption": "Build a currency converter to practice APIs, forms, validation and loading states. The interface is simple, but the engineering decisions make it a strong beginner project.",
+    "hashtags": "#ModernAgeCoders #APIProject #WebDevelopment #CodingProjects #BuildToLearn",
+    "slides": [
+      {"template":"project","title":"BUILD A","accentTitle":"CURRENCY CONVERTER.","subtitle":"A compact project with real data and useful edge cases.","items":[{"label":"INPUT","text":"Amount and currencies"},{"label":"DATA","text":"Live exchange-rate API"},{"label":"OUTPUT","text":"Converted value"}],"focal":"FORM + API + VALIDATION","prompt":"SWIPE FOR THE BUILD PLAN"},
+      {"template":"flow","title":"THE CORE","accentTitle":"DATA FLOW.","subtitle":"Keep the user action and network request easy to trace.","items":[{"label":"1  ENTER","text":"Read amount and currency"},{"label":"2  FETCH","text":"Request the latest rate"},{"label":"3  CALCULATE","text":"Show the converted amount"}],"prompt":"INPUT. REQUEST. RESULT."},
+      {"template":"checklist","title":"DESIGN FOR","accentTitle":"REAL CONDITIONS.","subtitle":"A useful app handles more than the happy path.","items":[{"label":"LOADING","text":"Show that data is coming"},{"label":"ERROR","text":"Explain a failed request"},{"label":"VALIDATION","text":"Reject missing or negative input"},{"label":"TIMESTAMP","text":"Show when the rate updated"}],"prompt":"EDGE CASES MAKE THE PROJECT REAL"},
+      {"template":"code","title":"KEEP THE MATH","accentTitle":"VISIBLE.","subtitle":"Separate conversion logic from the interface.","code":["function convert(amount, rate) {","    return amount * rate;","}","","const result = convert(50, rate);"],"items":[{"label":"INPUT","text":"amount"},{"label":"RATE","text":"API value"},{"label":"OUTPUT","text":"converted total"}],"prompt":"SMALL FUNCTION. EASY TEST."},
+      {"template":"statement","title":"VERSION 1:","accentTitle":"ONE CLEAR JOURNEY.","subtitle":"Do not begin with every currency and feature.","focal":"2 CURRENCIES. 1 CONVERSION.","items":[{"label":"SHIP","text":"Make the basic flow reliable"},{"label":"NEXT","text":"Add favorites and history"}],"prompt":"START SMALL. BUILD OUTWARD."}
+    ]
+  }
+]

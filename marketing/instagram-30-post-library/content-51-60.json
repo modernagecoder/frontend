@@ -1,0 +1,162 @@
+[
+  {
+    "number": 51,
+    "slug": "free-demo-what-to-expect",
+    "series": "START HERE",
+    "category": "FREE DEMO",
+    "accent": "#F04B2F",
+    "caption": "Curious about coding, AI or machine learning but unsure where to begin? A free Modern Age Coders demo helps learners explore the teaching approach, ask questions and identify a suitable first project. Book at learn.modernagecoders.com.",
+    "hashtags": "#ModernAgeCoders #FreeCodingDemo #CodingForTeens #LearnToCode #FutureSkills",
+    "slides": [
+      {"template":"hero","title":"WHAT HAPPENS IN","accentTitle":"A FREE DEMO?","subtitle":"A clear first look at how learners think, build and improve.","focal":"EXPLORE  ->  EXPERIENCE  ->  DECIDE","prompt":"SWIPE BEFORE YOU BOOK"},
+      {"template":"flow","title":"START WITH","accentTitle":"THE LEARNER.","subtitle":"The right starting point depends on interests and experience.","items":[{"label":"1  INTERESTS","text":"What do they want to create?"},{"label":"2  EXPERIENCE","text":"What have they already tried?"},{"label":"3  GOAL","text":"Which skill or project comes next?"}],"prompt":"NO ONE-SIZE-FITS-ALL START"},
+      {"template":"project","title":"SEE HOW","accentTitle":"PROJECT LEARNING WORKS.","subtitle":"The focus is understanding through building.","items":[{"label":"THINK","text":"Break down the problem"},{"label":"BUILD","text":"Create a working version"},{"label":"IMPROVE","text":"Test and explain changes"}],"focal":"LOGIC + CODE + REAL OUTPUT","prompt":"LEARNING SHOULD PRODUCE SOMETHING"},
+      {"template":"checklist","title":"BRING YOUR","accentTitle":"REAL QUESTIONS.","subtitle":"Use the demo to evaluate whether the approach fits.","items":[{"label":"PROJECTS","text":"What will the learner build?"},{"label":"SUPPORT","text":"How is difficulty handled?"},{"label":"PROGRESS","text":"How is understanding checked?"},{"label":"PATH","text":"What is the recommended next step?"}],"prompt":"A GOOD DEMO SHOULD CREATE CLARITY"},
+      {"template":"statement","title":"READY TO","accentTitle":"SEE IT IN ACTION?","subtitle":"Book a free Modern Age Coders demo.","focal":"learn.modernagecoders.com","items":[{"label":"EXPLORE","text":"Coding, AI and ML"},{"label":"START","text":"With a real project"}],"prompt":"BOOK A FREE DEMO"}
+    ]
+  },
+  {
+    "number": 52,
+    "slug": "ai-ml-learning-path",
+    "series": "PROGRAM PATH",
+    "category": "AI + ML",
+    "accent": "#6B4EFF",
+    "caption": "Learning AI and machine learning should go beyond prompts. Modern Age Coders focuses on data, logic, models, evaluation and real projects. Explore the program at learn.modernagecoders.com.",
+    "hashtags": "#ModernAgeCoders #MachineLearningCourse #LearnAI #AIForStudents #ProjectBasedLearning",
+    "slides": [
+      {"template":"hero","title":"DON'T ONLY USE AI.","accentTitle":"LEARN HOW IT WORKS.","subtitle":"Move from generated answers to models you can explain.","focal":"DATA  ->  MODEL  ->  TEST  ->  BUILD","prompt":"SWIPE THROUGH THE LEARNING PATH"},
+      {"template":"checklist","title":"BEGIN WITH","accentTitle":"THE FOUNDATIONS.","subtitle":"Useful AI learning starts with logic and data.","items":[{"label":"PYTHON","text":"Write readable programs"},{"label":"DATA","text":"Clean and explore examples"},{"label":"LOGIC","text":"Break problems into steps"},{"label":"METRICS","text":"Measure whether a model works"}],"prompt":"FOUNDATION BEFORE HYPE"},
+      {"template":"flow","title":"BUILD THE","accentTitle":"MODEL LOOP.","subtitle":"Learning happens through repeated testing and improvement.","items":[{"label":"1  TRAIN","text":"Learn patterns from examples"},{"label":"2  EVALUATE","text":"Test on unseen data"},{"label":"3  IMPROVE","text":"Change data or approach"}],"prompt":"A MODEL IS A TESTABLE SYSTEM"},
+      {"template":"project","title":"TURN KNOWLEDGE","accentTitle":"INTO PROJECTS.","subtitle":"Projects connect code, data and real decisions.","items":[{"label":"CLASSIFY","text":"Sort images or text"},{"label":"PREDICT","text":"Estimate a useful outcome"},{"label":"RECOMMEND","text":"Rank relevant choices"}],"focal":"LEARN BY BUILDING MODELS","prompt":"WHICH PROJECT WOULD YOU CHOOSE?"},
+      {"template":"statement","title":"START YOUR","accentTitle":"AI + ML PATH.","subtitle":"Explore project-based learning with a free demo.","focal":"learn.modernagecoders.com","items":[{"label":"UNDERSTAND","text":"How models work"},{"label":"CREATE","text":"Projects you can explain"}],"prompt":"BOOK A FREE DEMO"}
+    ]
+  },
+  {
+    "number": 53,
+    "slug": "coding-journey-for-teens",
+    "series": "LEARNER JOURNEY",
+    "category": "CODING FOR TEENS",
+    "accent": "#0F82F5",
+    "caption": "The goal is not to rush through syntax. A strong coding journey moves from curiosity to logic, from guided practice to independent projects and from copying to explaining. Learn more at learn.modernagecoders.com.",
+    "hashtags": "#ModernAgeCoders #CodingForTeens #YoungCoders #FutureSkills #LearnToCode",
+    "slides": [
+      {"template":"hero","title":"FROM CURIOUS","accentTitle":"TO CAPABLE BUILDER.","subtitle":"A learning path designed around understanding and creation.","focal":"TRY  ->  UNDERSTAND  ->  BUILD","prompt":"SWIPE THROUGH THE JOURNEY"},
+      {"template":"flow","title":"FIRST:","accentTitle":"MAKE IT WORK.","subtitle":"Early wins build confidence and reveal the basic pattern.","items":[{"label":"1  FOLLOW","text":"Complete a guided example"},{"label":"2  CHANGE","text":"Modify one part"},{"label":"3  EXPLAIN","text":"Describe why it changed"}],"prompt":"COPYING IS ONLY THE FIRST STEP"},
+      {"template":"checklist","title":"NEXT:","accentTitle":"MAKE DECISIONS.","subtitle":"Learners begin choosing the logic and structure.","items":[{"label":"PLAN","text":"Break the idea into features"},{"label":"CHOOSE","text":"Select data and conditions"},{"label":"DEBUG","text":"Use evidence to fix problems"},{"label":"REFLECT","text":"Explain tradeoffs"}],"prompt":"INDEPENDENCE GROWS THROUGH CHOICE"},
+      {"template":"project","title":"THEN:","accentTitle":"BUILD SOMETHING REAL.","subtitle":"A project connects skills that tutorials keep separate.","items":[{"label":"IDEA","text":"Choose a useful problem"},{"label":"VERSION 1","text":"Finish the core experience"},{"label":"IMPROVE","text":"Test and add one feature"}],"focal":"PROJECTS CREATE PROOF","prompt":"BUILD WORK YOU CAN SHOW"},
+      {"template":"statement","title":"READY FOR","accentTitle":"THE FIRST PROJECT?","subtitle":"Explore Modern Age Coders with a free demo.","focal":"learn.modernagecoders.com","items":[{"label":"CODING","text":"Logic and development"},{"label":"AI + ML","text":"Models and data"}],"prompt":"BOOK A FREE DEMO"}
+    ]
+  },
+  {
+    "number": 54,
+    "slug": "parent-faq-project-learning",
+    "series": "PARENT GUIDE",
+    "category": "PARENT FAQ",
+    "accent": "#154C3C",
+    "caption": "Parents often ask what meaningful coding progress looks like. It is more than completing lessons. Learners should be able to plan, build, debug and explain a project with growing independence.",
+    "hashtags": "#ModernAgeCoders #ParentsOfTeens #CodingEducation #ProjectBasedLearning #FutureReady",
+    "slides": [
+      {"template":"hero","title":"IS MY CHILD","accentTitle":"REALLY LEARNING TO CODE?","subtitle":"Look for thinking and independence, not only completed lessons.","focal":"PLAN  +  BUILD  +  EXPLAIN","prompt":"SWIPE THROUGH THE PARENT GUIDE"},
+      {"template":"compare","title":"ACTIVITY OR","accentTitle":"UNDERSTANDING?","subtitle":"Finishing steps does not always mean owning the idea.","items":[{"label":"ACTIVITY","text":"Copied the example successfully"},{"label":"UNDERSTANDING","text":"Changed it and explained the result"}],"prompt":"ASK WHAT THEY CHANGED AND WHY"},
+      {"template":"checklist","title":"FOUR SIGNS OF","accentTitle":"REAL PROGRESS.","subtitle":"Growth becomes visible in how the learner approaches problems.","items":[{"label":"PLANS","text":"Breaks a project into steps"},{"label":"DEBUGS","text":"Reads errors before asking"},{"label":"EXPLAINS","text":"Describes the logic clearly"},{"label":"IMPROVES","text":"Changes work after feedback"}],"prompt":"PROGRESS IS MORE THAN SPEED"},
+      {"template":"statement","title":"STRUGGLE CAN BE","accentTitle":"PRODUCTIVE.","subtitle":"The goal is not to remove every difficult moment.","focal":"SUPPORT WITHOUT TAKING OVER","items":[{"label":"HELPFUL","text":"Ask a guiding question"},{"label":"UNHELPFUL","text":"Give the complete solution"}],"prompt":"CONFIDENCE GROWS THROUGH RECOVERY"},
+      {"template":"statement","title":"SEE THE APPROACH","accentTitle":"FOR YOURSELF.","subtitle":"Book a free Modern Age Coders demo and ask your questions.","focal":"learn.modernagecoders.com","items":[{"label":"DISCUSS","text":"Goals and suitable starting point"},{"label":"EXPLORE","text":"Project-based learning"}],"prompt":"BOOK A FREE DEMO"}
+    ]
+  },
+  {
+    "number": 55,
+    "slug": "from-consumer-to-creator",
+    "series": "BUILDER TRANSFORMATION",
+    "category": "WHY CODING",
+    "accent": "#F04B2F",
+    "caption": "Technology feels different when learners can shape it. Coding education can move students from consuming interfaces to questioning systems, building projects and explaining how they work.",
+    "hashtags": "#ModernAgeCoders #DigitalCreators #CodingEducation #YoungInnovators #BuildTheFuture",
+    "slides": [
+      {"template":"hero","title":"DON'T ONLY","accentTitle":"CONSUME TECHNOLOGY.","subtitle":"Learn to question it, change it and create with it.","focal":"USER  ->  THINKER  ->  BUILDER","prompt":"SWIPE THROUGH THE TRANSFORMATION"},
+      {"template":"compare","title":"PASSIVE USE OR","accentTitle":"ACTIVE UNDERSTANDING?","subtitle":"The same tool can create very different learning habits.","items":[{"label":"CONSUME","text":"Click until something works"},{"label":"UNDERSTAND","text":"Trace what the system is doing"}],"prompt":"CURIOSITY CHANGES THE EXPERIENCE"},
+      {"template":"flow","title":"THE BUILDER","accentTitle":"WAY OF THINKING.","subtitle":"A problem becomes a series of testable decisions.","items":[{"label":"1  QUESTION","text":"What should happen?"},{"label":"2  BUILD","text":"Create the smallest version"},{"label":"3  IMPROVE","text":"Test and refine the result"}],"prompt":"CREATION MAKES LEARNING VISIBLE"},
+      {"template":"project","title":"PROOF COMES","accentTitle":"FROM PROJECTS.","subtitle":"Each finished project demonstrates a connected skill set.","items":[{"label":"LOGIC","text":"Decisions and algorithms"},{"label":"TECH","text":"Code, data and tools"},{"label":"COMMUNICATION","text":"Explain choices clearly"}],"focal":"SHOW WHAT YOU CAN BUILD","prompt":"PROJECTS TURN SKILL INTO EVIDENCE"},
+      {"template":"statement","title":"MAKE THE SHIFT","accentTitle":"WITH MODERN AGE CODERS.","subtitle":"Explore coding, AI and ML through project-based learning.","focal":"learn.modernagecoders.com","items":[{"label":"THINK","text":"Understand the system"},{"label":"BUILD","text":"Create the project"}],"prompt":"BOOK A FREE DEMO"}
+    ]
+  },
+  {
+    "number": 56,
+    "slug": "builder-community",
+    "series": "BUILD TOGETHER",
+    "category": "COMMUNITY",
+    "accent": "#6B4EFF",
+    "caption": "Learning to code becomes more powerful when students can share progress, explain decisions and learn from other builders. Join a culture that values thoughtful work over perfect-looking results.",
+    "hashtags": "#ModernAgeCoders #CodingCommunity #StudentBuilders #BuildInPublic #LearnTogether",
+    "slides": [
+      {"template":"hero","title":"BUILDING ALONE","accentTitle":"GETS QUIET.","subtitle":"Progress grows when learners can share, explain and improve together.","focal":"BUILD  +  SHARE  +  FEEDBACK","prompt":"SWIPE INTO THE BUILDER CULTURE"},
+      {"template":"grid","title":"A STRONG COMMUNITY","accentTitle":"DOES FOUR THINGS.","subtitle":"The goal is better thinking, not empty competition.","items":[{"label":"SHARES","text":"Shows unfinished progress"},{"label":"ASKS","text":"Brings clear questions"},{"label":"REVIEWS","text":"Gives specific feedback"},{"label":"CELEBRATES","text":"Values learning and completion"}],"prompt":"GROWTH IS A TEAM PRACTICE"},
+      {"template":"statement","title":"SHOW THE BUG.","accentTitle":"NOT ONLY THE WIN.","subtitle":"Explaining a difficult fix can teach more than a polished screenshot.","focal":"WHAT FAILED? WHAT CHANGED?","items":[{"label":"HONEST","text":"Share the difficult part"},{"label":"USEFUL","text":"Explain the lesson"}],"prompt":"TURN STRUGGLE INTO KNOWLEDGE"},
+      {"template":"statement","title":"FIND YOUR","accentTitle":"BUILDER COMMUNITY.","subtitle":"Explore Modern Age Coders through a free demo.","focal":"learn.modernagecoders.com","items":[{"label":"CREATE","text":"Real coding projects"},{"label":"GROW","text":"Through feedback and reflection"}],"prompt":"BOOK A FREE DEMO"}
+    ]
+  },
+  {
+    "number": 57,
+    "slug": "web-developer-day",
+    "series": "CAREER REALITY",
+    "category": "WEB CAREER",
+    "accent": "#0F82F5",
+    "caption": "Web development is not eight hours of typing new code. A real day includes understanding requirements, reading existing code, testing, debugging, reviewing and communicating.",
+    "hashtags": "#ModernAgeCoders #WebDeveloper #TechCareers #CareerExploration #StudentDevelopers",
+    "slides": [
+      {"template":"hero","title":"WHAT DOES A","accentTitle":"WEB DEVELOPER DO?","subtitle":"The job is much more than writing new code.","focal":"UNDERSTAND  ->  BUILD  ->  VERIFY","prompt":"SWIPE THROUGH A REAL WORKDAY"},
+      {"template":"checklist","title":"BEFORE CODING:","accentTitle":"UNDERSTAND THE TASK.","subtitle":"The fastest code is useless if it solves the wrong problem.","items":[{"label":"USER","text":"Who needs this feature?"},{"label":"GOAL","text":"What should become easier?"},{"label":"CONSTRAINT","text":"What must not break?"},{"label":"SUCCESS","text":"How will the team verify it?"}],"prompt":"CLARITY SAVES REWORK"},
+      {"template":"flow","title":"THEN BUILD","accentTitle":"A SMALL CHANGE.","subtitle":"Professional work moves through reviewable steps.","items":[{"label":"1  READ","text":"Understand existing code"},{"label":"2  CHANGE","text":"Implement one focused feature"},{"label":"3  TEST","text":"Verify expected behavior"}],"prompt":"SMALL CHANGES ARE EASIER TO TRUST"},
+      {"template":"grid","title":"THE HIDDEN","accentTitle":"HALF OF THE JOB.","subtitle":"Strong developers spend time reducing uncertainty.","items":[{"label":"DEBUG","text":"Find causes, not symptoms"},{"label":"REVIEW","text":"Improve another developer's work"},{"label":"DISCUSS","text":"Align with design and product"},{"label":"DOCUMENT","text":"Explain future decisions"}],"prompt":"COMMUNICATION IS PART OF CODING"},
+      {"template":"statement","title":"TRY THE CAREER","accentTitle":"THROUGH A PROJECT.","subtitle":"Build a real interface before choosing the label.","focal":"PROJECT: SOLVE 1 USER PROBLEM","items":[{"label":"BUILD","text":"A useful responsive feature"},{"label":"EXPLAIN","text":"The decisions and tradeoffs"}],"prompt":"EXPLORE BY DOING"}
+    ]
+  },
+  {
+    "number": 58,
+    "slug": "math-genius-coding-myth",
+    "series": "TECH MYTH CHECK",
+    "category": "BEGINNER MYTH",
+    "accent": "#F5B22D",
+    "caption": "You do not need to be a mathematics genius to begin coding. You need patience, logical practice and the willingness to break large problems into smaller ones. Different fields require different levels of math later.",
+    "hashtags": "#ModernAgeCoders #CodingMyths #LearnToCode #CodingForBeginners #StudentMindset",
+    "slides": [
+      {"template":"poll","title":"MATH GENIUS FIRST.","accentTitle":"CODING LATER?","subtitle":"Myth or fact? Choose before you swipe.","items":[{"label":"MYTH","text":"You must master advanced math first"},{"label":"FACT","text":"You can begin with logic and practice"}],"prompt":"MYTH OR FACT?"},
+      {"template":"reveal","title":"THE ANSWER:","accentTitle":"MYTH.","subtitle":"Most beginner projects need clear thinking more than advanced formulas.","focal":"BREAK THE PROBLEM INTO STEPS","items":[{"label":"START","text":"Variables, conditions and loops"},{"label":"GROW","text":"Learn needed math with the project"}],"prompt":"DO NOT WAIT TO FEEL READY"},
+      {"template":"compare","title":"CODING SKILL OR","accentTitle":"FIELD-SPECIFIC MATH?","subtitle":"The amount of math changes with the work you choose.","items":[{"label":"WEB APPS","text":"Logic, layout and data flow"},{"label":"ML + GRAPHICS","text":"More statistics, algebra or geometry"}],"prompt":"LEARN THE MATH THE GOAL REQUIRES"},
+      {"template":"statement","title":"YOUR FIRST STEP:","accentTitle":"BUILD SOMETHING SMALL.","subtitle":"Progress creates the confidence that waiting cannot.","focal":"START WITH A 20-LINE PROJECT","items":[{"label":"TRY","text":"A calculator or quiz"},{"label":"LEARN","text":"One new idea at a time"}],"prompt":"SEND THIS TO A HESITANT BEGINNER"}
+    ]
+  },
+  {
+    "number": 59,
+    "slug": "smart-study-planner",
+    "series": "CAPSTONE BLUEPRINT",
+    "category": "AI PROJECT",
+    "accent": "#6B4EFF",
+    "caption": "Capstone idea: build a smart study planner that turns goals and available time into a realistic weekly plan. Start with rule-based logic, then add AI only where it provides clear value.",
+    "hashtags": "#ModernAgeCoders #AIProject #CapstoneProject #CodingProjects #BuildWithAI",
+    "slides": [
+      {"template":"project","title":"BUILD A SMART","accentTitle":"STUDY PLANNER.","subtitle":"A capstone combining user needs, scheduling logic and AI.","items":[{"label":"INPUT","text":"Goals and available time"},{"label":"PLAN","text":"Create study sessions"},{"label":"ADAPT","text":"Update after progress"}],"focal":"DATA + LOGIC + AI","prompt":"SWIPE FOR THE CAPSTONE PLAN"},
+      {"template":"checklist","title":"DEFINE THE","accentTitle":"REAL USER NEED.","subtitle":"Do not begin with AI. Begin with the decision the learner faces.","items":[{"label":"GOALS","text":"What must be completed?"},{"label":"TIME","text":"When is the learner available?"},{"label":"PRIORITY","text":"What matters most?"},{"label":"ENERGY","text":"When can they focus best?"}],"prompt":"GOOD INPUTS CREATE USEFUL PLANS"},
+      {"template":"flow","title":"BUILD VERSION 1","accentTitle":"WITHOUT AI.","subtitle":"A rule-based planner creates a reliable baseline.","items":[{"label":"1  SPLIT","text":"Break goals into tasks"},{"label":"2  RANK","text":"Order by urgency and difficulty"},{"label":"3  SCHEDULE","text":"Fit tasks into available time"}],"prompt":"RULES FIRST. MODEL LATER."},
+      {"template":"compare","title":"WHERE SHOULD","accentTitle":"AI HELP?","subtitle":"Use it for flexible language tasks, not basic arithmetic.","items":[{"label":"RULES","text":"Time limits, priorities and conflicts"},{"label":"AI","text":"Suggest task breakdowns or explanations"}],"prompt":"USE THE SIMPLEST TOOL THAT WORKS"},
+      {"template":"checklist","title":"DESIGN FOR","accentTitle":"TRUST + CONTROL.","subtitle":"A planner should help the learner decide, not take control away.","items":[{"label":"EXPLAIN","text":"Show why a task was scheduled"},{"label":"EDIT","text":"Let users change the plan"},{"label":"VERIFY","text":"Check dates and totals"},{"label":"PRIVACY","text":"Collect only necessary data"}],"prompt":"SMART MEANS UNDERSTANDABLE"},
+      {"template":"statement","title":"SHIP THE","accentTitle":"CAPSTONE STORY.","subtitle":"Document the problem, baseline, AI choice and final test.","focal":"NEED  ->  RULES  ->  AI  ->  EVIDENCE","items":[{"label":"DEMO","text":"Show one complete user journey"},{"label":"REFLECT","text":"Explain what you would improve"}],"prompt":"BUILD AI YOU CAN DEFEND"}
+    ]
+  },
+  {
+    "number": 60,
+    "slug": "sixty-day-builder-challenge",
+    "series": "BUILDER CHALLENGE",
+    "category": "JOIN THE JOURNEY",
+    "accent": "#F04B2F",
+    "caption": "The 60-Day Builder Challenge is a simple idea: learn one concept, build one small feature and share one honest lesson each week. Start your project-based learning journey at learn.modernagecoders.com.",
+    "hashtags": "#ModernAgeCoders #60DayChallenge #BuildInPublic #CodingJourney #StudentBuilders",
+    "slides": [
+      {"template":"hero","title":"60 DAYS.","accentTitle":"ONE BUILDER MINDSET.","subtitle":"Stop waiting for the perfect project. Build visible progress.","focal":"LEARN  ->  BUILD  ->  SHARE","prompt":"SWIPE INTO THE CHALLENGE"},
+      {"template":"grid","title":"THE FOUR","accentTitle":"CHALLENGE RULES.","subtitle":"Keep the system small enough to continue.","items":[{"label":"SMALL","text":"One focused feature"},{"label":"WEEKLY","text":"A consistent build rhythm"},{"label":"HONEST","text":"Share mistakes and lessons"},{"label":"FINISHED","text":"Complete before expanding"}],"prompt":"CONSISTENCY IS THE SCORE"},
+      {"template":"checklist","title":"DAYS 1-20:","accentTitle":"BUILD THE BASE.","subtitle":"Choose one path and complete the core skills.","items":[{"label":"LEARN","text":"One foundation concept"},{"label":"PRACTICE","text":"Change a small example"},{"label":"BUILD","text":"Create one useful feature"},{"label":"EXPLAIN","text":"Write what changed"}],"prompt":"FOUNDATION CREATES MOMENTUM"},
+      {"template":"checklist","title":"DAYS 21-40:","accentTitle":"CONNECT THE SKILLS.","subtitle":"Move from isolated exercises to one real project.","items":[{"label":"PLAN","text":"Define the user problem"},{"label":"VERSION 1","text":"Ship the main journey"},{"label":"TEST","text":"Find one failure"},{"label":"IMPROVE","text":"Make one evidence-based change"}],"prompt":"A PROJECT CONNECTS THE PIECES"},
+      {"template":"checklist","title":"DAYS 41-60:","accentTitle":"SHOW YOUR THINKING.","subtitle":"Turn the finished work into proof of learning.","items":[{"label":"POLISH","text":"Fix the most important issues"},{"label":"DEPLOY","text":"Publish a working version"},{"label":"DOCUMENT","text":"Explain decisions and lessons"},{"label":"SHARE","text":"Invite useful feedback"}],"prompt":"FINISHED WORK CREATES OPPORTUNITY"},
+      {"template":"statement","title":"START THE","accentTitle":"BUILDER JOURNEY.","subtitle":"Explore Modern Age Coders through a free demo.","focal":"learn.modernagecoders.com","items":[{"label":"LEARN","text":"Coding, AI and ML"},{"label":"BUILD","text":"Projects you can explain"}],"prompt":"BOOK A FREE DEMO"}
+    ]
+  }
+]

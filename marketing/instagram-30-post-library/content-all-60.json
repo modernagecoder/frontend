@@ -1,0 +1,4678 @@
+[
+  {
+    "number": 1,
+    "slug": "debug-detective-python",
+    "series": "DEBUG DETECTIVE",
+    "category": "PYTHON CHALLENGE",
+    "accent": "#F04B2F",
+    "caption": "Can you catch the bug before running the code? Look carefully at line 2 and comment your fix before you swipe. Good programmers learn how to read code, test it and understand why it works.",
+    "hashtags": "#ModernAgeCoders #PythonChallenge #Debugging #LearnPython #CodingForTeens",
+    "slides": [
+      {
+        "template": "challenge",
+        "title": "CAN YOU FIX",
+        "accentTitle": "THIS CODE?",
+        "subtitle": "One tiny symbol is stopping the program.",
+        "code": [
+          "score = 10",
+          "if score = 10:",
+          "    print(\"LEVEL UP\")"
+        ],
+        "prompt": "COMMENT YOUR FIX"
+      },
+      {
+        "template": "answer",
+        "title": "ONE SYMBOL.",
+        "accentTitle": "BIG DIFFERENCE.",
+        "subtitle": "Line 2 needs a comparison operator.",
+        "items": [
+          {
+            "label": "WRONG",
+            "text": "if score = 10:"
+          },
+          {
+            "label": "CORRECT",
+            "text": "if score == 10:"
+          }
+        ],
+        "note": "= assigns a value. == compares two values.",
+        "prompt": "UNDERSTAND IT. DO NOT JUST COPY IT."
+      }
+    ]
+  },
+  {
+    "number": 2,
+    "slug": "output-oracle-list",
+    "series": "OUTPUT ORACLE",
+    "category": "PREDICT THE OUTPUT",
+    "accent": "#0F82F5",
+    "caption": "Do not run it yet. Read each line and predict what Python will print. Training your brain to trace code is one of the fastest ways to improve programming logic.",
+    "hashtags": "#ModernAgeCoders #PythonQuiz #ProgrammingLogic #CodeChallenge #LearnToCode",
+    "slides": [
+      {
+        "template": "quiz",
+        "title": "DON'T RUN IT.",
+        "accentTitle": "PREDICT IT.",
+        "subtitle": "What will the final line print?",
+        "code": [
+          "numbers = [1, 2, 3]",
+          "numbers.append(4)",
+          "print(len(numbers))"
+        ],
+        "options": [
+          "A  3",
+          "B  4",
+          "C  ERROR"
+        ],
+        "prompt": "LOCK YOUR ANSWER"
+      },
+      {
+        "template": "reveal",
+        "title": "THE OUTPUT IS",
+        "accentTitle": "4",
+        "subtitle": "append adds one item to the existing list.",
+        "focal": "3 ITEMS + 1 ITEM = 4 ITEMS",
+        "items": [
+          {
+            "label": "BEFORE",
+            "text": "[1, 2, 3]"
+          },
+          {
+            "label": "AFTER",
+            "text": "[1, 2, 3, 4]"
+          }
+        ],
+        "prompt": "TRACE FIRST. RUN SECOND."
+      }
+    ]
+  },
+  {
+    "number": 3,
+    "slug": "ai-myth-understanding",
+    "series": "AI MYTH CHECK",
+    "category": "AI LITERACY",
+    "accent": "#6B4EFF",
+    "caption": "AI can produce a confident answer without understanding it the way a person does. Treat every response as something to inspect, test and verify.",
+    "hashtags": "#ModernAgeCoders #AILiteracy #ArtificialIntelligence #CriticalThinking #BuildWithAI",
+    "slides": [
+      {
+        "template": "poll",
+        "title": "AI UNDERSTANDS",
+        "accentTitle": "EVERY ANSWER?",
+        "subtitle": "Choose before you swipe.",
+        "items": [
+          {
+            "label": "MYTH",
+            "text": "It understands like a person"
+          },
+          {
+            "label": "FACT",
+            "text": "It predicts likely patterns"
+          }
+        ],
+        "prompt": "MYTH OR FACT?"
+      },
+      {
+        "template": "reveal",
+        "title": "THE ANSWER:",
+        "accentTitle": "MYTH.",
+        "subtitle": "Fluent language is not the same as understanding.",
+        "focal": "PREDICTS WORDS. DOES NOT VERIFY TRUTH.",
+        "items": [
+          {
+            "label": "CHECK",
+            "text": "Find a reliable source"
+          },
+          {
+            "label": "TEST",
+            "text": "See whether it works"
+          }
+        ],
+        "prompt": "USE AI. KEEP THINKING."
+      }
+    ]
+  },
+  {
+    "number": 4,
+    "slug": "api-behind-the-button",
+    "series": "BEHIND THE SCREEN",
+    "category": "WEB CONCEPT",
+    "accent": "#154C3C",
+    "caption": "A button can start an entire journey across the internet. Swipe to see how an API carries a request from your app to a server and brings the response back.",
+    "hashtags": "#ModernAgeCoders #APIs #WebDevelopment #CodingExplained #StudentDevelopers",
+    "slides": [
+      {
+        "template": "hero",
+        "title": "YOU TAP",
+        "accentTitle": "ONE BUTTON.",
+        "subtitle": "What happens next is a conversation between systems.",
+        "focal": "APP  ->  API  ->  SERVER",
+        "prompt": "SWIPE BEHIND THE SCREEN"
+      },
+      {
+        "template": "flow",
+        "title": "THE REQUEST",
+        "accentTitle": "TAKES A TRIP.",
+        "subtitle": "Three clean steps power the interaction.",
+        "items": [
+          {
+            "label": "1  ASK",
+            "text": "The app sends a request"
+          },
+          {
+            "label": "2  WORK",
+            "text": "The server processes it"
+          },
+          {
+            "label": "3  RETURN",
+            "text": "The API sends data back"
+          }
+        ],
+        "prompt": "REQUEST IN. RESPONSE OUT."
+      },
+      {
+        "template": "checklist",
+        "title": "NOW BUILD",
+        "accentTitle": "ONE YOURSELF.",
+        "subtitle": "Try a beginner API project this week.",
+        "items": [
+          {
+            "label": "WEATHER",
+            "text": "Show today's temperature"
+          },
+          {
+            "label": "SPACE",
+            "text": "Display an astronomy photo"
+          },
+          {
+            "label": "QUIZ",
+            "text": "Load a random question"
+          },
+          {
+            "label": "QUOTE",
+            "text": "Generate a daily message"
+          }
+        ],
+        "prompt": "WHICH ONE WOULD YOU BUILD?"
+      }
+    ]
+  },
+  {
+    "number": 5,
+    "slug": "python-list-vs-tuple",
+    "series": "THIS OR THAT",
+    "category": "PYTHON BASICS",
+    "accent": "#F5B22D",
+    "caption": "Lists and tuples can look similar, but one is built to change and the other is built to stay fixed. Save this comparison for your next Python project.",
+    "hashtags": "#ModernAgeCoders #PythonBasics #Lists #Tuples #CodingEducation",
+    "slides": [
+      {
+        "template": "compare",
+        "title": "LIST OR TUPLE?",
+        "accentTitle": "CHOOSE SMARTER.",
+        "subtitle": "They store collections for different jobs.",
+        "items": [
+          {
+            "label": "LIST  [ ]",
+            "text": "Use when values may change"
+          },
+          {
+            "label": "TUPLE  ( )",
+            "text": "Use when values should stay fixed"
+          }
+        ],
+        "prompt": "SWIPE FOR THE RULE"
+      },
+      {
+        "template": "checklist",
+        "title": "THE QUICK",
+        "accentTitle": "DECISION RULE.",
+        "subtitle": "Ask one question before choosing.",
+        "items": [
+          {
+            "label": "CHANGING CART",
+            "text": "List"
+          },
+          {
+            "label": "FIXED COORDINATE",
+            "text": "Tuple"
+          },
+          {
+            "label": "LIVE TASKS",
+            "text": "List"
+          },
+          {
+            "label": "RGB COLOR",
+            "text": "Tuple"
+          }
+        ],
+        "prompt": "CHANGE = LIST. FIXED = TUPLE."
+      }
+    ]
+  },
+  {
+    "number": 6,
+    "slug": "english-to-code-loop",
+    "series": "TRANSLATE TO CODE",
+    "category": "PYTHON PRACTICE",
+    "accent": "#0F82F5",
+    "caption": "Programming becomes easier when you translate a clear instruction into small logical steps. Here is one sentence turned into a Python loop.",
+    "hashtags": "#ModernAgeCoders #PythonLoop #CodingPractice #ProgrammingForBeginners #LearnPython",
+    "slides": [
+      {
+        "template": "code",
+        "title": "TURN ENGLISH",
+        "accentTitle": "INTO PYTHON.",
+        "subtitle": "Instruction: Repeat BUILD three times.",
+        "code": [
+          "for step in range(3):",
+          "    print(\"BUILD\")"
+        ],
+        "items": [
+          {
+            "label": "REPEAT",
+            "text": "for loop"
+          },
+          {
+            "label": "3 TIMES",
+            "text": "range(3)"
+          },
+          {
+            "label": "ACTION",
+            "text": "print"
+          }
+        ],
+        "prompt": "LOGIC FIRST. SYNTAX SECOND."
+      }
+    ]
+  },
+  {
+    "number": 7,
+    "slug": "project-weather-mood-lamp",
+    "series": "PROJECT DROP",
+    "category": "BUILD THIS",
+    "accent": "#F04B2F",
+    "caption": "Project idea: build a weather mood lamp. Fetch live weather data, choose a color for each condition and control an LED. It combines APIs, logic and hardware in one memorable project.",
+    "hashtags": "#ModernAgeCoders #ProjectBasedLearning #CodingProjects #APIs #STEMProjects",
+    "slides": [
+      {
+        "template": "project",
+        "title": "BUILD A",
+        "accentTitle": "WEATHER MOOD LAMP.",
+        "subtitle": "A real project using data, logic and light.",
+        "items": [
+          {
+            "label": "INPUT",
+            "text": "Live weather API"
+          },
+          {
+            "label": "LOGIC",
+            "text": "Match weather to color"
+          },
+          {
+            "label": "OUTPUT",
+            "text": "Control an LED lamp"
+          }
+        ],
+        "focal": "PYTHON + API + LED",
+        "prompt": "SAVE THIS PROJECT IDEA"
+      }
+    ]
+  },
+  {
+    "number": 8,
+    "slug": "infinite-loop-warning",
+    "series": "BUG ALERT",
+    "category": "PYTHON DEBUGGING",
+    "accent": "#F04B2F",
+    "caption": "This loop never changes count, so the condition remains true forever. Debugging tip: whenever you write a loop, identify exactly what makes it stop.",
+    "hashtags": "#ModernAgeCoders #PythonDebugging #InfiniteLoop #CodeTips #LearnProgramming",
+    "slides": [
+      {
+        "template": "challenge",
+        "title": "WILL THIS LOOP",
+        "accentTitle": "EVER STOP?",
+        "subtitle": "Read it before you run it.",
+        "code": [
+          "count = 1",
+          "while count <= 5:",
+          "    print(count)"
+        ],
+        "prompt": "YES OR NO?"
+      },
+      {
+        "template": "answer",
+        "title": "NO EXIT.",
+        "accentTitle": "INFINITE LOOP.",
+        "subtitle": "count never changes inside the loop.",
+        "items": [
+          {
+            "label": "MISSING",
+            "text": "count += 1"
+          },
+          {
+            "label": "RESULT",
+            "text": "The condition can become false"
+          }
+        ],
+        "note": "Every loop needs a clear stopping condition.",
+        "prompt": "FIND THE EXIT BEFORE YOU RUN."
+      }
+    ]
+  },
+  {
+    "number": 9,
+    "slug": "guess-python-data-type",
+    "series": "TYPE CHECK",
+    "category": "PYTHON QUIZ",
+    "accent": "#6B4EFF",
+    "caption": "In Python, regular division produces a float even when the mathematical answer looks like a whole number. Did your prediction match the result?",
+    "hashtags": "#ModernAgeCoders #PythonDataTypes #PythonQuiz #CodeChallenge #LearnPython",
+    "slides": [
+      {
+        "template": "quiz",
+        "title": "GUESS THE",
+        "accentTitle": "DATA TYPE.",
+        "subtitle": "What does Python return?",
+        "code": [
+          "result = 6 / 3",
+          "print(type(result))"
+        ],
+        "options": [
+          "A  int",
+          "B  float",
+          "C  string"
+        ],
+        "prompt": "CHOOSE BEFORE YOU SWIPE"
+      },
+      {
+        "template": "reveal",
+        "title": "THE TYPE IS",
+        "accentTitle": "FLOAT.",
+        "subtitle": "The / operator returns a decimal value.",
+        "focal": "6 / 3  ->  2.0",
+        "items": [
+          {
+            "label": "/",
+            "text": "Regular division"
+          },
+          {
+            "label": "//",
+            "text": "Floor division"
+          }
+        ],
+        "prompt": "OPERATORS CHANGE THE RESULT."
+      }
+    ]
+  },
+  {
+    "number": 10,
+    "slug": "binary-search-playlist",
+    "series": "ALGORITHM IRL",
+    "category": "COMPUTER SCIENCE",
+    "accent": "#154C3C",
+    "caption": "Binary search does not check every item. It repeatedly cuts a sorted search space in half. That is why sorting changes the game.",
+    "hashtags": "#ModernAgeCoders #Algorithms #BinarySearch #ComputerScience #CodingExplained",
+    "slides": [
+      {
+        "template": "hero",
+        "title": "FIND ONE SONG",
+        "accentTitle": "WITHOUT CHECKING ALL.",
+        "subtitle": "A real-life way to understand binary search.",
+        "focal": "1,024 SONGS  ->  ABOUT 10 CHECKS",
+        "prompt": "SWIPE TO CUT THE SEARCH"
+      },
+      {
+        "template": "flow",
+        "title": "CUT IT",
+        "accentTitle": "IN HALF.",
+        "subtitle": "Repeat until only the answer remains.",
+        "items": [
+          {
+            "label": "1  MIDDLE",
+            "text": "Check the center item"
+          },
+          {
+            "label": "2  DECIDE",
+            "text": "Go lower or higher"
+          },
+          {
+            "label": "3  REPEAT",
+            "text": "Halve the remaining list"
+          }
+        ],
+        "prompt": "HALF. HALF. FOUND."
+      },
+      {
+        "template": "checklist",
+        "title": "WHEN IT",
+        "accentTitle": "WORKS BEST.",
+        "subtitle": "Binary search needs the right setup.",
+        "items": [
+          {
+            "label": "SORTED",
+            "text": "The data has a clear order"
+          },
+          {
+            "label": "LARGE",
+            "text": "Many items must be searched"
+          },
+          {
+            "label": "DIRECT ACCESS",
+            "text": "Middle items are easy to reach"
+          },
+          {
+            "label": "REPEATED",
+            "text": "Search happens often"
+          }
+        ],
+        "prompt": "SAVE THE ALGORITHM RULE"
+      }
+    ]
+  },
+  {
+    "number": 11,
+    "slug": "recommendation-system-basics",
+    "series": "ML IN REAL LIFE",
+    "category": "MACHINE LEARNING",
+    "accent": "#6B4EFF",
+    "caption": "Recommendation systems learn from signals such as clicks, ratings and similarity. They are not reading minds. They are ranking likely choices from patterns in data.",
+    "hashtags": "#ModernAgeCoders #MachineLearning #RecommendationSystems #AIExplained #LearnML",
+    "slides": [
+      {
+        "template": "hero",
+        "title": "HOW DOES AN APP",
+        "accentTitle": "PICK YOUR NEXT VIDEO?",
+        "subtitle": "It ranks possibilities using patterns.",
+        "focal": "SIGNALS  ->  SCORES  ->  RANKING",
+        "prompt": "SWIPE INSIDE THE MODEL"
+      },
+      {
+        "template": "flow",
+        "title": "THE MODEL",
+        "accentTitle": "WATCHES SIGNALS.",
+        "subtitle": "Not your thoughts. Your interactions.",
+        "items": [
+          {
+            "label": "1  COLLECT",
+            "text": "Clicks, likes and watch time"
+          },
+          {
+            "label": "2  COMPARE",
+            "text": "Find similar users and items"
+          },
+          {
+            "label": "3  RANK",
+            "text": "Show likely useful choices"
+          }
+        ],
+        "prompt": "PATTERNS BECOME PREDICTIONS."
+      },
+      {
+        "template": "checklist",
+        "title": "SMART SYSTEM.",
+        "accentTitle": "REAL LIMITS.",
+        "subtitle": "A recommendation is still a prediction.",
+        "items": [
+          {
+            "label": "BIAS",
+            "text": "Old behavior can shape new choices"
+          },
+          {
+            "label": "BUBBLES",
+            "text": "Similar content can repeat"
+          },
+          {
+            "label": "COLD START",
+            "text": "New users provide little data"
+          },
+          {
+            "label": "CONTROL",
+            "text": "People should be able to reset"
+          }
+        ],
+        "prompt": "UNDERSTAND THE SYSTEM YOU USE"
+      }
+    ]
+  },
+  {
+    "number": 12,
+    "slug": "cleaner-code-function",
+    "series": "CODE GLOW UP",
+    "category": "CLEAN CODE",
+    "accent": "#0F82F5",
+    "caption": "If the same logic appears more than once, give it a name. A small function can make code easier to read, test and reuse.",
+    "hashtags": "#ModernAgeCoders #CleanCode #PythonFunctions #CodeQuality #ProgrammingTips",
+    "slides": [
+      {
+        "template": "compare",
+        "title": "SAME RESULT.",
+        "accentTitle": "BETTER STRUCTURE.",
+        "subtitle": "Which version would you want to maintain?",
+        "items": [
+          {
+            "label": "BEFORE",
+            "text": "Repeat the formula everywhere"
+          },
+          {
+            "label": "AFTER",
+            "text": "Name it once in a function"
+          }
+        ],
+        "prompt": "SWIPE FOR THE REFACTOR"
+      },
+      {
+        "template": "code",
+        "title": "GIVE LOGIC",
+        "accentTitle": "A NAME.",
+        "subtitle": "Functions make intent visible.",
+        "code": [
+          "def area(width, height):",
+          "    return width * height",
+          "",
+          "print(area(8, 5))"
+        ],
+        "items": [
+          {
+            "label": "READ",
+            "text": "The purpose is obvious"
+          },
+          {
+            "label": "REUSE",
+            "text": "Call it many times"
+          },
+          {
+            "label": "TEST",
+            "text": "Check one unit of logic"
+          }
+        ],
+        "prompt": "REPEAT LESS. EXPLAIN MORE."
+      }
+    ]
+  },
+  {
+    "number": 13,
+    "slug": "three-moves-when-stuck",
+    "series": "BUILDER MINDSET",
+    "category": "LEARNING SKILLS",
+    "accent": "#F04B2F",
+    "caption": "Feeling stuck is part of building. Before asking for the full answer, read the error, shrink the problem and explain what you expected. These three moves reveal more than random guessing.",
+    "hashtags": "#ModernAgeCoders #GrowthMindset #DebuggingTips #StudentDevelopers #LearnToCode",
+    "slides": [
+      {
+        "template": "checklist",
+        "title": "STUCK?",
+        "accentTitle": "TRY THESE 3 MOVES.",
+        "subtitle": "A practical reset for your next coding problem.",
+        "items": [
+          {
+            "label": "1  READ",
+            "text": "Use the exact error message"
+          },
+          {
+            "label": "2  SHRINK",
+            "text": "Test the smallest failing part"
+          },
+          {
+            "label": "3  EXPLAIN",
+            "text": "Say what you expected"
+          },
+          {
+            "label": "THEN ASK",
+            "text": "Request a hint, not the answer"
+          }
+        ],
+        "prompt": "SAVE THIS FOR THE HARD DAYS"
+      }
+    ]
+  },
+  {
+    "number": 14,
+    "slug": "choose-next-project",
+    "series": "YOU DECIDE",
+    "category": "STUDENT POLL",
+    "accent": "#6B4EFF",
+    "caption": "You get one weekend and one teammate. Which project are you choosing: an AI study coach or a multiplayer quiz app? Comment A or B and explain why.",
+    "hashtags": "#ModernAgeCoders #CodingProjects #StudentPoll #BuildInPublic #YoungCoders",
+    "slides": [
+      {
+        "template": "poll",
+        "title": "ONE WEEKEND.",
+        "accentTitle": "WHAT DO YOU BUILD?",
+        "subtitle": "Choose your project and defend the decision.",
+        "items": [
+          {
+            "label": "A",
+            "text": "AI study coach"
+          },
+          {
+            "label": "B",
+            "text": "Multiplayer quiz app"
+          }
+        ],
+        "prompt": "COMMENT A OR B"
+      }
+    ]
+  },
+  {
+    "number": 15,
+    "slug": "shortcut-comment-lines",
+    "series": "SHORTCUT SPOTLIGHT",
+    "category": "CODING TOOL",
+    "accent": "#F5B22D",
+    "caption": "Select one line or a whole block, then press Ctrl plus slash to toggle comments in many code editors. Small shortcuts keep your attention on the problem.",
+    "hashtags": "#ModernAgeCoders #CodingShortcuts #VSCodeTips #DeveloperTools #ProductivityTips",
+    "slides": [
+      {
+        "template": "statement",
+        "title": "COMMENT LINES",
+        "accentTitle": "WITHOUT THE MOUSE.",
+        "subtitle": "A tiny shortcut you will use every week.",
+        "focal": "CTRL  +  /",
+        "items": [
+          {
+            "label": "SELECT",
+            "text": "One line or many"
+          },
+          {
+            "label": "TOGGLE",
+            "text": "Comment or uncomment"
+          }
+        ],
+        "prompt": "SAVE THE SHORTCUT"
+      }
+    ]
+  },
+  {
+    "number": 16,
+    "slug": "css-center-one-line",
+    "series": "CSS QUICK WIN",
+    "category": "WEB CHALLENGE",
+    "accent": "#0F82F5",
+    "caption": "CSS Grid can center content horizontally and vertically with one property. Can you fill the missing line before swiping?",
+    "hashtags": "#ModernAgeCoders #CSS #WebDevelopment #FrontendTips #CodingChallenge",
+    "slides": [
+      {
+        "template": "challenge",
+        "title": "CENTER IT",
+        "accentTitle": "IN ONE LINE.",
+        "subtitle": "Fill the missing CSS property.",
+        "code": [
+          ".card {",
+          "    display: grid;",
+          "    ________: center;",
+          "}"
+        ],
+        "prompt": "WHAT GOES IN THE BLANK?"
+      },
+      {
+        "template": "answer",
+        "title": "THE PROPERTY:",
+        "accentTitle": "PLACE-ITEMS.",
+        "subtitle": "Grid handles both directions together.",
+        "items": [
+          {
+            "label": "ANSWER",
+            "text": "place-items: center;"
+          },
+          {
+            "label": "RESULT",
+            "text": "Horizontal + vertical centering"
+          }
+        ],
+        "note": "Use it when the parent is a grid container.",
+        "prompt": "ONE LINE. TWO DIRECTIONS."
+      }
+    ]
+  },
+  {
+    "number": 17,
+    "slug": "what-happens-after-click",
+    "series": "ONE CLICK EXPLAINED",
+    "category": "WEB FUNDAMENTALS",
+    "accent": "#154C3C",
+    "caption": "A webpage does not appear by magic. Your browser requests a resource, a server responds and the browser turns files into the interface you see.",
+    "hashtags": "#ModernAgeCoders #HowTheWebWorks #WebFundamentals #HTTP #CodingExplained",
+    "slides": [
+      {
+        "template": "hero",
+        "title": "YOU CLICK",
+        "accentTitle": "A LINK.",
+        "subtitle": "The browser starts a fast conversation.",
+        "focal": "CLICK  ->  REQUEST  ->  PAGE",
+        "prompt": "SWIPE THROUGH THE JOURNEY"
+      },
+      {
+        "template": "flow",
+        "title": "THE WEB",
+        "accentTitle": "IN 3 STEPS.",
+        "subtitle": "A simplified view of every page request.",
+        "items": [
+          {
+            "label": "1  REQUEST",
+            "text": "Browser asks for a resource"
+          },
+          {
+            "label": "2  RESPONSE",
+            "text": "Server sends files and data"
+          },
+          {
+            "label": "3  RENDER",
+            "text": "Browser builds the page"
+          }
+        ],
+        "prompt": "REQUEST. RESPONSE. RENDER."
+      },
+      {
+        "template": "statement",
+        "title": "A PAGE IS",
+        "accentTitle": "A TEAM EFFORT.",
+        "subtitle": "Different technologies handle different jobs.",
+        "focal": "HTML + CSS + JS",
+        "items": [
+          {
+            "label": "STRUCTURE",
+            "text": "HTML"
+          },
+          {
+            "label": "STYLE + ACTION",
+            "text": "CSS + JavaScript"
+          }
+        ],
+        "prompt": "BUILD THE WHOLE CONVERSATION"
+      }
+    ]
+  },
+  {
+    "number": 18,
+    "slug": "git-save-vs-commit",
+    "series": "DEV WORDS",
+    "category": "GIT BASICS",
+    "accent": "#F04B2F",
+    "caption": "Saving updates a file on your computer. Committing records a named snapshot in your project history. They solve different problems.",
+    "hashtags": "#ModernAgeCoders #Git #VersionControl #DeveloperSkills #CodingBasics",
+    "slides": [
+      {
+        "template": "compare",
+        "title": "SAVE IS NOT",
+        "accentTitle": "COMMIT.",
+        "subtitle": "Two actions. Two different jobs.",
+        "items": [
+          {
+            "label": "SAVE",
+            "text": "Update the file on your device"
+          },
+          {
+            "label": "COMMIT",
+            "text": "Record a project snapshot"
+          }
+        ],
+        "prompt": "SWIPE FOR THE MEMORY TRICK"
+      },
+      {
+        "template": "statement",
+        "title": "SAVE THE PAGE.",
+        "accentTitle": "COMMIT THE STORY.",
+        "subtitle": "A commit explains what changed and why.",
+        "focal": "git commit -m \"Add score screen\"",
+        "items": [
+          {
+            "label": "HISTORY",
+            "text": "See earlier decisions"
+          },
+          {
+            "label": "TEAMWORK",
+            "text": "Share meaningful changes"
+          }
+        ],
+        "prompt": "MAKE COMMITS WORTH READING"
+      }
+    ]
+  },
+  {
+    "number": 19,
+    "slug": "misleading-chart-axis",
+    "series": "DATA DETECTIVE",
+    "category": "DATA LITERACY",
+    "accent": "#F5B22D",
+    "caption": "A chart can use real numbers and still create the wrong impression. A shortened axis can make a small difference look enormous. Always inspect the scale.",
+    "hashtags": "#ModernAgeCoders #DataLiteracy #DataVisualization #CriticalThinking #LearnData",
+    "slides": [
+      {
+        "template": "quiz",
+        "title": "SAME DATA.",
+        "accentTitle": "BIGGER DRAMA?",
+        "subtitle": "Which chart exaggerates the difference?",
+        "code": [
+          "CHART A AXIS: 95 to 100",
+          "CHART B AXIS: 0 to 100"
+        ],
+        "options": [
+          "A  CHART A",
+          "B  CHART B",
+          "C  BOTH EQUAL"
+        ],
+        "prompt": "CHECK THE SCALE"
+      },
+      {
+        "template": "reveal",
+        "title": "CHART A",
+        "accentTitle": "LOOKS MORE DRAMATIC.",
+        "subtitle": "Its axis starts at 95 instead of zero.",
+        "focal": "REAL NUMBERS CAN STILL MISLEAD.",
+        "items": [
+          {
+            "label": "LOOK",
+            "text": "Where does the axis begin?"
+          },
+          {
+            "label": "ASK",
+            "text": "Is the visual proportional?"
+          }
+        ],
+        "prompt": "READ THE CHART. QUESTION THE FRAME."
+      }
+    ]
+  },
+  {
+    "number": 20,
+    "slug": "keep-api-keys-secret",
+    "series": "SECURITY FIRST",
+    "category": "WEB SAFETY",
+    "accent": "#F04B2F",
+    "caption": "Anything shipped to the browser can be inspected. Secret API keys belong on a protected server, never inside public frontend code.",
+    "hashtags": "#ModernAgeCoders #CyberSecurity #APISecurity #WebDevelopment #SecureCoding",
+    "slides": [
+      {
+        "template": "statement",
+        "title": "YOUR FRONTEND",
+        "accentTitle": "CANNOT KEEP A SECRET.",
+        "subtitle": "Users can inspect code delivered to the browser.",
+        "focal": "API_KEY = PUBLIC RISK",
+        "items": [
+          {
+            "label": "NEVER",
+            "text": "Hardcode secret keys"
+          },
+          {
+            "label": "NEVER",
+            "text": "Commit secrets to Git"
+          }
+        ],
+        "prompt": "SWIPE FOR THE SAFE ROUTE"
+      },
+      {
+        "template": "flow",
+        "title": "KEEP THE KEY",
+        "accentTitle": "ON THE SERVER.",
+        "subtitle": "Let your backend make the protected request.",
+        "items": [
+          {
+            "label": "1  BROWSER",
+            "text": "Sends a safe request"
+          },
+          {
+            "label": "2  SERVER",
+            "text": "Reads the secret key"
+          },
+          {
+            "label": "3  API",
+            "text": "Returns only needed data"
+          }
+        ],
+        "prompt": "PUBLIC FRONTEND. PRIVATE SECRET."
+      }
+    ]
+  },
+  {
+    "number": 21,
+    "slug": "better-ai-questions",
+    "series": "THINK WITH AI",
+    "category": "AI SKILLS",
+    "accent": "#6B4EFF",
+    "caption": "A useful AI question includes context, a clear goal and a way to check the response. Better prompts are not magic words. They are better thinking.",
+    "hashtags": "#ModernAgeCoders #PromptEngineering #AILiteracy #CriticalThinking #LearnAI",
+    "slides": [
+      {
+        "template": "compare",
+        "title": "ASK LESS VAGUE.",
+        "accentTitle": "GET MORE USEFUL.",
+        "subtitle": "Compare these two ways to ask.",
+        "items": [
+          {
+            "label": "VAGUE",
+            "text": "Explain loops"
+          },
+          {
+            "label": "CLEAR",
+            "text": "Explain Python loops using one example and quiz me"
+          }
+        ],
+        "prompt": "SWIPE FOR THE 3-PART FORMULA"
+      },
+      {
+        "template": "checklist",
+        "title": "A BETTER",
+        "accentTitle": "AI QUESTION.",
+        "subtitle": "Give the model enough direction to help.",
+        "items": [
+          {
+            "label": "CONTEXT",
+            "text": "What are you working on?"
+          },
+          {
+            "label": "GOAL",
+            "text": "What result do you need?"
+          },
+          {
+            "label": "FORMAT",
+            "text": "How should it respond?"
+          },
+          {
+            "label": "CHECK",
+            "text": "How will you verify it?"
+          }
+        ],
+        "prompt": "PROMPT. TEST. IMPROVE."
+      }
+    ]
+  },
+  {
+    "number": 22,
+    "slug": "how-ml-learns",
+    "series": "ML WITHOUT HYPE",
+    "category": "MACHINE LEARNING",
+    "accent": "#154C3C",
+    "caption": "A machine learning model learns patterns from examples, checks performance on unseen data and improves through evaluation. Training is only one part of the workflow.",
+    "hashtags": "#ModernAgeCoders #MachineLearning #AIForStudents #DataScience #LearnML",
+    "slides": [
+      {
+        "template": "hero",
+        "title": "HOW DOES A MODEL",
+        "accentTitle": "LEARN?",
+        "subtitle": "Not by magic. By examples and feedback.",
+        "focal": "DATA  ->  PATTERN  ->  PREDICTION",
+        "prompt": "SWIPE THROUGH THE LOOP"
+      },
+      {
+        "template": "flow",
+        "title": "TRAINING IS",
+        "accentTitle": "A LOOP.",
+        "subtitle": "The model improves through repeated checks.",
+        "items": [
+          {
+            "label": "1  TRAIN",
+            "text": "Learn from labeled examples"
+          },
+          {
+            "label": "2  TEST",
+            "text": "Try unseen examples"
+          },
+          {
+            "label": "3  IMPROVE",
+            "text": "Adjust data or model"
+          }
+        ],
+        "prompt": "BUILD. MEASURE. IMPROVE."
+      },
+      {
+        "template": "checklist",
+        "title": "BEFORE YOU",
+        "accentTitle": "TRUST THE SCORE.",
+        "subtitle": "Ask what the number is hiding.",
+        "items": [
+          {
+            "label": "DATA",
+            "text": "Is it representative?"
+          },
+          {
+            "label": "METRIC",
+            "text": "Does it match the goal?"
+          },
+          {
+            "label": "TEST SET",
+            "text": "Was it truly unseen?"
+          },
+          {
+            "label": "ERRORS",
+            "text": "Who is the model failing?"
+          }
+        ],
+        "prompt": "A HIGH SCORE IS NOT THE WHOLE STORY"
+      }
+    ]
+  },
+  {
+    "number": 23,
+    "slug": "stuck-is-a-state",
+    "series": "BUILDER MINDSET",
+    "category": "STUDENT MOTIVATION",
+    "accent": "#F04B2F",
+    "caption": "Stuck is a temporary state, not a permanent identity. Change the question, shrink the problem or test one assumption. Movement creates clarity.",
+    "hashtags": "#ModernAgeCoders #StudentMindset #YoungCoders #GrowthMindset #KeepBuilding",
+    "slides": [
+      {
+        "template": "statement",
+        "title": "STUCK IS A STATE.",
+        "accentTitle": "NOT YOUR IDENTITY.",
+        "subtitle": "The problem is hard. That does not mean you cannot solve it.",
+        "focal": "CHANGE THE NEXT STEP.",
+        "items": [
+          {
+            "label": "SHRINK",
+            "text": "Make the problem smaller"
+          },
+          {
+            "label": "MOVE",
+            "text": "Test one new idea"
+          }
+        ],
+        "prompt": "KEEP BUILDING"
+      }
+    ]
+  },
+  {
+    "number": 24,
+    "slug": "portfolio-show-decisions",
+    "series": "PORTFOLIO UPGRADE",
+    "category": "CAREER SKILLS",
+    "accent": "#0F82F5",
+    "caption": "A screenshot shows what you built. A clear explanation shows how you think. Strong portfolios include the problem, decisions, obstacles and lessons.",
+    "hashtags": "#ModernAgeCoders #DeveloperPortfolio #StudentProjects #CareerTips #BuildInPublic",
+    "slides": [
+      {
+        "template": "compare",
+        "title": "DON'T ONLY SHOW",
+        "accentTitle": "THE FINAL SCREEN.",
+        "subtitle": "Recruiters and mentors want to see your thinking.",
+        "items": [
+          {
+            "label": "WEAK",
+            "text": "One screenshot and a title"
+          },
+          {
+            "label": "STRONG",
+            "text": "Problem, decisions, result and lesson"
+          }
+        ],
+        "prompt": "SWIPE FOR THE PROJECT STORY"
+      },
+      {
+        "template": "checklist",
+        "title": "TELL THE",
+        "accentTitle": "PROJECT STORY.",
+        "subtitle": "Four parts make your work memorable.",
+        "items": [
+          {
+            "label": "PROBLEM",
+            "text": "What needed solving?"
+          },
+          {
+            "label": "CHOICE",
+            "text": "Why this approach?"
+          },
+          {
+            "label": "CHALLENGE",
+            "text": "What went wrong?"
+          },
+          {
+            "label": "LESSON",
+            "text": "What would you improve?"
+          }
+        ],
+        "prompt": "SHOW HOW YOU THINK"
+      }
+    ]
+  },
+  {
+    "number": 25,
+    "slug": "choose-coding-path",
+    "series": "EXPLORE TECH",
+    "category": "CAREER MAP",
+    "accent": "#6B4EFF",
+    "caption": "You do not need to choose a lifelong career today. Choose one small project and explore how the work feels. Which path would you try first?",
+    "hashtags": "#ModernAgeCoders #TechCareers #CodingForTeens #CareerExploration #StudentDevelopers",
+    "slides": [
+      {
+        "template": "grid",
+        "title": "WHICH PATH",
+        "accentTitle": "WOULD YOU TRY?",
+        "subtitle": "Pick a project before choosing a label.",
+        "items": [
+          {
+            "label": "WEB",
+            "text": "Build a useful app"
+          },
+          {
+            "label": "AI",
+            "text": "Train a small model"
+          },
+          {
+            "label": "DATA",
+            "text": "Find a hidden pattern"
+          },
+          {
+            "label": "GAMES",
+            "text": "Design an interactive world"
+          }
+        ],
+        "prompt": "COMMENT YOUR FIRST PATH"
+      }
+    ]
+  },
+  {
+    "number": 26,
+    "slug": "minutes-to-seconds",
+    "series": "60-SECOND CODE",
+    "category": "PYTHON CHALLENGE",
+    "accent": "#F5B22D",
+    "caption": "Can you trace a simple function under time pressure? Work out the return value before you swipe, then explain the function in one sentence.",
+    "hashtags": "#ModernAgeCoders #PythonFunctions #CodingChallenge #ProgrammingPractice #LearnPython",
+    "slides": [
+      {
+        "template": "quiz",
+        "title": "60 SECONDS.",
+        "accentTitle": "WHAT PRINTS?",
+        "subtitle": "Trace the function without running it.",
+        "code": [
+          "def to_seconds(minutes):",
+          "    return minutes * 60",
+          "",
+          "print(to_seconds(3))"
+        ],
+        "options": [
+          "A  60",
+          "B  180",
+          "C  360"
+        ],
+        "prompt": "START THE TIMER"
+      },
+      {
+        "template": "reveal",
+        "title": "THE OUTPUT:",
+        "accentTitle": "180",
+        "subtitle": "Three minutes multiplied by sixty seconds.",
+        "focal": "3 x 60 = 180",
+        "items": [
+          {
+            "label": "INPUT",
+            "text": "3 minutes"
+          },
+          {
+            "label": "RETURN",
+            "text": "180 seconds"
+          }
+        ],
+        "prompt": "NOW EXPLAIN IT WITHOUT CODE"
+      }
+    ]
+  },
+  {
+    "number": 27,
+    "slug": "html-closing-tag",
+    "series": "MARKUP MEDIC",
+    "category": "HTML CHALLENGE",
+    "accent": "#F04B2F",
+    "caption": "Opening and closing tags work as a pair. The slash tells the browser where the heading ends. Can you spot the missing character?",
+    "hashtags": "#ModernAgeCoders #HTML #WebDevelopment #CodingChallenge #LearnWebDev",
+    "slides": [
+      {
+        "template": "challenge",
+        "title": "SPOT THE",
+        "accentTitle": "HTML BUG.",
+        "subtitle": "One character is missing.",
+        "code": [
+          "<section>",
+          "  <h1>My Project<h1>",
+          "</section>"
+        ],
+        "prompt": "COMMENT THE MISSING CHARACTER"
+      },
+      {
+        "template": "answer",
+        "title": "CLOSE THE",
+        "accentTitle": "HEADING TAG.",
+        "subtitle": "Closing tags begin with a slash.",
+        "items": [
+          {
+            "label": "WRONG",
+            "text": "<h1>My Project<h1>"
+          },
+          {
+            "label": "CORRECT",
+            "text": "<h1>My Project</h1>"
+          }
+        ],
+        "note": "Open with <h1>. Close with </h1>.",
+        "prompt": "PAIR YOUR TAGS"
+      }
+    ]
+  },
+  {
+    "number": 28,
+    "slug": "sql-where-challenge",
+    "series": "QUERY QUEST",
+    "category": "SQL CHALLENGE",
+    "accent": "#154C3C",
+    "caption": "Which SQL keyword filters rows by a condition? Choose before you swipe, then read the completed query aloud.",
+    "hashtags": "#ModernAgeCoders #SQL #Database #CodingChallenge #LearnData",
+    "slides": [
+      {
+        "template": "quiz",
+        "title": "FILL THE",
+        "accentTitle": "SQL BLANK.",
+        "subtitle": "Return students with scores above 80.",
+        "code": [
+          "SELECT name",
+          "FROM students",
+          "_____ score > 80;"
+        ],
+        "options": [
+          "A  WHERE",
+          "B  ORDER",
+          "C  GROUP"
+        ],
+        "prompt": "CHOOSE THE KEYWORD"
+      },
+      {
+        "template": "reveal",
+        "title": "THE KEYWORD:",
+        "accentTitle": "WHERE",
+        "subtitle": "WHERE keeps only rows that match a condition.",
+        "focal": "WHERE score > 80",
+        "items": [
+          {
+            "label": "SELECT",
+            "text": "Choose columns"
+          },
+          {
+            "label": "WHERE",
+            "text": "Filter rows"
+          }
+        ],
+        "prompt": "ASK BETTER QUESTIONS OF DATA"
+      }
+    ]
+  },
+  {
+    "number": 29,
+    "slug": "habit-tracker-blueprint",
+    "series": "PROJECT BLUEPRINT",
+    "category": "BUILD AN APP",
+    "accent": "#0F82F5",
+    "caption": "A habit tracker is more than a checklist. It combines user input, state, storage and feedback. Swipe through the blueprint before opening your code editor.",
+    "hashtags": "#ModernAgeCoders #AppDevelopment #ProjectBlueprint #CodingProjects #BuildToLearn",
+    "slides": [
+      {
+        "template": "project",
+        "title": "BUILD A",
+        "accentTitle": "HABIT TRACKER.",
+        "subtitle": "Plan the system before styling the screen.",
+        "items": [
+          {
+            "label": "INPUT",
+            "text": "Create a habit"
+          },
+          {
+            "label": "STATE",
+            "text": "Mark it complete"
+          },
+          {
+            "label": "MEMORY",
+            "text": "Save progress"
+          }
+        ],
+        "focal": "INPUT + LOGIC + STORAGE",
+        "prompt": "SWIPE FOR THE BLUEPRINT"
+      },
+      {
+        "template": "flow",
+        "title": "THE CORE",
+        "accentTitle": "USER FLOW.",
+        "subtitle": "Make the main action effortless.",
+        "items": [
+          {
+            "label": "1  ADD",
+            "text": "Create a clear habit"
+          },
+          {
+            "label": "2  CHECK",
+            "text": "Record today's progress"
+          },
+          {
+            "label": "3  REVIEW",
+            "text": "See streaks and patterns"
+          }
+        ],
+        "prompt": "DESIGN THE FLOW BEFORE THE UI"
+      },
+      {
+        "template": "checklist",
+        "title": "SHIP THE",
+        "accentTitle": "SMALLEST VERSION.",
+        "subtitle": "Your first release needs only four things.",
+        "items": [
+          {
+            "label": "ADD",
+            "text": "Create one habit"
+          },
+          {
+            "label": "COMPLETE",
+            "text": "Toggle today's status"
+          },
+          {
+            "label": "SAVE",
+            "text": "Keep data after refresh"
+          },
+          {
+            "label": "REVIEW",
+            "text": "Show a seven-day history"
+          }
+        ],
+        "prompt": "SMALL ENOUGH TO FINISH"
+      }
+    ]
+  },
+  {
+    "number": 30,
+    "slug": "thirty-day-build-sprint",
+    "series": "MONTHLY CHALLENGE",
+    "category": "BUILDING HABIT",
+    "accent": "#F04B2F",
+    "caption": "Thirty days. Thirty tiny builds. The goal is not thirty masterpieces. The goal is to make starting, testing and finishing feel normal. Are you in?",
+    "hashtags": "#ModernAgeCoders #30DayChallenge #BuildInPublic #CodingHabit #StudentDevelopers",
+    "slides": [
+      {
+        "template": "statement",
+        "title": "30 DAYS.",
+        "accentTitle": "30 TINY BUILDS.",
+        "subtitle": "Consistency beats waiting for the perfect project.",
+        "focal": "BUILD  ->  SHARE  ->  IMPROVE",
+        "items": [
+          {
+            "label": "RULE 01",
+            "text": "Finish something small"
+          },
+          {
+            "label": "RULE 02",
+            "text": "Share what you learned"
+          }
+        ],
+        "prompt": "COMMENT I'M IN"
+      }
+    ]
+  },
+  {
+    "number": 31,
+    "slug": "quiz-app-blueprint",
+    "series": "PROJECT BLUEPRINT",
+    "category": "PYTHON PROJECT",
+    "accent": "#0F82F5",
+    "caption": "A quiz app is the perfect small project for learning data, conditions, loops and feedback. Swipe through the complete blueprint, then build the smallest working version before adding features.",
+    "hashtags": "#ModernAgeCoders #PythonProject #QuizApp #ProjectBasedLearning #LearnPython",
+    "slides": [
+      {
+        "template": "project",
+        "title": "BUILD A",
+        "accentTitle": "QUIZ APP.",
+        "subtitle": "A five-part project that teaches real programming logic.",
+        "items": [
+          {
+            "label": "DATA",
+            "text": "Questions and answers"
+          },
+          {
+            "label": "LOGIC",
+            "text": "Check each response"
+          },
+          {
+            "label": "FEEDBACK",
+            "text": "Track and show score"
+          }
+        ],
+        "focal": "DATA + LOOP + CONDITION",
+        "prompt": "SWIPE FOR THE BLUEPRINT"
+      },
+      {
+        "template": "flow",
+        "title": "DESIGN THE",
+        "accentTitle": "QUESTION LOOP.",
+        "subtitle": "Every question follows the same useful cycle.",
+        "items": [
+          {
+            "label": "1  SHOW",
+            "text": "Display one question"
+          },
+          {
+            "label": "2  ASK",
+            "text": "Collect the player's answer"
+          },
+          {
+            "label": "3  CHECK",
+            "text": "Update score and continue"
+          }
+        ],
+        "prompt": "ONE LOOP POWERS THE GAME"
+      },
+      {
+        "template": "checklist",
+        "title": "PLAN THE",
+        "accentTitle": "QUESTION DATA.",
+        "subtitle": "Keep each question structured and predictable.",
+        "items": [
+          {
+            "label": "PROMPT",
+            "text": "What will the player read?"
+          },
+          {
+            "label": "OPTIONS",
+            "text": "Which choices are available?"
+          },
+          {
+            "label": "ANSWER",
+            "text": "Which choice is correct?"
+          },
+          {
+            "label": "EXPLANATION",
+            "text": "Why is it correct?"
+          }
+        ],
+        "prompt": "GOOD DATA MAKES CLEANER CODE"
+      },
+      {
+        "template": "code",
+        "title": "WRITE ONE",
+        "accentTitle": "CHECK FUNCTION.",
+        "subtitle": "Give the scoring rule a clear name.",
+        "code": [
+          "def check(answer, correct):",
+          "    return answer == correct",
+          "",
+          "score += check(user, correct)"
+        ],
+        "items": [
+          {
+            "label": "INPUT",
+            "text": "Two answers"
+          },
+          {
+            "label": "COMPARE",
+            "text": "Use =="
+          },
+          {
+            "label": "RETURN",
+            "text": "True or False"
+          }
+        ],
+        "prompt": "SMALL FUNCTIONS. CLEAR LOGIC."
+      },
+      {
+        "template": "statement",
+        "title": "SHIP VERSION 1.",
+        "accentTitle": "THEN LEVEL UP.",
+        "subtitle": "Finish the core experience before adding extras.",
+        "focal": "5 QUESTIONS. 1 SCORE. DONE.",
+        "items": [
+          {
+            "label": "NEXT",
+            "text": "Add categories and difficulty"
+          },
+          {
+            "label": "LATER",
+            "text": "Save high scores"
+          }
+        ],
+        "prompt": "BUILD SMALL ENOUGH TO FINISH"
+      }
+    ]
+  },
+  {
+    "number": 32,
+    "slug": "javascript-event-loop",
+    "series": "JS UNDER THE HOOD",
+    "category": "JAVASCRIPT",
+    "accent": "#F5B22D",
+    "caption": "Why can a zero-millisecond timer still run later? Because JavaScript finishes the current call stack before taking queued work. This carousel gives you a practical mental model of the event loop.",
+    "hashtags": "#ModernAgeCoders #JavaScript #EventLoop #WebDevelopment #CodingExplained",
+    "slides": [
+      {
+        "template": "hero",
+        "title": "0 MILLISECONDS.",
+        "accentTitle": "WHY DOES IT WAIT?",
+        "subtitle": "A timer can be ready while JavaScript is still busy.",
+        "focal": "STACK FIRST. QUEUE NEXT.",
+        "prompt": "SWIPE INSIDE JAVASCRIPT"
+      },
+      {
+        "template": "flow",
+        "title": "THREE PLACES.",
+        "accentTitle": "ONE EVENT LOOP.",
+        "subtitle": "Use this simplified model while tracing code.",
+        "items": [
+          {
+            "label": "1  STACK",
+            "text": "Run current JavaScript"
+          },
+          {
+            "label": "2  WEB API",
+            "text": "Wait for timer or network"
+          },
+          {
+            "label": "3  QUEUE",
+            "text": "Hold the ready callback"
+          }
+        ],
+        "prompt": "THE LOOP CHECKS WHAT CAN RUN"
+      },
+      {
+        "template": "code",
+        "title": "TRACE THIS",
+        "accentTitle": "IN ORDER.",
+        "subtitle": "What prints first, second and third?",
+        "code": [
+          "console.log(\"A\");",
+          "setTimeout(() => console.log(\"B\"), 0);",
+          "console.log(\"C\");"
+        ],
+        "items": [
+          {
+            "label": "STACK",
+            "text": "A runs"
+          },
+          {
+            "label": "TIMER",
+            "text": "B waits"
+          },
+          {
+            "label": "STACK",
+            "text": "C runs"
+          }
+        ],
+        "prompt": "PREDICT BEFORE THE REVEAL"
+      },
+      {
+        "template": "reveal",
+        "title": "THE ORDER:",
+        "accentTitle": "A, C, B.",
+        "subtitle": "The timer callback enters after the stack is empty.",
+        "focal": "A  ->  C  ->  B",
+        "items": [
+          {
+            "label": "NOT DELAY",
+            "text": "Zero means minimum wait"
+          },
+          {
+            "label": "REAL RULE",
+            "text": "Queued work waits for the stack"
+          }
+        ],
+        "prompt": "ZERO DOES NOT MEAN IMMEDIATE"
+      },
+      {
+        "template": "checklist",
+        "title": "WHEN CODE",
+        "accentTitle": "FEELS OUT OF ORDER.",
+        "subtitle": "Trace these four things before guessing.",
+        "items": [
+          {
+            "label": "STACK",
+            "text": "What is running now?"
+          },
+          {
+            "label": "ASYNC WORK",
+            "text": "What is waiting elsewhere?"
+          },
+          {
+            "label": "QUEUE",
+            "text": "What callback is ready?"
+          },
+          {
+            "label": "BLOCKING",
+            "text": "What keeps the stack busy?"
+          }
+        ],
+        "prompt": "SAVE THE EVENT LOOP CHECKLIST"
+      }
+    ]
+  },
+  {
+    "number": 33,
+    "slug": "image-classifier-project",
+    "series": "ML PROJECT LAB",
+    "category": "MACHINE LEARNING",
+    "accent": "#6B4EFF",
+    "caption": "An image classifier project begins long before training. You need a clear problem, balanced examples, a fair test and honest error analysis. Swipe through the complete workflow.",
+    "hashtags": "#ModernAgeCoders #MachineLearning #ImageClassification #AIProjects #LearnML",
+    "slides": [
+      {
+        "template": "hero",
+        "title": "TEACH A MODEL",
+        "accentTitle": "TO SORT IMAGES.",
+        "subtitle": "Build a simple classifier without treating ML as magic.",
+        "focal": "EXAMPLES  ->  PATTERN  ->  LABEL",
+        "prompt": "SWIPE THROUGH THE ML PROJECT"
+      },
+      {
+        "template": "checklist",
+        "title": "START WITH",
+        "accentTitle": "BETTER EXAMPLES.",
+        "subtitle": "The model can only learn from what it sees.",
+        "items": [
+          {
+            "label": "CLEAR LABELS",
+            "text": "Define each category"
+          },
+          {
+            "label": "VARIETY",
+            "text": "Use different angles and lighting"
+          },
+          {
+            "label": "BALANCE",
+            "text": "Collect similar amounts per class"
+          },
+          {
+            "label": "QUALITY",
+            "text": "Remove broken or wrong images"
+          }
+        ],
+        "prompt": "DATA QUALITY COMES FIRST"
+      },
+      {
+        "template": "flow",
+        "title": "TRAIN. TEST.",
+        "accentTitle": "THEN PREDICT.",
+        "subtitle": "Keep evaluation separate from learning.",
+        "items": [
+          {
+            "label": "1  TRAIN",
+            "text": "Learn from most examples"
+          },
+          {
+            "label": "2  TEST",
+            "text": "Check unseen examples"
+          },
+          {
+            "label": "3  PREDICT",
+            "text": "Classify a new image"
+          }
+        ],
+        "prompt": "UNSEEN DATA REVEALS THE TRUTH"
+      },
+      {
+        "template": "compare",
+        "title": "HIGH ACCURACY.",
+        "accentTitle": "USEFUL MODEL?",
+        "subtitle": "A score means little without context.",
+        "items": [
+          {
+            "label": "WEAK TEST",
+            "text": "Almost identical images in train and test"
+          },
+          {
+            "label": "STRONG TEST",
+            "text": "New scenes the model never observed"
+          }
+        ],
+        "prompt": "TEST THE REAL WORLD, NOT MEMORY"
+      },
+      {
+        "template": "statement",
+        "title": "DON'T HIDE",
+        "accentTitle": "THE MISTAKES.",
+        "subtitle": "Wrong predictions are the best clues for improvement.",
+        "focal": "LOOK AT ERRORS BY CATEGORY",
+        "items": [
+          {
+            "label": "ASK",
+            "text": "Which class fails most?"
+          },
+          {
+            "label": "IMPROVE",
+            "text": "Collect better examples"
+          }
+        ],
+        "prompt": "BUILD. MEASURE. LEARN."
+      }
+    ]
+  },
+  {
+    "number": 34,
+    "slug": "frontend-roadmap",
+    "series": "LEARNING ROADMAP",
+    "category": "FRONTEND PATH",
+    "accent": "#0F82F5",
+    "caption": "A frontend roadmap should lead to projects, not endless tutorials. Learn the foundation, build one small interface, add JavaScript and publish the result. Swipe for a practical six-stage path.",
+    "hashtags": "#ModernAgeCoders #FrontendRoadmap #WebDevelopment #LearnToCode #StudentDevelopers",
+    "slides": [
+      {
+        "template": "hero",
+        "title": "LEARN FRONTEND",
+        "accentTitle": "BY BUILDING IT.",
+        "subtitle": "A practical roadmap from blank file to live project.",
+        "focal": "HTML  ->  CSS  ->  JS  ->  SHIP",
+        "prompt": "SWIPE THROUGH THE ROADMAP"
+      },
+      {
+        "template": "grid",
+        "title": "THE FOUR",
+        "accentTitle": "CORE SKILLS.",
+        "subtitle": "Do not collect tools before learning the foundation.",
+        "items": [
+          {
+            "label": "HTML",
+            "text": "Structure and meaning"
+          },
+          {
+            "label": "CSS",
+            "text": "Layout and responsive design"
+          },
+          {
+            "label": "JAVASCRIPT",
+            "text": "Logic and interaction"
+          },
+          {
+            "label": "GIT",
+            "text": "History and collaboration"
+          }
+        ],
+        "prompt": "FOUNDATION BEFORE FRAMEWORKS"
+      },
+      {
+        "template": "checklist",
+        "title": "PHASE 1:",
+        "accentTitle": "BUILD STATIC.",
+        "subtitle": "Learn to create a clear responsive page.",
+        "items": [
+          {
+            "label": "SEMANTIC HTML",
+            "text": "Use meaningful elements"
+          },
+          {
+            "label": "FLEX + GRID",
+            "text": "Control layout"
+          },
+          {
+            "label": "RESPONSIVE",
+            "text": "Design for different screens"
+          },
+          {
+            "label": "ACCESSIBLE",
+            "text": "Keyboard and contrast checks"
+          }
+        ],
+        "prompt": "PROJECT: PERSONAL PROFILE PAGE"
+      },
+      {
+        "template": "project",
+        "title": "PHASE 2:",
+        "accentTitle": "ADD INTERACTION.",
+        "subtitle": "Use JavaScript to change what the page can do.",
+        "items": [
+          {
+            "label": "EVENT",
+            "text": "Listen for user action"
+          },
+          {
+            "label": "STATE",
+            "text": "Remember current data"
+          },
+          {
+            "label": "DOM",
+            "text": "Update the interface"
+          }
+        ],
+        "focal": "PROJECT: INTERACTIVE QUIZ",
+        "prompt": "MAKE THE PAGE RESPOND"
+      },
+      {
+        "template": "checklist",
+        "title": "PHASE 3:",
+        "accentTitle": "CONNECT DATA.",
+        "subtitle": "Move from isolated pages to useful applications.",
+        "items": [
+          {
+            "label": "FETCH",
+            "text": "Request API data"
+          },
+          {
+            "label": "LOADING",
+            "text": "Show progress"
+          },
+          {
+            "label": "ERROR",
+            "text": "Handle failure clearly"
+          },
+          {
+            "label": "STORAGE",
+            "text": "Remember user choices"
+          }
+        ],
+        "prompt": "PROJECT: WEATHER DASHBOARD"
+      },
+      {
+        "template": "statement",
+        "title": "THE FINAL SKILL:",
+        "accentTitle": "SHIP IT.",
+        "subtitle": "A live imperfect project teaches more than a hidden perfect draft.",
+        "focal": "BUILD  ->  TEST  ->  DEPLOY",
+        "items": [
+          {
+            "label": "SHOW",
+            "text": "Publish the live link"
+          },
+          {
+            "label": "EXPLAIN",
+            "text": "Write what you learned"
+          }
+        ],
+        "prompt": "YOUR ROADMAP ENDS WITH A URL"
+      }
+    ]
+  },
+  {
+    "number": 35,
+    "slug": "debugging-system",
+    "series": "DEBUGGING MASTERCLASS",
+    "category": "DEVELOPER SKILL",
+    "accent": "#F04B2F",
+    "caption": "Debugging is not random editing. Reproduce the problem, read the evidence, isolate the cause, test one change and explain the result. Save this system for your next difficult bug.",
+    "hashtags": "#ModernAgeCoders #Debugging #DeveloperSkills #CodingTips #ProgrammingLogic",
+    "slides": [
+      {
+        "template": "hero",
+        "title": "STOP GUESSING.",
+        "accentTitle": "DEBUG WITH A SYSTEM.",
+        "subtitle": "A repeatable process beats random code changes.",
+        "focal": "REPRODUCE  ->  ISOLATE  ->  TEST",
+        "prompt": "SWIPE FOR THE 5-STEP SYSTEM"
+      },
+      {
+        "template": "checklist",
+        "title": "STEP 1-3:",
+        "accentTitle": "FIND THE CAUSE.",
+        "subtitle": "Collect evidence before changing code.",
+        "items": [
+          {
+            "label": "REPRODUCE",
+            "text": "Make the bug happen again"
+          },
+          {
+            "label": "READ",
+            "text": "Capture the exact error"
+          },
+          {
+            "label": "ISOLATE",
+            "text": "Shrink the failing area"
+          },
+          {
+            "label": "COMPARE",
+            "text": "What changed from working?"
+          }
+        ],
+        "prompt": "EVIDENCE BEFORE EDITS"
+      },
+      {
+        "template": "compare",
+        "title": "SYMPTOM OR",
+        "accentTitle": "ROOT CAUSE?",
+        "subtitle": "The visible problem may begin somewhere else.",
+        "items": [
+          {
+            "label": "SYMPTOM",
+            "text": "The button does nothing"
+          },
+          {
+            "label": "CAUSE",
+            "text": "The event listener never attached"
+          }
+        ],
+        "prompt": "ASK WHAT HAD TO FAIL FIRST"
+      },
+      {
+        "template": "code",
+        "title": "MAKE THE",
+        "accentTitle": "INVISIBLE VISIBLE.",
+        "subtitle": "Inspect values at the decision point.",
+        "code": [
+          "console.log({ user, score });",
+          "",
+          "if (score > 10) {",
+          "    unlockLevel();",
+          "}"
+        ],
+        "items": [
+          {
+            "label": "VALUE",
+            "text": "What is it now?"
+          },
+          {
+            "label": "EXPECT",
+            "text": "What should it be?"
+          },
+          {
+            "label": "PATH",
+            "text": "Which branch ran?"
+          }
+        ],
+        "prompt": "LOG WITH A QUESTION"
+      },
+      {
+        "template": "statement",
+        "title": "ONE CHANGE.",
+        "accentTitle": "ONE TEST.",
+        "subtitle": "If you change five things, you learn nothing about the cause.",
+        "focal": "CHANGE 1 VARIABLE AT A TIME",
+        "items": [
+          {
+            "label": "RETEST",
+            "text": "Use the same failing steps"
+          },
+          {
+            "label": "EXPLAIN",
+            "text": "Why did the fix work?"
+          }
+        ],
+        "prompt": "SAVE YOUR DEBUGGING SYSTEM"
+      }
+    ]
+  },
+  {
+    "number": 36,
+    "slug": "sql-question-to-query",
+    "series": "QUERY BUILDER",
+    "category": "SQL LESSON",
+    "accent": "#154C3C",
+    "caption": "A SQL query is a question written with structure. Decide what you want to see, where the data lives and which rows should remain. Swipe from plain English to a working query.",
+    "hashtags": "#ModernAgeCoders #SQL #Database #DataSkills #LearnToCode",
+    "slides": [
+      {
+        "template": "hero",
+        "title": "TURN A QUESTION",
+        "accentTitle": "INTO SQL.",
+        "subtitle": "Start with meaning before memorizing keywords.",
+        "focal": "WHAT  +  WHERE  +  CONDITION",
+        "prompt": "SWIPE FROM ENGLISH TO QUERY"
+      },
+      {
+        "template": "flow",
+        "title": "BUILD THE",
+        "accentTitle": "QUERY IN 3 PARTS.",
+        "subtitle": "Each keyword answers a different question.",
+        "items": [
+          {
+            "label": "1  SELECT",
+            "text": "What columns do you want?"
+          },
+          {
+            "label": "2  FROM",
+            "text": "Which table holds them?"
+          },
+          {
+            "label": "3  WHERE",
+            "text": "Which rows should remain?"
+          }
+        ],
+        "prompt": "MEANING MAPS TO SYNTAX"
+      },
+      {
+        "template": "code",
+        "title": "THE QUESTION:",
+        "accentTitle": "WHO SCORED ABOVE 80?",
+        "subtitle": "Translate one idea at a time.",
+        "code": [
+          "SELECT name, score",
+          "FROM students",
+          "WHERE score > 80;"
+        ],
+        "items": [
+          {
+            "label": "SHOW",
+            "text": "name and score"
+          },
+          {
+            "label": "SOURCE",
+            "text": "students table"
+          },
+          {
+            "label": "FILTER",
+            "text": "above 80"
+          }
+        ],
+        "prompt": "READ THE QUERY ALOUD"
+      },
+      {
+        "template": "quiz",
+        "title": "ADD ONE MORE",
+        "accentTitle": "CONDITION.",
+        "subtitle": "Keep students who also completed the course.",
+        "code": [
+          "WHERE score > 80",
+          "_____ completed = true;"
+        ],
+        "options": [
+          "A  AND",
+          "B  FROM",
+          "C  ORDER"
+        ],
+        "prompt": "CHOOSE BEFORE YOU SWIPE"
+      },
+      {
+        "template": "reveal",
+        "title": "CONNECT WITH",
+        "accentTitle": "AND.",
+        "subtitle": "Both conditions must now be true.",
+        "focal": "score > 80 AND completed = true",
+        "items": [
+          {
+            "label": "AND",
+            "text": "Require both conditions"
+          },
+          {
+            "label": "OR",
+            "text": "Allow either condition"
+          }
+        ],
+        "prompt": "ASK PRECISE QUESTIONS OF DATA"
+      }
+    ]
+  },
+  {
+    "number": 37,
+    "slug": "git-team-workflow",
+    "series": "TEAM DEVELOPER",
+    "category": "GIT WORKFLOW",
+    "accent": "#F04B2F",
+    "caption": "Git becomes useful when a team can work without overwriting each other. Create a branch, make focused commits, push the work and review before merging.",
+    "hashtags": "#ModernAgeCoders #Git #GitHubWorkflow #TeamCoding #DeveloperSkills",
+    "slides": [
+      {
+        "template": "hero",
+        "title": "CODE TOGETHER.",
+        "accentTitle": "BREAK LESS.",
+        "subtitle": "A simple Git workflow for student teams.",
+        "focal": "BRANCH  ->  COMMIT  ->  REVIEW",
+        "prompt": "SWIPE THROUGH THE TEAM FLOW"
+      },
+      {
+        "template": "flow",
+        "title": "YOUR SAFE",
+        "accentTitle": "WORKING PATH.",
+        "subtitle": "Keep unfinished changes away from the main branch.",
+        "items": [
+          {
+            "label": "1  BRANCH",
+            "text": "Create a focused workspace"
+          },
+          {
+            "label": "2  COMMIT",
+            "text": "Record meaningful progress"
+          },
+          {
+            "label": "3  PUSH",
+            "text": "Share the branch remotely"
+          }
+        ],
+        "prompt": "SMALL BRANCH. CLEAR PURPOSE."
+      },
+      {
+        "template": "compare",
+        "title": "A MERGE CONFLICT",
+        "accentTitle": "IS A DECISION.",
+        "subtitle": "Git is asking which version should survive.",
+        "items": [
+          {
+            "label": "THEIRS",
+            "text": "Change from another branch"
+          },
+          {
+            "label": "YOURS",
+            "text": "Change from your branch"
+          }
+        ],
+        "prompt": "UNDERSTAND BOTH BEFORE CHOOSING"
+      },
+      {
+        "template": "checklist",
+        "title": "WRITE COMMITS",
+        "accentTitle": "HUMANS CAN READ.",
+        "subtitle": "A useful history explains the project story.",
+        "items": [
+          {
+            "label": "FOCUSED",
+            "text": "One purpose per commit"
+          },
+          {
+            "label": "CLEAR",
+            "text": "Use an action message"
+          },
+          {
+            "label": "TESTED",
+            "text": "Do not commit broken work"
+          },
+          {
+            "label": "FREQUENT",
+            "text": "Save meaningful checkpoints"
+          }
+        ],
+        "prompt": "GOOD: ADD QUIZ SCORE SCREEN"
+      },
+      {
+        "template": "statement",
+        "title": "REVIEW BEFORE",
+        "accentTitle": "YOU MERGE.",
+        "subtitle": "A second pair of eyes improves code and shared understanding.",
+        "focal": "EXPLAIN THE WHY, NOT ONLY THE WHAT",
+        "items": [
+          {
+            "label": "AUTHOR",
+            "text": "Describe the decision"
+          },
+          {
+            "label": "REVIEWER",
+            "text": "Check behavior and clarity"
+          }
+        ],
+        "prompt": "TEAMWORK IS A TECHNICAL SKILL"
+      }
+    ]
+  },
+  {
+    "number": 38,
+    "slug": "study-habits-data-project",
+    "series": "DATA PROJECT LAB",
+    "category": "DATA PROJECT",
+    "accent": "#6B4EFF",
+    "caption": "Turn your own study habits into a small data project. Track focused minutes, sleep and confidence, then look for patterns without confusing correlation with proof.",
+    "hashtags": "#ModernAgeCoders #DataScienceProject #StudentData #PythonProjects #DataLiteracy",
+    "slides": [
+      {
+        "template": "project",
+        "title": "CAN DATA IMPROVE",
+        "accentTitle": "YOUR STUDY HABITS?",
+        "subtitle": "Build a personal dataset and investigate the pattern.",
+        "items": [
+          {
+            "label": "TRACK",
+            "text": "Daily habits"
+          },
+          {
+            "label": "ANALYZE",
+            "text": "Compare patterns"
+          },
+          {
+            "label": "REFLECT",
+            "text": "Test one change"
+          }
+        ],
+        "focal": "7 DAYS OF DATA",
+        "prompt": "SWIPE FOR THE PROJECT PLAN"
+      },
+      {
+        "template": "flow",
+        "title": "COLLECT TO",
+        "accentTitle": "CONCLUSION.",
+        "subtitle": "A simple data workflow keeps the project honest.",
+        "items": [
+          {
+            "label": "1  COLLECT",
+            "text": "Record the same fields daily"
+          },
+          {
+            "label": "2  CLEAN",
+            "text": "Fix missing or inconsistent values"
+          },
+          {
+            "label": "3  ANALYZE",
+            "text": "Compare and visualize patterns"
+          }
+        ],
+        "prompt": "CONSISTENCY MAKES DATA USEFUL"
+      },
+      {
+        "template": "checklist",
+        "title": "TRACK ONLY",
+        "accentTitle": "USEFUL FIELDS.",
+        "subtitle": "More columns do not automatically create insight.",
+        "items": [
+          {
+            "label": "FOCUS",
+            "text": "Minutes without distraction"
+          },
+          {
+            "label": "SLEEP",
+            "text": "Hours from the previous night"
+          },
+          {
+            "label": "TOPIC",
+            "text": "What subject did you study?"
+          },
+          {
+            "label": "CONFIDENCE",
+            "text": "Rate understanding from 1 to 5"
+          }
+        ],
+        "prompt": "ONE ROW PER DAY"
+      },
+      {
+        "template": "compare",
+        "title": "PATTERN IS NOT",
+        "accentTitle": "PROOF.",
+        "subtitle": "Two things moving together may have another cause.",
+        "items": [
+          {
+            "label": "OBSERVATION",
+            "text": "More sleep matched higher confidence"
+          },
+          {
+            "label": "HONEST CLAIM",
+            "text": "The data suggests a relationship"
+          }
+        ],
+        "prompt": "DO NOT CLAIM MORE THAN DATA SHOWS"
+      },
+      {
+        "template": "statement",
+        "title": "END WITH",
+        "accentTitle": "ONE EXPERIMENT.",
+        "subtitle": "Use the pattern to choose a small change to test.",
+        "focal": "CHANGE 1 HABIT FOR 7 DAYS",
+        "items": [
+          {
+            "label": "BEFORE",
+            "text": "Record the baseline"
+          },
+          {
+            "label": "AFTER",
+            "text": "Compare the same measure"
+          }
+        ],
+        "prompt": "DATA SHOULD LEAD TO A QUESTION"
+      }
+    ]
+  },
+  {
+    "number": 39,
+    "slug": "password-science",
+    "series": "SECURITY SCIENCE",
+    "category": "CYBER SAFETY",
+    "accent": "#F04B2F",
+    "caption": "A strong password is long, unique and hard to predict. Reusing one clever password is still dangerous because one leaked account can unlock the rest.",
+    "hashtags": "#ModernAgeCoders #CyberSecurity #PasswordSafety #DigitalSkills #OnlineSafety",
+    "slides": [
+      {
+        "template": "hero",
+        "title": "STRONG PASSWORD?",
+        "accentTitle": "LENGTH WINS.",
+        "subtitle": "Predictability matters more than clever-looking symbols.",
+        "focal": "LONG + UNIQUE + RANDOM",
+        "prompt": "SWIPE FOR THE SECURITY RULES"
+      },
+      {
+        "template": "compare",
+        "title": "LOOKS COMPLEX.",
+        "accentTitle": "STILL PREDICTABLE.",
+        "subtitle": "Common substitutions are easy for attackers to test.",
+        "items": [
+          {
+            "label": "WEAK",
+            "text": "P@ssw0rd123"
+          },
+          {
+            "label": "STRONGER",
+            "text": "A long unique generated password"
+          }
+        ],
+        "prompt": "DO NOT REUSE EITHER"
+      },
+      {
+        "template": "checklist",
+        "title": "THE FOUR",
+        "accentTitle": "PASSWORD RULES.",
+        "subtitle": "Use a password manager so you do not rely on memory.",
+        "items": [
+          {
+            "label": "LONG",
+            "text": "Prefer more characters"
+          },
+          {
+            "label": "UNIQUE",
+            "text": "One password per account"
+          },
+          {
+            "label": "RANDOM",
+            "text": "Avoid personal patterns"
+          },
+          {
+            "label": "MFA",
+            "text": "Add a second verification step"
+          }
+        ],
+        "prompt": "SAVE THE SECURITY CHECKLIST"
+      },
+      {
+        "template": "statement",
+        "title": "ONE PASSWORD LEAKS.",
+        "accentTitle": "WHAT HAPPENS NEXT?",
+        "subtitle": "Reused credentials can be tested on your other accounts.",
+        "focal": "ONE LEAK  ->  MANY ATTEMPTS",
+        "items": [
+          {
+            "label": "LIMIT",
+            "text": "Use unique passwords"
+          },
+          {
+            "label": "BLOCK",
+            "text": "Turn on MFA"
+          }
+        ],
+        "prompt": "BREAK THE REUSE CHAIN"
+      },
+      {
+        "template": "statement",
+        "title": "YOUR BEST TOOL:",
+        "accentTitle": "A PASSWORD MANAGER.",
+        "subtitle": "Let software remember strong unique passwords for you.",
+        "focal": "GENERATE. STORE. AUTOFILL.",
+        "items": [
+          {
+            "label": "YOU",
+            "text": "Remember one strong master password"
+          },
+          {
+            "label": "MANAGER",
+            "text": "Handles the rest"
+          }
+        ],
+        "prompt": "SECURITY SHOULD BE A SYSTEM"
+      }
+    ]
+  },
+  {
+    "number": 40,
+    "slug": "currency-converter-api",
+    "series": "API PROJECT LAB",
+    "category": "BUILD AN APP",
+    "accent": "#154C3C",
+    "caption": "Build a currency converter to practice APIs, forms, validation and loading states. The interface is simple, but the engineering decisions make it a strong beginner project.",
+    "hashtags": "#ModernAgeCoders #APIProject #WebDevelopment #CodingProjects #BuildToLearn",
+    "slides": [
+      {
+        "template": "project",
+        "title": "BUILD A",
+        "accentTitle": "CURRENCY CONVERTER.",
+        "subtitle": "A compact project with real data and useful edge cases.",
+        "items": [
+          {
+            "label": "INPUT",
+            "text": "Amount and currencies"
+          },
+          {
+            "label": "DATA",
+            "text": "Live exchange-rate API"
+          },
+          {
+            "label": "OUTPUT",
+            "text": "Converted value"
+          }
+        ],
+        "focal": "FORM + API + VALIDATION",
+        "prompt": "SWIPE FOR THE BUILD PLAN"
+      },
+      {
+        "template": "flow",
+        "title": "THE CORE",
+        "accentTitle": "DATA FLOW.",
+        "subtitle": "Keep the user action and network request easy to trace.",
+        "items": [
+          {
+            "label": "1  ENTER",
+            "text": "Read amount and currency"
+          },
+          {
+            "label": "2  FETCH",
+            "text": "Request the latest rate"
+          },
+          {
+            "label": "3  CALCULATE",
+            "text": "Show the converted amount"
+          }
+        ],
+        "prompt": "INPUT. REQUEST. RESULT."
+      },
+      {
+        "template": "checklist",
+        "title": "DESIGN FOR",
+        "accentTitle": "REAL CONDITIONS.",
+        "subtitle": "A useful app handles more than the happy path.",
+        "items": [
+          {
+            "label": "LOADING",
+            "text": "Show that data is coming"
+          },
+          {
+            "label": "ERROR",
+            "text": "Explain a failed request"
+          },
+          {
+            "label": "VALIDATION",
+            "text": "Reject missing or negative input"
+          },
+          {
+            "label": "TIMESTAMP",
+            "text": "Show when the rate updated"
+          }
+        ],
+        "prompt": "EDGE CASES MAKE THE PROJECT REAL"
+      },
+      {
+        "template": "code",
+        "title": "KEEP THE MATH",
+        "accentTitle": "VISIBLE.",
+        "subtitle": "Separate conversion logic from the interface.",
+        "code": [
+          "function convert(amount, rate) {",
+          "    return amount * rate;",
+          "}",
+          "",
+          "const result = convert(50, rate);"
+        ],
+        "items": [
+          {
+            "label": "INPUT",
+            "text": "amount"
+          },
+          {
+            "label": "RATE",
+            "text": "API value"
+          },
+          {
+            "label": "OUTPUT",
+            "text": "converted total"
+          }
+        ],
+        "prompt": "SMALL FUNCTION. EASY TEST."
+      },
+      {
+        "template": "statement",
+        "title": "VERSION 1:",
+        "accentTitle": "ONE CLEAR JOURNEY.",
+        "subtitle": "Do not begin with every currency and feature.",
+        "focal": "2 CURRENCIES. 1 CONVERSION.",
+        "items": [
+          {
+            "label": "SHIP",
+            "text": "Make the basic flow reliable"
+          },
+          {
+            "label": "NEXT",
+            "text": "Add favorites and history"
+          }
+        ],
+        "prompt": "START SMALL. BUILD OUTWARD."
+      }
+    ]
+  },
+  {
+    "number": 41,
+    "slug": "react-state-mental-model",
+    "series": "REACT MENTAL MODEL",
+    "category": "REACT BASICS",
+    "accent": "#0F82F5",
+    "caption": "React state is the information a component remembers between renders. Change the state, and React rebuilds the visible result from that new information.",
+    "hashtags": "#ModernAgeCoders #ReactJS #FrontendDevelopment #WebDevelopment #CodingExplained",
+    "slides": [
+      {
+        "template": "hero",
+        "title": "WHAT IS",
+        "accentTitle": "REACT STATE?",
+        "subtitle": "The information your interface needs to remember.",
+        "focal": "STATE CHANGES  ->  UI UPDATES",
+        "prompt": "SWIPE FOR THE MENTAL MODEL"
+      },
+      {
+        "template": "compare",
+        "title": "VALUE OR",
+        "accentTitle": "STATE?",
+        "subtitle": "Not every variable belongs in component state.",
+        "items": [
+          {
+            "label": "PLAIN VALUE",
+            "text": "Temporary calculation during one render"
+          },
+          {
+            "label": "STATE",
+            "text": "Information that changes what users see"
+          }
+        ],
+        "prompt": "ASK: SHOULD THE UI REMEMBER THIS?"
+      },
+      {
+        "template": "flow",
+        "title": "THE REACT",
+        "accentTitle": "UPDATE LOOP.",
+        "subtitle": "User actions change data, then data changes the view.",
+        "items": [
+          {
+            "label": "1  EVENT",
+            "text": "The user clicks or types"
+          },
+          {
+            "label": "2  SET STATE",
+            "text": "Store the new information"
+          },
+          {
+            "label": "3  RENDER",
+            "text": "React updates the interface"
+          }
+        ],
+        "prompt": "EVENT. STATE. VIEW."
+      },
+      {
+        "template": "code",
+        "title": "A COUNTER",
+        "accentTitle": "IN FOUR LINES.",
+        "subtitle": "The interface remembers the current count.",
+        "code": [
+          "const [count, setCount] = useState(0);",
+          "",
+          "<button onClick={() => setCount(count + 1)}>",
+          "  {count}",
+          "</button>"
+        ],
+        "items": [
+          {
+            "label": "VALUE",
+            "text": "count"
+          },
+          {
+            "label": "UPDATE",
+            "text": "setCount"
+          },
+          {
+            "label": "START",
+            "text": "0"
+          }
+        ],
+        "prompt": "TRACE THE CLICK"
+      },
+      {
+        "template": "checklist",
+        "title": "STATE SHOULD",
+        "accentTitle": "STAY MINIMAL.",
+        "subtitle": "Too much state creates synchronization problems.",
+        "items": [
+          {
+            "label": "STORE",
+            "text": "User input and changing data"
+          },
+          {
+            "label": "DERIVE",
+            "text": "Calculate values you already know"
+          },
+          {
+            "label": "KEEP CLOSE",
+            "text": "Place state near the component using it"
+          },
+          {
+            "label": "LIFT ONLY",
+            "text": "Share state when multiple parts need it"
+          }
+        ],
+        "prompt": "REMEMBER ONLY WHAT YOU NEED"
+      }
+    ]
+  },
+  {
+    "number": 42,
+    "slug": "responsive-design-system",
+    "series": "RESPONSIVE BY DESIGN",
+    "category": "CSS DESIGN",
+    "accent": "#6B4EFF",
+    "caption": "Responsive design is not shrinking a desktop page. It is deciding what should reflow, resize, hide or become easier to tap as space changes.",
+    "hashtags": "#ModernAgeCoders #ResponsiveDesign #CSS #FrontendDesign #WebDevelopment",
+    "slides": [
+      {
+        "template": "hero",
+        "title": "RESPONSIVE IS",
+        "accentTitle": "NOT JUST SMALLER.",
+        "subtitle": "The layout must adapt, not merely squeeze.",
+        "focal": "REFLOW  +  RESIZE  +  PRIORITIZE",
+        "prompt": "SWIPE FOR THE DESIGN SYSTEM"
+      },
+      {
+        "template": "grid",
+        "title": "FOUR THINGS",
+        "accentTitle": "MUST ADAPT.",
+        "subtitle": "Review each layer at every major width.",
+        "items": [
+          {
+            "label": "LAYOUT",
+            "text": "Columns become stacks"
+          },
+          {
+            "label": "TYPE",
+            "text": "Readable line length and scale"
+          },
+          {
+            "label": "MEDIA",
+            "text": "Images stay inside containers"
+          },
+          {
+            "label": "ACTIONS",
+            "text": "Targets remain easy to tap"
+          }
+        ],
+        "prompt": "TEST THE SYSTEM, NOT ONE SCREEN"
+      },
+      {
+        "template": "compare",
+        "title": "FIXED OR",
+        "accentTitle": "FLUID?",
+        "subtitle": "Choose values based on what should adapt.",
+        "items": [
+          {
+            "label": "FIXED",
+            "text": "Borders, icons and minimum tap sizes"
+          },
+          {
+            "label": "FLUID",
+            "text": "Containers, spacing and type ranges"
+          }
+        ],
+        "prompt": "USE CLAMP FOR CONTROLLED SCALE"
+      },
+      {
+        "template": "code",
+        "title": "LET TYPE",
+        "accentTitle": "SCALE SMOOTHLY.",
+        "subtitle": "Set a minimum, fluid middle and maximum.",
+        "code": [
+          "h1 {",
+          "  font-size: clamp(2rem, 5vw, 5rem);",
+          "}"
+        ],
+        "items": [
+          {
+            "label": "MIN",
+            "text": "2rem"
+          },
+          {
+            "label": "FLUID",
+            "text": "5vw"
+          },
+          {
+            "label": "MAX",
+            "text": "5rem"
+          }
+        ],
+        "prompt": "CONTROL BOTH ENDS"
+      },
+      {
+        "template": "checklist",
+        "title": "BEFORE YOU",
+        "accentTitle": "CALL IT RESPONSIVE.",
+        "subtitle": "Check the experience, not only the screenshot.",
+        "items": [
+          {
+            "label": "320 PX",
+            "text": "No horizontal overflow"
+          },
+          {
+            "label": "KEYBOARD",
+            "text": "Focus remains visible"
+          },
+          {
+            "label": "TOUCH",
+            "text": "Actions are easy to tap"
+          },
+          {
+            "label": "CONTENT",
+            "text": "Nothing important disappears"
+          }
+        ],
+        "prompt": "SAVE THE RESPONSIVE QA LIST"
+      }
+    ]
+  },
+  {
+    "number": 43,
+    "slug": "sorting-algorithm-race",
+    "series": "ALGORITHM RACE",
+    "category": "COMPUTER SCIENCE",
+    "accent": "#F5B22D",
+    "caption": "Sorting algorithms can produce the same result while doing very different amounts of work. This carousel compares the intuition behind bubble sort and merge sort.",
+    "hashtags": "#ModernAgeCoders #Algorithms #SortingAlgorithms #ComputerScience #LearnProgramming",
+    "slides": [
+      {
+        "template": "hero",
+        "title": "SAME LIST.",
+        "accentTitle": "DIFFERENT RACE.",
+        "subtitle": "Two sorting strategies can finish with very different effort.",
+        "focal": "BUBBLE SORT  VS  MERGE SORT",
+        "prompt": "SWIPE TO START THE RACE"
+      },
+      {
+        "template": "flow",
+        "title": "BUBBLE SORT:",
+        "accentTitle": "SWAP NEIGHBORS.",
+        "subtitle": "Large values repeatedly move toward the end.",
+        "items": [
+          {
+            "label": "1  COMPARE",
+            "text": "Look at adjacent values"
+          },
+          {
+            "label": "2  SWAP",
+            "text": "Move them if out of order"
+          },
+          {
+            "label": "3  REPEAT",
+            "text": "Continue until no swaps remain"
+          }
+        ],
+        "prompt": "SIMPLE IDEA. LOTS OF CHECKS."
+      },
+      {
+        "template": "flow",
+        "title": "MERGE SORT:",
+        "accentTitle": "DIVIDE FIRST.",
+        "subtitle": "Small sorted groups are easier to combine.",
+        "items": [
+          {
+            "label": "1  SPLIT",
+            "text": "Divide the list in half"
+          },
+          {
+            "label": "2  SORT",
+            "text": "Solve the smaller lists"
+          },
+          {
+            "label": "3  MERGE",
+            "text": "Combine them in order"
+          }
+        ],
+        "prompt": "DIVIDE. SOLVE. COMBINE."
+      },
+      {
+        "template": "compare",
+        "title": "SMALL INPUT.",
+        "accentTitle": "BIG DIFFERENCE?",
+        "subtitle": "Both work, but scale changes the cost.",
+        "items": [
+          {
+            "label": "BUBBLE SORT",
+            "text": "Easy to understand; slow on large lists"
+          },
+          {
+            "label": "MERGE SORT",
+            "text": "More structure; efficient as data grows"
+          }
+        ],
+        "prompt": "ALGORITHM CHOICE DEPENDS ON SCALE"
+      },
+      {
+        "template": "statement",
+        "title": "DON'T MEMORIZE",
+        "accentTitle": "ONLY THE NAME.",
+        "subtitle": "Ask how the algorithm reduces the remaining work.",
+        "focal": "WHAT GETS SMALLER EACH STEP?",
+        "items": [
+          {
+            "label": "TRACE",
+            "text": "Use five values by hand"
+          },
+          {
+            "label": "COMPARE",
+            "text": "Count checks and moves"
+          }
+        ],
+        "prompt": "UNDERSTAND THE STRATEGY"
+      }
+    ]
+  },
+  {
+    "number": 44,
+    "slug": "ml-accuracy-trap",
+    "series": "ML WITHOUT HYPE",
+    "category": "MODEL EVALUATION",
+    "accent": "#F04B2F",
+    "caption": "A model can reach 99 percent accuracy and still fail the task you care about. When classes are unbalanced, inspect precision, recall and the confusion matrix.",
+    "hashtags": "#ModernAgeCoders #MachineLearning #ModelEvaluation #DataScience #AIExplained",
+    "slides": [
+      {
+        "template": "hero",
+        "title": "99% ACCURATE.",
+        "accentTitle": "STILL USELESS?",
+        "subtitle": "A high score can hide the exact failures that matter.",
+        "focal": "ACCURACY IS ONE VIEW",
+        "prompt": "SWIPE INTO THE ACCURACY TRAP"
+      },
+      {
+        "template": "statement",
+        "title": "IMAGINE 100",
+        "accentTitle": "MESSAGES.",
+        "subtitle": "Only one message contains dangerous content.",
+        "focal": "99 SAFE  +  1 DANGEROUS",
+        "items": [
+          {
+            "label": "MODEL",
+            "text": "Predicts safe every time"
+          },
+          {
+            "label": "ACCURACY",
+            "text": "Still reports 99 percent"
+          }
+        ],
+        "prompt": "HIGH SCORE. ZERO DETECTIONS."
+      },
+      {
+        "template": "compare",
+        "title": "PRECISION OR",
+        "accentTitle": "RECALL?",
+        "subtitle": "The right metric depends on the cost of each mistake.",
+        "items": [
+          {
+            "label": "PRECISION",
+            "text": "When the model flags it, how often is it right?"
+          },
+          {
+            "label": "RECALL",
+            "text": "How much of the real danger did it find?"
+          }
+        ],
+        "prompt": "CHOOSE THE METRIC FOR THE GOAL"
+      },
+      {
+        "template": "grid",
+        "title": "READ THE",
+        "accentTitle": "CONFUSION MATRIX.",
+        "subtitle": "Four outcomes reveal what accuracy hides.",
+        "items": [
+          {
+            "label": "TRUE POSITIVE",
+            "text": "Correctly found"
+          },
+          {
+            "label": "FALSE POSITIVE",
+            "text": "False alarm"
+          },
+          {
+            "label": "TRUE NEGATIVE",
+            "text": "Correctly ignored"
+          },
+          {
+            "label": "FALSE NEGATIVE",
+            "text": "Dangerously missed"
+          }
+        ],
+        "prompt": "LOOK AT THE ERROR TYPES"
+      },
+      {
+        "template": "checklist",
+        "title": "BEFORE SHARING",
+        "accentTitle": "A MODEL SCORE.",
+        "subtitle": "Give the audience enough context to judge it.",
+        "items": [
+          {
+            "label": "BASELINE",
+            "text": "What happens with a simple guess?"
+          },
+          {
+            "label": "BALANCE",
+            "text": "How common is each class?"
+          },
+          {
+            "label": "METRIC",
+            "text": "Why does this score match the goal?"
+          },
+          {
+            "label": "ERRORS",
+            "text": "Which mistakes cost most?"
+          }
+        ],
+        "prompt": "REPORT THE STORY BEHIND THE NUMBER"
+      }
+    ]
+  },
+  {
+    "number": 45,
+    "slug": "ai-answer-verification",
+    "series": "AI CHECKPOINT",
+    "category": "AI LITERACY",
+    "accent": "#6B4EFF",
+    "caption": "Do not ask only whether an AI answer sounds good. Ask whether the claims are traceable, the code runs and independent evidence agrees. Use this five-step verification workflow.",
+    "hashtags": "#ModernAgeCoders #AILiteracy #CriticalThinking #ResponsibleAI #BuildWithAI",
+    "slides": [
+      {
+        "template": "hero",
+        "title": "AI ANSWERED.",
+        "accentTitle": "NOW WHAT?",
+        "subtitle": "A response becomes useful only after you inspect it.",
+        "focal": "ASK  ->  CHECK  ->  TEST",
+        "prompt": "SWIPE FOR THE VERIFICATION FLOW"
+      },
+      {
+        "template": "checklist",
+        "title": "CHECK THE",
+        "accentTitle": "CLAIMS.",
+        "subtitle": "Separate facts, opinions and assumptions.",
+        "items": [
+          {
+            "label": "SOURCE",
+            "text": "Can you open the original evidence?"
+          },
+          {
+            "label": "DATE",
+            "text": "Could the information be outdated?"
+          },
+          {
+            "label": "SCOPE",
+            "text": "Does the claim apply here?"
+          },
+          {
+            "label": "MISSING",
+            "text": "What uncertainty was omitted?"
+          }
+        ],
+        "prompt": "CONFIDENCE IS NOT A CITATION"
+      },
+      {
+        "template": "code",
+        "title": "IF IT GIVES CODE,",
+        "accentTitle": "RUN A SMALL TEST.",
+        "subtitle": "Never trust a large generated solution all at once.",
+        "code": [
+          "result = generated_function(test_input)",
+          "assert result == expected_output"
+        ],
+        "items": [
+          {
+            "label": "SMALL",
+            "text": "Use one known case"
+          },
+          {
+            "label": "EDGE",
+            "text": "Try an unusual case"
+          },
+          {
+            "label": "FAIL",
+            "text": "Read the exact error"
+          }
+        ],
+        "prompt": "TEST BEHAVIOR, NOT APPEARANCE"
+      },
+      {
+        "template": "compare",
+        "title": "ONE ANSWER OR",
+        "accentTitle": "INDEPENDENT EVIDENCE?",
+        "subtitle": "Agreement only matters when sources do not copy each other.",
+        "items": [
+          {
+            "label": "WEAK CHECK",
+            "text": "Ask the same model again"
+          },
+          {
+            "label": "STRONG CHECK",
+            "text": "Compare documentation, data or direct tests"
+          }
+        ],
+        "prompt": "VERIFY OUTSIDE THE RESPONSE"
+      },
+      {
+        "template": "statement",
+        "title": "USE AI AS",
+        "accentTitle": "A STARTING POINT.",
+        "subtitle": "Keep human judgment at the final decision.",
+        "focal": "GENERATE  ->  VERIFY  ->  IMPROVE",
+        "items": [
+          {
+            "label": "AI",
+            "text": "Suggests possibilities"
+          },
+          {
+            "label": "YOU",
+            "text": "Own the conclusion"
+          }
+        ],
+        "prompt": "THINK WITH AI. DO NOT OUTSOURCE THINKING."
+      }
+    ]
+  },
+  {
+    "number": 46,
+    "slug": "portfolio-case-study",
+    "series": "PORTFOLIO WORKSHOP",
+    "category": "CAREER SKILLS",
+    "accent": "#0F82F5",
+    "caption": "A strong project case study helps someone understand the problem, your decisions and what changed because of your work. Use this five-slide structure for your next portfolio entry.",
+    "hashtags": "#ModernAgeCoders #DeveloperPortfolio #StudentProjects #CareerSkills #BuildInPublic",
+    "slides": [
+      {
+        "template": "hero",
+        "title": "TURN A PROJECT",
+        "accentTitle": "INTO A STORY.",
+        "subtitle": "A screenshot shows the result. A case study shows your thinking.",
+        "focal": "PROBLEM  ->  DECISIONS  ->  RESULT",
+        "prompt": "SWIPE FOR THE CASE STUDY FRAME"
+      },
+      {
+        "template": "statement",
+        "title": "START WITH",
+        "accentTitle": "THE PROBLEM.",
+        "subtitle": "Give the reader a reason to care before showing features.",
+        "focal": "WHO NEEDED WHAT, AND WHY?",
+        "items": [
+          {
+            "label": "USER",
+            "text": "Who experienced the problem?"
+          },
+          {
+            "label": "GOAL",
+            "text": "What needed to improve?"
+          }
+        ],
+        "prompt": "CONTEXT MAKES WORK MEMORABLE"
+      },
+      {
+        "template": "checklist",
+        "title": "SHOW THE",
+        "accentTitle": "DECISIONS.",
+        "subtitle": "Explain the reasoning that cannot be seen in a screenshot.",
+        "items": [
+          {
+            "label": "PRIORITY",
+            "text": "What did you build first?"
+          },
+          {
+            "label": "TRADEOFF",
+            "text": "What did you leave out?"
+          },
+          {
+            "label": "TECH",
+            "text": "Why these tools?"
+          },
+          {
+            "label": "TEST",
+            "text": "How did you check the result?"
+          }
+        ],
+        "prompt": "DECISIONS REVEAL YOUR SKILL"
+      },
+      {
+        "template": "compare",
+        "title": "FEATURE LIST OR",
+        "accentTitle": "MEASURED RESULT?",
+        "subtitle": "Describe what improved for the user or the project.",
+        "items": [
+          {
+            "label": "WEAK",
+            "text": "Added a search box"
+          },
+          {
+            "label": "STRONG",
+            "text": "Users can find saved notes in fewer steps"
+          }
+        ],
+        "prompt": "CONNECT FEATURES TO OUTCOMES"
+      },
+      {
+        "template": "statement",
+        "title": "END WITH",
+        "accentTitle": "THE NEXT VERSION.",
+        "subtitle": "Reflection proves you can evaluate your own work.",
+        "focal": "WHAT WOULD YOU CHANGE NOW?",
+        "items": [
+          {
+            "label": "LEARNED",
+            "text": "Name the strongest lesson"
+          },
+          {
+            "label": "NEXT",
+            "text": "Choose one improvement"
+          }
+        ],
+        "prompt": "SAVE THIS PORTFOLIO STRUCTURE"
+      }
+    ]
+  },
+  {
+    "number": 47,
+    "slug": "seven-day-python-plan",
+    "series": "7-DAY STARTER",
+    "category": "PYTHON ROADMAP",
+    "accent": "#154C3C",
+    "caption": "Seven days will not make you an expert, but they can give you momentum and a finished mini project. Follow this plan for one focused hour per day.",
+    "hashtags": "#ModernAgeCoders #PythonRoadmap #LearnPython #CodingForBeginners #7DayChallenge",
+    "slides": [
+      {
+        "template": "hero",
+        "title": "START PYTHON",
+        "accentTitle": "IN 7 DAYS.",
+        "subtitle": "One focused hour each day. One project at the end.",
+        "focal": "LEARN  ->  PRACTICE  ->  BUILD",
+        "prompt": "SAVE THE 7-DAY PLAN"
+      },
+      {
+        "template": "checklist",
+        "title": "DAYS 1-2:",
+        "accentTitle": "INPUT + VARIABLES.",
+        "subtitle": "Make programs that receive and remember information.",
+        "items": [
+          {
+            "label": "DAY 1",
+            "text": "Print, strings and numbers"
+          },
+          {
+            "label": "DAY 2",
+            "text": "Input, variables and conversion"
+          },
+          {
+            "label": "PRACTICE",
+            "text": "Build a tip calculator"
+          },
+          {
+            "label": "EXPLAIN",
+            "text": "Describe every variable"
+          }
+        ],
+        "prompt": "TYPE IT. CHANGE IT. EXPLAIN IT."
+      },
+      {
+        "template": "checklist",
+        "title": "DAYS 3-4:",
+        "accentTitle": "DECISIONS + LOOPS.",
+        "subtitle": "Make the program choose and repeat.",
+        "items": [
+          {
+            "label": "DAY 3",
+            "text": "if, elif and else"
+          },
+          {
+            "label": "DAY 4",
+            "text": "for and while loops"
+          },
+          {
+            "label": "PRACTICE",
+            "text": "Build a number guessing game"
+          },
+          {
+            "label": "DEBUG",
+            "text": "Find the stopping condition"
+          }
+        ],
+        "prompt": "LOGIC MAKES CODE INTERACTIVE"
+      },
+      {
+        "template": "checklist",
+        "title": "DAYS 5-6:",
+        "accentTitle": "DATA + FUNCTIONS.",
+        "subtitle": "Organize information and reusable logic.",
+        "items": [
+          {
+            "label": "DAY 5",
+            "text": "Lists and dictionaries"
+          },
+          {
+            "label": "DAY 6",
+            "text": "Functions and return values"
+          },
+          {
+            "label": "PRACTICE",
+            "text": "Store quiz questions"
+          },
+          {
+            "label": "REFACTOR",
+            "text": "Move scoring into a function"
+          }
+        ],
+        "prompt": "GIVE DATA AND LOGIC A STRUCTURE"
+      },
+      {
+        "template": "project",
+        "title": "DAY 7:",
+        "accentTitle": "BUILD THE QUIZ.",
+        "subtitle": "Combine the week into one finished project.",
+        "items": [
+          {
+            "label": "ASK",
+            "text": "Show each question"
+          },
+          {
+            "label": "CHECK",
+            "text": "Compare the answer"
+          },
+          {
+            "label": "SCORE",
+            "text": "Display the result"
+          }
+        ],
+        "focal": "5 QUESTIONS. 1 FINISHED APP.",
+        "prompt": "FINISH BEFORE ADDING FEATURES"
+      },
+      {
+        "template": "checklist",
+        "title": "THE DAILY",
+        "accentTitle": "LEARNING LOOP.",
+        "subtitle": "Use the same process every day.",
+        "items": [
+          {
+            "label": "15 MIN",
+            "text": "Learn one idea"
+          },
+          {
+            "label": "20 MIN",
+            "text": "Type and change examples"
+          },
+          {
+            "label": "20 MIN",
+            "text": "Solve one small task"
+          },
+          {
+            "label": "5 MIN",
+            "text": "Explain what worked"
+          }
+        ],
+        "prompt": "CONSISTENCY BEATS CRAMMING"
+      },
+      {
+        "template": "statement",
+        "title": "AFTER DAY 7:",
+        "accentTitle": "KEEP THE MOMENTUM.",
+        "subtitle": "Use the project to choose the next skill.",
+        "focal": "CHANGE ONE FEATURE EACH WEEK",
+        "items": [
+          {
+            "label": "ADD",
+            "text": "Categories or a timer"
+          },
+          {
+            "label": "SHARE",
+            "text": "Publish what you learned"
+          }
+        ],
+        "prompt": "COMMENT DAY 1 WHEN YOU START"
+      }
+    ]
+  },
+  {
+    "number": 48,
+    "slug": "read-error-messages",
+    "series": "ERROR MESSAGE LAB",
+    "category": "DEBUGGING SKILL",
+    "accent": "#F04B2F",
+    "caption": "Error messages are not insults. They are compressed clues. Learn to identify the error type, file, line and final message before searching for a solution.",
+    "hashtags": "#ModernAgeCoders #ErrorMessages #DebuggingTips #LearnToCode #ProgrammingHelp",
+    "slides": [
+      {
+        "template": "hero",
+        "title": "THE ERROR MESSAGE",
+        "accentTitle": "IS A CLUE.",
+        "subtitle": "Read it from the bottom, then trace the path upward.",
+        "focal": "TYPE + FILE + LINE + MESSAGE",
+        "prompt": "SWIPE TO DECODE THE ERROR"
+      },
+      {
+        "template": "code",
+        "title": "START WITH",
+        "accentTitle": "THE LAST LINE.",
+        "subtitle": "It usually names the error and the immediate problem.",
+        "code": [
+          "Traceback (most recent call last):",
+          "  File \"app.py\", line 8",
+          "TypeError: can only join str to str"
+        ],
+        "items": [
+          {
+            "label": "TYPE",
+            "text": "TypeError"
+          },
+          {
+            "label": "PLACE",
+            "text": "app.py line 8"
+          },
+          {
+            "label": "CLUE",
+            "text": "incompatible values"
+          }
+        ],
+        "prompt": "DO NOT SEARCH THE WHOLE TRACE"
+      },
+      {
+        "template": "flow",
+        "title": "TURN THE MESSAGE",
+        "accentTitle": "INTO A QUESTION.",
+        "subtitle": "A clear question leads to a focused test.",
+        "items": [
+          {
+            "label": "1  EXPECT",
+            "text": "What type did the code need?"
+          },
+          {
+            "label": "2  ACTUAL",
+            "text": "What type did it receive?"
+          },
+          {
+            "label": "3  SOURCE",
+            "text": "Where was that value created?"
+          }
+        ],
+        "prompt": "FOLLOW THE VALUE BACKWARD"
+      },
+      {
+        "template": "compare",
+        "title": "SEARCH LESS.",
+        "accentTitle": "SEARCH PRECISELY.",
+        "subtitle": "Keep the meaningful error terms and remove personal data.",
+        "items": [
+          {
+            "label": "WEAK SEARCH",
+            "text": "my Python app is broken"
+          },
+          {
+            "label": "BETTER SEARCH",
+            "text": "Python TypeError join str to str"
+          }
+        ],
+        "prompt": "SEARCH THE ERROR, NOT THE EMOTION"
+      },
+      {
+        "template": "checklist",
+        "title": "BEFORE ASKING",
+        "accentTitle": "FOR HELP.",
+        "subtitle": "Bring enough evidence for someone to reproduce it.",
+        "items": [
+          {
+            "label": "EXPECTED",
+            "text": "What should happen?"
+          },
+          {
+            "label": "ACTUAL",
+            "text": "What happened instead?"
+          },
+          {
+            "label": "ERROR",
+            "text": "Copy the exact message"
+          },
+          {
+            "label": "SMALL CODE",
+            "text": "Share the minimal failing example"
+          }
+        ],
+        "prompt": "GOOD QUESTIONS GET BETTER HELP"
+      }
+    ]
+  },
+  {
+    "number": 49,
+    "slug": "database-design-basics",
+    "series": "DATABASE BLUEPRINT",
+    "category": "DATABASE DESIGN",
+    "accent": "#6B4EFF",
+    "caption": "Good database design begins with real objects and relationships, not random columns. Model the things your application needs to remember and give each record a stable identity.",
+    "hashtags": "#ModernAgeCoders #DatabaseDesign #SQL #BackendDevelopment #DataModeling",
+    "slides": [
+      {
+        "template": "hero",
+        "title": "DESIGN THE DATA",
+        "accentTitle": "BEFORE THE TABLES.",
+        "subtitle": "Start with the real-world objects your app must remember.",
+        "focal": "OBJECTS  ->  RELATIONSHIPS  ->  TABLES",
+        "prompt": "SWIPE FOR THE DATABASE PLAN"
+      },
+      {
+        "template": "grid",
+        "title": "A HABIT APP",
+        "accentTitle": "HAS OBJECTS.",
+        "subtitle": "Each object becomes a candidate for its own table.",
+        "items": [
+          {
+            "label": "USER",
+            "text": "Who owns the data?"
+          },
+          {
+            "label": "HABIT",
+            "text": "What are they tracking?"
+          },
+          {
+            "label": "CHECK-IN",
+            "text": "What happened today?"
+          },
+          {
+            "label": "CATEGORY",
+            "text": "How is it grouped?"
+          }
+        ],
+        "prompt": "NOUNS REVEAL THE MODEL"
+      },
+      {
+        "template": "flow",
+        "title": "CONNECT WITH",
+        "accentTitle": "STABLE KEYS.",
+        "subtitle": "Relationships should not depend on names that can change.",
+        "items": [
+          {
+            "label": "1  USER ID",
+            "text": "Identifies one user"
+          },
+          {
+            "label": "2  HABIT ID",
+            "text": "Identifies one habit"
+          },
+          {
+            "label": "3  FOREIGN KEY",
+            "text": "Connects a check-in to both"
+          }
+        ],
+        "prompt": "IDENTITY FIRST. RELATION SECOND."
+      },
+      {
+        "template": "compare",
+        "title": "ONE FIELD OR",
+        "accentTitle": "REPEATED DATA?",
+        "subtitle": "Repeated groups often deserve their own table.",
+        "items": [
+          {
+            "label": "FRAGILE",
+            "text": "Store every check-in inside one text field"
+          },
+          {
+            "label": "STRUCTURED",
+            "text": "One check-in per row"
+          }
+        ],
+        "prompt": "DESIGN FOR THE QUESTIONS YOU WILL ASK"
+      },
+      {
+        "template": "checklist",
+        "title": "BEFORE CREATING",
+        "accentTitle": "THE SCHEMA.",
+        "subtitle": "Test the model using real actions from the app.",
+        "items": [
+          {
+            "label": "CREATE",
+            "text": "Can a user add a habit?"
+          },
+          {
+            "label": "READ",
+            "text": "Can the app show today's habits?"
+          },
+          {
+            "label": "UPDATE",
+            "text": "Can a check-in change?"
+          },
+          {
+            "label": "DELETE",
+            "text": "What happens to related data?"
+          }
+        ],
+        "prompt": "MODEL THE FULL DATA LIFE CYCLE"
+      }
+    ]
+  },
+  {
+    "number": 50,
+    "slug": "deploy-website-checklist",
+    "series": "SHIP IT",
+    "category": "WEB DEPLOYMENT",
+    "accent": "#154C3C",
+    "caption": "Deployment is part of development. Before sharing your URL, test the production build, mobile layout, links, loading states and metadata.",
+    "hashtags": "#ModernAgeCoders #WebDeployment #FrontendDevelopment #ShipYourWork #DeveloperChecklist",
+    "slides": [
+      {
+        "template": "hero",
+        "title": "YOUR SITE WORKS",
+        "accentTitle": "ON YOUR LAPTOP.",
+        "subtitle": "Now make sure it works for everyone else.",
+        "focal": "BUILD  ->  DEPLOY  ->  VERIFY",
+        "prompt": "SWIPE BEFORE YOU SHARE THE URL"
+      },
+      {
+        "template": "checklist",
+        "title": "CHECK THE",
+        "accentTitle": "PRODUCTION BUILD.",
+        "subtitle": "Development mode can hide problems users will see.",
+        "items": [
+          {
+            "label": "BUILD",
+            "text": "Run the production command"
+          },
+          {
+            "label": "ERRORS",
+            "text": "Fix console and build warnings"
+          },
+          {
+            "label": "ENV",
+            "text": "Confirm required variables"
+          },
+          {
+            "label": "ASSETS",
+            "text": "Check image and font paths"
+          }
+        ],
+        "prompt": "TEST WHAT YOU ACTUALLY DEPLOY"
+      },
+      {
+        "template": "checklist",
+        "title": "TEST THE",
+        "accentTitle": "REAL EXPERIENCE.",
+        "subtitle": "Use another device and a fresh browser session.",
+        "items": [
+          {
+            "label": "MOBILE",
+            "text": "No overflow or tiny targets"
+          },
+          {
+            "label": "LINKS",
+            "text": "Every route opens correctly"
+          },
+          {
+            "label": "FORMS",
+            "text": "Success and error states work"
+          },
+          {
+            "label": "SPEED",
+            "text": "Main content loads quickly"
+          }
+        ],
+        "prompt": "DO NOT TEST ONLY THE HAPPY PATH"
+      },
+      {
+        "template": "grid",
+        "title": "MAKE THE LINK",
+        "accentTitle": "SHAREABLE.",
+        "subtitle": "A polished preview earns more clicks and trust.",
+        "items": [
+          {
+            "label": "TITLE",
+            "text": "Clear browser tab name"
+          },
+          {
+            "label": "DESCRIPTION",
+            "text": "Explain the page in one sentence"
+          },
+          {
+            "label": "PREVIEW IMAGE",
+            "text": "Useful social sharing card"
+          },
+          {
+            "label": "ICON",
+            "text": "Recognizable favicon"
+          }
+        ],
+        "prompt": "DETAILS MAKE THE PROJECT FEEL FINISHED"
+      },
+      {
+        "template": "statement",
+        "title": "A LIVE BUG",
+        "accentTitle": "IS STILL A LESSON.",
+        "subtitle": "Deployment reveals conditions your local machine cannot reproduce.",
+        "focal": "MONITOR  ->  FIX  ->  REDEPLOY",
+        "items": [
+          {
+            "label": "RECORD",
+            "text": "Capture the exact production issue"
+          },
+          {
+            "label": "IMPROVE",
+            "text": "Add a test that prevents it"
+          }
+        ],
+        "prompt": "SHIP, LEARN, SHIP BETTER"
+      }
+    ]
+  },
+  {
+    "number": 51,
+    "slug": "free-demo-what-to-expect",
+    "series": "START HERE",
+    "category": "FREE DEMO",
+    "accent": "#F04B2F",
+    "caption": "Curious about coding, AI or machine learning but unsure where to begin? A free Modern Age Coders demo helps learners explore the teaching approach, ask questions and identify a suitable first project. Book at learn.modernagecoders.com.",
+    "hashtags": "#ModernAgeCoders #FreeCodingDemo #CodingForTeens #LearnToCode #FutureSkills",
+    "slides": [
+      {
+        "template": "hero",
+        "title": "WHAT HAPPENS IN",
+        "accentTitle": "A FREE DEMO?",
+        "subtitle": "A clear first look at how learners think, build and improve.",
+        "focal": "EXPLORE  ->  EXPERIENCE  ->  DECIDE",
+        "prompt": "SWIPE BEFORE YOU BOOK"
+      },
+      {
+        "template": "flow",
+        "title": "START WITH",
+        "accentTitle": "THE LEARNER.",
+        "subtitle": "The right starting point depends on interests and experience.",
+        "items": [
+          {
+            "label": "1  INTERESTS",
+            "text": "What do they want to create?"
+          },
+          {
+            "label": "2  EXPERIENCE",
+            "text": "What have they already tried?"
+          },
+          {
+            "label": "3  GOAL",
+            "text": "Which skill or project comes next?"
+          }
+        ],
+        "prompt": "NO ONE-SIZE-FITS-ALL START"
+      },
+      {
+        "template": "project",
+        "title": "SEE HOW",
+        "accentTitle": "PROJECT LEARNING WORKS.",
+        "subtitle": "The focus is understanding through building.",
+        "items": [
+          {
+            "label": "THINK",
+            "text": "Break down the problem"
+          },
+          {
+            "label": "BUILD",
+            "text": "Create a working version"
+          },
+          {
+            "label": "IMPROVE",
+            "text": "Test and explain changes"
+          }
+        ],
+        "focal": "LOGIC + CODE + REAL OUTPUT",
+        "prompt": "LEARNING SHOULD PRODUCE SOMETHING"
+      },
+      {
+        "template": "checklist",
+        "title": "BRING YOUR",
+        "accentTitle": "REAL QUESTIONS.",
+        "subtitle": "Use the demo to evaluate whether the approach fits.",
+        "items": [
+          {
+            "label": "PROJECTS",
+            "text": "What will the learner build?"
+          },
+          {
+            "label": "SUPPORT",
+            "text": "How is difficulty handled?"
+          },
+          {
+            "label": "PROGRESS",
+            "text": "How is understanding checked?"
+          },
+          {
+            "label": "PATH",
+            "text": "What is the recommended next step?"
+          }
+        ],
+        "prompt": "A GOOD DEMO SHOULD CREATE CLARITY"
+      },
+      {
+        "template": "statement",
+        "title": "READY TO",
+        "accentTitle": "SEE IT IN ACTION?",
+        "subtitle": "Book a free Modern Age Coders demo.",
+        "focal": "learn.modernagecoders.com",
+        "items": [
+          {
+            "label": "EXPLORE",
+            "text": "Coding, AI and ML"
+          },
+          {
+            "label": "START",
+            "text": "With a real project"
+          }
+        ],
+        "prompt": "BOOK A FREE DEMO"
+      }
+    ]
+  },
+  {
+    "number": 52,
+    "slug": "ai-ml-learning-path",
+    "series": "PROGRAM PATH",
+    "category": "AI + ML",
+    "accent": "#6B4EFF",
+    "caption": "Learning AI and machine learning should go beyond prompts. Modern Age Coders focuses on data, logic, models, evaluation and real projects. Explore the program at learn.modernagecoders.com.",
+    "hashtags": "#ModernAgeCoders #MachineLearningCourse #LearnAI #AIForStudents #ProjectBasedLearning",
+    "slides": [
+      {
+        "template": "hero",
+        "title": "DON'T ONLY USE AI.",
+        "accentTitle": "LEARN HOW IT WORKS.",
+        "subtitle": "Move from generated answers to models you can explain.",
+        "focal": "DATA  ->  MODEL  ->  TEST  ->  BUILD",
+        "prompt": "SWIPE THROUGH THE LEARNING PATH"
+      },
+      {
+        "template": "checklist",
+        "title": "BEGIN WITH",
+        "accentTitle": "THE FOUNDATIONS.",
+        "subtitle": "Useful AI learning starts with logic and data.",
+        "items": [
+          {
+            "label": "PYTHON",
+            "text": "Write readable programs"
+          },
+          {
+            "label": "DATA",
+            "text": "Clean and explore examples"
+          },
+          {
+            "label": "LOGIC",
+            "text": "Break problems into steps"
+          },
+          {
+            "label": "METRICS",
+            "text": "Measure whether a model works"
+          }
+        ],
+        "prompt": "FOUNDATION BEFORE HYPE"
+      },
+      {
+        "template": "flow",
+        "title": "BUILD THE",
+        "accentTitle": "MODEL LOOP.",
+        "subtitle": "Learning happens through repeated testing and improvement.",
+        "items": [
+          {
+            "label": "1  TRAIN",
+            "text": "Learn patterns from examples"
+          },
+          {
+            "label": "2  EVALUATE",
+            "text": "Test on unseen data"
+          },
+          {
+            "label": "3  IMPROVE",
+            "text": "Change data or approach"
+          }
+        ],
+        "prompt": "A MODEL IS A TESTABLE SYSTEM"
+      },
+      {
+        "template": "project",
+        "title": "TURN KNOWLEDGE",
+        "accentTitle": "INTO PROJECTS.",
+        "subtitle": "Projects connect code, data and real decisions.",
+        "items": [
+          {
+            "label": "CLASSIFY",
+            "text": "Sort images or text"
+          },
+          {
+            "label": "PREDICT",
+            "text": "Estimate a useful outcome"
+          },
+          {
+            "label": "RECOMMEND",
+            "text": "Rank relevant choices"
+          }
+        ],
+        "focal": "LEARN BY BUILDING MODELS",
+        "prompt": "WHICH PROJECT WOULD YOU CHOOSE?"
+      },
+      {
+        "template": "statement",
+        "title": "START YOUR",
+        "accentTitle": "AI + ML PATH.",
+        "subtitle": "Explore project-based learning with a free demo.",
+        "focal": "learn.modernagecoders.com",
+        "items": [
+          {
+            "label": "UNDERSTAND",
+            "text": "How models work"
+          },
+          {
+            "label": "CREATE",
+            "text": "Projects you can explain"
+          }
+        ],
+        "prompt": "BOOK A FREE DEMO"
+      }
+    ]
+  },
+  {
+    "number": 53,
+    "slug": "coding-journey-for-teens",
+    "series": "LEARNER JOURNEY",
+    "category": "CODING FOR TEENS",
+    "accent": "#0F82F5",
+    "caption": "The goal is not to rush through syntax. A strong coding journey moves from curiosity to logic, from guided practice to independent projects and from copying to explaining. Learn more at learn.modernagecoders.com.",
+    "hashtags": "#ModernAgeCoders #CodingForTeens #YoungCoders #FutureSkills #LearnToCode",
+    "slides": [
+      {
+        "template": "hero",
+        "title": "FROM CURIOUS",
+        "accentTitle": "TO CAPABLE BUILDER.",
+        "subtitle": "A learning path designed around understanding and creation.",
+        "focal": "TRY  ->  UNDERSTAND  ->  BUILD",
+        "prompt": "SWIPE THROUGH THE JOURNEY"
+      },
+      {
+        "template": "flow",
+        "title": "FIRST:",
+        "accentTitle": "MAKE IT WORK.",
+        "subtitle": "Early wins build confidence and reveal the basic pattern.",
+        "items": [
+          {
+            "label": "1  FOLLOW",
+            "text": "Complete a guided example"
+          },
+          {
+            "label": "2  CHANGE",
+            "text": "Modify one part"
+          },
+          {
+            "label": "3  EXPLAIN",
+            "text": "Describe why it changed"
+          }
+        ],
+        "prompt": "COPYING IS ONLY THE FIRST STEP"
+      },
+      {
+        "template": "checklist",
+        "title": "NEXT:",
+        "accentTitle": "MAKE DECISIONS.",
+        "subtitle": "Learners begin choosing the logic and structure.",
+        "items": [
+          {
+            "label": "PLAN",
+            "text": "Break the idea into features"
+          },
+          {
+            "label": "CHOOSE",
+            "text": "Select data and conditions"
+          },
+          {
+            "label": "DEBUG",
+            "text": "Use evidence to fix problems"
+          },
+          {
+            "label": "REFLECT",
+            "text": "Explain tradeoffs"
+          }
+        ],
+        "prompt": "INDEPENDENCE GROWS THROUGH CHOICE"
+      },
+      {
+        "template": "project",
+        "title": "THEN:",
+        "accentTitle": "BUILD SOMETHING REAL.",
+        "subtitle": "A project connects skills that tutorials keep separate.",
+        "items": [
+          {
+            "label": "IDEA",
+            "text": "Choose a useful problem"
+          },
+          {
+            "label": "VERSION 1",
+            "text": "Finish the core experience"
+          },
+          {
+            "label": "IMPROVE",
+            "text": "Test and add one feature"
+          }
+        ],
+        "focal": "PROJECTS CREATE PROOF",
+        "prompt": "BUILD WORK YOU CAN SHOW"
+      },
+      {
+        "template": "statement",
+        "title": "READY FOR",
+        "accentTitle": "THE FIRST PROJECT?",
+        "subtitle": "Explore Modern Age Coders with a free demo.",
+        "focal": "learn.modernagecoders.com",
+        "items": [
+          {
+            "label": "CODING",
+            "text": "Logic and development"
+          },
+          {
+            "label": "AI + ML",
+            "text": "Models and data"
+          }
+        ],
+        "prompt": "BOOK A FREE DEMO"
+      }
+    ]
+  },
+  {
+    "number": 54,
+    "slug": "parent-faq-project-learning",
+    "series": "PARENT GUIDE",
+    "category": "PARENT FAQ",
+    "accent": "#154C3C",
+    "caption": "Parents often ask what meaningful coding progress looks like. It is more than completing lessons. Learners should be able to plan, build, debug and explain a project with growing independence.",
+    "hashtags": "#ModernAgeCoders #ParentsOfTeens #CodingEducation #ProjectBasedLearning #FutureReady",
+    "slides": [
+      {
+        "template": "hero",
+        "title": "IS MY CHILD",
+        "accentTitle": "REALLY LEARNING TO CODE?",
+        "subtitle": "Look for thinking and independence, not only completed lessons.",
+        "focal": "PLAN  +  BUILD  +  EXPLAIN",
+        "prompt": "SWIPE THROUGH THE PARENT GUIDE"
+      },
+      {
+        "template": "compare",
+        "title": "ACTIVITY OR",
+        "accentTitle": "UNDERSTANDING?",
+        "subtitle": "Finishing steps does not always mean owning the idea.",
+        "items": [
+          {
+            "label": "ACTIVITY",
+            "text": "Copied the example successfully"
+          },
+          {
+            "label": "UNDERSTANDING",
+            "text": "Changed it and explained the result"
+          }
+        ],
+        "prompt": "ASK WHAT THEY CHANGED AND WHY"
+      },
+      {
+        "template": "checklist",
+        "title": "FOUR SIGNS OF",
+        "accentTitle": "REAL PROGRESS.",
+        "subtitle": "Growth becomes visible in how the learner approaches problems.",
+        "items": [
+          {
+            "label": "PLANS",
+            "text": "Breaks a project into steps"
+          },
+          {
+            "label": "DEBUGS",
+            "text": "Reads errors before asking"
+          },
+          {
+            "label": "EXPLAINS",
+            "text": "Describes the logic clearly"
+          },
+          {
+            "label": "IMPROVES",
+            "text": "Changes work after feedback"
+          }
+        ],
+        "prompt": "PROGRESS IS MORE THAN SPEED"
+      },
+      {
+        "template": "statement",
+        "title": "STRUGGLE CAN BE",
+        "accentTitle": "PRODUCTIVE.",
+        "subtitle": "The goal is not to remove every difficult moment.",
+        "focal": "SUPPORT WITHOUT TAKING OVER",
+        "items": [
+          {
+            "label": "HELPFUL",
+            "text": "Ask a guiding question"
+          },
+          {
+            "label": "UNHELPFUL",
+            "text": "Give the complete solution"
+          }
+        ],
+        "prompt": "CONFIDENCE GROWS THROUGH RECOVERY"
+      },
+      {
+        "template": "statement",
+        "title": "SEE THE APPROACH",
+        "accentTitle": "FOR YOURSELF.",
+        "subtitle": "Book a free Modern Age Coders demo and ask your questions.",
+        "focal": "learn.modernagecoders.com",
+        "items": [
+          {
+            "label": "DISCUSS",
+            "text": "Goals and suitable starting point"
+          },
+          {
+            "label": "EXPLORE",
+            "text": "Project-based learning"
+          }
+        ],
+        "prompt": "BOOK A FREE DEMO"
+      }
+    ]
+  },
+  {
+    "number": 55,
+    "slug": "from-consumer-to-creator",
+    "series": "BUILDER TRANSFORMATION",
+    "category": "WHY CODING",
+    "accent": "#F04B2F",
+    "caption": "Technology feels different when learners can shape it. Coding education can move students from consuming interfaces to questioning systems, building projects and explaining how they work.",
+    "hashtags": "#ModernAgeCoders #DigitalCreators #CodingEducation #YoungInnovators #BuildTheFuture",
+    "slides": [
+      {
+        "template": "hero",
+        "title": "DON'T ONLY",
+        "accentTitle": "CONSUME TECHNOLOGY.",
+        "subtitle": "Learn to question it, change it and create with it.",
+        "focal": "USER  ->  THINKER  ->  BUILDER",
+        "prompt": "SWIPE THROUGH THE TRANSFORMATION"
+      },
+      {
+        "template": "compare",
+        "title": "PASSIVE USE OR",
+        "accentTitle": "ACTIVE UNDERSTANDING?",
+        "subtitle": "The same tool can create very different learning habits.",
+        "items": [
+          {
+            "label": "CONSUME",
+            "text": "Click until something works"
+          },
+          {
+            "label": "UNDERSTAND",
+            "text": "Trace what the system is doing"
+          }
+        ],
+        "prompt": "CURIOSITY CHANGES THE EXPERIENCE"
+      },
+      {
+        "template": "flow",
+        "title": "THE BUILDER",
+        "accentTitle": "WAY OF THINKING.",
+        "subtitle": "A problem becomes a series of testable decisions.",
+        "items": [
+          {
+            "label": "1  QUESTION",
+            "text": "What should happen?"
+          },
+          {
+            "label": "2  BUILD",
+            "text": "Create the smallest version"
+          },
+          {
+            "label": "3  IMPROVE",
+            "text": "Test and refine the result"
+          }
+        ],
+        "prompt": "CREATION MAKES LEARNING VISIBLE"
+      },
+      {
+        "template": "project",
+        "title": "PROOF COMES",
+        "accentTitle": "FROM PROJECTS.",
+        "subtitle": "Each finished project demonstrates a connected skill set.",
+        "items": [
+          {
+            "label": "LOGIC",
+            "text": "Decisions and algorithms"
+          },
+          {
+            "label": "TECH",
+            "text": "Code, data and tools"
+          },
+          {
+            "label": "COMMUNICATION",
+            "text": "Explain choices clearly"
+          }
+        ],
+        "focal": "SHOW WHAT YOU CAN BUILD",
+        "prompt": "PROJECTS TURN SKILL INTO EVIDENCE"
+      },
+      {
+        "template": "statement",
+        "title": "MAKE THE SHIFT",
+        "accentTitle": "WITH MODERN AGE CODERS.",
+        "subtitle": "Explore coding, AI and ML through project-based learning.",
+        "focal": "learn.modernagecoders.com",
+        "items": [
+          {
+            "label": "THINK",
+            "text": "Understand the system"
+          },
+          {
+            "label": "BUILD",
+            "text": "Create the project"
+          }
+        ],
+        "prompt": "BOOK A FREE DEMO"
+      }
+    ]
+  },
+  {
+    "number": 56,
+    "slug": "builder-community",
+    "series": "BUILD TOGETHER",
+    "category": "COMMUNITY",
+    "accent": "#6B4EFF",
+    "caption": "Learning to code becomes more powerful when students can share progress, explain decisions and learn from other builders. Join a culture that values thoughtful work over perfect-looking results.",
+    "hashtags": "#ModernAgeCoders #CodingCommunity #StudentBuilders #BuildInPublic #LearnTogether",
+    "slides": [
+      {
+        "template": "hero",
+        "title": "BUILDING ALONE",
+        "accentTitle": "GETS QUIET.",
+        "subtitle": "Progress grows when learners can share, explain and improve together.",
+        "focal": "BUILD  +  SHARE  +  FEEDBACK",
+        "prompt": "SWIPE INTO THE BUILDER CULTURE"
+      },
+      {
+        "template": "grid",
+        "title": "A STRONG COMMUNITY",
+        "accentTitle": "DOES FOUR THINGS.",
+        "subtitle": "The goal is better thinking, not empty competition.",
+        "items": [
+          {
+            "label": "SHARES",
+            "text": "Shows unfinished progress"
+          },
+          {
+            "label": "ASKS",
+            "text": "Brings clear questions"
+          },
+          {
+            "label": "REVIEWS",
+            "text": "Gives specific feedback"
+          },
+          {
+            "label": "CELEBRATES",
+            "text": "Values learning and completion"
+          }
+        ],
+        "prompt": "GROWTH IS A TEAM PRACTICE"
+      },
+      {
+        "template": "statement",
+        "title": "SHOW THE BUG.",
+        "accentTitle": "NOT ONLY THE WIN.",
+        "subtitle": "Explaining a difficult fix can teach more than a polished screenshot.",
+        "focal": "WHAT FAILED? WHAT CHANGED?",
+        "items": [
+          {
+            "label": "HONEST",
+            "text": "Share the difficult part"
+          },
+          {
+            "label": "USEFUL",
+            "text": "Explain the lesson"
+          }
+        ],
+        "prompt": "TURN STRUGGLE INTO KNOWLEDGE"
+      },
+      {
+        "template": "statement",
+        "title": "FIND YOUR",
+        "accentTitle": "BUILDER COMMUNITY.",
+        "subtitle": "Explore Modern Age Coders through a free demo.",
+        "focal": "learn.modernagecoders.com",
+        "items": [
+          {
+            "label": "CREATE",
+            "text": "Real coding projects"
+          },
+          {
+            "label": "GROW",
+            "text": "Through feedback and reflection"
+          }
+        ],
+        "prompt": "BOOK A FREE DEMO"
+      }
+    ]
+  },
+  {
+    "number": 57,
+    "slug": "web-developer-day",
+    "series": "CAREER REALITY",
+    "category": "WEB CAREER",
+    "accent": "#0F82F5",
+    "caption": "Web development is not eight hours of typing new code. A real day includes understanding requirements, reading existing code, testing, debugging, reviewing and communicating.",
+    "hashtags": "#ModernAgeCoders #WebDeveloper #TechCareers #CareerExploration #StudentDevelopers",
+    "slides": [
+      {
+        "template": "hero",
+        "title": "WHAT DOES A",
+        "accentTitle": "WEB DEVELOPER DO?",
+        "subtitle": "The job is much more than writing new code.",
+        "focal": "UNDERSTAND  ->  BUILD  ->  VERIFY",
+        "prompt": "SWIPE THROUGH A REAL WORKDAY"
+      },
+      {
+        "template": "checklist",
+        "title": "BEFORE CODING:",
+        "accentTitle": "UNDERSTAND THE TASK.",
+        "subtitle": "The fastest code is useless if it solves the wrong problem.",
+        "items": [
+          {
+            "label": "USER",
+            "text": "Who needs this feature?"
+          },
+          {
+            "label": "GOAL",
+            "text": "What should become easier?"
+          },
+          {
+            "label": "CONSTRAINT",
+            "text": "What must not break?"
+          },
+          {
+            "label": "SUCCESS",
+            "text": "How will the team verify it?"
+          }
+        ],
+        "prompt": "CLARITY SAVES REWORK"
+      },
+      {
+        "template": "flow",
+        "title": "THEN BUILD",
+        "accentTitle": "A SMALL CHANGE.",
+        "subtitle": "Professional work moves through reviewable steps.",
+        "items": [
+          {
+            "label": "1  READ",
+            "text": "Understand existing code"
+          },
+          {
+            "label": "2  CHANGE",
+            "text": "Implement one focused feature"
+          },
+          {
+            "label": "3  TEST",
+            "text": "Verify expected behavior"
+          }
+        ],
+        "prompt": "SMALL CHANGES ARE EASIER TO TRUST"
+      },
+      {
+        "template": "grid",
+        "title": "THE HIDDEN",
+        "accentTitle": "HALF OF THE JOB.",
+        "subtitle": "Strong developers spend time reducing uncertainty.",
+        "items": [
+          {
+            "label": "DEBUG",
+            "text": "Find causes, not symptoms"
+          },
+          {
+            "label": "REVIEW",
+            "text": "Improve another developer's work"
+          },
+          {
+            "label": "DISCUSS",
+            "text": "Align with design and product"
+          },
+          {
+            "label": "DOCUMENT",
+            "text": "Explain future decisions"
+          }
+        ],
+        "prompt": "COMMUNICATION IS PART OF CODING"
+      },
+      {
+        "template": "statement",
+        "title": "TRY THE CAREER",
+        "accentTitle": "THROUGH A PROJECT.",
+        "subtitle": "Build a real interface before choosing the label.",
+        "focal": "PROJECT: SOLVE 1 USER PROBLEM",
+        "items": [
+          {
+            "label": "BUILD",
+            "text": "A useful responsive feature"
+          },
+          {
+            "label": "EXPLAIN",
+            "text": "The decisions and tradeoffs"
+          }
+        ],
+        "prompt": "EXPLORE BY DOING"
+      }
+    ]
+  },
+  {
+    "number": 58,
+    "slug": "math-genius-coding-myth",
+    "series": "TECH MYTH CHECK",
+    "category": "BEGINNER MYTH",
+    "accent": "#F5B22D",
+    "caption": "You do not need to be a mathematics genius to begin coding. You need patience, logical practice and the willingness to break large problems into smaller ones. Different fields require different levels of math later.",
+    "hashtags": "#ModernAgeCoders #CodingMyths #LearnToCode #CodingForBeginners #StudentMindset",
+    "slides": [
+      {
+        "template": "poll",
+        "title": "MATH GENIUS FIRST.",
+        "accentTitle": "CODING LATER?",
+        "subtitle": "Myth or fact? Choose before you swipe.",
+        "items": [
+          {
+            "label": "MYTH",
+            "text": "You must master advanced math first"
+          },
+          {
+            "label": "FACT",
+            "text": "You can begin with logic and practice"
+          }
+        ],
+        "prompt": "MYTH OR FACT?"
+      },
+      {
+        "template": "reveal",
+        "title": "THE ANSWER:",
+        "accentTitle": "MYTH.",
+        "subtitle": "Most beginner projects need clear thinking more than advanced formulas.",
+        "focal": "BREAK THE PROBLEM INTO STEPS",
+        "items": [
+          {
+            "label": "START",
+            "text": "Variables, conditions and loops"
+          },
+          {
+            "label": "GROW",
+            "text": "Learn needed math with the project"
+          }
+        ],
+        "prompt": "DO NOT WAIT TO FEEL READY"
+      },
+      {
+        "template": "compare",
+        "title": "CODING SKILL OR",
+        "accentTitle": "FIELD-SPECIFIC MATH?",
+        "subtitle": "The amount of math changes with the work you choose.",
+        "items": [
+          {
+            "label": "WEB APPS",
+            "text": "Logic, layout and data flow"
+          },
+          {
+            "label": "ML + GRAPHICS",
+            "text": "More statistics, algebra or geometry"
+          }
+        ],
+        "prompt": "LEARN THE MATH THE GOAL REQUIRES"
+      },
+      {
+        "template": "statement",
+        "title": "YOUR FIRST STEP:",
+        "accentTitle": "BUILD SOMETHING SMALL.",
+        "subtitle": "Progress creates the confidence that waiting cannot.",
+        "focal": "START WITH A 20-LINE PROJECT",
+        "items": [
+          {
+            "label": "TRY",
+            "text": "A calculator or quiz"
+          },
+          {
+            "label": "LEARN",
+            "text": "One new idea at a time"
+          }
+        ],
+        "prompt": "SEND THIS TO A HESITANT BEGINNER"
+      }
+    ]
+  },
+  {
+    "number": 59,
+    "slug": "smart-study-planner",
+    "series": "CAPSTONE BLUEPRINT",
+    "category": "AI PROJECT",
+    "accent": "#6B4EFF",
+    "caption": "Capstone idea: build a smart study planner that turns goals and available time into a realistic weekly plan. Start with rule-based logic, then add AI only where it provides clear value.",
+    "hashtags": "#ModernAgeCoders #AIProject #CapstoneProject #CodingProjects #BuildWithAI",
+    "slides": [
+      {
+        "template": "project",
+        "title": "BUILD A SMART",
+        "accentTitle": "STUDY PLANNER.",
+        "subtitle": "A capstone combining user needs, scheduling logic and AI.",
+        "items": [
+          {
+            "label": "INPUT",
+            "text": "Goals and available time"
+          },
+          {
+            "label": "PLAN",
+            "text": "Create study sessions"
+          },
+          {
+            "label": "ADAPT",
+            "text": "Update after progress"
+          }
+        ],
+        "focal": "DATA + LOGIC + AI",
+        "prompt": "SWIPE FOR THE CAPSTONE PLAN"
+      },
+      {
+        "template": "checklist",
+        "title": "DEFINE THE",
+        "accentTitle": "REAL USER NEED.",
+        "subtitle": "Do not begin with AI. Begin with the decision the learner faces.",
+        "items": [
+          {
+            "label": "GOALS",
+            "text": "What must be completed?"
+          },
+          {
+            "label": "TIME",
+            "text": "When is the learner available?"
+          },
+          {
+            "label": "PRIORITY",
+            "text": "What matters most?"
+          },
+          {
+            "label": "ENERGY",
+            "text": "When can they focus best?"
+          }
+        ],
+        "prompt": "GOOD INPUTS CREATE USEFUL PLANS"
+      },
+      {
+        "template": "flow",
+        "title": "BUILD VERSION 1",
+        "accentTitle": "WITHOUT AI.",
+        "subtitle": "A rule-based planner creates a reliable baseline.",
+        "items": [
+          {
+            "label": "1  SPLIT",
+            "text": "Break goals into tasks"
+          },
+          {
+            "label": "2  RANK",
+            "text": "Order by urgency and difficulty"
+          },
+          {
+            "label": "3  SCHEDULE",
+            "text": "Fit tasks into available time"
+          }
+        ],
+        "prompt": "RULES FIRST. MODEL LATER."
+      },
+      {
+        "template": "compare",
+        "title": "WHERE SHOULD",
+        "accentTitle": "AI HELP?",
+        "subtitle": "Use it for flexible language tasks, not basic arithmetic.",
+        "items": [
+          {
+            "label": "RULES",
+            "text": "Time limits, priorities and conflicts"
+          },
+          {
+            "label": "AI",
+            "text": "Suggest task breakdowns or explanations"
+          }
+        ],
+        "prompt": "USE THE SIMPLEST TOOL THAT WORKS"
+      },
+      {
+        "template": "checklist",
+        "title": "DESIGN FOR",
+        "accentTitle": "TRUST + CONTROL.",
+        "subtitle": "A planner should help the learner decide, not take control away.",
+        "items": [
+          {
+            "label": "EXPLAIN",
+            "text": "Show why a task was scheduled"
+          },
+          {
+            "label": "EDIT",
+            "text": "Let users change the plan"
+          },
+          {
+            "label": "VERIFY",
+            "text": "Check dates and totals"
+          },
+          {
+            "label": "PRIVACY",
+            "text": "Collect only necessary data"
+          }
+        ],
+        "prompt": "SMART MEANS UNDERSTANDABLE"
+      },
+      {
+        "template": "statement",
+        "title": "SHIP THE",
+        "accentTitle": "CAPSTONE STORY.",
+        "subtitle": "Document the problem, baseline, AI choice and final test.",
+        "focal": "NEED  ->  RULES  ->  AI  ->  EVIDENCE",
+        "items": [
+          {
+            "label": "DEMO",
+            "text": "Show one complete user journey"
+          },
+          {
+            "label": "REFLECT",
+            "text": "Explain what you would improve"
+          }
+        ],
+        "prompt": "BUILD AI YOU CAN DEFEND"
+      }
+    ]
+  },
+  {
+    "number": 60,
+    "slug": "sixty-day-builder-challenge",
+    "series": "BUILDER CHALLENGE",
+    "category": "JOIN THE JOURNEY",
+    "accent": "#F04B2F",
+    "caption": "The 60-Day Builder Challenge is a simple idea: learn one concept, build one small feature and share one honest lesson each week. Start your project-based learning journey at learn.modernagecoders.com.",
+    "hashtags": "#ModernAgeCoders #60DayChallenge #BuildInPublic #CodingJourney #StudentBuilders",
+    "slides": [
+      {
+        "template": "hero",
+        "title": "60 DAYS.",
+        "accentTitle": "ONE BUILDER MINDSET.",
+        "subtitle": "Stop waiting for the perfect project. Build visible progress.",
+        "focal": "LEARN  ->  BUILD  ->  SHARE",
+        "prompt": "SWIPE INTO THE CHALLENGE"
+      },
+      {
+        "template": "grid",
+        "title": "THE FOUR",
+        "accentTitle": "CHALLENGE RULES.",
+        "subtitle": "Keep the system small enough to continue.",
+        "items": [
+          {
+            "label": "SMALL",
+            "text": "One focused feature"
+          },
+          {
+            "label": "WEEKLY",
+            "text": "A consistent build rhythm"
+          },
+          {
+            "label": "HONEST",
+            "text": "Share mistakes and lessons"
+          },
+          {
+            "label": "FINISHED",
+            "text": "Complete before expanding"
+          }
+        ],
+        "prompt": "CONSISTENCY IS THE SCORE"
+      },
+      {
+        "template": "checklist",
+        "title": "DAYS 1-20:",
+        "accentTitle": "BUILD THE BASE.",
+        "subtitle": "Choose one path and complete the core skills.",
+        "items": [
+          {
+            "label": "LEARN",
+            "text": "One foundation concept"
+          },
+          {
+            "label": "PRACTICE",
+            "text": "Change a small example"
+          },
+          {
+            "label": "BUILD",
+            "text": "Create one useful feature"
+          },
+          {
+            "label": "EXPLAIN",
+            "text": "Write what changed"
+          }
+        ],
+        "prompt": "FOUNDATION CREATES MOMENTUM"
+      },
+      {
+        "template": "checklist",
+        "title": "DAYS 21-40:",
+        "accentTitle": "CONNECT THE SKILLS.",
+        "subtitle": "Move from isolated exercises to one real project.",
+        "items": [
+          {
+            "label": "PLAN",
+            "text": "Define the user problem"
+          },
+          {
+            "label": "VERSION 1",
+            "text": "Ship the main journey"
+          },
+          {
+            "label": "TEST",
+            "text": "Find one failure"
+          },
+          {
+            "label": "IMPROVE",
+            "text": "Make one evidence-based change"
+          }
+        ],
+        "prompt": "A PROJECT CONNECTS THE PIECES"
+      },
+      {
+        "template": "checklist",
+        "title": "DAYS 41-60:",
+        "accentTitle": "SHOW YOUR THINKING.",
+        "subtitle": "Turn the finished work into proof of learning.",
+        "items": [
+          {
+            "label": "POLISH",
+            "text": "Fix the most important issues"
+          },
+          {
+            "label": "DEPLOY",
+            "text": "Publish a working version"
+          },
+          {
+            "label": "DOCUMENT",
+            "text": "Explain decisions and lessons"
+          },
+          {
+            "label": "SHARE",
+            "text": "Invite useful feedback"
+          }
+        ],
+        "prompt": "FINISHED WORK CREATES OPPORTUNITY"
+      },
+      {
+        "template": "statement",
+        "title": "START THE",
+        "accentTitle": "BUILDER JOURNEY.",
+        "subtitle": "Explore Modern Age Coders through a free demo.",
+        "focal": "learn.modernagecoders.com",
+        "items": [
+          {
+            "label": "LEARN",
+            "text": "Coding, AI and ML"
+          },
+          {
+            "label": "BUILD",
+            "text": "Projects you can explain"
+          }
+        ],
+        "prompt": "BOOK A FREE DEMO"
+      }
+    ]
+  }
+]
