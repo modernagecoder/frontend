@@ -320,6 +320,7 @@ Ages 6 to 67, small live batches, priced from USD 100 a month.
 - Vibe Coding for Beginners: https://learn.modernagecoders.com/vibe-coding-for-beginners
 - A Parents Guide to Vibe Coding: https://learn.modernagecoders.com/parents-guide-to-vibe-coding
 - Vibe Coding Projects for Students: https://learn.modernagecoders.com/vibe-coding-projects-for-students
+- Learn to Code with AI: https://learn.modernagecoders.com/learn-to-code-with-ai
 ## Coding Classes by State, Province & Market
 
 Live online coding and mathematics for a specific state, province or market,

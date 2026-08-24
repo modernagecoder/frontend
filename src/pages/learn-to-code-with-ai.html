@@ -1,0 +1,714 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Learn to Code with AI | Tutor, Not Ghostwriter</title>
+  <meta name="description" content="How to learn coding with AI as your tutor instead of your ghostwriter: six prompt patterns that force real learning, an eight-week Python path, live classes.">
+  <meta name="author" content="Modern Age Coders">
+  <link rel="canonical" href="https://learn.modernagecoders.com/learn-to-code-with-ai">
+  <link rel="alternate" type="text/markdown" href="/src/pages/learn-to-code-with-ai.md" title="Markdown version for AI agents">
+
+  <link rel="icon" href="/favicon.ico" type="image/x-icon">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
+  <meta name="theme-color" content="#146077">
+
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="https://learn.modernagecoders.com/learn-to-code-with-ai">
+  <meta property="og:title" content="Learn to Code with AI | Tutor, Not Ghostwriter">
+  <meta property="og:description" content="The same model can teach you to code or quietly do it for you, and which one happens is decided by how you ask. The six prompt patterns that force the teaching version.">
+  <meta property="og:image" content="https://learn.modernagecoders.com/images/og-modern-age-coders.png">
+  <meta property="og:site_name" content="Modern Age Coders">
+  <meta property="og:locale" content="en">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Learn to Code with AI">
+  <meta name="twitter:description" content="Six prompt patterns that turn any AI from ghostwriter into tutor, plus an eight-week Python path.">
+  <meta name="twitter:image" content="https://learn.modernagecoders.com/images/og-modern-age-coders.png">
+
+  <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/ai-global.css?v=20260824">
+
+  <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-N8BM164YJP');gtag('config','AW-16910316353');</script>
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "EducationalOrganization",
+        "@id": "https://learn.modernagecoders.com/#org",
+        "name": "Modern Age Coders",
+        "url": "https://learn.modernagecoders.com/",
+        "email": "contact@modernagecoders.com",
+        "telephone": "+91-91233-66161",
+        "foundingDate": "2020",
+        "areaServed": { "@type": "Place", "name": "Worldwide" },
+        "knowsAbout": ["AI-Assisted Learning", "Python", "Programming Education", "Prompt Patterns", "Tutoring", "Vibe Coding"]
+      },
+      {
+        "@type": "TechArticle",
+        "@id": "https://learn.modernagecoders.com/learn-to-code-with-ai#article",
+        "headline": "Learn to Code with AI: Tutor, Not Ghostwriter",
+        "description": "The same model can teach you to code or quietly do it for you, and which one happens is decided by how you ask. The six prompt patterns that force the teaching version.",
+        "inLanguage": "en",
+        "isAccessibleForFree": true,
+        "proficiencyLevel": "Beginner",
+        "dependencies": "No prior programming experience required",
+        "author": { "@id": "https://learn.modernagecoders.com/#org" },
+        "publisher": { "@id": "https://learn.modernagecoders.com/#org" },
+        "mainEntityOfPage": "https://learn.modernagecoders.com/learn-to-code-with-ai"
+      },
+      {
+        "@type": "Course",
+        "name": "Learning to Code with AI as the Tutor",
+        "description": "Live online classes for ages 6 to 67 where students learn Python and web development with AI used deliberately as a tutor: hint ladders instead of answers, explanation before correction, and unassisted practice where it counts, so the skill lands in the student rather than the transcript.",
+        "url": "https://learn.modernagecoders.com/learn-to-code-with-ai",
+        "inLanguage": "en",
+        "provider": { "@id": "https://learn.modernagecoders.com/#org" },
+        "isAccessibleForFree": false,
+        "hasCourseInstance": {
+          "@type": "CourseInstance",
+          "courseMode": "online",
+          "courseWorkload": "PT3H",
+          "location": { "@type": "VirtualLocation", "url": "https://learn.modernagecoders.com/learn-to-code-with-ai" }
+        }
+      },
+      {
+        "@type": "Service",
+        "serviceType": "Online coding classes with AI-assisted tutoring method",
+        "provider": { "@id": "https://learn.modernagecoders.com/#org" },
+        "areaServed": { "@type": "Place", "name": "Worldwide" },
+        "audience": { "@type": "EducationalAudience", "educationalRole": "student" }
+      },
+      {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://learn.modernagecoders.com/" },
+          { "@type": "ListItem", "position": 2, "name": "What is vibe coding", "item": "https://learn.modernagecoders.com/what-is-vibe-coding" },
+          { "@type": "ListItem", "position": 3, "name": "Learn to code with AI", "item": "https://learn.modernagecoders.com/learn-to-code-with-ai" }
+        ]
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+          {"@type": "Question", "name": "Can AI really replace a coding teacher?", "acceptedAnswer": {"@type": "Answer", "text": "It replaces parts of one brilliantly: it is available at 2 a.m., infinitely patient, and never makes you feel slow. What it does not do is withhold. A good teacher watches you struggle for exactly the productive amount of time, notices what you avoid, and declines to answer the question whose answer you almost have. Models are built to satisfy, and satisfying a learner on demand is often the opposite of teaching them. Our classes use the model for patience and the teacher for judgement."}},
+          {"@type": "Question", "name": "Will I become dependent on the AI?", "acceptedAnswer": {"@type": "Answer", "text": "Only if you practise exclusively with it switched on, which is why we do not. Dependence is not a character flaw, it is a predictable result of never experiencing the blank file alone. The schedule that prevents it is boring and works: assisted building most of the week, one unassisted exercise every week, and the difference between your assisted and unassisted ability tracked honestly. When the gap stops shrinking, the balance needs adjusting, and a teacher who sees both sides adjusts it."}},
+          {"@type": "Question", "name": "Which AI is best for learning to code?", "acceptedAnswer": {"@type": "Answer", "text": "The differences between the big models matter far less for learning than how you use whichever one you have. Every mainstream assistant can run all six tutor patterns on this page. The real constraint is age: under 13 none of the mainstream tools permit an account at all, and from 13 to 17 parental consent is required, so the best AI for a given learner is first of all one they are allowed to use. Our tools age guide keeps the current list."}},
+          {"@type": "Question", "name": "Is learning with AI faster than the traditional way?", "acceptedAnswer": {"@type": "Answer", "text": "Faster to first output by an enormous margin, and roughly equal to genuine competence, because competence still requires the practice hours. What AI actually changes is the failure rate: the old path lost most beginners at the setup stage or the first cryptic error, and AI dissolves both walls. More people now survive long enough to do the practising. The practising itself has no shortcut, and anyone selling one is selling."}},
+          {"@type": "Question", "name": "Do employers care whether you learned with AI?", "acceptedAnswer": {"@type": "Answer", "text": "Employers care whether you can do the work, and increasingly the work itself is AI-assisted, so fluency with the tools is an asset rather than a confession. What they test for is whether anything is underneath: can you read code you did not write, can you debug when the assistant loops, can you explain your own project cold. Learn with AI the tutor way and you pass those; learn the ghostwriter way and you do not."}},
+          {"@type": "Question", "name": "Do I need a paid model subscription to learn?", "acceptedAnswer": {"@type": "Answer", "text": "No. Free tiers cover the entire learning path on this page, and hitting a rate limit is even quietly useful, since the minutes you spend waiting are minutes you spend reading your own code. Paid tiers buy convenience and longer context, which start to matter on larger projects, not in the first months. Advanced agent-tool courses are the exception and their pages say so upfront."}},
+          {"@type": "Question", "name": "How do your classes actually use AI in the room?", "acceptedAnswer": {"@type": "Answer", "text": "Deliberately and asymmetrically. Students build with the model live, but the teacher sets which of the six patterns is allowed for each exercise: hint-ladder days, explain-first days, and no-AI days, in a sequence designed around what each student needs next. The model is the instrument; the lesson plan is which way it may be played that day. This is the part self-taught learners have to guess at, and mostly guess wrong."}},
+          {"@type": "Question", "name": "From what age does learning with AI make sense?", "acceptedAnswer": {"@type": "Answer", "text": "The method on this page assumes the learner can hold an account, so 13 with parental consent by the providers' own terms. Younger children learn to code brilliantly without personal AI accounts, through Scratch and teacher-operated demonstrations, and arrive at 13 already fluent in the thinking. There is no hurry: nothing about starting the account-based version at 13 rather than 9 costs a child anything real."}},
+          {"@type": "Question", "name": "What do the classes cost?", "acceptedAnswer": {"@type": "Answer", "text": "USD 100 a month for a live group batch and USD 150 a month for one to one, unchanged across every country we serve outside India, billed monthly with no enrolment fee and no exit conditions. The first class is free without a card, and it demonstrates the tutor method on the student's own level rather than presenting slides about it."}},
+          {"@type": "Question", "name": "How do I start from this page?", "acceptedAnswer": {"@type": "Answer", "text": "Two honest options. Self-directed: take the six patterns above into your next session with any permitted assistant, starting with explain-first, and you will feel the difference in a week. Taught: send the form, and the free class runs the same patterns live on a small project with a teacher choosing the right pattern at the right moment, which is the part that is hard to do for yourself."}}
+        ]
+      }
+    ]
+  }
+  </script>
+</head>
+
+<body class="ag-root ag-lca">
+
+<nav class="ag-nav">
+  <div class="ag-wrap ag-nav-inner">
+    <a class="ag-nav-brand" href="/">
+      <img src="/images/logo.svg" alt="Modern Age Coders logo" width="30" height="30" fetchpriority="high">
+      <span>Modern Age Coders</span>
+      <span class="ag-brand-tag">AI as your tutor</span>
+    </a>
+    <div class="ag-nav-links">
+      <a href="#split">The two modes</a>
+      <a href="#patterns">Six patterns</a>
+      <a href="#courses">Courses</a>
+      <a href="#fees">Fees</a>
+      <a href="/what-is-vibe-coding">The definition</a>
+      <a href="#start" class="ag-btn">Free first class</a>
+    </div>
+  </div>
+</nav>
+
+<header class="ag-hero">
+  <div class="ag-wrap">
+    <nav class="ag-crumbs" aria-label="Breadcrumb">
+      <a href="/">Home</a> <span>/</span> <a href="/what-is-vibe-coding">What is vibe coding</a> <span>/</span> <span>Learn to code with AI</span>
+    </nav>
+    <div class="ag-hero-grid">
+      <div>
+        <p class="ag-eyebrow">The method &middot; Live online &middot; Worldwide &middot; Ages 6 to 67</p>
+        <h1>AI will teach you to code, or code so you never learn. You choose, per prompt.</h1>
+        <p class="ag-lede">The same model, on the same broken program, in the same minute, can act as the best tutor you have ever had or as a ghostwriter who quietly takes the learning away. Nothing about the model decides which; the shape of your request does. This page shows both conversations side by side so you can see the difference, then gives you the six prompt patterns that force the tutor version, the honest map of where AI helps and harms each kind of learning, and the eight-week Python path we run on this method with a teacher choosing the right pattern at the right moment.</p>
+        <div class="ag-btn-row">
+          <a href="#split" class="ag-btn">See both conversations</a>
+          <a href="#patterns" class="ag-btn ag-btn--ghost">Steal the six patterns</a>
+          <a href="https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders.%20I%20want%20to%20learn%20coding%20using%20AI%20the%20right%20way." class="ag-btn ag-btn--ghost" target="_blank" rel="noopener" onclick="if(window.gtag)gtag('event','whatsapp_click',{page_topic:'learn-with-ai'});">Ask on WhatsApp</a>
+        </div>
+        <p class="ag-hero-note">
+          Live online &middot; ages 6 to 67 &middot; taught from India, worldwide &middot; from USD 100 a month &middot; first class free
+        </p>
+      </div>
+
+      <aside class="ag-spec">
+        <p class="ag-spec-title">At a glance</p>
+        <p class="ag-trust">
+          <span class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</span>
+          4.9 across 547 Google reviews
+        </p>
+        <dl>
+          <dt>The choice</dt><dd>Tutor or ghostwriter, per prompt</dd>
+          <dt>Decided by</dt><dd>How you ask, nothing else</dd>
+          <dt>The key pattern</dt><dd>Hints before answers</dd>
+          <dt>Weekly non-negotiable</dt><dd>One unassisted exercise</dd>
+          <dt>Path on this page</dt><dd>Python in eight weeks</dd>
+          <dt>Account age</dt><dd>13 with consent, per providers</dd>
+          <dt>Fees</dt><dd>From USD 100 a month</dd>
+          <dt>First class</dt><dd>Free, no card</dd>
+        </dl>
+      </aside>
+    </div>
+  </div>
+</header>
+
+<section class="ag-section" id="picks">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Start here</p>
+      <h2>The courses that run on this method</h2>
+      <p class="ag-lede">Each of these teaches a real stack with the tutor patterns built into the lesson plans, so the discipline is supplied by the course rather than by willpower.</p>
+    </div>
+    <div class="ag-picks">
+      <a class="ag-pick" href="/courses/python-complete-masterclass-teens">
+        <div class="ag-pick-shot"><img src="/images/python-teens.webp" alt="Python for Teens course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">TUTOR / 01</p>
+          <h3>Python for Teens</h3>
+          <p>The eight-week path on this page is its opening arc: Python learned with hint ladders and explain-first days, plus the weekly unassisted exercise.</p>
+          <span class="ag-pick-go">Open the syllabus <span>&rarr;</span></span>
+        </div>
+      </a>
+      <a class="ag-pick" href="/courses/python-programming-masterclass-zero-to-advanced-college">
+        <div class="ag-pick-shot"><img src="/images/python-college.webp" alt="Python Zero to Advanced course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">TUTOR / 02</p>
+          <h3>Python Zero to Advanced</h3>
+          <p>The adult and college version: same tutor method, faster ramp, and the assisted-versus-unassisted gap measured from week one.</p>
+          <span class="ag-pick-go">Open the syllabus <span>&rarr;</span></span>
+        </div>
+      </a>
+      <a class="ag-pick" href="/courses/python-ai-kids-masterclass">
+        <div class="ag-pick-shot"><img src="/images/python-kids.webp" alt="Python and AI for Kids course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">TUTOR / 03</p>
+          <h3>Python and AI for Kids</h3>
+          <p>For under-13s the teacher is the AI's hands: children direct, watch, and read, building the tutor habits before the account age arrives.</p>
+          <span class="ag-pick-go">Open the syllabus <span>&rarr;</span></span>
+        </div>
+      </a>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section">
+  <div class="ag-wrap">
+    <div class="ag-capsule">
+      <p class="ag-capsule-q">The short answer</p>
+      <p>Learning to code with AI works when the model is used as a tutor and fails when it is used as a ghostwriter, and the difference is entirely in the prompts. Ask for the fix and you get working code plus nothing; ask for an explanation, a hint ladder, or three questions that lead you to the fix, and the same model becomes a patient teacher. The reliable method pairs assisted building with one unassisted exercise a week, so dependence never takes root. Modern Age Coders teaches Python and web development this way, live, worldwide, ages 6 to 67, at USD 100 a month for group batches and USD 150 one to one, with the first class free and no card asked.</p>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="split">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">The fork in every session</p>
+      <h2>Same student, same bug, same model. Two different futures.</h2>
+      <p class="ag-lede">
+        A beginner's Python function is crashing on an empty list. Watch the next ninety seconds
+        go two ways, and notice that the model performs perfectly in both.
+      </p>
+    </div>
+
+    <div class="ag-code-pair">
+<figure class="ag-code">
+  <figcaption class="ag-code-head"><b>GHOSTWRITER MODE</b><span>learning leaves the room</span></figcaption>
+  <pre>You:  fix this
+      [pastes function and error]
+
+AI:   Here is the corrected version:
+      [12 clean lines, guard clause
+       added, works first try]
+
+You:  thanks
+
+<i># Time saved: 9 minutes.</i>
+<i># Things learned: that pasting works.</i>
+<i># Next empty-list crash: identical.</i></pre>
+  <p class="ag-code-note">Nothing here is wrong, exactly. It is the correct move for a professional on a deadline, and the learning-fatal move for a person who is here to become one.</p>
+</figure>
+<figure class="ag-code">
+  <figcaption class="ag-code-head"><b>TUTOR MODE</b><span>learning stays</span></figcaption>
+  <pre>You:  Do not fix this or show code.
+      Explain what this error means,
+      then ask me one question that
+      points me at the cause.
+
+AI:   The error says you indexed into
+      a list with nothing in it. My
+      question: what does your function
+      assume is true on line 3?
+
+You:  ...that the list has items. Oh.
+      What if it's empty? I should
+      check first. Let me try.
+
+<b># Time spent: 14 minutes.</b>
+<b># Next empty-list crash: caught by you,</b>
+<b># before running it.</b></pre>
+  <p class="ag-code-note">Five extra minutes bought a permanent upgrade. The pattern that did it is one sentence long and works on every model you will ever use.</p>
+</figure>
+</div>
+
+    <p class="ag-mt-40">
+      Both transcripts are the model doing exactly what it was asked. That is the whole insight:
+      there is no learning mode toggle to find in the settings, because the toggle is your first
+      sentence. People who complain that AI made them worse at coding almost always ran
+      ghostwriter mode for six months; people who got dramatically better ran something like the
+      right-hand side. Same tool. Different sentence.
+    </p>
+    <p>
+      What vibe coding is as a building method is covered on
+      <a class="ag-inline-link" href="/what-is-vibe-coding">its own page</a>, and why struggle is
+      load-bearing in any learning at all is argued properly on
+      <a class="ag-inline-link" href="/how-to-actually-learn-to-code">how to actually learn to code</a>.
+      This page is the operations manual between them: the exact sentences that keep the struggle
+      in and the frustration out.
+    </p>
+  </div>
+</section>
+
+<section class="ag-section ag-section--deep" id="patterns">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">The patterns</p>
+      <h2>Six prompts that force the model to teach</h2>
+      <p class="ag-lede">
+        Copy these as written, then adapt freely. Each exists to block the model's default urge
+        to hand you a finished answer.
+      </p>
+    </div>
+    <ol class="ag-protocol">
+        <li class="ag-step" data-step="1">
+          <h4>Explain first: "Tell me what this error means. Do not show me any code."</h4>
+          <p>The foundation pattern. Error messages are a language, and this is how you learn to read it instead of learning to forward it. After a few weeks the explanation arrives in your head before the model answers, which is the skill installing itself.</p>
+        </li>
+        <li class="ag-step" data-step="2">
+          <h4>The hint ladder: "Give me a hint. If I ask again, a stronger one. Never the answer."</h4>
+          <p>The closest a model gets to real tutoring. Three rungs is typical: a nudge at the region, a pointer at the line, a question about the assumption. You stay the one who actually finds it, which is the entire point of finding things.</p>
+        </li>
+        <li class="ag-step" data-step="3">
+          <h4>Socratic reverse: "Ask me three questions that would lead me to the bug."</h4>
+          <p>Turns the model from oracle into examiner. Questions like "what do you believe is in the list at that moment" teach the single most valuable habit in programming: checking beliefs against reality instead of stacking guesses.</p>
+        </li>
+        <li class="ag-step" data-step="4">
+          <h4>Make it worse: "Write me a version of this with two subtle bugs. I will find them."</h4>
+          <p>The model as sparring partner. Hunting planted bugs in code you almost understand is the most efficient reading practice we know, and it converts the model's endless patience into endless custom exercises at exactly your level.</p>
+        </li>
+        <li class="ag-step" data-step="5">
+          <h4>The teacher's red pen: "Review my working code like a strict teacher. What is fragile?"</h4>
+          <p>For the dangerous moment after something works, when you are tempted to move on. The model will name the unhandled empty input and the variable named x, and you will fix them while the context is warm, which is when review actually lands.</p>
+        </li>
+        <li class="ag-step" data-step="6">
+          <h4>Why did that work: "Explain why your fix worked and mine did not, line by line."</h4>
+          <p>The debrief pattern, for when you did accept a fix. It converts a transaction back into a lesson after the fact, and it catches the frequent case where the fix works for a different reason than you assumed, which is a bug you have not met yet.</p>
+        </li>
+      </ol>
+  </div>
+</section>
+
+<section class="ag-section">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">The honest map</p>
+      <h2>Where AI helps learning, where it quietly hurts</h2>
+    </div>
+
+    <div class="ag-table-wrap">
+        <table class="ag-table">
+          <thead><tr><th scope="col">Learning task</th><th scope="col">Used well</th><th scope="col">The quiet damage</th></tr></thead>
+          <tbody>
+            <tr><td>Understanding a concept</td><td class="ag-num">Explanations at your level, on demand, reworded until they land</td><td class="ag-num">Nodding along is not knowing; test yourself after</td></tr>
+            <tr><td>Debugging</td><td class="ag-num">Hint ladders and error translation</td><td class="ag-num">Pasting errors whole outsources the exact skill being built</td></tr>
+            <tr><td>Practice problems</td><td class="ag-num">Endless custom exercises at your level</td><td class="ag-num">Solutions one click away make abandoning attempts free</td></tr>
+            <tr><td>Project building</td><td class="ag-num">Speed on the parts you already understand</td><td class="ag-num">Speed on the parts you do not, which look identical that day</td></tr>
+            <tr><td>Code review</td><td class="ag-num">A strict second reader who never tires</td><td class="ag-num">Accepting rewrites wholesale, unread, as "applying feedback"</td></tr>
+          </tbody>
+        </table>
+      </div>
+
+    <p class="ag-mt-40">
+      The right-hand column shares one structure: in every row, the damage comes from the model
+      doing a thing while you believe you are doing it. That is also why the fix is structural
+      rather than moral. One unassisted exercise a week, every week, measures the gap between
+      your assisted and unassisted ability, and the gap does not lie. In our classes the teacher
+      watches that gap per student and adjusts the balance; alone, you can at least watch it
+      yourself, and the watching changes behaviour on its own.
+    </p>
+    <p>
+      The eight-week shape we use for Python on this method: weeks one and two, variables, lists
+      and loops with explain-first as the only permitted pattern; weeks three and four, functions
+      and files with the hint ladder unlocked; weeks five and six, a small real project with all
+      six patterns free and one no-AI session; weeks seven and eight, a second project where the
+      student picks the pattern per situation, which is the actual goal, because pattern choice
+      is judgement and judgement is the graduation.
+    </p>
+  </div>
+</section>
+
+<section class="ag-section" id="courses">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">The catalogue</p>
+      <h2>Learn a real stack on the tutor method</h2>
+      <p class="ag-lede">The method needs a subject. These are the tracks where it is already wired into the weekly plans, by age and goal.</p>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">I</span>
+        <h3>Tutor-method tracks</h3>
+        <span class="ag-band-sub">Chosen for this page rather than listed in full</span>
+      </div>
+      <div class="ag-grid-4">
+        <article class="ag-course">
+          <p class="ag-course-code">TUTOR / 01</p>
+          <h4>Python for Teens</h4>
+          <p>The eight-week arc from this page, then onward into projects, data and the first real applications.</p>
+          <a class="ag-course-link" href="/courses/python-complete-masterclass-teens">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">TUTOR / 02</p>
+          <h4>Python Zero to Advanced</h4>
+          <p>College and adult pace: the same discipline with the gap between assisted and unassisted ability tracked openly.</p>
+          <a class="ag-course-link" href="/courses/python-programming-masterclass-zero-to-advanced-college">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">TUTOR / 03</p>
+          <h4>Vibe Coding for Teens</h4>
+          <p>The building-first sibling: projects led by AI direction, with the tutor patterns as the safety rail underneath.</p>
+          <a class="ag-course-link" href="/courses/vibe-coding-for-teens-python-web-ai-projects-course">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">TUTOR / 04</p>
+          <h4>AI Tools Mastery</h4>
+          <p>For college students and professionals: the wider toolkit beyond the chat window, used with the same deliberateness.</p>
+          <a class="ag-course-link" href="/courses/ai-tools-mastery-complete-college">Open the syllabus</a>
+        </article>
+      </div>
+    </div>
+    <p class="ag-mt-40">Learners on this method also take <a class="ag-inline-link" href="/courses/python-ai-kids-masterclass">Python and AI for Kids</a> &middot; <a class="ag-inline-link" href="/courses/html-css-course-for-beginners-build-real-websites">HTML and CSS for Beginners</a> &middot; <a class="ag-inline-link" href="/courses/javascript-course-for-teens-beginners-interactive-web">JavaScript for Teens</a> &middot; <a class="ag-inline-link" href="/courses/data-science-course-for-teens-python-data">Data Science for Teens</a> &middot; <a class="ag-inline-link" href="/courses/ai-ml-masterclass-teens">AI and ML for Teens</a> &middot; <a class="ag-inline-link" href="/courses/git-github-version-control-course-for-teens">Git and GitHub for Teens</a> &middot; <a class="ag-inline-link" href="/courses/codex-and-claude-code-ai-coding-agents-course-for-teens">Codex and Claude Code for Teens</a>. The full picture is on the <a class="ag-inline-link" href="/courses">catalogue</a>.</p>
+  </div>
+</section>
+
+<section class="ag-section" id="fees">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Fees</p>
+      <h2>What it costs, anywhere in the world</h2>
+      <p class="ag-lede">One pair of US dollar figures for every country we teach outside India, charged monthly, with the exit door permanently unlocked. The patterns on this page are free either way; the classes are where they get applied to you specifically.</p>
+    </div>
+    <div class="ag-grid-3">
+      <div class="ag-price">
+        <p class="ag-price-name">Free first class</p>
+        <p class="ag-price-amt">USD 0</p>
+        <p class="ag-price-alt">no card required</p>
+        <ul><li>A real class, not a sales call</li><li>Doubles as a placement check</li><li>You watch it, then decide</li></ul>
+        <a href="#start" class="ag-btn ag-btn--ghost">Book it</a>
+      </div>
+      <div class="ag-price ag-price--feature">
+        <p class="ag-price-name">Group batch</p>
+        <p class="ag-price-amt">USD 100</p>
+        <p class="ag-price-alt">a month, billed in US dollars</p>
+        <ul><li>Five to eight students, same teacher every week</li><li>Live video, never a recording</li><li>Build work between sessions, reviewed by the teacher</li><li>Certificate on completion</li></ul>
+        <a href="#start" class="ag-btn">Start here</a>
+      </div>
+      <div class="ag-price">
+        <p class="ag-price-name">One to one</p>
+        <p class="ag-price-amt">USD 150</p>
+        <p class="ag-price-alt">a month, billed in US dollars</p>
+        <ul><li>Private teaching, at the pace the goal needs</li><li>Scheduling built around your family</li><li>Syllabus shaped to one objective</li></ul>
+        <a href="#start" class="ag-btn ag-btn--ghost">Enquire</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">What learners and families say</p>
+      <h2>Rated 4.9 across 547 Google reviews</h2>
+      <p class="ag-lede">Real reviews from real families. We neither write nor commission them.</p>
+    </div>
+    <div class="ag-grid-3">
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."</p>
+        <p class="ag-review-name">Ria Mukherjee</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."</p>
+        <p class="ag-review-name">Samriddha Mondal</p>
+        <p class="ag-review-role">Student</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."</p>
+        <p class="ag-review-name">Vansh Agarwal</p>
+        <p class="ag-review-role">Student</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."</p>
+        <p class="ag-review-name">Sonam Oswal</p>
+        <p class="ag-review-role">Parent of Dhairya</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."</p>
+        <p class="ag-review-name">Sonu Goyal</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."</p>
+        <p class="ag-review-name">Ritu Kedia</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">The rest of the series</p>
+      <h2>Fourteen more pages on vibe coding and learning AI</h2>
+      <p class="ag-lede">This page is the tutor method. The building method, the audiences and the deciding questions each have their own page.</p>
+    </div>
+    <div class="ag-markets">
+      <a class="ag-market" href="/what-is-vibe-coding"><span class="ag-market-n">What is vibe coding</span><span class="ag-market-m">/what-is-vibe-coding</span></a>
+      <a class="ag-market" href="/vibe-coding-for-teens"><span class="ag-market-n">Vibe coding for teens</span><span class="ag-market-m">/vibe-coding-for-teens</span></a>
+      <a class="ag-market" href="/vibe-coding-for-beginners"><span class="ag-market-n">For complete beginners</span><span class="ag-market-m">/vibe-coding-for-beginners</span></a>
+      <a class="ag-market" href="/parents-guide-to-vibe-coding"><span class="ag-market-n">The parents guide</span><span class="ag-market-m">/parents-guide-to-vibe-coding</span></a>
+      <a class="ag-market" href="/vibe-coding-projects-for-students"><span class="ag-market-n">Projects that impress</span><span class="ag-market-m">/vibe-coding-projects-for-students</span></a>
+      <a class="ag-market" href="/ai-coding-course"><span class="ag-market-n">The AI coding course</span><span class="ag-market-m">/ai-coding-course</span></a>
+      <a class="ag-market" href="/build-apps-with-ai"><span class="ag-market-n">Build apps with AI</span><span class="ag-market-m">/build-apps-with-ai</span></a>
+      <a class="ag-market" href="/ai-agents-for-teens"><span class="ag-market-n">AI agents for teens</span><span class="ag-market-m">/ai-agents-for-teens</span></a>
+      <a class="ag-market" href="/ai-literacy-for-students"><span class="ag-market-n">AI literacy</span><span class="ag-market-m">/ai-literacy-for-students</span></a>
+      <a class="ag-market" href="/should-my-child-learn-ai"><span class="ag-market-n">Should my child learn AI</span><span class="ag-market-m">/should-my-child-learn-ai</span></a>
+      <a class="ag-market" href="/best-ai-courses-for-teens-2026"><span class="ag-market-n">Best AI courses for teens</span><span class="ag-market-m">/best-ai-courses-for-teens-2026</span></a>
+      <a class="ag-market" href="/ai-projects-for-kids"><span class="ag-market-n">AI projects for kids</span><span class="ag-market-m">/ai-projects-for-kids</span></a>
+      <a class="ag-market" href="/ai-classes-for-adults"><span class="ag-market-n">AI classes for adults</span><span class="ag-market-m">/ai-classes-for-adults</span></a>
+      <a class="ag-market" href="/one-on-one-ai-classes"><span class="ag-market-n">One to one AI classes</span><span class="ag-market-m">/one-on-one-ai-classes</span></a>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--deep">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Questions about learning with AI</p>
+      <h2>What learners and parents want to know</h2>
+    </div>
+    <div class="ag-faq">
+      <div class="ag-faq-item">
+        <h3>Can AI really replace a coding teacher?</h3>
+        <p>It replaces parts of one brilliantly: it is available at 2 a.m., infinitely patient, and never makes you feel slow. What it does not do is withhold. A good teacher watches you struggle for exactly the productive amount of time, notices what you avoid, and declines to answer the question whose answer you almost have. Models are built to satisfy, and satisfying a learner on demand is often the opposite of teaching them. Our classes use the model for patience and the teacher for judgement.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Will I become dependent on the AI?</h3>
+        <p>Only if you practise exclusively with it switched on, which is why we do not. Dependence is not a character flaw, it is a predictable result of never experiencing the blank file alone. The schedule that prevents it is boring and works: assisted building most of the week, one unassisted exercise every week, and the difference between your assisted and unassisted ability tracked honestly. When the gap stops shrinking, the balance needs adjusting, and a teacher who sees both sides adjusts it.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Which AI is best for learning to code?</h3>
+        <p>The differences between the big models matter far less for learning than how you use whichever one you have. Every mainstream assistant can run all six tutor patterns on this page. The real constraint is age: under 13 none of the mainstream tools permit an account at all, and from 13 to 17 parental consent is required, so the best AI for a given learner is first of all one they are allowed to use. Our tools age guide keeps the current list.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Is learning with AI faster than the traditional way?</h3>
+        <p>Faster to first output by an enormous margin, and roughly equal to genuine competence, because competence still requires the practice hours. What AI actually changes is the failure rate: the old path lost most beginners at the setup stage or the first cryptic error, and AI dissolves both walls. More people now survive long enough to do the practising. The practising itself has no shortcut, and anyone selling one is selling.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Do employers care whether you learned with AI?</h3>
+        <p>Employers care whether you can do the work, and increasingly the work itself is AI-assisted, so fluency with the tools is an asset rather than a confession. What they test for is whether anything is underneath: can you read code you did not write, can you debug when the assistant loops, can you explain your own project cold. Learn with AI the tutor way and you pass those; learn the ghostwriter way and you do not.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Do I need a paid model subscription to learn?</h3>
+        <p>No. Free tiers cover the entire learning path on this page, and hitting a rate limit is even quietly useful, since the minutes you spend waiting are minutes you spend reading your own code. Paid tiers buy convenience and longer context, which start to matter on larger projects, not in the first months. Advanced agent-tool courses are the exception and their pages say so upfront.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>How do your classes actually use AI in the room?</h3>
+        <p>Deliberately and asymmetrically. Students build with the model live, but the teacher sets which of the six patterns is allowed for each exercise: hint-ladder days, explain-first days, and no-AI days, in a sequence designed around what each student needs next. The model is the instrument; the lesson plan is which way it may be played that day. This is the part self-taught learners have to guess at, and mostly guess wrong.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>From what age does learning with AI make sense?</h3>
+        <p>The method on this page assumes the learner can hold an account, so 13 with parental consent by the providers' own terms. Younger children learn to code brilliantly without personal AI accounts, through Scratch and teacher-operated demonstrations, and arrive at 13 already fluent in the thinking. There is no hurry: nothing about starting the account-based version at 13 rather than 9 costs a child anything real.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>What do the classes cost?</h3>
+        <p>USD 100 a month for a live group batch and USD 150 a month for one to one, unchanged across every country we serve outside India, billed monthly with no enrolment fee and no exit conditions. The first class is free without a card, and it demonstrates the tutor method on the student's own level rather than presenting slides about it.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>How do I start from this page?</h3>
+        <p>Two honest options. Self-directed: take the six patterns above into your next session with any permitted assistant, starting with explain-first, and you will feel the difference in a week. Taught: send the form, and the free class runs the same patterns live on a small project with a teacher choosing the right pattern at the right moment, which is the part that is hard to do for yourself.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="start">
+  <div class="ag-wrap">
+    <div class="ag-hero-grid">
+      <div>
+        <div class="ag-section-head">
+          <p class="ag-eyebrow">Start</p>
+          <h2>Watch the tutor method run on your own level</h2>
+        </div>
+        <p>The free class takes whatever the learner currently knows, from absolutely nothing upward, and runs one real exercise through the patterns on this page: an explain-first moment, a hint ladder, and one stretch where the teacher chooses silence on purpose. It is the fastest way to feel the difference between being answered and being taught, and the feeling is the honest basis for deciding anything.</p>
+        <p>Reading around first? The <a class="ag-inline-link" href="/vibe-coding-for-beginners">beginner page</a> scripts your first hour, <a class="ag-inline-link" href="/how-we-teach">how we teach</a> covers the class mechanics, and the <a class="ag-inline-link" href="/ai-tools-age-guide">tools age guide</a> settles which assistants a learner may hold at all.</p>
+        <p style="margin-top:22px">
+          <a class="ag-inline-link" href="https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders.%20I%20want%20to%20learn%20coding%20using%20AI%20the%20right%20way." target="_blank" rel="noopener">WhatsApp us</a> &middot;
+          <a class="ag-inline-link" href="tel:+919123366161">+91 91233 66161</a> &middot;
+          <a class="ag-inline-link" href="mailto:contact@modernagecoders.com">contact@modernagecoders.com</a>
+        </p>
+        <p style="font-size:.92rem;color:var(--ag-muted);margin-top:14px">
+          Live video teaching from India to every time zone; the number rings in India. Sending
+          this form starts one phone conversation and obligates you to precisely nothing beyond
+          answering it.
+        </p>
+      </div>
+      <div class="ag-form-panel">
+        <form onsubmit="submitLearnWithAiLead(event)" novalidate>
+          <div class="ag-field">
+            <label for="ag-lca-name">Your name</label>
+            <input id="ag-lca-name" type="text" name="name" placeholder="Parent, student or your own name" required>
+          </div>
+          <div class="ag-field">
+            <label for="ag-lca-phone">Phone or WhatsApp, including your country code</label>
+            <input id="ag-lca-phone" type="tel" name="phone" placeholder="+49 151 12345678" required>
+          </div>
+          <div class="ag-field">
+            <label for="ag-lca-age">Who is learning</label>
+            <select id="ag-lca-age" name="age">
+              <option value="13-18">A teenager, 13 to 18</option>
+              <option value="6-12">A child, 6 to 12</option>
+              <option value="college">A university student</option>
+              <option value="adult">Me, working professional</option>
+            </select>
+          </div>
+          <button type="submit" class="ag-btn" style="width:100%">Request the free class</button>
+          <p class="ag-form-note">No card. No obligation. We call, we do not spam.</p>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="ag-footer">
+  <div class="ag-wrap">
+    <div class="ag-grid-4">
+      <div>
+        <h4>Modern Age Coders</h4>
+        <p style="font-size:.9rem;opacity:.82">
+          Live online coding, AI and mathematics for ages 6 to 67. Teaching since 2020, more than
+          10,000 students across 25 countries and more.
+        </p>
+      </div>
+      <div>
+        <h4>Vibe coding series</h4>
+        <ul>
+          <li><a href="/what-is-vibe-coding">What is vibe coding</a></li>
+          <li><a href="/vibe-coding-for-beginners">For complete beginners</a></li>
+          <li><a href="/vibe-coding-projects-for-students">Student projects</a></li>
+          <li><a href="/vibe-coding-classes">Vibe coding classes</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Go deeper</h4>
+        <ul>
+          <li><a href="/how-to-actually-learn-to-code">How learning works</a></li>
+          <li><a href="/how-to-debug-code">How to debug code</a></li>
+          <li><a href="/how-llms-actually-work">How LLMs actually work</a></li>
+          <li><a href="/agentic-coding-classes">Agentic coding</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Start</h4>
+        <ul>
+          <li><a href="/courses">The full catalogue</a></li>
+          <li><a href="/pricing">Fees</a></li>
+          <li><a href="/how-we-teach">How we teach</a></li>
+          <li><a href="/student-labs">What students build</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="ag-footer-bottom">
+      <span>&copy; 2026 Modern Age Coders. Live online, taught from India, worldwide.</span>
+      <span>Ages 6 to 67 &middot; 25 countries and more</span>
+    </div>
+  </div>
+</footer>
+
+<script>
+window.submitLearnWithAiLead = function (e) {
+  e.preventDefault();
+  var form = e.target;
+  var name = (form.querySelector('input[name="name"]') || {}).value || '';
+  var phoneRaw = (form.querySelector('input[type="tel"]') || {}).value || '';
+  var age = (form.querySelector('select[name="age"]') || {}).value || '';
+  var d = phoneRaw.replace(/\D/g, '');
+  if (d.length < 7) { alert('Please enter a valid phone number including your country code.'); return; }
+  var btn = form.querySelector('button[type="submit"]');
+  var oldText = btn.textContent;
+  btn.disabled = true; btn.textContent = 'Sending...';
+  var API_URL = (location.hostname === 'localhost' || location.hostname === '127.0.0.1')
+    ? 'http://localhost:5000' : 'https://backend-modernagecoders.vercel.app';
+  fetch(API_URL + '/api/callback/request', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({
+      phone: d, countryCode: '', countryIso: '', countryName: 'International',
+      source: 'learn-to-code-with-ai-inline', meta: { name: name, age: age, raw: phoneRaw, topic: 'learn-with-ai' }
+    })
+  }).then(function (r) { return r.json(); }).then(function (data) {
+    if (data && data.success) {
+      if (window.gtag) gtag('event', 'generate_lead', { page_topic: 'learn-with-ai' });
+      form.innerHTML = '<p class="ag-form-ok">Thank you' + (name ? ', ' + name.split(' ')[0] : '') +
+        '. A mentor will call you to arrange the free class.</p>';
+    } else {
+      alert((data && data.message) || 'Something went wrong. Please try again.');
+      btn.disabled = false; btn.textContent = oldText;
+    }
+  }).catch(function () {
+    alert('Network error. Please try again.');
+    btn.disabled = false; btn.textContent = oldText;
+  });
+};
+</script>
+<script>
+  window.addEventListener('load', function () {
+    var s = document.createElement('script');
+    s.src = 'https://www.googletagmanager.com/gtag/js?id=G-N8BM164YJP';
+    s.async = true;
+    document.head.appendChild(s);
+  });
+</script>
+</body>
+</html>
