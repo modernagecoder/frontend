@@ -1954,4 +1954,8 @@
 # Global Build-AI cluster (ai-global.css). Inserted before the /* catch-all.
 /ai-literacy-for-students /src/pages/ai-literacy-for-students.html 200
 /ai-literacy-for-students.md /src/pages/ai-literacy-for-students.md 200
+
+# Global Build-AI cluster (ai-global.css). Inserted before the /* catch-all.
+/should-my-child-learn-ai /src/pages/should-my-child-learn-ai.html 200
+/should-my-child-learn-ai.md /src/pages/should-my-child-learn-ai.md 200
 /* /src/pages/404.html 404

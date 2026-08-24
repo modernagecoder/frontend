@@ -325,6 +325,7 @@ Ages 6 to 67, small live batches, priced from USD 100 a month.
 - Build Apps with AI: https://learn.modernagecoders.com/build-apps-with-ai
 - AI Agents for Teens: https://learn.modernagecoders.com/ai-agents-for-teens
 - AI Literacy for Students: https://learn.modernagecoders.com/ai-literacy-for-students
+- Should My Child Learn AI: https://learn.modernagecoders.com/should-my-child-learn-ai
 ## Coding Classes by State, Province & Market
 
 Live online coding and mathematics for a specific state, province or market,
