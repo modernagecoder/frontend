@@ -1958,4 +1958,8 @@
 # Global Build-AI cluster (ai-global.css). Inserted before the /* catch-all.
 /should-my-child-learn-ai /src/pages/should-my-child-learn-ai.html 200
 /should-my-child-learn-ai.md /src/pages/should-my-child-learn-ai.md 200
+
+# Global Build-AI cluster (ai-global.css). Inserted before the /* catch-all.
+/best-ai-courses-for-teens-2026 /src/pages/best-ai-courses-for-teens-2026.html 200
+/best-ai-courses-for-teens-2026.md /src/pages/best-ai-courses-for-teens-2026.md 200
 /* /src/pages/404.html 404
