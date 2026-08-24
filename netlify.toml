@@ -8041,6 +8041,18 @@
   to = "/src/pages/best-ai-courses-for-teens-2026.md"
   status = 200
 
+# Global Build-AI cluster (ai-global.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/ai-projects-for-kids"
+  to = "/src/pages/ai-projects-for-kids.html"
+  status = 200
+
+[[redirects]]
+  from = "/ai-projects-for-kids.md"
+  to = "/src/pages/ai-projects-for-kids.md"
+  status = 200
+
 [[redirects]]
   from = "/*"
   to = "/src/pages/404.html"
