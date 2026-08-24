@@ -1950,4 +1950,8 @@
 # Global Build-AI cluster (ai-global.css). Inserted before the /* catch-all.
 /ai-agents-for-teens /src/pages/ai-agents-for-teens.html 200
 /ai-agents-for-teens.md /src/pages/ai-agents-for-teens.md 200
+
+# Global Build-AI cluster (ai-global.css). Inserted before the /* catch-all.
+/ai-literacy-for-students /src/pages/ai-literacy-for-students.html 200
+/ai-literacy-for-students.md /src/pages/ai-literacy-for-students.md 200
 /* /src/pages/404.html 404

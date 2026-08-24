@@ -8005,6 +8005,18 @@
   to = "/src/pages/ai-agents-for-teens.md"
   status = 200
 
+# Global Build-AI cluster (ai-global.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/ai-literacy-for-students"
+  to = "/src/pages/ai-literacy-for-students.html"
+  status = 200
+
+[[redirects]]
+  from = "/ai-literacy-for-students.md"
+  to = "/src/pages/ai-literacy-for-students.md"
+  status = 200
+
 [[redirects]]
   from = "/*"
   to = "/src/pages/404.html"

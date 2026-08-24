@@ -1,0 +1,709 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>AI Literacy for Students | The New Third Skill</title>
+  <meta name="description" content="AI literacy is becoming a school subject worldwide. What it includes at each age, the five habits of an AI-literate student, and live courses that teach them.">
+  <meta name="author" content="Modern Age Coders">
+  <link rel="canonical" href="https://learn.modernagecoders.com/ai-literacy-for-students">
+  <link rel="alternate" type="text/markdown" href="/src/pages/ai-literacy-for-students.md" title="Markdown version for AI agents">
+
+  <link rel="icon" href="/favicon.ico" type="image/x-icon">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
+  <meta name="theme-color" content="#3D6335">
+
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="https://learn.modernagecoders.com/ai-literacy-for-students">
+  <meta property="og:title" content="AI Literacy for Students | The New Third Skill">
+  <meta property="og:description" content="Education systems are writing AI into the timetable. What AI literacy actually means beyond using a chatbot, age by age, and how the checking habit gets taught.">
+  <meta property="og:image" content="https://learn.modernagecoders.com/images/og-modern-age-coders.png">
+  <meta property="og:site_name" content="Modern Age Coders">
+  <meta property="og:locale" content="en">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="AI Literacy for Students">
+  <meta name="twitter:description" content="What AI literacy actually means beyond using a chatbot, age by age, and the five habits that define it.">
+  <meta name="twitter:image" content="https://learn.modernagecoders.com/images/og-modern-age-coders.png">
+
+  <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/ai-global.css?v=20260824">
+
+  <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-N8BM164YJP');gtag('config','AW-16910316353');</script>
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "EducationalOrganization",
+        "@id": "https://learn.modernagecoders.com/#org",
+        "name": "Modern Age Coders",
+        "url": "https://learn.modernagecoders.com/",
+        "email": "contact@modernagecoders.com",
+        "telephone": "+91-91233-66161",
+        "foundingDate": "2020",
+        "areaServed": { "@type": "Place", "name": "Worldwide" },
+        "knowsAbout": ["AI Literacy", "Critical Thinking", "Media Literacy", "AI in Education", "Machine Learning Concepts", "Responsible AI Use"]
+      },
+      {
+        "@type": "TechArticle",
+        "@id": "https://learn.modernagecoders.com/ai-literacy-for-students#article",
+        "headline": "AI Literacy for Students: The New Third Skill",
+        "description": "Education systems are writing AI into the timetable. What AI literacy actually means beyond using a chatbot, age by age, and how the checking habit gets taught.",
+        "inLanguage": "en",
+        "isAccessibleForFree": true,
+        "proficiencyLevel": "Beginner",
+        "dependencies": "No prior experience required at any age",
+        "author": { "@id": "https://learn.modernagecoders.com/#org" },
+        "publisher": { "@id": "https://learn.modernagecoders.com/#org" },
+        "mainEntityOfPage": "https://learn.modernagecoders.com/ai-literacy-for-students"
+      },
+      {
+        "@type": "Course",
+        "name": "AI Literacy: Understand, Question, Create",
+        "description": "Live online AI literacy classes for ages 6 to 67: what AI systems are, why they make confident mistakes, how to verify their output, when not to use them, and how to create with them responsibly, taught at each age with age-appropriate tools.",
+        "url": "https://learn.modernagecoders.com/ai-literacy-for-students",
+        "inLanguage": "en",
+        "provider": { "@id": "https://learn.modernagecoders.com/#org" },
+        "isAccessibleForFree": false,
+        "hasCourseInstance": {
+          "@type": "CourseInstance",
+          "courseMode": "online",
+          "courseWorkload": "PT3H",
+          "location": { "@type": "VirtualLocation", "url": "https://learn.modernagecoders.com/ai-literacy-for-students" }
+        }
+      },
+      {
+        "@type": "Service",
+        "serviceType": "Online AI literacy classes for students",
+        "provider": { "@id": "https://learn.modernagecoders.com/#org" },
+        "areaServed": { "@type": "Place", "name": "Worldwide" },
+        "audience": { "@type": "EducationalAudience", "educationalRole": "student" }
+      },
+      {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://learn.modernagecoders.com/" },
+          { "@type": "ListItem", "position": 2, "name": "What is vibe coding", "item": "https://learn.modernagecoders.com/what-is-vibe-coding" },
+          { "@type": "ListItem", "position": 3, "name": "AI literacy for students", "item": "https://learn.modernagecoders.com/ai-literacy-for-students" }
+        ]
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+          {"@type": "Question", "name": "What does AI literacy actually mean?", "acceptedAnswer": {"@type": "Answer", "text": "Five abilities, none of which is typing into a chatbot: knowing what an AI system is and is not, understanding at a concept level why it produces what it produces, judging its output critically instead of accepting it, using it responsibly with regard to privacy and honesty, and creating with it rather than only consuming. A student can be a heavy AI user and score zero on four of the five, which is exactly the gap this kind of course exists to close."}},
+          {"@type": "Question", "name": "Is AI literacy really becoming a school subject?", "acceptedAnswer": {"@type": "Answer", "text": "In several systems it already is. The UAE has made AI a mandatory school subject across grade levels, and India's CBSE has built AI into its curriculum with a compulsory Class 9 examination arriving in the 2027-28 cycle. Other systems are at the framework-drafting stage. The direction is one way, and families who treat AI literacy as reading-adjacent rather than optional are reading the moment correctly."}},
+          {"@type": "Question", "name": "At what age should AI literacy start?", "acceptedAnswer": {"@type": "Answer", "text": "The questioning habit starts younger than most people expect, around 6 to 8, because young children already meet AI in recommendations, voice assistants and photo filters. What starts that young is not tool use, it is the idea that the computer's answer was made somehow and can be wrong. Tool-based literacy arrives at 13 with the account ages. Starting the concepts early costs nothing and pays compound interest."}},
+          {"@type": "Question", "name": "My child uses ChatGPT daily. Does that make them AI literate?", "acceptedAnswer": {"@type": "Answer", "text": "It makes them AI fluent, which is different and, on its own, slightly dangerous. Heavy use without literacy teaches a child that the machine is usually right, because it usually is, and the whole risk lives in the exceptions. The literate addition is small but decisive: knowing why it errs, checking anything that matters, and being able to say what the machine cannot know. Fluency plus those three is the goal, and the fluency half is usually already done."}},
+          {"@type": "Question", "name": "Does my child need this if they are not aiming at a tech career?", "acceptedAnswer": {"@type": "Answer", "text": "The historian, the doctor, the lawyer and the shop owner of 2035 will all work alongside AI systems, and the ones who can judge machine output will quietly outperform the ones who accept it. That is why we call it the third skill rather than a career track: like reading and arithmetic, its value does not depend on the profession. The coding and model-building tracks are optional extensions; the literacy itself is not really optional any more."}},
+          {"@type": "Question", "name": "How do you teach AI literacy to children under 13 without AI accounts?", "acceptedAnswer": {"@type": "Answer", "text": "Better than with them, honestly. Under-13 classes use teacher-operated demonstrations, unplugged games that model how training works, and tools that need no child account, and the format has an advantage: when the teacher drives, the class can safely explore failures, biased outputs and wrong answers on purpose, which is precisely the material that builds judgement. The child gets the understanding years before the accounts, in the right order."}},
+          {"@type": "Question", "name": "Does this cover deepfakes and misinformation?", "acceptedAnswer": {"@type": "Answer", "text": "Yes, at every age in age-appropriate form, because generated images, voices and video are now part of every student's information diet. The teachable core is a habit rather than a detection trick, since detection tricks age quickly: treat surprising content as unverified by default, check where it came from before what it says, and know that convincing is no longer evidence of real. Students practise on real examples until the reflex sets."}},
+          {"@type": "Question", "name": "Is this just more screen time in disguise?", "acceptedAnswer": {"@type": "Answer", "text": "A fair worry with an unusually clean answer: much of AI literacy is discussion, prediction and reasoning, and several of our best exercises involve no screen at all, like acting out how a model learns from examples using cards. The screen time that remains is analytical rather than consumptive, and parents consistently report it changes how the child talks about what they see online, which is the whole point."}},
+          {"@type": "Question", "name": "What do AI literacy classes cost?", "acceptedAnswer": {"@type": "Answer", "text": "The same as every live course we run: USD 100 a month for a group batch of five to eight students, USD 150 a month one to one, flat across every country we serve outside India, monthly, with no joining fee. The first class is free without a card, and for this track it includes the fooled-then-taught moment described on this page, which tends to settle the decision either way."}},
+          {"@type": "Question", "name": "How do we begin?", "acceptedAnswer": {"@type": "Answer", "text": "Send the form and a mentor arranges the free class for the learner's age band. Expect the student to come out of it with one story they want to tell you, usually about catching the machine being confidently wrong, and expect to be shown rather than pitched. From there the path branches by interest: pure literacy, literacy into coding, or literacy into building models, and there is no wrong branch."}}
+        ]
+      }
+    ]
+  }
+  </script>
+</head>
+
+<body class="ag-root ag-ail">
+
+<nav class="ag-nav">
+  <div class="ag-wrap ag-nav-inner">
+    <a class="ag-nav-brand" href="/">
+      <img src="/images/logo.svg" alt="Modern Age Coders logo" width="30" height="30" fetchpriority="high">
+      <span>Modern Age Coders</span>
+      <span class="ag-brand-tag">The third skill</span>
+    </a>
+    <div class="ag-nav-links">
+      <a href="#meaning">What it is</a>
+      <a href="#moment">The catch moment</a>
+      <a href="#courses">Courses</a>
+      <a href="#fees">Fees</a>
+      <a href="/ai-tools-age-guide">Tool ages</a>
+      <a href="#start" class="ag-btn">Free first class</a>
+    </div>
+  </div>
+</nav>
+
+<header class="ag-hero">
+  <div class="ag-wrap">
+    <nav class="ag-crumbs" aria-label="Breadcrumb">
+      <a href="/">Home</a> <span>/</span> <a href="/what-is-vibe-coding">What is vibe coding</a> <span>/</span> <span>AI literacy for students</span>
+    </nav>
+    <div class="ag-hero-grid">
+      <div>
+        <p class="ag-eyebrow">Ages 6 to 67 &middot; Live online &middot; Worldwide &middot; No accounts needed under 13</p>
+        <h1>Reading. Arithmetic. And now: knowing when the machine is wrong.</h1>
+        <p class="ag-lede">Your child's generation will make almost no important decision without an AI system somewhere in the loop, and school systems have started responding: the UAE has put AI on the mandatory timetable, India's CBSE is bringing a compulsory Class 9 AI examination, and frameworks are being drafted across the map. But AI literacy is not "can use a chatbot", which every teenager acquires unaided in a weekend. It is the harder, teachable half: knowing what these systems are, why they produce confident mistakes, how to check them, and when to put them down. This page defines it properly, age by age, and shows the exact moment where the learning happens.</p>
+        <div class="ag-btn-row">
+          <a href="#meaning" class="ag-btn">See the five abilities</a>
+          <a href="#start" class="ag-btn ag-btn--ghost">Book the free class</a>
+          <a href="https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders.%20I%20want%20to%20ask%20about%20AI%20literacy%20classes%20for%20a%20student." class="ag-btn ag-btn--ghost" target="_blank" rel="noopener" onclick="if(window.gtag)gtag('event','whatsapp_click',{page_topic:'ai-literacy'});">Ask on WhatsApp</a>
+        </div>
+        <p class="ag-hero-note">
+          Live online &middot; ages 6 to 67 &middot; taught from India, worldwide &middot; from USD 100 a month &middot; first class free
+        </p>
+      </div>
+
+      <aside class="ag-spec">
+        <p class="ag-spec-title">At a glance</p>
+        <p class="ag-trust">
+          <span class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</span>
+          4.9 across 547 Google reviews
+        </p>
+        <dl>
+          <dt>AI literacy is</dt><dd>Five abilities, defined below</dd>
+          <dt>It is not</dt><dd>Knowing how to prompt</dd>
+          <dt>Already mandatory in</dt><dd>UAE schools; CBSE exam coming</dd>
+          <dt>Concepts start at</dt><dd>Age 6 to 8, no accounts</dd>
+          <dt>Tool literacy starts at</dt><dd>13, with consent</dd>
+          <dt>The core habit</dt><dd>Check before you trust</dd>
+          <dt>Fees</dt><dd>From USD 100 a month</dd>
+          <dt>First class</dt><dd>Free, no card</dd>
+        </dl>
+      </aside>
+    </div>
+  </div>
+</header>
+
+<section class="ag-section" id="picks">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Start here</p>
+      <h2>The literacy courses, age by age</h2>
+      <p class="ag-lede">Three doors into the same competence, each built around what its age band may hold and handle.</p>
+    </div>
+    <div class="ag-picks">
+      <a class="ag-pick" href="/courses/ai-literacy-for-kids-course">
+        <div class="ag-pick-shot"><img src="/images/ai-literacy-for-kids.webp" alt="AI Literacy for Kids course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">READ / 01</p>
+          <h3>AI Literacy for Kids</h3>
+          <p>Ages 6 to 12: what AI is, where it hides in daily life, and why the confident computer can be wrong, taught with no child accounts anywhere.</p>
+          <span class="ag-pick-go">Open the syllabus <span>&rarr;</span></span>
+        </div>
+      </a>
+      <a class="ag-pick" href="/courses/teens-ai-tools-mastery-course">
+        <div class="ag-pick-shot"><img src="/images/ai-tools-college.webp" alt="AI Tools Mastery for Teens course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">READ / 02</p>
+          <h3>AI Tools Mastery for Teens</h3>
+          <p>Ages 13 plus: the working literacy, real tools used well and checked always, with the verification habits taught as technique rather than lecture.</p>
+          <span class="ag-pick-go">Open the syllabus <span>&rarr;</span></span>
+        </div>
+      </a>
+      <a class="ag-pick" href="/courses/ai-ml-masterclass-teens">
+        <div class="ag-pick-shot"><img src="/images/ai-ml-teens.webp" alt="AI and Machine Learning for Teens course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">READ / 03</p>
+          <h3>AI and ML for Teens</h3>
+          <p>The create rung: literacy's final ability taken seriously, training real models and meeting their failure modes from the builder's side.</p>
+          <span class="ag-pick-go">Open the syllabus <span>&rarr;</span></span>
+        </div>
+      </a>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section">
+  <div class="ag-wrap">
+    <div class="ag-capsule">
+      <p class="ag-capsule-q">The short answer</p>
+      <p>AI literacy is five abilities: knowing what an AI system is, understanding at concept level why it produces what it produces, judging its output critically, using it responsibly, and creating with it. It is not the same as using a chatbot daily, which teaches fluency while quietly training a student to trust the exceptions where the machine is confidently wrong. School systems are moving it onto the timetable, with the UAE already mandating AI as a subject and CBSE bringing a compulsory Class 9 exam. Modern Age Coders teaches AI literacy live at every age from 6, with under-13 classes needing no child accounts at all, at USD 100 a month for groups and USD 150 one to one, first class free.</p>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="meaning">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">The definition</p>
+      <h2>Five abilities, and what each looks like at 8, 13 and 16</h2>
+      <p class="ag-lede">
+        "AI literacy" gets used loosely enough to mean anything, so here is the version we teach
+        to, concretely, per age.
+      </p>
+    </div>
+
+    <div class="ag-table-wrap">
+        <table class="ag-table">
+          <thead><tr><th scope="col">The ability</th><th scope="col">At 8</th><th scope="col">At 13</th><th scope="col">At 16</th></tr></thead>
+          <tbody>
+            <tr><td>Know what AI is</td><td class="ag-num">Spots it in games, filters, voice assistants</td><td class="ag-num">Distinguishes a model from a database</td><td class="ag-num">Explains training versus programming</td></tr>
+            <tr><td>Understand why it errs</td><td class="ag-num">"It learned from examples, so it can learn wrong"</td><td class="ag-num">Knows it predicts, not knows</td><td class="ag-num">Can name where hallucination comes from</td></tr>
+            <tr><td>Judge its output</td><td class="ag-num">Asks "how does it know that?"</td><td class="ag-num">Checks a claim against a second source</td><td class="ag-num">Verifies before using, by reflex</td></tr>
+            <tr><td>Use it responsibly</td><td class="ag-num">Knows some things are private</td><td class="ag-num">Keeps personal data out of prompts, discloses use</td><td class="ag-num">Navigates school and exam AI rules cleanly</td></tr>
+            <tr><td>Create with it</td><td class="ag-num">Trains a toy classifier in class, teacher driving</td><td class="ag-num">Builds projects that use a model</td><td class="ag-num">Trains and evaluates real models</td></tr>
+          </tbody>
+        </table>
+      </div>
+
+    <p class="ag-mt-40">
+      Two structural notes on this table. The columns advance by depth, not by tools: an 8 year
+      old's version of every row is taught with the teacher driving any AI, because no mainstream
+      platform permits accounts under 13, and the concepts do not need the accounts. And the
+      fifth row is what separates literacy from defence: a student who has trained a model, even
+      a toy one, and watched it fail on data it never saw, understands the second row from the
+      inside, permanently. The mechanism itself is explained at depth on
+      <a class="ag-inline-link" href="/how-llms-actually-work">how LLMs actually work</a>, and the
+      full tool-by-tool age audit lives on the
+      <a class="ag-inline-link" href="/ai-tools-age-guide">AI tools age guide</a>.
+    </p>
+  </div>
+</section>
+
+<section class="ag-section" id="moment">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Where the learning happens</p>
+      <h2>Two students meet the same wrong answer</h2>
+      <p class="ag-lede">
+        A model, asked for sources on a history assignment, produces a beautifully formatted
+        reference to a book that does not exist. This happens routinely. Watch it land twice.
+      </p>
+    </div>
+
+    <div class="ag-code-pair">
+<figure class="ag-code">
+  <figcaption class="ag-code-head"><b>WITHOUT THE HABIT</b><span>the answer becomes homework</span></figcaption>
+  <pre>Student: sources on the salt trade?
+
+Model:   1. "Salt Routes of the
+         Sahara" (2011), ch. 4...
+         [plausible, formatted,
+         and the book does not exist]
+
+Student: copies all three into the
+         bibliography. Submits.
+
+Teacher: cannot find source two.
+         Meeting requested.
+
+<i># The student was not lazy. They</i>
+<i># were never told machines invent.</i></pre>
+  <p class="ag-code-note">Nothing warned this student. The output looked exactly like every correct answer the machine had given all year, which is precisely what makes the failure dangerous.</p>
+</figure>
+<figure class="ag-code">
+  <figcaption class="ag-code-head"><b>WITH THE HABIT</b><span>the answer becomes a catch</span></figcaption>
+  <pre>Student: sources on the salt trade?
+
+Model:   [the same three references,
+         one invented]
+
+Student: searches each title before
+         using any. Two check out.
+         One returns... nothing.
+         Nothing anywhere.
+
+Student: "It made one up again."
+         Keeps the two real ones.
+         Tells the class on Thursday.
+
+<b># Same model. Same wrong answer.</b>
+<b># Thirty seconds of checking. No meeting.</b></pre>
+  <p class="ag-code-note">The literate student is not smarter and did not work harder. They carry one habit: surprising or important output gets checked before it gets used. That habit is teachable in weeks.</p>
+</figure>
+</div>
+
+    <p class="ag-mt-40">
+      In class we engineer this moment on purpose: students are given a task where the model
+      will, with high probability, produce something confidently wrong, and the lesson is the
+      catch. Being fooled once, safely, in a room where it costs nothing, inoculates better than
+      a hundred warnings. Parents recognise the effect quickly, because the child starts
+      narrating it at dinner: the machine said a thing, and I checked, and.
+    </p>
+    <p>
+      The same pedagogy runs through the sibling pages of this series: the
+      <a class="ag-inline-link" href="/learn-to-code-with-ai">tutor-not-ghostwriter method</a>
+      applies the checking habit to code, and the
+      <a class="ag-inline-link" href="/parents-guide-to-vibe-coding">parents guide</a> gives the
+      home-side version, including what to ask at dinner to keep the habit visible.
+    </p>
+  </div>
+</section>
+
+<section class="ag-section ag-section--deep">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">The habits</p>
+      <h2>The five habits of an AI-literate student</h2>
+      <p class="ag-lede">
+        The table above is what to know; these are what to do. Habits, because knowledge without
+        reflexes does not survive contact with a deadline.
+      </p>
+    </div>
+    <ol class="ag-protocol">
+        <li class="ag-step" data-step="1">
+          <h4>Check anything that matters before using it</h4>
+          <p>The bibliography rule generalised: output that will be submitted, published, repeated or acted on gets verified against a source that is not the model. Thirty seconds, almost always, and the thirty seconds is where the whole difference lives.</p>
+        </li>
+        <li class="ag-step" data-step="2">
+          <h4>Treat convincing as no evidence of true</h4>
+          <p>Generated text, images, voices and video are now fluent enough that polish carries zero information about accuracy. The literate reflex asks where a thing came from before engaging with what it says, and that ordering is practised until it is automatic.</p>
+        </li>
+        <li class="ag-step" data-step="3">
+          <h4>Keep people's details out of prompts</h4>
+          <p>Names, addresses, faces, anyone's private circumstances: not into the machine, ever, because prompts can be stored and reviewed. Students learn the placeholder habit early and it costs them nothing while protecting everyone around them.</p>
+        </li>
+        <li class="ag-step" data-step="4">
+          <h4>Disclose the AI where honesty expects it</h4>
+          <p>School rules, competition rules and, later, workplace norms all turn on the same simple habit: say what the machine did. Students who practise disclosure young never face the far worse conversation that follows concealment.</p>
+        </li>
+        <li class="ag-step" data-step="5">
+          <h4>Know the tasks where the machine stays off</h4>
+          <p>First drafts of your own thinking, practice that builds a skill being tested, and decisions about people. The literate student can name their own list and defend it, which is the fifth ability quietly examining the other four.</p>
+        </li>
+      </ol>
+  </div>
+</section>
+
+<section class="ag-section" id="courses">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">The catalogue</p>
+      <h2>Literacy first, then whichever branch calls</h2>
+      <p class="ag-lede">Every course below teaches the five habits inside real work rather than as a lecture, and each leads somewhere if the student wants more.</p>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">I</span>
+        <h3>The literacy set</h3>
+        <span class="ag-band-sub">Chosen for this page rather than listed in full</span>
+      </div>
+      <div class="ag-grid-4">
+        <article class="ag-course">
+          <p class="ag-course-code">READ / 01</p>
+          <h4>AI Literacy for Kids</h4>
+          <p>The 6 to 12 foundation: concepts, catches and unplugged games, with the teacher driving every tool.</p>
+          <a class="ag-course-link" href="/courses/ai-literacy-for-kids-course">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">READ / 02</p>
+          <h4>AI Tools Mastery for Teens</h4>
+          <p>Working literacy at 13 plus: the mainstream tools used well, checked always, disclosed honestly.</p>
+          <a class="ag-course-link" href="/courses/teens-ai-tools-mastery-course">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">READ / 03</p>
+          <h4>Computational Thinking and AI, Kids</h4>
+          <p>For families on the CBSE path: the school curriculum's AI strand taught properly, classes 3 to 8.</p>
+          <a class="ag-course-link" href="/courses/cbse-computational-thinking-and-ai-course-for-kids-classes-3-to-8">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">READ / 04</p>
+          <h4>AI and ML for Teens</h4>
+          <p>The create rung: train real models, watch them fail honestly, and understand the machine from the inside.</p>
+          <a class="ag-course-link" href="/courses/ai-ml-masterclass-teens">Open the syllabus</a>
+        </article>
+      </div>
+    </div>
+    <p class="ag-mt-40">Families extending from literacy also take <a class="ag-inline-link" href="/courses/python-ai-kids-masterclass">Python and AI for Kids</a> &middot; <a class="ag-inline-link" href="/courses/vibe-coding-for-kids-beginners-ai-scratch-game-dev">Vibe Coding for Kids</a> &middot; <a class="ag-inline-link" href="/courses/vibe-coding-for-teens-python-web-ai-projects-course">Vibe Coding for Teens</a> &middot; <a class="ag-inline-link" href="/courses/cbse-computational-thinking-and-ai-course-for-teens-classes-9-to-12-code-417-843">Computational Thinking and AI, Teens</a> &middot; <a class="ag-inline-link" href="/courses/orange-data-mining-visual-machine-learning-course-for-teens">Visual Machine Learning with Orange</a> &middot; <a class="ag-inline-link" href="/courses/data-and-ai-analytics-for-non-programmers-course">Data and AI for Non-Programmers</a> &middot; <a class="ag-inline-link" href="/courses/ai-tools-mastery-complete-college">AI Tools Mastery, College</a>. The map continues on the <a class="ag-inline-link" href="/courses">catalogue</a>.</p>
+  </div>
+</section>
+
+<section class="ag-section" id="fees">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Fees</p>
+      <h2>What it costs, anywhere in the world</h2>
+      <p class="ag-lede">Literacy is priced like every track here, flat and monthly, because a skill this basic should not have premium tiers. Stop whenever you like; the habits, once installed, do not unsubscribe.</p>
+    </div>
+    <div class="ag-grid-3">
+      <div class="ag-price">
+        <p class="ag-price-name">Free first class</p>
+        <p class="ag-price-amt">USD 0</p>
+        <p class="ag-price-alt">no card required</p>
+        <ul><li>A real class, not a sales call</li><li>Doubles as a placement check</li><li>You watch it, then decide</li></ul>
+        <a href="#start" class="ag-btn ag-btn--ghost">Book it</a>
+      </div>
+      <div class="ag-price ag-price--feature">
+        <p class="ag-price-name">Group batch</p>
+        <p class="ag-price-amt">USD 100</p>
+        <p class="ag-price-alt">a month, billed in US dollars</p>
+        <ul><li>Five to eight students, same teacher every week</li><li>Live video, never a recording</li><li>Build work between sessions, reviewed by the teacher</li><li>Certificate on completion</li></ul>
+        <a href="#start" class="ag-btn">Start here</a>
+      </div>
+      <div class="ag-price">
+        <p class="ag-price-name">One to one</p>
+        <p class="ag-price-amt">USD 150</p>
+        <p class="ag-price-alt">a month, billed in US dollars</p>
+        <ul><li>Private teaching, at the pace the goal needs</li><li>Scheduling built around your family</li><li>Syllabus shaped to one objective</li></ul>
+        <a href="#start" class="ag-btn ag-btn--ghost">Enquire</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">What learners and families say</p>
+      <h2>Rated 4.9 across 547 Google reviews</h2>
+      <p class="ag-lede">Real reviews from real families. We neither write nor commission them.</p>
+    </div>
+    <div class="ag-grid-3">
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."</p>
+        <p class="ag-review-name">Ria Mukherjee</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."</p>
+        <p class="ag-review-name">Samriddha Mondal</p>
+        <p class="ag-review-role">Student</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."</p>
+        <p class="ag-review-name">Vansh Agarwal</p>
+        <p class="ag-review-role">Student</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."</p>
+        <p class="ag-review-name">Sonam Oswal</p>
+        <p class="ag-review-role">Parent of Dhairya</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."</p>
+        <p class="ag-review-name">Sonu Goyal</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."</p>
+        <p class="ag-review-name">Ritu Kedia</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">The rest of the series</p>
+      <h2>Fourteen more pages on vibe coding and learning AI</h2>
+      <p class="ag-lede">This page is the literacy layer. Building, coding and choosing each keep their own page in the series.</p>
+    </div>
+    <div class="ag-markets">
+      <a class="ag-market" href="/what-is-vibe-coding"><span class="ag-market-n">What is vibe coding</span><span class="ag-market-m">/what-is-vibe-coding</span></a>
+      <a class="ag-market" href="/vibe-coding-for-teens"><span class="ag-market-n">Vibe coding for teens</span><span class="ag-market-m">/vibe-coding-for-teens</span></a>
+      <a class="ag-market" href="/vibe-coding-for-beginners"><span class="ag-market-n">For complete beginners</span><span class="ag-market-m">/vibe-coding-for-beginners</span></a>
+      <a class="ag-market" href="/parents-guide-to-vibe-coding"><span class="ag-market-n">The parents guide</span><span class="ag-market-m">/parents-guide-to-vibe-coding</span></a>
+      <a class="ag-market" href="/vibe-coding-projects-for-students"><span class="ag-market-n">Projects that impress</span><span class="ag-market-m">/vibe-coding-projects-for-students</span></a>
+      <a class="ag-market" href="/learn-to-code-with-ai"><span class="ag-market-n">Learn to code with AI</span><span class="ag-market-m">/learn-to-code-with-ai</span></a>
+      <a class="ag-market" href="/ai-coding-course"><span class="ag-market-n">The AI coding course</span><span class="ag-market-m">/ai-coding-course</span></a>
+      <a class="ag-market" href="/build-apps-with-ai"><span class="ag-market-n">Build apps with AI</span><span class="ag-market-m">/build-apps-with-ai</span></a>
+      <a class="ag-market" href="/ai-agents-for-teens"><span class="ag-market-n">AI agents for teens</span><span class="ag-market-m">/ai-agents-for-teens</span></a>
+      <a class="ag-market" href="/should-my-child-learn-ai"><span class="ag-market-n">Should my child learn AI</span><span class="ag-market-m">/should-my-child-learn-ai</span></a>
+      <a class="ag-market" href="/best-ai-courses-for-teens-2026"><span class="ag-market-n">Best AI courses for teens</span><span class="ag-market-m">/best-ai-courses-for-teens-2026</span></a>
+      <a class="ag-market" href="/ai-projects-for-kids"><span class="ag-market-n">AI projects for kids</span><span class="ag-market-m">/ai-projects-for-kids</span></a>
+      <a class="ag-market" href="/ai-classes-for-adults"><span class="ag-market-n">AI classes for adults</span><span class="ag-market-m">/ai-classes-for-adults</span></a>
+      <a class="ag-market" href="/one-on-one-ai-classes"><span class="ag-market-n">One to one AI classes</span><span class="ag-market-m">/one-on-one-ai-classes</span></a>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--deep">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Questions about AI literacy</p>
+      <h2>What families and schools ask us</h2>
+    </div>
+    <div class="ag-faq">
+      <div class="ag-faq-item">
+        <h3>What does AI literacy actually mean?</h3>
+        <p>Five abilities, none of which is typing into a chatbot: knowing what an AI system is and is not, understanding at a concept level why it produces what it produces, judging its output critically instead of accepting it, using it responsibly with regard to privacy and honesty, and creating with it rather than only consuming. A student can be a heavy AI user and score zero on four of the five, which is exactly the gap this kind of course exists to close.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Is AI literacy really becoming a school subject?</h3>
+        <p>In several systems it already is. The UAE has made AI a mandatory school subject across grade levels, and India's CBSE has built AI into its curriculum with a compulsory Class 9 examination arriving in the 2027-28 cycle. Other systems are at the framework-drafting stage. The direction is one way, and families who treat AI literacy as reading-adjacent rather than optional are reading the moment correctly.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>At what age should AI literacy start?</h3>
+        <p>The questioning habit starts younger than most people expect, around 6 to 8, because young children already meet AI in recommendations, voice assistants and photo filters. What starts that young is not tool use, it is the idea that the computer's answer was made somehow and can be wrong. Tool-based literacy arrives at 13 with the account ages. Starting the concepts early costs nothing and pays compound interest.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>My child uses ChatGPT daily. Does that make them AI literate?</h3>
+        <p>It makes them AI fluent, which is different and, on its own, slightly dangerous. Heavy use without literacy teaches a child that the machine is usually right, because it usually is, and the whole risk lives in the exceptions. The literate addition is small but decisive: knowing why it errs, checking anything that matters, and being able to say what the machine cannot know. Fluency plus those three is the goal, and the fluency half is usually already done.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Does my child need this if they are not aiming at a tech career?</h3>
+        <p>The historian, the doctor, the lawyer and the shop owner of 2035 will all work alongside AI systems, and the ones who can judge machine output will quietly outperform the ones who accept it. That is why we call it the third skill rather than a career track: like reading and arithmetic, its value does not depend on the profession. The coding and model-building tracks are optional extensions; the literacy itself is not really optional any more.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>How do you teach AI literacy to children under 13 without AI accounts?</h3>
+        <p>Better than with them, honestly. Under-13 classes use teacher-operated demonstrations, unplugged games that model how training works, and tools that need no child account, and the format has an advantage: when the teacher drives, the class can safely explore failures, biased outputs and wrong answers on purpose, which is precisely the material that builds judgement. The child gets the understanding years before the accounts, in the right order.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Does this cover deepfakes and misinformation?</h3>
+        <p>Yes, at every age in age-appropriate form, because generated images, voices and video are now part of every student's information diet. The teachable core is a habit rather than a detection trick, since detection tricks age quickly: treat surprising content as unverified by default, check where it came from before what it says, and know that convincing is no longer evidence of real. Students practise on real examples until the reflex sets.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Is this just more screen time in disguise?</h3>
+        <p>A fair worry with an unusually clean answer: much of AI literacy is discussion, prediction and reasoning, and several of our best exercises involve no screen at all, like acting out how a model learns from examples using cards. The screen time that remains is analytical rather than consumptive, and parents consistently report it changes how the child talks about what they see online, which is the whole point.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>What do AI literacy classes cost?</h3>
+        <p>The same as every live course we run: USD 100 a month for a group batch of five to eight students, USD 150 a month one to one, flat across every country we serve outside India, monthly, with no joining fee. The first class is free without a card, and for this track it includes the fooled-then-taught moment described on this page, which tends to settle the decision either way.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>How do we begin?</h3>
+        <p>Send the form and a mentor arranges the free class for the learner's age band. Expect the student to come out of it with one story they want to tell you, usually about catching the machine being confidently wrong, and expect to be shown rather than pitched. From there the path branches by interest: pure literacy, literacy into coding, or literacy into building models, and there is no wrong branch.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="start">
+  <div class="ag-wrap">
+    <div class="ag-hero-grid">
+      <div>
+        <div class="ag-section-head">
+          <p class="ag-eyebrow">Start</p>
+          <h2>The free class gets your child fooled, safely, once</h2>
+        </div>
+        <p>Every first literacy class contains the engineered moment: the machine says something confidently wrong at exactly the student's level, and the class catches it together. Children come off the call wanting to tell somebody, which is how you will know it worked. Parents are welcome throughout, the under-13 version needs no accounts of any kind, and the decision afterwards is entirely yours, made with a child who now checks.</p>
+        <p>More reading first? The <a class="ag-inline-link" href="/should-my-child-learn-ai">should my child learn AI</a> page tackles the wider decision, <a class="ag-inline-link" href="/how-ai-actually-works">how AI actually works</a> explains the machinery gently, and the <a class="ag-inline-link" href="/ai-tools-age-guide">tools age guide</a> settles what any age may hold.</p>
+        <p style="margin-top:22px">
+          <a class="ag-inline-link" href="https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders.%20I%20want%20to%20ask%20about%20AI%20literacy%20classes%20for%20a%20student." target="_blank" rel="noopener">WhatsApp us</a> &middot;
+          <a class="ag-inline-link" href="tel:+919123366161">+91 91233 66161</a> &middot;
+          <a class="ag-inline-link" href="mailto:contact@modernagecoders.com">contact@modernagecoders.com</a>
+        </p>
+        <p style="font-size:.92rem;color:var(--ag-muted);margin-top:14px">
+          Live classes taught from India to families worldwide; the number rings in India. The
+          form invites one phone call and nothing else follows without your say-so.
+        </p>
+      </div>
+      <div class="ag-form-panel">
+        <form onsubmit="submitAiLiteracyLead(event)" novalidate>
+          <div class="ag-field">
+            <label for="ag-ail-name">Your name</label>
+            <input id="ag-ail-name" type="text" name="name" placeholder="Parent, student or your own name" required>
+          </div>
+          <div class="ag-field">
+            <label for="ag-ail-phone">Phone or WhatsApp, including your country code</label>
+            <input id="ag-ail-phone" type="tel" name="phone" placeholder="+966 50 123 4567" required>
+          </div>
+          <div class="ag-field">
+            <label for="ag-ail-age">Who is learning</label>
+            <select id="ag-ail-age" name="age">
+              <option value="6-12">A child, 6 to 12</option>
+              <option value="13-18">A teenager, 13 to 18</option>
+              <option value="college">A university student</option>
+              <option value="adult">Me, working professional</option>
+            </select>
+          </div>
+          <button type="submit" class="ag-btn" style="width:100%">Request the free class</button>
+          <p class="ag-form-note">No card. No obligation. We call, we do not spam.</p>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="ag-footer">
+  <div class="ag-wrap">
+    <div class="ag-grid-4">
+      <div>
+        <h4>Modern Age Coders</h4>
+        <p style="font-size:.9rem;opacity:.82">
+          Live online coding, AI and mathematics for ages 6 to 67. Teaching since 2020, more than
+          10,000 students across 25 countries and more.
+        </p>
+      </div>
+      <div>
+        <h4>Understand AI</h4>
+        <ul>
+          <li><a href="/how-ai-actually-works">How AI actually works</a></li>
+          <li><a href="/how-llms-actually-work">How LLMs actually work</a></li>
+          <li><a href="/ai-tools-age-guide">AI tools age guide</a></li>
+          <li><a href="/cbse-ai-curriculum-classes">CBSE AI curriculum</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Vibe coding series</h4>
+        <ul>
+          <li><a href="/what-is-vibe-coding">What is vibe coding</a></li>
+          <li><a href="/parents-guide-to-vibe-coding">The parents guide</a></li>
+          <li><a href="/should-my-child-learn-ai">Should my child learn AI</a></li>
+          <li><a href="/ai-projects-for-kids">AI projects for kids</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Start</h4>
+        <ul>
+          <li><a href="/courses">The full catalogue</a></li>
+          <li><a href="/pricing">Fees</a></li>
+          <li><a href="/how-we-teach">How we teach</a></li>
+          <li><a href="/student-labs">What students build</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="ag-footer-bottom">
+      <span>&copy; 2026 Modern Age Coders. Live online, taught from India, worldwide.</span>
+      <span>Ages 6 to 67 &middot; 25 countries and more</span>
+    </div>
+  </div>
+</footer>
+
+<script>
+window.submitAiLiteracyLead = function (e) {
+  e.preventDefault();
+  var form = e.target;
+  var name = (form.querySelector('input[name="name"]') || {}).value || '';
+  var phoneRaw = (form.querySelector('input[type="tel"]') || {}).value || '';
+  var age = (form.querySelector('select[name="age"]') || {}).value || '';
+  var d = phoneRaw.replace(/\D/g, '');
+  if (d.length < 7) { alert('Please enter a valid phone number including your country code.'); return; }
+  var btn = form.querySelector('button[type="submit"]');
+  var oldText = btn.textContent;
+  btn.disabled = true; btn.textContent = 'Sending...';
+  var API_URL = (location.hostname === 'localhost' || location.hostname === '127.0.0.1')
+    ? 'http://localhost:5000' : 'https://backend-modernagecoders.vercel.app';
+  fetch(API_URL + '/api/callback/request', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({
+      phone: d, countryCode: '', countryIso: '', countryName: 'International',
+      source: 'ai-literacy-for-students-inline', meta: { name: name, age: age, raw: phoneRaw, topic: 'ai-literacy' }
+    })
+  }).then(function (r) { return r.json(); }).then(function (data) {
+    if (data && data.success) {
+      if (window.gtag) gtag('event', 'generate_lead', { page_topic: 'ai-literacy' });
+      form.innerHTML = '<p class="ag-form-ok">Thank you' + (name ? ', ' + name.split(' ')[0] : '') +
+        '. A mentor will call you to arrange the free class.</p>';
+    } else {
+      alert((data && data.message) || 'Something went wrong. Please try again.');
+      btn.disabled = false; btn.textContent = oldText;
+    }
+  }).catch(function () {
+    alert('Network error. Please try again.');
+    btn.disabled = false; btn.textContent = oldText;
+  });
+};
+</script>
+<script>
+  window.addEventListener('load', function () {
+    var s = document.createElement('script');
+    s.src = 'https://www.googletagmanager.com/gtag/js?id=G-N8BM164YJP';
+    s.async = true;
+    document.head.appendChild(s);
+  });
+</script>
+</body>
+</html>
