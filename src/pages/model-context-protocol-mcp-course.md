@@ -374,6 +374,42 @@ Rather read first? [How LLMs actually work](/how-llms-actually-work), [evaluatio
 
 We hold no premises anywhere. Every session is a live video call taught from India, and the number above rings in India. Sending the form opens a conversation rather than an enrolment, and holds no place in any batch.
 
+## Keep exploring Modern Age Coders
+
+### Related courses and guides
+
+- [MVP Development Company for Startups](/mvp-development-company)
+- [Mobile App Development Company](/mobile-app-development-services)
+- [Natural Language Processing Course (NLP)](/natural-language-processing-course)
+- [11 Common Coding & Maths Mistakes Students Make](/mistakes-students-make)
+- [NumPy, Pandas & Matplotlib Masterclass: Python Data Analysis in Depth](/numpy-pandas-matplotlib-masterclass)
+- [Minecraft Coding Classes for Kids](/minecraft-coding-classes-for-kids)
+- [Learn Coding & Math Online](/course)
+- [The Modern Age Coders Gazette](/gazette)
+- [Parent FAQ | Every Question About Our Classes, Answered Plainly](/parent-faq)
+
+### Learn more
+
+- [GitHub Portfolios for Bahamian Students](/github-portfolio-for-students-bahamas)
+
+### Free resources
+
+- [Python Tutorial for Beginners: Complete Guide](/resources/python)
+- [Loop Control - break, continue, pass](/resources/python/loop-control-statements)
+- [Local Storage and Session Storage](/resources/javascript/local-storage-and-session-storage)
+- [Strings in Python](/resources/python/strings-in-python)
+
+### From the blog
+
+- [What is Vibe Coding? The Ultimate Deep-Dive Guide to AI-Powered](/blog/what-is-vibe-coding-future-of-software-development)
+- [USACO Bronze to Silver: What Actually Blocks You](/blog/usaco-bronze-to-silver-what-blocks-most-students)
+- [How to Build a Menu Driven Program in Python (Step-by-Step Guide)](/blog/how-to-build-menu-driven-program-in-python)
+
+### Start here
+
+- [Modern Age Coders pricing, one honest price per plan](/pricing)
+- [How Modern Age Coders teaches, small batches and real projects](/how-we-teach)
+
 ---
 
 *Canonical: https://learn.modernagecoders.com/model-context-protocol-mcp-course*

@@ -216,7 +216,50 @@ Real student projects
 
 Every one is a real, live project shipped by a Modern Age Coders student. Explore more in [Student Labs](/student-labs).
 
-[![Misti: AI Chatbot for Maths & Coding](/images/projects/misti.webp)AI & MLMisti: AI Chatbot for Maths & CodingAn intelligent AI-powered chatbot that helps students solve maths and coding questions with deep, step-by-step explanations using advanced Python AI frameworks and LLM APIs.by HarshitOpen the live project ↗](https://misti.modernagecoders.com)[![Babu: 90 Second Maths Challenge](/images/projects/babu.webp)GameBabu: 90 Second Maths ChallengeAn exciting 90-second maths challenge with random problems under time pressure, and a dynamic leaderboard powered by Firebase/MongoDB with real-time score updates.by Modern Age CodersOpen the live project ↗](https://babu.modernagecoders.com)[![NutriLife: AI Nutrition Coach](/images/projects/nutrilife.webp)AI & MLNutriLife: AI Nutrition CoachSnap a photo of any meal and NutriLife instantly names every food, then breaks down the calories, macros, vitamins and minerals, powered by AI. Bhavya vibe-coded it from a single idea: shaped the app in prompts, then wired up the AI food-recognition, daily tracking and smart coaching by hand.by BhavyaOpen the live project ↗](https://nutrilife-bhavya.lovable.app)[Chat with us](https://wa.me/919123366161?text=Hi%2C%20I'm%20interested%20in%20learning%20more%20about%20your%20courses!)
+[![Misti: AI Chatbot for Maths & Coding](/images/projects/misti.webp)AI & MLMisti: AI Chatbot for Maths & CodingAn intelligent AI-powered chatbot that helps students solve maths and coding questions with deep, step-by-step explanations using advanced Python AI frameworks and LLM APIs.by HarshitOpen the live project ↗](https://misti.modernagecoders.com)[![Babu: 90 Second Maths Challenge](/images/projects/babu.webp)GameBabu: 90 Second Maths ChallengeAn exciting 90-second maths challenge with random problems under time pressure, and a dynamic leaderboard powered by Firebase/MongoDB with real-time score updates.by Modern Age CodersOpen the live project ↗](https://babu.modernagecoders.com)[![NutriLife: AI Nutrition Coach](/images/projects/nutrilife.webp)AI & MLNutriLife: AI Nutrition CoachSnap a photo of any meal and NutriLife instantly names every food, then breaks down the calories, macros, vitamins and minerals, powered by AI. Bhavya vibe-coded it from a single idea: shaped the app in prompts, then wired up the AI food-recognition, daily tracking and smart coaching by hand.by BhavyaOpen the live project ↗](https://nutrilife-bhavya.lovable.app)
+
+## Keep exploring Modern Age Coders
+
+### Coding classes in nearby places
+
+- [Python for Kids in Dubai](/python-for-kids-in-dubai)
+- [Python Classes in Qatar](/python-classes-in-qatar)
+- [A-Level Maths Tutor in the UAE](/a-level-maths-tutor-uae)
+- [Python Classes in Dubai](/python-classes-in-dubai)
+- [AI and Machine Learning Classes in Bahrain](/ai-and-machine-learning-classes-in-bahrain)
+- [Online Maths Tuition in the UAE](/online-maths-tuition-uae)
+- [AI Classes in Saudi Arabia](/ai-classes-in-saudi-arabia)
+- [AI Classes for Kids in UAE](/ai-classes-for-kids-in-uae)
+- [AI & Machine Learning Classes in UAE](/ai-and-machine-learning-classes-in-uae)
+- [Coding Classes in Liang and Lumut, Brunei](/coding-classes-in-liang)
+
+### Learn more
+
+- [Python for Machine Learning](/python-for-machine-learning)
+- [Python for Data Science](/python-for-data-science)
+- [Coding for 9 Year Olds: Scratch, Python Basics & Game Projects for Kids](/coding-for-9-year-olds)
+- [Coding for 13 Year Olds: Python](/coding-for-13-year-olds)
+
+### Free resources
+
+- [Python Tutorial for Beginners: Complete Guide](/resources/python)
+- [Variables and Data Types in Python](/resources/python/variables-and-data-types)
+- [Dictionaries in Python](/resources/python/dictionaries-in-python)
+- [Inheritance and Polymorphism](/resources/python/inheritance-and-polymorphism)
+
+### From the blog
+
+- [Python Tutorials & Guides](/blog/topic/python)
+- [30+ Python Basic Programs for Beginners to Practice in 2026](/blog/python-basic-programs-for-beginners)
+- [Python Dictionary: The Complete Guide With 20 Examples](/blog/python-dictionary-complete-guide)
+- [Advantages of Functions in Python: Why Every Coder Should Use Them](/blog/advantages-functions-python-why-every-coder-should-use-them)
+
+### Start here
+
+- [What Modern Age Coders families say](/love)
+- [Book a free demo class with Modern Age Coders](/book-demo)
+
+[Chat with us](https://wa.me/919123366161?text=Hi%2C%20I'm%20interested%20in%20learning%20more%20about%20your%20courses!)
 
 ---
 

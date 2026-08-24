@@ -722,7 +722,50 @@ Modern Age Coders teaches students worldwide over live video, in small 4–8 bat
 - [Coding Classes in the United Kingdom](/coding-classes-in-united-kingdom)
 - [Coding Classes in the United States](/coding-classes-in-united-states)
 
-[Browse all courses →](/courses)[Book a free demo](/book-demo)[Coding Classes in India](/coding-classes-in-india)[Chat with us](https://wa.me/919123366161?text=Hi%2C%20I'm%20interested%20in%20learning%20more%20about%20your%20courses!)
+[Browse all courses →](/courses)[Book a free demo](/book-demo)[Coding Classes in India](/coding-classes-in-india)
+
+## Keep exploring Modern Age Coders
+
+### Coding classes in nearby places
+
+- [Online Coding Classes in Birmingham](/coding-classes-in-birmingham)
+- [Online Coding Classes in Leicester](/coding-classes-in-leicester)
+- [Coding & Maths Classes near Avidipta](/coding-classes-in-avidipta-mukundapur)
+- [Online Coding Classes in the Netherlands](/coding-classes-in-netherlands)
+- [Coding & Maths Classes near Sukhobrishti](/coding-classes-in-sukhobrishti)
+- [AI and Machine Learning Classes in the UK](/ai-and-machine-learning-classes-in-uk)
+- [Online Coding & AI Classes in the UK](/coding-classes-in-united-kingdom)
+- [Online Coding & AI Classes in Ireland](/coding-classes-in-ireland)
+- [Online Coding & AI Classes in Sweden](/coding-classes-in-sweden)
+- [Online Coding Classes in Alberta](/coding-classes-in-alberta)
+
+### Learn more
+
+- [AI & ML Projects for Students](/ai-ml-projects-for-students)
+- [AI & ML Certification Course](/ai-ml-certification-course)
+- [AI & ML Course for College Students](/ai-ml-course-for-college-students)
+- [Online AI & Machine Learning Classes](/online-ai-and-machine-learning-classes)
+
+### Free resources
+
+- [AI & Machine Learning Tutorial: Basics to Deep Learning](/resources/ai-and-machine-learning)
+- [Unsupervised Learning](/resources/ai-and-machine-learning/unsupervised-learning-clustering)
+- [Decision Trees and Random Forests](/resources/ai-and-machine-learning/decision-trees-and-random-forests)
+- [Feature Engineering and Feature Selection](/resources/ai-and-machine-learning/feature-engineering)
+
+### From the blog
+
+- [AI & Machine Learning Guides](/blog/topic/ai)
+- [How AI and Automation Are Transforming Small and Medium Businesses](/blog/ai-automation-transforming-small-medium-businesses)
+- [What is Vibe Coding? The Ultimate Deep-Dive Guide to AI-Powered](/blog/what-is-vibe-coding-future-of-software-development)
+- [UAE Made AI Mandatory in Schools: What It Means](/blog/uae-ai-curriculum-schools-what-it-means)
+
+### Start here
+
+- [Try a free trial class with a Modern Age Coders mentor](/free-trial)
+- [About Modern Age Coders, teaching since 2020](/about)
+
+[Chat with us](https://wa.me/919123366161?text=Hi%2C%20I'm%20interested%20in%20learning%20more%20about%20your%20courses!)
 
 ---
 

@@ -353,7 +353,41 @@ Explore Oman
 
 The [Oman coding hub](/coding-classes-in-oman) explains national delivery and pricing. Read [Salalah](/coding-classes-in-salalah) for seasonality and moving averages and [Sur](/coding-classes-in-sur) for the difference between a cumulative total and a rate.
 
-Book the free class[Close with WhatsApp](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20want%20a%20free%20coding%20class%20for%20a%20learner%20in%20Nizwa.)Free Nizwa class[Call +91 91233 66161](tel:+919123366161)[Chat with us](https://wa.me/919123366161?text=Hi%2C%20I'm%20interested%20in%20learning%20more%20about%20your%20courses!)
+Book the free class[Close with WhatsApp](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20want%20a%20free%20coding%20class%20for%20a%20learner%20in%20Nizwa.)Free Nizwa class[Call +91 91233 66161](tel:+919123366161)
+
+## Keep exploring Modern Age Coders
+
+### Coding classes in nearby places
+
+- [Online Coding Classes in Muttrah](/coding-classes-in-muttrah)
+- [Coding Classes in Qurayyat](/coding-classes-in-qurayyat)
+- [Online Coding Classes in Qurum](/coding-classes-in-qurum)
+- [Coding Classes in Musandam](/coding-classes-in-musandam)
+- [Coding Classes in Rustaq](/coding-classes-in-rustaq)
+- [Coding Classes in Mirbat](/coding-classes-in-mirbat)
+- [Coding Classes in Al Mudhaibi](/coding-classes-in-al-mudhaibi)
+- [Coding Classes in Al Khoudh](/coding-classes-in-al-khoudh)
+- [Coding Classes in Al Hamra](/coding-classes-in-al-hamra)
+
+### Free resources
+
+- [HTML & CSS Tutorial: Build Websites from Scratch](/resources/html-and-css)
+- [Inheritance in C++](/resources/cpp/inheritance-in-cpp)
+- [Links, Ancho and Navigation](/resources/html-and-css/links-and-navigation)
+- [Polymorphism](/resources/cpp/polymorphism-in-cpp)
+
+### From the blog
+
+- [Coding Class Fees in India 2026: What to Pay](/blog/coding-class-fees-india-2026)
+- [7 Signs Your Child Is Ready to Learn Coding (2026 Guide)](/blog/signs-your-child-is-ready-to-learn-coding)
+- [20 HTML, CSS, and JavaScript Project Ideas (With Code)](/blog/html-css-javascript-project-ideas)
+
+### Start here
+
+- [Try a free trial class with a Modern Age Coders mentor](/free-trial)
+- [About Modern Age Coders, teaching since 2020](/about)
+
+[Chat with us](https://wa.me/919123366161?text=Hi%2C%20I'm%20interested%20in%20learning%20more%20about%20your%20courses!)
 
 ---
 

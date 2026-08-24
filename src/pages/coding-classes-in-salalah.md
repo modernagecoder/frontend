@@ -351,7 +351,41 @@ Explore Oman
 
 The [Oman coding hub](/coding-classes-in-oman) explains national delivery and pricing. Read [Barka](/coding-classes-in-barka) for date parsing and [Nizwa](/coding-classes-in-nizwa) for date arithmetic across Gregorian and Hijri calendars.
 
-Book the free class[Close with WhatsApp](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20want%20a%20free%20coding%20class%20for%20a%20learner%20in%20Salalah.)Free Salalah class[Call +91 91233 66161](tel:+919123366161)[Chat with us](https://wa.me/919123366161?text=Hi%2C%20I'm%20interested%20in%20learning%20more%20about%20your%20courses!)
+Book the free class[Close with WhatsApp](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20want%20a%20free%20coding%20class%20for%20a%20learner%20in%20Salalah.)Free Salalah class[Call +91 91233 66161](tel:+919123366161)
+
+## Keep exploring Modern Age Coders
+
+### Coding classes in nearby places
+
+- [Coding Classes in Samail](/coding-classes-in-samail)
+- [Coding Classes in Saham](/coding-classes-in-saham)
+- [Online Coding Classes in Seeb](/coding-classes-in-seeb)
+- [Coding Classes in Rustaq](/coding-classes-in-rustaq)
+- [Coding Classes in Shalim](/coding-classes-in-shalim)
+- [Online Coding Classes in Qurum](/coding-classes-in-qurum)
+- [Coding Classes in Izki](/coding-classes-in-izki)
+- [Coding Classes in Duqm](/coding-classes-in-duqm)
+- [Coding Classes in Dhank](/coding-classes-in-dhank)
+
+### Free resources
+
+- [AI & Machine Learning Tutorial: Basics to Deep Learning](/resources/ai-and-machine-learning)
+- [Introduction to Neural Networks](/resources/ai-and-machine-learning/introduction-to-neural-networks)
+- [Loop Control and Pattern Printing](/resources/java/loop-control-and-patterns)
+- [Natural Language Processing (NLP) Fundamentals](/resources/ai-and-machine-learning/natural-language-processing)
+
+### From the blog
+
+- [Coding Class Fees in India 2026: What to Pay](/blog/coding-class-fees-india-2026)
+- [Abacus vs Vedic vs Mental Maths: A Clear Comparison](/blog/abacus-vs-vedic-vs-mental-maths)
+- [How Coding and Mathematics Work Together in Engineering & Science](/blog/coding-mathematics-engineering-science)
+
+### Start here
+
+- [Book a free demo class with Modern Age Coders](/book-demo)
+- [Real projects built by Modern Age Coders students](/student-labs)
+
+[Chat with us](https://wa.me/919123366161?text=Hi%2C%20I'm%20interested%20in%20learning%20more%20about%20your%20courses!)
 
 ---
 

@@ -202,7 +202,49 @@ Real student projects
 
 Every one is a real, live project shipped by a Modern Age Coders student. Explore more in [Student Labs](/student-labs).
 
-[![Image Slider Website](/images/projects/slider.webp)ToolImage Slider WebsiteA visually appealing site with a smooth image carousel, auto or manual navigation, responsive layout and beautiful transition effects.by SomrajOpen the live project ↗](https://robo23middle-stack.github.io/scenes/)[![The Beautiful Mind](/images/projects/mindgame.webp)GameThe Beautiful MindA scientifically designed focus and brain-strength game with 15 progressive levels, testing attention, control and mental endurance with real-time progress tracking and leaderboards.by Modern Age CodersOpen the live project ↗](https://mind.modernagecoders.com)[![Misti: AI Chatbot for Maths & Coding](/images/projects/misti.webp)AI & MLMisti: AI Chatbot for Maths & CodingAn intelligent AI-powered chatbot that helps students solve maths and coding questions with deep, step-by-step explanations using advanced Python AI frameworks and LLM APIs.by HarshitOpen the live project ↗](https://misti.modernagecoders.com)[Chat with us](https://wa.me/919123366161?text=Hi%2C%20I'm%20interested%20in%20learning%20more%20about%20your%20courses!)
+[![Image Slider Website](/images/projects/slider.webp)ToolImage Slider WebsiteA visually appealing site with a smooth image carousel, auto or manual navigation, responsive layout and beautiful transition effects.by SomrajOpen the live project ↗](https://robo23middle-stack.github.io/scenes/)[![The Beautiful Mind](/images/projects/mindgame.webp)GameThe Beautiful MindA scientifically designed focus and brain-strength game with 15 progressive levels, testing attention, control and mental endurance with real-time progress tracking and leaderboards.by Modern Age CodersOpen the live project ↗](https://mind.modernagecoders.com)[![Misti: AI Chatbot for Maths & Coding](/images/projects/misti.webp)AI & MLMisti: AI Chatbot for Maths & CodingAn intelligent AI-powered chatbot that helps students solve maths and coding questions with deep, step-by-step explanations using advanced Python AI frameworks and LLM APIs.by HarshitOpen the live project ↗](https://misti.modernagecoders.com)
+
+## Keep exploring Modern Age Coders
+
+### Related courses and guides
+
+- [Coding Classes for La Martiniere for Boys Students](/coding-classes-for-la-martiniere-boys-kolkata)
+- [Coding Classes for Kids in Nassau](/coding-classes-for-kids-in-nassau)
+- [Coding Classes for La Martiniere for Girls Students](/coding-classes-for-la-martiniere-girls-kolkata)
+- [Coding Classes for Kids in Dubai](/coding-classes-for-kids-in-dubai)
+- [Coding Comeback for Women: Return to Tech After a Career Break](/coding-comeback-women)
+- [Coding Classes for Kids in Doha](/coding-classes-for-kids-in-doha)
+- [Winter Coding Camp for Kids 2026 (Ages 6–11)](/winter-coding-camp-kids)
+- [AEO & GEO Services](/aeo-geo-optimization-services)
+- [Hackathons for High School Students](/hackathons-for-high-school-students)
+
+### Learn more
+
+- [Python for Kids in Dubai](/python-for-kids-in-dubai)
+- [Python for Kids & Teens](/python-and-ai-classes-for-kids-teens)
+- [AI Classes for Kids in UAE](/ai-classes-for-kids-in-uae)
+- [Coding for Kids: Scratch to Games, Apps and AI](/courses/kids-coding-blocks-masterclass)
+
+### Free resources
+
+- [Python Tutorial for Beginners: Complete Guide](/resources/python)
+- [Tuples in Python](/resources/python/tuples-in-python)
+- [Decorators and Iterators](/resources/python/decorators-and-iterators)
+- [Creating and Removing DOM Elements](/resources/javascript/creating-and-removing-elements)
+
+### From the blog
+
+- [Coding for Kids: Guides for Parents](/blog/topic/kids-coding)
+- [How Schools and Parents Can Prepare Children for Future Tech Careers](/blog/how-schools-parents-prepare-children-future-tech-careers)
+- [Scratch vs Python: Which is Better for Young Learners?](/blog/scratch-vs-python-which-better-young-learners)
+- [How to Make Maths Fun for Kids: 9 Ideas That Really Work](/blog/how-to-make-maths-fun-for-kids)
+
+### Start here
+
+- [What Modern Age Coders families say](/love)
+- [Book a free demo class with Modern Age Coders](/book-demo)
+
+[Chat with us](https://wa.me/919123366161?text=Hi%2C%20I'm%20interested%20in%20learning%20more%20about%20your%20courses!)
 
 ---
 

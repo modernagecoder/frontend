@@ -34,6 +34,39 @@ START GAMEGlobal Legends🏆Connecting...ADDITION0 + 0Skip (-5 Pts & Reset Combo
 
 SAVE TO LEADERBOARDTry Again
 
+## Keep exploring Modern Age Coders
+
+### Related courses and guides
+
+- [Best Age to Start Coding? The Honest Age-by-Age Answer](/best-age-to-start-coding)
+- [AP Computer Science Principles Online Coaching](/ap-computer-science-principles-online-coaching)
+- [Best Online Coding Classes for Kids 2026: Ranked Honestly](/best-online-coding-classes-for-kids-2026)
+- [AP Computer Science A Online Classes](/ap-computer-science-a-online-classes)
+- [Book a Free Coding Demo Class](/book-demo)
+- [Agentic Coding Classes](/agentic-coding-classes)
+- [Data Analytics Course](/data-analytics-course)
+- [Learn Coding & Math Online](/course)
+- [NumPy, Pandas & Matplotlib Masterclass: Python Data Analysis in Depth](/numpy-pandas-matplotlib-masterclass)
+
+### Learn more
+
+- [Vedic Maths Mastery: Speed Calculation with All 16 Sutras](/courses/vedic-maths-course-speed-calculation-mastery)
+- [ACT Math Tutoring Online](/act-math-tutoring-online)
+- [Online Summer Math Program 2026](/summer-math-program-online)
+- [Online Math Tutor for 1st Grade](/online-math-tutor-1st-grade)
+
+### From the blog
+
+- [Maths Learning Guides](/blog/topic/maths)
+- [10 Mental Maths Tricks for Kids, With Worked Examples](/blog/mental-maths-tricks-for-kids)
+- [How Data Analytics and Math Help Businesses Make Better Decisions](/blog/data-analytics-math-help-businesses-better-decisions)
+- [Abacus vs Vedic vs Mental Maths: A Clear Comparison](/blog/abacus-vs-vedic-vs-mental-maths)
+
+### Start here
+
+- [What Modern Age Coders families say](/love)
+- [Book a free demo class with Modern Age Coders](/book-demo)
+
 Parent & student voices
 
 ## What our families say

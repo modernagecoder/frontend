@@ -491,6 +491,48 @@ Leave a number and a mentor rings you back at an hour that works in Swiss time r
 
 Prefer to look around first? Read [how we teach](/how-we-teach), browse the [full course catalogue](/courses), or see what students have built in [Student Labs](/student-labs).
 
+## Keep exploring Modern Age Coders
+
+### Coding classes in nearby places
+
+- [AI and Machine Learning Classes in the UK](/ai-and-machine-learning-classes-in-uk)
+- [AI and Machine Learning Classes in the Netherlands](/ai-and-machine-learning-classes-in-netherlands)
+- [AI and Machine Learning Classes in Zurich](/ai-and-machine-learning-classes-in-zurich)
+- [AI and Machine Learning Classes in London](/ai-and-machine-learning-classes-in-london)
+- [Coding & Maths Classes near Avidipta](/coding-classes-in-avidipta-mukundapur)
+- [AI and Machine Learning Classes in Ireland](/ai-and-machine-learning-classes-in-ireland)
+- [Online Coding Classes in Birmingham](/coding-classes-in-birmingham)
+- [Online Coding Classes in the Netherlands](/coding-classes-in-netherlands)
+- [Online Coding Classes in Leicester](/coding-classes-in-leicester)
+- [Coding Classes in Izki](/coding-classes-in-izki)
+- [Linear Regression](/resources/ai-and-machine-learning/linear-regression/practice)
+
+### Learn more
+
+- [Build Machine Learning Models in Python](/build-machine-learning-models-in-python)
+- [Best AI & Machine Learning Course in India](/best-ai-and-machine-learning-course-in-india)
+- [How to Train Machine Learning Models](/how-to-train-machine-learning-models)
+- [Machine Learning From Scratch: Build Real AI/ML Models](/machine-learning-from-scratch)
+
+### Free resources
+
+- [AI & Machine Learning Tutorial: Basics to Deep Learning](/resources/ai-and-machine-learning)
+- [Data Preprocessing and Exploratory Data Analysis](/resources/ai-and-machine-learning/data-preprocessing-and-eda)
+- [Ensemble Methods](/resources/ai-and-machine-learning/ensemble-methods-and-boosting)
+- [Introduction to Neural Networks](/resources/ai-and-machine-learning/introduction-to-neural-networks)
+
+### From the blog
+
+- [AI & Machine Learning Guides](/blog/topic/ai)
+- [What is Vibe Coding? The Ultimate Deep-Dive Guide to AI-Powered](/blog/what-is-vibe-coding-future-of-software-development)
+- [How to Teach Kids AI at Home: A Safe 2026 Parent Guide](/blog/how-to-teach-kids-ai-at-home)
+- [How AI and Automation Are Transforming Small and Medium Businesses](/blog/ai-automation-transforming-small-medium-businesses)
+
+### Start here
+
+- [How Modern Age Coders teaches, small batches and real projects](/how-we-teach)
+- [What Modern Age Coders families say](/love)
+
 [Chat with us](https://wa.me/919123366161?text=Hi%2C%20I'm%20interested%20in%20learning%20more%20about%20your%20courses!)
 
 ---

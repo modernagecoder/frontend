@@ -376,6 +376,38 @@ Rather read first? [Evaluations](/ai-evaluations-course), [context engineering](
 
 We hold no premises anywhere. Every session is a live video call taught from India, and the number above rings in India. Sending the form opens a conversation rather than an enrolment, and holds no place in any batch.
 
+## Keep exploring Modern Age Coders
+
+### Related courses and guides
+
+- [Real Coding Classes: Learn How Code Actually Works](/real-coding-classes)
+- [Prompt Engineering Course](/prompt-engineering-course)
+- [Refund Policy](/refund)
+- [Privacy Policy](/privacy)
+- [Our Results](/results)
+- [Passion Project Ideas for Computer Science Students](/passion-project-ideas-computer-science)
+- [Coding Classes for DPS Hyderabad Students](/coding-classes-for-dps-hyderabad)
+- [AP Computer Science A Online Classes](/ap-computer-science-a-online-classes)
+- [The Modern Age Coders Gazette](/gazette)
+
+### Free resources
+
+- [C++ Tutorial: From Basics to Advanced](/resources/cpp)
+- [Mathematics for Machine Learning](/resources/ai-and-machine-learning/mathematics-for-ml)
+- [Smart Pointers and Modern Memory Management](/resources/cpp/smart-pointers-and-memory)
+- [Transformers and Attention Mechanism](/resources/ai-and-machine-learning/transformers-and-attention)
+
+### From the blog
+
+- [What is Vibe Coding? The Ultimate Deep-Dive Guide to AI-Powered](/blog/what-is-vibe-coding-future-of-software-development)
+- [Top 10 Java Programs Every School Student Should Know (With Solutions)](/blog/top-10-java-programs-for-school-students)
+- [What Type of Data is Generative AI Most Suitable For? A Complete Guide](/blog/what-type-of-data-is-generative-ai-most-suitable-for)
+
+### Start here
+
+- [Try a free trial class with a Modern Age Coders mentor](/free-trial)
+- [About Modern Age Coders, teaching since 2020](/about)
+
 ---
 
 *Canonical: https://learn.modernagecoders.com/rag-systems-course*

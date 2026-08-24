@@ -371,6 +371,38 @@ Rather read first? [How to debug code](/how-to-debug-code), [agentic coding](/ag
 
 We hold no premises anywhere. Every session is a live video call taught from India, and the number above rings in India. Sending the form opens a conversation rather than an enrolment, and holds no place in any batch.
 
+## Keep exploring Modern Age Coders
+
+### Related courses and guides
+
+- [How To Build a Coding Portfolio That Holds Up Under Questioning](/how-to-build-a-coding-portfolio)
+- [JEE Aspirant Coding Track: Python & Computational Maths for](/jee-aspirant-coding-track)
+- [Large Language Models Course (LLMs)](/large-language-models-course)
+- [How Large Language Models Work](/how-large-language-models-work)
+- [Learn Coding by Age (8–17)](/learn-coding-by-age)
+- [How Computer Vision Works](/how-computer-vision-works)
+- [Winter Coding Camp for Teens 2026 (Ages 12–17)](/winter-coding-camp-teens)
+- [Best Age to Start Coding? The Honest Age-by-Age Answer](/best-age-to-start-coding)
+- [Coding Classes for DPS Noida Students](/coding-classes-for-dps-noida)
+
+### Free resources
+
+- [SQL Tutorial: Databases, Basics to Advanced](/resources/sql)
+- [Pattern Printing in Python](/resources/python/pattern-printing)
+- [Transactions and ACID Properties](/resources/sql/transactions-and-acid)
+- [Aggregate Functions (COUNT, SUM, AVG, MIN, MAX)](/resources/sql/aggregate-functions)
+
+### From the blog
+
+- [How to Read and Write Files in Python (The Complete Guide)](/blog/how-to-read-and-write-files-in-python)
+- [File Built-in Methods in Python: Complete Guide for Beginners](/blog/file-built-in-methods-python-guide)
+- [Is Coding Still Worth Learning in 2026?](/blog/is-coding-worth-learning-2026)
+
+### Start here
+
+- [Real projects built by Modern Age Coders students](/student-labs)
+- [Browse every live course at Modern Age Coders](/courses)
+
 ---
 
 *Canonical: https://learn.modernagecoders.com/how-to-read-code*

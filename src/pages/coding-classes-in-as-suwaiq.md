@@ -338,6 +338,38 @@ The [Oman coding hub](/coding-classes-in-oman) covers national delivery and fees
 
 Book the free class[Close with WhatsApp](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20want%20a%20free%20coding%20class%20for%20a%20learner%20in%20As%20Suwaiq.)Free As Suwaiq class[Call +91 91233 66161](tel:+919123366161)
 
+## Keep exploring Modern Age Coders
+
+### Coding classes in nearby places
+
+- [Coding Classes in Assam](/coding-classes-in-assam)
+- [Coding Classes in Andhra Pradesh](/coding-classes-in-andhra-pradesh)
+- [Coding Classes in Bahla](/coding-classes-in-bahla)
+- [Coding Classes in Al Qabil](/coding-classes-in-al-qabil)
+- [Online Coding Classes in Bawshar](/coding-classes-in-bawshar)
+- [Online Coding Classes in Al Mouj](/coding-classes-in-al-mouj)
+- [Coding Classes in Goa](/coding-classes-in-goa)
+- [Coding & Maths Classes in Eden City, Maheshtala](/coding-classes-in-eden-city-maheshtala)
+- [Coding & Maths Classes near Hiland Willows](/coding-classes-in-hiland-willows)
+
+### Free resources
+
+- [Python Tutorial for Beginners: Complete Guide](/resources/python)
+- [Introduction to Python](/resources/python/introduction-to-python)
+- [Forms and Input Validation](/resources/javascript/forms-and-validation)
+- [Operators in Python](/resources/python/operators-in-python)
+
+### From the blog
+
+- [Learn Python for Beginners: Complete Step-by-Step Guide (2026)](/blog/python-for-beginners)
+- [Coding Class Fees in India 2026: What to Pay](/blog/coding-class-fees-india-2026)
+- [Python vs JavaScript: Which Should You Learn First?](/blog/python-vs-javascript-which-to-learn-first)
+
+### Start here
+
+- [Try a free trial class with a Modern Age Coders mentor](/free-trial)
+- [About Modern Age Coders, teaching since 2020](/about)
+
 ---
 
 *Canonical: https://learn.modernagecoders.com/coding-classes-in-as-suwaiq*

@@ -338,6 +338,44 @@ The [Oman coding hub](/coding-classes-in-oman) covers national delivery and fees
 
 Book the free class[Close with WhatsApp](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20want%20a%20free%20coding%20class%20for%20a%20learner%20in%20Al%20Amarat.)Free Al Amarat class[Call +91 91233 66161](tel:+919123366161)
 
+## Keep exploring Modern Age Coders
+
+### Coding classes in nearby places
+
+- [Coding Classes in Al Awabi](/coding-classes-in-al-awabi)
+- [Coding Classes in Adh Dhahirah](/coding-classes-in-adh-dhahirah)
+- [Coding Classes in Al Batinah North](/coding-classes-in-al-batinah-north)
+- [Coding Classes in Ad Dakhiliyah](/coding-classes-in-ad-dakhiliyah)
+- [Coding Classes in Al Batinah South](/coding-classes-in-al-batinah-south)
+- [Build Real AI Projects: Oman Student Portfolios](/build-real-ai-projects-oman)
+- [Coding Classes in Al Kamil Wal Wafi](/coding-classes-in-al-kamil-wal-wafi)
+- [Coding Classes in Al Hamra](/coding-classes-in-al-hamra)
+- [Coding Classes in Manah](/coding-classes-in-manah)
+- [Coding Classes in Masirah](/coding-classes-in-masirah)
+
+### Learn more
+
+- [AI Classes for Beginners](/ai-classes-for-beginners)
+- [Python for 10 Year Olds: Real Python Programs, Turtle Art & Mini Games](/python-for-10-year-olds)
+
+### Free resources
+
+- [C++ Tutorial: From Basics to Advanced](/resources/cpp)
+- [Natural Language Processing (NLP) Fundamentals](/resources/ai-and-machine-learning/natural-language-processing)
+- [Strings - C-style and std::string | C++ Tutorial](/resources/cpp/strings-in-cpp)
+- [Arrays and Multidimensional Arrays](/resources/cpp/arrays-in-cpp)
+
+### From the blog
+
+- [Learn Python for Beginners: Complete Step-by-Step Guide (2026)](/blog/python-for-beginners)
+- [Python vs JavaScript: Which Should You Learn First?](/blog/python-vs-javascript-which-to-learn-first)
+- [30+ Python Basic Programs for Beginners to Practice in 2026](/blog/python-basic-programs-for-beginners)
+
+### Start here
+
+- [About Modern Age Coders, teaching since 2020](/about)
+- [Modern Age Coders pricing, one honest price per plan](/pricing)
+
 ---
 
 *Canonical: https://learn.modernagecoders.com/coding-classes-in-al-amarat*

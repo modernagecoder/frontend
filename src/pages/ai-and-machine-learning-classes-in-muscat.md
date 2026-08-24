@@ -494,6 +494,48 @@ Leave a number and a mentor calls you back, usually within a few hours, at an ho
 
 Prefer to look around first? Read [how we teach](/how-we-teach), browse the [full catalogue](/courses), see the wider [Oman page](/ai-and-machine-learning-classes-in-oman), or open [Student Labs](/student-labs).
 
+## Keep exploring Modern Age Coders
+
+### Coding classes in nearby places
+
+- [AI Agents Course for Students in Oman](/ai-agents-course-for-students-oman)
+- [Coding and AI Classes for Girls in Oman](/ai-and-python-academy-for-girls-oman)
+- [Vibe Coding vs Building AI: A Guide for Parents in Oman](/vibe-coding-vs-building-ai-oman)
+- [AI and Python Academy for Students in Nizwa](/ai-and-python-academy-nizwa)
+- [Python to AI Roadmap for Students in Oman](/python-to-ai-roadmap-for-students-oman)
+- [AI and Python Academy for Students in Oman](/ai-and-python-academy-oman)
+- [Coding Classes in Liwa](/coding-classes-in-liwa)
+- [Coding Classes in Izki](/coding-classes-in-izki)
+- [Coding Classes in Bidiyah](/coding-classes-in-bidiyah)
+- [Coding Classes in Al Awabi](/coding-classes-in-al-awabi)
+- [Coding Classes in Gadong, Brunei](/coding-classes-in-gadong)
+
+### Learn more
+
+- [Learn to Build AI, Not Just Use It](/learn-to-build-ai)
+- [Build Machine Learning Models in Python](/build-machine-learning-models-in-python)
+- [How to Train Machine Learning Models](/how-to-train-machine-learning-models)
+- [Master AI, ML, Python & Java: Go Deeper](/master-ai-ml-python-java)
+
+### Free resources
+
+- [AI & Machine Learning Tutorial: Basics to Deep Learning](/resources/ai-and-machine-learning)
+- [Data Preprocessing and Exploratory Data Analysis](/resources/ai-and-machine-learning/data-preprocessing-and-eda)
+- [Ensemble Methods](/resources/ai-and-machine-learning/ensemble-methods-and-boosting)
+- [Introduction to Neural Networks](/resources/ai-and-machine-learning/introduction-to-neural-networks)
+
+### From the blog
+
+- [AI & Machine Learning Guides](/blog/topic/ai)
+- [What is Vibe Coding? The Ultimate Deep-Dive Guide to AI-Powered](/blog/what-is-vibe-coding-future-of-software-development)
+- [Coding vs AI: What Should My Child Learn in 2026?](/blog/coding-vs-ai-what-should-my-child-learn)
+- [How AI and Automation Are Transforming Small and Medium Businesses](/blog/ai-automation-transforming-small-medium-businesses)
+
+### Start here
+
+- [Book a free demo class with Modern Age Coders](/book-demo)
+- [Real projects built by Modern Age Coders students](/student-labs)
+
 [Chat with us](https://wa.me/919123366161?text=Hi%2C%20I'm%20interested%20in%20learning%20more%20about%20your%20courses!)
 
 ---

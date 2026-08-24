@@ -509,6 +509,46 @@ Leave a number and a mentor calls you back, usually within a few hours and at an
 
 Prefer to look around first? Read [how we teach](/how-we-teach), browse the [full course catalogue](/courses), or see what students have built in [Student Labs](/student-labs).
 
+## Keep exploring Modern Age Coders
+
+### Coding classes in nearby places
+
+- [Online Coding Classes in Alberta](/coding-classes-in-alberta)
+- [AI and Machine Learning Classes in Canada](/ai-and-machine-learning-classes-in-canada)
+- [Online Coding Classes in British Columbia](/coding-classes-in-british-columbia)
+- [Coding & AI Classes in Canada](/coding-classes-in-canada)
+- [Coding Classes in Ontario](/coding-classes-in-ontario)
+- [Online Coding Classes in Maryland](/coding-classes-in-maryland)
+- [Coding Classes in Virginia](/coding-classes-in-virginia)
+- [Coding Classes in New York](/coding-classes-in-new-york)
+- [Coding Classes in Illinois](/coding-classes-in-illinois)
+
+### Learn more
+
+- [Build Machine Learning Models in Python](/build-machine-learning-models-in-python)
+- [Python for Machine Learning](/python-for-machine-learning)
+- [Master AI, ML, Python & Java: Go Deeper](/master-ai-ml-python-java)
+- [Machine Learning From Scratch: Build Real AI/ML Models](/machine-learning-from-scratch)
+
+### Free resources
+
+- [AI & Machine Learning Tutorial: Basics to Deep Learning](/resources/ai-and-machine-learning)
+- [Data Preprocessing and Exploratory Data Analysis](/resources/ai-and-machine-learning/data-preprocessing-and-eda)
+- [Ensemble Methods](/resources/ai-and-machine-learning/ensemble-methods-and-boosting)
+- [Introduction to Neural Networks](/resources/ai-and-machine-learning/introduction-to-neural-networks)
+
+### From the blog
+
+- [AI & Machine Learning Guides](/blog/topic/ai)
+- [How to Teach Kids AI at Home: A Safe 2026 Parent Guide](/blog/how-to-teach-kids-ai-at-home)
+- [What is Vibe Coding? The Ultimate Deep-Dive Guide to AI-Powered](/blog/what-is-vibe-coding-future-of-software-development)
+- [Coding vs AI: What Should My Child Learn in 2026?](/blog/coding-vs-ai-what-should-my-child-learn)
+
+### Start here
+
+- [Book a free demo class with Modern Age Coders](/book-demo)
+- [Real projects built by Modern Age Coders students](/student-labs)
+
 [Chat with us](https://wa.me/919123366161?text=Hi%2C%20I'm%20interested%20in%20learning%20more%20about%20your%20courses!)
 
 ---

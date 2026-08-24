@@ -422,6 +422,48 @@ Read first if you would rather: the [academy hub for Oman](/ai-and-python-academ
 
 WhatsApp reaches us fastest from Oman and costs nothing. The number is Indian, not a Nizwa office; we hold no premises anywhere in the country.
 
+## Keep exploring Modern Age Coders
+
+### Coding classes in nearby places
+
+- [Coding and AI Classes for Girls in Oman](/ai-and-python-academy-for-girls-oman)
+- [AI & Machine Learning Classes in Oman](/ai-and-machine-learning-classes-in-oman)
+- [AI and Machine Learning Classes in Muscat](/ai-and-machine-learning-classes-in-muscat)
+- [Vibe Coding vs Building AI: A Guide for Parents in Oman](/vibe-coding-vs-building-ai-oman)
+- [Coding Classes in Adh Dhahirah](/coding-classes-in-adh-dhahirah)
+- [Coding Classes in Al Amarat](/coding-classes-in-al-amarat)
+- [Coding Classes in Al Mudhaibi](/coding-classes-in-al-mudhaibi)
+- [Coding Classes in Al Mazyunah](/coding-classes-in-al-mazyunah)
+- [Coding Classes in Al Kamil Wal Wafi](/coding-classes-in-al-kamil-wal-wafi)
+- [AI Ethics, Responsible AI, and Career Roadmap Practice](/resources/ai-and-machine-learning/ai-ethics-and-career-guide/practice)
+- [Python for AI](/resources/ai-and-machine-learning/python-for-ai-essentials/practice)
+
+### Learn more
+
+- [Vibe Coding for Teens: Python, Web Dev & AI (Ages 13-17)](/courses/vibe-coding-for-teens-python-web-ai-projects-course)
+- [Master AI, ML, Python & Java: Go Deeper](/master-ai-ml-python-java)
+- [Build Machine Learning Models in Python](/build-machine-learning-models-in-python)
+- [Python for Class 6: CBSE Code 166 Python, Turtle, First AI (Age 11)](/python-for-class-6)
+
+### Free resources
+
+- [Python Tutorial for Beginners: Complete Guide](/resources/python)
+- [Variables and Data Types in Python](/resources/python/variables-and-data-types)
+- [Dictionaries in Python](/resources/python/dictionaries-in-python)
+- [Ensemble Methods](/resources/ai-and-machine-learning/ensemble-methods-and-boosting)
+
+### From the blog
+
+- [Python Tutorials & Guides](/blog/topic/python)
+- [Learn Python Step by Step: The Free Tutorial Library](/blog/learn-python-step-by-step)
+- [Python vs JavaScript: Which Should You Learn First?](/blog/python-vs-javascript-which-to-learn-first)
+- [Learn Python for Beginners: Complete Step-by-Step Guide (2026)](/blog/python-for-beginners)
+
+### Start here
+
+- [About Modern Age Coders, teaching since 2020](/about)
+- [Modern Age Coders pricing, one honest price per plan](/pricing)
+
 [Chat with us](https://wa.me/919123366161?text=Hi%2C%20I'm%20interested%20in%20learning%20more%20about%20your%20courses!)
 
 ---

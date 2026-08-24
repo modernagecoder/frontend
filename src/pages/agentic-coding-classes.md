@@ -373,6 +373,38 @@ Rather read first? [How to read code](/how-to-read-code), [how to debug code](/h
 
 We hold no premises anywhere. Every session is a live video call taught from India, and the number above rings in India. Sending the form opens a conversation rather than an enrolment, and holds no place in any batch.
 
+## Keep exploring Modern Age Coders
+
+### Related courses and guides
+
+- [AP Computer Science A Online Classes](/ap-computer-science-a-online-classes)
+- [AEO & GEO Services](/aeo-geo-optimization-services)
+- [AP Computer Science Principles Online Coaching](/ap-computer-science-principles-online-coaching)
+- [About Modern Age Coders](/about)
+- [Aura Type - Master Your Typing Flow](/aura)
+- [Winter Coding Camp for Teens 2026 (Ages 12–17)](/winter-coding-camp-teens)
+- [Coding Classes for DPS Rohini Students](/coding-classes-for-dps-rohini-new-delhi)
+- [Complete Bootstrap 5.3 Guide](/bootstrap)
+- [Modern Age Coders Hackathon 1.0 (June 2026): Prize Pool](/hackathon)
+
+### Free resources
+
+- [JavaScript Tutorial: Build Interactive Websites](/resources/javascript)
+- [Forms, Inputs, and Form Validation](/resources/html-and-css/forms-and-inputs)
+- [Fetch API - Getting Data from the Internet | JavaScript Tutorial](/resources/javascript/fetch-api-and-working-with-apis)
+- [Modern CSS - Container Queries, Subgrid, clamp](/resources/html-and-css/modern-css-features)
+
+### From the blog
+
+- [What is Vibe Coding? The Ultimate Deep-Dive Guide to AI-Powered](/blog/what-is-vibe-coding-future-of-software-development)
+- [Agent Terminology in AI: A Simple Guide to Understanding AI Agents](/blog/agentic-terminology-in-ai)
+- [Minecraft vs. Roblox: Which One Actually Teaches Your Child to Code?](/blog/minecraft-vs-roblox-which-teaches-kids-to-code)
+
+### Start here
+
+- [Modern Age Coders pricing, one honest price per plan](/pricing)
+- [How Modern Age Coders teaches, small batches and real projects](/how-we-teach)
+
 ---
 
 *Canonical: https://learn.modernagecoders.com/agentic-coding-classes*

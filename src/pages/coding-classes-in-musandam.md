@@ -433,7 +433,42 @@ Share the learner's age or grade, wilayat and intended skill. Modern Age Coders 
 
 Use the national page for shared service facts, then continue to Khasab or neighbouring Al Buraimi.
 
-[**Oman coding classes**National course, fee and service guide](/coding-classes-in-oman)[**Khasab coding classes**City-specific wrong-unit calculation](/coding-classes-in-khasab)[**Al Buraimi coding classes**Accumulated-rounding analysis](/coding-classes-in-al-buraimi)Free regional class[Call +91 91233 66161](tel:+919123366161)[Chat with us](https://wa.me/919123366161?text=Hi%2C%20I'm%20interested%20in%20learning%20more%20about%20your%20courses!)
+[**Oman coding classes**National course, fee and service guide](/coding-classes-in-oman)[**Khasab coding classes**City-specific wrong-unit calculation](/coding-classes-in-khasab)[**Al Buraimi coding classes**Accumulated-rounding analysis](/coding-classes-in-al-buraimi)[**Daba Al Bayah coding classes**One name covering three separate entities](/coding-classes-in-daba-al-bayah)[**Madha coding classes**A containment test that only knows the outer ring](/coding-classes-in-madha)Free regional class[Call +91 91233 66161](tel:+919123366161)
+
+## Keep exploring Modern Age Coders
+
+### Coding classes in nearby places
+
+- [Online Coding Classes in Muscat](/coding-classes-in-muscat)
+- [Coding Classes in Mirbat](/coding-classes-in-mirbat)
+- [Online Coding Classes in Muttrah](/coding-classes-in-muttrah)
+- [Coding Classes in Mawaleh](/coding-classes-in-mawaleh)
+- [Coding Classes in Nizwa](/coding-classes-in-nizwa)
+- [Coding Classes in Masirah](/coding-classes-in-masirah)
+- [Online Coding Classes in Seeb](/coding-classes-in-seeb)
+- [Coding Classes in Saham](/coding-classes-in-saham)
+- [Coding Classes in Izki](/coding-classes-in-izki)
+- [Coding Classes in Liwa](/coding-classes-in-liwa)
+
+### Free resources
+
+- [AI & Machine Learning Tutorial: Basics to Deep Learning](/resources/ai-and-machine-learning)
+- [Conditional Statements in Java (if, else, switch)](/resources/java/conditional-statements)
+- [Feature Engineering and Feature Selection](/resources/ai-and-machine-learning/feature-engineering)
+- [Introduction to Java](/resources/java/introduction-to-java)
+
+### From the blog
+
+- [Outsourcing Software Development vs Hiring In-House Developers](/blog/outsourcing-software-development-vs-hiring-inhouse-developers)
+- [Coding Class Fees in India 2026: What to Pay](/blog/coding-class-fees-india-2026)
+- [The Role of Mathematics in Programming and Logical Problem Solving](/blog/role-of-mathematics-programming-logical-problem-solving)
+
+### Start here
+
+- [How Modern Age Coders teaches, small batches and real projects](/how-we-teach)
+- [What Modern Age Coders families say](/love)
+
+[Chat with us](https://wa.me/919123366161?text=Hi%2C%20I'm%20interested%20in%20learning%20more%20about%20your%20courses!)
 
 ---
 

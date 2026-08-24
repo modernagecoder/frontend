@@ -476,6 +476,46 @@ Rather read first? See [how we teach](/how-we-teach), the [full catalogue](/cour
 
 WhatsApp reaches us fastest from Brunei and costs nothing to use. The number is Indian, not a Brunei office.
 
+## Keep exploring Modern Age Coders
+
+### Coding classes in nearby places
+
+- [AI and Machine Learning Classes in Hong Kong](/ai-and-machine-learning-classes-in-hong-kong)
+- [AI and Machine Learning Classes in Australia](/ai-and-machine-learning-classes-in-australia)
+- [AI and Machine Learning Classes in Singapore](/ai-and-machine-learning-classes-in-singapore)
+- [Online Maths Tuition Singapore](/online-maths-tuition-singapore)
+- [Online Coding & AI Classes in Australia](/coding-classes-in-australia)
+- [Coding & AI Classes in Singapore](/coding-classes-in-singapore)
+- [Coding Classes in Liang and Lumut, Brunei](/coding-classes-in-liang)
+- [Online Coding & AI Classes in New Zealand](/coding-classes-in-new-zealand)
+- [Coding Classes in Kuala Belait and Seria](/coding-classes-in-kuala-belait)
+
+### Learn more
+
+- [Orange Data Mining Course for Teens: Machine Learning Without Code](/courses/orange-data-mining-visual-machine-learning-course-for-teens)
+- [Best AI & Machine Learning Course in India](/best-ai-and-machine-learning-course-in-india)
+- [How to Train Machine Learning Models](/how-to-train-machine-learning-models)
+- [Machine Learning From Scratch: Build Real AI/ML Models](/machine-learning-from-scratch)
+
+### Free resources
+
+- [AI & Machine Learning Tutorial: Basics to Deep Learning](/resources/ai-and-machine-learning)
+- [Feature Engineering and Feature Selection](/resources/ai-and-machine-learning/feature-engineering)
+- [KNN and Naive Bayes Classifiers](/resources/ai-and-machine-learning/knn-and-naive-bayes)
+- [Mathematics for Machine Learning](/resources/ai-and-machine-learning/mathematics-for-ml)
+
+### From the blog
+
+- [AI & Machine Learning Guides](/blog/topic/ai)
+- [How AI and Automation Are Transforming Small and Medium Businesses](/blog/ai-automation-transforming-small-medium-businesses)
+- [What Type of Data is Generative AI Most Suitable For? A Complete Guide](/blog/what-type-of-data-is-generative-ai-most-suitable-for)
+- [What is Vibe Coding? The Ultimate Deep-Dive Guide to AI-Powered](/blog/what-is-vibe-coding-future-of-software-development)
+
+### Start here
+
+- [Book a free demo class with Modern Age Coders](/book-demo)
+- [Real projects built by Modern Age Coders students](/student-labs)
+
 [Chat with us](https://wa.me/919123366161?text=Hi%2C%20I'm%20interested%20in%20learning%20more%20about%20your%20courses!)
 
 ---

@@ -228,7 +228,52 @@ Real student projects
 
 Every one is a real, live project shipped by a Modern Age Coders student. Explore more in [Student Labs](/student-labs).
 
-[![Babu: 90 Second Maths Challenge](/images/projects/babu.webp)GameBabu: 90 Second Maths ChallengeAn exciting 90-second maths challenge with random problems under time pressure, and a dynamic leaderboard powered by Firebase/MongoDB with real-time score updates.by Modern Age CodersOpen the live project ↗](https://babu.modernagecoders.com)[![NutriLife: AI Nutrition Coach](/images/projects/nutrilife.webp)AI & MLNutriLife: AI Nutrition CoachSnap a photo of any meal and NutriLife instantly names every food, then breaks down the calories, macros, vitamins and minerals, powered by AI. Bhavya vibe-coded it from a single idea: shaped the app in prompts, then wired up the AI food-recognition, daily tracking and smart coaching by hand.by BhavyaOpen the live project ↗](https://nutrilife-bhavya.lovable.app)[![GuardianX: AI Bodyguard for the Internet](/images/projects/guardianx.webp)AI & MLGuardianX: AI Bodyguard for the InternetPaste any suspicious link or message and GuardianX returns an instant AI verdict before you become a victim, plus a link scanner, safety score, breach check and live scam alerts built for India. Vibe-coded from idea to working product through prompts, then refined until it genuinely understands how phishing and scams work.by VivaanOpen the live project ↗](https://guardianx-cybersaver.lovable.app)[Chat with us](https://wa.me/919123366161?text=Hi%2C%20I'm%20interested%20in%20learning%20more%20about%20your%20courses!)
+[![Babu: 90 Second Maths Challenge](/images/projects/babu.webp)GameBabu: 90 Second Maths ChallengeAn exciting 90-second maths challenge with random problems under time pressure, and a dynamic leaderboard powered by Firebase/MongoDB with real-time score updates.by Modern Age CodersOpen the live project ↗](https://babu.modernagecoders.com)[![NutriLife: AI Nutrition Coach](/images/projects/nutrilife.webp)AI & MLNutriLife: AI Nutrition CoachSnap a photo of any meal and NutriLife instantly names every food, then breaks down the calories, macros, vitamins and minerals, powered by AI. Bhavya vibe-coded it from a single idea: shaped the app in prompts, then wired up the AI food-recognition, daily tracking and smart coaching by hand.by BhavyaOpen the live project ↗](https://nutrilife-bhavya.lovable.app)[![GuardianX: AI Bodyguard for the Internet](/images/projects/guardianx.webp)AI & MLGuardianX: AI Bodyguard for the InternetPaste any suspicious link or message and GuardianX returns an instant AI verdict before you become a victim, plus a link scanner, safety score, breach check and live scam alerts built for India. Vibe-coded from idea to working product through prompts, then refined until it genuinely understands how phishing and scams work.by VivaanOpen the live project ↗](https://guardianx-cybersaver.lovable.app)
+
+## Keep exploring Modern Age Coders
+
+### Coding classes in nearby places
+
+- [A-Level Maths Tutor in the UAE](/a-level-maths-tutor-uae)
+- [Python Classes in Saudi Arabia](/python-classes-in-saudi-arabia)
+- [AI and Machine Learning Classes in Bahrain](/ai-and-machine-learning-classes-in-bahrain)
+- [Python Classes in Qatar](/python-classes-in-qatar)
+- [AI & Machine Learning Classes in Kuwait](/ai-and-machine-learning-classes-in-kuwait)
+- [AI & Machine Learning Classes in Kuwait City](/ai-and-machine-learning-classes-in-kuwait-city)
+- [Online Coding Classes in Kuwait](/coding-classes-in-kuwait)
+- [Coding Classes in Jeddah](/coding-classes-in-jeddah)
+- [Coding Classes in Doha](/coding-classes-in-doha)
+- [Coding and AI Alongside BJC and BGCSE in The Bahamas](/coding-and-ai-alongside-bjc-and-bgcse-bahamas)
+- [Coding and AI Classes in Nassau, Bahamas](/coding-and-ai-classes-in-nassau)
+- [Coding Classes in Washington State](/coding-classes-in-washington)
+
+### Learn more
+
+- [Python for 9 Year Olds: First Python Programs, Turtle Graphics & Games](/python-for-9-year-olds)
+- [Coding for 9 Year Olds: Scratch, Python Basics & Game Projects for Kids](/coding-for-9-year-olds)
+- [Python for Beginners Kids: Absolute Zero Start, Fun Projects](/python-for-beginners-kids)
+- [Python and AI for Kids: Games, Turtle Art and Smart Projects](/courses/python-ai-kids-masterclass)
+
+### Free resources
+
+- [Python Tutorial for Beginners: Complete Guide](/resources/python)
+- [Modules and Packages in Python](/resources/python/modules-and-packages)
+- [Scope, LEGB Rule, and Closures](/resources/python/scope-and-closures)
+- [Tuples in Python](/resources/python/tuples-in-python)
+
+### From the blog
+
+- [Python Tutorials & Guides](/blog/topic/python)
+- [Scratch vs Python: Which is Better for Young Learners?](/blog/scratch-vs-python-which-better-young-learners)
+- [Learn Python Step by Step: The Free Tutorial Library](/blog/learn-python-step-by-step)
+- [30+ Python Basic Programs for Beginners to Practice in 2026](/blog/python-basic-programs-for-beginners)
+
+### Start here
+
+- [Browse every live course at Modern Age Coders](/courses)
+- [Try a free trial class with a Modern Age Coders mentor](/free-trial)
+
+[Chat with us](https://wa.me/919123366161?text=Hi%2C%20I'm%20interested%20in%20learning%20more%20about%20your%20courses!)
 
 ---
 

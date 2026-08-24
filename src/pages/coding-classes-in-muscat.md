@@ -367,7 +367,7 @@ Related
 
 ## Continue through Oman
 
-[Oman country guide](/coding-classes-in-oman)[Sohar, for families comparing another industrial city](/coding-classes-in-sohar)[Salalah, for a different school and seasonal rhythm](/coding-classes-in-salalah)[United Arab Emirates](/coding-classes-in-uae)[Qatar](/coding-classes-in-qatar)
+[Oman country guide](/coding-classes-in-oman)[Sohar, for families comparing another industrial city](/coding-classes-in-sohar)[Salalah, for a different school and seasonal rhythm](/coding-classes-in-salalah)[United Arab Emirates](/coding-classes-in-uae)[Qatar](/coding-classes-in-qatar)[**Al Ghubrah coding classes**Percent vs percentage points](/coding-classes-in-al-ghubrah)[**Al Hail coding classes**Survivorship bias](/coding-classes-in-al-hail)[**Al Khoudh coding classes**Multiple comparisons](/coding-classes-in-al-khoudh)[**Al Khuwair coding classes**Unique visitors vs visits](/coding-classes-in-al-khuwair)[**Al Mouj coding classes**A ratio of ratios](/coding-classes-in-al-mouj)[**Azaiba coding classes**Truncating instead of rounding](/coding-classes-in-azaiba)[**Bawshar coding classes**Bin width changes the story](/coding-classes-in-bawshar)[**Madinat Al Irfan / Airport Heights coding classes**Extrapolating past the data](/coding-classes-in-madinat-al-irfan)[**Madinat Al Sultan Qaboos coding classes**An average hiding a bimodal split](/coding-classes-in-madinat-al-sultan-qaboos)[**Mawaleh coding classes**The median of medians](/coding-classes-in-mawaleh)[**Muttrah coding classes**Non-response bias](/coding-classes-in-muttrah)[**Qurum coding classes**Correlation is not causation](/coding-classes-in-qurum)[**Seeb coding classes**Sorting by the wrong key](/coding-classes-in-seeb)
 
 ---
 

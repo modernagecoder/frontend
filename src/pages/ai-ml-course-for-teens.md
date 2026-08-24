@@ -428,6 +428,46 @@ The course starts with Python basics (since Python is the language behind most A
 
 Our AI ML course for kids is available as both group classes and personalized 1-on-1 sessions. Students from 25+ countries join our AI program, and classes are scheduled flexibly across time zones. Whether your child is in India, the US, UK, or UAE, they can learn AI with expert mentors who make complex topics simple and fun.
 
+## Keep exploring Modern Age Coders
+
+### Related courses and guides
+
+- [AI & ML Projects for Students](/ai-ml-projects-for-students)
+- [AI & ML Course for College Students](/ai-ml-course-for-college-students)
+- [AI Projects for High School Students](/ai-projects-for-high-school-students)
+- [AI & ML Certification Course](/ai-ml-certification-course)
+- [AI Projects for Kids](/ai-projects-for-kids)
+- [AI Literacy for Students](/ai-literacy-for-students)
+- [AI Tool Age Limits: What Your Child Can Actually Use](/ai-tools-age-guide)
+- [AI Agents Explained: How to Actually Build One That Doesn't](/ai-agents-explained)
+- [AI Agents & Automation for Business](/ai-agents-and-automation)
+
+### Learn more
+
+- [CBSE Computational Thinking & AI for Kids (Class 3-8)](/courses/cbse-computational-thinking-and-ai-course-for-kids-classes-3-to-8)
+- [AI Tools Course for Teens (13+): Prompting to Real Projects](/courses/teens-ai-tools-mastery-course)
+- [Coding for 15 Year Olds: Full Stack, AI/ML & DSA for Class 10 Board Year](/coding-for-15-year-olds)
+- [CBSE AI Classes for Class 6-8: Where AI Literacy Actually Begins](/ai-classes-for-cbse-class-6-to-8)
+
+### Free resources
+
+- [AI & Machine Learning Tutorial: Basics to Deep Learning](/resources/ai-and-machine-learning)
+- [Introduction to AI and Machine Learning](/resources/ai-and-machine-learning/introduction-to-ai-and-ml)
+- [Linear Regression](/resources/ai-and-machine-learning/linear-regression)
+- [Model Evaluation, Cross-Validation, and Hyperparameter Tuning](/resources/ai-and-machine-learning/model-evaluation-and-tuning)
+
+### From the blog
+
+- [AI & Machine Learning Guides](/blog/topic/ai)
+- [10 Safe AI Tools Your Child Should Be Using for Homework in 2026](/blog/safe-ai-tools-for-kids-homework-2025)
+- [What is AI? Complete Beginner's Guide: How to Start, Which Languages](/blog/what-is-ai-complete-beginners-guide-how-to-start)
+- [Coding vs AI: What Should My Child Learn in 2026?](/blog/coding-vs-ai-what-should-my-child-learn)
+
+### Start here
+
+- [About Modern Age Coders, teaching since 2020](/about)
+- [Modern Age Coders pricing, one honest price per plan](/pricing)
+
 [![Modern Age Coders](/images/logo.svg)Modern Age Coders](/)
 
 India's most trusted live online coding institute for kids, teens & adults.

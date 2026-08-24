@@ -267,6 +267,34 @@ Rather read first? [The Nassau page](/coding-and-ai-classes-in-nassau), [the twe
 
 We hold no premises anywhere in the Bahamas. Every session is a live video call taught from India, and the number above rings in India.
 
+## Keep exploring Modern Age Coders
+
+### Coding classes in nearby places
+
+- [Year-Round Coding Classes vs Summer Camps in The Bahamas](/year-round-coding-classes-vs-summer-camps-bahamas)
+- [Coding and AI Alongside BJC and BGCSE in The Bahamas](/coding-and-ai-alongside-bjc-and-bgcse-bahamas)
+- [Coding and AI Classes in The Bahamas](/coding-and-ai-classes-in-bahamas)
+- [AI and Machine Learning Classes in The Bahamas](/ai-and-machine-learning-classes-in-bahamas)
+- [Coding Competitions for Students in The Bahamas](/coding-competitions-for-students-bahamas)
+
+### Free resources
+
+- [Python Tutorial for Beginners: Complete Guide](/resources/python)
+- [Loops (for, while, for...of, for...in)](/resources/javascript/loops-in-javascript)
+- [Taking Input and Type Conversion](/resources/python/taking-input-and-type-conversion)
+- [Conditional Statements in Python (if, elif, else)](/resources/python/conditional-statements)
+
+### From the blog
+
+- [Does Online Maths Tuition Really Work? An Honest 2026 Answer](/blog/does-online-maths-tuition-work)
+- [Group vs 1-on-1 Coding Classes: Which Is Better?](/blog/group-vs-1-on-1-coding-classes)
+- [10 Mental Maths Tricks for Kids, With Worked Examples](/blog/mental-maths-tricks-for-kids)
+
+### Start here
+
+- [Real projects built by Modern Age Coders students](/student-labs)
+- [Browse every live course at Modern Age Coders](/courses)
+
 [Chat with us](https://wa.me/919123366161?text=Hi%2C%20I'm%20interested%20in%20learning%20more%20about%20your%20courses!)
 
 ---

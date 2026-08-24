@@ -338,6 +338,42 @@ The [Oman coding hub](/coding-classes-in-oman) covers national delivery and fees
 
 Book the free class[Close with WhatsApp](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20want%20a%20free%20coding%20class%20for%20a%20learner%20in%20Jalan%20Bani%20Bu%20Hassan.)Free Jalan Bani Bu Hassan class[Call +91 91233 66161](tel:+919123366161)
 
+## Keep exploring Modern Age Coders
+
+### Coding classes in nearby places
+
+- [Coding Classes in Jharkhand](/coding-classes-in-jharkhand)
+- [Coding Classes in Karnataka](/coding-classes-in-karnataka)
+- [Coding Classes in India](/coding-classes-in-india)
+- [Coding Classes in Kerala](/coding-classes-in-kerala)
+- [Coding & Maths Classes near Ideal Niketan, Tangra](/coding-classes-in-ideal-niketan-tangra)
+- [Coding Classes in Madha](/coding-classes-in-madha)
+- [Coding Classes in Bahla](/coding-classes-in-bahla)
+- [Coding Classes in Assam](/coding-classes-in-assam)
+- [Coding Classes in As Suwaiq](/coding-classes-in-as-suwaiq)
+
+### Learn more
+
+- [Python for 10 Year Olds: Real Python Programs, Turtle Art & Mini Games](/python-for-10-year-olds)
+
+### Free resources
+
+- [HTML & CSS Tutorial: Build Websites from Scratch](/resources/html-and-css)
+- [Introduction to CSS](/resources/html-and-css/introduction-to-css)
+- [Operators in C++](/resources/cpp/operators-in-cpp)
+- [Responsive Design and Media Queries](/resources/html-and-css/responsive-design-and-media-queries)
+
+### From the blog
+
+- [Python vs JavaScript: Which Should You Learn First?](/blog/python-vs-javascript-which-to-learn-first)
+- [Learn Python for Beginners: Complete Step-by-Step Guide (2026)](/blog/python-for-beginners)
+- [The IB Computer Science IA No Longer Needs a Client](/blog/ib-computer-science-ia-client-rule-2027)
+
+### Start here
+
+- [Book a free demo class with Modern Age Coders](/book-demo)
+- [Real projects built by Modern Age Coders students](/student-labs)
+
 ---
 
 *Canonical: https://learn.modernagecoders.com/coding-classes-in-jalan-bani-bu-hassan*

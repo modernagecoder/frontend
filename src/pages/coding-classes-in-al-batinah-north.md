@@ -455,7 +455,41 @@ Share the learner's age or grade, wilayat and intended skill. Modern Age Coders 
 
 Use the national page for shared service facts, then continue to a city page or the adjoining governorate.
 
-[**Oman coding classes**National course, fee and service guide](/coding-classes-in-oman)[**Sohar coding classes**Mismatched-unit analysis at city scale](/coding-classes-in-sohar)[**Al Batinah South coding classes**Rates over incomplete time windows](/coding-classes-in-al-batinah-south)Free regional class[Call +91 91233 66161](tel:+919123366161)[Chat with us](https://wa.me/919123366161?text=Hi%2C%20I'm%20interested%20in%20learning%20more%20about%20your%20courses!)
+[**Oman coding classes**National course, fee and service guide](/coding-classes-in-oman)[**Sohar coding classes**Mismatched-unit analysis at city scale](/coding-classes-in-sohar)[**Al Batinah South coding classes**Rates over incomplete time windows](/coding-classes-in-al-batinah-south)[**Al Khaburah coding classes**The sum of the peaks against the peak of the sums](/coding-classes-in-al-khaburah)[**As Suwaiq coding classes**Identifiers that lose their leading zero](/coding-classes-in-as-suwaiq)[**Liwa coding classes**Deriving a location from a name](/coding-classes-in-liwa)[**Saham coding classes**A number living inside a text label](/coding-classes-in-saham)[**Shinas coding classes**A field measured in characters against a field measured in bytes](/coding-classes-in-shinas)Free regional class[Call +91 91233 66161](tel:+919123366161)
+
+## Keep exploring Modern Age Coders
+
+### Coding classes in nearby places
+
+- [Coding Classes in Al Awabi](/coding-classes-in-al-awabi)
+- [Coding Classes in Al Buraimi](/coding-classes-in-al-buraimi)
+- [Coding Classes in Al Amarat](/coding-classes-in-al-amarat)
+- [Coding Classes in Al Ghubrah](/coding-classes-in-al-ghubrah)
+- [Coding Classes in Adh Dhahirah](/coding-classes-in-adh-dhahirah)
+- [Coding Classes in Al Hail](/coding-classes-in-al-hail)
+- [Coding Classes in Al Kamil Wal Wafi](/coding-classes-in-al-kamil-wal-wafi)
+- [Coding Classes in Samail](/coding-classes-in-samail)
+- [Coding Classes in Qurayyat](/coding-classes-in-qurayyat)
+
+### Free resources
+
+- [Python Tutorial for Beginners: Complete Guide](/resources/python)
+- [Comprehensions and Generators](/resources/python/list-comprehensions-and-generators)
+- [Introduction to JavaScript](/resources/javascript/introduction-to-javascript)
+- [Scope, LEGB Rule, and Closures](/resources/python/scope-and-closures)
+
+### From the blog
+
+- [Coding Class Fees in India 2026: What to Pay](/blog/coding-class-fees-india-2026)
+- [Coding for 7-Year-Olds: What and How Kids Should Learn Programming](/blog/coding-for-7-year-olds-what-how-kids-should-learn-programming)
+- [20 HTML, CSS, and JavaScript Project Ideas (With Code)](/blog/html-css-javascript-project-ideas)
+
+### Start here
+
+- [Real projects built by Modern Age Coders students](/student-labs)
+- [Browse every live course at Modern Age Coders](/courses)
+
+[Chat with us](https://wa.me/919123366161?text=Hi%2C%20I'm%20interested%20in%20learning%20more%20about%20your%20courses!)
 
 ---
 

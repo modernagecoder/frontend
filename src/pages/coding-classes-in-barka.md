@@ -335,7 +335,41 @@ Explore Oman
 
 The [Oman coding hub](/coding-classes-in-oman) covers national delivery and fees. Read [Sohar](/coding-classes-in-sohar) for mixed-unit cargo arithmetic and [Salalah](/coding-classes-in-salalah) for seasonality and moving averages.
 
-Book the free class[Close with WhatsApp](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20want%20a%20free%20coding%20class%20for%20a%20learner%20in%20Barka.)Free Barka class[Call +91 91233 66161](tel:+919123366161)[Chat with us](https://wa.me/919123366161?text=Hi%2C%20I'm%20interested%20in%20learning%20more%20about%20your%20courses!)
+Book the free class[Close with WhatsApp](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20want%20a%20free%20coding%20class%20for%20a%20learner%20in%20Barka.)Free Barka class[Call +91 91233 66161](tel:+919123366161)
+
+## Keep exploring Modern Age Coders
+
+### Coding classes in nearby places
+
+- [Coding Classes in Bidbid](/coding-classes-in-bidbid)
+- [Coding Classes in Azaiba](/coding-classes-in-azaiba)
+- [Coding Classes in Bidiyah](/coding-classes-in-bidiyah)
+- [Coding Classes in Ash Sharqiyah South](/coding-classes-in-ash-sharqiyah-south)
+- [Coding Classes in Dhank](/coding-classes-in-dhank)
+- [Coding Classes in Ash Sharqiyah North](/coding-classes-in-ash-sharqiyah-north)
+- [Coding Classes in Madinat Al Sultan Qaboos](/coding-classes-in-madinat-al-sultan-qaboos)
+- [Coding Classes in Madinat Al Irfan](/coding-classes-in-madinat-al-irfan)
+- [Coding Classes in Taqah](/coding-classes-in-taqah)
+
+### Free resources
+
+- [C++ Tutorial: From Basics to Advanced](/resources/cpp)
+- [Input, Output, and Formatting](/resources/cpp/input-output-and-formatting)
+- [Logistic Regression and Classification](/resources/ai-and-machine-learning/logistic-regression-and-classification)
+- [Setting Up C++ and Your First Program](/resources/cpp/setting-up-and-first-program)
+
+### From the blog
+
+- [Coding Class Fees in India 2026: What to Pay](/blog/coding-class-fees-india-2026)
+- [20 HTML, CSS, and JavaScript Project Ideas (With Code)](/blog/html-css-javascript-project-ideas)
+- [7 Signs Your Child Is Ready to Learn Coding (2026 Guide)](/blog/signs-your-child-is-ready-to-learn-coding)
+
+### Start here
+
+- [Try a free trial class with a Modern Age Coders mentor](/free-trial)
+- [About Modern Age Coders, teaching since 2020](/about)
+
+[Chat with us](https://wa.me/919123366161?text=Hi%2C%20I'm%20interested%20in%20learning%20more%20about%20your%20courses!)
 
 ---
 

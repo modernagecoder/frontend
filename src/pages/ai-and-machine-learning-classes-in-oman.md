@@ -460,6 +460,46 @@ Leave a number and a mentor calls you back, usually within a few hours, at an ho
 
 Prefer to look around first? Read [how we teach](/how-we-teach), browse the [full course catalogue](/courses), or see what students have built in [Student Labs](/student-labs).
 
+## Keep exploring Modern Age Coders
+
+### Coding classes in nearby places
+
+- [Coding and AI Classes for Girls in Oman](/ai-and-python-academy-for-girls-oman)
+- [AI and Machine Learning Classes in Muscat](/ai-and-machine-learning-classes-in-muscat)
+- [AI and Python Academy for Students in Nizwa](/ai-and-python-academy-nizwa)
+- [AI Agents Course for Students in Oman](/ai-agents-course-for-students-oman)
+- [AI and Python Academy for Students in Oman](/ai-and-python-academy-oman)
+- [Vibe Coding vs Building AI: A Guide for Parents in Oman](/vibe-coding-vs-building-ai-oman)
+- [Coding Classes in Mirbat](/coding-classes-in-mirbat)
+- [Coding Classes in Bidbid](/coding-classes-in-bidbid)
+- [Coding Classes in Al Musanaah](/coding-classes-in-al-musanaah)
+
+### Learn more
+
+- [Learn to Build AI, Not Just Use It](/learn-to-build-ai)
+- [Build Machine Learning Models in Python](/build-machine-learning-models-in-python)
+- [Generative AI Course](/generative-ai-course)
+- [Orange Data Mining Course for Teens: Machine Learning Without Code](/courses/orange-data-mining-visual-machine-learning-course-for-teens)
+
+### Free resources
+
+- [AI & Machine Learning Tutorial: Basics to Deep Learning](/resources/ai-and-machine-learning)
+- [Linear Regression](/resources/ai-and-machine-learning/linear-regression)
+- [Model Evaluation, Cross-Validation, and Hyperparameter Tuning](/resources/ai-and-machine-learning/model-evaluation-and-tuning)
+- [Reinforcement Learning Basics](/resources/ai-and-machine-learning/reinforcement-learning-basics)
+
+### From the blog
+
+- [AI & Machine Learning Guides](/blog/topic/ai)
+- [10 Safe AI Tools Your Child Should Be Using for Homework in 2026](/blog/safe-ai-tools-for-kids-homework-2025)
+- [Best AI Coding Tools for Students in 2026](/blog/best-ai-coding-tools-for-students-2026)
+- [What Type of Data is Generative AI Most Suitable For? A Complete Guide](/blog/what-type-of-data-is-generative-ai-most-suitable-for)
+
+### Start here
+
+- [How Modern Age Coders teaches, small batches and real projects](/how-we-teach)
+- [What Modern Age Coders families say](/love)
+
 [Chat with us](https://wa.me/919123366161?text=Hi%2C%20I'm%20interested%20in%20learning%20more%20about%20your%20courses!)
 
 ---

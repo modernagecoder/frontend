@@ -259,6 +259,42 @@ Rather read first? [The twelve-month track](/python-and-ai-track-for-students-ba
 
 We hold no premises anywhere in the Bahamas. Every session is a live video call taught from India, and the number above rings in India.
 
+## Keep exploring Modern Age Coders
+
+### Coding classes in nearby places
+
+- [Year-Round Coding Classes vs Summer Camps in The Bahamas](/year-round-coding-classes-vs-summer-camps-bahamas)
+- [Coding and AI Classes in Nassau, Bahamas](/coding-and-ai-classes-in-nassau)
+- [GitHub Portfolios for Bahamian Students](/github-portfolio-for-students-bahamas)
+- [The 12-Month Python and AI Track for Bahamian Students](/python-and-ai-track-for-students-bahamas)
+- [Coding Classes in Al Hail](/coding-classes-in-al-hail)
+
+### Learn more
+
+- [AI Agents for Teens](/ai-agents-for-teens)
+- [AI Projects for High School Students](/ai-projects-for-high-school-students)
+- [CBSE AI Classes for Class 6-8: Where AI Literacy Actually Begins](/ai-classes-for-cbse-class-6-to-8)
+- [CBSE's Computational Thinking & AI Curriculum (2026-27)](/cbse-ai-curriculum-classes)
+
+### Free resources
+
+- [AI & Machine Learning Tutorial: Basics to Deep Learning](/resources/ai-and-machine-learning)
+- [Decision Trees and Random Forests](/resources/ai-and-machine-learning/decision-trees-and-random-forests)
+- [Feature Engineering and Feature Selection](/resources/ai-and-machine-learning/feature-engineering)
+- [KNN and Naive Bayes Classifiers](/resources/ai-and-machine-learning/knn-and-naive-bayes)
+
+### From the blog
+
+- [AI & Machine Learning Guides](/blog/topic/ai)
+- [UAE Made AI Mandatory in Schools: What It Means](/blog/uae-ai-curriculum-schools-what-it-means)
+- [10 Safe AI Tools Your Child Should Be Using for Homework in 2026](/blog/safe-ai-tools-for-kids-homework-2025)
+- [Top Emerging Tech Skills to Learn in 2025 (AI, Low-Code, Cloud)](/blog/top-emerging-tech-skills-learn-2025-ai-low-code-cloud)
+
+### Start here
+
+- [Try a free trial class with a Modern Age Coders mentor](/free-trial)
+- [About Modern Age Coders, teaching since 2020](/about)
+
 [Chat with us](https://wa.me/919123366161?text=Hi%2C%20I'm%20interested%20in%20learning%20more%20about%20your%20courses!)
 
 ---

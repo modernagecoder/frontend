@@ -262,7 +262,49 @@ Real student projects
 
 Every one is a real, live project shipped by a Modern Age Coders student. Explore more in [Student Labs](/student-labs).
 
-[![Image Slider Website](/images/projects/slider.webp)ToolImage Slider WebsiteA visually appealing site with a smooth image carousel, auto or manual navigation, responsive layout and beautiful transition effects.by SomrajOpen the live project ↗](https://robo23middle-stack.github.io/scenes/)[![The Beautiful Mind](/images/projects/mindgame.webp)GameThe Beautiful MindA scientifically designed focus and brain-strength game with 15 progressive levels, testing attention, control and mental endurance with real-time progress tracking and leaderboards.by Modern Age CodersOpen the live project ↗](https://mind.modernagecoders.com)[![Misti: AI Chatbot for Maths & Coding](/images/projects/misti.webp)AI & MLMisti: AI Chatbot for Maths & CodingAn intelligent AI-powered chatbot that helps students solve maths and coding questions with deep, step-by-step explanations using advanced Python AI frameworks and LLM APIs.by HarshitOpen the live project ↗](https://misti.modernagecoders.com)[Chat with us](https://wa.me/919123366161?text=Hi%2C%20I'm%20interested%20in%20learning%20more%20about%20your%20courses!)
+[![Image Slider Website](/images/projects/slider.webp)ToolImage Slider WebsiteA visually appealing site with a smooth image carousel, auto or manual navigation, responsive layout and beautiful transition effects.by SomrajOpen the live project ↗](https://robo23middle-stack.github.io/scenes/)[![The Beautiful Mind](/images/projects/mindgame.webp)GameThe Beautiful MindA scientifically designed focus and brain-strength game with 15 progressive levels, testing attention, control and mental endurance with real-time progress tracking and leaderboards.by Modern Age CodersOpen the live project ↗](https://mind.modernagecoders.com)[![Misti: AI Chatbot for Maths & Coding](/images/projects/misti.webp)AI & MLMisti: AI Chatbot for Maths & CodingAn intelligent AI-powered chatbot that helps students solve maths and coding questions with deep, step-by-step explanations using advanced Python AI frameworks and LLM APIs.by HarshitOpen the live project ↗](https://misti.modernagecoders.com)
+
+## Keep exploring Modern Age Coders
+
+### Coding classes in nearby places
+
+- [AI Classes in Qatar](/ai-classes-in-qatar)
+- [AI Classes in Saudi Arabia](/ai-classes-in-saudi-arabia)
+- [American Curriculum & SAT Maths Tutor in the UAE](/american-maths-tutor-uae)
+- [AI & Machine Learning Classes in Saudi Arabia](/ai-and-machine-learning-classes-in-saudi-arabia)
+- [CBSE Maths Tutor in the UAE](/cbse-maths-tutor-uae)
+- [AI & Machine Learning Classes in Qatar](/ai-and-machine-learning-classes-in-qatar)
+- [Maths Tuition for Kids in the UAE](/maths-tuition-for-kids-uae)
+- [Maths Classes for Adults in the UAE](/maths-classes-for-adults-uae)
+- [Python Classes in Qatar](/python-classes-in-qatar)
+
+### Learn more
+
+- [AI & ML Course for College Students](/ai-ml-course-for-college-students)
+- [Python for Machine Learning](/python-for-machine-learning)
+- [Best AI & Machine Learning Course in India](/best-ai-and-machine-learning-course-in-india)
+- [Data Science Course](/data-science-course)
+
+### Free resources
+
+- [AI & Machine Learning Tutorial: Basics to Deep Learning](/resources/ai-and-machine-learning)
+- [Natural Language Processing (NLP) Fundamentals](/resources/ai-and-machine-learning/natural-language-processing)
+- [Support Vector Machines (SVM)](/resources/ai-and-machine-learning/support-vector-machines)
+- [Convolutional Neural Networks (CNN) for Computer Vision](/resources/ai-and-machine-learning/convolutional-neural-networks)
+
+### From the blog
+
+- [AI & Machine Learning Guides](/blog/topic/ai)
+- [How AI and Automation Are Transforming Small and Medium Businesses](/blog/ai-automation-transforming-small-medium-businesses)
+- [What Type of Data is Generative AI Most Suitable For? A Complete Guide](/blog/what-type-of-data-is-generative-ai-most-suitable-for)
+- [Best Data Science Courses in India for Students and](/blog/data-science-course-india)
+
+### Start here
+
+- [What Modern Age Coders families say](/love)
+- [Book a free demo class with Modern Age Coders](/book-demo)
+
+[Chat with us](https://wa.me/919123366161?text=Hi%2C%20I'm%20interested%20in%20learning%20more%20about%20your%20courses!)
 
 ---
 

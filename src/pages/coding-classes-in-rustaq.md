@@ -339,6 +339,42 @@ The [Oman coding hub](/coding-classes-in-oman) sets out national delivery and fe
 
 Book the free class[Close with WhatsApp](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20want%20a%20free%20coding%20class%20for%20a%20learner%20in%20Rustaq.)Free Rustaq class[Call +91 91233 66161](tel:+919123366161)
 
+## Keep exploring Modern Age Coders
+
+### Coding classes in nearby places
+
+- [Coding Classes in Saham](/coding-classes-in-saham)
+- [Online Coding Classes in Qurum](/coding-classes-in-qurum)
+- [Coding Classes in Salalah](/coding-classes-in-salalah)
+- [Coding Classes in Qurayyat](/coding-classes-in-qurayyat)
+- [Coding Classes in Samail](/coding-classes-in-samail)
+- [Online Coding Classes in Seeb](/coding-classes-in-seeb)
+- [AI and Python Academy for Students in Salalah](/ai-and-python-academy-salalah)
+- [AI and Python Academy for Students in Nizwa](/ai-and-python-academy-nizwa)
+- [AI and Machine Learning Classes in Muscat](/ai-and-machine-learning-classes-in-muscat)
+
+### Learn more
+
+- [Python for 11 Year Olds: Functions](/python-for-11-year-olds)
+
+### Free resources
+
+- [Java Tutorial for Beginners to Advanced](/resources/java)
+- [Loop Control and Pattern Printing](/resources/java/loop-control-and-patterns)
+- [SQL Interview Masterclass](/resources/sql/sql-interview-masterclass)
+- [Taking Input with Scanner](/resources/java/taking-input-in-java)
+
+### From the blog
+
+- [Python vs JavaScript: Which Should You Learn First?](/blog/python-vs-javascript-which-to-learn-first)
+- [20 HTML, CSS, and JavaScript Project Ideas (With Code)](/blog/html-css-javascript-project-ideas)
+- [How to Find HCF and LCM in Python (5 Easy Methods)](/blog/how-to-find-hcf-and-lcm-in-python)
+
+### Start here
+
+- [About Modern Age Coders, teaching since 2020](/about)
+- [Modern Age Coders pricing, one honest price per plan](/pricing)
+
 ---
 
 *Canonical: https://learn.modernagecoders.com/coding-classes-in-rustaq*

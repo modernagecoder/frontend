@@ -263,6 +263,39 @@ Rather read first? [The twelve-month track](/python-and-ai-track-for-students-ba
 
 We hold no premises anywhere in the Bahamas. Every session is a live video call taught from India, and the number above rings in India.
 
+## Keep exploring Modern Age Coders
+
+### Coding classes in nearby places
+
+- [Year-Round Coding Classes vs Summer Camps in The Bahamas](/year-round-coding-classes-vs-summer-camps-bahamas)
+- [Coding and AI Alongside BJC and BGCSE in The Bahamas](/coding-and-ai-alongside-bjc-and-bgcse-bahamas)
+- [Coding Competitions for Students in The Bahamas](/coding-competitions-for-students-bahamas)
+- [Coding and AI Classes in The Bahamas](/coding-and-ai-classes-in-bahamas)
+- [The 12-Month Python and AI Track for Bahamian Students](/python-and-ai-track-for-students-bahamas)
+
+### Learn more
+
+- [Model Context Protocol (MCP) Course](/model-context-protocol-mcp-course)
+- [Computer Science Extracurricula Ranked by What Actually Counts](/computer-science-extracurriculars)
+
+### Free resources
+
+- [AI & Machine Learning Tutorial: Basics to Deep Learning](/resources/ai-and-machine-learning)
+- [Collections Framework](/resources/java/collections-framework)
+- [Ensemble Methods](/resources/ai-and-machine-learning/ensemble-methods-and-boosting)
+- [Installing Java and Setting Up Your Environment](/resources/java/installing-java-and-setup)
+
+### From the blog
+
+- [Does Online Maths Tuition Really Work? An Honest 2026 Answer](/blog/does-online-maths-tuition-work)
+- [How College Students Can Build Real-World Projects While Studying](/blog/how-college-students-build-real-world-projects-while-studying)
+- [Is Vedic Maths Actually Useful? An Honest 2026 Guide](/blog/is-vedic-maths-actually-useful)
+
+### Start here
+
+- [Modern Age Coders pricing, one honest price per plan](/pricing)
+- [How Modern Age Coders teaches, small batches and real projects](/how-we-teach)
+
 [Chat with us](https://wa.me/919123366161?text=Hi%2C%20I'm%20interested%20in%20learning%20more%20about%20your%20courses!)
 
 ---

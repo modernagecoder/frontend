@@ -739,7 +739,50 @@ Modern Age Coders teaches students worldwide over live video, in small 4–8 bat
 - [Coding Classes in the UAE](/coding-classes-in-uae)
 - [Coding Classes in the United States](/coding-classes-in-united-states)
 
-[Browse all courses →](/courses)[Book a free demo](/book-demo)[Coding Classes in India](/coding-classes-in-india)[Chat with us](https://wa.me/919123366161?text=Hi%2C%20I'm%20interested%20in%20learning%20more%20about%20your%20courses!)
+[Browse all courses →](/courses)[Book a free demo](/book-demo)[Coding Classes in India](/coding-classes-in-india)
+
+## Keep exploring Modern Age Coders
+
+### Coding classes in nearby places
+
+- [AI and Machine Learning Classes in Germany](/ai-and-machine-learning-classes-in-germany)
+- [AI and Machine Learning Classes in Ireland](/ai-and-machine-learning-classes-in-ireland)
+- [Coding & Maths Classes near Sukhobrishti](/coding-classes-in-sukhobrishti)
+- [AI and Machine Learning Classes in the Netherlands](/ai-and-machine-learning-classes-in-netherlands)
+- [Online Coding Classes in the Netherlands](/coding-classes-in-netherlands)
+- [AI and Machine Learning Classes in Switzerland](/ai-and-machine-learning-classes-in-switzerland)
+- [Online Coding & AI Classes in Switzerland](/coding-classes-in-switzerland)
+- [AI and Machine Learning Classes in the UK](/ai-and-machine-learning-classes-in-uk)
+- [AI and Machine Learning Classes in Zurich](/ai-and-machine-learning-classes-in-zurich)
+- [Coding Classes in Mahdah](/coding-classes-in-mahdah)
+
+### Learn more
+
+- [Coding for 12 Year Olds: Python, Web Dev, App Building & AI for Class 7](/coding-for-12-year-olds)
+- [Artificial Intelligence Course](/artificial-intelligence-course)
+- [Python for Data Science](/python-for-data-science)
+- [Data Science Course](/data-science-course)
+
+### Free resources
+
+- [AI & Machine Learning Tutorial: Basics to Deep Learning](/resources/ai-and-machine-learning)
+- [Recurrent Neural Networks (RNN) and LSTM](/resources/ai-and-machine-learning/recurrent-neural-networks)
+- [Unsupervised Learning](/resources/ai-and-machine-learning/unsupervised-learning-clustering)
+- [Decision Trees and Random Forests](/resources/ai-and-machine-learning/decision-trees-and-random-forests)
+
+### From the blog
+
+- [AI & Machine Learning Guides](/blog/topic/ai)
+- [Data Science, AI, and Math: Skills Every Tech Professional Must Learn](/blog/data-science-ai-math-skills-professionals)
+- [Best Data Science Courses in India for Students and](/blog/data-science-course-india)
+- [What Type of Data is Generative AI Most Suitable For? A Complete Guide](/blog/what-type-of-data-is-generative-ai-most-suitable-for)
+
+### Start here
+
+- [Real projects built by Modern Age Coders students](/student-labs)
+- [Browse every live course at Modern Age Coders](/courses)
+
+[Chat with us](https://wa.me/919123366161?text=Hi%2C%20I'm%20interested%20in%20learning%20more%20about%20your%20courses!)
 
 ---
 

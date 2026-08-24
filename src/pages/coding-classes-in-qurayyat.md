@@ -338,6 +338,45 @@ The [Oman coding hub](/coding-classes-in-oman) covers national delivery and fees
 
 Book the free class[Close with WhatsApp](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20want%20a%20free%20coding%20class%20for%20a%20learner%20in%20Qurayyat.)Free Qurayyat class[Call +91 91233 66161](tel:+919123366161)
 
+## Keep exploring Modern Age Coders
+
+### Coding classes in nearby places
+
+- [Online Coding Classes in Qurum](/coding-classes-in-qurum)
+- [Coding Classes in Rustaq](/coding-classes-in-rustaq)
+- [Coding Classes in Nizwa](/coding-classes-in-nizwa)
+- [Coding Classes in Saham](/coding-classes-in-saham)
+- [Online Coding Classes in Muttrah](/coding-classes-in-muttrah)
+- [Coding Classes in Salalah](/coding-classes-in-salalah)
+- [Coding Classes in Al Batinah South](/coding-classes-in-al-batinah-south)
+- [Coding Classes in Al Amarat](/coding-classes-in-al-amarat)
+- [AI and Python Academy for Students in Sohar](/ai-and-python-academy-sohar)
+
+### Learn more
+
+- [Python From the Ground Up: Complete, In-Depth Python Course](/python-from-the-ground-up)
+- [Build Machine Learning Models in Python](/build-machine-learning-models-in-python)
+- [AI & ML Certification Course](/ai-ml-certification-course)
+- [AI Classes for Beginners](/ai-classes-for-beginners)
+
+### Free resources
+
+- [JavaScript Tutorial: Build Interactive Websites](/resources/javascript)
+- [Error Handling and Debugging](/resources/javascript/error-handling-and-debugging)
+- [Links, Ancho and Navigation](/resources/html-and-css/links-and-navigation)
+- [Loops (for, while, for...of, for...in)](/resources/javascript/loops-in-javascript)
+
+### From the blog
+
+- [Python vs JavaScript: Which Should You Learn First?](/blog/python-vs-javascript-which-to-learn-first)
+- [Learn Python for Beginners: Complete Step-by-Step Guide (2026)](/blog/python-for-beginners)
+- [Learn Python Step by Step: The Free Tutorial Library](/blog/learn-python-step-by-step)
+
+### Start here
+
+- [About Modern Age Coders, teaching since 2020](/about)
+- [Modern Age Coders pricing, one honest price per plan](/pricing)
+
 ---
 
 *Canonical: https://learn.modernagecoders.com/coding-classes-in-qurayyat*

@@ -589,6 +589,45 @@ Rather read first? [The full course syllabus](/courses/ap-computer-science-a-jav
 
 Classes are live, one to one or five to eight, taught from India at an hour that suits the student. Nothing here is a recording. Sending the form starts a conversation, not an enrolment.
 
+## Keep exploring Modern Age Coders
+
+### Related courses and guides
+
+- [Agentic Coding Classes](/agentic-coding-classes)
+- [Aura Type - Master Your Typing Flow](/aura)
+- [AEO & GEO Services](/aeo-geo-optimization-services)
+- [Beat The Babu: The Fastest 90-Second Math Challenge Game](/beat-the-babu)
+- [About Modern Age Coders](/about)
+- [Best Age to Start Coding? The Honest Age-by-Age Answer](/best-age-to-start-coding)
+- [Coding Classes for DPS Saket Students](/coding-classes-for-dps-international-saket-delhi)
+- [Online Coding Classes for Kids in the UK](/online-coding-classes-for-kids-uk)
+- [Learn Programming Languages & Frameworks](/coding-lang)
+
+### Learn more
+
+- [GCSE Computer Science Tutoring](/uk-gcse-computer-science-tutoring)
+- [GCSE Computer Science: AQA, OCR and Edexcel Exam Prep](/courses/gcse-computer-science-course)
+- [Coding Classes in New Jersey](/coding-classes-in-new-jersey)
+- [IB Computer Science Online Tuition](/ib-computer-science-online-tuition)
+
+### Free resources
+
+- [Python Tutorial for Beginners: Complete Guide](/resources/python)
+- [Conditional Statements in Python (if, elif, else)](/resources/python/conditional-statements)
+- [Conditional Statements (if, else, switch)](/resources/javascript/conditional-statements)
+- [Introduction to Python](/resources/python/introduction-to-python)
+
+### From the blog
+
+- [20 Python Programs for CBSE Class 12 Board Exam (083)](/blog/python-programs-for-cbse-class-12)
+- [Best Programming Languages for College Students to Learn in 2026](/blog/best-programming-languages-college-students-2026)
+- [Cambridge 9618 Paper 4: Python, Java or Visual Basic?](/blog/cambridge-9618-paper-4-python-java-or-visual-basic)
+
+### Start here
+
+- [What Modern Age Coders families say](/love)
+- [Book a free demo class with Modern Age Coders](/book-demo)
+
 ---
 
 *Canonical: https://learn.modernagecoders.com/ap-computer-science-a-online-classes*

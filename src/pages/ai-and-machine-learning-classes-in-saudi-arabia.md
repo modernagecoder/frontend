@@ -496,6 +496,47 @@ Leave a number and a mentor calls you back, usually within a few hours, at an ho
 
 Prefer to look around first? Read [how we teach](/how-we-teach), browse the [full course catalogue](/courses), check the [AI tools age guide](/ai-tools-age-guide), or see what students have built in [Student Labs](/student-labs).
 
+## Keep exploring Modern Age Coders
+
+### Coding classes in nearby places
+
+- [AI & Machine Learning Classes in UAE](/ai-and-machine-learning-classes-in-uae)
+- [AI & Machine Learning Classes in Qatar](/ai-and-machine-learning-classes-in-qatar)
+- [AI Classes for Kids in UAE](/ai-classes-for-kids-in-uae)
+- [AI & Machine Learning Classes in Kuwait City](/ai-and-machine-learning-classes-in-kuwait-city)
+- [AI Classes in Dubai](/ai-classes-in-dubai)
+- [AI & Machine Learning Classes in Kuwait](/ai-and-machine-learning-classes-in-kuwait)
+- [Coding Classes in Doha](/coding-classes-in-doha)
+- [Python Classes in Qatar](/python-classes-in-qatar)
+- [Python Classes in Dubai](/python-classes-in-dubai)
+- [Dimensionality Reduction](/resources/ai-and-machine-learning/dimensionality-reduction/practice)
+
+### Learn more
+
+- [Learn to Build AI, Not Just Use It](/learn-to-build-ai)
+- [Build Machine Learning Models in Python](/build-machine-learning-models-in-python)
+- [Orange Data Mining Course for Teens: Machine Learning Without Code](/courses/orange-data-mining-visual-machine-learning-course-for-teens)
+- [Machine Learning From Scratch: Build Real AI/ML Models](/machine-learning-from-scratch)
+
+### Free resources
+
+- [AI & Machine Learning Tutorial: Basics to Deep Learning](/resources/ai-and-machine-learning)
+- [MLOps and Model Deployment](/resources/ai-and-machine-learning/ml-ops-and-model-deployment)
+- [Recurrent Neural Networks (RNN) and LSTM](/resources/ai-and-machine-learning/recurrent-neural-networks)
+- [Unsupervised Learning](/resources/ai-and-machine-learning/unsupervised-learning-clustering)
+
+### From the blog
+
+- [AI & Machine Learning Guides](/blog/topic/ai)
+- [What is Vibe Coding? The Ultimate Deep-Dive Guide to AI-Powered](/blog/what-is-vibe-coding-future-of-software-development)
+- [Coding vs AI: What Should My Child Learn in 2026?](/blog/coding-vs-ai-what-should-my-child-learn)
+- [What Type of Data is Generative AI Most Suitable For? A Complete Guide](/blog/what-type-of-data-is-generative-ai-most-suitable-for)
+
+### Start here
+
+- [Book a free demo class with Modern Age Coders](/book-demo)
+- [Real projects built by Modern Age Coders students](/student-labs)
+
 [Chat with us](https://wa.me/919123366161?text=Hi%2C%20I'm%20interested%20in%20learning%20more%20about%20your%20courses!)
 
 ---

@@ -495,6 +495,47 @@ Leave a number and a mentor calls you back, usually within a few hours and at an
 
 Prefer to read first? See [how we teach](/how-we-teach), or open what students have built in [Student Labs](/student-labs).
 
+## Keep exploring Modern Age Coders
+
+### Coding classes in nearby places
+
+- [AI & Machine Learning Classes in Kuwait City](/ai-and-machine-learning-classes-in-kuwait-city)
+- [AI and Machine Learning Classes in Bahrain](/ai-and-machine-learning-classes-in-bahrain)
+- [AI & Machine Learning Classes in Qatar](/ai-and-machine-learning-classes-in-qatar)
+- [A-Level Maths Tutor in the UAE](/a-level-maths-tutor-uae)
+- [AI & Machine Learning Classes in Saudi Arabia](/ai-and-machine-learning-classes-in-saudi-arabia)
+- [Python for Kids in Dubai](/python-for-kids-in-dubai)
+- [Coding Classes in Riyadh](/coding-classes-in-riyadh)
+- [Coding Classes in Dammam & Khobar](/coding-classes-in-dammam)
+- [AI Classes in Qatar](/ai-classes-in-qatar)
+- [Coding Classes in Dima Wa Attayeen](/coding-classes-in-dima-wa-attayeen)
+
+### Learn more
+
+- [Build Machine Learning Models in Python](/build-machine-learning-models-in-python)
+- [Orange Data Mining Course for Teens: Machine Learning Without Code](/courses/orange-data-mining-visual-machine-learning-course-for-teens)
+- [Python for Machine Learning](/python-for-machine-learning)
+- [Machine Learning From Scratch: Build Real AI/ML Models](/machine-learning-from-scratch)
+
+### Free resources
+
+- [AI & Machine Learning Tutorial: Basics to Deep Learning](/resources/ai-and-machine-learning)
+- [Introduction to AI and Machine Learning](/resources/ai-and-machine-learning/introduction-to-ai-and-ml)
+- [Linear Regression](/resources/ai-and-machine-learning/linear-regression)
+- [Model Evaluation, Cross-Validation, and Hyperparameter Tuning](/resources/ai-and-machine-learning/model-evaluation-and-tuning)
+
+### From the blog
+
+- [AI & Machine Learning Guides](/blog/topic/ai)
+- [Best AI Coding Tools for Students in 2026](/blog/best-ai-coding-tools-for-students-2026)
+- [What Type of Data is Generative AI Most Suitable For? A Complete Guide](/blog/what-type-of-data-is-generative-ai-most-suitable-for)
+- [10 Safe AI Tools Your Child Should Be Using for Homework in 2026](/blog/safe-ai-tools-for-kids-homework-2025)
+
+### Start here
+
+- [Book a free demo class with Modern Age Coders](/book-demo)
+- [Real projects built by Modern Age Coders students](/student-labs)
+
 [Chat with us](https://wa.me/919123366161?text=Hi%2C%20I'm%20interested%20in%20learning%20more%20about%20your%20courses!)
 
 ---

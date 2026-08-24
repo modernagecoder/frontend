@@ -272,6 +272,45 @@ Prefer WhatsApp? [Message us](https://wa.me/919123366161?text=Hi,%20I%20want%20a
 
 4.9 rating across 547+ Google reviews
 
+## Keep exploring Modern Age Coders
+
+### Coding classes in nearby places
+
+- [Coding Classes in Saudi Arabia](/coding-classes-in-saudi-arabia)
+- [GCSE Maths Tutor in the UAE](/gcse-maths-tutor-uae)
+- [Coding Classes in Riyadh](/coding-classes-in-riyadh)
+- [IB Maths Tutor in the UAE](/ib-maths-tutor-uae)
+- [Coding Classes in Qatar](/coding-classes-in-qatar)
+- [Maths Classes for Adults in the UAE](/maths-classes-for-adults-uae)
+- [AI & Machine Learning Classes in Kuwait](/ai-and-machine-learning-classes-in-kuwait)
+- [Python Classes in Qatar](/python-classes-in-qatar)
+- [Online Coding Classes in Bahrain](/coding-classes-in-bahrain)
+
+### Learn more
+
+- [Online Coding Classes for Kids in the UK](/online-coding-classes-for-kids-uk)
+- [Homeschool Coding Curriculum](/homeschool-coding-curriculum)
+- [Online Coding Classes for Kids in the USA](/online-coding-classes-for-kids-usa)
+- [Coding Classes for Kids in Doha](/coding-classes-for-kids-in-doha)
+
+### Free resources
+
+- [AI & Machine Learning Tutorial: Basics to Deep Learning](/resources/ai-and-machine-learning)
+- [Collections Framework](/resources/java/collections-framework)
+- [Ensemble Methods](/resources/ai-and-machine-learning/ensemble-methods-and-boosting)
+- [Installing Java and Setting Up Your Environment](/resources/java/installing-java-and-setup)
+
+### From the blog
+
+- [Python OOP Tutorial: Classes, Objects, and Inheritance](/blog/python-oop-tutorial-for-beginners)
+- [30+ Python Basic Programs for Beginners to Practice in 2026](/blog/python-basic-programs-for-beginners)
+- [What is Floor Division in Python? Complete Guide with Examples](/blog/what-is-floor-division-in-python)
+
+### Start here
+
+- [Real projects built by Modern Age Coders students](/student-labs)
+- [Browse every live course at Modern Age Coders](/courses)
+
 [Chat with us](https://wa.me/919123366161?text=Hi%2C%20I'm%20interested%20in%20learning%20more%20about%20your%20courses!)
 
 ---

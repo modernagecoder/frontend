@@ -485,6 +485,46 @@ Leave a number and a mentor rings back at an hour that makes sense where you liv
 
 Prefer to look around first? Read [how we teach](/how-we-teach), browse the [full course catalogue](/courses), or see what students have built in [Student Labs](/student-labs).
 
+## Keep exploring Modern Age Coders
+
+### Coding classes in nearby places
+
+- [AI and Machine Learning Classes in Brunei](/ai-and-machine-learning-classes-in-brunei)
+- [Online Maths Tuition Singapore](/online-maths-tuition-singapore)
+- [AI and Machine Learning Classes in Hong Kong](/ai-and-machine-learning-classes-in-hong-kong)
+- [Coding Classes in Tutong](/coding-classes-in-tutong)
+- [Coding Classes in Temburong and Bangar](/coding-classes-in-temburong)
+- [Online Coding & AI Classes in Australia](/coding-classes-in-australia)
+- [Coding Classes in Jerudong, Brunei](/coding-classes-in-jerudong)
+- [Online Coding Classes in Hong Kong](/coding-classes-in-hong-kong)
+- [Coding Classes in Gadong, Brunei](/coding-classes-in-gadong)
+
+### Learn more
+
+- [Build Machine Learning Models in Python](/build-machine-learning-models-in-python)
+- [Python for Machine Learning](/python-for-machine-learning)
+- [Orange Data Mining Course for Teens: Machine Learning Without Code](/courses/orange-data-mining-visual-machine-learning-course-for-teens)
+- [How to Train Machine Learning Models](/how-to-train-machine-learning-models)
+
+### Free resources
+
+- [AI & Machine Learning Tutorial: Basics to Deep Learning](/resources/ai-and-machine-learning)
+- [Linear Regression](/resources/ai-and-machine-learning/linear-regression)
+- [Model Evaluation, Cross-Validation, and Hyperparameter Tuning](/resources/ai-and-machine-learning/model-evaluation-and-tuning)
+- [Reinforcement Learning Basics](/resources/ai-and-machine-learning/reinforcement-learning-basics)
+
+### From the blog
+
+- [AI & Machine Learning Guides](/blog/topic/ai)
+- [How AI and Automation Are Transforming Small and Medium Businesses](/blog/ai-automation-transforming-small-medium-businesses)
+- [How to Teach Kids AI at Home: A Safe 2026 Parent Guide](/blog/how-to-teach-kids-ai-at-home)
+- [What Type of Data is Generative AI Most Suitable For? A Complete Guide](/blog/what-type-of-data-is-generative-ai-most-suitable-for)
+
+### Start here
+
+- [What Modern Age Coders families say](/love)
+- [Book a free demo class with Modern Age Coders](/book-demo)
+
 [Chat with us](https://wa.me/919123366161?text=Hi%2C%20I'm%20interested%20in%20learning%20more%20about%20your%20courses!)
 
 ---

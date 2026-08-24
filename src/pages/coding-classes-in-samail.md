@@ -338,6 +338,42 @@ The [Oman coding hub](/coding-classes-in-oman) covers national delivery and fees
 
 Book the free class[Close with WhatsApp](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20want%20a%20free%20coding%20class%20for%20a%20learner%20in%20Samail.)Free Samail class[Call +91 91233 66161](tel:+919123366161)
 
+## Keep exploring Modern Age Coders
+
+### Coding classes in nearby places
+
+- [Online Coding Classes in Seeb](/coding-classes-in-seeb)
+- [Coding Classes in Salalah](/coding-classes-in-salalah)
+- [Coding Classes in Shalim](/coding-classes-in-shalim)
+- [Coding Classes in Saham](/coding-classes-in-saham)
+- [Coding Classes in Shinas](/coding-classes-in-shinas)
+- [Coding Classes in Rustaq](/coding-classes-in-rustaq)
+- [Coding and AI Classes for Girls in Oman](/ai-and-python-academy-for-girls-oman)
+- [Coding Classes in Wadi Bani Khalid](/coding-classes-in-wadi-bani-khalid)
+- [Coding Classes in Thumrait](/coding-classes-in-thumrait)
+
+### Learn more
+
+- [Data Science for Teens: Python & Your First ML Models](/courses/data-science-course-for-teens-python-data)
+
+### Free resources
+
+- [SQL Tutorial: Databases, Basics to Advanced](/resources/sql)
+- [Date and Time Functions](/resources/sql/date-and-time-functions)
+- [Comprehensions and Generators](/resources/python/list-comprehensions-and-generators)
+- [Self Joins and Multi-Table Queries](/resources/sql/self-joins-and-multi-table)
+
+### From the blog
+
+- [AP CSP vs AP CSA: Which Should You Take First?](/blog/ap-csp-vs-ap-csa-which-to-take-first)
+- [Learn Python for Beginners: Complete Step-by-Step Guide (2026)](/blog/python-for-beginners)
+- [Python vs JavaScript: Which Should You Learn First?](/blog/python-vs-javascript-which-to-learn-first)
+
+### Start here
+
+- [Real projects built by Modern Age Coders students](/student-labs)
+- [Browse every live course at Modern Age Coders](/courses)
+
 ---
 
 *Canonical: https://learn.modernagecoders.com/coding-classes-in-samail*

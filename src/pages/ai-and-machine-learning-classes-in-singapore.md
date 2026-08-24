@@ -501,6 +501,49 @@ Leave a number and a mentor calls back, usually within a few hours and at an hou
 
 Prefer to read first? See [how we teach](/how-we-teach), the [full course catalogue](/courses), our [coding classes in Singapore](/coding-classes-in-singapore), or [Student Labs](/student-labs).
 
+## Keep exploring Modern Age Coders
+
+### Coding classes in nearby places
+
+- [Online Coding & AI Classes in Australia](/coding-classes-in-australia)
+- [AI and Machine Learning Classes in Hong Kong](/ai-and-machine-learning-classes-in-hong-kong)
+- [Coding Classes in Bandar Seri Begawan](/coding-classes-in-bandar-seri-begawan)
+- [AI and Machine Learning Classes in Brunei](/ai-and-machine-learning-classes-in-brunei)
+- [Online Coding Classes in Brunei](/coding-classes-in-brunei)
+- [AI and Machine Learning Classes in Australia](/ai-and-machine-learning-classes-in-australia)
+- [Coding Classes in Kuala Belait and Seria](/coding-classes-in-kuala-belait)
+- [Coding Classes in Tutong](/coding-classes-in-tutong)
+- [Coding Classes in Temburong and Bangar](/coding-classes-in-temburong)
+- [Coding Classes in Abu Dhabi](/coding-classes-in-abu-dhabi)
+- [Coding Classes in Liang and Lumut, Brunei](/coding-classes-in-liang)
+- [Online Coding Classes in the Netherlands](/coding-classes-in-netherlands)
+
+### Learn more
+
+- [Orange Data Mining Course for Teens: Machine Learning Without Code](/courses/orange-data-mining-visual-machine-learning-course-for-teens)
+- [Python for Machine Learning](/python-for-machine-learning)
+- [Master AI, ML, Python & Java: Go Deeper](/master-ai-ml-python-java)
+- [How to Train Machine Learning Models](/how-to-train-machine-learning-models)
+
+### Free resources
+
+- [AI & Machine Learning Tutorial: Basics to Deep Learning](/resources/ai-and-machine-learning)
+- [Logistic Regression and Classification](/resources/ai-and-machine-learning/logistic-regression-and-classification)
+- [Natural Language Processing (NLP) Fundamentals](/resources/ai-and-machine-learning/natural-language-processing)
+- [Support Vector Machines (SVM)](/resources/ai-and-machine-learning/support-vector-machines)
+
+### From the blog
+
+- [AI & Machine Learning Guides](/blog/topic/ai)
+- [What Type of Data is Generative AI Most Suitable For? A Complete Guide](/blog/what-type-of-data-is-generative-ai-most-suitable-for)
+- [What is Vibe Coding? The Ultimate Deep-Dive Guide to AI-Powered](/blog/what-is-vibe-coding-future-of-software-development)
+- [Coding vs AI: What Should My Child Learn in 2026?](/blog/coding-vs-ai-what-should-my-child-learn)
+
+### Start here
+
+- [Try a free trial class with a Modern Age Coders mentor](/free-trial)
+- [About Modern Age Coders, teaching since 2020](/about)
+
 [Chat with us](https://wa.me/919123366161?text=Hi%2C%20I'm%20interested%20in%20learning%20more%20about%20your%20courses!)
 
 ---

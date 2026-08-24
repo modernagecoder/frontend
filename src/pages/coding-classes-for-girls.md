@@ -399,6 +399,38 @@ Globally, women make up only 28% of the tech workforce, but that number is growi
 - ✓ Community of 500+ girls already learning with us
 - ✓ Flexible scheduling across all time zones
 
+## Keep exploring Modern Age Coders
+
+### Related courses and guides
+
+- [Coding Classes for Kids Cost 2026: US Prices by Format](/coding-classes-for-kids-cost)
+- [Coding Classes for DPS Vasant Kunj Students Students](/coding-classes-for-dps-vasant-kunj-new-delhi)
+- [Coding Classes for Kids in Doha](/coding-classes-for-kids-in-doha)
+- [Coding Classes for DPS Ruby Park Students Students](/coding-classes-for-dps-ruby-park-kolkata)
+- [Coding Classes for Kids in Dubai](/coding-classes-for-kids-in-dubai)
+- [Coding Classes for DPS Rohini Students](/coding-classes-for-dps-rohini-new-delhi)
+- [Bug Fixing, QA & Software Maintenance Services](/software-maintenance-and-support)
+- [Learn Programming Languages & Frameworks](/coding-lang)
+- [Mobile App Development Company](/mobile-app-development-services)
+
+### Free resources
+
+- [SQL Tutorial: Databases, Basics to Advanced](/resources/sql)
+- [Functions in Python](/resources/python/functions-in-python)
+- [INSERT, UPDATE, DELETE](/resources/sql/insert-update-delete)
+- [Loops in Python (for and while)](/resources/python/loops-in-python)
+
+### From the blog
+
+- [Python List Comprehension: 15 Examples, Simple to Advanced](/blog/python-list-comprehension-explained)
+- [Fibonacci Series in Python: 7 Ways to Write It](/blog/fibonacci-series-in-python)
+- [Learn Python Step by Step: The Free Tutorial Library](/blog/learn-python-step-by-step)
+
+### Start here
+
+- [Real projects built by Modern Age Coders students](/student-labs)
+- [Browse every live course at Modern Age Coders](/courses)
+
 [![Modern Age Coders Logo](/images/logo.svg)Modern Age Coders](/)
 
 Forging the next generation of innovators.

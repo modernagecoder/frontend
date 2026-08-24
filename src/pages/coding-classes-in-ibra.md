@@ -423,7 +423,44 @@ Share the learner's age or grade and intended skill. Modern Age Coders will revi
 
 Use the national page for common delivery details, then compare two city projects with different data failures.
 
-[**Oman coding classes**National course, fee and service guide](/coding-classes-in-oman)[**Sur coding classes**Cumulative totals mistaken for rates](/coding-classes-in-sur)[**Ibri coding classes**Stale cached data and freshness](/coding-classes-in-ibri)Free Ibra class[Call +91 91233 66161](tel:+919123366161)[Chat with us](https://wa.me/919123366161?text=Hi%2C%20I'm%20interested%20in%20learning%20more%20about%20your%20courses!)
+[**Oman coding classes**National course, fee and service guide](/coding-classes-in-oman)[**Sur coding classes**Cumulative totals mistaken for rates](/coding-classes-in-sur)[**Ibri coding classes**Stale cached data and freshness](/coding-classes-in-ibri)Free Ibra class[Call +91 91233 66161](tel:+919123366161)
+
+## Keep exploring Modern Age Coders
+
+### Coding classes in nearby places
+
+- [Coding Classes in Haima](/coding-classes-in-haima)
+- [Coding Classes in Izki](/coding-classes-in-izki)
+- [Coding Classes in Duqm](/coding-classes-in-duqm)
+- [Coding Classes in Khasab](/coding-classes-in-khasab)
+- [Coding Classes in Dima Wa Attayeen](/coding-classes-in-dima-wa-attayeen)
+- [Coding Classes in Liwa](/coding-classes-in-liwa)
+- [Coding Classes in Mawaleh](/coding-classes-in-mawaleh)
+- [Coding Classes in Madinat Al Sultan Qaboos](/coding-classes-in-madinat-al-sultan-qaboos)
+- [Coding Classes in Madinat Al Irfan](/coding-classes-in-madinat-al-irfan)
+- [Coding Classes in Dhank](/coding-classes-in-dhank)
+- [Online Coding Classes in Hong Kong](/coding-classes-in-hong-kong)
+- [Coding Classes in Jerudong, Brunei](/coding-classes-in-jerudong)
+
+### Free resources
+
+- [C++ Tutorial: From Basics to Advanced](/resources/cpp)
+- [Modern C++ Features (C++11 to C++20)](/resources/cpp/modern-cpp-features)
+- [Model Evaluation, Cross-Validation, and Hyperparameter Tuning](/resources/ai-and-machine-learning/model-evaluation-and-tuning)
+- [STL Containers - vector, list, map, set, stack, queue](/resources/cpp/stl-containers)
+
+### From the blog
+
+- [Coding Class Fees in India 2026: What to Pay](/blog/coding-class-fees-india-2026)
+- [Coding for 7-Year-Olds: What and How Kids Should Learn Programming](/blog/coding-for-7-year-olds-what-how-kids-should-learn-programming)
+- [30+ Scratch Project Ideas for Kids](/blog/30-plus-scratch-project-ideas-kids-fun-coding-beginner-advanced)
+
+### Start here
+
+- [Browse every live course at Modern Age Coders](/courses)
+- [Try a free trial class with a Modern Age Coders mentor](/free-trial)
+
+[Chat with us](https://wa.me/919123366161?text=Hi%2C%20I'm%20interested%20in%20learning%20more%20about%20your%20courses!)
 
 ---
 

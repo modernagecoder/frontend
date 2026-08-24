@@ -582,6 +582,42 @@ Rather read first? [The full course syllabus](/courses/ap-computer-science-princ
 
 Live classes only, one to one or in a small batch, taught from India at a time that works for the student. We do not sell recordings. The form opens a conversation, not an enrolment.
 
+## Keep exploring Modern Age Coders
+
+### Related courses and guides
+
+- [Aura Type - Master Your Typing Flow](/aura)
+- [Beat The Babu: The Fastest 90-Second Math Challenge Game](/beat-the-babu)
+- [Agentic Coding Classes](/agentic-coding-classes)
+- [Best Age to Start Coding? The Honest Age-by-Age Answer](/best-age-to-start-coding)
+- [AEO & GEO Services](/aeo-geo-optimization-services)
+- [Best Coding Classes for Kids in India and Worldwide](/best-coding-classes-online)
+- [Software Scaling & Modernization Services](/software-scaling-and-modernization)
+- [Coding Classes for DPS R.K. Puram Students](/coding-classes-for-dps-rk-puram-new-delhi)
+- [Coding Classes for Kids in Doha](/coding-classes-for-kids-in-doha)
+
+### Learn more
+
+- [Computer Science Class 12 CBSE: Python Data Structures](/computer-science-class-12-cbse)
+
+### Free resources
+
+- [JavaScript Tutorial: Build Interactive Websites](/resources/javascript)
+- [Variables and Data Types](/resources/javascript/variables-and-data-types)
+- [Closures, Scope, and Hoisting](/resources/javascript/closures-scope-and-hoisting)
+- [Forms, Inputs, and Form Validation](/resources/html-and-css/forms-and-inputs)
+
+### From the blog
+
+- [AP Computer Science A Changes for 2026: A Parent's Guide](/blog/ap-computer-science-a-changes-2026)
+- [20 Python Programs for CBSE Class 12 Board Exam (083)](/blog/python-programs-for-cbse-class-12)
+- [How to Revise GCSE Computer Science (AQA and OCR)](/blog/how-to-revise-gcse-computer-science)
+
+### Start here
+
+- [Try a free trial class with a Modern Age Coders mentor](/free-trial)
+- [About Modern Age Coders, teaching since 2020](/about)
+
 ---
 
 *Canonical: https://learn.modernagecoders.com/ap-computer-science-principles-online-coaching*

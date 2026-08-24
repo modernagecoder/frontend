@@ -273,6 +273,45 @@ Prefer WhatsApp? [Message us](https://wa.me/919123366161?text=Hi,%20I%20want%20a
 
 4.9 rating across 547+ Google reviews
 
+## Keep exploring Modern Age Coders
+
+### Coding classes in nearby places
+
+- [Online Coding Classes in Bahrain](/coding-classes-in-bahrain)
+- [CBSE Maths Tutor in the UAE](/cbse-maths-tutor-uae)
+- [Coding Classes in Dammam & Khobar](/coding-classes-in-dammam)
+- [American Curriculum & SAT Maths Tutor in the UAE](/american-maths-tutor-uae)
+- [Coding Classes in Doha](/coding-classes-in-doha)
+- [AI Classes in Saudi Arabia](/ai-classes-in-saudi-arabia)
+- [Python for Kids in Dubai](/python-for-kids-in-dubai)
+- [Maths Classes for Adults in the UAE](/maths-classes-for-adults-uae)
+- [Coding Classes in Jeddah](/coding-classes-in-jeddah)
+
+### Learn more
+
+- [Java Classes for Adults](/java-classes-for-adults)
+- [AI & Machine Learning for Working Professionals](/ai-and-machine-learning-for-working-professionals)
+- [Coding Classes for La Martiniere for Boys Students](/coding-classes-for-la-martiniere-boys-kolkata)
+- [Data Analytics Course](/data-analytics-course)
+
+### Free resources
+
+- [AI & Machine Learning Tutorial: Basics to Deep Learning](/resources/ai-and-machine-learning)
+- [Java Memory Model and Garbage Collection](/resources/java/java-memory-and-garbage-collection)
+- [MLOps and Model Deployment](/resources/ai-and-machine-learning/ml-ops-and-model-deployment)
+- [Polymorphism in Java](/resources/java/polymorphism-in-java)
+
+### From the blog
+
+- [21 Best Coding Courses for Students 2026 (Free & Paid)](/blog/best-free-paid-coding-courses-students)
+- [Exception Handling in Python: Try, Except, Finally](/blog/exception-handling-in-python)
+- [Scratch vs Python: Which is Better for Young Learners?](/blog/scratch-vs-python-which-better-young-learners)
+
+### Start here
+
+- [Try a free trial class with a Modern Age Coders mentor](/free-trial)
+- [About Modern Age Coders, teaching since 2020](/about)
+
 [Chat with us](https://wa.me/919123366161?text=Hi%2C%20I'm%20interested%20in%20learning%20more%20about%20your%20courses!)
 
 ---

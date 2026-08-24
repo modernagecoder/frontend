@@ -332,6 +332,49 @@ Read first if you prefer: the [academy hub for Oman](/ai-and-python-academy-oman
 
 There is no centre anywhere in Oman. Every session is a live video call taught from India, and the number above rings in India.
 
+## Keep exploring Modern Age Coders
+
+### Coding classes in nearby places
+
+- [Vibe Coding vs Building AI: A Guide for Parents in Oman](/vibe-coding-vs-building-ai-oman)
+- [Coding Classes in Yanqul](/coding-classes-in-yanqul)
+- [AI and Machine Learning Classes in Muscat](/ai-and-machine-learning-classes-in-muscat)
+- [Coding Classes in Wadi Bani Khalid](/coding-classes-in-wadi-bani-khalid)
+- [AI & Machine Learning Classes in Oman](/ai-and-machine-learning-classes-in-oman)
+- [Coding Classes in Wadi Al Maawil](/coding-classes-in-wadi-al-maawil)
+- [Coding Classes in Ash Sharqiyah North](/coding-classes-in-ash-sharqiyah-north)
+- [Coding Classes in Al Wusta](/coding-classes-in-al-wusta)
+- [Coding Classes in Al Musanaah](/coding-classes-in-al-musanaah)
+- [Online Coding Classes in Birmingham](/coding-classes-in-birmingham)
+- [Coding Classes in Manah](/coding-classes-in-manah)
+- [Tuples in Python Practice](/resources/python/tuples-in-python/practice)
+
+### Learn more
+
+- [Coding for Class 6: Python, HTML/CSS & AI Projects Matched to](/coding-for-class-6)
+- [Python for Machine Learning](/python-for-machine-learning)
+- [Coding for Class 5: Python, Scratch & AI Tools for 10 Year Olds](/coding-for-class-5)
+- [Coding for Class 11: CS Stream, Python/Pandas, MERN, AI/ML & DSA in C++](/coding-for-class-11)
+
+### Free resources
+
+- [Python Tutorial for Beginners: Complete Guide](/resources/python)
+- [Convolutional Neural Networks (CNN) for Computer Vision](/resources/ai-and-machine-learning/convolutional-neural-networks)
+- [Functions in Python](/resources/python/functions-in-python)
+- [Introduction to AI and Machine Learning](/resources/ai-and-machine-learning/introduction-to-ai-and-ml)
+
+### From the blog
+
+- [Python Tutorials & Guides](/blog/topic/python)
+- [Coding vs AI: What Should My Child Learn in 2026?](/blog/coding-vs-ai-what-should-my-child-learn)
+- [What Type of Data is Generative AI Most Suitable For? A Complete Guide](/blog/what-type-of-data-is-generative-ai-most-suitable-for)
+- [Top Emerging Tech Skills to Learn in 2025 (AI, Low-Code, Cloud)](/blog/top-emerging-tech-skills-learn-2025-ai-low-code-cloud)
+
+### Start here
+
+- [Real projects built by Modern Age Coders students](/student-labs)
+- [Browse every live course at Modern Age Coders](/courses)
+
 [Chat with us](https://wa.me/919123366161?text=Hi%2C%20I'm%20interested%20in%20learning%20more%20about%20your%20courses!)
 
 ---

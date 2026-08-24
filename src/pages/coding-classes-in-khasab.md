@@ -453,7 +453,42 @@ Share the learner's age or grade and intended skill. Modern Age Coders will revi
 
 Use the country page for shared class facts, then compare two city projects with different analytical risks.
 
-[**Oman coding classes**National course, fee and service guide](/coding-classes-in-oman)[**Duqm coding classes**Percentage growth from a tiny base](/coding-classes-in-duqm)[**Sohar coding classes**Quantities with mismatched units](/coding-classes-in-sohar)Free Khasab class[Call +91 91233 66161](tel:+919123366161)[Chat with us](https://wa.me/919123366161?text=Hi%2C%20I'm%20interested%20in%20learning%20more%20about%20your%20courses!)
+[**Oman coding classes**National course, fee and service guide](/coding-classes-in-oman)[**Duqm coding classes**Percentage growth from a tiny base](/coding-classes-in-duqm)[**Sohar coding classes**Quantities with mismatched units](/coding-classes-in-sohar)Free Khasab class[Call +91 91233 66161](tel:+919123366161)
+
+## Keep exploring Modern Age Coders
+
+### Coding classes in nearby places
+
+- [Coding Classes in Liwa](/coding-classes-in-liwa)
+- [Coding Classes in Izki](/coding-classes-in-izki)
+- [Coding Classes in Madinat Al Irfan](/coding-classes-in-madinat-al-irfan)
+- [Coding Classes in Ibri](/coding-classes-in-ibri)
+- [Coding Classes in Madinat Al Sultan Qaboos](/coding-classes-in-madinat-al-sultan-qaboos)
+- [Coding Classes in Ibra](/coding-classes-in-ibra)
+- [Coding Classes in Saham](/coding-classes-in-saham)
+- [Coding Classes in Qurayyat](/coding-classes-in-qurayyat)
+- [Online Coding Classes in Muttrah](/coding-classes-in-muttrah)
+- [Coding & Maths Classes in Greenfield City, Behala](/coding-classes-in-greenfield-city-behala)
+
+### Free resources
+
+- [HTML & CSS Tutorial: Build Websites from Scratch](/resources/html-and-css)
+- [Competitive Programming Patterns in C++](/resources/cpp/competitive-programming-patterns)
+- [Flexbox - The Complete Guide | HTML and CSS Tutorial](/resources/html-and-css/flexbox-complete-guide)
+- [Input, Output, and Formatting](/resources/cpp/input-output-and-formatting)
+
+### From the blog
+
+- [Coding Class Fees in India 2026: What to Pay](/blog/coding-class-fees-india-2026)
+- [30+ Scratch Project Ideas for Kids](/blog/30-plus-scratch-project-ideas-kids-fun-coding-beginner-advanced)
+- [20 HTML, CSS, and JavaScript Project Ideas (With Code)](/blog/html-css-javascript-project-ideas)
+
+### Start here
+
+- [About Modern Age Coders, teaching since 2020](/about)
+- [Modern Age Coders pricing, one honest price per plan](/pricing)
+
+[Chat with us](https://wa.me/919123366161?text=Hi%2C%20I'm%20interested%20in%20learning%20more%20about%20your%20courses!)
 
 ---
 

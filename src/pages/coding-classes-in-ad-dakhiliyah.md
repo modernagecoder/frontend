@@ -455,7 +455,41 @@ Share the learner's age or grade, wilayat and intended skill. Modern Age Coders 
 
 Use the national page for shared service facts, then continue to Nizwa or a neighbouring governorate.
 
-[**Oman coding classes**National course, fee and service guide](/coding-classes-in-oman)[**Nizwa coding classes**Date arithmetic across two calendars](/coding-classes-in-nizwa)[**Ash Sharqiyah North coding classes**Duplicate-key join analysis](/coding-classes-in-ash-sharqiyah-north)Free regional class[Call +91 91233 66161](tel:+919123366161)[Chat with us](https://wa.me/919123366161?text=Hi%2C%20I'm%20interested%20in%20learning%20more%20about%20your%20courses!)
+[**Oman coding classes**National course, fee and service guide](/coding-classes-in-oman)[**Nizwa coding classes**Date arithmetic across two calendars](/coding-classes-in-nizwa)[**Ash Sharqiyah North coding classes**Duplicate-key join analysis](/coding-classes-in-ash-sharqiyah-north)[**Adam coding classes**The word about does not survive arithmetic](/coding-classes-in-adam)[**Al Hamra coding classes**Inclusive and exclusive band edges](/coding-classes-in-al-hamra)[**Bahla coding classes**Perimeter against area](/coding-classes-in-bahla)[**Bidbid coding classes**A rate built on a denominator nobody published](/coding-classes-in-bidbid)[**Izki coding classes**Readings taken at irregular intervals](/coding-classes-in-izki)[**Manah coding classes**A fast search that silently requires an order nobody supplied](/coding-classes-in-manah)[**Samail coding classes**The header row counted as data](/coding-classes-in-samail)Free regional class[Call +91 91233 66161](tel:+919123366161)
+
+## Keep exploring Modern Age Coders
+
+### Coding classes in nearby places
+
+- [Coding Classes in Adh Dhahirah](/coding-classes-in-adh-dhahirah)
+- [Build Real AI Projects: Oman Student Portfolios](/build-real-ai-projects-oman)
+- [Coding Classes in Al Amarat](/coding-classes-in-al-amarat)
+- [AI and Python Academy for Students in Sohar](/ai-and-python-academy-sohar)
+- [Coding Classes in Al Awabi](/coding-classes-in-al-awabi)
+- [AI and Python Academy for Students in Salalah](/ai-and-python-academy-salalah)
+- [Coding Classes in Thumrait](/coding-classes-in-thumrait)
+- [Coding Classes in Shinas](/coding-classes-in-shinas)
+- [Coding Classes in Shalim](/coding-classes-in-shalim)
+
+### Free resources
+
+- [JavaScript Tutorial: Build Interactive Websites](/resources/javascript)
+- [CSS Grid - The Complete Guide | HTML and CSS Tutorial](/resources/html-and-css/css-grid-complete-guide)
+- [CSS Manipulation with JavaScript](/resources/javascript/css-manipulation-with-javascript)
+- [Images, Audio, and Video](/resources/html-and-css/images-and-media)
+
+### From the blog
+
+- [Coding for 7-Year-Olds: What and How Kids Should Learn Programming](/blog/coding-for-7-year-olds-what-how-kids-should-learn-programming)
+- [30+ Scratch Project Ideas for Kids](/blog/30-plus-scratch-project-ideas-kids-fun-coding-beginner-advanced)
+- [Java for Kids: Complete Kids Guide to Learning Java Programming in 2026](/blog/java-for-kids-complete-guide-learning-programming-2026)
+
+### Start here
+
+- [How Modern Age Coders teaches, small batches and real projects](/how-we-teach)
+- [What Modern Age Coders families say](/love)
+
+[Chat with us](https://wa.me/919123366161?text=Hi%2C%20I'm%20interested%20in%20learning%20more%20about%20your%20courses!)
 
 ---
 

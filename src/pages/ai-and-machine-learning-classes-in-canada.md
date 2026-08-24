@@ -498,6 +498,46 @@ Give us a number and a mentor returns the call inside Canadian hours rather than
 
 Prefer to look around first? Read [how we teach](/how-we-teach), browse the [full course catalogue](/courses), or see what students have built in [Student Labs](/student-labs).
 
+## Keep exploring Modern Age Coders
+
+### Coding classes in nearby places
+
+- [Coding Classes in Washington State](/coding-classes-in-washington)
+- [Online Coding Classes in Alberta](/coding-classes-in-alberta)
+- [Coding Classes in Virginia](/coding-classes-in-virginia)
+- [Online Coding Classes in British Columbia](/coding-classes-in-british-columbia)
+- [Online Coding & AI Classes in the USA](/coding-classes-in-united-states)
+- [Coding Classes in California](/coding-classes-in-california)
+- [Online Coding Classes in Maryland](/coding-classes-in-maryland)
+- [Coding & AI Classes in Canada](/coding-classes-in-canada)
+- [Coding Classes in New Jersey](/coding-classes-in-new-jersey)
+
+### Learn more
+
+- [Build Machine Learning Models in Python](/build-machine-learning-models-in-python)
+- [How to Train Machine Learning Models](/how-to-train-machine-learning-models)
+- [Python for Machine Learning](/python-for-machine-learning)
+- [Master AI, ML, Python & Java: Go Deeper](/master-ai-ml-python-java)
+
+### Free resources
+
+- [AI & Machine Learning Tutorial: Basics to Deep Learning](/resources/ai-and-machine-learning)
+- [AI Ethics, Responsible AI, and Career Roadmap](/resources/ai-and-machine-learning/ai-ethics-and-career-guide)
+- [Deep Learning with TensorFlow and Keras](/resources/ai-and-machine-learning/deep-learning-with-tensorflow-keras)
+- [Generative AI](/resources/ai-and-machine-learning/generative-ai-and-diffusion-models)
+
+### From the blog
+
+- [AI & Machine Learning Guides](/blog/topic/ai)
+- [How to Teach Kids AI at Home: A Safe 2026 Parent Guide](/blog/how-to-teach-kids-ai-at-home)
+- [How AI and Automation Are Transforming Small and Medium Businesses](/blog/ai-automation-transforming-small-medium-businesses)
+- [What Type of Data is Generative AI Most Suitable For? A Complete Guide](/blog/what-type-of-data-is-generative-ai-most-suitable-for)
+
+### Start here
+
+- [Real projects built by Modern Age Coders students](/student-labs)
+- [Browse every live course at Modern Age Coders](/courses)
+
 [Chat with us](https://wa.me/919123366161?text=Hi%2C%20I'm%20interested%20in%20learning%20more%20about%20your%20courses!)
 
 ---

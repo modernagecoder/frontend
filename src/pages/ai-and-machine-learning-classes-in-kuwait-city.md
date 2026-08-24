@@ -504,6 +504,47 @@ Leave a number and a mentor calls you back, usually within a few hours, at an ho
 
 Prefer to look around first? Read [how we teach](/how-we-teach), browse the [full course catalogue](/courses), or see what students have built in [Student Labs](/student-labs).
 
+## Keep exploring Modern Age Coders
+
+### Coding classes in nearby places
+
+- [AI & Machine Learning Classes in Qatar](/ai-and-machine-learning-classes-in-qatar)
+- [AI & Machine Learning Classes in Kuwait](/ai-and-machine-learning-classes-in-kuwait)
+- [AI & Machine Learning Classes in Saudi Arabia](/ai-and-machine-learning-classes-in-saudi-arabia)
+- [AI and Machine Learning Classes in Bahrain](/ai-and-machine-learning-classes-in-bahrain)
+- [AI & Machine Learning Classes in UAE](/ai-and-machine-learning-classes-in-uae)
+- [A-Level Maths Tutor in the UAE](/a-level-maths-tutor-uae)
+- [AI Classes for Kids in UAE](/ai-classes-for-kids-in-uae)
+- [Python Classes in Dubai](/python-classes-in-dubai)
+- [Coding Classes in Doha](/coding-classes-in-doha)
+- [Coding Classes in Al Mudhaibi](/coding-classes-in-al-mudhaibi)
+
+### Learn more
+
+- [Learn to Build AI, Not Just Use It](/learn-to-build-ai)
+- [Build Machine Learning Models in Python](/build-machine-learning-models-in-python)
+- [Master AI, ML, Python & Java: Go Deeper](/master-ai-ml-python-java)
+- [How to Train Machine Learning Models](/how-to-train-machine-learning-models)
+
+### Free resources
+
+- [AI & Machine Learning Tutorial: Basics to Deep Learning](/resources/ai-and-machine-learning)
+- [MLOps and Model Deployment](/resources/ai-and-machine-learning/ml-ops-and-model-deployment)
+- [Recurrent Neural Networks (RNN) and LSTM](/resources/ai-and-machine-learning/recurrent-neural-networks)
+- [Unsupervised Learning](/resources/ai-and-machine-learning/unsupervised-learning-clustering)
+
+### From the blog
+
+- [AI & Machine Learning Guides](/blog/topic/ai)
+- [What is Vibe Coding? The Ultimate Deep-Dive Guide to AI-Powered](/blog/what-is-vibe-coding-future-of-software-development)
+- [What Type of Data is Generative AI Most Suitable For? A Complete Guide](/blog/what-type-of-data-is-generative-ai-most-suitable-for)
+- [Coding vs AI: What Should My Child Learn in 2026?](/blog/coding-vs-ai-what-should-my-child-learn)
+
+### Start here
+
+- [Book a free demo class with Modern Age Coders](/book-demo)
+- [Real projects built by Modern Age Coders students](/student-labs)
+
 [Chat with us](https://wa.me/919123366161?text=Hi%2C%20I'm%20interested%20in%20learning%20more%20about%20your%20courses!)
 
 ---

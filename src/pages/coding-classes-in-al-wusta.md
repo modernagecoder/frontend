@@ -435,7 +435,41 @@ Share the learner's age or grade, wilayat and intended skill. Modern Age Coders 
 
 Use the national page for shared service facts, then continue to Duqm or neighbouring Dhofar.
 
-[**Oman coding classes**National course, fee and service guide](/coding-classes-in-oman)[**Duqm coding classes**City-specific missing-period analysis](/coding-classes-in-duqm)[**Dhofar coding classes**Sampling-bias analysis](/coding-classes-in-dhofar)Free regional class[Call +91 91233 66161](tel:+919123366161)[Chat with us](https://wa.me/919123366161?text=Hi%2C%20I'm%20interested%20in%20learning%20more%20about%20your%20courses!)
+[**Oman coding classes**National course, fee and service guide](/coding-classes-in-oman)[**Duqm coding classes**City-specific missing-period analysis](/coding-classes-in-duqm)[**Dhofar coding classes**Sampling-bias analysis](/coding-classes-in-dhofar)[**Haima coding classes**The unit of analysis](/coding-classes-in-haima)[**Mahout coding classes**A quantity with no single value](/coding-classes-in-mahout)Free regional class[Call +91 91233 66161](tel:+919123366161)
+
+## Keep exploring Modern Age Coders
+
+### Coding classes in nearby places
+
+- [Coding Classes in Ash Sharqiyah North](/coding-classes-in-ash-sharqiyah-north)
+- [Coding Classes in Al Musanaah](/coding-classes-in-al-musanaah)
+- [Coding Classes in Ash Sharqiyah South](/coding-classes-in-ash-sharqiyah-south)
+- [Coding Classes in Al Mudhaibi](/coding-classes-in-al-mudhaibi)
+- [Coding Classes in Azaiba](/coding-classes-in-azaiba)
+- [Coding Classes in Al Mazyunah](/coding-classes-in-al-mazyunah)
+- [Coding Classes in Manah](/coding-classes-in-manah)
+- [Coding Classes in Mahdah](/coding-classes-in-mahdah)
+- [Coding Classes in Haima](/coding-classes-in-haima)
+
+### Free resources
+
+- [C++ Tutorial: From Basics to Advanced](/resources/cpp)
+- [Natural Language Processing (NLP) Fundamentals](/resources/ai-and-machine-learning/natural-language-processing)
+- [Strings - C-style and std::string | C++ Tutorial](/resources/cpp/strings-in-cpp)
+- [Arrays and Multidimensional Arrays](/resources/cpp/arrays-in-cpp)
+
+### From the blog
+
+- [Java for Kids: Complete Kids Guide to Learning Java Programming in 2026](/blog/java-for-kids-complete-guide-learning-programming-2026)
+- [Custom Software vs Ready-Made Software: What Is Right for Your Business?](/blog/custom-software-vs-ready-made-software)
+- [The Role of Mathematics in Programming and Logical Problem Solving](/blog/role-of-mathematics-programming-logical-problem-solving)
+
+### Start here
+
+- [How Modern Age Coders teaches, small batches and real projects](/how-we-teach)
+- [What Modern Age Coders families say](/love)
+
+[Chat with us](https://wa.me/919123366161?text=Hi%2C%20I'm%20interested%20in%20learning%20more%20about%20your%20courses!)
 
 ---
 

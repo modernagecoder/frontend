@@ -440,7 +440,42 @@ Share the learner's age or grade and intended skill. Modern Age Coders will revi
 
 Use the national guide for shared class facts, then compare two city projects with different data risks.
 
-[**Oman coding classes**National course, fee and service guide](/coding-classes-in-oman)[**Ibri coding classes**Stale cached data and freshness](/coding-classes-in-ibri)[**Khasab coding classes**Map projection and distorted area](/coding-classes-in-khasab)Free Duqm class[Call +91 91233 66161](tel:+919123366161)[Chat with us](https://wa.me/919123366161?text=Hi%2C%20I'm%20interested%20in%20learning%20more%20about%20your%20courses!)
+[**Oman coding classes**National course, fee and service guide](/coding-classes-in-oman)[**Ibri coding classes**Stale cached data and freshness](/coding-classes-in-ibri)[**Khasab coding classes**Map projection and distorted area](/coding-classes-in-khasab)Free Duqm class[Call +91 91233 66161](tel:+919123366161)
+
+## Keep exploring Modern Age Coders
+
+### Coding classes in nearby places
+
+- [Coding Classes in Haima](/coding-classes-in-haima)
+- [Coding Classes in Dima Wa Attayeen](/coding-classes-in-dima-wa-attayeen)
+- [Coding Classes in Ibra](/coding-classes-in-ibra)
+- [Coding Classes in Dhofar](/coding-classes-in-dhofar)
+- [Coding Classes in Dhank](/coding-classes-in-dhank)
+- [Coding Classes in Izki](/coding-classes-in-izki)
+- [Coding Classes in Khasab](/coding-classes-in-khasab)
+- [Coding Classes in Wadi Bani Khalid](/coding-classes-in-wadi-bani-khalid)
+- [Coding Classes in Wadi Al Maawil](/coding-classes-in-wadi-al-maawil)
+- [Coding Classes in Al Khuwair](/coding-classes-in-al-khuwair)
+
+### Free resources
+
+- [HTML & CSS Tutorial: Build Websites from Scratch](/resources/html-and-css)
+- [Encapsulation, Access Specifie and Friend Functions](/resources/cpp/encapsulation-and-access-specifiers)
+- [HTML Document Structure and Boilerplate](/resources/html-and-css/html-structure-and-boilerplate)
+- [Modern C++ Features (C++11 to C++20)](/resources/cpp/modern-cpp-features)
+
+### From the blog
+
+- [Coding Class Fees in India 2026: What to Pay](/blog/coding-class-fees-india-2026)
+- [File Organization in Python: A Beginner's Guide to Managing Your](/blog/file-organization-in-python)
+- [Coding for 7-Year-Olds: What and How Kids Should Learn Programming](/blog/coding-for-7-year-olds-what-how-kids-should-learn-programming)
+
+### Start here
+
+- [Try a free trial class with a Modern Age Coders mentor](/free-trial)
+- [About Modern Age Coders, teaching since 2020](/about)
+
+[Chat with us](https://wa.me/919123366161?text=Hi%2C%20I'm%20interested%20in%20learning%20more%20about%20your%20courses!)
 
 ---
 

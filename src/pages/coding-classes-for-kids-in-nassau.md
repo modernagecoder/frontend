@@ -303,6 +303,44 @@ Rather read first? [The main Nassau page](/coding-and-ai-classes-in-nassau), [a 
 
 We hold no premises anywhere in the Bahamas. Every session is a live video call taught from India, and the number above rings in India.
 
+## Keep exploring Modern Age Coders
+
+### Related courses and guides
+
+- [Coding Classes for Kids in Riyadh](/coding-classes-for-kids-in-riyadh)
+- [Coding Classes for Kids in Dubai](/coding-classes-for-kids-in-dubai)
+- [Coding Classes for La Martiniere for Boys Students](/coding-classes-for-la-martiniere-boys-kolkata)
+- [Coding Classes for Kids in Doha](/coding-classes-for-kids-in-doha)
+- [Coding Classes for La Martiniere for Girls Students](/coding-classes-for-la-martiniere-girls-kolkata)
+- [Coding Classes for Kids Cost 2026: US Prices by Format](/coding-classes-for-kids-cost)
+- [Computer Science Extracurricula Ranked by What Actually Counts](/computer-science-extracurriculars)
+- [Coding Classes for DPS Vasant Kunj Students Students](/coding-classes-for-dps-vasant-kunj-new-delhi)
+- [Online Coding Classes for Kids in the UK](/online-coding-classes-for-kids-uk)
+
+### Learn more
+
+- [Coding vs Maths: Which Should Your Child Learn? The Honest Answer](/coding-vs-maths)
+- [Minecraft Coding for Kids: From Blocks to Real Code](/courses/minecraft-coding-for-kids-course)
+
+### Free resources
+
+- [HTML & CSS Tutorial: Build Websites from Scratch](/resources/html-and-css)
+- [Colo Backgrounds, and Gradients](/resources/html-and-css/colors-backgrounds-and-gradients)
+- [Dynamic Memory Allocation (new, delete)](/resources/cpp/dynamic-memory-allocation)
+- [Headings, Paragraphs, and Text Formatting](/resources/html-and-css/headings-paragraphs-and-text)
+
+### From the blog
+
+- [Coding for Kids: Guides for Parents](/blog/topic/kids-coding)
+- [Coding vs AI: What Should My Child Learn in 2026?](/blog/coding-vs-ai-what-should-my-child-learn)
+- [Introduction: What is Blockly for Kids?](/blog/what-is-blockly-for-kids)
+- [How to Help With Maths Homework (Without Solving It)](/blog/help-child-with-maths-homework)
+
+### Start here
+
+- [Modern Age Coders pricing, one honest price per plan](/pricing)
+- [How Modern Age Coders teaches, small batches and real projects](/how-we-teach)
+
 [Chat with us](https://wa.me/919123366161?text=Hi%2C%20I'm%20interested%20in%20learning%20more%20about%20your%20courses!)
 
 ---

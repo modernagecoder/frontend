@@ -258,6 +258,47 @@ Prefer to talk first? [Send us a WhatsApp message](https://wa.me/919123366161?te
 
 4.9 rating across 547+ Google reviews
 
+## Keep exploring Modern Age Coders
+
+### Coding classes in nearby places
+
+- [Coding Classes in Dubai](/coding-classes-in-dubai)
+- [Coding Classes in Dammam & Khobar](/coding-classes-in-dammam)
+- [Coding Classes in Jeddah](/coding-classes-in-jeddah)
+- [Online Coding Classes in Bahrain](/coding-classes-in-bahrain)
+- [Online Coding Classes in Kuwait](/coding-classes-in-kuwait)
+- [Coding Classes in Abu Dhabi](/coding-classes-in-abu-dhabi)
+- [Coding Classes in Sharjah](/coding-classes-in-sharjah)
+- [A-Level Maths Tutor in the UAE](/a-level-maths-tutor-uae)
+- [Python for Kids in Dubai](/python-for-kids-in-dubai)
+- [Online Coding Classes in Birmingham](/coding-classes-in-birmingham)
+- [Online Coding Classes in Qurum](/coding-classes-in-qurum)
+
+### Learn more
+
+- [Online Coding Classes for Kids in the UK](/online-coding-classes-for-kids-uk)
+- [AI & ML Course for College Students](/ai-ml-course-for-college-students)
+- [Java Classes for Teens](/java-classes-for-teens)
+- [C++ Projects for Students](/c-plus-plus-projects-for-students)
+
+### Free resources
+
+- [HTML & CSS Tutorial: Build Websites from Scratch](/resources/html-and-css)
+- [Responsive Design and Media Queries](/resources/html-and-css/responsive-design-and-media-queries)
+- [Templates - Function and Class Templates | C++ Tutorial](/resources/cpp/templates-in-cpp)
+- [Competitive Programming Patterns in C++](/resources/cpp/competitive-programming-patterns)
+
+### From the blog
+
+- [Python vs JavaScript: Which Should You Learn First?](/blog/python-vs-javascript-which-to-learn-first)
+- [Project-Based Learning: Why Theory Alone Is Not Enough in Coding](/blog/project-based-learning-why-theory-alone-not-enough-coding)
+- [How College Students Can Build Real-World Projects While Studying](/blog/how-college-students-build-real-world-projects-while-studying)
+
+### Start here
+
+- [How Modern Age Coders teaches, small batches and real projects](/how-we-teach)
+- [What Modern Age Coders families say](/love)
+
 [Chat with us](https://wa.me/919123366161?text=Hi%2C%20I'm%20interested%20in%20learning%20more%20about%20your%20courses!)
 
 ---

@@ -265,6 +265,48 @@ Prefer WhatsApp? [Message us](https://wa.me/919123366161?text=Hi,%20I%20want%20a
 
 4.9 rating across 547+ Google reviews
 
+## Keep exploring Modern Age Coders
+
+### Coding classes in nearby places
+
+- [Coding Classes in Riyadh](/coding-classes-in-riyadh)
+- [Online Coding Classes in Kuwait](/coding-classes-in-kuwait)
+- [Coding Classes in Saudi Arabia](/coding-classes-in-saudi-arabia)
+- [Coding Classes in Jeddah](/coding-classes-in-jeddah)
+- [Coding Classes in Sharjah](/coding-classes-in-sharjah)
+- [Coding Classes in Dubai](/coding-classes-in-dubai)
+- [Python Classes in Qatar](/python-classes-in-qatar)
+- [Maths Classes for Adults in the UAE](/maths-classes-for-adults-uae)
+- [Online Coding Classes in Bahrain](/coding-classes-in-bahrain)
+- [Coding Classes in Al Mazyunah](/coding-classes-in-al-mazyunah)
+- [Coding Classes in Bidiyah](/coding-classes-in-bidiyah)
+- [Coding Classes in Dima Wa Attayeen](/coding-classes-in-dima-wa-attayeen)
+
+### Learn more
+
+- [Artificial Intelligence Course](/artificial-intelligence-course)
+- [Best AI & Machine Learning Course in India](/best-ai-and-machine-learning-course-in-india)
+- [AI & Machine Learning for Working Professionals](/ai-and-machine-learning-for-working-professionals)
+- [Natural Language Processing Course (NLP)](/natural-language-processing-course)
+
+### Free resources
+
+- [Java Tutorial for Beginners to Advanced](/resources/java)
+- [Arrays in Java](/resources/java/arrays-in-java)
+- [Database Design and Normalization (1NF, 2NF, 3NF, BCNF)](/resources/sql/database-design-and-normalization)
+- [Inheritance in Java](/resources/java/inheritance-in-java)
+
+### From the blog
+
+- [What is Vibe Coding? The Ultimate Deep-Dive Guide to AI-Powered](/blog/what-is-vibe-coding-future-of-software-development)
+- [Why Python is the Most Powerful Skill for Professionals Today](/blog/why-python-most-powerful-skill-professionals-today)
+- [How to Read and Write Files in Python (The Complete Guide)](/blog/how-to-read-and-write-files-in-python)
+
+### Start here
+
+- [What Modern Age Coders families say](/love)
+- [Book a free demo class with Modern Age Coders](/book-demo)
+
 [Chat with us](https://wa.me/919123366161?text=Hi%2C%20I'm%20interested%20in%20learning%20more%20about%20your%20courses!)
 
 ---

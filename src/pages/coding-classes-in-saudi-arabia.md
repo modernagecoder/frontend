@@ -261,6 +261,45 @@ Prefer WhatsApp? [Message us](https://wa.me/919123366161?text=Hi,%20I%20want%20a
 
 4.9 rating across 547+ Google reviews
 
+## Keep exploring Modern Age Coders
+
+### Coding classes in nearby places
+
+- [Coding Classes in Sharjah](/coding-classes-in-sharjah)
+- [Online Coding & AI Classes in the UAE](/coding-classes-in-uae)
+- [Coding Classes in Qatar](/coding-classes-in-qatar)
+- [GCSE Maths Tutor in the UAE](/gcse-maths-tutor-uae)
+- [Online Coding Classes in Kuwait](/coding-classes-in-kuwait)
+- [IB Maths Tutor in the UAE](/ib-maths-tutor-uae)
+- [AI and Machine Learning Classes in Bahrain](/ai-and-machine-learning-classes-in-bahrain)
+- [A-Level Maths Tutor in the UAE](/a-level-maths-tutor-uae)
+- [Python for Kids in Dubai](/python-for-kids-in-dubai)
+
+### Learn more
+
+- [Best AI & Machine Learning Course in India](/best-ai-and-machine-learning-course-in-india)
+- [Coding Classes for Kids in Doha](/coding-classes-for-kids-in-doha)
+- [Java Classes for Adults](/java-classes-for-adults)
+- [Artificial Intelligence Course](/artificial-intelligence-course)
+
+### Free resources
+
+- [HTML & CSS Tutorial: Build Websites from Scratch](/resources/html-and-css)
+- [Images, Audio, and Video](/resources/html-and-css/images-and-media)
+- [OOP - Classes, Objects, and Constructors | C++ Tutorial](/resources/cpp/oop-classes-and-objects)
+- [Pseudo-classes and Pseudo-elements](/resources/html-and-css/pseudo-classes-and-pseudo-elements)
+
+### From the blog
+
+- [Why Python is the Most Powerful Skill for Professionals Today](/blog/why-python-most-powerful-skill-professionals-today)
+- [How to Write a Leap Year Program in Python (3 Simple Methods)](/blog/how-to-write-a-leap-year-program-in-python)
+- [Python OOP Tutorial: Classes, Objects, and Inheritance](/blog/python-oop-tutorial-for-beginners)
+
+### Start here
+
+- [Try a free trial class with a Modern Age Coders mentor](/free-trial)
+- [About Modern Age Coders, teaching since 2020](/about)
+
 [Chat with us](https://wa.me/919123366161?text=Hi%2C%20I'm%20interested%20in%20learning%20more%20about%20your%20courses!)
 
 ---

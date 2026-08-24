@@ -599,6 +599,39 @@ Rather read first? [The full course syllabus](/courses/igcse-computer-science-04
 
 Classes are live, one to one or five to eight, taught from India at an hour arranged with you. Nothing here is a recording. The form starts a conversation, not an enrolment.
 
+## Keep exploring Modern Age Coders
+
+### More maths tuition
+
+- [Coding & Maths Classes for BHS Mukundapur Students Kolkata](/coding-and-maths-for-birla-high-school-mukundapur-kolkata)
+- [A-Level Maths Tuition Online](/a-level-maths-tuition-online)
+- [Common Entrance Maths Tuition](/common-entrance-maths-tuition)
+- [UKMT Maths Challenge Tutoring](/ukmt-maths-challenge-tutoring)
+- [Functional Skills Maths Tuition Online](/functional-skills-maths-tuition-online)
+- [GCSE Maths Tuition Online](/gcse-maths-tuition-online)
+- [Online Maths Tuition for Kids in the UK](/online-maths-tuition-for-kids-in-uk)
+- [KS3 Maths Tuition Online](/ks3-maths-tuition-online)
+- [Online Maths Tuition for College & Sixth Form in the UK](/online-maths-tuition-for-college-students-in-uk)
+
+### Learn more
+
+- [Coding for IGCSE Students: Cambridge CS 0478, 0984, ICT & Python](/coding-for-igcse-students)
+- [IB Maths AA & AI: SL & HL, Live Online with IA Coaching](/courses/ib-mathematics-aa-ai-masterclass)
+- [CBSE Class 10 Maths Board Prep: Case Studies & Mocks](/courses/cbse-class-10-maths-board-exam-prep-course)
+- [GCSE Maths Tutor in the UAE](/gcse-maths-tutor-uae)
+
+### From the blog
+
+- [Maths Learning Guides](/blog/topic/maths)
+- [IGCSE Computer Science (0478) Explained for Parents](/blog/igcse-computer-science-explained-for-parents)
+- [How to Revise GCSE Computer Science (AQA and OCR)](/blog/how-to-revise-gcse-computer-science)
+- [20 Python Programs for CBSE Class 12 Board Exam (083)](/blog/python-programs-for-cbse-class-12)
+
+### Start here
+
+- [How Modern Age Coders teaches, small batches and real projects](/how-we-teach)
+- [What Modern Age Coders families say](/love)
+
 ---
 
 *Canonical: https://learn.modernagecoders.com/cambridge-igcse-computer-science-tuition*

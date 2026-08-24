@@ -325,6 +325,42 @@ Student*
 *SSonam Oswal
 Parent of Dhairya*
 
+## Keep exploring Modern Age Coders
+
+### Related courses and guides
+
+- [Hackathons for High School Students](/hackathons-for-high-school-students)
+- [Our Zero-Risk Promise](/guarantee)
+- [Homeschool Coding Curriculum](/homeschool-coding-curriculum)
+- [The Modern Age Coders Gazette](/gazette)
+- [How Computer Vision Works](/how-computer-vision-works)
+- [Free Trial Class](/free-trial)
+- [Parent FAQ | Every Question About Our Classes, Answered Plainly](/parent-faq)
+- [Coding Classes for DPS Navi Mumbai Students](/coding-classes-for-dps-navi-mumbai)
+- [Learn Programming Languages & Frameworks](/coding-lang)
+
+### Learn more
+
+- [Hackathon for Kids: Free Event + 12-Week Prep (Ages 8-12)](/courses/hackathon-prep-for-kids-coding-innovation-ai-projects-course)
+
+### Free resources
+
+- [SQL Tutorial: Databases, Basics to Advanced](/resources/sql)
+- [UNION, UNION ALL, INTERSECT, EXCEPT](/resources/sql/set-operations)
+- [Sets in Python](/resources/python/sets-in-python)
+- [Views, Stored Procedures, and Functions](/resources/sql/views-and-stored-procedures)
+
+### From the blog
+
+- [App Idea to App Store in 60 Days: Teen Developer's Complete Roadmap](/blog/app-idea-to-app-store-60-days-teen-developer-roadmap)
+- [Abacus vs Vedic vs Mental Maths: A Clear Comparison](/blog/abacus-vs-vedic-vs-mental-maths)
+- [Best AI Coding Tools for Students in 2026](/blog/best-ai-coding-tools-for-students-2026)
+
+### Start here
+
+- [About Modern Age Coders, teaching since 2020](/about)
+- [Modern Age Coders pricing, one honest price per plan](/pricing)
+
 [Chat with us](https://wa.me/919123366161?text=Hi%2C%20I'm%20interested%20in%20learning%20more%20about%20your%20courses!)
 
 ---

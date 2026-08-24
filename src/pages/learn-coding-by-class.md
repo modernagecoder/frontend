@@ -71,6 +71,45 @@ All our classes are live, online and 1-on-1. Every student from anywhere in Indi
 
 [Book a free demo →](/book-demo)
 
+## Keep exploring Modern Age Coders
+
+### Related courses and guides
+
+- [Learn Coding From First Principles: Understand How Code Actually Works](/learn-coding-from-first-principles)
+- [Minecraft Coding Classes for Kids](/minecraft-coding-classes-for-kids)
+- [Large Language Models Course (LLMs)](/large-language-models-course)
+- [JEE Aspirant Coding Track: Python & Computational Maths for](/jee-aspirant-coding-track)
+- [Mobile App Development Company](/mobile-app-development-services)
+- [How We Teach: Watch Our Free Coding & Maths Demo Library](/how-we-teach)
+- [How Computer Vision Works](/how-computer-vision-works)
+- [Best Age to Start Coding? The Honest Age-by-Age Answer](/best-age-to-start-coding)
+- [SEO Services](/seo-services)
+
+### Learn more
+
+- [Computer Science Class 11-12: CBSE Python & ICSE/ISC Java](/courses/cbse-icse-computer-science-class-11-12-python-java-complete-course)
+- [Online Coding & AI Classes in the UK](/coding-classes-in-united-kingdom)
+- [Best Coding Classes in Ajmer](/best-coding-class-in-ajmer)
+- [Maths Tuition for Class 10](/maths-class-10)
+
+### Free resources
+
+- [C++ Tutorial: From Basics to Advanced](/resources/cpp)
+- [File Handling (ifstream, ofstream, fstream)](/resources/cpp/file-handling-in-cpp)
+- [KNN and Naive Bayes Classifiers](/resources/ai-and-machine-learning/knn-and-naive-bayes)
+- [Operators in C++](/resources/cpp/operators-in-cpp)
+
+### From the blog
+
+- [20 Python Programs for CBSE Class 12 Board Exam (083)](/blog/python-programs-for-cbse-class-12)
+- [String Handling in Java: The ICSE and CBSE Guide](/blog/string-handling-in-java)
+- [IGCSE 0478 Pseudocode: The Rules Examiners Mark](/blog/igcse-computer-science-0478-pseudocode-guide)
+
+### Start here
+
+- [How Modern Age Coders teaches, small batches and real projects](/how-we-teach)
+- [What Modern Age Coders families say](/love)
+
 Parent & student voices
 
 ## What our families say

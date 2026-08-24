@@ -509,6 +509,38 @@ Live online coding and maths classes for kids, teens and adults across India, sm
 
 [Browse all courses →](/courses)[Book a free demo](/book-demo)[Best Coding Classes Online](/best-coding-classes-online)
 
+## Keep exploring Modern Age Coders
+
+### Coding classes in nearby places
+
+- [Coding Classes in Jalan Bani Bu Ali](/coding-classes-in-jalan-bani-bu-ali)
+- [Coding Classes in Jalan Bani Bu Hassan](/coding-classes-in-jalan-bani-bu-hassan)
+- [Coding Classes in Madha](/coding-classes-in-madha)
+- [Coding Classes in Mahout](/coding-classes-in-mahout)
+- [Coding Classes in Nakhal](/coding-classes-in-nakhal)
+- [Coding Classes in Daba Al Bayah](/coding-classes-in-daba-al-bayah)
+- [Coding Classes in Al Qabil](/coding-classes-in-al-qabil)
+- [Online Coding Classes in Al Mouj](/coding-classes-in-al-mouj)
+- [Coding Classes in Al Khaburah](/coding-classes-in-al-khaburah)
+
+### Free resources
+
+- [C++ Tutorial: From Basics to Advanced](/resources/cpp)
+- [Loops (for, while, do-while) and Patterns](/resources/cpp/loops-in-cpp)
+- [MLOps and Model Deployment](/resources/ai-and-machine-learning/ml-ops-and-model-deployment)
+- [STL Algorithms and Iterators](/resources/cpp/stl-algorithms-and-iterators)
+
+### From the blog
+
+- [Scratch vs Python: Which is Better for Young Learners?](/blog/scratch-vs-python-which-better-young-learners)
+- [Python List Comprehension: 15 Examples, Simple to Advanced](/blog/python-list-comprehension-explained)
+- [21 Best Coding Courses for Students 2026 (Free & Paid)](/blog/best-free-paid-coding-courses-students)
+
+### Start here
+
+- [Real projects built by Modern Age Coders students](/student-labs)
+- [Browse every live course at Modern Age Coders](/courses)
+
 Parent & student voices
 
 ## What our families say

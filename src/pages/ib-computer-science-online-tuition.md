@@ -582,6 +582,39 @@ Rather read first? [The full course syllabus](/courses/ib-diploma-computer-scien
 
 Live classes only, one to one or a batch of five to eight, taught from India at an hour arranged with you. We do not sell recordings. The form starts a conversation, not an enrolment.
 
+## Keep exploring Modern Age Coders
+
+### More maths tuition
+
+- [IB Maths Tuition Online](/ib-maths-tuition-online)
+- [Further Maths Tuition Online](/further-maths-tuition-online)
+- [Coding Olympiad Medal Track: IOQI, ZIO, INOI, IOI, Bebras](/coding-olympiad-medal-track)
+- [Math Catch-Up Program](/math-catch-up-program)
+- [Coding & Maths Classes for Sushila Birla Girls' School Kolkata](/coding-and-maths-for-sushila-birla-girls-school-kolkata)
+- [Math Olympiad & AMC Tutoring Online](/math-olympiad-amc-tutoring)
+- [Maths Tuition for Class 10](/maths-class-10)
+- [Singapore Math Method Tutoring Online](/singapore-math-method-tutoring)
+- [Online Summer Math Program 2026](/summer-math-program-online)
+
+### Learn more
+
+- [Computer Applications ICSE Class 10: Java BlueJ Tuition](/computer-applications-icse-class-10)
+- [CBSE Class 10 Maths Board Prep: Case Studies & Mocks](/courses/cbse-class-10-maths-board-exam-prep-course)
+- [IGCSE Maths: Core, Extended & Additional Mathematics Online](/courses/igcse-mathematics-mastery)
+- [The Course Atlas: Every Coding, AI & Mathematics Course (Kids, Teens](/course-atlas)
+
+### From the blog
+
+- [Maths Learning Guides](/blog/topic/maths)
+- [20 Python Programs for CBSE Class 12 Board Exam (083)](/blog/python-programs-for-cbse-class-12)
+- [How to Revise GCSE Computer Science (AQA and OCR)](/blog/how-to-revise-gcse-computer-science)
+- [ICSE Class 10 Computer Applications: Revision Guide](/blog/icse-class-10-computer-applications-revision)
+
+### Start here
+
+- [What Modern Age Coders families say](/love)
+- [Book a free demo class with Modern Age Coders](/book-demo)
+
 ---
 
 *Canonical: https://learn.modernagecoders.com/ib-computer-science-online-tuition*

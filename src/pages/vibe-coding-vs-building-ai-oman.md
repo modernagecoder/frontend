@@ -324,6 +324,48 @@ Read first if you prefer: the [academy hub for Oman](/ai-and-python-academy-oman
 
 There is no centre anywhere in Oman. Every session is a live video call taught from India, and the number above rings in India.
 
+## Keep exploring Modern Age Coders
+
+### Coding classes in nearby places
+
+- [AI and Machine Learning Classes in Muscat](/ai-and-machine-learning-classes-in-muscat)
+- [AI & Machine Learning Classes in Oman](/ai-and-machine-learning-classes-in-oman)
+- [Coding Classes in Yanqul](/coding-classes-in-yanqul)
+- [Coding and AI Classes for Girls in Oman](/ai-and-python-academy-for-girls-oman)
+- [Coding Classes in Wadi Bani Khalid](/coding-classes-in-wadi-bani-khalid)
+- [Coding Classes in Wadi Al Maawil](/coding-classes-in-wadi-al-maawil)
+- [Coding Classes in Azaiba](/coding-classes-in-azaiba)
+- [Coding Classes in Ash Sharqiyah South](/coding-classes-in-ash-sharqiyah-south)
+- [Coding Classes in Al Khoudh](/coding-classes-in-al-khoudh)
+- [Coding Classes in Al Mazyunah](/coding-classes-in-al-mazyunah)
+- [Decision Trees and Random Forests Practice](/resources/ai-and-machine-learning/decision-trees-and-random-forests/practice)
+
+### Learn more
+
+- [AI Literacy for Students](/ai-literacy-for-students)
+- [Generative AI Course](/generative-ai-course)
+- [Large Language Models Course (LLMs)](/large-language-models-course)
+- [Best AI & Machine Learning Course in India](/best-ai-and-machine-learning-course-in-india)
+
+### Free resources
+
+- [AI & Machine Learning Tutorial: Basics to Deep Learning](/resources/ai-and-machine-learning)
+- [Mathematics for Machine Learning](/resources/ai-and-machine-learning/mathematics-for-ml)
+- [Python for AI](/resources/ai-and-machine-learning/python-for-ai-essentials)
+- [Transformers and Attention Mechanism](/resources/ai-and-machine-learning/transformers-and-attention)
+
+### From the blog
+
+- [AI & Machine Learning Guides](/blog/topic/ai)
+- [How to Teach Kids AI at Home: A Safe 2026 Parent Guide](/blog/how-to-teach-kids-ai-at-home)
+- [What is Vibe Coding? The Ultimate Deep-Dive Guide to AI-Powered](/blog/what-is-vibe-coding-future-of-software-development)
+- [UAE Made AI Mandatory in Schools: What It Means](/blog/uae-ai-curriculum-schools-what-it-means)
+
+### Start here
+
+- [What Modern Age Coders families say](/love)
+- [Book a free demo class with Modern Age Coders](/book-demo)
+
 [Chat with us](https://wa.me/919123366161?text=Hi%2C%20I'm%20interested%20in%20learning%20more%20about%20your%20courses!)
 
 ---

@@ -507,6 +507,46 @@ Leave a number and a mentor calls back at an hour that works in German local tim
 
 Prefer to look around first? Read [how we teach](/how-we-teach), browse the [full course catalogue](/courses), or see what students have built in [Student Labs](/student-labs).
 
+## Keep exploring Modern Age Coders
+
+### Coding classes in nearby places
+
+- [Online Coding & AI Classes in the UK](/coding-classes-in-united-kingdom)
+- [AI and Machine Learning Classes in London](/ai-and-machine-learning-classes-in-london)
+- [Online Coding & AI Classes in Switzerland](/coding-classes-in-switzerland)
+- [AI and Machine Learning Classes in the Netherlands](/ai-and-machine-learning-classes-in-netherlands)
+- [Online Coding & AI Classes in Sweden](/coding-classes-in-sweden)
+- [Coding & Maths Classes near Sukhobrishti](/coding-classes-in-sukhobrishti)
+- [Online Coding & AI Classes in Ireland](/coding-classes-in-ireland)
+- [Coding & AI Classes in Germany](/coding-classes-in-germany)
+- [AI and Machine Learning Classes in the UK](/ai-and-machine-learning-classes-in-uk)
+
+### Learn more
+
+- [Orange Data Mining Course for Teens: Machine Learning Without Code](/courses/orange-data-mining-visual-machine-learning-course-for-teens)
+- [Best AI & Machine Learning Course in India](/best-ai-and-machine-learning-course-in-india)
+- [AI Science Fair Project Ideas That Follow the Actual Rules](/science-fair-project-ideas-ai)
+- [Data Science Course](/data-science-course)
+
+### Free resources
+
+- [AI & Machine Learning Tutorial: Basics to Deep Learning](/resources/ai-and-machine-learning)
+- [Generative AI](/resources/ai-and-machine-learning/generative-ai-and-diffusion-models)
+- [Large Language Models](/resources/ai-and-machine-learning/large-language-models)
+- [MLOps and Model Deployment](/resources/ai-and-machine-learning/ml-ops-and-model-deployment)
+
+### From the blog
+
+- [AI & Machine Learning Guides](/blog/topic/ai)
+- [What Type of Data is Generative AI Most Suitable For? A Complete Guide](/blog/what-type-of-data-is-generative-ai-most-suitable-for)
+- [How AI and Automation Are Transforming Small and Medium Businesses](/blog/ai-automation-transforming-small-medium-businesses)
+- [How to Teach Kids AI at Home: A Safe 2026 Parent Guide](/blog/how-to-teach-kids-ai-at-home)
+
+### Start here
+
+- [Browse every live course at Modern Age Coders](/courses)
+- [Try a free trial class with a Modern Age Coders mentor](/free-trial)
+
 [Chat with us](https://wa.me/919123366161?text=Hi%2C%20I'm%20interested%20in%20learning%20more%20about%20your%20courses!)
 
 ---

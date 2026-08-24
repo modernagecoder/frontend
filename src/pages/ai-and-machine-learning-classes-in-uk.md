@@ -554,6 +554,47 @@ Leave a number and a mentor rings you back, usually the same day, at a British h
 
 Would rather read first? Have a look at [how we teach](/how-we-teach), the [full course catalogue](/courses), or what pupils have built in [Student Labs](/student-labs).
 
+## Keep exploring Modern Age Coders
+
+### Coding classes in nearby places
+
+- [AI and Machine Learning Classes in Zurich](/ai-and-machine-learning-classes-in-zurich)
+- [Coding & Maths Classes near Avidipta](/coding-classes-in-avidipta-mukundapur)
+- [AI and Machine Learning Classes in the Netherlands](/ai-and-machine-learning-classes-in-netherlands)
+- [Online Coding Classes in Birmingham](/coding-classes-in-birmingham)
+- [AI and Machine Learning Classes in London](/ai-and-machine-learning-classes-in-london)
+- [Coding & AI Classes in Germany](/coding-classes-in-germany)
+- [AI and Machine Learning Classes in Ireland](/ai-and-machine-learning-classes-in-ireland)
+- [AI and Machine Learning Classes in Germany](/ai-and-machine-learning-classes-in-germany)
+- [Online Coding Classes in the Netherlands](/coding-classes-in-netherlands)
+- [Coding Classes in Al Qabil](/coding-classes-in-al-qabil)
+
+### Learn more
+
+- [Build Machine Learning Models in Python](/build-machine-learning-models-in-python)
+- [Best AI & Machine Learning Course in India](/best-ai-and-machine-learning-course-in-india)
+- [Master AI, ML, Python & Java: Go Deeper](/master-ai-ml-python-java)
+- [How to Train Machine Learning Models](/how-to-train-machine-learning-models)
+
+### Free resources
+
+- [AI & Machine Learning Tutorial: Basics to Deep Learning](/resources/ai-and-machine-learning)
+- [Linear Regression](/resources/ai-and-machine-learning/linear-regression)
+- [Model Evaluation, Cross-Validation, and Hyperparameter Tuning](/resources/ai-and-machine-learning/model-evaluation-and-tuning)
+- [Reinforcement Learning Basics](/resources/ai-and-machine-learning/reinforcement-learning-basics)
+
+### From the blog
+
+- [AI & Machine Learning Guides](/blog/topic/ai)
+- [How AI and Automation Are Transforming Small and Medium Businesses](/blog/ai-automation-transforming-small-medium-businesses)
+- [How to Teach Kids AI at Home: A Safe 2026 Parent Guide](/blog/how-to-teach-kids-ai-at-home)
+- [What is Vibe Coding? The Ultimate Deep-Dive Guide to AI-Powered](/blog/what-is-vibe-coding-future-of-software-development)
+
+### Start here
+
+- [What Modern Age Coders families say](/love)
+- [Book a free demo class with Modern Age Coders](/book-demo)
+
 [Chat with us](https://wa.me/919123366161?text=Hi%2C%20I'm%20interested%20in%20learning%20more%20about%20your%20courses!)
 
 ---

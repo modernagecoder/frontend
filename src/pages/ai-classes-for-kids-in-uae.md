@@ -214,7 +214,50 @@ Real student projects
 
 Every one is a real, live project shipped by a Modern Age Coders student. Explore more in [Student Labs](/student-labs).
 
-[![NutriLife: AI Nutrition Coach](/images/projects/nutrilife.webp)AI & MLNutriLife: AI Nutrition CoachSnap a photo of any meal and NutriLife instantly names every food, then breaks down the calories, macros, vitamins and minerals, powered by AI. Bhavya vibe-coded it from a single idea: shaped the app in prompts, then wired up the AI food-recognition, daily tracking and smart coaching by hand.by BhavyaOpen the live project ↗](https://nutrilife-bhavya.lovable.app)[![GuardianX: AI Bodyguard for the Internet](/images/projects/guardianx.webp)AI & MLGuardianX: AI Bodyguard for the InternetPaste any suspicious link or message and GuardianX returns an instant AI verdict before you become a victim, plus a link scanner, safety score, breach check and live scam alerts built for India. Vibe-coded from idea to working product through prompts, then refined until it genuinely understands how phishing and scams work.by VivaanOpen the live project ↗](https://guardianx-cybersaver.lovable.app)[![Palm Arcana: Summon the Elements](/images/projects/superpawer.webp)GamePalm Arcana: Summon the ElementsOpen your palms to the webcam and computer vision turns your gestures into real magic, the left palm throws a fireball, the right crackles with lightning. A wild blend of hand-tracking AI, creative coding and pure imagination, vibe-coded into a playable browser experience.by AarushOpen the live project ↗](https://superpawer.netlify.app)[Chat with us](https://wa.me/919123366161?text=Hi%2C%20I'm%20interested%20in%20learning%20more%20about%20your%20courses!)
+[![NutriLife: AI Nutrition Coach](/images/projects/nutrilife.webp)AI & MLNutriLife: AI Nutrition CoachSnap a photo of any meal and NutriLife instantly names every food, then breaks down the calories, macros, vitamins and minerals, powered by AI. Bhavya vibe-coded it from a single idea: shaped the app in prompts, then wired up the AI food-recognition, daily tracking and smart coaching by hand.by BhavyaOpen the live project ↗](https://nutrilife-bhavya.lovable.app)[![GuardianX: AI Bodyguard for the Internet](/images/projects/guardianx.webp)AI & MLGuardianX: AI Bodyguard for the InternetPaste any suspicious link or message and GuardianX returns an instant AI verdict before you become a victim, plus a link scanner, safety score, breach check and live scam alerts built for India. Vibe-coded from idea to working product through prompts, then refined until it genuinely understands how phishing and scams work.by VivaanOpen the live project ↗](https://guardianx-cybersaver.lovable.app)[![Palm Arcana: Summon the Elements](/images/projects/superpawer.webp)GamePalm Arcana: Summon the ElementsOpen your palms to the webcam and computer vision turns your gestures into real magic, the left palm throws a fireball, the right crackles with lightning. A wild blend of hand-tracking AI, creative coding and pure imagination, vibe-coded into a playable browser experience.by AarushOpen the live project ↗](https://superpawer.netlify.app)
+
+## Keep exploring Modern Age Coders
+
+### Coding classes in nearby places
+
+- [AI Classes in Qatar](/ai-classes-in-qatar)
+- [AI & Machine Learning Classes in Saudi Arabia](/ai-and-machine-learning-classes-in-saudi-arabia)
+- [AI Classes in Saudi Arabia](/ai-classes-in-saudi-arabia)
+- [AI & Machine Learning Classes in Qatar](/ai-and-machine-learning-classes-in-qatar)
+- [American Curriculum & SAT Maths Tutor in the UAE](/american-maths-tutor-uae)
+- [AI & Machine Learning Classes in Kuwait City](/ai-and-machine-learning-classes-in-kuwait-city)
+- [Coding Classes in Dubai](/coding-classes-in-dubai)
+- [Coding Classes in Doha](/coding-classes-in-doha)
+- [Coding Classes in Dammam & Khobar](/coding-classes-in-dammam)
+- [AI Ethics, Responsible AI, and Career Roadmap Practice](/resources/ai-and-machine-learning/ai-ethics-and-career-guide/practice)
+
+### Learn more
+
+- [AI Literacy for Kids (Ages 8 to 14): Understand AI, Do Not Just Use It](/courses/ai-literacy-for-kids-course)
+- [Should My Child Learn AI? An Honest Decision Guide](/should-my-child-learn-ai)
+- [Deep Learning with TensorFlow & PyTorch](/deep-learning-with-tensorflow-and-pytorch)
+- [AI Course for Beginners](/ai-course-for-beginners)
+
+### Free resources
+
+- [AI & Machine Learning Tutorial: Basics to Deep Learning](/resources/ai-and-machine-learning)
+- [Model Evaluation, Cross-Validation, and Hyperparameter Tuning](/resources/ai-and-machine-learning/model-evaluation-and-tuning)
+- [Reinforcement Learning Basics](/resources/ai-and-machine-learning/reinforcement-learning-basics)
+- [AI Ethics, Responsible AI, and Career Roadmap](/resources/ai-and-machine-learning/ai-ethics-and-career-guide)
+
+### From the blog
+
+- [AI & Machine Learning Guides](/blog/topic/ai)
+- [How to Teach Kids AI at Home: A Safe 2026 Parent Guide](/blog/how-to-teach-kids-ai-at-home)
+- [Coding vs AI: What Should My Child Learn in 2026?](/blog/coding-vs-ai-what-should-my-child-learn)
+- [10 Safe AI Tools Your Child Should Be Using for Homework in 2026](/blog/safe-ai-tools-for-kids-homework-2025)
+
+### Start here
+
+- [Modern Age Coders pricing, one honest price per plan](/pricing)
+- [How Modern Age Coders teaches, small batches and real projects](/how-we-teach)
+
+[Chat with us](https://wa.me/919123366161?text=Hi%2C%20I'm%20interested%20in%20learning%20more%20about%20your%20courses!)
 
 ---
 

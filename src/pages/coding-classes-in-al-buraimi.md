@@ -433,7 +433,41 @@ Share the learner's age or grade, wilayat and intended skill. Modern Age Coders 
 
 Use the national page for shared service facts, then compare two nearby regional data lessons.
 
-[**Oman coding classes**National course, fee and service guide](/coding-classes-in-oman)[**Adh Dhahirah coding classes**Exact large-integer analysis](/coding-classes-in-adh-dhahirah)[**Musandam coding classes**Distance across complex geography](/coding-classes-in-musandam)Free regional class[Call +91 91233 66161](tel:+919123366161)[Chat with us](https://wa.me/919123366161?text=Hi%2C%20I'm%20interested%20in%20learning%20more%20about%20your%20courses!)
+[**Oman coding classes**National course, fee and service guide](/coding-classes-in-oman)[**Adh Dhahirah coding classes**Exact large-integer analysis](/coding-classes-in-adh-dhahirah)[**Musandam coding classes**Distance across complex geography](/coding-classes-in-musandam)[**Mahdah coding classes**The boundary moved and the label did not](/coding-classes-in-mahdah)Free regional class[Call +91 91233 66161](tel:+919123366161)
+
+## Keep exploring Modern Age Coders
+
+### Coding classes in nearby places
+
+- [Coding Classes in Al Ghubrah](/coding-classes-in-al-ghubrah)
+- [Coding Classes in Al Batinah South](/coding-classes-in-al-batinah-south)
+- [Coding Classes in Al Hail](/coding-classes-in-al-hail)
+- [Coding Classes in Al Batinah North](/coding-classes-in-al-batinah-north)
+- [Coding Classes in Al Hamra](/coding-classes-in-al-hamra)
+- [Coding Classes in Al Awabi](/coding-classes-in-al-awabi)
+- [Coding Classes in Saham](/coding-classes-in-saham)
+- [Online Coding Classes in Qurum](/coding-classes-in-qurum)
+- [Coding Classes in Qurayyat](/coding-classes-in-qurayyat)
+
+### Free resources
+
+- [Java Tutorial for Beginners to Advanced](/resources/java)
+- [Data Types and Constraints (NOT NULL, UNIQUE, PRIMARY KEY)](/resources/sql/data-types-and-constraints)
+- [Generics in Java](/resources/java/generics-in-java)
+- [LIKE Pattern Matching and NULL Handling](/resources/sql/pattern-matching-and-null)
+
+### From the blog
+
+- [The Role of Mathematics in Programming and Logical Problem Solving](/blog/role-of-mathematics-programming-logical-problem-solving)
+- [IGCSE 0478 Pseudocode: The Rules Examiners Mark](/blog/igcse-computer-science-0478-pseudocode-guide)
+- [20 HTML, CSS, and JavaScript Project Ideas (With Code)](/blog/html-css-javascript-project-ideas)
+
+### Start here
+
+- [Try a free trial class with a Modern Age Coders mentor](/free-trial)
+- [About Modern Age Coders, teaching since 2020](/about)
+
+[Chat with us](https://wa.me/919123366161?text=Hi%2C%20I'm%20interested%20in%20learning%20more%20about%20your%20courses!)
 
 ---
 

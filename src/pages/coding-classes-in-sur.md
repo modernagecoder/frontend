@@ -445,7 +445,41 @@ Share the learner's age or grade and the skill they want to build. Modern Age Co
 
 Use the national guide for shared class facts, then compare two neighbouring city pages with different local data problems.
 
-[**Oman coding classes**National course, fee and delivery guide](/coding-classes-in-oman)[**Nizwa coding classes**Date arithmetic across two calendars](/coding-classes-in-nizwa)[**Ibra coding classes**Silent lookup failures and defaults](/coding-classes-in-ibra)Free Sur class[Call +91 91233 66161](tel:+919123366161)[Chat with us](https://wa.me/919123366161?text=Hi%2C%20I'm%20interested%20in%20learning%20more%20about%20your%20courses!)
+[**Oman coding classes**National course, fee and delivery guide](/coding-classes-in-oman)[**Nizwa coding classes**Date arithmetic across two calendars](/coding-classes-in-nizwa)[**Ibra coding classes**Silent lookup failures and defaults](/coding-classes-in-ibra)Free Sur class[Call +91 91233 66161](tel:+919123366161)
+
+## Keep exploring Modern Age Coders
+
+### Coding classes in nearby places
+
+- [Coding Classes in Taqah](/coding-classes-in-taqah)
+- [Coding Classes in Sohar](/coding-classes-in-sohar)
+- [Coding Classes in Thumrait](/coding-classes-in-thumrait)
+- [Coding Classes in Shinas](/coding-classes-in-shinas)
+- [Coding Classes in Wadi Al Maawil](/coding-classes-in-wadi-al-maawil)
+- [Coding Classes in Shalim](/coding-classes-in-shalim)
+- [Coding Classes in Al Buraimi](/coding-classes-in-al-buraimi)
+- [AI and Python Academy for Students in Oman](/ai-and-python-academy-oman)
+- [AI and Python Academy for Students in Nizwa](/ai-and-python-academy-nizwa)
+
+### Free resources
+
+- [Python Tutorial for Beginners: Complete Guide](/resources/python)
+- [Object-Oriented Programming in Python](/resources/python/object-oriented-programming)
+- [Operators and Expressions](/resources/javascript/operators-and-expressions)
+- [Variables and Data Types in Python](/resources/python/variables-and-data-types)
+
+### From the blog
+
+- [Coding Class Fees in India 2026: What to Pay](/blog/coding-class-fees-india-2026)
+- [Learn Python for Beginners: Complete Step-by-Step Guide (2026)](/blog/python-for-beginners)
+- [What Type of Data is Generative AI Most Suitable For? A Complete Guide](/blog/what-type-of-data-is-generative-ai-most-suitable-for)
+
+### Start here
+
+- [Browse every live course at Modern Age Coders](/courses)
+- [Try a free trial class with a Modern Age Coders mentor](/free-trial)
+
+[Chat with us](https://wa.me/919123366161?text=Hi%2C%20I'm%20interested%20in%20learning%20more%20about%20your%20courses!)
 
 ---
 

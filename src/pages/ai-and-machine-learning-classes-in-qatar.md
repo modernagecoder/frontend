@@ -485,6 +485,46 @@ Leave a number and a mentor calls you back, usually within a few hours, at an ho
 
 Prefer to look around first? Read [how we teach](/how-we-teach), browse the [full course catalogue](/courses), or see what students have built in [Student Labs](/student-labs).
 
+## Keep exploring Modern Age Coders
+
+### Coding classes in nearby places
+
+- [AI & Machine Learning Classes in Saudi Arabia](/ai-and-machine-learning-classes-in-saudi-arabia)
+- [AI & Machine Learning Classes in Kuwait City](/ai-and-machine-learning-classes-in-kuwait-city)
+- [AI & Machine Learning Classes in UAE](/ai-and-machine-learning-classes-in-uae)
+- [AI & Machine Learning Classes in Kuwait](/ai-and-machine-learning-classes-in-kuwait)
+- [AI Classes for Kids in UAE](/ai-classes-for-kids-in-uae)
+- [AI and Machine Learning Classes in Bahrain](/ai-and-machine-learning-classes-in-bahrain)
+- [Coding Classes in Doha](/coding-classes-in-doha)
+- [Coding Classes in Sharjah](/coding-classes-in-sharjah)
+- [Coding Classes in Abu Dhabi](/coding-classes-in-abu-dhabi)
+
+### Learn more
+
+- [Learn to Build AI, Not Just Use It](/learn-to-build-ai)
+- [Orange Data Mining Course for Teens: Machine Learning Without Code](/courses/orange-data-mining-visual-machine-learning-course-for-teens)
+- [Build Machine Learning Models in Python](/build-machine-learning-models-in-python)
+- [Best AI & Machine Learning Course in India](/best-ai-and-machine-learning-course-in-india)
+
+### Free resources
+
+- [AI & Machine Learning Tutorial: Basics to Deep Learning](/resources/ai-and-machine-learning)
+- [Ensemble Methods](/resources/ai-and-machine-learning/ensemble-methods-and-boosting)
+- [Introduction to Neural Networks](/resources/ai-and-machine-learning/introduction-to-neural-networks)
+- [Logistic Regression and Classification](/resources/ai-and-machine-learning/logistic-regression-and-classification)
+
+### From the blog
+
+- [AI & Machine Learning Guides](/blog/topic/ai)
+- [How AI and Automation Are Transforming Small and Medium Businesses](/blog/ai-automation-transforming-small-medium-businesses)
+- [What Type of Data is Generative AI Most Suitable For? A Complete Guide](/blog/what-type-of-data-is-generative-ai-most-suitable-for)
+- [Coding vs AI: What Should My Child Learn in 2026?](/blog/coding-vs-ai-what-should-my-child-learn)
+
+### Start here
+
+- [Browse every live course at Modern Age Coders](/courses)
+- [Try a free trial class with a Modern Age Coders mentor](/free-trial)
+
 [Chat with us](https://wa.me/919123366161?text=Hi%2C%20I'm%20interested%20in%20learning%20more%20about%20your%20courses!)
 
 ---

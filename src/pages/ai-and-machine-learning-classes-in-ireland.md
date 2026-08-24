@@ -508,6 +508,46 @@ Give us a number and a mentor calls back on Irish hours. The first lesson is tau
 
 Rather read first? There is [how we teach](/how-we-teach), the [full course catalogue](/courses), and the student work in [Student Labs](/student-labs).
 
+## Keep exploring Modern Age Coders
+
+### Coding classes in nearby places
+
+- [AI and Machine Learning Classes in Germany](/ai-and-machine-learning-classes-in-germany)
+- [AI and Machine Learning Classes in the Netherlands](/ai-and-machine-learning-classes-in-netherlands)
+- [Online Coding & AI Classes in the UK](/coding-classes-in-united-kingdom)
+- [Online Coding & AI Classes in Switzerland](/coding-classes-in-switzerland)
+- [Online Coding & AI Classes in Sweden](/coding-classes-in-sweden)
+- [AI and Machine Learning Classes in Zurich](/ai-and-machine-learning-classes-in-zurich)
+- [Online Coding Classes in Birmingham](/coding-classes-in-birmingham)
+- [Coding & Maths Classes near Avidipta](/coding-classes-in-avidipta-mukundapur)
+- [Online Coding & AI Classes in Ireland](/coding-classes-in-ireland)
+
+### Learn more
+
+- [Machine Learning From Scratch: Build Real AI/ML Models](/machine-learning-from-scratch)
+- [Build Machine Learning Models in Python](/build-machine-learning-models-in-python)
+- [Python for Machine Learning](/python-for-machine-learning)
+- [Master AI, ML, Python & Java: Go Deeper](/master-ai-ml-python-java)
+
+### Free resources
+
+- [AI & Machine Learning Tutorial: Basics to Deep Learning](/resources/ai-and-machine-learning)
+- [Dimensionality Reduction](/resources/ai-and-machine-learning/dimensionality-reduction)
+- [Introduction to AI and Machine Learning](/resources/ai-and-machine-learning/introduction-to-ai-and-ml)
+- [Linear Regression](/resources/ai-and-machine-learning/linear-regression)
+
+### From the blog
+
+- [AI & Machine Learning Guides](/blog/topic/ai)
+- [How AI and Automation Are Transforming Small and Medium Businesses](/blog/ai-automation-transforming-small-medium-businesses)
+- [How to Teach Kids AI at Home: A Safe 2026 Parent Guide](/blog/how-to-teach-kids-ai-at-home)
+- [What Type of Data is Generative AI Most Suitable For? A Complete Guide](/blog/what-type-of-data-is-generative-ai-most-suitable-for)
+
+### Start here
+
+- [Book a free demo class with Modern Age Coders](/book-demo)
+- [Real projects built by Modern Age Coders students](/student-labs)
+
 [Chat with us](https://wa.me/919123366161?text=Hi%2C%20I'm%20interested%20in%20learning%20more%20about%20your%20courses!)
 
 ---

@@ -581,6 +581,38 @@ Rather read first? [The full course syllabus](/courses/competitive-programming-f
 
 Every class is live, one to one or in a small division-matched batch, taught from India at a time arranged with you. Nothing here is a recording. The form starts a conversation, not an enrolment.
 
+## Keep exploring Modern Age Coders
+
+### Related courses and guides
+
+- [Vibe Coding Classes for Kids, Teens & College](/vibe-coding-classes)
+- [Terms of Service](/terms)
+- [Vibe Coding for Beginners](/vibe-coding-for-beginners)
+- [Our Team | Founder & Mentors](/team)
+- [Vibe Coding for Teens](/vibe-coding-for-teens)
+- [Summer Research Programs in Coding and AI](/summer-research-programs-coding)
+- [Learn Coding & Math Online](/course)
+- [Winter Coding Camp for Teens 2026 (Ages 12–17)](/winter-coding-camp-teens)
+- [Complete Bootstrap 5.3 Guide](/bootstrap)
+
+### Free resources
+
+- [JavaScript Tutorial: Build Interactive Websites](/resources/javascript)
+- [Strings and Template Literals](/resources/javascript/strings-and-template-literals)
+- [Asynchronous JavaScript](/resources/javascript/asynchronous-javascript)
+- [Flexbox - The Complete Guide | HTML and CSS Tutorial](/resources/html-and-css/flexbox-complete-guide)
+
+### From the blog
+
+- [Common Myths About Coding for School Students](/blog/common-myths-about-coding-for-school-students)
+- [Modern Age Coders Certificate: Earned, Not Given](/blog/modern-age-coders-certificate-earned-not-given)
+- [AP Computer Science A Changes for 2026: A Parent's Guide](/blog/ap-computer-science-a-changes-2026)
+
+### Start here
+
+- [Book a free demo class with Modern Age Coders](/book-demo)
+- [Real projects built by Modern Age Coders students](/student-labs)
+
 ---
 
 *Canonical: https://learn.modernagecoders.com/usaco-preparation-online-coaching*

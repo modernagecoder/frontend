@@ -733,7 +733,50 @@ Modern Age Coders teaches students worldwide over live video, in small 4–8 bat
 - [Coding Classes in the United Kingdom](/coding-classes-in-united-kingdom)
 - [Coding Classes in the United States](/coding-classes-in-united-states)
 
-[Browse all courses →](/courses)[Book a free demo](/book-demo)[Coding Classes in India](/coding-classes-in-india)[Chat with us](https://wa.me/919123366161?text=Hi%2C%20I'm%20interested%20in%20learning%20more%20about%20your%20courses!)
+[Browse all courses →](/courses)[Book a free demo](/book-demo)[Coding Classes in India](/coding-classes-in-india)
+
+## Keep exploring Modern Age Coders
+
+### Coding classes in nearby places
+
+- [Coding Classes in Georgia, USA](/coding-classes-in-georgia)
+- [Coding Classes in California](/coding-classes-in-california)
+- [Coding Classes in Illinois](/coding-classes-in-illinois)
+- [Online Coding Classes in British Columbia](/coding-classes-in-british-columbia)
+- [Online Coding Classes in Maryland](/coding-classes-in-maryland)
+- [Online Coding Classes in Alberta](/coding-classes-in-alberta)
+- [Coding Classes in Washington State](/coding-classes-in-washington)
+- [Coding Classes in New York](/coding-classes-in-new-york)
+- [AI and Machine Learning Classes in Canada](/ai-and-machine-learning-classes-in-canada)
+- [Coding Classes in Gadong, Brunei](/coding-classes-in-gadong)
+
+### Learn more
+
+- [Vibe Coding for Teens: Python, Web Dev & AI (Ages 13-17)](/courses/vibe-coding-for-teens-python-web-ai-projects-course)
+- [Coding for Class 10: Board-Safe CS Prep, Python, Java, AI & DSA](/coding-for-class-10)
+- [Hackathon for Teens: Free Event + 12-Week Prep (Ages 13-17)](/courses/hackathon-prep-for-teens-coding-ai-build-innovate-win-course)
+- [Python for Class 6: CBSE Code 166 Python, Turtle, First AI (Age 11)](/python-for-class-6)
+
+### Free resources
+
+- [AI & Machine Learning Tutorial: Basics to Deep Learning](/resources/ai-and-machine-learning)
+- [Deep Learning with TensorFlow and Keras](/resources/ai-and-machine-learning/deep-learning-with-tensorflow-keras)
+- [Generative AI](/resources/ai-and-machine-learning/generative-ai-and-diffusion-models)
+- [Large Language Models](/resources/ai-and-machine-learning/large-language-models)
+
+### From the blog
+
+- [AI & Machine Learning Guides](/blog/topic/ai)
+- [Full Stack vs. AI Engineer: Which Career Path Pays More in India?](/blog/full-stack-vs-ai-engineer-salary-india)
+- [Coding vs AI: What Should My Child Learn in 2026?](/blog/coding-vs-ai-what-should-my-child-learn)
+- [UAE Made AI Mandatory in Schools: What It Means](/blog/uae-ai-curriculum-schools-what-it-means)
+
+### Start here
+
+- [How Modern Age Coders teaches, small batches and real projects](/how-we-teach)
+- [What Modern Age Coders families say](/love)
+
+[Chat with us](https://wa.me/919123366161?text=Hi%2C%20I'm%20interested%20in%20learning%20more%20about%20your%20courses!)
 
 ---
 

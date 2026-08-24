@@ -582,6 +582,38 @@ Rather read first? [The full course syllabus](/courses/cambridge-a-level-compute
 
 Every class is live, one to one or a batch of five to eight, taught from India at a time arranged with you. We never sell a recording in place of a class. The form starts a conversation, not an enrolment.
 
+## Keep exploring Modern Age Coders
+
+### Related courses and guides
+
+- [Complete Bootstrap 5.3 Guide](/bootstrap)
+- [Cancellation Policy](/cancellation)
+- [Book a Free Coding Demo Class](/book-demo)
+- [Competitive Programming Practice: Daily Coding Challenges](/coding-challenges)
+- [Best Online Coding Classes for Kids 2026: Ranked Honestly](/best-online-coding-classes-for-kids-2026)
+- [Coding Classes for DPS Bangalore Students](/coding-classes-for-dps-bangalore)
+- [Coding Classes for DPS R.K. Puram Students](/coding-classes-for-dps-rk-puram-new-delhi)
+- [Roblox Coding Classes for Kids](/roblox-coding-classes-for-kids)
+- [Learn Coding & Math Online](/course)
+
+### Free resources
+
+- [AI & Machine Learning Tutorial: Basics to Deep Learning](/resources/ai-and-machine-learning)
+- [Python for AI](/resources/ai-and-machine-learning/python-for-ai-essentials)
+- [Variables and Data Types in Java](/resources/java/variables-and-data-types)
+- [Collections Framework](/resources/java/collections-framework)
+
+### From the blog
+
+- [IGCSE 0478 Pseudocode: The Rules Examiners Mark](/blog/igcse-computer-science-0478-pseudocode-guide)
+- [AP Computer Science A Changes for 2026: A Parent's Guide](/blog/ap-computer-science-a-changes-2026)
+- [How to Write a Leap Year Program in Python (3 Simple Methods)](/blog/how-to-write-a-leap-year-program-in-python)
+
+### Start here
+
+- [Try a free trial class with a Modern Age Coders mentor](/free-trial)
+- [About Modern Age Coders, teaching since 2020](/about)
+
 ---
 
 *Canonical: https://learn.modernagecoders.com/cambridge-a-level-computer-science-online-classes*

@@ -1,76 +1,382 @@
 ---
-title: Coding Classes in Al Mazyunah | Modern Age Coders
+title: "Coding Classes in Al Mazyunah | Modern Age Coders"
+description: "Live online coding, Python and AI classes for Al Mazyunah learners aged 6 to 67, built on a real dates project, with clear USD fees and a free first class in Oman."
 canonical: https://learn.modernagecoders.com/coding-classes-in-al-mazyunah
-description: Live online coding, Python and AI classes for Al Mazyunah learners aged 6 to 67, built on a real dates project, with clear USD fees and a free first class in Oman.
+source: src/pages/coding-classes-in-al-mazyunah.html
+---
+> Live online coding, Python and AI classes for Al Mazyunah learners aged 6 to 67, built on a real dates project, with clear USD fees and a free first class in Oman.
+
+Skip to contentCourse picks
+
+## Learn when a date belongs to a row and not to the table
+
+Four routes from counting years forward on paper to storing terms that each know their own start.
+
+[![Elementary Mathematics course thumbnail](/images/elementary-maths.webp)Ages 6 to 11Elementary MathematicsSame number of years, different starting point.See the syllabus](/courses/elementary-mathematics-complete-masterclass)[![Maths Through Coding course thumbnail](/images/maths-through-coding.webp)Ages 10 to 14Maths Through CodingAdding a term to a date, eight times over.See the syllabus](/courses/maths-through-coding)[![MySQL for Teens course thumbnail](/images/mysql-teens.webp)Ages 14 to 18MySQL for TeensA column per row, not a constant per table.See the syllabus](/courses/mysql-mastery-for-teens)[![Data Analysis course thumbnail](/images/data-analysis-college.webp)College and adultData AnalysisCohorts, and why calendar time misleads.See the syllabus](/courses/data-analysis-mastery-course-college)
+
+Browse the [course atlas](/course-atlas) for more than one hundred options and use the [coding roadmap](/coding-roadmap) to check prerequisites.
+
+The four we are known for
+
+### Python, AI, vibe coding and agentic coding
+
+These run underneath everything above. Every one is live and online, placed by ability rather than by age, and the first class is free.
+
+[![Vibe Coding for Teens course thumbnail](/images/vibe-coding-teens.webp)Vibe codingAges 13 to 17Vibe Coding for TeensPython, web and AI projects where the learner still owns the thinking.See the syllabus](/courses/vibe-coding-for-teens-python-web-ai-projects-course)[![Python AI Automation course thumbnail](/images/python-automation-ai-college.webp)Python and AICollege and adultPython AI AutomationAutomate the work you already do, then let AI carry part of it.See the syllabus](/courses/python-ai-automation-masterclass-college)[![AI and Machine Learning for Teens course thumbnail](/images/ai-ml-teens.webp)AI and MLAges 14 to 18AI and Machine Learning for TeensTrain a model, read what it learned, and be able to say why it is wrong.See the syllabus](/courses/ai-ml-masterclass-teens)[![Codex and Claude Code course thumbnail](/images/codex-claude-code-adults.webp)Agentic codingProfessionalsCodex and Claude CodeRun AI coding agents on real work without losing control of the codebase.See the syllabus](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals)Al Mazyunah today
+
+## A free zone where everybody has a different clock
+
+A scheme with a fixed term and rolling entry produces a population of contracts that share every property except the one that matters.
+
+### Built for trade across a border
+
+The Al Mazunah Free Zone was established in 1999 to enhance trade between Oman and Yemen and serves as a gateway for transit trade onward to East African countries. Rolling entry is inherent to a zone whose whole purpose is to attract new arrivals.
+
+### A term measured in decades
+
+Among the incentives is a 30-year income tax exemption. A term that long guarantees that the first cohort and the latest one will never share an expiry, and that most people quoting it will not be around when it matters.
+
+### Two ways in from Yemen
+
+There are two main border crossings, Shahan into Al Mazyunah in the north and Hawf into Sarfait in the south. Two entry points is two streams of records that have to be reconciled before anything is counted once.
+
+A term is a length and an expiry is a date
+
+Thirty years is a property of the scheme. The year it runs out is a property of each agreement, and the two get written into the same sentence constantly. Once an expiry is stored as a constant, every later arrival inherits a deadline that was never theirs.
+
+Verified local facts
+
+## Al Mazyunah facts with a trail behind them
+
+Each claim traced, with terms and dates kept apart.
+
+### A zone established in 1999
+
+The Al Mazunah Free Zone was established in 1999 in the Dhofar region near the border with Yemen. That is the zone's start date and it is not any individual investor's start date.
+
+### Fifteen million square metres
+
+The zone spans 15 million square metres. A figure given in square metres at that scale is technically exact and hard to picture, which is worth noticing on a page about numbers that are correct and unhelpful.
+
+### Thirty years of exemption
+
+The incentives include a 30-year income tax exemption with no requirement for income declarations. The term is published; no expiry date is, because there is no single one to publish.
+
+### Twenty per cent Omanisation
+
+The zone operates a reduced Omanisation rate of 20 per cent. A rate is a property of the scheme that genuinely does apply to everybody, which is the useful contrast with the exemption term.
+
+### Crossings north and south
+
+The two main border crossings are Shahan into Al Mazyunah in the north and Hawf into Sarfait in the south. Named crossings are checkable facts about a border that is otherwise hard to describe.
+
+### A gateway for transit trade
+
+The zone is described as a major Gulf gateway for transit trade to Yemen and onward to East Africa. Goods passing through belong to no local total, which is its own counting problem.
+
+Modern Age Coders has no involvement in the free zone, its incentives or any company operating there, and claims none. Al Mazyunah is used here because a long fixed term with rolling entry is the plainest case of a date that belongs to a row rather than to a table.
+
+Signature project
+
+## Twenty twenty nine, correct for one company in eight
+
+Everybody has the same thirty years. Almost nobody has the same deadline, and one number gets written down.
+
+### 1. Note the term, not the date
+
+The zone opened in 1999 and the exemption runs for thirty years. Those are the two published facts. The eight joining years used below are illustrative, spread across the zone's life to show the shape of the problem, and the page says so.
+
+### 2. Compute the obvious expiry
+
+Nineteen ninety nine plus thirty is 2029. It is arithmetic nobody would query, it appears in a briefing note, and from that point on it is the date everybody uses.
+
+### 3. Compute each company's own expiry
+
+A company joining in 2011 is exempt to 2041. One joining in 2024 is exempt to 2054. Across eight arrivals the expiries run from 2029 to 2054, a spread of twenty five years, and the quoted date is right for exactly one of them.
+
+| Company joined | Its exemption ends | Quoted date says | Error |
+| --- | --- | --- | --- |
+| 1999, with the zone | 2029 | 2029 | None, this is the one |
+| 2007 | 2037 | 2029 | 8 years early |
+| 2014 | 2044 | 2029 | 15 years early |
+| 2021 | 2051 | 2029 | 22 years early |
+| 2024 | 2054 | 2029 | 25 years early |
+| Across all eight | 2029 to 2054 | one date | Right for 1 of 8 |
+
+### The error is always in the same direction and it grows with time
+
+A shared expiry taken from the scheme's own start is never too late and always too early, and the gap widens with every year the scheme keeps accepting entrants. That means the forecast gets worse precisely as the programme gets more successful, and the people who wrote the original note are long gone by the time anybody notices. Every figure above was computed before this was written.
+
+Reliable pipeline
+
+## Store the start and the term, and derive the date
+
+Five habits that keep a deadline attached to the agreement it belongs to.
+
+| Stage | Rule | What it prevents | What it gives you |
+| --- | --- | --- | --- |
+| Separate | Store a start date and a term, never an expiry alone | A deadline detached from its holder | A date that recomputes correctly |
+| Row | Keep the term on the record, not in the schema | One constant applied to everybody | Per-agreement answers |
+| Derive | Compute expiries rather than typing them | A copied date that ages badly | A figure that cannot drift |
+| Cohort | Group by time since joining, not by calendar year | Comparing a first year against a twentieth | Like compared with like |
+| Spread | Report the range of expiries, not one date | A single deadline standing for a population | A picture of the real exposure |
+
+### For younger learners
+
+Eight paper strips of equal length pinned to a timeline at different starting points. The child marks where each ends and sees eight different answers to one question. No screen is required.
+
+### For teenagers
+
+The eight joining years in Python, each expiry derived from its own start, printed beside the single quoted date with the error in a third column. The learner then writes the check that flags any expiry stored as a literal rather than derived.
+
+### For adults
+
+Agreements store a start and a term, expiries are always derived, comparisons are made on time since joining rather than on calendar year, and exposure is reported as a range of dates rather than as one.
+
+The zone's establishment in 1999, the area of 15 million square metres, the 30-year income tax exemption, the 20 per cent Omanisation rate and the crossings at Shahan and Hawf into Sarfait are published. The eight joining years are illustrative, chosen to spread across the zone's life, and that is stated in the every place they occur says so. What the exercise demonstrates belongs to any fixed term with rolling entry and does not rest on these particular years.
+
+Learning ladder
+
+## From eight paper strips on a timeline to expiries that derive themselves
+
+The free class is how we find the rung that will actually move this learner forward.
+
+Ages 6 to 10
+
+### Same length, different start
+
+Children lay equal strips from different points and compare the ends.
+
+[Early Math Foundations](/courses/early-math-foundations)[Kids Coding Blocks](/courses/kids-coding-blocks-masterclass)Ages 11 to 13
+
+### Adding a term to a date
+
+Learners compute eight answers where they expected one.
+
+[Problem Solving and Computational Thinking](/courses/problem-solving-and-computational-thinking-for-kids)[Python and AI for Kids](/courses/python-ai-kids-masterclass)Ages 14 to 18
+
+### Derived fields against stored ones
+
+Teenagers replace a stored date with a computed one and see what stops breaking.
+
+[Python for Teens](/courses/python-complete-masterclass-teens)[Data Science for Teens](/courses/data-science-course-for-teens-python-data)Ages 18 to 67
+
+### Cohorts against calendar time
+
+Adults compare records by time since joining rather than by year.
+
+[Python Programming](/courses/python-programming-masterclass-zero-to-advanced-college)[MySQL Database](/courses/mysql-database-complete-masterclass-college)Delivery
+
+## Live classes at the far south western corner
+
+A border wilayat built around a trade zone has a working population that did not grow up here and school-age children who did.
+
+### A zone economy needs zone skills
+
+Logistics, customs and trade records are all data work. Teaching that arrives over a connection can reach a place like this long before any institution is built in it.
+
+### Nothing charged for the first lesson
+
+A complete class with a real task, closing on a specific recommendation. No card is requested to book it and nothing is committed to until a teacher has been watched working.
+
+### Groups of five to eight, matched on level
+
+Cohorts form on what a learner can do and where they are heading, not on which side of a border they were born. In a trade zone that distinction matters.
+
+### When a group is simply the wrong shape
+
+Private tuition puts one teacher with one learner, which is what a fixed examination date or a single stubborn weakness usually calls for.
+
+### Roughly eight sessions a month
+
+The pattern is twice weekly, and the time is chosen once at enrolment. Shifts at the crossing move; the slot does not have to.
+
+### Ninety minutes of difference, once
+
+Oman runs that far behind India and it is settled at the outset, along with school terms, shift patterns, examination weeks and Ramadan.
+
+A date that is wrong by twenty five years still looks like a date
+
+Nothing about 2029 in a cell suggests it was inherited from a scheme rather than derived from an agreement. What exposes it is a teacher asking whose thirty years that is, and then waiting while the learner checks the second row.
+
+Fees
+
+## One free class, then group or private tuition
+
+Pricing is in USD and is confirmed with the selected format.
+
+First class**USD 0**
+
+Ability task, goal review and starting recommendation.
+
+Group tuition**USD 100**
+
+Per month, normally eight lessons, five to eight learners.
+
+Private tuition**USD 150**
+
+Per month, normally eight lessons, one student and one teacher.
+
+Request placement[Check availability](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20want%20a%20free%20coding%20class%20for%20a%20learner%20in%20Al%20Mazyunah.)Reviews
+
+## What families and learners say
+
+Rated 4.9 across 547 Google reviews. These are real reviews, reproduced as written.
+
+★★★★★
+
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
+
+Ria Mukherjee
+
+Parent
+
+★★★★★
+
+"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
+
+Samriddha Mondal
+
+Student
+
+★★★★★
+
+"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
+
+Vansh Agarwal
+
+Student
+
+★★★★★
+
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
+
+Sonam Oswal
+
+Parent of Dhairya
+
+★★★★★
+
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
+
+Sonu Goyal
+
+Parent
+
+★★★★★
+
+"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
+
+Ritu Kedia
+
+Parent
+
+Free placement class
+
+## Tell us the learner's level and the deadline everybody shares
+
+The first task might be eight paper strips on a timeline, a Python column of derived expiries, or a real contract table at work where one date has been copied down every row.
+
+### Contact the team directly
+
+WhatsApp or call [+91 91233 66161](tel:+919123366161), or email [contact@modernagecoders.com](mailto:contact@modernagecoders.com). This is Modern Age Coders' actual contact and not an invented Al Mazyunah number.
+
+[WhatsApp Modern Age Coders](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20want%20a%20free%20coding%20class%20for%20a%20learner%20in%20Al%20Mazyunah.)
+
+Submitted details are used for placement and follow-up.
+
+FAQ
+
+## Al Mazyunah coding class questions
+
+The wilayat, the teaching and the terms of service, taken separately.
+
+### Are the free zone facts real?
+
+Yes. The Al Mazunah Free Zone was established in 1999, spans 15 million square metres, offers a 30-year income tax exemption and a reduced Omanisation rate of 20 per cent, and sits near crossings at Shahan and at Hawf into Sarfait. The eight joining years used in the project are illustrative and the page says so.
+
+### Why does this error only get worse?
+
+Because a shared expiry taken from the scheme's own opening is always too early and never too late, and the gap grows with every year the scheme keeps admitting entrants. The forecast degrades precisely as the programme succeeds, which is the opposite of how people expect errors to behave.
+
+### Is there a Modern Age Coders centre in Al Mazyunah?
+
+No. No premises are claimed in Al Mazyunah or anywhere in Dhofar. Classes are live online and need a laptop or desktop, working audio, a current browser and a stable connection. The page describes where the service reaches, not a building.
+
+### What should be stored instead of the expiry?
+
+The start date and the term. Then the expiry is derived whenever it is needed and cannot be copied, inherited or left behind by a schema change. Storing the answer instead of the inputs is what makes a date go stale silently.
+
+### Can working adults enrol, or is this for school students?
+
+Both, up to 67. The adult route covers Python, databases and reporting. Anyone administering warranties, licences, subscriptions or leases with a fixed term and rolling starts has this in their tables. Bring the real ones where they are yours to bring.
+
+### What comes out of this project?
+
+Agreements holding a start and a term rather than an expiry, dates derived rather than typed, comparisons made on time since joining, and exposure reported as a range. All four survive any change of system.
+
+### How much do Al Mazyunah coding classes cost?
+
+The first class is free. Standard group tuition is USD 100 per month for two live lessons each week, normally eight lessons monthly. Standard private tuition is USD 150 per month for one learner with one teacher on the same usual frequency. Course, format, recurring time and availability are confirmed before payment.
+
+### What is the class size for Al Mazyunah learners?
+
+A group normally contains five to eight compatible learners. Compatibility includes current level, learning pace and objective, not age alone. Private tuition is one learner with one teacher. If no suitable group is ready, a learner can discuss private tuition or wait for an appropriate cohort.
+
+### How are Al Mazyunah class times arranged?
+
+Oman is one and a half hours behind India. The teacher and learner agree a recurring time before payment, generally for two live lessons each week. Friday and Saturday options may be discussed subject to availability. School, work and travel schedules, examinations and Ramadan routines should be mentioned before confirmation.
+
+### What happens in the free Al Mazyunah class?
+
+We work out what the learner is trying to become able to do and set one task there. A child lays equal paper strips from different starting points. A teenager derives eight expiries and compares them with one quoted date. An adult is asked whether any deadline in their systems is stored rather than computed. It ends with a named course, a chosen format, an agreed time and a stated fee in USD, and no charge for the hour itself.
+
+Explore Oman
+
+## Elsewhere in Dhofar
+
+The [Oman coding hub](/coding-classes-in-oman) holds national delivery, fees and every course we run. Inland, [Thumrait](/coding-classes-in-thumrait) covers the stops that vanish from a journey table, and on the coast [Mirbat](/coding-classes-in-mirbat) takes on a day boundary that moves.
+
+Book the free class[Close with WhatsApp](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20want%20a%20free%20coding%20class%20for%20a%20learner%20in%20Al%20Mazyunah.)Free Al Mazyunah class[Call +91 91233 66161](tel:+919123366161)
+
+## Keep exploring Modern Age Coders
+
+### Coding classes in nearby places
+
+- [Coding Classes in Al Mudhaibi](/coding-classes-in-al-mudhaibi)
+- [Coding Classes in Al Khuwair](/coding-classes-in-al-khuwair)
+- [Coding Classes in Al Musanaah](/coding-classes-in-al-musanaah)
+- [Coding Classes in Al Khoudh](/coding-classes-in-al-khoudh)
+- [Coding Classes in Al Wusta](/coding-classes-in-al-wusta)
+- [Coding Classes in Al Kamil Wal Wafi](/coding-classes-in-al-kamil-wal-wafi)
+- [Coding Classes in Musandam](/coding-classes-in-musandam)
+- [Coding Classes in Mawaleh](/coding-classes-in-mawaleh)
+- [Coding Classes in Azaiba](/coding-classes-in-azaiba)
+
+### Learn more
+
+- [AI Science Fair Project Ideas That Follow the Actual Rules](/science-fair-project-ideas-ai)
+- [Python for 10 Year Olds: Real Python Programs, Turtle Art & Mini Games](/python-for-10-year-olds)
+- [AI Classes for Beginners](/ai-classes-for-beginners)
+
+### Free resources
+
+- [JavaScript Tutorial: Build Interactive Websites](/resources/javascript)
+- [Forms, Inputs, and Form Validation](/resources/html-and-css/forms-and-inputs)
+- [Fetch API - Getting Data from the Internet | JavaScript Tutorial](/resources/javascript/fetch-api-and-working-with-apis)
+- [Modern CSS - Container Queries, Subgrid, clamp](/resources/html-and-css/modern-css-features)
+
+### From the blog
+
+- [Python vs JavaScript: Which Should You Learn First?](/blog/python-vs-javascript-which-to-learn-first)
+- [Learn Python for Beginners: Complete Step-by-Step Guide (2026)](/blog/python-for-beginners)
+- [Learn Python Step by Step: The Free Tutorial Library](/blog/learn-python-step-by-step)
+
+### Start here
+
+- [Try a free trial class with a Modern Age Coders mentor](/free-trial)
+- [About Modern Age Coders, teaching since 2020](/about)
+
 ---
 
-# Coding classes in Al Mazyunah where one deadline is right for one company in eight
-
-> The free zone here opened in 1999 with a thirty year tax exemption, and that thirty years starts when each investor arrives rather than when the zone did. Quote a single expiry and it fits whoever came first and nobody else. Everyone from 6 to 67 is taught here in coding, Python, AI and mathematics, live and online. We charge nothing for the opening class. Thereafter it is USD 100 for a month in a group and USD 150 for a month one to one.
-
-Al Mazyunah sits on the Yemen border around a free zone built for transit trade. Where everybody signs a contract with the same length and a different start, one shared deadline is the easiest wrong answer in the building.
-
-## Courses referenced on this page
-
-- [elementary mathematics complete masterclass](/courses/elementary-mathematics-complete-masterclass)
-- [maths through coding](/courses/maths-through-coding)
-- [mysql mastery for teens](/courses/mysql-mastery-for-teens)
-- [data analysis mastery course college](/courses/data-analysis-mastery-course-college)
-- [vibe coding for teens python web ai projects course](/courses/vibe-coding-for-teens-python-web-ai-projects-course)
-- [python ai automation masterclass college](/courses/python-ai-automation-masterclass-college)
-- [ai ml masterclass teens](/courses/ai-ml-masterclass-teens)
-- [codex and claude code ai coding agents masterclass for adults professionals](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals)
-- [early math foundations](/courses/early-math-foundations)
-- [kids coding blocks masterclass](/courses/kids-coding-blocks-masterclass)
-- [problem solving and computational thinking for kids](/courses/problem-solving-and-computational-thinking-for-kids)
-- [python ai kids masterclass](/courses/python-ai-kids-masterclass)
-- [python complete masterclass teens](/courses/python-complete-masterclass-teens)
-- [data science course for teens python data](/courses/data-science-course-for-teens-python-data)
-- [python programming masterclass zero to advanced college](/courses/python-programming-masterclass-zero-to-advanced-college)
-- [mysql database complete masterclass college](/courses/mysql-database-complete-masterclass-college)
-
-## Page text
-
-Coding Classes in Al Mazyunah | Modern Age Coders
-Skip to content
-Modern Age Coders Oman Courses How we teach Free class
-Home / Oman / Al Mazyunah Al Mazyunah, Dhofar Coding classes in Al Mazyunah where one deadline is right for one company in eight What are the best coding classes in Al Mazyunah? The free zone here opened in 1999 with a thirty year tax exemption, and that thirty years starts when each investor arrives rather than when the zone did. Quote a single expiry and it fits whoever came first and nobody else. Everyone from 6 to 67 is taught here in coding, Python, AI and mathematics, live and online. We charge nothing for the opening class. Thereafter it is USD 100 for a month in a group and USD 150 for a month one to one. Al Mazyunah sits on the Yemen border around a free zone built for transit trade. Where everybody signs a contract with the same length and a different start, one shared deadline is the easiest wrong answer in the building. Book the free class Ask on WhatsApp Facts last verified 23 August 2026. Teaching is online; no Al Mazyunah branch is claimed. 10,000+ students taught 4.9 across 547 Google reviews 2020 teaching since 25+ countries 6 to 67 ages taught 5 to 8 students per group
-Course picks Learn when a date belongs to a row and not to the table Four routes from counting years forward on paper to storing terms that each know their own start.
-Ages 6 to 11 Elementary Mathematics Same number of years, different starting point. See the syllabus
-Ages 10 to 14 Maths Through Coding Adding a term to a date, eight times over. See the syllabus
-Ages 14 to 18 MySQL for Teens A column per row, not a constant per table. See the syllabus
-College and adult Data Analysis Cohorts, and why calendar time misleads. See the syllabus
-Browse the course atlas for more than one hundred options and use the coding roadmap to check prerequisites.
-The four we are known for Python, AI, vibe coding and agentic coding These run underneath everything above. Every one is live and online, placed by ability rather than by age, and the first class is free.
-Vibe coding Ages 13 to 17 Vibe Coding for Teens Python, web and AI projects where the learner still owns the thinking. See the syllabus
-Python and AI College and adult Python AI Automation Automate the work you already do, then let AI carry part of it. See the syllabus
-AI and ML Ages 14 to 18 AI and Machine Learning for Teens Train a model, read what it learned, and be able to say why it is wrong. See the syllabus
-Agentic coding Professionals Codex and Claude Code Run AI coding agents on real work without losing control of the codebase. See the syllabus
-Al Mazyunah today A free zone where everybody has a different clock A scheme with a fixed term and rolling entry produces a population of contracts that share every property except the one that matters. Built for trade across a border The Al Mazunah Free Zone was established in 1999 to enhance trade between Oman and Yemen and serves as a gateway for transit trade onward to East African countries. Rolling entry is inherent to a zone whose whole purpose is to attract new arrivals. A term measured in decades Among the incentives is a 30-year income tax exemption. A term that long guarantees that the first cohort and the latest one will never share an expiry, and that most people quoting it will not be around when it matters. Two ways in from Yemen There are two main border crossings, Shahan into Al Mazyunah in the north and Hawf into Sarfait in the south. Two entry points is two streams of records that have to be reconciled before anything is counted once. A term is a length and an expiry is a date Thirty years is a property of the scheme. The year it runs out is a property of each agreement, and the two get written into the same sentence constantly. Once an expiry is stored as a constant, every later arrival inherits a deadline that was never theirs.
-Verified local facts Al Mazyunah facts with a trail behind them Each claim traced, with terms and dates kept apart. A zone established in 1999 The Al Mazunah Free Zone was established in 1999 in the Dhofar region near the border with Yemen. That is the zone's start date and it is not any individual investor's start date. Fifteen million square metres The zone spans 15 million square metres. A figure given in square metres at that scale is technically exact and hard to picture, which is worth noticing on a page about numbers that are correct and unhelpful. Thirty years of exemption The incentives include a 30-year income tax exemption with no requirement for income declarations. The term is published; no expiry date is, because there is no single one to publish. Twenty per cent Omanisation The zone operates a reduced Omanisation rate of 20 per cent. A rate is a property of the scheme that genuinely does apply to everybody, which is the useful contrast with the exemption term. Crossings north and south The two main border crossings are Shahan into Al Mazyunah in the north and Hawf into Sarfait in the south. Named crossings are checkable facts about a border that is otherwise hard to describe. A gateway for transit trade The zone is described as a major Gulf gateway for transit trade to Yemen and onward to East Africa. Goods passing through belong to no local total, which is its own counting problem. Modern Age Coders has no involvement in the free zone, its incentives or any company operating there, and claims none. Al Mazyunah is used here because a long fixed term with rolling entry is the plainest case of a date that belongs to a row rather than to a table.
-Signature project Twenty twenty nine, correct for one company in eight Everybody has the same thirty years. Almost nobody has the same deadline, and one number gets written down. 1. Note the term, not the date The zone opened in 1999 and the exemption runs for thirty years. Those are the two published facts. The eight joining years used below are illustrative, spread across the zone's life to show the shape of the problem, and the page says so. 2. Compute the obvious expiry Nineteen ninety nine plus thirty is 2029. It is arithmetic nobody would query, it appears in a briefing note, and from that point on it is the date everybody uses. 3. Compute each company's own expiry A company joining in 2011 is exempt to 2041. One joining in 2024 is exempt to 2054. Across eight arrivals the expiries run from 2029 to 2054, a spread of twenty five years, and the quoted date is right for exactly one of them. One thirty year term, eight different deadlines Company joined Its exemption ends Quoted date says Error 1999, with the zone 2029 2029 None, this is the one 2007 2037 2029 8 years early 2014 2044 2029 15 years early 2021 2051 2029 22 years early 2024 2054 2029 25 years early Across all eight 2029 to 2054 one date Right for 1 of 8 The error is always in the same direction and it grows with time A shared expiry taken from the scheme's own start is never too late and always too early, and the gap widens with every year the scheme keeps accepting entrants. That means the forecast gets worse precisely as the programme gets more successful, and the people who wrote the original note are long gone by the time anybody notices. Every figure above was computed before this was written.
-Reliable pipeline Store the start and the term, and derive the date Five habits that keep a deadline attached to the agreement it belongs to. Recording an agreement with a fixed term Stage Rule What it prevents What it gives you Separate Store a start date and a term, never an expiry alone A deadline detached from its holder A date that recomputes correctly Row Keep the term on the record, not in the schema One constant applied to everybody Per-agreement answers Derive Compute expiries rather than typing them A copied date that ages badly A figure that cannot drift Cohort Group by time since joining, not by calendar year Comparing a first year against a twentieth Like compared with like Spread Report the range of expiries, not one date A single deadline standing for a population A picture of the real exposure For younger learners Eight paper strips of equal length pinned to a timeline at different starting points. The child marks where each ends and sees eight different answers to one question. No screen is required. For teenagers The eight joining years in Python, each expiry derived from its own start, printed beside the single quoted date with the error in a third column. The learner then writes the check that flags any expiry stored as a literal rather than derived. For adults Agreements store a start and a term, expiries are always derived, comparisons are made on time since joining rather than on calendar year, and exposure is reported as a range of dates rather than as one. The zone's establishment in 1999, the area of 15 million square metres, the 30-year income tax exemption, the 20 per cent Omanisation rate and the crossings at Shahan and Hawf into Sarfait are published. The eight joining years are illustrative, chosen to spread across the zone's life, and that is stated in the every place they occur says so. What the exercise demonstrates belongs to any fixed term with rolling entry and does not rest on these particular years.
-Learning ladder From eight paper strips on a timeline to expiries that derive themselves The free class is how we find the rung that will actually move this learner forward.
-Ages 6 to 10 Same length, different start Children lay equal strips from different points and compare the ends. Early Math Foundations Kids Coding Blocks
-Ages 11 to 13 Adding a term to a date Learners compute eight answers where they expected one. Problem Solving and Computational Thinking Python and AI for Kids
-Ages 14 to 18 Derived fields against stored ones Teenagers replace a stored date with a computed one and see what stops breaking. Python for Teens Data Science for Teens
-Ages 18 to 67 Cohorts against calendar time Adults compare records by time since joining rather than by year. Python Programming MySQL Database
-Delivery Live classes at the far south western corner A border wilayat built around a trade zone has a working population that did not grow up here and school-age children who did. A zone economy needs zone skills Logistics, customs and trade records are all data work. Teaching that arrives over a connection can reach a place like this long before any institution is built in it. Nothing charged for the first lesson A complete class with a real task, closing on a specific recommendation. No card is requested to book it and nothing is committed to until a teacher has been watched working. Groups of five to eight, matched on level Cohorts form on what a learner can do and where they are heading, not on which side of a border they were born. In a trade zone that distinction matters. When a group is simply the wrong shape Private tuition puts one teacher with one learner, which is what a fixed examination date or a single stubborn weakness usually calls for. Roughly eight sessions a month The pattern is twice weekly, and the time is chosen once at enrolment. Shifts at the crossing move; the slot does not have to. Ninety minutes of difference, once Oman runs that far behind India and it is settled at the outset, along with school terms, shift patterns, examination weeks and Ramadan. A date that is wrong by twenty five years still looks like a date Nothing about 2029 in a cell suggests it was inherited from a scheme rather than derived from an agreement. What exposes it is a teacher asking whose thirty years that is, and then waiting while the learner checks the second row.
-Fees One free class, then group or private tuition Pricing is in USD and is confirmed with the selected format. First class USD 0 Ability task, goal review and starting recommendation. Group tuition USD 100 Per month, normally eight lessons, five to eight learners. Private tuition USD 150 Per month, normally eight lessons, one student and one teacher. Request placement Check availability
-Reviews What families and learners say Rated 4.9 across 547 Google reviews. These are real reviews, reproduced as written.
-&#9733;&#9733;&#9733;&#9733;&#9733; "The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content." Ria Mukherjee Parent &#9733;&#9733;&#9733;&#9733;&#9733; "Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease." Samriddha Mondal Student &#9733;&#9733;&#9733;&#9733;&#9733; "One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development." Vansh Agarwal Student &#9733;&#9733;&#9733;&#9733;&#9733; "My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative." Sonam Oswal Parent of Dhairya &#9733;&#9733;&#9733;&#9733;&#9733; "Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation." Sonu Goyal Parent &#9733;&#9733;&#9733;&#9733;&#9733; "I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding." Ritu Kedia Parent
-Free placement class Tell us the learner's level and the deadline everybody shares The first task might be eight paper strips on a timeline, a Python column of derived expiries, or a real contract table at work where one date has been copied down every row. Learner or parent name Email Oman phone +968 Grade or age Goal or current experience Book the free class Thank you. Your Al Mazyunah class request has been sent. Contact the team directly WhatsApp or call +91 91233 66161 , or email contact@modernagecoders.com . This is Modern Age Coders' actual contact and not an invented Al Mazyunah number. WhatsApp Modern Age Coders Submitted details are used for placement and follow-up.
-FAQ Al Mazyunah coding class questions The wilayat, the teaching and the terms of service, taken separately.
-Are the free zone facts real? Yes. The Al Mazunah Free Zone was established in 1999, spans 15 million square metres, offers a 30-year income tax exemption and a reduced Omanisation rate of 20 per cent, and sits near crossings at Shahan and at Hawf into Sarfait. The eight joining years used in the project are illustrative and the page says so.
-Why does this error only get worse? Because a shared expiry taken from the scheme's own opening is always too early and never too late, and the gap grows with every year the scheme keeps admitting entrants. The forecast degrades precisely as the programme succeeds, which is the opposite of how people expect errors to behave.
-Is there a Modern Age Coders centre in Al Mazyunah? No. No premises are claimed in Al Mazyunah or anywhere in Dhofar. Classes are live online and need a laptop or desktop, working audio, a current browser and a stable connection. The page describes where the service reaches, not a building.
-What should be stored instead of the expiry? The start date and the term. Then the expiry is derived whenever it is needed and cannot be copied, inherited or left behind by a schema change. Storing the answer instead of the inputs is what makes a date go stale silently.
-Can working adults enrol, or is this for school students? Both, up to 67. The adult route covers Python, databases and reporting. Anyone administering warranties, licences, subscriptions or leases with a fixed term and rolling starts has this in their tables. Bring the real ones where they are yours to bring.
-What comes out of this project? Agreements holding a start and a term rather than an expiry, dates derived rather than typed, comparisons made on time since joining, and exposure reported as a range. All four survive any change of system.
-How much do Al Mazyunah coding classes cost? The first class is free. Standard group tuition is USD 100 per month for two live lessons each week, normally eight lessons monthly. Standard private tuition is USD 150 per month for one learner with one teacher on the same usual frequency. Course, format, recurring time and availability are confirmed before payment.
-What is the class size for Al Mazyunah learners? A group normally contains five to eight compatible learners. Compatibility includes current level, learning pace and objective, not age alone. Private tuition is one learner with one teacher. If no suitable group is ready, a learner can discuss private tuition or wait for an appropriate cohort.
-How are Al Mazyunah class times arranged? Oman is one and a half hours behind India. The teacher and learner agree a recurring time before payment, generally for two live lessons each week. Friday and Saturday options may be discussed subject to availability. School, work and travel schedules, examinations and Ramadan routines should be mentioned before confirmation.
-What happens in the free Al Mazyunah class? We work out what the learner is trying to become able to do and set one task there. A child lays equal paper strips from different starting points. A teenager derives eight expiries and compares them with one quoted date. An adult is asked whether any deadline in their systems is stored rather than computed. It ends with a named course, a chosen format, an agreed time and a stated fee in USD, and no charge for the hour itself.
-Explore Oman Elsewhere in Dhofar The Oman coding hub holds national delivery, fees and every course we run. Inland, Thumrait covers the stops that vanish from a journey table, and on the coast Mirbat takes on a day boundary that moves. Book the free class Close with WhatsApp
-Free Al Mazyunah class Call +91 91233 66161
-Start here All courses Course atlas Pricing How we teach Oman cities Oman hub Thumrait Mirbat Dhofar Company About us Contact Wall of love Student labs Modern Age Coders. Live online coding, AI and mathematics for ages 6 to 67. Teaching since 2020, more than 10,000 students.
+*Canonical: https://learn.modernagecoders.com/coding-classes-in-al-mazyunah*

@@ -10,6 +10,9 @@
   # carrying the retired $40/$100/$150 figures.
   #
   #   generate:html    blogs, courses, resources
+  #   build:mesh       the "Keep exploring" internal-link block on every page (needs
+  #                    the generated pages to exist; must run before derived so the
+  #                    .md twins and llms-full.txt carry the same links)
   #   pricing:apply    stamp every price
   #   generate:derived .md twins, llms.txt, sitemaps
   #

@@ -332,7 +332,41 @@ Explore Oman
 
 The [Oman coding hub](/coding-classes-in-oman) explains national availability and pricing. The next city lessons are [Barka](/coding-classes-in-barka), which parses dates before sorting, and [Salalah](/coding-classes-in-salalah), which handles seasonality and moving averages.
 
-Book the free class[Close with WhatsApp](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20want%20a%20free%20coding%20class%20for%20a%20learner%20in%20Sohar.)Free Sohar class[Call +91 91233 66161](tel:+919123366161)[Chat with us](https://wa.me/919123366161?text=Hi%2C%20I'm%20interested%20in%20learning%20more%20about%20your%20courses!)
+Book the free class[Close with WhatsApp](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20want%20a%20free%20coding%20class%20for%20a%20learner%20in%20Sohar.)Free Sohar class[Call +91 91233 66161](tel:+919123366161)
+
+## Keep exploring Modern Age Coders
+
+### Coding classes in nearby places
+
+- [Coding Classes in Sur](/coding-classes-in-sur)
+- [Coding Classes in Shinas](/coding-classes-in-shinas)
+- [Coding Classes in Taqah](/coding-classes-in-taqah)
+- [Coding Classes in Shalim](/coding-classes-in-shalim)
+- [Coding Classes in Thumrait](/coding-classes-in-thumrait)
+- [Online Coding Classes in Seeb](/coding-classes-in-seeb)
+- [Coding Classes in Al Batinah South](/coding-classes-in-al-batinah-south)
+- [Coding Classes in Al Amarat](/coding-classes-in-al-amarat)
+- [AI and Python Academy for Students in Salalah](/ai-and-python-academy-salalah)
+
+### Free resources
+
+- [JavaScript Tutorial: Build Interactive Websites](/resources/javascript)
+- [Forms, Inputs, and Form Validation](/resources/html-and-css/forms-and-inputs)
+- [Fetch API - Getting Data from the Internet | JavaScript Tutorial](/resources/javascript/fetch-api-and-working-with-apis)
+- [Modern CSS - Container Queries, Subgrid, clamp](/resources/html-and-css/modern-css-features)
+
+### From the blog
+
+- [Coding Class Fees in India 2026: What to Pay](/blog/coding-class-fees-india-2026)
+- [How to Get a 5 in AP Computer Science A (2026)](/blog/how-to-get-a-5-in-ap-computer-science-a)
+- [AP CSP vs AP CSA: Which Should You Take First?](/blog/ap-csp-vs-ap-csa-which-to-take-first)
+
+### Start here
+
+- [What Modern Age Coders families say](/love)
+- [Book a free demo class with Modern Age Coders](/book-demo)
+
+[Chat with us](https://wa.me/919123366161?text=Hi%2C%20I'm%20interested%20in%20learning%20more%20about%20your%20courses!)
 
 ---
 

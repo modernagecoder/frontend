@@ -363,6 +363,38 @@ Rather read first? [How learning actually works](/how-to-actually-learn-to-code)
 
 We hold no premises anywhere. Every session is a live video call taught from India, and the number above rings in India. Sending the form opens a conversation rather than an enrolment, and holds no place in any batch.
 
+## Keep exploring Modern Age Coders
+
+### Related courses and guides
+
+- [JEE Aspirant Coding Track: Python & Computational Maths for](/jee-aspirant-coding-track)
+- [Large Language Models Course (LLMs)](/large-language-models-course)
+- [How To Build a Coding Portfolio That Holds Up Under Questioning](/how-to-build-a-coding-portfolio)
+- [Learn Coding by Age (8–17)](/learn-coding-by-age)
+- [Learn Coding by Class (4–12)](/learn-coding-by-class)
+- [How Large Language Models Work](/how-large-language-models-work)
+- [AEO & GEO Services](/aeo-geo-optimization-services)
+- [Online Coding Summer Camp](/online-coding-summer-camp)
+- [Coding Classes for DPS R.K. Puram Students](/coding-classes-for-dps-rk-puram-new-delhi)
+
+### Free resources
+
+- [HTML & CSS Tutorial: Build Websites from Scratch](/resources/html-and-css)
+- [Loops (for, while, do-while) and Patterns](/resources/cpp/loops-in-cpp)
+- [Project: Build an Animated Portfolio Website](/resources/html-and-css/project-animated-portfolio-website)
+- [STL Algorithms and Iterators](/resources/cpp/stl-algorithms-and-iterators)
+
+### From the blog
+
+- [Is Coding Good for Kids? What It Really Teaches](/blog/is-coding-good-for-kids)
+- [Best Byju's Alternative for Kids and Teens in India (2026)](/blog/best-byjus-alternative)
+- [What is the Responsibility of Developers Using Generative AI? A](/blog/what-is-the-responsibility-of-developers-using-generative-AI)
+
+### Start here
+
+- [Book a free demo class with Modern Age Coders](/book-demo)
+- [Real projects built by Modern Age Coders students](/student-labs)
+
 ---
 
 *Canonical: https://learn.modernagecoders.com/how-to-think-like-a-programmer*

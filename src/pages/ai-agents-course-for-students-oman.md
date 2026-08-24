@@ -335,6 +335,47 @@ Read first if you prefer: the [academy hub for Oman](/ai-and-python-academy-oman
 
 There is no centre anywhere in Oman. Every session is a live video call taught from India, and the number above rings in India.
 
+## Keep exploring Modern Age Coders
+
+### Coding classes in nearby places
+
+- [AI and Machine Learning Classes in Muscat](/ai-and-machine-learning-classes-in-muscat)
+- [AI & Machine Learning Classes in Oman](/ai-and-machine-learning-classes-in-oman)
+- [Coding and AI Classes for Girls in Oman](/ai-and-python-academy-for-girls-oman)
+- [Coding Classes in Yanqul](/coding-classes-in-yanqul)
+- [Coding Classes in Wadi Bani Khalid](/coding-classes-in-wadi-bani-khalid)
+- [Coding Classes in Wadi Al Maawil](/coding-classes-in-wadi-al-maawil)
+- [Coding Classes in Al Musanaah](/coding-classes-in-al-musanaah)
+- [Coding Classes in Al Kamil Wal Wafi](/coding-classes-in-al-kamil-wal-wafi)
+- [Coding Classes in Al Hamra](/coding-classes-in-al-hamra)
+- [Year-Round Coding Classes vs Summer Camps in The Bahamas](/year-round-coding-classes-vs-summer-camps-bahamas)
+
+### Learn more
+
+- [Vibe Coding for Teens: Python, Web Dev & AI (Ages 13-17)](/courses/vibe-coding-for-teens-python-web-ai-projects-course)
+- [AI Classes for Beginners](/ai-classes-for-beginners)
+- [Master AI, ML, Python & Java: Go Deeper](/master-ai-ml-python-java)
+- [AI Science Fair Project Ideas That Follow the Actual Rules](/science-fair-project-ideas-ai)
+
+### Free resources
+
+- [AI & Machine Learning Tutorial: Basics to Deep Learning](/resources/ai-and-machine-learning)
+- [Linear Regression](/resources/ai-and-machine-learning/linear-regression)
+- [Model Evaluation, Cross-Validation, and Hyperparameter Tuning](/resources/ai-and-machine-learning/model-evaluation-and-tuning)
+- [Reinforcement Learning Basics](/resources/ai-and-machine-learning/reinforcement-learning-basics)
+
+### From the blog
+
+- [AI & Machine Learning Guides](/blog/topic/ai)
+- [Agent Terminology in AI: A Simple Guide to Understanding AI Agents](/blog/agentic-terminology-in-ai)
+- [Coding vs AI: What Should My Child Learn in 2026?](/blog/coding-vs-ai-what-should-my-child-learn)
+- [How AI and Automation Are Transforming Small and Medium Businesses](/blog/ai-automation-transforming-small-medium-businesses)
+
+### Start here
+
+- [About Modern Age Coders, teaching since 2020](/about)
+- [Modern Age Coders pricing, one honest price per plan](/pricing)
+
 [Chat with us](https://wa.me/919123366161?text=Hi%2C%20I'm%20interested%20in%20learning%20more%20about%20your%20courses!)
 
 ---

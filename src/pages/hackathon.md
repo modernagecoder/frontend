@@ -251,6 +251,38 @@ Parent*
 *VVansh Agarwal
 Student*
 
+## Keep exploring Modern Age Coders
+
+### Related courses and guides
+
+- [Our Zero-Risk Promise](/guarantee)
+- [Hackathons for High School Students](/hackathons-for-high-school-students)
+- [The Modern Age Coders Gazette](/gazette)
+- [Free Trial Class](/free-trial)
+- [Homeschool Coding Curriculum](/homeschool-coding-curriculum)
+- [Free Programming Resources](/free-resources)
+- [Passion Project Ideas for Computer Science Students](/passion-project-ideas-computer-science)
+- [Coding Classes for DPS R.K. Puram Students](/coding-classes-for-dps-rk-puram-new-delhi)
+- [How To Build a Coding Portfolio That Holds Up Under Questioning](/how-to-build-a-coding-portfolio)
+
+### Free resources
+
+- [JavaScript Tutorial: Build Interactive Websites](/resources/javascript)
+- [DOM Selection and Manipulation](/resources/javascript/dom-selection-and-manipulation)
+- [Introduction to HTML](/resources/html-and-css/introduction-to-html)
+- [Local Storage and Session Storage](/resources/javascript/local-storage-and-session-storage)
+
+### From the blog
+
+- [How to Get Better at Maths: 8 Methods That Actually Work](/blog/how-to-get-better-at-maths)
+- [What is Vibe Coding? The Ultimate Deep-Dive Guide to AI-Powered](/blog/what-is-vibe-coding-future-of-software-development)
+- [Java for Kids: Complete Kids Guide to Learning Java Programming in 2026](/blog/java-for-kids-complete-guide-learning-programming-2026)
+
+### Start here
+
+- [What Modern Age Coders families say](/love)
+- [Book a free demo class with Modern Age Coders](/book-demo)
+
 [Chat with us](https://wa.me/919123366161?text=Hi%2C%20I'm%20interested%20in%20learning%20more%20about%20your%20courses!)
 
 ---

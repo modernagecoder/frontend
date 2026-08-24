@@ -228,7 +228,49 @@ Real student projects
 
 Every one is a real, live project shipped by a Modern Age Coders student. Explore more in [Student Labs](/student-labs).
 
-[![Doodle Dash: 30-Second Drawing Challenge](/images/projects/doodledash.webp)GameDoodle Dash: 30-Second Drawing ChallengePick a difficulty, get a prompt, and you have exactly 30 seconds to draw it, then an AI judge scores how close you got. Three modes from easy objects to chaotic scenes. Shubh vibe-coded it idea-first, wiring real AI image grading into a fast, addictive drawing game.by ShubhOpen the live project ↗](https://doodledashmaster.lovable.app)[![BookDesk: AI Book Summaries & Quizzes](/images/projects/bookdesk.webp)AI & MLBookDesk: AI Book Summaries & QuizzesType in any book name and author, and BookDesk pulls together the book's details, a clear summary and a custom quiz to test what you've learned, a genuinely useful study companion. Anika built it as a full-stack AI application, powered by Google Gemini with a live database behind it.by AnikaOpen the live project ↗](https://bookdesk1.netlify.app)[![HairSync: AI Hairstyle Try-On](/images/projects/hairsync.webp)AI & MLHairSync: AI Hairstyle Try-OnUpload a clear photo and try on any hairstyle before you commit, wolf cuts, curtain bangs, fades, braids and dozens of trending looks, rendered onto your own face by AI in seconds. Kriti vibe-coded this virtual try-on studio from a single idea into a working app.by KritiOpen the live project ↗](https://hairsync.lovable.app)[Chat with us](https://wa.me/919123366161?text=Hi%2C%20I'm%20interested%20in%20learning%20more%20about%20your%20courses!)
+[![Doodle Dash: 30-Second Drawing Challenge](/images/projects/doodledash.webp)GameDoodle Dash: 30-Second Drawing ChallengePick a difficulty, get a prompt, and you have exactly 30 seconds to draw it, then an AI judge scores how close you got. Three modes from easy objects to chaotic scenes. Shubh vibe-coded it idea-first, wiring real AI image grading into a fast, addictive drawing game.by ShubhOpen the live project ↗](https://doodledashmaster.lovable.app)[![BookDesk: AI Book Summaries & Quizzes](/images/projects/bookdesk.webp)AI & MLBookDesk: AI Book Summaries & QuizzesType in any book name and author, and BookDesk pulls together the book's details, a clear summary and a custom quiz to test what you've learned, a genuinely useful study companion. Anika built it as a full-stack AI application, powered by Google Gemini with a live database behind it.by AnikaOpen the live project ↗](https://bookdesk1.netlify.app)[![HairSync: AI Hairstyle Try-On](/images/projects/hairsync.webp)AI & MLHairSync: AI Hairstyle Try-OnUpload a clear photo and try on any hairstyle before you commit, wolf cuts, curtain bangs, fades, braids and dozens of trending looks, rendered onto your own face by AI in seconds. Kriti vibe-coded this virtual try-on studio from a single idea into a working app.by KritiOpen the live project ↗](https://hairsync.lovable.app)
+
+## Keep exploring Modern Age Coders
+
+### Related courses and guides
+
+- [Coding Classes for Kids in Nassau](/coding-classes-for-kids-in-nassau)
+- [Coding Classes for Kids in Doha](/coding-classes-for-kids-in-doha)
+- [Coding Classes for Kids in Riyadh](/coding-classes-for-kids-in-riyadh)
+- [Coding Classes for Kids Cost 2026: US Prices by Format](/coding-classes-for-kids-cost)
+- [Coding Classes for La Martiniere for Boys Students](/coding-classes-for-la-martiniere-boys-kolkata)
+- [Coding Classes for Girls](/coding-classes-for-girls)
+- [Mobile App Development Company](/mobile-app-development-services)
+- [Custom Software Development Company](/custom-software-development-services)
+- [Passion Project Ideas for Computer Science Students](/passion-project-ideas-computer-science)
+
+### Learn more
+
+- [Python Projects for Kids: 20+ Finishable Python Projects (Ages 8 to 15)](/python-projects-for-kids)
+- [Abacus & Mental Maths for Kids: From First Beads to Anzan](/courses/abacus-mental-maths-course-for-kids)
+- [Python Classes in Dubai](/python-classes-in-dubai)
+- [Online Maths Tutoring for Kids in the USA](/online-maths-tutoring-for-kids-in-usa)
+
+### Free resources
+
+- [C++ Tutorial: From Basics to Advanced](/resources/cpp)
+- [Introduction to AI and Machine Learning](/resources/ai-and-machine-learning/introduction-to-ai-and-ml)
+- [Modern C++ Features (C++11 to C++20)](/resources/cpp/modern-cpp-features)
+- [Model Evaluation, Cross-Validation, and Hyperparameter Tuning](/resources/ai-and-machine-learning/model-evaluation-and-tuning)
+
+### From the blog
+
+- [Coding for Kids: Guides for Parents](/blog/topic/kids-coding)
+- [How to Help With Maths Homework (Without Solving It)](/blog/help-child-with-maths-homework)
+- [Java for Kids: Complete Kids Guide to Learning Java Programming in 2026](/blog/java-for-kids-complete-guide-learning-programming-2026)
+- [7 Signs Your Child Is Ready to Learn Coding (2026 Guide)](/blog/signs-your-child-is-ready-to-learn-coding)
+
+### Start here
+
+- [Modern Age Coders pricing, one honest price per plan](/pricing)
+- [How Modern Age Coders teaches, small batches and real projects](/how-we-teach)
+
+[Chat with us](https://wa.me/919123366161?text=Hi%2C%20I'm%20interested%20in%20learning%20more%20about%20your%20courses!)
 
 ---
 

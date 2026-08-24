@@ -274,6 +274,42 @@ Rather read first? [The twelve-month track](/python-and-ai-track-for-students-ba
 
 We hold no premises anywhere in the Bahamas. Every session is a live video call taught from India, and the number above rings in India.
 
+## Keep exploring Modern Age Coders
+
+### Coding classes in nearby places
+
+- [Coding and AI Alongside BJC and BGCSE in The Bahamas](/coding-and-ai-alongside-bjc-and-bgcse-bahamas)
+- [Year-Round Coding Classes vs Summer Camps in The Bahamas](/year-round-coding-classes-vs-summer-camps-bahamas)
+- [The 12-Month Python and AI Track for Bahamian Students](/python-and-ai-track-for-students-bahamas)
+- [One to One Coding Classes in Nassau](/one-to-one-coding-classes-in-nassau)
+- [Coding Competitions for Students in The Bahamas](/coding-competitions-for-students-bahamas)
+
+### Learn more
+
+- [Orange Data Mining Course for College Students](/courses/orange-data-mining-machine-learning-course-for-college-students)
+- [Data and AI Analytics for Non-Programmers (Excel, Sheets, Power BI)](/courses/data-and-ai-analytics-for-non-programmers-course)
+- [How to Build AI Models](/how-to-build-ai-models)
+- [AI Projects for High School Students](/ai-projects-for-high-school-students)
+
+### Free resources
+
+- [AI & Machine Learning Tutorial: Basics to Deep Learning](/resources/ai-and-machine-learning)
+- [MLOps and Model Deployment](/resources/ai-and-machine-learning/ml-ops-and-model-deployment)
+- [Recurrent Neural Networks (RNN) and LSTM](/resources/ai-and-machine-learning/recurrent-neural-networks)
+- [Unsupervised Learning](/resources/ai-and-machine-learning/unsupervised-learning-clustering)
+
+### From the blog
+
+- [AI & Machine Learning Guides](/blog/topic/ai)
+- [Best Data Science Courses in India for Students and](/blog/data-science-course-india)
+- [Best AI Coding Tools for Students in 2026](/blog/best-ai-coding-tools-for-students-2026)
+- [Data Science, AI, and Math: Skills Every Tech Professional Must Learn](/blog/data-science-ai-math-skills-professionals)
+
+### Start here
+
+- [Browse every live course at Modern Age Coders](/courses)
+- [Try a free trial class with a Modern Age Coders mentor](/free-trial)
+
 [Chat with us](https://wa.me/919123366161?text=Hi%2C%20I'm%20interested%20in%20learning%20more%20about%20your%20courses!)
 
 ---

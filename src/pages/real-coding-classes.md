@@ -361,6 +361,67 @@ Every figure below is the same one we publish across our site and schema, no inf
 >
 > "My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
 >
+>
+>
+> ## Keep exploring Modern Age Coders
+>
+>
+>
+> ### Related courses and guides
+>
+>
+>
+> - [Refund Policy](/refund)
+> - [RAG Systems Course](/rag-systems-course)
+> - [Our Results](/results)
+> - [Prompt Engineering Course](/prompt-engineering-course)
+> - [Roblox Coding Classes for Kids](/roblox-coding-classes-for-kids)
+> - [Coding & Maths Classes for School Students](/schools)
+> - [The Modern Age Coders Gazette](/gazette)
+> - [Free Coding Starter Kit](/free-coding-starter-kit)
+> - [Summer Research Programs in Coding and AI](/summer-research-programs-coding)
+>
+>
+>
+> ### Learn more
+>
+>
+>
+> - [Coding & Maths Classes near Sugam Habitat](/coding-classes-in-sugam-habitat)
+> - [Coding vs Programming: The Real Difference & How We Build Programmers](/coding-vs-programming)
+> - [Coding & Maths Classes in Siddha Town, Madhyamgram](/coding-classes-in-siddha-town-madhyamgram)
+> - [Coding & Maths Classes at DLF New Town Heights](/coding-classes-in-dlf-new-town-heights)
+>
+>
+>
+> ### Free resources
+>
+>
+>
+> - [HTML & CSS Tutorial: Build Websites from Scratch](/resources/html-and-css)
+> - [Loops (for, while, do-while) and Patterns](/resources/cpp/loops-in-cpp)
+> - [Project: Build an Animated Portfolio Website](/resources/html-and-css/project-animated-portfolio-website)
+> - [STL Algorithms and Iterators](/resources/cpp/stl-algorithms-and-iterators)
+>
+>
+>
+> ### From the blog
+>
+>
+>
+> - [How to Build a Menu Driven Program in Python (Step-by-Step Guide)](/blog/how-to-build-menu-driven-program-in-python)
+> - [How to Get Better at Maths: 8 Methods That Actually Work](/blog/how-to-get-better-at-maths)
+> - [What Type of Data is Generative AI Most Suitable For? A Complete Guide](/blog/what-type-of-data-is-generative-ai-most-suitable-for)
+>
+>
+>
+> ### Start here
+>
+>
+>
+> - [Book a free demo class with Modern Age Coders](/book-demo)
+> - [Real projects built by Modern Age Coders students](/student-labs)
+>
 > Sonam Oswal, parent of Dhairya
 
 > ★★★★★

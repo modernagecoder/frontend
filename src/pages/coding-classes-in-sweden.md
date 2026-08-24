@@ -719,7 +719,50 @@ Modern Age Coders teaches students worldwide over live video, in small 4–8 bat
 - [Coding Classes in the United Kingdom](/coding-classes-in-united-kingdom)
 - [Coding Classes in the United States](/coding-classes-in-united-states)
 
-[Browse all courses →](/courses)[Book a free demo](/book-demo)[Coding Classes in India](/coding-classes-in-india)[Chat with us](https://wa.me/919123366161?text=Hi%2C%20I'm%20interested%20in%20learning%20more%20about%20your%20courses!)
+[Browse all courses →](/courses)[Book a free demo](/book-demo)[Coding Classes in India](/coding-classes-in-india)
+
+## Keep exploring Modern Age Coders
+
+### Coding classes in nearby places
+
+- [Coding & Maths Classes near Sukhobrishti](/coding-classes-in-sukhobrishti)
+- [Online Coding Classes in the Netherlands](/coding-classes-in-netherlands)
+- [AI and Machine Learning Classes in Germany](/ai-and-machine-learning-classes-in-germany)
+- [Online Coding Classes in Leicester](/coding-classes-in-leicester)
+- [AI and Machine Learning Classes in Ireland](/ai-and-machine-learning-classes-in-ireland)
+- [AI and Machine Learning Classes in London](/ai-and-machine-learning-classes-in-london)
+- [AI and Machine Learning Classes in the UK](/ai-and-machine-learning-classes-in-uk)
+- [AI and Machine Learning Classes in Zurich](/ai-and-machine-learning-classes-in-zurich)
+- [AI and Machine Learning Classes in Switzerland](/ai-and-machine-learning-classes-in-switzerland)
+- [Coding Classes in Al Ghubrah](/coding-classes-in-al-ghubrah)
+
+### Learn more
+
+- [AI & Machine Learning for Working Professionals](/ai-and-machine-learning-for-working-professionals)
+- [Build Machine Learning Models in Python](/build-machine-learning-models-in-python)
+- [Python for Data Science](/python-for-data-science)
+- [Neural Networks Course](/neural-networks-course)
+
+### Free resources
+
+- [AI & Machine Learning Tutorial: Basics to Deep Learning](/resources/ai-and-machine-learning)
+- [Introduction to AI and Machine Learning](/resources/ai-and-machine-learning/introduction-to-ai-and-ml)
+- [Linear Regression](/resources/ai-and-machine-learning/linear-regression)
+- [Model Evaluation, Cross-Validation, and Hyperparameter Tuning](/resources/ai-and-machine-learning/model-evaluation-and-tuning)
+
+### From the blog
+
+- [AI & Machine Learning Guides](/blog/topic/ai)
+- [What is Vibe Coding? The Ultimate Deep-Dive Guide to AI-Powered](/blog/what-is-vibe-coding-future-of-software-development)
+- [Agent Terminology in AI: A Simple Guide to Understanding AI Agents](/blog/agentic-terminology-in-ai)
+- [Top Emerging Tech Skills to Learn in 2025 (AI, Low-Code, Cloud)](/blog/top-emerging-tech-skills-learn-2025-ai-low-code-cloud)
+
+### Start here
+
+- [Book a free demo class with Modern Age Coders](/book-demo)
+- [Real projects built by Modern Age Coders students](/student-labs)
+
+[Chat with us](https://wa.me/919123366161?text=Hi%2C%20I'm%20interested%20in%20learning%20more%20about%20your%20courses!)
 
 ---
 

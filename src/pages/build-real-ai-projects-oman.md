@@ -359,6 +359,46 @@ Read first if you prefer: the [academy hub for Oman](/ai-and-python-academy-oman
 
 There is no centre anywhere in Oman. Every session is a live video call taught from India, and the number above rings in India.
 
+## Keep exploring Modern Age Coders
+
+### Coding classes in nearby places
+
+- [Coding Classes in Ad Dakhiliyah](/coding-classes-in-ad-dakhiliyah)
+- [Coding Classes in Adh Dhahirah](/coding-classes-in-adh-dhahirah)
+- [Coding Classes in Al Amarat](/coding-classes-in-al-amarat)
+- [Coding Classes in Al Awabi](/coding-classes-in-al-awabi)
+- [Coding Classes in Al Batinah North](/coding-classes-in-al-batinah-north)
+- [Coding and AI Classes for Girls in Oman](/ai-and-python-academy-for-girls-oman)
+- [Coding Classes in Al Ghubrah](/coding-classes-in-al-ghubrah)
+- [Coding Classes in Wadi Bani Khalid](/coding-classes-in-wadi-bani-khalid)
+- [Coding Classes in Wadi Al Maawil](/coding-classes-in-wadi-al-maawil)
+
+### Learn more
+
+- [AI Science Fair Project Ideas That Follow the Actual Rules](/science-fair-project-ideas-ai)
+- [AI & ML Projects for Students](/ai-ml-projects-for-students)
+- [AI & ML Course for College Students](/ai-ml-course-for-college-students)
+- [Vibe Coding for Teens: Python, Web Dev & AI (Ages 13-17)](/courses/vibe-coding-for-teens-python-web-ai-projects-course)
+
+### Free resources
+
+- [AI & Machine Learning Tutorial: Basics to Deep Learning](/resources/ai-and-machine-learning)
+- [Dimensionality Reduction](/resources/ai-and-machine-learning/dimensionality-reduction)
+- [Introduction to AI and Machine Learning](/resources/ai-and-machine-learning/introduction-to-ai-and-ml)
+- [Linear Regression](/resources/ai-and-machine-learning/linear-regression)
+
+### From the blog
+
+- [AI & Machine Learning Guides](/blog/topic/ai)
+- [What is Vibe Coding? The Ultimate Deep-Dive Guide to AI-Powered](/blog/what-is-vibe-coding-future-of-software-development)
+- [Best Data Science Courses in India for Students and](/blog/data-science-course-india)
+- [Full Stack vs. AI Engineer: Which Career Path Pays More in India?](/blog/full-stack-vs-ai-engineer-salary-india)
+
+### Start here
+
+- [Real projects built by Modern Age Coders students](/student-labs)
+- [Browse every live course at Modern Age Coders](/courses)
+
 [Chat with us](https://wa.me/919123366161?text=Hi%2C%20I'm%20interested%20in%20learning%20more%20about%20your%20courses!)
 
 ---

@@ -282,6 +282,42 @@ Rather read first? [The Nassau page](/coding-and-ai-classes-in-nassau), [the twe
 
 We hold no premises anywhere in the Bahamas. Every session is a live video call taught from India, and the number above rings in India.
 
+## Keep exploring Modern Age Coders
+
+### Coding classes in nearby places
+
+- [Coding and AI Alongside BJC and BGCSE in The Bahamas](/coding-and-ai-alongside-bjc-and-bgcse-bahamas)
+- [The 12-Month Python and AI Track for Bahamian Students](/python-and-ai-track-for-students-bahamas)
+- [GitHub Portfolios for Bahamian Students](/github-portfolio-for-students-bahamas)
+- [Online Coding Classes in Leicester](/coding-classes-in-leicester)
+- [Feature Engineering and Feature Selection Practice](/resources/ai-and-machine-learning/feature-engineering/practice)
+
+### Learn more
+
+- [Online AI & Machine Learning Classes](/online-ai-and-machine-learning-classes)
+- [Vibe Coding for Teens: Python, Web Dev & AI (Ages 13-17)](/courses/vibe-coding-for-teens-python-web-ai-projects-course)
+- [Data Science Course](/data-science-course)
+- [AI Science Fair Project Ideas That Follow the Actual Rules](/science-fair-project-ideas-ai)
+
+### Free resources
+
+- [AI & Machine Learning Tutorial: Basics to Deep Learning](/resources/ai-and-machine-learning)
+- [MLOps and Model Deployment](/resources/ai-and-machine-learning/ml-ops-and-model-deployment)
+- [Recurrent Neural Networks (RNN) and LSTM](/resources/ai-and-machine-learning/recurrent-neural-networks)
+- [Unsupervised Learning](/resources/ai-and-machine-learning/unsupervised-learning-clustering)
+
+### From the blog
+
+- [AI & Machine Learning Guides](/blog/topic/ai)
+- [What is AI? Complete Beginner's Guide: How to Start, Which Languages](/blog/what-is-ai-complete-beginners-guide-how-to-start)
+- [How AI and Automation Are Transforming Small and Medium Businesses](/blog/ai-automation-transforming-small-medium-businesses)
+- [What is Vibe Coding? The Ultimate Deep-Dive Guide to AI-Powered](/blog/what-is-vibe-coding-future-of-software-development)
+
+### Start here
+
+- [Browse every live course at Modern Age Coders](/courses)
+- [Try a free trial class with a Modern Age Coders mentor](/free-trial)
+
 [Chat with us](https://wa.me/919123366161?text=Hi%2C%20I'm%20interested%20in%20learning%20more%20about%20your%20courses!)
 
 ---

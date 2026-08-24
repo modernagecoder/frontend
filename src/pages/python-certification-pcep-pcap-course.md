@@ -585,6 +585,46 @@ Rather read first? [The full course syllabus](/courses/pcep-pcap-python-certific
 
 Every class is live, one to one or in a batch of five to eight, taught from India at a time arranged with you. We sell no vouchers and no recordings. The form starts a conversation, not an enrolment.
 
+## Keep exploring Modern Age Coders
+
+### Related courses and guides
+
+- [Python for Beginners Kids: Absolute Zero Start, Fun Projects](/python-for-beginners-kids)
+- [Python for Data Science](/python-for-data-science)
+- [Master AI, ML, Python & Java: Go Deeper](/master-ai-ml-python-java)
+- [Python for Machine Learning](/python-for-machine-learning)
+- [Build Your Own GPT in Python: From Tokenizer to Trained Model in](/build-your-own-gpt-python)
+- [Python From the Ground Up: Complete, In-Depth Python Course](/python-from-the-ground-up)
+- [Build Machine Learning Models in Python](/build-machine-learning-models-in-python)
+- [PCEP Certification Preparation](/pcep-python-certification-prep)
+- [Free Coding Starter Kit](/free-coding-starter-kit)
+
+### Learn more
+
+- [The 12-Month Python and AI Track for Bahamian Students](/python-and-ai-track-for-students-bahamas)
+- [Informatics Practices (IP) Class 11-12: CBSE Python & SQL](/courses/cbse-informatics-practices-ip-class-11-12-python-pandas-sql-complete-course)
+- [Python for 16 Year Olds: CS Stream Python, Pandas, ML, Django & DSA](/python-for-16-year-olds)
+- [Python for Kids & Teens](/python-and-ai-classes-for-kids-teens)
+
+### Free resources
+
+- [Python Tutorial for Beginners: Complete Guide](/resources/python)
+- [Installing Python and Setting Up Your Environment](/resources/python/installing-python-and-setup)
+- [Lists in Python](/resources/python/lists-in-python)
+- [Object-Oriented Programming in Python](/resources/python/object-oriented-programming)
+
+### From the blog
+
+- [Python Tutorials & Guides](/blog/topic/python)
+- [What is Floor Division in Python? Complete Guide with Examples](/blog/what-is-floor-division-in-python)
+- [How to Build a Menu Driven Program in Python (Step-by-Step Guide)](/blog/how-to-build-menu-driven-program-in-python)
+- [Why Python is the Most Powerful Skill for Professionals Today](/blog/why-python-most-powerful-skill-professionals-today)
+
+### Start here
+
+- [Real projects built by Modern Age Coders students](/student-labs)
+- [Browse every live course at Modern Age Coders](/courses)
+
 ---
 
 *Canonical: https://learn.modernagecoders.com/python-certification-pcep-pcap-course*

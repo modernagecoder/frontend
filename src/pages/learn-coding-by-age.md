@@ -63,6 +63,46 @@ All our classes are live, online and 1-on-1. Every student from anywhere in Indi
 
 [Book a free demo →](/book-demo)
 
+## Keep exploring Modern Age Coders
+
+### Related courses and guides
+
+- [Large Language Models Course (LLMs)](/large-language-models-course)
+- [Learn Coding From First Principles: Understand How Code Actually Works](/learn-coding-from-first-principles)
+- [JEE Aspirant Coding Track: Python & Computational Maths for](/jee-aspirant-coding-track)
+- [Minecraft Coding Classes for Kids](/minecraft-coding-classes-for-kids)
+- [How We Teach: Watch Our Free Coding & Maths Demo Library](/how-we-teach)
+- [How to Think Like a Programmer](/how-to-think-like-a-programmer)
+- [Bug Fixing, QA & Software Maintenance Services](/software-maintenance-and-support)
+- [Coding Classes for DPS Vasant Kunj Students Students](/coding-classes-for-dps-vasant-kunj-new-delhi)
+- [Online Coding Classes for Kids in the UK](/online-coding-classes-for-kids-uk)
+- [Online Coding Classes for Kids Ages 6-12](/category/kids)
+
+### Learn more
+
+- [Best Coding Classes in Thane](/best-coding-class-in-thane)
+- [Best Coding Classes in Ranchi](/best-coding-class-in-ranchi)
+- [Best Coding Classes in Kolhapur](/best-coding-class-in-kolhapur)
+- [Best Coding Classes in Palakkad](/best-coding-class-in-palakkad)
+
+### Free resources
+
+- [Java Tutorial for Beginners to Advanced](/resources/java)
+- [Strings in Java](/resources/java/strings-in-java)
+- [Abstraction](/resources/java/abstraction-and-interfaces)
+- [Data Types and Constraints (NOT NULL, UNIQUE, PRIMARY KEY)](/resources/sql/data-types-and-constraints)
+
+### From the blog
+
+- [Python List Comprehension: 15 Examples, Simple to Advanced](/blog/python-list-comprehension-explained)
+- [21 Best Coding Courses for Students 2026 (Free & Paid)](/blog/best-free-paid-coding-courses-students)
+- [Scratch vs Python: Which is Better for Young Learners?](/blog/scratch-vs-python-which-better-young-learners)
+
+### Start here
+
+- [What Modern Age Coders families say](/love)
+- [Book a free demo class with Modern Age Coders](/book-demo)
+
 Parent & student voices
 
 ## What our families say

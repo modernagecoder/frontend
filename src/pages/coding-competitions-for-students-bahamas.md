@@ -277,6 +277,34 @@ Rather read first? [The twelve-month track](/python-and-ai-track-for-students-ba
 
 We hold no premises anywhere in the Bahamas. Every session is a live video call taught from India, and the number above rings in India.
 
+## Keep exploring Modern Age Coders
+
+### Coding classes in nearby places
+
+- [Coding and AI Alongside BJC and BGCSE in The Bahamas](/coding-and-ai-alongside-bjc-and-bgcse-bahamas)
+- [Year-Round Coding Classes vs Summer Camps in The Bahamas](/year-round-coding-classes-vs-summer-camps-bahamas)
+- [Coding and AI Classes in The Bahamas](/coding-and-ai-classes-in-bahamas)
+- [GitHub Portfolios for Bahamian Students](/github-portfolio-for-students-bahamas)
+- [The 12-Month Python and AI Track for Bahamian Students](/python-and-ai-track-for-students-bahamas)
+
+### Free resources
+
+- [SQL Tutorial: Databases, Basics to Advanced](/resources/sql)
+- [JOINS - INNER, LEFT, RIGHT, FULL OUTER, CROSS | SQL Tutorial](/resources/sql/joins-inner-and-outer)
+- [Object-Oriented Programming in Python](/resources/python/object-oriented-programming)
+- [String Functions in SQL](/resources/sql/string-functions)
+
+### From the blog
+
+- [PCEP vs PCAP: Which Python Certification Is Worth It?](/blog/pcep-vs-pcap-which-python-certification)
+- [Introduction: What is Blockly for Kids?](/blog/what-is-blockly-for-kids)
+- [How to Get a 5 in AP Computer Science A (2026)](/blog/how-to-get-a-5-in-ap-computer-science-a)
+
+### Start here
+
+- [How Modern Age Coders teaches, small batches and real projects](/how-we-teach)
+- [What Modern Age Coders families say](/love)
+
 [Chat with us](https://wa.me/919123366161?text=Hi%2C%20I'm%20interested%20in%20learning%20more%20about%20your%20courses!)
 
 ---

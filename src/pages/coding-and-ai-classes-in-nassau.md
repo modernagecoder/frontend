@@ -387,6 +387,43 @@ Rather read first? [The twelve-month track in detail](/python-and-ai-track-for-s
 
 We hold no premises anywhere in the Bahamas. Every session is a live video call taught from India, and the number above rings in India.
 
+## Keep exploring Modern Age Coders
+
+### Coding classes in nearby places
+
+- [GitHub Portfolios for Bahamian Students](/github-portfolio-for-students-bahamas)
+- [AI and Machine Learning Classes in The Bahamas](/ai-and-machine-learning-classes-in-bahamas)
+- [One to One Coding Classes in Nassau](/one-to-one-coding-classes-in-nassau)
+- [Coding Classes in Al Khuwair](/coding-classes-in-al-khuwair)
+- [Coding Classes in Al Mudhaibi](/coding-classes-in-al-mudhaibi)
+- [Online Coding Classes in Maryland](/coding-classes-in-maryland)
+
+### Learn more
+
+- [Vibe Coding for Teens: Python, Web Dev & AI (Ages 13-17)](/courses/vibe-coding-for-teens-python-web-ai-projects-course)
+- [AI & ML Projects for Students](/ai-ml-projects-for-students)
+- [AI & Machine Learning for Working Professionals](/ai-and-machine-learning-for-working-professionals)
+- [AI & ML Course for College Students](/ai-ml-course-for-college-students)
+
+### Free resources
+
+- [AI & Machine Learning Tutorial: Basics to Deep Learning](/resources/ai-and-machine-learning)
+- [Generative AI](/resources/ai-and-machine-learning/generative-ai-and-diffusion-models)
+- [Large Language Models](/resources/ai-and-machine-learning/large-language-models)
+- [MLOps and Model Deployment](/resources/ai-and-machine-learning/ml-ops-and-model-deployment)
+
+### From the blog
+
+- [AI & Machine Learning Guides](/blog/topic/ai)
+- [What is AI? Complete Beginner's Guide: How to Start, Which Languages](/blog/what-is-ai-complete-beginners-guide-how-to-start)
+- [How to Teach Kids AI at Home: A Safe 2026 Parent Guide](/blog/how-to-teach-kids-ai-at-home)
+- [Best Data Science Courses in India for Students and](/blog/data-science-course-india)
+
+### Start here
+
+- [About Modern Age Coders, teaching since 2020](/about)
+- [Modern Age Coders pricing, one honest price per plan](/pricing)
+
 [Chat with us](https://wa.me/919123366161?text=Hi%2C%20I'm%20interested%20in%20learning%20more%20about%20your%20courses!)
 
 ---

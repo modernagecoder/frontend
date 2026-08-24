@@ -259,6 +259,45 @@ WhatsApp works too. [Drop us a line there](https://wa.me/919123366161?text=Hi,%2
 
 4.9 rating across 547+ Google reviews
 
+## Keep exploring Modern Age Coders
+
+### Coding classes in nearby places
+
+- [Coding Classes in Doha](/coding-classes-in-doha)
+- [Online Coding Classes in Bahrain](/coding-classes-in-bahrain)
+- [Coding Classes in Dubai](/coding-classes-in-dubai)
+- [Coding Classes in Abu Dhabi](/coding-classes-in-abu-dhabi)
+- [CBSE Maths Tutor in the UAE](/cbse-maths-tutor-uae)
+- [Online Coding Classes in Kuwait](/coding-classes-in-kuwait)
+- [AI and Machine Learning Classes in Bahrain](/ai-and-machine-learning-classes-in-bahrain)
+- [Python for Kids in Dubai](/python-for-kids-in-dubai)
+- [Maths Tuition for Kids in the UAE](/maths-tuition-for-kids-uae)
+
+### Learn more
+
+- [Data Analytics Course](/data-analytics-course)
+- [Large Language Models Course (LLMs)](/large-language-models-course)
+- [AI Agents Course](/ai-agents-course)
+- [AI & ML Certification Course](/ai-ml-certification-course)
+
+### Free resources
+
+- [AI & Machine Learning Tutorial: Basics to Deep Learning](/resources/ai-and-machine-learning)
+- [Dimensionality Reduction](/resources/ai-and-machine-learning/dimensionality-reduction)
+- [Inheritance in Java](/resources/java/inheritance-in-java)
+- [Linear Regression](/resources/ai-and-machine-learning/linear-regression)
+
+### From the blog
+
+- [Learn Python for Beginners: Complete Step-by-Step Guide (2026)](/blog/python-for-beginners)
+- [What is Coding for Kids? A Parent's Complete Guide to Getting](/blog/coding-for-kids-parents-complete-guide-2026)
+- [7 Signs Your Child Is Ready to Learn Coding (2026 Guide)](/blog/signs-your-child-is-ready-to-learn-coding)
+
+### Start here
+
+- [Modern Age Coders pricing, one honest price per plan](/pricing)
+- [How Modern Age Coders teaches, small batches and real projects](/how-we-teach)
+
 [Chat with us](https://wa.me/919123366161?text=Hi%2C%20I'm%20interested%20in%20learning%20more%20about%20your%20courses!)
 
 ---

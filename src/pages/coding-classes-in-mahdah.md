@@ -1,76 +1,385 @@
 ---
-title: Coding Classes in Mahdah | Modern Age Coders
+title: "Coding Classes in Mahdah | Modern Age Coders"
+description: "Live online coding, Python and AI classes for Mahdah learners aged 6 to 67, built on a real boundaries project, with clear USD fees and a free first class in Oman."
 canonical: https://learn.modernagecoders.com/coding-classes-in-mahdah
-description: Live online coding, Python and AI classes for Mahdah learners aged 6 to 67, built on a real boundaries project, with clear USD fees and a free first class in Oman.
+source: src/pages/coding-classes-in-mahdah.html
+---
+> Live online coding, Python and AI classes for Mahdah learners aged 6 to 67, built on a real boundaries project, with clear USD fees and a free first class in Oman.
+
+Skip to contentCourse picks
+
+## Learn to check whether the thing itself changed
+
+Four routes from noticing two measurements are not comparable to keeping a record of when the definitions moved.
+
+[![Elementary Mathematics course thumbnail](/images/elementary-maths.webp)Ages 6 to 11Elementary MathematicsComparing two things that changed shape.See the syllabus](/courses/elementary-mathematics-complete-masterclass)[![Maths Through Coding course thumbnail](/images/maths-through-coding.webp)Ages 10 to 14Maths Through CodingA drop with nobody leaving.See the syllabus](/courses/maths-through-coding)[![Statistics and Probability course thumbnail](/images/statistics-probability-maths.webp)Teens and adultsStatistics and ProbabilityGrowth rates across a change of definition.See the syllabus](/courses/statistics-probability-maths-course)[![Data Analysis course thumbnail](/images/data-analysis-college.webp)College and adultData AnalysisVersion the boundary, not only the numbers.See the syllabus](/courses/data-analysis-mastery-course-college)
+
+Browse the [course atlas](/course-atlas) for more than one hundred options and use the [coding roadmap](/coding-roadmap) to check prerequisites.
+
+The four we are known for
+
+### Python, AI, vibe coding and agentic coding
+
+These run underneath everything above. Every one is live and online, placed by ability rather than by age, and the first class is free.
+
+[![Vibe Coding for Teens course thumbnail](/images/vibe-coding-teens.webp)Vibe codingAges 13 to 17Vibe Coding for TeensPython, web and AI projects where the learner still owns the thinking.See the syllabus](/courses/vibe-coding-for-teens-python-web-ai-projects-course)[![Python AI Automation course thumbnail](/images/python-automation-ai-college.webp)Python and AICollege and adultPython AI AutomationAutomate the work you already do, then let AI carry part of it.See the syllabus](/courses/python-ai-automation-masterclass-college)[![AI and Machine Learning for Teens course thumbnail](/images/ai-ml-teens.webp)AI and MLAges 14 to 18AI and Machine Learning for TeensTrain a model, read what it learned, and be able to say why it is wrong.See the syllabus](/courses/ai-ml-masterclass-teens)[![Codex and Claude Code course thumbnail](/images/codex-claude-code-adults.webp)Agentic codingProfessionalsCodex and Claude CodeRun AI coding agents on real work without losing control of the codebase.See the syllabus](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals)Mahdah today
+
+## A wilayat that changed governorate without moving
+
+Administrative geography is edited far more often than people expect, and almost nothing in a dataset records that it happened.
+
+### Reassigned in 2006
+
+The area was part of Ad Dhahirah Region until October 2006, when a new governorate was created from the wilayats of Al Buraymi and Mahdah. One administrative decision, two wilayats reassigned, and no physical change of any kind.
+
+### Against three emirates
+
+Mahdah lies north of the town of Buraimi and borders the emirates of Sharjah, Ajman and Dubai to the east, with the wilayats of Liwa and Sohar beyond. Borders here are dense, which is part of why the administration was reorganised.
+
+### The country's oldest fortification
+
+Mahdah contains Bayt Al Nad Fort, described as the oldest and largest fortification in the country. A superlative like that only means something if the comparison set is stable, which is the same problem in a different form.
+
+The label survives the thing it labelled
+
+A column called region keeps the same values before and after a reorganisation, so nothing in the data flags the moment its meaning changed. The numbers are correct for their own year. What is wrong is the assumption that two rows with the same label are about the same area.
+
+Verified local facts
+
+## Mahdah facts with a trail behind them
+
+Each claim traced, with the date of the change stated plainly.
+
+### Part of Ad Dhahirah until 2006
+
+The area was part of Ad Dhahirah Region until October 2006. That is the published date and it is the hinge the whole project turns on.
+
+### A governorate made from two wilayats
+
+The new governorate was created from the wilayats of Al Buraymi and Mahdah. Two wilayats left one parent and formed another, which is exactly the kind of change a flat region column cannot express.
+
+### North of the town of Buraimi
+
+Mahdah is described as lying north of the town of Buraimi. A wilayat and a town sharing a neighbourhood and part of a name is worth stating before anybody joins on either.
+
+### Bordering Sharjah, Ajman and Dubai
+
+To the east the wilayat borders three emirates, and beyond it lie the wilayats of Liwa and Sohar. Five named neighbours across two countries is a dense boundary by any standard.
+
+### Bayt Al Nad Fort
+
+The wilayat contains Bayt Al Nad Fort, the country's oldest and largest fortification. The page uses that description as published rather than attempting to verify the comparison behind it.
+
+### A governorate that is younger than many datasets
+
+Al Buraimi Governorate has existed only since 2006. Plenty of reference material predates it, which is why the same place appears under two parents depending on when a source was written.
+
+Modern Age Coders has no association with the fort, the border or the reorganisation and claims none. Mahdah is here because a dated, documented change of administrative parent is the cleanest example of a label outliving its meaning.
+
+Signature project
+
+## Ninety two thousand people who never went anywhere
+
+A single administrative decision produces a fall no household experienced and no row in the data admits to.
+
+### 1. Line up a region series across 2006
+
+Four years before and four years after, all filed under the same name. The series here is illustrative rather than a published table, because the point is the shape of the break rather than the particular figures, and the page says so.
+
+### 2. Read the year on year change
+
+The figure falls by about 43 per cent from one year to the next. On any dashboard that is a catastrophe: an emptying region, an economic collapse, something requiring an urgent explanation.
+
+### 3. Check what actually happened
+
+Two wilayats were reassigned to a new governorate in October 2006. Nobody moved, nothing closed and no household changed address. The only thing that changed was which area the label covers.
+
+| Question | Answer | Is it true? | What it actually reflects |
+| --- | --- | --- | --- |
+| Change from 2006 to 2007 | about minus 43 per cent | Arithmetically | A boundary edit |
+| People who moved house | none | Yes | Nothing happened to anybody |
+| Growth before the change | about 3.0 per cent a year | Yes | One consistent area |
+| Growth after the change | about 4.2 per cent a year | Yes | A different consistent area |
+| Growth measured straight across | about minus 4.9 per cent a year | No | Two areas averaged together |
+| Rows carrying a warning | none | Correct, and that is the fault | The label never changed |
+
+### Each period is honest and the sentence joining them is not
+
+Three per cent a year before and four per cent a year after are both real descriptions of real areas. Minus five per cent a year across the whole stretch is a description of an accounting decision wearing the clothes of a demographic trend. The trap is that the long series looks more authoritative than either of the short ones, because it covers more years. Every figure above was computed before this was written.
+
+Reliable pipeline
+
+## Version the geography, not only the numbers
+
+Five habits that make a boundary change visible instead of invisible.
+
+| Stage | Rule | What it prevents | What it gives you |
+| --- | --- | --- | --- |
+| Date | Give every boundary a valid-from date | Two areas sharing one label | A join that knows which era it is in |
+| Flag | Mark the rows either side of a change | A cliff with no explanation | A warning where somebody will look |
+| Restate | Rebuild history on the current boundary where you can | A series that is not comparable with itself | A trend that means one thing |
+| Split | Report each definition separately when you cannot | Two areas averaged into a fiction | Two honest series instead of one false one |
+| Suspect | Investigate any sharp change before explaining it | A story invented for an artefact | A cause found rather than assumed |
+
+### For younger learners
+
+Counters in two labelled hoops, then some of them moved between hoops while the labels stay put. The child is asked whether any counters left the table. Nothing digital is involved and the point lands immediately.
+
+### For teenagers
+
+The series in Python with growth computed within each period and then straight across, printing all three. The learner adds a valid-from date to the region and watches the straight-across figure become impossible to compute by accident.
+
+### For adults
+
+Boundaries carry effective dates, historical figures are restated onto current definitions where possible and reported separately where not, and any sharp change is investigated before it is narrated.
+
+The October 2006 reorganisation, the creation of the governorate from the wilayats of Al Buraymi and Mahdah, the borders with Sharjah, Ajman and Dubai and Bayt Al Nad Fort are published. The eight year population series is illustrative rather than a published table, chosen to show the shape of the break, and that is stated in the project steps, here and in the FAQ. The behaviour holds for any redefinition of an area.
+
+Learning ladder
+
+## From counters in two hoops to boundaries that carry a date
+
+We use the free class to place a learner by what they can do, which is often some distance from what their school year predicts.
+
+Ages 6 to 10
+
+### The label and the thing
+
+Children see a group change while its name stays put.
+
+[Early Math Foundations](/courses/early-math-foundations)[Kids Coding Blocks](/courses/kids-coding-blocks-masterclass)Ages 11 to 13
+
+### Comparing across a change
+
+Learners find a fall that nobody experienced.
+
+[Problem Solving and Computational Thinking](/courses/problem-solving-and-computational-thinking-for-kids)[Python and AI for Kids](/courses/python-ai-kids-masterclass)Ages 14 to 18
+
+### Series that stay comparable
+
+Teenagers compute growth within and across a definition change.
+
+[Python for Teens](/courses/python-complete-masterclass-teens)[Data Science for Teens](/courses/data-science-course-for-teens-python-data)Ages 18 to 67
+
+### Geography with effective dates
+
+Adults version boundaries and restate history onto them.
+
+[Python Programming](/courses/python-programming-masterclass-zero-to-advanced-college)[MySQL Database](/courses/mysql-database-complete-masterclass-college)Delivery
+
+## Live classes in a wilayat on the border
+
+Mahdah sits against three emirates, which shapes work, travel and school life in ways a timetable has to accommodate rather than ignore.
+
+### A border week, not a standard one
+
+Families here often work across a boundary, and their week is not the week a fixed timetable assumes. Agreeing a slot around the real pattern is simpler when nobody has to travel to reach the class.
+
+### The opening lesson is free of charge
+
+A genuine class with a real task, closing with a specific recommendation. No card is requested to arrange it and no commitment is asked for beforehand.
+
+### Groups of five to eight, built on level
+
+Membership follows what a learner can do and where they are going. Which side of a boundary they live on is not one of the inputs.
+
+### Private tuition for a single narrow goal
+
+One teacher and one learner, where a dated examination or one particular gap makes a shared plan the wrong shape.
+
+### Eight live lessons in an ordinary month
+
+Two each week at a time settled once when a learner enrols, instead of rebuilt around every change in shift or term.
+
+### An hour and a half between the clocks
+
+That is the difference between Oman and India. Terms, working hours, examination periods and Ramadan are all discussed before a recurring time is agreed.
+
+The learner will invent a reason before they question the label
+
+Faced with a 43 per cent fall, most people reach for an explanation: people left, an industry closed, something happened. What redirects them is a teacher asking whether the area being measured is the same area in both years, and then saying nothing further.
+
+Fees
+
+## One free class, then group or private tuition
+
+Pricing is in USD and is confirmed with the selected format.
+
+First class**USD 0**
+
+Ability task, goal review and starting recommendation.
+
+Group tuition**USD 100**
+
+Per month, normally eight lessons, five to eight learners.
+
+Private tuition**USD 150**
+
+Per month, normally eight lessons, one student and one teacher.
+
+Request placement[Check availability](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20want%20a%20free%20coding%20class%20for%20a%20learner%20in%20Mahdah.)Reviews
+
+## What families and learners say
+
+Rated 4.9 across 547 Google reviews. These are real reviews, reproduced as written.
+
+★★★★★
+
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
+
+Ria Mukherjee
+
+Parent
+
+★★★★★
+
+"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
+
+Samriddha Mondal
+
+Student
+
+★★★★★
+
+"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
+
+Vansh Agarwal
+
+Student
+
+★★★★★
+
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
+
+Sonam Oswal
+
+Parent of Dhairya
+
+★★★★★
+
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
+
+Sonu Goyal
+
+Parent
+
+★★★★★
+
+"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
+
+Ritu Kedia
+
+Parent
+
+Free placement class
+
+## Tell us the learner's level and the cliff in the middle of their chart
+
+The first task might be counters in two hoops, a Python series computed within and across a break, or a real report at work with a step change nobody has explained.
+
+### Contact the team directly
+
+WhatsApp or call [+91 91233 66161](tel:+919123366161), or email [contact@modernagecoders.com](mailto:contact@modernagecoders.com). This is Modern Age Coders' actual contact and not an invented Mahdah number.
+
+[WhatsApp Modern Age Coders](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20want%20a%20free%20coding%20class%20for%20a%20learner%20in%20Mahdah.)
+
+Submitted details are used for placement and follow-up.
+
+FAQ
+
+## Mahdah coding class questions
+
+The wilayat, the method and the commercial terms, taken one at a time.
+
+### Did Mahdah really change governorate?
+
+Yes. The area was part of Ad Dhahirah Region until October 2006, when a new governorate was created from the wilayats of Al Buraymi and Mahdah. That date and that reorganisation are published. The eight year population series used in the project is illustrative rather than a published table, and the page says so.
+
+### Why is the long series more dangerous than the short ones?
+
+Because length reads as authority. A figure covering eight years looks more solid than one covering four, so the number that spans the break is the one most likely to be quoted and least likely to be questioned. It is also the only one of the three that is about nothing that happened.
+
+### Is there a Modern Age Coders centre in Mahdah?
+
+No. No premises are claimed in Mahdah or anywhere in Al Buraimi. Classes are live online and need a laptop or desktop, working audio, a current browser and a stable connection. The page describes where the service reaches, not a building.
+
+### How do you handle a boundary change properly?
+
+Give boundaries an effective date so a join knows which era it is reading. Where the underlying detail survives, restate the old years onto the current boundary. Where it does not, publish two series and say why, rather than joining them into one that describes neither.
+
+### Can working adults enrol here, or is it school students only?
+
+Both, up to 67. The adult track covers Python, databases and reporting. Anybody whose organisation has reorganised its regions, merged two teams or renumbered its branches has this in their history somewhere. Real figures of your own make the best exercise when they are yours to share.
+
+### What comes out of this project?
+
+Boundaries carrying effective dates, a flag on the rows either side of a change, and the habit of investigating a sharp movement before explaining it. All three apply anywhere definitions can shift, which is nearly everywhere.
+
+### How much do Mahdah coding classes cost?
+
+The first class is free. Standard group tuition is USD 100 per month for two live lessons each week, normally eight lessons monthly. Standard private tuition is USD 150 per month for one learner with one teacher on the same usual frequency. Course, format, recurring time and availability are confirmed before payment.
+
+### What is the class size for Mahdah learners?
+
+A group normally contains five to eight compatible learners. Compatibility includes current level, learning pace and objective, not age alone. Private tuition is one learner with one teacher. If no suitable group is ready, a learner can discuss private tuition or wait for an appropriate cohort.
+
+### How are Mahdah class times arranged?
+
+Oman is one and a half hours behind India. The teacher and learner agree a recurring time before payment, generally for two live lessons each week. Friday and Saturday options may be discussed subject to availability. School, work and travel schedules, examinations and Ramadan routines should be mentioned before confirmation.
+
+### What happens in the free Mahdah class?
+
+We find out what the learner is trying to become able to do and set a single task there. A child moves counters between labelled hoops and reports whether any left the table. A teenager computes growth within and across a break. An adult is asked whether anything in their organisation was redefined mid-series. The teacher closes by naming a course, a format, a time and the fee in USD, and that first class is not charged for.
+
+Explore Oman
+
+## Around the border country
+
+Delivery, fees and the full catalogue are on the [Oman coding hub](/coding-classes-in-oman). Nearby, [Al Buraimi](/coding-classes-in-al-buraimi) covers the governorate this wilayat joined in 2006 and [Liwa](/coding-classes-in-liwa) a location derived from a name.
+
+Book the free class[Close with WhatsApp](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20want%20a%20free%20coding%20class%20for%20a%20learner%20in%20Mahdah.)Free Mahdah class[Call +91 91233 66161](tel:+919123366161)
+
+## Keep exploring Modern Age Coders
+
+### Coding classes in nearby places
+
+- [Coding Classes in Manah](/coding-classes-in-manah)
+- [Coding Classes in Madinat Al Sultan Qaboos](/coding-classes-in-madinat-al-sultan-qaboos)
+- [Coding Classes in Masirah](/coding-classes-in-masirah)
+- [Coding Classes in Madinat Al Irfan](/coding-classes-in-madinat-al-irfan)
+- [Coding Classes in Mawaleh](/coding-classes-in-mawaleh)
+- [Coding Classes in Mirbat](/coding-classes-in-mirbat)
+- [Coding Classes in Dima Wa Attayeen](/coding-classes-in-dima-wa-attayeen)
+- [Coding Classes in Dhank](/coding-classes-in-dhank)
+- [Coding Classes in Al Mudhaibi](/coding-classes-in-al-mudhaibi)
+- [Online Coding Classes in Maryland](/coding-classes-in-maryland)
+- [Coding Classes in Shinas](/coding-classes-in-shinas)
+
+### Learn more
+
+- [Python for 10 Year Olds: Real Python Programs, Turtle Art & Mini Games](/python-for-10-year-olds)
+- [MySQL for Teens: SQL from First Query to Real Apps](/courses/mysql-mastery-for-teens)
+- [AI Science Fair Project Ideas That Follow the Actual Rules](/science-fair-project-ideas-ai)
+- [AI Classes for Beginners](/ai-classes-for-beginners)
+
+### Free resources
+
+- [Python Tutorial for Beginners: Complete Guide](/resources/python)
+- [Inheritance and Polymorphism](/resources/python/inheritance-and-polymorphism)
+- [ES6+ Modern JavaScript Features](/resources/javascript/es6-modern-javascript)
+- [Modules and Packages in Python](/resources/python/modules-and-packages)
+
+### From the blog
+
+- [Learn Python for Beginners: Complete Step-by-Step Guide (2026)](/blog/python-for-beginners)
+- [Python vs JavaScript: Which Should You Learn First?](/blog/python-vs-javascript-which-to-learn-first)
+- [AP CSP vs AP CSA: Which Should You Take First?](/blog/ap-csp-vs-ap-csa-which-to-take-first)
+
+### Start here
+
+- [Modern Age Coders pricing, one honest price per plan](/pricing)
+- [How Modern Age Coders teaches, small batches and real projects](/how-we-teach)
+
 ---
 
-# Coding classes in Mahdah where a region lost 43 per cent and nobody moved
-
-> In October 2006 Mahdah stopped being part of Ad Dhahirah and became part of a new governorate. Nobody moved house. Any series that runs across that date shows a collapse that never happened to a single person. We teach coding, Python, AI and mathematics online to learners of any age from 6 to 67. The placement lesson is free. After it, group tuition costs USD 100 a month and private tuition USD 150.
-
-Mahdah sits north of Buraimi against the border, holding what is described as the oldest and largest fortification in the country. It is also the reason a well known Omani statistic has a cliff in the middle of it.
-
-## Courses referenced on this page
-
-- [elementary mathematics complete masterclass](/courses/elementary-mathematics-complete-masterclass)
-- [maths through coding](/courses/maths-through-coding)
-- [statistics probability maths course](/courses/statistics-probability-maths-course)
-- [data analysis mastery course college](/courses/data-analysis-mastery-course-college)
-- [vibe coding for teens python web ai projects course](/courses/vibe-coding-for-teens-python-web-ai-projects-course)
-- [python ai automation masterclass college](/courses/python-ai-automation-masterclass-college)
-- [ai ml masterclass teens](/courses/ai-ml-masterclass-teens)
-- [codex and claude code ai coding agents masterclass for adults professionals](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals)
-- [early math foundations](/courses/early-math-foundations)
-- [kids coding blocks masterclass](/courses/kids-coding-blocks-masterclass)
-- [problem solving and computational thinking for kids](/courses/problem-solving-and-computational-thinking-for-kids)
-- [python ai kids masterclass](/courses/python-ai-kids-masterclass)
-- [python complete masterclass teens](/courses/python-complete-masterclass-teens)
-- [data science course for teens python data](/courses/data-science-course-for-teens-python-data)
-- [python programming masterclass zero to advanced college](/courses/python-programming-masterclass-zero-to-advanced-college)
-- [mysql database complete masterclass college](/courses/mysql-database-complete-masterclass-college)
-
-## Page text
-
-Coding Classes in Mahdah | Modern Age Coders
-Skip to content
-Modern Age Coders Oman Courses How we teach Free class
-Home / Oman / Mahdah Mahdah, Al Buraimi Coding classes in Mahdah where a region lost 43 per cent and nobody moved What are the best coding classes in Mahdah? In October 2006 Mahdah stopped being part of Ad Dhahirah and became part of a new governorate. Nobody moved house. Any series that runs across that date shows a collapse that never happened to a single person. We teach coding, Python, AI and mathematics online to learners of any age from 6 to 67. The placement lesson is free. After it, group tuition costs USD 100 a month and private tuition USD 150. Mahdah sits north of Buraimi against the border, holding what is described as the oldest and largest fortification in the country. It is also the reason a well known Omani statistic has a cliff in the middle of it. Book the free class Ask on WhatsApp Facts last verified 23 August 2026. Teaching is online; no Mahdah branch is claimed. 10,000+ students taught 4.9 across 547 Google reviews 2020 teaching since 25+ countries 6 to 67 ages taught 5 to 8 students per group
-Course picks Learn to check whether the thing itself changed Four routes from noticing two measurements are not comparable to keeping a record of when the definitions moved.
-Ages 6 to 11 Elementary Mathematics Comparing two things that changed shape. See the syllabus
-Ages 10 to 14 Maths Through Coding A drop with nobody leaving. See the syllabus
-Teens and adults Statistics and Probability Growth rates across a change of definition. See the syllabus
-College and adult Data Analysis Version the boundary, not only the numbers. See the syllabus
-Browse the course atlas for more than one hundred options and use the coding roadmap to check prerequisites.
-The four we are known for Python, AI, vibe coding and agentic coding These run underneath everything above. Every one is live and online, placed by ability rather than by age, and the first class is free.
-Vibe coding Ages 13 to 17 Vibe Coding for Teens Python, web and AI projects where the learner still owns the thinking. See the syllabus
-Python and AI College and adult Python AI Automation Automate the work you already do, then let AI carry part of it. See the syllabus
-AI and ML Ages 14 to 18 AI and Machine Learning for Teens Train a model, read what it learned, and be able to say why it is wrong. See the syllabus
-Agentic coding Professionals Codex and Claude Code Run AI coding agents on real work without losing control of the codebase. See the syllabus
-Mahdah today A wilayat that changed governorate without moving Administrative geography is edited far more often than people expect, and almost nothing in a dataset records that it happened. Reassigned in 2006 The area was part of Ad Dhahirah Region until October 2006, when a new governorate was created from the wilayats of Al Buraymi and Mahdah. One administrative decision, two wilayats reassigned, and no physical change of any kind. Against three emirates Mahdah lies north of the town of Buraimi and borders the emirates of Sharjah, Ajman and Dubai to the east, with the wilayats of Liwa and Sohar beyond. Borders here are dense, which is part of why the administration was reorganised. The country's oldest fortification Mahdah contains Bayt Al Nad Fort, described as the oldest and largest fortification in the country. A superlative like that only means something if the comparison set is stable, which is the same problem in a different form. The label survives the thing it labelled A column called region keeps the same values before and after a reorganisation, so nothing in the data flags the moment its meaning changed. The numbers are correct for their own year. What is wrong is the assumption that two rows with the same label are about the same area.
-Verified local facts Mahdah facts with a trail behind them Each claim traced, with the date of the change stated plainly. Part of Ad Dhahirah until 2006 The area was part of Ad Dhahirah Region until October 2006. That is the published date and it is the hinge the whole project turns on. A governorate made from two wilayats The new governorate was created from the wilayats of Al Buraymi and Mahdah. Two wilayats left one parent and formed another, which is exactly the kind of change a flat region column cannot express. North of the town of Buraimi Mahdah is described as lying north of the town of Buraimi. A wilayat and a town sharing a neighbourhood and part of a name is worth stating before anybody joins on either. Bordering Sharjah, Ajman and Dubai To the east the wilayat borders three emirates, and beyond it lie the wilayats of Liwa and Sohar. Five named neighbours across two countries is a dense boundary by any standard. Bayt Al Nad Fort The wilayat contains Bayt Al Nad Fort, the country's oldest and largest fortification. The page uses that description as published rather than attempting to verify the comparison behind it. A governorate that is younger than many datasets Al Buraimi Governorate has existed only since 2006. Plenty of reference material predates it, which is why the same place appears under two parents depending on when a source was written. Modern Age Coders has no association with the fort, the border or the reorganisation and claims none. Mahdah is here because a dated, documented change of administrative parent is the cleanest example of a label outliving its meaning.
-Signature project Ninety two thousand people who never went anywhere A single administrative decision produces a fall no household experienced and no row in the data admits to. 1. Line up a region series across 2006 Four years before and four years after, all filed under the same name. The series here is illustrative rather than a published table, because the point is the shape of the break rather than the particular figures, and the page says so. 2. Read the year on year change The figure falls by about 43 per cent from one year to the next. On any dashboard that is a catastrophe: an emptying region, an economic collapse, something requiring an urgent explanation. 3. Check what actually happened Two wilayats were reassigned to a new governorate in October 2006. Nobody moved, nothing closed and no household changed address. The only thing that changed was which area the label covers. One region name, two different areas Question Answer Is it true? What it actually reflects Change from 2006 to 2007 about minus 43 per cent Arithmetically A boundary edit People who moved house none Yes Nothing happened to anybody Growth before the change about 3.0 per cent a year Yes One consistent area Growth after the change about 4.2 per cent a year Yes A different consistent area Growth measured straight across about minus 4.9 per cent a year No Two areas averaged together Rows carrying a warning none Correct, and that is the fault The label never changed Each period is honest and the sentence joining them is not Three per cent a year before and four per cent a year after are both real descriptions of real areas. Minus five per cent a year across the whole stretch is a description of an accounting decision wearing the clothes of a demographic trend. The trap is that the long series looks more authoritative than either of the short ones, because it covers more years. Every figure above was computed before this was written.
-Reliable pipeline Version the geography, not only the numbers Five habits that make a boundary change visible instead of invisible. Working with areas that get redrawn Stage Rule What it prevents What it gives you Date Give every boundary a valid-from date Two areas sharing one label A join that knows which era it is in Flag Mark the rows either side of a change A cliff with no explanation A warning where somebody will look Restate Rebuild history on the current boundary where you can A series that is not comparable with itself A trend that means one thing Split Report each definition separately when you cannot Two areas averaged into a fiction Two honest series instead of one false one Suspect Investigate any sharp change before explaining it A story invented for an artefact A cause found rather than assumed For younger learners Counters in two labelled hoops, then some of them moved between hoops while the labels stay put. The child is asked whether any counters left the table. Nothing digital is involved and the point lands immediately. For teenagers The series in Python with growth computed within each period and then straight across, printing all three. The learner adds a valid-from date to the region and watches the straight-across figure become impossible to compute by accident. For adults Boundaries carry effective dates, historical figures are restated onto current definitions where possible and reported separately where not, and any sharp change is investigated before it is narrated. The October 2006 reorganisation, the creation of the governorate from the wilayats of Al Buraymi and Mahdah, the borders with Sharjah, Ajman and Dubai and Bayt Al Nad Fort are published. The eight year population series is illustrative rather than a published table, chosen to show the shape of the break, and that is stated in the project steps, here and in the FAQ. The behaviour holds for any redefinition of an area.
-Learning ladder From counters in two hoops to boundaries that carry a date We use the free class to place a learner by what they can do, which is often some distance from what their school year predicts.
-Ages 6 to 10 The label and the thing Children see a group change while its name stays put. Early Math Foundations Kids Coding Blocks
-Ages 11 to 13 Comparing across a change Learners find a fall that nobody experienced. Problem Solving and Computational Thinking Python and AI for Kids
-Ages 14 to 18 Series that stay comparable Teenagers compute growth within and across a definition change. Python for Teens Data Science for Teens
-Ages 18 to 67 Geography with effective dates Adults version boundaries and restate history onto them. Python Programming MySQL Database
-Delivery Live classes in a wilayat on the border Mahdah sits against three emirates, which shapes work, travel and school life in ways a timetable has to accommodate rather than ignore. A border week, not a standard one Families here often work across a boundary, and their week is not the week a fixed timetable assumes. Agreeing a slot around the real pattern is simpler when nobody has to travel to reach the class. The opening lesson is free of charge A genuine class with a real task, closing with a specific recommendation. No card is requested to arrange it and no commitment is asked for beforehand. Groups of five to eight, built on level Membership follows what a learner can do and where they are going. Which side of a boundary they live on is not one of the inputs. Private tuition for a single narrow goal One teacher and one learner, where a dated examination or one particular gap makes a shared plan the wrong shape. Eight live lessons in an ordinary month Two each week at a time settled once when a learner enrols, instead of rebuilt around every change in shift or term. An hour and a half between the clocks That is the difference between Oman and India. Terms, working hours, examination periods and Ramadan are all discussed before a recurring time is agreed. The learner will invent a reason before they question the label Faced with a 43 per cent fall, most people reach for an explanation: people left, an industry closed, something happened. What redirects them is a teacher asking whether the area being measured is the same area in both years, and then saying nothing further.
-Fees One free class, then group or private tuition Pricing is in USD and is confirmed with the selected format. First class USD 0 Ability task, goal review and starting recommendation. Group tuition USD 100 Per month, normally eight lessons, five to eight learners. Private tuition USD 150 Per month, normally eight lessons, one student and one teacher. Request placement Check availability
-Reviews What families and learners say Rated 4.9 across 547 Google reviews. These are real reviews, reproduced as written.
-&#9733;&#9733;&#9733;&#9733;&#9733; "The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content." Ria Mukherjee Parent &#9733;&#9733;&#9733;&#9733;&#9733; "Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease." Samriddha Mondal Student &#9733;&#9733;&#9733;&#9733;&#9733; "One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development." Vansh Agarwal Student &#9733;&#9733;&#9733;&#9733;&#9733; "My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative." Sonam Oswal Parent of Dhairya &#9733;&#9733;&#9733;&#9733;&#9733; "Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation." Sonu Goyal Parent &#9733;&#9733;&#9733;&#9733;&#9733; "I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding." Ritu Kedia Parent
-Free placement class Tell us the learner's level and the cliff in the middle of their chart The first task might be counters in two hoops, a Python series computed within and across a break, or a real report at work with a step change nobody has explained. Learner or parent name Email Oman phone +968 Grade or age Goal or current experience Book the free class Thank you. Your Mahdah class request has been sent. Contact the team directly WhatsApp or call +91 91233 66161 , or email contact@modernagecoders.com . This is Modern Age Coders' actual contact and not an invented Mahdah number. WhatsApp Modern Age Coders Submitted details are used for placement and follow-up.
-FAQ Mahdah coding class questions The wilayat, the method and the commercial terms, taken one at a time.
-Did Mahdah really change governorate? Yes. The area was part of Ad Dhahirah Region until October 2006, when a new governorate was created from the wilayats of Al Buraymi and Mahdah. That date and that reorganisation are published. The eight year population series used in the project is illustrative rather than a published table, and the page says so.
-Why is the long series more dangerous than the short ones? Because length reads as authority. A figure covering eight years looks more solid than one covering four, so the number that spans the break is the one most likely to be quoted and least likely to be questioned. It is also the only one of the three that is about nothing that happened.
-Is there a Modern Age Coders centre in Mahdah? No. No premises are claimed in Mahdah or anywhere in Al Buraimi. Classes are live online and need a laptop or desktop, working audio, a current browser and a stable connection. The page describes where the service reaches, not a building.
-How do you handle a boundary change properly? Give boundaries an effective date so a join knows which era it is reading. Where the underlying detail survives, restate the old years onto the current boundary. Where it does not, publish two series and say why, rather than joining them into one that describes neither.
-Can working adults enrol here, or is it school students only? Both, up to 67. The adult track covers Python, databases and reporting. Anybody whose organisation has reorganised its regions, merged two teams or renumbered its branches has this in their history somewhere. Real figures of your own make the best exercise when they are yours to share.
-What comes out of this project? Boundaries carrying effective dates, a flag on the rows either side of a change, and the habit of investigating a sharp movement before explaining it. All three apply anywhere definitions can shift, which is nearly everywhere.
-How much do Mahdah coding classes cost? The first class is free. Standard group tuition is USD 100 per month for two live lessons each week, normally eight lessons monthly. Standard private tuition is USD 150 per month for one learner with one teacher on the same usual frequency. Course, format, recurring time and availability are confirmed before payment.
-What is the class size for Mahdah learners? A group normally contains five to eight compatible learners. Compatibility includes current level, learning pace and objective, not age alone. Private tuition is one learner with one teacher. If no suitable group is ready, a learner can discuss private tuition or wait for an appropriate cohort.
-How are Mahdah class times arranged? Oman is one and a half hours behind India. The teacher and learner agree a recurring time before payment, generally for two live lessons each week. Friday and Saturday options may be discussed subject to availability. School, work and travel schedules, examinations and Ramadan routines should be mentioned before confirmation.
-What happens in the free Mahdah class? We find out what the learner is trying to become able to do and set a single task there. A child moves counters between labelled hoops and reports whether any left the table. A teenager computes growth within and across a break. An adult is asked whether anything in their organisation was redefined mid-series. The teacher closes by naming a course, a format, a time and the fee in USD, and that first class is not charged for.
-Explore Oman Around the border country Delivery, fees and the full catalogue are on the Oman coding hub . Nearby, Al Buraimi covers the governorate this wilayat joined in 2006 and Liwa a location derived from a name. Book the free class Close with WhatsApp
-Free Mahdah class Call +91 91233 66161
-Start here All courses Course atlas Pricing How we teach Oman cities Oman hub Al Buraimi Liwa Sohar Company About us Contact Wall of love Student labs Modern Age Coders. Live online coding, AI and mathematics for ages 6 to 67. Teaching since 2020, more than 10,000 students.
+*Canonical: https://learn.modernagecoders.com/coding-classes-in-mahdah*

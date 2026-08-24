@@ -455,7 +455,41 @@ Share the learner's age or grade, wilayat and intended skill. Modern Age Coders 
 
 Use the national page for shared service facts, then continue to Ibra or the southern governorate.
 
-[**Oman coding classes**National course, fee and service guide](/coding-classes-in-oman)[**Ibra coding classes**Silent lookup-default analysis](/coding-classes-in-ibra)[**Ash Sharqiyah South coding classes**Missing values versus zero](/coding-classes-in-ash-sharqiyah-south)Free regional class[Call +91 91233 66161](tel:+919123366161)[Chat with us](https://wa.me/919123366161?text=Hi%2C%20I'm%20interested%20in%20learning%20more%20about%20your%20courses!)
+[**Oman coding classes**National course, fee and service guide](/coding-classes-in-oman)[**Ibra coding classes**Silent lookup-default analysis](/coding-classes-in-ibra)[**Ash Sharqiyah South coding classes**Missing values versus zero](/coding-classes-in-ash-sharqiyah-south)[**Al Mudhaibi coding classes**The average of several rates against the overall rate](/coding-classes-in-al-mudhaibi)[**Al Qabil coding classes**Free-text spellings](/coding-classes-in-al-qabil)[**Bidiyah coding classes**A threshold stored as a value](/coding-classes-in-bidiyah)[**Dima Wa Attayeen coding classes**An empty cell is not a zero](/coding-classes-in-dima-wa-attayeen)[**Wadi Bani Khalid coding classes**Measuring only the part you can walk to](/coding-classes-in-wadi-bani-khalid)Free regional class[Call +91 91233 66161](tel:+919123366161)
+
+## Keep exploring Modern Age Coders
+
+### Coding classes in nearby places
+
+- [Coding Classes in Al Wusta](/coding-classes-in-al-wusta)
+- [Coding Classes in Azaiba](/coding-classes-in-azaiba)
+- [Coding Classes in Al Musanaah](/coding-classes-in-al-musanaah)
+- [Coding Classes in Barka](/coding-classes-in-barka)
+- [Coding Classes in Bidbid](/coding-classes-in-bidbid)
+- [Coding Classes in Al Mazyunah](/coding-classes-in-al-mazyunah)
+- [Coding Classes in Liwa](/coding-classes-in-liwa)
+- [Coding Classes in Khasab](/coding-classes-in-khasab)
+- [Coding Classes in Ibri](/coding-classes-in-ibri)
+
+### Free resources
+
+- [SQL Tutorial: Databases, Basics to Advanced](/resources/sql)
+- [SQL Interview Masterclass](/resources/sql/sql-interview-masterclass)
+- [Tuples in Python](/resources/python/tuples-in-python)
+- [Decorators and Iterators](/resources/python/decorators-and-iterators)
+
+### From the blog
+
+- [30+ Scratch Project Ideas for Kids](/blog/30-plus-scratch-project-ideas-kids-fun-coding-beginner-advanced)
+- [How College Students Can Build Real-World Projects While Studying](/blog/how-college-students-build-real-world-projects-while-studying)
+- [Coding for 7-Year-Olds: What and How Kids Should Learn Programming](/blog/coding-for-7-year-olds-what-how-kids-should-learn-programming)
+
+### Start here
+
+- [Real projects built by Modern Age Coders students](/student-labs)
+- [Browse every live course at Modern Age Coders](/courses)
+
+[Chat with us](https://wa.me/919123366161?text=Hi%2C%20I'm%20interested%20in%20learning%20more%20about%20your%20courses!)
 
 ---
 

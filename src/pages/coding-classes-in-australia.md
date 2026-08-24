@@ -769,7 +769,49 @@ Modern Age Coders teaches students worldwide over live video, in small 4–8 bat
 - [Coding Classes in the United Kingdom](/coding-classes-in-united-kingdom)
 - [Coding Classes in the United States](/coding-classes-in-united-states)
 
-[Browse all courses →](/courses)[Book a free demo](/book-demo)[Coding Classes in India](/coding-classes-in-india)[Chat with us](https://wa.me/919123366161?text=Hi%2C%20I'm%20interested%20in%20learning%20more%20about%20your%20courses!)
+[Browse all courses →](/courses)[Book a free demo](/book-demo)[Coding Classes in India](/coding-classes-in-india)
+
+## Keep exploring Modern Age Coders
+
+### Coding classes in nearby places
+
+- [Coding Classes in Bandar Seri Begawan](/coding-classes-in-bandar-seri-begawan)
+- [AI and Machine Learning Classes in Singapore](/ai-and-machine-learning-classes-in-singapore)
+- [Online Coding Classes in Brunei](/coding-classes-in-brunei)
+- [Coding Classes in Gadong, Brunei](/coding-classes-in-gadong)
+- [AI and Machine Learning Classes in Brunei](/ai-and-machine-learning-classes-in-brunei)
+- [Online Coding Classes in Hong Kong](/coding-classes-in-hong-kong)
+- [Coding Classes in Kuala Belait and Seria](/coding-classes-in-kuala-belait)
+- [Coding Classes in Tutong](/coding-classes-in-tutong)
+- [Online Maths Tuition Singapore](/online-maths-tuition-singapore)
+
+### Learn more
+
+- [AI Classes for Kids (Ages 6-12)](/ai-classes-for-kids)
+- [Python for Class 6: CBSE Code 166 Python, Turtle, First AI (Age 11)](/python-for-class-6)
+- [Vibe Coding for Teens: Python, Web Dev & AI (Ages 13-17)](/courses/vibe-coding-for-teens-python-web-ai-projects-course)
+- [Data Science Course](/data-science-course)
+
+### Free resources
+
+- [AI & Machine Learning Tutorial: Basics to Deep Learning](/resources/ai-and-machine-learning)
+- [Dimensionality Reduction](/resources/ai-and-machine-learning/dimensionality-reduction)
+- [Introduction to AI and Machine Learning](/resources/ai-and-machine-learning/introduction-to-ai-and-ml)
+- [Linear Regression](/resources/ai-and-machine-learning/linear-regression)
+
+### From the blog
+
+- [AI & Machine Learning Guides](/blog/topic/ai)
+- [What is the Responsibility of Developers Using Generative AI? A](/blog/what-is-the-responsibility-of-developers-using-generative-AI)
+- [Data Science, AI, and Math: Skills Every Tech Professional Must Learn](/blog/data-science-ai-math-skills-professionals)
+- [How to Teach Kids AI at Home: A Safe 2026 Parent Guide](/blog/how-to-teach-kids-ai-at-home)
+
+### Start here
+
+- [How Modern Age Coders teaches, small batches and real projects](/how-we-teach)
+- [What Modern Age Coders families say](/love)
+
+[Chat with us](https://wa.me/919123366161?text=Hi%2C%20I'm%20interested%20in%20learning%20more%20about%20your%20courses!)
 
 ---
 

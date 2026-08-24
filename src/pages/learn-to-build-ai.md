@@ -439,6 +439,46 @@ Leave a number with your country code and a mentor calls you back at an hour tha
 
 Prefer to read first? See [how we teach](/how-we-teach), the [full catalogue](/courses), or [what students have built](/student-labs).
 
+## Keep exploring Modern Age Coders
+
+### Related courses and guides
+
+- [Learn to Code with AI](/learn-to-code-with-ai)
+- [Inside Neural Networks: How Deep Learning Really Works](/inside-neural-networks)
+- [Machine Learning From Scratch: Build Real AI/ML Models](/machine-learning-from-scratch)
+- [How to Train Machine Learning Models](/how-to-train-machine-learning-models)
+- [Neural Networks Course](/neural-networks-course)
+- [How to Build AI Models](/how-to-build-ai-models)
+- [AI Agents & Automation for Business](/ai-agents-and-automation)
+- [Artificial Intelligence Course](/artificial-intelligence-course)
+- [AI Tool Age Limits: What Your Child Can Actually Use](/ai-tools-age-guide)
+
+### Learn more
+
+- [Orange Data Mining Course for Teens: Machine Learning Without Code](/courses/orange-data-mining-visual-machine-learning-course-for-teens)
+- [AI Classes in Dubai](/ai-classes-in-dubai)
+- [AI Classes in Saudi Arabia](/ai-classes-in-saudi-arabia)
+- [Machine Learning Course for Beginners](/machine-learning-course-for-beginners)
+
+### Free resources
+
+- [AI & Machine Learning Tutorial: Basics to Deep Learning](/resources/ai-and-machine-learning)
+- [Linear Regression](/resources/ai-and-machine-learning/linear-regression)
+- [Model Evaluation, Cross-Validation, and Hyperparameter Tuning](/resources/ai-and-machine-learning/model-evaluation-and-tuning)
+- [Reinforcement Learning Basics](/resources/ai-and-machine-learning/reinforcement-learning-basics)
+
+### From the blog
+
+- [AI & Machine Learning Guides](/blog/topic/ai)
+- [How to Teach Kids AI at Home: A Safe 2026 Parent Guide](/blog/how-to-teach-kids-ai-at-home)
+- [Best Data Science Courses in India for Students and](/blog/data-science-course-india)
+- [What is Vibe Coding? The Ultimate Deep-Dive Guide to AI-Powered](/blog/what-is-vibe-coding-future-of-software-development)
+
+### Start here
+
+- [Browse every live course at Modern Age Coders](/courses)
+- [Try a free trial class with a Modern Age Coders mentor](/free-trial)
+
 [Chat with us](https://wa.me/919123366161?text=Hi%2C%20I'm%20interested%20in%20learning%20more%20about%20your%20courses!)
 
 ---

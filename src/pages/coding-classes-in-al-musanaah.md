@@ -338,6 +338,38 @@ The [Oman coding hub](/coding-classes-in-oman) covers national delivery and fees
 
 Book the free class[Close with WhatsApp](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20want%20a%20free%20coding%20class%20for%20a%20learner%20in%20Al%20Musanaah.)Free Al Musanaah class[Call +91 91233 66161](tel:+919123366161)
 
+## Keep exploring Modern Age Coders
+
+### Coding classes in nearby places
+
+- [Coding Classes in Al Wusta](/coding-classes-in-al-wusta)
+- [Coding Classes in Al Mudhaibi](/coding-classes-in-al-mudhaibi)
+- [Coding Classes in Ash Sharqiyah North](/coding-classes-in-ash-sharqiyah-north)
+- [Coding Classes in Al Mazyunah](/coding-classes-in-al-mazyunah)
+- [Coding Classes in Ash Sharqiyah South](/coding-classes-in-ash-sharqiyah-south)
+- [Coding Classes in Al Khuwair](/coding-classes-in-al-khuwair)
+- [Coding Classes in Rustaq](/coding-classes-in-rustaq)
+- [Online Coding Classes in Qurum](/coding-classes-in-qurum)
+- [Coding Classes in Qurayyat](/coding-classes-in-qurayyat)
+
+### Free resources
+
+- [Python Tutorial for Beginners: Complete Guide](/resources/python)
+- [Lists in Python](/resources/python/lists-in-python)
+- [JavaScript in the Browser](/resources/javascript/javascript-in-the-browser)
+- [Sets in Python](/resources/python/sets-in-python)
+
+### From the blog
+
+- [Learn Python for Beginners: Complete Step-by-Step Guide (2026)](/blog/python-for-beginners)
+- [AP CSP vs AP CSA: Which Should You Take First?](/blog/ap-csp-vs-ap-csa-which-to-take-first)
+- [Scratch vs Python: Which is Better for Young Learners?](/blog/scratch-vs-python-which-better-young-learners)
+
+### Start here
+
+- [How Modern Age Coders teaches, small batches and real projects](/how-we-teach)
+- [What Modern Age Coders families say](/love)
+
 ---
 
 *Canonical: https://learn.modernagecoders.com/coding-classes-in-al-musanaah*

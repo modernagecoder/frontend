@@ -583,6 +583,39 @@ Rather read first? [USACO preparation](/usaco-preparation-online-coaching), [the
 
 Every class is live, one to one or in a small level-matched batch, taught from India at a time arranged with you. Nothing here is a recording. The form starts a conversation, not an enrolment.
 
+## Keep exploring Modern Age Coders
+
+### More maths tuition
+
+- [Math Catch-Up Program](/math-catch-up-program)
+- [IB Maths Tuition Online](/ib-maths-tuition-online)
+- [Math Olympiad & AMC Tutoring Online](/math-olympiad-amc-tutoring)
+- [The Maths Behind Machine Learning](/maths-behind-machine-learning)
+- [Further Maths Tuition Online](/further-maths-tuition-online)
+- [Daily Maths Challenge](/maths-challenges)
+- [Maths Tuition for Class 10](/maths-class-10)
+- [Singapore Math Method Tutoring Online](/singapore-math-method-tutoring)
+- [Coding Olympiad Medal Track: IOQI, ZIO, INOI, IOI, Bebras](/coding-olympiad-medal-track)
+
+### Learn more
+
+- [Maths Tuition for Kids in the UAE](/maths-tuition-for-kids-uae)
+- [Maths Tuition for Teens in the UAE](/maths-tuition-for-teens-uae)
+- [Maths Classes for Adults in the UAE](/maths-classes-for-adults-uae)
+- [Maths Through Coding: Learn Math in Python (Ages 10-15)](/courses/maths-through-coding)
+
+### From the blog
+
+- [Maths Learning Guides](/blog/topic/maths)
+- [How Data Analytics and Math Help Businesses Make Better Decisions](/blog/data-analytics-math-help-businesses-better-decisions)
+- [How to Get Better at Maths: 8 Methods That Actually Work](/blog/how-to-get-better-at-maths)
+- [Abacus vs Vedic vs Mental Maths: A Clear Comparison](/blog/abacus-vs-vedic-vs-mental-maths)
+
+### Start here
+
+- [How Modern Age Coders teaches, small batches and real projects](/how-we-teach)
+- [What Modern Age Coders families say](/love)
+
 ---
 
 *Canonical: https://learn.modernagecoders.com/ioi-olympiad-informatics-training*

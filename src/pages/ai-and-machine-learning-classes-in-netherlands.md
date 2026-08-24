@@ -455,6 +455,46 @@ Leave a number and a mentor calls you back at an hour that works in the Netherla
 
 Rather read first? See [how we teach](/how-we-teach), the [full catalogue](/courses), or the thesis behind this page at [Learn to Build AI](/learn-to-build-ai).
 
+## Keep exploring Modern Age Coders
+
+### Coding classes in nearby places
+
+- [AI and Machine Learning Classes in Switzerland](/ai-and-machine-learning-classes-in-switzerland)
+- [AI and Machine Learning Classes in London](/ai-and-machine-learning-classes-in-london)
+- [AI and Machine Learning Classes in Zurich](/ai-and-machine-learning-classes-in-zurich)
+- [Coding & Maths Classes near Avidipta](/coding-classes-in-avidipta-mukundapur)
+- [Online Coding & AI Classes in the UK](/coding-classes-in-united-kingdom)
+- [Online Coding Classes in Birmingham](/coding-classes-in-birmingham)
+- [Online Coding & AI Classes in Sweden](/coding-classes-in-sweden)
+- [Coding & AI Classes in Germany](/coding-classes-in-germany)
+- [AI and Machine Learning Classes in the UK](/ai-and-machine-learning-classes-in-uk)
+
+### Learn more
+
+- [Orange Data Mining Course for Teens: Machine Learning Without Code](/courses/orange-data-mining-visual-machine-learning-course-for-teens)
+- [Best AI & Machine Learning Course in India](/best-ai-and-machine-learning-course-in-india)
+- [Data Science Course](/data-science-course)
+- [Build Machine Learning Models in Python](/build-machine-learning-models-in-python)
+
+### Free resources
+
+- [AI & Machine Learning Tutorial: Basics to Deep Learning](/resources/ai-and-machine-learning)
+- [Support Vector Machines (SVM)](/resources/ai-and-machine-learning/support-vector-machines)
+- [Convolutional Neural Networks (CNN) for Computer Vision](/resources/ai-and-machine-learning/convolutional-neural-networks)
+- [Dimensionality Reduction](/resources/ai-and-machine-learning/dimensionality-reduction)
+
+### From the blog
+
+- [AI & Machine Learning Guides](/blog/topic/ai)
+- [How AI and Automation Are Transforming Small and Medium Businesses](/blog/ai-automation-transforming-small-medium-businesses)
+- [What Type of Data is Generative AI Most Suitable For? A Complete Guide](/blog/what-type-of-data-is-generative-ai-most-suitable-for)
+- [Best Data Science Courses in India for Students and](/blog/data-science-course-india)
+
+### Start here
+
+- [Modern Age Coders pricing, one honest price per plan](/pricing)
+- [How Modern Age Coders teaches, small batches and real projects](/how-we-teach)
+
 [Chat with us](https://wa.me/919123366161?text=Hi%2C%20I'm%20interested%20in%20learning%20more%20about%20your%20courses!)
 
 ---

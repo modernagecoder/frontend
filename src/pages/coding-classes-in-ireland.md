@@ -818,7 +818,50 @@ Modern Age Coders teaches students worldwide over live video, in small 4–8 bat
 - [Coding Classes in the United Kingdom](/coding-classes-in-united-kingdom)
 - [Coding Classes in the United States](/coding-classes-in-united-states)
 
-[Browse all courses →](/courses)[Book a free demo](/book-demo)[Coding Classes in India](/coding-classes-in-india)[Chat with us](https://wa.me/919123366161?text=Hi%2C%20I'm%20interested%20in%20learning%20more%20about%20your%20courses!)
+[Browse all courses →](/courses)[Book a free demo](/book-demo)[Coding Classes in India](/coding-classes-in-india)
+
+## Keep exploring Modern Age Coders
+
+### Coding classes in nearby places
+
+- [Online Coding Classes in Leicester](/coding-classes-in-leicester)
+- [Online Coding Classes in the Netherlands](/coding-classes-in-netherlands)
+- [Online Coding Classes in Birmingham](/coding-classes-in-birmingham)
+- [Coding & Maths Classes near Sukhobrishti](/coding-classes-in-sukhobrishti)
+- [Coding & Maths Classes near Avidipta](/coding-classes-in-avidipta-mukundapur)
+- [AI and Machine Learning Classes in Zurich](/ai-and-machine-learning-classes-in-zurich)
+- [AI and Machine Learning Classes in the UK](/ai-and-machine-learning-classes-in-uk)
+- [AI and Machine Learning Classes in the Netherlands](/ai-and-machine-learning-classes-in-netherlands)
+- [AI and Machine Learning Classes in Switzerland](/ai-and-machine-learning-classes-in-switzerland)
+- [Coding Classes in Manah](/coding-classes-in-manah)
+
+### Learn more
+
+- [Python for Class 6: CBSE Code 166 Python, Turtle, First AI (Age 11)](/python-for-class-6)
+- [Vibe Coding for Teens: Python, Web Dev & AI (Ages 13-17)](/courses/vibe-coding-for-teens-python-web-ai-projects-course)
+- [AI & ML Certification Course](/ai-ml-certification-course)
+- [Coding for Class 6: Python, HTML/CSS & AI Projects Matched to](/coding-for-class-6)
+
+### Free resources
+
+- [AI & Machine Learning Tutorial: Basics to Deep Learning](/resources/ai-and-machine-learning)
+- [Recurrent Neural Networks (RNN) and LSTM](/resources/ai-and-machine-learning/recurrent-neural-networks)
+- [Unsupervised Learning](/resources/ai-and-machine-learning/unsupervised-learning-clustering)
+- [Decision Trees and Random Forests](/resources/ai-and-machine-learning/decision-trees-and-random-forests)
+
+### From the blog
+
+- [AI & Machine Learning Guides](/blog/topic/ai)
+- [Best Data Science Courses in India for Students and](/blog/data-science-course-india)
+- [UAE Made AI Mandatory in Schools: What It Means](/blog/uae-ai-curriculum-schools-what-it-means)
+- [What Type of Data is Generative AI Most Suitable For? A Complete Guide](/blog/what-type-of-data-is-generative-ai-most-suitable-for)
+
+### Start here
+
+- [Modern Age Coders pricing, one honest price per plan](/pricing)
+- [How Modern Age Coders teaches, small batches and real projects](/how-we-teach)
+
+[Chat with us](https://wa.me/919123366161?text=Hi%2C%20I'm%20interested%20in%20learning%20more%20about%20your%20courses!)
 
 ---
 

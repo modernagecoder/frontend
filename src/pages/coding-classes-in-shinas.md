@@ -338,6 +338,39 @@ The [Oman coding hub](/coding-classes-in-oman) covers national delivery and fees
 
 Book the free class[Close with WhatsApp](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20want%20a%20free%20coding%20class%20for%20a%20learner%20in%20Shinas.)Free Shinas class[Call +91 91233 66161](tel:+919123366161)
 
+## Keep exploring Modern Age Coders
+
+### Coding classes in nearby places
+
+- [Coding Classes in Shalim](/coding-classes-in-shalim)
+- [Coding Classes in Sur](/coding-classes-in-sur)
+- [Online Coding Classes in Seeb](/coding-classes-in-seeb)
+- [Coding Classes in Taqah](/coding-classes-in-taqah)
+- [Coding Classes in Samail](/coding-classes-in-samail)
+- [Coding Classes in Thumrait](/coding-classes-in-thumrait)
+- [Coding Classes in Dima Wa Attayeen](/coding-classes-in-dima-wa-attayeen)
+- [Coding and AI Classes for Girls in Oman](/ai-and-python-academy-for-girls-oman)
+- [Coding Classes in Wadi Bani Khalid](/coding-classes-in-wadi-bani-khalid)
+- [Coding Classes in Mahdah](/coding-classes-in-mahdah)
+
+### Free resources
+
+- [C++ Tutorial: From Basics to Advanced](/resources/cpp)
+- [Logistic Regression and Classification](/resources/ai-and-machine-learning/logistic-regression-and-classification)
+- [Setting Up C++ and Your First Program](/resources/cpp/setting-up-and-first-program)
+- [Support Vector Machines (SVM)](/resources/ai-and-machine-learning/support-vector-machines)
+
+### From the blog
+
+- [Learn Python for Beginners: Complete Step-by-Step Guide (2026)](/blog/python-for-beginners)
+- [Exception Handling in Python: Try, Except, Finally](/blog/exception-handling-in-python)
+- [Coding Class Fees in India 2026: What to Pay](/blog/coding-class-fees-india-2026)
+
+### Start here
+
+- [About Modern Age Coders, teaching since 2020](/about)
+- [Modern Age Coders pricing, one honest price per plan](/pricing)
+
 ---
 
 *Canonical: https://learn.modernagecoders.com/coding-classes-in-shinas*

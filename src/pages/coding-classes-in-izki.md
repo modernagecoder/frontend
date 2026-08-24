@@ -339,6 +339,42 @@ The [Oman coding hub](/coding-classes-in-oman) covers national delivery and fees
 
 Book the free class[Close with WhatsApp](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20want%20a%20free%20coding%20class%20for%20a%20learner%20in%20Izki.)Free Izki class[Call +91 91233 66161](tel:+919123366161)
 
+## Keep exploring Modern Age Coders
+
+### Coding classes in nearby places
+
+- [Coding Classes in Khasab](/coding-classes-in-khasab)
+- [Coding Classes in Ibri](/coding-classes-in-ibri)
+- [Coding Classes in Liwa](/coding-classes-in-liwa)
+- [Coding Classes in Ibra](/coding-classes-in-ibra)
+- [Coding Classes in Madinat Al Irfan](/coding-classes-in-madinat-al-irfan)
+- [Coding Classes in Haima](/coding-classes-in-haima)
+- [Coding and AI Classes for Girls in Oman](/ai-and-python-academy-for-girls-oman)
+- [Coding Classes in Wadi Bani Khalid](/coding-classes-in-wadi-bani-khalid)
+- [Coding Classes in Wadi Al Maawil](/coding-classes-in-wadi-al-maawil)
+
+### Learn more
+
+- [Python for 10 Year Olds: Real Python Programs, Turtle Art & Mini Games](/python-for-10-year-olds)
+
+### Free resources
+
+- [SQL Tutorial: Databases, Basics to Advanced](/resources/sql)
+- [Decorators and Iterators](/resources/python/decorators-and-iterators)
+- [Database Design and Normalization (1NF, 2NF, 3NF, BCNF)](/resources/sql/database-design-and-normalization)
+- [Lambda, Map, Filter, and Reduce](/resources/python/lambda-map-filter-reduce)
+
+### From the blog
+
+- [Python vs JavaScript: Which Should You Learn First?](/blog/python-vs-javascript-which-to-learn-first)
+- [How College Students Can Build Real-World Projects While Studying](/blog/how-college-students-build-real-world-projects-while-studying)
+- [Learn Python for Beginners: Complete Step-by-Step Guide (2026)](/blog/python-for-beginners)
+
+### Start here
+
+- [Real projects built by Modern Age Coders students](/student-labs)
+- [Browse every live course at Modern Age Coders](/courses)
+
 ---
 
 *Canonical: https://learn.modernagecoders.com/coding-classes-in-izki*

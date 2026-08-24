@@ -281,6 +281,44 @@ Prefer WhatsApp? [Message us](https://wa.me/919123366161?text=Hi,%20I%20want%20a
 
 4.9 rating across 547+ Google reviews
 
+## Keep exploring Modern Age Coders
+
+### Coding classes in nearby places
+
+- [Coding Classes in Jeddah](/coding-classes-in-jeddah)
+- [Coding Classes in Doha](/coding-classes-in-doha)
+- [Online Coding Classes in Kuwait](/coding-classes-in-kuwait)
+- [Coding Classes in Dammam & Khobar](/coding-classes-in-dammam)
+- [Coding Classes in Qatar](/coding-classes-in-qatar)
+- [Online Coding Classes in Bahrain](/coding-classes-in-bahrain)
+- [AI and Machine Learning Classes in Bahrain](/ai-and-machine-learning-classes-in-bahrain)
+- [Python Classes in Dubai](/python-classes-in-dubai)
+- [Maths Tutor in Dubai](/maths-tutor-in-dubai)
+
+### Learn more
+
+- [Artificial Intelligence Course](/artificial-intelligence-course)
+- [AI & Machine Learning for Working Professionals](/ai-and-machine-learning-for-working-professionals)
+- [Best AI & Machine Learning Course in India](/best-ai-and-machine-learning-course-in-india)
+
+### Free resources
+
+- [Python Tutorial for Beginners: Complete Guide](/resources/python)
+- [Closures, Scope, and Hoisting](/resources/javascript/closures-scope-and-hoisting)
+- [Installing Python and Setting Up Your Environment](/resources/python/installing-python-and-setup)
+- [Fetch API - Getting Data from the Internet | JavaScript Tutorial](/resources/javascript/fetch-api-and-working-with-apis)
+
+### From the blog
+
+- [Why Python is the Most Powerful Skill for Professionals Today](/blog/why-python-most-powerful-skill-professionals-today)
+- [Python vs JavaScript: Which Should You Learn First?](/blog/python-vs-javascript-which-to-learn-first)
+- [Python List Comprehension: 15 Examples, Simple to Advanced](/blog/python-list-comprehension-explained)
+
+### Start here
+
+- [What Modern Age Coders families say](/love)
+- [Book a free demo class with Modern Age Coders](/book-demo)
+
 [Chat with us](https://wa.me/919123366161?text=Hi%2C%20I'm%20interested%20in%20learning%20more%20about%20your%20courses!)
 
 ---

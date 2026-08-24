@@ -335,7 +335,45 @@ Explore the cluster
 
 The [Muscat coding hub](/coding-classes-in-muscat) covers the wider city offer, while the [Oman coding hub](/coding-classes-in-oman) explains national delivery and pricing. For adjacent evidence lessons, compare [Mawaleh](/coding-classes-in-mawaleh) on the median of medians and [Al Khoudh](/coding-classes-in-al-khoudh) on multiple comparisons.
 
-Book the free class[Close with WhatsApp](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20want%20a%20free%20coding%20class%20for%20a%20learner%20in%20Al%20Hail.)Free Al Hail class[Call +91 91233 66161](tel:+919123366161)[Chat with us](https://wa.me/919123366161?text=Hi%2C%20I'm%20interested%20in%20learning%20more%20about%20your%20courses!)
+Book the free class[Close with WhatsApp](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20want%20a%20free%20coding%20class%20for%20a%20learner%20in%20Al%20Hail.)Free Al Hail class[Call +91 91233 66161](tel:+919123366161)
+
+## Keep exploring Modern Age Coders
+
+### Coding classes in nearby places
+
+- [Coding Classes in Al Hamra](/coding-classes-in-al-hamra)
+- [Coding Classes in Al Ghubrah](/coding-classes-in-al-ghubrah)
+- [Coding Classes in Al Kamil Wal Wafi](/coding-classes-in-al-kamil-wal-wafi)
+- [Coding Classes in Al Buraimi](/coding-classes-in-al-buraimi)
+- [Coding Classes in Al Batinah South](/coding-classes-in-al-batinah-south)
+- [Coding Classes in Al Khuwair](/coding-classes-in-al-khuwair)
+- [Coding Classes in Thumrait](/coding-classes-in-thumrait)
+- [Coding Classes in Samail](/coding-classes-in-samail)
+- [Online Coding Classes in Muttrah](/coding-classes-in-muttrah)
+
+### Learn more
+
+- [AI Classes for Beginners](/ai-classes-for-beginners)
+
+### Free resources
+
+- [JavaScript Tutorial: Build Interactive Websites](/resources/javascript)
+- [Fetch API - Getting Data from the Internet | JavaScript Tutorial](/resources/javascript/fetch-api-and-working-with-apis)
+- [Modern CSS - Container Queries, Subgrid, clamp](/resources/html-and-css/modern-css-features)
+- [Operators and Expressions](/resources/javascript/operators-and-expressions)
+
+### From the blog
+
+- [Coding Class Fees in India 2026: What to Pay](/blog/coding-class-fees-india-2026)
+- [Learn Python for Beginners: Complete Step-by-Step Guide (2026)](/blog/python-for-beginners)
+- [20 HTML, CSS, and JavaScript Project Ideas (With Code)](/blog/html-css-javascript-project-ideas)
+
+### Start here
+
+- [How Modern Age Coders teaches, small batches and real projects](/how-we-teach)
+- [What Modern Age Coders families say](/love)
+
+[Chat with us](https://wa.me/919123366161?text=Hi%2C%20I'm%20interested%20in%20learning%20more%20about%20your%20courses!)
 
 ---
 

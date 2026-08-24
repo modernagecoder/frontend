@@ -368,6 +368,38 @@ Rather read first? [Which language first](/coding-roadmap), [how to think like a
 
 We hold no premises anywhere. Every session is a live video call taught from India, and the number above rings in India. Sending the form opens a conversation rather than an enrolment, and holds no place in any batch.
 
+## Keep exploring Modern Age Coders
+
+### Related courses and guides
+
+- [How To Build a Coding Portfolio That Holds Up Under Questioning](/how-to-build-a-coding-portfolio)
+- [How Large Language Models Work](/how-large-language-models-work)
+- [How Computer Vision Works](/how-computer-vision-works)
+- [Homeschool Coding Curriculum](/homeschool-coding-curriculum)
+- [Hackathons for High School Students](/hackathons-for-high-school-students)
+- [JEE Aspirant Coding Track: Python & Computational Maths for](/jee-aspirant-coding-track)
+- [Hackathon 1.0 Guide (June 2026): How It Worked, 3 Rounds](/hackathon-guide)
+- [Coding Classes for DPS Vasant Kunj Students Students](/coding-classes-for-dps-vasant-kunj-new-delhi)
+- [RAG Systems Course](/rag-systems-course)
+
+### Free resources
+
+- [Java Tutorial for Beginners to Advanced](/resources/java)
+- [Date and Time Functions](/resources/sql/date-and-time-functions)
+- [Installing Java and Setting Up Your Environment](/resources/java/installing-java-and-setup)
+- [Self Joins and Multi-Table Queries](/resources/sql/self-joins-and-multi-table)
+
+### From the blog
+
+- [12 Best Coding Games for Kids (2026), Free & Fun to Play](/blog/top-coding-games-platforms-make-learning-fun-kids)
+- [USACO Bronze to Silver: What Actually Blocks You](/blog/usaco-bronze-to-silver-what-blocks-most-students)
+- [What is Vibe Coding? The Ultimate Deep-Dive Guide to AI-Powered](/blog/what-is-vibe-coding-future-of-software-development)
+
+### Start here
+
+- [Try a free trial class with a Modern Age Coders mentor](/free-trial)
+- [About Modern Age Coders, teaching since 2020](/about)
+
 ---
 
 *Canonical: https://learn.modernagecoders.com/how-to-actually-learn-to-code*

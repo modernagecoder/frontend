@@ -589,6 +589,38 @@ Rather read first? [USACO preparation](/usaco-preparation-online-coaching), [inf
 
 Every class is live, one to one or in a small division-matched batch, taught from India at a time arranged with you. Nothing here is a recording. The form starts a conversation, not an enrolment.
 
+## Keep exploring Modern Age Coders
+
+### Related courses and guides
+
+- [Cancellation Policy](/cancellation)
+- [Competitive Programming Practice: Daily Coding Challenges](/coding-challenges)
+- [Complete Bootstrap 5.3 Guide](/bootstrap)
+- [Coding Classes for DPS Bangalore Students](/coding-classes-for-dps-bangalore)
+- [Book a Free Coding Demo Class](/book-demo)
+- [Coding Classes for DPS Dwarka Students](/coding-classes-for-dps-dwarka-new-delhi)
+- [Coding Classes for DPS Gurgaon Students](/coding-classes-for-dps-gurgaon)
+- [Computer Science Extracurricula Ranked by What Actually Counts](/computer-science-extracurriculars)
+- [Hackathon 1.0 Guide (June 2026): How It Worked, 3 Rounds](/hackathon-guide)
+
+### Free resources
+
+- [C++ Tutorial: From Basics to Advanced](/resources/cpp)
+- [Unsupervised Learning](/resources/ai-and-machine-learning/unsupervised-learning-clustering)
+- [Decision Trees and Random Forests](/resources/ai-and-machine-learning/decision-trees-and-random-forests)
+- [File Handling (ifstream, ofstream, fstream)](/resources/cpp/file-handling-in-cpp)
+
+### From the blog
+
+- [Armstrong Number in Python, Code Examples & 5-Min Tutorial](/blog/armstrong-number-python-complete-guide-examples-code)
+- [Coding for 7-Year-Olds: What and How Kids Should Learn Programming](/blog/coding-for-7-year-olds-what-how-kids-should-learn-programming)
+- [Coding is the New English: Why 2026 is the Year to Start](/blog/coding-is-the-new-english-why-2026-is-the-year-to-start)
+
+### Start here
+
+- [Browse every live course at Modern Age Coders](/courses)
+- [Try a free trial class with a Modern Age Coders mentor](/free-trial)
+
 ---
 
 *Canonical: https://learn.modernagecoders.com/canadian-computing-competition-ccc-prep*

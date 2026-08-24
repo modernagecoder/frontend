@@ -500,6 +500,46 @@ Leave a number and a mentor rings back at an hour that suits Hong Kong rather th
 
 Prefer to look around first? Read [how we teach](/how-we-teach), browse the [full course catalogue](/courses), or see what students have built in [Student Labs](/student-labs).
 
+## Keep exploring Modern Age Coders
+
+### Coding classes in nearby places
+
+- [AI and Machine Learning Classes in Brunei](/ai-and-machine-learning-classes-in-brunei)
+- [Online Coding & AI Classes in Australia](/coding-classes-in-australia)
+- [Coding Classes in Bandar Seri Begawan](/coding-classes-in-bandar-seri-begawan)
+- [Online Maths Tuition Singapore](/online-maths-tuition-singapore)
+- [Online Coding Classes in Brunei](/coding-classes-in-brunei)
+- [Coding Classes in Tutong](/coding-classes-in-tutong)
+- [AI and Machine Learning Classes in Australia](/ai-and-machine-learning-classes-in-australia)
+- [Coding Classes in Liang and Lumut, Brunei](/coding-classes-in-liang)
+- [Coding Classes in Jerudong, Brunei](/coding-classes-in-jerudong)
+
+### Learn more
+
+- [Python for Machine Learning](/python-for-machine-learning)
+- [Orange Data Mining Course for Teens: Machine Learning Without Code](/courses/orange-data-mining-visual-machine-learning-course-for-teens)
+- [Machine Learning From Scratch: Build Real AI/ML Models](/machine-learning-from-scratch)
+- [Build Machine Learning Models in Python](/build-machine-learning-models-in-python)
+
+### Free resources
+
+- [AI & Machine Learning Tutorial: Basics to Deep Learning](/resources/ai-and-machine-learning)
+- [Recurrent Neural Networks (RNN) and LSTM](/resources/ai-and-machine-learning/recurrent-neural-networks)
+- [Unsupervised Learning](/resources/ai-and-machine-learning/unsupervised-learning-clustering)
+- [Decision Trees and Random Forests](/resources/ai-and-machine-learning/decision-trees-and-random-forests)
+
+### From the blog
+
+- [AI & Machine Learning Guides](/blog/topic/ai)
+- [What is Vibe Coding? The Ultimate Deep-Dive Guide to AI-Powered](/blog/what-is-vibe-coding-future-of-software-development)
+- [How to Teach Kids AI at Home: A Safe 2026 Parent Guide](/blog/how-to-teach-kids-ai-at-home)
+- [What Type of Data is Generative AI Most Suitable For? A Complete Guide](/blog/what-type-of-data-is-generative-ai-most-suitable-for)
+
+### Start here
+
+- [Modern Age Coders pricing, one honest price per plan](/pricing)
+- [How Modern Age Coders teaches, small batches and real projects](/how-we-teach)
+
 [Chat with us](https://wa.me/919123366161?text=Hi%2C%20I'm%20interested%20in%20learning%20more%20about%20your%20courses!)
 
 ---

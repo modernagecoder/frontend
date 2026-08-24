@@ -502,6 +502,46 @@ Leave a number and a mentor rings back, usually inside a few hours and at an hou
 
 Would rather read first? Start with [how we teach](/how-we-teach), open the [full course catalogue](/courses), or look through [Student Labs](/student-labs).
 
+## Keep exploring Modern Age Coders
+
+### Coding classes in nearby places
+
+- [AI and Machine Learning Classes in the Netherlands](/ai-and-machine-learning-classes-in-netherlands)
+- [AI and Machine Learning Classes in Ireland](/ai-and-machine-learning-classes-in-ireland)
+- [AI and Machine Learning Classes in Germany](/ai-and-machine-learning-classes-in-germany)
+- [AI and Machine Learning Classes in the UK](/ai-and-machine-learning-classes-in-uk)
+- [Online Coding & AI Classes in the UK](/coding-classes-in-united-kingdom)
+- [AI and Machine Learning Classes in Zurich](/ai-and-machine-learning-classes-in-zurich)
+- [Online Coding Classes in Leicester](/coding-classes-in-leicester)
+- [Online Coding Classes in Birmingham](/coding-classes-in-birmingham)
+- [Coding & Maths Classes near Avidipta](/coding-classes-in-avidipta-mukundapur)
+
+### Learn more
+
+- [Build Machine Learning Models in Python](/build-machine-learning-models-in-python)
+- [Python for Machine Learning](/python-for-machine-learning)
+- [Master AI, ML, Python & Java: Go Deeper](/master-ai-ml-python-java)
+- [Orange Data Mining Course for Teens: Machine Learning Without Code](/courses/orange-data-mining-visual-machine-learning-course-for-teens)
+
+### Free resources
+
+- [AI & Machine Learning Tutorial: Basics to Deep Learning](/resources/ai-and-machine-learning)
+- [Ensemble Methods](/resources/ai-and-machine-learning/ensemble-methods-and-boosting)
+- [Introduction to Neural Networks](/resources/ai-and-machine-learning/introduction-to-neural-networks)
+- [Logistic Regression and Classification](/resources/ai-and-machine-learning/logistic-regression-and-classification)
+
+### From the blog
+
+- [AI & Machine Learning Guides](/blog/topic/ai)
+- [What Type of Data is Generative AI Most Suitable For? A Complete Guide](/blog/what-type-of-data-is-generative-ai-most-suitable-for)
+- [How AI and Automation Are Transforming Small and Medium Businesses](/blog/ai-automation-transforming-small-medium-businesses)
+- [What is Vibe Coding? The Ultimate Deep-Dive Guide to AI-Powered](/blog/what-is-vibe-coding-future-of-software-development)
+
+### Start here
+
+- [Modern Age Coders pricing, one honest price per plan](/pricing)
+- [How Modern Age Coders teaches, small batches and real projects](/how-we-teach)
+
 [Chat with us](https://wa.me/919123366161?text=Hi%2C%20I'm%20interested%20in%20learning%20more%20about%20your%20courses!)
 
 ---

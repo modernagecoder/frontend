@@ -206,7 +206,50 @@ Real student projects
 
 Every one is a real, live project shipped by a Modern Age Coders student. Explore more in [Student Labs](/student-labs).
 
-[![FreshTrack: Food Expiry Tracker](/images/projects/fresh.webp)Web AppFreshTrack: Food Expiry TrackerA smart food-management system to track expiry dates, add, update and delete items while the app checks expiry automatically, online and offline.by TanishOpen the live project ↗](https://freshtrackpro.netlify.app/)[![Pracy: Coding Practice & Quiz Platform](/images/projects/pracy.webp)Web AppPracy: Coding Practice & Quiz PlatformAn all-in-one coding-practice site with interactive challenges, quizzes and score tracking across multiple languages to strengthen logic and problem-solving.by RohanOpen the live project ↗](https://astounding-flan-f18e08.netlify.app/)[![Word Counter Website](/images/projects/wordcounter.webp)ToolWord Counter WebsiteA simple yet powerful tool that counts words, sentences and paragraphs from user input with instant, real-time results and a clean responsive interface.by VanshOpen the live project ↗](https://vanshagarwalwordcounter-sys.github.io/WordCounter/)[Chat with us](https://wa.me/919123366161?text=Hi%2C%20I'm%20interested%20in%20learning%20more%20about%20your%20courses!)
+[![FreshTrack: Food Expiry Tracker](/images/projects/fresh.webp)Web AppFreshTrack: Food Expiry TrackerA smart food-management system to track expiry dates, add, update and delete items while the app checks expiry automatically, online and offline.by TanishOpen the live project ↗](https://freshtrackpro.netlify.app/)[![Pracy: Coding Practice & Quiz Platform](/images/projects/pracy.webp)Web AppPracy: Coding Practice & Quiz PlatformAn all-in-one coding-practice site with interactive challenges, quizzes and score tracking across multiple languages to strengthen logic and problem-solving.by RohanOpen the live project ↗](https://astounding-flan-f18e08.netlify.app/)[![Word Counter Website](/images/projects/wordcounter.webp)ToolWord Counter WebsiteA simple yet powerful tool that counts words, sentences and paragraphs from user input with instant, real-time results and a clean responsive interface.by VanshOpen the live project ↗](https://vanshagarwalwordcounter-sys.github.io/WordCounter/)
+
+## Keep exploring Modern Age Coders
+
+### Related courses and guides
+
+- [Coding Classes for Kids in Dubai](/coding-classes-for-kids-in-dubai)
+- [Coding Classes for Kids Cost 2026: US Prices by Format](/coding-classes-for-kids-cost)
+- [Coding Classes for Kids in Nassau](/coding-classes-for-kids-in-nassau)
+- [Coding Classes for Girls](/coding-classes-for-girls)
+- [Coding Classes for Kids in Riyadh](/coding-classes-for-kids-in-riyadh)
+- [Coding Classes for DPS Vasant Kunj Students Students](/coding-classes-for-dps-vasant-kunj-new-delhi)
+- [Hackathon 1.0 Guide (June 2026): How It Worked, 3 Rounds](/hackathon-guide)
+- [MVP Development Company for Startups](/mvp-development-company)
+- [Bug Fixing, QA & Software Maintenance Services](/software-maintenance-and-support)
+- [Coding for College Students](/category/college)
+
+### Learn more
+
+- [Python Classes in Dubai](/python-classes-in-dubai)
+- [Coding Classes in Riyadh](/coding-classes-in-riyadh)
+- [Python Projects for Kids: 20+ Finishable Python Projects (Ages 8 to 15)](/python-projects-for-kids)
+- [Coding for 9 Year Olds: Scratch, Python Basics & Game Projects for Kids](/coding-for-9-year-olds)
+
+### Free resources
+
+- [SQL Tutorial: Databases, Basics to Advanced](/resources/sql)
+- [INSERT, UPDATE, DELETE](/resources/sql/insert-update-delete)
+- [Loops in Python (for and while)](/resources/python/loops-in-python)
+- [ORDER BY, LIMIT, and DISTINCT](/resources/sql/sorting-and-limiting)
+
+### From the blog
+
+- [Coding for Kids: Guides for Parents](/blog/topic/kids-coding)
+- [Java for Kids: Complete Kids Guide to Learning Java Programming in 2026](/blog/java-for-kids-complete-guide-learning-programming-2026)
+- [Python vs JavaScript: Which Should You Learn First?](/blog/python-vs-javascript-which-to-learn-first)
+- [AP CSP vs AP CSA: Which Should You Take First?](/blog/ap-csp-vs-ap-csa-which-to-take-first)
+
+### Start here
+
+- [Book a free demo class with Modern Age Coders](/book-demo)
+- [Real projects built by Modern Age Coders students](/student-labs)
+
+[Chat with us](https://wa.me/919123366161?text=Hi%2C%20I'm%20interested%20in%20learning%20more%20about%20your%20courses!)
 
 ---
 

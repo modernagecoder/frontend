@@ -202,7 +202,49 @@ Real student projects
 
 Every one is a real, live project shipped by a Modern Age Coders student. Explore more in [Student Labs](/student-labs).
 
-[![Image Slider Website](/images/projects/slider.webp)ToolImage Slider WebsiteA visually appealing site with a smooth image carousel, auto or manual navigation, responsive layout and beautiful transition effects.by SomrajOpen the live project ↗](https://robo23middle-stack.github.io/scenes/)[![The Beautiful Mind](/images/projects/mindgame.webp)GameThe Beautiful MindA scientifically designed focus and brain-strength game with 15 progressive levels, testing attention, control and mental endurance with real-time progress tracking and leaderboards.by Modern Age CodersOpen the live project ↗](https://mind.modernagecoders.com)[![Misti: AI Chatbot for Maths & Coding](/images/projects/misti.webp)AI & MLMisti: AI Chatbot for Maths & CodingAn intelligent AI-powered chatbot that helps students solve maths and coding questions with deep, step-by-step explanations using advanced Python AI frameworks and LLM APIs.by HarshitOpen the live project ↗](https://misti.modernagecoders.com)[Chat with us](https://wa.me/919123366161?text=Hi%2C%20I'm%20interested%20in%20learning%20more%20about%20your%20courses!)
+[![Image Slider Website](/images/projects/slider.webp)ToolImage Slider WebsiteA visually appealing site with a smooth image carousel, auto or manual navigation, responsive layout and beautiful transition effects.by SomrajOpen the live project ↗](https://robo23middle-stack.github.io/scenes/)[![The Beautiful Mind](/images/projects/mindgame.webp)GameThe Beautiful MindA scientifically designed focus and brain-strength game with 15 progressive levels, testing attention, control and mental endurance with real-time progress tracking and leaderboards.by Modern Age CodersOpen the live project ↗](https://mind.modernagecoders.com)[![Misti: AI Chatbot for Maths & Coding](/images/projects/misti.webp)AI & MLMisti: AI Chatbot for Maths & CodingAn intelligent AI-powered chatbot that helps students solve maths and coding questions with deep, step-by-step explanations using advanced Python AI frameworks and LLM APIs.by HarshitOpen the live project ↗](https://misti.modernagecoders.com)
+
+## Keep exploring Modern Age Coders
+
+### Coding classes in nearby places
+
+- [Python Classes in Saudi Arabia](/python-classes-in-saudi-arabia)
+- [Python Classes in Dubai](/python-classes-in-dubai)
+- [Python for Kids in Dubai](/python-for-kids-in-dubai)
+- [Online Maths Tuition in the UAE](/online-maths-tuition-uae)
+- [A-Level Maths Tutor in the UAE](/a-level-maths-tutor-uae)
+- [Maths Tutor in Dubai](/maths-tutor-in-dubai)
+- [Coding Classes in Riyadh](/coding-classes-in-riyadh)
+- [Coding Classes in Jeddah](/coding-classes-in-jeddah)
+- [Coding Classes in Doha](/coding-classes-in-doha)
+
+### Learn more
+
+- [Python Automation Course: Scripting, Scraping & Applied AI](/courses/python-ai-automation-masterclass-college)
+- [NumPy, Pandas & Matplotlib Masterclass: Python Data Analysis in Depth](/numpy-pandas-matplotlib-masterclass)
+- [Python Masterclass: Zero to Advanced, Live Online](/courses/python-programming-masterclass-zero-to-advanced-college)
+- [Data Analysis Course: Excel, SQL, Python & BI](/courses/data-analysis-mastery-course-college)
+
+### Free resources
+
+- [Python Tutorial for Beginners: Complete Guide](/resources/python)
+- [Pattern Printing in Python](/resources/python/pattern-printing)
+- [Taking Input and Type Conversion](/resources/python/taking-input-and-type-conversion)
+- [Conditional Statements in Python (if, elif, else)](/resources/python/conditional-statements)
+
+### From the blog
+
+- [Python Tutorials & Guides](/blog/topic/python)
+- [Learn Python for Beginners: Complete Step-by-Step Guide (2026)](/blog/python-for-beginners)
+- [Why Python is the Most Powerful Skill for Professionals Today](/blog/why-python-most-powerful-skill-professionals-today)
+- [Learn Python Step by Step: The Free Tutorial Library](/blog/learn-python-step-by-step)
+
+### Start here
+
+- [Try a free trial class with a Modern Age Coders mentor](/free-trial)
+- [About Modern Age Coders, teaching since 2020](/about)
+
+[Chat with us](https://wa.me/919123366161?text=Hi%2C%20I'm%20interested%20in%20learning%20more%20about%20your%20courses!)
 
 ---
 

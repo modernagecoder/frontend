@@ -220,7 +220,49 @@ Real student projects
 
 Every one is a real, live project shipped by a Modern Age Coders student. Explore more in [Student Labs](/student-labs).
 
-[![Pracy: Coding Practice & Quiz Platform](/images/projects/pracy.webp)Web AppPracy: Coding Practice & Quiz PlatformAn all-in-one coding-practice site with interactive challenges, quizzes and score tracking across multiple languages to strengthen logic and problem-solving.by RohanOpen the live project ↗](https://astounding-flan-f18e08.netlify.app/)[![Word Counter Website](/images/projects/wordcounter.webp)ToolWord Counter WebsiteA simple yet powerful tool that counts words, sentences and paragraphs from user input with instant, real-time results and a clean responsive interface.by VanshOpen the live project ↗](https://vanshagarwalwordcounter-sys.github.io/WordCounter/)[![Life Span Tracker](/images/projects/lifespan.webp)ToolLife Span TrackerAn interactive web tool that calculates expected lifespan, shows days, months and years lived, and visualises remaining time to motivate better habits.by ManayOpen the live project ↗](https://lifespantracker.netlify.app/)[Chat with us](https://wa.me/919123366161?text=Hi%2C%20I'm%20interested%20in%20learning%20more%20about%20your%20courses!)
+[![Pracy: Coding Practice & Quiz Platform](/images/projects/pracy.webp)Web AppPracy: Coding Practice & Quiz PlatformAn all-in-one coding-practice site with interactive challenges, quizzes and score tracking across multiple languages to strengthen logic and problem-solving.by RohanOpen the live project ↗](https://astounding-flan-f18e08.netlify.app/)[![Word Counter Website](/images/projects/wordcounter.webp)ToolWord Counter WebsiteA simple yet powerful tool that counts words, sentences and paragraphs from user input with instant, real-time results and a clean responsive interface.by VanshOpen the live project ↗](https://vanshagarwalwordcounter-sys.github.io/WordCounter/)[![Life Span Tracker](/images/projects/lifespan.webp)ToolLife Span TrackerAn interactive web tool that calculates expected lifespan, shows days, months and years lived, and visualises remaining time to motivate better habits.by ManayOpen the live project ↗](https://lifespantracker.netlify.app/)
+
+## Keep exploring Modern Age Coders
+
+### Coding classes in nearby places
+
+- [American Curriculum & SAT Maths Tutor in the UAE](/american-maths-tutor-uae)
+- [AI Classes in Qatar](/ai-classes-in-qatar)
+- [CBSE Maths Tutor in the UAE](/cbse-maths-tutor-uae)
+- [AI Classes in Dubai](/ai-classes-in-dubai)
+- [Coding Classes in Abu Dhabi](/coding-classes-in-abu-dhabi)
+- [AI Classes for Kids in UAE](/ai-classes-for-kids-in-uae)
+- [Python Classes in Dubai](/python-classes-in-dubai)
+- [Coding Classes in Sharjah](/coding-classes-in-sharjah)
+- [Online Coding Classes in Bahrain](/coding-classes-in-bahrain)
+
+### Learn more
+
+- [Python for Machine Learning](/python-for-machine-learning)
+- [Build Machine Learning Models in Python](/build-machine-learning-models-in-python)
+- [Learn to Build AI, Not Just Use It](/learn-to-build-ai)
+- [Generative AI Course](/generative-ai-course)
+
+### Free resources
+
+- [AI & Machine Learning Tutorial: Basics to Deep Learning](/resources/ai-and-machine-learning)
+- [Support Vector Machines (SVM)](/resources/ai-and-machine-learning/support-vector-machines)
+- [Convolutional Neural Networks (CNN) for Computer Vision](/resources/ai-and-machine-learning/convolutional-neural-networks)
+- [Dimensionality Reduction](/resources/ai-and-machine-learning/dimensionality-reduction)
+
+### From the blog
+
+- [AI & Machine Learning Guides](/blog/topic/ai)
+- [Agent Terminology in AI: A Simple Guide to Understanding AI Agents](/blog/agentic-terminology-in-ai)
+- [What Type of Data is Generative AI Most Suitable For? A Complete Guide](/blog/what-type-of-data-is-generative-ai-most-suitable-for)
+- [Best Data Science Courses in India for Students and](/blog/data-science-course-india)
+
+### Start here
+
+- [Try a free trial class with a Modern Age Coders mentor](/free-trial)
+- [About Modern Age Coders, teaching since 2020](/about)
+
+[Chat with us](https://wa.me/919123366161?text=Hi%2C%20I'm%20interested%20in%20learning%20more%20about%20your%20courses!)
 
 ---
 

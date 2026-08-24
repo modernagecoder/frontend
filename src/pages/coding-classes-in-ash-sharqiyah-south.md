@@ -438,7 +438,42 @@ Share the learner's age or grade, wilayat and intended skill. Modern Age Coders 
 
 Use the national page for shared service facts, then continue to Sur or the northern governorate.
 
-[**Oman coding classes**National course, fee and service guide](/coding-classes-in-oman)[**Sur coding classes**City-specific water-leakage data project](/coding-classes-in-sur)[**Ash Sharqiyah North coding classes**Duplicate-key join analysis](/coding-classes-in-ash-sharqiyah-north)Free regional class[Call +91 91233 66161](tel:+919123366161)[Chat with us](https://wa.me/919123366161?text=Hi%2C%20I'm%20interested%20in%20learning%20more%20about%20your%20courses!)
+[**Oman coding classes**National course, fee and service guide](/coding-classes-in-oman)[**Sur coding classes**City-specific water-leakage data project](/coding-classes-in-sur)[**Ash Sharqiyah North coding classes**Duplicate-key join analysis](/coding-classes-in-ash-sharqiyah-north)[**Al Kamil Wal Wafi coding classes**A substring match standing in for an exact one](/coding-classes-in-al-kamil-wal-wafi)[**Jalan Bani Bu Ali coding classes**Money in binary floating point](/coding-classes-in-jalan-bani-bu-ali)[**Jalan Bani Bu Hassan coding classes**A key built by squashing and truncating a name](/coding-classes-in-jalan-bani-bu-hassan)[**Masirah coding classes**Latitude and longitude read in the wrong order](/coding-classes-in-masirah)Free regional class[Call +91 91233 66161](tel:+919123366161)
+
+## Keep exploring Modern Age Coders
+
+### Coding classes in nearby places
+
+- [Coding Classes in Azaiba](/coding-classes-in-azaiba)
+- [Coding Classes in Barka](/coding-classes-in-barka)
+- [Coding Classes in Al Wusta](/coding-classes-in-al-wusta)
+- [Coding Classes in Bidbid](/coding-classes-in-bidbid)
+- [Coding Classes in Al Musanaah](/coding-classes-in-al-musanaah)
+- [Coding Classes in Bidiyah](/coding-classes-in-bidiyah)
+- [Coding Classes in Samail](/coding-classes-in-samail)
+- [Coding Classes in Saham](/coding-classes-in-saham)
+- [Online Coding Classes in Muttrah](/coding-classes-in-muttrah)
+- [Online Coding Classes in Bahrain](/coding-classes-in-bahrain)
+
+### Free resources
+
+- [AI & Machine Learning Tutorial: Basics to Deep Learning](/resources/ai-and-machine-learning)
+- [Reinforcement Learning Basics](/resources/ai-and-machine-learning/reinforcement-learning-basics)
+- [AI Ethics, Responsible AI, and Career Roadmap](/resources/ai-and-machine-learning/ai-ethics-and-career-guide)
+- [Introduction to Design Patterns](/resources/java/design-patterns-introduction)
+
+### From the blog
+
+- [Coding Class Fees in India 2026: What to Pay](/blog/coding-class-fees-india-2026)
+- [Coding for 7-Year-Olds: What and How Kids Should Learn Programming](/blog/coding-for-7-year-olds-what-how-kids-should-learn-programming)
+- [How Coding and Mathematics Work Together in Engineering & Science](/blog/coding-mathematics-engineering-science)
+
+### Start here
+
+- [What Modern Age Coders families say](/love)
+- [Book a free demo class with Modern Age Coders](/book-demo)
+
+[Chat with us](https://wa.me/919123366161?text=Hi%2C%20I'm%20interested%20in%20learning%20more%20about%20your%20courses!)
 
 ---
 

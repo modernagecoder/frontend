@@ -338,6 +338,42 @@ The [Oman coding hub](/coding-classes-in-oman) covers national delivery and fees
 
 Book the free class[Close with WhatsApp](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20want%20a%20free%20coding%20class%20for%20a%20learner%20in%20Al%20Mudhaibi.)Free Al Mudhaibi class[Call +91 91233 66161](tel:+919123366161)
 
+## Keep exploring Modern Age Coders
+
+### Coding classes in nearby places
+
+- [Coding Classes in Al Musanaah](/coding-classes-in-al-musanaah)
+- [Coding Classes in Al Mazyunah](/coding-classes-in-al-mazyunah)
+- [Coding Classes in Al Wusta](/coding-classes-in-al-wusta)
+- [Coding Classes in Al Khuwair](/coding-classes-in-al-khuwair)
+- [Coding Classes in Al Khoudh](/coding-classes-in-al-khoudh)
+- [Coding Classes in Ash Sharqiyah South](/coding-classes-in-ash-sharqiyah-south)
+- [Coding Classes in Wadi Bani Khalid](/coding-classes-in-wadi-bani-khalid)
+- [Coding Classes in Wadi Al Maawil](/coding-classes-in-wadi-al-maawil)
+- [Coding Classes in Thumrait](/coding-classes-in-thumrait)
+
+### Learn more
+
+- [Python for 10 Year Olds: Real Python Programs, Turtle Art & Mini Games](/python-for-10-year-olds)
+
+### Free resources
+
+- [AI & Machine Learning Tutorial: Basics to Deep Learning](/resources/ai-and-machine-learning)
+- [Transformers and Attention Mechanism](/resources/ai-and-machine-learning/transformers-and-attention)
+- [Data Preprocessing and Exploratory Data Analysis](/resources/ai-and-machine-learning/data-preprocessing-and-eda)
+- [Exception Handling in Java](/resources/java/exception-handling)
+
+### From the blog
+
+- [Learn Python for Beginners: Complete Step-by-Step Guide (2026)](/blog/python-for-beginners)
+- [Python vs JavaScript: Which Should You Learn First?](/blog/python-vs-javascript-which-to-learn-first)
+- [Star Pattern Programs in Python: 30 Patterns With Code](/blog/star-pattern-programs-in-python)
+
+### Start here
+
+- [What Modern Age Coders families say](/love)
+- [Book a free demo class with Modern Age Coders](/book-demo)
+
 ---
 
 *Canonical: https://learn.modernagecoders.com/coding-classes-in-al-mudhaibi*

@@ -856,7 +856,50 @@ Modern Age Coders teaches students worldwide over live video, in small 4–8 bat
 - [Coding Classes in the United Kingdom](/coding-classes-in-united-kingdom)
 - [Coding Classes in the United States](/coding-classes-in-united-states)
 
-[Browse all courses →](/courses)[Book a free demo](/book-demo)[Coding Classes in India](/coding-classes-in-india)[Chat with us](https://wa.me/919123366161?text=Hi%2C%20I'm%20interested%20in%20learning%20more%20about%20your%20courses!)
+[Browse all courses →](/courses)[Book a free demo](/book-demo)[Coding Classes in India](/coding-classes-in-india)
+
+## Keep exploring Modern Age Coders
+
+### Coding classes in nearby places
+
+- [Coding Classes in Seria, Brunei](/coding-classes-in-seria)
+- [Coding Classes in Liang and Lumut, Brunei](/coding-classes-in-liang)
+- [Coding Classes in Kuala Belait and Seria](/coding-classes-in-kuala-belait)
+- [Coding Classes in Temburong and Bangar](/coding-classes-in-temburong)
+- [Coding Classes in Jerudong, Brunei](/coding-classes-in-jerudong)
+- [Coding Classes in Tutong](/coding-classes-in-tutong)
+- [AI and Machine Learning Classes in Hong Kong](/ai-and-machine-learning-classes-in-hong-kong)
+- [Online Maths Tuition Singapore](/online-maths-tuition-singapore)
+- [AI and Machine Learning Classes in Singapore](/ai-and-machine-learning-classes-in-singapore)
+- [Online Coding Classes in Hong Kong](/coding-classes-in-hong-kong)
+
+### Learn more
+
+- [Vibe Coding for Teens: Python, Web Dev & AI (Ages 13-17)](/courses/vibe-coding-for-teens-python-web-ai-projects-course)
+- [Python for Class 6: CBSE Code 166 Python, Turtle, First AI (Age 11)](/python-for-class-6)
+- [Coding for Class 6: Python, HTML/CSS & AI Projects Matched to](/coding-for-class-6)
+- [Coding for Class 5: Python, Scratch & AI Tools for 10 Year Olds](/coding-for-class-5)
+
+### Free resources
+
+- [AI & Machine Learning Tutorial: Basics to Deep Learning](/resources/ai-and-machine-learning)
+- [KNN and Naive Bayes Classifiers](/resources/ai-and-machine-learning/knn-and-naive-bayes)
+- [Mathematics for Machine Learning](/resources/ai-and-machine-learning/mathematics-for-ml)
+- [Python for AI](/resources/ai-and-machine-learning/python-for-ai-essentials)
+
+### From the blog
+
+- [AI & Machine Learning Guides](/blog/topic/ai)
+- [What Type of Data is Generative AI Most Suitable For? A Complete Guide](/blog/what-type-of-data-is-generative-ai-most-suitable-for)
+- [What is the Responsibility of Developers Using Generative AI? A](/blog/what-is-the-responsibility-of-developers-using-generative-AI)
+- [How to Teach Kids AI at Home: A Safe 2026 Parent Guide](/blog/how-to-teach-kids-ai-at-home)
+
+### Start here
+
+- [Browse every live course at Modern Age Coders](/courses)
+- [Try a free trial class with a Modern Age Coders mentor](/free-trial)
+
+[Chat with us](https://wa.me/919123366161?text=Hi%2C%20I'm%20interested%20in%20learning%20more%20about%20your%20courses!)
 
 ---
 

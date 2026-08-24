@@ -431,7 +431,41 @@ Share the learner's age or grade, wilayat and intended skill. Modern Age Coders 
 
 Use the national page for shared service facts, then continue to Ibri or neighbouring Al Buraimi.
 
-[**Oman coding classes**National course, fee and service guide](/coding-classes-in-oman)[**Ibri coding classes**City-specific denominator audit](/coding-classes-in-ibri)[**Al Buraimi coding classes**Accumulated-rounding analysis](/coding-classes-in-al-buraimi)Free regional class[Call +91 91233 66161](tel:+919123366161)[Chat with us](https://wa.me/919123366161?text=Hi%2C%20I'm%20interested%20in%20learning%20more%20about%20your%20courses!)
+[**Oman coding classes**National course, fee and service guide](/coding-classes-in-oman)[**Ibri coding classes**City-specific denominator audit](/coding-classes-in-ibri)[**Al Buraimi coding classes**Accumulated-rounding analysis](/coding-classes-in-al-buraimi)[**Dhank coding classes**A many-to-many relationship squeezed into one column](/coding-classes-in-dhank)[**Yanqul coding classes**Truncation is one-sided and rounding is not](/coding-classes-in-yanqul)Free regional class[Call +91 91233 66161](tel:+919123366161)
+
+## Keep exploring Modern Age Coders
+
+### Coding classes in nearby places
+
+- [Coding Classes in Al Amarat](/coding-classes-in-al-amarat)
+- [Coding Classes in Ad Dakhiliyah](/coding-classes-in-ad-dakhiliyah)
+- [Coding Classes in Al Awabi](/coding-classes-in-al-awabi)
+- [Build Real AI Projects: Oman Student Portfolios](/build-real-ai-projects-oman)
+- [Coding Classes in Al Batinah North](/coding-classes-in-al-batinah-north)
+- [AI and Python Academy for Students in Sohar](/ai-and-python-academy-sohar)
+- [Coding Classes in Madinat Al Sultan Qaboos](/coding-classes-in-madinat-al-sultan-qaboos)
+- [Coding Classes in Madinat Al Irfan](/coding-classes-in-madinat-al-irfan)
+- [Coding Classes in Liwa](/coding-classes-in-liwa)
+
+### Free resources
+
+- [AI & Machine Learning Tutorial: Basics to Deep Learning](/resources/ai-and-machine-learning)
+- [Methods in Java](/resources/java/methods-in-java)
+- [Recurrent Neural Networks (RNN) and LSTM](/resources/ai-and-machine-learning/recurrent-neural-networks)
+- [Your First Java Program](/resources/java/your-first-java-program)
+
+### From the blog
+
+- [How to Get Better at Maths: 8 Methods That Actually Work](/blog/how-to-get-better-at-maths)
+- [The Role of Mathematics in Programming and Logical Problem Solving](/blog/role-of-mathematics-programming-logical-problem-solving)
+- [Java for Kids: Complete Kids Guide to Learning Java Programming in 2026](/blog/java-for-kids-complete-guide-learning-programming-2026)
+
+### Start here
+
+- [Try a free trial class with a Modern Age Coders mentor](/free-trial)
+- [About Modern Age Coders, teaching since 2020](/about)
+
+[Chat with us](https://wa.me/919123366161?text=Hi%2C%20I'm%20interested%20in%20learning%20more%20about%20your%20courses!)
 
 ---
 

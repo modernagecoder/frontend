@@ -362,6 +362,46 @@ Rather read first? [RAG systems](/rag-systems-course), [context engineering](/co
 
 We hold no premises anywhere. Every session is a live video call taught from India, and the number above rings in India. Sending the form opens a conversation rather than an enrolment, and holds no place in any batch.
 
+## Keep exploring Modern Age Coders
+
+### Related courses and guides
+
+- [AI Literacy for Students](/ai-literacy-for-students)
+- [The AI Engineer Roadmap 2026: From Python Day One to Shipping AI](/ai-engineer-roadmap-2026)
+- [AI & ML Certification Course](/ai-ml-certification-course)
+- [AI Development Company](/ai-development-services)
+- [AI & ML Course for College Students](/ai-ml-course-for-college-students)
+- [AI Course for Beginners](/ai-course-for-beginners)
+- [AI Projects for High School Students](/ai-projects-for-high-school-students)
+- [AI Classes for Beginners](/ai-classes-for-beginners)
+- [AI Science Fair Project Ideas That Follow the Actual Rules](/science-fair-project-ideas-ai)
+
+### Learn more
+
+- [Hackathon for Kids: Free Event + 12-Week Prep (Ages 8-12)](/courses/hackathon-prep-for-kids-coding-innovation-ai-projects-course)
+- [Build Real AI Projects: Oman Student Portfolios](/build-real-ai-projects-oman)
+- [Hackathon for Teens: Free Event + 12-Week Prep (Ages 13-17)](/courses/hackathon-prep-for-teens-coding-ai-build-innovate-win-course)
+- [Orange Data Mining Course for Teens: Machine Learning Without Code](/courses/orange-data-mining-visual-machine-learning-course-for-teens)
+
+### Free resources
+
+- [AI & Machine Learning Tutorial: Basics to Deep Learning](/resources/ai-and-machine-learning)
+- [Introduction to AI and Machine Learning](/resources/ai-and-machine-learning/introduction-to-ai-and-ml)
+- [Linear Regression](/resources/ai-and-machine-learning/linear-regression)
+- [Model Evaluation, Cross-Validation, and Hyperparameter Tuning](/resources/ai-and-machine-learning/model-evaluation-and-tuning)
+
+### From the blog
+
+- [AI & Machine Learning Guides](/blog/topic/ai)
+- [What is Vibe Coding? The Ultimate Deep-Dive Guide to AI-Powered](/blog/what-is-vibe-coding-future-of-software-development)
+- [Data Science, AI, and Math: Skills Every Tech Professional Must Learn](/blog/data-science-ai-math-skills-professionals)
+- [Best Data Science Courses in India for Students and](/blog/data-science-course-india)
+
+### Start here
+
+- [How Modern Age Coders teaches, small batches and real projects](/how-we-teach)
+- [What Modern Age Coders families say](/love)
+
 ---
 
 *Canonical: https://learn.modernagecoders.com/ai-evaluations-course*

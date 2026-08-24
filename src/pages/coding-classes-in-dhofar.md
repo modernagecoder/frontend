@@ -458,7 +458,42 @@ Share the learner's age or grade, wilayat and intended skill. Modern Age Coders 
 
 Use the national page for shared service facts, then continue to a city page or another regional data problem.
 
-[**Oman coding classes**National course, fee and service guide](/coding-classes-in-oman)[**Salalah coding classes**Seasonality and moving-average analysis](/coding-classes-in-salalah)[**Al Wusta coding classes**Small-denominator volatility](/coding-classes-in-al-wusta)Free Dhofar class[Call +91 91233 66161](tel:+919123366161)[Chat with us](https://wa.me/919123366161?text=Hi%2C%20I'm%20interested%20in%20learning%20more%20about%20your%20courses!)
+[**Oman coding classes**National course, fee and service guide](/coding-classes-in-oman)[**Salalah coding classes**Seasonality and moving-average analysis](/coding-classes-in-salalah)[**Al Wusta coding classes**Small-denominator volatility](/coding-classes-in-al-wusta)[**Al Mazyunah coding classes**A per-record duration reported as one global date](/coding-classes-in-al-mazyunah)[**Mirbat coding classes**The day boundary moves when you change clock](/coding-classes-in-mirbat)[**Shalim wa Juzur al Hallaniyat coding classes**A fallback that quietly substitutes a different measurement](/coding-classes-in-shalim)[**Taqah coding classes**One trend line fitted straight across a break in the subject itself](/coding-classes-in-taqah)[**Thumrait coding classes**The intermediate stops lost in an origin-destination table](/coding-classes-in-thumrait)Free Dhofar class[Call +91 91233 66161](tel:+919123366161)
+
+## Keep exploring Modern Age Coders
+
+### Coding classes in nearby places
+
+- [Coding Classes in Dima Wa Attayeen](/coding-classes-in-dima-wa-attayeen)
+- [Coding Classes in Dhank](/coding-classes-in-dhank)
+- [Coding Classes in Duqm](/coding-classes-in-duqm)
+- [Coding Classes in Bidiyah](/coding-classes-in-bidiyah)
+- [Coding Classes in Haima](/coding-classes-in-haima)
+- [Coding Classes in Bidbid](/coding-classes-in-bidbid)
+- [Coding Classes in Qurayyat](/coding-classes-in-qurayyat)
+- [Online Coding Classes in Muttrah](/coding-classes-in-muttrah)
+- [Coding Classes in Musandam](/coding-classes-in-musandam)
+- [Online Coding Classes in Maryland](/coding-classes-in-maryland)
+
+### Free resources
+
+- [C++ Tutorial: From Basics to Advanced](/resources/cpp)
+- [Unsupervised Learning](/resources/ai-and-machine-learning/unsupervised-learning-clustering)
+- [Decision Trees and Random Forests](/resources/ai-and-machine-learning/decision-trees-and-random-forests)
+- [File Handling (ifstream, ofstream, fstream)](/resources/cpp/file-handling-in-cpp)
+
+### From the blog
+
+- [Learn Python for Beginners: Complete Step-by-Step Guide (2026)](/blog/python-for-beginners)
+- [Project-Based Learning: Why Theory Alone Is Not Enough in Coding](/blog/project-based-learning-why-theory-alone-not-enough-coding)
+- [File Organization in Python: A Beginner's Guide to Managing Your](/blog/file-organization-in-python)
+
+### Start here
+
+- [Browse every live course at Modern Age Coders](/courses)
+- [Try a free trial class with a Modern Age Coders mentor](/free-trial)
+
+[Chat with us](https://wa.me/919123366161?text=Hi%2C%20I'm%20interested%20in%20learning%20more%20about%20your%20courses!)
 
 ---
 

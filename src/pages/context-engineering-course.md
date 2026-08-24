@@ -362,6 +362,42 @@ Rather read first? [How LLMs actually work](/how-llms-actually-work), [RAG syste
 
 We hold no premises anywhere. Every session is a live video call taught from India, and the number above rings in India. Sending the form opens a conversation rather than an enrolment, and holds no place in any batch.
 
+## Keep exploring Modern Age Coders
+
+### Related courses and guides
+
+- [Learn Coding & Math Online](/course)
+- [Contact Us](/contact)
+- [The Course Atlas: Every Coding, AI & Mathematics Course (Kids, Teens](/course-atlas)
+- [Computer Vision Course](/computer-vision-course)
+- [Custom Software Development Company](/custom-software-development-services)
+- [Computer Science Extracurricula Ranked by What Actually Counts](/computer-science-extracurriculars)
+- [Coding Classes for DPS Vasant Kunj Students Students](/coding-classes-for-dps-vasant-kunj-new-delhi)
+- [Summer Research Programs in Coding and AI](/summer-research-programs-coding)
+- [Bug Fixing, QA & Software Maintenance Services](/software-maintenance-and-support)
+
+### Learn more
+
+- [Orange Data Mining Course for College Students](/courses/orange-data-mining-machine-learning-course-for-college-students)
+
+### Free resources
+
+- [Python Tutorial for Beginners: Complete Guide](/resources/python)
+- [Strings in Python](/resources/python/strings-in-python)
+- [Variables and Data Types](/resources/javascript/variables-and-data-types)
+- [Closures, Scope, and Hoisting](/resources/javascript/closures-scope-and-hoisting)
+
+### From the blog
+
+- [What is Vibe Coding? The Ultimate Deep-Dive Guide to AI-Powered](/blog/what-is-vibe-coding-future-of-software-development)
+- [Top 10 Java Programs Every College Student Must Know (With Solutions)](/blog/top-10-java-programs-every-college-student-must-know)
+- [How Coding and Mathematics Work Together in Engineering & Science](/blog/coding-mathematics-engineering-science)
+
+### Start here
+
+- [Try a free trial class with a Modern Age Coders mentor](/free-trial)
+- [About Modern Age Coders, teaching since 2020](/about)
+
 ---
 
 *Canonical: https://learn.modernagecoders.com/context-engineering-course*

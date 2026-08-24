@@ -392,6 +392,46 @@ Student*
 *KKrishnam Bhatter
 Former Student*
 
+## Keep exploring Modern Age Coders
+
+### Coding classes in nearby places
+
+- [Python Projects for Kids: 20+ Finishable Python Projects (Ages 8 to 15)](/python-projects-for-kids)
+- [Machine Learning Course for Beginners](/machine-learning-course-for-beginners)
+- [Vibe Coding Projects for Students](/vibe-coding-projects-for-students)
+- [Coding Classes in West Bengal](/coding-classes-in-west-bengal)
+- [Coding Classes in Adam](/coding-classes-in-adam)
+- [Coding Classes in Uttarakhand](/coding-classes-in-uttarakhand)
+- [Online Coding Classes in Bawshar](/coding-classes-in-bawshar)
+- [Coding Classes in Bahla](/coding-classes-in-bahla)
+- [Coding Classes in As Suwaiq](/coding-classes-in-as-suwaiq)
+
+### Learn more
+
+- [AI & ML Course for Kids & Teens: Learn Artificial Intelligence](/ai-ml-course-for-teens)
+- [Python and AI for Kids: Games, Turtle Art and Smart Projects](/courses/python-ai-kids-masterclass)
+- [Python for Class 6: CBSE Code 166 Python, Turtle, First AI (Age 11)](/python-for-class-6)
+- [Coding for Class 5: Python, Scratch & AI Tools for 10 Year Olds](/coding-for-class-5)
+
+### Free resources
+
+- [Python Tutorial for Beginners: Complete Guide](/resources/python)
+- [Object-Oriented Programming in Python](/resources/python/object-oriented-programming)
+- [Python for AI](/resources/ai-and-machine-learning/python-for-ai-essentials)
+- [Variables and Data Types in Python](/resources/python/variables-and-data-types)
+
+### From the blog
+
+- [Python Tutorials & Guides](/blog/topic/python)
+- [20 Python Programs for CBSE Class 12 Board Exam (083)](/blog/python-programs-for-cbse-class-12)
+- [Scratch vs Python: Which is Better for Young Learners?](/blog/scratch-vs-python-which-better-young-learners)
+- [What is AI? Complete Beginner's Guide: How to Start, Which Languages](/blog/what-is-ai-complete-beginners-guide-how-to-start)
+
+### Start here
+
+- [Browse every live course at Modern Age Coders](/courses)
+- [Try a free trial class with a Modern Age Coders mentor](/free-trial)
+
 [![Modern Age Coders Logo](/images/logo.svg)Modern Age Coders](/)
 
 Forging the next generation of innovators.

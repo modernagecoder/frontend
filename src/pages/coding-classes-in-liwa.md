@@ -338,6 +338,43 @@ The [Oman coding hub](/coding-classes-in-oman) covers national delivery and fees
 
 Book the free class[Close with WhatsApp](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20want%20a%20free%20coding%20class%20for%20a%20learner%20in%20Liwa.)Free Liwa class[Call +91 91233 66161](tel:+919123366161)
 
+## Keep exploring Modern Age Coders
+
+### Coding classes in nearby places
+
+- [Coding Classes in Madinat Al Irfan](/coding-classes-in-madinat-al-irfan)
+- [Coding Classes in Khasab](/coding-classes-in-khasab)
+- [Coding Classes in Madinat Al Sultan Qaboos](/coding-classes-in-madinat-al-sultan-qaboos)
+- [Coding Classes in Izki](/coding-classes-in-izki)
+- [Coding Classes in Mahdah](/coding-classes-in-mahdah)
+- [Coding Classes in Ibri](/coding-classes-in-ibri)
+- [Coding Classes in Wadi Al Maawil](/coding-classes-in-wadi-al-maawil)
+- [Coding Classes in Shalim](/coding-classes-in-shalim)
+- [Coding Classes in Samail](/coding-classes-in-samail)
+
+### Learn more
+
+- [Data Science for Teens: Python & Your First ML Models](/courses/data-science-course-for-teens-python-data)
+- [Python for 10 Year Olds: Real Python Programs, Turtle Art & Mini Games](/python-for-10-year-olds)
+
+### Free resources
+
+- [Python Tutorial for Beginners: Complete Guide](/resources/python)
+- [Functions - Regular, Arrow, and Callback | JavaScript Tutorial](/resources/javascript/functions-in-javascript)
+- [Pattern Printing in Python](/resources/python/pattern-printing)
+- [Project: Build an Interactive Quiz App](/resources/javascript/project-interactive-quiz-app)
+
+### From the blog
+
+- [AP CSP vs AP CSA: Which Should You Take First?](/blog/ap-csp-vs-ap-csa-which-to-take-first)
+- [Python vs JavaScript: Which Should You Learn First?](/blog/python-vs-javascript-which-to-learn-first)
+- [Learn Python for Beginners: Complete Step-by-Step Guide (2026)](/blog/python-for-beginners)
+
+### Start here
+
+- [Modern Age Coders pricing, one honest price per plan](/pricing)
+- [How Modern Age Coders teaches, small batches and real projects](/how-we-teach)
+
 ---
 
 *Canonical: https://learn.modernagecoders.com/coding-classes-in-liwa*

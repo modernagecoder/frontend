@@ -367,6 +367,46 @@ Rather read first? [Context engineering](/context-engineering-course), [RAG syst
 
 We hold no premises anywhere. Every session is a live video call taught from India, and the number above rings in India. Sending the form opens a conversation rather than an enrolment, and holds no place in any batch.
 
+## Keep exploring Modern Age Coders
+
+### Related courses and guides
+
+- [How to Build AI Models](/how-to-build-ai-models)
+- [How AI Actually Works: A First-Principles Guide to LLMs, Tokens](/how-ai-actually-works)
+- [How to Train Machine Learning Models](/how-to-train-machine-learning-models)
+- [Generative AI Course](/generative-ai-course)
+- [Inside Neural Networks: How Deep Learning Really Works](/inside-neural-networks)
+- [Deep Learning with TensorFlow & PyTorch](/deep-learning-with-tensorflow-and-pytorch)
+- [AI Tool Age Limits: What Your Child Can Actually Use](/ai-tools-age-guide)
+- [AI Literacy for Students](/ai-literacy-for-students)
+- [AI Evaluations Course](/ai-evaluations-course)
+
+### Learn more
+
+- [Vibe Coding vs Building AI: A Guide for Parents in Oman](/vibe-coding-vs-building-ai-oman)
+- [Data and AI Analytics for Non-Programmers (Excel, Sheets, Power BI)](/courses/data-and-ai-analytics-for-non-programmers-course)
+- [CBSE AI Classes for Class 6-8: Where AI Literacy Actually Begins](/ai-classes-for-cbse-class-6-to-8)
+- [AI Tools Mastery Course: ChatGPT, Claude & Automation](/courses/ai-tools-mastery-complete-college)
+
+### Free resources
+
+- [AI & Machine Learning Tutorial: Basics to Deep Learning](/resources/ai-and-machine-learning)
+- [Mathematics for Machine Learning](/resources/ai-and-machine-learning/mathematics-for-ml)
+- [Python for AI](/resources/ai-and-machine-learning/python-for-ai-essentials)
+- [Transformers and Attention Mechanism](/resources/ai-and-machine-learning/transformers-and-attention)
+
+### From the blog
+
+- [AI & Machine Learning Guides](/blog/topic/ai)
+- [Agent Terminology in AI: A Simple Guide to Understanding AI Agents](/blog/agentic-terminology-in-ai)
+- [How to Teach Kids AI at Home: A Safe 2026 Parent Guide](/blog/how-to-teach-kids-ai-at-home)
+- [10 Safe AI Tools Your Child Should Be Using for Homework in 2026](/blog/safe-ai-tools-for-kids-homework-2025)
+
+### Start here
+
+- [Try a free trial class with a Modern Age Coders mentor](/free-trial)
+- [About Modern Age Coders, teaching since 2020](/about)
+
 ---
 
 *Canonical: https://learn.modernagecoders.com/how-llms-actually-work*

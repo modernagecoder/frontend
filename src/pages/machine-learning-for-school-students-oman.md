@@ -328,6 +328,46 @@ Read first if you prefer: the [academy hub for Oman](/ai-and-python-academy-oman
 
 There is no centre anywhere in Oman. Every session is a live video call taught from India, and the number above rings in India.
 
+## Keep exploring Modern Age Coders
+
+### Coding classes in nearby places
+
+- [Coding Classes in Yanqul](/coding-classes-in-yanqul)
+- [Coding Classes in Wadi Bani Khalid](/coding-classes-in-wadi-bani-khalid)
+- [Coding Classes in Wadi Al Maawil](/coding-classes-in-wadi-al-maawil)
+- [AI and Machine Learning Classes in Muscat](/ai-and-machine-learning-classes-in-muscat)
+- [Coding Classes in Thumrait](/coding-classes-in-thumrait)
+- [AI & Machine Learning Classes in Oman](/ai-and-machine-learning-classes-in-oman)
+- [Coding Classes in Al Kamil Wal Wafi](/coding-classes-in-al-kamil-wal-wafi)
+- [Coding Classes in Al Hamra](/coding-classes-in-al-hamra)
+- [Coding Classes in Al Buraimi](/coding-classes-in-al-buraimi)
+
+### Learn more
+
+- [Summer Research Programs in Coding and AI](/summer-research-programs-coding)
+- [AI Projects for High School Students](/ai-projects-for-high-school-students)
+- [AI Literacy for Students](/ai-literacy-for-students)
+- [AI Tool Age Limits: What Your Child Can Actually Use](/ai-tools-age-guide)
+
+### Free resources
+
+- [AI & Machine Learning Tutorial: Basics to Deep Learning](/resources/ai-and-machine-learning)
+- [Logistic Regression and Classification](/resources/ai-and-machine-learning/logistic-regression-and-classification)
+- [Natural Language Processing (NLP) Fundamentals](/resources/ai-and-machine-learning/natural-language-processing)
+- [Support Vector Machines (SVM)](/resources/ai-and-machine-learning/support-vector-machines)
+
+### From the blog
+
+- [AI & Machine Learning Guides](/blog/topic/ai)
+- [Best AI Coding Tools for Students in 2026](/blog/best-ai-coding-tools-for-students-2026)
+- [What is Vibe Coding? The Ultimate Deep-Dive Guide to AI-Powered](/blog/what-is-vibe-coding-future-of-software-development)
+- [What is AI? Complete Beginner's Guide: How to Start, Which Languages](/blog/what-is-ai-complete-beginners-guide-how-to-start)
+
+### Start here
+
+- [Browse every live course at Modern Age Coders](/courses)
+- [Try a free trial class with a Modern Age Coders mentor](/free-trial)
+
 [Chat with us](https://wa.me/919123366161?text=Hi%2C%20I'm%20interested%20in%20learning%20more%20about%20your%20courses!)
 
 ---

@@ -488,6 +488,50 @@ Rather read first? The [full catalogue](/courses), [how we teach](/how-we-teach)
 
 WhatsApp reaches us fastest from Oman and costs nothing to use. The number is Indian, not an Oman office; we hold no premises in the country.
 
+## Keep exploring Modern Age Coders
+
+### Coding classes in nearby places
+
+- [Coding Classes in Ad Dakhiliyah](/coding-classes-in-ad-dakhiliyah)
+- [AI and Machine Learning Classes in Muscat](/ai-and-machine-learning-classes-in-muscat)
+- [Coding Classes in Adh Dhahirah](/coding-classes-in-adh-dhahirah)
+- [Coding Classes in Al Amarat](/coding-classes-in-al-amarat)
+- [Coding Classes in Al Awabi](/coding-classes-in-al-awabi)
+- [Coding Classes in Al Batinah North](/coding-classes-in-al-batinah-north)
+- [Coding Classes in Saham](/coding-classes-in-saham)
+- [Coding Classes in Mirbat](/coding-classes-in-mirbat)
+- [Coding Classes in Liwa](/coding-classes-in-liwa)
+- [Coding Classes in Dhofar](/coding-classes-in-dhofar)
+- [Coding Classes in Dima Wa Attayeen](/coding-classes-in-dima-wa-attayeen)
+- [Natural Language Processing (NLP) Fundamentals Practice](/resources/ai-and-machine-learning/natural-language-processing/practice)
+- [Strings in Python Practice](/resources/python/strings-in-python/practice)
+
+### Learn more
+
+- [Master AI, ML, Python & Java: Go Deeper](/master-ai-ml-python-java)
+- [Python for Machine Learning](/python-for-machine-learning)
+- [Coding for Class 5: Python, Scratch & AI Tools for 10 Year Olds](/coding-for-class-5)
+- [Coding for Class 6: Python, HTML/CSS & AI Projects Matched to](/coding-for-class-6)
+
+### Free resources
+
+- [Python Tutorial for Beginners: Complete Guide](/resources/python)
+- [Exception Handling in Python](/resources/python/exception-handling)
+- [Feature Engineering and Feature Selection](/resources/ai-and-machine-learning/feature-engineering)
+- [Lists in Python](/resources/python/lists-in-python)
+
+### From the blog
+
+- [Python Tutorials & Guides](/blog/topic/python)
+- [How to Read and Write Files in Python (The Complete Guide)](/blog/how-to-read-and-write-files-in-python)
+- [Learn Python Step by Step: The Free Tutorial Library](/blog/learn-python-step-by-step)
+- [Learn Python for Beginners: Complete Step-by-Step Guide (2026)](/blog/python-for-beginners)
+
+### Start here
+
+- [Book a free demo class with Modern Age Coders](/book-demo)
+- [Real projects built by Modern Age Coders students](/student-labs)
+
 [Chat with us](https://wa.me/919123366161?text=Hi%2C%20I'm%20interested%20in%20learning%20more%20about%20your%20courses!)
 
 ---

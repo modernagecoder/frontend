@@ -336,7 +336,43 @@ Continue
 
 Read the [Muscat coding hub](/coding-classes-in-muscat) for city-level context and the [Oman coding hub](/coding-classes-in-oman) for the national offer. The two nearby district lessons are [Al Hail](/coding-classes-in-al-hail), which audits survivorship, and [Mawaleh](/coding-classes-in-mawaleh), which corrects a median of medians.
 
-Start with the free class[Close with WhatsApp](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20want%20a%20free%20coding%20class%20for%20a%20learner%20in%20Al%20Khoudh.)Free Al Khoudh class[Call +91 91233 66161](tel:+919123366161)[Chat with us](https://wa.me/919123366161?text=Hi%2C%20I'm%20interested%20in%20learning%20more%20about%20your%20courses!)
+Start with the free class[Close with WhatsApp](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20want%20a%20free%20coding%20class%20for%20a%20learner%20in%20Al%20Khoudh.)Free Al Khoudh class[Call +91 91233 66161](tel:+919123366161)
+
+## Keep exploring Modern Age Coders
+
+### Coding classes in nearby places
+
+- [Coding Classes in Al Khuwair](/coding-classes-in-al-khuwair)
+- [Coding Classes in Al Kamil Wal Wafi](/coding-classes-in-al-kamil-wal-wafi)
+- [Coding Classes in Al Mazyunah](/coding-classes-in-al-mazyunah)
+- [Coding Classes in Al Hamra](/coding-classes-in-al-hamra)
+- [Coding Classes in Al Mudhaibi](/coding-classes-in-al-mudhaibi)
+- [Coding Classes in Al Musanaah](/coding-classes-in-al-musanaah)
+- [Coding Classes in Khasab](/coding-classes-in-khasab)
+- [Coding Classes in Bidiyah](/coding-classes-in-bidiyah)
+- [Coding Classes in Bidbid](/coding-classes-in-bidbid)
+- [Coding Classes in Ibra](/coding-classes-in-ibra)
+- [Coding Classes in Mahdah](/coding-classes-in-mahdah)
+
+### Free resources
+
+- [AI & Machine Learning Tutorial: Basics to Deep Learning](/resources/ai-and-machine-learning)
+- [Installing Java and Setting Up Your Environment](/resources/java/installing-java-and-setup)
+- [Logistic Regression and Classification](/resources/ai-and-machine-learning/logistic-regression-and-classification)
+- [OOP Basics - Classes, Objects, and Constructors | Java Tutorial](/resources/java/object-oriented-programming-basics)
+
+### From the blog
+
+- [Coding Class Fees in India 2026: What to Pay](/blog/coding-class-fees-india-2026)
+- [Java for Kids: Complete Kids Guide to Learning Java Programming in 2026](/blog/java-for-kids-complete-guide-learning-programming-2026)
+- [How College Students Can Build Real-World Projects While Studying](/blog/how-college-students-build-real-world-projects-while-studying)
+
+### Start here
+
+- [Real projects built by Modern Age Coders students](/student-labs)
+- [Browse every live course at Modern Age Coders](/courses)
+
+[Chat with us](https://wa.me/919123366161?text=Hi%2C%20I'm%20interested%20in%20learning%20more%20about%20your%20courses!)
 
 ---
 

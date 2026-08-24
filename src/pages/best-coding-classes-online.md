@@ -424,7 +424,51 @@ Our classes are 100% live with expert instructors, not pre-recorded videos or st
 | Girls-Only Program | Yes | No |
 | Free Demo | Yes | Sometimes |
 
-[Book a Free Demo Class](/book-demo)[![Modern Age Coders Logo](/images/logo.svg)Modern Age Coders](/)
+[Book a Free Demo Class](/book-demo)
+
+## Keep exploring Modern Age Coders
+
+### Related courses and guides
+
+- [Best Online Coding Classes for Kids 2026: Ranked Honestly](/best-online-coding-classes-for-kids-2026)
+- [Best Age to Start Coding? The Honest Age-by-Age Answer](/best-age-to-start-coding)
+- [Complete Bootstrap 5.3 Guide](/bootstrap)
+- [Cambridge A Level Computer Science 9618 Online Classes](/cambridge-a-level-computer-science-online-classes)
+- [AP Computer Science Principles Online Coaching](/ap-computer-science-principles-online-coaching)
+- [Canadian Computing Competition Prep](/canadian-computing-competition-ccc-prep)
+- [Free Trial Class](/free-trial)
+- [Learn Coding & Math Online](/course)
+- [Coding Classes for DPS Saket Students](/coding-classes-for-dps-international-saket-delhi)
+- [Best Coding Classes in Guwahati](/best-coding-class-in-guwahati)
+- [Online Coding Classes for Kids Ages 6-12](/category/kids)
+
+### Learn more
+
+- [Coding for 8 Year Olds: Scratch](/coding-for-8-year-olds)
+- [Coding for 10 Year Olds](/coding-for-10-year-olds)
+- [Coding for 9 Year Olds: Scratch, Python Basics & Game Projects for Kids](/coding-for-9-year-olds)
+- [Coding Classes in India](/coding-classes-in-india)
+
+### Free resources
+
+- [AI & Machine Learning Tutorial: Basics to Deep Learning](/resources/ai-and-machine-learning)
+- [Conditional Statements in Java (if, else, switch)](/resources/java/conditional-statements)
+- [Feature Engineering and Feature Selection](/resources/ai-and-machine-learning/feature-engineering)
+- [Introduction to Java](/resources/java/introduction-to-java)
+
+### From the blog
+
+- [Coding for Kids: Guides for Parents](/blog/topic/kids-coding)
+- [Scratch vs Python: Which is Better for Young Learners?](/blog/scratch-vs-python-which-better-young-learners)
+- [Best WhiteHat Jr Alternative in 2026](/blog/whitehat-jr-alternative)
+- [What is Coding for Kids? A Parent's Complete Guide to Getting](/blog/coding-for-kids-parents-complete-guide-2026)
+
+### Start here
+
+- [How Modern Age Coders teaches, small batches and real projects](/how-we-teach)
+- [What Modern Age Coders families say](/love)
+
+[![Modern Age Coders Logo](/images/logo.svg)Modern Age Coders](/)
 
 India's most trusted live online coding institute for kids, teens & adults.
 

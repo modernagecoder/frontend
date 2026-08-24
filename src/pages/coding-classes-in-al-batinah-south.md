@@ -453,7 +453,41 @@ Share the learner's age or grade, wilayat and intended skill. Modern Age Coders 
 
 Use the national page for shared service facts, then continue to Barka or the adjoining northern governorate.
 
-[**Oman coding classes**National course, fee and service guide](/coding-classes-in-oman)[**Barka coding classes**Sorting complete dates at city scale](/coding-classes-in-barka)[**Al Batinah North coding classes**Simpson's-paradox analysis](/coding-classes-in-al-batinah-north)Free regional class[Call +91 91233 66161](tel:+919123366161)[Chat with us](https://wa.me/919123366161?text=Hi%2C%20I'm%20interested%20in%20learning%20more%20about%20your%20courses!)
+[**Oman coding classes**National course, fee and service guide](/coding-classes-in-oman)[**Barka coding classes**Sorting complete dates at city scale](/coding-classes-in-barka)[**Al Batinah North coding classes**Simpson's-paradox analysis](/coding-classes-in-al-batinah-north)[**Al Awabi coding classes**A straight line between two endpoints that are both correct](/coding-classes-in-al-awabi)[**Al Musanaah coding classes**A missing value inside an aggregate](/coding-classes-in-al-musanaah)[**Nakhal coding classes**A total that includes its own source](/coding-classes-in-nakhal)[**Rustaq coding classes**Modular arithmetic on a repeating cycle](/coding-classes-in-rustaq)[**Wadi Al Maawil coding classes**The famous example mistaken for the typical one](/coding-classes-in-wadi-al-maawil)Free regional class[Call +91 91233 66161](tel:+919123366161)
+
+## Keep exploring Modern Age Coders
+
+### Coding classes in nearby places
+
+- [Coding Classes in Al Buraimi](/coding-classes-in-al-buraimi)
+- [Coding Classes in Al Ghubrah](/coding-classes-in-al-ghubrah)
+- [Coding Classes in Al Hail](/coding-classes-in-al-hail)
+- [Coding Classes in Al Amarat](/coding-classes-in-al-amarat)
+- [Coding Classes in Al Hamra](/coding-classes-in-al-hamra)
+- [Coding Classes in Adh Dhahirah](/coding-classes-in-adh-dhahirah)
+- [Coding Classes in Taqah](/coding-classes-in-taqah)
+- [Coding Classes in Shinas](/coding-classes-in-shinas)
+- [Coding Classes in Shalim](/coding-classes-in-shalim)
+
+### Free resources
+
+- [Java Tutorial for Beginners to Advanced](/resources/java)
+- [SQL Interview Masterclass](/resources/sql/sql-interview-masterclass)
+- [Taking Input with Scanner](/resources/java/taking-input-in-java)
+- [Arrays in Java](/resources/java/arrays-in-java)
+
+### From the blog
+
+- [Coding Class Fees in India 2026: What to Pay](/blog/coding-class-fees-india-2026)
+- [Introduction: What is Blockly for Kids?](/blog/what-is-blockly-for-kids)
+- [The Role of Mathematics in Programming and Logical Problem Solving](/blog/role-of-mathematics-programming-logical-problem-solving)
+
+### Start here
+
+- [What Modern Age Coders families say](/love)
+- [Book a free demo class with Modern Age Coders](/book-demo)
+
+[Chat with us](https://wa.me/919123366161?text=Hi%2C%20I'm%20interested%20in%20learning%20more%20about%20your%20courses!)
 
 ---
 

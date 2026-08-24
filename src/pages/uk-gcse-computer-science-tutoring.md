@@ -584,6 +584,39 @@ Rather read first? [The full course syllabus](/courses/gcse-computer-science-cou
 
 Every class is live, one to one or a batch of five to eight, taught from India at a time arranged with you. No recordings are sold in place of teaching. The form starts a conversation, not an enrolment.
 
+## Keep exploring Modern Age Coders
+
+### More maths tuition
+
+- [UKMT Maths Challenge Tutoring](/ukmt-maths-challenge-tutoring)
+- [Online Maths Tuition for Teens in the UK](/online-maths-tuition-for-teens-in-uk)
+- [A-Level Maths Tuition Online](/a-level-maths-tuition-online)
+- [Online Maths Tuition for Kids in the UK](/online-maths-tuition-for-kids-in-uk)
+- [Online Maths Tuition for College & Sixth Form in the UK](/online-maths-tuition-for-college-students-in-uk)
+- [Coding & Maths Classes for BHS Mukundapur Students Kolkata](/coding-and-maths-for-birla-high-school-mukundapur-kolkata)
+- [Common Entrance Maths Tuition](/common-entrance-maths-tuition)
+- [Online Maths Classes for Adults in the UK](/online-maths-classes-for-adults-in-uk)
+- [KS2 Maths Tuition Online](/ks2-maths-tuition-online)
+
+### Learn more
+
+- [GCSE Maths Tutor in the UAE](/gcse-maths-tutor-uae)
+- [Maths Tuition for Teens in the UAE](/maths-tuition-for-teens-uae)
+- [The Course Atlas: Every Coding, AI & Mathematics Course (Kids, Teens](/course-atlas)
+- [CBSE Maths Tutor in the UAE](/cbse-maths-tutor-uae)
+
+### From the blog
+
+- [Maths Learning Guides](/blog/topic/maths)
+- [20 Python Programs for CBSE Class 12 Board Exam (083)](/blog/python-programs-for-cbse-class-12)
+- [IGCSE 0478 Pseudocode: The Rules Examiners Mark](/blog/igcse-computer-science-0478-pseudocode-guide)
+- [How Coding and Mathematics Work Together in Engineering & Science](/blog/coding-mathematics-engineering-science)
+
+### Start here
+
+- [Try a free trial class with a Modern Age Coders mentor](/free-trial)
+- [About Modern Age Coders, teaching since 2020](/about)
+
 ---
 
 *Canonical: https://learn.modernagecoders.com/uk-gcse-computer-science-tutoring*

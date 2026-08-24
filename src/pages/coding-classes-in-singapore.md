@@ -855,7 +855,49 @@ Modern Age Coders teaches students worldwide over live video, in small 4–8 bat
 - [Coding Classes in the United Kingdom](/coding-classes-in-united-kingdom)
 - [Coding Classes in the United States](/coding-classes-in-united-states)
 
-[Browse all courses →](/courses)[Book a free demo](/book-demo)[Coding Classes in India](/coding-classes-in-india)[Chat with us](https://wa.me/919123366161?text=Hi%2C%20I'm%20interested%20in%20learning%20more%20about%20your%20courses!)
+[Browse all courses →](/courses)[Book a free demo](/book-demo)[Coding Classes in India](/coding-classes-in-india)
+
+## Keep exploring Modern Age Coders
+
+### Coding classes in nearby places
+
+- [Coding Classes in Temburong and Bangar](/coding-classes-in-temburong)
+- [Coding Classes in Seria, Brunei](/coding-classes-in-seria)
+- [Coding Classes in Tutong](/coding-classes-in-tutong)
+- [Coding Classes in Liang and Lumut, Brunei](/coding-classes-in-liang)
+- [AI and Machine Learning Classes in Australia](/ai-and-machine-learning-classes-in-australia)
+- [Coding Classes in Kuala Belait and Seria](/coding-classes-in-kuala-belait)
+- [AI and Machine Learning Classes in Brunei](/ai-and-machine-learning-classes-in-brunei)
+- [Online Maths Tuition Singapore](/online-maths-tuition-singapore)
+- [Online Coding Classes in Brunei](/coding-classes-in-brunei)
+
+### Learn more
+
+- [Coding for 12 Year Olds: Python, Web Dev, App Building & AI for Class 7](/coding-for-12-year-olds)
+- [How to Build AI Models](/how-to-build-ai-models)
+- [Deep Learning with TensorFlow & PyTorch](/deep-learning-with-tensorflow-and-pytorch)
+- [Best AI & Machine Learning Course in India](/best-ai-and-machine-learning-course-in-india)
+
+### Free resources
+
+- [AI & Machine Learning Tutorial: Basics to Deep Learning](/resources/ai-and-machine-learning)
+- [MLOps and Model Deployment](/resources/ai-and-machine-learning/ml-ops-and-model-deployment)
+- [Recurrent Neural Networks (RNN) and LSTM](/resources/ai-and-machine-learning/recurrent-neural-networks)
+- [Unsupervised Learning](/resources/ai-and-machine-learning/unsupervised-learning-clustering)
+
+### From the blog
+
+- [AI & Machine Learning Guides](/blog/topic/ai)
+- [What is Vibe Coding? The Ultimate Deep-Dive Guide to AI-Powered](/blog/what-is-vibe-coding-future-of-software-development)
+- [Data Science, AI, and Math: Skills Every Tech Professional Must Learn](/blog/data-science-ai-math-skills-professionals)
+- [What Type of Data is Generative AI Most Suitable For? A Complete Guide](/blog/what-type-of-data-is-generative-ai-most-suitable-for)
+
+### Start here
+
+- [How Modern Age Coders teaches, small batches and real projects](/how-we-teach)
+- [What Modern Age Coders families say](/love)
+
+[Chat with us](https://wa.me/919123366161?text=Hi%2C%20I'm%20interested%20in%20learning%20more%20about%20your%20courses!)
 
 ---
 

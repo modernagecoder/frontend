@@ -261,6 +261,44 @@ Prefer WhatsApp? [Write to us there](https://wa.me/919123366161?text=Hi,%20I%20w
 
 4.9 rating across 547+ Google reviews
 
+## Keep exploring Modern Age Coders
+
+### Coding classes in nearby places
+
+- [Online Coding Classes in Kuwait](/coding-classes-in-kuwait)
+- [Coding Classes in Dubai](/coding-classes-in-dubai)
+- [Coding Classes in Qatar](/coding-classes-in-qatar)
+- [Coding Classes in Doha](/coding-classes-in-doha)
+- [Online Coding Classes in Bahrain](/coding-classes-in-bahrain)
+- [Coding Classes in Sharjah](/coding-classes-in-sharjah)
+- [AI & Machine Learning Classes in Kuwait City](/ai-and-machine-learning-classes-in-kuwait-city)
+- [Python Classes in Saudi Arabia](/python-classes-in-saudi-arabia)
+- [Python Classes in Qatar](/python-classes-in-qatar)
+- [Coding Classes in Mirbat](/coding-classes-in-mirbat)
+
+### Learn more
+
+- [Coding Classes for Kids in Doha](/coding-classes-for-kids-in-doha)
+- [Online Coding Classes for Kids in the UK](/online-coding-classes-for-kids-uk)
+
+### Free resources
+
+- [Java Tutorial for Beginners to Advanced](/resources/java)
+- [Exception Handling in Java](/resources/java/exception-handling)
+- [Introduction to SQL and Databases](/resources/sql/introduction-to-sql-and-databases)
+- [Loop Control and Pattern Printing](/resources/java/loop-control-and-patterns)
+
+### From the blog
+
+- [Fibonacci Series in Python: 7 Ways to Write It](/blog/fibonacci-series-in-python)
+- [Python Lambda Functions: When to Use Them, 10 Examples](/blog/python-lambda-functions)
+- [Python List Comprehension: 15 Examples, Simple to Advanced](/blog/python-list-comprehension-explained)
+
+### Start here
+
+- [About Modern Age Coders, teaching since 2020](/about)
+- [Modern Age Coders pricing, one honest price per plan](/pricing)
+
 [Chat with us](https://wa.me/919123366161?text=Hi%2C%20I'm%20interested%20in%20learning%20more%20about%20your%20courses!)
 
 ---

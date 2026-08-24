@@ -280,6 +280,39 @@ Rather read first? [The twelve-month track](/python-and-ai-track-for-students-ba
 
 We hold no premises anywhere in the Bahamas. Every session is a live video call taught from India, and the number above rings in India.
 
+## Keep exploring Modern Age Coders
+
+### Coding classes in nearby places
+
+- [Coding and AI Alongside BJC and BGCSE in The Bahamas](/coding-and-ai-alongside-bjc-and-bgcse-bahamas)
+- [The 12-Month Python and AI Track for Bahamian Students](/python-and-ai-track-for-students-bahamas)
+- [GitHub Portfolios for Bahamian Students](/github-portfolio-for-students-bahamas)
+- [One to One Coding Classes in Nassau](/one-to-one-coding-classes-in-nassau)
+
+### Learn more
+
+- [Online Coding Summer Camp](/online-coding-summer-camp)
+- [Hackathon for Kids: Free Event + 12-Week Prep (Ages 8-12)](/courses/hackathon-prep-for-kids-coding-innovation-ai-projects-course)
+- [Modern Age Coders vs Tynker: App or Live Teaching? (2026)](/modern-age-coders-vs-tynker)
+
+### Free resources
+
+- [HTML & CSS Tutorial: Build Websites from Scratch](/resources/html-and-css)
+- [Conditional Statements (if, else, switch)](/resources/cpp/conditional-statements)
+- [Forms, Inputs, and Form Validation](/resources/html-and-css/forms-and-inputs)
+- [Introduction to C++](/resources/cpp/introduction-to-cpp)
+
+### From the blog
+
+- [How to Get Better at Maths: 8 Methods That Actually Work](/blog/how-to-get-better-at-maths)
+- [Advantages of Functions in Python: Why Every Coder Should Use Them](/blog/advantages-functions-python-why-every-coder-should-use-them)
+- [Group vs 1-on-1 Coding Classes: Which Is Better?](/blog/group-vs-1-on-1-coding-classes)
+
+### Start here
+
+- [What Modern Age Coders families say](/love)
+- [Book a free demo class with Modern Age Coders](/book-demo)
+
 [Chat with us](https://wa.me/919123366161?text=Hi%2C%20I'm%20interested%20in%20learning%20more%20about%20your%20courses!)
 
 ---

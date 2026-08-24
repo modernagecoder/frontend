@@ -328,6 +328,48 @@ Read first if you prefer: the [academy hub for Oman](/ai-and-python-academy-oman
 
 There is no centre anywhere in Oman. Every session is a live video call taught from India, and the number above rings in India.
 
+## Keep exploring Modern Age Coders
+
+### Coding classes in nearby places
+
+- [AI & Machine Learning Classes in Oman](/ai-and-machine-learning-classes-in-oman)
+- [AI and Machine Learning Classes in Muscat](/ai-and-machine-learning-classes-in-muscat)
+- [Vibe Coding vs Building AI: A Guide for Parents in Oman](/vibe-coding-vs-building-ai-oman)
+- [Coding Classes in Ad Dakhiliyah](/coding-classes-in-ad-dakhiliyah)
+- [Coding Classes in Adh Dhahirah](/coding-classes-in-adh-dhahirah)
+- [Coding Classes in Yanqul](/coding-classes-in-yanqul)
+- [Coding Classes in Al Khoudh](/coding-classes-in-al-khoudh)
+- [Coding Classes in Wadi Bani Khalid](/coding-classes-in-wadi-bani-khalid)
+- [Coding Classes in Saham](/coding-classes-in-saham)
+- [Coding Classes in Adam](/coding-classes-in-adam)
+- [Coding Classes in Azaiba](/coding-classes-in-azaiba)
+
+### Learn more
+
+- [Vibe Coding for Teens: Python, Web Dev & AI (Ages 13-17)](/courses/vibe-coding-for-teens-python-web-ai-projects-course)
+- [Python for Class 6: CBSE Code 166 Python, Turtle, First AI (Age 11)](/python-for-class-6)
+- [Coding for Class 10: Board-Safe CS Prep, Python, Java, AI & DSA](/coding-for-class-10)
+- [Coding for Class 11: CS Stream, Python/Pandas, MERN, AI/ML & DSA in C++](/coding-for-class-11)
+
+### Free resources
+
+- [Python Tutorial for Beginners: Complete Guide](/resources/python)
+- [Lists in Python](/resources/python/lists-in-python)
+- [Mathematics for Machine Learning](/resources/ai-and-machine-learning/mathematics-for-ml)
+- [Sets in Python](/resources/python/sets-in-python)
+
+### From the blog
+
+- [Python Tutorials & Guides](/blog/topic/python)
+- [30+ Python Basic Programs for Beginners to Practice in 2026](/blog/python-basic-programs-for-beginners)
+- [File Organization in Python: A Beginner's Guide to Managing Your](/blog/file-organization-in-python)
+- [How to Build a Menu Driven Program in Python (Step-by-Step Guide)](/blog/how-to-build-menu-driven-program-in-python)
+
+### Start here
+
+- [Book a free demo class with Modern Age Coders](/book-demo)
+- [Real projects built by Modern Age Coders students](/student-labs)
+
 [Chat with us](https://wa.me/919123366161?text=Hi%2C%20I'm%20interested%20in%20learning%20more%20about%20your%20courses!)
 
 ---

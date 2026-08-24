@@ -338,6 +338,42 @@ The [Oman coding hub](/coding-classes-in-oman) covers national delivery and fees
 
 Book the free class[Close with WhatsApp](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20want%20a%20free%20coding%20class%20for%20a%20learner%20in%20Al%20Khaburah.)Free Al Khaburah class[Call +91 91233 66161](tel:+919123366161)
 
+## Keep exploring Modern Age Coders
+
+### Coding classes in nearby places
+
+- [Online Coding Classes in Al Mouj](/coding-classes-in-al-mouj)
+- [Coding Classes in Adam](/coding-classes-in-adam)
+- [Coding Classes in Al Qabil](/coding-classes-in-al-qabil)
+- [Vibe Coding Projects for Students](/vibe-coding-projects-for-students)
+- [Coding Classes in Andhra Pradesh](/coding-classes-in-andhra-pradesh)
+- [Python Projects for Kids: 20+ Finishable Python Projects (Ages 8 to 15)](/python-projects-for-kids)
+- [Coding Classes in As Suwaiq](/coding-classes-in-as-suwaiq)
+- [Coding Classes in Jalan Bani Bu Hassan](/coding-classes-in-jalan-bani-bu-hassan)
+- [Coding Classes in Goa](/coding-classes-in-goa)
+
+### Learn more
+
+- [Python for 10 Year Olds: Real Python Programs, Turtle Art & Mini Games](/python-for-10-year-olds)
+
+### Free resources
+
+- [HTML & CSS Tutorial: Build Websites from Scratch](/resources/html-and-css)
+- [Loops (for, while, do-while) and Patterns](/resources/cpp/loops-in-cpp)
+- [Project: Build an Animated Portfolio Website](/resources/html-and-css/project-animated-portfolio-website)
+- [STL Algorithms and Iterators](/resources/cpp/stl-algorithms-and-iterators)
+
+### From the blog
+
+- [Learn Python for Beginners: Complete Step-by-Step Guide (2026)](/blog/python-for-beginners)
+- [Python vs JavaScript: Which Should You Learn First?](/blog/python-vs-javascript-which-to-learn-first)
+- [Fibonacci Series in Python: 7 Ways to Write It](/blog/fibonacci-series-in-python)
+
+### Start here
+
+- [How Modern Age Coders teaches, small batches and real projects](/how-we-teach)
+- [What Modern Age Coders families say](/love)
+
 ---
 
 *Canonical: https://learn.modernagecoders.com/coding-classes-in-al-khaburah*

@@ -239,6 +239,46 @@ We’ll call within the day. For urgent, WhatsApp +91 91233 66161.
 
 [Chat with us](https://wa.me/919123366161?text=Hi%2C%20I'm%20interested%20in%20learning%20more%20about%20your%20courses!)
 
+## Keep exploring Modern Age Coders
+
+### Related courses and guides
+
+- [AI Agents Course](/ai-agents-course)
+- [Should My Child Learn AI? An Honest Decision Guide](/should-my-child-learn-ai)
+- [AI Agents Explained: How to Actually Build One That Doesn't](/ai-agents-explained)
+- [AI Science Fair Project Ideas That Follow the Actual Rules](/science-fair-project-ideas-ai)
+- [AI Agents for Teens](/ai-agents-for-teens)
+- [Online AI & Machine Learning Classes](/online-ai-and-machine-learning-classes)
+- [Deep Learning with TensorFlow & PyTorch](/deep-learning-with-tensorflow-and-pytorch)
+- [AI Projects for High School Students](/ai-projects-for-high-school-students)
+- [Inside Neural Networks: How Deep Learning Really Works](/inside-neural-networks)
+
+### Learn more
+
+- [AI Classes in Dubai](/ai-classes-in-dubai)
+- [AI Classes in Saudi Arabia](/ai-classes-in-saudi-arabia)
+- [AI Agents with Microsoft Copilot Studio for College Students](/courses/ai-agents-with-microsoft-copilot-studio-course-for-college-students)
+- [AI Literacy for Kids (Ages 8 to 14): Understand AI, Do Not Just Use It](/courses/ai-literacy-for-kids-course)
+
+### Free resources
+
+- [AI & Machine Learning Tutorial: Basics to Deep Learning](/resources/ai-and-machine-learning)
+- [Reinforcement Learning Basics](/resources/ai-and-machine-learning/reinforcement-learning-basics)
+- [AI Ethics, Responsible AI, and Career Roadmap](/resources/ai-and-machine-learning/ai-ethics-and-career-guide)
+- [Deep Learning with TensorFlow and Keras](/resources/ai-and-machine-learning/deep-learning-with-tensorflow-keras)
+
+### From the blog
+
+- [AI & Machine Learning Guides](/blog/topic/ai)
+- [How AI and Automation Are Transforming Small and Medium Businesses](/blog/ai-automation-transforming-small-medium-businesses)
+- [How Data Analytics and Math Help Businesses Make Better Decisions](/blog/data-analytics-math-help-businesses-better-decisions)
+- [Data Science, AI, and Math: Skills Every Tech Professional Must Learn](/blog/data-science-ai-math-skills-professionals)
+
+### Start here
+
+- [What Modern Age Coders families say](/love)
+- [Book a free demo class with Modern Age Coders](/book-demo)
+
 ---
 
 *Canonical: https://learn.modernagecoders.com/ai-agents-and-automation*

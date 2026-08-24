@@ -338,6 +338,39 @@ The [Oman coding hub](/coding-classes-in-oman) covers national delivery and fees
 
 Book the free class[Close with WhatsApp](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20want%20a%20free%20coding%20class%20for%20a%20learner%20in%20Jalan%20Bani%20Bu%20Ali.)Free Jalan Bani Bu Ali class[Call +91 91233 66161](tel:+919123366161)
 
+## Keep exploring Modern Age Coders
+
+### Coding classes in nearby places
+
+- [Coding Classes in Jalan Bani Bu Hassan](/coding-classes-in-jalan-bani-bu-hassan)
+- [Coding Classes in India](/coding-classes-in-india)
+- [Coding Classes in Jharkhand](/coding-classes-in-jharkhand)
+- [Coding & Maths Classes near Ideal Niketan, Tangra](/coding-classes-in-ideal-niketan-tangra)
+- [Coding Classes in Karnataka](/coding-classes-in-karnataka)
+- [Coding Classes in Himachal Pradesh](/coding-classes-in-himachal-pradesh)
+- [Coding Classes in Adam](/coding-classes-in-adam)
+- [Coding & Maths Classes near Sugam Habitat](/coding-classes-in-sugam-habitat)
+- [Coding & Maths Classes near South City](/coding-classes-in-south-city)
+- [Coding Classes in Haima](/coding-classes-in-haima)
+
+### Free resources
+
+- [Java Tutorial for Beginners to Advanced](/resources/java)
+- [Transactions and ACID Properties](/resources/sql/transactions-and-acid)
+- [Aggregate Functions (COUNT, SUM, AVG, MIN, MAX)](/resources/sql/aggregate-functions)
+- [Introduction to Design Patterns](/resources/java/design-patterns-introduction)
+
+### From the blog
+
+- [Learn Python for Beginners: Complete Step-by-Step Guide (2026)](/blog/python-for-beginners)
+- [Python vs JavaScript: Which Should You Learn First?](/blog/python-vs-javascript-which-to-learn-first)
+- [Scratch vs Python: Which is Better for Young Learners?](/blog/scratch-vs-python-which-better-young-learners)
+
+### Start here
+
+- [How Modern Age Coders teaches, small batches and real projects](/how-we-teach)
+- [What Modern Age Coders families say](/love)
+
 ---
 
 *Canonical: https://learn.modernagecoders.com/coding-classes-in-jalan-bani-bu-ali*

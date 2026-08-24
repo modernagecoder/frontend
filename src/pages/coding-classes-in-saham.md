@@ -339,6 +339,38 @@ The [Oman coding hub](/coding-classes-in-oman) sets out national delivery and fe
 
 Book the free class[Close with WhatsApp](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20want%20a%20free%20coding%20class%20for%20a%20learner%20in%20Saham.)Free Saham class[Call +91 91233 66161](tel:+919123366161)
 
+## Keep exploring Modern Age Coders
+
+### Coding classes in nearby places
+
+- [Coding Classes in Salalah](/coding-classes-in-salalah)
+- [Coding Classes in Rustaq](/coding-classes-in-rustaq)
+- [Coding Classes in Samail](/coding-classes-in-samail)
+- [Online Coding Classes in Qurum](/coding-classes-in-qurum)
+- [Online Coding Classes in Seeb](/coding-classes-in-seeb)
+- [Coding Classes in Qurayyat](/coding-classes-in-qurayyat)
+- [Coding Classes in Al Khoudh](/coding-classes-in-al-khoudh)
+- [Coding Classes in Al Kamil Wal Wafi](/coding-classes-in-al-kamil-wal-wafi)
+- [Coding Classes in Al Hamra](/coding-classes-in-al-hamra)
+
+### Free resources
+
+- [Python Tutorial for Beginners: Complete Guide](/resources/python)
+- [Local Storage and Session Storage](/resources/javascript/local-storage-and-session-storage)
+- [Strings in Python](/resources/python/strings-in-python)
+- [Variables and Data Types](/resources/javascript/variables-and-data-types)
+
+### From the blog
+
+- [Learn Python for Beginners: Complete Step-by-Step Guide (2026)](/blog/python-for-beginners)
+- [Python vs JavaScript: Which Should You Learn First?](/blog/python-vs-javascript-which-to-learn-first)
+- [File Organization in Python: A Beginner's Guide to Managing Your](/blog/file-organization-in-python)
+
+### Start here
+
+- [How Modern Age Coders teaches, small batches and real projects](/how-we-teach)
+- [What Modern Age Coders families say](/love)
+
 ---
 
 *Canonical: https://learn.modernagecoders.com/coding-classes-in-saham*

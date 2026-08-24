@@ -338,6 +338,44 @@ The [Oman coding hub](/coding-classes-in-oman) covers national delivery and fees
 
 Book the free class[Close with WhatsApp](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20want%20a%20free%20coding%20class%20for%20a%20learner%20in%20Bahla.)Free Bahla class[Call +91 91233 66161](tel:+919123366161)
 
+## Keep exploring Modern Age Coders
+
+### Coding classes in nearby places
+
+- [Online Coding Classes in Bawshar](/coding-classes-in-bawshar)
+- [Coding Classes in Assam](/coding-classes-in-assam)
+- [Coding Classes in Bihar](/coding-classes-in-bihar)
+- [Coding Classes in As Suwaiq](/coding-classes-in-as-suwaiq)
+- [Coding & Maths Classes near Calcutta Riverside](/coding-classes-in-calcutta-riverside)
+- [Coding Classes in Andhra Pradesh](/coding-classes-in-andhra-pradesh)
+- [Coding Classes in Goa](/coding-classes-in-goa)
+- [Coding & Maths Classes in Eden City, Maheshtala](/coding-classes-in-eden-city-maheshtala)
+- [Coding Classes in Madha](/coding-classes-in-madha)
+- [Online Coding Classes in Birmingham](/coding-classes-in-birmingham)
+
+### Learn more
+
+- [Python for 10 Year Olds: Real Python Programs, Turtle Art & Mini Games](/python-for-10-year-olds)
+- [AI Classes for Beginners](/ai-classes-for-beginners)
+
+### Free resources
+
+- [Python Tutorial for Beginners: Complete Guide](/resources/python)
+- [Exception Handling in Python](/resources/python/exception-handling)
+- [DOM Events and Event Listeners](/resources/javascript/dom-events-and-listeners)
+- [Lists in Python](/resources/python/lists-in-python)
+
+### From the blog
+
+- [Learn Python for Beginners: Complete Step-by-Step Guide (2026)](/blog/python-for-beginners)
+- [Python vs JavaScript: Which Should You Learn First?](/blog/python-vs-javascript-which-to-learn-first)
+- [File Organization in Python: A Beginner's Guide to Managing Your](/blog/file-organization-in-python)
+
+### Start here
+
+- [Book a free demo class with Modern Age Coders](/book-demo)
+- [Real projects built by Modern Age Coders students](/student-labs)
+
 ---
 
 *Canonical: https://learn.modernagecoders.com/coding-classes-in-bahla*

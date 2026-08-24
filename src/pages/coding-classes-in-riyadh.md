@@ -257,6 +257,45 @@ If WhatsApp is easier, [send a message](https://wa.me/919123366161?text=Hi,%20I%
 
 4.9 rating across 547+ Google reviews
 
+## Keep exploring Modern Age Coders
+
+### Coding classes in nearby places
+
+- [Coding Classes in Qatar](/coding-classes-in-qatar)
+- [Coding Classes in Sharjah](/coding-classes-in-sharjah)
+- [Online Coding Classes in Kuwait](/coding-classes-in-kuwait)
+- [Online Coding & AI Classes in the UAE](/coding-classes-in-uae)
+- [GCSE Maths Tutor in the UAE](/gcse-maths-tutor-uae)
+- [Coding Classes in Dubai](/coding-classes-in-dubai)
+- [Maths Tutor in Dubai](/maths-tutor-in-dubai)
+- [Maths Tuition for Kids in the UAE](/maths-tuition-for-kids-uae)
+- [AI & Machine Learning Classes in Qatar](/ai-and-machine-learning-classes-in-qatar)
+
+### Learn more
+
+- [Coding Classes for Kids in Doha](/coding-classes-for-kids-in-doha)
+- [Online Coding Classes for Kids in the UK](/online-coding-classes-for-kids-uk)
+- [Homeschool Coding Curriculum](/homeschool-coding-curriculum)
+- [Online Coding Summer Camp](/online-coding-summer-camp)
+
+### Free resources
+
+- [AI & Machine Learning Tutorial: Basics to Deep Learning](/resources/ai-and-machine-learning)
+- [Taking Input with Scanner](/resources/java/taking-input-in-java)
+- [Arrays in Java](/resources/java/arrays-in-java)
+- [Dimensionality Reduction](/resources/ai-and-machine-learning/dimensionality-reduction)
+
+### From the blog
+
+- [Learn Python for Beginners: Complete Step-by-Step Guide (2026)](/blog/python-for-beginners)
+- [Learn Python Step by Step: The Free Tutorial Library](/blog/learn-python-step-by-step)
+- [Why Python is the Most Powerful Skill for Professionals Today](/blog/why-python-most-powerful-skill-professionals-today)
+
+### Start here
+
+- [Modern Age Coders pricing, one honest price per plan](/pricing)
+- [How Modern Age Coders teaches, small batches and real projects](/how-we-teach)
+
 [Chat with us](https://wa.me/919123366161?text=Hi%2C%20I'm%20interested%20in%20learning%20more%20about%20your%20courses!)
 
 ---

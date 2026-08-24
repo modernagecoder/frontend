@@ -681,7 +681,49 @@ Modern Age Coders teaches students worldwide over live video, in small 4–8 bat
 - [Coding Classes in the UAE](/coding-classes-in-uae)
 - [Coding Classes in the United Kingdom](/coding-classes-in-united-kingdom)
 
-[Browse all courses →](/courses)[Book a free demo](/book-demo)[Coding Classes in India](/coding-classes-in-india)[Chat with us](https://wa.me/919123366161?text=Hi%2C%20I'm%20interested%20in%20learning%20more%20about%20your%20courses!)
+[Browse all courses →](/courses)[Book a free demo](/book-demo)[Coding Classes in India](/coding-classes-in-india)
+
+## Keep exploring Modern Age Coders
+
+### Coding classes in nearby places
+
+- [Coding Classes in Ontario](/coding-classes-in-ontario)
+- [AI and Machine Learning Classes in Canada](/ai-and-machine-learning-classes-in-canada)
+- [Online Coding Classes in Alberta](/coding-classes-in-alberta)
+- [Online Coding Classes in Maryland](/coding-classes-in-maryland)
+- [Online Coding Classes in British Columbia](/coding-classes-in-british-columbia)
+- [Coding Classes in Georgia, USA](/coding-classes-in-georgia)
+- [Coding & AI Classes in Canada](/coding-classes-in-canada)
+- [Coding Classes in Virginia](/coding-classes-in-virginia)
+- [Coding Classes in Al Khoudh](/coding-classes-in-al-khoudh)
+
+### Learn more
+
+- [AI Classes for Teenagers (13-18)](/ai-classes-for-teenagers)
+- [Data Science Course: Python, ML & Deep Learning](/courses/data-science-complete-masterclass-college)
+- [Best AI & Machine Learning Course in India](/best-ai-and-machine-learning-course-in-india)
+- [AI Classes for Kids (Ages 6-12)](/ai-classes-for-kids)
+
+### Free resources
+
+- [AI & Machine Learning Tutorial: Basics to Deep Learning](/resources/ai-and-machine-learning)
+- [AI Ethics, Responsible AI, and Career Roadmap](/resources/ai-and-machine-learning/ai-ethics-and-career-guide)
+- [Deep Learning with TensorFlow and Keras](/resources/ai-and-machine-learning/deep-learning-with-tensorflow-keras)
+- [Generative AI](/resources/ai-and-machine-learning/generative-ai-and-diffusion-models)
+
+### From the blog
+
+- [AI & Machine Learning Guides](/blog/topic/ai)
+- [Best Data Science Courses in India for Students and](/blog/data-science-course-india)
+- [Data Science, AI, and Math: Skills Every Tech Professional Must Learn](/blog/data-science-ai-math-skills-professionals)
+- [Agent Terminology in AI: A Simple Guide to Understanding AI Agents](/blog/agentic-terminology-in-ai)
+
+### Start here
+
+- [Book a free demo class with Modern Age Coders](/book-demo)
+- [Real projects built by Modern Age Coders students](/student-labs)
+
+[Chat with us](https://wa.me/919123366161?text=Hi%2C%20I'm%20interested%20in%20learning%20more%20about%20your%20courses!)
 
 ---
 

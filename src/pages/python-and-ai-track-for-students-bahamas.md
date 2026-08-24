@@ -272,6 +272,41 @@ Rather read first? [The Nassau page](/coding-and-ai-classes-in-nassau), [why a y
 
 We hold no premises anywhere in the Bahamas. Every session is a live video call taught from India, and the number above rings in India.
 
+## Keep exploring Modern Age Coders
+
+### Coding classes in nearby places
+
+- [Coding Competitions for Students in The Bahamas](/coding-competitions-for-students-bahamas)
+- [One to One Coding Classes in Nassau](/one-to-one-coding-classes-in-nassau)
+- [Coding and AI Classes in Nassau, Bahamas](/coding-and-ai-classes-in-nassau)
+- [Inheritance and Polymorphism Practice](/resources/python/inheritance-and-polymorphism/practice)
+
+### Learn more
+
+- [Vibe Coding for Teens: Python, Web Dev & AI (Ages 13-17)](/courses/vibe-coding-for-teens-python-web-ai-projects-course)
+- [Coding for Class 6: Python, HTML/CSS & AI Projects Matched to](/coding-for-class-6)
+- [Coding for Class 5: Python, Scratch & AI Tools for 10 Year Olds](/coding-for-class-5)
+- [The AI Engineer Roadmap 2026: From Python Day One to Shipping AI](/ai-engineer-roadmap-2026)
+
+### Free resources
+
+- [Python Tutorial for Beginners: Complete Guide](/resources/python)
+- [Functions in Python](/resources/python/functions-in-python)
+- [Introduction to AI and Machine Learning](/resources/ai-and-machine-learning/introduction-to-ai-and-ml)
+- [Loops in Python (for and while)](/resources/python/loops-in-python)
+
+### From the blog
+
+- [Python Tutorials & Guides](/blog/topic/python)
+- [Learn Python Step by Step: The Free Tutorial Library](/blog/learn-python-step-by-step)
+- [PCEP vs PCAP: Which Python Certification Is Worth It?](/blog/pcep-vs-pcap-which-python-certification)
+- [Python Dictionary: The Complete Guide With 20 Examples](/blog/python-dictionary-complete-guide)
+
+### Start here
+
+- [How Modern Age Coders teaches, small batches and real projects](/how-we-teach)
+- [What Modern Age Coders families say](/love)
+
 [Chat with us](https://wa.me/919123366161?text=Hi%2C%20I'm%20interested%20in%20learning%20more%20about%20your%20courses!)
 
 ---

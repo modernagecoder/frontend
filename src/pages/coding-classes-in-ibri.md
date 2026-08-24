@@ -446,7 +446,41 @@ Share the learner's age or grade and intended skill. Modern Age Coders will revi
 
 Use the country guide for shared delivery facts, then compare two city projects with different reliability failures.
 
-[**Oman coding classes**National course, fee and service guide](/coding-classes-in-oman)[**Ibra coding classes**Missing lookups hidden by defaults](/coding-classes-in-ibra)[**Duqm coding classes**Growth rates from a tiny base](/coding-classes-in-duqm)Free Ibri class[Call +91 91233 66161](tel:+919123366161)[Chat with us](https://wa.me/919123366161?text=Hi%2C%20I'm%20interested%20in%20learning%20more%20about%20your%20courses!)
+[**Oman coding classes**National course, fee and service guide](/coding-classes-in-oman)[**Ibra coding classes**Missing lookups hidden by defaults](/coding-classes-in-ibra)[**Duqm coding classes**Growth rates from a tiny base](/coding-classes-in-duqm)Free Ibri class[Call +91 91233 66161](tel:+919123366161)
+
+## Keep exploring Modern Age Coders
+
+### Coding classes in nearby places
+
+- [Coding Classes in Izki](/coding-classes-in-izki)
+- [Coding Classes in Khasab](/coding-classes-in-khasab)
+- [Coding Classes in Haima](/coding-classes-in-haima)
+- [Coding Classes in Liwa](/coding-classes-in-liwa)
+- [Coding Classes in Madinat Al Irfan](/coding-classes-in-madinat-al-irfan)
+- [Coding Classes in Dima Wa Attayeen](/coding-classes-in-dima-wa-attayeen)
+- [Coding Classes in Yanqul](/coding-classes-in-yanqul)
+- [Coding Classes in Mirbat](/coding-classes-in-mirbat)
+- [Coding Classes in Masirah](/coding-classes-in-masirah)
+
+### Free resources
+
+- [HTML & CSS Tutorial: Build Websites from Scratch](/resources/html-and-css)
+- [Modern CSS - Container Queries, Subgrid, clamp](/resources/html-and-css/modern-css-features)
+- [Smart Pointers and Modern Memory Management](/resources/cpp/smart-pointers-and-memory)
+- [CSS Transitions and Hover Effects](/resources/html-and-css/transitions-and-hover-effects)
+
+### From the blog
+
+- [Coding Class Fees in India 2026: What to Pay](/blog/coding-class-fees-india-2026)
+- [30+ Scratch Project Ideas for Kids](/blog/30-plus-scratch-project-ideas-kids-fun-coding-beginner-advanced)
+- [20 HTML, CSS, and JavaScript Project Ideas (With Code)](/blog/html-css-javascript-project-ideas)
+
+### Start here
+
+- [Browse every live course at Modern Age Coders](/courses)
+- [Try a free trial class with a Modern Age Coders mentor](/free-trial)
+
+[Chat with us](https://wa.me/919123366161?text=Hi%2C%20I'm%20interested%20in%20learning%20more%20about%20your%20courses!)
 
 ---
 

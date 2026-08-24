@@ -369,6 +369,38 @@ Rather read first? [How to read code](/how-to-read-code), [how to think like a p
 
 We hold no premises anywhere. Every session is a live video call taught from India, and the number above rings in India. Sending the form opens a conversation rather than an enrolment, and holds no place in any batch.
 
+## Keep exploring Modern Age Coders
+
+### Related courses and guides
+
+- [How To Build a Coding Portfolio That Holds Up Under Questioning](/how-to-build-a-coding-portfolio)
+- [How Large Language Models Work](/how-large-language-models-work)
+- [JEE Aspirant Coding Track: Python & Computational Maths for](/jee-aspirant-coding-track)
+- [How Computer Vision Works](/how-computer-vision-works)
+- [Large Language Models Course (LLMs)](/large-language-models-course)
+- [Homeschool Coding Curriculum](/homeschool-coding-curriculum)
+- [Online Coding Summer Camp](/online-coding-summer-camp)
+- [Online Coding Classes for Kids in the USA](/online-coding-classes-for-kids-usa)
+- [Coding Classes for DPS Gurgaon Students](/coding-classes-for-dps-gurgaon)
+
+### Free resources
+
+- [HTML & CSS Tutorial: Build Websites from Scratch](/resources/html-and-css)
+- [Project: Build a Complete Landing Page](/resources/html-and-css/project-build-a-landing-page)
+- [STL Containers - vector, list, map, set, stack, queue](/resources/cpp/stl-containers)
+- [Abstract Classes, Pure Virtual Functions, and Interfaces](/resources/cpp/abstraction-and-interfaces)
+
+### From the blog
+
+- [How to Reverse a String in Python: 5 Easy Methods](/blog/how-to-reverse-a-string-in-python)
+- [Armstrong Number in Python, Code Examples & 5-Min Tutorial](/blog/armstrong-number-python-complete-guide-examples-code)
+- [String Handling in Java: The ICSE and CBSE Guide](/blog/string-handling-in-java)
+
+### Start here
+
+- [About Modern Age Coders, teaching since 2020](/about)
+- [Modern Age Coders pricing, one honest price per plan](/pricing)
+
 ---
 
 *Canonical: https://learn.modernagecoders.com/how-to-debug-code*

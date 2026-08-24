@@ -485,6 +485,47 @@ Batch seats are limited, demo slots fill up fast.
 
 We'll call you within 3 hours to schedule
 
+## Keep exploring Modern Age Coders
+
+### Related courses and guides
+
+- [Java Projects for Students](/java-projects-for-students)
+- [Java OOP Concepts Course](/java-oops-concepts-course)
+- [OCA Java SE 8 Certification (1Z0-808): Full Exam Guide](/oca-java-certification-prep)
+- [Java for Beginners](/java-for-beginners)
+- [Online Java Classes](/online-java-classes)
+- [Java DSA Course](/java-dsa-course)
+- [Java Classes for Teens](/java-classes-for-teens)
+- [Java Certification Course](/java-certification-course)
+- [Java Classes for Adults](/java-classes-for-adults)
+- [Operators in Java Practice](/resources/java/operators-in-java/practice)
+
+### Learn more
+
+- [Java for Teens: Complete Course from Beginner to Advanced](/courses/java-programming-masterclass-for-teens)
+- [Computer Science Class 12 ICSE: ISC Java Data Structures](/computer-science-class-12-icse)
+- [Computer Science Class 11-12: CBSE Python & ICSE/ISC Java](/courses/cbse-icse-computer-science-class-11-12-python-java-complete-course)
+- [Computer Science Class 11 ICSE: Java OOP](/computer-science-class-11-icse)
+
+### Free resources
+
+- [Java Tutorial for Beginners to Advanced](/resources/java)
+- [Java Memory Model and Garbage Collection](/resources/java/java-memory-and-garbage-collection)
+- [Methods in Java](/resources/java/methods-in-java)
+- [Polymorphism in Java](/resources/java/polymorphism-in-java)
+
+### From the blog
+
+- [Java Tutorials & Programs](/blog/topic/java)
+- [30+ Best Java Programs for Class 8 Students](/blog/30-best-java-programs-for-class-8-students)
+- [Java Constructors Explained: Types, Overloading, ICSE](/blog/java-constructors-explained)
+- [50 Important Java Programs for ICSE Class 10 Boards](/blog/50-java-programs-for-icse-class-10)
+
+### Start here
+
+- [Book a free demo class with Modern Age Coders](/book-demo)
+- [Real projects built by Modern Age Coders students](/student-labs)
+
 [![Modern Age Coders](/images/logo.svg)Modern Age Coders](/)
 
 India's most trusted live online coding institute for kids, teens & adults.

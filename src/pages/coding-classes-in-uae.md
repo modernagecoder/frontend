@@ -849,7 +849,49 @@ Modern Age Coders teaches students worldwide over live video, in small 4–8 bat
 - [Coding Classes in the United Kingdom](/coding-classes-in-united-kingdom)
 - [Coding Classes in the United States](/coding-classes-in-united-states)
 
-[Browse all courses →](/courses)[Book a free demo](/book-demo)[Coding Classes in India](/coding-classes-in-india)[Chat with us](https://wa.me/919123366161?text=Hi%2C%20I'm%20interested%20in%20learning%20more%20about%20your%20courses!)
+[Browse all courses →](/courses)[Book a free demo](/book-demo)[Coding Classes in India](/coding-classes-in-india)
+
+## Keep exploring Modern Age Coders
+
+### Coding classes in nearby places
+
+- [GCSE Maths Tutor in the UAE](/gcse-maths-tutor-uae)
+- [Coding Classes in Saudi Arabia](/coding-classes-in-saudi-arabia)
+- [Maths Classes for Adults in the UAE](/maths-classes-for-adults-uae)
+- [Coding Classes in Riyadh](/coding-classes-in-riyadh)
+- [Maths Tuition for Kids in the UAE](/maths-tuition-for-kids-uae)
+- [Coding Classes in Qatar](/coding-classes-in-qatar)
+- [Python Classes in Qatar](/python-classes-in-qatar)
+- [Python Classes in Dubai](/python-classes-in-dubai)
+- [Coding Classes in Sharjah](/coding-classes-in-sharjah)
+
+### Learn more
+
+- [Python for Class 6: CBSE Code 166 Python, Turtle, First AI (Age 11)](/python-for-class-6)
+- [Artificial Intelligence Course](/artificial-intelligence-course)
+- [Coding for 16 Year Olds: CS Stream, Full Stack, AI/ML & DSA for Class 11](/coding-for-16-year-olds)
+- [Neural Networks Course](/neural-networks-course)
+
+### Free resources
+
+- [AI & Machine Learning Tutorial: Basics to Deep Learning](/resources/ai-and-machine-learning)
+- [Feature Engineering and Feature Selection](/resources/ai-and-machine-learning/feature-engineering)
+- [KNN and Naive Bayes Classifiers](/resources/ai-and-machine-learning/knn-and-naive-bayes)
+- [Mathematics for Machine Learning](/resources/ai-and-machine-learning/mathematics-for-ml)
+
+### From the blog
+
+- [AI & Machine Learning Guides](/blog/topic/ai)
+- [UAE Made AI Mandatory in Schools: What It Means](/blog/uae-ai-curriculum-schools-what-it-means)
+- [What is the Responsibility of Developers Using Generative AI? A](/blog/what-is-the-responsibility-of-developers-using-generative-AI)
+- [Full Stack vs. AI Engineer: Which Career Path Pays More in India?](/blog/full-stack-vs-ai-engineer-salary-india)
+
+### Start here
+
+- [Try a free trial class with a Modern Age Coders mentor](/free-trial)
+- [About Modern Age Coders, teaching since 2020](/about)
+
+[Chat with us](https://wa.me/919123366161?text=Hi%2C%20I'm%20interested%20in%20learning%20more%20about%20your%20courses!)
 
 ---
 
