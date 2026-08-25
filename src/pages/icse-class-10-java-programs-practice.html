@@ -1,0 +1,692 @@
+<!DOCTYPE html>
+<html lang="en-IN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>ICSE Class 10 Java Programs Practice | Section B, Family by Family</title>
+  <meta name="description" content="ICSE Class 10 Java programs for Section B, family by family: patterns, menu-driven switch, arrays with search and sort, strings, and classes with constructors, in BlueJ.">
+  <meta name="author" content="Modern Age Coders">
+  <link rel="canonical" href="https://learn.modernagecoders.com/icse-class-10-java-programs-practice">
+  <link rel="alternate" type="text/markdown" href="/src/pages/icse-class-10-java-programs-practice.md" title="Markdown version for AI agents">
+
+  <link rel="icon" href="/favicon.ico" type="image/x-icon">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
+  <meta name="theme-color" content="#6E2F57">
+
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="https://learn.modernagecoders.com/icse-class-10-java-programs-practice">
+  <meta property="og:title" content="ICSE Class 10 Java Programs Practice | Section B, Family by Family">
+  <meta property="og:description" content="Sixty marks of the ICSE Computer Applications paper are programs. They come from six recognisable families, and this page writes one of each, with the variable descriptions the board expects.">
+  <meta property="og:image" content="https://learn.modernagecoders.com/images/og-modern-age-coders.png">
+  <meta property="og:site_name" content="Modern Age Coders">
+  <meta property="og:locale" content="en_IN">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="ICSE Class 10 Java Programs Practice">
+  <meta name="twitter:description" content="The six Section B program families with eight worked Java programs, the 21-week practice ladder and the errors that cost marks.">
+  <meta name="twitter:image" content="https://learn.modernagecoders.com/images/og-modern-age-coders.png">
+
+  <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/board-prep.css?v=20260825">
+
+  <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-N8BM164YJP');gtag('config','AW-16910316353');</script>
+
+  <script type="application/ld+json" data-price-scope="coding.india">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "EducationalOrganization",
+        "@id": "https://learn.modernagecoders.com/#org",
+        "name": "Modern Age Coders",
+        "url": "https://learn.modernagecoders.com/",
+        "email": "contact@modernagecoders.com",
+        "telephone": "+91-91233-66161",
+        "foundingDate": "2020",
+        "areaServed": { "@type": "Country", "name": "India" },
+        "knowsAbout": ["Java Programming", "ICSE Computer Applications", "BlueJ", "Arrays and Strings", "Object-Oriented Programming", "Class 10 Board Preparation"]
+      },
+      {
+        "@type": "TechArticle",
+        "@id": "https://learn.modernagecoders.com/icse-class-10-java-programs-practice#article",
+        "headline": "ICSE Class 10 Java Programs Practice: Section B, Family by Family",
+        "description": "Sixty marks of the ICSE Computer Applications paper are programs. They come from six recognisable families, and this page writes one of each, with the variable descriptions the board expects.",
+        "inLanguage": "en",
+        "isAccessibleForFree": true,
+        "proficiencyLevel": "Beginner",
+        "author": { "@id": "https://learn.modernagecoders.com/#org" },
+        "publisher": { "@id": "https://learn.modernagecoders.com/#org" },
+        "mainEntityOfPage": "https://learn.modernagecoders.com/icse-class-10-java-programs-practice"
+      },
+      {
+        "@type": "Course",
+        "@id": "https://learn.modernagecoders.com/icse-class-10-java-programs-practice#course",
+        "name": "ICSE Class 10 Java Programs: Section B Practice in BlueJ",
+        "description": "Live online Wednesday programs labs for ICSE Class 10 Computer Applications: the six Section B program families, patterns, menu-driven programs, arrays with search and sort, strings, classes with constructors and methods, and two-dimensional arrays, written from a blank class in BlueJ with variable descriptions, in a mini batch of three or four.",
+        "url": "https://learn.modernagecoders.com/icse-class-10-java-programs-practice",
+        "inLanguage": "en",
+        "provider": { "@id": "https://learn.modernagecoders.com/#org" },
+        "isAccessibleForFree": false,
+        "offers": { "@type": "Offer", "price": "2999", "priceCurrency": "INR", "category": "Monthly fee, mini batch", "availability": "https://schema.org/InStock" },
+        "hasCourseInstance": {
+          "@type": "CourseInstance",
+          "courseMode": "online",
+          "courseSchedule": { "@type": "Schedule", "repeatFrequency": "P1W", "byDay": ["Tuesday", "Wednesday"], "scheduleTimezone": "Asia/Kolkata" },
+          "location": { "@type": "VirtualLocation", "url": "https://learn.modernagecoders.com/icse-class-10-java-programs-practice" }
+        }
+      },
+      {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://learn.modernagecoders.com/" },
+          { "@type": "ListItem", "position": 2, "name": "ICSE Class 10 Java classes online", "item": "https://learn.modernagecoders.com/icse-class-10-java-classes-online" },
+          { "@type": "ListItem", "position": 3, "name": "Java programs practice", "item": "https://learn.modernagecoders.com/icse-class-10-java-programs-practice" }
+        ]
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+          {"@type": "Question", "name": "How many programs must a student write in the ICSE Computer Applications paper?", "acceptedAnswer": {"@type": "Answer", "text": "Four. Section B is worth 60 marks and offers a choice of programming questions, of which any four must be attempted at 15 marks each. That choice is the most useful fact on this page: a student who is genuinely fluent in four of the six families below can score full marks in Section B without ever touching the families they find hardest, which is why practice is organised by family rather than by chapter."}},
+          {"@type": "Question", "name": "Which program families come up most often?", "acceptedAnswer": {"@type": "Answer", "text": "Arrays and strings appear in almost every paper, usually as one program each, and a class-based program with a constructor and methods is nearly as regular. Menu-driven programs using switch, number and pattern programs, and two-dimensional array programs fill the remaining choices. Past papers are the honest guide, and the pattern across them is stable enough that our Wednesday labs cover all six families twice before the mocks."}},
+          {"@type": "Question", "name": "What are the 15 marks per program given for?", "acceptedAnswer": {"@type": "Answer", "text": "CISCE does not publish a line-by-line rubric, but its stated expectations point at what is rewarded: a program in Java that solves the stated problem, written using variable descriptions or mnemonic codes so the logic is clearly depicted, in a proper class structure, producing the required output in the required format. In practice that means marks for the logic, the correct use of the syllabus construct the question targets, the class and method structure, the variable description, and the output. A program that is logically right but has no variable description leaves marks on the table."}},
+          {"@type": "Question", "name": "Is the variable description compulsory?", "acceptedAnswer": {"@type": "Answer", "text": "The syllabus says Section B programs should be written using variable descriptions or mnemonic codes so the logic is clearly depicted, and papers routinely instruct students to include them. Treat it as compulsory: a short table beside each program listing every variable, its data type and its purpose. It costs a minute, earns marks, and, in our experience, catches the student's own undeclared or misused variables while they write it."}},
+          {"@type": "Question", "name": "Can programs be written without a main method, as a class with methods?", "acceptedAnswer": {"@type": "Answer", "text": "When the question gives a class skeleton with data members and method signatures, the student writes exactly that class and its methods; a main method is only needed if the question asks for one or asks the student to create an object and call the methods. When the question simply says write a program, a complete class with a main method is the safest form. Reading the question's class structure carefully before writing is itself a mark-earning habit."}},
+          {"@type": "Question", "name": "Should my child use Scanner or BufferedReader for input?", "acceptedAnswer": {"@type": "Answer", "text": "Either is accepted; what matters is that the program declares its input correctly and reads the right type. Scanner is shorter and is what most ICSE schools and textbooks now use, so it is what we teach by default, with the import line written every time. A student who knows one input method well will never lose marks for not knowing the other."}},
+          {"@type": "Question", "name": "How is practising programs different from practising the theory?", "acceptedAnswer": {"@type": "Answer", "text": "Theory is recognition; programs are production. A student can recognise a correct bubble sort in Section A and still be unable to write one from a blank class under time, and only writing fixes that. Our Wednesday labs are entirely production: the program is written from nothing, compiled, corrected and explained, and the variation exercise afterwards changes the question so that the student proves they understood rather than remembered."}},
+          {"@type": "Question", "name": "How many programs should a student have written before the board exam?", "acceptedAnswer": {"@type": "Answer", "text": "Around sixty, in our batch: one Wednesday program and one variation each week across the year, plus the lab assignments and the mock papers. That is roughly ten per family, which is where a program stops being a memory and becomes a shape the student can produce on demand. Fewer than twenty and the student is still reproducing; more than sixty adds little beyond confidence."}},
+          {"@type": "Question", "name": "What does the programs practice cost?", "acceptedAnswer": {"@type": "Answer", "text": "It is the Wednesday half of the standard batch, not a separate course: the Tuesday and Wednesday mini batch of three or four, one to one, and the larger group batch on other timings are all shown on this page in your own currency, billed monthly with no admission fee. The free demo class is a Wednesday-style lab, so you see the practice format before deciding anything."}},
+          {"@type": "Question", "name": "How do we start?", "acceptedAnswer": {"@type": "Answer", "text": "Send the form and ask for a Wednesday demo. The student writes one Section B family program from a blank class in BlueJ with the teacher, adds the variable description, runs it and then attempts a variation alone. In forty-five minutes you see whether your child is producing or reproducing, which is the single most useful thing to know about their Section B before the year gets going."}}
+        ]
+      }
+    ]
+  }
+  </script>
+</head>
+
+<body class="bx-root bx-ipr">
+
+<nav class="bx-nav">
+  <div class="bx-wrap bx-nav-inner">
+    <a class="bx-nav-brand" href="/">
+      <img src="/images/logo.svg" alt="Modern Age Coders logo" width="30" height="30" fetchpriority="high">
+      <span>Modern Age Coders</span>
+      <span class="bx-brand-tag">ICSE &middot; Section B</span>
+    </a>
+    <div class="bx-nav-links">
+      <a href="#families">The six families</a>
+      <a href="#worked">Worked programs</a>
+      <a href="#ladder">The ladder</a>
+      <a href="#fees">Fees</a>
+      <a href="#start" class="bx-btn">Free demo class</a>
+    </div>
+  </div>
+</nav>
+
+<header class="bx-hero">
+  <div class="bx-wrap">
+    <nav class="bx-crumbs" aria-label="Breadcrumb">
+      <a href="/">Home</a> <span>/</span> <a href="/icse-class-10-java-classes-online">ICSE Class 10 Java classes</a> <span>/</span> <span>Java programs practice</span>
+    </nav>
+    <div class="bx-hero-grid">
+      <div>
+        <p class="bx-eyebrow">ICSE Class 10 &middot; Computer Applications &middot; Section B, 60 marks of programs in Java</p>
+        <h1>ICSE Class 10 Java programs: the six Section B families, practised until any four are easy.</h1>
+        <p class="bx-lede">Sixty of the hundred theory marks in Computer Applications are programs, written by hand, any four of the questions offered at fifteen marks each. Students who fear Section B usually believe it is endless. It is not: the programs come from six recognisable families, and a student who can produce any four of them from a blank screen, with the variable description the board expects, has the whole section. This page names the families, writes one program from each with its variable description, shows what a fifteen-mark answer needs, and lays out the twenty-one-week ladder our Wednesday lab follows to get there.</p>
+        <div class="bx-btn-row">
+          <a href="#worked" class="bx-btn">Read the worked programs</a>
+          <a href="/icse-class-10-java-classes-online" class="bx-btn bx-btn--ghost">See the Wednesday lab</a>
+          <a href="https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders.%20My%20child%20needs%20practice%20with%20ICSE%20Class%2010%20Java%20programs%20for%20Section%20B." class="bx-btn bx-btn--ghost" target="_blank" rel="noopener" onclick="if(window.gtag)gtag('event','whatsapp_click',{page_topic:'icse10-programs'});">Ask on WhatsApp</a>
+        </div>
+        <p class="bx-hero-note">Every program on this page compiles and runs in BlueJ as written &middot; live lab every Wednesday 8 PM IST</p>
+      </div>
+
+      <aside class="bx-timetable" aria-label="Section B at a glance">
+        <p class="bx-tt-title"><span>Section B at a glance</span><b>Programs</b></p>
+        <div class="bx-tt-row"><span class="bx-tt-day">Marks for programs</span><span class="bx-tt-time">60<small>of 100</small></span></div>
+        <div class="bx-tt-row"><span class="bx-tt-day">Programs to attempt</span><span class="bx-tt-time">Any 4<small>15 each</small></span></div>
+        <div class="bx-tt-row"><span class="bx-tt-day">Program families</span><span class="bx-tt-time">6<small>on this page</small></span></div>
+        <p class="bx-tt-zones"><b>Written in</b> Java, with variable descriptions or mnemonic codes so the logic is clearly depicted. <b>Not required:</b> flowcharts and algorithms.</p>
+        <div class="bx-tt-foot">
+          <span class="bx-stamp">Wednesday lab &middot; 8 PM IST</span>
+          <span class="bx-stamp">Mini batch &middot; 3 to 4 students</span>
+        </div>
+        <p class="bx-trust" style="margin-top:14px"><span class="bx-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</span>Rated 4.9 across 547 Google reviews</p>
+      </aside>
+    </div>
+  </div>
+</header>
+
+<section class="bx-section" id="picks">
+  <div class="bx-wrap">
+    <div class="bx-section-head">
+      <p class="bx-qlabel">Start here</p>
+      <h2>The courses where these programs get written</h2>
+      <p class="bx-lede">The ICSE course whose Wednesday lab this page describes, and two courses for students who discover they like writing programs more than they expected.</p>
+    </div>
+    <div class="bx-picks">
+      <a class="bx-pick" href="/courses/icse-computer-applications-java-bluej-course">
+        <div class="bx-pick-shot"><img src="/images/java-teens.webp" alt="ICSE Computer Applications Java with BlueJ course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="bx-pick-body">
+          <p class="bx-pick-code">Section B / Wednesday lab</p>
+          <h3>ICSE Computer Applications, Java with BlueJ</h3>
+          <p>The mini batch whose Wednesday lab writes one family program and one variation every week, sixty programs a year, all from a blank class.</p>
+          <span class="bx-pick-go">Open the syllabus &rarr;</span>
+        </div>
+      </a>
+      <a class="bx-pick" href="/courses/cbse-icse-computer-science-class-11-12-python-java-complete-course">
+        <div class="bx-pick-shot"><img src="/images/ip-cs-class-11-12.webp" alt="Computer Science Class 11 and 12 course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="bx-pick-body">
+          <p class="bx-pick-code">The next paper / Class 11 and 12</p>
+          <h3>Computer Science Class 11 and 12</h3>
+          <p>Where the array and string families grow into the senior paper's data structures, for students who keep the subject after Class 10.</p>
+          <span class="bx-pick-go">Open the syllabus &rarr;</span>
+        </div>
+      </a>
+      <a class="bx-pick" href="/courses/python-complete-masterclass-teens">
+        <div class="bx-pick-shot"><img src="/images/python-teens.webp" alt="Python for Teens course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="bx-pick-body">
+          <p class="bx-pick-code">A second language / after the boards</p>
+          <h3>Python for Teens</h3>
+          <p>The natural second language for a student who can already write a Java class: the same ideas with less ceremony, and projects that reach a screen faster.</p>
+          <span class="bx-pick-go">Open the syllabus &rarr;</span>
+        </div>
+      </a>
+    </div>
+  </div>
+</section>
+
+<section class="bx-section">
+  <div class="bx-wrap">
+    <div class="bx-capsule">
+      <p class="bx-capsule-q">Ans. The short version</p>
+      <p>Section B of the ICSE Class 10 Computer Applications paper is 60 marks of Java programs: any four of the questions offered, at 15 marks each, written with variable descriptions and no flowcharts required. The programs come from six families: number and pattern programs, menu-driven programs using switch, single-dimensional arrays with searching and sorting, string handling character by character, classes with constructors and methods, and two-dimensional arrays. A student fluent in four families can score the whole section. Modern Age Coders practises all six in a live Wednesday 8 PM lab, one program and one variation a week from a blank class in BlueJ, in a mini batch of three or four, reaching about sixty written programs before the board exam.</p>
+    </div>
+  </div>
+</section>
+
+<section class="bx-section bx-section--tint" id="families">
+  <div class="bx-wrap">
+    <div class="bx-section-head">
+      <p class="bx-qlabel">Q1. What do Section B questions look like?</p>
+      <h2>Six families, and what each one is really testing</h2>
+      <p class="bx-lede">Read enough past papers and the questions sort themselves. The right-hand column is what the examiner is checking underneath the story the question tells.</p>
+    </div>
+    <div class="bx-table-wrap">
+      <table class="bx-table">
+        <thead><tr><th scope="col">Family</th><th scope="col">A typical question</th><th scope="col">What it actually tests</th></tr></thead>
+        <tbody>
+          <tr><td>Number and pattern programs</td><td>Print a number triangle, a series, or check a number property such as prime, Armstrong or perfect</td><td>Nested loops, counters, integer arithmetic, the exact output format</td></tr>
+          <tr><td>Menu-driven programs</td><td>Display a menu and, using switch, perform one of several calculations on user input</td><td>Scanner input, switch with break and default, formatted output</td></tr>
+          <tr><td>Single-dimensional arrays</td><td>Accept n values, then search, sort, sum, count or find the largest</td><td>Indexing from zero, linear and binary search, bubble and selection sort</td></tr>
+          <tr><td>String handling</td><td>Reverse, test a palindrome, count vowels or words, change case by a rule, rearrange a sentence</td><td>charAt and length, building a new string, String methods used correctly</td></tr>
+          <tr><td>Classes with constructors and methods</td><td>Given a class with named data members and method signatures, write the class</td><td>Constructors, parameters, methods that return values, calling methods from main</td></tr>
+          <tr><td>Double-dimensional arrays</td><td>Accept a matrix, then row or column sums, diagonals, transpose or the largest element</td><td>Nested loops over rows and columns, two indices kept apart</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <p class="bx-mt-40">
+      The choice of any four is the strategic fact of the section. A student does not need to love
+      all six families; they need four they can produce cold, and enough of the other two to pick
+      them up if the paper's four questions from the favoured families are awkward. Our practice
+      order builds fluency in arrays, strings, classes and menus first, because between them they
+      cover most papers, then adds patterns and matrices as the fifth and sixth options.
+    </p>
+  </div>
+</section>
+
+<section class="bx-section" id="worked">
+  <div class="bx-wrap">
+    <div class="bx-section-head">
+      <p class="bx-qlabel">Q2. What does a fifteen-mark program look like?</p>
+      <h2>Eight worked programs, one or two per family, each with its variable description</h2>
+      <p class="bx-lede">Each of these compiles and runs in BlueJ as written. The variable descriptions are the part most students skip and the part the board explicitly asks for.</p>
+    </div>
+
+    <p class="bx-qlabel">Family 1 and 2 &middot; patterns, and menus with switch</p>
+    <div class="bx-code-pair">
+<figure class="bx-code">
+  <figcaption class="bx-code-head"><b>Floyd's triangle</b><span>number and pattern programs</span></figcaption>
+  <pre>class Floyd {
+  public static void main(String args[]) {
+    int n = 1;
+    for (int i = 1; i <= 4; i++) {
+      for (int j = 1; j <= i; j++) {
+        System.out.print(n + " ");
+        n++;
+      }
+      System.out.println();
+    }
+  }
+}
+<b>// n int  the next number to print</b>
+<b>// i int  row number, 1 to 4</b>
+<b>// j int  position within the row</b>
+<i>// 1 / 2 3 / 4 5 6 / 7 8 9 10</i></pre>
+  <p class="bx-code-note">Three variables, three roles. A student who can say what n, i and j each do can turn this into any triangle the paper draws; a student who cannot has memorised one picture.</p>
+</figure>
+<figure class="bx-code">
+  <figcaption class="bx-code-head"><b>Area menu</b><span>menu-driven with switch</span></figcaption>
+  <pre>import java.util.Scanner;
+class Shapes {
+  public static void main(String args[]) {
+    Scanner in = new Scanner(System.in);
+    System.out.println("1. Square  2. Circle");
+    int ch = in.nextInt();
+    switch (ch) {
+      case 1:
+        double s = in.nextDouble();
+        System.out.println("Area = " + s * s);
+        break;
+      case 2:
+        double r = in.nextDouble();
+        System.out.println("Area = " + 3.14 * r * r);
+        break;
+      default:
+        System.out.println("Invalid choice");
+    }
+  }
+}
+<b>// ch int  menu choice; s, r double  side, radius</b></pre>
+  <p class="bx-code-note">The missing break and the missing default are the two classic mark losses in this family. Both are visible in a variable-and-structure check before the program is declared finished.</p>
+</figure>
+    </div>
+
+    <p class="bx-qlabel" style="margin-top:36px">Family 3 &middot; single-dimensional arrays, search and sort</p>
+    <div class="bx-code-pair">
+<figure class="bx-code">
+  <figcaption class="bx-code-head"><b>Linear search</b><span>arrays</span></figcaption>
+  <pre>class Search {
+  public static void main(String args[]) {
+    int a[] = {12, 45, 7, 89, 23};
+    int key = 89, pos = -1;
+    for (int i = 0; i < a.length; i++) {
+      if (a[i] == key) {
+        pos = i;
+        break;
+      }
+    }
+    if (pos == -1)
+      System.out.println("Not found");
+    else
+      System.out.println("Found at index " + pos);
+  }
+}
+<b>// a int[]  the data; key int  value sought</b>
+<b>// pos int  index if found, else -1; i int  loop</b></pre>
+  <p class="bx-code-note">The sentinel value pos = -1 is the idea being tested: how does the program know the key was never found? Say that sentence in the viva and the examiner knows you wrote it.</p>
+</figure>
+<figure class="bx-code">
+  <figcaption class="bx-code-head"><b>Bubble sort</b><span>arrays</span></figcaption>
+  <pre>class Bubble {
+  public static void main(String args[]) {
+    int a[] = {5, 3, 9, 1, 7};
+    for (int i = 0; i < a.length - 1; i++) {
+      for (int j = 0; j < a.length - 1 - i; j++) {
+        if (a[j] > a[j + 1]) {
+          int t = a[j];
+          a[j] = a[j + 1];
+          a[j + 1] = t;
+        }
+      }
+    }
+    for (int i = 0; i < a.length; i++)
+      System.out.print(a[i] + " ");
+  }
+}
+<b>// a int[]  data; i int  pass; j int  compare position</b>
+<b>// t int  temporary for the swap</b>
+<i>// 1 3 5 7 9</i></pre>
+  <p class="bx-code-note">The inner loop's upper limit shrinks by i each pass, and knowing why, the largest value has already bubbled to the end, is what separates a written sort from a copied one.</p>
+</figure>
+    </div>
+
+    <p class="bx-qlabel" style="margin-top:36px">Family 4 &middot; string handling</p>
+    <div class="bx-code-pair">
+<figure class="bx-code">
+  <figcaption class="bx-code-head"><b>Palindrome and vowel count</b><span>strings</span></figcaption>
+  <pre>class Word {
+  public static void main(String args[]) {
+    String s = "Madam";
+    String w = s.toLowerCase();
+    String rev = "";
+    int v = 0;
+    for (int i = 0; i < w.length(); i++) {
+      char c = w.charAt(i);
+      rev = c + rev;
+      if ("aeiou".indexOf(c) != -1) v++;
+    }
+    if (w.equals(rev))
+      System.out.println("Palindrome");
+    else
+      System.out.println("Not a palindrome");
+    System.out.println("Vowels: " + v);
+  }
+}
+<b>// s String  input; w String  lowercase copy</b>
+<b>// rev String  reversed; c char  current; v int  vowels</b></pre>
+  <p class="bx-code-note">One loop, two jobs: rev = c + rev builds the reversal by prepending, and indexOf on a vowel string replaces five comparisons. Both are Section A questions in disguise.</p>
+</figure>
+<figure class="bx-code">
+  <figcaption class="bx-code-head"><b>Reverse each word</b><span>strings</span></figcaption>
+  <pre>class Words {
+  public static void main(String args[]) {
+    String s = "Learn Java well";
+    String out = "", word = "";
+    for (int i = 0; i < s.length(); i++) {
+      char c = s.charAt(i);
+      if (c == ' ') {
+        out = out + word + " ";
+        word = "";
+      } else {
+        word = c + word;
+      }
+    }
+    out = out + word;
+    System.out.println(out);
+  }
+}
+<b>// s String  input; out String  result built up</b>
+<b>// word String  current word reversed; c char  current</b>
+<i>// nraeL avaJ llew</i></pre>
+  <p class="bx-code-note">The last word has no space after it, so it must be added after the loop. Forgetting that line is the most common bug in the family, and finding it alone is a Wednesday well spent.</p>
+</figure>
+    </div>
+
+    <p class="bx-qlabel" style="margin-top:36px">Family 5 and 6 &middot; a class with a constructor, and a matrix</p>
+    <div class="bx-code-pair">
+<figure class="bx-code">
+  <figcaption class="bx-code-head"><b>A class with constructor and methods</b><span>the class-skeleton question</span></figcaption>
+  <pre>class Student {
+  String name;
+  int marks;
+  Student(String n, int m) {
+    name = n;
+    marks = m;
+  }
+  char grade() {
+    if (marks >= 80) return 'A';
+    else if (marks >= 60) return 'B';
+    else return 'C';
+  }
+  void display() {
+    System.out.println(name + " : " + grade());
+  }
+  public static void main(String args[]) {
+    Student s = new Student("Riya", 85);
+    s.display();
+  }
+}
+<b>// name String, marks int  data members</b>
+<b>// n, m  constructor parameters; s Student  object</b></pre>
+  <p class="bx-code-note">The paper gives the skeleton and asks for the body. Marks go to a constructor that initialises, a method that returns, and a main that creates an object and calls both.</p>
+</figure>
+<figure class="bx-code">
+  <figcaption class="bx-code-head"><b>Row sums of a matrix</b><span>double-dimensional arrays</span></figcaption>
+  <pre>class Matrix {
+  public static void main(String args[]) {
+    int m[][] = {{1, 2, 3},
+                 {4, 5, 6},
+                 {7, 8, 9}};
+    for (int i = 0; i < 3; i++) {
+      int sum = 0;
+      for (int j = 0; j < 3; j++)
+        sum += m[i][j];
+      System.out.println("Row " + (i + 1)
+                         + " sum = " + sum);
+    }
+  }
+}
+<b>// m int[][]  the matrix; i int  row; j int  column</b>
+<b>// sum int  running total, reset per row</b>
+<i>// Row 1 sum = 6 / Row 2 sum = 15 / Row 3 sum = 24</i></pre>
+  <p class="bx-code-note">Where sum is declared decides everything: inside the outer loop it resets per row, outside it accumulates forever. The paper's column-sum variation just swaps which index the outer loop owns.</p>
+</figure>
+    </div>
+
+    <p class="bx-mt-40">
+      Eight programs, six families, and a pattern that runs through all of them: every program has a
+      line or a variable that carries the idea, the sentinel in the search, the shrinking limit in the
+      sort, the reset in the row sum, the prepend in the reversal. Wednesdays are spent finding that
+      line, naming it, and then writing a variation that moves it, because the paper's question will.
+      The BlueJ habits that keep these programs compiling, from reading the first red error to
+      testing with awkward inputs, are on
+      <a class="bx-link" href="/icse-class-10-bluej-java-coaching">ICSE Class 10 BlueJ coaching</a>.
+    </p>
+  </div>
+</section>
+
+<section class="bx-section bx-section--deep" id="marks">
+  <div class="bx-wrap">
+    <div class="bx-section-head">
+      <p class="bx-qlabel">Q3. Where do the fifteen marks come from?</p>
+      <h2>What a Section B answer is rewarded for, and the habit that secures each part</h2>
+    </div>
+    <div class="bx-grid-3">
+      <div class="bx-card"><h3>The logic</h3><p>The largest share: does the program do what the question asked, for all the inputs the question implies? Secured by tracing the program on paper with one ordinary input and one awkward one before declaring it finished, which takes two minutes and finds most logic errors.</p></div>
+      <div class="bx-card"><h3>The construct the question targets</h3><p>An array question wants an array, a class question wants a constructor and methods, a menu question wants switch. Answering an array question with five separate variables loses the marks the question was written to award. Secured by reading the family before writing a line.</p></div>
+      <div class="bx-card"><h3>The class and method structure</h3><p>A complete class, a correctly declared main or the methods the skeleton named, imports present, braces balanced. Secured by writing the class shell first, every time, and filling it in, rather than starting from the loop and wrapping a class around it at the end.</p></div>
+      <div class="bx-card"><h3>The variable description</h3><p>The board asks for it explicitly. A short table, every variable, its type, its purpose. Secured by writing it while writing the program, since a variable you cannot describe is usually one you should not have.</p></div>
+      <div class="bx-card"><h3>The output</h3><p>Formatted the way the question shows, with labels, spacing and line breaks matching. Secured by reading the question's sample output twice and matching it exactly, which is free marks a surprising number of students leave.</p></div>
+      <div class="bx-card"><h3>Legibility and completeness</h3><p>A program the examiner can read, finished rather than trailing off. Secured by the discipline of four complete programs rather than five half-attempted ones: the section rewards depth on four, and the fifth earns nothing.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="bx-section" id="ladder">
+  <div class="bx-wrap">
+    <div class="bx-section-head">
+      <p class="bx-qlabel">Q4. How does a student get to sixty programs?</p>
+      <h2>The twenty-one-week ladder the Wednesday lab climbs</h2>
+      <p class="bx-lede">One program and one variation a week, family by family, twice around, then mixed papers. Sixty programs later, Section B is a shape the student produces on demand.</p>
+    </div>
+    <ol class="bx-steps">
+      <li class="bx-step"><h4>Weeks 1 to 3: patterns and number properties, loops made visible</h4><p>Triangles, series, prime and Armstrong checks. The point is the nested loop and the counter, traced on paper before it is typed. By week three the student can invert a pattern on request, which is the first sign of production rather than reproduction.</p></li>
+      <li class="bx-step"><h4>Weeks 4 to 6: menus with switch, and input done properly</h4><p>Scanner, the import line, nextInt against nextDouble, switch with every break and a default. The variation each week changes the menu's options so that the structure, not the arithmetic, is what gets learned.</p></li>
+      <li class="bx-step"><h4>Weeks 7 to 10: arrays, the biggest family</h4><p>Accepting n values, the largest and the sum, linear search with a sentinel, binary search on sorted data, bubble and selection sort. Four weeks because this family appears in nearly every paper and because indexing from zero needs time to become instinct.</p></li>
+      <li class="bx-step"><h4>Weeks 11 to 14: strings, character by character</h4><p>Reversal, palindromes, vowel and word counts, case changes by rule, rearranging sentences, and the String methods that shorten each. The last-word bug from the worked program above is met, fixed and never forgotten.</p></li>
+      <li class="bx-step"><h4>Weeks 15 to 17: classes with constructors and methods, and matrices</h4><p>The class-skeleton question written from the shell inward, then two-dimensional arrays with row and column sums, diagonals and a transpose. The two families that turn a good Section B into a full one.</p></li>
+      <li class="bx-step"><h4>Weeks 18 to 21: the second pass, then mixed papers under time</h4><p>Every family again with harder variations, then full Section B papers: five questions, choose four, seventy minutes, variable descriptions included. Reviewed program by program the following Tuesday, with the lost marks re-attempted on the spot.</p></li>
+    </ol>
+    <p class="bx-mt-40">
+      The ladder runs inside the mini batch described on the
+      <a class="bx-link" href="/icse-class-10-java-classes-online">Tuesday and Wednesday batch page</a>,
+      and the theory paper's countdown that follows it is on
+      <a class="bx-link" href="/icse-class-10-computer-applications-board-exam-preparation">board exam preparation</a>.
+    </p>
+  </div>
+</section>
+
+<section class="bx-section bx-section--tint" id="errors">
+  <div class="bx-wrap">
+    <div class="bx-section-head">
+      <p class="bx-qlabel">Q5. Where are Section B marks lost?</p>
+      <h2>Six errors that turn a fifteen into a nine</h2>
+    </div>
+    <div class="bx-grid-3">
+      <div class="bx-card"><h3>Counting from one</h3><p>Arrays and strings index from zero, and a loop that runs to length rather than length minus one walks off the end. Half of all runtime errors in Section B are this one habit, and an index table beside the program is the cure.</p></div>
+      <div class="bx-card"><h3>The missing break</h3><p>A switch without breaks runs every case below the match, and the output for choice 1 quietly includes choice 2's. The examiner sees it; the student who never ran the program did not.</p></div>
+      <div class="bx-card"><h3>No variable description</h3><p>Explicitly requested by the board, routinely omitted by students in a hurry. It is the cheapest part of the fifteen marks and the one most often left blank.</p></div>
+      <div class="bx-card"><h3>Output that ignores the question's format</h3><p>The question shows the output with labels and spacing; the program prints raw numbers. Correct logic, lost presentation marks, and entirely avoidable by reading the sample output twice.</p></div>
+      <div class="bx-card"><h3>Attempting five programs badly</h3><p>Section B rewards any four. A fifth half-program earns nothing and steals time from the four that count. Choose four in the first two minutes and commit.</p></div>
+      <div class="bx-card"><h3>Reproducing last year's version</h3><p>The paper's array question wants the largest element, the memorised program finds the sum. Only a student who understands the loop can change what it does, which is why every Wednesday ends with a variation.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="bx-section bx-section--deep" id="fees">
+  <div class="bx-wrap">
+    <div class="bx-section-head">
+      <p class="bx-qlabel">Q6. What does it cost?</p>
+      <h2>Monthly fees, with the Tuesday and Wednesday mini batch featured</h2>
+      <p class="bx-lede">The programs practice is the Wednesday half of the standard batch, not a separate course. Billed monthly, no admission fee, stop at any month end.</p>
+    </div>
+    <div class="bx-grid-3">
+      <div class="bx-price bx-price--feature" data-india-only="true">
+        <p class="bx-price-name">Mini batch &middot; Tue 5:30 PM and Wed 8 PM</p>
+        <p class="bx-price-amt"><span data-price="coding.india.miniBatch">₹2,999</span></p>
+        <p class="bx-price-alt">per month</p>
+        <ul><li>Three or four students, one teacher all year</li><li>One program and one variation every Wednesday</li><li>Around sixty written programs before the boards</li><li>Certificate on completion</li></ul>
+        <a href="#start" class="bx-btn">Book the free demo</a>
+      </div>
+      <div class="bx-price">
+        <p class="bx-price-name">One to one</p>
+        <p class="bx-price-amt"><span data-price="coding.india.personal">₹4,999</span></p>
+        <p class="bx-price-alt">per month</p>
+        <ul><li>Private teaching on your own schedule</li><li>The ladder compressed to the weeks that remain</li><li>Every program read line by line as it is written</li></ul>
+        <a href="#start" class="bx-btn bx-btn--ghost">Enquire</a>
+      </div>
+      <div class="bx-price">
+        <p class="bx-price-name">Group batch &middot; other timings</p>
+        <p class="bx-price-amt"><span data-price="coding.india.group">₹1,499</span></p>
+        <p class="bx-price-alt">per month</p>
+        <ul><li>Five to eight students</li><li>Timings other than Tuesday and Wednesday</li><li>The same six families, a larger room</li></ul>
+        <a href="#start" class="bx-btn bx-btn--ghost">Ask about timings</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="bx-section" id="reviews">
+  <div class="bx-wrap">
+    <div class="bx-section-head">
+      <p class="bx-qlabel">What families say</p>
+      <h2>Rated 4.9 across 547 Google reviews</h2>
+      <p class="bx-lede">Real reviews from real families. We neither write nor commission them.</p>
+    </div>
+    <div class="bx-grid-3">
+      <article class="bx-review"><p class="bx-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p><p class="bx-review-text">"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."</p><p class="bx-review-name">Ria Mukherjee</p><p class="bx-review-role">Parent</p></article>
+      <article class="bx-review"><p class="bx-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p><p class="bx-review-text">"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."</p><p class="bx-review-name">Samriddha Mondal</p><p class="bx-review-role">Student</p></article>
+      <article class="bx-review"><p class="bx-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p><p class="bx-review-text">"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."</p><p class="bx-review-name">Vansh Agarwal</p><p class="bx-review-role">Student</p></article>
+      <article class="bx-review"><p class="bx-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p><p class="bx-review-text">"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."</p><p class="bx-review-name">Sonam Oswal</p><p class="bx-review-role">Parent of Dhairya</p></article>
+      <article class="bx-review"><p class="bx-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p><p class="bx-review-text">"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."</p><p class="bx-review-name">Sonu Goyal</p><p class="bx-review-role">Parent</p></article>
+      <article class="bx-review"><p class="bx-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p><p class="bx-review-text">"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."</p><p class="bx-review-name">Ritu Kedia</p><p class="bx-review-role">Parent</p></article>
+    </div>
+  </div>
+</section>
+
+<section class="bx-section bx-section--tint" id="more">
+  <div class="bx-wrap">
+    <div class="bx-section-head">
+      <p class="bx-qlabel">The rest of the Class 10 series</p>
+      <h2>Nine more pages for Class 10 board students</h2>
+      <p class="bx-lede">Four more on ICSE Computer Applications, and five on the CBSE AI paper for families on the other board.</p>
+    </div>
+    <div class="bx-siblings">
+      <a class="bx-sib" href="/icse-class-10-java-classes-online"><span class="bx-sib-n">The Tue and Wed mini batch</span><span class="bx-sib-m">/icse-class-10-java-classes-online</span></a>
+      <a class="bx-sib" href="/icse-class-10-computer-applications-syllabus-explained"><span class="bx-sib-n">ICSE Computer Applications syllabus</span><span class="bx-sib-m">/icse-class-10-computer-applications-syllabus-explained</span></a>
+      <a class="bx-sib" href="/icse-class-10-bluej-java-coaching"><span class="bx-sib-n">ICSE BlueJ Java coaching</span><span class="bx-sib-m">/icse-class-10-bluej-java-coaching</span></a>
+      <a class="bx-sib" href="/icse-class-10-computer-applications-board-exam-preparation"><span class="bx-sib-n">ICSE board exam preparation</span><span class="bx-sib-m">/icse-class-10-computer-applications-board-exam-preparation</span></a>
+      <a class="bx-sib" href="/cbse-class-10-ai-classes-online"><span class="bx-sib-n">CBSE Class 10 AI classes</span><span class="bx-sib-m">/cbse-class-10-ai-classes-online</span></a>
+      <a class="bx-sib" href="/cbse-class-10-ai-syllabus-explained"><span class="bx-sib-n">CBSE 417 syllabus explained</span><span class="bx-sib-m">/cbse-class-10-ai-syllabus-explained</span></a>
+      <a class="bx-sib" href="/python-for-cbse-class-10-ai"><span class="bx-sib-n">Python for CBSE Class 10 AI</span><span class="bx-sib-m">/python-for-cbse-class-10-ai</span></a>
+      <a class="bx-sib" href="/cbse-class-10-ai-board-exam-preparation"><span class="bx-sib-n">CBSE AI board exam preparation</span><span class="bx-sib-m">/cbse-class-10-ai-board-exam-preparation</span></a>
+      <a class="bx-sib" href="/cbse-class-10-ai-project-and-practical-file"><span class="bx-sib-n">CBSE AI project and practical file</span><span class="bx-sib-m">/cbse-class-10-ai-project-and-practical-file</span></a>
+    </div>
+  </div>
+</section>
+
+<section class="bx-section" id="faq">
+  <div class="bx-wrap">
+    <div class="bx-section-head">
+      <p class="bx-qlabel">Questions about Section B</p>
+      <h2>What students and parents ask about the programs</h2>
+    </div>
+    <div class="bx-faq">
+      <div class="bx-faq-item"><h3>How many programs must a student write in the ICSE Computer Applications paper?</h3><p>Four. Section B is worth 60 marks and offers a choice of programming questions, of which any four must be attempted at 15 marks each. That choice is the most useful fact on this page: a student who is genuinely fluent in four of the six families below can score full marks in Section B without ever touching the families they find hardest, which is why practice is organised by family rather than by chapter.</p></div>
+      <div class="bx-faq-item"><h3>Which program families come up most often?</h3><p>Arrays and strings appear in almost every paper, usually as one program each, and a class-based program with a constructor and methods is nearly as regular. Menu-driven programs using switch, number and pattern programs, and two-dimensional array programs fill the remaining choices. Past papers are the honest guide, and the pattern across them is stable enough that our Wednesday labs cover all six families twice before the mocks.</p></div>
+      <div class="bx-faq-item"><h3>What are the 15 marks per program given for?</h3><p>CISCE does not publish a line-by-line rubric, but its stated expectations point at what is rewarded: a program in Java that solves the stated problem, written using variable descriptions or mnemonic codes so the logic is clearly depicted, in a proper class structure, producing the required output in the required format. In practice that means marks for the logic, the correct use of the syllabus construct the question targets, the class and method structure, the variable description, and the output. A program that is logically right but has no variable description leaves marks on the table.</p></div>
+      <div class="bx-faq-item"><h3>Is the variable description compulsory?</h3><p>The syllabus says Section B programs should be written using variable descriptions or mnemonic codes so the logic is clearly depicted, and papers routinely instruct students to include them. Treat it as compulsory: a short table beside each program listing every variable, its data type and its purpose. It costs a minute, earns marks, and, in our experience, catches the student's own undeclared or misused variables while they write it.</p></div>
+      <div class="bx-faq-item"><h3>Can programs be written without a main method, as a class with methods?</h3><p>When the question gives a class skeleton with data members and method signatures, the student writes exactly that class and its methods; a main method is only needed if the question asks for one or asks the student to create an object and call the methods. When the question simply says write a program, a complete class with a main method is the safest form. Reading the question's class structure carefully before writing is itself a mark-earning habit.</p></div>
+      <div class="bx-faq-item"><h3>Should my child use Scanner or BufferedReader for input?</h3><p>Either is accepted; what matters is that the program declares its input correctly and reads the right type. Scanner is shorter and is what most ICSE schools and textbooks now use, so it is what we teach by default, with the import line written every time. A student who knows one input method well will never lose marks for not knowing the other.</p></div>
+      <div class="bx-faq-item"><h3>How is practising programs different from practising the theory?</h3><p>Theory is recognition; programs are production. A student can recognise a correct bubble sort in Section A and still be unable to write one from a blank class under time, and only writing fixes that. Our Wednesday labs are entirely production: the program is written from nothing, compiled, corrected and explained, and the variation exercise afterwards changes the question so that the student proves they understood rather than remembered.</p></div>
+      <div class="bx-faq-item"><h3>How many programs should a student have written before the board exam?</h3><p>Around sixty, in our batch: one Wednesday program and one variation each week across the year, plus the lab assignments and the mock papers. That is roughly ten per family, which is where a program stops being a memory and becomes a shape the student can produce on demand. Fewer than twenty and the student is still reproducing; more than sixty adds little beyond confidence.</p></div>
+      <div class="bx-faq-item"><h3>What does the programs practice cost?</h3><p>It is the Wednesday half of the standard batch, not a separate course: the Tuesday and Wednesday mini batch of three or four, one to one, and the larger group batch on other timings are all shown on this page in your own currency, billed monthly with no admission fee. The free demo class is a Wednesday-style lab, so you see the practice format before deciding anything.</p></div>
+      <div class="bx-faq-item"><h3>How do we start?</h3><p>Send the form and ask for a Wednesday demo. The student writes one Section B family program from a blank class in BlueJ with the teacher, adds the variable description, runs it and then attempts a variation alone. In forty-five minutes you see whether your child is producing or reproducing, which is the single most useful thing to know about their Section B before the year gets going.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="bx-section bx-section--tint" id="start">
+  <div class="bx-wrap">
+    <div class="bx-hero-grid">
+      <div>
+        <div class="bx-section-head">
+          <p class="bx-qlabel">Start</p>
+          <h2>Ask for a Wednesday, and the demo is a programs lab</h2>
+        </div>
+        <p>Your child opens BlueJ with the teacher, picks a family from this page, and writes the program from a blank class: shell first, variables described as they appear, compiled, the first red error read and fixed, run with an awkward input, and then a variation attempted alone while the teacher watches. Forty-five minutes later you know whether Section B is being produced or reproduced in your house, and what the twenty-one weeks would do about it.</p>
+        <p>Reading further first? The <a class="bx-link" href="/icse-class-10-computer-applications-syllabus-explained">syllabus explained</a> maps the families back to their units, and <a class="bx-link" href="/icse-class-10-bluej-java-coaching">BlueJ coaching</a> covers the environment these programs live in.</p>
+        <p style="margin-top:22px"><a class="bx-link" href="https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders.%20My%20child%20needs%20practice%20with%20ICSE%20Class%2010%20Java%20programs%20for%20Section%20B." target="_blank" rel="noopener">WhatsApp us</a> &middot; <a class="bx-link" href="tel:+919123366161">+91 91233 66161</a> &middot; <a class="bx-link" href="mailto:contact@modernagecoders.com">contact@modernagecoders.com</a></p>
+        <p class="bx-muted" style="font-size:.92rem;margin-top:14px">Every session is a live video class. The form asks for one callback and books nothing else.</p>
+      </div>
+      <div class="bx-form-panel">
+        <form id="bxLeadForm" onsubmit="return submitBxLead(event)" novalidate>
+          <div class="bx-field-row">
+            <div class="bx-field"><label for="bx-ipr-parent">Parent's name</label><input id="bx-ipr-parent" type="text" name="parent_name" placeholder="Your name" required></div>
+            <div class="bx-field"><label for="bx-ipr-phone">Phone or WhatsApp</label><input id="bx-ipr-phone" type="tel" name="phone" placeholder="98765 43210" maxlength="15" required></div>
+          </div>
+          <div class="bx-field-row">
+            <div class="bx-field"><label for="bx-ipr-email">Email</label><input id="bx-ipr-email" type="email" name="email" placeholder="you@example.com" required></div>
+            <div class="bx-field"><label for="bx-ipr-format">Preferred format</label>
+              <select id="bx-ipr-format" name="format" required>
+                <option value="mini">Tue 5:30 and Wed 8 PM mini batch</option>
+                <option value="1on1">One to one</option>
+                <option value="group">Group batch, other timings</option>
+                <option value="unsure">Not sure yet</option>
+              </select>
+            </div>
+          </div>
+          <div class="bx-field"><label for="bx-ipr-child">Student's name and school (optional)</label><input id="bx-ipr-child" type="text" name="child_name" placeholder="Student's name, school"></div>
+          <button type="submit" class="bx-btn" style="width:100%">Request the free demo class</button>
+          <p class="bx-form-note">We call within a few hours. No card, no enrolment fee.</p>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="bx-footer">
+  <div class="bx-wrap">
+    <div class="bx-grid-4">
+      <div><h4>Modern Age Coders</h4><p style="font-size:.9rem;opacity:.86">Live online coding, AI and mathematics for ages 6 to 67. Teaching since 2020, more than 10,000 students.</p></div>
+      <div><h4>ICSE Class 10 Java</h4><ul><li><a href="/icse-class-10-java-classes-online">The Tue and Wed batch</a></li><li><a href="/icse-class-10-computer-applications-syllabus-explained">Syllabus explained</a></li><li><a href="/icse-class-10-bluej-java-coaching">BlueJ coaching</a></li><li><a href="/icse-class-10-computer-applications-board-exam-preparation">Board exam preparation</a></li></ul></div>
+      <div><h4>More Java</h4><ul><li><a href="/java-programming-for-icse-students">Java for ICSE and ISC</a></li><li><a href="/java-for-beginners">Java for beginners</a></li><li><a href="/java-projects-for-students">Java projects for students</a></li><li><a href="/java-oops-concepts-course">Java OOP concepts</a></li></ul></div>
+      <div><h4>Start</h4><ul><li><a href="/courses">The full catalogue</a></li><li><a href="/pricing">Fees</a></li><li><a href="/how-we-teach">How we teach</a></li><li><a href="/success-stories">Success stories</a></li></ul></div>
+    </div>
+    <div class="bx-footer-bottom"><span>&copy; 2026 Modern Age Coders. Live online, taught from India.</span><span>ICSE Computer Applications &middot; Section B</span></div>
+  </div>
+</footer>
+
+<script>
+window.submitBxLead = function (e) {
+  e.preventDefault();
+  var f = e.target;
+  var phone = (f.phone.value || '').replace(/\D/g, '');
+  if (phone.length < 10) { alert('Please enter a valid phone number.'); return false; }
+  var data = { name: f.parent_name.value, phone: f.phone.value, email: f.email.value, format: f.format.value, child_name: f.child_name.value, source: 'icse-class-10-java-programs-practice', page: window.location.pathname };
+  var api = (location.hostname === 'localhost' || location.hostname === '127.0.0.1') ? 'http://localhost:5000' : 'https://backend-modernagecoders.vercel.app';
+  fetch(api + '/api/leads', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify(data) }).catch(function () {});
+  if (typeof gtag === 'function') { gtag('event', 'generate_lead', { event_category: 'board_prep_page', event_label: 'icse-class-10-java-programs-practice', value: 1 }); }
+  f.innerHTML = '<p class="bx-form-ok">Request received. A mentor will call you within a few hours to book the free demo class.</p>';
+  return false;
+};
+</script>
+<script>
+  window.addEventListener('load', function () {
+    var s = document.createElement('script');
+    s.src = 'https://www.googletagmanager.com/gtag/js?id=G-N8BM164YJP';
+    s.async = true;
+    document.head.appendChild(s);
+  });
+</script>
+<script src="/js/country-code-selector.js?v=20260820a" defer></script>
+    <script src="/js/pricing-data.generated.js?v=e0051cb24b"></script>
+    <script src="/js/international-pricing.js?v=5de1f542e5"></script>
+</body>
+</html>
