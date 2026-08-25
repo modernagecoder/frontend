@@ -68,6 +68,17 @@ const CLUSTERS = {
     siblingRe: /^\/(ap-computer-science-a-online-classes|ap-computer-science-principles-online-coaching|cambridge-igcse-computer-science-tuition|cambridge-a-level-computer-science-online-classes|uk-gcse-computer-science-tutoring|ib-computer-science-online-tuition|usaco-preparation-online-coaching|ioi-olympiad-informatics-training|python-certification-pcep-pcap-course|canadian-computing-competition-ccc-prep|agentic-coding-classes|model-context-protocol-mcp-course|rag-systems-course|ai-evaluations-course|context-engineering-course|how-to-think-like-a-programmer|how-to-actually-learn-to-code|how-to-read-code|how-to-debug-code|how-llms-actually-work|learn-to-build-ai|ai-and-machine-learning-classes-in-|ai-and-python-academy-|ai-agents-course-for-students-oman|python-to-ai-roadmap-for-students-oman|build-real-ai-projects-oman|machine-learning-for-school-students-oman|vibe-coding-vs-building-ai-oman|what-is-vibe-coding|vibe-coding-for-teens|vibe-coding-for-beginners|parents-guide-to-vibe-coding|vibe-coding-projects-for-students|learn-to-code-with-ai|ai-coding-course|build-apps-with-ai|ai-agents-for-teens|ai-literacy-for-students|should-my-child-learn-ai|best-ai-courses-for-teens-2026|ai-projects-for-kids|ai-classes-for-adults|one-on-one-ai-classes|coding-and-ai-classes-in-nassau|coding-and-ai-classes-in-bahamas|coding-classes-for-kids-in-nassau|python-and-ai-track-for-students-bahamas|one-to-one-coding-classes-in-nassau|github-portfolio-for-students-bahamas|coding-competitions-for-students-bahamas|year-round-coding-classes-vs-summer-camps-bahamas|coding-and-ai-alongside-bjc-and-bgcse-bahamas)/
   },
 
+  // Class 10 board-preparation cluster: five CBSE AI (417) pages and five ICSE
+  // Computer Applications (Java) pages on board-prep.css, "The Answer Sheet".
+  'board-prep': {
+    label: 'Class 10 board-prep cluster',
+    fileRe: /^(cbse-class-10-ai-classes-online|cbse-class-10-ai-syllabus-explained|python-for-cbse-class-10-ai|cbse-class-10-ai-board-exam-preparation|cbse-class-10-ai-project-and-practical-file|icse-class-10-java-classes-online|icse-class-10-computer-applications-syllabus-explained|icse-class-10-java-programs-practice|icse-class-10-bluej-java-coaching|icse-class-10-computer-applications-board-exam-preparation)\.html$/,
+    css: 'src/css/board-prep.css',
+    prefix: 'bx',
+    markets: ['cai', 'csy', 'cpy', 'cbe', 'cpf', 'ijv', 'isy', 'ipr', 'ibj', 'ibe'],
+    siblingRe: /^\/(cbse-class-10-ai-classes-online|cbse-class-10-ai-syllabus-explained|python-for-cbse-class-10-ai|cbse-class-10-ai-board-exam-preparation|cbse-class-10-ai-project-and-practical-file|icse-class-10-java-classes-online|icse-class-10-computer-applications-syllabus-explained|icse-class-10-java-programs-practice|icse-class-10-bluej-java-coaching|icse-class-10-computer-applications-board-exam-preparation)$/
+  },
+
   // The international growth cluster. Six half-built markets plus fourteen
   // sub-national spokes. See
   // docs/superpowers/specs/2026-08-15-international-growth-cluster-design.md

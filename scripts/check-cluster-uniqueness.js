@@ -78,6 +78,29 @@ const CLUSTERS = {
     ]
   },
 
+  // Class 10 board-preparation cluster (board-prep.css, prefix bx). The
+  // incumbents are the existing Class 10, CBSE and ICSE pages it is most
+  // likely to clone.
+  'board-prep': {
+    label: 'Class 10 board-prep cluster',
+    fileRe: /^(cbse-class-10-ai-classes-online|cbse-class-10-ai-syllabus-explained|python-for-cbse-class-10-ai|cbse-class-10-ai-board-exam-preparation|cbse-class-10-ai-project-and-practical-file|icse-class-10-java-classes-online|icse-class-10-computer-applications-syllabus-explained|icse-class-10-java-programs-practice|icse-class-10-bluej-java-coaching|icse-class-10-computer-applications-board-exam-preparation)\.html$/,
+    prefix: 'bx',
+    incumbents: [
+      'computer-applications-icse-class-10',
+      'java-programming-for-icse-students',
+      'python-for-class-10',
+      'coding-for-class-10',
+      'cbse-ai-curriculum-classes',
+      'ai-classes-for-cbse-class-6-to-8',
+      'coding-for-cbse-students',
+      'coding-for-icse-students',
+      'computer-science-class-11-cbse',
+      'computer-science-class-11-icse',
+      'java-programming-for-kids-teens',
+      'maths-class-10'
+    ]
+  },
+
   // The international growth cluster. Its members are SPOKES of country hubs,
   // so the hubs are the highest-risk incumbents, followed by the Build-AI page
   // for the same market, which is the true sibling most likely to collide.
@@ -178,7 +201,11 @@ const ALLOWED = [
 const SHARED_SUFFIXES = [
   'spec', 'price', 'review', 'proj', 'trust', 'form-panel', 'markets',
   'btn-row', 'hero-note', 'crumbs', 'eyebrow', 'course-code', 'capsule-q',
-  'band-head', 'chip', 'slot-time'
+  'band-head', 'chip', 'slot-time',
+  // board-prep cluster chrome: the batch timetable card is the same five
+  // times on five sibling pages by design, as are the question labels, the
+  // sibling-link strip and the live stamp.
+  'timetable', 'qlabel', 'siblings', 'stamp', 'pick-code'
 ];
 
 // Also strips cg-pick, the course strip under the hero: same catalogue, same

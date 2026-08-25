@@ -1974,4 +1974,8 @@
 # Global Build-AI cluster (ai-global.css). Inserted before the /* catch-all.
 /one-on-one-ai-classes /src/pages/one-on-one-ai-classes.html 200
 /one-on-one-ai-classes.md /src/pages/one-on-one-ai-classes.md 200
+
+# Class 10 board-prep cluster (board-prep.css). Inserted before the /* catch-all.
+/cbse-class-10-ai-classes-online /src/pages/cbse-class-10-ai-classes-online.html 200
+/cbse-class-10-ai-classes-online.md /src/pages/cbse-class-10-ai-classes-online.md 200
 /* /src/pages/404.html 404

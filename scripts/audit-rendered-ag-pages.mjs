@@ -12,7 +12,15 @@ import { fileURLToPath } from 'url';
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const require2 = createRequire(path.join(ROOT, 'package.json'));
 const { chromium } = require2('playwright');
-const SLUGS = [
+// Usage: node scripts/audit-rendered-ag-pages.mjs [--prefix=ag] [slug ...]
+// With no slugs, audits the vibe coding and AI series (prefix ag). Pass
+// --prefix=bx and slugs to audit the board-prep cluster, or any other cluster
+// whose picks, buttons and thumbnails follow the <prefix>-pick / <prefix>-btn
+// convention.
+const ARGS = process.argv.slice(2);
+const PREFIX = (ARGS.find(a => a.startsWith('--prefix=')) || '--prefix=ag').slice(9);
+const ARG_SLUGS = ARGS.filter(a => !a.startsWith('--'));
+const DEFAULT_SLUGS = [
   'what-is-vibe-coding','vibe-coding-for-teens','vibe-coding-for-beginners',
   'parents-guide-to-vibe-coding','vibe-coding-projects-for-students',
   'learn-to-code-with-ai','ai-coding-course','build-apps-with-ai',
@@ -20,6 +28,7 @@ const SLUGS = [
   'best-ai-courses-for-teens-2026','ai-projects-for-kids','ai-classes-for-adults',
   'one-on-one-ai-classes'
 ];
+const SLUGS = ARG_SLUGS.length ? ARG_SLUGS : DEFAULT_SLUGS;
 
 const MIME = { '.html':'text/html', '.css':'text/css', '.js':'text/javascript',
   '.webp':'image/webp', '.png':'image/png', '.svg':'image/svg+xml', '.ico':'image/x-icon', '.jpg':'image/jpeg' };
@@ -53,11 +62,11 @@ for (const slug of SLUGS) {
     await page.goto(`http://localhost:8765/${slug}`, { waitUntil: 'load', timeout: 30000 });
     await page.waitForTimeout(400);
 
-    const r = await page.evaluate(() => {
+    const r = await page.evaluate((PREFIX) => {
       const out = { overflow: 0, picks: 0, picksBroken: 0, tiny: [], btnBad: [], smallTap: 0 };
       out.overflow = document.documentElement.scrollWidth - document.documentElement.clientWidth;
       // pick thumbnails
-      document.querySelectorAll('.ag-pick-shot img').forEach(img => {
+      document.querySelectorAll('.' + PREFIX + '-pick-shot img').forEach(img => {
         out.picks++; if (!img.complete || img.naturalWidth === 0) out.picksBroken++;
       });
       // visible text under 12px
@@ -85,7 +94,7 @@ for (const slug of SLUGS) {
       }
       function lum(rgb) { const s = rgb.map(v => { v /= 255; return v <= 0.03928 ? v / 12.92 : Math.pow((v + 0.055) / 1.055, 2.4); }); return 0.2126 * s[0] + 0.7152 * s[1] + 0.0722 * s[2]; }
       function ratio(a, b) { const l1 = Math.max(lum(a), lum(b)), l2 = Math.min(lum(a), lum(b)); return (l1 + 0.05) / (l2 + 0.05); }
-      document.querySelectorAll('.ag-btn').forEach(b => {
+      document.querySelectorAll('.' + PREFIX + '-btn').forEach(b => {
         const cs = getComputedStyle(b);
         const fg = parse(cs.color); if (!fg) return;
         const bg = bgOf(b);
@@ -95,7 +104,7 @@ for (const slug of SLUGS) {
         if (rect.height > 0 && rect.height < 40) out.smallTap++;
       });
       return out;
-    });
+    }, PREFIX);
 
     const bad = [];
     if (errs.length) bad.push('js errors: ' + errs.join(' | '));
