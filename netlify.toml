@@ -8176,6 +8176,30 @@
   to = "/src/pages/icse-class-10-java-programs-practice.md"
   status = 200
 
+# Class 10 board-prep cluster (board-prep.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/icse-class-10-bluej-java-coaching"
+  to = "/src/pages/icse-class-10-bluej-java-coaching.html"
+  status = 200
+
+[[redirects]]
+  from = "/icse-class-10-bluej-java-coaching.md"
+  to = "/src/pages/icse-class-10-bluej-java-coaching.md"
+  status = 200
+
+# Class 10 board-prep cluster (board-prep.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/icse-class-10-computer-applications-board-exam-preparation"
+  to = "/src/pages/icse-class-10-computer-applications-board-exam-preparation.html"
+  status = 200
+
+[[redirects]]
+  from = "/icse-class-10-computer-applications-board-exam-preparation.md"
+  to = "/src/pages/icse-class-10-computer-applications-board-exam-preparation.md"
+  status = 200
+
 [[redirects]]
   from = "/*"
   to = "/src/pages/404.html"

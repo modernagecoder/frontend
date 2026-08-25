@@ -1,6 +1,6 @@
 ---
 title: "CBSE Class 10 AI Syllabus 2026-27 (417) Explained, Unit by Unit"
-description: "The CBSE Class 10 Artificial Intelligence (417) syllabus for 2026-27 explained unit by unit: hours, marks, the practical scheme, the suggested programs, the tools."
+description: "The CBSE Class 10 Artificial Intelligence (417) syllabus for 2026-27 explained unit by unit: hours, marks, the practical scheme, suggested programs and tools."
 canonical: https://learn.modernagecoders.com/cbse-class-10-ai-syllabus-explained
 source: src/pages/cbse-class-10-ai-syllabus-explained.html
 ---

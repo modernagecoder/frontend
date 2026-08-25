@@ -1,6 +1,6 @@
 ---
-title: "ICSE Class 10 Java Programs Practice | Section B, Family by Family"
-description: "ICSE Class 10 Java programs for Section B, family by family: patterns, menu-driven switch, arrays with search and sort, strings, and classes with constructors, in BlueJ."
+title: "ICSE Class 10 Java Programs Practice | Section B by Family"
+description: "ICSE Class 10 Java programs for Section B: patterns, menu-driven switch, arrays with search and sort, string handling and classes with constructors, in BlueJ."
 canonical: https://learn.modernagecoders.com/icse-class-10-java-programs-practice
 source: src/pages/icse-class-10-java-programs-practice.html
 ---

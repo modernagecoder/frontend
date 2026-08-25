@@ -1,6 +1,6 @@
 ---
 title: "CBSE Class 10 AI Board Exam Preparation | Theory and Practical"
-description: "How to prepare for the CBSE Class 10 AI (417) board exam: the 50-mark theory paper, marks-weighted revision, worked answers, the two-phase board system and a countdown."
+description: "CBSE Class 10 AI (417) board exam preparation: the 50-mark theory paper, marks-weighted revision, worked answers, the two-phase board system and a countdown."
 canonical: https://learn.modernagecoders.com/cbse-class-10-ai-board-exam-preparation
 source: src/pages/cbse-class-10-ai-board-exam-preparation.html
 ---

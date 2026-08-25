@@ -1,6 +1,6 @@
 ---
 title: "CBSE Class 10 AI Classes Online (417) | Live Mon and Wed 9 PM"
-description: "Live online CBSE Class 10 Artificial Intelligence (code 417) classes every Monday and Wednesday at 9 PM IST. Full 2026-27 syllabus, Python practicals, project file."
+description: "Live online CBSE Class 10 Artificial Intelligence (417) classes every Monday and Wednesday at 9 PM IST. Full 2026-27 syllabus, Python practicals, project file."
 canonical: https://learn.modernagecoders.com/cbse-class-10-ai-classes-online
 source: src/pages/cbse-class-10-ai-classes-online.html
 ---

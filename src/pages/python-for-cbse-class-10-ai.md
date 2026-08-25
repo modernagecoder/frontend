@@ -1,6 +1,6 @@
 ---
 title: "Python for CBSE Class 10 AI (417) | Unit 7 and the Practical File"
-description: "Python for CBSE Class 10 AI, code 417: the Advance Python unit, all eight suggested programs written out, NumPy, charts, CSV and images in Jupyter, and the file."
+description: "Python for CBSE Class 10 AI (417): the Advance Python unit, all eight suggested programs written out, NumPy, charts, CSV and images in Jupyter, and the file."
 canonical: https://learn.modernagecoders.com/python-for-cbse-class-10-ai
 source: src/pages/python-for-cbse-class-10-ai.html
 ---

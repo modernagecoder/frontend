@@ -1,6 +1,6 @@
 ---
 title: "CBSE Class 10 AI Project and Practical File | 50 Practical Marks"
-description: "The CBSE Class 10 AI (417) practical half explained: the 15-program file, the practical exam on Units 4 to 7, both vivas and the SDG-linked project, with a year plan."
+description: "CBSE Class 10 AI (417) practical half explained: the 15-program file, the practical exam on Units 4 to 7, both vivas, the SDG-linked project and a year plan."
 canonical: https://learn.modernagecoders.com/cbse-class-10-ai-project-and-practical-file
 source: src/pages/cbse-class-10-ai-project-and-practical-file.html
 ---

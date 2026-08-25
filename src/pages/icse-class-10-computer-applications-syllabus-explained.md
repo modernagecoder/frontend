@@ -1,6 +1,6 @@
 ---
 title: "ICSE Class 10 Computer Applications Syllabus 2026-27 Explained"
-description: "ICSE Class 10 Computer Applications syllabus for the 2027 exam, unit by unit: the eight Java units, the 100 plus 100 scheme, Sections A and B, internal assessment."
+description: "ICSE Class 10 Computer Applications syllabus for the 2027 exam, unit by unit: eight Java units, the 100 plus 100 scheme, Sections A and B, internal assessment."
 canonical: https://learn.modernagecoders.com/icse-class-10-computer-applications-syllabus-explained
 source: src/pages/icse-class-10-computer-applications-syllabus-explained.html
 ---

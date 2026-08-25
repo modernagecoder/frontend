@@ -451,6 +451,8 @@ Live online Class 10 board preparation, taught in small batches: CBSE Artificial
 - ICSE Class 10 Java classes online, live Tue 5:30 PM and Wed 8 PM IST: https://learn.modernagecoders.com/icse-class-10-java-classes-online
 - ICSE Class 10 Computer Applications syllabus explained: https://learn.modernagecoders.com/icse-class-10-computer-applications-syllabus-explained
 - ICSE Class 10 Java programs practice for Section B: https://learn.modernagecoders.com/icse-class-10-java-programs-practice
+- ICSE Class 10 BlueJ Java coaching: https://learn.modernagecoders.com/icse-class-10-bluej-java-coaching
+- ICSE Class 10 Computer Applications board exam preparation: https://learn.modernagecoders.com/icse-class-10-computer-applications-board-exam-preparation
 ## International Country Pages
 
 - United States: https://learn.modernagecoders.com/coding-classes-in-united-states
