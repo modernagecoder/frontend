@@ -1,0 +1,657 @@
+<!DOCTYPE html>
+<html lang="en-IN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Python for CBSE Class 10 AI (417) | Unit 7 and the Practical File</title>
+  <meta name="description" content="Python for CBSE Class 10 AI, code 417: the Advance Python unit, all eight suggested programs written out, NumPy, charts, CSV and images in Jupyter, and the file.">
+  <meta name="author" content="Modern Age Coders">
+  <link rel="canonical" href="https://learn.modernagecoders.com/python-for-cbse-class-10-ai">
+  <link rel="alternate" type="text/markdown" href="/src/pages/python-for-cbse-class-10-ai.md" title="Markdown version for AI agents">
+
+  <link rel="icon" href="/favicon.ico" type="image/x-icon">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
+  <meta name="theme-color" content="#2C5E4F">
+
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="https://learn.modernagecoders.com/python-for-cbse-class-10-ai">
+  <meta property="og:title" content="Python for CBSE Class 10 AI (417) | Unit 7 and the Practical File">
+  <meta property="og:description" content="The eight Python programs CBSE suggests for the Class 10 AI practical file, written out and explained, plus the Jupyter setup and the exam twists each one gets.">
+  <meta property="og:image" content="https://learn.modernagecoders.com/images/og-modern-age-coders.png">
+  <meta property="og:site_name" content="Modern Age Coders">
+  <meta property="og:locale" content="en_IN">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Python for CBSE Class 10 AI">
+  <meta name="twitter:description" content="All eight CBSE suggested programs for the 417 practical file, written out, with the Jupyter setup and the exam twists.">
+  <meta name="twitter:image" content="https://learn.modernagecoders.com/images/og-modern-age-coders.png">
+
+  <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/board-prep.css?v=20260825">
+
+  <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-N8BM164YJP');gtag('config','AW-16910316353');</script>
+
+  <script type="application/ld+json" data-price-scope="coding.india">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "EducationalOrganization",
+        "@id": "https://learn.modernagecoders.com/#org",
+        "name": "Modern Age Coders",
+        "url": "https://learn.modernagecoders.com/",
+        "email": "contact@modernagecoders.com",
+        "telephone": "+91-91233-66161",
+        "foundingDate": "2020",
+        "areaServed": { "@type": "Country", "name": "India" },
+        "knowsAbout": ["Python", "NumPy", "Pandas", "Matplotlib", "Jupyter Notebook", "CBSE Artificial Intelligence 417", "Class 10 Practical File"]
+      },
+      {
+        "@type": "TechArticle",
+        "@id": "https://learn.modernagecoders.com/python-for-cbse-class-10-ai#article",
+        "headline": "Python for CBSE Class 10 AI (417): Unit 7 and the Practical File",
+        "description": "The eight Python programs CBSE suggests for the Class 10 AI practical file, written out and explained, plus the Jupyter setup and the exam twists each one gets.",
+        "inLanguage": "en",
+        "isAccessibleForFree": true,
+        "proficiencyLevel": "Beginner",
+        "author": { "@id": "https://learn.modernagecoders.com/#org" },
+        "publisher": { "@id": "https://learn.modernagecoders.com/#org" },
+        "mainEntityOfPage": "https://learn.modernagecoders.com/python-for-cbse-class-10-ai"
+      },
+      {
+        "@type": "Course",
+        "@id": "https://learn.modernagecoders.com/python-for-cbse-class-10-ai#course",
+        "name": "Python for CBSE Class 10 AI: Advance Python and the Practical File",
+        "description": "Live online Wednesday practical labs for CBSE Class 10 AI (417) students: Jupyter Notebook set-up, the Advance Python unit, all eight CBSE suggested programs and the additional programs that complete a 15-plus program practical file, with practical-exam rehearsal on unseen variations.",
+        "url": "https://learn.modernagecoders.com/python-for-cbse-class-10-ai",
+        "inLanguage": "en",
+        "provider": { "@id": "https://learn.modernagecoders.com/#org" },
+        "isAccessibleForFree": false,
+        "offers": { "@type": "Offer", "price": "1499", "priceCurrency": "INR", "category": "Monthly fee, group batch", "availability": "https://schema.org/InStock" },
+        "hasCourseInstance": {
+          "@type": "CourseInstance",
+          "courseMode": "online",
+          "courseSchedule": { "@type": "Schedule", "repeatFrequency": "P1W", "byDay": ["Monday", "Wednesday"], "startTime": "21:00", "scheduleTimezone": "Asia/Kolkata" },
+          "location": { "@type": "VirtualLocation", "url": "https://learn.modernagecoders.com/python-for-cbse-class-10-ai" }
+        }
+      },
+      {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://learn.modernagecoders.com/" },
+          { "@type": "ListItem", "position": 2, "name": "Class 10 AI classes online", "item": "https://learn.modernagecoders.com/cbse-class-10-ai-classes-online" },
+          { "@type": "ListItem", "position": 3, "name": "Python for Class 10 AI", "item": "https://learn.modernagecoders.com/python-for-cbse-class-10-ai" }
+        ]
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+          {"@type": "Question", "name": "How much Python does CBSE Class 10 AI actually need?", "acceptedAnswer": {"@type": "Answer", "text": "Less than the word Advance suggests, and more than most students have. The unit's own learning outcomes are working in Jupyter Notebook, creating virtual environments, installing packages, writing basic programs with variables, data types, operators and control structures, and using built-in functions and libraries. The suggested programs then use four libraries: NumPy, Matplotlib, Pandas and an image library. A student who can write a loop, index a list and call a library function has everything the file and the practical exam demand."}},
+          {"@type": "Question", "name": "Which libraries must be installed for the practical file?", "acceptedAnswer": {"@type": "Answer", "text": "For CBSE's eight suggested programs: NumPy for the statistics program, Matplotlib for the line and scatter charts and for displaying an image, Pandas for the two CSV programs, and an image library, OpenCV or Pillow, for reading an image and finding its shape. All four install with one pip command inside the virtual environment the curriculum asks students to create, and we do that installation together in the first Wednesday lab."}},
+          {"@type": "Question", "name": "Does NumPy have a mode function?", "acceptedAnswer": {"@type": "Answer", "text": "No, and this trips up more Class 10 files than any other detail. NumPy gives you mean and median directly, but the mode comes from SciPy's stats module or from Python's own statistics module. CBSE's program title says mean, median and mode using NumPy, so the accepted file version computes mean and median with NumPy and the mode with SciPy or statistics alongside it, and a student who can explain why in the viva has turned a trap into a mark."}},
+          {"@type": "Question", "name": "Jupyter Notebook or IDLE: which should my child use?", "acceptedAnswer": {"@type": "Answer", "text": "Jupyter, because the 2026-27 curriculum names it explicitly in the Advance Python recap and because it is where charts and images display inline, which the chart and image programs need. IDLE still works for plain programs, but a file built in Jupyter shows outputs next to code, which examiners like and which makes the viva easier. We set Jupyter up in the first lab and never look back."}},
+          {"@type": "Question", "name": "Is any Python asked in the theory paper?", "acceptedAnswer": {"@type": "Answer", "text": "No. Advance Python carries practical hours only and no theory marks; the theory paper tests the concept units. Python earns its marks in Part C: the 15-mark practical file and the 15-mark practical examination, which is set on Units 4 to 7, plus a share of the viva. That is 30 marks that hinge on being able to write and adapt a short program, which is why Wednesdays exist."}},
+          {"@type": "Question", "name": "What does the practical exam actually ask?", "acceptedAnswer": {"@type": "Answer", "text": "A program in the family of the suggested list, usually with a twist: different numbers, an extra condition, a label on a chart, a different column from the CSV. It is set on Units 4 to 7, so an Orange task from the no-code units can appear alongside a Python one. The students who do well are the ones who practised variations, not the ones who practised reproduction, which is the whole design of our Wednesday labs."}},
+          {"@type": "Question", "name": "Do you teach only CBSE's eight programs or more?", "acceptedAnswer": {"@type": "Answer", "text": "More, because the file needs at least fifteen and because variation is the skill. Beyond the eight, students write a bar chart, a marks dictionary with a lookup, a bag-of-words counter that connects to the NLP unit, a grayscale conversion of an image, a CSV filter and a small statistics report, all in the same four libraries. That makes eighteen or so programs the student wrote and can defend, which is the file examiners reward."}},
+          {"@type": "Question", "name": "What laptop does the practical work need?", "acceptedAnswer": {"@type": "Answer", "text": "Any Windows or Mac laptop from roughly the last eight years that can run a browser and Jupyter, which is nearly all of them. Nothing here is heavy: NumPy, Pandas and Matplotlib run comfortably on modest machines. A tablet or phone is not enough for the labs, because the file has to be written, run and shown from a real keyboard."}},
+          {"@type": "Question", "name": "Does this Python carry forward to Class 11 and 12?", "acceptedAnswer": {"@type": "Answer", "text": "Directly. The Class 11 and 12 AI subject, code 843, and the Computer Science and Informatics Practices subjects all build on exactly these libraries, especially Pandas and Matplotlib. A Class 10 student who genuinely understands the eight programs on this page rather than storing them arrives in Class 11 ahead, and the companion Python for Teens course exists for the ones who want to keep going."}},
+          {"@type": "Question", "name": "How do we start?", "acceptedAnswer": {"@type": "Answer", "text": "Send the form and a mentor books a free demo class for the Monday and Wednesday batch. Ask for a Wednesday if Python is the worry: the demo then is a real lab, one suggested program written from scratch in Jupyter with the teacher, broken on purpose and fixed. No card, no enrolment fee, and an honest read on where your child's Python stands."}}
+        ]
+      }
+    ]
+  }
+  </script>
+</head>
+
+<body class="bx-root bx-cpy">
+
+<nav class="bx-nav">
+  <div class="bx-wrap bx-nav-inner">
+    <a class="bx-nav-brand" href="/">
+      <img src="/images/logo.svg" alt="Modern Age Coders logo" width="30" height="30" fetchpriority="high">
+      <span>Modern Age Coders</span>
+      <span class="bx-brand-tag">417 &middot; Advance Python</span>
+    </a>
+    <div class="bx-nav-links">
+      <a href="#marks">Where Python earns marks</a>
+      <a href="#programs">The eight programs</a>
+      <a href="#setup">Jupyter set-up</a>
+      <a href="#fees">Fees</a>
+      <a href="#start" class="bx-btn">Free demo class</a>
+    </div>
+  </div>
+</nav>
+
+<header class="bx-hero">
+  <div class="bx-wrap">
+    <nav class="bx-crumbs" aria-label="Breadcrumb">
+      <a href="/">Home</a> <span>/</span> <a href="/cbse-class-10-ai-classes-online">Class 10 AI classes</a> <span>/</span> <span>Python for Class 10 AI</span>
+    </nav>
+    <div class="bx-hero-grid">
+      <div>
+        <p class="bx-eyebrow">CBSE Class 10 &middot; AI code 417 &middot; Unit 7, Advance Python &middot; Part C practical</p>
+        <h1>Python for CBSE Class 10 AI: the eight programs the board suggests, and the file they build.</h1>
+        <p class="bx-lede">The 2026-27 curriculum gives Advance Python ten practical hours and no theory marks, then quietly makes 30 of the 100 marks depend on it: a 15-mark practical file of at least fifteen programs, and a 15-mark practical examination. CBSE even publishes the eight programs it suggests, from adding two lists to finding an image's shape. This page writes all eight out properly, explains the two traps hidden in them, shows the Jupyter set-up the curriculum names, and lays out how the Wednesday lab turns them into a file a student can defend in a viva rather than a folder they copied.</p>
+        <div class="bx-btn-row">
+          <a href="#programs" class="bx-btn">Read the eight programs</a>
+          <a href="/cbse-class-10-ai-classes-online" class="bx-btn bx-btn--ghost">See the Wednesday lab</a>
+          <a href="https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders.%20I%20want%20help%20with%20Python%20for%20CBSE%20Class%2010%20AI%20417." class="bx-btn bx-btn--ghost" target="_blank" rel="noopener" onclick="if(window.gtag)gtag('event','whatsapp_click',{page_topic:'cbse10-ai-python'});">Ask on WhatsApp</a>
+        </div>
+        <p class="bx-hero-note">Source: CBSE curriculum 2026-27, AI (417) Class X, Unit 7 and Part C &middot; live lab every Wednesday 9 PM IST</p>
+      </div>
+
+      <aside class="bx-timetable" aria-label="Where Python sits in the marks">
+        <p class="bx-tt-title"><span>Where Python sits in 417</span><b>Part C</b></p>
+        <div class="bx-tt-row"><span class="bx-tt-day">Practical file, 15+ programs</span><span class="bx-tt-time">15<small>marks</small></span></div>
+        <div class="bx-tt-row"><span class="bx-tt-day">Practical exam, Units 4 to 7</span><span class="bx-tt-time">15<small>marks</small></span></div>
+        <div class="bx-tt-row"><span class="bx-tt-day">Advance Python, Unit 7</span><span class="bx-tt-time">10<small>hours</small></span></div>
+        <p class="bx-tt-zones"><b>Theory marks for Unit 7:</b> none. <b>The lab:</b> Wednesday, 9:00 PM IST, one file program per week in Jupyter Notebook.</p>
+        <div class="bx-tt-foot">
+          <span class="bx-stamp">Live &middot; 100% online</span>
+          <span class="bx-stamp">Jupyter, NumPy, Pandas, Matplotlib</span>
+        </div>
+        <p class="bx-trust" style="margin-top:14px"><span class="bx-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</span>Rated 4.9 across 547 Google reviews</p>
+      </aside>
+    </div>
+  </div>
+</header>
+
+<section class="bx-section" id="picks">
+  <div class="bx-wrap">
+    <div class="bx-section-head">
+      <p class="bx-qlabel">Start here</p>
+      <h2>The courses that teach this Python</h2>
+      <p class="bx-lede">The 417 batch for the file itself, and two companions for the student who discovers on a Wednesday that Python is the part they like.</p>
+    </div>
+    <div class="bx-picks">
+      <a class="bx-pick" href="/courses/cbse-computational-thinking-and-ai-course-for-teens-classes-9-to-12-code-417-843">
+        <div class="bx-pick-shot"><img src="/images/ct-ai-teens.webp" alt="CBSE Computational Thinking and AI for Teens course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="bx-pick-body">
+          <p class="bx-pick-code">The file / 417 Wednesday lab</p>
+          <h3>CBSE AI for Class 9 to 12</h3>
+          <p>The Class 10 batch whose Wednesday lab writes the eight suggested programs and the ten more that make a file worth defending.</p>
+          <span class="bx-pick-go">Open the syllabus &rarr;</span>
+        </div>
+      </a>
+      <a class="bx-pick" href="/courses/python-complete-masterclass-teens">
+        <div class="bx-pick-shot"><img src="/images/python-teens.webp" alt="Python for Teens course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="bx-pick-body">
+          <p class="bx-pick-code">Beyond Unit 7 / the language</p>
+          <h3>Python for Teens</h3>
+          <p>The full language, functions to files to real projects, for the student who wants Python to be more than a practical file.</p>
+          <span class="bx-pick-go">Open the syllabus &rarr;</span>
+        </div>
+      </a>
+      <a class="bx-pick" href="/courses/data-science-course-for-teens-python-data">
+        <div class="bx-pick-shot"><img src="/images/data-science-teens.webp" alt="Data Science for Teens course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="bx-pick-body">
+          <p class="bx-pick-code">Beyond the CSV programs / data</p>
+          <h3>Data Science for Teens</h3>
+          <p>Pandas and Matplotlib taken seriously: the two CSV programs and two chart programs on this page are its first week.</p>
+          <span class="bx-pick-go">Open the syllabus &rarr;</span>
+        </div>
+      </a>
+    </div>
+  </div>
+</section>
+
+<section class="bx-section">
+  <div class="bx-wrap">
+    <div class="bx-capsule">
+      <p class="bx-capsule-q">Ans. The short version</p>
+      <p>Python in CBSE Class 10 AI (417) is Unit 7, Advance Python: ten practical hours, no theory marks, and the foundation of 30 practical marks, the 15-mark file of at least fifteen programs and the 15-mark practical examination on Units 4 to 7. The curriculum names Jupyter Notebook, virtual environments and packages, and suggests eight programs: adding two lists, mean, median and mode with NumPy, a line chart, a scatter chart, reading a CSV to show ten rows, showing a CSV's information, displaying an image, and finding an image's shape. They need four libraries, NumPy, Matplotlib, Pandas and an image library, and two traps: NumPy has no mode function, and every program in the practical exam arrives with a twist. Modern Age Coders writes them all, plus ten more, in a live Wednesday 9 PM lab.</p>
+    </div>
+  </div>
+</section>
+
+<section class="bx-section bx-section--tint" id="marks">
+  <div class="bx-wrap">
+    <div class="bx-section-head">
+      <p class="bx-qlabel">Q1. Where does Python earn its marks?</p>
+      <h2>No theory marks, thirty practical marks: the strange shape of Unit 7</h2>
+      <p class="bx-lede">The ledger row for Advance Python reads ten practical hours and a blank in the theory column, which fools families into treating it as minor. Follow the marks instead.</p>
+    </div>
+    <div class="bx-grid-2" style="align-items:start">
+      <div class="bx-table-wrap">
+        <table class="bx-marks">
+          <thead><tr><th scope="col">Where Python is assessed</th><th scope="col">Marks</th><th scope="col">Share of 100</th></tr></thead>
+          <tbody>
+            <tr><td>Practical file, minimum 15 programs, most of them Python</td><td class="bx-num">15</td><td><span class="bx-bar"><span style="width:15%"></span></span></td></tr>
+            <tr><td>Practical examination on Units 4 to 7, Python or Orange task</td><td class="bx-num">15</td><td><span class="bx-bar"><span style="width:15%"></span></span></td></tr>
+            <tr><td>Viva voce, questions on the file's programs</td><td class="bx-num">5</td><td><span class="bx-bar"><span style="width:5%"></span></span></td></tr>
+            <tr><td>Project, if built in Python rather than Orange</td><td class="bx-num">up to 10</td><td><span class="bx-bar"><span style="width:10%"></span></span></td></tr>
+            <tr><td>Theory paper questions on Unit 7</td><td class="bx-num">0</td><td><span class="bx-bar"><span style="width:0%"></span></span></td></tr>
+            <tr class="bx-total"><td>Marks that depend on writing Python</td><td class="bx-num">30 to 45</td><td></td></tr>
+          </tbody>
+        </table>
+      </div>
+      <div>
+        <p>
+          Thirty marks certain, up to forty-five if the project is coded, and not one of them is
+          earned by reproduction: the file is checked, the practical exam is unseen, and the viva
+          asks why. That is a third of the subject riding on ten curriculum hours, which is the
+          least time per mark of any unit and the reason school periods alone rarely produce a
+          confident file.
+        </p>
+        <p>
+          It also explains our Wednesday lab. One suggested program per week from the first month,
+          written by the student in Jupyter, then broken with a wrong input and fixed, then
+          explained back in one sentence. By November there are eighteen programs in the file and
+          none of them is a photograph. The full marks scheme, including the theory units, is on
+          <a class="bx-link" href="/cbse-class-10-ai-syllabus-explained">the syllabus explained</a>.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="bx-section" id="programs">
+  <div class="bx-wrap">
+    <div class="bx-section-head">
+      <p class="bx-qlabel">Q2. What are the eight suggested programs?</p>
+      <h2>CBSE's suggested list, written out the way a full-marks file writes them</h2>
+      <p class="bx-lede">Every program below runs as shown in a Jupyter cell. Read the notes under each; the traps are where the marks move.</p>
+    </div>
+
+    <p class="bx-qlabel">Programs 1 and 2 &middot; lists and statistics</p>
+    <div class="bx-code-pair">
+<figure class="bx-code">
+  <figcaption class="bx-code-head"><b>1. Add the elements of two lists</b><span>CBSE suggested program</span></figcaption>
+  <pre>a = [12, 7, 30, 5]
+b = [8, 3, 10, 15]
+
+total = []
+for i in range(len(a)):
+    total.append(a[i] + b[i])
+
+print("Sum of lists:", total)
+
+<i># Output: Sum of lists: [20, 10, 40, 20]</i>
+<b># One-line version students should also know:</b>
+total = [x + y for x, y in zip(a, b)]</pre>
+  <p class="bx-code-note">The loop version shows the examiner you understand indexing; the zip version shows you understand Python. A good file has the first with the second as a comment.</p>
+</figure>
+<figure class="bx-code">
+  <figcaption class="bx-code-head"><b>2. Mean, median and mode using NumPy</b><span>CBSE suggested program</span></figcaption>
+  <pre>import numpy as np
+from scipy import stats
+
+marks = np.array([72, 65, 88, 91, 65, 70, 88, 65])
+
+print("Mean:", np.mean(marks))
+print("Median:", np.median(marks))
+print("Mode:", stats.mode(marks, keepdims=False).mode)
+
+<i># Output: Mean: 75.5 Median: 71.0 Mode: 65</i>
+<b># Trap: NumPy has no mode function.</b>
+<b># SciPy stats (or statistics.mode) supplies it.</b></pre>
+  <p class="bx-code-note">The single most common error in Class 10 files is np.mode, which does not exist. Knowing why, and saying so in the viva, is worth more than the program.</p>
+</figure>
+    </div>
+
+    <p class="bx-qlabel" style="margin-top:36px">Programs 3 and 4 &middot; charts with Matplotlib</p>
+    <div class="bx-code-pair">
+<figure class="bx-code">
+  <figcaption class="bx-code-head"><b>3. Line chart from (2,5) to (9,10)</b><span>CBSE suggested program</span></figcaption>
+  <pre>import matplotlib.pyplot as plt
+
+x = [2, 9]
+y = [5, 10]
+
+plt.plot(x, y, marker="o")
+plt.title("Line chart from (2,5) to (9,10)")
+plt.xlabel("x")
+plt.ylabel("y")
+plt.show()
+
+<i># In Jupyter the chart appears under the cell.</i></pre>
+  <p class="bx-code-note">Title and axis labels are not decoration: a chart without them is the first thing a practical examiner marks down, and adding them is a two-second habit.</p>
+</figure>
+<figure class="bx-code">
+  <figcaption class="bx-code-head"><b>4. Scatter chart for the given points</b><span>CBSE suggested program</span></figcaption>
+  <pre>import matplotlib.pyplot as plt
+
+x = [2, 9, 8, 5, 6]
+y = [5, 10, 3, 7, 18]
+
+plt.scatter(x, y)
+plt.title("Scatter chart of five points")
+plt.xlabel("x")
+plt.ylabel("y")
+plt.show()
+
+<b># Points: (2,5) (9,10) (8,3) (5,7) (6,18)</b></pre>
+  <p class="bx-code-note">Students often swap plot for scatter and lose the mark for the wrong chart type. The exam twist here is usually a sixth point or a colour, both one-line changes for a student who reads the code.</p>
+</figure>
+    </div>
+
+    <p class="bx-qlabel" style="margin-top:36px">Programs 5 and 6 &middot; CSV files with Pandas</p>
+    <div class="bx-code-pair">
+<figure class="bx-code">
+  <figcaption class="bx-code-head"><b>5. Read a CSV and display 10 rows</b><span>CBSE suggested program</span></figcaption>
+  <pre>import pandas as pd
+
+df = pd.read_csv("students.csv")
+
+print(df.head(10))
+
+<i># head(10) shows the first ten rows.</i>
+<b># Exam twist: "display the last 5 rows"</b>
+<b># becomes df.tail(5). Same idea, one word.</b></pre>
+  <p class="bx-code-note">The file must exist beside the notebook, and the student must know that. Practical exams are lost to a wrong filename more often than to wrong Python.</p>
+</figure>
+<figure class="bx-code">
+  <figcaption class="bx-code-head"><b>6. Read a CSV and display its information</b><span>CBSE suggested program</span></figcaption>
+  <pre>import pandas as pd
+
+df = pd.read_csv("students.csv")
+
+df.info()
+
+<i># Columns, non-null counts, data types.</i>
+print(df.describe())
+<i># Count, mean, min, max per numeric column.</i></pre>
+  <p class="bx-code-note">Info and describe answer different questions, and the viva loves asking which is which. Knowing that info shows types and describe shows statistics is a guaranteed mark.</p>
+</figure>
+    </div>
+
+    <p class="bx-qlabel" style="margin-top:36px">Programs 7 and 8 &middot; images</p>
+    <div class="bx-code-pair">
+<figure class="bx-code">
+  <figcaption class="bx-code-head"><b>7. Read an image and display it</b><span>CBSE suggested program</span></figcaption>
+  <pre>import matplotlib.pyplot as plt
+import matplotlib.image as mpimg
+
+img = mpimg.imread("photo.jpg")
+
+plt.imshow(img)
+plt.axis("off")
+plt.show()
+
+<i># The image appears under the cell in Jupyter.</i></pre>
+  <p class="bx-code-note">This is why the curriculum names Jupyter: an image displays inline. In IDLE this program opens a window that vanishes on some machines, and the student concludes their code is wrong.</p>
+</figure>
+<figure class="bx-code">
+  <figcaption class="bx-code-head"><b>8. Read an image and identify its shape</b><span>CBSE suggested program</span></figcaption>
+  <pre>import cv2
+
+img = cv2.imread("photo.jpg")
+
+print("Shape:", img.shape)
+
+<i># Output like: Shape: (720, 1280, 3)</i>
+<b># height, width, channels: 3 means RGB.</b>
+<b># This is Unit 5 (Computer Vision)</b>
+<b># arriving inside Unit 7.</b></pre>
+  <p class="bx-code-note">The shape connects two units: an image is numbers, height by width by channels, exactly as the Computer Vision theory says. A student who explains the 3 has just answered a Unit 5 question in the practical viva.</p>
+</figure>
+    </div>
+
+    <p class="bx-mt-40">
+      Eight programs, four libraries, two traps, and one pattern that runs through all of them:
+      every program has an obvious variation an examiner can ask for, and the file that scores
+      is the one whose author can make that variation in a minute. Our Wednesday lab drills
+      exactly that, and it is why the batch page describes the lab as
+      <a class="bx-link" href="/cbse-class-10-ai-classes-online">one program per week, broken and fixed</a>
+      rather than as eight programs typed in.
+    </p>
+  </div>
+</section>
+
+<section class="bx-section bx-section--deep" id="setup">
+  <div class="bx-wrap">
+    <div class="bx-section-head">
+      <p class="bx-qlabel">Q3. How is the environment set up?</p>
+      <h2>The recap the curriculum asks for: Jupyter, a virtual environment, packages</h2>
+      <p class="bx-lede">Unit 7 opens with exactly these three skills. Done once in the first lab, they never need doing again.</p>
+    </div>
+    <ol class="bx-steps">
+      <li class="bx-step"><h4>Install Python and check it answers</h4><p>Python from python.org, with the add-to-PATH box ticked on Windows. Then one command in a terminal, python --version, and the number that comes back is the first thing the student has ever asked a computer in its own language.</p></li>
+      <li class="bx-step"><h4>Create a virtual environment for the AI file</h4><p>python -m venv ai417, then activate it. The curriculum names this step because it is how real Python work is organised, and because a student who understands it never again breaks one project by installing something for another.</p></li>
+      <li class="bx-step"><h4>Install the four libraries in one line</h4><p>pip install numpy pandas matplotlib opencv-python scipy jupyter. That is every library the eight programs need, plus SciPy for the mode trap and Jupyter itself. Five minutes on an ordinary connection.</p></li>
+      <li class="bx-step"><h4>Launch Jupyter and write the first cell</h4><p>jupyter notebook opens the browser interface; a new notebook, one cell, print("417 file, program 1"), and the run button. From here on, every Wednesday adds a cell block with a program, its output and a one-line comment saying what it does, which is the file taking shape.</p></li>
+      <li class="bx-step"><h4>Keep the data files beside the notebook</h4><p>students.csv and photo.jpg live in the same folder as the notebook, so read_csv and imread find them by name. Half of all practical-day panic is a file in the wrong folder, and the habit that prevents it costs nothing.</p></li>
+    </ol>
+  </div>
+</section>
+
+<section class="bx-section" id="twists">
+  <div class="bx-wrap">
+    <div class="bx-section-head">
+      <p class="bx-qlabel">Q4. What does the practical exam change?</p>
+      <h2>Each suggested program, and the twist it usually arrives with</h2>
+      <p class="bx-lede">The practical examination is set on Units 4 to 7 and is not the file re-typed. This is how the eight programs tend to reappear, and what a prepared student does with each.</p>
+    </div>
+    <div class="bx-table-wrap">
+      <table class="bx-table">
+        <thead><tr><th scope="col">Suggested program</th><th scope="col">The likely twist</th><th scope="col">What it tests</th></tr></thead>
+        <tbody>
+          <tr><td>Add two lists</td><td>Multiply them, or add three lists, or lists of unequal length</td><td>Indexing and loops, not memory</td></tr>
+          <tr><td>Mean, median, mode</td><td>Only marks above a cutoff, or a second list to compare</td><td>Array filtering and reading output</td></tr>
+          <tr><td>Line chart</td><td>Three points instead of two, a title with the student's name</td><td>Understanding x and y lists</td></tr>
+          <tr><td>Scatter chart</td><td>A sixth point, a colour, or a grid</td><td>Knowing the function's arguments</td></tr>
+          <tr><td>CSV, first ten rows</td><td>Last five rows, or only one column</td><td>head, tail and column selection</td></tr>
+          <tr><td>CSV information</td><td>Count the rows, or the mean of one column</td><td>info versus describe versus a column mean</td></tr>
+          <tr><td>Display an image</td><td>Display it in grayscale, or two images side by side</td><td>Arguments to imread and imshow</td></tr>
+          <tr><td>Image shape</td><td>Print only the width, or the number of pixels</td><td>Indexing a tuple and multiplying its parts</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <p class="bx-mt-40">
+      Every twist in the middle column is a one-line change for a student who understands the
+      program and an impossible one for a student who stored it. That is the entire difference
+      between the two students on the
+      <a class="bx-link" href="/cbse-class-10-ai-board-exam-preparation">board exam preparation page</a>,
+      and the practical-exam rehearsals in our lab are built from this table.
+    </p>
+  </div>
+</section>
+
+<section class="bx-section bx-section--tint" id="beyond">
+  <div class="bx-wrap">
+    <div class="bx-section-head">
+      <p class="bx-qlabel">Q5. What fills the file past eight?</p>
+      <h2>Ten more programs, in the same four libraries, that connect to the other units</h2>
+    </div>
+    <div class="bx-grid-2" style="align-items:start">
+      <ul class="bx-check">
+        <li class="bx-done"><b>A bar chart of marks by subject</b>, the third chart type after line and scatter.</li>
+        <li class="bx-done"><b>A marks dictionary with a lookup</b>, so the student meets keys and values before Class 11 does.</li>
+        <li class="bx-done"><b>A bag-of-words counter</b> for two sentences, which is the Unit 6 theory question written as code.</li>
+        <li class="bx-done"><b>A grayscale conversion of an image</b>, connecting Unit 5's grayscale-versus-RGB idea to a running program.</li>
+        <li class="bx-done"><b>A CSV filter</b>: rows where a column passes a condition, the Pandas version of the NumPy filter above.</li>
+      </ul>
+      <ul class="bx-check">
+        <li class="bx-done"><b>A small statistics report</b> that prints mean, median, minimum and maximum for every numeric column.</li>
+        <li class="bx-done"><b>A histogram of one column</b>, the chart that makes the Statistical Data unit's ideas visible.</li>
+        <li class="bx-done"><b>A train-test split by hand</b>, slicing a list eighty-twenty, so Unit 3's idea has a program behind it.</li>
+        <li class="bx-done"><b>An accuracy calculator</b>: predicted against actual labels, matches divided by total, Unit 3 in six lines.</li>
+        <li class="bx-done"><b>A menu program</b> that runs any of the above on request, which is the viva's favourite thing to see.</li>
+      </ul>
+    </div>
+    <p class="bx-mt-40">
+      Eighteen programs, all short, all written by the student, and half of them tied to a theory
+      unit, so the file doubles as revision. How the file, the project and both vivas are scheduled
+      across the year is on
+      <a class="bx-link" href="/cbse-class-10-ai-project-and-practical-file">the project and practical file page</a>.
+    </p>
+  </div>
+</section>
+
+<section class="bx-section bx-section--deep" id="fees">
+  <div class="bx-wrap">
+    <div class="bx-section-head">
+      <p class="bx-qlabel">Q6. What does the batch cost?</p>
+      <h2>Monthly fees, the same for every course we teach</h2>
+      <p class="bx-lede">Billed monthly, no admission fee, stop at any month end. The free demo class comes first, and for this page it can be a Wednesday lab.</p>
+    </div>
+    <div class="bx-grid-3">
+      <div class="bx-price bx-price--feature">
+        <p class="bx-price-name">Group batch &middot; Mon and Wed 9 PM</p>
+        <p class="bx-price-amt"><span data-price="coding.india.group">₹1,499</span></p>
+        <p class="bx-price-alt">per month</p>
+        <ul><li>Five to eight students, one teacher all year</li><li>Wednesday lab: one file program a week, in Jupyter</li><li>Monday theory, Part A and the concept units</li><li>Certificate on completion</li></ul>
+        <a href="#start" class="bx-btn">Book the free demo</a>
+      </div>
+      <div class="bx-price" data-india-only="true">
+        <p class="bx-price-name">Mini batch</p>
+        <p class="bx-price-amt"><span data-price="coding.india.miniBatch">₹2,999</span></p>
+        <p class="bx-price-alt">per month</p>
+        <ul><li>Three to four students</li><li>Other timings than the Monday and Wednesday batch</li><li>Every program written with the teacher watching</li></ul>
+        <a href="#start" class="bx-btn bx-btn--ghost">Ask about timings</a>
+      </div>
+      <div class="bx-price">
+        <p class="bx-price-name">One to one</p>
+        <p class="bx-price-amt"><span data-price="coding.india.personal">₹4,999</span></p>
+        <p class="bx-price-alt">per month</p>
+        <ul><li>Private teaching on your own schedule</li><li>The file built at the student's pace</li><li>The usual choice for a student behind on Python in October</li></ul>
+        <a href="#start" class="bx-btn bx-btn--ghost">Enquire</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="bx-section" id="reviews">
+  <div class="bx-wrap">
+    <div class="bx-section-head">
+      <p class="bx-qlabel">What families say</p>
+      <h2>Rated 4.9 across 547 Google reviews</h2>
+      <p class="bx-lede">Real reviews from real families. We neither write nor commission them.</p>
+    </div>
+    <div class="bx-grid-3">
+      <article class="bx-review"><p class="bx-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p><p class="bx-review-text">"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."</p><p class="bx-review-name">Ria Mukherjee</p><p class="bx-review-role">Parent</p></article>
+      <article class="bx-review"><p class="bx-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p><p class="bx-review-text">"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."</p><p class="bx-review-name">Samriddha Mondal</p><p class="bx-review-role">Student</p></article>
+      <article class="bx-review"><p class="bx-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p><p class="bx-review-text">"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."</p><p class="bx-review-name">Vansh Agarwal</p><p class="bx-review-role">Student</p></article>
+      <article class="bx-review"><p class="bx-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p><p class="bx-review-text">"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."</p><p class="bx-review-name">Sonam Oswal</p><p class="bx-review-role">Parent of Dhairya</p></article>
+      <article class="bx-review"><p class="bx-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p><p class="bx-review-text">"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."</p><p class="bx-review-name">Sonu Goyal</p><p class="bx-review-role">Parent</p></article>
+      <article class="bx-review"><p class="bx-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p><p class="bx-review-text">"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."</p><p class="bx-review-name">Ritu Kedia</p><p class="bx-review-role">Parent</p></article>
+    </div>
+  </div>
+</section>
+
+<section class="bx-section bx-section--tint" id="more">
+  <div class="bx-wrap">
+    <div class="bx-section-head">
+      <p class="bx-qlabel">The rest of the Class 10 series</p>
+      <h2>Nine more pages for Class 10 board students</h2>
+      <p class="bx-lede">Four more on CBSE AI 417, and five on the ICSE Computer Applications paper for families on the other board.</p>
+    </div>
+    <div class="bx-siblings">
+      <a class="bx-sib" href="/cbse-class-10-ai-classes-online"><span class="bx-sib-n">The Mon and Wed 9 PM batch</span><span class="bx-sib-m">/cbse-class-10-ai-classes-online</span></a>
+      <a class="bx-sib" href="/cbse-class-10-ai-syllabus-explained"><span class="bx-sib-n">The 417 syllabus explained</span><span class="bx-sib-m">/cbse-class-10-ai-syllabus-explained</span></a>
+      <a class="bx-sib" href="/cbse-class-10-ai-board-exam-preparation"><span class="bx-sib-n">Board exam preparation</span><span class="bx-sib-m">/cbse-class-10-ai-board-exam-preparation</span></a>
+      <a class="bx-sib" href="/cbse-class-10-ai-project-and-practical-file"><span class="bx-sib-n">Project and practical file</span><span class="bx-sib-m">/cbse-class-10-ai-project-and-practical-file</span></a>
+      <a class="bx-sib" href="/icse-class-10-java-classes-online"><span class="bx-sib-n">ICSE Class 10 Java classes</span><span class="bx-sib-m">/icse-class-10-java-classes-online</span></a>
+      <a class="bx-sib" href="/icse-class-10-computer-applications-syllabus-explained"><span class="bx-sib-n">ICSE Computer Applications syllabus</span><span class="bx-sib-m">/icse-class-10-computer-applications-syllabus-explained</span></a>
+      <a class="bx-sib" href="/icse-class-10-java-programs-practice"><span class="bx-sib-n">ICSE Java programs practice</span><span class="bx-sib-m">/icse-class-10-java-programs-practice</span></a>
+      <a class="bx-sib" href="/icse-class-10-bluej-java-coaching"><span class="bx-sib-n">ICSE BlueJ Java coaching</span><span class="bx-sib-m">/icse-class-10-bluej-java-coaching</span></a>
+      <a class="bx-sib" href="/icse-class-10-computer-applications-board-exam-preparation"><span class="bx-sib-n">ICSE board exam preparation</span><span class="bx-sib-m">/icse-class-10-computer-applications-board-exam-preparation</span></a>
+    </div>
+  </div>
+</section>
+
+<section class="bx-section" id="faq">
+  <div class="bx-wrap">
+    <div class="bx-section-head">
+      <p class="bx-qlabel">Questions about the Python</p>
+      <h2>What parents and students ask about Unit 7 and the file</h2>
+    </div>
+    <div class="bx-faq">
+      <div class="bx-faq-item"><h3>How much Python does CBSE Class 10 AI actually need?</h3><p>Less than the word Advance suggests, and more than most students have. The unit's own learning outcomes are working in Jupyter Notebook, creating virtual environments, installing packages, writing basic programs with variables, data types, operators and control structures, and using built-in functions and libraries. The suggested programs then use four libraries: NumPy, Matplotlib, Pandas and an image library. A student who can write a loop, index a list and call a library function has everything the file and the practical exam demand.</p></div>
+      <div class="bx-faq-item"><h3>Which libraries must be installed for the practical file?</h3><p>For CBSE's eight suggested programs: NumPy for the statistics program, Matplotlib for the line and scatter charts and for displaying an image, Pandas for the two CSV programs, and an image library, OpenCV or Pillow, for reading an image and finding its shape. All four install with one pip command inside the virtual environment the curriculum asks students to create, and we do that installation together in the first Wednesday lab.</p></div>
+      <div class="bx-faq-item"><h3>Does NumPy have a mode function?</h3><p>No, and this trips up more Class 10 files than any other detail. NumPy gives you mean and median directly, but the mode comes from SciPy's stats module or from Python's own statistics module. CBSE's program title says mean, median and mode using NumPy, so the accepted file version computes mean and median with NumPy and the mode with SciPy or statistics alongside it, and a student who can explain why in the viva has turned a trap into a mark.</p></div>
+      <div class="bx-faq-item"><h3>Jupyter Notebook or IDLE: which should my child use?</h3><p>Jupyter, because the 2026-27 curriculum names it explicitly in the Advance Python recap and because it is where charts and images display inline, which the chart and image programs need. IDLE still works for plain programs, but a file built in Jupyter shows outputs next to code, which examiners like and which makes the viva easier. We set Jupyter up in the first lab and never look back.</p></div>
+      <div class="bx-faq-item"><h3>Is any Python asked in the theory paper?</h3><p>No. Advance Python carries practical hours only and no theory marks; the theory paper tests the concept units. Python earns its marks in Part C: the 15-mark practical file and the 15-mark practical examination, which is set on Units 4 to 7, plus a share of the viva. That is 30 marks that hinge on being able to write and adapt a short program, which is why Wednesdays exist.</p></div>
+      <div class="bx-faq-item"><h3>What does the practical exam actually ask?</h3><p>A program in the family of the suggested list, usually with a twist: different numbers, an extra condition, a label on a chart, a different column from the CSV. It is set on Units 4 to 7, so an Orange task from the no-code units can appear alongside a Python one. The students who do well are the ones who practised variations, not the ones who practised reproduction, which is the whole design of our Wednesday labs.</p></div>
+      <div class="bx-faq-item"><h3>Do you teach only CBSE's eight programs or more?</h3><p>More, because the file needs at least fifteen and because variation is the skill. Beyond the eight, students write a bar chart, a marks dictionary with a lookup, a bag-of-words counter that connects to the NLP unit, a grayscale conversion of an image, a CSV filter and a small statistics report, all in the same four libraries. That makes eighteen or so programs the student wrote and can defend, which is the file examiners reward.</p></div>
+      <div class="bx-faq-item"><h3>What laptop does the practical work need?</h3><p>Any Windows or Mac laptop from roughly the last eight years that can run a browser and Jupyter, which is nearly all of them. Nothing here is heavy: NumPy, Pandas and Matplotlib run comfortably on modest machines. A tablet or phone is not enough for the labs, because the file has to be written, run and shown from a real keyboard.</p></div>
+      <div class="bx-faq-item"><h3>Does this Python carry forward to Class 11 and 12?</h3><p>Directly. The Class 11 and 12 AI subject, code 843, and the Computer Science and Informatics Practices subjects all build on exactly these libraries, especially Pandas and Matplotlib. A Class 10 student who genuinely understands the eight programs on this page rather than storing them arrives in Class 11 ahead, and the companion Python for Teens course exists for the ones who want to keep going.</p></div>
+      <div class="bx-faq-item"><h3>How do we start?</h3><p>Send the form and a mentor books a free demo class for the Monday and Wednesday batch. Ask for a Wednesday if Python is the worry: the demo then is a real lab, one suggested program written from scratch in Jupyter with the teacher, broken on purpose and fixed. No card, no enrolment fee, and an honest read on where your child's Python stands.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="bx-section bx-section--tint" id="start">
+  <div class="bx-wrap">
+    <div class="bx-hero-grid">
+      <div>
+        <div class="bx-section-head">
+          <p class="bx-qlabel">Start</p>
+          <h2>Ask for a Wednesday, and the demo is a real lab</h2>
+        </div>
+        <p>Your child opens Jupyter with the teacher, writes one of the eight programs on this page from a blank cell, runs it, watches it break on a wrong input, fixes it, and explains it back in a sentence. Forty-five minutes later there is a program in a notebook that the student can adapt, and you have watched the difference between a file that is stored and a file that is understood. Then you decide, without a sales call.</p>
+        <p>More reading first? The <a class="bx-link" href="/cbse-class-10-ai-syllabus-explained">syllabus explained</a> shows where Unit 7 sits among the others, and the <a class="bx-link" href="/cbse-class-10-ai-project-and-practical-file">project and practical file page</a> covers the vivas.</p>
+        <p style="margin-top:22px"><a class="bx-link" href="https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders.%20I%20want%20help%20with%20Python%20for%20CBSE%20Class%2010%20AI%20417." target="_blank" rel="noopener">WhatsApp us</a> &middot; <a class="bx-link" href="tel:+919123366161">+91 91233 66161</a> &middot; <a class="bx-link" href="mailto:contact@modernagecoders.com">contact@modernagecoders.com</a></p>
+        <p class="bx-muted" style="font-size:.92rem;margin-top:14px">Every session is a live video class. The form asks for one callback and books nothing else.</p>
+      </div>
+      <div class="bx-form-panel">
+        <form id="bxLeadForm" onsubmit="return submitBxLead(event)" novalidate>
+          <div class="bx-field-row">
+            <div class="bx-field"><label for="bx-cpy-parent">Parent's name</label><input id="bx-cpy-parent" type="text" name="parent_name" placeholder="Your name" required></div>
+            <div class="bx-field"><label for="bx-cpy-phone">Phone or WhatsApp</label><input id="bx-cpy-phone" type="tel" name="phone" placeholder="98765 43210" maxlength="15" required></div>
+          </div>
+          <div class="bx-field-row">
+            <div class="bx-field"><label for="bx-cpy-email">Email</label><input id="bx-cpy-email" type="email" name="email" placeholder="you@example.com" required></div>
+            <div class="bx-field"><label for="bx-cpy-format">Preferred format</label>
+              <select id="bx-cpy-format" name="format" required>
+                <option value="group">Mon and Wed 9 PM group batch</option>
+                <option value="mini">Mini batch, other timings</option>
+                <option value="1on1">One to one</option>
+                <option value="unsure">Not sure yet</option>
+              </select>
+            </div>
+          </div>
+          <div class="bx-field"><label for="bx-cpy-child">Student's name and school (optional)</label><input id="bx-cpy-child" type="text" name="child_name" placeholder="Student's name, school"></div>
+          <button type="submit" class="bx-btn" style="width:100%">Request the free demo class</button>
+          <p class="bx-form-note">We call within a few hours. No card, no enrolment fee.</p>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="bx-footer">
+  <div class="bx-wrap">
+    <div class="bx-grid-4">
+      <div><h4>Modern Age Coders</h4><p style="font-size:.9rem;opacity:.86">Live online coding, AI and mathematics for ages 6 to 67. Teaching since 2020, more than 10,000 students.</p></div>
+      <div><h4>CBSE Class 10 AI</h4><ul><li><a href="/cbse-class-10-ai-classes-online">The Mon and Wed batch</a></li><li><a href="/cbse-class-10-ai-syllabus-explained">Syllabus explained</a></li><li><a href="/cbse-class-10-ai-board-exam-preparation">Board exam preparation</a></li><li><a href="/cbse-class-10-ai-project-and-practical-file">Project and practical file</a></li></ul></div>
+      <div><h4>More Python</h4><ul><li><a href="/python-for-class-10">Python for Class 10</a></li><li><a href="/python-for-class-11-cbse">Python for Class 11 CBSE</a></li><li><a href="/python-projects-for-kids">Python projects</a></li><li><a href="/learn-to-code-with-ai">Learn to code with AI</a></li></ul></div>
+      <div><h4>Start</h4><ul><li><a href="/courses">The full catalogue</a></li><li><a href="/pricing">Fees</a></li><li><a href="/how-we-teach">How we teach</a></li><li><a href="/success-stories">Success stories</a></li></ul></div>
+    </div>
+    <div class="bx-footer-bottom"><span>&copy; 2026 Modern Age Coders. Live online, taught from India.</span><span>CBSE 417 &middot; Session 2026-27</span></div>
+  </div>
+</footer>
+
+<script>
+window.submitBxLead = function (e) {
+  e.preventDefault();
+  var f = e.target;
+  var phone = (f.phone.value || '').replace(/\D/g, '');
+  if (phone.length < 10) { alert('Please enter a valid phone number.'); return false; }
+  var data = { name: f.parent_name.value, phone: f.phone.value, email: f.email.value, format: f.format.value, child_name: f.child_name.value, source: 'python-for-cbse-class-10-ai', page: window.location.pathname };
+  var api = (location.hostname === 'localhost' || location.hostname === '127.0.0.1') ? 'http://localhost:5000' : 'https://backend-modernagecoders.vercel.app';
+  fetch(api + '/api/leads', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify(data) }).catch(function () {});
+  if (typeof gtag === 'function') { gtag('event', 'generate_lead', { event_category: 'board_prep_page', event_label: 'python-for-cbse-class-10-ai', value: 1 }); }
+  f.innerHTML = '<p class="bx-form-ok">Request received. A mentor will call you within a few hours to book the free demo class.</p>';
+  return false;
+};
+</script>
+<script>
+  window.addEventListener('load', function () {
+    var s = document.createElement('script');
+    s.src = 'https://www.googletagmanager.com/gtag/js?id=G-N8BM164YJP';
+    s.async = true;
+    document.head.appendChild(s);
+  });
+</script>
+<script src="/js/country-code-selector.js?v=20260820a" defer></script>
+    <script src="/js/pricing-data.generated.js?v=e0051cb24b"></script>
+    <script src="/js/international-pricing.js?v=5de1f542e5"></script>
+</body>
+</html>
