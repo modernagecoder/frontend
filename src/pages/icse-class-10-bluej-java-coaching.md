@@ -5,7 +5,7 @@ canonical: https://learn.modernagecoders.com/icse-class-10-bluej-java-coaching
 source: src/pages/icse-class-10-bluej-java-coaching.html
 ---
 
-> BlueJ is the free, open-source Java environment that ICSE schools use for Computer Applications, that CISCE's papers name, and in which the internal assessment and practical examination take place. Coaching for it means four things: a working installation on the student's own Windows or Mac machine, fluency with the class diagram, object bench and terminal as tools for understanding classes and objects, the ability to read the eight compiler and runtime errors a Class 10 student regularly meets and fix them without help, and lab assignments organised as clean BlueJ projects ready for an external examiner. Modern Age Coders teaches all of it inside the Tuesday 5:30 PM and Wednesday 8 PM mini batch of three or four, with screens shared every Wednesday.
+> BlueJ is the free, open-source Java environment that ICSE schools use for Computer Applications, that CISCE's papers name, and in which the internal assessment and practical examination take place. Coaching for it means four things: a working installation on the student's own Windows or Mac machine, fluency with the class diagram, object bench and terminal as tools for understanding classes and objects, the ability to read the eight compiler and runtime errors a Class 10 student regularly meets and fix them without help, and lab assignments organised as clean BlueJ projects ready for an external examiner. Modern Age Coders teaches all of it inside the Tuesday 5:30 PM and Wednesday 8 PM mini batch of four or five, with screens shared every Wednesday.
 
 ## Set-up in one evening, and the four parts of the window
 

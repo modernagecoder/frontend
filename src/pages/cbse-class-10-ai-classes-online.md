@@ -5,14 +5,14 @@ canonical: https://learn.modernagecoders.com/cbse-class-10-ai-classes-online
 source: src/pages/cbse-class-10-ai-classes-online.html
 ---
 
-> CBSE Class 10 Artificial Intelligence (code 417) is a 100-mark skill subject split exactly in half: a 50-mark theory paper covering five employability units and seven AI units, and a 50-mark practical built from a 15-program Python file, a practical examination, a project and two vivas. Modern Age Coders teaches the full 2026-27 curriculum live online, every Monday and Wednesday at 9 PM IST, in a batch of five to eight students with one teacher for the whole year: Mondays for concepts and theory technique, Wednesdays for the practical lab, Python in Jupyter Notebook and the no-code Orange Data Mining tool the curriculum names. The first class is a free demo.
+> CBSE Class 10 Artificial Intelligence (code 417) is a 100-mark skill subject split exactly in half: a 50-mark theory paper covering five employability units and seven AI units, and a 50-mark practical built from a 15-program Python file, a practical examination, a project and two vivas. Modern Age Coders teaches the full 2026-27 curriculum live online, every Monday and Wednesday at 9 PM IST, in a batch of ten to fifteen students with one teacher for the whole year: Mondays for concepts and theory technique, Wednesdays for the practical lab, Python in Jupyter Notebook and the no-code Orange Data Mining tool the curriculum names. The first class is a free demo.
 
 ## The batch
 
 - Monday, 9:00 PM IST: concepts and the way the paper asks about them.
 - Wednesday, 9:00 PM IST: the practical lab, Python in Jupyter Notebook and the no-code Orange tools, one practical-file program per week.
 - Gulf families: 7:30 PM in the UAE and Oman, 6:30 PM in Saudi Arabia, Qatar, Kuwait and Bahrain.
-- Five to eight students, the same teacher all year, live and 100 percent online.
+- Ten to fifteen students, the same teacher all year, live and 100 percent online.
 
 ## The 417 marks ledger for 2026-27 (from the CBSE curriculum)
 
@@ -52,7 +52,7 @@ Families in this batch also look at [AI and ML for Teens](/courses/ai-ml-masterc
 
 ## Fees
 
-Monthly, no admission fee, stop at any month end. Group batch (Monday and Wednesday, five to eight students) is the standard monthly group fee; a mini batch of three to four and one to one teaching run on other timings. Fees are shown on the page in the visitor's own currency. The first class is a free demo.
+Monthly, no admission fee, stop at any month end. Group batch (Monday and Wednesday, ten to fifteen students) is the standard monthly group fee; a mini batch of four to five and one to one teaching run on other timings. Fees are shown on the page in the visitor's own currency. The first class is a free demo.
 
 ## Frequently asked questions
 

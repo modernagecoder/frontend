@@ -63,7 +63,7 @@ Families also look at [Python for Teens](/courses/python-complete-masterclass-te
 
 ## Fees
 
-Monthly, no admission fee, stop at any month end. The Monday and Wednesday group batch is the standard monthly group fee; a mini batch of three to four and one to one teaching run on other timings. Fees are shown on the page in the visitor's own currency. First class is a free demo that doubles as a syllabus check.
+Monthly, no admission fee, stop at any month end. The Monday and Wednesday group batch is the standard monthly group fee; a mini batch of four to five and one to one teaching run on other timings. Fees are shown on the page in the visitor's own currency. First class is a free demo that doubles as a syllabus check.
 
 ## Frequently asked questions
 

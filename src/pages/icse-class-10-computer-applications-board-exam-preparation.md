@@ -5,7 +5,7 @@ canonical: https://learn.modernagecoders.com/icse-class-10-computer-applications
 source: src/pages/icse-class-10-computer-applications-board-exam-preparation.html
 ---
 
-> To prepare for the ICSE Class 10 Computer Applications written paper, give Section A the attention its forty compulsory marks deserve: short answers across all eight units that test exact vocabulary and careful tracing, drilled separately from program writing. Divide the two hours as roughly forty minutes for Section A, seventy for the four Section B programs chosen by family in the first minutes, and ten for checking outputs and variable descriptions. Finish the lab file and project before the school's internal assessment, then run three full papers under time with every lost mark re-attempted. Modern Age Coders runs this in a live mini batch of three or four, Tuesday 5:30 PM and Wednesday 8 PM IST, with an eight-week countdown from the practical to the paper.
+> To prepare for the ICSE Class 10 Computer Applications written paper, give Section A the attention its forty compulsory marks deserve: short answers across all eight units that test exact vocabulary and careful tracing, drilled separately from program writing. Divide the two hours as roughly forty minutes for Section A, seventy for the four Section B programs chosen by family in the first minutes, and ten for checking outputs and variable descriptions. Finish the lab file and project before the school's internal assessment, then run three full papers under time with every lost mark re-attempted. Modern Age Coders runs this in a live mini batch of four or five, Tuesday 5:30 PM and Wednesday 8 PM IST, with an eight-week countdown from the practical to the paper.
 
 ## What Section A asks
 

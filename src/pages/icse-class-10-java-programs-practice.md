@@ -5,7 +5,7 @@ canonical: https://learn.modernagecoders.com/icse-class-10-java-programs-practic
 source: src/pages/icse-class-10-java-programs-practice.html
 ---
 
-> Section B of the ICSE Class 10 Computer Applications paper is 60 marks of Java programs: any four of the questions offered, at 15 marks each, written with variable descriptions and no flowcharts required. The programs come from six families: number and pattern programs, menu-driven programs using switch, single-dimensional arrays with searching and sorting, string handling character by character, classes with constructors and methods, and two-dimensional arrays. A student fluent in four families can score the whole section. Modern Age Coders practises all six in a live Wednesday 8 PM lab, one program and one variation a week from a blank class in BlueJ, in a mini batch of three or four, reaching about sixty written programs before the board exam.
+> Section B of the ICSE Class 10 Computer Applications paper is 60 marks of Java programs: any four of the questions offered, at 15 marks each, written with variable descriptions and no flowcharts required. The programs come from six families: number and pattern programs, menu-driven programs using switch, single-dimensional arrays with searching and sorting, string handling character by character, classes with constructors and methods, and two-dimensional arrays. A student fluent in four families can score the whole section. Modern Age Coders practises all six in a live Wednesday 8 PM lab, one program and one variation a week from a blank class in BlueJ, in a mini batch of four or five, reaching about sixty written programs before the board exam.
 
 ## The six families and what each tests
 

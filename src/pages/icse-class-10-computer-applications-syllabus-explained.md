@@ -5,7 +5,7 @@ canonical: https://learn.modernagecoders.com/icse-class-10-computer-applications
 source: src/pages/icse-class-10-computer-applications-syllabus-explained.html
 ---
 
-> The ICSE Class 10 Computer Applications syllabus for the 2027 examination has eight Java units: Revision of Class IX syllabus, Class as the basis of all computation, User-defined methods, Constructors, Library classes, Encapsulation, Arrays and String handling. It is assessed by a two-hour theory paper of 100 marks, Section A being 40 compulsory short-answer marks across the whole syllabus and Section B being 60 marks of programs with any four attempted at 15 marks each, written in Java with variable descriptions and no flowcharts required, plus a 100-mark internal assessment from at least 20 lab assignments and a project, marked 50 by the internal teacher and 50 by an external examiner. Modern Age Coders teaches all of it live in BlueJ, Tuesday 5:30 PM and Wednesday 8 PM IST, in a mini batch of three or four.
+> The ICSE Class 10 Computer Applications syllabus for the 2027 examination has eight Java units: Revision of Class IX syllabus, Class as the basis of all computation, User-defined methods, Constructors, Library classes, Encapsulation, Arrays and String handling. It is assessed by a two-hour theory paper of 100 marks, Section A being 40 compulsory short-answer marks across the whole syllabus and Section B being 60 marks of programs with any four attempted at 15 marks each, written in Java with variable descriptions and no flowcharts required, plus a 100-mark internal assessment from at least 20 lab assignments and a project, marked 50 by the internal teacher and 50 by an external examiner. Modern Age Coders teaches all of it live in BlueJ, Tuesday 5:30 PM and Wednesday 8 PM IST, in a mini batch of four or five.
 
 ## The scheme as CISCE sets it out
 
@@ -36,7 +36,7 @@ April to May: the revision unit rebuilt through programs, the lab file begun. Ju
 
 ## The courses that teach this syllabus
 
-- [ICSE Computer Applications, Java with BlueJ (Class 9 and 10)](/courses/icse-computer-applications-java-bluej-course): every unit, live in a mini batch of three or four.
+- [ICSE Computer Applications, Java with BlueJ (Class 9 and 10)](/courses/icse-computer-applications-java-bluej-course): every unit, live in a mini batch of four or five.
 - [Computer Science Class 11 and 12](/courses/cbse-icse-computer-science-class-11-12-python-java-complete-course): the continuation after Class 10.
 - [Full-Stack Web for Teens](/courses/full-stack-web-development-teens-masterclass): for the student who wants to build beyond the paper.
 

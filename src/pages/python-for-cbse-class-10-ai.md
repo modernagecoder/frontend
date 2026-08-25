@@ -44,7 +44,7 @@ Students also look at [AI and ML for Teens](/courses/ai-ml-masterclass-teens), [
 
 ## Fees
 
-Monthly, no admission fee, stop at any month end. The Monday and Wednesday group batch is the standard monthly group fee; a mini batch of three to four and one to one run on other timings. Fees are shown on the page in the visitor's own currency. The free demo can be a Wednesday lab.
+Monthly, no admission fee, stop at any month end. The Monday and Wednesday group batch is the standard monthly group fee; a mini batch of four to five and one to one run on other timings. Fees are shown on the page in the visitor's own currency. The free demo can be a Wednesday lab.
 
 ## Frequently asked questions
 

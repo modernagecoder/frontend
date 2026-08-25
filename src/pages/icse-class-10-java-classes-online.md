@@ -1,18 +1,18 @@
 ---
 title: "ICSE Class 10 Java Classes Online | Live Tue 5:30 and Wed 8 PM"
-description: "Live online ICSE Class 10 Computer Applications classes in Java and BlueJ, every Tuesday 5:30 PM and Wednesday 8 PM IST, in a mini batch of a few students."
+description: "Live online ICSE Class 10 Computer Applications classes in Java and BlueJ, every Tuesday 5:30 PM and Wednesday 8 PM IST, in a mini batch of four or five."
 canonical: https://learn.modernagecoders.com/icse-class-10-java-classes-online
 source: src/pages/icse-class-10-java-classes-online.html
 ---
 
-> ICSE Class 10 Computer Applications is taught in Java with BlueJ and marked out of 200: a two-hour theory paper of 100 marks, where Section A is 40 compulsory short-answer marks across the whole syllabus and Section B is 60 marks of programs, any four at 15 marks each, plus a 100-mark internal assessment from at least twenty lab assignments and a project, shared between an internal teacher and an external examiner. Modern Age Coders teaches it live online in a mini batch of three or four students, every Tuesday at 5:30 PM and Wednesday at 8 PM IST: Tuesdays for concepts and Section A technique, Wednesdays for writing programs in BlueJ with the teacher reading every line. The first class is a free demo.
+> ICSE Class 10 Computer Applications is taught in Java with BlueJ and marked out of 200: a two-hour theory paper of 100 marks, where Section A is 40 compulsory short-answer marks across the whole syllabus and Section B is 60 marks of programs, any four at 15 marks each, plus a 100-mark internal assessment from at least twenty lab assignments and a project, shared between an internal teacher and an external examiner. Modern Age Coders teaches it live online in a mini batch of four or five students, every Tuesday at 5:30 PM and Wednesday at 8 PM IST: Tuesdays for concepts and Section A technique, Wednesdays for writing programs in BlueJ with the teacher reading every line. The first class is a free demo.
 
 ## The batch
 
 - Tuesday, 5:30 PM IST: concepts and the Section A question shapes.
 - Wednesday, 8:00 PM IST: the programs lab in BlueJ, one Section B-style program and lab assignment per week.
 - Gulf families: Tuesday 4:00 PM and Wednesday 6:30 PM in the UAE and Oman; Tuesday 3:00 PM and Wednesday 5:30 PM in Saudi Arabia, Qatar, Kuwait and Bahrain.
-- A mini batch of three or four students, the same teacher all year, live and 100 percent online.
+- A mini batch of four or five students, the same teacher all year, live and 100 percent online.
 
 ## How 200 marks split
 
@@ -36,7 +36,7 @@ The lab file grows one assignment a week from the first month, closer to twenty-
 
 ## Why a mini batch
 
-A teacher can explain a concept to thirty students but can read only a few screens at once, and Java is learned in the seconds between typing a line and seeing what it does. Three or four is the largest group in which every one of those seconds has a teacher watching. It suits a student who wants Section B programs to come from their own head; it does not suit a family wanting recordings or a two-week pre-board blast.
+A teacher can explain a concept to thirty students but can read only a few screens at once, and Java is learned in the seconds between typing a line and seeing what it does. Four or five is the largest group in which every one of those seconds has a teacher watching. It suits a student who wants Section B programs to come from their own head; it does not suit a family wanting recordings or a two-week pre-board blast.
 
 ## The courses behind the batch
 
@@ -48,7 +48,7 @@ Families also look at [Java Programming for Teens](/courses/java-programming-mas
 
 ## Fees
 
-Monthly, no admission fee, stop at any month end. The Tuesday and Wednesday mini batch of three or four students is the featured format; one to one runs on a schedule set with you, and a larger group batch runs at other timings. Fees are shown on the page in the visitor's own currency. The first class is a free demo.
+Monthly, no admission fee, stop at any month end. The Tuesday and Wednesday mini batch of four or five students is the featured format; one to one runs on a schedule set with you, and a larger group batch runs at other timings. Fees are shown on the page in the visitor's own currency. The first class is a free demo.
 
 ## Frequently asked questions
 
@@ -58,7 +58,7 @@ Monthly, no admission fee, stop at any month end. The Tuesday and Wednesday mini
 
 **Fixed timings?** Yes for the mini batch: Tuesday 5:30 PM and Wednesday 8:00 PM IST, deliberately on different evenings.
 
-**Batch size?** Three or four, never more, because Java is taught by reading each student's code as they write it.
+**Batch size?** Four or five, never more, because Java is taught by reading each student's code as they write it.
 
 **Is Java too hard for a beginner?** No; Computer Applications is designed as a first programming course, and the difficulty is in being taught programs to reproduce rather than a language.
 
