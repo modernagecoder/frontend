@@ -8092,6 +8092,18 @@
   to = "/src/pages/cbse-class-10-ai-classes-online.md"
   status = 200
 
+# Class 10 board-prep cluster (board-prep.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/cbse-class-10-ai-syllabus-explained"
+  to = "/src/pages/cbse-class-10-ai-syllabus-explained.html"
+  status = 200
+
+[[redirects]]
+  from = "/cbse-class-10-ai-syllabus-explained.md"
+  to = "/src/pages/cbse-class-10-ai-syllabus-explained.md"
+  status = 200
+
 [[redirects]]
   from = "/*"
   to = "/src/pages/404.html"
