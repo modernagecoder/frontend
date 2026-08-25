@@ -447,6 +447,7 @@ Live online Class 10 board preparation, taught in small batches: CBSE Artificial
 - CBSE Class 10 AI syllabus 2026-27, unit by unit with marks: https://learn.modernagecoders.com/cbse-class-10-ai-syllabus-explained
 - Python for CBSE Class 10 AI (Advance Python and Statistical Data units): https://learn.modernagecoders.com/python-for-cbse-class-10-ai
 - CBSE Class 10 AI board exam preparation: https://learn.modernagecoders.com/cbse-class-10-ai-board-exam-preparation
+- CBSE Class 10 AI project, practical file and viva: https://learn.modernagecoders.com/cbse-class-10-ai-project-and-practical-file
 ## International Country Pages
 
 - United States: https://learn.modernagecoders.com/coding-classes-in-united-states
