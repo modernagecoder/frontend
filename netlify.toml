@@ -8152,6 +8152,18 @@
   to = "/src/pages/icse-class-10-java-classes-online.md"
   status = 200
 
+# Class 10 board-prep cluster (board-prep.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/icse-class-10-computer-applications-syllabus-explained"
+  to = "/src/pages/icse-class-10-computer-applications-syllabus-explained.html"
+  status = 200
+
+[[redirects]]
+  from = "/icse-class-10-computer-applications-syllabus-explained.md"
+  to = "/src/pages/icse-class-10-computer-applications-syllabus-explained.md"
+  status = 200
+
 [[redirects]]
   from = "/*"
   to = "/src/pages/404.html"
