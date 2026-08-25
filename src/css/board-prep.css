@@ -317,6 +317,9 @@
   .bx-hero::before { left: 14px; }
   .bx-hero-grid, .bx-grid-2, .bx-grid-3, .bx-code-pair, .bx-picks, .bx-siblings { grid-template-columns: minmax(0, 1fr); }
   .bx-nav-links a:not(.bx-btn) { display: none; }
+  .bx-nav-brand { font-size: 0.98rem; }
+  .bx-nav-brand > span:first-of-type { white-space: nowrap; }
+  .bx-brand-tag { display: none; }
   .bx-section { padding: 56px 0; }
   .bx-step { padding-left: 0; padding-top: 44px; }
   .bx-step::before { top: 18px; }
