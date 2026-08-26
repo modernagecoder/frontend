@@ -54,6 +54,38 @@ Entity precision and numeric precision reinforce each other
 
 A carefully rounded value can still be wrong if it refers to the wilayat rather than the governorate. Every metric keeps entity, period, unit, source precision and output precision together.
 
+Wilayat Al Buraimi
+
+## The capital wilayat carries most of the governorate
+
+Every figure in this section belongs to the wilayat rather than to the governorate, and each one keeps the date its source gave it.
+
+### An oasis city that is also a wilayat
+
+Al-Buraimi is described as an oasis city and wilayat in northern Oman on the border with the United Arab Emirates, and as the capital of this governorate, roughly 343 km from Muscat. A place that is at once a city, a wilayat and a governorate seat needs its level named every single time it appears in a table.
+
+### Two population figures, two dates
+
+The wilayat is reported at about 118,076 people for January 2024, while the 2020 census records 110,171. The dates differ, so both stand, and neither is adopted here as the figure. A population without a date attached is not a population.
+
+### Part of the Tawam oasis
+
+The town belongs to the historical region of Tawam, also called the Al Buraimi Oasis, which spans the modern border. A historical region and an administrative unit are different shapes over the same ground and should never share a column.
+
+### A city on the other side of the line
+
+Al Ain is the adjacent city on the Emirati side of the same oasis. Two cities in one oasis under two states is why any catchment, travel-time or market figure here has to say which side of the border it counted.
+
+### Al Khandaq Fort, nineteenth century
+
+Al Khandaq Fort is dated to the 19th century and holds a commanding position overlooking Wadi Al Jizzi. A century is a hundred-year band rather than a date, and it is kept as a band here.
+
+### Al Hillah Fort succeeded it
+
+Al Hillah Fort is described as likely constructed to succeed the older Al Khandaq Fort and as becoming a seat of local governance. The word likely belongs to the source and is kept, because a sequence inferred is not a sequence recorded.
+
+Sources for this section: the governorate's own [Wilayat Al Buraimi page](https://bur.gov.om/en/explore-buraimi.html) and the [Al-Buraimi](https://en.wikipedia.org/wiki/Al-Buraimi) reference entry. Neither is used as an input to the rounding exercise below.
+
 Mahdah
 
 ## Border and development records need explicit scopes

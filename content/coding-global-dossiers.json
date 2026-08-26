@@ -1631,31 +1631,47 @@
       "Mazoon Dairy Project",
       "Million Palm Project",
       "Arabian Peninsula",
-      "Your Al Buraimi",
       "100 kilometres",
-      "No Al Buraimi",
       "As Sunaynah",
-      "Use Decimal"
+      "Al Khandaq Fort",
+      "Al Hillah Fort",
+      "Wadi Al Jizzi",
+      "Tawam",
+      "118,076",
+      "oasis city"
     ],
     "sources": [
       {
-        "claim": "Cited on the page for a place-specific administrative, population or infrastructure fact.",
+        "claim": "Oman's Governorates System lists the three wilayats of Al Buraimi, Mahdha and As-Sunaynah, and names the Wilayat of Al Buraimi as the governorate centre.",
         "url": "https://bur.gov.om/assets/pdf/en/governorate-system.pdf"
       },
       {
-        "claim": "Cited on the page for a place-specific administrative, population or infrastructure fact.",
+        "claim": "The governorate was established through Royal Decree 108/2006, lies in northwestern Oman and is described as a crossroads for trade routes in the southeastern Arabian Peninsula.",
         "url": "https://bur.gov.om/en/index.html"
       },
       {
-        "claim": "Cited on the page for a place-specific administrative, population or infrastructure fact.",
+        "claim": "The government portal lists separate wali leadership for the three wilayats and Sunday-through-Thursday office hours.",
         "url": "https://gov.om/en/al-buraimi-governorate"
       },
       {
-        "claim": "Cited on the page for a place-specific administrative, population or infrastructure fact.",
+        "claim": "The official Mahdah page identifies it as the largest of the governorate's wilayats and describes a mountain chain separating it from the North Al Batinah wilayats.",
         "url": "https://bur.gov.om/en/explore-wilayat-mahadar.html"
+      },
+      {
+        "claim": "The Wilayat Al Buraimi page describes its forts, towers, traditional markets and historic houses, the most prominent being Al-Khandaq Fort and Al-Hilla Fort, and reports a wilayat population of about 118,076 for January 2024.",
+        "url": "https://bur.gov.om/en/explore-buraimi.html"
+      },
+      {
+        "claim": "Al-Buraimi is an oasis city and wilayah in northern Oman on the border with the UAE and the capital of Al Buraimi Governorate, roughly 343 km from Muscat, forming part of the historical region of Tawam or Al-Buraimi Oasis, with Al Ain the adjacent city on the UAE side.",
+        "url": "https://en.wikipedia.org/wiki/Al-Buraimi"
       }
     ],
-    "rejectedClaims": []
+    "rejectedClaims": [
+      "A single population for the wilayat. About 118,076 is reported for January 2024 and the 2020 census gives 110,171; the dates differ so both appear with their dates and neither is adopted as the figure.",
+      "A construction date for either fort. Al Khandaq is dated to the 19th century, which is a band rather than a year, and Al Hillah is described as likely built to succeed it. Both hedges are kept.",
+      "A combined figure for the Al Buraimi and Al Ain sides of the oasis. The two lie under different states with different statistical systems, and no cross-border total is offered.",
+      "A separate page for the wilayat. This page's own H1 already reads Coding classes in Al Buraimi and ranks for that query, so the wilayat is served by deepening this page rather than by a second one competing with it."
+    ]
   },
   "coding-classes-in-musandam": {
     "market": "Musandam Governorate",
