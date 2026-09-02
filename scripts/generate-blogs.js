@@ -543,8 +543,16 @@ class BlogGenerator {
         // Combine schemas into an array
         const schemas = [blogPostingSchema, breadcrumbSchema];
 
-        // Extract FAQ items from accordion sections and add FAQPage schema
-        const faqItems = this.extractFAQItems(blogData.content?.sections || []);
+        // Extract FAQ items from accordion sections and add FAQPage schema.
+        //
+        // Fee answers are held out of the schema while staying in the post itself, the same
+        // rule scripts/generate-courses.js applies. JSON-LD has no idea who is reading it, so
+        // an INR figure there reaches every region and bypasses international-pricing.js: a
+        // reader in Dubai or New Jersey asking Google, or a chatbot, what we charge was quoted
+        // rupees. The accordion keeps the number; only the region-blind copy is filtered.
+        const OWN_TARIFF = /(?:Rs\.?\s*|₹\s*|INR\s*)(?:1,?499|2,?999|4,?999|7,?500|9,?999)\b/;
+        const faqItems = this.extractFAQItems(blogData.content?.sections || [])
+            .filter(item => !OWN_TARIFF.test(item.answer || ''));
         if (faqItems.length > 0) {
             const faqSchema = seoUtils.generateFAQSchema(faqItems);
             schemas.push(faqSchema);
