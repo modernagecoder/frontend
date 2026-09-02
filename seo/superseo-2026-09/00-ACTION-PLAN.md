@@ -82,7 +82,24 @@ bands stay at 8. Then this is one scripted pass, not 139 judgement calls. Review
 `best-age-to-start-coding.html` by hand either way, since there an age range is the subject rather
 than a label.
 
-### B. The remaining 279 `src/pages` with tariff in `FAQPage` schema
+### B. Tariff in `FAQPage` schema — **DONE. Closed site-wide in `1f967d55`**
+
+296 fee Q&As removed from `FAQPage` JSON-LD across 278 `src/pages`, plus a filter added to
+`generate-blogs.js` matching the one in `generate-courses.js`, which cleared the last 4 on the blog
+comparison posts. **Site-wide result: 0 price leaks, 1,108 FAQPage blocks still emitted, 8,818
+questions retained, 0 invalid JSON-LD.** The visible FAQ keeps its price on every page.
+
+Roughly a third of the removed items turned out to exist in the schema but nowhere in the visible
+copy, which is its own Google guidelines problem. Those pages are now consistent.
+
+**One correction to what this document said earlier:** the visible FAQ price is **not**
+region-switched. It is hardcoded INR followed by a sentence pointing international readers at the
+on-page pricing, with no `data-price` anchor. Making the visible copy region-aware is a separate and
+larger job, and it is untouched. It is the natural next piece of this work.
+
+Original write-up kept below for the record.
+
+### B (original). The remaining 279 `src/pages` with tariff in `FAQPage` schema
 
 The generated course pages are fixed at the generator (#2 above). **279 hand-maintained pages in
 `src/pages` still emit our own INR prices inside `FAQPage` JSON-LD.** Structured data is region-blind,
