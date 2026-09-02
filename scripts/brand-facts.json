@@ -22,11 +22,12 @@
   "countries": "25+",
   "ages": "6 to 67",
   "batchSizes": {
-    "group": "5–8",
+    "group": "5–10",
     "miniBatch": "3–4",
     "oneToOne": "1:1"
   },
   "_owner_decisions": {
+    "batchSizes.group": "Owner set 5-10 on 2026-09-03, resolving a three-way contradiction: this file said 5-8, 103 course FAQ answers said 'capped at 10', and the board-prep series said 'group 10 to 15' (commit 77f3bf39). The course FAQs were right. Board-prep is NOT covered by this ruling: it is a different product whose 10-15 was set deliberately nine days earlier, and it stays until the owner says otherwise. RECONCILIATION IS OUTSTANDING: 831 files carry 3,367 instances of the old 5-8 claim, in numeric ('5-8 students', '5–8 learners per batch') and written-out ('a batch of five to eight students') forms. It was NOT swept automatically because that is the site's core value proposition, not a label, and some instances are arguments rather than statements ('as long as the batch is genuinely small, five to eight children with a real mentor'). Changing 5-8 to 5-10 makes the batch sound larger, so the copy needs a human pass, not a regex. Guarded script and inventory in seo/superseo-2026-09/. Note 'Grades 5-8' and 'Class 5-8' also appear and must never be caught by such a sweep.",
     "students": "Owner set 10,000+ on 2026-07-15. Cross-checks: 547 Google reviews against 10,000+ students is a ~5.5% review rate, which is normal; 500+ would imply a >100% review rate. It also matches /about, seo-config.js and the 65 existing on-page claims.",
     "founded": "2020, matches schema.org foundingDate and /about. Pages saying 2019/2021/2022 were drift.",
     "reviews": "547 real Google reviews. Do not round, do not inflate, and never restate as a student count.",

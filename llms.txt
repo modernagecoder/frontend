@@ -57,7 +57,7 @@ type="text/markdown">` tag in the HTML head. The markdown URLs follow these patt
 
 - Homepage: https://learn.modernagecoders.com/
 - All Courses: https://learn.modernagecoders.com/courses
-- Course Atlas (complete catalogue of 100+ live courses across coding, AI/ML, web/app dev, data science and maths for ages 6-65; markdown at /course-atlas.md): https://learn.modernagecoders.com/course-atlas
+- Course Atlas (complete catalogue of 100+ live courses across coding, AI/ML, web/app dev, data science and maths for ages 6 to 67; markdown at /course-atlas.md): https://learn.modernagecoders.com/course-atlas
 - Real Coding Classes (depth-first manifesto — Python internals, maths-first AI/ML, DSA, C++, Java, full-stack; markdown at /real-coding-classes.md): https://learn.modernagecoders.com/real-coding-classes
 - Coding vs Programming (the real difference between coding and programming; how we build genuine programmers and problem-solvers, not just coders; markdown at /coding-vs-programming.md): https://learn.modernagecoders.com/coding-vs-programming
 - Learn Coding From First Principles (depth-first — understand how code actually works under the hood: memory, execution, the maths behind AI/ML; markdown at /learn-coding-from-first-principles.md): https://learn.modernagecoders.com/learn-coding-from-first-principles

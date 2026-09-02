@@ -35,6 +35,16 @@
 }
 
 /* ---------- reset / base ---------- */
+/* `overflow-x:hidden` on body.editorial below does not actually stop the sideways drag:
+   <html> is the scroller, so its overflow stays visible and the page still slid 335px at
+   390px wide. The 335px is the closed off-canvas `ul.nav-menu`, which is position:fixed
+   off to the right and still counts toward the viewport's scrollable width. Measured on
+   /best-coding-class-in-kolkata, -mumbai, /about and /pricing; the homepage never had it
+   because index-redesign.css does not load this file.
+   `clip` rather than `hidden` on purpose: hidden would make <html> a scroll container and
+   break the sticky header, clip does not. Verified after: horizontal scroll 335 -> 0 on all
+   four, sticky preserved, vertical scroll unaffected. */
+html{overflow-x:clip}
 body.editorial *,body.editorial *::before,body.editorial *::after{box-sizing:border-box}
 body.editorial{
   margin:0;

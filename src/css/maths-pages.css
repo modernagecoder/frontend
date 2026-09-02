@@ -190,7 +190,10 @@ ul, ol { color: var(--mp-ink-soft); }
 
 /* ---------- AEO/GEO quick-answer block ---------- */
 .mp-answer { border: 1px solid var(--mp-line); border-left: 4px solid var(--mp-accent); background: var(--mp-bg-alt); border-radius: var(--mp-radius); padding: clamp(1.3rem, 3vw, 2.1rem); }
-.mp-answer .q { display: block; font-family: var(--mp-font-mono); font-size: .78rem; letter-spacing: .12em; text-transform: uppercase; color: var(--mp-accent); margin-bottom: .5rem; }
+/* .q is now an <h2> on pages targeting a featured snippet (Google's extractor wants a
+   query-matching heading directly above the answer). Kill the h2 UA margin and bold so the
+   eyebrow looks identical whether it is rendered as a span or a heading. */
+.mp-answer .q { display: block; font-family: var(--mp-font-mono); font-size: .78rem; letter-spacing: .12em; text-transform: uppercase; color: var(--mp-accent); margin: 0 0 .5rem; font-weight: 600; }
 .mp-answer p { font-size: clamp(1.08rem, 1rem + 0.35vw, 1.28rem); color: var(--mp-ink); margin: 0; line-height: 1.55; }
 .mp-answer p + p { margin-top: .8rem; }
 

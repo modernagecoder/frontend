@@ -972,21 +972,35 @@ class CourseGenerator {
 
         schemas.push(breadcrumbSchema);
 
-        // FAQPage Schema - Generate if FAQs exist in course data
+        // FAQPage Schema - Generate if FAQs exist in course data.
+        //
+        // Fee answers are deliberately kept OUT of the schema while staying on the page.
+        // Structured data has no idea who is reading it, so an INR figure in FAQPage reaches
+        // every region and bypasses international-pricing.js: a parent in Dubai or New Jersey
+        // asking Google (or any chatbot, which read this markup directly) was quoted rupees.
+        // Showing real prices is a genuine advantage over competitors who hide them behind a
+        // sales call, so the visible FAQ keeps them. Only the region-blind copy is filtered.
+        // 103 of 122 course files had at least one such answer. See seo/superseo-2026-09/.
+        const OWN_TARIFF = /(?:Rs\.?\s*|₹\s*|INR\s*)(?:1,?499|2,?999|4,?999|7,?500|9,?999)\b/;
         if (courseData.faqs && Array.isArray(courseData.faqs) && courseData.faqs.length > 0) {
-            const faqSchema = {
-                "@context": "https://schema.org",
-                "@type": "FAQPage",
-                "mainEntity": courseData.faqs.map(faq => ({
-                    "@type": "Question",
-                    "name": faq.question,
-                    "acceptedAnswer": {
-                        "@type": "Answer",
-                        "text": faq.answer
-                    }
-                }))
-            };
-            schemas.push(faqSchema);
+            const schemaSafeFaqs = courseData.faqs.filter(
+                faq => !OWN_TARIFF.test(faq.answer || '')
+            );
+            if (schemaSafeFaqs.length > 0) {
+                const faqSchema = {
+                    "@context": "https://schema.org",
+                    "@type": "FAQPage",
+                    "mainEntity": schemaSafeFaqs.map(faq => ({
+                        "@type": "Question",
+                        "name": faq.question,
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": faq.answer
+                        }
+                    }))
+                };
+                schemas.push(faqSchema);
+            }
         }
 
         // Article Schema
