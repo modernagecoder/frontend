@@ -32,7 +32,7 @@ Karnal is the rice bowl of Haryana, the heart of the state's basmati country, an
 
 Whether your child is in a HBSE, CBSE, ICSE or IGCSE school, the plan is the same: start at the right level, build something real, and keep the momentum going.
 
-Ages 8–12
+Ages 6–12
 
 ## Coding for kids in Karnal
 

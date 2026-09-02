@@ -32,7 +32,7 @@ India's first technological university was founded here: JNTU opened on 2 Octobe
 
 Whether your child is in a Telangana State, CBSE, ICSE or IGCSE school, the ones that feed IIIT-Hyderabad, BITS and Osmania, the plan is the same: start at the right level, build something real, and keep the momentum going.
 
-Ages 8–12
+Ages 6–12
 
 ## Coding for kids in Hyderabad
 

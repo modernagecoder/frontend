@@ -32,7 +32,7 @@ Davanagere sits in the heart of Karnataka, a phrase its own district portal uses
 
 Whether your child is in a Karnataka KSEEB, CBSE, ICSE or IGCSE school, the plan is the same: start at the right level, build something real, and keep the momentum going.
 
-Ages 8–12
+Ages 6–12
 
 ## Coding for kids in Davanagere
 

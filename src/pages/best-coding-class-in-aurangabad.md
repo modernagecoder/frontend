@@ -32,7 +32,7 @@ Aurangabad now carries the official name Chhatrapati Sambhajinagar, used on the 
 
 Whether your child is in a Maharashtra SSC/HSC, CBSE, ICSE or IGCSE school, the plan is the same: start at the right level, build something real, and keep the momentum going.
 
-Ages 8–12
+Ages 6–12
 
 ## Coding for kids in Aurangabad
 

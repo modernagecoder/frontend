@@ -76,7 +76,7 @@ Our most loved programs that students keep coming back for.
 
 Perfect first step into coding. Kids create games and animations using visual blocks before moving to text-based coding.
 
-Ages 8-12[Learn More →](/courses/kids-coding-blocks-masterclass)![Python Programming Course for Teens](/images/python-kids.webp)Trending
+Ages 6-12[Learn More →](/courses/kids-coding-blocks-masterclass)![Python Programming Course for Teens](/images/python-kids.webp)Trending
 
 ### Python Programming
 
@@ -204,7 +204,7 @@ Yes! Apart from education, we build custom software, websites, mobile apps, and 
 
 ## Maths and Coding: Why We Teach Both
 
-Modern Age Coders is the world's first platform offering integrated maths and coding online. We believe coding without maths is incomplete, and maths without coding is abstract. Together, they create powerful thinkers.
+Modern Age Coders teaches maths and coding as one subject, not two. We believe coding without maths is incomplete, and maths without coding is abstract. Together, they create powerful thinkers.
 
 When a learner picks up Python alongside algebra, they see variables come alive. When they build a game using geometry, triangles stop being textbook diagrams. This is the philosophy behind every course we offer, from age 6 to 67, across 25+ countries.
 

@@ -12,7 +12,7 @@ source: src/pages/ai-classes-for-kids-in-uae.html
 
 Every card opens the full syllabus, schedule and fees. All courses run as weekly live cohorts in English, and children from every emirate join the same small batches.
 
-Ages 8 to 12The growth path01
+Ages 6 to 12The growth path01
 
 ### Start here, ages 8 to 12
 

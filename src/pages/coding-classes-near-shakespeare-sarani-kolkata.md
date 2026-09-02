@@ -164,7 +164,7 @@ Classes run live at fixed weekly slots, and timings flex around ISC/ICSE/CBSE sc
 
 | Slot | Time (IST) | Best for | Days |
 | --- | --- | --- | --- |
-| After-school early | 4:00-5:00 pm | Kids ages 8-12, primary and middle school | Mon / Wed or Tue / Thu |
+| After-school early | 4:00-5:00 pm | Kids ages 6-12, primary and middle school | Mon / Wed or Tue / Thu |
 | After-school late | 5:30-6:30 pm | Middle and senior school, board CS | Mon / Wed or Tue / Thu |
 | Evening | 7:00-8:00 pm | Teens, ISC/ICSE board prep, AI/ML | Tue / Thu or Wed / Fri |
 | Weekend morning | 10:00-11:30 am | Project intensives, college and adults | Sat or Sun |

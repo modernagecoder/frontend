@@ -32,7 +32,7 @@ Indian computing started in this city. The Indian Statistical Institute took del
 
 Whether your child is in a West Bengal Board, CBSE, ICSE or IGCSE school, the kind that feed Jadavpur, IIEST Shibpur and IIT Kharagpur, the plan is the same: start at the right level, build something real, and keep the momentum going.
 
-Ages 8–12
+Ages 6–12
 
 ## Coding for kids in Kolkata
 

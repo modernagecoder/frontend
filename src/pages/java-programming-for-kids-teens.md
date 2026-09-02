@@ -390,7 +390,7 @@ Transparent Pricing
 
 No registration charges. Start with a 100% free demo class, pay only after you decide to join.
 
-Kids Track · Ages 8-12
+Kids Track · Ages 6-12
 
 ₹1,499
 

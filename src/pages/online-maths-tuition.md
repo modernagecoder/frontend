@@ -416,7 +416,7 @@ At Modern Age Coders, online maths tuition is not just a video call. It is a str
 
 ## Maths + Coding: A Combination That Sets Students Apart
 
-Modern Age Coders is the world's first platform that combines coding and maths education. Why does this matter? Because every algorithm needs mathematical thinking and every equation becomes clearer when you can visualize it through code. Students who learn both skills develop sharper logical reasoning, better problem-solving abilities, and a competitive edge in academics and careers. When your child learns maths with us, they also get access to our coding resources, making them truly future-ready.
+Modern Age Coders teaches coding and maths as one integrated curriculum. Why does this matter? Because every algorithm needs mathematical thinking and every equation becomes clearer when you can visualize it through code. Students who learn both skills develop sharper logical reasoning, better problem-solving abilities, and a competitive edge in academics and careers. When your child learns maths with us, they also get access to our coding resources, making them truly future-ready.
 
 ## Ready to Make Maths Your Strongest Subject?
 

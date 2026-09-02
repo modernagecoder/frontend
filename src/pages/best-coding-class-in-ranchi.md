@@ -32,7 +32,7 @@ Ranchi became a state capital in 2000, when Jharkhand was carved out of Bihar, t
 
 Whether your child is in a JAC, CBSE, ICSE or IGCSE school, the plan is the same: start at the right level, build something real, and keep the momentum going.
 
-Ages 8–12
+Ages 6–12
 
 ## Coding for kids in Ranchi
 

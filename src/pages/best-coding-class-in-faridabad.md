@@ -32,7 +32,7 @@ Faridabad is Haryana's industrial front on the edge of Delhi. Its own district p
 
 Whether your child is in a HBSE, CBSE, ICSE or IGCSE school, the plan is the same: start at the right level, build something real, and keep the momentum going.
 
-Ages 8–12
+Ages 6–12
 
 ## Coding for kids in Faridabad
 

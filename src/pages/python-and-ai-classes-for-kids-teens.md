@@ -157,7 +157,7 @@ The Learning Path
 
 No guesswork. Every student follows a proven, structured roadmap. Here's what the journey looks like.
 
-Kids Path (Age 8-12)
+Kids Path (Age 6-12)
 
 1Month 1-2
 

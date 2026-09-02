@@ -32,7 +32,7 @@ Varanasi has taught engineering for over a hundred years. Banaras Hindu Universi
 
 Whether your child is in a UP Board, CBSE, ICSE or IGCSE school, the plan is the same: start at the right level, build something real, and keep the momentum going.
 
-Ages 8–12
+Ages 6–12
 
 ## Coding for kids in Varanasi
 

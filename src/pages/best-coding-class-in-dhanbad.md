@@ -32,7 +32,7 @@ Dhanbad is India's coal capital by function, and its best-known institution grew
 
 Whether your child is in a JAC, CBSE, ICSE or IGCSE school, the plan is the same: start at the right level, build something real, and keep the momentum going.
 
-Ages 8–12
+Ages 6–12
 
 ## Coding for kids in Dhanbad
 

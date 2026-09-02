@@ -32,7 +32,7 @@ Dehradun is where several of India's national institutions keep their headquarte
 
 Whether your child is in a UBSE, CBSE, ICSE or IGCSE school, the plan is the same: start at the right level, build something real, and keep the momentum going.
 
-Ages 8–12
+Ages 6–12
 
 ## Coding for kids in Dehradun
 

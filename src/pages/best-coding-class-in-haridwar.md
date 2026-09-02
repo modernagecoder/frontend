@@ -32,7 +32,7 @@ Haridwar is one of Hinduism's holiest cities, the place where the Ganges leaves 
 
 Whether your child is in a UBSE, CBSE, ICSE or IGCSE school, the plan is the same: start at the right level, build something real, and keep the momentum going.
 
-Ages 8–12
+Ages 6–12
 
 ## Coding for kids in Haridwar
 

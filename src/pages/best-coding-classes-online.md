@@ -409,7 +409,7 @@ Countries Represented
 
 Parents across India and worldwide choose Modern Age Coders because we combine everything a child needs to succeed in tech under one platform. Unlike other coding institutes that only teach Scratch or only focus on one age group, we offer a complete learning journey from age 6 to 67 covering Scratch, Python, JavaScript, AI, Web Development, and even Mathematics.
 
-Our classes are 100% live with expert instructors, not pre-recorded videos or student tutors. Every student gets personalized attention in small batches of 5-6 or dedicated 1-on-1 sessions. We are the world's first platform that integrates coding and maths education because every algorithm needs mathematical thinking. With students from 25+ countries and pricing starting at just ₹1,499/month, we make quality tech education accessible to everyone.
+Our classes are 100% live with expert instructors, not pre-recorded videos or student tutors. Every student gets personalized attention in small batches of 5-6 or dedicated 1-on-1 sessions. We teach coding and maths as one integrated curriculum because every algorithm needs mathematical thinking. With students from 25+ countries and pricing starting at just ₹1,499/month, we make quality tech education accessible to everyone.
 
 ## How We Compare to Other Coding Platforms
 

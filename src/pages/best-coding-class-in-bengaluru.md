@@ -32,7 +32,7 @@ India's space programme is run from Bengaluru, ISRO's headquarters sit at Antari
 
 Whether your child is in a Karnataka State, CBSE, ICSE or IGCSE school, the kind that send students to IISc, RVCE, PES and BMS, the plan is the same: start at the right level, build something real, and keep the momentum going.
 
-Ages 8–12
+Ages 6–12
 
 ## Coding for kids in Bengaluru
 

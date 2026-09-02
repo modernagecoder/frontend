@@ -272,8 +272,14 @@
 <section class="mp-section">
   <div class="mp-wrap">
     <div class="mp-answer">
-      <span class="q">The 20-second answer</span>
-      <p><strong>Ages 6-9 is the sweet spot to start</strong>, with block coding (Scratch) carrying real ideas without typing or syntax in the way. <strong>Ages 9-12 start beautifully in text code</strong> (Python) directly. Before 6, coding-flavored play beats formal classes. And later is never too late: a motivated 14-year-old catches a casual 8-year-start within months. The variable that outweighs age every time: <strong>readiness signals</strong>, curiosity about how things work, tolerance for tinkering, and enough reading fluency for the tool in question.</p>
+      <!-- Snippet block. Google's extractor wants a heading that restates the query with the
+           answer immediately under it, and it truncates paragraph snippets around 60 words.
+           This was a <span> eyebrow above a single 90-word paragraph, so there was nothing
+           clean to lift. Now: query-matching h2, a self-contained 47-word answer, and the
+           rest demoted to a follow-up paragraph that .mp-answer p + p already styles. -->
+      <h2 class="q">What is the best age to start coding?</h2>
+      <p>The best age to start coding is <strong>6 to 9</strong> for block coding like Scratch, which carries real ideas without typing or syntax in the way. From <strong>9 to 12</strong>, children can start directly in text code such as Python. Before 6, coding-flavored play beats formal classes.</p>
+      <p>And later is never too late: a motivated 14-year-old catches a casual 8-year-start within months. The variable that outweighs age every time is <strong>readiness</strong>, curiosity about how things work, tolerance for tinkering, and enough reading fluency for the tool in question.</p>
     </div>
   </div>
 </section>

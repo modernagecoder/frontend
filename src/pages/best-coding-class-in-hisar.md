@@ -32,7 +32,7 @@ Hisar is one of Haryana's education and industry anchors. It holds Guru Jambhesh
 
 Whether your child is in a HBSE, CBSE, ICSE or IGCSE school, the plan is the same: start at the right level, build something real, and keep the momentum going.
 
-Ages 8–12
+Ages 6–12
 
 ## Coding for kids in Hisar
 

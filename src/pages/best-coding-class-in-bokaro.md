@@ -32,7 +32,7 @@ Bokaro is a steel town by design. The Government of India decided in the early 1
 
 Whether your child is in a JAC, CBSE, ICSE or IGCSE school, the plan is the same: start at the right level, build something real, and keep the momentum going.
 
-Ages 8–12
+Ages 6–12
 
 ## Coding for kids in Bokaro
 

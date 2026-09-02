@@ -32,7 +32,7 @@ Udaipur is the City of Lakes, founded by Maharana Udai Singh II in 1553 as a ref
 
 Whether your child is in a RBSE, CBSE, ICSE or IGCSE school, the plan is the same: start at the right level, build something real, and keep the momentum going.
 
-Ages 8–12
+Ages 6–12
 
 ## Coding for kids in Udaipur
 

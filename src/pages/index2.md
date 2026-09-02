@@ -46,11 +46,11 @@ No forms to puzzle over, no pressure. Here is exactly what happens from the mome
 
 Free 45-minute class, no credit card, cancel anytime.
 
-The world's first of its kind
+Coding and maths, taught as one
 
 ## Why Coding Maths Together?
 
-Most platforms teach coding OR maths. Modern Age Coders is the world's first platform that combines coding and maths, because every algorithm needs mathematical thinking and every equation clicks better when you can code it. Students from 25+ countries across Asia, the Middle East, Europe, and North America already learn with us. No matter where you are, we bring world-class education to your screen.
+Most platforms teach coding OR maths. Modern Age Coders teaches coding and maths together, because every algorithm needs mathematical thinking and every equation clicks better when you can code it. Students from 25+ countries across Asia, the Middle East, Europe, and North America already learn with us. No matter where you are, we bring world-class education to your screen.
 
 Coding tracks
 

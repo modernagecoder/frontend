@@ -32,7 +32,7 @@ Sonipat has become Haryana's private-university hub. Just north of Delhi, its ed
 
 Whether your child is in a HBSE, CBSE, ICSE or IGCSE school, the plan is the same: start at the right level, build something real, and keep the momentum going.
 
-Ages 8–12
+Ages 6–12
 
 ## Coding for kids in Sonipat
 

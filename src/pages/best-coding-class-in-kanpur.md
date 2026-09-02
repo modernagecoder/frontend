@@ -32,7 +32,7 @@ Kanpur has been an engineering town for over a century. It started in 1920 with 
 
 Whether your child is in a UP Board, CBSE, ICSE or IGCSE school, the plan is the same: start at the right level, build something real, and keep the momentum going.
 
-Ages 8–12
+Ages 6–12
 
 ## Coding for kids in Kanpur
 

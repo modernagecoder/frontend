@@ -32,7 +32,7 @@ Berhampur is southern Odisha's education and craft centre. Berhampur University,
 
 Whether your child is in a BSE Odisha, CBSE, ICSE or IGCSE school, the plan is the same: start at the right level, build something real, and keep the momentum going.
 
-Ages 8–12
+Ages 6–12
 
 ## Coding for kids in Berhampur
 

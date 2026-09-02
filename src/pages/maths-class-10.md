@@ -156,7 +156,7 @@ Doubts should not pile up until the next class. Our students can ask questions a
 
 ### Maths + Coding Integration
 
-Modern Age Coders is the world's first platform that combines maths and coding education. Class 10 students who learn both develop stronger logical reasoning and problem-solving skills. Coding concepts like algorithms and loops directly reinforce mathematical thinking.
+Modern Age Coders teaches maths and coding as one integrated curriculum. Class 10 students who learn both develop stronger logical reasoning and problem-solving skills. Coding concepts like algorithms and loops directly reinforce mathematical thinking.
 
 ### Monthly Progress Reports for Parents
 

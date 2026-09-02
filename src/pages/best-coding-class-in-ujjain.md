@@ -32,7 +32,7 @@ Ujjain has kept time for India for over two thousand years. Ancient Hindu geogra
 
 Whether your child is in a MP Board, CBSE, ICSE or IGCSE school, the plan is the same: start at the right level, build something real, and keep the momentum going.
 
-Ages 8–12
+Ages 6–12
 
 ## Coding for kids in Ujjain
 

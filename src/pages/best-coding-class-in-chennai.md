@@ -32,7 +32,7 @@ Tamil Nadu is the one big state where an engineering seat turns on school marks 
 
 Whether your child is in a Tamil Nadu State Board, CBSE, ICSE or IGCSE school, the kind that feed IIT Madras, Anna University and SRM, the plan is the same: start at the right level, build something real, and keep the momentum going.
 
-Ages 8–12
+Ages 6–12
 
 ## Coding for kids in Chennai
 
