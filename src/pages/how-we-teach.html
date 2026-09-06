@@ -295,6 +295,53 @@
         </div>
     </section>
 
+    <!-- ===== TEACHING DEPTH (shared section, synced from components/teaching-depth.html) ===== -->
+    <!-- BEGIN_SHARED:teaching-depth -->
+<!-- Shared "teaching depth" section. ONE source: components/teaching-depth.html.
+     Synced into pages between BEGIN_SHARED:teaching-depth / END_SHARED:teaching-depth
+     markers by scripts/sync-shared-sections.js (runs first in generate:html).
+     Self-contained styling (td- prefix, fixed editorial tokens) so it renders the
+     same on the homepage, the teaching page and every course page. -->
+<style>
+    .td-section{padding:clamp(2.2rem,5vw,3.6rem) 1.5rem}
+    .td-inner{max-width:900px;margin:0 auto;background:#FBF8F2;border:1px solid rgba(28,24,20,.14);border-left:4px solid #B45309;border-radius:16px;padding:clamp(1.5rem,3.5vw,2.5rem);color:#1C1814;font-family:Inter,system-ui,-apple-system,"Segoe UI",sans-serif}
+    .td-eyebrow{margin:0 0 .7rem;font-family:"JetBrains Mono",ui-monospace,Menlo,Consolas,monospace;font-size:.78rem;letter-spacing:.14em;text-transform:uppercase;color:#A34A08;font-weight:600}
+    .td-title{margin:0 0 1rem;font-family:Fraunces,Georgia,"Times New Roman",serif;font-weight:600;font-size:clamp(1.7rem,3.6vw,2.4rem);line-height:1.12;letter-spacing:-.02em;color:#1C1814}
+    .td-body{margin:0 0 .9rem;color:#4A423A;font-size:1.02rem;line-height:1.72;max-width:70ch}
+    .td-line{margin:1.1rem 0 1.2rem;font-weight:600;color:#1C1814;font-size:1.02rem;line-height:1.6}
+    .td-practices{list-style:none;margin:0 0 1.4rem;padding:0;display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:.55rem .9rem}
+    .td-practices li{position:relative;padding-left:1.35rem;color:#1C1814;font-size:.97rem;line-height:1.55}
+    .td-practices li::before{content:"";position:absolute;left:0;top:.62em;width:.62rem;height:.62rem;border-radius:50%;background:#B45309}
+    .td-actions{margin:0;display:flex;flex-wrap:wrap;align-items:center;gap:.8rem 1.2rem}
+    .td-section a.td-btn{display:inline-flex;align-items:center;justify-content:center;min-height:44px;padding:.75rem 1.35rem;background:#B45309;color:#fff;border:1px solid #B45309;border-radius:11px;font-weight:600;font-size:.97rem;text-decoration:none;transition:background .2s,transform .2s}
+    .td-section a.td-btn:hover{background:#8F3F08;color:#fff;transform:translateY(-1px)}
+    .td-section a.td-link{display:inline-flex;align-items:center;min-height:44px;color:#A34A08;font-weight:600;font-size:.97rem;text-decoration:underline;text-underline-offset:3px}
+    .td-section a.td-link:hover{color:#8F3F08}
+    @media (max-width:560px){.td-inner{padding:1.3rem 1.1rem;border-radius:12px}.td-practices{grid-template-columns:1fr}}
+</style>
+<section class="td-section" aria-labelledby="td-title">
+    <div class="td-inner">
+        <p class="td-eyebrow">How we teach</p>
+        <h2 id="td-title" class="td-title">Deep understanding. Real projects. Expert guidance.</h2>
+        <p class="td-body">Learn coding, AI and maths through careful explanations, practical demonstrations, and hands-on problem-solving. Our instructors guide you from the foundations to advanced ideas, helping you understand what happens, why it happens, and how to build it yourself.</p>
+        <p class="td-body">You will explore concepts step by step, write and improve code, investigate mistakes, ask questions, and apply your knowledge to meaningful projects. Lessons are designed around active participation, thoughtful feedback, and growing independence.</p>
+        <p class="td-line">Expert-led live teaching, with practical participation built into every lesson.</p>
+        <ul class="td-practices" aria-label="What happens in a lesson">
+            <li>Students explain their thinking.</li>
+            <li>Instructors demonstrate, then guide practice.</li>
+            <li>Learners code, solve, or build during lessons.</li>
+            <li>Questions and misconceptions get attention.</li>
+            <li>Assignments receive useful feedback.</li>
+            <li>Progress is checked before advancing.</li>
+        </ul>
+        <p class="td-actions">
+            <a class="td-btn" href="/how-we-teach#library">Watch a real class</a>
+            <a class="td-link" href="/courses">Choose a course and enroll</a>
+        </p>
+    </div>
+</section>
+<!-- END_SHARED:teaching-depth -->
+
     <!-- ===== METHOD BEATS ===== -->
     <section class="hwt-section wrap">
         <div class="hwt-head hwt-head-center hwt-reveal">
@@ -523,14 +570,28 @@
 
     <!-- ===== CTA BAND ===== -->
     <section class="hwt-section wrap" style="padding-top:0;">
-        <div class="hwt-cta hwt-reveal">
-            <h2>Liked what you <em>saw?</em></h2>
-            <p>Book a free, no-obligation demo class and let your child experience this teaching style live, in coding, maths, or both.</p>
+        <div class="hwt-cta hwt-reveal" id="start">
+            <h2>Like the way we teach? <em>Start your learning journey.</em></h2>
+            <p>You have seen how we explain, build, question, and solve problems together. If this feels like the right learning environment, choose your course and enroll. A live demo is optional: you can request one whenever you need help deciding.</p>
             <div class="hwt-cta-row" style="margin-bottom:0;">
-                <button type="button" class="hwt-btn hwt-btn--solid" onclick="openCallbackModal()">Book a Free Demo</button>
-                <a href="/courses" class="hwt-btn hwt-btn--ghost">View All Courses</a>
+                <a href="/courses" class="hwt-btn hwt-btn--solid" id="hwt-enroll-cta">Choose My Course &amp; Enroll</a>
+                <button type="button" class="hwt-btn hwt-btn--ghost" onclick="openCallbackModal()">Book a Free Live Demo</button>
             </div>
         </div>
+        <script>
+            // A visitor who arrived from a course page (?course=<slug>) gets that
+            // course's enrolment as the first action instead of the general catalogue.
+            (function () {
+                try {
+                    var slug = new URLSearchParams(window.location.search).get('course') || '';
+                    if (!/^[a-z0-9-]{3,120}$/.test(slug)) return;
+                    var a = document.getElementById('hwt-enroll-cta');
+                    if (!a) return;
+                    a.href = '/courses/' + slug + '#enroll';
+                    a.textContent = 'Enroll in This Course';
+                } catch (e) { }
+            })();
+        </script>
     </section>
 
     <!-- ===== FAQ ===== -->
