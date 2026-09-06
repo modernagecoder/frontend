@@ -37,12 +37,14 @@ Legend: `[ ]` not started · `[~]` in progress · `[x]` done and verified · `[!
 
 ## Phase B: messaging on three pages (PREVIEW BEFORE ANY SWEEP)
 
-- [ ] B1 `/book-demo`: "Don't wait to experience how we teach" with the three actions and the sign-in disclosure
-- [ ] B2 `/how-we-teach`: closing section "Like the way we teach? Start your learning journey."
-- [ ] B3 Shared teaching-depth section on homepage, how-we-teach and course pages
-- [~] B4 Course template trust line now reads "Enroll directly, or take a free live demo first if you like" (121 pages). Homepage capsule and pricing page still to do.
-- [ ] B5 Homepage CTA order: Watch a Real Class, Explore Courses, Book a Free Demo
-- [ ] B6 One mobile action bar: two actions, WhatsApp/Misti as a compact help control, keyboard-safe
+Owner: please open ,  and  (and any course page) locally or on a draft deploy before this goes live. Each page is its own commit (hashes below), so a single page can be reverted without touching the rest.
+
+- [x] B1 `cbc145f8` `/book-demo` strip: the brief's heading and body, the two age libraries, Choose a Course & Enroll, a quiet "Prefer a live demo? Choose a time below" link, and the Google sign-in / English-Hindi disclosure. Booking form untouched. PREVIEW PAGE.
+- [x] B2 `6c1f4e28` `/how-we-teach` closing: Choose My Course & Enroll first, Book a Free Live Demo second; `?course=<slug>` turns the first action into "Enroll in This Course" (verified). Also found and fixed: the page's inline markers were decorated, so the build had never refreshed its nav or footer (`9a65c24a`). PREVIEW PAGE.
+- [x] B3 `84e33f46` `components/teaching-depth.html` (the brief's copy, six practices, two actions) synced by `scripts/sync-shared-sections.js` into the homepage, the teaching page and the course template (121 pages); runs first in `generate:html`. Course pages pass their slug through to the teaching page.
+- [x] B4 No page implies a demo before payment: course template trust line, homepage capsule (`0340ea2c`), pricing capsule and risk chip (`3b785c09`).
+- [x] B5 `0340ea2c` Homepage hero: Watch a Real Class (primary), Explore Courses, Book a Free Demo. PREVIEW PAGE.
+- [x] B6 `e1bc22bb` + `9a65c24a` + `dedd5706`: course pages show Enroll + Watch Class (re-pointed at the matched library), the booking page Book a Demo + Watch Class, WhatsApp and Misti in one 44px help control, floats hidden there, bar hidden while a field has focus. Other pages keep WhatsApp + Book Free Demo (now 44px, and the WhatsApp float finally hides on phones as originally intended). Root causes fixed on the way: the floats' inline !important styles, and 104 pages carrying 2 to 3 stacked copies of both floats (394 anchors, 197 style blocks removed). Verified with Playwright on 4 pages x 2 widths.
 
 ## Phase C: shared data
 
@@ -78,4 +80,4 @@ Legend: `[ ]` not started · `[~]` in progress · `[x]` done and verified · `[!
 ## Log
 
 - 2026-09-06: read the spec, confirmed each repair-backlog item against the code, wrote the plan.
-- 2026-09-07: Phase A tasks A1 to A9, A11, A12 shipped (10 commits here, 1 in the backend). A10 shipped too: Phase A complete (12 of 12).
+- 2026-09-07: Phase A complete (12 of 12). Phase C1 to C3 shipped (course facts, answers, recordings data). Phase B shipped on the three core pages plus the course template, with the mobile bar and three pre-existing defects fixed along the way (decorated markers on how-we-teach, inline float styles, 104 pages with stacked duplicate floats).
