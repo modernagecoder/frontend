@@ -61,7 +61,7 @@
         href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400..700;1,9..144,400..600&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600;700&display=swap">
     <!-- Editorial theme (shared) + Course detail styles. No legacy CSS. -->
     <link rel="stylesheet" href="/css/editorial-theme.css?v=20260626g">
-    <link rel="stylesheet" href="/css/course-detail-redesign.css?v=20260709">
+    <link rel="stylesheet" href="/css/course-detail-redesign.css?v=20260907">
     <link rel="stylesheet" href="/css/moments-strip.css?v=20260806b">
     <script src="/js/moments-strip.js?v=20260806b" defer></script>
     <meta name="theme-color" content="#B45309">
@@ -175,11 +175,11 @@
                     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>
                 </div>
                 <div>
-                    <h3>Flexible course duration</h3>
-                    <p>Duration depends on the student's background and pace. <strong>Beginners (kids / teens):</strong> typically 6 to 9 months. <strong>Adults with prior knowledge:</strong> often shorter, with an accelerated path.</p>
+                    <h3>How long this course takes</h3>
+                    <p>This course runs <strong>{{DURATION}}</strong> at <strong>{{COMMITMENT}}</strong>. The range allows for background and pace: a complete beginner uses the full span, and a student with prior knowledge finishes sooner. The syllabus below is planned to the shorter end, with margin kept for revision.</p>
                     <div class="cd-duration-opts">
-                        <div class="cd-duration-opt"><span class="k">Standard pace</span><span class="v">6 to 9 months</span></div>
-                        <div class="cd-duration-opt"><span class="k">Accelerated</span><span class="v">Add class frequency to finish faster</span></div>
+                        <div class="cd-duration-opt"><span class="k">Standard pace</span><span class="v">{{DURATION}}</span></div>
+                        <div class="cd-duration-opt"><span class="k">Weekly commitment</span><span class="v">{{COMMITMENT}}</span></div>
                     </div>
                     <p class="cd-duration-contact">For personalised duration planning, call <a href="tel:+919123366161">+91 91233 66161</a> and we'll map a schedule to your goals.</p>
                 </div>

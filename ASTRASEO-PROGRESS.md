@@ -24,8 +24,8 @@ Legend: `[ ]` not started · `[~]` in progress · `[x]` done and verified · `[!
 
 - [x] A1 Email validation accepts `+` aliases and long domain endings. Backend `60f72fe`: one shared rule in `lib/validateEmail.js` replaced 7 copies (server.js, api/contact/submit.js, Contact, CorporateTraining, User, BusinessSolution models); 20-case test passes. Frontend forms already used the lenient rule and keep entered data on error.
 - [x] A2 robots.txt generated from `scripts/robots-policy.json` by `generate-robots.js`; `verify-robots.js` runs in `generate:derived` and fails the build if any of the 22 groups drifts. Before: 21 named groups had zero disallow rules. Same agents, same paths, nothing lost.
-- [ ] A3 Course and blog hero images load eagerly with dimensions (they were `loading="lazy"`)
-- [ ] A4 Course duration panel reads the course's own duration (was a fixed "6 to 9 months")
+- [x] A3 Course and blog hero images load eagerly with `fetchpriority="high"` and 800x450 dimensions (were `loading="lazy"`). Verified on all 121 generated course pages.
+- [x] A4 Course duration panel reads the course's own `meta.duration` and `meta.commitment` (was a fixed "6 to 9 months" on every page). Verified 121/121: visible panel, hero badge and schema `timeRequired` agree; 0 pages still say 6 to 9 months.
 - [ ] A5 Desktop navigation no longer carries `aria-hidden="true"` while visible
 - [ ] A6 Minifier covers every CSS/JS file the pages actually load (was 7 CSS + 3 JS by hand)
 - [ ] A7 Build fails if a routed, indexable page is missing from the sitemap
