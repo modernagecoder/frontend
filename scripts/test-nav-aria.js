@@ -24,6 +24,18 @@ const BASE = process.env.BASE_URL || 'http://localhost:3001';
 // mobile-navigation.js (/courses and every generated course page).
 const PAGES = ['/', '/book-demo', '/courses', '/courses/python-complete-masterclass-teens'];
 
+// The nav scripts initialise after the componentsLoaded event or a 1 s fallback
+// timer, so over a real network a fixed wait is a coin toss. Wait for the script's
+// own ready flag (both nav scripts set one), then settle briefly.
+async function navReady(page) {
+  await page.waitForFunction(
+    () => window.__mobileNavInitialized || window.__unifiedMobileNavInitialized,
+    null,
+    { timeout: 8000 }
+  ).catch(() => { /* pages that use navigation.js set no flag; fall through */ });
+  await page.waitForTimeout(250);
+}
+
 async function state(page) {
   return page.evaluate(() => {
     const menu = document.getElementById('navMenu');
@@ -46,7 +58,7 @@ async function state(page) {
     // Desktop: the menu is visible, so it must not be aria-hidden.
     const d = await browser.newPage({ viewport: { width: 1280, height: 800 } });
     await d.goto(BASE + url, { waitUntil: 'load' });
-    await d.waitForTimeout(700); // nav scripts init after componentsLoaded / timeouts
+    await navReady(d);
     const ds = await state(d);
     if (ds.hamburgerVisible) failures.push(`${url} @1280: hamburger is visible on desktop`);
     if (ds.ariaHidden === 'true') failures.push(`${url} @1280: #navMenu is aria-hidden="true" while visible`);
@@ -56,7 +68,7 @@ async function state(page) {
     // Mobile: closed menu is hidden, open menu is not.
     const m = await browser.newPage({ viewport: { width: 390, height: 844 }, isMobile: true, hasTouch: true });
     await m.goto(BASE + url, { waitUntil: 'load' });
-    await m.waitForTimeout(700);
+    await navReady(m);
     const closed = await state(m);
     if (!closed.hamburgerVisible) failures.push(`${url} @390: hamburger not visible`);
     if (closed.ariaHidden !== 'true') failures.push(`${url} @390 closed: expected aria-hidden="true", got ${closed.ariaHidden}`);
