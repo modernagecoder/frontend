@@ -72,8 +72,28 @@ function findHtmlFiles(dir) {
 
 // ── Inline a single HTML file ────────────────────────────────────
 
+// Writing a thousand files in a burst on Windows trips a transient "UNKNOWN:
+// unknown error, open" from the file scanner holding a freshly written file for
+// a moment. A single such hiccup used to abort the whole run, leaving every
+// page after it with a stale nav and footer. Retry briefly; only give up (and
+// fail the run) if the file stays locked.
+function sleepSync(ms) {
+    try { Atomics.wait(new Int32Array(new SharedArrayBuffer(4)), 0, 0, ms); } catch (e) { /* no-op */ }
+}
+function withRetry(fn, what) {
+    let lastErr;
+    for (let attempt = 1; attempt <= 6; attempt++) {
+        try { return fn(); } catch (err) {
+            lastErr = err;
+            if (!/UNKNOWN|EBUSY|EPERM|EACCES/.test(String(err.code || err.message))) throw err;
+            sleepSync(150 * attempt);
+        }
+    }
+    throw new Error(`${what} failed after retries: ${lastErr && lastErr.message}`);
+}
+
 function inlineFile(filePath, navHtml, footerHtml) {
-    let content = fs.readFileSync(filePath, 'utf-8');
+    let content = withRetry(() => fs.readFileSync(filePath, 'utf-8'), 'read ' + filePath);
     const original = content;
     let changes = 0;
 
@@ -187,7 +207,7 @@ function inlineFile(filePath, navHtml, footerHtml) {
 
     // Write back if changed
     if (content !== original) {
-        fs.writeFileSync(filePath, content, 'utf-8');
+        withRetry(() => fs.writeFileSync(filePath, content, 'utf-8'), 'write ' + filePath);
         return true;
     }
     return false;
@@ -219,10 +239,17 @@ function main() {
     // Process each file
     let inlinedCount = 0;
     let skippedCount = 0;
+    const failures = [];
 
     for (const filePath of allFiles) {
         const relativePath = path.relative(ROOT, filePath);
-        const wasInlined = inlineFile(filePath, navHtml, footerHtml);
+        let wasInlined = false;
+        try {
+            wasInlined = inlineFile(filePath, navHtml, footerHtml);
+        } catch (err) {
+            failures.push(relativePath + ': ' + err.message);
+            continue;
+        }
         if (wasInlined) {
             console.log(`  ✅ ${relativePath}`);
             inlinedCount++;
@@ -235,6 +262,12 @@ function main() {
     console.log('\n╔════════════════════════════════════════════════════════════╗');
     console.log(`║  ✅ Inlined: ${String(inlinedCount).padEnd(4)} | ⏭️  Skipped: ${String(skippedCount).padEnd(4)}              ║`);
     console.log('╚════════════════════════════════════════════════════════════╝\n');
+
+    if (failures.length) {
+        console.error(`❌ ${failures.length} file(s) could not be inlined:`);
+        failures.forEach((f) => console.error('   ' + f));
+        process.exitCode = 1;
+    }
 
     if (inlinedCount > 0) {
         console.log('🚀 Nav and footer are now embedded in the HTML source!');

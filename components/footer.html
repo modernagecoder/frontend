@@ -153,8 +153,7 @@
 
 <!-- Misti AI Floating Chat Button - Above WhatsApp -->
 <a href="https://misti.modernagecoders.com" target="_blank" rel="noopener noreferrer" class="misti-chat-btn"
-    aria-label="Chat with Misti AI"
-    style="position: fixed !important; bottom: 92px !important; right: 24px !important; z-index: 2147483646 !important; display: flex !important; flex-direction: row !important; align-items: center !important; gap: 10px !important; text-decoration: none !important;">
+    aria-label="Chat with Misti AI">
     <span class="misti-label"
         style="background: linear-gradient(135deg, #f59e0b, #d97706); color: #fff; padding: 8px 16px; border-radius: 20px; font-size: 13px; font-weight: 600; white-space: nowrap; box-shadow: 0 4px 14px rgba(245, 158, 11, 0.4); font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; letter-spacing: 0.3px;">Ask
         Misti AI</span>
@@ -168,8 +167,7 @@
 </a>
 <!-- WhatsApp Floating Chat Button -->
 <a href="https://wa.me/919123366161?text=Hi%2C%20I'm%20interested%20in%20learning%20more%20about%20your%20courses!"
-    target="_blank" rel="noopener noreferrer" class="wa-float-btn" aria-label="Chat on WhatsApp"
-    style="position: fixed !important; bottom: 24px !important; right: 24px !important; z-index: 2147483645 !important; display: flex !important; flex-direction: row !important; align-items: center !important; gap: 10px !important; text-decoration: none !important;">
+    target="_blank" rel="noopener noreferrer" class="wa-float-btn" aria-label="Chat on WhatsApp">
     <span class="wa-label"
         style="background: #25D366; color: #fff; padding: 8px 16px; border-radius: 20px; font-size: 13px; font-weight: 600; white-space: nowrap; box-shadow: 0 4px 14px rgba(37, 211, 102, 0.4); font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; letter-spacing: 0.3px;">Chat
         with us</span>
@@ -187,6 +185,13 @@
 
 
 <style>
+    /* Floating buttons. These rules used to be inline !important styles on the
+       anchors, which meant the mobile bar's "hide the WhatsApp float on phones"
+       rule below could never win. Kept here so the stylesheet is in charge. */
+    .misti-chat-btn, .wa-float-btn { position: fixed; right: 24px; display: flex; flex-direction: row; align-items: center; gap: 10px; text-decoration: none; }
+    .misti-chat-btn { bottom: 92px; z-index: 2147483646; }
+    .wa-float-btn { bottom: 24px; z-index: 2147483645; }
+
     /* Misti AI Button Hover */
     .misti-chat-btn:hover .misti-icon {
         transform: scale(1.08);
@@ -363,7 +368,7 @@
         }
         .mac-sticky-cta a {
             flex: 1; display: flex; align-items: center; justify-content: center; gap: 6px;
-            padding: 12px 8px; border-radius: 10px;
+            min-height: 44px; padding: 12px 8px; border-radius: 10px;
             font: 700 15px/1 Inter, system-ui, sans-serif; text-decoration: none;
         }
         .mac-sticky-wa { background: #25D366; color: #fff; }
