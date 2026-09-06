@@ -905,29 +905,21 @@ class CourseGenerator {
             courseSchema.coursePrerequisites = "None, beginner-friendly with optional advanced track";
         }
 
-        // Review snippet eligibility: Course is a Google-supported type for review
-        // rich results, so the rating + reviews live on the Course object (NOT the
-        // Organization, which is self-serving and ineligible). Rating is the real,
-        // verified Google Business Profile figure (4.9 / 547). The review[] are the
-        // same 4 real testimonials shown in the visible "What Families Say" block on
-        // the page, so the markup matches on-page content. With aggregateRating
-        // present, the multiple reviews are valid (fixes the GSC "Multiple reviews
-        // without aggregateRating object" error).
+        // Rating on the Course: the real Google Business Profile figure (4.9 across
+        // 547 reviews) for the business as a whole. The owner chose on 2026-07-01 to
+        // keep it here (Course is a review-snippet-eligible type; Organization is
+        // self-serving and ineligible) and set a checkpoint of 2026-09-15: if GSC ->
+        // Enhancements -> Review snippets shows no course page with stars by then,
+        // delete this block too.
         //
-        // DECISION CHECKPOINT, review by 2026-09-15 (Phase 1.6).
-        // Known risk, accepted knowingly by the owner on 2026-07-01, recorded here so the
-        // next person to read this code sees the trade-off rather than assuming it is fine:
-        // this is ONE organisation-level rating (4.9/547, a real Google Business Profile
-        // figure for the business as a whole) applied to 102 DIFFERENT Course items, with
-        // the same 4 reviews cloned onto each. Google's guidance is that a review must be
-        // about the specific item it is attached to. The likely outcome is silent
-        // suppression, no stars, markup ignored, no penalty; the bad outcome is a
-        // Review-snippet manual action that can cost rich-result eligibility site-wide.
-        // ACTION: watch GSC → Enhancements → Review snippets weekly. If no course page is
-        // showing stars by 2026-09-15, this block and courseSchema.review below are pure
-        // downside, delete both. The durable fix is per-course reviews (Phase 9.1): ask
-        // each batch's parents to name the course in their Google review, then mark up only
-        // the reviews that genuinely belong to that course.
+        // The per-review array is GONE (2026-09-07). It cloned the same four
+        // testimonials, none of them about the course on the page, onto all 121
+        // Course items. Google's rule is that a review must be about the specific
+        // item it is attached to, and the site's own brief (astraseo.md, "Generic
+        // reviews ... reused broadly") asked for schema that matches the reviewed
+        // course. The quotes still appear as visible on-page HTML in the "What
+        // Families Say" block; they are simply no longer asserted as reviews of this
+        // course. Re-add review[] ONLY from reviews that name the course.
         courseSchema.aggregateRating = {
             "@type": "AggregateRating",
             "ratingValue": "4.9",
@@ -935,12 +927,6 @@ class CourseGenerator {
             "bestRating": "5",
             "worstRating": "1"
         };
-        courseSchema.review = [
-            { "@type": "Review", "author": { "@type": "Person", "name": "Shradha Saraf" }, "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" }, "publisher": { "@type": "Organization", "name": "Google" }, "reviewBody": "Mivaan enjoys the class. He understands the concepts and completes his tasks with excitement. He started taking interest in coding, truly amazing class." },
-            { "@type": "Review", "author": { "@type": "Person", "name": "Shewta Singh" }, "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" }, "publisher": { "@type": "Organization", "name": "Google" }, "reviewBody": "My son struggled with maths for years. Integrating it into coding projects has transformed how he thinks. He now genuinely enjoys both." },
-            { "@type": "Review", "author": { "@type": "Person", "name": "Sonu Goyal" }, "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" }, "publisher": { "@type": "Organization", "name": "Google" }, "reviewBody": "Modern Age Coders has wonderful teachers who teach in a clear, easy and practical way. My son looks forward to every single class." },
-            { "@type": "Review", "author": { "@type": "Person", "name": "Samridho Mondal" }, "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" }, "publisher": { "@type": "Organization", "name": "Google" }, "reviewBody": "Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts before, and now they finally click, and I actually look forward to learning." }
-        ];
 
         schemas.push(courseSchema);
 
