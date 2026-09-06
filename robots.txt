@@ -1,13 +1,15 @@
 # robots.txt for Modern Age Coders Learning Platform
+#
+# GENERATED FILE. Edit scripts/robots-policy.json and run `npm run generate:robots`.
+# Every crawler group below repeats the same Disallow list on purpose: a crawler
+# reads only its own most-specific group, so a named group that said just
+# "Allow: /" used to hand that crawler none of the exclusions. verify-robots.js
+# fails the build if any group drifts from the policy.
 
-# Allow all crawlers to access all content
+# Default rules for every crawler
 User-agent: *
 Allow: /
-
-# Disallow API endpoints (POST form handlers — not indexable pages)
 Disallow: /api/
-
-# Disallow admin and test pages
 Disallow: /admin/
 Disallow: /test-*.html
 Disallow: /*-test.html
@@ -15,7 +17,7 @@ Disallow: /check-status
 Disallow: /dummy.html
 Disallow: /form-example.html
 
-# Allow important pages
+# Core pages
 Allow: /hackathon
 Allow: /courses/
 Allow: /blog/
@@ -24,6 +26,7 @@ Allow: /contact
 Allow: /pricing
 Allow: /faq
 Allow: /book-demo
+Allow: /how-we-teach
 Allow: /for-business
 Allow: /gazette
 Allow: /aura
@@ -40,21 +43,21 @@ Allow: /coding-challenges
 Allow: /maths-challenges
 Allow: /search
 
-# Levels pages - Age group and audience landing pages
+# Levels pages, age group and audience landing pages
 Allow: /levels/coding-for-kids
 Allow: /levels/coding-for-teens
 Allow: /levels/coding-for-college-students
 Allow: /levels/coding-for-professionals
 Allow: /levels/corporate-training
 
-# SEO Landing Pages
+# SEO landing pages
 Allow: /python-and-ai-classes-for-kids-teens
 Allow: /coding-classes-for-girls
 Allow: /best-coding-classes-online
 Allow: /ai-ml-course-for-teens
 Allow: /java-programming-for-kids-teens
 
-# Country landing pages — high-value SEO hubs
+# Country landing pages, high-value SEO hubs
 Allow: /coding-classes-in-india
 Allow: /coding-classes-in-switzerland
 Allow: /coding-classes-in-germany
@@ -67,83 +70,225 @@ Allow: /coding-classes-in-uae
 Allow: /coding-classes-in-singapore
 Allow: /coding-classes-in-ireland
 Allow: /coding-classes-in-new-zealand
-
-# Sitemap locations
-# One index pointing at per-cluster children (core / courses / blog / cities / topics /
-# international / resources). One flat sitemap made GSC's "indexed vs submitted" useless:
-# it said 612 of 738 and never which 126. Per-cluster, a coverage problem localises to a
-# cluster in one glance. sitemap.xml is still the hand-maintained source the children are
-# generated from, and is intentionally NOT advertised here — advertising both would count
-# every URL twice and undo the split.
-Sitemap: https://learn.modernagecoders.com/sitemap-index.xml
-
-# Crawl delay (be nice to servers)
 Crawl-delay: 1
 
-# Search engine bot instructions
+# Sitemap location
+# One index pointing at per-cluster children (core / courses / blog / cities / topics /
+# international / resources). sitemap.xml is still the hand-maintained source the
+# children are generated from, and is intentionally NOT advertised here: advertising
+# both would count every URL twice and undo the split.
+Sitemap: https://learn.modernagecoders.com/sitemap-index.xml
+
+# Search engines
 User-agent: Googlebot
 Allow: /
-Crawl-delay: 0
+Disallow: /api/
+Disallow: /admin/
+Disallow: /test-*.html
+Disallow: /*-test.html
+Disallow: /check-status
+Disallow: /dummy.html
+Disallow: /form-example.html
 
 User-agent: Bingbot
 Allow: /
+Disallow: /api/
+Disallow: /admin/
+Disallow: /test-*.html
+Disallow: /*-test.html
+Disallow: /check-status
+Disallow: /dummy.html
+Disallow: /form-example.html
 Crawl-delay: 1
 
-# Explicitly allow all AI crawlers (CRITICAL FOR GEO)
+# AI crawlers, explicitly allowed (critical for AI visibility)
 User-agent: GPTBot
 Allow: /
+Disallow: /api/
+Disallow: /admin/
+Disallow: /test-*.html
+Disallow: /*-test.html
+Disallow: /check-status
+Disallow: /dummy.html
+Disallow: /form-example.html
 
 User-agent: ChatGPT-User
 Allow: /
+Disallow: /api/
+Disallow: /admin/
+Disallow: /test-*.html
+Disallow: /*-test.html
+Disallow: /check-status
+Disallow: /dummy.html
+Disallow: /form-example.html
 
 User-agent: Google-Extended
 Allow: /
+Disallow: /api/
+Disallow: /admin/
+Disallow: /test-*.html
+Disallow: /*-test.html
+Disallow: /check-status
+Disallow: /dummy.html
+Disallow: /form-example.html
 
 User-agent: PerplexityBot
 Allow: /
+Disallow: /api/
+Disallow: /admin/
+Disallow: /test-*.html
+Disallow: /*-test.html
+Disallow: /check-status
+Disallow: /dummy.html
+Disallow: /form-example.html
 
 User-agent: anthropic-ai
 Allow: /
+Disallow: /api/
+Disallow: /admin/
+Disallow: /test-*.html
+Disallow: /*-test.html
+Disallow: /check-status
+Disallow: /dummy.html
+Disallow: /form-example.html
 
 User-agent: ClaudeBot
 Allow: /
+Disallow: /api/
+Disallow: /admin/
+Disallow: /test-*.html
+Disallow: /*-test.html
+Disallow: /check-status
+Disallow: /dummy.html
+Disallow: /form-example.html
 
 User-agent: cohere-ai
 Allow: /
+Disallow: /api/
+Disallow: /admin/
+Disallow: /test-*.html
+Disallow: /*-test.html
+Disallow: /check-status
+Disallow: /dummy.html
+Disallow: /form-example.html
 
 User-agent: Amazonbot
 Allow: /
+Disallow: /api/
+Disallow: /admin/
+Disallow: /test-*.html
+Disallow: /*-test.html
+Disallow: /check-status
+Disallow: /dummy.html
+Disallow: /form-example.html
 
 User-agent: FacebookBot
 Allow: /
+Disallow: /api/
+Disallow: /admin/
+Disallow: /test-*.html
+Disallow: /*-test.html
+Disallow: /check-status
+Disallow: /dummy.html
+Disallow: /form-example.html
 
 User-agent: CCBot
 Allow: /
+Disallow: /api/
+Disallow: /admin/
+Disallow: /test-*.html
+Disallow: /*-test.html
+Disallow: /check-status
+Disallow: /dummy.html
+Disallow: /form-example.html
 
 # Newer AI crawlers (2025-2026 generation)
 User-agent: Claude-User
 Allow: /
+Disallow: /api/
+Disallow: /admin/
+Disallow: /test-*.html
+Disallow: /*-test.html
+Disallow: /check-status
+Disallow: /dummy.html
+Disallow: /form-example.html
 
 User-agent: Claude-SearchBot
 Allow: /
+Disallow: /api/
+Disallow: /admin/
+Disallow: /test-*.html
+Disallow: /*-test.html
+Disallow: /check-status
+Disallow: /dummy.html
+Disallow: /form-example.html
 
 User-agent: OAI-SearchBot
 Allow: /
+Disallow: /api/
+Disallow: /admin/
+Disallow: /test-*.html
+Disallow: /*-test.html
+Disallow: /check-status
+Disallow: /dummy.html
+Disallow: /form-example.html
 
 User-agent: Perplexity-User
 Allow: /
+Disallow: /api/
+Disallow: /admin/
+Disallow: /test-*.html
+Disallow: /*-test.html
+Disallow: /check-status
+Disallow: /dummy.html
+Disallow: /form-example.html
 
 User-agent: Meta-ExternalAgent
 Allow: /
+Disallow: /api/
+Disallow: /admin/
+Disallow: /test-*.html
+Disallow: /*-test.html
+Disallow: /check-status
+Disallow: /dummy.html
+Disallow: /form-example.html
 
 User-agent: Applebot
 Allow: /
+Disallow: /api/
+Disallow: /admin/
+Disallow: /test-*.html
+Disallow: /*-test.html
+Disallow: /check-status
+Disallow: /dummy.html
+Disallow: /form-example.html
 
 User-agent: Applebot-Extended
 Allow: /
+Disallow: /api/
+Disallow: /admin/
+Disallow: /test-*.html
+Disallow: /*-test.html
+Disallow: /check-status
+Disallow: /dummy.html
+Disallow: /form-example.html
 
 User-agent: DuckAssistBot
 Allow: /
+Disallow: /api/
+Disallow: /admin/
+Disallow: /test-*.html
+Disallow: /*-test.html
+Disallow: /check-status
+Disallow: /dummy.html
+Disallow: /form-example.html
 
 User-agent: YouBot
 Allow: /
+Disallow: /api/
+Disallow: /admin/
+Disallow: /test-*.html
+Disallow: /*-test.html
+Disallow: /check-status
+Disallow: /dummy.html
+Disallow: /form-example.html

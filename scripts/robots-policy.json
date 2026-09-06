@@ -1,0 +1,58 @@
+{
+  "_comment": [
+    "SINGLE SOURCE for robots.txt. Edit this file, then run `npm run generate:robots`.",
+    "Never hand-edit robots.txt: the generator writes every crawler group with the SAME",
+    "disallow list, because a crawler reads only its own most-specific group and ignores",
+    "the rest. Before this file existed, Googlebot and every AI crawler had a lone",
+    "`Allow: /` group and therefore none of the exclusions below. verify-robots.js fails",
+    "the build if any group drifts."
+  ],
+  "sitemap": "https://learn.modernagecoders.com/sitemap-index.xml",
+  "disallow": [
+    "/api/",
+    "/admin/",
+    "/test-*.html",
+    "/*-test.html",
+    "/check-status",
+    "/dummy.html",
+    "/form-example.html"
+  ],
+  "allowHints": {
+    "_comment": "Redundant with Allow: / but kept as a readable inventory of the pages we most want crawled. Emitted in the * group only.",
+    "Core pages": ["/hackathon", "/courses/", "/blog/", "/about", "/contact", "/pricing", "/faq", "/book-demo", "/how-we-teach", "/for-business", "/gazette", "/aura", "/beat-the-babu", "/love", "/coding-roadmap", "/free-resources", "/success-stories", "/student-labs", "/summer-coding-camp", "/online-maths-tuition", "/maths-class-10", "/coding-challenges", "/maths-challenges", "/search"],
+    "Levels pages, age group and audience landing pages": ["/levels/coding-for-kids", "/levels/coding-for-teens", "/levels/coding-for-college-students", "/levels/coding-for-professionals", "/levels/corporate-training"],
+    "SEO landing pages": ["/python-and-ai-classes-for-kids-teens", "/coding-classes-for-girls", "/best-coding-classes-online", "/ai-ml-course-for-teens", "/java-programming-for-kids-teens"],
+    "Country landing pages, high-value SEO hubs": ["/coding-classes-in-india", "/coding-classes-in-switzerland", "/coding-classes-in-germany", "/coding-classes-in-united-kingdom", "/coding-classes-in-canada", "/coding-classes-in-sweden", "/coding-classes-in-united-states", "/coding-classes-in-australia", "/coding-classes-in-uae", "/coding-classes-in-singapore", "/coding-classes-in-ireland", "/coding-classes-in-new-zealand"]
+  },
+  "defaultCrawlDelay": 1,
+  "namedAgents": {
+    "_comment": "Each gets its own explicit group so a log reader can see the policy applied to it. crawlDelay null = omit the line (Google ignores Crawl-delay anyway).",
+    "Search engines": [
+      { "name": "Googlebot", "crawlDelay": null },
+      { "name": "Bingbot", "crawlDelay": 1 }
+    ],
+    "AI crawlers, explicitly allowed (critical for AI visibility)": [
+      { "name": "GPTBot" },
+      { "name": "ChatGPT-User" },
+      { "name": "Google-Extended" },
+      { "name": "PerplexityBot" },
+      { "name": "anthropic-ai" },
+      { "name": "ClaudeBot" },
+      { "name": "cohere-ai" },
+      { "name": "Amazonbot" },
+      { "name": "FacebookBot" },
+      { "name": "CCBot" }
+    ],
+    "Newer AI crawlers (2025-2026 generation)": [
+      { "name": "Claude-User" },
+      { "name": "Claude-SearchBot" },
+      { "name": "OAI-SearchBot" },
+      { "name": "Perplexity-User" },
+      { "name": "Meta-ExternalAgent" },
+      { "name": "Applebot" },
+      { "name": "Applebot-Extended" },
+      { "name": "DuckAssistBot" },
+      { "name": "YouBot" }
+    ]
+  }
+}

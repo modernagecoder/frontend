@@ -22,8 +22,8 @@ Legend: `[ ]` not started · `[~]` in progress · `[x]` done and verified · `[!
 
 ## Phase A: technical foundations
 
-- [ ] A1 Email validation accepts `+` aliases and long domain endings (backend, 4 places)
-- [ ] A2 robots.txt generated from one policy so Googlebot and the AI crawlers get the same disallows
+- [x] A1 Email validation accepts `+` aliases and long domain endings. Backend `60f72fe`: one shared rule in `lib/validateEmail.js` replaced 7 copies (server.js, api/contact/submit.js, Contact, CorporateTraining, User, BusinessSolution models); 20-case test passes. Frontend forms already used the lenient rule and keep entered data on error.
+- [x] A2 robots.txt generated from `scripts/robots-policy.json` by `generate-robots.js`; `verify-robots.js` runs in `generate:derived` and fails the build if any of the 22 groups drifts. Before: 21 named groups had zero disallow rules. Same agents, same paths, nothing lost.
 - [ ] A3 Course and blog hero images load eagerly with dimensions (they were `loading="lazy"`)
 - [ ] A4 Course duration panel reads the course's own duration (was a fixed "6 to 9 months")
 - [ ] A5 Desktop navigation no longer carries `aria-hidden="true"` while visible
