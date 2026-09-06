@@ -27,13 +27,13 @@ Legend: `[ ]` not started · `[~]` in progress · `[x]` done and verified · `[!
 - [x] A3 Course and blog hero images load eagerly with `fetchpriority="high"` and 800x450 dimensions (were `loading="lazy"`). Verified on all 121 generated course pages.
 - [x] A4 Course duration panel reads the course's own `meta.duration` and `meta.commitment` (was a fixed "6 to 9 months" on every page). Verified 121/121: visible panel, hero badge and schema `timeRequired` agree; 0 pages still say 6 to 9 months.
 - [x] A5 Desktop navigation no longer carries `aria-hidden="true"` while visible. `syncMenuAria()` in unified-mobile-nav.js, mobile-navigation.js and the mainbundle.js copy decides from the rendered hamburger (stylesheet truth), re-syncs on resize. `scripts/test-nav-aria.js` (Playwright, 4 pages x 2 widths) went from 3 failures to pass.
-- [ ] A6 Minifier covers every CSS/JS file the pages actually load (was 7 CSS + 3 JS by hand)
-- [ ] A7 Build fails if a routed, indexable page is missing from the sitemap
-- [ ] A8 Lead event fires once per server lead id, not per thank-you load
-- [ ] A9 Mobile homepage shows headline and actions before the decoration
+- [x] A6 `46e5b7b7` Minifier derives its list from every `<link>`/`<script>` across 1,389 HTML files: 48 CSS + 37 JS (was a hand list of 7 + 3; editorial-theme.css, index-redesign.css, international-pricing.js, country-code-selector.js and ux-enhancements.js were all unminified in production). Skips `*.min.*` and the hash-stamped pricing data; a parse error leaves the original in place. Found for E2: `premium-legal.css` is referenced by 4 pages but does not exist; `meta-pixel.js` minifies to nothing (dead pixel).
+- [x] A7 `2d3e5f7e` `scripts/page-manifest.js` derives the published-page manifest (770 routed static pages, 761 indexable, canonical, sitemap membership) from `_redirects` plus each page head; `verify-sitemap.js` now fails on a missing indexable page or a canonical that is not one of the page routes. Proven: dropping `/about` from a scratch sitemap fails the build with the page named. Today: 0 missing, 0 mismatches.
+- [x] A8 `6da95e42` Both lead forms carry the server id (`contactId` / `requestId`, already returned by the backend) to `/thank-you?lid=`; the page fires `lead_thank_you` once per id (localStorage), once per session for older `src`-only handoffs, and never on a direct visit. `scripts/test-thank-you-dedupe.js` (Playwright) proves reload and revisit fire 0.
+- [x] A9 `889bfe32` Mobile homepage shows eyebrow, headline, paragraph, three CTAs, trust line and toggle inside the first 844px viewport (CTA bottom at 672px); the symbol card follows at 260px. Also fixed 335px of sideways scroll on the homepage at 390px (`html{overflow-x:clip}`, the same root cause memory recorded for the editorial theme). Measured with Playwright; `index-redesign.css?v=` bumped.
 - [ ] A10 Catalog cards rendered as HTML with real links; first image per page not lazy
-- [ ] A11 llms.txt facts and format (batch 5 to 10, ages 6 to 67, recordings, demo optional)
-- [ ] A12 Schema only claims the reviews and places the page shows (from the census)
+- [x] A11 `5729c5d0` llms.txt: batch size 5 to 10 (was 4-8 in 6 places, contradicting brand-facts), ages 6 to 67 stated, the 13+ AI Tools course moved out of the kids list, the demo FAQ says the live demo is optional and points to the two free recording libraries (Google sign-in disclosed), 0 em-dashes (was 25). llms-full.txt regenerated.
+- [x] A12 `0b8350a9` Removed the 4 identical Review nodes that every one of the 121 Course schemas claimed as reviews of that course (484 nodes, none about the course on the page). AggregateRating stays per the owner decision of 2026-07-01, with its 2026-09-15 GSC checkpoint noted in the generator. Census facts: 0 Review nodes in static pages; LocalBusiness on 245 city pages carries no address (correct, `areaServed` only); the only postal address anywhere is the real Kolkata office; 0 static pages have hreflang (course and blog pages do). Open from the census: hreflang for the country-page cluster (C4).
 
 ## Phase B: messaging on three pages (PREVIEW BEFORE ANY SWEEP)
 
@@ -78,3 +78,4 @@ Legend: `[ ]` not started · `[~]` in progress · `[x]` done and verified · `[!
 ## Log
 
 - 2026-09-06: read the spec, confirmed each repair-backlog item against the code, wrote the plan.
+- 2026-09-07: Phase A tasks A1 to A9, A11, A12 shipped (10 commits here, 1 in the backend). Remaining in Phase A: A10 (catalog cards in HTML, first-image sweep).
