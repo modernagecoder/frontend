@@ -16,7 +16,103 @@ Whether you're 8 or 80, just starting out or leveling up - we've got a course th
 
 Choose your track and level - we'll show you the perfect courses to get started.
 
-Select your levelMost PopularNewest FirstA-Z Showing **12** courses
+Select your levelMost PopularNewest FirstA-Z Showing **16** courses 12-WEEK HACKATHON PREP · ENROL ANYTIME![Hackathon for Kids](/images/hackathon-kids.webp)
+
+### [Hackathon for Kids](/courses/hackathon-prep-for-kids-coding-innovation-ai-projects-course)
+
+Built for Modern Age Coders Hackathon 1.0 (held June 2026), a 12-week prep for ages 8-12. Learn coding, AI, algorithms and pitching - the skills that won it. Hackathon 1.0 is over; the prep track runs year-round.
+
+PREP12-week prep track from **₹1,499/month**[Start Learning](/courses/hackathon-prep-for-kids-coding-innovation-ai-projects-course)![Vibe Coding for Kids](/images/vibe-coding-kids.webp)
+
+### [Vibe Coding for Kids](/courses/vibe-coding-for-kids-beginners-ai-scratch-game-dev)
+
+The easiest, most fun way to start coding! Visual drag-and-drop programming, AI creative tools, and game building for absolute beginners.
+
+₹1,499starts[Start Learning](/courses/vibe-coding-for-kids-beginners-ai-scratch-game-dev)![Scratch Programming](/images/scratch-kids.webp)
+
+### [Scratch Programming](/courses/scratch-programming-complete-course)
+
+The perfect first step into coding! Kids drag and drop colorful blocks to create games, animations, and stories. No typing needed - just creativity and curiosity.
+
+₹1,499starts[Start Learning](/courses/scratch-programming-complete-course)![Kids Coding Adventure](/images/kids-coding.webp)
+
+### [Kids Coding Adventure](/courses/kids-coding-blocks-masterclass)
+
+A complete journey from "what is code?" to building your own games. Perfect for curious minds who want to create, not just consume.
+
+₹1,499starts[Start Learning](/courses/kids-coding-blocks-masterclass)![Python for Kids](/images/python-kids.webp)
+
+### [Python for Kids](/courses/python-ai-kids-masterclass)
+
+Learn real Python through Turtle graphics - draw shapes, create patterns, and build mini-games. It's like art class meets coding!
+
+₹1,499starts[Start Learning](/courses/python-ai-kids-masterclass)![Build Your First Website](/images/html-css-kids.webp)
+
+### [Build Your First Website](/courses/kids-ai-web-development-course)
+
+Create colorful web pages about your favorite topics! Learn HTML and CSS while building something you can actually show your friends.
+
+₹1,499starts[Start Learning](/courses/kids-ai-web-development-course)![Canva Design Studio](/images/canva-kids.webp)
+
+### [Canva Design Studio](/courses/canva-ai-design-masterclass)
+
+Design posters, cards, and social media graphics like a pro! Perfect for creative kids who love making things look awesome.
+
+₹1,499starts[Start Learning](/courses/canva-ai-design-masterclass)![Microsoft Office Basics](/images/microsoft-office-kids.webp)
+
+### [Microsoft Office Basics](/courses/microsoft-office-kids-mastery)
+
+Master Word, PowerPoint, and Excel through fun projects. Create stories, presentations, and even track your game scores!
+
+₹1,499starts[Start Learning](/courses/microsoft-office-kids-mastery)![Problem Solving & Logic](/images/problem-solving-kids.webp)
+
+### [Problem Solving & Logic](/courses/problem-solving-and-computational-thinking-for-kids)
+
+Train your brain with puzzles, patterns, and coding challenges. Think like a computer scientist - break big problems into small steps.
+
+₹1,499starts[Start Learning](/courses/problem-solving-and-computational-thinking-for-kids)![CBSE Computational Thinking & AI (Classes 3-8)](/images/ct-ai-kids.webp)
+
+### [CBSE Computational Thinking & AI (Classes 3-8)](/courses/cbse-computational-thinking-and-ai-course-for-kids-classes-3-to-8)
+
+Official CBSE-aligned AI & Computational Thinking course. Master the 4 pillars of CT, Scratch, Teachable Machine & the CBSE AI Project Cycle. Direct pathway to CBSE AI Code 417 in Class 9.
+
+₹1,499starts[Start Learning](/courses/cbse-computational-thinking-and-ai-course-for-kids-classes-3-to-8)![Creative Coding](/images/creative-coding-kids.webp)
+
+### [Creative Coding](/courses/creative-coding-animation-mastery)
+
+Mix art with code! Create interactive stories, animations, and digital art. Perfect for kids who think outside the box.
+
+₹1,499starts[Start Learning](/courses/creative-coding-animation-mastery)![App Building for Kids](/images/app-dev-kids.webp)
+
+### [App Building for Kids](/courses/block-coding-app-development-masterclass/)
+
+Build your own mobile apps using drag-and-drop tools! No coding experience needed - just ideas and imagination.
+
+₹1,499starts[Start Learning](/courses/block-coding-app-development-masterclass/)![Game Development](/images/game-dev-kids.webp)
+
+### [Game Development](/courses/game-development-masterclass-for-kids)
+
+Turn your game ideas into reality! Build platformers, puzzles, and adventures using Scratch and MakeCode.
+
+₹1,499starts[Start Learning](/courses/game-development-masterclass-for-kids)![Roblox Game Coding for Kids](/images/roblox-coding-kids.webp)
+
+### [Roblox Game Coding for Kids](/courses/roblox-game-coding-for-kids-lua-course/)
+
+Code and publish real Roblox games with Luau, from first script to a game friends can actually play.
+
+₹1,499starts[Start Learning](/courses/roblox-game-coding-for-kids-lua-course/)![Minecraft Coding for Kids](/images/minecraft-coding-kids.webp)
+
+### [Minecraft Coding for Kids](/courses/minecraft-coding-for-kids-course/)
+
+Learn to code inside Minecraft, moving from blocks to real text code with age-appropriate tools.
+
+₹1,499starts[Start Learning](/courses/minecraft-coding-for-kids-course/)![AI Literacy for Kids (8-14)](/images/ai-literacy-for-kids.webp)
+
+### [AI Literacy for Kids (8-14)](/courses/ai-literacy-for-kids-course/)
+
+Children learn how AI actually works, how it learns from data and where it goes wrong, with age-appropriate supervised tools. Understanding, not just using.
+
+₹1,499starts[Start Learning](/courses/ai-literacy-for-kids-course/)
 
 ### Hmm, nothing here...
 
@@ -296,29 +392,158 @@ Group classes start at ₹1,499 a month, a mini batch with near one-to-one atten
 
 Both are live and taught by an expert mentor. Group classes in small batches of 5 to 8 are the most affordable and add peer learning, a mini batch of 3 to 4 gives near one-to-one attention, and 1-on-1 gives a fully personalised pace. Start with a free demo, and you can change your plan later.
 
-## Browse All Courses
+## Browse all 122 courses
 
-Quick links to all our coding, AI, and maths courses
+Every live course we teach, by audience. Each link opens the full syllabus, projects, schedule and pricing.
 
-### Kids (Ages 6-12)
+### Coding for kids (ages 6 to 12)
 
-[Vibe Coding for Kids](/courses/vibe-coding-for-kids-beginners-ai-scratch-game-dev)[Scratch Programming](/courses/scratch-programming-complete-course)[Kids Coding Adventure](/courses/kids-coding-blocks-masterclass)[Python for Kids](/courses/python-ai-kids-masterclass)[Build Your First Website](/courses/kids-ai-web-development-course)[Computational Thinking & AI](/courses/cbse-computational-thinking-and-ai-course-for-kids-classes-3-to-8)[Canva Design Studio](/courses/canva-ai-design-masterclass)[Microsoft Office](/courses/microsoft-office-kids-mastery)[Problem Solving](/courses/problem-solving-and-computational-thinking-for-kids)[Creative Coding & Animation](/courses/creative-coding-animation-mastery)[Block Coding App Dev](/courses/block-coding-app-development-masterclass)[Game Development](/courses/game-development-masterclass-for-kids)
+- [Hackathon for Kids](/courses/hackathon-prep-for-kids-coding-innovation-ai-projects-course)
+- [Vibe Coding for Kids](/courses/vibe-coding-for-kids-beginners-ai-scratch-game-dev)
+- [Scratch Programming](/courses/scratch-programming-complete-course)
+- [Kids Coding Adventure](/courses/kids-coding-blocks-masterclass)
+- [Python for Kids](/courses/python-ai-kids-masterclass)
+- [Build Your First Website](/courses/kids-ai-web-development-course)
+- [Canva Design Studio](/courses/canva-ai-design-masterclass)
+- [Microsoft Office Basics](/courses/microsoft-office-kids-mastery)
+- [Problem Solving & Logic](/courses/problem-solving-and-computational-thinking-for-kids)
+- [CBSE Computational Thinking & AI (Classes 3-8)](/courses/cbse-computational-thinking-and-ai-course-for-kids-classes-3-to-8)
+- [Creative Coding](/courses/creative-coding-animation-mastery)
+- [App Building for Kids](/courses/block-coding-app-development-masterclass/)
+- [Game Development](/courses/game-development-masterclass-for-kids)
+- [Roblox Game Coding for Kids](/courses/roblox-game-coding-for-kids-lua-course/)
+- [Minecraft Coding for Kids](/courses/minecraft-coding-for-kids-course/)
+- [AI Literacy for Kids (8-14)](/courses/ai-literacy-for-kids-course/)
 
-### Teens (Ages 13-18)
+### Coding for teens (ages 13 to 18)
 
-[Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course)[Python Masterclass](/courses/python-complete-masterclass-teens)[Full Stack Web Dev](/courses/full-stack-web-development-teens-masterclass)[React.js](/courses/react-for-teens-complete-masterclass)[Java Programming](/courses/java-programming-masterclass-for-teens)[C++ Programming](/courses/cpp-programming-masterclass-for-teens)[Frontend Development](/courses/frontend-development-masterclass-for-teens)[Backend Coding](/courses/backend-coding-masterclass-for-teens)[App Development](/courses/complete-app-development-masterclass-for-teens)[AI & ML](/courses/ai-ml-masterclass-teens)[Game Development](/courses/complete-game-development-masterclass-for-teens)[Creative Media Design](/courses/creative-media-design-masterclass-teens)[DSA & Problem Solving](/courses/problem-solving-dsa-masterclass-teens)[MySQL](/courses/mysql-mastery-for-teens)[CBSE/ICSE CS Class 11-12](/courses/cbse-icse-computer-science-class-11-12-python-java-complete-course)[CBSE IP Class 11-12](/courses/cbse-informatics-practices-ip-class-11-12-python-pandas-sql-complete-course)[Competitive Programming](/courses/competitive-programming-masterclass)[Git & GitHub](/courses/git-github-version-control-course-for-teens)[Orange Data Mining](/courses/orange-data-mining-visual-machine-learning-course-for-teens)[AI Agents (Copilot Studio)](/courses/ai-agents-with-microsoft-copilot-studio-course-for-teens)
+- [Codex + Claude Code (AI Coding Agents)](/courses/codex-and-claude-code-ai-coding-agents-course-for-teens)
+- [AI Agents with Copilot Studio](/courses/ai-agents-with-microsoft-copilot-studio-course-for-teens)
+- [AI Tools for Teens (13+)](/courses/teens-ai-tools-mastery-course)
+- [Hackathon for Teens](/courses/hackathon-prep-for-teens-coding-ai-build-innovate-win-course)
+- [Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course)
+- [Git & GitHub for Teens](/courses/git-github-version-control-course-for-teens)
+- [Orange Data Mining for Teens](/courses/orange-data-mining-visual-machine-learning-course-for-teens)
+- [Python Programming](/courses/python-complete-masterclass-teens)
+- [Full Stack Web Development](/courses/full-stack-web-development-teens-masterclass)
+- [React Development](/courses/react-for-teens-complete-masterclass/)
+- [Java Programming](/courses/java-programming-masterclass-for-teens)
+- [C++ Programming](/courses/cpp-programming-masterclass-for-teens)
+- [Frontend Coding](/courses/frontend-development-masterclass-for-teens)
+- [Backend Coding](/courses/backend-coding-masterclass-for-teens)
+- [App Development](/courses/complete-app-development-masterclass-for-teens)
+- [AI & Machine Learning](/courses/ai-ml-masterclass-teens)
+- [Game Development](/courses/complete-game-development-masterclass-for-teens)
+- [Design & Video Editing](/courses/creative-media-design-masterclass-teens)
+- [Problem Solving & DSA](/courses/problem-solving-dsa-masterclass-teens)
+- [MySQL Database](/courses/mysql-mastery-for-teens)
+- [Computer Science: Class 11 & 12](/courses/cbse-icse-computer-science-class-11-12-python-java-complete-course)
+- [Informatics Practices (IP), Class 11 & 12](/courses/cbse-informatics-practices-ip-class-11-12-python-pandas-sql-complete-course)
+- [CBSE Computational Thinking & AI (Class 9-12): Code 417 & 843](/courses/cbse-computational-thinking-and-ai-course-for-teens-classes-9-to-12-code-417-843)
+- [JavaScript for Teens](/courses/javascript-course-for-teens-beginners-interactive-web/)
+- [HTML & CSS for Beginners](/courses/html-css-course-for-beginners-build-real-websites/)
+- [Cybersecurity for Teens](/courses/cybersecurity-course-for-teens-ethical-defensive/)
+- [Data Science for Teens](/courses/data-science-course-for-teens-python-data/)
+- [AP Computer Science A](/courses/ap-computer-science-a-java-exam-prep-course/)
+- [AP Computer Science Principles](/courses/ap-computer-science-principles-exam-prep-course/)
+- [ICSE Computer Applications (Class 9-10)](/courses/icse-computer-applications-java-bluej-course/)
+- [IGCSE Computer Science (0478)](/courses/igcse-computer-science-0478-course/)
+- [AS & A Level Computer Science (9618)](/courses/cambridge-a-level-computer-science-9618-course/)
+- [GCSE Computer Science](/courses/gcse-computer-science-course/)
+- [IB DP Computer Science](/courses/ib-diploma-computer-science-course/)
+- [Competitive Programming for Teens](/courses/competitive-programming-for-teens-course/)
 
-### College & Professional
+### Coding for college students
 
-[Vibe Coding for College](/courses/vibe-coding-for-college-fullstack-ai-dsa-career-course)[Full Stack Web Dev](/courses/full-stack-web-development-masterclass-college)[Python Zero to Advanced](/courses/python-programming-masterclass-zero-to-advanced-college)[Flutter App Dev](/courses/complete-flutter-app-development-masterclass-college)[Swift Programming](/courses/complete-swift-programming-masterclass-college)[Kotlin Programming](/courses/complete-kotlin-programming-masterclass-professional)[TypeScript](/courses/complete-typescript-programming-masterclass-college)[Golang](/courses/complete-golang-programming-masterclass-college)[Generative AI](/courses/complete-generative-ai-masterclass-college)[AI & ML Complete](/courses/ai-ml-masterclass-complete-college)[Data Science](/courses/data-science-complete-masterclass-college)[React.js](/courses/react-js-complete-masterclass-college)[MERN Stack](/courses/mern-stack-development-masterclass-college)[Java Programming](/courses/complete-java-programming-masterclass-college)[C++ Programming](/courses/cpp-programming-complete-masterclass-college)[DSA](/courses/data-structures-algorithms-masterclass-college)[Competitive Programming](/courses/competitive-programming-masterclass-college)[App Development](/courses/complete-app-development-masterclass-college)[Game Development](/courses/game-development-complete-masterclass-college)[AI Complete](/courses/artificial-intelligence-complete-masterclass-college)[Python AI Automation](/courses/python-ai-automation-masterclass-college)[AI Tools Mastery](/courses/ai-tools-mastery-complete-college)[MySQL Database](/courses/mysql-database-complete-masterclass-college)[Data Analysis](/courses/data-analysis-mastery-course-college)[Ethical Hacking](/courses/ethical-hacking-masterclass-complete)[Algorithmic Trading](/courses/algorithmic-trading-masterclass-complete)[Trading Automation](/courses/algorithmic-trading-automation-masterclass)[AI Tools Professional](/courses/ai-tools-mastery-complete)[Git & GitHub for College](/courses/git-github-version-control-course-for-college-students)[Advanced Git & GitHub](/courses/git-github-advanced-version-control-masterclass-for-professionals)[Orange Data Mining](/courses/orange-data-mining-machine-learning-course-for-college-students)[AI Agents (Copilot Studio)](/courses/ai-agents-with-microsoft-copilot-studio-course-for-college-students)[Copilot Studio Masterclass](/courses/ai-agents-with-microsoft-copilot-studio-masterclass-for-professionals)
+- [Codex + Claude Code Masterclass](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals)
+- [AI Agents with Copilot Studio](/courses/ai-agents-with-microsoft-copilot-studio-course-for-college-students)
+- [Copilot Studio Agent Masterclass](/courses/ai-agents-with-microsoft-copilot-studio-masterclass-for-professionals)
+- [Vibe Coding for College](/courses/vibe-coding-for-college-fullstack-ai-dsa-career-course)
+- [Git & GitHub for College](/courses/git-github-version-control-course-for-college-students)
+- [Advanced Git & GitHub Masterclass](/courses/git-github-advanced-version-control-masterclass-for-professionals)
+- [Orange Data Mining for College](/courses/orange-data-mining-machine-learning-course-for-college-students)
+- [Full Stack Web Development](/courses/full-stack-web-development-masterclass-college/)
+- [Python Masterclass](/courses/python-programming-masterclass-zero-to-advanced-college)
+- [Flutter App Development Masterclass](/courses/complete-flutter-app-development-masterclass-college)
+- [Swift iOS Development Masterclass](/courses/complete-swift-programming-masterclass-college)
+- [Kotlin Android Development Masterclass](/courses/complete-kotlin-programming-masterclass-professional)
+- [TypeScript Full-Stack Development Masterclass](/courses/complete-typescript-programming-masterclass-college)
+- [Go (Golang) Backend Engineering Masterclass](/courses/complete-golang-programming-masterclass-college)
+- [Generative AI Masterclass](/courses/complete-generative-ai-masterclass-college)
+- [AI & ML Complete](/courses/ai-ml-masterclass-complete-college/)
+- [Data Science Masterclass](/courses/data-science-complete-masterclass-college/)
+- [React JS Masterclass](/courses/react-js-complete-masterclass-college/)
+- [MERN Stack Development](/courses/mern-stack-development-masterclass-college/)
+- [Java Programming](/courses/complete-java-programming-masterclass-college/)
+- [C++ Programming](/courses/cpp-programming-complete-masterclass-college/)
+- [Data Structures & Algorithms](/courses/data-structures-algorithms-masterclass-college)
+- [Competitive Programming](/courses/competitive-programming-masterclass-college)
+- [App Development](/courses/complete-app-development-masterclass-college/)
+- [Game Development](/courses/game-development-complete-masterclass-college)
+- [Artificial Intelligence](/courses/artificial-intelligence-complete-masterclass-college)
+- [Python AI Automation](/courses/python-ai-automation-masterclass-college/)
+- [AI Tools Mastery](/courses/ai-tools-mastery-complete-college)
+- [MySQL Database](/courses/mysql-database-complete-masterclass-college)
+- [Data Analysis](/courses/data-analysis-mastery-course-college/)
+- [Algorithmic Trading](/courses/algorithmic-trading-masterclass-complete/)
+- [Trading Automation](/courses/algorithmic-trading-automation-masterclass/)
+- [Ethical Hacking Masterclass](/courses/ethical-hacking-masterclass-complete/)
+- [C Programming Masterclass](/courses/c-programming-course-for-college-beginners/)
+- [Python Web Dev: Django & Flask](/courses/python-web-development-django-flask-course/)
+- [PCEP & PCAP Python Certification](/courses/pcep-pcap-python-certification-course/)
 
-### Girls Programs
+### Coding for working professionals
 
-[Princess Coders](/courses/princess-coders-complete-coding-masterclass)[Queen Coders](/courses/queen-coders-advanced-tech-leadership)[Alpha Girls](/courses/alpha-girls-elite-tech-mastery)
+- [Hackathon for Adults & Professionals](/courses/hackathon-prep-for-adults-professionals-coding-ai-innovation-course)
+- [PCAP Python Certification Prep](/courses/pcap-python-certification-prep-course/)
+- [Data & AI Analytics (No Coding)](/courses/data-and-ai-analytics-for-non-programmers-course/)
 
-### Mathematics
+### Maths for elementary school
 
-[Elementary Maths](/courses/elementary-mathematics-complete-masterclass)[Middle School Maths](/courses/comprehensive-middle-school-mathematics-mastery)[High School Maths](/courses/complete-high-school-mathematics-mastery)[College Mathematics](/courses/college-mathematics-complete-masterclass)[Olympiad Maths](/courses/olympiad-competition-mathematics-mastery)[Business & Finance Maths](/courses/complete-business-finance-mathematics-mastery)[Data Analytics Maths](/courses/data-analytics-mathematics-masterclass)
+- [Elementary Math Complete](/courses/elementary-mathematics-complete-masterclass/)
+- [Math Olympiad Prep (Elementary)](/courses/olympiad-competition-mathematics-mastery/)
+- [Early Math Foundations (K-2)](/courses/early-math-foundations/)
+- [Mental Maths Mastery (Ages 5-10)](/courses/mental-maths-mastery-kids/)
+- [PSLE Maths Mastery](/courses/psle-maths-mastery/)
+- [Abacus & Mental Maths for Kids](/courses/abacus-mental-maths-course-for-kids/)
+
+### Maths for middle school
+
+- [Middle School Math Mastery](/courses/comprehensive-middle-school-mathematics-mastery/)
+- [Algebra Foundations Masterclass](/courses/algebra-foundations-masterclass/)
+- [Maths Through Coding](/courses/maths-through-coding/)
+- [Vedic Maths Mastery](/courses/vedic-maths-course-speed-calculation-mastery/)
+- [11 Plus Maths (UK)](/courses/11-plus-maths-preparation-course-uk/)
+
+### Maths for high school and board exams
+
+- [High School Math Complete](/courses/complete-high-school-mathematics-mastery/)
+- [SAT Math 800 Prep](/courses/sat-math-prep-course/)
+- [AP Calculus AB & BC Prep](/courses/ap-calculus-exam-prep/)
+- [IB Mathematics AA & AI](/courses/ib-mathematics-aa-ai-masterclass/)
+- [IGCSE Mathematics Mastery](/courses/igcse-mathematics-mastery/)
+- [GCSE Mathematics Mastery](/courses/gcse-mathematics-mastery/)
+- [CBSE Class 10 Maths Board Prep](/courses/cbse-class-10-maths-board-exam-prep-course/)
+- [JEE Foundation Maths (8-10)](/courses/jee-foundation-maths-course-class-8-10/)
+- [A-Level Maths](/courses/a-level-maths-course-pure-mechanics-statistics/)
+- [AP Statistics](/courses/ap-statistics-maths-exam-prep-course/)
+- [AP Precalculus](/courses/ap-precalculus-exam-prep-course/)
+- [Olympiad Mathematics (IOQM, INMO, AMC)](/courses/olympiad-mathematics-premium-course/)
+
+### Maths for college and professionals
+
+- [College Math Masterclass](/courses/college-mathematics-complete-masterclass/)
+- [Applied Mathematics](/courses/college-mathematics-complete-masterclass/)
+- [Statistics & Probability](/courses/statistics-probability-maths-course/)
+- [GRE & GMAT Quant Prep](/courses/gre-gmat-quant-maths-prep-course/)
+- [Business & Finance Math](/courses/complete-business-finance-mathematics-mastery/)
+- [Data Analytics Math](/courses/data-analytics-mathematics-masterclass/)
+
+### Special batches for girls
+
+- [Princess Coders](/courses/princess-coders-complete-coding-masterclass/)
+- [Queen Coders](/courses/queen-coders-advanced-tech-leadership/)
+- [Alpha Girls](/courses/alpha-girls-elite-tech-mastery/)
 
 ---
 

@@ -16,7 +16,7 @@
 /* ---------- HERO ---------- */
 .course-hero{text-align:center;padding-top:clamp(3rem,7vw,5rem);padding-bottom:clamp(1.5rem,3vw,2.5rem);position:relative}
 .course-hero h1{font-size:clamp(2.4rem,5.5vw,4rem);line-height:1.05;letter-spacing:-.03em}
-.course-hero h1::before{content:"Coding + Maths · Ages 6–65";display:block;font-family:var(--font-mono);font-size:.72rem;letter-spacing:.18em;text-transform:uppercase;color:var(--amber);font-weight:600;margin-bottom:1.1rem}
+.course-hero h1::before{content:"Coding + Maths · Ages 6–67";display:block;font-family:var(--font-mono);font-size:.72rem;letter-spacing:.18em;text-transform:uppercase;color:var(--amber);font-weight:600;margin-bottom:1.1rem}
 .hero-subtitle{color:var(--muted);font-size:1.12rem;line-height:1.7;max-width:700px;margin:1.3rem auto 0}
 .hero-stats{display:flex;flex-wrap:wrap;justify-content:center;gap:clamp(1.6rem,6vw,4rem);margin-top:2.4rem}
 .stat-item{text-align:center}
@@ -175,6 +175,13 @@ body.editorial .compact-search input{border:none;background:none;outline:none;bo
 .browse-all-seo h2{text-align:center;font-size:clamp(1.6rem,3vw,2.2rem) !important;color:var(--ink) !important;font-weight:600 !important;margin-bottom:.5rem !important}
 .bas-sub{text-align:center;color:var(--muted) !important;margin-bottom:2.4rem !important;font-size:.98rem !important}
 .browse-all-seo h3{color:var(--ink) !important;font-family:var(--font-mono) !important;font-size:.8rem !important;font-weight:600 !important;text-transform:uppercase;letter-spacing:.08em;margin:0 0 .9rem !important;text-align:center}
+/* the generated index: one list per audience, plain links styled as quiet pills */
+.browse-all-seo .bas-list{list-style:none;margin:0 0 1.9rem;padding:0;display:flex;flex-wrap:wrap;justify-content:center;gap:.5rem}
+.browse-all-seo .bas-list li{margin:0}
+.browse-all-seo .bas-list a{display:inline-block;min-height:44px;line-height:1.35;padding:.6rem .95rem;border:1px solid var(--line);border-radius:10px;background:var(--surface);color:var(--ink);font-size:.9rem;font-weight:500;text-decoration:none;transition:border-color .2s,transform .2s,box-shadow .2s}
+.browse-all-seo .bas-list a:hover{border-color:var(--amber);color:var(--amber-deep);transform:translateY(-1px);box-shadow:var(--shadow-sm)}
+.course-title-minimal a{color:inherit;text-decoration:none}
+.course-title-minimal a:hover{color:var(--amber-deep)}
 .browse-all-seo h3::after{content:"";display:block;width:34px;height:2px;border-radius:2px;background:var(--amber);margin:.5rem auto 0}
 .browse-all-seo>div{justify-content:center}
 .browse-all-seo a{background:var(--surface) !important;border:1px solid var(--line) !important;color:var(--ink-soft) !important;padding:.5rem 1rem !important;border-radius:40px !important;font-size:.84rem !important;transition:border-color .2s,color .2s,background .2s}
