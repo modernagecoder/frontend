@@ -281,16 +281,79 @@
      max-width media query, so desktop is completely unaffected. Gives WhatsApp + Book Demo
      a persistent tap target on phones (the top mobile conversion lever), hides the redundant
      round WhatsApp float on mobile, and lifts the Misti button above the bar. -->
-<div class="mac-sticky-cta" aria-label="Quick contact">
-    <a class="mac-sticky-wa" href="https://wa.me/919123366161?text=Hi!%20I'm%20interested%20in%20your%20classes,%20please%20share%20the%20details." target="_blank" rel="noopener noreferrer">
+<!-- Variants (2026-09-07): <body data-sticky="course"> shows Enroll + Watch Class, and
+     <body data-sticky="demo"> shows Book a Demo + Watch Class, each with WhatsApp and Misti
+     folded into one compact help control so no more than two actions compete. Pages with no
+     data-sticky keep the original WhatsApp + Book Free Demo bar. The bar hides while a form
+     field has focus so the keyboard never covers it and it never covers a field. -->
+<div class="mac-sticky-cta" aria-label="Quick actions">
+    <a class="mac-sticky-primary mac-sticky-v mac-sticky-v-course" href="#enroll">Enroll</a>
+    <a class="mac-sticky-secondary mac-sticky-v mac-sticky-v-course mac-sticky-watch" href="/how-we-teach#library">Watch Class</a>
+    <a class="mac-sticky-primary mac-sticky-v mac-sticky-v-demo" href="#contactForm">Book a Demo</a>
+    <a class="mac-sticky-secondary mac-sticky-v mac-sticky-v-demo" href="#watch-now">Watch Class</a>
+    <button type="button" class="mac-sticky-help mac-sticky-v" aria-label="Help: WhatsApp or Misti AI" aria-expanded="false" aria-controls="mac-help-sheet">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path></svg>
+    </button>
+    <div class="mac-help-sheet" id="mac-help-sheet" hidden>
+        <a href="https://wa.me/919123366161?text=Hi!%20I'm%20interested%20in%20your%20classes,%20please%20share%20the%20details." target="_blank" rel="noopener noreferrer">WhatsApp us</a>
+        <a href="https://misti.modernagecoders.com" target="_blank" rel="noopener noreferrer">Ask Misti AI</a>
+    </div>
+    <a class="mac-sticky-wa mac-sticky-default" href="https://wa.me/919123366161?text=Hi!%20I'm%20interested%20in%20your%20classes,%20please%20share%20the%20details." target="_blank" rel="noopener noreferrer">
         <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 0 1-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 0 1-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 0 1 2.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0 0 12.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 0 0 5.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 0 0-3.48-8.413Z"/></svg>
         WhatsApp
     </a>
-    <a class="mac-sticky-demo" href="/book-demo">Book Free Demo</a>
+    <a class="mac-sticky-demo mac-sticky-default" href="/book-demo">Book Free Demo</a>
 </div>
+<script>
+    (function () {
+        var bar = document.querySelector('.mac-sticky-cta');
+        if (!bar) return;
+        // Course pages: point "Watch Class" at the course's own matched recording library.
+        var teach = document.querySelector('.hero-proof-btn--teach');
+        var watch = bar.querySelector('.mac-sticky-v-course.mac-sticky-watch');
+        if (teach && watch && /^https?:/.test(teach.getAttribute('href') || '')) {
+            watch.href = teach.getAttribute('href');
+            watch.target = '_blank';
+            watch.rel = 'noopener';
+        }
+        // The compact help control.
+        var help = bar.querySelector('.mac-sticky-help');
+        var sheet = document.getElementById('mac-help-sheet');
+        if (help && sheet) {
+            help.addEventListener('click', function () {
+                var open = sheet.hasAttribute('hidden');
+                if (open) sheet.removeAttribute('hidden'); else sheet.setAttribute('hidden', '');
+                help.setAttribute('aria-expanded', open ? 'true' : 'false');
+            });
+            document.addEventListener('click', function (e) {
+                if (!sheet.hasAttribute('hidden') && !bar.contains(e.target)) { sheet.setAttribute('hidden', ''); help.setAttribute('aria-expanded', 'false'); }
+            });
+        }
+        // Keyboard-safe: hide the bar while a field has focus.
+        var isField = function (el) { return el && /^(INPUT|TEXTAREA|SELECT)$/.test(el.tagName) && el.type !== 'checkbox' && el.type !== 'radio'; };
+        document.addEventListener('focusin', function (e) { if (isField(e.target)) document.body.classList.add('mac-kbd-open'); });
+        document.addEventListener('focusout', function (e) { if (isField(e.target)) setTimeout(function () { if (!isField(document.activeElement)) document.body.classList.remove('mac-kbd-open'); }, 80); });
+    })();
+</script>
 <style>
     .mac-sticky-cta { display: none; }
+    .mac-sticky-cta .mac-sticky-v, .mac-help-sheet { display: none; }
     @media (max-width: 768px) {
+        /* variants: which two actions the bar shows */
+        body[data-sticky] .mac-sticky-cta .mac-sticky-default { display: none; }
+        body[data-sticky="course"] .mac-sticky-cta .mac-sticky-v-course,
+        body[data-sticky="demo"] .mac-sticky-cta .mac-sticky-v-demo,
+        body[data-sticky] .mac-sticky-cta .mac-sticky-help { display: flex; }
+        body[data-sticky] .wa-float-btn, body[data-sticky] .misti-chat-btn { display: none !important; }
+        .mac-sticky-cta .mac-sticky-primary { background: #B45309; color: #fff; }
+        .mac-sticky-cta .mac-sticky-secondary { background: #1C1814; color: #FBF8F2; }
+        .mac-sticky-cta .mac-sticky-help { flex: 0 0 44px; width: 44px; min-height: 44px; padding: 0; border-radius: 10px; border: 1px solid #E7E0D4; background: #fff; color: #1C1814; align-items: center; justify-content: center; cursor: pointer; }
+        .mac-sticky-cta .mac-sticky-help[aria-expanded="true"] { background: #1C1814; color: #fff; }
+        .mac-help-sheet { position: absolute; right: 10px; bottom: calc(100% + 8px); display: flex; flex-direction: column; gap: 6px; background: #fff; border: 1px solid #E7E0D4; border-radius: 12px; padding: 8px; box-shadow: 0 10px 30px rgba(28, 24, 20, .18); }
+        .mac-help-sheet[hidden] { display: none; }
+        .mac-help-sheet a { display: flex; align-items: center; min-height: 44px; padding: 0 14px; border-radius: 8px; font: 600 14px/1 Inter, system-ui, sans-serif; color: #1C1814; text-decoration: none; background: #FBF8F2; }
+        body.mac-kbd-open .mac-sticky-cta { display: none; }
+        body.mac-kbd-open { padding-bottom: 0; }
         .mac-sticky-cta {
             position: fixed; left: 0; right: 0; bottom: 0; z-index: 9998;
             display: flex; gap: 8px; padding: 8px 10px;
