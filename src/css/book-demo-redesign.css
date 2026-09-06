@@ -213,3 +213,12 @@
     border-top: 1px dashed rgba(28, 24, 20, .15); padding-top: 14px;
 }
 .bd-teacher-preview a { color: #8F3F08; font-weight: 700; text-decoration: underline; text-underline-offset: 3px; }
+
+/* watch-now strip, 2026-09-07: heading, enroll action, disclosure */
+.bd-watch-title{font-family:var(--font-display,Fraunces,Georgia,serif);font-weight:600;font-size:clamp(1.35rem,2.6vw,1.75rem);line-height:1.15;letter-spacing:-.01em;color:#1C1814;margin:0 0 .7rem}
+.bd-watch-strip .bd-watch-lead{text-align:left}
+.bd-watch-btn{min-height:44px}
+.bd-watch-btn--enroll{background:#B45309;color:#fff}
+.bd-watch-btn--enroll:hover{background:#8F3F08}
+.bd-watch-more a+a,.bd-watch-more a{color:#8F3F08}
+.bd-watch-note{font-size:.82rem;color:#6B6259;line-height:1.55;margin:.7rem 0 0;text-align:left}

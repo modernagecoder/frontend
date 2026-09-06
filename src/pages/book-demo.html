@@ -176,7 +176,7 @@
     <link rel="stylesheet"
         href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400..700;1,9..144,400..600&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600;700&display=swap">
     <link rel="stylesheet" href="/css/editorial-theme.css?v=20260626g">
-    <link rel="stylesheet" href="/css/book-demo-redesign.css?v=20260806">
+    <link rel="stylesheet" href="/css/book-demo-redesign.css?v=20260907">
 
     <script src="/js/ux-enhancements.js" defer></script>
     <script src="/js/hover-prefetch.js" defer></script>
@@ -202,7 +202,7 @@
 </script>
 </head>
 
-<body class="book-demo-page editorial">
+<body class="book-demo-page editorial" data-sticky="demo">
     <a href="#main" class="skip-link">Skip to main content</a>
     <canvas id="background-canvas"></canvas>
     <!-- BEGIN_INLINED_NAV -->
@@ -429,12 +429,15 @@
             <p>Experience our world-class teaching before you commit. Try a live 1-on-1 session with our expert
                 instructors, absolutely free, no strings attached.</p>
 
-            <div class="bd-watch-strip">
-                <p class="bd-watch-lead">Live demos are typically scheduled within 48 hours, because our mentors spend
-                    most of the day teaching live classes. If you would rather see us teach right now, watch a full
-                    recorded class: free and unedited, just a quick Google sign-in. Some classes are in English,
-                    some in Hindi, and the libraries are updated frequently. Watch end to end, like you are in the
-                    class, on a computer or laptop for the clearest experience.</p>
+            <div class="bd-watch-strip" id="watch-now">
+                <h2 class="bd-watch-title">Don't wait to experience how we teach.</h2>
+                <p class="bd-watch-lead">Finding a convenient time for a live demo can take a little coordination:
+                    our mentors spend most of the day teaching live classes, so demos are usually scheduled within
+                    48 hours. You can explore our teaching right now through real class recordings. See how our
+                    instructors explain concepts, guide practical work, answer questions, and help students
+                    understand each step.</p>
+                <p class="bd-watch-lead">If the teaching style feels right, choose your course and enroll directly.
+                    You can also book a free live demo below if you would like to meet an instructor before deciding.</p>
                 <div class="bd-watch-btns">
                     <a class="bd-watch-btn" href="https://modernagecoders.graphy.com/courses/How-We-Teach-The-Modern-Age-Coders-Methodology-kids-Coding-6a3a27597efbc77440b2c68f" target="_blank" rel="noopener" onclick="try{gtag('event','watch_library_click',{library:'kids',page:'book-demo'})}catch(e){}">
                         <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M8 5v14l11-7z"/></svg>
@@ -444,8 +447,12 @@
                         <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M8 5v14l11-7z"/></svg>
                         Watch a Teens &amp; Adults Class (13+)
                     </a>
+                    <a class="bd-watch-btn bd-watch-btn--enroll" href="/courses">
+                        Choose a Course &amp; Enroll
+                    </a>
                 </div>
-                <p class="bd-watch-more"><a href="/how-we-teach">Or read exactly how we teach</a></p>
+                <p class="bd-watch-more"><a href="#contactForm">Prefer a live demo? Choose a time below</a> &middot; <a href="/how-we-teach">Read exactly how we teach</a></p>
+                <p class="bd-watch-note">Free class recordings of real, unedited lessons. A Google sign-in is required for the full library. Choose a recording suited to your age group, subject, and teaching language: some classes are in English, some in Hindi. Watch a class end to end, on a computer or laptop for the clearest experience.</p>
             </div>
 
             <div class="trust-badges">
