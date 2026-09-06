@@ -80,6 +80,19 @@ window.submitCallback = function(e) {
     var API_URL = (window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1') 
         ? 'http://localhost:5000' : 'https://backend-modernagecoders.vercel.app';
     
+    // One id per form fill, kept across retries, so a double tap or a retry
+    // after a network error returns the same request on the server instead of
+    // creating a twin. Cleared after a successful handoff.
+    var submissionId;
+    try {
+        var sidKey = 'mac_sid_callback';
+        submissionId = sessionStorage.getItem(sidKey);
+        if (!submissionId) {
+            submissionId = (window.crypto && crypto.randomUUID) ? crypto.randomUUID()
+                : 's' + Date.now().toString(36) + Math.random().toString(36).slice(2, 12);
+            sessionStorage.setItem(sidKey, submissionId);
+        }
+    } catch (e) { submissionId = undefined; }
     fetch(API_URL + '/api/callback/request', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
@@ -88,7 +101,8 @@ window.submitCallback = function(e) {
             countryCode: ccInfo.dial,
             countryIso: ccInfo.iso,
             countryName: ccInfo.name,
-            demoSlot: slotEl && slotEl.value ? slotEl.value : undefined
+            demoSlot: slotEl && slotEl.value ? slotEl.value : undefined,
+            submissionId: submissionId
         })
     })
     .then(function(response) { return response.json(); })
@@ -100,6 +114,7 @@ window.submitCallback = function(e) {
                 fbq('track', 'Contact');
             }
             // Hand off to the thank-you page
+            try { sessionStorage.removeItem('mac_sid_callback'); } catch (e) { }
             // Carry the server id so the thank-you page counts this lead once.
             window.location.href = '/thank-you?src=callback'
                 + (data && data.requestId ? '&lid=' + encodeURIComponent(data.requestId) : '');

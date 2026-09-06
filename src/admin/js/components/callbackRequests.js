@@ -320,6 +320,15 @@ const CallbackRequestsComponent = {
               <option value="no-answer" ${req.status === 'no-answer' ? 'selected' : ''}>No answer</option>
               <option value="completed" ${req.status === 'completed' ? 'selected' : ''}>Done</option>
             </select>
+            <select class="status-select demo-state-select" title="Demo state. Only 'Confirmed' counts as a booked demo in reports"
+                    onchange="CallbackRequestsComponent.save('${escapeHtml(req._id)}', { demoState: this.value }, 'Demo state saved')">
+              <option value="inquiry"   ${(req.demoState || 'inquiry') === 'inquiry' ? 'selected' : ''}>Demo: inquiry</option>
+              <option value="reserved"  ${req.demoState === 'reserved'  ? 'selected' : ''}>Demo: reserved</option>
+              <option value="confirmed" ${req.demoState === 'confirmed' ? 'selected' : ''}>Demo: confirmed</option>
+              <option value="attended"  ${req.demoState === 'attended'  ? 'selected' : ''}>Demo: attended</option>
+              <option value="no-show"   ${req.demoState === 'no-show'   ? 'selected' : ''}>Demo: no-show</option>
+              <option value="cancelled" ${req.demoState === 'cancelled' ? 'selected' : ''}>Demo: cancelled</option>
+            </select>
             ${can('deleteLeads')
               ? `<button class="btn-icon btn-danger" title="Delete" aria-label="Delete"
                          onclick="CallbackRequestsComponent.deleteRequest('${escapeHtml(req._id)}')">&times;</button>`

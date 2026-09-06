@@ -1233,6 +1233,21 @@
                     name: (phoneEl && phoneEl.dataset && phoneEl.dataset.countryName) || 'India'
                   };
             const preferredSlot = document.getElementById('demo-slot').value;
+            // One id per form fill, kept across retries, so a double tap or a
+            // retry after a network error returns the same lead on the server
+            // instead of creating a twin. Cleared after a successful handoff.
+            const submissionId = (function () {
+                try {
+                    var k = 'mac_sid_book-demo';
+                    var v = sessionStorage.getItem(k);
+                    if (!v) {
+                        v = (window.crypto && crypto.randomUUID) ? crypto.randomUUID()
+                            : 's' + Date.now().toString(36) + Math.random().toString(36).slice(2, 12);
+                        sessionStorage.setItem(k, v);
+                    }
+                    return v;
+                } catch (e) { return undefined; }
+            })();
 
             const formData = {
                 name: document.getElementById('name').value.trim(),
@@ -1247,6 +1262,7 @@
                 // body, and dropping it there would quietly stop the booked
                 // time reaching anyone's inbox.
                 demoSlot: preferredSlot || undefined,
+                submissionId: submissionId,
                 message: '[Demo Request] ' + document.getElementById('message').value.trim()
                     + (preferredSlot ? ' | Preferred slot: ' + preferredSlot : '')
             };
@@ -1276,6 +1292,7 @@
                         });
                     }
                     // Success: hand off to the thank-you page
+                    try { sessionStorage.removeItem('mac_sid_book-demo'); } catch (e) { }
                     // The server id travels with the visitor so the thank-you page can
                     // count this lead exactly once, however many times it is reloaded.
                     window.location.href = '/thank-you?src=book-demo'

@@ -138,7 +138,7 @@ async function loadContacts() {
                 <td data-label="Came from">${renderSource(contact.attribution)}</td>
                 <td data-label="Demo slot">${renderSlot(contact.demoSlot, true)}</td>
                 <td data-label="Country">${renderCountryCell(contact)}</td>
-                <td data-label="Status"><span class="badge badge-${escapeHtml(contact.status)}">${escapeHtml(capitalizeFirst(contact.status))}</span></td>
+                <td data-label="Status"><span class="badge badge-${escapeHtml(contact.status)}">${escapeHtml(capitalizeFirst(contact.status))}</span>${renderDemoState(contact.demoState)}</td>
                 <td data-label="Date" class="cell-date">${formatWhen(contact.submittedAt)}</td>
                 <td data-label="Actions">
                   <div class="action-buttons">
@@ -383,6 +383,15 @@ async function viewContact(id) {
               <div class="detail-label">Status</div>
               <div class="detail-value"><span class="badge badge-${escapeHtml(contact.status)}">${escapeHtml(capitalizeFirst(contact.status))}</span></div>
             </div>
+            <div class="detail-item">
+              <div class="detail-label">Demo</div>
+              <div class="detail-value">
+                <select class="filter-select demo-state-select" onchange="setDemoState('${contact._id}', this.value)" title="Only 'Confirmed' counts as a booked demo in reports">
+                  ${DEMO_STATE_OPTIONS.map(([v, label]) => `<option value="${v}" ${(contact.demoState || 'inquiry') === v ? 'selected' : ''}>${label}</option>`).join('')}
+                </select>
+                <div class="form-hint" style="margin-top:6px">Inquiry is not a booking. Set Confirmed once a time is agreed, then Attended or No-show after the class.</div>
+              </div>
+            </div>
           </div>
         </div>
 
@@ -516,6 +525,38 @@ async function saveContactEdit(id) {
     showToast('Failed to update contact: ' + error.message, 'error');
   }
 }
+
+// Demo lifecycle, separate from the follow-up status. Mirrors lib/demoState.js
+// in the backend; only "confirmed" counts as a booked demo in reports.
+const DEMO_STATE_OPTIONS = [
+  ['inquiry', 'Inquiry (asked, nothing agreed)'],
+  ['reserved', 'Reserved (time offered)'],
+  ['confirmed', 'Confirmed (time agreed)'],
+  ['attended', 'Attended'],
+  ['no-show', 'No-show'],
+  ['cancelled', 'Cancelled']
+];
+
+function renderDemoState(state) {
+  const s = state || 'inquiry';
+  if (s === 'inquiry') return '';
+  return `<div class="demo-state demo-state-${escapeHtml(s)}" title="Demo: ${escapeHtml(s)}">Demo: ${escapeHtml(capitalizeFirst(s))}</div>`;
+}
+
+async function setDemoState(id, demoState) {
+  try {
+    const data = await api.updateContact(id, { demoState });
+    if (data.success) {
+      showToast('Demo state saved: ' + demoState, 'success');
+      await loadContacts();
+    } else {
+      showToast(data.message || 'Could not save the demo state', 'error');
+    }
+  } catch (error) {
+    showToast('Could not save the demo state: ' + (error.message || 'unknown error'), 'error');
+  }
+}
+window.setDemoState = setDemoState;
 
 function debounce(func, wait) {
   let timeout;

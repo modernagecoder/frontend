@@ -1171,3 +1171,12 @@
 
 .wa-errors { margin: 0; padding-left: 18px; }
 .wa-errors li { font-size: 13.5px; line-height: 1.6; color: var(--red); margin-bottom: 6px; }
+
+/* Demo lifecycle (inquiry / reserved / confirmed / attended / no-show / cancelled),
+   shown under the follow-up status. Only "confirmed" counts as a booked demo. */
+.demo-state { margin-top: 4px; font-size: 11px; font-weight: 600; letter-spacing: .02em; color: #6b6259; }
+.demo-state-confirmed { color: #1d7544; }
+.demo-state-attended { color: #1d5fa3; }
+.demo-state-no-show, .demo-state-cancelled { color: #a34a08; }
+.demo-state-reserved { color: #8a6d00; }
+.actions-cell .demo-state-select { max-width: 132px; }
