@@ -1,0 +1,44 @@
+{
+  "_comment": [
+    "SHARED MARKET RECORDS. One entry per country landing page (/coding-classes-in-<slug>).",
+    "Drives the hreflang cluster (scripts/apply-hreflang-cluster.js + verify-hreflang.js) and is",
+    "the place to look up how a market is billed and served. Facts only: currency and billing",
+    "come from pricing/pricing.config.jsonc (INR inside India, one USD list everywhere else;",
+    "group and 1-on-1 plans, 2 live classes a week); the payment route is what the course",
+    "pages actually do (Razorpay checkout in India, team-assisted payment over WhatsApp abroad).",
+    "Teaching language, support hours and local student evidence are NOT asserted where the",
+    "site has no verified fact. Times are stored in UTC by the backend; pages show the",
+    "visitor's own timezone via the browser (IANA zone below is the market's main zone)."
+  ],
+  "xDefault": "/",
+  "clusterId": "coding-country",
+  "shared": {
+    "billing": "monthly",
+    "includedClasses": "2 live classes a week (8 a month)",
+    "plans": ["group", "personal"],
+    "supportChannels": ["WhatsApp +91 91233 66161", "phone", "contact form"],
+    "recordings": "Free class recordings first (Google sign-in), live demo optional, direct enrolment available"
+  },
+  "markets": [
+    { "iso": "IN", "name": "India", "hreflang": "en-IN", "path": "/coding-classes-in-india", "currency": "INR", "timezone": "Asia/Kolkata", "paymentRoute": "Online checkout (Razorpay) on the course page", "teachingLanguages": ["English", "Hindi"], "plans": ["group", "miniBatch", "personal"] },
+    { "iso": "AE", "name": "United Arab Emirates", "hreflang": "en-AE", "path": "/coding-classes-in-uae", "currency": "USD", "timezone": "Asia/Dubai", "paymentRoute": "Assisted: the team confirms the plan and completes payment over WhatsApp (PayPal, Wise or bank transfer)", "teachingLanguages": ["English"] },
+    { "iso": "SA", "name": "Saudi Arabia", "hreflang": "en-SA", "path": "/coding-classes-in-saudi-arabia", "currency": "USD", "timezone": "Asia/Riyadh", "paymentRoute": "Assisted: the team confirms the plan and completes payment over WhatsApp (PayPal, Wise or bank transfer)", "teachingLanguages": ["English"] },
+    { "iso": "QA", "name": "Qatar", "hreflang": "en-QA", "path": "/coding-classes-in-qatar", "currency": "USD", "timezone": "Asia/Qatar", "paymentRoute": "Assisted: the team confirms the plan and completes payment over WhatsApp (PayPal, Wise or bank transfer)", "teachingLanguages": ["English"] },
+    { "iso": "KW", "name": "Kuwait", "hreflang": "en-KW", "path": "/coding-classes-in-kuwait", "currency": "USD", "timezone": "Asia/Kuwait", "paymentRoute": "Assisted: the team confirms the plan and completes payment over WhatsApp (PayPal, Wise or bank transfer)", "teachingLanguages": ["English"] },
+    { "iso": "OM", "name": "Oman", "hreflang": "en-OM", "path": "/coding-classes-in-oman", "currency": "USD", "timezone": "Asia/Muscat", "paymentRoute": "Assisted: the team confirms the plan and completes payment over WhatsApp (PayPal, Wise or bank transfer)", "teachingLanguages": ["English"] },
+    { "iso": "BH", "name": "Bahrain", "hreflang": "en-BH", "path": "/coding-classes-in-bahrain", "currency": "USD", "timezone": "Asia/Bahrain", "paymentRoute": "Assisted: the team confirms the plan and completes payment over WhatsApp (PayPal, Wise or bank transfer)", "teachingLanguages": ["English"] },
+    { "iso": "SG", "name": "Singapore", "hreflang": "en-SG", "path": "/coding-classes-in-singapore", "currency": "USD", "timezone": "Asia/Singapore", "paymentRoute": "Assisted: the team confirms the plan and completes payment over WhatsApp (PayPal, Wise or bank transfer)", "teachingLanguages": ["English"] },
+    { "iso": "HK", "name": "Hong Kong", "hreflang": "en-HK", "path": "/coding-classes-in-hong-kong", "currency": "USD", "timezone": "Asia/Hong_Kong", "paymentRoute": "Assisted: the team confirms the plan and completes payment over WhatsApp (PayPal, Wise or bank transfer)", "teachingLanguages": ["English"] },
+    { "iso": "BN", "name": "Brunei", "hreflang": "en-BN", "path": "/coding-classes-in-brunei", "currency": "USD", "timezone": "Asia/Brunei", "paymentRoute": "Assisted: the team confirms the plan and completes payment over WhatsApp (PayPal, Wise or bank transfer)", "teachingLanguages": ["English"] },
+    { "iso": "AU", "name": "Australia", "hreflang": "en-AU", "path": "/coding-classes-in-australia", "currency": "USD", "timezone": "Australia/Sydney", "paymentRoute": "Assisted: the team confirms the plan and completes payment over WhatsApp (PayPal, Wise or bank transfer)", "teachingLanguages": ["English"] },
+    { "iso": "NZ", "name": "New Zealand", "hreflang": "en-NZ", "path": "/coding-classes-in-new-zealand", "currency": "USD", "timezone": "Pacific/Auckland", "paymentRoute": "Assisted: the team confirms the plan and completes payment over WhatsApp (PayPal, Wise or bank transfer)", "teachingLanguages": ["English"] },
+    { "iso": "GB", "name": "United Kingdom", "hreflang": "en-GB", "path": "/coding-classes-in-united-kingdom", "currency": "USD", "timezone": "Europe/London", "paymentRoute": "Assisted: the team confirms the plan and completes payment over WhatsApp (PayPal, Wise or bank transfer)", "teachingLanguages": ["English"] },
+    { "iso": "IE", "name": "Ireland", "hreflang": "en-IE", "path": "/coding-classes-in-ireland", "currency": "USD", "timezone": "Europe/Dublin", "paymentRoute": "Assisted: the team confirms the plan and completes payment over WhatsApp (PayPal, Wise or bank transfer)", "teachingLanguages": ["English"] },
+    { "iso": "US", "name": "United States", "hreflang": "en-US", "path": "/coding-classes-in-united-states", "currency": "USD", "timezone": "America/New_York", "paymentRoute": "Assisted: the team confirms the plan and completes payment over WhatsApp (PayPal, Wise or bank transfer)", "teachingLanguages": ["English"] },
+    { "iso": "CA", "name": "Canada", "hreflang": "en-CA", "path": "/coding-classes-in-canada", "currency": "USD", "timezone": "America/Toronto", "paymentRoute": "Assisted: the team confirms the plan and completes payment over WhatsApp (PayPal, Wise or bank transfer)", "teachingLanguages": ["English"] },
+    { "iso": "DE", "name": "Germany", "hreflang": "en-DE", "path": "/coding-classes-in-germany", "currency": "USD", "timezone": "Europe/Berlin", "paymentRoute": "Assisted: the team confirms the plan and completes payment over WhatsApp (PayPal, Wise or bank transfer)", "teachingLanguages": ["English"] },
+    { "iso": "NL", "name": "Netherlands", "hreflang": "en-NL", "path": "/coding-classes-in-netherlands", "currency": "USD", "timezone": "Europe/Amsterdam", "paymentRoute": "Assisted: the team confirms the plan and completes payment over WhatsApp (PayPal, Wise or bank transfer)", "teachingLanguages": ["English"] },
+    { "iso": "SE", "name": "Sweden", "hreflang": "en-SE", "path": "/coding-classes-in-sweden", "currency": "USD", "timezone": "Europe/Stockholm", "paymentRoute": "Assisted: the team confirms the plan and completes payment over WhatsApp (PayPal, Wise or bank transfer)", "teachingLanguages": ["English"] },
+    { "iso": "CH", "name": "Switzerland", "hreflang": "en-CH", "path": "/coding-classes-in-switzerland", "currency": "USD", "timezone": "Europe/Zurich", "paymentRoute": "Assisted: the team confirms the plan and completes payment over WhatsApp (PayPal, Wise or bank transfer)", "teachingLanguages": ["English"] }
+  ]
+}
