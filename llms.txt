@@ -597,10 +597,10 @@ professionals, and corporate teams across India and internationally. We also run
 Girls in Tech coding batch.
 
 Q: How much do Modern Age Coders courses cost?
-A: In India there are three tiers, all billed monthly with no lock-in: group batches of 5 to 10
-students at ₹1,499 per month (two live classes per week), mini batches of 3-4 students at
-₹2,999 per month, one-on-one classes at ₹4,999 per month (one class a week, four classes a
-month). Outside India the pricing is a flat $100 per month for group classes and $150 for
+A: In India there are three tiers, all billed monthly with no lock-in: group batches of 5 to
+10 students at ₹1,499 per month (two live classes per week), mini batches of 3 to 4 students
+at ₹2,999 per month, one-on-one classes at ₹4,999 per month (one class a week, four classes
+a month). Outside India the pricing is a flat $100 per month for group classes and $150 for
 one-on-one, in US dollars, for all courses. A free demo class is available before
 enrollment, with no card required.
 

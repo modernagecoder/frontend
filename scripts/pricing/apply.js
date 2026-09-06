@@ -336,8 +336,13 @@ function syncLlmsTxt(config) {
     const usd = function (n) { return cfgLib.format(n, 'USD', { style: 'display' }); };
 
     const indiaTiers = [];
-    if (india.group != null) indiaTiers.push('group batches of 4-8 students at ' + inr(india.group) + ' per month (two live classes per week)');
-    if (india.miniBatch != null) indiaTiers.push('mini batches of 3-4 students at ' + inr(india.miniBatch) + ' per month');
+    // Batch sizes come from brand-facts.json (owner set the group batch to 5 to 10 on
+    // 2026-09-03); this sentence used to hard-code 4-8 and re-stamped it into llms.txt
+    // on every deploy, undoing the correction.
+    const BRAND = require('../brand-facts.json');
+    const size = (v, fallback) => String((BRAND.batchSizes || {})[v] || fallback).replace(/[–—-]/g, ' to ');
+    if (india.group != null) indiaTiers.push('group batches of ' + size('group', '5 to 10') + ' students at ' + inr(india.group) + ' per month (two live classes per week)');
+    if (india.miniBatch != null) indiaTiers.push('mini batches of ' + size('miniBatch', '3 to 4') + ' students at ' + inr(india.miniBatch) + ' per month');
     if (india.personal != null) indiaTiers.push('one-on-one classes at ' + inr(india.personal) + ' per month (one class a week, four classes a month)');
 
     // The premium AI agents courses (Codex + Claude Code, and AI Agents with
