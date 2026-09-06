@@ -471,9 +471,33 @@
 
     <script>
         (function () {
-            var src = 'direct';
-            try { src = new URLSearchParams(window.location.search).get('src') || 'direct'; } catch (e) { }
-            if (typeof gtag === 'function') gtag('event', 'lead_thank_you', { form_source: src });
+            // Count a lead ONCE. This page gets reloaded, bookmarked, shared and
+            // opened directly, and none of those is a new lead. The unit is the
+            // server's lead id (lid), carried here by the form that created it.
+            //   - lid present: fire once per id, ever (localStorage).
+            //   - src but no lid (older forms): fire once per tab session.
+            //   - neither: a direct visit, not a lead, nothing fires.
+            var params = null;
+            try { params = new URLSearchParams(window.location.search); } catch (e) { }
+            var src = (params && params.get('src')) || '';
+            var lid = (params && params.get('lid')) || '';
+            if (!src && !lid) return;
+            var key = 'mac_lead_' + (lid ? 'id_' + lid : 'src_' + src);
+            var store = null;
+            try { store = lid ? window.localStorage : window.sessionStorage; } catch (e) { }
+            if (store) {
+                try {
+                    if (store.getItem(key) === '1') return;
+                    store.setItem(key, '1');
+                } catch (e) { /* storage full or blocked: fall through and fire once for this load */ }
+            }
+            if (typeof gtag === 'function') {
+                gtag('event', 'lead_thank_you', {
+                    form_source: src || 'unknown',
+                    lead_id: lid || undefined,
+                    transaction_id: lid || undefined
+                });
+            }
         })();
     </script>
     <script src="/js/callback-modal.js?v=20260820a"></script>

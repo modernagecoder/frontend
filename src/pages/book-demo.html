@@ -1269,7 +1269,10 @@
                         });
                     }
                     // Success: hand off to the thank-you page
-                    window.location.href = '/thank-you?src=book-demo';
+                    // The server id travels with the visitor so the thank-you page can
+                    // count this lead exactly once, however many times it is reloaded.
+                    window.location.href = '/thank-you?src=book-demo'
+                        + (data && data.contactId ? '&lid=' + encodeURIComponent(data.contactId) : '');
                     return;
                 } else {
                     showFeedback('error', data.message || 'Something went wrong. Please try again.');

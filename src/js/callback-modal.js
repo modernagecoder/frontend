@@ -100,7 +100,9 @@ window.submitCallback = function(e) {
                 fbq('track', 'Contact');
             }
             // Hand off to the thank-you page
-            window.location.href = '/thank-you?src=callback';
+            // Carry the server id so the thank-you page counts this lead once.
+            window.location.href = '/thank-you?src=callback'
+                + (data && data.requestId ? '&lid=' + encodeURIComponent(data.requestId) : '');
             return;
         } else {
             alert(data.message || 'Something went wrong. Please try again.');
