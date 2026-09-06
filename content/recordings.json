@@ -1,0 +1,56 @@
+{
+  "_comment": [
+    "SINGLE SOURCE for every mention of the class-recording libraries on the site.",
+    "Facts below were stated by the owner on 2026-08-06 and must not be embellished:",
+    "the libraries REQUIRE a Google sign-in (never say 'no sign-up'), some classes are in",
+    "English and some in Hindi, they are updated frequently, and a viewer should watch a",
+    "class end to end. Recording durations and per-lesson lists are NOT known here; do not",
+    "invent them. Group and individual: the open libraries are recordings of real group",
+    "classes; one-to-one recordings exist but are shared on request only."
+  ],
+  "access": "Free to watch. No payment, no card, just a quick Google sign-in.",
+  "accessShort": "Free with a Google sign-in",
+  "format": "Full recordings of real, unedited live classes",
+  "interaction": "Recordings of real group classes: you see the mentor and students interacting, but the recording is not live and cannot interact with you.",
+  "languages": "Some classes are in English and some in Hindi; everyone follows at their own pace.",
+  "updated": "Updated frequently with the latest classes and the current teaching style.",
+  "watchTip": "Watch a class end to end, like you are in it. Sessions are interactive and each moment builds on the last.",
+  "device": "Best watched on a computer or laptop for a smooth, clear experience.",
+  "howToWatch": [
+    "Open the library on a computer or laptop.",
+    "Click the library button, then choose \"Watch Recording\" on the page that opens.",
+    "Sign in with Google and wait a few seconds.",
+    "The recording dashboard opens with all the recordings."
+  ],
+  "sample_note": "These recordings show how we teach, not the exact syllabus of this course.",
+  "hubPath": "/how-we-teach",
+  "hubAnchor": "/how-we-teach#library",
+  "libraries": [
+    {
+      "id": "kids",
+      "name": "Kids coding library",
+      "label": "Watch a Kids Class (6 to 12)",
+      "ages": "6 to 12",
+      "ageMin": 6,
+      "ageMax": 12,
+      "audience": "Children aged 6 to 12 and their parents",
+      "subjects": ["coding"],
+      "level": "Beginner to early intermediate",
+      "url": "https://modernagecoders.graphy.com/courses/How-We-Teach-The-Modern-Age-Coders-Methodology-kids-Coding-6a3a27597efbc77440b2c68f",
+      "whatYouSee": "A mentor explaining one idea at a time with visual examples, children building something in the session, questions answered as they come up, and progress checked before moving on."
+    },
+    {
+      "id": "teens",
+      "name": "Teens and adults library",
+      "label": "Watch a Teens & Adults Class (13+)",
+      "ages": "13 and up",
+      "ageMin": 13,
+      "ageMax": null,
+      "audience": "Teens, college students and working professionals; also covers maths",
+      "subjects": ["coding", "maths"],
+      "level": "Beginner to advanced",
+      "url": "https://modernagecoders.graphy.com/courses/How-We-Teach-The-Modern-Age-Coders-Methodology-6a1888029a4f81888c408ab9",
+      "whatYouSee": "Concepts built up step by step, code written and debugged live, students explaining their reasoning, and problems solved together rather than handed over."
+    }
+  ]
+}

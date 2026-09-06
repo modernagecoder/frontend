@@ -319,6 +319,10 @@ function renderObject(obj, depth) {
 }
 
 function courseToMarkdown(data) {
+    // The same generated facts and answers the HTML page shows, so an agent reading
+    // the twin gets identical claims (audience, format, language, recordings, demo).
+    const courseFacts = require('./course-facts.js');
+    courseFacts.augmentFaqs(data);
     const meta = data.meta || {};
     const fm = frontMatter({
         title: meta.title,
@@ -344,6 +348,7 @@ function courseToMarkdown(data) {
         if (meta.price.lifetime) facts.push(`**Lifetime:** ${meta.price.lifetime}`);
     }
     if (facts.length) body += facts.join('  \n') + '\n\n';
+    body += courseFacts.factsMarkdown(data);
 
     const skip = new Set(['meta']);
     for (const [key, val] of Object.entries(data)) {
@@ -360,8 +365,11 @@ function courseToMarkdown(data) {
         }
     }
 
+    body += courseFacts.answersMarkdown(data);
+
     body += `\n---\n\n## Enroll\n\n`;
-    body += `- Book a free demo: ${SITE}/book-demo\n`;
+    body += `- Enroll directly, no demo required (plans in your currency): ${SITE}/courses/${meta.slug}/#enroll\n`;
+    body += `- Book a free live demo, optional: ${SITE}/book-demo\n`;
     body += `- Course page: ${SITE}/courses/${meta.slug}/\n`;
     body += `- All courses: ${SITE}/courses\n`;
     body += `\n*Source: ${SITE}/courses/${meta.slug}/*\n`;

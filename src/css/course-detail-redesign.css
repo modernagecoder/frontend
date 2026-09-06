@@ -465,3 +465,24 @@ body.editorial .cd-imodal-alt a{color:var(--amber-deep);font-weight:600;text-dec
   .week-title{order:1;flex-basis:100%}
   .week-header:not(:has(.week-range)) .week-title{flex-basis:auto;order:0}
 }
+
+/* ---------- At a glance (generated facts) + Straight answers (2026-09-07) ---------- */
+.cd-facts{padding-top:.4rem;padding-bottom:1rem}
+.cd-facts-card{background:var(--surface);border:1px solid var(--line);border-radius:18px;padding:clamp(1.4rem,3vw,2rem)}
+.cd-facts-card h2{font-family:var(--font-display);font-weight:600;font-size:1.5rem;color:var(--ink);margin:0 0 1.1rem;letter-spacing:-.01em}
+.cd-facts-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:.9rem 1.4rem;margin:0}
+.cd-fact{margin:0;padding:.8rem .95rem;background:var(--paper-2);border:1px solid var(--line-2,var(--line));border-radius:11px}
+.cd-fact dt{font-family:var(--font-mono);font-size:.78rem;text-transform:uppercase;letter-spacing:.06em;color:var(--muted);margin:0 0 .3rem}
+.cd-fact dd{margin:0;color:var(--ink);font-size:.95rem;line-height:1.55}
+.cd-fact dd a{color:var(--amber-deep,#8F3F08);font-weight:600;text-decoration:underline;text-underline-offset:3px}
+.cd-answers{padding-top:1.5rem;padding-bottom:1rem}
+.cd-answers-inner{max-width:860px;margin-inline:auto}
+.cd-answers-eyebrow{display:inline-block;font-family:var(--font-mono);font-size:.78rem;letter-spacing:.14em;text-transform:uppercase;color:var(--amber);font-weight:600;margin-bottom:.7rem}
+.cd-answers h2{font-family:var(--font-display);font-weight:600;font-size:clamp(1.6rem,3vw,2.2rem);color:var(--ink);letter-spacing:-.02em;margin:0 0 1.4rem;line-height:1.15}
+.cd-answers-list{margin:0;display:grid;gap:1.1rem}
+.cd-answer{margin:0;padding:1.1rem 1.2rem;border-left:3px solid var(--amber);background:var(--paper-2);border-radius:0 12px 12px 0}
+.cd-answer dt{font-weight:600;color:var(--ink);font-size:1.05rem;margin:0 0 .4rem}
+.cd-answer dd{margin:0;color:var(--muted);line-height:1.7;font-size:.97rem}
+.cd-answer dd a{color:var(--amber-deep,#8F3F08);font-weight:600;text-decoration:underline;text-underline-offset:3px}
+body.editorial .hero-proof-note{margin:.35rem 0 0;font-family:var(--font-mono);font-size:.78rem;color:var(--muted);line-height:1.5}
+@media (max-width:640px){.cd-facts-grid{grid-template-columns:1fr}.cd-answer{padding:.95rem 1rem}}

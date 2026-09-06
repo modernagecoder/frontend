@@ -10,6 +10,10 @@ const path = require('path');
 const { courseToMarkdown } = require('./lib/markdown-emitter.js');
 // Single source of truth for every price on the site. See pricing/README.md.
 const PRICING = require('./pricing/lib/config.js');
+// Buyer-facing facts (at a glance, the nine answers, matched recording library,
+// the two recording/demo FAQs) generated from the course JSON + brand facts +
+// content/recordings.json, so copy, schema and markdown cannot disagree.
+const courseFacts = require('./lib/course-facts.js');
 
 // Inline SVG icon set for generated sections (stroke style matches the
 // editorial template's lucide-style icons). No emoji anywhere on course pages.
@@ -780,6 +784,9 @@ class CourseGenerator {
         const workload = this.isoWorkload(meta.commitment);
         if (workload) courseSchema.hasCourseInstance.courseWorkload = workload;
 
+        // Language and audience, the same facts the visible "At a glance" block states.
+        Object.assign(courseSchema, courseFacts.schemaExtras(courseData));
+
         // Add image if available
         if (meta.image_path) {
             courseSchema.image = {
@@ -1120,6 +1127,18 @@ class CourseGenerator {
      */
     populateTemplate(template, courseData, courseDir) {
         let html = template;
+
+        // Add the recording/demo questions to this course's FAQs before the FAQPage
+        // schema and the visible FAQ list are built from the same array.
+        courseFacts.augmentFaqs(courseData);
+        const watch = courseFacts.watchClass(courseData);
+        html = html.replace(/{{COURSE_FACTS}}/g, courseFacts.renderFacts(courseData));
+        html = html.replace(/{{COURSE_ANSWERS}}/g, courseFacts.renderAnswers(courseData));
+        html = html.replace(/{{WATCH_CLASS_HREF}}/g, watch.href);
+        html = html.replace(/{{WATCH_CLASS_ID}}/g, watch.id);
+        html = html.replace(/{{WATCH_CLASS_LABEL}}/g, this.escapeHtml(watch.label));
+        html = html.replace(/{{WATCH_CLASS_ARIA}}/g, this.escapeHtml(watch.ariaLabel));
+        html = html.replace(/{{WATCH_CLASS_NOTE}}/g, this.escapeHtml(watch.note));
 
         const meta = courseData.meta || {};
         const overview = courseData.program_overview || {};

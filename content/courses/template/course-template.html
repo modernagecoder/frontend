@@ -61,7 +61,7 @@
         href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400..700;1,9..144,400..600&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600;700&display=swap">
     <!-- Editorial theme (shared) + Course detail styles. No legacy CSS. -->
     <link rel="stylesheet" href="/css/editorial-theme.css?v=20260626g">
-    <link rel="stylesheet" href="/css/course-detail-redesign.css?v=20260907">
+    <link rel="stylesheet" href="/css/course-detail-redesign.css?v=20260907b">
     <link rel="stylesheet" href="/css/moments-strip.css?v=20260806b">
     <script src="/js/moments-strip.js?v=20260806b" defer></script>
     <meta name="theme-color" content="#B45309">
@@ -150,8 +150,8 @@
                             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg>
                         <span class="dl-label">Download syllabus</span>
                         </button>
-                        <a href="/how-we-teach" class="hero-proof-btn hero-proof-btn--teach" aria-label="Watch how we teach, live demo lessons">
-                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polygon points="5 3 19 12 5 21 5 3"></polygon></svg> Watch a class
+                        <a href="{{WATCH_CLASS_HREF}}" target="_blank" rel="noopener" class="hero-proof-btn hero-proof-btn--teach" data-recording-library="{{WATCH_CLASS_ID}}" aria-label="{{WATCH_CLASS_ARIA}}" onclick="try{gtag('event','watch_library_click',{library:'{{WATCH_CLASS_ID}}',page:'course-hero'})}catch(e){}">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polygon points="5 3 19 12 5 21 5 3"></polygon></svg> {{WATCH_CLASS_LABEL}}
                         </a>
                         <a href="/love" class="hero-proof-btn hero-proof-btn--love" aria-label="Read parent and student testimonials">
                             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path></svg> Wall of Love
@@ -160,6 +160,7 @@
                             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 3h6"></path><path d="M10 3v6.5L5.2 18a2 2 0 0 0 1.7 3h10.2a2 2 0 0 0 1.7-3L14 9.5V3"></path></svg> Student Labs
                         </a>
                     </div>
+                    <p class="hero-proof-note">{{WATCH_CLASS_NOTE}}</p>
                 </div>
             </div>
             <div class="course-hero-image">
@@ -186,13 +187,16 @@
             </div>
         </section>
 
+        <!-- At a glance: generated from the course JSON, brand facts and recordings.json -->
+        {{COURSE_FACTS}}
+
         <!-- Enhanced Enrollment CTA Section -->
         <section class="enrollment-cta-section" id="enroll">
             <div class="enrollment-cta-container">
                 <div class="enrollment-cta-text">
                     <h2>Ready to Master {{COURSE_TITLE}}?</h2>
                     <p>Choose your plan and start your journey into the future of technology today.</p>
-                    <p class="enroll-trust" style="margin:.6rem 0 0;font-weight:600;">Rated 4.9 across 547 Google reviews. Free demo first, no card needed. Monthly billing, cancel anytime.</p>
+                    <p class="enroll-trust" style="margin:.6rem 0 0;font-weight:600;">Rated 4.9 across 547 Google reviews. Enroll directly, or take a free live demo first if you like. No card needed for the demo. Monthly billing, cancel anytime.</p>
                 </div>
                 <div class="enrollment-options">
                     <!-- TIER:GROUP START -->
@@ -492,6 +496,9 @@
                 <a class="mac-btn-ghost" href="https://youtube.com/playlist?list=PLfTigabkzKdy4y52hmNOQRaL8gsc9lbU1" target="_blank" rel="noopener">Watch the playlist on YouTube</a>
             </div>
         </section>
+
+        <!-- Straight answers: the nine questions a buyer asks, generated -->
+        {{COURSE_ANSWERS}}
 
         <!-- FAQ Section - Only displays if course has FAQs -->
         {{FAQ_SECTION}}

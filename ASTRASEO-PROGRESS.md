@@ -40,15 +40,15 @@ Legend: `[ ]` not started · `[~]` in progress · `[x]` done and verified · `[!
 - [ ] B1 `/book-demo`: "Don't wait to experience how we teach" with the three actions and the sign-in disclosure
 - [ ] B2 `/how-we-teach`: closing section "Like the way we teach? Start your learning journey."
 - [ ] B3 Shared teaching-depth section on homepage, how-we-teach and course pages
-- [ ] B4 "Free demo first" becomes "A free live demo is available before you enroll" (3 files)
+- [~] B4 Course template trust line now reads "Enroll directly, or take a free live demo first if you like" (121 pages). Homepage capsule and pricing page still to do.
 - [ ] B5 Homepage CTA order: Watch a Real Class, Explore Courses, Book a Free Demo
 - [ ] B6 One mobile action bar: two actions, WhatsApp/Misti as a compact help control, keyboard-safe
 
 ## Phase C: shared data
 
-- [ ] C1 `content/recordings.json` drives every recording mention (audience, language, access)
-- [ ] C2 Course "At a glance" facts block + schema fields generated from course JSON
-- [ ] C3 The nine buyer questions answered on every course page (and its markdown twin)
+- [x] C1 `content/recordings.json` holds the two libraries with audience, ages, subjects, access (Google sign-in), languages, update cadence, watch tip and how-to steps (owner facts of 2026-08-06, nothing added). Course pages now link the library that matches the course audience (20 kids, 101 teens-and-up; grades and classes are not read as ages), labelled "Watch a real class (ages ...)" with the sign-in disclosure under the hero links.
+- [x] C2 "At a glance" block on all 121 course pages (`scripts/lib/course-facts.js`): who it is for, prerequisites, format, language, duration, weekly commitment, class size (brand-facts), price (link to the plans, no literal), certificate, watch first, live demo optional. Course schema gains `inLanguage` and `EducationalAudience`. Same facts in every markdown twin.
+- [x] C3 "Straight answers" section on all 121 pages and twins: who, what they build, how deep, who teaches (truthful: mentors, seen in the recordings), practice/feedback/assessment, cost (plans in your currency, no literal), schedule, watch before deciding, enroll without a live demo (assisted payment abroad stated). Two new FAQs (visible + FAQPage) on every course. Verified with Playwright at 1280/390: 0 text under 12px, contrast 5.17:1, no overflow, 0 console errors.
 - [ ] C4 `content/markets.json` + verifier for currency and assisted-payment wording
 
 ## Phase D: backend
