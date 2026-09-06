@@ -1,10 +1,10 @@
 ---
-title: "Modern Age Coders - Online Coding & Maths Classes for All Ages | Learn Worldwide"
-description: "Online coding and maths classes for ages 6-67. Learn from anywhere in the world. Live 1-on-1 sessions in Python, Scratch, AI, Web Dev & Mathematics. Expert instructors, hands-on projects. Book a free demo today!"
+title: "Online Coding & Maths Classes, Ages 6-67 | Modern Age Coders"
+description: "Live online coding and maths classes for ages 6 to 67. Small batches, real projects from class one. Rated 4.9 across 547 Google reviews."
 canonical: https://learn.modernagecoders.com/
 source: src/pages/index.html
 ---
-> Online coding and maths classes for ages 6-67. Learn from anywhere in the world. Live 1-on-1 sessions in Python, Scratch, AI, Web Dev & Mathematics. Expert instructors, hands-on projects. Book a free demo today!
+> Live online coding and maths classes for ages 6 to 67. Small batches, real projects from class one. Rated 4.9 across 547 Google reviews.
 
 Coding + Maths · Ages 6–67 · Live 1-on-1
 
@@ -12,7 +12,7 @@ Coding + Maths · Ages 6–67 · Live 1-on-1
 
 We don't just teach coding and maths. We teach you how to think, build, and solve problems that actually matter. Just real skills that work in the real world at any age, any stage.
 
-[Book a Free Demo](/book-demo)[Watch a Real Class](/how-we-teach)[View Courses →](/courses)★ **4.9****547** reviews**25+** countriessince **2020**
+[Watch a Real Class](/how-we-teach#library)[Explore Courses →](/courses)[Book a Free Demo](/book-demo)★ **4.9****547** reviews**25+** countriessince **2020**
 
 make.js// where logic meets imaginationfunctionlearn(you) {const skill = code + maths;return you.build(skill);}learn(you); // real-world ready
 
@@ -32,13 +32,32 @@ f′(x) = 2ax + b
 
 codingmaths
 
-Modern Age Coders runs live online coding and maths classes for students aged 6 to 67, taught in small batches with real projects from the first class. It is rated 4.9 across 547 Google reviews and has taught over 10,000 students since 2020. Every class is live, and there is a free demo before you pay. Full recordings of real, unedited coding and maths classes are also [free to watch before booking anything](/how-we-teach), in two open libraries: one for kids aged 6 to 12 and one for teens and adults, in a mix of English and Hindi, updated frequently, free with a quick Google sign-in.
+Modern Age Coders runs live online coding and maths classes for students aged 6 to 67, taught in small batches with real projects from the first class. It is rated 4.9 across 547 Google reviews and has taught over 10,000 students since 2020. Every class is live, and a free live demo is available before you enroll, though nobody has to wait for one. Full recordings of real, unedited coding and maths classes are [free to watch before booking anything](/how-we-teach), in two open libraries: one for kids aged 6 to 12 and one for teens and adults, in a mix of English and Hindi, updated frequently, free with a quick Google sign-in. A family that likes what it sees can choose a course and enroll directly.
 
 Rated 4.9 across 547 Google reviews
 
 > “Children do not need another app that teaches them to copy code. They need a mentor who teaches them to think.”
 
 *Shivam Khemka, Founder of Modern Age Coders*
+
+How we teach
+
+## Deep understanding. Real projects. Expert guidance.
+
+Learn coding, AI and maths through careful explanations, practical demonstrations, and hands-on problem-solving. Our instructors guide you from the foundations to advanced ideas, helping you understand what happens, why it happens, and how to build it yourself.
+
+You will explore concepts step by step, write and improve code, investigate mistakes, ask questions, and apply your knowledge to meaningful projects. Lessons are designed around active participation, thoughtful feedback, and growing independence.
+
+Expert-led live teaching, with practical participation built into every lesson.
+
+- Students explain their thinking.
+- Instructors demonstrate, then guide practice.
+- Learners code, solve, or build during lessons.
+- Questions and misconceptions get attention.
+- Assignments receive useful feedback.
+- Progress is checked before advancing.
+
+[Watch a real class](/how-we-teach#library) [Choose a course and enroll](/courses)
 
 ## Why Coding + Maths Together?
 

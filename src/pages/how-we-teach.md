@@ -21,7 +21,28 @@ print("first program, " + name)
 # cheers in the class. that moment.
 ```
 
-******board_01, livex² + 5x + 6= (x + 2)(x + 3)why 2 & 3? they add to 5, multiply to 6 ✦The method
+******board_01, livex² + 5x + 6= (x + 2)(x + 3)why 2 & 3? they add to 5, multiply to 6 ✦
+
+How we teach
+
+## Deep understanding. Real projects. Expert guidance.
+
+Learn coding, AI and maths through careful explanations, practical demonstrations, and hands-on problem-solving. Our instructors guide you from the foundations to advanced ideas, helping you understand what happens, why it happens, and how to build it yourself.
+
+You will explore concepts step by step, write and improve code, investigate mistakes, ask questions, and apply your knowledge to meaningful projects. Lessons are designed around active participation, thoughtful feedback, and growing independence.
+
+Expert-led live teaching, with practical participation built into every lesson.
+
+- Students explain their thinking.
+- Instructors demonstrate, then guide practice.
+- Learners code, solve, or build during lessons.
+- Questions and misconceptions get attention.
+- Assignments receive useful feedback.
+- Progress is checked before advancing.
+
+[Watch a real class](/how-we-teach#library) [Choose a course and enroll](/courses)
+
+The method
 
 ## How a class actually *feels*
 
@@ -152,11 +173,11 @@ We add new coding and maths sessions to the open library as we teach them. What 
 
 ⟳ Last refreshed: ,
 
-## Liked what you *saw?*
+## Like the way we teach? *Start your learning journey.*
 
-Book a free, no-obligation demo class and let your child experience this teaching style live, in coding, maths, or both.
+You have seen how we explain, build, question, and solve problems together. If this feels like the right learning environment, choose your course and enroll. A live demo is optional: you can request one whenever you need help deciding.
 
-[View All Courses](/courses)Good to know
+[Choose My Course & Enroll](/courses)Good to know
 
 ## Questions, answered
 

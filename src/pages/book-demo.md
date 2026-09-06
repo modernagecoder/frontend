@@ -10,11 +10,17 @@ source: src/pages/book-demo.html
 
 Experience our world-class teaching before you commit. Try a live 1-on-1 session with our expert instructors, absolutely free, no strings attached.
 
-Live demos are typically scheduled within 48 hours, because our mentors spend most of the day teaching live classes. If you would rather see us teach right now, watch a full recorded class: free and unedited, just a quick Google sign-in. Some classes are in English, some in Hindi, and the libraries are updated frequently. Watch end to end, like you are in the class, on a computer or laptop for the clearest experience.
+## Don't wait to experience how we teach.
 
-[Watch a Kids Class (6 to 12)](https://modernagecoders.graphy.com/courses/How-We-Teach-The-Modern-Age-Coders-Methodology-kids-Coding-6a3a27597efbc77440b2c68f)[Watch a Teens & Adults Class (13+)](https://modernagecoders.graphy.com/courses/How-We-Teach-The-Modern-Age-Coders-Methodology-6a1888029a4f81888c408ab9)
+Finding a convenient time for a live demo can take a little coordination: our mentors spend most of the day teaching live classes, so demos are usually scheduled within 48 hours. You can explore our teaching right now through real class recordings. See how our instructors explain concepts, guide practical work, answer questions, and help students understand each step.
 
-[Or read exactly how we teach](/how-we-teach)
+If the teaching style feels right, choose your course and enroll directly. You can also book a free live demo below if you would like to meet an instructor before deciding.
+
+[Watch a Kids Class (6 to 12)](https://modernagecoders.graphy.com/courses/How-We-Teach-The-Modern-Age-Coders-Methodology-kids-Coding-6a3a27597efbc77440b2c68f)[Watch a Teens & Adults Class (13+)](https://modernagecoders.graphy.com/courses/How-We-Teach-The-Modern-Age-Coders-Methodology-6a1888029a4f81888c408ab9)[Choose a Course & Enroll](/courses)
+
+Prefer a live demo? Choose a time below · [Read exactly how we teach](/how-we-teach)
+
+Free class recordings of real, unedited lessons. A Google sign-in is required for the full library. Choose a recording suited to your age group, subject, and teaching language: some classes are in English, some in Hindi. Watch a class end to end, on a computer or laptop for the clearest experience.
 
 100% FreeNo Commitment30-45 Min Session10,000+ Students Trained
 
