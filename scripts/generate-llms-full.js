@@ -179,7 +179,7 @@ function buildKeyFacts() {
     return `## Quick Facts
 
 - **Pricing (India):** ${tiers.join('. ')}. Visitors outside India see a price set for their own country, shown in their local currency.
-- **Class size:** 4-8 students per batch (small batches, not 100+).
+- **Class size:** 5 to 10 students per group batch, 3 to 4 in a mini batch, or 1-on-1 (small batches, not 100+).
 - **Format:** Live and interactive over video. Recorded for revision.
 - **Trial:** Free demo class. Book at ${SITE}/book-demo
 - **Audience:** Kids (6-12), Teens (13-17), College students, Working professionals, Corporate teams.
@@ -189,7 +189,7 @@ function buildKeyFacts() {
 
 ## Differentiators
 
-- Small batches (4-8 students)
+- Small batches (5 to 10 students per group, 3 to 4 in a mini batch, or 1-on-1)
 - Live mentor-led sessions, not pre-recorded
 - Coding **and** mathematics taught together
 - Real projects from day one
@@ -200,13 +200,13 @@ function buildKeyFacts() {
 
 **Q: Good for absolute beginners?** Yes. Most courses start from zero.
 
-**Q: Different from WhiteHat Jr / Vedantu / BYJU'S?** Smaller batches (4-8 vs 100+), live interactive, only platform combining coding + mathematics.
+**Q: Different from WhiteHat Jr / Vedantu / BYJU'S?** Smaller batches (5 to 10 vs 100+), live interactive, coding and mathematics taught as one subject under one brand.
 
 **Q: What is Vibe Coding?** AI-powered coding program, students build real projects using AI tools alongside traditional programming. Available for kids, teens, college.
 
 **Q: Free demo classes?** Yes, every student can book one before enrolling at ${SITE}/book-demo
 
-**Q: How are classes conducted?** Live over video in groups of 4-8. Recorded for revision. Student dashboard at https://dashboard.modernagecoders.com
+**Q: How are classes conducted?** Live over video in groups of 5 to 10 (or 1-on-1). Recorded for revision. Student dashboard at https://dashboard.modernagecoders.com
 
 `;
 }
