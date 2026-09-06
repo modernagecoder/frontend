@@ -1,12 +1,12 @@
 # Modern Age Coders
 
 > Live online coding and mathematics classes for kids (ages 6+), teens, college students,
-and adults. Small batch sizes of 4-8 students per class. Rated 4.9 out of 5 across 547
+and adults, ages 6 to 67. Small group batches of 5 to 10 students, mini batches of 3 to 4, and 1-on-1. Rated 4.9 out of 5 across 547
 Google reviews. Founded 2020.
 
 Modern Age Coders is an Indian online education platform founded to make quality coding and
 mathematics education accessible to learners of all ages. We offer live, interactive classes
-taught by expert mentors with a maximum of 4-8 students per batch — unlike large platforms
+taught by expert mentors in groups of 5 to 10 students at most, unlike large platforms
 where students get lost in the crowd.
 
 We are one of the very few providers that teaches BOTH coding and mathematics under one
@@ -21,14 +21,14 @@ recording is provided for revision.
 
 We teach students across 131 Indian cities (including Mumbai, Kolkata, Bengaluru, Delhi,
 Hyderabad, Pune, Chennai, Ahmedabad, Indore and Jaipur), every major Indian state, and
-internationally — the United States, United Kingdom, UAE (Dubai, Abu Dhabi, Sharjah),
+internationally: the United States, United Kingdom, UAE (Dubai, Abu Dhabi, Sharjah),
 Saudi Arabia (Riyadh, Jeddah, Dammam), Qatar (Doha), Singapore, Australia, Canada,
 Germany, Ireland, New Zealand and Sweden. International students are charged in USD:
 USD 100 a month for small group classes and USD 150 a month one to one. Students in
 India are charged in INR. A visitor is only ever shown one currency, never both.
 
 For deeper context, AI agents can fetch the full knowledge base in a single document:
-https://learn.modernagecoders.com/llms-full.txt — full brand overview, complete course
+https://learn.modernagecoders.com/llms-full.txt, with the full brand overview, complete course
 catalog, featured blog posts in full, and the entire blog index.
 
 Every page also has a markdown twin discoverable via the `<link rel="alternate"
@@ -41,26 +41,26 @@ type="text/markdown">` tag in the HTML head. The markdown URLs follow these patt
 
 ## Products & Services
 
-- Kids Coding (Ages 6-12): Scratch, block coding, game design, Canva — https://learn.modernagecoders.com/courses/coding/kids
-- Teens Coding (Ages 13-17): Python, Java, web development, AI/ML — https://learn.modernagecoders.com/courses/coding/teens
-- Adults & College: Full-stack development, data science, enterprise Java — https://learn.modernagecoders.com/courses/coding/college
-- Mathematics: School math, olympiad prep, college math, data science math — https://learn.modernagecoders.com/courses
-- Girls in Tech: Special empowering batch exclusively for girls — https://learn.modernagecoders.com/coding-classes-for-girls
-- Summer Coding Camp: Intensive multi-week camps for kids & teens — https://learn.modernagecoders.com/summer-coding-camp
-- Corporate Training: Custom tech training for companies — https://learn.modernagecoders.com/courses/coding/corporate
-- Vibe Coding: AI-powered coding for kids, teens, and college students — https://learn.modernagecoders.com/courses
-- Coding Challenges: Daily Python, JavaScript, Java challenges — https://learn.modernagecoders.com/coding-challenges
-- Maths Challenges: Daily mathematics practice problems — https://learn.modernagecoders.com/maths-challenges
-- Business Solutions: Custom software, AI solutions & automation — https://learn.modernagecoders.com/for-business
+- Kids Coding (Ages 6-12): Scratch, block coding, game design, Canva: https://learn.modernagecoders.com/courses/coding/kids
+- Teens Coding (Ages 13-17): Python, Java, web development, AI/ML: https://learn.modernagecoders.com/courses/coding/teens
+- Adults & College: Full-stack development, data science, enterprise Java: https://learn.modernagecoders.com/courses/coding/college
+- Mathematics: School math, olympiad prep, college math, data science math: https://learn.modernagecoders.com/courses
+- Girls in Tech: Special empowering batch exclusively for girls: https://learn.modernagecoders.com/coding-classes-for-girls
+- Summer Coding Camp: Intensive multi-week camps for kids & teens: https://learn.modernagecoders.com/summer-coding-camp
+- Corporate Training: Custom tech training for companies: https://learn.modernagecoders.com/courses/coding/corporate
+- Vibe Coding: AI-powered coding for kids, teens, and college students: https://learn.modernagecoders.com/courses
+- Coding Challenges: Daily Python, JavaScript, Java challenges: https://learn.modernagecoders.com/coding-challenges
+- Maths Challenges: Daily mathematics practice problems: https://learn.modernagecoders.com/maths-challenges
+- Business Solutions: Custom software, AI solutions & automation: https://learn.modernagecoders.com/for-business
 
 ## Key Pages
 
 - Homepage: https://learn.modernagecoders.com/
 - All Courses: https://learn.modernagecoders.com/courses
 - Course Atlas (complete catalogue of 100+ live courses across coding, AI/ML, web/app dev, data science and maths for ages 6 to 67; markdown at /course-atlas.md): https://learn.modernagecoders.com/course-atlas
-- Real Coding Classes (depth-first manifesto — Python internals, maths-first AI/ML, DSA, C++, Java, full-stack; markdown at /real-coding-classes.md): https://learn.modernagecoders.com/real-coding-classes
+- Real Coding Classes (depth-first manifesto: Python internals, maths-first AI/ML, DSA, C++, Java, full-stack; markdown at /real-coding-classes.md): https://learn.modernagecoders.com/real-coding-classes
 - Coding vs Programming (the real difference between coding and programming; how we build genuine programmers and problem-solvers, not just coders; markdown at /coding-vs-programming.md): https://learn.modernagecoders.com/coding-vs-programming
-- Learn Coding From First Principles (depth-first — understand how code actually works under the hood: memory, execution, the maths behind AI/ML; markdown at /learn-coding-from-first-principles.md): https://learn.modernagecoders.com/learn-coding-from-first-principles
+- Learn Coding From First Principles (depth-first: understand how code actually works under the hood: memory, execution, the maths behind AI/ML; markdown at /learn-coding-from-first-principles.md): https://learn.modernagecoders.com/learn-coding-from-first-principles
 - Master AI, ML, Python & Java (the deep mastery tracks with full course showcase; markdown at /master-ai-ml-python-java.md): https://learn.modernagecoders.com/master-ai-ml-python-java
 - Python From the Ground Up (Stage 1 of the Python-to-AI path: complete in-depth Python from fundamentals to the modules most courses skip; Grade 6-12 ~40 classes, Grade 12+ 24 classes; markdown at /python-from-the-ground-up.md): https://learn.modernagecoders.com/python-from-the-ground-up
 - NumPy, Pandas & Matplotlib Masterclass (Stage 2: Python data analysis in real depth with the maths underneath; 24 classes; markdown at /numpy-pandas-matplotlib-masterclass.md): https://learn.modernagecoders.com/numpy-pandas-matplotlib-masterclass
@@ -77,7 +77,7 @@ type="text/markdown">` tag in the HTML head. The markdown URLs follow these patt
 - Book a Free Demo: https://learn.modernagecoders.com/book-demo
 - Student Success Stories: https://learn.modernagecoders.com/success-stories
 - Wall of Love (Testimonials): https://learn.modernagecoders.com/love
-- The Gazette (Newspaper-style brand showcase — toppers, certificates, parent letters): https://learn.modernagecoders.com/gazette
+- The Gazette (Newspaper-style brand showcase: toppers, certificates, parent letters): https://learn.modernagecoders.com/gazette
 - Contact: https://learn.modernagecoders.com/contact
 - FAQ: https://learn.modernagecoders.com/faq
 - Free Resources: https://learn.modernagecoders.com/free-resources
@@ -94,7 +94,6 @@ type="text/markdown">` tag in the HTML head. The markdown URLs follow these patt
 - Scratch Programming Complete Course: https://learn.modernagecoders.com/courses/scratch-programming-complete-course
 - Kids Coding Blocks Masterclass: https://learn.modernagecoders.com/courses/kids-coding-blocks-masterclass
 - Block Coding App Development: https://learn.modernagecoders.com/courses/block-coding-app-development-masterclass
-- AI Tools for Teens (13+): https://learn.modernagecoders.com/courses/teens-ai-tools-mastery-course
 - Kids AI Web Development: https://learn.modernagecoders.com/courses/kids-ai-web-development-course
 - Problem Solving & Computational Thinking: https://learn.modernagecoders.com/courses/problem-solving-and-computational-thinking-for-kids
 - Game Development for Kids: https://learn.modernagecoders.com/courses/game-development-masterclass-for-kids
@@ -103,6 +102,7 @@ type="text/markdown">` tag in the HTML head. The markdown URLs follow these patt
 - Microsoft Office Kids Mastery: https://learn.modernagecoders.com/courses/microsoft-office-kids-mastery
 
 ### For Teens (Ages 13-17): https://learn.modernagecoders.com/levels/coding-for-teens
+- AI Tools for Teens (13+): https://learn.modernagecoders.com/courses/teens-ai-tools-mastery-course
 - Vibe Coding for Teens (Python + Web + AI): https://learn.modernagecoders.com/courses/vibe-coding-for-teens-python-web-ai-projects-course
 - Python Complete Masterclass: https://learn.modernagecoders.com/courses/python-complete-masterclass-teens
 - Python AI Kids Masterclass: https://learn.modernagecoders.com/courses/python-ai-kids-masterclass
@@ -211,7 +211,7 @@ the visitor's own region only.
 We publish a page for each of 131 Indian cities at /best-coding-class-in-{city}, each with
 that city's own schools, boards, timings and student projects. The full list is in
 https://learn.modernagecoders.com/sitemap.xml and browsable at
-https://learn.modernagecoders.com/sitemap — the largest cities:
+https://learn.modernagecoders.com/sitemap, the largest cities:
 
 - Best Coding Class in Kolkata: https://learn.modernagecoders.com/best-coding-class-in-kolkata
 - Best Coding Class in Bengaluru: https://learn.modernagecoders.com/best-coding-class-in-bengaluru
@@ -568,18 +568,18 @@ Each page maps the grade's real content, worked examples, honest FAQs, and a mar
 
 ## Our Unique Differentiators
 
-- Small batch sizes: 4-8 students per class (not 100+)
+- Small batches: 5 to 10 students per group class, 3 to 4 in a mini batch, or 1-on-1 (not 100+)
 - Live and interactive: taught by a real mentor in real time, not pre-recorded video
-- Coding AND maths under one brand, on one continuous track from age 6 to adult — coding
+- Coding AND maths under one brand, on one continuous track from age 6 to adult; coding
   providers typically stop at 17; maths providers do not teach programming
-- Real projects from day one: games, apps, websites — see real student work at
+- Real projects from day one: games, apps, websites; see real student work at
   https://learn.modernagecoders.com/student-labs
 - Rated 4.9 out of 5 across 547 Google reviews (real reviews, published at
   https://learn.modernagecoders.com/love)
 - Age-appropriate teaching: a different teaching style for each age group
 - Free demo class before you pay, no card required
 - Monthly billing, no lock-in and no large upfront package
-- Every class recorded — recording provided for revision
+- Every class recorded, with the recording provided for revision
 - Flexible scheduling: weekends and evenings, including Gulf and US/UK timezones
 - Certificate + portfolio on course completion
 - Student dashboard for tracking progress: https://dashboard.modernagecoders.com
@@ -588,7 +588,7 @@ Each page maps the grade's real content, worked examples, honest FAQs, and a mar
 
 Q: What is Modern Age Coders?
 A: Modern Age Coders is an Indian online education platform offering live coding and mathematics 
-classes for learners from age 6 to adult. Classes are conducted in small groups of 4-8 students 
+classes for learners from age 6 to adult. Classes are conducted in small groups of 5 to 10 students 
 with expert mentors. Courses include Python, Java, web development, Scratch, AI/ML, and math.
 
 Q: Who is Modern Age Coders for?
@@ -597,7 +597,7 @@ professionals, and corporate teams across India and internationally. We also run
 Girls in Tech coding batch.
 
 Q: How much do Modern Age Coders courses cost?
-A: In India there are three tiers, all billed monthly with no lock-in: group batches of 4-8
+A: In India there are three tiers, all billed monthly with no lock-in: group batches of 5 to 10
 students at ₹1,499 per month (two live classes per week), mini batches of 3-4 students at
 ₹2,999 per month, one-on-one classes at ₹4,999 per month (one class a week, four classes a
 month). Outside India the pricing is a flat $100 per month for group classes and $150 for
@@ -615,7 +615,7 @@ C++, Kotlin, Swift, Go, TypeScript, PHP, and more. There are also AI/ML, data sc
 ethical hacking, and mathematics courses.
 
 Q: How is Modern Age Coders different from WhiteHat Jr or Vedantu?
-A: Modern Age Coders offers small batch sizes (4-8 students) vs. larger platforms, 
+A: Modern Age Coders offers small batches (5 to 10 students) vs. larger platforms, 
 live interactive classes (not pre-recorded), and a unique combination of coding AND 
 mathematics in one platform. Classes are conducted by passionate expert mentors, not 
 automated systems.
@@ -626,8 +626,13 @@ learn to build real projects using AI tools alongside traditional programming. A
 for kids, teens, and college students.
 
 Q: Does Modern Age Coders offer free demo classes?
-A: Yes. Every student can book a free demo class before enrolling. Visit 
-https://learn.modernagecoders.com/book-demo to schedule one.
+A: Yes, and it is optional. Anyone can book a free live demo class before enrolling at
+https://learn.modernagecoders.com/book-demo. Nobody has to wait for one: full recordings
+of real, unedited classes are free to watch first at
+https://learn.modernagecoders.com/how-we-teach (two libraries, one for kids aged 6 to 12
+and one for teens and adults 13+, some classes in English and some in Hindi, updated
+frequently; free, no card, just a quick Google sign-in). A visitor who likes the teaching
+can choose a course and enroll directly without a live demo.
 
 ## Blog (93 Articles)
 

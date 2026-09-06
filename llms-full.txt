@@ -1,12 +1,12 @@
 # Modern Age Coders
 
 > Live online coding and mathematics classes for kids (ages 6+), teens, college students,
-and adults. Small batch sizes of 4-8 students per class. Rated 4.9 out of 5 across 547
+and adults, ages 6 to 67. Small group batches of 5 to 10 students, mini batches of 3 to 4, and 1-on-1. Rated 4.9 out of 5 across 547
 Google reviews. Founded 2020.
 
 Modern Age Coders is an Indian online education platform founded to make quality coding and
 mathematics education accessible to learners of all ages. We offer live, interactive classes
-taught by expert mentors with a maximum of 4-8 students per batch — unlike large platforms
+taught by expert mentors in groups of 5 to 10 students at most, unlike large platforms
 where students get lost in the crowd.
 
 We are one of the very few providers that teaches BOTH coding and mathematics under one
@@ -21,14 +21,14 @@ recording is provided for revision.
 
 We teach students across 131 Indian cities (including Mumbai, Kolkata, Bengaluru, Delhi,
 Hyderabad, Pune, Chennai, Ahmedabad, Indore and Jaipur), every major Indian state, and
-internationally — the United States, United Kingdom, UAE (Dubai, Abu Dhabi, Sharjah),
+internationally: the United States, United Kingdom, UAE (Dubai, Abu Dhabi, Sharjah),
 Saudi Arabia (Riyadh, Jeddah, Dammam), Qatar (Doha), Singapore, Australia, Canada,
 Germany, Ireland, New Zealand and Sweden. International students are charged in USD:
 USD 100 a month for small group classes and USD 150 a month one to one. Students in
 India are charged in INR. A visitor is only ever shown one currency, never both.
 
 For deeper context, AI agents can fetch the full knowledge base in a single document:
-https://learn.modernagecoders.com/llms-full.txt — full brand overview, complete course
+https://learn.modernagecoders.com/llms-full.txt, with the full brand overview, complete course
 catalog, featured blog posts in full, and the entire blog index.
 
 Every page also has a markdown twin discoverable via the `<link rel="alternate"
@@ -39,7 +39,7 @@ type="text/markdown">` tag in the HTML head. The markdown URLs follow these patt
 - Resources practice: /content/resources/generated/{lang}/{chapter}/practice/index.md
 - Static pages:  /src/pages/{slug}.md
 
-> Generated: 2026-08-24 · Source of truth: https://learn.modernagecoders.com/llms.txt
+> Generated: 2026-09-06 · Source of truth: https://learn.modernagecoders.com/llms.txt
 
 Full companion to /llms.txt, brand overview, complete course catalog, embedded text of featured blog posts, and full blog index. AI agents that prefer a single document can use this as the canonical knowledge base.
 
