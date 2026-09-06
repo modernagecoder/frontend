@@ -136,6 +136,34 @@ warn(
   slugClashes.map(([slug, files]) => `${slug}  ←  ${files.join(' , ')}  (wins: ${files.slice().sort().pop()})`),
   'intentional? fine. Otherwise give each course its own slug.'
 );
+// --- static pages, from the published-page manifest ---------------------------
+// Every clean route in _redirects that serves a src/pages file is a published
+// page. If it is indexable it must be in the sitemap, and its canonical must be
+// one of its own routes. Derived, never hand-listed, so a new landing page that
+// forgets its <url> block fails the build instead of quietly staying unlisted.
+const { buildManifest } = require('./page-manifest');
+const manifest = buildManifest();
+const staticMissing = manifest
+  .filter((p) => p.indexable && !p.inSitemap)
+  .map((p) => `${p.routes[0]}  (${p.file})`);
+const canonicalOff = manifest
+  .filter((p) => p.indexable && !p.canonicalMatches)
+  .map((p) => `${p.routes[0]}  canonical=${p.canonical}`);
+const noindexListed = manifest
+  .filter((p) => !p.indexable && p.inSitemap)
+  .map((p) => `${p.routes[0]}  robots=${p.robots}`);
+say(
+  'Routed indexable pages MISSING from sitemap.xml',
+  staticMissing,
+  'add a <url> block for each, or mark the page noindex if it is private'
+);
+say(
+  'Canonical disagrees with the page route',
+  canonicalOff,
+  'the canonical must be one of the routes in _redirects that serve this file'
+);
+warn('noindex pages listed in sitemap.xml', noindexListed, 'remove the <url> block or drop the noindex');
+
 say('Duplicate <loc> entries', [...dupes]);
 say('Invalid or future <lastmod> values', badDates, 'lastmod must be a real past date');
 
@@ -143,4 +171,5 @@ if (problems.length) {
   console.error(`\nsitemap verification FAILED: ${problems.length} problem type(s).\n`);
   process.exit(1);
 }
-console.log('✓ sitemap verification passed, blog, courses and dates all consistent.\n');
+console.log(`✓ sitemap verification passed: blog, courses, ${manifest.filter((p) => p.indexable).length} routed static pages and dates all consistent.
+`);
