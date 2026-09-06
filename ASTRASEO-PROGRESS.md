@@ -37,7 +37,7 @@ Legend: `[ ]` not started · `[~]` in progress · `[x]` done and verified · `[!
 
 ## Phase B: messaging on three pages (PREVIEW BEFORE ANY SWEEP)
 
-Owner: please open ,  and  (and any course page) locally or on a draft deploy before this goes live. Each page is its own commit (hashes below), so a single page can be reverted without touching the rest.
+Owner: please open the homepage, `/how-we-teach` and `/book-demo` (and any course page) locally or on a draft deploy before this goes live. Each page is its own commit (hashes below), so a single page can be reverted without touching the rest.
 
 - [x] B1 `cbc145f8` `/book-demo` strip: the brief's heading and body, the two age libraries, Choose a Course & Enroll, a quiet "Prefer a live demo? Choose a time below" link, and the Google sign-in / English-Hindi disclosure. Booking form untouched. PREVIEW PAGE.
 - [x] B2 `6c1f4e28` `/how-we-teach` closing: Choose My Course & Enroll first, Book a Free Live Demo second; `?course=<slug>` turns the first action into "Enroll in This Course" (verified). Also found and fixed: the page's inline markers were decorated, so the build had never refreshed its nav or footer (`9a65c24a`). PREVIEW PAGE.
@@ -51,22 +51,28 @@ Owner: please open ,  and  (and any course page) locally or on a draft deploy be
 - [x] C1 `content/recordings.json` holds the two libraries with audience, ages, subjects, access (Google sign-in), languages, update cadence, watch tip and how-to steps (owner facts of 2026-08-06, nothing added). Course pages now link the library that matches the course audience (20 kids, 101 teens-and-up; grades and classes are not read as ages), labelled "Watch a real class (ages ...)" with the sign-in disclosure under the hero links.
 - [x] C2 "At a glance" block on all 121 course pages (`scripts/lib/course-facts.js`): who it is for, prerequisites, format, language, duration, weekly commitment, class size (brand-facts), price (link to the plans, no literal), certificate, watch first, live demo optional. Course schema gains `inLanguage` and `EducationalAudience`. Same facts in every markdown twin.
 - [x] C3 "Straight answers" section on all 121 pages and twins: who, what they build, how deep, who teaches (truthful: mentors, seen in the recordings), practice/feedback/assessment, cost (plans in your currency, no literal), schedule, watch before deciding, enroll without a live demo (assisted payment abroad stated). Two new FAQs (visible + FAQPage) on every course. Verified with Playwright at 1280/390: 0 text under 12px, contrast 5.17:1, no overflow, 0 console errors.
-- [ ] C4 `content/markets.json` + verifier for currency and assisted-payment wording
+- [x] C4 `219bd231` `content/markets.json` (20 country pages: ISO, hreflang, currency, payment route, timezone, plans, languages where known) drives `apply-hreflang-cluster.js`; all 20 country pages plus the homepage (x-default) now carry the reciprocal hreflang set, checked by `verify-hreflang.js` in every build. No country page had hreflang before. Not built: a visible per-market facts strip (a 19-page sweep, held for owner preview).
 
 ## Phase D: backend
 
-- [ ] D1 Demo states: inquiry / reserved / confirmed / attended / cancelled, reported separately
-- [ ] D2 Idempotent submissions (client `submissionId`), duplicate retries return the same lead
+- [x] D1 backend `9ab4cd0`, frontend `b0f58d9a`: `demoState` (inquiry, reserved, confirmed, attended, no-show, cancelled) on contacts and callback requests, set from the admin panel (recorded in the callback activity trail); analytics summary reports the demo funnel by state and paid enrolments from verified payments only. Rows saved before the field count as inquiries.
+- [x] D2 same commits: both public endpoints accept a client `submissionId` under a sparse unique index and return the stored lead on a retry (race caught by the index); the booking form and callback modal generate one id per form fill and clear it after success. Unit-tested (`scripts/test-demo-state.js`); the database path is exercised on the next deploy.
 
 ## Phase E: performance
 
-- [ ] E1 Budget report for 8 page types against the spec's budgets
-- [ ] E2 Duplicate and dead asset references removed at the source
+- [x] E1 `scripts/perf-budget.js` + `seo/astraseo-2026-09/perf-budget.md`: every page type inside every budget (largest initial 136 KB vs 1 MB; JS 38 KB vs 150 KB; CSS 23 KB vs 80 KB).
+- [x] E2 `09f36750` legal pages no longer request a stylesheet that never existed; duplicate floats and style blocks removed (`dedd5706`); no duplicated script includes or unused preloads remain. Open: `meta-pixel.js` (dead placeholder id) is still referenced on 381 pages, owner to decide whether a pixel is coming.
 - [!] E3 Razorpay on click: needs a live test payment before shipping
 
 ## Phase F: content and distribution (owner-executed)
 
-- [ ] F1 Four-week editorial calendar with the exact pages to improve and the guide topics
+- [x] F1 `seo/astraseo-2026-09/editorial-calendar.md`: four weeks (children, teens, college, professionals), two pages to improve, one guide, one demonstration with transcript and one verified outcome per week, plus the weekly distribution routine and what to measure.
+
+## Found on the way, not yet fixed
+
+- The course template sets `html,body{overflow-x:hidden}` inline in its head; on the editorial theme `overflow-x:hidden` on the html element is the known sticky-header breaker. Not changed this week; check the course page header on a phone before touching it.
+- `meta-pixel.js` carries a placeholder pixel id and is referenced on 381 pages.
+- The footer link label "Coding by Age (8 to 17)" contradicts the 6 to 67 brand fact.
 
 ## Held for the owner
 
@@ -80,4 +86,5 @@ Owner: please open ,  and  (and any course page) locally or on a draft deploy be
 ## Log
 
 - 2026-09-06: read the spec, confirmed each repair-backlog item against the code, wrote the plan.
+- 2026-09-07 (later): Phase C4, D1, D2, E1, E2, F1 shipped. Total this run: 35 commits in the frontend, 2 in the backend. Every task in the plan is either done or explicitly held above.
 - 2026-09-07: Phase A complete (12 of 12). Phase C1 to C3 shipped (course facts, answers, recordings data). Phase B shipped on the three core pages plus the course template, with the mobile bar and three pre-existing defects fixed along the way (decorated markers on how-we-teach, inline float styles, 104 pages with stacked duplicate floats).
