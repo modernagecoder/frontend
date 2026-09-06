@@ -1139,6 +1139,10 @@ class CourseGenerator {
         html = html.replace(/{{WATCH_CLASS_LABEL}}/g, this.escapeHtml(watch.label));
         html = html.replace(/{{WATCH_CLASS_ARIA}}/g, this.escapeHtml(watch.ariaLabel));
         html = html.replace(/{{WATCH_CLASS_NOTE}}/g, this.escapeHtml(watch.note));
+        // The shared teaching-depth section links to the teaching page; from a course
+        // page it carries the course slug, so the teaching page's closing action can
+        // read "Enroll in This Course" and point back here.
+        html = html.replace(/href="\/how-we-teach#library"/g, `href="/how-we-teach?course=${encodeURIComponent(courseData.meta.slug || '')}#library"`);
 
         const meta = courseData.meta || {};
         const overview = courseData.program_overview || {};
