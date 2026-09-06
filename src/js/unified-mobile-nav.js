@@ -118,8 +118,25 @@
         mobileMenuBtn.setAttribute('aria-expanded', 'false');
         mobileMenuBtn.setAttribute('aria-controls', CONFIG.menuId);
         mobileMenuBtn.setAttribute('aria-label', 'Toggle navigation menu');
-        navMenu.setAttribute('aria-hidden', 'true');
+        syncMenuAria();
     }
+
+    // Only mark the menu hidden when it really is off-screen. The hamburger is
+    // displayed exactly when the stylesheet has moved the menu off-canvas, so
+    // its computed display is the one signal that agrees with every theme's
+    // breakpoint (CONFIG.mobileBreakpoint is a guess; the stylesheet is the
+    // truth). A desktop menu that is fully visible must never carry
+    // aria-hidden="true": screen readers and agents would skip the site's
+    // entire navigation.
+    function syncMenuAria() {
+        const offCanvas = getComputedStyle(mobileMenuBtn).display !== 'none';
+        if (offCanvas && !isMenuOpen) {
+            navMenu.setAttribute('aria-hidden', 'true');
+        } else {
+            navMenu.removeAttribute('aria-hidden');
+        }
+    }
+
     
     function setupEventListeners() {
         // Hamburger button click
@@ -176,7 +193,7 @@
         
         // Update ARIA
         mobileMenuBtn.setAttribute('aria-expanded', 'true');
-        navMenu.setAttribute('aria-hidden', 'false');
+        navMenu.removeAttribute('aria-hidden');
         
         // Lock scroll
         document.body.style.overflow = 'hidden';
@@ -196,7 +213,7 @@
         
         // Update ARIA
         mobileMenuBtn.setAttribute('aria-expanded', 'false');
-        navMenu.setAttribute('aria-hidden', 'true');
+        syncMenuAria();
         
         // Unlock scroll
         document.body.style.overflow = '';
@@ -229,6 +246,7 @@
             log('Resized to desktop, closing menu');
             closeMenu();
         }
+        syncMenuAria();
     }
     
     function handleNavLinkClick(e) {

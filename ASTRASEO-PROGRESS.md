@@ -26,7 +26,7 @@ Legend: `[ ]` not started · `[~]` in progress · `[x]` done and verified · `[!
 - [x] A2 robots.txt generated from `scripts/robots-policy.json` by `generate-robots.js`; `verify-robots.js` runs in `generate:derived` and fails the build if any of the 22 groups drifts. Before: 21 named groups had zero disallow rules. Same agents, same paths, nothing lost.
 - [x] A3 Course and blog hero images load eagerly with `fetchpriority="high"` and 800x450 dimensions (were `loading="lazy"`). Verified on all 121 generated course pages.
 - [x] A4 Course duration panel reads the course's own `meta.duration` and `meta.commitment` (was a fixed "6 to 9 months" on every page). Verified 121/121: visible panel, hero badge and schema `timeRequired` agree; 0 pages still say 6 to 9 months.
-- [ ] A5 Desktop navigation no longer carries `aria-hidden="true"` while visible
+- [x] A5 Desktop navigation no longer carries `aria-hidden="true"` while visible. `syncMenuAria()` in unified-mobile-nav.js, mobile-navigation.js and the mainbundle.js copy decides from the rendered hamburger (stylesheet truth), re-syncs on resize. `scripts/test-nav-aria.js` (Playwright, 4 pages x 2 widths) went from 3 failures to pass.
 - [ ] A6 Minifier covers every CSS/JS file the pages actually load (was 7 CSS + 3 JS by hand)
 - [ ] A7 Build fails if a routed, indexable page is missing from the sitemap
 - [ ] A8 Lead event fires once per server lead id, not per thank-you load

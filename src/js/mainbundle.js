@@ -1009,12 +1009,12 @@
         preventBodyScroll();
         // Add ARIA attributes
         mobileMenuBtn.setAttribute('aria-expanded', 'true');
-        navMenu.setAttribute('aria-hidden', 'false');
+        navMenu.removeAttribute('aria-hidden');
       } else {
         allowBodyScroll();
         // Update ARIA attributes
         mobileMenuBtn.setAttribute('aria-expanded', 'false');
-        navMenu.setAttribute('aria-hidden', 'true');
+        syncMenuAria();
 
         // Close all dropdowns when closing menu
         dropdowns.forEach(dropdown => {
@@ -1030,7 +1030,7 @@
 
       // Update ARIA attributes
       mobileMenuBtn.setAttribute('aria-expanded', 'false');
-      navMenu.setAttribute('aria-hidden', 'true');
+      syncMenuAria();
 
       // Close all dropdowns
       dropdowns.forEach(dropdown => {
@@ -1062,7 +1062,23 @@
     mobileMenuBtn.setAttribute('aria-expanded', 'false');
     mobileMenuBtn.setAttribute('aria-label', 'Toggle navigation menu');
     mobileMenuBtn.setAttribute('aria-controls', 'navMenu');
-    navMenu.setAttribute('aria-hidden', 'true');
+
+    // Only mark the menu hidden when it really is off-screen. The hamburger is
+    // displayed exactly when the stylesheet has moved the menu off-canvas, so
+    // its computed display is the one signal that agrees with every theme's
+    // breakpoint. A desktop menu that is fully visible must never carry
+    // aria-hidden="true": screen readers and agents would skip the site's
+    // entire navigation.
+    function syncMenuAria() {
+      const offCanvas = getComputedStyle(mobileMenuBtn).display !== 'none';
+      if (offCanvas && !navMenu.classList.contains('active')) {
+        navMenu.setAttribute('aria-hidden', 'true');
+      } else {
+        navMenu.removeAttribute('aria-hidden');
+      }
+    }
+    syncMenuAria();
+    window.addEventListener('resize', syncMenuAria);
 
     // Add ARIA to dropdowns
     dropdowns.forEach(dropdown => {
