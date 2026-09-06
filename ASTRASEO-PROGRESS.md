@@ -86,5 +86,5 @@ Owner: please open the homepage, `/how-we-teach` and `/book-demo` (and any cours
 ## Log
 
 - 2026-09-06: read the spec, confirmed each repair-backlog item against the code, wrote the plan.
-- 2026-09-07 (later): Phase C4, D1, D2, E1, E2, F1 shipped. Total this run: 35 commits in the frontend, 2 in the backend. Every task in the plan is either done or explicitly held above.
+- 2026-09-07 (later): Phase C4, D1, D2, E1, E2, F1 shipped. Total this run: 33 commits in the frontend, 2 in the backend. Every task in the plan is either done or explicitly held above.
 - 2026-09-07: Phase A complete (12 of 12). Phase C1 to C3 shipped (course facts, answers, recordings data). Phase B shipped on the three core pages plus the course template, with the mobile bar and three pre-existing defects fixed along the way (decorated markers on how-we-teach, inline float styles, 104 pages with stacked duplicate floats).
