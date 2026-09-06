@@ -51,7 +51,7 @@ body.editorial .download-curriculum-btn:hover,body.editorial .hero-proof-btn:hov
 .hero-proof-btn .hp-arrow{display:none}
 
 .course-hero-image{min-width:0}
-.course-hero-image img{width:100%;border-radius:18px;border:1px solid var(--line);display:block;box-shadow:var(--shadow-md)}
+.course-hero-image img{width:100%;height:auto;aspect-ratio:16/9;object-fit:cover;border-radius:18px;border:1px solid var(--line);display:block;box-shadow:var(--shadow-md)}
 .course-hero-image svg{width:100%;height:auto}
 
 /* =====================  DURATION NOTE (rewritten clean)  ===================== */

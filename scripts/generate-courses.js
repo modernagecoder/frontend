@@ -1241,7 +1241,7 @@ class CourseGenerator {
         // Hero image or SVG
         if (meta.image_path) {
             const imageName = path.basename(meta.image_path);
-            html = html.replace(/{{HERO_IMAGE}}/g, `<img src="/content/courses/generated/${meta.slug}/images/${imageName}" alt="${this.escapeHtml(meta.title)}" loading="lazy" class="hero-course-image">`);
+            html = html.replace(/{{HERO_IMAGE}}/g, `<img src="/content/courses/generated/${meta.slug}/images/${imageName}" alt="${this.escapeHtml(meta.title)}" width="800" height="450" fetchpriority="high" decoding="async" class="hero-course-image">`);
         } else {
             html = html.replace(/{{HERO_IMAGE}}/g, `
                 <svg viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg" class="hero-course-svg">
