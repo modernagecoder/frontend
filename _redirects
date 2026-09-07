@@ -2150,4 +2150,8 @@
 # International growth cluster (coding-global.css). Must precede the /* catch-all.
 /coding-classes-in-zoetermeer /src/pages/coding-classes-in-zoetermeer.html 200
 /coding-classes-in-zoetermeer.md /src/pages/coding-classes-in-zoetermeer.md 200
+
+# International growth cluster (coding-global.css). Must precede the /* catch-all.
+/coding-classes-in-leiden /src/pages/coding-classes-in-leiden.html 200
+/coding-classes-in-leiden.md /src/pages/coding-classes-in-leiden.md 200
 /* /src/pages/404.html 404

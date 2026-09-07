@@ -60,7 +60,7 @@ Six regions, each with its municipalities and their 1 January 2026 population, s
 
 ### Leiden and the Duin- en Bollenstreek
 
-Leiden 130,328, the university city; Katwijk 67,149; Noordwijk 46,453; Teylingen 38,739; Kaag en Braassem 29,467; Leiderdorp 27,973; Oegstgeest 26,095; Voorschoten 25,975; Lisse 23,842; Hillegom 23,078; Zoeterwoude 10,355. The flower fields are between the towns, and the international school families of the Leiden ring are among the most concentrated in the country.
+[Leiden](/coding-classes-in-leiden) 130,328, the university city, with its own page; Katwijk 67,149; Noordwijk 46,453; Teylingen 38,739; Kaag en Braassem 29,467; Leiderdorp 27,973; Oegstgeest 26,095; Voorschoten 25,975; Lisse 23,842; Hillegom 23,078; Zoeterwoude 10,355. The flower fields are between the towns, and the international school families of the Leiden ring are among the most concentrated in the country.
 
 ### Haaglanden: the ring around the capital
 

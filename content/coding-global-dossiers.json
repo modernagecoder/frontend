@@ -5861,5 +5861,57 @@
       "A verdict on whether the growth began in 1962 or 1966. Both framings are quoted.",
       "Anything the Zuid-Holland page owns: the Randstad boundary question and the provincial totals. Anything The Hague page owns."
     ]
+  },
+  "coding-classes-in-leiden": {
+    "market": "Leiden",
+    "bodyClass": "cg-lde",
+    "pageType": "city",
+    "curriculumAuthority": "City and municipality of Leiden, Zuid-Holland: 130,328 residents (CBS 2026) on 21.85 km2 of land, the densest in this series at a published 5,979 against a national average of 536; 25 primary establishments (8,070 pupils) and 16 secondary (5,510), both 2025; 40,949 students at institutions here. Leiden University founded 1575. A single woonplaats with 10 wijken and 54 buurten; city rights 1266; more than 1,250 national monuments. Regio Midden holidays with the rest of Zuid-Holland. The city page argues from historical units; the province page owns the Randstad boundary question and The Hague and Zoetermeer own their own.",
+    "localProject": "A unit can keep its name and change its size. The Leiden gunpowder disaster of 12 January 1807 is recorded as a load of 37,000 Hollandse ponden, given in the same source as 17,760 kilograms, which implies 0.48 kg to the pond. Converting with the modern avoirdupois pound of 0.45359237 gives 16,783 kg, understating by 977; assuming the post-metrication Dutch pond of 0.5 kg gives 18,500 kg, overstating by 740; the spread across three defensible factors is 1,717 kg on a load nobody disputes. The learner builds a quantity type carrying unit and date, recovers the source factor by division, and prefers the original unit where the factor is uncertain. Distinct from the two-units trap (Rotterdam: TEU against tonnes, two different quantities measured at once) and from the datum and origin traps: here one quantity has one unit whose definition moved while its name did not. All three results are arithmetic on published figures, and no factor for the Hollandse pond is used other than the one the source implies.",
+    "requiredMentions": [
+      "130,328",
+      "74,251",
+      "42,159",
+      "115,442",
+      "8,070",
+      "5,510",
+      "40,949",
+      "37,000",
+      "17,760",
+      "12 January 1807",
+      "Hollandse",
+      "Burcht",
+      "Heijkoop",
+      "1575"
+    ],
+    "sources": [
+      {
+        "claim": "Leiden 130,328 residents in 2026 (CBS); 74,251 households (2025) averaging 1.74, 42,159 single-person (57 percent); 14,836 aged 0 to 15; 23,428 aged 15 to 25; 40,965 aged 25 to 45; 29,253 aged 45 to 65; 21,846 aged 65 and over; total area 2,327 ha, land 2,185 ha; density 5,979 per km2 against a national average of 536; 25 primary establishments (8,070 pupils) and 16 secondary (5,510), both 2025; 40,949 students at institutions in the municipality (2025); HBO 3,730 and WO 13,240 (2025); one woonplaats, 10 wijken and 54 buurten; 115,442 in 1995, a rise of 14,886 (13 percent).",
+        "url": "https://allecijfers.nl/gemeente/leiden/"
+      },
+      {
+        "claim": "Leiden 130,302 residents on 1 January 2026; 23.27 km2 (21.91 land, 1.36 water); density 5,947 per km2; mayor Peter Heijkoop (CDA) since 19 September 2024; city rights 1266; more than 1,250 rijksmonumenten; of all cities above 100,000 inhabitants Leiden has by far the smallest area; the Burcht is a motte castle at the confluence of two arms of the Rhine.",
+        "url": "https://nl.wikipedia.org/wiki/Leiden"
+      },
+      {
+        "claim": "Leiden University founded 1575, exact date 8 February 1575 on the Julian calendar, by Willem van Oranje; described as the oldest university in the Netherlands; more than 34,000 students enrolled as of 2021; 5,848 staff; seven faculties.",
+        "url": "https://nl.wikipedia.org/wiki/Universiteit_Leiden"
+      },
+      {
+        "claim": "The Leidse buskruitramp occurred on 12 January 1807 at a quarter past four in the afternoon; the vessel carried 37,000 Hollandse ponden of gunpowder, given as 17,760 kg, travelling from Haarlem to Delft; 151 people died, more than 2,000 were injured, and about 220 dwellings were destroyed or condemned.",
+        "url": "https://nl.wikipedia.org/wiki/Leidse_buskruitramp"
+      },
+      {
+        "claim": "School holiday regions: regio Midden = Utrecht, Zuid-Holland and the northern part of Gelderland; regio Zuid = Zeeland, Noord-Brabant, Limburg and the southern part of Gelderland; regio Noord = Groningen, Friesland, Drenthe, Overijssel, Flevoland, Noord-Holland.",
+        "url": "https://www.rijksoverheid.nl/themas/onderwijs/schoolvakanties/regios-schoolvakantie"
+      }
+    ],
+    "rejectedClaims": [
+      "Any independent value for the Hollandse pond. The page uses only the 0.48 kg implied by dividing the source's own two figures, and says so.",
+      "A construction date for the Burcht. Not read at source.",
+      "Any sum or difference of the 40,949 students at institutions and the 16,970 residents enrolled. They count different things and are never combined.",
+      "A claim that Leiden is the densest municipality in the Netherlands. The page says only that it is the densest in this series, and quotes the entry's own smallest-area claim as the entry states it.",
+      "Anything the Zuid-Holland page owns: the Randstad boundary question and the provincial totals. Anything The Hague or Zoetermeer pages own."
+    ]
   }
 }
