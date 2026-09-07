@@ -30,7 +30,9 @@ Phase 6 (ag- doors): academy spokes x6 (amsterdam, eindhoven, the-hague, utrecht
 | 9 | coding-classes-in-noord-holland (nhl, #8E3A23) | province | 4,354 | 4.2% vs utrecht | A child in Hoorn or Den Helder can ask an AI to rank the province in a second. So why learn to sort it by hand? | A rank is an order, not a distance (places 2 to 4 are 1,920 and 1,777 apart; place 1 is 773,029 ahead) | a0b9ba6e |
 | 10 | coding-classes-in-zuid-holland (zhl, #6F5D00) | province | 4,451 | 2.5% vs noord-holland (was 8.3% before 20 recurring sentences were rewritten) | The AI knows the Randstad has eight million people. Why should a child in Gouda learn to count them? | A place with no boundary has no population, only candidates (Randstad 2.56m to 8.59m by definition) | da1baefa |
 | 11 | coding-classes-in-utrecht-province (utp, #75446E) | province | 4,394 | 4.4% vs zuid-holland | An AI will tell a child in Amersfoort that Utrecht is the smallest province. Why teach the child to check? | A superlative without its measure is not a fact (12th by total area, 11th by land, 5th by people, 3rd by density) | c8bc668f |
-| 12 | coding-classes-in-gelderland (gld, #04510E) | province | 4,460 | 3.5% vs utrecht-province | Ask an AI when Gelderland breaks up for summer and it will give a date. Why should a child in Ede learn to check it? | The ecological trap: a group value no member has (two holiday regions, two split municipalities) | (this commit) |
+| 12 | coding-classes-in-gelderland (gld, #04510E) | province | 4,460 | 3.5% vs utrecht-province | Ask an AI when Gelderland breaks up for summer and it will give a date. Why should a child in Ede learn to check it? | The ecological trap: a group value no member has (two holiday regions, two split municipalities) | 08129b56 |
+| 13 | coding-classes-in-overijssel (ovr, #0D4768) | province | 4,470 | 3.9% vs gelderland | An AI can say in a second how safe the IJssel dikes are. Why should a child in Zwolle learn to compute it? | A return period is a rate, not a countdown (1 in 1,250 per year compounds to 6.20% over 80 years; coast 0.80%) | d1d34e85 |
+| 14 | coding-classes-in-limburg (lim, #681944) | province | 4,420 | 4.9% vs gelderland | An AI will say the highest point in the Netherlands is the Vaalserberg. Why should a child in Heerlen learn enough to argue? | A fact about a set depends on the set (Vaalserberg 322.4 m for the European Netherlands; Mount Scenery 870 m for the country since 10 October 2010) | (this commit) |
 
 ## Skipped (kill criterion)
 
@@ -40,7 +42,7 @@ Phase 6 (ag- doors): academy spokes x6 (amsterdam, eindhoven, the-hague, utrecht
 ## Codes in use (letters only; check `coding-global.css` before assigning)
 
 Reserved by older clusters and NOT available: hmr (Al Hamra), lei (Leicester), mst? free, amr (Al Amarat), adm (Adam), ede? free.
-Assigned so far: cg: amv (Amstelveen), ams (Amsterdam), ehv (Eindhoven), dhg (The Hague), alm (Almere), utr (Utrecht), rtm (Rotterdam) · ag: nla (academy hub) · provinces: nhl (Noord-Holland), zhl (Zuid-Holland), utp (Utrecht), gld (Gelderland)
+Assigned so far: cg: amv (Amstelveen), ams (Amsterdam), ehv (Eindhoven), dhg (The Hague), alm (Almere), utr (Utrecht), rtm (Rotterdam) · ag: nla (academy hub) · provinces: nhl (Noord-Holland), zhl (Zuid-Holland), utp (Utrecht), gld (Gelderland), ovr (Overijssel), lim (Limburg)
 
 ## Open issues
 
