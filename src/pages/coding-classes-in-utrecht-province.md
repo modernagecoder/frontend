@@ -64,7 +64,7 @@ Utrecht 378,121, with a page of its own; Zeist 66,648; De Bilt 43,687; Bunnik 16
 
 ### Eemland: Amersfoort and the north-east
 
-Amersfoort 163,764, the second city and a page to come; Soest 47,853; Leusden 32,287; Baarn 25,435; Bunschoten 22,905; Woudenberg 15,099; Eemnes 10,065. The Eem river, the Grebbelinie and the only part of the province that looks toward Amsterdam rather than Utrecht.
+[Amersfoort](/coding-classes-in-amersfoort) 163,764, the second city, with its own page; Soest 47,853; Leusden 32,287; Baarn 25,435; Bunschoten 22,905; Woudenberg 15,099; Eemnes 10,065. The Eem river, the Grebbelinie and the only part of the province that looks toward Amsterdam rather than Utrecht.
 
 ### The Heuvelrug and the Gelderse Vallei
 

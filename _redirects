@@ -2130,4 +2130,8 @@
 # International growth cluster (coding-global.css). Must precede the /* catch-all.
 /coding-classes-in-zaanstad /src/pages/coding-classes-in-zaanstad.html 200
 /coding-classes-in-zaanstad.md /src/pages/coding-classes-in-zaanstad.md 200
+
+# International growth cluster (coding-global.css). Must precede the /* catch-all.
+/coding-classes-in-amersfoort /src/pages/coding-classes-in-amersfoort.html 200
+/coding-classes-in-amersfoort.md /src/pages/coding-classes-in-amersfoort.md 200
 /* /src/pages/404.html 404

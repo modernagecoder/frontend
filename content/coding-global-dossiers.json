@@ -5587,5 +5587,50 @@
       "Any reconciliation of the eight 2023 town figures with the 2026 municipal total. The dates differ and the page says so.",
       "Anything the Noord-Holland page owns: the provincial totals and the rank-versus-distance project. Anything the Haarlem or Haarlemmermeer pages own."
     ]
+  },
+  "coding-classes-in-amersfoort": {
+    "market": "Amersfoort",
+    "bodyClass": "cg-amf",
+    "pageType": "city",
+    "curriculumAuthority": "City and municipality of Amersfoort, province of Utrecht: 163,764 residents (CBS 1 January 2026), the second city of the province and the sixteenth municipality of the country; 47 primary establishments (14,380 pupils) and 25 secondary (9,900), both 2025; 4,040 residents in applied higher education and 1,860 at university level. City rights 12 June 1259; villages Hoogland and Hooglanderveen; 33 wijken and 145 buurten, the finest division in this series; the fastest growth in this series at 46 percent since 1995. Regio Midden holidays. The city page argues from the national grid origin; the province page owns the superlative-without-a-measure project and Utrecht city owns its own.",
+    "localProject": "Coordinates are relative to a choice; differences are not. The Onze-Lieve-Vrouwetoren in Amersfoort is the central point of the Rijksdriehoeksmeting coordinate system. It was the origin, so its coordinates were 0 and 0; around 1970 the origin was moved outside the Netherlands for practical reasons and the tower now has exactly x = 155,000 m and y = 463,000 m without having moved. A change of origin adds a constant to every coordinate, so distances, bearings and areas are unchanged while absolute positions all shift. Mixing one point in the old numbering with one in the new returns about 489 kilometres for two points 762 metres apart, silently. Distinct from the datum trap (Almere: a vertical reference that stays fixed while the sea rises beneath a claim) because nothing here moved or drifted: a constant was added by decree, and the invariant is the difference. Computed before writing from the two published positions of the tower; the neighbouring point is a worked example, not a real address.",
+    "requiredMentions": [
+      "163,764",
+      "73,602",
+      "27,982",
+      "112,389",
+      "14,380",
+      "9,900",
+      "155,000",
+      "463,000",
+      "Onze-Lieve-Vrouwetoren",
+      "Koppelpoort",
+      "Hoogland",
+      "Hooglanderveen",
+      "Lucas Bolsius",
+      "Rijksdriehoeksmeting"
+    ],
+    "sources": [
+      {
+        "claim": "Amersfoort 163,764 residents on 1 January 2026 (CBS provisional); 73,602 households averaging 2.18, 27,982 single-person (38 percent); 26,970 aged 0 to 15; 19,421 aged 15 to 25; 45,323 aged 25 to 45; 28,061 aged 65 and over; total area 6,386 ha, land 6,249 ha; density 2,613; 47 primary establishments (14,380 pupils) and 25 secondary (9,900), both 2025; HBO 4,040 and WO 1,860 (2025); 33 wijken and 145 buurten; 112,389 in 1995, a rise of 51,375 (46 percent).",
+        "url": "https://allecijfers.nl/gemeente/amersfoort/"
+      },
+      {
+        "claim": "Amersfoort 163,766 residents on 1 January 2026; 63.86 km2 (62.62 land, 1.24 water); mayor Lucas Bolsius (CDA); the second city of the province of Utrecht and the sixteenth municipality of the Netherlands; city rights 12 June 1259; villages Hoogland and Hooglanderveen; the Koppelpoort is a combined land and water gate among gates built between 1380 and 1451; the Onze-Lieve-Vrouwetoren, called Lange Jan, is 98 metres and the third-highest church tower in the Netherlands; it is the central point of the coordinate system of the Rijksdriehoeksmeting and was its origin until around 1970, when the origin was moved for practical reasons to a point outside the Netherlands so that the tower now has exactly the coordinates x = 155,000 m and y = 463,000 m.",
+        "url": "https://nl.wikipedia.org/wiki/Amersfoort"
+      },
+      {
+        "claim": "School holiday regions: regio Midden = Utrecht, Zuid-Holland and the northern part of Gelderland; regio Zuid = Zeeland, Noord-Brabant, Limburg and the southern part of Gelderland; regio Noord = Groningen, Friesland, Drenthe, Overijssel, Flevoland, Noord-Holland.",
+        "url": "https://www.rijksoverheid.nl/themas/onderwijs/schoolvakanties/regios-schoolvakantie"
+      }
+    ],
+    "rejectedClaims": [
+      "Any reason for the specific values 155,000 and 463,000 beyond the one the source gives, which is that the origin was placed outside the country for practical reasons. Explanations involving the ordering of the two axes are commonly repeated and are not stated here.",
+      "The exact year of the origin shift. The source says around 1970 and the page keeps the hedge.",
+      "A real address for the illustrative neighbouring point. It is a worked example at 700 metres west and 300 metres south of the tower.",
+      "The architect or a single construction year for the Koppelpoort. Not found at source.",
+      "That Amersfoort is the fastest-growing municipality in the Netherlands. The page says only that it is the fastest-growing city in this series.",
+      "Anything the province of Utrecht page owns: the four-measure superlative project. Anything the Utrecht city or Apeldoorn pages own."
+    ]
   }
 }
