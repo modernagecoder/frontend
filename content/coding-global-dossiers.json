@@ -6282,5 +6282,62 @@
       "The population of Koedijk inside Alkmaar. The entry lists the place as partly in the municipality and this page repeats that qualification rather than resolving it.",
       "Anything the Noord-Holland page owns: the provincial totals and the rank-versus-distance project. Anything the Zaanstad page owns: the 1974 merger and the seven predecessor councils."
     ]
+  },
+  "coding-classes-in-delft": {
+    "market": "Delft",
+    "bodyClass": "cg-dlf",
+    "pageType": "city",
+    "curriculumAuthority": "City and municipality of Delft, Zuid-Holland: 110,089 residents (CBS 2026) on 22.66 km2, the second densest in this series at a published 4,862, with 59 percent single-person households, the highest here; 30 primary establishments (7,388 pupils) and 14 secondary (8,233), so secondary outnumbers primary; 29,856 students at institutions here. City rights 15 April 1246. A single woonplaats with 13 wijken and 91 buurten. Regio Midden holidays with the rest of Zuid-Holland. The city page argues from membership uncertainty; the province page owns the Randstad boundary question and Leiden owns the historical unit.",
+    "localProject": "Ask whether the doubt is in the measurement or in the definition of the set. Between 34 and 37 paintings are attributed to Vermeer, and the range is not a counting error: the criterion is agreed and two or three specific canvases are disputed, so no better inventory closes it. The range propagates, giving 1.55 to 1.68 paintings a year across the roughly twenty-two years between his entry to the guild of Saint Luke in December 1653 and his burial on 15 December 1675. The learner models membership as a status field, returns a low and a high, names the disputed items and lets derived figures inherit the range. Distinct from the bound-versus-value trap (Hong Kong) and from ranking under measurement noise (Breda): here the quantity is fixed and knowable in principle, and the irreducible uncertainty is about which items belong to the set rather than about how well anything was measured. The range is quoted from the source and never narrowed.",
+    "requiredMentions": [
+      "110,089",
+      "63,476",
+      "37,324",
+      "92,457",
+      "7,388",
+      "8,233",
+      "29,856",
+      "Vermeer",
+      "Oude Kerk",
+      "Pechtold",
+      "15 April 1246",
+      "Porceleyne Fles",
+      "27,080",
+      "Sint-Lucasgilde"
+    ],
+    "sources": [
+      {
+        "claim": "Delft 110,089 residents in 2026 (CBS); 63,476 households (2025) averaging 1.72, 37,324 single-person (59 percent); 13,158 aged 0 to 15; 22,428 aged 15 to 25; 33,594 aged 25 to 45; 22,376 aged 45 to 65; 18,533 aged 65 and over; total area 2,406 ha, land 2,266 ha; density 4,862; 30 primary establishments (7,388 pupils) and 14 secondary (8,233); 29,856 students at institutions in the municipality (2025); HBO 2,710 and WO 14,710; one woonplaats, 13 wijken and 91 buurten; 92,457 in 1995, a rise of 17,632 (19 percent).",
+        "url": "https://allecijfers.nl/gemeente/delft/"
+      },
+      {
+        "claim": "Delft 110,044 residents on 1 January 2026; 24.06 km2 (22.65 land, 1.41 water); density 4,858; mayor Alexander Pechtold (D66); city rights 15 April 1246 from Willem II; of the Delftware factories only ten remained by 1794 and De Porceleyne Fles is still operating. The entry gives no national ranking for population density.",
+        "url": "https://nl.wikipedia.org/wiki/Delft"
+      },
+      {
+        "claim": "TU Delft: the Koninklijke Akademie was founded on 8 January 1842; the Polytechnische School on 20 June 1864; the Technische Hoogeschool by a law of 22 May 1905; renamed Technische Universiteit Delft on 1 September 1986; more than 27,000 students in 2021 with an infobox figure of 27,080; more than 3,800 fte academic staff in 2021, of whom more than 1,600 doctoral candidates.",
+        "url": "https://nl.wikipedia.org/wiki/Technische_Universiteit_Delft"
+      },
+      {
+        "claim": "Johannes Vermeer was baptised in Delft on 31 October 1632 and buried on 15 December 1675; he joined the Sint-Lucasgilde in December 1653; between 34 and 37 paintings are attributed to him; the View of Delft, The Little Street and Girl with a Pearl Earring are dated to the middle 1660s.",
+        "url": "https://nl.wikipedia.org/wiki/Johannes_Vermeer"
+      },
+      {
+        "claim": "The tower of the Oude Kerk in Delft is 75 metres high and stands 1.96 metres out of true; the church dates from 1246 and the tower was built between 1325 and 1350.",
+        "url": "https://nl.wikipedia.org/wiki/Oude_Kerk_(Delft)"
+      },
+      {
+        "claim": "School holiday regions: regio Midden = Utrecht, Zuid-Holland and the northern part of Gelderland; regio Zuid = Zeeland, Noord-Brabant, Limburg and the southern part of Gelderland; regio Noord = Groningen, Friesland, Drenthe, Overijssel, Flevoland, Noord-Holland.",
+        "url": "https://www.rijksoverheid.nl/themas/onderwijs/schoolvakanties/regios-schoolvakantie"
+      }
+    ],
+    "rejectedClaims": [
+      "A single number of paintings by Vermeer. The published range of 34 to 37 is quoted and never narrowed.",
+      "A national density ranking for Delft. The municipal entry gives none; a fifth place appears only in an aggregator blog, which the page records as found and rejected.",
+      "A single founding year for the university. Four dates are published for four different institutions or statuses and all four are quoted.",
+      "Any sum of the 29,856 students at institutions and the 17,420 residents enrolled. They count different things.",
+      "The lean of the Oude Kerk tower expressed in degrees. The source gives metres and the page does not convert, because a lean in degrees belongs to another page in this series.",
+      "Anything the Zuid-Holland page owns: the Randstad boundary question and the provincial totals. Anything The Hague, Rotterdam or Leiden pages own."
+    ]
   }
 }
