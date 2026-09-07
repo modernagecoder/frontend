@@ -4148,5 +4148,84 @@
       "Any claim that informatica is offered at a named Eindhoven school. Not verified; the page advises asking.",
       "Anything the Netherlands hub owns: the nine SLO core objectives, the March 2024 finalisation as a spine, the groep 8 streaming advice as an argument, the CET/CEST offset paragraph."
     ]
+  },
+  "coding-classes-in-the-hague": {
+    "market": "The Hague",
+    "bodyClass": "cg-dhg",
+    "pageType": "city",
+    "curriculumAuthority": "The Hague, Zuid-Holland: five school systems inside one municipality. Dutch (138 primary, 58 secondary establishments per CBS; city listing 59 secondary schools, 25,675 Hague pupils 2025-26: Segbroek College 1,385, Johan de Witt 990, Gymnasium Haganum 708, Christelijk Gymnasium Sorghvliet 721), English (British School in the Netherlands: Vlaskamp 19; Vrouw Avenweg 640 and 422; IGCSE, A level), IB (International School of The Hague, Wijndaelerweg 11, 1,174 pupils), European Baccalaureate (European School The Hague, founded August 2012, Rijnlands Lyceum foundation, EB from 2019, priority for Europol/Eurojust/EPO/ESA families), French (Lycee Francais Vincent van Gogh, Scheveningseweg 237) and German (Van Bleiswijkstraat 125). Transition via BOVO Haaglanden (99.2 percent placed in top three, 13 May 2026). Regio Midden holidays. The hub owns the national digital-literacy curriculum; this page owns The Hague's systems and the origin table.",
+    "localProject": "A category with a horizon: the community outlives its own definition. CBS counts Surinamese origin for two generations (born in Suriname, or born in NL with a parent born there); the third generation is Dutch origin. Choenni (22 Oct 2023): 163,413 Hindustani nationally by that rule, 45 percent of 363,142 Surinamese-origin residents on 1 Jan 2023, about 185,000 with a third generation of about 22,500 added; The Hague has 44,769 Surinamese-origin residents (2025) and no Hindustani count exists. The learner models four generations (illustrative 100, 160, 256, 410): community 926, counted 260, 28 percent visible, and the counted line falls away from the community line from the third generation. Distinct from construct validity (Washington: the instrument measures something else), from the reclassification break (Mahdah: the label stayed and the boundary moved) and from the stock/flow model (Amstelveen): the flaw here is a definition that stops following the thing it names. Computed before writing; generation sizes labelled illustrative.",
+    "requiredMentions": [
+      "Wijndaelerweg 11",
+      "Vlaskamp 19",
+      "Vrouw Avenweg",
+      "Laakkwartier en Spoorwijk",
+      "44,769",
+      "Schildersbuurt",
+      "99.2 percent",
+      "163,413",
+      "25 November 1975",
+      "Segbroek College",
+      "Gymnasium Haganum",
+      "Sorghvliet",
+      "Rijnlands Lyceum"
+    ],
+    "sources": [
+      {
+        "claim": "Den Haag 569,468 residents on 1 January 2026 (CBS provisional); 285,140 households; 86,156 under 15; 74,245 aged 15 to 25; 138 primary schools (46,396 pupils); 58 secondary (30,043); 45 wijken, 115 buurten; origin 2025: Netherlands 39%, Europe 18%, outside Europe 43%; Suriname 44,769, Turkey 42,148, Morocco 32,680; Dutch-origin share 63% in 1995.",
+        "url": "https://allecijfers.nl/gemeente/den-haag/"
+      },
+      {
+        "claim": "Forty-four wijken on 1 January 2026 from Laakkwartier en Spoorwijk 44,684, Schildersbuurt 30,102, Bouwlust 29,012, Ypenburg 26,358, Wateringse Veld 24,628 down to Oostduinen 0; sum 569,460.",
+        "url": "https://allecijfers.nl/ranglijst/grootste-en-kleinste-wijken-in-inwoners-in-de-gemeente-den-haag/"
+      },
+      {
+        "claim": "Stadsdeel populations 2022: Escamp 128,967; Centrum 106,261; Segbroek 62,507; Scheveningen 59,992; Loosduinen 51,395; Haagse Hout 48,606; Leidschenveen-Ypenburg 48,273; Laak 47,305. Laak contains Laakkwartier en Spoorwijk and Binckhorst; Leidschenveen-Ypenburg contains Leidschenveen, Ypenburg, Forepark, Hoornwijk; Escamp contains Bouwlust, Morgenstond, Moerwijk, Leyenburg, Rustenburg en Oostbroek, Wateringse Veld, Zuiderpark.",
+        "url": "https://nl.wikipedia.org/wiki/Den_Haag"
+      },
+      {
+        "claim": "Secondary schools in Den Haag: 59 schools; 25,675 Hague-resident pupils 2025-26; Segbroek College (Klaverstraat) 1,385 mavo/havo/vwo; International School of The Hague 1,174; Johan de Witt (Zusterstraat) 990; Christelijk Gymnasium Sorghvliet 721 vwo; Gymnasium Haganum 708 vwo; Maris College; praktijkonderwijs at De Poort, Hofstede College, Esloo College.",
+        "url": "https://allecijfers.nl/middelbare-scholen-overzicht/den-haag/"
+      },
+      {
+        "claim": "International School of The Hague visiting address Wijndaelerweg 11, 2554 BZ Den Haag, primary and secondary on one site.",
+        "url": "https://www.ishthehague.nl/about/contact-us"
+      },
+      {
+        "claim": "British School in the Netherlands campuses: Junior School Vlaskamp, Vlaskamp 19, 2592 AA; Junior School Leidschenveen, Vrouw Avenweg 640, 2493 WZ; Senior School Leidschenveen, Vrouw Avenweg 422, 2493 WX; Senior School Voorschoten.",
+        "url": "https://www.britishschool.nl/our-school/four-campuses/our-campuses"
+      },
+      {
+        "claim": "European School The Hague: founded August 2012; accredited European School managed by the Rijnlands Lyceum foundation; European Baccalaureate accreditation June 2018, first exams 2019; 1,325 pupils in 2018-19; language sections Dutch, English, French, German, Spanish (primary); priority for children of Europol, Eurojust, European Patent Office and European Space Agency staff.",
+        "url": "https://en.wikipedia.org/wiki/European_School_The_Hague"
+      },
+      {
+        "claim": "Lycee Francais Vincent van Gogh, Scheveningseweg 237, 2584 AA; German International School of The Hague, Van Bleiswijkstraat 125, 2582 LB; American School of The Hague in Wassenaar.",
+        "url": "https://www.iamexpat.nl/education/primary-secondary-education/international-schools-netherlands/the-hague"
+      },
+      {
+        "claim": "BOVO Haaglanden: 99.2% of pupils placed within the top three of their school list (announced 13 May 2026); digital application is the standard route; a minimum number of schools on the preference list applies.",
+        "url": "https://www.bovohaaglanden.nl/"
+      },
+      {
+        "claim": "Choenni, 22 October 2023: 163,413 Hindostanen by the CBS two-generation definition on 1 January 2023, 45% of 363,142 Surinamese-origin residents; about 185,000 including an estimated third generation of about 22,500 (45% of about 50,000 third-generation Surinamese); CBS counts only first and second generation.",
+        "url": "https://www.hindorama.com/de-hindostaanse-gemeenschap-in-nederland-anno-2023-een-beschouwing-dr-chan-choenni/"
+      },
+      {
+        "claim": "About 50,000 Hindoestanen in Den Haag and surroundings (estimate), concentrated in the Schilderswijk and Transvaal; Suriname independent 25 November 1975 with migration just before and after; CBS records country of origin, not ethnicity or religion.",
+        "url": "https://nl.wikipedia.org/wiki/Hindoestanen"
+      },
+      {
+        "claim": "About 26% of jobs in The Hague are with the national government or international institutions; roughly 200 international governmental organisations.",
+        "url": "https://en.wikipedia.org/wiki/The_Hague"
+      }
+    ],
+    "rejectedClaims": [
+      "The addresses of the two European School The Hague sites. The Wikipedia summary put the primary at Oostduinlaan 50 and the secondary at the former Aloysius College, which is the same address; the school's contact page could not be fetched. No ESH address is stated.",
+      "The first-choice placement share in BOVO Haaglanden 2026 and the number of pupils. Only the 99.2% top-three figure was published on the page read; the page says so.",
+      "A Hague-only Hindustani count. None exists; the 50,000 regional figure is presented as an estimate with its source, never as a statistic.",
+      "A wijk-to-stadsdeel mapping for Centrum, Segbroek, Scheveningen, Haagse Hout and Loosduinen. Only Escamp, Laak and Leidschenveen-Ypenburg were confirmed in the source read; the other assignments in the district section are limited to wijken whose stadsdeel is not in doubt, and the district pages will verify each.",
+      "Anything the Netherlands hub owns: the nine SLO core objectives, the March 2024 finalisation as a spine, the groep 8 streaming advice as an argument, the CET/CEST offset paragraph."
+    ]
   }
 }
