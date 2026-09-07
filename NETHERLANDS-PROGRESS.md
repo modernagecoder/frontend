@@ -19,6 +19,7 @@ Phase 6 (ag- doors): academy spokes x6 (amsterdam, eindhoven, the-hague, utrecht
 
 | # | Slug | Type | Words | Worst overlap | AI H2 used | Trap used | Commit |
 |---|------|------|-------|---------------|------------|-----------|--------|
+| 1 | coding-classes-in-amstelveen (amv, #40641A) | city | 4,605 | 0.6% vs madha | If an AI can write the cohort model in ten seconds, why should a child in Amstelveen learn to? | Stock vs flow (arrivals fall 46%, residents rise 24% under 56% retention) | (this commit) |
 
 ## Skipped (kill criterion)
 
@@ -28,9 +29,12 @@ Phase 6 (ag- doors): academy spokes x6 (amsterdam, eindhoven, the-hague, utrecht
 ## Codes in use (letters only; check `coding-global.css` before assigning)
 
 Reserved by older clusters and NOT available: hmr (Al Hamra), lei (Leicester), mst? free, amr (Al Amarat), adm (Adam), ede? free.
-Assigned so far: (none)
+Assigned so far: amv (Amstelveen)
 
 ## Open issues
 
 - Pre-flight done 2026-09-07: hub dossier released `Almere` and `Eindhoven` (replaced with `Groep 3 to 5`, `VO student`); `pageTypeOf()` now reads `pageType` from the dossier.
 - Group batch size on new pages is `5 to 10` (brand facts, owner ruling 2026-09-03). Older cg- pages still say 5 to 8; do not copy their trust strip.
+- Pre-existing, not ours: `check-cluster-uniqueness.js coding-global` reports Leicester vs Birmingham at 12.6% (FAIL line is 12%). Left alone; flag to owner.
+- Cluster-wide CSS fixes shipped with page 1 (all live cg- pages benefit): `.cg-pick-tag` and `.cg-price-label` raised to 0.75rem (were under the 12px floor on the 17px root); wrapped `<table>` elements and captions now styled (62 live pages had unstyled tables).
+- Tooling fixes shipped with page 1: `audit-rendered-ag-pages.mjs` counts cg-style picks (class on the img), accepts 4+ picks for cg, and scrolls the page before measuring so lazy thumbnails are not reported broken; Playwright resolved from `../../dashboard3/node_modules` via NODE_PATH in `scripts/nl/check.js`.

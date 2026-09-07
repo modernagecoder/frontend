@@ -429,10 +429,14 @@
 
 /* Data tables, hairline ruled */
 .cg-table-wrap { overflow-x: auto; margin: 1.5rem 0; border: 1px solid var(--cg-rule); }
-.cg-table { width: 100%; border-collapse: collapse; font-size: 0.88rem; min-width: 440px; }
-.cg-table th, .cg-table td { text-align: left; padding: 0.7rem 0.9rem; border-bottom: 1px solid var(--cg-rule); }
-.cg-table th { font-family: var(--cg-mono); font-size: 0.75rem; letter-spacing: 0.08em; text-transform: uppercase; color: var(--cg-muted); background: var(--cg-paper-2); }
-.cg-table tr:last-child td { border-bottom: 0; }
+/* .cg-table-wrap > table is included so the 62 live pages that wrap a bare
+   <table> (the Oman and Brunei builds) get the same styling as pages that add
+   the class explicitly. Before this they rendered as unstyled browser tables. */
+.cg-table, .cg-table-wrap > table { width: 100%; border-collapse: collapse; font-size: 0.88rem; min-width: 440px; }
+.cg-table th, .cg-table td, .cg-table-wrap > table th, .cg-table-wrap > table td { text-align: left; padding: 0.7rem 0.9rem; border-bottom: 1px solid var(--cg-rule); vertical-align: top; }
+.cg-table th, .cg-table-wrap > table th { font-family: var(--cg-mono); font-size: 0.75rem; letter-spacing: 0.08em; text-transform: uppercase; color: var(--cg-muted); background: var(--cg-paper-2); }
+.cg-table tr:last-child td, .cg-table-wrap > table tr:last-child td { border-bottom: 0; }
+.cg-table caption, .cg-table-wrap > table caption { caption-side: top; text-align: left; font-family: var(--cg-mono); font-size: 0.75rem; letter-spacing: 0.08em; text-transform: uppercase; color: var(--cg-muted); padding: 0.7rem 0.9rem; border-bottom: 1px solid var(--cg-rule); }
 
 .cg-spec { border-left: 3px solid var(--cg-rule-2); padding-left: 1.2rem; margin: 1.5rem 0; }
 .cg-spec-title { font-family: var(--cg-mono); font-size: 0.75rem; letter-spacing: 0.09em; text-transform: uppercase; color: var(--cg-muted); margin-bottom: 0.4rem; }
@@ -616,7 +620,7 @@
 .cg-root .cg-pick-tag {
   align-self: flex-start;
   font-family: var(--cg-mono, ui-monospace, monospace);
-  font-size: 0.68rem; letter-spacing: 0.08em; text-transform: uppercase;
+  font-size: 0.75rem; letter-spacing: 0.08em; text-transform: uppercase; /* 12.75px on the 17px root; 0.68rem broke the 12px floor on every cg- page */
   font-weight: 700; color: var(--cg-accent);
 }
 .cg-picks-more { margin-top: clamp(1.25rem, 3vw, 1.75rem); }
@@ -682,7 +686,7 @@
 /* --- pricing --- */
 .cg-price-grid { display: grid; grid-template-columns: repeat(3, minmax(0,1fr)); gap: var(--cg-gap); }
 .cg-price-label {
-  display: block; font-family: var(--cg-mono); font-size: 0.72rem; font-weight: 600;
+  display: block; font-family: var(--cg-mono); font-size: 0.75rem; font-weight: 600;
   letter-spacing: 0.09em; text-transform: uppercase; color: var(--cg-accent);
   margin-bottom: 0.3rem;
 }
@@ -773,3 +777,6 @@
 
 .cg-contact-row { display: flex; flex-wrap: wrap; gap: 0.9rem 1.4rem; align-items: center; }
 .cg-root .cg-contact-row a { color: var(--cg-accent); font-weight: 600; }
+
+/* Netherlands cluster. Accents from scripts/nl/lib/accent.js: 4.5:1 on all three paper tints, separated only from the pages each one links to. */
+.cg-root.cg-amv  { --cg-accent: #40641A; --cg-accent-soft: rgba(64,100,26,.10); }   /* Amstelveen: the Amsterdamse Bos, most of which lies inside the municipality */

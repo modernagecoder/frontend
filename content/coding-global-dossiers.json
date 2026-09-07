@@ -3922,5 +3922,71 @@
       "Any coordinate or boundary geometry for Madha or Nahwa. None was verified, so the project works from the two published areas alone and no map data is asserted.",
       "The exact year the boundaries were settled. The published wording is around seventy years ago and that hedge is kept."
     ]
+  },
+  "coding-classes-in-amstelveen": {
+    "market": "Amstelveen",
+    "bodyClass": "cg-amv",
+    "pageType": "city",
+    "curriculumAuthority": "Amstelveen, Noord-Holland: two IB continuum international schools inside the municipality (ISA, Sportlaan 45, since 1964, all three IB programmes since 1997; Amity, Amsterdamseweg 204, since February 2018) plus Dutch secondary schools (Hermann Wesselink College bilingual vmbo-t/havo/atheneum/gymnasium at Startbaan 3; Keizer Karel College havo/vwo at Elegast 5; Panta Rhei vmbo at Pandora 1; Amstelveen College; Guus Kieft School). The page argues from which school a child attends rather than from national curriculum policy, which the hub owns.",
+    "localProject": "Stock versus flow. Statistics Netherlands published that non-EU knowledge migrants fell from 26 thousand (2022) to 14 thousand (2025), Indian migrants falling most, AND that four-year retention of Indian arrivals rose from 33 percent (2011 cohort) to 56 percent (2019 cohort). A learner builds a cohort model (stock = sum over cohorts of arrivals times retention) and shows that with arrivals indexed 100 to 54 the resident stock still rises 24 percent under the newer retention and stalls under the older one. Distinct from survivorship bias (Al Hail), from cumulative totals (Seria) and from the exposure-window trap on the Netherlands hub: the flaw here is reading a flow as a stock. Computed before writing; illustrative arrivals series labelled as such.",
+    "requiredMentions": [
+      "68.3 per thousand",
+      "Sportlaan 45",
+      "Amsterdamseweg 204",
+      "Hermann Wesselink College",
+      "Keizer Karel College",
+      "Panta Rhei",
+      "Keizer Karelpark",
+      "Waardhuizen Middenhoven",
+      "Amsteltram",
+      "Amsterdamse Bos",
+      "13 December 2020",
+      "56 percent of the 2019 arrivals"
+    ],
+    "sources": [
+      {
+        "claim": "89 thousand residents of Indian origin on 1 January 2024; Amstelveen highest share at 68.3 per thousand, Uithoorn 49.6, Eindhoven 35.4, Almere 30.7; Amsterdam largest absolute at about 11 thousand; 56 percent of 2019 arrivals still resident after four years vs 33 percent of 2011 arrivals; family 64 vs labour 50 percent; definition = born in India or born in NL with one or two parents born in India.",
+        "url": "https://www.cbs.nl/en-gb/news/2025/10/migrants-from-india-are-staying-longer-in-the-netherlands"
+      },
+      {
+        "claim": "Immigration 309 thousand in 2025 vs 317 thousand in 2024; knowledge migrants from outside the EU 14 thousand in 2025 vs 26 thousand in 2022; especially fewer Indian knowledge migrants.",
+        "url": "https://www.cbs.nl/nl-nl/nieuws/2026/27/minder-immigratie-in-2025-vooral-minder-asiel-en-kennismigranten"
+      },
+      {
+        "claim": "New origin classification introduced 16 February 2022; people born abroad to two Netherlands-born parents now counted as having a non-Dutch origin.",
+        "url": "https://www.cbs.nl/nl-nl/nieuws/2022/07/cbs-introduceert-nieuwe-indeling-bevolking-naar-herkomst"
+      },
+      {
+        "claim": "Amstelveen 95,840 residents on 1 January 2026 across 14 wijken: Keizer Karelpark 14,192, Waardhuizen Middenhoven 13,005, Elsrijk 12,008, Bovenkerk-Westwijk Noord 10,844, Bankras Kostverloren 10,547, Groenelaan 8,684, Westwijk Zuid 7,678, Randwijck 5,962, Uilenstede Kronenburg 4,205, Stadshart 3,452, Patrimonium 3,135, Buitengebied Zuid 1,227, Buitengebied Noord 801, Amsterdamse Bos 100 (sum 95,840).",
+        "url": "https://allecijfers.nl/ranglijst/grootste-en-kleinste-wijken-in-inwoners-in-de-gemeente-amstelveen/"
+      },
+      {
+        "claim": "International School of Amsterdam: Sportlaan 45, Amstelveen, founded 1964; DP from 1979, MYP 1992, PYP 1997, first school to offer IB from pre-school to grade 12; 1,317 students of 60 nationalities in 2020-21.",
+        "url": "https://en.wikipedia.org/wiki/International_School_of_Amsterdam"
+      },
+      {
+        "claim": "Amity International School Amsterdam: Amsterdamseweg 204, 1182 HL Amstelveen; opened February 2018; IB PYP, MYP and DP.",
+        "url": "https://www.iamsterdam.com/en/live-work-study/schools-universities-and-education-providers/all/education-providers/amity-international-school-amsterdam"
+      },
+      {
+        "claim": "Tram 25 (Amsteltram): opened Zuid to Amstelveen Westwijk 13 December 2020; extended to Uithoorn Centrum 21 July 2024; extended to Muiderpoortstation 29 March 2026; replaced sneltram 51 withdrawn from Amstelveen 3 March 2019; Amstelveen stops Oranjebaan, Meent, Brink, Poortwachter, Sacharovlaan, Westwijk.",
+        "url": "https://nl.wikipedia.org/wiki/Tramlijn_25_(Amsterdam)"
+      },
+      {
+        "claim": "Hermann Wesselink College, Startbaan 3, 1185 XP Amstelveen: vmbo-t, havo, atheneum, gymnasium, all bilingual; STEM projects named as a focus.",
+        "url": "https://www.hethwc.nl/en/"
+      },
+      {
+        "claim": "Secondary schools in Amstelveen: Amstelveen College, Hermann Wesselink College, Guus Kieft School, Keizer Karel College (Elegast 5), Panta Rhei (Pandora 1, vmbo).",
+        "url": "https://scholenopdekaart.nl/middelbare-scholen/amstelveen/"
+      }
+    ],
+    "rejectedClaims": [
+      "Any per-wijk share of Indian-origin residents (Westwijk, Bovenkerk, Elsrijk). Not published at wijk level in anything found; the page uses the municipal share only.",
+      "That Amity International School Amsterdam follows the CBSE curriculum. Older sources describe the Amity group as CBSE-connected; the Amsterdam campus is an IB continuum school and the page says only that.",
+      "That Keizer Karel College or Hermann Wesselink College timetables informatica. Neither site confirms it (KKC unreachable, HWC names STEM projects only), so the page advises asking the school and builds no argument on it.",
+      "A published journey time for tram 25 between Stadshart and Amsterdam Zuid. Not found in a primary source; the page names stops and dates only.",
+      "Anything the Netherlands hub owns: the nine SLO core objectives, the March 2024 finalisation as a spine, the groep 8 streaming advice, the CET/CEST offset paragraph. Mentioned in passing at most, never argued."
+    ]
   }
 }

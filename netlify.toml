@@ -8200,6 +8200,18 @@
   to = "/src/pages/icse-class-10-computer-applications-board-exam-preparation.md"
   status = 200
 
+# International growth cluster (coding-global.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/coding-classes-in-amstelveen"
+  to = "/src/pages/coding-classes-in-amstelveen.html"
+  status = 200
+
+[[redirects]]
+  from = "/coding-classes-in-amstelveen.md"
+  to = "/src/pages/coding-classes-in-amstelveen.md"
+  status = 200
+
 [[redirects]]
   from = "/*"
   to = "/src/pages/404.html"

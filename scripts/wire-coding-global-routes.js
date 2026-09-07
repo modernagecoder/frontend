@@ -144,7 +144,9 @@ const MARKETS = [
   ['coding-classes-in-seria',                     'Seria, Belait, Brunei'],
   ['coding-classes-in-liang',                     'Liang and Lumut, Belait, Brunei'],
   ['coding-classes-in-gadong',                    'Gadong, Bandar Seri Begawan, Brunei'],
-  ['coding-classes-in-jerudong',                  'Jerudong, Brunei-Muara, Brunei']
+  ['coding-classes-in-jerudong',                  'Jerudong, Brunei-Muara, Brunei'],
+  // Netherlands cluster (scripts/nl)
+  ['coding-classes-in-amstelveen', 'Amstelveen, Noord-Holland, Netherlands'],
 ];
 
 const SLUGS = MARKETS.map(m => m[0]);

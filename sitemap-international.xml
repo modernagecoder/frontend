@@ -679,4 +679,10 @@
     <loc>https://learn.modernagecoders.com/coding-classes-in-madha</loc>
     <lastmod>2026-08-24</lastmod>
   </url>
+  <url>
+    <loc>https://learn.modernagecoders.com/coding-classes-in-amstelveen</loc>
+    <lastmod>2026-09-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+  </url>
 </urlset>

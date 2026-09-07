@@ -61,12 +61,23 @@ for (const slug of SLUGS) {
     });
     await page.goto(`http://localhost:8765/${slug}`, { waitUntil: 'load', timeout: 30000 });
     await page.waitForTimeout(400);
+    // Thumbnails below the fold are loading="lazy" and never request until they
+    // scroll near the viewport, so an unscrolled page reports them as broken
+    // when they are merely unrequested. Walk the page once, then return to top.
+    await page.evaluate(async () => {
+      const step = Math.max(400, window.innerHeight);
+      for (let y = 0; y < document.body.scrollHeight; y += step) { window.scrollTo(0, y); await new Promise(r => setTimeout(r, 60)); }
+      window.scrollTo(0, 0);
+    });
+    await page.waitForTimeout(500);
 
     const r = await page.evaluate((PREFIX) => {
       const out = { overflow: 0, picks: 0, picksBroken: 0, tiny: [], btnBad: [], smallTap: 0 };
       out.overflow = document.documentElement.scrollWidth - document.documentElement.clientWidth;
       // pick thumbnails
-      document.querySelectorAll('.' + PREFIX + '-pick-shot img').forEach(img => {
+      // ag- pages wrap the image in a <div class="ag-pick-shot">; cg- pages put the
+      // class on the <img> itself. Count both shapes.
+      document.querySelectorAll('.' + PREFIX + '-pick-shot img, img.' + PREFIX + '-pick-shot').forEach(img => {
         out.picks++; if (!img.complete || img.naturalWidth === 0) out.picksBroken++;
       });
       // visible text under 12px
@@ -109,7 +120,10 @@ for (const slug of SLUGS) {
     const bad = [];
     if (errs.length) bad.push('js errors: ' + errs.join(' | '));
     if (r.overflow > 1) bad.push('horizontal overflow ' + r.overflow + 'px');
-    if (r.picks !== 3 || r.picksBroken) bad.push(`picks ${r.picks}, broken ${r.picksBroken}`);
+    // ag- and bx- pages carry exactly three picks; cg- pages carry four picks
+    // plus the four flagship cards, so the floor there is four.
+    const picksOk = PREFIX === 'cg' ? r.picks >= 4 : r.picks === 3;
+    if (!picksOk || r.picksBroken) bad.push(`picks ${r.picks}, broken ${r.picksBroken}`);
     if (r.tiny.length) bad.push('sub-12px text: ' + r.tiny.slice(0, 3).join(' ; '));
     if (r.btnBad.length) bad.push('low-contrast btn: ' + r.btnBad.slice(0, 3).join(' ; '));
     if (bad.length) { failures++; console.log(`FAIL ${w}px ${slug}\n      ` + bad.join('\n      ')); }
