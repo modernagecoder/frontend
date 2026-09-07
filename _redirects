@@ -2078,4 +2078,12 @@
 # International growth cluster (coding-global.css). Must precede the /* catch-all.
 /coding-classes-in-noord-brabant /src/pages/coding-classes-in-noord-brabant.html 200
 /coding-classes-in-noord-brabant.md /src/pages/coding-classes-in-noord-brabant.md 200
+
+# International growth cluster (coding-global.css). Must precede the /* catch-all.
+/coding-classes-in-friesland /src/pages/coding-classes-in-friesland.html 200
+/coding-classes-in-friesland.md /src/pages/coding-classes-in-friesland.md 200
+
+# International growth cluster (coding-global.css). Must precede the /* catch-all.
+/coding-classes-in-drenthe /src/pages/coding-classes-in-drenthe.html 200
+/coding-classes-in-drenthe.md /src/pages/coding-classes-in-drenthe.md 200
 /* /src/pages/404.html 404

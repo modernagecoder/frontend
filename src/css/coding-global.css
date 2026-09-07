@@ -794,3 +794,5 @@
 .cg-root.cg-lim  { --cg-accent: #681944; --cg-accent-soft: rgba(104,25,68,.10); }   /* Limburg: chosen by the solver for maximum separation from every accent it links to, inside the editorial band */
 .cg-root.cg-grp  { --cg-accent: #424076; --cg-accent-soft: rgba(66,64,118,.10); }   /* Groningen: an indigo picked by the solver for separation from Utrecht's plum and Overijssel's slate, inside the editorial band */
 .cg-root.cg-nbr  { --cg-accent: #6A2203; --cg-accent-soft: rgba(106,34,3,.10); }   /* Noord-Brabant: a burnt sienna the solver placed well away from Eindhoven's rust and Amstelveen's orange */
+.cg-root.cg-frl  { --cg-accent: #0D6332; --cg-accent-soft: rgba(13,99,50,.10); }   /* Friesland: a deep meadow green the solver placed clear of Noord-Holland's and Gelderland's greens */
+.cg-root.cg-dre  { --cg-accent: #6A4D01; --cg-accent-soft: rgba(106,77,1,.10); }   /* Drenthe: a peat-brown ochre the solver placed between the two existing browns without touching either */

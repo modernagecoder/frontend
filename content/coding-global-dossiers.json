@@ -4876,5 +4876,105 @@
       "Anything the Eindhoven page owns: the Brainport ratio chain, the Indian-origin share, the university's founding.",
       "Anything the Netherlands hub owns: the SLO core objectives and the national informatica figures."
     ]
+  },
+  "coding-classes-in-friesland": {
+    "market": "Friesland",
+    "bodyClass": "cg-frl",
+    "pageType": "governorate",
+    "curriculumAuthority": "Province of Friesland (officially Fryslân since 1 January 1997): 18 municipalities, 665,208 residents (CBS 1 January 2026), 348 primary establishments (53,420 pupils) and 89 secondary (34,500). Capital and largest municipality Leeuwarden/Ljouwert (130,162, 19.6 percent). Frisian an official language alongside Dutch. Four inhabited Wadden islands. Largest province by total area, 58 percent water. Regio Noord holidays. A province page is about the spread; the hub owns the national curriculum.",
+    "localProject": "A name is not an identifier (one entity, two keys; the join that drops it). Friesland became Fryslân officially on 1 January 1997; the statistics website now answers the Dutch-named address with a does-not-exist notice and a redirect to the Frisian one. The learner joins a 1995 table keyed Friesland (609,579) to a 2026 table keyed Fryslân (665,208): an inner join drops the province, a left join reports minus 100 percent growth, stripping accents changes nothing, and only a stable code returns plus 9.1 percent. Distinct from the Lumut trap (Kuala Belait: one name shared by several things, so a join merges too much) and from the numbers-as-text trap: here one thing carries two names, so a join on the name matches too little. Worked through before writing; the office's code values are not quoted because they were not read at source.",
+    "requiredMentions": [
+      "665,208",
+      "18 municipalities",
+      "Fryslân",
+      "Leeuwarden",
+      "Ljouwert",
+      "Súdwest-Fryslân",
+      "Smallingerland",
+      "Heerenveen",
+      "Waadhoeke",
+      "Noardeast-Fryslân",
+      "Schiermonnikoog",
+      "1 January 1997",
+      "609,579",
+      "Elfstedentocht"
+    ],
+    "sources": [
+      {
+        "claim": "Fryslân 665,208 residents on 1 January 2026 (CBS provisional); 18 municipalities; total area 575,327 ha, land 334,011 ha; density 199; 306,801 households; 97,103 under 15; 80,237 aged 15 to 25; 348 primary establishments (53,420 pupils); 89 secondary (34,500); 609,579 in 1995, a rise of 55,629 (9.1 percent). The Dutch-named address for this page returns a notice that it does not exist (or no longer does) and points to the Frisian-named address.",
+        "url": "https://allecijfers.nl/provincie/fryslan/"
+      },
+      {
+        "claim": "All 18 municipalities on 1 January 2026: Leeuwarden 130,162; Súdwest-Fryslân 90,521; Smallingerland 57,188; De Fryske Marren 52,248; Heerenveen 51,955; Waadhoeke 47,158; Noardeast-Fryslân 45,935; Tytsjerksteradiel 32,874; Opsterland 30,068; Achtkarspelen 28,254; Weststellingwerf 26,622; Ooststellingwerf 25,898; Dantumadiel 19,231; Harlingen 16,270; Terschelling 4,834; Ameland 3,816; Vlieland 1,202; Schiermonnikoog 972. The Dutch-named ranking address redirects to this one.",
+        "url": "https://allecijfers.nl/ranglijst/grootste-en-kleinste-gemeenten-in-inwoners-in-de-provincie-fryslan/"
+      },
+      {
+        "claim": "Official name changed from Friesland to Fryslân on 1 January 1997 by decision of the Provinciale Staten; capital Leeuwarden (Frisian Ljouwert), about 95,890 residents in the city in 2023; 18 municipalities since 1 January 2019; 5,748.77 km2 total, 3,335.62 land, 2,413.15 water, the largest province by total area; about 665,276 residents end 2025; Frisian an official language alongside Dutch; the Wadden islands Vlieland, Terschelling, Ameland and Schiermonnikoog; the eleven cities of the Elfstedentocht; Commissaris van de Koning Arno Brok.",
+        "url": "https://nl.wikipedia.org/wiki/Friesland"
+      },
+      {
+        "claim": "School holiday regions: regio Noord = Groningen, Friesland, Drenthe, Overijssel, Flevoland, Noord-Holland; regio Midden = Utrecht, Zuid-Holland and the northern part of Gelderland; regio Zuid = Zeeland, Noord-Brabant, Limburg and the southern part of Gelderland.",
+        "url": "https://www.rijksoverheid.nl/themas/onderwijs/schoolvakanties/regios-schoolvakantie"
+      }
+    ],
+    "rejectedClaims": [
+      "The statistics office's numeric codes for the province and its municipalities. The page says such codes exist and are the right key; it does not quote values it did not read.",
+      "The dates on which individual municipalities adopted Frisian names (Dantumadiel, De Fryske Marren, Tytsjerksteradiel). Not read at source; the page says only that six appear under Frisian names in the 2026 register list.",
+      "Súdwest-Fryslân as the largest municipality in the country by area. Widely stated; not confirmed at a source this page read, so it stands as a description in the spread and not in the evidence cells.",
+      "The year Frisian gained official status (1956 in the province's entry, in an administrative sense). The page says only that it is an official language alongside Dutch.",
+      "Anything the Netherlands hub or the Groningen page owns: the SLO core objectives, the earthquake scale."
+    ]
+  },
+  "coding-classes-in-drenthe": {
+    "market": "Drenthe",
+    "bodyClass": "cg-dre",
+    "pageType": "governorate",
+    "curriculumAuthority": "Province of Drenthe: 12 municipalities (since 1998), 508,109 residents (CBS 1 January 2026), 253 primary establishments (39,467 pupils) and 45 secondary (23,252). Capital Assen; largest municipality Emmen (109,881, 21.6 percent). Lowest density on this site (192) and highest over-65 share (25.6 percent). 52 of the 54 visible hunebedden. Full province since 1815. Regio Noord holidays. A province page is about the spread; the hub owns the national curriculum.",
+    "localProject": "A range in is a range out, and the calendar has no year zero. The hunebedden were built 3350 to 3050 BC (Dutch entry); \"five thousand years old\" is a range 5,075 to 5,375 years wide in 2026; the naive subtraction gives 5,376 and 5,076 because it assumes a year zero between 1 BC and AD 1; Python's date type refuses year -3350 outright. The survival share is likewise a range, 54 to 68 percent, because the original count is 80 to 100. Distinct from the two-calendars trap (Hijri to Gregorian conversion), from the working-days trap (Brunei: the weekend as an input), and from the midrange-versus-median trap (Tutong): the flaws here are rounding a published range to a point and crossing an era boundary that has no zero. Computed and run in Python before writing.",
+    "requiredMentions": [
+      "508,109",
+      "twelve municipalities",
+      "Emmen",
+      "Assen",
+      "Hoogeveen",
+      "Meppel",
+      "Coevorden",
+      "Borger-Odoorn",
+      "Westerveld",
+      "Hondsrug",
+      "hunebedden",
+      "3350",
+      "5,375",
+      "454,864"
+    ],
+    "sources": [
+      {
+        "claim": "Drenthe 508,109 residents on 1 January 2026 (CBS provisional); 12 municipalities; total area 268,039 ha, land 263,266 ha; density 192; 228,059 households; 71,302 under 15; 56,420 aged 15 to 25; 130,043 aged 65 and over; 253 primary establishments (39,467 pupils); 45 secondary (23,252); 454,864 in 1995, a 12 percent rise.",
+        "url": "https://allecijfers.nl/provincie/drenthe/"
+      },
+      {
+        "claim": "All 12 municipalities on 1 January 2026: Emmen 109,881; Assen 70,769; Hoogeveen 56,781; Meppel 36,616; Coevorden 35,729; Tynaarlo 35,116; Midden-Drenthe 34,402; Noordenveld 31,737; Borger-Odoorn 26,162; Aa en Hunze 26,062; De Wolden 24,819; Westerveld 20,035.",
+        "url": "https://allecijfers.nl/ranglijst/grootste-en-kleinste-gemeenten-in-inwoners-in-de-provincie-drenthe/"
+      },
+      {
+        "claim": "Capital Assen; Emmen the municipality with the most residents; 12 municipalities since the 1998 reorganisation; land 2,632.65 km2, water 47.74; 508,054 residents end 2025; the Hondsrug, an elongated straight ridge from Emmen towards Groningen; of the 54 hunebedden still visible in the Netherlands, 52 stand in Drenthe; a full province since the 1815 constitution; the TT at Assen.",
+        "url": "https://nl.wikipedia.org/wiki/Drenthe"
+      },
+      {
+        "claim": "The Dutch hunebedden were built between 3350 and 3050 BC during the westernmost expansion of the Funnel Beaker culture; an estimated 80 to 100 once stood in the north of the Netherlands; 54 are still visible, 52 of them in Drenthe; D27 at Borger is the largest.",
+        "url": "https://nl.wikipedia.org/wiki/Hunebed"
+      },
+      {
+        "claim": "School holiday regions: regio Noord = Groningen, Friesland, Drenthe, Overijssel, Flevoland, Noord-Holland; regio Midden = Utrecht, Zuid-Holland and the northern part of Gelderland; regio Zuid = Zeeland, Noord-Brabant, Limburg and the southern part of Gelderland.",
+        "url": "https://www.rijksoverheid.nl/themas/onderwijs/schoolvakanties/regios-schoolvakantie"
+      }
+    ],
+    "rejectedClaims": [
+      "The length of D27 at Borger. Not given in the entry read; not stated.",
+      "That Drenthe has the lowest density and the highest over-65 share of all twelve provinces. Only the provinces on this site were compared, and the page says so.",
+      "The Commissaris van de Koning. Not extracted from the entry; not named.",
+      "The radio telescopes at Dwingeloo and Westerbork, the bog bodies at Assen and the zoo at Emmen. Named as landmarks in the spread only; no figures attached.",
+      "Anything the Netherlands hub or the Groningen page owns: the SLO core objectives, the earthquake scale."
+    ]
   }
 }
