@@ -6177,5 +6177,58 @@
       "A reconciliation of the ten 2023 village populations with the 2026 municipal total. The dates differ and no residual is computed.",
       "Anything the Zuid-Holland page owns: the Randstad boundary question and the provincial totals. Anything The Hague page owns."
     ]
+  },
+  "coding-classes-in-alphen-aan-den-rijn": {
+    "market": "Alphen aan den Rijn",
+    "bodyClass": "cg-alp",
+    "pageType": "city",
+    "curriculumAuthority": "Municipality of Alphen aan den Rijn, Zuid-Holland: 117,284 residents (CBS 1 January 2026) across eight woonplaatsen; 48 primary establishments (9,709 pupils) and 13 secondary (7,250). Formed in its present shape on 1 January 2014 when Boskoop and Rijnwoude joined. Boskoop nursery trade; Avifauna since 1950. Regio Midden holidays with the rest of Zuid-Holland. The city page argues from two tables sharing a label; the province page owns the Randstad boundary question and Westland owns the structural zero.",
+    "localProject": "The same label on two tables is not a promise that they mean the same thing. One page of the national statistics site carries two student tables for this municipality: the education section gives vocational 1,648 with applied higher education 0, university 0 and total higher education 0, while the topics table lower down gives vocational 3,110, applied higher education 2,470 and university 1,110. The zero against 2,470 is the diagnostic row, because a municipality of 117,284 cannot hold both, so the two tables must count different populations, plausibly students at institutions here against residents enrolled anywhere; the vocational ratio is about 1.9. Distinct from the structural-zero trap (Westland, where one zero had to be read correctly) and from the two-source disagreement (Breda): here a single source contradicts itself across two views, both are right about different populations, and the fix is definition rather than reconciliation. The interpretation is labelled an inference from the values throughout, because neither table states it.",
+    "requiredMentions": [
+      "117,284",
+      "51,011",
+      "17,307",
+      "101,435",
+      "9,709",
+      "7,250",
+      "1,648",
+      "3,110",
+      "Boskoop",
+      "Hazerswoude",
+      "Aarlanderveen",
+      "Zwammerdam",
+      "Avifauna",
+      "Benthuizen"
+    ],
+    "sources": [
+      {
+        "claim": "Alphen aan den Rijn 117,284 residents on 1 January 2026 (CBS); 51,011 households (2025) averaging 2.24, 17,307 single-person (34 percent); 18,306 aged 0 to 15; 13,396 aged 15 to 25; 30,030 aged 25 to 45; 31,184 aged 45 to 65; 24,368 aged 65 and over; total area 13,250 ha, land 12,593 ha; density 919; 48 primary establishments (9,709 pupils) and 13 secondary (7,250); 8 woonplaatsen, 16 wijken and 100 buurten; 101,435 in 1995, a rise of 15,849 (16 percent). The education section of the same page gives Studenten MBO 1,648, Studenten HBO 0, Studenten WO 0 and Aantal studenten hoger onderwijs 0, while the comprehensive topics table lower down the same page gives Studenten MBO 3,110, Studenten HBO 2,470 and Studenten WO 1,110.",
+        "url": "https://allecijfers.nl/gemeente/alphen-aan-den-rijn/"
+      },
+      {
+        "claim": "Alphen aan den Rijn 117,278 residents on 1 January 2026; 132.50 km2 (126.23 land, 6.27 water); density 929; acting mayor Erik van Heijningen (VVD); among the thirty largest municipalities of the Netherlands; the municipality took its present form on 1 January 2014 after the addition of Boskoop and Rijnwoude; kernen on 1 January 2023 Alphen aan den Rijn 74,790, Boskoop 16,670, Hazerswoude-Dorp 6,325, Hazerswoude-Rijndijk 5,600, Koudekerk aan den Rijn 4,130, Benthuizen 3,590, Zwammerdam 1,860, Aarlanderveen 1,205.",
+        "url": "https://nl.wikipedia.org/wiki/Alphen_aan_den_Rijn_(gemeente)"
+      },
+      {
+        "claim": "Boskoop: about 770 nurseries spread over an area of some 1,100 hectares; the trade expanded from the fifteenth to the seventeenth century and began exporting in the late nineteenth century with Germany as its first buyer; Boskoop was an independent municipality until 1 January 2014; the Boskoop apple is described as the best-selling apple variety in Europe.",
+        "url": "https://nl.wikipedia.org/wiki/Boskoop"
+      },
+      {
+        "claim": "Vogelpark Avifauna opened in 1950, is described as the first bird park in the world, and was founded by G. van den Brink.",
+        "url": "https://nl.wikipedia.org/wiki/Vogelpark_Avifauna"
+      },
+      {
+        "claim": "School holiday regions: regio Midden = Utrecht, Zuid-Holland and the northern part of Gelderland; regio Zuid = Zeeland, Noord-Brabant, Limburg and the southern part of Gelderland; regio Noord = Groningen, Friesland, Drenthe, Overijssel, Flevoland, Noord-Holland.",
+        "url": "https://www.rijksoverheid.nl/themas/onderwijs/schoolvakanties/regios-schoolvakantie"
+      }
+    ],
+    "rejectedClaims": [
+      "A statement that either student table is wrong. Both are quoted and the page argues that they count different populations.",
+      "A source for the interpretation of what each table counts. No note appears on the page beside either table, and the reading is labelled an inference from the values throughout.",
+      "Treating the Boskoop apple claim or the first bird park claim as measurements. Both are quoted as descriptions with no comparison set or measure offered.",
+      "Any reconciliation of the eight 2023 place populations with the 2026 municipal total. The dates differ and no residual is computed.",
+      "Visitor numbers for Avifauna and any figure for the nursery trade beyond the count and the area. Not found at source.",
+      "Anything the Zuid-Holland page owns: the Randstad boundary question and the provincial totals. Anything the Leiden or Zoetermeer pages own."
+    ]
   }
 }

@@ -76,7 +76,7 @@ Nissewaard 89,112; Schiedam 81,931; Vlaardingen 77,480; Voorne aan Zee 75,012; C
 
 ### The Groene Hart
 
-Alphen aan den Rijn 117,284, seventh in the province; Gouda 77,818; Krimpenerwaard 57,898; Zuidplas 49,291; Bodegraven-Reeuwijk 37,291; Waddinxveen 35,542; Nieuwkoop 29,728. The open middle of the Randstad, whose whole planning purpose is to stay open.
+[Alphen aan den Rijn](/coding-classes-in-alphen-aan-den-rijn) 117,284, seventh in the province, with its own page; Gouda 77,818; Krimpenerwaard 57,898; Zuidplas 49,291; Bodegraven-Reeuwijk 37,291; Waddinxveen 35,542; Nieuwkoop 29,728. The open middle of the Randstad, whose whole planning purpose is to stay open.
 
 ### The islands
 
