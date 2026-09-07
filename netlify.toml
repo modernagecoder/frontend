@@ -8344,6 +8344,30 @@
   to = "/src/pages/coding-classes-in-gelderland.md"
   status = 200
 
+# International growth cluster (coding-global.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/coding-classes-in-overijssel"
+  to = "/src/pages/coding-classes-in-overijssel.html"
+  status = 200
+
+[[redirects]]
+  from = "/coding-classes-in-overijssel.md"
+  to = "/src/pages/coding-classes-in-overijssel.md"
+  status = 200
+
+# International growth cluster (coding-global.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/coding-classes-in-limburg"
+  to = "/src/pages/coding-classes-in-limburg.html"
+  status = 200
+
+[[redirects]]
+  from = "/coding-classes-in-limburg.md"
+  to = "/src/pages/coding-classes-in-limburg.md"
+  status = 200
+
 [[redirects]]
   from = "/*"
   to = "/src/pages/404.html"

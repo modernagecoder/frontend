@@ -790,3 +790,5 @@
 .cg-root.cg-zhl  { --cg-accent: #6F5D00; --cg-accent-soft: rgba(111,93,0,.10); }   /* Zuid-Holland: the leaf green of the bulb fields before the flowers, darkened to clear every paper tint */
 .cg-root.cg-utp  { --cg-accent: #75446E; --cg-accent-soft: rgba(117,68,110,.10); }   /* Province of Utrecht: a muted plum for the Heuvelrug heather, kept below the chroma where purple becomes the retired look */
 .cg-root.cg-gld  { --cg-accent: #04510E; --cg-accent-soft: rgba(4,81,14,.10); }   /* Gelderland: the pine green of the Veluwe, darkened until it clears every paper tint */
+.cg-root.cg-ovr  { --cg-accent: #0D4768; --cg-accent-soft: rgba(13,71,104,.10); }   /* Overijssel: the slate blue of the IJssel in winter, low enough in chroma to stay clear of the retired electric blue */
+.cg-root.cg-lim  { --cg-accent: #681944; --cg-accent-soft: rgba(104,25,68,.10); }   /* Limburg: chosen by the solver for maximum separation from every accent it links to, inside the editorial band */

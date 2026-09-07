@@ -4656,5 +4656,109 @@
       "Any figure for Wageningen University or Radboud University. Not read at source for a province page.",
       "Anything the Netherlands hub or the province of Utrecht page owns: the SLO core objectives, the four-rank superlative table."
     ]
+  },
+  "coding-classes-in-overijssel": {
+    "market": "Overijssel",
+    "bodyClass": "cg-ovr",
+    "pageType": "governorate",
+    "curriculumAuthority": "Province of Overijssel: 25 municipalities, 1,202,375 residents (CBS 1 January 2026), 549 primary establishments (101,518 pupils) and 128 secondary (66,932). Capital Zwolle; largest city Enschede. Regions Twente, Salland, Kop van Overijssel; rivers IJssel, Overijsselse Vecht, Zwarte Water. Regio Noord holidays. A province page is about the spread; the hub owns the national curriculum.",
+    "localProject": "A return period is a rate, not a countdown (per-year probability read as a schedule; compounding over a horizon). The pre-2017 dike standards from the published list of dike rings: 1 in 10,000 (Holland coast), 1 in 4,000 (Texel, Friesland and Groningen, Flevoland, Wieringermeer), 1 in 2,000 and 1 in 1,250 (river areas; dike rings 48 Rijn en IJssel and 49 IJsselland at 1 in 1,250). The learner restates each as p per year and compounds 1 minus (1 minus p)^N: 1 in 1,250 is 0.08 percent in a year, 2.37 over 30, 3.92 over 50, 6.20 over 80; 1 in 10,000 is 0.80 over 80. Distinct from base rates and conditional probability (Georgia), from class imbalance (Illinois) and from the bound-versus-value trap (Hong Kong): the flaw here is reading a per-year rate as a period, with no memory and no compounding. Computed before writing; the 2017 replacement standards were not available and are not stated.",
+    "requiredMentions": [
+      "1,202,375",
+      "25 municipalities",
+      "Enschede",
+      "Zwolle",
+      "Deventer",
+      "Hengelo",
+      "Almelo",
+      "Steenwijkerland",
+      "Hardenberg",
+      "Kampen",
+      "Zwarte Water",
+      "Rijn en IJssel",
+      "6.20 percent",
+      "1,050,389"
+    ],
+    "sources": [
+      {
+        "claim": "Overijssel 1,202,375 residents on 1 January 2026 (CBS provisional); 25 municipalities; total area 342,073 ha, land 331,648 ha; density 361; 531,842 households; 183,131 under 15; 152,463 aged 15 to 25; 549 primary establishments (101,518 pupils); 128 secondary (66,932); 1,050,389 residents in 1995, a 14 percent rise.",
+        "url": "https://allecijfers.nl/provincie/overijssel/"
+      },
+      {
+        "claim": "All 25 municipalities on 1 January 2026: Enschede 162,683; Zwolle 134,147; Deventer 105,111; Hengelo 84,045; Almelo 75,166; Hardenberg 64,116; Kampen 56,835; Steenwijkerland 45,926; Rijssen-Holten 39,274; Raalte 39,084; Hellendoorn 36,354; Hof van Twente 35,775; Twenterand 34,234; Oldenzaal 32,033; Dalfsen 30,264; Dinkelland 26,958; Wierden 25,547; Borne 25,038; Haaksbergen 24,313; Zwartewaterland 23,733; Losser 23,472; Tubbergen 21,604; Ommen 19,365; Olst-Wijhe 19,079; Staphorst 18,219.",
+        "url": "https://allecijfers.nl/ranglijst/grootste-en-kleinste-gemeenten-in-inwoners-in-de-provincie-overijssel/"
+      },
+      {
+        "claim": "Capital Zwolle; largest city Enschede; 25 municipalities; total 3,420.74 km2, land 3,319.00, water 101.74; 1,202,369 residents at end 2025; Commissaris van de Koning Andries Heidema; regions Twente, Salland, Kop van Overijssel; rivers IJssel (boundary with Gelderland), Overijsselse Vecht, Zwarte Water (Zwolle to Genemuiden).",
+        "url": "https://nl.wikipedia.org/wiki/Overijssel"
+      },
+      {
+        "claim": "Pre-2017 dike ring safety standards as exceedance probabilities per year: 1/10,000 for Noord-Holland, Zuid-Holland, Pernis, Rozenburg; 1/4,000 for Texel, Friesland and Groningen, Flevoland, Wieringen, IJburg; 1/2,000 and 1/1,250 for river areas; dike ring 48 Rijn en IJssel 1/1,250; dike ring 49 IJsselland 1/1,250. From 1 January 2017 a new normering based on overstromingskans per segment replaced them and the dike rings were de facto abolished.",
+        "url": "https://nl.wikipedia.org/wiki/Dijkring"
+      },
+      {
+        "claim": "School holiday regions: regio Noord = Groningen, Friesland, Drenthe, Overijssel, Flevoland, Noord-Holland; regio Midden = Utrecht, Zuid-Holland and the northern part of Gelderland; regio Zuid = Zeeland, Noord-Brabant, Limburg and the southern part of Gelderland.",
+        "url": "https://www.rijksoverheid.nl/themas/onderwijs/schoolvakanties/regios-schoolvakantie"
+      }
+    ],
+    "rejectedClaims": [
+      "The numerical range of the post-2017 flood-probability standards (commonly quoted as 1 in 300 to 1 in 100,000 per year). The page on them returned 404; the page states only that the standards changed and does not quote a range.",
+      "Which specific dike rings protect Zwolle, Kampen and Deventer. Only rings 48 and 49 were read at source; no city is assigned to a ring.",
+      "International School Twente figures. Mentioned by name only.",
+      "Any claim about the 1995 river evacuation. Referred to in a table cell as an example of a memoryless-rate misreading, without figures.",
+      "Anything the Netherlands hub or Gelderland owns: the SLO core objectives, the two-calendar split."
+    ]
+  },
+  "coding-classes-in-limburg": {
+    "market": "Limburg",
+    "bodyClass": "cg-lim",
+    "pageType": "governorate",
+    "curriculumAuthority": "Province of Limburg: 31 municipalities, 1,138,374 residents (CBS 1 January 2026), 382 primary establishments (78,846 pupils) and 74 secondary (48,103). Capital and largest city Maastricht. Three parts: Zuid-Limburg, Midden-Limburg, Noord-Limburg; borders with Belgium and Germany along its whole length. Population flat since 1995 (plus 8,324). Regio Zuid holidays. A province page is about the spread; the hub owns the national curriculum.",
+    "localProject": "A fact about a set depends on the set (scope as an unstated argument). The Vaalserberg at 322.4 m above NAP is the highest point of the European Netherlands; since 10 October 2010, when Bonaire, Sint Eustatius and Saba became special municipalities, the highest point of the country of the Netherlands is Mount Scenery on Saba (870 m in the entry read; 887 m in other sources). The learner writes highest_point(set_of_territories), feeds it the European Netherlands, the country and the Kingdom, and runs it on 9 and 10 October 2010: the answer changes with no physical change. Distinct from the category-horizon trap (The Hague: a definition that stops following its subject over time), from the no-boundary trap (Zuid-Holland: a region nobody drew) and from the rank-by-measure trap (Utrecht): the flaw here is a superlative computed over a set that is left implicit and that changed by decree. Computed before writing; the height discrepancy is stated, not resolved.",
+    "requiredMentions": [
+      "1,138,374",
+      "31 municipalities",
+      "Maastricht",
+      "Venlo",
+      "Sittard-Geleen",
+      "Heerlen",
+      "Roermond",
+      "Vaalserberg",
+      "322.4",
+      "Mount Scenery",
+      "10 October 2010",
+      "Mook en Middelaar",
+      "1,130,050",
+      "Zuid-Limburg"
+    ],
+    "sources": [
+      {
+        "claim": "Limburg 1,138,374 residents on 1 January 2026 (CBS provisional); 31 municipalities; total area 220,986 ha, land 214,465 ha; density 529; 553,078 households; 142,880 under 15; 127,471 aged 15 to 25; 382 primary establishments (78,846 pupils); 74 secondary (48,103); 1,130,050 in 1995, a rise of 8,324 (0.74 percent), about 269 a year.",
+        "url": "https://allecijfers.nl/provincie/limburg/"
+      },
+      {
+        "claim": "All 31 municipalities on 1 January 2026: Maastricht 126,026; Venlo 104,195; Sittard-Geleen 92,461; Heerlen 87,764; Roermond 61,431; Weert 51,498; Kerkrade 45,824; Peel en Maas 45,816; Venray 45,108; Horst aan de Maas 44,821; Landgraaf 36,844; Leudal 36,099; Beekdaelen 35,903; Echt-Susteren 32,385; Brunssum 27,474; Eijsden-Margraten 26,350; Stein 24,691; Maasgouw 24,377; Roerdalen 20,995; Meerssen 18,454; Gennep 17,953; Nederweert 17,533; Valkenburg aan de Geul 16,481; Beek 16,141; Gulpen-Wittem 13,945; Beesel 13,579; Bergen 13,037; Voerendaal 12,432; Simpelveld 10,459; Vaals 10,106; Mook en Middelaar 8,192.",
+        "url": "https://allecijfers.nl/ranglijst/grootste-en-kleinste-gemeenten-in-inwoners-in-de-provincie-limburg/"
+      },
+      {
+        "claim": "Vaalserberg 322.4 m above NAP; the summit is the highest point of the European Netherlands; since 10 October 2010, through constitutional reform within the Kingdom, it is only the highest point of the European Netherlands, not of the Netherlands; Mount Scenery on Saba, 870 m, is the highest point of the Kingdom.",
+        "url": "https://nl.wikipedia.org/wiki/Vaalserberg"
+      },
+      {
+        "claim": "The twelve provinces at end 2025: Limburg 1,138,362 people, 2,146.61 km2 land, 2,209.85 km2 total, density 530; capital Maastricht.",
+        "url": "https://nl.wikipedia.org/wiki/Provincies_van_Nederland"
+      },
+      {
+        "claim": "School holiday regions: regio Zuid = Zeeland, Noord-Brabant, Limburg and the southern part of Gelderland; regio Midden = Utrecht, Zuid-Holland and the northern part of Gelderland; regio Noord = Groningen, Friesland, Drenthe, Overijssel, Flevoland, Noord-Holland.",
+        "url": "https://www.rijksoverheid.nl/themas/onderwijs/schoolvakanties/regios-schoolvakantie"
+      }
+    ],
+    "rejectedClaims": [
+      "Mount Scenery at 887 metres. The entry read gives 870; the page quotes 870 and notes that 887 appears elsewhere rather than choosing.",
+      "The exact width of the province at its narrowest and the road distance from Vaals to Mook. Stated qualitatively; no figure was read at source.",
+      "Maastricht University and the Brightlands campuses. Not researched for a province page.",
+      "That Limburg has the lowest share of under-fifteens of all twelve provinces. Only the provinces on this site so far were compared; the page says so.",
+      "Anything the Netherlands hub or Eindhoven owns: the SLO core objectives, the Brainport ratio chain."
+    ]
   }
 }
