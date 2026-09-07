@@ -4060,5 +4060,93 @@
       "A per-stadsdeel population table for 1 January 2026. Only Zuid (146,395) and the city total were found in a primary source; the district pages will carry their own figures.",
       "Anything the Netherlands hub owns: the nine SLO core objectives, the March 2024 finalisation as a spine, the groep 8 streaming advice as an argument, the CET/CEST offset paragraph."
     ]
+  },
+  "coding-classes-in-eindhoven": {
+    "market": "Eindhoven",
+    "bodyClass": "cg-ehv",
+    "pageType": "city",
+    "curriculumAuthority": "Eindhoven, Noord-Brabant: 25 secondary establishments with 17,578 pupils and 65 primary with 19,433 (CBS 1 January 2026). Named: International School Eindhoven (Oirschotsedijk 14b, De Constant Rebecque Kazerne; primary 1965, secondary 1974 as a Philips initiative, IB since 1982, MYP and DP, 731 secondary pupils 2025-26, Dutch primary at Jan Luikenstraat 49 since 2024); Stedelijk College Eindhoven (Henegouwenlaan 2, vmbo to vwo, 1,297); Frits Philips lyceum-mavo (Avignonlaan 1, 1,170); Van Maerlantlyceum (Jacob van Maerlantlaan 11, havo/vwo, 744); Lorentz Casimir Lyceum (Celebeslaan 10, 690); Augustinianum (Dirk Boutslaan 25, 649); SintLucas (Torenallee 75, Strijp-S). Regio Zuid holidays. The hub owns the national digital-literacy curriculum; this page owns Brainport and its schools.",
+    "localProject": "Compounding uncertainty in a chain of ratios (a Fermi chain presented as a point). The one published figure is 20,000 workplaces at BIC Noord (Metropoolregio Eindhoven letter, 12 March 2026; council approval 10 March 2026). Homes inside Eindhoven = 20,000 x share of jobs going to newcomers / employed people per new household x share settling inside the municipality. With inputs 50 to 90 percent, 1.2 to 1.8 and 30 to 70 percent the output runs from about 1,700 to about 10,500 (middle 4,700); region-wide about 5,600 to 15,000. Three plausible ratios multiplied together span a factor of six. Distinct from the ratio-of-ratios trap (Al Mouj), from a denominator nobody published (Bidbid), from a bound treated as a value (Hong Kong) and from the unit-of-analysis trap (Haima): the flaw here is presenting the product of unstated ranges as one number. Computed before writing; ranges labelled illustrative.",
+    "requiredMentions": [
+      "Oirschotsedijk 14b",
+      "De Constant Rebecque Kazerne",
+      "20,000 workplaces",
+      "10 March 2026",
+      "High Tech Campus",
+      "35.4 residents of Indian origin per thousand",
+      "Henegouwenlaan 2",
+      "Van Maerlantlyceum",
+      "Lorentz Casimir Lyceum",
+      "Augustinianum",
+      "Torenallee 75",
+      "23 June 1956",
+      "143 nationalities"
+    ],
+    "sources": [
+      {
+        "claim": "Eindhoven 249,783 residents on 1 January 2026 (CBS provisional); 130,304 households; 33,172 under 15; 36,371 aged 15 to 25; 65 primary establishments with 19,433 pupils; 25 secondary with 17,578; 20 wijken, 116 buurten.",
+        "url": "https://allecijfers.nl/gemeente/eindhoven/"
+      },
+      {
+        "claim": "Twenty wijken on 1 January 2026 from Aanschot 21,082 to De Laak 5,661, summing to 257,354 (does not reconcile with the municipal 249,783; both kept).",
+        "url": "https://allecijfers.nl/ranglijst/grootste-en-kleinste-wijken-in-inwoners-in-de-gemeente-eindhoven/"
+      },
+      {
+        "claim": "Eindhoven 35.4 residents of Indian origin per thousand on 1 January 2024, third after Amstelveen (68.3) and Uithoorn (49.6).",
+        "url": "https://www.cbs.nl/en-gb/news/2025/10/migrants-from-india-are-staying-longer-in-the-netherlands"
+      },
+      {
+        "claim": "Information letter 12 March 2026: Eindhoven council approved the TAM development plan for the ASML campus at BIC Noord on Tuesday 10 March 2026; room for 20,000 workplaces long term plus tens of thousands at suppliers; Best and Oirschot road permits; Noord-Brabant Natura 2000 permit; decisions open to appeal 14 March to 24 April 2026.",
+        "url": "https://metropoolregioeindhoven.nl/actueel/ons-nieuws/informatiebrief-over-besluitvorming-ruimtelijke-procedures-bic-noord-asml-campus"
+      },
+      {
+        "claim": "FRITS, 17 March 2026: symbolic start of site preparation in the week of 10 March 2026; about 100 hectares; around 20,000 workplaces; construction from the second quarter of 2026; first employees 2028; ASML approached Eindhoven in September 2023.",
+        "url": "https://frits.nl/eindhoven-begint-met-bouwrijp-maken-terrein-voor-asml-campus/"
+      },
+      {
+        "claim": "Project Beethoven FAQ: on Thursday 28 March 2024 the outgoing cabinet announced a 2.51 billion euro package for the living and business climate of Brainport Eindhoven and a national talent plan for the chip sector, to enable ASML's continued development in the Netherlands.",
+        "url": "https://static.metropoolregioeindhoven.nl/assets/Bestanden/FAQ-Project-Beethoven.pdf"
+      },
+      {
+        "claim": "ASML: more than 44,000 employees (FTE) in 2025, 143 nationalities, more than 60 locations, global headquarters and largest R&D and manufacturing site in Veldhoven.",
+        "url": "https://www.asml.com/en/company/about-asml"
+      },
+      {
+        "claim": "High Tech Campus Eindhoven: about 300 companies and institutions, more than 12,500 product developers, researchers and entrepreneurs, an estimated 85 nationalities (2024).",
+        "url": "https://en.wikipedia.org/wiki/High_Tech_Campus_Eindhoven"
+      },
+      {
+        "claim": "International School Eindhoven: Oirschotsedijk 14b on the former De Constant Rebecque Kazerne; primary founded 1965; secondary 1974 as a Philips initiative; IB since 1982; MYP and DP; Dutch primary relocated 2024.",
+        "url": "https://en.wikipedia.org/wiki/International_School_Eindhoven"
+      },
+      {
+        "claim": "ISE: about 1,400 students and 200 teachers of about 60 nationalities speaking more than 40 languages; 731 secondary pupils in 2025-26; Dutch bilingual department at Jan Luikenstraat 49.",
+        "url": "https://scholenopdekaart.nl/middelbare-scholen/eindhoven/23754/international-school-eindhoven-secondary-department/"
+      },
+      {
+        "claim": "Eindhoven University of Technology founded 23 June 1956 as Technische Hogeschool Eindhoven; campus 121 hectares.",
+        "url": "https://en.wikipedia.org/wiki/Eindhoven_University_of_Technology"
+      },
+      {
+        "claim": "Fontys: more than 44,000 students, 33,000 of them in Eindhoven.",
+        "url": "https://www.fontys.nl/en/Study-at-Fontys/Practical-information/Our-campuses/Eindhoven.htm"
+      },
+      {
+        "claim": "Secondary schools in Eindhoven with 2025-26 pupils from the municipality: Stedelijk College Eindhoven (Henegouwenlaan 2) 1,297; Frits Philips (Avignonlaan 1) 1,170; Eckartcollege 794; Van Maerlantlyceum (Jacob van Maerlantlaan 11) 744; Lorentz Casimir Lyceum (Celebeslaan 10-20) 690; Huygens Lyceum 669; Augustinianum (Dirk Boutslaan 25) 649; ISE 567; SintLucas (Torenallee 75).",
+        "url": "https://allecijfers.nl/middelbare-scholen-overzicht/eindhoven/"
+      },
+      {
+        "claim": "Philips began in Eindhoven in 1891; the city is nicknamed the Lichtstad; the Dommel runs through it.",
+        "url": "https://nl.wikipedia.org/wiki/Eindhoven"
+      }
+    ],
+    "rejectedClaims": [
+      "60,000 homes needed before 2030 of which 17,000 from Project Beethoven. Found only in search summaries of municipal press releases that returned 403 when fetched. Not used. (The 100 hectares, Q2 2026 start and 2028 first employees were read directly in the FRITS article of 17 March 2026 and are attributed to it.)",
+      "A mapping of the twenty CBS wijken onto the seven stadsdelen. The summary returned for the Wikipedia article was visibly misaligned (it placed Aanschot in Centrum), so no mapping is asserted; the district pages will research it individually.",
+      "ASML employee numbers in Veldhoven specifically. Not published on the page fetched; only the worldwide figure is used.",
+      "TU/e current student numbers. The figure found (about 12,900) is from 2020 and the university's facts page returned 404; the page uses the founding date and campus size only.",
+      "Any claim that informatica is offered at a named Eindhoven school. Not verified; the page advises asking.",
+      "Anything the Netherlands hub owns: the nine SLO core objectives, the March 2024 finalisation as a spine, the groep 8 streaming advice as an argument, the CET/CEST offset paragraph."
+    ]
   }
 }

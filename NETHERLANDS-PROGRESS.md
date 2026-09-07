@@ -20,7 +20,8 @@ Phase 6 (ag- doors): academy spokes x6 (amsterdam, eindhoven, the-hague, utrecht
 | # | Slug | Type | Words | Worst overlap | AI H2 used | Trap used | Commit |
 |---|------|------|-------|---------------|------------|-----------|--------|
 | 1 | coding-classes-in-amstelveen (amv, #40641A) | city | 4,605 | 0.6% vs madha | If an AI can write the cohort model in ten seconds, why should a child in Amstelveen learn to? | Stock vs flow (arrivals fall 46%, residents rise 24% under 56% retention) | 79794f0f |
-| 2 | coding-classes-in-amsterdam (ams, #822A36) | city, hub for 8 districts | 4,918 | 2.3% vs amstelveen | Will an Amsterdam teenager who can ask an AI for the answer ever need to build the model themselves? | Two instruments, one disagreement rate (33% national vs 20% Amsterdam higher test advice, reproduced from opposite causes) | (this commit) |
+| 2 | coding-classes-in-amsterdam (ams, #822A36) | city, hub for 8 districts | 4,918 | 2.3% vs amstelveen | Will an Amsterdam teenager who can ask an AI for the answer ever need to build the model themselves? | Two instruments, one disagreement rate (33% national vs 20% Amsterdam higher test advice, reproduced from opposite causes) | eae63b28 |
+| 3 | coding-classes-in-eindhoven (ehv, #005351) | city, hub for 6 districts | 4,693 | 3.8% vs amsterdam | Should a child in Eindhoven still learn to code when the parents' employer is teaching machines to write it? | Compounding uncertainty in a chain of three ratios (20,000 workplaces to 1,700 to 10,500 homes) | (this commit) |
 
 ## Skipped (kill criterion)
 
@@ -30,7 +31,7 @@ Phase 6 (ag- doors): academy spokes x6 (amsterdam, eindhoven, the-hague, utrecht
 ## Codes in use (letters only; check `coding-global.css` before assigning)
 
 Reserved by older clusters and NOT available: hmr (Al Hamra), lei (Leicester), mst? free, amr (Al Amarat), adm (Adam), ede? free.
-Assigned so far: amv (Amstelveen)
+Assigned so far: amv (Amstelveen), ams (Amsterdam), ehv (Eindhoven), dhg (The Hague)
 
 ## Open issues
 

@@ -68,7 +68,8 @@ const missing = page.dossier.requiredMentions.filter(m => !html.includes(m));
 if (missing.length) fail('requiredMentions absent from page: ' + missing.join(' | '));
 if (/—/.test(html)) fail('em dash in page');
 if (/[\u{1F300}-\u{1FAFF}\u{2600}-\u{27BF}]/u.test(html)) fail('emoji in page');
-if (/5 to 8|five to eight/i.test(html)) fail('old batch size 5 to 8 in page; brand facts say ' + JSON.stringify(require(path.join(ROOT, 'scripts/brand-facts.json')).batchSizes.group));
+// 'groep 5 to 8', 'grades 5 to 8' and 'class 5 to 8' are school-year ranges, not a batch size.
+if (/(?<!groep |grades? |class(?:es)? |years? )5 to 8(?! (?:child|pupil|learner))|five to eight/i.test(html)) fail('old batch size 5 to 8 in page; brand facts say ' + JSON.stringify(require(path.join(ROOT, 'scripts/brand-facts.json')).batchSizes.group));
 if (/\+1\b.*strip|countryIso:'IN'/.test(html)) fail('wrong lead contract');
 if (!html.includes("countryIso:'NL'")) fail('countryIso NL missing');
 
