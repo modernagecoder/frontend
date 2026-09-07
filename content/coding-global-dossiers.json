@@ -6597,5 +6597,59 @@
       "Anything the Amsterdam city page owns: the doorstroomtoets disagreement rate, the Centrale Loting en Matching figures, the 2055 projections and the primary school counts.",
       "The zoning argument, which belongs to the Tilburg page, and the mean-versus-mode argument, which belongs to the Groningen page."
     ]
+  },
+  "coding-classes-in-amsterdam-noord": {
+    "market": "Amsterdam-Noord",
+    "bodyClass": "cg-anr",
+    "pageType": "district",
+    "curriculumAuthority": "Stadsdeel Amsterdam-Noord, Noord-Holland: 112,500 residents on 1 January 2026 across 49.01 km2, the largest of the eight districts by area, about 2,295 per km2; roughly half the district is the wijk Waterland, 2,467 hectares of land holding 2,357 people at 96 per km2 across ten village buurten; zones Noord-West GN18, Oud-Noord GN19, Noord-Oost GN20; one of the first stadsdelen with an elected stadsdeelraad in 1981 alongside Osdorp, deelgemeente status until March 2014, dagelijks bestuur and directly elected stadsdeelcommissie today; separated from the city by the IJ, reached by the Coentunnels, the IJ-tunnel, ferries and metro line 52 since 2018; NDSM artists since the 1990s and Overhoeks on the former Shell ground. Regio Noord holidays. The district page argues from rounded components that do not sum to an unrounded total; Amsterdam-Centrum owns the aggregate-over-ground argument, the Amsterdam city page owns the doorstroomtoets rates and the 2055 projections.",
+    "localProject": "Bound the explanation before you accept it. Every published age band and household count in this district is a multiple of five while the populations, dwelling counts and tenure counts are not, so the person-level breakdowns are rounded and the totals are exact. The bands therefore need not sum to the population, and in Buikslotermeer they exceed it by 5 and in Waterland by 8. Five figures each rounded to the nearest five can be at most 2.5 from the truth apiece, so their sum can be at most 12.5 out, which covers both. Volewijck's bands add to 9,305 against a published 9,277, a gap of 28, more than twice the bound, so rounding provably does not explain it and the page reports an open difference rather than choosing among the candidate causes: a different reference moment for the age table, a coarser rounding rule, or an adjustment protecting small cells. The damage comes from the middle path, scaling the bands or absorbing the residual into the largest group, which fabricates unpublished numbers and destroys the only evidence that anything happened. Distinct from precision propagation (Leeuwarden), which pushes an input interval through a formula, and from a missing value inside an aggregate (Al-Musanaah): here every value is present, the rounding rule is visible in the digits, and the mechanism is that independent rounding breaks additivity by a computable amount that can be tested against the observed gap.",
+    "requiredMentions": [
+      "112,500",
+      "9,277",
+      "9,305",
+      "12,025",
+      "12,030",
+      "2,357",
+      "2,365",
+      "2,467",
+      "7,958",
+      "435,000",
+      "27,700",
+      "982,000",
+      "Volewijck",
+      "Buikslotermeer"
+    ],
+    "sources": [
+      {
+        "claim": "Amsterdam-Noord: 112.500 inwoners (1 januari 2026); oppervlakte 49,01 km2; Noord was in 1981, samen met Osdorp, een van de eerste Amsterdamse stadsdelen met een eigen gekozen stadsdeelraad; deelgemeente status held tot 19 maart 2014; het stadsdeel heeft tegenwoordig een dagelijks bestuur en een rechtstreeks gekozen stadsdeelcommissie; zones Noord-West (GN18), Oud-Noord (GN19) en Noord-Oost (GN20); Landelijk Noord with Ransdorp and Durgerdam; Amsterdam-Noord is van de rest van de stad gescheiden door het IJ, with the Coentunnels and IJ-tunnel; metrolijn 52 has stations Noord and Noorderpark and has connected Noord to Amsterdam-Zuid via Centraal Station since 2018; artists on the former NDSM site since the 1990s; a large part of the former Shell site on the northern IJ bank redeveloped as the woon- en werkwijk Overhoeks.",
+        "url": "https://nl.wikipedia.org/wiki/Amsterdam-Noord"
+      },
+      {
+        "claim": "Wijk Volewijck, Amsterdam: 9,277 inwoners (2026); 5,055 huishoudens averaging 1.9 (2025); 2,580 eenpersoonshuishoudens, 51 percent; ages 1,420 (0 to 15, 15 percent), 1,030 (15 to 25), 3,065 (25 to 45), 2,410 (45 to 65), 1,380 (65+); 131 hectare total, 119 land; bevolkingsdichtheid 7,958 per km2 (2025); 4,906 woningen (2025); average WOZ 435,000 euro (2025); 4,170 huurwoningen (85 percent) and 736 koopwoningen (15 percent); average income 27,700 euro per resident (2024); 3 buurten: Bloemenbuurt-Noord, Bloemenbuurt-Zuid, Van der Pekbuurt.",
+        "url": "https://allecijfers.nl/wijk/volewijck-amsterdam/"
+      },
+      {
+        "claim": "Wijk Buikslotermeer, Amsterdam: 12,025 inwoners (2026); 6,580 huishoudens averaging 1.8 (2025); 3,730 eenpersoonshuishoudens, 57 percent; ages 1,500 (0 to 15, 12 percent), 1,690 (15 to 25), 4,000 (25 to 45), 2,375 (45 to 65), 2,465 (65+); 155 hectare total, 151 land (2025); bevolkingsdichtheid 7,970 per km2 (2025); 5,886 woningen (2025); average WOZ 368,000 euro (2025); 4,179 huurwoningen (71 percent) and 1,707 koopwoningen (29 percent); average income 30,000 euro (2024); 6 buurten: Buikslotermeer-Noord, De Kleine Wereld, Loenermark, Buikslotermeerplein, Plan van Gool, Rode Kruisbuurt.",
+        "url": "https://allecijfers.nl/wijk/buikslotermeer-amsterdam/"
+      },
+      {
+        "claim": "Wijk Waterland, Amsterdam: 2,357 inwoners (2026); 1,000 huishoudens averaging 2.3 (2025); 315 eenpersoonshuishoudens, 32 percent; ages 375 (0 to 15, 16 percent), 280 (15 to 25), 410 (25 to 45), 805 (45 to 65), 495 (65+); 2,774 hectare total, 2,467 land (2025); bevolkingsdichtheid 96 per km2 (2025); 945 woningen (2025); average WOZ 982,000 euro (2025); 728 koopwoningen (77 percent) and 217 huurwoningen (23 percent); average income 43,800 euro (2023, a different year from the other two wijken); 10 buurten: Zunderdorp, Noorderstrook-West, Holysloot, Noorderstrook-Oost, Ransdorp, Zwarte Gouw, Schellingwoude-Noord, Schellingwoude-Oost, Schellingwoude-West, Durgerdam.",
+        "url": "https://allecijfers.nl/wijk/waterland-amsterdam/"
+      },
+      {
+        "claim": "School holiday regions: regio Noord = Groningen, Friesland, Drenthe, Overijssel, Flevoland, Noord-Holland; regio Midden = Utrecht, Zuid-Holland and the northern part of Gelderland; regio Zuid = Zeeland, Noord-Brabant, Limburg and the southern part of Gelderland.",
+        "url": "https://www.rijksoverheid.nl/themas/onderwijs/schoolvakanties/regios-schoolvakantie"
+      }
+    ],
+    "rejectedClaims": [
+      "A cause for the part of the Volewijck gap that rounding cannot explain. Candidates are named and none is chosen, because nothing read settles it.",
+      "Any reconciled age table. The bands are printed as published and are never scaled or adjusted to force agreement with the population.",
+      "A district-level age, household, income or tenure figure. Three of the district's wijken were read and a partial average is not an average.",
+      "Any comparison of the district density with wijk densities. The district area carries no land and water split, and that argument belongs to the Amsterdam-Centrum page.",
+      "Figures for the wijken not read here, including IJplein and the Vogelbuurt, Nieuwendammerham, Banne Buiksloot, Nieuwendam-Noord, the three tuindorpen, Oostzanerwerf, Kadoelen, the Waterlandpleinbuurt, Buiksloterham and Overhoeks. They are named and given no numbers.",
+      "Waterland's 2023 income compared directly with the 2024 incomes of the other two wijken. The years are stated and the comparison is not drawn.",
+      "Anything the Amsterdam city page owns: the doorstroomtoets rates, the Centrale Loting en Matching figures and the 2055 district projections."
+    ]
   }
 }

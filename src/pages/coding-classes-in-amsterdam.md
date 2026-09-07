@@ -77,7 +77,7 @@ The district where the test most often came out above the advice: 33 percent of 
 
 ### Noord
 
-Connected to the centre by the Noord/Zuidlijn since 22 July 2018, 9.7 kilometres and eight stations from Noord to Station Zuid. Second highest share of higher test advice at 30 percent, and projected growth of 37,200, the second largest in the city.
+Now with [a page of its own](/coding-classes-in-amsterdam-noord), arguing about age bands that outnumber the population. Connected to the centre by the Noord/Zuidlijn since 22 July 2018, 9.7 kilometres and eight stations from Noord to Station Zuid. Second highest share of higher test advice at 30 percent, and projected growth of 37,200, the second largest in the city.
 
 ### Oost
 
@@ -266,7 +266,7 @@ Five to ten learners, matched on level, pace and goal rather than on age, distri
 
 ## The town next door, the country page, and the page for building AI
 
-[Coding classes in Amstelveen](/coding-classes-in-amstelveen) covers the municipality on Amsterdam's southern edge with the highest share of Indian-origin residents in the country. The [Netherlands coding hub](/coding-classes-in-netherlands) carries the national curriculum picture and the full course list, and [AI and machine learning classes in the Netherlands](/ai-and-machine-learning-classes-in-netherlands) is for the learner who wants to build models. [Amsterdam-Centrum](/coding-classes-in-amsterdam-centrum) is the first of the eight district pages; the other seven follow in this series.
+[Coding classes in Amstelveen](/coding-classes-in-amstelveen) covers the municipality on Amsterdam's southern edge with the highest share of Indian-origin residents in the country. The [Netherlands coding hub](/coding-classes-in-netherlands) carries the national curriculum picture and the full course list, and [AI and machine learning classes in the Netherlands](/ai-and-machine-learning-classes-in-netherlands) is for the learner who wants to build models. [Amsterdam-Centrum](/coding-classes-in-amsterdam-centrum) and [Amsterdam-Noord](/coding-classes-in-amsterdam-noord) are the first two of the eight district pages; the other six follow in this series.
 
 ## Contact
 

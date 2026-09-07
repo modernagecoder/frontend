@@ -66,7 +66,8 @@ Phase 6 (ag- doors): academy spokes x6 (amsterdam, eindhoven, the-hague, utrecht
 | 45 | coding-classes-in-deventer (dev, #813C0F) | city | 4,982 | 2.9% vs emmen | An AI will tell you the book market declined. Why should a child in Deventer learn to ask what the weather was? | Did the thing move or the conditions? (book market 130,000 in 2008 to 75,000 in 2009 vanwege de regen, with 6 km and 875 kramen unchanged; once-a-year sampling never averages the day out) | 2bdcf286 |
 | 46 | coding-classes-in-venlo (vnl, #832545) | city | 5,025 | 4.4% vs emmen | An AI will happily divide five million by a hundred thousand. Why should a child in Venlo learn to refuse? | Per capita names a population (circa 5m visitors from the Ruhrgebied over 104,195 residents gives 48, over 40,945 gives 122, over 49,770 households gives 100; the served population is in none of the registers) | 1ef0bd12 |
 | 47 | coding-classes-in-uithoorn (uit, #733357) | city | 5,177 | 3.9% vs deventer | An AI reading that page will report no population history for Uithoorn. Why should a child here learn to check? | Which layer is the absence in: world, record or view? (the entry's population graph will not draw and prints a MediaWiki note; the series exists, 24,581 in 1995 against 32,204 in 2026) | b9e837a2 |
-| 48 | coding-classes-in-amsterdam-centrum (acn, #A04761) | district | 5,112 | 4.8% vs uithoorn | An AI will tell you Centrum is less crowded than the Jordaan. Why should a child here learn to say that is impossible? | What was it computed over, and who is it about? (district 11,244/km2 on an area including water, against every wijk on land: Jordaan 23,476, Oostelijke Eilanden 15,682, Grachtengordel-West 14,456, Burgwallen-Oude Zijde 13,600) | (this commit) |
+| 48 | coding-classes-in-amsterdam-centrum (acn, #A04761) | district | 5,112 | 4.8% vs uithoorn | An AI will tell you Centrum is less crowded than the Jordaan. Why should a child here learn to say that is impossible? | What was it computed over, and who is it about? (district 11,244/km2 on an area including water, against every wijk on land: Jordaan 23,476, Oostelijke Eilanden 15,682, Grachtengordel-West 14,456, Burgwallen-Oude Zijde 13,600) | c2d102e1 |
+| 49 | coding-classes-in-amsterdam-noord (anr, #9A5505) | district | 5,281 | 5.5% vs amsterdam-centrum | An AI will make the age bands add up. Why should a child in Noord learn to leave them broken? | Bound the explanation before you accept it (Volewijck bands 9,305 vs population 9,277, a gap of 28 against a rounding bound of 12.5; Buikslotermeer +5 and Waterland +8 both inside it) | (this commit) |
 
 ## Skipped (kill criterion)
 
@@ -76,9 +77,21 @@ Phase 6 (ag- doors): academy spokes x6 (amsterdam, eindhoven, the-hague, utrecht
 ## Codes in use (letters only; check `coding-global.css` before assigning)
 
 Reserved by older clusters and NOT available: hmr (Al Hamra), lei (Leicester), mst? free, amr (Al Amarat), adm (Adam), ede? free.
-Assigned so far: cg: amv (Amstelveen), ams (Amsterdam), ehv (Eindhoven), dhg (The Hague), alm (Almere), utr (Utrecht), rtm (Rotterdam) · ag: nla (academy hub) · provinces: nhl (Noord-Holland), zhl (Zuid-Holland), utp (Utrecht), gld (Gelderland), ovr (Overijssel), lim (Limburg), grp (Groningen), nbr (Noord-Brabant), frl (Friesland), dre (Drenthe), flv (Flevoland), zld (Zeeland) · cities: grn (Groningen), tlb (Tilburg), brd (Breda), nij (Nijmegen), arn (Arnhem), apd (Apeldoorn), hlm (Haarlem), hmm (Haarlemmermeer), zns (Zaanstad), amf (Amersfoort), ens (Enschede), dbo (Den Bosch), zwo (Zwolle), ztm (Zoetermeer), lde (Leiden), lwd (Leeuwarden), mst (Maastricht), ede (Ede), drd (Dordrecht), wst (Westland), alp (Alphen aan den Rijn), alk (Alkmaar), dlf (Delft), emm (Emmen), dev (Deventer), vnl (Venlo), uit (Uithoorn) · districts: acn (Amsterdam-Centrum)
+Assigned so far: cg: amv (Amstelveen), ams (Amsterdam), ehv (Eindhoven), dhg (The Hague), alm (Almere), utr (Utrecht), rtm (Rotterdam) · ag: nla (academy hub) · provinces: nhl (Noord-Holland), zhl (Zuid-Holland), utp (Utrecht), gld (Gelderland), ovr (Overijssel), lim (Limburg), grp (Groningen), nbr (Noord-Brabant), frl (Friesland), dre (Drenthe), flv (Flevoland), zld (Zeeland) · cities: grn (Groningen), tlb (Tilburg), brd (Breda), nij (Nijmegen), arn (Arnhem), apd (Apeldoorn), hlm (Haarlem), hmm (Haarlemmermeer), zns (Zaanstad), amf (Amersfoort), ens (Enschede), dbo (Den Bosch), zwo (Zwolle), ztm (Zoetermeer), lde (Leiden), lwd (Leeuwarden), mst (Maastricht), ede (Ede), drd (Dordrecht), wst (Westland), alp (Alphen aan den Rijn), alk (Alkmaar), dlf (Delft), emm (Emmen), dev (Deventer), vnl (Venlo), uit (Uithoorn) · districts: acn (Amsterdam-Centrum), anr (Amsterdam-Noord)
 
 ## Open issues
+### Watch item opened 2026-09-08: sibling district pages drift up
+
+Amsterdam-Noord scored 5.5 percent against Amsterdam-Centrum, the highest
+sibling pair in the cluster so far, against 1.9 to 4.8 for everything before
+it. District pages share a skeleton the city pages did not: the same
+stadsdeel-entry framing, the same wijk-by-wijk cell grid, the same
+"figures published for N of the district's wijken" sentence. With six more
+Amsterdam districts to come, that drift will cross the 6 percent warn line
+unless section headings, cell structures and the connective prose around the
+wijk figures are varied deliberately from page to page rather than reused.
+Vary the SHAPE, not just the words.
+
 ### Phase 4 method note, settled 2026-09-08 on Amsterdam-Centrum
 
 Stadsdelen are NOT a CBS publication level. `allecijfers.nl` publishes Amsterdam
