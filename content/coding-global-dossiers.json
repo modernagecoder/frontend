@@ -6230,5 +6230,57 @@
       "Visitor numbers for Avifauna and any figure for the nursery trade beyond the count and the area. Not found at source.",
       "Anything the Zuid-Holland page owns: the Randstad boundary question and the provincial totals. Anything the Leiden or Zoetermeer pages own."
     ]
+  },
+  "coding-classes-in-alkmaar": {
+    "market": "Alkmaar",
+    "bodyClass": "cg-alk",
+    "pageType": "city",
+    "curriculumAuthority": "City and municipality of Alkmaar, Noord-Holland: 113,196 residents (CBS 2026) across 17 woonplaatsen, the city holding 92,675 in 2023 and eleven places fewer than a thousand; 44 primary establishments (9,046 pupils) and 12 secondary (7,097); 4,070 students at institutions here across 18 programmes. City rights 11 June 1254; merger with Graft-De Rijp and Schermer on 1 January 2015. Regio Noord holidays with the rest of Noord-Holland. The city page argues from a boundary change inside a series; the province page owns the rank-versus-distance project and Zaanstad owns the entity-with-no-history problem.",
+    "localProject": "A series that crosses a boundary change is measuring two things at once. Alkmaar is published at 104,009 residents in 1995 and 113,196 in 2026, a recorded gain of 9,187. On 1 January 2015 the municipality absorbed Graft-De Rijp and Schermer; the thirteen villages that arrived from them held about 12,430 people by their 2023 published figures, which exceeds the whole recorded gain, so the ground that was Alkmaar in 1995 appears to have lost roughly 3,243 people. The estimate is deliberately rough: the village counts are for 2023 rather than 2015, Koedijk is listed as only partly inside the municipality, and the villages themselves changed in between. Distinct from the merger trap on Zaanstad, where the entity did not exist before 1974 and had no history to plot: here the entity persisted throughout and only its boundary moved, so the raw series is continuous and misleading rather than impossible. Both the 12,430 and the minus 3,243 are labelled as this page arithmetic.",
+    "requiredMentions": [
+      "113,196",
+      "54,740",
+      "23,067",
+      "104,009",
+      "9,046",
+      "7,097",
+      "De Rijp",
+      "Stompetoren",
+      "Schermerhorn",
+      "Grootschermer",
+      "Anja Schouten",
+      "11 June 1254",
+      "Kaasdragersgilde",
+      "12,430"
+    ],
+    "sources": [
+      {
+        "claim": "Alkmaar 113,196 residents in 2026 (CBS); 54,740 households (2025) averaging 2.04, 23,067 single-person (42 percent); 16,455 aged 0 to 15; 12,307 aged 15 to 25; 29,742 aged 25 to 45; 30,082 aged 45 to 65; 24,610 aged 65 and over; total area 11,735 ha, land 11,031 ha; density 1,023; 44 primary establishments (9,046 pupils) and 12 secondary (7,097); 4,070 students at institutions in the municipality and 18 programmes; HBO 2,240 and WO 880; 17 woonplaatsen, 11 wijken and 66 buurten; 104,009 in 1995, a rise of 9,187 (8.8 percent).",
+        "url": "https://allecijfers.nl/gemeente/alkmaar/"
+      },
+      {
+        "claim": "Alkmaar 113,170 residents on 1 January 2026; 117.35 km2 (110.46 land, 6.89 water); density 1,025; mayor Anja Schouten (independent) since 23 June 2021; the merger with Graft-De Rijp and Schermer took effect on 1 January 2015; kernen on 1 January 2023 Alkmaar 92,675, De Rijp 4,395, Ursem 2,995, Koedijk (partly) 2,675, Stompetoren 2,135, Schermerhorn 1,260, Graft 885, West-Graftdijk 755, Grootschermer 715, Oudorp 665, Zuidschermer 650, Oterleek 630, Markenbinnen 320, Driehuizen 240, Starnmeer 220, Oost-Graftdijk 140, Noordeinde 85.",
+        "url": "https://nl.wikipedia.org/wiki/Alkmaar_(gemeente)"
+      },
+      {
+        "claim": "Alkmaar received city rights on 11 June 1254 from Willem II; the relief of the siege of 1573 is commemorated on 8 October with the phrase that victory begins at Alkmaar; the cheese tradition is more than four centuries old, and since 1939 Alkmaar has been the only city still trading cheese in the traditional way.",
+        "url": "https://nl.wikipedia.org/wiki/Alkmaar"
+      },
+      {
+        "claim": "Alkmaar held a weighing right and a cheese scale in 1365; by 1612 there were four scales; the Alkmaarse Kaasdragersgilde was founded on 17 June 1593; the cheese market certainly took place by 1622.",
+        "url": "https://www.kaasmarkt.nl/historie"
+      },
+      {
+        "claim": "School holiday regions: regio Noord = Groningen, Friesland, Drenthe, Overijssel, Flevoland, Noord-Holland; regio Midden = Utrecht, Zuid-Holland and the northern part of Gelderland; regio Zuid = Zeeland, Noord-Brabant, Limburg and the southern part of Gelderland.",
+        "url": "https://www.rijksoverheid.nl/themas/onderwijs/schoolvakanties/regios-schoolvakantie"
+      }
+    ],
+    "rejectedClaims": [
+      "A precise figure for what the 2015 annexation added. The 12,430 is a sum of 2023 village populations applied to a 2015 event and is labelled an estimate everywhere it appears.",
+      "A definite statement that the original territory shrank. The page says the estimate suggests a loss of roughly 3,243 and lists the three reasons the figure is soft.",
+      "A single founding date for the cheese market. Four dates are quoted and the page notes which of them the more than four centuries description fits.",
+      "The population of Koedijk inside Alkmaar. The entry lists the place as partly in the municipality and this page repeats that qualification rather than resolving it.",
+      "Anything the Noord-Holland page owns: the provincial totals and the rank-versus-distance project. Anything the Zaanstad page owns: the 1974 merger and the seven predecessor councils."
+    ]
   }
 }

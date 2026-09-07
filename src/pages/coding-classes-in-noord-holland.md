@@ -76,7 +76,7 @@ Hilversum 94,595, the broadcasting town and a page to come; Gooise Meren 61,213,
 
 ### Alkmaar and IJmond: the cheese town and the steel coast
 
-Alkmaar 113,196, fifth in the province and a page to come; Dijk en Waard 91,411, formed from Heerhugowaard and Langedijk; Castricum 37,077; Heiloo 24,613; Bergen 29,653; and on the coast Velsen 70,361, Beverwijk 43,052, Heemskerk 39,529 and Uitgeest 13,489, around the steelworks at the mouth of the canal.
+[Alkmaar](/coding-classes-in-alkmaar) 113,196, fifth in the province, with its own page; Dijk en Waard 91,411, formed from Heerhugowaard and Langedijk; Castricum 37,077; Heiloo 24,613; Bergen 29,653; and on the coast Velsen 70,361, Beverwijk 43,052, Heemskerk 39,529 and Uitgeest 13,489, around the steelworks at the mouth of the canal.
 
 ### The Kop and West-Friesland: the far north
 
