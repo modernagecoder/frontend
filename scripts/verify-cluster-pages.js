@@ -120,7 +120,16 @@ const BRUNEI_CITIES = new Set(['bandar-seri-begawan', 'kuala-belait', 'tutong',
   'seria', 'liang', 'gadong', 'jerudong']);
 const BRUNEI_DISTRICTS = new Set(['temburong']);
 
+// A dossier may declare its own page type (the Netherlands cluster does), so a
+// new country no longer needs its own hardcoded set here. Falls back to the
+// Oman and Brunei sets, which predate the field.
+const CG_DOSSIERS = (() => {
+  try { return JSON.parse(fs.readFileSync(path.join(ROOT, 'content/coding-global-dossiers.json'), 'utf8')); }
+  catch (e) { return {}; }
+})();
 function pageTypeOf(slug) {
+  const d = CG_DOSSIERS[slug];
+  if (d && d.pageType) return d.pageType;
   const m = slug.replace(/^coding-classes-in-/, '');
   if (OMAN_DISTRICTS.has(m)) return 'district';
   if (OMAN_CITIES.has(m) || BRUNEI_CITIES.has(m)) return 'city';
