@@ -5096,5 +5096,62 @@
       "That Zeeland and Drenthe are the two oldest provinces in the country by over-65 share. Only the provinces on this site were compared, and the page says so.",
       "Anything the Netherlands hub, Noord-Brabant or Zuid-Holland owns: the SLO core objectives, the Baarle enclaves, the Randstad."
     ]
+  },
+  "coding-classes-in-groningen": {
+    "market": "Groningen",
+    "bodyClass": "cg-grn",
+    "pageType": "city",
+    "curriculumAuthority": "City and municipality of Groningen: 244,427 residents (CBS 1 January 2026), sixth largest in the country; 80 primary establishments (15,901 pupils) and 30 secondary (16,469), the unusual case where secondary pupils outnumber primary; 61,889 in higher education. Rijksuniversiteit Groningen (1614) and Hanzehogeschool. Haren and Ten Boer merged in on 1 January 2019; 21 population centres. Regio Noord holidays. The city page argues from household and age structure; the province page owns the earthquake scale and the hub owns the national curriculum.",
+    "localProject": "A mean is a balance point, not a description (a discrete quantity whose average is unattainable, with a majority mode). Groningen: 244,427 residents in 145,521 households is 1.68, published as 1.7, while 61 percent of households hold exactly one person. Splitting gives about 88,768 single-person households averaging 1.00 and about 56,753 others averaging about 2.74; mode and median both sit at 1. Distinct from the midrange-versus-median trap (Tutong), from the average-of-rates trap (Al Mudhaibi) and from the net-figure trap (Utrecht city: pupils in schools versus pupils from homes): the flaw here is reading a mean of a count as a typical case when a 61 percent mode sits elsewhere. Derived before writing, and the assumption that every resident lives in a private household is printed with the result.",
+    "requiredMentions": [
+      "145,521",
+      "88,768",
+      "155,659",
+      "2.74",
+      "52,431",
+      "15,901",
+      "16,469",
+      "61,889",
+      "196,339",
+      "Hanzehogeschool",
+      "Ten Boer",
+      "Glimmen",
+      "1614",
+      "8,250"
+    ],
+    "sources": [
+      {
+        "claim": "Municipality of Groningen 244,427 residents on 1 January 2026 (CBS provisional); 145,521 households averaging 1.7 people with 61 percent single-person; 27,786 under 15; 52,431 aged 15 to 25; 75,681 aged 25 to 45; 38,793 aged 65 and over; 80 primary establishments (15,901 pupils); 30 secondary (16,469); 61,889 students in higher education; total area 19,796 ha, land 18,553 ha; density 1,318; 20 wijken and 160 buurten; 196,339 residents in 1995, a rise of 48,088 (24 percent).",
+        "url": "https://allecijfers.nl/gemeente/groningen/"
+      },
+      {
+        "claim": "Municipality of Groningen 244,829 residents on 1 January 2026, the sixth largest municipality in the Netherlands and the largest in the north; 197.96 km2 total, 185.60 land, 12.36 water; Haren and Ten Boer merged with Groningen on 1 January 2019; 21 population centres, the city 206,010 (2023), Haren 18,450, Ten Boer 4,630, Glimmen 1,370; mayor Roelien Kamminga since 30 June 2025; seven gebiedsdelen and 14 wijken in 106 buurten.",
+        "url": "https://nl.wikipedia.org/wiki/Groningen_(gemeente)"
+      },
+      {
+        "claim": "City of Groningen 206,010 inhabitants on 1 January 2023; the 200,000th resident welcomed on 28 October 2014; roughly 60,000 students of whom nearly 35,000 live in the city (2018); the 20 to 25 age group is 15.9 percent of the population against a national 6.0 percent; the largest city of the northern Netherlands.",
+        "url": "https://nl.wikipedia.org/wiki/Groningen_(stad)"
+      },
+      {
+        "claim": "University of Groningen founded 1614, the second oldest in the Netherlands after Leiden; about 33,000 students in 2025 including 8,250 international students from more than 120 nationalities; about 3,600 academic staff; eleven faculties plus University College Groningen and Campus Fryslân.",
+        "url": "https://en.wikipedia.org/wiki/University_of_Groningen"
+      },
+      {
+        "claim": "Hanzehogeschool Groningen: 31,294 students and 3,831 staff (earlier figures 30,878 and 3,417); formed by merger in 1986 with teaching traced to 1798 at the Academie van Teeken-, Bouw- en Zeevaartkunde; 18 schools.",
+        "url": "https://nl.wikipedia.org/wiki/Hanzehogeschool_Groningen"
+      },
+      {
+        "claim": "School holiday regions: regio Noord = Groningen, Friesland, Drenthe, Overijssel, Flevoland, Noord-Holland; regio Midden = Utrecht, Zuid-Holland and the northern part of Gelderland; regio Zuid = Zeeland, Noord-Brabant, Limburg and the southern part of Gelderland.",
+        "url": "https://www.rijksoverheid.nl/themas/onderwijs/schoolvakanties/regios-schoolvakantie"
+      }
+    ],
+    "rejectedClaims": [
+      "Any sum of the three student figures. 33,000 at the university, 31,294 at the hogeschool and 61,889 in the municipal higher-education count are on different definitions; the page quotes each and adds none.",
+      "A ratio of students to residents aged 15 to 25. 61,889 over 52,431 exceeds 100 percent because the two counts have different frames, so the page does not compute it.",
+      "Which wijken hold the highest single-person share. The 61 percent is municipal; no wijk-level breakdown was read, so the neighbourhood descriptions carry no figures.",
+      "The 2018 figure of nearly 35,000 students living in the city. Quoted in the source entry but too old to use in the arithmetic; kept in the source record only.",
+      "Anything the province page owns: the earthquake magnitudes, the gas field dates, the ten municipalities.",
+      "Anything the Netherlands hub owns: the SLO core objectives and the national informatica figures."
+    ]
   }
 }

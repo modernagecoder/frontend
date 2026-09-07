@@ -73,7 +73,7 @@ module.exports = {
       intro: 'Five landscapes, the municipalities in each, and the register count for every one on 1 January 2026, down to Pekela at 12,579.',
       body: [
         { kind: 'grid3', cells: [
-          { h3: 'The city', p: 'Groningen 244,427, the capital, the university, the Hanze, the station where every line in the north ends, and a page to come. Haren and Ten Boer are inside its boundary since 2019.' },
+          { h3: 'The city', p: '<a class="cg-inline-link" href="/coding-classes-in-groningen">Groningen</a> 244,427, the capital, the university, the Hanze, and the station where every line in the north ends. Haren and Ten Boer are inside its boundary since 2019.' },
           { h3: 'The west', p: 'Westerkwartier 65,067, which is Leek, Zuidhorn, Grootegast and Marum joined in 2019, the second largest by a distance and the road to Friesland.' },
           { h3: 'The middle', p: 'Midden-Groningen 61,346: Hoogezand-Sappemeer, Slochteren and Menterwolde in one, and the ground the gas was found under in 1959.' },
           { h3: 'The north and the coast', p: 'Het Hogeland 48,073, with Eemshaven, Uithuizen and Winsum; Eemsdelta 44,846, with Delfzijl, Appingedam and the villages of the old Loppersum municipality whose names are on the quake record: Huizinge, Westeremden, Zeerijp, Garrelsweer, Wirdum.' },
@@ -215,7 +215,7 @@ module.exports = {
   next: {
     eyebrow: 'Explore the Netherlands',
     h2: 'South along the A28, and up to the country',
-    html: 'The A28 runs south out of the province through Drenthe to <a class="cg-inline-link" href="/coding-classes-in-overijssel">Overijssel</a>, where the dikes have their own arithmetic, and on to <a class="cg-inline-link" href="/coding-classes-in-gelderland">Gelderland</a>. All of these hang off the <a class="cg-inline-link" href="/coding-classes-in-netherlands">Netherlands coding hub</a>; anyone whose goal is a model that learns rather than a program that runs should look at <a class="cg-inline-link" href="/ai-and-machine-learning-classes-in-netherlands">AI and machine learning classes in the Netherlands</a> or the <a class="cg-inline-link" href="/ai-and-python-academy-netherlands">AI and Python Academy</a>. The city of Groningen follows in this series.',
+    html: 'The A28 runs south out of the province through Drenthe to <a class="cg-inline-link" href="/coding-classes-in-overijssel">Overijssel</a>, where the dikes have their own arithmetic, and on to <a class="cg-inline-link" href="/coding-classes-in-gelderland">Gelderland</a>. All of these hang off the <a class="cg-inline-link" href="/coding-classes-in-netherlands">Netherlands coding hub</a>; anyone whose goal is a model that learns rather than a program that runs should look at <a class="cg-inline-link" href="/ai-and-machine-learning-classes-in-netherlands">AI and machine learning classes in the Netherlands</a> or the <a class="cg-inline-link" href="/ai-and-python-academy-netherlands">AI and Python Academy</a>. The city itself has its own page: <a class="cg-inline-link" href="/coding-classes-in-groningen">coding classes in Groningen</a>.',
     waLabel: 'Close with WhatsApp'
   },
 

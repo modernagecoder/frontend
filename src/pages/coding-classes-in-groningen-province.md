@@ -60,7 +60,7 @@ Five landscapes, the municipalities in each, and the register count for every on
 
 ### The city
 
-Groningen 244,427, the capital, the university, the Hanze, the station where every line in the north ends, and a page to come. Haren and Ten Boer are inside its boundary since 2019.
+[Groningen](/coding-classes-in-groningen) 244,427, the capital, the university, the Hanze, and the station where every line in the north ends. Haren and Ten Boer are inside its boundary since 2019.
 
 ### The west
 
@@ -258,7 +258,7 @@ Between five and ten, matched on level, pace and goal rather than on age, school
 
 ## South along the A28, and up to the country
 
-The A28 runs south out of the province through Drenthe to [Overijssel](/coding-classes-in-overijssel), where the dikes have their own arithmetic, and on to [Gelderland](/coding-classes-in-gelderland). All of these hang off the [Netherlands coding hub](/coding-classes-in-netherlands); anyone whose goal is a model that learns rather than a program that runs should look at [AI and machine learning classes in the Netherlands](/ai-and-machine-learning-classes-in-netherlands) or the [AI and Python Academy](/ai-and-python-academy-netherlands). The city of Groningen follows in this series.
+The A28 runs south out of the province through Drenthe to [Overijssel](/coding-classes-in-overijssel), where the dikes have their own arithmetic, and on to [Gelderland](/coding-classes-in-gelderland). All of these hang off the [Netherlands coding hub](/coding-classes-in-netherlands); anyone whose goal is a model that learns rather than a program that runs should look at [AI and machine learning classes in the Netherlands](/ai-and-machine-learning-classes-in-netherlands) or the [AI and Python Academy](/ai-and-python-academy-netherlands). The city itself has its own page: [coding classes in Groningen](/coding-classes-in-groningen).
 
 ## Contact
 
