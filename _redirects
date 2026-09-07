@@ -2194,4 +2194,8 @@
 # International growth cluster (coding-global.css). Must precede the /* catch-all.
 /coding-classes-in-deventer /src/pages/coding-classes-in-deventer.html 200
 /coding-classes-in-deventer.md /src/pages/coding-classes-in-deventer.md 200
+
+# International growth cluster (coding-global.css). Must precede the /* catch-all.
+/coding-classes-in-venlo /src/pages/coding-classes-in-venlo.html 200
+/coding-classes-in-venlo.md /src/pages/coding-classes-in-venlo.md 200
 /* /src/pages/404.html 404
