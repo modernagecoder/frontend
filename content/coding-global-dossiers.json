@@ -4299,5 +4299,70 @@
       "Floriade 2022 figures. The summary returned garbled dates; omitted.",
       "Anything the Netherlands hub owns: the nine SLO core objectives, the March 2024 finalisation as a spine, the groep 8 streaming advice as an argument, the CET/CEST offset paragraph."
     ]
+  },
+  "coding-classes-in-utrecht": {
+    "market": "Utrecht",
+    "bodyClass": "cg-utr",
+    "pageType": "city",
+    "curriculumAuthority": "Utrecht: 31 secondary establishments in the municipality with 20,640 pupils (CBS 1 January 2026); 68 establishments and 62 schools serving 15,770 Utrecht-resident pupils (register 2025-26); 113 primary with 31,673. Named: International School Utrecht (Van Deventerlaan 1, Papendorp; PYP, MYP, DP; governed by NUOVO Scholen and SPO Utrecht; 457); Amadeus Lyceum (Burchtpoort 3, Vleuten; 1,630); Het Boni (Burg. Fockema Andreaelaan 7-9; havo/vwo; 1,625); Leidsche Rijn College (Maartvlinder 1; 1,328); Academie Tien (Berlijnplein 300; 1,150); Gerrit Rietveld College (Eykmanlaan 1200; 1,145); Descart (Grebbeberglaan 7; 1,175); UniC (910) and X11 (903) on the Van Bijnkershoeklaan; Christelijk Gymnasium Utrecht (869); Utrechts Stedelijk Gymnasium (747). Regio Midden holidays. The hub owns the national digital-literacy curriculum; this page owns Utrecht's two pupil counts and the station.",
+    "localProject": "A net figure is one equation with two unknowns. CBS counts 20,640 pupils in the 31 secondary schools located in Utrecht; the register counts 15,770 Utrecht-resident secondary pupils across 62 schools; in minus out = 4,870 and nothing else is fixed. The learner tabulates the solution line (out 0 to 8,000 -> in 4,870 to 12,870; share schooled elsewhere 0 to 50.7 percent) and names the third measurement that would collapse it. Second instance on the same page: Utrecht Centraal's 241,730 daily passengers are stated as excluding transfers, at the national transfer hub. Distinct from the unit-of-analysis trap (Haima: one entity, two boundaries), from the stock/flow model (Amstelveen) and from the two-instruments trap (Amsterdam): the flaw here is reading a difference as if it were either of the two gross quantities. Computed before writing; the table is the solution set, not data.",
+    "requiredMentions": [
+      "241,730",
+      "Van Deventerlaan 1",
+      "Amadeus Lyceum",
+      "Het Boni",
+      "Leidsche Rijn College",
+      "Berlijnplein 300",
+      "4 December 1997",
+      "112.32",
+      "Science Park in Oost",
+      "1 January 2001",
+      "20,640",
+      "15,770",
+      "NUOVO Scholen",
+      "Utrechts Stedelijk Gymnasium"
+    ],
+    "sources": [
+      {
+        "claim": "Utrecht 378,121 residents on 1 January 2026 (CBS provisional); 194,040 households; 57,789 under 15; 57,569 aged 15 to 25; 113 primary establishments (31,673 pupils); 31 secondary (20,640); 10 wijken, 111 buurten; origin 59% Dutch, 11% Europe, 30% outside Europe; Morocco 31,694, Turkey 14,466, Suriname 7,720 (2022); about 24% born abroad.",
+        "url": "https://allecijfers.nl/gemeente/utrecht/"
+      },
+      {
+        "claim": "Ten wijken on 1 January 2026: Leidsche Rijn 51,692; Vleuten-De Meern 51,181; Noordwest 45,442; Zuidwest 41,497; Noordoost 39,780; Overvecht 36,124; Oost 33,624; West 29,466; Zuid 28,766; Binnenstad 20,549 (sum 378,121).",
+        "url": "https://allecijfers.nl/ranglijst/grootste-en-kleinste-wijken-in-inwoners-in-de-gemeente-utrecht/"
+      },
+      {
+        "claim": "Secondary schools, 2025-26: 68 establishments serve Utrecht, 31 in the municipality, 62 different schools; 15,770 Utrecht-resident pupils. Amadeus Lyceum (Burchtpoort 3, Vleuten) 1,630; Het Boni (Burg Fockema Andreaelaan 7-9) 1,625; Leidsche Rijn College (Maartvlinder 1) 1,328; Descart (Grebbeberglaan 7) 1,175; Academie Tien (Berlijnplein 300) 1,150; Gerrit Rietveld College (Eykmanlaan 1200) 1,145; UniC (Van Bijnkershoeklaan 2) 910; X11 (Van Bijnkershoeklaan 8) 903; Christelijk Gymnasium Utrecht (Koningsbergerstraat 2) 869; Utrechts Stedelijk Gymnasium (Ina Boudier-Bakkerlaan 7) 747; International School Utrecht (Van Deventerlaan 1) 457.",
+        "url": "https://allecijfers.nl/middelbare-scholen-overzicht/utrecht/"
+      },
+      {
+        "claim": "International School Utrecht: Van Deventerlaan 1, 3528 AG Utrecht; PYP (ages 4 to 11), MYP (11 to 16), DP (16 to 18); governed by NUOVO Scholen and SPO Utrecht.",
+        "url": "https://www.isutrecht.nl/"
+      },
+      {
+        "claim": "Utrecht Centraal: 241,730 daily railway passengers excluding transfers (2025); 16 tracks, 12 through; more than 1,000 departures a day; Stationsplein bicycle parking 29,232 spaces, the largest in the world; first station opened 18 December 1843; current building 2011 to 2016 by Benthem Crouwel.",
+        "url": "https://en.wikipedia.org/wiki/Utrecht_Centraal_station"
+      },
+      {
+        "claim": "Leidsche Rijn: first pile 4 December 1997; 30,000 homes planned; about 90,000 inhabitants planned; about 45,000 residents by 2022; 1,126 hectares; Leidsche Rijn Centrum opened 16 May 2018; four tracks by October 2018; stations Utrecht Leidsche Rijn, Utrecht Terwijde and a relocated Vleuten.",
+        "url": "https://nl.wikipedia.org/wiki/Leidsche_Rijn_(wijk)"
+      },
+      {
+        "claim": "Vleuten-De Meern part of Utrecht since 1 January 2001; Leidsche Rijn the largest Vinex location in the Netherlands, planned for about 90,000 residents; Domtoren 112.32 m, the tallest church tower in the country; Utrecht University founded 1636 with more than 33,000 students; the ten wijken.",
+        "url": "https://nl.wikipedia.org/wiki/Utrecht_(stad)"
+      },
+      {
+        "claim": "Utrecht Science Park: about 300 hectares bought by the state in 1958; called De Uithof until renamed in 2018; tram line 22 (Uithoflijn) from Utrecht Centraal opened 14 December 2019 replacing bus 12; about 3,000 student rooms (Cambridgelaan 1,002, De Bisschoppen 552, Casa Confetti 377, Johanna 655, Campus USP 030 400); Utrecht University, HU and UMC Utrecht on site.",
+        "url": "https://en.wikipedia.org/wiki/Utrecht_Science_Park"
+      }
+    ],
+    "rejectedClaims": [
+      "Utrecht groep 8 advice shares and higher-test-advice rates. No municipal publication was found; national figures only, and the page does not use them.",
+      "The Catharijnesingel restoration date (2020) and the Leidsche Rijntunnel opening date. Not in the sources read; omitted.",
+      "Utrecht University's exact 2025 student count. Only \"more than 33,000\" was found at source.",
+      "Founding year and pupil numbers of the International School Utrecht from its own site. Not on the page read; the register's 457 Utrecht-resident figure is used instead.",
+      "An assignment of each named school to a wijk. Only Vleuten (Amadeus), Berlijnplein (Academie Tien, Leidsche Rijn Centrum), Papendorp (ISU) and the Science Park (Oost) are stated; the rest are given by address only.",
+      "Anything the Netherlands hub owns: the nine SLO core objectives, the March 2024 finalisation as a spine, the groep 8 streaming advice as an argument, the CET/CEST offset paragraph."
+    ]
   }
 }
