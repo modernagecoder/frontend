@@ -5693,5 +5693,65 @@
       "The distance from Glanerbrug to the German border or to Munster in kilometres. Described qualitatively; no figure was read at source.",
       "Anything the Overijssel page owns: the dike standards and the 25 municipalities. Anything the Apeldoorn page owns: the settlement figures and the residual."
     ]
+  },
+  "coding-classes-in-den-bosch": {
+    "market": "’s-Hertogenbosch",
+    "bodyClass": "cg-dbo",
+    "pageType": "city",
+    "curriculumAuthority": "City and municipality of ’s-Hertogenbosch, capital of Noord-Brabant and its fourth city: 162,295 residents (CBS 1 January 2026); 47 primary establishments (13,246 pupils) and 9 secondary (9,112), both 2025, the largest average secondary establishment in this series at about 1,012; 17,559 students in higher education (2026). Four woonplaatsen: the city, Rosmalen, Nuland, Vinkel. City rights 1185. Regio Zuid holidays. The city page argues from cross-field validation in a historical record; the province page owns Baarle and Tilburg owns the wijk zoning.",
+    "localProject": "A column name is a promise, and a missing value is where promises get broken. The Dutch encyclopaedia entry for Jheronimus Bosch gives a death date of 9 August 1516 and a burial date of 8 August 1516, so burial precedes death, while its body says the funeral mass was held on 9 August; the English entry records 9 August 1516 as the burial and gives no death date, with age at death as 65 or 66 because the birth year is approximate. No source read gives the day of death. Each field is individually valid, so only a constraint between fields catches the impossibility, and the underlying cause is a proxy value entered under a label that kept its original promise. Distinct from the transposed-coordinates trap (Masirah, where a single field is well formed but wrong) and from the range-and-calendar trap (Drenthe): here every value is correct in isolation and the fault is purely relational. Both entries are quoted verbatim and the page takes no position on which is right.",
+    "requiredMentions": [
+      "162,295",
+      "77,843",
+      "32,360",
+      "135,156",
+      "13,246",
+      "9,112",
+      "17,559",
+      "Rosmalen",
+      "Nuland",
+      "Vinkel",
+      "Binnendieze",
+      "Jack Mikkers",
+      "Jheronimus Bosch",
+      "9 August 1516"
+    ],
+    "sources": [
+      {
+        "claim": "’s-Hertogenbosch 162,295 residents on 1 January 2026 (CBS provisional); 77,843 households (2025) averaging 2.04, 32,360 single-person (42 percent); 23,314 aged 0 to 15; 18,345 aged 15 to 25; 46,129 aged 25 to 45; 42,007 aged 45 to 65; 32,500 aged 65 and over; total area 11,781 ha, land 10,948 ha; density 1,475; 47 primary establishments (13,246 pupils) and 9 secondary (9,112), both 2025; 17,559 students in higher education (2026); HBO 4,260 and WO 1,530 (2025); 4 woonplaatsen, 14 wijken and 110 buurten; 135,156 in 1995, a rise of 27,139 (20 percent).",
+        "url": "https://allecijfers.nl/gemeente/den-bosch/"
+      },
+      {
+        "claim": "’s-Hertogenbosch 162,272 residents on 1 January 2026; 117.81 km2 (109.99 land, 7.82 water); density 1,475; mayor Jack Mikkers (VVD); provincial capital of Noord-Brabant; woonplaatsen with 2023 populations ’s-Hertogenbosch 112,850, Rosmalen 38,450, Nuland 4,660, Vinkel 2,795, plus Bokhoven, Empel, Engelen, Gewande, Hintham, Maliskamp and Orthen; mergers 1933 Cromvoirt and Deuteren, 1971 Empel en Meerwijk and Engelen, 1996 Rosmalen, 2015 Nuland and Vinkel from the former Maasdonk; city rights 1185 from Godfried III van Leuven.",
+        "url": "https://nl.wikipedia.org/wiki/%27s-Hertogenbosch_(gemeente)"
+      },
+      {
+        "claim": "Dutch entry for Jheronimus Bosch: infobox born ’s-Hertogenbosch 1450 (Julian); died ’s-Hertogenbosch 9 August 1516; burial or cremation date 8 August 1516 (Julian). Body text: on 9 August of that year an exequie, a funeral mass, was held in his honour, and he was buried in the part of the Sint-Janskerkhof where the rich lay.",
+        "url": "https://nl.wikipedia.org/wiki/Jheronimus_Bosch"
+      },
+      {
+        "claim": "English entry for Hieronymus Bosch: born circa 1450, the exact birth date not determined; recorded as buried on 9 August 1516, aged 65 to 66; a memorial funeral mass was held in the church of Saint John on 9 August of that year.",
+        "url": "https://en.wikipedia.org/wiki/Hieronymus_Bosch"
+      },
+      {
+        "claim": "Sint-Janskathedraal, ’s-Hertogenbosch: west tower 73 m, crossing tower 63 m; built about 1370 to about 1530 in Brabantine Gothic; cathedral from 1559; basilica from 22 June 1929.",
+        "url": "https://nl.wikipedia.org/wiki/Sint-Janskathedraal_(%27s-Hertogenbosch)"
+      },
+      {
+        "claim": "The Binnendieze is the collective name for the watercourses of the inner city of ’s-Hertogenbosch; originally about 12 km, now 3,630 m, of which 1,290 m remain vaulted over; a restoration plan was adopted in 1971 and the work ran from about 1973 to 1998; boat tours run on three routes.",
+        "url": "https://nl.wikipedia.org/wiki/Binnendieze"
+      },
+      {
+        "claim": "School holiday regions: regio Zuid = Zeeland, Noord-Brabant, Limburg and the southern part of Gelderland; regio Midden = Utrecht, Zuid-Holland and the northern part of Gelderland; regio Noord = Groningen, Friesland, Drenthe, Overijssel, Flevoland, Noord-Holland.",
+        "url": "https://www.rijksoverheid.nl/themas/onderwijs/schoolvakanties/regios-schoolvakantie"
+      }
+    ],
+    "rejectedClaims": [
+      "A verdict on the correct death or burial date for Jheronimus Bosch. Both entries are quoted as they stand and neither is corrected.",
+      "A day of death for Bosch. No source read gives one; the page says so explicitly.",
+      "An exact age at death. The English entry gives 65 or 66 and the page repeats the range rather than picking a number, because the birth year is approximate in both entries.",
+      "Any reconciliation of the four 2023 woonplaats figures with the 2026 municipal total. The dates differ and no residual is computed.",
+      "Anything the Noord-Brabant page owns: the Baarle enclaves and the 56 municipalities. Anything the Tilburg, Breda or Eindhoven pages own."
+    ]
   }
 }
