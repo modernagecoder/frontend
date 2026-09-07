@@ -60,7 +60,8 @@ for (const m of page.personalityCss.matchAll(/([a-z-]+)\s*:\s*([^;{}]+);/g)) {
   if (/#[0-9a-f]{3,6}\b/i.test(val)) fail('raw hex in personality block: ' + val);
   if (/(fixed|absolute|translate|scale|rotate|blur|gradient|url\()/.test(val)) fail('banned value in personality block: ' + val);
 }
-if (/@media|position\s*:|z-index|transform|filter|box-shadow|animation|opacity/.test(page.personalityCss)) fail('banned property in personality block');
+// (?<!-)transform: text-transform is whitelisted; bare transform is banned.
+if (/@media|position\s*:|z-index|(?<!-)transform|(?<!-)filter|box-shadow|animation|opacity/.test(page.personalityCss)) fail('banned property in personality block');
 
 // every requiredMention must be a literal string in the rendered page
 const html = render(page);

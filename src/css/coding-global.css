@@ -783,3 +783,4 @@
 .cg-root.cg-ams  { --cg-accent: #822A36; --cg-accent-soft: rgba(130,42,54,.10); }   /* Amsterdam: the red of the city flag, kept apart from the hub orange and the Amstelveen green */
 .cg-root.cg-ehv  { --cg-accent: #005351; --cg-accent-soft: rgba(0,83,81,.10); }   /* Eindhoven: a deep teal for the Dommel, the river the city grew along, kept apart from the Philips red that Amsterdam's flag already took */
 .cg-root.cg-dhg  { --cg-accent: #39588A; --cg-accent-soft: rgba(57,88,138,.10); }   /* The Hague: a slate blue for the North Sea at Scheveningen, low enough in chroma to stay out of the retired electric-blue band */
+.cg-root.cg-alm  { --cg-accent: #583D00; --cg-accent-soft: rgba(88,61,0,.10); }   /* Almere: the rapeseed sown on freshly drained polder land, darkened until it clears every paper tint */

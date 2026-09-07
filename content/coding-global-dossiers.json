@@ -4227,5 +4227,77 @@
       "A wijk-to-stadsdeel mapping for Centrum, Segbroek, Scheveningen, Haagse Hout and Loosduinen. Only Escamp, Laak and Leidschenveen-Ypenburg were confirmed in the source read; the other assignments in the district section are limited to wijken whose stadsdeel is not in doubt, and the district pages will verify each.",
       "Anything the Netherlands hub owns: the nine SLO core objectives, the March 2024 finalisation as a spine, the groep 8 streaming advice as an argument, the CET/CEST offset paragraph."
     ]
+  },
+  "coding-classes-in-almere": {
+    "market": "Almere",
+    "bodyClass": "cg-alm",
+    "pageType": "city",
+    "curriculumAuthority": "Almere, Flevoland: 20 secondary establishments with 12,846 pupils (CBS) / 12,597 Almere-resident pupils (register 2025-26) and 86 primary with 22,344. Named: International School Almere (Breskensweg 5, IB MYP and DP, founded 2002, 354 pupils); Helen Parkhurst (Bongerdstraat 1, Dalton, vmbo-vwo, 1,793); Oostvaarders College (A. Boekenweg 3, 1,517); OSG De Meergronden (Marktgracht 65, 1,372); Park Lyceum 1,106; Arte College 876; Poort Lyceum (Pim Mulierstraat 102, 829); Buitenhout College 814; Echnaton 804; Aeres VMBO (Heliumweg 1, 781); Trinitas Gymnasium (Sas van Gentlaan 6, vwo, 672); Stad College 552; Montessori Campus 404. Regio Noord holidays. The hub owns the national digital-literacy curriculum; this page owns the polder, the datum and Almere's schools.",
+    "localProject": "A height without its datum is not a number (reference-frame confusion, with a fixed datum against a moving reference). Almere lies 2 to 5 m below NAP; NAP descends from the 1684 Amsterdams Peil and Rijkswaterstaat says 0 m NAP is only approximately mean North Sea level; Deltares measured mean sea level at 11 cm above NAP in 2017, rising about 20 cm a century since 1890. The learner writes a converter (land height in NAP, year -> depth below actual mean sea level) and shows an illustrative point at 3.5 m below NAP was 3.36 m below the sea in 1890, 3.53 in 1976, 3.61 in 2017, 3.68 in 2050 and 3.78 in 2100 at the constant rate: the land and the datum never moved. Distinct from the boundary-moved trap (Mahdah: a label kept across a redrawn unit), from metric definition (New Jersey) and from the reclassification note on Amstelveen: the flaw here is a measurement quoted without its reference frame, and a frame mistaken for the thing it approximates. Computed before writing; land height and constant rate labelled.",
+    "requiredMentions": [
+      "30 November 1976",
+      "1 January 1984",
+      "Breskensweg 5",
+      "Helen Parkhurst",
+      "Oostvaarders College",
+      "Trinitas Gymnasium",
+      "Flevolijn",
+      "29 May 1987",
+      "Muziekwijk Noord",
+      "Stripheldenbuurt",
+      "30.7 residents of Indian origin per thousand",
+      "11 cm above NAP",
+      "25,261"
+    ],
+    "sources": [
+      {
+        "claim": "Almere 232,619 residents on 1 January 2026 (CBS provisional); 98,394 households; 41,508 under 15; 28,367 aged 15 to 25; 86 primary establishments (22,344 pupils); 20 secondary (12,846); 72 wijken, 239 buurten; origin 2025: 50% Dutch, 41% outside Europe, 28% born abroad; Suriname 25,261, Morocco 8,673, Turkey 4,674.",
+        "url": "https://allecijfers.nl/gemeente/almere/"
+      },
+      {
+        "claim": "Wijken on 1 January 2026: Muziekwijk Noord 11,185; Filmwijk 10,317; Stedenwijk 10,317; Tussen de Vaarten Zuid 9,964; Literatuurwijk 9,648; Noorderplassen 8,255; Homeruskwartier 8,124; Kruidenwijk 7,883; Waterwijk 7,473; Stripheldenbuurt 7,139; Oosterwold 6,901; Centrum Almere Stad 6,585; Danswijk 5,506.",
+        "url": "https://allecijfers.nl/ranglijst/grootste-en-kleinste-wijken-in-inwoners-in-de-gemeente-almere/"
+      },
+      {
+        "claim": "First homes delivered 30 November 1976 (Almere Haven); municipality 1 January 1984 after the Openbaar Lichaam Zuidelijke IJsselmeerpolders; Flevoland a province in 1986; 200,000th resident 3 October 2016; 232,650 on 1 January 2026 (register); 2 to 5 m below sea level and below the Gooimeer, IJmeer and Markermeer; Almere Pampus 4 residents in 2024.",
+        "url": "https://nl.wikipedia.org/wiki/Almere"
+      },
+      {
+        "claim": "Oostelijk Flevoland drained 1957, Zuidelijk Flevoland 1968; the Flevopolder is the largest artificial island in the world.",
+        "url": "https://nl.wikipedia.org/wiki/Flevopolder"
+      },
+      {
+        "claim": "Flevolijn: Weesp to Almere Buiten opened 29 May 1987; Almere Buiten to Lelystad Centrum 28 May 1988; Hanzelijn officially opened 6 December 2012; Almere stations Poort, Muziekwijk, Centrum, Parkwijk, Buiten, Oostvaarders.",
+        "url": "https://nl.wikipedia.org/wiki/Flevolijn"
+      },
+      {
+        "claim": "NAP descends from the Amsterdams Peil of 1684, the average summer high water of the IJ between 1 September 1683 and 1684; the name Normaal Amsterdams Peil follows the 1885 to 1894 corrections; the reference bolt under Dam square was set in 1953 at 1.4278 m above NAP and revised in 2004 to 1.408 m; NAP approximates the geoid and is often equated with mean sea level for convenience.",
+        "url": "https://nl.wikipedia.org/wiki/Normaal_Amsterdams_Peil"
+      },
+      {
+        "claim": "Rijkswaterstaat: all Dutch heights are measured against NAP; 0 m NAP is approximately equal to the mean level of the North Sea; about 35,000 surface benchmarks and 400 underground ones, rechecked every 10 to 15 years.",
+        "url": "https://www.rijkswaterstaat.nl/zakelijk/open-data/normaal-amsterdams-peil"
+      },
+      {
+        "claim": "Deltares, 12 January 2018: Dutch mean sea level (average of six tide stations Vlissingen, Hoek van Holland, IJmuiden, Den Helder, Harlingen, Delfzijl) reached 11 cm above NAP in 2017; rising about 20 cm a century since 1890; land subsidence about 2 cm a century at Vlissingen to 7 cm near Harlingen.",
+        "url": "https://www.deltares.nl/verhalen/zeespiegel-nederlandse-kust-in-2017-hoogste-ooit-gemeten"
+      },
+      {
+        "claim": "Almere 30.7 residents of Indian origin per thousand on 1 January 2024, fourth after Amstelveen (68.3), Uithoorn (49.6) and Eindhoven (35.4).",
+        "url": "https://www.cbs.nl/en-gb/news/2025/10/migrants-from-india-are-staying-longer-in-the-netherlands"
+      },
+      {
+        "claim": "Secondary schools in Almere, 2025-26 Almere-resident pupils: Helen Parkhurst (Bongerdstraat 1) 1,793; Oostvaarders College (A. Boekenweg 3) 1,517; OSG De Meergronden (Marktgracht 65) 1,372; Park Lyceum 1,106; Arte College 876; Poort Lyceum (Pim Mulierstraat 102) 829; Buitenhout College 814; OSG Echnaton 804; Aeres VMBO (Heliumweg 1) 781; Trinitas Gymnasium (Sas van Gentlaan 6) 672; Stad College 552; Montessori Campus 404; International School Almere (Breskensweg 5) 354; total 12,597.",
+        "url": "https://allecijfers.nl/middelbare-scholen-overzicht/almere/"
+      }
+    ],
+    "rejectedClaims": [
+      "International School Almere at Heliumweg 61, founded 10 July 2002, Diploma Programme authorised June 2010 and Middle Years Programme January 2012. Found only in search summaries; the school's site and the IB listing could not be fetched. The page uses the register's address (Breskensweg 5) and the founding year only.",
+      "A journey time from Almere Centrum to Amsterdam. Not stated in the source read; the page names the line, the dates and the stations only.",
+      "Stadsdeel populations. Only wijk figures were found; the page assigns wijken to stadsdelen only where the assignment is not in doubt and gives no stadsdeel totals.",
+      "The 2022 sea level of 9.5 cm above NAP. Found in a trade-press summary of the Zeespiegelmonitor, not read at source; the page anchors on the Deltares 2017 figure that was.",
+      "Floriade 2022 figures. The summary returned garbled dates; omitted.",
+      "Anything the Netherlands hub owns: the nine SLO core objectives, the March 2024 finalisation as a spine, the groep 8 streaming advice as an argument, the CET/CEST offset paragraph."
+    ]
   }
 }
