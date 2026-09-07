@@ -2118,4 +2118,8 @@
 # International growth cluster (coding-global.css). Must precede the /* catch-all.
 /coding-classes-in-apeldoorn /src/pages/coding-classes-in-apeldoorn.html 200
 /coding-classes-in-apeldoorn.md /src/pages/coding-classes-in-apeldoorn.md 200
+
+# International growth cluster (coding-global.css). Must precede the /* catch-all.
+/coding-classes-in-haarlem /src/pages/coding-classes-in-haarlem.html 200
+/coding-classes-in-haarlem.md /src/pages/coding-classes-in-haarlem.md 200
 /* /src/pages/404.html 404

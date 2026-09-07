@@ -5422,5 +5422,61 @@
       "That Apeldoorn has the lowest density or the smallest young-adult share of all Dutch municipalities. Both are stated only as the lowest among the cities in this series.",
       "Anything the Gelderland page owns: the two holiday regions and the 51 municipalities. Anything the Arnhem page owns: the September 1944 tallies and the Veluwezoom figures."
     ]
+  },
+  "coding-classes-in-haarlem": {
+    "market": "Haarlem",
+    "bodyClass": "cg-hlm",
+    "pageType": "city",
+    "curriculumAuthority": "City and municipality of Haarlem, capital of Noord-Holland: 168,898 residents (CBS 1 January 2026) on 29.21 km2 of land, the densest municipality in this series; 49 primary establishments (15,378 pupils) and 18 secondary (12,405); city rights 1245. Two woonplaatsen, 21 wijken, 111 buurten; five stadsdelen in the municipal description. Regio Noord holidays with the rest of Noord-Holland. The city page argues from a stale derived figure; the province page owns the rank-versus-distance lesson and Amsterdam owns its own.",
+    "localProject": "A derived number is a photograph of its inputs at the moment it was taken. The municipal entry publishes 168,946 residents, 32.09 km2 total and 29.17 km2 of land, and states a density of 5,036; the division gives 5,265 against total area and 5,792 against land, so the published density agrees with neither. Inverted, 5,036 implies a population of about 161,605 across the total area, or about 146,900 across the land. The national source publishes 5,777 against its own 168,898 over 29.21, which gives 5,782 and is consistent to within rounding. Distinct from stale cached data (Ibri) and from the two-vintage comparison (Apeldoorn: parts dated 2023 against a whole dated 2026): here a single source is internally inconsistent because a stored result was not recomputed when its own inputs were updated, and the fix is to compute derived values rather than store them. Computed and inverted before writing.",
+    "requiredMentions": [
+      "168,898",
+      "81,464",
+      "35,803",
+      "148,908",
+      "15,378",
+      "12,405",
+      "5,777",
+      "5,036",
+      "161,605",
+      "Teylers",
+      "Jos Wienen",
+      "Haarlemmerhout",
+      "157,843",
+      "Schalkwijk"
+    ],
+    "sources": [
+      {
+        "claim": "Haarlem 168,898 residents on 1 January 2026 (CBS provisional); 81,464 households (2025) averaging 2.04, 35,803 single-person (44 percent); 26,988 aged 0 to 15; 17,847 aged 15 to 25; 49,920 aged 25 to 45; 30,171 aged 65 and over; total area 3,209 ha, land 2,921 ha; density 5,777 per km2; 49 primary establishments (15,378 pupils); 18 secondary (12,405); two woonplaatsen, 21 wijken and 111 buurten; 148,908 in 1995, a rise of 19,990 (13 percent).",
+        "url": "https://allecijfers.nl/gemeente/haarlem/"
+      },
+      {
+        "claim": "Haarlem 168,946 residents on 1 January 2026; 32.09 km2 total, 29.17 land, 2.92 water; mayor Jos Wienen (CDA); city rights 1245 from Count Willem II of Holland; five stadsdelen and 21 wijken; described as one of the most densely populated cities in the country at 5,036 inhabitants per km2; the tenth largest city by population counting urban cores only.",
+        "url": "https://nl.wikipedia.org/wiki/Haarlem"
+      },
+      {
+        "claim": "Grote of Sint-Bavokerk, Haarlem: built 1370 to 1520; crossing tower over 78 metres; Christian Müller organ built 1735 to 1738 with about five thousand pipes; Frans Hals, Pieter Saenredam, Jan Adriaanszoon Leeghwater, Pieter Teyler van der Hulst and Willem Bilderdijk buried there, Bilderdijk the last burial.",
+        "url": "https://nl.wikipedia.org/wiki/Grote_of_Sint-Bavokerk_(Haarlem)"
+      },
+      {
+        "claim": "Teylers Museum, founded 1784 when the Ovale Zaal opened to the public, at Spaarne 16; holds the oldest Dutch museum hall with a near-original interior; a record 157,843 visitors in 2016; placed on the UNESCO tentative list in August 2011 with the submission withdrawn in 2013.",
+        "url": "https://nl.wikipedia.org/wiki/Teylers_Museum"
+      },
+      {
+        "claim": "The Haarlemmerhout is a municipal forest on the edge of Haarlem, described as having existed since the beginning of our era and as a major recreation area. No area figure is given.",
+        "url": "https://nl.wikipedia.org/wiki/Haarlemmerhout"
+      },
+      {
+        "claim": "School holiday regions: regio Noord = Groningen, Friesland, Drenthe, Overijssel, Flevoland, Noord-Holland; regio Midden = Utrecht, Zuid-Holland and the northern part of Gelderland; regio Zuid = Zeeland, Noord-Brabant, Limburg and the southern part of Gelderland.",
+        "url": "https://www.rijksoverheid.nl/themas/onderwijs/schoolvakanties/regios-schoolvakantie"
+      }
+    ],
+    "rejectedClaims": [
+      "A statement that the municipal entry is in error. The page shows that its three figures do not divide into one another and offers the stale-derived-value explanation as the shape of the discrepancy, not as a proven cause.",
+      "That Haarlem was 161,605 or 146,900 in any particular year. Those are inversions of the published density and are labelled as such; no dated population other than 1995 and 2026 is claimed.",
+      "An area figure for the Haarlemmerhout, and any visitor figure for Teylers after 2016. Not found at source.",
+      "Any claim that Haarlem is the densest municipality in the Netherlands. The page says only that it is the densest in this series.",
+      "Anything the Noord-Holland page owns: the rank-versus-distance project and the provincial totals. Anything the Amsterdam page owns."
+    ]
   }
 }

@@ -60,7 +60,7 @@ Each region below names its municipalities with their 1 January 2026 population,
 
 ### Zuid-Kennemerland: the capital and the dunes
 
-Haarlem 168,898, the provincial capital and the second city; Heemstede 27,556; Bloemendaal 23,554; Zandvoort 17,335. Fifteen minutes from Amsterdam by train and a different place entirely in character, with the dunes and the sea at the end of the road.
+[Haarlem](/coding-classes-in-haarlem) 168,898, the provincial capital and the second city, with its own page; Heemstede 27,556; Bloemendaal 23,554; Zandvoort 17,335. Fifteen minutes from Amsterdam by train and a different place entirely in character, with the dunes and the sea at the end of the road.
 
 ### Amstelland-Meerlanden: the airport and the suburbs
 
@@ -225,7 +225,7 @@ Haarlem, with 168,898 residents on 1 January 2026. Amsterdam, with 941,927, is t
 
 ### Which towns in Noord-Holland get their own page, and which are covered here?
 
-Amsterdam and Amstelveen already have pages. Haarlem, Haarlemmermeer, Zaanstad, Alkmaar, Hilversum, Purmerend, Hoorn and Uithoorn follow in this series. The other 34 municipalities, from Dijk en Waard to Oostzaan, are named on this page with their populations, and a family in any of them books exactly the same class.
+Amsterdam, Amstelveen and [Haarlem](/coding-classes-in-haarlem) already have pages. Haarlemmermeer, Zaanstad, Alkmaar, Hilversum, Purmerend, Hoorn and Uithoorn follow in this series. The other 34 municipalities, from Dijk en Waard to Oostzaan, are named on this page with their populations, and a family in any of them books exactly the same class.
 
 ### Why does the page make so much of the gap between Haarlem, Haarlemmermeer and Zaanstad?
 
