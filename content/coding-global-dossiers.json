@@ -6023,5 +6023,58 @@
       "A length for the Sint-Pietersberg tunnel systems. The source says hundreds of kilometres and the page keeps the vagueness rather than inventing a figure.",
       "Anything the Limburg page owns: the Vaalserberg, the 31 municipalities and the flat population since 1995 for the province."
     ]
+  },
+  "coding-classes-in-ede": {
+    "market": "Ede",
+    "bodyClass": "cg-ede",
+    "pageType": "city",
+    "curriculumAuthority": "Municipality of Ede, Gelderland: 125,331 residents (CBS 1 January 2026) across 10 woonplaatsen on 318.15 km2 of land with about 0.15 percent water; 56 primary establishments (11,913 pupils) and 9 secondary (5,401); the highest under-15 share in this series at 17.4 percent. Seven barracks built 1904 to 1940 and closed in 2010. Regio Midden holidays with the northern part of Gelderland. The city page argues from many-to-many relationships; the province page owns the two-calendar split and Arnhem owns the overlapping-categories problem.",
+    "localProject": "A field holds one value; the world often holds several. The Hoge Veluwe national park lies for the greater part in the municipality of Ede and for a small part in the municipality of Arnhem, and no source read publishes the split. A single municipality column set to Ede erases Arnhem's share; set to both, any sum over municipalities double-counts, giving up to 11,000 hectares from a park of at most 5,500; assuming equal shares invents a figure. The learner models the relationship as a link table with an optional share and makes totals report bounds when the share is unknown. The park is published both as approximately 5,400 hectares and as 55 square kilometres within the fencing, so the share of Ede it could occupy is bounded at 17.0 to 17.3 percent of the municipality's land. Distinct from the overlapping-tallies trap (Arnhem, where categories of people overlapped in an addition) and from the part-to-whole trap (Bandar Seri Begawan): here the fault is structural, a many-to-many relationship forced into a one-to-many field, and it is fixed by schema rather than by arithmetic.",
+    "requiredMentions": [
+      "125,331",
+      "53,071",
+      "19,056",
+      "99,158",
+      "11,913",
+      "5,401",
+      "Bennekom",
+      "Lunteren",
+      "Otterlo",
+      "Harskamp",
+      "Ederveen",
+      "Wekerom",
+      "René Verhulst",
+      "Veluwse Poort"
+    ],
+    "sources": [
+      {
+        "claim": "Ede 125,331 residents on 1 January 2026 (CBS); 53,071 households averaging 2.3, 19,056 single-person (36 percent); 21,832 aged 0 to 15; 15,787 aged 15 to 25; 32,335 aged 25 to 45; 30,364 aged 45 to 65; 25,013 aged 65 and over; total area 31,862 ha, land 31,815 ha; density 390; 56 primary establishments (11,913 pupils) and 9 secondary (5,401); 4,466 students at institutions in the municipality; HBO 2,960 and WO 1,450; 10 woonplaatsen, 17 wijken and 71 buurten; 99,158 in 1995, a rise of 26,173 (26 percent).",
+        "url": "https://allecijfers.nl/gemeente/ede/"
+      },
+      {
+        "claim": "Ede 125,303 residents on 1 January 2026; 318.62 km2 (318.18 land, 0.44 water); density 394; mayor René Verhulst (CDA); kernen with 2023 populations Ede 79,435, Bennekom 15,380, Lunteren 13,875, Harskamp 3,955, Ederveen 3,750, Wekerom 2,885, Otterlo 2,180, De Klomp 490; the Hoge Veluwe and the Kröller-Müller Museum at Otterlo.",
+        "url": "https://nl.wikipedia.org/wiki/Ede_(gemeente)"
+      },
+      {
+        "claim": "Nationaal Park De Hoge Veluwe: approximately 5,400 hectares, and 55 km2 within the fencing; it lies for the greater part on the territory of the municipality of Ede and for a small part in the municipality of Arnhem, with no split published; founded 1935; held by the Stichting Het Nationale Park De Hoge Veluwe; 629,439 visitors in 2019 and 498,238 in 2020; the Kröller-Müller Museum is inside the park.",
+        "url": "https://nl.wikipedia.org/wiki/Nationaal_Park_De_Hoge_Veluwe"
+      },
+      {
+        "claim": "Seven barracks were built in Ede between 1904 and 1940, grouped as Ede-West (Prins Maurits, Johan Willem Friso, Van Essen, Arthur Kool, P.L. Bergansius) and Ede-Oost (Elias Beeckman, Simon Stevin); in 2010 all the barracks were closed; the ground is being redeveloped under the name Veluwse Poort, and in early 2019 the municipality of Ede and the province of Gelderland decided to build the World Food Center there.",
+        "url": "https://nl.wikipedia.org/wiki/Ede_(Nederland)"
+      },
+      {
+        "claim": "School holiday regions: regio Midden = Utrecht, Zuid-Holland and the northern part of Gelderland; regio Zuid = Zeeland, Noord-Brabant, Limburg and the southern part of Gelderland; regio Noord = Groningen, Friesland, Drenthe, Overijssel, Flevoland, Noord-Holland.",
+        "url": "https://www.rijksoverheid.nl/themas/onderwijs/schoolvakanties/regios-schoolvakantie"
+      }
+    ],
+    "rejectedClaims": [
+      "Any figure for how the park divides between Ede and Arnhem. No source read publishes one, and the page reports bounds instead.",
+      "A single area for the park. Approximately 5,400 hectares and 55 square kilometres within the fencing are both published and both kept.",
+      "A change between the 2019 and 2020 visitor figures. The second falls in a year of widespread travel restriction and the page quotes both without differencing them.",
+      "Populations for the two woonplaatsen the entry does not size. Only the eight published places are listed.",
+      "Which municipality the Kröller-Müller Museum stands in. The entry places it inside the park and does not name a municipality for it.",
+      "Anything the Gelderland page owns: the two holiday regions and the 51 municipalities. Anything the Arnhem page owns: the September 1944 tallies and the Veluwezoom figures."
+    ]
   }
 }

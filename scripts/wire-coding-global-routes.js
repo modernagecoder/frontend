@@ -182,6 +182,7 @@ const MARKETS = [
   ['coding-classes-in-leiden', 'Leiden, Netherlands'],
   ['coding-classes-in-leeuwarden', 'Leeuwarden, Netherlands'],
   ['coding-classes-in-maastricht', 'Maastricht, Netherlands'],
+  ['coding-classes-in-ede', 'Ede, Netherlands'],
 ];
 
 const SLUGS = MARKETS.map(m => m[0]);

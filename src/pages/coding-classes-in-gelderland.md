@@ -68,7 +68,7 @@ Six regions, each with its municipalities and their 1 January 2026 population fr
 
 ### The Veluwe
 
-[Apeldoorn](/coding-classes-in-apeldoorn) 169,212, third, with its own page; Ede 125,331, fourth and a page to come; Barneveld 63,926; Harderwijk 50,655; Nijkerk 46,283; Epe 33,785; Nunspeet 29,688; Ermelo 28,199; Putten 25,170; Oldebroek 24,535; Elburg 24,039; Heerde 19,325; Hattem 12,822; Scherpenzeel 10,674; Wageningen 42,779 on its southern edge, with the agricultural university.
+[Apeldoorn](/coding-classes-in-apeldoorn) 169,212, third, with its own page; [Ede](/coding-classes-in-ede) 125,331, fourth, with its own page; Barneveld 63,926; Harderwijk 50,655; Nijkerk 46,283; Epe 33,785; Nunspeet 29,688; Ermelo 28,199; Putten 25,170; Oldebroek 24,535; Elburg 24,039; Heerde 19,325; Hattem 12,822; Scherpenzeel 10,674; Wageningen 42,779 on its southern edge, with the agricultural university.
 
 ### The Achterhoek
 
