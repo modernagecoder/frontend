@@ -2046,4 +2046,8 @@
 # Global Build-AI cluster (ai-global.css). Inserted before the /* catch-all.
 /ai-and-python-academy-netherlands /src/pages/ai-and-python-academy-netherlands.html 200
 /ai-and-python-academy-netherlands.md /src/pages/ai-and-python-academy-netherlands.md 200
+
+# International growth cluster (coding-global.css). Must precede the /* catch-all.
+/coding-classes-in-noord-holland /src/pages/coding-classes-in-noord-holland.html 200
+/coding-classes-in-noord-holland.md /src/pages/coding-classes-in-noord-holland.md 200
 /* /src/pages/404.html 404

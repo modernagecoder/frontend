@@ -26,7 +26,8 @@ Phase 6 (ag- doors): academy spokes x6 (amsterdam, eindhoven, the-hague, utrecht
 | 5 | coding-classes-in-almere (alm, #583D00) | city | 4,999 | 2.0% vs eindhoven | Does an Almere child still need to write code when an AI can say in one line how far below the sea they live? | A height without its datum: land fixed, NAP fixed, sea rising 20 cm a century (3.36 m to 3.78 m below the sea, 1890 to 2100) | 6f50054b |
 | 6 | coding-classes-in-utrecht (utr, #006852) | city | 4,787 | 3.8% vs almere | Utrecht educates a large share of the country's engineers. Why should a ten-year-old here still write code when an AI already can? | A net figure is one equation with two unknowns (20,640 pupils in the schools vs 15,770 from the homes; the station excludes transfers) | c019a6ba |
 | 7 | coding-classes-in-rotterdam (rtm, #066374) | city, hub for 8 gebieden | 5,361 | 4.6% vs utrecht | The port already runs on software. Does a Rotterdam child still need to learn to write it, now that AI does too? | Two units, one flow, opposite signs (14.2m TEU up 3.1%, container tonnes down 0.2%, weight per box down 3.2%) | d9a254e5 |
-| 8 | ai-and-python-academy-netherlands (ag-nla, #784400) | ag- hub (market) | 5,487 | 2.3% vs ai-and-python-academy-oman (was 30.3% before every borrowed passage was rewritten) | (ag- page: no AI H2; spine = informatica offered by 238/774 havo and 236/761 vwo schools vs the 200m euro Groningen AI factory) | none (ag- pages carry a spine, not a data trap) | (this commit) |
+| 8 | ai-and-python-academy-netherlands (ag-nla, #784400) | ag- hub (market) | 5,487 | 2.3% vs ai-and-python-academy-oman (was 30.3% before every borrowed passage was rewritten) | (ag- page: no AI H2; spine = informatica offered by 238/774 havo and 236/761 vwo schools vs the 200m euro Groningen AI factory) | none (ag- pages carry a spine, not a data trap) | 75913eb4 |
+| 9 | coding-classes-in-noord-holland (nhl, #8E3A23) | province | 4,354 | 4.2% vs utrecht | A child in Hoorn or Den Helder can ask an AI to rank the province in a second. So why learn to sort it by hand? | A rank is an order, not a distance (places 2 to 4 are 1,920 and 1,777 apart; place 1 is 773,029 ahead) | (this commit) |
 
 ## Skipped (kill criterion)
 
@@ -36,7 +37,7 @@ Phase 6 (ag- doors): academy spokes x6 (amsterdam, eindhoven, the-hague, utrecht
 ## Codes in use (letters only; check `coding-global.css` before assigning)
 
 Reserved by older clusters and NOT available: hmr (Al Hamra), lei (Leicester), mst? free, amr (Al Amarat), adm (Adam), ede? free.
-Assigned so far: cg: amv (Amstelveen), ams (Amsterdam), ehv (Eindhoven), dhg (The Hague), alm (Almere), utr (Utrecht), rtm (Rotterdam) · ag: nla (academy hub)
+Assigned so far: cg: amv (Amstelveen), ams (Amsterdam), ehv (Eindhoven), dhg (The Hague), alm (Almere), utr (Utrecht), rtm (Rotterdam) · ag: nla (academy hub) · provinces: nhl (Noord-Holland)
 
 ## Open issues
 
