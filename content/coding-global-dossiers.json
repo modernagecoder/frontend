@@ -5313,5 +5313,66 @@
       "Vierdaagse participant numbers, Radboud rankings and any figure for the Waalbrug beyond its completion year. Not researched.",
       "Anything the Gelderland page owns: the two holiday regions, the split municipalities, the 51 municipalities."
     ]
+  },
+  "coding-classes-in-arnhem": {
+    "market": "Arnhem",
+    "bodyClass": "cg-arn",
+    "pageType": "city",
+    "curriculumAuthority": "City and municipality of Arnhem, Gelderland: 171,822 residents (CBS 1 January 2026), capital of the province and its second city, eleventh municipality of the country; 44 primary establishments (13,320 pupils) and 18 secondary (9,070), both 2025; 11,302 students at applied level and 1,800 at university level. City rights 13 July 1233. Settlements Elden, Schaarsbergen, De Praets, t Vlot, parts of Terlet and Deelen. Regio Midden holidays with the northern part of Gelderland. The city page argues from category overlap in its own historical record; the province page owns the two-calendar split and Nijmegen owns the oldest-city question.",
+    "localProject": "Categories must be disjoint and share one population before they may be added. Published tallies for September 1944 in this city: about 5,200 British airborne landed on 17 September and about 1,900 on 18 September, a force of roughly 7,100; about 1,500 dead; 6,340 taken prisoner; 2,163 evacuated across the Rhine on the night of 25 to 26 September out of about 2,500 in the perimeter; Polish losses 103 dead and 300 prisoners; 30,000 for the wider operation including Noord-Brabant. Dead plus prisoners is 7,840, already 740 over the force; adding the evacuation gives 10,003, an excess of 2,903 or 41 percent. The overshoot is caused by overlapping membership (wounded then captured), differing windows and a different denominator, not by any figure being wrong. Distinct from the part-to-whole trap (Bandar Seri Begawan: a subset added to its superset) and from double counting after a join (Ash Sharqiyah North): here neither category contains the other and both are legitimate, so the fix is inclusion and exclusion plus a refusal to add across populations. Only the two landing figures are summed on the page.",
+    "requiredMentions": [
+      "171,822",
+      "85,669",
+      "41,787",
+      "134,572",
+      "13,320",
+      "9,070",
+      "11,302",
+      "1,074,594",
+      "Signaal Imbosch",
+      "Schaarsbergen",
+      "13 July 1233",
+      "2,163",
+      "601 metres",
+      "Veluwezoom"
+    ],
+    "sources": [
+      {
+        "claim": "Municipality of Arnhem 171,822 residents on 1 January 2026 (CBS provisional); 85,669 households averaging 1.92, 41,787 single-person (49 percent); 24,923 aged 0 to 15; 22,672 aged 15 to 25; 52,031 aged 25 to 45; 28,522 aged 65 and over; 44 primary establishments (13,320 pupils) and 18 secondary (9,070), both 2025; HBO 11,302 and WO 1,800 (2025); total area 10,154 ha, land 9,774 ha; density 1,733; 24 wijken and 83 buurten; 134,572 in 1995, a rise of 37,250 (28 percent).",
+        "url": "https://allecijfers.nl/gemeente/arnhem/"
+      },
+      {
+        "claim": "Arnhem 172,002 residents on 1 January 2026; area 101.54 km2, land 97.82, water 3.72; mayor Ahmed Marcouch (PvdA); city rights 13 July 1233 from Count Otto II van Gelre; the eleventh municipality of the Netherlands and second in Gelderland after Nijmegen; on the Nederrijn; settlements the city plus Elden and Schaarsbergen, De Praets and t Vlot, and parts of Terlet and Deelen.",
+        "url": "https://nl.wikipedia.org/wiki/Arnhem"
+      },
+      {
+        "claim": "Battle of Arnhem, 17 to 25 September 1944: about 5,200 British paratroopers landed on 17 September and about 1,900 more on 18 September; 30,000 men for the wider operation including actions in Noord-Brabant; British losses about 1,500 dead and 6,340 taken prisoner; Polish losses 103 dead and 300 taken prisoner; German losses about 1,500 dead and 2,000 wounded or missing; of about 2,500 men in the perimeter, 2,163 crossed the Rhine on the night of 25 to 26 September.",
+        "url": "https://nl.wikipedia.org/wiki/Slag_om_Arnhem"
+      },
+      {
+        "claim": "John Frost bridge: built 1932 to 1935 and opened 1935; 601 metres long with a longest span of 120 metres; crosses the Nederrijn; renamed on 16 September 1978 after Lieutenant-Colonel John Dutton Frost of the 2nd Battalion, 1st Airborne Brigade, whose battalion took the north side; the north end was held roughly nine days, 17 to 25 September 1944; destroyed 7 October 1944 by RAF and USAF; rebuilt 1949 and usable from 1950.",
+        "url": "https://nl.wikipedia.org/wiki/John_Frostbrug"
+      },
+      {
+        "claim": "Nationaal Park Veluwezoom: 5,000 hectares, given also as 50 km2; declared the first national park of the Netherlands in 1930; managed by Natuurmonumenten; highest point Signaal Imbosch at 109.9 metres, also the highest point of Gelderland.",
+        "url": "https://nl.wikipedia.org/wiki/Nationaal_Park_Veluwezoom"
+      },
+      {
+        "claim": "Koninklijke Burgers Zoo: founded 1913 by Johan Burgers, moved to Arnhem in 1923; 45 hectares; 1,074,594 visitors in 2024 and 1,100,000 in 2019.",
+        "url": "https://nl.wikipedia.org/wiki/Koninklijke_Burgers%27_Zoo"
+      },
+      {
+        "claim": "School holiday regions: regio Midden = Utrecht, Zuid-Holland and the northern part of Gelderland; regio Zuid = Zeeland, Noord-Brabant, Limburg and the southern part of Gelderland; regio Noord = Groningen, Friesland, Drenthe, Overijssel, Flevoland, Noord-Holland.",
+        "url": "https://www.rijksoverheid.nl/themas/onderwijs/schoolvakanties/regios-schoolvakantie"
+      }
+    ],
+    "rejectedClaims": [
+      "Any total of the 1944 tallies presented as a real number of men. The 7,840 and the 10,003 appear only as what a wrong addition produces, and the page says so each time.",
+      "A number for how many men were both wounded and captured. Not stated in any source read; the project asks for the widest and narrowest values consistent with the published figures rather than asserting one.",
+      "The zoo species and individual counts. The source string reads 462 with 3,210 or more individuals and its meaning was not confirmed, so no animal figure is used.",
+      "Any comparison of the 2024 and 2019 visitor figures. One is exact to the individual and the other is round to the hundred thousand, so no change between them is computed.",
+      "The number of buildings destroyed in the city, the length of the wider operation, and any casualty figure for civilians. Not researched and not stated.",
+      "Anything the Gelderland page owns: the two holiday regions and the 51 municipalities. Anything the Nijmegen page owns: the oldest-city tests."
+    ]
   }
 }

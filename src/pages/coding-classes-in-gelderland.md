@@ -64,7 +64,7 @@ Six regions, each with its municipalities and their 1 January 2026 population fr
 
 ### Arnhem and its ring
 
-Arnhem 171,822, the capital and a page to come; Lingewaard 47,802; Overbetuwe 49,266; Zevenaar 45,570; Rheden 43,849; Renkum 31,356; Duiven 24,852; Westervoort 15,253; Doesburg 11,173; Rozendaal 1,837, the smallest municipality in the province.
+[Arnhem](/coding-classes-in-arnhem) 171,822, the capital, with its own page; Lingewaard 47,802; Overbetuwe 49,266; Zevenaar 45,570; Rheden 43,849; Renkum 31,356; Duiven 24,852; Westervoort 15,253; Doesburg 11,173; Rozendaal 1,837, the smallest municipality in the province.
 
 ### The Veluwe
 
@@ -221,7 +221,7 @@ It does not, as a province. The Rijksoverheid puts the northern part in regio Mi
 
 ### Which Gelderland towns get their own page, and which are covered here?
 
-[Nijmegen](/coding-classes-in-nijmegen) has its own page; Arnhem, Apeldoorn and Ede follow in this series. The other 47 municipalities, from Barneveld and Doetinchem to Rozendaal, are listed above with their populations, and the class is identical whichever one the laptop is in.
+[Nijmegen](/coding-classes-in-nijmegen) has its own page, and so does [Arnhem](/coding-classes-in-arnhem); Apeldoorn and Ede follow in this series. The other 47 municipalities, from Barneveld and Doetinchem to Rozendaal, are listed above with their populations, and the class is identical whichever one the laptop is in.
 
 ### We live in Montferland or Neder-Betuwe. Which region are we actually in?
 
