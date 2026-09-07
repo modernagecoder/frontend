@@ -792,3 +792,5 @@
 .cg-root.cg-gld  { --cg-accent: #04510E; --cg-accent-soft: rgba(4,81,14,.10); }   /* Gelderland: the pine green of the Veluwe, darkened until it clears every paper tint */
 .cg-root.cg-ovr  { --cg-accent: #0D4768; --cg-accent-soft: rgba(13,71,104,.10); }   /* Overijssel: the slate blue of the IJssel in winter, low enough in chroma to stay clear of the retired electric blue */
 .cg-root.cg-lim  { --cg-accent: #681944; --cg-accent-soft: rgba(104,25,68,.10); }   /* Limburg: chosen by the solver for maximum separation from every accent it links to, inside the editorial band */
+.cg-root.cg-grp  { --cg-accent: #424076; --cg-accent-soft: rgba(66,64,118,.10); }   /* Groningen: an indigo picked by the solver for separation from Utrecht's plum and Overijssel's slate, inside the editorial band */
+.cg-root.cg-nbr  { --cg-accent: #6A2203; --cg-accent-soft: rgba(106,34,3,.10); }   /* Noord-Brabant: a burnt sienna the solver placed well away from Eindhoven's rust and Amstelveen's orange */

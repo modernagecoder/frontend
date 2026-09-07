@@ -2070,4 +2070,12 @@
 # International growth cluster (coding-global.css). Must precede the /* catch-all.
 /coding-classes-in-limburg /src/pages/coding-classes-in-limburg.html 200
 /coding-classes-in-limburg.md /src/pages/coding-classes-in-limburg.md 200
+
+# International growth cluster (coding-global.css). Must precede the /* catch-all.
+/coding-classes-in-groningen-province /src/pages/coding-classes-in-groningen-province.html 200
+/coding-classes-in-groningen-province.md /src/pages/coding-classes-in-groningen-province.md 200
+
+# International growth cluster (coding-global.css). Must precede the /* catch-all.
+/coding-classes-in-noord-brabant /src/pages/coding-classes-in-noord-brabant.html 200
+/coding-classes-in-noord-brabant.md /src/pages/coding-classes-in-noord-brabant.md 200
 /* /src/pages/404.html 404

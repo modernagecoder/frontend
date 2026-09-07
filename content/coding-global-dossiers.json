@@ -4760,5 +4760,121 @@
       "That Limburg has the lowest share of under-fifteens of all twelve provinces. Only the provinces on this site so far were compared; the page says so.",
       "Anything the Netherlands hub or Eindhoven owns: the SLO core objectives, the Brainport ratio chain."
     ]
+  },
+  "coding-classes-in-groningen-province": {
+    "market": "the province of Groningen",
+    "bodyClass": "cg-grp",
+    "pageType": "governorate",
+    "curriculumAuthority": "Province of Groningen: 10 municipalities, 601,286 residents (CBS 1 January 2026), 284 primary establishments (41,920 pupils) and 76 secondary (33,214). Capital and largest city Groningen (244,427, 40.7 percent). Regions Westerkwartier, Hogeland, Oldambt, Westerwolde, Veenkoloniën; Eemshaven; three uninhabited islands. Gas field found at Slochteren 1959, shut 1 October 2023. Regio Noord holidays. A province page is about the spread; the hub owns the national curriculum.",
+    "localProject": "A number on a logarithmic scale is a folded number (magnitude read as a count). Five quakes from the Groningen record: Huizinge 2012 at 3.6, Westeremden 2006 at 3.5, Zeerijp 2018 and 14 November 2025 at 3.4, Wirdum 2022 at 3.1, the 2.0 quakes of the 1990s. The learner writes amplitude ratio = 10^dM and energy ratio = 10^(1.5 dM): 3.6 vs 3.5 is 1.26 amplitude and 1.41 energy, not 3 percent; 3.6 vs 2.0 is 39.8 and 251, not 80 percent. Distinct from the return-period trap (Overijssel: a rate read as a schedule), from the two-units trap (a value in the wrong unit) and from the rank-versus-distance trap (Utrecht): the flaw here is subtracting exponents as if they were counts. Computed before writing; the scale-naming disagreement between sources is kept.",
+    "requiredMentions": [
+      "601,286",
+      "ten municipalities",
+      "Westerkwartier",
+      "Midden-Groningen",
+      "Het Hogeland",
+      "Eemsdelta",
+      "Oldambt",
+      "Pekela",
+      "Slochteren",
+      "Huizinge",
+      "Westeremden",
+      "1 October 2023",
+      "31.6",
+      "557,995"
+    ],
+    "sources": [
+      {
+        "claim": "Province of Groningen 601,286 residents on 1 January 2026 (CBS provisional); 10 municipalities; total area 295,518 ha, land 231,586 ha; density 260; 308,424 households; 78,306 under 15; 91,027 aged 15 to 25; 284 primary establishments (41,920 pupils); 76 secondary (33,214); about 7.8 percent growth since 1995 (557,995).",
+        "url": "https://allecijfers.nl/provincie/groningen/"
+      },
+      {
+        "claim": "All 10 municipalities on 1 January 2026: Groningen 244,427; Westerkwartier 65,067; Midden-Groningen 61,346; Het Hogeland 48,073; Eemsdelta 44,846; Oldambt 39,746; Stadskanaal 32,110; Veendam 27,825; Westerwolde 25,267; Pekela 12,579.",
+        "url": "https://allecijfers.nl/ranglijst/grootste-en-kleinste-gemeenten-in-inwoners-in-de-provincie-groningen/"
+      },
+      {
+        "claim": "Capital and largest city Groningen; 10 municipalities; total 2,959.68 km2, land 2,323.94, water 635.74; 601,530 residents end 2025; Commissaris van de Koning René Paas since 18 April 2016; regions Westerkwartier, Hogeland, Oldambt, Westerwolde, Groninger Veenkoloniën; Eemshaven; uninhabited islands Rottumeroog, Rottumerplaat, Zuiderduintjes; gas field discovered 1959 near Kolham/Slochteren.",
+        "url": "https://nl.wikipedia.org/wiki/Groningen_(provincie)"
+      },
+      {
+        "claim": "Groningen gas field discovered 22 July 1959 near Slochteren; in June 2023 the government announced extraction would cease by 1 October 2023; official abandonment 2024; the Huizinge earthquake of 16 August 2012, estimated moment magnitude 3.6, the largest measured above the field.",
+        "url": "https://en.wikipedia.org/wiki/Groningen_gas_field"
+      },
+      {
+        "claim": "Strongest induced quake Huizinge 16 August 2012, magnitude 3.6 (Richter); Westeremden 2006 3.5; Zeerijp 2018 3.4; Garrelsweer 2021 3.2; Wirdum 2022 3.1; since 1991 small quakes above the Slochteren field with magnitudes around 2.0; hypocentres about 3 km below ground level.",
+        "url": "https://nl.wikipedia.org/wiki/Aardbevingen_in_Groningen"
+      },
+      {
+        "claim": "KNMI: a magnitude 3.4 earthquake on 14 November 2025 near Zeerijp, the second strongest in the Groningen gas field; depth fixed at the average reservoir depth of 3 km; KNMI uses the local magnitude scale; gas extraction is responsible for nearly all earthquakes in the north of the Netherlands.",
+        "url": "https://www.knmi.nl/kennis-en-datacentrum/uitleg/aardbevingen-door-gaswinning"
+      },
+      {
+        "claim": "Richter scale: each whole-number increase in magnitude is a tenfold increase in measured amplitude and about 31.6 times the energy released (10^1.5); each increase of 0.2 corresponds to approximately a doubling of energy.",
+        "url": "https://en.wikipedia.org/wiki/Richter_scale"
+      }
+    ],
+    "rejectedClaims": [
+      "The number of earthquakes per year. The KNMI page and the Dutch entry give different figures for 2013 (30 above magnitude 1.5 against 133 events), so no count is stated.",
+      "Which current municipality each quake village lies in. Huizinge, Westeremden, Zeerijp, Garrelsweer and Wirdum are described as villages of the former Loppersum municipality, now in Eemsdelta, from general knowledge; no source read on this page assigns them, so the assignment stays out of the evidence cells.",
+      "The count of houses reinforced (26,000 in the English entry). Not used; the figure is undated there.",
+      "The first quake in the region, 26 December 1986 near Assen. Assen is in Drenthe and the quake predates the Groningen record used here; left out.",
+      "Anything the Netherlands hub or Overijssel owns: the SLO core objectives, the dike-standard arithmetic."
+    ]
+  },
+  "coding-classes-in-noord-brabant": {
+    "market": "Noord-Brabant",
+    "bodyClass": "cg-nbr",
+    "pageType": "governorate",
+    "curriculumAuthority": "Province of Noord-Brabant: 56 municipalities (the most of any province), 2,676,954 residents (CBS 1 January 2026), 921 primary establishments (211,249 pupils) and 186 secondary (134,310). Capital 's-Hertogenbosch (fourth city, 162,295); largest Eindhoven (249,783), then Tilburg and Breda. Regions De Kempen, De Peel, Meierij, Langstraat, Baronie, Markiezaat. Regio Zuid holidays. A province page is about the spread; the hub owns the national curriculum and Eindhoven owns Brainport.",
+    "localProject": "Inside is a count, not a look (point-in-polygon with nested holes; the even-odd rule). Baarle-Nassau holds 22 exclaves of Belgian Baarle-Hertog; eight Dutch pieces lie inside Belgian ground, seven of them second-order (six in the largest Belgian exclave, one in the second largest) and one near Ginhoven in Belgium proper. The learner counts the enclave boundaries around a point: even is the Netherlands, odd is Belgium, starting from the country of the outermost ground. Rule A (outer line decides) fails in 22 patches; Rule B (any Belgian ring decides) fails in seven; Ginhoven shows the count needs a starting side. Distinct from the no-boundary trap (Zuid-Holland: a region nobody drew), the scope trap (Limburg: which set), and the perimeter-versus-area trap (Al Hamra): the flaw here is testing membership against one curve when the boundary is many. Worked through before writing; the rule for buildings on the line was not read at source and is stated as a gap.",
+    "requiredMentions": [
+      "2,676,954",
+      "56 municipalities",
+      "'s-Hertogenbosch",
+      "Baarle-Nassau",
+      "Baarle-Hertog",
+      "Ginhoven",
+      "Treaty of Maastricht",
+      "De Kempen",
+      "De Peel",
+      "Langstraat",
+      "Markiezaat",
+      "Land van Cuijk",
+      "Meierijstad",
+      "2,276,207"
+    ],
+    "sources": [
+      {
+        "claim": "Noord-Brabant 2,676,954 residents on 1 January 2026 (CBS provisional); 56 municipalities; land 490,156 ha; density 544; 1,227,495 households; 384,718 under 15; 313,390 aged 15 to 25; 921 primary establishments (211,249 pupils); 186 secondary (134,310); 400,747 more than 1995 (2,276,207), an 18 percent rise; capital 's-Hertogenbosch; province since 1815; regions De Kempen, De Peel, Meierij, Langstraat.",
+        "url": "https://allecijfers.nl/provincie/noord-brabant/"
+      },
+      {
+        "claim": "All 56 municipalities on 1 January 2026, Eindhoven 249,783 to Baarle-Nassau 7,256: Tilburg 230,746; Breda 190,204; Den Bosch 162,295; Helmond 96,860; Oss 95,549; Land van Cuijk 93,645; Meierijstad 85,236; Roosendaal 78,165; Bergen op Zoom 70,691; Maashorst 60,059; Altena 58,946; Oosterhout 58,726; Waalwijk 51,635; Veldhoven 47,918; Heusden 46,689; Etten-Leur 46,117; Geldrop-Mierlo 40,683; Moerdijk 38,467; Boxtel 34,302; Deurne 33,596; Oisterwijk 33,356; Vught 33,202; Bernheze 32,947; Valkenswaard 31,920; Gemert-Bakel 31,806; Best 31,699; Halderberge 31,484; Sint-Michielsgestel 30,191; Gilze en Rijen 28,437; Drimmelen 28,402; Dongen 27,673; Goirle 24,886; Steenbergen 24,596; Nuenen, Gerwen en Nederwetten 24,473; Loon op Zand 24,111; Rucphen 23,973; Laarbeek 23,541; Zundert 23,088; Woensdrecht 22,301; Geertruidenberg 21,914; Cranendonck 21,101; Bladel 21,046; Eersel 20,537; Someren 20,471; Oirschot 19,801; Bergeijk 19,436; Son en Breugel 18,140; Waalre 17,864; Asten 17,484; Heeze-Leende 17,281; Hilvarenbeek 16,315; Reusel-De Mierden 13,729; Boekel 11,686; Alphen-Chaam 10,495.",
+        "url": "https://allecijfers.nl/ranglijst/grootste-en-kleinste-gemeenten-in-inwoners-in-de-provincie-noord-brabant/"
+      },
+      {
+        "claim": "Capital 's-Hertogenbosch; Commissaris van de Koning Ina Adema; about 2.68 million residents end 2025, third by population; 5,082 km2 (4,905 land, 177 water), second largest by area after Gelderland; 56 municipalities, the most of any province; Eindhoven the largest at roughly 248,000, then Tilburg and Breda; established 1815; regions De Kempen, De Peel, Meierij, Langstraat, Baronie, Markiezaat; Baarle-Nassau with its enclaves on the Belgian border.",
+        "url": "https://nl.wikipedia.org/wiki/Noord-Brabant"
+      },
+      {
+        "claim": "22 exclaves of Baarle-Hertog in Baarle-Nassau and eight exclaves of Baarle-Nassau in Baarle-Hertog, some of them enclaves of the second order; Baarle-Nassau 7,254 residents on 1 January 2026; 76.29 km2 (76.14 land, 0.15 water).",
+        "url": "https://nl.wikipedia.org/wiki/Baarle-Nassau"
+      },
+      {
+        "claim": "Baarle-Hertog comprises 26 parcels, 22 of them exclaves wholly surrounded by the Netherlands; eight Dutch counter-exclaves, six inside the largest Belgian exclave, one inside the second largest, one near Ginhoven; origin in medieval treaties between the lords of Breda and the dukes of Brabant; ratified under the Treaty of Maastricht 1843; final delimitation 1995.",
+        "url": "https://en.wikipedia.org/wiki/Baarle-Hertog"
+      },
+      {
+        "claim": "School holiday regions: regio Zuid = Zeeland, Noord-Brabant, Limburg and the southern part of Gelderland; regio Midden = Utrecht, Zuid-Holland and the northern part of Gelderland; regio Noord = Groningen, Friesland, Drenthe, Overijssel, Flevoland, Noord-Holland.",
+        "url": "https://www.rijksoverheid.nl/themas/onderwijs/schoolvakanties/regios-schoolvakantie"
+      }
+    ],
+    "rejectedClaims": [
+      "The front-door rule for buildings straddling the border. Widely repeated; not read at either source used here, so the page names it as a gap in the geometry rather than stating it.",
+      "Baarle-Nassau at 7,254 versus 7,256 on the same date. Both kept; the page uses the register list figure in the spread and quotes the other in the evidence.",
+      "The nine regional groupings of the 56 municipalities. The page's own arrangement for reading, labelled as such; not an official division.",
+      "Anything the Eindhoven page owns: the Brainport ratio chain, the Indian-origin share, the university's founding.",
+      "Anything the Netherlands hub owns: the SLO core objectives and the national informatica figures."
+    ]
   }
 }
