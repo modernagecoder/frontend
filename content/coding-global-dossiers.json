@@ -5028,5 +5028,73 @@
       "Anything the Almere page owns: the city's own project and its local figures beyond the five counts quoted here.",
       "Anything the Netherlands hub owns: the SLO core objectives and the national informatica figures."
     ]
+  },
+  "coding-classes-in-zeeland": {
+    "market": "Zeeland",
+    "bodyClass": "cg-zld",
+    "pageType": "governorate",
+    "curriculumAuthority": "Province of Zeeland: 13 municipalities, 394,538 residents (CBS 1 January 2026), 215 primary establishments (30,786 pupils) and 41 secondary (17,922). Capital Middelburg (largest town, 43,165 in 2023; second municipality, 50,439). Largest municipality Terneuzen (55,955; town 26,080 in 2023, fourth). Former islands joined by the Delta Works after the 1953 flood (1,836 dead, 864 in Zeeland). Westerscheldetunnel 2003. Over-65 share 25.5 percent. Regio Zuid holidays. A province page is about the spread; the hub owns the national curriculum.",
+    "localProject": "The unit of observation decides the ranking (one name, two kinds of row). Municipal counts: Terneuzen 55,955, Middelburg 50,439, Vlissingen 45,878, Goes 40,387. Town counts: Middelburg 43,165 (2023), Vlissingen about 34,000, Goes 29,226, Terneuzen 26,080 (2023). Sorted, first becomes fourth and second becomes first. The learner builds both rankings, joins them on the name to see Terneuzen get two populations, and fixes it with a hierarchy column. Distinct from the part-to-whole trap (Bandar Seri Begawan: adding a town to its municipality), from the Lumut trap (several settlements sharing one name) and from the scope trap (Limburg: which set): the flaw here is ranking rows of one level with figures from another because the labels match. Built before writing; every pair of differing counts is kept.",
+    "requiredMentions": [
+      "394,538",
+      "13 municipalities",
+      "Terneuzen",
+      "Middelburg",
+      "Vlissingen",
+      "Goes",
+      "Zeeuws-Vlaanderen",
+      "Walcheren",
+      "Schouwen-Duiveland",
+      "Noord-Beveland",
+      "Westerscheldetunnel",
+      "43,165",
+      "26,080",
+      "365,846"
+    ],
+    "sources": [
+      {
+        "claim": "Zeeland 394,538 residents on 1 January 2026 (CBS provisional); 13 municipalities; total area 293,345 ha, land 177,989 ha, water 115,355 ha; density 221; 183,267 households; 57,240 under 15; 41,744 aged 15 to 25; 100,648 aged 65 and over; 215 primary establishments (30,786 pupils); 41 secondary (17,922); 365,846 in 1995, a rise of 28,692 (7.8 percent).",
+        "url": "https://allecijfers.nl/provincie/zeeland/"
+      },
+      {
+        "claim": "All 13 municipalities on 1 January 2026: Terneuzen 55,955; Middelburg 50,439; Vlissingen 45,878; Goes 40,387; Schouwen-Duiveland 34,409; Hulst 27,376; Tholen 27,031; Reimerswaal 23,388; Sluis 23,199; Borsele 23,186; Veere 22,037; Kapelle 13,186; Noord-Beveland 8,067.",
+        "url": "https://allecijfers.nl/ranglijst/grootste-en-kleinste-gemeenten-in-inwoners-in-de-provincie-zeeland/"
+      },
+      {
+        "claim": "Capital Middelburg; Commissaris van de Koning Hugo de Jonge; 394,514 residents end 2025 across 13 municipalities; 2,933.44 km2 total, 1,782.12 land, 1,151.32 water; former islands and peninsulas Walcheren, Noord-Beveland, Zuid-Beveland, Schouwen-Duiveland, Tholen, Sint Philipsland, and Zeeuws-Vlaanderen; town figures Vlissingen about 34,000, Goes 29,226, Terneuzen 25,511; the Westerscheldetunnel, 6.6 km, opened 2003; the Oosterscheldekering as part of the Deltawerken after the 1953 flood.",
+        "url": "https://nl.wikipedia.org/wiki/Zeeland_(provincie)"
+      },
+      {
+        "claim": "The town of Middelburg had 43,165 residents on 1 January 2023 and is the largest town of Zeeland and the smallest provincial capital in the country; the municipality had 50,438 on 1 January 2026.",
+        "url": "https://nl.wikipedia.org/wiki/Middelburg_(Zeeland)"
+      },
+      {
+        "claim": "The town of Terneuzen had 26,080 residents in 2023, the fourth town of Zeeland and the largest in Zeeuws-Vlaanderen.",
+        "url": "https://nl.wikipedia.org/wiki/Terneuzen_(stad)"
+      },
+      {
+        "claim": "The municipality of Terneuzen had 55,942 residents on 1 January 2026, the largest municipality of Zeeland by residents; 317.76 km2 (250.38 land, 67.38 water); 13 towns and villages plus hamlets.",
+        "url": "https://nl.wikipedia.org/wiki/Terneuzen_(gemeente)"
+      },
+      {
+        "claim": "Westerscheldetunnel opened 14 March 2003; 6.6 km, the longest road tunnel in the Netherlands; deepest point 60 m below water level at the Pas van Terneuzen; connects Ellewoutsdijk (Zuid-Beveland) with Terneuzen; replaced the Kruiningen to Perkpolder car ferry and reduced Breskens to Vlissingen to a bicycle and foot ferry; toll-free for cars and motorcycles from 30 December 2024 at 15:00; other vehicles tolled until 2033.",
+        "url": "https://nl.wikipedia.org/wiki/Westerscheldetunnel"
+      },
+      {
+        "claim": "The flood of the night of 31 January to 1 February 1953: 1,836 dead in the Netherlands, 864 in Zeeland and 677 in Zuid-Holland; over 150,000 ha inundated; about 150 dike breaches; about 100,000 people lost their homes; 72,000 evacuated; it led to the Deltaplan and the Deltawerken.",
+        "url": "https://nl.wikipedia.org/wiki/Watersnoodramp_van_1953"
+      },
+      {
+        "claim": "School holiday regions: regio Zuid = Zeeland, Noord-Brabant, Limburg and the southern part of Gelderland; regio Midden = Utrecht, Zuid-Holland and the northern part of Gelderland; regio Noord = Groningen, Friesland, Drenthe, Overijssel, Flevoland, Noord-Holland.",
+        "url": "https://www.rijksoverheid.nl/themas/onderwijs/schoolvakanties/regios-schoolvakantie"
+      }
+    ],
+    "rejectedClaims": [
+      "The dates of the town figures in the province's entry (Vlissingen about 34,000, Goes 29,226, Terneuzen 25,511). Undated there; the table says so and uses the dated Terneuzen figure from the town's own entry.",
+      "Which villages belong to the municipality of Middelburg. Arnemuiden and Nieuw- en Sint Joosland are named in a FAQ from general knowledge, with no figures attached.",
+      "The nuclear plant at Borssele, the oyster beds at Yerseke and the canal to Ghent. Named as landmarks in the spread only.",
+      "That Zeeland and Drenthe are the two oldest provinces in the country by over-65 share. Only the provinces on this site were compared, and the page says so.",
+      "Anything the Netherlands hub, Noord-Brabant or Zuid-Holland owns: the SLO core objectives, the Baarle enclaves, the Randstad."
+    ]
   }
 }
