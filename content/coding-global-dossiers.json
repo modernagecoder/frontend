@@ -4364,5 +4364,83 @@
       "An assignment of each named school to a wijk. Only Vleuten (Amadeus), Berlijnplein (Academie Tien, Leidsche Rijn Centrum), Papendorp (ISU) and the Science Park (Oost) are stated; the rest are given by address only.",
       "Anything the Netherlands hub owns: the nine SLO core objectives, the March 2024 finalisation as a spine, the groep 8 streaming advice as an argument, the CET/CEST offset paragraph."
     ]
+  },
+  "coding-classes-in-rotterdam": {
+    "market": "Rotterdam",
+    "bodyClass": "cg-rtm",
+    "pageType": "city",
+    "curriculumAuthority": "Rotterdam, Zuid-Holland: 81 secondary establishments with 37,967 pupils (CBS 1 January 2026); register 2025-26: 82 establishments in the municipality, 26,376 Rotterdam pupils across 142 schools. Named: Rotterdam International Secondary School (Bentincklaan 294, Wolfert van Borselen group, IB DP and IGCSE, about 400 pupils 2021, 82 countries 2017); Wolfert Tweetalig (Bentincklaan 280, bilingual vbo-vwo, 1,062); Nord Anglia International School Rotterdam (Hillegersberg, founded 1959 as the American International School of Rotterdam, Nord Anglia since 2018, IB World School, about 260 pupils, 40+ nationalities); Melanchthon Schiebroek (Van Bijnkershoekweg 97, 1,129); Erasmiaans Gymnasium (Wytemaweg 25, vwo, 858); Montessori Lyceum Rotterdam (981); Emmauscollege (Alexandriestraat 40, 973); De Hef (Slaghekstraat 221, vbo/mavo, 603). Regio Midden holidays. The hub owns the national digital-literacy curriculum; The Hague owns the Surinamese-origin definition argument; this page owns the port and the fourteen gebieden.",
+    "localProject": "Two units, one flow, opposite signs. Port of Rotterdam Authority 2025 figures (reported 27 February and 2 March 2026): containers 14.2 million TEU, plus 3.1 percent, while container cargo by weight fell 0.2 percent; total throughput 428.4 million tonnes, minus 1.7 percent. A TEU counts box-lengths including empties; a tonne weighs contents. The learner keeps the two as separate variables, derives 2024 TEU (13.77 million) and the weight-per-box index (96.8, minus 3.2 percent), then adds the unpublished empty share as a labelled assumption (20 to 23 percent: loaded boxes minus 0.8 percent; 20 to 25 percent: minus 3.3 percent). Distinct from the truncation trap (Yanqul: same unit, rounding), from the name-based misfiling of tonnages (Liwa), from the unit-of-analysis trap (Haima: one entity, two boundaries) and from the two-instruments trap (Amsterdam: two measurements of one latent value): the flaw here is reading growth in one unit as growth in the flow. Computed before writing; illustrative rows labelled.",
+    "requiredMentions": [
+      "428.4 million tonnes",
+      "14.2 million TEU",
+      "Bentincklaan 294",
+      "Wolfert Tweetalig",
+      "Melanchthon Schiebroek",
+      "Erasmiaans Gymnasium",
+      "Prins Alexander",
+      "14 May 1940",
+      "Maastunnel",
+      "8 November 1913",
+      "52,003",
+      "Slaghekstraat 221",
+      "Nord Anglia International School Rotterdam",
+      "670,760",
+      "19 March 2014"
+    ],
+    "sources": [
+      {
+        "claim": "Rotterdam 673,804 residents on 1 January 2026 (CBS provisional); 342,340 households averaging 1.93; 99,640 under 15; 90,861 aged 15 to 25; 168 primary establishments (55,423 pupils); 81 secondary (37,967); 22 wijken, 92 buurten; origin 43% Dutch (287,754), 13% Europe (86,833), 44% outside Europe (298,373); born abroad 34% (228,079); Suriname 52,003, Turkey 47,750, Morocco 46,211 (2022).",
+        "url": "https://allecijfers.nl/gemeente/rotterdam/"
+      },
+      {
+        "claim": "Wijken (gebieden) on 1 January 2026: Prins Alexander 97,794; Feijenoord 81,512; Delfshaven 76,590; Charlois 70,932; IJsselmonde 63,475; Kralingen-Crooswijk 54,856; Noord 51,962; Hillegersberg-Schiebroek 44,792; Rotterdam Centrum 42,924; Hoogvliet 36,752; Overschie 21,157; Rozenburg 12,619; Hoek van Holland 10,513; Pernis 4,882; Nieuw Mathenesse 2,922; Spaanse Polder 64; Waalhaven-Eemhaven 28; Rotterdam-Noord-West 15; Botlek-Europoort-Maasvlakte 7; Vondelingenplaat 0; Rivium 0.",
+        "url": "https://allecijfers.nl/ranglijst/grootste-en-kleinste-wijken-in-inwoners-in-de-gemeente-rotterdam/"
+      },
+      {
+        "claim": "Port of Rotterdam 2025 (article 27 February 2026): 428.4 million tonnes (minus 1.7%); dry bulk minus 6.5%; liquid bulk minus 1.5%; crude 101.2 Mt (plus 3.4%); coal 17.3 Mt (minus 8.7%); iron ore and scrap minus 11.5%; LNG 13.0 Mt (plus 15.1%); containers 14.2 million TEU (plus 3.1%), tonnage minus 0.2%; Asia imports plus 9.3%; North America plus 13.6%; revenue EUR 940.4 million (plus 6.6%); EBITDA EUR 583.6 million (plus 3.6%).",
+        "url": "https://container-news.com/rotterdam-port-throughput-falls-1-7-in-2025/"
+      },
+      {
+        "claim": "Port of Rotterdam 2025 (article 2 March 2026): same figures; breakbulk plus 4.6%; agribulk plus 6.3%; TEU rose while tonnes fell because of a 9.3% rise in imports from Asia, lower export volumes, a decline in transhipment, and congestion at container quays that diverted volume to other ports and increased empty-container handling.",
+        "url": "https://swzmaritime.nl/news/2026/03/02/port-of-rotterdam-throughput-declined-in-2025/"
+      },
+      {
+        "claim": "Secondary schools 2025-26, Rotterdam-resident pupils: Melanchthon Schiebroek (Van Bijnkershoekweg 97) 1,129; Wolfert Tweetalig (Bentincklaan 280) 1,062; Montessori Lyceum Rotterdam (Schimmelpenninckstraat 17) 981; Emmauscollege (Alexandriestraat 40) 973; Erasmiaans Gymnasium (Wytemaweg 25) 858; Het Lyceum Rotterdam 814; Rotterdam Designcollege 812; Avicenna College 722; Rudolf Steiner College 700; Hugo de Groot 696; Einstein Lyceum 653; Laurens Lyceum 649; Wolfert Dalton 641; De Hef (Slaghekstraat 221) 603; 82 establishments in the municipality; 26,376 Rotterdam pupils across 142 schools.",
+        "url": "https://allecijfers.nl/middelbare-scholen-overzicht/rotterdam/"
+      },
+      {
+        "claim": "Rotterdam International Secondary School: junior campus Bentincklaan 294, 3039 KK; IB Diploma Programme and IGCSE; part of the Wolfert van Borselen group; about 400 pupils in September 2021; 82 countries represented in 2017.",
+        "url": "https://en.wikipedia.org/wiki/Rotterdam_International_Secondary_School"
+      },
+      {
+        "claim": "Nord Anglia International School Rotterdam: founded 1959 as the American International School of Rotterdam; Hillegersberg; IB World School, ages 3 to 18; about 260 pupils from 40+ nationalities; acquired by Nord Anglia Education in 2018; NEASC and CIS accredited.",
+        "url": "https://en.wikipedia.org/wiki/Nord_Anglia_International_School_Rotterdam"
+      },
+      {
+        "claim": "Erasmus University Rotterdam: founded 8 November 1913 as the Nederlandsche Handels-Hoogeschool; renamed 1973; 20,508 undergraduates and 11,104 postgraduates in 2023; 3,207 academic and 3,130 administrative staff; Woudestein campus near Kralingen; Erasmus MC since 2003.",
+        "url": "https://en.wikipedia.org/wiki/Erasmus_University_Rotterdam"
+      },
+      {
+        "claim": "Erasmusbrug: opened 6 September 1996 by Queen Beatrix; 802 m; pylon 139 m; EUR 165 million (365 million guilders); designed by Ben van Berkel; nicknamed De Zwaan.",
+        "url": "https://en.wikipedia.org/wiki/Erasmusbrug"
+      },
+      {
+        "claim": "Until 19 March 2014 Rotterdam's fourteen boroughs had the formal status of submunicipalities (deelgemeenten); they were then replaced by advisory gebiedscommissies. The fourteen: Centrum, Charlois, Delfshaven, Feijenoord, Hillegersberg-Schiebroek, Hoogvliet, Hoek van Holland, IJsselmonde, Kralingen-Crooswijk, Noord, Overschie, Pernis, Prins Alexander, Rozenburg.",
+        "url": "https://en.wikipedia.org/wiki/Boroughs_of_Rotterdam"
+      },
+      {
+        "claim": "Bombing of 14 May 1940 lasted about a quarter of an hour; more than 24,000 homes destroyed; about 800 dead; 80,000 homeless. Maastunnel opened 14 February 1942, the first road tunnel in the Netherlands. The port is Europe's largest, stretching about 40 km.",
+        "url": "https://nl.wikipedia.org/wiki/Rotterdam"
+      }
+    ],
+    "rejectedClaims": [
+      "The published share of empty containers at Rotterdam in 2025. Not in either report; the page treats it as a labelled assumption.",
+      "Rotterdam groep 8 advice shares and higher-test-advice rates. No municipal publication was found; the page does not use them.",
+      "The Port Authority's own press release text. Its pages returned 403; two trade outlets reporting the same Authority figures are cited instead, and the page says so.",
+      "A wijk-by-wijk mapping of the largest schools to gebieden beyond the ones stated by address (De Hef in Feijenoord, Emmauscollege in Prins Alexander, Melanchthon and NAISR in Hillegersberg-Schiebroek, Wolfert and Erasmiaans in the centre).",
+      "Anything The Hague owns: the two-generation definition argument, the Choenni figures and the Hindustani estimate. Cited by link, not repeated.",
+      "Anything the Netherlands hub owns: the nine SLO core objectives, the March 2024 finalisation as a spine, the groep 8 streaming advice as an argument, the CET/CEST offset paragraph."
+    ]
   }
 }

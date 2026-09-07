@@ -785,3 +785,4 @@
 .cg-root.cg-dhg  { --cg-accent: #39588A; --cg-accent-soft: rgba(57,88,138,.10); }   /* The Hague: a slate blue for the North Sea at Scheveningen, low enough in chroma to stay out of the retired electric-blue band */
 .cg-root.cg-alm  { --cg-accent: #583D00; --cg-accent-soft: rgba(88,61,0,.10); }   /* Almere: the rapeseed sown on freshly drained polder land, darkened until it clears every paper tint */
 .cg-root.cg-utr  { --cg-accent: #006852; --cg-accent-soft: rgba(0,104,82,.10); }   /* Utrecht: a sea green for the Singel, the ring of water the old city sits inside */
+.cg-root.cg-rtm  { --cg-accent: #066374; --cg-accent-soft: rgba(6,99,116,.10); }   /* Rotterdam: the pale blue of the Swan's pylon on the Erasmusbrug, darkened until it clears every paper tint */
