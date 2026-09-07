@@ -805,3 +805,4 @@
 .cg-root.cg-arn  { --cg-accent: #65335A; --cg-accent-soft: rgba(101,51,90,.10); }   /* Arnhem: a deep heather purple for the Veluwezoom, set by the solver apart from Utrecht province's plum and Breda's Nassau violet */
 .cg-root.cg-apd  { --cg-accent: #813450; --cg-accent-soft: rgba(129,52,80,.10); }   /* Apeldoorn: a heathland rose set by the solver well away from Amsterdam's brick red and Arnhem's heather purple */
 .cg-root.cg-hlm  { --cg-accent: #742945; --cg-accent-soft: rgba(116,41,69,.10); }   /* Haarlem: a deep madder red for the old brickwork, placed by the solver clear of Amsterdam's red and Apeldoorn's heathland rose */
+.cg-root.cg-hmm  { --cg-accent: #545700; --cg-accent-soft: rgba(84,87,0,.10); }   /* Haarlemmermeer: a flat polder olive, placed by the solver clear of Nijmegen's olive and Drenthe's ochre */

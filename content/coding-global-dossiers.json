@@ -5478,5 +5478,61 @@
       "Any claim that Haarlem is the densest municipality in the Netherlands. The page says only that it is the densest in this series.",
       "Anything the Noord-Holland page owns: the rank-versus-distance project and the provincial totals. Anything the Amsterdam page owns."
     ]
+  },
+  "coding-classes-in-haarlemmermeer": {
+    "market": "Haarlemmermeer",
+    "bodyClass": "cg-hmm",
+    "pageType": "city",
+    "curriculumAuthority": "Municipality of Haarlemmermeer, Noord-Holland: 166,978 residents (CBS 1 January 2026) across 25 woonplaatsen, with Hoofddorp as its largest town; 55 primary establishments (13,532 pupils) and 11 secondary (7,394); the largest average household size and the lowest single-person share in this series. Drained 1 July 1852; Schiphol inside the boundary. Regio Noord holidays with the rest of Noord-Holland. The city page argues from a division whose assumption fails; Haarlem owns the stale derived figure and the province page owns rank versus distance.",
+    "localProject": "A quotient is a claim about the world dressed as a fact about numbers. About 800 million cubic metres were pumped from the Haarlemmermeer, drained 1 July 1852; dividing by the municipality's 197.48 km2 of land gives 4.05 metres, which is not the lake's depth because the pumps ran for years against rainfall and seepage, so the numerator is a volume moved over time rather than a volume held at a moment, and because the modern municipal boundary is not the historic lake's footprint. The learner writes the assumption above the formula and signs the direction of each violation, reporting an upper bound rather than a value. Distinct from the datum trap (Almere: a height measured against a moving reference), from the two-units trap (Rotterdam: TEU against tonnes) and from the denominator-choice trap (Gadong): here both inputs are correct and the division is valid arithmetic, but the physical closed-system assumption that would make the result a depth is false. No depth below the datum is stated anywhere on the page because none was found at source.",
+    "requiredMentions": [
+      "166,978",
+      "70,473",
+      "23,034",
+      "109,654",
+      "13,532",
+      "7,394",
+      "Hoofddorp",
+      "Nieuw-Vennep",
+      "Badhoevedorp",
+      "Rijsenhout",
+      "Vijfhuizen",
+      "1 July 1852",
+      "800 million cubic metres",
+      "68.8 million"
+    ],
+    "sources": [
+      {
+        "claim": "Haarlemmermeer 166,978 residents on 1 January 2026 (CBS provisional); 70,473 households (2025) averaging 2.31, 23,034 single-person (33 percent); 26,339 aged 0 to 15; 21,425 aged 15 to 25; 41,801 aged 25 to 45; 30,581 aged 65 and over; total area 20,631 ha, land 19,721 ha; density 838; 55 primary establishments (13,532 pupils); 11 secondary (7,394); 25 woonplaatsen, 18 wijken and 97 buurten; 109,654 in 1995, a rise of 57,324 (52 percent).",
+        "url": "https://allecijfers.nl/gemeente/haarlemmermeer/"
+      },
+      {
+        "claim": "Haarlemmermeer 166,996 residents on 1 January 2026; 206.31 km2 total, 197.48 land, 8.83 water; mayor M.H.F. Schuurmans-Wijdeven (VVD); main town Hoofddorp; the municipality recognises 31 kernen; 2023 populations Hoofddorp 79,650, Nieuw-Vennep 31,595, Badhoevedorp including Nieuwe Meer 14,455, Vijfhuizen including Nieuwebrug 4,865, Rijsenhout 4,330; the lake finally fell dry on 1 July 1852, with ring dike construction taking eight years from May 1840.",
+        "url": "https://nl.wikipedia.org/wiki/Haarlemmermeer"
+      },
+      {
+        "claim": "Hoofddorp was founded in 1853, the year after the drainage, and renamed Hoofddorp in 1868; it is the hoofdplaats of the municipality of Haarlemmermeer, with 79,650 residents on 1 January 2023.",
+        "url": "https://nl.wikipedia.org/wiki/Hoofddorp"
+      },
+      {
+        "claim": "The Haarlemmermeer was drained in 1852; 800 million cubic metres of water were pumped out; the steam pumping stations were the Leeghwater, the Lynden and the Cruquius, with further stations at Spaarndam, Halfweg and Gouda.",
+        "url": "https://www.canonvannederland.nl/nl/zuid-holland/rijnland/1852-het-haarlemmermeer-is-droog"
+      },
+      {
+        "claim": "Schiphol lies in Haarlemmermeer at 3.35 metres below NAP; in 2025 Schiphol registered 68.8 million passenger movements.",
+        "url": "https://nl.wikipedia.org/wiki/Luchthaven_Schiphol"
+      },
+      {
+        "claim": "School holiday regions: regio Noord = Groningen, Friesland, Drenthe, Overijssel, Flevoland, Noord-Holland; regio Midden = Utrecht, Zuid-Holland and the northern part of Gelderland; regio Zuid = Zeeland, Noord-Brabant, Limburg and the southern part of Gelderland.",
+        "url": "https://www.rijksoverheid.nl/themas/onderwijs/schoolvakanties/regios-schoolvakantie"
+      }
+    ],
+    "rejectedClaims": [
+      "A depth for the Haarlemmermeer polder or the former lake below the datum. No source read gives one; the 4.05 metres is presented only as the output of a division whose assumption fails.",
+      "A commonly quoted figure of about 4.5 metres below the datum for Schiphol. The source read gives 3.35 metres and that is the only figure used.",
+      "A population for any village other than the five published, and any reconciliation of the 25 woonplaatsen against the 31 kernen. Both counts are stated and neither is preferred.",
+      "Any count of travellers derived from the 68.8 million passenger movements. A movement is an event and the page says so rather than dividing.",
+      "Anything the Haarlem page owns: the density inconsistency. Anything the Noord-Holland page owns: the provincial totals and the rank-versus-distance project. Anything the Almere page owns: the datum."
+    ]
   }
 }
