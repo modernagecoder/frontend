@@ -60,7 +60,7 @@ Six regions, each with its municipalities and their 1 January 2026 population fr
 
 ### The Rijk van Nijmegen
 
-Nijmegen 189,871, the largest city and a page to come; Wijchen 42,106; Berg en Dal 35,700; Beuningen 26,868; Heumen 16,978; Druten 20,019; West Maas en Waal 20,843. The university, the hospital, and the oldest city in the country by its own account.
+[Nijmegen](/coding-classes-in-nijmegen) 189,871, the largest city, with its own page; Wijchen 42,106; Berg en Dal 35,700; Beuningen 26,868; Heumen 16,978; Druten 20,019; West Maas en Waal 20,843. The university, the hospital, and the oldest city in the country by its own account.
 
 ### Arnhem and its ring
 
@@ -221,7 +221,7 @@ It does not, as a province. The Rijksoverheid puts the northern part in regio Mi
 
 ### Which Gelderland towns get their own page, and which are covered here?
 
-Nijmegen, Arnhem, Apeldoorn and Ede follow in this series. The other 47 municipalities, from Barneveld and Doetinchem to Rozendaal, are listed above with their populations, and the class is identical whichever one the laptop is in.
+[Nijmegen](/coding-classes-in-nijmegen) has its own page; Arnhem, Apeldoorn and Ede follow in this series. The other 47 municipalities, from Barneveld and Doetinchem to Rozendaal, are listed above with their populations, and the class is identical whichever one the laptop is in.
 
 ### We live in Montferland or Neder-Betuwe. Which region are we actually in?
 

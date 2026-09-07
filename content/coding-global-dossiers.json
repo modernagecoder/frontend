@@ -5261,5 +5261,57 @@
       "Anything about the military academy beyond its founding year and its seat, none of which was researched.",
       "Anything the Noord-Brabant page owns: the Baarle enclaves, the 56 municipalities, the capital-versus-largest contrast. Anything the Tilburg page owns: the wijk and buurt zoning comparison."
     ]
+  },
+  "coding-classes-in-nijmegen": {
+    "market": "Nijmegen",
+    "bodyClass": "cg-nij",
+    "pageType": "city",
+    "curriculumAuthority": "City and municipality of Nijmegen, Gelderland: 189,871 residents (CBS 1 January 2026), the largest municipality of the province; 45 primary establishments (13,915 pupils) and 19 secondary (14,152); 7,610 in applied higher education and 13,180 at university level; Radboud University (1923). Districts north of the Waal through the Waalsprong: Lent, Ressen, Oosterhout. Regio Midden holidays with the northern half of Gelderland. The city page argues from the oldest-city claim; the province page owns the two-calendar split and the hub owns the national curriculum.",
+    "localProject": "A superlative needs a stated test, and an empty cell is not a zero. Four Dutch places claim to be the oldest city. Across five tests drawn from the sources, the winners differ: earliest Roman grant of rights (Nijmegen, about 98 to 100, against market rights after about 121 at Forum Hadriani); recorded military presence (Nijmegen, 19 BC); oldest surviving Roman stone building (Coriovallum, bath house first phase 65 to 73); unbroken habitation since Roman times (the continuously inhabited southern city); earliest medieval city rights (Nijmegen 1230 against 1284). Most cells are unfilled by the sources read, and the project turns on refusing to score an unfilled cell as a zero. Distinct from the scope trap (Limburg: the set of territories changes by decree while each answer stays complete) and from the superlative-without-a-measure trap (Utrecht province: one place ranked on four real measures): here the criterion changes the winner and the evidence table is mostly missing. Built from sources before writing; every unfilled cell is printed as not stated.",
+    "requiredMentions": [
+      "58,556",
+      "104,361",
+      "57,902",
+      "147,557",
+      "13,915",
+      "14,152",
+      "24,633",
+      "Ulpia Noviomagus Batavorum",
+      "Forum Hadriani",
+      "Coriovallum",
+      "Hubert Bruls",
+      "Waalsprong",
+      "Vierdaagse",
+      "19 BC"
+    ],
+    "sources": [
+      {
+        "claim": "Municipality of Nijmegen 189,871 residents on 1 January 2026 (CBS provisional); 104,361 households averaging 1.78, 57,902 single-person (55 percent); 24,590 aged 0 to 15; 32,331 aged 15 to 25; 58,556 aged 25 to 45; 32,587 aged 65 and over; 45 primary establishments (13,915 pupils); 19 secondary (14,152); HBO 7,610 and WO 13,180; total area 5,763 ha, land 5,281 ha; density 3,579; 9 wijken and 44 buurten; 147,557 in 1995, a rise of 42,314 (29 percent).",
+        "url": "https://allecijfers.nl/gemeente/nijmegen/"
+      },
+      {
+        "claim": "Nijmegen 189,850 residents on 1 January 2026; area 57.63 km2, land 53.09, water 4.54; mayor Hubert Bruls (CDA); the ninth city of the Netherlands and the largest municipality of Gelderland; formal city rights acquired in 1230, a free imperial city from that moment; Ulpia Noviomagus Batavorum, the direct predecessor of the present city, received Roman city rights around the year 100; Nijmegen is one of four cities whose recorded history supports a claim to the title of oldest city in the Netherlands; districts include Lent, Ressen and Oosterhout in the Waalsprong and Hatert, Hees, Neerbosch and Sint Anna; the Waalbrug completed 1936; De Oversteek; the Vierdaagse held since 1909.",
+        "url": "https://nl.wikipedia.org/wiki/Nijmegen"
+      },
+      {
+        "claim": "On the oldest-city question: Nijmegen received city rights for the first time around the year 98, had Roman soldiers present from 19 BC, obtained medieval rights in 1230 and declared itself the oldest city of the Netherlands in 2005. Voorburg, as Forum Hadriani, received market rights after a presumed visit by the emperor Hadrian in 121 and was abandoned after 270, with no medieval continuity. Maastricht remained permanently inhabited after the departure of the Romans but Roman Maastricht had no Roman city rights, and its formalised medieval rights date from 1284. Heerlen, as Coriovallum, holds the oldest stone building in the country, whose baths had a first construction phase between 65 and 73, but has neither continuous habitation nor medieval city rights.",
+        "url": "https://nl.wikipedia.org/wiki/Oudste_stad_van_Nederland"
+      },
+      {
+        "claim": "Radboud University founded 15 May 1923 as the Roomsch Katholieke Universiteit Nijmegen; 24,633 students enrolled on 1 October 2022; 6,147 fte staff in 2022 of whom 3,467 academic; seven faculties; rector magnificus José Sanders since 17 October 2023.",
+        "url": "https://nl.wikipedia.org/wiki/Radboud_Universiteit"
+      },
+      {
+        "claim": "School holiday regions: regio Midden = Utrecht, Zuid-Holland and the northern part of Gelderland; regio Zuid = Zeeland, Noord-Brabant, Limburg and the southern part of Gelderland; regio Noord = Groningen, Friesland, Drenthe, Overijssel, Flevoland, Noord-Holland.",
+        "url": "https://www.rijksoverheid.nl/themas/onderwijs/schoolvakanties/regios-schoolvakantie"
+      }
+    ],
+    "rejectedClaims": [
+      "A verdict on which city is oldest. The page shows three different winners across five tests and declines to choose.",
+      "Filling any unfilled cell of the comparison table by inference. Where no source read gives a value the table says not stated, including whether Nijmegen was continuously inhabited.",
+      "Naming Maastricht and Heerlen as the winners of their rows in the table itself. Their Roman names and their claims are quoted; the modern names appear only in the source record, because those two names belong to the Limburg page.",
+      "Vierdaagse participant numbers, Radboud rankings and any figure for the Waalbrug beyond its completion year. Not researched.",
+      "Anything the Gelderland page owns: the two holiday regions, the split municipalities, the 51 municipalities."
+    ]
   }
 }
