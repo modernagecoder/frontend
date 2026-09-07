@@ -68,7 +68,7 @@ Six regions, each with its municipalities and their 1 January 2026 population fr
 
 ### The Veluwe
 
-Apeldoorn 169,212, third and a page to come; Ede 125,331, fourth and a page to come; Barneveld 63,926; Harderwijk 50,655; Nijkerk 46,283; Epe 33,785; Nunspeet 29,688; Ermelo 28,199; Putten 25,170; Oldebroek 24,535; Elburg 24,039; Heerde 19,325; Hattem 12,822; Scherpenzeel 10,674; Wageningen 42,779 on its southern edge, with the agricultural university.
+[Apeldoorn](/coding-classes-in-apeldoorn) 169,212, third, with its own page; Ede 125,331, fourth and a page to come; Barneveld 63,926; Harderwijk 50,655; Nijkerk 46,283; Epe 33,785; Nunspeet 29,688; Ermelo 28,199; Putten 25,170; Oldebroek 24,535; Elburg 24,039; Heerde 19,325; Hattem 12,822; Scherpenzeel 10,674; Wageningen 42,779 on its southern edge, with the agricultural university.
 
 ### The Achterhoek
 
@@ -221,7 +221,7 @@ It does not, as a province. The Rijksoverheid puts the northern part in regio Mi
 
 ### Which Gelderland towns get their own page, and which are covered here?
 
-[Nijmegen](/coding-classes-in-nijmegen) has its own page, and so does [Arnhem](/coding-classes-in-arnhem); Apeldoorn and Ede follow in this series. The other 47 municipalities, from Barneveld and Doetinchem to Rozendaal, are listed above with their populations, and the class is identical whichever one the laptop is in.
+[Nijmegen](/coding-classes-in-nijmegen) has its own page, and so do [Arnhem](/coding-classes-in-arnhem) and [Apeldoorn](/coding-classes-in-apeldoorn); Ede follows in this series. The other 47 municipalities, from Barneveld and Doetinchem to Rozendaal, are listed above with their populations, and the class is identical whichever one the laptop is in.
 
 ### We live in Montferland or Neder-Betuwe. Which region are we actually in?
 

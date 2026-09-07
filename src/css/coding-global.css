@@ -803,3 +803,4 @@
 .cg-root.cg-brd  { --cg-accent: #5D457B; --cg-accent-soft: rgba(93,69,123,.10); }   /* Breda: a muted Nassau violet, set by the solver at a safe distance from Utrecht province's plum and Zeeland's mussel violet */
 .cg-root.cg-nij  { --cg-accent: #424E08; --cg-accent-soft: rgba(66,78,8,.10); }   /* Nijmegen: a dark olive for the Roman city on the Waal, placed by the solver clear of Amstelveen's green and Gelderland's forest */
 .cg-root.cg-arn  { --cg-accent: #65335A; --cg-accent-soft: rgba(101,51,90,.10); }   /* Arnhem: a deep heather purple for the Veluwezoom, set by the solver apart from Utrecht province's plum and Breda's Nassau violet */
+.cg-root.cg-apd  { --cg-accent: #813450; --cg-accent-soft: rgba(129,52,80,.10); }   /* Apeldoorn: a heathland rose set by the solver well away from Amsterdam's brick red and Arnhem's heather purple */
