@@ -382,7 +382,7 @@ Nearby
 
 ## Other places we teach
 
-[Amstelveen](/coding-classes-in-amstelveen)[Germany](/coding-classes-in-germany)[United Kingdom](/coding-classes-in-united-kingdom)[Ireland](/coding-classes-in-ireland)[Switzerland](/coding-classes-in-switzerland)[Sweden](/coding-classes-in-sweden)
+[Amsterdam](/coding-classes-in-amsterdam)[Amstelveen](/coding-classes-in-amstelveen)[Germany](/coding-classes-in-germany)[United Kingdom](/coding-classes-in-united-kingdom)[Ireland](/coding-classes-in-ireland)[Switzerland](/coding-classes-in-switzerland)[Sweden](/coding-classes-in-sweden)
 
 ---
 

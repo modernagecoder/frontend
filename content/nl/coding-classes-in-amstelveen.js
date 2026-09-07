@@ -216,7 +216,7 @@ module.exports = {
   next: {
     eyebrow: 'Explore the Netherlands',
     h2: 'The rest of the country, and the page for building AI',
-    html: 'The <a class="cg-inline-link" href="/coding-classes-in-netherlands">Netherlands coding hub</a> carries the national picture, the digital literacy curriculum and the full course list, and <a class="cg-inline-link" href="/ai-and-machine-learning-classes-in-netherlands">AI and machine learning classes in the Netherlands</a> is the page for a learner who wants to build models rather than programs. Pages for Amsterdam, Uithoorn and the rest of Noord-Holland follow in this series.',
+    html: 'The <a class="cg-inline-link" href="/coding-classes-in-netherlands">Netherlands coding hub</a> carries the national picture, the digital literacy curriculum and the full course list, and <a class="cg-inline-link" href="/ai-and-machine-learning-classes-in-netherlands">AI and machine learning classes in the Netherlands</a> is the page for a learner who wants to build models rather than programs. Across the municipal line, <a class="cg-inline-link" href="/coding-classes-in-amsterdam">coding classes in Amsterdam</a> covers the city and its eight districts, and pages for Uithoorn and the rest of Noord-Holland follow in this series.',
     waLabel: 'Close with WhatsApp'
   },
 

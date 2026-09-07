@@ -243,7 +243,7 @@ A group holds five to ten learners matched on level, pace and goal rather than o
 
 ## The rest of the country, and the page for building AI
 
-The [Netherlands coding hub](/coding-classes-in-netherlands) carries the national picture, the digital literacy curriculum and the full course list, and [AI and machine learning classes in the Netherlands](/ai-and-machine-learning-classes-in-netherlands) is the page for a learner who wants to build models rather than programs. Pages for Amsterdam, Uithoorn and the rest of Noord-Holland follow in this series.
+The [Netherlands coding hub](/coding-classes-in-netherlands) carries the national picture, the digital literacy curriculum and the full course list, and [AI and machine learning classes in the Netherlands](/ai-and-machine-learning-classes-in-netherlands) is the page for a learner who wants to build models rather than programs. Across the municipal line, [coding classes in Amsterdam](/coding-classes-in-amsterdam) covers the city and its eight districts, and pages for Uithoorn and the rest of Noord-Holland follow in this series.
 
 ## Contact
 

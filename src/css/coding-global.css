@@ -780,3 +780,4 @@
 
 /* Netherlands cluster. Accents from scripts/nl/lib/accent.js: 4.5:1 on all three paper tints, separated only from the pages each one links to. */
 .cg-root.cg-amv  { --cg-accent: #40641A; --cg-accent-soft: rgba(64,100,26,.10); }   /* Amstelveen: the Amsterdamse Bos, most of which lies inside the municipality */
+.cg-root.cg-ams  { --cg-accent: #822A36; --cg-accent-soft: rgba(130,42,54,.10); }   /* Amsterdam: the red of the city flag, kept apart from the hub orange and the Amstelveen green */

@@ -3988,5 +3988,77 @@
       "A published journey time for tram 25 between Stadshart and Amsterdam Zuid. Not found in a primary source; the page names stops and dates only.",
       "Anything the Netherlands hub owns: the nine SLO core objectives, the March 2024 finalisation as a spine, the groep 8 streaming advice, the CET/CEST offset paragraph. Mentioned in passing at most, never argued."
     ]
+  },
+  "coding-classes-in-amsterdam": {
+    "market": "Amsterdam",
+    "bodyClass": "cg-ams",
+    "pageType": "city",
+    "curriculumAuthority": "Amsterdam, Noord-Holland: the groep 8 transition as run in this city. School advice (28 percent vwo, 56 percent havo and/or vwo in 2024/25), the national doorstroomtoets (26 January to 13 February 2026, results 3 to 15 March) with a higher test advice for about one in five Amsterdam pupils against nearly one in three nationally, and the Centrale Loting en Matching run by OSVO (12th edition, 9 April 2026: 65 schools, 9,969 places, 7,674 pupils, 73.85 percent first choice, lists of 4/6/12 schools by advice, 2025 nine-school list reverted to twelve). Two international schools: British School of Amsterdam (Havenstraat 6, National Curriculum for England) and AICS (IB, Esprit Scholen, two campuses). 244 primary and 91 secondary establishments (CBS). The hub owns the national digital-literacy curriculum; this page owns the Amsterdam transition machinery.",
+    "localProject": "Two instruments, one disagreement rate. The city research office reports a doorstroomtoets result above the school advice for about one in five Amsterdam pupils against nearly one in three nationally (33 percent in Zuidoost, 30 in Noord, 20 citywide). A learner simulates 300,000 pupils with one true level, a school advice with a teacher tendency plus noise, and a test with its own noise, both banded, and finds that 33 percent arises from teachers 0.20 sd low with moderate test noise OR from unbiased teachers with high test noise, and ~20 percent from precise tests OR from teachers slightly high. The rate cannot identify the cause; only a third measurement can. Distinct from observation bias (Texas: the instrument changed over time), from metric definition (New Jersey) and from the Amstelveen stock/flow model. Simulation run before writing; all four table rows are labelled as a model.",
+    "requiredMentions": [
+      "Centrale Loting and Matching",
+      "7,674 pupils",
+      "73.85 percent",
+      "9,969 places",
+      "Havenstraat 6",
+      "Arent Janszoon Ernststraat 1179",
+      "Amsterdam Science Park",
+      "Noord/Zuidlijn",
+      "941,873",
+      "hoger toetsadvies",
+      "111 wijken",
+      "Matrix Innovation Centre",
+      "Huis van Bewaring"
+    ],
+    "sources": [
+      {
+        "claim": "Centrale Loting & Matching 2026 (12th edition, 9 April 2026): 65 VO schools, 9,969 places, 7,674 pupils; 73.85% first choice, 91% top 3, 95.54% top 5; preference lists of 4 (vmbo-b/k), 6 (vmbo-gl/tl) or 12 (havo/vwo) schools; 2025 used 9 for havo/vwo and reverted to 12; reserve lists valid to 30 September; second round 15 April.",
+        "url": "https://verenigingosvo.nl/wp-content/uploads/2026/04/Persbericht-Centrale-Loting-Matching-2026.pdf"
+      },
+      {
+        "claim": "Amsterdam groep 8, 2024/25 (published 9 March 2026): 28% vwo advice, 56% havo and/or vwo; higher test advice about one fifth in Amsterdam vs nearly one third nationally; Zuidoost 33%, Noord 30%, city 20%; maths target level 47% vs 43% nationally; reading 74% both; language 56% vs 55%.",
+        "url": "https://onderzoek.amsterdam.nl/artikel/de-doorstroomtoets-en-basisvaardigheden-in-groep-8-2026"
+      },
+      {
+        "claim": "Population 941,873 on 1 January 2026 (municipal register); projection 1,120,000 by 2055 (+178,000); growth Oost +42,500, Noord +37,200, Zuidoost +33,200, Nieuw-West +31,300, West +13,200, Zuid +11,000, Weesp +5,100, Westpoort +4,300, Centrum stable; 116,000 dwellings; 2025 immigrants mainly from the US, Italy, Germany, Spain, the UK, India and Turkey. Published 15 April 2026.",
+        "url": "https://onderzoek.amsterdam.nl/artikel/bevolkingsprognose-2026-2055"
+      },
+      {
+        "claim": "CBS provisional population 941,927 on 1 January 2026; 516,096 households; 119,410 under 15 (13%); 123,596 aged 15 to 25; 244 primary schools with 63,961 pupils; 91 secondary establishments with 46,608 pupils; 111 wijken, 519 buurten.",
+        "url": "https://allecijfers.nl/gemeente/amsterdam/"
+      },
+      {
+        "claim": "Zuid stadsdeel 146,395 residents on 1 January 2026.",
+        "url": "https://onderzoek.amsterdam.nl/artikel/bevolkingsprognose-2026-2055"
+      },
+      {
+        "claim": "Noord/Zuidlijn (metro 52) opened to passengers 22 July 2018 (official opening 21 July); 9.7 km, 7.1 km underground; 8 stations Noord, Noorderpark, Centraal Station, Rokin, Vijzelgracht, De Pijp, Europaplein, Station Zuid; build decision October 2002.",
+        "url": "https://nl.wikipedia.org/wiki/Noord/Zuidlijn"
+      },
+      {
+        "claim": "British School of Amsterdam: founded 1978; Havenstraat 6, 1075 PR; former 19th-century Huis van Bewaring bought February 2017, opened April 2021, capacity 1,200; about 1,100 pupils aged 3 to 19; National Curriculum for England, GCSE/IGCSE, A level; first British School Overseas accreditation in the Netherlands.",
+        "url": "https://en.wikipedia.org/wiki/British_School_of_Amsterdam"
+      },
+      {
+        "claim": "AICS: founded 2003; part of Esprit Scholen; more than 2,000 pupils; South campus Arent Janszoon Ernststraat 1179 since 2022 (formerly Prinses Irenestraat 59); South East campus Sand Castle, Bijlmerplein, since September 2023; IB MYP, DP and CP.",
+        "url": "https://en.wikipedia.org/wiki/Amsterdam_International_Community_School"
+      },
+      {
+        "claim": "Amsterdam Science Park: 70 hectares; about 176 companies; more than 600 network hubs; AMS-IX; UvA Faculty of Science; Amsterdam University College; six Matrix Innovation Centre buildings over three decades.",
+        "url": "https://www.iamsterdam.com/en/business/setting-up/find-your-business-location/amsterdam-science-park"
+      },
+      {
+        "claim": "Weesp merged into Amsterdam on 24 March 2022; now a stadsgebied with an elected committee; 20,766 inhabitants on 1 January 2022; Torenfort aan de Ossenmarkt (1861); Van Houten factory from 1851.",
+        "url": "https://nl.wikipedia.org/wiki/Weesp"
+      }
+    ],
+    "rejectedClaims": [
+      "Any number of engineers at Booking.com or any Zuidas employer. Found only in secondary job-market blogs; not used.",
+      "That AICS is at Prinses Irenestraat 59. That was the former address; the south campus moved to Arent Janszoon Ernststraat 1179 in 2022 and the page uses the current one.",
+      "That the British School of Amsterdam is at Havenstraat 9. One directory says 9; the school's own contact page and Wikipedia say 6. The page uses 6.",
+      "Daily ridership of the Noord/Zuidlijn and its final cost. Not in the source used; omitted rather than estimated.",
+      "A per-stadsdeel population table for 1 January 2026. Only Zuid (146,395) and the city total were found in a primary source; the district pages will carry their own figures.",
+      "Anything the Netherlands hub owns: the nine SLO core objectives, the March 2024 finalisation as a spine, the groep 8 streaming advice as an argument, the CET/CEST offset paragraph."
+    ]
   }
 }
