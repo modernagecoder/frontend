@@ -820,3 +820,4 @@
 .cg-root.cg-alp  { --cg-accent: #712332; --cg-accent-soft: rgba(113,35,50,.10); }   /* Alphen aan den Rijn: a dark rose for the nursery country around Boskoop, placed by the solver clear of Leeuwarden's Frisian red and Amsterdam's brick */
 .cg-root.cg-alk  { --cg-accent: #7E3124; --cg-accent-soft: rgba(126,49,36,.10); }   /* Alkmaar: a rust red for the cheese-carriers barrows and the old market square, set by the solver apart from Enschede's madder and Zaanstad's oxide */
 .cg-root.cg-dlf  { --cg-accent: #80325E; --cg-accent-soft: rgba(128,50,94,.10); }   /* Delft: a plum tone for the old brick and the pottery glazes, set by the solver apart from Apeldoorn's heathland rose and Uithoorn's mauve */
+.cg-root.cg-emm  { --cg-accent: #843442; --cg-accent-soft: rgba(132,52,66,.10); }   /* Emmen: a fired brick red pulled from the peat colonies and the old kilns, set by the solver clear of the other warm tones already carrying pages in this series */

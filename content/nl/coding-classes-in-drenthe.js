@@ -73,14 +73,14 @@ module.exports = {
       intro: 'Six groupings, the municipalities inside each, and every register count as it stood on 1 January 2026, the last being Westerveld with 20,035.',
       body: [
         { kind: 'grid3', cells: [
-          { h3: 'Emmen', p: 'Emmen 109,881, the largest municipality, the zoo that moved, the peat museum and a page to come. Over a fifth of the province in one municipality on the German border.' },
+          { h3: 'Emmen', p: '<a class="cg-inline-link" href="/coding-classes-in-emmen">Emmen</a> 109,881, the largest municipality, the zoo that moved, the peat museum and now a page of its own. Over a fifth of the province in one municipality on the German border.' },
           { h3: 'The Hondsrug and the south-east', p: 'Coevorden 35,729, the old fortress town; Borger-Odoorn 26,162, with D27 and the hunebed centre at Borger; Aa en Hunze 26,062, the ridge villages from Gieten to Annen and the Drentsche Aa.' },
           { h3: 'Assen', p: 'Assen 70,769, the capital, the TT circuit, the provincial museum with the bog bodies, and a page to come.' },
           { h3: 'The north', p: 'Tynaarlo 35,116, which is Zuidlaren, Vries and Eelde with the airport; Noordenveld 31,737, which is Roden, Norg and Peize, both looking north to the city of Groningen for work and school.' },
           { h3: 'Hoogeveen and Meppel', p: 'Hoogeveen 56,781, the third town and a page to come; Meppel 36,616, the canal town at the Overijssel border where the train from the north splits. The two southern towns, half an hour apart.' },
           { h3: 'The middle and the west', p: 'Midden-Drenthe 34,402, which is Beilen and the villages around it; De Wolden 24,819; Westerveld 20,035, the smallest, holding Diever, Dwingeloo and the radio telescopes on the heath.' }
         ] },
-        { kind: 'p', text: 'Twelve, and every one is above. Emmen, Assen and Hoogeveen will each get a page that goes close; this one keeps the whole province, radio telescopes and stone tombs included, in one view.' }
+        { kind: 'p', text: 'Twelve, and every one is above. Emmen already has a page of its own and Assen and Hoogeveen will follow; this one keeps the whole province, radio telescopes and stone tombs included, in one view.' }
       ]
     },
     {
@@ -200,7 +200,7 @@ module.exports = {
     intro: 'The province, its towns, the stones, the teaching and the terms.',
     items: [
       { q: 'How old are the hunebedden, really?', a: 'Between 5,075 and 5,375 years in 2026. The Dutch entry on them gives 3350 to 3050 BC for their construction, and because the calendar has no year zero, a span from a BC year to an AD year is the two numbers added and one subtracted. The sign\'s "five thousand years" is a range three centuries wide rounded to a point, and building the program that keeps the range and finds the missing year is the project on this page.' },
-      { q: 'Do Emmen, Assen and Hoogeveen get pages of their own?', a: 'They will, later in this series. The other nine municipalities, Meppel and Coevorden down to Westerveld, are listed above with their populations and this is their page.' },
+      { q: 'Do Emmen, Assen and Hoogeveen get pages of their own?', a: 'Emmen has one now and it is linked further up this page. Assen and Hoogeveen follow later in the series. The other nine municipalities, Meppel and Coevorden down to Westerveld, are listed above with their populations and this is their page.' },
       { q: 'Is Assen or Emmen the capital?', a: 'Assen, with 70,769 residents on 1 January 2026, is the capital. Emmen, with 109,881, is the largest municipality and holds over a fifth of the province. Hoogeveen, at 56,781, is third.' },
       { q: 'We are in Roden or Zuidlaren, closer to the city of Groningen than to anywhere in Drenthe. Which page is ours?', a: 'This one, but it does not matter. A learner in Noordenveld or Tynaarlo sits in one group with one from Emmen at one hour, and the class does not know which province the router is in. The province of Groningen page is linked at the foot of this one for the curious.' },
       { q: 'Does the teacher speak Dutch?', a: 'In English. The words the school uses, groep, havo, vwo, profielkeuze, are used unchanged, but the lesson is not available in Dutch, and Drents is not on offer either.' },
@@ -215,7 +215,7 @@ module.exports = {
   next: {
     eyebrow: 'Explore the Netherlands',
     h2: 'North to the city, south to the river, and up to the country',
-    html: 'North along the Hondsrug is the <a class="cg-inline-link" href="/coding-classes-in-groningen-province">province of Groningen</a>, with the earthquake scale nobody reads correctly; south past Meppel is <a class="cg-inline-link" href="/coding-classes-in-overijssel">Overijssel</a> and its dike arithmetic; west across the Stellingwerven is <a class="cg-inline-link" href="/coding-classes-in-friesland">Friesland</a>, the province with two names. The three, and this page, are children of the <a class="cg-inline-link" href="/coding-classes-in-netherlands">Netherlands coding hub</a>; a learner after models rather than programs should head for <a class="cg-inline-link" href="/ai-and-machine-learning-classes-in-netherlands">AI and machine learning classes in the Netherlands</a> or the <a class="cg-inline-link" href="/ai-and-python-academy-netherlands">AI and Python Academy</a>. Emmen, Assen and Hoogeveen follow.',
+    html: 'North along the Hondsrug is the <a class="cg-inline-link" href="/coding-classes-in-groningen-province">province of Groningen</a>, with the earthquake scale nobody reads correctly; south past Meppel is <a class="cg-inline-link" href="/coding-classes-in-overijssel">Overijssel</a> and its dike arithmetic; west across the Stellingwerven is <a class="cg-inline-link" href="/coding-classes-in-friesland">Friesland</a>, the province with two names. The three, and this page, are children of the <a class="cg-inline-link" href="/coding-classes-in-netherlands">Netherlands coding hub</a>; a learner after models rather than programs should head for <a class="cg-inline-link" href="/ai-and-machine-learning-classes-in-netherlands">AI and machine learning classes in the Netherlands</a> or the <a class="cg-inline-link" href="/ai-and-python-academy-netherlands">AI and Python Academy</a>. <a class="cg-inline-link" href="/coding-classes-in-emmen">Emmen</a> is now built; Assen and Hoogeveen follow.',
     waLabel: 'Close with WhatsApp'
   },
 

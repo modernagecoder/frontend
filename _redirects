@@ -2186,4 +2186,8 @@
 # International growth cluster (coding-global.css). Must precede the /* catch-all.
 /coding-classes-in-delft /src/pages/coding-classes-in-delft.html 200
 /coding-classes-in-delft.md /src/pages/coding-classes-in-delft.md 200
+
+# International growth cluster (coding-global.css). Must precede the /* catch-all.
+/coding-classes-in-emmen /src/pages/coding-classes-in-emmen.html 200
+/coding-classes-in-emmen.md /src/pages/coding-classes-in-emmen.md 200
 /* /src/pages/404.html 404
