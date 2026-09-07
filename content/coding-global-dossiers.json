@@ -6484,5 +6484,56 @@
       "The hedges removed. Circa and voornamelijk stay attached to the five million throughout, and no year is invented for it.",
       "Anything the Limburg or Maastricht pages own."
     ]
+  },
+  "coding-classes-in-uithoorn": {
+    "market": "Uithoorn",
+    "bodyClass": "cg-uit",
+    "pageType": "city",
+    "curriculumAuthority": "Town and municipality of Uithoorn, Noord-Holland: 32,204 residents (CBS 2026) on 19.42 km2 of the Amstel valley at a published density of 1,772; 14,077 households averaging 2.26 with 4,805 single-person, 34 percent, low for the country; 5,443 residents under fifteen, 17 percent, a young structure; 9 primary establishments (2,843 pupils) and 3 secondary (2,385), with no published count of students at institutions here; 2 woonplaatsen, and 11 wijken to 11 buurten, so the two zone levels are one-to-one and neither supports a fine-grained claim; 49.6 residents of Indian origin per thousand on 1 January 2024, second in the country behind Amstelveen at 68.3; the Amsteltram reached Uithoorn Centrum on 21 July 2024; regio Noord holidays. The town page argues from the layer an absence lives in; Amstelveen owns stock versus flow and the Indian-migration cohort argument, Tilburg owns the modifiable areal unit problem and Westland owns the structural zero.",
+    "localProject": "Ask which layer the absence is in: the world, the record, or the view. The municipal entry for Uithoorn prints, where its population history should be, the sentence vanwege een beveiligingsprobleem met de MediaWiki Graph-software is het momenteel niet mogelijk deze grafiek weer te geven. Nothing is missing from the world or from the record: the national statistics page gives 24,581 residents in 1995 against 32,204 in 2026, a gain of 7,623 or 31 percent. Only the drawing failed, and because the failure is written as prose it reads to a summariser as content, so an error message becomes a claim that the town has no history. The same two pages carry three further kinds of nothing that must not be treated alike: no published population for either woonplaats, no students-at-institutions figure at all, and an Indian-origin rate from 2024 that cannot be multiplied by a 2026 population. Distinct from null-is-not-zero (Ash Sharqiyah South) and from the failed-lookup default (Jerudong), where the record itself is at fault, and from the structural zero (Westland), where a real zero is correctly recorded and wrongly ranked: here the record is complete and correct and only the presentation layer failed. Every absence on the page is left as an absence.",
+    "requiredMentions": [
+      "32,204",
+      "14,077",
+      "4,805",
+      "24,581",
+      "2,843",
+      "2,385",
+      "5,443",
+      "8,882",
+      "7,623",
+      "1,772",
+      "De Kwakel",
+      "Heiliegers",
+      "Thamen",
+      "MediaWiki"
+    ],
+    "sources": [
+      {
+        "claim": "Uithoorn 32,204 residents in 2026 (CBS); 14,077 households averaging 2.26, described as 2.3 in the accompanying prose, 4,805 single-person (34 percent); 5,443 aged 0 to 15; 3,657 aged 15 to 25; 8,060 aged 25 to 45; 8,882 aged 45 to 65; 6,162 aged 65 and over; total area 1,942 ha, land 1,812 ha; density 1,772; 9 primary establishments (2,843 pupils) and 3 secondary (2,385); HBO 670 and WO 370; no figure published for students at institutions in the municipality; 2 woonplaatsen, 11 wijken and 11 buurten; 24,581 residents in 1995, a rise of 7,623.",
+        "url": "https://allecijfers.nl/gemeente/uithoorn/"
+      },
+      {
+        "claim": "De gemeente Uithoorn telt 32.215 inwoners (1 januari 2026, bron: CBS); oppervlakte 19,49 km2 waarvan 1,20 km2 water; burgemeester Pieter Heiliegers (VVD); woonplaatsen Uithoorn and De Kwakel, with no population given for either; aangrenzende gemeenten Aalsmeer, Amstelveen, Kaag en Braassem, Nieuwkoop, De Ronde Venen; op 1 oktober 1819 ging Uithoorn weer deel uitmaken van de provincie Noord-Holland en op 10 februari 1820 werd Thamen weer geannexeerd; op 21 juli 2024 werd de Amsteltram doorgetrokken van Amstelveen Westwijk tot Uithoorn Centrum; the population history graph is replaced by the note vanwege een beveiligingsprobleem met de MediaWiki Graph-software is het momenteel niet mogelijk deze grafiek weer te geven.",
+        "url": "https://nl.wikipedia.org/wiki/Uithoorn"
+      },
+      {
+        "claim": "Amstelveen 68.3 and Uithoorn 49.6 residents of Indian origin per thousand on 1 January 2024, the two highest municipal shares in the Netherlands.",
+        "url": "https://www.cbs.nl/en-gb/news/2025/10/migrants-from-india-are-staying-longer-in-the-netherlands"
+      },
+      {
+        "claim": "School holiday regions: regio Noord = Groningen, Friesland, Drenthe, Overijssel, Flevoland, Noord-Holland; regio Midden = Utrecht, Zuid-Holland and the northern part of Gelderland; regio Zuid = Zeeland, Noord-Brabant, Limburg and the southern part of Gelderland.",
+        "url": "https://www.rijksoverheid.nl/themas/onderwijs/schoolvakanties/regios-schoolvakantie"
+      }
+    ],
+    "rejectedClaims": [
+      "Any population for the town of Uithoorn or for De Kwakel separately. Neither source publishes one and no split is estimated.",
+      "A count of residents of Indian origin. The published rate is dated 1 January 2024 and the population figures here are 2026, so the rate is quoted and never multiplied.",
+      "A zero for students at institutions in the municipality. The national page shows no figure and the page records that as absent rather than as nought.",
+      "Any buurt-level claim treated as finer than a wijk-level one. There are 11 of each, so the two levels carry the same information, and what per-zone statistics do to an analysis belongs to the Tilburg page.",
+      "A single household size. The source table gives 2.26 and its own prose gives 2.3, and both are printed.",
+      "A single area or population figure. The national and municipal sources differ on both and all four numbers are kept.",
+      "Any account of the boundary changes implied by the word weer in the 1819 and 1820 sentences. Those earlier changes were not read.",
+      "Anything the Amstelveen or Noord-Holland pages own."
+    ]
   }
 }
