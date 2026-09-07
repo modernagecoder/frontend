@@ -72,7 +72,7 @@ module.exports = {
       intro: 'Six parts, the municipalities in each, and the register count for every one on 1 January 2026, down to Schiermonnikoog at 972.',
       body: [
         { kind: 'grid3', cells: [
-          { h3: 'The capital and the north-west', p: 'Leeuwarden 130,162, the capital, a page to come; Waadhoeke 47,158, which is Franeker and the coast towards Harlingen; Harlingen 16,270, the ferry port for two of the islands.' },
+          { h3: 'The capital and the north-west', p: '<a class="cg-inline-link" href="/coding-classes-in-leeuwarden">Leeuwarden</a> 130,162, the capital, with its own page; Waadhoeke 47,158, which is Franeker and the coast towards Harlingen; Harlingen 16,270, the ferry port for two of the islands.' },
           { h3: 'The south-west and the lakes', p: 'Súdwest-Fryslân 90,521, the largest municipality by area in the country, holding Sneek, Bolsward, Workum, Hindeloopen and Stavoren; De Fryske Marren 52,248, the lakes and Joure and Lemmer.' },
           { h3: 'Drachten and the east', p: 'Smallingerland 57,188, which is Drachten, the second town of the province and a page to come; Opsterland 30,068; Achtkarspelen 28,254; Tytsjerksteradiel 32,874. The Frisian Woods, where the language is strongest.' },
           { h3: 'Heerenveen and the south', p: 'Heerenveen 51,955, the skating town, a page to come; Weststellingwerf 26,622 and Ooststellingwerf 25,898, the two Stellingwerven on the Drenthe border where Stellingwerfs is spoken rather than Frisian.' },

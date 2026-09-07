@@ -813,3 +813,4 @@
 .cg-root.cg-zwo  { --cg-accent: #1E507B; --cg-accent-soft: rgba(30,80,123,.10); }   /* Zwolle: the blue of the IJssel and the Zwarte Water, set by the solver apart from The Hague's slate and Overijssel's river blue */
 .cg-root.cg-ztm  { --cg-accent: #7F211B; --cg-accent-soft: rgba(127,33,27,.10); }   /* Zoetermeer: the brick red of the 1970s expansion districts, placed by the solver clear of Amsterdam's and Groningen's reds */
 .cg-root.cg-lde  { --cg-accent: #6B390C; --cg-accent-soft: rgba(107,57,12,.10); }   /* Leiden: a burnt umber for the old brick and the university buildings, set by the solver apart from Drenthe's ochre and Zaanstad's oxide red */
+.cg-root.cg-lwd  { --cg-accent: #632534; --cg-accent-soft: rgba(99,37,52,.10); }   /* Leeuwarden: a dark Frisian red for the old brick of the Oldehove, placed by the solver clear of Amsterdam's and Haarlem's reds */

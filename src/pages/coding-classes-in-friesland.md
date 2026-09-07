@@ -60,7 +60,7 @@ Six parts, the municipalities in each, and the register count for every one on 1
 
 ### The capital and the north-west
 
-Leeuwarden 130,162, the capital, a page to come; Waadhoeke 47,158, which is Franeker and the coast towards Harlingen; Harlingen 16,270, the ferry port for two of the islands.
+[Leeuwarden](/coding-classes-in-leeuwarden) 130,162, the capital, with its own page; Waadhoeke 47,158, which is Franeker and the coast towards Harlingen; Harlingen 16,270, the ferry port for two of the islands.
 
 ### The south-west and the lakes
 

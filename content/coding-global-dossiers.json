@@ -5913,5 +5913,54 @@
       "A claim that Leiden is the densest municipality in the Netherlands. The page says only that it is the densest in this series, and quotes the entry's own smallest-area claim as the entry states it.",
       "Anything the Zuid-Holland page owns: the Randstad boundary question and the provincial totals. Anything The Hague or Zoetermeer pages own."
     ]
+  },
+  "coding-classes-in-leeuwarden": {
+    "market": "Leeuwarden",
+    "bodyClass": "cg-lwd",
+    "pageType": "city",
+    "curriculumAuthority": "City and municipality of Leeuwarden, capital of Friesland: 130,162 residents (CBS 2026) across 36 woonplaatsen from the city at 95,890 (2023) down to Lions at about 25; 53 primary establishments (10,169 pupils) and 19 secondary (7,784); 21,170 students at institutions here, with 7,870 residents in applied higher education against 930 at university level. Mergers 2014 and 2018. Regio Noord holidays with the rest of the province. The city page argues from input rounding; the province page owns the name-versus-identifier join and the Groningen pages own their own.",
+    "localProject": "A result cannot be more precise than the numbers it was made from. The Oldehove is published at 40 metres and 4.2 degrees out of true, and no source read gives its lean in metres. Height times the sine of the angle returns 2.93 m, but 40 implies 39.5 to 40.5 and 4.2 implies 4.15 to 4.25, so evaluating at the corners gives 2.86 to 3.00 m, an interval about 14 cm wide, roughly 2.4 percent either side of the midpoint. The learner builds an interval type, runs the calculation at the corners and reports both ends. Distinct from compounding uncertainty along a chain of three ratios (Eindhoven), where each successive step contributes its own error: here there are two inputs and one operation, and the entire width comes from how the sources rounded before publication. The derived lean never appears without its range and is labelled derived throughout.",
+    "requiredMentions": [
+      "130,162",
+      "67,494",
+      "33,042",
+      "110,984",
+      "10,169",
+      "7,784",
+      "21,170",
+      "Oldehove",
+      "Stiens",
+      "Grouw",
+      "Mantgum",
+      "Foort van Oosten",
+      "95,890",
+      "Wartena"
+    ],
+    "sources": [
+      {
+        "claim": "Leeuwarden 130,162 residents in 2026 (CBS); 67,494 households averaging 1.89, 33,042 single-person (49 percent); 18,096 aged 0 to 15; 19,255 aged 15 to 25; 35,239 aged 25 to 45; 31,340 aged 45 to 65; 26,232 aged 65 and over; total area 25,506 ha, land 23,755 ha; density 547; 53 primary establishments (10,169 pupils) and 19 secondary (7,784); 21,170 students at institutions in the municipality; HBO 7,870 and WO 930; 36 woonplaatsen, 22 wijken and 136 buurten; 110,984 in 1995, a rise of 19,178 (17 percent).",
+        "url": "https://allecijfers.nl/gemeente/leeuwarden/"
+      },
+      {
+        "claim": "Leeuwarden 130,179 residents on 1 January 2026; 255.06 km2 (238.38 land, 16.68 water); acting mayor Foort van Oosten (VVD); among the 25 largest municipalities of the Netherlands; 36 kernen with 1 January 2023 populations Leeuwarden 95,890, Stiens 7,830, Grouw 5,905, Goutum 3,360, Warga 1,905, Irnsum 1,390, Wirdum 1,165, Mantgum 1,140, Roordahuizum 1,085, Britsum 955, Wartena 890, then 25 smaller down to Lions 25; in 2014 part of the former municipality of Boornsterhem including Grouw was added, and in 2018 parts of Littenseradeel including Mantgum together with the whole of Leeuwarderadeel.",
+        "url": "https://nl.wikipedia.org/wiki/Leeuwarden_(gemeente)"
+      },
+      {
+        "claim": "The Oldehove: tower 40 metres; it hangs 4.2 degrees out of true; construction began on 28 May 1529; it was never finished and the church beside it collapsed in 1576. No lean in metres is given.",
+        "url": "https://nl.wikipedia.org/wiki/Oldehove_(gebouw)"
+      },
+      {
+        "claim": "School holiday regions: regio Noord = Groningen, Friesland, Drenthe, Overijssel, Flevoland, Noord-Holland; regio Midden = Utrecht, Zuid-Holland and the northern part of Gelderland; regio Zuid = Zeeland, Noord-Brabant, Limburg and the southern part of Gelderland.",
+        "url": "https://www.rijksoverheid.nl/themas/onderwijs/schoolvakanties/regios-schoolvakantie"
+      }
+    ],
+    "rejectedClaims": [
+      "A single figure for the lean of the Oldehove. The page reports 2.86 to 3.00 metres and never quotes the midpoint alone.",
+      "A city rights year for Leeuwarden. The record is reported as uncertain in the sources and no date is stated here.",
+      "Any reconciliation of the eleven listed 2023 village populations with the 2026 municipal total. The dates differ and no residual is computed.",
+      "Populations for the twenty-five smaller places beyond Lions at about 25. Not listed individually in the source read.",
+      "That Leeuwarden was European Capital of Culture jointly with another city. The year 2018 is stated and nothing further, because the detail was not read at source.",
+      "Anything the Friesland page owns: the official name change and the join that loses the province. Anything the Groningen pages own."
+    ]
   }
 }
