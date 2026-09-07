@@ -81,6 +81,61 @@ Reserved by older clusters and NOT available: hmr (Al Hamra), lei (Leicester), m
 Assigned so far: cg: amv (Amstelveen), ams (Amsterdam), ehv (Eindhoven), dhg (The Hague), alm (Almere), utr (Utrecht), rtm (Rotterdam) · ag: nla (academy hub) · provinces: nhl (Noord-Holland), zhl (Zuid-Holland), utp (Utrecht), gld (Gelderland), ovr (Overijssel), lim (Limburg), grp (Groningen), nbr (Noord-Brabant), frl (Friesland), dre (Drenthe), flv (Flevoland), zld (Zeeland) · cities: grn (Groningen), tlb (Tilburg), brd (Breda), nij (Nijmegen), arn (Arnhem), apd (Apeldoorn), hlm (Haarlem), hmm (Haarlemmermeer), zns (Zaanstad), amf (Amersfoort), ens (Enschede), dbo (Den Bosch), zwo (Zwolle), ztm (Zoetermeer), lde (Leiden), lwd (Leeuwarden), mst (Maastricht), ede (Ede), drd (Dordrecht), wst (Westland), alp (Alphen aan den Rijn), alk (Alkmaar), dlf (Delft), emm (Emmen), dev (Deventer), vnl (Venlo), uit (Uithoorn) · districts: acn (Amsterdam-Centrum), anr (Amsterdam-Noord), aos (Amsterdam-Oost)
 
 ## Open issues
+### Next up: Amsterdam-Zuid, research already gathered 2026-09-08 (do not re-fetch)
+
+Stadsdeel entry (nl.wikipedia.org/wiki/Amsterdam-Zuid): 146,395 inwoners on
+1 January 2026; density 9,602 per km2 (2025) against a stated area of 17.41
+km2, which implies 15.25 km2 of land, so the published density is on land;
+created 1 May 2010 by merging Oud-Zuid and Zuideramstel; three GGW-gebieden,
+GK11 Oud-Zuid (Hoofddorppleinbuurt, Schinkelbuurt, Willemspark,
+Museumkwartier, Stadionbuurt, Apollobuurt), GK12 Buitenveldert/Zuidas
+(Prinses Irenebuurt, Zuidas, Buitenveldert-West, Buitenveldert-Oost), GK13
+De Pijp/Rivierenbuurt (Oude Pijp, Nieuwe Pijp, Zuid Pijp, Scheldebuurt,
+IJselbuurt, Rijnbuurt); Vondelpark, Museumplein and Berlage's Plan Zuid in
+Oud-Zuid; the Zuidas business district in GK12.
+
+Wijk Buitenveldert-Oost (allecijfers.nl/wijk/buitenveldert-oost-amsterdam/):
+8,447 inwoners (2026); 4,660 huishoudens averaging 1.7 (2025); 2,610
+eenpersoons, 56 percent; ages 1,100 (13 pct), 835 (9.9), 2,960 (35), 1,650
+(20), 1,865 (22); 170 ha total, 153 land; density 5,451; 4,560 woningen; WOZ
+516,000 euro; 3,010 huur (66 pct) and 1,550 koop (34); income 44,200 euro
+(2024); 4 buurten.
+
+Wijk Oude Pijp (allecijfers.nl/wijk/oude-pijp-amsterdam/): 14,816 inwoners
+(2026); 10,015 huishoudens averaging 1.5 (2025); 6,445 eenpersoons, 64
+percent; ages 975 (6.6 pct), 2,305 (16), 6,930 (47), 3,005 (20), 1,615 (11);
+68 ha total, 63 land; density 23,810; 9,708 woningen; WOZ 539,000 euro; 2,621
+koop (27 pct) and 7,087 huur (73); income 49,400 euro (2024); 5 buurten.
+
+Trap chosen for Zuid: THE DIFFERENCE BETWEEN TWO REGISTERS IS ITSELF A
+MEASUREMENT, AND ITS SIGN CHANGES ITS MEANING. Households and dwellings are
+both published for 2025 and count different units, a registration against a
+building. Across the twelve Amsterdam wijken read so far the residual runs
+from minus 165 (Jordaan) and minus 104 (Grachtengordel-West) to plus 1,459
+(Oostelijke Eilanden, 18.2 percent) and plus 694 (Buikslotermeer, 11.8).
+Zuid's own two: Buitenveldert-Oost 4,660 households in 4,560 dwellings, plus
+100; Oude Pijp 10,015 in 9,708, plus 307. A positive residual points at
+sharing, sublets and multiple registrations at one address; a negative one
+points at vacancy, second homes and dwellings registered to nobody. Neither
+count is a proxy for the other and the gap is not an error. Boundaries to
+state in the dossier: Zeeland owns unit of observation (one name, two kinds
+of row), Venlo owns the denominator that excludes the served population, and
+Alphen owns one label over two tables.
+
+MECHANISMS CONFIRMED CLAIMED, do not reuse: weighted vs unweighted averages
+(Oman), bin width changes the story (Bawshar), rate versus count and the
+denominator problem (New York), the ecological trap of a group attribute no
+member has (Gelderland), null is not zero (Ash Sharqiyah South), an absent
+record is not a zero (Jerudong), small-denominator volatility (Al Wusta),
+a missing value inside an aggregate (Al-Musanaah), a trend line across a
+break in the subject (Taqah), the denominator is a choice (Gadong).
+
+STILL FREE as of 2026-09-08: goodhart, spurious correlation, feature versus
+bug, necessary and sufficient, ship of theseus, composition effect,
+regression to the mean, edge and boundary effects, open-ended top category
+(distinct from Bawshar only if framed as the publisher's unbounded bin
+rather than the analyst's choice, so use with care).
+
 ### Watch item opened 2026-09-08: sibling district pages drift up
 
 Amsterdam-Noord scored 5.5 percent against Amsterdam-Centrum, the highest
