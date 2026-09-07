@@ -6125,5 +6125,57 @@
       "Visitor or attendance figures for the Synod, and any detail of the Statenbijbel beyond its publication year.",
       "Anything the Zuid-Holland page owns: the Randstad boundary question and the provincial totals. Anything the Rotterdam page owns."
     ]
+  },
+  "coding-classes-in-westland": {
+    "market": "Westland",
+    "bodyClass": "cg-wst",
+    "pageType": "city",
+    "curriculumAuthority": "Municipality of Westland, Zuid-Holland: 118,874 residents (CBS 1 January 2026) across ten villages with no city and no place of that name; 40 primary establishments (10,988 pupils) and 9 secondary (6,211); zero higher-education programmes and zero students at institutions, against 2,530 residents in applied higher education and 800 at university level. Formed 1 January 2004 from five municipalities. About 2,497 ha under glass in 2023. Regio Midden holidays with the rest of Zuid-Holland. The city page argues from structural zeros; the province page owns the Randstad boundary question and The Hague owns its own.",
+    "localProject": "Ask whether the category applies before you read the count. The national statistics page records zero students in higher education for Westland and, in the adjacent field, zero higher-education programmes, while separately recording 2,530 residents in applied higher education and 800 at university level. The zero is therefore structural, produced by the absence of any institution, and a ranking of municipalities on that column places Westland last for a reason that says nothing about its people. The learner enumerates the four things a zero can mean, tests each against the record, stores applicability in its own field and makes the ranking filter before it sorts. Distinct from the empty-cell trap (Nijmegen, where an unfilled cell would be read as a zero): here the cell is correctly filled with zero and the error runs the other way, reading a true zero as a measurement of a different quantity. The interpreting datum was published in the neighbouring column.",
+    "requiredMentions": [
+      "118,874",
+      "50,556",
+      "17,031",
+      "92,570",
+      "10,988",
+      "6,211",
+      "Naaldwijk",
+      "Wateringen",
+      "Honselersdijk",
+      "Kwintsheul",
+      "Ter Heijde",
+      "Bouke Arends",
+      "2,497",
+      "10,151"
+    ],
+    "sources": [
+      {
+        "claim": "Westland 118,874 residents on 1 January 2026 (CBS); 50,556 households (2025) averaging 2.28, 17,031 single-person (34 percent); 19,263 aged 0 to 15; 13,916 aged 15 to 25; 29,830 aged 25 to 45; 31,284 aged 45 to 65; 24,581 aged 65 and over; total area 9,074 ha, land 8,076 ha; density 1,448; 40 primary establishments (10,988 pupils) and 9 secondary (6,211); zero students in higher education and zero higher-education programmes in the municipality; 2,530 residents in HBO and 800 in WO; 10 woonplaatsen, 11 wijken and 78 buurten; 92,570 in 1995, a rise of 26,304 (28 percent).",
+        "url": "https://allecijfers.nl/gemeente/westland/"
+      },
+      {
+        "claim": "Westland 118,795 residents on 1 January 2026; 90.74 km2 (81.27 land, 9.47 water); density 1,462; mayor Bouke Arends (PvdA); formed from the municipalities of De Lier, s-Gravenzande including Heenweg, Monster with the kernen Poeldijk and Ter Heijde, Naaldwijk with Honselersdijk and Maasdijk, and Wateringen including Kwintsheul; kernen on 1 January 2023 Naaldwijk 22,720, s-Gravenzande 23,470, Monster 14,410, Wateringen 16,335, De Lier 12,830, Honselersdijk 7,790, Poeldijk 7,615, Maasdijk 4,570, Kwintsheul 4,405, Ter Heijde 740.",
+        "url": "https://nl.wikipedia.org/wiki/Westland_(gemeente)"
+      },
+      {
+        "claim": "In 2023 about 2,497 hectares of glasshouse horticulture remained in the Westland, and the total glasshouse area in the Netherlands that year was 10,151 hectares, having fallen by nearly 500 hectares.",
+        "url": "https://www.nieuweoogst.nl/nieuws/2024/04/16/areaal-glastuinbouw-daalt-bijna-500-hectare"
+      },
+      {
+        "claim": "The Westland holds the greatest concentration of glasshouse horticulture in the world.",
+        "url": "https://nl.wikipedia.org/wiki/Glastuinbouw"
+      },
+      {
+        "claim": "School holiday regions: regio Midden = Utrecht, Zuid-Holland and the northern part of Gelderland; regio Zuid = Zeeland, Noord-Brabant, Limburg and the southern part of Gelderland; regio Noord = Groningen, Friesland, Drenthe, Overijssel, Flevoland, Noord-Holland.",
+        "url": "https://www.rijksoverheid.nl/themas/onderwijs/schoolvakanties/regios-schoolvakantie"
+      }
+    ],
+    "rejectedClaims": [
+      "The date on which the 2004 merger took effect as sourced from the municipal entry. The entry names the five municipalities; the date of 1 January 2004 is stated on the page as the merger date and no other date is claimed.",
+      "A share of the national glasshouse area stated by any source. The roughly one quarter is this page dividing 2,497 by 10,151, both published for 2023 in the same report, and it is labelled as derived.",
+      "Any treatment of the greatest concentration in the world claim as a measurement. It is quoted as a description and no comparison set, measure or threshold is offered by the source.",
+      "A reconciliation of the ten 2023 village populations with the 2026 municipal total. The dates differ and no residual is computed.",
+      "Anything the Zuid-Holland page owns: the Randstad boundary question and the provincial totals. Anything The Hague page owns."
+    ]
   }
 }

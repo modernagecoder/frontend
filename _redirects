@@ -2170,4 +2170,8 @@
 # International growth cluster (coding-global.css). Must precede the /* catch-all.
 /coding-classes-in-dordrecht /src/pages/coding-classes-in-dordrecht.html 200
 /coding-classes-in-dordrecht.md /src/pages/coding-classes-in-dordrecht.md 200
+
+# International growth cluster (coding-global.css). Must precede the /* catch-all.
+/coding-classes-in-westland /src/pages/coding-classes-in-westland.html 200
+/coding-classes-in-westland.md /src/pages/coding-classes-in-westland.md 200
 /* /src/pages/404.html 404
