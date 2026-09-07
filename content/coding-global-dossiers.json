@@ -4976,5 +4976,57 @@
       "The radio telescopes at Dwingeloo and Westerbork, the bog bodies at Assen and the zoo at Emmen. Named as landmarks in the spread only; no figures attached.",
       "Anything the Netherlands hub or the Groningen page owns: the SLO core objectives, the earthquake scale."
     ]
+  },
+  "coding-classes-in-flevoland": {
+    "market": "Flevoland",
+    "bodyClass": "cg-flv",
+    "pageType": "governorate",
+    "curriculumAuthority": "Province of Flevoland: 6 municipalities, 462,816 residents (CBS 1 January 2026), 201 primary establishments (43,965 pupils) and 47 secondary (24,636). Capital Lelystad; largest Almere (232,619, 50.3 percent; own page). Province since 1 January 1986, youngest and smallest by land; polders drained 1942, 1957, 1968. Highest under-15 share in this series (17.6 percent). Regio Noord holidays. A province page is about the spread; the hub owns the national curriculum and the Almere page owns the city.",
+    "localProject": "A growth rate is a function of its base year, and from a base of zero it is undefined. Almere: about 6,600 in 1980, 40,297 in 1986, 104,496 in 1995, 142,797 in 2000, 232,619 on 1 January 2026; growth is 63, 123, 477 or about 3,400 percent by base year, and division by zero from 1975. The province grew 76 percent from 1995 against Almere's 123 over the same span. Distinct from the base-rate trap (Georgia: conditional probability), the cumulative-total trap (Seria) and the policy-date trap (the hub): the flaw here is quoting a ratio of two levels while hiding the choice of the earlier one, and treating a zero base as infinite growth. Computed before writing; both Almere counts for 2026 are kept.",
+    "requiredMentions": [
+      "462,816",
+      "six municipalities",
+      "Lelystad",
+      "Noordoostpolder",
+      "Dronten",
+      "Zeewolde",
+      "Urk",
+      "Emmeloord",
+      "1 January 1986",
+      "November 1976",
+      "40,297",
+      "104,496",
+      "262,325",
+      "Schokland"
+    ],
+    "sources": [
+      {
+        "claim": "Flevoland 462,816 residents on 1 January 2026 (CBS provisional); 6 municipalities; total area 241,230 ha, land 141,012 ha, water 100,218 ha; density 324; 194,155 households; 81,547 aged 0 to 15; 58,190 aged 15 to 25; 201 primary establishments (43,965 pupils); 47 secondary (24,636); 262,325 in 1995, a 76 percent rise.",
+        "url": "https://allecijfers.nl/provincie/flevoland/"
+      },
+      {
+        "claim": "All 6 municipalities on 1 January 2026: Almere 232,619; Lelystad 85,781; Noordoostpolder 51,930; Dronten 45,443; Zeewolde 24,612; Urk 22,431.",
+        "url": "https://allecijfers.nl/ranglijst/grootste-en-kleinste-gemeenten-in-inwoners-in-de-provincie-flevoland/"
+      },
+      {
+        "claim": "Flevoland became a province on 1 January 1986, the youngest and the smallest by land area; capital Lelystad; Commissaris van de Koning Arjen Gerritsen; 2,412.31 km2 total, 1,411.63 land, 1,000.68 water; 462,880 residents end 2025 across six municipalities; Almere the largest at 226,500 and Lelystad 84,080 by this entry; three polders, Noordoostpolder drained 1942, Oostelijk Flevoland 1957, Zuidelijk Flevoland 1968; Urk and Schokland former islands.",
+        "url": "https://nl.wikipedia.org/wiki/Flevoland"
+      },
+      {
+        "claim": "Almere: first homes delivered in November 1976; roughly 6,600 residents in 1980; 40,297 in 1986; 104,496 in 1995; 142,797 in 2000; 232,650 projected for 1 January 2026; the largest municipality of Flevoland and the seventh largest in the Netherlands.",
+        "url": "https://nl.wikipedia.org/wiki/Almere"
+      },
+      {
+        "claim": "School holiday regions: regio Noord = Groningen, Friesland, Drenthe, Overijssel, Flevoland, Noord-Holland; regio Midden = Utrecht, Zuid-Holland and the northern part of Gelderland; regio Zuid = Zeeland, Noord-Brabant, Limburg and the southern part of Gelderland.",
+        "url": "https://www.rijksoverheid.nl/themas/onderwijs/schoolvakanties/regios-schoolvakantie"
+      }
+    ],
+    "rejectedClaims": [
+      "Zeewolde founded in 1984 and Lelystad named for Cornelis Lely. Stated in the spread from general knowledge, with no figures attached; not used in the evidence cells or the project.",
+      "The 1980 Almere figure as exact. The entry says roughly 6,600; the page says about 3,400 percent and no more precisely.",
+      "That Flevoland has the highest under-15 share and the steepest 1995 growth of all twelve provinces. Only the provinces on this site were compared for the first; the second is stated as by far the steepest because 76 percent exceeds every other province page in this series.",
+      "Anything the Almere page owns: the city's own project and its local figures beyond the five counts quoted here.",
+      "Anything the Netherlands hub owns: the SLO core objectives and the national informatica figures."
+    ]
   }
 }

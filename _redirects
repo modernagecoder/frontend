@@ -2086,4 +2086,8 @@
 # International growth cluster (coding-global.css). Must precede the /* catch-all.
 /coding-classes-in-drenthe /src/pages/coding-classes-in-drenthe.html 200
 /coding-classes-in-drenthe.md /src/pages/coding-classes-in-drenthe.md 200
+
+# International growth cluster (coding-global.css). Must precede the /* catch-all.
+/coding-classes-in-flevoland /src/pages/coding-classes-in-flevoland.html 200
+/coding-classes-in-flevoland.md /src/pages/coding-classes-in-flevoland.md 200
 /* /src/pages/404.html 404
