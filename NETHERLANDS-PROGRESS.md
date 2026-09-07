@@ -35,7 +35,8 @@ Phase 6 (ag- doors): academy spokes x6 (amsterdam, eindhoven, the-hague, utrecht
 | 14 | coding-classes-in-limburg (lim, #681944) | province | 4,420 | 4.9% vs gelderland | An AI will say the highest point in the Netherlands is the Vaalserberg. Why should a child in Heerlen learn enough to argue? | A fact about a set depends on the set (Vaalserberg 322.4 m for the European Netherlands; Mount Scenery 870 m for the country since 10 October 2010) | aff02a0e |
 | 15 | coding-classes-in-groningen-province (grp, #424076) | province | 4,716 | 3.9% vs noord-brabant | An AI will tell you Huizinge was magnitude 3.6. Why should a child in Delfzijl learn what the six is worth? | A number on a logarithmic scale is a folded number (3.6 vs 3.5 is 41% more energy, not 3%; vs 2.0 it is 251 times; was 6.6% overlap before 13 recurring sentences were rewritten) | f5a07b8d |
 | 16 | coding-classes-in-noord-brabant (nbr, #6A2203) | province | 4,712 | 1.9% vs overijssel | An AI will tell a child in Baarle which country the bakery is in. Why should the child learn to count the rings instead? | Inside is a count, not a look (Baarle-Nassau: 22 Belgian exclaves, 7 Dutch counter-exclaves, 1 at Ginhoven; even-odd rule beats the outer-line and any-Belgian-ring rules) | 875d836d |
-| 17 | coding-classes-in-friesland (frl, #0D6332) | province | 4,572 | 4.8% vs noord-brabant | An AI knows Friesland and Fryslân are one place. Why should a child in Sneek learn what happens when a program does not? | A name is not an identifier (Friesland became Fryslân on 1 January 1997; a join on the name drops 665,208 people; only a stable code returns +9.1%) | (this commit) |
+| 17 | coding-classes-in-friesland (frl, #0D6332) | province | 4,572 | 4.8% vs noord-brabant | An AI knows Friesland and Fryslân are one place. Why should a child in Sneek learn what happens when a program does not? | A name is not an identifier (Friesland became Fryslân on 1 January 1997; a join on the name drops 665,208 people; only a stable code returns +9.1%) | dd1c8515 |
+| 18 | coding-classes-in-drenthe (dre, #6A4D01) | province | 4,791 | 1.6% vs friesland | An AI will say the hunebedden are five thousand years old. Why should a child in Borger learn to say 5,075 to 5,375? | A range in is a range out, and there is no year zero (hunebedden 3350 to 3050 BC are 5,075 to 5,375 years old, not 5,376; Python refuses year -3350) | (this commit) |
 
 ## Skipped (kill criterion)
 
@@ -45,7 +46,7 @@ Phase 6 (ag- doors): academy spokes x6 (amsterdam, eindhoven, the-hague, utrecht
 ## Codes in use (letters only; check `coding-global.css` before assigning)
 
 Reserved by older clusters and NOT available: hmr (Al Hamra), lei (Leicester), mst? free, amr (Al Amarat), adm (Adam), ede? free.
-Assigned so far: cg: amv (Amstelveen), ams (Amsterdam), ehv (Eindhoven), dhg (The Hague), alm (Almere), utr (Utrecht), rtm (Rotterdam) · ag: nla (academy hub) · provinces: nhl (Noord-Holland), zhl (Zuid-Holland), utp (Utrecht), gld (Gelderland), ovr (Overijssel), lim (Limburg), grp (Groningen), nbr (Noord-Brabant)
+Assigned so far: cg: amv (Amstelveen), ams (Amsterdam), ehv (Eindhoven), dhg (The Hague), alm (Almere), utr (Utrecht), rtm (Rotterdam) · ag: nla (academy hub) · provinces: nhl (Noord-Holland), zhl (Zuid-Holland), utp (Utrecht), gld (Gelderland), ovr (Overijssel), lim (Limburg), grp (Groningen), nbr (Noord-Brabant), dre (Drenthe)
 
 ## Open issues
 
