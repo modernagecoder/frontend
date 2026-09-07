@@ -89,7 +89,7 @@ West adds a projected 13,200 and Nieuw-West 31,300, which makes Nieuw-West the l
 
 ### Centrum and Weesp
 
-Centrum is the one district projected to stay roughly stable. Weesp, a separate municipality until 24 March 2022, is now a stadsgebied with its own elected committee, about 20,800 residents at the time of the merger, a fort from 1861 and the Van Houten chocolate history that once made it the cocoa town.
+[Centrum](/coding-classes-in-amsterdam-centrum) is the one district projected to stay roughly stable, and its page argues about a district less crowded than every wijk inside it. Weesp, a separate municipality until 24 March 2022, is now a stadsgebied with its own elected committee, about 20,800 residents at the time of the merger, a fort from 1861 and the Van Houten chocolate history that once made it the cocoa town.
 
 The district pages in this series are written under a rule: one paragraph of city context, then only what is true of that district and false of its neighbours. This page carries the city context so that they do not have to.
 
@@ -266,7 +266,7 @@ Five to ten learners, matched on level, pace and goal rather than on age, distri
 
 ## The town next door, the country page, and the page for building AI
 
-[Coding classes in Amstelveen](/coding-classes-in-amstelveen) covers the municipality on Amsterdam's southern edge with the highest share of Indian-origin residents in the country. The [Netherlands coding hub](/coding-classes-in-netherlands) carries the national curriculum picture and the full course list, and [AI and machine learning classes in the Netherlands](/ai-and-machine-learning-classes-in-netherlands) is for the learner who wants to build models. The eight district pages follow in this series.
+[Coding classes in Amstelveen](/coding-classes-in-amstelveen) covers the municipality on Amsterdam's southern edge with the highest share of Indian-origin residents in the country. The [Netherlands coding hub](/coding-classes-in-netherlands) carries the national curriculum picture and the full course list, and [AI and machine learning classes in the Netherlands](/ai-and-machine-learning-classes-in-netherlands) is for the learner who wants to build models. [Amsterdam-Centrum](/coding-classes-in-amsterdam-centrum) is the first of the eight district pages; the other seven follow in this series.
 
 ## Contact
 

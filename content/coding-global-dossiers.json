@@ -6535,5 +6535,67 @@
       "Any account of the boundary changes implied by the word weer in the 1819 and 1820 sentences. Those earlier changes were not read.",
       "Anything the Amstelveen or Noord-Holland pages own."
     ]
+  },
+  "coding-classes-in-amsterdam-centrum": {
+    "market": "Amsterdam-Centrum",
+    "bodyClass": "cg-acn",
+    "pageType": "district",
+    "curriculumAuthority": "Stadsdeel Amsterdam-Centrum, Noord-Holland: 90,400 residents on 1 January 2026 across 8.04 km2 published without a land and water split, giving 11,244 per km2; ten wijken, of which four carry full CBS figures here holding 45,986 residents, 50.9 percent of the district; created as a stadsdeel in 2002, deelgemeente status until 19 March 2014, directly elected stadsdeelcommissie since 2018 with eleven members after 2022. The stadsdeel is not a CBS publication level: the office publishes Amsterdam at municipality, wijk and buurt level only, so district figures and wijk figures come from different sources with different conventions. Regio Noord holidays. The district page argues from aggregates over ground; the Amsterdam city page owns the doorstroomtoets disagreement rate and the 2055 projections, Tilburg owns the modifiable areal unit problem and Groningen owns mean versus mode.",
+    "localProject": "Ask what the number was computed over, then ask who it is about. Amsterdam-Centrum is published at 90,400 residents on 8.04 km2, which is 11,244 per square kilometre, and every wijk measured inside it is denser: Jordaan 23,476, Oostelijke Eilanden/Kadijken 15,682, Grachtengordel-West 14,456, Burgwallen-Oude Zijde 13,600. A whole cannot be less dense than all its parts, and the impossibility is the signal: the district area carries no land and water split while every wijk density divides by land alone, and in a district on the canals and the harbour the water is a fifth or more of the surface. Fixing the denominators removes the paradox and leaves the real lesson intact, because the district figure still describes no wijk: income across the four runs 40,700 to 65,800 euro, dwelling value 526,000 to 892,000, under-fifteens 4.38 to 8.4 percent and rented housing 56 to 80 percent. An average over an area is a property of the area, not a summary of its parts, not a midpoint between them and not a description of any person in it. Distinct from the modifiable areal unit problem (Tilburg), which is about the zoning changing the statistic; from mean versus mode (Groningen), which is about one distribution; and from the mismatched-denominator trap (Venlo), where the denominator is a real population that excludes the users. Here two denominators measure different surfaces and the deeper fault is inferring downward from an aggregate. No district average is computed from four of ten wijken.",
+    "requiredMentions": [
+      "90,400",
+      "19,354",
+      "23,476",
+      "15,484",
+      "15,682",
+      "6,465",
+      "4,683",
+      "13,600",
+      "45,986",
+      "892,000",
+      "40,700",
+      "Burgwallen-Oude Zijde",
+      "Grachtengordel-West",
+      "8,855",
+      "556,000"
+    ],
+    "sources": [
+      {
+        "claim": "Amsterdam-Centrum: 90.400 inwoners (1 januari 2026); oppervlakte 8,04 km2 with no land and water split given; het stadsdeel werd in 2002 ingesteld, daarvoor werd de binnenstad rechtstreeks door het centrale gemeentebestuur bestuurd; tot 19 maart 2014 had Centrum tevens de wettelijke status van deelgemeente; sinds 2018 heeft Centrum een rechtstreeks gekozen stadsdeelcommissie, with eleven members following the 2022 elections; ten wijken: Burgwallen-Oude Zijde, Burgwallen-Nieuwe Zijde, Grachtengordel-West, Grachtengordel-Zuid, Nieuwmarkt/Lastage, Haarlemmerbuurt, Jordaan, De Weteringschans, Weesperbuurt/Plantage, Oostelijke Eilanden/Kadijken.",
+        "url": "https://nl.wikipedia.org/wiki/Amsterdam-Centrum"
+      },
+      {
+        "claim": "Wijk Jordaan, Amsterdam: 19,354 inwoners (2026); 13,260 huishoudens averaging 1.5 (2025); 8,855 eenpersoonshuishoudens, 67 percent; ages 1,245 (0 to 15, 6.4 percent), 2,135 (15 to 25), 7,385 (25 to 45), 4,880 (45 to 65), 3,695 (65+); 95 hectare total, 83 land, 11 water (2025); bevolkingsdichtheid 23,476 per km2 (2025); 13,425 woningen (2025); average WOZ 556,000 euro (2025); 72 percent huurwoningen and 28 percent koopwoningen (2025); average income 45,800 euro per resident (2024); 11 buurten.",
+        "url": "https://allecijfers.nl/wijk/jordaan-amsterdam/"
+      },
+      {
+        "claim": "Wijk Burgwallen-Oude Zijde, Amsterdam: 4,683 inwoners (2026); 3,395 huishoudens averaging 1.4 (2025); 2,340 eenpersoonshuishoudens, 69 percent; ages 205 (0 to 15, 4.38 percent), 875 (15 to 25), 2,210 (25 to 45), 910 (45 to 65), 505 (65+); 40 hectare total, 35 land (2025); bevolkingsdichtheid 13,600 per km2 (2025); 3,029 woningen (2025); average WOZ 526,000 euro (2025); 80 percent huurwoningen and 20 percent koopwoningen (2025); average income 40,700 euro (2024); 5 buurten: Kop Zeedijk, Oude Kerk en omgeving, Burgwallen-Oost, Nes en omgeving, BG-terrein en omgeving.",
+        "url": "https://allecijfers.nl/wijk/burgwallen-oude-zijde-amsterdam/"
+      },
+      {
+        "claim": "Wijk Oostelijke Eilanden/Kadijken, Amsterdam: 15,484 inwoners (2026); 9,475 huishoudens averaging 1.6 (2025); 5,815 eenpersoonshuishoudens, 61 percent; ages 1,305 (0 to 15, 8.4 percent), 1,725 (15 to 25), 6,140 (25 to 45), 3,630 (45 to 65), 2,730 (65+); 130 hectare total, 99 land (2025); bevolkingsdichtheid 15,682 per km2 (2025); 8,016 woningen (2025); average WOZ 539,000 euro (2025); 70 percent huurwoningen and 30 percent koopwoningen (2025); average income 43,400 euro (2024); 8 buurten: Marine-Etablissement, Kattenburg, Wittenburg, Oostenburg, Czaar Peterbuurt, Kadijken, Het Funen, Kazernebuurt.",
+        "url": "https://allecijfers.nl/wijk/oostelijke-eilanden-kadijken-amsterdam/"
+      },
+      {
+        "claim": "Wijk Grachtengordel-West, Amsterdam: 6,465 inwoners (2026); 4,290 huishoudens averaging 1.5 (2025); 2,695 eenpersoonshuishoudens, 63 percent; ages 410 (0 to 15, 6.3 percent), 995 (15 to 25), 2,295 (25 to 45), 1,590 (45 to 65), 1,160 (65+); 57 hectare total, 45 land (2025); bevolkingsdichtheid 14,456 per km2 (2025); 4,394 woningen (2025); average WOZ 892,000 euro (2025); 56 percent huurwoningen (2025); average income 65,800 euro (2024); 4 buurten.",
+        "url": "https://allecijfers.nl/wijk/grachtengordel-west-amsterdam/"
+      },
+      {
+        "claim": "Amsterdam: 941,927 inwoners (2026); 516,096 huishoudens (2025); 2 woonplaatsen, 111 wijken en 519 buurten; the site publishes per-wijk and per-buurt pages but no stadsdeel-level pages.",
+        "url": "https://allecijfers.nl/gemeente/amsterdam/"
+      },
+      {
+        "claim": "School holiday regions: regio Noord = Groningen, Friesland, Drenthe, Overijssel, Flevoland, Noord-Holland; regio Midden = Utrecht, Zuid-Holland and the northern part of Gelderland; regio Zuid = Zeeland, Noord-Brabant, Limburg and the southern part of Gelderland.",
+        "url": "https://www.rijksoverheid.nl/themas/onderwijs/schoolvakanties/regios-schoolvakantie"
+      }
+    ],
+    "rejectedClaims": [
+      "Any district-level average income, dwelling value, household size or age share. Four of ten wijken were read and a partial average is not an average.",
+      "The district density of 11,244 compared with wijk densities as though the two were the same measurement. The district area is published without a land and water split and every wijk density divides by land alone, and the page says so wherever both appear.",
+      "Figures for Burgwallen-Nieuwe Zijde, Grachtengordel-Zuid, Nieuwmarkt/Lastage, Haarlemmerbuurt, De Weteringschans or Weesperbuurt/Plantage. They are named and no numbers are invented for them.",
+      "An exact land area for the stadsdeel. The municipal entry gives only a single 8.04 km2 figure.",
+      "Anything the Amsterdam city page owns: the doorstroomtoets disagreement rate, the Centrale Loting en Matching figures, the 2055 projections and the primary school counts.",
+      "The zoning argument, which belongs to the Tilburg page, and the mean-versus-mode argument, which belongs to the Groningen page."
+    ]
   }
 }

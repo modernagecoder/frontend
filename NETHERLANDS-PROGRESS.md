@@ -65,7 +65,8 @@ Phase 6 (ag- doors): academy spokes x6 (amsterdam, eindhoven, the-hague, utrecht
 | 44 | coding-classes-in-emmen (emm, #843442) | city | 5,244 | 1.9% vs haarlem | An AI will tell you the zoo lost a quarter of its visitors. Why should a child in Emmen learn to ask which year it started from? | The first observation is not a baseline (1.3m in the openingsjaar against 951,000 in 2024 reads as -27%, but +12% from 2018; and openingsjaar hides the denominator, 4,498 or 3,562 a day against 2,598) | 9d388a44 |
 | 45 | coding-classes-in-deventer (dev, #813C0F) | city | 4,982 | 2.9% vs emmen | An AI will tell you the book market declined. Why should a child in Deventer learn to ask what the weather was? | Did the thing move or the conditions? (book market 130,000 in 2008 to 75,000 in 2009 vanwege de regen, with 6 km and 875 kramen unchanged; once-a-year sampling never averages the day out) | 2bdcf286 |
 | 46 | coding-classes-in-venlo (vnl, #832545) | city | 5,025 | 4.4% vs emmen | An AI will happily divide five million by a hundred thousand. Why should a child in Venlo learn to refuse? | Per capita names a population (circa 5m visitors from the Ruhrgebied over 104,195 residents gives 48, over 40,945 gives 122, over 49,770 households gives 100; the served population is in none of the registers) | 1ef0bd12 |
-| 47 | coding-classes-in-uithoorn (uit, #733357) | city | 5,177 | 3.9% vs deventer | An AI reading that page will report no population history for Uithoorn. Why should a child here learn to check? | Which layer is the absence in: world, record or view? (the entry's population graph will not draw and prints a MediaWiki note; the series exists, 24,581 in 1995 against 32,204 in 2026) | (this commit) |
+| 47 | coding-classes-in-uithoorn (uit, #733357) | city | 5,177 | 3.9% vs deventer | An AI reading that page will report no population history for Uithoorn. Why should a child here learn to check? | Which layer is the absence in: world, record or view? (the entry's population graph will not draw and prints a MediaWiki note; the series exists, 24,581 in 1995 against 32,204 in 2026) | b9e837a2 |
+| 48 | coding-classes-in-amsterdam-centrum (acn, #A04761) | district | 5,112 | 4.8% vs uithoorn | An AI will tell you Centrum is less crowded than the Jordaan. Why should a child here learn to say that is impossible? | What was it computed over, and who is it about? (district 11,244/km2 on an area including water, against every wijk on land: Jordaan 23,476, Oostelijke Eilanden 15,682, Grachtengordel-West 14,456, Burgwallen-Oude Zijde 13,600) | (this commit) |
 
 ## Skipped (kill criterion)
 
@@ -75,9 +76,49 @@ Phase 6 (ag- doors): academy spokes x6 (amsterdam, eindhoven, the-hague, utrecht
 ## Codes in use (letters only; check `coding-global.css` before assigning)
 
 Reserved by older clusters and NOT available: hmr (Al Hamra), lei (Leicester), mst? free, amr (Al Amarat), adm (Adam), ede? free.
-Assigned so far: cg: amv (Amstelveen), ams (Amsterdam), ehv (Eindhoven), dhg (The Hague), alm (Almere), utr (Utrecht), rtm (Rotterdam) · ag: nla (academy hub) · provinces: nhl (Noord-Holland), zhl (Zuid-Holland), utp (Utrecht), gld (Gelderland), ovr (Overijssel), lim (Limburg), grp (Groningen), nbr (Noord-Brabant), frl (Friesland), dre (Drenthe), flv (Flevoland), zld (Zeeland) · cities: grn (Groningen), tlb (Tilburg), brd (Breda), nij (Nijmegen), arn (Arnhem), apd (Apeldoorn), hlm (Haarlem), hmm (Haarlemmermeer), zns (Zaanstad), amf (Amersfoort), ens (Enschede), dbo (Den Bosch), zwo (Zwolle), ztm (Zoetermeer), lde (Leiden), lwd (Leeuwarden), mst (Maastricht), ede (Ede), drd (Dordrecht), wst (Westland), alp (Alphen aan den Rijn), alk (Alkmaar), dlf (Delft), emm (Emmen), dev (Deventer), vnl (Venlo), uit (Uithoorn)
+Assigned so far: cg: amv (Amstelveen), ams (Amsterdam), ehv (Eindhoven), dhg (The Hague), alm (Almere), utr (Utrecht), rtm (Rotterdam) · ag: nla (academy hub) · provinces: nhl (Noord-Holland), zhl (Zuid-Holland), utp (Utrecht), gld (Gelderland), ovr (Overijssel), lim (Limburg), grp (Groningen), nbr (Noord-Brabant), frl (Friesland), dre (Drenthe), flv (Flevoland), zld (Zeeland) · cities: grn (Groningen), tlb (Tilburg), brd (Breda), nij (Nijmegen), arn (Arnhem), apd (Apeldoorn), hlm (Haarlem), hmm (Haarlemmermeer), zns (Zaanstad), amf (Amersfoort), ens (Enschede), dbo (Den Bosch), zwo (Zwolle), ztm (Zoetermeer), lde (Leiden), lwd (Leeuwarden), mst (Maastricht), ede (Ede), drd (Dordrecht), wst (Westland), alp (Alphen aan den Rijn), alk (Alkmaar), dlf (Delft), emm (Emmen), dev (Deventer), vnl (Venlo), uit (Uithoorn) · districts: acn (Amsterdam-Centrum)
 
 ## Open issues
+### Phase 4 method note, settled 2026-09-08 on Amsterdam-Centrum
+
+Stadsdelen are NOT a CBS publication level. `allecijfers.nl` publishes Amsterdam
+at municipality, wijk and buurt level only, with no stadsdeel pages, and the
+Wikipedia stadsdeel articles carry inconsistent vintages (Centrum 2026,
+Nieuw-West 2021). So the Phase 3 spine of one statistics row per page does not
+exist here.
+
+District pages are therefore built as: district identity, population, area,
+governance and wijk list from the stadsdeel entry, plus FULL published figures
+for three to five named wijken beneath it from `allecijfers.nl/wijk/<name>-<city>/`
+(population 2026, households/area/density/housing/tenure 2025, income 2024).
+That is closer to the spec's A.3b rule than a municipal table would have been,
+because everything on the page is true of that district and false of its
+neighbours. Never compute a district average from a subset of its wijken.
+
+Two mechanical points: district pages are NOT added to the national hub's
+markets list (`finish_page.py` skips it when the type is `district`); they link
+up through their city page instead. And `parents` carries two entries, the
+national hub then the city, so the breadcrumb reads Home / Netherlands / City.
+
+### Pre-existing cluster-gate failure, found 2026-09-08, NOT caused by the NL build
+
+`node scripts/check-cluster-uniqueness.js coding-global` exits 1 on
+`FAIL 12.6% coding-classes-in-leicester vs coding-classes-in-birmingham`.
+Both pages last changed in `f1fa15a3`, before this cluster started, and neither
+has been touched by any NL commit. Every NL page scores between 1.9 and 6.0.
+
+Why it stayed invisible: `scripts/nl/check.js` prints only the rows for the slug
+being checked, so a failing pair elsewhere in the cluster shows up merely as the
+trailing legend line "1 page(s) over the fail threshold". Running the script with
+no argument scores a different cluster and reports "All cluster pages within
+threshold", which is what made it look stale. Always pass `coding-global`.
+
+The shared text is the shared chrome: "Modern Age Coders teaches live online
+coding and maths to ages 6 to 67 in ..." and "against the English national
+curriculum from USD 100 a ...". Fixing it means rewriting those recurring
+sentences on the Leicester page (html + md twin). Left alone deliberately:
+it is a live page in another cluster and outside the NL scope.
+
 
 - Pre-flight done 2026-09-07: hub dossier released `Almere` and `Eindhoven` (replaced with `Groep 3 to 5`, `VO student`); `pageTypeOf()` now reads `pageType` from the dossier.
 - Group batch size on new pages is `5 to 10` (brand facts, owner ruling 2026-09-03). Older cg- pages still say 5 to 8; do not copy their trust strip.
