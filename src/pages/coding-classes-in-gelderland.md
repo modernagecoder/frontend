@@ -221,7 +221,7 @@ It does not, as a province. The Rijksoverheid puts the northern part in regio Mi
 
 ### Which Gelderland towns get their own page, and which are covered here?
 
-[Nijmegen](/coding-classes-in-nijmegen) has its own page, and so do [Arnhem](/coding-classes-in-arnhem) and [Apeldoorn](/coding-classes-in-apeldoorn); Ede follows in this series. The other 47 municipalities, from Barneveld and Doetinchem to Rozendaal, are listed above with their populations, and the class is identical whichever one the laptop is in.
+Nijmegen has its own page, and so do Arnhem and Apeldoorn; Ede follows in this series. The other 47 municipalities, from Barneveld and Doetinchem to Rozendaal, are listed above with their populations, and the class is identical whichever one the laptop is in.
 
 ### We live in Montferland or Neder-Betuwe. Which region are we actually in?
 

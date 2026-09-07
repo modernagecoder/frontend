@@ -225,7 +225,7 @@ Haarlem, with 168,898 residents on 1 January 2026. Amsterdam, with 941,927, is t
 
 ### Which towns in Noord-Holland get their own page, and which are covered here?
 
-Amsterdam, Amstelveen and [Haarlem](/coding-classes-in-haarlem) already have pages, and so does [Haarlemmermeer](/coding-classes-in-haarlemmermeer). Zaanstad, Alkmaar, Hilversum, Purmerend, Hoorn and Uithoorn follow in this series. The other 34 municipalities, from Dijk en Waard to Oostzaan, are named on this page with their populations, and a family in any of them books exactly the same class.
+Amsterdam, Amstelveen and Haarlem already have pages, and so does Haarlemmermeer. Zaanstad, Alkmaar, Hilversum, Purmerend, Hoorn and Uithoorn follow in this series. The other 34 municipalities, from Dijk en Waard to Oostzaan, are named on this page with their populations, and a family in any of them books exactly the same class.
 
 ### Why does the page make so much of the gap between Haarlem, Haarlemmermeer and Zaanstad?
 
