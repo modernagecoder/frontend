@@ -40,7 +40,8 @@ Phase 6 (ag- doors): academy spokes x6 (amsterdam, eindhoven, the-hague, utrecht
 | 19 | coding-classes-in-flevoland (flv, #7D2759) | province | 4,439 | 2.3% vs drenthe | An AI will call Almere the fastest-growing city in the Netherlands. Why should a child in Lelystad learn to ask: since when? | A growth rate is a function of its base year (Almere +63% from 2000, +123% from 1995, +477% from 1986, undefined from 1975) | 263d90b9 |
 | 20 | coding-classes-in-zeeland (zld, #4F2C5D) | province | 4,616 | 2.5% vs drenthe | An AI will name the largest city in Zeeland without asking what you mean by city. Why should a child in Goes learn to ask? | The unit of observation decides the ranking (Terneuzen: largest municipality 55,955, fourth town 26,080; Middelburg: largest town 43,165, second municipality 50,439) | babea3a0 |
 | 21 | coding-classes-in-groningen (grn, #721025) | city | 4,588 | 2.6% vs zeeland | An AI will tell a Groningen parent the average household here has 1.7 people. Why should their child learn to take that apart? | A mean is a balance point, not a description (1.7 per household, but 61% hold exactly 1; the split gives 88,768 at 1.00 and 56,753 at 2.74; mode and median both 1) | 5013b93a |
-| 22 | coding-classes-in-tilburg (tlb, #803103) | city | 4,565 | 1.5% vs groningen | An AI will happily tell you Tilburg has more neighbourhoods than Groningen. Why should a child here learn what that is worth? | A per-zone statistic measures the zoning (Tilburg 59 wijken = 3,911 each; Groningen 20 = 12,221; ratio 0.32 per wijk, 0.59 per buurt, 1.39 per km2) | (this commit) |
+| 22 | coding-classes-in-tilburg (tlb, #803103) | city | 4,565 | 1.5% vs groningen | An AI will happily tell you Tilburg has more neighbourhoods than Groningen. Why should a child here learn what that is worth? | A per-zone statistic measures the zoning (Tilburg 59 wijken = 3,911 each; Groningen 20 = 12,221; ratio 0.32 per wijk, 0.59 per buurt, 1.39 per km2) | 6d326c2c |
+| 23 | coding-classes-in-breda (brd, #5D457B) | city | 4,645 | 5.4% vs tilburg | Ask an AI whether Breda is the ninth city of the Netherlands and it will answer. Why should a child here learn to distrust the answer? | A difference smaller than your sources' disagreement is not a difference (9th to 10th is 333 people; two sources differ by 402 about one city on one date) | (this commit) |
 
 ## Skipped (kill criterion)
 
@@ -50,7 +51,7 @@ Phase 6 (ag- doors): academy spokes x6 (amsterdam, eindhoven, the-hague, utrecht
 ## Codes in use (letters only; check `coding-global.css` before assigning)
 
 Reserved by older clusters and NOT available: hmr (Al Hamra), lei (Leicester), mst? free, amr (Al Amarat), adm (Adam), ede? free.
-Assigned so far: cg: amv (Amstelveen), ams (Amsterdam), ehv (Eindhoven), dhg (The Hague), alm (Almere), utr (Utrecht), rtm (Rotterdam) · ag: nla (academy hub) · provinces: nhl (Noord-Holland), zhl (Zuid-Holland), utp (Utrecht), gld (Gelderland), ovr (Overijssel), lim (Limburg), grp (Groningen), nbr (Noord-Brabant), dre (Drenthe), flv (Flevoland), zld (Zeeland) · cities: grn (Groningen), tlb (Tilburg)
+Assigned so far: cg: amv (Amstelveen), ams (Amsterdam), ehv (Eindhoven), dhg (The Hague), alm (Almere), utr (Utrecht), rtm (Rotterdam) · ag: nla (academy hub) · provinces: nhl (Noord-Holland), zhl (Zuid-Holland), utp (Utrecht), gld (Gelderland), ovr (Overijssel), lim (Limburg), grp (Groningen), nbr (Noord-Brabant), dre (Drenthe), flv (Flevoland), zld (Zeeland) · cities: grn (Groningen), tlb (Tilburg), brd (Breda)
 
 ## Open issues
 

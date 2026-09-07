@@ -8464,6 +8464,18 @@
   to = "/src/pages/coding-classes-in-tilburg.md"
   status = 200
 
+# International growth cluster (coding-global.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/coding-classes-in-breda"
+  to = "/src/pages/coding-classes-in-breda.html"
+  status = 200
+
+[[redirects]]
+  from = "/coding-classes-in-breda.md"
+  to = "/src/pages/coding-classes-in-breda.md"
+  status = 200
+
 [[redirects]]
   from = "/*"
   to = "/src/pages/404.html"

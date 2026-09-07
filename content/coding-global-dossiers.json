@@ -5205,5 +5205,61 @@
       "Mixing city and municipal figures. The 203,690 city count and the 88.6 km2 city area are never combined with the municipal counts.",
       "Anything the Noord-Brabant page owns: the Baarle enclaves, the 56 municipalities, the capital-versus-largest contrast. Anything the Groningen page owns: the household mean split."
     ]
+  },
+  "coding-classes-in-breda": {
+    "market": "Breda",
+    "bodyClass": "cg-brd",
+    "pageType": "city",
+    "curriculumAuthority": "City and municipality of Breda, Noord-Brabant: 190,204 residents (CBS 1 January 2026), third of the province and ninth or tenth of the country depending on the source; 44 primary establishments (16,017 pupils) and 19 secondary (13,958); 20,798 in higher education. Villages Prinsenbeek, Teteringen, Bavel, Ulvenhout, Effen; Ginneken and Princenhage absorbed 1942. Seat of the Barony from 1403; KMA founded 1828. Regio Zuid holidays. The city page argues from ranking uncertainty; the province page owns Baarle and the hub owns the national curriculum.",
+    "localProject": "A difference smaller than the disagreement between your sources is not a difference (rank stability under measurement uncertainty). On 1 January 2026 the national site and the encyclopaedia give, for one municipality on one date: Groningen 244,427 and 244,829 (402 apart), Arnhem 171,822 and 172,002 (180), Haarlem 168,898 and 168,946 (48), Nijmegen 189,871 and 189,850 (21), Haarlemmermeer 166,978 and 166,996 (18), Apeldoorn 169,212 and 169,222 (10). Breda 190,204 leads Nijmegen 189,871 by 333, and Apeldoorn leads Haarlem by 314, both inside the largest observed source disagreement, so the learner prints ties. Breda claims the ninth municipality and Nijmegen the ninth city. Distinct from the rank-versus-distance trap (Noord-Holland: equal rank steps hiding unequal real gaps) because there the gaps were real and here the ordering is undetermined; distinct from the unit-of-observation trap (Zeeland) because the wording difference is named as only part of the explanation. Computed before writing from twelve published figures.",
+    "requiredMentions": [
+      "190,204",
+      "92,225",
+      "189,871",
+      "157,659",
+      "16,017",
+      "13,958",
+      "20,798",
+      "Prinsenbeek",
+      "Teteringen",
+      "Ulvenhout",
+      "Princenhage",
+      "Paul Depla",
+      "97.2 metres",
+      "1828"
+    ],
+    "sources": [
+      {
+        "claim": "Municipality of Breda 190,204 residents on 1 January 2026 (CBS provisional); 92,225 households averaging 2.02, 40,548 single-person (44 percent); 26,891 under 15; 25,888 aged 15 to 25; 51,685 aged 25 to 45; 37,651 aged 65 and over; 44 primary establishments (16,017 pupils); 19 secondary (13,958); 20,798 in higher education; total area 12,868 ha, land 12,569 ha; density 1,502; 11 wijken and 56 buurten; 157,659 in 1995, a rise of 32,545 (21 percent).",
+        "url": "https://allecijfers.nl/gemeente/breda/"
+      },
+      {
+        "claim": "Breda: area 128.7 km2; about 190,000 residents at 30 September 2025 (CBS), of whom roughly 150,000 in the main town; the third municipality of Noord-Brabant and the ninth of the Netherlands; villages Bavel, Effen, Prinsenbeek, Teteringen, Ulvenhout, with Ginneken and Princenhage absorbed in 1942; in 1252 Breda bought privileges from Henry the Fourth of Schoten, city status treated as gradual; seat of the Barony of Breda from 1403; Baron van Breda among royal titles since 1815; Koninklijke Militaire Academie founded 1828; mayor Paul Depla (PvdA) since 2015.",
+        "url": "https://nl.wikipedia.org/wiki/Breda"
+      },
+      {
+        "claim": "Nijmegen 189,871 residents on 1 January 2026 (CBS provisional) per the national statistics site, and 189,850 on the same date per its encyclopaedia entry, which calls Nijmegen the ninth city of the Netherlands and the largest municipality of Gelderland.",
+        "url": "https://nl.wikipedia.org/wiki/Nijmegen"
+      },
+      {
+        "claim": "Same-date pairs for 1 January 2026 between the national statistics site and the encyclopaedia: Groningen 244,427 and 244,829; Arnhem 171,822 and 172,002; Haarlem 168,898 and 168,946; Haarlemmermeer 166,978 and 166,996; Apeldoorn 169,212 and 169,222.",
+        "url": "https://allecijfers.nl/gemeente/arnhem/"
+      },
+      {
+        "claim": "Grote of Onze-Lieve-Vrouwekerk, Breda: present church begun 1410 and completed 1547; tower built 1468 to 1509, height 97.2 metres, also given as 97; national monument since 16 March 1966; seventeen members of the Nassau family buried in the Prinsenkapel; length 77.3 m, transept width 37.7 m, vault height 22.5 m; seating 1,100; Flentrop organ of 1969 with four manuals and a Strümphler choir organ of 1778.",
+        "url": "https://nl.wikipedia.org/wiki/Grote_of_Onze-Lieve-Vrouwekerk_(Breda)"
+      },
+      {
+        "claim": "School holiday regions: regio Zuid = Zeeland, Noord-Brabant, Limburg and the southern part of Gelderland; regio Midden = Utrecht, Zuid-Holland and the northern part of Gelderland; regio Noord = Groningen, Friesland, Drenthe, Overijssel, Flevoland, Noord-Holland.",
+        "url": "https://www.rijksoverheid.nl/themas/onderwijs/schoolvakanties/regios-schoolvakantie"
+      }
+    ],
+    "rejectedClaims": [
+      "A verdict on whether Breda or Nijmegen is the ninth. The page states that the figures cannot settle it and leaves it open.",
+      "A land and water split for Breda. The encyclopaedia infobox gives only a total of 128.7 km2; the land figure used is the national one.",
+      "Any use of the 188,078 figure dated 31 January 2023 or the roughly 150,000 town estimate in arithmetic. Both are quoted as what they are and neither enters a calculation.",
+      "Anything about the military academy beyond its founding year and its seat, none of which was researched.",
+      "Anything the Noord-Brabant page owns: the Baarle enclaves, the 56 municipalities, the capital-versus-largest contrast. Anything the Tilburg page owns: the wijk and buurt zoning comparison."
+    ]
   }
 }

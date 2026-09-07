@@ -88,7 +88,7 @@ Oss 95,549, a page to come; Land van Cuijk 93,645; Maashorst 60,059; Bernheze 32
 
 ### Breda and the Baronie
 
-Breda 190,204, the third city, a page to come; Oosterhout 58,726; Etten-Leur 46,117; Zundert 23,088; Rucphen 23,973; Alphen-Chaam 10,495; Baarle-Nassau 7,256, the smallest and the strangest. The old barony and the road south to Antwerp.
+[Breda](/coding-classes-in-breda) 190,204, the third city, with its own page; Oosterhout 58,726; Etten-Leur 46,117; Zundert 23,088; Rucphen 23,973; Alphen-Chaam 10,495; Baarle-Nassau 7,256, the smallest and the strangest. The old barony and the road south to Antwerp.
 
 ### The Markiezaat and the west
 
@@ -269,7 +269,7 @@ Between five and ten, matched on level, pace and goal rather than on age, school
 
 ## East to Brainport, south to Limburg, and up to the country
 
-The province's largest city already has its page: [Eindhoven](/coding-classes-in-eindhoven), with the Brainport ratio chain. East along the A67 is [Limburg](/coding-classes-in-limburg), with the hill that stopped being the highest point in the country. Both sit under the [Netherlands coding hub](/coding-classes-in-netherlands), and a learner who wants a model that learns rather than a program that runs should look at [AI and machine learning classes in the Netherlands](/ai-and-machine-learning-classes-in-netherlands) or the [AI and Python Academy](/ai-and-python-academy-netherlands). [Tilburg](/coding-classes-in-tilburg) has its page; Breda, 's-Hertogenbosch, Helmond, Oss and Roosendaal follow.
+The province's largest city already has its page: [Eindhoven](/coding-classes-in-eindhoven), with the Brainport ratio chain. East along the A67 is [Limburg](/coding-classes-in-limburg), with the hill that stopped being the highest point in the country. Both sit under the [Netherlands coding hub](/coding-classes-in-netherlands), and a learner who wants a model that learns rather than a program that runs should look at [AI and machine learning classes in the Netherlands](/ai-and-machine-learning-classes-in-netherlands) or the [AI and Python Academy](/ai-and-python-academy-netherlands). [Tilburg](/coding-classes-in-tilburg) has its page; [Breda](/coding-classes-in-breda) too; 's-Hertogenbosch, Helmond, Oss and Roosendaal follow.
 
 ## Contact
 
