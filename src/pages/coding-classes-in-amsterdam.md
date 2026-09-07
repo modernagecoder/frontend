@@ -81,7 +81,7 @@ Now with [a page of its own](/coding-classes-in-amsterdam-noord), arguing about 
 
 ### Oost
 
-The fastest growing district on paper, plus 42,500 by 2055, and home to Amsterdam Science Park: seventy hectares, about 176 companies, the University of Amsterdam's Faculty of Science and the AMS-IX internet exchange, with more than 600 network hubs on one former polder.
+[Its page](/coding-classes-in-amsterdam-oost) sets two neighbourhoods with the same number of homes against each other. The fastest growing district on paper, plus 42,500 by 2055, and home to Amsterdam Science Park: seventy hectares, about 176 companies, the University of Amsterdam's Faculty of Science and the AMS-IX internet exchange, with more than 600 network hubs on one former polder.
 
 ### West and Nieuw-West
 
@@ -266,7 +266,7 @@ Five to ten learners, matched on level, pace and goal rather than on age, distri
 
 ## The town next door, the country page, and the page for building AI
 
-[Coding classes in Amstelveen](/coding-classes-in-amstelveen) covers the municipality on Amsterdam's southern edge with the highest share of Indian-origin residents in the country. The [Netherlands coding hub](/coding-classes-in-netherlands) carries the national curriculum picture and the full course list, and [AI and machine learning classes in the Netherlands](/ai-and-machine-learning-classes-in-netherlands) is for the learner who wants to build models. [Amsterdam-Centrum](/coding-classes-in-amsterdam-centrum) and [Amsterdam-Noord](/coding-classes-in-amsterdam-noord) are the first two of the eight district pages; the other six follow in this series.
+[Coding classes in Amstelveen](/coding-classes-in-amstelveen) covers the municipality on Amsterdam's southern edge with the highest share of Indian-origin residents in the country. The [Netherlands coding hub](/coding-classes-in-netherlands) carries the national curriculum picture and the full course list, and [AI and machine learning classes in the Netherlands](/ai-and-machine-learning-classes-in-netherlands) is for the learner who wants to build models. [Amsterdam-Centrum](/coding-classes-in-amsterdam-centrum) and [Amsterdam-Noord](/coding-classes-in-amsterdam-noord) and [Amsterdam-Oost](/coding-classes-in-amsterdam-oost) are the first three of the eight district pages; the other five follow in this series.
 
 ## Contact
 

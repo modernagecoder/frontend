@@ -6651,5 +6651,58 @@
       "Waterland's 2023 income compared directly with the 2024 incomes of the other two wijken. The years are stated and the comparison is not drawn.",
       "Anything the Amsterdam city page owns: the doorstroomtoets rates, the Centrale Loting en Matching figures and the 2055 district projections."
     ]
+  },
+  "coding-classes-in-amsterdam-oost": {
+    "market": "Amsterdam-Oost",
+    "bodyClass": "cg-aos",
+    "pageType": "district",
+    "curriculumAuthority": "Stadsdeel Amsterdam-Oost, Noord-Holland: created in 2010 by merging the former stadsdelen Oost-Watergraafsmeer and Zeeburg, governed as a bestuurscommissiegebied; its entry publishes 142,049 residents for 1 January 2020, six years older than the wijk figures, and an area of 30.56 km2, so no district density or share is computed anywhere on the page. IJburg under construction since 2002 and Zeeburgereiland still being developed; the Indische Buurt begun after 1900; Watergraafsmeer annexed 1921 and the stadsdelen Oost and Watergraafsmeer merged 1998. Three wijken carry full figures: IJburg-West 16,099 residents in 6,830 dwellings, Oostelijk Havengebied 20,556 in 10,585, Indische Buurt-West 11,939 in 6,712. Regio Noord holidays. The district page argues from self-selection; Amsterdam-Centrum owns aggregates over ground, Amsterdam-Noord owns the rounding bound, and the city page owns the doorstroomtoets rates and the 2055 projections.",
+    "localProject": "A difference between two places is first of all a difference between the people who chose them. IJburg-West, built since 2002, has 6,830 dwellings and 16,099 residents; Indische Buurt-West, built after 1900, has 6,712 dwellings and 11,939 residents. The housing stock differs by 118 units, under two percent, and the population by 4,160, thirty-five percent, giving 2.36 people per dwelling against 1.78. Household size runs 2.3 against 1.7, single-person households 37 percent against 56, under-fifteens 17 percent against 11, owner-occupation 44 percent against 30 and income 45,300 against 36,600 euro. Nobody was assigned to either neighbourhood: family-sized homes were built on new land and families took them, so every one of those gaps is downstream of sorting rather than of anything the ground does. The test that separates selection from effect is the counterfactual, what these same households would have looked like in the other place, and nothing published answers it, so the page describes the groups, names the selection and refuses the causal sentence. The same failure runs through school league tables, feature-usage comparisons and regional health statistics. Distinct from the aggregate-over-ground trap (Amsterdam-Centrum), which is about inferring downward from a whole, and from the confounded-proxy trap (Deventer), where an outside condition moves the metric: here both measurements are correct and the fault is attributing a group difference to the group label.",
+    "requiredMentions": [
+      "142,049",
+      "16,099",
+      "6,830",
+      "11,939",
+      "6,712",
+      "20,556",
+      "10,585",
+      "25,628",
+      "613,000",
+      "36,600",
+      "51,400",
+      "IJburg-West",
+      "Indische Buurt-West",
+      "Oostelijk Havengebied"
+    ],
+    "sources": [
+      {
+        "claim": "Amsterdam-Oost: 142.049 inwoners (1 januari 2020); oppervlakte 30,56 km2; dit stadsdeel werd ingesteld in 2010 en is een samenvoeging van de vroegere stadsdelen Oost-Watergraafsmeer en Zeeburg; het stadsdeel wordt bestuurd als bestuurscommissiegebied; sinds 2002 wordt IJburg gebouwd; het Zeeburgereiland wordt nog ontwikkeld tot een nieuwe locatie voor woningbouw; na 1900 begon ook de bouw van de Indische buurt; Watergraafsmeer annexed 1921; in 1998 werden de stadsdelen Oost en Watergraafsmeer samengevoegd; wijken named include Amsteldorp, Betondorp, Dapperbuurt, Frankendael, IJburg, Indische Buurt, Oostelijk Havengebied, Oosterparkbuurt, Transvaalbuurt, Weesperzijde and Zeeburgereiland.",
+        "url": "https://nl.wikipedia.org/wiki/Amsterdam-Oost"
+      },
+      {
+        "claim": "Wijk IJburg-West, Amsterdam: 16,099 inwoners (2026); 7,040 huishoudens averaging 2.3 (2025); 2,575 eenpersoonshuishoudens, 37 percent, and 4,465 meerpersoonshuishoudens, 63 percent; ages 2,715 (0 to 15, 17 percent), 2,610 (15 to 25, 16 percent), 4,885 (25 to 45, 30 percent), 4,775 (45 to 65, 30 percent), 1,115 (65+, 7 percent); 126 hectare total, 113 land; bevolkingsdichtheid 14,239 per km2; 6,830 woningen (2025); average WOZ 613,000 euro (2025); 3,005 koopwoningen (44 percent) and 3,825 huurwoningen (56 percent); average income 45,300 euro (2024); 5 buurten: Steigereiland-Noord, Steigereiland-Zuid, Joris Ivenspleinbuurt, Ed Pelsterparkbuurt, Rieteilanden-West.",
+        "url": "https://allecijfers.nl/wijk/ijburg-west-amsterdam/"
+      },
+      {
+        "claim": "Wijk Indische Buurt-West, Amsterdam: 11,939 inwoners (2026); 6,965 huishoudens averaging 1.7 (2025); 3,890 eenpersoonshuishoudens, 56 percent, and 3,075 meerpersoonshuishoudens, 44 percent; ages 1,265 (0 to 15, 11 percent), 1,400 (15 to 25, 12 percent), 5,110 (25 to 45, 43 percent), 2,695 (45 to 65, 23 percent), 1,480 (65+, 12 percent); 48 hectare total, 47 land; bevolkingsdichtheid 25,628 per km2; 6,712 woningen (2025); average WOZ 474,000 euro (2025); 2,014 koopwoningen (30 percent) and 4,698 huurwoningen (70 percent); average income 36,600 euro (2024); 3 buurten: Timorpleinbuurt-Noord, Timorpleinbuurt-Zuid, Ambonpleinbuurt.",
+        "url": "https://allecijfers.nl/wijk/indische-buurt-west-amsterdam/"
+      },
+      {
+        "claim": "Wijk Oostelijk Havengebied, Amsterdam: 20,556 inwoners (2026); 11,210 huishoudens averaging 1.8 (2025); 5,210 eenpersoonshuishoudens, 46 percent; ages 2,235 (0 to 15, 11 percent), 1,945 (15 to 25, 9.5 percent), 7,200 (25 to 45, 35 percent), 6,060 (45 to 65, 29 percent), 3,130 (65+, 15 percent); 363 hectare total, 154 land (2025); bevolkingsdichtheid 13,481 per km2 (2025); 10,585 woningen (2025); average WOZ 649,000 euro (2025); 4,128 koopwoningen (39 percent) and 6,457 huurwoningen (61 percent); average income 51,400 euro (2024); 11 buurten: Java-eiland, KNSM-eiland, Oostelijke Handelskade, Sporenburg, Rietlanden, Borneo, Cruquiusbuurt, Entrepot-Noordwest, Architectenbuurt, Bedrijvengebied Veelaan, Bedrijvengebied Zeeburgerkade.",
+        "url": "https://allecijfers.nl/wijk/oostelijk-havengebied-amsterdam/"
+      },
+      {
+        "claim": "School holiday regions: regio Noord = Groningen, Friesland, Drenthe, Overijssel, Flevoland, Noord-Holland; regio Midden = Utrecht, Zuid-Holland and the northern part of Gelderland; regio Zuid = Zeeland, Noord-Brabant, Limburg and the southern part of Gelderland.",
+        "url": "https://www.rijksoverheid.nl/themas/onderwijs/schoolvakanties/regios-schoolvakantie"
+      }
+    ],
+    "rejectedClaims": [
+      "Any causal claim that IJburg produces families, that the Indische Buurt produces single households, or that a neighbourhood causes an income. The data supports a description of sorting and nothing more.",
+      "A district density, share or average of any kind. The published district population is from 2020 and the wijk figures are 2026, and mixing vintages is the Apeldoorn page's argument.",
+      "A district average computed from three of the district's wijken. A partial average is not an average.",
+      "Any argument built on the small overshoots in the age bands. All three sit inside the rounding bound, and the bound test belongs to the Amsterdam-Noord page.",
+      "Figures for Betondorp, Amsteldorp, Frankendael, the Dapperbuurt, the Oosterparkbuurt, the Transvaalbuurt, the Weesperzijde, IJburg-Oost, Zeeburgereiland or the rest of Watergraafsmeer. They are named and given no numbers.",
+      "Anything the Amsterdam city page owns, including the science park figures, the doorstroomtoets rates and the 2055 district projections."
+    ]
   }
 }
