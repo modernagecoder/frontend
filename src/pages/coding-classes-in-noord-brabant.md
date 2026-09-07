@@ -80,7 +80,7 @@ Altena 58,946; Waalwijk 51,635; Heusden 46,689; Drimmelen 28,402; Loon op Zand 2
 
 ### 's-Hertogenbosch and the Meierij
 
-'s-Hertogenbosch 162,295, the capital, called Den Bosch by everyone in it, a page to come; Meierijstad 85,236; Boxtel 34,302; Vught 33,202; Sint-Michielsgestel 30,191. The province's seat and the bailiwick that historically surrounded it.
+['s-Hertogenbosch](/coding-classes-in-den-bosch) 162,295, the capital, called Den Bosch by everyone in it, with its own page; Meierijstad 85,236; Boxtel 34,302; Vught 33,202; Sint-Michielsgestel 30,191. The province's seat and the bailiwick that historically surrounded it.
 
 ### Oss and the north-east
 
