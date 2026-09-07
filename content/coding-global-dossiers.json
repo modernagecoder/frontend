@@ -5153,5 +5153,57 @@
       "Anything the province page owns: the earthquake magnitudes, the gas field dates, the ten municipalities.",
       "Anything the Netherlands hub owns: the SLO core objectives and the national informatica figures."
     ]
+  },
+  "coding-classes-in-tilburg": {
+    "market": "Tilburg",
+    "bodyClass": "cg-tlb",
+    "pageType": "city",
+    "curriculumAuthority": "City and municipality of Tilburg, Noord-Brabant: 230,746 residents (CBS 1 January 2026); 55 primary establishments (17,440 pupils) and 19 secondary (10,770); 31,774 in higher education; Tilburg University (1927, 19,168 students in 2024). City rights 18 April 1809; 125 wool-cloth factories in 1871. Municipality includes Berkel-Enschot and Udenhout. Regio Zuid holidays. The city page argues from the zoning of its own neighbourhoods; the province page owns Baarle and the hub owns the national curriculum.",
+    "localProject": "A per-zone statistic measures the zoning as much as the ground (the modifiable areal unit problem). CBS divides Tilburg into 59 wijken and 254 buurten and Groningen into 20 wijken and 160 buurten, for populations of 230,746 and 244,427: 3,911 against 12,221 people per wijk (ratio 0.32), 908 against 1,528 per buurt (0.59), and 1,830 against 1,318 per square kilometre of land (1.39, and zoning-independent). Groningen additionally carries two published divisions at once, 20/160 by CBS and 14/106 in its municipal entry. Distinct from the unit-of-observation trap (Zeeland: ranking municipalities against towns), from the no-boundary trap (Zuid-Holland: a region nobody drew) and from the denominator-choice trap (Gadong): the flaw here is comparing two places on a per-container average when the containers were drawn to different conventions. Computed before writing, from published counts only.",
+    "requiredMentions": [
+      "230,746",
+      "115,876",
+      "59 wijken",
+      "254 buurten",
+      "17,440",
+      "10,770",
+      "31,774",
+      "185,107",
+      "Berkel-Enschot",
+      "Udenhout",
+      "Reeshof",
+      "3,911",
+      "18 April 1809",
+      "19,168"
+    ],
+    "sources": [
+      {
+        "claim": "Municipality of Tilburg 230,746 residents on 1 January 2026 (CBS provisional); 115,876 households averaging 1.95 people with 47 percent single-person; 31,513 under 15; 34,328 aged 15 to 25; 67,036 aged 25 to 45; 41,402 aged 65 and over; 55 primary establishments (17,440 pupils); 19 secondary (10,770); 31,774 students in higher education; total area 12,846 ha, land 12,589 ha; density 1,830; 59 wijken and 254 buurten; 185,107 residents in 1995, a rise of 45,639 (25 percent).",
+        "url": "https://allecijfers.nl/gemeente/tilburg/"
+      },
+      {
+        "claim": "City of Tilburg 203,690 inhabitants in 2023; area 88.6 km2 (86.65 land, 1.93 water); density 2,351 per km2; city rights granted 18 April 1809 by Louis Napoleon during an inspection tour of Brabant and Zeeland; 125 wool-cloth factories in the city in 1871, with decline from the 1960s; district populations in 2024: Oud-Zuid 43,979, Reeshof 43,757, Oud-Noord 34,976, West 27,976, Berkel-Enschot 14,481, Udenhout 8,730; Tilburg University founded 1927 as the Roomsch Katholieke Handelshoogeschool.",
+        "url": "https://nl.wikipedia.org/wiki/Tilburg"
+      },
+      {
+        "claim": "Tilburg University founded 1927 as the Roomsch Katholieke Handelshoogeschool, renamed Tilburg University in 2010; 19,168 students (2024); 3,096 fte staff (2024); five schools: Economics and Management, Law, Social and Behavioral Sciences, Humanities and Digital Sciences, Catholic Theology.",
+        "url": "https://nl.wikipedia.org/wiki/Tilburg_University"
+      },
+      {
+        "claim": "Municipality of Groningen 244,427 residents on 1 January 2026 (CBS provisional); land 18,553 ha; density 1,318; 20 wijken and 160 buurten. Its municipal encyclopaedia entry gives seven gebiedsdelen and 14 wijken in 106 buurten.",
+        "url": "https://allecijfers.nl/gemeente/groningen/"
+      },
+      {
+        "claim": "School holiday regions: regio Zuid = Zeeland, Noord-Brabant, Limburg and the southern part of Gelderland; regio Midden = Utrecht, Zuid-Holland and the northern part of Gelderland; regio Noord = Groningen, Friesland, Drenthe, Overijssel, Flevoland, Noord-Holland.",
+        "url": "https://www.rijksoverheid.nl/themas/onderwijs/schoolvakanties/regios-schoolvakantie"
+      }
+    ],
+    "rejectedClaims": [
+      "Tilburg's exact rank among Dutch municipalities by population. The entry says only that it is among the largest; the capsule says sixth or seventh depending on the year checked and gives no single number.",
+      "Any wijk-level population, income or crime figure. No wijk table was read, so the page makes no claim about which wijk is largest or smallest and computes only municipal averages.",
+      "A count of how many people live in a wijk above or below a given size. That needs the underlying wijk table, which the page did not read, and the project says so explicitly.",
+      "Mixing city and municipal figures. The 203,690 city count and the 88.6 km2 city area are never combined with the municipal counts.",
+      "Anything the Noord-Brabant page owns: the Baarle enclaves, the 56 municipalities, the capital-versus-largest contrast. Anything the Groningen page owns: the household mean split."
+    ]
   }
 }

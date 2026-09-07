@@ -799,3 +799,4 @@
 .cg-root.cg-flv  { --cg-accent: #7D2759; --cg-accent-soft: rgba(125,39,89,.10); }   /* Flevoland: a deep magenta the solver found furthest from every accent it links to, inside the editorial band */
 .cg-root.cg-zld  { --cg-accent: #4F2C5D; --cg-accent-soft: rgba(79,44,93,.10); }   /* Zeeland: a dark mussel-shell violet the solver found furthest from the accents this page links to */
 .cg-root.cg-grn  { --cg-accent: #721025; --cg-accent-soft: rgba(114,16,37,.10); }   /* Groningen city: a deep brick red, the colour of the Martini tower brickwork, placed by the solver clear of Amsterdam's and Apeldoorn's reds */
+.cg-root.cg-tlb  { --cg-accent: #803103; --cg-accent-soft: rgba(128,49,3,.10); }   /* Tilburg: a burnt orange-brown for the wool town, placed by the solver clear of Amstelveen's orange and Noord-Brabant's sienna */

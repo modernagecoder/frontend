@@ -72,7 +72,7 @@ Bladel 21,046; Eersel 20,537; Oirschot 19,801; Bergeijk 19,436; Reusel-De Mierde
 
 ### Tilburg and Hart van Brabant
 
-Tilburg 230,746, the second city, a page to come; Oisterwijk 33,356; Gilze en Rijen 28,437; Dongen 27,673; Goirle 24,886; Hilvarenbeek 16,315. The old textile city and the villages that fed its mills.
+[Tilburg](/coding-classes-in-tilburg) 230,746, the second city, with its own page; Oisterwijk 33,356; Gilze en Rijen 28,437; Dongen 27,673; Goirle 24,886; Hilvarenbeek 16,315. The old textile city and the villages that fed its mills.
 
 ### The Langstraat and the Biesbosch
 
@@ -269,7 +269,7 @@ Between five and ten, matched on level, pace and goal rather than on age, school
 
 ## East to Brainport, south to Limburg, and up to the country
 
-The province's largest city already has its page: [Eindhoven](/coding-classes-in-eindhoven), with the Brainport ratio chain. East along the A67 is [Limburg](/coding-classes-in-limburg), with the hill that stopped being the highest point in the country. Both sit under the [Netherlands coding hub](/coding-classes-in-netherlands), and a learner who wants a model that learns rather than a program that runs should look at [AI and machine learning classes in the Netherlands](/ai-and-machine-learning-classes-in-netherlands) or the [AI and Python Academy](/ai-and-python-academy-netherlands). Tilburg, Breda, 's-Hertogenbosch, Helmond, Oss and Roosendaal follow.
+The province's largest city already has its page: [Eindhoven](/coding-classes-in-eindhoven), with the Brainport ratio chain. East along the A67 is [Limburg](/coding-classes-in-limburg), with the hill that stopped being the highest point in the country. Both sit under the [Netherlands coding hub](/coding-classes-in-netherlands), and a learner who wants a model that learns rather than a program that runs should look at [AI and machine learning classes in the Netherlands](/ai-and-machine-learning-classes-in-netherlands) or the [AI and Python Academy](/ai-and-python-academy-netherlands). [Tilburg](/coding-classes-in-tilburg) has its page; Breda, 's-Hertogenbosch, Helmond, Oss and Roosendaal follow.
 
 ## Contact
 
