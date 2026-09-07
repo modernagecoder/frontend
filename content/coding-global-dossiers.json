@@ -5805,5 +5805,61 @@
       "Anything built on the Peperbus and the Amersfoort tower sharing a formal name. The coincidence is mentioned once and not used.",
       "Anything the Overijssel page owns: the dike standards and the 25 municipalities. Anything the Enschede or Apeldoorn pages own."
     ]
+  },
+  "coding-classes-in-zoetermeer": {
+    "market": "Zoetermeer",
+    "bodyClass": "cg-ztm",
+    "pageType": "city",
+    "curriculumAuthority": "Town and municipality of Zoetermeer, Zuid-Holland: 130,836 residents (CBS 1 January 2026), the third municipality of the province; 48 primary establishments (12,007 pupils) and 7 secondary (7,392), about 1,056 each; only 502 students at institutions in the town. A single woonplaats with 15 wijken and 146 buurten and no villages. Designated a growth centre in 1962 with 8,404 residents in 1960. Regio Midden holidays with the rest of Zuid-Holland. The town page argues from milestone designation; the province page owns the Randstad boundary question and The Hague owns its own.",
+    "localProject": "A milestone is an event somebody chose; the quantity underneath it has no such moments. Zoetermeer welcomed a hundred-thousandth resident on Friday 13 September 1991 at about a quarter past ten in the Lange Land hospital. A population is a net total moved up by births and arrivals and down by deaths and departures, so it can cross a threshold, fall back and cross again; a simulation starting just below the line with slight upward drift crosses it many times over a few thousand events. The published record is annual snapshots, 96,292 on 1 January 1990 and 105,009 on 1 January 1995, which support an interval and not a minute. Distinct from extrapolating past the data (Madinat Al Irfan) and from the base-year trap (Flevoland): here the issue is that a net quantity has no unique nth event and a ceremony has been recorded in the shape of a measurement. The crossing count is a model with assumed parameters and is labelled as such; the named child is deliberately not named on the page.",
+    "requiredMentions": [
+      "130,836",
+      "58,350",
+      "20,970",
+      "105,009",
+      "12,007",
+      "7,392",
+      "8,404",
+      "41,096",
+      "96,292",
+      "13 September 1991",
+      "groeikern",
+      "RandstadRail",
+      "Bezuijen",
+      "Lange Land"
+    ],
+    "sources": [
+      {
+        "claim": "Zoetermeer 130,836 residents on 1 January 2026 (CBS provisional); 58,350 households (2025) averaging 2.2, 20,970 single-person (36 percent); 21,379 aged 0 to 15; 15,165 aged 15 to 25; 33,239 aged 25 to 45; 32,834 aged 45 to 65; 28,219 aged 65 and over; total area 3,705 ha, land 3,443 ha, water 262 ha; density 3,772; 48 primary establishments (12,007 pupils) and 7 secondary (7,392), both 2025; 502 students at institutions in the municipality (2026); HBO 2,870 and WO 1,330 (2025); one woonplaats, 15 wijken and 146 buurten; annual figures 105,009 in 1995, 109,941 in 2000, 115,792 in 2005, 121,532 in 2010, 124,025 in 2015, 125,285 in 2020, 129,862 in 2025.",
+        "url": "https://allecijfers.nl/gemeente/zoetermeer/"
+      },
+      {
+        "claim": "Zoetermeer 130,850 residents on 1 January 2026; 37.05 km2 (34.45 land, 2.60 water); mayor M.J. Bezuijen (VVD); the third municipality of Zuid-Holland; in 1962 Zoetermeer was designated a groeikern; fewer than 10,000 residents before 1962 and more than 100,000 by 1991.",
+        "url": "https://nl.wikipedia.org/wiki/Zoetermeer"
+      },
+      {
+        "claim": "Population of Zoetermeer on 1 January: 8,404 in 1960; 9,681 in 1962; 10,771 in 1965; 17,130 in 1970; 41,096 in 1975; 63,832 in 1980; 80,193 in 1985; 96,292 in 1990.",
+        "url": "https://www.oudsoetermeer.nl/e2/site/oudsoetermeer/custom/site/upload/file/geschiedenis_zoetermeer/inwoneraantallen_zoetermeer.doc"
+      },
+      {
+        "claim": "Milestone residents: the 10,000th in December 1962, the 15,000th in January 1969, the 20,000th in December 1970, the 25,000th in March 1972, the 50,000th in February 1977, the 75,000th in 1983 and the 100,000th on Friday 13 September 1991 at about 10:15 in the Lange Land ziekenhuis.",
+        "url": "https://www.geheugenvanzoetermeer.nl/honderdduizendinwoners/"
+      },
+      {
+        "claim": "The Zoetermeer Stadslijn opened its first section on 20 May 1977 with service from 22 May 1977; Seghwaert to Palenstein followed on 28 May 1978; the ring was completed on 29 September 1979; train service ended on 3 June 2006 and the line has run as a tram under the name RandstadRail since 29 October 2006.",
+        "url": "https://nl.wikipedia.org/wiki/Zoetermeer_Stadslijn"
+      },
+      {
+        "claim": "School holiday regions: regio Midden = Utrecht, Zuid-Holland and the northern part of Gelderland; regio Zuid = Zeeland, Noord-Brabant, Limburg and the southern part of Gelderland; regio Noord = Groningen, Friesland, Drenthe, Overijssel, Flevoland, Noord-Holland.",
+        "url": "https://www.rijksoverheid.nl/themas/onderwijs/schoolvakanties/regios-schoolvakantie"
+      }
+    ],
+    "rejectedClaims": [
+      "The name of the child designated the hundred-thousandth resident. Recorded in the source and deliberately omitted here, because a private individual is not a data point.",
+      "Any claim about how many times this municipality's register actually crossed a hundred thousand. The crossing count comes from a simulation with assumed parameters and is presented as a model.",
+      "A date more precise than an interval for the first crossing of a hundred thousand. The published series is annual, so the page says only that it happened between the start of 1990 and the start of 1995.",
+      "A verdict on whether the growth began in 1962 or 1966. Both framings are quoted.",
+      "Anything the Zuid-Holland page owns: the Randstad boundary question and the provincial totals. Anything The Hague page owns."
+    ]
   }
 }
