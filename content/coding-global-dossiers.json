@@ -5962,5 +5962,66 @@
       "That Leeuwarden was European Capital of Culture jointly with another city. The year 2018 is stated and nothing further, because the detail was not read at source.",
       "Anything the Friesland page owns: the official name change and the join that loses the province. Anything the Groningen pages own."
     ]
+  },
+  "coding-classes-in-maastricht": {
+    "market": "Maastricht",
+    "bodyClass": "cg-mst",
+    "pageType": "city",
+    "curriculumAuthority": "City and municipality of Maastricht, Limburg: 126,026 residents (CBS 1 January 2026), the slowest-growing in this series at 6.4 percent since 1995; 32 primary establishments (7,556 pupils) and 10 secondary (6,252); 27,768 students at institutions here. Lowest under-15 share in this series at 10.1 percent and highest single-person household share at 58 percent. Places: the city, Borgharen, Itteren. Regio Zuid holidays with the rest of Limburg. The city page argues from category definition; the province page owns the highest-point scope question and Nijmegen owns the oldest-city criterion table.",
+    "localProject": "A column that is almost always filled in looks like a definition and is not. Every other city page in this cluster carries a city-rights year, but the history entry for Maastricht states that the city never had city rights in the sense of a charter: 1229 records ducal permission to build a stone wall, a different instrument. A classifier that treats the presence of a city-rights year as the test therefore rejects a place with 126,026 residents, twenty centuries of continuous habitation and the oldest bridge in the country. The learner scores the rule, finds the counter-example, and separates a strong correlate from a definition, then hunts a failure in the other direction as well. Distinct from the label-versus-contents trap (Den Bosch, where a field held a value its name did not describe) and from the criterion trap (Nijmegen, where several tests each returned an answer): here the field is filled correctly wherever it exists and the error is inferring category membership from its presence. The absence of a charter is quoted from the source, not inferred from a missing date.",
+    "requiredMentions": [
+      "126,026",
+      "73,352",
+      "42,398",
+      "118,454",
+      "7,556",
+      "6,252",
+      "27,768",
+      "Borgharen",
+      "Itteren",
+      "Sint-Servaasbrug",
+      "Hillenaar",
+      "7 February 1992",
+      "Sint-Pietersberg",
+      "23,324"
+    ],
+    "sources": [
+      {
+        "claim": "Maastricht 126,026 residents on 1 January 2026 (CBS); 73,352 households averaging 1.68, 42,398 single-person (58 percent); 12,719 aged 0 to 15; 26,390 aged 15 to 25; 31,074 aged 25 to 45; 27,384 aged 45 to 65; 28,459 aged 65 and over; total area 6,012 ha, land 5,579 ha; density 2,251; 32 primary establishments (7,556 pupils) and 10 secondary (6,252); 27,768 students at institutions in the municipality; HBO 4,490 and WO 11,600; one woonplaats, 7 wijken and 44 buurten; 118,454 in 1995, a rise of 7,572 (6.4 percent).",
+        "url": "https://allecijfers.nl/gemeente/maastricht/"
+      },
+      {
+        "claim": "Maastricht 126,017 residents on 1 January 2026; 60.12 km2 (55.99 land, 4.13 water); mayor Wim Hillenaar (CDA) since 2023; in Limburg on both banks of the Maas; places Maastricht 122,013, Borgharen 1,725 and Itteren 935; Maastricht is among the cities that call themselves the oldest city of the Netherlands, on the basis that archaeological excavation shows twenty centuries of continuous habitation; the Sint-Pietersberg holds tunnel systems hundreds of kilometres long; the university started in 1974 as the Rijksuniversiteit Limburg.",
+        "url": "https://nl.wikipedia.org/wiki/Maastricht"
+      },
+      {
+        "claim": "Maastricht never had city rights in the sense of a charter; 1229 records ducal permission to build a stone wall rather than a grant of city rights.",
+        "url": "https://nl.wikipedia.org/wiki/Geschiedenis_van_Maastricht"
+      },
+      {
+        "claim": "Maastricht University: founding year 1976; 23,324 students and 4,654 fte staff in 2024; 61 percent of students from abroad.",
+        "url": "https://nl.wikipedia.org/wiki/Universiteit_Maastricht"
+      },
+      {
+        "claim": "The Sint-Servaasbrug was built between 1280 and 1298, had nine arches and has had seven since works in 1932 to 1934, and is regarded as the oldest bridge in the Netherlands.",
+        "url": "https://nl.wikipedia.org/wiki/Sint-Servaasbrug"
+      },
+      {
+        "claim": "The Treaty of Maastricht was signed on 7 February 1992 in the Statenzaal of the Gouvernement aan de Maas by twelve signatories and entered into force on 1 November 1993.",
+        "url": "https://nl.wikipedia.org/wiki/Verdrag_van_Maastricht_(1992)"
+      },
+      {
+        "claim": "School holiday regions: regio Zuid = Zeeland, Noord-Brabant, Limburg and the southern part of Gelderland; regio Midden = Utrecht, Zuid-Holland and the northern part of Gelderland; regio Noord = Groningen, Friesland, Drenthe, Overijssel, Flevoland, Noord-Holland.",
+        "url": "https://www.rijksoverheid.nl/themas/onderwijs/schoolvakanties/regios-schoolvakantie"
+      }
+    ],
+    "rejectedClaims": [
+      "A city-rights year of 1284 for Maastricht. The attribution to a joint-governance treaty was not confirmed at any source read here and is explicitly not asserted.",
+      "A single founding year for the university. One entry gives 1974 and another 1976; both are printed.",
+      "A date for the three place populations of 122,013, 1,725 and 935. The entry gives none and the page says so.",
+      "A verdict on which Dutch town is oldest. That argument belongs to the Nijmegen page and is referred to rather than repeated.",
+      "A length for the Sint-Pietersberg tunnel systems. The source says hundreds of kilometres and the page keeps the vagueness rather than inventing a figure.",
+      "Anything the Limburg page owns: the Vaalserberg, the 31 municipalities and the flat population since 1995 for the province."
+    ]
   }
 }

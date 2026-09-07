@@ -814,3 +814,4 @@
 .cg-root.cg-ztm  { --cg-accent: #7F211B; --cg-accent-soft: rgba(127,33,27,.10); }   /* Zoetermeer: the brick red of the 1970s expansion districts, placed by the solver clear of Amsterdam's and Groningen's reds */
 .cg-root.cg-lde  { --cg-accent: #6B390C; --cg-accent-soft: rgba(107,57,12,.10); }   /* Leiden: a burnt umber for the old brick and the university buildings, set by the solver apart from Drenthe's ochre and Zaanstad's oxide red */
 .cg-root.cg-lwd  { --cg-accent: #632534; --cg-accent-soft: rgba(99,37,52,.10); }   /* Leeuwarden: a dark Frisian red for the old brick of the Oldehove, placed by the solver clear of Amsterdam's and Haarlem's reds */
+.cg-root.cg-mst  { --cg-accent: #015636; --cg-accent-soft: rgba(1,86,54,.10); }   /* Maastricht: a deep river green for the Maas and the Sint-Pietersberg, set by the solver apart from Utrecht's and Eindhoven's greens */

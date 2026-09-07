@@ -60,7 +60,7 @@ The three Limburgs, each with its municipalities and their 1 January 2026 popula
 
 ### Zuid-Limburg: the cities
 
-Maastricht 126,026, the capital, a page to come; Sittard-Geleen 92,461, a page to come; Heerlen 87,764, a page to come; Kerkrade 45,824; Landgraaf 36,844; Beekdaelen 35,903; Brunssum 27,474; Stein 24,691. The old mining belt and the university city, within half an hour of each other.
+[Maastricht](/coding-classes-in-maastricht) 126,026, the capital, with its own page; Sittard-Geleen 92,461, a page to come; Heerlen 87,764, a page to come; Kerkrade 45,824; Landgraaf 36,844; Beekdaelen 35,903; Brunssum 27,474; Stein 24,691. The old mining belt and the university city, within half an hour of each other.
 
 ### Zuid-Limburg: the hills
 
