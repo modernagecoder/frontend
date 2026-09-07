@@ -5753,5 +5753,57 @@
       "Any reconciliation of the four 2023 woonplaats figures with the 2026 municipal total. The dates differ and no residual is computed.",
       "Anything the Noord-Brabant page owns: the Baarle enclaves and the 56 municipalities. Anything the Tilburg, Breda or Eindhoven pages own."
     ]
+  },
+  "coding-classes-in-zwolle": {
+    "market": "Zwolle",
+    "bodyClass": "cg-zwo",
+    "pageType": "city",
+    "curriculumAuthority": "City and municipality of Zwolle, capital of Overijssel: 134,147 residents (CBS 1 January 2026), the nineteenth municipality of the country; 62 primary establishments (12,931 pupils) and 25 secondary (13,407), so secondary outnumbers primary; 25,320 students in higher education at 1 August 2026. A single woonplaats with 16 wijken and 78 buurten; city rights 1230; a Hanzestad on the IJssel, Vecht and Zwarte Water. Regio Noord holidays with the rest of Overijssel. The city page argues from falsifiability; the province page owns the dike-standard arithmetic and Enschede owns the unallocatable aggregate.",
+    "localProject": "A superlative without a set, a measure and a threshold cannot be tested. The municipal entry calls Zwolle one of the largest railway junctions in the Netherlands and separately states that eight directions leave the station. The second is checkable and the first is not: no comparison set, no measure and no cutoff is given anywhere, and no passenger figure appears, so every route through the test ends in unknown rather than in true or false. The learner builds a classifier over the three fields, discovers the record cannot be filled, and rewrites the claim into the value-bearing sentence already available. A properly formed superlative is included for contrast: the Peperbus at 75 metres was the tallest in the city and is not, since the IJsseltoren at about 96 metres. Distinct from the superlative-without-a-measure trap (Utrecht province, where four real measures existed and gave four answers) and from the criterion trap (Nijmegen, where the tests existed but the evidence table was empty): here the claim supplies none of the three things a comparison needs, so it carries no information at all. The page holds its own copy to the same standard.",
+    "requiredMentions": [
+      "134,147",
+      "63,332",
+      "27,236",
+      "100,160",
+      "12,931",
+      "13,407",
+      "25,320",
+      "Peperbus",
+      "Sassenpoort",
+      "Peter Snijders",
+      "eight directions",
+      "IJsseltoren",
+      "Hanzestad",
+      "Wilbrand van Oldenburg"
+    ],
+    "sources": [
+      {
+        "claim": "Zwolle 134,147 residents on 1 January 2026 (CBS provisional); 63,332 households (2025) averaging 2.07, 27,236 single-person (43 percent); 21,460 aged 0 to 15; 17,279 aged 15 to 25; 38,139 aged 25 to 45; 33,565 aged 45 to 65; 23,704 aged 65 and over; total area 11,936 ha, land 11,067 ha; density 1,209; 62 primary establishments (12,931 pupils) and 25 secondary (13,407); 25,320 students in higher education at 1 August 2026; HBO 4,820 and WO 1,160 (2025); one woonplaats, 16 wijken and 78 buurten; 100,160 in 1995, a rise of 33,987 (34 percent).",
+        "url": "https://allecijfers.nl/gemeente/zwolle/"
+      },
+      {
+        "claim": "Zwolle 134,143 residents on 1 January 2026; 119.36 km2 (111.10 land, 8.26 water); mayor Peter Snijders (VVD); capital of the province of Overijssel; the nineteenth municipality of the Netherlands; a Hanzestad; city rights 1230 from bishop Wilbrand van Oldenburg; described as one of the largest railway junctions in the Netherlands, from which one can travel in eight directions by train. No list of junctions, no ranking measure and no passenger figure is given.",
+        "url": "https://nl.wikipedia.org/wiki/Zwolle"
+      },
+      {
+        "claim": "The Peperbus, formally the Onze-Lieve-Vrouwetoren, is 75 metres tall and was built between 1463 and 1482; it is no longer the tallest structure in Zwolle since the IJsseltoren at about 96 metres.",
+        "url": "https://nl.wikipedia.org/wiki/Peperbus_(Zwolle)"
+      },
+      {
+        "claim": "The Sassenpoort is a city gate of the late fourteenth and early fifteenth century, completed in 1406, and a rijksmonument since 13 February 1967.",
+        "url": "https://nl.wikipedia.org/wiki/Sassenpoort"
+      },
+      {
+        "claim": "School holiday regions: regio Noord = Groningen, Friesland, Drenthe, Overijssel, Flevoland, Noord-Holland; regio Midden = Utrecht, Zuid-Holland and the northern part of Gelderland; regio Zuid = Zeeland, Noord-Brabant, Limburg and the southern part of Gelderland.",
+        "url": "https://www.rijksoverheid.nl/themas/onderwijs/schoolvakanties/regios-schoolvakantie"
+      }
+    ],
+    "rejectedClaims": [
+      "Any ranking of Zwolle station among Dutch railway junctions. No source read supplies a comparison set, a measure or a cutoff, and the page states that rather than filling any of them in.",
+      "Passenger numbers for Zwolle station or any other. Not found at source.",
+      "An estimate of how many of the 13,407 secondary pupils travel in from outside the municipality. The page notes only that a school figure counts where the school is.",
+      "Anything built on the Peperbus and the Amersfoort tower sharing a formal name. The coincidence is mentioned once and not used.",
+      "Anything the Overijssel page owns: the dike standards and the 25 municipalities. Anything the Enschede or Apeldoorn pages own."
+    ]
   }
 }

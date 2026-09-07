@@ -68,7 +68,7 @@ Rijssen-Holten 39,274; Hellendoorn 36,354; Hof van Twente 35,775; Twenterand 34,
 
 ### Zwolle and the delta
 
-Zwolle 134,147, the capital and a page to come; Kampen 56,835, the Hanseatic town on the last stretch of the IJssel; Zwartewaterland 23,733, which is Hasselt and Genemuiden; Staphorst 18,219. The IJsseldelta, where three rivers meet the former sea.
+[Zwolle](/coding-classes-in-zwolle) 134,147, the capital, with its own page; Kampen 56,835, the Hanseatic town on the last stretch of the IJssel; Zwartewaterland 23,733, which is Hasselt and Genemuiden; Staphorst 18,219. The IJsseldelta, where three rivers meet the former sea.
 
 ### Salland and Deventer
 

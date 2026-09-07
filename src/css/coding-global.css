@@ -810,3 +810,4 @@
 .cg-root.cg-amf  { --cg-accent: #29396C; --cg-accent-soft: rgba(41,57,108,.10); }   /* Amersfoort: a survey-ink navy, placed by the solver clear of The Hague's slate blue and Zwolle's river blue */
 .cg-root.cg-ens  { --cg-accent: #7D3D36; --cg-accent-soft: rgba(125,61,54,.10); }   /* Enschede: a madder brown for the old textile dye houses, set by the solver apart from Zaanstad's oxide red and Eindhoven's teal */
 .cg-root.cg-dbo  { --cg-accent: #335A00; --cg-accent-soft: rgba(51,90,0,.10); }   /* Den Bosch: a deep Brabant green for the wooded ducal domain the city is named after, placed by the solver clear of Amstelveen's green and Nijmegen's olive */
+.cg-root.cg-zwo  { --cg-accent: #1E507B; --cg-accent-soft: rgba(30,80,123,.10); }   /* Zwolle: the blue of the IJssel and the Zwarte Water, set by the solver apart from The Hague's slate and Overijssel's river blue */
