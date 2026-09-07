@@ -5534,5 +5534,58 @@
       "Any count of travellers derived from the 68.8 million passenger movements. A movement is an event and the page says so rather than dividing.",
       "Anything the Haarlem page owns: the density inconsistency. Anything the Noord-Holland page owns: the provincial totals and the rank-versus-distance project. Anything the Almere page owns: the datum."
     ]
+  },
+  "coding-classes-in-zaanstad": {
+    "market": "Zaanstad",
+    "bodyClass": "cg-zns",
+    "pageType": "city",
+    "curriculumAuthority": "City and municipality of Zaanstad, Noord-Holland: 165,201 residents (CBS 1 January 2026), the fifteenth municipality of the country, formed in 1974 from seven councils; 46 primary establishments (13,704 pupils) and 13 secondary (8,687); 3,370 residents in applied higher education and 1,490 at university level. Seven towns plus Westknollendam. Regio Noord holidays with the rest of Noord-Holland. The city page argues from entity identity across a merger; Haarlem owns the stale derived figure, Haarlemmermeer owns the failed quotient, and the province page owns rank versus distance.",
+    "localProject": "A merger creates a new row, not a longer one. Zaanstad was formed in 1974 by merging Assendelft, Krommenie, Wormerveer, Westzaan, Zaandijk, Koog aan de Zaan and Zaandam, while Wormer and Oostzaan stayed out; Zaandam has held city rights since 1811. A series plotted before 1974 describes a territory or a population, never the municipality, and a reconstruction from the seven predecessors must be labelled as a reconstruction and its boundary assumptions stated. The learner writes a valid-from date on every entity, a plotter that refuses to draw before it, and a separate reconstruction function, then marks the seam on the chart. Distinct from the name-versus-identifier trap (Friesland: one entity renamed, so a join on the name drops it) because there the thing persisted under a new label, and here seven things were replaced by one with no history; distinct also from the two-vintage residual (Apeldoorn). The eight published town figures are dated 2023 and total 159,620 against a 2026 municipal figure, and the page states the date mismatch rather than treating the gap as a finding.",
+    "requiredMentions": [
+      "165,201",
+      "73,883",
+      "28,004",
+      "133,504",
+      "13,704",
+      "8,687",
+      "Assendelft",
+      "Krommenie",
+      "Wormerveer",
+      "Koog aan de Zaan",
+      "Zaandijk",
+      "Westknollendam",
+      "Jan Hamming",
+      "159,620"
+    ],
+    "sources": [
+      {
+        "claim": "Zaanstad 165,201 residents on 1 January 2026 (CBS provisional); 73,883 households averaging 2.17, 28,004 single-person (38 percent); 26,287 aged 0 to 15; 18,898 aged 15 to 25; 45,378 aged 25 to 45; 31,017 aged 65 and over; total area 8,324 ha, land 7,374 ha; density 2,208; 46 primary establishments (13,704 pupils); 13 secondary (8,687); HBO 3,370 and WO 1,490; 19 wijken and 79 buurten; 133,504 in 1995, a rise of 31,697 (24 percent).",
+        "url": "https://allecijfers.nl/gemeente/zaanstad/"
+      },
+      {
+        "claim": "Zaanstad 165,235 residents on 1 January 2026; 83.24 km2 (73.87 land, 9.37 water); mayor Jan Hamming (PvdA); the fifteenth municipality of the Netherlands; formed in 1974 by merging Assendelft, Krommenie, Wormerveer, Westzaan, Zaandijk, Koog aan de Zaan and Zaandam; Zaandam received city rights in 1811; 2023 populations Zaandam 80,705, Assendelft 24,510, Krommenie 17,010, Wormerveer 12,145, Koog aan de Zaan 11,230, Zaandijk 8,485, Westzaan 5,085, Westknollendam 450; at the peak in the middle of the seventeenth century more than 900 mills were counted; the Zaanse Schans was laid out in the 1960s with houses and mills moved there from their original sites; the food multinationals Verkade, Ahold, Bruynzeel, Honig and Duyvis grew here; the Zaanstreek is regarded as the oldest industrial area in Europe.",
+        "url": "https://nl.wikipedia.org/wiki/Zaanstad"
+      },
+      {
+        "claim": "Around 1720 some 600 mills were in operation simultaneously in the Zaanstreek, with roughly 1,100 built across all time, and about fifteen industrial mills remain; the region is described as one of the oldest industrial areas in Europe.",
+        "url": "https://nl.wikipedia.org/wiki/Zaanstreek"
+      },
+      {
+        "claim": "The Zaanse Schans was founded in 1963; twelve mills stand on the site; visitors numbered 2.6 million in 2024, 2.2 million in 2017 and 1.8 million in 2016.",
+        "url": "https://nl.wikipedia.org/wiki/Zaanse_Schans"
+      },
+      {
+        "claim": "School holiday regions: regio Noord = Groningen, Friesland, Drenthe, Overijssel, Flevoland, Noord-Holland; regio Midden = Utrecht, Zuid-Holland and the northern part of Gelderland; regio Zuid = Zeeland, Noord-Brabant, Limburg and the southern part of Gelderland.",
+        "url": "https://www.rijksoverheid.nl/themas/onderwijs/schoolvakanties/regios-schoolvakantie"
+      }
+    ],
+    "rejectedClaims": [
+      "A pre-1974 population for Zaanstad. The page states that the entity did not exist and that any such figure is a reconstruction.",
+      "A single answer to how many mills the Zaanstreek had. More than 900 at the seventeenth-century peak, about 600 simultaneously around 1720 and roughly 1,100 in total are printed side by side and never combined or differenced.",
+      "Whether the Zaanstreek is the oldest industrial area in Europe or one of the oldest. Both wordings are quoted and neither is preferred.",
+      "The exact date in 1974 on which the merger took effect. Only the year appears in the entry read.",
+      "Any reconciliation of the eight 2023 town figures with the 2026 municipal total. The dates differ and the page says so.",
+      "Anything the Noord-Holland page owns: the provincial totals and the rank-versus-distance project. Anything the Haarlem or Haarlemmermeer pages own."
+    ]
   }
 }

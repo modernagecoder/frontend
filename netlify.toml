@@ -8536,6 +8536,18 @@
   to = "/src/pages/coding-classes-in-haarlemmermeer.md"
   status = 200
 
+# International growth cluster (coding-global.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/coding-classes-in-zaanstad"
+  to = "/src/pages/coding-classes-in-zaanstad.html"
+  status = 200
+
+[[redirects]]
+  from = "/coding-classes-in-zaanstad.md"
+  to = "/src/pages/coding-classes-in-zaanstad.md"
+  status = 200
+
 [[redirects]]
   from = "/*"
   to = "/src/pages/404.html"
