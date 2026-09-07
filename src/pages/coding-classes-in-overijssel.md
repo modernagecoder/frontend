@@ -72,7 +72,7 @@ Rijssen-Holten 39,274; Hellendoorn 36,354; Hof van Twente 35,775; Twenterand 34,
 
 ### Salland and Deventer
 
-Deventer 105,111, the third city, a page to come; Raalte 39,084; Olst-Wijhe 19,079. The middle of the province, along the IJssel, with the oldest of the three landscapes' towns.
+[Deventer](/coding-classes-in-deventer) 105,111, the third city, with its own page; Raalte 39,084; Olst-Wijhe 19,079. The middle of the province, along the IJssel, with the oldest of the three landscapes' towns.
 
 ### The Vechtdal
 
@@ -82,7 +82,7 @@ Hardenberg 64,116; Dalfsen 30,264; Ommen 19,365. The valley of the Overijsselse 
 
 Steenwijkerland 45,926, one municipality holding Steenwijk, Giethoorn and the lakes of the Weerribben and Wieden. The far north-west corner, closer to Friesland and Drenthe than to Enschede.
 
-Twenty-five, and every one is above. This page is deliberately wide; the pages for Enschede, Zwolle, Deventer, Hengelo and Almelo will each go close.
+Twenty-five, and every one is above. This page is deliberately wide; Enschede, Zwolle and Deventer already have pages that go close, and Hengelo and Almelo will follow.
 
 ## The sources behind every number here
 
@@ -221,7 +221,7 @@ A probability of one in 1,250 in any single year, 0.08 percent, that the design 
 
 ### Which Overijssel towns get their own page, and which are covered here?
 
-Enschede, Zwolle, Deventer, Hengelo and Almelo follow in this series. The other twenty, from Hardenberg and Kampen to Staphorst, are listed above with their populations, and the class booked from any of them is the same class.
+Enschede, Zwolle and Deventer already have theirs, linked above, and Hengelo and Almelo follow in this series. The other twenty, from Hardenberg and Kampen to Staphorst, are listed above with their populations, and the class booked from any of them is the same class.
 
 ### Is Zwolle or Enschede the capital?
 
@@ -257,7 +257,7 @@ Between five and ten, matched on level, pace and goal rather than on age, school
 
 ## Across the IJssel, and up to the country
 
-Across the river is [Gelderland](/coding-classes-in-gelderland), with its two holiday calendars; beyond it the [province of Utrecht](/coding-classes-in-utrecht-province), and across the Zuiderzee polders [Almere](/coding-classes-in-almere). All of them are children of the [Netherlands coding hub](/coding-classes-in-netherlands), and a learner whose goal is a trained model rather than a program should go to [AI and machine learning classes in the Netherlands](/ai-and-machine-learning-classes-in-netherlands) or the [AI and Python Academy](/ai-and-python-academy-netherlands). Enschede, Zwolle, Deventer, Hengelo and Almelo follow in this series.
+Across the river is [Gelderland](/coding-classes-in-gelderland), with its two holiday calendars; beyond it the [province of Utrecht](/coding-classes-in-utrecht-province), and across the Zuiderzee polders [Almere](/coding-classes-in-almere). All of them are children of the [Netherlands coding hub](/coding-classes-in-netherlands), and a learner whose goal is a trained model rather than a program should go to [AI and machine learning classes in the Netherlands](/ai-and-machine-learning-classes-in-netherlands) or the [AI and Python Academy](/ai-and-python-academy-netherlands). Enschede, Zwolle and [Deventer](/coding-classes-in-deventer) are built; Hengelo and Almelo follow.
 
 ## Contact
 

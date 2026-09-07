@@ -6388,5 +6388,55 @@
       "A single opening date for the park. Two are published, 18 March 2016 for the royal opening and 25 March 2016 as the opening date, and both are quoted.",
       "Anything the Drenthe page owns: the hunebedden, the twelve municipalities and the provincial totals."
     ]
+  },
+  "coding-classes-in-deventer": {
+    "market": "Deventer",
+    "bodyClass": "cg-dev",
+    "pageType": "city",
+    "curriculumAuthority": "City and municipality of Deventer, Overijssel: 105,111 residents (CBS 2026) on 134 km2 at a published density of 799; 48,940 households averaging 2.09 with 19,715 single-person, 40 percent; 35 primary establishments (8,388 pupils) and 10 secondary (5,088); 8,586 students at institutions here against 3,830 residents enrolled in higher education, so the municipality is a net importer of students, the opposite shape to Emmen. Seven woonplaatsen, 15 wijken, 69 buurten, five kernen published for 2026 leaving a residual of 492. Bathmen was separate until 2005. Regio Noord holidays. The city page argues from a confounded proxy; Overijssel owns the dike arithmetic, Zwolle owns the unfalsifiable superlative and Emmen owns the launch-year baseline.",
+    "localProject": "Ask whether the thing moved or the conditions moved. The Deventer book market drew 130,000 visitors in 2008 and 75,000 in 2009, a fall of 42 percent, and the entry states the cause outright: met 75.000 bezoekers was de editie 2009 vanwege de regen de slechtst bezochte in jaren. Nothing about the market changed, since it still ran to ruim 6 kilometer markt with circa 875 kramen, and the 2008 figure was matched again in 2014. Attendance is a stand-in produced jointly by the thing and the circumstances of measurement, so a move in it must be attributed before it is explained, and the stable measures (length, stall count) are the ones the weather cannot touch. A second layer: the market is held once a year on the first Sunday of August, so each annual observation is a single day with no averaging, and the conditions of that day pass through at full strength. Distinct from the launch-baseline trap (Emmen), where the first point comes from a different process, and from the cross-field validation trap (Den Bosch): here every value is correct, the series is internally consistent, and the defect is that the metric is confounded by something outside the thing it names. The source hedges (ruim, circa, zo'n) are reproduced rather than resolved.",
+    "requiredMentions": [
+      "105,111",
+      "48,940",
+      "19,715",
+      "84,797",
+      "8,388",
+      "5,088",
+      "8,586",
+      "85,976",
+      "75,000",
+      "130,000",
+      "Schalkhaar",
+      "Bathmen",
+      "Diepenveen",
+      "Lettele"
+    ],
+    "sources": [
+      {
+        "claim": "Deventer 105,111 residents in 2026 (CBS); 48,940 households averaging 2.09, 19,715 single-person (40 percent); 15,418 aged 0 to 15; 12,623 aged 15 to 25; 27,844 aged 25 to 45; 28,306 aged 45 to 65; 20,920 aged 65 and over; total area 13,433 ha, land 13,056 ha; density 799; 35 primary establishments (8,388 pupils) and 10 secondary (5,088); 8,586 students at institutions in the municipality; HBO 3,050 and WO 780; 7 woonplaatsen, 15 wijken and 69 buurten; 84,797 residents in 1995, a rise of 20,314 (24 percent).",
+        "url": "https://allecijfers.nl/gemeente/deventer/"
+      },
+      {
+        "claim": "Deventer 105,130 residents per 1 January 2026; area given as 134.37 km2 in the body and 134.33 km2 in the infobox, of which 130.68 land and 3.65 water; mayor Ron König (D66); with 105,130 inhabitants Deventer was the 31st municipality in the Netherlands to exceed 100,000, a crossing dated to September 2018 in the entry reference; 2026 kern populations Deventer 85,976, Schalkhaar 6,121, Bathmen 5,912, Diepenveen 4,942, Lettele 1,668. The entry does not use the word stadsrechten.",
+        "url": "https://nl.wikipedia.org/wiki/Deventer_(gemeente)"
+      },
+      {
+        "claim": "Deventer Boekenmarkt: held on the first Sunday of August; ruim 6 kilometer markt; circa 875 kramen met honderdduizenden boeken; trekt ieder jaar zo'n 120.000 bezoekers; 130.000 bezoekers in 2008, equalled in 2014; met 75.000 bezoekers was de editie 2009 vanwege de regen de slechtst bezochte in jaren; the first edition in 1989 had ruim 100 boekenkramen; it wordt gezien als de grootste boekenmarkt van Europa.",
+        "url": "https://nl.wikipedia.org/wiki/Deventer_Boekenmarkt"
+      },
+      {
+        "claim": "School holiday regions: regio Noord = Groningen, Friesland, Drenthe, Overijssel, Flevoland, Noord-Holland; regio Midden = Utrecht, Zuid-Holland and the northern part of Gelderland; regio Zuid = Zeeland, Noord-Brabant, Limburg and the southern part of Gelderland.",
+        "url": "https://www.rijksoverheid.nl/themas/onderwijs/schoolvakanties/regios-schoolvakantie"
+      }
+    ],
+    "rejectedClaims": [
+      "That the book market is the largest in Europe. The entry says it is seen as such, which is a report of reputation, and the page quotes the claim without asserting it.",
+      "A city-rights year for Deventer. The entries read do not use the word stadsrechten and none is claimed.",
+      "A single area figure. The municipal entry gives 134.37 km2 in its body and 134.33 in its infobox, and both are printed here.",
+      "The hedged numbers turned into exact ones. Ruim 6 kilometer, circa 875 kramen and zo'n 120.000 bezoekers keep their hedges throughout.",
+      "The rise of 20,314 residents since 1995 described as growth of unchanged ground. Bathmen joined the municipality in 2005, and what a boundary change does to a series belongs to the Alkmaar page.",
+      "Any division of the 2023 city-article figure of 82,960 by a 2026 municipal total. Mixing vintages is the argument of the Apeldoorn page.",
+      "Anything the Overijssel or Zwolle pages own."
+    ]
   }
 }
