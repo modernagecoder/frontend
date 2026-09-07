@@ -73,7 +73,7 @@ module.exports = {
       intro: 'Five areas, each with its municipalities and their 1 January 2026 population from the municipal registers, down to Staphorst at 18,219.',
       body: [
         { kind: 'grid3', cells: [
-          { h3: 'Twente, the cities', p: 'Enschede 162,683, the largest, a page to come; Hengelo 84,045, a page to come; Almelo 75,166, a page to come; Oldenzaal 32,033; Borne 25,038. The technical university, Saxion, the former mills and the international school at Enschede.' },
+          { h3: 'Twente, the cities', p: '<a class="cg-inline-link" href="/coding-classes-in-enschede">Enschede</a> 162,683, the largest, with its own page; Hengelo 84,045, a page to come; Almelo 75,166, a page to come; Oldenzaal 32,033; Borne 25,038. The technical university, Saxion, the former mills and the international school at Enschede.' },
           { h3: 'Twente, the countryside', p: 'Rijssen-Holten 39,274; Hellendoorn 36,354; Hof van Twente 35,775; Twenterand 34,234; Dinkelland 26,958; Wierden 25,547; Haaksbergen 24,313; Losser 23,472; Tubbergen 21,604. Nine municipalities of farms, villages and a border that is closer than any Dutch city.' },
           { h3: 'Zwolle and the delta', p: 'Zwolle 134,147, the capital and a page to come; Kampen 56,835, the Hanseatic town on the last stretch of the IJssel; Zwartewaterland 23,733, which is Hasselt and Genemuiden; Staphorst 18,219. The IJsseldelta, where three rivers meet the former sea.' },
           { h3: 'Salland and Deventer', p: 'Deventer 105,111, the third city, a page to come; Raalte 39,084; Olst-Wijhe 19,079. The middle of the province, along the IJssel, with the oldest of the three landscapes\' towns.' },

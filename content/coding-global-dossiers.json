@@ -5632,5 +5632,66 @@
       "That Amersfoort is the fastest-growing municipality in the Netherlands. The page says only that it is the fastest-growing city in this series.",
       "Anything the province of Utrecht page owns: the four-measure superlative project. Anything the Utrecht city or Apeldoorn pages own."
     ]
+  },
+  "coding-classes-in-enschede": {
+    "market": "Enschede",
+    "bodyClass": "cg-ens",
+    "pageType": "city",
+    "curriculumAuthority": "City and municipality of Enschede, Overijssel: 162,683 residents (CBS 1 January 2026), the largest city of the province and the slowest-growing in this series at 9.9 percent since 1995; 60 primary establishments (12,785 pupils) and 19 secondary (8,556), both 2025; 5,700 residents in applied higher education and 7,380 at university level. University of Twente (1961, opened 1964); Saxion (1998), campuses in three cities. Villages Lonneker, Boekelo, Usselo, Glanerbrug, Twekkelo; German border. Regio Noord holidays with the rest of Overijssel. The city page argues from an unallocatable aggregate; the province page owns the dike-standard arithmetic.",
+    "localProject": "An aggregate cannot be pushed down to its parts without a published split. Four student figures are available and none answers the question: 12,038 enrolled at the University of Twente in June 2021; 27,505 enrolled at Saxion, undated in the entry read and spread across Enschede, Deventer and Apeldoorn with no published breakdown; 5,700 municipal residents in applied higher education and 7,380 at university level for 2025, which count residence rather than study. Dividing 27,505 by three gives 9,168, which is a fabrication, and a population-weighted split is a fabrication that looks principled. The honest output is a bound from none to all, plus a named missing datum. Distinct from the two-frames traps used elsewhere in the cluster and from largest-remainder apportionment (Al Amarat, where the parts were published and only the rounding was at issue): here the parts were never published at all. The 9,168 appears only in order to be rejected.",
+    "requiredMentions": [
+      "162,683",
+      "81,938",
+      "39,237",
+      "148,034",
+      "12,785",
+      "8,556",
+      "27,505",
+      "12,038",
+      "9,168",
+      "Roombeek",
+      "Glanerbrug",
+      "Boekelo",
+      "Roelof Bleker",
+      "13 May 2000"
+    ],
+    "sources": [
+      {
+        "claim": "Enschede 162,683 residents on 1 January 2026 (CBS provisional); 81,938 households (2025) averaging 1.94, 39,237 single-person (48 percent); 21,778 aged 0 to 15; 25,987 aged 15 to 25; 43,705 aged 25 to 45; 30,850 aged 65 and over; total area 14,272 ha, land 14,073 ha; density 1,153; 60 primary establishments (12,785 pupils) and 19 secondary (8,556), both 2025; HBO 5,700 and WO 7,380 (2025); 10 wijken and 70 buurten; 148,034 in 1995, a rise of 14,649 (9.9 percent).",
+        "url": "https://allecijfers.nl/gemeente/enschede/"
+      },
+      {
+        "claim": "Enschede 162,671 residents on 1 January 2026; 142.72 km2 (140.83 land, 1.89 water); mayor Roelof Bleker (independent); in Overijssel on the German border; villages Lonneker, Boekelo, Usselo, Glanerbrug and Twekkelo; city rights around 1300, confirmed in 1325 by bishop Jan van Diest; the most important centre of textile production in the Netherlands, with the industry entirely gone by the 1960s; the 2000 disaster killed 23 people including four firefighters and injured nearly a thousand.",
+        "url": "https://nl.wikipedia.org/wiki/Enschede"
+      },
+      {
+        "claim": "University of Twente founded 1961 and opened on 14 September 1964 by Queen Juliana; 12,038 students in June 2021; 1,810 academic and 1,340 support staff; the largest campus university in the Netherlands.",
+        "url": "https://nl.wikipedia.org/wiki/Universiteit_Twente"
+      },
+      {
+        "claim": "Saxion Hogeschool: 27,505 students, undated in the infobox, and 2,818 staff; formed by merger in 1998; campuses in Enschede, Deventer and Apeldoorn.",
+        "url": "https://nl.wikipedia.org/wiki/Saxion_Hogeschool"
+      },
+      {
+        "claim": "The Enschede fire began on 7 May 1862 in a house on the Kalanderstraat; two people died and 650 families were made homeless; the entire historic centre inside the moats was destroyed; the town had approximately 4,000 inhabitants.",
+        "url": "https://nl.wikipedia.org/wiki/Stadsbrand_van_Enschede_(1862)"
+      },
+      {
+        "claim": "The Enschede fireworks disaster occurred on 13 May 2000 at about 15:35: 23 dead including four firefighters, about 950 injured, 200 homes destroyed and about 1,500 badly damaged, 1,250 people displaced, about 42 hectares of Roombeek affected; the company was S.E. Fireworks; damage about one billion guilders, given as 454 million euro.",
+        "url": "https://nl.wikipedia.org/wiki/Vuurwerkramp_Enschede"
+      },
+      {
+        "claim": "School holiday regions: regio Noord = Groningen, Friesland, Drenthe, Overijssel, Flevoland, Noord-Holland; regio Midden = Utrecht, Zuid-Holland and the northern part of Gelderland; regio Zuid = Zeeland, Noord-Brabant, Limburg and the southern part of Gelderland.",
+        "url": "https://www.rijksoverheid.nl/themas/onderwijs/schoolvakanties/regios-schoolvakantie"
+      }
+    ],
+    "rejectedClaims": [
+      "Any figure for the number of Saxion students in Enschede. No published split exists in the sources read, and the page reports a bound rather than a value.",
+      "Any sum of the four student figures. They count four different populations on different dates and are never added.",
+      "A single population for Enschede in 1862. One source gives approximately 4,000 and another about 4,500 with 3,675 made homeless; all are quoted and none is preferred or combined.",
+      "A share of the 1862 town made homeless. It would require combining figures from two sources that disagree about the denominator.",
+      "The distance from Glanerbrug to the German border or to Munster in kilometres. Described qualitatively; no figure was read at source.",
+      "Anything the Overijssel page owns: the dike standards and the 25 municipalities. Anything the Apeldoorn page owns: the settlement figures and the residual."
+    ]
   }
 }

@@ -60,7 +60,7 @@ Five areas, each with its municipalities and their 1 January 2026 population fro
 
 ### Twente, the cities
 
-Enschede 162,683, the largest, a page to come; Hengelo 84,045, a page to come; Almelo 75,166, a page to come; Oldenzaal 32,033; Borne 25,038. The technical university, Saxion, the former mills and the international school at Enschede.
+[Enschede](/coding-classes-in-enschede) 162,683, the largest, with its own page; Hengelo 84,045, a page to come; Almelo 75,166, a page to come; Oldenzaal 32,033; Borne 25,038. The technical university, Saxion, the former mills and the international school at Enschede.
 
 ### Twente, the countryside
 
