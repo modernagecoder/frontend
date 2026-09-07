@@ -27,7 +27,9 @@ Phase 6 (ag- doors): academy spokes x6 (amsterdam, eindhoven, the-hague, utrecht
 | 6 | coding-classes-in-utrecht (utr, #006852) | city | 4,787 | 3.8% vs almere | Utrecht educates a large share of the country's engineers. Why should a ten-year-old here still write code when an AI already can? | A net figure is one equation with two unknowns (20,640 pupils in the schools vs 15,770 from the homes; the station excludes transfers) | c019a6ba |
 | 7 | coding-classes-in-rotterdam (rtm, #066374) | city, hub for 8 gebieden | 5,361 | 4.6% vs utrecht | The port already runs on software. Does a Rotterdam child still need to learn to write it, now that AI does too? | Two units, one flow, opposite signs (14.2m TEU up 3.1%, container tonnes down 0.2%, weight per box down 3.2%) | d9a254e5 |
 | 8 | ai-and-python-academy-netherlands (ag-nla, #784400) | ag- hub (market) | 5,487 | 2.3% vs ai-and-python-academy-oman (was 30.3% before every borrowed passage was rewritten) | (ag- page: no AI H2; spine = informatica offered by 238/774 havo and 236/761 vwo schools vs the 200m euro Groningen AI factory) | none (ag- pages carry a spine, not a data trap) | 75913eb4 |
-| 9 | coding-classes-in-noord-holland (nhl, #8E3A23) | province | 4,354 | 4.2% vs utrecht | A child in Hoorn or Den Helder can ask an AI to rank the province in a second. So why learn to sort it by hand? | A rank is an order, not a distance (places 2 to 4 are 1,920 and 1,777 apart; place 1 is 773,029 ahead) | (this commit) |
+| 9 | coding-classes-in-noord-holland (nhl, #8E3A23) | province | 4,354 | 4.2% vs utrecht | A child in Hoorn or Den Helder can ask an AI to rank the province in a second. So why learn to sort it by hand? | A rank is an order, not a distance (places 2 to 4 are 1,920 and 1,777 apart; place 1 is 773,029 ahead) | a0b9ba6e |
+| 10 | coding-classes-in-zuid-holland (zhl, #6F5D00) | province | 4,451 | 2.5% vs noord-holland (was 8.3% before 20 recurring sentences were rewritten) | The AI knows the Randstad has eight million people. Why should a child in Gouda learn to count them? | A place with no boundary has no population, only candidates (Randstad 2.56m to 8.59m by definition) | (this commit) |
+| 11 | coding-classes-in-utrecht-province (utp, #75446E) | province | 4,394 | 4.4% vs zuid-holland | An AI will tell a child in Amersfoort that Utrecht is the smallest province. Why teach the child to check? | A superlative without its measure is not a fact (12th by total area, 11th by land, 5th by people, 3rd by density) | (this commit) |
 
 ## Skipped (kill criterion)
 
@@ -37,7 +39,7 @@ Phase 6 (ag- doors): academy spokes x6 (amsterdam, eindhoven, the-hague, utrecht
 ## Codes in use (letters only; check `coding-global.css` before assigning)
 
 Reserved by older clusters and NOT available: hmr (Al Hamra), lei (Leicester), mst? free, amr (Al Amarat), adm (Adam), ede? free.
-Assigned so far: cg: amv (Amstelveen), ams (Amsterdam), ehv (Eindhoven), dhg (The Hague), alm (Almere), utr (Utrecht), rtm (Rotterdam) · ag: nla (academy hub) · provinces: nhl (Noord-Holland)
+Assigned so far: cg: amv (Amstelveen), ams (Amsterdam), ehv (Eindhoven), dhg (The Hague), alm (Almere), utr (Utrecht), rtm (Rotterdam) · ag: nla (academy hub) · provinces: nhl (Noord-Holland), zhl (Zuid-Holland), utp (Utrecht), gld (Gelderland)
 
 ## Open issues
 

@@ -787,3 +787,6 @@
 .cg-root.cg-utr  { --cg-accent: #006852; --cg-accent-soft: rgba(0,104,82,.10); }   /* Utrecht: a sea green for the Singel, the ring of water the old city sits inside */
 .cg-root.cg-rtm  { --cg-accent: #066374; --cg-accent-soft: rgba(6,99,116,.10); }   /* Rotterdam: the pale blue of the Swan's pylon on the Erasmusbrug, darkened until it clears every paper tint */
 .cg-root.cg-nhl  { --cg-accent: #8E3A23; --cg-accent-soft: rgba(142,58,35,.10); }   /* Noord-Holland: the rust of the province's brick, between Amsterdam's crimson and the hub orange */
+.cg-root.cg-zhl  { --cg-accent: #6F5D00; --cg-accent-soft: rgba(111,93,0,.10); }   /* Zuid-Holland: the leaf green of the bulb fields before the flowers, darkened to clear every paper tint */
+.cg-root.cg-utp  { --cg-accent: #75446E; --cg-accent-soft: rgba(117,68,110,.10); }   /* Province of Utrecht: a muted plum for the Heuvelrug heather, kept below the chroma where purple becomes the retired look */
+.cg-root.cg-gld  { --cg-accent: #04510E; --cg-accent-soft: rgba(4,81,14,.10); }   /* Gelderland: the pine green of the Veluwe, darkened until it clears every paper tint */

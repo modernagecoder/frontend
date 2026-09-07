@@ -4497,5 +4497,164 @@
       "Any claim about which school holiday dates apply in a given year; only the region (Noord) is stated.",
       "Anything the Netherlands hub, Amsterdam or Amstelveen owns: the SLO core objectives, the lottery, the stock-and-flow model."
     ]
+  },
+  "coding-classes-in-zuid-holland": {
+    "market": "Zuid-Holland",
+    "bodyClass": "cg-zhl",
+    "pageType": "governorate",
+    "curriculumAuthority": "Province of Zuid-Holland: 50 municipalities, 3,882,708 residents (CBS 1 January 2026), 1,110 primary establishments (326,108 pupils) and 370 secondary (212,091), the largest school system of any province. Capital The Hague; largest city Rotterdam; formed 1840. Regions: Duin- en Bollenstreek, Rijnstreek, Midden-Holland, Alblasserwaard, Westland, the islands, the Groene Hart. Regio Midden holidays. A province page is about the spread and links down to the city pages (Rotterdam, The Hague) rather than repeating them; the hub owns the national curriculum.",
+    "localProject": "A place with no boundary has no population, only candidates. The Randstad has never had officially specified borders and is not a statistical area (English encyclopaedia entry), yet carries published figures: four cities 2,563,320 (2026 registers), urban area 7,146,249 on 6,296.91 km2 (2021), conurbation 8,403,915 on 11,372.15 km2 (2021), four provinces 8,589,872 (2023, ZH 3,804,906 = 44.3 percent). The learner writes one aggregator over municipal registers and feeds it four member lists, reproducing all four figures (a 3.35-fold spread) and the densities that move the other way. Distinct from the unit-of-analysis trap (Haima: one entity with two OFFICIAL boundaries), from join-on-name (Liang) and from the Noord-Holland rank trap: the flaw here is a regional total quoted for a region nobody has drawn. Computed before writing; three readings quoted as published, one summed from the registers.",
+    "requiredMentions": [
+      "3,882,708",
+      "50 municipalities",
+      "Zoetermeer",
+      "Dordrecht",
+      "Alphen aan den Rijn",
+      "Westland",
+      "Goeree-Overflakkee",
+      "Hoeksche Waard",
+      "Duin- en Bollenstreek",
+      "Drechtsteden",
+      "8,403,915",
+      "7,146,249",
+      "2,563,320",
+      "never been officially specified"
+    ],
+    "sources": [
+      {
+        "claim": "Zuid-Holland 3,882,708 residents on 1 January 2026 (CBS provisional); 50 municipalities; land 269,840 ha, total 330,786 ha; density 1,432 per km2; 1,815,974 households; 600,471 under 15; 483,756 aged 15 to 25; 1,110 primary establishments (326,108 pupils); 370 secondary (212,091); 3.325 million in 1995, a 17 percent rise.",
+        "url": "https://allecijfers.nl/provincie/zuid-holland/"
+      },
+      {
+        "claim": "All 50 municipalities on 1 January 2026: Rotterdam 673,804; Den Haag 569,468; Zoetermeer 130,836; Leiden 130,328; Dordrecht 122,991; Westland 118,874; Alphen aan den Rijn 117,284; Delft 110,089; Hoeksche Waard 91,445; Nissewaard 89,112; Schiedam 81,931; Leidschendam-Voorburg 78,916; Gouda 77,818; Vlaardingen 77,480; Voorne aan Zee 75,012; Capelle aan den IJssel 69,698; Katwijk 67,149; Lansingerland 66,633; Rijswijk 61,857; Pijnacker-Nootdorp 58,741; Krimpenerwaard 57,898; Goeree-Overflakkee 52,798; Zuidplas 49,291; Barendrecht 48,701; Ridderkerk 48,084; Noordwijk 46,453; Molenlanden 45,625; Zwijndrecht 44,819; Gorinchem 39,060; Teylingen 38,739; Bodegraven-Reeuwijk 37,291; Maassluis 37,125; Waddinxveen 35,542; Hendrik-Ido-Ambacht 33,100; Papendrecht 32,267; Krimpen aan den IJssel 29,864; Nieuwkoop 29,728; Kaag en Braassem 29,467; Wassenaar 27,975; Leiderdorp 27,973; Albrandswaard 26,559; Sliedrecht 26,531; Oegstgeest 26,095; Voorschoten 25,975; Lisse 23,842; Hillegom 23,078; Alblasserdam 20,250; Hardinxveld-Giessendam 19,402; Midden-Delfland 19,355; Zoeterwoude 10,355.",
+        "url": "https://allecijfers.nl/ranglijst/grootste-en-kleinste-gemeenten-in-inwoners-in-de-provincie-zuid-holland/"
+      },
+      {
+        "claim": "Capital Den Haag; largest city Rotterdam; 50 municipalities; land 2,700.07 km2, water 607.79 km2; formed 1840 from the province of Holland; regions Duin- en Bollenstreek, Rijnstreek, Midden-Holland, Alblasserwaard, Groenblauwe Slinger, Westland, the islands, Groene Hart.",
+        "url": "https://nl.wikipedia.org/wiki/Zuid-Holland"
+      },
+      {
+        "claim": "Randstad: conurbation 8,403,915 people on 11,372.15 km2 (8,261.98 land), density 738.99, 1 January 2021; urban area 7,146,249 on 6,296.91 km2, density 1,134.88; 2023 four-province total 8,589,872 (Noord-Holland 2,952,622, Zuid-Holland 3,804,906, Utrecht 1,387,643, Flevoland 444,701); the four largest cities Amsterdam, Rotterdam, The Hague, Utrecht; \"The Randstad's borders have never been officially specified\" and it \"is not an official statistical area\".",
+        "url": "https://en.wikipedia.org/wiki/Randstad"
+      },
+      {
+        "claim": "School holiday regions: regio Midden = Utrecht, Zuid-Holland and the northern part of Gelderland; regio Noord = Groningen, Friesland, Drenthe, Overijssel, Flevoland, Noord-Holland; regio Zuid = Zeeland, Noord-Brabant, Limburg and the southern part of Gelderland.",
+        "url": "https://www.rijksoverheid.nl/themas/onderwijs/schoolvakanties/regios-schoolvakantie"
+      },
+      {
+        "claim": "Amsterdam 941,927, Rotterdam 673,804, Den Haag 569,468 and Utrecht 378,121 on 1 January 2026 (CBS provisional).",
+        "url": "https://allecijfers.nl/ranglijst/grootste-en-kleinste-gemeenten-in-inwoners-in-nederland/"
+      }
+    ],
+    "rejectedClaims": [
+      "Leiden University's founding year (1575) and Dordrecht's city rights (1220). Not read at source for this page; both cities are described by population only.",
+      "Any claim about Zuid-Holland having the worst traffic in the country. Characterised in prose without a figure, because no figure was read at source.",
+      "A single land-area figure for the province. The national statistics site gives 2,698.40 km2 and the provincial article 2,700.07; both are stated.",
+      "The Dutch encyclopaedia's Randstad figures. That title resolves to a disambiguation page; the English entry is used and cited.",
+      "Anything the Netherlands hub, Rotterdam or The Hague owns: the SLO core objectives, the port units, the Surinamese-origin definition."
+    ]
+  },
+  "coding-classes-in-utrecht-province": {
+    "market": "the province of Utrecht",
+    "bodyClass": "cg-utp",
+    "pageType": "governorate",
+    "curriculumAuthority": "Province of Utrecht: 26 municipalities, 1,415,104 residents (CBS 1 January 2026), 531 primary establishments (123,230 pupils) and 112 secondary (78,604). Capital Utrecht (the only province whose capital carries its exact name; hence the -province slug). Landscapes: Utrechtse Heuvelrug, Eemland, Kromme Rijnstreek, Vechtstreek, Lopikerwaard. Regio Midden holidays. A province page is about the spread and links down to the city page rather than repeating it; the hub owns the national curriculum.",
+    "localProject": "A superlative without its measure is not a fact (rank depends on the column). From the encyclopaedia table of the twelve provinces at end 2025: Utrecht is 12th of 12 by total area (1,560.05 km2, the smallest), 11th by land area (1,485.46; Flevoland 1,411.63 is smaller), 5th by population (1,415,322) and 3rd by density (953; ZH 1,438, NH 1,130). The learner loads the twelve rows, sorts four ways, and writes a function that returns each row's best and worst column. Distinct from the Noord-Holland rank trap (an order loses its distances), from title-versus-size (reserved for Noord-Brabant) and from the denominator-choice trap (Gadong): the flaw here is a rank quoted without the column it was taken from. Computed before writing; all figures from one published table.",
+    "requiredMentions": [
+      "1,415,104",
+      "26 municipalities",
+      "Amersfoort",
+      "Veenendaal",
+      "Nieuwegein",
+      "Vijfheerenlanden",
+      "Stichtse Vecht",
+      "Lopikerwaard",
+      "Renswoude",
+      "1,560.05",
+      "1,485.46",
+      "1,063,460",
+      "Eemland"
+    ],
+    "sources": [
+      {
+        "claim": "Province of Utrecht 1,415,104 residents on 1 January 2026 (CBS provisional); 26 municipalities; total area 156,004 ha, land 148,448 ha; density 949 per km2; 645,543 households; 227,444 under 15; 175,696 aged 15 to 25; 531 primary establishments (123,230 pupils); 112 secondary (78,604); 1,063,460 residents in 1995, a 33 percent rise.",
+        "url": "https://allecijfers.nl/provincie/utrecht/"
+      },
+      {
+        "claim": "All 26 municipalities on 1 January 2026: Utrecht 378,121; Amersfoort 163,764; Veenendaal 70,779; Nieuwegein 68,257; Zeist 66,648; Stichtse Vecht 66,196; Vijfheerenlanden 63,246; Woerden 54,199; Utrechtse Heuvelrug 51,107; Houten 50,952; Soest 47,853; De Ronde Venen 45,749; De Bilt 43,687; IJsselstein 33,171; Leusden 32,287; Baarn 25,435; Wijk bij Duurstede 23,707; Bunschoten 22,905; Rhenen 20,457; Bunnik 16,402; Woudenberg 15,099; Lopik 14,802; Montfoort 13,795; Oudewater 10,513; Eemnes 10,065; Renswoude 5,908.",
+        "url": "https://allecijfers.nl/ranglijst/grootste-en-kleinste-gemeenten-in-inwoners-in-de-provincie-utrecht/"
+      },
+      {
+        "claim": "The twelve provinces at end 2025: Groningen 601,530 people, 2,323.94 km2 land, 2,959.68 total; Friesland 665,276, 3,335.62, 5,748.77; Drenthe 508,054, 2,632.65, 2,680.39; Overijssel 1,202,369, 3,319.00, 3,420.74; Flevoland 462,880, 1,411.63, 2,412.31; Gelderland 2,173,425, 4,963.71, 5,136.31; Utrecht 1,415,322, 1,485.46, 1,560.05, density 953; Noord-Holland 3,010,044, 2,664.82, 4,091.93, 1,130; Zuid-Holland 3,882,709, 2,700.07, 3,307.86, 1,438; Zeeland 394,514, 1,782.12, 2,933.44; Noord-Brabant 2,676,753, 4,905.46, 5,082.06; Limburg 1,138,362, 2,146.61, 2,209.85. Capitals as listed.",
+        "url": "https://nl.wikipedia.org/wiki/Provincies_van_Nederland"
+      },
+      {
+        "claim": "Capital Utrecht; 26 municipalities; land 1,485.46 km2, water 74.59 km2, total 1,560.05 km2; 1,415,322 residents at end 2025; Commissaris van de Koning Hans Oosters; landscapes Utrechtse Heuvelrug, Eemland, Kromme Rijnstreek, Vechtstreek, Lopikerwaard.",
+        "url": "https://nl.wikipedia.org/wiki/Utrecht_(provincie)"
+      },
+      {
+        "claim": "School holiday regions: regio Midden = Utrecht, Zuid-Holland and the northern part of Gelderland; regio Noord = Groningen, Friesland, Drenthe, Overijssel, Flevoland, Noord-Holland; regio Zuid = Zeeland, Noord-Brabant, Limburg and the southern part of Gelderland.",
+        "url": "https://www.rijksoverheid.nl/themas/onderwijs/schoolvakanties/regios-schoolvakantie"
+      }
+    ],
+    "rejectedClaims": [
+      "That Utrecht is the fastest-growing province. Its 33 percent since 1995 beats Zuid-Holland's 17 and Noord-Brabant's 18, but Flevoland's growth over the same period was not read at source and is almost certainly higher, so no growth rank is asserted.",
+      "The year Vijfheerenlanden moved from Zuid-Holland to Utrecht (2019). Not read at source; the municipality is listed without the date.",
+      "Which secondary schools serve the smaller towns. Not researched for a province page; the city page carries the schools.",
+      "The encyclopaedia summary's claims that Zeeland is smallest by land area and that Utrecht ranks 11th by population. Both contradict the table on the same page, which the page uses instead.",
+      "Anything the Netherlands hub or the Utrecht city page owns: the SLO core objectives, the two pupil counts, the station's transfers."
+    ]
+  },
+  "coding-classes-in-gelderland": {
+    "market": "Gelderland",
+    "bodyClass": "cg-gld",
+    "pageType": "governorate",
+    "curriculumAuthority": "Province of Gelderland: 51 municipalities, 2,173,348 residents (CBS 1 January 2026), 838 primary establishments (177,070 pupils) and 194 secondary (112,650). Capital Arnhem; largest city Nijmegen; the most land of any province. Landscapes: the Veluwe, the Achterhoek, the Betuwe and Bommelerwaard, the Rijk van Nijmegen, the IJssel valley. Split between regio Midden (north and east) and regio Zuid (Arnhem, Nijmegen, the river country) for school holidays, with Montferland (Didam) and Neder-Betuwe (Dodewaard) split internally. A province page is about the spread; the hub owns the national curriculum.",
+    "localProject": "The ecological trap: a group attribute that no member of the group has. Gelderland is split between two school-holiday regions along a line between Apeldoorn and Arnhem (Rijksoverheid), and a published table assigns each municipality, with Montferland (Didam) and Neder-Betuwe (Dodewaard) split inside their own boundaries; the table also still names seven municipalities merged away since (Geldermalsen, Lingewaal, Neerijnen, Groesbeek, Ubbergen, Millingen aan de Rijn, Rijnwaarden). The learner tags 51 rows, computes a population-weighted provincial holiday, finds no school that keeps it, descends to municipality level (true for 49 of 51) and then to former-municipality level. Distinct from the weekend-as-input trap (Brunei: a calendar assumption in a date function), from the boundary-moved trap (Mahdah) and from the Zuid-Holland no-boundary trap: the flaw here is a value aggregated to a level at which it does not exist. Computed before writing; the dated names in the table are stated.",
+    "requiredMentions": [
+      "2,173,348",
+      "51 municipalities",
+      "Nijmegen",
+      "Apeldoorn",
+      "Ede",
+      "Achterhoek",
+      "Veluwe",
+      "Montferland",
+      "Neder-Betuwe",
+      "Didam",
+      "Dodewaard",
+      "Rozendaal",
+      "between Apeldoorn and Arnhem",
+      "1,864,732"
+    ],
+    "sources": [
+      {
+        "claim": "Gelderland 2,173,348 residents on 1 January 2026 (CBS provisional); 51 municipalities; total area 513,628 ha, land 496,048 ha; density 436; 981,246 households; 322,736 under 15; 266,140 aged 15 to 25; 838 primary establishments (177,070 pupils); 194 secondary (112,650); 1,864,732 residents in 1995, a 17 percent rise.",
+        "url": "https://allecijfers.nl/provincie/gelderland/"
+      },
+      {
+        "claim": "All 51 municipalities on 1 January 2026: Nijmegen 189,871; Arnhem 171,822; Apeldoorn 169,212; Ede 125,331; Barneveld 63,926; Doetinchem 60,466; West Betuwe 53,445; Harderwijk 50,655; Zutphen 49,292; Overbetuwe 49,266; Lingewaard 47,802; Nijkerk 46,283; Zevenaar 45,570; Berkelland 43,986; Rheden 43,849; Wageningen 42,779; Tiel 42,524; Wijchen 42,106; Oude IJsselstreek 39,596; Montferland 37,014; Bronckhorst 35,983; Berg en Dal 35,700; Lochem 34,213; Epe 33,785; Renkum 31,356; Zaltbommel 30,687; Culemborg 30,413; Oost Gelre 29,868; Nunspeet 29,688; Winterswijk 29,289; Ermelo 28,199; Buren 28,095; Aalten 27,608; Beuningen 26,868; Maasdriel 26,225; Neder-Betuwe 25,925; Voorst 25,569; Putten 25,170; Duiven 24,852; Oldebroek 24,535; Elburg 24,039; Brummen 21,562; West Maas en Waal 20,843; Druten 20,019; Heerde 19,325; Heumen 16,978; Westervoort 15,253; Hattem 12,822; Doesburg 11,173; Scherpenzeel 10,674; Rozendaal 1,837.",
+        "url": "https://allecijfers.nl/ranglijst/grootste-en-kleinste-gemeenten-in-inwoners-in-de-provincie-gelderland/"
+      },
+      {
+        "claim": "School holiday regions: regio Midden = Utrecht, Zuid-Holland and the northern part of Gelderland; regio Zuid = Zeeland, Noord-Brabant, Limburg and the southern part of Gelderland; regio Noord = Groningen, Friesland, Drenthe, Overijssel, Flevoland, Noord-Holland.",
+        "url": "https://www.rijksoverheid.nl/themas/onderwijs/schoolvakanties/regios-schoolvakantie"
+      },
+      {
+        "claim": "Gelderland municipalities by holiday region (published table, names partly predating mergers): Midden: Aalten, Apeldoorn, Barneveld, Berkelland, Bronckhorst, Brummen, Buren, Culemborg, Doetinchem, Ede, Elburg, Epe, Ermelo, Geldermalsen, Harderwijk, Heerde, Lingewaal, Lochem, Montferland except the former municipality of Didam, Neder-Betuwe except the former municipality of Dodewaard, Neerijnen, Nijkerk, Nunspeet, Oldebroek, Oost-Gelre, Oude IJsselstreek, Putten, Scherpenzeel, Tiel, Voorst, Wageningen, Winterswijk, Zutphen. Zuid: Arnhem, Beuningen, Doesburg, Druten, Duiven, Groesbeek, Heumen, Neder-Betuwe (Dodewaard only), Lingewaard, Maasdriel, Millingen aan de Rijn, Montferland (Didam only), Nijmegen, Overbetuwe, Renkum, Rheden, Rozendaal, Rijnwaarden, Ubbergen, Westervoort, West Maas en Waal, Wijchen, Zaltbommel, Zevenaar.",
+        "url": "https://www.tuxx.nl/planning/schoolvakanties/regios/"
+      },
+      {
+        "claim": "The twelve provinces at end 2025: Gelderland 2,173,425 people, 4,963.71 km2 land, 5,136.31 km2 total, the largest land area of any province; capital Arnhem.",
+        "url": "https://nl.wikipedia.org/wiki/Provincies_van_Nederland"
+      }
+    ],
+    "rejectedClaims": [
+      "The actual summer holiday dates for regio Midden and regio Zuid in any given year. Deliberately not stated; the page describes the split, not the calendar.",
+      "Nijmegen's claim to be the oldest city in the Netherlands. Stated as the city's own account and not sourced for this page.",
+      "The Rijksoverheid's municipality-level list. Its page returned 404; the municipality split is taken from a published holiday table whose names partly predate the 2015 to 2019 mergers, and the page says so.",
+      "Any figure for Wageningen University or Radboud University. Not read at source for a province page.",
+      "Anything the Netherlands hub or the province of Utrecht page owns: the SLO core objectives, the four-rank superlative table."
+    ]
   }
 }
