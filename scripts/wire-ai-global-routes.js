@@ -113,7 +113,8 @@ const SLUGS = [
   'best-ai-courses-for-teens-2026',
   'ai-projects-for-kids',
   'ai-classes-for-adults',
-  'one-on-one-ai-classes'
+  'one-on-one-ai-classes',
+  'ai-and-python-academy-netherlands',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -306,7 +307,8 @@ const LLMS_LABELS = {
   'best-ai-courses-for-teens-2026': 'Best AI Courses for Teens 2026',
   'ai-projects-for-kids': 'AI Projects for Kids',
   'ai-classes-for-adults': 'AI Classes for Adults',
-  'one-on-one-ai-classes': 'One to One AI Classes'
+  'one-on-one-ai-classes': 'One to One AI Classes',
+  'ai-and-python-academy-netherlands': 'AI and Python Academy, Netherlands',
 };
 
 function wireLlms(slugs) {

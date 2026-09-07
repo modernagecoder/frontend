@@ -453,7 +453,7 @@ Start here
 
 Leave a number and a mentor calls you back at an hour that works in the Netherlands. The first class is taught by a real teacher on real material, and it also settles which band your child starts in, so nobody spends a term at the wrong level.
 
-Rather read first? See [how we teach](/how-we-teach), the [full catalogue](/courses), or the thesis behind this page at [Learn to Build AI](/learn-to-build-ai).
+Rather read first? See [how we teach](/how-we-teach), the [full catalogue](/courses), or the thesis behind this page at [Learn to Build AI](/learn-to-build-ai). For the structured five-rung track, from hand-written Python to agents and a public repository, see the [AI and Python Academy for the Netherlands](/ai-and-python-academy-netherlands).
 
 ## Keep exploring Modern Age Coders
 

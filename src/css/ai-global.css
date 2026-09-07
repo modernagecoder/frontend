@@ -473,6 +473,9 @@
 .ag-crumbs a:hover { color: var(--ag-accent); }
 .ag-inline-link { color: var(--ag-accent); text-decoration: underline; text-underline-offset: 2px; }
 .ag-mt-40 { margin-top: 40px; }
+/* Source attribution under a table or claim. The Oman academy pages used this class before it existed; defined here so it renders as a note rather than body text. */
+.ag-source-note { font-size: 0.85rem; line-height: 1.55; color: var(--ag-muted, #6B6259); border-top: 1px solid var(--ag-rule, #DDD5C6); padding-top: 0.9rem; max-width: 72ch; }
+.ag-source-note a { color: var(--ag-accent); }
 .ag-sr { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0,0,0,0); white-space: nowrap; border: 0; }
 
 /* --------------------------------------------------------------- mobile */
@@ -603,3 +606,6 @@
   .ag-nav, .ag-btn-row, .ag-form-panel { display: none; }
   .ag-root { background: #fff; }
 }
+
+/* Netherlands cluster (scripts/nl). Accents from scripts/nl/lib/accent.js: 4.5:1 on all three paper tints. */
+.ag-root.ag-nla { --ag-accent: #784400; --ag-accent-soft: rgba(120,68,0,.09); }   /* Netherlands academy hub: a bronze between the two Dutch oranges already on the site, dark enough to clear every paper tint */

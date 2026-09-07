@@ -12,9 +12,11 @@
 const fs = require('fs');
 const path = require('path');
 const { execFileSync } = require('child_process');
-const { render, plain } = require('./lib/render-cg');
-const { twin } = require('./lib/md-twin');
-const { register } = require('./register');
+const cg = require('./lib/render-cg');
+const cgTwin = require('./lib/md-twin');
+const ag = require('./lib/render-ag');
+const registerCg = require('./register').register;
+const registerAg = require('./register-ag').register;
 const { contrast, PAPERS } = require('./lib/accent');
 
 const ROOT = path.resolve(__dirname, '..', '..');
@@ -25,6 +27,13 @@ const modPath = path.join(ROOT, 'content', 'nl', slug + '.js');
 if (!fs.existsSync(modPath)) { console.error('no content module at ' + modPath); process.exit(2); }
 delete require.cache[require.resolve(modPath)];
 const page = require(modPath);
+const CLUSTER = page.cluster === 'ag' ? 'ag' : 'cg';
+const render = CLUSTER === 'ag' ? ag.render : cg.render;
+const twin = CLUSTER === 'ag' ? ag.twin : cgTwin.twin;
+const plain = CLUSTER === 'ag' ? ag.plain : cg.plain;
+const register = CLUSTER === 'ag' ? registerAg : registerCg;
+const WIRE = CLUSTER === 'ag' ? 'wire-ai-global-routes.js' : 'wire-coding-global-routes.js';
+const PREFIX = CLUSTER;
 
 const FLOORS = { district: 1400, governorate: 1800, city: 2200, market: 3000 };
 const ALLOWED_PROPS = /^(display|grid-template-columns|grid-template-areas|grid-column|grid-row|gap|row-gap|column-gap|align-items|justify-content|align-self|justify-self|flex|flex-direction|flex-wrap|order|padding(-top|-bottom|-left|-right|-block|-inline)?|margin(-top|-bottom|-left|-right|-block|-inline)?|max-width|min-width|width|font-size|font-weight|font-style|font-family|line-height|letter-spacing|text-transform|text-align|text-decoration|text-wrap|border(-top|-bottom|-left|-right)?|border(-top|-bottom|-left|-right)?-(width|style|color)|border-radius|color|background|background-color|font-variant-numeric|white-space|columns|column-count|column-gap|list-style|counter-reset|content|hyphens|word-spacing)$/;
@@ -39,11 +48,13 @@ for (const p of PAPERS) { const c = contrast(page.accent, p); if (c < 4.5) fail(
 if (!FLOORS[page.pageType]) fail('pageType must be district|governorate|city|market');
 if (plain(page.title).length > 65) fail(`title ${plain(page.title).length} chars (>65)`);
 if (page.description.length < 145 || page.description.length > 165) fail(`description ${page.description.length} chars (want 145-165)`);
-if (page.picks.items.length !== 4) fail('exactly 4 picks');
+if (page.picks.items.length !== (CLUSTER === 'ag' ? 3 : 4)) fail('exactly ' + (CLUSTER === 'ag' ? 3 : 4) + ' picks');
 if (page.faq.items.length < 8 || page.faq.items.length > 12) fail('8 to 12 FAQ items');
-if ((page.dossier.requiredMentions || []).length < 8) fail('dossier needs 8+ requiredMentions');
-if ((page.dossier.sources || []).length < 3) fail('dossier needs 3+ sources');
-if (!page.dossier.localProject) fail('dossier needs localProject');
+if (CLUSTER === 'cg') {
+  if ((page.dossier.requiredMentions || []).length < 8) fail('dossier needs 8+ requiredMentions');
+  if ((page.dossier.sources || []).length < 3) fail('dossier needs 3+ sources');
+  if (!page.dossier.localProject) fail('dossier needs localProject');
+}
 if (page.faq.items.some(f => /—/.test(f.a) || /—/.test(f.q))) fail('em dash in FAQ');
 
 // personality block rules (build guide section 19)
@@ -51,7 +62,7 @@ const cssLines = page.personalityCss.trim().split(/\r?\n/).filter(l => l.trim())
 if (cssLines.length > 40) fail(`personality block ${cssLines.length} lines (>40)`);
 const selectors = [...page.personalityCss.matchAll(/([^{}]+)\{/g)].map(m => m[1].trim()).filter(s => !s.startsWith('@'));
 for (const sel of selectors) {
-  for (const part of sel.split(',')) if (!part.trim().startsWith(`.cg-root.cg-${page.code}`)) fail('unprefixed selector: ' + part.trim());
+  for (const part of sel.split(',')) if (!part.trim().startsWith(`.${PREFIX}-root.${PREFIX}-${page.code}`)) fail('unprefixed selector: ' + part.trim());
 }
 for (const m of page.personalityCss.matchAll(/([a-z-]+)\s*:\s*([^;{}]+);/g)) {
   const prop = m[1], val = m[2];
@@ -65,14 +76,14 @@ if (/@media|position\s*:|z-index|(?<!-)transform|(?<!-)filter|box-shadow|animati
 
 // every requiredMention must be a literal string in the rendered page
 const html = render(page);
-const missing = page.dossier.requiredMentions.filter(m => !html.includes(m));
+const missing = ((page.dossier && page.dossier.requiredMentions) || page.mustMention || []).filter(m => !html.includes(m));
 if (missing.length) fail('requiredMentions absent from page: ' + missing.join(' | '));
 if (/—/.test(html)) fail('em dash in page');
 if (/[\u{1F300}-\u{1FAFF}\u{2600}-\u{27BF}]/u.test(html)) fail('emoji in page');
 // 'groep 5 to 8', 'grades 5 to 8' and 'class 5 to 8' are school-year ranges, not a batch size.
 if (/(?<!groep |grades? |class(?:es)? |years? )5 to 8(?! (?:child|pupil|learner))|five to eight/i.test(html)) fail('old batch size 5 to 8 in page; brand facts say ' + JSON.stringify(require(path.join(ROOT, 'scripts/brand-facts.json')).batchSizes.group));
 if (/\+1\b.*strip|countryIso:'IN'/.test(html)) fail('wrong lead contract');
-if (!html.includes("countryIso:'NL'")) fail('countryIso NL missing');
+if (!/countryIso: ?'NL'/.test(html)) fail('countryIso NL missing');
 
 // --- write -------------------------------------------------------------------
 const outHtml = path.join(ROOT, 'src', 'pages', slug + '.html');
@@ -84,7 +95,7 @@ fs.writeFileSync(outMd, mdText, 'utf8');
 
 // --- register + wire ---------------------------------------------------------
 for (const r of register(page)) console.log('  ' + r);
-execFileSync(process.execPath, [path.join(ROOT, 'scripts', 'wire-coding-global-routes.js'), slug], { stdio: 'inherit' });
+execFileSync(process.execPath, [path.join(ROOT, 'scripts', WIRE), slug], { stdio: 'inherit' });
 
 // --- word count, the gate's way -----------------------------------------------
 const norm = s => s.replace(/\s+/g, ' ').trim();

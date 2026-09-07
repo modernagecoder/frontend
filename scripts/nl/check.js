@@ -22,7 +22,11 @@ const NO_RENDER = process.argv.includes('--no-render');
 if (!slug) { console.error('usage: node scripts/nl/check.js <slug>'); process.exit(2); }
 
 const html = fs.readFileSync(path.join(ROOT, 'src', 'pages', slug + '.html'), 'utf8');
-const code = (html.match(/<body class="cg-root cg-([a-z]+)"/) || [])[1];
+const bodyM = html.match(/<body class="(cg|ag)-root (?:cg|ag)-([a-z]+)"/);
+const P = bodyM ? bodyM[1] : 'cg';
+const code = bodyM ? bodyM[2] : '';
+const CLUSTER_NAME = P === 'ag' ? 'build-ai' : 'coding-global';
+const CSS_FILE = P === 'ag' ? 'ai-global.css' : 'coding-global.css';
 let failed = false;
 const bad = (m) => { failed = true; console.log('FAIL  ' + m); };
 const ok = (m) => console.log('ok    ' + m);
@@ -32,19 +36,20 @@ const style = ((html.match(/<style>([\s\S]*?)<\/style>/) || [])[1] || '').trim()
 // The guide's tested grep, line by line: every rule opener must start with the
 // page's own prefixed selector, including ones indented inside an @media.
 const sels = style.split(/\r?\n/).map(l => l.trim()).filter(l => /^[^@/}][^{]*\{/.test(l)).map(l => l.match(/^[^{]*\{/)[0]);
-const unprefixed = sels.filter(s => !s.startsWith(`.cg-root.cg-${code} `) && !s.startsWith(`.cg-root.cg-${code}{`) && !s.startsWith(`.cg-root.cg-${code}.`) && !s.startsWith(`.cg-root.cg-${code}:`));
-if (unprefixed.length) bad('unprefixed personality selectors: ' + unprefixed.join(' ')); else ok(`personality block: ${sels.length} selectors, all prefixed .cg-root.cg-${code}`);
+const pre = `.${P}-root.${P}-${code}`;
+const unprefixed = sels.filter(s => !s.startsWith(pre + ' ') && !s.startsWith(pre + '{') && !s.startsWith(pre + '.') && !s.startsWith(pre + ':'));
+if (unprefixed.length) bad('unprefixed personality selectors: ' + unprefixed.join(' ')); else ok(`personality block: ${sels.length} selectors, all prefixed ${pre}`);
 
 // (b) undefined classes
-const css = fs.readFileSync(path.join(ROOT, 'src', 'css', 'coding-global.css'), 'utf8');
-const defined = new Set([...css.matchAll(/\.(cg-[a-z0-9-]+)/g)].map(m => m[1]));
+const css = fs.readFileSync(path.join(ROOT, 'src', 'css', CSS_FILE), 'utf8');
+const defined = new Set([...css.matchAll(new RegExp('\.(' + P + '-[a-z0-9-]+)', 'g'))].map(m => m[1]));
 const used = new Set();
-for (const m of html.matchAll(/class="([^"]+)"/g)) for (const c of m[1].split(/\s+/)) if (c.startsWith('cg-')) used.add(c);
+for (const m of html.matchAll(/class="([^"]+)"/g)) for (const c of m[1].split(/\s+/)) if (c.startsWith(P + '-')) used.add(c);
 const undef = [...used].filter(c => !defined.has(c));
-if (undef.length) bad('classes not in coding-global.css: ' + undef.join(' ')); else ok(`classes: ${used.size} used, all defined`);
+if (undef.length) bad('classes not in ' + CSS_FILE + ': ' + undef.join(' ')); else ok(`classes: ${used.size} used, all defined`);
 
 // (c) verify gate
-const v = spawnSync(process.execPath, [path.join(ROOT, 'scripts', 'verify-cluster-pages.js'), 'coding-global'], { encoding: 'utf8' });
+const v = spawnSync(process.execPath, [path.join(ROOT, 'scripts', 'verify-cluster-pages.js'), CLUSTER_NAME], { encoding: 'utf8' });
 const vOut = (v.stdout || '') + (v.stderr || '');
 const vLines = vOut.split(/\r?\n/);
 const idx = vLines.findIndex(l => l.includes(slug));
@@ -56,7 +61,7 @@ else ok('verify: ' + mine.join(' | ').slice(0, 300));
 console.log('      ' + summary);
 
 // (d) uniqueness
-const u = spawnSync(process.execPath, [path.join(ROOT, 'scripts', 'check-cluster-uniqueness.js'), 'coding-global'], { encoding: 'utf8' });
+const u = spawnSync(process.execPath, [path.join(ROOT, 'scripts', 'check-cluster-uniqueness.js'), CLUSTER_NAME], { encoding: 'utf8' });
 const uOut = (u.stdout || '') + (u.stderr || '');
 const uMine = uOut.split(/\r?\n/).filter(l => l.includes(slug));
 const uFail = uMine.some(l => /FAIL/.test(l));
@@ -76,7 +81,7 @@ if (!NO_RENDER) {
     const alt = ['../../dashboard3/node_modules', '../dashboard3/node_modules'].map(p => path.resolve(ROOT, p)).find(p => fs.existsSync(path.join(p, 'playwright')));
     if (alt) env.NODE_PATH = alt + (env.NODE_PATH ? path.delimiter + env.NODE_PATH : '');
   }
-  const a = spawnSync(process.execPath, [path.join(ROOT, 'scripts', 'audit-rendered-ag-pages.mjs'), '--prefix=cg', slug], { encoding: 'utf8', timeout: 180000, env });
+  const a = spawnSync(process.execPath, [path.join(ROOT, 'scripts', 'audit-rendered-ag-pages.mjs'), '--prefix=' + P, slug], { encoding: 'utf8', timeout: 180000, env });
   const aOut = (a.stdout || '') + (a.stderr || '');
   process.stdout.write(aOut.split(/\r?\n/).filter(l => l.trim()).map(l => '      ' + l).join('\n') + '\n');
   if (a.status !== 0) bad('rendered audit exit ' + a.status); else ok('rendered audit clean at 1280 and 390');

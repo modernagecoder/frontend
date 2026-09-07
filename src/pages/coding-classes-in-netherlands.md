@@ -18,7 +18,7 @@ Until this reform there was no compulsory digital literacy or informatics in Dut
 
 That is an unusual thing for a provider to lead with, because it is not a complaint about Dutch schools. It is the reason the honest answer to "how much coding does my child already get" is that it depends on your school and how far it has got with implementation. In Hong Kong you can look the number up. Here you have to ask.
 
-Modern Age Coders teaches from India. The Netherlands moves between CET and CEST while Indian Standard Time never shifts, so the gap is four and a half hours in winter and three and a half in summer. Lessons are online and no Dutch location is claimed. If model building rather than programming foundations is what you want, that is a separate page: [AI and machine learning classes in the Netherlands](/ai-and-machine-learning-classes-in-netherlands).
+Modern Age Coders teaches from India. The Netherlands moves between CET and CEST while Indian Standard Time never shifts, so the gap is four and a half hours in winter and three and a half in summer. Lessons are online and no Dutch location is claimed. If model building rather than programming foundations is what you want, that is a separate page: [AI and machine learning classes in the Netherlands](/ai-and-machine-learning-classes-in-netherlands). The five-rung track from Python to agents and GitHub, written against the informatica figures and the Groningen AI factory, is the [AI and Python Academy for the Netherlands](/ai-and-python-academy-netherlands).
 
 Book the free first class[Ask on WhatsApp](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20want%20a%20free%20coding%20class%20for%20a%20learner%20in%20the%20Netherlands.)Read the Dutch evidence
 

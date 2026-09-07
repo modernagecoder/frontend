@@ -19,8 +19,9 @@ const ROOT = path.resolve(__dirname, '..', '..');
 const [a, b] = process.argv.slice(2);
 if (!a || !b) { console.error('usage: node scripts/nl/shingles.js <slugA> <slugB>'); process.exit(2); }
 
-const SHARED = ['spec', 'price', 'review', 'proj', 'trust', 'form-panel', 'markets', 'btn-row', 'hero-note', 'crumbs', 'eyebrow', 'course-code', 'capsule-q', 'band-head', 'chip', 'slot-time', 'timetable', 'qlabel', 'siblings', 'stamp', 'pick-code',
-  'course-card', 'pick', 'picks-more', 'boiler', 'contact-card', 'contact-row', 'contact-bar', 'contact-bar-in', 'contact-grid', 'sticky', 'form-layout', 'price-grid', 'price-label', 'hero-actions', 'breadcrumb', 'ladder', 'verified', 'callout'].map(s => 'cg-' + s);
+const SHARED_SUFFIXES = ['spec', 'price', 'review', 'proj', 'trust', 'form-panel', 'markets', 'btn-row', 'hero-note', 'crumbs', 'eyebrow', 'course-code', 'capsule-q', 'band-head', 'chip', 'slot-time', 'timetable', 'qlabel', 'siblings', 'stamp', 'pick-code'];
+const CG_EXTRA = ['course-card', 'pick', 'picks-more', 'boiler', 'contact-card', 'contact-row', 'contact-bar', 'contact-bar-in', 'contact-grid', 'sticky', 'form-layout', 'price-grid', 'price-label', 'hero-actions', 'breadcrumb', 'ladder', 'verified', 'callout'];
+function sharedFor(prefix) { return SHARED_SUFFIXES.concat(prefix === 'cg' ? CG_EXTRA : []).map(s => prefix + '-' + s); }
 
 function stripByClass(html, cls) {
   // remove elements whose class attribute contains cls (nesting-aware for the common single-level case)
@@ -45,6 +46,8 @@ function stripByClass(html, cls) {
 
 function visibleText(slug) {
   let h = fs.readFileSync(path.join(ROOT, 'src', 'pages', slug + '.html'), 'utf8');
+  const prefix = (h.match(/<body class="(cg|ag)-root/) || [])[1] || 'cg';
+  const SHARED = sharedFor(prefix);
   h = h.replace(/<head[\s\S]*?<\/head>/i, ' ').replace(/<script[\s\S]*?<\/script>/gi, ' ').replace(/<style[\s\S]*?<\/style>/gi, ' ')
     .replace(/<nav[\s\S]*?<\/nav>/gi, ' ').replace(/<footer[\s\S]*?<\/footer>/gi, ' ')
     .replace(/<!-- BEGIN_LINK_MESH -->[\s\S]*?<!-- END_LINK_MESH -->/g, ' ');
