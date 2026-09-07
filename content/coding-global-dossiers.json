@@ -6076,5 +6076,54 @@
       "Which municipality the Kröller-Müller Museum stands in. The entry places it inside the park and does not name a municipality for it.",
       "Anything the Gelderland page owns: the two holiday regions and the 51 municipalities. Anything the Arnhem page owns: the September 1944 tallies and the Veluwezoom figures."
     ]
+  },
+  "coding-classes-in-dordrecht": {
+    "market": "Dordrecht",
+    "bodyClass": "cg-drd",
+    "pageType": "city",
+    "curriculumAuthority": "City and municipality of Dordrecht, Zuid-Holland: 122,991 residents (CBS 1 January 2026) on the whole Island of Dordrecht, about 22 percent water by area; 36 primary establishments (10,534 pupils) and 11 secondary (7,208); only 804 students at institutions in the municipality. A single woonplaats with 14 wijken and 133 buurten; the fifth municipality of the province; city rights confirmed 1220. Regio Midden holidays with the rest of Zuid-Holland. The city page argues from source provenance; the province page owns the Randstad boundary question and Nijmegen owns the oldest-city criterion table.",
+    "localProject": "Repetition is not evidence, and a search result counts copies rather than sources. The entry on the St Elizabeth flood of the night of 18 to 19 November 1421 carries three casualty figures at once: two thousand drowned, hedged in the source itself as what people say; a hundred thousand from later legend; and about a dozen deaths in the Grote Waard from modern analysis. The largest is roughly eight thousand times the smallest and all three describe one night. The learner separates what a figure says from how it is known, traces each to its earliest statement, tests whether later sources are independent, and keeps the original hedges. Distinct from the bound-versus-value trap (Hong Kong) and from ranking under measurement noise (Breda): here the figures are not competing estimates of one measurement but three different kinds of claim, and the fault is treating frequency of repetition as weight of evidence. All figures are quoted with their hedges and none is preferred.",
+    "requiredMentions": [
+      "122,991",
+      "57,807",
+      "23,817",
+      "114,089",
+      "10,534",
+      "7,208",
+      "Eiland van Dordrecht",
+      "Nanning Mol",
+      "Statenbijbel",
+      "Grote Waard",
+      "Sint-Elisabethsvloed",
+      "1220",
+      "2,191",
+      "804"
+    ],
+    "sources": [
+      {
+        "claim": "Dordrecht 122,991 residents on 1 January 2026 (CBS); 57,807 households averaging 2.08, 23,817 single-person (41 percent); 18,375 aged 0 to 15; 13,765 aged 15 to 25; 33,357 aged 25 to 45; 32,218 aged 45 to 65; 25,276 aged 65 and over; total area 9,947 ha, land 7,756 ha, so 2,191 ha of water; density 1,583; 36 primary establishments (10,534 pupils) and 11 secondary (7,208); 804 students at institutions in the municipality; HBO 2,370 and WO 1,070; one woonplaats, 14 wijken and 133 buurten; 114,089 in 1995, a rise of 8,902 (7.8 percent).",
+        "url": "https://allecijfers.nl/gemeente/dordrecht/"
+      },
+      {
+        "claim": "Dordrecht 122,933 residents on 1 January 2026; 99.47 km2 (78.54 land, 20.93 water); mayor Nanning Mol (VVD); the fifth municipality of the province of Zuid-Holland; Dordrecht is the oldest city of Holland; Count Willem I confirmed the city rights of Dordrecht in 1220, after earlier charters around 1195 and 1205; the municipality covers the entire Island of Dordrecht, about 9,000 ha; in 1421 and 1424 the St Elizabeth floods left Dordrecht on an island; the Synod of Dordrecht of 1618 and 1619 set Remonstrants against Counter-Remonstrants and produced the Statenbijbel of 1637.",
+        "url": "https://nl.wikipedia.org/wiki/Dordrecht"
+      },
+      {
+        "claim": "The Sint-Elisabethsvloed occurred on the night of 18 to 19 November 1421; an estimated thirty or so villages were made uninhabitable; two thousand people are, as the entry puts it, said to have drowned; the toll was inflated in legend to a hundred thousand; modern analysis puts the deaths in the Grote Waard at about a dozen.",
+        "url": "https://nl.wikipedia.org/wiki/Sint-Elisabethsvloed_(1421)"
+      },
+      {
+        "claim": "School holiday regions: regio Midden = Utrecht, Zuid-Holland and the northern part of Gelderland; regio Zuid = Zeeland, Noord-Brabant, Limburg and the southern part of Gelderland; regio Noord = Groningen, Friesland, Drenthe, Overijssel, Flevoland, Noord-Holland.",
+        "url": "https://www.rijksoverheid.nl/themas/onderwijs/schoolvakanties/regios-schoolvakantie"
+      }
+    ],
+    "rejectedClaims": [
+      "A preferred death toll for the 1421 flood. All three published figures are quoted with their hedges and none is chosen.",
+      "Any arithmetic on the casualty figures beyond noting the ratio between the largest and the smallest, which is stated as an approximation.",
+      "A verdict on whether Dordrecht is the oldest city of the Netherlands. Its own claim is about Holland, and the wider argument belongs to the Nijmegen page.",
+      "A single date for the granting of city rights. The entry gives 1220 as a confirmation and mentions earlier charters around 1195 and 1205; all three are quoted.",
+      "Visitor or attendance figures for the Synod, and any detail of the Statenbijbel beyond its publication year.",
+      "Anything the Zuid-Holland page owns: the Randstad boundary question and the provincial totals. Anything the Rotterdam page owns."
+    ]
   }
 }
