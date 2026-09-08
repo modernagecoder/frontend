@@ -7217,5 +7217,51 @@
       "Figures for the four buurten individually. All four are named and none was read separately.",
       "Anything the Rotterdam city page owns, including the port throughput in two units and the named secondary schools with their addresses."
     ]
+  },
+  "coding-classes-in-kralingen-crooswijk": {
+    "market": "Kralingen-Crooswijk",
+    "bodyClass": "cg-krc",
+    "pageType": "district",
+    "curriculumAuthority": "Gebied Kralingen-Crooswijk, Rotterdam, Zuid-Holland: 54,856 residents (2026) on 1,277 hectares of which 1,042 land and 235 water, density 5,364; 32,675 households averaging 1.7 with 19,895 single-person at 61 percent, the highest here alongside the city centre; 6,730 residents under fifteen at 12 percent against 11,355 aged fifteen to twenty-five at 21 percent; 28,691 dwellings, 21,231 rented at 74 percent, average value 395,000 euro; income 35,000 euro (2024), the highest of the six Rotterdam districts measured; 4,850 residents at university level and 1,980 in applied higher education, 6,830 in all or 12.5 percent, the highest student share of the six; 16 primary establishments with 3,850 pupils and 6 secondary with 3,408; eight buurten, one of which, the Kralingse Bos, is largely wood and lake. Regio Midden holidays. The district page argues from salience; Rotterdam Centrum owns boundary truncation, Delfshaven counts of non-interchangeable units, Feijenoord sample size, Charlois unstated bases, IJsselmonde unequal bands, and the city page the port units argument.",
+    "localProject": "The most visible feature of a place gets credited with its statistics. Kralingen-Crooswijk has 6,830 residents in higher education, 12.5 percent, the highest student share of the six Rotterdam districts measured and nearly double the next, Delfshaven at 7.2. It also reports the highest average income of the six, 35,000 euro. The reflex explanation connects the two, and it fails a one-sentence check: a large group with low earnings lowers an average income rather than raising it, so the students cannot be why this district sits at the top. Across five districts publishing both figures the student share and the income rise together, agreeing on four of the five and swapping only Charlois and IJsselmonde, which describes a pattern without explaining one. The page reports the elimination as the finding and declines to substitute a more sophisticated but equally untested story about campus neighbourhoods or housing, because trading a naive explanation for a polished one with no additional evidence is the most comfortable way to be wrong. Settling it would need income published by student status, and no such breakdown was read. Distinct from the confounded-proxy trap (Deventer), where an outside condition moves a metric over time, and from self-selection (Amsterdam-Oost), where sorting produces a group difference: here the mechanism is that salience determines which cause gets proposed, and the proposed cause is eliminated by its own direction rather than by any competing evidence.",
+    "requiredMentions": [
+      "54,856",
+      "32,675",
+      "19,895",
+      "28,691",
+      "395,000",
+      "35,000",
+      "5,364",
+      "6,730",
+      "11,355",
+      "4,850",
+      "3,850",
+      "3,408",
+      "Struisenburg",
+      "De Esch"
+    ],
+    "sources": [
+      {
+        "claim": "Wijk Kralingen-Crooswijk, Rotterdam: 54,856 inwoners (2026); 32,675 huishoudens averaging 1.7 (2025), 19,895 eenpersoonshuishoudens at 61 percent and 12,780 meerpersoonshuishoudens at 39; ages 6,730 (0 to 15, 12 percent), 11,355 (15 to 25, 21 percent), 17,350 (25 to 45, 32 percent), 10,990 (45 to 65, 20 percent), 8,405 (65+, 15 percent); 1,277 hectare total, 1,042 land, 235 water; bevolkingsdichtheid 5,364 per km2; woningvoorraad 28,691 (2025); gemiddelde WOZ 395,000 euro (2025); 21,231 huurwoningen (74 percent) and 7,460 koopwoningen (26 percent); gemiddeld inkomen 35,000 euro (2024); studenten HBO 1,980 and WO 4,850 (2025); 16 vestigingen basisonderwijs with 3,850 leerlingen and 6 vestigingen voortgezet onderwijs with 3,408 leerlingen (2025); 8 buurten: Nieuw Crooswijk, Kralingse Bos, Oud Crooswijk, Kralingen West, Rubroek, Kralingen Oost, Struisenburg, De Esch.",
+        "url": "https://allecijfers.nl/wijk/kralingen-crooswijk-rotterdam/"
+      },
+      {
+        "claim": "Student counts and average incomes used for the comparison only. Delfshaven HBO 2,600 and WO 2,910, income 30,100 euro (2024), 76,590 inwoners. Feijenoord HBO 2,210 and WO 1,510, income 29,200 euro, 81,512 inwoners. Charlois HBO 1,970 and WO 1,030, income 26,400 euro, 70,932 inwoners. IJsselmonde HBO 1,340 and WO 460, income 27,800 euro, 63,475 inwoners.",
+        "url": "https://allecijfers.nl/wijk/delfshaven-rotterdam/"
+      },
+      {
+        "claim": "School holiday regions: regio Midden = Utrecht, Zuid-Holland and the northern part of Gelderland; regio Noord = Groningen, Friesland, Drenthe, Overijssel, Flevoland, Noord-Holland; regio Zuid = Zeeland, Noord-Brabant, Limburg and the southern part of Gelderland.",
+        "url": "https://www.rijksoverheid.nl/themas/onderwijs/schoolvakanties/regios-schoolvakantie"
+      }
+    ],
+    "rejectedClaims": [
+      "That the student population explains the district average income. The proposed mechanism predicts the opposite direction and the page reports the elimination rather than the connection.",
+      "Any alternative explanation for the income figure. Several are plausible, none was measured, and substituting a better-dressed guess is not progress.",
+      "Any causal reading of the five-district pattern. It is a description of five numbers beside five others, and what five points can carry is the Feijenoord page argument.",
+      "Any comparison of the 0 to 15 and 15 to 25 counts as though the bands were the same width. That is the IJsselmonde page argument and it is noted rather than repeated.",
+      "Any district figure divided by eight buurten. One of the eight is largely wood and lake and the eight are not comparable places.",
+      "Figures for the individual buurten. All eight are named and none was read separately.",
+      "Anything the Rotterdam city page owns, including the port throughput in two units and the named secondary schools with their addresses."
+    ]
   }
 }

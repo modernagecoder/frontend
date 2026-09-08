@@ -72,7 +72,7 @@ The largest gebied at 97,794 and the north-eastern suburb: Ommoord, Zevenkamp, N
 
 ### Kralingen-Crooswijk and Noord
 
-Kralingen-Crooswijk, 54,856, holds the Woudestein campus of Erasmus University and the Kralingse Plas; Noord, 51,962, the Bergweg, the Agniesebuurt and Blijdorp. Noord is covered inside this page rather than given a URL.
+[Kralingen-Crooswijk](/coding-classes-in-kralingen-crooswijk), 54,856, whose page rules out the explanation everybody reaches for first, holds the Woudestein campus of Erasmus University and the Kralingse Plas; Noord, 51,962, the Bergweg, the Agniesebuurt and Blijdorp. Noord is covered inside this page rather than given a URL.
 
 ### Hillegersberg-Schiebroek and Centrum
 
@@ -272,7 +272,7 @@ Between five and ten, matched on level, pace and goal rather than on age, school
 
 ## Up the river, along the coast, and up to the country page
 
-Twenty minutes up the A13 is [The Hague](/coding-classes-in-the-hague), whose page explains the Surinamese-origin figure this one only cites; up the A2 is [Utrecht](/coding-classes-in-utrecht); and beyond them [Amsterdam](/coding-classes-in-amsterdam), [Amstelveen](/coding-classes-in-amstelveen), [Almere](/coding-classes-in-almere) and [Eindhoven](/coding-classes-in-eindhoven). Every one of them spokes from the [Netherlands coding hub](/coding-classes-in-netherlands), and a learner who wants to train models rather than write programs should start at [AI and machine learning classes in the Netherlands](/ai-and-machine-learning-classes-in-netherlands). [Rotterdam Centrum](/coding-classes-in-rotterdam-centrum) and [Delfshaven](/coding-classes-in-delfshaven) and [Feijenoord](/coding-classes-in-feijenoord) and [Charlois](/coding-classes-in-charlois) and [IJsselmonde](/coding-classes-in-ijsselmonde) are the first five of the eight gebied pages; the other three follow in this series.
+Twenty minutes up the A13 is [The Hague](/coding-classes-in-the-hague), whose page explains the Surinamese-origin figure this one only cites; up the A2 is [Utrecht](/coding-classes-in-utrecht); and beyond them [Amsterdam](/coding-classes-in-amsterdam), [Amstelveen](/coding-classes-in-amstelveen), [Almere](/coding-classes-in-almere) and [Eindhoven](/coding-classes-in-eindhoven). Every one of them spokes from the [Netherlands coding hub](/coding-classes-in-netherlands), and a learner who wants to train models rather than write programs should start at [AI and machine learning classes in the Netherlands](/ai-and-machine-learning-classes-in-netherlands). [Rotterdam Centrum](/coding-classes-in-rotterdam-centrum) and [Delfshaven](/coding-classes-in-delfshaven) and [Feijenoord](/coding-classes-in-feijenoord) and [Charlois](/coding-classes-in-charlois) and [IJsselmonde](/coding-classes-in-ijsselmonde) and [Kralingen-Crooswijk](/coding-classes-in-kralingen-crooswijk) are the first six of the eight gebied pages; Hillegersberg-Schiebroek and Prins Alexander follow.
 
 ## Contact
 
