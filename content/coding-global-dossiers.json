@@ -6918,5 +6918,60 @@
       "Figures for Venserpolder, Holendrecht, Reigersbos, Nellestein, Ganzenhoef, Geerdinkhof or Kantershof. They are named and given no numbers.",
       "Anything the Amsterdam city page owns, including the doorstroomtoets rates, the international school locations and the 2055 district projections."
     ]
+  },
+  "coding-classes-in-weesp": {
+    "market": "Weesp",
+    "bodyClass": "cg-wsp",
+    "pageType": "district",
+    "curriculumAuthority": "Weesp, an area of the municipality of Amsterdam, Noord-Holland: city rights granted 20 May 1355 by Willem van Beieren, count of Holland; an independent municipality until 24 March 2022, when it became part of Amsterdam, where it forms a bestuurscommissiegebied with the kern Driemond with a status aparte and a bestuurscommissie of eleven directly elected members; the last population published for it as a municipality was 20,766 for 1 January 2022; enclosed between the Amsterdam-Rijnkanaal, the A1 and the Vecht; Van Houten moved cocoa production here from Leiden in 1851. Two wijken carry full figures: Weesp Binnenstad/Zuid 5,810 residents, 2,975 households at 1.9, 2,792 dwellings 55 percent owner-occupied, WOZ 504,000 euro, income 40,800 euro, density 4,629; Driemond 1,678 residents, 720 households at 2.4, 700 dwellings 62 percent owner-occupied, WOZ 465,000 euro, income 34,000 euro for 2023, density 950. Regio Noord holidays. It is the only one of the eight areas in this series that is not a stadsdeel. The page argues from a category whose criteria disagree; Amsterdam-Centrum owns aggregates over ground, Noord the rounding bound, Oost self-selection, Zuid the two registers, West the identifier that outlived its referent, Nieuw-West settings versus measurements, Zuidoost one column holding two kinds of object.",
+    "localProject": "A category name is several tests that usually agree, and nobody writes them down until one disagrees. Six reasonable tests of being part of Amsterdam all return yes for a street in the Jordaan and split for Weesp: inside the municipality, yes since 24 March 2022; governed as one of the stadsdelen, no, it is a bestuurscommissiegebied with a status aparte shared with Driemond; physically continuous with the city, no, it is enclosed between the Amsterdam-Rijnkanaal, the A1 and the Vecht; holds no charter of its own, no, city rights since 20 May 1355; grouped with other Amsterdam districts, no, grouped with a village; counted in Amsterdam figures before 2022, no. One yes and five noes. Any filter selecting Amsterdam encodes exactly one of those criteria, usually the legal boundary because that is the field that exists, and it silently gets the others wrong. The tenure figures corroborate the split: 55 percent owner-occupation in the Weesp centre and 62 in Driemond, against 0 to 44 percent in every stadsdeel wijk this series has measured, the sole exception being rural Waterland at 77. Distinct from the membership-uncertainty trap (Delft), where one agreed criterion leaves contested members, and from the unit-of-observation trap (Zeeland), where two row types give two rankings: here the members are perfectly clear and it is the criteria that disagree with each other about one of them. The generalisation is every load-bearing category: active customer, employee, our region, a duplicate. The page makes no comparison between the 20,766 of the old municipality and the 7,488 of the two wijken measured.",
+    "requiredMentions": [
+      "20,766",
+      "5,810",
+      "2,975",
+      "2,792",
+      "504,000",
+      "40,800",
+      "1,678",
+      "465,000",
+      "34,000",
+      "4,629",
+      "7,488",
+      "20 May 1355",
+      "Driemond",
+      "Van Houten"
+    ],
+    "sources": [
+      {
+        "claim": "Weesp: 20.766 inwoners (1 januari 2022, bron: CBS); op 20 mei 1355 verleende Willem van Beieren, de graaf van Holland, stadsrechten aan Weesp; per 24 maart 2022 is Weesp niet langer een zelfstandige gemeente, maar maakt het deel uit van de gemeente Amsterdam, daar vormt Weesp samen met de kern Driemond een bestuurscommissiegebied met een status aparte, governed by een bestuurscommissie van elf direct gekozen leden; de plaats is ingesloten tussen het Amsterdam-Rijnkanaal, de autosnelweg A1 en de Vecht; in 1851 verplaatste Coenraad Johannes van Houten de productie van zijn cacaofabriek vanuit Leiden naar Weesp; a Torenfort is mentioned. The article gives no land and water split, no density and no distance to central Amsterdam.",
+        "url": "https://nl.wikipedia.org/wiki/Weesp"
+      },
+      {
+        "claim": "Wijk Weesp Binnenstad/Zuid, Amsterdam: 5,810 inwoners (2026); 2,975 huishoudens averaging 1.9 (2025), 1,400 eenpersoonshuishoudens at 47 percent and 1,575 meerpersoonshuishoudens at 53; ages 815 (0 to 15, 14 percent), 605 (15 to 25, 10 percent), 1,370 (25 to 45, 24 percent), 1,555 (45 to 65, 27 percent), 1,465 (65+, 25 percent); 141 hectare total, 124 land, 17 water (2025); bevolkingsdichtheid 4,629 per km2 (2025); woningvoorraad 2,792 (2025); average WOZ 504,000 euro (2025); 1,536 koopwoningen (55 percent) and 1,256 huurwoningen (45 percent); average income 40,800 euro (2024); 6 buurten: Herensingelkwartier, Weesp Centrum, Bedrijventerrein Van Houten, Weesp-Zuid I, Weesp-Zuid II, De Klomp.",
+        "url": "https://allecijfers.nl/wijk/weesp-binnenstad-zuid-amsterdam/"
+      },
+      {
+        "claim": "Wijk Driemond, Amsterdam: 1,678 inwoners (2026); 720 huishoudens averaging 2.4 (2025), 210 eenpersoonshuishoudens at 29 percent and 510 meerpersoonshuishoudens at 71; ages 310 (0 to 15, 18 percent), 185 (15 to 25, 11 percent), 375 (25 to 45, 22 percent), 475 (45 to 65, 28 percent), 310 (65+, 18 percent); 207 hectare total, 179 land, 28 water; bevolkingsdichtheid 950 per km2 (2025); woningvoorraad 700 (2025); average WOZ 465,000 euro (2025); 434 koopwoningen (62 percent) and 266 huurwoningen (38 percent); average income 34,000 euro (2023, a different year from the neighbouring wijk); 2 buurten: Landelijk gebied Driemond, Dorp Driemond.",
+        "url": "https://allecijfers.nl/wijk/driemond-amsterdam/"
+      },
+      {
+        "claim": "The national statistics site address for the municipality of Weesp now returns a notice that the address does not exist any more and redirects towards an Amsterdam page, the municipality having been dissolved into Amsterdam. Observed 9 September 2026.",
+        "url": "https://allecijfers.nl/gemeente/weesp/"
+      },
+      {
+        "claim": "School holiday regions: regio Noord = Groningen, Friesland, Drenthe, Overijssel, Flevoland, Noord-Holland; regio Midden = Utrecht, Zuid-Holland and the northern part of Gelderland; regio Zuid = Zeeland, Noord-Brabant, Limburg and the southern part of Gelderland.",
+        "url": "https://www.rijksoverheid.nl/themas/onderwijs/schoolvakanties/regios-schoolvakantie"
+      }
+    ],
+    "rejectedClaims": [
+      "Any comparison between the 20,766 residents of the former municipality and the 7,488 of the two wijken measured here. The ground differs, Driemond was never inside the old municipality, and the dates are four years apart.",
+      "Any account of what a boundary change does to a population series. That belongs to the Alkmaar page.",
+      "A distance from Weesp to central Amsterdam. The entry gives none and none is invented.",
+      "Any detail of Weesp's place in the Stelling van Amsterdam beyond the Torenfort the entry names.",
+      "Figures for Weesp-Noordwest or for Aetsveld with the Oostelijke Vechtoever. Both are wijken of this area and neither was read.",
+      "Any claim that high owner-occupation here indicates wealth. It is presented as a marker of the parts of the municipality that are not urban Amsterdam.",
+      "A Weesp average of any kind built from the two wijken. They are two of at least four and do not constitute the area.",
+      "Anything the Amsterdam city page owns, including the doorstroomtoets rates and the 2055 district projections."
+    ]
   }
 }
