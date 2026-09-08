@@ -6973,5 +6973,54 @@
       "A Weesp average of any kind built from the two wijken. They are two of at least four and do not constitute the area.",
       "Anything the Amsterdam city page owns, including the doorstroomtoets rates and the 2055 district projections."
     ]
+  },
+  "coding-classes-in-rotterdam-centrum": {
+    "market": "Rotterdam Centrum",
+    "bodyClass": "cg-rtc",
+    "pageType": "district",
+    "curriculumAuthority": "Gebied Rotterdam Centrum, Zuid-Holland: 42,924 residents (2026) on 488 hectares of which 413 land and 75 water, density 10,191, the smallest of the fourteen gebieden by population and the densest; 25,035 households averaging 1.6 with 15,290 single-person at 61 percent; only 3,130 residents under fifteen, 7.3 percent, the lowest share on any page in this series, against 18,750 aged twenty-five to forty-five; 23,478 dwellings, 17,139 rented at 73 percent, average value 424,000 euro; income 44,500 euro (2024); six buurten, the Cs Kwartier, Stadsdriehoek, Cool, Oude Westen, Dijkzigt and Nieuwe Werk; six primary establishments teaching 1,989 pupils and four secondary teaching 1,622. Rotterdam publishes at wijk level with the wijken corresponding to the gebieden, unlike Amsterdam, so each Rotterdam district page has a full statistics row of its own. Regio Midden holidays. The district page argues from boundary truncation; the Rotterdam city page owns the port units argument and the school-choice picture.",
+    "localProject": "A boundary truncates the neighbourhood, and the smaller the area the more of it is edge. Rotterdam Centrum holds 42,924 residents on 413 hectares of land; Prins Alexander holds 97,794 on 1,738. Modelled as squares of their published land areas, their sides are about 2.03 and 4.17 kilometres, so roughly 26 percent of the centre lies more than five hundred metres from a boundary against about 58 percent of Prins Alexander. The square is stated as a model, and real shapes are more irregular, which raises the edge share rather than lowering it. Any count of what is near residents made inside a boundary therefore undercounts far more in a small district, so a table of districts ranked on such a measure is partly a ranking by area. The school figures make it concrete: six primary establishments teaching 1,989 pupils in the centre and 28 teaching 8,108 in Prins Alexander, against 3,130 and 14,585 residents under fifteen. Dividing attendance by residence gives 0.64 and 0.56, and the page computes both deliberately in order to show they describe nobody, since the two counts are of different populations and no catchment data was found. Distinct from the modifiable areal unit problem (Tilburg), which is about how many zones a territory is divided into and what per-zone statistics then measure; here the number of zones is irrelevant and the mechanism is purely geometric truncation at a border whose severity scales with area. Distinct also from the excluded-population denominator (Venlo), where the served population appears in no register: here everybody is registered, merely on the other side of a line.",
+    "requiredMentions": [
+      "42,924",
+      "25,035",
+      "15,290",
+      "23,478",
+      "424,000",
+      "44,500",
+      "10,191",
+      "1,989",
+      "1,622",
+      "3,130",
+      "18,750",
+      "Stadsdriehoek",
+      "Nieuwe Werk",
+      "Dijkzigt"
+    ],
+    "sources": [
+      {
+        "claim": "Wijk Rotterdam Centrum: 42.924 inwoners (2026); 25,035 huishoudens averaging 1,6 (2025), 15,290 eenpersoonshuishoudens at 61 percent; ages 3,130 (0 to 15, 7.3 percent), 7,455 (15 to 25, 17 percent), 18,750 (25 to 45, 44 percent), 8,460 (45 to 65, 20 percent), 5,115 (65+, 12 percent); 488 hectare total, 413 land en 75 water (2025); bevolkingsdichtheid 10.191 per km2 (2025); woningvoorraad 23.478 (2025); gemiddelde WOZ 424.000 euro (2025); 17,139 huurwoningen (73 percent) and 6,339 koopwoningen (27 percent); gemiddeld inkomen 44.500 euro per inwoner (2024); six buurten: Cs Kwartier, Stadsdriehoek, Cool, Oude Westen, Dijkzigt, Nieuwe Werk; 6 vestigingen basisonderwijs with 1.989 leerlingen and 4 vestigingen voortgezet onderwijs with 1.622 leerlingen (2026).",
+        "url": "https://allecijfers.nl/wijk/rotterdam-centrum-rotterdam/"
+      },
+      {
+        "claim": "Wijk Prins Alexander, Rotterdam: 97,794 inwoners (2026); 48,260 huishoudens averaging 2.0 (2025), 21,710 eenpersoonshuishoudens at 45 percent; ages 14,585 (0 to 15, 15 percent), 11,325, 23,860, 25,205 and 22,845 (65+, 23 percent); 1,860 hectare total, 1,738 land, 122 water; bevolkingsdichtheid 5,635 per km2 (2025); woningvoorraad 47,041 (2025); average WOZ 360,000 euro (2025); 26,343 huurwoningen (56 percent) and 20,698 koopwoningen (44 percent); average income 34,700 euro (2024); 8 buurten: Nesselande, Zevenkamp, Ommoord, Oosterflank, Het Lage Land, Prinsenland, s-Gravenland, Kralingseveer; 28 vestigingen basisonderwijs with 8,108 leerlingen and 9 vestigingen voortgezet onderwijs with 5,860 leerlingen (2025).",
+        "url": "https://allecijfers.nl/wijk/prins-alexander-rotterdam/"
+      },
+      {
+        "claim": "Rotterdam: 673,804 inwoners (2026); 342,340 huishoudens (2025); 22 wijken en 92 buurten. The site publishes per-wijk pages whose names correspond to the gebieden, at https://allecijfers.nl/wijk/[naam]-rotterdam/.",
+        "url": "https://allecijfers.nl/gemeente/rotterdam/"
+      },
+      {
+        "claim": "School holiday regions: regio Midden = Utrecht, Zuid-Holland and the northern part of Gelderland; regio Noord = Groningen, Friesland, Drenthe, Overijssel, Flevoland, Noord-Holland; regio Zuid = Zeeland, Noord-Brabant, Limburg and the southern part of Gelderland.",
+        "url": "https://www.rijksoverheid.nl/themas/onderwijs/schoolvakanties/regios-schoolvakantie"
+      }
+    ],
+    "rejectedClaims": [
+      "Any statement about how well served children in the centre are. No catchment data was found, and the published counts of pupils attending and children residing are of different populations.",
+      "The ratios of 0.64 and 0.56, or 0.52 and 0.40, offered as meaningful statistics. They are computed on the page expressly to demonstrate that they are not.",
+      "The edge shares of 26 and 58 percent presented as measurements of these two districts. They are computed from a square model of each published land area and are labelled as a model wherever they appear.",
+      "Any argument about how many zones a city is divided into and what that does to per-zone statistics. That is the Tilburg page.",
+      "Figures for the individual buurten of Rotterdam Centrum. Six are named and none was read separately.",
+      "Anything the Rotterdam city page owns, including the port throughput in two units, the named secondary schools and their addresses, and the gebied populations it lists."
+    ]
   }
 }

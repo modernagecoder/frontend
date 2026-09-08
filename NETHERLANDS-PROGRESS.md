@@ -73,7 +73,8 @@ Phase 6 (ag- doors): academy spokes x6 (amsterdam, eindhoven, the-hague, utrecht
 | 52 | coding-classes-in-amsterdam-west (awt, #00566D) | district | 5,159 | 5.5% vs amsterdam-centrum | Ask an AI about De Kolenkit and you will get February 2009. Why should a teenager in West learn to check the date? | An identifier outliving what it named (De Kolenkit labelled worst in the country Feb 2009, then largely demolished and rebuilt; the name and its history carried on unchanged) | 9198db0e |
 | 53 | coding-classes-in-amsterdam-nieuw-west (anw, #2F4505) | district | 5,121 | 5.0% vs amsterdam-west | An AI will explain why these two neighbourhoods rent at the same rate. Why should a teenager here refuse the explanation? | Measured, or chosen? (Slotermeer-Noordoost 3,060 of 4,192 rented and Osdorp-Midden 4,900 of 6,713, both 72.99%, while density differs 9,755 against 15,218) | a5042bae |
 | 54 | coding-classes-in-amsterdam-zuidoost (azo, #5B284C) | district | 5,244 | 4.5% vs amsterdam-nieuw-west | An AI will explain why cheaper homes sit beside higher incomes. Why should a teenager in Zuidoost distrust the explanation? | One column, two kinds of object (Amstel III 211,000 euro homes and 37,400 euro incomes against Gein 344,000 and 30,600; 100% rented at 1.2 per household against 41% owned at 2.0) | 5cb234a4 |
-| 55 | coding-classes-in-weesp (wsp, #8B4A0F) | district | 5,260 | 3.0% vs amsterdam-centrum | Ask an AI whether Weesp is in Amsterdam and it will answer. Why should a teenager here ask it to pick a test first? | A category is several tests that usually agree (six readings of being part of Amsterdam: one yes and five noes for Weesp, all six yes for the Jordaan) | (this commit) |
+| 55 | coding-classes-in-weesp (wsp, #8B4A0F) | district | 5,260 | 3.0% vs amsterdam-centrum | Ask an AI whether Weesp is in Amsterdam and it will answer. Why should a teenager here ask it to pick a test first? | A category is several tests that usually agree (six readings of being part of Amsterdam: one yes and five noes for Weesp, all six yes for the Jordaan) | 3debf0e1 |
+| 56 | coding-classes-in-rotterdam-centrum (rtc, #0D4833) | district | 5,195 | 4.7% vs amsterdam-zuidoost | An AI will tell you the centre has fewer schools per child. Why should a teenager here learn to ask how big the district is? | A boundary truncates the neighbourhood (413 ha means only about 26% of Centrum is more than 500 m from an edge, against 58% of Prins Alexander at 1,738 ha) | (this commit) |
 
 ## Skipped (kill criterion)
 
@@ -83,9 +84,38 @@ Phase 6 (ag- doors): academy spokes x6 (amsterdam, eindhoven, the-hague, utrecht
 ## Codes in use (letters only; check `coding-global.css` before assigning)
 
 Reserved by older clusters and NOT available: hmr (Al Hamra), lei (Leicester), mst? free, amr (Al Amarat), adm (Adam), ede? free.
-Assigned so far: cg: amv (Amstelveen), ams (Amsterdam), ehv (Eindhoven), dhg (The Hague), alm (Almere), utr (Utrecht), rtm (Rotterdam) · ag: nla (academy hub) · provinces: nhl (Noord-Holland), zhl (Zuid-Holland), utp (Utrecht), gld (Gelderland), ovr (Overijssel), lim (Limburg), grp (Groningen), nbr (Noord-Brabant), frl (Friesland), dre (Drenthe), flv (Flevoland), zld (Zeeland) · cities: grn (Groningen), tlb (Tilburg), brd (Breda), nij (Nijmegen), arn (Arnhem), apd (Apeldoorn), hlm (Haarlem), hmm (Haarlemmermeer), zns (Zaanstad), amf (Amersfoort), ens (Enschede), dbo (Den Bosch), zwo (Zwolle), ztm (Zoetermeer), lde (Leiden), lwd (Leeuwarden), mst (Maastricht), ede (Ede), drd (Dordrecht), wst (Westland), alp (Alphen aan den Rijn), alk (Alkmaar), dlf (Delft), emm (Emmen), dev (Deventer), vnl (Venlo), uit (Uithoorn) · districts: acn (Amsterdam-Centrum), anr (Amsterdam-Noord), aos (Amsterdam-Oost), azd (Amsterdam-Zuid), awt (Amsterdam-West), anw (Amsterdam Nieuw-West), azo (Amsterdam-Zuidoost), wsp (Weesp)
+Assigned so far: cg: amv (Amstelveen), ams (Amsterdam), ehv (Eindhoven), dhg (The Hague), alm (Almere), utr (Utrecht), rtm (Rotterdam) · ag: nla (academy hub) · provinces: nhl (Noord-Holland), zhl (Zuid-Holland), utp (Utrecht), gld (Gelderland), ovr (Overijssel), lim (Limburg), grp (Groningen), nbr (Noord-Brabant), frl (Friesland), dre (Drenthe), flv (Flevoland), zld (Zeeland) · cities: grn (Groningen), tlb (Tilburg), brd (Breda), nij (Nijmegen), arn (Arnhem), apd (Apeldoorn), hlm (Haarlem), hmm (Haarlemmermeer), zns (Zaanstad), amf (Amersfoort), ens (Enschede), dbo (Den Bosch), zwo (Zwolle), ztm (Zoetermeer), lde (Leiden), lwd (Leeuwarden), mst (Maastricht), ede (Ede), drd (Dordrecht), wst (Westland), alp (Alphen aan den Rijn), alk (Alkmaar), dlf (Delft), emm (Emmen), dev (Deventer), vnl (Venlo), uit (Uithoorn) · districts: acn (Amsterdam-Centrum), anr (Amsterdam-Noord), aos (Amsterdam-Oost), azd (Amsterdam-Zuid), awt (Amsterdam-West), anw (Amsterdam Nieuw-West), azo (Amsterdam-Zuidoost), wsp (Weesp), rtc (Rotterdam Centrum)
 
 ## Open issues
+### Rotterdam is easier than Amsterdam. Method note, 2026-09-09
+
+Rotterdam's CBS wijken ARE its gebieden. `allecijfers.nl/gemeente/rotterdam/`
+links 19 wijk pages whose names are the gebied names, so each Rotterdam
+district page gets a FULL statistics row of its own at
+`allecijfers.nl/wijk/<naam>-rotterdam/`, including something the Amsterdam
+wijk pages were not asked for and do carry here: vestigingen basisonderwijs
+and voortgezet onderwijs with leerlingen counts.
+
+That means the Amsterdam workaround (build the page from three to five wijken
+beneath the district) is NOT needed for Rotterdam. One fetch per district,
+plus one contrast district, is enough.
+
+Rotterdam: 673,804 residents, 22 wijken, 92 buurten, so a Rotterdam wijk
+averages about 30,600 people against about 8,500 for an Amsterdam wijk. Do
+not build a page on that; it is the Tilburg page's argument.
+
+Confirmed wijk slugs for the remaining seven Rotterdam districts:
+/wijk/delfshaven-rotterdam/ · /wijk/charlois-rotterdam/ ·
+/wijk/feijenoord-rotterdam/ · /wijk/ijsselmonde-rotterdam/ ·
+/wijk/kralingen-crooswijk-rotterdam/ · /wijk/hillegersberg-schiebroek-rotterdam/
+· /wijk/prins-alexander-rotterdam/ (already fetched, figures in the
+rotterdam-centrum dossier).
+
+Also confirmed present and NOT in the plan's eight: noord, overschie, pernis,
+hoogvliet, hoek-van-holland, rozenburg, plus the port zones spaanse-polder,
+nieuw-mathenesse, waalhaven-eemhaven, botlek-europoort-maasvlakte and
+rotterdam-noord-west.
+
 ### Amsterdam-Zuid: BUILT 2026-09-09. Research below kept as the source record.
 
 Stadsdeel entry (nl.wikipedia.org/wiki/Amsterdam-Zuid): 146,395 inwoners on

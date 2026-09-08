@@ -76,7 +76,7 @@ Kralingen-Crooswijk, 54,856, holds the Woudestein campus of Erasmus University a
 
 ### Hillegersberg-Schiebroek and Centrum
 
-Hillegersberg-Schiebroek, 44,792, is the leafy north with the Bergse plassen, the Melanchthon Schiebroek and the international school at Nord Anglia. Centrum, 42,924, is the rebuilt heart: the Lijnbaan, the Markthal, the Wolfert and the Erasmiaans on the Wytemaweg.
+Hillegersberg-Schiebroek, 44,792, is the leafy north with the Bergse plassen, the Melanchthon Schiebroek and the international school at Nord Anglia. [Centrum](/coding-classes-in-rotterdam-centrum), 42,924, is the rebuilt heart, and its page argues that a district this small is mostly edge: the Lijnbaan, the Markthal, the Wolfert and the Erasmiaans on the Wytemaweg.
 
 ### The five outside the ring
 
@@ -272,7 +272,7 @@ Between five and ten, matched on level, pace and goal rather than on age, school
 
 ## Up the river, along the coast, and up to the country page
 
-Twenty minutes up the A13 is [The Hague](/coding-classes-in-the-hague), whose page explains the Surinamese-origin figure this one only cites; up the A2 is [Utrecht](/coding-classes-in-utrecht); and beyond them [Amsterdam](/coding-classes-in-amsterdam), [Amstelveen](/coding-classes-in-amstelveen), [Almere](/coding-classes-in-almere) and [Eindhoven](/coding-classes-in-eindhoven). Every one of them spokes from the [Netherlands coding hub](/coding-classes-in-netherlands), and a learner who wants to train models rather than write programs should start at [AI and machine learning classes in the Netherlands](/ai-and-machine-learning-classes-in-netherlands). The eight gebied pages for Rotterdam follow in this series.
+Twenty minutes up the A13 is [The Hague](/coding-classes-in-the-hague), whose page explains the Surinamese-origin figure this one only cites; up the A2 is [Utrecht](/coding-classes-in-utrecht); and beyond them [Amsterdam](/coding-classes-in-amsterdam), [Amstelveen](/coding-classes-in-amstelveen), [Almere](/coding-classes-in-almere) and [Eindhoven](/coding-classes-in-eindhoven). Every one of them spokes from the [Netherlands coding hub](/coding-classes-in-netherlands), and a learner who wants to train models rather than write programs should start at [AI and machine learning classes in the Netherlands](/ai-and-machine-learning-classes-in-netherlands). [Rotterdam Centrum](/coding-classes-in-rotterdam-centrum) is the first of the eight gebied pages; the other seven follow in this series.
 
 ## Contact
 
