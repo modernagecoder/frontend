@@ -7263,5 +7263,51 @@
       "Figures for the individual buurten. All eight are named and none was read separately.",
       "Anything the Rotterdam city page owns, including the port throughput in two units and the named secondary schools with their addresses."
     ]
+  },
+  "coding-classes-in-hillegersberg-schiebroek": {
+    "market": "Hillegersberg-Schiebroek",
+    "bodyClass": "cg-hgs",
+    "pageType": "district",
+    "curriculumAuthority": "Gebied Hillegersberg-Schiebroek, Rotterdam, Zuid-Holland: 44,792 residents (2026) on 1,326 hectares of which 1,163 land and 163 water, density 3,862, the lowest of the seven Rotterdam districts measured; 21,000 households averaging 2.1 with 8,800 single-person at 42 percent, against 21,247 dwellings, so 247 more homes than households, the only district here with that sign; 11,473 dwellings owner-occupied at 54 percent, the highest by sixteen points, average value 496,000 euro, the highest; income 42,400 euro (2024), second behind Rotterdam Centrum; 11,785 residents aged forty-five to sixty-five at 26 percent, the largest band, and 8,850 aged sixty-five and over at 20 percent, with 7,880 under fifteen at 18; 920 residents in applied higher education and 740 at university; 26 primary establishments with 5,713 pupils and 8 secondary with 4,381; five buurten, Schiebroek, Molenlaankwartier, Hillegersberg Noord, Terbregge and Hillegersberg Zuid. Regio Midden holidays. The district page argues from correlated measures; Rotterdam Centrum owns boundary truncation, Delfshaven counts of non-interchangeable units, Feijenoord sample size, Charlois unstated bases, IJsselmonde unequal bands, Kralingen-Crooswijk salience, and the city page the port units argument.",
+    "localProject": "Agreement between measures is only evidence when the measures are independent. Hillegersberg-Schiebroek is first of seven Rotterdam districts on average dwelling value at 496,000 euro, first on owner-occupation at 54 percent, second on income at 42,400 euro and last on density at 3,862, which reads as four independent confirmations of one conclusion. Sorting all seven districts on each column tests that in a minute. By income the order runs Rotterdam Centrum, Hillegersberg-Schiebroek, Kralingen-Crooswijk, Delfshaven, Feijenoord, IJsselmonde, Charlois; by dwelling value it is the same list with only the top two swapped, so those two columns are close to one fact stated twice. By owner-occupation it runs 27, 54, 26, 28, 22, 38, 29 percent, matching nothing, and by density 10,191, 3,862, 5,364, 14,944, 12,196, 5,376, 6,302, also matching nothing. So four measures carry about two independent facts, and the column that broke rank, ownership, turns out to hold the strongest single result. The general case is dashboards built from overlapping data: revenue with order count, sessions with page views, salary with seniority, which move together by construction and are then counted as separate corroboration. Distinct from small-sample weakness (Feijenoord), which is about how little a perfect agreement across few items proves, and from multiple comparisons (Al Khoudh): here the number of units and the number of tests are not the issue, and the fault is treating correlated columns as independent support.",
+    "requiredMentions": [
+      "44,792",
+      "21,000",
+      "8,800",
+      "21,247",
+      "496,000",
+      "42,400",
+      "3,862",
+      "7,880",
+      "11,785",
+      "5,713",
+      "4,381",
+      "Schiebroek",
+      "Terbregge",
+      "Molenlaankwartier"
+    ],
+    "sources": [
+      {
+        "claim": "Wijk Hillegersberg-Schiebroek, Rotterdam: 44,792 inwoners (2026); 21,000 huishoudens averaging 2.1 (2025), 8,800 eenpersoonshuishoudens at 42 percent; ages 7,880 (0 to 15, 18 percent), 5,000 (15 to 25, 11 percent), 11,295 (25 to 45, 25 percent), 11,785 (45 to 65, 26 percent), 8,850 (65+, 20 percent); 1,326 hectare total, 1,163 land, 163 water; bevolkingsdichtheid 3,862 per km2 (2025); woningvoorraad 21,247 (2025); gemiddelde WOZ 496,000 euro (2025); 11,473 koopwoningen (54 percent) and 9,774 huurwoningen (46 percent); gemiddeld inkomen 42,400 euro (2024); studenten HBO 920 and WO 740 (2025); 26 vestigingen basisonderwijs with 5,713 leerlingen and 8 vestigingen voortgezet onderwijs with 4,381 leerlingen; 5 buurten: Schiebroek, Molenlaankwartier, Hillegersberg Noord, Terbregge, Hillegersberg Zuid.",
+        "url": "https://allecijfers.nl/wijk/hillegersberg-schiebroek-rotterdam/"
+      },
+      {
+        "claim": "Income, average dwelling value, owner-occupation share and density for the six comparison districts, used for the sorting only. Rotterdam Centrum 44,500 euro, 424,000 euro, 27 percent, 10,191. Kralingen-Crooswijk 35,000, 395,000, 26 percent, 5,364. Delfshaven 30,100, 325,000, 28 percent, 14,944. Feijenoord 29,200, 311,000, 22 percent, 12,196. IJsselmonde 27,800, 267,000, 38 percent, 5,376. Charlois 26,400, 240,000, 29 percent, 6,302.",
+        "url": "https://allecijfers.nl/gemeente/rotterdam/"
+      },
+      {
+        "claim": "School holiday regions: regio Midden = Utrecht, Zuid-Holland and the northern part of Gelderland; regio Noord = Groningen, Friesland, Drenthe, Overijssel, Flevoland, Noord-Holland; regio Zuid = Zeeland, Noord-Brabant, Limburg and the southern part of Gelderland.",
+        "url": "https://www.rijksoverheid.nl/themas/onderwijs/schoolvakanties/regios-schoolvakantie"
+      }
+    ],
+    "rejectedClaims": [
+      "That average dwelling value causes average income or the reverse. Two orderings agreeing shows overlapping information, not a direction.",
+      "That this is the most prosperous district in Rotterdam. It leads on two of four measures among seven of the city twenty-two wijken, and the page says so in those terms.",
+      "Any interpretation of the 247 more dwellings than households. The difference is reported and the argument about what two registers mean belongs to the Amsterdam-Zuid page.",
+      "Any claim about school quality. The establishment and pupil counts are registrations and attendance, and reading provision from them needs catchments nobody publishes, which is the Rotterdam Centrum page argument.",
+      "Any conclusion drawn from seven districts being a large enough sample. What few points can carry is the Feijenoord page argument.",
+      "Figures for the five buurten individually. All five are named and none was read separately.",
+      "Anything the Rotterdam city page owns, including the port throughput in two units and the named secondary schools with their addresses."
+    ]
   }
 }
