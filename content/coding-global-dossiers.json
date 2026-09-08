@@ -7309,5 +7309,51 @@
       "Figures for the five buurten individually. All five are named and none was read separately.",
       "Anything the Rotterdam city page owns, including the port throughput in two units and the named secondary schools with their addresses."
     ]
+  },
+  "coding-classes-in-prins-alexander": {
+    "market": "Prins Alexander",
+    "bodyClass": "cg-pra",
+    "pageType": "district",
+    "curriculumAuthority": "Gebied Prins Alexander, Rotterdam, Zuid-Holland: 97,794 residents (2026), the largest of the fourteen gebieden by population and by land, on 1,860 hectares of which 1,738 land and 122 water, density 5,635; 48,260 households averaging 2.0 with 21,710 single-person at 45 percent; 25,205 residents aged forty-five to sixty-five at 26 percent and 22,845 aged sixty-five and over at 23, together 48,050 or 49.1 percent, the oldest profile of the eight Rotterdam districts measured; 14,585 under fifteen, the largest count of children of the eight; 47,041 dwellings, 20,698 owner-occupied at 44 percent, average value 360,000 euro; income 34,700 euro (2024), both around the midpoint of the eight; 28 primary establishments with 8,108 pupils and 9 secondary with 5,860, both the largest totals; eight buurten, Nesselande, Zevenkamp, Ommoord, Oosterflank, Het Lage Land, Prinsenland, s-Gravenland and Kralingseveer, on polder built out from the 1960s. Regio Midden holidays. The district page argues from the limits of a cross-section; Rotterdam Centrum owns boundary truncation, Delfshaven counts of non-interchangeable units, Feijenoord sample size, Charlois unstated bases, IJsselmonde unequal bands, Kralingen-Crooswijk salience, Hillegersberg-Schiebroek correlated measures, and the city page the port units argument.",
+    "localProject": "A snapshot shows a state, and every state has at least two histories. Prins Alexander has 25,205 residents aged forty-five to sixty-five and 22,845 aged sixty-five and over, 48,050 people or 49.1 percent of the district, the oldest profile of the eight Rotterdam districts measured. Two ordinary mechanisms fit that identically. Either older households keep moving to a suburb, which predicts the profile persists as generations arrive; or a district laid out on polder from the 1960s filled over a short period with people at a similar stage of life who have aged in the same houses, which predicts the older bands keep rising for a decade and then empty quickly as the stock changes hands. The 2026 table is consistent with both and cannot distinguish them, and the difference matters for the 8,108 primary places here. What would separate them is the same five bands across a run of years, or arrivals and departures counted by age, neither of which was read. The vivid explanation, the one with people choosing something, arrives unbidden; the dull one, in which nobody chose anything and time passed, has to be written down deliberately and is often the true one. Distinct from stock versus flow (Amstelveen), which contrasts a level against a rate using published cohort retention: here there is only one observation and no flow data at all, and the fault is inferring a direction from a single cross-section. The page reports two live hypotheses and the measurement that would settle them, and picks neither.",
+    "requiredMentions": [
+      "97,794",
+      "48,260",
+      "21,710",
+      "47,041",
+      "360,000",
+      "34,700",
+      "5,635",
+      "14,585",
+      "22,845",
+      "25,205",
+      "8,108",
+      "5,860",
+      "Ommoord",
+      "Nesselande"
+    ],
+    "sources": [
+      {
+        "claim": "Wijk Prins Alexander, Rotterdam: 97,794 inwoners (2026); 48,260 huishoudens averaging 2.0 (2025), 21,710 eenpersoonshuishoudens at 45 percent and 26,550 meerpersoonshuishoudens at 55; ages 14,585 (0 to 15, 15 percent), 11,325 (15 to 25, 12 percent), 23,860 (25 to 45, 24 percent), 25,205 (45 to 65, 26 percent), 22,845 (65+, 23 percent); 1,860 hectare total, 1,738 land, 122 water; bevolkingsdichtheid 5,635 per km2 (2025); woningvoorraad 47,041 (2025); gemiddelde WOZ 360,000 euro (2025); 26,343 huurwoningen (56 percent) and 20,698 koopwoningen (44 percent); gemiddeld inkomen 34,700 euro (2024); 28 vestigingen basisonderwijs with 8,108 leerlingen and 9 vestigingen voortgezet onderwijs with 5,860 leerlingen (2025); 8 buurten: Nesselande, Zevenkamp, Ommoord, Oosterflank, Het Lage Land, Prinsenland, s-Gravenland, Kralingseveer.",
+        "url": "https://allecijfers.nl/wijk/prins-alexander-rotterdam/"
+      },
+      {
+        "claim": "Rotterdam: 673,804 inwoners (2026); 22 wijken en 92 buurten. Prins Alexander is the largest gebied, the north-eastern suburb, built from the 1960s onward on drained polder land.",
+        "url": "https://allecijfers.nl/gemeente/rotterdam/"
+      },
+      {
+        "claim": "School holiday regions: regio Midden = Utrecht, Zuid-Holland and the northern part of Gelderland; regio Noord = Groningen, Friesland, Drenthe, Overijssel, Flevoland, Noord-Holland; regio Zuid = Zeeland, Noord-Brabant, Limburg and the southern part of Gelderland.",
+        "url": "https://www.rijksoverheid.nl/themas/onderwijs/schoolvakanties/regios-schoolvakantie"
+      }
+    ],
+    "rejectedClaims": [
+      "That the district is ageing. Ageing is a direction and the figures cover a single January.",
+      "That older people prefer suburbs, or that they do not. Both are hypotheses the page holds open rather than conclusions it reaches.",
+      "Any prediction about how many school places the district will need. That follows from whichever history is true, and the page does not choose one.",
+      "Any comparison of counts between the five age bands as though the bands were the same width. That is the IJsselmonde page argument; the point here rests on two bands totalling almost half the district, which survives it.",
+      "Any use of the construction history as evidence. It is offered as context and as the source of the second hypothesis, and nothing on the page rests on it.",
+      "Figures for the eight buurten individually. All eight are named and none was read separately.",
+      "Anything the Rotterdam city page owns, including the port throughput in two units and the named secondary schools with their addresses."
+    ]
   }
 }
