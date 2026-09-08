@@ -2226,4 +2226,8 @@
 # International growth cluster (coding-global.css). Must precede the /* catch-all.
 /coding-classes-in-amsterdam-nieuw-west /src/pages/coding-classes-in-amsterdam-nieuw-west.html 200
 /coding-classes-in-amsterdam-nieuw-west.md /src/pages/coding-classes-in-amsterdam-nieuw-west.md 200
+
+# International growth cluster (coding-global.css). Must precede the /* catch-all.
+/coding-classes-in-amsterdam-zuidoost /src/pages/coding-classes-in-amsterdam-zuidoost.html 200
+/coding-classes-in-amsterdam-zuidoost.md /src/pages/coding-classes-in-amsterdam-zuidoost.md 200
 /* /src/pages/404.html 404

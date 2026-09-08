@@ -6868,5 +6868,55 @@
       "Figures for Geuzenveld, Slotervaart, Overtoomse Veld, Osdorp-Oost, De Aker, Sloten or Nieuw Sloten. They are named and given no numbers.",
       "Anything the Amsterdam city page owns, including the doorstroomtoets rates, the school counts and the 2055 district projections."
     ]
+  },
+  "coding-classes-in-amsterdam-zuidoost": {
+    "market": "Amsterdam-Zuidoost",
+    "bodyClass": "cg-azo",
+    "pageType": "district",
+    "curriculumAuthority": "Stadsdeel Amsterdam-Zuidoost, Noord-Holland: 95,385 residents on 1 January 2026 across 22.08 km2, about 4,320 per km2; established as a stadsdeel in 1987 with a directly elected stadsdeelraad, the longest-standing of the eight; after 19 March 2014 it continued as a stadsdeel with a changed form of government; divided since 24 March 2022 into Bijlmer-West GT21, Bijlmer-Centrum GT22, Bijlmer-Oost GT23 and Gaasperdam GT24; a large part of the Bijlmermeer was extensively renewed from the 1990s. Two wijken carry full figures: Amstel III/Bullewijk 5,440 residents, 2,805 households at 1.2, 2,595 dwellings all rented, WOZ 211,000 euro, income 37,400 euro, density 859; Gein 11,078 residents, 5,550 households at 2.0, 5,147 dwellings with 41 percent owned, WOZ 344,000 euro, income 30,600 euro, density 6,117. Regio Noord holidays. The district page argues from a column holding two kinds of object; Amsterdam-Centrum owns aggregates over ground, Noord the rounding bound, Oost self-selection, Zuid the two registers, West the identifier that outlived its referent, Nieuw-West settings versus measurements.",
+    "localProject": "Before you average a column, check that the rows are the same kind of thing. Amstel III and Bullewijk has an average dwelling value of 211,000 euro and an average income of 37,400; Gein, in the same district, has 344,000 and 30,600. Cheaper housing beside higher incomes inverts the usual relationship, and the inversion is the signal. In Amstel III all 2,595 dwellings are rented and none owned, households average 1.2 with 79 percent single-person, and only 60 of 5,440 residents are over sixty-five while 89 percent are between fifteen and forty-five. In Gein 2,110 of 5,147 dwellings are owner-occupied, households average 2.0 and 2,445 residents are over sixty-five. The column called dwellings holds a rented unit for one young adult in one row and a family house in the next, so its average is a statement about the mixture rather than about value. A supporting subtraction: 2,805 households at 1.2 account for about 3,366 residents and at most 3,506 at the top of the rounding, leaving at least 1,900 of the 5,440 outside any private household, a gap the page sizes and refuses to explain. Distinct from self-selection (Amsterdam-Oost), where both measurements are sound and the fault is attributing a group difference to the group label; from the two-register trap (Amsterdam-Zuid), where two counts of different objects are compared deliberately; and from the unit-of-observation trap (Zeeland), where two legitimate row types produce two rankings: here one column silently contains two types and every individual value is correct.",
+    "requiredMentions": [
+      "95,385",
+      "5,440",
+      "2,805",
+      "2,595",
+      "211,000",
+      "37,400",
+      "11,078",
+      "5,550",
+      "5,147",
+      "344,000",
+      "30,600",
+      "6,117",
+      "Amstel III",
+      "Bullewijk"
+    ],
+    "sources": [
+      {
+        "claim": "Amsterdam-Zuidoost: het stadsdeel telde op 1 januari 2026 95.385 inwoners; het heeft een oppervlakte van 22,08 km2; Zuidoost werd in 1987 ingesteld als stadsdeel met een rechtstreeks gekozen stadsdeelraad; na 19 maart 2014 bleef Zuidoost als stadsdeel bestaan, maar veranderde de daaraan verbonden bestuursvorm; since 24 March 2022 divided into Bijlmer-West (GT21), Bijlmer-Centrum (GT22), Bijlmer-Oost (GT23) en Gaasperdam (GT24); vanaf de jaren negentig werd een groot deel van de Bijlmermeer ingrijpend vernieuwd; the district contains Venserpolder, Amsterdamse Poort, Ganzenhoef, Geerdinkhof, Kantershof, Holendrecht, Nellestein, Reigersbos and Gein, along with Station Amsterdam Bijlmer ArenA, the Johan Cruijff ArenA and the ArenAPoort.",
+        "url": "https://nl.wikipedia.org/wiki/Amsterdam-Zuidoost"
+      },
+      {
+        "claim": "Wijk Amstel III/Bullewijk, Amsterdam: 5,440 inwoners (2026); 2,805 huishoudens averaging 1.2 (2025), 2,225 eenpersoonshuishoudens at 79 percent; ages 235 (0 to 15, 4.32 percent), 1,755 (15 to 25, 32 percent), 3,090 (25 to 45, 57 percent), 295 (45 to 65, 5.4 percent), 60 (65+, 1.1 percent); 527 hectare total, 500 land, 28 water; bevolkingsdichtheid 859 per km2 (2025); woningvoorraad 2,595 (2025); average WOZ 211,000 euro (2025); 2,595 huurwoningen (100 percent) and 0 koopwoningen (0 percent); average income 37,400 euro (2024); 7 buurten: Hoofdcentrum-Zuidoost, Amstel III deel A/B-Noord, Amstel III deel C/D-Noord, Amstel III deel A/B-Zuid, Amstel III deel C/D-Zuid, AMC, Hoge Dijk.",
+        "url": "https://allecijfers.nl/wijk/amstel-iii-bullewijk-amsterdam/"
+      },
+      {
+        "claim": "Wijk Gein, Amsterdam: 11,078 inwoners (2026); 5,550 huishoudens averaging 2.0 (2025), 2,550 eenpersoonshuishoudens at 46 percent; ages 1,605 (0 to 15, 14 percent), 1,300 (15 to 25, 12 percent), 2,960 (25 to 45, 27 percent), 2,760 (45 to 65, 25 percent), 2,445 (65+, 22 percent); 192 hectare total, 183 land, 9 water; bevolkingsdichtheid 6,117 per km2; woningvoorraad 5,147 (2025); average WOZ 344,000 euro (2025); 3,037 huurwoningen (59 percent) and 2,110 koopwoningen (41 percent); average income 30,600 euro (2024); 4 buurten, Gein 1 to Gein 4.",
+        "url": "https://allecijfers.nl/wijk/gein-amsterdam/"
+      },
+      {
+        "claim": "School holiday regions: regio Noord = Groningen, Friesland, Drenthe, Overijssel, Flevoland, Noord-Holland; regio Midden = Utrecht, Zuid-Holland and the northern part of Gelderland; regio Zuid = Zeeland, Noord-Brabant, Limburg and the southern part of Gelderland.",
+        "url": "https://www.rijksoverheid.nl/themas/onderwijs/schoolvakanties/regios-schoolvakantie"
+      }
+    ],
+    "rejectedClaims": [
+      "Any explanation of what the at-least-1,900 residents of Amstel III outside private households actually live in. The gap is computed and sized; no source read names an institution, and the page declines to guess.",
+      "Any comparison of the two average dwelling values as though they were prices for comparable homes. One stock is 100 percent rented with no owner-occupation and the other is 41 percent owned.",
+      "A Zuidoost average of income, dwelling value, household size or age. Two wijken cannot produce one, and averaging across places this unlike is the error the page is about.",
+      "Any argument about the Bijlmermeer being rebuilt while keeping its name. That is the Amsterdam-West page.",
+      "Any re-derivation of why a rounding bound is the correct test on the household arithmetic. The Amsterdam-Noord page carries that; this page only applies it.",
+      "Figures for Venserpolder, Holendrecht, Reigersbos, Nellestein, Ganzenhoef, Geerdinkhof or Kantershof. They are named and given no numbers.",
+      "Anything the Amsterdam city page owns, including the doorstroomtoets rates, the international school locations and the 2055 district projections."
+    ]
   }
 }

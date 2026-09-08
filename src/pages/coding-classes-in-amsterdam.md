@@ -73,7 +73,7 @@ Each district gets its own page in this series, written close up. This is the ma
 
 ### Zuidoost
 
-The district where the test most often came out above the advice: 33 percent of pupils in 2024/25 against a city average of 20. The AICS south-east campus moved to the Sand Castle on the Bijlmerplein in September 2023, and the district is projected to add 33,200 residents by 2055.
+[Its page](/coding-classes-in-amsterdam-zuidoost) finds cheaper homes and better-off residents in the same district. The district where the test most often came out above the advice: 33 percent of pupils in 2024/25 against a city average of 20. The AICS south-east campus moved to the Sand Castle on the Bijlmerplein in September 2023, and the district is projected to add 33,200 residents by 2055.
 
 ### Noord
 
@@ -266,7 +266,7 @@ Five to ten learners, matched on level, pace and goal rather than on age, distri
 
 ## The town next door, the country page, and the page for building AI
 
-[Coding classes in Amstelveen](/coding-classes-in-amstelveen) covers the municipality on Amsterdam's southern edge with the highest share of Indian-origin residents in the country. The [Netherlands coding hub](/coding-classes-in-netherlands) carries the national curriculum picture and the full course list, and [AI and machine learning classes in the Netherlands](/ai-and-machine-learning-classes-in-netherlands) is for the learner who wants to build models. [Amsterdam-Centrum](/coding-classes-in-amsterdam-centrum) and [Amsterdam-Noord](/coding-classes-in-amsterdam-noord) and [Amsterdam-Oost](/coding-classes-in-amsterdam-oost) and [Amsterdam-Zuid](/coding-classes-in-amsterdam-zuid) and [Amsterdam-West](/coding-classes-in-amsterdam-west) are the first five of the eight district pages; [Amsterdam Nieuw-West](/coding-classes-in-amsterdam-nieuw-west) makes six; Zuidoost and Weesp follow in this series.
+[Coding classes in Amstelveen](/coding-classes-in-amstelveen) covers the municipality on Amsterdam's southern edge with the highest share of Indian-origin residents in the country. The [Netherlands coding hub](/coding-classes-in-netherlands) carries the national curriculum picture and the full course list, and [AI and machine learning classes in the Netherlands](/ai-and-machine-learning-classes-in-netherlands) is for the learner who wants to build models. [Amsterdam-Centrum](/coding-classes-in-amsterdam-centrum) and [Amsterdam-Noord](/coding-classes-in-amsterdam-noord) and [Amsterdam-Oost](/coding-classes-in-amsterdam-oost) and [Amsterdam-Zuid](/coding-classes-in-amsterdam-zuid) and [Amsterdam-West](/coding-classes-in-amsterdam-west) are the first five of the eight district pages; [Amsterdam Nieuw-West](/coding-classes-in-amsterdam-nieuw-west) and [Amsterdam-Zuidoost](/coding-classes-in-amsterdam-zuidoost) make seven; Weesp is the last to come.
 
 ## Contact
 
