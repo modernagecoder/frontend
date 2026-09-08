@@ -2246,4 +2246,8 @@
 # International growth cluster (coding-global.css). Must precede the /* catch-all.
 /coding-classes-in-feijenoord /src/pages/coding-classes-in-feijenoord.html 200
 /coding-classes-in-feijenoord.md /src/pages/coding-classes-in-feijenoord.md 200
+
+# International growth cluster (coding-global.css). Must precede the /* catch-all.
+/coding-classes-in-charlois /src/pages/coding-classes-in-charlois.html 200
+/coding-classes-in-charlois.md /src/pages/coding-classes-in-charlois.md 200
 /* /src/pages/404.html 404

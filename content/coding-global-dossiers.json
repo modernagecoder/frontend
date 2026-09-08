@@ -7126,5 +7126,51 @@
       "Figures for the individual buurten. Nine are named and none was read separately.",
       "Anything the Rotterdam city page owns, including the port throughput in two units and the named secondary schools with their addresses."
     ]
+  },
+  "coding-classes-in-charlois": {
+    "market": "Charlois",
+    "bodyClass": "cg-chl",
+    "pageType": "district",
+    "curriculumAuthority": "Gebied Charlois, Rotterdam, Zuid-Holland: 70,932 residents (2026) on 1,190 hectares of which 1,119 land and 71 water, density 6,302, the thinnest spread of the Rotterdam districts measured; 35,855 households averaging 1.9 with 18,440 single-person at 51 percent; 11,615 residents under fifteen at 16 percent; 34,655 dwellings, 24,605 rented at 71 percent, average value 240,000 euro, the lowest of the five Rotterdam districts read; income 26,400 euro (2024), also the lowest; 1,970 residents in applied higher education and 1,030 at university; 24 primary establishments with 5,819 pupils and 7 secondary with 2,800; ten buurten including Heijplaat, a village inside the harbour ground. Regio Midden holidays. The district page argues from unstated bases; Rotterdam Centrum owns boundary truncation, Delfshaven owns counts of non-interchangeable units, Feijenoord owns sample size, and the city page owns the port units argument.",
+    "localProject": "A percentage is a fraction and half of it is the part nobody says. Charlois has 18,440 single-person households out of 35,855, published as 51 percent. Those same households contain 18,440 people out of 70,932 residents, which is 26 percent. Identical people, identical homes, two bases, and a figure that halves between them because the average household holds 1.9 people. The published district panel puts the 51 percent next to 16 percent of residents under fifteen, with nothing in the layout to say that one divides by households and the other by people, which is exactly the comparison that cannot be made. The same halving holds across every district measured: Rotterdam Centrum 61 percent of households and 36 of residents, Delfshaven 52 and 27, Feijenoord 47 and 23. The ordering survives the change of base and the magnitude does not. The general case is percent of orders against percent of revenue, percent of customers against percent of spend, percent of files against percent of bytes, percent of incidents against percent of downtime. Distinct from the denominator-choice trap (Gadong), where several nested resident populations are all defensible and the fault is failing to name which, and from the excluded-population denominator (Venlo): here both bases are correct and appropriate for their own fact, and the error is purely one of juxtaposition. The person-based shares are derived on the page and labelled as arithmetic; the office publishes only the household-based ones.",
+    "requiredMentions": [
+      "70,932",
+      "35,855",
+      "18,440",
+      "34,655",
+      "240,000",
+      "26,400",
+      "6,302",
+      "11,615",
+      "5,819",
+      "2,800",
+      "1,030",
+      "Heijplaat",
+      "Pendrecht",
+      "Wielewaal"
+    ],
+    "sources": [
+      {
+        "claim": "Wijk Charlois, Rotterdam: 70,932 inwoners (2026); 35,855 huishoudens averaging 1.9 (2025), 18,440 eenpersoonshuishoudens at 51 percent; ages 11,615 (0 to 15, 16 percent), 9,335 (15 to 25, 13 percent), 24,630 (25 to 45, 35 percent), 16,485 (45 to 65, 23 percent), 8,895 (65+, 13 percent); 1,190 hectare total, 1,119 land, 71 water (2025); bevolkingsdichtheid 6,302 per km2 (2025); woningvoorraad 34,655 (2025); gemiddelde WOZ 240,000 euro (2025); 24,605 huurwoningen (71 percent) and 10,050 koopwoningen (29 percent); gemiddeld inkomen 26,400 euro (2024); studenten HBO 1,970 and WO 1,030 (2025); 24 vestigingen basisonderwijs with 5,819 leerlingen and 7 vestigingen voortgezet onderwijs with 2,800 leerlingen (2026); 10 buurten: Tarwewijk, Heijplaat, Oud Charlois, Carnisse, Zuidplein, Wielewaal, Zuiderpark, Pendrecht, Zuidwijk, Charlois Zuidrand.",
+        "url": "https://allecijfers.nl/wijk/charlois-rotterdam/"
+      },
+      {
+        "claim": "Single-person household counts and resident counts used for the rebasing comparison only. Rotterdam Centrum 15,290 eenpersoonshuishoudens and 42,924 inwoners. Feijenoord 18,935 and 81,512. Delfshaven 20,975 and 76,590.",
+        "url": "https://allecijfers.nl/wijk/rotterdam-centrum-rotterdam/"
+      },
+      {
+        "claim": "School holiday regions: regio Midden = Utrecht, Zuid-Holland and the northern part of Gelderland; regio Noord = Groningen, Friesland, Drenthe, Overijssel, Flevoland, Noord-Holland; regio Zuid = Zeeland, Noord-Brabant, Limburg and the southern part of Gelderland.",
+        "url": "https://www.rijksoverheid.nl/themas/onderwijs/schoolvakanties/regios-schoolvakantie"
+      }
+    ],
+    "rejectedClaims": [
+      "That Charlois is the poorest district in Rotterdam. It is the lowest on income and dwelling value of the five wijken this series has measured, out of twenty-two, and the page says so in those terms.",
+      "Any explanation of why Charlois sits lowest on either measure. Explaining a position needs more than a position.",
+      "Any statement about school quality or teaching. The published figures are counts of establishments and pupils and are treated as such.",
+      "The person-based shares presented as published figures. The office publishes the household-based ones and this page derives the others.",
+      "Full statistics rows for the comparison districts. Only single-person household counts and resident counts are taken from each.",
+      "Figures for the individual buurten. Ten are named and none was read separately.",
+      "Anything the Rotterdam city page owns, including the port throughput in two units and the named secondary schools with their addresses."
+    ]
   }
 }
