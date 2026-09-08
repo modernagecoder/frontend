@@ -7172,5 +7172,50 @@
       "Figures for the individual buurten. Ten are named and none was read separately.",
       "Anything the Rotterdam city page owns, including the port throughput in two units and the named secondary schools with their addresses."
     ]
+  },
+  "coding-classes-in-ijsselmonde": {
+    "market": "IJsselmonde",
+    "bodyClass": "cg-ijs",
+    "pageType": "district",
+    "curriculumAuthority": "Gebied IJsselmonde, Rotterdam, Zuid-Holland: 63,475 residents (2026) on 1,309 hectares of which 1,179 land and 130 water, density 5,376; 29,930 households averaging 2.1, the largest of the Rotterdam districts measured, with 13,085 single-person at 44 percent; 11,115 residents under fifteen at 18 percent and 11,185 aged sixty-five and over at 18 percent, seventy apart; 29,377 dwellings, 11,163 owner-occupied at 38 percent, the highest share of the five Rotterdam districts read, average value 267,000 euro; income 27,800 euro (2024); 1,340 residents in applied higher education and 460 at university, the lowest university figure here; 26 primary establishments with 5,796 pupils and 7 secondary with 3,550; only four buurten, Oud IJsselmonde, Beverwaard, Groot IJsselmonde and Lombardijen, the coarsest subdivision in the series at about sixteen thousand people each. Regio Midden holidays. The district page argues from unequal and unbounded bands; Rotterdam Centrum owns boundary truncation, Delfshaven counts of non-interchangeable units, Feijenoord sample size, Charlois unstated bases, and the city page the port units argument.",
+    "localProject": "A count inside a band is a count per year of age multiplied by the width of the band. IJsselmonde publishes 11,115 residents under fifteen and 11,185 aged sixty-five and over, seventy apart and both eighteen percent, which supports the sentence that the district has as many pensioners as children. The two bands are not comparable: the first covers fifteen years of life and the second everything after sixty-five with no upper end given. Dividing each closed band by its width gives about 741 residents per year of age for the under-fifteens, 753 for 15 to 25 across ten years, 925 for 25 to 45 across twenty and 757 for 45 to 65 across twenty, so the largest count, 18,505 in the 25 to 45 band, leads the children by two thirds on counts and by only about a quarter per year. The top band cannot be normalised at all; assuming a ceiling of ninety-five would give about 373 per year, half the children rate, and the page prints that only to show the scale of what the missing ceiling hides. Distinct from the bin-width trap (Bawshar), which is about an analyst choosing how to group continuous data: here the bands are fixed by the publisher, unequal by design and one is open, so no regrouping is available and the fault is comparing counts across bands of different spans. The page makes no claim that the district is ageing, which a single snapshot cannot show, and none comparing its age profile with another district, since the same distortion applies to both.",
+    "requiredMentions": [
+      "63,475",
+      "29,930",
+      "13,085",
+      "29,377",
+      "267,000",
+      "27,800",
+      "5,376",
+      "11,115",
+      "11,185",
+      "18,505",
+      "5,796",
+      "3,550",
+      "Beverwaard",
+      "Lombardijen"
+    ],
+    "sources": [
+      {
+        "claim": "Wijk IJsselmonde, Rotterdam: 63,475 inwoners (2026); 29,930 huishoudens averaging 2.1 (2025), 13,085 eenpersoonshuishoudens at 44 percent; ages 11,115 (0 to 15, 18 percent), 7,525 (15 to 25, 12 percent), 18,505 (25 to 45, 29 percent), 15,140 (45 to 65, 24 percent), 11,185 (65+, 18 percent); 1,309 hectare total, 1,179 land, 130 water (2025); bevolkingsdichtheid 5,376 per km2 (2025); woningvoorraad 29,377 (2025); gemiddelde WOZ 267,000 euro (2025); 18,214 huurwoningen (62 percent) and 11,163 koopwoningen (38 percent); gemiddeld inkomen 27,800 euro (2024); studenten HBO 1,340 and WO 460 (2025); 26 vestigingen basisonderwijs with 5,796 leerlingen and 7 vestigingen voortgezet onderwijs with 3,550 leerlingen (2025); 4 buurten: Oud IJsselmonde, Beverwaard, Groot IJsselmonde, Lombardijen.",
+        "url": "https://allecijfers.nl/wijk/ijsselmonde-rotterdam/"
+      },
+      {
+        "claim": "The statistics office publishes the same five age bands for every Dutch municipality and district: 0 tot 15 jaar, 15 tot 25 jaar, 25 tot 45 jaar, 45 tot 65 jaar and 65 jaar of ouder. The first four span 15, 10, 20 and 20 years; the fifth has a floor and no stated ceiling.",
+        "url": "https://allecijfers.nl/gemeente/rotterdam/"
+      },
+      {
+        "claim": "School holiday regions: regio Midden = Utrecht, Zuid-Holland and the northern part of Gelderland; regio Noord = Groningen, Friesland, Drenthe, Overijssel, Flevoland, Noord-Holland; regio Zuid = Zeeland, Noord-Brabant, Limburg and the southern part of Gelderland.",
+        "url": "https://www.rijksoverheid.nl/themas/onderwijs/schoolvakanties/regios-schoolvakantie"
+      }
+    ],
+    "rejectedClaims": [
+      "That IJsselmonde has as many pensioners as children. The two bands cover very different spans of life and the page argues against the sentence rather than repeating it.",
+      "Any per-year-of-age figure for the sixty-five and over band. It has no published upper end and none is assumed except once, explicitly hypothetically, to show the scale of the omission.",
+      "That the district is ageing or not ageing. A single snapshot cannot show a direction.",
+      "Any comparison of this age profile with another district on the strength of these bands, since the same widths distort every district identically and single-year data was not read.",
+      "Figures for the four buurten individually. All four are named and none was read separately.",
+      "Anything the Rotterdam city page owns, including the port throughput in two units and the named secondary schools with their addresses."
+    ]
   }
 }
