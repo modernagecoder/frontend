@@ -7022,5 +7022,55 @@
       "Figures for the individual buurten of Rotterdam Centrum. Six are named and none was read separately.",
       "Anything the Rotterdam city page owns, including the port throughput in two units, the named secondary schools and their addresses, and the gebied populations it lists."
     ]
+  },
+  "coding-classes-in-delfshaven": {
+    "market": "Delfshaven",
+    "bodyClass": "cg-dfh",
+    "pageType": "district",
+    "curriculumAuthority": "Gebied Delfshaven, Rotterdam, Zuid-Holland: 76,590 residents (2026) on 596 hectares of which 515 land and 81 water, density 14,944, the third largest gebied and denser than the city centre; 40,120 households averaging 1.9 with 20,975 single-person at 52 percent; 10,470 residents under fifteen at 14 percent and 27,430 aged twenty-five to forty-five at 36; 36,694 dwellings, 26,420 rented at 72 percent, average value 325,000 euro; income 30,100 euro (2024); 2,600 residents in applied higher education and 2,910 at university, 5,510 in all; 28 primary establishments teaching 6,828 pupils and 15 secondary teaching 4,765; nine buurten, one of which is itself called Delfshaven. Regio Midden holidays. The district page argues from counts of non-interchangeable units; Rotterdam Centrum owns boundary truncation and the Rotterdam city page owns the port units argument.",
+    "localProject": "A count answers how many there are, and people use it to answer how much there is. Delfshaven has 15 secondary establishments teaching 4,765 pupils; Prins Alexander has 9 teaching 5,860. Two thirds more establishments and a fifth fewer pupils, from one office in one year, so the count and the quantity rank the two districts in opposite orders. The primary figures make the same point without the inversion: both districts have exactly 28 primary establishments, and one teaches 6,828 pupils while the other teaches 8,108, a 19 percent difference the count records as zero. A vestiging is a registered location with no size attached, so one establishment means 244, 290, 332, 318, 651 or 406 pupils depending which district and which level, and the register writes each of them down as one. The check belongs before the counting: are these things interchangeable, and if not, what varies between them, because whatever varies is what you meant to measure. The general case is headcount against full-time equivalents, servers against capacity, stores against floorspace, suppliers against spend, open tickets against the work in them. Shares a family with the Amsterdam-Zuidoost page, where one column holds two kinds of object, but the operation differs: there a value is averaged across mixed rows, here nothing is averaged at all and the count itself is the statistic while its units vary in magnitude. The page makes no claim about school quality, results or admissions anywhere.",
+    "requiredMentions": [
+      "76,590",
+      "40,120",
+      "20,975",
+      "36,694",
+      "325,000",
+      "30,100",
+      "14,944",
+      "10,470",
+      "6,828",
+      "4,765",
+      "2,910",
+      "Spangen",
+      "Tussendijken",
+      "Schiemond"
+    ],
+    "sources": [
+      {
+        "claim": "Wijk Delfshaven, Rotterdam: 76,590 inwoners (2026); 40,120 huishoudens averaging 1.9 (2025), 20,975 eenpersoonshuishoudens at 52 percent; ages 10,470 (0 to 15, 14 percent), 11,515 (15 to 25, 15 percent), 27,430 (25 to 45, 36 percent), 18,040 (45 to 65, 24 percent), 9,125 (65+, 12 percent); 596 hectare total, 515 land, 81 water (2025); bevolkingsdichtheid 14,944 per km2 (2025); woningvoorraad 36,694 (2025); gemiddelde WOZ 325,000 euro (2025); 26,420 huurwoningen (72 percent) and 10,274 koopwoningen (28 percent); gemiddeld inkomen 30,100 euro (2024); studenten HBO 2,600 and WO 2,910; 28 vestigingen basisonderwijs with 6,828 leerlingen and 15 vestigingen voortgezet onderwijs with 4,765 leerlingen; 9 buurten: Oud Mathenesse, Spangen, Middelland, Nieuwe Westen, Witte Dorp, Tussendijken, Bospolder, Delfshaven, Schiemond.",
+        "url": "https://allecijfers.nl/wijk/delfshaven-rotterdam/"
+      },
+      {
+        "claim": "Wijk Prins Alexander, Rotterdam: 97,794 inwoners (2026); 14,585 under fifteen; 1,738 hectare land; bevolkingsdichtheid 5,635; woningvoorraad 47,041 at an average WOZ of 360,000 euro; income 34,700 euro (2024); 28 vestigingen basisonderwijs with 8,108 leerlingen and 9 vestigingen voortgezet onderwijs with 5,860 leerlingen; 8 buurten.",
+        "url": "https://allecijfers.nl/wijk/prins-alexander-rotterdam/"
+      },
+      {
+        "claim": "Wijk Rotterdam Centrum: 42,924 inwoners (2026); 3,130 under fifteen; 413 hectare land; bevolkingsdichtheid 10,191; woningvoorraad 23,478 at an average WOZ of 424,000 euro; income 44,500 euro (2024); 6 vestigingen basisonderwijs with 1,989 leerlingen and 4 vestigingen voortgezet onderwijs with 1,622 leerlingen; 6 buurten.",
+        "url": "https://allecijfers.nl/wijk/rotterdam-centrum-rotterdam/"
+      },
+      {
+        "claim": "School holiday regions: regio Midden = Utrecht, Zuid-Holland and the northern part of Gelderland; regio Noord = Groningen, Friesland, Drenthe, Overijssel, Flevoland, Noord-Holland; regio Zuid = Zeeland, Noord-Brabant, Limburg and the southern part of Gelderland.",
+        "url": "https://www.rijksoverheid.nl/themas/onderwijs/schoolvakanties/regios-schoolvakantie"
+      }
+    ],
+    "rejectedClaims": [
+      "Any statement about school quality, results or admissions in Delfshaven or in either district compared with it. No source read offers it and the schools are an example rather than a subject.",
+      "Any claim about where the pupils counted at establishments in this district live. These are attendance counts inside a boundary.",
+      "An explanation of why the district average income is lower than in the comparison districts. That would need a breakdown by age or occupation that was not read.",
+      "The pupils-per-establishment figures offered as measures of school size. An establishment is a registration rather than a school, which is the point they exist to demonstrate.",
+      "Any argument about what a boundary does to a count of what is near residents. That is the Rotterdam Centrum page.",
+      "Any figure for the individual buurten. Nine are named and none was read separately, including the buurt that shares the district name.",
+      "Anything the Rotterdam city page owns, including the port throughput in two units and the named secondary schools with their addresses."
+    ]
   }
 }
