@@ -75,7 +75,8 @@ Phase 6 (ag- doors): academy spokes x6 (amsterdam, eindhoven, the-hague, utrecht
 | 54 | coding-classes-in-amsterdam-zuidoost (azo, #5B284C) | district | 5,244 | 4.5% vs amsterdam-nieuw-west | An AI will explain why cheaper homes sit beside higher incomes. Why should a teenager in Zuidoost distrust the explanation? | One column, two kinds of object (Amstel III 211,000 euro homes and 37,400 euro incomes against Gein 344,000 and 30,600; 100% rented at 1.2 per household against 41% owned at 2.0) | 5cb234a4 |
 | 55 | coding-classes-in-weesp (wsp, #8B4A0F) | district | 5,260 | 3.0% vs amsterdam-centrum | Ask an AI whether Weesp is in Amsterdam and it will answer. Why should a teenager here ask it to pick a test first? | A category is several tests that usually agree (six readings of being part of Amsterdam: one yes and five noes for Weesp, all six yes for the Jordaan) | 3debf0e1 |
 | 56 | coding-classes-in-rotterdam-centrum (rtc, #0D4833) | district | 5,195 | 4.7% vs amsterdam-zuidoost | An AI will tell you the centre has fewer schools per child. Why should a teenager here learn to ask how big the district is? | A boundary truncates the neighbourhood (413 ha means only about 26% of Centrum is more than 500 m from an edge, against 58% of Prins Alexander at 1,738 ha) | 800d2e45 |
-| 57 | coding-classes-in-delfshaven (dfh, #953C41) | district | 5,045 | 4.4% vs rotterdam-centrum | An AI will rank the districts by number of schools. Why should a teenager in Delfshaven ask what one school is? | A count is not a quantity when units vary in size (15 secondary establishments teach 4,765 pupils here; 9 in Prins Alexander teach 5,860) | (this commit) |
+| 57 | coding-classes-in-delfshaven (dfh, #953C41) | district | 5,045 | 4.4% vs rotterdam-centrum | An AI will rank the districts by number of schools. Why should a teenager in Delfshaven ask what one school is? | A count is not a quantity when units vary in size (15 secondary establishments teach 4,765 pupils here; 9 in Prins Alexander teach 5,860) | d19f8dc5 |
+| 58 | coding-classes-in-feijenoord (fyn, #6C4F85) | district | 4,792 | 4.5% vs delfshaven | An AI will confirm that richer districts have pricier homes. Why should a teenager in Feijenoord ask how many districts were checked? | Four points cannot carry a conclusion (income and dwelling value rank identically across four districts; 4! = 24 orderings, so a perfect match is 1 in 12) | (this commit) |
 
 ## Skipped (kill criterion)
 
@@ -85,9 +86,32 @@ Phase 6 (ag- doors): academy spokes x6 (amsterdam, eindhoven, the-hague, utrecht
 ## Codes in use (letters only; check `coding-global.css` before assigning)
 
 Reserved by older clusters and NOT available: hmr (Al Hamra), lei (Leicester), mst? free, amr (Al Amarat), adm (Adam), ede? free.
-Assigned so far: cg: amv (Amstelveen), ams (Amsterdam), ehv (Eindhoven), dhg (The Hague), alm (Almere), utr (Utrecht), rtm (Rotterdam) · ag: nla (academy hub) · provinces: nhl (Noord-Holland), zhl (Zuid-Holland), utp (Utrecht), gld (Gelderland), ovr (Overijssel), lim (Limburg), grp (Groningen), nbr (Noord-Brabant), frl (Friesland), dre (Drenthe), flv (Flevoland), zld (Zeeland) · cities: grn (Groningen), tlb (Tilburg), brd (Breda), nij (Nijmegen), arn (Arnhem), apd (Apeldoorn), hlm (Haarlem), hmm (Haarlemmermeer), zns (Zaanstad), amf (Amersfoort), ens (Enschede), dbo (Den Bosch), zwo (Zwolle), ztm (Zoetermeer), lde (Leiden), lwd (Leeuwarden), mst (Maastricht), ede (Ede), drd (Dordrecht), wst (Westland), alp (Alphen aan den Rijn), alk (Alkmaar), dlf (Delft), emm (Emmen), dev (Deventer), vnl (Venlo), uit (Uithoorn) · districts: acn (Amsterdam-Centrum), anr (Amsterdam-Noord), aos (Amsterdam-Oost), azd (Amsterdam-Zuid), awt (Amsterdam-West), anw (Amsterdam Nieuw-West), azo (Amsterdam-Zuidoost), wsp (Weesp), rtc (Rotterdam Centrum), dfh (Delfshaven)
+Assigned so far: cg: amv (Amstelveen), ams (Amsterdam), ehv (Eindhoven), dhg (The Hague), alm (Almere), utr (Utrecht), rtm (Rotterdam) · ag: nla (academy hub) · provinces: nhl (Noord-Holland), zhl (Zuid-Holland), utp (Utrecht), gld (Gelderland), ovr (Overijssel), lim (Limburg), grp (Groningen), nbr (Noord-Brabant), frl (Friesland), dre (Drenthe), flv (Flevoland), zld (Zeeland) · cities: grn (Groningen), tlb (Tilburg), brd (Breda), nij (Nijmegen), arn (Arnhem), apd (Apeldoorn), hlm (Haarlem), hmm (Haarlemmermeer), zns (Zaanstad), amf (Amersfoort), ens (Enschede), dbo (Den Bosch), zwo (Zwolle), ztm (Zoetermeer), lde (Leiden), lwd (Leeuwarden), mst (Maastricht), ede (Ede), drd (Dordrecht), wst (Westland), alp (Alphen aan den Rijn), alk (Alkmaar), dlf (Delft), emm (Emmen), dev (Deventer), vnl (Venlo), uit (Uithoorn) · districts: acn (Amsterdam-Centrum), anr (Amsterdam-Noord), aos (Amsterdam-Oost), azd (Amsterdam-Zuid), awt (Amsterdam-West), anw (Amsterdam Nieuw-West), azo (Amsterdam-Zuidoost), wsp (Weesp), rtc (Rotterdam Centrum), dfh (Delfshaven), fyn (Feijenoord)
 
 ## Open issues
+### The sibling-echo tax, now measured four times
+
+Every district page after the first in its city has come in ABOVE 6 percent on
+first build and needed a rewrite: Nieuw-West 8.5, Zuidoost 6.3, Delfshaven
+6.4, Feijenoord 6.0. Every time the cause was the same and every time the fix
+took one pass. Budget for it rather than being surprised by it.
+
+The three things that cause it, in order of damage:
+
+1. REPRODUCING A SIBLING'S STATISTICS ROW. Delfshaven quoted Rotterdam
+   Centrum's whole published row for comparison when the argument used only
+   its school columns. Take only the columns the argument needs and say so.
+2. REUSING THE FRESH WORDING THAT RESCUED THE PREVIOUS PAGE. The delivery
+   cells and FAQ answers written to fix page N become page N+1's stock text.
+   Diff against the PREVIOUS sibling, never against the template.
+3. THE SAME STRUCTURAL OBSERVATION MADE TWICE. Delfshaven and Feijenoord both
+   have nine buurten and both noticed the district shares a name with one of
+   them. Only the first page gets to make that point.
+
+Mechanical note: patch scripts must not search for text containing an
+apostrophe. In the module the source reads `city's`, so a Python search for
+`city's` finds nothing. Anchor on apostrophe-free substrings.
+
 ### Rotterdam is easier than Amsterdam. Method note, 2026-09-09
 
 Rotterdam's CBS wijken ARE its gebieden. `allecijfers.nl/gemeente/rotterdam/`

@@ -7072,5 +7072,59 @@
       "Any figure for the individual buurten. Nine are named and none was read separately, including the buurt that shares the district name.",
       "Anything the Rotterdam city page owns, including the port throughput in two units and the named secondary schools with their addresses."
     ]
+  },
+  "coding-classes-in-feijenoord": {
+    "market": "Feijenoord",
+    "bodyClass": "cg-fyn",
+    "pageType": "district",
+    "curriculumAuthority": "Gebied Feijenoord, Rotterdam, Zuid-Holland: 81,512 residents (2026) on 855 hectares of which 662 land and 192 water, nearly a quarter water, the highest water share of any district in this series; density 12,196 computed on land; 39,940 households averaging 2.0 with 18,935 single-person at 47 percent; 13,145 residents under fifteen at 16 percent, the highest of the four Rotterdam districts measured; 38,572 dwellings, 30,086 rented at 78 percent, the highest, average value 311,000 euro, the lowest; income 29,200 euro (2024), the lowest; 2,210 residents in applied higher education and 1,510 at university, the reverse balance from Delfshaven; 32 primary establishments with 7,247 pupils and 10 secondary with 5,283; nine buurten, one of which is itself called Feijenoord and two of which differ only by a suffix. Regio Midden holidays. The district page argues from sample size; Rotterdam Centrum owns boundary truncation, Delfshaven owns counts of non-interchangeable units, and the city page owns the port units argument.",
+    "localProject": "Count the ways it could have come out before deciding the result is surprising. Across the four Rotterdam districts this series has measured, average income and average dwelling value rank in exactly the same order: Rotterdam Centrum 44,500 euro and 424,000, Prins Alexander 34,700 and 360,000, Delfshaven 30,100 and 325,000, Feijenoord 29,200 and 311,000. A perfect agreement looks like a finding. Four items have 4 factorial, twenty-four, possible orderings, so two rankings matching exactly in either direction is a two in twenty-four event, one in twelve, about 8.3 percent, which is not evidence of anything. Five districts would drop it to about 1.7 percent and six to 0.3, so the remedy is more data rather than a better method, and Rotterdam has 22 wijken of which four were read. Density is the control: it ranks Delfshaven first, Feijenoord second, Centrum third and Prins Alexander fourth, agreeing with neither of the other two columns. Distinct from multiple comparisons (Al Khoudh), which is about testing many hypotheses until one looks significant: here exactly one comparison was made and the problem is that at n of four a single comparison has almost no power. Distinct also from rank stability under measurement noise (Breda), which is about gaps smaller than source disagreement: this page takes every figure at face value and still finds the pattern worthless. The page does not claim income and dwelling value are unrelated, only that these four districts do not establish that they are.",
+    "requiredMentions": [
+      "81,512",
+      "39,940",
+      "18,935",
+      "38,572",
+      "311,000",
+      "29,200",
+      "12,196",
+      "13,145",
+      "7,247",
+      "5,283",
+      "1,510",
+      "Katendrecht",
+      "Afrikaanderwijk",
+      "Vreewijk"
+    ],
+    "sources": [
+      {
+        "claim": "Wijk Feijenoord, Rotterdam: 81,512 inwoners (2026); 39,940 huishoudens averaging 2.0 (2025), 18,935 eenpersoonshuishoudens at 47 percent; ages 13,145 (0 to 15, 16 percent), 10,740 (15 to 25, 13 percent), 26,640 (25 to 45, 33 percent), 19,620 (45 to 65, 24 percent), 11,350 (65+, 14 percent); 855 hectare total, 662 land, 192 water; bevolkingsdichtheid 12,196 per km2; woningvoorraad 38,572 (2025); gemiddelde WOZ 311,000 euro (2025); 30,086 huurwoningen (78 percent) and 8,486 koopwoningen (22 percent); gemiddeld inkomen 29,200 euro (2024); studenten HBO 2,210 and WO 1,510; 32 vestigingen basisonderwijs with 7,247 leerlingen and 10 vestigingen voortgezet onderwijs with 5,283 leerlingen; 9 buurten: Noordereiland, Feijenoord, Kop van Zuid - Entrepot, Kop van Zuid, Afrikaanderwijk, Katendrecht, Hillesluis, Bloemhof, Vreewijk.",
+        "url": "https://allecijfers.nl/wijk/feijenoord-rotterdam/"
+      },
+      {
+        "claim": "Wijk Rotterdam Centrum: gemiddeld inkomen 44,500 euro (2024); gemiddelde WOZ 424,000 euro (2025); bevolkingsdichtheid 10,191 per km2 (2025). Only these three columns are used on this page.",
+        "url": "https://allecijfers.nl/wijk/rotterdam-centrum-rotterdam/"
+      },
+      {
+        "claim": "Wijk Delfshaven: gemiddeld inkomen 30,100 euro (2024); gemiddelde WOZ 325,000 euro (2025); bevolkingsdichtheid 14,944 per km2 (2025). Wijk Prins Alexander: gemiddeld inkomen 34,700 euro (2024); gemiddelde WOZ 360,000 euro (2025); bevolkingsdichtheid 5,635 per km2 (2025). Only these three columns are used from each.",
+        "url": "https://allecijfers.nl/wijk/delfshaven-rotterdam/"
+      },
+      {
+        "claim": "Rotterdam: 673,804 inwoners (2026); 22 wijken en 92 buurten, of which four have been read for this series.",
+        "url": "https://allecijfers.nl/gemeente/rotterdam/"
+      },
+      {
+        "claim": "School holiday regions: regio Midden = Utrecht, Zuid-Holland and the northern part of Gelderland; regio Noord = Groningen, Friesland, Drenthe, Overijssel, Flevoland, Noord-Holland; regio Zuid = Zeeland, Noord-Brabant, Limburg and the southern part of Gelderland.",
+        "url": "https://www.rijksoverheid.nl/themas/onderwijs/schoolvakanties/regios-schoolvakantie"
+      }
+    ],
+    "rejectedClaims": [
+      "That income and average dwelling value are unrelated. The page claims only that four districts do not establish a relationship, which is a weaker and different statement.",
+      "That the ordering of Delfshaven above Feijenoord is secure. The gaps are about three and four percent, and whether an ordering that close is an ordering belongs to the Breda page.",
+      "Any comparison of the district density against a total-area figure. The published density is on land, and the land-versus-total question belongs to the Amsterdam-Centrum page.",
+      "Any explanation of why Feijenoord sits at the bottom of the income and dwelling value columns. Explaining a position needs more than a position.",
+      "Full statistics rows for the three comparison districts. Only the three columns used in the table are taken from each; the rest belongs to their own pages.",
+      "Figures for the individual buurten. Nine are named and none was read separately.",
+      "Anything the Rotterdam city page owns, including the port throughput in two units and the named secondary schools with their addresses."
+    ]
   }
 }
