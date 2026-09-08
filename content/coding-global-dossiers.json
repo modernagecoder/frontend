@@ -6818,5 +6818,55 @@
       "Figures for the Spaarndammerbuurt, Staatsliedenbuurt, Frederik Hendrikbuurt, Da Costabuurt, Kinkerbuurt, Van Lennepbuurt, Westerpark, Landlust, Erasmuspark, Overtoomse Sluis, Vondelbuurt or Sloterdijk. They are named and given no numbers.",
       "Anything the Amsterdam city page owns, including the doorstroomtoets rates, the basisschool counts and the 2055 district projections."
     ]
+  },
+  "coding-classes-in-amsterdam-nieuw-west": {
+    "market": "Amsterdam Nieuw-West",
+    "bodyClass": "cg-anw",
+    "pageType": "district",
+    "curriculumAuthority": "Stadsdeel Amsterdam Nieuw-West, Noord-Holland: established as a deelgemeente in 2010 by merging Geuzenveld-Slotermeer, Slotervaart and Osdorp, with the part of Westpoort west of the A10 added on 1 January 2015; its entry publishes 159,522 residents for 1 January 2021, five years older than the wijk figures, so no district density or share is computed here, and an area of 32.38 km2. The Westelijke Tuinsteden, Slotermeer, Geuzenveld, Slotervaart, Overtoomse Veld and Osdorp, were built in the 1950s and 1960s on the basis of the Algemeen Uitbreidingsplan of 1935, in the open building style with much green between the blocks; the Sloterplas was dug for sand extraction to raise the surrounding garden cities. Two wijken carry full figures: Slotermeer-Noordoost 9,499 residents, 4,192 dwellings, density 9,755, income 26,300 euro; Osdorp-Midden 15,734 residents, 6,713 dwellings, density 15,218, income 28,600 euro. Under-fifteens are 19 and 18 percent, the highest child shares on any Amsterdam page in this series. Regio Noord holidays. The district page argues from settings versus measurements; Amsterdam-Centrum owns aggregates over ground, Noord the rounding bound, Oost self-selection, Zuid the two registers, West the identifier that outlived its referent.",
+    "localProject": "Before you explain a number, find out whether anybody chose it. Slotermeer-Noordoost has 3,060 rented dwellings of 4,192 and Osdorp-Midden 4,900 of 6,713, which are 72.99 percent in both cases and are published as 73 percent, with owned shares of 27 percent in both. Two neighbourhoods 66 percent apart in population, built at different times, agreeing to a hundredth of a percentage point is not what independent household decisions produce, and these are the Westelijke Tuinsteden, built in the 1950s and 1960s to the Algemeen Uitbreidingsplan of 1935 in a specified open building style. A housing programme sets its own tenure mix, so the matching figure was decided rather than discovered. The contrast within the same pair proves the point: density is 9,755 against 15,218, 56 percent apart on seven percent more land, because 4,192 dwellings were built on one site and 6,713 on the other, a decision made separately and later. Average dwelling value and average income, the two genuinely measured columns, differ by 8 and 9 percent. Even the Sloterplas was dug for sand to raise the ground the houses stand on. The tells for a configured value are improbable agreement and improbable roundness: a distribution that stops dead, a metric that plateaus at one level, a cohort sharing a start date. Distinct from Goodhart, which is a measure corrupted by becoming a target, and from the confounded proxy (Deventer), where an outside condition moves a real measurement: here the value was never a measurement at all. The page states the arithmetic and declines to assert the cause, because close agreement evidences a shared cause without identifying it.",
+    "requiredMentions": [
+      "159,522",
+      "9,499",
+      "4,510",
+      "4,192",
+      "9,755",
+      "367,000",
+      "26,300",
+      "15,734",
+      "7,415",
+      "6,713",
+      "15,218",
+      "28,600",
+      "Sloterplas",
+      "Osdorp-Midden"
+    ],
+    "sources": [
+      {
+        "claim": "Amsterdam Nieuw-West: 159.522 inwoners (1 januari 2021); oppervlakte 32,38 km2; het stadsdeel werd als deelgemeente ingesteld in 2010 en is een samenvoeging van de vroegere stadsdelen Geuzenveld-Slotermeer, Slotervaart en Osdorp; sinds 1 januari 2015 is van Westpoort het gedeelte ten westen van de A10 (Ringweg Amsterdam) toegevoegd aan Stadsdeel Nieuw-West; na afschaffing van de deelgemeenten als bestuurslaag werd een deel van de taken van de Amsterdamse stadsdelen overgenomen door bestuurscommissies; de basis hiervoor werd gelegd in het Algemeen Uitbreidingsplan uit 1935; de Westelijke Tuinsteden werden in de jaren vijftig en zestig van de 20e eeuw gebouwd; de wijken zijn gebouwd volgens de open bebouwingswijze, met veel groen tussen de bebouwing; tot de Westelijke Tuinsteden behoren Slotermeer, Geuzenveld, Slotervaart, Overtoomse Veld en Osdorp; in het midden van het gebied ligt de Sloterplas, die gegraven werd voor de zandwinning ten behoeve van de ophoging van de omliggende tuinsteden.",
+        "url": "https://nl.wikipedia.org/wiki/Amsterdam_Nieuw-West"
+      },
+      {
+        "claim": "Wijk Slotermeer-Noordoost, Amsterdam: 9,499 inwoners (2026); 4,510 huishoudens averaging 2.1 (2025), 2,305 eenpersoonshuishoudens at 51 percent and 2,205 meerpersoonshuishoudens at 49; ages 1,760 (0 to 15, 19 percent), 1,325 (15 to 25, 14 percent), 2,975 (25 to 45, 31 percent), 2,360 (45 to 65, 25 percent), 1,070 (65+, 11 percent); 102 hectare total, 96 land, 5 water; bevolkingsdichtheid 9,755 per km2; woningvoorraad 4,192 (2025); average WOZ 367,000 euro (2025); 3,060 huurwoningen (73 percent) and 1,132 koopwoningen (27 percent); average income 26,300 euro (2024); 4 buurten: Coronelbuurt, Arondeusbuurt, Meerwaldtbuurt, Dobbebuurt.",
+        "url": "https://allecijfers.nl/wijk/slotermeer-noordoost-amsterdam/"
+      },
+      {
+        "claim": "Wijk Osdorp-Midden, Amsterdam: 15,734 inwoners (2026); 7,415 huishoudens averaging 2.1 (2025), 3,580 eenpersoonshuishoudens at 48 percent and 3,835 meerpersoonshuishoudens at 52; ages 2,780 (0 to 15, 18 percent), 2,250 (15 to 25, 14 percent), 5,115 (25 to 45, 33 percent), 3,555 (45 to 65, 23 percent), 2,040 (65+, 13 percent); 112 hectare total, 103 land, 8 water (2025); bevolkingsdichtheid 15,218 per km2 (2025); woningvoorraad 6,713 (2025); average WOZ 397,000 euro (2025); 4,900 huurwoningen (73 percent) and 1,813 koopwoningen (27 percent); average income 28,600 euro (2024); 4 buurten: Reimerswaal, Botteskerkbuurt, Zuidwestkwadrant-Noord, Zuidwestkwadrant-Zuid.",
+        "url": "https://allecijfers.nl/wijk/osdorp-midden-amsterdam/"
+      },
+      {
+        "claim": "School holiday regions: regio Noord = Groningen, Friesland, Drenthe, Overijssel, Flevoland, Noord-Holland; regio Midden = Utrecht, Zuid-Holland and the northern part of Gelderland; regio Zuid = Zeeland, Noord-Brabant, Limburg and the southern part of Gelderland.",
+        "url": "https://www.rijksoverheid.nl/themas/onderwijs/schoolvakanties/regios-schoolvakantie"
+      }
+    ],
+    "rejectedClaims": [
+      "Any assertion of the cause of the matching tenure shares. Close agreement is evidence that something common acts on both, not proof of what it is, and no source read states the reason.",
+      "A district density, share or average computed from the 2021 district population against 2025 or 2026 wijk figures. Mixing vintages is the Apeldoorn page's argument.",
+      "Any figure offered as a Nieuw-West average. Two wijken out of the many in this district cannot produce one.",
+      "Any comparison of this district's density with another district's. The district areas and populations across the Amsterdam entries are on different bases and different dates, and the land-versus-total question belongs to the Amsterdam-Centrum page.",
+      "Anything made of the hectare figures being one short of their own total. Amsterdam-Noord already carries the argument about rounded components.",
+      "Figures for Geuzenveld, Slotervaart, Overtoomse Veld, Osdorp-Oost, De Aker, Sloten or Nieuw Sloten. They are named and given no numbers.",
+      "Anything the Amsterdam city page owns, including the doorstroomtoets rates, the school counts and the 2055 district projections."
+    ]
   }
 }

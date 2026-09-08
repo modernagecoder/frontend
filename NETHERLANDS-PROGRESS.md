@@ -70,7 +70,8 @@ Phase 6 (ag- doors): academy spokes x6 (amsterdam, eindhoven, the-hague, utrecht
 | 49 | coding-classes-in-amsterdam-noord (anr, #9A5505) | district | 5,281 | 5.5% vs amsterdam-centrum | An AI will make the age bands add up. Why should a child in Noord learn to leave them broken? | Bound the explanation before you accept it (Volewijck bands 9,305 vs population 9,277, a gap of 28 against a rounding bound of 12.5; Buikslotermeer +5 and Waterland +8 both inside it) | 15ce11f7 |
 | 50 | coding-classes-in-amsterdam-oost (aos, #6E5E97) | district | 5,051 | 5.6% vs amsterdam-centrum | An AI will explain why IJburg has more children. Why should a teenager in Oost learn to reject the explanation? | Self-selection, not effect (IJburg-West 6,830 homes and 16,099 people against Indische Buurt-West 6,712 and 11,939: 118 homes apart, 4,160 people apart) | 58c65a52 |
 | 51 | coding-classes-in-amsterdam-zuid (azd, #0B764D) | district | 5,125 | 4.9% vs amsterdam-oost | An AI will reconcile the two columns for you. Why should a teenager in Zuid learn to stop it? | Two registers, and the gap is the data (Zuidas 3,310 households in 2,878 dwellings, +432 or 15.0%; Jordaan 13,260 in 13,425, -165; the sign changes what it means) | 494623e0 |
-| 52 | coding-classes-in-amsterdam-west (awt, #00566D) | district | 5,159 | 5.5% vs amsterdam-centrum | Ask an AI about De Kolenkit and you will get February 2009. Why should a teenager in West learn to check the date? | An identifier outliving what it named (De Kolenkit labelled worst in the country Feb 2009, then largely demolished and rebuilt; the name and its history carried on unchanged) | (this commit) |
+| 52 | coding-classes-in-amsterdam-west (awt, #00566D) | district | 5,159 | 5.5% vs amsterdam-centrum | Ask an AI about De Kolenkit and you will get February 2009. Why should a teenager in West learn to check the date? | An identifier outliving what it named (De Kolenkit labelled worst in the country Feb 2009, then largely demolished and rebuilt; the name and its history carried on unchanged) | 9198db0e |
+| 53 | coding-classes-in-amsterdam-nieuw-west (anw, #2F4505) | district | 5,121 | 5.0% vs amsterdam-west | An AI will explain why these two neighbourhoods rent at the same rate. Why should a teenager here refuse the explanation? | Measured, or chosen? (Slotermeer-Noordoost 3,060 of 4,192 rented and Osdorp-Midden 4,900 of 6,713, both 72.99%, while density differs 9,755 against 15,218) | (this commit) |
 
 ## Skipped (kill criterion)
 
@@ -80,7 +81,7 @@ Phase 6 (ag- doors): academy spokes x6 (amsterdam, eindhoven, the-hague, utrecht
 ## Codes in use (letters only; check `coding-global.css` before assigning)
 
 Reserved by older clusters and NOT available: hmr (Al Hamra), lei (Leicester), mst? free, amr (Al Amarat), adm (Adam), ede? free.
-Assigned so far: cg: amv (Amstelveen), ams (Amsterdam), ehv (Eindhoven), dhg (The Hague), alm (Almere), utr (Utrecht), rtm (Rotterdam) · ag: nla (academy hub) · provinces: nhl (Noord-Holland), zhl (Zuid-Holland), utp (Utrecht), gld (Gelderland), ovr (Overijssel), lim (Limburg), grp (Groningen), nbr (Noord-Brabant), frl (Friesland), dre (Drenthe), flv (Flevoland), zld (Zeeland) · cities: grn (Groningen), tlb (Tilburg), brd (Breda), nij (Nijmegen), arn (Arnhem), apd (Apeldoorn), hlm (Haarlem), hmm (Haarlemmermeer), zns (Zaanstad), amf (Amersfoort), ens (Enschede), dbo (Den Bosch), zwo (Zwolle), ztm (Zoetermeer), lde (Leiden), lwd (Leeuwarden), mst (Maastricht), ede (Ede), drd (Dordrecht), wst (Westland), alp (Alphen aan den Rijn), alk (Alkmaar), dlf (Delft), emm (Emmen), dev (Deventer), vnl (Venlo), uit (Uithoorn) · districts: acn (Amsterdam-Centrum), anr (Amsterdam-Noord), aos (Amsterdam-Oost), azd (Amsterdam-Zuid), awt (Amsterdam-West)
+Assigned so far: cg: amv (Amstelveen), ams (Amsterdam), ehv (Eindhoven), dhg (The Hague), alm (Almere), utr (Utrecht), rtm (Rotterdam) · ag: nla (academy hub) · provinces: nhl (Noord-Holland), zhl (Zuid-Holland), utp (Utrecht), gld (Gelderland), ovr (Overijssel), lim (Limburg), grp (Groningen), nbr (Noord-Brabant), frl (Friesland), dre (Drenthe), flv (Flevoland), zld (Zeeland) · cities: grn (Groningen), tlb (Tilburg), brd (Breda), nij (Nijmegen), arn (Arnhem), apd (Apeldoorn), hlm (Haarlem), hmm (Haarlemmermeer), zns (Zaanstad), amf (Amersfoort), ens (Enschede), dbo (Den Bosch), zwo (Zwolle), ztm (Zoetermeer), lde (Leiden), lwd (Leeuwarden), mst (Maastricht), ede (Ede), drd (Dordrecht), wst (Westland), alp (Alphen aan den Rijn), alk (Alkmaar), dlf (Delft), emm (Emmen), dev (Deventer), vnl (Venlo), uit (Uithoorn) · districts: acn (Amsterdam-Centrum), anr (Amsterdam-Noord), aos (Amsterdam-Oost), azd (Amsterdam-Zuid), awt (Amsterdam-West), anw (Amsterdam Nieuw-West)
 
 ## Open issues
 ### Amsterdam-Zuid: BUILT 2026-09-09. Research below kept as the source record.
@@ -157,6 +158,16 @@ BLOCK KIND carries the wijk data is the lever; rewording the cards is not.
 Confirmed again on West, which kept a card grid for its wijken and came
 back to 5.5. For Nieuw-West, Zuidoost and Weesp: put the wijk figures in
 a table, as Zuid did.
+
+AND THE REAL LESSON, from Nieuw-West hitting 8.5 percent against West on
+first build: a table only helps if its COLUMNS differ too. Nieuw-West first
+carried a "what the entry publishes / date / used here" table that mirrored
+West's row for row, plus the same stock sentences ("never combined with a
+2026 figure", "no series is drawn across it", "a partial average is not an
+average", "mixing vintages is the Apeldoorn page's argument"). Replacing the
+table with a decisions timeline on a different axis and rewriting nine stock
+passages took it 8.5 -> 5.0. Those stock sentences are the real repeat
+offenders across ALL district pages; write them fresh every time.
 
 ### Phase 4 method note, settled 2026-09-08 on Amsterdam-Centrum
 
