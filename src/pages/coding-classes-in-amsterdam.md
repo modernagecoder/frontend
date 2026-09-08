@@ -69,7 +69,7 @@ Each district gets its own page in this series, written close up. This is the ma
 
 ### Zuid
 
-146,395 residents on 1 January 2026 and the two largest international schools in the city: the British School of Amsterdam at Havenstraat 6, in a converted nineteenth-century Huis van Bewaring opened in April 2021 with room for 1,200, and the south campus of the Amsterdam International Community School at Arent Janszoon Ernststraat 1179 since 2022. The Zuidas is here too.
+[Its page](/coding-classes-in-amsterdam-zuid) takes apart two registers that disagree by 432 on the Zuidas. 146,395 residents on 1 January 2026 and the two largest international schools in the city: the British School of Amsterdam at Havenstraat 6, in a converted nineteenth-century Huis van Bewaring opened in April 2021 with room for 1,200, and the south campus of the Amsterdam International Community School at Arent Janszoon Ernststraat 1179 since 2022. The Zuidas is here too.
 
 ### Zuidoost
 
@@ -266,7 +266,7 @@ Five to ten learners, matched on level, pace and goal rather than on age, distri
 
 ## The town next door, the country page, and the page for building AI
 
-[Coding classes in Amstelveen](/coding-classes-in-amstelveen) covers the municipality on Amsterdam's southern edge with the highest share of Indian-origin residents in the country. The [Netherlands coding hub](/coding-classes-in-netherlands) carries the national curriculum picture and the full course list, and [AI and machine learning classes in the Netherlands](/ai-and-machine-learning-classes-in-netherlands) is for the learner who wants to build models. [Amsterdam-Centrum](/coding-classes-in-amsterdam-centrum) and [Amsterdam-Noord](/coding-classes-in-amsterdam-noord) and [Amsterdam-Oost](/coding-classes-in-amsterdam-oost) are the first three of the eight district pages; the other five follow in this series.
+[Coding classes in Amstelveen](/coding-classes-in-amstelveen) covers the municipality on Amsterdam's southern edge with the highest share of Indian-origin residents in the country. The [Netherlands coding hub](/coding-classes-in-netherlands) carries the national curriculum picture and the full course list, and [AI and machine learning classes in the Netherlands](/ai-and-machine-learning-classes-in-netherlands) is for the learner who wants to build models. [Amsterdam-Centrum](/coding-classes-in-amsterdam-centrum) and [Amsterdam-Noord](/coding-classes-in-amsterdam-noord) and [Amsterdam-Oost](/coding-classes-in-amsterdam-oost) and [Amsterdam-Zuid](/coding-classes-in-amsterdam-zuid) are the first four of the eight district pages; the other four follow in this series.
 
 ## Contact
 

@@ -6704,5 +6704,64 @@
       "Figures for Betondorp, Amsteldorp, Frankendael, the Dapperbuurt, the Oosterparkbuurt, the Transvaalbuurt, the Weesperzijde, IJburg-Oost, Zeeburgereiland or the rest of Watergraafsmeer. They are named and given no numbers.",
       "Anything the Amsterdam city page owns, including the science park figures, the doorstroomtoets rates and the 2055 district projections."
     ]
+  },
+  "coding-classes-in-amsterdam-zuid": {
+    "market": "Amsterdam-Zuid",
+    "bodyClass": "cg-azd",
+    "pageType": "district",
+    "curriculumAuthority": "Stadsdeel Amsterdam-Zuid, Noord-Holland: 146,395 residents on 1 January 2026, established 1 May 2010 by merging Oud-Zuid and Zuideramstel; area 17.41 km2 with a published density of 9,602 for 2025, which implies about 15.25 km2 of land and is therefore computed on land rather than total; three GGW-gebieden, GK11 Oud-Zuid, GK12 Buitenveldert and Zuidas, GK13 De Pijp and Rivierenbuurt. Three wijken carry full figures: Oude Pijp 14,816 residents in 10,015 households and 9,708 dwellings, Buitenveldert-Oost 8,447 in 4,660 and 4,560, Zuidas 4,977 in 3,310 and 2,878, together 28,240 residents. Density runs from 23,810 in the Oude Pijp to 2,281 on the Zuidas. Regio Noord holidays. The district page argues from two registers that count different objects; Amsterdam-Centrum owns aggregates over ground and the land-versus-total denominator, Amsterdam-Noord owns the rounding bound, Amsterdam-Oost owns self-selection, and the city page owns the doorstroomtoets rates and the 2055 projections.",
+    "localProject": "When two systems disagree, the disagreement is the data. Households and dwellings are published side by side for 2025 in every Amsterdam wijk and count different objects: a registration of people living together against a unit in a building register, with one address able to carry several of the first. On the Zuidas the pair is 3,310 and 2,878, a gap of plus 432 or 15.0 percent; in the Oude Pijp 10,015 and 9,708, plus 307 or 3.2 percent; in Buitenveldert-Oost 4,660 and 4,560, plus 100 or 2.2 percent. Elsewhere in the city the sign reverses: the Jordaan 13,260 against 13,425, minus 165, and Grachtengordel-West 4,290 against 4,394, minus 104. A positive gap points towards addresses carrying more than one household, a negative one towards dwellings with nobody registered in them, so an absolute difference or a single error rate would flatten two opposite phenomena into one meaningless quantity, and forcing the columns to agree would delete the finding entirely. A supporting observation, not the argument: on the Zuidas the tenure counts 2,331 and 518 add to 2,849 against a stock of 2,878, leaving 29 unclassified, and none of those figures is rounded, so it is not the rounding question the Amsterdam-Noord page settles. Distinct from the unit-of-observation trap (Zeeland), where two legitimate row types produce two rankings; from the excluded-population denominator (Venlo); from one label over two contradictory tables (Alphen); and from mismatched vintages (Apeldoorn), since both counts here are 2025. The causes of individual gaps are named as candidates and never assigned.",
+    "requiredMentions": [
+      "146,395",
+      "4,977",
+      "3,310",
+      "2,878",
+      "8,447",
+      "4,660",
+      "14,816",
+      "10,015",
+      "9,708",
+      "2,281",
+      "68,200",
+      "28,240",
+      "Zuidas",
+      "Buitenveldert-Oost"
+    ],
+    "sources": [
+      {
+        "claim": "Op 1 januari 2026 telde Zuid 146.395 inwoners, with a density of 9.602 (2025) inw./km2 across 17,41 km2; het huidige stadsdeel werd op 1 mei 2010 ingesteld door samenvoeging van de voormalige stadsdelen Oud-Zuid en Zuideramstel; three GGW-gebieden, Oud-Zuid (GK11) with Hoofddorppleinbuurt, Schinkelbuurt, Willemspark, Museumkwartier, Stadionbuurt and Apollobuurt, Buitenveldert/Zuidas (GK12) with Prinses Irenebuurt, Zuidas, Buitenveldert-West and Buitenveldert-Oost, and De Pijp/Rivierenbuurt (GK13) with Oude Pijp, Nieuwe Pijp, Zuid Pijp, Scheldebuurt, IJselbuurt and Rijnbuurt; in Oud-Zuid liggen onder meer het Vondelpark and het Museumplein met de belangrijkste musea, and het door H.P. Berlage ontworpen Plan Zuid; het gebied Buitenveldert, Zuidas omvat naast woongebieden ook het internationale zakendistrict Zuidas; de Albert Cuypmarkt and het Sarphatipark are named in the De Pijp and Rivierenbuurt zone.",
+        "url": "https://nl.wikipedia.org/wiki/Amsterdam-Zuid"
+      },
+      {
+        "claim": "Wijk Zuidas, Amsterdam: 4,977 inwoners (2026); 3,310 huishoudens averaging 1.5 (2025), 2,275 eenpersoonshuishoudens at 69 percent; ages 500 (0 to 15, 10 percent), 810 (15 to 25, 16 percent), 2,795 (25 to 45, 56 percent), 685 (45 to 65, 14 percent), 190 (65+, 3.82 percent); 217 hectare total, 212 land, 4 water (2025); bevolkingsdichtheid 2,281 per km2 (2025); woningvoorraad 2,878 (2025); average WOZ 670,000 euro (2025); 2,331 huurwoningen (81 percent) and 518 koopwoningen (18 percent); average income 68,200 euro per resident (2024); 5 buurten: RAI, Zuidas-Noord, Zuidas-Zuid, Vivaldi, VU-kwartier.",
+        "url": "https://allecijfers.nl/wijk/zuidas-amsterdam/"
+      },
+      {
+        "claim": "Wijk Buitenveldert-Oost, Amsterdam: 8,447 inwoners (2026); 4,660 huishoudens averaging 1.7 (2025), 2,610 eenpersoonshuishoudens at 56 percent; ages 1,100 (0 to 15, 13 percent), 835 (15 to 25, 9.9 percent), 2,960 (25 to 45, 35 percent), 1,650 (45 to 65, 20 percent), 1,865 (65+, 22 percent); 170 hectare total, 153 land (2025); bevolkingsdichtheid 5,451 per km2 (2025); 4,560 woningen (2025); average WOZ 516,000 euro (2025); 3,010 huurwoningen (66 percent) and 1,550 koopwoningen (34 percent); average income 44,200 euro (2024); 4 buurten.",
+        "url": "https://allecijfers.nl/wijk/buitenveldert-oost-amsterdam/"
+      },
+      {
+        "claim": "Wijk Oude Pijp, Amsterdam: 14,816 inwoners (2026); 10,015 huishoudens averaging 1.5 (2025), 6,445 eenpersoonshuishoudens at 64 percent and 3,570 meerpersoonshuishoudens at 36; ages 975 (0 to 15, 6.6 percent), 2,305 (15 to 25, 16 percent), 6,930 (25 to 45, 47 percent), 3,005 (45 to 65, 20 percent), 1,615 (65+, 11 percent); 68 hectare total, 63 land; bevolkingsdichtheid 23,810 per km2 (2025); 9,708 woningen (2025); average WOZ 539,000 euro (2025); 2,621 koopwoningen (27 percent) and 7,087 huurwoningen (73 percent); average income 49,400 euro (2024); 5 buurten.",
+        "url": "https://allecijfers.nl/wijk/oude-pijp-amsterdam/"
+      },
+      {
+        "claim": "Wijk Jordaan, Amsterdam: 13,260 huishoudens and 13,425 woningen (2025). Wijk Grachtengordel-West, Amsterdam: 4,290 huishoudens and 4,394 woningen (2025). Both are used on this page only to show that the household-minus-dwelling gap changes sign across the city.",
+        "url": "https://allecijfers.nl/wijk/jordaan-amsterdam/"
+      },
+      {
+        "claim": "School holiday regions: regio Noord = Groningen, Friesland, Drenthe, Overijssel, Flevoland, Noord-Holland; regio Midden = Utrecht, Zuid-Holland and the northern part of Gelderland; regio Zuid = Zeeland, Noord-Brabant, Limburg and the southern part of Gelderland.",
+        "url": "https://www.rijksoverheid.nl/themas/onderwijs/schoolvakanties/regios-schoolvakantie"
+      }
+    ],
+    "rejectedClaims": [
+      "A cause for any individual household-minus-dwelling gap. Candidates are named for each direction and none is assigned, because nothing read establishes which applies where.",
+      "Any reconciled figure in which households and dwellings agree. Both counts are printed as published and neither is adjusted.",
+      "An average of the five gaps. They run from minus 2.4 percent to plus 15.0 and point in opposite directions, so a single mean would describe nowhere.",
+      "A district average of income, household size, age or tenure. Three of the district's wijken were read and a partial average is not an average.",
+      "Any argument built on the district density of 9,602 against the area of 17.41 km2. The mismatch is noted once and the land-versus-total question belongs to the Amsterdam-Centrum page.",
+      "The 29 unclassified dwellings on the Zuidas treated as a rounding artefact. None of the figures involved is rounded, and the rounding bound belongs to the Amsterdam-Noord page.",
+      "Figures for the Museumkwartier, Apollobuurt, Stadionbuurt, Nieuwe Pijp, Zuid Pijp, Scheldebuurt, IJselbuurt, Rijnbuurt, Willemspark, Schinkelbuurt, Hoofddorppleinbuurt, Prinses Irenebuurt or Buitenveldert-West. They are named and given no numbers.",
+      "Anything the Amsterdam city page owns, including the doorstroomtoets rates, the international school addresses and the 2055 district projections."
+    ]
   }
 }
