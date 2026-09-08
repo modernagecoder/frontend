@@ -85,7 +85,7 @@ Now with [a page of its own](/coding-classes-in-amsterdam-noord), arguing about 
 
 ### West and Nieuw-West
 
-West adds a projected 13,200 and Nieuw-West 31,300, which makes Nieuw-West the largest of the western growth areas. Between them they hold much of the city's primary-school-age population, and the largest share of the 244 basisscholen.
+[West has its own page](/coding-classes-in-amsterdam-west), on a label that outlived the buildings it described. West adds a projected 13,200 and Nieuw-West 31,300, which makes Nieuw-West the largest of the western growth areas. Between them they hold much of the city's primary-school-age population, and the largest share of the 244 basisscholen.
 
 ### Centrum and Weesp
 
@@ -266,7 +266,7 @@ Five to ten learners, matched on level, pace and goal rather than on age, distri
 
 ## The town next door, the country page, and the page for building AI
 
-[Coding classes in Amstelveen](/coding-classes-in-amstelveen) covers the municipality on Amsterdam's southern edge with the highest share of Indian-origin residents in the country. The [Netherlands coding hub](/coding-classes-in-netherlands) carries the national curriculum picture and the full course list, and [AI and machine learning classes in the Netherlands](/ai-and-machine-learning-classes-in-netherlands) is for the learner who wants to build models. [Amsterdam-Centrum](/coding-classes-in-amsterdam-centrum) and [Amsterdam-Noord](/coding-classes-in-amsterdam-noord) and [Amsterdam-Oost](/coding-classes-in-amsterdam-oost) and [Amsterdam-Zuid](/coding-classes-in-amsterdam-zuid) are the first four of the eight district pages; the other four follow in this series.
+[Coding classes in Amstelveen](/coding-classes-in-amstelveen) covers the municipality on Amsterdam's southern edge with the highest share of Indian-origin residents in the country. The [Netherlands coding hub](/coding-classes-in-netherlands) carries the national curriculum picture and the full course list, and [AI and machine learning classes in the Netherlands](/ai-and-machine-learning-classes-in-netherlands) is for the learner who wants to build models. [Amsterdam-Centrum](/coding-classes-in-amsterdam-centrum) and [Amsterdam-Noord](/coding-classes-in-amsterdam-noord) and [Amsterdam-Oost](/coding-classes-in-amsterdam-oost) and [Amsterdam-Zuid](/coding-classes-in-amsterdam-zuid) and [Amsterdam-West](/coding-classes-in-amsterdam-west) are the first five of the eight district pages; Nieuw-West, Zuidoost and Weesp follow in this series.
 
 ## Contact
 

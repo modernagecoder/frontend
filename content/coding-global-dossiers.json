@@ -6763,5 +6763,60 @@
       "Figures for the Museumkwartier, Apollobuurt, Stadionbuurt, Nieuwe Pijp, Zuid Pijp, Scheldebuurt, IJselbuurt, Rijnbuurt, Willemspark, Schinkelbuurt, Hoofddorppleinbuurt, Prinses Irenebuurt or Buitenveldert-West. They are named and given no numbers.",
       "Anything the Amsterdam city page owns, including the doorstroomtoets rates, the international school addresses and the 2055 district projections."
     ]
+  },
+  "coding-classes-in-amsterdam-west": {
+    "market": "Amsterdam-West",
+    "bodyClass": "cg-awt",
+    "pageType": "district",
+    "curriculumAuthority": "Stadsdeel Amsterdam-West, Noord-Holland: formed in 2010 from Oud-West, Westerpark, De Baarsjes and Bos en Lommer, with the part of Westpoort east of the A10 added on 1 January 2015; governed by a stadsdeelraad from 2010 to 2014 and by a bestuurscommissie since; its entry publishes 148,908 residents for 1 January 2022, four years older than the wijk figures, so no district density or share is computed here, and claims the highest population density of any Amsterdam district on 9.45 km2 of land. Two wijken carry full figures: De Kolenkit 11,767 residents, 6,280 households, 6,095 dwellings, density 16,368, WOZ 419,000 euro, income 32,400 euro; Helmersbuurt 7,271 residents, 4,570 households, 4,470 dwellings, density 22,424, WOZ 646,000 euro, income 55,800 euro. Regio Noord holidays. The district page argues from an identifier that outlived what it named; Amsterdam-Centrum owns aggregates over ground, Amsterdam-Noord the rounding bound, Amsterdam-Oost self-selection, Amsterdam-Zuid the two registers, and the city page the doorstroomtoets rates.",
+    "localProject": "An identifier is a promise of continuity, and somebody has to decide when it breaks. In February 2009 the buurt entry records De Kolenkit reported, on NU.nl, as the slechtste wijk van Nederland. The same entry records what followed: an urban renewal plan under which a large part of the buurt would be demolished in the following years and replaced by new construction. Seventeen years on the name is unchanged, one of its four buurten is called Laan van Spartaan, and a search still returns the 2009 sentence first. The published record does not give how many homes were demolished, how many were built, or the population of the buurt in 2009, so the extent of the replacement cannot be quantified from it, and that unquantifiability is why the label travels unchallenged: a claim that cannot be re-tested never expires. The page therefore quotes the 2009 label with its date and source, quotes the 2026 figures in full, and joins nothing across the two, refusing to say whether conditions improved. The general case is entity resolution over time: customer ids surviving an acquisition, product codes surviving a redesign, metric names surviving a definition change, a school keeping its league-table history through a merger. Distinct from the merger trap (Zaanstad), where administrative units combine to make a new row; from a boundary change inside a series (Alkmaar), where the territory changes; and from one label over two contemporaneous tables (Alphen): here the unit, the boundary and the name are all unchanged and the physical thing inside them was replaced over time.",
+    "requiredMentions": [
+      "11,767",
+      "6,280",
+      "6,095",
+      "16,368",
+      "419,000",
+      "32,400",
+      "7,271",
+      "4,570",
+      "4,470",
+      "22,424",
+      "646,000",
+      "55,800",
+      "Kolenkit",
+      "Laan van Spartaan"
+    ],
+    "sources": [
+      {
+        "claim": "Amsterdam-West: 148.908 inwoners (1 januari 2022); oppervlakte 9,45 km2 (land); dit stadsdeel werd ingesteld in 2010 en is een samenvoeging van de vroegere stadsdelen Oud-West, Westerpark, De Baarsjes en Bos en Lommer; sinds 1 januari 2015 is van Westpoort het gedeelte ten oosten van de A10 toegevoegd aan Stadsdeel West; West de hoogste bevolkingsdichtheid heeft van de gemeente Amsterdam; het stadsdeel Amsterdam-West werd van 2010 tot 2014 bestuurd door een stadsdeelraad, in 2014 zijn de deelraden opgeheven en wordt het bestuur gevormd door een bestuurscommissie; 27 named buurten including the Spaarndammerbuurt, Staatsliedenbuurt, Frederik Hendrikbuurt and Kinkerbuurt; the village of Sloterdijk belongs to the district.",
+        "url": "https://nl.wikipedia.org/wiki/Amsterdam-West"
+      },
+      {
+        "claim": "Kolenkitbuurt: identified in February 2009 as the meest problematische wijk and reported as the slechtste wijk van Nederland, attributed to NU.nl; een plan tot stedelijke vernieuwing opgesteld waardoor in de jaren daarna een groot deel van deze buurt zou worden gesloopt en door nieuwbouw vervangen; figures quoted alongside the assessment and not separately dated include unemployment 11.5 percent, early school-leavers 16 percent, and Cito results tot de laagste van de stad. The entry gives no number of homes demolished or built and no population figure with a date.",
+        "url": "https://nl.wikipedia.org/wiki/Kolenkitbuurt"
+      },
+      {
+        "claim": "Wijk De Kolenkit, Amsterdam: 11,767 inwoners (2026); 6,280 huishoudens averaging 1.9 (2025), 3,565 eenpersoonshuishoudens at 57 percent; ages 1,795 (0 to 15, 15 percent), 1,895 (15 to 25, 16 percent), 4,910 (25 to 45, 42 percent), 2,120 (45 to 65, 18 percent), 1,040 (65+, 8.8 percent); 74 hectare total, 72 land (2025); bevolkingsdichtheid 16,368 per km2 (2025); woningvoorraad 6,095 (2025); average WOZ 419,000 euro (2025); 4,876 huurwoningen (80 percent) and 1,219 koopwoningen (20 percent); average income 32,400 euro per resident (2024); 4 buurten: Kolenkitbuurt-Noord, Kolenkitbuurt-Zuid, Robert Scottbuurt-West, Laan van Spartaan.",
+        "url": "https://allecijfers.nl/wijk/de-kolenkit-amsterdam/"
+      },
+      {
+        "claim": "Wijk Helmersbuurt, Amsterdam: 7,271 inwoners (2026); 4,570 huishoudens averaging 1.6 (2025), 2,670 eenpersoonshuishoudens at 58 percent; ages 675 (0 to 15, 9.3 percent), 820 (15 to 25, 11 percent), 3,105 (25 to 45, 43 percent), 1,655 (45 to 65, 23 percent), 1,010 (65+, 14 percent); 35 hectare total, 33 land; bevolkingsdichtheid 22,424 per km2 (2025); woningvoorraad 4,470 (2025); average WOZ 646,000 euro (2025); 2,906 huurwoningen (65 percent) and 1,564 koopwoningen (35 percent); average income 55,800 euro (2024); 3 buurten: Helmersbuurt-Oost, WG-terrein, Cremerbuurt-Oost.",
+        "url": "https://allecijfers.nl/wijk/helmersbuurt-amsterdam/"
+      },
+      {
+        "claim": "School holiday regions: regio Noord = Groningen, Friesland, Drenthe, Overijssel, Flevoland, Noord-Holland; regio Midden = Utrecht, Zuid-Holland and the northern part of Gelderland; regio Zuid = Zeeland, Noord-Brabant, Limburg and the southern part of Gelderland.",
+        "url": "https://www.rijksoverheid.nl/themas/onderwijs/schoolvakanties/regios-schoolvakantie"
+      }
+    ],
+    "rejectedClaims": [
+      "Any statement that De Kolenkit has improved or declined since 2009. Nothing published that was read gives the extent of the replacement, a 2009 population, or current values for the 2009 indicators, so no comparison across that boundary is drawn anywhere on the page.",
+      "The February 2009 label repeated as a current description. It is quoted with its date and its named source in order to be argued against.",
+      "A count of homes demolished or built in the renewal programme. No source read gives one.",
+      "Any district density or share computed from the 2022 district population against 2025 or 2026 wijk figures. Mixing vintages is the Apeldoorn page's argument.",
+      "A test of the entry's claim that West has the highest density in the municipality. Verifying it would need every district measured on the same basis in the same year, and the district entries do not provide that.",
+      "A district average of any kind from two wijken. A partial average is not an average.",
+      "Figures for the Spaarndammerbuurt, Staatsliedenbuurt, Frederik Hendrikbuurt, Da Costabuurt, Kinkerbuurt, Van Lennepbuurt, Westerpark, Landlust, Erasmuspark, Overtoomse Sluis, Vondelbuurt or Sloterdijk. They are named and given no numbers.",
+      "Anything the Amsterdam city page owns, including the doorstroomtoets rates, the basisschool counts and the 2055 district projections."
+    ]
   }
 }
