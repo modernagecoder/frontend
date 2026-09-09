@@ -7483,5 +7483,70 @@
       "Figures for Rustenburg en Oostbroek. It is the sixth wijk, it is named, and its row was not read.",
       "Anything the Hague city page owns, including the stadsdeel population table, the named secondary schools and their addresses."
     ]
+  },
+  "coding-classes-in-scheveningen": {
+    "market": "Scheveningen",
+    "bodyClass": "cg-shv",
+    "pageType": "district",
+    "curriculumAuthority": "Stadsdeel Scheveningen, Den Haag, Zuid-Holland: the coastal district, 55,717 residents at the 2015 encyclopaedia figure and 59,992 on the city page for 2022, neither current; the number of wijken in the stadsdeel was not established from any consulted source, the statistics office publishing 45 wijken and 115 buurten for the municipality without stadsdeel grouping, so this page names four and claims no fraction. Four read in full at 2026: Wijk 07 Scheveningen 19,637 on 232 hectares, 231 land and 1 water, density 8,370, 10,505 households averaging 1.8 with 5,495 single at 52 percent, 2,690 under fifteen at 14 percent, 4,055 over sixty-five at 21 percent, 10,984 dwellings, value 425,000 euro, 5,382 owner-occupied at 49 percent, income 38,900 euro, 2 primary establishments with 716 pupils and 1 secondary with 831, five buurten Scheveningen Badplaats, Rijslag, Oud Scheveningen, Visserijbuurt and Vissershaven; Wijk 09 Geuzen en Statenkwartier 14,741 on 135 hectares, density 11,128, 7,330 households averaging 2.0 with 3,330 single at 45 percent, 2,180 under fifteen, 7,565 dwellings, value 620,000 euro the highest of the four, 4,463 owner-occupied at 59 percent, income 51,300 euro, 6 primary establishments with 1,264 pupils and 2 secondary with 336, buurten Statenkwartier and Geuzenkwartier; Wijk 02 Belgisch Park 8,392 on 106 hectares, density 7,887, 4,305 households averaging 1.9 with 2,155 single at 50 percent, 1,215 under fifteen, 1,810 over sixty-five at 22 percent, 4,165 dwellings, value 541,000 euro, 2,541 owner-occupied at 61 percent, income 43,900 euro, 2 primary establishments with 563 pupils; Wijk 08 Duindorp 5,853 on 91 hectares, density 6,308, 2,830 households averaging 2.0 with 1,245 single at 44 percent, 955 under fifteen, 2,840 dwellings, value 377,000 euro, 1,221 owner-occupied at 43 percent, income 30,500 euro, 1 primary establishment with 71 pupils. History: terra de Sceveninghe in a document of 1357; the Allerheiligenvloed of 1570 destroying half the settlement; 917 people in 200 buildings with about 250 in fishing in 1680; Jacob Pronk opening the first bathhouse in 1818; the Kurhaus in 1884; Wijk 07 at 16,570 in 2014. Regio Midden holidays. The district page argues that a persistent name is not a persistent referent; Den Haag Centrum owns the missing standard, Escamp necessary versus sufficient, Rotterdam Centrum boundary truncation, Taqah the trend fitted across a break.",
+    "localProject": "A name is not an identity, and nothing in a dataset enforces the difference. Scheveningen appears in a document of 1357 as terra de Sceveninghe. In 1680 it was a fishing village of 917 people in 200 buildings, about 250 of them fishing, rebuilt after the Allerheiligenvloed of 1570 destroyed half of it. From 1818, when Jacob Pronk opened a wooden bathhouse, and more so from 1884 and the Kurhaus, it was a resort. In the twentieth century the statistics office drew a boundary and named the enclosure Wijk 07 Scheveningen, 232 hectares holding Scheveningen Badplaats, Rijslag, Oud Scheveningen, the Visserijbuurt and the Vissershaven, and counted 19,637 residents inside it in 2026. Setting 917 against 19,637 as growth compares a village with a polygon that contains it as one buurt of five. Both figures are correct, both count people, both are labelled Scheveningen, and there is no error anywhere for a check to find: the join succeeds, which is why the mistake survives review. The only legitimate comparison available is 16,570 in 2014 against 19,637 in 2026, same office and same boundary, and the page makes nothing of it beyond noting that it is the one that is allowed. The programming form is the most expensive error in long-lived systems: renaming is safe because tools enforce it, so keeping a name while changing its meaning is invisible, and a column called active_users, a reused customer id, a function that survived a refactor or a config key across two versions will all compile, pass and keep drawing while every downstream comparison quietly stops being true. Distinct from the trend fitted across a break (Taqah), which summarises one continuous series containing a real discontinuity: here there is no series at all, only two isolated observations three centuries apart whose referents differ. Distinct from boundary truncation (Rotterdam Centrum), which is geometric and has nothing to do with time. The page keeps the historical and statistical material visibly apart and states why joining them is not available.",
+    "requiredMentions": [
+      "19,637",
+      "10,505",
+      "5,495",
+      "2,690",
+      "425,000",
+      "14,741",
+      "7,565",
+      "620,000",
+      "8,392",
+      "5,853",
+      "55,717",
+      "16,570",
+      "Vissershaven",
+      "Sceveninghe"
+    ],
+    "sources": [
+      {
+        "claim": "Wijk 07 Scheveningen, Den Haag: 19,637 inwoners (2026); 10,505 huishoudens averaging 1.8, 5,495 eenpersoonshuishoudens at 52 percent; ages 2,690 (0 to 15, 14 percent), 2,110 (15 to 25, 11 percent), 5,540 (25 to 45, 28 percent), 5,265 (45 to 65, 27 percent), 4,055 (65+, 21 percent); 232 hectare total, 231 land, 1 water; bevolkingsdichtheid 8,370 per km2; woningvoorraad 10,984 (2025); gemiddelde WOZ 425,000 euro (2025); 5,492 huurwoningen (50 percent) and 5,382 koopwoningen (49 percent); gemiddeld inkomen 38,900 euro (2024); 2 vestigingen basisonderwijs with 716 leerlingen and 1 vestiging voortgezet onderwijs with 831 leerlingen; 5 buurten: Scheveningen Badplaats, Rijslag, Oud Scheveningen, Visserijbuurt, Vissershaven.",
+        "url": "https://allecijfers.nl/wijk/scheveningen-den-haag/"
+      },
+      {
+        "claim": "Wijk 09 Geuzen en Statenkwartier, Den Haag: 14,741 inwoners (2026); 7,330 huishoudens averaging 2.0, 3,330 eenpersoonshuishoudens at 45 percent and 4,000 meerpersoonshuishoudens at 55; ages 2,180 (0 to 15, 15 percent), 1,730 (15 to 25, 12 percent), 3,615 (25 to 45, 25 percent), 4,260 (45 to 65, 29 percent), 2,965 (65+, 20 percent); 135 hectare; bevolkingsdichtheid 11,128 per km2; woningvoorraad 7,565 (2025); gemiddelde WOZ 620,000 euro (2025); 3,026 huurwoningen (40 percent) and 4,463 koopwoningen (59 percent); gemiddeld inkomen 51,300 euro (2024); 6 vestigingen basisonderwijs with 1,264 leerlingen and 2 vestigingen voortgezet onderwijs with 336 leerlingen; 2 buurten: Statenkwartier, Geuzenkwartier.",
+        "url": "https://allecijfers.nl/wijk/geuzen-en-statenkwartier-den-haag/"
+      },
+      {
+        "claim": "Wijk 02 Belgisch Park, Den Haag: 8,392 inwoners (2026); 4,305 huishoudens averaging 1.9, 2,155 eenpersoonshuishoudens at 50 percent; ages 1,215 (0 to 15, 14 percent), 1,265 (15 to 25, 15 percent), 1,810 (25 to 45, 22 percent), 2,260 (45 to 65, 27 percent), 1,810 (65+, 22 percent); 106 hectare; bevolkingsdichtheid 7,887 per km2; woningvoorraad 4,165 (2025); gemiddelde WOZ 541,000 euro (2025); 1,583 huurwoningen (38 percent) and 2,541 koopwoningen (61 percent); gemiddeld inkomen 43,900 euro (2024); 2 vestigingen basisonderwijs with 563 leerlingen and 0 vestigingen voortgezet onderwijs.",
+        "url": "https://allecijfers.nl/wijk/belgisch-park-den-haag/"
+      },
+      {
+        "claim": "Wijk 08 Duindorp, Den Haag: 5,853 inwoners (2026); 2,830 huishoudens averaging 2.0, 1,245 eenpersoonshuishoudens at 44 percent; ages 955 (0 to 15, 16 percent), 605 (15 to 25, 10 percent), 1,515 (25 to 45, 26 percent), 1,700 (45 to 65, 29 percent), 1,040 (65+, 18 percent); 91 hectare; bevolkingsdichtheid 6,308 per km2; woningvoorraad 2,840 (2025); gemiddelde WOZ 377,000 euro (2025); 1,619 huurwoningen (57 percent) and 1,221 koopwoningen (43 percent); gemiddeld inkomen 30,500 euro (2024); 1 vestiging basisonderwijs with 71 leerlingen and 0 vestigingen voortgezet onderwijs.",
+        "url": "https://allecijfers.nl/wijk/duindorp-den-haag/"
+      },
+      {
+        "claim": "Scheveningen, Den Haag: the name first appears in a 1357 document as terra de Sceveninghe, the -ingen suffix suggesting a 10th or 11th century origin; in 1570 the Allerheiligenvloed destroyed half the settlement; in 1680 Scheveningen housed 917 people in 200 buildings, with approximately 250 engaged in fishing; Jacob Pronk Nz opened the first bathhouse in 1818, a small wooden building with a waiting room and four bathing rooms with sea views; the Kurhaus hotel opened in 1884 in Italian Renaissance style; the village transformed from a fishing community using pink and bomschuit vessels into a seaside resort. Wijk 07 Scheveningen had 16,570 inhabitants in 2014; the stadsdeel as a whole had 55,717 inhabitants in 2015.",
+        "url": "https://nl.wikipedia.org/wiki/Scheveningen"
+      },
+      {
+        "claim": "Gemeente Den Haag: 569,468 inwoners in 2026; 1 woonplaats, 45 wijken en 115 buurten. The wijk listing is published for the municipality and is not grouped by stadsdeel.",
+        "url": "https://allecijfers.nl/gemeente/den-haag/"
+      },
+      {
+        "claim": "School holiday regions: regio Midden = Utrecht, Zuid-Holland and the northern part of Gelderland; regio Noord = Groningen, Friesland, Drenthe, Overijssel, Flevoland, Noord-Holland; regio Zuid = Zeeland, Noord-Brabant, Limburg and the southern part of Gelderland.",
+        "url": "https://www.rijksoverheid.nl/themas/onderwijs/schoolvakanties/regios-schoolvakantie"
+      }
+    ],
+    "rejectedClaims": [
+      "That Scheveningen grew from 917 people to 19,637. The two figures count different objects and the sentence joining them is the error this page exists to describe.",
+      "Any count of how many wijken stadsdeel Scheveningen contains. No consulted source groups the municipality 45 wijken by stadsdeel, so four are named and no fraction is claimed.",
+      "A 2026 population for the stadsdeel. The published totals are 55,717 for 2015 and 59,992 for 2022 on the city page, both dated wherever used.",
+      "Any stadsdeel figure assembled from the four wijken read, and any average across them.",
+      "Any claim that the 2014 to 2026 change in Wijk 07 has a cause. It is offered only as the one comparison the definitions permit.",
+      "Any reading of the gap between the published housing stock and the sum of the owner-occupied and rented counts. That gap is a difference between two registers and belongs to the Amsterdam-Zuid page.",
+      "Any argument from the coastline being outside the wijk boundary. Geometric truncation at a border is the Rotterdam Centrum page argument.",
+      "Any trend fitted across the historical and statistical material together. The Taqah page in this series covers a line drawn through a real break in one series; here there is no series, only two isolated observations of different objects.",
+      "Any ranking of the four wijken by income or dwelling value presented as a finding. The figures are quoted; the Hillegersberg-Schiebroek page owns the argument about correlated measures.",
+      "Anything the Hague city page owns, including the stadsdeel population table, the named secondary schools and their addresses."
+    ]
   }
 }

@@ -2274,4 +2274,8 @@
 # International growth cluster (coding-global.css). Must precede the /* catch-all.
 /coding-classes-in-escamp /src/pages/coding-classes-in-escamp.html 200
 /coding-classes-in-escamp.md /src/pages/coding-classes-in-escamp.md 200
+
+# International growth cluster (coding-global.css). Must precede the /* catch-all.
+/coding-classes-in-scheveningen /src/pages/coding-classes-in-scheveningen.html 200
+/coding-classes-in-scheveningen.md /src/pages/coding-classes-in-scheveningen.md 200
 /* /src/pages/404.html 404
