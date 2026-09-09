@@ -7612,5 +7612,62 @@
       "Any inference from the 4,300 secondary pupils in the Benoordenhout about who lives there. Where establishments stand relative to the children counted is the Escamp page argument.",
       "Anything the Hague city page owns, including the stadsdeel population table, the named secondary schools and their addresses."
     ]
+  },
+  "coding-classes-in-laak": {
+    "market": "Laak",
+    "bodyClass": "cg-lak",
+    "pageType": "district",
+    "curriculumAuthority": "Stadsdeel Laak, Den Haag, Zuid-Holland: formed 1988, the smallest stadsdeel of The Hague, 4.27 km2 of which 4.02 land and 0.24 water, 21,752 woningen, published density 10,809, 46,155 residents (2023) against 47,305 for 2022 on the Hague city page; two wijken, both read at 2026. Laakkwartier en Spoorwijk 44,684, the largest wijk in The Hague, on 281 hectares of which 268 land and 12 water, density 16,690; 24,140 households averaging 1.8 with 13,475 single at 56 percent; 6,325 under fifteen at 14 percent, 7,535 aged fifteen to twenty-five at 17, 16,320 aged twenty-five to forty-five at 37, 10,385 aged forty-five to sixty-five at 23, 4,105 over sixty-five at 9.2; 21,095 dwellings, value 249,000 euro, 14,766 rented at 70 percent and 6,118 owned at 29; income 26,300 euro (2024); 12 primary establishments with 2,903 pupils and 2 secondary with 543; six buurten Laakhaven-Oost, Laakhaven-West, Spoorwijk, Laakkwartier-West, Laakkwartier-Oost and Noordpolderbuurt. Wijk 39 Binckhorst 4,126 on 146 hectares of which 134 land and 12 water, density 2,556; 1,870 households averaging 1.6 with 1,025 single at 55 percent; 360 under fifteen at 8.7 percent, 615 aged fifteen to twenty-five at 15, 2,635 aged twenty-five to forty-five at 64, 425 aged forty-five to sixty-five at 10, 100 over sixty-five; 1,902 dwellings, value 386,000 euro, 1,750 rented at 92 percent and 152 owned at 8; income 49,600 euro for 2023 rather than 2024; 1 primary establishment with 62 pupils. History: around 1900 the Laakkanaal and insteekhavens were dug and industry settled along them; most of that industrial district has been converted to a Haagse Hogeschool campus and a residential area including student flats. Regio Midden holidays. The district page argues that a distribution licenses no inference about preference unless the options were reachable by everyone; Den Haag Centrum owns the missing standard, Escamp necessary versus sufficient, Scheveningen the unstable referent, Haagse Hout precision against accuracy, Prins Alexander the single cross-section and Venlo the excluded-population denominator.",
+    "localProject": "A distribution over options is evidence about preferences only if the options were open to everyone in the same way. Wijk 39 Binckhorst has 4,126 residents of whom 2,635 are aged twenty-five to forty-five, 64 percent, with 360 under fifteen and 100 over sixty-five, and 1,750 of its 1,902 dwellings are rented, 92 percent. The available sentence is that young adults are drawn to the area and that families and older people avoid it. Every word of that is an inference about wanting, and none of the figures measures wanting. The published history supplies the alternative: around 1900 the Laakkanaal and its inlet harbours were dug and industry established itself, and most of that industrial district has since been rebuilt as a Haagse Hogeschool campus and housing including student flats. Rented flats on a converted industrial estate are taken by the households for whom a rented flat is a workable home; a family of five and a couple in their eighties are not declining the Binckhorst, they were largely never offered anything in it they could take. So the age table measures the building programme, not taste, and the smaller claim is the fully supported one. The programming form is the most common false inference in product work and it survives seniority because it does not feel like an inference: ninety percent of sessions on mobile because the web client never shipped, an unused export button sitting three menus deep, an A/B arm that timed out for half its traffic, and above all the default, which is the most chosen option in almost every system on earth and is reported as popularity daily. The loop is what makes it expensive: we built one thing, people used it, therefore people want it, therefore we build more, and nothing enters the loop from outside. Distinct from the single cross-section (Prins Alexander), which asks whether a state arose by arrival or by ageing and is a question about history rather than about choice sets, and from the excluded-population denominator (Venlo), where the served population appears in no register at all; here everybody is registered and the fault is reading an outcome as a decision. The page states what would settle it, a survey of who considered moving here and what was on the market when they looked, and reports that neither was read.",
+    "requiredMentions": [
+      "24,140",
+      "13,475",
+      "7,535",
+      "16,320",
+      "21,095",
+      "249,000",
+      "14,766",
+      "4,126",
+      "2,635",
+      "1,902",
+      "386,000",
+      "16,690",
+      "2,556",
+      "Noordpolderbuurt"
+    ],
+    "sources": [
+      {
+        "claim": "Wijk Laakkwartier en Spoorwijk, Den Haag: 44,684 inwoners (2026); 24,140 huishoudens averaging 1.8, 13,475 eenpersoonshuishoudens at 56 percent and 10,665 meerpersoonshuishoudens at 44; ages 6,325 (0 to 15, 14 percent), 7,535 (15 to 25, 17 percent), 16,320 (25 to 45, 37 percent), 10,385 (45 to 65, 23 percent), 4,105 (65+, 9.2 percent); 281 hectare, 268 land, 12 water; bevolkingsdichtheid 16,690 per km2; woningvoorraad 21,095 (2025); gemiddelde WOZ 249,000 euro (2025); 14,766 huurwoningen (70 percent) and 6,118 koopwoningen (29 percent); gemiddeld inkomen 26,300 euro (2024); 12 vestigingen basisonderwijs with 2,903 leerlingen and 2 vestigingen voortgezet onderwijs with 543 leerlingen; 6 buurten: Laakhaven-Oost, Laakhaven-West, Spoorwijk, Laakkwartier-West, Laakkwartier-Oost, Noordpolderbuurt.",
+        "url": "https://allecijfers.nl/wijk/laakkwartier-en-spoorwijk-den-haag/"
+      },
+      {
+        "claim": "Wijk 39 Binckhorst, Den Haag: 4,126 inwoners (2026); 1,870 huishoudens averaging 1.6, 1,025 eenpersoonshuishoudens at 55 percent and 845 meerpersoonshuishoudens at 45; ages 360 (0 to 15, 8.7 percent), 615 (15 to 25, 15 percent), 2,635 (25 to 45, 64 percent), 425 (45 to 65, 10 percent), 100 (65+, 2.42 percent); 146 hectare, 134 land, 12 water; bevolkingsdichtheid 2,556 per km2; woningvoorraad 1,902 (2025); gemiddelde WOZ 386,000 euro (2025); 1,750 huurwoningen (92 percent) and 152 koopwoningen (8 percent); gemiddeld inkomen 49,600 euro for 2023; 1 vestiging basisonderwijs with 62 leerlingen.",
+        "url": "https://allecijfers.nl/wijk/binckhorst-den-haag/"
+      },
+      {
+        "claim": "Stadsdeel Laak, Den Haag: formed 1988; het kleinste van de stadsdelen van Den Haag; two wijken, Laakkwartier en Spoorwijk and Binckhorst; 46,155 inwoners (2023); bevolkingsdichtheid 10,809 per km2; oppervlakte 4,27 km2, of which 4,02 land and 0,24 water; 21,752 woningen. Rond 1900 werden het Laakkanaal en insteekhavens gegraven, waar zich industrie vestigde. Het grootste deel van die industriewijk is nu omgebouwd tot campus van de Haagse Hogeschool en woongebied met (studenten)flats.",
+        "url": "https://nl.wikipedia.org/wiki/Laak_(stadsdeel_van_Den_Haag)"
+      },
+      {
+        "claim": "The Hague city page in this series publishes stadsdeel Laak at 47,305 residents for 2022 and describes Laakkwartier en Spoorwijk as the single largest wijk in the city at 44,684 on 1 January 2026.",
+        "url": "https://learn.modernagecoders.com/coding-classes-in-the-hague"
+      },
+      {
+        "claim": "School holiday regions: regio Midden = Utrecht, Zuid-Holland and the northern part of Gelderland; regio Noord = Groningen, Friesland, Drenthe, Overijssel, Flevoland, Noord-Holland; regio Zuid = Zeeland, Noord-Brabant, Limburg and the southern part of Gelderland.",
+        "url": "https://www.rijksoverheid.nl/themas/onderwijs/schoolvakanties/regios-schoolvakantie"
+      }
+    ],
+    "rejectedClaims": [
+      "That young adults prefer the Binckhorst, that older people avoid it, or that families reject it. Those are claims about what people wanted; the figures record only where people are, in a wijk where the housing on offer is narrow.",
+      "That the area is popular, vibrant, or attractive to any group. Every one of those words asserts a preference the data does not contain.",
+      "Any causal claim running the other way either, such as that the building programme was a response to demand. Nothing read for this page establishes why the flats were built.",
+      "Any stadsdeel dwelling total assembled from the two wijk figures. The 21,752 is from the encyclopaedia entry and the 21,095 and 1,902 are 2025 statistics office figures; they are different vintages from different publishers and are quoted separately.",
+      "A 2026 population for the stadsdeel. The published totals are 46,155 for 2023 and 47,305 for 2022 on the city page, both dated wherever used.",
+      "Any comparison of the two income figures as though they shared a year. Laakkwartier en Spoorwijk is 2024 and the Binckhorst is 2023, which is stated rather than aligned.",
+      "Any reading of the third digit of the 2.42 percent over sixty-five in the Binckhorst. Precision against accuracy is the Haagse Hout page argument and is not reworked here.",
+      "Any inference from where primary establishments stand relative to where children live. That is the Escamp page argument.",
+      "Any account of how the age profile arose over time, such as whether residents arrived young or grew into the band. That is the Prins Alexander page argument, and this page makes no claim about the history of the stock.",
+      "Anything the Hague city page owns, including the stadsdeel population table, the named secondary schools and their addresses."
+    ]
   }
 }
