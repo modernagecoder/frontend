@@ -7419,5 +7419,69 @@
       "Figures for the three wijken not read, the Groente- en Fruitmarkt, the Transvaalkwartier and the Willemspark. All three are named and none was read separately.",
       "Anything the Hague city page owns, including the stadsdeel population table, the named secondary schools and their addresses."
     ]
+  },
+  "coding-classes-in-escamp": {
+    "market": "Escamp",
+    "bodyClass": "cg-esc",
+    "pageType": "district",
+    "curriculumAuthority": "Stadsdeel Escamp, Den Haag, Zuid-Holland: the largest stadsdeel by population, created 1986 when the council divided The Hague into seven districts, mostly built after the Second World War, with the Vinex wijk Wateringse Veld fully inhabited since 2009; 120,080 residents at the 2015 encyclopaedia figure and 128,967 on the city page for 2022, neither current; six wijken, Bouwlust en Vrederust, Leyenburg, Moerwijk en Zuiderpark, Morgenstond, Rustenburg en Oostbroek and Wateringse Veld. Five read in full at 2026: Bouwlust 29,012 on 428 hectares, density 7,088, 14,230 households averaging 2.1 with 7,105 single at 50 percent, 5,325 under fifteen at 18 percent, 12,877 dwellings, value 275,000 euro, 3,348 owner-occupied at 26 percent, income 24,700 euro, 13 primary establishments with 2,954 pupils and 3 secondary with 877, buurten Venen Oorden en Raden, Zijden Steden en Zichten, Dreven en Gaarden and De Uithof; Wateringse Veld 24,628 on 328 hectares, density 8,059, 9,175 households averaging 2.6 with only 2,415 single at 26 percent, 4,750 under fifteen, 8,708 dwellings, value 479,000 euro, 5,312 owner-occupied at 61 percent, income 36,000 euro, 5 primary establishments with 2,534 pupils, buurten Erasmus Veld, Hoge Veld, Parkbuurt Oosteinde, Lage Veld and Zonne Veld; Moerwijk 21,974 on 180 hectares, density 12,157, 11,125 households averaging 1.9, 4,060 under fifteen, 10,585 dwellings, value 230,000 euro, 1,799 owner-occupied, income 23,500 euro, 7 primary establishments with 1,565 pupils; Morgenstond 20,553 on 169 hectares, density 12,375, 10,565 households averaging 1.9 with 5,505 single, 3,625 under fifteen, 10,161 dwellings, value 262,000 euro, income 26,200 euro, 8 primary establishments with 1,734 pupils; Leyenburg 17,143 on 135 hectares, density 13,194, 9,150 households averaging 1.8 with 4,685 single, 2,395 under fifteen at 14 percent, 8,492 dwellings, value 282,000 euro, 4,671 owner-occupied at 55 percent, income 31,800 euro, 4 primary establishments with 1,454 pupils and no secondary. Regio Midden holidays. The district page argues necessary versus sufficient; Den Haag Centrum owns the missing standard, The Hague city page the stadsdeel populations and named schools, Hillegersberg-Schiebroek correlated measures and Amsterdam-Zuid the gap between two registers.",
+    "localProject": "A condition can fail in two opposite directions and almost nobody checks both. Bouwlust has 13 primary establishments teaching 2,954 pupils; the Wateringse Veld has 5 teaching 2,534. A ratio of nearly three to one in buildings produces a few hundred children of difference, because an establishment count counts registered locations and carries no information about the size of any of them. Worse, neither column is about the children of either wijk. A school standing inside a wijk is not necessary for its children to be schooled, since admission crosses boundaries as a matter of course, and it is not sufficient, since its places may be filled from anywhere: Moerwijk has 435 more residents under fifteen than Morgenstond while 169 fewer primary pupils are taught inside it, from one establishment fewer. Three counts, three populations, routinely read as one. The programming form is the commonest logic bug there is. A condition that is necessary but not sufficient lets the wrong things through, which is what a check on age alone does to an account signup; a condition that is sufficient but not necessary keeps the right things out, which is what insisting on a .jpg extension does to images. Beginners write the first kind because the first requirement they think of is genuinely required and feeling that is indistinguishable from being finished. The fifteen-second repair is two questions asked of every condition: can this be false while the thing is true, and can it be true while the thing is false. Distinct from the missing standard (Den Haag Centrum), which is about a verdict needing an imported goal, and from the gap between two registers (Amsterdam-Zuid), which subtracts one count from another: here both counts are correct and the error is treating a spatial label as a membership condition. The page reports the three columns separately and lets none stand for another.",
+    "requiredMentions": [
+      "2,954",
+      "2,534",
+      "1,565",
+      "1,734",
+      "1,454",
+      "5,325",
+      "3,625",
+      "2,395",
+      "4,060",
+      "14,230",
+      "9,175",
+      "12,877",
+      "479,000",
+      "Erasmus Veld"
+    ],
+    "sources": [
+      {
+        "claim": "Wijk 33 Bouwlust, Den Haag: 29,012 inwoners (2026); 14,230 huishoudens averaging 2.1, 7,105 eenpersoonshuishoudens at 50 percent; ages 5,325 (0 to 15, 18 percent), 3,910 (15 to 25, 13 percent), 8,090 (25 to 45, 28 percent), 7,250 (45 to 65, 25 percent), 4,430 (65+, 15 percent); 428 hectare; bevolkingsdichtheid 7,088 per km2; woningvoorraad 12,877; gemiddelde WOZ 275,000 euro (2025); 9,529 huurwoningen (74 percent) and 3,348 koopwoningen (26 percent); gemiddeld inkomen 24,700 euro (2024); 13 vestigingen basisonderwijs with 2,954 leerlingen and 3 vestigingen voortgezet onderwijs with 877 leerlingen; buurten: Venen Oorden en Raden, Zijden Steden en Zichten, Dreven en Gaarden, De Uithof.",
+        "url": "https://allecijfers.nl/wijk/bouwlust-den-haag/"
+      },
+      {
+        "claim": "Wijk 40 Wateringse Veld, Den Haag: 24,628 inwoners (2026); 9,175 huishoudens averaging 2.6, 2,415 eenpersoonshuishoudens at 26 percent and 6,760 meerpersoonshuishoudens at 74; ages 4,750 (0 to 15, 19 percent), 3,420 (15 to 25, 14 percent), 6,000 (25 to 45, 24 percent), 7,115 (45 to 65, 29 percent), 3,320 (65+, 13 percent); 328 hectare; bevolkingsdichtheid 8,059 per km2; woningvoorraad 8,708; gemiddelde WOZ 479,000 euro (2025); 3,309 huurwoningen (38 percent) and 5,312 koopwoningen (61 percent); gemiddeld inkomen 36,000 euro (2024); 5 vestigingen basisonderwijs with 2,534 leerlingen and 1 vestiging voortgezet onderwijs with 612 leerlingen; 5 buurten: Erasmus Veld, Hoge Veld, Parkbuurt oosteinde, Lage Veld, Zonne Veld.",
+        "url": "https://allecijfers.nl/wijk/wateringse-veld-den-haag/"
+      },
+      {
+        "claim": "Wijk Moerwijk, Den Haag: 21,974 inwoners (2026); 11,125 huishoudens averaging 1.9, 6,050 eenpersoonshuishoudens at 54 percent; ages 4,060 (0 to 15, 18 percent), 2,785 (15 to 25, 13 percent), 7,130 (25 to 45, 32 percent), 5,405 (45 to 65, 25 percent), 2,615 (65+, 12 percent); 180 hectare; bevolkingsdichtheid 12,157 per km2; woningvoorraad 10,585; gemiddelde WOZ 230,000 euro (2025); 8,786 huurwoningen (83 percent) and 1,799 koopwoningen (17 percent); gemiddeld inkomen 23,500 euro (2024); 7 vestigingen basisonderwijs with 1,565 leerlingen and 1 vestiging voortgezet onderwijs with 472 leerlingen; 4 buurten: Moerwijk-Oost, Moerwijk-West, Moerwijk-Noord, Moerwijk-Zuid.",
+        "url": "https://allecijfers.nl/wijk/moerwijk-den-haag/"
+      },
+      {
+        "claim": "Wijk 34 Morgenstond, Den Haag: 20,553 inwoners (2026); 10,565 huishoudens averaging 1.9, 5,505 eenpersoonshuishoudens at 52 percent; ages 3,625 (0 to 15, 18 percent), 2,320 (15 to 25, 11 percent), 6,700 (25 to 45, 33 percent), 5,310 (45 to 65, 26 percent), 2,580 (65+, 13 percent); 169 hectare; bevolkingsdichtheid 12,375 per km2; woningvoorraad 10,161; gemiddelde WOZ 262,000 euro (2025); 7,722 huurwoningen (76 percent) and 2,439 koopwoningen (24 percent); gemiddeld inkomen 26,200 euro (2024); 8 vestigingen basisonderwijs with 1,734 leerlingen and 1 vestiging voortgezet onderwijs with 275 leerlingen; 3 buurten: Morgenstond-Oost, Morgenstond-West, Morgenstond-Zuid.",
+        "url": "https://allecijfers.nl/wijk/morgenstond-den-haag/"
+      },
+      {
+        "claim": "Wijk 32 Leyenburg, Den Haag: 17,143 inwoners (2026); 9,150 huishoudens averaging 1.8, 4,685 eenpersoonshuishoudens at 51 percent and 4,465 meerpersoonshuishoudens at 49; ages 2,395 (0 to 15, 14 percent), 2,000 (15 to 25, 12 percent), 5,735 (25 to 45, 33 percent), 4,040 (45 to 65, 24 percent), 2,965 (65+, 17 percent); 135 hectare; bevolkingsdichtheid 13,194 per km2; woningvoorraad 8,492 (2025); gemiddelde WOZ 282,000 euro (2025); 3,821 huurwoningen (45 percent) and 4,671 koopwoningen (55 percent); gemiddeld inkomen 31,800 euro (2024); 4 vestigingen basisonderwijs with 1,454 leerlingen and 0 vestigingen voortgezet onderwijs.",
+        "url": "https://allecijfers.nl/wijk/leyenburg-den-haag/"
+      },
+      {
+        "claim": "Stadsdeel Escamp, Den Haag: formed in 1986 after the council decided to divide The Hague into seven stadsdelen; largely built after the Second World War; became the district with the most residents through the addition of the Vinex district Wateringse Veld, which has been completely inhabited since 2009; more than 40,000 migrants; 120,080 inwoners (2015); six wijken: Bouwlust en Vrederust, Leyenburg, Moerwijk en Zuiderpark, Morgenstond, Rustenburg en Oostbroek, Wateringse Veld.",
+        "url": "https://nl.wikipedia.org/wiki/Escamp"
+      },
+      {
+        "claim": "School holiday regions: regio Midden = Utrecht, Zuid-Holland and the northern part of Gelderland; regio Noord = Groningen, Friesland, Drenthe, Overijssel, Flevoland, Noord-Holland; regio Zuid = Zeeland, Noord-Brabant, Limburg and the southern part of Gelderland.",
+        "url": "https://www.rijksoverheid.nl/themas/onderwijs/schoolvakanties/regios-schoolvakantie"
+      }
+    ],
+    "rejectedClaims": [
+      "That any wijk is well or badly served by schools. Establishment counts, pupil counts and resident child counts are three different populations and this page keeps them apart rather than combining them into a judgement.",
+      "That a school inside a wijk teaches the children of that wijk, or that its absence would mean they are unschooled. Neither follows, which is the argument of the page.",
+      "A population for stadsdeel Escamp. The published totals are 120,080 for 2015 and 128,967 for 2022 on the city page; both are dated wherever used and neither is presented as current.",
+      "Any stadsdeel figure built from the five wijken read. Five of six is a subset, and Rustenburg en Oostbroek is named rather than silently dropped.",
+      "Any estimate of how many of the under-fifteens are of primary age. Dutch primary school runs from four to twelve and the published band runs from zero to fifteen, but slicing the band by assuming an even spread of ages inside it is exactly the move the IJsselmonde page in this series takes apart, and it is not made here.",
+      "Any ranking of the wijken by income or by dwelling value, or any claim that those two orders agree. That is the Hillegersberg-Schiebroek page argument.",
+      "Any reading of a gap between two published registers as a quantity. That is the Amsterdam-Zuid page argument; the two subtractions here compare the same measure across two wijken, not two different measures of one wijk.",
+      "Figures for Rustenburg en Oostbroek. It is the sixth wijk, it is named, and its row was not read.",
+      "Anything the Hague city page owns, including the stadsdeel population table, the named secondary schools and their addresses."
+    ]
   }
 }

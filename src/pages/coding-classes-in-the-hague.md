@@ -60,7 +60,7 @@ Each stadsdeel gets its own page in this series, written close up. This is the m
 
 ### Escamp
 
-The largest district by far, 128,967 people in 2022, and the post-war south-west: Bouwlust 29,012, Wateringse Veld 24,628, Moerwijk 21,974, Morgenstond 20,553, Rustenburg en Oostbroek 18,994, Leyenburg 17,143. Six wijken, each the size of a Dutch town.
+The largest district by far, 128,967 people in 2022, and the post-war south-west: Bouwlust 29,012, Wateringse Veld 24,628, Moerwijk 21,974, Morgenstond 20,553, Rustenburg en Oostbroek 18,994, Leyenburg 17,143. Six wijken, each the size of a Dutch town. [Its page](/coding-classes-in-escamp) takes apart what a count of school buildings inside a boundary can and cannot tell you.
 
 ### Centrum
 
@@ -277,7 +277,7 @@ Five to ten learners, matched on level, pace and goal rather than on age, school
 
 ## Where this page sits in the series
 
-Above it is the [Netherlands coding hub](/coding-classes-in-netherlands), which owns the national curriculum argument and lists every course. Beside it are [Amsterdam](/coding-classes-in-amsterdam), [Amstelveen](/coding-classes-in-amstelveen) and [Eindhoven](/coding-classes-in-eindhoven), each written the way this one is. For a learner whose goal is a trained model rather than a program, the right door is [AI and machine learning classes in the Netherlands](/ai-and-machine-learning-classes-in-netherlands). Below this page sits [Den Haag Centrum](/coding-classes-in-the-hague-centrum), the first of the eight stadsdeel pages, with the other seven on their way.
+Above it is the [Netherlands coding hub](/coding-classes-in-netherlands), which owns the national curriculum argument and lists every course. Beside it are [Amsterdam](/coding-classes-in-amsterdam), [Amstelveen](/coding-classes-in-amstelveen) and [Eindhoven](/coding-classes-in-eindhoven), each written the way this one is. For a learner whose goal is a trained model rather than a program, the right door is [AI and machine learning classes in the Netherlands](/ai-and-machine-learning-classes-in-netherlands). Below this page sit [Den Haag Centrum](/coding-classes-in-the-hague-centrum) and [Escamp](/coding-classes-in-escamp), the first two of the eight stadsdeel pages, with the other six on their way.
 
 ## Contact
 
