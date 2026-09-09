@@ -76,7 +76,7 @@ Segbroek, 62,507, is the pre-war middle of the city: Valkenboskwartier 18,159, R
 
 ### Haagse Hout
 
-48,606 people: Bezuidenhout 19,254 behind the central station, Benoordenhout 15,393 with the European School and the international organisations of the Oostduinlaan and the Van Alkemadelaan, and Mariahoeve en Marlot 15,759 on the edge of the Haagse Bos.
+[Its page](/coding-classes-in-haagse-hout) finds a second published total for this same 2022 figure, 534 people away, and works out what that means. 48,606 people: Bezuidenhout 19,254 behind the central station, Benoordenhout 15,393 with the European School and the international organisations of the Oostduinlaan and the Van Alkemadelaan, and Mariahoeve en Marlot 15,759 on the edge of the Haagse Bos.
 
 ### Loosduinen
 
@@ -277,7 +277,7 @@ Five to ten learners, matched on level, pace and goal rather than on age, school
 
 ## Where this page sits in the series
 
-Above it is the [Netherlands coding hub](/coding-classes-in-netherlands), which owns the national curriculum argument and lists every course. Beside it are [Amsterdam](/coding-classes-in-amsterdam), [Amstelveen](/coding-classes-in-amstelveen) and [Eindhoven](/coding-classes-in-eindhoven), each written the way this one is. For a learner whose goal is a trained model rather than a program, the right door is [AI and machine learning classes in the Netherlands](/ai-and-machine-learning-classes-in-netherlands). Below this page sit [Den Haag Centrum](/coding-classes-in-the-hague-centrum), [Escamp](/coding-classes-in-escamp) and [Scheveningen](/coding-classes-in-scheveningen), the first three of the eight stadsdeel pages, with the other five on their way.
+Above it is the [Netherlands coding hub](/coding-classes-in-netherlands), which owns the national curriculum argument and lists every course. Beside it are [Amsterdam](/coding-classes-in-amsterdam), [Amstelveen](/coding-classes-in-amstelveen) and [Eindhoven](/coding-classes-in-eindhoven), each written the way this one is. For a learner whose goal is a trained model rather than a program, the right door is [AI and machine learning classes in the Netherlands](/ai-and-machine-learning-classes-in-netherlands). Below this page sit [Den Haag Centrum](/coding-classes-in-the-hague-centrum), [Escamp](/coding-classes-in-escamp), [Scheveningen](/coding-classes-in-scheveningen) and [Haagse Hout](/coding-classes-in-haagse-hout), the first four of the eight stadsdeel pages, with the other four on their way.
 
 ## Contact
 

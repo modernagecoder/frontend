@@ -7548,5 +7548,69 @@
       "Any ranking of the four wijken by income or dwelling value presented as a finding. The figures are quoted; the Hillegersberg-Schiebroek page owns the argument about correlated measures.",
       "Anything the Hague city page owns, including the stadsdeel population table, the named secondary schools and their addresses."
     ]
+  },
+  "coding-classes-in-haagse-hout": {
+    "market": "Haagse Hout",
+    "bodyClass": "cg-hho",
+    "pageType": "district",
+    "curriculumAuthority": "Stadsdeel Haagse Hout, Den Haag, Zuid-Holland: formed 1988, the wooded north-east, 9.04 km2 of which 8.82 land and 0.22 water, 27,986 dwellings, published density 5,613; 48,072 residents for 2022 and 50,740 for 2023 in the encyclopaedia entry against 48,606 for 2022 on the Hague city page, the first and third being the same unit at the same date and 534 apart; four wijken, all read at 2026. Wijk 26 Bezuidenhout 19,254 on 193 hectares, density 10,181, 11,305 households averaging 1.7 with 6,150 single at 54 percent, 2,290 under fifteen at 12 percent and 8,115 aged twenty-five to forty-five at 42 percent, 10,853 dwellings, value 390,000 euro, 4,775 owner-occupied at 44 percent, income 44,700 euro (2024), 4 primary establishments with 1,174 pupils and no secondary, buurten Bezuidenhout-Oost, -Midden and -West. Wijk 04 Benoordenhout 15,393 on 274 hectares, density 5,683, 7,205 households averaging 2.1 with 3,140 single at 44 percent, 2,560 under fifteen at 17 percent, 1,465 aged fifteen to twenty-five at 9.5 percent, 4,155 over sixty-five at 27 percent, 7,886 dwellings, value 654,000 euro, 5,441 owner-occupied at 69 percent, income 60,100 euro (2024), 8 primary establishments with 1,954 pupils and 5 secondary with 4,300, six buurten Duinzigt, Waalsdorp, Uilennest, Arendsdorp, Van Hoytemastraat en omgeving and Nassaubuurt. Wijk 25 Mariahoeve en Marlot 15,759 on 309 hectares, density 5,156, 8,615 households averaging 1.8 with 4,755 single at 55 percent, 2,320 under fifteen at 15 percent, 1,410 aged fifteen to twenty-five at 8.9 percent, 8,931 dwellings, value 301,000 euro, income 34,400 euro (2024), 4 primary establishments with 862 pupils and 4 secondary with 1,266. Wijk 24 Haagse Bos 486 residents on 128 hectares, 117 land and 11 water, density 415, 295 households averaging 1.4 with 200 single at 68 percent, 15 under fifteen at a published 3.09 percent, 30 aged fifteen to twenty-five at 6.2 percent, 195 over sixty-five at 40 percent, 419 dwellings, value 295,000 euro, income 51,500 euro for 2023 rather than 2024, no primary establishment. Regio Midden holidays. The district page argues that precision is not accuracy; Den Haag Centrum owns the missing standard, Escamp necessary versus sufficient, Scheveningen the unstable referent, Al Wusta small-denominator volatility and Bawshar bin width.",
+    "localProject": "How a number is printed carries no information about how much weight it will bear. Wijk 24 Haagse Bos has 486 residents and 15 of them are under fifteen, a share the statistics office publishes as 3.09 percent. Two wijken away the same office publishes 17 percent for a count of 2,560 and 9.5 percent for a count of 1,465. The precision tracks the magnitude of the number rather than the confidence in it, so the shakiest row in the table is the most precisely stated one: a single family arriving in the Haagse Bos moves the printed share by more than a tenth of a percent, which exceeds the whole quantity the third digit claims to resolve. Two further instances sit in the same material. Stadsdeel Haagse Hout has two published totals for 2022, 48,072 in the encyclopaedia entry and 48,606 on the city page, 534 apart, both to five significant figures and neither marked as contested. And average income is published for 2024 in three wijken and for 2023 in the Haagse Bos, identical field, identical layout, one year apart, so anybody lifting four numbers into one table without opening four sources builds a comparison containing a year they never saw. None of this is carelessness by the office, which formats consistently by magnitude as nearly everyone does; the point is that formatting by magnitude produces exactly the wrong signal. The programming form is everywhere and taught nowhere: a language returns fifteen significant figures for a division that deserved two, a spreadsheet carries all of them into the next cell, a timestamp is stored to the microsecond from a clock that syncs every few minutes, and adding a tenth to two tenths yields seventeen digits of which four are meaningful. Distinct from small-denominator volatility (Al Wusta), which is about a rate jumping between periods because the base is small: here nothing moves at all, there is one observation, and the fault is in the rendering rather than in the variance. Distinct from bin width (Bawshar), which concerns how a continuous range is cut. The page reports every figure at its published width and states, for three of them, what the last digit rests on.",
+    "requiredMentions": [
+      "11,305",
+      "6,150",
+      "8,115",
+      "10,853",
+      "7,205",
+      "2,560",
+      "7,886",
+      "654,000",
+      "60,100",
+      "8,931",
+      "27,986",
+      "48,072",
+      "50,740",
+      "Uilennest"
+    ],
+    "sources": [
+      {
+        "claim": "Wijk 26 Bezuidenhout, Den Haag: 19,254 inwoners (2026); 11,305 huishoudens averaging 1.7, 6,150 eenpersoonshuishoudens at 54 percent; ages 2,290 (0 to 15, 12 percent), 2,270 (15 to 25, 12 percent), 8,115 (25 to 45, 42 percent), 4,200 (45 to 65, 22 percent), 2,370 (65+, 12 percent); 193 hectare; bevolkingsdichtheid 10,181 per km2; woningvoorraad 10,853 (2025); gemiddelde WOZ 390,000 euro (2025); 6,078 huurwoningen (56 percent) and 4,775 koopwoningen (44 percent); gemiddeld inkomen 44,700 euro (2024); 4 vestigingen basisonderwijs with 1,174 leerlingen and 0 vestigingen voortgezet onderwijs; 3 buurten: Bezuidenhout-Oost, Bezuidenhout-Midden, Bezuidenhout-West.",
+        "url": "https://allecijfers.nl/wijk/bezuidenhout-den-haag/"
+      },
+      {
+        "claim": "Wijk 04 Benoordenhout, Den Haag: 15,393 inwoners (2026); 7,205 huishoudens averaging 2.1, 3,140 eenpersoonshuishoudens at 44 percent and 4,065 meerpersoonshuishoudens at 56; ages 2,560 (0 to 15, 17 percent), 1,465 (15 to 25, 9.5 percent), 3,130 (25 to 45, 20 percent), 4,075 (45 to 65, 26 percent), 4,155 (65+, 27 percent); 274 hectare; bevolkingsdichtheid 5,683 per km2; woningvoorraad 7,886 (2025); gemiddelde WOZ 654,000 euro (2025); 2,445 huurwoningen (31 percent) and 5,441 koopwoningen (69 percent); gemiddeld inkomen 60,100 euro (2024); 8 vestigingen basisonderwijs with 1,954 leerlingen and 5 vestigingen voortgezet onderwijs with 4,300 leerlingen; 6 buurten: Duinzigt, Waalsdorp, Uilennest, Arendsdorp, Van Hoytemastraat en omgeving, Nassaubuurt.",
+        "url": "https://allecijfers.nl/wijk/benoordenhout-den-haag/"
+      },
+      {
+        "claim": "Wijk 25 Mariahoeve en Marlot, Den Haag: 15,759 inwoners (2026); 8,615 huishoudens averaging 1.8, 4,755 eenpersoonshuishoudens at 55 percent; ages 2,320 (0 to 15, 15 percent), 1,410 (15 to 25, 8.9 percent), 4,845 (25 to 45, 31 percent), 3,920 (45 to 65, 25 percent), 3,270 (65+, 21 percent); 309 hectare; bevolkingsdichtheid 5,156 per km2; woningvoorraad 8,931 (2025); gemiddelde WOZ 301,000 euro (2025); 5,448 huurwoningen (61 percent) and 3,483 koopwoningen (39 percent); gemiddeld inkomen 34,400 euro (2024); 4 vestigingen basisonderwijs with 862 leerlingen and 4 vestigingen voortgezet onderwijs with 1,266 leerlingen; buurten: Marlot, Landen Burgen en Horsten, Kampen.",
+        "url": "https://allecijfers.nl/wijk/mariahoeve-en-marlot-den-haag/"
+      },
+      {
+        "claim": "Wijk 24 Haagse Bos, Den Haag: 486 inwoners (2026); 295 huishoudens averaging 1.4, 200 eenpersoonshuishoudens at 68 percent and 95 meerpersoonshuishoudens at 32; ages 15 (0 to 15, published as 3.09 percent), 30 (15 to 25, 6.2 percent), 135 (25 to 45, 28 percent), 120 (45 to 65, 25 percent), 195 (65+, 40 percent); 128 hectare, 117 land, 11 water; bevolkingsdichtheid 415 per km2; woningvoorraad 419 (2025); gemiddelde WOZ 295,000 euro (2025); 235 huurwoningen (56 percent) and 184 koopwoningen (44 percent); gemiddeld inkomen 51,500 euro for 2023, not 2024; 0 vestigingen basisonderwijs and 0 leerlingen.",
+        "url": "https://allecijfers.nl/wijk/haagse-bos-den-haag/"
+      },
+      {
+        "claim": "Stadsdeel Haagse Hout, Den Haag: formed 1988; four wijken, Mariahoeve en Marlot, Bezuidenhout, Haagse Bos and Benoordenhout; 50,740 inwoners (2023) and 48,072 (2022); oppervlakte 9.04 km2, of which 8.82 land and 0.22 water; 27,986 woningen; bevolkingsdichtheid 5,613 per km2. Het Haagse Bos is veruit het grootste groengebied, an elongated urban forest dividing the district in two.",
+        "url": "https://nl.wikipedia.org/wiki/Haagse_Hout"
+      },
+      {
+        "claim": "The Hague city page in this series publishes stadsdeel Haagse Hout at 48,606 residents for 2022, alongside Escamp 128,967, Centrum 106,261, Segbroek 62,507, Scheveningen 59,992, Loosduinen 51,395, Leidschenveen-Ypenburg 48,273 and Laak 47,305.",
+        "url": "https://learn.modernagecoders.com/coding-classes-in-the-hague"
+      },
+      {
+        "claim": "School holiday regions: regio Midden = Utrecht, Zuid-Holland and the northern part of Gelderland; regio Noord = Groningen, Friesland, Drenthe, Overijssel, Flevoland, Noord-Holland; regio Zuid = Zeeland, Noord-Brabant, Limburg and the southern part of Gelderland.",
+        "url": "https://www.rijksoverheid.nl/themas/onderwijs/schoolvakanties/regios-schoolvakantie"
+      }
+    ],
+    "rejectedClaims": [
+      "That the statistics office is wrong about anything. Every figure quoted is correct as published; the argument concerns what the presentation does and does not convey.",
+      "That 3.09 percent is a false figure. It is the true share of a count of fifteen, and the objection is only to the third digit being read as meaningful.",
+      "Any resolution of the 48,072 against 48,606 disagreement for 2022. Both are reported with their sources and neither is preferred, because the definitions behind them were not established.",
+      "Any average across the four wijken, or any treatment of them as four comparable units. One of the four is a forest of 486 people and averaging would be meaningless before it was misleading.",
+      "Any claim that a rate here is volatile between periods. Only one observation exists for each wijk; period-to-period movement on a small base is the Al Wusta page argument and is not made here.",
+      "Any argument about how the age ranges were cut. Bin width is the Bawshar page argument; the bands here are taken exactly as published.",
+      "Any comparison of the four income figures as though they shared a year. Three are 2024 and the Haagse Bos is 2023, which the page states rather than smooths.",
+      "Any inference from the 4,300 secondary pupils in the Benoordenhout about who lives there. Where establishments stand relative to the children counted is the Escamp page argument.",
+      "Anything the Hague city page owns, including the stadsdeel population table, the named secondary schools and their addresses."
+    ]
   }
 }

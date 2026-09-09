@@ -2278,4 +2278,8 @@
 # International growth cluster (coding-global.css). Must precede the /* catch-all.
 /coding-classes-in-scheveningen /src/pages/coding-classes-in-scheveningen.html 200
 /coding-classes-in-scheveningen.md /src/pages/coding-classes-in-scheveningen.md 200
+
+# International growth cluster (coding-global.css). Must precede the /* catch-all.
+/coding-classes-in-haagse-hout /src/pages/coding-classes-in-haagse-hout.html 200
+/coding-classes-in-haagse-hout.md /src/pages/coding-classes-in-haagse-hout.md 200
 /* /src/pages/404.html 404
