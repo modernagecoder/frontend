@@ -7355,5 +7355,69 @@
       "Figures for the eight buurten individually. All eight are named and none was read separately.",
       "Anything the Rotterdam city page owns, including the port throughput in two units and the named secondary schools with their addresses."
     ]
+  },
+  "coding-classes-in-the-hague-centrum": {
+    "market": "Den Haag Centrum",
+    "bodyClass": "cg-dhc",
+    "pageType": "district",
+    "curriculumAuthority": "Stadsdeel Centrum, Den Haag, Zuid-Holland: the middle of The Hague, 8 wijken and 17 buurten on 7.8 square kilometres of which 7.63 land and 0.17 water, 52,793 dwellings, 110,000 residents at the 2023 publication and 15 percent over sixty-five. Five wijken read in full at 2026: Wijk 28 Centrum 21,955 with 13,910 households averaging 1.6 and 8,805 single-person at 63 percent, four buurten, density 11,071, 13,893 dwellings, value 375,000 euro, income 39,200 euro, 4 primary establishments with 859 pupils and 3 secondary with 1,396; Wijk 29 Schildersbuurt, locally the Schilderswijk, 30,102 with 13,685 households averaging 2.2 and 6,365 single at 47 percent, 5,105 under fifteen at 17 percent, density 20,774, value 269,000 euro, income 21,600 euro, 15 primary establishments with 4,476 pupils and 3 secondary with 1,939; Wijk 27 Stationsbuurt 12,945 with 8,515 households averaging 1.5 and 6,050 single at 71 percent, density 14,423, address density 7,358, value 289,000 euro, income 29,600 euro, one mbo location with 733 students; Zeeheldenkwartier 12,793 with 7,295 households and 4,450 single at 61 percent, density 15,944, value 437,000 euro, income 41,500 euro; Archipelbuurt 6,269 with 3,570 households and 1,995 single at 56 percent, density 7,195, value 658,000 euro, income 63,100 euro. Regio Midden holidays. The district page argues that a figure carries no verdict until a standard is supplied from outside it; The Hague city page owns the stadsdeel populations and the named secondary schools, Hillegersberg-Schiebroek owns correlated measures, Amsterdam-Zuid the gap between two registers, IJsselmonde unequal bands and Prins Alexander the single cross-section.",
+    "localProject": "A measurement is not a verdict, and the step that turns one into the other is always a sentence somebody supplied from outside the data. Wijk 27 Stationsbuurt has 8,515 households averaging 1.5 people, 6,050 of them a single person, 71 percent. Wijk 29 Schildersbuurt has 13,685 households averaging 2.2, 6,365 single at 47 percent, and 5,105 residents under fifteen. Graded against a standard that says a wijk should house families, the first is a failure and the second a success. Graded against one that says it should house people compactly near two railway stations, both verdicts invert, with no digit altered and no error found. The disagreement is entirely upstream of the measurement, in a statement about what a wijk is for that appears in no column of the published table and is therefore never examined by anyone. This is the same structure as a bug report: behaviour is neither correct nor incorrect on its own, and becomes incorrect only against a written statement of what was supposed to happen, which lives outside the program. A learner who has not written that statement is not debugging when they open the file; they are browsing for something that offends their taste, which is why beginners rewrite working functions for an evening and then defend genuinely broken behaviour as a design decision. Distinct from correlated measures (Hillegersberg-Schiebroek), which is about two columns carrying the same information, and from the single cross-section (Prins Alexander), which is about direction: here there is no inference problem at all, only a hidden premise doing the work of evidence. The page reports every figure ungraded and prints the two standards side by side as examples rather than recommendations.",
+    "requiredMentions": [
+      "13,910",
+      "8,805",
+      "8,515",
+      "6,050",
+      "13,685",
+      "6,365",
+      "6,269",
+      "1,995",
+      "12,793",
+      "4,450",
+      "63,100",
+      "21,600",
+      "Zeeheldenkwartier",
+      "Groente- en Fruitmarkt"
+    ],
+    "sources": [
+      {
+        "claim": "Wijk 28 Centrum, Den Haag: 21,955 inwoners (2026); 13,910 huishoudens averaging 1.6, 8,805 eenpersoonshuishoudens at 63 percent; ages 2,015 (0 to 15, 9.2 percent), 2,975 (15 to 25, 14 percent), 9,060 (25 to 45, 41 percent), 4,935 (45 to 65, 22 percent), 3,005 (65+, 14 percent); 205 hectare total, 198 land, 7 water; bevolkingsdichtheid 11,071 per km2; woningvoorraad 13,893; gemiddelde WOZ 375,000 euro (2025); 10,837 huurwoningen (78 percent) and 2,918 koopwoningen (21 percent); gemiddeld inkomen 39,200 euro (2024); 4 vestigingen basisonderwijs with 859 leerlingen and 3 vestigingen voortgezet onderwijs with 1,396 leerlingen; 4 buurten: Kortenbos, Voorhout, Uilebomen, Zuidwal.",
+        "url": "https://allecijfers.nl/wijk/centrum-den-haag/"
+      },
+      {
+        "claim": "Wijk 29 Schildersbuurt, Den Haag: 30,102 inwoners (2026); 13,685 huishoudens averaging 2.2, 6,365 eenpersoonshuishoudens at 47 percent; ages 5,105 (0 to 15, 17 percent), 4,490 (15 to 25, 15 percent), 8,260 (25 to 45, 27 percent), 7,945 (45 to 65, 26 percent), 4,305 (65+, 14 percent); 146 hectare; bevolkingsdichtheid 20,774 per km2; woningvoorraad 12,740; gemiddelde WOZ 269,000 euro (2025); 10,319 huurwoningen (81 percent) and 2,421 koopwoningen (19 percent); gemiddeld inkomen 21,600 euro (2024); 15 vestigingen basisonderwijs with 4,476 leerlingen and 3 vestigingen voortgezet onderwijs with 1,939 leerlingen; 3 buurten: Schildersbuurt-Noord, Schildersbuurt-West, Schildersbuurt-Oost.",
+        "url": "https://allecijfers.nl/wijk/schildersbuurt-den-haag/"
+      },
+      {
+        "claim": "Wijk 27 Stationsbuurt, Den Haag: 12,945 inwoners (2026); 8,515 huishoudens averaging 1.5, 6,050 eenpersoonshuishoudens at 71 percent; ages 1,385 (0 to 15, 11 percent), 3,210 (15 to 25, 25 percent), 4,600 (25 to 45, 36 percent), 2,480 (45 to 65, 19 percent), 1,295 (65+, 10 percent); 94 hectare; bevolkingsdichtheid 14,423 per km2, omgevingsadressendichtheid 7,358; woningvoorraad 7,165; gemiddelde WOZ 289,000 euro (2025); 6,162 huurwoningen (86 percent) and 1,003 koopwoningen (14 percent); gemiddeld inkomen 29,600 euro (2024); 1 vestiging basisonderwijs with 318 leerlingen, 0 voortgezet onderwijs, 1 mbo location with 733 students; 3 buurten: Rivierenbuurt-Noord, Rivierenbuurt-Zuid, Huygenspark.",
+        "url": "https://allecijfers.nl/wijk/stationsbuurt-den-haag/"
+      },
+      {
+        "claim": "Wijk 22 Zeeheldenkwartier, Den Haag: 12,793 inwoners (2026); 7,295 huishoudens averaging 1.6, 4,450 eenpersoonshuishoudens at 61 percent; 81 hectare; bevolkingsdichtheid 15,944 per km2; woningvoorraad 6,868; gemiddelde WOZ 437,000 euro (2025); 4,533 huurwoningen (66 percent) and 2,335 koopwoningen (34 percent); gemiddeld inkomen 41,500 euro (2024); 1 vestiging basisonderwijs with 137 leerlingen.",
+        "url": "https://allecijfers.nl/wijk/zeeheldenkwartier-den-haag/"
+      },
+      {
+        "claim": "Wijk 05 Archipelbuurt, Den Haag: 6,269 inwoners (2026); 3,570 huishoudens averaging 1.7, 1,995 eenpersoonshuishoudens at 56 percent; ages 710 (0 to 15, 11 percent), 1,550 (65+, 25 percent); 87 hectare; bevolkingsdichtheid 7,195 per km2; woningvoorraad 3,764; gemiddelde WOZ 658,000 euro (2025); 1,656 huurwoningen (44 percent) and 2,108 koopwoningen (56 percent); gemiddeld inkomen 63,100 euro (2024); 1 vestiging basisonderwijs with 213 leerlingen.",
+        "url": "https://allecijfers.nl/wijk/archipelbuurt-den-haag/"
+      },
+      {
+        "claim": "Stadsdeel Centrum, Den Haag: 110,000 inwoners (2023), 7.8 km2 of which 7.63 land and 0.17 water, 52,793 woningen, 15 percent aged 65 and over; 8 wijken subdivided into 17 buurten, the wijken being Archipelbuurt, Centrum, Groente- en Fruitmarkt, Schilderswijk, Stationsbuurt, Transvaalkwartier, Willemspark and Zeeheldenkwartier; stations Den Haag Centraal and Den Haag Hollands Spoor.",
+        "url": "https://nl.wikipedia.org/wiki/Centrum_(stadsdeel_van_Den_Haag)"
+      },
+      {
+        "claim": "School holiday regions: regio Midden = Utrecht, Zuid-Holland and the northern part of Gelderland; regio Noord = Groningen, Friesland, Drenthe, Overijssel, Flevoland, Noord-Holland; regio Zuid = Zeeland, Noord-Brabant, Limburg and the southern part of Gelderland.",
+        "url": "https://www.rijksoverheid.nl/themas/onderwijs/schoolvakanties/regios-schoolvakantie"
+      }
+    ],
+    "rejectedClaims": [
+      "That any wijk in the stadsdeel is doing well or badly. That is a verdict, it requires a standard, and no standard is published with the figures.",
+      "That any of these wijken was designed or intended to hold a particular kind of household. No source for intent was read and none is asserted anywhere on the page.",
+      "A stadsdeel population for 2026. The published stadsdeel total is 110,000 for 2023 and the city page carries 106,261 for 2022; both are dated wherever used and neither is presented as current.",
+      "Any stadsdeel figure derived from the five wijken read. Five of eight is a subset and a subset average is not a figure for the whole.",
+      "Any ranking of the wijken by income or by dwelling value, or any observation that the two orders agree. That is the Hillegersberg-Schiebroek page argument and this page does not touch it.",
+      "Any comparison of the stadsdeel density against a wijk density. The stadsdeel figure is computed on total area and the wijk figures on land, and setting them side by side would be a denominator comparison this series has already made elsewhere.",
+      "Any reading of the 13,910 households against the 13,893 dwellings in Wijk 28 Centrum. The two figures are reported as published and the gap between two registers is the Amsterdam-Zuid page argument.",
+      "Figures for the three wijken not read, the Groente- en Fruitmarkt, the Transvaalkwartier and the Willemspark. All three are named and none was read separately.",
+      "Anything the Hague city page owns, including the stadsdeel population table, the named secondary schools and their addresses."
+    ]
   }
 }

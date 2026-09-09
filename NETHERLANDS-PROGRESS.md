@@ -81,7 +81,8 @@ Phase 6 (ag- doors): academy spokes x6 (amsterdam, eindhoven, the-hague, utrecht
 | 60 | coding-classes-in-ijsselmonde (ijs, #006C11) | district | 4,740 | 4.6% vs charlois | An AI will tell you IJsselmonde has as many pensioners as children. Why should a teenager here ask how wide the bands are? | Unequal and unbounded age bands (11,115 under fifteen against 11,185 over sixty-five; one band is 15 years, the other has no upper end) | b3b08527 |
 | 61 | coding-classes-in-kralingen-crooswijk (krc, #3F3268) | district | 4,736 | 5.7% vs ijsselmonde | An AI will explain this district by its students. Why should a teenager in Crooswijk check the direction first? | The visible group is not the cause (6,830 students, 12.5%, the highest share; and the highest average income at 35,000 euro, which students would pull down) | 1dd3508b |
 | 62 | coding-classes-in-hillegersberg-schiebroek (hgs, #784C34) | district | 4,732 | 5.4% vs ijsselmonde | An AI will list four reasons this district is comfortable. Why should a teenager here ask how many are separate? | Agreement is evidence only if the measures are independent (value and income order seven districts alike; ownership and density order them differently, so four measures are about two facts) | 3003ac54 |
-| 63 | coding-classes-in-prins-alexander (pra, #1D5E85) | district | 4,869 | 5.2% vs ijsselmonde | An AI will tell you this district is ageing. Why should a teenager in Ommoord ask which year that came from? | A snapshot has at least two histories (49% of residents over forty-five: older people moving in, or one generation ageing in place, and the two predict opposite futures) | (this commit) |
+| 63 | coding-classes-in-prins-alexander (pra, #1D5E85) | district | 4,869 | 5.2% vs ijsselmonde | An AI will tell you this district is ageing. Why should a teenager in Ommoord ask which year that came from? | A snapshot has at least two histories (49% of residents over forty-five: older people moving in, or one generation ageing in place, and the two predict opposite futures) | 14bc6833 |
+| 64 | coding-classes-in-the-hague-centrum (dhc, #3F623F) | district | 5,256 | 4.4% vs prins-alexander | An AI will call 1.5 people per household a problem. Why should a teenager in the Zeeheldenkwartier ask whose problem? | Feature vs bug (a figure carries no verdict until a standard is imported from outside the data: 1.5 people per household is a failure or the point of the place, and no column says which) | (this commit) |
 
 ## Skipped (kill criterion)
 
@@ -91,7 +92,7 @@ Phase 6 (ag- doors): academy spokes x6 (amsterdam, eindhoven, the-hague, utrecht
 ## Codes in use (letters only; check `coding-global.css` before assigning)
 
 Reserved by older clusters and NOT available: hmr (Al Hamra), lei (Leicester), mst? free, amr (Al Amarat), adm (Adam), ede? free.
-Assigned so far: cg: amv (Amstelveen), ams (Amsterdam), ehv (Eindhoven), dhg (The Hague), alm (Almere), utr (Utrecht), rtm (Rotterdam) · ag: nla (academy hub) · provinces: nhl (Noord-Holland), zhl (Zuid-Holland), utp (Utrecht), gld (Gelderland), ovr (Overijssel), lim (Limburg), grp (Groningen), nbr (Noord-Brabant), frl (Friesland), dre (Drenthe), flv (Flevoland), zld (Zeeland) · cities: grn (Groningen), tlb (Tilburg), brd (Breda), nij (Nijmegen), arn (Arnhem), apd (Apeldoorn), hlm (Haarlem), hmm (Haarlemmermeer), zns (Zaanstad), amf (Amersfoort), ens (Enschede), dbo (Den Bosch), zwo (Zwolle), ztm (Zoetermeer), lde (Leiden), lwd (Leeuwarden), mst (Maastricht), ede (Ede), drd (Dordrecht), wst (Westland), alp (Alphen aan den Rijn), alk (Alkmaar), dlf (Delft), emm (Emmen), dev (Deventer), vnl (Venlo), uit (Uithoorn) · districts: acn (Amsterdam-Centrum), anr (Amsterdam-Noord), aos (Amsterdam-Oost), azd (Amsterdam-Zuid), awt (Amsterdam-West), anw (Amsterdam Nieuw-West), azo (Amsterdam-Zuidoost), wsp (Weesp), rtc (Rotterdam Centrum), dfh (Delfshaven), fyn (Feijenoord), chl (Charlois), ijs (IJsselmonde), krc (Kralingen-Crooswijk), hgs (Hillegersberg-Schiebroek), pra (Prins Alexander)
+Assigned so far: cg: amv (Amstelveen), ams (Amsterdam), ehv (Eindhoven), dhg (The Hague), alm (Almere), utr (Utrecht), rtm (Rotterdam) · ag: nla (academy hub) · provinces: nhl (Noord-Holland), zhl (Zuid-Holland), utp (Utrecht), gld (Gelderland), ovr (Overijssel), lim (Limburg), grp (Groningen), nbr (Noord-Brabant), frl (Friesland), dre (Drenthe), flv (Flevoland), zld (Zeeland) · cities: grn (Groningen), tlb (Tilburg), brd (Breda), nij (Nijmegen), arn (Arnhem), apd (Apeldoorn), hlm (Haarlem), hmm (Haarlemmermeer), zns (Zaanstad), amf (Amersfoort), ens (Enschede), dbo (Den Bosch), zwo (Zwolle), ztm (Zoetermeer), lde (Leiden), lwd (Leeuwarden), mst (Maastricht), ede (Ede), drd (Dordrecht), wst (Westland), alp (Alphen aan den Rijn), alk (Alkmaar), dlf (Delft), emm (Emmen), dev (Deventer), vnl (Venlo), uit (Uithoorn) · districts: acn (Amsterdam-Centrum), anr (Amsterdam-Noord), aos (Amsterdam-Oost), azd (Amsterdam-Zuid), awt (Amsterdam-West), anw (Amsterdam Nieuw-West), azo (Amsterdam-Zuidoost), wsp (Weesp), rtc (Rotterdam Centrum), dfh (Delfshaven), fyn (Feijenoord), chl (Charlois), ijs (IJsselmonde), krc (Kralingen-Crooswijk), hgs (Hillegersberg-Schiebroek), pra (Prins Alexander), dhc (Den Haag Centrum)
 
 ## Open issues
 ### The sibling-echo tax, now measured four times
@@ -286,3 +287,27 @@ it is a live page in another cluster and outside the NL scope.
 - ag- pipeline shipped with page 8: `scripts/nl/lib/render-ag.js`, `scripts/nl/register-ag.js`; `build.js`/`check.js` switch on `cluster: 'ag'` in the module. `.ag-source-note` is now defined in `ai-global.css` (the 10 live Oman academy pages used it naked). Facts learned: the secondary-source claim that 55% of schools offer informatica was WRONG; SLO July 2025 says 30.7% havo / 31.0% vwo, 8.9% / 12.6% of candidates.
 - Tooling fixes shipped with page 1: `audit-rendered-ag-pages.mjs` counts cg-style picks (class on the img), accepts 4+ picks for cg, and scrolls the page before measuring so lazy thumbnails are not reported broken; Playwright resolved from `../../dashboard3/node_modules` via NODE_PATH in `scripts/nl/check.js`.
 - FAQ answers must be PLAIN TEXT. They are copied verbatim into the FAQPage JSON-LD, so an <a> tag inside one makes schema != visible and fails the verify gate. Put downlinks in a spread cell or the next block instead. Caught and fixed 2026-09-07 on gelderland and noord-holland; the build has no guard for it, so keep FAQ answers free of markup by hand.
+
+### The Hague method note (established row 64)
+
+Den Haag publishes **45 wijken and 115 buurten** for **8 stadsdelen**, so the CBS
+wijk names are sub-stadsdeel units and do NOT map one-to-one onto the stadsdelen.
+`allecijfers.nl/wijk/centrum-den-haag/` is "Wijk 28 Centrum" at 21,955 residents,
+not the stadsdeel Centrum at ~106,261. The Hague therefore uses the **Amsterdam
+workaround**, not Rotterdam's one-fetch pattern:
+
+- stadsdeel identity, area, dwelling stock and the wijk/buurt division come from
+  the `nl.wikipedia.org` stadsdeel article (vintages vary, always date them);
+- full published rows come from `allecijfers.nl/wijk/<naam>-den-haag/` for 3 to 5
+  named wijken beneath it;
+- **never** average a subset of wijken into a stadsdeel figure, and never set the
+  stadsdeel density (computed on total area) beside a wijk density (computed on
+  land) - that is a denominator comparison already claimed by Gadong and New York.
+
+Two vintages exist for every stadsdeel total: Wikipedia's (2023, rounded) and the
+city page's 2022 table. Neither is a 2026 count. Build the spine on the exact 2026
+wijk rows and date the stadsdeel figure wherever it appears.
+
+Slug gotcha: `schilderswijk-den-haag` 404s. The statistics office files it as
+**Wijk 29 Schildersbuurt** at `/wijk/schildersbuurt-den-haag/`. Local name and CBS
+name differ; name it as CBS does and note the local name once.

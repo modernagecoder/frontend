@@ -64,7 +64,7 @@ The largest district by far, 128,967 people in 2022, and the post-war south-west
 
 ### Centrum
 
-106,261 people in 2022 and the densest immigrant history in the city: the Schildersbuurt at 30,102 and the Transvaalkwartier at 16,335 are where the Hindustani community of The Hague is most visible, along with the Stationsbuurt at 12,945 and the Centrum wijk itself at 21,955.
+106,261 people in 2022 and the densest immigrant history in the city: the Schildersbuurt at 30,102 and the Transvaalkwartier at 16,335 are where the Hindustani community of The Hague is most visible, along with the Stationsbuurt at 12,945 and the Centrum wijk itself at 21,955. [Its page](/coding-classes-in-the-hague-centrum) reads five of its eight wijken in full and refuses to grade any of them.
 
 ### Laak and Leidschenveen-Ypenburg
 
@@ -277,7 +277,7 @@ Five to ten learners, matched on level, pace and goal rather than on age, school
 
 ## Where this page sits in the series
 
-Above it is the [Netherlands coding hub](/coding-classes-in-netherlands), which owns the national curriculum argument and lists every course. Beside it are [Amsterdam](/coding-classes-in-amsterdam), [Amstelveen](/coding-classes-in-amstelveen) and [Eindhoven](/coding-classes-in-eindhoven), each written the way this one is. For a learner whose goal is a trained model rather than a program, the right door is [AI and machine learning classes in the Netherlands](/ai-and-machine-learning-classes-in-netherlands). Below this page, eight stadsdeel pages are on their way.
+Above it is the [Netherlands coding hub](/coding-classes-in-netherlands), which owns the national curriculum argument and lists every course. Beside it are [Amsterdam](/coding-classes-in-amsterdam), [Amstelveen](/coding-classes-in-amstelveen) and [Eindhoven](/coding-classes-in-eindhoven), each written the way this one is. For a learner whose goal is a trained model rather than a program, the right door is [AI and machine learning classes in the Netherlands](/ai-and-machine-learning-classes-in-netherlands). Below this page sits [Den Haag Centrum](/coding-classes-in-the-hague-centrum), the first of the eight stadsdeel pages, with the other seven on their way.
 
 ## Contact
 
