@@ -68,7 +68,7 @@ The largest district by far, 128,967 people in 2022, and the post-war south-west
 
 ### Laak and Leidschenveen-Ypenburg
 
-Laak, 47,305, is one enormous wijk and the Binckhorst being rebuilt beside it, and [its page](/coding-classes-in-laak) shows why the Binckhorst age table is a fact about what was built rather than about what anyone preferred. Leidschenveen-Ypenburg, 48,273, is the newest district: Ypenburg 26,358 and Leidschenveen 20,049, built on the old airfield, and home to two of the British School's three Hague campuses on the Vrouw Avenweg.
+Laak, 47,305, is one enormous wijk and the Binckhorst being rebuilt beside it, and [its page](/coding-classes-in-laak) shows why the Binckhorst age table is a fact about what was built rather than about what anyone preferred. Leidschenveen-Ypenburg, 48,273, is the newest district, and [its page](/coding-classes-in-leidschenveen-ypenburg) shows that two of its four wijken are business parks whose published densities describe the night: Ypenburg 26,358 and Leidschenveen 20,049, built on the old airfield, and home to two of the British School's three Hague campuses on the Vrouw Avenweg.
 
 ### Segbroek and Scheveningen
 
@@ -277,7 +277,7 @@ Five to ten learners, matched on level, pace and goal rather than on age, school
 
 ## Where this page sits in the series
 
-Above it is the [Netherlands coding hub](/coding-classes-in-netherlands), which owns the national curriculum argument and lists every course. Beside it are [Amsterdam](/coding-classes-in-amsterdam), [Amstelveen](/coding-classes-in-amstelveen) and [Eindhoven](/coding-classes-in-eindhoven), each written the way this one is. For a learner whose goal is a trained model rather than a program, the right door is [AI and machine learning classes in the Netherlands](/ai-and-machine-learning-classes-in-netherlands). Below this page sit [Den Haag Centrum](/coding-classes-in-the-hague-centrum), [Escamp](/coding-classes-in-escamp), [Scheveningen](/coding-classes-in-scheveningen) , [Haagse Hout](/coding-classes-in-haagse-hout) and [Laak](/coding-classes-in-laak), the first five of the eight stadsdeel pages, with the other three on their way.
+Above it is the [Netherlands coding hub](/coding-classes-in-netherlands), which owns the national curriculum argument and lists every course. Beside it are [Amsterdam](/coding-classes-in-amsterdam), [Amstelveen](/coding-classes-in-amstelveen) and [Eindhoven](/coding-classes-in-eindhoven), each written the way this one is. For a learner whose goal is a trained model rather than a program, the right door is [AI and machine learning classes in the Netherlands](/ai-and-machine-learning-classes-in-netherlands). Below this page sit [Den Haag Centrum](/coding-classes-in-the-hague-centrum), [Escamp](/coding-classes-in-escamp), [Scheveningen](/coding-classes-in-scheveningen) , [Haagse Hout](/coding-classes-in-haagse-hout), [Laak](/coding-classes-in-laak) and [Leidschenveen-Ypenburg](/coding-classes-in-leidschenveen-ypenburg), six of the eight stadsdeel pages, with Loosduinen and Segbroek on their way.
 
 ## Contact
 

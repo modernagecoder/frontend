@@ -7669,5 +7669,69 @@
       "Any account of how the age profile arose over time, such as whether residents arrived young or grew into the band. That is the Prins Alexander page argument, and this page makes no claim about the history of the stock.",
       "Anything the Hague city page owns, including the stadsdeel population table, the named secondary schools and their addresses."
     ]
+  },
+  "coding-classes-in-leidschenveen-ypenburg": {
+    "market": "Leidschenveen-Ypenburg",
+    "bodyClass": "cg-lyp",
+    "pageType": "district",
+    "curriculumAuthority": "Stadsdeel Leidschenveen-Ypenburg, Den Haag, Zuid-Holland: created by municipal reorganisation in 2002, Leidschenveen with the Forepark bedrijventerrein along the A4 and A12 transferring from Leidschendam and Ypenburg, a former military airfield, from Leidschendam, Nootdorp and Rijswijk; Leidschenveen and Ypenburg are two of the seven Vinex wijken in regio Haaglanden; 47,440 residents (2023), density 5,385, 8.81 km2 of which 7.98 land and 0.82 water, 17,188 woningen, against 48,273 for 2022 on the Hague city page. Four wijken, all read at 2026. Wijk 42 Ypenburg 26,358 on 505 hectares, 450 land and 54 water, density 5,893; 10,190 households averaging 2.6 with only 2,540 single at 25 percent; 4,620 under fifteen at 18 percent, 4,175 aged fifteen to twenty-five at 16, 5,755 aged twenty-five to forty-five at 22, 8,860 aged forty-five to sixty-five at 34, 2,970 over sixty-five at 11; 9,764 dwellings, value 516,000 euro, 5,565 owner-occupied at 57 percent; income 38,600 euro (2024); 8 primary establishments with 2,475 pupils and 4 secondary with 1,431; seven buurten Tedingerbroek, De Venen, Bosweide, Morgenweide, Singels, Waterbuurt and De Bras. Wijk 44 Leidschenveen 20,049 on 376 hectares, 348 land and 28 water, density 5,845; 7,560 households averaging 2.7 with 1,715 single at 23 percent; 3,485 under fifteen at 17 percent, 6,840 aged forty-five to sixty-five at 34; 7,457 dwellings, value 510,000 euro, 4,922 owner-occupied at 66 percent; income 39,500 euro (2024); 5 primary establishments with 1,839 pupils and 3 secondary with 1,108; four buurten De Velden, De Vissen, De Lanen and Rietbuurt. Wijk 43 Forepark 155 residents on 304 hectares, 295 land, density 51, 70 households, 47 dwellings, value 757,000 euro the highest in this cluster, 42 owner-occupied at 89 percent, income 53,600 euro for 2023, no school; buurten Vlietzoom-Oost and De Rivieren. Hoornwijk 1,004 residents on 371 hectares, 354 land, density 280, 465 households, 418 dwellings, value 478,000 euro, income 31,600 euro for 2023, no school; buurten De Reef, Vlietzoom-West and Vliegeniersbuurt. Ypenburg and Leidschenveen carry the two largest average household sizes of any Hague wijk in this series. Regio Midden holidays. The district page argues that a residential register measures one phase of a daily cycle; Den Haag Centrum owns the missing standard, Escamp necessary versus sufficient, Scheveningen the unstable referent, Haagse Hout precision against accuracy, Laak choice against constraint and Venlo the mismatched denominator.",
+    "localProject": "A register of residents answers where people sleep, so every figure derived from it is a night-time figure, and nothing in the presentation says so. Two of the four wijken of this stadsdeel are business parks. Wijk 43 Forepark has 155 residents on 304 hectares in 47 dwellings, a published density of 51 people per square kilometre, and the encyclopaedia entry describes it as the bedrijventerrein lying along the A4 and A12 motorways. Hoornwijk has 1,004 on 371 hectares at 280. Beside them Ypenburg runs at 5,893 and Leidschenveen at 5,845. All four densities are correctly computed and two of them describe a phase of a daily cycle rather than a place: fifty-one per square kilometre is a rural figure attached to a business park between two motorways inside a city of 569,468 people. Nothing read for this page counts the working-day population of either wijk and this page estimates none, because an estimate would be a guess dressed as a finding; what it does is mark the row empty. The general form is that a count is a sample whenever the thing counted can move, and the word count carries an authority the word sample does not, which is why the two can sit in one table looking like the same kind of thing. In code the distinction is a gauge against a counter, and monitoring systems separate them so carefully because the industry learned what confusing them costs: a service declared healthy because the check ran between incidents, a cache declared efficient because the hit rate was read after warm-up, a queue declared empty because it was sampled on the hour and drained at seven minutes past. Distinct from the mismatched denominator (Venlo), where visitors are divided by residents and no ratio here is formed at all, and from the single cross-section (Prins Alexander), which concerns inferring a direction across years rather than variation inside a day. The habit is one question: what would this read if measured again at another time.",
+    "requiredMentions": [
+      "10,190",
+      "2,540",
+      "4,620",
+      "8,860",
+      "9,764",
+      "7,560",
+      "1,715",
+      "6,840",
+      "7,457",
+      "510,000",
+      "757,000",
+      "1,004",
+      "5,893",
+      "Vliegeniersbuurt"
+    ],
+    "sources": [
+      {
+        "claim": "Wijk 42 Ypenburg, Den Haag: 26,358 inwoners (2026); 10,190 huishoudens averaging 2.6, 2,540 eenpersoonshuishoudens at 25 percent; ages 4,620 (0 to 15, 18 percent), 4,175 (15 to 25, 16 percent), 5,755 (25 to 45, 22 percent), 8,860 (45 to 65, 34 percent), 2,970 (65+, 11 percent); 505 hectare, 450 land, 54 water; bevolkingsdichtheid 5,893 per km2; woningvoorraad 9,764 (2025); gemiddelde WOZ 516,000 euro (2025); 5,565 koopwoningen (57 percent) and 4,199 huurwoningen (43 percent); gemiddeld inkomen 38,600 euro (2024); 8 vestigingen basisonderwijs with 2,475 leerlingen and 4 vestigingen voortgezet onderwijs with 1,431 leerlingen; 7 buurten: Tedingerbroek, De Venen, Bosweide, Morgenweide, Singels, Waterbuurt, De Bras.",
+        "url": "https://allecijfers.nl/wijk/ypenburg-den-haag/"
+      },
+      {
+        "claim": "Wijk 44 Leidschenveen, Den Haag: 20,049 inwoners (2026); 7,560 huishoudens averaging 2.7, 1,715 eenpersoonshuishoudens at 23 percent; ages 3,485 (0 to 15, 17 percent), 3,090 (15 to 25, 15 percent), 3,985 (25 to 45, 20 percent), 6,840 (45 to 65, 34 percent), 2,660 (65+, 13 percent); 376 hectare, 348 land, 28 water; bevolkingsdichtheid 5,845 per km2; woningvoorraad 7,457 (2025); gemiddelde WOZ 510,000 euro (2025); 4,922 koopwoningen (66 percent) and 2,535 huurwoningen (34 percent); gemiddeld inkomen 39,500 euro (2024); 5 vestigingen basisonderwijs with 1,839 leerlingen and 3 vestigingen voortgezet onderwijs with 1,108 leerlingen; 4 buurten: De Velden, De Vissen, De Lanen, Rietbuurt.",
+        "url": "https://allecijfers.nl/wijk/leidschenveen-den-haag/"
+      },
+      {
+        "claim": "Wijk 43 Forepark, Den Haag: 155 inwoners (2026); 70 huishoudens averaging 2.1, 25 eenpersoonshuishoudens (36 percent) and 45 meerpersoonshuishoudens (64 percent); ages 35 (0 to 15), 10 (15 to 25), 25 (25 to 45), 45 (45 to 65), 40 (65+); 304 hectare, 295 land, 9 water; bevolkingsdichtheid 51 per km2; woningvoorraad 47 (2025); gemiddelde WOZ 757,000 euro (2025); 5 huurwoningen (11 percent) and 42 koopwoningen (89 percent); gemiddeld inkomen 53,600 euro (2023); 0 vestigingen basisonderwijs, geen scholen in wijk; 2 buurten: Vlietzoom-Oost, De Rivieren.",
+        "url": "https://allecijfers.nl/wijk/forepark-den-haag/"
+      },
+      {
+        "claim": "Wijk Hoornwijk, Den Haag: 1,004 inwoners (2026); 465 huishoudens averaging 2.1, 235 eenpersoonshuishoudens at 51 percent; ages 230 (0 to 15, 23 percent), 140 (15 to 25, 14 percent), 390 (25 to 45, 39 percent), 185 (45 to 65, 18 percent), 80 (65+, 8 percent); 371 hectare, 354 land, 17 water; bevolkingsdichtheid 280 per km2; woningvoorraad 418 (2025); gemiddelde WOZ 478,000 euro (2025); 238 huurwoningen (57 percent) and 180 koopwoningen (43 percent); gemiddeld inkomen 31,600 euro (2023); 0 vestigingen basisonderwijs; 3 buurten: De Reef, Vlietzoom-West, Vliegeniersbuurt.",
+        "url": "https://allecijfers.nl/wijk/hoornwijk-den-haag/"
+      },
+      {
+        "claim": "Stadsdeel Leidschenveen-Ypenburg, Den Haag: four wijken, Forepark, Leidschenveen, Ypenburg and Hoornwijk; 47,440 inwoners (2023); bevolkingsdichtheid 5,385 per km2; oppervlakte 8,81 km2 of which 7,98 land and 0,82 water; 17,188 woningen. Formed by a 2002 municipal reorganisation: Leidschenveen inclusief het langs de Rijkswegen A4 en A12 gelegen bedrijventerrein Forepark came from Leidschendam, while Ypenburg, een voormalig militair vliegveld, originated from Leidschendam, Nootdorp and Rijswijk. Leidschenveen and Ypenburg are twee van de zeven Vinex-wijken in de regio Haaglanden.",
+        "url": "https://nl.wikipedia.org/wiki/Leidschenveen-Ypenburg"
+      },
+      {
+        "claim": "The Hague city page in this series publishes stadsdeel Leidschenveen-Ypenburg at 48,273 residents for 2022, with Ypenburg 26,358 and Leidschenveen 20,049, built on the old airfield.",
+        "url": "https://learn.modernagecoders.com/coding-classes-in-the-hague"
+      },
+      {
+        "claim": "School holiday regions: regio Midden = Utrecht, Zuid-Holland and the northern part of Gelderland; regio Noord = Groningen, Friesland, Drenthe, Overijssel, Flevoland, Noord-Holland; regio Zuid = Zeeland, Noord-Brabant, Limburg and the southern part of Gelderland.",
+        "url": "https://www.rijksoverheid.nl/themas/onderwijs/schoolvakanties/regios-schoolvakantie"
+      }
+    ],
+    "rejectedClaims": [
+      "Any figure for how many people are in Forepark or Hoornwijk during a working day. None was read, none is estimated, and the row is left visibly empty instead.",
+      "That Forepark or Hoornwijk is quiet, tranquil or sparsely populated as a property of the place. Those are night-time measurements and the words convert them into permanent characteristics.",
+      "Any stadsdeel land area or dwelling total assembled from the four wijk rows. The four land areas exceed the 7.98 km2 the encyclopaedia entry gives the stadsdeel and the dwelling counts do not match its 17,188; these are different vintages from different publishers and are quoted separately.",
+      "A 2026 population for the stadsdeel. The published totals are 47,440 for 2023 and 48,273 for 2022 on the city page, dated wherever used.",
+      "Any comparison of the four income figures as though they shared a year. Two are 2024 and two are 2023, which is stated rather than aligned.",
+      "Any account of why the 45-to-65 band is 34 percent in both large wijken, such as a cohort filling a new district and ageing in place. That is the Prins Alexander page argument and no claim about the history of this stock is made here.",
+      "Any ratio of one population to another, such as workers per resident. The mismatched denominator is the Venlo page argument and no such ratio is formed here.",
+      "Any reading of the small counts in Forepark as unstable between periods. Only one observation exists; small-denominator volatility is the Al Wusta page argument.",
+      "Anything the Hague city page owns, including the stadsdeel population table, the British School campuses on the Vrouw Avenweg and the named secondary schools."
+    ]
   }
 }
