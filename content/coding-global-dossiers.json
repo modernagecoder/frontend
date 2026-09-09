@@ -7733,5 +7733,70 @@
       "Any reading of the small counts in Forepark as unstable between periods. Only one observation exists; small-denominator volatility is the Al Wusta page argument.",
       "Anything the Hague city page owns, including the stadsdeel population table, the British School campuses on the Vrouw Avenweg and the named secondary schools."
     ]
+  },
+  "coding-classes-in-loosduinen": {
+    "market": "Loosduinen",
+    "bodyClass": "cg-lsn",
+    "pageType": "district",
+    "curriculumAuthority": "Stadsdeel Loosduinen, Den Haag, Zuid-Holland: the west of the city, from the old village core out to the dunes at Kijkduin and Ockenburgh; 51,395 residents for 2022 on the Hague city page, which lists its four wijken. All four read at 2026. Wijk 17 Loosduinen 17,884 on 274 hectares, 270 land and 4 water, density 6,646; 8,535 households averaging 2.0 with 3,615 single at 42 percent; 2,605 under fifteen at 15 percent, 4,635 over sixty-five at 26 percent; 8,751 dwellings, estimated value 325,000 euro, 4,200 owner-occupied at 48 percent; income 31,600 euro (2024); 5 primary establishments with 1,099 pupils and 1 secondary with 126; buurten Houtwijk, Kom Loosduinen and Kerketuinen en Zichtenburg. Wijk 18 Waldeck 17,950 on 185 hectares, 181 land, density 9,754; 9,690 households averaging 1.8 with 5,160 single at 53 percent; 2,265 under fifteen at 13 percent, 1,540 aged fifteen to twenty-five at 8.6, 5,740 over sixty-five at 32 percent; 10,020 dwellings, estimated value 308,000 euro, 4,309 owner-occupied at 43 percent; income 31,900 euro (2024); 5 primary establishments with 1,180 pupils and 5 secondary with 2,391; five buurten Componistenbuurt, Rosenburg, Waldeck-Noord, Nieuw Waldeck and Waldeck-Zuid. Wijk 16 Kraayenstein en Vroondaal 10,743 on 336 hectares, 302 land and 34 water, density 3,472; 4,140 households averaging 2.5 with 1,320 single at 32 percent; 2,435 under fifteen at 23 percent, 1,420 over sixty-five at 13 percent; 4,109 dwellings, estimated value 594,000 euro, 2,835 owner-occupied at 69 percent; income 42,900 euro (2024); 1 primary establishment with 692 pupils and 1 secondary with 501. Wijk 15 Kijkduin en Ockenburgh 3,978 on 482 hectares, 472 land and 10 water, density 784, the lowest of any populated Hague wijk in this series; 1,870 households averaging 1.9 with 800 single at 43 percent; 380 under fifteen at 9.6 percent, 1,270 over sixty-five at 32 percent; 1,673 dwellings, estimated value 670,000 euro; income 46,900 euro (2024); 1 primary establishment with 214 pupils and 1 secondary with 1,307; buurten Kijkduin and Ockenburgh. The WOZ value is the estimated market value of a dwelling, set annually by municipal assessors from sale prices of comparable dwellings and the characteristics of the property, with a waardepeildatum one year before the start of the tax year, used for municipal property tax, water board levies, income tax, inheritance tax and by banks as mortgage collateral evidence. Regio Midden holidays. The district page argues that provenance does not survive storage; Haagse Hout owns precision against accuracy, Scheveningen the unstable referent, Escamp necessary versus sufficient, Laak choice against constraint and Leidschenveen-Ypenburg the night-time register.",
+    "localProject": "An estimate, once written down, is indistinguishable from a measurement, and nothing in the file remembers the difference. Wijk 18 Waldeck publishes 17,950 residents, 9,690 households, 10,020 dwellings, an average income of 31,900 euro and an average WOZ value of 308,000 euro. The first three were enumerated from registers and the fourth aggregated from tax records. The fifth was not counted at all: the WOZ value is the estimated market value of a dwelling, fixed each year by municipal assessors who compare sale prices of similar dwellings nearby and adjust for the characteristics of the property, and its waardepeildatum is set one year before the start of the tax year, so a figure labelled 2025 describes the beginning of 2024. It approximates market value without being any transaction that occurred. All five print identically, in the same table, to the same width, and the distinction lives in the law that creates the figure rather than anywhere in the figure itself. This series has printed an average WOZ beside a population count on sixty-nine pages without once marking which was counted, which is offered here as the demonstration rather than as an apology, because that is precisely how the erasure works. In software it happens faster and at greater volume: a model writes a prediction to a column typed decimal, and there is no type for probably; a geocoder writes coordinates that read as surveyed; a first name yields an inferred age; an imputed blank fills with a months-old column mean and destroys the variance silently. Six months later that column is joined to observed data and averaged, and the result is part estimate and part measurement in an unrecorded proportion. Distinct from precision against accuracy (Haagse Hout), which concerns how many digits a figure is printed with rather than how the figure was produced, and from the gap between two registers (Amsterdam-Zuid), where both quantities were counted. The remedy is cheap and unglamorous: classify every figure as counted, measured, estimated or imputed, keep the method beside the value, and refuse aggregates that mix them without a marker.",
+    "requiredMentions": [
+      "8,535",
+      "2,605",
+      "4,635",
+      "8,751",
+      "9,690",
+      "5,160",
+      "10,020",
+      "308,000",
+      "2,391",
+      "4,109",
+      "594,000",
+      "1,307",
+      "9,754",
+      "Componistenbuurt"
+    ],
+    "sources": [
+      {
+        "claim": "Wijk 17 Loosduinen, Den Haag: 17,884 inwoners (2026); 8,535 huishoudens averaging 2.0, 3,615 eenpersoonshuishoudens at 42 percent; ages 2,605 (0 to 15, 15 percent), 1,900 (15 to 25, 11 percent), 4,130 (25 to 45, 23 percent), 4,615 (45 to 65, 26 percent), 4,635 (65+, 26 percent); 274 hectare, 270 land, 4 water; bevolkingsdichtheid 6,646 per km2; woningvoorraad 8,751 (2025); gemiddelde WOZ 325,000 euro (2025); 4,551 huurwoningen (52 percent) and 4,200 koopwoningen (48 percent); gemiddeld inkomen 31,600 euro (2024); 5 vestigingen basisonderwijs with 1,099 leerlingen and 1 vestiging voortgezet onderwijs with 126 leerlingen; buurten: Houtwijk, Kom Loosduinen, Kerketuinen en Zichtenburg.",
+        "url": "https://allecijfers.nl/wijk/loosduinen-den-haag/"
+      },
+      {
+        "claim": "Wijk 18 Waldeck, Den Haag: 17,950 inwoners (2026); 9,690 huishoudens averaging 1.8, 5,160 eenpersoonshuishoudens at 53 percent and 4,530 meerpersoonshuishoudens at 47; ages 2,265 (0 to 15, 13 percent), 1,540 (15 to 25, 8.6 percent), 4,110 (25 to 45, 23 percent), 4,310 (45 to 65, 24 percent), 5,740 (65+, 32 percent); 185 hectare, 181 land, 4 water; bevolkingsdichtheid 9,754 per km2; woningvoorraad 10,020 (2025); gemiddelde WOZ 308,000 euro (2025); 5,711 huurwoningen (57 percent) and 4,309 koopwoningen (43 percent); gemiddeld inkomen 31,900 euro (2024); 5 vestigingen basisonderwijs with 1,180 leerlingen and 5 vestigingen voortgezet onderwijs with 2,391 leerlingen; 5 buurten: Componistenbuurt, Rosenburg, Waldeck-Noord, Nieuw Waldeck, Waldeck-Zuid.",
+        "url": "https://allecijfers.nl/wijk/waldeck-den-haag/"
+      },
+      {
+        "claim": "Wijk 16 Kraayenstein en Vroondaal, Den Haag: 10,743 inwoners (2026); 4,140 huishoudens averaging 2.5, 1,320 eenpersoonshuishoudens at 32 percent; ages 2,435 (0 to 15, 23 percent), 1,145 (15 to 25, 11 percent), 2,870 (25 to 45, 27 percent), 2,910 (45 to 65, 27 percent), 1,420 (65+, 13 percent); 336 hectare, 302 land, 34 water; bevolkingsdichtheid 3,472 per km2; woningvoorraad 4,109 (2025); gemiddelde WOZ 594,000 euro (2025); 1,274 huurwoningen (31 percent) and 2,835 koopwoningen (69 percent); gemiddeld inkomen 42,900 euro (2024); 1 vestiging basisonderwijs with 692 leerlingen and 1 vestiging voortgezet onderwijs with 501 leerlingen; one buurt sharing the wijk name.",
+        "url": "https://allecijfers.nl/wijk/kraayenstein-en-vroondaal-den-haag/"
+      },
+      {
+        "claim": "Wijk 15 Kijkduin en Ockenburgh, Den Haag: 3,978 inwoners (2026); 1,870 huishoudens averaging 1.9, 800 eenpersoonshuishoudens at 43 percent and 1,070 meerpersoonshuishoudens at 57; ages 380 (0 to 15, 9.6 percent), 495 (15 to 25, 12 percent), 735 (25 to 45, 18 percent), 1,140 (45 to 65, 29 percent), 1,270 (65+, 32 percent); 482 hectare, 472 land, 10 water; bevolkingsdichtheid 784 per km2; woningvoorraad 1,673 (2025); gemiddelde WOZ 670,000 euro (2025); 786 huurwoningen (47 percent) and 887 koopwoningen (53 percent); gemiddeld inkomen 46,900 euro (2024); 1 vestiging basisonderwijs with 214 leerlingen and 1 vestiging voortgezet onderwijs with 1,307 leerlingen; 2 buurten: Kijkduin, Ockenburgh.",
+        "url": "https://allecijfers.nl/wijk/kijkduin-en-ockenburgh-den-haag/"
+      },
+      {
+        "claim": "Wet waardering onroerende zaken: the WOZ-waarde is the estimated market value of a dwelling, a standardised valuation of real property used for tax purposes. Municipal tax assessors (heffingsambtenaren) establish it through formal written decisions issued annually. For residential property it is determined by comparison with similar homes sold near the assessment date, adjusted to market conditions on the reference date: gemeenten bepalen de WOZ-waarde op basis van verkoopprijzen van vergelijkbare woningen in de buurt, en specifieke kenmerken van de woning. The waardepeildatum is fixed one year before the tax year begins. It is used for municipal property tax, water board fees, income tax, inheritance tax and increasingly by banks as proof of mortgage collateral. It approximates market value but is not identical to actual transaction prices.",
+        "url": "https://nl.wikipedia.org/wiki/Wet_waardering_onroerende_zaken"
+      },
+      {
+        "claim": "The Hague city page in this series publishes stadsdeel Loosduinen at 51,395 residents for 2022, listing the old village of Loosduinen 17,884, Waldeck 17,950, Kraayenstein en Vroondaal 10,743 and Kijkduin en Ockenburgh 3,978.",
+        "url": "https://learn.modernagecoders.com/coding-classes-in-the-hague"
+      },
+      {
+        "claim": "School holiday regions: regio Midden = Utrecht, Zuid-Holland and the northern part of Gelderland; regio Noord = Groningen, Friesland, Drenthe, Overijssel, Flevoland, Noord-Holland; regio Zuid = Zeeland, Noord-Brabant, Limburg and the southern part of Gelderland.",
+        "url": "https://www.rijksoverheid.nl/themas/onderwijs/schoolvakanties/regios-schoolvakantie"
+      }
+    ],
+    "rejectedClaims": [
+      "That any WOZ figure quoted anywhere in this series is wrong. Every one is correctly quoted; the argument is that they are estimates presented indistinguishably from counts.",
+      "That the WOZ value is what a house would sell for, or what anybody paid. It approximates market value and is not identical to any transaction price.",
+      "Any claim about house prices in these wijken. No transaction data was read and none is inferred from the assessed values.",
+      "A 2026 population for the stadsdeel. The city page carries 51,395 for 2022 and it is dated wherever used; no total is assembled from the four wijk rows.",
+      "Any inference from the 1,307 secondary pupils in a wijk of 3,978 residents. What a school inside a boundary implies about children outside it is the Escamp page argument.",
+      "Any argument from how many digits a figure is printed with. That is the Haagse Hout page argument; this page concerns how figures were produced, not how they are formatted.",
+      "Any reading of the difference between the dwelling counts and the household counts. Both are enumerated, and a gap between two registers is the Amsterdam-Zuid page argument.",
+      "Any explanation of why the over-sixty-five share is high in three of the four wijken. That would be a claim about the history of the stock, which is the Prins Alexander page argument.",
+      "Any comparison of the four wijken as though agreement on one column implied similarity on others. Correlated measures are the Hillegersberg-Schiebroek page argument.",
+      "Anything the Hague city page owns, including the stadsdeel population table, the International School of The Hague at Wijndaelerweg 11 and the named secondary schools."
+    ]
   }
 }

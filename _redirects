@@ -2290,4 +2290,8 @@
 # International growth cluster (coding-global.css). Must precede the /* catch-all.
 /coding-classes-in-leidschenveen-ypenburg /src/pages/coding-classes-in-leidschenveen-ypenburg.html 200
 /coding-classes-in-leidschenveen-ypenburg.md /src/pages/coding-classes-in-leidschenveen-ypenburg.md 200
+
+# International growth cluster (coding-global.css). Must precede the /* catch-all.
+/coding-classes-in-loosduinen /src/pages/coding-classes-in-loosduinen.html 200
+/coding-classes-in-loosduinen.md /src/pages/coding-classes-in-loosduinen.md 200
 /* /src/pages/404.html 404
