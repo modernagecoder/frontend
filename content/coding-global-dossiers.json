@@ -7798,5 +7798,73 @@
       "Any comparison of the four wijken as though agreement on one column implied similarity on others. Correlated measures are the Hillegersberg-Schiebroek page argument.",
       "Anything the Hague city page owns, including the stadsdeel population table, the International School of The Hague at Wijndaelerweg 11 and the named secondary schools."
     ]
+  },
+  "coding-classes-in-segbroek": {
+    "market": "Segbroek",
+    "bodyClass": "cg-sgb",
+    "pageType": "district",
+    "curriculumAuthority": "Stadsdeel Segbroek, Den Haag, Zuid-Holland: the pre-war middle of the city, a stadsdeel since 1988, named after the old Segbroekpolder; 63,259 residents (2025) in the encyclopaedia entry, just over 60,000 in 2013, and 62,507 for 2022 on the Hague city page; five wijken, all read at 2026. Wijk 20 Valkenboskwartier en Heesterbuurt 18,159 on 107 hectares, 106 land and 1 water, density 17,410, the highest in this series; 10,230 households averaging 1.8 with 5,590 single at 55 percent; 2,365 under fifteen at 13 percent, 7,100 aged twenty-five to forty-five at 39 percent; 9,878 dwellings, estimated value 333,000 euro, 4,840 owner-occupied at 49 percent; income 35,000 euro (2024); 3 primary establishments with 451 pupils and no secondary; buurten Valkenboskwartier and Heesterbuurt. Wijk 21 Regentessekwartier 14,376 on 94 hectares, density 15,841; 8,015 households averaging 1.8 with 4,470 single at 56 percent; 1,995 under fifteen, 5,555 aged twenty-five to forty-five at 39 percent; 7,774 dwellings, estimated value 389,000 euro, 2,721 owner-occupied at 35 percent; income 37,900 euro (2024); 3 primary establishments with 619 pupils and one secondary establishment with no pupil count listed; buurten Koningsplein en omgeving and Rond de Energiecentrale. Wijk 12 Bomen- en Bloemenbuurt 14,912 on 142 hectares, 141 land and 2 water, density 10,621; 7,720 households averaging 1.9 with 3,555 single at 46 percent; 2,195 under fifteen at 15 percent, 1,480 aged fifteen to twenty-five at 9.9, 3,225 over sixty-five at 22 percent; 7,795 dwellings, estimated value 428,000 euro, 5,379 owner-occupied at 69 percent; income 41,100 euro (2024); 5 primary establishments with 1,450 pupils and 4 secondary with 3,601; buurten Bomenbuurt, Bloemenbuurt-Oost and Bloemenbuurt-West. Wijk 19 Vruchtenbuurt 9,942 on 104 hectares, density 9,582; 4,575 households averaging 2.1 with 1,675 single at 37 percent; 1,650 under fifteen at 17 percent; 4,600 dwellings, estimated value 443,000 euro, 3,634 owner-occupied at 79 percent; income 41,200 euro (2024); 2 primary establishments with 632 pupils; buurten Vruchtenbuurt and Eykenduinen. Vogelwijk 5,444 on 268 hectares, density 2,030; 2,105 households averaging 2.6 with 475 single at 23 percent; 1,020 under fifteen at 19 percent, 710 aged fifteen to twenty-five, 675 aged twenty-five to forty-five at 12 percent, 1,830 aged forty-five to sixty-five at 34; 2,170 dwellings, estimated value 939,000 euro, the highest in this series, 1,953 owner-occupied at 90 percent; income 56,400 euro (2024); 7 primary establishments with 2,930 pupils and 1 secondary with 486. Regio Midden holidays. The district page argues the ceiling check; Escamp owns necessary versus sufficient, Loosduinen the estimate that reads as a count, Haagse Hout precision against accuracy, Ash Sharqiyah South the absent value that is not a zero.",
+    "localProject": "Every quantity has a ceiling published somewhere near it, and checking against the ceiling catches a class of error that survives every other kind of review. The Vogelwijk holds 5,444 residents. Seven primary establishments inside it teach 2,930 pupils and one secondary establishment teaches 486, so 3,416 pupils are taught in the wijk. Its residents under fifteen number 1,020 and those aged fifteen to twenty-five 710, so even counting everybody under twenty-five as a possible pupil, which is far too generous because primary school runs from four to twelve, the ceiling is 1,730. The published figure is roughly double its own maximum. The Bomen- en Bloemenbuurt does the same at a smaller margin, 5,051 pupils against 3,675 residents under twenty-five, while the Valkenboskwartier, the Regentessekwartier and the Vruchtenbuurt sit far below their ceilings at 451, 619 and 632. Neither direction is an error. Both prove that pupils taught inside a boundary and residents of that boundary are counts of different people. What matters is the route to that conclusion: the Escamp page in this series reaches it by argument, showing that a school inside a wijk is neither necessary nor sufficient for the children who live there, and an argument can be disputed or forgotten, whereas a number larger than its own maximum cannot be, and one subtraction finds it. The programming form is the assertion, and the useful assertions are almost never about types: that a filtered set is no larger than its source, that parts sum to the whole, that a rate lies between nought and one. The errors these catch are the ones where every individual figure is correct and the mistake is in what the figures are being asked to mean, which have no shape and so pass review, pass a second reader and pass any tool checking types, nulls and ranges. Distinct from the absent value that is not a zero (Ash Sharqiyah South); the Regentessekwartier secondary establishment with no pupil count is reported here and excluded from every total rather than read as a nought.",
+    "requiredMentions": [
+      "2,930",
+      "3,601",
+      "5,444",
+      "1,020",
+      "939,000",
+      "2,170",
+      "17,410",
+      "10,230",
+      "5,590",
+      "9,878",
+      "7,774",
+      "7,795",
+      "63,259",
+      "Heesterbuurt"
+    ],
+    "sources": [
+      {
+        "claim": "Wijk 20 Valkenboskwartier, Den Haag: 18,159 inwoners (2026); 10,230 huishoudens averaging 1.8, 5,590 eenpersoonshuishoudens at 55 percent; ages 2,365 (0 to 15, 13 percent), 2,110 (15 to 25, 12 percent), 7,100 (25 to 45, 39 percent), 4,450 (45 to 65, 25 percent), 2,125 (65+, 12 percent); 107 hectare, 106 land, 1 water; bevolkingsdichtheid 17,410 per km2; woningvoorraad 9,878 (2025); gemiddelde WOZ 333,000 euro (2025); 5,038 huurwoningen (51 percent) and 4,840 koopwoningen (49 percent); gemiddeld inkomen 35,000 euro (2024); 3 vestigingen basisonderwijs with 451 leerlingen and 0 vestigingen voortgezet onderwijs; 2 buurten: Valkenboskwartier, Heesterbuurt.",
+        "url": "https://allecijfers.nl/wijk/valkenboskwartier-den-haag/"
+      },
+      {
+        "claim": "Wijk 21 Regentessekwartier, Den Haag: 14,376 inwoners (2026); 8,015 huishoudens averaging 1.8, 4,470 eenpersoonshuishoudens at 56 percent and 3,545 meerpersoonshuishoudens at 44; ages 1,995 (0 to 15, 14 percent), 1,760 (15 to 25, 12 percent), 5,555 (25 to 45, 39 percent), 3,380 (45 to 65, 24 percent), 1,715 (65+, 12 percent); 94 hectare; bevolkingsdichtheid 15,841 per km2; woningvoorraad 7,774 (2025); gemiddelde WOZ 389,000 euro (2025); 5,053 huurwoningen (65 percent) and 2,721 koopwoningen (35 percent); gemiddeld inkomen 37,900 euro (2024); 3 vestigingen basisonderwijs with 619 leerlingen; 1 vestiging voortgezet onderwijs with no leerlingen figure listed; 2 buurten: Koningsplein en omgeving, Rond de Energiecentrale.",
+        "url": "https://allecijfers.nl/wijk/regentessekwartier-den-haag/"
+      },
+      {
+        "claim": "Wijk 12 Bomen en Bloemenbuurt, Den Haag: 14,912 inwoners (2026); 7,720 huishoudens averaging 1.9, 3,555 eenpersoonshuishoudens at 46 percent and 4,165 meerpersoonshuishoudens at 54; ages 2,195 (0 to 15, 15 percent), 1,480 (15 to 25, 9.9 percent), 3,905 (25 to 45, 26 percent), 4,140 (45 to 65, 28 percent), 3,225 (65+, 22 percent); 142 hectare, 141 land, 2 water; bevolkingsdichtheid 10,621 per km2; woningvoorraad 7,795 (2025); gemiddelde WOZ 428,000 euro (2025); 2,338 huurwoningen (30 percent) and 5,379 koopwoningen (69 percent); gemiddeld inkomen 41,100 euro (2024); 5 vestigingen basisonderwijs with 1,450 leerlingen and 4 vestigingen voortgezet onderwijs with 3,601 leerlingen; 3 buurten: Bomenbuurt, Bloemenbuurt-Oost, Bloemenbuurt-West.",
+        "url": "https://allecijfers.nl/wijk/bomen-en-bloemenbuurt-den-haag/"
+      },
+      {
+        "claim": "Wijk 19 Vruchtenbuurt, Den Haag: 9,942 inwoners (2026); 4,575 huishoudens averaging 2.1, 1,675 eenpersoonshuishoudens at 37 percent and 2,900 meerpersoonshuishoudens at 63; ages 1,650 (0 to 15, 17 percent), 1,035 (15 to 25, 10 percent), 2,595 (25 to 45, 26 percent), 2,820 (45 to 65, 28 percent), 1,855 (65+, 19 percent); 104 hectare; bevolkingsdichtheid 9,582 per km2; woningvoorraad 4,600 (2025); gemiddelde WOZ 443,000 euro (2025); 966 huurwoningen (21 percent) and 3,634 koopwoningen (79 percent); gemiddeld inkomen 41,200 euro (2024); 2 vestigingen basisonderwijs with 632 leerlingen and 0 vestigingen voortgezet onderwijs; 2 buurten: Vruchtenbuurt, Eykenduinen.",
+        "url": "https://allecijfers.nl/wijk/vruchtenbuurt-den-haag/"
+      },
+      {
+        "claim": "Wijk Vogelwijk, Den Haag: 5,444 inwoners (2026); 2,105 huishoudens averaging 2.6, 475 eenpersoonshuishoudens at 23 percent; ages 1,020 (0 to 15, 19 percent), 710 (15 to 25, 13 percent), 675 (25 to 45, 12 percent), 1,830 (45 to 65, 34 percent), 1,200 (65+, 22 percent); 268 hectare; bevolkingsdichtheid 2,030 per km2; woningvoorraad 2,170 (2025); gemiddelde WOZ 939,000 euro (2025); 217 huurwoningen (10 percent) and 1,953 koopwoningen (90 percent); gemiddeld inkomen 56,400 euro (2024); 7 vestigingen basisonderwijs with 2,930 leerlingen and 1 vestiging voortgezet onderwijs with 486 leerlingen; 2,280 addresses.",
+        "url": "https://allecijfers.nl/wijk/vogelwijk-den-haag/"
+      },
+      {
+        "claim": "Stadsdeel Segbroek, Den Haag: five wijken, Regentessekwartier, Valkenboskwartier en Heesterbuurt, Vruchtenbuurt, Bomen- en Bloemenbuurt and Vogelwijk; 63.259 inwoners (2025); Er woonden in 2013 ruim 60.000 mensen. Segbroek als stadsdeel ontstond in 1988; named after the old Segbroekpolder, combining the former Haagse wijken nummers 12 en 14 known as the Bomen- en Bloemenbuurt, and Bohemen.",
+        "url": "https://nl.wikipedia.org/wiki/Segbroek"
+      },
+      {
+        "claim": "The Hague city page in this series publishes stadsdeel Segbroek at 62,507 residents for 2022, with Valkenboskwartier 18,159, Regentessekwartier 14,376 and the Bomen- en Bloemenbuurt 14,912.",
+        "url": "https://learn.modernagecoders.com/coding-classes-in-the-hague"
+      },
+      {
+        "claim": "School holiday regions: regio Midden = Utrecht, Zuid-Holland and the northern part of Gelderland; regio Noord = Groningen, Friesland, Drenthe, Overijssel, Flevoland, Noord-Holland; regio Zuid = Zeeland, Noord-Brabant, Limburg and the southern part of Gelderland.",
+        "url": "https://www.rijksoverheid.nl/themas/onderwijs/schoolvakanties/regios-schoolvakantie"
+      }
+    ],
+    "rejectedClaims": [
+      "That any published school or population figure is wrong. All are correct; the finding is that pupils taught inside a wijk and residents of that wijk are counts of different people.",
+      "Any estimate of how many pupils at these establishments live locally, or of where the others come from. No catchment data was read and none is inferred.",
+      "That any wijk is well or badly served by schools. Being above or below the ceiling says nothing about provision, and the Escamp page in this series owns the argument about what a school inside a boundary implies.",
+      "Any use of the Regentessekwartier secondary establishment as a zero. No pupil count is listed against it; it is reported and excluded from every total, and reading an absent value as a nought is the Ash Sharqiyah South page argument.",
+      "A 2026 population for the stadsdeel. The published totals are 63,259 for 2025, just over 60,000 for 2013 and 62,507 for 2022 on the city page, all dated wherever used, and no total is assembled from the five wijk rows.",
+      "That any average dwelling value quoted here is a price or a count. Every one is a municipal assessment, which the Loosduinen page in this series sets out.",
+      "Any argument from the density range across the five wijken, or from how many digits a figure carries. Those are the boundary and precision arguments belonging to Rotterdam Centrum and Haagse Hout.",
+      "Any explanation of why the Vogelwijk has more residents under fifteen than aged twenty-five to forty-five. That would be a claim about the history of the stock, which is the Prins Alexander page argument.",
+      "Anything the Hague city page owns, including the stadsdeel population table, Segbroek College and the named secondary schools with their addresses."
+    ]
   }
 }
