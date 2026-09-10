@@ -1180,3 +1180,9 @@
 .demo-state-no-show, .demo-state-cancelled { color: #a34a08; }
 .demo-state-reserved { color: #8a6d00; }
 .actions-cell .demo-state-select { max-width: 132px; }
+
+/* Demo choice badge: free queue vs paid priority demo (renderDemoChoice) */
+.demo-choice { display: inline-block; margin-top: 4px; font-size: 11px; font-weight: 700; letter-spacing: .03em; padding: 2px 8px; border-radius: 999px; vertical-align: middle; white-space: nowrap; }
+.demo-choice-paid { background: #fff3dc; color: #8f3f08; border: 1px solid rgba(217, 119, 6, .55); }
+.demo-choice-free { background: #eef3ee; color: #1d7544; border: 1px solid rgba(29, 117, 68, .3); }
+.rail-entry.is-priority { border-left: 3px solid #d97706; background: #fffaf0; }

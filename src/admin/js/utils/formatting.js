@@ -148,6 +148,22 @@ function renderSlot(demoSlot, compact) {
 }
 
 /**
+ * DEMO CHOICE BADGE
+ *
+ * What the visitor picked right after submitting: the free queue, or the paid
+ * priority demo (₹499 / $10, today or tomorrow). The paid value is written
+ * only by a verified payment (backend lib/paidDemo.js), so it can be trusted.
+ */
+function renderDemoChoice(demoChoice) {
+  if (!demoChoice || !demoChoice.value) return '';
+  if (demoChoice.value === 'priority-paid') {
+    const order = demoChoice.orderId ? ' · order ' + demoChoice.orderId : '';
+    return `<span class="demo-choice demo-choice-paid" title="Paid priority demo${escapeHtml(order)}">⚡ PRIORITY DEMO · paid</span>`;
+  }
+  return '<span class="demo-choice demo-choice-free" title="Chose to wait in the free queue">Free queue</span>';
+}
+
+/**
  * The path a visitor took before converting.
  */
 function renderJourney(journey) {

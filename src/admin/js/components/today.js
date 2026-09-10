@@ -330,9 +330,14 @@ const TodayComponent = {
     if (demo.phoneWarning) {
       contactBits.push(`<span class="phone-flag" title="${escapeHtml(demo.phoneWarning)}">⚠ check number</span>`);
     }
+    // A paid priority demo goes first and the row is tinted: a mentor has to
+    // leave a running batch for it, so it must never be mistaken for a free one.
+    if (demo.priority) {
+      contactBits.unshift(`<span class="demo-choice demo-choice-paid" title="${escapeHtml(demo.paidOrderId ? 'Order ' + demo.paidOrderId : 'Paid priority demo')}">⚡ PRIORITY DEMO · paid</span>`);
+    }
 
     return `
-      <div class="rail-entry">
+      <div class="rail-entry${demo.priority ? ' is-priority' : ''}">
         <div class="rail-time">
           ${escapeHtml(time)}
           <small>${escapeHtml(day)}</small>

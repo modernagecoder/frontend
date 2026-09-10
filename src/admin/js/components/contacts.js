@@ -138,7 +138,7 @@ async function loadContacts() {
                 <td data-label="Came from">${renderSource(contact.attribution)}</td>
                 <td data-label="Demo slot">${renderSlot(contact.demoSlot, true)}</td>
                 <td data-label="Country">${renderCountryCell(contact)}</td>
-                <td data-label="Status"><span class="badge badge-${escapeHtml(contact.status)}">${escapeHtml(capitalizeFirst(contact.status))}</span>${renderDemoState(contact.demoState)}</td>
+                <td data-label="Status"><span class="badge badge-${escapeHtml(contact.status)}">${escapeHtml(capitalizeFirst(contact.status))}</span>${renderDemoState(contact.demoState)}${renderDemoChoice(contact.demoChoice)}</td>
                 <td data-label="Date" class="cell-date">${formatWhen(contact.submittedAt)}</td>
                 <td data-label="Actions">
                   <div class="action-buttons">
@@ -391,6 +391,10 @@ async function viewContact(id) {
                 </select>
                 <div class="form-hint" style="margin-top:6px">Inquiry is not a booking. Set Confirmed once a time is agreed, then Attended or No-show after the class.</div>
               </div>
+            </div>
+            <div class="detail-item">
+              <div class="detail-label">Chosen path</div>
+              <div class="detail-value">${renderDemoChoice(contact.demoChoice) || '<span class="slot-empty">Not chosen yet (free queue by default)</span>'}</div>
             </div>
           </div>
         </div>

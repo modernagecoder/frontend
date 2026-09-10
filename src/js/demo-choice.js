@@ -479,10 +479,10 @@
                 // The thank-you hero already says "Request received" right above
                 // the inline card, so the eyebrow is for the popup only.
                 (mode === 'modal'
-                    ? '<span class="mac-dc-eyebrow"><span style="display:inline-flex;width:13px;height:13px">' + ICON_TICK + '</span>Request received</span>'
+                    ? '<span class="mac-dc-eyebrow"><span style="display:inline-flex;width:13px;height:13px">' + ICON_TICK + '</span>Your request is submitted</span>'
                     : '') +
-                '<h2 class="mac-dc-title">How would you like your demo?</h2>' +
-                '<p class="mac-dc-sub">Choose one. Both are the same live class with the same mentors. The only difference is how soon.</p>' +
+                '<h2 class="mac-dc-title">Now choose: how soon do you want your demo?</h2>' +
+                '<p class="mac-dc-sub">Pick one to complete your booking. Both are the same live class with the same mentors. The only difference is how soon.</p>' +
             '</div>' +
             '<div class="mac-dc-grid">' +
                 '<section class="mac-dc-opt mac-dc-opt--free">' +
@@ -504,7 +504,7 @@
         return (
             '<div class="mac-dc-queue">' +
                 '<span class="mac-dc-tick">' + ICON_TICK + '</span>' +
-                '<h3>You’re in the free queue</h3>' +
+                '<h3>Response submitted. You’re in the free queue.</h3>' +
                 '<p>Thank you for your patience. Our mentors are teaching live classes for most of the day, so free demos take time. We contact you on the number you shared, in order, and fix a time that suits you.</p>' +
                 '<p><b>While you wait, watch a full recorded class.</b> It shows exactly how we teach, and most parents say it answers their questions before the demo.</p>' +
                 '<div class="mac-dc-actions">' +
@@ -542,7 +542,7 @@
         return (
             '<div class="mac-dc-done">' +
                 '<span class="mac-dc-tick">' + ICON_TICK + '</span>' +
-                '<h3>Booked. Your priority demo is on its way.</h3>' +
+                '<h3>Payment received. Your priority demo is booked.</h3>' +
                 '<div class="mac-dc-slotbox">' + esc(paid.slot || 'We call you within the hour to fix the time') + '</div>' +
                 '<p>Paid ' + esc(paid.display) + ' · Order ID <code>' + esc(paid.orderId) + '</code></p>' +
                 '<p>A mentor confirms your demo on WhatsApp shortly. To move faster, send us the confirmation yourself:</p>' +
@@ -596,7 +596,13 @@
         this.root.innerHTML = chooserHtml(this.mode, price, paid);
         this.grid = this.root.querySelector('.mac-dc-grid');
         this.panel = this.root.querySelector('.mac-dc-panel');
-        this.bind();
+        if (!this.bound) { this.bind(); this.bound = true; }
+
+        // A choice already made in this tab (in the popup, or before a reload)
+        // is shown as made, so the visitor is never asked twice.
+        if (this.rec.choice === 'paid' && paid) this.showSuccess(paid);
+        else if (this.rec.choice === 'free') this.showQueue(true);
+
         track('demo_choice_shown', { mode: this.mode, region: price.currency });
     };
 
@@ -623,12 +629,23 @@
         this.scrollTop();
     };
 
-    Chooser.prototype.showQueue = function () {
+    /**
+     * The free-queue choice. `silent` re-shows a choice already made (render
+     * after a reload, or the inline card mirroring the popup) without
+     * recording it a second time.
+     */
+    Chooser.prototype.showQueue = function (silent) {
         this.grid.hidden = true;
         this.panel.innerHTML = queueHtml();
         this.panel.hidden = false;
         this.scrollTop();
+        if (silent) return;
+
+        this.rec.choice = 'free';
+        writeSession(this.rec);
+        submitChoice(this.rec, 'free');
         track('demo_choice_free', { source: this.rec.kind || 'unknown' });
+        syncInline(this);
     };
 
     Chooser.prototype.showSuccess = function (paid) {
@@ -831,7 +848,10 @@
                 at: Date.now()
             };
             writePaid(paid);
+            self.rec.choice = 'paid';
+            writeSession(self.rec);
             self.showSuccess(paid);
+            syncInline(self);
             track('demo_priority_paid', {
                 value: order.amount, currency: order.currency,
                 transaction_id: paid.orderId, source: self.rec.kind || 'unknown'
@@ -848,9 +868,41 @@
         });
     };
 
+    // ───────────────────────── recording the choice ─────────────────────────
+
+    /**
+     * Tell the server which path the visitor chose, so the lead in the admin
+     * panel says "free queue" or "priority demo". Only the free choice goes
+     * this way; the paid one is recorded by the verified payment itself.
+     * Fire-and-forget: the confirmation on screen never waits on it, and a
+     * lead without an id (a static form) simply is not recorded.
+     */
+    function submitChoice(rec, choice) {
+        if (!rec || !rec.lid || !rec.kind || choice !== 'free') return;
+        try {
+            fetch(apiUrl() + '/api/demo-choice', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({ leadId: String(rec.lid), leadKind: rec.kind, choice: 'free' })
+            }).catch(function () { });
+        } catch (e) { }
+    }
+
     // ───────────────────────── mounting ─────────────────────────
 
     var activeModal = null;
+    var inlineChooser = null;
+
+    /**
+     * The thank-you page shows the chooser twice: as the popup the visitor
+     * cannot miss, and inline on the page underneath. A choice made in one is
+     * mirrored in the other, so closing the popup never "loses" the answer.
+     */
+    function syncInline(source) {
+        if (!inlineChooser || inlineChooser === source) return;
+        inlineChooser.rec = readSession() || inlineChooser.rec;
+        inlineChooser.render();
+    }
 
     function openModal(rec) {
         if (activeModal) return;
@@ -862,11 +914,13 @@
         document.body.appendChild(overlay);
         document.body.style.overflow = 'hidden';
         activeModal = new Chooser(card, 'modal', rec);
-        overlay.addEventListener('click', function (e) { if (e.target === overlay) activeModal && activeModal.close(); });
+        // Deliberately NOT closed by a click on the dim background: a stray tap
+        // beside the card on a phone must not dismiss the one question we
+        // need answered. The × button and Escape still close it.
         document.addEventListener('keydown', function onKey(e) {
             if (e.key === 'Escape' && activeModal) { activeModal.close(); document.removeEventListener('keydown', onKey); }
         });
-        try { var closeBtn = card.querySelector('.mac-dc-close'); if (closeBtn) closeBtn.focus(); } catch (e) { }
+        try { var title = card.querySelector('.mac-dc-title'); if (title) { title.setAttribute('tabindex', '-1'); title.focus(); } } catch (e) { }
     }
 
     function renderInline(rec) {
@@ -876,7 +930,7 @@
         mount.innerHTML = '';
         var card = document.createElement('div');
         mount.appendChild(card);
-        new Chooser(card, 'inline', rec);
+        inlineChooser = new Chooser(card, 'inline', rec);
     }
 
     // ───────────────────────── fetch hook ─────────────────────────
@@ -909,7 +963,7 @@
 
     function afterLeadSaved(rec) {
         if (optedOut()) return;
-        if (inlineMount()) { renderInline(rec); return; }
+        if (inlineMount()) renderInline(rec);
         setTimeout(function () {
             if (unloading) return;         // the page is on its way to /thank-you
             openModal(rec);
@@ -972,6 +1026,11 @@
             if (!rec.kind && params.get('src')) rec.kind = params.get('src') === 'callback' ? 'callback' : 'contact';
         } catch (e) { }
         renderInline(rec);
+
+        // The visitor arrived here by submitting a form. The inline card can
+        // sit below the fold, so the same choice opens as a popup they cannot
+        // miss - unless it has already been answered in this tab.
+        if (!rec.choice) openModal(rec);
     }
 
     if (document.readyState === 'loading') {
@@ -986,6 +1045,6 @@
         open: function (rec) { openModal(rec || readSession() || {}); },
         renderInline: function (rec) { renderInline(rec || readSession() || {}); },
         prices: PRICES,
-        version: '20260910b'
+        version: '20260910c'
     };
 })();

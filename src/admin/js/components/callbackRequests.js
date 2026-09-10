@@ -277,6 +277,11 @@ const CallbackRequestsComponent = {
       wants = '<span class="wants-note">Not recorded — ask when you ring</span>';
     }
 
+    // A paid priority demo, or a chosen free queue, goes first: it changes
+    // how urgently this row needs a call.
+    const choice = renderDemoChoice(req.demoChoice);
+    if (choice) wants = choice + '<br>' + wants;
+
     const lastAction = this.lastActionSummary(req);
 
     return `
@@ -455,6 +460,7 @@ const CallbackRequestsComponent = {
           <div class="detail-section">
             <h3>What they asked for</h3>
             <div class="detail-value">
+              ${renderDemoChoice(req.demoChoice) ? '<div style="margin-bottom:8px">' + renderDemoChoice(req.demoChoice) + '</div>' : ''}
               ${req.demoSlot && req.demoSlot.raw
                 ? renderSlot(req.demoSlot) +
                   (req.demoSlot.localTime
