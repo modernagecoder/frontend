@@ -602,7 +602,10 @@
     }
 
     Chooser.prototype.render = function () {
-        var paid = readPaid();
+        // In preview mode (?test=intl / ?test=india) the "already booked"
+        // memory is ignored, so the owner can look at the price card after
+        // making a real test payment in the same browser.
+        var paid = testRegion() === null ? readPaid() : null;
         var price = priceFor(regionIsIndia(this.rec.countryIso));
         this.root.className = 'mac-dc' + (this.mode === 'inline' ? ' mac-dc--inline' : '');
         this.root.setAttribute('role', this.mode === 'modal' ? 'dialog' : 'region');
@@ -1063,6 +1066,6 @@
         open: function (rec) { openModal(rec || readSession() || {}); },
         renderInline: function (rec) { renderInline(rec || readSession() || {}); },
         prices: PRICES,
-        version: '20260910e'
+        version: '20260910f'
     };
 })();
