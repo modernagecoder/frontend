@@ -6,7 +6,7 @@
  *
  *   Free      wait in the queue. Mentors teach live classes most of the day,
  *             so free demos are scheduled in order as slots open up and it
- *             can take a few days.
+ *             can take a few weeks (owner's wording, 2026-09-10).
  *   Priority  pay ₹499 in India or $10 elsewhere and a mentor steps out of a
  *             running batch to teach the demo today or tomorrow, at a time
  *             the visitor picks. Paid through Razorpay, verified server-side.
@@ -489,8 +489,8 @@
                     '<span class="mac-dc-kicker">Option 1 · Free</span>' +
                     '<h3>Free demo, in the queue</h3>' +
                     '<p class="mac-dc-price"><b>₹0</b><span>nothing to pay</span></p>' +
-                    '<p class="mac-dc-body">Our mentors spend most of the day teaching live classes, so free demos are scheduled in order as slots open up. It can take a few days. We call or WhatsApp you with a time.</p>' +
-                    '<ul><li>No payment, no card</li><li>Scheduled in order, usually within a few days</li><li>Watch a full recorded class while you wait</li></ul>' +
+                    '<p class="mac-dc-body">Our mentors spend most of the day teaching live classes, so free demos are scheduled in order as slots open up. You are in a queue, and it can take a few weeks. We call or WhatsApp you with a time.</p>' +
+                    '<ul><li>No payment, no card</li><li>Scheduled in order, usually within a few weeks</li><li>Watch a full recorded class while you wait</li></ul>' +
                     '<button type="button" class="mac-dc-btn mac-dc-btn--ghost" data-action="free">Wait in the free queue</button>' +
                 '</section>' +
                 paidCard +
@@ -505,7 +505,7 @@
             '<div class="mac-dc-queue">' +
                 '<span class="mac-dc-tick">' + ICON_TICK + '</span>' +
                 '<h3>Response submitted. You’re in the free queue.</h3>' +
-                '<p>Thank you for your patience. Our mentors are teaching live classes for most of the day, so free demos take time. We contact you on the number you shared, in order, and fix a time that suits you.</p>' +
+                '<p>Thank you for your patience. Our mentors are teaching live classes for most of the day, so free demos take time: you are in a queue and it can be a few weeks. We contact you on the number you shared, in order, and fix a time that suits you.</p>' +
                 '<p><b>While you wait, watch a full recorded class.</b> It shows exactly how we teach, and most parents say it answers their questions before the demo.</p>' +
                 '<div class="mac-dc-actions">' +
                     '<a class="mac-dc-btn mac-dc-btn--ghost" href="/how-we-teach">Watch a recorded class</a>' +
@@ -1025,6 +1025,10 @@
             if (!rec.lid && params.get('lid')) rec.lid = params.get('lid');
             if (!rec.kind && params.get('src')) rec.kind = params.get('src') === 'callback' ? 'callback' : 'contact';
         } catch (e) { }
+        // A record built here from the URL alone (a static form, a fresh tab)
+        // needs a timestamp, or readSession() treats it as expired and a reload
+        // would ask the question again.
+        if (!rec.at) rec.at = Date.now();
         renderInline(rec);
 
         // The visitor arrived here by submitting a form. The inline card can
@@ -1045,6 +1049,6 @@
         open: function (rec) { openModal(rec || readSession() || {}); },
         renderInline: function (rec) { renderInline(rec || readSession() || {}); },
         prices: PRICES,
-        version: '20260910c'
+        version: '20260910d'
     };
 })();
