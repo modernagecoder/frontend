@@ -7942,5 +7942,65 @@
       "Any claim about the university itself, its student numbers or its admissions. Only residents counted in the statistics office rows are used.",
       "Anything the Eindhoven city page owns, including the BIC Noord workplaces, the High Tech Campus, the Indian-origin figures and the named secondary schools with their addresses."
     ]
+  },
+  "coding-classes-in-stratum": {
+    "market": "Stratum",
+    "bodyClass": "cg-stm",
+    "pageType": "district",
+    "curriculumAuthority": "Stadsdeel Stratum, Eindhoven, Noord-Brabant: a municipality until 1 January 1920; three statistics office wijken, Oud-Stratum, Kortonjo and Putten, whose areas add to 1,153 hectares, 1,141 land and 12 water, matching the encyclopaedia 11.53 square kilometres with 11.41 land and 0.12 water; 25 buurten in the office list (8, 6 and 11) against 22 in the encyclopaedia. Complete-set 2026 sum 35,779 residents, flagged as arithmetic on three published rows. Oud-Stratum 12,188 residents (2026; 12,295 in 2025) on 198 hectares of land, published density 6,210 on the 2025 count, 7,295 households averaging 1.6 with 4,415 single at 61 percent, 6,476 dwellings, 42 percent owner-occupied, estimated 427,000 euro, income 42,600 euro (2024), buurten including the Joriskwartier, Irisbuurt, Tuindorp and Elzent-Noord and Elzent-Zuid, 2 primary with 621 pupils, 1 secondary with 1,145. Kortonjo 8,860 on 319 hectares, published density 2,799, 4,345 households averaging 2.0, 4,132 dwellings, 60 percent owner-occupied, estimated 489,000 euro, income 40,400 euro, 20 percent over sixty-five, 2 primary with 901 pupils. Putten 14,731 on 624 hectares, published density 2,375, 7,295 households averaging 2.0, 6,972 dwellings, 46 percent owner-occupied, estimated 421,000 euro, income 35,500 euro, 2,425 under fifteen, eleven buurten to Gijzenrooi, Riel, Schuttersbosch and Leenderheide, 4 primary with 1,197 pupils, 2 secondary with 688. Landmarks from the encyclopaedia: Sint-Joriskerk consecrated 1885, the Witte Dorp by Willem Dudok 1937 to 1939, De Burgh 1912 by Joseph Cuypers, the Radiomonument of 1936 in the Stadswandelpark recalling the 1927 wireless link with Nederlandsch-Indie, the three-sphere water tower on the Antoon Coolenlaan by Wim Quist 1970, DAF between the Geldropseweg and the Eindhovens Kanaal, the Dommel and Tongelreep as western boundary. Regio Zuid holidays. The district page argues that a mean of ratios is not a ratio of sums; Gelderland owns the mean of a mixture, Gadong the choice of denominator, Venlo the mismatched denominator, Tilburg the zoning effect, and the partial-average rule on several district pages concerns subsets, where this page has the complete set.",
+    "localProject": "Three correct densities, averaged, give a wrong one. Recomputed on the 2026 counts and the published land, Oud-Stratum has 6,156 residents per square kilometre, Kortonjo 2,777 and Putten 2,361; their mean is 3,765, while Stratum as a whole, 35,779 residents over 1,141 hectares, has 3,136, so the mean is 20 percent too high. The published 2025 densities give a mean of 3,795 and the same error. The cause is weighting: a density divides by land, so each wijk should count in proportion to its land, and Oud-Stratum, the densest, has 17.4 percent of the land but a third of the vote in a plain mean, while Putten, 54.7 percent of the land, is cut to a third. Weight by land and the mean returns exactly to 3,136. Weighting by residents instead gives 3,757, the density at which the average resident lives, a real quantity that is wrong only if reported as the density of Stratum. The page shows the error is predictable: it needs a part that is both misweighted and far from the rest. For single-person households the plain mean is 50.3 percent against a true 51.0, and because Oud-Stratum and Putten both publish exactly 7,295 households, the whole error reduces to how far Kortonjo sits from the other two. For owner occupation the plain mean is 49.3 against a true 47.8, driven by Kortonjo at 60 percent owners holding 23.5 percent of the dwellings. The programming form is the averaged per-batch accuracy with a short final batch, the mean of server averages, the mean of product ratings and the mean of class pass rates; the fix is structural, keeping numerators and denominators as separate fields, summing them with the grouping and dividing in the last line. Distinct from the mean of a mixture (Gelderland), where one average of two populations describes neither; from the partial-average rule on several district pages, which forbids averaging a subset, whereas here the set is complete and checked against the published area; from the choice of denominator (Gadong) and the mismatched denominator (Venlo), since every denominator here is the right one and the error is only in how the parts are combined; and from the zoning effect (Tilburg). An unweighted mean remains correct for the question about the typical wijk, and the page asks that it be labelled as such.",
+    "requiredMentions": [
+      "12,188",
+      "14,731",
+      "35,779",
+      "17,580",
+      "3,136",
+      "1,141",
+      "6,210",
+      "2,799",
+      "Sint-Joriskerk",
+      "Radiomonument",
+      "Stadswandelpark",
+      "Antoon Coolenlaan",
+      "Joriskwartier",
+      "Leenderheide"
+    ],
+    "sources": [
+      {
+        "claim": "Wijk Oud-Stratum, Eindhoven: 12,188 inwoners (2026), 12,295 (2025); bevolkingsdichtheid 6,210 per km2 (2025); 200 hectare, 198 land, 2 water; 7,295 huishoudens (2025), 4,415 eenpersoonshuishoudens, gemiddelde huishoudensgrootte 1.6; ages 1,230 (0 to 15), 2,055 (15 to 25), 4,615 (25 to 45), 2,360 (45 to 65), 1,890 (65+); woningvoorraad 6,476 (2025), 2,720 koopwoningen (42 percent) and 3,756 huurwoningen (58 percent); gemiddelde WOZ 427,000 euro (2025); gemiddeld inkomen 42,600 euro (2024); buurten Irisbuurt, Rochusbuurt, Elzent-Noord, Tuindorp, Joriskwartier, Elzent-Zuid, Looiakkers, Bloemenplein; 2 vestigingen basisonderwijs with 621 leerlingen, 1 voortgezet onderwijs with 1,145; studenten HBO 580, WO 830.",
+        "url": "https://allecijfers.nl/wijk/oud-stratum-eindhoven/"
+      },
+      {
+        "claim": "Wijk Kortonjo, Eindhoven: 8,860 inwoners (2026); 4,345 huishoudens averaging 2.0, 2,015 eenpersoonshuishoudens (46 percent); ages 1,275 (0 to 15), 1,325 (15 to 25), 2,215 (25 to 45), 2,305 (45 to 65), 1,765 (65+); 322 hectare, 319 land, 3 water; bevolkingsdichtheid 2,799 per km2; woningvoorraad 4,132, 2,479 koopwoningen (60 percent) and 1,653 huurwoningen (40 percent); gemiddelde WOZ 489,000 euro (2025); gemiddeld inkomen 40,400 euro (2024); buurten Genneperzijde, Gerardusplein, Kerstroosplein, Sportpark Aalsterweg, Eikenburg, Roosten; 2 vestigingen basisonderwijs with 901 leerlingen, 0 voortgezet onderwijs; studenten HBO 310, WO 300.",
+        "url": "https://allecijfers.nl/wijk/kortonjo-eindhoven/"
+      },
+      {
+        "claim": "Wijk Putten, Eindhoven: 14,731 inwoners (2026); 7,295 huishoudens averaging 2.0, 3,220 eenpersoonshuishoudens (44 percent); ages 2,425 (0 to 15), 1,730 (15 to 25), 4,400 (25 to 45), 3,850 (45 to 65), 2,325 (65+); 631 hectare, 624 land, 7 water; bevolkingsdichtheid 2,375 per km2; woningvoorraad 6,972, 3,207 koopwoningen (46 percent) and 3,765 huurwoningen (54 percent); gemiddelde WOZ 421,000 euro (2025); gemiddeld inkomen 35,500 euro (2024); buurten Poeijers, Burghplan, Puttense Dreef, Sintenbuurt, Nieuwe Erven, Tivoli, Kruidenbuurt, Gijzenrooi, Riel, Schuttersbosch, Leenderheide; 4 vestigingen basisonderwijs with 1,197 leerlingen, 2 voortgezet onderwijs with 688; studenten HBO 380, WO 270.",
+        "url": "https://allecijfers.nl/wijk/putten-eindhoven/"
+      },
+      {
+        "claim": "Stadsdeel Stratum: De gemeente Eindhoven werd op 1 januari 1920 gevormd uit het oude stadje Eindhoven en de omliggende gemeenten Woensel, Strijp, Gestel, Stratum en Tongelre. Het stadsdeel Stratum bestaat uit 3 wijken en 22 buurten. Infobox (CBS Kerncijfers wijken en buurten 2023): 35.665 inwoners, 17.285 woningen, oppervlakte 11,53 km2, land 11,41 km2, water 0,12 km2, dichtheid 3.093 inw./km2. Sint-Joriskerk: in 1885 ingewijd, een neogotische kruisbasiliek. Witte Dorp: woonbuurt tussen de oude kern van Stratum en het kasteel De Burgh, geheel wit geschilderde huizen, gebouwd door architect Willem Dudok van 1937 tot 1939. De Burgh: in 1912 gebouwd, architect Joseph Cuypers. Radiomonument: in het Stadswandelpark, monument uit 1936 dat herinnert aan de eerste draadloze radioverbinding die in 1927 werd gerealiseerd met het toenmalige Nederlandsch-Indie. Watertoren met drie witte bollen aan de Antoon Coolenlaan, gebouwd in 1970 naar ontwerp van architect Wim Quist. Tussen de Geldropseweg en het Eindhovens Kanaal ligt de vestiging van DAF. Stratum wordt vanouds in het westen begrensd door de Dommel en de Tongelreep, welke laatste in het Stadswandelpark in de Dommel stroomt.",
+        "url": "https://nl.wikipedia.org/wiki/Stratum_(Eindhoven)"
+      },
+      {
+        "claim": "Gemeente Eindhoven: 249,783 inwoners (2026); 130,304 huishoudens (2025); 20 wijken en 116 buurten.",
+        "url": "https://allecijfers.nl/gemeente/eindhoven/"
+      },
+      {
+        "claim": "School holiday regions: regio Zuid = Zeeland, Noord-Brabant, Limburg and the southern part of Gelderland; regio Midden = Utrecht, Zuid-Holland and the northern part of Gelderland; regio Noord = Groningen, Friesland, Drenthe, Overijssel, Flevoland, Noord-Holland.",
+        "url": "https://www.rijksoverheid.nl/themas/onderwijs/schoolvakanties/regios-schoolvakantie"
+      }
+    ],
+    "rejectedClaims": [
+      "A density of Stratum of 3,765. That is the unweighted mean of the three wijk densities, and the page shows it as the error, not as a figure.",
+      "Any comparison of the encyclopaedia density of 3,093 with the 3,136 computed here. The first divides a 2023 count by total area including water, the second a 2026 sum by land only.",
+      "Any growth read from the 35,665 residents of 2023 in the encyclopaedia to the 35,779 summed here for 2026. Different sources, different years, and a sum against a published total.",
+      "A stadsdeel average income or dwelling value. Each is an average over a population, earners or valued dwellings, whose size is not available here for all three wijken, so no correct weights exist.",
+      "Any reconciliation of the 22 buurten in the encyclopaedia with the 25 in the statistics office list. The page uses the office list and says so.",
+      "Anything about DAF beyond the location sentence in the encyclopaedia, including workforce, production or any link with local schools.",
+      "The claim that one average describes nobody when two groups are mixed. That is the Gelderland page argument, and the three Stratum wijken are not treated as a mixture here.",
+      "Any confusion of the inverse, share of a place against share of a group. That is the Eindhoven Centrum page argument.",
+      "Anything the Eindhoven city page owns, including the named secondary schools and their addresses, the High Tech Campus and the Indian-origin figures."
+    ]
   }
 }

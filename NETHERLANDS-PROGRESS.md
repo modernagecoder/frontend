@@ -90,7 +90,8 @@ Phase 6 (ag- doors): academy spokes x6 (amsterdam, eindhoven, the-hague, utrecht
 | 69 | coding-classes-in-leidschenveen-ypenburg (lyp, #6B477A) | district | 5,276 | 5.0% vs laak | An AI will tell you Forepark is almost empty. Why should a teenager in Leidschenveen ask empty at what hour? | Residence is not presence (Forepark: 155 people on 304 hectares, density 51, in a business park between the A4 and A12 - a register records where people sleep) | 4931be92 |
 | 70 | coding-classes-in-loosduinen (lsn, #8A4000) | district | 5,438 | 4.8% vs leidschenveen-ypenburg | An AI will tell you houses in Kijkduin are worth 670,000 euro. Why should a teenager in Waldeck ask who worked that out? | Provenance does not survive storage (the WOZ this series has quoted on 69 pages is an assessor estimate with a valuation date a year early, printed identically to enumerated counts) | 0d894691 |
 | 71 | coding-classes-in-segbroek (sgb, #0F6E89) | district | 5,372 | 4.0% vs loosduinen | An AI will tell you the Vogelwijk is well provided with schools. Why should a teenager in the Vruchtenbuurt do one subtraction first? | The ceiling check (Vogelwijk teaches 3,416 pupils and holds 1,730 residents under twenty-five: a figure larger than its own maximum, proved by subtraction not argued from catchments) | 2f5dbc5b |
-| 72 | coding-classes-in-eindhoven-centrum (ehc, #8B4064) | district | 5,333 | 2.9% vs escamp | An AI will tell you the young people of Eindhoven Centrum live on the campus. Why should a teenager in Bergen ask which way round? | Confusion of the inverse (the TU-terrein is 56 percent aged 15-25, yet holds only 36.5 percent of Centrum 15-25s; precision against recall) | (this commit) |
+| 72 | coding-classes-in-eindhoven-centrum (ehc, #8B4064) | district | 5,333 | 2.9% vs escamp | An AI will tell you the young people of Eindhoven Centrum live on the campus. Why should a teenager in Bergen ask which way round? | Confusion of the inverse (the TU-terrein is 56 percent aged 15-25, yet holds only 36.5 percent of Centrum 15-25s; precision against recall) | 025c6717 |
+| 73 | coding-classes-in-stratum (stm, #54578F) | district | 5,591 | 1.6% vs eindhoven-centrum | Ask an AI for the density of Stratum and it may average the three wijken. Why should a teenager in Putten add the land first? | Mean of ratios is not a ratio of sums (three wijk densities average to 3,765; Stratum is 3,136, 20 percent lower; weight by the denominator) | (this commit) |
 
 ## Skipped (kill criterion)
 
@@ -100,7 +101,7 @@ Phase 6 (ag- doors): academy spokes x6 (amsterdam, eindhoven, the-hague, utrecht
 ## Codes in use (letters only; check `coding-global.css` before assigning)
 
 Reserved by older clusters and NOT available: hmr (Al Hamra), lei (Leicester), mst? free, amr (Al Amarat), adm (Adam), ede? free.
-Assigned so far: cg: amv (Amstelveen), ams (Amsterdam), ehv (Eindhoven), dhg (The Hague), alm (Almere), utr (Utrecht), rtm (Rotterdam) · ag: nla (academy hub) · provinces: nhl (Noord-Holland), zhl (Zuid-Holland), utp (Utrecht), gld (Gelderland), ovr (Overijssel), lim (Limburg), grp (Groningen), nbr (Noord-Brabant), frl (Friesland), dre (Drenthe), flv (Flevoland), zld (Zeeland) · cities: grn (Groningen), tlb (Tilburg), brd (Breda), nij (Nijmegen), arn (Arnhem), apd (Apeldoorn), hlm (Haarlem), hmm (Haarlemmermeer), zns (Zaanstad), amf (Amersfoort), ens (Enschede), dbo (Den Bosch), zwo (Zwolle), ztm (Zoetermeer), lde (Leiden), lwd (Leeuwarden), mst (Maastricht), ede (Ede), drd (Dordrecht), wst (Westland), alp (Alphen aan den Rijn), alk (Alkmaar), dlf (Delft), emm (Emmen), dev (Deventer), vnl (Venlo), uit (Uithoorn) · districts: acn (Amsterdam-Centrum), anr (Amsterdam-Noord), aos (Amsterdam-Oost), azd (Amsterdam-Zuid), awt (Amsterdam-West), anw (Amsterdam Nieuw-West), azo (Amsterdam-Zuidoost), wsp (Weesp), rtc (Rotterdam Centrum), dfh (Delfshaven), fyn (Feijenoord), chl (Charlois), ijs (IJsselmonde), krc (Kralingen-Crooswijk), hgs (Hillegersberg-Schiebroek), pra (Prins Alexander), dhc (Den Haag Centrum), esc (Escamp), shv (Scheveningen), hho (Haagse Hout), lak (Laak), lyp (Leidschenveen-Ypenburg), lsn (Loosduinen), sgb (Segbroek), ehc (Eindhoven Centrum)
+Assigned so far: cg: amv (Amstelveen), ams (Amsterdam), ehv (Eindhoven), dhg (The Hague), alm (Almere), utr (Utrecht), rtm (Rotterdam) · ag: nla (academy hub) · provinces: nhl (Noord-Holland), zhl (Zuid-Holland), utp (Utrecht), gld (Gelderland), ovr (Overijssel), lim (Limburg), grp (Groningen), nbr (Noord-Brabant), frl (Friesland), dre (Drenthe), flv (Flevoland), zld (Zeeland) · cities: grn (Groningen), tlb (Tilburg), brd (Breda), nij (Nijmegen), arn (Arnhem), apd (Apeldoorn), hlm (Haarlem), hmm (Haarlemmermeer), zns (Zaanstad), amf (Amersfoort), ens (Enschede), dbo (Den Bosch), zwo (Zwolle), ztm (Zoetermeer), lde (Leiden), lwd (Leeuwarden), mst (Maastricht), ede (Ede), drd (Dordrecht), wst (Westland), alp (Alphen aan den Rijn), alk (Alkmaar), dlf (Delft), emm (Emmen), dev (Deventer), vnl (Venlo), uit (Uithoorn) · districts: acn (Amsterdam-Centrum), anr (Amsterdam-Noord), aos (Amsterdam-Oost), azd (Amsterdam-Zuid), awt (Amsterdam-West), anw (Amsterdam Nieuw-West), azo (Amsterdam-Zuidoost), wsp (Weesp), rtc (Rotterdam Centrum), dfh (Delfshaven), fyn (Feijenoord), chl (Charlois), ijs (IJsselmonde), krc (Kralingen-Crooswijk), hgs (Hillegersberg-Schiebroek), pra (Prins Alexander), dhc (Den Haag Centrum), esc (Escamp), shv (Scheveningen), hho (Haagse Hout), lak (Laak), lyp (Leidschenveen-Ypenburg), lsn (Loosduinen), sgb (Segbroek), ehc (Eindhoven Centrum), stm (Stratum)
 
 ## Open issues
 ### The sibling-echo tax, now measured four times
@@ -339,8 +340,14 @@ figures are in `Geschiedenis_van_Eindhoven` (75 to 6,300 ha, 6,500 to 46,000).
 Watch items for the remaining six pages:
 - Gestel's third wijk is "Oud Kasteel" in the encyclopaedia but the CBS list shows
   "Gestelse Ontginning". Resolve on the Gestel page before naming it.
-- Woensel-Noord's article returned both "1864 ha" and "8.24 km2", and a dwelling
-  count that looks swapped with Woensel-Zuid's. Re-fetch before quoting either.
+- VERIFIED 2026-09-10 (verbatim infobox quotes): the encyclopaedia infoboxes for
+  the two Woensels carry each other's figures. Woensel-Zuid box: "Inwoners (2023):
+  64.790 (3.476 inw./km2)", "28.676 woningen", "Oppervlakte: 18,64 km2". Woensel-Noord
+  box: "42.165 (5.117 inw./km2)", "21.250 woningen", "8,24 km2". Each box is internally
+  consistent, but Woensel-Noord's four CBS wijken total exactly 1,864 ha (= Zuid's
+  18.64 km2) and Woensel-Zuid's three total 824 ha (= Noord's 8.24 km2). 2026 wijk
+  sums: Zuid 42,682, Noord 66,195. Never quote the Woensel boxes as-is. Spine for
+  the Woensel-Zuid page: internal consistency is not correctness.
 - Stadsdeel totals are 1 January 2023 (Stratum 35,665; Gestel 28,595; Strijp
   39,230; Woensel-Zuid 64,790; Woensel-Noord 42,165; Tongelre 23,105). Never add
   them to 2026 wijk rows.
