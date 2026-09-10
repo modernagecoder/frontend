@@ -7866,5 +7866,81 @@
       "Any explanation of why the Vogelwijk has more residents under fifteen than aged twenty-five to forty-five. That would be a claim about the history of the stock, which is the Prins Alexander page argument.",
       "Anything the Hague city page owns, including the stadsdeel population table, Segbroek College and the named secondary schools with their addresses."
     ]
+  },
+  "coding-classes-in-eindhoven-centrum": {
+    "market": "Eindhoven Centrum",
+    "bodyClass": "cg-ehc",
+    "pageType": "district",
+    "curriculumAuthority": "Stadsdeel Centrum, Eindhoven, Noord-Brabant: the only one of the seven Eindhoven stadsdelen that is a single statistics office wijk, since the stadsdeel articles for Stratum, Gestel, Strijp, Woensel-Zuid, Woensel-Noord and Tongelre name nineteen of the twenty wijken; 266 hectares, 262 land and 3 water; 11,560 residents (2026), density 4,380; 8,030 households averaging 1.3 with 5,890 single at 73 percent; 445 under fifteen, 3,340 aged fifteen to twenty-five at 29 percent, 5,270 aged twenty-five to forty-five at 46 percent, 1,610 aged forty-five to sixty-five, 870 over sixty-five; 6,952 dwellings, estimated average value 346,000 euro, 5,631 rented at 81 percent; income 44,300 euro (2024); 1 primary establishment with 539 pupils; 630 higher professional and 1,890 university students resident (2025). Five buurten, all read. TU-terrein 2,170 residents on 124 hectares, 1,435 households averaging 1.1 with 1,315 single at 92 percent, 1,220 aged fifteen to twenty-five at 56 percent, 10 over sixty-five, 1,103 dwellings all rented, estimated 173,000 euro, income 22,000 euro for 2023, 940 university students. Binnenstad 4,106 on 67 hectares, 2,980 households averaging 1.3, 1,205 aged fifteen to twenty-five at 29 percent, 2,382 dwellings, estimated 372,000 euro, income 42,600 euro (2024). Bergen 2,848 on 34 hectares, 630 aged fifteen to twenty-five, 1,662 dwellings, estimated 408,000 euro, income 45,200 euro (2024). Witte Dame 2,256 on 18 hectares, density 12,500, 1,340 aged twenty-five to forty-five at 59 percent, 1,645 dwellings, income 49,600 euro for 2023. Fellenoord 180 residents, 160 dwellings all rented. History: on 1 January 1920 Eindhoven, until then the old town of 75 hectares and about 6,500 people, was joined with Woensel, Strijp, Gestel en Blaarthem, Stratum and Tongelre, becoming 6,300 hectares and about 46,000 people. Regio Zuid holidays. The district page argues confusion of the inverse; Gadong owns the choice of denominator for one question, Segbroek the ceiling check, Loosduinen the estimate read as a count, Haagse Hout precision against accuracy in the numerical sense.",
+    "localProject": "Two conditional shares built on one count get swapped constantly, and the swap is invisible because the sentences sound the same. On the TU-terrein, 1,220 of 2,170 residents are aged fifteen to twenty-five: of the campus, 56 percent are young, the youngest buurt anywhere in this series. Centrum as a whole has 3,340 residents of that age, so of the young, 36.5 percent are on the campus, and the Binnenstad, where the young are only 29 percent of residents, holds 1,205 of them, within fifteen people of the campus. The campus is mostly young; the young are mostly elsewhere. Both shares are correct, they share a numerator, and they answer different questions, what kind of place the campus is and where the young people of Centrum live; the error is to compute the first and report it as the second. The same split appears in the students: 940 of the 1,890 university students resident in Centrum live on the campus, so the claim that students live on campus is exactly half true. The programming form is precision against recall, the pair every machine learning student eventually confuses: of the flagged, how many are spam, against of the spam, how many were flagged, with a filter that flags almost nothing scoring perfect precision and useless recall. It recurs as sensitivity against predictive value in diagnostic testing, where a rare condition makes most positives false, and in SQL as grouping by the outcome column instead of the category column, which answers the inverse of the question with a query that runs and a plausible number. Distinct from the denominator as a choice (Gadong), where one question admits four defensible populations and the fault is not naming one: here each denominator is uniquely correct for its own question and the fault is answering one question and reporting the other. The remedy is a sentence that starts of all the, naming the group before any division is written, and computing the inverse share every time.",
+    "requiredMentions": [
+      "11,560",
+      "8,030",
+      "5,270",
+      "6,952",
+      "346,000",
+      "1,220",
+      "173,000",
+      "4,106",
+      "2,256",
+      "2,848",
+      "1,890",
+      "TU-terrein",
+      "Fellenoord",
+      "1 January 1920"
+    ],
+    "sources": [
+      {
+        "claim": "Wijk Centrum, Eindhoven: 11,560 inwoners (2026); 8,030 huishoudens averaging 1.3, 5,890 eenpersoonshuishoudens at 73 percent; ages 445 (0 to 15), 3,340 (15 to 25, 29 percent), 5,270 (25 to 45, 46 percent), 1,610 (45 to 65, 14 percent), 870 (65+, 7.5 percent); 266 hectare, 262 land, 3 water; bevolkingsdichtheid 4,380 per km2; woningvoorraad 6,952 (2025); gemiddelde WOZ 346,000 euro (2025); 5,631 huurwoningen (81 percent) and 1,251 koopwoningen (18 percent); gemiddeld inkomen 44,300 euro (2024); buurten Binnenstad, Bergen, Witte Dame, Fellenoord, TU-terrein; 1 vestiging basisonderwijs with 539 leerlingen, 0 voortgezet onderwijs; studenten HBO 630, WO 1,890.",
+        "url": "https://allecijfers.nl/wijk/centrum-eindhoven/"
+      },
+      {
+        "claim": "Buurt TU-terrein, Eindhoven: 2,170 inwoners (2026); 1,435 huishoudens averaging 1.1, 1,315 eenpersoonshuishoudens at 92 percent; ages 35 (0 to 15), 1,220 (15 to 25, 56 percent), 705 (25 to 45, 32 percent), 185 (45 to 65), 10 (65+); 124 hectare; bevolkingsdichtheid 1,824 per km2; woningvoorraad 1,103 (2025), all huurwoningen; gemiddelde WOZ 173,000 euro (2025); gemiddeld inkomen 22,000 euro (2023); studenten HBO 100, WO 940 (2025).",
+        "url": "https://allecijfers.nl/buurt/tu-terrein-eindhoven/"
+      },
+      {
+        "claim": "Buurt Binnenstad, Eindhoven: 4,106 inwoners (2026); 2,980 huishoudens averaging 1.3, 2,225 eenpersoonshuishoudens at 75 percent; ages 155 (0 to 15), 1,205 (15 to 25, 29 percent), 1,825 (25 to 45, 44 percent), 535 (45 to 65), 390 (65+); 67 hectare, 66 land, 1 water; bevolkingsdichtheid 6,061 per km2; woningvoorraad 2,382 (2025); gemiddelde WOZ 372,000 euro (2025); 476 koopwoningen (20 percent) and 1,906 huurwoningen (80 percent); gemiddeld inkomen 42,600 euro (2024); studenten HBO 270, WO 540 (2025).",
+        "url": "https://allecijfers.nl/buurt/binnenstad-eindhoven/"
+      },
+      {
+        "claim": "Buurt Bergen, Eindhoven: 2,848 inwoners (2026); 1,960 huishoudens averaging 1.4, 1,340 eenpersoonshuishoudens at 68 percent; ages 130 (0 to 15), 630 (15 to 25, 22 percent), 1,275 (25 to 45, 45 percent), 545 (45 to 65), 275 (65+); 34 hectare; bevolkingsdichtheid 8,235 per km2; woningvoorraad 1,662; gemiddelde WOZ 408,000 euro (2025); 1,097 huurwoningen (66 percent) and 565 koopwoningen (34 percent); gemiddeld inkomen 45,200 euro (2024); studenten HBO 190, WO 280.",
+        "url": "https://allecijfers.nl/buurt/bergen-eindhoven/"
+      },
+      {
+        "claim": "Buurt Witte Dame, Eindhoven: 2,256 inwoners (2026); 1,495 huishoudens averaging 1.5, 875 eenpersoonshuishoudens at 59 percent; ages 125 (0 to 15), 230 (15 to 25, 10 percent), 1,340 (25 to 45, 59 percent), 335 (45 to 65), 200 (65+); 18 hectare; bevolkingsdichtheid 12,500 per km2; woningvoorraad 1,645; 1,398 huurwoningen (85 percent) and 247 koopwoningen (15 percent); gemiddelde WOZ 375,000 euro (2025); gemiddeld inkomen 49,600 euro (2023); studenten HBO 60, WO 90.",
+        "url": "https://allecijfers.nl/buurt/witte-dame-eindhoven/"
+      },
+      {
+        "claim": "Buurt Fellenoord, Eindhoven: 180 inwoners (2026); 160 huishoudens averaging 1.2, 130 eenpersoonshuishoudens at 81 percent; ages 5 (0 to 15), 45 (15 to 25), 115 (25 to 45), 0 (45 to 65), 0 (65+); 22 hectare; bevolkingsdichtheid 864 per km2; woningvoorraad 160, all huurwoningen; gemiddelde WOZ 210,000 euro (2025); gemiddeld inkomen 36,200 euro (2023); studenten HBO 10, WO 40.",
+        "url": "https://allecijfers.nl/buurt/fellenoord-eindhoven/"
+      },
+      {
+        "claim": "Groot-Eindhoven: the annexation of the five randgemeenten Strijp, Gestel en Blaarthem, Stratum, Tongelre and Woensel; de gemeente Eindhoven ineens veel groter was geworden, vooral qua oppervlakte (84 maal zo groot, van 75 tot 6300 ha) maar ook qua inwoneraantal (zeven maal zo groot, van 6.500 naar 46.000).",
+        "url": "https://nl.wikipedia.org/wiki/Geschiedenis_van_Eindhoven"
+      },
+      {
+        "claim": "Stadsdeel Stratum, Eindhoven: three wijken, Oud-Stratum, Kortonjo and Putten; 35,665 inwoners on 1 January 2023; the municipality Eindhoven was formed on 1 January 1920 from the old town of Eindhoven and the surrounding municipalities Woensel, Strijp, Gestel, Stratum and Tongelre. The companion stadsdeel articles list Gestel (Rozenknopje, Oud-Gestel, Oud Kasteel), Strijp (Oud-Strijp, Halve Maan, Meerhoven), Woensel-Zuid (Oud-Woensel, Erp, Begijnenbroek), Woensel-Noord (Ontginning, Achtse Molen, Aanschot, Dommelbeemd) and Tongelre (Oud-Tongelre, De Laak, Doornakkers): nineteen wijken, against twenty published for the municipality.",
+        "url": "https://nl.wikipedia.org/wiki/Stratum_(Eindhoven)"
+      },
+      {
+        "claim": "Gemeente Eindhoven: 249,783 inwoners (2026); 130,304 huishoudens (2025); 20 wijken en 116 buurten.",
+        "url": "https://allecijfers.nl/gemeente/eindhoven/"
+      },
+      {
+        "claim": "School holiday regions: regio Zuid = Zeeland, Noord-Brabant, Limburg and the southern part of Gelderland; regio Midden = Utrecht, Zuid-Holland and the northern part of Gelderland; regio Noord = Groningen, Friesland, Drenthe, Overijssel, Flevoland, Noord-Holland.",
+        "url": "https://www.rijksoverheid.nl/themas/onderwijs/schoolvakanties/regios-schoolvakantie"
+      }
+    ],
+    "rejectedClaims": [
+      "That most young people in Centrum live on the campus. The campus holds 36.5 percent of them and the Binnenstad 36.1 percent.",
+      "That students live on campus, or that they do not. 940 of 1,890 university students resident in Centrum live on the TU-terrein, and the page reports the split rather than either sentence.",
+      "Any claim that the 266 hectares of todays wijk are the same ground as the 75 hectares of the pre-1920 town. The figures are quoted for the shape of the seven stadsdelen, not as a boundary comparison.",
+      "Any reconciliation of the wijk income of 44,300 euro with the buurt incomes. They carry two different years and may average over different populations.",
+      "Any treatment of the five buurt age counts as summing exactly to the wijk. They add to 3,330 against 3,340, all are published in multiples of five, and the wijk figure is used as the denominator without reconciliation.",
+      "Any reading of the third digit of the 3.85 percent under fifteen. Precision against accuracy in the numerical sense is the Haagse Hout page argument.",
+      "Any argument from the single primary establishment teaching more pupils than the children resident. The ceiling check is the Segbroek page argument.",
+      "Any claim about the university itself, its student numbers or its admissions. Only residents counted in the statistics office rows are used.",
+      "Anything the Eindhoven city page owns, including the BIC Noord workplaces, the High Tech Campus, the Indian-origin figures and the named secondary schools with their addresses."
+    ]
   }
 }

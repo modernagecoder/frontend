@@ -11,7 +11,7 @@ Per-page pipeline: research (8+ place facts, sourced) -> collision check (dossie
 Phase 1 (proof cities): amstelveen · amsterdam · eindhoven · the-hague · almere · utrecht · rotterdam · ai-and-python-academy-netherlands (ag-)
 Phase 2 (provinces): noord-holland · zuid-holland · utrecht-province · noord-brabant · gelderland · overijssel · limburg · groningen-province · friesland · drenthe · flevoland · zeeland
 Phase 3 (cities) COMPLETE 2026-09-08, all 27 built: groningen · tilburg · breda · nijmegen · arnhem · apeldoorn · haarlem · haarlemmermeer · zaanstad · amersfoort · enschede · den-bosch · zwolle · zoetermeer · leiden · leeuwarden · maastricht · ede · dordrecht · westland · alphen-aan-den-rijn · alkmaar · delft · emmen · deventer · venlo · uithoorn
-Phase 4 (districts) IN PROGRESS, Amsterdam 8/8 and Rotterdam 8/8 COMPLETE 2026-09-09: amsterdam x8 (centrum, noord, oost, zuid, west, nieuw-west, zuidoost, weesp) · rotterdam x8 (centrum, charlois, delfshaven, feijenoord, hillegersberg-schiebroek, kralingen-crooswijk, prins-alexander, ijsselmonde) · the-hague x8 (centrum, escamp, haagse-hout, laak, leidschenveen-ypenburg, loosduinen, scheveningen, segbroek) · eindhoven x6 (centrum, gestel, stratum, strijp, woensel-noord, woensel-zuid)
+Phase 4 (districts) IN PROGRESS, Amsterdam 8/8 and Rotterdam 8/8 COMPLETE 2026-09-09: amsterdam x8 (centrum, noord, oost, zuid, west, nieuw-west, zuidoost, weesp) · rotterdam x8 (centrum, charlois, delfshaven, feijenoord, hillegersberg-schiebroek, kralingen-crooswijk, prins-alexander, ijsselmonde) · the-hague x8 (centrum, escamp, haagse-hout, laak, leidschenveen-ypenburg, loosduinen, scheveningen, segbroek) · eindhoven x7 (centrum, gestel, stratum, strijp, woensel-noord, woensel-zuid, tongelre; the plan listed six and omitted Tongelre, corrected 2026-09-10)
 Phase 5 (towns, kill-gated): helmond · purmerend · oss · hilversum · sittard-geleen · nissewaard · heerlen · lelystad · meierijstad · hengelo · schiedam · leidschendam-voorburg · roosendaal · gouda · vlaardingen · hoorn · almelo · veenendaal · assen · bergen-op-zoom · velsen · capelle-aan-den-ijssel · wassenaar · voorschoten · oegstgeest · rijswijk · diemen · middelburg · roermond
 Phase 6 (ag- doors): academy spokes x6 (amsterdam, eindhoven, the-hague, utrecht, rotterdam, groningen) · topic doors x7 · age doors x5 · language doors x6
 
@@ -89,7 +89,8 @@ Phase 6 (ag- doors): academy spokes x6 (amsterdam, eindhoven, the-hague, utrecht
 | 68 | coding-classes-in-laak (lak, #2E4678) | district | 5,219 | 4.7% vs the-hague-centrum | An AI will tell you young professionals are drawn to the Binckhorst. Why should a teenager in Spoorwijk ask what else was for sale? | Choice vs constraint (64 percent of the Binckhorst is aged 25-45 and 92 percent of its dwellings are rented: a distribution proves nothing about preference unless the options were reachable) | d7ab9d45 |
 | 69 | coding-classes-in-leidschenveen-ypenburg (lyp, #6B477A) | district | 5,276 | 5.0% vs laak | An AI will tell you Forepark is almost empty. Why should a teenager in Leidschenveen ask empty at what hour? | Residence is not presence (Forepark: 155 people on 304 hectares, density 51, in a business park between the A4 and A12 - a register records where people sleep) | 4931be92 |
 | 70 | coding-classes-in-loosduinen (lsn, #8A4000) | district | 5,438 | 4.8% vs leidschenveen-ypenburg | An AI will tell you houses in Kijkduin are worth 670,000 euro. Why should a teenager in Waldeck ask who worked that out? | Provenance does not survive storage (the WOZ this series has quoted on 69 pages is an assessor estimate with a valuation date a year early, printed identically to enumerated counts) | 0d894691 |
-| 71 | coding-classes-in-segbroek (sgb, #0F6E89) | district | 5,372 | 4.0% vs loosduinen | An AI will tell you the Vogelwijk is well provided with schools. Why should a teenager in the Vruchtenbuurt do one subtraction first? | The ceiling check (Vogelwijk teaches 3,416 pupils and holds 1,730 residents under twenty-five: a figure larger than its own maximum, proved by subtraction not argued from catchments) | (this commit) |
+| 71 | coding-classes-in-segbroek (sgb, #0F6E89) | district | 5,372 | 4.0% vs loosduinen | An AI will tell you the Vogelwijk is well provided with schools. Why should a teenager in the Vruchtenbuurt do one subtraction first? | The ceiling check (Vogelwijk teaches 3,416 pupils and holds 1,730 residents under twenty-five: a figure larger than its own maximum, proved by subtraction not argued from catchments) | 2f5dbc5b |
+| 72 | coding-classes-in-eindhoven-centrum (ehc, #8B4064) | district | 5,333 | 2.9% vs escamp | An AI will tell you the young people of Eindhoven Centrum live on the campus. Why should a teenager in Bergen ask which way round? | Confusion of the inverse (the TU-terrein is 56 percent aged 15-25, yet holds only 36.5 percent of Centrum 15-25s; precision against recall) | (this commit) |
 
 ## Skipped (kill criterion)
 
@@ -99,7 +100,7 @@ Phase 6 (ag- doors): academy spokes x6 (amsterdam, eindhoven, the-hague, utrecht
 ## Codes in use (letters only; check `coding-global.css` before assigning)
 
 Reserved by older clusters and NOT available: hmr (Al Hamra), lei (Leicester), mst? free, amr (Al Amarat), adm (Adam), ede? free.
-Assigned so far: cg: amv (Amstelveen), ams (Amsterdam), ehv (Eindhoven), dhg (The Hague), alm (Almere), utr (Utrecht), rtm (Rotterdam) · ag: nla (academy hub) · provinces: nhl (Noord-Holland), zhl (Zuid-Holland), utp (Utrecht), gld (Gelderland), ovr (Overijssel), lim (Limburg), grp (Groningen), nbr (Noord-Brabant), frl (Friesland), dre (Drenthe), flv (Flevoland), zld (Zeeland) · cities: grn (Groningen), tlb (Tilburg), brd (Breda), nij (Nijmegen), arn (Arnhem), apd (Apeldoorn), hlm (Haarlem), hmm (Haarlemmermeer), zns (Zaanstad), amf (Amersfoort), ens (Enschede), dbo (Den Bosch), zwo (Zwolle), ztm (Zoetermeer), lde (Leiden), lwd (Leeuwarden), mst (Maastricht), ede (Ede), drd (Dordrecht), wst (Westland), alp (Alphen aan den Rijn), alk (Alkmaar), dlf (Delft), emm (Emmen), dev (Deventer), vnl (Venlo), uit (Uithoorn) · districts: acn (Amsterdam-Centrum), anr (Amsterdam-Noord), aos (Amsterdam-Oost), azd (Amsterdam-Zuid), awt (Amsterdam-West), anw (Amsterdam Nieuw-West), azo (Amsterdam-Zuidoost), wsp (Weesp), rtc (Rotterdam Centrum), dfh (Delfshaven), fyn (Feijenoord), chl (Charlois), ijs (IJsselmonde), krc (Kralingen-Crooswijk), hgs (Hillegersberg-Schiebroek), pra (Prins Alexander), dhc (Den Haag Centrum), esc (Escamp), shv (Scheveningen), hho (Haagse Hout), lak (Laak), lyp (Leidschenveen-Ypenburg), lsn (Loosduinen), sgb (Segbroek)
+Assigned so far: cg: amv (Amstelveen), ams (Amsterdam), ehv (Eindhoven), dhg (The Hague), alm (Almere), utr (Utrecht), rtm (Rotterdam) · ag: nla (academy hub) · provinces: nhl (Noord-Holland), zhl (Zuid-Holland), utp (Utrecht), gld (Gelderland), ovr (Overijssel), lim (Limburg), grp (Groningen), nbr (Noord-Brabant), frl (Friesland), dre (Drenthe), flv (Flevoland), zld (Zeeland) · cities: grn (Groningen), tlb (Tilburg), brd (Breda), nij (Nijmegen), arn (Arnhem), apd (Apeldoorn), hlm (Haarlem), hmm (Haarlemmermeer), zns (Zaanstad), amf (Amersfoort), ens (Enschede), dbo (Den Bosch), zwo (Zwolle), ztm (Zoetermeer), lde (Leiden), lwd (Leeuwarden), mst (Maastricht), ede (Ede), drd (Dordrecht), wst (Westland), alp (Alphen aan den Rijn), alk (Alkmaar), dlf (Delft), emm (Emmen), dev (Deventer), vnl (Venlo), uit (Uithoorn) · districts: acn (Amsterdam-Centrum), anr (Amsterdam-Noord), aos (Amsterdam-Oost), azd (Amsterdam-Zuid), awt (Amsterdam-West), anw (Amsterdam Nieuw-West), azo (Amsterdam-Zuidoost), wsp (Weesp), rtc (Rotterdam Centrum), dfh (Delfshaven), fyn (Feijenoord), chl (Charlois), ijs (IJsselmonde), krc (Kralingen-Crooswijk), hgs (Hillegersberg-Schiebroek), pra (Prins Alexander), dhc (Den Haag Centrum), esc (Escamp), shv (Scheveningen), hho (Haagse Hout), lak (Laak), lyp (Leidschenveen-Ypenburg), lsn (Loosduinen), sgb (Segbroek), ehc (Eindhoven Centrum)
 
 ## Open issues
 ### The sibling-echo tax, now measured four times
@@ -318,3 +319,31 @@ wijk rows and date the stadsdeel figure wherever it appears.
 Slug gotcha: `schilderswijk-den-haag` 404s. The statistics office files it as
 **Wijk 29 Schildersbuurt** at `/wijk/schildersbuurt-den-haag/`. Local name and CBS
 name differ; name it as CBS does and note the local name once.
+
+### Eindhoven method note (established row 72)
+
+Eindhoven publishes **20 wijken and 116 buurten** for **7 stadsdelen** (the plan
+said six and left out Tongelre). The six stadsdeel encyclopaedia articles name 19
+wijken between them: Stratum (Oud-Stratum, Kortonjo, Putten), Gestel (Rozenknopje,
+Oud-Gestel, Oud Kasteel), Strijp (Oud-Strijp, Halve Maan, Meerhoven), Woensel-Zuid
+(Oud-Woensel, Erp, Begijnenbroek), Woensel-Noord (Ontginning, Achtse Molen,
+Aanschot, Dommelbeemd), Tongelre (Oud-Tongelre, De Laak, Doornakkers). So
+**Centrum is exactly one wijk** (buurten Binnenstad, Bergen, Witte Dame,
+Fellenoord, TU-terrein) and its page reads buurten, not wijken.
+
+Article slugs: `Stratum_(Eindhoven)`, `Gestel_(Eindhoven)`, `Strijp_(Eindhoven)`;
+bare `Woensel-Zuid`, `Woensel-Noord`, `Tongelre`. Centrum has no article (both
+`Centrum_(Eindhoven)` and `Centrum_(stadsdeel_van_Eindhoven)` 404). The 1920 merger
+figures are in `Geschiedenis_van_Eindhoven` (75 to 6,300 ha, 6,500 to 46,000).
+
+Watch items for the remaining six pages:
+- Gestel's third wijk is "Oud Kasteel" in the encyclopaedia but the CBS list shows
+  "Gestelse Ontginning". Resolve on the Gestel page before naming it.
+- Woensel-Noord's article returned both "1864 ha" and "8.24 km2", and a dwelling
+  count that looks swapped with Woensel-Zuid's. Re-fetch before quoting either.
+- Stadsdeel totals are 1 January 2023 (Stratum 35,665; Gestel 28,595; Strijp
+  39,230; Woensel-Zuid 64,790; Woensel-Noord 42,165; Tongelre 23,105). Never add
+  them to 2026 wijk rows.
+- Noord-Brabant is **regio Zuid** for school holidays, not Midden like the Hague set.
+- The city page's `next` block used an apostrophe form no plain string matched;
+  patch it with a regex that accepts any apostrophe encoding.

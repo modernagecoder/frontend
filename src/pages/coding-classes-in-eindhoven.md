@@ -243,7 +243,7 @@ Five to ten learners, matched on level, pace and goal rather than on age, school
 
 ## The country page, the two Amsterdam pages, and the page for building AI
 
-The [Netherlands coding hub](/coding-classes-in-netherlands) carries the national curriculum picture and the full course list. [Coding classes in Amsterdam](/coding-classes-in-amsterdam) and [coding classes in Amstelveen](/coding-classes-in-amstelveen) cover the capital and the municipality with the highest Indian-origin share in the country, and [AI and machine learning classes in the Netherlands](/ai-and-machine-learning-classes-in-netherlands) is for the learner who wants to build models. Pages for Eindhoven's six districts and for the rest of Noord-Brabant follow in this series.
+The [Netherlands coding hub](/coding-classes-in-netherlands) carries the national curriculum picture and the full course list. [Coding classes in Amsterdam](/coding-classes-in-amsterdam) and [coding classes in Amstelveen](/coding-classes-in-amstelveen) cover the capital and the municipality with the highest Indian-origin share in the country, and [AI and machine learning classes in the Netherlands](/ai-and-machine-learning-classes-in-netherlands) is for the learner who wants to build models. Below this page sits [Eindhoven Centrum](/coding-classes-in-eindhoven-centrum), the first of seven stadsdeel pages, with Stratum, Gestel, Strijp, Woensel-Zuid, Woensel-Noord and Tongelre to follow, and pages for the rest of Noord-Brabant after them.
 
 ## Contact
 
