@@ -58,11 +58,11 @@ module.exports = {
   sections: [
     {
       id: 'context', tint: '', eyebrow: 'Nijmegen today',
-      h2: 'The largest city in Gelderland, the densest on this site, and more than half of it living alone',
+      h2: 'The largest city in Gelderland, the densest on this site, and more than half its households a single person',
       intro: 'The national register held 189,871 people in the municipality on 1 January 2026, in 104,361 households averaging 1.78 people, on 52.81 square kilometres of land inside 57.63 of territory, giving a published density of 3,579 to the square kilometre. In 1995 the count was 147,557, so Nijmegen has gained 42,314 people in thirty-one years, a rise of 29 percent.',
       body: [
         { kind: 'grid3', cells: [
-          { h3: 'Fifty-five percent living alone', p: '57,902 of the 104,361 households hold exactly one person. 32,331 residents are between fifteen and twenty-five and 58,556 are between twenty-five and forty-five, while 24,590 are under fifteen and 32,587 are sixty-five or over. That is a university city\'s shape, and it is why this page is careful about which averages it quotes.' },
+          { h3: 'Fifty-five percent of households, one person each', p: '57,902 of the 104,361 households hold exactly one person. 32,331 residents are between fifteen and twenty-five and 58,556 are between twenty-five and forty-five, while 24,590 are under fifteen and 32,587 are sixty-five or over. That is a university city\'s shape, and it is why this page is careful about which averages it quotes.' },
           { h3: 'Two teaching systems in one city', p: '45 primary establishments teach 13,915 pupils and 19 secondary establishments teach 14,152, so secondary outnumbers primary here as it does in only a handful of Dutch cities. In higher education the municipality counts 7,610 at the applied level and 13,180 at the university level.' },
           { h3: 'The university', p: 'Radboud University was founded on 15 May 1923 as the Roomsch Katholieke Universiteit Nijmegen. On 1 October 2022 it had 24,633 students enrolled and about 6,147 full-time-equivalent staff, of whom 3,467 were academic, across seven faculties. That enrolment count and the municipal count answer different questions and are not combined anywhere on this page.' }
         ] },
@@ -75,7 +75,7 @@ module.exports = {
       intro: 'The statistics office divides the municipality into 9 wijken and 44 buurten, the smallest wijk count of any city on this site, and the ordinary names people use cut across them.',
       body: [
         { kind: 'grid3', cells: [
-          { h3: 'The centre and the hill', p: 'The old city above the Waal, the Valkhof where the Roman and imperial fortifications stood, and the station. The tightest housing in the municipality and much of the 55 percent who live alone.' },
+          { h3: 'The centre and the hill', p: 'The old city above the Waal, the Valkhof where the Roman and imperial fortifications stood, and the station. The tightest housing in the municipality and many of the 57,902 households that hold a single person.' },
           { h3: 'Hatert and the south', p: 'Post-war housing towards the Maas-Waalkanaal, with primary schools full of families and a bus ride to the secondary schools on the other side of the city.' },
           { h3: 'Hees and Neerbosch', p: 'West of the centre, older village cores absorbed into the city, now districts with their own names, their own schools and their own opinions about where Nijmegen ends.' },
           { h3: 'Sint Anna and the west', p: 'The western districts towards the canal and the industrial edge, mixed housing and the part of the city that looks towards Wijchen and Beuningen rather than towards the hill.' },

@@ -8002,5 +8002,65 @@
       "Any confusion of the inverse, share of a place against share of a group. That is the Eindhoven Centrum page argument.",
       "Anything the Eindhoven city page owns, including the named secondary schools and their addresses, the High Tech Campus and the Indian-origin figures."
     ]
+  },
+  "coding-classes-in-gestel": {
+    "market": "Gestel",
+    "bodyClass": "cg-gst",
+    "pageType": "district",
+    "curriculumAuthority": "Stadsdeel Gestel, Eindhoven, Noord-Brabant: part of the municipality of Gestel en Blaarthem from Napoleonic times, joined to Eindhoven on 1 January 1920; three statistics office wijken, Rozenknopje, Oud-Gestel and Gestelse Ontginning (Oud Kasteel in the encyclopaedia), whose areas add to 953 hectares, 917 land and 35 water, matching the encyclopaedia 9.53 square kilometres with 9.17 land and 0.35 water; thirteen buurten in the office list. Complete-set 2026 sum 28,334 residents, flagged as arithmetic on three published rows. Rozenknopje 6,934 residents (2026) on 111 hectares of land, published density 6,230 (2025), 4,120 households averaging 1.7 with 2,455 single, 3,751 dwellings with 1,613 owner-occupied and 2,138 rented, estimated 398,000 euro, income 39,700 euro per resident and 45,700 per recipient (2024), buurten Hagenkamp, Schrijversbuurt and Oude Spoorbaan, 2 primary with 401 pupils, 1 secondary with 1,209. Oud-Gestel 13,340 on 561 hectares, published density 2,390, 7,570 households averaging 1.8 with 4,205 single, 6,958 dwellings with 2,296 owner-occupied at 33 percent and 4,662 rented, estimated 318,000 euro, income 30,800 euro per resident and 36,200 per recipient, buurten Genderdal, Rapelenburg, Blaarthem, Bennekel-Oost, Bennekel-West Gagelbosch, Gennep and Beemden, 3 primary with 373 pupils, 4 secondary with 3,309. Gestelse Ontginning 8,060 on 245 hectares, published density 3,312, 3,775 households averaging 2.1 with 1,400 single, 3,694 dwellings with 2,290 owner-occupied at 62 percent and 1,404 rented, estimated 416,000 euro, income 36,800 euro per resident, 1,845 over sixty-five, buurten Genderbeemd, Hanevoet and Ooievaarsnest, 4 primary with 954 pupils. Sums: 15,465 households, 14,403 dwellings, 6,199 owner-occupied, 3,435 under fifteen, 9 primary with 1,728 pupils, 5 secondary with 4,518. Landmarks from the encyclopaedia: Sint-Lambertuskerk of 1910 by Wolter te Riele, the Genneper Watermolen painted four times by Van Gogh, the Historisch Openlucht Museum Eindhoven in the Genneper Parken, the Clarissenklooster on the Claralaan, the Zusters van Liefde van Schijndel on the Hoogstraat, the Gender turned drainage channel, the Dommel to the south, and the High Tech Campus Eindhoven in the south of Gestel, founded 1998 as the Philips research centre and opened to other companies in 2003. Regio Zuid holidays. The district page argues that a gap between two shares has one symmetric statement, in points, and several base-dependent ones; Groningen province owns the logarithmic scale, Gadong the choice of denominator, Charlois households against persons, Eindhoven Centrum confusion of the inverse, Stratum the mean of ratios.",
+    "localProject": "One gap between two shares can be stated five true ways, and only one is symmetric. Oud-Gestel has 2,296 owner-occupied dwellings of 6,958 and Gestelse Ontginning 2,290 of 3,694 (2025): as counts, six apart, the same number of owner-occupiers; as shares, 33.0 against 62.0 percent, a gap of 29.0 percentage points from either side; as a ratio from Oud-Gestel, 1.88, owner-occupation 88 percent higher; as a ratio from Gestelse Ontginning, 0.53, 47 percent lower; on the complement, renting at 67.0 against 38.0 percent, 76 percent higher or 43 percent lower; as odds of owning, 0.49 against 1.63, an odds ratio of 3.3. A second pair repeats it: single-person households are 59.6 percent in Rozenknopje and 37.1 in Gestelse Ontginning, 22.5 points, 61 percent higher or 38 percent lower, odds ratio 2.5. The mechanism is arithmetic: subtraction is symmetric, division depends on its base, the complement changes the base, small bases inflate ratios and odds stretch the scale further, so an odds ratio is regularly misread as a ratio of chances. The programming form is the choice every numerical comparison makes: math.isclose carries a relative and an absolute tolerance because a relative tolerance fails near zero and an absolute one fails for large values; a model error falling from 2 to 1 percent is one point or errors halved; a sign-up rate from 2 to 3 percent is one point or 50 percent more; a logistic regression reports odds ratios that readers hear as likelihoods. The remedy is to give the difference in points or the raw unit first, then any ratio with its base named in the same sentence, and never to write a percentage point as a percent. Distinct from the logarithmic scale (Groningen province), where the scale values themselves are logarithms and any percent difference of them is meaningless, whereas here both figures are ordinary proportions and every framing is valid but base-dependent; from the choice of denominator for one rate (Gadong), since both rates here are fixed and agreed and only the comparison between them varies; from households against persons (Charlois); from confusion of the inverse (Eindhoven Centrum); and from the mean of ratios (Stratum).",
+    "requiredMentions": [
+      "13,340",
+      "6,934",
+      "28,334",
+      "2,296",
+      "3,694",
+      "15,465",
+      "14,403",
+      "4,518",
+      "Sint-Lambertuskerk",
+      "Genneper Watermolen",
+      "Genneper Parken",
+      "Wolter te Riele",
+      "Hanevoet",
+      "Clarissenklooster"
+    ],
+    "sources": [
+      {
+        "claim": "Wijk Rozenknopje, Eindhoven: 6,934 inwoners (2026), 6,915 (2025), 6,395 (2013); bevolkingsdichtheid 6,230 per km2 (2025); 114 hectare, 111 land, 2 water; 4,120 huishoudens (2025), 2,455 eenpersoonshuishoudens, gemiddelde huishoudensgrootte 1.7; ages 730 (0 to 15), 1,045 (15 to 25), 2,305 (25 to 45), 1,560 (45 to 65), 1,305 (65+); woningvoorraad 3,751 (2025), 1,613 koopwoningen and 2,138 huurwoningen; gemiddelde WOZ 398,000 euro (2025); gemiddeld inkomen per inwoner 39,700 euro and per inkomensontvanger 45,700 euro (2024); buurten Hagenkamp, Oude Spoorbaan, Schrijversbuurt; 2 vestigingen basisonderwijs with 401 leerlingen, 1 voortgezet onderwijs with 1,209; studenten HBO 290, WO 420.",
+        "url": "https://allecijfers.nl/wijk/rozenknopje-eindhoven/"
+      },
+      {
+        "claim": "Wijk Oud-Gestel, Eindhoven: 13,340 inwoners (2026), 13,410 (2025), 12,490 (2013); bevolkingsdichtheid 2,390 per km2 (2025); 582 hectare, 561 land, 21 water; 7,570 huishoudens (2025), 4,205 eenpersoonshuishoudens, gemiddelde huishoudensgrootte 1.8; ages 1,520 (0 to 15), 1,680 (15 to 25), 4,650 (25 to 45), 3,075 (45 to 65), 2,400 (65+); woningvoorraad 6,958 (2025), 2,296 koopwoningen and 4,662 huurwoningen; gemiddelde WOZ 318,000 euro (2025); gemiddeld inkomen per inkomensontvanger 36,200 euro and per inwoner 30,800 euro (2024); buurten Genderdal, Rapelenburg, Blaarthem, Bennekel-Oost, Bennekel-West Gagelbosch, Gennep, Beemden; 3 vestigingen basisonderwijs with 373 leerlingen, 4 voortgezet onderwijs with 3,309; studenten HBO 410, WO 390.",
+        "url": "https://allecijfers.nl/wijk/oud-gestel-eindhoven/"
+      },
+      {
+        "claim": "Wijk Gestelse Ontginning, Eindhoven: 8,060 inwoners (2026), 8,115 (2025), 8,295 (2013); 257 hectare, 245 land, 12 water (2025); bevolkingsdichtheid 3,312 per km2 (2025); 3,775 huishoudens (2025), 1,400 eenpersoonshuishoudens, gemiddelde huishoudensgrootte 2.1; ages 1,185 (0 to 15), 925 (15 to 25), 2,040 (25 to 45), 2,105 (45 to 65), 1,845 (65+); woningvoorraad 3,694 (2025), 2,290 koopwoningen and 1,404 huurwoningen; gemiddelde WOZ 416,000 euro (2025); gemiddeld inkomen per inwoner 36,800 euro (2024); buurten Genderbeemd, Hanevoet, Ooievaarsnest; 4 vestigingen basisonderwijs with 954 leerlingen, 0 voortgezet onderwijs; studenten HBO 150, WO 100.",
+        "url": "https://allecijfers.nl/wijk/gestelse-ontginning-eindhoven/"
+      },
+      {
+        "claim": "Gestel (Eindhoven): Sinds de napoleontische tijd behoorde Gestel tot de gemeente Gestel en Blaarthem. Rond 1920 kwamen er, door de annexatie van Gestel door Eindhoven, plannen voor uitbreiding van het woningaanbod. Wijken Rozenknopje, Oud-Gestel, Oud Kasteel. Infobox 2023: 28.595 inwoners, 14.312 woningen, oppervlakte 9,53 km2, land 9,17 km2, water 0,35 km2, dichtheid 3.001 inw./km2. De Sint-Lambertuskerk met bijbehorende pastorie, gebouwd in 1910 naar een ontwerp van Wolter te Riele. De Genneper Watermolen werd viermaal op doek geschilderd door Vincent van Gogh. In Gestel staat het Historisch Openlucht Museum Eindhoven in de Genneper Parken; diverse andere sportfaciliteiten bevinden zich in de Genneper Parken. Clarissenklooster aan de Claralaan; Klooster van de Zusters van Liefde van Schijndel, aan de Hoogstraat. Het ooit fraai meanderende riviertje de Gender is veranderd in een afvoersloot, maar ten zuiden van Gestel stroomt nog altijd de Dommel. De High Tech Campus Eindhoven, in 1998 ontstaan als het centrale onderzoekscentrum van Philips en in 2003 opengesteld voor innovatieve bedrijven, ligt in het zuiden van Gestel.",
+        "url": "https://nl.wikipedia.org/wiki/Gestel_(Eindhoven)"
+      },
+      {
+        "claim": "Groot-Eindhoven: the annexation of the five randgemeenten Strijp, Gestel en Blaarthem, Stratum, Tongelre and Woensel on 1 January 1920; de gemeente Eindhoven ineens veel groter was geworden, vooral qua oppervlakte (84 maal zo groot, van 75 tot 6300 ha) maar ook qua inwoneraantal (zeven maal zo groot, van 6.500 naar 46.000).",
+        "url": "https://nl.wikipedia.org/wiki/Geschiedenis_van_Eindhoven"
+      },
+      {
+        "claim": "School holiday regions: regio Zuid = Zeeland, Noord-Brabant, Limburg and the southern part of Gelderland; regio Midden = Utrecht, Zuid-Holland and the northern part of Gelderland; regio Noord = Groningen, Friesland, Drenthe, Overijssel, Flevoland, Noord-Holland.",
+        "url": "https://www.rijksoverheid.nl/themas/onderwijs/schoolvakanties/regios-schoolvakantie"
+      }
+    ],
+    "rejectedClaims": [
+      "Any single figure for how different the two wijken are in ownership. The page gives the count, the points, both ratios, the complement and the odds, and names the base of each.",
+      "That the odds of owning being 3.3 times as high means a resident is 3.3 times as likely to own. Odds are not chances; the shares are 62.0 and 33.0 percent.",
+      "Any claim that either wijk is more prosperous, more stable or better housed. Tenure is a count of contracts and nothing is inferred from it.",
+      "Any comparison of the per-resident income of one wijk with the per-recipient income of another. They divide by different populations.",
+      "Any trend from the 8,295 residents of Gestelse Ontginning in 2013 to 8,060 in 2026, or from the 28,595 of the 2023 encyclopaedia infobox to the 28,334 summed here. Base-year choice is the Flevoland and Emmen argument, and the infobox is another source.",
+      "Any comparison of the encyclopaedia density of 3,001 with a figure computed here. The page computes no stadsdeel density.",
+      "The logarithmic scale, where percent differences of the scale values are meaningless. That is the Groningen province page argument; here both figures are ordinary proportions.",
+      "Households against persons as the base of a living-alone share. That is the Charlois page argument, and the page quotes household shares only as shares of households.",
+      "Anything the Eindhoven city page owns, including the High Tech Campus as a requiredMention, the named secondary schools and their addresses, and the Indian-origin figures."
+    ]
   }
 }

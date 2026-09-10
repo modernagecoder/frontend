@@ -40,7 +40,7 @@ Browse the [course atlas](/course-atlas) for more than one hundred options and t
 
 The national register held 110,089 people on 1 January 2026, in 63,476 households averaging 1.72 people, on 22.66 square kilometres of land inside 24.06 of territory: a published 4,862 residents to the square kilometre, second only to Leiden in this series. In 1995 the count was 92,457, so Delft has gained 17,632 people in thirty-one years, a rise of 19 percent.
 
-### Fifty-nine percent living alone
+### Fifty-nine percent of households, one person each
 
 37,324 of the 63,476 households hold exactly one person, the highest share on this site. 22,428 residents are between fifteen and twenty-five, 20 percent, and only 13,158 are under fifteen, 12 percent; 33,594 are between twenty-five and forty-five, 22,376 between forty-five and sixty-five and 18,533 are sixty-five or over.
 

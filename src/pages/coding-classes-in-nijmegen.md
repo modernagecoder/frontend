@@ -36,11 +36,11 @@ The four we are known for, on every market page:
 
 Browse the [course atlas](/course-atlas) for more than one hundred options and the [coding roadmap](/coding-roadmap) for prerequisites.
 
-## The largest city in Gelderland, the densest on this site, and more than half of it living alone
+## The largest city in Gelderland, the densest on this site, and more than half its households a single person
 
 The national register held 189,871 people in the municipality on 1 January 2026, in 104,361 households averaging 1.78 people, on 52.81 square kilometres of land inside 57.63 of territory, giving a published density of 3,579 to the square kilometre. In 1995 the count was 147,557, so Nijmegen has gained 42,314 people in thirty-one years, a rise of 29 percent.
 
-### Fifty-five percent living alone
+### Fifty-five percent of households, one person each
 
 57,902 of the 104,361 households hold exactly one person. 32,331 residents are between fifteen and twenty-five and 58,556 are between twenty-five and forty-five, while 24,590 are under fifteen and 32,587 are sixty-five or over. That is a university city's shape, and it is why this page is careful about which averages it quotes.
 
@@ -60,7 +60,7 @@ The statistics office divides the municipality into 9 wijken and 44 buurten, the
 
 ### The centre and the hill
 
-The old city above the Waal, the Valkhof where the Roman and imperial fortifications stood, and the station. The tightest housing in the municipality and much of the 55 percent who live alone.
+The old city above the Waal, the Valkhof where the Roman and imperial fortifications stood, and the station. The tightest housing in the municipality and many of the 57,902 households that hold a single person.
 
 ### Hatert and the south
 
