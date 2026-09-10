@@ -463,8 +463,10 @@
                     '<span class="mac-dc-badge">Today or tomorrow</span>' +
                     '<span class="mac-dc-kicker">Option 2 · Priority</span>' +
                     '<h3>Live demo today or tomorrow</h3>' +
-                    '<p class="mac-dc-price"><b data-dc-price>' + esc(price.display) + '</b><span data-dc-price-note>' +
-                        (price.currency === 'INR' ? 'one-time · $10 outside India' : 'one-time · ₹499 in India') + '</span></p>' +
+                    // Only the visitor's own price, the way course pricing
+                    // works: rupees in India, dollars elsewhere, no mention of
+                    // the other region.
+                    '<p class="mac-dc-price"><b data-dc-price>' + esc(price.display) + '</b><span data-dc-price-note>one-time</span></p>' +
                     '<p class="mac-dc-body">Skip the queue. A mentor steps out of a running batch to teach your live demo today or tomorrow, at a time you choose.</p>' +
                     '<ul><li>Pick your own day and time</li><li>Confirmed on WhatsApp within the hour</li><li>Same live class, same mentors, just sooner</li></ul>' +
                     '<button type="button" class="mac-dc-btn mac-dc-btn--solid" data-action="paid">Book priority demo · <span data-dc-price>' + esc(price.display) + '</span></button>' +
@@ -984,6 +986,6 @@
         open: function (rec) { openModal(rec || readSession() || {}); },
         renderInline: function (rec) { renderInline(rec || readSession() || {}); },
         prices: PRICES,
-        version: '20260910'
+        version: '20260910b'
     };
 })();
