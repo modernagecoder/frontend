@@ -8062,5 +8062,65 @@
       "Households against persons as the base of a living-alone share. That is the Charlois page argument, and the page quotes household shares only as shares of households.",
       "Anything the Eindhoven city page owns, including the High Tech Campus as a requiredMention, the named secondary schools and their addresses, and the Indian-origin figures."
     ]
+  },
+  "coding-classes-in-strijp": {
+    "market": "Strijp",
+    "bodyClass": "cg-stp",
+    "pageType": "district",
+    "curriculumAuthority": "Stadsdeel Strijp, Eindhoven, Noord-Brabant: an independent municipality until 1920, where Philips expanded from 1918 beginning with the complex Strijp-S, producing Philipsdorp and the Drents Dorp; three statistics office wijken, Oud-Strijp, Halve Maan and Meerhoven, whose areas add to 2,930 hectares, 2,886 land and 43 water, matching the encyclopaedia 29.3 square kilometres with 28.86 land and 0.43 water; 24 buurten in the office list against 22 in the encyclopaedia. Complete-set 2026 sum 41,573 residents, flagged as arithmetic. Oud-Strijp 16,547 (2026) and 15,840 (2025) residents on 195 hectares of land, 8,645 men and 7,195 women (2025), 10,080 households averaging 1.6 with 6,195 single-person, 2,540 multi-person without children and 1,340 with children, 8,000 aged twenty-five to forty-five at 48 percent (2026), 9,354 dwellings with 2,806 owner-occupied and 6,548 rented, estimated 368,000 euro, income 42,300 euro per resident, resident students 210 MBO, 670 higher professional and 1,070 university (2025), buurten Strijp S, Schoot, Philipsdorp, Schouwbroek, Eliasterrein Vonderkwartier, Engelsbergen, 2 primary with 383 pupils, 3 secondary with 1,296. Halve Maan 11,436 on 1,139 hectares, 5,580 households with 1,750 with children, 1,910 under fifteen, 5,402 dwellings, 38 percent owner-occupied, estimated 391,000 euro, buurten including Mispelhoef, Herdgang, Drents Dorp, Lievendaal, Het Ven and Hurk, 4 primary with 1,379 pupils, 4 secondary with 1,579. Meerhoven 13,590 on 1,552 hectares, 9,770 in 2013, 5,435 households averaging 2.5 with 2,485 with children, 2,665 under fifteen, 5,325 dwellings, 72 percent owner-occupied, estimated 533,000 euro, income 44,600 euro per resident and 58,900 per recipient, buurten including Eindhoven Airport, Flight Forum, Zandrijk, Bosrijk, Waterrijk, Meerrijk and Grasrijk, 2 primary with 1,346 pupils. Sums: 21,095 households, 20,081 dwellings, 8,693 owner-occupied, 5,815 under fifteen, 8 primary with 3,108 pupils, 7 secondary with 2,875. Landmarks from the encyclopaedia: Philips Stadion, Evoluon, the monuments of the Philips complex Strijp-S, Sint-Trudokerk originally of 1887, the Beatrixkanaal. Regio Zuid holidays. The district page argues that a conjunction can only shrink and that separate totals bound an overlap without determining it; Segbroek owns the ceiling check, Gestel the framing of a gap, Stratum the mean of ratios, Eindhoven Centrum confusion of the inverse.",
+    "localProject": "A description with more conditions fits fewer people, and separate published totals give only limits on an overlap. For Oud-Strijp in 2025, with 15,840 residents: 8,645 men, 6,195 people in one-person households and 1,950 enrolled students (210 MBO, 670 higher professional, 1,070 university). A picture of a resident as a man who lives alone and studies has a ceiling that falls at each step, 15,840, 8,645, 6,195, 1,950, and cannot rise when a detail is added; its floor, from separate totals, is zero at every step, because 8,645 and 6,195 fit inside 15,840 without meeting. The totals can also force an overlap: 8,645 men and the 9,645 residents not living alone add to 18,290, so at least 2,450 men do not live alone, and at least 1,000 women. The picture that comes easily to mind, young, male, alone, in technology, is therefore at most 1,950 people and possibly none, and the published figures cannot say which. Multiplying the shares, 54.6 percent by 39.1, gives 21 percent only under an independence nobody has checked. The psychological form is the conjunction fallacy, where a detailed description is judged more probable than a plainer one it contains. The programming form is the invariant that adding an AND condition must never increase a row count, which catches joins that multiply rows before a filter, together with feature crosses and user segments that combine ordinary traits into rare ones, and synthetic personas that describe a slice as the whole. All figures in the argument share one year, 2025; the 2026 age counts are described separately and never combined with them. Distinct from the ceiling check (Segbroek), where a count is tested against the population that could supply it: here the argument is that each added condition lowers the ceiling monotonically and that marginals bound a joint without fixing it; distinct from the framing of a gap (Gestel), the mean of ratios (Stratum) and confusion of the inverse (Eindhoven Centrum).",
+    "requiredMentions": [
+      "16,547",
+      "11,436",
+      "13,590",
+      "41,573",
+      "15,840",
+      "8,645",
+      "6,195",
+      "2,886",
+      "20,081",
+      "Philipsdorp",
+      "Drents Dorp",
+      "Sint-Trudokerk",
+      "Beatrixkanaal",
+      "Evoluon"
+    ],
+    "sources": [
+      {
+        "claim": "Wijk Oud-Strijp, Eindhoven: 16,547 inwoners (2026), 15,840 (2025); mannen 8,645, vrouwen 7,195 (2025); 10,080 huishoudens (2025), 6,195 eenpersoonshuishoudens, 2,540 meerpersoonshuishoudens zonder kinderen, 1,340 met kinderen, gemiddelde huishoudensgrootte 1.6; ages 1,240 (0 to 15), 2,625 (15 to 25), 8,000 (25 to 45), 2,935 (45 to 65), 1,730 (65+) (2026); bevolkingsdichtheid 8,123 per km2 (2025); 196 hectare, 195 land, 1 water; woningvoorraad 9,354, 2,806 koopwoningen and 6,548 huurwoningen (2025); gemiddelde WOZ 368,000 euro (2025); gemiddeld inkomen per inwoner 42,300 euro and per inkomensontvanger 47,200 euro (2024); 2 vestigingen basisonderwijs with 383 leerlingen, 3 voortgezet onderwijs with 1,296; studenten MBO 210, HBO 670, WO 1,070 (2025); buurten Strijp S, Schoot, Philipsdorp, Schouwbroek, Eliasterrein Vonderkwartier, Engelsbergen.",
+        "url": "https://allecijfers.nl/wijk/oud-strijp-eindhoven/"
+      },
+      {
+        "claim": "Wijk Halve Maan, Eindhoven: 11,436 inwoners (2026), 11,290 (2025); mannen 5,750, vrouwen 5,540 (2025); 5,580 huishoudens (2025), 2,520 eenpersoonshuishoudens, 1,310 zonder kinderen, 1,750 met kinderen, gemiddelde huishoudensgrootte 2.0; ages 1,910 (0 to 15), 1,345 (15 to 25), 3,890 (25 to 45), 2,800 (45 to 65), 1,520 (65+) (2026); bevolkingsdichtheid 991 per km2; 1,147 hectare, 1,139 land, 8 water; woningvoorraad 5,402, 2,053 koopwoningen (38 percent) and 3,349 huurwoningen (62 percent); gemiddelde WOZ 391,000 euro (2025); gemiddeld inkomen per inwoner 35,400 euro and per inkomensontvanger 44,000 euro (2024); 4 vestigingen basisonderwijs with 1,379 leerlingen, 4 voortgezet onderwijs with 1,579; buurten Mispelhoef, Herdgang, Wielewaal, Zwaanstraat, Drents Dorp, Lievendaal, Het Ven, Hurk.",
+        "url": "https://allecijfers.nl/wijk/halve-maan-eindhoven/"
+      },
+      {
+        "claim": "Wijk Meerhoven, Eindhoven: 13,590 inwoners (2026), 13,635 (2025), 9,770 (2013); bevolkingsdichtheid 879 per km2 (2025); 1,587 hectare, 1,552 land, 34 water; 5,435 huishoudens (2025), 1,450 eenpersoonshuishoudens, 1,500 zonder kinderen, 2,485 met kinderen, gemiddelde huishoudensgrootte 2.5; ages 2,665 (0 to 15), 1,655 (15 to 25), 4,170 (25 to 45), 3,630 (45 to 65), 1,490 (65+) (2026); woningvoorraad 5,325, 3,834 koopwoningen (72 percent) and 1,491 huurwoningen (28 percent); gemiddelde WOZ 533,000 euro (2025); gemiddeld inkomen per inwoner 44,600 euro and per inkomensontvanger 58,900 euro (2024); 2 vestigingen basisonderwijs with 1,346 leerlingen, 0 voortgezet onderwijs; buurten BeA2, Flight Forum, Eindhoven Airport, Meerbos, Zandrijk, Bosrijk, Meerrijk, Park Forum, Waterrijk, Grasrijk.",
+        "url": "https://allecijfers.nl/wijk/meerhoven-eindhoven/"
+      },
+      {
+        "claim": "Strijp (Eindhoven): Strijp was tot 1920 een zelfstandige gemeente. Op 1 januari 2023 telde het stadsdeel 39.230 inwoners; 19.250 woningen; oppervlakte 29,3 km2, land 28,86 km2, water 0,43 km2. Strijp wordt ingedeeld in drie wijken en 22 buurten. Vanaf 1918 breidde ook Philips zich uit, te beginnen met het complex Strijp-S; Philipsdorp and Drents Dorp. Landmarks listed: Het Philips Stadion; Het Evoluon; De architectonische monumenten van het Philipscomplex Strijp-S; De Sint-Trudokerk is oorspronkelijk uit 1887; Het Beatrixkanaal heeft hier en daar fraaie oevers; Eindhoven Airport.",
+        "url": "https://nl.wikipedia.org/wiki/Strijp_(Eindhoven)"
+      },
+      {
+        "claim": "Gemeente Eindhoven: 249,783 inwoners (2026); 130,304 huishoudens (2025); 20 wijken en 116 buurten.",
+        "url": "https://allecijfers.nl/gemeente/eindhoven/"
+      },
+      {
+        "claim": "School holiday regions: regio Zuid = Zeeland, Noord-Brabant, Limburg and the southern part of Gelderland; regio Midden = Utrecht, Zuid-Holland and the northern part of Gelderland; regio Noord = Groningen, Friesland, Drenthe, Overijssel, Flevoland, Noord-Holland.",
+        "url": "https://www.rijksoverheid.nl/themas/onderwijs/schoolvakanties/regios-schoolvakantie"
+      }
+    ],
+    "rejectedClaims": [
+      "Any count of residents who are young men living alone, tech workers or start-up founders. No figure used here can give it; the page gives limits only.",
+      "An overlap computed by multiplying shares, such as 21 percent of residents being men who live alone. That assumes independence nobody has checked.",
+      "Any combination of the 2026 age counts with the 2025 counts of sex, households or students. They are described side by side and never combined.",
+      "Any growth read from 15,840 residents of Oud-Strijp in 2025 to 16,547 in 2026, or from 9,770 residents of Meerhoven in 2013 to 13,590 now. Base-year choice is the Flevoland and Emmen argument.",
+      "Any use of the student counts for institutions located in Halve Maan or Meerhoven. Only students resident in Oud-Strijp are used, and residence against presence is the Leidschenveen-Ypenburg argument.",
+      "A count exceeding the population that could supply it. That is the Segbroek page argument; here the ceiling falls as conditions are added.",
+      "Anything about Philips, the Evoluon, the stadium or the airport beyond the lines in the encyclopaedia entry.",
+      "Any reconciliation of the 22 buurten in the encyclopaedia with the 24 in the statistics office list.",
+      "Anything the Eindhoven city page owns, including the Strijp-S address, the named secondary schools and their addresses, the High Tech Campus and the Indian-origin figures."
+    ]
   }
 }

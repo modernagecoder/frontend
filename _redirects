@@ -2310,4 +2310,8 @@
 # International growth cluster (coding-global.css). Must precede the /* catch-all.
 /coding-classes-in-gestel /src/pages/coding-classes-in-gestel.html 200
 /coding-classes-in-gestel.md /src/pages/coding-classes-in-gestel.md 200
+
+# International growth cluster (coding-global.css). Must precede the /* catch-all.
+/coding-classes-in-strijp /src/pages/coding-classes-in-strijp.html 200
+/coding-classes-in-strijp.md /src/pages/coding-classes-in-strijp.md 200
 /* /src/pages/404.html 404
