@@ -147,8 +147,22 @@
         return indianLocale || tz === 'Asia/Kolkata' || tz === 'Asia/Calcutta';
     }
 
+    // The same preview switch international-pricing.js honours, so the owner
+    // can check the outside-India view from India: ?test=intl (or
+    // ?test=international) shows dollars, ?test=india shows rupees.
+    function testRegion() {
+        try {
+            var t = (new URLSearchParams(window.location.search).get('test') || '').toLowerCase();
+            if (t === 'intl' || t === 'international') return false;
+            if (t === 'india') return true;
+        } catch (e) { }
+        return null;
+    }
+
     function regionIsIndia(phoneIso) {
         if (phoneIso) return String(phoneIso).toUpperCase() === 'IN';
+        var forced = testRegion();
+        if (forced !== null) return forced;
         if (typeof window.__MAC_IS_INDIAN === 'boolean') return window.__MAC_IS_INDIAN;
         return detectIndia();
     }
@@ -1049,6 +1063,6 @@
         open: function (rec) { openModal(rec || readSession() || {}); },
         renderInline: function (rec) { renderInline(rec || readSession() || {}); },
         prices: PRICES,
-        version: '20260910d'
+        version: '20260910e'
     };
 })();
