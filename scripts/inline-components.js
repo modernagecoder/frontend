@@ -27,12 +27,27 @@ const FOOTER_FILE = path.join(ROOT, 'components', 'footer.html');
 //                        page, since any page can be the first one a visitor sees.
 //   demo-slot-picker.js- builds the optional "pick a demo time" chips inside the
 //                        callback modal, whose markup is inlined on 438 pages.
+//   demo-choice.js     - after ANY demo form succeeds (it watches the two lead
+//                        endpoints), offers "wait in the free queue" or the
+//                        paid ₹499 / $10 priority demo. Every page with a form,
+//                        present or future, gets it from here; /thank-you
+//                        renders the same chooser inline for forms that
+//                        redirect. Pages opt out with
+//                        <meta name="mac-demo-choice" content="off">.
 //
 // Injecting them here rather than editing pages by hand is what keeps this
 // working for generated blog and course pages too, which are rebuilt on deploy.
+//
+// demo-choice.js carries a ?v= because it drives a payment: the service worker
+// serves /js/* cache-first, and a returning visitor must not run last month's
+// copy after the price or the flow changes. Bump the date here AND in
+// src/pages/thank-you.html (the only page that references it by hand) when
+// the file changes.
+const DEMO_CHOICE_VERSION = '20260910';
 const GLOBAL_LEAD_SCRIPTS = [
     '/js/attribution.js',
-    '/js/demo-slot-picker.js'
+    '/js/demo-slot-picker.js',
+    '/js/demo-choice.js?v=' + DEMO_CHOICE_VERSION
 ];
 
 // Directories to scan for HTML files
