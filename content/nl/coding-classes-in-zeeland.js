@@ -73,7 +73,7 @@ module.exports = {
       intro: 'The former islands and the one mainland, the municipalities on each, and the figure the register held for every one on 1 January 2026, the smallest being Noord-Beveland at 8,067.',
       body: [
         { kind: 'grid3', cells: [
-          { h3: 'Walcheren', p: 'Middelburg 50,439, the capital, a page to come; Vlissingen 45,878, the port and the naval town, a page to come; Veere 22,037, the coast from Domburg to the Veerse Meer. The old island where the province is governed.' },
+          { h3: 'Walcheren', p: '<a class="cg-inline-link" href="/coding-classes-in-middelburg">Middelburg</a> 50,439, the capital, with its own page; Vlissingen 45,878, the port and the naval town, a page to come; Veere 22,037, the coast from Domburg to the Veerse Meer. The old island where the province is governed.' },
           { h3: 'Zuid-Beveland', p: 'Goes 40,387, the market town in the middle of the province, a page to come; Reimerswaal 23,388, which is Yerseke and the oyster beds; Borsele 23,186, the villages around the nuclear plant and the tunnel mouth at Ellewoutsdijk; Kapelle 13,186.' },
           { h3: 'Zeeuws-Vlaanderen', p: 'Terneuzen 55,955, the largest municipality and the canal port to Ghent, a page to come; Hulst 27,376, the walled town on the Belgian line; Sluis 23,199, which is the coast from Breskens to Cadzand and the Belgian border the whole way round.' },
           { h3: 'Schouwen-Duiveland', p: 'Schouwen-Duiveland 34,409, one municipality for the whole island, with Zierikzee, the Brouwersdam and the eastern end of the Oosterscheldekering.' },
@@ -214,7 +214,7 @@ module.exports = {
   next: {
     eyebrow: 'Explore the Netherlands',
     h2: 'East into Brabant, north across the delta, and up to the country',
-    html: 'East along the A58 is <a class="cg-inline-link" href="/coding-classes-in-noord-brabant">Noord-Brabant</a>, with the border that has holes in it; north across the Haringvliet is <a class="cg-inline-link" href="/coding-classes-in-zuid-holland">Zuid-Holland</a> and its region with no boundary. Both, and this page, descend from the <a class="cg-inline-link" href="/coding-classes-in-netherlands">Netherlands coding hub</a>; a learner after models rather than programs should go to <a class="cg-inline-link" href="/ai-and-machine-learning-classes-in-netherlands">AI and machine learning classes in the Netherlands</a> or the <a class="cg-inline-link" href="/ai-and-python-academy-netherlands">AI and Python Academy</a>. Middelburg, Vlissingen, Goes and Terneuzen follow.',
+    html: 'East along the A58 is <a class="cg-inline-link" href="/coding-classes-in-noord-brabant">Noord-Brabant</a>, with the border that has holes in it; north across the Haringvliet is <a class="cg-inline-link" href="/coding-classes-in-zuid-holland">Zuid-Holland</a> and its region with no boundary. Both, and this page, descend from the <a class="cg-inline-link" href="/coding-classes-in-netherlands">Netherlands coding hub</a>; a learner after models rather than programs should go to <a class="cg-inline-link" href="/ai-and-machine-learning-classes-in-netherlands">AI and machine learning classes in the Netherlands</a> or the <a class="cg-inline-link" href="/ai-and-python-academy-netherlands">AI and Python Academy</a>. <a class="cg-inline-link" href="/coding-classes-in-middelburg">Middelburg</a> has its own page; Vlissingen, Goes and Terneuzen follow.',
     waLabel: 'Close with WhatsApp'
   },
 

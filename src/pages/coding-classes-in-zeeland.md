@@ -60,7 +60,7 @@ The former islands and the one mainland, the municipalities on each, and the fig
 
 ### Walcheren
 
-Middelburg 50,439, the capital, a page to come; Vlissingen 45,878, the port and the naval town, a page to come; Veere 22,037, the coast from Domburg to the Veerse Meer. The old island where the province is governed.
+[Middelburg](/coding-classes-in-middelburg) 50,439, the capital, with its own page; Vlissingen 45,878, the port and the naval town, a page to come; Veere 22,037, the coast from Domburg to the Veerse Meer. The old island where the province is governed.
 
 ### Zuid-Beveland
 
@@ -257,7 +257,7 @@ Between five and ten, matched on level, pace and goal rather than on age, school
 
 ## East into Brabant, north across the delta, and up to the country
 
-East along the A58 is [Noord-Brabant](/coding-classes-in-noord-brabant), with the border that has holes in it; north across the Haringvliet is [Zuid-Holland](/coding-classes-in-zuid-holland) and its region with no boundary. Both, and this page, descend from the [Netherlands coding hub](/coding-classes-in-netherlands); a learner after models rather than programs should go to [AI and machine learning classes in the Netherlands](/ai-and-machine-learning-classes-in-netherlands) or the [AI and Python Academy](/ai-and-python-academy-netherlands). Middelburg, Vlissingen, Goes and Terneuzen follow.
+East along the A58 is [Noord-Brabant](/coding-classes-in-noord-brabant), with the border that has holes in it; north across the Haringvliet is [Zuid-Holland](/coding-classes-in-zuid-holland) and its region with no boundary. Both, and this page, descend from the [Netherlands coding hub](/coding-classes-in-netherlands); a learner after models rather than programs should go to [AI and machine learning classes in the Netherlands](/ai-and-machine-learning-classes-in-netherlands) or the [AI and Python Academy](/ai-and-python-academy-netherlands). [Middelburg](/coding-classes-in-middelburg) has its own page; Vlissingen, Goes and Terneuzen follow.
 
 ## Contact
 

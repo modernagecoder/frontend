@@ -9635,5 +9635,58 @@
       "Any comparison of the encyclopaedia figure of 33,284 with the statistics figure of 33,327. Two sources that disagree is the Breda argument.",
       "Anything the Amsterdam, Amsterdam-Oost, Amsterdam-Zuidoost, Weesp and Noord-Holland pages own, including their figures and arguments."
     ]
+  },
+  "coding-classes-in-middelburg": {
+    "market": "Middelburg",
+    "bodyClass": "cg-mdb",
+    "pageType": "city",
+    "curriculumAuthority": "Gemeente Middelburg, Zeeland: 50,439 residents (statistics, 1 January 2026), 50,152 (2025), 47,523 (2013), 44,922 (1995); 24,483 men and 25,669 women (2025); ages (2026) 7,637 under fifteen, 6,143 fifteen to twenty-five, 11,828 twenty-five to forty-five, 13,003 forty-five to sixty-five, 11,828 sixty-five or over (summing to 50,439); 24,146 households (2025) averaging 2.03, 10,354 one-person, 13,792 multi-person, 6,949 with children; 5,304 hectares, 4,838 land, 466 water, published density 1,037; 24,857 dwellings (2025), 15,163 owner-occupied at 61 percent, 9,694 rented at 39 percent; estimated average value 306,000 euro; income 32,900 euro per resident and 39,600 per recipient (2024); 2.7 percent in poverty; 86 percent born in the Netherlands, 8.7 percent European and 15 percent non-European origin (2025); 25 wijken, 73 buurten; 23 primary establishments with 4,505 pupils, 9 secondary with 4,501; 1,428 MBO, 1,667 HBO and 540 WO students at institutions. Encyclopaedia (Middelburg): in 1123 the canons built a new monastery inside the ring-wall stronghold, the abbey; town rights in 1217 from Count Willem I of Holland; the abbey tower almost 91 metres high, the Lange Jan; the oldest parts of the late-Gothic town hall on the Markt, used as a university building, date from 1458; the bombardment of 17 May 1940 destroyed about a quarter of the inner city by fire, more than 600 buildings lost; the Kamer van Zeeland was after Amsterdam the most powerful VOC chamber; the Roosevelt Academy founded in 2004. Encyclopaedia (Hans Lipperhey): born Wesel about 1570, buried Middelburg 29 September 1619; living in Middelburg and married there in 1594; poorter from 1602; on 25 September 1608 asked the States of Zeeland for a letter of introduction; his patent application was followed weeks later by one from the Alkmaar spectacle maker Jacob Metius, and in October 1608 another young man in Middelburg was found to know it, so the States General granted no patent; he was asked to deliver three binocular instruments for 900 karolusguldens; a year later Galileo, inspired by the news, made an improved version. Encyclopaedia (Auguste Kerckhoffs): born 19 January 1835 in Nuth, died 9 August 1903 in Paris; La Cryptographie Militaire, Journal des Sciences Militaires, 1883; six principles, the second that the design of a system should not require secrecy. Regio Zuid holidays. The city page teaches security that does not depend on a hidden method.",
+    "localProject": "Keep the key secret, never the method. Lipperhey's 1608 telescope patent failed because the design was already known to Metius of Alkmaar and another young man in Middelburg, and Galileo improved it from the news within a year; Kerckhoffs's second principle of 1883 turns that into the rule that a system must stay safe when its design is known. The worked form cracks a Caesar cipher (25 shifts once the method is known) and counts key spaces at one billion guesses a second: 10,000 for a four-digit PIN, 208,827,064,576 for eight lower-case letters (about three and a half minutes), 95,428,956,661,682,176 for twelve (about three years), about 3.4 times ten to the 38 for a random 128-bit key (more than ten to the 22 years). For AI, secrets placed in a hidden system prompt are security through obscurity, and keys belong on a server the model never sees; AI coding assistants can copy keys found in code. The habits are assuming the method is known, keeping the secret small, keeping keys out of code and prompts, using published methods and planning for a leak. Chosen after a case-sensitive check found no page using Caesar, cipher, brute force, key space, API key or system prompt. Distinct from Roosendaal, which concerns validating input at a trust boundary and prompt injection, not where secrets live, and from Lelystad, which concerns single points of failure.",
+    "requiredMentions": [
+      "47,523",
+      "24,146",
+      "10,354",
+      "6,949",
+      "24,857",
+      "15,163",
+      "9,694",
+      "13,792",
+      "7,637",
+      "6,143",
+      "13,003",
+      "Lipperhey",
+      "Metius",
+      "karolusguldens"
+    ],
+    "sources": [
+      {
+        "claim": "Gemeente Middelburg: 50,439 inwoners (2026), 50,152 (2025), 47,523 (2013), 44,922 (1995); mannen 24,483, vrouwen 25,669 (2025); ages 0-15 7,637, 15-25 6,143, 25-45 11,828, 45-65 13,003, 65+ 11,828 (2026); 24,146 huishoudens, 10,354 eenpersoons, 13,792 meerpersoons, 6,949 met kinderen, gemiddeld 2.03 (2025); 5,304 hectare, land 4,838, water 466; bevolkingsdichtheid 1,037; woningvoorraad 24,857, koop 15,163 (61 percent), huur 9,694 (39 percent) (2025); gemiddelde WOZ 306,000 euro; gemiddeld inkomen per inwoner 32,900 and per inkomensontvanger 39,600 euro (2024); personen in armoede 2.7 percent; basisonderwijs 23 vestigingen 4,505 leerlingen, voortgezet onderwijs 9 vestigingen 4,501 leerlingen; MBO 1,428, HBO 1,667, WO 540; geboren in Nederland 86 percent; herkomst Europa 8.7 percent, buiten Europa 15 percent (2025); 25 wijken, 73 buurten.",
+        "url": "https://allecijfers.nl/gemeente/middelburg/"
+      },
+      {
+        "claim": "Middelburg (encyclopaedia): In 1123 bouwden de kanunniken een nieuw klooster binnen de veilige ringwalburg: de abdij van Middelburg. In 1217 kreeg Middelburg stadsrechten van graaf Willem I van Holland. De Abdij van Middelburg heeft een bijna 91 meter hoge toren die de Lange Jan genoemd wordt. De oudste delen van het als universiteitsgebouw in gebruik zijnde laatgotische stadhuis aan de Markt dateren uit 1458. Bij dit bombardement op Middelburg werd ongeveer een kwart van de binnenstad door brand verwoest, waarbij meer dan 600 panden verloren gingen (17 mei 1940). De Kamer van Zeeland was na Amsterdam de machtigste handelskamer van de VOC. In 2004 kreeg Middelburg een vorm van universitair onderwijs. In dat jaar werd de Roosevelt Academy opgericht.",
+        "url": "https://nl.wikipedia.org/wiki/Middelburg_(Zeeland)"
+      },
+      {
+        "claim": "Hans Lipperhey (encyclopaedia): Hans (of Johannes) Lipperhey, (Wezel, rond 1570 - Middelburg (Zeeland), begraven 29 september 1619). In 1594 woonde hij in Middelburg, waar hij in dat jaar in het huwelijk trad. In 1602 werd hij poorter van deze stad. In 1608, op 25 september vroeg hij bij het dagelijks bestuur van de Staten van Zeeland een introductiebrief. Toen Lipperheys octrooiaanvraag enkele weken later gevolgd werd door een tweede aanvraag van een patent, nu van de Alkmaarse brillenmaker Jacob Metius, en toen in oktober 1608 bleek dat in Middelburg een andere jongman woonde, besloten de gedeputeerden van de Staten-Generaal om geen patent toe te kennen. Wel kreeg Lipperhey de opdracht om drie binoculaire kijkers te leveren. Hij ontving daar 900 karolusguldens voor. Al een jaar later fabriceerde Galileo, geinspireerd door het nieuws van Lipperheys vinding, een verbeterde versie van de verrekijker.",
+        "url": "https://nl.wikipedia.org/wiki/Hans_Lipperhey"
+      },
+      {
+        "claim": "Auguste Kerckhoffs (encyclopaedia): Jean Guillaume Auguste Victor Francois Hubert Kerckhoffs, born 19 January 1835 in Nuth, Netherlands, died 9 August 1903 in Paris; La Cryptographie Militaire, published in Le Journal des Sciences Militaires in 1883; six principles of practical cipher design, the second: the design of a system should not require secrecy, and compromise of the system should not inconvenience the correspondents.",
+        "url": "https://en.wikipedia.org/wiki/Auguste_Kerckhoffs"
+      },
+      {
+        "claim": "School holiday regions: regio Noord = Groningen, Friesland, Drenthe, Overijssel, Flevoland and Noord-Holland; regio Midden = Utrecht, Zuid-Holland and the northern part of Gelderland; regio Zuid = Zeeland, Noord-Brabant, Limburg and the southern part of Gelderland.",
+        "url": "https://www.rijksoverheid.nl/themas/onderwijs/schoolvakanties/regios-schoolvakantie"
+      }
+    ],
+    "rejectedClaims": [
+      "That Lipperhey invented the telescope, or that it was invented in Middelburg. The source records a patent application that was refused because others knew the design; priority is not settled here.",
+      "The name of the other young man in Middelburg. The source read does not name him.",
+      "The town figure of 43,165 from the encyclopaedia and the smallest-capital claim. Both belong to the Zeeland page's argument about units, and neither is combined with the statistics here.",
+      "Any claim about the security of any organisation, school or company in Middelburg or Zeeland.",
+      "Real attacker speeds. The key-space table assumes one billion guesses a second for comparison only.",
+      "Anything the Zeeland, Alkmaar, Bergen op Zoom and Roosendaal pages own, including their figures and arguments."
+    ]
   }
 }
