@@ -8262,5 +8262,65 @@
       "The mean as a misleading description of a typical case. That is the Groningen argument; here every figure is used for what it is.",
       "Anything the Eindhoven city page owns, including the named secondary schools and their addresses, the High Tech Campus and the Indian-origin figures."
     ]
+  },
+  "coding-classes-in-tongelre": {
+    "market": "Tongelre",
+    "bodyClass": "cg-tgl",
+    "pageType": "district",
+    "curriculumAuthority": "Stadsdeel Tongelre, Eindhoven, Noord-Brabant: an independent municipality until 1920; three statistics office wijken, Oud-Tongelre, De Laak and Doornakkers, and ten buurten, the same count as the encyclopaedia, whose areas add to 946 hectares, 920 land and 27 water, matching the encyclopaedia 9.46 square kilometres. Complete-set 2026 sum 23,660 residents, flagged as arithmetic. Oud-Tongelre 9,216 residents (2026), 8,950 (2025), 8,685 (2013) on 649 hectares of land, published density 1,379 (2025), 4,650 households averaging 1.9, 4,329 dwellings with 1,991 owner-occupied, estimated 395,000 euro, income 34,700 euro per resident (2024), buurten Koudenhoven, Karpen, t Hofke, Muschberg Geestenberg and Urkhoven, 2 primary with 657 pupils, 1 secondary with 1,200. De Laak 5,661 on 103 hectares, 3,165 households, 2,830 dwellings with 1,556 rented, estimated 449,000 euro, income 42,400 euro per resident, buurten Villapark and Lakerlopen, 1 primary with 966 pupils. Doornakkers 8,783 (2026) and 7,170 (2013) on 168 hectares, 4,385 households with 1,305 with children, 4,056 dwellings, estimated 364,000 euro, income 32,000 euro per resident, buurten Doornakkers-West, Doornakkers-Oost and Tongelresche Akkers, 1 primary with 420 pupils. Sums: 12,200 households, 11,215 dwellings, 4,969 owner-occupied, 3,400 under fifteen, 4 primary with 2,043 pupils. Landmarks from the encyclopaedia: t Hofke as the heart of the old village; t Hofke 13, one of the oldest houses in the municipality, beams of 1583, originally a three-aisled hall house enlarged in 1600, present appearance eighteenth-century, exterior restored 2007/2008, squatted 5 May 2010 after standing empty; the Sint-Martinuskerk, consecrated 1891, architect E. Corbey; the old town hall of 1911, now a community centre; the Apollohuis at Tongelresestraat 81, the former cigar factory of Boelaars and Sons, built 1919; the Collse Watermolen; the DAF Museum since 1993. Regio Zuid holidays. The district page argues that a date belongs to an event and that a whole with several dated events has no single date.",
+    "localProject": "A date belongs to an event, so how old has no answer until the event is named, and a whole made of dated parts may have no date at all. The encyclopaedia entry for Tongelre calls the farmhouse at t Hofke 13 one of the oldest houses in the municipality of Eindhoven and dates its events, not the house: the beams are from 1583, the original three-aisled hall house was enlarged in 1600, the present appearance is eighteenth-century, the exterior was restored in 2007/2008. Measured from 2026 the ages are 443, 426, between 227 and 326, and 18 or 19 years, all correct and none of them the age of the house, which the source leaves undated and the page leaves undated. Saying it was built in 1583 promotes the date of the oldest part to the date of the whole. Nearby dates repeat the point: the Sint-Martinuskerk was consecrated in 1891, a ceremony not a construction, and the town hall dates from 1911, leaving an independent Tongelre at most nine years with it before 1920. Each statistics office row carries the same structure in miniature, with residents at 2026, households and dwellings at 2025, income at 2024 and older counts at 2013, so a row labelled with one year is dated by its newest field; the page keeps every year on every figure and never combines across them. The programming form is created_at against updated_at; file creation and modification times, with a plain copy getting a new creation time; migrations that stamp old rows with the import date unless the originals are carried across; version control, where a repository has a first commit but every line has its own date; and datasets with a reference date, a publication date and a download date, where the run date is mistaken for the data date, and models evaluated on data dated after training look better than they are. The remedy is to store the event with the date, keep a field per event, carry originals through migrations, and refuse to date a whole by a part. Distinct from mixing vintages in arithmetic (Apeldoorn), since nothing is combined here and the question is what one date may be attached to; from provenance lost in storage and the estimate read as a count (Loosduinen); from a name outliving its referent (Scheveningen); from epochs and offsets (Amersfoort); and from base-year choice (Flevoland, Emmen).",
+    "requiredMentions": [
+      "9,216",
+      "8,783",
+      "23,660",
+      "12,200",
+      "11,215",
+      "4,056",
+      "1583",
+      "hallenhuis",
+      "Sint-Martinuskerk",
+      "Corbey",
+      "Apollohuis",
+      "Boelaars",
+      "Tongelresestraat",
+      "Urkhoven"
+    ],
+    "sources": [
+      {
+        "claim": "Tongelre (encyclopaedia): Tongelre was tot 1920 een zelfstandige gemeente in Noord-Brabant. Infobox: 23.105 inwoners (2023, 2.442 inw./km2); 11.073 woningen; oppervlakte 9,46 km2, land 9,2, water 0,27. Tongelre kent 3 wijken en 10 buurten: Oud-Tongelre, De Laak, Doornakkers. De kom van Tongelre wordt gevormd door t Hofke, waaromheen alle belangrijke gebouwen, zoals de kerk en het gemeentehuis, zijn gegroepeerd. t Hofke 13 is een der oudste woonhuizen van de gemeente Eindhoven; de balkenconstructie is uit 1583. Het was oorspronkelijk een driebeukig hallenhuis dat in 1600 werd vergroot. Het huidige uiterlijk stamt uit de 18e eeuw. In 2007/2008 is dit rijksmonument aan de buitenkant gerestaureerd; na leegstand is op 5 mei 2010 de boerderij gekraakt. Oude raadhuis uit 1911, aan t Hofke; tegenwoordig is het een buurthuis. Sint-Martinuskerk: deze neogotische driebeukige kruisbasiliek werd ingewijd in 1891; architect van de kerk was E. Corbey. Het Apollohuis aan de Tongelresestraat 81: de voormalige sigarenfabriek van de Fa. Boelaars en Zn., gebouwd in 1919. Collse Watermolen. Sedertdien had het gebouw meerdere bestemmingen; sinds 1993 is hier het DAF Museum gevestigd.",
+        "url": "https://nl.wikipedia.org/wiki/Tongelre"
+      },
+      {
+        "claim": "Wijk Oud-Tongelre, Eindhoven: 9,216 inwoners (2026), 8,950 (2025), 8,685 (2013); mannen 4,690, vrouwen 4,260 (2025); bevolkingsdichtheid 1,379 per km2 (2025); 671 hectare, 649 land, 23 water (2025); 4,650 huishoudens, 2,270 eenpersoonshuishoudens, 1,110 zonder kinderen, 1,270 met kinderen, gemiddelde huishoudensgrootte 1.9 (2025); ages 1,275, 1,380, 2,505, 2,215, 1,805 (2026); woningvoorraad 4,329, 1,991 koopwoningen, 2,338 huurwoningen (2025); gemiddelde WOZ 395,000 euro (2025); gemiddeld inkomen per inwoner 34,700 and per inkomensontvanger 41,400 euro (2024); buurten Koudenhoven, Karpen, t Hofke, Muschberg Geestenberg, Urkhoven; 2 vestigingen basisonderwijs with 657 leerlingen, 1 voortgezet onderwijs with 1,200.",
+        "url": "https://allecijfers.nl/wijk/oud-tongelre-eindhoven/"
+      },
+      {
+        "claim": "Wijk De Laak, Eindhoven: 5,661 inwoners (2026), 5,695 (2025), 5,265 (2013); mannen 3,035, vrouwen 2,660 (2025); bevolkingsdichtheid 5,529 per km2 (2025); 105 hectare, 103 land, 2 water; 3,165 huishoudens, 1,745 eenpersoonshuishoudens, 745 zonder kinderen, 675 met kinderen, gemiddelde huishoudensgrootte 1.8 (2025); ages 635, 830, 2,010, 1,355, 815 (2026); woningvoorraad 2,830, 1,274 koopwoningen, 1,556 huurwoningen (2025); gemiddelde WOZ 449,000 euro (2025); gemiddeld inkomen per inwoner 42,400 and per inkomensontvanger 49,900 euro (2024); buurten Villapark, Lakerlopen; 1 vestiging basisonderwijs with 966 leerlingen, 0 voortgezet onderwijs.",
+        "url": "https://allecijfers.nl/wijk/de-laak-eindhoven/"
+      },
+      {
+        "claim": "Wijk Doornakkers, Eindhoven: 8,783 inwoners (2026), 8,785 (2025), 7,170 (2013); mannen 4,600, vrouwen 4,185 (2025); bevolkingsdichtheid 5,229 per km2 (2025); 170 hectare, 168 land, 2 water; 4,385 huishoudens, 2,065 eenpersoonshuishoudens, 1,005 zonder kinderen, 1,305 met kinderen, gemiddelde huishoudensgrootte 2.0 (2025); ages 1,490, 1,160, 2,900, 2,020, 1,210 (2026); woningvoorraad 4,056, 1,704 koopwoningen, 2,352 huurwoningen (2025); gemiddelde WOZ 364,000 euro (2025); gemiddeld inkomen per inwoner 32,000 and per inkomensontvanger 39,700 euro (2024); buurten Doornakkers-West, Doornakkers-Oost, Tongelresche Akkers; 1 vestiging basisonderwijs with 420 leerlingen.",
+        "url": "https://allecijfers.nl/wijk/doornakkers-eindhoven/"
+      },
+      {
+        "claim": "Groot-Eindhoven: the annexation of the five randgemeenten Strijp, Gestel en Blaarthem, Stratum, Tongelre and Woensel on 1 January 1920.",
+        "url": "https://nl.wikipedia.org/wiki/Geschiedenis_van_Eindhoven"
+      },
+      {
+        "claim": "School holiday regions: regio Zuid = Zeeland, Noord-Brabant, Limburg and the southern part of Gelderland; regio Midden = Utrecht, Zuid-Holland and the northern part of Gelderland; regio Noord = Groningen, Friesland, Drenthe, Overijssel, Flevoland, Noord-Holland.",
+        "url": "https://www.rijksoverheid.nl/themas/onderwijs/schoolvakanties/regios-schoolvakantie"
+      }
+    ],
+    "rejectedClaims": [
+      "That the farmhouse at t Hofke 13 was built in 1583. The source dates its beams to 1583 and gives no date for the house as a whole.",
+      "That the Sint-Martinuskerk was built in 1891. It was consecrated in 1891; the construction dates are not given here.",
+      "That the DAF Museum building was built for the museum, or any statement about its earlier uses beyond the sentence that it had several.",
+      "Any growth rate for Doornakkers from 7,170 in 2013 to 8,783 in 2026. Base-year choice is the Flevoland and Emmen argument.",
+      "Any figure combining years, such as a 2026 per-dwelling ratio built from 2026 residents and 2025 dwellings. Mixing vintages is the Apeldoorn argument.",
+      "Any use of the Tongelre poverty figures to rank the wijken. Reading a threshold ladder as a curve is the Woensel-Noord argument.",
+      "A name outliving the thing it named, as with the building now called the Apollohuis. That is the Scheveningen argument; this page concerns dates only.",
+      "Anything about DAF itself, its plant or its history beyond the museum sentence.",
+      "Anything the Eindhoven city page owns, including the named secondary schools and their addresses, the High Tech Campus and the Indian-origin figures."
+    ]
   }
 }
