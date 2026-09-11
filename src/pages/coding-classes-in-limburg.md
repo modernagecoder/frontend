@@ -60,7 +60,7 @@ The three Limburgs, each with its municipalities and their 1 January 2026 popula
 
 ### Zuid-Limburg: the cities
 
-[Maastricht](/coding-classes-in-maastricht) 126,026, the capital, with its own page; [Sittard-Geleen](/coding-classes-in-sittard-geleen) 92,461, with its own page; Heerlen 87,764, a page to come; Kerkrade 45,824; Landgraaf 36,844; Beekdaelen 35,903; Brunssum 27,474; Stein 24,691. The old mining belt and the university city, within half an hour of each other.
+[Maastricht](/coding-classes-in-maastricht) 126,026, the capital, with its own page; [Sittard-Geleen](/coding-classes-in-sittard-geleen) 92,461, with its own page; [Heerlen](/coding-classes-in-heerlen) 87,764, with its own page; Kerkrade 45,824; Landgraaf 36,844; Beekdaelen 35,903; Brunssum 27,474; Stein 24,691. The old mining belt and the university city, within half an hour of each other.
 
 ### Zuid-Limburg: the hills
 
@@ -82,7 +82,7 @@ Belgium runs the length of the west from Mook to Eijsden; Germany the length of 
 
 It is not growing, and this page does not pretend otherwise: 8,324 more people in thirty-one years, and a share of under-fifteens lower than any other province on this site. For a family here, that is one more reason a class should come to the house rather than the other way round.
 
-All 31 are above. Maastricht, Venlo and Sittard-Geleen already have city pages that go close, and Heerlen and Roermond will follow; this one stays at the scale where Mook and Vaals are both in view.
+All 31 are above. Maastricht, Venlo, Sittard-Geleen and Heerlen already have city pages that go close, and Roermond will follow; this one stays at the scale where Mook and Vaals are both in view.
 
 ## Every figure on this page, with its office and its date
 
@@ -221,7 +221,7 @@ It is the highest point of the European Netherlands, at 322.4 metres above NAP. 
 
 ### Which Limburg towns get their own page, and which are covered here?
 
-Maastricht, Venlo and Sittard-Geleen have theirs already, all linked above, and Heerlen and Roermond follow in this series. The other 26, from Weert and Kerkrade to Mook en Middelaar, are listed above with their populations, and the class is the same one whichever of them the laptop is in.
+Maastricht, Venlo, Sittard-Geleen and Heerlen have theirs already, all linked above, and Roermond follows in this series. The other 26, from Weert and Kerkrade to Mook en Middelaar, are listed above with their populations, and the class is the same one whichever of them the laptop is in.
 
 ### Has Limburg really not grown since 1995?
 
@@ -257,7 +257,7 @@ Between five and ten, matched on level, pace and goal rather than on age, school
 
 ## North along the Maas, and up to the country
 
-The Maas leads north out of the province to [Gelderland](/coding-classes-in-gelderland), and the A2 west to [Eindhoven](/coding-classes-in-eindhoven), the nearest city page. Every page in this series descends from the [Netherlands coding hub](/coding-classes-in-netherlands), and a learner who wants to build models rather than programs should open [AI and machine learning classes in the Netherlands](/ai-and-machine-learning-classes-in-netherlands) or the [AI and Python Academy](/ai-and-python-academy-netherlands). Maastricht, [Venlo](/coding-classes-in-venlo) and [Sittard-Geleen](/coding-classes-in-sittard-geleen) are built; Heerlen and Roermond follow.
+The Maas leads north out of the province to [Gelderland](/coding-classes-in-gelderland), and the A2 west to [Eindhoven](/coding-classes-in-eindhoven), the nearest city page. Every page in this series descends from the [Netherlands coding hub](/coding-classes-in-netherlands), and a learner who wants to build models rather than programs should open [AI and machine learning classes in the Netherlands](/ai-and-machine-learning-classes-in-netherlands) or the [AI and Python Academy](/ai-and-python-academy-netherlands). Maastricht, [Venlo](/coding-classes-in-venlo), [Sittard-Geleen](/coding-classes-in-sittard-geleen) and [Heerlen](/coding-classes-in-heerlen) are built; Roermond follows.
 
 ## Contact
 

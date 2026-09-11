@@ -102,7 +102,8 @@ Phase 6 (ag- doors): academy spokes x6 (amsterdam, eindhoven, the-hague, utrecht
 | 81 | coding-classes-in-oss (oss, #6C0C4A) | city | 4,518 | 2.7% vs purmerend | An AI learned from text that nobody wrote for it. Why should a teenager in Ruwaard ask what that text was for? | accuracy follows use: reused data is only as reliable as the fields its first process depended on | 005131c7 |
 | 82 | coding-classes-in-hilversum (hvs, #1E4900) | city | 4,406 | 3.8% vs purmerend | An AI can write the code. Why should a teenager near the Mediapark ask whether its files will open in twenty years? | format durability: a record lasts only as long as something can still read it | f4105f59 |
 | 83 | coding-classes-in-sittard-geleen (stg, #483D06) | city | 4,486 | 4.3% vs hilversum | An image model pads the edge of every picture it sees. Why should a teenager in Sittard learn what happens at a border? | edge effect: neighbourhood calculations are cut off where the data stops, not where the world does | d716377c |
-| 84 | coding-classes-in-nissewaard (nsw, #005126) | city | 4,398 | 3.9% vs oss | An AI model can lose accuracy without getting any worse. Why should a teenager in Spijkenisse learn how that happens? | composition effect: an average moves when the mix moves, with no group changing (dataset shift) | (this commit) |
+| 84 | coding-classes-in-nissewaard (nsw, #005126) | city | 4,398 | 3.9% vs oss | An AI model can lose accuracy without getting any worse. Why should a teenager in Spijkenisse learn how that happens? | composition effect: an average moves when the mix moves, with no group changing (dataset shift) | 61d6c88c |
+| 85 | coding-classes-in-heerlen (hrl, #4F6F15) | city | 4,426 | 4.6% vs hilversum | An AI model only knows the years it was trained on. Why should a teenager in Heerlen ask where its data begins? | a series begins where someone started counting: logs, shallow clones and training windows | (this commit) |
 
 ## Skipped (kill criterion)
 
@@ -112,7 +113,7 @@ Phase 6 (ag- doors): academy spokes x6 (amsterdam, eindhoven, the-hague, utrecht
 ## Codes in use (letters only; check `coding-global.css` before assigning)
 
 Reserved by older clusters and NOT available: hmr (Al Hamra), lei (Leicester), mst? free, amr (Al Amarat), adm (Adam), ede? free.
-Assigned so far: cg: amv (Amstelveen), ams (Amsterdam), ehv (Eindhoven), dhg (The Hague), alm (Almere), utr (Utrecht), rtm (Rotterdam) · ag: nla (academy hub) · provinces: nhl (Noord-Holland), zhl (Zuid-Holland), utp (Utrecht), gld (Gelderland), ovr (Overijssel), lim (Limburg), grp (Groningen), nbr (Noord-Brabant), frl (Friesland), dre (Drenthe), flv (Flevoland), zld (Zeeland) · cities: grn (Groningen), tlb (Tilburg), brd (Breda), nij (Nijmegen), arn (Arnhem), apd (Apeldoorn), hlm (Haarlem), hmm (Haarlemmermeer), zns (Zaanstad), amf (Amersfoort), ens (Enschede), dbo (Den Bosch), zwo (Zwolle), ztm (Zoetermeer), lde (Leiden), lwd (Leeuwarden), mst (Maastricht), ede (Ede), drd (Dordrecht), wst (Westland), alp (Alphen aan den Rijn), alk (Alkmaar), dlf (Delft), emm (Emmen), dev (Deventer), vnl (Venlo), uit (Uithoorn) · districts: acn (Amsterdam-Centrum), anr (Amsterdam-Noord), aos (Amsterdam-Oost), azd (Amsterdam-Zuid), awt (Amsterdam-West), anw (Amsterdam Nieuw-West), azo (Amsterdam-Zuidoost), wsp (Weesp), rtc (Rotterdam Centrum), dfh (Delfshaven), fyn (Feijenoord), chl (Charlois), ijs (IJsselmonde), krc (Kralingen-Crooswijk), hgs (Hillegersberg-Schiebroek), pra (Prins Alexander), dhc (Den Haag Centrum), esc (Escamp), shv (Scheveningen), hho (Haagse Hout), lak (Laak), lyp (Leidschenveen-Ypenburg), lsn (Loosduinen), sgb (Segbroek), ehc (Eindhoven Centrum), stm (Stratum), gst (Gestel), stp (Strijp), wsz (Woensel-Zuid), wsn (Woensel-Noord), tgl (Tongelre) · towns: hmd (Helmond), pmr (Purmerend), oss (Oss), hvs (Hilversum), stg (Sittard-Geleen), nsw (Nissewaard)
+Assigned so far: cg: amv (Amstelveen), ams (Amsterdam), ehv (Eindhoven), dhg (The Hague), alm (Almere), utr (Utrecht), rtm (Rotterdam) · ag: nla (academy hub) · provinces: nhl (Noord-Holland), zhl (Zuid-Holland), utp (Utrecht), gld (Gelderland), ovr (Overijssel), lim (Limburg), grp (Groningen), nbr (Noord-Brabant), frl (Friesland), dre (Drenthe), flv (Flevoland), zld (Zeeland) · cities: grn (Groningen), tlb (Tilburg), brd (Breda), nij (Nijmegen), arn (Arnhem), apd (Apeldoorn), hlm (Haarlem), hmm (Haarlemmermeer), zns (Zaanstad), amf (Amersfoort), ens (Enschede), dbo (Den Bosch), zwo (Zwolle), ztm (Zoetermeer), lde (Leiden), lwd (Leeuwarden), mst (Maastricht), ede (Ede), drd (Dordrecht), wst (Westland), alp (Alphen aan den Rijn), alk (Alkmaar), dlf (Delft), emm (Emmen), dev (Deventer), vnl (Venlo), uit (Uithoorn) · districts: acn (Amsterdam-Centrum), anr (Amsterdam-Noord), aos (Amsterdam-Oost), azd (Amsterdam-Zuid), awt (Amsterdam-West), anw (Amsterdam Nieuw-West), azo (Amsterdam-Zuidoost), wsp (Weesp), rtc (Rotterdam Centrum), dfh (Delfshaven), fyn (Feijenoord), chl (Charlois), ijs (IJsselmonde), krc (Kralingen-Crooswijk), hgs (Hillegersberg-Schiebroek), pra (Prins Alexander), dhc (Den Haag Centrum), esc (Escamp), shv (Scheveningen), hho (Haagse Hout), lak (Laak), lyp (Leidschenveen-Ypenburg), lsn (Loosduinen), sgb (Segbroek), ehc (Eindhoven Centrum), stm (Stratum), gst (Gestel), stp (Strijp), wsz (Woensel-Zuid), wsn (Woensel-Noord), tgl (Tongelre) · towns: hmd (Helmond), pmr (Purmerend), oss (Oss), hvs (Hilversum), stg (Sittard-Geleen), nsw (Nissewaard), hrl (Heerlen)
 
 ## Open issues
 ### The sibling-echo tax, now measured four times
@@ -221,6 +222,20 @@ bug, necessary and sufficient, ship of theseus, composition effect,
 regression to the mean, edge and boundary effects, open-ended top category
 (distinct from Bawshar only if framed as the publisher's unbounded bin
 rather than the analyst's choice, so use with care).
+
+CORRECTION 2026-09-11: the free list above was stale. Already claimed:
+edge and boundary effects (Rotterdam Centrum, boundary truncation; the
+Sittard-Geleen page now credits it and links it), open-ended top category
+(IJsselmonde, unequal and unbounded bands), ship of theseus (Amsterdam-West,
+identifier continuity), revision width between sources (Breda), survivorship
+(Al Hail), base rates (Georgia). Claimed on 2026-09-11: non-response
+(Purmerend), accuracy follows use (Oss), format durability (Hilversum), the
+fill choice at an edge in code (Sittard-Geleen), composition effect and
+dataset shift (Nissewaard), a series begins where counting began (Heerlen).
+Still free: goodhart (Nieuw-West names it only as a contrast), spurious
+correlation, feature versus bug, necessary and sufficient, regression to the
+mean. Before claiming anything, print the opening of every page's
+localProject in one pass instead of trusting this list.
 
 ### Watch item opened 2026-09-08: sibling district pages drift up
 

@@ -8638,5 +8638,59 @@
       "Metro line letters, station names or the metro opening date. Summarised rather than quoted in the sources read.",
       "Anything the Rotterdam, Dordrecht and Zuid-Holland pages own, including their districts and arguments."
     ]
+  },
+  "coding-classes-in-heerlen": {
+    "market": "Heerlen",
+    "bodyClass": "cg-hrl",
+    "pageType": "city",
+    "curriculumAuthority": "Gemeente Heerlen, Limburg: 87,764 residents (statistics office, 1 January 2026), 87,522 (2025), 88,747 (2013), 96,274 (1995), historical data on current boundaries; 43,784 men and 43,738 women (2025); 46,069 households (2025) averaging 1.86, 21,993 one-person (48 percent), 24,076 multi-person, 11,936 with children (26 percent); ages (2026) 11,220 under fifteen, 8,921 fifteen to twenty-five, 21,875 twenty-five to forty-five, 23,636 forty-five to sixty-five, 22,112 sixty-five or over; 4,553 hectares, 4,491 land, 62 water, published density 1,949; 46,795 dwellings (2025), 21,994 owner-occupied at 47 percent, 24,801 rented at 53 percent; estimated average value 214,000 euro; income 30,000 euro per resident and 35,500 per recipient (2024); 5.4 percent in poverty; origin (2025) 58,771 Dutch, 13,972 European, 14,779 non-European, 72,448 born in the Netherlands; 2 woonplaatsen, 23 wijken, 57 buurten; 27 primary establishments with 7,139 pupils, 19 secondary with 8,116, 5,195 MBO and 4,840 HBO students at institutions. Encyclopaedia (Heerlen): the Romans founded a military settlement called Coriovallum about 2000 years ago and built a bath house and made pottery; Oranje-Nassau I begun 1894, working 1899 to 1974; Oranje-Nassau III 1917 to 1973; Oranje-Nassau IV 1927 to 1966; Staatsmijn Emma 1911 to 1973; from a village of 6,646 residents in 1900 to a town of 32,263 in 1930; the Glaspaleis completed 1935 for the local shopkeeper Peter Schunck; since 1 January 1982 the municipality consists of Heerlen and the former municipality of Hoensbroek; four stadsdelen Heerlen-Stad, Heerlerheide, Heerlerbaan and Hoensbroek; part of Parkstad Limburg with over 250,000 residents in all; (head) offices of financial and economic services including ABP; 87,754 residents on 1 January 2026 in the infobox, not combined with the office row. Thermenmuseum: foundations of a bath complex found in 1940 when a farmer ploughing on 18 June caught his plough on part of a column shaft; excavation by H.J. Beckers with volunteers; standing walls almost entirely gone, foundations and floor levels remain; opened 1977; about 30,000 Roman objects; closed September 2024; a Roman museum due in 2028. Statistics bureau contact page: offices in Den Haag, Heerlen and Caribisch Nederland. Regio Zuid holidays. The city page observes that a series begins where someone started counting.",
+    "localProject": "A series begins where someone started counting, not where the story began. The statistics office series used for Heerlen begins in 1995 at 96,274 and ends in 2026 at 87,764; the mines ran from 1899 to 1974 with the others closing between 1966 and 1973, twenty-one years and more before the first point; and the growth from 6,646 in 1900 to 32,263 in 1930 is in a different source for a different area. The page places the six facts side by side without joining them and makes no causal claim about the decline since 1995. The programming form is the start of a window: log retention limits, shallow Git clones that put blame on the last commit, dashboards with a default ninety-day view, and AI models that know only the span of their training data and describe the world as of their cutoff. The defences are recording when and why each dataset begins, printing the window in every title, keeping full history, looking to older sources for context, and testing models outside their training period. Kept modest under the Phase 5 method. Distinct from Emmen, which asks whether the first observation is typical of what follows, from Prins Alexander, which reads several histories into one snapshot, from base-year growth rates (Flevoland), from epochs and boundary changes in a series (Amersfoort, Alkmaar) and from Rotterdam Centrum, whose truncation is spatial.",
+    "requiredMentions": [
+      "96,274",
+      "88,747",
+      "46,069",
+      "21,993",
+      "46,795",
+      "21,994",
+      "24,801",
+      "8,116",
+      "22,112",
+      "5,195",
+      "Glaspaleis",
+      "Schunck",
+      "Heerlerheide",
+      "Heerlerbaan"
+    ],
+    "sources": [
+      {
+        "claim": "Gemeente Heerlen: 87,764 inwoners (2026), 87,522 (2025), 88,747 (2013), 96,274 (1995), historical data reflects current municipal boundaries; mannen 43,784, vrouwen 43,738; 46,069 huishoudens, 21,993 eenpersoons (48 percent), 24,076 meerpersoons, 11,936 met kinderen (26 percent), gemiddeld 1.86; ages 0-15 11,220, 15-25 8,921, 25-45 21,875, 45-65 23,636, 65+ 22,112 (2026); 4,553 hectare, land 4,491, water 62; bevolkingsdichtheid 1,949; woningvoorraad 46,795, koopwoningen 21,994 (47 percent), huurwoningen 24,801 (53 percent) (2025); gemiddelde WOZ 214,000 euro; gemiddeld inkomen per inwoner 30,000 and per inkomensontvanger 35,500 euro (2024); personen in armoede 5.4 percent; basisonderwijs 27 vestigingen 7,139 leerlingen, voortgezet onderwijs 19 vestigingen 8,116 leerlingen, MBO 5,195, HBO 4,840 studenten; herkomst Nederland 58,771, Europa 13,972, buiten Europa 14,779, geboren in Nederland 72,448 (2025); 2 woonplaatsen, 23 wijken, 57 buurten.",
+        "url": "https://allecijfers.nl/gemeente/heerlen/"
+      },
+      {
+        "claim": "Heerlen (encyclopaedia): De Romeinen stichtten er 2000 jaar geleden een militaire nederzetting, die zij de naam Coriovallum gaven. De Romeinen bouwden onder meer een badhuis en bedreven er pottenbakkerij. In 1894 was al begonnen met de aanleg van de Oranje-Nassaumijn I, 1899-1974; Oranje-Nassau III (1917-1973), Oranje-Nassau IV (1927-1966), Staatsmijn Emma (1911-1973). Van een dorpje met 6646 inwoners in 1900 tot een stad van 32.263 inwoners in 1930. In 1935 kwam een zeer befaamd geworden gebouw gereed, het Glaspaleis van opdrachtgever en lokale winkelier Peter Schunck. Sinds 1 januari 1982 wordt de huidige gemeente Heerlen gevormd door Heerlen en de voormalige gemeente Hoensbroek. Bestuurlijk wordt Heerlen gevormd door vier stadsdelen - Heerlen-Stad, Heerlerheide, Heerlerbaan en Hoensbroek. Heerlen maakt deel uit van het bestuurlijke samenwerkingsverband Parkstad Limburg, waar in totaal ruim 250.000 mensen wonen. In Heerlen bevinden zich (hoofd)kantoren van spelers in de financiele en economische dienstverlening, waaronder Stichting Pensioenfonds ABP. Op 1 januari 2026 had Heerlen 87.754 inwoners (CBS).",
+        "url": "https://nl.wikipedia.org/wiki/Heerlen"
+      },
+      {
+        "claim": "Thermenmuseum (encyclopaedia): In 1940 werd in het centrum van Heerlen het fundament ontdekt van een thermencomplex. Een boer die het braakliggende grasland aan het omploegen was bleef op 18 juni van dat jaar met zijn ploeg in een deel van een zuilschacht steken. Later begon amateurarcheoloog dr. H.J. Beckers, geholpen door vrijwilligers, met een grote opgraving. Hoewel het opgaande muurwerk bijna geheel verdwenen is, kan men zich aan de hand van funderingen en vloerniveaus nog een goede voorstelling maken van het badhuis. In 1977 werd geopend voor publiek. Het museum bezit een collectie van circa 30.000 kunst- en gebruiksvoorwerpen uit de Romeinse tijd. Het Thermenmuseum sloot in september 2024 haar deuren en Het Romeins Museum zal in 2028 geopend worden.",
+        "url": "https://nl.wikipedia.org/wiki/Thermenmuseum"
+      },
+      {
+        "claim": "Statistics Netherlands contact page: Het CBS heeft vestigingen in Den Haag, Heerlen en Caribisch Nederland (Bonaire).",
+        "url": "https://www.cbs.nl/nl-nl/over-ons/contact"
+      },
+      {
+        "claim": "School holiday regions: regio Zuid = Zeeland, Noord-Brabant, Limburg and the southern part of Gelderland; regio Midden = Utrecht, Zuid-Holland and the northern part of Gelderland; regio Noord = Groningen, Friesland, Drenthe, Overijssel, Flevoland, Noord-Holland.",
+        "url": "https://www.rijksoverheid.nl/themas/onderwijs/schoolvakanties/regios-schoolvakantie"
+      }
+    ],
+    "rejectedClaims": [
+      "Any causal link between the mine closures and the fall in residents since 1995. The sources read do not make it, so neither does the page.",
+      "Any joining of the 1900 and 1930 encyclopaedia figures with the office series from 1995. Different sources and a different area before the 1982 merger with Hoensbroek.",
+      "Any comparison of the encyclopaedia figure of 87,754 with the office figure of 87,764 for 1 January 2026. Two sources that disagree is the Breda argument.",
+      "The architect of the Glaspaleis, which the sources read did not state in a quotable sentence.",
+      "That the statistics bureau has its head office in Heerlen. Its own page lists Heerlen as one of its locations, and the page says only that.",
+      "Any comment on the university student count, which the row did not give as a figure.",
+      "Anything the Maastricht, Sittard-Geleen, Venlo and Limburg pages own, including their figures and arguments."
+    ]
   }
 }

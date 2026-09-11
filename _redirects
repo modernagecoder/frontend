@@ -2350,4 +2350,8 @@
 # International growth cluster (coding-global.css). Must precede the /* catch-all.
 /coding-classes-in-nissewaard /src/pages/coding-classes-in-nissewaard.html 200
 /coding-classes-in-nissewaard.md /src/pages/coding-classes-in-nissewaard.md 200
+
+# International growth cluster (coding-global.css). Must precede the /* catch-all.
+/coding-classes-in-heerlen /src/pages/coding-classes-in-heerlen.html 200
+/coding-classes-in-heerlen.md /src/pages/coding-classes-in-heerlen.md 200
 /* /src/pages/404.html 404
