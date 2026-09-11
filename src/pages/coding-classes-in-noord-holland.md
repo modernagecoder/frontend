@@ -72,7 +72,7 @@ Each region below names its municipalities with their 1 January 2026 population,
 
 ### Gooi en Vechtstreek: the media towns
 
-Hilversum 94,595, the broadcasting town and a page to come; Gooise Meren 61,213, which is Bussum, Naarden and Muiden; Huizen 41,287; Wijdemeren 24,672; Blaricum 12,938; Laren 11,547. The wealthiest corner of the province and the one with the most international families outside Amstelveen.
+[Hilversum](/coding-classes-in-hilversum) 94,595, the broadcasting town, with its own page; Gooise Meren 61,213, which is Bussum, Naarden and Muiden; Huizen 41,287; Wijdemeren 24,672; Blaricum 12,938; Laren 11,547. The wealthiest corner of the province and the one with the most international families outside Amstelveen.
 
 ### Alkmaar and IJmond: the cheese town and the steel coast
 
