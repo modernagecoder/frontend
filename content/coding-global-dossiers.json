@@ -9124,5 +9124,54 @@
       "Any comparison of the encyclopaedia figure of 76,211 with the statistics figure of 76,202. Two sources that disagree is the Breda argument.",
       "Anything the Amsterdam, Alkmaar, Purmerend and Noord-Holland pages own, including their figures and arguments."
     ]
+  },
+  "coding-classes-in-almelo": {
+    "market": "Almelo",
+    "bodyClass": "cg-amo",
+    "pageType": "city",
+    "curriculumAuthority": "Gemeente Almelo, Overijssel: 75,166 residents (statistics, 1 January 2026), 74,776 (2025), 72,729 (2013), 65,019 (1995); 37,644 men and 37,132 women (2025); ages (2026) 10,821 under fifteen, 9,153 fifteen to twenty-five, 18,902 twenty-five to forty-five, 20,300 forty-five to sixty-five, 15,990 sixty-five or over; 33,859 households (2025) averaging 2.15, 12,879 one-person, 11,534 with children; 6,941 hectares, 6,718 land, 223 water, published density 1,113; 34,709 dwellings (2025), 19,090 owner-occupied at 55 percent, 15,619 rented at 45 percent; estimated average value 295,000 euro; income 29,900 euro per resident and 36,000 per recipient (2024); 4.2 percent in poverty; origin (2025) 52,576 Dutch, 6,409 European, 15,791 non-European, 62,520 born in the Netherlands; 3 woonplaatsen, 12 wijken (Binnenstad, Schelfhorst, Sluitersveld, Noorderkwartier, Aadorp, Wierdense Hoek, Hofkamp, Nieuwstraat-Kwartier, Ossenkoppelerhoek, De Riet, Windmolenbroek, Bornerbroek), 71 buurten; 29 primary establishments with 6,490 pupils, 12 secondary with 5,802; 6,964 MBO, 1,730 HBO and 350 WO students at institutions. Encyclopaedia (Almelo): old documents show the settlement had town rights in 1420 at the latest; Huis Almelo probably exists since the twelfth century and is still owned by the Van Rechteren Limpurg family; home weaving rose in the seventeenth and eighteenth centuries; textile firms including H. ten Cate Hzn. and Co.; the Overijssels Kanaal (1855) and the Twentekanaal; Heracles Almelo twice national champion, at the highest level since 2006 except 2022/2023; infobox 75,158 and 69.41 square kilometres, not combined with the statistics. Encyclopaedia (Jacquard loom): invented in 1804 by Joseph-Marie Jacquard; a card selects the hooks that are or are not caught; originally controlled by cards with holes. Regio Noord holidays. The city page teaches patterns as data and run-length encoding.",
+    "localProject": "A pattern is data, and no encoding shrinks every pattern. Almelo grew on weaving, and the Jacquard loom of 1804 read its pattern from cards with holes; a woven row is a grid of over and under, which is a bitmap, and describing it by runs is run-length encoding. A worked table of three ten-thread rows shows a broad stripe needing 2 pairs, a narrow stripe 4, and a checkerboard 10 pairs for 10 cells, larger than the grid because each pair holds a value and a count; the general rule is that a method shrinks the patterns it suits and cannot shrink all, so already-compressed data will not shrink again and lossy steps must be named. The programming form is encoding and compression: icons, fax, game maps, sorted data columns, and model files stored with fewer digits. The defences are looking at what repeats before choosing, round-trip decoding tests, measuring size both ways across varied samples, marking lossy steps, and not compressing twice. Chosen after a case-sensitive check found no page using Jacquard, punch cards, bitmaps, weaving or run-length. The page uses the loom only as an image and says nothing about how Almelo mills worked. Distinct from Schiedam, which concerns a model copied into a smaller model and evaluated against truth, and from Hilversum, which concerns whether a stored format can still be read.",
+    "requiredMentions": [
+      "65,019",
+      "72,729",
+      "33,859",
+      "12,879",
+      "11,534",
+      "34,709",
+      "19,090",
+      "15,619",
+      "6,490",
+      "5,802",
+      "15,990",
+      "Rechteren",
+      "Jacquard",
+      "Bornerbroek"
+    ],
+    "sources": [
+      {
+        "claim": "Gemeente Almelo: 75,166 inwoners (2026), 74,776 (2025), 72,729 (2013), 65,019 (1995); mannen 37,644, vrouwen 37,132 (2025); 33,859 huishoudens, 12,879 eenpersoons (38 percent), 11,534 met kinderen (34 percent), gemiddeld 2.15 (2025); ages 0-15 10,821, 15-25 9,153, 25-45 18,902, 45-65 20,300, 65+ 15,990 (2026); 6,941 hectare, land 6,718, water 223; bevolkingsdichtheid 1,113; woningvoorraad 34,709, koop 19,090 (55 percent), huur 15,619 (45 percent) (2025); gemiddelde WOZ 295,000 euro; gemiddeld inkomen per inwoner 29,900 and per inkomensontvanger 36,000 euro (2024); personen in armoede 4.2 percent; basisonderwijs 29 vestigingen 6,490 leerlingen, voortgezet onderwijs 12 vestigingen 5,802 leerlingen, MBO 6,964, HBO 1,730, WO 350; herkomst Nederland 52,576, Europa 6,409, buiten Europa 15,791, geboren in Nederland 62,520 (2025); 3 woonplaatsen, 12 wijken (Binnenstad, Schelfhorst, Sluitersveld, Noorderkwartier, Aadorp, Wierdense Hoek, Hofkamp, Nieuwstraat-Kwartier, Ossenkoppelerhoek, De Riet, Windmolenbroek, Bornerbroek), 71 buurten.",
+        "url": "https://allecijfers.nl/gemeente/almelo/"
+      },
+      {
+        "claim": "Almelo (encyclopaedia): Uit oude documenten blijkt dat de nederzetting in ieder geval in 1420 al stadsrechten had. In de 17e en 18e eeuw kwam de huisweverij steeds meer op. H. ten Cate Hzn. en Co. among the textile firms. Huis Almelo bestaat waarschijnlijk al sinds de 12e eeuw en is tot op de dag van vandaag in handen van de familie Van Rechteren Limpurg. Het Twentekanaal en het Overijssels Kanaal (in 1855). Heracles Almelo: de club werd tweemaal landskampioen en speelt sinds 2006 met uitzondering van het seizoen 2022/2023 op het hoogste niveau in Nederland. Infobox: 75.158 inwoners, 69,41 km2.",
+        "url": "https://nl.wikipedia.org/wiki/Almelo"
+      },
+      {
+        "claim": "Jacquardweefgetouw (encyclopaedia): Dit apparaat werd in 1804 uitgevonden door Joseph-Marie Jacquard. Door een kaart worden de platines geselecteerd en wel of niet achter het mes gehaakt. Oorspronkelijk werden de machines via kaarten met gaatjes bestuurd.",
+        "url": "https://nl.wikipedia.org/wiki/Jacquardweefgetouw"
+      },
+      {
+        "claim": "School holiday regions: regio Noord = Groningen, Friesland, Drenthe, Overijssel, Flevoland and Noord-Holland; regio Midden = Utrecht, Zuid-Holland and the northern part of Gelderland; regio Zuid = Zeeland, Noord-Brabant, Limburg and the southern part of Gelderland.",
+        "url": "https://www.rijksoverheid.nl/themas/onderwijs/schoolvakanties/regios-schoolvakantie"
+      }
+    ],
+    "rejectedClaims": [
+      "That Jacquard looms were used in Almelo, or how any Almelo mill wove. The sources read do not say.",
+      "Any claim that the Jacquard cards led directly to computers. The loom entry read does not make that link, so the page states only how the loom was controlled.",
+      "Employee numbers for any textile firm. The figure in the source was not clearly labelled.",
+      "The years of Heracles Almelo's two championships. Not in the sentence read.",
+      "Any comparison of the encyclopaedia figure of 75,158 with the statistics figure of 75,166. Two sources that disagree is the Breda argument.",
+      "Anything the Hengelo, Enschede, Deventer, Zwolle and Overijssel pages own, including their figures and arguments."
+    ]
   }
 }
