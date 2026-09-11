@@ -92,9 +92,9 @@ Oss 95,549, a page to come; Land van Cuijk 93,645; Maashorst 60,059; Bernheze 32
 
 ### The Markiezaat and the west
 
-[Roosendaal](/coding-classes-in-roosendaal) 78,165, with its own page; Bergen op Zoom 70,691; Moerdijk 38,467; Halderberge 31,484; Steenbergen 24,596; Woensdrecht 22,301. The marquisate on the Scheldt, the port at Moerdijk and the polders towards Zeeland.
+[Roosendaal](/coding-classes-in-roosendaal) 78,165, with its own page; [Bergen op Zoom](/coding-classes-in-bergen-op-zoom) 70,691, with its own page; Moerdijk 38,467; Halderberge 31,484; Steenbergen 24,596; Woensdrecht 22,301. The marquisate on the Scheldt, the port at Moerdijk and the polders towards Zeeland.
 
-Fifty-six, every one of them above. Eindhoven, Tilburg, Breda, 's-Hertogenbosch, Helmond, Oss, Meierijstad and Roosendaal have pages that go close, and Bergen op Zoom will follow. This page keeps the whole province in one frame, Boekel and Baarle included.
+Fifty-six, every one of them above. Eindhoven, Tilburg, Breda, 's-Hertogenbosch, Helmond, Oss, Meierijstad, Roosendaal and Bergen op Zoom have pages that go close. This page keeps the whole province in one frame, Boekel and Baarle included.
 
 ## Where every figure on this page comes from, and where two sources differ by two people
 
@@ -233,7 +233,7 @@ Because Baarle-Nassau, with 22 pieces of Belgium inside it and seven pieces of t
 
 ### Which Noord-Brabant towns get their own page, and which are covered here?
 
-Eindhoven, Tilburg, Breda, 's-Hertogenbosch, Helmond, Oss, Meierijstad and Roosendaal have pages already. Bergen op Zoom follows in this series. The other 47, from Boxtel and Vught to Boekel and Baarle-Nassau, are listed above with their populations and served from this page.
+Eindhoven, Tilburg, Breda, 's-Hertogenbosch, Helmond, Oss, Meierijstad, Roosendaal and Bergen op Zoom have pages already. The other 47, from Boxtel and Vught to Boekel and Baarle-Nassau, are listed above with their populations and served from this page.
 
 ### Is Den Bosch or Eindhoven the capital?
 
@@ -269,7 +269,7 @@ Between five and ten, matched on level, pace and goal rather than on age, school
 
 ## East to Brainport, south to Limburg, and up to the country
 
-The province's largest city already has its page: [Eindhoven](/coding-classes-in-eindhoven), with the Brainport ratio chain. East along the A67 is [Limburg](/coding-classes-in-limburg), with the hill that stopped being the highest point in the country. Both sit under the [Netherlands coding hub](/coding-classes-in-netherlands), and a learner who wants a model that learns rather than a program that runs should look at [AI and machine learning classes in the Netherlands](/ai-and-machine-learning-classes-in-netherlands) or the [AI and Python Academy](/ai-and-python-academy-netherlands). [Tilburg](/coding-classes-in-tilburg) has its page; [Breda](/coding-classes-in-breda) too; so do [Den Bosch](/coding-classes-in-den-bosch) and [Helmond](/coding-classes-in-helmond); and so do [Oss](/coding-classes-in-oss), [Meierijstad](/coding-classes-in-meierijstad) and [Roosendaal](/coding-classes-in-roosendaal). Bergen op Zoom follows.
+The province's largest city already has its page: [Eindhoven](/coding-classes-in-eindhoven), with the Brainport ratio chain. East along the A67 is [Limburg](/coding-classes-in-limburg), with the hill that stopped being the highest point in the country. Both sit under the [Netherlands coding hub](/coding-classes-in-netherlands), and a learner who wants a model that learns rather than a program that runs should look at [AI and machine learning classes in the Netherlands](/ai-and-machine-learning-classes-in-netherlands) or the [AI and Python Academy](/ai-and-python-academy-netherlands). [Tilburg](/coding-classes-in-tilburg) has its page; [Breda](/coding-classes-in-breda) too; so do [Den Bosch](/coding-classes-in-den-bosch) and [Helmond](/coding-classes-in-helmond); and so do [Oss](/coding-classes-in-oss), [Meierijstad](/coding-classes-in-meierijstad) and [Roosendaal](/coding-classes-in-roosendaal), and so does [Bergen op Zoom](/coding-classes-in-bergen-op-zoom).
 
 ## Contact
 

@@ -2402,4 +2402,8 @@
 # International growth cluster (coding-global.css). Must precede the /* catch-all.
 /coding-classes-in-assen /src/pages/coding-classes-in-assen.html 200
 /coding-classes-in-assen.md /src/pages/coding-classes-in-assen.md 200
+
+# International growth cluster (coding-global.css). Must precede the /* catch-all.
+/coding-classes-in-bergen-op-zoom /src/pages/coding-classes-in-bergen-op-zoom.html 200
+/coding-classes-in-bergen-op-zoom.md /src/pages/coding-classes-in-bergen-op-zoom.md 200
 /* /src/pages/404.html 404

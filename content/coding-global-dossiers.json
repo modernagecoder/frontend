@@ -9262,5 +9262,51 @@
       "Any comparison of the encyclopaedia figure of 70,765 with the statistics figure of 70,769. Two sources that disagree is the Breda argument.",
       "Anything the Emmen, Drenthe, Groningen and Zwolle pages own, including their figures and arguments."
     ]
+  },
+  "coding-classes-in-bergen-op-zoom": {
+    "market": "Bergen op Zoom",
+    "bodyClass": "cg-boz",
+    "pageType": "city",
+    "curriculumAuthority": "Gemeente Bergen op Zoom, Noord-Brabant: 70,691 residents (statistics, 1 January 2026), 70,194 (2025), 66,287 (2013), 61,072 (1995); 34,971 men and 35,223 women (2025); ages (2026) 10,321 under fifteen, 7,530 fifteen to twenty-five, 17,107 twenty-five to forty-five, 19,183 forty-five to sixty-five, 16,551 sixty-five or over, summing to 70,692 against a published total of 70,691; 32,116 households (2025) averaging 2.14, 11,653 one-person, 10,258 with children; 9,313 hectares, 7,997 land, 1,316 water, published density 878; 32,056 dwellings (2025), 19,234 owner-occupied at 60 percent, 12,822 rented at 40 percent; estimated average value 333,000 euro; income 33,700 euro per resident and 40,600 per recipient (2024); 3.4 percent in poverty; origin (2025) 49,176 Dutch, 6,839 European, 14,179 non-European, 58,731 born in the Netherlands; 3 woonplaatsen, 6 wijken (including Bergen op Zoom-Noord, Halsteren, Lepelstraat), 38 buurten; 29 primary establishments with 6,003 pupils, 9 secondary with 5,841, 2,143 MBO students at institutions. Encyclopaedia: town rights between 1198 and 1212; the siege of 1588 was beaten off; in 1622 the Spanish under Spinola besieged the town again; known as La Pucelle (the Maiden) because no enemy power had ever conquered it; in the siege of 1747, during the War of the Austrian Succession, the French took the town; the Markiezenhof, a Brabant Gothic city palace, residence of the lords and later marquises; the Lievevrouwepoort or Gevangenpoort, a remnant of the mid-fourteenth-century town wall; the Sint-Gertrudiskerk, heavily damaged by fire in 1972, its tower over the Grote Markt; Halsteren with Lepelstraat part of the municipality since 1997; town infobox 54,440 (2023) and 65.52 square kilometres, not compared with the municipal row. Regio Zuid holidays. The city page teaches that tests show the presence of bugs, never their absence.",
+    "localProject": "A clean record describes the attacks that were tried. Bergen op Zoom beat off the siege of 1588, was besieged again in 1622, was called La Pucelle because no enemy power had ever taken it, and was taken by the French in 1747. The programming form is testing: a passing suite shows the cases someone wrote down work and says nothing about the untried case (Dijkstra: testing shows the presence of bugs, never their absence); never having been hacked is not security; a strong test-set score is not robustness to rare or adversarial input; AI-written tests that the code passes prove only agreement. The page carries a real check of its own: the five published age groups sum to 70,692 against a published total of 70,691, and both are reported unchanged. The defences are naming what each pass covers, writing tests aimed at weak points, generated inputs with properties that must hold, keeping every found failure as a permanent test, and adding up totals that are supposed to agree. Chosen after a case-sensitive check found no page using Dijkstra, absence of bugs or track record. Distinct from Woensel-Zuid, where a check cannot see an error that leaves it unchanged, since here the checks are sound but incomplete; from Overijssel, which concerns per-year probabilities over a horizon; and from Segbroek, which checks values against a published ceiling.",
+    "requiredMentions": [
+      "61,072",
+      "66,287",
+      "32,116",
+      "11,653",
+      "10,258",
+      "32,056",
+      "19,234",
+      "16,551",
+      "70,692",
+      "Markiezenhof",
+      "Gevangenpoort",
+      "Pucelle",
+      "Halsteren",
+      "Lepelstraat"
+    ],
+    "sources": [
+      {
+        "claim": "Gemeente Bergen op Zoom: 70,691 inwoners (2026), 70,194 (2025), 66,287 (2013), 61,072 (1995); mannen 34,971, vrouwen 35,223 (2025); 32,116 huishoudens, 11,653 eenpersoons (36 percent), 10,258 met kinderen (32 percent), gemiddeld 2.14; ages 0-15 10,321, 15-25 7,530, 25-45 17,107, 45-65 19,183, 65+ 16,551 (2026); 9,313 hectare, land 7,997, water 1,316; bevolkingsdichtheid 878; woningvoorraad 32,056, koop 19,234 (60 percent), huur 12,822 (40 percent) (2025); gemiddelde WOZ 333,000 euro; gemiddeld inkomen per inwoner 33,700 and per inkomensontvanger 40,600 euro (2024); personen in armoede 3.4 percent; basisonderwijs 29 vestigingen 6,003 leerlingen, voortgezet onderwijs 9 vestigingen 5,841 leerlingen, MBO 2,143; geboren in Nederland 58,731, herkomst Nederland 49,176, Europa 6,839, buiten Europa 14,179 (2025); 3 woonplaatsen, 6 wijken (including Bergen op Zoom-Noord, Halsteren, Lepelstraat), 38 buurten.",
+        "url": "https://allecijfers.nl/gemeente/bergen-op-zoom/"
+      },
+      {
+        "claim": "Bergen op Zoom (encyclopaedia): Tussen 1198 en 1212 kreeg Bergen op Zoom stadsrechten. Beleg van Bergen op Zoom (1588); dit beleg werd uiteindelijk afgeslagen. Inderdaad belegerden de Spanjaarden, nu onder leiding van Spinola, in 1622 de stad opnieuw. Maar tijdens de Oostenrijkse Successieoorlog lukte het de Fransen, bij het Beleg van Bergen op Zoom van 1747, om de stad in te nemen. Omdat de stad nog nooit veroverd was door een vijandelijke mogendheid stond Bergen op Zoom bekend als La Pucelle (de Maagd). Het Markiezenhof is een Brabants Gotisch stadspaleis en was residentie van de Heren en later de Markiezen van Bergen op Zoom. De Lievevrouwepoort of Gevangenpoort, een overblijfsel van de stadsomwalling uit het midden van de 14e eeuw. De Sint-Gertrudiskerk, die in 1972 bij een brand zware schade leed en waarvan de toren uitziet over de Grote Markt. Ten noorden ligt het dorp Halsteren met Lepelstraat dat sinds 1997 onder de gemeente Bergen op Zoom valt. Infobox: 65,52 km2, 54.440 inwoners (2023-01-01).",
+        "url": "https://nl.wikipedia.org/wiki/Bergen_op_Zoom"
+      },
+      {
+        "claim": "School holiday regions: regio Zuid = Zeeland, Noord-Brabant, Limburg and the southern part of Gelderland; regio Midden = Utrecht, Zuid-Holland and the northern part of Gelderland; regio Noord = Groningen, Friesland, Drenthe, Overijssel, Flevoland, Noord-Holland.",
+        "url": "https://www.rijksoverheid.nl/themas/onderwijs/schoolvakanties/regios-schoolvakantie"
+      }
+    ],
+    "rejectedClaims": [
+      "Why the town fell in 1747, or how its fortifications were designed. Not in the sentences read.",
+      "The outcome of the 1622 siege beyond the town remaining unconquered until 1747.",
+      "Any adjustment of the published age groups or total to make them agree. Both are reported as published.",
+      "Higher-education student counts. The row read gave identical HBO and WO figures that look unreliable, so neither is used.",
+      "Any comparison of the town infobox figure of 54,440 with the municipal count. Town against municipality is the Zeeland argument.",
+      "The local name of the church tower, which another page in the series uses for a different tower.",
+      "Anything the Roosendaal, Breda, Noord-Brabant and Zeeland pages own, including their figures and arguments."
+    ]
   }
 }
