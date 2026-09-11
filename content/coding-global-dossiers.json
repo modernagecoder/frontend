@@ -9308,5 +9308,54 @@
       "The local name of the church tower, which another page in the series uses for a different tower.",
       "Anything the Roosendaal, Breda, Noord-Brabant and Zeeland pages own, including their figures and arguments."
     ]
+  },
+  "coding-classes-in-velsen": {
+    "market": "Velsen",
+    "bodyClass": "cg-vls",
+    "pageType": "city",
+    "curriculumAuthority": "Gemeente Velsen, Noord-Holland: 70,361 residents (statistics, 1 January 2026), 70,026 (2025), 67,122 (2013), 64,490 (1995), growth given by the site as 5,871 or 9.1 percent; 34,860 men and 35,166 women (2025); ages (2026) 10,509 under fifteen, 7,522 fifteen to twenty-five, 17,178 twenty-five to forty-five, 19,516 forty-five to sixty-five, 15,636 sixty-five or over; 32,250 households (2025) averaging 2.14, 12,125 one-person, 20,125 multi-person, 11,124 with children; 6,317 hectares, 4,503 land, 1,814 water, published density 1,555; 32,231 dwellings (2025), 18,372 owner-occupied at 57 percent, 13,859 rented at 43 percent, 31,264 occupied and 967 unoccupied; estimated average value 408,000 euro; income 35,300 euro per resident and 42,400 per recipient (2024); 2.8 percent in poverty; origin (2025) 53,353 Dutch, 6,023 European, 10,650 non-European, 60,693 born in the Netherlands; 7 woonplaatsen, 11 wijken, 64 buurten; 23 primary establishments with 5,343 pupils, 11 secondary with 3,930, 253 MBO students at institutions. Encyclopaedia (Velsen): kernen Driehuis, IJmuiden (town hall), Santpoort-Noord, Santpoort-Zuid, Velsen-Noord, Velsen-Zuid, Velserbroek; the North Sea Canal dug in the 1870s for the port of Amsterdam; IJmuiden grew along the canal from the end of the nineteenth century as a fishing and harbour town; a site of the steel producer Tata Steel; its own population and area figures, not combined with the statistics. Encyclopaedia (IJmuiden locks): Zuidersluis 1876, Middensluis 1896, Noordersluis 1929; the sea lock opened by the King on 26 January 2022, 500 metres long, 70 wide, 18 deep, larger in surface than the Kieldrechtsluis; as ships grew the existing lock became a bottleneck for shipping to the port of Amsterdam. Regio Noord holidays. The city page teaches bottlenecks.",
+    "localProject": "A chain moves only as fast as its narrowest part. The IJmuiden locks were built in 1876, 1896, 1929 and 2022, and the encyclopaedia says the existing lock became a bottleneck as ships grew, so each new lock moved the limit until ships grew into the next. An invented page-load table (50 ms code, 400 ms database, 50 ms network) shows doubling the code speed saves 5 percent and doubling the database saves 40 percent, because a step can save at most the time it takes, and once widened the bottleneck moves. The programming form covers slow web pages, stuttering games, AI training where processors wait for data, and AI workflows where the time sits inside model calls. The defences are measuring every step before changing anything, working only on the largest step, re-measuring after each fix, knowing a step's ceiling, and asking which step will limit growth. Chosen after a case-sensitive check found no page using bottleneck or Amdahl. The page says nothing about how the locks are managed today. Distinct from Rotterdam, which reports port throughput in two units, from Lelystad, which concerns single points of failure, and from Gouda, which concerns failures hidden at pipeline joints.",
+    "requiredMentions": [
+      "64,490",
+      "67,122",
+      "32,250",
+      "12,125",
+      "11,124",
+      "32,231",
+      "18,372",
+      "13,859",
+      "5,343",
+      "3,930",
+      "15,636",
+      "Noordersluis",
+      "Kieldrechtsluis",
+      "Velserbroek"
+    ],
+    "sources": [
+      {
+        "claim": "Gemeente Velsen: 70,361 inwoners (2026), 70,026 (2025), 67,122 (2013), 64,490 (1995), growth 5,871 (9.1 percent); mannen 34,860, vrouwen 35,166 (2025); ages 0-15 10,509, 15-25 7,522, 25-45 17,178, 45-65 19,516, 65+ 15,636 (2026); 32,250 huishoudens, 12,125 eenpersoons, 20,125 meerpersoons, 11,124 met kinderen, gemiddeld 2.14 (2025); 6,317 hectare, land 4,503, water 1,814; bevolkingsdichtheid 1,555; woningvoorraad 32,231, koop 18,372 (57 percent), huur 13,859 (43 percent), bewoond 31,264, onbewoond 967 (2025); gemiddelde WOZ 408,000 euro; gemiddeld inkomen per inwoner 35,300 and per inkomensontvanger 42,400 euro (2024); personen in armoede 2.8 percent; basisonderwijs 23 vestigingen 5,343 leerlingen, voortgezet onderwijs 11 vestigingen 3,930 leerlingen, MBO 253 (2025); herkomst Nederland 53,353, Europa 6,023, buiten Europa 10,650, geboren in Nederland 60,693 (2025); 7 woonplaatsen, 11 wijken, 64 buurten.",
+        "url": "https://allecijfers.nl/gemeente/velsen/"
+      },
+      {
+        "claim": "Velsen (encyclopaedia): kernen Driehuis, IJmuiden (stadhuis), Santpoort-Noord, Santpoort-Zuid, Velsen-Noord, Velsen-Zuid, Velserbroek. Het Noordzeekanaal werd in de jaren zeventig van de 19e eeuw gegraven ten behoeve van de Haven van Amsterdam. Langs het kanaal ontstond vanaf het eind van de 19e eeuw IJmuiden als vissers- en havenstad. Velsen kent een vestiging van staalproducent Tata Steel.",
+        "url": "https://nl.wikipedia.org/wiki/Velsen"
+      },
+      {
+        "claim": "Sluizen van IJmuiden (encyclopaedia): Zuidersluis uit 1876; Middensluis uit 1896; Noordersluis uit 1929. Op 26 januari 2022 is de zeesluis officieel geopend door de Koning. Lengte 500 m, breedte 70 m, diepte 18 m. De zeesluis zou hiermee qua oppervlak groter worden dan de Kieldrechtsluis. Door de toename van de afmetingen van de schepen werd deze sluis een knelpunt voor de scheepvaart naar de Haven van Amsterdam.",
+        "url": "https://nl.wikipedia.org/wiki/Zeesluis_IJmuiden"
+      },
+      {
+        "claim": "School holiday regions: regio Noord = Groningen, Friesland, Drenthe, Overijssel, Flevoland and Noord-Holland; regio Midden = Utrecht, Zuid-Holland and the northern part of Gelderland; regio Zuid = Zeeland, Noord-Brabant, Limburg and the southern part of Gelderland.",
+        "url": "https://www.rijksoverheid.nl/themas/onderwijs/schoolvakanties/regios-schoolvakantie"
+      }
+    ],
+    "rejectedClaims": [
+      "That the sea lock is the largest in the world. The source says it is larger in surface than the Kieldrechtsluis, and the page says only that.",
+      "Ship sizes, traffic volumes or waiting times at the locks. Not in the sentences read.",
+      "Any comparison of the statistics area of 6,317 hectares with the encyclopaedia area of 52.87 square kilometres. Different sources and different definitions of water.",
+      "The Dudok town hall in IJmuiden. Dudok belongs to the Hilversum page.",
+      "Any comment on the absence of higher-education students in the row. Reading the next column is the Westland argument.",
+      "Anything the Amsterdam, Haarlem, Zaanstad and Noord-Holland pages own, including their figures and arguments."
+    ]
   }
 }
