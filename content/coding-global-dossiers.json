@@ -9406,5 +9406,50 @@
       "Any comparison of the encyclopaedia figure of 69,644 with the statistics figure of 69,698. Two sources that disagree is the Breda argument.",
       "Anything the Rotterdam, Prins Alexander, IJsselmonde and Zuid-Holland pages own, including their figures and arguments."
     ]
+  },
+  "coding-classes-in-wassenaar": {
+    "market": "Wassenaar",
+    "bodyClass": "cg-wsr",
+    "pageType": "city",
+    "curriculumAuthority": "Gemeente Wassenaar, Zuid-Holland: 27,975 residents (statistics, 1 January 2026), 27,525 (2025), 25,656 (2013), 25,830 (1995); 13,376 men and 14,149 women (2025); ages (2026) 4,139 under fifteen, 3,413 fifteen to twenty-five, 5,243 twenty-five to forty-five, 7,986 forty-five to sixty-five, 7,194 sixty-five or over; 12,111 households (2025) averaging 2.2, 4,169 with children; 6,240 hectares, 5,118 land, 1,123 water, published density 538; 12,461 dwellings (2025), 7,227 owner-occupied at 58 percent, 5,234 rented at 42 percent; estimated average value 745,000 euro; income 53,700 euro per resident and 69,100 per recipient (2024); 3.7 percent in poverty; origin (2025) 16,330 Dutch, 4,454 European, 6,741 non-European, 19,862 born in the Netherlands; 1 woonplaats, 2 wijken, 22 buurten; 8 primary and 2 secondary establishments; no MBO, HBO or WO institutions recorded. Encyclopaedia: a village core surrounded by woodland with villas and country houses, many of them old buitenplaatsen for well-to-do townspeople, housing wealthy residents, companies and consulates; the Duinrell estate in use as a theme park; De Paauw as town hall; the high dunes west of the church formed later; remnants of the Atlantikwall at the Wassenaarse Slag; the American School of The Hague among the secondary schools; the hamlet Maaldrift, the buurtschappen Rijksdorp and Den Deijl, and the wijken Nieuw Wassenaar, Oud Wassenaar, De Kieviet and Kerkehout; 27,975 residents on 1 January 2026 and 62.50 square kilometres; among the more prosperous areas of the Netherlands. Regio Midden holidays. The city page teaches queueing and the waiting-time curve.",
+    "localProject": "Waiting explodes near full use. The Duinrell estate in Wassenaar is a theme park, used as an image for queueing: in the standard single-server model with random arrivals and service, and a one-minute average loading time, the average wait before boarding is 1 minute at 50 percent busy, 4 at 80, 9 at 90, 19 at 95 and 99 at 99 percent, because the wait equals service time times the busy share divided by the idle share; Little's law gives about sixty groups in line when two arrive a minute and each waits half an hour. The programming form covers web servers, databases, AI services, help desks and any system people queue for. The defences are planning normal load well below full, measuring the slowest waits rather than only the average, adding capacity before the cliff, limiting concurrent work, and telling people honest waiting times. The page says nothing about queues or visitors at Duinrell, and draws no argument from the high average income, which would be the Groningen mean-versus-typical argument. Chosen after a case-sensitive check found no page using utilisation, M/M/1 or Little's law. Distinct from Velsen, where the slowest stage caps throughput, from Capelle, where a breaker cuts off a failing service, and from Prins Alexander, where a queue sampled at one moment misleads.",
+    "requiredMentions": [
+      "25,830",
+      "25,656",
+      "12,111",
+      "4,169",
+      "12,461",
+      "7,227",
+      "5,234",
+      "7,194",
+      "Duinrell",
+      "Atlantikwall",
+      "Maaldrift",
+      "Kerkehout",
+      "De Kieviet",
+      "De Paauw"
+    ],
+    "sources": [
+      {
+        "claim": "Gemeente Wassenaar: 27,975 inwoners (2026), 27,525 (2025), 25,656 (2013), 25,830 (1995); mannen 13,376, vrouwen 14,149 (2025); 12,111 huishoudens, 4,169 met kinderen, gemiddeld 2.2 (2025); ages 0-15 4,139, 15-25 3,413, 25-45 5,243, 45-65 7,986, 65+ 7,194 (2026); 6,240 hectare, land 5,118, water 1,123; bevolkingsdichtheid 538; woningvoorraad 12,461, koop 7,227 (58 percent), huur 5,234 (42 percent) (2025); gemiddelde WOZ 745,000 euro; gemiddeld inkomen per inwoner 53,700 and per inkomensontvanger 69,100 euro (2024); personen in armoede 3.7 percent; basisonderwijs 8 vestigingen, voortgezet onderwijs 2 vestigingen; MBO, HBO, WO 0; geboren in Nederland 19,862, herkomst Nederland 16,330, Europa 4,454, buiten Europa 6,741 (2025); 1 woonplaats, 2 wijken, 22 buurten.",
+        "url": "https://allecijfers.nl/gemeente/wassenaar/"
+      },
+      {
+        "claim": "Wassenaar (encyclopaedia): Wassenaar bestaat uit een dorpskern met daaromheen een bosrijke omgeving met villa's en landhuizen. Vele hiervan zijn vanouds buitenplaatsen, zomerverblijven voor welgestelde stedelingen. Behalve aan vermogende bewoners bieden deze onderdak aan bedrijven en consulaten. Het landgoed Duinrell is in gebruik als pretpark. De hoge duinen ten westen van de kerk zijn pas later ontstaan. Aan De Wassenaarse Slag liggen in het natuurgebied restanten van de Atlantikwall. American School of The Hague listed under secondary education. De Paauw as gemeentehuis. Binnen de gemeente Wassenaar liggen naast het gelijknamige dorp het gehucht Maaldrift, de buurtschappen Rijksdorp en Den Deijl en de wijken Nieuw Wassenaar, Oud Wassenaar, De Kieviet en Kerkehout. De gemeente telt 27.975 inwoners (1 januari 2026) en heeft een oppervlakte van 62,50 km2. Wassenaar behoort tot de welvarendere gebieden in Nederland.",
+        "url": "https://nl.wikipedia.org/wiki/Wassenaar_(gemeente)"
+      },
+      {
+        "claim": "School holiday regions: regio Midden = Utrecht, Zuid-Holland and the northern part of Gelderland; regio Noord = Groningen, Friesland, Drenthe, Overijssel, Flevoland, Noord-Holland; regio Zuid = Zeeland, Noord-Brabant, Limburg and the southern part of Gelderland.",
+        "url": "https://www.rijksoverheid.nl/themas/onderwijs/schoolvakanties/regios-schoolvakantie"
+      }
+    ],
+    "rejectedClaims": [
+      "Any queue lengths, waiting times or visitor numbers at Duinrell. The theme park is an image only.",
+      "Any argument that the average income misrepresents a typical resident. Mean versus typical is the Groningen argument.",
+      "Any comparison of pupil counts with residents of school age. Pupils at located schools against resident pupils is the Utrecht argument.",
+      "Any comparison of the statistics area of 6,240 hectares with the encyclopaedia area of 62.50 square kilometres.",
+      "Names or numbers of embassies and consulates. The source says only that villas house consulates.",
+      "Anything The Hague, Scheveningen, Leiden and Zuid-Holland pages own, including their figures and arguments."
+    ]
   }
 }
