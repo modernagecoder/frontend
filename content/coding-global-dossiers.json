@@ -9218,5 +9218,49 @@
       "Names of cigar or textile firms. Not in the sentences read.",
       "Anything the Utrecht, Amersfoort, Ede and Utrecht province pages own, including their figures and arguments."
     ]
+  },
+  "coding-classes-in-assen": {
+    "market": "Assen",
+    "bodyClass": "cg-asn",
+    "pageType": "city",
+    "curriculumAuthority": "Gemeente Assen, Drenthe: 70,769 residents (statistics, 1 January 2026), 70,392 (2025), 67,204 (2013), 52,849 (1995), growth given by the site as 34 percent; 35,005 men and 35,387 women (2025); ages (2026) 10,233 under fifteen, 8,664 fifteen to twenty-five, 17,085 twenty-five to forty-five, 18,913 forty-five to sixty-five, 15,874 sixty-five or over; 32,767 households (2025) averaging 2.07, 13,339 one-person, 19,428 multi-person, 10,215 with children; 8,345 hectares, 8,188 land, 157 water, published density 860; 33,401 dwellings (2025), 19,707 owner-occupied at 59 percent, 13,694 rented at 41 percent; estimated average value 294,000 euro; income 32,400 euro per resident and 38,900 per recipient (2024); 2.7 percent in poverty; origin (2025) 56,126 Dutch, 3,800 European, 10,466 non-European, 62,277 born in the Netherlands and 8,115 abroad; 7 woonplaatsen, 10 wijken (Centrum, Lariks, Noorderpark, Pittelo, Assen-Oost, Assen-West, Peelo, Marsdijk, Kloosterveen, Buitengebied), 109 buurten; 33 primary establishments with 6,171 pupils, 10 secondary with 5,454; 3,067 MBO, 254 HBO and 480 WO students at institutions. Encyclopaedia: in 1259 the convent Maria in Campis or Marienkamp was moved from Coevorden to a sand ridge where the centre of Assen now lies; an independent municipality in 1807 and a town in 1809 under Louis Napoleon; capital of Drenthe in 1814; the annual motorcycle race on the TT circuit since 1925; the Drents Museum on the Brink in the former Gouvernementsgebouw; residential districts including Kloosterveen, Pittelo, Marsdijk, Assen-Oost and Lariks; infobox 70,765 on 1 January 2026 and 83.45 square kilometres, not combined with the statistics. Regio Noord holidays. The city page teaches race conditions.",
+    "localProject": "Make the collision impossible, not unlikely. Assen has hosted a motorcycle race every year since 1925; the page uses the race only as an image for race conditions, bugs in which the outcome depends on which of two simultaneous actions happens first. A step table follows two parts of a program each adding one to a counter at ten: both read 10, both write 11, and one update is lost without error; the fixed row makes read, add and write indivisible and reaches 12. The programming form covers double bookings of a last seat, shared documents that keep only the last save, payments both allowed against one balance, visit counters that undercount, and teams of AI agents or parallel automations that overwrite each other's work. The defences are atomic operations and transactions, uniqueness and limits enforced in the storage, merging changes rather than overwriting files, giving each worker or agent its own records, and testing under simultaneous load. Chosen after a case-sensitive check found no page using race condition, concurrency, mutex or atomic. The page describes no real ticketing or timing system at the circuit. Distinct from Lelystad, which concerns single points of failure, and from Gouda, which concerns failures hidden at the joints of a sequential pipeline.",
+    "requiredMentions": [
+      "52,849",
+      "67,204",
+      "32,767",
+      "13,339",
+      "10,215",
+      "33,401",
+      "19,707",
+      "13,694",
+      "6,171",
+      "5,454",
+      "15,874",
+      "Maria in Campis",
+      "Gouvernementsgebouw",
+      "Kloosterveen"
+    ],
+    "sources": [
+      {
+        "claim": "Gemeente Assen: 70,769 inwoners (2026), 70,392 (2025), 67,204 (2013), 52,849 (1995), growth 34 percent; mannen 35,005, vrouwen 35,387 (2025); 32,767 huishoudens, 13,339 eenpersoons, 19,428 meerpersoons, 10,215 met kinderen, gemiddeld 2.07 (2025); ages 0-15 10,233, 15-25 8,664, 25-45 17,085, 45-65 18,913, 65+ 15,874 (2026); 8,345 hectare, land 8,188, water 157; bevolkingsdichtheid 860; woningvoorraad 33,401, koop 19,707 (59 percent), huur 13,694 (41 percent) (2025); gemiddelde WOZ 294,000 euro; gemiddeld inkomen per inwoner 32,400 and per inkomensontvanger 38,900 euro (2024); personen in armoede 2.7 percent; basisonderwijs 33 vestigingen 6,171 leerlingen, voortgezet onderwijs 10 vestigingen 5,454 leerlingen, MBO 3,067, HBO 254, WO 480; geboren in Nederland 62,277, buiten Nederland 8,115, herkomst Nederland 56,126, Europa 3,800, buiten Europa 10,466 (2025); 7 woonplaatsen, 10 wijken (Centrum, Lariks, Noorderpark, Pittelo, Assen-Oost, Assen-West, Peelo, Marsdijk, Kloosterveen, Buitengebied), 109 buurten.",
+        "url": "https://allecijfers.nl/gemeente/assen/"
+      },
+      {
+        "claim": "Assen (encyclopaedia): In 1259 werd het nonnenklooster Maria in Campis of Marienkamp verplaatst van Coevorden naar een dekzandrug op de plek waar nu het centrum van Assen ligt. Werd het in 1807 een zelfstandige gemeente en in 1809 een stad (Louis Napoleon). In 1814 werd Assen hoofdstad van Drenthe. De sinds 1925 jaarlijkse motorrace op het TT-Circuit Assen. Drents Museum op de Brink, in het voormalige Gouvernementsgebouw. Residential districts including Kloosterveen, Pittelo, Marsdijk, Assen-Oost, Lariks. Infobox: 70.765 inwoners (1 januari 2026), 83,45 km2.",
+        "url": "https://nl.wikipedia.org/wiki/Assen"
+      },
+      {
+        "claim": "School holiday regions: regio Noord = Groningen, Friesland, Drenthe, Overijssel, Flevoland and Noord-Holland; regio Midden = Utrecht, Zuid-Holland and the northern part of Gelderland; regio Zuid = Zeeland, Noord-Brabant, Limburg and the southern part of Gelderland.",
+        "url": "https://www.rijksoverheid.nl/themas/onderwijs/schoolvakanties/regios-schoolvakantie"
+      }
+    ],
+    "rejectedClaims": [
+      "Visitor numbers, circuit length or any detail of the TT beyond the annual race since 1925. Not in the sentences read.",
+      "Any claim about ticketing, timing or booking systems at the circuit. The race is an image only.",
+      "The bog bodies or other collections of the Drents Museum. Not in the sources read for this page.",
+      "Any comparison of the encyclopaedia figure of 70,765 with the statistics figure of 70,769. Two sources that disagree is the Breda argument.",
+      "Anything the Emmen, Drenthe, Groningen and Zwolle pages own, including their figures and arguments."
+    ]
   }
 }

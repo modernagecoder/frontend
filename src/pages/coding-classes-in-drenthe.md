@@ -68,7 +68,7 @@ Coevorden 35,729, the old fortress town; Borger-Odoorn 26,162, with D27 and the 
 
 ### Assen
 
-Assen 70,769, the capital, the TT circuit, the provincial museum with the bog bodies, and a page to come.
+[Assen](/coding-classes-in-assen) 70,769, the capital, the TT circuit, the provincial museum with the bog bodies, and a page of its own.
 
 ### The north
 
@@ -82,7 +82,7 @@ Hoogeveen 56,781, the third town and a page to come; Meppel 36,616, the canal to
 
 Midden-Drenthe 34,402, which is Beilen and the villages around it; De Wolden 24,819; Westerveld 20,035, the smallest, holding Diever, Dwingeloo and the radio telescopes on the heath.
 
-Twelve, and every one is above. Emmen already has a page of its own and Assen and Hoogeveen will follow; this one keeps the whole province, radio telescopes and stone tombs included, in one view.
+Twelve, and every one is above. Emmen and Assen already have pages of their own and Hoogeveen will follow; this one keeps the whole province, radio telescopes and stone tombs included, in one view.
 
 ## The offices behind every number, and the one figure that is honestly a range
 
@@ -222,7 +222,7 @@ Between 5,075 and 5,375 years in 2026. The Dutch entry on them gives 3350 to 305
 
 ### Do Emmen, Assen and Hoogeveen get pages of their own?
 
-Emmen has one now and it is linked further up this page. Assen and Hoogeveen follow later in the series. The other nine municipalities, Meppel and Coevorden down to Westerveld, are listed above with their populations and this is their page.
+Emmen and Assen have theirs now, both linked further up this page. Hoogeveen follows later in the series. The other nine municipalities, Meppel and Coevorden down to Westerveld, are listed above with their populations and this is their page.
 
 ### Is Assen or Emmen the capital?
 
@@ -258,7 +258,7 @@ Between five and ten, matched on level, pace and goal rather than on age, school
 
 ## North to the city, south to the river, and up to the country
 
-North along the Hondsrug is the [province of Groningen](/coding-classes-in-groningen-province), with the earthquake scale nobody reads correctly; south past Meppel is [Overijssel](/coding-classes-in-overijssel) and its dike arithmetic; west across the Stellingwerven is [Friesland](/coding-classes-in-friesland), the province with two names. The three, and this page, are children of the [Netherlands coding hub](/coding-classes-in-netherlands); a learner after models rather than programs should head for [AI and machine learning classes in the Netherlands](/ai-and-machine-learning-classes-in-netherlands) or the [AI and Python Academy](/ai-and-python-academy-netherlands). [Emmen](/coding-classes-in-emmen) is now built; Assen and Hoogeveen follow.
+North along the Hondsrug is the [province of Groningen](/coding-classes-in-groningen-province), with the earthquake scale nobody reads correctly; south past Meppel is [Overijssel](/coding-classes-in-overijssel) and its dike arithmetic; west across the Stellingwerven is [Friesland](/coding-classes-in-friesland), the province with two names. The three, and this page, are children of the [Netherlands coding hub](/coding-classes-in-netherlands); a learner after models rather than programs should head for [AI and machine learning classes in the Netherlands](/ai-and-machine-learning-classes-in-netherlands) or the [AI and Python Academy](/ai-and-python-academy-netherlands). [Emmen](/coding-classes-in-emmen) and [Assen](/coding-classes-in-assen) are now built; Hoogeveen follows.
 
 ## Contact
 
