@@ -9496,5 +9496,54 @@
       "Any comparison of the encyclopaedia figure of 25,978 with the statistics figure of 25,975. Two sources that disagree is the Breda argument.",
       "Anything the Leiden, The Hague, Leidschendam-Voorburg and Zuid-Holland pages own, including their figures and arguments."
     ]
+  },
+  "coding-classes-in-oegstgeest": {
+    "market": "Oegstgeest",
+    "bodyClass": "cg-ogg",
+    "pageType": "city",
+    "curriculumAuthority": "Gemeente Oegstgeest, Zuid-Holland: 26,095 residents (statistics, 1 January 2026), 26,058 (2025), 23,153 (2013), 19,445 (1995); 12,628 men and 13,430 women (2025); ages (2026) 4,559 under fifteen, 2,849 fifteen to twenty-five, 5,940 twenty-five to forty-five, 7,030 forty-five to sixty-five, 5,717 sixty-five or over; 11,255 households (2025) averaging 2.26, 3,862 one-person, 7,393 multi-person, 4,141 with children; 797 hectares, 729 land, 67 water, published density 3,574; 11,286 dwellings (2025), 8,239 owner-occupied at 73 percent, 3,047 rented at 27 percent; estimated average value 600,000 euro; income 47,400 euro per resident and 60,100 per recipient (2024); 2.0 percent in poverty; origin (2025) 18,020 Dutch, 3,346 European, 4,692 non-European, 21,255 born in the Netherlands and 4,803 abroad; 5 wijken (Oud Oegstgeest, Oudenhof, De Kwaak, Oegstgeest Noord, Oegstgeest West), 15 buurten; 12 primary establishments with 3,361 pupils, 4 secondary with 2,678. Encyclopaedia (Oegstgeest): in the ninth century a small church, by legend consecrated by Willibrord, stood on the site of the present Groene Kerkje; the oldest spelling found is Osgeresgeest, in a tenth-century document; the castles Oud-Poelgeest and Endegeest date from that period; Rene Descartes (1596-1650), philosopher and mathematician, lived at kasteel Endegeest in 1642; neighbourhoods Kerkbuurt, Leidse Buurt, Poelgeesterbuurt, Mors, Bazar, Rijsjes, and twentieth-century Wilhelminapark, Julianapark and Haaswijk; 26,096 residents on 1 January 2026 and 7.97 square kilometres, not combined with the statistics. Encyclopaedia (Discours de la methode): first published in Leiden, 1637. Regio Midden holidays. The city page teaches divide and conquer.",
+    "localProject": "Split the problem until each part is easy. Descartes lived at Endegeest in Oegstgeest in 1642, and his Discourse on Method, first published in Leiden in 1637, advised dividing each difficulty into parts; the page uses this as context, not as a claim that Descartes wrote about computing. A halving table shows 16, 1,000, a million and a billion possibilities needing at most 4, 10, 20 and 30 halving questions against the same numbers of one-by-one guesses, because each question removes half. The programming form covers binary search, merge sort, bisecting to find a bug, and decomposing a program into small testable functions; for AI, tools are most reliable on small, well-defined parts, and planning tools are only as good as their split. The defences are asking halving questions, splitting until each part is one clear function, defining inputs and outputs, bisecting bugs, and giving AI one well-defined part at a time. Chosen after a case-sensitive check found no page using divide and conquer, binary search or Descartes. Distinct from Gouda, which concerns failures hidden at the joints of a sequential pipeline, from Velsen, which concerns the slowest stage, and from Nissewaard, which splits an average into its groups.",
+    "requiredMentions": [
+      "19,445",
+      "23,153",
+      "11,255",
+      "Haaswijk",
+      "4,141",
+      "11,286",
+      "8,239",
+      "3,047",
+      "3,361",
+      "2,678",
+      "Endegeest",
+      "Oud-Poelgeest",
+      "Osgeresgeest",
+      "Oudenhof"
+    ],
+    "sources": [
+      {
+        "claim": "Gemeente Oegstgeest: 26,095 inwoners (2026), 26,058 (2025), 23,153 (2013), 19,445 (1995); mannen 12,628, vrouwen 13,430; ages 0-15 4,559, 15-25 2,849, 25-45 5,940, 45-65 7,030, 65+ 5,717; 11,255 huishoudens, 3,862 eenpersoons, 7,393 meerpersoons, 4,141 met kinderen, gemiddeld 2.26 (2025); 797 hectare, land 729, water 67; bevolkingsdichtheid 3,574; woningvoorraad 11,286, koop 8,239 (73 percent), huur 3,047 (27 percent) (2025); gemiddelde WOZ 600,000 euro; gemiddeld inkomen per inwoner 47,400 and per inkomensontvanger 60,100 euro (2024); personen in armoede 2.0 percent; basisonderwijs 12 vestigingen 3,361 leerlingen, voortgezet onderwijs 4 vestigingen 2,678 leerlingen; herkomst Nederland 18,020, Europa 3,346, buiten Europa 4,692, geboren in Nederland 21,255, buiten Nederland 4,803 (2025); 5 wijken (Oud Oegstgeest, Oudenhof, De Kwaak, Oegstgeest Noord, Oegstgeest West), 15 buurten.",
+        "url": "https://allecijfers.nl/gemeente/oegstgeest/"
+      },
+      {
+        "claim": "Oegstgeest (encyclopaedia): In de negende eeuw stond op de plaats van het huidige Groene Kerkje een volgens de legende door Willibrord gewijd kerkje. Oldest spelling Osgeresgeest, in a tenth-century document. Uit deze tijd dateren de kastelen Oud-Poelgeest en Endegeest. Rene Descartes (1596-1650), filosoof en wiskundige, woonde in 1642 op kasteel Endegeest. Neighbourhoods Kerkbuurt, Leidse Buurt, Poelgeesterbuurt, Mors, Bazar, Rijsjes; Wilhelminapark, Julianapark, Haaswijk. De gemeente telt 26.096 inwoners (1 januari 2026, bron: CBS) en heeft een oppervlakte van 7,97 km2.",
+        "url": "https://nl.wikipedia.org/wiki/Oegstgeest"
+      },
+      {
+        "claim": "Discours de la methode (encyclopaedia): het boek werd oorspronkelijk gepubliceerd in Leiden, Nederland, in 1637.",
+        "url": "https://nl.wikipedia.org/wiki/Discours_de_la_m%C3%A9thode"
+      },
+      {
+        "claim": "School holiday regions: regio Midden = Utrecht, Zuid-Holland and the northern part of Gelderland; regio Noord = Groningen, Friesland, Drenthe, Overijssel, Flevoland, Noord-Holland; regio Zuid = Zeeland, Noord-Brabant, Limburg and the southern part of Gelderland.",
+        "url": "https://www.rijksoverheid.nl/themas/onderwijs/schoolvakanties/regios-schoolvakantie"
+      }
+    ],
+    "rejectedClaims": [
+      "Any claim that Descartes wrote about computing or algorithms. The page presents his advice on dividing difficulties as a general method that later computing echoes.",
+      "The exact wording of the rules in the Discourse. The encyclopaedia entry read does not quote them, so the page paraphrases the well-known second rule.",
+      "Any claim about the Leiden Bio Science Park, international schools or Rhijngeest. Not in the sentences read.",
+      "Any comparison of the encyclopaedia figure of 26,096 with the statistics figure of 26,095. Two sources that disagree is the Breda argument.",
+      "Any reading of the absence of higher-education institutions in the row. That is the Westland argument.",
+      "Anything the Leiden, Voorschoten and Zuid-Holland pages own, including their figures and arguments."
+    ]
   }
 }

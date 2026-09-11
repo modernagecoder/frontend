@@ -2422,4 +2422,8 @@
 # International growth cluster (coding-global.css). Must precede the /* catch-all.
 /coding-classes-in-voorschoten /src/pages/coding-classes-in-voorschoten.html 200
 /coding-classes-in-voorschoten.md /src/pages/coding-classes-in-voorschoten.md 200
+
+# International growth cluster (coding-global.css). Must precede the /* catch-all.
+/coding-classes-in-oegstgeest /src/pages/coding-classes-in-oegstgeest.html 200
+/coding-classes-in-oegstgeest.md /src/pages/coding-classes-in-oegstgeest.md 200
 /* /src/pages/404.html 404
