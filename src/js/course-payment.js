@@ -256,7 +256,12 @@ const CoursePayment = {
     // null, which used to throw here on agents/maths pages and kill the buy
     // button outright.
     var hasTables = !!(ip && ip.PRICES);
+    // pageSubject()/pageIntlTable() read the generator's data-price-tier tag,
+    // so a course on any price row (agents, gemini, ...) charges its own USD
+    // figure; the older context checks remain as a fallback.
     var table = !hasTables ? null
+      : (ip.pageIntlTable && ip.pageIntlTable())
+      ? ip.pageIntlTable()
       : (ip.isAgentsContext && ip.isAgentsContext() && ip.PRICES.internationalAgents)
       ? ip.PRICES.internationalAgents
       : (ip.isMathsContext && ip.isMathsContext() && ip.PRICES.internationalMaths)
@@ -272,7 +277,8 @@ const CoursePayment = {
 
     if (!p && window.MAC_PRICING) {
       var data = window.MAC_PRICING;
-      var subject = (ip && ip.isAgentsContext && ip.isAgentsContext()) ? 'agents'
+      var subject = (ip && ip.pageSubject) ? ip.pageSubject()
+        : (ip && ip.isAgentsContext && ip.isAgentsContext()) ? 'agents'
         : (ip && ip.isMathsContext && ip.isMathsContext()) ? 'maths' : 'coding';
 
       // Flat model: one USD price list for everyone outside India.

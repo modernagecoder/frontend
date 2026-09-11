@@ -137,7 +137,7 @@ function showPrices(config) {
     const usd = (n) => n == null ? ', ' : cfgLib.format(n, 'USD');
     console.log('    ' + 'Plan'.padEnd(26) + 'India'.padStart(10) + 'Outside India'.padStart(18));
     console.log('    ' + '─'.repeat(54));
-    [['coding', 'Coding'], ['maths', 'Maths'], ['agents', 'Codex/Claude premium'], ['school', 'School bootcamp']].forEach(function (row) {
+    [['coding', 'Coding'], ['maths', 'Maths'], ['agents', 'AI agents (Codex/Claude, Copilot)'], ['gemini', 'Gemini Enterprise (1-on-1 only)'], ['school', 'School bootcamp']].forEach(function (row) {
         const t = config.plans[row[0]];
         ['group', 'miniBatch', 'personal'].forEach(function (tier) {
             const label = { group: 'Group', miniBatch: 'Mini Batch', personal: '1-on-1' }[tier];

@@ -38,6 +38,10 @@ const GROUPS = [
         ['agents.india.miniBatch', 'Mini Batch (3–4 students)'],
         ['agents.india.personal', '1-on-1 personal']
     ]],
+    ['Google Gemini Enterprise agents programme: 1-on-1 only, per 8-class month', [
+        ['gemini.india.personal', 'India (₹ per month)'],
+        ['gemini.intl.personal', 'Outside India (US$ per month)']
+    ]],
     ['India, Other (₹)', [
         ['school.india.group', 'School bootcamp, group'],
         ['school.india.personal', 'School bootcamp: 1-on-1'],

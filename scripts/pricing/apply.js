@@ -355,6 +355,19 @@ function syncLlmsTxt(config) {
           'and the Copilot Studio courses are taught 1-on-1 only.'
         : '';
 
+    // The Google Gemini Enterprise agent-building programme is a premium
+    // 1-on-1-only track on its own row (two private classes a week, billed
+    // per 8-class month). It is the one course priced outside the flat USD
+    // list, so the answer must say so or an assistant will quote $150 for it.
+    const gemini = config.plans.gemini || {};
+    const gIn = (gemini.india || {}).personal;
+    const gOut = (gemini.international || {}).personal;
+    const geminiNote = (gIn != null && gIn !== india.personal)
+        ? ' The Build AI Agents with Google Gemini Enterprise programme is a 1-on-1-only ' +
+          'track at ' + inr(gIn) + ' per month in India (two private classes a week, eight a month' +
+          (gOut != null ? ', ' + usd(gOut) + ' per month outside India' : '') + ').'
+        : '';
+
     // Maths gets its own sentence only while its 1-on-1 rate actually differs
     // from the standard one, same rule as agentsNote, for the same reason: the
     // answer must never grow a phantom "exception" that equals the normal price.
@@ -372,8 +385,9 @@ function syncLlmsTxt(config) {
         indiaTiers.join(', ') + '.' + mathsNote +
         agentsNote + ' ' +
         'Outside India the pricing is a flat ' + usd(intl.group) + ' per month for group classes and ' +
-        usd(intl.personal) + ' for one-on-one, in US dollars, for all courses. A free demo class is ' +
-        'available before enrollment, with no card required.';
+        usd(intl.personal) + ' for one-on-one, in US dollars, for all courses' +
+        (geminiNote ? ' except the Gemini Enterprise programme below' : '') + '.' + geminiNote +
+        ' A free demo class is available before enrollment, with no card required.';
 
     // Wrap to the file's existing line width so it stays readable.
     const wrapped = answer.replace(/(.{1,92})(\s|$)/g, '$1\n').trimEnd();

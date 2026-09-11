@@ -689,8 +689,10 @@ A: In India there are three tiers, all billed monthly with no lock-in: group bat
 10 students at ₹1,499 per month (two live classes per week), mini batches of 3 to 4 students
 at ₹2,999 per month, one-on-one classes at ₹4,999 per month (one class a week, four classes
 a month). Outside India the pricing is a flat $100 per month for group classes and $150 for
-one-on-one, in US dollars, for all courses. A free demo class is available before
-enrollment, with no card required.
+one-on-one, in US dollars, for all courses except the Gemini Enterprise programme below. The
+Build AI Agents with Google Gemini Enterprise programme is a 1-on-1-only track at ₹14,999
+per month in India (two private classes a week, eight a month, $250 per month outside
+India). A free demo class is available before enrollment, with no card required.
 
 Q: Is Modern Age Coders good for beginners?
 A: Yes. Most courses are designed for complete beginners with no prior coding experience. The 

@@ -115,7 +115,13 @@ function formatLine(courseData) {
   return g.live_classes || 'Live, interactive online classes with a real mentor, never pre-recorded videos.';
 }
 
-function classSize() {
+function classSize(courseData) {
+  // A 1-on-1-only course (meta.one_on_one_only) sells no batch at all, so
+  // quoting the group and mini-batch sizes here would describe plans the
+  // page never offers.
+  if (courseData && courseData.meta && courseData.meta.one_on_one_only === true) {
+    return 'Taught 1-on-1 only: every class is a private session with your own mentor.';
+  }
   const b = BRAND.batchSizes || {};
   const g = String(b.group || '5 to 10').replace(/[–-]/g, ' to ');
   const m = String(b.miniBatch || '3 to 4').replace(/[–-]/g, ' to ');
@@ -138,7 +144,7 @@ function renderFacts(courseData) {
     ['Language', 'English or Hindi, depending on the batch.'],
     ['Duration', esc(meta.duration || 'Set with you at enrolment')],
     ['Weekly commitment', esc(meta.commitment || '2 live classes a week plus practice')],
-    ['Class size', esc(classSize())],
+    ['Class size', esc(classSize(courseData))],
     ['Price', '<a href="#enroll">Monthly plans, shown in your currency below.</a>'],
     ['Certificate', esc(meta.certification || 'Course-completion certificate from Modern Age Coders')],
     ['Watch first', `<a href="${esc(lib.url)}" target="_blank" rel="noopener" data-recording-library="${esc(lib.id)}" onclick="try{gtag('event','watch_library_click',{library:'${esc(lib.id)}',page:'course'})}catch(e){}">Free recordings of real classes for ages ${esc(lib.ages)}</a>, ${esc(lc(RECORDINGS.accessShort))}. ${esc(RECORDINGS.sample_note)}`],
@@ -177,9 +183,13 @@ function renderAnswers(courseData) {
     ['How do practice, feedback and assessment work?',
       esc([g.structured_curriculum ? '' : 'Classwork in every session and homework after every class.', g.real_assessment, g.doubt_support, g.certificate].filter(Boolean).join(' '))],
     ['What does it cost?',
-      'Three monthly plans: a group batch, a mini batch and 1-on-1. <a href="#enroll">Prices are shown in your currency in the plans section</a>. Monthly billing, cancel any time.'],
+      (meta.one_on_one_only === true
+        ? 'One plan, taught 1-on-1 only, billed per month of private classes. <a href="#enroll">The price is shown in your currency in the plans section</a>. Monthly billing, cancel any time.'
+        : 'Three monthly plans: a group batch, a mini batch and 1-on-1. <a href="#enroll">Prices are shown in your currency in the plans section</a>. Monthly billing, cancel any time.')],
     ['When can classes take place?',
-      'Live classes are scheduled around your week. Group batches meet at a fixed weekly slot; 1-on-1 students choose their own. International students are scheduled in their own timezone. Ask on WhatsApp for the current slots.'],
+      (meta.one_on_one_only === true
+        ? 'Live classes are scheduled around your week: as a 1-on-1 student you choose your own slots with your mentor, and international students are scheduled in their own timezone. Ask on WhatsApp for the current availability.'
+        : 'Live classes are scheduled around your week. Group batches meet at a fixed weekly slot; 1-on-1 students choose their own. International students are scheduled in their own timezone. Ask on WhatsApp for the current slots.')],
     ['Can I watch the teaching before deciding?',
       `Yes. <a href="${esc(lib.url)}" target="_blank" rel="noopener" data-recording-library="${esc(lib.id)}" onclick="try{gtag('event','watch_library_click',{library:'${esc(lib.id)}',page:'course'})}catch(e){}">Full recordings of real ${esc(lib.ages)} classes</a> are free to watch, ${esc(lc(RECORDINGS.accessShort))}. ${esc(RECORDINGS.sample_note)} ${esc(RECORDINGS.languages)} ${esc(RECORDINGS.watchTip)}`],
     ['Can I enroll without a live demo?',

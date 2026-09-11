@@ -1033,6 +1033,14 @@
           "display": "₹4,999/month"
         }
       }
+    },
+    "build-ai-agents-with-google-gemini-enterprise-course": {
+      "pricing": {
+        "personal": {
+          "amount": 14999,
+          "display": "₹14,999/month"
+        }
+      }
     }
   },
   "notes": {

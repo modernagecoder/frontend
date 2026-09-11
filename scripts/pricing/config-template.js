@@ -23,6 +23,8 @@ const FIELDS = [
     ['agents.india.group', 'AI agents (Codex/Claude, Copilot Studio), Group (India)'],
     ['agents.india.miniBatch', 'AI agents (Codex/Claude, Copilot Studio), Mini Batch (India)'],
     ['agents.india.personal', 'AI agents (Codex/Claude, Copilot Studio), 1-on-1 (India)'],
+    ['gemini.india.personal', 'Google Gemini Enterprise agents programme, 1-on-1 (India, per 8-class month)'],
+    ['gemini.intl.personal', 'Google Gemini Enterprise agents programme, 1-on-1 (USD, per 8-class month)'],
     ['school.india.group', 'School bootcamp, Group (India)'],
     ['school.india.personal', 'School bootcamp, 1-on-1 (India)'],
     ['camps.india.oneTime', 'Holiday camp, one payment (India)'],
@@ -96,6 +98,15 @@ function render(v) {
       "international": { "group": ${num(v['intl.group'])},  "miniBatch": null, "personal": ${num(v['intl.personal'])} }
     },
 
+    // The premium Google Gemini Enterprise agent-building programme (see
+    // courseOverrides below). Sold 1-on-1 ONLY, two private classes a week,
+    // billed per 8-class month: Group and Mini Batch are null because that
+    // course never sells them.
+    "gemini": {
+      "india":         { "group": null, "miniBatch": null, "personal": ${num(v['gemini.india.personal'])} },
+      "international": { "group": null, "miniBatch": null, "personal": ${num(v['gemini.intl.personal'])} }
+    },
+
     // In-school bootcamp programmes (published inside school-page FAQ schema).
     "school": {
       "india":         { "group": ${num(v['school.india.group'])}, "miniBatch": null, "personal": ${num(v['school.india.personal'])} },
@@ -118,7 +129,8 @@ function render(v) {
     "codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals": "agents",
     "ai-agents-with-microsoft-copilot-studio-course-for-teens":                 "agents",
     "ai-agents-with-microsoft-copilot-studio-course-for-college-students":      "agents",
-    "ai-agents-with-microsoft-copilot-studio-masterclass-for-professionals":    "agents"
+    "ai-agents-with-microsoft-copilot-studio-masterclass-for-professionals":    "agents",
+    "build-ai-agents-with-google-gemini-enterprise-course":                      "gemini"
   },
 
   // ───────────────────────────────────────────────────────────────────────
@@ -166,6 +178,8 @@ function extract(cfg) {
         'agents.india.group': g('agents', 'india', 'group'),
         'agents.india.miniBatch': g('agents', 'india', 'miniBatch'),
         'agents.india.personal': g('agents', 'india', 'personal'),
+        'gemini.india.personal': g('gemini', 'india', 'personal'),
+        'gemini.intl.personal': g('gemini', 'international', 'personal'),
         'school.india.group': g('school', 'india', 'group'),
         'school.india.personal': g('school', 'india', 'personal'),
         'camps.india.oneTime': g('camps', 'india', 'oneTime'),

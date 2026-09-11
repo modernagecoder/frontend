@@ -9,7 +9,7 @@
  */
 window.MAC_PRICING = {
   "version": 2,
-  "updated": "2026-08-10",
+  "updated": "2026-09-11",
   "generatedFrom": "pricing/pricing.config.jsonc",
   "plans": {
     "coding": {
@@ -48,6 +48,18 @@ window.MAC_PRICING = {
         "personal": 150
       }
     },
+    "gemini": {
+      "india": {
+        "group": null,
+        "miniBatch": null,
+        "personal": 14999
+      },
+      "international": {
+        "group": null,
+        "miniBatch": null,
+        "personal": 250
+      }
+    },
     "school": {
       "india": {
         "group": 1499,
@@ -74,7 +86,8 @@ window.MAC_PRICING = {
     "codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals": "agents",
     "ai-agents-with-microsoft-copilot-studio-course-for-teens": "agents",
     "ai-agents-with-microsoft-copilot-studio-course-for-college-students": "agents",
-    "ai-agents-with-microsoft-copilot-studio-masterclass-for-professionals": "agents"
+    "ai-agents-with-microsoft-copilot-studio-masterclass-for-professionals": "agents",
+    "build-ai-agents-with-google-gemini-enterprise-course": "gemini"
   },
   "display": {
     "chargeCurrencies": {

@@ -1382,6 +1382,7 @@
                 <li><a href="/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals">Codex + Claude Code Masterclass</a></li>
                 <li><a href="/courses/ai-agents-with-microsoft-copilot-studio-course-for-college-students">AI Agents with Copilot Studio</a></li>
                 <li><a href="/courses/ai-agents-with-microsoft-copilot-studio-masterclass-for-professionals">Copilot Studio Agent Masterclass</a></li>
+                <li><a href="/courses/build-ai-agents-with-google-gemini-enterprise-course">Build AI Agents with Google Gemini Enterprise</a></li>
                 <li><a href="/courses/vibe-coding-for-college-fullstack-ai-dsa-career-course">Vibe Coding for College</a></li>
                 <li><a href="/courses/git-github-version-control-course-for-college-students">Git &amp; GitHub for College</a></li>
                 <li><a href="/courses/git-github-advanced-version-control-masterclass-for-professionals">Advanced Git &amp; GitHub Masterclass</a></li>
@@ -1776,6 +1777,13 @@
                 description: 'The agent-building skill employers now list next to Excel: build, ground and publish business-grade AI agents in Microsoft Copilot Studio, connectors, agent flows, autonomous agents and analytics. 24 live classes, taught 1-on-1 only, portfolio agents included.',
                 skills: ['Microsoft Copilot Studio', 'Connectors + Actions', 'Autonomous Agents', 'Agent Analytics'], difficulty: 'intermediate', ageGroup: 'college',
                 badges: ['new', 'hot', 'career'], templateUrl: '/courses/ai-agents-with-microsoft-copilot-studio-course-for-college-students', imageUrl: 'copilot-studio-college.webp'
+            },
+            // FEATURED: Build AI Agents with Google Gemini Enterprise (1-on-1 only, 16 classes / 2 months, own price row)
+            {
+                id: 311, category: 'ai-ml', title: 'Build AI Agents with Google Gemini Enterprise',
+                description: 'Build, connect, govern and ship real AI agents on Google Gemini Enterprise: Workflow Builder, connectors and actions, MCP and A2A, the ADK pro-code bridge, observability, cost and governance. 16 live 1-on-1 classes over 2 months.',
+                skills: ['Gemini Enterprise', 'Workflow Builder', 'ADK + Agent Runtime', 'MCP + A2A'], difficulty: 'intermediate', ageGroup: 'college',
+                badges: ['new', 'hot', 'career'], templateUrl: '/courses/build-ai-agents-with-google-gemini-enterprise-course', imageUrl: 'gemini-enterprise-agents.webp'
             },
             {
                 id: 310, category: 'ai-ml', title: 'Copilot Studio Agent Masterclass',
@@ -2693,11 +2701,24 @@
                 // The Copilot Studio agent-building courses are sold 1-on-1 only,
                 // so their cards quote the agents-tier 1-on-1 rate from the config
                 //. There is no ₹1,499 group plan for them to "start" at.
-                const isOneOnOneOnly = /copilot-studio/i.test(course.templateUrl || '');
+                const isOneOnOneOnly = /copilot-studio|gemini-enterprise/i.test(course.templateUrl || '');
                 const intlStart = '$100';   // flat model: every course, one USD price list
+                // A 1-on-1-only card quotes its own row's 1-on-1 price straight from
+                // the config table (window.MAC_PRICING, loaded before this runs), so
+                // a price change in pricing.config.jsonc reaches the card without a
+                // hand edit here. courseOverrides maps the slug to its price row.
+                const cfg = window.MAC_PRICING || null;
+                const cardSlug = (course.templateUrl || '').replace(/^\/courses\//, '').replace(/\/$/, '');
+                const cardSubject = (cfg && cfg.courseOverrides && cfg.courseOverrides[cardSlug]) || 'agents';
+                const cardRow = cfg && cfg.plans && cfg.plans[cardSubject];
+                const fmt = (n, cur) => (n == null) ? null : (cur === 'INR' ? '₹' : '$') +
+                    new Intl.NumberFormat(cur === 'INR' ? 'en-IN' : 'en-US').format(n);
+                const oneOnOnePrice = cardRow
+                    ? (isIndian ? fmt(cardRow.india && cardRow.india.personal, 'INR') : fmt(cardRow.international && cardRow.international.personal, 'USD'))
+                    : null;
                 const priceAmount = isIndian
-                    ? (isOneOnOneOnly ? '₹9,999' : '₹1,499')
-                    : (isOneOnOneOnly ? '$150' : intlStart);
+                    ? (isOneOnOneOnly ? (oneOnOnePrice || '₹4,999') : '₹1,499')
+                    : (isOneOnOneOnly ? (oneOnOnePrice || '$150') : intlStart);
                 const prepPrice = isIndian ? '₹1,499/month' : intlStart + '/month';
                 const isHackathon = course.isHackathon === true;
                 const cardClass = isHackathon ? 'course-card-minimal hackathon-card' : 'course-card-minimal';
@@ -3268,8 +3289,8 @@
     <script src="/js/unified-mobile-nav.js"></script>
     <script src="/js/keyboard-navigation.js"></script>
     <script src="/js/tab-accessibility.js"></script>
-    <script src="/js/pricing-data.generated.js?v=e0051cb24b"></script>
-    <script src="/js/international-pricing.js?v=5de1f542e5"></script>
+    <script src="/js/pricing-data.generated.js?v=c1eb685613"></script>
+    <script src="/js/international-pricing.js?v=deee271610"></script>
 
 
     <!-- Components inlined at build time -->

@@ -685,13 +685,23 @@ class CourseGenerator {
      * a number in the config changes every generated course page on the next
      * build.
      */
-    getTierPrices(slug) {
+    getTierPrices(slug, options) {
         const subject = this.priceSubjectFor(slug);
         const config = PRICING.load();
         const out = {};
+        // A 1-on-1-only course (meta.one_on_one_only) never renders its Group
+        // or Mini Batch card, so those tiers may legitimately be null in the
+        // config (the gemini row sells nothing but 1-on-1). They come back as
+        // empty strings; the personal tier is still mandatory.
+        const optionalTiers = (options && options.oneOnOneOnly) ? ['group', 'miniBatch'] : [];
 
         ['group', 'miniBatch', 'personal'].forEach((tier) => {
             const r = PRICING.resolve(`${subject}.india.${tier}`, config);
+            if (!r.exists && optionalTiers.indexOf(tier) !== -1) {
+                out[tier] = '';
+                out[tier + 'Display'] = '';
+                return;
+            }
             if (!r.exists) {
                 throw new Error(
                     `Course "${slug}" needs an India ${tier} price but ${subject}.india.${tier} ` +
@@ -809,7 +819,7 @@ class CourseGenerator {
         const seller = { "@type": "Organization", "name": "Modern Age Coders", "url": "https://learn.modernagecoders.com" };
         const eligibleRegion = { "@type": "Place", "name": "Worldwide" };
         const courseUrl = `https://learn.modernagecoders.com/courses/${meta.slug || ''}`;
-        const tierPrices = this.getTierPrices(meta.slug);
+        const tierPrices = this.getTierPrices(meta.slug, { oneOnOneOnly: meta.one_on_one_only === true });
         // A 1-on-1-only course publishes exactly the offer it sells; a Group
         // or Mini Batch Offer here would tell Google about plans the page
         // (correctly) never shows.
@@ -1190,7 +1200,7 @@ class CourseGenerator {
         // Pricing, site-wide standard 3-tier pricing, except the premium
         // agents courses (see getTierPrices / isPremiumAgentsCourse).
         // (Per-course JSON prices are otherwise ignored in favor of standard tiers.)
-        const tierP = this.getTierPrices(meta.slug);
+        const tierP = this.getTierPrices(meta.slug, { oneOnOneOnly: oneOnOneOnly });
         html = html.replace(/{{PRICE_GROUP}}/g, tierP.groupDisplay);
         html = html.replace(/{{PRICE_MINIBATCH}}/g, tierP.miniBatchDisplay);
         html = html.replace(/{{PRICE_PERSONAL}}/g, tierP.personalDisplay);
@@ -1400,7 +1410,9 @@ class CourseGenerator {
         if (/math|calculus|algebra/i.test(meta.slug || '')) {
             // Robust to body-class variants (the editorial reskin added a class,
             // which silently broke an exact-match replace here before).
-            html = html.replace(/<body class="(course-detail-page[^"]*)">/, '<body class="$1" data-subject="maths">');
+            // The body tag carries other attributes (data-sticky since 2026-09),
+            // so the match must allow them or the tag is silently never added.
+            html = html.replace(/<body class="(course-detail-page[^"]*)"([^>]*)>/, '<body class="$1"$2 data-subject="maths">');
             // The old $40->$100 / $100->$150 regex swaps are gone: the intl card
             // is now filled from the config via {{INTL_GROUP}}/{{INTL_PERSONAL}}
             // and the modal reads the live card price at click time.
@@ -1411,8 +1423,13 @@ class CourseGenerator {
         // international-pricing.js and course-payment.js pick PRICES.internationalAgents
         // when they rewrite the ₹ enrollment cards / charge USD. Same swap-order rule
         // as maths above: Personalized first so Group $40 -> $100 can't double-bump.
-        if (this.isPremiumAgentsCourse(meta.slug)) {
-            html = html.replace(/<body class="(course-detail-page[^"]*)">/, '<body class="$1" data-price-tier="agents">');
+        // Any other price set (agents, gemini, a future premium row) is
+        // announced the same way with its own subject name: international-
+        // pricing.js and course-payment.js read data-price-tier generically
+        // (pageSubject()), so a new row needs no browser-side change.
+        const priceSubject = this.priceSubjectFor(meta.slug);
+        if (priceSubject !== 'coding' && priceSubject !== 'maths') {
+            html = html.replace(/<body class="(course-detail-page[^"]*)"([^>]*)>/, '<body class="$1"$2 data-price-tier="' + priceSubject + '">');
             // Same as the maths branch: intl prices come from the config now.
         }
 

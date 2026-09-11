@@ -1,0 +1,474 @@
+{
+  "meta": {
+    "slug": "build-ai-agents-with-google-gemini-enterprise-course",
+    "date": "2026-09-11",
+    "title": "Build AI Agents with Google Gemini Enterprise",
+    "description": "Build AI agents with Google Gemini Enterprise in 16 live 1-on-1 classes: Workflow Builder, connectors, MCP, A2A, ADK and governance on Google Cloud. 2 months.",
+    "keywords": [
+      "gemini enterprise course",
+      "google gemini enterprise training",
+      "build ai agents with gemini",
+      "gemini enterprise agent builder course",
+      "google cloud agent builder course",
+      "gemini enterprise workflow builder training",
+      "google agent development kit course",
+      "adk agents course",
+      "gemini enterprise agent platform training",
+      "vertex ai agent builder course",
+      "professional agentic architect certification preparation",
+      "enterprise ai agents course india",
+      "google cloud ai agents course for professionals",
+      "no code ai agents google gemini",
+      "agent2agent a2a protocol course",
+      "mcp servers gemini enterprise",
+      "gemini enterprise corporate training",
+      "ai agents course 1-on-1 online"
+    ],
+    "category": "AI Agents & Automation",
+    "taxonomy": "technology",
+    "one_on_one_only": true,
+    "price": {
+      "personal": "₹14,999/month"
+    },
+    "duration": "16 classes (2 months · 2 classes/week · 1 hour each)",
+    "level": "Intermediate to advanced · working professionals, founders, team leads and developers",
+    "commitment": "2 live hours a week plus 3-4 hours of build time",
+    "certification": "Certificate from Modern Age Coders, awarded on passing the final assessment",
+    "image_path": "gemini-enterprise-agents.webp"
+  },
+  "program_overview": {
+    "title": "Build AI Agents with Google Gemini Enterprise and the Google Cloud Agent Platform",
+    "tagline": "16 live 1-on-1 classes over 2 months. Build, connect, govern and ship enterprise AI agents with Workflow Builder, connectors, MCP, A2A and the Agent Development Kit, with a dedicated mentor and your own organisation's work as the material.",
+    "description": "Google rebuilt its enterprise AI story around agents. At Google Cloud Next in April 2026 it introduced the Gemini Enterprise Agent Platform, the evolution of Vertex AI, and positioned the Gemini Enterprise app as the single place where teams discover, create, share and run agents. Since then the platform has shipped at a pace that makes recorded courses obsolete within weeks: Workflow Builder (formerly Agent Designer) reached general availability on 2 September 2026 with multi-step automation, chat agents and enterprise connectors; Skills, Projects, the Inbox, observability dashboards, Agent Registry governance, custom MCP server data stores and A2A agent registration all went GA between June and September; and the model lineup moved through Gemini 3.1 Pro to Gemini 3.5, 3.6, 3.7 and 3.8 Flash. This programme teaches that platform as it stands today, in sixteen private one-hour classes over two months. You start on the no-code side: chat agents and workflows in Workflow Builder, grounded in Google Workspace and third-party data stores, calling real actions in Slack, ServiceNow, Jira and GitHub, gated by human approvals and run on schedules and triggers. You then cross to the pro-code side that the same platform exposes: the Agent Development Kit (ADK) in Python, the Agent Runtime with Sessions, Memory Bank and Code Execution, Agent Identity, Model Armor and Agent Simulation, and the open protocols, Agent2Agent (A2A) and the Model Context Protocol (MCP), that let agents from different builders work together and be registered and governed inside Gemini Enterprise. The final phase is the part most agent courses skip and most organisations pay for: observability, cost modelling across seat editions and pay-as-you-go, data residency (the India region reached general availability in June 2026), organisation policy constraints, content policies for sensitive data, and the exam map for Google Cloud's Professional Agentic Architect certification. You finish with a capstone agent estate for your own team, defended live with the governance and cost pack to match. Because every class is 1-on-1, the depth follows your role, and the syllabus is a Living Syllabus, re-verified against Google Cloud's release notes as the platform ships.",
+    "what_makes_this_different": [
+      "1-on-1 only, by design: enterprise agent work touches your data, your connectors, your admin posture and your budget, none of which belongs in a group class. A dedicated mentor builds every class around your organisation and goes exactly as deep as your role needs.",
+      "Both halves of Google's platform in one programme: no-code Workflow Builder, Skills and Projects in the Gemini Enterprise app, and pro-code ADK, Agent Runtime, Agent Identity and Model Armor in the Gemini Enterprise Agent Platform, plus the honest rules for when each is the right tool.",
+      "Real connectors, real actions: agents that read and write Slack, ServiceNow, Jira, Confluence, GitHub, Google Workspace and Microsoft Teams through the data stores Google ships, not demo data, with organisation policy constraints and content policies applied the way an administrator would.",
+      "Open protocols taught as a skill you keep: the Model Context Protocol for tools and the Agent2Agent protocol for agent collaboration, both supported natively in Gemini Enterprise and now backed by more than 150 organisations through the Linux Foundation.",
+      "Cost and governance fluency most builders lack: seat editions, the pay-as-you-go edition, overage controls, Agent Runtime metering, observability with p50 and p95 latency, data residency and the certification ladder, so your capstone ships with a defensible bill and audit trail.",
+      "Living Syllabus: Gemini Enterprise ships changes every week (Workflow Builder went GA on 2 September 2026 and Gemini 3.8 Flash the same day), and this course is re-verified against Google Cloud's release notes as features land, which is why it is taught live, never recorded."
+    ],
+    "learning_path": [
+      "Phase 1, The Gemini Enterprise Platform (Classes 1-4): the two halves of Google's agent stack, editions and access, agent anatomy in Workflow Builder, instruction and testing discipline, and the model and Skills decisions that shape everything downstream.",
+      "Phase 2, Knowledge, Connectors and Actions (Classes 5-8): grounding agents in Google Workspace and third-party data stores, federated versus indexed sources, actions that write to real systems, custom MCP servers under Agent Registry governance, and accuracy audits an auditor would accept.",
+      "Phase 3, Workflows, Autonomy and Multi-Agent Systems (Classes 9-12): multi-step workflows with triggers, schedules and human approvals, the Inbox, sub-agents and the Agent Gallery, A2A and A2UI registration, then the pro-code bridge to ADK, Agent Runtime, Agent Identity and Model Armor.",
+      "Phase 4, Observability, Cost, Governance and Capstone (Classes 13-16): tracing and metrics, seat and pay-as-you-go economics, data residency and policy controls, the Professional Agentic Architect exam map, and a production capstone defended with its governance and cost pack."
+    ],
+    "career_outcomes": [
+      "A production-grade capstone agent estate for your own team on Gemini Enterprise, shipped with observability, a cost model and a governance pack",
+      "Working fluency in both Workflow Builder (no-code) and the Agent Development Kit (pro-code), so you can choose the right path per use case and speak to both audiences",
+      "Portable protocol skills: MCP tool integration and A2A agent collaboration, the same standards used across Google, Microsoft and AWS platforms",
+      "A mapped route to Google Cloud's Professional Agentic Architect certification, whose domains (low-code agents, coding agents, custom agents, evaluation and deployment, security and governance) track this syllabus",
+      "The vocabulary that wins internal approvals: Agent Identity, Agent Registry, organisation policy constraints, content policies, data residency, overage controls"
+    ]
+  },
+  "phase_1_platform_foundations": {
+    "title": "Phase 1: The Gemini Enterprise Platform",
+    "description": "Map Google's two-sided agent stack, get the right edition and access, learn the anatomy of a Workflow Builder agent, build instruction and testing discipline, and make the model and Skills decisions that shape cost and capability.",
+    "week_1": {
+      "title": "Class 1: Google's Agent Stack in September 2026 and Where You Build",
+      "topics": [
+        "The two halves by their exact names: the Gemini Enterprise app (where teams discover, create, share and run agents) and the Gemini Enterprise Agent Platform (the evolution of Vertex AI, announced at Google Cloud Next on 23 April 2026, where developers build, scale, govern and optimise agents)",
+        "What lives on each side: Workflow Builder, Skills, Projects, Inbox, Canvas and the Agent Gallery in the app; the Agent Development Kit, Agent Runtime, Agent Identity, Agent Gateway, Model Armor, Agent Simulation and Agent Observability on the platform",
+        "Editions and what they unlock: Business, Standard and Plus seats, the Frontline edition, and the pay-as-you-go edition that reached general availability on 1 August 2026; Workflow Builder is documented for Standard, Plus, pay-as-you-go and Frontline, which decides where your organisation must be",
+        "Access and roles honestly stated: the Gemini Enterprise Admin and Gemini Enterprise User IAM roles (available since 15 April 2026), licence distribution in the Google Cloud console, and what a maker can and cannot do without an administrator",
+        "The prebuilt agents you inherit: the Core Assistant root agent, Deep Research and Co-Scientist, and why the Idea Generation agent was retired in July 2026 (its work moved to the assistant and Deep Research)",
+        "Reading the release notes like an architect: GA versus Public Preview versus allowlist, and the rule this course lives by, production commitments only on GA features",
+        "Choosing your capstone: one real process from your own team, nominated today and refined for sixteen classes"
+      ],
+      "projects": [
+        "Write your organisation's one-page agent opportunity memo: three candidate processes, the data and systems each needs, the risks each carries, the edition it requires, and the one that becomes your capstone"
+      ],
+      "practice": "Audit two agents you already meet at work or online and reverse-engineer what they are grounded in, what they can act on, and where a human is in the loop.",
+      "assessment": "Defend your capstone choice in five minutes: process, users, data, edition, risk, and what measurably better will mean."
+    },
+    "week_2": {
+      "title": "Class 2: Agent Anatomy in Workflow Builder",
+      "topics": [
+        "Workflow Builder, formerly Agent Designer, generally available since 2 September 2026: the two build artifacts, chat agents (conversational, task-specific, largely non-deterministic) and workflows (sequential multi-step processes that combine AI steps with human intervention)",
+        "The two creation modes and when to use each: describing the agent in natural language, and building on the visual canvas with steps, triggers and actions",
+        "Instructions as the real product: identity, scope, tone, format rules, refusals and escalation, written in that order and versioned outside the tool from day one",
+        "The permission model that governs everything: actions and tools available to any agent or workflow are limited to the data connectors, tools and permissions the Gemini Enterprise administrator has provisioned",
+        "The default model decision made for you: Workflow Builder agents default to Gemini 3.1 Pro in the US and Global regions (since 17 May 2026), and what that means for reasoning quality and cost",
+        "Publishing, turning on and sharing: agents shared with specific users or Google Groups (end-user sharing to Groups has been GA since June 2026), and why sharing scope is a governance decision",
+        "Instruction anti-patterns from real deployments: contradictions, vague verbs, policy text pasted verbatim, and instructions that fight the knowledge sources"
+      ],
+      "projects": [
+        "Build Policy Desk v1: an internal chat agent for one real policy area of your organisation, with a complete instruction stack, five tested refusals and a designed hand-off to a human"
+      ],
+      "practice": "Run the same ten workplace questions against two instruction variants and score every difference in a comparison table.",
+      "assessment": "Present your instruction stack line by line and state, for each line, what production incident removing it would eventually cause."
+    },
+    "week_3": {
+      "title": "Class 3: Testing Like It Is Already in Production",
+      "topics": [
+        "The fixed test set written before tuning: happy path, edge case and adversarial questions for Policy Desk, with expected behaviour recorded first",
+        "The integrated testing environment in Workflow Builder: previewing and simulating chat agents and workflows before publishing, and what a simulation can and cannot prove",
+        "Adversarial testing for business agents: prompt injection attempts, policy-boundary probes, the disgruntled-user tone test, and the transparent thinking view (GA July 2026) as a debugging aid",
+        "Hallucination triage: distinguishing missing knowledge, bad grounding and model overreach, because each has a different fix",
+        "Regression discipline: rerunning the full set after every instruction, knowledge or tool change, and logging verdicts in a form a reviewer can read",
+        "Escalation as a tested feature: the designed path to a human is an outcome you verify, not a failure you apologise for",
+        "Preview of Phase 4: Agent Simulation on the Agent Platform stress-tests agents against real-world scenarios before deployment; today you build the manual version of that discipline"
+      ],
+      "projects": [
+        "Build the permanent 25-question test set for Policy Desk, including five adversarial probes, and run it end to end in the testing environment with verdicts logged"
+      ],
+      "practice": "Attempt three prompt-injection attacks on your own agent, document the outcomes, and patch the weakest point.",
+      "assessment": "Given a transcript with three subtle failures, identify each one and classify it: instructions, knowledge or escalation gap."
+    },
+    "week_4": {
+      "title": "Class 4: Models, Skills and Projects: The Decisions Underneath",
+      "topics": [
+        "The Gemini lineup inside Gemini Enterprise as of September 2026: Gemini 3.1 Pro as the Pro flagship and Workflow Builder default; Gemini 3.5 Flash (GA 19 May 2026), 3.6 Flash, 3.7 Flash (GA 13 August) and 3.8 Flash (GA 2 September), each with its own regional rollout",
+        "Reading model status correctly: Limited Availability, allowlist, GA per region, and deprecation notices (the 3.5 Flash toggle was retired in June; its Global-region removal was postponed in August), so production agents pin to what is GA where your data lives",
+        "Data residency as a model decision: DRZ (data residency zone) and MLP commitments per region, and the India and Singapore regions reaching GA with DRZ in June 2026",
+        "Skills, generally available since June 2026: reusable, shareable capabilities that end users can create, upload and share once an administrator turns the toggle on, and the governance conversation that toggle starts",
+        "Projects, GA since 4 September 2026: private knowledge bases with file upload and web search, shared by teams and agents as a persistent workspace",
+        "Choosing a model with evidence: the same test set run against two models, scored on accuracy, tone and latency, and written up as a one-paragraph decision",
+        "Phase 1 gate: the platform map, edition, access and model decisions for your capstone, in writing"
+      ],
+      "projects": [
+        "Run your Policy Desk test set against two Gemini models, score the differences, and write the model decision with evidence attached; then package the agent's reusable behaviour as a Skill and put its source documents in a Project"
+      ],
+      "practice": "Draft the request you would send to your Gemini Enterprise administrator to enable Skills sharing and confirm the region your agents run in.",
+      "assessment": "Phase 1 gate: rebuild a small business agent from a written spec in 30 minutes, with instruction stack, refusals, a 10-question test and a defended model choice."
+    }
+  },
+  "phase_2_knowledge_connectors_actions": {
+    "title": "Phase 2: Knowledge, Connectors and Actions",
+    "description": "Ground agents in Google Workspace and third-party data at scale, understand federated versus indexed sources, give agents actions that write to real systems, add custom MCP servers under Agent Registry governance, and prove accuracy the way an auditor would.",
+    "week_5": {
+      "title": "Class 5: Grounding Strategy: The Data Store Estate",
+      "topics": [
+        "Data stores as the knowledge layer: Google Workspace sources (Drive, Gmail, Calendar, Chat, Sites), and the third-party estate Google has been adding at the rate of roughly ten a fortnight through 2026, from Jira, Confluence, Slack, ServiceNow, Box, Dropbox, GitLab and GitHub to Smartsheet, Asana, Airtable, Dynamics 365 and Microsoft Teams",
+        "Federated versus indexed sources: what a federated data store searches live in the source system, what an indexed store copies and ranks, and the latency, freshness and permission consequences of each",
+        "Status discipline again: which connectors are GA (Slack, ServiceNow, Jira and Confluence Data Center, HubSpot, Box, Microsoft Teams, GitHub, Google Sites) and which are still Public Preview, and why a capstone grounds only on GA sources",
+        "Filtering as a design tool: data store filters (SharePoint and Google Sites filters reached GA in mid-2026) that scope an agent to the folders, spaces and sites it should actually see",
+        "Permissions reality: agents surface what their data stores can reach for the signed-in user, so source selection is a security decision, not just a quality one",
+        "Citations as a compliance feature: grounded, cited answers as the difference between an answer and a liability",
+        "Designing the capstone's source map: authoritative, current, permissioned and small enough to audit"
+      ],
+      "projects": [
+        "Ground Policy Desk in a real Google Drive or SharePoint source (or a mirrored practice copy) and prove ten answers cite the correct document and passage"
+      ],
+      "practice": "Ask your grounded agent five questions its sources cannot answer and document the exact edge-of-knowledge behaviour.",
+      "assessment": "Present your capstone source map: every source, its owner, its type (federated or indexed), its update cadence, and why it earns its place."
+    },
+    "week_6": {
+      "title": "Class 6: Documents, Workspace and Third-Party Knowledge Done Right",
+      "topics": [
+        "Writing documents for retrieval: headings that answer questions, one fact per paragraph, consistent terminology, and the anti-pattern of the 40-page PDF",
+        "Drive and SharePoint hygiene that grounding exposes: stale copies, duplicate policies, draft folders, and the librarian pass that fixes them before the agent embarrasses you",
+        "Structured versus prose knowledge: when a Jira project, a ServiceNow table or a Smartsheet grid should answer instead of a document, and how instructions route question types to source types",
+        "Source arbitration: what happens when Confluence, a Google Doc and Slack disagree, and the scoping instructions that decide which wins",
+        "Freshness engineering: which source updates win, what happens when an indexed document changes, and update cadences you can promise a stakeholder",
+        "Data minimisation at the source: what never belongs in agent knowledge (personal data, credentials, unreleased financials), previewing the content policies of Class 15",
+        "The curation multiplier: five well-structured pages outperform fifty messy ones, demonstrated live on your own content"
+      ],
+      "projects": [
+        "Rebuild one messy real document into a retrieval-optimised version, ground both versions side by side, and publish the before-and-after accuracy comparison; then add a second, structured source and document the arbitration behaviour with five conflict questions"
+      ],
+      "practice": "Run a librarian audit on one Drive or Confluence area you actually use: what is in, what is stale, what would embarrass the agent that cites it.",
+      "assessment": "Given two document structures, predict which grounds better and prove it with a five-question retrieval test."
+    },
+    "week_7": {
+      "title": "Class 7: Actions: Agents That Write to Real Systems",
+      "topics": [
+        "From answering to acting: connector actions in Gemini Enterprise, and the GA action sets that ship with the platform (sending and scheduling Slack messages since May 2026, creating and updating ServiceNow incidents since June, Microsoft Teams channel and chat actions since July)",
+        "Action filtering as governance: the filters that restrict which actions an agent may take on SharePoint, OneDrive and Jira Data Center, and why an administrator, not a maker, decides them",
+        "The consent question: connection credentials, who authorises what, and why connecting an account is a governance event you document",
+        "Designing a write-safe agent: confirm before act, idempotence (running twice must not double the damage), and the safe default when inputs surprise you",
+        "Custom actions and custom fields (Private Preview as of 8 September 2026): where Google is taking action configuration, flagged honestly as preview, not promised",
+        "Error paths as product: what the user sees when the action fails, times out or is refused, designed before the happy path is polished",
+        "The action inventory for your capstone: every write the agent will ever make, with an owner and a rollback"
+      ],
+      "projects": [
+        "Build Support Triage v1: a chat agent that collects an issue, searches the right knowledge, and creates the ServiceNow incident or Jira issue (or posts to the right Slack channel) with a confirmation step and tested failure messages"
+      ],
+      "practice": "Break your action deliberately (missing field, revoked permission, timeout) and verify the user sees a designed message for each failure.",
+      "assessment": "Sketch one action end to end (utterance, agent, action selection, auth, call, result, reply) and mark every point where governance can intervene."
+    },
+    "week_8": {
+      "title": "Class 8: Custom MCP Servers, Agent Registry and the Accuracy Audit",
+      "topics": [
+        "The Model Context Protocol in one sentence: the open standard for plugging tool servers into agents, supported in Gemini Enterprise through custom MCP server data stores (GA since 7 August 2026) and through Workflow Builder's MCP server connections",
+        "The governance facts that make MCP enterprise-safe here: custom MCP server data stores are disabled by default and need an organisation policy constraint override, tools are auto-discovered through the server's tools/list endpoint, and unauthenticated connections are a separate Public Preview you keep out of production",
+        "Agent Registry, GA since June 2026: registering, importing and governing MCP servers and agents from one place, so a security lead can see every tool surface an agent has",
+        "Evaluating a third-party MCP server before connecting it: capabilities, data flows, failure modes and the least-power principle, written as a one-page security note",
+        "The Gemini Enterprise Agent Platform's own remote MCP server: letting coding agents and IDEs operate the platform through MCP, and where that helps a builder",
+        "The accuracy audit protocol: scoring 25 grounded answers against the actual source text with a rubric a non-builder could apply, plus uncertainty language as policy",
+        "Phase 2 gate: the grounding and tooling checklist you will apply to every agent for the rest of your career"
+      ],
+      "projects": [
+        "Connect one custom MCP server to a practice agent with only the tools you need enabled and a one-page security note, then run the full 25-answer accuracy audit on Policy Desk and publish the result with methodology and a remediation list"
+      ],
+      "practice": "Draft the organisation policy request for your MCP integration as you would submit it to your Google Cloud administrator, naming the data boundaries.",
+      "assessment": "Phase 2 exam: design the complete knowledge, action and tool plan for a new use case in writing (sources, filters, actions, MCP, refusals, audit protocol) in 30 minutes."
+    }
+  },
+  "phase_3_workflows_autonomy_multi_agent": {
+    "title": "Phase 3: Workflows, Autonomy and Multi-Agent Systems",
+    "description": "Build multi-step workflows with triggers, schedules and human approvals, run them from the Inbox, compose sub-agents and Agent Gallery agents, register agents over A2A and A2UI, then cross to the pro-code side: ADK, Agent Runtime, Agent Identity and Model Armor.",
+    "week_9": {
+      "title": "Class 9: Workflows: Deterministic Automation with a Human in the Loop",
+      "topics": [
+        "Workflows in Workflow Builder: triggers, steps and actions on the visual canvas, and the difference between a deterministic step sequence and a non-deterministic chat agent",
+        "Flow control that survives real inputs: conditions, branches, loops over lists, and the outputs handed from one step to the next",
+        "Human-in-the-loop as architecture: approval stages where a task waits for a person to sign off, who the approver is on paper, and what the approval message must contain",
+        "Running a workflow three ways: on an automated schedule, manually on demand, or by @-mentioning it inside a Gemini Enterprise chat conversation",
+        "The Inbox: the unified hub for monitoring active and long-running agents, adjusting configurations and receiving real-time status alerts through email and chat",
+        "The approvals pattern as the single most reused business workflow: request, validate, route, approve, act, report",
+        "Notification etiquette: a workflow that spams gets disabled by its own users, so frequency and channel are design decisions"
+      ],
+      "projects": [
+        "Build Expense Helper: a workflow that collects an expense claim, validates it against policy, pauses for a manager's approval, files the result in the right system and reports back, with tested error paths for every step"
+      ],
+      "practice": "Trigger Expense Helper from chat, from the canvas and from a schedule, and record how the Inbox shows each run.",
+      "assessment": "Given five business tasks, assign each to chat agent, workflow, Skill or plain knowledge, and justify each assignment in two sentences."
+    },
+    "week_10": {
+      "title": "Class 10: Triggers, Schedules and Hardened Autonomy",
+      "topics": [
+        "Trigger-based and schedule-based agents: workflows that start from a business event or a recurrence rather than a person, and the generative planning they rely on",
+        "The first autonomous job: small, observable, reversible and logged, with the operations note that says what it does, when, with whose permissions, and how to switch it off",
+        "Idempotence, retries and safe defaults: the three properties every unattended workflow must prove before it touches a real system",
+        "Failure diaries: structured capture of what went wrong so Tuesday's incident is not repeated on Thursday",
+        "Scope creep in autonomy: the it-could-also-just trap, and the change-control habit that resists it",
+        "Observability settings per agent (Public Preview since June 2026) and what they add to the traces you will read in Class 13",
+        "Autonomy scoping for the capstone: which jobs deserve a trigger, which must stay human-initiated, and why"
+      ],
+      "projects": [
+        "Build Weekly Reporter: a scheduled workflow that compiles a weekly status summary from real sources, drafts it into a Google Doc, and posts it for review, never directly to stakeholders; then harden it with an approval pause, an error diary and a self-report of its own actions"
+      ],
+      "practice": "Let Weekly Reporter run unattended for three real cycles and audit every action against what you intended, scoring each.",
+      "assessment": "Live drill: your mentor corrupts one input source; your workflow must fail gracefully and your diary must show why, unedited."
+    },
+    "week_11": {
+      "title": "Class 11: Multi-Agent Systems: Sub-Agents, the Agent Gallery, A2A and A2UI",
+      "topics": [
+        "When one agent becomes several: the router-plus-specialists pattern, sub-agents inside Workflow Builder, and the hand-off contracts that keep them debuggable",
+        "The Agent Gallery: partner-built agents from the Google Cloud Marketplace (Adobe, Salesforce, ServiceNow, Workday and Oracle among the launch partners) inside the Gemini Enterprise app, behind a request-and-approval gateway",
+        "The Agent2Agent protocol: created by Google, donated to the Linux Foundation in 2025, now supported by more than 150 organisations and integrated across Google, Microsoft and AWS platforms; what an agent card is and how discovery and delegation work",
+        "Registering A2A agents in Gemini Enterprise (GA since 17 August 2026), including agents built elsewhere, and the governance that applies to them through Agent Registry",
+        "A2UI: the companion standard for agent-driven user interfaces, with v0.9 Material Design components supported in Gemini Enterprise since August 2026",
+        "Failure across agent boundaries: timeouts, unclear hand-offs and the tracing habits that keep multi-agent systems debuggable",
+        "Architecture review: when multi-agent is real engineering and when it is complexity for its own sake"
+      ],
+      "projects": [
+        "Refactor Support Triage into a two-agent design: a routing agent plus a specialist sub-agent, with documented hand-off contracts and a failure-mode table; then register an external A2A agent and delegate one task to it"
+      ],
+      "practice": "Diagram your capstone as both a single agent and a multi-agent design, and write the three-sentence verdict on which ships.",
+      "assessment": "Defend one hand-off contract: what crosses the boundary, what must never cross it, and what happens when the far side fails."
+    },
+    "week_12": {
+      "title": "Class 12: The Pro-Code Bridge: ADK, Agent Runtime, Agent Identity and Model Armor",
+      "topics": [
+        "When no-code is not enough, and the platform's answer: the Agent Development Kit (ADK), Google's open-source framework in Python, Java and Go, with the graph-based structure for organising agents into networks of sub-agents and native MCP support",
+        "Reading and writing a real ADK agent: an LlmAgent with a Gemini model, tools, instructions and sub-agents, run locally with the ADK developer UI before anything is deployed",
+        "Agent Runtime: the managed runtime for fast, persistent agents, with Sessions and Memory Bank (GA December 2025), Code Execution (GA February 2026) and metered usage since 11 February 2026; one-command deployment with adk deploy",
+        "Bringing code agents into the app: ADK agents hosted on Agent Runtime can be registered with Gemini Enterprise (since April 2026), so business users run what developers build",
+        "The security layer by its exact names: Agent Identity (a unique cryptographic identity per agent for traceability), Agent Gateway (the control point between agents and data), and Model Armor (protection against prompt injection, tool poisoning and sensitive data leakage)",
+        "Agent Simulation: stress-testing an agent against real-world scenarios before deployment, and how it industrialises the discipline you built by hand in Class 3",
+        "The decision tree you will reuse for years: Workflow Builder, ADK, or a partner agent from the Gallery, chosen by governance posture, team skills and cost, not fashion"
+      ],
+      "projects": [
+        "Build and run a small ADK agent in Python that wraps one tool your capstone needs, deploy it to Agent Runtime, register it in Gemini Enterprise, and call it from a Workflow Builder agent; document the identity and Model Armor settings you applied"
+      ],
+      "practice": "Rewrite one Workflow Builder step as an ADK tool and one ADK behaviour as a Workflow Builder step, and write down which felt right and why.",
+      "assessment": "Phase 3 exam: given a use case, design the full architecture (no-code versus pro-code split, agents and sub-agents, protocols, identity, guardrails) and defend it."
+    }
+  },
+  "phase_4_observability_cost_governance_capstone": {
+    "title": "Phase 4: Observability, Cost, Governance and Capstone",
+    "description": "Prove agents work and know what they cost: tracing and metrics, seat and pay-as-you-go economics, data residency and policy controls, the Professional Agentic Architect exam map, then a production capstone defended with its governance and cost pack.",
+    "week_13": {
+      "title": "Class 13: Observability: Traces, Metrics and the Improvement Loop",
+      "topics": [
+        "Observability for Gemini Enterprise, GA since 24 June 2026: the metrics dashboards and trace viewing in the Observability tab, and the latency and error-rate views (p50 and p95, GA 3 September) that tell you whether an agent is getting slower",
+        "Reading a trace: the execute_tool and invoke_connector spans added in August 2026, and how a slow connector, a failing tool and a bad prompt each look different",
+        "Standards you can export: agent telemetry aligned with the OpenTelemetry generative AI semantic conventions, gen_ai attributes in Cloud Logging, and the Cloud Monitoring dimensions (tool_id, engine_id, response_code) for connectors",
+        "The improvement loop as a weekly ritual: dashboards, hypothesis, one change, retest, remeasure",
+        "Finding the gap: unanswered and escalated questions, ranked, as the roadmap for the next iteration",
+        "Instrumenting the capstone: the three numbers that will define success in front of your leadership",
+        "Observability as governance evidence: the artefact you hand a reviewer instead of a demo"
+      ],
+      "projects": [
+        "Observability sprint: run one agent with at least five real users for a week, review its traces and metrics, ship two data-demanded improvements, and write the before-and-after with p95 latency and error rate on the page"
+      ],
+      "practice": "Draft the monthly one-page agent report your leadership would actually read: usage, outcomes, latency, errors, next actions.",
+      "assessment": "From a set of traces, diagnose the top failure pattern, propose the fix, and prove it with a retest."
+    },
+    "week_14": {
+      "title": "Class 14: Cost: Seats, Pay-As-You-Go, Overage and Runtime Metering",
+      "topics": [
+        "The seat model: Business, Standard and Plus editions of Gemini Enterprise (Business around 21 US dollars per seat per month and Standard around 30 at launch, Plus through sales), what each edition includes, and which features (Workflow Builder among them) the Business edition does not unlock",
+        "The pay-as-you-go edition (GA 1 August 2026, invoice-based billing, no pooled quotas) and the AI developer tools bundle, now open to all invoiced Cloud Billing accounts",
+        "Overage billing controls (launched 17 August 2026, opened to all invoiced accounts on 1 September): what an overage cap protects you from and what it silently switches off",
+        "Agent Runtime economics: Sessions, Memory Bank and Code Execution have been metered since 11 February 2026, so a pro-code agent has a bill a no-code agent does not",
+        "Model cost as a design input: Pro versus Flash models, why the Flash line moved through 3.5, 3.6, 3.7 and 3.8 in four months, and how to read Google's pricing pages rather than memorise numbers that change",
+        "Modelling a real workload: seats, agents, sessions per week, runtime hours and model calls, at three adoption levels, under seats versus pay-as-you-go",
+        "Cost as a design input: grounding choices, action counts, model tier and autonomy all move the bill, and you now know roughly by how much"
+      ],
+      "projects": [
+        "Build the complete cost model for your capstone: edition recommendation, seat count, pay-as-you-go versus seats comparison, Agent Runtime line if any, overage cap, and a monthly projection at three adoption levels"
+      ],
+      "practice": "Re-estimate the model twice, once with a Pro model and once with a Flash model on the same test set, and write down what the difference buys.",
+      "assessment": "Given a described workload, produce the edition recommendation, the cost estimate and the overage plan in 30 minutes."
+    },
+    "week_15": {
+      "title": "Class 15: Governance: Residency, Policy Constraints, Content Policies and the Certification Map",
+      "topics": [
+        "Data residency you can promise: DRZ and MLP commitments per region, the India and Singapore regions GA in June 2026, Japan and the UK in July, and what an Indian enterprise can now sign off on",
+        "Managed organisation policy constraints for data connectors (GA since 7 July 2026): restricting allowed sources and egress FQDNs, and the custom MCP server constraint that ships disabled by default",
+        "Content policies for sensitive data protection (GA since 31 August 2026): what the policies catch, where they apply, and how they pair with Model Armor on the pro-code side",
+        "Identity and access end to end: Gemini Enterprise Admin and User roles, Okta SCIM and third-party identity (BYOID) for the app, Agent Identity for agents, and the Agent Registry as the record of what exists",
+        "Compliance surfaces: Assured Workloads with FedRAMP High for federated data stores, VPC Service Controls, and the honest note that a live web crawl can violate a perimeter",
+        "The certification map: Google Cloud's Professional Agentic Architect (a three-hour proctored exam of around 80 questions plus hands-on labs, in beta until 30 September 2026) and its five domains (low-code agents, coding agents, custom agents, evaluation and deployment, security and governance), with the Generative AI Leader credential as the on-ramp for teammates",
+        "The 20-point production checklist covering grounding, actions, protocols, observability, cost, residency, policy and rollback"
+      ],
+      "projects": [
+        "Write the governance pack for your capstone: region and residency decision, organisation policy and content policy plan, identity and sharing plan, Agent Registry entries, compliance notes, and the rollout runbook with rollback"
+      ],
+      "practice": "Role-play the security review with your mentor as the Cloud administrator: your pack must answer every who-approved-this and where-does-the-data-go question.",
+      "assessment": "Run the 20-point production checklist against your capstone as it stands today and file every failure into the Class 16 build plan."
+    },
+    "week_16": {
+      "title": "Class 16: Capstone Build and Defence",
+      "topics": [
+        "Freezing the spec: the capstone's job, users, sources, actions, workflows, triggers, agents, model, edition, region and cost model on one page",
+        "Building in production order: knowledge first, chat agent second, actions third, workflows and triggers fourth, sub-agents last, with the test set running throughout",
+        "Beating your baseline: the Class 3 test set and the Class 13 observability numbers as the bar, rerun at every milestone",
+        "Polish that earns trust: greeting, transparency statement, escalation tone, approval messages, error messages",
+        "The live defence: your agent estate demonstrated in the Gemini Enterprise app, with traces, the cost model and the governance pack on the table",
+        "Defending decisions like an architect: why these sources, this no-code versus pro-code split, these actions, this model, this region, this edition",
+        "The Living Syllabus promise: what changed in Gemini Enterprise while you were learning it, reviewed together, plus your next step, whether that is the Professional Agentic Architect exam or the internal pitch for your organisation's agent playbook"
+      ],
+      "projects": [
+        "Deliver the capstone: a production-grade agent estate for your own team on Gemini Enterprise, with grounded knowledge, at least one real action, one governed workflow with a human approval, a passing test set, observability in place, and the complete cost and governance pack, defended live"
+      ],
+      "practice": "Run the dress rehearsal for a colleague outside the course and fix the two weakest moments they point at.",
+      "assessment": "Final evaluation: capstone defence, governance and cost pack review, and the complete documentation packet, graded against the Class 15 production checklist."
+    }
+  },
+  "prerequisites": {
+    "device": "A laptop or desktop (Windows, Mac or Linux) with Chrome and a reliable internet connection; the Gemini Enterprise app and Workflow Builder run fully in the browser, and the ADK classes need Python 3.10 or newer installed",
+    "coding_experience": "None required for the no-code half. Workflow Builder, Skills, Projects and connectors are taught without code, and the pro-code classes on the Agent Development Kit are paced to you: developers go deeper into ADK and Agent Runtime, non-developers learn to read and direct that work",
+    "accounts": "A Google Cloud account with Gemini Enterprise access (Standard, Plus or the pay-as-you-go edition unlocks Workflow Builder). Ideally you use your employer's environment with your administrator's awareness; where that is not possible, we help you set up a pay-as-you-go project or a practice environment in the first class, at your own cloud cost",
+    "mindset": "The willingness to treat agents as production software: tested before trusted, costed before scaled, and governed before shipped. No prior agent-building experience is assumed; comfort with everyday business software is. The course rewards professionals who ask what does this cost and who approved it as instinctively as does it work"
+  },
+  "who_is_this_for": {
+    "operations_and_business_leads": "Process owners, analysts and operations leads who know exactly which workflow is broken and want to ship the agent that fixes it, with the evidence to defend it",
+    "it_and_workspace_admins": "IT professionals and Google Workspace or Google Cloud administrators who will be asked to govern agents either way, and would rather understand Agent Registry, policy constraints and residency before the first incident",
+    "developers_and_architects": "Developers and solution architects adding the Google agent stack (ADK, Agent Runtime, A2A, MCP) to skills employers already list, and preparing for the Professional Agentic Architect certification",
+    "founders_and_team_leads": "Founders, product managers and team leads who must decide what gets automated, what it costs per seat or per run, and which agent projects deserve to ship",
+    "consultants_and_partners": "Consultants and Google Cloud partners who want to sell agent builds that pass a client's security review, with governance and cost packs as deliverables, not afterthoughts"
+  },
+  "career_paths_after_completion": [
+    "AI agent builder, automation specialist or agentic solutions roles, the titles now appearing in real job listings as organisations move from pilots to agent estates",
+    "Google Cloud Professional Agentic Architect certification, for which this syllabus is direct preparation across all five exam domains, with the Generative AI Leader credential as a lighter first step",
+    "The internal agent champion or centre-of-excellence role: the person who owns the organisation's agent playbook, governance posture and cost model on Gemini Enterprise",
+    "Consulting and partner delivery, with a portfolio capstone that includes the governance and cost artefacts clients' security and finance teams actually ask for",
+    "A bridge to code-first agent engineering: the ADK and Agent Runtime work here, and our Codex + Claude Code masterclass when you want to build agents entirely in code"
+  ],
+  "course_guarantees": {
+    "one_on_one_only": "This course is taught 1-on-1 only: every class is a private session with a dedicated mentor, built around your organisation's real use cases and your role's real depth.",
+    "live_classes": "Live, interactive classes with a real instructor, never pre-recorded videos.",
+    "structured_curriculum": "A structured 16-class curriculum over two months, two private classes a week, with a real deliverable in every single class.",
+    "doubt_support": "Doubt support between classes over WhatsApp, so a blocked workflow or a failing connector never waits four days.",
+    "certificate": "A certificate you earn by passing the final assessment, with a free retest after revision if needed.",
+    "free_demo": "A free demo class before you enrol, so you can meet the mentor and judge the depth for yourself.",
+    "real_assessment": "Classwork every session, a task after every class, phase-gate reviews that mix in earlier topics, and a final capstone defended live, plus a written assessment that decides the certificate: real knowledge and real work, with a free retest after revision if needed."
+  },
+  "additional_learning_resources": {
+    "total_projects_built": "16 professional deliverables, one per class, finishing with a production capstone agent estate plus a governance and cost pack",
+    "projects_throughout_course": [
+      "Phase 1: an agent opportunity memo for your organisation, Policy Desk v1 with a tested instruction stack, a 25-question adversarial test set, and a defended model decision packaged as a Skill and a Project",
+      "Phase 2: a Drive or SharePoint-grounded Policy Desk with citation proofs, a retrieval-optimised document rebuild with before-and-after accuracy, Support Triage v1 writing real ServiceNow, Jira or Slack actions, a governed custom MCP server integration with a security note, and a published 25-answer accuracy audit",
+      "Phase 3: the Expense Helper approval workflow, the scheduled Weekly Reporter and its hardened successor with an operations note, a two-agent Support Triage with A2A delegation, and a Python ADK agent deployed to Agent Runtime and registered in Gemini Enterprise",
+      "Phase 4: an observability sprint with shipped improvements, a complete edition and pay-as-you-go cost model, the governance pack with residency, policy and identity decisions, and the capstone build and live defence",
+      "Total: 16 professional deliverables, one per class, finishing with a production capstone agent estate plus a governance and cost pack"
+    ],
+    "weekly_structure": {
+      "live_classes": "2 private 1-on-1 classes per week, 1 hour each, across 8 weeks (two months)",
+      "hands_on_agent_work": "2-3 hours building, testing and observing in Gemini Enterprise between classes",
+      "project_time": "1-1.5 hours completing each class deliverable, usually against your own organisation's use case",
+      "review_and_doubts": "30-60 minutes reviewing feedback and clearing doubts over WhatsApp before the next class",
+      "homework": "A task after every class, and a phase-gate review at the end of each phase that deliberately folds in earlier topics"
+    },
+    "certification": {
+      "completion": "Certificate from Modern Age Coders, awarded on passing the final assessment. Fall short and there is focused revision and a free retest: the certificate certifies real learning, not attendance"
+    },
+    "skills_mastered": [
+      "Agent design for business: instruction stacks, scope fences, refusals and escalation paths in Workflow Builder chat agents",
+      "Enterprise knowledge grounding: Google Workspace and third-party data stores, federated versus indexed sources, filters and citations, within real platform limits",
+      "Actions that write to real systems: Slack, ServiceNow, Jira, Confluence, GitHub and Microsoft Teams actions with confirmation, idempotence and designed failure paths",
+      "Custom MCP servers under Agent Registry governance, and the security note that earns a policy override",
+      "Workflows with triggers, schedules, flow control and human-in-the-loop approvals, monitored from the Inbox",
+      "Multi-agent systems: sub-agents, Agent Gallery partner agents, A2A registration and A2UI interfaces",
+      "The pro-code path: Agent Development Kit agents in Python, Agent Runtime with Sessions, Memory Bank and Code Execution, Agent Identity and Model Armor",
+      "Observability: traces, p50 and p95 latency, error rates and OpenTelemetry-aligned telemetry, run as a weekly improvement loop",
+      "Cost management: seat editions, pay-as-you-go, overage controls and Agent Runtime metering, modelled at three adoption levels",
+      "Governance: data residency, organisation policy constraints, content policies, identity and sharing, Agent Registry, and the Professional Agentic Architect exam map"
+    ],
+    "support_provided": {
+      "dedicated_mentor": "The same mentor for all 16 classes, who knows your organisation's context, your capstone and your governance constraints",
+      "whatsapp_doubts": "Doubt support between classes over WhatsApp",
+      "practice_environment": "Help arranging your Gemini Enterprise access in Class 1: employer environment, a pay-as-you-go project, or a practice environment we help you set up",
+      "session_recordings": "Class recordings available for revision, so a missed detail is never lost"
+    },
+    "gemini_enterprise_docs": "https://docs.cloud.google.com/gemini/enterprise/docs",
+    "workflow_builder_docs": "https://docs.cloud.google.com/gemini/enterprise/docs/workflow-builder",
+    "agent_platform_docs": "https://docs.cloud.google.com/gemini-enterprise-agent-platform/overview",
+    "release_notes": "https://docs.cloud.google.com/gemini/enterprise/docs/release-notes",
+    "certification_page": "https://cloud.google.com/learn/certification/agentic-architect"
+  },
+  "why_this_course": {
+    "the_gap": "Most professionals have watched an agent demo; very few can take an agent through grounding, actions, approvals, observability, cost modelling, residency and policy on a real enterprise platform, which is the part organisations actually pay for. This programme teaches exactly that, 1-on-1, on your own use cases, on the platform Google is betting its enterprise business on.",
+    "real_platform": "Gemini Enterprise is the platform your organisation may already license alongside Google Workspace, and its Agent Platform is the evolution of Vertex AI. The vocabulary here (Workflow Builder, Agent Registry, Agent Identity, A2A, MCP, organisation policy constraints, DRZ) is the vocabulary of your next architecture and security review.",
+    "always_current": "Gemini Enterprise moved fast through 2026: Workflow Builder went GA, Skills and Projects shipped, custom MCP servers and A2A registration reached GA, observability arrived with p95 latency views, pay-as-you-go and overage controls changed the economics, and the India region gained data residency. The syllabus is a Living Syllabus, re-verified against Google Cloud's release notes as features land, which is why it is taught live and not recorded.",
+    "one_on_one": "Production agent work cannot be taught honestly in a group: it involves your data, your connectors, your administrators and your budget. A private mentor reviews your actual instruction stacks, source maps, workflows, traces and governance packs every class, and pushes exactly where your role needs depth. That is why this programme is taught 1-on-1 only."
+  },
+  "faqs": [
+    {
+      "question": "Do I need to be a developer to build agents with Google Gemini Enterprise?",
+      "answer": "No. Workflow Builder, Skills, Projects, connectors and actions are all no-code, and the hard parts they involve are design, testing, governance and cost, which are not programming skills. The programme does cross into the Agent Development Kit for the pro-code path, but that phase is paced to you: developers go deep into ADK and Agent Runtime, while non-developers learn to read, direct and govern that work. Both audiences finish the same capstone."
+    },
+    {
+      "question": "What is the difference between Gemini Enterprise and the Gemini Enterprise Agent Platform?",
+      "answer": "The Gemini Enterprise app is where teams discover, create, share and run agents: Workflow Builder, Skills, Projects, the Inbox, Canvas and the Agent Gallery live there. The Gemini Enterprise Agent Platform, announced at Google Cloud Next in April 2026 as the evolution of Vertex AI, is where developers build, scale, govern and optimise agents with the Agent Development Kit, Agent Runtime, Agent Identity, Model Armor and Agent Simulation. This course teaches both halves and, more importantly, when each is the right tool."
+    },
+    {
+      "question": "Why is this course taught 1-on-1 only?",
+      "answer": "Because the material is your organisation's material. Honest sessions discuss your data stores, your connectors, your administrator's policy posture, your region and your budget, none of which belongs in a group class. The mentor reviews your actual instruction stacks, workflows, traces and governance artefacts every session, and adjusts depth to your role, whether you are an analyst, an administrator or an architect."
+    },
+    {
+      "question": "How is the course structured and how long does it take?",
+      "answer": "Sixteen private classes over two months: two live one-hour classes a week for eight weeks, in four phases of four classes each. Phase 1 covers the platform and agent foundations, Phase 2 knowledge, connectors and actions, Phase 3 workflows, autonomy and multi-agent systems including the pro-code bridge to ADK, and Phase 4 observability, cost, governance and the capstone. Every class ends with a deliverable, and each phase ends with a gate review."
+    },
+    {
+      "question": "What do I need in terms of Google Cloud access for the course?",
+      "answer": "A Google Cloud account with Gemini Enterprise access. Workflow Builder is documented for the Standard, Plus, pay-as-you-go and Frontline editions, so the Business edition alone will not unlock the workflow classes. The best path is your employer's environment with your administrator's awareness, and the course includes drafting exactly that request. Where that is not possible, we help you set up a pay-as-you-go project or a practice environment in the first class, at your own cloud cost, and your mentor sorts access out with you before the second class."
+    },
+    {
+      "question": "Which Google Cloud certification does this course prepare me for?",
+      "answer": "The headline target is Google Cloud's Professional Agentic Architect certification, a three-hour proctored exam of around 80 multiple-choice questions followed by hands-on labs, in beta until 30 September 2026. Its five domains, building agents with low-code tools, using coding agents, developing custom agents, evaluating and deploying agentic workflows, and securing and governing them, track this syllabus phase by phase. The Generative AI Leader credential is the lighter on-ramp we recommend for teammates you later onboard."
+    },
+    {
+      "question": "Does the course cover what agents cost to run, not just how to build them?",
+      "answer": "Yes, an entire class is dedicated to it. You learn the seat editions and what each unlocks, the pay-as-you-go edition and overage controls that arrived in August and September 2026, Agent Runtime metering for pro-code agents, and how model tier and autonomy move the bill. Your capstone ships with a real cost model at three adoption levels, because what does it cost is the second question leadership asks."
+    },
+    {
+      "question": "How current is the syllabus, given how fast Gemini Enterprise is changing?",
+      "answer": "It is a Living Syllabus, re-verified against Google Cloud's release notes as features ship. The current version covers the September 2026 platform: Workflow Builder GA, Skills and Projects, custom MCP server data stores, Agent Registry governance, A2A and A2UI registration, observability with p50 and p95 latency, pay-as-you-go and overage controls, the Gemini 3.1 Pro and 3.8 Flash lineup, and India-region data residency. When the platform changes, the course changes, and your mentor tells you what moved while you were learning."
+    },
+    {
+      "question": "What do I walk away with at the end of the programme?",
+      "answer": "A production-grade agent estate for your own team on Gemini Enterprise, demonstrated and defended live, plus the full professional packet: source map, action inventory, test set, workflow and approval design, observability report, cost model, governance pack with residency, policy and identity decisions, and a rollout runbook. You also leave with a Modern Age Coders certificate earned by that defence, and a mapped route to the Professional Agentic Architect exam if you want Google's official stamp."
+    }
+  ],
+  "related_courses": [
+    "ai-agents-with-microsoft-copilot-studio-masterclass-for-professionals",
+    "codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals",
+    "git-github-advanced-version-control-masterclass-for-professionals"
+  ]
+}

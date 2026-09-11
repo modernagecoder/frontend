@@ -486,3 +486,45 @@ body.editorial .cd-imodal-alt a{color:var(--amber-deep);font-weight:600;text-dec
 .cd-answer dd a{color:var(--amber-deep,#8F3F08);font-weight:600;text-decoration:underline;text-underline-offset:3px}
 body.editorial .hero-proof-note{margin:.35rem 0 0;font-family:var(--font-mono);font-size:.78rem;color:var(--muted);line-height:1.5}
 @media (max-width:640px){.cd-facts-grid{grid-template-columns:1fr}.cd-answer{padding:.95rem 1rem}}
+
+/* ---------- Gemini Enterprise programme accents (2026-09-11) ----------
+   Scoped to courses the generator tags <body data-price-tier="gemini">.
+   The hero stays on the site's paper like every other course page (the blue
+   poster only reads as a picture against paper); Google blue + yellow are
+   used as accents on the pills, buttons and the single plan card. Solid
+   colours and keylines only, no gradients or glows. */
+body.editorial[data-price-tier="gemini"]{--prem-field:#174EA6;--prem-field-deep:#0F3A80;--prem-accent:#FBBC04;--prem-paper:#FBF8F2;--prem-line:rgba(251,248,242,.28)}
+body.editorial[data-price-tier="gemini"] .course-hero{align-items:center;padding-top:clamp(2.6rem,5vw,4rem)}
+body.editorial[data-price-tier="gemini"] .course-hero::before{content:"Live 1-on-1 · 16 classes";position:absolute;top:.35rem;right:1.5rem;font-family:var(--font-mono);font-size:.75rem;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:#1C1814;background:var(--prem-accent);border-radius:999px;padding:.38rem .85rem}
+body.editorial[data-price-tier="gemini"] .course-category{color:var(--prem-field);background:none;border:1px solid var(--prem-field);border-radius:999px;padding:.32rem .8rem;font-family:var(--font-mono);font-size:.76rem;letter-spacing:.12em;text-transform:uppercase;display:inline-block;margin-bottom:1rem}
+body.editorial[data-price-tier="gemini"] .course-hero-title{font-weight:700;font-size:clamp(2rem,3.9vw,3rem);max-width:16ch}
+body.editorial[data-price-tier="gemini"] .course-hero-subtitle{max-width:44ch}
+body.editorial[data-price-tier="gemini"] .meta-badge svg{color:var(--prem-field)}
+body.editorial[data-price-tier="gemini"] .meta-badge.certification{border-color:rgba(251,188,4,.7);background:rgba(251,188,4,.12)}
+body.editorial[data-price-tier="gemini"] .cd-btn-primary{background:var(--prem-field);border-color:var(--prem-field);color:#fff}
+body.editorial[data-price-tier="gemini"] .cd-btn-primary:hover{background:var(--prem-field-deep);border-color:var(--prem-field-deep)}
+body.editorial[data-price-tier="gemini"] .download-curriculum-btn:hover,body.editorial[data-price-tier="gemini"] .hero-proof-btn:hover{color:var(--prem-field) !important}
+body.editorial[data-price-tier="gemini"] .course-hero-image{align-self:start;justify-self:end;width:100%;max-width:440px;margin-top:3.6rem}
+body.editorial[data-price-tier="gemini"] .course-hero-image img{border:1px solid var(--line);border-radius:18px;box-shadow:0 24px 44px -24px rgba(23,78,166,.55)}
+body.editorial[data-price-tier="gemini"] .cd-duration-card{border-left:4px solid var(--prem-field)}
+body.editorial[data-price-tier="gemini"] .enrollment-cta-text h2::after{background:var(--prem-field)}
+body.editorial[data-price-tier="gemini"] .enrollment-option{background:var(--prem-field);color:var(--prem-paper);border:1px solid var(--prem-line);box-shadow:inset 0 0 0 5px var(--prem-field),inset 0 0 0 6px rgba(251,248,242,.18);padding-top:2.6rem}
+body.editorial[data-price-tier="gemini"] .enrollment-option::before{content:"1-on-1 · 8 classes a month";position:absolute;top:.85rem;left:50%;transform:translateX(-50%);white-space:nowrap;font-family:var(--font-mono);font-size:.75rem;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:var(--prem-accent)}
+body.editorial[data-price-tier="gemini"] .enrollment-option h4{color:var(--prem-paper)}
+body.editorial[data-price-tier="gemini"] .enrollment-option .price{color:var(--prem-accent);-webkit-text-fill-color:var(--prem-accent);font-size:2.4rem}
+body.editorial[data-price-tier="gemini"] .enrollment-option .class-info{color:rgba(251,248,242,.82)}
+body.editorial[data-price-tier="gemini"] .enroll-btn.primary{background:var(--prem-accent);border-color:var(--prem-accent);color:#1C1814}
+body.editorial[data-price-tier="gemini"] .enroll-btn.primary:hover{background:#E0A800;border-color:#E0A800}
+body.editorial[data-price-tier="gemini"] .cd-intl-card.rec{background:var(--prem-field);color:var(--prem-paper);border-color:var(--prem-line);box-shadow:inset 0 0 0 5px var(--prem-field),inset 0 0 0 6px rgba(251,248,242,.18)}
+body.editorial[data-price-tier="gemini"] .cd-intl-card.rec .cd-intl-badge{background:var(--prem-accent);color:#1C1814}
+body.editorial[data-price-tier="gemini"] .cd-intl-card.rec .cd-intl-label,body.editorial[data-price-tier="gemini"] .cd-intl-card.rec .cd-intl-per,body.editorial[data-price-tier="gemini"] .cd-intl-card.rec .cd-intl-note{color:rgba(251,248,242,.85)}
+body.editorial[data-price-tier="gemini"] .cd-intl-card.rec .cd-intl-price{color:var(--prem-accent);-webkit-text-fill-color:var(--prem-accent)}
+body.editorial[data-price-tier="gemini"] .cd-intl-card.rec .cd-intl-btn{background:var(--prem-accent);border-color:var(--prem-accent);color:#1C1814}
+body.editorial[data-price-tier="gemini"] .cd-intl-card.rec .cd-intl-btn:hover{background:#E0A800;border-color:#E0A800;color:#1C1814}
+body.editorial[data-price-tier="gemini"] .cd-answers-eyebrow,body.editorial[data-price-tier="gemini"] .td-eyebrow{color:var(--prem-field)}
+body.editorial[data-price-tier="gemini"] .cd-answer,body.editorial[data-price-tier="gemini"] .td-inner{border-left-color:var(--prem-field)}
+@media (max-width:880px){
+  body.editorial[data-price-tier="gemini"] .course-hero{padding-top:3.2rem}
+  body.editorial[data-price-tier="gemini"] .course-hero::before{top:.6rem;right:auto;left:1.5rem}
+  body.editorial[data-price-tier="gemini"] .course-hero-image{max-width:420px;justify-self:start;margin-top:0}
+}

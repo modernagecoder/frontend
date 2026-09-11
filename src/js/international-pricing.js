@@ -198,6 +198,51 @@ const InternationalPricing = {
            (!!b && b.getAttribute('data-price-tier') === 'agents');
   },
 
+  // ─── Page price subject (generic) ───
+  // The name of the price set this page sells from, as a key of
+  // window.MAC_PRICING.plans: the generator tags <body data-price-tier="X">
+  // for any row other than coding (agents, gemini, ...), and maths pages carry
+  // data-subject="maths". Every ₹ -> $ decision below goes through this, so a
+  // new premium row in the config needs no change in this file.
+  pageSubject() {
+    var data = window.MAC_PRICING;
+    var el = document.documentElement;
+    var b = document.body;
+    var tier = (b && b.getAttribute('data-price-tier')) ||
+               (el && el.getAttribute('data-price-tier')) || '';
+    if (tier && data && data.plans && data.plans[tier]) return tier;
+    if (this.isAgentsContext()) return 'agents';
+    if (this.isMathsContext()) return 'maths';
+    return 'coding';
+  },
+
+  // The international price table for this page's subject, in the same shape
+  // as PRICES.international (built by loadTables). Falls back to the coding
+  // table when the subject sells nothing abroad.
+  pageIntlTable() {
+    var data = window.MAC_PRICING;
+    var subject = this.pageSubject();
+    if (subject === 'coding' || !data || !this.PRICES) return this.PRICES ? this.PRICES.international : null;
+    var cache = this._intlTables || (this._intlTables = {});
+    if (!cache[subject]) {
+      var src = (data.plans[subject] && data.plans[subject].international) || {};
+      var out = {};
+      Object.keys(src).forEach(function (tier) {
+        var amount = src[tier];
+        if (amount === null || amount === undefined) return;
+        var grouped = new Intl.NumberFormat('en-US', {
+          minimumFractionDigits: Number.isInteger(amount) ? 0 : 2,
+          maximumFractionDigits: Number.isInteger(amount) ? 0 : 2
+        }).format(amount);
+        out[tier] = { amount: amount, display: '$' + grouped, symbol: '$', currency: 'USD',
+                      period: (tier === 'oneTime') ? data.display.periodLabels.oneTime : data.display.periodLabels.monthly };
+      });
+      if (this.PRICES.international && this.PRICES.international.summer) out.summer = this.PRICES.international.summer;
+      cache[subject] = out;
+    }
+    return cache[subject];
+  },
+
   // ─── Detection ───
   detectIndia() {
     // Signal 1: Browser locale contains India country code or Indian language
@@ -402,9 +447,7 @@ const InternationalPricing = {
 
   // ─── Generated Course Pages (course-template.html) ───
   updateCoursePages() {
-    var prices = this.isAgentsContext() ? this.PRICES.internationalAgents
-      : this.isMathsContext() ? this.PRICES.internationalMaths
-      : this.PRICES.international;
+    var prices = this.pageIntlTable() || this.PRICES.international;
 
     // Template 1: .enrollment-option > h4 + .price
     document.querySelectorAll('.enrollment-option').forEach(function(option) {
@@ -485,8 +528,7 @@ const InternationalPricing = {
     // stale figure here fails OPEN. It leaves an India-only card visible to a
     // foreign visitor who can then click toward a plan with no USD price.
     var data = window.MAC_PRICING;
-    var subject = this.isAgentsContext() ? 'agents'
-      : this.isMathsContext() ? 'maths' : 'coding';
+    var subject = this.pageSubject();
     var miniBatch = data && data.plans[subject] && data.plans[subject].india
       ? data.plans[subject].india.miniBatch : null;
     if (miniBatch === null || miniBatch === undefined) return;
@@ -529,12 +571,9 @@ const InternationalPricing = {
     var data = window.MAC_PRICING;
     if (!data) return [];
 
-    var subject = this.isAgentsContext() ? 'agents'
-      : this.isMathsContext() ? 'maths' : 'coding';
+    var subject = this.pageSubject();
 
-    var intl = this.isAgentsContext() ? this.PRICES.internationalAgents
-      : this.isMathsContext() ? this.PRICES.internationalMaths
-      : this.PRICES.international;
+    var intl = this.pageIntlTable() || this.PRICES.international;
     var coding = this.PRICES.international;
 
     var rules = [];
@@ -552,8 +591,7 @@ const InternationalPricing = {
     (function reserveMiniBatch() {
       var data = window.MAC_PRICING;
       if (!data) return;
-      var subj = InternationalPricing.isAgentsContext() ? 'agents'
-        : InternationalPricing.isMathsContext() ? 'maths' : 'coding';
+      var subj = InternationalPricing.pageSubject();
       var india = data.plans[subj] && data.plans[subj].india;
       if (india && india.miniBatch !== null && india.miniBatch !== undefined) {
         seen[india.miniBatch] = true;

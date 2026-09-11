@@ -25,7 +25,7 @@
 // ═══════════════════════════════════════════════════════════════════════════
 {
   "version": 2,
-  "updated": "2026-08-10",
+  "updated": "2026-09-11",
 
   // ───────────────────────────────────────────────────────────────────────
   //  THE PRICES  (subject.region.tier — e.g. coding.india.group)
@@ -54,6 +54,15 @@
       "international": { "group": 100,  "miniBatch": null, "personal": 150 }
     },
 
+    // The premium Google Gemini Enterprise agent-building programme (see
+    // courseOverrides below). Sold 1-on-1 ONLY, two private classes a week,
+    // billed per 8-class month: Group and Mini Batch are null because that
+    // course never sells them.
+    "gemini": {
+      "india":         { "group": null, "miniBatch": null, "personal": 14999 },
+      "international": { "group": null, "miniBatch": null, "personal": 250 }
+    },
+
     // In-school bootcamp programmes (published inside school-page FAQ schema).
     "school": {
       "india":         { "group": 1499, "miniBatch": null, "personal": 2999 },
@@ -76,7 +85,8 @@
     "codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals": "agents",
     "ai-agents-with-microsoft-copilot-studio-course-for-teens":                 "agents",
     "ai-agents-with-microsoft-copilot-studio-course-for-college-students":      "agents",
-    "ai-agents-with-microsoft-copilot-studio-masterclass-for-professionals":    "agents"
+    "ai-agents-with-microsoft-copilot-studio-masterclass-for-professionals":    "agents",
+    "build-ai-agents-with-google-gemini-enterprise-course":                      "gemini"
   },
 
   // ───────────────────────────────────────────────────────────────────────
