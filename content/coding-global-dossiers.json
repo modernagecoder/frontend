@@ -8588,5 +8588,55 @@
       "Any claim about carnival customs, Fortuna Sittard or the fortifications. Summarised rather than quoted in the sources read, so left out.",
       "Anything the Maastricht, Venlo and Limburg pages own, including their figures and arguments."
     ]
+  },
+  "coding-classes-in-nissewaard": {
+    "market": "Nissewaard",
+    "bodyClass": "cg-nsw",
+    "pageType": "city",
+    "curriculumAuthority": "Gemeente Nissewaard, Zuid-Holland: 89,112 residents (statistics office, 1 January 2026), 88,341 (2025), 84,771 (2013), 83,122 (1995), the years 1995 to 2014 recalculated to present boundaries after the 2015 merger; 43,340 men and 45,001 women (2025); 40,096 households (2025) averaging 2.18, 13,993 one-person, 26,103 multi-person, 14,324 with children; ages (2026) 14,107 under fifteen, 9,564 fifteen to twenty-five, 23,052 twenty-five to forty-five, 22,704 forty-five to sixty-five, 19,685 sixty-five or over; 8,379 hectares, 7,331 land, 1,048 water, published density 1,205; 40,514 dwellings (2025), 23,903 owner-occupied at 59 percent, 16,611 rented at 41 percent; estimated average value 308,000 euro; income 34,000 euro per resident and 41,700 per recipient (2024); 2.7 percent in poverty; origin (2025) 61,037 Dutch, 7,570 European, 19,734 non-European, 74,009 born in the Netherlands; 7 woonplaatsen, 24 wijken, 90 buurten; 31 primary establishments with 7,532 pupils and 9 secondary with 4,696 (2026); 2,884 MBO, 1,560 HBO, 450 WO students at institutions (2025). Encyclopaedia (Nissewaard): a municipality on Voorne-Putten in the south of Zuid-Holland, formed 1 January 2015 by merging Spijkenisse and Bernisse; the councils chose the name Nissewaard in July 2013; kernen include Spijkenisse, Geervliet, Hekelingen, Simonshaven, Abbenbroek, Heenvliet, Zuidland; infobox 89,111 on 1 January 2026, 83.79 square kilometres. Encyclopaedia (Spijkenisse): groeigemeente 1958, groeikern with a raised target 1977; around 1990, 26,400 dwellings for 68,000 residents, almost twenty new wijken, a metro connection with Rotterdam and three metro stations, a new town centre, a hospital; the Spijkenisserbrug of 1903 brought more activity and variety; links to the Rotterdam port area including the Hartelbrug; the Boekenberg library and cultural centre and the theatre de Stoep; the medieval Dorpskerk the oldest building; 72,830 residents on 1 January 2023. Regio Midden holidays. The city page teaches the composition effect with a labelled invented illustration.",
+    "localProject": "Split the average before you explain it. Spijkenisse was filled in a burst, groeigemeente in 1958 and groeikern in 1977, with about 68,000 residents in 26,400 dwellings and almost twenty new wijken by around 1990, and a place filled that way ages together, so its overall averages can move because the proportions of household types change while each type stays the same. The page shows this with a clearly invented illustration (families at 3.5 and older households at 1.6; 70 to 30 gives 2.93, 40 to 60 gives 2.36, a fall of 0.57 from the mix alone) and makes no claim about actual Nissewaard household sizes over time. The programming form is dataset shift: a handwriting model at 98 percent on neat writers and 85 on hurried ones falls from about 95 to about 92 percent overall when hurried writers rise from a fifth to a half, with no change on either group; app ratings after a launch abroad, school averages with more first-year pupils and company salary averages after junior hiring follow the same pattern. The defences are storing each record's group, showing shares beside averages, decomposing every change into within-group and mix parts, recomputing with the mix held fixed, and monitoring by group. Composition effect taken from the tracker free list. Distinct from weighted versus unweighted averages (Oman), which is about how one average is formed rather than how it changes, from the mean of ratios (Stratum), from households versus persons (Charlois) and from self-selection (Amsterdam-Oost).",
+    "requiredMentions": [
+      "83,122",
+      "84,771",
+      "40,096",
+      "13,993",
+      "14,324",
+      "40,514",
+      "23,903",
+      "7,532",
+      "4,696",
+      "19,685",
+      "Boekenberg",
+      "Spijkenisserbrug",
+      "Geervliet",
+      "Simonshaven"
+    ],
+    "sources": [
+      {
+        "claim": "Gemeente Nissewaard: 89,112 inwoners (2026), 88,341 (2025), 84,771 (2013), 83,122 (1995), historical data 1995-2014 recalculated to current boundaries due to the 2015 merger of Bernisse and Spijkenisse; mannen 43,340, vrouwen 45,001 (2025); ages 0-15 14,107, 15-25 9,564, 25-45 23,052, 45-65 22,704, 65+ 19,685 (2026); 40,096 huishoudens, 13,993 eenpersoons, 26,103 meerpersoons, 14,324 met kinderen, gemiddeld 2.18 (2025); 8,379 hectare, land 7,331, water 1,048; bevolkingsdichtheid 1,205; woningvoorraad 40,514, koopwoningen 23,903 (59 percent), huurwoningen 16,611 (41 percent) (2025); gemiddelde WOZ 308,000 euro; gemiddeld inkomen per inwoner 34,000 and per inkomensontvanger 41,700 euro (2024); personen in armoede 2.7 percent; basisonderwijs 31 vestigingen 7,532 leerlingen, voortgezet onderwijs 9 vestigingen 4,696 leerlingen (2026); MBO 2,884, HBO 1,560, WO 450 studenten (2025); geboren in Nederland 74,009, herkomst Nederland 61,037, Europa 7,570, buiten Europa 19,734 (2025); 7 woonplaatsen, 24 wijken, 90 buurten.",
+        "url": "https://allecijfers.nl/gemeente/nissewaard/"
+      },
+      {
+        "claim": "Nissewaard (encyclopaedia): Nissewaard is een gemeente op het eiland Voorne-Putten in het zuiden van de Nederlandse provincie Zuid-Holland. De gemeente is op 1 januari 2015 ontstaan door samenvoeging van de gemeenten Spijkenisse en Bernisse. De gemeenteraden van Spijkenisse en van Bernisse hebben in juli 2013 tot de nieuwe naam Nissewaard besloten. Kernen include Spijkenisse, Geervliet, Hekelingen, Simonshaven, Abbenbroek, Heenvliet, Zuidland. Infobox: 89.111 inwoners (1 jan 2026), 83,79 km2 (73,58 land, 10,21 water).",
+        "url": "https://nl.wikipedia.org/wiki/Nissewaard"
+      },
+      {
+        "claim": "Spijkenisse (encyclopaedia): In 1958 werd Spijkenisse officieel groeigemeente en in 1977 aanvaardde de gemeente Spijkenisse de status als groeikern met een verhoogde taakstelling. Na de periode van forse groei, rond 1990, had Spijkenisse 26.400 woningen die onderdak boden aan 68.000 inwoners, bijna twintig nieuwe wijken, een metro-verbinding met Rotterdam en drie metrostations, een nieuw stadscentrum, een ziekenhuis en talloze andere voorzieningen. Pas sinds de aanleg van de Spijkenisserbrug, in 1903, kwam er meer bedrijvigheid en meer diversiteit in de bevolking. Vanaf Voorne-Putten zijn sinds de eerste brug enkele verbindingen gemaakt met het noordelijk gelegen havengebied van Rotterdam (waaronder de Hartelbrug bij Spijkenisse). Zo zijn er een grote bibliotheek annex cultureel centrum (de Boekenberg) en is er een nieuw theater (de Stoep) gebouwd. De middeleeuwse Dorpskerk is het oudste gebouw in Spijkenisse. Spijkenisse is een stad met 72.830 inwoners (1 januari 2023) op het eiland Putten.",
+        "url": "https://nl.wikipedia.org/wiki/Spijkenisse"
+      },
+      {
+        "claim": "School holiday regions: regio Midden = Utrecht, Zuid-Holland and the northern part of Gelderland; regio Noord = Groningen, Friesland, Drenthe, Overijssel, Flevoland, Noord-Holland; regio Zuid = Zeeland, Noord-Brabant, Limburg and the southern part of Gelderland.",
+        "url": "https://www.rijksoverheid.nl/themas/onderwijs/schoolvakanties/regios-schoolvakantie"
+      }
+    ],
+    "rejectedClaims": [
+      "Any comparison of 68,000 residents in 26,400 Spijkenisse dwellings around 1990 with the present 2.18 people per Nissewaard household. Different units, different boundaries and different vintages.",
+      "Any claim that household size, income or age in Nissewaard has changed by a particular amount, or that the composition effect explains any real Nissewaard figure. The illustration is invented and labelled.",
+      "Any origin for the name Nissewaard. The encyclopaedia entry does not give one.",
+      "Any combination of the Spijkenisse count of 72,830 (2023) with the municipal row. Town against municipality is the Zeeland argument.",
+      "Any comment on the higher-education student counts. Reading those columns is the Westland argument.",
+      "Metro line letters, station names or the metro opening date. Summarised rather than quoted in the sources read.",
+      "Anything the Rotterdam, Dordrecht and Zuid-Holland pages own, including their districts and arguments."
+    ]
   }
 }
