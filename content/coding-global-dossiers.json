@@ -8534,5 +8534,59 @@
       "The Zonnestraal UNESCO history beyond the source sentence, and any claim about its present use.",
       "Anything the Amsterdam and Utrecht pages own, including their districts and arguments."
     ]
+  },
+  "coding-classes-in-sittard-geleen": {
+    "market": "Sittard-Geleen",
+    "bodyClass": "cg-stg",
+    "pageType": "city",
+    "curriculumAuthority": "Gemeente Sittard-Geleen, Limburg: 92,461 residents (statistics office, 1 January 2026), 92,491 (2025), 94,024 (2013), 96,089 (1995), earlier years recalculated to present boundaries; 46,075 men and 46,416 women (2025); 46,163 households (2025) averaging 1.96, 19,418 one-person, 12,552 with children; ages (2026) 11,220 under fifteen, 9,368 fifteen to twenty-five, 22,169 twenty-five to forty-five, 25,056 forty-five to sixty-five, 24,648 sixty-five or over; 8,058 hectares, 7,861 land, 197 water, published density 1,177; 47,306 dwellings (2025), 27,911 owner-occupied at 59 percent, 19,395 rented at 41 percent; estimated average value 271,000 euro; income 33,700 euro per resident and 39,500 per recipient (2024); 3.5 percent in poverty; origin (2025) 69,019 Dutch, 11,871 European, 11,601 non-European, 80,609 born in the Netherlands, 11,882 abroad; 8 wijken (Obbicht and Papenhoven, Holtum-Born, Guttecoven, Overhoven, Limbrichterveld, Sittard, Munstergeleen, Geleen), 37 buurten, 13 woonplaatsen; 25 primary establishments with 6,400 pupils and 8 secondary with 4,617 (2025); 3,840 MBO, 5,173 HBO, 700 WO students at institutions. Encyclopaedia: municipality formed 2001 by the administrative merger of Sittard, Geleen and Born; borders Belgium via the Maas in the west and Germany in the east; Sittard town rights 1243 from Duke Hendrik IV of Limburg; Sittard lies between two national borders in the flessenhals of Limburg, where Dutch territory is less than ten kilometres wide; Basiliek van Onze-Lieve-Vrouw van het Heilig Hart 1877 on the Oude Markt; Sint-Petrus Stoel van Antiochiekerk fourteenth century; evening life around the historic market; Sittard 37,490 in 2023. Geleen: a village of a little over 3,000 until the Staatsmijn Maurits was built (1915 to 1923); mine in production 1924, largest and most modern in Europe, closed 1967; 12,000 residents in 1930, 25,000 in 1955, 36,000 in 1980, 31,185 in 2023; the chemical complex stayed in operation and switched to natural gas; fertiliser became OCI Agro, SABIC took bulk chemicals, DSM kept fine chemicals; the park became independent as Chemelot; station Geleen-Lutterade on the Sittard to Maastricht line. Regio Zuid holidays. The city page observes the edge effect: calculations about the neighbourhood of a point are cut off where the data stops.",
+    "localProject": "Look at the edge before you trust the middle. At Sittard Dutch territory is less than ten kilometres wide, so both national borders lie within ten kilometres of any point there, and any count within ten kilometres made from Dutch data alone (residents, schools, shops, the average of neighbouring areas) is truncated at a border people and shops do not observe; every Dutch figure is correct but a question about a circle has been answered with data about a strip. The programming form is the edge effect: zero padding in image filters and convolutional networks, moving averages at the ends of a series, nearest-neighbour searches at the rim of a dataset, and heat maps that leave the far side of a border blank. The defences are to draw the data boundary separately from the real one, measure the share of points in the edge zone, choose and document a fill (outside data, mirroring, repetition, zeros or full windows only), compare two fills to measure edge uncertainty, and flag results that used filled neighbours. Taken from the tracker free list (edge and boundary effects). Kept modest under the Phase 5 method. Distinct from boundary changes in a series (Alkmaar, Zaanstad), from the unit of observation (Zeeland), from the denominator that excludes the served population (Venlo) and from representation edge cases (Maastricht). Makes no claim about any real count across either border.",
+    "requiredMentions": [
+      "96,089",
+      "94,024",
+      "46,163",
+      "19,418",
+      "12,552",
+      "47,306",
+      "27,911",
+      "4,617",
+      "5,173",
+      "24,648",
+      "Guttecoven",
+      "Munstergeleen",
+      "Chemelot",
+      "Obbicht"
+    ],
+    "sources": [
+      {
+        "claim": "Gemeente Sittard-Geleen: 92,461 inwoners (2026), 92,491 (2025), 94,024 (2013), 96,089 (1995), historical data recalculated to current boundaries; mannen 46,075, vrouwen 46,416 (2025); 46,163 huishoudens, 19,418 eenpersoons, 12,552 met kinderen, gemiddeld 1.96; ages 0-15 11,220, 15-25 9,368, 25-45 22,169, 45-65 25,056, 65+ 24,648 (2026); 8,058 hectare, land 7,861, water 197; bevolkingsdichtheid 1,177; woningvoorraad 47,306, koopwoningen 27,911 (59 percent), huurwoningen 19,395 (41 percent) (2025); gemiddelde WOZ 271,000 euro; gemiddeld inkomen per inwoner 33,700 and per inkomensontvanger 39,500 euro (2024); personen in armoede 3.5 percent; basisonderwijs 25 vestigingen 6,400 leerlingen, voortgezet onderwijs 8 vestigingen 4,617 leerlingen (2025); MBO 3,840, HBO 5,173, WO 700 studenten; herkomst Nederland 69,019, Europa 11,871, buiten Europa 11,601, geboren in Nederland 80,609, buiten Nederland 11,882 (2025); 8 wijken: Obbicht and Papenhoven, Holtum-Born, Guttecoven, Overhoven, Limbrichterveld, Sittard, Munstergeleen, Geleen; 37 buurten; 13 woonplaatsen.",
+        "url": "https://allecijfers.nl/gemeente/sittard-geleen/"
+      },
+      {
+        "claim": "Sittard-Geleen (encyclopaedia): In 2001 ontstond de huidige gemeente Sittard-Geleen door de bestuurlijke samenvoeging van de gemeenten Sittard, Geleen en Born. In het westen grenst Sittard-Geleen via de rivier de Maas aan Belgie en in het oosten aan Duitsland.",
+        "url": "https://nl.wikipedia.org/wiki/Sittard-Geleen"
+      },
+      {
+        "claim": "Sittard (encyclopaedia): Sittard groeide vanaf de 11e eeuw sterk uit. De plaats kreeg in 1243 stadsrechten van hertog Hendrik IV van Limburg. Sittard ligt ingeklemd tussen twee rijksgrenzen in de zogenoemde flessenhals van de provincie Limburg, waar het Nederlandse grondgebied nog geen tien kilometer breed is. Het uitgaansleven is geconcentreerd rond de historische markt waar veel cafes en restaurants te vinden zijn. De Basiliek van Onze-Lieve-Vrouw van het Heilig Hart, van 1877, aan de Oude Markt in Sittard-Centrum. De Sint-Petrus' Stoel van Antiochiekerk, uit de 14de eeuw, in Sittard-Centrum. Infobox: 37,490 inhabitants (2023).",
+        "url": "https://nl.wikipedia.org/wiki/Sittard"
+      },
+      {
+        "claim": "Geleen (encyclopaedia): Tot de bouw van de Staatsmijn Maurits (1915-1923) was Geleen een dorpje van ruim 3.000 inwoners. In 1924 werd de mijn in exploitatie genomen; zou weldra uitgroeien tot de grootste en modernste van Europa; sloot reeds in 1967. In 1930 bedroeg de bevolking al 12.000 zielen, in 1955: 25.000 en in 1980: 36.000. Anno 2023 wonen er 31.185 mensen. Het chemiecomplex van de Staatsmijnen bleef in functie en schakelde om op aardgas als grondstof. De kunstmesttak verzelfstandigde als OCI Agro, SABIC nam de bulkchemie over, de fijnchemie bleef in handen van de feitelijke opvolger van Staatsmijnen, DSM. Het chemiepark verzelfstandigde onder de naam Chemelot. Station Geleen-Lutterade aan de spoorverbinding Sittard - Maastricht.",
+        "url": "https://nl.wikipedia.org/wiki/Geleen"
+      },
+      {
+        "claim": "School holiday regions: regio Zuid = Zeeland, Noord-Brabant, Limburg and the southern part of Gelderland; regio Midden = Utrecht, Zuid-Holland and the northern part of Gelderland; regio Noord = Groningen, Friesland, Drenthe, Overijssel, Flevoland, Noord-Holland.",
+        "url": "https://www.rijksoverheid.nl/themas/onderwijs/schoolvakanties/regios-schoolvakantie"
+      }
+    ],
+    "rejectedClaims": [
+      "Any real count of residents, schools or shops within ten kilometres of Sittard, on either side of the border. Not in the sources read; the section is conceptual.",
+      "Any share of a ten-kilometre circle that lies outside the Netherlands. The width of the strip is given only as less than ten kilometres, so only the fact that both borders lie within ten kilometres is stated.",
+      "Any comparison of the Geleen figure of 31,185 or the Sittard figure of 37,490 with the municipal row. Town against municipality is the Zeeland argument.",
+      "Any account of the decline since 1995 beyond the subtraction on the same boundaries. Causes are not in the sources read.",
+      "Any comment on the higher-education student counts. Reading those columns is the Westland argument.",
+      "Any claim about carnival customs, Fortuna Sittard or the fortifications. Summarised rather than quoted in the sources read, so left out.",
+      "Anything the Maastricht, Venlo and Limburg pages own, including their figures and arguments."
+    ]
   }
 }
