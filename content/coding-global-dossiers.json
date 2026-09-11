@@ -9028,5 +9028,51 @@
       "Any comparison of the encyclopaedia figure of 77,803 with the statistics figure of 77,818. Two sources that disagree is the Breda argument.",
       "Anything the Rotterdam, Utrecht, Alphen aan den Rijn and Zuid-Holland pages own, including their figures and arguments."
     ]
+  },
+  "coding-classes-in-vlaardingen": {
+    "market": "Vlaardingen",
+    "bodyClass": "cg-vld",
+    "pageType": "city",
+    "curriculumAuthority": "Gemeente Vlaardingen, Zuid-Holland: 77,480 residents (statistics, 1 January 2026), 77,260 (2025), 70,905 (2013), 73,992 (1995); 37,695 men and 39,565 women (2025); ages (2026) 12,520 under fifteen, 8,369 fifteen to twenty-five, 21,353 twenty-five to forty-five, 19,122 forty-five to sixty-five, 16,116 sixty-five or over; 36,592 households (2025) averaging 2.08, 15,121 one-person, 12,098 with children; 2,669 hectares, 2,336 land, 333 water, published density 3,307; 37,117 dwellings (2025), 17,445 owner-occupied at 47 percent, 19,672 rented at 53 percent; estimated average value 303,000 euro; income 31,900 euro per resident and 39,400 per recipient (2024); 4.3 percent in poverty; 60,625 born in the Netherlands, 9,302 of European and 20,743 of non-European origin (2025); 8 wijken (Holy Noord, Holy Zuid, Broekpolder, Vlaardinger Ambacht, Westwijk, Centrum, Oostwijk, Vettenoordse Polder), 40 buurten; 23 primary establishments with 6,562 pupils, 9 secondary with 5,079, 965 MBO students at institutions. Encyclopaedia: Vlaardingen is best known as the haringstad; the fishing for herring, anchovy and cod is now in the past; herring fishing was an important economic activity certainly from the eighteenth century; the herring lugger VL92 Balder at the Oude Haven; town rights probably before 1273, since the rights granted by Count Floris V in 1273 indicated an extension of earlier rights; Levers Zeepmaatschappij, later Unilever, established in Vlaardingen in the twentieth century; in 2020 the town archaeologist Tim de Ridder held that the Hoogstraat must be the oldest continuously inhabited street in the Netherlands; the Grote Kerk on the Markt; infobox 77,462 on 1 January 2026 and 26.69 square kilometres, not combined with the statistics. Regio Midden holidays. The city page teaches dangling references and referential integrity.",
+    "localProject": "Follow every pointer before you trust it. The encyclopaedia infers that Vlaardingen probably had town rights before 1273, because the 1273 grant by Floris V was worded as an extension of earlier rights: a surviving record points at one that is not the record that survives, and the historians treat the pointer as evidence while naming the gap. The programming form is the dangling reference: orders holding the number of a deleted customer, links to moved pages, file paths and package names that no longer resolve, and AI citations to sources that were never written or say something else. The defences are foreign keys with a chosen delete rule, redirects whenever a page or file moves, scheduled link and reference checks, pinned dependencies, and opening every cited source in AI output before relying on it. Chosen after a case-sensitive check found no page using foreign key, referential, dangling or orphan. Distinct from Helmond, where a value filled by a rule cannot confirm the rule (the missing date is imputed), since this page fills nothing and asks only whether references resolve; from Uithoorn, which asks which layer an absence is in; and from Den Bosch, which validates relationships between fields inside one record.",
+    "requiredMentions": [
+      "73,992",
+      "70,905",
+      "36,592",
+      "15,121",
+      "12,098",
+      "37,117",
+      "17,445",
+      "19,672",
+      "6,562",
+      "5,079",
+      "16,116",
+      "Balder",
+      "Vettenoordse Polder",
+      "Vlaardinger Ambacht"
+    ],
+    "sources": [
+      {
+        "claim": "Gemeente Vlaardingen: 77,480 inwoners (2026), 77,260 (2025), 70,905 (2013), 73,992 (1995); mannen 37,695, vrouwen 39,565 (2025); 36,592 huishoudens, 15,121 eenpersoons (41 percent), 12,098 met kinderen (33 percent), gemiddeld 2.08 (2025); ages 0-15 12,520, 15-25 8,369, 25-45 21,353, 45-65 19,122, 65+ 16,116 (2026); 2,669 hectare, land 2,336, water 333; bevolkingsdichtheid 3,307; woningvoorraad 37,117, koop 17,445 (47 percent), huur 19,672 (53 percent) (2025); gemiddelde WOZ 303,000 euro; gemiddeld inkomen per inwoner 31,900 and per inkomensontvanger 39,400 euro (2024); personen in armoede 4.3 percent; basisonderwijs 23 vestigingen 6,562 leerlingen, voortgezet onderwijs 9 vestigingen 5,079 leerlingen, MBO 965; geboren in Nederland 60,625, herkomst Europa 9,302, buiten Europa 20,743 (2025); 8 wijken: Holy Noord, Holy Zuid, Broekpolder, Vlaardinger Ambacht, Westwijk, Centrum, Oostwijk, Vettenoordse Polder; 40 buurten.",
+        "url": "https://allecijfers.nl/gemeente/vlaardingen/"
+      },
+      {
+        "claim": "Vlaardingen (encyclopaedia): Vlaardingen is vooral bekend als haringstad. De visserij (op haring, ansjovis en kabeljauw) is echter verleden tijd. De haringvisserij was voor Vlaardingen zeker vanaf de achttiende eeuw een belangrijke economische activiteit. VL92 Balder at the Oude Haven. Vlaardingen verkreeg waarschijnlijk al voor 1273 stadsrechten, aangezien in 1273 Graaf Floris V stadsrechten verleende die erop wezen dat ze een uitbreiding waren van eerder verleende rechten. In 2020 meende stadsarcheoloog Tim de Ridder dat de Hoogstraat in Vlaardingen de oudste continu bewoond gebleven straat van Nederland moet zijn. Levers Zeepmaatschappij (het latere Unilever). Grote Kerk on the Markt. Infobox: 77.462 inwoners (1 januari 2026), 26,69 km2. Wijken: Centrum, Westwijk, Vettenoordse Polder, Oostwijk, Vlaardinger Ambacht/Babberspolder, Holy-Zuid, Holy-Noord, Broekpolder.",
+        "url": "https://nl.wikipedia.org/wiki/Vlaardingen"
+      },
+      {
+        "claim": "School holiday regions: regio Midden = Utrecht, Zuid-Holland and the northern part of Gelderland; regio Noord = Groningen, Friesland, Drenthe, Overijssel, Flevoland, Noord-Holland; regio Zuid = Zeeland, Noord-Brabant, Limburg and the southern part of Gelderland.",
+        "url": "https://www.rijksoverheid.nl/themas/onderwijs/schoolvakanties/regios-schoolvakantie"
+      }
+    ],
+    "rejectedClaims": [
+      "Any date or content for an earlier Vlaardingen charter. The source infers one only from the wording of 1273.",
+      "That VL92 Balder is the last herring lugger. The source read places it in the Oude Haven without that claim.",
+      "Any test of the Hoogstraat claim. It is reported as the town archaeologist's view, and superlatives are the Zwolle and Nijmegen argument.",
+      "Any cause for the fall in population to 2013 and the rise after. Not in the sources read.",
+      "A Dutch-origin count derived by subtraction. Not published in the row read.",
+      "Any comparison of the encyclopaedia figure of 77,462 with the statistics figure of 77,480. Two sources that disagree is the Breda argument.",
+      "Anything the Schiedam, Rotterdam, Delfshaven and Zuid-Holland pages own, including their figures and arguments."
+    ]
   }
 }

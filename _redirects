@@ -2382,4 +2382,8 @@
 # International growth cluster (coding-global.css). Must precede the /* catch-all.
 /coding-classes-in-gouda /src/pages/coding-classes-in-gouda.html 200
 /coding-classes-in-gouda.md /src/pages/coding-classes-in-gouda.md 200
+
+# International growth cluster (coding-global.css). Must precede the /* catch-all.
+/coding-classes-in-vlaardingen /src/pages/coding-classes-in-vlaardingen.html 200
+/coding-classes-in-vlaardingen.md /src/pages/coding-classes-in-vlaardingen.md 200
 /* /src/pages/404.html 404

@@ -68,7 +68,7 @@ Six regions, each with its municipalities and their 1 January 2026 population, s
 
 ### Rijnmond: the ring around the port
 
-[Nissewaard](/coding-classes-in-nissewaard) 89,112, with its own page; [Schiedam](/coding-classes-in-schiedam) 81,931, with its own page; Vlaardingen 77,480; Voorne aan Zee 75,012; Capelle aan den IJssel 69,698; Barendrecht 48,701; Ridderkerk 48,084; Maassluis 37,125; Krimpen aan den IJssel 29,864; Albrandswaard 26,559. Ten municipalities that share Rotterdam's metro, its port and its river, and not its page.
+[Nissewaard](/coding-classes-in-nissewaard) 89,112, with its own page; [Schiedam](/coding-classes-in-schiedam) 81,931, with its own page; [Vlaardingen](/coding-classes-in-vlaardingen) 77,480, with its own page; Voorne aan Zee 75,012; Capelle aan den IJssel 69,698; Barendrecht 48,701; Ridderkerk 48,084; Maassluis 37,125; Krimpen aan den IJssel 29,864; Albrandswaard 26,559. Ten municipalities that share Rotterdam's metro, its port and its river, and not its page.
 
 ### The Drechtsteden and the Alblasserwaard
 
@@ -222,7 +222,7 @@ It depends entirely on where the line is drawn, and nobody official has drawn it
 
 ### Which Zuid-Holland towns get their own page, and which are covered here?
 
-Rotterdam, The Hague, Leiden, Delft, Zoetermeer, Dordrecht, Westland, Alphen aan den Rijn, Nissewaard, Schiedam, Leidschendam-Voorburg and Gouda have pages already. Vlaardingen, Capelle, Wassenaar, Voorschoten, Oegstgeest and Rijswijk follow in this series. Every other municipality appears above with its population, and the class a family books from Hillegom is the class a family books from Rotterdam.
+Rotterdam, The Hague, Leiden, Delft, Zoetermeer, Dordrecht, Westland, Alphen aan den Rijn, Nissewaard, Schiedam, Leidschendam-Voorburg, Gouda and Vlaardingen have pages already. Capelle, Wassenaar, Voorschoten, Oegstgeest and Rijswijk follow in this series. Every other municipality appears above with its population, and the class a family books from Hillegom is the class a family books from Rotterdam.
 
 ### Is Zuid-Holland really the densest province?
 
