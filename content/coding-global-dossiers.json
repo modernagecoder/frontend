@@ -8983,5 +8983,50 @@
       "Any claim about the outlet centre beyond its opening, original name and change of owner.",
       "Anything the Breda, Tilburg, Den Bosch and Noord-Brabant pages own, including their figures and arguments."
     ]
+  },
+  "coding-classes-in-gouda": {
+    "market": "Gouda",
+    "bodyClass": "cg-gda",
+    "pageType": "city",
+    "curriculumAuthority": "Gemeente Gouda, Zuid-Holland: 77,818 residents (statistics, 1 January 2026), 76,514 (2025), 70,904 (2013), 70,440 (1995), growth given by the site as 7,378 or 10 percent; 37,559 men and 38,955 women (2025); ages (2026) 11,861 under fifteen, 8,889 fifteen to twenty-five, 21,153 twenty-five to forty-five, 19,634 forty-five to sixty-five, 16,281 sixty-five or over; 35,577 households (2025) averaging 2.11, 14,212 one-person, 21,365 multi-person, 11,282 with children; 1,811 hectares, 1,650 land, 161 water, published density 4,637; 35,205 dwellings (2025), 19,715 owner-occupied at 56 percent, 15,490 rented at 44 percent; estimated average value 356,000 euro; income 34,500 euro per resident and 42,000 per recipient (2024); 2.7 percent in poverty; 63,373 born in the Netherlands, origin 52,918 Dutch, 6,303 European, 17,293 non-European (2025); 9 wijken including Binnenstad, Noord, Bloemendaal, Plaswijck, and 54 buurten; 31 primary establishments with 7,248 pupils, 17 secondary with 9,592; 3,901 MBO, 1,540 HBO and 920 WO students at institutions. Encyclopaedia: in 1272 Count Floris V granted town rights; the weekly Thursday cheese market kept on only as a tourist phenomenon; the Waag built in 1668 to a design by Pieter Post; the Sint-Janskerk at 123 metres the longest church building in the Netherlands, known for its stained-glass windows; the town hall built of natural stone after the last great town fire, between 1448 and 1450; known for making beer, candles, pipes, Gouds plateel and stroopwafels; the annual festival of light Gouda bij Kaarslicht; infobox 77,803 on 1 January 2026, 18.11 square kilometres, 16.50 land, 1.61 water, not combined with the statistics. Regio Midden holidays. The city page teaches pipelines and silent failures at their joints.",
+    "localProject": "A pipe is only as trustworthy as its least examined joint. The encyclopaedia lists pipes among the things Gouda is known for making; the page uses this only as an image for software pipes, small tools joined so that each output feeds the next. A four-stage example (read, pick, sort, count) shows how the last and most visible stage is the least likely to be wrong while earlier stages fail quietly: an empty stream from a wrong file name, a case-sensitive match that drops lines, an encoding that mis-sorts, and a shell pipeline that by default reports only its last command's status. The same weakness appears in nightly data pipelines (joins that drop unmatched rows), machine learning workflows (preprocessing that differs between training and use) and AI agents chaining tools (an error returned as text and written around). The defences are one job per stage tested alone, counts logged at every joint, failure anywhere stopping the run, one pipeline object for training and use, and keeping intermediate results. A programming-practice point rather than a statistical fallacy. Chosen after a case-sensitive check found no page using Unix or pipes in this sense. Distinct from Hengelo, which concerns what a cleaning filter should remove for a given question, from Oss, which concerns reused data fields, and from Lelystad, which concerns single points of failure.",
+    "requiredMentions": [
+      "70,440",
+      "70,904",
+      "35,577",
+      "14,212",
+      "11,282",
+      "35,205",
+      "15,490",
+      "7,248",
+      "9,592",
+      "16,281",
+      "Pieter Post",
+      "Kaarslicht",
+      "plateel",
+      "Plaswijck"
+    ],
+    "sources": [
+      {
+        "claim": "Gemeente Gouda: 77,818 inwoners (2026), 76,514 (2025), 70,904 (2013), 70,440 (1995), growth 7,378 (10 percent); mannen 37,559, vrouwen 38,955; ages 0-15 11,861, 15-25 8,889, 25-45 21,153, 45-65 19,634, 65+ 16,281; 35,577 huishoudens, 14,212 eenpersoons (40 percent), 21,365 meerpersoons, 11,282 met kinderen (32 percent), gemiddeld 2.11; 1,811 hectare, land 1,650, water 161; bevolkingsdichtheid 4,637; woningvoorraad 35,205, koop 19,715 (56 percent), huur 15,490 (44 percent) (2025); gemiddelde WOZ 356,000 euro; gemiddeld inkomen per inwoner 34,500 and per inkomensontvanger 42,000 euro (2024); personen in armoede 2.7 percent; basisonderwijs 31 vestigingen 7,248 leerlingen, voortgezet onderwijs 17 vestigingen 9,592 leerlingen, MBO 3,901, HBO 1,540, WO 920; geboren in Nederland 63,373, herkomst Nederland 52,918, Europa 6,303, buiten Europa 17,293 (2025); 9 wijken including Binnenstad, Noord, Bloemendaal, Plaswijck; 54 buurten.",
+        "url": "https://allecijfers.nl/gemeente/gouda/"
+      },
+      {
+        "claim": "Gouda (encyclopaedia): In 1272 verleende Graaf Floris V stadsrechten aan Gouda. De wekelijkse kaasmarkt op donderdag bleef alleen als toeristisch fenomeen gehandhaafd. De Waag werd gebouwd in 1668 naar een ontwerp van architect Pieter Post. De Sint-Janskerk is met 123 meter het langste kerkgebouw van Nederland en is vooral bekend vanwege de gebrandschilderde ramen. Het stadhuis, gebouwd uit natuursteen na de laatste grote stadsbrand tussen 1448 en 1450. Ten slotte geniet Gouda bekendheid door de fabricage van bier, kaarsen, pijpen, Gouds plateel, stroopwafels. Het jaarlijkse lichtfeest Gouda bij Kaarslicht. Infobox: 77.803 inwoners (1 jan 2026), 18,11 km2 (16,50 land, 1,61 water).",
+        "url": "https://nl.wikipedia.org/wiki/Gouda"
+      },
+      {
+        "claim": "School holiday regions: regio Midden = Utrecht, Zuid-Holland and the northern part of Gelderland; regio Noord = Groningen, Friesland, Drenthe, Overijssel, Flevoland, Noord-Holland; regio Zuid = Zeeland, Noord-Brabant, Limburg and the southern part of Gelderland.",
+        "url": "https://www.rijksoverheid.nl/themas/onderwijs/schoolvakanties/regios-schoolvakantie"
+      }
+    ],
+    "rejectedClaims": [
+      "Any account of how Gouda clay pipes were made or of the pipe-making trade beyond the encyclopaedia's list.",
+      "Any comparison of 9,592 secondary pupils at establishments in Gouda with residents of secondary-school age. Pupils at located schools against resident pupils is the Utrecht argument.",
+      "The number of stained-glass windows in the Sint-Janskerk. Not in the sentence read.",
+      "Any claim that the stone town hall was built because of the fire. The source places it after the last great fire, and the page says only that.",
+      "Any comparison of the encyclopaedia figure of 77,803 with the statistics figure of 77,818. Two sources that disagree is the Breda argument.",
+      "Anything the Rotterdam, Utrecht, Alphen aan den Rijn and Zuid-Holland pages own, including their figures and arguments."
+    ]
   }
 }
