@@ -2358,4 +2358,8 @@
 # International growth cluster (coding-global.css). Must precede the /* catch-all.
 /coding-classes-in-lelystad /src/pages/coding-classes-in-lelystad.html 200
 /coding-classes-in-lelystad.md /src/pages/coding-classes-in-lelystad.md 200
+
+# International growth cluster (coding-global.css). Must precede the /* catch-all.
+/coding-classes-in-meierijstad /src/pages/coding-classes-in-meierijstad.html 200
+/coding-classes-in-meierijstad.md /src/pages/coding-classes-in-meierijstad.md 200
 /* /src/pages/404.html 404

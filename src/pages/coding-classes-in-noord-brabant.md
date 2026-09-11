@@ -80,7 +80,7 @@ Altena 58,946; Waalwijk 51,635; Heusden 46,689; Drimmelen 28,402; Loon op Zand 2
 
 ### 's-Hertogenbosch and the Meierij
 
-['s-Hertogenbosch](/coding-classes-in-den-bosch) 162,295, the capital, called Den Bosch by everyone in it, with its own page; Meierijstad 85,236; Boxtel 34,302; Vught 33,202; Sint-Michielsgestel 30,191. The province's seat and the bailiwick that historically surrounded it.
+['s-Hertogenbosch](/coding-classes-in-den-bosch) 162,295, the capital, called Den Bosch by everyone in it, with its own page; [Meierijstad](/coding-classes-in-meierijstad) 85,236, with its own page; Boxtel 34,302; Vught 33,202; Sint-Michielsgestel 30,191. The province's seat and the bailiwick that historically surrounded it.
 
 ### Oss and the north-east
 
@@ -233,7 +233,7 @@ Because Baarle-Nassau, with 22 pieces of Belgium inside it and seven pieces of t
 
 ### Which Noord-Brabant towns get their own page, and which are covered here?
 
-Eindhoven already has one. Tilburg, Breda, 's-Hertogenbosch, Helmond, Oss and Roosendaal follow in this series. The other 49, from Bergen op Zoom and Meierijstad to Boekel and Baarle-Nassau, are listed above with their populations and served from this page.
+Eindhoven, Tilburg, Breda, 's-Hertogenbosch, Helmond, Oss and Meierijstad have pages already. Roosendaal and Bergen op Zoom follow in this series. The other 47, from Boxtel and Vught to Boekel and Baarle-Nassau, are listed above with their populations and served from this page.
 
 ### Is Den Bosch or Eindhoven the capital?
 
@@ -269,7 +269,7 @@ Between five and ten, matched on level, pace and goal rather than on age, school
 
 ## East to Brainport, south to Limburg, and up to the country
 
-The province's largest city already has its page: [Eindhoven](/coding-classes-in-eindhoven), with the Brainport ratio chain. East along the A67 is [Limburg](/coding-classes-in-limburg), with the hill that stopped being the highest point in the country. Both sit under the [Netherlands coding hub](/coding-classes-in-netherlands), and a learner who wants a model that learns rather than a program that runs should look at [AI and machine learning classes in the Netherlands](/ai-and-machine-learning-classes-in-netherlands) or the [AI and Python Academy](/ai-and-python-academy-netherlands). [Tilburg](/coding-classes-in-tilburg) has its page; [Breda](/coding-classes-in-breda) too; so do [Den Bosch](/coding-classes-in-den-bosch) and [Helmond](/coding-classes-in-helmond); and so does [Oss](/coding-classes-in-oss). Roosendaal follows.
+The province's largest city already has its page: [Eindhoven](/coding-classes-in-eindhoven), with the Brainport ratio chain. East along the A67 is [Limburg](/coding-classes-in-limburg), with the hill that stopped being the highest point in the country. Both sit under the [Netherlands coding hub](/coding-classes-in-netherlands), and a learner who wants a model that learns rather than a program that runs should look at [AI and machine learning classes in the Netherlands](/ai-and-machine-learning-classes-in-netherlands) or the [AI and Python Academy](/ai-and-python-academy-netherlands). [Tilburg](/coding-classes-in-tilburg) has its page; [Breda](/coding-classes-in-breda) too; so do [Den Bosch](/coding-classes-in-den-bosch) and [Helmond](/coding-classes-in-helmond); and so do [Oss](/coding-classes-in-oss) and [Meierijstad](/coding-classes-in-meierijstad). Roosendaal follows.
 
 ## Contact
 

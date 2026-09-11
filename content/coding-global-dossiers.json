@@ -8738,5 +8738,51 @@
       "Necessary versus sufficient conditions, which Escamp already owns; an earlier draft of this page used it and was rewritten.",
       "Anything the Almere and Flevoland pages own, including base-year growth rates and their datum argument."
     ]
+  },
+  "coding-classes-in-meierijstad": {
+    "market": "Meierijstad",
+    "bodyClass": "cg-mrs",
+    "pageType": "city",
+    "curriculumAuthority": "Gemeente Meierijstad, Noord-Brabant: 85,236 residents (statistics office, 1 January 2026), 84,711 (2025), 78,822 (2013), 73,816 (1995), the years 1995 to 2016 calculated for the present boundaries after the 2017 merger; 42,727 men and 41,984 women (2025); 37,083 households (2025) averaging 2.25, 12,044 one-person, 12,815 with children; ages (2026) 12,552 under fifteen, 9,240 fifteen to twenty-five, 20,648 twenty-five to forty-five, 22,970 forty-five to sixty-five, 19,826 sixty-five or over; 18,552 hectares, 18,400 land, 152 water, published density 460; 36,823 dwellings (2025), 25,408 owner-occupied at 69 percent, 11,415 rented at 31 percent; estimated average value 449,000 euro; income 34,400 euro per resident and 41,000 per recipient (2024); 1.7 percent in poverty; origin (2025) 69,396 Dutch, 6,662 European, 8,653 non-European, 75,255 born in the Netherlands and 9,456 abroad; 4 woonplaatsen, 4 wijken, 93 buurten; 30 primary establishments with 6,930 pupils and 6 secondary with 4,212 (2026); 1,830 MBO students at institutions. Encyclopaedia: established 1 January 2017 by merger of Schijndel (23,624), Sint-Oedenrode (17,907) and Veghel (38,304) in the Meierij; a local advisory committee under René Bastiaanse; a name vote open to all residents aged twelve and over, the councils having said beforehand they would accept the winner as the final name; Meierijstad 2,172 votes (42 percent), Land van Rode 1,621 (31), Koevering 1,423 (27), total 5,216; woonplaatsen in 2023 Veghel 33,895, Schijndel 24,030, Sint-Oedenrode 18,530, Erp 7,260 (the fourth town by size); the council meets in Kasteel Dommelrode, the former town hall of Sint-Oedenrode; crossed by the A50 and the Zuid-Willemsvaart; infobox 85,249 on 1 January 2026 and 185.52 square kilometres, not combined with the office row. Regio Zuid holidays. The city page teaches plurality versus majority.",
+    "localProject": "A winner is not a majority. The Meierijstad name vote, open to residents aged twelve and over with the councils committed in advance to accept the result, gave Meierijstad 2,172 of 5,216 votes (42 percent), Land van Rode 31 and Koevering 27, so 3,044 voters, 58 percent, chose another name. The count answers which name was marked most often and cannot answer how the other voters ranked the winner, because the ballot collected first choices only; the page does not question the result and makes no estimate of rankings. The programming form is argmax: classifiers return the top label whether it had 97 or 38 percent, random forests decide by the most common vote among trees (a plurality once there are more than two classes), A/B/C tests crown a variant whose lead may be inside the noise, and recommendation systems report the most-clicked item. The defences are keeping the full distribution, reporting share and margin beside the winner, calibration, an abstain rule for weak results, and collecting rankings where the order of preference is the question. Chosen after a case-sensitive keyword check found no page using plurality. Distinct from non-response (Purmerend), which concerns who took part rather than how their votes were counted, from mean versus mode (Groningen), which concerns a numeric average against the commonest value, and from ranking in noise (Breda), which concerns rank stability under measurement uncertainty.",
+    "requiredMentions": [
+      "73,816",
+      "78,822",
+      "37,083",
+      "12,044",
+      "12,815",
+      "36,823",
+      "25,408",
+      "11,415",
+      "4,212",
+      "19,826",
+      "Dommelrode",
+      "Koevering",
+      "Land van Rode",
+      "Bastiaanse"
+    ],
+    "sources": [
+      {
+        "claim": "Gemeente Meierijstad: 85,236 inwoners (2026), 84,711 (2025), 78,822 (2013), 73,816 (1995); historical data for 1995-2016 are calculated figures (formed 2017 from Schijndel, Sint-Oedenrode and Veghel); mannen 42,727, vrouwen 41,984 (2025); 37,083 huishoudens, 12,044 eenpersoons (32 percent), 12,815 met kinderen (35 percent), gemiddeld 2.25; ages 0-15 12,552, 15-25 9,240, 25-45 20,648, 45-65 22,970, 65+ 19,826 (2026); 18,552 hectare, land 18,400, water 152; bevolkingsdichtheid 460; woningvoorraad 36,823, koopwoningen 25,408 (69 percent), huurwoningen 11,415 (31 percent) (2025); gemiddelde WOZ 449,000 euro; gemiddeld inkomen per inwoner 34,400 and per inkomensontvanger 41,000 euro (2024); personen in armoede 1.7 percent; basisonderwijs 30 vestigingen 6,930 leerlingen, voortgezet onderwijs 6 vestigingen 4,212 leerlingen (2026), MBO 1,830; geboren in Nederland 75,255, buiten Nederland 9,456, herkomst Nederland 69,396, Europa 6,662, buiten Europa 8,653 (2025); 4 woonplaatsen, 4 wijken, 93 buurten. De gemeente Meierijstad is in 2017 bij een gemeentelijke herindeling ontstaan vanuit de gemeenten Schijndel, Sint-Oedenrode en Veghel.",
+        "url": "https://allecijfers.nl/gemeente/meierijstad/"
+      },
+      {
+        "claim": "Meierijstad (encyclopaedia): Meierijstad is een Nederlandse gemeente, die per 1 januari 2017 werd ingesteld door fusie van drie Oost-Brabantse gemeenten in de regio Meierij: Schijndel (23.624 inwoners), Sint-Oedenrode (17.907 inwoners) en Veghel (38.304 inwoners). Er werd een lokale adviescommissie ingeschakeld, die onder leiding stond van Rene Bastiaanse. De stemming was opengesteld voor alle inwoners van 12 jaar en ouder. De gemeenteraden hadden vooraf aangegeven de winnaar hiervan te accepteren als definitieve naam. Meierijstad kwam als winnaar uit de bus, gevolgd door Land van Rode en Koevering: Meierijstad 2.172 (42), Land van Rode 1.621 (31), Koevering 1.423 (27), totaal 5.216. Woonplaatsen 2023: Veghel 33.895, Schijndel 24.030, Sint-Oedenrode 18.530, Erp 7.260 (naar grootte de vierde woonkern). De raadsvergaderingen van de gemeente vinden plaats in Kasteel Dommelrode, het voormalige gemeentehuis van Sint-Oedenrode. Het grondgebied wordt doorkruist door de autosnelweg A50 en de Zuid-Willemsvaart. Infobox: 85.249 inwoners (1 jan 2026), 185,52 km2.",
+        "url": "https://nl.wikipedia.org/wiki/Meierijstad"
+      },
+      {
+        "claim": "School holiday regions: regio Zuid = Zeeland, Noord-Brabant, Limburg and the southern part of Gelderland; regio Midden = Utrecht, Zuid-Holland and the northern part of Gelderland; regio Noord = Groningen, Friesland, Drenthe, Overijssel, Flevoland, Noord-Holland.",
+        "url": "https://www.rijksoverheid.nl/themas/onderwijs/schoolvakanties/regios-schoolvakantie"
+      }
+    ],
+    "rejectedClaims": [
+      "Any estimate of how voters would have ranked the three names, or of whether another counting method would have produced a different name.",
+      "Any turnout figure or estimate of eligible voters. Not in the sources read, and participation is the Purmerend argument.",
+      "Any criticism of the vote or the name. The rules were published and the councils accepted the result in advance.",
+      "The date of the name vote, which the sources read did not state in a quotable sentence.",
+      "Any comparison of the woonplaats figures for 2023 with the municipal row. Town against municipality is the Zeeland argument.",
+      "Any claim about companies based in Meierijstad. None was in the sources read.",
+      "Anything the Den Bosch, Eindhoven, Oss, Helmond and Noord-Brabant pages own, including their figures and arguments."
+    ]
   }
 }
