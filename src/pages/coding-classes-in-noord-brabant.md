@@ -269,7 +269,7 @@ Between five and ten, matched on level, pace and goal rather than on age, school
 
 ## East to Brainport, south to Limburg, and up to the country
 
-The province's largest city already has its page: [Eindhoven](/coding-classes-in-eindhoven), with the Brainport ratio chain. East along the A67 is [Limburg](/coding-classes-in-limburg), with the hill that stopped being the highest point in the country. Both sit under the [Netherlands coding hub](/coding-classes-in-netherlands), and a learner who wants a model that learns rather than a program that runs should look at [AI and machine learning classes in the Netherlands](/ai-and-machine-learning-classes-in-netherlands) or the [AI and Python Academy](/ai-and-python-academy-netherlands). [Tilburg](/coding-classes-in-tilburg) has its page; [Breda](/coding-classes-in-breda) too; 's-Hertogenbosch, Helmond, Oss and Roosendaal follow.
+The province's largest city already has its page: [Eindhoven](/coding-classes-in-eindhoven), with the Brainport ratio chain. East along the A67 is [Limburg](/coding-classes-in-limburg), with the hill that stopped being the highest point in the country. Both sit under the [Netherlands coding hub](/coding-classes-in-netherlands), and a learner who wants a model that learns rather than a program that runs should look at [AI and machine learning classes in the Netherlands](/ai-and-machine-learning-classes-in-netherlands) or the [AI and Python Academy](/ai-and-python-academy-netherlands). [Tilburg](/coding-classes-in-tilburg) has its page; [Breda](/coding-classes-in-breda) too; so do [Den Bosch](/coding-classes-in-den-bosch) and [Helmond](/coding-classes-in-helmond); Oss and Roosendaal follow.
 
 ## Contact
 

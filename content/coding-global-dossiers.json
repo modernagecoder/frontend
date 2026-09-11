@@ -8322,5 +8322,57 @@
       "Anything about DAF itself, its plant or its history beyond the museum sentence.",
       "Anything the Eindhoven city page owns, including the named secondary schools and their addresses, the High Tech Campus and the Indian-origin figures."
     ]
+  },
+  "coding-classes-in-helmond": {
+    "market": "Helmond",
+    "bodyClass": "cg-hmd",
+    "pageType": "city",
+    "curriculumAuthority": "Gemeente Helmond, Noord-Brabant: 96,860 residents (statistics office, 1 January 2026; the encyclopaedia prints 96,842 for the same date), 96,551 (2025), 92,423 (2020), 89,023 (2013), 73,607 (1995); 48,801 men and 47,750 women (2025); 43,914 households averaging 2.18, 15,886 single-person, 12,559 without children, 15,469 with children; ages 14,407 under fifteen, 11,293 fifteen to twenty-five, 26,127 twenty-five to forty-five, 26,752 forty-five to sixty-five, 18,281 over sixty-five; 5,475 hectares, 5,317 land and 159 water, published density 1,816; 43,549 dwellings (2025) with 23,516 owner-occupied at 54 percent and 20,033 rented; estimated average value 345,000 euro; income 32,600 euro per resident and 39,600 per recipient (2024); 3.1 percent of residents in poverty, 7.2 percent of households at or around the social minimum; origin (2025) 64,581 Dutch, 13,430 European, 18,540 non-European, 18,891 born abroad; 12 wijken and 44 buurten (Binnenstad, Helmond-Oost, Helmond-Noord, t Hout, Brouwhuis, Helmond-West, Warande, Stiphout, Rijpelberg, Dierdonk, Brandevoort, Industriegebied Zuid); 31 primary establishments with 8,236 pupils, 7 secondary with 5,493; resident students 2,700 MBO, 2,010 higher professional, 690 university (2025). Secondary schools named in the encyclopaedia: Carolus Borromeus College, Jan van Brabant College, Dr. Knippenbergcollege, Vakcollege Helmond; ROC Ter AA. History: a settlement before 1000; first mentioned 1179 in a bull of Pope Alexander III; founded 1225 by Duke Henry I of Brabant; no evidence of the grant of city rights preserved, generally assumed to date from the same period as neighbouring Eindhoven, in or around 1232 (Eindhoven received city and market rights in 1232 from Duke Henry I of Brabant); fourteenth-century water castle, council chamber until 2001; centuries of textile production with Vlisco and Raymakers still active and Nedschroef in metal; industrialisation stimulated by the Zuid-Willemsvaart in 1825; 1968 enlargement with Stiphout and parts of Mierlo (Mierlo-Hout), Deurne (part of Brouwhuis) and Bakel en Milheeze; Brandevoort built since the late 1990s; theatre t Speelhuis and cube houses by Piet Blom, t Speelhuis destroyed by fire 29 December 2011; High Tech Automotive Campus initiated 2003, foundation 2017. Regio Zuid holidays. The city page argues that a filled-in value cannot serve as evidence for the rule that filled it.",
+    "localProject": "A value filled in by a rule cannot confirm the rule. Helmond has preserved no evidence of its city rights, and the encyclopaedia says they are generally assumed to date from the same period as those of neighbouring Eindhoven, in or around 1232, the year Eindhoven received city and market rights from Duke Henry I of Brabant, who had founded Helmond in 1225. In a table with one charter-year column, Helmond becomes 1232 beside Eindhoven 1232, indistinguishable from a recorded date, and the query which neighbours were chartered in the same year returns the pair, a finding that is only the filling assumption read back. The source keeps generally assumed and in or around; a single column keeps neither. The general mechanism is imputation: forward filling makes series look stable, nearest-neighbour filling makes neighbours alike and manufactures clusters, and labels predicted by a model make that model look accurate when scored on them. Defences: a flag column recording which values were observed and how the rest were filled, preserving the missingness pattern, excluding filled values from any test of the rule that filled them, running key results with and without the fills, and in machine learning never filling with information from the test data. Distinct from the estimate printed like a count (Loosduinen), where the value is an assessor valuation and the issue is lost provenance, whereas here the issue is circular confirmation downstream of a fill; from the empty field that means no charter (Maastricht); from repetition across sources (Dordrecht); and from agreement between dependent measures (Hillegersberg-Schiebroek), where two published measures reflect one fact, whereas here the analyst creates the dependence.",
+    "requiredMentions": [
+      "73,607",
+      "43,914",
+      "43,549",
+      "15,469",
+      "5,317",
+      "8,236",
+      "5,493",
+      "1232",
+      "Vlisco",
+      "Raymakers",
+      "Nedschroef",
+      "Stiphout",
+      "Brandevoort",
+      "Piet Blom"
+    ],
+    "sources": [
+      {
+        "claim": "Gemeente Helmond: 96,860 inwoners (2026), 96,551 (2025), 92,423 (2020), 89,023 (2013), 73,607 (1995); mannen 48,801, vrouwen 47,750 (2025); 43,914 huishoudens, 15,886 eenpersoonshuishoudens, 12,559 meerpersoonshuishoudens zonder kinderen, 15,469 met kinderen, gemiddelde huishoudensgrootte 2.18; ages 14,407 (0 to 15), 11,293 (15 to 25), 26,127 (25 to 45), 26,752 (45 to 65), 18,281 (65+) (2026); oppervlakte 5,475 hectare, land 5,317, water 159; bevolkingsdichtheid 1,816; woningvoorraad 43,549 (2025), 23,516 koopwoningen (54 percent), 20,033 huurwoningen; gemiddelde WOZ 345,000 euro (2025); gemiddeld inkomen per inwoner 32,600 and per inkomensontvanger 39,600 euro (2024); personen in armoede 3.1 percent; huishoudens onder of rond sociaal minimum 7.2 percent; 12 wijken, 44 buurten; basisonderwijs 31 vestigingen, 8,236 leerlingen; voortgezet onderwijs 7 vestigingen, 5,493 leerlingen; studenten MBO 2,700, HBO 2,010, WO 690 (2025); herkomst (2025) Nederlands 64,581, Europees 13,430, buiten-Europees 18,540, geboren in het buitenland 18,891.",
+        "url": "https://allecijfers.nl/gemeente/helmond/"
+      },
+      {
+        "claim": "Helmond (encyclopaedia): Helmond telt 96.842 inwoners (1 januari 2026, bron: CBS); oppervlakte 54,75 km2, land 53,18, water 1,57. Helmond is ontstaan vanuit een nederzetting die al voor het jaar 1000 moet hebben bestaan, en werd in 1179 voor het eerst genoemd in een bul van Paus Alexander III. De stad werd in 1225 gesticht door Hertog Hendrik I van Brabant. Helmond heeft geen bewijzen bewaard van de toekenning van stadsrechten, maar algemeen gaat men ervan uit dat deze in dezelfde periode zijn verleend als die van nabuur Eindhoven, dus in of rond 1232. Helmond was eeuwenlang een centrum van textielnijverheid; de nog actieve bedrijven Vlisco en Raymakers; de oude metaalindustrie wordt vertegenwoordigd door Nedschroef. Deze werd gestimuleerd door de komst van de Zuid-Willemsvaart in 1825. Deze waterburcht is in de veertiende eeuw gebouwd en heeft tot 2001 als Raadszaal dienstgedaan. In 1968 gebeurde dit met de gemeente Stiphout en delen van de gemeenten Mierlo (de kern Mierlo-Hout), Deurne (deel van Brouwhuis) en Bakel en Milheeze. Aan de westzijde van de stad wordt vanaf eind jaren negentig gebouwd aan de woonwijk Brandevoort. Theater t Speelhuis en de Kubuswoningen, ontworpen door Piet Blom; t Speelhuis is op 29 december 2011 verwoest door een brand, waarbij ook een paar kubuswoningen beschadigd zijn geraakt. Dit in 2003 geinitieerde centrum kreeg de naam High Tech Automotive Campus; in 2017 komt de stichting Automotive Campus tot stand. Scholen: Carolus Borromeus College, Jan van Brabant College, Dr. Knippenbergcollege, Vakcollege Helmond; ROC Ter AA.",
+        "url": "https://nl.wikipedia.org/wiki/Helmond"
+      },
+      {
+        "claim": "Eindhoven (encyclopaedia): Het kreeg in 1232 stadsrechten en marktrecht van hertog Hendrik I van Brabant.",
+        "url": "https://nl.wikipedia.org/wiki/Eindhoven"
+      },
+      {
+        "claim": "School holiday regions: regio Zuid = Zeeland, Noord-Brabant, Limburg and the southern part of Gelderland; regio Midden = Utrecht, Zuid-Holland and the northern part of Gelderland; regio Noord = Groningen, Friesland, Drenthe, Overijssel, Flevoland, Noord-Holland.",
+        "url": "https://www.rijksoverheid.nl/themas/onderwijs/schoolvakanties/regios-schoolvakantie"
+      }
+    ],
+    "rejectedClaims": [
+      "That Helmond received city rights in 1232. No evidence of the grant survives; the source says they are generally assumed to date from the same period as Eindhoven, in or around 1232.",
+      "That Helmond and Eindhoven were chartered in the same year. The match exists only because the Helmond year was filled in from Eindhoven.",
+      "Any reconciliation of the statistics office count of 96,860 with the 96,842 printed in the encyclopaedia for the same date. Source disagreement is the Breda argument.",
+      "Any claim that the growth from 73,607 in 1995 to 96,860 in 2026 is on unchanged boundaries. The page quotes the published figures only.",
+      "Any figure for employment or output at the Automotive Campus, Vlisco, Raymakers or Nedschroef beyond the sentences quoted.",
+      "That the Zuid-Willemsvaart caused the growth of Helmond industry. The source says the arrival of the canal stimulated it, and the page quotes that and goes no further.",
+      "The estimate printed like a count. That is the Loosduinen argument; the Helmond year is openly an assumption in its source, and the problem arises only downstream.",
+      "Repetition across sources as false evidence. That is the Dordrecht argument; here the dependence is created by the filling rule.",
+      "Anything the Eindhoven city page owns, including its workplaces, the High Tech Campus in Eindhoven and its named secondary schools."
+    ]
   }
 }

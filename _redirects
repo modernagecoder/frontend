@@ -2326,4 +2326,8 @@
 # International growth cluster (coding-global.css). Must precede the /* catch-all.
 /coding-classes-in-tongelre /src/pages/coding-classes-in-tongelre.html 200
 /coding-classes-in-tongelre.md /src/pages/coding-classes-in-tongelre.md 200
+
+# International growth cluster (coding-global.css). Must precede the /* catch-all.
+/coding-classes-in-helmond /src/pages/coding-classes-in-helmond.html 200
+/coding-classes-in-helmond.md /src/pages/coding-classes-in-helmond.md 200
 /* /src/pages/404.html 404
