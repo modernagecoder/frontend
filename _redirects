@@ -2446,4 +2446,8 @@
 # Global Build-AI cluster (ai-global.css). Inserted before the /* catch-all.
 /ai-and-python-academy-groningen /src/pages/ai-and-python-academy-groningen.html 200
 /ai-and-python-academy-groningen.md /src/pages/ai-and-python-academy-groningen.md 200
+
+# Global Build-AI cluster (ai-global.css). Inserted before the /* catch-all.
+/ai-and-python-academy-amsterdam /src/pages/ai-and-python-academy-amsterdam.html 200
+/ai-and-python-academy-amsterdam.md /src/pages/ai-and-python-academy-amsterdam.md 200
 /* /src/pages/404.html 404
