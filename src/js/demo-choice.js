@@ -357,7 +357,8 @@
             // (2147483645/6), which otherwise cover the buttons on a phone.
             // Razorpay's checkout is appended to <body> later and shares the
             // maximum value, so DOM order keeps it on top of this overlay.
-            '.mac-dc-overlay{position:fixed;inset:0;background:rgba(17,12,8,.62);backdrop-filter:blur(4px);-webkit-backdrop-filter:blur(4px);z-index:2147483647;display:flex;align-items:center;justify-content:center;padding:16px;box-sizing:border-box;animation:macDcFade .22s ease}',
+            '.mac-dc-overlay{position:fixed;top:0;left:0;width:100%;height:100%;height:100dvh;background:rgba(17,12,8,.7);z-index:2147483647;display:flex;align-items:center;justify-content:center;padding:16px;box-sizing:border-box;animation:macDcFade .22s ease}',
+            '.mac-dc-title:focus{outline:none}',
             '.mac-dc{position:relative;box-sizing:border-box;width:100%;max-width:820px;background:#fff;color:#1c1814;border-radius:20px;padding:30px 28px 22px;font-family:"Inter",system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;line-height:1.5;text-align:left;box-shadow:0 30px 70px -30px rgba(28,24,20,.55);border:1px solid rgba(28,24,20,.08)}',
             '.mac-dc-overlay .mac-dc{max-height:92vh;overflow:auto;animation:macDcUp .28s ease;-webkit-overflow-scrolling:touch}',
             '.mac-dc--inline{margin:26px auto 0;box-shadow:0 24px 50px -30px rgba(28,24,20,.40)}',
@@ -445,7 +446,7 @@
             '.mac-dc-paidtag{display:inline-block;font-size:12px;font-weight:700;color:#1f8a55;background:rgba(31,138,85,.1);border-radius:999px;padding:4px 10px}',
             '@keyframes macDcFade{from{opacity:0}to{opacity:1}}',
             '@keyframes macDcUp{from{opacity:0;transform:translateY(16px)}to{opacity:1;transform:translateY(0)}}',
-            '@media (max-width:680px){.mac-dc{padding:24px 18px 18px;border-radius:16px}.mac-dc-grid{grid-template-columns:1fr}.mac-dc-row{grid-template-columns:1fr}.mac-dc-badge{right:12px}.mac-dc-overlay{padding:12px;align-items:flex-end}.mac-dc-overlay .mac-dc{max-height:94vh}}',
+            '@media (max-width:680px){.mac-dc-overlay{padding:0;align-items:stretch}.mac-dc-overlay .mac-dc{max-height:none;height:100%;border-radius:0;border:0;padding:14px 14px 18px;animation:none;display:flex;flex-direction:column}.mac-dc--inline{padding:18px 14px 16px;border-radius:14px}.mac-dc-close{top:8px;right:8px;width:36px;height:36px;line-height:36px}.mac-dc-eyebrow{font-size:11px;padding:4px 10px}.mac-dc-title{font-size:20px;margin:8px 44px 0 0!important;line-height:1.25}.mac-dc-head .mac-dc-sub{display:none}.mac-dc-form .mac-dc-sub{font-size:13px}.mac-dc-grid{grid-template-columns:1fr;gap:10px;margin-top:12px}.mac-dc-opt{padding:14px 14px 12px;gap:6px;border-radius:14px}.mac-dc-opt h3{font-size:17px}.mac-dc-price b{font-size:22px}.mac-dc-opt p.mac-dc-body{font-size:13px;line-height:1.4}.mac-dc-opt ul{display:none}.mac-dc-badge{top:-10px;right:10px;font-size:10.5px;padding:4px 9px}.mac-dc-btn{padding:12px 14px;font-size:14.5px}.mac-dc-foot{margin-top:auto!important;padding-top:10px;font-size:12px}.mac-dc-row{grid-template-columns:1fr}.mac-dc-form{padding:14px}.mac-dc-done .mac-dc-btn,.mac-dc-queue .mac-dc-btn{width:100%;min-width:0}}',
             '@media (prefers-reduced-motion:reduce){.mac-dc-overlay,.mac-dc-overlay .mac-dc{animation:none}}'
         ].join('\n');
         var style = document.createElement('style');
@@ -481,7 +482,7 @@
                     // works: rupees in India, dollars elsewhere, no mention of
                     // the other region.
                     '<p class="mac-dc-price"><b data-dc-price>' + esc(price.display) + '</b><span data-dc-price-note>one-time</span></p>' +
-                    '<p class="mac-dc-body">Skip the queue. A mentor steps out of a running batch to teach your live demo today or tomorrow, at a time you choose.</p>' +
+                    '<p class="mac-dc-body">Skip the queue. Pick your own day and time, and a mentor teaches your live demo today or tomorrow. Confirmed on WhatsApp within the hour.</p>' +
                     '<ul><li>Pick your own day and time</li><li>Confirmed on WhatsApp within the hour</li><li>Same live class, same mentors, just sooner</li></ul>' +
                     '<button type="button" class="mac-dc-btn mac-dc-btn--solid" data-action="paid">Book priority demo · <span data-dc-price>' + esc(price.display) + '</span></button>' +
                 '</section>';
@@ -503,7 +504,7 @@
                     '<span class="mac-dc-kicker">Option 1 · Free</span>' +
                     '<h3>Free demo, in the queue</h3>' +
                     '<p class="mac-dc-price"><b>₹0</b><span>nothing to pay</span></p>' +
-                    '<p class="mac-dc-body">Our mentors spend most of the day teaching live classes, so free demos are scheduled in order as slots open up. You are in a queue, and it can take a few weeks. We call or WhatsApp you with a time.</p>' +
+                    '<p class="mac-dc-body">Our mentors teach live classes most of the day, so free demos are scheduled in order. You are in a queue and it can take a few weeks. We call or WhatsApp you with a time.</p>' +
                     '<ul><li>No payment, no card</li><li>Scheduled in order, usually within a few weeks</li><li>Watch a full recorded class while you wait</li></ul>' +
                     '<button type="button" class="mac-dc-btn mac-dc-btn--ghost" data-action="free">Wait in the free queue</button>' +
                 '</section>' +
@@ -684,7 +685,7 @@
         if (this.mode !== 'modal') return;
         var overlay = this.root.parentNode;
         if (overlay && overlay.parentNode) overlay.parentNode.removeChild(overlay);
-        document.body.style.overflow = '';
+        unlockScroll();
         activeModal = null;
     };
 
@@ -910,6 +911,31 @@
     var activeModal = null;
     var inlineChooser = null;
 
+    // Page scroll lock. overflow:hidden on <body> is enough on desktop but
+    // iOS Safari ignores it, so the page kept scrolling under the sheet and
+    // the sheet's own scroll fought it. Pinning the body in place is the
+    // one approach that holds everywhere; the scroll position is restored
+    // on close so the visitor lands back where they were.
+    var lockedScrollY = null;
+    function lockScroll() {
+        if (lockedScrollY !== null) return;
+        lockedScrollY = window.pageYOffset || document.documentElement.scrollTop || 0;
+        var b = document.body.style;
+        b.overflow = 'hidden';
+        b.position = 'fixed';
+        b.top = (-lockedScrollY) + 'px';
+        b.left = '0';
+        b.right = '0';
+        b.width = '100%';
+    }
+    function unlockScroll() {
+        if (lockedScrollY === null) return;
+        var b = document.body.style;
+        b.overflow = ''; b.position = ''; b.top = ''; b.left = ''; b.right = ''; b.width = '';
+        var y = lockedScrollY; lockedScrollY = null;
+        try { window.scrollTo(0, y); } catch (e) { }
+    }
+
     /**
      * The thank-you page shows the chooser twice: as the popup the visitor
      * cannot miss, and inline on the page underneath. A choice made in one is
@@ -929,7 +955,7 @@
         var card = document.createElement('div');
         overlay.appendChild(card);
         document.body.appendChild(overlay);
-        document.body.style.overflow = 'hidden';
+        lockScroll();
         activeModal = new Chooser(card, 'modal', rec);
         // Deliberately NOT closed by a click on the dim background: a stray tap
         // beside the card on a phone must not dismiss the one question we
@@ -1066,6 +1092,6 @@
         open: function (rec) { openModal(rec || readSession() || {}); },
         renderInline: function (rec) { renderInline(rec || readSession() || {}); },
         prices: PRICES,
-        version: '20260910f'
+        version: '20260911a'
     };
 })();

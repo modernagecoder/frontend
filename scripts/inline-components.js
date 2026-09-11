@@ -43,7 +43,7 @@ const FOOTER_FILE = path.join(ROOT, 'components', 'footer.html');
 // copy after the price or the flow changes. Bump the date here AND in
 // src/pages/thank-you.html (the only page that references it by hand) when
 // the file changes.
-const DEMO_CHOICE_VERSION = '20260910f';
+const DEMO_CHOICE_VERSION = '20260911a';
 const GLOBAL_LEAD_SCRIPTS = [
     '/js/attribution.js',
     '/js/demo-slot-picker.js',
