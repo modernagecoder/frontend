@@ -8938,5 +8938,50 @@
       "Clock skew between computers, considered as the spine and rejected as too close to Leidschenveen-Ypenburg, which is built around the clock on a number.",
       "Anything The Hague, Leidschenveen-Ypenburg, Leiden, Delft and Zuid-Holland pages own, including their figures and arguments."
     ]
+  },
+  "coding-classes-in-roosendaal": {
+    "market": "Roosendaal",
+    "bodyClass": "cg-rsd",
+    "pageType": "city",
+    "curriculumAuthority": "Gemeente Roosendaal, Noord-Brabant: 78,165 residents (statistics, 1 January 2026), 77,721 (2025), 77,155 (2013), 71,724 (1995), recalculated to the boundaries of the 1997 merger; 38,940 men and 38,781 women (2025); ages (2026) 10,880 under fifteen, 8,581 fifteen to twenty-five, 19,202 twenty-five to forty-five, 21,242 forty-five to sixty-five, 18,260 sixty-five or over; 36,425 households (2025) averaging 2.1, 14,197 one-person, 22,228 multi-person, 11,319 with children; 10,716 hectares, 10,650 land, 67 water, published density 730; 35,981 dwellings, 22,308 owner-occupied at 62 percent, 13,313 rented at 37 percent, 360 in neither group; estimated average value 323,000 euro (2025); income 33,100 euro per resident and 39,600 per recipient (2024); 3.4 percent in poverty; 83 percent born in the Netherlands, origin 70 percent Dutch, 12 percent European, 18 percent non-European; 6 woonplaatsen, 14 wijken, 55 buurten; 33 primary establishments with 6,367 pupils and 6 secondary with 4,345; 2,680 MBO, 690 HBO and 480 WO students at institutions; merger in 1997 of Roosendaal, Nispen and Wouw. Encyclopaedia: station built 1904 to 1907 replacing an older and smaller building; seen from the north the last station on Dutch territory before the border with Belgium; Designer Outlet Roosendaal on the west side since 2006, originally Rosada, renamed in 2017 when McArthurGlen became owner; two etymologies, a valley of roses referring to the Virgin Mary or a valley of reeds from risse; villages Heerle, Moerstraten, Nispen, Wouw, Wouwse Plantage; the Sint-Janskerk on the old Markt, a waterstaatskerk of 1839 with an originally fifteenth-century tower; neighbourhoods Tolberg and De Kroeven; town infobox 67,320 in 2023, 46.45 square kilometres, not combined with the municipal row. Regio Zuid holidays. The city page teaches trust boundaries.",
+    "localProject": "Check at the border, once, everything that crosses. Roosendaal is, seen from the north, the last station on Dutch territory before the border with Belgium; the page uses the image of a border as the line where rules change and describes no real border procedure. The programming form is the trust boundary: form input run as SQL, user content run as script, uploads disguised as images, other services' replies whose format shifts, and now web text read by AI agents carrying hidden instructions (prompt injection), plus model output re-entering as trusted when it is run, stored or sent. The defences are mapping every entrance, validating once at the border against an allow-list of shapes, keeping data from becoming commands (parameterised queries, escaping, fixed agent actions), least privilege for every component including agents, and treating AI and service output as untrusted input. Chosen after a case-sensitive check found no page using trust boundaries, injection or untrusted input. Distinct from Den Bosch, which validates relationships between fields inside a record rather than where to validate, from Lelystad, which concerns single points of failure, and from Escamp, which concerns the two failure directions of a condition.",
+    "requiredMentions": [
+      "71,724",
+      "77,155",
+      "36,425",
+      "14,197",
+      "11,319",
+      "35,981",
+      "22,308",
+      "13,313",
+      "6,367",
+      "18,260",
+      "Wouwse Plantage",
+      "Moerstraten",
+      "Nispen",
+      "Rosada"
+    ],
+    "sources": [
+      {
+        "claim": "Gemeente Roosendaal: 78,165 inwoners (2026), 77,721 (2025), 77,155 (2013), 71,724 (1995), recalculated to current boundaries (merger in 1997: Roosendaal, Nispen, Wouw); mannen 38,940, vrouwen 38,781 (2025); ages 0-15 10,880, 15-25 8,581, 25-45 19,202, 45-65 21,242, 65+ 18,260; 36,425 huishoudens, 14,197 eenpersoons, 22,228 meerpersoons, 11,319 met kinderen, gemiddeld 2.1; 10,716 hectare, land 10,650, water 67; bevolkingsdichtheid 730; woningvoorraad 35,981, koop 22,308 (62 percent), huur 13,313 (37 percent); gemiddelde WOZ 323,000 euro (2025); gemiddeld inkomen per inwoner 33,100 and per inkomensontvanger 39,600 euro (2024); personen in armoede 3.4 percent; basisonderwijs 33 vestigingen 6,367 leerlingen, voortgezet onderwijs 6 vestigingen 4,345 leerlingen, MBO 2,680, HBO 690, WO 480; geboren in Nederland 83 percent, herkomst Nederland 70 percent, Europa 12 percent, buiten Europa 18 percent; 6 woonplaatsen, 14 wijken, 55 buurten.",
+        "url": "https://allecijfers.nl/gemeente/roosendaal/"
+      },
+      {
+        "claim": "Roosendaal (encyclopaedia): Station Roosendaal werd gebouwd van 1904-1907 ter vervanging van een ouder en kleiner gebouw. Roosendaal is gezien vanuit het noorden het laatste station op Nederlands grondgebied voor de grens met Belgie. Aan de westkant bevindt zich sinds 2006 het factory outlet center Designer Outlet Roosendaal; de oorspronkelijke naam Rosada is in 2017 veranderd nadat McArthur Glen de nieuwe eigenaar van het outlet center werd. Het dal der rozen zou dan verwijzen naar de Heilige Maria; de naam Roosendaal als rietdal: risse is een andere naam voor riet. Heerle, Moerstraten, Nispen, Wouw, Wouwse Plantage. De Sint-Janskerk op de oude Markt is een waterstaatskerk uit 1839 met een oorspronkelijk 15e-eeuwse toren. Tolberg en De Kroeven. Infobox: 67.320 inwoners (2023-01-01), 46,45 km2.",
+        "url": "https://nl.wikipedia.org/wiki/Roosendaal"
+      },
+      {
+        "claim": "School holiday regions: regio Zuid = Zeeland, Noord-Brabant, Limburg and the southern part of Gelderland; regio Midden = Utrecht, Zuid-Holland and the northern part of Gelderland; regio Noord = Groningen, Friesland, Drenthe, Overijssel, Flevoland, Noord-Holland.",
+        "url": "https://www.rijksoverheid.nl/themas/onderwijs/schoolvakanties/regios-schoolvakantie"
+      }
+    ],
+    "rejectedClaims": [
+      "Any description of customs, passport or railway procedures at the border, past or present. The source says only that Roosendaal is the last Dutch station before it.",
+      "Which of the two explanations of the name is right. The sources read do not decide.",
+      "Any comparison of the town infobox figure of 67,320 with the municipal count. Town against municipality is the Zeeland argument.",
+      "Origin counts as numbers. Only percentages were published in the row read.",
+      "Any claim about the outlet centre beyond its opening, original name and change of owner.",
+      "Anything the Breda, Tilburg, Den Bosch and Noord-Brabant pages own, including their figures and arguments."
+    ]
   }
 }
