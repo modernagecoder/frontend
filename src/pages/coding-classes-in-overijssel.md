@@ -221,7 +221,7 @@ A probability of one in 1,250 in any single year, 0.08 percent, that the design 
 
 ### Which Overijssel towns get their own page, and which are covered here?
 
-Enschede, Zwolle and Deventer already have theirs, linked above, and Almelo follows in this series, and Hengelo has its page. The other twenty, from Hardenberg and Kampen to Staphorst, are listed above with their populations, and the class booked from any of them is the same class.
+Enschede, Zwolle, Deventer and Hengelo already have theirs, linked above, and Almelo follows in this series. The other twenty, from Hardenberg and Kampen to Staphorst, are listed above with their populations, and the class booked from any of them is the same class.
 
 ### Is Zwolle or Enschede the capital?
 
@@ -257,7 +257,7 @@ Between five and ten, matched on level, pace and goal rather than on age, school
 
 ## Across the IJssel, and up to the country
 
-Across the river is [Gelderland](/coding-classes-in-gelderland), with its two holiday calendars; beyond it the [province of Utrecht](/coding-classes-in-utrecht-province), and across the Zuiderzee polders [Almere](/coding-classes-in-almere). All of them are children of the [Netherlands coding hub](/coding-classes-in-netherlands), and a learner whose goal is a trained model rather than a program should go to [AI and machine learning classes in the Netherlands](/ai-and-machine-learning-classes-in-netherlands) or the [AI and Python Academy](/ai-and-python-academy-netherlands). Enschede, Zwolle and [Deventer](/coding-classes-in-deventer) are built; Hengelo is built; Almelo follows.
+Across the river is [Gelderland](/coding-classes-in-gelderland), with its two holiday calendars; beyond it the [province of Utrecht](/coding-classes-in-utrecht-province), and across the Zuiderzee polders [Almere](/coding-classes-in-almere). All of them are children of the [Netherlands coding hub](/coding-classes-in-netherlands), and a learner whose goal is a trained model rather than a program should go to [AI and machine learning classes in the Netherlands](/ai-and-machine-learning-classes-in-netherlands) or the [AI and Python Academy](/ai-and-python-academy-netherlands). Enschede, Zwolle, [Deventer](/coding-classes-in-deventer) and [Hengelo](/coding-classes-in-hengelo) are built; Almelo follows.
 
 ## Contact
 

@@ -8833,5 +8833,51 @@
       "The number of the 2025 total population as a printed figure. It is stated only as the total both 2025 splits reach.",
       "Anything the Enschede, Deventer, Zwolle and Overijssel pages own, including their figures and arguments."
     ]
+  },
+  "coding-classes-in-schiedam": {
+    "market": "Schiedam",
+    "bodyClass": "cg-sdm",
+    "pageType": "city",
+    "curriculumAuthority": "Gemeente Schiedam, Zuid-Holland: 81,931 residents (statistics, 1 January 2026), 82,232 (2025), 76,216 (2013), 73,480 (1995), growth given by the site as 8,451 or 12 percent; 41,090 men and 41,142 women (2025); ages (2026) 12,890 under fifteen, 8,959 fifteen to twenty-five, 24,280 twenty-five to forty-five, 21,006 forty-five to sixty-five, 14,796 sixty-five or over; 39,168 households (2025) averaging 2.07, 16,390 one-person, 9,763 multi-person without children, 13,015 with children; 1,986 hectares, 1,781 land, 205 water, published density 4,617; 38,420 dwellings (2025), half owner-occupied and half rented; estimated average value 314,000 euro; income 32,300 euro per resident and 40,000 per recipient (2024); 5 percent in poverty; 59,340 born in the Netherlands and 22,892 abroad, origin 41,898 Dutch, 11,801 European, 28,533 non-European (2025); one woonplaats, 12 wijken, 70 buurten; 24 primary establishments with 7,114 pupils and 8 secondary with 4,076 (2025); 1,614 MBO, 1,840 HBO and 790 WO students at institutions. Encyclopaedia: town rights granted in 1275 by Aleid van Holland (Aleida van Avesnes); the eighteenth century a golden age as drink imports stopped and jenever distilling rose, with tens of branderijen and distilleries exporting worldwide; the jenever industry gave the nickname Zwart Nazareth; six classical windmills still define the townscape, several among the tallest classical windmills in the world, De Noord among them; the Jenevermuseum on the Lange Haven since 1996; wijken including Bijdorp, Groenoord, Kethel, Nieuwland, Schiedam-Oost, Schiedam-West, Schiedam-Zuid, Spaland, Woudhoek; infobox 82,055 on 1 January 2026 and 19.86 square kilometres, not combined with the statistics. Regio Midden holidays. The city page teaches knowledge distillation and how to evaluate a distilled model.",
+    "localProject": "A copy is tested against the truth, not against the original. A still keeps what rises and leaves the rest in the pot; knowledge distillation trains a small student model on a large teacher's answers to a chosen set of questions, so the student keeps what those questions exercised, copies the teacher's errors faithfully, can become more confident than the teacher when trained on single best answers, and never learns what was not asked. Agreement with the teacher is therefore not accuracy, and accuracy on distilled topics is not accuracy in use. The defences are keeping the distillation questions and teacher version, scoring both models against independently verified answers, testing outside the distilled range, comparing confidence on hard questions, and recording what was gained and lost side by side. The distilling history is used as an image only; no Schiedam distillery or AI product is described. Chosen after a case-sensitive check found no page using distil in any form. Distinct from accuracy follows use (Oss), which concerns reused data rather than a model copying a model, from plurality and argmax (Meierijstad), and from format durability (Hilversum).",
+    "requiredMentions": [
+      "73,480",
+      "76,216",
+      "39,168",
+      "16,390",
+      "13,015",
+      "38,420",
+      "7,114",
+      "14,796",
+      "Zwart Nazareth",
+      "Jenevermuseum",
+      "Aleid",
+      "Kethel",
+      "Woudhoek",
+      "Spaland"
+    ],
+    "sources": [
+      {
+        "claim": "Gemeente Schiedam: 81,931 inwoners (2026), 82,232 (2025), 76,216 (2013), 73,480 (1995), growth 8,451 (12 percent); mannen 41,090, vrouwen 41,142 (2025); 39,168 huishoudens, 16,390 eenpersoons (42 percent), 9,763 meerpersoons zonder kinderen (25 percent), 13,015 met kinderen (33 percent), gemiddeld 2.07 (2025); ages 0-15 12,890, 15-25 8,959, 25-45 24,280, 45-65 21,006, 65+ 14,796 (2026); 1,986 hectare, land 1,781, water 205; bevolkingsdichtheid 4,617; woningvoorraad 38,420, 50 percent koop, 50 percent huur (2025); gemiddelde WOZ 314,000 euro; gemiddeld inkomen per inwoner 32,300 and per inkomensontvanger 40,000 euro (2024); personen in armoede 5 percent; basisonderwijs 24 vestigingen 7,114 leerlingen, voortgezet onderwijs 8 vestigingen 4,076 leerlingen, MBO 1,614, HBO 1,840, WO 790 (2025); geboren in Nederland 59,340, buiten Nederland 22,892, herkomst Nederland 41,898, Europa 11,801, buiten Europa 28,533 (2025); 12 wijken, 70 buurten, 1 woonplaats.",
+        "url": "https://allecijfers.nl/gemeente/schiedam/"
+      },
+      {
+        "claim": "Schiedam (encyclopaedia): In 1275 werden stadsrechten verleend door vrouwe Aleid van Holland (Aleida van Avesnes). De achttiende eeuw was voor Schiedam een Gouden Eeuw, als gevolg van de stilgevallen drankimport uit het buitenland en de opkomst van de jeneverstokerij. Er ontstonden tientallen branderijen en destilleerderijen die over de hele wereld exporteerden. De jeneverindustrie gaf Schiedam de bijnaam Zwart Nazareth. De zes klassieke windmolens bepalen nog steeds het stadsbeeld; enkele van deze molens behoren tot de hoogste klassieke windmolens ter wereld; De Noord among the six. Het Jenevermuseum gevestigd aan de historische Lange Haven since 1996. Wijken: Bijdorp, Groenoord, Kethel, Nieuwland, Schiedam-Oost, Schiedam-West, Schiedam-Zuid, Spaland, Woudhoek. Infobox: 19,86 km2, 82.055 inwoners (1 januari 2026).",
+        "url": "https://nl.wikipedia.org/wiki/Schiedam"
+      },
+      {
+        "claim": "School holiday regions: regio Midden = Utrecht, Zuid-Holland and the northern part of Gelderland; regio Noord = Groningen, Friesland, Drenthe, Overijssel, Flevoland, Noord-Holland; regio Zuid = Zeeland, Noord-Brabant, Limburg and the southern part of Gelderland.",
+        "url": "https://www.rijksoverheid.nl/themas/onderwijs/schoolvakanties/regios-schoolvakantie"
+      }
+    ],
+    "rejectedClaims": [
+      "Why the jenever industry produced the nickname Zwart Nazareth. The source gives the nickname and its link to the industry, not the reason.",
+      "The number of distilleries at the peak. The source says tens, and the page says only that.",
+      "Heights of the windmills or a claim that any one is the tallest. The source says several are among the tallest classical windmills.",
+      "Any description of distilling methods at a Schiedam distillery, or of any particular AI product.",
+      "Owned and rented dwelling counts. Only the even split was published in the row read.",
+      "Any comparison of the encyclopaedia figure of 82,055 with the statistics figure of 81,931. Two sources that disagree is the Breda argument.",
+      "Anything the Rotterdam, Delfshaven, Nissewaard and Zuid-Holland pages own, including their figures and arguments."
+    ]
   }
 }
