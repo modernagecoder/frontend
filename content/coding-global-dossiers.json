@@ -9074,5 +9074,55 @@
       "Any comparison of the encyclopaedia figure of 77,462 with the statistics figure of 77,480. Two sources that disagree is the Breda argument.",
       "Anything the Schiedam, Rotterdam, Delfshaven and Zuid-Holland pages own, including their figures and arguments."
     ]
+  },
+  "coding-classes-in-hoorn": {
+    "market": "Hoorn",
+    "bodyClass": "cg-hrn",
+    "pageType": "city",
+    "curriculumAuthority": "Gemeente Hoorn, Noord-Holland: 76,202 residents (statistics, 1 January 2026), 76,036 (2025), 71,360 (2013), 61,374 (1995); 37,535 men and 38,501 women (2025); ages (2026) 11,894 under fifteen, 8,678 fifteen to twenty-five, 19,785 twenty-five to forty-five, 19,691 forty-five to sixty-five, 16,154 sixty-five or over; 35,013 households (2025) averaging 2.15, 13,413 one-person, 21,600 multi-person, 12,217 with children; 5,346 hectares, 2,037 land, 3,308 water, published density 3,733; 34,994 dwellings (2025), 21,346 owner-occupied at 61 percent, 13,648 rented at 39 percent; estimated average value 365,000 euro; income 33,300 euro per resident and 40,400 per recipient (2024); 2.6 percent in poverty; origin (2025) 54,555 Dutch, 6,577 European, 14,904 non-European, 64,081 born in the Netherlands; 3 woonplaatsen, 15 wijken (including Binnenstad, Venenlaan-kwartier, Hoorn-Noord, Grote Waal, Risdam-Zuid, Risdam-Noord, Nieuwe Steen, Zwaag, Blokker, Kersenboogerd-Noord, Kersenboogerd-Zuid, Hoorn 80, Bangert en Oosterpolder), 75 buurten; 27 primary establishments with 6,845 pupils and 9 secondary with 7,499; 3,138 MBO students at institutions. Encyclopaedia (Hoorn): on 26 March 1356/1357 Willem V granted town rights for 1,550 shields; the Hoorn chamber of the VOC and the VOC warehouse (1606/1610); Jacob le Maire and Willem Cornelisz Schouten of Hoorn, with the ships Hoorn and Eendracht, first rounded the southernmost point of South America and named it Kaap Hoorn; the Hoofdtoren (1532); the Statencollege, now the Westfries Museum (facade 1631); the museum steam tram Hoorn-Medemblik; infobox 76,211 on 1 January 2026 and 53.46 square kilometres, not combined with the statistics. Encyclopaedia (Paasstijl): in the Easter style the year begins at Easter; in 1580 the States of Holland ordered the New Year style for the whole province; dates in other styles are usually converted but are sometimes quoted double, as in 20 February 1491/2, which was useful when correspondents lived under different year styles. Regio Noord holidays. The city page teaches date conventions.",
+    "localProject": "A date is only as clear as the convention beside it. The encyclopaedia dates Hoorn's charter 26 March 1356/1357; year styles once differed (in the Easter style the year began at Easter, and the States of Holland ordered the 1 January style only in 1580), and double years were given when correspondents used different styles. The page does not claim which style the charter used, and notes that the VOC warehouse date 1606/1610 uses the same notation with no indication of its meaning. The programming form is date conventions: day-first against month-first (03/04), times without time zones, week-numbering rules, daylight-saving days with twenty-five hours, spreadsheets turning codes into dates, and AI tools that choose a convention silently when reading emails and documents. The defences are year-first storage, universal time with offsets inside and conversion only for display, declared input formats with rejection of ambiguous values, a date library for all arithmetic, and tests with days of twelve or less and clock-change weekends. Chosen after a case-sensitive check found no page using ISO 8601, date formats or year styles. Distinct from Den Bosch, whose Julian-annotated dates serve a cross-field validation argument, from Tongelre, which asks which event a date belongs to, from Drenthe, which concerns ranges and the missing year zero, and from Heerlen, which concerns where a series begins.",
+    "requiredMentions": [
+      "61,374",
+      "71,360",
+      "35,013",
+      "13,413",
+      "12,217",
+      "34,994",
+      "21,346",
+      "13,648",
+      "6,845",
+      "7,499",
+      "16,154",
+      "Hoofdtoren",
+      "Kersenboogerd",
+      "Risdam"
+    ],
+    "sources": [
+      {
+        "claim": "Gemeente Hoorn: 76,202 inwoners (2026), 76,036 (2025), 71,360 (2013), 61,374 (1995); mannen 37,535, vrouwen 38,501; ages 0-15 11,894, 15-25 8,678, 25-45 19,785, 45-65 19,691, 65+ 16,154; 35,013 huishoudens, 13,413 eenpersoons, 21,600 meerpersoons, 12,217 met kinderen, gemiddeld 2.15 (2025); 5,346 hectare, land 2,037, water 3,308; bevolkingsdichtheid 3,733; woningvoorraad 34,994, koop 21,346 (61 percent), huur 13,648 (39 percent) (2025); gemiddelde WOZ 365,000 euro; herkomst Nederlands 54,555, Europees 6,577, buiten-Europees 14,904, geboren in Nederland 64,081 (2025); basisonderwijs 27 vestigingen 6,845 leerlingen, voortgezet onderwijs 9 vestigingen 7,499 leerlingen, MBO 3,138; gemiddeld inkomen per inwoner 33,300 and per inkomensontvanger 40,400 euro (2024); personen in armoede 2.6 percent; 3 woonplaatsen, 15 wijken, 75 buurten.",
+        "url": "https://allecijfers.nl/gemeente/hoorn/"
+      },
+      {
+        "claim": "Hoorn (encyclopaedia): Op 26 maart 1356/1357 verleende Willem V stadsrechten aan Hoorn, tegen betaling van 1550 schilden. Kamer Hoorn Verenigde Oostindische Compagnie, VOC Pakhuis (1606/1610). De Hoornse schippers Jacob le Maire en Willem Cornelisz Schouten rondden met de schepen Hoorn en Eendracht als eersten de zuidelijkste punt van Zuid-Amerika, en noemden deze Kaap Hoorn. Hoofdtoren (1532). Statencollege (Westfries Museum) (gevel 1631). Museumstoomtram Hoorn-Medemblik. Infobox: 76.211 inwoners (1 jan 2026), 53,46 km2.",
+        "url": "https://nl.wikipedia.org/wiki/Hoorn_(Noord-Holland)"
+      },
+      {
+        "claim": "Paasstijl (encyclopaedia): In de Paasstijl begint het jaar bij het belangrijkste christelijke feest, Pasen. In Holland verordonneerden de Staten van Holland in 1580 dat in het hele gewest de Nieuwjaarsstijl moest worden ingevoerd. Het is gebruikelijk om data uit het verleden in andere jaarstijlen om te rekenen naar 1-januaristijl. Soms wordt het jaartal toch dubbel geciteerd, bijvoorbeeld: 20 feb 1491/2. Het noemen van meerdere stijlen was handig wanneer twee mensen in streken met verschillende jaarstijlen met elkaar correspondeerden.",
+        "url": "https://nl.wikipedia.org/wiki/Paasstijl"
+      },
+      {
+        "claim": "School holiday regions: regio Noord = Groningen, Friesland, Drenthe, Overijssel, Flevoland and Noord-Holland; regio Midden = Utrecht, Zuid-Holland and the northern part of Gelderland; regio Zuid = Zeeland, Noord-Brabant, Limburg and the southern part of Gelderland.",
+        "url": "https://www.rijksoverheid.nl/themas/onderwijs/schoolvakanties/regios-schoolvakantie"
+      }
+    ],
+    "rejectedClaims": [
+      "Which year style the Hoorn charter was written in, or which of 1356 and 1357 is the modern year. The sources read do not say.",
+      "What the VOC warehouse date 1606/1610 means. The source prints it without explanation.",
+      "The year Cape Horn was named. Not in the sentence read.",
+      "Any account of Jan Pieterszoon Coen or his statue. Beyond the scope of a page about dates, and the sources read give only his birthplace and the statue's year.",
+      "Any comment on the absence of higher-education students in the row. Reading the next column is the Westland argument.",
+      "Any comparison of the encyclopaedia figure of 76,211 with the statistics figure of 76,202. Two sources that disagree is the Breda argument.",
+      "Anything the Amsterdam, Alkmaar, Purmerend and Noord-Holland pages own, including their figures and arguments."
+    ]
   }
 }
