@@ -8374,5 +8374,60 @@
       "Repetition across sources as false evidence. That is the Dordrecht argument; here the dependence is created by the filling rule.",
       "Anything the Eindhoven city page owns, including its workplaces, the High Tech Campus in Eindhoven and its named secondary schools."
     ]
+  },
+  "coding-classes-in-purmerend": {
+    "market": "Purmerend",
+    "bodyClass": "cg-pmr",
+    "pageType": "city",
+    "curriculumAuthority": "Gemeente Purmerend, Noord-Holland: 96,182 residents (statistics office, 1 January 2026), 95,912 (2025), 92,240 (2022), 91,805 (2021), 88,319 (2013), 73,084 (1995), the years before 2022 recalculated to present boundaries after the merger with Beemster on 1 January 2022; 46,972 men and 48,940 women (2025); 43,664 households averaging 2.16, 15,744 single-person, 15,586 with children; ages 14,241 under fifteen, 10,401 fifteen to twenty-five, 24,402 twenty-five to forty-five, 25,988 forty-five to sixty-five, 21,150 over sixty-five; 9,663 hectares, 9,361 land, 302 water, published density 1,025; 43,479 dwellings (2025), 26,087 owner-occupied at 60 percent, 17,392 rented; estimated average value 407,000 euro; income 34,600 euro per resident and 41,600 per recipient (2024); 2.4 percent in poverty; origin (2025) 66,174 Dutch, 7,473 European, 22,265 non-European, 79,781 born in the Netherlands; 8 wijken in the office list; 31 primary establishments with 7,670 pupils, 8 secondary with 4,738, 1,521 MBO students at institutions. Encyclopaedia: described as a town in official documents from 1434; market rights 1484; calls itself Marktstad; groeikern from the 1960s, growing after 1960 from about 10,000 to about 80,000, with many residents working in Amsterdam; seven town wijken Centrum, Overwhere, Wheermolen, Purmer-Noord, De Gors, Purmer-Zuid, Weidevenne; town population 83,536 on 1 January 2024; merged municipality about 92,000 on 1 January 2022; herindelingsverkiezing 24 November 2021, turnout 32.4 percent; Purmerends Museum. Beemster: dry on 19 May 1612, Jan Adriaanszoon Leeghwater advisory; UNESCO World Heritage 1999; villages Middenbeemster, Noordbeemster, Westbeemster, Zuidoostbeemster; former municipality 72.08 square kilometres with 2.80 water; 10,110 residents on 1 January 2021; dissolved and merged with Purmerend on 1 January 2022. Regio Noord holidays. The city page observes that land, residents and voters are three different subjects: the Beemster is about three quarters of the territory and about a ninth of the residents, and the first joint council was elected on a turnout of 32.4 percent, so results describe the participants.",
+    "localProject": "A result from volunteers describes the volunteers, and a figure about land is not a figure about people. The first council of the merged Purmerend was elected on 24 November 2021 on a turnout of 32.4 percent, so its composition reflects about a third of those entitled to vote and implies nothing about the absent two thirds. The Beemster, dissolved into Purmerend on 1 January 2022, covers 72.08 of the 96.63 square kilometres of the municipality, about three quarters, and held 10,110 of 91,805 residents on 1 January 2021 on present boundaries, about one in nine: a map shaded by area shows a polder with a town, a headcount a town with a polder. The programming form is non-response: survey replies, app store reviews, opt-in usage data and exit questionnaires all describe the people who took part, and models trained on them learn about those people; the defences are recording the base as well as the responses, printing the response rate beside every headline, comparing responders with non-responders on whatever is known about both, and treating silence as missing rather than as agreement. Kept deliberately modest under the Phase 5 method: two proportions and one caution, no view on the election result. Distinct from self-selection into places compared as if assigned (Amsterdam-Oost), from the choice of denominator for a rate (Gadong), from the unit of observation (Zeeland: town 83,536 against municipality, not argued here) and from boundary changes in a series (Zaanstad, Alkmaar), since the office has already recalculated the series and the page compares nothing across the old boundary.",
+    "requiredMentions": [
+      "96,182",
+      "73,084",
+      "91,805",
+      "43,664",
+      "43,479",
+      "15,586",
+      "7,670",
+      "4,738",
+      "10,110",
+      "Leeghwater",
+      "Middenbeemster",
+      "Zuidoostbeemster",
+      "Weidevenne",
+      "Wheermolen"
+    ],
+    "sources": [
+      {
+        "claim": "Gemeente Purmerend (GM0439), bij een gemeentelijke herindeling in 2022 groter geworden vanuit de gemeenten Purmerend en Beemster; data 1995 to 2021 recalculated to current boundaries: 96,182 inwoners (2026), 95,912 (2025), 92,240 (2022), 91,805 (2021), 88,319 (2013), 73,084 (1995); mannen 46,972, vrouwen 48,940 (2025); 43,664 huishoudens (2025), 15,744 eenpersoonshuishoudens, 15,586 met kinderen, gemiddelde huishoudensgrootte 2.16; ages 14,241, 10,401, 24,402, 25,988, 21,150 (2026); 9,663 hectare, land 9,361, water 302; bevolkingsdichtheid 1,025; woningvoorraad 43,479, 26,087 koopwoningen (60 percent), 17,392 huurwoningen (2025); gemiddelde WOZ 407,000 euro (2025); gemiddeld inkomen per inwoner 34,600 and per inkomensontvanger 41,600 euro (2024); personen in armoede 2.4 percent; basisonderwijs 31 vestigingen, 7,670 leerlingen; voortgezet onderwijs 8 vestigingen, 4,738 leerlingen; MBO 1,521 studenten; herkomst Nederlands 66,174, Europees 7,473, buiten-Europees 22,265, geboren in Nederland 79,781 (2025); 8 wijken.",
+        "url": "https://allecijfers.nl/gemeente/purmerend/"
+      },
+      {
+        "claim": "Gemeentelijke herindeling 2022 Purmerend: aantal inwoners op 1 januari, Beemster 2021: 10,110; Beemster 2020: 10,022. Het aantal inwoners is het aantal personen zoals op 1 januari in het bevolkingsregister vastgelegd.",
+        "url": "https://allecijfers.nl/gemeentelijke-herindeling/2022-purmerend-beemster/"
+      },
+      {
+        "claim": "Purmerend (encyclopaedia): Vanaf 1434 werd Purmerend in officiele documenten als stad omschreven. Purmerend verkreeg in 1484 marktrecht. Na 1960 is de bevolking gegroeid van ongeveer 10.000 naar ongeveer 80.000 inwoners. De stad ligt gunstig ten opzichte van Amsterdam, waar veel inwoners, vaak voormalige inwoners van de hoofdstad, werken. De plaats maakte als groeikern vanaf de jaren 1960 een stormachtige groei door. Merged with Beemster per 1 januari 2022; op 24 november 2021 werd de herindelingsverkiezing voor de nieuwe gemeenteraad gehouden, opkomst 32,4%. De stad had op 1 januari 2024 een inwonertal van 83.536; de gefuseerde gemeente had op 1 januari 2022 ongeveer 92.000 inwoners. Wijken: Centrum, Overwhere, Wheermolen, Purmer-Noord, De Gors, Purmer-Zuid, Weidevenne. Purmerend noemt zich al jarenlang Marktstad en was bekend om zijn (vee-)markten. Naast het Purmerends Museum kent de stad ook Kunsthuis Waterland, beide gevestigd in de Purmerendse binnenstad.",
+        "url": "https://nl.wikipedia.org/wiki/Purmerend"
+      },
+      {
+        "claim": "Beemster (encyclopaedia): De gemeente had een oppervlakte van 72,08 km2 (waarvan 2,80 km2 water). De gemeente Beemster is op 1 januari 2022 opgeheven en gefuseerd met de gemeente Purmerend. Op 19 mei 1612 was de polder droog; Jan Adriaanszoon Leeghwater in an advisory role. De polder, die in 1612 droogviel, werd in 1999 op de UNESCO-Werelderfgoedlijst geplaatst. Binnen de Beemster liggen de dorpen Middenbeemster, Noordbeemster, Westbeemster en Zuidoostbeemster.",
+        "url": "https://nl.wikipedia.org/wiki/Beemster"
+      },
+      {
+        "claim": "School holiday regions: regio Zuid = Zeeland, Noord-Brabant, Limburg and the southern part of Gelderland; regio Midden = Utrecht, Zuid-Holland and the northern part of Gelderland; regio Noord = Groningen, Friesland, Drenthe, Overijssel, Flevoland, Noord-Holland.",
+        "url": "https://www.rijksoverheid.nl/themas/onderwijs/schoolvakanties/regios-schoolvakantie"
+      }
+    ],
+    "rejectedClaims": [
+      "Any statement about the result of the 24 November 2021 election, any party or candidate, or how non-voters would have voted.",
+      "That the merged council reflects the wishes of Purmerend. It reflects the 32.4 percent who voted.",
+      "Any density comparison between the Beemster and the town. The Beemster area includes 2.80 square kilometres of water and a town area would have to be derived by subtraction.",
+      "The old-boundary population of Purmerend in 2021. The merger page figures do not reconcile cleanly with the recalculated series, so no pre-merger town count is used.",
+      "Any growth read across the old boundary. The office series is already recalculated to present boundaries, and boundary changes in a series are the Zaanstad and Alkmaar arguments.",
+      "Any comparison of the town population of 83,536 in 2024 with the municipal count. Town against municipality is the Zeeland argument.",
+      "Any comment on the MBO count or the absence of higher-education institutions beyond the published figures. Reading the next column is the Westland argument.",
+      "Anything the Amsterdam city page owns, including its districts, test-advice figures and commuting claims."
+    ]
   }
 }

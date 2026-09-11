@@ -68,7 +68,7 @@ Each region below names its municipalities with their 1 January 2026 population,
 
 ### Zaanstreek-Waterland: north of the IJ
 
-[Zaanstad](/coding-classes-in-zaanstad) 165,201, fourth in the province, with its own page; Purmerend 96,182; Edam-Volendam 37,126; Waterland 17,721; Wormerland 16,328; Landsmeer 11,685; Oostzaan 9,778. Commuter country with its own identity and its own dialect.
+[Zaanstad](/coding-classes-in-zaanstad) 165,201, fourth in the province, with its own page; [Purmerend](/coding-classes-in-purmerend) 96,182, sixth, also with its own page; Edam-Volendam 37,126; Waterland 17,721; Wormerland 16,328; Landsmeer 11,685; Oostzaan 9,778. Commuter country with its own identity and its own dialect.
 
 ### Gooi en Vechtstreek: the media towns
 
