@@ -8122,5 +8122,73 @@
       "Any reconciliation of the 22 buurten in the encyclopaedia with the 24 in the statistics office list.",
       "Anything the Eindhoven city page owns, including the Strijp-S address, the named secondary schools and their addresses, the High Tech Campus and the Indian-origin figures."
     ]
+  },
+  "coding-classes-in-woensel-zuid": {
+    "market": "Woensel-Zuid",
+    "bodyClass": "cg-wsz",
+    "pageType": "district",
+    "curriculumAuthority": "Stadsdeel Woensel-Zuid, Eindhoven, Noord-Brabant: part of the former municipality of Woensel, which became part of Eindhoven on 1 January 1920; three statistics office wijken, Oud-Woensel, Erp and Begijnenbroek, with 17 buurten in the office list against 16 in the encyclopaedia, whose areas add to 824 hectares, 821 land and 3 water. Complete-set 2026 sum 42,682 residents, flagged as arithmetic and used as the only stadsdeel population. Oud-Woensel 11,662 residents (2026) on 131 hectares, published density 9,065 (2025), the highest of the twenty Eindhoven wijken, 7,725 households averaging 1.5 with 5,080 single at 66 percent, 6,484 dwellings with 5,382 rented at 83 percent, the highest share in the city, estimated 311,000 euro, the lowest, income 34,000 euro per resident (2024), buurten Gildebuurt, Woenselse Watermolen, Hemelrijken, Limbeek-Noord and Limbeek-Zuid, 2 primary with 510 pupils, resident students 720 higher professional and 1,000 university. Erp 18,779 on 395 hectares, 10,280 households, 9,215 dwellings with 2,949 owner-occupied at 32 percent, estimated 323,000 euro, income 31,000 euro, buurten Vredeoord, Rapenland, Mensfort, Barrier, Kronehoef and Woensel-West, 3 primary with 907 pupils, 2 secondary with 731. Begijnenbroek 12,241 on 295 hectares of land, 6,290 households, 2,715 over sixty-five at 22 percent, 6,003 dwellings with 2,881 owner-occupied at 48 percent, estimated 348,000 euro, buurten Eckartdal, Oude Gracht-Oost, Generalenbuurt, Oude Gracht-West, Oude Toren and Hondsheuvels, 6 primary with 1,391 pupils, 3 secondary with 2,312. Woensel-Noord wijken used for area only: Ontginning 333, Achtse Molen 497, Aanschot 519, Dommelbeemd 515 hectares, 1,864 total and 1,854 land. Encyclopaedia boxes, all citing CBS Kerncijfers wijken en buurten 2023: under Woensel-Zuid 18.64 square kilometres, 18.54 land, 0.11 water, 64,790 residents at 3,476 per square kilometre, 28,676 dwellings; under Woensel-Noord 8.24, 8.21 land, 0.03 water, 42,165 at 5,117, 21,250 dwellings; Woensel whole 26.88, 26.75 land, 0.14 water, 106,955 at 3,979, 49,926 dwellings. Landmarks: the Oude Toren, a fifteenth-century brick tower, the only remnant of the medieval Sint-Petruskerk; the Sint-Petruskerk consecrated 1880 to a design by H.J. van Tulder with a tower of 1912 by Louis Kooken; the Woenselse Markt laid out 1903 as a triangular square. Elfproef: Dutch bank account numbers of nine or ten digits weighted 1, 2, 3 from the right, total divisible by eleven; BSN variant with minus 1; no valid number results from changing one digit or swapping two. Regio Zuid holidays. The district page argues that a check invariant under an error cannot detect it: every self-check on the two boxes is symmetric in the swap, and only a keyed check against an independent source can see it.",
+    "localProject": "A record can pass every check it can run on itself and still sit on the wrong key, because checks that are unchanged by an error cannot detect it. The encyclopaedia entry for Woensel prints two boxes, both citing CBS Kerncijfers wijken en buurten 2023: under Woensel-Zuid, 64,790 residents on 18.64 square kilometres (18.54 land, 0.11 water), density 3,476, 28,676 dwellings; under Woensel-Noord, 42,165 on 8.24 (8.21 land, 0.03 water), density 5,117, 21,250 dwellings. Four checks pass: each density equals population over area; land plus water gives area within rounding; the two boxes add to the Woensel box exactly, 106,955 residents, 49,926 dwellings, 26.88 square kilometres; both cite the same source. A fifth fails: the statistics office areas of the wijken the same entry lists under each heading, Oud-Woensel, Erp and Begijnenbroek at 824 hectares, 821 land, 3 water, against Ontginning, Achtse Molen, Aanschot and Dommelbeemd at 1,864, 1,854 land, 11 water, match the opposite box in both directions. The first four are symmetric under swapping the boxes, so they return the same result with or without the error; the fifth joins through the heading to an independent source, so it changes when the boxes change, which is what lets it find the swap. The wijk lists are trusted because they match the office wijk names, a second source; the boxes are set aside, not corrected, and the page uses its own 2026 sum of 42,682 as the stadsdeel population. The programming form is the order-blind check: a digit sum cannot catch a transposition while the elfproef, weighting each digit by its position, can (no valid number results from changing one digit or swapping two); totals cannot catch rows given the wrong names; matching lengths cannot catch lists zipped after one was sorted; per-file validation cannot catch swapped settings files; the remedy is mutation testing, applying the feared error deliberately to confirm a check fails, and joins by key rather than position. Distinct from cross-field validation (Den Bosch), where a within-record constraint catches the error: here every within-record and across-record constraint is invariant under it; from a single well-formed but wrong field (Masirah); from a name outliving its referent (Scheveningen); and from the ceiling check (Segbroek).",
+    "requiredMentions": [
+      "11,662",
+      "18,779",
+      "12,241",
+      "42,682",
+      "64,790",
+      "42,165",
+      "28,676",
+      "21,250",
+      "106,955",
+      "Woenselse Markt",
+      "Sint-Petruskerk",
+      "Louis Kooken",
+      "Gildebuurt",
+      "Hemelrijken"
+    ],
+    "sources": [
+      {
+        "claim": "Woensel (encyclopaedia entry; the Woensel-Zuid and Woensel-Noord titles redirect here). Box Woensel: oppervlakte 26,88 km2, land 26,75 km2, water 0,14 km2; inwoners (2023) 106.955 (3.979 inw./km2); woningvoorraad 49.926 woningen; bron CBS Kerncijfers wijken en buurten 2023. Box under Woensel-Noord: 8,24 km2, land 8,21, water 0,03; inwoners (2023) 42.165 (5.117 inw./km2); 21.250 woningen; same bron. Box under Woensel-Zuid: 18,64 km2, land 18,54, water 0,11; inwoners (2023) 64.790 (3.476 inw./km2); 28.676 woningen; same bron. Het gebied Woensel-Zuid wordt ingedeeld in 3 wijken en 16 buurten: Oud-Woensel, Erp, Begijnenbroek. Het gebied Woensel-Noord is ingedeeld in vier wijken en 21 buurten: Ontginning, Achtse Molen, Aanschot, Dommelbeemd. Op 1 januari 1920 werd Woensel deel van de gemeente Eindhoven. Deze bakstenen toren is het enige wat is overgebleven van de middeleeuwse Sint-Petruskerk. Het 15e-eeuwse gebouw heeft drie geledingen. Sint-Petruskerk: ze werd ingewijd in 1880, architect H.J. van Tulder; pas in 1912 werd een nieuwe toren gebouwd, de architect was Louis Kooken. In 1903 werd de Woenselse Markt aangelegd, een driehoekig plein.",
+        "url": "https://nl.wikipedia.org/wiki/Woensel"
+      },
+      {
+        "claim": "Wijk Oud-Woensel, Eindhoven: 11,662 inwoners (2026); 7,725 huishoudens averaging 1.5, 5,080 eenpersoonshuishoudens (66 percent); ages 1,090 (0 to 15), 2,440 (15 to 25), 4,955 (25 to 45), 1,970 (45 to 65), 1,235 (65+); 131 hectare, 131 land, 0 water; bevolkingsdichtheid 9,065 per km2 (2025); woningvoorraad 6,484, 5,382 huurwoningen (83 percent) and 1,102 koopwoningen (17 percent); gemiddelde WOZ 311,000 euro (2025); gemiddeld inkomen per inwoner 34,000 euro (2024); buurten Gildebuurt, Woenselse Watermolen, Hemelrijken, Limbeek-Noord, Limbeek-Zuid; 2 vestigingen basisonderwijs with 510 leerlingen, 0 voortgezet onderwijs; studenten HBO 720, WO 1,000 (2025).",
+        "url": "https://allecijfers.nl/wijk/oud-woensel-eindhoven/"
+      },
+      {
+        "claim": "Wijk Erp, Eindhoven: 18,779 inwoners (2026); 10,280 huishoudens averaging 1.8, 5,950 eenpersoonshuishoudens (58 percent); ages 2,335 (0 to 15), 3,255 (15 to 25), 6,610 (25 to 45), 3,765 (45 to 65), 2,795 (65+); 395 hectare, 395 land, 0 water; bevolkingsdichtheid 4,728 per km2; woningvoorraad 9,215, 2,949 koopwoningen (32 percent) and 6,266 huurwoningen (68 percent); gemiddelde WOZ 323,000 euro (2025); gemiddeld inkomen per inwoner 31,000 euro (2024); buurten Vredeoord, Rapenland, Mensfort, Barrier, Kronehoef, Woensel-West; 3 vestigingen basisonderwijs with 907 leerlingen, 2 voortgezet onderwijs with 731; studenten HBO 700, WO 1,090.",
+        "url": "https://allecijfers.nl/wijk/erp-eindhoven/"
+      },
+      {
+        "claim": "Wijk Begijnenbroek, Eindhoven: 12,241 inwoners (2026); 6,290 huishoudens averaging 1.8, 3,205 eenpersoonshuishoudens (51 percent); ages 1,480 (0 to 15), 1,510 (15 to 25), 3,770 (25 to 45), 2,780 (45 to 65), 2,715 (65+); 298 hectare, 295 land, 3 water; bevolkingsdichtheid 4,142 per km2; woningvoorraad 6,003, 2,881 koopwoningen (48 percent) and 3,122 huurwoningen (52 percent); gemiddelde WOZ 348,000 euro (2025); gemiddeld inkomen per inwoner 33,800 euro (2024); buurten Eckartdal, Oude Gracht-Oost, Generalenbuurt, Oude Gracht-West, Oude Toren, Hondsheuvels; 6 vestigingen basisonderwijs with 1,391 leerlingen, 3 voortgezet onderwijs with 2,312; studenten HBO 350, WO 350.",
+        "url": "https://allecijfers.nl/wijk/begijnenbroek-eindhoven/"
+      },
+      {
+        "claim": "Wijk Ontginning, Eindhoven: oppervlakte 333 hectare, land 333, water 0. Wijk Achtse Molen: 497 hectare, land 496, water 1. Wijk Aanschot: 519 hectare, land 517, water 2. Wijk Dommelbeemd: 515 hectare, land 508, water 8. (Area figures only; each from its own wijk page at allecijfers.nl/wijk/<name>-eindhoven/.)",
+        "url": "https://allecijfers.nl/wijk/ontginning-eindhoven/"
+      },
+      {
+        "claim": "Elfproef: De elfproef of 11-proef is een test die in het Nederlandse elektronische betalingsverkeer werd uitgevoerd op negen- en tiencijferige Nederlandse rekeningnummers bij banken. Het laatste cijfer van het rekeningnummer wordt met 1 vermenigvuldigd, het voorlaatste met 2, het op twee na laatste met 3, enzovoorts. Bij burgerservicenummers wordt het laatste getal met -1 vermenigvuldigd in plaats van met 1. Uitgaande van een nummer dat voldoet aan de elfproef kan geen nieuw geldig nummer worden gegenereerd door een cijfer te veranderen of door twee cijfers te verwisselen. Het IBAN behorende aan nieuwe rekeningen voldoet niet meer aan de elfproef.",
+        "url": "https://nl.wikipedia.org/wiki/Elfproef"
+      },
+      {
+        "claim": "Gemeente Eindhoven: 249,783 inwoners (2026); 130,304 huishoudens (2025); 20 wijken en 116 buurten.",
+        "url": "https://allecijfers.nl/gemeente/eindhoven/"
+      },
+      {
+        "claim": "School holiday regions: regio Zuid = Zeeland, Noord-Brabant, Limburg and the southern part of Gelderland; regio Midden = Utrecht, Zuid-Holland and the northern part of Gelderland; regio Noord = Groningen, Friesland, Drenthe, Overijssel, Flevoland, Noord-Holland.",
+        "url": "https://www.rijksoverheid.nl/themas/onderwijs/schoolvakanties/regios-schoolvakantie"
+      }
+    ],
+    "rejectedClaims": [
+      "A Woensel-Zuid population of 64,790. That box carries the area of the four Woensel-Noord wijken; the page uses its own 2026 sum of 42,682.",
+      "That Woensel-Zuid really had 42,165 residents in 2023. Moving a figure from the other box would be the page repairing a source it has just shown to be misplaced.",
+      "That the statistics office made the error. All three boxes cite its 2023 key figures; the mismatch is in how the boxes were placed under the headings.",
+      "Any comparison of the 2023 box figures with the 2026 wijk sums as growth, or any use of the 2025 dwelling counts against the 2023 box counts.",
+      "Any placement of the Oude Toren, the Sint-Petruskerk or the Woenselse Markt in a specific wijk. The entry describes them for Woensel as a whole.",
+      "Any reconciliation of the 16 buurten in the encyclopaedia with the 17 in the office list, which splits Limbeek in two.",
+      "A within-record constraint catching a proxy value. That is the Den Bosch page argument; here every within-record and across-record constraint is blind to the error.",
+      "A single well-formed field holding a wrong value. That is the Masirah argument; here whole records are attached to the wrong keys.",
+      "Anything the Eindhoven city page owns, including the named secondary schools and their addresses, the High Tech Campus and the Indian-origin figures."
+    ]
   }
 }
