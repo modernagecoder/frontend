@@ -9545,5 +9545,50 @@
       "Any reading of the absence of higher-education institutions in the row. That is the Westland argument.",
       "Anything the Leiden, Voorschoten and Zuid-Holland pages own, including their figures and arguments."
     ]
+  },
+  "coding-classes-in-rijswijk": {
+    "market": "Rijswijk",
+    "bodyClass": "cg-rjw",
+    "pageType": "city",
+    "curriculumAuthority": "Gemeente Rijswijk, Zuid-Holland: 61,857 residents (statistics, 1 January 2026), 60,717 (2025), 47,372 (2013), 46,415 (1995), historical data recalculated for administrative changes; 29,413 men and 31,304 women (2025); ages (2026) 10,444 under fifteen, 6,437 fifteen to twenty-five, 17,918 twenty-five to forty-five, 14,420 forty-five to sixty-five, 12,638 sixty-five or over; 29,579 households (2025) averaging 2.03, 12,865 one-person, 9,182 with children; 1,450 hectares, 1,398 land, 53 water, published density 4,343; 29,310 dwellings (2025), 14,362 owner-occupied at 49 percent, 14,948 rented at 51 percent; estimated average value 358,000 euro; income 36,000 euro per resident and 45,200 per recipient (2024); 3.7 percent in poverty; origin (2025) 34,125 Dutch, 7,155 European, 19,437 non-European, 45,866 born in the Netherlands and 14,851 abroad; 11 wijken, 32 buurten; 18 primary establishments and 5 secondary with 2,001 pupils; 588 MBO, 1,220 HBO and 1,130 WO students at institutions. Encyclopaedia: in 1697 the Peace of Rijswijk was signed at Huis ter Nieuwburg; on 5 January 1959 Shell began building its research laboratory in the Plaspoelpolder, which became an industrial and office district; from 2009 Sion, t Haantje and Pasgeld, the last farmland in Rijswijk, began to be turned into the residential and business area Rijswijk Buiten; the municipality lies on the south side of The Hague and the northern edge of Delft; neighbourhoods including Oud-Rijswijk, Te Werve, Hoornwijck, Welgelegen, Bomenbuurt, Cromvliet and Stervoorde; 61,874 residents on 1 January 2026 and 14.50 square kilometres, not combined with the statistics. Regio Midden holidays. The city page teaches API contracts and versioning.",
+    "localProject": "Write the promise down, then test that it holds. The Peace of Rijswijk, signed at Huis ter Nieuwburg in 1697, is used as an image for the promises programs make to each other through APIs and other interfaces. A table grades changes from harmless additions to breaking renames, silent unit changes and removed features, and explains semantic versioning (major for breaking, minor for additions, patch for fixes), deprecation notices, keeping old versions running and contract tests. The programming form covers libraries that change on update, renamed fields in data feeds, units changed without a new name, and AI models updated by their providers so that the same prompt gives different answers without any error. The defences are a written contract with fields, types, units and error behaviour, honest version numbers, deprecation before removal, consumer-side contract tests, and pinning library and AI model versions with evaluations re-run on change. The page places the 1995, 2013 and 2026 counts beside the start of Rijswijk Buiten in 2009 without claiming how much of the rise it explains. Chosen after a case-sensitive check found no page using versioning, breaking change or deprecation. Distinct from Roosendaal, which validates untrusted input at a trust boundary, from Vlaardingen, which concerns references that no longer resolve, and from Hilversum, which concerns whether stored formats stay readable.",
+    "requiredMentions": [
+      "46,415",
+      "47,372",
+      "29,579",
+      "12,865",
+      "9,182",
+      "29,310",
+      "14,362",
+      "14,948",
+      "2,001",
+      "12,638",
+      "Nieuwburg",
+      "Plaspoelpolder",
+      "Rijswijk Buiten",
+      "Hoornwijck"
+    ],
+    "sources": [
+      {
+        "claim": "Gemeente Rijswijk (Zuid-Holland): 61,857 inwoners (2026), 60,717 (2025), 47,372 (2013), 46,415 (1995), historical data recalculated for administrative changes; mannen 29,413, vrouwen 31,304 (2025); ages 0-15 10,444, 15-25 6,437, 25-45 17,918, 45-65 14,420, 65+ 12,638 (2026); 29,579 huishoudens, 12,865 eenpersoons, 9,182 met kinderen, gemiddeld 2.03 (2025); 1,450 hectare, land 1,398, water 53; bevolkingsdichtheid 4,343; woningvoorraad 29,310, koop 14,362 (49 percent), huur 14,948 (51 percent) (2025); gemiddelde WOZ 358,000 euro; gemiddeld inkomen per inwoner 36,000 and per inkomensontvanger 45,200 euro (2024); personen in armoede 3.7 percent; basisonderwijs 18 vestigingen, voortgezet onderwijs 5 vestigingen 2,001 leerlingen, MBO 588, HBO 1,220, WO 1,130; geboren in Nederland 45,866, buiten Nederland 14,851, herkomst Nederland 34,125, Europa 7,155, buiten Europa 19,437 (2025); 11 wijken, 32 buurten.",
+        "url": "https://allecijfers.nl/gemeente/rijswijk/"
+      },
+      {
+        "claim": "Rijswijk (encyclopaedia): In 1697 werd de Vrede van Rijswijk getekend in Huis ter Nieuwburg. Op 5 januari 1959 werd met de bouw van het onderzoekslaboratorium van Shell in de Plaspoelpolder begonnen. In 2009 werd een begin gemaakt met de omvorming van Sion, t Haantje en Pasgeld, de laatste agrarische terreinen in Rijswijk, tot woonwijk en bedrijventerrein Rijswijk Buiten. De gemeente ligt aan de zuidkant van Den Haag en aan de noordrand van Delft. Neighbourhoods include Cromvliet, Leeuwendaal, Oud-Rijswijk, Bomenbuurt, Welgelegen, Te Werve, Hoornwijck, Stervoorde, Plaspoelpolder, Sion, Pasgeld, Haantje. Infobox: 14,50 km2, 61.874 inwoners (1 jan 2026).",
+        "url": "https://nl.wikipedia.org/wiki/Rijswijk_(Zuid-Holland)"
+      },
+      {
+        "claim": "School holiday regions: regio Midden = Utrecht, Zuid-Holland and the northern part of Gelderland; regio Noord = Groningen, Friesland, Drenthe, Overijssel, Flevoland, Noord-Holland; regio Zuid = Zeeland, Noord-Brabant, Limburg and the southern part of Gelderland.",
+        "url": "https://www.rijksoverheid.nl/themas/onderwijs/schoolvakanties/regios-schoolvakantie"
+      }
+    ],
+    "rejectedClaims": [
+      "The parties to or terms of the Peace of Rijswijk. The page uses the treaty only as an image and states only where and when it was signed.",
+      "How much of the population rise since 2013 is due to Rijswijk Buiten. The figures are placed side by side without a causal claim.",
+      "Primary pupil count as a requiredMention. The figure 4,790 is used elsewhere in the series and is left out of the page.",
+      "Anything about software or systems used by Shell or any Rijswijk company.",
+      "Any comparison of the encyclopaedia figure of 61,874 with the statistics figure of 61,857. Two sources that disagree is the Breda argument.",
+      "Anything The Hague, Delft, Leidschendam-Voorburg and Zuid-Holland pages own, including their figures and arguments."
+    ]
   }
 }
