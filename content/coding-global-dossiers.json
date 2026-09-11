@@ -9357,5 +9357,54 @@
       "Any comment on the absence of higher-education students in the row. Reading the next column is the Westland argument.",
       "Anything the Amsterdam, Haarlem, Zaanstad and Noord-Holland pages own, including their figures and arguments."
     ]
+  },
+  "coding-classes-in-capelle-aan-den-ijssel": {
+    "market": "Capelle aan den IJssel",
+    "bodyClass": "cg-cij",
+    "pageType": "city",
+    "curriculumAuthority": "Gemeente Capelle aan den IJssel, Zuid-Holland: 69,698 residents (statistics, 1 January 2026), 68,624 (2025), 66,024 (2013), 60,500 (1995); 33,268 men and 35,356 women (2025); ages (2026) 10,749 under fifteen, 7,903 fifteen to twenty-five, 17,914 twenty-five to forty-five, 17,368 forty-five to sixty-five, 15,764 sixty-five or over; 32,486 households (2025) averaging 2.09, 13,084 one-person, 10,821 with children; 1,540 hectares, 1,414 land, 126 water, published density 4,853; 31,893 dwellings (2025), 17,222 owner-occupied at 54 percent, 14,671 rented at 46 percent; estimated average value 362,000 euro; income 34,500 euro per resident and 42,300 per recipient (2024); 6.9 percent of households at or around the social minimum; origin (2025) 39,311 Dutch, 6,178 European, 23,135 non-European, 52,422 born in the Netherlands; 1 woonplaats, 9 wijken, 79 buurten; 20 primary establishments with 5,439 pupils, 5 secondary with 3,114, 221 MBO students at institutions. Encyclopaedia (Capelle): from the 1950s wijk after wijk was built, mostly occupied by Rotterdammers; the east-west metro line has had a branch to the centre since 1994; wijken Schollevaar, Schenkel, Oostgaarde, Middelwatering, Capelle-West, s-Gravenland, Fascinatio and a business park east of the Van Brienenoord bridge with the sewage treatment works; infobox 69,644 on 1 January 2026 and 15.40 square kilometres, not combined with the statistics. Encyclopaedia (the barrier): dredging began in January 1954, less than a year after the flood disaster; opened 22 October 1958; the oldest structure of the Delta Works; at very high water the gates are lowered to close the river completely; it closes zero to six times a year; two separately movable gates between lifting towers, whose independent operation limits the chance of failure, the second added only in 1976 for budget reasons; the Algerasluis beside it, 23.9 metres wide and 139 long; the Algerabrug between the gates, opened at the same time, three lanes including a reversible lane. Regio Midden holidays. The city page teaches the circuit breaker pattern.",
+    "localProject": "Close the way when a failure is coming, and reopen carefully. The storm surge barrier in the Hollandse IJssel stays open almost always and lowers its gates at very high water, zero to six times a year, protecting the land behind at the cost of closing the river for a while. The page uses it as an image for the software circuit breaker, described in three states (normal, tripped, testing) and avoiding the electrical terms closed and open, which run the other way round from a river barrier. Without a breaker, calls to a failing service wait, retry and tie up resources until the caller fails too; with one, failures are contained, users get a fast honest fallback and the service gets time to recover. The programming form covers payment providers, outside data services, databases under strain and above all AI model providers with slow periods, rate limits and outages. The defences are time limits on every call, backed-off and capped retries, a trip threshold, a planned fallback, and drills that switch services off in testing. Chosen after a case-sensitive check found no page using circuit breaker, kill switch or fail fast. The page says nothing about how the barrier is actually operated. Distinct from Lelystad, which removes single points of failure by adding second routes and mentions timeouts only as one habit, from Assen, which concerns simultaneous updates, and from Bergen op Zoom, which concerns what tests prove.",
+    "requiredMentions": [
+      "60,500",
+      "66,024",
+      "32,486",
+      "13,084",
+      "31,893",
+      "17,222",
+      "14,671",
+      "5,439",
+      "3,114",
+      "15,764",
+      "Schollevaar",
+      "Middelwatering",
+      "Algerabrug",
+      "Algerasluis"
+    ],
+    "sources": [
+      {
+        "claim": "Gemeente Capelle aan den IJssel: 69,698 inwoners (2026), 68,624 (2025), 66,024 (2013), 60,500 (1995); mannen 33,268, vrouwen 35,356 (2025); ages 0-15 10,749, 15-25 7,903, 25-45 17,914, 45-65 17,368, 65+ 15,764 (2026); 32,486 huishoudens, 13,084 eenpersoons, 10,821 met kinderen, gemiddeld 2.09 (2025); 1,540 hectare, land 1,414, water 126; bevolkingsdichtheid 4,853; woningvoorraad 31,893, koop 17,222 (54 percent), huur 14,671 (46 percent) (2025); gemiddelde WOZ 362,000 euro; 1 woonplaats, 9 wijken, 79 buurten; gemiddeld inkomen per inwoner 34,500 and per inkomensontvanger 42,300 euro (2024); 6.9 percent huishoudens rond of onder het sociaal minimum; basisonderwijs 20 vestigingen 5,439 leerlingen, voortgezet onderwijs 5 vestigingen 3,114 leerlingen, MBO 221; herkomst Nederland 39,311, Europa 6,178, buiten Europa 23,135, geboren in Nederland 52,422 (2025).",
+        "url": "https://allecijfers.nl/gemeente/capelle-aan-den-ijssel/"
+      },
+      {
+        "claim": "Capelle aan den IJssel (encyclopaedia): Vanaf de jaren vijftig werd wijk na wijk gebouwd, die veelal werden bevolkt door Rotterdammers. De oost-westlijn heeft sinds 1994 een vertakking naar het centrum van Capelle aan den IJssel. De gemeente is verdeeld in een aantal wijken: Schollevaar, Schenkel, Oostgaarde, Middelwatering, Capelle-West, s-Gravenland, Fascinatio en het bedrijvenpark. Ten oosten van de Van Brienenoordbrug bevindt zich onder meer de afvalwaterzuiveringsinstallatie. Infobox: 69.644 inwoners (1 jan 2026), 15,40 km2.",
+        "url": "https://nl.wikipedia.org/wiki/Capelle_aan_den_IJssel"
+      },
+      {
+        "claim": "Hollandsche IJsselkering (encyclopaedia): In januari 1954, nog geen jaar na de Watersnoodramp, werd begonnen met de eerste baggerwerkzaamheden; geopend 22 oktober 1958; het oudste kunstwerk van de Deltawerken. Bij zeer hoog water worden de schuiven neergelaten om de rivier volledig af te sluiten. De kering in de Hollandse IJssel sluit nul tot zes keer per jaar. Twee afzonderlijk beweegbare schuiven tussen heftorens; de onafhankelijke bediening van de schuiven beperkt de faalkans. Om budgettaire redenen is de tweede schuif pas in 1976 aangebracht. De Algerasluis, breedte 23,9 meter, lengte 139 meter. De Algerabrug ligt tussen de schuiven, is tegelijk in gebruik genomen en telt drie rijstroken, waaronder een wisselstrook.",
+        "url": "https://nl.wikipedia.org/wiki/Stormvloedkering_Hollandse_IJssel"
+      },
+      {
+        "claim": "School holiday regions: regio Midden = Utrecht, Zuid-Holland and the northern part of Gelderland; regio Noord = Groningen, Friesland, Drenthe, Overijssel, Flevoland, Noord-Holland; regio Zuid = Zeeland, Noord-Brabant, Limburg and the southern part of Gelderland.",
+        "url": "https://www.rijksoverheid.nl/themas/onderwijs/schoolvakanties/regios-schoolvakantie"
+      }
+    ],
+    "rejectedClaims": [
+      "The water level at which the barrier closes, or how closures are decided. The source says only very high water.",
+      "Any comparison of the 6.9 percent of households at or around the social minimum with poverty shares on other pages. Different measures under similar labels is the Alphen argument.",
+      "Any claim that the barrier or its second gate ever failed or was needed urgently.",
+      "The ParkShuttle or any feature of the business park beyond the sewage works named in the source.",
+      "Any comparison of the encyclopaedia figure of 69,644 with the statistics figure of 69,698. Two sources that disagree is the Breda argument.",
+      "Anything the Rotterdam, Prins Alexander, IJsselmonde and Zuid-Holland pages own, including their figures and arguments."
+    ]
   }
 }
