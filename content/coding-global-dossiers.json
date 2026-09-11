@@ -8784,5 +8784,54 @@
       "Any claim about companies based in Meierijstad. None was in the sources read.",
       "Anything the Den Bosch, Eindhoven, Oss, Helmond and Noord-Brabant pages own, including their figures and arguments."
     ]
+  },
+  "coding-classes-in-hengelo": {
+    "market": "Hengelo",
+    "bodyClass": "cg-hgl",
+    "pageType": "city",
+    "curriculumAuthority": "Gemeente Hengelo, Overijssel: 84,045 residents (statistics, 1 January 2026) and 77,409 (1995), growth given by the site as 8.6 percent; 42,352 men and 41,303 women (2025); ages (2026) 11,422 under fifteen, 10,150 fifteen to twenty-five, 21,831 twenty-five to forty-five, 22,525 forty-five to sixty-five, 18,117 sixty-five or over; 39,972 households (2025) averaging 2.05, 16,485 one-person, 11,278 multi-person without children, 12,209 with children; 6,183 hectares, 6,084 land, 99 water, published density 1,375; 40,426 dwellings (2025), 23,043 owner-occupied at 57 percent, 17,383 rented at 43 percent; estimated average value 313,000 euro; income 32,600 euro per resident and 38,500 per recipient (2024); 3 percent in poverty; 71,699 born in the Netherlands and 11,956 abroad, origin 61,095 Dutch, 6,131 European, 16,429 non-European (2025); one woonplaats, ten wijken (Binnenstad, Hengelose Es, Noord, Hasseler Es, Groot Driene, Wilderinkshoek, Woolde, Slangenbeek, Berflo Es, Buitengebied), 62 buurten; 26 primary establishments with 6,369 pupils, 8 secondary with 5,612, 6,723 MBO, 2,260 HBO and 860 WO students at institutions. Encyclopaedia (Hengelo): in 1868 C.T. Stork set up a machine-parts factory from Borne, Gebr. Stork and Co; Hazemeyer, Heemaf, the Koninklijke Nederlandse Zoutindustrie and Hollandse Signaalapparaten followed; textiles concentrated in Enschede; the nickname metaalstad; a railway junction towards Germany; the centre almost entirely destroyed on 6 and 7 October 1944; the white town hall gave way to a modern design with a tower; the Europatunnel under the western platform; the Hengelo lock in the De Waarbeek complex on the Twentekanaal; infobox 84,038 on 1 January 2026 and 61.83 square kilometres. Encyclopaedia (Thales Nederland): founded 1922 as NV Hazemeyers fabriek van signaalapparaten; taken over from Philips in 1990; advanced radar and infrared equipment and fire-control systems including APAR and SMART-L. Regio Noord holidays. The city page teaches that noise is defined by the question.",
+    "localProject": "Noise is defined by the question. A radar hears echoes from aircraft, ships, waves, birds and rain; for aircraft tracking the rain is clutter to suppress, and for a weather radar it is the signal, so the same echo takes opposite labels depending on purpose. The page describes radar in general and makes no claim about any product made in Hengelo beyond the encyclopaedia line that the firm founded in 1922 as Hazemeyer's signal-apparatus factory makes advanced radar. The programming form is purpose-relative cleaning: outlier rules that remove the fraud a fraud model needs, audio noise suppression that deletes the event an event detector must hear, deduplication that hides repeat custom, and annotator disagreement flattened into false certainty. The defences are stating the question at the top of every cleaning script, quarantining removed records with reasons, counting what each filter removes, keeping the raw layer, and re-cleaning for each new question. Chosen after a case-sensitive check found no page using clutter or radar. Distinct from Segbroek, which treats a value beyond a published ceiling as a possible finding, from Escamp, which concerns the two failure directions of a condition, and from Oss, which concerns which fields of reused data were kept accurate by use.",
+    "requiredMentions": [
+      "77,409",
+      "39,972",
+      "12,209",
+      "40,426",
+      "23,043",
+      "17,383",
+      "6,369",
+      "5,612",
+      "6,723",
+      "18,117",
+      "Hazemeyer",
+      "Heemaf",
+      "Europatunnel",
+      "Wilderinkshoek"
+    ],
+    "sources": [
+      {
+        "claim": "Gemeente Hengelo (Overijssel): 84,045 inwoners (2026), 77,409 (1995), growth 8.6 percent over 31 years; mannen 42,352, vrouwen 41,303 (2025); ages 0-15 11,422, 15-25 10,150, 25-45 21,831, 45-65 22,525, 65+ 18,117 (2026); 39,972 huishoudens, 16,485 eenpersoons (41 percent), 11,278 meerpersoons zonder kinderen (28 percent), 12,209 met kinderen (31 percent), gemiddeld 2.05 (2025); 6,183 hectare, land 6,084, water 99; bevolkingsdichtheid 1,375; woningvoorraad 40,426, koopwoningen 23,043 (57 percent), huurwoningen 17,383 (43 percent) (2025); gemiddelde WOZ 313,000 euro; gemiddeld inkomen per inwoner 32,600 and per inkomensontvanger 38,500 euro (2024); personen in armoede 3 percent; geboren in Nederland 71,699, buiten Nederland 11,956, herkomst Nederland 61,095, Europa 6,131, buiten Europa 16,429 (2025); basisonderwijs 26 vestigingen 6,369 leerlingen, voortgezet onderwijs 8 vestigingen 5,612 leerlingen, MBO 6,723, HBO 2,260, WO 860; 1 woonplaats, 10 wijken (Binnenstad, Hengelose Es, Noord, Hasseler Es, Groot Driene, Wilderinkshoek, Woolde, Slangenbeek, Berflo Es, Buitengebied), 62 buurten.",
+        "url": "https://allecijfers.nl/gemeente/hengelo/"
+      },
+      {
+        "claim": "Hengelo (encyclopaedia): In 1868 vestigde vanuit Borne C.T. Stork een fabriek voor machineonderdelen in Hengelo, Gebr. Stork en co. Na de komst van dit bedrijf volgden andere grote fabrieken als Hazemeyer, Heemaf, Koninklijke Nederlandse Zoutindustrie en Hollandse Signaalapparaten. Aanvankelijk was er ook in Hengelo textielindustrie, maar deze ging zich in de loop van de eeuw steeds meer concentreren in Enschede. Hengelo wordt gezien als een (voormalige) industriestad en heeft de bijnaam metaalstad gekregen. Knooppunt van spoorlijnen richting Duitsland; daarbij werd het centrum van de stad op 6 en 7 oktober 1944 zo goed als geheel vernietigd. Zo verdween het karakteristieke witte gemeentehuis om plaats te maken voor een modern ontwerp met een toren. Onder het westelijk deel van het perron loopt de Europatunnel. Schutsluis Hengelo als onderdeel van het sluiscomplex De Waarbeek in het Twentekanaal. Infobox: 84.038 inwoners (1 januari 2026), 61,83 km2.",
+        "url": "https://nl.wikipedia.org/wiki/Hengelo_(Overijssel)"
+      },
+      {
+        "claim": "Thales Nederland (encyclopaedia): Hollandse Signaal Apparaten (HSA) werd in 1922 opgericht als NV Hazemeyers fabriek van signaalapparaten; in 1990 overgenomen van Philips; located in Hengelo (Overijssel); geavanceerde radar- en infraroodapparatuur en vuurgeleidingssystemen, waaronder de Active Phased Array Radar (APAR) en SMART-L.",
+        "url": "https://nl.wikipedia.org/wiki/Thales_Nederland"
+      },
+      {
+        "claim": "School holiday regions: regio Noord = Groningen, Friesland, Drenthe, Overijssel, Flevoland and Noord-Holland; regio Midden = Utrecht, Zuid-Holland and the northern part of Gelderland; regio Zuid = Zeeland, Noord-Brabant, Limburg and the southern part of Gelderland.",
+        "url": "https://www.rijksoverheid.nl/themas/onderwijs/schoolvakanties/regios-schoolvakantie"
+      }
+    ],
+    "rejectedClaims": [
+      "Any claim about how a particular Hengelo radar product handles clutter, or about its customers. The page describes radar in general.",
+      "Any comparison of the encyclopaedia figure of 84,038 with the statistics figure of 84,045. Two sources that disagree is the Breda argument.",
+      "A date for the rebuilding of the town hall. The source does not give one in the sentence read.",
+      "Staff numbers for any Hengelo employer. None was given for the Hengelo site in the sources read.",
+      "The number of the 2025 total population as a printed figure. It is stated only as the total both 2025 splits reach.",
+      "Anything the Enschede, Deventer, Zwolle and Overijssel pages own, including their figures and arguments."
+    ]
   }
 }
