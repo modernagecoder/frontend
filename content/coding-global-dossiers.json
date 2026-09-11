@@ -9451,5 +9451,50 @@
       "Names or numbers of embassies and consulates. The source says only that villas house consulates.",
       "Anything The Hague, Scheveningen, Leiden and Zuid-Holland pages own, including their figures and arguments."
     ]
+  },
+  "coding-classes-in-voorschoten": {
+    "market": "Voorschoten",
+    "bodyClass": "cg-vsc",
+    "pageType": "city",
+    "curriculumAuthority": "Gemeente Voorschoten, Zuid-Holland: 25,975 residents (statistics, 1 January 2026), 25,900 (2025), 24,658 (2013), 22,683 (1995); 12,617 men and 13,283 women (2025); ages (2026) 4,048 under fifteen, 2,996 fifteen to twenty-five, 5,348 twenty-five to forty-five, 7,038 forty-five to sixty-five, 6,545 sixty-five or over; 11,518 households (2025) averaging 2.2, 7,413 multi-person, 4,021 with children; 1,156 hectares, 1,111 land, 45 water, published density 2,331; 11,650 dwellings (2025), 7,572 owner-occupied at 65 percent, 4,078 rented at 35 percent; estimated average value 528,000 euro; income 42,100 euro per resident and 51,600 per recipient (2024); 2.1 percent in poverty; origin (2025) 19,039 Dutch, 2,476 European, 4,385 non-European, 21,950 born in the Netherlands and 3,950 abroad; 1 woonplaats, 1 wijk, 12 buurten (Noord-Hofland, Adegeest, Krimwijk, Dobbewijk, Nassauwijk, Vlietwijk, Centrum, Bloemenwijk, Bijdorp, Boschgeest, Buitengebied, Starrenburg); 8 primary establishments with 2,165 pupils; no secondary establishment listed. Encyclopaedia: soil finds show a settlement near present Boschgeest as early as 2000 years before Christ; Kasteel Duivenvoorde on the south side, privately owned since 1226; the Duivenvoordecorridor on the south and west, part of the national ecological network, giving a green character; the present church completed in 1868 in English neo-Gothic style, the fourth on its site; the Rijn-Schiekanaal (the Vliet) as a boundary; 25,978 residents on 1 January 2026 and 11.59 square kilometres, not combined with the statistics. Regio Midden holidays. The city page teaches refactoring versus rewriting.",
+    "localProject": "Know what you have before you decide to keep or rebuild it. Kasteel Duivenvoorde in Voorschoten has been privately owned since 1226, adapted rather than replaced, while the Dorpskerk completed in 1868 is the fourth church on its site; the page uses the two as images for the software choice between refactoring in small tested steps and rewriting from scratch. A comparison table sets out that step-by-step improvement keeps the program working and preserves old fixes, while a rewrite risks losing special cases, rounding rules and crash guards nobody remembers, and is right mainly when the foundation cannot carry what is now needed. The defences are characterisation tests capturing current behaviour first, small steps with tests run after each, asking why before deleting a strange line, running old and new side by side, and reviewing AI-generated rewrites like any large change, since AI makes rewriting effortless and appearances omit hidden fixes. Chosen after a case-sensitive check found no page using refactoring or rewrite in this sense (Scheveningen mentions refactor in passing). The page says nothing about how either building was altered. Distinct from Hilversum, which concerns whether stored files stay readable, from Bergen op Zoom, which concerns what passing tests prove, and from Amsterdam-West, which concerns when an identifier should stay the same.",
+    "requiredMentions": [
+      "22,683",
+      "24,658",
+      "11,518",
+      "4,021",
+      "11,650",
+      "4,078",
+      "2,996",
+      "7,038",
+      "Duivenvoorde",
+      "Duivenvoordecorridor",
+      "Boschgeest",
+      "Starrenburg",
+      "Noord-Hofland",
+      "Krimwijk"
+    ],
+    "sources": [
+      {
+        "claim": "Gemeente Voorschoten: 25,975 inwoners (2026), 25,900 (2025), 24,658 (2013), 22,683 (1995); mannen 12,617, vrouwen 13,283 (2025); ages 0-15 4,048, 15-25 2,996, 25-45 5,348, 45-65 7,038, 65+ 6,545 (2026); 11,518 huishoudens, 4,105 eenpersoons, 7,413 meerpersoons, 4,021 met kinderen, gemiddeld 2.2 (2025); 1,156 hectare, land 1,111, water 45; bevolkingsdichtheid 2,331; woningvoorraad 11,650, koop 7,572 (65 percent), huur 4,078 (35 percent) (2025); gemiddelde WOZ 528,000 euro; gemiddeld inkomen per inwoner 42,100 and per inkomensontvanger 51,600 euro (2024); personen in armoede 2.1 percent; basisonderwijs 8 vestigingen 2,165 leerlingen, voortgezet onderwijs 0; geboren in Nederland 21,950, buiten Nederland 3,950, herkomst Nederland 19,039, Europa 2,476, buiten Europa 4,385 (2025); 1 woonplaats, 1 wijk, 12 buurten (Noord-Hofland, Adegeest, Krimwijk, Dobbewijk, Nassauwijk, Vlietwijk, Centrum, Bloemenwijk, Bijdorp, Boschgeest, Buitengebied, Starrenburg).",
+        "url": "https://allecijfers.nl/gemeente/voorschoten/"
+      },
+      {
+        "claim": "Voorschoten (encyclopaedia): Bodemvondsten tonen aan dat reeds 2000 jaar voor Christus, ter hoogte van de huidige Voorschotense wijk Boschgeest, een nederzetting bestond. Aan de zuidkant van Voorschoten ligt het kasteel Duivenvoorde dat sinds 1226 particulier bezit is. De gemeente heeft een groen karakter, vooral aan de zuid- en westkant, waar de Duivenvoordecorridor een onderdeel is van de ecologische hoofdstructuur. In 1868 werd de huidige kerk, de vierde op deze plaats, in Engels Neogotische stijl opgeleverd. Het Rijn-Schiekanaal (de Vliet) as a boundary. 25.978 inwoners (peildatum 1 januari 2026, bron: CBS) en een oppervlakte van 11,59 vierkante kilometer.",
+        "url": "https://nl.wikipedia.org/wiki/Voorschoten"
+      },
+      {
+        "claim": "School holiday regions: regio Midden = Utrecht, Zuid-Holland and the northern part of Gelderland; regio Noord = Groningen, Friesland, Drenthe, Overijssel, Flevoland, Noord-Holland; regio Zuid = Zeeland, Noord-Brabant, Limburg and the southern part of Gelderland.",
+        "url": "https://www.rijksoverheid.nl/themas/onderwijs/schoolvakanties/regios-schoolvakantie"
+      }
+    ],
+    "rejectedClaims": [
+      "Who has owned Kasteel Duivenvoorde, or how it was altered over the centuries. The source says only that it has been in private ownership since 1226.",
+      "Why the earlier churches were replaced. The source says only that the 1868 church is the fourth on its site.",
+      "Any reading of the absence of a secondary establishment, or where Voorschoten pupils go to secondary school. Reading a zero from missing institutions is the Westland argument.",
+      "Higher-education student counts. The row read gave identical HBO and WO figures that look unreliable, so neither is used.",
+      "Any comparison of the encyclopaedia figure of 25,978 with the statistics figure of 25,975. Two sources that disagree is the Breda argument.",
+      "Anything the Leiden, The Hague, Leidschendam-Voorburg and Zuid-Holland pages own, including their figures and arguments."
+    ]
   }
 }
