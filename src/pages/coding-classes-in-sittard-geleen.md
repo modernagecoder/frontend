@@ -251,7 +251,7 @@ Five to ten, matched on level, pace and goal rather than on age, school or addre
 
 ## South to Maastricht, north to Venlo, and up to the hub
 
-Down the Maas, [coding classes in Maastricht](/coding-classes-in-maastricht) covers the provincial capital, and to the north [Venlo](/coding-classes-in-venlo) has a page of its own. All of the province, from the flessenhals to the hills of the south, is gathered on [Limburg](/coding-classes-in-limburg). A learner who wants to start with machine learning can go straight to the [AI and Python Academy](/ai-and-python-academy-netherlands), and every page in the series is listed on the [Netherlands coding hub](/coding-classes-in-netherlands).
+Down the Maas, [coding classes in Maastricht](/coding-classes-in-maastricht) covers the provincial capital, and to the north [Venlo](/coding-classes-in-venlo) has a page of its own. The same cut-off, drawn by a district boundary instead of a national one, is the subject of the page on [Rotterdam Centrum](/coding-classes-in-rotterdam-centrum). All of the province, from the flessenhals to the hills of the south, is gathered on [Limburg](/coding-classes-in-limburg). A learner who wants to start with machine learning can go straight to the [AI and Python Academy](/ai-and-python-academy-netherlands), and every page in the series is listed on the [Netherlands coding hub](/coding-classes-in-netherlands).
 
 ## Contact
 
