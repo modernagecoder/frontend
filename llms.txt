@@ -333,6 +333,7 @@ Ages 6 to 67, small live batches, priced from USD 100 a month.
 - AI and Python Academy, Netherlands: https://learn.modernagecoders.com/ai-and-python-academy-netherlands
 - AI and Python Academy, Groningen: https://learn.modernagecoders.com/ai-and-python-academy-groningen
 - AI and Python Academy, Amsterdam: https://learn.modernagecoders.com/ai-and-python-academy-amsterdam
+- AI and Python Academy, Eindhoven: https://learn.modernagecoders.com/ai-and-python-academy-eindhoven
 ## Coding Classes by State, Province & Market
 
 Live online coding and mathematics for a specific state, province or market,

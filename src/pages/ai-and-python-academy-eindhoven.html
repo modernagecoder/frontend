@@ -1,0 +1,647 @@
+<!DOCTYPE html>
+<html lang="en-NL">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>AI and Python Academy, Eindhoven | Build Real AI</title>
+  <meta name="description" content="Eindhoven builds AI that has to move: soccer robots, drones and cars. Learn the Python, data and models behind it, live online for ages 6 to 67. First lesson free.">
+  <meta name="author" content="Modern Age Coders">
+  <link rel="canonical" href="https://learn.modernagecoders.com/ai-and-python-academy-eindhoven">
+  <link rel="alternate" type="text/markdown" href="/src/pages/ai-and-python-academy-eindhoven.md" title="Markdown version for AI agents">
+
+  <link rel="icon" href="/favicon.ico" type="image/x-icon">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
+  <meta name="theme-color" content="#076B29">
+
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://learn.modernagecoders.com/ai-and-python-academy-eindhoven">
+  <meta property="og:title" content="AI and Python Academy, Eindhoven | Build Real AI">
+  <meta property="og:description" content="Eight-time robot soccer world champions, a university AI institute built around machines, and student teams flying autonomous drones. The ladder to that kind of AI, live online from Eindhoven.">
+  <meta property="og:image" content="https://learn.modernagecoders.com/images/og-modern-age-coders.png">
+  <meta property="og:site_name" content="Modern Age Coders">
+  <meta property="og:locale" content="en_NL">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="AI and Python Academy, Eindhoven">
+  <meta name="twitter:description" content="Python, vision models and AI that works in the real world, not only on a screen. Live online for Eindhoven, ages 6 to 67.">
+  <meta name="twitter:image" content="https://learn.modernagecoders.com/images/og-modern-age-coders.png">
+
+  <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+  <meta name="geo.region" content="NL">
+  <meta name="geo.placename" content="Netherlands">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/ai-global.css?v=20260907">
+  <style>
+.ag-root.ag-aeh .ag-hero-grid { gap: clamp(1.2rem, 3.2vw, 2.8rem); }
+.ag-root.ag-aeh .ag-hero h1 { letter-spacing: -0.018em; }
+.ag-root.ag-aeh .ag-capsule { border-left-width: 3px; }
+.ag-root.ag-aeh .ag-section-head h2 { max-width: 34ch; }
+.ag-root.ag-aeh .ag-band-head h3 { letter-spacing: 0; }
+.ag-root.ag-aeh .ag-table caption { text-align: left; }
+.ag-root.ag-aeh .ag-spec dt { letter-spacing: 0.14em; }
+.ag-root.ag-aeh .ag-slots { gap: 1.1rem; }
+  </style>
+
+  <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-N8BM164YJP');gtag('config','AW-16910316353');</script>
+
+  <script type="application/ld+json" data-price-scope="coding.international">
+  {"@context":"https://schema.org","@graph":[{"@type":"EducationalOrganization","@id":"https://learn.modernagecoders.com/#org","name":"Modern Age Coders","url":"https://learn.modernagecoders.com","logo":"https://learn.modernagecoders.com/images/logo.svg","foundingDate":"2020","areaServed":{"@type":"Country","name":"Netherlands"},"knowsAbout":["Python","Machine Learning","AI Agents","Deep Learning","Data Science","Generative AI","Large Language Models","Model Evaluation","Git and GitHub","Statistics"]},{"@type":"WebPage","@id":"https://learn.modernagecoders.com/ai-and-python-academy-eindhoven#page","url":"https://learn.modernagecoders.com/ai-and-python-academy-eindhoven","name":"AI and Python Academy for Students in Eindhoven","description":"Live online Python, data, machine learning and AI agent classes for learners in Eindhoven aged 6 to 67, with a focus on AI that has to work in physical systems.","inLanguage":"en-NL","isPartOf":{"@type":"WebSite","url":"https://learn.modernagecoders.com","name":"Modern Age Coders"}},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://learn.modernagecoders.com/"},{"@type":"ListItem","position":2,"name":"Courses","item":"https://learn.modernagecoders.com/courses"},{"@type":"ListItem","position":3,"name":"AI and Python Academy, Netherlands","item":"https://learn.modernagecoders.com/ai-and-python-academy-netherlands"},{"@type":"ListItem","position":4,"name":"Eindhoven","item":"https://learn.modernagecoders.com/ai-and-python-academy-eindhoven"}]},{"@type":"Course","name":"AI and Python Academy for Students in Eindhoven","description":"A live online programme for learners in Eindhoven aged 6 to 67: Python by hand, data, models with measured errors and agents, taught with the problems of AI in machines in view, from manufactured training data to the gap between a simulator and the real world.","provider":{"@id":"https://learn.modernagecoders.com/#org"},"inLanguage":"en","educationalCredentialAwarded":"Modern Age Coders certificate of completion","audience":{"@type":"EducationalAudience","educationalRole":"student"},"hasCourseInstance":{"@type":"CourseInstance","courseMode":"online","courseWorkload":"PT1H30M","location":{"@type":"VirtualLocation","url":"https://learn.modernagecoders.com/ai-and-python-academy-eindhoven"},"instructor":{"@type":"Organization","name":"Modern Age Coders"}},"offers":[{"@type":"Offer","name":"Group batch","price":"100","priceCurrency":"USD","category":"Monthly","availability":"https://schema.org/InStock","url":"https://learn.modernagecoders.com/ai-and-python-academy-eindhoven"},{"@type":"Offer","name":"One to one","price":"150","priceCurrency":"USD","category":"Monthly","availability":"https://schema.org/InStock","url":"https://learn.modernagecoders.com/ai-and-python-academy-eindhoven"}]},{"@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Do you teach robotics with physical robots?","acceptedAnswer":{"@type":"Answer","text":"No. Lessons are live online, and learners work in Python on their own computers. What we teach is the software side that physical systems depend on: data, vision models, decision loops and testing against conditions a model was not trained on. Many of those skills are practised in simulation first, as they are in university labs."}},{"@type":"Question","name":"What is RoboCupJunior?","acceptedAnswer":{"@type":"Answer","text":"One of the five leagues at RoboCup, the one for school pupils. RoboCup 2024 was held in Eindhoven with three hundred teams from forty countries. We have no connection with RoboCup, but a pupil who wants to take part will find the Python and data skills from our ladder useful."}},{"@type":"Question","name":"My teenager wants to study at TU/e. What should they learn first?","acceptedAnswer":{"@type":"Answer","text":"Python written by hand, then data, then the first models, in that order. For a technical degree, fluent programming and the habit of measuring errors matter more than any particular framework. We have no connection with TU/e and cannot influence admission."}},{"@type":"Question","name":"What is the gap between simulation and reality?","acceptedAnswer":{"@type":"Answer","text":"The difference between how a system behaves in a simulator and how it behaves in the real world. Tech United's goalkeeper, trained in simulation, covered 23 percent of the goal area on the real robot, and the team plans to retrain it on the hardware. Every model trained on artificial data faces the same question."}},{"@type":"Question","name":"I am an engineer. Is this too basic for me?","acceptedAnswer":{"@type":"Answer","text":"Probably not if you start at the right rung. Engineers usually begin with the mathematics or the machine learning masterclass, often one to one, and move quickly past what they already know. The free lesson decides the level."}},{"@type":"Question","name":"Is my child too young?","acceptedAnswer":{"@type":"Answer","text":"Children start from around groep 5 with blocks and from groep 6 to 8 with typed Python. A turtle that moves on the screen is a real program, and a child who writes one is already learning to control a machine."}},{"@type":"Question","name":"Are the lessons in English?","acceptedAnswer":{"@type":"Answer","text":"Yes, as the technical world around Eindhoven largely is. Dutch school terms such as brugklas, havo and vwo are used as they are."}},{"@type":"Question","name":"What does it cost?","acceptedAnswer":{"@type":"Answer","text":"USD 100 a month for a group place, USD 150 a month for one-to-one lessons, billed in US dollars. No joining fee, no yearly contract, and the first lesson is free."}},{"@type":"Question","name":"Where do the teachers work from?","acceptedAnswer":{"@type":"Answer","text":"From India, live over video. The time difference with Eindhoven is three and a half hours in summer and four and a half in winter, so late afternoons and weekends are easiest."}},{"@type":"Question","name":"What happens after I send the form?","acceptedAnswer":{"@type":"Answer","text":"We call at a Dutch hour to set up the free lesson. Nothing is charged and no place is held until the family has seen that lesson and chosen."}}]}]}
+  </script>
+
+  <script type="application/ld+json">
+  {"@context":"https://schema.org","@type":"Service","serviceType":"Online Python, AI and machine learning teaching for students","provider":{"@type":"EducationalOrganization","name":"Modern Age Coders","url":"https://learn.modernagecoders.com/"},"areaServed":{"@type":"Country","name":"Netherlands"},"availableChannel":{"@type":"ServiceChannel","serviceUrl":"https://learn.modernagecoders.com/ai-and-python-academy-eindhoven","availableLanguage":["en"]}}
+  </script>
+</head>
+
+<body class="ag-root ag-aeh">
+
+<nav class="ag-nav" aria-label="Primary">
+  <div class="ag-nav-inner">
+    <a href="/" class="ag-nav-brand">
+      <img src="/images/logo.svg" alt="Modern Age Coders logo" width="30" height="30" fetchpriority="high">
+      Modern Age Coders
+      <span class="ag-brand-tag">Netherlands</span>
+    </a>
+    <ul class="ag-nav-links">
+      <li><a href="#machines">AI in machines</a></li>
+      <li><a href="#turtles">Three problems</a></li>
+      <li><a href="#ladder">The ladder</a></li>
+      <li><a href="#catalogue">Courses</a></li>
+      <li><a href="#fees">Fees</a></li>
+    </ul>
+    <a href="#start" class="ag-btn">Free first class</a>
+  </div>
+</nav>
+
+<header class="ag-hero">
+  <div class="ag-wrap">
+    <nav class="ag-crumbs" aria-label="Breadcrumb">
+      <a href="/">Home</a> / <a href="/courses">Courses</a> / <a href="/ai-and-python-academy-netherlands">AI and Python Academy, Netherlands</a> / Eindhoven
+    </nav>
+    <div class="ag-hero-grid ag-mt-40">
+      <div>
+        <p class="ag-eyebrow">Eindhoven &middot; Live online &middot; Ages 6 to 67</p>
+        <h1>AI and Python classes in Eindhoven, for AI that has to move</h1>
+        <p class="ag-lede">Most AI that people meet lives on a screen: a chatbot, a recommendation, a filter. Eindhoven builds the other kind. Its university's AI institute studies data and algorithms inside machines, robots, autonomous cars and medical equipment, and its student teams build autonomous drones, race cars and the soccer robots that have won eight world titles in RoboCup's Middle Size League. AI in a machine meets problems a chatbot never does. Its training images may have to be manufactured. Its sensors drift after a collision in the middle of a match. And the simulator it learned in is never quite the pitch it plays on. This page teaches the Python, data and models underneath that kind of AI, with those problems in view from the first rung, live online for learners in Eindhoven.</p>
+        <div class="ag-btn-row">
+          <a href="#start" class="ag-btn">Book the free first class</a>
+          <a href="#turtles" class="ag-btn ag-btn--ghost">See the three problems</a>
+          <a href="https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20want%20a%20free%20class%20for%20a%20learner%20in%20Eindhoven%2C%20on%20the%20AI%20and%20Python%20track." class="ag-btn ag-btn--ghost" target="_blank" rel="noopener" onclick="if(window.gtag)gtag('event','whatsapp_click',{page_market:'aeh'});">Ask on WhatsApp</a>
+        </div>
+        <p class="ag-hero-note">Teaching live since 2020 &middot; 10,000+ students so far &middot; nothing pre-recorded</p>
+      </div>
+
+      <aside class="ag-spec">
+        <p class="ag-spec-title">At a glance</p>
+        <p class="ag-trust">
+          <span class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</span>
+          4.9 across 547 Google reviews
+        </p>
+        <dl>
+          <dt>Learners</dt><dd>Eindhoven, ages 6 to 67</dd>
+          <dt>Focus</dt><dd>Python, vision, models, agents</dd>
+          <dt>Angle</dt><dd>AI that works outside the screen</dd>
+          <dt>Format</dt><dd>Live video, one teacher, no recordings</dd>
+          <dt>Group</dt><dd>5 to 10 at one level, or one to one</dd>
+          <dt>Times</dt><dd>Dutch afternoons, evenings and weekends</dd>
+          <dt>Language</dt><dd>English</dd>
+          <dt>First class</dt><dd>Free, no card</dd>
+        </dl>
+      </aside>
+    </div>
+  </div>
+</header>
+
+<section class="ag-section">
+  <div class="ag-wrap">
+    <div class="ag-capsule">
+      <p class="ag-capsule-q">In short</p>
+      <p>Modern Age Coders runs a live online AI and Python track for learners in Eindhoven aged six to sixty-seven: Python typed by hand, then data, then models with a measured error, then agents. Because Eindhoven's AI is so often AI in machines, the track keeps three real-world problems in view throughout: training data that has to be made, systems that drift and must recalibrate, and the gap between a simulation and reality. Teaching is in English, in groups of five to ten or one to one. The first lesson is free; after that a group place is USD 100 a month and one-to-one tuition USD 150.</p>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="courses">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Start here</p>
+      <h2>Three courses for an Eindhoven learner heading towards AI in machines</h2>
+      <p class="ag-lede">One for a child who wants to make things move on screen, one for a teenager ready to train an image model, one for the student or engineer who needs deep learning done properly. Each card opens its own syllabus and timetable.</p>
+    </div>
+    <div class="ag-picks">
+      <a class="ag-pick" href="/courses/python-ai-kids-masterclass">
+        <div class="ag-pick-shot"><img src="/images/python-kids.webp" alt="Python and AI for Kids course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">EHV / 01</p>
+          <h3>Python and AI for Kids</h3>
+          <p>Python's turtle module is the gentlest robot there is: a child types commands, a turtle moves, and a mistake shows up at once as a wrong line on the screen.</p>
+          <span class="ag-pick-go">Open the syllabus <span>&rarr;</span></span>
+        </div>
+      </a>
+      <a class="ag-pick" href="/courses/ai-ml-masterclass-teens">
+        <div class="ag-pick-shot"><img src="/images/ai-ml-teens.webp" alt="AI and Machine Learning for Teens course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">EHV / 02</p>
+          <h3>AI and Machine Learning for Teens</h3>
+          <p>From Python to neural networks and image models, with a teenager testing what they trained on photos taken in different light, the same test a robot faces.</p>
+          <span class="ag-pick-go">Open the syllabus <span>&rarr;</span></span>
+        </div>
+      </a>
+      <a class="ag-pick" href="/courses/ai-ml-masterclass-complete-college">
+        <div class="ag-pick-shot"><img src="/images/ai-ml-college.webp" alt="AI and ML Masterclass course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">EHV / 03</p>
+          <h3>AI and Machine Learning Masterclass</h3>
+          <p>Deep learning, careful evaluation and deployment for students and engineers whose models will run on hardware, not only in a notebook.</p>
+          <span class="ag-pick-go">Open the syllabus <span>&rarr;</span></span>
+        </div>
+      </a>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="machines">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">AI in machines</p><h2>Eindhoven builds AI that has to move</h2><p class="ag-lede">The university's own descriptions make the local emphasis plain. Here AI is mostly about systems that sense, decide and act in the physical world.</p></div>
+    <div class="ag-grid-2" style="align-items:start"><div><p>The <strong>Eindhoven Artificial Intelligence Systems Institute</strong>, <strong>EAISI</strong>, is the central hub for AI research at Eindhoven University of Technology. By its own description it focuses on the use of data and algorithms in machines, such as robots, autonomous cars and medical equipment, and on the interaction between people and systems, including trustworthy and transparent methods. It counts <strong>300 academic staff and 600 PhD candidates</strong>, organises its work in three domains, data and algorithms, engineering systems, and humans and ethics, and applies it to health, mobility and industry.</p>
+<p>Its teaching counterpart is the master in <strong>Artificial Intelligence and Engineering Systems</strong>, a two-year, 120 EC programme in English run jointly by seven departments and more than 40 research groups, with tracks from high-tech systems and robotics to mobility, healthcare and smart manufacturing.</p></div><div><p>Then there are the student teams, which TU/e lists on its own site: 21 of them at the time of reading. <strong>Serpentine</strong> works on artificial intelligence; Aero Team Eindhoven develops an autonomous drone network for zero-emission air delivery; Team Daedalus a solar-powered autonomous drone for long surveillance flights; InMotion race cars; Solar Team Eindhoven the sustainable mobility of the future.</p>
+<p>And <strong>Tech United</strong>, which represents TU/e in RoboCup. Its soccer robots have become world champions eight times in the <strong>Middle Size League</strong>. In July 2024 RoboCup came to Eindhoven itself: three hundred teams from forty countries across five leagues, including RoboCupJunior for school pupils, and Tech United won the final 6-1 against <strong>BigHeroX</strong>.</p></div></div>
+    <div class="ag-table-wrap ag-mt-40"><table class="ag-table"><caption>Where AI meets hardware at TU/e, from the university's and the team's own pages</caption><thead><tr><th scope="col">What</th><th scope="col">Published detail</th><th scope="col">The kind of AI it involves</th></tr></thead><tbody><tr><td>EAISI</td><td>Central AI hub; 300 academic staff, 600 PhD candidates</td><td>Data and algorithms in robots, cars and medical equipment</td></tr><tr><td>AI and Engineering Systems master</td><td>Two years, 120 EC, seven departments, 40+ research groups</td><td>AI methods combined with engineering systems</td></tr><tr><td>Tech United</td><td>Middle Size League since 2006; 14 world finals, 8 titles</td><td>Vision, a world model, strategy and motion, in real time</td></tr><tr><td>Serpentine</td><td>Student team working on artificial intelligence</td><td>AI projects and competitions</td></tr><tr><td>Aero Team Eindhoven</td><td>Autonomous drone network for zero-emission delivery</td><td>Navigation and control in the air</td></tr><tr><td>Team Daedalus</td><td>Solar-powered autonomous drone for long flights</td><td>Autonomy with a tight energy budget</td></tr></tbody></table></div>
+    <p class="ag-source-note ag-mt-40">Sources: <a class="ag-inline-link" href="https://www.tue.nl/en/research/institutes/eindhoven-artificial-intelligence-systems-institute" rel="noopener" target="_blank">TU/e, EAISI</a>; <a class="ag-inline-link" href="https://www.tue.nl/en/education/graduate-school/master-artificial-intelligence-and-engineering-systems" rel="noopener" target="_blank">TU/e, Master Artificial Intelligence and Engineering Systems</a>; <a class="ag-inline-link" href="https://www.tue.nl/en/our-university/student-teams/student-teams/explore-tue-student-teams" rel="noopener" target="_blank">TU/e, Explore TU/e Student Teams</a>; <a class="ag-inline-link" href="https://www.tue.nl/en/news-and-events/news-overview/21-07-2024-tech-united-becomes-robot-soccer-world-champion-in-eindhoven" rel="noopener" target="_blank">TU/e news, 21 July 2024</a>. Read 11 September 2026. We have no connection with TU/e, EAISI or any student team.</p>
+  </div>
+</section>
+
+<section class="ag-section ag-section--deep" id="turtles">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Three problems</p><h2>What a soccer robot has to solve that a chatbot never meets</h2><p class="ag-lede">Tech United's robots are called TURTLEs, short for Tech United Robocup Team: Limited Edition, now in their fifth generation. The team's 2025 description, written for RoboCup, is an unusually honest account of AI leaving the screen.</p></div>
+    <div class="ag-grid-3"><div><h3>The data has to be made</h3><p>A vision model learns from thousands of labelled images, and labelling them by hand is, in the team's words, a long and gruelling process prone to error. So they manufacture the images: a few smartphone photos of a ball or robot become a photorealistic 3D model within an hour, placed in <strong>Unreal Engine</strong> with randomised lighting, angles and lens settings. Each labelled synthetic image takes about one second. A <strong>YOLOv8</strong> detector trained on about 2,500 of them reached a precision of 0.953 on real match footage. The limit is also stated: the synthetic images contain no motion blur, and a real match is full of it.</p></div><div><h3>The world drifts</h3><p>Ball detection depends on the lighting, and collisions, which still happen often in a match, knock the shooting mechanism slightly out of line with the camera. So the robots now recalibrate themselves: when a robot passes, it tracks where the ball actually went, compares that with where it meant to send it, and corrects its shooting angle. When it decides one of its values is no longer right, it asks to be substituted so it can be fine-tuned at the side of the pitch. A system that knows when it is wrong is worth more than one that is right most of the time.</p></div><div><h3>The simulator is not the pitch</h3><p>The team is building a four-legged goalkeeper from an MIT <strong>Mini Cheetah</strong>, trained with hierarchical reinforcement learning in simulation, with masses, frictions and forces randomised so that the policy would transfer to the real robot. It did transfer, but a delay in fetching camera images and the remaining gap between simulation and reality meant it covered <strong>23 percent</strong> of the goal area with a side-step skill. The next step is retraining on the real hardware. Every model trained in a simulator meets that gap sooner or later.</p></div></div>
+    <div class="ag-table-wrap ag-mt-40"><table class="ag-table"><caption>The four software modules of a TURTLE, and what each teaches a learner</caption><thead><tr><th scope="col">Module</th><th scope="col">What it does on the robot</th><th scope="col">What a learner practises</th></tr></thead><tbody><tr><td>Vision</td><td>Finds the ball, the robots and the field in camera images</td><td>Image data, detection models, testing in bad light</td></tr><tr><td>Worldmodel</td><td>Combines what each robot sees into one picture of the match</td><td>Keeping state, merging noisy measurements</td></tr><tr><td>Strategy</td><td>Decides what the team does next</td><td>Rules, planning and agents that choose actions</td></tr><tr><td>Motion</td><td>Turns decisions into movement</td><td>Control, timing and the cost of being late</td></tr></tbody></table></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><p>The modules exchange information through a real-time database, and the order matters: a decision made on an old picture of the match is a wrong decision, however clever the strategy. That is the deepest difference between AI in a machine and AI on a screen. A chatbot that takes an extra second is slow; a goalkeeper that sees the ball a moment late has already let it in.</p></div><div><p>The team also says which mistake it fears more. In robot soccer, it writes, precision matters more than recall, because a false positive, such as seeing a background object as the ball, leads straight to a wrong decision. Choosing which error to accept is an engineering decision, and it depends on what the machine does next.</p></div></div>
+    <p class="ag-source-note ag-mt-40">Source: <a class="ag-inline-link" href="https://msl.robocup.org/wp-content/uploads/2025/03/TDP_TechUnited_2025.pdf" rel="noopener" target="_blank">Tech United Eindhoven Team Description 2025</a> (robot platform, software modules, synthetic data generation, automatic calibration, Mini Cheetah goalkeeper), read 11 September 2026. The lessons drawn for learners are ours, not the team's.</p>
+  </div>
+</section>
+
+<section class="ag-section" id="build">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">At a learner's size</p><h2>The same three problems, at a size a learner can build</h2><p class="ag-lede">Nobody needs a soccer robot to learn these lessons. Each has a version that fits a laptop, and meeting it early changes how a learner thinks about every model afterwards.</p></div>
+    <div class="ag-grid-2" style="align-items:start"><div><p>A child steering Python's turtle across the screen is already solving the motion problem: turn too far and the line goes wrong, and the error is visible at once. Add a simple sensor in code, stop at the edge, and the program starts to react instead of just following orders. That is the first step from a script to a machine.</p>
+<p>A teenager can meet all three problems in one project. Train an image model to recognise an object, then photograph the object in a darker room and watch the accuracy fall; that is drift. Generate extra training images by rotating and recolouring the originals; that is manufactured data. Build a small simulation, then compare it with the real measurements; that is the gap.</p></div><div><p>Adults in Eindhoven often meet the same problems at work under other names: a model that was accurate at launch and slipped as conditions changed, a dataset that had to be built because none existed, a test environment that behaved better than the factory floor. The upper rungs give those problems their proper names and methods.</p>
+<p>For the city's schools, neighbourhoods and figures, see <a class="ag-inline-link" href="/coding-classes-in-eindhoven">coding classes in Eindhoven</a>; for the towns around it, <a class="ag-inline-link" href="/coding-classes-in-helmond">Helmond</a> and <a class="ag-inline-link" href="/coding-classes-in-noord-brabant">Noord-Brabant</a>. The <a class="ag-inline-link" href="/ai-and-python-academy-netherlands">national academy page</a> covers the country as a whole.</p></div></div>
+  </div>
+</section>
+
+<section class="ag-section" id="ladder">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">The five rungs</p>
+      <h2>From a turtle on the screen to a model that survives the real world</h2>
+      <p class="ag-lede">The rungs come in a fixed order because each supplies what the next needs. A learner who has never cleaned data cannot judge a vision model, and one who has never measured an error cannot tell whether a simulation was good enough.</p>
+    </div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>The five rungs for an Eindhoven learner, with the machine-world problem met at each</caption><thead><tr><th scope="col">Rung</th><th scope="col">Usually</th><th scope="col">What the learner builds</th></tr></thead><tbody><tr><td>1. Python by hand</td><td class="ag-num">Groep 6 to 8, or any adult beginner</td><td class="ag-num">Programs from an empty file, starting with a turtle that moves and turns</td></tr><tr><td>2. Data</td><td class="ag-num">Brugklas to the third year</td><td class="ag-num">Real measurements, cleaned and plotted, with noise and gaps noticed</td></tr><tr><td>3. Models</td><td class="ag-num">Havo 4 to vwo 6, students, engineers</td><td class="ag-num">Image and prediction models, tested in conditions they were not trained on</td></tr><tr><td>4. Agents</td><td class="ag-num">Upper school and beyond</td><td class="ag-num">Programs that sense, decide and act in a loop, and know when to stop</td></tr><tr><td>5. Publishing</td><td class="ag-num">At every stage</td><td class="ag-num">A public repository with results, limits and failures written down</td></tr></tbody></table></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>Why the real world arrives early</h3><p>Meeting noisy data and drifting conditions on rung 2 saves a great deal of disappointment on rung 3. A learner who expects the world to differ from the training set tests for it; one who does not is surprised by every deployment.</p>
+<p>The wider order we teach in, subject by subject, is on the <a class="ag-inline-link" href="/coding-roadmap">coding roadmap</a>.</p></div><div><h3>Where it fits the Eindhoven school year</h3><p>Rung 1 fits the last years of the basisschool, kept light around the doorstroomtoets. The profielkeuze year is the moment to try rung 2, especially for a pupil weighing the Nature and Technology profile and a technical degree.</p>
+<p>Engineers and students usually start at rung 3 and take it one to one, around project deadlines.</p></div></div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="catalogue">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">The catalogue</p>
+      <h2>Eleven live courses for Eindhoven learners, chosen by ability</h2>
+      <p class="ag-lede">Grouped by stage of life. Every card opens the full course with schedule and fee, and the free lesson decides the starting point.</p>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">I</span>
+        <h3>Children, groep 3 to 8</h3>
+        <span class="ag-band-sub">Code that makes things move, and a clear idea of what AI is</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">EHV / KIDS / 01</p>
+          <h4>Python and AI for Kids</h4>
+          <p>Typed Python for ages nine to twelve: turtle drawings, small games and a first program that learns from examples.</p>
+          <a class="ag-course-link" href="/courses/python-ai-kids-masterclass">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">EHV / KIDS / 02</p>
+          <h4>Scratch Coding for Kids</h4>
+          <p>Games built from blocks for the youngest learners, with sprites that sense the edge of the stage and react to it.</p>
+          <a class="ag-course-link" href="/courses/scratch-programming-complete-course">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">EHV / KIDS / 03</p>
+          <h4>AI Literacy for Kids</h4>
+          <p>How AI systems work, why they get things wrong, and how a child can tell a confident answer from a correct one.</p>
+          <a class="ag-course-link" href="/courses/ai-literacy-for-kids-course">Open the syllabus</a>
+        </article>
+      </div>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">II</span>
+        <h3>Teenagers, havo and vwo</h3>
+        <span class="ag-band-sub">From Python to vision models, tested against the real world</span>
+      </div>
+      <div class="ag-grid-4">
+        <article class="ag-course">
+          <p class="ag-course-code">EHV / TEEN / 01</p>
+          <h4>AI and Machine Learning for Teens</h4>
+          <p>Statistics, classical models, neural networks and image recognition, each project tested outside the conditions it was trained in.</p>
+          <a class="ag-course-link" href="/courses/ai-ml-masterclass-teens">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">EHV / TEEN / 02</p>
+          <h4>Python for Teens</h4>
+          <p>The two-year foundation in Python, for a teenager who wants to build machines that think one day and needs solid code first.</p>
+          <a class="ag-course-link" href="/courses/python-complete-masterclass-teens">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">EHV / TEEN / 03</p>
+          <h4>Data Science for Teens</h4>
+          <p>Measurements, noise and missing values handled properly, the unglamorous work every sensor-driven system depends on.</p>
+          <a class="ag-course-link" href="/courses/data-science-course-for-teens-python-data">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">EHV / TEEN / 04</p>
+          <h4>Coding Agents: Codex and Claude Code</h4>
+          <p>Working with AI coding agents on real code and checking every change. Students hold their own accounts, within each tool's age limits.</p>
+          <a class="ag-course-link" href="/courses/codex-and-claude-code-ai-coding-agents-course-for-teens">Open the syllabus</a>
+        </article>
+      </div>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">III</span>
+        <h3>Students, engineers and adults</h3>
+        <span class="ag-band-sub">Deep learning, mathematics and systems that hold up outside the lab</span>
+      </div>
+      <div class="ag-grid-4">
+        <article class="ag-course">
+          <p class="ag-course-code">EHV / PRO / 01</p>
+          <h4>AI and Machine Learning Masterclass</h4>
+          <p>The complete machine learning route, from classical methods to deep networks, with evaluation and deployment treated as seriously as training.</p>
+          <a class="ag-course-link" href="/courses/ai-ml-masterclass-complete-college">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">EHV / PRO / 02</p>
+          <h4>Maths for Data Science</h4>
+          <p>Statistics, linear algebra and the calculus of learning, written as code, for engineers whose maths is rusty or was never applied.</p>
+          <a class="ag-course-link" href="/courses/data-analytics-mathematics-masterclass">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">EHV / PRO / 03</p>
+          <h4>Python Masterclass</h4>
+          <p>Python from the basics to advanced use at adult pace, for engineers moving from other languages or from spreadsheets.</p>
+          <a class="ag-course-link" href="/courses/python-programming-masterclass-zero-to-advanced-college">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">EHV / PRO / 04</p>
+          <h4>Generative AI: LLMs, RAG and Agents</h4>
+          <p>Language models, grounding and agents, with the same attention to limits and failure that physical systems demand.</p>
+          <a class="ag-course-link" href="/courses/complete-generative-ai-masterclass-college">Open the syllabus</a>
+        </article>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="how">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">How the classes run</p>
+      <h2>Eindhoven hours, a teacher in India</h2>
+      <p class="ag-lede">The Netherlands switches between CET and CEST and India does not, so the teacher is three and a half hours ahead in summer and four and a half in winter. Late afternoons and weekends are easy, weekday evenings are arranged case by case, and the regular time is agreed during the free lesson.</p>
+    </div>
+    <div class="ag-slots">
+      <div class="ag-slot"><p class="ag-slot-time">Late afternoon</p><p class="ag-slot-l">Eindhoven time, after school. Suits children and younger teenagers; evening in India.</p></div>
+      <div class="ag-slot"><p class="ag-slot-time">Evening</p><p class="ag-slot-l">Eindhoven time, by arrangement. For older pupils, students and engineers after the working day.</p></div>
+      <div class="ag-slot"><p class="ag-slot-time">Weekend</p><p class="ag-slot-l">Saturday or Sunday, Eindhoven time. The easiest slot for adults and for families with busy weeks.</p></div>
+    </div>
+    <div class="ag-grid-3">
+      <div><h3>A free lesson with real work</h3><p>The learner tackles an actual problem while the teacher watches. That shows the right starting rung better than any placement test.</p></div>
+      <div><h3>Five to ten in a group</h3><p>Learners from many countries grouped by ability, so a strong Eindhoven pupil is challenged and a newcomer is not rushed.</p></div>
+      <div><h3>One to one for engineers</h3><p>For irregular project hours, a specific technical goal, or anyone who prefers the pace set around them.</p></div>
+      <div><h3>Code visible as it is written</h3><p>Screens are shared both ways, so the teacher catches a misunderstanding while it is still small.</p></div>
+      <div><h3>English, as in the lab</h3><p>Lessons, documentation and error messages are in English. Dutch school terms are used as families use them.</p></div>
+      <div><h3>Work kept in a repository</h3><p>Every lesson ends with committed code in the learner's own GitHub repository, with results and limits written beside it.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Student work</p>
+      <h2>Student projects still running</h2>
+      <p class="ag-lede">Four projects our students built and left online. Open them, push them, find where they fail; the <a class="ag-inline-link" href="/student-labs">student labs</a> page has more.</p>
+    </div>
+    <div class="ag-grid-4">
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/nutrilife.webp" alt="NutriLife AI nutrition coach project screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">AI and ML</p>
+          <h4>NutriLife</h4>
+          <p>An AI nutrition coach that reads what you eat and works you toward a target.</p>
+          <p class="ag-proj-meta">by Bhavya &middot; <a href="https://nutrilife-bhavya.lovable.app" rel="noopener" target="_blank">Open it</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/misti.webp" alt="Misti AI chatbot for maths and coding screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">AI and ML</p>
+          <h4>Misti</h4>
+          <p>A chatbot that answers mathematics and programming questions, built and deployed by a student.</p>
+          <p class="ag-proj-meta">by Harshit &middot; <a href="https://misti.modernagecoders.com" rel="noopener" target="_blank">Open it</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/guardianx.webp" alt="GuardianX AI internet safety assistant screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">AI and ML</p>
+          <h4>GuardianX</h4>
+          <p>An assistant that helps a young person recognise unsafe situations online.</p>
+          <p class="ag-proj-meta">by Vivaan &middot; <a href="https://guardianx-cybersaver.lovable.app" rel="noopener" target="_blank">Open it</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/skycast.webp" alt="SkyCast weather forecast application screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">Web app</p>
+          <h4>SkyCast</h4>
+          <p>A weather forecasting site with live conditions for any location.</p>
+          <p class="ag-proj-meta">by Krish</p>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="fees">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Fees</p>
+      <h2>Fees</h2>
+      <p class="ag-lede">Monthly, in US dollars, at the same two rates as every country outside India. Nothing extra for Eindhoven or the Netherlands, no sign-up fee, no annual contract. Copilot Studio courses are private tuition only and use the one-to-one rate.</p>
+    </div>
+    <div class="ag-grid-3">
+      <div class="ag-price">
+        <p class="ag-price-name">Free first class</p>
+        <p class="ag-price-amt">USD 0</p>
+        <p class="ag-price-alt">no card required</p>
+        <ul><li>A real lesson, not a sales call</li><li>Finds the right rung</li><li>No payment details needed</li></ul>
+        <a href="#start" class="ag-btn ag-btn--ghost">Book it</a>
+      </div>
+      <div class="ag-price ag-price--feature">
+        <p class="ag-price-name">Group batch</p>
+        <p class="ag-price-amt">USD 100</p>
+        <p class="ag-price-alt">a month, billed in US dollars</p>
+        <ul><li>Five to ten learners at one level</li><li>One live teacher throughout</li><li>Projects reviewed every week</li><li>Certificate at completion</li></ul>
+        <a href="#start" class="ag-btn">Start here</a>
+      </div>
+      <div class="ag-price">
+        <p class="ag-price-name">One to one</p>
+        <p class="ag-price-amt">USD 150</p>
+        <p class="ag-price-alt">a month, billed in US dollars</p>
+        <ul><li>A teacher for one learner</li><li>Pace and focus set by the goal</li><li>The format for Copilot Studio courses</li></ul>
+        <a href="#start" class="ag-btn ag-btn--ghost">Enquire</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">What families say</p>
+      <h2>Rated 4.9 across 547 Google reviews</h2>
+      <p class="ag-lede">Reproduced from Google exactly as posted. We neither write nor edit nor pay for them.</p>
+    </div>
+    <div class="ag-grid-3">
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."</p>
+        <p class="ag-review-name">Ria Mukherjee</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."</p>
+        <p class="ag-review-name">Samriddha Mondal</p>
+        <p class="ag-review-role">Student</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."</p>
+        <p class="ag-review-name">Vansh Agarwal</p>
+        <p class="ag-review-role">Student</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."</p>
+        <p class="ag-review-name">Sonam Oswal</p>
+        <p class="ag-review-role">Parent of Dhairya</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."</p>
+        <p class="ag-review-name">Sonu Goyal</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."</p>
+        <p class="ag-review-name">Ritu Kedia</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="faq">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Questions from Eindhoven</p>
+      <h2>What Eindhoven families, students and engineers ask first</h2>
+    </div>
+    <div class="ag-faq">
+      <div class="ag-faq-item">
+        <h3>Do you teach robotics with physical robots?</h3>
+        <p>No. Lessons are live online, and learners work in Python on their own computers. What we teach is the software side that physical systems depend on: data, vision models, decision loops and testing against conditions a model was not trained on. Many of those skills are practised in simulation first, as they are in university labs.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>What is RoboCupJunior?</h3>
+        <p>One of the five leagues at RoboCup, the one for school pupils. RoboCup 2024 was held in Eindhoven with three hundred teams from forty countries. We have no connection with RoboCup, but a pupil who wants to take part will find the Python and data skills from our ladder useful.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>My teenager wants to study at TU/e. What should they learn first?</h3>
+        <p>Python written by hand, then data, then the first models, in that order. For a technical degree, fluent programming and the habit of measuring errors matter more than any particular framework. We have no connection with TU/e and cannot influence admission.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>What is the gap between simulation and reality?</h3>
+        <p>The difference between how a system behaves in a simulator and how it behaves in the real world. Tech United's goalkeeper, trained in simulation, covered 23 percent of the goal area on the real robot, and the team plans to retrain it on the hardware. Every model trained on artificial data faces the same question.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>I am an engineer. Is this too basic for me?</h3>
+        <p>Probably not if you start at the right rung. Engineers usually begin with the mathematics or the machine learning masterclass, often one to one, and move quickly past what they already know. The free lesson decides the level.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Is my child too young?</h3>
+        <p>Children start from around groep 5 with blocks and from groep 6 to 8 with typed Python. A turtle that moves on the screen is a real program, and a child who writes one is already learning to control a machine.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Are the lessons in English?</h3>
+        <p>Yes, as the technical world around Eindhoven largely is. Dutch school terms such as brugklas, havo and vwo are used as they are.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>What does it cost?</h3>
+        <p>USD 100 a month for a group place, USD 150 a month for one-to-one lessons, billed in US dollars. No joining fee, no yearly contract, and the first lesson is free.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Where do the teachers work from?</h3>
+        <p>From India, live over video. The time difference with Eindhoven is three and a half hours in summer and four and a half in winter, so late afternoons and weekends are easiest.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>What happens after I send the form?</h3>
+        <p>We call at a Dutch hour to set up the free lesson. Nothing is charged and no place is held until the family has seen that lesson and chosen.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Elsewhere on this site</p>
+      <h2>More pages for Eindhoven and the Netherlands</h2>
+      <p class="ag-lede">This page covers the AI track and one local emphasis. These cover the rest.</p>
+    </div>
+    <div class="ag-grid-3">
+      <div><h3><a class="ag-inline-link" href="/coding-classes-in-eindhoven">Coding classes in Eindhoven</a></h3><p>The city page for general programming, with its districts, schools and figures.</p></div>
+      <div><h3><a class="ag-inline-link" href="/coding-classes-in-helmond">Coding classes in Helmond</a></h3><p>The town east of Eindhoven, with a page of its own.</p></div>
+      <div><h3><a class="ag-inline-link" href="/coding-classes-in-noord-brabant">Coding classes in Noord-Brabant</a></h3><p>Every municipality in the province.</p></div>
+      <div><h3><a class="ag-inline-link" href="/ai-and-python-academy-netherlands">AI and Python Academy, Netherlands</a></h3><p>The national academy page, with the school figures and the country's AI plans.</p></div>
+      <div><h3><a class="ag-inline-link" href="/ai-and-python-academy-groningen">AI and Python Academy, Groningen</a></h3><p>The academy page built around a university AI degree.</p></div>
+      <div><h3><a class="ag-inline-link" href="/ai-and-python-academy-amsterdam">AI and Python Academy, Amsterdam</a></h3><p>The academy page built around the public algorithm register.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--deep" id="start">
+  <div class="ag-wrap">
+    <div class="ag-grid-2" style="align-items:start">
+      <div>
+        <p class="ag-eyebrow">Start here</p>
+        <h2>Book the free first lesson</h2>
+        <p class="ag-lede">Leave a number and we will ring at a Dutch hour. The first session is a real lesson with a real teacher, and at its end we know the learner's starting rung, which matters more than anything else in this subject.</p>
+        <p class="ag-mt-40">Would rather read first? See the <a class="ag-inline-link" href="/courses">course catalogue</a>, <a class="ag-inline-link" href="/how-we-teach">how we teach</a>, and why we teach building AI at <a class="ag-inline-link" href="/learn-to-build-ai">Learn to Build AI</a>.</p>
+        <p class="ag-mt-40">
+          <a class="ag-inline-link" href="https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20want%20a%20free%20class%20for%20a%20learner%20in%20Eindhoven%2C%20on%20the%20AI%20and%20Python%20track." target="_blank" rel="noopener" onclick="if(window.gtag)gtag('event','whatsapp_click',{page_market:'aeh',pos:'end'});">WhatsApp us</a>
+          &middot; <a class="ag-inline-link" href="tel:+919123366161">+91 91233 66161</a>
+          &middot; <a class="ag-inline-link" href="mailto:contact@modernagecoders.com">contact@modernagecoders.com</a>
+        </p>
+        <p class="ag-form-note">WhatsApp is free from the Netherlands and usually quickest. Our number is Indian; there is no office or address of ours in Eindhoven or elsewhere in the country.</p>
+      </div>
+      <div class="ag-form-panel">
+        <form onsubmit="submitLead_aeh(event)" novalidate>
+          <div class="ag-field">
+            <label for="nl-name">Your name</label>
+            <input id="nl-name" type="text" name="name" placeholder="Parent or student name" required>
+          </div>
+          <div class="ag-field">
+            <label for="nl-phone">Phone or WhatsApp, Netherlands +31</label>
+            <input id="nl-phone" type="tel" name="phone" placeholder="6 XXXX XXXX" required>
+          </div>
+          <div class="ag-field">
+            <label for="nl-age">Learner age group</label>
+            <select id="nl-age" name="age"><option value="6-12">Child, 6 to 12</option><option value="13-18">Teen, 13 to 18</option><option value="college">University student</option><option value="adult">Working professional</option></select>
+          </div>
+          <button type="submit" class="ag-btn" style="width:100%">Request the free class</button>
+          <p class="ag-form-note">No card, no obligation. One call to arrange the lesson.</p>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="ag-footer">
+  <div class="ag-wrap">
+    <div class="ag-grid-4">
+      <div>
+        <h4>Modern Age Coders</h4>
+        <p style="font-size:.9rem;opacity:.82">
+          Live online coding, AI and mathematics for ages 6 to 67. Teaching since 2020, more than
+          10,000 students across 25+ countries.
+        </p>
+      </div>
+      <div><h4>Eindhoven</h4><ul><li><a href="/coding-classes-in-eindhoven">Coding classes in Eindhoven</a></li><li><a href="/coding-classes-in-noord-brabant">Noord-Brabant</a></li><li><a href="/ai-and-python-academy-netherlands">Academy, Netherlands</a></li><li><a href="/coding-classes-in-netherlands">Coding in the Netherlands</a></li></ul></div>
+      <div><h4>The track</h4><ul><li><a href="/coding-roadmap">The coding roadmap</a></li><li><a href="/learn-to-build-ai">Learn to Build AI</a></li><li><a href="/student-labs">Student labs</a></li><li><a href="/how-we-teach">How we teach</a></li></ul></div>
+      <div>
+        <h4>Company</h4>
+        <ul>
+          <li><a href="/about">About us</a></li>
+          <li><a href="/how-we-teach">How we teach</a></li>
+          <li><a href="/love">Reviews</a></li>
+          <li><a href="/contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="ag-footer-bottom">
+      <span>&copy; 2026 Modern Age Coders. Live online classes worldwide.</span>
+      <span>Teaching Eindhoven on CET and CEST</span>
+    </div>
+  </div>
+</footer>
+
+<script>
+window.submitLead_aeh = function (e) {
+  e.preventDefault();
+  var form = e.target;
+  var name = (form.querySelector('input[name="name"]') || {}).value || '';
+  var phoneRaw = (form.querySelector('input[type="tel"]') || {}).value || '';
+  var age = (form.querySelector('select[name="age"]') || {}).value || '';
+  var note = form.querySelector('.ag-form-note');
+  var phoneDigits = phoneRaw.replace(/\D/g, '');
+  if (phoneDigits.length < 9) { if (note) note.textContent = 'Please enter a valid Netherlands phone number.'; return; }
+  var btn = form.querySelector('button[type="submit"]');
+  var oldText = btn.textContent;
+  btn.disabled = true; btn.textContent = 'Sending...';
+  var API_URL = (location.hostname === 'localhost' || location.hostname === '127.0.0.1')
+    ? 'http://localhost:5000' : 'https://backend-modernagecoders.vercel.app';
+  fetch(API_URL + '/api/callback/request', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({
+      phone: phoneDigits, countryCode: '+31', countryIso: 'NL', countryName: 'Netherlands',
+      source: 'ai-and-python-academy-eindhoven-inline', meta: { name: name, age: age, page: 'ai-and-python-academy-eindhoven' }
+    })
+  }).then(function (r) { return r.json(); }).then(function (data) {
+    if (data && data.success) {
+      form.innerHTML = '<p class="ag-form-ok">Thank you' + (name ? ', ' + name.split(' ')[0] : '') + '. A mentor will call you shortly.</p>';
+    } else {
+      if (note) note.textContent = (data && data.message) || 'Something went wrong. Please try again.';
+      btn.disabled = false; btn.textContent = oldText;
+    }
+  }).catch(function () {
+    if (note) note.textContent = 'Network error. Please try again.';
+    btn.disabled = false; btn.textContent = oldText;
+  });
+};
+</script>
+<script>
+  window.addEventListener('load', function () {
+    var s = document.createElement('script');
+    s.src = 'https://www.googletagmanager.com/gtag/js?id=G-N8BM164YJP';
+    s.async = true;
+    document.head.appendChild(s);
+  });
+</script>
+
+</body>
+</html>
