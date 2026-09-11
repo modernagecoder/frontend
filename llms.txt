@@ -331,6 +331,7 @@ Ages 6 to 67, small live batches, priced from USD 100 a month.
 - AI Classes for Adults: https://learn.modernagecoders.com/ai-classes-for-adults
 - One to One AI Classes: https://learn.modernagecoders.com/one-on-one-ai-classes
 - AI and Python Academy, Netherlands: https://learn.modernagecoders.com/ai-and-python-academy-netherlands
+- AI and Python Academy, Groningen: https://learn.modernagecoders.com/ai-and-python-academy-groningen
 ## Coding Classes by State, Province & Market
 
 Live online coding and mathematics for a specific state, province or market,

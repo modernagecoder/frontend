@@ -9484,6 +9484,18 @@
   to = "/src/pages/coding-classes-in-roermond.md"
   status = 200
 
+# Global Build-AI cluster (ai-global.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/ai-and-python-academy-groningen"
+  to = "/src/pages/ai-and-python-academy-groningen.html"
+  status = 200
+
+[[redirects]]
+  from = "/ai-and-python-academy-groningen.md"
+  to = "/src/pages/ai-and-python-academy-groningen.md"
+  status = 200
+
 [[redirects]]
   from = "/*"
   to = "/src/pages/404.html"

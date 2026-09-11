@@ -609,3 +609,4 @@
 
 /* Netherlands cluster (scripts/nl). Accents from scripts/nl/lib/accent.js: 4.5:1 on all three paper tints. */
 .ag-root.ag-nla { --ag-accent: #784400; --ag-accent-soft: rgba(120,68,0,.09); }   /* Netherlands academy hub: a bronze between the two Dutch oranges already on the site, dark enough to clear every paper tint */
+.ag-root.ag-agn { --ag-accent: #53669D; --ag-accent-soft: rgba(83,102,157,.09); }   /* Groningen academy: a slate blue from the solver, sixteen units or more from the academy hub, both Groningen coding pages and the two Dutch oranges, with an unlinked Eindhoven district as its nearest neighbour */

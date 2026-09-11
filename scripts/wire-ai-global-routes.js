@@ -115,6 +115,7 @@ const SLUGS = [
   'ai-classes-for-adults',
   'one-on-one-ai-classes',
   'ai-and-python-academy-netherlands',
+  'ai-and-python-academy-groningen',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -309,6 +310,7 @@ const LLMS_LABELS = {
   'ai-classes-for-adults': 'AI Classes for Adults',
   'one-on-one-ai-classes': 'One to One AI Classes',
   'ai-and-python-academy-netherlands': 'AI and Python Academy, Netherlands',
+  'ai-and-python-academy-groningen': 'AI and Python Academy, Groningen',
 };
 
 function wireLlms(slugs) {

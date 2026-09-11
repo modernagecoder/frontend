@@ -257,7 +257,7 @@ Between five and ten, matched on level, pace and goal rather than on age, school
 
 ## Out to the province, and up to the country
 
-The city sits inside the [province of Groningen](/coding-classes-in-groningen-province), whose page takes apart the earthquake scale; south along the A28 is [Drenthe](/coding-classes-in-drenthe) and west across the Lauwersmeer is [Friesland](/coding-classes-in-friesland). All of them hang off the [Netherlands coding hub](/coding-classes-in-netherlands), and a learner who wants a model that learns rather than a program that runs should open [AI and machine learning classes in the Netherlands](/ai-and-machine-learning-classes-in-netherlands) or the [AI and Python Academy](/ai-and-python-academy-netherlands).
+The city sits inside the [province of Groningen](/coding-classes-in-groningen-province), whose page takes apart the earthquake scale; south along the A28 is [Drenthe](/coding-classes-in-drenthe) and west across the Lauwersmeer is [Friesland](/coding-classes-in-friesland). All of them hang off the [Netherlands coding hub](/coding-classes-in-netherlands), and a learner who wants a model that learns rather than a program that runs should open [AI and machine learning classes in the Netherlands](/ai-and-machine-learning-classes-in-netherlands) or the [AI and Python Academy](/ai-and-python-academy-netherlands), whose city page, [AI and Python Academy, Groningen](/ai-and-python-academy-groningen), prepares pupils for the AI bachelor taught here.
 
 ## Contact
 

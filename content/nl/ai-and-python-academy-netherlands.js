@@ -138,12 +138,12 @@ module.exports = {
     {
       id: 'where', tint: 'tint', eyebrow: 'Where we point this',
       h2: 'Amstelveen, Eindhoven, The Hague and the rest of the country, one page each',
-      lede: 'The general coding pages for the Netherlands are already written city by city, and the academy pages for the largest cities follow them in this series.',
+      lede: 'The general coding pages for the Netherlands are already written city by city, and the academy pages for the largest cities follow them in this series, beginning with <a class="ag-inline-link" href="/ai-and-python-academy-groningen">Groningen</a>.',
       body: [
         { kind: 'two',
           left: [
             'The country has three concentrations of families for whom this track is the obvious next step: the knowledge-migrant households of <a class="ag-inline-link" href="/coding-classes-in-amstelveen">Amstelveen</a>, the engineering households of <a class="ag-inline-link" href="/coding-classes-in-eindhoven">Eindhoven</a> and Brainport, and the international-school and ministry households of <a class="ag-inline-link" href="/coding-classes-in-the-hague">The Hague</a>. Each of those pages sets out the schools by name and the local argument for a live online class; this page sets out the track itself.',
-            '<a class="ag-inline-link" href="/coding-classes-in-amsterdam">Amsterdam</a>, <a class="ag-inline-link" href="/coding-classes-in-rotterdam">Rotterdam</a>, <a class="ag-inline-link" href="/coding-classes-in-utrecht">Utrecht</a> and <a class="ag-inline-link" href="/coding-classes-in-almere">Almere</a> have their own pages too, and the academy pages for Amsterdam, Eindhoven, The Hague, Utrecht, Rotterdam and Groningen, the factory\'s own city, follow in this series.'
+            '<a class="ag-inline-link" href="/coding-classes-in-amsterdam">Amsterdam</a>, <a class="ag-inline-link" href="/coding-classes-in-rotterdam">Rotterdam</a>, <a class="ag-inline-link" href="/coding-classes-in-utrecht">Utrecht</a> and <a class="ag-inline-link" href="/coding-classes-in-almere">Almere</a> have their own pages too, and the academy pages for Amsterdam, Eindhoven, The Hague, Utrecht and Rotterdam follow in this series; the one for <a class="ag-inline-link" href="/ai-and-python-academy-groningen">Groningen</a>, the factory\'s own city, is written already.'
           ],
           right: [
             'Why online, put narrowly. Not because a screen beats a room, but because a group of five to ten learners at one level, in one specialised subject, free at one hour, is almost impossible to gather from a single Dutch town and straightforward to gather from twenty-five countries. When a tenth of pupils take the subject, the pool of classmates is the thing being sold.',
