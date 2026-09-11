@@ -323,7 +323,9 @@
    -------------------------------------------------------------------------- */
 .cg-hero { padding: clamp(2.5rem, 6vw, 4.5rem) 0 clamp(2rem, 5vw, 3.5rem); border-top: 0; }
 .cg-hero-grid { display: grid; grid-template-columns: 1.35fr 1fr; gap: clamp(2rem, 5vw, 4rem); align-items: start; }
-@media (max-width: 900px) { .cg-hero-grid { grid-template-columns: 1fr; } }
+/* !important: page personality blocks set their own desktop split with a more
+   specific selector and no media query; the hero must still stack on phones. */
+@media (max-width: 900px) { .cg-hero-grid { grid-template-columns: 1fr !important; } }
 .cg-lede { font-size: clamp(1.06rem, 1.6vw, 1.2rem); color: var(--cg-ink-2); max-width: 60ch; }
 .cg-hero-note { font-size: 0.85rem; color: var(--cg-muted); margin-top: 1.1rem; }
 
@@ -866,3 +868,4 @@
 .cg-root.cg-mrs  { --cg-accent: #377338; --cg-accent-soft: rgba(55,115,56,.10); }   /* Meierijstad: a meadow green for the Meierij, placed by the solver clear of every page it links to, the Den Bosch green, the Oss plum and the Helmond rose among them, with an unlinked province as its nearest neighbour */
 .cg-root.cg-hgl  { --cg-accent: #147175; --cg-accent-soft: rgba(20,113,117,.10); }   /* Hengelo: a deep instrument teal for the town of the signal-apparatus factory, placed by the solver more than twenty-seven units from every page it links to, with an unlinked district as its nearest neighbour */
 .cg-root.cg-sdm  { --cg-accent: #2E6800; --cg-accent-soft: rgba(46,104,0,.10); }   /* Schiedam: a juniper green for the jenever town, placed by the solver more than twenty-six units from every page it links to, the Rotterdam teal and the Zuid-Holland ochre among them */
+.cg-root.cg-lvb  { --cg-accent: #9A2A23; --cg-accent-soft: rgba(154,42,35,.10); }   /* Leidschendam-Voorburg: a brick red for the town of Hofwijck, placed by the solver close to twenty-eight units from every page it links to, the Hague and Leidschenveen-Ypenburg accents among them, with an unlinked city as its nearest neighbour */

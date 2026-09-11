@@ -8879,5 +8879,64 @@
       "Any comparison of the encyclopaedia figure of 82,055 with the statistics figure of 81,931. Two sources that disagree is the Breda argument.",
       "Anything the Rotterdam, Delfshaven, Nissewaard and Zuid-Holland pages own, including their figures and arguments."
     ]
+  },
+  "coding-classes-in-leidschendam-voorburg": {
+    "market": "Leidschendam-Voorburg",
+    "bodyClass": "cg-lvb",
+    "pageType": "city",
+    "curriculumAuthority": "Gemeente Leidschendam-Voorburg, Zuid-Holland: 78,916 residents (statistics, 1 January 2026), 78,318 (2025), 72,588 (2013), 74,058 (1995), recalculated to present boundaries after the 2002 merger; 37,692 men and 40,626 women (2025); 37,719 households (2025) averaging 2.05, 15,804 one-person, 11,820 with children; ages (2026) 12,233 under fifteen, 7,997 fifteen to twenty-five, 19,528 twenty-five to forty-five, 20,505 forty-five to sixty-five, 18,653 sixty-five or over; 3,562 hectares, 3,261 land, 301 water, published density 2,402; 37,861 dwellings (2025), 22,338 owner-occupied at 59 percent, 15,523 rented at 41 percent; estimated average value 443,000 euro; income 40,400 euro per resident and 49,800 per recipient (2024); 3.3 percent in poverty; 60,361 born in the Netherlands, origin 48,362 Dutch, 8,794 European, 21,162 non-European (2025); 2 woonplaatsen, 13 wijken, 43 buurten; 21 primary establishments with 5,858 pupils, 7 secondary with 4,811, 697 MBO students at institutions. Encyclopaedia (municipality): formed 1 January 2002 by merger of Leidschendam and Voorburg, simultaneously almost the whole Tedingerbroekpolder annexed by Den Haag; cut from south-west to north-east by the Rijn-Schiekanaal, better known as the Vliet; infobox 78,915 on 1 January 2026 and 35.60 square kilometres. Encyclopaedia (Voorburg): the Romans founded a civil town, Forum Hadriani, a trading place to which Hadrian attached his name in 121; around 161 renamed Municipium Aelium Cananefatium, capital of the Cananefates; Constantijn Huygens had Hofwijck built, now a museum; on the Vliet; the Oude or Sint-Martinuskerk, Gothic, about 1200; 43,090 residents on 1 January 2023; the neighbourhood Essesteijn. Encyclopaedia (Hofwijck): an estate from 1642 in Voorburg, designed by Huygens and Jacob van Campen; Constantijn and Christiaan Huygens lived there; in 1692 Christiaan described experiencing the Verviers earthquake there; museum of the Vereniging Hofwijck since 1914; today an exhibition on the Huygens family. Encyclopaedia (Christiaan Huygens): patent on the first pendulum clock in 1656, built by Salomon Coster in The Hague; Horologium Oscillatorium (1673) set out the theory of pendulum motion; astronomy and position-finding at sea needed accurate time; died in The Hague on 8 July 1695. Regio Midden holidays. The city page teaches accumulating numerical error in step-by-step simulation, with a pendulum computed for the page.",
+    "localProject": "Small errors that point the same way are the ones that matter. Christiaan Huygens held the patent on the first pendulum clock in 1656 and set out the theory of pendulum motion in 1673, and he lived at Hofwijck in Voorburg. A pendulum simulated for this page (ideal, 1 metre, released at 20 degrees, g 9.81) with explicit Euler at 0.01 second steps swings to 31.1 degrees after 10 seconds and 78.8 after 30, and is spinning over the top within a minute with energy about 41 times the start; at 0.001 second steps it still grows to 26.7 degrees by 60 seconds; semi-implicit Euler, one reordered line, holds 20.0 degrees at either step with energy within about 1 and 0.1 percent. Explicit Euler makes errors that add; semi-implicit Euler makes errors that cancel. The programming form covers game physics, robot and vehicle simulators where accumulated error opens a gap between simulation and reality for AI trained inside them, rounded money totals and forecasts rolled forward period by period. The defences are logging a conserved quantity every step, comparing two step sizes, choosing a method suited to the system, testing against a case with a known answer, and running far longer than needed. A numerical-methods point rather than a statistical fallacy. Chosen after a case-sensitive check found no page using Euler, pendulum, integration or time step; clock skew was considered and rejected because Leidschenveen-Ypenburg, next door, is built around the clock on a number. Distinct from compounding uncertainty in a chain of ratios (Eindhoven), which concerns estimates multiplied together rather than repeated steps, and from precision of results (Leeuwarden).",
+    "requiredMentions": [
+      "74,058",
+      "72,588",
+      "37,719",
+      "15,804",
+      "11,820",
+      "37,861",
+      "22,338",
+      "15,523",
+      "5,858",
+      "4,811",
+      "18,653",
+      "Hofwijck",
+      "Tedingerbroekpolder",
+      "Salomon Coster"
+    ],
+    "sources": [
+      {
+        "claim": "Gemeente Leidschendam-Voorburg: 78,916 inwoners (2026), 78,318 (2025), 72,588 (2013), 74,058 (1995), historical data recalculated to current boundaries (merged from Leidschendam and Voorburg in 2002); mannen 37,692, vrouwen 40,626 (2025); 37,719 huishoudens, 15,804 eenpersoons, 11,820 met kinderen, gemiddeld 2.05 (2025); ages 0-15 12,233, 15-25 7,997, 25-45 19,528, 45-65 20,505, 65+ 18,653 (2026); 3,562 hectare, land 3,261, water 301; bevolkingsdichtheid 2,402; woningvoorraad 37,861, koopwoningen 22,338 (59 percent), huurwoningen 15,523 (41 percent) (2025); gemiddelde WOZ 443,000 euro; gemiddeld inkomen per inwoner 40,400 and per inkomensontvanger 49,800 euro (2024); personen in armoede 3.3 percent; basisonderwijs 21 vestigingen 5,858 leerlingen, voortgezet onderwijs 7 vestigingen 4,811 leerlingen, MBO 697 (2025); geboren in Nederland 60,361, herkomst Nederland 48,362, Europa 8,794, buiten Europa 21,162 (2025); 2 woonplaatsen, 13 wijken, 43 buurten.",
+        "url": "https://allecijfers.nl/gemeente/leidschendam-voorburg/"
+      },
+      {
+        "claim": "Leidschendam-Voorburg (encyclopaedia): De huidige gemeente ontstond op 1 januari 2002 uit een fusie van Leidschendam en Voorburg. Gelijktijdig met deze fusie werd vrijwel de gehele Tedingerbroekpolder geannexeerd door de gemeente Den Haag. De gemeente wordt van zuidwest naar noordoost doorsneden door het Rijn-Schiekanaal, veelal beter bekend als de Vliet. Infobox: 78.915 inwoners (1 januari 2026), 35,60 km2.",
+        "url": "https://nl.wikipedia.org/wiki/Leidschendam-Voorburg"
+      },
+      {
+        "claim": "Voorburg (encyclopaedia): Daar werd door de Romeinen een burgerlijke stad gesticht. Zoals uit de benaming Forum Hadriani blijkt (forum = markt(plaats)) was dit een handelsplaats, waaraan keizer Hadrianus in 121 na Chr. op zijn tocht door dit gebied zijn naam verbond. Omstreeks het jaar 161 heeft de stad een andere naam gekregen: Municipium Aelium Cananefatium, de hoofdstad van het Cananefaatse gebied. Constantijn Huygens liet hier zijn lusthof Hofwijck bouwen; tegenwoordig is het een museum. Voorburg is gelegen aan het Rijn-Schiekanaal (ook Vliet genoemd). Oude- of St.-Martinuskerk, gotische kerk uit circa 1200. De stad telde op 1 januari 2023 43.090 inwoners. Neighbourhood Essesteijn.",
+        "url": "https://nl.wikipedia.org/wiki/Voorburg_(Zuid-Holland)"
+      },
+      {
+        "claim": "Hofwijck (encyclopaedia): Hofwijck is een buitenplaats uit 1642 gelegen in de Nederlandse plaats Voorburg. Het huis en de bijbehorende tuin zijn door Huygens en Jacob van Campen ontworpen. Hier woonden in de 17e eeuw Constantijn Huygens en zijn zoon Christiaan Huygens; in 1692 beschreef zijn zoon Christiaan Huygens hoe hij op Hofwijck de aardbeving bij Verviers ervoer. In 1914 kwam het buiten in bezit van de Vereniging Hofwijk, die er een museum vestigde. Tegenwoordig kan men een tentoonstelling bezoeken, gewijd aan de geschiedenis van de familie Huygens.",
+        "url": "https://nl.wikipedia.org/wiki/Hofwijck"
+      },
+      {
+        "claim": "Christiaan Huygens (encyclopaedia): in 1656 had hij een patent op het eerste slingeruurwerk, gebouwd door Salomon Coster te Den Haag. In het werk Horologium Oscillatorium sive de motu pendulorum (1673) formuleerde hij de theorie voor de beweging van een pendule. Astronomie, en ook de plaatsbepaling op zee, vereiste nauwkeurige tijdmetingen, waardoor Huygens zich op dit probleem ging toeleggen. Christiaan Huygens overleed in Den Haag op 8 juli 1695.",
+        "url": "https://nl.wikipedia.org/wiki/Christiaan_Huygens"
+      },
+      {
+        "claim": "School holiday regions: regio Midden = Utrecht, Zuid-Holland and the northern part of Gelderland; regio Noord = Groningen, Friesland, Drenthe, Overijssel, Flevoland, Noord-Holland; regio Zuid = Zeeland, Noord-Brabant, Limburg and the southern part of Gelderland.",
+        "url": "https://www.rijksoverheid.nl/themas/onderwijs/schoolvakanties/regios-schoolvakantie"
+      }
+    ],
+    "rejectedClaims": [
+      "The Voorburg entry dates Hofwijck to 1640 and the Hofwijck entry to 1642. Only the estate's own entry is used, and the two are not set against each other, which is the Breda argument.",
+      "Any oldest-city claim for Voorburg. Nijmegen owns the four claimants and their tests.",
+      "Any cause for the fall in the count between 1995 and 2013 or the rise after. Not in the sources read, and boundary effects are the Alkmaar argument.",
+      "Any claim about how accurate the Huygens clock was. The entry read does not give a figure.",
+      "Any statement about how Huygens calculated. The pendulum table is a modern computation with standard methods and says nothing about his methods.",
+      "Higher-education student counts. Not published as figures in the row read.",
+      "Clock skew between computers, considered as the spine and rejected as too close to Leidschenveen-Ypenburg, which is built around the clock on a number.",
+      "Anything The Hague, Leidschenveen-Ypenburg, Leiden, Delft and Zuid-Holland pages own, including their figures and arguments."
+    ]
   }
 }

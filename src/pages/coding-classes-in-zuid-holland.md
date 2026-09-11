@@ -64,7 +64,7 @@ Six regions, each with its municipalities and their 1 January 2026 population, s
 
 ### Haaglanden: the ring around the capital
 
-[Zoetermeer](/coding-classes-in-zoetermeer) 130,836, third in the province by a margin of 508 over Leiden, with its own page; [Westland](/coding-classes-in-westland) 118,874, the glasshouse municipality, with its own page; [Delft](/coding-classes-in-delft) 110,089, the technical university, with its own page; Leidschendam-Voorburg 78,916; Lansingerland 66,633; Rijswijk 61,857; Pijnacker-Nootdorp 58,741; Wassenaar 27,975; Midden-Delfland 19,355.
+[Zoetermeer](/coding-classes-in-zoetermeer) 130,836, third in the province by a margin of 508 over Leiden, with its own page; [Westland](/coding-classes-in-westland) 118,874, the glasshouse municipality, with its own page; [Delft](/coding-classes-in-delft) 110,089, the technical university, with its own page; [Leidschendam-Voorburg](/coding-classes-in-leidschendam-voorburg) 78,916, with its own page; Lansingerland 66,633; Rijswijk 61,857; Pijnacker-Nootdorp 58,741; Wassenaar 27,975; Midden-Delfland 19,355.
 
 ### Rijnmond: the ring around the port
 
@@ -222,7 +222,7 @@ It depends entirely on where the line is drawn, and nobody official has drawn it
 
 ### Which Zuid-Holland towns get their own page, and which are covered here?
 
-Rotterdam, The Hague, Leiden, Delft, Zoetermeer, Dordrecht, Westland, Alphen aan den Rijn, Nissewaard and Schiedam have pages already. Gouda, Vlaardingen, Leidschendam-Voorburg, Capelle, Wassenaar, Voorschoten, Oegstgeest and Rijswijk follow in this series. Every other municipality appears above with its population, and the class a family books from Hillegom is the class a family books from Rotterdam.
+Rotterdam, The Hague, Leiden, Delft, Zoetermeer, Dordrecht, Westland, Alphen aan den Rijn, Nissewaard, Schiedam and Leidschendam-Voorburg have pages already. Gouda, Vlaardingen, Capelle, Wassenaar, Voorschoten, Oegstgeest and Rijswijk follow in this series. Every other municipality appears above with its population, and the class a family books from Hillegom is the class a family books from Rotterdam.
 
 ### Is Zuid-Holland really the densest province?
 

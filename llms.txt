@@ -526,6 +526,7 @@ USD 100 a month small group, USD 150 a month one to one.
 - Meierijstad, Netherlands: https://learn.modernagecoders.com/coding-classes-in-meierijstad
 - Hengelo, Netherlands: https://learn.modernagecoders.com/coding-classes-in-hengelo
 - Schiedam, Netherlands: https://learn.modernagecoders.com/coding-classes-in-schiedam
+- Leidschendam-Voorburg, Netherlands: https://learn.modernagecoders.com/coding-classes-in-leidschendam-voorburg
 ## Class 10 Board Preparation (CBSE AI 417 and ICSE Computer Applications)
 
 Live online Class 10 board preparation, taught in small batches: CBSE Artificial Intelligence (subject code 417, 2026-27 curriculum) and ICSE Computer Applications (Java with BlueJ, CISCE 100 plus 100 scheme).

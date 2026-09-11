@@ -2370,4 +2370,8 @@
 # International growth cluster (coding-global.css). Must precede the /* catch-all.
 /coding-classes-in-schiedam /src/pages/coding-classes-in-schiedam.html 200
 /coding-classes-in-schiedam.md /src/pages/coding-classes-in-schiedam.md 200
+
+# International growth cluster (coding-global.css). Must precede the /* catch-all.
+/coding-classes-in-leidschendam-voorburg /src/pages/coding-classes-in-leidschendam-voorburg.html 200
+/coding-classes-in-leidschendam-voorburg.md /src/pages/coding-classes-in-leidschendam-voorburg.md 200
 /* /src/pages/404.html 404
