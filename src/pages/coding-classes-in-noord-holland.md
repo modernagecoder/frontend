@@ -64,7 +64,7 @@ Each region below names its municipalities with their 1 January 2026 population,
 
 ### Amstelland-Meerlanden: the airport and the suburbs
 
-[Haarlemmermeer](/coding-classes-in-haarlemmermeer) 166,978, which is Hoofddorp, Schiphol and a drained lake, with its own page; Amstelveen 95,840, with a page of its own; Aalsmeer 33,459; Diemen 33,327; [Uithoorn](/coding-classes-in-uithoorn) 32,204, which has the second highest Indian-origin share in the country and now has its own page; Ouder-Amstel 14,525.
+[Haarlemmermeer](/coding-classes-in-haarlemmermeer) 166,978, which is Hoofddorp, Schiphol and a drained lake, with its own page; Amstelveen 95,840, with a page of its own; Aalsmeer 33,459; [Diemen](/coding-classes-in-diemen) 33,327, with its own page; [Uithoorn](/coding-classes-in-uithoorn) 32,204, which has the second highest Indian-origin share in the country and now has its own page; Ouder-Amstel 14,525.
 
 ### Zaanstreek-Waterland: north of the IJ
 
@@ -261,7 +261,7 @@ Between five and ten, matched on level, pace and goal rather than on age, school
 
 ## Down to the cities and towns with pages, and up to the country
 
-Inside this province, [Amsterdam](/coding-classes-in-amsterdam) has a page that hands off to eight districts and [Amstelveen](/coding-classes-in-amstelveen) one written for the town with the highest Indian-origin share in the country. [Haarlem](/coding-classes-in-haarlem), [Haarlemmermeer](/coding-classes-in-haarlemmermeer), [Zaanstad](/coding-classes-in-zaanstad), [Alkmaar](/coding-classes-in-alkmaar), [Purmerend](/coding-classes-in-purmerend), [Hilversum](/coding-classes-in-hilversum), [Hoorn](/coding-classes-in-hoorn), [Uithoorn](/coding-classes-in-uithoorn), [Velsen](/coding-classes-in-velsen) and [Weesp](/coding-classes-in-weesp) have pages of their own as well. Above them all sits the [Netherlands coding hub](/coding-classes-in-netherlands). Across the province line, [Almere](/coding-classes-in-almere) and [Utrecht](/coding-classes-in-utrecht) are the nearest neighbours with pages. For a learner who wants to build models rather than programs, the doors are [AI and machine learning classes in the Netherlands](/ai-and-machine-learning-classes-in-netherlands) and the [AI and Python Academy](/ai-and-python-academy-netherlands).
+Inside this province, [Amsterdam](/coding-classes-in-amsterdam) has a page that hands off to eight districts and [Amstelveen](/coding-classes-in-amstelveen) one written for the town with the highest Indian-origin share in the country. [Haarlem](/coding-classes-in-haarlem), [Haarlemmermeer](/coding-classes-in-haarlemmermeer), [Zaanstad](/coding-classes-in-zaanstad), [Alkmaar](/coding-classes-in-alkmaar), [Purmerend](/coding-classes-in-purmerend), [Hilversum](/coding-classes-in-hilversum), [Hoorn](/coding-classes-in-hoorn), [Uithoorn](/coding-classes-in-uithoorn), [Velsen](/coding-classes-in-velsen), [Diemen](/coding-classes-in-diemen) and [Weesp](/coding-classes-in-weesp) have pages of their own as well. Above them all sits the [Netherlands coding hub](/coding-classes-in-netherlands). Across the province line, [Almere](/coding-classes-in-almere) and [Utrecht](/coding-classes-in-utrecht) are the nearest neighbours with pages. For a learner who wants to build models rather than programs, the doors are [AI and machine learning classes in the Netherlands](/ai-and-machine-learning-classes-in-netherlands) and the [AI and Python Academy](/ai-and-python-academy-netherlands).
 
 ## Contact
 

@@ -9590,5 +9590,50 @@
       "Any comparison of the encyclopaedia figure of 61,874 with the statistics figure of 61,857. Two sources that disagree is the Breda argument.",
       "Anything The Hague, Delft, Leidschendam-Voorburg and Zuid-Holland pages own, including their figures and arguments."
     ]
+  },
+  "coding-classes-in-diemen": {
+    "market": "Diemen",
+    "bodyClass": "cg-dmn",
+    "pageType": "city",
+    "curriculumAuthority": "Gemeente Diemen, Noord-Holland: 33,327 residents (statistics, 1 January 2026), 33,228 (2025), 25,218 (2013), 23,078 (1995); 16,212 men and 17,016 women (2025); ages (2026) 4,794 under fifteen, 4,872 fifteen to twenty-five, 11,110 twenty-five to forty-five, 7,092 forty-five to sixty-five, 5,459 sixty-five or over; 16,881 households (2025) averaging 1.95, 7,857 one-person, 9,024 multi-person, 4,798 with children; 1,404 hectares, 1,195 land, 209 water, published density 2,781; 16,115 dwellings (2025), 6,446 owner-occupied at 40 percent, 9,669 rented at 60 percent; estimated average value 460,000 euro; income 38,300 euro per resident and 46,800 per recipient (2024); 5.1 percent in poverty; origin (2025) 45 percent Dutch, 17 percent European, 38 percent non-European, 65 percent born in the Netherlands; 9 wijken (including Diemen Noord, Diemen Centrum, Plantage de Sniep, Diemen Zuid, Holland Park, Bergwijkpark), 38 buurten; 7 primary establishments with 2,423 pupils, 1 secondary establishment; 527 MBO, 830 HBO and 1,890 WO students at institutions. Encyclopaedia: the oldest mention dates from 1033, one of the first settlements in the area; from the mid-twentieth century Diemen grew strongly as a commuter town for Amsterdam, the old villages grew together and Diemen-Noord and Diemen-Zuid were built; six parts Diemen-Noord, Oud-Diemen, Diemen-Centrum (formerly Diemerbrug), Diemen-Zuid, Diemen Sniep and the outlying area; the Diemerbos a young wood planted in phases 1992 to 1996; Park Spoorzicht a nature park in the centre; station Diemen opened on the Gooilijn in 1974; in 1993 a railway station on the Ringspoorbaan opened beside metro station Diemen-Zuid; Diemen has held on as an independent municipality squeezed between Amsterdam-Watergraafsmeer, Duivendrecht and Amsterdam-Zuidoost; infobox 33,284 on 1 January 2026 and 14.04 square kilometres, not combined with the statistics. Regio Noord holidays. The city page teaches graphs and shortest paths.",
+    "localProject": "Choose the cost, then let a proven algorithm find the route. Diemen's stations, on the Gooilijn since 1974 and on the Ringspoorbaan beside metro Diemen-Zuid since 1993, set the scene for graphs: nodes joined by weighted edges. An invented five-stop network (A-B 4, A-C 10, B-C 3, B-D 12, C-D 5, C-E 11, D-E 2) is worked with Dijkstra's method, fixing A 0, B 4, C 7, D 12 and E 14, so the fastest route passes through every stop while the two-stop route takes 21 and A-B-D-E takes 18; changing the cost to money or changes of line changes the best route. The programming form covers route planners, internet routing, delivery rounds and game pathfinding, and for AI the gap between a language model's plausible route and a guaranteed one, with the remedy of letting AI describe and code the problem and a real algorithm solve it. The defences are recognising a network problem, choosing the cost, using a proven algorithm, testing unreachable nodes and closed edges, and having AI call the tool. Chosen after a case-sensitive check found no page using shortest path, node or route planner in this sense. The page gives no real travel times. Distinct from Velsen, which concerns the slowest stage of a chain, from Lelystad, which concerns single points of failure in connections, and from Oegstgeest, which concerns halving a search space.",
+    "requiredMentions": [
+      "25,218",
+      "16,881",
+      "7,857",
+      "4,798",
+      "16,115",
+      "6,446",
+      "9,669",
+      "4,872",
+      "11,110",
+      "Diemerbos",
+      "Ringspoorbaan",
+      "Gooilijn",
+      "Diemerbrug",
+      "Plantage de Sniep"
+    ],
+    "sources": [
+      {
+        "claim": "Gemeente Diemen: 33,327 inwoners (2026), 33,228 (2025), 25,218 (2013), 23,078 (1995); mannen 16,212, vrouwen 17,016 (2025); 16,881 huishoudens, 7,857 eenpersoons, 9,024 meerpersoons, 4,798 met kinderen, gemiddeld 1.95 (2025); ages 0-15 4,794, 15-25 4,872, 25-45 11,110, 45-65 7,092, 65+ 5,459 (2026); 1,404 hectare, land 1,195, water 209; bevolkingsdichtheid 2,781; woningvoorraad 16,115, koop 6,446 (40 percent), huur 9,669 (60 percent) (2025); gemiddelde WOZ 460,000 euro; gemiddeld inkomen per inwoner 38,300 and per inkomensontvanger 46,800 euro (2024); personen in armoede 5.1 percent; basisonderwijs 7 vestigingen 2,423 leerlingen, voortgezet onderwijs 1 vestiging; MBO 527, HBO 830, WO 1,890; geboren in Nederland 65 percent; herkomst Nederland 45 percent, Europa 17 percent, buiten Europa 38 percent (2025); 9 wijken (Diemen Noord, Diemen Centrum, Plantage de Sniep, Buitengebied, Diemen Zuid, Bedrijventerreinen, Holland Park, Bergwijkpark), 38 buurten.",
+        "url": "https://allecijfers.nl/gemeente/diemen/"
+      },
+      {
+        "claim": "Diemen (encyclopaedia): Vanaf halverwege de 20e eeuw begon Diemen sterk te groeien als forensengemeente van Amsterdam. De oude dorpen groeiden aaneen en voorts verrezen Diemen-Noord en Diemen-Zuid. Diemen bestaat uit zes delen: Diemen-Noord, Oud-Diemen, Diemen-Centrum (vroeger Diemerbrug genoemd), Diemen-Zuid, Diemen Sniep en het buitengebied. Het Diemerbos is een jong bos dat in fasen is aangelegd in de periode 1992-1996. Park Spoorzicht is een natuurpark in het centrum van Diemen. In 1974 werd aan de Gooilijn station Diemen geopend. In 1993 werd naast het metrostation Diemen-Zuid een treinstation in gebruik genomen aan de Ringspoorbaan. Diemen heeft zich weten te handhaven als zelfstandige gemeente ingeklemd tussen Amsterdam-Watergraafsmeer, Duivendrecht en Amsterdam-Zuidoost. De oudste vermelding dateert van 1033, en daarmee is Diemen een van de eerste nederzettingen in deze omgeving. Infobox: 33.284 inwoners (1 jan 2026), 14,04 km2.",
+        "url": "https://nl.wikipedia.org/wiki/Diemen"
+      },
+      {
+        "claim": "School holiday regions: regio Noord = Groningen, Friesland, Drenthe, Overijssel, Flevoland and Noord-Holland; regio Midden = Utrecht, Zuid-Holland and the northern part of Gelderland; regio Zuid = Zeeland, Noord-Brabant, Limburg and the southern part of Gelderland.",
+        "url": "https://www.rijksoverheid.nl/themas/onderwijs/schoolvakanties/regios-schoolvakantie"
+      }
+    ],
+    "rejectedClaims": [
+      "Any real travel times, frequencies or routes for Diemen stations. The worked example is an invented network.",
+      "Secondary pupil counts. The row read gave the number of establishments only.",
+      "Origin counts as numbers. Only percentages were published in the row read.",
+      "Any claim that Diemen resisted a specific annexation plan. The source says only that it has held on as an independent municipality.",
+      "Any comparison of the encyclopaedia figure of 33,284 with the statistics figure of 33,327. Two sources that disagree is the Breda argument.",
+      "Anything the Amsterdam, Amsterdam-Oost, Amsterdam-Zuidoost, Weesp and Noord-Holland pages own, including their figures and arguments."
+    ]
   }
 }
