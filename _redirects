@@ -2334,4 +2334,8 @@
 # International growth cluster (coding-global.css). Must precede the /* catch-all.
 /coding-classes-in-purmerend /src/pages/coding-classes-in-purmerend.html 200
 /coding-classes-in-purmerend.md /src/pages/coding-classes-in-purmerend.md 200
+
+# International growth cluster (coding-global.css). Must precede the /* catch-all.
+/coding-classes-in-oss /src/pages/coding-classes-in-oss.html 200
+/coding-classes-in-oss.md /src/pages/coding-classes-in-oss.md 200
 /* /src/pages/404.html 404

@@ -8429,5 +8429,56 @@
       "Any comment on the MBO count or the absence of higher-education institutions beyond the published figures. Reading the next column is the Westland argument.",
       "Anything the Amsterdam city page owns, including its districts, test-advice figures and commuting claims."
     ]
+  },
+  "coding-classes-in-oss": {
+    "market": "Oss",
+    "bodyClass": "cg-oss",
+    "pageType": "city",
+    "curriculumAuthority": "Gemeente Oss, Noord-Brabant: 95,549 residents (statistics office, 1 January 2026), 95,239 (2025), with earlier counts 89,799 (2015), 84,861 (2013) and 77,271 (1995) not used because the municipality absorbed villages in 1994, 2003 and 2011 and the page does not establish that the series is recalculated; 48,060 men and 47,179 women (2025); 43,459 households (2025) averaging 2.17, 15,812 one-person, 14,505 with children; ages (2026) 13,636 under fifteen, 10,674 fifteen to twenty-five, 24,502 twenty-five to forty-five, 26,040 forty-five to sixty-five, 20,697 sixty-five or over; 17,093 hectares, 16,201 land, 892 water, published density 588; 42,395 dwellings (2025), 26,709 owner-occupied at 63 percent, 15,686 rented; estimated average value 383,000 euro; income 33,900 euro per resident and 40,500 per recipient (2024); 2.5 percent in poverty; origin (2025) 72,755 Dutch, 9,296 European, 13,188 non-European, 81,841 born in the Netherlands and 13,398 abroad; 23 wijken and 106 buurten including Centrum, Schadewijk, Oss-Zuid, Krinkelhoek, Ruwaard, Ussen; 38 primary establishments with 7,732 pupils, 7 secondary with 5,566, 2,302 MBO, 1,910 HBO and 590 WO students at institutions (2026). Encyclopaedia: town rights 1399 from Johanna van Brabant; railway station 1881, of great importance for industry; Grote Kerk 1859, neo-Gothic, Onze Lieve Vrouw Onbevlekt Ontvangen, interior funded by Catholic industrialists including Anton Jurgens; Villa Constance 1888 for margarine manufacturer Arnold van den Bergh, town hall 1921 to 1974, now Museum Jan Cunen; Groene Engel office of the Jurgens margarine works designed 1912, used by Philips from 1930; Vorstengraf reconstruction of a seventh-century BCE princely grave where an iron sword was found; the Bende van Oss notorious and feared; town 59,740 on 1 January 2023 on 34.47 square kilometres; twenty-two kernen from Berghem to Ravenstein. Organon: founded 1923 by Saal van Zwanenberg as a Zwanenberg subsidiary to use slaughter waste; insulin extracted industrially from pig pancreas with Ernst Laqueur and Jacques van Oss; pill on the Dutch market 1962; AKZO 1969, Schering-Plough 2007, Merck and MSD 2009, independent 2021; producer of the most prescribed contraceptive pill in the world; 4,500 of 5,000 employees in Oss. Regio Zuid holidays. The city page observes that reused data is only as reliable as the fields its first process depended on.",
+    "localProject": "Accuracy follows use. Organon was founded in 1923 to put the slaughter waste of the Zwanenberg works to use, so the supply of its first raw material was set by a meat trade with other goals. Most data used in computing is the same kind of by-product: till receipts, hospital billing records, web server logs and the web text used to train language models were each produced by a process that needed only some of its fields to be right. Fields an error would cost somebody something (a till total, a billed amount, a delivered page) are kept accurate by use; everything else (a loyalty-card birthday, severity beyond what payment needed, whether a log line was a person) is recorded but unchecked, and reused data mixes the two in one table with no mark. For language models the same shape appears as text accurate on what writers cared about and nearly silent on the obvious. The defences are to name the first purpose, read the form or code that produced each field, mark fields as needed or merely recorded, list what the first process never kept, and report the reuse with the result. Kept modest under the Phase 5 method. Distinct from self-selection (Amsterdam-Oost) and non-response (Purmerend), which concern who is in the data rather than which fields were checked; from imputation provenance (Loosduinen), which concerns filled values; from event timestamps (Tongelre); from residence versus presence (Leidschenveen-Ypenburg), which concerns what one register counts; and from the empty charter field (Maastricht). Town against municipality (Zeeland) and growth across mergers (Alkmaar, Zaanstad) are deliberately not argued.",
+    "requiredMentions": [
+      "43,459",
+      "14,505",
+      "7,732",
+      "5,566",
+      "17,093",
+      "42,395",
+      "15,686",
+      "Zwanenberg",
+      "Organon",
+      "Villa Constance",
+      "Jan Cunen",
+      "Vorstengraf",
+      "Schadewijk",
+      "Laqueur"
+    ],
+    "sources": [
+      {
+        "claim": "Gemeente Oss: 95,549 inwoners (2026), 95,239 (2025), 89,799 (2015), 84,861 (2013), 77,271 (1995); mannen 48,060, vrouwen 47,179; 43,459 huishoudens (2025), 15,812 eenpersoonshuishoudens, 14,505 met kinderen, gemiddeld 2.17; ages 0-15 13,636, 15-25 10,674, 25-45 24,502, 45-65 26,040, 65+ 20,697 (2026); 17,093 hectare, land 16,201, water 892; bevolkingsdichtheid 588; woningvoorraad 42,395, koopwoningen 26,709 (63 percent), huurwoningen 15,686 (2025); gemiddelde WOZ 383,000 euro; gemiddeld inkomen per inwoner 33,900 and per inkomensontvanger 40,500 euro (2024); personen in armoede 2.5 percent; basisonderwijs 38 vestigingen 7,732 leerlingen, voortgezet onderwijs 7 vestigingen 5,566 leerlingen, MBO 2,302, HBO 1,910, WO 590 studenten (2026); herkomst Nederland 72,755, Europa 9,296, buiten Europa 13,188, geboren in Nederland 81,841, buiten Nederland 13,398 (2025); 23 wijken and 106 buurten including Centrum, Schadewijk, Oss-Zuid, Krinkelhoek, Ruwaard, Ussen; mergers with Berghem and Megen (1994), Ravenstein (2003) and Lith (2011).",
+        "url": "https://allecijfers.nl/gemeente/oss/"
+      },
+      {
+        "claim": "Oss (encyclopaedia): In 1399 kreeg Oss stadsrechten van Johanna van Brabant. In 1881 kreeg Oss een eigen spoorwegstation, wat van groot belang was voor de aanwezige industrie. De neogotische Grote Kerk, uit 1859, gewijd aan Onze Lieve Vrouw Onbevlekt Ontvangen; het rijke interieur werd mogelijk gemaakt door giften van katholieke Osse industrielen, waaronder Anton Jurgens. Villa Constance, een neoclassicistische woonvilla, in 1888 in opdracht van margarinefabrikant Arnold van den Bergh gebouwd; van 1921 tot 1974 deed het pand dienst als stadhuis; op dit moment is het in gebruik als museum (Museum Jan Cunen). Het kantoorpand de 'Groene Engel' van Anton Jurgens' Margarinefabrieken, in 1912 ontworpen, in 1930 in gebruik genomen door Philips. Reconstructie van een vorstengraf uit de zevende eeuw voor Christus op de plek waar door archeologen een ijzeren zwaard werd gevonden. De zogenaamde Bende van Oss was berucht en gevreesd. Infobox: 59.740 inwoners (2023-01-01), 34,47 km2. Kernen: Berghem, Demen, Dennenburg, Deursen, Dieden, Geffen, Haren, Herpen, Huisseling, Macharen, Kessel, Lith, Lithoijen, Maren, Maren-Kessel, Neerlangel, Neerloon, Oijen, Overlangel, Teeffelen, Megen, Ravenstein.",
+        "url": "https://nl.wikipedia.org/wiki/Oss"
+      },
+      {
+        "claim": "Organon (encyclopaedia): Bij Zwanenberg bestond de wens om het slachtafval uit de Zwanenberg-fabrieken nuttig te gebruiken. Saal van Zwanenberg richtte in 1923 Organon op als dochtermaatschappij van Zwanenberg. In samenwerking met de chemici Ernst Laqueur en Jacques van Oss werd een manier gevonden om uit de alvleesklier van geslachte varkens het middel insuline te extraheren op industriele schaal. Organon bracht deze pil in 1962 op de Nederlandse markt en had daarmee veel succes. In 1969 ging Koninklijke Zout Organon op in het AKZO-concern; overname door Schering-Plough november 2007; in 2009 gefuseerd met Merck and Co; in 2021 werd Organon opnieuw zelfstandig en een beursgenoteerde onderneming. Vestigingen in Oss, Schaijk, Apeldoorn en Boxtel, met in totaal 5000 medewerkers, van wie 4500 in Oss. Organon is producent van de meest voorgeschreven anticonceptiepil ter wereld.",
+        "url": "https://nl.wikipedia.org/wiki/Organon_(bedrijf)"
+      },
+      {
+        "claim": "School holiday regions: regio Zuid = Zeeland, Noord-Brabant, Limburg and the southern part of Gelderland; regio Midden = Utrecht, Zuid-Holland and the northern part of Gelderland; regio Noord = Groningen, Friesland, Drenthe, Overijssel, Flevoland, Noord-Holland.",
+        "url": "https://www.rijksoverheid.nl/themas/onderwijs/schoolvakanties/regios-schoolvakantie"
+      }
+    ],
+    "rejectedClaims": [
+      "Any population growth across years. The municipality absorbed Berghem and Megen in 1994, Ravenstein in 2003 and Lith in 2011, and growth across mergers is the Alkmaar and Zaanstad argument.",
+      "Any comparison of the town population of 59,740 with the municipal count. Town against municipality is the Zeeland argument.",
+      "Any date for the insulin work or for the employee figure. The Organon entry gives neither, so neither is dated here.",
+      "Any causal line from insulin to the pill. The entry describes both but the page does not connect them.",
+      "Any claim about Unox, Hartog or meat products made in Oss today. Not in the sources read for this page.",
+      "Any account of the crimes of the Bende van Oss beyond the encyclopaedia description.",
+      "Any claim about the quality of data held by the municipality, Organon or any business in Oss.",
+      "Anything the Den Bosch and Helmond pages own, including their own figures and arguments."
+    ]
   }
 }
