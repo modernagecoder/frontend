@@ -68,7 +68,7 @@ Utrecht 378,121, with a page of its own; Zeist 66,648; De Bilt 43,687; Bunnik 16
 
 ### The Heuvelrug and the Gelderse Vallei
 
-Veenendaal 70,779, third in the province and a page to come; Utrechtse Heuvelrug 51,107, the wooded ridge; Rhenen 20,457; Renswoude 5,908, the smallest municipality. The Heuvelrug is the one part of the province with anything that could be called a hill.
+[Veenendaal](/coding-classes-in-veenendaal) 70,779, third in the province, with its own page; Utrechtse Heuvelrug 51,107, the wooded ridge; Rhenen 20,457; Renswoude 5,908, the smallest municipality. The Heuvelrug is the one part of the province with anything that could be called a hill.
 
 ### The Kromme Rijn and the Lek
 
@@ -221,7 +221,7 @@ By total area, yes: 1,560.05 square kilometres including water, the least of the
 
 ### Which towns in the province get their own page, and which are covered here?
 
-Utrecht city has a page already. Amersfoort and Veenendaal follow in this series. The other 23, from Nieuwegein and Zeist to Oudewater, Eemnes and Renswoude, are listed above with their populations; the class is identical wherever the laptop is.
+Utrecht city, Amersfoort and Veenendaal have pages already. The other 23, from Nieuwegein and Zeist to Oudewater, Eemnes and Renswoude, are listed above with their populations; the class is identical wherever the laptop is.
 
 ### When I search for Utrecht, how do I know whether a page means the city or the province?
 

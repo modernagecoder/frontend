@@ -9173,5 +9173,50 @@
       "Any comparison of the encyclopaedia figure of 75,158 with the statistics figure of 75,166. Two sources that disagree is the Breda argument.",
       "Anything the Hengelo, Enschede, Deventer, Zwolle and Overijssel pages own, including their figures and arguments."
     ]
+  },
+  "coding-classes-in-veenendaal": {
+    "market": "Veenendaal",
+    "bodyClass": "cg-vnd",
+    "pageType": "city",
+    "curriculumAuthority": "Gemeente Veenendaal, Utrecht: 70,779 residents (statistics, 1 January 2026), 70,352 (2025), 63,032 (2013), 54,027 (1995), growth given by the site as 31 percent; 34,964 men and 35,388 women (2025); ages (2026) 12,556 under fifteen, 8,552 fifteen to twenty-five, 18,735 twenty-five to forty-five, 17,208 forty-five to sixty-five, 13,728 sixty-five or over; 30,114 households (2025) averaging 2.3, 10,390 one-person, 19,724 multi-person, 10,913 with children; 1,972 hectares, 1,942 land, 30 water, published density 3,623; 30,164 dwellings (2025), 17,797 owner-occupied at 59 percent, 12,367 rented at 41 percent; estimated average value 394,000 euro; income 32,400 euro per resident and 40,400 per recipient (2024); 2.3 percent in poverty; origin (2025) 54,861 Dutch, 3,700 European, 11,791 non-European, 62,234 born in the Netherlands and 8,118 abroad; one woonplaats, six wijken (Noordwest, West, Noordoost, Centrum, Zuidwest, Zuidoost), 38 buurten; 25 primary establishments with 7,165 pupils, 4 secondary with 5,845, 160 MBO students at institutions. Encyclopaedia: the name is to be understood as Veenen-Daal and not as Veen-en-Daal; peat came into use as fuel at the end of the Middle Ages and was dug here; the wool industry originates here, and with the cigar industry the textile industry shaped Veenendaal until the first half of the twentieth century; in 1998 land was again taken over from Ede for three new wijken in Veenendaal-Oost, Buurtstede, Groenpoort and Veenderij; on the Utrechtse Heuvelrug and the Gelderse Vallei, close against the Grebbelinie; in 1795 citizens used the French invasion to found their own municipality; 70,000 residents on 9 August 2024 and 19.81 square kilometres, not combined with the statistics. Regio Midden holidays. The city page teaches tokenization.",
+    "localProject": "Where a word is cut decides what it says. The encyclopaedia rules that Veenendaal is to be read as Veenen-Daal and not Veen-en-Daal. Language models read text as tokens cut from a fixed vocabulary; a toy greedy longest-match tokenizer on the page cuts veenendaal as veenen and daal with one vocabulary, veen, en and daal without veenen, and ten letters with letters alone, so the rule is constant and only the vocabulary decides. The programming and AI form is tokenization: models miscount letters because words arrive as pieces, long Dutch compounds and rare local names cost more tokens and are handled less naturally, spelling variants change every piece, and models are priced and limited by the token. The defences are measuring token counts on real Dutch input, using ordinary code for spelling and counting, normalising spelling first, testing with local names, and keeping the original text. The page makes no claim about how any particular AI product cuts the word. Chosen after a case-sensitive check found no page using token, tokenizer, subword or longest match. Distinct from Friesland and Scheveningen, which concern names as identifiers, and from Hoorn, which concerns date conventions.",
+    "requiredMentions": [
+      "54,027",
+      "63,032",
+      "30,114",
+      "10,390",
+      "10,913",
+      "30,164",
+      "17,797",
+      "12,367",
+      "13,728",
+      "12,556",
+      "Veenen-Daal",
+      "Veenderij",
+      "Groenpoort",
+      "Buurtstede"
+    ],
+    "sources": [
+      {
+        "claim": "Gemeente Veenendaal: 70,779 inwoners (2026), 70,352 (2025), 63,032 (2013), 54,027 (1995), growth 31 percent since 1995 (16,752); mannen 34,964, vrouwen 35,388 (2025); 30,114 huishoudens, 10,390 eenpersoons, 19,724 meerpersoons, 10,913 met kinderen, gemiddeld 2.3 (2025); ages 0-15 12,556, 15-25 8,552, 25-45 18,735, 45-65 17,208, 65+ 13,728 (2026); 1,972 hectare, land 1,942, water 30; bevolkingsdichtheid 3,623; woningvoorraad 30,164, koop 17,797 (59 percent), huur 12,367 (41 percent) (2025); gemiddelde WOZ 394,000 euro; basisonderwijs 25 vestigingen 7,165 leerlingen, voortgezet onderwijs 4 vestigingen 5,845 leerlingen, MBO 160; herkomst Nederland 54,861, Europa 3,700, buiten Europa 11,791, geboren in Nederland 62,234, buiten Nederland 8,118 (2025); gemiddeld inkomen per inwoner 32,400 and per inkomensontvanger 40,400 euro (2024); personen in armoede 2.3 percent; 1 woonplaats, 6 wijken (Noordwest, West, Noordoost, Centrum, Zuidwest, Zuidoost), 38 buurten.",
+        "url": "https://allecijfers.nl/gemeente/veenendaal/"
+      },
+      {
+        "claim": "Veenendaal (encyclopaedia): De naam moet dan ook begrepen worden als Veenen-Daal, en niet als Veen-en-Daal. Aan het einde van de Middeleeuwen kwam turf steeds meer in gebruik als brandstof, in plaats van hout. Net als in veel andere gebieden in Nederland werd het veen ook in dit gebied ontgonnen. De wolindustrie dankt hier zijn oorsprong aan. Samen met de sigarenindustrie was de textielindustrie tot in de eerste helft van de 20e eeuw bepalend voor Veenendaal. Om de bouw van drie nieuwe, levensloopbestendige woonwijken in Veenendaal-Oost (Buurtstede, Groenpoort en Veenderij) mogelijk te maken is in 1998 wederom een stuk grond van Ede overgenomen. Gelegen aan de Utrechtse Heuvelrug en de Gelderse Vallei; vlak tegen de Grebbelinie aan. In 1795 grepen enkele Veense burgers de inval van de Franse legers aan om een eigen gemeente op te richten. Per 9 augustus 2024 telde de gemeente 70.000 inwoners; oppervlakte 19,81 km2.",
+        "url": "https://nl.wikipedia.org/wiki/Veenendaal"
+      },
+      {
+        "claim": "School holiday regions: regio Midden = Utrecht, Zuid-Holland and the northern part of Gelderland; regio Noord = Groningen, Friesland, Drenthe, Overijssel, Flevoland, Noord-Holland; regio Zuid = Zeeland, Noord-Brabant, Limburg and the southern part of Gelderland.",
+        "url": "https://www.rijksoverheid.nl/themas/onderwijs/schoolvakanties/regios-schoolvakantie"
+      }
+    ],
+    "rejectedClaims": [
+      "How any particular AI product or tokenizer cuts the word Veenendaal. The page uses a toy tokenizer with invented vocabularies.",
+      "The meaning of the parts of the name beyond the encyclopaedia's ruling and its link with peat digging.",
+      "Any growth figure or boundary argument built on the land taken from Ede in 1998. Boundary changes in a series are the Alkmaar argument.",
+      "The encyclopaedia milestone of 70,000 residents on 9 August 2024 as anything more than a dated figure. Milestones are the Zoetermeer argument.",
+      "Names of cigar or textile firms. Not in the sentences read.",
+      "Anything the Utrecht, Amersfoort, Ede and Utrecht province pages own, including their figures and arguments."
+    ]
   }
 }
