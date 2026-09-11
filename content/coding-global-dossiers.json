@@ -8190,5 +8190,77 @@
       "A single well-formed field holding a wrong value. That is the Masirah argument; here whole records are attached to the wrong keys.",
       "Anything the Eindhoven city page owns, including the named secondary schools and their addresses, the High Tech Campus and the Indian-origin figures."
     ]
+  },
+  "coding-classes-in-woensel-noord": {
+    "market": "Woensel-Noord",
+    "bodyClass": "cg-wsn",
+    "pageType": "district",
+    "curriculumAuthority": "Stadsdeel Woensel-Noord, Eindhoven, Noord-Brabant: the northern half of the former municipality of Woensel, part of Eindhoven since 1 January 1920; four statistics office wijken, Ontginning, Achtse Molen, Aanschot and Dommelbeemd, on 1,864 hectares with 11 listed as water; 22 buurten in the office list against 21 in the encyclopaedia. Complete-set 2026 sum 66,195 residents, the largest of the seven stadsdelen, flagged as arithmetic; the encyclopaedia box under the Woensel-Noord heading (42,165 on 8.24 square kilometres) carries the area of the Woensel-Zuid wijken and is not used. Ontginning 15,744 residents (2026) on 333 hectares, 8,185 households averaging 1.9, 7,837 dwellings with 3,292 owner-occupied, estimated 349,000 euro, income 30,700 euro per resident and 36,900 per recipient (2024), households under the low-income line 4.1 percent, at or around the social minimum 9.6, below 110 percent 14, below 120 percent 18 (2023), 720 on social assistance (2025), buurten including Vlokhoven, Jagershoef, Prinsejagt and Winkelcentrum, 4 primary with 967 pupils, 1 secondary with 1,008. Achtse Molen 15,695 on 496 hectares of land, 6,930 households averaging 2.3, 6,739 dwellings with 5,189 owner-occupied at 77 percent, estimated 458,000 euro, income 38,300 euro, poverty lines 1.7, 3.4, 5.1 and 6.6 percent, buurten including Kerkdorp Acht, 6 primary with 1,803 pupils, 1 secondary with 1,558. Aanschot 21,082 on 517 hectares of land, the largest Eindhoven wijk, 8,880 households averaging 2.3 with 3,690 with children, 8,574 dwellings, estimated 459,000 euro, income 36,400 euro, poverty lines 2.8, 5.1, 7.8 and 9.9 percent, buurten including Blixembosch-Oost, Blixembosch-West and Woenselse Heide, 9 primary with 2,532 pupils, 2 secondary with 1,543. Dommelbeemd 13,674 on 508 hectares of land, 6,315 households, 6,108 dwellings with 3,115 owner-occupied, estimated 380,000 euro, income 31,400 euro, poverty lines 3.9, 8.4, 12 and 16 percent, buurten Esp, Bokt, Heesterakker, Vaartbroek, Eckart and Luytelaer, 5 primary with 1,186 pupils. Oud-Woensel comparison ladder 5.6, 9.5, 14 and 17 percent, income 34,000 euro. Sums: 30,310 households, 29,258 dwellings, 16,826 owner-occupied, 10,220 under fifteen, 24 primary with 6,488 pupils, 4 secondary with 4,109. Definitions from the statistics office: the lage-inkomensgrens is a fixed amount of equal purchasing power for all years and household types, set from the 1979 assistance level for a single person, 9,250 euro in 2000 prices; the sociaal minimum is the legal subsistence minimum, the assistance benefit or for older people the state pension. Landmarks from the encyclopaedia: Kasteel Eckart built 1695 for Jonkheer Carel van Vlierden; the Eckartsebos or Lage Heide; the Dommeldal east of Woensel; the Onze Lieve Vrouw van Lourdeskerk in Vlokhoven, 1920, by Wolter te Riele; the Catharina Ziekenhuis in Woensel. Regio Zuid holidays. The district page argues that nested thresholds form a cumulative curve to be differenced and compared at every rung.",
+    "localProject": "A set of nested thresholds is a cumulative curve, not a list of facts: difference it to get bands, never add it, and compare two places along the whole of it because the gap depends on the line. Every Eindhoven wijk row carries household shares for 2023 under the low-income line and at or around, below 110 percent and below 120 percent of the social minimum, with student and part-year households excluded. The social-minimum rungs nest; the low-income line is a separate fixed purchasing-power yardstick. Ontginning 4.1 on the low-income line and 9.6, 14 and 18 on the ladder: bands 9.6, 4.4 and 4.0 points, while adding the rungs gives 41.6 percent, counting the poorest three times. Dommelbeemd 3.9 and 8.4, 12, 16; Aanschot 2.8 and 5.1, 7.8, 9.9; Achtse Molen 1.7 and 3.4, 5.1, 6.6: the four curves never touch, so their ranking holds at any line, and mean income per resident (2024, a person measure) runs in the same order. Against Oud-Woensel, 5.6 and 9.5, 14, 17: clearly higher on the low-income line, 5.6 against 4.1, level on the social minimum, 9.5 against 9.6, level at 14, and 17 against 18 on whole-number figures, also level; by mean income Ontginning is lower, 30,700 against 34,000 euro. The gap is real at one line and absent at the others, and no reversal is claimed on margins inside the published precision. The programming form is the cumsum and diff pair, running totals misread as daily values, and percentiles: two services with one median and different tails, or a winner that changes between the median and the 99th percentile, answered by reporting several percentiles or the whole curve; also classifiers compared at a single confidence cut. Distinct from the mean against the typical case (Groningen), from cumulative against net over time (Zoetermeer), from ranking inside measurement noise (Breda) and rank against distance (Noord-Holland), from the unit of observation (Zeeland), from households against persons (Charlois) and from the framing of a gap (Gestel).",
+    "requiredMentions": [
+      "15,744",
+      "15,695",
+      "13,674",
+      "66,195",
+      "8,185",
+      "8,880",
+      "30,310",
+      "29,258",
+      "16,826",
+      "Kasteel Eckart",
+      "Carel van Vlierden",
+      "Vlokhoven",
+      "Kerkdorp Acht",
+      "Blixembosch"
+    ],
+    "sources": [
+      {
+        "claim": "Wijk Ontginning, Eindhoven: 15,744 inwoners (2026), 15,825 (2025), 15,435 (2013); mannen 7,935, vrouwen 7,890 (2025); 8,185 huishoudens (2025), 4,005 eenpersoonshuishoudens, 1,930 zonder kinderen, 2,250 met kinderen, gemiddelde huishoudensgrootte 1.9; ages 2,180 (0 to 15), 2,055 (15 to 25), 4,370 (25 to 45), 3,800 (45 to 65), 3,345 (65+) (2026); 333 hectare, all land; bevolkingsdichtheid 4,752; woningvoorraad 7,837, 3,292 koopwoningen (42 percent), 4,545 huurwoningen (2025); gemiddelde WOZ 349,000 euro (2025); gemiddeld inkomen per inwoner 30,700 euro and per inkomensontvanger 36,900 euro (2024); % huishoudens met een laag inkomen 4.1, onder of rond sociaal minimum 9.6, tot 110% van sociaal minimum 14, tot 120% 18 (2023); bijstand 720 personen (2025); buurten t Hool, Driehoeksbos, Jagershoef, Vlokhoven, Winkelcentrum, Prinsejagt.",
+        "url": "https://allecijfers.nl/wijk/ontginning-eindhoven/"
+      },
+      {
+        "claim": "Wijk Achtse Molen, Eindhoven: 15,695 inwoners (2026), 15,805 (2025), 16,275 (2013); mannen 7,990, vrouwen 7,815 (2025); 6,930 huishoudens (2025), 2,020 eenpersoonshuishoudens, 2,550 met kinderen, 2,360 zonder, gemiddelde huishoudensgrootte 2.3; ages 2,335, 1,640, 3,810, 4,210, 3,695 (2026); 497 hectare, 496 land, 1 water; bevolkingsdichtheid 3,186; woningvoorraad 6,739, 5,189 koopwoningen (77 percent), 1,550 huurwoningen; gemiddelde WOZ 458,000 euro (2025); gemiddeld inkomen per inwoner 38,300 and per inkomensontvanger 46,500 euro (2024); % laag inkomen 1.7, onder of rond sociaal minimum 3.4, tot 110% 5.1, tot 120% 6.6 (2023); bijstand 180 personen (2025); studentenhuishoudens en huishoudens met een onvolledig jaarinkomen zijn hierin niet meegenomen.",
+        "url": "https://allecijfers.nl/wijk/achtse-molen-eindhoven/"
+      },
+      {
+        "claim": "Wijk Aanschot, Eindhoven: 21,082 inwoners (2026), 20,910 (2025), 19,360 (2013); mannen 10,265, vrouwen 10,645 (2025); 8,880 huishoudens (2025), 2,790 eenpersoonshuishoudens, 2,400 zonder kinderen, 3,690 met kinderen, gemiddelde huishoudensgrootte 2.3; ages 3,470, 2,675, 5,290, 5,895, 3,730 (2026); 519 hectare, 517 land, 2 water; bevolkingsdichtheid 4,044 (2025); woningvoorraad 8,574, 5,230 koopwoningen, 3,344 huurwoningen; gemiddelde WOZ 459,000 euro (2025); gemiddeld inkomen per inwoner 36,400 and per inkomensontvanger 45,300 euro (2024); % laag inkomen 2.8, onder of rond sociaal minimum 5.1, tot 110% 7.8, tot 120% 9.9 (2023); bijstand 370 personen (2025); buurten Castilielaan, Blixembosch-Oost, Blixembosch-West, Tempel, Woenselse Heide; het sociaal minimum is het wettelijk bestaansminimum zoals dat in de politieke besluitvorming is vastgesteld.",
+        "url": "https://allecijfers.nl/wijk/aanschot-eindhoven/"
+      },
+      {
+        "claim": "Wijk Dommelbeemd, Eindhoven: 13,674 inwoners (2026), 13,565 (2025), 13,450 (2013); mannen 6,785, vrouwen 6,780 (2025); 6,315 huishoudens (2025), 2,475 eenpersoonshuishoudens, 1,640 zonder kinderen, 2,200 met kinderen, gemiddelde huishoudensgrootte 2.1; ages 2,235, 1,675, 3,605, 3,415, 2,700 (2026); 515 hectare, 508 land, 8 water; bevolkingsdichtheid 2,670; woningvoorraad 6,108, 3,115 koopwoningen (51 percent), 2,993 huurwoningen; gemiddelde WOZ 380,000 euro (2025); gemiddeld inkomen per inwoner 31,400 and per inkomensontvanger 38,700 euro (2024); % laag inkomen 3.9, onder of rond sociaal minimum 8.4, tot 110% 12, tot 120% 16 (2023); bijstand 530 personen (2025); buurten Esp, Bokt, Heesterakker, Vaartbroek, Eckart, Luytelaer.",
+        "url": "https://allecijfers.nl/wijk/dommelbeemd-eindhoven/"
+      },
+      {
+        "claim": "Wijk Oud-Woensel, Eindhoven: gemiddeld inkomen per inwoner 34,000 and per inkomensontvanger 39,200 euro (2024); % huishoudens met een laag inkomen 5.6, onder of rond sociaal minimum 9.5, tot 110% van sociaal minimum 14, tot 120% 17 (2023).",
+        "url": "https://allecijfers.nl/wijk/oud-woensel-eindhoven/"
+      },
+      {
+        "claim": "CBS begrip lage-inkomensgrens: De lage-inkomensgrens betreft een vast bedrag dat voor alle jaren en alle typen huishoudens een gelijke koopkracht vertegenwoordigt; based on de bijstandsuitkering van een alleenstaande in 1979, 9250 euro in prijzen van 2000.",
+        "url": "https://www.cbs.nl/nl-nl/onze-diensten/methoden/begrippen/lage-inkomensgrens"
+      },
+      {
+        "claim": "CBS begrip sociaal minimum: Het wettelijk bestaansminimum zoals dat in de politieke besluitvorming is vastgesteld. Het sociaal minimum bestaat uit de bijstandsuitkering of (voor ouderen) het AOW-pensioen.",
+        "url": "https://www.cbs.nl/nl-nl/onze-diensten/methoden/begrippen/sociaal-minimum"
+      },
+      {
+        "claim": "Woensel: Op 1 januari 1920 werd Woensel deel van de gemeente Eindhoven. Het kasteel werd in 1695 gebouwd in opdracht van Jonkheer Carel van Vlierden (Geschiedenis van Eckart). Het Eckartsebos of Lage Heide is een rijk en afwisselend gebied. Het Dommeldal ligt ten oosten van Woensel. Onze Lieve Vrouw van Lourdeskerk in de buurtschap Vlokhoven uit 1920; de architect was Wolter te Riele. Het Catharina Ziekenhuis Eindhoven staat in Woensel. Woensel-Noord is ingedeeld in vier wijken en 21 buurten: Ontginning, Achtse Molen (with Kerkdorp Acht), Aanschot (with Blixembosch-Oost and Blixembosch-West), Dommelbeemd (with Eckart). Box under Woensel-Noord: 8,24 km2, 42.165 inwoners (2023).",
+        "url": "https://nl.wikipedia.org/wiki/Woensel"
+      },
+      {
+        "claim": "School holiday regions: regio Zuid = Zeeland, Noord-Brabant, Limburg and the southern part of Gelderland; regio Midden = Utrecht, Zuid-Holland and the northern part of Gelderland; regio Noord = Groningen, Friesland, Drenthe, Overijssel, Flevoland, Noord-Holland.",
+        "url": "https://www.rijksoverheid.nl/themas/onderwijs/schoolvakanties/regios-schoolvakantie"
+      }
+    ],
+    "rejectedClaims": [
+      "That Ontginning is poorer than Oud-Woensel, or the reverse. The answer depends on the line: apart on the low-income line, level on every rung of the social-minimum ladder, and the other way round on mean income.",
+      "Any reversal between Ontginning and Oud-Woensel on the upper rungs. 9.5 against 9.6 and 17 against 18 lie inside the published precision; ranking inside noise is the Breda argument.",
+      "Any sum of the rungs, such as 41.6 percent for Ontginning. The rungs nest, and the sum counts the poorest households three times.",
+      "A stadsdeel poverty share for Woensel-Noord. The household counts behind the shares, after the exclusion of student and part-year households, are not published.",
+      "Any comparison of mean income per resident (2024) with household shares (2023) as though they measured one population. Households against persons is the Charlois argument.",
+      "A Woensel-Noord population of 42,165. That box carries the area of the Woensel-Zuid wijken, as the Woensel-Zuid page shows.",
+      "That Ontginning has the lowest income in Eindhoven in any meaningful sense. It is 100 euro below Oud-Gestel; rank against distance is the Noord-Holland argument.",
+      "The mean as a misleading description of a typical case. That is the Groningen argument; here every figure is used for what it is.",
+      "Anything the Eindhoven city page owns, including the named secondary schools and their addresses, the High Tech Campus and the Indian-origin figures."
+    ]
   }
 }
