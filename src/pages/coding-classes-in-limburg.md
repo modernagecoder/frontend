@@ -68,7 +68,7 @@ Eijsden-Margraten 26,350; Meerssen 18,454; Valkenburg aan de Geul 16,481; Beek 1
 
 ### Midden-Limburg
 
-Roermond 61,431, a page to come; Weert 51,498; Leudal 36,099; Echt-Susteren 32,385; Maasgouw 24,377; Roerdalen 20,995; Nederweert 17,533. The Maas valley and the lakes, between the two halves that do most of the talking.
+[Roermond](/coding-classes-in-roermond) 61,431, with its own page; Weert 51,498; Leudal 36,099; Echt-Susteren 32,385; Maasgouw 24,377; Roerdalen 20,995; Nederweert 17,533. The Maas valley and the lakes, between the two halves that do most of the talking.
 
 ### Noord-Limburg
 
@@ -82,7 +82,7 @@ Belgium runs the length of the west from Mook to Eijsden; Germany the length of 
 
 It is not growing, and this page does not pretend otherwise: 8,324 more people in thirty-one years, and a share of under-fifteens lower than any other province on this site. For a family here, that is one more reason a class should come to the house rather than the other way round.
 
-All 31 are above. Maastricht, Venlo, Sittard-Geleen and Heerlen already have city pages that go close, and Roermond will follow; this one stays at the scale where Mook and Vaals are both in view.
+All 31 are above. Maastricht, Venlo, Sittard-Geleen, Heerlen and Roermond already have city pages that go close; this one stays at the scale where Mook and Vaals are both in view.
 
 ## Every figure on this page, with its office and its date
 
@@ -221,7 +221,7 @@ It is the highest point of the European Netherlands, at 322.4 metres above NAP. 
 
 ### Which Limburg towns get their own page, and which are covered here?
 
-Maastricht, Venlo, Sittard-Geleen and Heerlen have theirs already, all linked above, and Roermond follows in this series. The other 26, from Weert and Kerkrade to Mook en Middelaar, are listed above with their populations, and the class is the same one whichever of them the laptop is in.
+Maastricht, Venlo, Sittard-Geleen, Heerlen and Roermond have theirs already, all linked above. The other 26, from Weert and Kerkrade to Mook en Middelaar, are listed above with their populations, and the class is the same one whichever of them the laptop is in.
 
 ### Has Limburg really not grown since 1995?
 
@@ -257,7 +257,7 @@ Between five and ten, matched on level, pace and goal rather than on age, school
 
 ## North along the Maas, and up to the country
 
-The Maas leads north out of the province to [Gelderland](/coding-classes-in-gelderland), and the A2 west to [Eindhoven](/coding-classes-in-eindhoven), the nearest city page. Every page in this series descends from the [Netherlands coding hub](/coding-classes-in-netherlands), and a learner who wants to build models rather than programs should open [AI and machine learning classes in the Netherlands](/ai-and-machine-learning-classes-in-netherlands) or the [AI and Python Academy](/ai-and-python-academy-netherlands). Maastricht, [Venlo](/coding-classes-in-venlo), [Sittard-Geleen](/coding-classes-in-sittard-geleen) and [Heerlen](/coding-classes-in-heerlen) are built; Roermond follows.
+The Maas leads north out of the province to [Gelderland](/coding-classes-in-gelderland), and the A2 west to [Eindhoven](/coding-classes-in-eindhoven), the nearest city page. Every page in this series descends from the [Netherlands coding hub](/coding-classes-in-netherlands), and a learner who wants to build models rather than programs should open [AI and machine learning classes in the Netherlands](/ai-and-machine-learning-classes-in-netherlands) or the [AI and Python Academy](/ai-and-python-academy-netherlands). Maastricht, [Venlo](/coding-classes-in-venlo), [Sittard-Geleen](/coding-classes-in-sittard-geleen), [Heerlen](/coding-classes-in-heerlen) and [Roermond](/coding-classes-in-roermond) are built.
 
 ## Contact
 

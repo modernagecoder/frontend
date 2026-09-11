@@ -9688,5 +9688,58 @@
       "Real attacker speeds. The key-space table assumes one billion guesses a second for comparison only.",
       "Anything the Zeeland, Alkmaar, Bergen op Zoom and Roosendaal pages own, including their figures and arguments."
     ]
+  },
+  "coding-classes-in-roermond": {
+    "market": "Roermond",
+    "bodyClass": "cg-rmd",
+    "pageType": "city",
+    "curriculumAuthority": "Gemeente Roermond, Limburg: 61,431 residents (statistics, 1 January 2026), 61,210 (2025), 56,690 (2013), 51,666 (1995); 30,406 men and 30,804 women (2025); ages (2026) 8,509 under fifteen, 6,447 fifteen to twenty-five, 15,823 twenty-five to forty-five, 16,409 forty-five to sixty-five, 14,243 sixty-five or over (summing to 61,431); 29,585 households (2025) averaging 2.03, 12,340 one-person, 17,245 multi-person, 8,848 with children; 7,105 hectares, 6,064 land, 1,042 water, published density 1,009; 29,894 dwellings (2025), 16,143 owner-occupied at 54 percent, 13,452 rented at 45 percent, 299 unaccounted for in the row; estimated average value 311,000 euro; income 33,200 euro per resident and 39,500 per recipient (2024); 3.5 percent in poverty; origin (2025) 66 percent Dutch, 15 percent European, 19 percent non-European, 81 percent born in the Netherlands; 10 wijken (Centrum, Roermond-Oost, Roermond-Zuid, Maasniel, Donderberg, Hoogvonderen, Asenray, Herten, Swalmen, Maasplassen); 24 primary establishments with 5,176 pupils, 6 secondary with 4,633; 5,414 MBO, HBO and WO students together. Encyclopaedia (town): town rights in 1232 from Count Otto II; the Munsterkerk a cruciform basilica of the 13th century, restored by Pierre Cuypers 1864 to 1891; building of the church now the Sint-Christoffelkathedraal began in 1410; the Designer Outlet Roermond of McArthurGlen established in 2001; the Maasplassen formed by dredging gravel and used above all in summer by many recreationists; Roermond lies at the confluence of the Roer and the Maas; the town figure of 42,880 (2023) and 45.01 square kilometres not combined with the statistics. Encyclopaedia (municipality): villages Roermond, Swalmen, Herten, Maasniel, Merum, Leeuwen, Boukoul, Asenray, Ool, Asselt; on 1 January 2007 Swalmen joined, creating a central municipality of about 54,000; infobox 61,439 not combined. Encyclopaedia (Maasplassen): gravel pits from gravel deposited by the Maas; digging began in the 19th century, large-scale after the Second World War, scaled down after 1990; about 30 square kilometres in all; the area between Thorn and Roermond a contiguous recreation area of 15 square kilometres; beaches, water sports areas, nature areas, marinas and campsites. Regio Zuid holidays. The city page teaches text search, regular expressions and precision versus recall.",
+    "localProject": "A search pattern matches letters, not meaning. Roermond's villages make the examples: Herten is also the Dutch word for deer, Leeuwen the word for lions and a common surname, Ool sits inside school and pool, and Roermond inside the adjective Roermondse, while Swalmen is simply rare. Regular expressions add word boundaries, case rules and context, each trading recall for precision. A worked set of twenty invented messages (8 about the village with one headed HERTEN, 5 about deer with one starting a sentence, 7 neither) scores three patterns: any-case herten finds 13 with 8 right (precision 61.5, recall 100), capitalised whole word finds 8 with 7 right (87.5 and 87.5), after in, naar or uit finds 5 with 5 right (100 and 62.5). For AI, assistant-written patterns are plausible and rarely tested, and model-based classification handles meaning better but still errs, costs more and varies; both need a labelled test set and a decision about which error costs more (recall for urgent complaints, precision for deletion). Chosen after a case-sensitive check found no page using regex, regular expression, pattern match, false positive or word boundary. Distinct from Veenendaal, which concerns how language models cut text into tokens, from Hengelo, which concerns noise defined by the question, and from Bergen op Zoom, which concerns what tests can prove.",
+    "requiredMentions": [
+      "51,666",
+      "56,690",
+      "30,406",
+      "30,804",
+      "8,509",
+      "6,447",
+      "15,823",
+      "16,409",
+      "14,243",
+      "29,585",
+      "12,340",
+      "17,245",
+      "Munsterkerk",
+      "Boukoul"
+    ],
+    "sources": [
+      {
+        "claim": "Gemeente Roermond: 61,431 inwoners (2026), 61,210 (2025), 56,690 (2013), 51,666 (1995); mannen 30,406, vrouwen 30,804 (2025); ages 0-15 8,509, 15-25 6,447, 25-45 15,823, 45-65 16,409, 65+ 14,243 (2026); 29,585 huishoudens, 12,340 eenpersoons, 17,245 meerpersoons, 8,848 met kinderen, gemiddeld 2.03; 7,105 hectare, land 6,064, water 1,042; bevolkingsdichtheid 1,009; woningvoorraad 29,894, koop 16,143 (54 percent), huur 13,452 (45 percent); gemiddelde WOZ 311,000 euro (2025); gemiddeld inkomen per inwoner 33,200 and per inkomensontvanger 39,500 euro (2024); personen in armoede 3.5 percent; basisonderwijs 24 vestigingen 5,176 leerlingen, voortgezet onderwijs 6 vestigingen 4,633 leerlingen; MBO, HBO and WO 5,414 together; geboren in Nederland 81 percent; herkomst Nederland 66 percent, Europa 15 percent, buiten Europa 19 percent; 10 wijken: Centrum, Roermond-Oost, Roermond-Zuid, Maasniel, Donderberg, Hoogvonderen, Asenray, Herten, Swalmen, Maasplassen.",
+        "url": "https://allecijfers.nl/gemeente/roermond/"
+      },
+      {
+        "claim": "Roermond (town, encyclopaedia): In 1232 verkreeg de plaats stadsrechten van graaf Otto II. Munsterkerk, een kruisbasiliek, gebouwd in de 13e eeuw en gerestaureerd door de beroemde architect Pierre Cuypers in de jaren 1864-1891. In 2001 werd in de stad het Designer Outlet Roermond van McArthurGlen gevestigd. Deze plassen, die ontstaan zijn door het baggeren van grind, worden vooral in de zomer gebruikt door veel recreanten. Roermond ligt aan de samenvloeiing van de Roer en de Maas. In 1410 werd begonnen met de bouw van deze kerk (Sint-Christoffelkathedraal). Infobox: 42.880 inwoners (2023-01-01), 45,01 km2.",
+        "url": "https://nl.wikipedia.org/wiki/Roermond_(stad)"
+      },
+      {
+        "claim": "Roermond (municipality, encyclopaedia): kernen Roermond, Swalmen, Herten, Maasniel, Merum, Leeuwen, Boukoul, Asenray, Ool, Asselt; per 1 januari 2007 een centrumgemeente van ca. 54.000 inwoners is ontstaan (Swalmen and Roermond); infobox 61.439 inwoners (1 jan 2026), 71,05 km2.",
+        "url": "https://nl.wikipedia.org/wiki/Roermond_(gemeente)"
+      },
+      {
+        "claim": "Maasplassen (encyclopaedia): De Maasplassen zijn grindgaten, ze ontstonden door de winning van grind dat er voorkomt dankzij afzetting door de Maas. Grindwinning aan de Maas begon al in de 19e eeuw. Na de Tweede Wereldoorlog begonnen ondernemingen de uiterwaarden grootschalig af te graven. Na 1990 is de grindwinning afgebouwd. Hun gezamenlijke oppervlakte bedraagt ongeveer 30 km2. Een nieuwe bestemming werd gevonden in de waterrecreatie. Er kwamen stranden, watersportgebieden, natuurgebieden, jachthavens en campings. Het plassengebied tussen Thorn en Roermond vormt een 15 km2 groot aaneengesloten recreatiegebied.",
+        "url": "https://nl.wikipedia.org/wiki/Maasplassen"
+      },
+      {
+        "claim": "School holiday regions: regio Noord = Groningen, Friesland, Drenthe, Overijssel, Flevoland and Noord-Holland; regio Midden = Utrecht, Zuid-Holland and the northern part of Gelderland; regio Zuid = Zeeland, Noord-Brabant, Limburg and the southern part of Gelderland.",
+        "url": "https://www.rijksoverheid.nl/themas/onderwijs/schoolvakanties/regios-schoolvakantie"
+      }
+    ],
+    "rejectedClaims": [
+      "Village population figures. The encyclopaedia lists figures for each village, but they sum to more than the municipal total, so they are left out rather than explained.",
+      "Visitor numbers for the Designer Outlet. The source read gives none.",
+      "The dates of earlier mergers of Maasniel and Herten. Only the 2007 Swalmen merger was read in a quoted sentence.",
+      "Any comparison of the encyclopaedia figures (42,880 for the town, 61,439 for the municipality) with the statistics. Two sources that disagree is the Breda argument.",
+      "Any claim about how any organisation, school or company in Roermond searches or filters text.",
+      "Anything the Limburg, Maastricht, Venlo, Sittard-Geleen and Heerlen pages own, including their figures and arguments."
+    ]
   }
 }
