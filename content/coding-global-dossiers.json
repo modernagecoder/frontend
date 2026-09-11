@@ -8692,5 +8692,51 @@
       "Any comment on the university student count, which the row did not give as a figure.",
       "Anything the Maastricht, Sittard-Geleen, Venlo and Limburg pages own, including their figures and arguments."
     ]
+  },
+  "coding-classes-in-lelystad": {
+    "market": "Lelystad",
+    "bodyClass": "cg-lls",
+    "pageType": "city",
+    "curriculumAuthority": "Gemeente Lelystad, Flevoland: 85,781 residents (statistics office, 1 January 2026), 84,713 (2025), 75,778 (2013), 60,722 (1995), a rise the site gives as 41 percent; 42,672 men and 42,041 women (2025); 37,191 households (2025) averaging 2.25, 13,184 one-person, 14,050 with children; ages (2026) 14,280 under fifteen, 10,645 fifteen to twenty-five, 23,311 twenty-five to forty-five, 21,765 forty-five to sixty-five, 15,780 sixty-five or over; 76,545 hectares, 22,900 land, 53,645 water, published density 370 over land; 36,017 dwellings (2025), 22,331 owner-occupied at 62 percent, 13,686 rented at 38 percent; estimated average value 350,000 euro; income 31,800 euro per resident and 39,500 per recipient (2024); 3.7 percent in poverty; 65,522 born in the Netherlands, 8,972 of European and 24,956 of non-European origin (2025); 12 wijken, 137 buurten; 42 primary establishments with 8,013 pupils, 5 secondary with 4,382, 1,450 MBO students at institutions. Encyclopaedia: capital of Flevoland; named after Cornelis Lely, intellectual father of the Zuiderzee Works; the polder fell dry in June 1957; the first residents arrived on 28 September 1967; municipality on 1 January 1980; until the Houtribdijk opened in 1976 the only connection between Noord-Holland and Flevoland was the Oostvaardersdijk; the province of Flevoland established on 1 January 1986, before which the Flevopolder belonged to no province; on the national railway since 1988 as terminus of the Flevolijn from Weesp completed that year; Lelystad Airport expanded to take part of the growth of Schiphol; the reconstruction of the VOC ship Batavia; the Nieuw Land Erfgoedcentrum; wijken including Stadshart, Kustwijk, Lelystad Haven, Schouw, Hanzepark, Golfresort, Parkhaven, Warande, Zuiderzeewijk, Atolwijk, Waterwijk, Landstrekenwijk, Hollandse Hout, Landerijen, Boswijk; infobox 85,758 on 1 January 2026, not combined with the office row. Regio Noord holidays. The city page teaches single points of failure and redundancy.",
+    "localProject": "One route is a single point of failure. Until the Houtribdijk opened in 1976, the only connection between Noord-Holland and Flevoland was the Oostvaardersdijk, so for the nine years after the first residents arrived in 1967 every road journey between Lelystad and Noord-Holland used one dike; the Houtribdijk made it two and the Flevolijn of 1988 added a railway. The page claims no failure or risk to the dike; the point is that a second route makes a loss survivable without making the first route stronger. The programming form is the single point of failure: one server, a database with no restored backup, one outside service, one admin account, one AI model provider, a tiny package deep in the dependency list (left-pad, 2016), an expiring certificate, and the one person who knows the deployment (the bus factor). The defences are a dependency map that includes people, backups restored on a schedule, timeouts and fallbacks on every outside call, two of anything critical, and deliberate practice of failure. A reliability-engineering point rather than a statistical fallacy. Chosen after a keyword check found no page in the cluster using single point of failure, bus factor or failover; the first draft argued necessary versus sufficient, which Escamp already owns, and was rewritten. Distinct from format durability (Hilversum), which concerns whether a record can still be read, and from accuracy follows use (Oss).",
+    "requiredMentions": [
+      "60,722",
+      "75,778",
+      "37,191",
+      "13,184",
+      "14,050",
+      "36,017",
+      "22,331",
+      "13,686",
+      "8,013",
+      "4,382",
+      "15,780",
+      "Houtribdijk",
+      "Oostvaardersdijk",
+      "Batavia"
+    ],
+    "sources": [
+      {
+        "claim": "Gemeente Lelystad: 85,781 inwoners (2026), 84,713 (2025), 75,778 (2013), 60,722 (1995), groei 41 percent (25,059); mannen 42,672, vrouwen 42,041 (2025); 37,191 huishoudens, 13,184 eenpersoons (35 percent), 14,050 met kinderen (38 percent), gemiddeld 2.25; ages 0-15 14,280, 15-25 10,645, 25-45 23,311, 45-65 21,765, 65+ 15,780 (2026); 76,545 hectare, land 22,900, water 53,645; bevolkingsdichtheid 370; woningvoorraad 36,017, koopwoningen 22,331 (62 percent), huurwoningen 13,686 (38 percent) (2025); gemiddelde WOZ 350,000 euro; gemiddeld inkomen per inwoner 31,800 and per inkomensontvanger 39,500 euro (2024); personen in armoede 3.7 percent; basisonderwijs 42 vestigingen 8,013 leerlingen, voortgezet onderwijs 5 vestigingen 4,382 leerlingen, MBO 1,450; geboren in Nederland 65,522, herkomst Europa 8,972, buiten Europa 24,956 (2025); 12 wijken, 137 buurten.",
+        "url": "https://allecijfers.nl/gemeente/lelystad/"
+      },
+      {
+        "claim": "Lelystad (encyclopaedia): Lelystad is de hoofdstad van, en een gemeente in, de Nederlandse provincie Flevoland. Lelystad is vernoemd naar Cornelis Lely, de geestelijk vader van de Zuiderzeewerken. In juni 1957 viel de polder droog. De eerste bewoners kwamen op 28 september 1967. Op 1 januari 1980 werd Lelystad een gemeente. Tot 1976, toen de Houtribdijk werd opengesteld, was de enige verbinding tussen Noord-Holland en Flevoland de Oostvaardersdijk. Tot aan de instelling van de provincie Flevoland op 1 januari 1986 was de Flevopolder niet provinciaal ingedeeld. Sinds 1988 is Lelystad aangesloten op het landelijke spoorwegnet, destijds als eindpunt van de eveneens in 1988 voltooide Flevolijn (Weesp - Lelystad). Lelystad Airport is uitgebreid om een deel van de groei van Schiphol op te vangen. De reconstructie van het VOC-schip Batavia. Het Nieuw Land Erfgoedcentrum. Wijken: Stadshart, Kustwijk, Lelystad Haven, Schouw, Hanzepark, Golfresort, Parkhaven, Warande, Zuiderzeewijk, Atolwijk, Waterwijk, Landstrekenwijk, Hollandse Hout, Landerijen, Boswijk. De gemeente telt 85.758 inwoners (1 januari 2026).",
+        "url": "https://nl.wikipedia.org/wiki/Lelystad"
+      },
+      {
+        "claim": "School holiday regions: regio Noord = Groningen, Friesland, Drenthe, Overijssel, Flevoland and Noord-Holland; regio Midden = Utrecht, Zuid-Holland and the northern part of Gelderland; regio Zuid = Zeeland, Noord-Brabant, Limburg and the southern part of Gelderland.",
+        "url": "https://www.rijksoverheid.nl/themas/onderwijs/schoolvakanties/regios-schoolvakantie"
+      }
+    ],
+    "rejectedClaims": [
+      "Any claim that the Oostvaardersdijk failed, was closed or was at risk. The source says only that it was the only connection until 1976.",
+      "Any statement about connections between Flevoland and provinces other than Noord-Holland. The source sentence concerns Noord-Holland alone.",
+      "Any population target for Lelystad. The encyclopaedia mentions a goal of about 100,000 for an expansion without making clear which, so it is not used.",
+      "Any comparison of the encyclopaedia figure of 85,758 with the office figure of 85,781. Two sources that disagree is the Breda argument.",
+      "Any density over the whole territory including water. The choice of denominator is the Gadong argument; the page states only that the published figure is over land.",
+      "Necessary versus sufficient conditions, which Escamp already owns; an earlier draft of this page used it and was rewritten.",
+      "Anything the Almere and Flevoland pages own, including base-year growth rates and their datum argument."
+    ]
   }
 }

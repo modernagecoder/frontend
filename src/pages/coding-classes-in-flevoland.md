@@ -64,13 +64,13 @@ Almere 232,619, the largest and the newest city in the country, with its own pag
 
 ### Oostelijk Flevoland
 
-Lelystad 85,781, the capital, named for the engineer who drew the polders, with the airport and the replica East Indiaman in the harbour; Dronten 45,443, which is Dronten, Biddinghuizen and Swifterbant and the farmland between them.
+[Lelystad](/coding-classes-in-lelystad) 85,781, the capital, with its own page, named for the engineer who drew the polders, with the airport and the replica East Indiaman in the harbour; Dronten 45,443, which is Dronten, Biddinghuizen and Swifterbant and the farmland between them.
 
 ### The Noordoostpolder
 
 Noordoostpolder 51,930, the first polder, planned around Emmeloord with ten villages at cycling distance in a ring; Urk 22,431, the island that became a hill on the polder's edge and never stopped being Urk.
 
-Six, and all six are above; the smallest count of municipalities of any province. Almere has its page and Lelystad will get one; this page keeps the polders, the ring villages and the former island in a single frame.
+Six, and all six are above; the smallest count of municipalities of any province. Almere and Lelystad have their pages; this page keeps the polders, the ring villages and the former island in a single frame.
 
 ## The offices behind every number, and the two population figures for one city
 
