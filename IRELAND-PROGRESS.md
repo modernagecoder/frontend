@@ -33,7 +33,8 @@ Phase 7, towns above 10,000 (49, kill-gated): best-coding-class-in-<town> for sw
 
 | # | Slug | Type | Words | Worst overlap | AI H2 used | Trap used | Commit |
 |---|------|------|-------|---------------|------------|-----------|--------|
-| 1 | best-coding-class-in-the-world (bcw, #70530B) | ag- door, worldwide criteria (Phase 1 preview) | 4,332 | 1% vs vibe-coding-vs-building-ai-netherlands | eight tests for any coding class: 5 from studies read in full (MOOC completion 3.13 percent, Lister fragile grasp, Lopez r = 0.56, PRIMM r = .13, Prather illusion of competence; tutoring d = 0.79, 0.37 SD) and 3 practice, each answered, with our limits | none (ag- door) | (this commit) |
+| 1 | best-coding-class-in-the-world (bcw, #70530B) | ag- door, worldwide criteria (Phase 1 preview) | 4,332 | 1% vs vibe-coding-vs-building-ai-netherlands | eight tests for any coding class: 5 from studies read in full (MOOC completion 3.13 percent, Lister fragile grasp, Lopez r = 0.56, PRIMM r = .13, Prather illusion of competence; tutoring d = 0.79, 0.37 SD) and 3 practice, each answered, with our limits | none (ag- door) | acd03bad |
+| 2 | best-coding-class-in-dublin (dub, #8F3736) | cg- city, hub for the Dublin areas (Phase 1 preview) | 3,940 | 1.8% vs coding-classes-in-roermond | Dublin is the only place whose Eircode keeps the postal district (D15); Census 2022 1,263,219 city and suburbs, 10,308 Indian citizens in Dublin City, 41 percent work from home; 14 of the first 40 LCCS schools | stale readings: Dublin Bikes Q1 2019, 1,094,127 of 2,912,994 rows (about 38 percent) repeat LAST UPDATED; station 34 renamed and moved | (this commit) |
 
 ## Skipped (kill criterion)
 

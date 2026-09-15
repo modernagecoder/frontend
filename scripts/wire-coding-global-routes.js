@@ -252,6 +252,8 @@ const MARKETS = [
   ['coding-classes-in-diemen', 'Diemen, Netherlands'],
   ['coding-classes-in-middelburg', 'Middelburg, Netherlands'],
   ['coding-classes-in-roermond', 'Roermond, Netherlands'],
+  // Ireland cluster (scripts/nl)
+  ['best-coding-class-in-dublin', 'Dublin, Ireland'],
 ];
 
 const SLUGS = MARKETS.map(m => m[0]);
