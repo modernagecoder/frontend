@@ -242,7 +242,7 @@ Between five and ten, matched on level, pace and goal rather than on age, school
 
 ## Down the line in every direction
 
-Thirty minutes north-west is [Amsterdam](/coding-classes-in-amsterdam), with its eight district pages, and beyond it [Amstelveen](/coding-classes-in-amstelveen); forty minutes south is [Eindhoven](/coding-classes-in-eindhoven); west along the A12 is [The Hague](/coding-classes-in-the-hague); and across the Hollandse Brug, [Almere](/coding-classes-in-almere). All of them spoke from the [Netherlands coding hub](/coding-classes-in-netherlands), and the learner who wants to train models rather than write programs should start at [AI and machine learning classes in the Netherlands](/ai-and-machine-learning-classes-in-netherlands). A page for the province of Utrecht, Amersfoort and the rest follows in this series.
+Thirty minutes north-west is [Amsterdam](/coding-classes-in-amsterdam), with its eight district pages, and beyond it [Amstelveen](/coding-classes-in-amstelveen); forty minutes south is [Eindhoven](/coding-classes-in-eindhoven); west along the A12 is [The Hague](/coding-classes-in-the-hague); and across the Hollandse Brug, [Almere](/coding-classes-in-almere). All of them spoke from the [Netherlands coding hub](/coding-classes-in-netherlands), and the learner who wants to train models rather than write programs should start at [AI and machine learning classes in the Netherlands](/ai-and-machine-learning-classes-in-netherlands). The [province of Utrecht](/coding-classes-in-utrecht-province) and [Amersfoort](/coding-classes-in-amersfoort) have pages of their own, and the [AI and Python Academy, Utrecht](/ai-and-python-academy-utrecht) looks at intelligence from four sides.
 
 ## Contact
 
