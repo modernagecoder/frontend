@@ -126,6 +126,7 @@ const SLUGS = [
   'coding-and-ai-classes-for-adults-netherlands',
   'coding-for-college-students-netherlands',
   'ai-agents-course-for-professionals-netherlands',
+  'build-real-ai-projects-netherlands',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -331,6 +332,7 @@ const LLMS_LABELS = {
   'coding-and-ai-classes-for-adults-netherlands': 'Coding and AI classes for adults, Netherlands',
   'coding-for-college-students-netherlands': 'Coding for college students, Netherlands',
   'ai-agents-course-for-professionals-netherlands': 'AI agents course for professionals, Netherlands',
+  'build-real-ai-projects-netherlands': 'Build real AI projects, Netherlands',
 };
 
 function wireLlms(slugs) {

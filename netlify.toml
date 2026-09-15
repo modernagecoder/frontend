@@ -9616,6 +9616,18 @@
   to = "/src/pages/ai-agents-course-for-professionals-netherlands.md"
   status = 200
 
+# Global Build-AI cluster (ai-global.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/build-real-ai-projects-netherlands"
+  to = "/src/pages/build-real-ai-projects-netherlands.html"
+  status = 200
+
+[[redirects]]
+  from = "/build-real-ai-projects-netherlands.md"
+  to = "/src/pages/build-real-ai-projects-netherlands.md"
+  status = 200
+
 [[redirects]]
   from = "/*"
   to = "/src/pages/404.html"
