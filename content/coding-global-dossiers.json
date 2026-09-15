@@ -9831,5 +9831,94 @@
       "That Luas Cross City first connected the two lines in 2017: the sentence was truncated in the source as read.",
       "Anything the Dun Laoghaire-Rathdown page owns, including its 4,958 Indian citizens and its census figures."
     ]
+  },
+  "coding-classes-in-dun-laoghaire-rathdown": {
+    "market": "Dún Laoghaire-Rathdown",
+    "bodyClass": "cg-dlr",
+    "pageType": "governorate",
+    "curriculumAuthority": "Dun Laoghaire-Rathdown County Council area, Census 2022 (CSO table F1004A): 233,860 (112,032 male, 121,828 female); council: approximately 233,000, one of three local authorities that succeeded the former Dublin County Council on its abolition in 1994. CSO Profile 5 Dublin (26 October 2023): 4,958 Indian citizens and 3,639 UK citizens in Dun Laoghaire-Rathdown; Irish-US 2,282 and Irish-UK 2,082 the largest dual groups; 10,854 moved in in the year before the census. Profile 7 Dublin (5 December 2023): almost 39,900 never worked from home, just over 60,300 did at least part of the time, the highest rate nationally; joint lowest unemployment nationally at 6 percent, long-term 3 percent; almost 14,000 in professional, scientific and technical activities; 86,000 daily commuters, half by car, over 13,000 by train/DART/Luas, almost 7,900 by bus, most likely to use the train at 15 percent; almost 12,800 third-level students commuting. Profile 8 Dublin: average age completing full-time education 22.5, up from 21.7 (Dublin City 21.4, Fingal 21.2, South Dublin 20.5); Irish speakers almost 94,000 from just over 83,000. Profile 3 Dublin: 42,303 children; 37 percent of under-15s in childcare (15,859); families up 6 percent to 59,431. Council: 40 councillors, six LEAs (Blackrock 6, Dundrum 7, Dun Laoghaire 7, Glencullen-Sandyford 7, Killiney-Shankill 7, Stillorgan 6), first meeting 21 June 2024; Dun Laoghaire the administrative centre about 12 km from the city centre, named Kingston in 1821, first railway 1834 Dublin to Kingston; Stillorgan Shopping Centre first in the country, built 1966; Dalkey a Viking settlement, 10th-century church, two 14th-century Norman castles, Goat's Castle heritage centre; Dundrum one of the largest shopping complexes in Ireland; Blackrock baths demolished 2013. TFI: Green Line Park and Ride at Carrickmines, Stillorgan, Sandyford, Balally. Irish Rail: DART stations Blackrock to Shankill on the south coast. Sandyford Business District: established January 2017, 1,000 companies, 26,000 employees, over 6,000 residents, four business parks. dlr LexIcon: opened 2015, Ireland's largest and most visited public library in its own words, Maker Space Lab, 3D printers; eight branch libraries. Dalkey School Project: September 1978 in Dun Laoghaire, first multi-denominational school in the country, Glenageary Lodge since 1985, well over 200 pupils. IADT: Kill Avenue, Dun Laoghaire, A96 KH79, over 2,500 students and staff. Newpark Comprehensive: Newtownpark Avenue, Blackrock, A94 EV70. Routing keys in published addresses: A94, A96, D14, D18.",
+    "localProject": "Censored values in council water data. The bathing water quality files for 2022 to 2024 store results below the detection limit as text (\"<10\" for E. coli, \"<1\" for Enterococci) and some above the range as \">2000\" or \">24196\". Converting the columns to numbers silently drops them: E. coli \"<10\" is 102 of 337 samples in 2022 (30.3 percent), 67 of 355 in 2023 (18.9 percent) and 89 of 318 in 2024 (28.0 percent); Enterococci \"<1\" is 25, 15 and 29. The average then covers only the samples above the limit, and the greater-than results at the top vanish too. Secondary traps: 2022 has Beach Gardens Dun Laoghaire (36 rows) and Dun Laoghaire Baths (1 row), 2023 and 2024 only the latter, so a Dun Laoghaire trend switches site; the files mix Excel serial dates with day-first text. For AI, assistant code usually coerces the column and returns a precise-looking mean. Chosen after a case-sensitive check of every dossier and Netherlands module found no page using censored, detection limit or bathing water.",
+    "requiredMentions": [
+      "233,860",
+      "4,958",
+      "42,303",
+      "59,431",
+      "15,859",
+      "Glencullen-Sandyford",
+      "Kingston",
+      "Goat's Castle",
+      "Dalkey School Project",
+      "Kill Avenue",
+      "Sandyford Business District",
+      "Forty Foot",
+      "A96 K6C9"
+    ],
+    "sources": [
+      {
+        "claim": "Census 2022 table F1004A: Dun Laoghaire Rathdown County Council, population 233860 (112032 male, 121828 female).",
+        "url": "https://data.cso.ie/table/F1004A"
+      },
+      {
+        "claim": "CSO Profile 5, Dublin: \"There were 4,958 Indian citizens living in Dún Laoghaire-Rathdown and 3,639 UK citizens.\"",
+        "url": "https://www.cso.ie/en/csolatestnews/pressreleases/2023pressreleases/pressstatementcensus2022resultsprofile5-diversitymigrationethnicityirishtravellersreligiondublin"
+      },
+      {
+        "claim": "CSO Profile 7, Dublin: highest rate nationally of people who worked from home at least part of the time; joint lowest unemployment rate nationally at 6% and long-term 3%; almost 14,000 in professional, scientific and technical activities; 86,000 daily commuters, over 13,000 by train/DART/Luas, most likely to use the train at 15%.",
+        "url": "https://www.cso.ie/en/csolatestnews/pressreleases/2023pressreleases/pressstatementcensus2022resultsprofile7-employmentoccupationsandcommutingdublin/"
+      },
+      {
+        "claim": "CSO Profile 8, Dublin: average age completing full-time education 22.5, up from 21.7; almost 94,000 Irish speakers.",
+        "url": "https://www.cso.ie/en/csolatestnews/pressreleases/2023pressreleases/pressstatementcensus2022resultsprofile8-theirishlanguageandeducationdublin/"
+      },
+      {
+        "claim": "CSO Profile 3, Dublin: 42,303 children; 37% of under-15s in childcare (15,859); families up 6% to 59,431.",
+        "url": "https://www.cso.ie/en/csolatestnews/pressreleases/2023pressreleases/pressstatementcensus2022resultsprofile3-householdsfamiliesandchildcaredublin"
+      },
+      {
+        "claim": "Council: 40 councillors in six LEAs, first meeting 21 June 2024.",
+        "url": "https://www.dlrcoco.ie/councillors-democracy/local-elections-2024"
+      },
+      {
+        "claim": "Council: Dun Laoghaire the administrative centre about 12km from the city centre; named Kingston in 1821; first railway 1834 Dublin to Kingston.",
+        "url": "https://www.dlrcoco.ie/d%C3%BAn-laoghaire"
+      },
+      {
+        "claim": "Council town pages: Stillorgan Shopping Centre first in the country, built 1966; Dalkey Viking settlement, 10th-century church, two 14th-century Norman castles, Goat's Castle heritage centre.",
+        "url": "https://www.dlrcoco.ie/stillorgan"
+      },
+      {
+        "claim": "Sandyford Business District: represents 1,000 companies, 26,000 employees and over 6,000 residents in four business parks; established January 2017.",
+        "url": "https://www.sandyford.ie/"
+      },
+      {
+        "claim": "dlr LexIcon: opened 2015; Ireland's largest and most visited public library; Maker Space Lab, 3D printers.",
+        "url": "https://libraries.dlrcoco.ie/dun-laoghaire-lexicon"
+      },
+      {
+        "claim": "Dalkey School Project: opened September 1978 in Dun Laoghaire, the first multi-denominational school in the country; at Glenageary Lodge since 1985.",
+        "url": "https://www.dspns.ie/about-us/history/"
+      },
+      {
+        "claim": "IADT: Kill Avenue, Dun Laoghaire, A96 KH79, over 2500 students and staff.",
+        "url": "https://iadt.ie/contact/"
+      },
+      {
+        "claim": "DLR Bathing Water Quality 2022-2024: samples at the nine locations; Location, Sample Date, E. coli, Enterococci, ph, Salinity; CC BY 4.0.",
+        "url": "https://data.gov.ie/dataset/dlr-bathing-water-quality-2022-2024"
+      },
+      {
+        "claim": "TFI: Luas Green Line Park and Ride at Carrickmines, Stillorgan, Sandyford, Balally.",
+        "url": "https://www.transportforireland.ie/getting-around/by-tram/about-luas/"
+      }
+    ],
+    "rejectedClaims": [
+      "County area and coastline length: only search summaries, and the council plan PDF returned an error.",
+      "dlr LexIcon study spaces and item counts: two council pages give different figures.",
+      "That Dun Laoghaire-Rathdown commuters were the most likely nationally to use the train: the statement does not say nationally.",
+      "That 22.5 years is the highest nationally: the statement only compares the Dublin council areas.",
+      "Sandyford opening year and resident companies from encyclopaedias: not read at a primary source.",
+      "A D16 routing key for the county: no primary address shows one.",
+      "Anything the Dublin page owns, including Dublin City's 10,308 Indian citizens and the county-wide census figures."
+    ]
   }
 }
