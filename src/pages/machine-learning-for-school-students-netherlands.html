@@ -1,0 +1,631 @@
+<!DOCTYPE html>
+<html lang="en-NL">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Machine Learning for School Students, Netherlands | Live</title>
+  <meta name="description" content="Machine learning for Dutch school pupils aged 10 to 18: first models in Python, tested honestly, taught live online in English. First lesson free.">
+  <meta name="author" content="Modern Age Coders">
+  <link rel="canonical" href="https://learn.modernagecoders.com/machine-learning-for-school-students-netherlands">
+  <link rel="alternate" type="text/markdown" href="/src/pages/machine-learning-for-school-students-netherlands.md" title="Markdown version for AI agents">
+
+  <link rel="icon" href="/favicon.ico" type="image/x-icon">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
+  <meta name="theme-color" content="#821E00">
+
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://learn.modernagecoders.com/machine-learning-for-school-students-netherlands">
+  <meta property="og:title" content="Machine Learning for School Students, Netherlands | Live">
+  <meta property="og:description" content="The Netherlands has a national lab for AI in its schools. This is the other side: pupils who build a model themselves and learn why 90 percent accuracy can mean nothing. Live online.">
+  <meta property="og:image" content="https://learn.modernagecoders.com/images/og-modern-age-coders.png">
+  <meta property="og:site_name" content="Modern Age Coders">
+  <meta property="og:locale" content="en_NL">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Machine Learning for School Students, Netherlands">
+  <meta name="twitter:description" content="First machine learning models for Dutch pupils aged 10 to 18, built and tested live online. First lesson free.">
+  <meta name="twitter:image" content="https://learn.modernagecoders.com/images/og-modern-age-coders.png">
+
+  <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+  <meta name="geo.region" content="NL">
+  <meta name="geo.placename" content="Netherlands">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/ai-global.css?v=20260907">
+  <style>
+.ag-root.ag-mln .ag-hero-grid { gap: clamp(1.25rem, 3.3vw, 2.9rem); }
+.ag-root.ag-mln .ag-hero h1 { letter-spacing: -0.017em; }
+.ag-root.ag-mln .ag-capsule { border-left-width: 4px; }
+.ag-root.ag-mln .ag-section-head h2 { max-width: 33ch; }
+.ag-root.ag-mln .ag-band-head h3 { letter-spacing: -0.007em; }
+.ag-root.ag-mln .ag-table caption { text-align: left; }
+.ag-root.ag-mln .ag-spec dt { letter-spacing: 0.12em; }
+.ag-root.ag-mln .ag-slots { gap: 1.1rem; }
+  </style>
+
+  <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-N8BM164YJP');gtag('config','AW-16910316353');</script>
+
+  <script type="application/ld+json" data-price-scope="coding.international">
+  {"@context":"https://schema.org","@graph":[{"@type":"EducationalOrganization","@id":"https://learn.modernagecoders.com/#org","name":"Modern Age Coders","url":"https://learn.modernagecoders.com","logo":"https://learn.modernagecoders.com/images/logo.svg","foundingDate":"2020","areaServed":{"@type":"Country","name":"Netherlands"},"knowsAbout":["Python","Machine Learning","AI Agents","Deep Learning","Data Science","Generative AI","Large Language Models","Model Evaluation","Git and GitHub","Statistics"]},{"@type":"WebPage","@id":"https://learn.modernagecoders.com/machine-learning-for-school-students-netherlands#page","url":"https://learn.modernagecoders.com/machine-learning-for-school-students-netherlands","name":"Machine Learning for School Students in the Netherlands","description":"Live online machine learning classes for school pupils in the Netherlands aged 10 to 18, from a first learning program to trained and honestly tested models in Python.","inLanguage":"en-NL","isPartOf":{"@type":"WebSite","url":"https://learn.modernagecoders.com","name":"Modern Age Coders"}},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://learn.modernagecoders.com/"},{"@type":"ListItem","position":2,"name":"Courses","item":"https://learn.modernagecoders.com/courses"},{"@type":"ListItem","position":3,"name":"AI and Python Academy, Netherlands","item":"https://learn.modernagecoders.com/ai-and-python-academy-netherlands"},{"@type":"ListItem","position":4,"name":"Machine learning for pupils","item":"https://learn.modernagecoders.com/machine-learning-for-school-students-netherlands"}]},{"@type":"Course","name":"Machine Learning for School Students in the Netherlands","description":"A live online machine learning programme for Dutch school pupils aged 10 to 18: Python, data, first models, fair testing against a baseline and a plain write-up, placed by ability and taught in English.","provider":{"@id":"https://learn.modernagecoders.com/#org"},"inLanguage":"en","educationalCredentialAwarded":"Modern Age Coders certificate of completion","audience":{"@type":"EducationalAudience","educationalRole":"student"},"hasCourseInstance":{"@type":"CourseInstance","courseMode":"online","courseWorkload":"PT1H30M","location":{"@type":"VirtualLocation","url":"https://learn.modernagecoders.com/machine-learning-for-school-students-netherlands"},"instructor":{"@type":"Organization","name":"Modern Age Coders"}},"offers":[{"@type":"Offer","name":"Group batch","price":"100","priceCurrency":"USD","category":"Monthly","availability":"https://schema.org/InStock","url":"https://learn.modernagecoders.com/machine-learning-for-school-students-netherlands"},{"@type":"Offer","name":"One to one","price":"150","priceCurrency":"USD","category":"Monthly","availability":"https://schema.org/InStock","url":"https://learn.modernagecoders.com/machine-learning-for-school-students-netherlands"}]},{"@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Is machine learning too advanced for a school pupil?","acceptedAnswer":{"@type":"Answer","text":"Not in the form we teach it. The core ideas, learning from examples, testing on unseen data and comparing with a simple guess, can be learned from about ten. The mathematics deepens as the pupil does."}},{"@type":"Question","name":"What is NOLAI, and is this connected to it?","acceptedAnswer":{"@type":"Answer","text":"NOLAI is the national education lab for AI at Radboud University, working with schools on AI used in education. We have no connection with it. It studies AI that pupils use; our classes teach pupils to build and test models themselves."}},{"@type":"Question","name":"Why can a 90 percent accurate model be useless?","acceptedAnswer":{"@type":"Answer","text":"Because the simplest guess may already score that. If nine cases in ten belong to one group, a model that always picks that group is 90 percent accurate and never finds the rest. Our pupils always compare a model with that simple guess."}},{"@type":"Question","name":"Does my child need informatica at school?","acceptedAnswer":{"@type":"Answer","text":"No. Many Dutch schools do not offer it, and our classes start from the beginning with Python. For a pupil who does take informatica, the classes go further into machine learning."}},{"@type":"Question","name":"Can this become a profile project?","acceptedAnswer":{"@type":"Answer","text":"Yes. A trained model with a clear write-up of its data, its test and its limits makes a strong profielwerkstuk. We teach the skills; the project and its conclusions are the pupil's own."}},{"@type":"Question","name":"What does a pupil need at home?","acceptedAnswer":{"@type":"Answer","text":"A laptop or desktop and a steady internet connection. No phone and no special software are needed at the start."}},{"@type":"Question","name":"Are the lessons in English?","acceptedAnswer":{"@type":"Answer","text":"Yes. Python and its libraries are in English anyway, and teachers keep explanations clear for pupils at Dutch schools."}},{"@type":"Question","name":"What does it cost?","acceptedAnswer":{"@type":"Answer","text":"A group place is USD 100 a month and one-to-one lessons are USD 150 a month, billed in US dollars, with no joining fee and no yearly contract. The first lesson is free."}},{"@type":"Question","name":"When are lessons held?","acceptedAnswer":{"@type":"Answer","text":"After school or at the weekend, Dutch time. The teacher is three and a half hours ahead of Dutch summer time and four and a half ahead of winter time."}},{"@type":"Question","name":"What happens after we send the form?","acceptedAnswer":{"@type":"Answer","text":"We call a parent at a Dutch hour to arrange the free lesson. There is nothing to pay unless the family decides to continue afterwards."}}]}]}
+  </script>
+
+  <script type="application/ld+json">
+  {"@context":"https://schema.org","@type":"Service","serviceType":"Online Python, AI and machine learning teaching for students","provider":{"@type":"EducationalOrganization","name":"Modern Age Coders","url":"https://learn.modernagecoders.com/"},"areaServed":{"@type":"Country","name":"Netherlands"},"availableChannel":{"@type":"ServiceChannel","serviceUrl":"https://learn.modernagecoders.com/machine-learning-for-school-students-netherlands","availableLanguage":["en"]}}
+  </script>
+</head>
+
+<body class="ag-root ag-mln">
+
+<nav class="ag-nav" aria-label="Primary">
+  <div class="ag-nav-inner">
+    <a href="/" class="ag-nav-brand">
+      <img src="/images/logo.svg" alt="Modern Age Coders logo" width="30" height="30" fetchpriority="high">
+      Modern Age Coders
+      <span class="ag-brand-tag">Netherlands</span>
+    </a>
+    <ul class="ag-nav-links">
+      <li><a href="#lab">AI in Dutch schools</a></li>
+      <li><a href="#build">What pupils build</a></li>
+      <li><a href="#ladder">The ladder</a></li>
+      <li><a href="#catalogue">Courses</a></li>
+      <li><a href="#fees">Fees</a></li>
+    </ul>
+    <a href="#start" class="ag-btn">Free first class</a>
+  </div>
+</nav>
+
+<header class="ag-hero">
+  <div class="ag-wrap">
+    <nav class="ag-crumbs" aria-label="Breadcrumb">
+      <a href="/">Home</a> / <a href="/courses">Courses</a> / <a href="/ai-and-python-academy-netherlands">AI and Python Academy, Netherlands</a> / Machine learning for pupils
+    </nav>
+    <div class="ag-hero-grid ag-mt-40">
+      <div>
+        <p class="ag-eyebrow">Netherlands &middot; Ages 10 to 18 &middot; Live online</p>
+        <h1>Machine learning for school students in the Netherlands</h1>
+        <p class="ag-lede">Artificial intelligence is arriving in Dutch classrooms whether pupils learn how it works or not. The country even has a national laboratory, NOLAI, where schools, researchers and companies develop and study AI for primary, secondary and special needs education, starting from questions the schools themselves ask. That work is about AI that pupils meet as users: practice programs that adapt, dashboards that teachers read. This page is about the other side. A pupil of twelve can write a program that learns from examples; a pupil of fifteen can train a real model and test it fairly; a pupil of seventeen can explain in plain words why a model that is right nine times out of ten might still be useless. Those are the ideas we teach, in Python, live online and in English, alongside a Dutch or international school.</p>
+        <div class="ag-btn-row">
+          <a href="#start" class="ag-btn">Book the free first class</a>
+          <a href="#build" class="ag-btn ag-btn--ghost">See what pupils build</a>
+          <a href="https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20a%20free%20machine%20learning%20lesson%20for%20a%20school%20pupil%20in%20the%20Netherlands." class="ag-btn ag-btn--ghost" target="_blank" rel="noopener" onclick="if(window.gtag)gtag('event','whatsapp_click',{page_market:'mln'});">Ask on WhatsApp</a>
+        </div>
+        <p class="ag-hero-note">Live classes since 2020 &middot; over 10,000 students &middot; every lesson with a teacher</p>
+      </div>
+
+      <aside class="ag-spec">
+        <p class="ag-spec-title">At a glance</p>
+        <p class="ag-trust">
+          <span class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</span>
+          4.9 across 547 Google reviews
+        </p>
+        <dl>
+          <dt>Ages</dt><dd>10 to 18</dd>
+          <dt>Builds</dt><dd>Learning programs, trained models</dd>
+          <dt>Habit</dt><dd>Every model tested against a simple guess</dd>
+          <dt>Language</dt><dd>Python, taught in English</dd>
+          <dt>Format</dt><dd>Live video with a teacher</dd>
+          <dt>Groups</dt><dd>Five to ten, or one to one</dd>
+          <dt>Times</dt><dd>After school and weekends</dd>
+          <dt>Start</dt><dd>A free first lesson</dd>
+        </dl>
+      </aside>
+    </div>
+  </div>
+</header>
+
+<section class="ag-section">
+  <div class="ag-wrap">
+    <div class="ag-capsule">
+      <p class="ag-capsule-q">In short</p>
+      <p>Modern Age Coders teaches machine learning live online to school pupils in the Netherlands aged ten to eighteen. Younger pupils write a first program that learns from examples; older pupils train models in Python on real data, test them against a simple baseline, count what the model gets right and wrong in each group, and write up what it can and cannot do. Pupils are placed by ability, in groups of five to ten or one to one, alongside a Dutch or international school. The first lesson is free; after that a group place is USD 100 a month and one-to-one lessons USD 150.</p>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="courses">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Start here</p>
+      <h2>Three ways into machine learning for school pupils</h2>
+      <p class="ag-lede">One for a younger pupil ready to type, one for a teenager ready for real models, and one for a teenager who wants to explore machine learning visually before coding it. Each card opens its own syllabus and timetable.</p>
+    </div>
+    <div class="ag-picks">
+      <a class="ag-pick" href="/courses/python-ai-kids-masterclass">
+        <div class="ag-pick-shot"><img src="/images/python-kids.webp" alt="Python and AI for Kids course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">ML / 01</p>
+          <h3>Python and AI for Kids</h3>
+          <p>For pupils of nine to twelve: typed Python and a first program that learns a rule from examples, then fails on one the pupil chose on purpose.</p>
+          <span class="ag-pick-go">Open the syllabus <span>&rarr;</span></span>
+        </div>
+      </a>
+      <a class="ag-pick" href="/courses/ai-ml-masterclass-teens">
+        <div class="ag-pick-shot"><img src="/images/ai-ml-teens.webp" alt="AI and Machine Learning for Teens course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">ML / 02</p>
+          <h3>AI and Machine Learning for Teens</h3>
+          <p>Statistics, classical models, neural networks, images and text, every model tested against a baseline and explained.</p>
+          <span class="ag-pick-go">Open the syllabus <span>&rarr;</span></span>
+        </div>
+      </a>
+      <a class="ag-pick" href="/courses/orange-data-mining-visual-machine-learning-course-for-teens">
+        <div class="ag-pick-shot"><img src="/images/orange-data-mining-teens.webp" alt="Orange Data Mining Course for Teens course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">ML / 03</p>
+          <h3>Orange Data Mining for Teens</h3>
+          <p>Machine learning through visual workflows, a way to understand training and testing before writing the code.</p>
+          <span class="ag-pick-go">Open the syllabus <span>&rarr;</span></span>
+        </div>
+      </a>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="lab">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">AI in Dutch schools</p><h2>A national lab for AI in schools, which starts from the schools' own questions</h2><p class="ag-lede">NOLAI, the Nationaal Onderwijslab AI, is based at Radboud University in Nijmegen. The figures below come from its own pages and from the National Growth Fund, which finances it.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>NOLAI in its own words and the fund's</caption><thead><tr><th scope="col">Item</th><th scope="col">Detail</th><th scope="col">Source</th></tr></thead><tbody><tr><td>What it is</td><td>The National Education Lab AI for elementary, secondary and special needs education in the Netherlands</td><td>Radboud University</td></tr><tr><td>How a project starts</td><td>With a question asked by a school, developed into a proposal with business and scientific partners</td><td>Radboud University</td></tr><tr><td>Funding</td><td>The National Growth Fund, and the European Union's NextGenerationEU</td><td>Radboud University</td></tr><tr><td>Amount conditionally awarded</td><td>51.1 million euros, first round</td><td>National Growth Fund</td></tr><tr><td>Period</td><td>From 2022 to 2035</td><td>National Growth Fund</td></tr><tr><td>Goals</td><td>77 co-creation projects, 15 validated intelligent educational technologies, at least 9 AI products shown in practice</td><td>National Growth Fund</td></tr><tr><td>Sharing</td><td>Proceeds shared open source as much as possible from 2026</td><td>Radboud University</td></tr></tbody></table></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><p>The lab brings together pedagogy, ethics, data and AI technology, and describes co-operation between education, business and science as its key principle. It works on dozens of projects with schools across the country, and the fund page adds a second aim: making the pedagogical, social and societal consequences of digital innovation in education visible.</p>
+<p>For a parent, the point is simple. AI is becoming part of how Dutch pupils are taught and assessed, and the country is investing seriously in doing that responsibly.</p></div><div><p>What that work does not do, and is not meant to do, is teach pupils to build AI themselves. A pupil who uses an adaptive practice program learns the subject it teaches; a pupil who builds a small model learns how such programs decide, why they can be wrong and what questions to ask of them.</p>
+<p>That is the gap our classes fill. Informatica, the school subject closest to it, is optional and offered at a minority of schools; the <a class="ag-inline-link" href="/ai-and-python-academy-netherlands">national academy page</a> gives the figures.</p></div></div>
+    <p class="ag-source-note ag-mt-40">Sources: <a class="ag-inline-link" href="https://www.ru.nl/en/nolai" rel="noopener" target="_blank">Radboud University, NOLAI</a>; <a class="ag-inline-link" href="https://www.nationaalgroeifonds.nl/overzicht-lopende-projecten/thema-onderwijs/nationaal-onderwijslab" rel="noopener" target="_blank">Nationaal Groeifonds, Nationaal Onderwijslab AI</a>. Read 15 September 2026. We have no connection with NOLAI, Radboud University or the fund.</p>
+  </div>
+</section>
+
+<section class="ag-section ag-section--deep" id="build">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">What pupils build</p><h2>What a school pupil can build, and the test that separates a real model from a lucky one</h2><p class="ag-lede">Machine learning at school age is not a watered-down version of the adult subject. It is the same core ideas, learned on smaller problems, with one habit above all: never trust a model until it has beaten a simple guess.</p></div>
+    <div class="ag-grid-3"><div><h3>Ages 10 to 12: a program that learns</h3><p>A pupil gives a program labelled examples, such as short and long words or cats and dogs described by a few numbers, and lets it guess the label of a new one by finding the most similar example. Then the pupil chooses a case that fools it. The lesson, that a model only knows what its examples showed it, lasts for years.</p></div><div><h3>Ages 13 to 15: train, then test on new data</h3><p>The pupil splits real data into a part the model learns from and a part it never sees, and measures the model only on the unseen part. They also write down the score of the simplest possible guess. A model that cannot beat that guess has learned nothing useful, however clever it looks.</p></div><div><h3>Ages 16 to 18: count what it misses</h3><p>Older pupils look past a single score. They count, for each kind of case, how many the model caught and how many it wrongly flagged, and they write a short account of what the model is for, what data it learned from and where it fails. That account is often the strongest part of a profile project.</p></div></div>
+    <div class="ag-table-wrap ag-mt-40"><table class="ag-table"><caption>An invented example: 200 plant photos, 180 healthy and 20 diseased</caption><thead><tr><th scope="col">Model</th><th scope="col">Diseased plants caught</th><th scope="col">Healthy plants wrongly flagged</th><th scope="col">Share of photos labelled correctly</th></tr></thead><tbody><tr><td>Always says healthy</td><td>0 of 20</td><td>0 of 180</td><td>180 of 200, 90 percent</td></tr><tr><td>A trained model</td><td>15 of 20</td><td>12 of 180</td><td>183 of 200, 91.5 percent</td></tr></tbody></table></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><p>The first row is the trap. A model that never finds a diseased plant still scores 90 percent, because nine photos in ten show healthy plants. Anyone who reported only that single figure would be praising a model that does nothing.</p>
+<p>The second row is barely higher overall, 91.5 percent against 90, yet it is far more useful: it finds three quarters of the diseased plants, at the cost of wrongly flagging a few healthy ones. The arithmetic is 15 plus 168 correct healthy labels, which makes 183 of 200.</p></div><div><p>Seeing that once, on numbers a pupil worked out themselves, is worth more than any definition. From then on the pupil asks of every model: compared with what, and for which cases?</p>
+<p>Our pupils also meet the same idea on real Dutch data; the page on <a class="ag-inline-link" href="/build-real-ai-projects-netherlands">building real AI projects in the Netherlands</a> shows the public sources they use.</p></div></div>
+    <p class="ag-source-note ag-mt-40">The plant example is invented for teaching and describes no real dataset. The age bands are our teaching plan, not a national standard.</p>
+  </div>
+</section>
+
+<section class="ag-section" id="school">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Beside school</p><h2>How machine learning fits beside a Dutch school career</h2><p class="ag-lede">Pupils learn this alongside their schoolwork, not instead of it. The timing below is what usually works.</p></div>
+    <div class="ag-grid-2" style="align-items:start"><div><p>For a pupil at the end of the basisschool, the first learning program is a natural next step after Scratch or first Python. The <a class="ag-inline-link" href="/coding-classes-for-kids-netherlands">kids page</a> covers that stage.</p>
+<p>Between the brugklas and the third year, pupils build the Python and data skills a real model needs. The profielkeuze is a good moment to try a first trained model, because it shows quickly whether data and technology appeal.</p></div><div><p>In the upper years of havo and vwo, a model with an honest write-up makes a strong profile project or portfolio piece. The <a class="ag-inline-link" href="/coding-classes-for-teens-netherlands">teens page</a> covers the wider teenage route.</p>
+<p>For pupils thinking about a university AI degree, the <a class="ag-inline-link" href="/ai-and-python-academy-groningen">Groningen academy page</a> sets out what a first year asks.</p></div></div>
+  </div>
+</section>
+
+<section class="ag-section" id="ladder">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">The rungs for pupils</p>
+      <h2>From a program that guesses to a model that is tested fairly</h2>
+      <p class="ag-lede">Each rung prepares the next. A pupil who has never split data cannot test a model honestly, and one who has never written Python cannot see inside the model at all.</p>
+    </div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>The machine learning route for school pupils</caption><thead><tr><th scope="col">Rung</th><th scope="col">Usually</th><th scope="col">What the pupil can do</th></tr></thead><tbody><tr><td>1. Python by hand</td><td class="ag-num">Ages 10 to 12</td><td class="ag-num">Write small programs, including one that learns from examples</td></tr><tr><td>2. Data</td><td class="ag-num">Ages 12 to 14</td><td class="ag-num">Clean, plot and split real data into learning and testing parts</td></tr><tr><td>3. First models</td><td class="ag-num">Ages 13 to 16</td><td class="ag-num">Train a model and compare it with the simplest guess</td></tr><tr><td>4. Deeper models</td><td class="ag-num">Ages 15 to 18</td><td class="ag-num">Neural networks, images and text, each tested fairly</td></tr><tr><td>5. Write-up</td><td class="ag-num">Throughout</td><td class="ag-num">A public repository with the model, its data and its limits</td></tr></tbody></table></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>Why the simple guess comes first</h3><p>Pupils love a high score. Teaching them to write down the score of the dullest possible guess before training anything protects them from the most common mistake in machine learning, at any age.</p>
+<p>The complete order of subjects is on the <a class="ag-inline-link" href="/coding-roadmap">coding roadmap</a>.</p></div><div><h3>Around toetsweken and exams</h3><p>Most pupils take two lessons a week and pause during school test weeks. In the eindexamen year, many keep lessons light or stop until the exams are over.</p>
+<p>Pupils at international schools follow the same rungs, placed by ability rather than by grade.</p></div></div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="catalogue">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">The catalogue</p>
+      <h2>Eight live courses for pupils learning machine learning</h2>
+      <p class="ag-lede">Grouped by stage. Every card leads to the full course with its schedule and fee, and the free lesson settles where a pupil starts.</p>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">I</span>
+        <h3>Ages 9 to 12</h3>
+        <span class="ag-band-sub">First code and a first learning program</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">ML / YOUNG / 01</p>
+          <h4>Python and AI for Kids</h4>
+          <p>Typed Python and a small program that learns from examples, for pupils in the last years of primary school.</p>
+          <a class="ag-course-link" href="/courses/python-ai-kids-masterclass">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">ML / YOUNG / 02</p>
+          <h4>AI Literacy for Kids</h4>
+          <p>How AI systems learn and why they get things wrong, the understanding a young pupil needs before building one.</p>
+          <a class="ag-course-link" href="/courses/ai-literacy-for-kids-course">Open the syllabus</a>
+        </article>
+      </div>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">II</span>
+        <h3>Ages 12 to 15</h3>
+        <span class="ag-band-sub">Python, data and a first fair test</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">ML / MID / 01</p>
+          <h4>Python for Teens</h4>
+          <p>The Python foundation every machine learning project depends on, built over two years.</p>
+          <a class="ag-course-link" href="/courses/python-complete-masterclass-teens">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">ML / MID / 02</p>
+          <h4>Data Science for Teens</h4>
+          <p>Real datasets, cleaning, plotting and the split between learning and testing data.</p>
+          <a class="ag-course-link" href="/courses/data-science-course-for-teens-python-data">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">ML / MID / 03</p>
+          <h4>Orange Data Mining for Teens</h4>
+          <p>Training and testing models through visual workflows, before or alongside code.</p>
+          <a class="ag-course-link" href="/courses/orange-data-mining-visual-machine-learning-course-for-teens">Open the syllabus</a>
+        </article>
+      </div>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">III</span>
+        <h3>Ages 15 to 18</h3>
+        <span class="ag-band-sub">Real models, honestly tested</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">ML / UPPER / 01</p>
+          <h4>AI and Machine Learning for Teens</h4>
+          <p>Classical models to neural networks, each compared with a baseline and written up.</p>
+          <a class="ag-course-link" href="/courses/ai-ml-masterclass-teens">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">ML / UPPER / 02</p>
+          <h4>AI Tools for Teens</h4>
+          <p>Using AI tools well in projects and study, with the judgement a model-builder brings.</p>
+          <a class="ag-course-link" href="/courses/teens-ai-tools-mastery-course">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">ML / UPPER / 03</p>
+          <h4>Git and GitHub for Teens</h4>
+          <p>A public home for every model and its write-up, from the first commit onwards.</p>
+          <a class="ag-course-link" href="/courses/git-github-version-control-course-for-teens">Open the syllabus</a>
+        </article>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="how">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">How the classes run</p>
+      <h2>After school, at home, with a teacher watching the model train</h2>
+      <p class="ag-lede">Our teachers work from India, which never switches to summer time, while Dutch clocks do. The gap is therefore three and a half hours in summer and four and a half in winter, which puts pupils' lessons comfortably in the late afternoon or at the weekend. The regular time is chosen with the family during the free lesson.</p>
+    </div>
+    <div class="ag-slots">
+      <div class="ag-slot"><p class="ag-slot-time">After school</p><p class="ag-slot-l">Late afternoon, Dutch time. The usual choice for pupils of every age.</p></div>
+      <div class="ag-slot"><p class="ag-slot-time">Early evening</p><p class="ag-slot-l">By arrangement, for older pupils with sport or a part-time job in the afternoon.</p></div>
+      <div class="ag-slot"><p class="ag-slot-time">Weekend</p><p class="ag-slot-l">Saturday or Sunday, for longer sessions on a project.</p></div>
+    </div>
+    <div class="ag-grid-3">
+      <div><h3>A first lesson with a real model</h3><p>Even in the free lesson a pupil makes something that learns. The teacher watches how they reason and chooses the right starting rung.</p></div>
+      <div><h3>Groups by level</h3><p>Five to ten pupils from several countries who can already do the same things, so nobody is rushed or held back.</p></div>
+      <div><h3>One to one for projects</h3><p>For a profile project, a competition entry or a pupil who prefers a teacher to themselves.</p></div>
+      <div><h3>Parents informed</h3><p>We speak with a parent before anything is booked and keep them in the loop, as Dutch rules on consent for under-sixteens expect.</p></div>
+      <div><h3>English, with Dutch school words</h3><p>Lessons are in English; brugklas, havo, vwo and profielkeuze are used as families use them.</p></div>
+      <div><h3>Models kept and explained</h3><p>Every model goes into the pupil's own GitHub repository with a short note on its data, its test and its limits.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Student work</p>
+      <h2>Work our students have published</h2>
+      <p class="ag-lede">Four projects our students built and left online. More, including school-age work, are on the <a class="ag-inline-link" href="/student-labs">student labs</a> page.</p>
+    </div>
+    <div class="ag-grid-4">
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/nutrilife.webp" alt="NutriLife AI nutrition coach project screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">AI and ML</p>
+          <h4>NutriLife</h4>
+          <p>An AI nutrition coach that reads what you eat and works you toward a target.</p>
+          <p class="ag-proj-meta">by Bhavya &middot; <a href="https://nutrilife-bhavya.lovable.app" rel="noopener" target="_blank">Open it</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/misti.webp" alt="Misti AI chatbot for maths and coding screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">AI and ML</p>
+          <h4>Misti</h4>
+          <p>A chatbot that answers mathematics and programming questions, built and deployed by a student.</p>
+          <p class="ag-proj-meta">by Harshit &middot; <a href="https://misti.modernagecoders.com" rel="noopener" target="_blank">Open it</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/guardianx.webp" alt="GuardianX AI internet safety assistant screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">AI and ML</p>
+          <h4>GuardianX</h4>
+          <p>An assistant that helps a young person recognise unsafe situations online.</p>
+          <p class="ag-proj-meta">by Vivaan &middot; <a href="https://guardianx-cybersaver.lovable.app" rel="noopener" target="_blank">Open it</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/skycast.webp" alt="SkyCast weather forecast application screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">Web app</p>
+          <h4>SkyCast</h4>
+          <p>A weather forecasting site with live conditions for any location.</p>
+          <p class="ag-proj-meta">by Krish</p>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="fees">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Fees</p>
+      <h2>Fees for school pupils</h2>
+      <p class="ag-lede">Monthly, in US dollars, the same as for every country outside India. No separate Dutch rate, no joining fee, no annual contract.</p>
+    </div>
+    <div class="ag-grid-3">
+      <div class="ag-price">
+        <p class="ag-price-name">Free first class</p>
+        <p class="ag-price-amt">USD 0</p>
+        <p class="ag-price-alt">no card required</p>
+        <ul><li>A real lesson with a real model</li><li>Places the pupil at the right rung</li><li>No card or bank details</li></ul>
+        <a href="#start" class="ag-btn ag-btn--ghost">Book it</a>
+      </div>
+      <div class="ag-price ag-price--feature">
+        <p class="ag-price-name">Group batch</p>
+        <p class="ag-price-amt">USD 100</p>
+        <p class="ag-price-alt">a month, billed in US dollars</p>
+        <ul><li>Five to ten pupils at one level</li><li>The same live teacher every week</li><li>Models reviewed every week</li><li>A certificate at the end</li></ul>
+        <a href="#start" class="ag-btn">Start here</a>
+      </div>
+      <div class="ag-price">
+        <p class="ag-price-name">One to one</p>
+        <p class="ag-price-amt">USD 150</p>
+        <p class="ag-price-alt">a month, billed in US dollars</p>
+        <ul><li>A teacher for one pupil</li><li>Pace set by the pupil and the project</li><li>Ideal for profile projects</li></ul>
+        <a href="#start" class="ag-btn ag-btn--ghost">Enquire</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">What families say</p>
+      <h2>Rated 4.9 across 547 Google reviews</h2>
+      <p class="ag-lede">Quoted from Google as parents and students wrote them. We do not edit or pay for reviews.</p>
+    </div>
+    <div class="ag-grid-3">
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."</p>
+        <p class="ag-review-name">Ria Mukherjee</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."</p>
+        <p class="ag-review-name">Samriddha Mondal</p>
+        <p class="ag-review-role">Student</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."</p>
+        <p class="ag-review-name">Vansh Agarwal</p>
+        <p class="ag-review-role">Student</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."</p>
+        <p class="ag-review-name">Sonam Oswal</p>
+        <p class="ag-review-role">Parent of Dhairya</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."</p>
+        <p class="ag-review-name">Sonu Goyal</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."</p>
+        <p class="ag-review-name">Ritu Kedia</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="faq">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Questions from parents and pupils</p>
+      <h2>What Dutch families ask about machine learning at school age</h2>
+    </div>
+    <div class="ag-faq">
+      <div class="ag-faq-item">
+        <h3>Is machine learning too advanced for a school pupil?</h3>
+        <p>Not in the form we teach it. The core ideas, learning from examples, testing on unseen data and comparing with a simple guess, can be learned from about ten. The mathematics deepens as the pupil does.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>What is NOLAI, and is this connected to it?</h3>
+        <p>NOLAI is the national education lab for AI at Radboud University, working with schools on AI used in education. We have no connection with it. It studies AI that pupils use; our classes teach pupils to build and test models themselves.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Why can a 90 percent accurate model be useless?</h3>
+        <p>Because the simplest guess may already score that. If nine cases in ten belong to one group, a model that always picks that group is 90 percent accurate and never finds the rest. Our pupils always compare a model with that simple guess.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Does my child need informatica at school?</h3>
+        <p>No. Many Dutch schools do not offer it, and our classes start from the beginning with Python. For a pupil who does take informatica, the classes go further into machine learning.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Can this become a profile project?</h3>
+        <p>Yes. A trained model with a clear write-up of its data, its test and its limits makes a strong profielwerkstuk. We teach the skills; the project and its conclusions are the pupil's own.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>What does a pupil need at home?</h3>
+        <p>A laptop or desktop and a steady internet connection. No phone and no special software are needed at the start.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Are the lessons in English?</h3>
+        <p>Yes. Python and its libraries are in English anyway, and teachers keep explanations clear for pupils at Dutch schools.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>What does it cost?</h3>
+        <p>A group place is USD 100 a month and one-to-one lessons are USD 150 a month, billed in US dollars, with no joining fee and no yearly contract. The first lesson is free.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>When are lessons held?</h3>
+        <p>After school or at the weekend, Dutch time. The teacher is three and a half hours ahead of Dutch summer time and four and a half ahead of winter time.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>What happens after we send the form?</h3>
+        <p>We call a parent at a Dutch hour to arrange the free lesson. There is nothing to pay unless the family decides to continue afterwards.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Elsewhere on this site</p>
+      <h2>More for pupils and parents in the Netherlands</h2>
+      <p class="ag-lede">Pages for the stages before and after, and for the projects pupils build.</p>
+    </div>
+    <div class="ag-grid-3">
+      <div><h3><a class="ag-inline-link" href="/coding-classes-for-kids-netherlands">Coding classes for kids</a></h3><p>The stage before, for children aged 6 to 12.</p></div>
+      <div><h3><a class="ag-inline-link" href="/coding-classes-for-teens-netherlands">Coding classes for teens</a></h3><p>The wider teenage route beyond machine learning.</p></div>
+      <div><h3><a class="ag-inline-link" href="/build-real-ai-projects-netherlands">Build real AI projects</a></h3><p>Projects on real Dutch open data.</p></div>
+      <div><h3><a class="ag-inline-link" href="/ai-and-python-academy-groningen">AI and Python Academy, Groningen</a></h3><p>What a university AI first year asks of a pupil.</p></div>
+      <div><h3><a class="ag-inline-link" href="/ai-and-python-academy-netherlands">AI and Python Academy, Netherlands</a></h3><p>The national ladder and the informatica figures.</p></div>
+      <div><h3><a class="ag-inline-link" href="/ai-ml-course-for-teens">AI and ML course for teens</a></h3><p>The global teenage machine learning course page.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--deep" id="start">
+  <div class="ag-wrap">
+    <div class="ag-grid-2" style="align-items:start">
+      <div>
+        <p class="ag-eyebrow">Start here</p>
+        <h2>Book a free machine learning lesson</h2>
+        <p class="ag-lede">Leave a parent's number and we will call at a Dutch hour. In the free lesson your child builds something that learns, with a real teacher, and by the end we know where they should start.</p>
+        <p class="ag-mt-40">Prefer to read first? See the <a class="ag-inline-link" href="/ai-ml-course-for-teens">AI and ML course for teens</a>, <a class="ag-inline-link" href="/how-we-teach">how we teach</a>, and the <a class="ag-inline-link" href="/coding-roadmap">coding roadmap</a>.</p>
+        <p class="ag-mt-40">
+          <a class="ag-inline-link" href="https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20a%20free%20machine%20learning%20lesson%20for%20a%20school%20pupil%20in%20the%20Netherlands." target="_blank" rel="noopener" onclick="if(window.gtag)gtag('event','whatsapp_click',{page_market:'mln',pos:'end'});">WhatsApp us</a>
+          &middot; <a class="ag-inline-link" href="tel:+919123366161">+91 91233 66161</a>
+          &middot; <a class="ag-inline-link" href="mailto:contact@modernagecoders.com">contact@modernagecoders.com</a>
+        </p>
+        <p class="ag-form-note">A WhatsApp message from a Dutch phone is free and gets the fastest reply. The number is Indian; we have no office or premises in the Netherlands.</p>
+      </div>
+      <div class="ag-form-panel">
+        <form onsubmit="submitLead_mln(event)" novalidate>
+          <div class="ag-field">
+            <label for="nl-name">Your name</label>
+            <input id="nl-name" type="text" name="name" placeholder="Parent or student name" required>
+          </div>
+          <div class="ag-field">
+            <label for="nl-phone">Phone or WhatsApp, Netherlands +31</label>
+            <input id="nl-phone" type="tel" name="phone" placeholder="6 XXXX XXXX" required>
+          </div>
+          <div class="ag-field">
+            <label for="nl-age">Learner age group</label>
+            <select id="nl-age" name="age"><option value="6-12">Child, 6 to 12</option><option value="13-18">Teen, 13 to 18</option><option value="college">University student</option><option value="adult">Working professional</option></select>
+          </div>
+          <button type="submit" class="ag-btn" style="width:100%">Request the free class</button>
+          <p class="ag-form-note">No card needed. One call with a parent to arrange the lesson.</p>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="ag-footer">
+  <div class="ag-wrap">
+    <div class="ag-grid-4">
+      <div>
+        <h4>Modern Age Coders</h4>
+        <p style="font-size:.9rem;opacity:.82">
+          Live online coding, AI and mathematics for ages 6 to 67. Teaching since 2020, more than
+          10,000 students across 25+ countries.
+        </p>
+      </div>
+      <div><h4>Netherlands</h4><ul><li><a href="/ai-and-python-academy-netherlands">Academy, Netherlands</a></li><li><a href="/coding-classes-for-teens-netherlands">Coding for teens</a></li><li><a href="/coding-classes-for-kids-netherlands">Coding for kids</a></li><li><a href="/build-real-ai-projects-netherlands">Real AI projects</a></li></ul></div>
+      <div><h4>Machine learning</h4><ul><li><a href="/ai-ml-course-for-teens">AI and ML for teens</a></li><li><a href="/student-labs">Student labs</a></li><li><a href="/coding-roadmap">The coding roadmap</a></li><li><a href="/how-we-teach">How we teach</a></li></ul></div>
+      <div>
+        <h4>Company</h4>
+        <ul>
+          <li><a href="/about">About us</a></li>
+          <li><a href="/how-we-teach">How we teach</a></li>
+          <li><a href="/love">Reviews</a></li>
+          <li><a href="/contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="ag-footer-bottom">
+      <span>&copy; 2026 Modern Age Coders. Live online classes worldwide.</span>
+      <span>Teaching Dutch pupils on CET and CEST</span>
+    </div>
+  </div>
+</footer>
+
+<script>
+window.submitLead_mln = function (e) {
+  e.preventDefault();
+  var form = e.target;
+  var name = (form.querySelector('input[name="name"]') || {}).value || '';
+  var phoneRaw = (form.querySelector('input[type="tel"]') || {}).value || '';
+  var age = (form.querySelector('select[name="age"]') || {}).value || '';
+  var note = form.querySelector('.ag-form-note');
+  var phoneDigits = phoneRaw.replace(/\D/g, '');
+  if (phoneDigits.length < 9) { if (note) note.textContent = 'Please enter a valid Netherlands phone number.'; return; }
+  var btn = form.querySelector('button[type="submit"]');
+  var oldText = btn.textContent;
+  btn.disabled = true; btn.textContent = 'Sending...';
+  var API_URL = (location.hostname === 'localhost' || location.hostname === '127.0.0.1')
+    ? 'http://localhost:5000' : 'https://backend-modernagecoders.vercel.app';
+  fetch(API_URL + '/api/callback/request', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({
+      phone: phoneDigits, countryCode: '+31', countryIso: 'NL', countryName: 'Netherlands',
+      source: 'machine-learning-for-school-students-netherlands-inline', meta: { name: name, age: age, page: 'machine-learning-for-school-students-netherlands' }
+    })
+  }).then(function (r) { return r.json(); }).then(function (data) {
+    if (data && data.success) {
+      form.innerHTML = '<p class="ag-form-ok">Thank you' + (name ? ', ' + name.split(' ')[0] : '') + '. A mentor will call you shortly.</p>';
+    } else {
+      if (note) note.textContent = (data && data.message) || 'Something went wrong. Please try again.';
+      btn.disabled = false; btn.textContent = oldText;
+    }
+  }).catch(function () {
+    if (note) note.textContent = 'Network error. Please try again.';
+    btn.disabled = false; btn.textContent = oldText;
+  });
+};
+</script>
+<script>
+  window.addEventListener('load', function () {
+    var s = document.createElement('script');
+    s.src = 'https://www.googletagmanager.com/gtag/js?id=G-N8BM164YJP';
+    s.async = true;
+    document.head.appendChild(s);
+  });
+</script>
+
+</body>
+</html>

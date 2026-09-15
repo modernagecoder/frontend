@@ -2490,4 +2490,8 @@
 # Global Build-AI cluster (ai-global.css). Inserted before the /* catch-all.
 /build-real-ai-projects-netherlands /src/pages/build-real-ai-projects-netherlands.html 200
 /build-real-ai-projects-netherlands.md /src/pages/build-real-ai-projects-netherlands.md 200
+
+# Global Build-AI cluster (ai-global.css). Inserted before the /* catch-all.
+/machine-learning-for-school-students-netherlands /src/pages/machine-learning-for-school-students-netherlands.html 200
+/machine-learning-for-school-students-netherlands.md /src/pages/machine-learning-for-school-students-netherlands.md 200
 /* /src/pages/404.html 404
