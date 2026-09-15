@@ -2514,4 +2514,8 @@
 # Global Build-AI cluster (ai-global.css). Inserted before the /* catch-all.
 /java-classes-netherlands /src/pages/java-classes-netherlands.html 200
 /java-classes-netherlands.md /src/pages/java-classes-netherlands.md 200
+
+# Global Build-AI cluster (ai-global.css). Inserted before the /* catch-all.
+/coding-alongside-informatica-havo-vwo-netherlands /src/pages/coding-alongside-informatica-havo-vwo-netherlands.html 200
+/coding-alongside-informatica-havo-vwo-netherlands.md /src/pages/coding-alongside-informatica-havo-vwo-netherlands.md 200
 /* /src/pages/404.html 404

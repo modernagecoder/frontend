@@ -9700,6 +9700,18 @@
   to = "/src/pages/java-classes-netherlands.md"
   status = 200
 
+# Global Build-AI cluster (ai-global.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/coding-alongside-informatica-havo-vwo-netherlands"
+  to = "/src/pages/coding-alongside-informatica-havo-vwo-netherlands.html"
+  status = 200
+
+[[redirects]]
+  from = "/coding-alongside-informatica-havo-vwo-netherlands.md"
+  to = "/src/pages/coding-alongside-informatica-havo-vwo-netherlands.md"
+  status = 200
+
 [[redirects]]
   from = "/*"
   to = "/src/pages/404.html"
