@@ -358,6 +358,7 @@ Ages 6 to 67, small live batches, priced from USD 100 a month.
 - Best coding class in the world: eight tests: https://learn.modernagecoders.com/best-coding-class-in-the-world
 - Best online coding classes in Ireland: https://learn.modernagecoders.com/best-online-coding-classes-ireland
 - Understand the code, do not copy-paste, Ireland: https://learn.modernagecoders.com/understand-the-code-dont-copy-paste-ireland
+- Leaving Cert Computer Science grinds online: https://learn.modernagecoders.com/leaving-cert-computer-science-grinds-online
 ## Coding Classes by State, Province & Market
 
 Live online coding and mathematics for a specific state, province or market,
