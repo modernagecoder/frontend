@@ -132,6 +132,7 @@ const SLUGS = [
   'python-classes-netherlands',
   'ai-and-python-academy-for-girls-netherlands',
   'ai-agents-course-for-students-netherlands',
+  'java-classes-netherlands',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -343,6 +344,7 @@ const LLMS_LABELS = {
   'python-classes-netherlands': 'Python classes, Netherlands',
   'ai-and-python-academy-for-girls-netherlands': 'AI and Python Academy for girls, Netherlands',
   'ai-agents-course-for-students-netherlands': 'AI agents course for students, Netherlands',
+  'java-classes-netherlands': 'Java classes, Netherlands',
 };
 
 function wireLlms(slugs) {

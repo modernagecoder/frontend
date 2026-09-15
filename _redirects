@@ -2510,4 +2510,8 @@
 # Global Build-AI cluster (ai-global.css). Inserted before the /* catch-all.
 /ai-agents-course-for-students-netherlands /src/pages/ai-agents-course-for-students-netherlands.html 200
 /ai-agents-course-for-students-netherlands.md /src/pages/ai-agents-course-for-students-netherlands.md 200
+
+# Global Build-AI cluster (ai-global.css). Inserted before the /* catch-all.
+/java-classes-netherlands /src/pages/java-classes-netherlands.html 200
+/java-classes-netherlands.md /src/pages/java-classes-netherlands.md 200
 /* /src/pages/404.html 404
