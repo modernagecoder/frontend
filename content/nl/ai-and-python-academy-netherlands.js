@@ -166,7 +166,7 @@ module.exports = {
     ] },
     left: { h3: 'Why nobody gets to skip a rung', ps: [
       'The mistakes that matter in a model live in the data, so a student who has never cleaned a file cannot judge a model. An agent that cannot measure its own output is a confident random number generator, so a student who has never evaluated anything cannot be trusted to build one. And work that lives only on a laptop persuades nobody: what a university or an employer responds to is a repository a stranger can open, run and check.',
-      'The order in which we teach every subject on the site, with the reasons, is on the <a class="ag-inline-link" href="/coding-roadmap">coding roadmap</a>. A Dutch-specific version, written by school year with what a parent should expect to see at home at each stage, follows in this series.'
+      'The order in which we teach every subject on the site, with the reasons, is on the <a class="ag-inline-link" href="/coding-roadmap">coding roadmap</a>. A Dutch-specific version, written by school year with what a parent should expect to see at home at each stage, is the <a class="ag-inline-link" href="/python-to-ai-roadmap-for-students-netherlands">Python to AI roadmap for students in the Netherlands</a>.'
     ] },
     right: { h3: 'Where the ladder meets the Dutch timetable', ps: [
       'For a pupil at one of the 238 havo or 236 vwo schools that offer informatica, this track runs beside the subject and goes past where it stops: the school exam programme ends with a constructed artefact, and rung 3 is where a student learns to say how good the artefact is. For the two pupils in three whose school does not offer it, the track is the subject.',

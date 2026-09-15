@@ -123,7 +123,7 @@ Five rungs, and the sequence is the point. Each one depends on the rung below it
 ### Why nobody gets to skip a rung
 
 The mistakes that matter in a model live in the data, so a student who has never cleaned a file cannot judge a model. An agent that cannot measure its own output is a confident random number generator, so a student who has never evaluated anything cannot be trusted to build one. And work that lives only on a laptop persuades nobody: what a university or an employer responds to is a repository a stranger can open, run and check.
-The order in which we teach every subject on the site, with the reasons, is on the [coding roadmap](/coding-roadmap). A Dutch-specific version, written by school year with what a parent should expect to see at home at each stage, follows in this series.
+The order in which we teach every subject on the site, with the reasons, is on the [coding roadmap](/coding-roadmap). A Dutch-specific version, written by school year with what a parent should expect to see at home at each stage, is the [Python to AI roadmap for students in the Netherlands](/python-to-ai-roadmap-for-students-netherlands).
 
 ### Where the ladder meets the Dutch timetable
 

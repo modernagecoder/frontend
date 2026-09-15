@@ -2530,4 +2530,8 @@
 # Global Build-AI cluster (ai-global.css). Inserted before the /* catch-all.
 /app-development-course-netherlands /src/pages/app-development-course-netherlands.html 200
 /app-development-course-netherlands.md /src/pages/app-development-course-netherlands.md 200
+
+# Global Build-AI cluster (ai-global.css). Inserted before the /* catch-all.
+/python-to-ai-roadmap-for-students-netherlands /src/pages/python-to-ai-roadmap-for-students-netherlands.html 200
+/python-to-ai-roadmap-for-students-netherlands.md /src/pages/python-to-ai-roadmap-for-students-netherlands.md 200
 /* /src/pages/404.html 404
