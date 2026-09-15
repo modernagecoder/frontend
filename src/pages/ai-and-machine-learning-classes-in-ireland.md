@@ -512,6 +512,7 @@ Each page answers one question for one audience, with its facts read at the sour
 - [Best online coding classes in Ireland](/best-online-coding-classes-ireland): Where coding sits in Irish schools, six checks for any provider, and what clubs, camps, grinds and live classes are each for.
 - [Understand the code, don't copy-paste](/understand-the-code-dont-copy-paste-ireland): What Irish school and exam guidance says about AI, and how to learn code you can explain line by line.
 - [Leaving Cert Computer Science grinds online](/leaving-cert-computer-science-grinds-online): The subject's strands, exam and coursework, the changes coming in 2027, and live grinds for Fifth and Sixth Years.
+- [After CoderDojo: the next step in coding](/after-coderdojo-next-step-coding-ireland): For children who have outgrown a free coding club: the step from Scratch to Python and AI, with a teacher and a clear path.
 
 Pages for Irish places are listed on [the national Ireland page](/coding-classes-in-ireland).
 

@@ -2562,4 +2562,8 @@
 # Global Build-AI cluster (ai-global.css). Inserted before the /* catch-all.
 /leaving-cert-computer-science-grinds-online /src/pages/leaving-cert-computer-science-grinds-online.html 200
 /leaving-cert-computer-science-grinds-online.md /src/pages/leaving-cert-computer-science-grinds-online.md 200
+
+# Global Build-AI cluster (ai-global.css). Inserted before the /* catch-all.
+/after-coderdojo-next-step-coding-ireland /src/pages/after-coderdojo-next-step-coding-ireland.html 200
+/after-coderdojo-next-step-coding-ireland.md /src/pages/after-coderdojo-next-step-coding-ireland.md 200
 /* /src/pages/404.html 404

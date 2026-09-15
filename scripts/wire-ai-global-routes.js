@@ -143,6 +143,7 @@ const SLUGS = [
   'best-online-coding-classes-ireland',
   'understand-the-code-dont-copy-paste-ireland',
   'leaving-cert-computer-science-grinds-online',
+  'after-coderdojo-next-step-coding-ireland',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -365,6 +366,7 @@ const LLMS_LABELS = {
   'best-online-coding-classes-ireland': 'Best online coding classes in Ireland',
   'understand-the-code-dont-copy-paste-ireland': 'Understand the code, do not copy-paste, Ireland',
   'leaving-cert-computer-science-grinds-online': 'Leaving Cert Computer Science grinds online',
+  'after-coderdojo-next-step-coding-ireland': 'After CoderDojo: the next step in coding, Ireland',
 };
 
 function wireLlms(slugs) {
