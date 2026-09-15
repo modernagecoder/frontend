@@ -2,16 +2,16 @@
 
 Spec: `docs/superpowers/specs/2026-09-15-ireland-cluster-design.md`
 Method and pipeline: the Netherlands cluster (`NETHERLANDS-PROGRESS.md`, `scripts/nl`).
-Status 2026-09-15: PLAN ONLY. Nothing built. Awaiting the owner's yes on the plan, then Phase 1 (six preview pages), then a visible yes before Phases 2 to 7.
+Status 2026-09-16: Phase 1 BUILT on branch ireland-cluster (6 preview pages, all gated, linked from both Irish hubs), NOT pushed. Awaiting the owner's visible yes on the preview before Phases 2 to 7.
 
 Per-page pipeline: research (8+ place facts at primary sources, or skip) -> collision check (dossier strings + data trap) -> `content/ie/<slug>.js` -> build -> check (rendered audit 1280 + 390, uniqueness under 6%, verify) -> link down from hub and parent -> record here -> commit `IE cluster: <slug> (<type>)` -> push.
 
 ## Task 0 (pre-flight)
 
-- [ ] Parameterise the pipeline (market config: `+353` / `IE` / `Ireland`, `/api/callback/request`, phone rule, Irish time prose, tracker, commit prefix); grep renderers clean of NL values
-- [ ] Register Irish slugs explicitly in verify and uniqueness scripts (no `best-coding-class-in-` wildcard: 131 India pages share it)
-- [ ] One test lead "TEST DELETE ME IE" lands as Ireland in the admin panel, then deleted
-- [ ] Finisher and link-down helpers checked into `scripts/`
+- [x] Parameterise the pipeline (market config: `+353` / `IE` / `Ireland`, `/api/callback/request`, phone rule, Irish time prose, tracker, commit prefix); grep renderers clean of NL values
+- [x] Register Irish slugs explicitly in verify and uniqueness scripts (no `best-coding-class-in-` wildcard: 131 India pages share it)
+- [x] One test lead "TEST DELETE ME IE" sent 2026-09-16 through the Dublin page form: HTTP 201 with +353 / IE / Ireland and formPage /best-coding-class-in-dublin (owner to confirm it shows as Ireland in the admin panel, then delete it)
+- [x] Finisher and link-down helpers checked into `scripts/` (scripts/nl/finish.js, scripts/nl/link-down.js)
 
 ## Queue (134)
 
@@ -49,3 +49,5 @@ Phase 7, towns above 10,000 (49, kill-gated): best-coding-class-in-<town> for sw
 
 - Live hub `/coding-classes-in-ireland` has an H2 "One price: USD 150 a month" while also selling USD 100 groups: owner to decide.
 - Research leads in the spec (CSO urban areas and Indian-citizen counts, Junior Cycle Coding ~100 hours, LCCS 180 hours, CodePlus reach) are NOT page-ready; re-verify at primary before any page uses them.
+- Pre-existing, not from this cluster: uniqueness FAIL Leicester vs Birmingham (12.6%) on main.
+- Hub links added 2026-09-16: 'Ireland, page by page' on /coding-classes-in-ireland and 'More for Irish learners' on /ai-and-machine-learning-classes-in-ireland; extend both as pages ship.
