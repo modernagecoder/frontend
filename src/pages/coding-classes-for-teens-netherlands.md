@@ -112,7 +112,7 @@ The complete order of subjects is laid out on the [coding roadmap](/coding-roadm
 ### Around the Dutch school calendar
 
 The profielkeuze in the third year is a good moment to test rung 2, because it shows quickly whether data and technology appeal. In the eindexamen year, most families keep lessons light or pause them around the exams, and pick up again after.
-Pupils at international schools following IB, IGCSE or an American curriculum join the same rungs, by ability rather than grade.
+Pupils at international schools following IB, IGCSE or an American curriculum join the same rungs, by ability rather than grade. Younger brothers and sisters start on [coding classes for kids in the Netherlands](/coding-classes-for-kids-netherlands).
 
 ## Twelve live courses for teenagers, grouped by what they build
 

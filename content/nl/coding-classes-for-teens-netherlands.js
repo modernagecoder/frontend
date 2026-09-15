@@ -151,7 +151,7 @@ module.exports = {
     ] },
     right: { h3: 'Around the Dutch school calendar', ps: [
       'The profielkeuze in the third year is a good moment to test rung 2, because it shows quickly whether data and technology appeal. In the eindexamen year, most families keep lessons light or pause them around the exams, and pick up again after.',
-      'Pupils at international schools following IB, IGCSE or an American curriculum join the same rungs, by ability rather than grade.'
+      'Pupils at international schools following IB, IGCSE or an American curriculum join the same rungs, by ability rather than grade. Younger brothers and sisters start on <a class="ag-inline-link" href="/coding-classes-for-kids-netherlands">coding classes for kids in the Netherlands</a>.'
     ] }
   },
 
