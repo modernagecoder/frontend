@@ -21,6 +21,7 @@
 module.exports = {
   cluster: 'ag',
   clusterName: 'Ireland',
+  hub: { group: 'guide', tag: 'AI AND YOUR OWN WORK', blurb: 'What Irish school and exam guidance says about AI, and how to learn code you can explain line by line.' },
   slug: 'understand-the-code-dont-copy-paste-ireland',
   code: 'ucp',
   accent: '#681944',

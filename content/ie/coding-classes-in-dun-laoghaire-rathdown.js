@@ -17,6 +17,7 @@
 
 module.exports = {
   clusterName: 'Ireland',
+  hub: { group: 'county', tag: 'DÚN LAOGHAIRE-RATHDOWN', blurb: 'From Blackrock and Dundrum to Dalkey and Shankill, with a project on the county\'s bathing water tests.' },
   market: { iso: 'IE', dial: '+353', name: 'Ireland', locale: 'en_IE', geoRegion: 'IE', phoneLabel: 'Irish mobile number', phonePlaceholder: '87 123 4567', gradeLabel: 'Class, year or age' },
   slug: 'coding-classes-in-dun-laoghaire-rathdown',
   code: 'dlr',

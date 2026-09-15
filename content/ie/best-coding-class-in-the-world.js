@@ -22,6 +22,7 @@
 module.exports = {
   cluster: 'ag',
   clusterName: 'Ireland',
+  hub: { group: 'guide', tag: 'WORLDWIDE', blurb: 'Eight tests any coding class should pass, from research on how people learn to program.' },
   slug: 'best-coding-class-in-the-world',
   code: 'bcw',
   accent: '#70530B',

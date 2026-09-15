@@ -727,18 +727,23 @@ Smaller, rural student base, but the online format means location doesn't matter
 
 **Schools:** Various rural community & voluntary secondary schools
 
+<!-- ireland-pages:start -->
+
 Ireland, page by page
 
 ## Coding classes near you, and guides to choosing well.
 
 Pages for Irish places and for the questions Irish families ask most, each written for its own readers, with its facts checked at the source.
 
-- [Coding classes in Dublin](/best-coding-class-in-dublin): The city and county, from Swords to Tallaght, with a project on Dublin Bikes data.
-- [Coding classes in Dún Laoghaire-Rathdown](/coding-classes-in-dun-laoghaire-rathdown): From Blackrock and Dundrum to Dalkey and Shankill, with a project on the county's bathing water tests.
+- [Best coding class in the world](/best-coding-class-in-the-world): Eight tests any coding class should pass, from research on how people learn to program.
 - [Best online coding classes in Ireland](/best-online-coding-classes-ireland): Where coding sits in Irish schools, six checks for any provider, and what clubs, camps, grinds and live classes are each for.
 - [Understand the code, don't copy-paste](/understand-the-code-dont-copy-paste-ireland): What Irish school and exam guidance says about AI, and how to learn code you can explain line by line.
 - [Leaving Cert Computer Science grinds online](/leaving-cert-computer-science-grinds-online): The subject's strands, exam and coursework, the changes coming in 2027, and live grinds for Fifth and Sixth Years.
-- [The best coding class in the world](/best-coding-class-in-the-world): Eight tests any coding class should pass, from research on how people learn to program.
+- [Coding classes in Dublin](/best-coding-class-in-dublin): The city and county, from Swords to Tallaght, with a project on Dublin Bikes data.
+
+**Counties and council areas:** [Dún Laoghaire-Rathdown](/coding-classes-in-dun-laoghaire-rathdown)
+
+<!-- ireland-pages:end -->
 
 Real shipped student projects
 

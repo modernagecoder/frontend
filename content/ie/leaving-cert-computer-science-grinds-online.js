@@ -25,6 +25,7 @@
 module.exports = {
   cluster: 'ag',
   clusterName: 'Ireland',
+  hub: { group: 'guide', tag: 'LEAVING CERT', blurb: 'The subject\'s strands, exam and coursework, the changes coming in 2027, and live grinds for Fifth and Sixth Years.' },
   slug: 'leaving-cert-computer-science-grinds-online',
   code: 'lcg',
   accent: '#29396C',

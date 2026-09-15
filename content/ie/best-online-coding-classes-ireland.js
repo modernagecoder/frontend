@@ -19,6 +19,7 @@
 module.exports = {
   cluster: 'ag',
   clusterName: 'Ireland',
+  hub: { group: 'guide', tag: 'CHOOSING A CLASS', blurb: 'Where coding sits in Irish schools, six checks for any provider, and what clubs, camps, grinds and live classes are each for.' },
   slug: 'best-online-coding-classes-ireland',
   code: 'boi',
   accent: '#0E4B00',

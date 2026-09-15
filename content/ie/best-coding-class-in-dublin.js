@@ -15,6 +15,7 @@
 
 module.exports = {
   clusterName: 'Ireland',
+  hub: { group: 'city', tag: 'DUBLIN', blurb: 'The city and county, from Swords to Tallaght, with a project on Dublin Bikes data.' },
   market: { iso: 'IE', dial: '+353', name: 'Ireland', locale: 'en_IE', geoRegion: 'IE', phoneLabel: 'Irish mobile number', phonePlaceholder: '87 123 4567', gradeLabel: 'Class, year or age' },
   slug: 'best-coding-class-in-dublin',
   code: 'dub',
