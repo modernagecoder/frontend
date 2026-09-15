@@ -144,6 +144,7 @@ const SLUGS = [
   'understand-the-code-dont-copy-paste-ireland',
   'leaving-cert-computer-science-grinds-online',
   'after-coderdojo-next-step-coding-ireland',
+  'ai-and-python-academy-for-girls-ireland',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -367,6 +368,7 @@ const LLMS_LABELS = {
   'understand-the-code-dont-copy-paste-ireland': 'Understand the code, do not copy-paste, Ireland',
   'leaving-cert-computer-science-grinds-online': 'Leaving Cert Computer Science grinds online',
   'after-coderdojo-next-step-coding-ireland': 'After CoderDojo: the next step in coding, Ireland',
+  'ai-and-python-academy-for-girls-ireland': 'AI and Python academy for girls, Ireland',
 };
 
 function wireLlms(slugs) {
