@@ -130,6 +130,7 @@ const SLUGS = [
   'machine-learning-for-school-students-netherlands',
   'one-to-one-coding-classes-netherlands',
   'python-classes-netherlands',
+  'ai-and-python-academy-for-girls-netherlands',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -339,6 +340,7 @@ const LLMS_LABELS = {
   'machine-learning-for-school-students-netherlands': 'Machine learning for school students, Netherlands',
   'one-to-one-coding-classes-netherlands': 'One-to-one coding classes, Netherlands',
   'python-classes-netherlands': 'Python classes, Netherlands',
+  'ai-and-python-academy-for-girls-netherlands': 'AI and Python Academy for girls, Netherlands',
 };
 
 function wireLlms(slugs) {
