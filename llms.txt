@@ -351,6 +351,7 @@ Ages 6 to 67, small live batches, priced from USD 100 a month.
 - Java classes, Netherlands: https://learn.modernagecoders.com/java-classes-netherlands
 - Coding alongside informatica, havo and vwo: https://learn.modernagecoders.com/coding-alongside-informatica-havo-vwo-netherlands
 - Full stack software development course, Netherlands: https://learn.modernagecoders.com/full-stack-software-development-course-netherlands
+- Data science course, Netherlands: https://learn.modernagecoders.com/data-science-course-netherlands
 ## Coding Classes by State, Province & Market
 
 Live online coding and mathematics for a specific state, province or market,
