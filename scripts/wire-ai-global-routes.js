@@ -141,6 +141,7 @@ const SLUGS = [
   'vibe-coding-vs-building-ai-netherlands',
   'best-coding-class-in-the-world',
   'best-online-coding-classes-ireland',
+  'understand-the-code-dont-copy-paste-ireland',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -361,6 +362,7 @@ const LLMS_LABELS = {
   'vibe-coding-vs-building-ai-netherlands': 'Vibe coding vs building AI, Netherlands',
   'best-coding-class-in-the-world': 'Best coding class in the world: eight tests',
   'best-online-coding-classes-ireland': 'Best online coding classes in Ireland',
+  'understand-the-code-dont-copy-paste-ireland': 'Understand the code, do not copy-paste, Ireland',
 };
 
 function wireLlms(slugs) {

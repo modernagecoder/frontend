@@ -9820,6 +9820,18 @@
   to = "/src/pages/best-online-coding-classes-ireland.md"
   status = 200
 
+# Global Build-AI cluster (ai-global.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/understand-the-code-dont-copy-paste-ireland"
+  to = "/src/pages/understand-the-code-dont-copy-paste-ireland.html"
+  status = 200
+
+[[redirects]]
+  from = "/understand-the-code-dont-copy-paste-ireland.md"
+  to = "/src/pages/understand-the-code-dont-copy-paste-ireland.md"
+  status = 200
+
 [[redirects]]
   from = "/*"
   to = "/src/pages/404.html"
