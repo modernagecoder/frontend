@@ -134,6 +134,7 @@ const SLUGS = [
   'ai-agents-course-for-students-netherlands',
   'java-classes-netherlands',
   'coding-alongside-informatica-havo-vwo-netherlands',
+  'full-stack-software-development-course-netherlands',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -347,6 +348,7 @@ const LLMS_LABELS = {
   'ai-agents-course-for-students-netherlands': 'AI agents course for students, Netherlands',
   'java-classes-netherlands': 'Java classes, Netherlands',
   'coding-alongside-informatica-havo-vwo-netherlands': 'Coding alongside informatica, havo and vwo',
+  'full-stack-software-development-course-netherlands': 'Full stack software development course, Netherlands',
 };
 
 function wireLlms(slugs) {
